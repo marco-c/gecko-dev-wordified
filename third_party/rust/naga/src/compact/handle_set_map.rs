@@ -1,13 +1,4 @@
 use
-alloc
-:
-:
-vec
-:
-:
-Vec
-;
-use
 crate
 :
 :
@@ -134,7 +125,7 @@ T
 .
 as_keys
 :
-core
+std
 :
 :
 marker
@@ -279,7 +270,7 @@ collect
 )
 as_keys
 :
-core
+std
 :
 :
 marker
@@ -419,7 +410,7 @@ handle
 }
 ]
 "
-core
+std
 :
 :
 any

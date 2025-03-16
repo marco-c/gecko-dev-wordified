@@ -109,6 +109,10 @@ Borrow
 Cow
 }
 iter
+mem
+:
+:
+size_of
 ptr
 time
 :

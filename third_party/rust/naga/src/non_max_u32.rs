@@ -239,7 +239,7 @@ Handle
 NonZeroU32
 ]
 :
-core
+std
 :
 :
 num
@@ -255,7 +255,7 @@ dead_code
 )
 ]
 use
-core
+std
 :
 :
 num
@@ -649,7 +649,7 @@ NonZeroU32
 NonZeroU32
 ]
 :
-core
+std
 :
 :
 num
@@ -1073,7 +1073,7 @@ n
 }
 }
 impl
-core
+std
 :
 :
 fmt
@@ -1092,7 +1092,7 @@ f
 :
 &
 mut
-core
+std
 :
 :
 fmt
@@ -1106,7 +1106,7 @@ _
 )
 -
 >
-core
+std
 :
 :
 fmt
@@ -1127,7 +1127,7 @@ f
 }
 }
 impl
-core
+std
 :
 :
 fmt
@@ -1146,7 +1146,7 @@ f
 :
 &
 mut
-core
+std
 :
 :
 fmt
@@ -1160,7 +1160,7 @@ _
 )
 -
 >
-core
+std
 :
 :
 fmt
@@ -1423,6 +1423,15 @@ size
 (
 )
 {
+use
+core
+:
+:
+mem
+:
+:
+size_of
+;
 assert_eq
 !
 (
