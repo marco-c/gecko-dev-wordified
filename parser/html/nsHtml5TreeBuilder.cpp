@@ -1605,7 +1605,7 @@ if
 nsGkAtoms
 :
 :
-mi_
+mi
 =
 =
 contextName
@@ -1614,7 +1614,7 @@ contextName
 nsGkAtoms
 :
 :
-mo_
+mo
 =
 =
 contextName
@@ -1623,7 +1623,7 @@ contextName
 nsGkAtoms
 :
 :
-mn_
+mn
 =
 =
 contextName
@@ -1632,7 +1632,7 @@ contextName
 nsGkAtoms
 :
 :
-ms_
+ms
 =
 =
 contextName
@@ -1641,7 +1641,7 @@ contextName
 nsGkAtoms
 :
 :
-mtext_
+mtext
 =
 =
 contextName
@@ -1661,7 +1661,7 @@ if
 nsGkAtoms
 :
 :
-annotation_xml_
+annotation_xml
 =
 =
 contextName
