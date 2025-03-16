@@ -23693,6 +23693,25 @@ MessageChannel
 MessageChannel
 "
 )
+            
+Typedef
+(
+Type
+(
+"
+mozilla
+:
+:
+ipc
+:
+:
+SharedMemory
+"
+)
+"
+SharedMemory
+"
+)
         
 ]
     

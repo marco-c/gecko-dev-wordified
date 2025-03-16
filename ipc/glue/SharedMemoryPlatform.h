@@ -151,15 +151,6 @@ Logging
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Maybe
-.
-h
-"
 namespace
 mozilla
 :
@@ -286,7 +277,7 @@ static
 bool
 Create
 (
-MutableHandle
+Handle
 &
 aHandle
 size_t

@@ -1421,7 +1421,6 @@ MemReader
 constexpr
 MemReader
 (
-const
 char
 *
 aData
@@ -1542,12 +1541,10 @@ mEnd
 1
 ;
 }
-const
 char
 *
 mData
 ;
-const
 char
 *
 mEnd

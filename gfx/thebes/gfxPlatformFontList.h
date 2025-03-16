@@ -250,7 +250,7 @@ mozilla
 /
 ipc
 /
-SharedMemoryHandle
+SharedMemory
 .
 h
 "
@@ -2511,7 +2511,10 @@ mozilla
 ipc
 :
 :
-ReadOnlySharedMemoryHandle
+SharedMemory
+:
+:
+Handle
 *
 aOut
 )
@@ -2551,7 +2554,10 @@ mozilla
 ipc
 :
 :
-ReadOnlySharedMemoryHandle
+SharedMemory
+:
+:
+Handle
 >
 *
 aBlocks
@@ -2575,7 +2581,10 @@ mozilla
 ipc
 :
 :
-ReadOnlySharedMemoryHandle
+SharedMemory
+:
+:
+Handle
 aHandle
 )
 ;
@@ -2585,7 +2594,10 @@ mozilla
 ipc
 :
 :
-ReadOnlySharedMemoryHandle
+SharedMemory
+:
+:
+Handle
 ShareShmBlockToProcess
 (
 uint32_t

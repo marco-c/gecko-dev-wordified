@@ -124,7 +124,7 @@ mozilla
 /
 ipc
 /
-SharedMemoryHandle
+SharedMemory
 .
 h
 "
@@ -214,9 +214,15 @@ mozilla
 ipc
 :
 :
-ReadOnlySharedMemoryHandle
+SharedMemory
+:
+:
+Handle
 *
 aOutHandle
+uint32_t
+*
+aOutSize
 )
 ;
 static

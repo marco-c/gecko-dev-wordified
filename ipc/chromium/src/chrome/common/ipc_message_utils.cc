@@ -617,7 +617,7 @@ ipc
 shared_memory
 :
 :
-MutableHandle
+Handle
 handle
 ;
 if

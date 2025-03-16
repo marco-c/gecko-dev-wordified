@@ -2133,6 +2133,17 @@ include
 "
 mozilla
 /
+ipc
+/
+SharedMemory
+.
+h
+"
+#
+include
+"
+mozilla
+/
 net
 /
 UrlClassifierCommon
