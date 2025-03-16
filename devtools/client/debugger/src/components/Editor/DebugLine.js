@@ -911,9 +911,7 @@ expression
 lineClass
 :
 "
-new
--
-debug
+paused
 -
 line
 "

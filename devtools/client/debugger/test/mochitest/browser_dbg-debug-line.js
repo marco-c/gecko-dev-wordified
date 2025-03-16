@@ -339,7 +339,7 @@ findAllElements
 (
 dbg
 "
-debugLine
+pausedLine
 "
 )
 .
