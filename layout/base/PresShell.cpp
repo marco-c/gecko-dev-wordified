@@ -67955,17 +67955,6 @@ InitFlag
 CallerWillInit
 )
 ;
-reflowInput
-.
-mOrthogonalLimit
-=
-size
-.
-BSize
-(
-wm
-)
-;
 if
 (
 isRoot
