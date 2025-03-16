@@ -5124,7 +5124,6 @@ value_params
 default
 ;
 \
-\
 :
 impl_
 (
@@ -5349,6 +5348,11 @@ GMOCK_INTERNAL_DECL_TYPE_
 value_params
 >
 \
+[
+[
+nodiscard
+]
+]
 GMOCK_ACTION_CLASS_
 (
 \
@@ -5374,7 +5378,6 @@ GMOCK_INTERNAL_DECL_
 #
 value_params
 )
-GTEST_MUST_USE_RESULT_
 ;
 \
 template
