@@ -11156,11 +11156,12 @@ device_serial
 print
 (
 "
-No
-ADB
-devices
-connected
-.
+Unable
+to
+find
+ready
+Android
+device
 "
 )
         
