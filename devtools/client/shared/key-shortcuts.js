@@ -1466,6 +1466,14 @@ clear
 (
 )
 ;
+this
+.
+eventEmitter
+.
+off
+(
+)
+;
 }
 doesEventMatchShortcut
 (
