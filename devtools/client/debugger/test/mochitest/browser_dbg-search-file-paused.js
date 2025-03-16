@@ -369,7 +369,7 @@ ok
 isScrolledPositionVisible
 (
 dbg
-0
+1
 )
 "
 First
