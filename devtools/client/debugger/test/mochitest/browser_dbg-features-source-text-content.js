@@ -1497,7 +1497,7 @@ waitForSources
 )
 ;
 await
-selectSourceFromSourceTree
+selectSourceFromSourceTreeWithIndex
 (
 dbg
 "
@@ -1546,7 +1546,7 @@ n
 )
 ;
 await
-selectSourceFromSourceTree
+selectSourceFromSourceTreeWithIndex
 (
 dbg
 "
@@ -1589,7 +1589,7 @@ script
 )
 ;
 await
-selectSourceFromSourceTree
+selectSourceFromSourceTreeWithIndex
 (
 dbg
 "
@@ -1637,7 +1637,7 @@ script
 )
 ;
 await
-selectSourceFromSourceTree
+selectSourceFromSourceTreeWithIndex
 (
 dbg
 "
@@ -1668,7 +1668,7 @@ INDEX_PAGE_CONTENT
 )
 ;
 await
-selectSourceFromSourceTree
+selectSourceFromSourceTreeWithIndex
 (
 dbg
 "
@@ -1703,7 +1703,7 @@ NAMED_EVAL_CONTENT
 )
 ;
 await
-selectSourceFromSourceTree
+selectSourceFromSourceTreeWithIndex
 (
 dbg
 "
@@ -1995,7 +1995,7 @@ true
 )
 ;
 await
-selectSourceFromSourceTree
+selectSourceFromSourceTreeWithIndex
 (
 dbg
 "
@@ -2355,7 +2355,7 @@ true
 )
 ;
 await
-selectSourceFromSourceTree
+selectSourceFromSourceTreeWithIndex
 (
 dbg
 "

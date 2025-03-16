@@ -2572,7 +2572,7 @@ icon
 )
 ;
 await
-selectSource
+selectSourceFromSourceTree
 (
 dbg
 "
@@ -2662,7 +2662,7 @@ eval
 )
 ;
 await
-selectSource
+selectSourceFromSourceTree
 (
 dbg
 "
@@ -2751,7 +2751,7 @@ string
 )
 ;
 await
-selectSource
+selectSourceFromSourceTree
 (
 dbg
 "
@@ -3420,7 +3420,7 @@ js
 )
 ;
 await
-selectSource
+selectSourceFromSourceTree
 (
 dbg
 "
