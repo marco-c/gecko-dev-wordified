@@ -17646,12 +17646,6 @@ clearDragOverCreateGroupTimer
 (
 )
 ;
-this
-.
-_handleTabSelect
-(
-)
-;
 }
 /
 *
