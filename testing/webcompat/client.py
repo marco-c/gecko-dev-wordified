@@ -9441,6 +9441,9 @@ None
 return
 False
         
+try
+:
+            
 return
 self
 .
@@ -9448,11 +9451,11 @@ session
 .
 execute_script
 (
-            
+                
 "
 "
 "
-              
+                  
 const
 e
 =
@@ -9460,7 +9463,7 @@ arguments
 [
 0
 ]
-                    
+                  
 s
 =
 window
@@ -9469,7 +9472,7 @@ getComputedStyle
 (
 e
 )
-                    
+                  
 v
 =
 s
@@ -9481,7 +9484,7 @@ visibility
 "
 visible
 "
-                    
+                  
 o
 =
 Math
@@ -9496,7 +9499,7 @@ opacity
 )
 )
 ;
-              
+                  
 return
 e
 .
@@ -9528,18 +9531,29 @@ o
 0
 )
 ;
-          
+              
 "
 "
 "
-            
+                
 args
 =
 [
 element
 ]
-        
+            
 )
+        
+except
+webdriver
+.
+error
+.
+StaleElementReferenceException
+:
+            
+return
+False
     
 def
 is_one_solid_color
