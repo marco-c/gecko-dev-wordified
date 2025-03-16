@@ -160,7 +160,9 @@ TreeView
 =
 createFactory
 (
-require
+ChromeUtils
+.
+importESModule
 (
 "
 resource
@@ -179,9 +181,11 @@ tree
 /
 TreeView
 .
-js
+mjs
 "
 )
+.
+default
 )
 ;
 /

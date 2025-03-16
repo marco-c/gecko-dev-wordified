@@ -209,7 +209,9 @@ Components
 const
 TreeViewClass
 =
-require
+ChromeUtils
+.
+importESModule
 (
 "
 resource
@@ -228,9 +230,11 @@ tree
 /
 TreeView
 .
-js
+mjs
 "
 )
+.
+default
 ;
 const
 PropertiesView

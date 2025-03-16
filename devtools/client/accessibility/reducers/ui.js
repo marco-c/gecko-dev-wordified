@@ -100,7 +100,9 @@ js
 const
 TreeView
 =
-require
+ChromeUtils
+.
+importESModule
 (
 "
 resource
@@ -119,9 +121,11 @@ tree
 /
 TreeView
 .
-js
+mjs
 "
 )
+.
+default
 ;
 /
 *
