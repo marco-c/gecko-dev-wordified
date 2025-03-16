@@ -834,7 +834,7 @@ languagesGroup
 webAppearanceGroup
 "
 "
-colorsGroup
+contrastControlGroup
 "
 "
 fontsGroup
