@@ -5724,7 +5724,7 @@ case
 ColorID
 :
 :
-MozNativehyperlinktext
+Linktext
 :
 aColor
 =
@@ -5736,7 +5736,7 @@ case
 ColorID
 :
 :
-MozNativevisitedhyperlinktext
+Visitedtext
 :
 aColor
 =
@@ -5840,6 +5840,12 @@ mFg
 ;
 break
 ;
+case
+ColorID
+:
+:
+Activetext
+:
 case
 ColorID
 :

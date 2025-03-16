@@ -2306,7 +2306,7 @@ case
 ColorID
 :
 :
-MozNativehyperlinktext
+Linktext
 :
 aColor
 =
@@ -2323,7 +2323,7 @@ case
 ColorID
 :
 :
-MozNativevisitedhyperlinktext
+Visitedtext
 :
 aColor
 =
@@ -2433,6 +2433,12 @@ windowBackgroundColor
 return
 NS_OK
 ;
+case
+ColorID
+:
+:
+Activetext
+:
 case
 ColorID
 :
