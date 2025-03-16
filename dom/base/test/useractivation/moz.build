@@ -105,3 +105,13 @@ chrome
 toml
 "
 ]
+BROWSER_CHROME_MANIFESTS
++
+=
+[
+"
+browser
+.
+toml
+"
+]
