@@ -94,7 +94,7 @@ node
 -
 constants
 .
-js
+mjs
 "
 "
 grip
@@ -103,6 +103,6 @@ length
 -
 bubble
 .
-js
+mjs
 "
 )
