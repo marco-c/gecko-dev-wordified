@@ -1680,7 +1680,7 @@ app
 *
 returns
 {
-ArrayBuffer
+ArrayBufferLike
 }
 An
 ArrayBuffer
