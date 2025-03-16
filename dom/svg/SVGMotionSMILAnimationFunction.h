@@ -615,7 +615,7 @@ nsIContent
 aContextElem
 )
 ;
-bool
+nsresult
 GenerateValuesForPathAndPoints
 (
 Path
