@@ -1321,16 +1321,10 @@ template
 class
 WeakMap
 <
-HeapPtr
-<
 JSObject
 *
->
-HeapPtr
-<
 JSObject
 *
->
 >
 ;
 }
