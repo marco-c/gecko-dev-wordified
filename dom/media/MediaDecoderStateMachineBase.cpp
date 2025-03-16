@@ -1225,6 +1225,15 @@ Notify
 aError
 )
 ;
+#
+ifdef
+DEBUG
+mHasNotifiedPlaybackError
+=
+true
+;
+#
+endif
 }
 RefPtr
 <
