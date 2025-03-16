@@ -730,9 +730,9 @@ JSContext
 *
 cx
 const
-ShareableBytes
+BytecodeSource
 &
-bytecode
+source
 Bytes
 *
 serialized
