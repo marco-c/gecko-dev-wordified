@@ -14389,7 +14389,7 @@ WrapForValidIteratorObject
 2
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 CanOptimizeArraySpecies
@@ -14397,6 +14397,7 @@ CanOptimizeArraySpecies
 intrinsic_CanOptimizeArraySpecies
 1
 0
+IntrinsicCanOptimizeArraySpecies
 )
 JS_FN
 (

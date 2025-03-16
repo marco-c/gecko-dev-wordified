@@ -1417,6 +1417,12 @@ case
 InlinableNative
 :
 :
+IntrinsicCanOptimizeArraySpecies
+:
+case
+InlinableNative
+:
+:
 IntrinsicToInteger
 :
 case
