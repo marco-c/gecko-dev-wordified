@@ -111,7 +111,7 @@ null
 *
 returns
 {
-Window
+Promise
 }
 *
 The
