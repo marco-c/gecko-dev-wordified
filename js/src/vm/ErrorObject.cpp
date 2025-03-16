@@ -768,8 +768,6 @@ Value
 vp
 )
 ;
-#
-endif
 static
 bool
 exn_captureStackTrace
@@ -784,6 +782,8 @@ Value
 vp
 )
 ;
+#
+endif
 static
 const
 JSFunctionSpec
@@ -804,8 +804,6 @@ exn_isError
 1
 0
 )
-#
-endif
 JS_FN
 (
 "
@@ -815,6 +813,8 @@ exn_captureStackTrace
 2
 0
 )
+#
+endif
 JS_FS_END
 }
 ;
@@ -6747,8 +6747,6 @@ return
 true
 ;
 }
-#
-endif
 /
 /
 The
@@ -7378,3 +7376,5 @@ return
 true
 ;
 }
+#
+endif
