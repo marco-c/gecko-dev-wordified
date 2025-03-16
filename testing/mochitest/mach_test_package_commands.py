@@ -1163,20 +1163,6 @@ args
 .
 deviceSerial
 =
-(
-            
-os
-.
-environ
-.
-get
-(
-"
-ANDROID_SERIAL
-"
-)
-            
-or
 os
 .
 environ
@@ -1186,15 +1172,11 @@ get
 "
 DEVICE_SERIAL
 "
-)
-            
-or
 "
 emulator
 -
 5554
 "
-        
 )
     
 return
