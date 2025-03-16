@@ -14170,13 +14170,12 @@ JSEXN_RANGEERR
 year
 -
 month
--
-day
 must
 be
 valid
-iso
-dates
+ISO
+date
+values
 "
 )
 MSG_DEF
