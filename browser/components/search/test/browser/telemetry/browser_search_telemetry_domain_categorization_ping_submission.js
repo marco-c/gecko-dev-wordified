@@ -76,6 +76,19 @@ startup
 )
 *
 /
+/
+/
+Can
+fail
+in
+TV
+mode
+.
+requestLongerTimeout
+(
+2
+)
+;
 ChromeUtils
 .
 defineESModuleGetters
@@ -92,7 +105,7 @@ resource
 /
 modules
 /
-SearchSERPTelemetry
+SERPCategorization
 .
 sys
 .
@@ -108,7 +121,7 @@ resource
 /
 modules
 /
-SearchSERPTelemetry
+SERPCategorization
 .
 sys
 .
@@ -159,7 +172,7 @@ resource
 /
 modules
 /
-SearchSERPTelemetry
+SERPCategorization
 .
 sys
 .
@@ -175,7 +188,7 @@ resource
 /
 modules
 /
-SearchSERPTelemetry
+SERPCategorization
 .
 sys
 .
@@ -1699,7 +1712,7 @@ categories
 map
 .
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 uninit
 (
@@ -1761,7 +1774,7 @@ waitForDomainToCategoriesUninit
 )
 ;
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 init
 (
@@ -1883,7 +1896,7 @@ restore
 )
 ;
 await
-SearchSERPDomainToCategoriesMap
+SERPDomainToCategoriesMap
 .
 init
 (
