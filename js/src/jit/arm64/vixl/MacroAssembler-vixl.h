@@ -16582,12 +16582,6 @@ reg
 )
 const
 ;
-bool
-HasAvailableRegister
-(
-)
-const
-;
 /
 /
 Take
