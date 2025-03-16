@@ -477,6 +477,9 @@ value
 return
 (
 argumentSearchValue
+&
+&
+argumentSearchValue
 .
 textContent
 =
