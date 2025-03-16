@@ -2330,6 +2330,15 @@ aOutPolicy
 )
 override
 ;
+NS_IMETHOD
+GetOriginAgentClusterHeader
+(
+bool
+*
+aValue
+)
+override
+;
 inline
 void
 CleanRedirectCacheChainIfNecessary
