@@ -225,9 +225,7 @@ sourceCode
 =
 context
 .
-getSourceCode
-(
-)
+sourceCode
 ;
 return
 [

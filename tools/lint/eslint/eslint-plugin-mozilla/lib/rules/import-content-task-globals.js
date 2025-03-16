@@ -283,6 +283,7 @@ spawn
 :
 function
 (
+node
 )
 {
 /
@@ -340,8 +341,11 @@ addVarToScope
 name
 context
 .
+sourceCode
+.
 getScope
 (
+node
 )
 value
 )
@@ -376,6 +380,7 @@ spawn
 :
 function
 (
+node
 )
 {
 for
@@ -403,8 +408,11 @@ addVarToScope
 name
 context
 .
+sourceCode
+.
 getScope
 (
+node
 )
 value
 )
@@ -461,8 +469,11 @@ addVarToScope
 global
 context
 .
+sourceCode
+.
 getScope
 (
+node
 )
 false
 )
@@ -497,6 +508,7 @@ spawnChrome
 :
 function
 (
+node
 )
 {
 for
@@ -524,8 +536,11 @@ addVarToScope
 name
 context
 .
+sourceCode
+.
 getScope
 (
+node
 )
 value
 )
@@ -576,8 +591,11 @@ addVarToScope
 global
 context
 .
+sourceCode
+.
 getScope
 (
+node
 )
 false
 )

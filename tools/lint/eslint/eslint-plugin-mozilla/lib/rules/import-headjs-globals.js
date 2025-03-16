@@ -137,6 +137,7 @@ importHead
 (
 context
 path
+node
 )
 {
 try
@@ -190,8 +191,11 @@ addGlobals
 newGlobals
 context
 .
+sourceCode
+.
 getScope
 (
+node
 )
 )
 ;

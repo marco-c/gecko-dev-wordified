@@ -247,9 +247,7 @@ sourceText
 =
 context
 .
-getSourceCode
-(
-)
+sourceCode
 .
 getText
 (

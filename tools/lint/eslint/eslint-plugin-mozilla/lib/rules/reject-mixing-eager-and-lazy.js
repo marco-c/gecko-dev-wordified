@@ -430,11 +430,12 @@ helpers
 .
 getIsTopLevelAndUnconditionallyExecuted
 (
-helpers
+context
+.
+sourceCode
 .
 getAncestors
 (
-context
 node
 )
 )
