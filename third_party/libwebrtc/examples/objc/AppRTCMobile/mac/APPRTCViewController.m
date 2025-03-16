@@ -645,6 +645,8 @@ _remoteVideoView
 remoteViewHeight
 )
 ]
+"
+"
 -
 [
 _scrollView
@@ -675,6 +677,8 @@ remoteViewHeight
 [
 _actionItemsView
 (
+"
+"
 kBottomViewHeight
 )
 ]

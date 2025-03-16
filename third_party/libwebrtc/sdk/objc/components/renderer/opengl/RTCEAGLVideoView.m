@@ -293,9 +293,9 @@ RTC_OBJC_TYPE
 (
 RTCEAGLVideoView
 )
+/
+/
 maintains
-/
-/
 its
 own
 isDirty
@@ -327,9 +327,9 @@ worker
 thread
 and
 is
+/
+/
 read
-/
-/
 from
 the
 display

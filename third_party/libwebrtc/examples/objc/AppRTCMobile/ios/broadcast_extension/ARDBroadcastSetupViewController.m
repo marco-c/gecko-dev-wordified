@@ -635,6 +635,8 @@ will
 be
 returned
 to
+/
+/
 the
 application
 NSURL
@@ -680,11 +682,11 @@ be
 provided
 to
 broadcast
+/
+/
 extension
 when
 broadcast
-/
-/
 is
 started
 NSDictionary
@@ -715,6 +717,8 @@ up
 and
 can
 begin
+/
+/
 broadcasting
 [
 self

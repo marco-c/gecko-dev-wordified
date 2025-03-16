@@ -279,12 +279,12 @@ from
 the
 UI
 extension
+/
+/
 can
 be
 supplied
 but
-/
-/
 optional
 .
 ARDSettingsModel
@@ -415,6 +415,8 @@ Samples
 will
 stop
 being
+/
+/
 delivered
 .
 }
