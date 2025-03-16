@@ -8313,6 +8313,18 @@ containedPrimary
 "
 )
         
+PREMIUM
+=
+self
+.
+text
+(
+            
+"
+"
+        
+)
+        
 BLOCKED
 =
 self
@@ -8354,6 +8366,7 @@ True
 :
             
 consent
+premium
 blocked
 play
 =
@@ -8365,6 +8378,8 @@ await_first_element_of
 [
                     
 CONSENT
+                    
+PREMIUM
                     
 BLOCKED
                     
@@ -8410,6 +8425,8 @@ shouldPass
             
 assert
 play
+or
+premium
         
 else
 :
