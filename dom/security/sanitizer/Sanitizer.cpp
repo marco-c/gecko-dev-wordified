@@ -5714,6 +5714,8 @@ elements
 without
 specific
 allowed
+/
+/
 attributes
 .
 elementAttributes
@@ -7761,6 +7763,8 @@ the
 "
 null
 "
+/
+/
 namespace
 .
 if
