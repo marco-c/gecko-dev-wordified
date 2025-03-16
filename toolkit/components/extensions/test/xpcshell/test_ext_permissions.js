@@ -4351,9 +4351,6 @@ activityLog
 alarms
 "
 "
-contextualIdentities
-"
-"
 cookies
 "
 "
@@ -4465,6 +4462,9 @@ captivePortal
 "
 "
 contextMenus
+"
+"
+contextualIdentities
 "
 "
 geckoProfiler
