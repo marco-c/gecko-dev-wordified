@@ -800,6 +800,7 @@ mGlobalScope
 =
 ConstructGlobalScope
 (
+cx
 )
 ;
 JS
