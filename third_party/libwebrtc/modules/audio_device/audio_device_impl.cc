@@ -1723,6 +1723,13 @@ muted_speech_event_handler
 *
 /
 nullptr
+/
+*
+render_error_handler
+=
+*
+/
+nullptr
 )
 )
 ;
