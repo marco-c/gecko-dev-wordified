@@ -1843,6 +1843,17 @@ options
 ;
 }
 ;
+union
+IPCNotificationsOrError
+{
+IPCNotification
+[
+]
+;
+nsresult
+;
+}
+;
 }
 /
 /
