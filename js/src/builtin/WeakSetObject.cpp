@@ -1043,6 +1043,7 @@ WeakSetObject
 :
 :
 properties
+GenericFinishInitWithPrototypeFuseProperty
 }
 ;
 const
