@@ -8253,6 +8253,7 @@ servo
 derive
 (
 Deserialize
+Hash
 Serialize
 )
 )
