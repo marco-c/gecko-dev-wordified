@@ -496,7 +496,6 @@ shared_lock
 stylesheet_loader
 error_reporter
 quirks_mode
-0
 AllowImportRules
 :
 :
@@ -599,7 +598,6 @@ string
 url_data
 stylesheet_loader
 error_reporter
-0
 AllowImportRules
 :
 :
