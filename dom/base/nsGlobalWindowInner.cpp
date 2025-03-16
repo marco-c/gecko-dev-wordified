@@ -39153,14 +39153,14 @@ nestingLevel
 mTimeoutManager
 -
 >
-GetNestingLevelForWindow
+GetNestingLevel
 (
 )
 ;
 mTimeoutManager
 -
 >
-SetNestingLevelForWindow
+SetNestingLevel
 (
 timeout
 -
@@ -39570,7 +39570,7 @@ it
 mTimeoutManager
 -
 >
-SetNestingLevelForWindow
+SetNestingLevel
 (
 nestingLevel
 )
