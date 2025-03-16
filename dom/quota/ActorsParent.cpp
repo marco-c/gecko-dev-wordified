@@ -33321,6 +33321,16 @@ group
 limit
 here
 .
+SleepIfEnabled
+(
+StaticPrefs
+:
+:
+dom_quotaManager_groupInitialization_pauseOnIOThreadMs
+(
+)
+)
+;
 return
 Ok
 {
