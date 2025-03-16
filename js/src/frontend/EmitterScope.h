@@ -386,15 +386,6 @@ UsingEmitter
 >
 usingEmitter_
 ;
-mozilla
-:
-:
-Maybe
-<
-ForOfDisposalEmitter
->
-forOfDisposalEmitter_
-;
 private
 :
 BlockKind
