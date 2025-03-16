@@ -985,6 +985,7 @@ derive
 Clone
 Debug
 Eq
+MallocSizeOf
 PartialEq
 )
 ]
@@ -992,6 +993,14 @@ pub
 struct
 UrlExtraData
 (
+#
+[
+ignore_malloc_size_of
+=
+"
+Arc
+"
+]
 pub
 Arc
 <
