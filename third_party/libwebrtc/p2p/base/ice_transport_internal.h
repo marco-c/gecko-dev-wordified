@@ -3047,6 +3047,8 @@ SetDtlsHandshakeComplete
 (
 bool
 is_dtls_client
+bool
+is_dtls13
 )
 {
 }
