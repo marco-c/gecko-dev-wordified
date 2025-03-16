@@ -145,17 +145,6 @@ namespace
 mozilla
 {
 namespace
-ipc
-{
-class
-UnsafeSharedMemoryHandle
-;
-}
-/
-/
-namespace
-ipc
-namespace
 dom
 {
 struct
