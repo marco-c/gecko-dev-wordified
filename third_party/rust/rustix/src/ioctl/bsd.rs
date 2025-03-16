@@ -117,9 +117,7 @@ RawOpcode
 /
 IOC_OUT
 (
-"
 out
-"
 is
 from
 the
@@ -139,6 +137,16 @@ RawOpcode
 /
 /
 IOC_IN
+(
+in
+is
+from
+the
+perspective
+of
+the
+kernel
+)
 pub
 const
 WRITE

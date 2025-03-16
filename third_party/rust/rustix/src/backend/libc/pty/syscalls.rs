@@ -73,6 +73,11 @@ target_os
 "
 fuchsia
 "
+target_os
+=
+"
+illumos
+"
 )
 )
 )
@@ -224,6 +229,11 @@ target_os
 "
 fuchsia
 "
+target_os
+=
+"
+illumos
+"
 )
 )
 )
@@ -334,6 +344,11 @@ target_os
 =
 "
 fuchsia
+"
+target_os
+=
+"
+illumos
 "
 )
 )

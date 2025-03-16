@@ -181,7 +181,7 @@ use
 close
 :
 :
-close
+*
 ;
 #
 [

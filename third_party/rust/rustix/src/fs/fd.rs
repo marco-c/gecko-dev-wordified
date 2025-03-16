@@ -100,7 +100,6 @@ not
 any
 (
 netbsdlike
-solarish
 target_os
 =
 "
@@ -467,7 +466,7 @@ fmt
 (
 &
 self
-fmt
+f
 :
 &
 mut
@@ -487,7 +486,7 @@ fmt
 :
 Result
 {
-fmt
+f
 .
 debug_struct
 (
@@ -794,7 +793,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 functions
 /
@@ -998,7 +997,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 functions
 /
@@ -1180,7 +1179,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 functions
 /
@@ -1339,7 +1338,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 functions
 /
@@ -1539,7 +1538,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 functions
 /
@@ -1965,7 +1964,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 functions
 /
@@ -2133,7 +2132,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 functions
 /
@@ -2364,7 +2363,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 functions
 /
@@ -2438,7 +2437,6 @@ not
 any
 (
 netbsdlike
-solarish
 target_os
 =
 "
@@ -2936,7 +2934,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 functions
 /
@@ -3117,7 +3115,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 functions
 /
@@ -3295,7 +3293,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 functions
 /

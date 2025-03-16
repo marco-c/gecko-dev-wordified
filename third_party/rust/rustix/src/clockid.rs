@@ -521,8 +521,6 @@ CLOCK_TAI
 available
 on
 Linux
->
-=
 3
 .
 10
@@ -1095,8 +1093,6 @@ CLOCK_TAI
 available
 on
 Linux
->
-=
 3
 .
 10

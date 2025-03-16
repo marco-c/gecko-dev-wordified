@@ -314,7 +314,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 functions
 /
@@ -512,17 +512,15 @@ https
 :
 /
 /
-www
-.
-gnu
+sourceware
 .
 org
 /
-software
-/
-libc
+glibc
 /
 manual
+/
+latest
 /
 html_node
 /
@@ -1010,7 +1008,7 @@ fmt
 (
 &
 self
-fmt
+f
 :
 &
 mut
@@ -1044,7 +1042,7 @@ linux_kernel
 write
 !
 (
-fmt
+f
 "
 {
 :
@@ -1105,7 +1103,7 @@ linux_kernel
 write
 !
 (
-fmt
+f
 "
 {
 :
@@ -1713,6 +1711,7 @@ Ctrl
 Alt
 -
 Del
+.
 /
 /
 /
@@ -1912,6 +1911,7 @@ Load
 a
 kernel
 module
+.
 /
 /
 /
@@ -2022,6 +2022,7 @@ from
 a
 file
 descriptor
+.
 /
 /
 /
@@ -2138,6 +2139,7 @@ Unload
 a
 kernel
 module
+.
 /
 /
 /

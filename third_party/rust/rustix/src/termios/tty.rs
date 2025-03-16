@@ -165,7 +165,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 functions
 /
@@ -307,7 +307,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 functions
 /
@@ -387,7 +387,7 @@ procfs
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -686,9 +686,9 @@ A
 string
 that
 is
+/
+/
 used
-/
-/
 to
 identify
 a
@@ -770,7 +770,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 basedefs
 /
@@ -803,7 +803,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 basedefs
 /

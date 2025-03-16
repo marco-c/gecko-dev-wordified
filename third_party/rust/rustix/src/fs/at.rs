@@ -31,12 +31,18 @@ a
 /
 !
 directory
-or
 the
 special
 value
 [
 CWD
+]
+or
+the
+special
+value
+[
+ABS
 ]
 .
 /
@@ -46,7 +52,7 @@ CWD
 /
 !
 [
-cwd
+CWD
 ]
 :
 crate
@@ -56,6 +62,20 @@ fs
 :
 :
 CWD
+/
+/
+!
+[
+ABS
+]
+:
+crate
+:
+:
+fs
+:
+:
+ABS
 use
 crate
 :
@@ -647,7 +667,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 functions
 /
@@ -831,7 +851,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 functions
 /
@@ -1143,9 +1163,9 @@ the
 symbolic
 link
 pathname
+/
+/
 in
-/
-/
 the
 buffer
 buf
@@ -1167,9 +1187,9 @@ string
 that
 is
 used
+/
+/
 to
-/
-/
 identify
 a
 file
@@ -1258,7 +1278,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 basedefs
 /
@@ -1291,7 +1311,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 basedefs
 /
@@ -1522,7 +1542,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 functions
 /
@@ -1821,7 +1841,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 functions
 /
@@ -1987,7 +2007,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 functions
 /
@@ -2238,7 +2258,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 functions
 /
@@ -2418,7 +2438,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 functions
 /
@@ -2792,7 +2812,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 functions
 /
@@ -3005,7 +3025,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 functions
 /
@@ -3332,7 +3352,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 functions
 /
@@ -3532,7 +3552,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 functions
 /
@@ -3768,7 +3788,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 functions
 /
@@ -4131,7 +4151,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 functions
 /
@@ -4336,7 +4356,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 functions
 /

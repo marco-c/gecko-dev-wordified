@@ -21,7 +21,11 @@ crate
 timespec
 :
 :
+{
+Nsecs
+Secs
 Timespec
+}
 ;
 #
 [
@@ -189,7 +193,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 functions
 /
@@ -426,7 +430,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 functions
 /
@@ -644,7 +648,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 functions
 /
@@ -793,7 +797,7 @@ fmt
 (
 &
 self
-fmt
+f
 :
 &
 mut
@@ -816,13 +820,13 @@ Result
 match
 self
 {
-NanosleepRelativeResult
+Self
 :
 :
 Ok
 =
 >
-fmt
+f
 .
 write_str
 (
@@ -830,7 +834,7 @@ write_str
 Ok
 "
 )
-NanosleepRelativeResult
+Self
 :
 :
 Interrupted
@@ -842,7 +846,7 @@ remaining
 write
 !
 (
-fmt
+f
 "
 Interrupted
 (
@@ -872,7 +876,7 @@ remaining
 .
 tv_nsec
 )
-NanosleepRelativeResult
+Self
 :
 :
 Err
@@ -884,7 +888,7 @@ err
 write
 !
 (
-fmt
+f
 "
 Err
 (

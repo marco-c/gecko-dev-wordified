@@ -354,6 +354,18 @@ POLLRDHUP
 [
 cfg
 (
+any
+(
+target_os
+=
+"
+freebsd
+"
+target_os
+=
+"
+illumos
+"
 all
 (
 linux_kernel
@@ -371,6 +383,7 @@ target_arch
 "
 sparc64
 "
+)
 )
 )
 )
@@ -521,7 +534,7 @@ fmt
 (
 &
 self
-fmt
+f
 :
 &
 mut
@@ -541,7 +554,7 @@ fmt
 :
 Result
 {
-fmt
+f
 .
 debug_struct
 (

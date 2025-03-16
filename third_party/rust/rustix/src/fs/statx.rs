@@ -471,12 +471,6 @@ mountroot_flag
 /
 Err
 (
-e
-)
-if
-e
-=
-=
 rustix
 :
 :
@@ -487,6 +481,7 @@ Errno
 :
 :
 NOSYS
+)
 =
 >
 Ok

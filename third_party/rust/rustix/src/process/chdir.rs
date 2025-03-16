@@ -176,7 +176,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 functions
 /
@@ -230,7 +230,7 @@ fs
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -344,7 +344,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 functions
 /
@@ -442,7 +442,7 @@ as_fd
 /
 /
 /
-getCWD
+getcwd
 Return
 the
 current
@@ -510,7 +510,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 functions
 /
@@ -582,7 +582,7 @@ wasi
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -773,7 +773,6 @@ SAFETY
 /
 /
 -
-"
 These
 functions
 return
@@ -782,7 +781,6 @@ null
 -
 terminated
 string
-"
 /
 /
 -
@@ -796,7 +794,6 @@ definition
 String
 ]
 :
-"
 A
 contiguous
 sequence
@@ -813,7 +810,6 @@ first
 null
 byte
 .
-"
 /
 /
 /
@@ -861,7 +857,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 basedefs
 /

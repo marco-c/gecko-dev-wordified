@@ -99,7 +99,7 @@ org
 /
 onlinepubs
 /
-9699919799
+9799919799
 /
 functions
 /
@@ -149,7 +149,7 @@ fs
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg

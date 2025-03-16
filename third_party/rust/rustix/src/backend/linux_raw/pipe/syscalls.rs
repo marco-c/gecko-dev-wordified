@@ -434,6 +434,9 @@ p1
 inline
 ]
 pub
+(
+crate
+)
 fn
 splice
 (
@@ -516,6 +519,9 @@ flags
 inline
 ]
 pub
+(
+crate
+)
 unsafe
 fn
 vmsplice
@@ -597,6 +603,9 @@ flags
 inline
 ]
 pub
+(
+crate
+)
 fn
 tee
 (
@@ -659,7 +668,7 @@ pub
 crate
 )
 fn
-fcntl_getpipe_sz
+fcntl_getpipe_size
 (
 fd
 :
@@ -743,7 +752,7 @@ pub
 crate
 )
 fn
-fcntl_setpipe_sz
+fcntl_setpipe_size
 (
 fd
 :
@@ -809,7 +818,10 @@ target_pointer_width
 ]
 unsafe
 {
-ret
+let
+_
+=
+ret_usize
 (
 syscall_readonly
 !
@@ -826,6 +838,8 @@ size
 )
 )
 )
+?
+;
 }
 #
 [
@@ -840,7 +854,10 @@ target_pointer_width
 ]
 unsafe
 {
-ret
+let
+_
+=
+ret_usize
 (
 syscall_readonly
 !
@@ -857,5 +874,12 @@ size
 )
 )
 )
+?
+;
 }
+Ok
+(
+(
+)
+)
 }

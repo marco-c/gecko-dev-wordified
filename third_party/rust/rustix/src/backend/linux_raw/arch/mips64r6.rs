@@ -50,7 +50,7 @@ do
 /
 /
 !
-Mips
+MIPS
 -
 family
 platforms

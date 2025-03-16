@@ -786,7 +786,7 @@ function
 for
 Winsock
 where
-a
+an
 Fd
 is
 a

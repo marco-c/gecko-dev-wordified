@@ -817,6 +817,15 @@ Self
 from_bits_truncate
 (
 st_mode
+&
+!
+linux_raw_sys
+:
+:
+general
+:
+:
+S_IFMT
 )
 }
 /

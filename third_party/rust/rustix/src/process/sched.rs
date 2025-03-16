@@ -548,7 +548,7 @@ fmt
 (
 &
 self
-fmt
+f
 :
 &
 mut
@@ -571,7 +571,7 @@ Result
 write
 !
 (
-fmt
+f
 "
 CpuSet
 {
@@ -592,7 +592,7 @@ in
 0
 .
 .
-CpuSet
+Self
 :
 :
 MAX_CPU
@@ -611,7 +611,7 @@ first
 write
 !
 (
-fmt
+f
 "
 "
 )
@@ -627,7 +627,7 @@ else
 write
 !
 (
-fmt
+f
 "
 "
 )
@@ -637,7 +637,7 @@ fmt
 write
 !
 (
-fmt
+f
 "
 cpu
 {
@@ -652,7 +652,7 @@ i
 write
 !
 (
-fmt
+f
 "
 }
 }
@@ -694,7 +694,7 @@ in
 0
 .
 .
-CpuSet
+Self
 :
 :
 MAX_CPU
@@ -1164,11 +1164,11 @@ man
 -
 pages
 /
-man2
+man3
 /
 sched_getcpu
 .
-2
+3
 .
 html
 /

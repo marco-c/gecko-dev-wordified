@@ -121,6 +121,10 @@ clippy
 :
 :
 useless_transmute
+clippy
+:
+:
+missing_transmute_annotations
 )
 ]
 unsafe

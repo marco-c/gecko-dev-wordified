@@ -229,7 +229,7 @@ fmt
 (
 &
 self
-fmt
+f
 :
 &
 mut
@@ -278,7 +278,7 @@ self
 .
 fmt
 (
-fmt
+f
 )
 }
 #
@@ -299,7 +299,7 @@ std
 write
 !
 (
-fmt
+f
 "
 os
 error
@@ -328,7 +328,7 @@ fmt
 (
 &
 self
-fmt
+f
 :
 &
 mut
@@ -377,7 +377,7 @@ self
 .
 fmt
 (
-fmt
+f
 )
 }
 #
@@ -398,7 +398,7 @@ std
 write
 !
 (
-fmt
+f
 "
 os
 error
