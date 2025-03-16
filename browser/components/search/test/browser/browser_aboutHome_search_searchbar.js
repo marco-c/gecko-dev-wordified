@@ -54,15 +54,6 @@ mjs
 "
 )
 ;
-let
-gCUITestUtils
-=
-new
-CustomizableUITestUtils
-(
-window
-)
-;
 ignoreAllUncaughtExceptions
 (
 )
