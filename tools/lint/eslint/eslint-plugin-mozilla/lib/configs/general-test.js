@@ -35,6 +35,15 @@ module
 exports
 =
 {
+name
+:
+"
+mozilla
+/
+general
+-
+test
+"
 plugins
 :
 [

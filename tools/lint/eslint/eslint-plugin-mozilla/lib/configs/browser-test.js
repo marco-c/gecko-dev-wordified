@@ -194,6 +194,15 @@ waitForFocus
 :
 false
 }
+name
+:
+"
+mozilla
+/
+browser
+-
+test
+"
 plugins
 :
 [

@@ -2756,6 +2756,15 @@ m
 js
 "
 ]
+name
+:
+"
+mozilla
+/
+recommended
+/
+worker
+"
 }
 ]
 ;

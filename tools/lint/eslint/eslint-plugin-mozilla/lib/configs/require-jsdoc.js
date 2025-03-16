@@ -66,6 +66,15 @@ module
 exports
 =
 {
+name
+:
+"
+mozilla
+/
+require
+-
+jsdoc
+"
 plugins
 :
 [

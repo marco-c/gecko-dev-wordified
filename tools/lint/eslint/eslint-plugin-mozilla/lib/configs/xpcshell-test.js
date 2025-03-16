@@ -36,6 +36,15 @@ xpcshell
 :
 true
 }
+name
+:
+"
+mozilla
+/
+xpcshell
+-
+test
+"
 plugins
 :
 [
