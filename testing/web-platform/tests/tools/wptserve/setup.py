@@ -198,6 +198,11 @@ wptserve
 .
 sslutils
 '
+'
+wptserve
+.
+cgi
+'
 ]
       
 include_package_data
