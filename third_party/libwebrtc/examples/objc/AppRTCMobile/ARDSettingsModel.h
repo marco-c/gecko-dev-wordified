@@ -243,6 +243,7 @@ in
 store
 for
 consistency
+*
 reasons
 .
 *
@@ -385,6 +386,7 @@ default
 (
 H264
 )
+*
 otherwise
 .
 *
@@ -561,6 +563,7 @@ default
 (
 NO
 )
+*
 otherwise
 .
 *
@@ -627,6 +630,7 @@ default
 (
 NO
 )
+*
 otherwise
 .
 *
@@ -691,13 +695,13 @@ config
 from
 store
 if
+*
 present
 or
 default
 (
 YES
 )
-*
 otherwise
 .
 *
