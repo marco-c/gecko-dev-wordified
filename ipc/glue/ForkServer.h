@@ -235,6 +235,9 @@ aArgv
 ;
 private
 :
+UniqueFileHandle
+mIpcFd
+;
 UniquePtr
 <
 MiniTransceiver
