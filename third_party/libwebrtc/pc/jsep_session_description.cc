@@ -1685,7 +1685,9 @@ contents
 mediasection_index
 ]
 .
-name
+mid
+(
+)
 ;
 const
 cricket
@@ -2285,7 +2287,9 @@ at
 i
 )
 .
-name
+mid
+(
+)
 )
 {
 *
@@ -2422,7 +2426,9 @@ at
 i
 )
 .
-name
+mid
+(
+)
 )
 {
 return
