@@ -4119,6 +4119,9 @@ telemetrySuffix
 orderHint
 :
 null
+clickUrl
+:
+null
 .
 .
 .
