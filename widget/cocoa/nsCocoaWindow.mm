@@ -10026,10 +10026,6 @@ if
 mInFullScreenMode
 )
 {
-NSDisableScreenUpdates
-(
-)
-;
 mSuppressSizeModeEvents
 =
 true
@@ -10096,10 +10092,6 @@ true
 mSuppressSizeModeEvents
 =
 false
-;
-NSEnableScreenUpdates
-(
-)
 ;
 UpdateFullscreenState
 (
@@ -10231,10 +10223,6 @@ continue
 }
 else
 {
-NSDisableScreenUpdates
-(
-)
-;
 mSuppressSizeModeEvents
 =
 true
@@ -10301,10 +10289,6 @@ false
 mSuppressSizeModeEvents
 =
 false
-;
-NSEnableScreenUpdates
-(
-)
 ;
 UpdateFullscreenState
 (
