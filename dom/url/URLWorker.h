@@ -212,9 +212,10 @@ const
 GlobalObject
 &
 aGlobal
-Blob
+const
+BlobOrMediaSource
 &
-aBlob
+aObj
 nsACString
 &
 aResult
