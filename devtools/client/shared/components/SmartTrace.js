@@ -202,7 +202,7 @@ SecondaryPanes
 /
 Frames
 /
-index
+Frames
 .
 js
 "
