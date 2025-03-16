@@ -3015,6 +3015,9 @@ name
 "
 CookieChangeEvent
 "
+nightly
+:
+true
 }
 /
 /
@@ -3038,6 +3041,9 @@ name
 "
 CookieStore
 "
+nightly
+:
+true
 }
 /
 /
@@ -19663,6 +19669,9 @@ name
 "
 cookieStore
 "
+nightly
+:
+true
 }
 /
 /
