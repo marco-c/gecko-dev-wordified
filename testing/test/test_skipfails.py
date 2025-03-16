@@ -2772,7 +2772,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
