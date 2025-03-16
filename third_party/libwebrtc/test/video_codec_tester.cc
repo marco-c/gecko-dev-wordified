@@ -7967,7 +7967,7 @@ qpMax
 cricket
 :
 :
-kDefaultVideoMaxQpVpx
+kDefaultVideoMaxQpAv1
 ;
 break
 ;

@@ -1152,6 +1152,12 @@ kDefaultVideoMaxQpVpx
 =
 56
 ;
+const
+int
+kDefaultVideoMaxQpAv1
+=
+52
+;
 /
 /
 Max
