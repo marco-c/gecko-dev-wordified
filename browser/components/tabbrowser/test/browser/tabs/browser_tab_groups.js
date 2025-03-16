@@ -10533,7 +10533,7 @@ label
 "
 Food
 "
-isUserCreated
+showCreateUI
 :
 true
 }
