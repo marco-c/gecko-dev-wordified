@@ -4875,6 +4875,20 @@ kPinset_google_root_pems
 "
 google
 .
+eus
+"
+true
+false
+false
+-
+1
+&
+kPinset_google_root_pems
+}
+{
+"
+google
+.
 fi
 "
 true
@@ -7829,7 +7843,7 @@ Preload
 List
 Length
 =
-400
+401
 ;
 static
 const
@@ -7846,6 +7860,6 @@ kPreloadPKPinsExpirationTime
 =
 INT64_C
 (
-1749122260011000
+1749479303437000
 )
 ;
