@@ -515,6 +515,8 @@ duplicators_
 int64_t
 GetNumFramesCaptured
 (
+int
+monitor_id
 )
 const
 ;
