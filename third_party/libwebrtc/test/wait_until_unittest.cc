@@ -402,7 +402,7 @@ flakiness
 EXPECT_THAT
 (
 result
-IsRtcErrorWithMessage
+IsRtcErrorOrWithMessage
 (
 _
 MatchesRegex
@@ -542,7 +542,7 @@ flakiness
 EXPECT_THAT
 (
 result
-IsRtcErrorWithMessage
+IsRtcErrorOrWithMessage
 (
 _
 MatchesRegex
