@@ -300,20 +300,6 @@ command
 "
 no_auto_log
 "
-        
-#
-Whether
-to
-hide
-this
-command
-from
-help
-.
-        
-"
-hidden
-"
     
 )
     
@@ -360,10 +346,6 @@ ok_if_tests_disabled
 False
         
 no_auto_log
-=
-False
-        
-hidden
 =
 False
     
@@ -434,12 +416,6 @@ self
 order
 =
 order
-        
-self
-.
-hidden
-=
-hidden
         
 if
 ok_if_tests_disabled

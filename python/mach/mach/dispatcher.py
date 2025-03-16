@@ -2134,14 +2134,6 @@ command_handlers
 command
 ]
                 
-if
-handler
-.
-hidden
-:
-                    
-continue
-                
 #
 Instantiate
 a
