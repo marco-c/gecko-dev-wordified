@@ -1516,10 +1516,15 @@ aTransConnInfo
 {
 if
 (
+!
 aTransConnInfo
 -
 >
-HasEchConfig
+GetEchConfig
+(
+)
+.
+IsEmpty
 (
 )
 )
