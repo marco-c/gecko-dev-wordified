@@ -3028,9 +3028,6 @@ loadPath
 "
 submissionUrl
 "
-"
-verified
-"
 ]
 )
 {

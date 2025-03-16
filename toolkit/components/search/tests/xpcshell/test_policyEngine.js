@@ -506,11 +506,6 @@ submissionUrl
 blank
 :
 "
-verified
-:
-"
-verified
-"
 }
 }
 )

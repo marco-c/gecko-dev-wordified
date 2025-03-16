@@ -861,11 +861,6 @@ submissionUrl
 blank
 :
 "
-verified
-:
-"
-verified
-"
 }
 }
 )
