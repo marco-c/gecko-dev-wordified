@@ -1323,6 +1323,12 @@ Nothing
 )
 )
 ;
+static
+void
+PrepareForLastCC
+(
+)
+;
 protected
 :
 ~
