@@ -112,14 +112,6 @@ mozperftest
 .
 system
 .
-simpleperf
-import
-SimpleperfProfiler
-from
-mozperftest
-.
-system
-.
 versionproducer
 import
 VersionProducer
@@ -130,21 +122,11 @@ get_layers
 :
     
 return
-(
-        
 PingServer
-        
 Profile
-        
 ProxyRunner
-        
 AndroidDevice
-        
 MacosDevice
-        
-SimpleperfProfiler
-    
-)
 def
 pick_system
 (
@@ -308,8 +290,6 @@ AndroidDevice
 MacosDevice
             
 VersionProducer
-            
-SimpleperfProfiler
         
 ]
         
