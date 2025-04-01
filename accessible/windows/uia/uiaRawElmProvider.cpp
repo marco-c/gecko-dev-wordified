@@ -197,7 +197,7 @@ mozilla
 /
 a11y
 /
-RemoteAccessible
+Compatibility
 .
 h
 "
@@ -206,7 +206,9 @@ include
 "
 mozilla
 /
-StaticPrefs_accessibility
+a11y
+/
+RemoteAccessible
 .
 h
 "
@@ -1293,10 +1295,10 @@ aGeckoEvent
 if
 (
 !
-StaticPrefs
+Compatibility
 :
 :
-accessibility_uia_enable
+IsUiaEnabled
 (
 )
 )
@@ -1753,10 +1755,10 @@ aEnabled
 if
 (
 !
-StaticPrefs
+Compatibility
 :
 :
-accessibility_uia_enable
+IsUiaEnabled
 (
 )
 )

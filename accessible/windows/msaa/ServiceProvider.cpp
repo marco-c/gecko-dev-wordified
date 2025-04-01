@@ -184,7 +184,7 @@ mozilla
 /
 a11y
 /
-DocAccessibleChild
+Compatibility
 .
 h
 "
@@ -193,7 +193,9 @@ include
 "
 mozilla
 /
-StaticPrefs_accessibility
+a11y
+/
+DocAccessibleChild
 .
 h
 "
@@ -677,10 +679,10 @@ aGuidService
 IID_IAccessibleEx
 &
 &
-StaticPrefs
+Compatibility
 :
 :
-accessibility_uia_enable
+IsUiaEnabled
 (
 )
 )
