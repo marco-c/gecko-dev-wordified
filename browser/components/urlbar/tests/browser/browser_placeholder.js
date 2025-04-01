@@ -960,7 +960,6 @@ interaction
 let
 urlTab
 =
-await
 BrowserTestUtils
 .
 addTab
