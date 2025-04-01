@@ -20,6 +20,7 @@ global
 =
 window
 dedicatedworker
+serviceworker
 /
 /
 META

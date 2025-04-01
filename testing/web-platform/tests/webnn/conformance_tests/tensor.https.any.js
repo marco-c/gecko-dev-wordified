@@ -16,7 +16,7 @@ META
 global
 =
 window
-dedicatedworker
+worker
 /
 /
 META
@@ -1152,6 +1152,15 @@ e
 }
 )
 ;
+if
+(
+'
+SharedArrayBuffer
+'
+in
+globalThis
+)
+{
 promise_test
 (
 async
@@ -1393,6 +1402,7 @@ of
 buffers
 )
 ;
+}
 promise_test
 (
 async
