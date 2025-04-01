@@ -766,7 +766,7 @@ aSnap
 const
 override
 {
-nsCanvasFrame
+auto
 *
 frame
 =
