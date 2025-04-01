@@ -2031,6 +2031,8 @@ DeleteIntFunctionCallCount
 +
 ;
 delete
+[
+]
 static_cast
 <
 int
