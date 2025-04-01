@@ -637,6 +637,11 @@ res_nclose
 res
 )
 ;
+free
+(
+res
+)
+;
 #
 endif
 }
