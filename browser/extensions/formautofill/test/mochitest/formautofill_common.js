@@ -1240,7 +1240,6 @@ event
 {
 if
 (
-(
 element
 .
 tagName
@@ -1258,17 +1257,6 @@ type
 =
 "
 text
-"
-)
-|
-|
-element
-.
-tagName
-=
-=
-"
-TEXTAREA
 "
 )
 {
