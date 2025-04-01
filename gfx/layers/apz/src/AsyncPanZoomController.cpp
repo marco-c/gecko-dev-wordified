@@ -45583,7 +45583,7 @@ X
 {
 rect
 .
-MoveToY
+MoveToX
 (
 cssPageRect
 .
