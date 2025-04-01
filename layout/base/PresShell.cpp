@@ -37156,6 +37156,7 @@ aFlags
 )
 ;
 }
+static
 void
 AddDisplayItemToBottom
 (
@@ -37170,15 +37171,6 @@ nsDisplayItem
 aItem
 )
 {
-if
-(
-!
-aItem
-)
-{
-return
-;
-}
 nsDisplayList
 list
 (
