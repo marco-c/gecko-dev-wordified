@@ -216,6 +216,12 @@ OnVenturaOrLater
 ;
 static
 bool
+OnSonomaOrLater
+(
+)
+;
+static
+bool
 IsAtLeastVersion
 (
 int32_t

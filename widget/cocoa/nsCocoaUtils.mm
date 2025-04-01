@@ -2560,7 +2560,7 @@ mainMenu
 hiddenWindowMenuBar
 -
 >
-PaintAsync
+PaintAsyncIfNeeded
 (
 )
 ;
