@@ -124,13 +124,6 @@ h
 #
 include
 "
-nsUXThemeData
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Logging
