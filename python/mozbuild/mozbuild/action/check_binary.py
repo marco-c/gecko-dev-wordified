@@ -223,13 +223,11 @@ environ
     
 env
 [
-b
 "
 LC_ALL
 "
 ]
 =
-b
 "
 C
 "
