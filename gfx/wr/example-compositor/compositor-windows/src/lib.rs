@@ -165,6 +165,9 @@ the
 compositor
 work
 extern
+"
+C
+"
 {
 fn
 com_dc_create_window

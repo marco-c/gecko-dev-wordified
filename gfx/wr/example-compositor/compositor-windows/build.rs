@@ -189,7 +189,9 @@ x86_64
 -
 pc
 -
-mingw32
+windows
+-
+msvc
 /
 gfx
 /
@@ -225,7 +227,9 @@ x86_64
 -
 pc
 -
-mingw32
+windows
+-
+msvc
 /
 gfx
 /
