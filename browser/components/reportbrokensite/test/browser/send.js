@@ -1839,6 +1839,16 @@ string
 "
 )
 ;
+filterFrameworkDetectorFails
+(
+ping
+.
+tabInfo
+expected
+.
+tabInfo
+)
+;
 ok
 (
 areObjectsEqual
