@@ -122,7 +122,8 @@ but
 tabbrowser
 code
 in
-_getDragTargetTab
+#
+getDragTargetTab
 treats
 /
 /
@@ -562,7 +563,8 @@ but
 tabbrowser
 code
 in
-_getDragTargetTab
+#
+getDragTargetTab
 treats
 /
 /

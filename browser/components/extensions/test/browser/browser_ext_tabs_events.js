@@ -3353,10 +3353,9 @@ pageURL
 ;
 gBrowser
 .
-moveTabTo
+moveTabToStart
 (
 openerTab
-0
 )
 ;
 await

@@ -1355,7 +1355,8 @@ but
 tabbrowser
 code
 in
-_getDragTargetTab
+#
+getDragTargetTab
 treats
 /
 /

@@ -31544,6 +31544,9 @@ getTabForBrowser
 (
 browser
 )
+{
+tabIndex
+:
 window
 .
 gBrowser
@@ -31553,13 +31556,10 @@ tabContainer
 selectedIndex
 +
 1
-/
-*
-aSelectTab
-=
-*
-/
+selectTab
+:
 true
+}
 )
 ;
 if

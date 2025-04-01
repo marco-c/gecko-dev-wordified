@@ -3706,10 +3706,9 @@ id
 ;
 gBrowser
 .
-moveTabTo
+moveTabToStart
 (
 tab2
-0
 )
 ;
 await
@@ -13555,7 +13554,11 @@ gBrowser
 adoptTab
 (
 otherWinTab
+{
+tabIndex
+:
 1
+}
 )
 ;
 Assert

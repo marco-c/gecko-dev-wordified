@@ -233,7 +233,11 @@ gBrowser
 moveTabTo
 (
 tab1
+{
+tabIndex
+:
 0
+}
 )
 ;
 gBrowser
@@ -241,7 +245,11 @@ gBrowser
 moveTabTo
 (
 tab2
+{
+tabIndex
+:
 1
+}
 )
 ;
 async

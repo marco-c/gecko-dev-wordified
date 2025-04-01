@@ -490,7 +490,11 @@ tabs
 [
 3
 ]
+{
+tabIndex
+:
 3
+}
 )
 ;
 indexTest
@@ -522,7 +526,11 @@ tabs
 [
 2
 ]
+{
+tabIndex
+:
 0
+}
 )
 ;
 indexTest
@@ -1256,7 +1264,11 @@ tabs
 [
 1
 ]
+{
+tabIndex
+:
 1
+}
 )
 ;
 indexTest

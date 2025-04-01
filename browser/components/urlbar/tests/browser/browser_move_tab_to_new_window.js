@@ -381,8 +381,14 @@ newWindow
 gBrowser
 .
 selectedTab
+{
+tabIndex
+:
 1
+selectTab
+:
 true
+}
 )
 ;
 await
