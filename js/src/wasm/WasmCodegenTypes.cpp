@@ -367,7 +367,7 @@ lookup
 =
 inlinedCallerOffsets_
 .
-lookup
+readonlyThreadsafeLookup
 (
 match
 )
