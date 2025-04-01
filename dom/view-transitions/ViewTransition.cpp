@@ -4281,7 +4281,7 @@ Consume
 ;
 SetProp
 (
-width
+height
 .
 mServoDeclarationBlock
 aDoc
