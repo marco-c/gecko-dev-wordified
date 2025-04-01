@@ -2384,11 +2384,6 @@ return
 NS_OK
 ;
 }
-/
-*
-static
-*
-/
 already_AddRefed
 <
 ModuleLoadRequest
