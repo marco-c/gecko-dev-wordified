@@ -6106,7 +6106,7 @@ layer
 margins
 *
 |
-aCompositorFixedLayerMargins
+mCompositorFixedLayerMargins
 |
 given
 that
@@ -6131,9 +6131,9 @@ ScreenPoint
 ComputeFixedMarginsOffset
 (
 const
-ScreenMargin
+MutexAutoLock
 &
-aCompositorFixedLayerMargins
+aProofOfMapLock
 SideBits
 aFixedSides
 const
