@@ -874,7 +874,6 @@ instances
 .
 *
 /
-WrapForJNI
 AnyThread
 public
 static
