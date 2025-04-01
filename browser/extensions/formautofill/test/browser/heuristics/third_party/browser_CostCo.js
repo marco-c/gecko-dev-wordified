@@ -372,9 +372,9 @@ fields
 fieldName
 :
 "
-address
+postal
 -
-level2
+code
 "
 reason
 :
@@ -892,9 +892,9 @@ fields
 fieldName
 :
 "
-address
+postal
 -
-level2
+code
 "
 reason
 :
