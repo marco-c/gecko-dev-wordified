@@ -165,8 +165,8 @@ last
 "
 use
 strict
-;
 "
+;
 /
 /
 These
@@ -2411,6 +2411,7 @@ dictionary
 ;
 for
 (
+let
 testCase
 of
 SIMPLE_JOIN_LEAVE_TEST_CASES

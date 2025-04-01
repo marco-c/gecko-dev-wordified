@@ -245,8 +245,8 @@ variant
 "
 use
 strict
-;
 "
+;
 /
 /
 These

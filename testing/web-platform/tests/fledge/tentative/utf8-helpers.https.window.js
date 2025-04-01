@@ -105,8 +105,8 @@ variant
 '
 use
 strict
-;
 '
+;
 /
 /
 These

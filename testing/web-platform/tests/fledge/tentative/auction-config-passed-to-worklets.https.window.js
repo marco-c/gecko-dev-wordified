@@ -145,8 +145,8 @@ variant
 "
 use
 strict
-;
 "
+;
 /
 /
 These

@@ -154,6 +154,11 @@ variant
 17
 -
 last
+"
+use
+strict
+"
+;
 /
 /
 These

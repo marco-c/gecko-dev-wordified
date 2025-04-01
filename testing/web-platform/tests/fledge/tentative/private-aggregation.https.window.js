@@ -130,8 +130,8 @@ variant
 '
 use
 strict
-;
 '
+;
 /
 /
 To

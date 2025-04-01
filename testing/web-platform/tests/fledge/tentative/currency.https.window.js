@@ -165,8 +165,8 @@ last
 '
 use
 strict
-;
 '
+;
 const
 ORIGIN
 =

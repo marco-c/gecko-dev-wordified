@@ -132,6 +132,11 @@ variant
 1
 -
 last
+"
+use
+strict
+"
+;
 /
 /
 These

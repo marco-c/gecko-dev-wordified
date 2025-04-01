@@ -61,8 +61,8 @@ long
 "
 use
 strict
-;
 "
+;
 /
 /
 Runs
@@ -91,6 +91,7 @@ uuid
 auctionConfigOverrides
 )
 {
+let
 fencedFrameConfig
 =
 null

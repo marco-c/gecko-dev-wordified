@@ -95,8 +95,8 @@ last
 "
 use
 strict
-;
 "
+;
 const
 makeTest
 =

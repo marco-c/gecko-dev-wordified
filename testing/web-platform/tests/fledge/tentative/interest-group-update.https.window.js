@@ -125,8 +125,8 @@ last
 "
 use
 strict
-;
 "
+;
 /
 /
 This
@@ -279,6 +279,7 @@ generateUuid
 test
 )
 ;
+let
 extraBiddingLogic
 =
 ;

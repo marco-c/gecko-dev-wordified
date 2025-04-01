@@ -85,8 +85,8 @@ last
 "
 use
 strict
-;
 "
+;
 const
 SERVICE_WORKER_SCRIPT
 =

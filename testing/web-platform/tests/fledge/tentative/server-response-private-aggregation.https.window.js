@@ -142,6 +142,11 @@ variant
 7
 -
 last
+"
+use
+strict
+"
+;
 /
 /
 These

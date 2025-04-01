@@ -274,6 +274,11 @@ variant
 67
 -
 70
+"
+use
+strict
+"
+;
 /
 /
 These

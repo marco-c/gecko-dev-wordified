@@ -1,8 +1,8 @@
 "
 use
 strict
-;
 "
+;
 const
 BASE_URL
 =
@@ -54,6 +54,7 @@ these
 utility
 functions
 .
+let
 RESOURCE_PATH
 =
 {
@@ -8046,6 +8047,7 @@ seller
 additionalBids
 )
 {
+let
 additionalBidHeaderValues
 =
 await

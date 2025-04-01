@@ -61,8 +61,8 @@ long
 "
 use
 strict
-;
 "
+;
 promise_test
 (
 async
