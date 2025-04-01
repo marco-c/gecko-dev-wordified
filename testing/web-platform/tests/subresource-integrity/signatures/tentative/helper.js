@@ -848,7 +848,12 @@ keyid
 =
 "
 {
-kInvalidKey
+kValidKeys
+[
+'
+rfc
+'
+]
 }
 "
 ;
@@ -873,12 +878,7 @@ keyid
 =
 "
 {
-kValidKeys
-[
-'
-rfc
-'
-]
+kInvalidKey
 }
 "
 ;
