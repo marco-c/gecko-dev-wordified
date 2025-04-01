@@ -427,7 +427,7 @@ info
 (
 "
 simulating
-quitApplicationGranted
+appShutdownConfirmed
 "
 )
 ;
@@ -449,7 +449,7 @@ true
 ;
 AsyncShutdown
 .
-quitApplicationGranted
+appShutdownConfirmed
 .
 _trigger
 (
