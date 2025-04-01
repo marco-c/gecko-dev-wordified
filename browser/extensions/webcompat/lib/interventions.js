@@ -66,7 +66,6 @@ strict
 globals
 browser
 InterventionHelpers
-module
 *
 /
 class
@@ -2253,9 +2252,3 @@ registration
 ;
 }
 }
-module
-.
-exports
-=
-Interventions
-;

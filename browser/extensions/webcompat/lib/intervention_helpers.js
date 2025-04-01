@@ -65,7 +65,6 @@ strict
 *
 globals
 browser
-module
 UAHelpers
 *
 /
@@ -1970,10 +1969,4 @@ GOOGLE_TLDS
 ;
 }
 }
-;
-module
-.
-exports
-=
-InterventionHelpers
 ;

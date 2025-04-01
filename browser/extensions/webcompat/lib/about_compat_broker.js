@@ -65,7 +65,6 @@ strict
 *
 global
 browser
-module
 onMessageFromTab
 *
 /
@@ -704,9 +703,3 @@ undefined
 ;
 }
 }
-module
-.
-exports
-=
-AboutCompatBroker
-;
