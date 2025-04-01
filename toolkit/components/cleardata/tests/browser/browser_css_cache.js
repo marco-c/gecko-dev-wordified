@@ -33,6 +33,11 @@ use
 strict
 "
 ;
+requestLongerTimeout
+(
+2
+)
+;
 const
 BASE_DOMAIN_A
 =
