@@ -378,7 +378,6 @@ INSLayoutConstraint
 INSLayoutDimension
 INSMenu
 INSMenuItem
-INSMutableParagraphStyle
 INSObject
 INSProcessInfo
 INSProgressIndicator
@@ -394,6 +393,7 @@ INSWindow
 NSArray_NSArrayCreation
 NSAttributedString_NSExtendedAttributedString
 NSDictionary_NSDictionaryCreation
+NSMutableParagraphStyle_
 NSRunLoop_NSRunLoopConveniences
 NSStackView_NSStackViewGravityAreas
 NSString_NSStringExtensionMethods
