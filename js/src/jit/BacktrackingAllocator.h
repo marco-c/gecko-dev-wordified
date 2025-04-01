@@ -532,7 +532,7 @@ allocation
 (
 )
 .
-isRegister
+isAnyRegister
 (
 )
 ;

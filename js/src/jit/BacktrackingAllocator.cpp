@@ -12304,7 +12304,7 @@ allocation
 (
 )
 .
-isRegister
+isAnyRegister
 (
 )
 )
@@ -13851,7 +13851,7 @@ output
 )
 -
 >
-isRegister
+isAnyRegister
 (
 )
 )
@@ -14967,7 +14967,7 @@ output
 )
 -
 >
-isRegister
+isAnyRegister
 (
 )
 ;
@@ -15409,7 +15409,7 @@ output
 )
 -
 >
-isRegister
+isAnyRegister
 (
 )
 )
@@ -21994,7 +21994,7 @@ output
 )
 -
 >
-isRegister
+isAnyRegister
 (
 )
 )
@@ -33117,7 +33117,7 @@ allocation
 (
 )
 .
-isRegister
+isAnyRegister
 (
 )
 )
@@ -34955,7 +34955,7 @@ output
 )
 -
 >
-isRegister
+isAnyRegister
 (
 )
 )
@@ -36208,7 +36208,7 @@ allocation
 (
 )
 .
-isRegister
+isAnyRegister
 (
 )
 =
@@ -36225,7 +36225,7 @@ allocation
 (
 )
 .
-isRegister
+isAnyRegister
 (
 )
 )
@@ -36651,7 +36651,7 @@ allocation
 (
 )
 .
-isRegister
+isAnyRegister
 (
 )
 )
@@ -37015,7 +37015,7 @@ allocation
 (
 )
 .
-isRegister
+isAnyRegister
 (
 )
 )
@@ -38634,7 +38634,7 @@ if
 !
 a
 .
-isRegister
+isAnyRegister
 (
 )
 )

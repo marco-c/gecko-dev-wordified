@@ -933,7 +933,7 @@ low
 (
 )
 .
-isRegister
+isAnyRegister
 (
 )
 =
@@ -944,7 +944,7 @@ high
 (
 )
 .
-isRegister
+isAnyRegister
 (
 )
 )
@@ -956,7 +956,7 @@ low
 (
 )
 .
-isRegister
+isAnyRegister
 (
 )
 ;
@@ -969,7 +969,7 @@ value
 (
 )
 .
-isRegister
+isAnyRegister
 (
 )
 ;

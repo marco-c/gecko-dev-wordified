@@ -1949,7 +1949,7 @@ if
 (
 a
 .
-isRegister
+isAnyRegister
 (
 )
 )
