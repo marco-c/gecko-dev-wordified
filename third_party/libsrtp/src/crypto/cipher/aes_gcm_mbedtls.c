@@ -1668,6 +1668,11 @@ FUNC_ENTRY
 (
 )
 ;
+int
+errCode
+=
+0
+;
 srtp_aes_gcm_ctx_t
 *
 c
@@ -2130,6 +2135,12 @@ int
 errCode
 =
 0
+;
+int
+len
+=
+*
+enc_len
 ;
 if
 (
