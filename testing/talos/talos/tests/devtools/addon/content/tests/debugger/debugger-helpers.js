@@ -1186,7 +1186,6 @@ return
 getSelectedScope
 (
 state
-thread
 )
 &
 &

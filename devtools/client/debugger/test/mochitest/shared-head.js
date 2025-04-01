@@ -3718,9 +3718,6 @@ dbg
 !
 getSelectedScope
 (
-getCurrentThread
-(
-)
 )
 "
 paused
