@@ -239,9 +239,6 @@ ImageCacheKey
 nsIURI
 *
 CORSMode
-const
-OriginAttributes
-&
 dom
 :
 :
