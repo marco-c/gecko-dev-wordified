@@ -153,9 +153,6 @@ a11y
 class
 MsaaAccessible
 ;
-class
-sdnAccessible
-;
 /
 *
 *
@@ -196,17 +193,6 @@ MsaaAccessible
 *
 >
 aMsaaAcc
-)
-;
-void
-ReleaseID
-(
-NotNull
-<
-sdnAccessible
-*
->
-aSdnAcc
 )
 ;
 private

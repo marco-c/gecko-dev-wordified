@@ -94,16 +94,6 @@ sdnAccessible
 .
 cpp
 "
-"
-sdnDocAccessible
-.
-cpp
-"
-"
-sdnTextAccessible
-.
-cpp
-"
 ]
 LOCAL_INCLUDES
 +
