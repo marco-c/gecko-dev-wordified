@@ -10921,7 +10921,7 @@ param
 {
 number
 }
-estimate
+own_contribution_estimate
 -
 Optional
 A
@@ -11039,7 +11039,7 @@ function
 (
 source_type
 sample
-estimate
+own_contribution_estimate
 context
 =
 null
@@ -11054,7 +11054,7 @@ update_virtual_pressure_source
 (
 source_type
 sample
-estimate
+own_contribution_estimate
 context
 )
 ;
@@ -13106,7 +13106,7 @@ update_virtual_pressure_source
 (
 source_type
 sample
-estimate
+own_contribution_estimate
 context
 =
 null

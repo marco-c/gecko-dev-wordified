@@ -4999,7 +4999,7 @@ update_virtual_pressure_source
 self
 source_type
 sample
-estimate
+own_contribution_estimate
 )
 :
         
@@ -5012,10 +5012,10 @@ sample
 :
 sample
 "
-estimate
+own_contribution_estimate
 "
 :
-estimate
+own_contribution_estimate
 }
         
 return
