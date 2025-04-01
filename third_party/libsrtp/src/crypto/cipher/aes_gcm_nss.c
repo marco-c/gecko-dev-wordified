@@ -1206,6 +1206,16 @@ srtp_err_status_cipher_fail
 )
 ;
 }
+/
+*
+explicitly
+cast
+away
+const
+of
+key
+*
+/
 SECItem
 key_item
 =
@@ -1215,6 +1225,9 @@ siBuffer
 unsigned
 char
 *
+)
+(
+uintptr_t
 )
 key
 c
