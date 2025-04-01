@@ -7360,7 +7360,7 @@ requested
 /
 is
 not
-avaialble
+available
 or
 of
 a
