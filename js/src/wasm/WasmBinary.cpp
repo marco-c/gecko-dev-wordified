@@ -891,15 +891,6 @@ sectionName
 {
 if
 (
-resilientMode_
-)
-{
-return
-true
-;
-}
-if
-(
 range
 .
 size
