@@ -8413,6 +8413,7 @@ if
 (
 typeof
 sidebar
+?
 .
 onload
 =
