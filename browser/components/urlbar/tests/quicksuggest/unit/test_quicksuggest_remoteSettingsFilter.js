@@ -239,7 +239,7 @@ US
 &
 env
 .
-form_factor
+formFactor
 =
 =
 '
@@ -273,7 +273,7 @@ its
 /
 value
 for
-form_factor
+formFactor
 is
 "
 desktop
@@ -285,9 +285,9 @@ match
 .
 The
 values
-/
-/
 of
+/
+/
 other
 keys
 in
@@ -338,7 +338,7 @@ chars
 /
 /
 *
-form_factor
+formFactor
 -
 One
 of
@@ -563,7 +563,7 @@ opts
 .
 filterExpression
 .
-form_factor
+formFactor
 =
 formFactor
 ;
@@ -1609,7 +1609,7 @@ country
 "
 US
 "
-form_factor
+formFactor
 :
 "
 desktop
