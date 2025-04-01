@@ -749,7 +749,7 @@ shopping
 .
 experience2023
 .
-autoClose
+autoOpen
 .
 userEnabled
 "
