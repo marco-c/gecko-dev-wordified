@@ -526,9 +526,10 @@ override
 ;
 nsFrameSelection
 *
-GetConstFrameSelection
+GetIndependentFrameSelection
 (
 )
+const
 override
 ;
 TextControlState

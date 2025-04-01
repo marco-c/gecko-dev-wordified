@@ -14784,9 +14784,10 @@ nsFrameSelection
 HTMLInputElement
 :
 :
-GetConstFrameSelection
+GetIndependentFrameSelection
 (
 )
+const
 {
 TextControlState
 *
@@ -14805,7 +14806,7 @@ return
 state
 -
 >
-GetConstFrameSelection
+GetIndependentFrameSelection
 (
 )
 ;
@@ -18950,7 +18951,7 @@ fs
 state
 -
 >
-GetConstFrameSelection
+GetIndependentFrameSelection
 (
 )
 ;

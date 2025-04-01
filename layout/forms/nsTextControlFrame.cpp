@@ -2096,7 +2096,7 @@ hideSelectionChanges
 textControlElement
 -
 >
-GetConstFrameSelection
+GetIndependentFrameSelection
 (
 )
 )

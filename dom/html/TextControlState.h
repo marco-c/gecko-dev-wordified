@@ -1743,9 +1743,10 @@ const
 ;
 nsFrameSelection
 *
-GetConstFrameSelection
+GetIndependentFrameSelection
 (
 )
+const
 ;
 nsresult
 BindToFrame

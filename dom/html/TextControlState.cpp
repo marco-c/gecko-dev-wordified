@@ -2874,9 +2874,10 @@ aScrollContainerFrame
 ;
 nsFrameSelection
 *
-GetConstFrameSelection
+GetIndependentFrameSelection
 (
 )
+const
 {
 return
 mFrameSelection
@@ -9900,9 +9901,10 @@ nsFrameSelection
 TextControlState
 :
 :
-GetConstFrameSelection
+GetIndependentFrameSelection
 (
 )
+const
 {
 return
 mSelCon
@@ -9910,7 +9912,7 @@ mSelCon
 mSelCon
 -
 >
-GetConstFrameSelection
+GetIndependentFrameSelection
 (
 )
 :
@@ -10820,7 +10822,7 @@ NS_OK
 AutoHideSelectionChanges
 hideSelectionChanges
 (
-GetConstFrameSelection
+GetIndependentFrameSelection
 (
 )
 )
