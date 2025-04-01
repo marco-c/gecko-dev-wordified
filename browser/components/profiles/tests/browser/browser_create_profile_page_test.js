@@ -224,14 +224,6 @@ updated
 "
 false
 ]
-[
-"
-dom
-.
-require_user_interaction_for_beforeunload
-"
-false
-]
 ]
 }
 )
