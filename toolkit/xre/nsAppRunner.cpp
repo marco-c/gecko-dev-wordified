@@ -8836,13 +8836,6 @@ bool
 aResult
 )
 {
-PreferenceSheet
-:
-:
-EnsureInitialized
-(
-)
-;
 *
 aResult
 =
