@@ -16744,7 +16744,6 @@ nsIEditor
 :
 EStripWrappers
 aStripWrappers
-const
 AutoClonedRangeArray
 &
 aRangesToDelete
