@@ -8776,9 +8776,6 @@ webIsolated
 process
 EnumSet
 <
-ContentParent
-:
-:
 ValidatePrincipalOptions
 >
 validationOptions
@@ -8943,9 +8940,6 @@ xhtml
 validationOptions
 =
 {
-ContentParent
-:
-:
 ValidatePrincipalOptions
 :
 :
@@ -9064,9 +9058,6 @@ IsSystemPrincipal
 validationOptions
 =
 {
-ContentParent
-:
-:
 ValidatePrincipalOptions
 :
 :
