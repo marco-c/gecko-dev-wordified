@@ -751,9 +751,6 @@ ErrorToString
 JS_FS_END
 }
 ;
-#
-ifdef
-NIGHTLY_BUILD
 static
 bool
 exn_isError
@@ -768,8 +765,6 @@ Value
 vp
 )
 ;
-#
-endif
 static
 bool
 exn_captureStackTrace
@@ -792,9 +787,6 @@ error_static_methods
 ]
 =
 {
-#
-ifdef
-NIGHTLY_BUILD
 JS_FN
 (
 "
@@ -804,8 +796,6 @@ exn_isError
 1
 0
 )
-#
-endif
 JS_FN
 (
 "
@@ -6415,9 +6405,6 @@ return
 true
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 /
 *
 *
@@ -6747,8 +6734,6 @@ return
 true
 ;
 }
-#
-endif
 /
 /
 The
