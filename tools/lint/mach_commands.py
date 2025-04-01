@@ -222,6 +222,9 @@ clang
 format
 "
 "
+eslint
+"
+"
 rustfmt
 "
 }
@@ -1270,6 +1273,22 @@ formatters
 )
 )
             
+print
+(
+"
+Further
+note
+that
+for
+eslint
+only
+prettier
+will
+run
+.
+"
+)
+            
 return
 1
     
@@ -1289,6 +1308,15 @@ kwargs
 [
 "
 fix
+"
+]
+=
+True
+    
+kwargs
+[
+"
+formatonly
 "
 ]
 =
