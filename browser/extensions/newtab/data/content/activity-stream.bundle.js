@@ -101797,15 +101797,6 @@ Wallpapers
 ;
 if
 (
-selectedWallpaper
-=
-=
-=
-"
-custom
-"
-&
-&
 uploadedWallpaper
 )
 {
