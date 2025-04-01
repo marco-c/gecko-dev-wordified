@@ -1826,6 +1826,11 @@ varU32
 (
 section
 .
+length
+?
+?
+section
+.
 body
 .
 length
@@ -5066,6 +5071,9 @@ function
 funcNameSubsection
 (
 funcNames
+subsectionLen
+=
+null
 )
 {
 var
@@ -5163,6 +5171,9 @@ push
 .
 varU32
 (
+subsectionLen
+?
+?
 subsection
 .
 length
@@ -5187,6 +5198,9 @@ function
 nameSection
 (
 subsections
+sectionLength
+=
+null
 )
 {
 var
@@ -5230,6 +5244,9 @@ return
 name
 :
 userDefinedId
+length
+:
+sectionLength
 body
 }
 ;

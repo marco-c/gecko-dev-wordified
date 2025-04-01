@@ -1426,7 +1426,7 @@ section
 )
 ;
 }
-void
+bool
 Decoder
 :
 :
@@ -1497,6 +1497,7 @@ range
 )
 ;
 return
+false
 ;
 }
 uint32_t
@@ -1602,6 +1603,7 @@ range
 )
 ;
 return
+false
 ;
 }
 /
@@ -1619,6 +1621,9 @@ skipAndFinishCustomSection
 (
 )
 )
+return
+true
+;
 }
 void
 Decoder
