@@ -11495,7 +11495,13 @@ FirstSubsumedFrame
 )
 &
 &
-seenStartAt
+stackChain
+.
+length
+(
+)
+>
+0
 )
 {
 /
