@@ -1676,9 +1676,6 @@ ASRouter
 sendTriggerMessage
 (
 {
-tabId
-:
-1
 browser
 :
 gBrowser
