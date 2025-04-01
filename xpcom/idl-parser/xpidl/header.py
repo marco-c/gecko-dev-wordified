@@ -557,10 +557,7 @@ s
 %
 ret
     
-else
-:
-        
-if
+elif
 ret
 =
 =
@@ -568,14 +565,14 @@ ret
 nsresult
 "
 :
-            
+        
 ret
 =
 macro
-        
+    
 else
 :
-            
+        
 ret
 =
 "
@@ -990,10 +987,7 @@ s
 %
 ret
     
-else
-:
-        
-if
+elif
 ret
 =
 =
@@ -1001,14 +995,14 @@ ret
 nsresult
 "
 :
-            
+        
 ret
 =
 macro
-        
+    
 else
 :
-            
+        
 ret
 =
 "
