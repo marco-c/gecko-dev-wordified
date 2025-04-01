@@ -447,6 +447,7 @@ showSourceText
 setDocument
 resetLineNumberFormat
 getEditor
+removeEditor
 lineAtHeight
 toSourceLine
 getDocument
@@ -2572,6 +2573,10 @@ editor
 :
 null
 }
+)
+;
+removeEditor
+(
 )
 ;
 }
