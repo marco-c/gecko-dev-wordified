@@ -7659,7 +7659,7 @@ GMT
 -
 1000
 (
-Apia
+Samoa
 Daylight
 Time
 )
@@ -7684,7 +7684,7 @@ GMT
 -
 1000
 (
-Apia
+Samoa
 Daylight
 Time
 )
@@ -7843,7 +7843,7 @@ GMT
 +
 1400
 (
-Apia
+Samoa
 Daylight
 Time
 )
@@ -7868,7 +7868,7 @@ GMT
 +
 1400
 (
-Apia
+Samoa
 Daylight
 Time
 )
@@ -8027,7 +8027,7 @@ GMT
 +
 1300
 (
-Apia
+Samoa
 Standard
 Time
 )
@@ -8052,7 +8052,7 @@ GMT
 +
 1300
 (
-Apia
+Samoa
 Standard
 Time
 )
