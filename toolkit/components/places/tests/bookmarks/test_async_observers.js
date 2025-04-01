@@ -269,15 +269,9 @@ base64
 )
 )
 ;
-PlacesUtils
-.
-favicons
+PlacesTestUtils
 .
 setFaviconForPage
-(
-NetUtil
-.
-newURI
 (
 "
 http
@@ -291,7 +285,6 @@ ma
 rk
 /
 "
-)
 SMALLPNG_DATA_URI
 SMALLPNG_DATA_URI
 )

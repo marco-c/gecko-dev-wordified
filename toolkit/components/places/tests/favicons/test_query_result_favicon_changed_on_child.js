@@ -283,9 +283,7 @@ image
 data
 URI
 .
-PlacesUtils
-.
-favicons
+PlacesTestUtils
 .
 setFaviconForPage
 (
@@ -699,9 +697,7 @@ PAGE_URI2
 SMALLPNG_DATA_URI
 )
 ;
-PlacesUtils
-.
-favicons
+PlacesTestUtils
 .
 setFaviconForPage
 (
