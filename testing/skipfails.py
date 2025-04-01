@@ -3800,6 +3800,16 @@ in
 manifest_paths
 :
                                 
+#
+this
+can
+be
+a
+subdir
+or
+translated
+path
+                                
 manifest_paths
 [
 manifest
@@ -3807,6 +3817,27 @@ manifest
 =
 {
 }
+                            
+if
+config
+not
+in
+manifest_paths
+[
+manifest
+]
+:
+                                
+manifest_paths
+[
+manifest
+]
+[
+config
+]
+=
+[
+]
                             
 if
 manifest
@@ -7825,6 +7856,21 @@ additional_comment
 =
 "
 "
+        
+path
+=
+path
+.
+split
+(
+"
+:
+"
+)
+[
+-
+1
+]
         
 comment
 bug_reference
