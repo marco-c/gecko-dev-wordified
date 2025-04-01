@@ -1113,6 +1113,11 @@ layers
 :
 kContainerFrameID_Invalid
 ;
+uint32_t
+mPresentedFrames
+=
+0
+;
 public
 :
 uint32_t
