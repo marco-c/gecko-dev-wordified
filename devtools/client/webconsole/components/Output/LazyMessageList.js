@@ -307,7 +307,7 @@ vendor
 /
 react
 .
-js
+mjs
 "
 )
 ;

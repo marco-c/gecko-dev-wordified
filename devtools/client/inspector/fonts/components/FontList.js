@@ -87,7 +87,7 @@ vendor
 /
 react
 .
-js
+mjs
 "
 )
 ;
@@ -421,10 +421,7 @@ fonts
 .
 map
 (
-(
 font
-i
-)
 =
 >
 Font
@@ -432,7 +429,9 @@ Font
 {
 key
 :
-i
+font
+.
+name
 font
 onPreviewClick
 onToggleFontHighlight

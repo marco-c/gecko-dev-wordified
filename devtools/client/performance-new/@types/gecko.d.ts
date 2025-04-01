@@ -2187,7 +2187,7 @@ vendor
 /
 react
 .
-js
+mjs
 "
 {
 import

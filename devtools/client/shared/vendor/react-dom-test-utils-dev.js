@@ -115,7 +115,7 @@ vendor
 /
 react
 .
-js
+mjs
 "
 )
 require

@@ -81,7 +81,7 @@ f
 (
 require
 (
-'
+"
 resource
 :
 /
@@ -96,8 +96,8 @@ vendor
 /
 react
 .
-js
-'
+mjs
+"
 )
 )
 ;

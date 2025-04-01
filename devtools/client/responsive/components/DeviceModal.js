@@ -92,7 +92,7 @@ vendor
 /
 react
 .
-js
+mjs
 "
 )
 ;
