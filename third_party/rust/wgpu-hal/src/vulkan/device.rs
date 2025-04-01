@@ -14417,14 +14417,6 @@ stage
 =
 >
 {
-/
-/
-TODO
-:
-add
-proper
-naga
-stages
 let
 mut
 compiled
@@ -14440,7 +14432,7 @@ naga
 ShaderStage
 :
 :
-Compute
+Task
 &
 desc
 .
@@ -14484,14 +14476,6 @@ None
 None
 }
 ;
-/
-/
-TODO
-:
-add
-proper
-naga
-stages
 let
 mut
 compiled_ms
@@ -14510,7 +14494,7 @@ naga
 ShaderStage
 :
 :
-Compute
+Mesh
 &
 desc
 .

@@ -4824,7 +4824,7 @@ location
 _
 interpolation
 sampling
-second_blend_source
+blend_src
 }
 =
 >
@@ -4880,7 +4880,11 @@ SAMPLE_QUALIFIER
 ;
 }
 if
-second_blend_source
+blend_src
+.
+is_some
+(
+)
 {
 self
 .

@@ -11558,16 +11558,6 @@ ModuleInfo
 entry_point
 :
 bool
-global_expr_kind
-:
-&
-crate
-:
-:
-proc
-:
-:
-ExpressionKindTracker
 )
 -
 >
@@ -12176,7 +12166,8 @@ module
 &
 info
 mod_info
-global_expr_kind
+&
+local_expr_kind
 )
 {
 Ok

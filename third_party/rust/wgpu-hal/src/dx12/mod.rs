@@ -4299,6 +4299,12 @@ Idler
 private_caps
 :
 PrivateCapabilities
+features
+:
+wgt
+:
+:
+Features
 shared
 :
 Arc

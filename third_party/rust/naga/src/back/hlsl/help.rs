@@ -13149,16 +13149,6 @@ back
 :
 INDENT
 ;
-const
-RETURN_VARIABLE_NAME
-:
-&
-str
-=
-"
-ret
-"
-;
 /
 /
 Write
