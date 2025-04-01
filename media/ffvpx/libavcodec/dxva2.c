@@ -4083,6 +4083,14 @@ BindFlags
 =
 D3D11_BIND_DECODER
 ;
+frames_hwctx
+-
+>
+BindFlags
+|
+=
+D3D11_BIND_SHADER_RESOURCE
+;
 }
 #
 endif
