@@ -2661,6 +2661,12 @@ supports_devtools
 "
 :
 False
+                                 
+"
+supports_window_resize
+"
+:
+False
 }
     
 def

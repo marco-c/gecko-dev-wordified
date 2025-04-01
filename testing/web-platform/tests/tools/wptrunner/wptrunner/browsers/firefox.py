@@ -6793,6 +6793,12 @@ supports_devtools
 "
 :
 True
+                                 
+"
+supports_window_resize
+"
+:
+True
 }
     
 def
