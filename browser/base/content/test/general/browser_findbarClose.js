@@ -122,7 +122,7 @@ url
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 newTab
 .
@@ -143,7 +143,6 @@ open
 )
 ;
 await
-new
 ContentTask
 .
 spawn
