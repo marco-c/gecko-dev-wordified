@@ -1260,6 +1260,7 @@ size
 :
 Option
 <
+&
 BufferSize
 >
 )
@@ -1281,6 +1282,12 @@ slot
 buffer_id
 offset
 size
+:
+size
+.
+copied
+(
+)
 }
 )
 ;
@@ -1318,6 +1325,7 @@ size
 :
 Option
 <
+&
 BufferSize
 >
 )
@@ -1339,6 +1347,12 @@ buffer_id
 index_format
 offset
 size
+:
+size
+.
+copied
+(
+)
 }
 )
 ;
