@@ -25738,7 +25738,12 @@ aBuilder
 this
 &
 rootResultList
-nullptr
+aBuilder
+-
+>
+CurrentActiveScrolledRoot
+(
+)
 /
 *
 aIsRoot
