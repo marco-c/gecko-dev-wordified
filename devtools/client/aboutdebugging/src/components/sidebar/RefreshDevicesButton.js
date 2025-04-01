@@ -176,7 +176,7 @@ prop
 -
 types
 .
-js
+mjs
 "
 )
 ;
