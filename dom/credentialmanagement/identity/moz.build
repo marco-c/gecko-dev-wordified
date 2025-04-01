@@ -130,6 +130,11 @@ IdentityNetworkHelpers
 .
 h
 "
+"
+NavigatorLogin
+.
+h
+"
 ]
 IPDL_SOURCES
 +
@@ -152,6 +157,11 @@ cpp
 "
 "
 IdentityNetworkHelpers
+.
+cpp
+"
+"
+NavigatorLogin
 .
 cpp
 "
