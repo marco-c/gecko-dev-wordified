@@ -370,9 +370,10 @@ gr_face
 *
 grface
 ;
-hb_atomic_ptr_t
+hb_atomic_t
 <
 hb_graphite2_tablelist_t
+*
 >
 tlist
 ;

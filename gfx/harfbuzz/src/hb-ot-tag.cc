@@ -2347,8 +2347,13 @@ first_len
 )
 ;
 static
-hb_atomic_int_t
+hb_atomic_t
+<
+unsigned
+>
 last_tag_idx
+=
+0
 ;
 /
 *

@@ -309,7 +309,10 @@ based
 *
 /
 mutable
-hb_atomic_int_t
+hb_atomic_t
+<
+unsigned
+>
 upem
 ;
 /
@@ -323,7 +326,10 @@ EM
 *
 /
 mutable
-hb_atomic_int_t
+hb_atomic_t
+<
+unsigned
+>
 num_glyphs
 ;
 /
@@ -403,9 +409,10 @@ next
 #
 ifndef
 HB_NO_SHAPER
-hb_atomic_ptr_t
+hb_atomic_t
 <
 plan_node_t
+*
 >
 shape_plans
 ;

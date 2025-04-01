@@ -1992,9 +1992,10 @@ ARABIC_NUM_FEATURES
 1
 ]
 ;
-hb_atomic_ptr_t
+hb_atomic_t
 <
 arabic_fallback_plan_t
+*
 >
 fallback_plan
 ;

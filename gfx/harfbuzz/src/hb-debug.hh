@@ -276,7 +276,7 @@ uniscribe_bug_compatible
 union
 hb_options_union_t
 {
-int
+unsigned
 i
 ;
 hb_options_t
@@ -289,7 +289,10 @@ static_assert
 (
 sizeof
 (
-hb_atomic_int_t
+hb_atomic_t
+<
+unsigned
+>
 )
 >
 =
@@ -310,7 +313,10 @@ _hb_options_init
 ;
 extern
 HB_INTERNAL
-hb_atomic_int_t
+hb_atomic_t
+<
+unsigned
+>
 _hb_options
 ;
 static

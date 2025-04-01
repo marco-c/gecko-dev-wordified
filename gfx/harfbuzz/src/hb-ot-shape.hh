@@ -354,6 +354,9 @@ shaper
 hb_ot_map_t
 map
 ;
+hb_aat_map_t
+aat_map
+;
 const
 void
 *
@@ -671,6 +674,9 @@ map
 #
 ifndef
 HB_NO_AAT_SHAPE
+hb_aat_map_builder_t
+aat_map
+;
 bool
 apply_morx
 :

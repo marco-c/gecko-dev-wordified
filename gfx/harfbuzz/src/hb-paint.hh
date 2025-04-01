@@ -883,7 +883,7 @@ specializations
 *
 /
 void
-push_root_transform
+push_font_transform
 (
 void
 *
@@ -950,11 +950,12 @@ upem
 ;
 }
 void
-push_inverse_root_transform
+push_inverse_font_transform
 (
 void
 *
 paint_data
+const
 hb_font_t
 *
 font
