@@ -287,7 +287,7 @@ recordsToCreate
 recordsForJaEn
 expectedCreatedRecordsCount
 :
-RECORDS_PER_LANGUAGE_PAIR
+RECORDS_PER_LANGUAGE_PAIR_SHARED_VOCAB
 }
 )
 ;
@@ -457,7 +457,7 @@ recordsToDelete
 recordsForJaEn
 expectedDeletedRecordsCount
 :
-RECORDS_PER_LANGUAGE_PAIR
+RECORDS_PER_LANGUAGE_PAIR_SHARED_VOCAB
 }
 )
 ;
@@ -604,7 +604,7 @@ recordsToCreate
 recordsForEnJa
 expectedCreatedRecordsCount
 :
-RECORDS_PER_LANGUAGE_PAIR
+RECORDS_PER_LANGUAGE_PAIR_SHARED_VOCAB
 }
 )
 ;
@@ -780,7 +780,7 @@ recordsToCreate
 recordsForJaEn
 expectedCreatedRecordsCount
 :
-RECORDS_PER_LANGUAGE_PAIR
+RECORDS_PER_LANGUAGE_PAIR_SHARED_VOCAB
 }
 )
 ;
