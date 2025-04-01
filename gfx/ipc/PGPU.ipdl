@@ -94,9 +94,6 @@ MPL
 *
 /
 include
-CrashReporterInitArgs
-;
-include
 GraphicsMessages
 ;
 include
@@ -1266,8 +1263,8 @@ aError
 async
 InitCrashReporter
 (
-CrashReporterInitArgs
-aInitArgs
+NativeThreadId
+threadId
 )
 ;
 async

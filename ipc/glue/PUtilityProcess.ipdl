@@ -94,9 +94,6 @@ MPL
 *
 /
 include
-CrashReporterInitArgs
-;
-include
 MemoryReportTypes
 ;
 include
@@ -430,8 +427,8 @@ parent
 async
 InitCrashReporter
 (
-CrashReporterInitArgs
-aInitArgs
+NativeThreadId
+threadId
 )
 ;
 async

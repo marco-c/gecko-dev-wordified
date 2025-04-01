@@ -115,8 +115,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 ipc
 {
 /
@@ -307,9 +307,9 @@ const
 CrashReporter
 :
 :
-CrashReporterInitArgs
+ThreadId
 &
-aInitArgs
+aThreadId
 )
 {
 base
@@ -347,7 +347,7 @@ Derived
 :
 PROCESS_TYPE
 pid
-aInitArgs
+aThreadId
 )
 ;
 return
@@ -623,10 +623,12 @@ mCrashReporter
 /
 /
 namespace
-mozilla
-:
-:
 ipc
+}
+/
+/
+namespace
+mozilla
 #
 endif
 /
