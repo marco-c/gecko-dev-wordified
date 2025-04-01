@@ -20,6 +20,8 @@ assert_response_event
     
 get_cached_url
     
+get_next_event_for_url
+    
 IMAGE_RESPONSE_BODY
     
 PAGE_EMPTY_TEXT
@@ -1422,13 +1424,31 @@ events
 =
 4
     
-assert_response_event
-(
-        
+#
+Assert
+only
+cached
+events
+after
+reload
+.
+    
+cached_events
+=
 events
 [
 2
+:
 ]
+    
+assert_response_event
+(
+        
+get_next_event_for_url
+(
+cached_events
+page_with_cached_css
+)
         
 expected_request
 =
@@ -1467,10 +1487,11 @@ False
 assert_response_event
 (
         
-events
-[
-3
-]
+get_next_event_for_url
+(
+cached_events
+cached_link_css_url
+)
         
 expected_request
 =
@@ -1887,13 +1908,31 @@ events
 =
 4
     
-assert_response_event
-(
-        
+#
+Assert
+only
+cached
+events
+after
+reload
+.
+    
+cached_events
+=
 events
 [
 2
+:
 ]
+    
+assert_response_event
+(
+        
+get_next_event_for_url
+(
+cached_events
+page_with_cached_css
+)
         
 expected_request
 =
@@ -1932,10 +1971,11 @@ False
 assert_response_event
 (
         
-events
-[
-3
-]
+get_next_event_for_url
+(
+cached_events
+cached_import_css_url
+)
         
 expected_request
 =
@@ -2396,38 +2436,14 @@ False
     
 )
     
-link_css_event
-=
-next
-(
-        
-e
-for
-e
-in
-events
-if
-cached_link_css_url
-=
-=
-e
-[
-"
-request
-"
-]
-[
-"
-url
-"
-]
-    
-)
-    
 assert_response_event
 (
         
-link_css_event
+get_next_event_for_url
+(
+events
+cached_link_css_url
+)
         
 expected_request
 =
@@ -2463,38 +2479,14 @@ False
     
 )
     
-import_css_event
-=
-next
-(
-        
-e
-for
-e
-in
-events
-if
-cached_import_css_url
-=
-=
-e
-[
-"
-request
-"
-]
-[
-"
-url
-"
-]
-    
-)
-    
 assert_response_event
 (
         
-import_css_event
+get_next_event_for_url
+(
+events
+cached_import_css_url
+)
         
 expected_request
 =
@@ -2624,10 +2616,11 @@ events
 assert_response_event
 (
         
+get_next_event_for_url
+(
 cached_events
-[
-0
-]
+page_with_cached_css
+)
         
 expected_request
 =
@@ -2663,38 +2656,14 @@ False
     
 )
     
-cached_link_css_event
-=
-next
-(
-        
-e
-for
-e
-in
-cached_events
-if
-cached_link_css_url
-=
-=
-e
-[
-"
-request
-"
-]
-[
-"
-url
-"
-]
-    
-)
-    
 assert_response_event
 (
         
-cached_link_css_event
+get_next_event_for_url
+(
+cached_events
+cached_link_css_url
+)
         
 expected_request
 =
@@ -2730,38 +2699,14 @@ True
     
 )
     
-cached_import_css_event
-=
-next
-(
-        
-e
-for
-e
-in
-cached_events
-if
-cached_import_css_url
-=
-=
-e
-[
-"
-request
-"
-]
-[
-"
-url
-"
-]
-    
-)
-    
 assert_response_event
 (
         
-cached_import_css_event
+get_next_event_for_url
+(
+cached_events
+cached_import_css_url
+)
         
 expected_request
 =
@@ -3149,13 +3094,31 @@ events
 =
 4
     
-assert_response_event
-(
-        
+#
+Assert
+only
+cached
+events
+after
+reload
+.
+    
+cached_events
+=
 events
 [
 2
+:
 ]
+    
+assert_response_event
+(
+        
+get_next_event_for_url
+(
+cached_events
+page_with_cached_js
+)
         
 expected_request
 =
@@ -3194,10 +3157,11 @@ False
 assert_response_event
 (
         
-events
-[
-3
-]
+get_next_event_for_url
+(
+cached_events
+cached_script_js_url
+)
         
 expected_request
 =
@@ -3444,10 +3408,11 @@ events
 assert_response_event
 (
         
+get_next_event_for_url
+(
 cached_events
-[
-0
-]
+page_with_2_cached_js
+)
         
 expected_request
 =
@@ -3483,12 +3448,40 @@ False
     
 )
     
+cached_script_js_events
+=
+list
+(
+        
+e
+for
+e
+in
+cached_events
+if
+cached_script_js_url
+=
+=
+e
+[
+"
+request
+"
+]
+[
+"
+url
+"
+]
+    
+)
+    
 assert_response_event
 (
         
-cached_events
+cached_script_js_events
 [
-1
+0
 ]
         
 expected_request
@@ -3528,18 +3521,18 @@ True
 if
 len
 (
-events
+cached_script_js_events
 )
 >
-6
+1
 :
         
 assert_response_event
 (
             
-cached_events
+cached_script_js_events
 [
-2
+1
 ]
             
 expected_request
@@ -3938,13 +3931,31 @@ events
 =
 4
     
-assert_response_event
-(
-        
+#
+Assert
+only
+cached
+events
+after
+reload
+.
+    
+cached_events
+=
 events
 [
 2
+:
 ]
+    
+assert_response_event
+(
+        
+get_next_event_for_url
+(
+cached_events
+page_with_cached_js_module
+)
         
 expected_request
 =
@@ -3983,10 +3994,11 @@ False
 assert_response_event
 (
         
-events
-[
-3
-]
+get_next_event_for_url
+(
+cached_events
+cached_js_module_url
+)
         
 expected_request
 =
@@ -4214,10 +4226,11 @@ events
 assert_response_event
 (
         
+get_next_event_for_url
+(
 cached_events
-[
-0
-]
+page_with_2_cached_js_modules
+)
         
 expected_request
 =
@@ -4256,10 +4269,11 @@ False
 assert_response_event
 (
         
+get_next_event_for_url
+(
 cached_events
-[
-1
-]
+cached_js_module_url
+)
         
 expected_request
 =
@@ -4633,14 +4647,32 @@ events
 =
 =
 4
+     
+#
+Assert
+only
+cached
+events
+after
+reload
+.
+    
+cached_events
+=
+events
+[
+2
+:
+]
     
 assert_response_event
 (
         
-events
-[
-2
-]
+get_next_event_for_url
+(
+cached_events
+page_with_cached_image
+)
         
 expected_request
 =
@@ -4679,10 +4711,11 @@ False
 assert_response_event
 (
         
-events
-[
-3
-]
+get_next_event_for_url
+(
+cached_events
+cached_image_url
+)
         
 expected_request
 =
