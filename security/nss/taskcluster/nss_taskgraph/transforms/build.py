@@ -1588,11 +1588,17 @@ attributes
 build_type
 "
 ]
-=
-=
+in
+(
 "
 opt
 "
+"
+opt
+-
+static
+"
+)
 :
             
 command
@@ -1705,6 +1711,10 @@ command
 -
 -
 static
+-
+Ddisable_libpkix
+=
+1
 "
         
 if

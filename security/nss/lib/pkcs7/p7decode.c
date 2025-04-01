@@ -5218,6 +5218,15 @@ content
 .
 digestedData
 ;
+if
+(
+digd
+=
+=
+NULL
+)
+break
+;
 /
 *
 *
