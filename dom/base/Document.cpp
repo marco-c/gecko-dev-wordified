@@ -96994,7 +96994,9 @@ ComputeCanvasBackground
 (
 )
 .
-mViewportColor
+mViewport
+.
+mColor
 ;
 FrameForPointOptions
 options
