@@ -24716,7 +24716,7 @@ sidebar
 .
 expandOnHover
 "
-false
+true
 )
 ;
 pref
