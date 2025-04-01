@@ -29,7 +29,7 @@ web_extension
 install
 (
         
-extensionData
+extension_data
 =
 {
             
@@ -110,7 +110,7 @@ web_extension
 install
 (
         
-extensionData
+extension_data
 =
 {
             
@@ -191,7 +191,7 @@ web_extension
 install
 (
         
-extensionData
+extension_data
 =
 {
             
