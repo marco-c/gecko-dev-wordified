@@ -150,8 +150,6 @@ import
 OptionParser
 import
 mozfile
-import
-six
 def
 _nsinstall_internal
 (
@@ -1292,17 +1290,7 @@ return
 _nsinstall_internal
 (
 [
-six
-.
-ensure_text
-(
 arg
-"
-utf
--
-8
-"
-)
 for
 arg
 in

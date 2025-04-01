@@ -59,8 +59,6 @@ import
 time
 import
 zipfile
-import
-six
 from
 filelock
 import
@@ -144,9 +142,7 @@ assert
 isinstance
 (
 file
-six
-.
-text_type
+str
 )
             
 self
