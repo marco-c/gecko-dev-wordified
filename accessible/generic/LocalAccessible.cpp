@@ -19239,16 +19239,6 @@ presShell
 widget
 )
 ;
-if
-(
-StaticPrefs
-:
-:
-dom_popup_experimental
-(
-)
-)
-{
 /
 /
 This
@@ -19274,7 +19264,6 @@ NotifyUserGestureActivation
 (
 )
 ;
-}
 nsCoreUtils
 :
 :

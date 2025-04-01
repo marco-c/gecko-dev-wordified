@@ -998,16 +998,6 @@ offset
 y
 )
 ;
-if
-(
-StaticPrefs
-:
-:
-dom_popup_experimental
-(
-)
-)
-{
 /
 /
 This
@@ -1033,7 +1023,6 @@ NotifyUserGestureActivation
 (
 )
 ;
-}
 /
 /
 XUL
