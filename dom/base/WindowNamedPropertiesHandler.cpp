@@ -1396,7 +1396,7 @@ found
 document
 -
 >
-ResolveNameForWindow
+ResolveName
 (
 aCx
 str
@@ -1861,7 +1861,7 @@ is
 document
 -
 >
-GetSupportedNamesForWindow
+GetSupportedNames
 (
 names
 )
