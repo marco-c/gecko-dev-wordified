@@ -5041,7 +5041,7 @@ aEvent
 {
 if
 (
-nsIContent
+auto
 *
 finalTarget
 =
@@ -5062,12 +5062,7 @@ if
 finalTarget
 -
 >
-SubtreeRoot
-(
-)
--
->
-IsShadowRoot
+IsInShadowTree
 (
 )
 )
@@ -5079,7 +5074,7 @@ true
 }
 if
 (
-nsIContent
+auto
 *
 finalRelatedTarget
 =
@@ -5100,12 +5095,7 @@ if
 finalRelatedTarget
 -
 >
-SubtreeRoot
-(
-)
--
->
-IsShadowRoot
+IsInShadowTree
 (
 )
 )
