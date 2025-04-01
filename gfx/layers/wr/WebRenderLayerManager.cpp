@@ -2156,6 +2156,8 @@ aBackground
 const
 double
 aGeckoDLBuildTime
+bool
+aRenderOffscreen
 )
 {
 AUTO_PROFILER_TRACING_MARKER
@@ -3011,6 +3013,7 @@ mTransactionIdAllocator
 GetVsyncId
 (
 )
+aRenderOffscreen
 mTransactionIdAllocator
 -
 >

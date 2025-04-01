@@ -748,6 +748,10 @@ CompositionPayload
 &
 &
 aPayloads
+const
+bool
+&
+aRenderOffscreen
 )
 override
 ;
@@ -2054,6 +2058,12 @@ TimeStamp
 aTxnStartTime
 bool
 aValidTransaction
+bool
+aRenderOffscreen
+const
+VsyncId
+&
+aVsyncId
 )
 ;
 bool

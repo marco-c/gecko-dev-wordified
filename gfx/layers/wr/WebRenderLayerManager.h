@@ -705,6 +705,8 @@ aBackground
 const
 double
 aGeckoDLBuildTime
+bool
+aRenderOffscreen
 )
 ;
 LayersBackend

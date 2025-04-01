@@ -558,6 +558,8 @@ CompositionPayload
 [
 ]
 payloads
+bool
+renderOffscreen
 )
 ;
 async

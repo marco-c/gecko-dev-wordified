@@ -426,6 +426,8 @@ mozilla
 VsyncId
 &
 aVsyncId
+bool
+aRenderOffscreen
 const
 mozilla
 :

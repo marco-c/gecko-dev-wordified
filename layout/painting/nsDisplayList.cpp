@@ -15045,6 +15045,9 @@ valueOr
 .
 0
 )
+aFlags
+&
+PAINT_COMPOSITE_OFFSCREEN
 )
 ;
 }

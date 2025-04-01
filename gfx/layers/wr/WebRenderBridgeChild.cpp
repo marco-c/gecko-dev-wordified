@@ -638,6 +638,8 @@ mozilla
 VsyncId
 &
 aVsyncId
+bool
+aRenderOffscreen
 const
 mozilla
 :
@@ -756,6 +758,7 @@ aTxnStartTime
 aTxnURL
 fwdTime
 payloads
+aRenderOffscreen
 )
 ;
 /
