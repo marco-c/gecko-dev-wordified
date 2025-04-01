@@ -117,18 +117,6 @@ browser
 "
         
 "
-browser
-/
-extensions
-/
-report
--
-site
--
-issue
-"
-        
-"
 extensions
 /
 spellcheck
