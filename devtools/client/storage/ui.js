@@ -1324,9 +1324,6 @@ view
 -
 popup
 "
-preventDescriptorModifiers
-:
-true
 }
 )
 ;
