@@ -542,6 +542,7 @@ arg
 version
 "
 )
+path
 /
 /
 tool
@@ -741,6 +742,7 @@ null
 (
 )
 )
+path
 &
 {
 /
@@ -1414,6 +1416,7 @@ path
 (
 )
 )
+path
 &
 compiler_detect_output
 )
@@ -1483,6 +1486,7 @@ path
 (
 )
 )
+path
 &
 compiler_detect_output
 )
