@@ -2151,6 +2151,7 @@ removeAllRecords
 (
 )
 ;
+await
 SpecialPowers
 .
 popPrefEnv
@@ -2684,6 +2685,7 @@ removeAllRecords
 (
 )
 ;
+await
 SpecialPowers
 .
 popPrefEnv
@@ -3613,6 +3615,7 @@ removeAllRecords
 (
 )
 ;
+await
 SpecialPowers
 .
 popPrefEnv
@@ -3867,6 +3870,7 @@ removeAllRecords
 (
 )
 ;
+await
 SpecialPowers
 .
 popPrefEnv
@@ -4072,6 +4076,7 @@ removeAllRecords
 (
 )
 ;
+await
 SpecialPowers
 .
 popPrefEnv
@@ -4314,6 +4319,7 @@ removeAllRecords
 (
 )
 ;
+await
 SpecialPowers
 .
 popPrefEnv
@@ -4875,6 +4881,7 @@ removeAllRecords
 (
 )
 ;
+await
 SpecialPowers
 .
 popPrefEnv
