@@ -1081,8 +1081,6 @@ const
 nsString
 &
 aId
-CloseMode
-aCloseMode
 )
 {
 /
@@ -1132,13 +1130,7 @@ aId
 aContextClosed
 *
 /
-aCloseMode
-=
-=
-CloseMode
-:
-:
-InactiveGlobal
+false
 )
 ;
 }
