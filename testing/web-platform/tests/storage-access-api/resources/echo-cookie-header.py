@@ -28,30 +28,15 @@ Origin
 "
 )
   
-headers
-=
-[
-]
-  
 if
 origin
-is
-not
-None
-and
-origin
-!
-=
-b
-"
-null
-"
 :
       
+response
+.
 headers
 .
-append
-(
+set
 (
 b
 "
@@ -66,12 +51,12 @@ text
 plain
 "
 )
-)
       
+response
+.
 headers
 .
-append
-(
+set
 (
 b
 "
@@ -85,12 +70,12 @@ Origin
 "
 origin
 )
-)
       
+response
+.
 headers
 .
-append
-(
+set
 (
 b
 "
@@ -106,10 +91,8 @@ Credentials
 true
 '
 )
-)
   
-cookie_header
-=
+return
 request
 .
 headers
@@ -123,11 +106,4 @@ Cookie
 b
 "
 "
-)
-  
-return
-(
-200
-headers
-cookie_header
 )
