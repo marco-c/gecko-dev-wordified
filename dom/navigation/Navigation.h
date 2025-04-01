@@ -730,12 +730,6 @@ LogHistory
 )
 const
 ;
-nsCOMPtr
-<
-nsPIDOMWindowInner
->
-mWindow
-;
 /
 /
 https
