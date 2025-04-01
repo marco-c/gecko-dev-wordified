@@ -324,6 +324,10 @@ reason_codes
 "
 follows_collection_enabled
 "
+    
+"
+uploader_capabilities
+"
 ]
 def
 ensure_jog_support_for_args
