@@ -13553,7 +13553,7 @@ duration
 values
 must
 be
-lower
+smaller
 than
 2
 *
