@@ -306,6 +306,19 @@ get
 headless
 "
 )
+        
+"
+capabilities
+"
+:
+kwargs
+.
+get
+(
+"
+capabilities
+"
+)
     
 }
 def
@@ -332,6 +345,16 @@ run_info_data
 *
 kwargs
 )
+    
+rv
+[
+'
+capabilities
+'
+]
+=
+{
+}
     
 return
 rv
