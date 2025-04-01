@@ -2147,6 +2147,11 @@ mSwapChain
 EGLSurface
 mEGLSurface
 ;
+bool
+mFirstPresent
+=
+true
+;
 }
 ;
 /
