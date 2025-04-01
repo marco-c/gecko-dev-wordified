@@ -228,12 +228,14 @@ return
 a
 -
 >
-HasLowerCompositeOrderThan
+CompareCompositeOrder
 (
 *
 b
 mCache
 )
+<
+0
 ;
 }
 }

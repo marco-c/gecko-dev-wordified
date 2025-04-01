@@ -938,8 +938,8 @@ StickyTimeDuration
 )
 )
 ;
-bool
-HasLowerCompositeOrderThan
+int32_t
+CompareCompositeOrder
 (
 const
 CSSAnimation
