@@ -311,9 +311,7 @@ Set
 .
 .
 .
-nodeTypeSets
-.
-functions
+functionsSet
 /
 /
 For
