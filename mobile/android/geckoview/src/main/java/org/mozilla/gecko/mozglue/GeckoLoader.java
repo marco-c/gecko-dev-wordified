@@ -1537,7 +1537,7 @@ lastSlash
 ;
 Log
 .
-i
+d
 (
 LOGTAG
 "
