@@ -387,6 +387,13 @@ endif
 #
 include
 "
+nsUXThemeData
+.
+h
+"
+#
+include
+"
 nsIUserIdleServiceInternal
 .
 h

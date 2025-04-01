@@ -961,6 +961,13 @@ mDocument
 aDocument
 )
 {
+PreferenceSheet
+:
+:
+EnsureInitialized
+(
+)
+;
 PodArrayZero
 (
 mCachedAnonymousContentStyleIndexes

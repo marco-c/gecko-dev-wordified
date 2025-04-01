@@ -159,6 +159,13 @@ h
 #
 include
 "
+nsUXThemeData
+.
+h
+"
+#
+include
+"
 nsWindow
 .
 h

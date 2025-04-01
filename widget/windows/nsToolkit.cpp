@@ -156,6 +156,13 @@ WinUtils
 .
 h
 "
+#
+include
+"
+nsUXThemeData
+.
+h
+"
 /
 /
 unknwn
