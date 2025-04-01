@@ -3062,6 +3062,7 @@ UpdateRelevancyOfContentVisibilityAutoFrames
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 PerformPendingViewTransitionOperations
 (
