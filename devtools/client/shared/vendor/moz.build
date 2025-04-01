@@ -150,17 +150,6 @@ react
 test
 -
 renderer
--
-shallow
-.
-mjs
-'
-'
-react
--
-test
--
-renderer
 .
 mjs
 '
