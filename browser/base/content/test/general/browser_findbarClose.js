@@ -143,7 +143,6 @@ open
 )
 ;
 await
-new
 ContentTask
 .
 spawn
