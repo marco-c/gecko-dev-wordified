@@ -135,8 +135,6 @@ Web
 /
 HTTP
 /
-Reference
-/
 Headers
 /
 "
