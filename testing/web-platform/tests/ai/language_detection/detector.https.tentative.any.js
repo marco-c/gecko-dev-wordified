@@ -241,7 +241,6 @@ create
 const
 detectPromise
 =
-await
 detector
 .
 detect
@@ -253,6 +252,13 @@ is
 in
 English
 '
+{
+signal
+:
+controller
+.
+signal
+}
 )
 ;
 await
