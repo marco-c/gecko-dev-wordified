@@ -8694,9 +8694,9 @@ rv
 ;
 if
 (
-gHttpHandler
--
->
+nsHttpHandler
+:
+:
 EchConfigEnabled
 (
 )

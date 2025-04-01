@@ -7332,9 +7332,9 @@ nullptr
 bool
 echConfigUsed
 =
-gHttpHandler
--
->
+nsHttpHandler
+:
+:
 EchConfigEnabled
 (
 failedConnInfo
@@ -23319,9 +23319,9 @@ return
 bool
 echConfigUsed
 =
-gHttpHandler
--
->
+nsHttpHandler
+:
+:
 EchConfigEnabled
 (
 mConnInfo

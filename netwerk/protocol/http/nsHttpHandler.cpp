@@ -20857,7 +20857,6 @@ EchConfigEnabled
 bool
 aIsHttp3
 )
-const
 {
 if
 (
