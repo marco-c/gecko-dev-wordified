@@ -9583,9 +9583,14 @@ inheritAttrs
 &
 &
 !
-SchemeIsData
-(
 mURI
+-
+>
+SchemeIs
+(
+"
+data
+"
 )
 ;
 nsSecurityFlags
