@@ -11707,7 +11707,6 @@ PrimitiveFlags
 spatial_node_index
 :
 SpatialNodeIndex
-mut
 clip_chain_id
 :
 Option
@@ -11939,10 +11938,6 @@ Flat
 prim_flags
 spatial_node_index
 clip_chain_id
-.
-take
-(
-)
 requested_raster_space
 flags
 LayoutVector2D
