@@ -8628,10 +8628,32 @@ devices
 (
 )
             
+ready_devices
+=
+[
+d
+for
+d
+in
+devices
+if
+d
+[
+"
+state
+"
+]
+=
+=
+"
+device
+"
+]
+            
 if
 len
 (
-devices
+ready_devices
 )
 >
 1
@@ -8650,7 +8672,7 @@ devices
 "
                     
 "
-attached
+available
 and
 no
 device
@@ -8662,7 +8684,7 @@ specified
 if
 len
 (
-devices
+ready_devices
 )
 =
 =
@@ -8674,7 +8696,7 @@ ADBError
 (
 "
 No
-connected
+ready
 devices
 found
 .
@@ -8683,7 +8705,7 @@ found
             
 device
 =
-devices
+ready_devices
 [
 0
 ]
