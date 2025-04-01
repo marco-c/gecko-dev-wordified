@@ -186,9 +186,6 @@ ServiceWorkerRegistration
 *
 mOwner
 ;
-bool
-mTeardownStarted
-;
 ServiceWorkerRegistrationChild
 (
 )
@@ -272,8 +269,15 @@ ServiceWorkerRegistration
 aOwner
 )
 ;
+/
+/
+Idempotently
+delete
+the
+actor
+.
 void
-MaybeStartTeardown
+Shutdown
 (
 )
 ;
