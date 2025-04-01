@@ -202,7 +202,7 @@ UAHelpers
 overrideWithDeviceAppropriateChromeUA
 (
 {
-desktopOS
+OS
 :
 "
 nonLinux
