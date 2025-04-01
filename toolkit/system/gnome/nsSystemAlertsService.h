@@ -185,8 +185,10 @@ aListener
 nsTHashMap
 <
 nsStringHashKey
+RefPtr
+<
 nsAlertsIconListener
-*
+>
 >
 mActiveListeners
 ;
