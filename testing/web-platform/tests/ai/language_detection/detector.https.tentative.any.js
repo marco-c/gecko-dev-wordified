@@ -706,7 +706,7 @@ signal
 }
 '
 Aborting
-AITranslator
+Translator
 .
 measureInputUsage
 (

@@ -68,9 +68,7 @@ promise_rejects_js
 (
 t
 TypeError
-ai
-.
-translator
+Translator
 .
 create
 (
@@ -85,7 +83,7 @@ options
 ;
 }
 '
-AITranslatorFactory
+Translator
 .
 create
 rejects
@@ -112,9 +110,7 @@ promise_rejects_js
 (
 t
 TypeError
-ai
-.
-translator
+Translator
 .
 create
 (
@@ -130,7 +126,7 @@ en
 ;
 }
 '
-AITranslatorFactory
+Translator
 .
 create
 rejects
@@ -156,9 +152,7 @@ promise_rejects_js
 (
 t
 TypeError
-ai
-.
-translator
+Translator
 .
 create
 (
@@ -174,7 +168,7 @@ en
 ;
 }
 '
-AITranslatorFactory
+Translator
 .
 create
 rejects
