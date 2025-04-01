@@ -110,9 +110,10 @@ Team
 name
 :
 "
-browser_ml_suggest_inference
-.
-js
+ML
+Suggest
+Inference
+Model
 "
 description
 :
