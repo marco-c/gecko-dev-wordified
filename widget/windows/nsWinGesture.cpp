@@ -184,6 +184,13 @@ include
 <
 cmath
 >
+#
+include
+<
+uxtheme
+.
+h
+>
 using
 namespace
 mozilla
