@@ -180,11 +180,6 @@ context_ids
 =
 =
 expected_context_ids
-pytest
-.
-mark
-.
-allow_system_access
 async
 def
 test_reference_context

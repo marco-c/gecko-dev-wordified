@@ -3497,25 +3497,6 @@ MOZ_CRASHREPORTER_SHUTDOWN
         
 )
         
-extra_args
-=
-[
-"
--
-marionette
-"
-"
--
-remote
--
-allow
--
-system
--
-access
-"
-]
-        
 args
 =
 {
@@ -3540,7 +3521,12 @@ profile
 cmdargs
 "
 :
-extra_args
+[
+"
+-
+marionette
+"
+]
 +
 self
 .
