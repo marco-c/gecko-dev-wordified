@@ -3371,9 +3371,9 @@ onDragOver
 aEvent
 )
 {
-browserDragAndDrop
+ToolbarDropHandler
 .
-dragOver
+onDragOver
 (
 aEvent
 )
@@ -3436,7 +3436,9 @@ return
 let
 links
 =
-browserDragAndDrop
+Services
+.
+droppedLinkHandler
 .
 dropLinks
 (
