@@ -352,11 +352,6 @@ nsCRTGlue
 h
 "
 "
-nsCycleCollectionContainerParticipant
-.
-h
-"
-"
 nsCycleCollectionNoteChild
 .
 h
