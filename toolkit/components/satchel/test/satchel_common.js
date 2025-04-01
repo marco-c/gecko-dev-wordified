@@ -780,7 +780,7 @@ function
 testMenuEntry
 (
 index
-statement
+is
 )
 {
 return
@@ -800,7 +800,7 @@ waitForMenuEntryTest
 "
 {
 index
-statement
+is
 }
 )
 ;
