@@ -8715,7 +8715,7 @@ Float32
 FaultingCodeOffset
 fco
 =
-storeUncanonicalizedFloat32
+storeFloat32
 (
 value
 .
@@ -8751,7 +8751,7 @@ Float64
 FaultingCodeOffset
 fco
 =
-storeUncanonicalizedDouble
+storeDouble
 (
 value
 .

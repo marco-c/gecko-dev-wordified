@@ -4616,7 +4616,7 @@ FaultingCodeOffset
 MacroAssembler
 :
 :
-storeUncanonicalizedDouble
+storeDouble
 (
 FloatRegister
 src
@@ -4635,7 +4635,7 @@ FaultingCodeOffset
 MacroAssembler
 :
 :
-storeUncanonicalizedDouble
+storeDouble
 (
 FloatRegister
 src
@@ -4654,7 +4654,7 @@ FaultingCodeOffset
 MacroAssembler
 :
 :
-storeUncanonicalizedFloat32
+storeFloat32
 (
 FloatRegister
 src
@@ -4673,7 +4673,7 @@ FaultingCodeOffset
 MacroAssembler
 :
 :
-storeUncanonicalizedFloat32
+storeFloat32
 (
 FloatRegister
 src
@@ -4692,7 +4692,7 @@ FaultingCodeOffset
 MacroAssembler
 :
 :
-storeUncanonicalizedFloat16
+storeFloat16
 (
 FloatRegister
 src
@@ -4712,7 +4712,7 @@ FaultingCodeOffset
 MacroAssembler
 :
 :
-storeUncanonicalizedFloat16
+storeFloat16
 (
 FloatRegister
 src
