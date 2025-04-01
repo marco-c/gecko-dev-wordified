@@ -830,6 +830,8 @@ Web
 /
 HTTP
 /
+Reference
+/
 Headers
 /
 Strict
@@ -858,6 +860,8 @@ docs
 Web
 /
 HTTP
+/
+Reference
 /
 Headers
 /
@@ -951,6 +955,8 @@ docs
 Web
 /
 HTTP
+/
+Reference
 /
 Headers
 /
@@ -1165,10 +1171,11 @@ Web
 /
 HTTP
 /
+Guides
+/
 CORS
 /
 Errors
-/
 "
 ;
 const
