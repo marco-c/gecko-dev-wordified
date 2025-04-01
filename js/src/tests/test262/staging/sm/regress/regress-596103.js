@@ -36,13 +36,13 @@ includes
 sm
 /
 non262
--
-shell
 .
 js
 sm
 /
 non262
+-
+shell
 .
 js
 ]
@@ -91,6 +91,8 @@ create
 y
 )
 ;
+262
+.
 gc
 (
 )
@@ -101,6 +103,8 @@ t
 =
 3
 ;
+262
+.
 gc
 (
 )

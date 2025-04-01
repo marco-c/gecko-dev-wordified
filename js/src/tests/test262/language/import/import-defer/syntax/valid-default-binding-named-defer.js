@@ -129,7 +129,7 @@ dep_FIXTURE
 js
 "
 ;
-asserts
+assert
 .
 sameValue
 (

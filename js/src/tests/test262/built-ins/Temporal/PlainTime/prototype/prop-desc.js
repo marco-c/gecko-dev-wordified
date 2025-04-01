@@ -86,9 +86,9 @@ esid
 sec
 -
 temporal
--
+.
 plaintime
--
+.
 prototype
 description
 :

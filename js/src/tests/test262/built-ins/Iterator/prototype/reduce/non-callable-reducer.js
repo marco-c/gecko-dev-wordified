@@ -142,12 +142,9 @@ nonCallable
 {
 }
 ;
-let
-iterator
-=
-(
 function
 *
+gen
 (
 )
 {
@@ -155,10 +152,6 @@ yield
 1
 ;
 }
-)
-(
-)
-;
 assert
 .
 throws
@@ -168,7 +161,9 @@ function
 (
 )
 {
-iterator
+gen
+(
+)
 .
 reduce
 (
@@ -178,7 +173,9 @@ nonCallable
 }
 )
 ;
-iterator
+gen
+(
+)
 .
 reduce
 (

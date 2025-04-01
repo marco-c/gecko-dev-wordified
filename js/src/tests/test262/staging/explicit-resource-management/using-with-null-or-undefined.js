@@ -141,6 +141,9 @@ Use
 using
 with
 null
+does
+not
+throw
 -
 -
 -
@@ -167,8 +170,8 @@ TestUsingWithNull
 (
 )
 {
-let
 using
+x
 =
 null
 ;
@@ -200,6 +203,9 @@ Use
 using
 with
 undefined
+does
+not
+throw
 -
 -
 -
@@ -226,8 +232,8 @@ TestUsingWithUndefined
 (
 )
 {
-let
 using
+x
 =
 undefined
 ;

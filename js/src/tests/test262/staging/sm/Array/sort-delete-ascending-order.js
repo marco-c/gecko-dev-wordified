@@ -36,7 +36,9 @@ file
 includes
 :
 [
-compareArray
+sm
+/
+non262
 .
 js
 sm
@@ -46,9 +48,7 @@ non262
 shell
 .
 js
-sm
-/
-non262
+compareArray
 .
 js
 ]

@@ -101,6 +101,9 @@ features
 :
 [
 Temporal
+canonical
+-
+tz
 ]
 -
 -

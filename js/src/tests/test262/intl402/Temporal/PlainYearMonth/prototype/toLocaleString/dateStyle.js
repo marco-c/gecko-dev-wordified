@@ -118,6 +118,8 @@ u
 ca
 -
 islamic
+-
+tbla
 ]
 features
 :
@@ -273,6 +275,8 @@ calendar
 :
 "
 islamic
+-
+tbla
 "
 }
 )
@@ -291,6 +295,8 @@ u
 ca
 -
 islamic
+-
+tbla
 "
 {
 dateStyle
@@ -336,6 +342,8 @@ u
 ca
 -
 islamic
+-
+tbla
 "
 {
 dateStyle

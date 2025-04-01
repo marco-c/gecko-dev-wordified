@@ -33,7 +33,9 @@ publicdomain
 includes
 :
 [
-deepEqual
+sm
+/
+non262
 .
 js
 sm
@@ -43,9 +45,7 @@ non262
 shell
 .
 js
-sm
-/
-non262
+deepEqual
 .
 js
 ]

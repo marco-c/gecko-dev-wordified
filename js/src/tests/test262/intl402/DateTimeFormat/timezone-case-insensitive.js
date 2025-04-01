@@ -47,6 +47,13 @@ are
 case
 -
 normalized
+features
+:
+[
+canonical
+-
+tz
+]
 -
 -
 -

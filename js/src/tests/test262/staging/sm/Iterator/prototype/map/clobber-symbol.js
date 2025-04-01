@@ -125,13 +125,13 @@ includes
 sm
 /
 non262
--
-shell
 .
 js
 sm
 /
 non262
+-
+shell
 .
 js
 ]

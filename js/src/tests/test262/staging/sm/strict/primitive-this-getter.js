@@ -39,8 +39,6 @@ includes
 sm
 /
 non262
--
-shell
 .
 js
 sm
@@ -55,6 +53,8 @@ js
 sm
 /
 non262
+-
+shell
 .
 js
 ]

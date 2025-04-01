@@ -39,13 +39,13 @@ includes
 sm
 /
 non262
--
-shell
 .
 js
 sm
 /
 non262
+-
+shell
 .
 js
 ]
@@ -245,6 +245,8 @@ for
 throwlhs
 (
 )
+.
+x
 )
 of
 iterable

@@ -51,6 +51,13 @@ storing
 in
 internal
 slots
+features
+:
+[
+canonical
+-
+tz
+]
 -
 -
 -
