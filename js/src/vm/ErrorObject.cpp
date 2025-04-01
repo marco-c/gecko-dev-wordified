@@ -6415,9 +6415,6 @@ return
 true
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 /
 *
 *
@@ -6747,8 +6744,6 @@ return
 true
 ;
 }
-#
-endif
 /
 /
 The
