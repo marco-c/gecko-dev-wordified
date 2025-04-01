@@ -1025,9 +1025,23 @@ load
 j
 )
         
-rv
+#
+exit
+code
+;
+will
+be
+set
+to
+1
+at
+first
+assertion
+failure
+        
+ec
 =
-False
+0
         
 first_tab
 =
@@ -1288,9 +1302,9 @@ as
 ex
 :
                 
-rv
+ec
 =
-False
+1
                 
 test_status
 =
@@ -1700,7 +1714,7 @@ with
 .
 format
 (
-rv
+ec
 )
 )
         
@@ -1716,13 +1730,7 @@ sys
 .
 exit
 (
-0
-if
-rv
-is
-True
-else
-1
+ec
 )
     
 def
@@ -2842,6 +2850,24 @@ utf
                 
 )
             
+differences_png
+=
+"
+differences_
+{
+}
+"
+.
+format
+(
+exp
+[
+"
+reference
+"
+]
+)
+            
 with
 open
 (
@@ -2850,11 +2876,7 @@ self
 .
 get_screenshot_destination
 (
-"
-differences
-.
-png
-"
+differences_png
 )
 "
 wb
@@ -2876,6 +2898,24 @@ getvalue
 )
 )
             
+current_rendering_png
+=
+"
+current_rendering_
+{
+}
+"
+.
+format
+(
+exp
+[
+"
+reference
+"
+]
+)
+            
 with
 open
 (
@@ -2884,11 +2924,7 @@ self
 .
 get_screenshot_destination
 (
-"
-current_rendering
-.
-png
-"
+current_rendering_png
 )
 "
 wb
@@ -2906,6 +2942,24 @@ save
 current_screenshot
 )
             
+reference_rendering_png
+=
+"
+reference_rendering_
+{
+}
+"
+.
+format
+(
+exp
+[
+"
+reference
+"
+]
+)
+            
 with
 open
 (
@@ -2914,11 +2968,7 @@ self
 .
 get_screenshot_destination
 (
-"
-reference_rendering
-.
-png
-"
+reference_rendering_png
 )
 "
 wb
