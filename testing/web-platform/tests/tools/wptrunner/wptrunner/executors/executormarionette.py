@@ -4977,6 +4977,7 @@ update_virtual_pressure_source
 self
 source_type
 sample
+estimate
 )
 :
         
