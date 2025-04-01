@@ -792,6 +792,16 @@ this
 id
 )
 ;
+view
+-
+>
+SetLabel
+(
+aDesc
+.
+mLabel
+)
+;
 return
 view
 .
