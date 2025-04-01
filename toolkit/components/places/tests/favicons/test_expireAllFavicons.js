@@ -100,9 +100,12 @@ test
 page
 .
 await
+PlacesTestUtils
+.
 setFaviconForPage
 (
 TEST_PAGE_URI
+SMALLPNG_DATA_URI
 SMALLPNG_DATA_URI
 )
 ;
@@ -152,9 +155,12 @@ our
 bookmark
 .
 await
+PlacesTestUtils
+.
 setFaviconForPage
 (
 BOOKMARKED_PAGE_URI
+SMALLPNG_DATA_URI
 SMALLPNG_DATA_URI
 )
 ;

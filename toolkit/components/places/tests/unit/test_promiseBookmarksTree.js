@@ -1626,9 +1626,12 @@ UTF
 )
 ;
 await
+PlacesTestUtils
+.
 setFaviconForPage
 (
 urlWithCharsetAndFavicon
+SMALLPNG_DATA_URI
 SMALLPNG_DATA_URI
 )
 ;
