@@ -499,6 +499,11 @@ AtomArray
 h
 "
 "
+CycleCollectedUniquePtr
+.
+h
+"
+"
 Dafsa
 .
 h
