@@ -111,7 +111,7 @@ react
 -
 dom
 .
-js
+mjs
 "
 )
 ;

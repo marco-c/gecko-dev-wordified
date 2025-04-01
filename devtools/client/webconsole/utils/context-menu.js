@@ -2286,7 +2286,7 @@ react
 -
 dom
 .
-js
+mjs
 "
 )
 ;

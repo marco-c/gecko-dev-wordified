@@ -416,7 +416,7 @@ react
 -
 dom
 .
-js
+mjs
 "
 )
 ;

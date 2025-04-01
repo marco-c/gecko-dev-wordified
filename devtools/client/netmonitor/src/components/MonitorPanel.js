@@ -203,7 +203,7 @@ react
 -
 dom
 .
-js
+mjs
 "
 )
 ;
