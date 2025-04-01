@@ -558,6 +558,9 @@ shouldAbortOnFailure
 false
 &
 capacity
+"
+rlbox_wasm2c_hunspell
+"
 )
 ;
 #

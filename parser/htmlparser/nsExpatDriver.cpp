@@ -10204,13 +10204,16 @@ create_sandbox
 (
 /
 *
-infallible
+shouldAbortOnFailure
 =
 *
 /
 false
 &
 capacity
+"
+rlbox_wasm2c_expat
+"
 )
 ;
 #
