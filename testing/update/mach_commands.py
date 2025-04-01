@@ -57,8 +57,6 @@ MPL
 import
 logging
 import
-os
-import
 sys
 from
 pathlib
@@ -432,11 +430,7 @@ tests
 =
 [
         
-os
-.
-path
-.
-join
+Path
 (
             
 topsrcdir
@@ -533,13 +527,7 @@ else
 :
         
 with
-open
-(
-os
-.
-path
-.
-join
+Path
 (
 executable_dir
 "
@@ -550,6 +538,9 @@ settings
 ini
 "
 )
+.
+open
+(
 "
 w
 "
@@ -587,14 +578,7 @@ central
 )
         
 with
-open
-(
-            
-os
-.
-path
-.
-join
+Path
 (
 executable_dir
 "
@@ -611,6 +595,10 @@ prefs
 js
 "
 )
+.
+open
+(
+            
 "
 w
 "
