@@ -2848,13 +2848,6 @@ presshell
 return
 ;
 }
-PreferenceSheet
-:
-:
-EnsureInitialized
-(
-)
-;
 Document
 (
 )
