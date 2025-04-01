@@ -123,6 +123,13 @@ mozilla_dom_NavigationActivation_h___
 #
 include
 "
+nsISupports
+.
+h
+"
+#
+include
+"
 nsWrapperCache
 .
 h
