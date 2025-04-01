@@ -1486,7 +1486,7 @@ serde
 .
 0
 .
-218
+219
 "
 )
 ]
@@ -1859,6 +1859,10 @@ clippy
 :
 :
 doc_markdown
+clippy
+:
+:
+elidable_lifetime_names
 clippy
 :
 :
