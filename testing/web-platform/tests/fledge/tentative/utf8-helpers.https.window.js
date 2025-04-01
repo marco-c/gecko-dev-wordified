@@ -573,7 +573,7 @@ test
 let
 result
 =
-browserSignals
+protectedAudience
 .
 encodeUtf8
 (
@@ -620,7 +620,7 @@ test
 let
 result
 =
-browserSignals
+protectedAudience
 .
 encodeUtf8
 (
@@ -670,7 +670,7 @@ test
 let
 result
 =
-browserSignals
+protectedAudience
 .
 encodeUtf8
 (
@@ -736,7 +736,7 @@ ABC
 let
 result
 =
-browserSignals
+protectedAudience
 .
 encodeUtf8
 (
@@ -784,7 +784,7 @@ conversionBody
 let
 result
 =
-browserSignals
+protectedAudience
 .
 encodeUtf8
 (
@@ -841,7 +841,7 @@ go
 let
 result
 =
-browserSignals
+protectedAudience
 .
 encodeUtf8
 (
@@ -896,7 +896,7 @@ Uint8Array
 let
 result
 =
-browserSignals
+protectedAudience
 .
 decodeUtf8
 (
@@ -956,7 +956,7 @@ Uint8Array
 let
 result
 =
-browserSignals
+protectedAudience
 .
 decodeUtf8
 (
@@ -1037,7 +1037,7 @@ Uint8Array
 let
 result
 =
-browserSignals
+protectedAudience
 .
 decodeUtf8
 (
@@ -1116,7 +1116,7 @@ Uint8Array
 let
 result
 =
-browserSignals
+protectedAudience
 .
 decodeUtf8
 (
@@ -1222,7 +1222,7 @@ buffer
 ;
 assertString
 (
-browserSignals
+protectedAudience
 .
 decodeUtf8
 (
@@ -1235,7 +1235,7 @@ ABCDEFGH
 ;
 assertString
 (
-browserSignals
+protectedAudience
 .
 decodeUtf8
 (
@@ -1278,7 +1278,7 @@ conversionBody
 let
 result
 =
-browserSignals
+protectedAudience
 .
 decodeUtf8
 (
@@ -1316,7 +1316,7 @@ conversionBody
 let
 result
 =
-browserSignals
+protectedAudience
 .
 decodeUtf8
 (
