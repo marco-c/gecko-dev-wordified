@@ -7848,12 +7848,6 @@ case
 DisplayItemType
 :
 :
-TYPE_CANVAS_BACKGROUND_COLOR
-:
-case
-DisplayItemType
-:
-:
 TYPE_CANVAS_BACKGROUND_IMAGE
 :
 continue
