@@ -8580,9 +8580,6 @@ eventTimingEntry
 FinalizeEventTiming
 (
 aEvent
--
->
-mTarget
 )
 ;
 }
