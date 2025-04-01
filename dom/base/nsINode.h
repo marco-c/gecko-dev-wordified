@@ -14508,7 +14508,7 @@ mBoolFlags
 &
 ~
 (
-1
+1U
 <
 <
 name
@@ -14553,7 +14553,7 @@ mBoolFlags
 |
 =
 (
-1
+1U
 <
 <
 name
@@ -14591,7 +14591,7 @@ mBoolFlags
 =
 ~
 (
-1
+1U
 <
 <
 name
@@ -14629,7 +14629,7 @@ return
 mBoolFlags
 &
 (
-1
+1U
 <
 <
 name
