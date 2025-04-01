@@ -1392,7 +1392,7 @@ shopping
 .
 experience2023
 .
-shoppingSidebar
+enabled
 "
 true
 ]

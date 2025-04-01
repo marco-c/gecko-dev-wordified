@@ -2070,6 +2070,18 @@ integratedSidebar
 "
 false
 ]
+[
+"
+browser
+.
+shopping
+.
+experience2023
+.
+enabled
+"
+true
+]
 ]
 }
 )
@@ -2658,7 +2670,7 @@ shopping
 .
 experience2023
 .
-shoppingSidebar
+enabled
 "
 false
 ]
