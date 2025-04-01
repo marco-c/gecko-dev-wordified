@@ -73,7 +73,7 @@ js
 ;
 import
 {
-ValidationTest
+AllFeaturesMaxLimitsValidationTest
 }
 from
 '
@@ -102,7 +102,7 @@ boolean
 class
 F
 extends
-ValidationTest
+AllFeaturesMaxLimitsValidationTest
 {
 createCommandBuffer
 (
@@ -313,15 +313,11 @@ beforeAllSubcases
 t
 =
 >
-{
 t
 .
-selectMismatchedDeviceOrSkipTestCase
+usesMismatchedDevice
 (
-undefined
 )
-;
-}
 )
 .
 fn

@@ -326,6 +326,13 @@ device
 .
 createCommandEncoder
 (
+{
+label
+:
+'
+getProvokingVertexForFlatInterpolationEitherSampling
+'
+}
 )
 ;
 const

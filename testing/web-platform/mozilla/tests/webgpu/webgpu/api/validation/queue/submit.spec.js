@@ -101,7 +101,7 @@ js
 ;
 import
 {
-ValidationTest
+AllFeaturesMaxLimitsValidationTest
 }
 from
 '
@@ -116,7 +116,7 @@ js
 class
 F
 extends
-ValidationTest
+AllFeaturesMaxLimitsValidationTest
 {
 createCommandBuffer
 (
@@ -322,15 +322,11 @@ t
 )
 =
 >
-{
 t
 .
-selectMismatchedDeviceOrSkipTestCase
+usesMismatchedDevice
 (
-undefined
 )
-;
-}
 )
 .
 fn

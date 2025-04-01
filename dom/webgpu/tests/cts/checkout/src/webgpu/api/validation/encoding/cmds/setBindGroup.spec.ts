@@ -214,7 +214,6 @@ js
 import
 {
 kResourceStates
-MaxLimitsTestMixin
 ResourceState
 }
 from
@@ -264,7 +263,7 @@ js
 ;
 import
 {
-ValidationTest
+AllFeaturesMaxLimitsValidationTest
 }
 from
 '
@@ -282,7 +281,7 @@ js
 class
 F
 extends
-ValidationTest
+AllFeaturesMaxLimitsValidationTest
 {
 encoderTypeToStageFlag
 (
@@ -710,10 +709,7 @@ g
 =
 makeTestGroup
 (
-MaxLimitsTestMixin
-(
 F
-)
 )
 ;
 g
@@ -1011,15 +1007,11 @@ beforeAllSubcases
 t
 =
 >
-{
 t
 .
-selectMismatchedDeviceOrSkipTestCase
+usesMismatchedDevice
 (
-undefined
 )
-;
-}
 )
 .
 fn

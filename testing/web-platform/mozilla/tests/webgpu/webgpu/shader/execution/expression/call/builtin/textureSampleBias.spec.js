@@ -2680,6 +2680,17 @@ t
 .
 params
 ;
+t
+.
+skipIfTextureViewDimensionNotSupported
+(
+'
+cube
+-
+array
+'
+)
+;
 skipIfTextureFormatNotSupportedOrNeedsFilteringAndIsUnfilterable
 (
 t

@@ -119,7 +119,7 @@ js
 ;
 import
 {
-ValidationTest
+AllFeaturesMaxLimitsValidationTest
 }
 from
 '
@@ -328,7 +328,7 @@ testAttribute
 class
 F
 extends
-ValidationTest
+AllFeaturesMaxLimitsValidationTest
 {
 getDescriptor
 (

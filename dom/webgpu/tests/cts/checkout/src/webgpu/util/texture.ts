@@ -3808,6 +3808,13 @@ device
 .
 createCommandEncoder
 (
+{
+label
+:
+'
+createTextureFromTexelViews
+'
+}
 )
 ;
 const

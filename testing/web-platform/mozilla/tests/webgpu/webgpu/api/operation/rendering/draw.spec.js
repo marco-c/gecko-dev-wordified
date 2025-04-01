@@ -2104,7 +2104,7 @@ undefined
 )
 )
 .
-beforeAllSubcases
+fn
 (
 (
 t
@@ -2132,7 +2132,7 @@ indirect
 {
 t
 .
-selectDeviceOrSkipTestCase
+skipIfDeviceDoesNotHaveFeature
 (
 '
 indirect
@@ -2144,17 +2144,6 @@ instance
 )
 ;
 }
-}
-)
-.
-fn
-(
-(
-t
-)
-=
->
-{
 t
 .
 checkTriangleDraw

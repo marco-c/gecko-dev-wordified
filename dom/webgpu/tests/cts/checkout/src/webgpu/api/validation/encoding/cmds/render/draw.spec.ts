@@ -132,7 +132,7 @@ js
 ;
 import
 {
-ValidationTest
+AllFeaturesMaxLimitsValidationTest
 }
 from
 '
@@ -559,7 +559,7 @@ makeTestPipeline
 (
 test
 :
-ValidationTest
+AllFeaturesMaxLimitsValidationTest
 buffers
 :
 VertexState
@@ -726,7 +726,7 @@ makeTestPipelineWithVertexAndInstanceBuffer
 (
 test
 :
-ValidationTest
+AllFeaturesMaxLimitsValidationTest
 arrayStride
 :
 number
@@ -948,7 +948,7 @@ g
 =
 makeTestGroup
 (
-ValidationTest
+AllFeaturesMaxLimitsValidationTest
 )
 ;
 g

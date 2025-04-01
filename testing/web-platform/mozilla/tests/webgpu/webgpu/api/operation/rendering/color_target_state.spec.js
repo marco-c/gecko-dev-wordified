@@ -1633,7 +1633,7 @@ undefined
 )
 )
 .
-beforeAllSubcases
+fn
 (
 (
 t
@@ -1665,7 +1665,7 @@ dstFactor
 {
 t
 .
-selectDeviceOrSkipTestCase
+skipIfDeviceDoesNotHaveFeature
 (
 '
 dual
@@ -1677,17 +1677,6 @@ blending
 )
 ;
 }
-}
-)
-.
-fn
-(
-(
-t
-)
-=
->
-{
 const
 textureFormat
 =

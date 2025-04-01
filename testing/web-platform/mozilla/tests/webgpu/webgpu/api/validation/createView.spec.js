@@ -1595,7 +1595,7 @@ params
 ;
 t
 .
-skipIfTextureViewDimensionNotSupportedDeprecated
+skipIfTextureViewDimensionNotSupported
 (
 viewDimension
 )

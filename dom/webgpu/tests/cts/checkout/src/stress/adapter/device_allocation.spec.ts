@@ -139,7 +139,7 @@ js
 ;
 import
 {
-getDefaultLimitsForAdapter
+getDefaultLimitsForCTS
 }
 from
 '
@@ -400,9 +400,8 @@ OOM
 const
 limitInfo
 =
-getDefaultLimitsForAdapter
+getDefaultLimitsForCTS
 (
-adapter
 )
 ;
 const

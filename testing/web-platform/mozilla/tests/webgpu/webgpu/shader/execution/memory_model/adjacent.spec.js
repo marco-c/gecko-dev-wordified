@@ -87,7 +87,7 @@ js
 ;
 import
 {
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 }
 from
 '
@@ -133,7 +133,7 @@ g
 =
 makeTestGroup
 (
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 )
 ;
 /
@@ -2031,7 +2031,7 @@ kPatterns
 )
 )
 .
-beforeAllSubcases
+fn
 (
 (
 t
@@ -2041,7 +2041,7 @@ t
 {
 t
 .
-selectDeviceOrSkipTestCase
+skipIfDeviceDoesNotHaveFeature
 (
 '
 shader
@@ -2050,19 +2050,11 @@ f16
 '
 )
 ;
-}
-)
-.
-fn
-(
-(
-t
-)
-=
->
 runTest
 (
 t
 )
+;
+}
 )
 ;

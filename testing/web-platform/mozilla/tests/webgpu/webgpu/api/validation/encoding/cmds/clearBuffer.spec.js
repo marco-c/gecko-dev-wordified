@@ -140,7 +140,7 @@ js
 ;
 import
 {
-ValidationTest
+AllFeaturesMaxLimitsValidationTest
 }
 from
 '
@@ -158,7 +158,7 @@ js
 class
 F
 extends
-ValidationTest
+AllFeaturesMaxLimitsValidationTest
 {
 TestClearBuffer
 (
@@ -455,15 +455,11 @@ t
 )
 =
 >
-{
 t
 .
-selectMismatchedDeviceOrSkipTestCase
+usesMismatchedDevice
 (
-undefined
 )
-;
-}
 )
 .
 fn

@@ -78,7 +78,6 @@ js
 import
 {
 GPUTestBase
-MaxLimitsTestMixin
 }
 from
 '
@@ -101,7 +100,7 @@ js
 ;
 import
 {
-ValidationTest
+AllFeaturesMaxLimitsValidationTest
 }
 from
 '
@@ -230,7 +229,7 @@ export
 class
 BufferResourceUsageTest
 extends
-ValidationTest
+AllFeaturesMaxLimitsValidationTest
 {
 createBindGroupLayoutForTest
 (
@@ -938,10 +937,7 @@ g
 =
 makeTestGroup
 (
-MaxLimitsTestMixin
-(
 BufferResourceUsageTest
-)
 )
 ;
 g

@@ -131,7 +131,7 @@ js
 ;
 import
 {
-ValidationTest
+AllFeaturesMaxLimitsValidationTest
 }
 from
 '
@@ -181,7 +181,7 @@ false
 class
 F
 extends
-ValidationTest
+AllFeaturesMaxLimitsValidationTest
 {
 makeIndexBuffer
 (
@@ -424,15 +424,11 @@ t
 )
 =
 >
-{
 t
 .
-selectMismatchedDeviceOrSkipTestCase
+usesMismatchedDevice
 (
-undefined
 )
-;
-}
 )
 .
 fn

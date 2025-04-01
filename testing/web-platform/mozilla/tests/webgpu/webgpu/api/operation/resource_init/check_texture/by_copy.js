@@ -263,6 +263,13 @@ device
 .
 createCommandEncoder
 (
+{
+label
+:
+'
+checkContentsByTextureCopy
+'
+}
 )
 ;
 commandEncoder

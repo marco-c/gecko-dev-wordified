@@ -905,6 +905,13 @@ device
 .
 createCommandEncoder
 (
+{
+label
+:
+'
+checkContentsBySampling
+'
+}
 )
 ;
 const

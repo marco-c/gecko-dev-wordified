@@ -59,7 +59,7 @@ js
 ;
 import
 {
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 }
 from
 '
@@ -105,7 +105,7 @@ g
 =
 makeTestGroup
 (
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 )
 ;
 /
@@ -539,7 +539,7 @@ const
 interface
 AdjacentWritesTest
 extends
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 {
 params
 :
@@ -2094,7 +2094,7 @@ kPatterns
 )
 )
 .
-beforeAllSubcases
+fn
 (
 t
 =
@@ -2102,7 +2102,7 @@ t
 {
 t
 .
-selectDeviceOrSkipTestCase
+skipIfDeviceDoesNotHaveFeature
 (
 '
 shader
@@ -2111,17 +2111,11 @@ f16
 '
 )
 ;
-}
-)
-.
-fn
-(
-t
-=
->
 runTest
 (
 t
 )
+;
+}
 )
 ;
