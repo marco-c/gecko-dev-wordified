@@ -1925,7 +1925,7 @@ subcommand
 installFenixRelease
 "
     
-if
+elif
 app
 =
 =
