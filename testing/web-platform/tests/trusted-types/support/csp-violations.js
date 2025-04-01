@@ -220,6 +220,7 @@ return
 new
 Promise
 (
+async
 (
 resolve
 reject
@@ -355,6 +356,7 @@ exception
 .
 try
 {
+await
 fn
 (
 )
