@@ -12497,6 +12497,11 @@ paramtype
 "
 out
 "
+and
+not
+self
+.
+retval
 :
             
 return
