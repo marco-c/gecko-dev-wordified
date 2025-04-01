@@ -123,6 +123,9 @@ true
 file
 :
 true
+path
+:
+false
 url
 :
 false
