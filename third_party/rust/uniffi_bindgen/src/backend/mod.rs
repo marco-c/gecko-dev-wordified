@@ -63,9 +63,6 @@ pub
 mod
 filters
 ;
-mod
-types
-;
 pub
 use
 crate
@@ -85,11 +82,4 @@ config
 :
 :
 TemplateExpression
-;
-pub
-use
-types
-:
-:
-CodeType
 ;
