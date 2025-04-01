@@ -6384,7 +6384,7 @@ MOZ_DIAGNOSTIC_ASSERT
 mSurface
 )
 ;
-wl_surface_damage
+wl_surface_damage_buffer
 (
 mSurface
 0
