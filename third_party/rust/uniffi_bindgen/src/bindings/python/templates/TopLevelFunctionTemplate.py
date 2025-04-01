@@ -26,6 +26,7 @@ return_type
 -
 when
 Some
+with
 (
 return_type
 )
@@ -307,6 +308,7 @@ return_type
 -
 when
 Some
+with
 (
 return_type
 )

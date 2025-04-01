@@ -3112,13 +3112,6 @@ aReasonCodes
 const
 bool
 aFollowsCollectionEnabled
-const
-nsTArray
-<
-nsCString
->
-&
-aUploaderCapabilities
 uint32_t
 *
 aPingIdOut
@@ -3152,8 +3145,6 @@ aSchedulesPings
 &
 aReasonCodes
 aFollowsCollectionEnabled
-&
-aUploaderCapabilities
 )
 ;
 return

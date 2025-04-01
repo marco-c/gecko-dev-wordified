@@ -1843,7 +1843,10 @@ to_string
 )
 }
 ;
-trace
+log
+:
+:
+error
 !
 (
 "
