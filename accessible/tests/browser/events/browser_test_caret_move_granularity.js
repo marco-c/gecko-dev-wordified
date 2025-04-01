@@ -370,7 +370,7 @@ QueryInterface
 nsIAccessibleCaretMoveEvent
 )
 ;
-todo
+ok
 (
 !
 evt
