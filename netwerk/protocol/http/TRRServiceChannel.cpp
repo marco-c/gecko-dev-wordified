@@ -6288,8 +6288,9 @@ mResponseHead
 mTransaction
 -
 >
-TakeResponseHead
+TakeResponseHeadAndConnInfo
 (
+nullptr
 )
 ;
 if
