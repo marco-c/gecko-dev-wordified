@@ -158,6 +158,17 @@ h
 #
 include
 "
+mozilla
+/
+glean
+/
+DomMetrics
+.
+h
+"
+#
+include
+"
 nsDeque
 .
 h
