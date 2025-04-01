@@ -160,6 +160,9 @@ wrappedJSObject
 read
 "
 {
+configurable
+:
+true
 value
 :
 exportFunction

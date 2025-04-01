@@ -183,6 +183,9 @@ wrappedJSObject
 PDFJS
 "
 {
+configurable
+:
+true
 get
 :
 exportFunction
