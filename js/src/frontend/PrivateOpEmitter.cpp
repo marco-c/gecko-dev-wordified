@@ -1525,7 +1525,7 @@ isFieldInit
 JSOp
 :
 :
-InitElem
+InitHiddenElem
 :
 JSOp
 :

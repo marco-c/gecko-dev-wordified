@@ -7483,6 +7483,9 @@ property
 for
 class
 methods
+and
+private
+fields
 .
 *
 JSOp
