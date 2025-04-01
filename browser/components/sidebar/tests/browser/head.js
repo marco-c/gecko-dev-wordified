@@ -133,17 +133,6 @@ navBarWhenVerticalTabs
 "
 ;
 const
-kPrefSidebarTools
-=
-"
-sidebar
-.
-main
-.
-tools
-"
-;
-const
 MODIFIED_PREFS
 =
 Object
@@ -154,7 +143,6 @@ freeze
 kPrefCustomizationState
 kPrefCustomizationHorizontalTabstrip
 kPrefCustomizationNavBarWhenVerticalTabs
-kPrefSidebarTools
 ]
 )
 ;
