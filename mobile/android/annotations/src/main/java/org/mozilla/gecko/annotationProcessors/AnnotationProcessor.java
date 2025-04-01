@@ -567,6 +567,10 @@ sourceFileName
 =
 QUALIFIER
 +
+File
+.
+separator
++
 annotatedClass
 .
 generatedName
