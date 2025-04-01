@@ -3964,11 +3964,6 @@ mActivePanGestureBlock
 =
 block
 ;
-CancelAnimationsForNewBlock
-(
-block
-)
-;
 const
 bool
 waitingForContentResponse
