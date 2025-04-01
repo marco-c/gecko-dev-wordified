@@ -45,10 +45,9 @@ Team
 name
 :
 "
-ML
-Smart
-Tab
-Model
+browser_ml_smart_tab_perf
+.
+js
 "
 description
 :

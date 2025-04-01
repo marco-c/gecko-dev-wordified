@@ -46,9 +46,9 @@ Team
 name
 :
 "
-ML
-Suggest
-Feature
+browser_ml_suggest_feature_perf
+.
+js
 "
 description
 :
