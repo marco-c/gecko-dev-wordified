@@ -366,7 +366,10 @@ GetPerformanceInteractionMetrics
 )
 override
 ;
+Maybe
+<
 uint64_t
+>
 ComputeInteractionId
 (
 const

@@ -146,12 +146,8 @@ final
 {
 public
 :
-explicit
 PerformanceInteractionMetrics
 (
-PerformanceMainThread
-*
-aPerformance
 )
 ;
 PerformanceInteractionMetrics
@@ -244,10 +240,6 @@ default
 ;
 private
 :
-PerformanceMainThread
-*
-mPerformance
-;
 /
 /
 A
