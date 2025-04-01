@@ -1321,7 +1321,7 @@ const
 ;
 inline
 AnyRegister
-toRegister
+toAnyRegister
 (
 )
 const
@@ -10906,7 +10906,7 @@ addSlotsOrElementsRegister
 (
 alloc
 .
-toRegister
+toAnyRegister
 (
 )
 .
@@ -10949,7 +10949,7 @@ has
 (
 alloc
 .
-toRegister
+toAnyRegister
 (
 )
 .
@@ -11074,7 +11074,7 @@ addGcRegister
 (
 alloc
 .
-toRegister
+toAnyRegister
 (
 )
 .
@@ -11118,7 +11118,7 @@ has
 (
 alloc
 .
-toRegister
+toAnyRegister
 (
 )
 .
@@ -11329,7 +11329,7 @@ addWasmAnyRefReg
 (
 alloc
 .
-toRegister
+toAnyRegister
 (
 )
 .
@@ -11373,7 +11373,7 @@ has
 (
 alloc
 .
-toRegister
+toAnyRegister
 (
 )
 .
@@ -12241,7 +12241,7 @@ reg
 =
 alloc
 .
-toRegister
+toAnyRegister
 (
 )
 .
@@ -12335,7 +12335,7 @@ has
 (
 alloc
 .
-toRegister
+toAnyRegister
 (
 )
 .
@@ -13588,7 +13588,7 @@ AnyRegister
 LAllocation
 :
 :
-toRegister
+toAnyRegister
 (
 )
 const

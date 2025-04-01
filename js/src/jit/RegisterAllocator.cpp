@@ -2789,7 +2789,7 @@ has
 (
 alloc
 .
-toRegister
+toAnyRegister
 (
 )
 )

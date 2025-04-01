@@ -18412,7 +18412,7 @@ output
 )
 -
 >
-toRegister
+toAnyRegister
 (
 )
 ;
@@ -32070,7 +32070,7 @@ allocation
 (
 )
 .
-toRegister
+toAnyRegister
 (
 )
 =
@@ -32962,7 +32962,7 @@ allocation
 (
 )
 .
-toRegister
+toAnyRegister
 (
 )
 )
@@ -33162,7 +33162,7 @@ allocation
 (
 )
 .
-toRegister
+toAnyRegister
 (
 )
 ;
@@ -38769,7 +38769,7 @@ addClobberedRegister
 (
 a
 .
-toRegister
+toAnyRegister
 (
 )
 )
@@ -38909,7 +38909,7 @@ addLiveRegister
 (
 a
 .
-toRegister
+toAnyRegister
 (
 )
 )
@@ -38933,7 +38933,7 @@ addClobberedRegister
 (
 a
 .
-toRegister
+toAnyRegister
 (
 )
 )
