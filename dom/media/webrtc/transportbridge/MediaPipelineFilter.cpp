@@ -687,16 +687,6 @@ filtering
 /
 if
 (
-!
-remote_ssrc_set_
-.
-empty
-(
-)
-)
-{
-if
-(
 remote_ssrc_set_
 .
 count
@@ -769,10 +759,6 @@ size
 )
 )
 ;
-return
-false
-;
-}
 /
 /
 /
