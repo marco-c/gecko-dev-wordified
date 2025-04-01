@@ -95,6 +95,16 @@ jar
 mn
 "
 ]
+DIRS
++
+=
+[
+"
+xpi
+-
+build
+"
+]
 XPCOM_MANIFESTS
 +
 =
