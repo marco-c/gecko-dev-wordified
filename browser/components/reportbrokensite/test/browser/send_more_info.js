@@ -1641,6 +1641,16 @@ screenshot
 )
 ;
 }
+filterFrameworkDetectorFails
+(
+message
+.
+details
+expected
+.
+details
+)
+;
 ok
 (
 areObjectsEqual
