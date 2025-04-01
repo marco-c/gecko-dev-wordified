@@ -418,6 +418,12 @@ mInteractionCount
 uint64_t
 mCurrentInteractionValue
 ;
+Maybe
+<
+uint64_t
+>
+mLastKeydownInteractionValue
+;
 }
 ;
 inline
