@@ -3769,7 +3769,7 @@ mFrameSelection
 mFrameSelection
 -
 >
-GetLimiter
+GetIndependentSelectionRootElement
 (
 )
 )
