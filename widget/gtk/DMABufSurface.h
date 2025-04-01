@@ -517,6 +517,12 @@ YUV
 ;
 #
 endif
+nsAutoCString
+GetDebugTag
+(
+)
+const
+;
 /
 /
 Import
