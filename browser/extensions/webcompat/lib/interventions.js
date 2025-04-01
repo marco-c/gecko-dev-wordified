@@ -539,6 +539,18 @@ skipped
 ]
 ;
 const
+channel
+=
+await
+browser
+.
+appConstants
+.
+getEffectiveUpdateChannel
+(
+)
+;
+const
 {
 version
 }
@@ -629,6 +641,7 @@ shouldSkip
 (
 intervention
 cleanVersion
+channel
 )
 )
 {
