@@ -265,7 +265,6 @@ mockLocaleService
 const
 cleanup
 =
-async
 (
 )
 =
@@ -283,17 +282,11 @@ restore
 (
 )
 ;
-await
 assertEmptyStore
 (
 manager
 .
 store
-{
-cleanup
-:
-true
-}
 )
 ;
 Services
@@ -1201,7 +1194,6 @@ rollout
 "
 )
 ;
-await
 cleanup
 (
 )
@@ -1517,7 +1509,6 @@ testSetString
 "
 )
 ;
-await
 cleanup
 (
 )
@@ -1774,7 +1765,6 @@ deleteBranch
 PREF
 )
 ;
-await
 cleanup
 (
 )
@@ -2310,7 +2300,6 @@ rollout
 "
 )
 ;
-await
 cleanup
 (
 )
@@ -2674,7 +2663,6 @@ isFirstStartup
 }
 )
 ;
-await
 cleanup
 (
 )
@@ -3173,7 +3161,6 @@ metric
 }
 )
 ;
-await
 cleanup
 (
 )
