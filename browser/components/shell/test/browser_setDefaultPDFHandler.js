@@ -301,17 +301,6 @@ restore
 (
 )
 ;
-ExperimentAPI
-.
-_store
-.
-_deleteForTests
-(
-"
-shellService
-"
-)
-;
 }
 )
 ;
