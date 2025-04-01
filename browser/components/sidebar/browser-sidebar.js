@@ -7391,6 +7391,12 @@ else
 if
 (
 isSidebar
+&
+&
+!
+this
+.
+_positionStart
 )
 {
 fromTranslate
