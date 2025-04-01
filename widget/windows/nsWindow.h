@@ -879,6 +879,14 @@ final
 :
 public
 nsBaseWidget
+public
+mozilla
+:
+:
+SupportsThreadSafeWeakPtr
+<
+nsWindow
+>
 {
 public
 :
@@ -927,6 +935,10 @@ NS_INLINE_DECL_REFCOUNTING_INHERITED
 (
 nsWindow
 nsBaseWidget
+)
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+nsWindow
 )
 explicit
 nsWindow
