@@ -8580,7 +8580,13 @@ return
 shouldUseStandinsForColor
 &
 &
-!
+aDoc
+.
+ShouldAvoidNativeTheme
+(
+)
+&
+&
 aPrefs
 .
 mUseDocumentColors
