@@ -122,6 +122,10 @@ const
 w2c_mem_capacity
 *
 custom_capacity
+const
+char
+*
+name
 )
 ;
 void
