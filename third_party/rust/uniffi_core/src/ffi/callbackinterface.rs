@@ -1431,13 +1431,6 @@ From
 UnexpectedUniFFICallbackError
 >
 .
-#
-[
-allow
-(
-dead_code
-)
-]
 pub
 trait
 GetConverterSpecialized

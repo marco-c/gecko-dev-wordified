@@ -291,12 +291,6 @@ String
 follows_collection_enabled
 :
 bool
-uploader_capabilities
-:
-Vec
-<
-String
->
 )
 -
 >
@@ -354,7 +348,6 @@ enabled
 schedules_pings
 reason_codes
 follows_collection_enabled
-uploader_capabilities
 )
 name
 }
@@ -997,10 +990,6 @@ vec
 [
 ]
 true
-vec
-!
-[
-]
 )
 }
 )

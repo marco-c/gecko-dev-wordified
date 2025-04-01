@@ -204,7 +204,6 @@ name
 derive
 (
 Debug
-Default
 Clone
 uniffi
 :

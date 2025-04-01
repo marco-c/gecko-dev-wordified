@@ -1005,15 +1005,6 @@ from
 recoverable
 "
 )
-Cow
-:
-:
-from
-(
-"
-incapable
-"
-)
 ]
 )
 )

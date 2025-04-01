@@ -460,7 +460,10 @@ old_data
 =
 >
 {
-trace
+log
+:
+:
+error
 !
 (
 "
