@@ -1898,3 +1898,6 @@ mozilla
 #
 undef
 LOG
+#
+undef
+LOGV
