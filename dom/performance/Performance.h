@@ -778,6 +778,14 @@ EventCounts
 0
 ;
 virtual
+uint64_t
+InteractionCount
+(
+)
+=
+0
+;
+virtual
 void
 QueueNavigationTimingEntry
 (
