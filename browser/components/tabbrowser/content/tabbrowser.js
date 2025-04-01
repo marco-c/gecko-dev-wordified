@@ -16429,7 +16429,7 @@ boolean
 [
 options
 .
-isUserCreated
+isUserTriggered
 ]
 *
 Should
@@ -16537,7 +16537,7 @@ label
 insertBefore
 =
 null
-isUserCreated
+isUserTriggered
 =
 false
 telemetryUserCreateSource
@@ -16726,7 +16726,7 @@ true
 detail
 :
 {
-isUserCreated
+isUserTriggered
 telemetryUserCreateSource
 }
 }
@@ -39032,7 +39032,7 @@ aEvent
 .
 detail
 .
-isUserCreated
+isUserTriggered
 )
 {
 this
@@ -52178,7 +52178,7 @@ insertBefore
 this
 .
 contextTab
-isUserCreated
+isUserTriggered
 :
 true
 telemetryUserCreateSource

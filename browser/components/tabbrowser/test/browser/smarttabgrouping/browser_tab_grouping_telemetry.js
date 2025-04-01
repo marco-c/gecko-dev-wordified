@@ -116,7 +116,7 @@ color
 "
 cyan
 "
-isUserCreated
+isUserTriggered
 :
 true
 }
