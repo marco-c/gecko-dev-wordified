@@ -4962,9 +4962,6 @@ spec
 =
 depends
 (
-milestone
-.
-is_nightly
 "
 -
 -
@@ -4984,7 +4981,6 @@ target
 def
 default_wasm_jspi
 (
-is_nightly
 jit_enabled
 simulator
 target
@@ -4993,11 +4989,6 @@ target
 if
 not
 jit_enabled
-:
-return
-if
-not
-is_nightly
 :
 return
 if
