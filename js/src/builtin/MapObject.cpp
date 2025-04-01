@@ -6581,7 +6581,7 @@ Map
 prototype
 "
 "
-getOrInsertComputed
+getOrInsert
 "
 )
 ;
