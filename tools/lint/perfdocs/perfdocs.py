@@ -657,17 +657,12 @@ task_graph
 =
 generate_tasks
 (
-            
-params
-=
-None
 full
 =
 True
 disable_target_task_filter
 =
 True
-        
 )
 .
 tasks
