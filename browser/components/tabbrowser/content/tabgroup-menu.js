@@ -3019,6 +3019,17 @@ smartTabGroupsUserEnabled
 this
 .
 smartTabGroupsFeatureConfigEnabled
+&
+&
+!
+PrivateBrowsingUtils
+.
+isWindowPrivate
+(
+this
+.
+ownerGlobal
+)
 )
 ;
 }
