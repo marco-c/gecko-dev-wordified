@@ -125,6 +125,15 @@ include
 "
 mozilla
 /
+WeakPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 PPaymentRequestParent
@@ -157,6 +166,8 @@ final
 :
 public
 PPaymentRequestParent
+public
+SupportsWeakPtr
 {
 friend
 class

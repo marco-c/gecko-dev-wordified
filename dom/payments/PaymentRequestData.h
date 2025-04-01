@@ -1067,8 +1067,10 @@ reference
 of
 it
 .
+WeakPtr
+<
 PaymentRequestParent
-*
+>
 mIPC
 ;
 eState
