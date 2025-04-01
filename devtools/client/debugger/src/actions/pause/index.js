@@ -171,6 +171,7 @@ resetBreakpointsPaneState
 export
 {
 mapFrames
+updateAllFrameDisplayNames
 }
 from
 "
