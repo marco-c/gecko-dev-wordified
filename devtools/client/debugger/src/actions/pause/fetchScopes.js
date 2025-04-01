@@ -323,6 +323,7 @@ dispatch
 (
 generateInlinePreview
 (
+selectedFrame
 )
 )
 ;
