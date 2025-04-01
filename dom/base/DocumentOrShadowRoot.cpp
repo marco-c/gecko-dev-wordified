@@ -4133,6 +4133,13 @@ mNode
 =
 nullptr
 ;
+mutable
+nsContentUtils
+:
+:
+NodeIndexCache
+mCache
+;
 int
 operator
 (
@@ -4206,6 +4213,8 @@ DOM
 mNode
 sheetNode
 nullptr
+&
+mCache
 )
 ;
 }
