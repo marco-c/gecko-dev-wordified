@@ -1771,8 +1771,6 @@ False
 help
 "
 :
-(
-                        
 "
 Whether
 to
@@ -1787,28 +1785,6 @@ profile
 results
 .
 "
-                        
-"
-Copy
-paste
-the
-parameters
-used
-in
-this
-profiling
-run
-directly
-from
-about
-:
-profiling
-in
-Nightly
-.
-"
-                    
-)
                 
 }
             

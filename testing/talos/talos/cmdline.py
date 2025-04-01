@@ -1041,26 +1041,6 @@ env
 var
 .
 "
-        
-"
-Copy
-paste
-the
-parameters
-used
-in
-this
-profiling
-run
-directly
-from
-about
-:
-profiling
-in
-Nightly
-.
-"
     
 )
     

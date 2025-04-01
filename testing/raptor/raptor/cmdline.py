@@ -1366,7 +1366,9 @@ Profile
 the
 run
 and
-output
+out
+-
+put
 the
 results
 in
@@ -1421,26 +1423,6 @@ DISABLE_PROFILE_LAUNCH
 1
 env
 var
-.
-"
-        
-"
-Copy
-paste
-the
-parameters
-used
-in
-this
-profiling
-run
-directly
-from
-about
-:
-profiling
-in
-Nightly
 .
 "
     
