@@ -3241,6 +3241,7 @@ pub
 struct
 NewSessionParameters
 {
+pub
 capabilities
 :
 SpecNewSessionParameters
