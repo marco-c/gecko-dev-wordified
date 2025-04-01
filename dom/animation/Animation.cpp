@@ -8362,6 +8362,12 @@ EventContext
 >
 &
 aOtherContext
+nsContentUtils
+:
+:
+NodeIndexCache
+&
+aCache
 )
 const
 {
@@ -8495,6 +8501,7 @@ aContext
 *
 otherTransition
 aOtherContext
+aCache
 )
 ;
 }
@@ -8729,6 +8736,7 @@ HasLowerCompositeOrderThan
 (
 *
 otherAnimation
+aCache
 )
 ;
 }

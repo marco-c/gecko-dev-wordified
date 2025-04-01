@@ -2224,6 +2224,13 @@ namespace
 class
 EffectCompositeOrderComparator
 {
+mutable
+nsContentUtils
+:
+:
+NodeIndexCache
+mCache
+;
 public
 :
 bool
@@ -2305,6 +2312,7 @@ b
 GetAnimation
 (
 )
+mCache
 )
 !
 =
@@ -2325,6 +2333,7 @@ a
 GetAnimation
 (
 )
+mCache
 )
 )
 ;
@@ -2346,6 +2355,7 @@ b
 GetAnimation
 (
 )
+mCache
 )
 ;
 }

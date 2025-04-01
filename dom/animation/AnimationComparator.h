@@ -180,6 +180,13 @@ AnimationPtrType
 class
 AnimationPtrComparator
 {
+mutable
+nsContentUtils
+:
+:
+NodeIndexCache
+mCache
+;
 public
 :
 bool
@@ -225,6 +232,7 @@ HasLowerCompositeOrderThan
 (
 *
 b
+mCache
 )
 ;
 }
