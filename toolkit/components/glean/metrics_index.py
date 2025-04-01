@@ -1043,6 +1043,16 @@ yaml
 "
 toolkit
 /
+modules
+/
+gecko_metrics
+.
+yaml
+"
+    
+"
+toolkit
+/
 mozapps
 /
 extensions
