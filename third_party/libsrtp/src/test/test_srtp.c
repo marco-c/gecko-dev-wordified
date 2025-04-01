@@ -459,7 +459,7 @@ srtp_calc_aead_iv_srtcp_distinct_iv_per_sequence_number
 srtp_calc_aead_iv_srtcp_distinct_iv_per_sequence_number
 }
 {
-NULL
+0
 }
 /
 *
@@ -480,6 +480,7 @@ Implementation
 void
 srtp_calc_aead_iv_srtcp_all_zero_input_yield_zero_output
 (
+void
 )
 {
 /
@@ -506,21 +507,10 @@ status
 const
 v128_t
 zero_vector
-;
-memset
-(
-(
-v128_t
-*
-)
-&
-zero_vector
+=
+{
 0
-sizeof
-(
-v128_t
-)
-)
+}
 ;
 /
 /
@@ -611,6 +601,7 @@ v128_t
 void
 srtp_calc_aead_iv_srtcp_seq_num_over_0x7FFFFFFF_bad_param
 (
+void
 )
 {
 /
@@ -762,6 +753,7 @@ IV
 void
 srtp_calc_aead_iv_srtcp_distinct_iv_per_sequence_number
 (
+void
 )
 {
 #
