@@ -381,7 +381,7 @@ cpu
 {
 sampleInterval
 :
-100
+500
 }
 )
 ;
@@ -520,8 +520,9 @@ received
 even
 when
 no
-changes
-when
+state
+change
+if
 sampleInterval
 is
 set
