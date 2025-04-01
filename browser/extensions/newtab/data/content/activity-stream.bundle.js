@@ -32703,7 +32703,11 @@ row
 number
 action_position
 :
+parseInt
+(
 row
+10
+)
 value
 :
 {
@@ -32766,7 +32770,11 @@ spoc
 format
 section_position
 :
+parseInt
+(
 row
+10
+)
 }
 :
 {
