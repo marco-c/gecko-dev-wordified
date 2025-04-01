@@ -252,6 +252,13 @@ UNIFIED_SOURCES
 "
 android
 /
+AndroidHapticFeedback
+.
+cpp
+"
+"
+android
+/
 AndroidHeterogeneousCpuInfo
 .
 cpp
@@ -703,6 +710,13 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+fallback
+/
+FallbackHapticFeedback
+.
+cpp
+"
 "
 fallback
 /
