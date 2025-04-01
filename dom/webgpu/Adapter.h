@@ -448,6 +448,12 @@ nsString
 )
 ;
 }
+bool
+IsFallbackAdapter
+(
+)
+const
+;
 /
 /
 Non
