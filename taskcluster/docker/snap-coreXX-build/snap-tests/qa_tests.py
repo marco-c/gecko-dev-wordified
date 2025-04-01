@@ -1181,9 +1181,8 @@ ref_volume
         
 )
         
-assert
-(
-            
+new_volume
+=
 video
 .
 get_property
@@ -1192,6 +1191,11 @@ get_property
 volume
 "
 )
+        
+assert
+(
+            
+new_volume
 =
 =
 ref_volume
@@ -1208,7 +1212,30 @@ video
 sound
 volume
 increased
+from
+{
+}
+to
+{
+}
+but
+got
+{
+}
 "
+.
+format
+(
+            
+ref_volume
+ref_volume
+*
+0
+.
+25
+new_volume
+        
+)
         
 self
 .
