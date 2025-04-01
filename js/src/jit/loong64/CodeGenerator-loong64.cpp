@@ -2446,7 +2446,7 @@ if
 input
 -
 >
-isAnyRegister
+isGeneralReg
 (
 )
 )
@@ -3600,7 +3600,7 @@ value
 (
 )
 .
-isAnyRegister
+isGeneralReg
 (
 )
 )
@@ -13810,7 +13810,7 @@ if
 falseExpr
 -
 >
-isAnyRegister
+isGeneralReg
 (
 )
 )

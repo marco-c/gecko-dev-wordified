@@ -10897,7 +10897,7 @@ MOZ_ASSERT
 (
 alloc
 .
-isAnyRegister
+isGeneralReg
 (
 )
 )
@@ -10936,7 +10936,7 @@ if
 (
 alloc
 .
-isAnyRegister
+isGeneralReg
 (
 )
 )
@@ -11067,7 +11067,7 @@ if
 (
 alloc
 .
-isAnyRegister
+isGeneralReg
 (
 )
 )
@@ -11107,7 +11107,7 @@ if
 (
 alloc
 .
-isAnyRegister
+isGeneralReg
 (
 )
 )
@@ -11324,7 +11324,7 @@ if
 (
 alloc
 .
-isAnyRegister
+isGeneralReg
 (
 )
 )
@@ -11364,7 +11364,7 @@ if
 (
 alloc
 .
-isAnyRegister
+isGeneralReg
 (
 )
 )
@@ -12237,7 +12237,7 @@ if
 (
 alloc
 .
-isAnyRegister
+isGeneralReg
 (
 )
 )
@@ -12328,7 +12328,7 @@ if
 (
 alloc
 .
-isAnyRegister
+isGeneralReg
 (
 )
 )

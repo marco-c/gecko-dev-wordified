@@ -7777,7 +7777,7 @@ if
 rhs
 -
 >
-isAnyRegister
+isGeneralReg
 (
 )
 )
@@ -7787,7 +7787,7 @@ if
 falseExpr
 -
 >
-isAnyRegister
+isGeneralReg
 (
 )
 )
@@ -7838,7 +7838,7 @@ if
 falseExpr
 -
 >
-isAnyRegister
+isGeneralReg
 (
 )
 )

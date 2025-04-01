@@ -4397,7 +4397,7 @@ if
 type
 -
 >
-isAnyRegister
+isGeneralReg
 (
 )
 )
@@ -4407,7 +4407,7 @@ if
 payload
 -
 >
-isAnyRegister
+isGeneralReg
 (
 )
 )
@@ -4458,7 +4458,7 @@ if
 payload
 -
 >
-isAnyRegister
+isGeneralReg
 (
 )
 )
@@ -4510,7 +4510,7 @@ if
 payload
 -
 >
-isAnyRegister
+isGeneralReg
 (
 )
 )

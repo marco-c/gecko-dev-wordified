@@ -1200,7 +1200,7 @@ if
 rhs
 -
 >
-isAnyRegister
+isGeneralReg
 (
 )
 )
@@ -1457,7 +1457,7 @@ if
 rhs
 -
 >
-isAnyRegister
+isGeneralReg
 (
 )
 )
@@ -19985,7 +19985,7 @@ low
 (
 )
 .
-isAnyRegister
+isGeneralReg
 (
 )
 )
