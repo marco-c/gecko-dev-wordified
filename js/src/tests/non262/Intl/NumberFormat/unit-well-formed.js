@@ -345,6 +345,15 @@ concentr
 permyriad
 "
 "
+concentr
+-
+portion
+-
+per
+-
+1e9
+"
+"
 consumption
 -
 liter

@@ -26,7 +26,7 @@ xml
 ;
 version
 CLDR
-46
+47
 .
 /
 /
