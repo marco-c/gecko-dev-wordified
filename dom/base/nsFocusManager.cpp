@@ -22110,8 +22110,10 @@ of
 the
 last
 node
-nsIFrame
+const
+Element
 *
+const
 limiter
 =
 domSelection
@@ -22128,11 +22130,6 @@ domSelection
 -
 >
 GetAncestorLimiter
-(
-)
--
->
-GetPrimaryFrame
 (
 )
 :
