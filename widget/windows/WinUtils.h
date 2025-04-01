@@ -3966,6 +3966,12 @@ MicaPopupsEnabled
 ;
 static
 void
+UpdateMicaInAllWindows
+(
+)
+;
+static
+void
 EnableWindowOcclusion
 (
 const
