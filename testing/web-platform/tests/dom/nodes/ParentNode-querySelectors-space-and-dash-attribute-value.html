@@ -182,11 +182,11 @@ test
 =
 >
 {
-assert_equals
+assert_array_equals
 (
 document
 .
-querySelector
+querySelectorAll
 (
 "
 a
@@ -204,7 +204,9 @@ space
 ]
 "
 )
+[
 el
+]
 )
 ;
 }
