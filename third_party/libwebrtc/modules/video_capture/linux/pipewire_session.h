@@ -96,15 +96,6 @@ include
 <
 pipewire
 /
-core
-.
-h
->
-#
-include
-<
-pipewire
-/
 pipewire
 .
 h
