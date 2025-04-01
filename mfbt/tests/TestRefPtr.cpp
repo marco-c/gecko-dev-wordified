@@ -774,6 +774,12 @@ Foo
 (
 )
 ;
+auto
+&
+alias
+=
+f
+;
 f
 =
 std
@@ -790,7 +796,7 @@ Foo
 &
 >
 (
-f
+alias
 )
 )
 ;
