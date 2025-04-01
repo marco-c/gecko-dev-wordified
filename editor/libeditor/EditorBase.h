@@ -8538,6 +8538,7 @@ RangeUpdaterRef
 mRangeUpdater
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 UpdateSelectionCache
 (
@@ -16057,6 +16058,7 @@ node
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 InitializeSelectionAncestorLimit

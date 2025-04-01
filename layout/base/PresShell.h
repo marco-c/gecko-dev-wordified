@@ -7759,6 +7759,7 @@ aToggle
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 ScrollSelectionIntoView
 (
@@ -8430,6 +8431,7 @@ mSelectionFlags
 /
 /
 nsISelectionController
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 PhysicalMove
 (
@@ -8442,6 +8444,7 @@ aExtend
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 CharacterMove
 (
@@ -8452,7 +8455,7 @@ aExtend
 )
 override
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 WordMove
 (
@@ -8463,7 +8466,7 @@ aExtend
 )
 override
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 LineMove
 (
@@ -8474,6 +8477,7 @@ aExtend
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 IntraLineMove
 (

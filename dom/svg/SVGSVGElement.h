@@ -191,12 +191,10 @@ define
 MOZILLA_SVGSVGELEMENT_IID
 \
 {
-\
 0x4b83982c
 0xe5e9
 0x4ca1
 {
-\
 0xab
 0xd4
 0x14
@@ -205,9 +203,7 @@ MOZILLA_SVGSVGELEMENT_IID
 0x8b
 0x35
 0x31
-\
 }
-\
 }
 namespace
 mozilla
@@ -621,6 +617,7 @@ float
 seconds
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 DeselectAll
 (
