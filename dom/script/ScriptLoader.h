@@ -2935,12 +2935,6 @@ EmulateNetworkEvents
 ScriptLoadRequest
 *
 aRequest
-nsIScriptElement
-*
-aElement
-SubResourceNetworkMetadataHolder
-*
-aNetworkMetadata
 )
 ;
 void
