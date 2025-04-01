@@ -3451,7 +3451,7 @@ aFrameSelection
 aFrameSelection
 -
 >
-GetAncestorLimiterOrLimiter
+GetAncestorLimiterOrIndependentSelectionRootElement
 (
 )
 :

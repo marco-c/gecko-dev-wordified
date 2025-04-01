@@ -3869,7 +3869,7 @@ to
 nsFrameSelection
 :
 :
-GetLimiter
+GetIndependentSelectionRootElement
 (
 )
 .
@@ -3900,7 +3900,7 @@ dom
 :
 Element
 *
-GetLimiter
+GetIndependentSelectionRootElement
 (
 )
 const
@@ -3908,7 +3908,7 @@ const
 return
 mLimitersAndCaretData
 .
-mLimiter
+mIndependentSelectionRootElement
 ;
 }
 /
