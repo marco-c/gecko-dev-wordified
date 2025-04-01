@@ -51218,9 +51218,6 @@ captureOnPageNavigation
 true
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 pref
 (
 "
@@ -51291,8 +51288,6 @@ timeout
 1000
 )
 ;
-#
-endif
 pref
 (
 "
