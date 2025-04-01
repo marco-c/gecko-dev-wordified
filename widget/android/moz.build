@@ -689,6 +689,11 @@ nsWindow
 cpp
 "
 "
+OhttpHelper
+.
+cpp
+"
+"
 ScreenHelperAndroid
 .
 cpp
