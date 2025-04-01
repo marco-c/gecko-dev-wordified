@@ -3543,16 +3543,6 @@ scrollbarFadeDuration
 0
 )
 ;
-user_pref
-(
-"
-webextensions
-.
-tests
-"
-true
-)
-;
 /
 /
 Disable
