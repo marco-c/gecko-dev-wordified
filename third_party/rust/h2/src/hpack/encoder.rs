@@ -1790,15 +1790,6 @@ super
 *
 ;
 use
-crate
-:
-:
-hpack
-:
-:
-Header
-;
-use
 http
 :
 :

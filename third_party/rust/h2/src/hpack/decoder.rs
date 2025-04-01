@@ -5688,15 +5688,6 @@ super
 :
 *
 ;
-use
-crate
-:
-:
-hpack
-:
-:
-Header
-;
 #
 [
 test

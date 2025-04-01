@@ -754,6 +754,16 @@ slab
 )
 }
 }
+#
+[
+allow
+(
+clippy
+:
+:
+blocks_in_conditions
+)
+]
 pub
 (
 crate

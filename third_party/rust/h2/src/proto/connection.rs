@@ -25,7 +25,6 @@ crate
 :
 {
 client
-frame
 server
 }
 ;
@@ -51,10 +50,7 @@ use
 bytes
 :
 :
-{
-Buf
 Bytes
-}
 ;
 use
 futures_core
@@ -114,10 +110,7 @@ tokio
 io
 :
 :
-{
 AsyncRead
-AsyncWrite
-}
 ;
 /
 /
@@ -447,6 +440,13 @@ remote_reset_stream_max
 :
 usize
 pub
+local_error_reset_streams_max
+:
+Option
+<
+usize
+>
+pub
 settings
 :
 frame
@@ -668,6 +668,11 @@ max
 as
 usize
 )
+local_max_error_reset_streams
+:
+config
+.
+local_error_reset_streams_max
 }
 }
 let

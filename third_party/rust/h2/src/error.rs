@@ -204,6 +204,13 @@ received
 or
 sent
 .
+#
+[
+allow
+(
+dead_code
+)
+]
 Reset
 (
 StreamId
