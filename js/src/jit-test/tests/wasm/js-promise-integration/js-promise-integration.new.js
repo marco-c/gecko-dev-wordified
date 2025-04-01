@@ -2084,7 +2084,7 @@ showAbeforeB
 (
 )
 ;
-assert_true
+assert_false
 (
 AbeforeB
 .
@@ -2095,9 +2095,7 @@ isAbeforeB
 ;
 }
 "
-Do
-not
-suspend
+Suspend
 if
 the
 import
