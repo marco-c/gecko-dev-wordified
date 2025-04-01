@@ -186,6 +186,8 @@ shape
 const
 hWidth
 =
+parseFloat
+(
 style
 [
 border
@@ -209,10 +211,13 @@ width
 |
 |
 0
+)
 ;
 const
 vWidth
 =
+parseFloat
+(
 style
 [
 border
@@ -236,6 +241,7 @@ width
 |
 |
 0
+)
 ;
 let
 radius
