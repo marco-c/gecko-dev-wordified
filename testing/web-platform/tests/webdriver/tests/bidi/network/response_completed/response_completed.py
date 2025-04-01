@@ -1,5 +1,7 @@
 import
 asyncio
+import
+random
 from
 urllib
 .
@@ -1083,7 +1085,11 @@ status
 nocache
 =
 {
-RESPONSE_COMPLETED_EVENT
+random
+.
+random
+(
+)
 }
 "
     

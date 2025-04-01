@@ -2,6 +2,8 @@ import
 asyncio
 import
 pytest
+import
+random
 from
 webdriver
 .
@@ -1102,7 +1104,11 @@ status
 nocache
 =
 {
-RESPONSE_STARTED_EVENT
+random
+.
+random
+(
+)
 }
 "
     
