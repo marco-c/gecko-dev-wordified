@@ -1818,27 +1818,19 @@ py
     
 "
 prettier
--
-format
 "
 :
 MachCommandReference
 (
-        
 "
-python
+tools
 /
-mozbuild
-/
-mozbuild
-/
-code_analysis
+lint
 /
 mach_commands
 .
 py
 "
-    
 )
     
 "
