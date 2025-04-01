@@ -153,6 +153,11 @@ EXPORTS
 =
 [
 "
+nsIPopupContainer
+.
+h
+"
+"
 nsIScrollbarMediator
 .
 h

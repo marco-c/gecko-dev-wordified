@@ -483,6 +483,14 @@ override
 struct
 CapturedElement
 ;
+static
+nsRect
+SnapshotContainingBlockRect
+(
+nsPresContext
+*
+)
+;
 MOZ_CAN_RUN_SCRIPT
 void
 CallUpdateCallback
