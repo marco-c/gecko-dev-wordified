@@ -1232,10 +1232,13 @@ clickCallback
 (
 )
 ;
+await
+SearchUITestUtils
+.
 assertSAPTelemetry
 (
 {
-name
+engineName
 :
 engine
 .
