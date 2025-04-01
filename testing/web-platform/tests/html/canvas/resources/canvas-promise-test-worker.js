@@ -100,6 +100,13 @@ OffscreenCanvas
 300
 150
 )
+{
+canvasType
+:
+CanvasTestType
+.
+WORKER
+}
 )
 '
 Worker
