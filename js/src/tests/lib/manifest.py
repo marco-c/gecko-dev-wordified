@@ -31,8 +31,6 @@ subprocess
 import
 PIPE
 Popen
-import
-six
 from
 .
 remote
@@ -3414,12 +3412,6 @@ test
 "
 "
     
-if
-six
-.
-PY3
-:
-        
 fp
 =
 open
@@ -3432,16 +3424,6 @@ utf
 -
 8
 "
-)
-    
-else
-:
-        
-fp
-=
-open
-(
-fullpath
 )
     
 try

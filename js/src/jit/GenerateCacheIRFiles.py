@@ -67,6 +67,8 @@ CacheIROps
 .
 yaml
 import
+io
+import
 os
 import
 os
@@ -74,8 +76,6 @@ os
 path
 import
 buildconfig
-import
-six
 import
 yaml
 from
@@ -289,7 +289,7 @@ pp
 .
 out
 =
-six
+io
 .
 StringIO
 (
@@ -1212,11 +1212,10 @@ for
 arg_name
 arg_type
 in
-six
-.
-iteritems
-(
 args
+.
+items
+(
 )
 :
             
@@ -2638,11 +2637,10 @@ for
 arg_name
 arg_type
 in
-six
-.
-iteritems
-(
 args
+.
+items
+(
 )
 :
             
@@ -3357,11 +3355,10 @@ for
 arg_name
 arg_type
 in
-six
-.
-iteritems
-(
 args
+.
+items
+(
 )
 :
             
@@ -3657,11 +3654,10 @@ for
 arg_name
 arg_type
 in
-six
-.
-iteritems
-(
 args
+.
+items
+(
 )
 :
             
