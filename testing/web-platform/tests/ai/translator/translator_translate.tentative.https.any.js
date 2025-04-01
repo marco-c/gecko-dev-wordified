@@ -264,7 +264,7 @@ languagePair
 ;
 }
 '
-AITranslator
+Translator
 .
 create
 (
@@ -326,7 +326,7 @@ hello
 }
 '
 Simple
-AITranslator
+Translator
 .
 translate
 (
@@ -434,7 +434,7 @@ hello
 }
 '
 Simple
-AITranslator
+Translator
 .
 translateStreaming
 (
@@ -492,7 +492,7 @@ ja
 ;
 }
 '
-AITranslator
+Translator
 :
 sourceLanguage
 and
@@ -567,7 +567,7 @@ hello
 ;
 }
 '
-AITranslator
+Translator
 .
 translate
 (
@@ -769,7 +769,7 @@ translatePromise
 ;
 }
 '
-AITranslator
+Translator
 .
 translate
 (
@@ -837,7 +837,7 @@ signal
 }
 '
 Aborting
-AITranslator
+Translator
 .
 translate
 (
@@ -1312,7 +1312,7 @@ i
 }
 }
 '
-AITranslator
+Translator
 .
 translate
 (
@@ -1427,7 +1427,7 @@ text
 }
 }
 '
-AITranslator
+Translator
 .
 measureInputUsage
 (
@@ -1512,7 +1512,7 @@ measureInputUsagePromise
 ;
 }
 '
-AITranslator
+Translator
 .
 measureInputUsage
 (
@@ -1580,7 +1580,7 @@ signal
 }
 '
 Aborting
-AITranslator
+Translator
 .
 measureInputUsage
 (
