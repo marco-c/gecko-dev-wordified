@@ -581,6 +581,15 @@ bool
 aIsThirdParty
 )
 ;
+static
+bool
+ShouldProcessWithProtectionFeature
+(
+nsIChannel
+*
+aChannel
+)
+;
 private
 :
 static
