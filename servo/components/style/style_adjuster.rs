@@ -239,6 +239,15 @@ ComputedValues
 StyleBuilder
 }
 ;
+use
+selectors
+:
+:
+parser
+:
+:
+PseudoElement
+;
 /
 /
 /
@@ -4202,7 +4211,7 @@ p
 !
 p
 .
-is_part_like
+is_element_backed
 (
 )
 )

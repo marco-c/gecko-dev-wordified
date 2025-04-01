@@ -857,6 +857,17 @@ OpaqueElement
 }
 ;
 use
+selectors
+:
+:
+parser
+:
+:
+PseudoElement
+as
+ParserPseudoElement
+;
+use
 servo_arc
 :
 :
@@ -7560,7 +7571,7 @@ if
 !
 pseudo
 .
-is_part_like
+is_element_backed
 (
 )
 {
