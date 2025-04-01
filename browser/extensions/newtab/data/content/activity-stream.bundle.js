@@ -86807,6 +86807,13 @@ el
 ;
 }
 }
+name
+:
+"
+wallpaper
+-
+category
+"
 id
 :
 category
