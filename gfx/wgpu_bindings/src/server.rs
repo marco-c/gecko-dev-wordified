@@ -7074,10 +7074,6 @@ vk
 Extent3D
 {
 width
-:
-width
-height
-:
 height
 depth
 :
@@ -7953,10 +7949,6 @@ handle
 (
 )
 image
-:
-image
-memory
-:
 memory
 memory_size
 :
@@ -10951,10 +10943,6 @@ handle
 (
 )
 image
-:
-image
-memory
-:
 memory
 fn_destroy_image
 :
