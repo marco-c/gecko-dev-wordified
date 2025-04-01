@@ -3839,12 +3839,6 @@ clear
 ;
 newRtp
 .
-rtx_ssrc
-=
-0
-;
-newRtp
-.
 rtcp_mode
 =
 rtpRtcpConfig
@@ -4590,6 +4584,10 @@ mRecvStreamConfig
 rtp
 =
 newRtp
+;
+remoteSsrcUpdateNeeded
+=
+true
 ;
 }
 }
