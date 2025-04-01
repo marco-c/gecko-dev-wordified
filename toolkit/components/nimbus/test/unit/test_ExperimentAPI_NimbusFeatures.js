@@ -521,7 +521,6 @@ restore
 (
 )
 ;
-await
 assertEmptyStore
 (
 manager
@@ -695,7 +694,6 @@ remoteValue
 "
 )
 ;
-await
 assertEmptyStore
 (
 manager
@@ -836,7 +834,6 @@ restore
 (
 )
 ;
-await
 assertEmptyStore
 (
 manager
@@ -1114,7 +1111,6 @@ rollout
 "
 )
 ;
-await
 assertEmptyStore
 (
 manager
@@ -1247,7 +1243,6 @@ cleanup
 "
 )
 ;
-await
 assertEmptyStore
 (
 manager
@@ -1367,7 +1362,6 @@ cleanup
 "
 )
 ;
-await
 assertEmptyStore
 (
 manager
@@ -1508,7 +1502,6 @@ feature
 "
 )
 ;
-await
 assertEmptyStore
 (
 manager
@@ -1678,7 +1671,6 @@ cleanup
 "
 )
 ;
-await
 assertEmptyStore
 (
 manager

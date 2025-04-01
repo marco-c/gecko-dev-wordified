@@ -1018,7 +1018,6 @@ rollout
 "
 )
 ;
-await
 assertEmptyStore
 (
 manager
@@ -1565,7 +1564,6 @@ cleanup
 (
 )
 ;
-await
 assertEmptyStore
 (
 manager

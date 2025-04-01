@@ -2562,7 +2562,6 @@ out
 )
 )
 ;
-await
 assertEmptyStore
 (
 manager

@@ -195,12 +195,10 @@ return
 sandbox
 loader
 manager
-async
 cleanup
 (
 )
 {
-await
 assertEmptyStore
 (
 manager
@@ -624,7 +622,6 @@ bucketing
 "
 )
 ;
-await
 cleanup
 (
 )
@@ -1006,7 +1003,6 @@ recipe
 slug
 )
 ;
-await
 cleanup
 (
 )
@@ -1344,7 +1340,6 @@ recipe
 slug
 )
 ;
-await
 cleanup
 (
 )
@@ -1772,7 +1767,6 @@ rollout
 "
 )
 ;
-await
 cleanup
 (
 )
