@@ -622,6 +622,15 @@ toml
 test
 /
 mochitest
+-
+private
+.
+toml
+"
+"
+test
+/
+mochitest
 .
 toml
 "
