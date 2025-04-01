@@ -60,6 +60,11 @@ pytest
 .
 mark
 .
+allow_system_access
+pytest
+.
+mark
+.
 capabilities
 (
     
@@ -99,6 +104,7 @@ def
 test_debugger_address_not_set
 (
 session
+capabilities
 )
 :
     
@@ -121,6 +127,11 @@ assert
 debugger_address
 is
 None
+pytest
+.
+mark
+.
+allow_system_access
 pytest
 .
 mark
@@ -198,6 +209,11 @@ pytest
 .
 mark
 .
+allow_system_access
+pytest
+.
+mark
+.
 capabilities
 (
     
@@ -269,6 +285,7 @@ def
 test_debugger_address_true_with_fission
 (
 session
+capabilities
 fission_enabled
 )
 :
