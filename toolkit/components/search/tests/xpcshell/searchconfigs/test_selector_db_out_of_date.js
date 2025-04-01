@@ -348,10 +348,10 @@ identifier
 google
 "
 "
-ddg
-"
-"
 bing
+"
+"
+ddg
 "
 "
 wikipedia
