@@ -2640,7 +2640,7 @@ windows
 /
 yr
 =
-PSHR32
+PSHR32_ovflw
 (
 ADD32_ovflw
 (
@@ -2660,7 +2660,7 @@ IMDCT_HEADROOM
 ;
 yi
 =
-PSHR32
+PSHR32_ovflw
 (
 SUB32_ovflw
 (
@@ -2777,7 +2777,7 @@ windows
 /
 yr
 =
-PSHR32
+PSHR32_ovflw
 (
 ADD32_ovflw
 (
@@ -2797,7 +2797,7 @@ IMDCT_HEADROOM
 ;
 yi
 =
-PSHR32
+PSHR32_ovflw
 (
 SUB32_ovflw
 (

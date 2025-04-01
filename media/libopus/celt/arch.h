@@ -2783,6 +2783,16 @@ b
 )
 #
 define
+PSHR32_ovflw
+(
+a
+shift
+)
+(
+a
+)
+#
+define
 MULT16_16_16
 (
 a
