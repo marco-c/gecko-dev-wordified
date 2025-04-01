@@ -193,9 +193,7 @@ obj2
 ;
 /
 /
-Unlike
-TelemetryStopwatch
-we
+We
 can
 clobber
 UserInteractions

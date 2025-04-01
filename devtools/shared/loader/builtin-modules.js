@@ -785,7 +785,6 @@ bug
 1402779
 .
 Promise
-TelemetryStopwatch
 }
 ;
 defineLazyGetter

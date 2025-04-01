@@ -609,13 +609,6 @@ HealthPingEnabled
 false
 )
 ;
-TelemetryStopwatch
-.
-setTestModeEnabled
-(
-true
-)
-;
 registerProxy
 (
 )
