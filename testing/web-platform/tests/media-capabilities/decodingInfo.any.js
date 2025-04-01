@@ -885,7 +885,7 @@ application
 /
 ogg
 ;
-codec
+codecs
 =
 vorbis
 '
@@ -957,7 +957,7 @@ application
 /
 ogg
 ;
-codec
+codecs
 =
 theora
 '
