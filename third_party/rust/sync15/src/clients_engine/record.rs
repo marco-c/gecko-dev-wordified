@@ -190,14 +190,12 @@ String
 >
 /
 /
-/
 version
 protocols
 formfactor
 os
 appPackage
 application
-/
 /
 /
 and
@@ -211,7 +209,6 @@ all
 implementations
 (
 Desktop
-/
 /
 /
 iOS

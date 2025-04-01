@@ -204,8 +204,6 @@ RubyBindingGenerator
 SwiftBindingGenerator
 }
 generate_bindings
-generate_component_scaffolding
-generate_component_scaffolding_for_crate
 print_repr
 }
 ;
