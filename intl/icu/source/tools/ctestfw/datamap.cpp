@@ -826,7 +826,6 @@ nullptr
 ;
 }
 }
-const
 UnicodeString
 RBDataMap
 :

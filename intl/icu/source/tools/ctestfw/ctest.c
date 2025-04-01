@@ -1436,6 +1436,13 @@ child
 =
 NULL
 ;
+if
+(
+nameLen
+>
+0
+)
+{
 strncpy
 (
 newNode
@@ -1446,6 +1453,7 @@ name
 nameLen
 )
 ;
+}
 newNode
 -
 >

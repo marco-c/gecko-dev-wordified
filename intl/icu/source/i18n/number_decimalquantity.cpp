@@ -7503,6 +7503,7 @@ precision
 +
 numDigits
 >
+=
 16
 )
 {

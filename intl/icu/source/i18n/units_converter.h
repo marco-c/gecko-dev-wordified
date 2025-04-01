@@ -555,6 +555,14 @@ Factor
 rhs
 )
 ;
+void
+divideBy
+(
+const
+uint64_t
+constant
+)
+;
 /
 /
 Apply

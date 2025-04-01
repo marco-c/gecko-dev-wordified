@@ -777,6 +777,17 @@ UErrorCode
 errorCode
 )
 ;
+CharString
+&
+copyFrom
+(
+StringPiece
+s
+UErrorCode
+&
+errorCode
+)
+;
 UBool
 isEmpty
 (
@@ -1344,7 +1355,7 @@ CharString
 &
 appendNumber
 (
-int32_t
+int64_t
 number
 UErrorCode
 &

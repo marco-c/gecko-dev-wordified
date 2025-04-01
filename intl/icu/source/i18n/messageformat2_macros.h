@@ -55,6 +55,10 @@ U_SHOW_CPLUSPLUS_API
 #
 if
 !
+UCONFIG_NO_NORMALIZATION
+#
+if
+!
 UCONFIG_NO_FORMATTING
 #
 if
@@ -544,6 +548,16 @@ endif
 if
 !
 UCONFIG_NO_FORMATTING
+*
+/
+#
+endif
+/
+*
+#
+if
+!
+UCONFIG_NO_NORMALIZATION
 *
 /
 #

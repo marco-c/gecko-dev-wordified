@@ -52,6 +52,10 @@ U_SHOW_CPLUSPLUS_API
 #
 if
 !
+UCONFIG_NO_NORMALIZATION
+#
+if
+!
 UCONFIG_NO_FORMATTING
 #
 if
@@ -246,7 +250,7 @@ namespace
 message2
 {
 class
-MessageContext
+MessageFormatter
 ;
 /
 /
@@ -696,6 +700,9 @@ Formattable
 getArgument
 (
 const
+MessageFormatter
+&
+const
 data_model
 :
 :
@@ -781,6 +788,16 @@ endif
 if
 !
 UCONFIG_NO_FORMATTING
+*
+/
+#
+endif
+/
+*
+#
+if
+!
+UCONFIG_NO_NORMALIZATION
 *
 /
 #

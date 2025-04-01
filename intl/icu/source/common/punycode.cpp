@@ -1443,6 +1443,11 @@ srcLength
 1
 |
 |
+destCapacity
+<
+0
+|
+|
 (
 dest
 =

@@ -2977,9 +2977,6 @@ status
 )
 const
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -2999,7 +2996,7 @@ fluent
 chain
 .
 *
-draft
+stable
 ICU
 75
 *
@@ -3039,7 +3036,7 @@ see
 #
 withoutLocale
 *
-draft
+stable
 ICU
 75
 *
@@ -3051,11 +3048,6 @@ withoutLocale
 &
 &
 ;
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 /
 *
 *

@@ -3146,7 +3146,6 @@ ICU
 *
 /
 static
-const
 UnicodeString
 U_EXPORT2
 getEquivalentID

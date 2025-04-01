@@ -52,6 +52,10 @@ U_SHOW_CPLUSPLUS_API
 #
 if
 !
+UCONFIG_NO_NORMALIZATION
+#
+if
+!
 UCONFIG_NO_FORMATTING
 #
 if
@@ -14068,7 +14072,7 @@ MFDataModel
 ;
 Matcher
 (
-Expression
+VariableName
 *
 ss
 int32_t
@@ -14137,7 +14141,7 @@ false
 /
 /
 The
-expressions
+variables
 that
 are
 being
@@ -14146,7 +14150,7 @@ on
 .
 LocalArray
 <
-Expression
+VariableName
 >
 selectors
 ;
@@ -15037,13 +15041,12 @@ only
 .
 *
 /
-const
 std
 :
 :
 vector
 <
-Expression
+VariableName
 >
 getSelectors
 (
@@ -15101,7 +15104,7 @@ check
 return
 toStdVector
 <
-Expression
+VariableName
 >
 (
 match
@@ -15868,10 +15871,7 @@ status
 Adds
 a
 selector
-expression
-.
-Copies
-expression
+variable
 .
 *
 If
@@ -15888,7 +15888,7 @@ pattern
 *
 param
 selector
-Expression
+Variable
 to
 add
 as
@@ -15938,7 +15938,7 @@ Builder
 &
 addSelector
 (
-Expression
+VariableName
 &
 &
 selector
@@ -15946,7 +15946,6 @@ UErrorCode
 &
 errorCode
 )
-noexcept
 ;
 /
 *
@@ -16586,7 +16585,7 @@ getLocalVariablesInternal
 const
 ;
 const
-Expression
+VariableName
 *
 getSelectorsInternal
 (
@@ -16736,6 +16735,16 @@ endif
 if
 !
 UCONFIG_NO_FORMATTING
+*
+/
+#
+endif
+/
+*
+#
+if
+!
+UCONFIG_NO_NORMALIZATION
 *
 /
 #

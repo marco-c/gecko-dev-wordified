@@ -1196,19 +1196,6 @@ illegal
 sequences
 .
 *
-*
-Note
-that
-a
-UBool
-is
-the
-same
-as
-an
-int8_t
-.
-*
 /
 U_CAPI
 UChar32
@@ -1226,7 +1213,7 @@ int32_t
 length
 UChar32
 c
-UBool
+int8_t
 strict
 )
 {
@@ -2282,7 +2269,7 @@ int32_t
 pi
 UChar32
 c
-UBool
+int8_t
 strict
 )
 {

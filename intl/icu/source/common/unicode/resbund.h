@@ -3330,7 +3330,6 @@ ICU
 8
 *
 /
-const
 Locale
 getLocale
 (

@@ -3595,6 +3595,10 @@ getName
 ;
 if
 (
+!
+returnInputIfUnmatch
+&
+&
 uprv_isAtSign
 (
 name

@@ -5813,9 +5813,6 @@ ICU
 UCHAR_VERTICAL_ORIENTATION
 =
 0x1018
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -5856,7 +5853,7 @@ General_Security_Profile
 )
 .
 *
-draft
+stable
 ICU
 75
 *
@@ -5864,6 +5861,9 @@ ICU
 UCHAR_IDENTIFIER_STATUS
 =
 0x1019
+#
+ifndef
+U_HIDE_DRAFT_API
 /
 *
 *
@@ -6705,9 +6705,6 @@ ICU
 UCHAR_OTHER_PROPERTY_START
 =
 UCHAR_SCRIPT_EXTENSIONS
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -6787,7 +6784,7 @@ u_hasIDType
 see
 u_getIDTypes
 *
-draft
+stable
 ICU
 75
 *
@@ -6795,11 +6792,6 @@ ICU
 UCHAR_IDENTIFIER_TYPE
 =
 0x7001
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 #
 ifndef
 U_HIDE_DEPRECATED_API
@@ -21156,9 +21148,6 @@ U_VO_UPRIGHT
 }
 UVerticalOrientation
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -21191,7 +21180,7 @@ Identifier_Status_and_Type
 see
 UCHAR_IDENTIFIER_STATUS
 *
-draft
+stable
 ICU
 75
 *
@@ -21232,7 +21221,7 @@ name
 /
 *
 *
-draft
+stable
 ICU
 75
 *
@@ -21241,7 +21230,7 @@ U_ID_STATUS_RESTRICTED
 /
 *
 *
-draft
+stable
 ICU
 75
 *
@@ -21282,7 +21271,7 @@ Identifier_Status_and_Type
 see
 UCHAR_IDENTIFIER_TYPE
 *
-draft
+stable
 ICU
 75
 *
@@ -21323,7 +21312,7 @@ name
 /
 *
 *
-draft
+stable
 ICU
 75
 *
@@ -21332,7 +21321,7 @@ U_ID_TYPE_NOT_CHARACTER
 /
 *
 *
-draft
+stable
 ICU
 75
 *
@@ -21341,7 +21330,7 @@ U_ID_TYPE_DEPRECATED
 /
 *
 *
-draft
+stable
 ICU
 75
 *
@@ -21350,7 +21339,7 @@ U_ID_TYPE_DEFAULT_IGNORABLE
 /
 *
 *
-draft
+stable
 ICU
 75
 *
@@ -21359,7 +21348,7 @@ U_ID_TYPE_NOT_NFKC
 /
 *
 *
-draft
+stable
 ICU
 75
 *
@@ -21368,7 +21357,7 @@ U_ID_TYPE_NOT_XID
 /
 *
 *
-draft
+stable
 ICU
 75
 *
@@ -21377,7 +21366,7 @@ U_ID_TYPE_EXCLUSION
 /
 *
 *
-draft
+stable
 ICU
 75
 *
@@ -21386,7 +21375,7 @@ U_ID_TYPE_OBSOLETE
 /
 *
 *
-draft
+stable
 ICU
 75
 *
@@ -21395,7 +21384,7 @@ U_ID_TYPE_TECHNICAL
 /
 *
 *
-draft
+stable
 ICU
 75
 *
@@ -21404,7 +21393,7 @@ U_ID_TYPE_UNCOMMON_USE
 /
 *
 *
-draft
+stable
 ICU
 75
 *
@@ -21413,7 +21402,7 @@ U_ID_TYPE_LIMITED_USE
 /
 *
 *
-draft
+stable
 ICU
 75
 *
@@ -21422,7 +21411,7 @@ U_ID_TYPE_INCLUSION
 /
 *
 *
-draft
+stable
 ICU
 75
 *
@@ -21431,11 +21420,6 @@ U_ID_TYPE_RECOMMENDED
 }
 UIdentifierType
 ;
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -29963,9 +29947,6 @@ UChar32
 c
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -30060,7 +30041,7 @@ Identifier_Type
 c
 )
 *
-draft
+stable
 ICU
 75
 *
@@ -30362,7 +30343,7 @@ indicates
 insufficient
 capacity
 *
-draft
+stable
 ICU
 75
 *
@@ -30384,11 +30365,6 @@ UErrorCode
 pErrorCode
 )
 ;
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 /
 *
 *

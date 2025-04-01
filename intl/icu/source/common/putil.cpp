@@ -854,7 +854,11 @@ icu
 /
 userguide
 /
+icu
+/
 howtouseicu
+.
+html
 #
 endif
 /

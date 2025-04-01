@@ -586,6 +586,9 @@ RBBINode
 (
 NodeType
 t
+UErrorCode
+&
+status
 )
 ;
 RBBINode
@@ -594,6 +597,9 @@ const
 RBBINode
 &
 other
+UErrorCode
+&
+status
 )
 ;
 ~
@@ -614,6 +620,13 @@ RBBINode
 *
 cloneTree
 (
+UErrorCode
+&
+status
+int
+depth
+=
+0
 )
 ;
 RBBINode
@@ -632,6 +645,13 @@ depth
 void
 flattenSets
 (
+UErrorCode
+&
+status
+int
+depth
+=
+0
 )
 ;
 void

@@ -933,12 +933,9 @@ if
 (
 description
 .
-length
+isEmpty
 (
 )
-=
-=
-0
 )
 {
 /
@@ -1138,12 +1135,9 @@ if
 (
 description
 .
-length
+isEmpty
 (
 )
-=
-=
-0
 )
 {
 /

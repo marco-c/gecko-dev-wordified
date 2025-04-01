@@ -1635,6 +1635,9 @@ handleGetYearLength
 (
 int32_t
 extendedYear
+UErrorCode
+&
+status
 )
 const
 override

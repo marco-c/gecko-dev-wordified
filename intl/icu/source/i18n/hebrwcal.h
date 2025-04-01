@@ -2340,11 +2340,7 @@ in
 Calendar
 .
 *
-stable
-ICU
-2
-.
-0
+internal
 *
 /
 virtual
@@ -2353,6 +2349,9 @@ handleGetYearLength
 (
 int32_t
 eyear
+UErrorCode
+&
+status
 )
 const
 override

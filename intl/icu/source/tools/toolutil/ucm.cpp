@@ -2180,7 +2180,7 @@ UCMTable
 ext
 UBool
 moveToExt
-UBool
+int8_t
 intersectBase
 )
 {
@@ -2845,7 +2845,7 @@ UCMTable
 ext
 UBool
 moveToExt
-UBool
+int8_t
 intersectBase
 )
 {
@@ -3674,7 +3674,7 @@ ext
 UCMTable
 *
 moveTarget
-UBool
+int8_t
 intersectBase
 )
 {
@@ -4882,7 +4882,7 @@ ucm
 -
 >
 ext
-false
+0
 )
 ;
 }

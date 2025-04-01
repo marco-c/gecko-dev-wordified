@@ -421,9 +421,6 @@ UErrorCode
 status
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -444,7 +441,7 @@ necessary
 .
 *
 *
-draft
+stable
 ICU
 75
 *
@@ -459,11 +456,6 @@ UErrorCode
 status
 )
 ;
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 /
 *
 *

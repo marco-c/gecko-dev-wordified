@@ -797,7 +797,7 @@ SCRIPT_LIMIT
 ;
 U_NAMESPACE_END
 U_CAPI
-UBool
+int32_t
 U_EXPORT2
 uhash_compareScriptSet
 (
