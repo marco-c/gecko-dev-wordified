@@ -937,6 +937,9 @@ MediaSourceSamples
 Autoplay
 :
 5
+MFMediaEngine
+:
+5
 "
 l10nIds
 :
