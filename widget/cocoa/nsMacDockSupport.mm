@@ -2830,7 +2830,7 @@ aAppBundle
 const
 nsTArray
 <
-nsCString
+nsString
 >
 &
 aArgs
