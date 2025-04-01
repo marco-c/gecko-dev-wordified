@@ -1310,6 +1310,17 @@ aPattern
 Nothing
 (
 )
+const
+Maybe
+<
+nsCString
+>
+&
+aURL
+=
+Nothing
+(
+)
 )
 ;
 protected

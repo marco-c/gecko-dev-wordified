@@ -1654,6 +1654,13 @@ OriginAttributesPattern
 >
 &
 aPattern
+const
+Maybe
+<
+nsCString
+>
+&
+aURL
 )
 {
 using
@@ -1701,6 +1708,7 @@ aChrome
 aPrincipal
 aSchemelessSite
 aPattern
+aURL
 )
 ;
 }
@@ -1719,6 +1727,7 @@ aChrome
 aPrincipal
 aSchemelessSite
 aPattern
+aURL
 )
 ;
 }
