@@ -4538,6 +4538,7 @@ async
 startServer
 (
 port
+fallbackToH1
 )
 {
 const
@@ -4593,7 +4594,11 @@ settings
 {
 enableConnectProtocol
 :
-true
+!
+fallbackToH1
+allowHTTP1
+:
+fallbackToH1
 }
 }
 ;
@@ -4849,6 +4854,9 @@ start
 port
 =
 0
+fallbackToH1
+=
+false
 )
 {
 this
@@ -4901,6 +4909,9 @@ startServer
 (
 {
 port
+}
+{
+fallbackToH1
 }
 )
 )
