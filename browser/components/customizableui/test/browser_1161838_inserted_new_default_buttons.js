@@ -133,7 +133,7 @@ loadSavedState
 ;
 CustomizableUIInternal
 .
-_updateForNewVersion
+updateForNewVersion
 (
 )
 ;
@@ -366,7 +366,7 @@ builtin
 widgets
 CustomizableUIInternal
 .
-_updateForNewVersion
+updateForNewVersion
 (
 )
 ;
@@ -440,7 +440,7 @@ placements
 }
 CustomizableUIInternal
 .
-_placeNewDefaultWidgetsInArea
+placeNewDefaultWidgetsInArea
 (
 CustomizableUI
 .

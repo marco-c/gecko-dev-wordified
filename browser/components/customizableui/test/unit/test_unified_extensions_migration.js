@@ -347,7 +347,7 @@ stateToSave
 ;
 CustomizableUIInternal
 .
-_updateForNewVersion
+updateForNewVersion
 (
 )
 ;

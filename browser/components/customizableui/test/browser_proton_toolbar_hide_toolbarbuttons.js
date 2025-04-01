@@ -308,7 +308,7 @@ defaultPlacements
 ;
 CustomizableUIInternal
 .
-_updateForNewProtonVersion
+updateForNewProtonVersion
 (
 )
 ;
@@ -1316,7 +1316,7 @@ list
 ;
 CustomizableUIInternal
 .
-_updateForNewProtonVersion
+updateForNewProtonVersion
 (
 )
 ;
@@ -1463,7 +1463,7 @@ gSavedState
 ;
 CustomizableUIInternal
 .
-_updateForNewProtonVersion
+updateForNewProtonVersion
 (
 )
 ;
