@@ -14448,6 +14448,9 @@ tabGroup
 tab
 .
 group
+focusUrlBar
+:
+true
 }
 )
 ;
