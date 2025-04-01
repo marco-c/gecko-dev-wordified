@@ -363,11 +363,11 @@ mFileIO
 >
 Write
 (
-&
 mData
-[
-0
-]
+.
+data
+(
+)
 mData
 .
 size
