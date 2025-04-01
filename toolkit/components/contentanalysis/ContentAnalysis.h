@@ -1929,6 +1929,8 @@ nsCString
 aUserActionId
 bool
 aAutoAcknowledge
+bool
+aIsTimeout
 )
 ;
 void
@@ -2816,6 +2818,9 @@ mUserActionId
 ;
 bool
 mAutoAcknowledge
+;
+bool
+mWasTimeout
 ;
 }
 ;
