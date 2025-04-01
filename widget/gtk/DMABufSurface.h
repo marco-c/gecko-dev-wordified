@@ -1230,6 +1230,12 @@ GlobalRefRelease
 (
 )
 ;
+static
+void
+DeleteSnapshotGLContext
+(
+)
+;
 /
 /
 Release
