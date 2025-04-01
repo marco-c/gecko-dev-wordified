@@ -33,6 +33,13 @@ testdriver
 vendor
 .
 js
+/
+/
+META
+:
+timeout
+=
+long
 "
 use
 strict
