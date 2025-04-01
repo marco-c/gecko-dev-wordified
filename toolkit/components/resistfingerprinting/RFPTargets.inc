@@ -647,6 +647,11 @@ ITEM_VALUE
 WebGPUIsFallbackAdapter
 65
 )
+ITEM_VALUE
+(
+WebGPUSubgroupSizes
+66
+)
 /
 /
 !
