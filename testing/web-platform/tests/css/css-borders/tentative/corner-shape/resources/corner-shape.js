@@ -862,7 +862,7 @@ params
 inner_rect
 params
 .
-shape
+inner_shape
 phase
 direction
 )
