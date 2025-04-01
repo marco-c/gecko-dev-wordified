@@ -1405,8 +1405,6 @@ Web
 /
 HTTP
 /
-Reference
-/
 Headers
 /
 Range
