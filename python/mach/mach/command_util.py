@@ -2482,6 +2482,25 @@ py
 )
     
 "
+update
+-
+test
+"
+:
+MachCommandReference
+(
+"
+testing
+/
+update
+/
+mach_commands
+.
+py
+"
+)
+    
+"
 use
 -
 moz
