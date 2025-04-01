@@ -85,6 +85,10 @@ csp
 002
 -
 worker
+-
+multiple
+-
+violations
 .
 js
 .
@@ -112,7 +116,11 @@ _
 setTimeout
 (
 "
-unsafe
+;
+;
+;
+;
+;
 "
 )
 )
@@ -422,7 +430,11 @@ for
 setTimeout
 (
 '
-unsafe
+;
+;
+;
+;
+;
 '
 )
 from
