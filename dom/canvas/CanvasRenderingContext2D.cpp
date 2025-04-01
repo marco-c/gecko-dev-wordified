@@ -44007,17 +44007,7 @@ UseSoftwareRendering
 const
 {
 return
-(
-StaticPrefs
-:
-:
-gfx_canvas_willreadfrequently_enabled_AtStartup
-(
-)
-&
-&
 mWillReadFrequently
-)
 |
 |
 mForceSoftwareRendering
