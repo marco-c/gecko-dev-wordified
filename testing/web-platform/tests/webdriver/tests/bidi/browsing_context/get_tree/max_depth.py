@@ -161,6 +161,15 @@ None
 url
 =
 test_page_nested_frames
+        
+client_window
+=
+top_context
+[
+"
+clientWindow
+"
+]
     
 )
     
@@ -200,6 +209,15 @@ None
 url
 =
 test_page_same_origin_frame
+        
+client_window
+=
+top_context
+[
+"
+clientWindow
+"
+]
     
 )
     
@@ -255,6 +273,15 @@ None
 url
 =
 test_page
+        
+client_window
+=
+top_context
+[
+"
+clientWindow
+"
+]
     
 )
     
@@ -398,6 +425,15 @@ None
 url
 =
 test_page_nested_frames
+        
+client_window
+=
+top_context
+[
+"
+clientWindow
+"
+]
     
 )
 async
@@ -514,6 +550,15 @@ None
 url
 =
 test_page_nested_frames
+        
+client_window
+=
+top_context
+[
+"
+clientWindow
+"
+]
     
 )
     
@@ -553,6 +598,15 @@ None
 url
 =
 test_page_same_origin_frame
+        
+client_window
+=
+top_context
+[
+"
+clientWindow
+"
+]
     
 )
     

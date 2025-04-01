@@ -132,6 +132,15 @@ None
 url
 =
 test_page_multiple_frames
+        
+client_window
+=
+top_context
+[
+"
+clientWindow
+"
+]
     
 )
     
@@ -171,6 +180,15 @@ None
 url
 =
 test_page
+        
+client_window
+=
+top_context
+[
+"
+clientWindow
+"
+]
     
 )
     
@@ -226,6 +244,15 @@ None
 url
 =
 test_page2
+        
+client_window
+=
+top_context
+[
+"
+clientWindow
+"
+]
     
 )
     
@@ -370,6 +397,15 @@ None
 url
 =
 test_page_cross_origin_frame
+        
+client_window
+=
+top_context
+[
+"
+clientWindow
+"
+]
     
 )
     
@@ -409,6 +445,15 @@ None
 url
 =
 test_page_cross_origin
+        
+client_window
+=
+top_context
+[
+"
+clientWindow
+"
+]
     
 )
     
@@ -485,6 +530,8 @@ subscribe_events
     
 wait_for_event
     
+wait_for_future_safe
+    
 inline
     
 user_context
@@ -497,6 +544,11 @@ await
 subscribe_events
 (
 [
+"
+browsingContext
+.
+contextCreated
+"
 "
 browsingContext
 .
@@ -602,6 +654,17 @@ iframe
     
 )
     
+on_context_created
+=
+wait_for_event
+(
+"
+browsingContext
+.
+contextCreated
+"
+)
+    
 context
 =
 await
@@ -621,6 +684,14 @@ user_context
 =
 user_context_id
     
+)
+    
+context_info
+=
+await
+wait_for_future_safe
+(
+on_context_created
 )
     
 #
@@ -792,6 +863,15 @@ page_url
 user_context
 =
 user_context_id
+        
+client_window
+=
+context_info
+[
+"
+clientWindow
+"
+]
     
 )
     
@@ -874,6 +954,15 @@ iframe_url_1
 user_context
 =
 user_context_id
+        
+client_window
+=
+context_info
+[
+"
+clientWindow
+"
+]
     
 )
     
@@ -957,6 +1046,15 @@ iframe_url_2
 user_context
 =
 user_context_id
+        
+client_window
+=
+context_info
+[
+"
+clientWindow
+"
+]
     
 )
     

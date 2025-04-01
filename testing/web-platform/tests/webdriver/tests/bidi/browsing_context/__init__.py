@@ -60,6 +60,10 @@ user_context
 "
 default
 "
+    
+client_window
+=
+None
 )
 :
     
@@ -336,6 +340,24 @@ originalOpener
 =
 =
 original_opener
+    
+if
+client_window
+is
+not
+None
+:
+        
+assert
+info
+[
+"
+clientWindow
+"
+]
+=
+=
+client_window
 async
 def
 assert_document_status
