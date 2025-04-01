@@ -321,11 +321,6 @@ await
 pauseDebugger
 (
 dbg
-{
-shouldWaitForInlinePreviews
-:
-false
-}
 )
 ;
 const
@@ -628,12 +623,6 @@ onPaused
 waitForPaused
 (
 dbg
-null
-{
-shouldWaitForInlinePreviews
-:
-false
-}
 )
 ;
 /

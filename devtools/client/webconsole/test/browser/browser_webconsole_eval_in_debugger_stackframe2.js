@@ -291,12 +291,6 @@ await
 waitForPaused
 (
 dbg
-null
-{
-shouldWaitForInlinePreviews
-:
-false
-}
 )
 ;
 info
