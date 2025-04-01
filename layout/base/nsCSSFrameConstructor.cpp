@@ -45661,7 +45661,7 @@ Style
 )
 -
 >
-HasPseudoElementData
+IsInFirstLineSubtree
 (
 )
 )
@@ -49223,7 +49223,7 @@ Style
 )
 -
 >
-HasPseudoElementData
+IsInFirstLineSubtree
 (
 )
 )
@@ -70325,7 +70325,7 @@ Style
 )
 -
 >
-HasPseudoElementData
+IsInFirstLineSubtree
 (
 )
 "
@@ -70470,7 +70470,7 @@ Style
 )
 -
 >
-HasPseudoElementData
+IsInFirstLineSubtree
 (
 )
 )
