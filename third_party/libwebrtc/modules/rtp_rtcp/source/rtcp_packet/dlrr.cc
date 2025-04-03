@@ -988,9 +988,6 @@ buffer
 [
 2
 ]
-rtc
-:
-:
 dchecked_cast
 <
 uint16_t

@@ -883,9 +883,6 @@ num_samples
 ;
 ConcealedSamplesCorrection
 (
-rtc
-:
-:
 dchecked_cast
 <
 int
@@ -932,9 +929,6 @@ num_samples
 ;
 ConcealedSamplesCorrection
 (
-rtc
-:
-:
 dchecked_cast
 <
 int

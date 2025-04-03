@@ -1917,9 +1917,6 @@ packet
 =
 CreatePacketWithSsrcRsid
 (
-rtc
-:
-:
 checked_cast
 <
 uint32_t
@@ -2060,9 +2057,6 @@ packet
 =
 CreatePacketWithSsrcMid
 (
-rtc
-:
-:
 checked_cast
 <
 uint32_t
@@ -2425,9 +2419,6 @@ i
 >
 SetSequenceNumber
 (
-rtc
-:
-:
 checked_cast
 <
 uint16_t

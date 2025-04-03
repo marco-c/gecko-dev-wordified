@@ -934,9 +934,6 @@ nullopt
 ;
 }
 return
-rtc
-:
-:
 dchecked_cast
 <
 int64_t

@@ -2400,9 +2400,6 @@ bitrate_config
 .
 min_bitrate_bps
 =
-rtc
-:
-:
 saturated_cast
 <
 int
@@ -2422,9 +2419,6 @@ bitrate_config
 .
 start_bitrate_bps
 =
-rtc
-:
-:
 saturated_cast
 <
 int
@@ -2444,9 +2438,6 @@ bitrate_config
 .
 max_bitrate_bps
 =
-rtc
-:
-:
 saturated_cast
 <
 int

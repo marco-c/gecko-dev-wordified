@@ -4572,9 +4572,6 @@ header
 ;
 RTC_PARSE_CHECK_OR_RETURN
 (
-rtc
-:
-:
 IsValueInRangeForNumericType
 <
 bool
@@ -4606,9 +4603,6 @@ i
 ;
 RTC_PARSE_CHECK_OR_RETURN
 (
-rtc
-:
-:
 IsValueInRangeForNumericType
 <
 uint8_t
@@ -4640,9 +4634,6 @@ i
 ;
 RTC_PARSE_CHECK_OR_RETURN
 (
-rtc
-:
-:
 IsValueInRangeForNumericType
 <
 uint16_t
@@ -4674,9 +4665,6 @@ i
 ;
 RTC_PARSE_CHECK_OR_RETURN
 (
-rtc
-:
-:
 IsValueInRangeForNumericType
 <
 uint32_t
@@ -4708,9 +4696,6 @@ i
 ;
 RTC_PARSE_CHECK_OR_RETURN
 (
-rtc
-:
-:
 IsValueInRangeForNumericType
 <
 uint32_t
@@ -4758,9 +4743,6 @@ CSRC
 .
 RTC_PARSE_CHECK_OR_RETURN
 (
-rtc
-:
-:
 IsValueInRangeForNumericType
 <
 size_t
@@ -4792,9 +4774,6 @@ i
 ;
 RTC_PARSE_CHECK_OR_RETURN
 (
-rtc
-:
-:
 IsValueInRangeForNumericType
 <
 size_t
@@ -4867,9 +4846,6 @@ true
 ;
 RTC_PARSE_CHECK_OR_RETURN
 (
-rtc
-:
-:
 IsValueInRangeForNumericType
 <
 uint16_t
@@ -4997,9 +4973,6 @@ true
 ;
 RTC_PARSE_CHECK_OR_RETURN
 (
-rtc
-:
-:
 IsValueInRangeForNumericType
 <
 uint32_t
@@ -5069,9 +5042,6 @@ true
 ;
 RTC_PARSE_CHECK_OR_RETURN
 (
-rtc
-:
-:
 IsValueInRangeForNumericType
 <
 uint8_t
@@ -5157,9 +5127,6 @@ has_value
 ;
 RTC_PARSE_CHECK_OR_RETURN
 (
-rtc
-:
-:
 IsValueInRangeForNumericType
 <
 bool
@@ -5196,9 +5163,6 @@ value
 ;
 RTC_PARSE_CHECK_OR_RETURN
 (
-rtc
-:
-:
 IsValueInRangeForNumericType
 <
 int
@@ -26735,9 +26699,6 @@ uplink_packet_loss_fraction2
 ;
 RTC_PARSE_CHECK_OR_RETURN
 (
-rtc
-:
-:
 IsValueInRangeForNumericType
 <
 uint32_t
@@ -26798,9 +26759,6 @@ has_value
 {
 RTC_PARSE_CHECK_OR_RETURN
 (
-rtc
-:
-:
 IsValueInRangeForNumericType
 <
 bool
@@ -26851,9 +26809,6 @@ has_value
 {
 RTC_PARSE_CHECK_OR_RETURN
 (
-rtc
-:
-:
 IsValueInRangeForNumericType
 <
 bool
@@ -26904,9 +26859,6 @@ has_value
 {
 RTC_PARSE_CHECK_OR_RETURN
 (
-rtc
-:
-:
 IsValueInRangeForNumericType
 <
 size_t

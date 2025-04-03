@@ -679,9 +679,6 @@ encoder_context_
 frame_rtp_timestamp_
 +
 =
-rtc
-:
-:
 dchecked_cast
 <
 uint32_t

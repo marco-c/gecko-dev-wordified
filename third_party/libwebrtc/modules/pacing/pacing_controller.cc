@@ -1869,9 +1869,6 @@ QueueSizePackets
 const
 {
 return
-rtc
-:
-:
 checked_cast
 <
 size_t

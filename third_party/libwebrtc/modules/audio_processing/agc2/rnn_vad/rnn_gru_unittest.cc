@@ -235,9 +235,6 @@ rtc
 :
 CheckedDivExact
 (
-rtc
-:
-:
 dchecked_cast
 <
 int
@@ -265,9 +262,6 @@ rtc
 :
 CheckedDivExact
 (
-rtc
-:
-:
 dchecked_cast
 <
 int

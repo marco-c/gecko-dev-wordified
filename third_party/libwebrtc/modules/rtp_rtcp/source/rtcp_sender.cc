@@ -4846,9 +4846,6 @@ interval
 int
 min_interval_int
 =
-rtc
-:
-:
 dchecked_cast
 <
 int

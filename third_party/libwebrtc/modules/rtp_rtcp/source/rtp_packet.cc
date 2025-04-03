@@ -2137,9 +2137,6 @@ data
 0xF0
 )
 |
-rtc
-:
-:
 dchecked_cast
 <
 uint8_t
@@ -2880,9 +2877,6 @@ kOneByteExtensionProfileId
 uint8_t
 one_byte_header
 =
-rtc
-:
-:
 dchecked_cast
 <
 uint8_t
@@ -2897,9 +2891,6 @@ id
 one_byte_header
 |
 =
-rtc
-:
-:
 dchecked_cast
 <
 uint8_t
@@ -2928,9 +2919,6 @@ TwoByteHeaderExtension
 uint8_t
 extension_id
 =
-rtc
-:
-:
 dchecked_cast
 <
 uint8_t
@@ -2950,9 +2938,6 @@ extension_id
 uint8_t
 extension_length
 =
-rtc
-:
-:
 dchecked_cast
 <
 uint8_t
@@ -2976,9 +2961,6 @@ const
 uint16_t
 extension_info_offset
 =
-rtc
-:
-:
 dchecked_cast
 <
 uint16_t
@@ -2995,9 +2977,6 @@ const
 uint8_t
 extension_info_length
 =
-rtc
-:
-:
 dchecked_cast
 <
 uint8_t
@@ -3220,9 +3199,6 @@ extension_entry
 >
 offset
 =
-rtc
-:
-:
 dchecked_cast
 <
 uint16_t
@@ -3376,9 +3352,6 @@ field
 uint16_t
 extensions_words
 =
-rtc
-:
-:
 dchecked_cast
 <
 uint16_t
@@ -3612,9 +3585,6 @@ false
 }
 padding_size_
 =
-rtc
-:
-:
 dchecked_cast
 <
 uint8_t
@@ -4539,9 +4509,6 @@ extension_header_length
 if
 (
 !
-rtc
-:
-:
 IsValueInRangeForNumericType
 <
 uint16_t

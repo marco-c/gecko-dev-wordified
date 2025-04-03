@@ -582,9 +582,6 @@ restrictions
 int
 max_pixels_per_frame
 =
-rtc
-:
-:
 dchecked_cast
 <
 int
@@ -651,9 +648,6 @@ target_pixels
 int
 max_pixels_per_frame
 =
-rtc
-:
-:
 dchecked_cast
 <
 int
@@ -715,9 +709,6 @@ max_frame_rate
 return
 fps_wanted
 <
-rtc
-:
-:
 dchecked_cast
 <
 int
@@ -761,9 +752,6 @@ restrictions
 return
 max_frame_rate
 >
-rtc
-:
-:
 dchecked_cast
 <
 int

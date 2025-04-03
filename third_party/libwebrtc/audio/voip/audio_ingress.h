@@ -692,9 +692,6 @@ const
 override
 {
 return
-rtc
-:
-:
 dchecked_cast
 <
 int

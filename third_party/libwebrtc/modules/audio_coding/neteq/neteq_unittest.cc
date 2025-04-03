@@ -830,9 +830,6 @@ rtp_info
 .
 sequenceNumber
 =
-rtc
-:
-:
 checked_cast
 <
 uint16_t
@@ -845,9 +842,6 @@ rtp_info
 .
 timestamp
 =
-rtc
-:
-:
 checked_cast
 <
 uint32_t
@@ -2545,9 +2539,6 @@ rtp_info
 timestamp
 +
 =
-rtc
-:
-:
 checked_cast
 <
 uint32_t
@@ -6928,9 +6919,6 @@ GetLifetimeStatistics
 EXPECT_EQ
 (
 expected_delay
-rtc
-:
-:
 checked_cast
 <
 int
@@ -6953,9 +6941,6 @@ jitter_buffer_emitted_count
 EXPECT_EQ
 (
 expected_target_delay
-rtc
-:
-:
 checked_cast
 <
 int
@@ -7314,9 +7299,6 @@ jitter_buffer_emitted_count
 EXPECT_EQ
 (
 expected_target_delay
-rtc
-:
-:
 checked_cast
 <
 int

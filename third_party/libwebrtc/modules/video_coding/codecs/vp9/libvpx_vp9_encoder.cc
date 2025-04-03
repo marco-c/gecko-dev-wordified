@@ -13460,9 +13460,6 @@ si
 .
 push_back
 (
-rtc
-:
-:
 saturated_cast
 <
 uint8_t

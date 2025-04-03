@@ -280,9 +280,6 @@ format
 if
 (
 !
-rtc
-:
-:
 IsValueInRangeForNumericType
 <
 int
@@ -320,9 +317,6 @@ config
 .
 num_channels
 =
-rtc
-:
-:
 dchecked_cast
 <
 int
@@ -493,9 +487,6 @@ return
 config
 .
 sample_rate_hz
-rtc
-:
-:
 dchecked_cast
 <
 size_t

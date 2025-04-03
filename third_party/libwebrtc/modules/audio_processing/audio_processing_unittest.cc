@@ -1268,9 +1268,6 @@ NULL
 int32_t
 size
 =
-rtc
-:
-:
 checked_cast
 <
 int32_t
@@ -4847,9 +4844,6 @@ int
 (
 expected_median
 +
-rtc
-:
-:
 dchecked_cast
 <
 int
@@ -4874,9 +4868,6 @@ int
 (
 expected_median
 -
-rtc
-:
-:
 dchecked_cast
 <
 int

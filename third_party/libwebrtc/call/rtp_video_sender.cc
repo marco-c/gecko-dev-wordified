@@ -6167,9 +6167,6 @@ here
 .
 payload_bitrate_bps
 =
-rtc
-:
-:
 saturated_cast
 <
 uint32_t
@@ -6228,9 +6225,6 @@ UpdateFecRates
 (
 payload_bitrate_bps
 framerate
-rtc
-:
-:
 saturated_cast
 <
 uint8_t

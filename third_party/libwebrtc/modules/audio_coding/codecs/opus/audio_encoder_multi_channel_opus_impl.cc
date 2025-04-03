@@ -640,9 +640,6 @@ max_playback_rate
 return
 kOpusBitrateNbBps
 *
-rtc
-:
-:
 dchecked_cast
 <
 int
@@ -664,9 +661,6 @@ max_playback_rate
 return
 kOpusBitrateWbBps
 *
-rtc
-:
-:
 dchecked_cast
 <
 int
@@ -681,9 +675,6 @@ else
 return
 kOpusBitrateFbBps
 *
-rtc
-:
-:
 dchecked_cast
 <
 int
@@ -2314,9 +2305,6 @@ config_
 .
 num_channels
 )
-rtc
-:
-:
 saturated_cast
 <
 int16_t

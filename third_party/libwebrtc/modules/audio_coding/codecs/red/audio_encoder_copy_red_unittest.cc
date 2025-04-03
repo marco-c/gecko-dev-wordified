@@ -489,9 +489,6 @@ encoded_
 timestamp_
 +
 =
-rtc
-:
-:
 checked_cast
 <
 uint32_t

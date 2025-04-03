@@ -182,9 +182,6 @@ input
 i
 ]
 =
-rtc
-:
-:
 checked_cast
 <
 int16_t
@@ -322,9 +319,6 @@ input
 i
 ]
 =
-rtc
-:
-:
 checked_cast
 <
 int16_t

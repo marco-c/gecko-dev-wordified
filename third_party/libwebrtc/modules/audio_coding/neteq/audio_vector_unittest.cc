@@ -181,9 +181,6 @@ array_
 i
 ]
 =
-rtc
-:
-:
 checked_cast
 <
 int16_t
@@ -2080,9 +2077,6 @@ i
 int
 insert_position
 =
-rtc
-:
-:
 checked_cast
 <
 int
@@ -2358,9 +2352,6 @@ i
 int
 insert_position
 =
-rtc
-:
-:
 checked_cast
 <
 int
@@ -2864,9 +2855,6 @@ i
 int
 insert_position
 =
-rtc
-:
-:
 checked_cast
 <
 int

@@ -852,9 +852,6 @@ Threshold
 )
 _protectionFactorD
 =
-rtc
-:
-:
 saturated_cast
 <
 uint8_t
@@ -862,9 +859,6 @@ uint8_t
 (
 adjustRtt
 *
-rtc
-:
-:
 saturated_cast
 <
 float
@@ -1035,9 +1029,6 @@ parameters
 >
 frameRate
 /
-rtc
-:
-:
 saturated_cast
 <
 float
@@ -1064,9 +1055,6 @@ std
 :
 max
 (
-rtc
-:
-:
 saturated_cast
 <
 int
@@ -1759,9 +1747,6 @@ codeRateRTP
 const
 {
 return
-rtc
-:
-:
 saturated_cast
 <
 uint8_t
@@ -1781,9 +1766,6 @@ VCM_MIN
 *
 codeRateRTP
 /
-rtc
-:
-:
 saturated_cast
 <
 float
@@ -1878,9 +1860,6 @@ is
 uint8_t
 packetLoss
 =
-rtc
-:
-:
 saturated_cast
 <
 uint8_t
@@ -1945,9 +1924,6 @@ protection
 uint8_t
 firstPartitionProt
 =
-rtc
-:
-:
 saturated_cast
 <
 uint8_t
@@ -2065,9 +2041,6 @@ size
 float
 spatialSizeToRef
 =
-rtc
-:
-:
 saturated_cast
 <
 float
@@ -2085,9 +2058,6 @@ codecHeight
 )
 /
 (
-rtc
-:
-:
 saturated_cast
 <
 float
@@ -2188,9 +2158,6 @@ const
 uint8_t
 avgTotPackets
 =
-rtc
-:
-:
 saturated_cast
 <
 uint8_t
@@ -2200,9 +2167,6 @@ uint8_t
 .
 5f
 +
-rtc
-:
-:
 saturated_cast
 <
 float
@@ -2215,9 +2179,6 @@ bitRatePerFrame
 .
 0f
 /
-rtc
-:
-:
 saturated_cast
 <
 float
@@ -2296,9 +2257,6 @@ const
 uint16_t
 effRateFecTable
 =
-rtc
-:
-:
 saturated_cast
 <
 uint16_t
@@ -2312,9 +2270,6 @@ bitRatePerFrame
 uint8_t
 rateIndexTable
 =
-rtc
-:
-:
 saturated_cast
 <
 uint8_t
@@ -2529,9 +2484,6 @@ const
 uint8_t
 packetFrameDelta
 =
-rtc
-:
-:
 saturated_cast
 <
 uint8_t
@@ -2551,9 +2503,6 @@ const
 uint8_t
 packetFrameKey
 =
-rtc
-:
-:
 saturated_cast
 <
 uint8_t
@@ -2581,9 +2530,6 @@ packetFrameKey
 ;
 rateIndexTable
 =
-rtc
-:
-:
 saturated_cast
 <
 uint8_t
@@ -2711,9 +2657,6 @@ loss
 .
 codeRateKey
 =
-rtc
-:
-:
 saturated_cast
 <
 uint8_t
@@ -2904,9 +2847,6 @@ numPacketsFl
 0f
 +
 (
-rtc
-:
-:
 saturated_cast
 <
 float
@@ -2919,9 +2859,6 @@ bitRatePerFrame
 .
 0
 /
-rtc
-:
-:
 saturated_cast
 <
 float
@@ -2947,9 +2884,6 @@ estNumFecGen
 .
 5f
 +
-rtc
-:
-:
 saturated_cast
 <
 float
@@ -3183,9 +3117,6 @@ of
 kbits
 )
 return
-rtc
-:
-:
 saturated_cast
 <
 int
@@ -4025,9 +3956,6 @@ _lossPr255
 .
 Apply
 (
-rtc
-:
-:
 saturated_cast
 <
 float
@@ -4037,9 +3965,6 @@ nowMs
 -
 _lastPrUpdateT
 )
-rtc
-:
-:
 saturated_cast
 <
 float
@@ -4087,9 +4012,6 @@ kAvgFilter
 :
 filtered_loss
 =
-rtc
-:
-:
 saturated_cast
 <
 uint8_t
@@ -4137,9 +4059,6 @@ packetLossEnc
 {
 _lossPr
 =
-rtc
-:
-:
 saturated_cast
 <
 float
@@ -4184,9 +4103,6 @@ _packetsPerFrame
 .
 Apply
 (
-rtc
-:
-:
 saturated_cast
 <
 float
@@ -4220,9 +4136,6 @@ _packetsPerFrameKey
 .
 Apply
 (
-rtc
-:
-:
 saturated_cast
 <
 float

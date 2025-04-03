@@ -1665,9 +1665,6 @@ const
 uint32_t
 corrected_bitrate
 =
-rtc
-:
-:
 checked_cast
 <
 uint32_t
@@ -1742,9 +1739,6 @@ SetBitrate
 (
 si
 ti
-rtc
-:
-:
 checked_cast
 <
 uint32_t

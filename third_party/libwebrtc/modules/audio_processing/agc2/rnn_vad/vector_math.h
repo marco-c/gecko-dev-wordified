@@ -507,9 +507,6 @@ incomplete_block_index
 ;
 i
 <
-rtc
-:
-:
 dchecked_cast
 <
 int

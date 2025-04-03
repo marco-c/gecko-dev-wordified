@@ -1308,9 +1308,6 @@ x
 int16_t
 {
 return
-rtc
-:
-:
 saturated_cast
 <
 int16_t

@@ -532,9 +532,6 @@ speech_type
 kComfortNoise
 ;
 return
-rtc
-:
-:
 dchecked_cast
 <
 int
@@ -605,9 +602,6 @@ encoded
 [
 4
 ]
-rtc
-:
-:
 checked_cast
 <
 uint32_t
@@ -630,9 +624,6 @@ encoded
 [
 8
 ]
-rtc
-:
-:
 checked_cast
 <
 uint32_t

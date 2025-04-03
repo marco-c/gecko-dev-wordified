@@ -843,9 +843,6 @@ milliseconds
 .
 EXPECT_EQ
 (
-rtc
-:
-:
 checked_cast
 <
 int
@@ -1156,9 +1153,6 @@ milliseconds
 .
 EXPECT_EQ
 (
-rtc
-:
-:
 checked_cast
 <
 int

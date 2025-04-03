@@ -1734,9 +1734,6 @@ temp_shift
 -
 WebRtcSpl_NormW32
 (
-rtc
-:
-:
 dchecked_cast
 <
 int32_t
@@ -2425,9 +2422,6 @@ std
 min
 (
 expand_duration_samples_
-rtc
-:
-:
 dchecked_cast
 <
 size_t
@@ -5840,9 +5834,6 @@ Q20
 int16_t
 denom
 =
-rtc
-:
-:
 saturated_cast
 <
 int16_t

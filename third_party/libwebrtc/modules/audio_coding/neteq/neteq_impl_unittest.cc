@@ -3569,9 +3569,6 @@ speech_type
 kSpeech
 ;
 return
-rtc
-:
-:
 checked_cast
 <
 int
@@ -4272,9 +4269,6 @@ WillRepeatedly
 (
 Return
 (
-rtc
-:
-:
 checked_cast
 <
 int
@@ -4362,9 +4356,6 @@ kSpeech
 )
 Return
 (
-rtc
-:
-:
 checked_cast
 <
 int
@@ -4791,9 +4782,6 @@ kSpeech
 )
 Return
 (
-rtc
-:
-:
 checked_cast
 <
 int
@@ -5579,9 +5567,6 @@ const
 int
 this_offset
 =
-rtc
-:
-:
 checked_cast
 <
 int
@@ -8346,9 +8331,6 @@ WillRepeatedly
 (
 Return
 (
-rtc
-:
-:
 checked_cast
 <
 int
@@ -8394,9 +8376,6 @@ WillRepeatedly
 (
 Return
 (
-rtc
-:
-:
 checked_cast
 <
 int
@@ -8636,9 +8615,6 @@ decoder_output_type
 )
 Return
 (
-rtc
-:
-:
 checked_cast
 <
 int
@@ -8706,9 +8682,6 @@ kComfortNoise
 )
 Return
 (
-rtc
-:
-:
 checked_cast
 <
 int
@@ -9054,9 +9027,6 @@ WillRepeatedly
 (
 Return
 (
-rtc
-:
-:
 checked_cast
 <
 int
@@ -9177,9 +9147,6 @@ WillRepeatedly
 (
 Return
 (
-rtc
-:
-:
 checked_cast
 <
 int
@@ -9815,9 +9782,6 @@ rtp_header
 timestamp
 +
 =
-rtc
-:
-:
 checked_cast
 <
 uint32_t
@@ -10061,9 +10025,6 @@ WillRepeatedly
 (
 Return
 (
-rtc
-:
-:
 checked_cast
 <
 int
@@ -10167,9 +10128,6 @@ kSpeech
 )
 Return
 (
-rtc
-:
-:
 checked_cast
 <
 int
@@ -10563,9 +10521,6 @@ WillRepeatedly
 (
 Return
 (
-rtc
-:
-:
 checked_cast
 <
 int
@@ -10681,9 +10636,6 @@ kSpeech
 )
 Return
 (
-rtc
-:
-:
 checked_cast
 <
 int
@@ -10798,9 +10750,6 @@ kSpeech
 )
 Return
 (
-rtc
-:
-:
 checked_cast
 <
 int
@@ -12958,9 +12907,6 @@ speech_type
 speech_type_
 ;
 return
-rtc
-:
-:
 checked_cast
 <
 int

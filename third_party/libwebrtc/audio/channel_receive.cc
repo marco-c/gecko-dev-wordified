@@ -4590,9 +4590,6 @@ arrOfCSRCs
 header
 .
 timestamp
-rtc
-:
-:
 saturated_cast
 <
 uint32_t

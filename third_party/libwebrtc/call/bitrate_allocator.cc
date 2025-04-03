@@ -2077,9 +2077,6 @@ observer
 ]
 +
 =
-rtc
-:
-:
 dchecked_cast
 <
 int
@@ -3413,9 +3410,6 @@ loss_rate_ratio
 ;
 last_fraction_loss_
 =
-rtc
-:
-:
 dchecked_cast
 <
 uint8_t

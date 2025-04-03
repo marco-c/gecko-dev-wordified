@@ -1230,9 +1230,6 @@ priority
 .
 red_level
 =
-rtc
-:
-:
 dchecked_cast
 <
 int

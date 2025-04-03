@@ -311,9 +311,6 @@ const
 int
 n
 =
-rtc
-:
-:
 dchecked_cast
 <
 int

@@ -2967,9 +2967,6 @@ const
 int
 experimental_min_bitrate_kbps
 =
-rtc
-:
-:
 saturated_cast
 <
 int

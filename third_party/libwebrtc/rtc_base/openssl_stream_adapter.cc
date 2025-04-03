@@ -1462,6 +1462,9 @@ SR_SUCCESS
 )
 {
 return
+webrtc
+:
+:
 checked_cast
 <
 int
@@ -1581,6 +1584,9 @@ SR_SUCCESS
 )
 {
 return
+webrtc
+:
+:
 checked_cast
 <
 int
@@ -1628,6 +1634,9 @@ stream_write
 (
 b
 str
+webrtc
+:
+:
 checked_cast
 <
 int
@@ -3484,6 +3493,9 @@ data
 data
 (
 )
+webrtc
+:
+:
 checked_cast
 <
 int
@@ -3794,6 +3806,9 @@ data
 data
 (
 )
+webrtc
+:
+:
 checked_cast
 <
 int

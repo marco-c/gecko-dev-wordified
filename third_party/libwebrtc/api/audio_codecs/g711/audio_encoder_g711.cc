@@ -356,9 +356,6 @@ config
 .
 num_channels
 =
-rtc
-:
-:
 dchecked_cast
 <
 int
@@ -563,9 +560,6 @@ IsOk
 return
 {
 8000
-rtc
-:
-:
 dchecked_cast
 <
 size_t

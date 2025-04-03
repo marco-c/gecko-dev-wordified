@@ -1551,9 +1551,6 @@ optimal
 .
 noise_fast_forward_
 =
-rtc
-:
-:
 saturated_cast
 <
 size_t
@@ -1566,9 +1563,6 @@ excess_waiting_time_samp
 ;
 timestamp_diff
 =
-rtc
-:
-:
 saturated_cast
 <
 int32_t

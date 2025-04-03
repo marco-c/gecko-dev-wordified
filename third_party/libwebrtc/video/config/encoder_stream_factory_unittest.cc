@@ -419,9 +419,6 @@ res
 push_back
 (
 {
-rtc
-:
-:
 checked_cast
 <
 int
@@ -431,9 +428,6 @@ s
 .
 width
 )
-rtc
-:
-:
 checked_cast
 <
 int

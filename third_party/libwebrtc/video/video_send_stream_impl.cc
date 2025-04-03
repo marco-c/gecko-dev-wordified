@@ -1853,9 +1853,6 @@ initial_encoder_max_bitrate
 0
 )
 return
-rtc
-:
-:
 dchecked_cast
 <
 uint32_t
@@ -6082,9 +6079,6 @@ OnBitrateUpdated
 encoder_target_rate
 encoder_stable_target_rate
 link_allocation
-rtc
-:
-:
 dchecked_cast
 <
 uint8_t

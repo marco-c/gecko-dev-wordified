@@ -2863,9 +2863,6 @@ sample_rate
 int
 num_channels
 =
-rtc
-:
-:
 checked_cast
 <
 int

@@ -216,9 +216,6 @@ output
 n
 ]
 =
-rtc
-:
-:
 dchecked_cast
 <
 int16_t
@@ -815,9 +812,6 @@ output
 n
 ]
 =
-rtc
-:
-:
 dchecked_cast
 <
 int16_t

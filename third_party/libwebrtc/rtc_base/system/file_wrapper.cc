@@ -501,9 +501,6 @@ return
 fseek
 (
 file_
-rtc
-:
-:
 checked_cast
 <
 long
@@ -537,9 +534,6 @@ return
 fseek
 (
 file_
-rtc
-:
-:
 checked_cast
 <
 long
@@ -649,9 +643,6 @@ std
 nullopt
 ;
 return
-rtc
-:
-:
 checked_cast
 <
 size_t
