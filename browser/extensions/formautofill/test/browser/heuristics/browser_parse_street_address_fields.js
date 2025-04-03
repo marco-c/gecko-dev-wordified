@@ -1187,10 +1187,13 @@ for
 a1
 "
 >
-Stra
-e
-/
-nummer
+Saisir
+une
+adresse
+numero
+de
+maison
+inclus
 <
 /
 label
