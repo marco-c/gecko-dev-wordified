@@ -299,11 +299,7 @@ Terminate
 *
 *
 Returns
-TSF
-related
-native
-data
-or
+raw
 native
 IME
 context
@@ -1185,10 +1181,6 @@ bool
 aInPrivateBrowsing
 )
 ;
-static
-bool
-sIsInTSFMode
-;
 /
 /
 If
@@ -1226,11 +1218,7 @@ bool
 IsTSFAvailable
 (
 )
-{
-return
-sIsInTSFMode
 ;
-}
 static
 bool
 IsIMMActive
