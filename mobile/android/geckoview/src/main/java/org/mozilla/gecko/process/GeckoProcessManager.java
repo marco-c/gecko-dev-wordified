@@ -4162,16 +4162,6 @@ builder
 (
 )
 .
-child
-(
-type
-!
-=
-GeckoProcessType
-.
-PARENT
-)
-.
 args
 (
 args
