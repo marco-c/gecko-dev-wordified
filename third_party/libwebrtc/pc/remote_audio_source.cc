@@ -711,9 +711,6 @@ LS_INFO
 )
 <
 <
-rtc
-:
-:
 StringFormat
 (
 "

@@ -108,7 +108,7 @@ checks
 h
 "
 namespace
-rtc
+webrtc
 {
 namespace
 {
@@ -281,4 +281,4 @@ buffer
 /
 /
 namespace
-rtc
+webrtc

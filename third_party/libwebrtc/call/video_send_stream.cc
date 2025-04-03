@@ -660,9 +660,6 @@ input_fps
 "
 <
 <
-rtc
-:
-:
 StringFormat
 (
 "

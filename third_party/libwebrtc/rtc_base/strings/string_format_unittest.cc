@@ -137,7 +137,7 @@ gtest
 h
 "
 namespace
-rtc
+webrtc
 {
 TEST
 (
@@ -422,4 +422,4 @@ substring
 /
 /
 namespace
-rtc
+webrtc
