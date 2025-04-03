@@ -507,11 +507,19 @@ Height
 (
 )
 ;
+Document
+*
+GetSourceDocument
+(
+)
+const
+;
 nsIURI
 *
 GetSourceDocURI
 (
 )
+const
 ;
 const
 Encoding
@@ -519,6 +527,7 @@ Encoding
 GetSourceDocCharacterSet
 (
 )
+const
 ;
 URLExtraData
 *

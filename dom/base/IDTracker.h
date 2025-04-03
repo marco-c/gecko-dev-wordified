@@ -407,6 +407,7 @@ Element
 get
 (
 )
+const
 {
 return
 mElement
