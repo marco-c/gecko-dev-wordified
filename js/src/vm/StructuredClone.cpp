@@ -25808,17 +25808,6 @@ false
 }
 #
 endif
-/
-/
-See
-Bugs
-1957731
-and
-1898515
-.
-#
-ifndef
-MOZ_WIDGET_ANDROID
 JSRuntime
 *
 rt
@@ -25886,8 +25875,6 @@ DESERIALIZE_US
 elapsed
 )
 ;
-#
-endif
 return
 true
 ;
