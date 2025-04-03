@@ -544,9 +544,6 @@ class
 DXGITextureHostD3D11
 ;
 class
-DXGIYCbCrTextureHostD3D11
-;
-class
 SurfaceDescriptor
 ;
 class
@@ -3930,17 +3927,6 @@ virtual
 DXGITextureHostD3D11
 *
 AsDXGITextureHostD3D11
-(
-)
-{
-return
-nullptr
-;
-}
-virtual
-DXGIYCbCrTextureHostD3D11
-*
-AsDXGIYCbCrTextureHostD3D11
 (
 )
 {

@@ -219,9 +219,6 @@ class
 CompositorBridgeParent
 ;
 class
-Fence
-;
-class
 SyncObjectHost
 ;
 }
@@ -466,13 +463,7 @@ render
 thread
 only
 .
-RefPtr
-<
-layers
-:
-:
-Fence
->
+UniqueFileHandle
 GetAndResetReleaseFence
 (
 )
