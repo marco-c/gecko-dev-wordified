@@ -3035,6 +3035,16 @@ window
 addEventListener
 (
 "
+mouseout
+"
+MousePosTracker
+)
+;
+window
+.
+addEventListener
+(
+"
 dragover
 "
 MousePosTracker
