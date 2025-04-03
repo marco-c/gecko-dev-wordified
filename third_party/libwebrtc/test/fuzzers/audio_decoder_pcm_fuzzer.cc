@@ -88,6 +88,16 @@ tree
 #
 include
 <
+cstddef
+>
+#
+include
+<
+cstdint
+>
+#
+include
+<
 memory
 >
 #

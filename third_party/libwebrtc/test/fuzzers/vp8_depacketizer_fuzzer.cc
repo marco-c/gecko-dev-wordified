@@ -87,6 +87,16 @@ tree
 /
 #
 include
+<
+cstddef
+>
+#
+include
+<
+cstdint
+>
+#
+include
 "
 api
 /

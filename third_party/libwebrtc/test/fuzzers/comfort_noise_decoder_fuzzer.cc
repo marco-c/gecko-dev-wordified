@@ -92,6 +92,16 @@ algorithm
 >
 #
 include
+<
+cstddef
+>
+#
+include
+<
+cstdint
+>
+#
+include
 "
 api
 /
