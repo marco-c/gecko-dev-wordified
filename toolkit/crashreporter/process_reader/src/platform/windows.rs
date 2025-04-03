@@ -797,7 +797,11 @@ self
 .
 process
 module
+(
+&
+mut
 path
+)
 .
 as_mut_ptr
 (
