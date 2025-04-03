@@ -17163,6 +17163,15 @@ mWeakReference
 nullptr
 ;
 }
+MOZ_CAN_RUN_SCRIPT
+void
+RevealAncestorHiddenUntilFoundAndFireBeforematchEvent
+(
+ErrorResult
+&
+aRv
+)
+;
 protected
 :
 /
