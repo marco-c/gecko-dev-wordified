@@ -138,7 +138,7 @@ kError
 /
 namespace
 namespace
-rtc
+webrtc
 {
 TEST
 (
@@ -1692,4 +1692,4 @@ value
 /
 /
 namespace
-rtc
+webrtc

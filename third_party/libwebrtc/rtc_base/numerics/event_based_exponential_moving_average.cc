@@ -156,7 +156,7 @@ ninetyfive_percent_confidence
 /
 namespace
 namespace
-rtc
+webrtc
 {
 /
 /
@@ -524,4 +524,4 @@ estimator_variance_
 /
 /
 namespace
-rtc
+webrtc
