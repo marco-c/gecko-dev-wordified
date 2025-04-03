@@ -235,7 +235,7 @@ nsresult
 nsMediaEventRunner
 :
 :
-DispatchEvent
+FireEvent
 (
 const
 nsAString
@@ -259,10 +259,13 @@ ReportProfilerMarker
 ;
 rv
 =
+RefPtr
+{
 mElement
+}
 -
 >
-DispatchEvent
+FireEvent
 (
 aName
 )
@@ -864,7 +867,7 @@ IsCancelled
 ?
 NS_OK
 :
-DispatchEvent
+FireEvent
 (
 mEventName
 )
@@ -1016,7 +1019,7 @@ IsCancelled
 )
 )
 {
-DispatchEvent
+FireEvent
 (
 u
 "
@@ -1290,7 +1293,7 @@ issue
 nsresult
 rv
 =
-DispatchEvent
+FireEvent
 (
 mEventName
 )
