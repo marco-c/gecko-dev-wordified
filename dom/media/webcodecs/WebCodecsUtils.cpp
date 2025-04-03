@@ -846,7 +846,7 @@ JSContext
 *
 aCx
 const
-OwningMaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
+OwningAllowSharedBufferSource
 &
 aBuffer
 )
@@ -1013,11 +1013,11 @@ CloneBuffer
 JSContext
 *
 aCx
-OwningMaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
+OwningAllowSharedBufferSource
 &
 aDest
 const
-OwningMaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
+OwningAllowSharedBufferSource
 &
 aSrc
 ErrorResult
@@ -1252,7 +1252,7 @@ nsresult
 GetExtraDataFromArrayBuffer
 (
 const
-OwningMaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
+OwningAllowSharedBufferSource
 &
 aBuffer
 )
@@ -1316,7 +1316,7 @@ uint8_t
 >
 &
 aSrc
-OwningMaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
+OwningAllowSharedBufferSource
 &
 aDest
 )

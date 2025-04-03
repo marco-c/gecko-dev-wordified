@@ -1432,7 +1432,7 @@ EncodedAudioChunk
 CopyTo
 (
 const
-MaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
+AllowSharedBufferSource
 &
 aDestination
 ErrorResult
