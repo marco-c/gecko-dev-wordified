@@ -84,10 +84,10 @@ tree
 /
 #
 ifndef
-RTC_BASE_NAT_TYPES_H_
+P2P_TEST_NAT_TYPES_H_
 #
 define
-RTC_BASE_NAT_TYPES_H_
+P2P_TEST_NAT_TYPES_H_
 namespace
 rtc
 {
@@ -258,4 +258,4 @@ rtc
 endif
 /
 /
-RTC_BASE_NAT_TYPES_H_
+P2P_TEST_NAT_TYPES_H_

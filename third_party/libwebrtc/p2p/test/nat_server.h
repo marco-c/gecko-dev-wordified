@@ -84,10 +84,10 @@ tree
 /
 #
 ifndef
-RTC_BASE_NAT_SERVER_H_
+P2P_TEST_NAT_SERVER_H_
 #
 define
-RTC_BASE_NAT_SERVER_H_
+P2P_TEST_NAT_SERVER_H_
 #
 include
 <
@@ -101,9 +101,11 @@ set
 #
 include
 "
-rtc_base
+p2p
 /
-async_udp_socket
+test
+/
+nat_types
 .
 h
 "
@@ -112,7 +114,7 @@ include
 "
 rtc_base
 /
-nat_types
+async_udp_socket
 .
 h
 "
@@ -783,4 +785,4 @@ rtc
 endif
 /
 /
-RTC_BASE_NAT_SERVER_H_
+P2P_TEST_NAT_SERVER_H_

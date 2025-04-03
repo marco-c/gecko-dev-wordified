@@ -250,7 +250,7 @@ include
 "
 p2p
 /
-base
+test
 /
 stun_server
 .
@@ -261,7 +261,7 @@ include
 "
 p2p
 /
-base
+test
 /
 test_stun_server
 .

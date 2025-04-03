@@ -157,7 +157,7 @@ include
 "
 p2p
 /
-base
+test
 /
 turn_server
 .

@@ -87,7 +87,7 @@ include
 "
 p2p
 /
-base
+test
 /
 test_stun_server
 .

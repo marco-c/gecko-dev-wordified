@@ -138,9 +138,9 @@ include
 "
 p2p
 /
-base
+dtls
 /
-fake_packet_transport
+dtls_transport_internal
 .
 h
 "
@@ -149,9 +149,9 @@ include
 "
 p2p
 /
-dtls
+test
 /
-dtls_transport_internal
+fake_packet_transport
 .
 h
 "

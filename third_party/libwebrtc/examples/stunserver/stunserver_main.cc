@@ -92,7 +92,7 @@ include
 "
 p2p
 /
-base
+test
 /
 stun_server
 .
