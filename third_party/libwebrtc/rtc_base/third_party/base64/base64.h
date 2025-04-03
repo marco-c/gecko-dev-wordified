@@ -240,17 +240,6 @@ string_view
 .
 h
 "
-#
-include
-"
-rtc_base
-/
-system
-/
-rtc_export
-.
-h
-"
 namespace
 rtc
 {
@@ -493,7 +482,6 @@ string_view
 str
 )
 ;
-RTC_EXPORT
 static
 void
 EncodeFromArray
@@ -512,7 +500,6 @@ string
 result
 )
 ;
-RTC_EXPORT
 static
 bool
 DecodeFromArray
