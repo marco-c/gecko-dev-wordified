@@ -249,17 +249,6 @@ MultiSelect
 .
 jsx
 "
-"
-content
--
-src
-/
-components
-/
-ReturnToAMO
-.
-jsx
-"
 ]
 rules
 :
