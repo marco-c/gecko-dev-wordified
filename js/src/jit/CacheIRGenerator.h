@@ -3592,11 +3592,6 @@ tryAttachSubstringKernel
 )
 ;
 AttachDecision
-tryAttachObjectHasPrototype
-(
-)
-;
-AttachDecision
 tryAttachString
 (
 )

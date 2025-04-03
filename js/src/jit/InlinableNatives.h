@@ -1074,11 +1074,6 @@ IntrinsicSubstringKernel
 \
 _
 (
-IntrinsicObjectHasPrototype
-)
-\
-_
-(
 IntrinsicIsPackedArray
 )
 \
