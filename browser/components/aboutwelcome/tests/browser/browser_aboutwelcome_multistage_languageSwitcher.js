@@ -367,9 +367,6 @@ falseTargeting
 =
 [
 "
-isRTAMO
-"
-"
 doesAppNeedPin
 &
 &
