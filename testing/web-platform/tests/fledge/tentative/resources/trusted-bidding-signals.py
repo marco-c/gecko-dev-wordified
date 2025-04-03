@@ -163,7 +163,6 @@ pair
 2
 :
             
-return
 fail
 (
 response
@@ -176,6 +175,8 @@ parameter
 +
 param
 )
+            
+return
         
 #
 Browsers
@@ -198,7 +199,6 @@ pair
 ]
 :
             
-return
 fail
 (
 response
@@ -216,6 +216,8 @@ using
 +
 param
 )
+            
+return
         
 #
 Hostname
@@ -377,7 +379,6 @@ allSlotsRequestedSizes
             
 continue
         
-return
 fail
 (
 response
@@ -390,6 +391,8 @@ parameter
 +
 param
 )
+        
+return
     
 #
 If
@@ -420,12 +423,6 @@ headers
 to
 normal
 requests
-and
-handle
-    
-#
-CORS
-preflights
 .
     
 if
@@ -439,7 +436,7 @@ keys
 and
 fledge_http_server_util
 .
-handle_cors_headers_and_preflight
+handle_cors_headers_fail_if_preflight
 (
             
 request
@@ -466,7 +463,6 @@ not
 hostname
 :
         
-return
 fail
 (
 response
@@ -475,13 +471,14 @@ hostname
 missing
 "
 )
+        
+return
     
 if
 not
 interestGroupNames
 :
         
-return
 fail
 (
 response
@@ -490,6 +487,8 @@ interestGroupNames
 missing
 "
 )
+        
+return
     
 response
 .
@@ -1487,45 +1486,3 @@ dumps
 (
 responseBody
 )
-def
-fail
-(
-response
-body
-)
-:
-    
-response
-.
-status
-=
-(
-400
-"
-Bad
-Request
-"
-)
-    
-response
-.
-headers
-.
-set
-(
-b
-"
-Content
--
-Type
-"
-b
-"
-text
-/
-plain
-"
-)
-    
-return
-body

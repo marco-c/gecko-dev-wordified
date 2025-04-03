@@ -105,7 +105,6 @@ as
 ve
 :
         
-return
 fail
 (
 response
@@ -114,6 +113,8 @@ str
 ve
 )
 )
+        
+return
     
 response
 .
@@ -249,7 +250,6 @@ as
 ve
 :
                 
-return
 fail
 (
 response
@@ -258,6 +258,8 @@ str
 ve
 )
 )
+                
+return
             
 for
 signalsParam
@@ -793,10 +795,6 @@ add
 appropriate
 response
 headers
-and
-fully
-handle
-preflights
 .
     
 if
@@ -804,7 +802,7 @@ cors
 and
 fledge_http_server_util
 .
-handle_cors_headers_and_preflight
+handle_cors_headers_fail_if_preflight
 (
             
 request
@@ -887,45 +885,3 @@ dumps
 (
 responseBody
 )
-def
-fail
-(
-response
-body
-)
-:
-    
-response
-.
-status
-=
-(
-400
-"
-Bad
-Request
-"
-)
-    
-response
-.
-headers
-.
-set
-(
-b
-"
-Content
--
-Type
-"
-b
-"
-text
-/
-plain
-"
-)
-    
-return
-body
