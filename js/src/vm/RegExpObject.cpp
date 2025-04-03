@@ -1195,7 +1195,14 @@ slot
 #
 endif
 return
-true
+JSObject
+:
+:
+setHasFuseProperty
+(
+cx
+proto
+)
 ;
 }
 static
