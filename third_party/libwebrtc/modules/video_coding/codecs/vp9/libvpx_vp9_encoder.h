@@ -1020,9 +1020,6 @@ is_svc_
 InterLayerPredMode
 inter_layer_pred_
 ;
-bool
-external_ref_control_
-;
 const
 bool
 trusted_rate_controller_
@@ -1201,10 +1198,6 @@ FieldTrialsView
 &
 trials
 )
-;
-const
-bool
-external_ref_ctrl_
 ;
 /
 /

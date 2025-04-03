@@ -6622,14 +6622,6 @@ Vp9IssueKeyFrameOnLayerDeactivation
 Enabled
 /
 "
-"
-WebRTC
--
-Vp9ExternalRefCtrl
-/
-Enabled
-/
-"
 )
 )
 ;

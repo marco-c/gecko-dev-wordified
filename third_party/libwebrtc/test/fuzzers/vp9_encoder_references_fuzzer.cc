@@ -1326,11 +1326,6 @@ kBinaryFieldTrials
 "
 WebRTC
 -
-Vp9ExternalRefCtrl
-"
-"
-WebRTC
--
 Vp9IssueKeyFrameOnLayerDeactivation
 "
 }
