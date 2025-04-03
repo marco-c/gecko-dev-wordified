@@ -576,9 +576,6 @@ streams
 EXPECT_EQ
 (
 0
-cricket
-:
-:
 GetTotalMaxBitrate
 (
 streams
@@ -620,9 +617,6 @@ max_bitrate_bps
 EXPECT_EQ
 (
 100000
-cricket
-:
-:
 GetTotalMaxBitrate
 (
 streams
@@ -682,9 +676,6 @@ max_bitrate_bps
 EXPECT_EQ
 (
 700000
-cricket
-:
-:
 GetTotalMaxBitrate
 (
 streams
@@ -781,17 +772,11 @@ webrtc
 DataRate
 max_total_bitrate
 =
-cricket
-:
-:
 GetTotalMaxBitrate
 (
 streams
 )
 ;
-cricket
-:
-:
 BoostMaxSimulcastLayer
 (
 max_total_bitrate
@@ -813,9 +798,6 @@ max_bitrate_bps
 EXPECT_EQ
 (
 max_total_bitrate
-cricket
-:
-:
 GetTotalMaxBitrate
 (
 streams
@@ -838,9 +820,6 @@ the
 highest
 stream
 .
-cricket
-:
-:
 BoostMaxSimulcastLayer
 (
 max_total_bitrate
@@ -868,9 +847,6 @@ EXPECT_EQ
 max_total_bitrate
 +
 one_bps
-cricket
-:
-:
 GetTotalMaxBitrate
 (
 streams
@@ -921,9 +897,6 @@ VideoStream
 >
 streams
 =
-cricket
-:
-:
 GetSimulcastConfig
 (
 CreateResolutions
@@ -1180,9 +1153,6 @@ VideoStream
 >
 streams
 =
-cricket
-:
-:
 GetSimulcastConfig
 (
 CreateResolutions
@@ -1444,9 +1414,6 @@ VideoStream
 >
 streams
 =
-cricket
-:
-:
 GetSimulcastConfig
 (
 CreateResolutions
@@ -1648,9 +1615,6 @@ VideoStream
 >
 streams
 =
-cricket
-:
-:
 GetSimulcastConfig
 (
 CreateResolutions
@@ -1745,9 +1709,6 @@ VideoStream
 >
 streams
 =
-cricket
-:
-:
 GetSimulcastConfig
 (
 std
@@ -1981,9 +1942,6 @@ VideoStream
 >
 streams
 =
-cricket
-:
-:
 GetSimulcastConfig
 (
 std
@@ -2046,9 +2004,6 @@ VideoStream
 >
 streams
 =
-cricket
-:
-:
 GetSimulcastConfig
 (
 std
@@ -2210,9 +2165,6 @@ VideoStream
 >
 streams
 =
-cricket
-:
-:
 GetSimulcastConfig
 (
 CreateResolutions
@@ -2373,9 +2325,6 @@ kMaxLayers
 size_t
 num_layers
 =
-cricket
-:
-:
 LimitSimulcastLayerCount
 (
 kMinLayers
@@ -2404,9 +2353,6 @@ num_layers
 layers
 num_layers
 =
-cricket
-:
-:
 LimitSimulcastLayerCount
 (
 kMinLayers
@@ -2428,9 +2374,6 @@ num_layers
 ;
 num_layers
 =
-cricket
-:
-:
 LimitSimulcastLayerCount
 (
 kMinLayers
@@ -2459,9 +2402,6 @@ num_layers
 layer
 num_layers
 =
-cricket
-:
-:
 LimitSimulcastLayerCount
 (
 kMinLayers
@@ -2526,9 +2466,6 @@ kMaxLayers
 size_t
 num_layers
 =
-cricket
-:
-:
 LimitSimulcastLayerCount
 (
 kMinLayers
@@ -2564,9 +2501,6 @@ used
 .
 num_layers
 =
-cricket
-:
-:
 LimitSimulcastLayerCount
 (
 kMinLayers
@@ -2588,9 +2522,6 @@ num_layers
 ;
 num_layers
 =
-cricket
-:
-:
 LimitSimulcastLayerCount
 (
 kMinLayers
@@ -2612,9 +2543,6 @@ num_layers
 ;
 num_layers
 =
-cricket
-:
-:
 LimitSimulcastLayerCount
 (
 kMinLayers
@@ -2650,9 +2578,6 @@ used
 .
 num_layers
 =
-cricket
-:
-:
 LimitSimulcastLayerCount
 (
 kMinLayers
@@ -2674,9 +2599,6 @@ num_layers
 ;
 num_layers
 =
-cricket
-:
-:
 LimitSimulcastLayerCount
 (
 kMinLayers
@@ -2735,9 +2657,6 @@ kMaxLayers
 size_t
 num_layers
 =
-cricket
-:
-:
 LimitSimulcastLayerCount
 (
 kMinLayers
@@ -2773,9 +2692,6 @@ used
 .
 num_layers
 =
-cricket
-:
-:
 LimitSimulcastLayerCount
 (
 kMinLayers
@@ -2797,9 +2713,6 @@ num_layers
 ;
 num_layers
 =
-cricket
-:
-:
 LimitSimulcastLayerCount
 (
 kMinLayers
@@ -2868,9 +2781,6 @@ VideoStream
 >
 streams
 =
-cricket
-:
-:
 GetSimulcastConfig
 (
 CreateResolutions
@@ -3008,9 +2918,6 @@ VideoStream
 >
 streams
 =
-cricket
-:
-:
 GetSimulcastConfig
 (
 std
@@ -3141,9 +3048,6 @@ VideoStream
 >
 streams
 =
-cricket
-:
-:
 GetSimulcastConfig
 (
 CreateResolutions
@@ -3267,9 +3171,6 @@ VideoStream
 >
 streams_vp8
 =
-cricket
-:
-:
 GetSimulcastConfig
 (
 CreateResolutions
@@ -3309,9 +3210,6 @@ VideoStream
 >
 streams_vp9
 =
-cricket
-:
-:
 GetSimulcastConfig
 (
 CreateResolutions
@@ -3549,9 +3447,6 @@ VideoStream
 >
 streams
 =
-cricket
-:
-:
 GetSimulcastConfig
 (
 CreateResolutions
@@ -3648,9 +3543,6 @@ min_bitrate_bps
 ;
 streams
 =
-cricket
-:
-:
 GetSimulcastConfig
 (
 CreateResolutions
@@ -3780,9 +3672,6 @@ VideoStream
 >
 streams
 =
-cricket
-:
-:
 GetSimulcastConfig
 (
 CreateResolutions
@@ -3879,9 +3768,6 @@ min_bitrate_bps
 ;
 streams
 =
-cricket
-:
-:
 GetSimulcastConfig
 (
 CreateResolutions
@@ -4038,9 +3924,6 @@ VideoStream
 >
 streams
 =
-cricket
-:
-:
 GetSimulcastConfig
 (
 CreateResolutions

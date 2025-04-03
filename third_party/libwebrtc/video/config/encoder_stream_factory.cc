@@ -1640,6 +1640,9 @@ the
 largest
 layer
 .
+webrtc
+:
+:
 BoostMaxSimulcastLayer
 (
 webrtc
@@ -3473,6 +3476,9 @@ VideoStream
 >
 layers
 =
+webrtc
+:
+:
 GetSimulcastConfig
 (
 resolutions
@@ -4001,6 +4007,9 @@ HasScaleResolutionDownTo
 (
 )
 ?
+webrtc
+:
+:
 LimitSimulcastLayerCount
 (
 min_num_layers
