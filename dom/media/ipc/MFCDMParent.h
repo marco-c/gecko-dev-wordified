@@ -746,6 +746,11 @@ const
 uint64_t
 mId
 ;
+bool
+mIsInited
+=
+false
+;
 static
 inline
 BSTR
