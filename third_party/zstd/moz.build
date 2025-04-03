@@ -117,6 +117,13 @@ zstd
 .
 h
 '
+'
+lib
+/
+zstd_errors
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
