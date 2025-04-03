@@ -2921,7 +2921,7 @@ rv
 svc
 -
 >
-GetQuitApplicationGranted
+GetAppShutdownConfirmed
 (
 getter_AddRefs
 (
@@ -2939,7 +2939,7 @@ rv
 {
 /
 /
-quitApplicationGranted
+appShutdownConfirmed
 can
 be
 undefined
