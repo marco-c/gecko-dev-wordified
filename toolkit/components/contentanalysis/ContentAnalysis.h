@@ -1929,7 +1929,7 @@ nsCString
 &
 aUserActionId
 bool
-aAutoAcknowledge
+aAcknowledge
 bool
 aIsTooLate
 )
