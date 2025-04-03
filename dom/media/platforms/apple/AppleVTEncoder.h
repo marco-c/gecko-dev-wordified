@@ -447,6 +447,11 @@ ProcessShutdown
 (
 )
 ;
+void
+InvalidateSessionIfNeeded
+(
+)
+;
 CFDictionaryRef
 BuildSourceImageBufferAttributes
 (
