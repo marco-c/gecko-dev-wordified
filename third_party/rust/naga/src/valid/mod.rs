@@ -4275,14 +4275,6 @@ crate
 Scalar
 :
 :
-F16
-|
-crate
-:
-:
-Scalar
-:
-:
 F32
 |
 crate

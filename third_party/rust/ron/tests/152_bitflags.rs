@@ -10,9 +10,6 @@ option_set
 :
 option_set
 ;
-/
-/
-GRCOV_EXCL_START
 bitflags
 !
 {
@@ -66,12 +63,6 @@ THREE
 ;
 }
 }
-/
-/
-GRCOV_EXCL_STOP
-/
-/
-GRCOV_EXCL_START
 option_set
 !
 {
@@ -105,9 +96,6 @@ THREE
 ;
 }
 }
-/
-/
-GRCOV_EXCL_STOP
 #
 [
 test
