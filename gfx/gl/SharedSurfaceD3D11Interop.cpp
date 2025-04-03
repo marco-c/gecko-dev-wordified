@@ -2835,14 +2835,6 @@ fenceInfo
 Nothing
 (
 )
-/
-*
-gpuProcessQueryId
-*
-/
-Nothing
-(
-)
 )
 )
 ;

@@ -1591,14 +1591,6 @@ fenceInfo
 Nothing
 (
 )
-/
-*
-gpuProcessQueryId
-*
-/
-Nothing
-(
-)
 )
 ;
 RefPtr
