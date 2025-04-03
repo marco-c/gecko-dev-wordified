@@ -315,10 +315,17 @@ showResetDialog
 )
 ;
 }
-function
-onLoad
+window
+.
+addEventListener
+(
+"
+load
+"
 (
 )
+=
+>
 {
 const
 dialog
@@ -502,3 +509,5 @@ onExtra1
 )
 ;
 }
+)
+;
