@@ -254,12 +254,6 @@ aInstancePtr
 )
 override
 ;
-uint32_t
-GetHashValue
-(
-)
-override
-;
 NS_IMETHOD
 GetURI
 (
