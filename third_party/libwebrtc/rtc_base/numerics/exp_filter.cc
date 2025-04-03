@@ -102,7 +102,7 @@ include
 cmath
 >
 namespace
-rtc
+webrtc
 {
 const
 float
@@ -262,4 +262,4 @@ alpha
 /
 /
 namespace
-rtc
+webrtc

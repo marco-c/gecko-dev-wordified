@@ -1269,9 +1269,6 @@ packets
 in
 bytes
 .
-rtc
-:
-:
 ExpFilter
 packet_size_
 RTC_GUARDED_BY

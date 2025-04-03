@@ -2026,9 +2026,6 @@ _lastPacketPerFrameUpdateT
 int64_t
 _lastPacketPerFrameUpdateTKey
 ;
-rtc
-:
-:
 ExpFilter
 _lossPr255
 ;
@@ -2041,15 +2038,9 @@ kLossPrHistorySize
 uint8_t
 _shortMaxLossPr255
 ;
-rtc
-:
-:
 ExpFilter
 _packetsPerFrame
 ;
-rtc
-:
-:
 ExpFilter
 _packetsPerFrameKey
 ;

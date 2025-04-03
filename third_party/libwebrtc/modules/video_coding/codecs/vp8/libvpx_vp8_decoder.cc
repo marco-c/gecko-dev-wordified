@@ -727,9 +727,6 @@ return
 value
 =
 =
-rtc
-:
-:
 ExpFilter
 :
 :
@@ -811,9 +808,6 @@ kAlpha
 int64_t
 last_sample_ms_
 ;
-rtc
-:
-:
 ExpFilter
 smoother_
 ;

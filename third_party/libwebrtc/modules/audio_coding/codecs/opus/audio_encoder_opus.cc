@@ -2330,9 +2330,6 @@ return
 value
 =
 =
-rtc
-:
-:
 ExpFilter
 :
 :
@@ -2415,9 +2412,6 @@ packet
 loss
 fraction
 .
-rtc
-:
-:
 ExpFilter
 smoother_
 ;

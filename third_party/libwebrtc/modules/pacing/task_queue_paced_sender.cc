@@ -1539,9 +1539,6 @@ filtered
 )
 !
 =
-rtc
-:
-:
 ExpFilter
 :
 :

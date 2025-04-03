@@ -325,9 +325,6 @@ if
 value
 =
 =
-rtc
-:
-:
 ExpFilter
 :
 :
@@ -410,9 +407,6 @@ alpha_
 int64_t
 last_sample_ms_
 ;
-rtc
-:
-:
 ExpFilter
 smoother_
 ;

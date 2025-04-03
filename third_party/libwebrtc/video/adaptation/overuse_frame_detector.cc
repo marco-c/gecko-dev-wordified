@@ -630,9 +630,6 @@ kMaxSampleDiffMarginFactor
 filtered_processing_ms_
 (
 new
-rtc
-:
-:
 ExpFilter
 (
 kWeightFactorProcessing
@@ -641,9 +638,6 @@ kWeightFactorProcessing
 filtered_frame_diff_ms_
 (
 new
-rtc
-:
-:
 ExpFilter
 (
 kWeightFactorFrameDiff
@@ -1453,9 +1447,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 ExpFilter
 >
 filtered_processing_ms_
@@ -1465,9 +1456,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 ExpFilter
 >
 filtered_frame_diff_ms_
