@@ -521,6 +521,11 @@ unenroll
 "
 foo
 "
+"
+some
+-
+reason
+"
 )
 ;
 await
@@ -589,6 +594,11 @@ unenroll
 (
 "
 rol1
+"
+"
+some
+-
+reason
 "
 )
 ;
