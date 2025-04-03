@@ -1678,15 +1678,6 @@ props
 study
 .
 slug
-reason
-:
-"
-individual
--
-opt
--
-out
-"
 }
 )
 ;
