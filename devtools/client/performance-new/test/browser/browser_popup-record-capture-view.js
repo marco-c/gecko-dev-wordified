@@ -244,7 +244,7 @@ and
 custom
 builds
 .
-BackgroundJSM
+PrefsPresets
 .
 changePreset
 (
@@ -501,7 +501,7 @@ and
 custom
 builds
 .
-BackgroundJSM
+PrefsPresets
 .
 changePreset
 (

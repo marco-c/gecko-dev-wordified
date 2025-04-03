@@ -159,7 +159,7 @@ and
 custom
 builds
 .
-BackgroundJSM
+PrefsPresets
 .
 changePreset
 (

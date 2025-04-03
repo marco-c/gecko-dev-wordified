@@ -108,7 +108,7 @@ and
 custom
 builds
 .
-BackgroundJSM
+PrefsPresets
 .
 changePreset
 (
@@ -851,7 +851,7 @@ after
 previous
 tests
 .
-BackgroundJSM
+PrefsPresets
 .
 changePreset
 (
@@ -1934,7 +1934,7 @@ after
 previous
 tests
 .
-BackgroundJSM
+PrefsPresets
 .
 changePreset
 (
