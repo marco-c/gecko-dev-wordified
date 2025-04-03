@@ -1159,6 +1159,9 @@ bool
 include_rtx_streams
 bool
 include_flexfec_stream
+rtc
+:
+:
 UniqueRandomIdGenerator
 *
 ssrc_generator
@@ -1812,6 +1815,9 @@ std
 string
 &
 rtcp_cname
+rtc
+:
+:
 UniqueRandomIdGenerator
 *
 ssrc_generator
@@ -2564,6 +2570,9 @@ const
 RtpHeaderExtensions
 &
 rtp_extensions
+rtc
+:
+:
 UniqueRandomIdGenerator
 *
 ssrc_generator
@@ -2759,6 +2768,9 @@ const
 RtpHeaderExtensions
 &
 rtp_extensions
+rtc
+:
+:
 UniqueRandomIdGenerator
 *
 ssrc_generator
@@ -4079,6 +4091,9 @@ const
 MediaSessionOptions
 &
 session_options
+rtc
+:
+:
 UniqueRandomIdGenerator
 *
 ssrc_generator
@@ -4293,6 +4308,9 @@ const
 RtpHeaderExtensions
 &
 local_rtp_extensions
+rtc
+:
+:
 UniqueRandomIdGenerator
 *
 ssrc_generator

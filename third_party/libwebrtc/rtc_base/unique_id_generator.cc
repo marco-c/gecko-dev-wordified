@@ -140,7 +140,7 @@ string_to_number
 h
 "
 namespace
-rtc
+webrtc
 {
 UniqueRandomIdGenerator
 :
@@ -199,9 +199,6 @@ GenerateId
 (
 )
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -244,6 +241,9 @@ known_ids_
 .
 insert
 (
+rtc
+:
+:
 CreateRandomNonZeroId
 (
 )
@@ -275,9 +275,6 @@ uint32_t
 value
 )
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -365,6 +362,9 @@ GenerateString
 )
 {
 return
+rtc
+:
+:
 ToString
 (
 unique_number_generator_
@@ -497,4 +497,4 @@ false
 /
 /
 namespace
-rtc
+webrtc

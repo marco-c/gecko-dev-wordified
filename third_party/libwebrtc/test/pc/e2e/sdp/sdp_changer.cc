@@ -2410,9 +2410,6 @@ SessionDescriptionInterface
 offer
 )
 {
-rtc
-:
-:
 UniqueRandomIdGenerator
 ssrcs_generator
 ;

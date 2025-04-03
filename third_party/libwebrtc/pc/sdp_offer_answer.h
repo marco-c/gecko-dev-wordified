@@ -4728,9 +4728,6 @@ of
 the
 PeerConnection
 .
-rtc
-:
-:
 UniqueStringGenerator
 mid_generator_
 RTC_GUARDED_BY

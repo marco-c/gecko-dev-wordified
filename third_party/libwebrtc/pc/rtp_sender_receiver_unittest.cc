@@ -3834,9 +3834,6 @@ FakeMediaEngine
 >
 media_engine_
 ;
-rtc
-:
-:
 UniqueRandomIdGenerator
 ssrc_generator_
 ;
