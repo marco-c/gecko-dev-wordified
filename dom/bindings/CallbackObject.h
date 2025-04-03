@@ -459,6 +459,8 @@ CallbackObject
 :
 public
 nsISupports
+public
+JSHolderBase
 {
 public
 :
@@ -1450,7 +1452,7 @@ CallbackObject
 mozilla
 :
 :
-DropJSObjects
+DropJSObjectsWithKey
 (
 this
 )
@@ -1803,7 +1805,7 @@ aIncumbentGlobal
 mozilla
 :
 :
-HoldJSObjects
+HoldJSObjectsWithKey
 (
 this
 )
@@ -1890,6 +1892,14 @@ Reset
 {
 ClearJSReferences
 (
+)
+;
+mozilla
+:
+:
+DropJSObjectsWithKey
+(
+this
 )
 ;
 }
