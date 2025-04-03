@@ -5509,16 +5509,6 @@ GetData
 (
 )
 ;
-if
-(
-!
-yuv
-)
-{
-return
-nullptr
-;
-}
 auto
 ySize
 =
