@@ -449,9 +449,6 @@ int
 num_channels
 )
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;
@@ -692,9 +689,6 @@ kNumChannelsSize
 k
 )
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;
@@ -883,9 +877,6 @@ kRatesSize
 j
 )
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;
@@ -1084,9 +1075,6 @@ kRatesSize
 j
 )
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;

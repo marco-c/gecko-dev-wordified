@@ -1421,9 +1421,6 @@ output_file_num_
 +
 ;
 }
-rtc
-:
-:
 StringBuilder
 out_filename
 ;

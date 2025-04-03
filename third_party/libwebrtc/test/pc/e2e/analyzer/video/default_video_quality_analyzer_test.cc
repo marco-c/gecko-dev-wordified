@@ -967,9 +967,6 @@ StatsSample
 values
 )
 {
-rtc
-:
-:
 StringBuilder
 out
 ;

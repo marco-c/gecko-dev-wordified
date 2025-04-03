@@ -812,9 +812,6 @@ return
 ;
 #
 else
-rtc
-:
-:
 StringBuilder
 os
 ;
@@ -1716,9 +1713,6 @@ implemented
 .
 "
 ;
-rtc
-:
-:
 StringBuilder
 os
 ;

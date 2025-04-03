@@ -300,9 +300,6 @@ int
 number_of_sources
 )
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;
@@ -372,9 +369,6 @@ FrameCombinerConfig
 config
 )
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;

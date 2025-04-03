@@ -802,9 +802,6 @@ uint32_t
 ssrc
 )
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;
@@ -2584,9 +2581,6 @@ UDP
 using
 IPv4
 .
-rtc
-:
-:
 StringBuilder
 ss
 ;

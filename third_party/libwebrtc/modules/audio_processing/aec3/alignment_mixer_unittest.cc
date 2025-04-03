@@ -193,9 +193,6 @@ int
 strongest_ch
 )
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;

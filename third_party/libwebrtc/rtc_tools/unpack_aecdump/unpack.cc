@@ -1435,9 +1435,6 @@ file_
 nullptr
 )
 {
-rtc
-:
-:
 StringBuilder
 file_name
 ;
@@ -1948,9 +1945,6 @@ int
 frame_count
 )
 {
-rtc
-:
-:
 StringBuilder
 suffix
 ;
@@ -2214,9 +2208,6 @@ RawFile
 >
 output_raw_file
 ;
-rtc
-:
-:
 StringBuilder
 callorder_raw_name
 ;
@@ -4132,9 +4123,6 @@ init_count
 frame_count
 )
 ;
-rtc
-:
-:
 StringBuilder
 reverse_name
 ;
@@ -4175,9 +4163,6 @@ num_reverse_channels
 )
 )
 ;
-rtc
-:
-:
 StringBuilder
 input_name
 ;
@@ -4218,9 +4203,6 @@ num_input_channels
 )
 )
 ;
-rtc
-:
-:
 StringBuilder
 output_name
 ;
@@ -4268,9 +4250,6 @@ WritingCallOrderFile
 )
 )
 {
-rtc
-:
-:
 StringBuilder
 callorder_name
 ;

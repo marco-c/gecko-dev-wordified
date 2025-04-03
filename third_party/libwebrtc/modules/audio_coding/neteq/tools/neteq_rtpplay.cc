@@ -2245,7 +2245,7 @@ the
 automatic
 assignment
 .
-rtc
+webrtc
 :
 :
 StringBuilder
@@ -2283,7 +2283,7 @@ Automatically
 assign
 name
 .
-rtc
+webrtc
 :
 :
 StringBuilder

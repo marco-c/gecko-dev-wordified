@@ -262,9 +262,6 @@ buffer
 256
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 name
 (

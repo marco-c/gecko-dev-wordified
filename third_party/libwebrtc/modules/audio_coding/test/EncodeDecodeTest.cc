@@ -917,9 +917,6 @@ std
 string
 file_name
 ;
-rtc
-:
-:
 StringBuilder
 file_stream
 ;

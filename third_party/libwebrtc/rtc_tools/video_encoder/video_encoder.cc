@@ -614,9 +614,6 @@ buffer
 1024
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 ss
 (
@@ -779,9 +776,6 @@ buffer
 1024
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 ss
 (

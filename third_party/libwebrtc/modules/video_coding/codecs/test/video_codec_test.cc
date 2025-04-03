@@ -1368,9 +1368,6 @@ string
 output_path
 =
 (
-rtc
-:
-:
 StringBuilder
 (
 )
@@ -4738,9 +4735,6 @@ string
 metric_name_prefix
 =
 (
-rtc
-:
-:
 StringBuilder
 (
 )
@@ -4837,9 +4831,6 @@ stats
 LogMetrics
 (
 (
-rtc
-:
-:
 StringBuilder
 (
 )

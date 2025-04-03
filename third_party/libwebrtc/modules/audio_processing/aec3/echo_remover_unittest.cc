@@ -249,9 +249,6 @@ int
 sample_rate_hz
 )
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;
@@ -287,9 +284,6 @@ int
 delay
 )
 {
-rtc
-:
-:
 StringBuilder
 ss
 (

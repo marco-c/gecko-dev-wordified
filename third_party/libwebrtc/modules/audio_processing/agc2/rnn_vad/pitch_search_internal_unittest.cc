@@ -254,9 +254,6 @@ T
 info
 )
 {
-rtc
-:
-:
 StringBuilder
 builder
 ;

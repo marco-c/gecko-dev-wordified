@@ -143,9 +143,6 @@ string_view
 delimiter
 )
 {
-rtc
-:
-:
 StringBuilder
 sb
 ;
@@ -227,9 +224,6 @@ Functor
 fn
 )
 {
-rtc
-:
-:
 StringBuilder
 sb
 ;

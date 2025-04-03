@@ -1358,9 +1358,6 @@ lock
 mutex_
 )
 ;
-rtc
-:
-:
 StringBuilder
 message
 ;
@@ -1840,9 +1837,6 @@ ImproveDirection
 improve_direction
 )
 {
-rtc
-:
-:
 StringBuilder
 graph_name
 ;
@@ -1977,9 +1971,6 @@ ImproveDirection
 improve_direction
 )
 {
-rtc
-:
-:
 StringBuilder
 graph_name
 ;
@@ -2232,9 +2223,6 @@ error
 )
 )
 ;
-rtc
-:
-:
 StringBuilder
 graph_name
 ;
@@ -2344,9 +2332,6 @@ v
 )
 ;
 }
-rtc
-:
-:
 StringBuilder
 graph_name
 ;

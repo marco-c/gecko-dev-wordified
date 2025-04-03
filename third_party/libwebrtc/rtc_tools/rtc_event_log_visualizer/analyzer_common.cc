@@ -369,9 +369,6 @@ buffer
 200
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 name
 (
@@ -503,9 +500,6 @@ buffer
 100
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 name
 (

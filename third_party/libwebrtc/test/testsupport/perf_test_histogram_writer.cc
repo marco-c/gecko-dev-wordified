@@ -723,9 +723,6 @@ for
 different
 stories
 .
-rtc
-:
-:
 StringBuilder
 measurement_and_story
 ;

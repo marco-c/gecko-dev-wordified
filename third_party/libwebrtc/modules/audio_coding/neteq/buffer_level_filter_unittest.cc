@@ -240,9 +240,6 @@ coefficient
 /
 256
 .
-rtc
-:
-:
 StringBuilder
 ss
 ;

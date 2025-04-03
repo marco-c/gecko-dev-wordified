@@ -265,9 +265,6 @@ log_stream_buffer
 1024
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 ss
 (

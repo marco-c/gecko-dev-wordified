@@ -1619,9 +1619,6 @@ RTCError
 error
 )
 {
-rtc
-:
-:
 StringBuilder
 oss
 ;
@@ -23606,9 +23603,6 @@ RTCErrorType
 :
 INVALID_STATE
 (
-rtc
-:
-:
 StringBuilder
 (
 "
@@ -27305,9 +27299,6 @@ RTCErrorType
 :
 INVALID_STATE
 (
-rtc
-:
-:
 StringBuilder
 (
 "
@@ -30750,9 +30741,6 @@ mid
 (
 )
 ;
-rtc
-:
-:
 StringBuilder
 sb
 ;
@@ -34912,9 +34900,6 @@ signaling_thread
 )
 )
 ;
-rtc
-:
-:
 StringBuilder
 desc
 ;
@@ -38817,9 +38802,6 @@ data_info
 rejected
 )
 {
-rtc
-:
-:
 StringBuilder
 sb
 ;

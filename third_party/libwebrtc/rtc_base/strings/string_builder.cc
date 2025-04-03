@@ -142,7 +142,7 @@ safe_minmax
 h
 "
 namespace
-rtc
+webrtc
 {
 SimpleStringBuilder
 :
@@ -972,4 +972,4 @@ this
 /
 /
 namespace
-rtc
+webrtc

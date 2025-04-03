@@ -4302,9 +4302,6 @@ VideoAdaptationCounters
 active_counts
 )
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;

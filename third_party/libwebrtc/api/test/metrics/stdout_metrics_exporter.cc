@@ -207,9 +207,6 @@ double
 value
 int
 digits_after_comma
-rtc
-:
-:
 StringBuilder
 &
 out
@@ -572,9 +569,6 @@ Metric
 metric
 )
 {
-rtc
-:
-:
 StringBuilder
 value_stream
 ;

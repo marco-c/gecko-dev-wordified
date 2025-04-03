@@ -3722,9 +3722,6 @@ SdpParseError
 error
 )
 {
-rtc
-:
-:
 StringBuilder
 description
 ;
@@ -3798,9 +3795,6 @@ SdpParseError
 error
 )
 {
-rtc
-:
-:
 StringBuilder
 description
 ;
@@ -3881,9 +3875,6 @@ SdpParseError
 error
 )
 {
-rtc
-:
-:
 StringBuilder
 description
 ;
@@ -4003,9 +3994,6 @@ SdpParseError
 error
 )
 {
-rtc
-:
-:
 StringBuilder
 description
 ;
@@ -4501,9 +4489,6 @@ absl
 :
 string_view
 value
-rtc
-:
-:
 StringBuilder
 *
 os
@@ -4556,9 +4541,6 @@ absl
 :
 string_view
 attribute
-rtc
-:
-:
 StringBuilder
 *
 os
@@ -4606,9 +4588,6 @@ string
 message
 )
 {
-rtc
-:
-:
 StringBuilder
 os
 ;
@@ -5002,9 +4981,6 @@ attribute
 <
 value
 >
-rtc
-:
-:
 StringBuilder
 os
 ;
@@ -5267,9 +5243,6 @@ IsTokenChar
 )
 )
 {
-rtc
-:
-:
 StringBuilder
 description
 ;
@@ -5412,9 +5385,6 @@ t
 )
 )
 {
-rtc
-:
-:
 StringBuilder
 description
 ;
@@ -6773,9 +6743,6 @@ connection
 address
 ]
 CRLF
-rtc
-:
-:
 StringBuilder
 os
 ;
@@ -7040,9 +7007,6 @@ unicast
 -
 address
 >
-rtc
-:
-:
 StringBuilder
 os
 ;
@@ -8507,9 +8471,6 @@ if
 is_raw
 )
 {
-rtc
-:
-:
 StringBuilder
 description
 ;
@@ -10433,9 +10394,6 @@ SctpDataContentDescription
 data_desc
 )
 {
-rtc
-:
-:
 StringBuilder
 os
 ;
@@ -10475,9 +10433,6 @@ protocol
 [
 streams
 ]
-rtc
-:
-:
 StringBuilder
 os
 ;
@@ -10649,9 +10604,6 @@ RTC_DCHECK
 transport_info
 )
 ;
-rtc
-:
-:
 StringBuilder
 os
 ;
@@ -10816,9 +10768,6 @@ RTC_DCHECK
 transport_info
 )
 ;
-rtc
-:
-:
 StringBuilder
 os
 ;
@@ -11054,9 +11003,6 @@ string
 message
 )
 {
-rtc
-:
-:
 StringBuilder
 os
 ;
@@ -11628,9 +11574,6 @@ content_info
 return
 ;
 }
-rtc
-:
-:
 StringBuilder
 os
 ;
@@ -12339,9 +12282,6 @@ message
 SimulcastSdpSerializer
 serializer
 ;
-rtc
-:
-:
 StringBuilder
 os
 ;
@@ -13674,9 +13614,6 @@ string
 message
 )
 {
-rtc
-:
-:
 StringBuilder
 os
 ;
@@ -13804,9 +13741,6 @@ WriteFmtpHeader
 (
 int
 payload_type
-rtc
-:
-:
 StringBuilder
 *
 os
@@ -13857,9 +13791,6 @@ WritePacketizationHeader
 (
 int
 payload_type
-rtc
-:
-:
 StringBuilder
 *
 os
@@ -13910,9 +13841,6 @@ WriteRtcpFbHeader
 (
 int
 payload_type
-rtc
-:
-:
 StringBuilder
 *
 os
@@ -14008,9 +13936,6 @@ absl
 :
 string_view
 parameter_value
-rtc
-:
-:
 StringBuilder
 *
 os
@@ -14159,9 +14084,6 @@ webrtc
 CodecParameterMap
 &
 parameters
-rtc
-:
-:
 StringBuilder
 *
 os
@@ -14285,9 +14207,6 @@ string
 message
 )
 {
-rtc
-:
-:
 StringBuilder
 os
 ;
@@ -14373,9 +14292,6 @@ packetization
 return
 ;
 }
-rtc
-:
-:
 StringBuilder
 os
 ;
@@ -14448,9 +14364,6 @@ params
 )
 )
 {
-rtc
-:
-:
 StringBuilder
 os
 ;
@@ -14693,9 +14606,6 @@ media_desc
 NULL
 )
 ;
-rtc
-:
-:
 StringBuilder
 os
 ;
@@ -15238,9 +15148,6 @@ RFC
 8888
 section
 6
-rtc
-:
-:
 StringBuilder
 os
 ;
@@ -15300,9 +15207,6 @@ string
 message
 )
 {
-rtc
-:
-:
 StringBuilder
 os
 ;
@@ -15974,9 +15878,6 @@ empty
 )
 )
 {
-rtc
-:
-:
 StringBuilder
 os
 ;
@@ -27105,9 +27006,6 @@ value
 )
 )
 {
-rtc
-:
-:
 StringBuilder
 description
 ;
@@ -28378,9 +28276,6 @@ clockrate
 )
 )
 {
-rtc
-:
-:
 StringBuilder
 description
 ;
@@ -28641,9 +28536,6 @@ name
 )
 )
 {
-rtc
-:
-:
 StringBuilder
 description
 ;

@@ -1944,9 +1944,6 @@ log_stream_buf
 1024
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 log_stream
 (

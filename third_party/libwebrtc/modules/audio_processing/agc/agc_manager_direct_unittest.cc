@@ -1201,9 +1201,6 @@ field_trial_buffer
 64
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 builder
 (
@@ -1274,9 +1271,6 @@ field_trial_buffer
 64
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 builder
 (

@@ -3165,9 +3165,6 @@ EchoCanceller3Config
 config
 )
 {
-rtc
-:
-:
 StringBuilder
 ost
 ;

@@ -3600,9 +3600,6 @@ filename_buffer
 256
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 ssb
 (

@@ -270,17 +270,6 @@ Candidate
 namespace
 cricket
 namespace
-rtc
-{
-class
-StringBuilder
-;
-}
-/
-/
-namespace
-rtc
-namespace
 webrtc
 {
 class
@@ -870,9 +859,6 @@ webrtc
 CodecParameterMap
 &
 parameters
-rtc
-:
-:
 StringBuilder
 *
 os

@@ -335,9 +335,6 @@ int
 counter
 )
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;

@@ -910,9 +910,6 @@ return
 "
 ;
 }
-rtc
-:
-:
 StringBuilder
 sb
 ;

@@ -3809,9 +3809,6 @@ buf
 256
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 sb
 (
@@ -4619,9 +4616,6 @@ buf
 512
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 sb
 (

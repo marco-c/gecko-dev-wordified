@@ -289,9 +289,6 @@ string_buf
 2048
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 oss
 (

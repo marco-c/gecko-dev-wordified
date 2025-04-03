@@ -140,9 +140,6 @@ buf
 64
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 sb
 (

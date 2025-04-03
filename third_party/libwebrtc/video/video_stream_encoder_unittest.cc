@@ -9667,9 +9667,6 @@ last_layers_allocation_
 =
 allocation
 ;
-rtc
-:
-:
 StringBuilder
 log
 ;

@@ -402,9 +402,6 @@ int
 number_of_sources
 )
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;

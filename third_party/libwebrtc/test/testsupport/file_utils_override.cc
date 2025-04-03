@@ -1093,9 +1093,6 @@ RTC_DCHECK
 path_opt
 )
 ;
-rtc
-:
-:
 StringBuilder
 os
 (

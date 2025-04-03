@@ -284,9 +284,6 @@ buffer
 1024
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 config_string
 (
@@ -553,9 +550,6 @@ buffer
 1024
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 config_string
 (

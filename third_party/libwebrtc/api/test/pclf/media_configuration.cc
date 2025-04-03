@@ -306,9 +306,6 @@ const
 VideoResolution
 &
 resolution
-rtc
-:
-:
 StringBuilder
 &
 builder
@@ -693,9 +690,6 @@ ToString
 )
 const
 {
-rtc
-:
-:
 StringBuilder
 out
 ;
@@ -1132,9 +1126,6 @@ resolution
 )
 const
 {
-rtc
-:
-:
 StringBuilder
 file_name
 ;
@@ -1245,9 +1236,6 @@ resolution
 )
 const
 {
-rtc
-:
-:
 StringBuilder
 file_name
 ;
@@ -1358,9 +1346,6 @@ ToString
 )
 const
 {
-rtc
-:
-:
 StringBuilder
 out
 ;
@@ -2027,9 +2012,6 @@ ToString
 )
 const
 {
-rtc
-:
-:
 StringBuilder
 out
 ;

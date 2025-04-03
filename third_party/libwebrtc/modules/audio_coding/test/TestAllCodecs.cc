@@ -2465,9 +2465,6 @@ OutputPath
 (
 )
 ;
-rtc
-:
-:
 StringBuilder
 test_number_str
 ;

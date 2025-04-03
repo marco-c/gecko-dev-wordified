@@ -3764,9 +3764,6 @@ kFlexFecEnabledFieldTrials
 )
 ;
 }
-rtc
-:
-:
 StringBuilder
 sb
 ;

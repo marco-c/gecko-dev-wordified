@@ -1387,9 +1387,6 @@ int
 sample_rate_hz
 )
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;
@@ -1520,9 +1517,6 @@ StreamDirection
 file_direction
 )
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;
@@ -17737,9 +17731,6 @@ size_t
 capture_output_num_channels
 )
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;

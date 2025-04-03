@@ -1832,9 +1832,6 @@ buf
 1024
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 oss
 (

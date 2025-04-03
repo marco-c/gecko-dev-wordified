@@ -846,9 +846,6 @@ size_t
 num_channels
 )
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;

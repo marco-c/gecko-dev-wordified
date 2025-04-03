@@ -511,9 +511,6 @@ T
 attribute
 )
 {
-rtc
-:
-:
 StringBuilder
 sb
 ;
@@ -668,9 +665,6 @@ T
 attribute
 )
 {
-rtc
-:
-:
 StringBuilder
 sb
 ;

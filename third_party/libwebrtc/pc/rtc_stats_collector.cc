@@ -680,9 +680,6 @@ buf
 1024
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 sb
 (
@@ -766,9 +763,6 @@ the
 ID
 here
 .
-rtc
-:
-:
 StringBuilder
 fmtp
 ;
@@ -828,9 +822,6 @@ buf
 4096
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 sb
 (
@@ -898,9 +889,6 @@ buf
 1024
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 sb
 (
@@ -956,9 +944,6 @@ buf
 1024
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 sb
 (
@@ -1033,9 +1018,6 @@ buf
 1024
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 sb
 (
@@ -1103,9 +1085,6 @@ buf
 1024
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 sb
 (
@@ -1170,9 +1149,6 @@ buf
 1024
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 sb
 (
@@ -1237,9 +1213,6 @@ buf
 1024
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 sb
 (
@@ -2400,9 +2373,6 @@ codec_params
 num_channels
 ;
 }
-rtc
-:
-:
 StringBuilder
 fmtp
 ;

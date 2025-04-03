@@ -173,9 +173,6 @@ ToString
 )
 const
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;
@@ -605,9 +602,6 @@ prefix
 )
 const
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;

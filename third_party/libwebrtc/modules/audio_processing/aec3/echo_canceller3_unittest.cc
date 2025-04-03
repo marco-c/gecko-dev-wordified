@@ -1184,9 +1184,6 @@ int
 sample_rate_hz
 )
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;
@@ -1222,9 +1219,6 @@ int
 variant
 )
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;

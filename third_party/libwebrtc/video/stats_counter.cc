@@ -204,9 +204,6 @@ multiplier
 )
 const
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;

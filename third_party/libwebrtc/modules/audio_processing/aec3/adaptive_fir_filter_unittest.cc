@@ -361,9 +361,6 @@ size_t
 delay
 )
 {
-rtc
-:
-:
 StringBuilder
 ss
 ;

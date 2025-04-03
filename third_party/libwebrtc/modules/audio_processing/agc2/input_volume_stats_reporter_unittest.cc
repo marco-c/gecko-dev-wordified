@@ -228,9 +228,6 @@ const
 {
 return
 (
-rtc
-:
-:
 StringBuilder
 (
 kLabelPrefix
@@ -263,9 +260,6 @@ const
 {
 return
 (
-rtc
-:
-:
 StringBuilder
 (
 kLabelPrefix
@@ -298,9 +292,6 @@ const
 {
 return
 (
-rtc
-:
-:
 StringBuilder
 (
 kLabelPrefix
@@ -333,9 +324,6 @@ const
 {
 return
 (
-rtc
-:
-:
 StringBuilder
 (
 kLabelPrefix
@@ -368,9 +356,6 @@ const
 {
 return
 (
-rtc
-:
-:
 StringBuilder
 (
 kLabelPrefix
@@ -403,9 +388,6 @@ const
 {
 return
 (
-rtc
-:
-:
 StringBuilder
 (
 kLabelPrefix
@@ -438,9 +420,6 @@ const
 {
 return
 (
-rtc
-:
-:
 StringBuilder
 (
 kLabelPrefix
