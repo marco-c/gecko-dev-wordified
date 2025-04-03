@@ -1290,9 +1290,6 @@ int
 >
 value
 =
-rtc
-:
-:
 StringToNumber
 <
 int

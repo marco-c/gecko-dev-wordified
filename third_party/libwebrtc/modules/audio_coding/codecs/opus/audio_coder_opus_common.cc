@@ -337,9 +337,6 @@ distance_to_next_comma
 auto
 conv
 =
-rtc
-:
-:
 StringToNumber
 <
 int

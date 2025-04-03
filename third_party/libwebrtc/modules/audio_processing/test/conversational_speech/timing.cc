@@ -287,9 +287,6 @@ size
 {
 gain
 =
-rtc
-:
-:
 StringToNumber
 <
 int
@@ -318,9 +315,6 @@ fields
 [
 1
 ]
-rtc
-:
-:
 StringToNumber
 <
 int

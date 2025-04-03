@@ -1158,9 +1158,6 @@ W
 :
 width
 =
-rtc
-:
-:
 StringToNumber
 <
 int
@@ -1178,9 +1175,6 @@ H
 :
 height
 =
-rtc
-:
-:
 StringToNumber
 <
 int
@@ -1301,9 +1295,6 @@ int
 >
 numerator
 =
-rtc
-:
-:
 StringToNumber
 <
 int
@@ -1325,9 +1316,6 @@ int
 >
 denominator
 =
-rtc
-:
-:
 StringToNumber
 <
 int

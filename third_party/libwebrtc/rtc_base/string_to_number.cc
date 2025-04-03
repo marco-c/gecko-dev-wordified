@@ -118,7 +118,7 @@ checks
 h
 "
 namespace
-rtc
+webrtc
 {
 namespace
 string_to_number_internal
@@ -794,4 +794,4 @@ string_to_number_internal
 /
 /
 namespace
-rtc
+webrtc

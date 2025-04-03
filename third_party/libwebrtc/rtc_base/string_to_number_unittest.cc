@@ -134,7 +134,7 @@ gtest
 h
 "
 namespace
-rtc
+webrtc
 {
 namespace
 {
@@ -1354,4 +1354,4 @@ int8_t
 /
 /
 namespace
-rtc
+webrtc

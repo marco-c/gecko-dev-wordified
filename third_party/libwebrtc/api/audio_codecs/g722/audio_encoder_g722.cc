@@ -355,9 +355,6 @@ end
 auto
 ptime
 =
-rtc
-:
-:
 StringToNumber
 <
 int
