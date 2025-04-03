@@ -50430,9 +50430,6 @@ cpi
 )
 ;
 {
-#
-if
-CONFIG_INTERNAL_STATS
 struct
 vpx_usec_timer
 emr_timer
@@ -50443,8 +50440,6 @@ vpx_usec_timer_start
 emr_timer
 )
 ;
-#
-endif
 if
 (
 !
@@ -50548,9 +50543,6 @@ cpi
 )
 ;
 }
-#
-if
-CONFIG_INTERNAL_STATS
 vpx_usec_timer_mark
 (
 &
@@ -50569,8 +50561,6 @@ vpx_usec_timer_elapsed
 emr_timer
 )
 ;
-#
-endif
 }
 sf
 -

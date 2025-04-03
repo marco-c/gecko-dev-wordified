@@ -2311,9 +2311,6 @@ fn_ptr
 BLOCK_MAX_SEGMENTS
 ]
 ;
-#
-if
-CONFIG_INTERNAL_STATS
 uint64_t
 time_receive_data
 ;
@@ -2326,8 +2323,6 @@ time_pick_lpf
 uint64_t
 time_encode_mb_row
 ;
-#
-endif
 int
 base_skip_false_prob
 [
