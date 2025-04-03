@@ -1220,6 +1220,19 @@ asyncio
 TimeoutError
 :
             
+#
+Cancel
+the
+original
+future
+.
+            
+future
+.
+cancel
+(
+)
+            
 raise
 TimeoutException
 (
