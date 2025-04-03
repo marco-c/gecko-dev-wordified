@@ -3679,10 +3679,6 @@ strip
 .
 split
 (
-"
-\
-n
-"
 )
             
 name
