@@ -1158,7 +1158,7 @@ return
 frame
 -
 >
-IsHiddenUntilFound
+IsHiddenUntilFoundOrClosedDetails
 (
 )
 ;
@@ -6866,6 +6866,13 @@ startParent
 )
 MOZ_CAN_RUN_SCRIPT_BOUNDARY_LAMBDA
 {
+node
+-
+>
+RevealAncestorClosedDetails
+(
+)
+;
 node
 -
 >
