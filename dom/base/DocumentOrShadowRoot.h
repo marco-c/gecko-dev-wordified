@@ -1198,10 +1198,9 @@ Element
 *
 LookupImageElement
 (
-const
-nsAString
-&
-aElementId
+nsAtom
+*
+aId
 )
 ;
 /
