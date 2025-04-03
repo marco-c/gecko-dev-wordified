@@ -1405,7 +1405,6 @@ this
 )
 ;
 }
-virtual
 ~
 ProfilerCounter
 (
@@ -1530,7 +1529,6 @@ Register
 )
 ;
 }
-virtual
 ~
 ProfilerCounterTotal
 (
