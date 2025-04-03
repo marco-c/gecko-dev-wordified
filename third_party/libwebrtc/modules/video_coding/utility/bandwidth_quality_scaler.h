@@ -350,9 +350,7 @@ encoded_height
 /
 /
 We
-prioritise
-to
-using
+prioritize
 the
 |
 resolution_bitrate_limits
@@ -363,7 +361,7 @@ the
 /
 /
 current
-decoder
+encoder
 .
 If
 not
@@ -397,6 +395,8 @@ ResolutionBitrateLimits
 >
 &
 resolution_bitrate_limits
+VideoCodecType
+codec_type
 )
 ;
 private

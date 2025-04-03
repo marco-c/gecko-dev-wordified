@@ -248,6 +248,8 @@ ResolutionBitrateLimits
 >
 &
 resolution_bitrate_limits
+VideoCodecType
+codec_type
 )
 {
 RTC_DCHECK_RUN_ON
@@ -312,6 +314,7 @@ bandwidth_quality_scaler_
 SetResolutionBitrateLimits
 (
 resolution_bitrate_limits
+codec_type
 )
 ;
 }
