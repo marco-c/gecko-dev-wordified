@@ -277,16 +277,6 @@ Time
 "
 )
 ;
-pref
-(
-"
-security
-.
-remember_cert_checkbox_default_setting
-"
-true
-)
-;
 /
 /
 This
