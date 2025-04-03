@@ -171,8 +171,8 @@ nsMediaEventRunner
 nsMediaEventRunner
 (
 const
-nsAString
-&
+char
+*
 aName
 HTMLMediaElement
 *
@@ -897,11 +897,9 @@ aError
 :
 nsMediaEventRunner
 (
-u
 "
 nsResolveOrRejectPendingPlayPromisesRunner
 "
-_ns
 aElement
 )
 mPromises
