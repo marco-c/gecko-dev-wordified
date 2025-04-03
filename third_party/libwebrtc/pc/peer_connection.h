@@ -5172,9 +5172,6 @@ in
 the
 class
 .
-rtc
-:
-:
 WeakPtrFactory
 <
 PeerConnection

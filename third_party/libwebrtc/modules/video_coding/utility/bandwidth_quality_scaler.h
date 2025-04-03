@@ -498,9 +498,6 @@ RTC_GUARDED_BY
 task_checker_
 )
 ;
-rtc
-:
-:
 WeakPtrFactory
 <
 BandwidthQualityScaler

@@ -1040,9 +1040,6 @@ previous_task_result_
 Result
 result_
 ;
-rtc
-:
-:
 WeakPtrFactory
 <
 CheckQpTask

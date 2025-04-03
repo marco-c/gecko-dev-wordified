@@ -9127,9 +9127,6 @@ public
 :
 ImplicitCreateSessionDescriptionObserver
 (
-rtc
-:
-:
 WeakPtr
 <
 SdpOfferAnswerHandler
@@ -9382,9 +9379,6 @@ was_called_
 =
 false
 ;
-rtc
-:
-:
 WeakPtr
 <
 SdpOfferAnswerHandler
@@ -9915,9 +9909,6 @@ public
 :
 SetSessionDescriptionObserverAdapter
 (
-rtc
-:
-:
 WeakPtr
 <
 SdpOfferAnswerHandler
@@ -10082,9 +10073,6 @@ error
 ;
 }
 }
-rtc
-:
-:
 WeakPtr
 <
 SdpOfferAnswerHandler

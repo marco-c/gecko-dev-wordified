@@ -5143,9 +5143,6 @@ signaling_thread
 )
 )
 ;
-rtc
-:
-:
 WeakPtrFactory
 <
 SdpOfferAnswerHandler

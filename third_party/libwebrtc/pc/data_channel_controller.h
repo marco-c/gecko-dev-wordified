@@ -1161,9 +1161,6 @@ network
 thread
 only
 .
-rtc
-:
-:
 WeakPtrFactory
 <
 DataChannelController

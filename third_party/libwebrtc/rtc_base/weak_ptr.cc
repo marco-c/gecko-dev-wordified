@@ -110,7 +110,7 @@ implement
 SupportsWeakPtr
 .
 namespace
-rtc
+webrtc
 {
 namespace
 internal
@@ -392,4 +392,4 @@ internal
 /
 /
 namespace
-rtc
+webrtc

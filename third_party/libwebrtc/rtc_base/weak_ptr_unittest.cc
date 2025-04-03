@@ -129,7 +129,7 @@ gtest
 h
 "
 namespace
-rtc
+webrtc
 {
 namespace
 {
@@ -1234,9 +1234,6 @@ T
 >
 obj
 ;
-webrtc
-:
-:
 TaskQueueForTest
 queue
 (
@@ -1459,9 +1456,6 @@ GetWeakPtr
 (
 )
 ;
-webrtc
-:
-:
 TaskQueueForTest
 queue
 (
@@ -1516,4 +1510,4 @@ reset
 /
 /
 namespace
-rtc
+webrtc
