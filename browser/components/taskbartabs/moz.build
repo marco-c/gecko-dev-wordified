@@ -86,6 +86,8 @@ MPL
 /
 .
 EXTRA_JS_MODULES
+.
+taskbartabs
 +
 =
 [
