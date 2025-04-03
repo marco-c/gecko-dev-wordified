@@ -130,7 +130,7 @@ testing
 Eq
 ;
 namespace
-rtc
+webrtc
 {
 TEST
 (
@@ -613,4 +613,4 @@ Eq
 /
 /
 namespace
-rtc
+webrtc

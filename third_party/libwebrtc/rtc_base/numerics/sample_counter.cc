@@ -132,7 +132,7 @@ safe_conversions
 h
 "
 namespace
-rtc
+webrtc
 {
 SampleCounter
 :
@@ -805,4 +805,4 @@ this
 /
 /
 namespace
-rtc
+webrtc

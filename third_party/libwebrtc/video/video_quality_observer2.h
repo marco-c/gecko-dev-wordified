@@ -407,15 +407,9 @@ inter
 frame
 delay
 .
-rtc
-:
-:
 SampleCounter
 freezes_durations_
 ;
-rtc
-:
-:
 SampleCounter
 pauses_durations_
 ;
@@ -425,9 +419,6 @@ Time
 between
 freezes
 .
-rtc
-:
-:
 SampleCounter
 smooth_playback_durations_
 ;
