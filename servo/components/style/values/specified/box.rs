@@ -7882,6 +7882,7 @@ Clone
 Copy
 Debug
 Eq
+FromPrimitive
 MallocSizeOf
 Parse
 PartialEq
