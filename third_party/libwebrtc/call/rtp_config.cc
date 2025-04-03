@@ -2164,6 +2164,12 @@ rtx
 .
 emplace
 (
+RtpStreamConfig
+:
+:
+Rtx
+(
+)
 )
 ;
 stream_config_rtx
