@@ -7839,9 +7839,7 @@ MediaSessionDescriptionFactoryTest
 TestBundleOfferWithSameCodecPlType
 )
 {
-const
 Codec
-&
 offered_video_codec
 =
 f2_
@@ -7858,9 +7856,7 @@ video_sendrecv_codecs
 0
 ]
 ;
-const
 Codec
-&
 offered_audio_codec
 =
 f2_
