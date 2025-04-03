@@ -399,7 +399,7 @@ args
 /
 namespace
 namespace
-rtc
+webrtc
 {
 namespace
 webrtc_checks_impl
@@ -1459,7 +1459,7 @@ webrtc_checks_impl
 /
 /
 namespace
-rtc
+webrtc
 /
 /
 Function
@@ -1497,7 +1497,7 @@ if
 RTC_CHECK_MSG_ENABLED
 static
 constexpr
-rtc
+webrtc
 :
 :
 webrtc_checks_impl
@@ -1509,7 +1509,7 @@ t
 ]
 =
 {
-rtc
+webrtc
 :
 :
 webrtc_checks_impl
@@ -1521,7 +1521,7 @@ CheckArgType
 kEnd
 }
 ;
-rtc
+webrtc
 :
 :
 webrtc_checks_impl
@@ -1537,7 +1537,7 @@ t
 ;
 #
 else
-rtc
+webrtc
 :
 :
 webrtc_checks_impl
