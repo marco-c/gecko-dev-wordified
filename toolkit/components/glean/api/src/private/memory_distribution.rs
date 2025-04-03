@@ -85,10 +85,10 @@ super
 :
 :
 {
+BaseMetricId
 CommonMetricData
 DistributionData
 MemoryUnit
-MetricGetter
 MetricId
 }
 ;
@@ -227,7 +227,7 @@ ID
 .
 id
 :
-MetricGetter
+MetricId
 inner
 :
 Arc
@@ -259,7 +259,7 @@ struct
 MemoryDistributionMetricIpc
 (
 pub
-MetricId
+BaseMetricId
 )
 ;
 impl
@@ -281,7 +281,7 @@ new
 (
 id
 :
-MetricId
+BaseMetricId
 meta
 :
 CommonMetricData
@@ -447,7 +447,7 @@ MemoryDistributionMetricIpc
 id
 )
 .
-metric_id
+base_metric_id
 (
 )
 .
@@ -505,7 +505,7 @@ self
 )
 -
 >
-MetricGetter
+MetricId
 {
 match
 self
@@ -689,7 +689,7 @@ samples
 }
 )
 ;
-MetricGetter
+MetricId
 :
 :
 Id
@@ -1269,7 +1269,7 @@ sample
 }
 )
 ;
-MetricGetter
+MetricId
 :
 :
 Id
@@ -1761,7 +1761,7 @@ MemoryDistributionMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 0
 )

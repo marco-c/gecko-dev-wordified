@@ -67,8 +67,8 @@ super
 :
 :
 {
+BaseMetricId
 CommonMetricData
-MetricId
 TimeUnit
 }
 ;
@@ -159,7 +159,7 @@ TimespanMetricMarker
 {
 id
 :
-MetricId
+BaseMetricId
 value
 :
 Option
@@ -625,7 +625,7 @@ we
 only
 store
 a
-MetricId
+BaseMetricId
 .
 If
 this
@@ -639,7 +639,7 @@ be
 changed
 to
 a
-MetricGetter
+MetricId
 to
 distinguish
 /
@@ -654,7 +654,7 @@ metrics
 .
 id
 :
-MetricId
+BaseMetricId
 inner
 :
 glean
@@ -688,7 +688,7 @@ new
 (
 id
 :
-MetricId
+BaseMetricId
 meta
 :
 CommonMetricData
@@ -2405,7 +2405,7 @@ crate
 private
 :
 :
-MetricId
+BaseMetricId
 ;
 use
 crate
@@ -2444,7 +2444,7 @@ TimespanMetric
 :
 new
 (
-MetricId
+BaseMetricId
 (
 0
 )

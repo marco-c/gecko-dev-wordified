@@ -96,7 +96,7 @@ crate
 private
 :
 :
-MetricId
+BaseMetricId
 ;
 /
 /
@@ -194,7 +194,7 @@ we
 only
 store
 a
-MetricId
+BaseMetricId
 .
 If
 this
@@ -208,7 +208,7 @@ be
 changed
 to
 a
-MetricGetter
+MetricId
 to
 distinguish
 /
@@ -223,7 +223,7 @@ metrics
 .
 id
 :
-MetricId
+BaseMetricId
 inner
 :
 glean
@@ -251,7 +251,7 @@ pub
 struct
 RateMetricIpc
 (
-MetricId
+BaseMetricId
 )
 ;
 impl
@@ -275,7 +275,7 @@ new
 (
 id
 :
-MetricId
+BaseMetricId
 meta
 :
 CommonMetricData
@@ -348,7 +348,7 @@ self
 )
 -
 >
-MetricId
+BaseMetricId
 {
 match
 self

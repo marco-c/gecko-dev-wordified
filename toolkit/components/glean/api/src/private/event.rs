@@ -76,8 +76,8 @@ super
 :
 :
 {
+BaseMetricId
 CommonMetricData
-MetricId
 RecordedEvent
 }
 ;
@@ -167,7 +167,7 @@ EventMetricMarker
 {
 id
 :
-MetricId
+BaseMetricId
 extra
 :
 HashMap
@@ -602,7 +602,7 @@ we
 only
 store
 a
-MetricId
+BaseMetricId
 .
 If
 this
@@ -616,7 +616,7 @@ be
 changed
 to
 a
-MetricGetter
+MetricId
 to
 distinguish
 /
@@ -631,7 +631,7 @@ metrics
 .
 id
 :
-MetricId
+BaseMetricId
 inner
 :
 glean
@@ -661,7 +661,7 @@ pub
 struct
 EventMetricIpc
 (
-MetricId
+BaseMetricId
 )
 ;
 impl
@@ -699,7 +699,7 @@ new
 (
 id
 :
-MetricId
+BaseMetricId
 meta
 :
 CommonMetricData
@@ -759,7 +759,7 @@ with_runtime_extra_keys
 (
 id
 :
-MetricId
+BaseMetricId
 meta
 :
 CommonMetricData
@@ -1680,7 +1680,7 @@ NoExtraKeys
 :
 new
 (
-MetricId
+BaseMetricId
 (
 0
 )

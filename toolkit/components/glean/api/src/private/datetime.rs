@@ -67,8 +67,8 @@ super
 :
 :
 {
+BaseMetricId
 CommonMetricData
-MetricId
 }
 ;
 use
@@ -159,7 +159,7 @@ DatetimeMetricMarker
 {
 id
 :
-MetricId
+BaseMetricId
 time
 :
 chrono
@@ -808,7 +808,7 @@ only
 /
 store
 a
-MetricId
+BaseMetricId
 .
 If
 this
@@ -822,7 +822,7 @@ a
 /
 /
 /
-MetricGetter
+MetricId
 to
 distinguish
 between
@@ -834,7 +834,7 @@ metrics
 .
 id
 :
-MetricId
+BaseMetricId
 inner
 :
 glean
@@ -880,7 +880,7 @@ new
 (
 id
 :
-MetricId
+BaseMetricId
 meta
 :
 CommonMetricData

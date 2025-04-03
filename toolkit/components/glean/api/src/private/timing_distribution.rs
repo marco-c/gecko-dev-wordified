@@ -133,8 +133,8 @@ super
 :
 :
 {
+BaseMetricId
 CommonMetricData
-MetricGetter
 MetricId
 TimeUnit
 }
@@ -359,7 +359,7 @@ TimingDistributionMetricMarker
 {
 id
 :
-MetricGetter
+MetricId
 label
 :
 Option
@@ -399,7 +399,7 @@ new
 (
 id
 :
-MetricGetter
+MetricId
 label
 :
 Option
@@ -1214,7 +1214,7 @@ ID
 .
 id
 :
-MetricGetter
+MetricId
 gifft_time_unit
 :
 TimeUnit
@@ -1249,7 +1249,7 @@ TimingDistributionMetricIpc
 {
 metric_id
 :
-MetricId
+BaseMetricId
 #
 [
 allow
@@ -1299,7 +1299,7 @@ new_child
 (
 id
 :
-MetricId
+BaseMetricId
 time_unit
 :
 TimeUnit
@@ -1371,7 +1371,7 @@ new
 (
 id
 :
-MetricId
+BaseMetricId
 meta
 :
 CommonMetricData
@@ -1541,7 +1541,7 @@ metric_id
 id
 )
 .
-metric_id
+base_metric_id
 (
 )
 .
@@ -2576,7 +2576,7 @@ Parent
 id
 :
 id
-MetricGetter
+MetricId
 :
 :
 Id
@@ -2795,7 +2795,7 @@ Parent
 id
 :
 id
-MetricGetter
+MetricId
 :
 :
 Id
@@ -3096,7 +3096,7 @@ with_gecko
 let
 metric_id
 :
-MetricId
+BaseMetricId
 =
 match
 self
@@ -3114,7 +3114,7 @@ id
 >
 id
 .
-metric_id
+base_metric_id
 (
 )
 .
@@ -3535,7 +3535,7 @@ gifft_time_unit
 (
 id
 .
-metric_id
+base_metric_id
 (
 )
 .
@@ -3815,7 +3815,7 @@ with_gecko
 let
 metric_id
 :
-MetricId
+BaseMetricId
 =
 match
 self
@@ -3833,7 +3833,7 @@ id
 >
 id
 .
-metric_id
+base_metric_id
 (
 )
 .
@@ -4334,7 +4334,7 @@ id
 >
 id
 .
-metric_id
+base_metric_id
 (
 )
 .
@@ -4541,7 +4541,7 @@ Parent
 id
 :
 id
-MetricGetter
+MetricId
 :
 :
 Id
@@ -4741,7 +4741,7 @@ id
 >
 id
 .
-metric_id
+base_metric_id
 (
 )
 .
@@ -5040,7 +5040,7 @@ gifft_time_unit
 (
 id
 .
-metric_id
+base_metric_id
 (
 )
 .

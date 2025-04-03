@@ -102,7 +102,7 @@ use
 super
 :
 :
-MetricId
+BaseMetricId
 ;
 #
 [
@@ -115,7 +115,7 @@ use
 super
 :
 :
-MetricGetter
+MetricId
 ;
 /
 /
@@ -190,7 +190,7 @@ UnorderedChild
 {
 id
 :
-MetricId
+BaseMetricId
 label
 :
 String
@@ -218,7 +218,7 @@ self
 )
 -
 >
-MetricGetter
+MetricId
 {
 match
 self
@@ -1047,7 +1047,7 @@ metric_id
 (
 )
 .
-metric_id
+base_metric_id
 (
 )
 .
@@ -1060,7 +1060,7 @@ IPC
 calls
 without
 a
-MetricId
+BaseMetricId
 "
 )
 ;

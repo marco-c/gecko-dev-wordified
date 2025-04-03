@@ -103,7 +103,7 @@ crate
 private
 :
 :
-MetricGetter
+MetricId
 ;
 use
 crate
@@ -113,8 +113,8 @@ private
 :
 :
 {
+BaseMetricId
 CounterMetric
-MetricId
 }
 ;
 use
@@ -199,7 +199,7 @@ Child
 {
 id
 :
-MetricId
+BaseMetricId
 label
 :
 String
@@ -224,7 +224,7 @@ new
 (
 id
 :
-MetricId
+BaseMetricId
 meta
 :
 CommonMetricData
@@ -287,7 +287,7 @@ self
 )
 -
 >
-MetricGetter
+MetricId
 {
 match
 self
@@ -1217,7 +1217,7 @@ metric_id
 (
 )
 .
-metric_id
+base_metric_id
 (
 )
 .
@@ -1230,7 +1230,7 @@ IPC
 calls
 without
 a
-MetricId
+BaseMetricId
 "
 )
 ;

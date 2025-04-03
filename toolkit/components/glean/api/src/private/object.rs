@@ -61,8 +61,8 @@ super
 :
 :
 {
+BaseMetricId
 CommonMetricData
-MetricId
 }
 ;
 use
@@ -137,7 +137,7 @@ ObjectMetricMarker
 {
 id
 :
-MetricId
+BaseMetricId
 value
 :
 String
@@ -529,7 +529,7 @@ we
 only
 store
 a
-MetricId
+BaseMetricId
 .
 If
 this
@@ -543,7 +543,7 @@ be
 changed
 to
 a
-MetricGetter
+MetricId
 to
 distinguish
 /
@@ -558,7 +558,7 @@ metrics
 .
 id
 :
-MetricId
+BaseMetricId
 inner
 :
 glean
@@ -602,7 +602,7 @@ new
 (
 id
 :
-MetricId
+BaseMetricId
 meta
 :
 CommonMetricData

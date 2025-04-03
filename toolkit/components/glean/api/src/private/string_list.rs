@@ -67,8 +67,8 @@ super
 :
 :
 {
+BaseMetricId
 CommonMetricData
-MetricId
 }
 ;
 use
@@ -162,7 +162,7 @@ we
 only
 store
 a
-MetricId
+BaseMetricId
 .
 If
 /
@@ -176,7 +176,7 @@ be
 changed
 to
 a
-MetricGetter
+MetricId
 to
 /
 /
@@ -191,7 +191,7 @@ metrics
 .
 id
 :
-MetricId
+BaseMetricId
 inner
 :
 glean
@@ -219,7 +219,7 @@ pub
 struct
 StringListMetricIpc
 (
-MetricId
+BaseMetricId
 )
 ;
 impl
@@ -241,7 +241,7 @@ new
 (
 id
 :
-MetricId
+BaseMetricId
 meta
 :
 CommonMetricData

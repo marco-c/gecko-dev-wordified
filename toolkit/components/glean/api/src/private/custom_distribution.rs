@@ -76,8 +76,8 @@ super
 :
 :
 {
+BaseMetricId
 CommonMetricData
-MetricGetter
 MetricId
 }
 ;
@@ -220,7 +220,7 @@ ID
 .
 id
 :
-MetricGetter
+MetricId
 inner
 :
 Arc
@@ -252,7 +252,7 @@ struct
 CustomDistributionMetricIpc
 (
 pub
-MetricId
+BaseMetricId
 )
 ;
 impl
@@ -274,7 +274,7 @@ new
 (
 id
 :
-MetricId
+BaseMetricId
 meta
 :
 CommonMetricData
@@ -377,7 +377,7 @@ self
 )
 -
 >
-MetricGetter
+MetricId
 {
 match
 self
@@ -504,7 +504,7 @@ CustomDistributionMetricIpc
 (
 id
 .
-metric_id
+base_metric_id
 (
 )
 .
@@ -891,7 +891,7 @@ samples
 }
 )
 ;
-MetricGetter
+MetricId
 :
 :
 Id
@@ -1056,7 +1056,7 @@ sample
 }
 )
 ;
-MetricGetter
+MetricId
 :
 :
 Id

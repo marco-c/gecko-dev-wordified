@@ -96,7 +96,7 @@ crate
 private
 :
 :
-MetricId
+BaseMetricId
 ;
 /
 /
@@ -209,7 +209,7 @@ a
 /
 /
 /
-MetricId
+BaseMetricId
 .
 If
 this
@@ -223,7 +223,7 @@ a
 /
 /
 /
-MetricGetter
+MetricId
 to
 distinguish
 between
@@ -235,7 +235,7 @@ metrics
 .
 id
 :
-MetricId
+BaseMetricId
 inner
 :
 glean
@@ -263,7 +263,7 @@ pub
 struct
 DenominatorMetricIpc
 (
-MetricId
+BaseMetricId
 )
 ;
 impl
@@ -286,7 +286,7 @@ new
 (
 id
 :
-MetricId
+BaseMetricId
 meta
 :
 CommonMetricData
@@ -366,7 +366,7 @@ self
 )
 -
 >
-MetricId
+BaseMetricId
 {
 match
 self

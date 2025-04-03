@@ -85,8 +85,8 @@ super
 :
 :
 {
+BaseMetricId
 CommonMetricData
-MetricGetter
 MetricId
 }
 ;
@@ -179,7 +179,7 @@ ID
 .
 id
 :
-MetricGetter
+MetricId
 inner
 :
 Arc
@@ -199,7 +199,7 @@ BooleanMetricIpc
 )
 UnorderedChild
 (
-MetricId
+BaseMetricId
 )
 }
 #
@@ -232,7 +232,7 @@ new
 (
 id
 :
-MetricId
+BaseMetricId
 meta
 :
 CommonMetricData
@@ -298,7 +298,7 @@ with_unordered_ipc
 (
 id
 :
-MetricId
+BaseMetricId
 meta
 :
 CommonMetricData
@@ -351,7 +351,7 @@ self
 )
 -
 >
-MetricGetter
+MetricId
 {
 match
 self

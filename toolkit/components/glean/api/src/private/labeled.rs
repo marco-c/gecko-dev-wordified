@@ -67,6 +67,7 @@ super
 :
 :
 {
+BaseMetricId
 ErrorType
 LabeledBooleanMetric
 LabeledCounterMetric
@@ -76,7 +77,6 @@ LabeledMetricData
 LabeledQuantityMetric
 LabeledStringMetric
 LabeledTimingDistributionMetric
-MetricId
 SubMetricId
 }
 ;
@@ -169,6 +169,7 @@ super
 {
 need_ipc
 submetric_maps
+BaseMetricId
 LabeledBooleanMetric
 LabeledCounterMetric
 LabeledCustomDistributionMetric
@@ -176,7 +177,6 @@ LabeledMemoryDistributionMetric
 LabeledQuantityMetric
 LabeledStringMetric
 LabeledTimingDistributionMetric
-MetricId
 SubMetricId
 }
 ;
@@ -276,7 +276,7 @@ from_glean_metric
 (
 id
 :
-MetricId
+BaseMetricId
 metric
 :
 &
@@ -317,7 +317,7 @@ submetric_id_for
 (
 id
 :
-MetricId
+BaseMetricId
 label
 :
 &
@@ -472,7 +472,7 @@ from_glean_metric
 (
 id
 :
-MetricId
+BaseMetricId
 metric
 :
 &
@@ -720,7 +720,7 @@ from_glean_metric
 (
 id
 :
-MetricId
+BaseMetricId
 metric
 :
 &
@@ -947,7 +947,7 @@ from_glean_metric
 (
 id
 :
-MetricId
+BaseMetricId
 metric
 :
 &
@@ -1177,7 +1177,7 @@ from_glean_metric
 (
 id
 :
-MetricId
+BaseMetricId
 metric
 :
 &
@@ -1407,7 +1407,7 @@ from_glean_metric
 (
 id
 :
-MetricId
+BaseMetricId
 metric
 :
 &
@@ -1637,7 +1637,7 @@ from_glean_metric
 (
 id
 :
-MetricId
+BaseMetricId
 metric
 :
 &
@@ -1919,7 +1919,7 @@ from_glean_metric
 (
 id
 :
-MetricId
+BaseMetricId
 metric
 :
 &
@@ -2448,7 +2448,7 @@ metric
 .
 id
 :
-MetricId
+BaseMetricId
 /
 /
 /
@@ -2599,7 +2599,7 @@ new
 (
 id
 :
-MetricId
+BaseMetricId
 meta
 :
 LabeledMetricData
@@ -2662,7 +2662,7 @@ with_unordered_ipc
 (
 id
 :
-MetricId
+BaseMetricId
 meta
 :
 LabeledMetricData

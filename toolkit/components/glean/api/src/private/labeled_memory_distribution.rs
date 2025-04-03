@@ -88,9 +88,9 @@ private
 :
 :
 {
+BaseMetricId
 DistributionData
 MemoryDistributionMetric
-MetricId
 }
 ;
 use
@@ -205,7 +205,7 @@ Child
 {
 id
 :
-MetricId
+BaseMetricId
 label
 :
 String
@@ -239,7 +239,7 @@ crate
 private
 :
 :
-MetricGetter
+MetricId
 {
 match
 self
@@ -1188,7 +1188,7 @@ metric_id
 (
 )
 .
-metric_id
+base_metric_id
 (
 )
 .
@@ -1201,7 +1201,7 @@ IPC
 calls
 without
 a
-MetricId
+BaseMetricId
 "
 )
 )

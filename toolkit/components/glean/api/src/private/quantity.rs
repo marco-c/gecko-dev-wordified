@@ -91,7 +91,7 @@ super
 :
 :
 {
-MetricGetter
+BaseMetricId
 MetricId
 }
 ;
@@ -183,7 +183,7 @@ ID
 .
 id
 :
-MetricGetter
+MetricId
 inner
 :
 Arc
@@ -232,7 +232,7 @@ new
 (
 id
 :
-MetricId
+BaseMetricId
 meta
 :
 CommonMetricData

@@ -70,7 +70,7 @@ crate
 private
 :
 :
-MetricId
+BaseMetricId
 ;
 use
 once_cell
@@ -248,7 +248,7 @@ booleans
 :
 HashMap
 <
-MetricId
+BaseMetricId
 bool
 >
 pub
@@ -256,7 +256,7 @@ labeled_booleans
 :
 HashMap
 <
-MetricId
+BaseMetricId
 HashMap
 <
 String
@@ -268,7 +268,7 @@ counters
 :
 HashMap
 <
-MetricId
+BaseMetricId
 i32
 >
 pub
@@ -276,7 +276,7 @@ custom_samples
 :
 HashMap
 <
-MetricId
+BaseMetricId
 Vec
 <
 i64
@@ -287,7 +287,7 @@ labeled_custom_samples
 :
 HashMap
 <
-MetricId
+BaseMetricId
 HashMap
 <
 String
@@ -302,7 +302,7 @@ denominators
 :
 HashMap
 <
-MetricId
+BaseMetricId
 i32
 >
 pub
@@ -310,7 +310,7 @@ events
 :
 HashMap
 <
-MetricId
+BaseMetricId
 Vec
 <
 EventRecord
@@ -321,7 +321,7 @@ labeled_counters
 :
 HashMap
 <
-MetricId
+BaseMetricId
 HashMap
 <
 String
@@ -333,7 +333,7 @@ memory_samples
 :
 HashMap
 <
-MetricId
+BaseMetricId
 Vec
 <
 u64
@@ -344,7 +344,7 @@ labeled_memory_samples
 :
 HashMap
 <
-MetricId
+BaseMetricId
 HashMap
 <
 String
@@ -359,7 +359,7 @@ numerators
 :
 HashMap
 <
-MetricId
+BaseMetricId
 i32
 >
 pub
@@ -367,7 +367,7 @@ rates
 :
 HashMap
 <
-MetricId
+BaseMetricId
 (
 i32
 i32
@@ -378,7 +378,7 @@ string_lists
 :
 HashMap
 <
-MetricId
+BaseMetricId
 Vec
 <
 String
@@ -389,7 +389,7 @@ timing_samples
 :
 HashMap
 <
-MetricId
+BaseMetricId
 Vec
 <
 u64
@@ -400,7 +400,7 @@ labeled_timing_samples
 :
 HashMap
 <
-MetricId
+BaseMetricId
 HashMap
 <
 String
