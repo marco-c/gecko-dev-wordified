@@ -136,6 +136,11 @@ MmapFaultHandler
 h
 "
 "
+Now
+.
+h
+"
+"
 PlatformConditionVariable
 .
 h
@@ -281,6 +286,11 @@ cpp
 "
 "
 MmapFaultHandler
+.
+cpp
+"
+"
+Now
 .
 cpp
 "
