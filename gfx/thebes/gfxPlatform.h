@@ -575,7 +575,7 @@ glyph
 .
 enum
 class
-eFontPresentation
+FontPresentation
 :
 uint8_t
 {
@@ -695,7 +695,7 @@ inline
 bool
 PrefersColor
 (
-eFontPresentation
+FontPresentation
 aPresentation
 )
 {
@@ -703,7 +703,7 @@ return
 aPresentation
 >
 =
-eFontPresentation
+FontPresentation
 :
 :
 EmojiDefault
@@ -3178,7 +3178,7 @@ Script
 aRunScript
 *
 /
-eFontPresentation
+FontPresentation
 /
 *
 aPresentation

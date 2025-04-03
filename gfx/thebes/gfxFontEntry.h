@@ -349,7 +349,7 @@ gfxFontStyle
 ;
 enum
 class
-eFontPresentation
+FontPresentation
 :
 uint8_t
 ;
@@ -7224,7 +7224,7 @@ const
 gfxFontStyle
 &
 aStyle
-eFontPresentation
+FontPresentation
 aPresentation
 )
 :
@@ -7314,7 +7314,7 @@ codepoint
 or
 zero
 )
-eFontPresentation
+FontPresentation
 mPresentation
 ;
 uint32_t

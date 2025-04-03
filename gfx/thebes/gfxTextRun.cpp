@@ -13264,7 +13264,7 @@ Text
 :
 mEmojiPresentation
 =
-eFontPresentation
+FontPresentation
 :
 :
 TextExplicit
@@ -13279,7 +13279,7 @@ Emoji
 :
 mEmojiPresentation
 =
-eFontPresentation
+FontPresentation
 :
 :
 EmojiExplicit
@@ -21760,7 +21760,7 @@ uint32_t
 aCh
 uint32_t
 aNextCh
-eFontPresentation
+FontPresentation
 aPresentation
 )
 {
@@ -21830,7 +21830,7 @@ uint32_t
 aCh
 uint32_t
 aNextCh
-eFontPresentation
+FontPresentation
 aPresentation
 )
 {
@@ -21992,7 +21992,7 @@ uint32_t
 aCh
 uint32_t
 aNextCh
-eFontPresentation
+FontPresentation
 aPresentation
 )
 {
@@ -22958,10 +22958,10 @@ a
 suitable
 font
 .
-eFontPresentation
+FontPresentation
 presentation
 =
-eFontPresentation
+FontPresentation
 :
 :
 Any
@@ -23030,7 +23030,7 @@ if
 presentation
 =
 =
-eFontPresentation
+FontPresentation
 :
 :
 Any
@@ -23049,7 +23049,7 @@ TextDefault
 {
 presentation
 =
-eFontPresentation
+FontPresentation
 :
 :
 TextDefault
@@ -23059,7 +23059,7 @@ else
 {
 presentation
 =
-eFontPresentation
+FontPresentation
 :
 :
 EmojiDefault
@@ -23204,7 +23204,7 @@ codepoint
 .
 presentation
 =
-eFontPresentation
+FontPresentation
 :
 :
 EmojiExplicit
@@ -23229,7 +23229,7 @@ requested
 .
 presentation
 =
-eFontPresentation
+FontPresentation
 :
 :
 TextExplicit
@@ -23257,7 +23257,7 @@ nextIsVarSelector
 presentation
 =
 =
-eFontPresentation
+FontPresentation
 :
 :
 Any
@@ -23816,7 +23816,7 @@ if
 presentation
 =
 =
-eFontPresentation
+FontPresentation
 :
 :
 Any
@@ -23968,9 +23968,9 @@ kVariationSelector16
 &
 &
 presentation
-<
 =
-eFontPresentation
+=
+FontPresentation
 :
 :
 TextDefault
@@ -25436,7 +25436,7 @@ if
 presentation
 =
 =
-eFontPresentation
+FontPresentation
 :
 :
 Any
@@ -25444,7 +25444,7 @@ Any
 {
 presentation
 =
-eFontPresentation
+FontPresentation
 :
 :
 TextDefault
@@ -26265,7 +26265,7 @@ uint8_t
 mEmojiPresentation
 !
 =
-eFontPresentation
+FontPresentation
 :
 :
 EmojiExplicit
@@ -27914,7 +27914,7 @@ uint32_t
 aCh
 uint32_t
 aNextCh
-eFontPresentation
+FontPresentation
 aPresentation
 )
 {
@@ -28457,7 +28457,7 @@ if
 aPresentation
 =
 =
-eFontPresentation
+FontPresentation
 :
 :
 EmojiExplicit
@@ -28597,7 +28597,7 @@ uint32_t
 aNextCh
 Script
 aRunScript
-eFontPresentation
+FontPresentation
 aPresentation
 )
 {

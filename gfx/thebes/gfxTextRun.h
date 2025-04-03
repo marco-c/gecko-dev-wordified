@@ -7990,7 +7990,7 @@ uint32_t
 aCh
 uint32_t
 aNextCh
-eFontPresentation
+FontPresentation
 aPresentation
 )
 ;
@@ -8006,7 +8006,7 @@ uint32_t
 aNextCh
 Script
 aRunScript
-eFontPresentation
+FontPresentation
 aPresentation
 )
 ;
@@ -9544,10 +9544,10 @@ been
 set
 up
 .
-eFontPresentation
+FontPresentation
 mEmojiPresentation
 =
-eFontPresentation
+FontPresentation
 :
 :
 Any
@@ -10157,7 +10157,7 @@ uint32_t
 aCh
 uint32_t
 aNextCh
-eFontPresentation
+FontPresentation
 aPresentation
 )
 ;
@@ -10180,7 +10180,7 @@ uint32_t
 aCh
 uint32_t
 aNextCh
-eFontPresentation
+FontPresentation
 aPresentation
 )
 ;
@@ -10197,7 +10197,7 @@ uint32_t
 aCh
 uint32_t
 aNextCh
-eFontPresentation
+FontPresentation
 aPresentation
 )
 ;
