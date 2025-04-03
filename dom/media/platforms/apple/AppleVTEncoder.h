@@ -460,6 +460,8 @@ InitSession
 CFDictionaryRef
 BuildSourceImageBufferAttributes
 (
+OSType
+aPixelFormat
 )
 ;
 CVPixelBufferRef
