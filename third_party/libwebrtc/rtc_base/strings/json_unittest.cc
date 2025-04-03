@@ -108,7 +108,7 @@ gtest
 h
 "
 namespace
-rtc
+webrtc
 {
 static
 Json
@@ -2568,4 +2568,4 @@ i
 /
 /
 namespace
-rtc
+webrtc

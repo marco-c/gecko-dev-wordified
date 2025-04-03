@@ -542,9 +542,6 @@ settings
 if
 (
 !
-rtc
-:
-:
 GetIntFromJsonObject
 (
 json
@@ -582,9 +579,6 @@ duration_ms
 if
 (
 !
-rtc
-:
-:
 GetIntFromJsonObject
 (
 json
@@ -622,9 +616,6 @@ video_width
 if
 (
 !
-rtc
-:
-:
 GetIntFromJsonObject
 (
 json
@@ -662,9 +653,6 @@ video_height
 if
 (
 !
-rtc
-:
-:
 GetIntFromJsonObject
 (
 json
@@ -702,9 +690,6 @@ video_fps
 if
 (
 !
-rtc
-:
-:
 GetIntFromJsonObject
 (
 json
@@ -768,9 +753,6 @@ rtp_json
 if
 (
 !
-rtc
-:
-:
 GetValueFromJsonObject
 (
 json
@@ -807,9 +789,6 @@ nullopt
 if
 (
 !
-rtc
-:
-:
 GetStringFromJsonObject
 (
 rtp_json
@@ -903,9 +882,6 @@ payload_name
 if
 (
 !
-rtc
-:
-:
 GetIntFromJsonObject
 (
 rtp_json

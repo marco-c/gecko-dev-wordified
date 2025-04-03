@@ -135,7 +135,7 @@ string_encode
 h
 "
 namespace
-rtc
+webrtc
 {
 bool
 GetStringFromJson
@@ -2024,4 +2024,4 @@ newline
 /
 /
 namespace
-rtc
+webrtc

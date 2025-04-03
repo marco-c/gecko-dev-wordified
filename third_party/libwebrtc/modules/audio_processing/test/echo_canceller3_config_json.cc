@@ -195,9 +195,6 @@ v
 ;
 if
 (
-rtc
-:
-:
 GetBoolFromJsonObject
 (
 root
@@ -244,9 +241,6 @@ v
 ;
 if
 (
-rtc
-:
-:
 GetIntFromJsonObject
 (
 root
@@ -299,9 +293,6 @@ v
 ;
 if
 (
-rtc
-:
-:
 GetIntFromJsonObject
 (
 root
@@ -348,9 +339,6 @@ v
 ;
 if
 (
-rtc
-:
-:
 GetDoubleFromJsonObject
 (
 root
@@ -412,9 +400,6 @@ json_array
 ;
 if
 (
-rtc
-:
-:
 GetValueFromJsonObject
 (
 root
@@ -433,9 +418,6 @@ double
 >
 v
 ;
-rtc
-:
-:
 JsonArrayToDoubleVector
 (
 json_array
@@ -611,9 +593,6 @@ json_array
 ;
 if
 (
-rtc
-:
-:
 GetValueFromJsonObject
 (
 root
@@ -632,9 +611,6 @@ double
 >
 v
 ;
-rtc
-:
-:
 JsonArrayToDoubleVector
 (
 json_array
@@ -762,9 +738,6 @@ subsection
 ;
 if
 (
-rtc
-:
-:
 GetValueFromJsonObject
 (
 root
@@ -870,9 +843,6 @@ json_array
 ;
 if
 (
-rtc
-:
-:
 GetValueFromJsonObject
 (
 root
@@ -891,9 +861,6 @@ int
 >
 v
 ;
-rtc
-:
-:
 JsonArrayToIntVector
 (
 json_array
@@ -1005,9 +972,6 @@ json_array
 ;
 if
 (
-rtc
-:
-:
 GetValueFromJsonObject
 (
 root
@@ -1026,9 +990,6 @@ double
 >
 v
 ;
-rtc
-:
-:
 JsonArrayToDoubleVector
 (
 json_array
@@ -1270,9 +1231,6 @@ aec3_root
 ;
 success
 =
-rtc
-:
-:
 GetValueFromJsonObject
 (
 root
@@ -1322,9 +1280,6 @@ section
 ;
 if
 (
-rtc
-:
-:
 GetValueFromJsonObject
 (
 aec3_root
@@ -1367,9 +1322,6 @@ max_allowed_excess_render_blocks
 }
 if
 (
-rtc
-:
-:
 GetValueFromJsonObject
 (
 aec3_root
@@ -1515,9 +1467,6 @@ subsection
 ;
 if
 (
-rtc
-:
-:
 GetValueFromJsonObject
 (
 section
@@ -1635,9 +1584,6 @@ detect_pre_echo
 }
 if
 (
-rtc
-:
-:
 GetValueFromJsonObject
 (
 aec3_root
@@ -1820,9 +1766,6 @@ export_linear_aec_output
 }
 if
 (
-rtc
-:
-:
 GetValueFromJsonObject
 (
 aec3_root
@@ -1935,9 +1878,6 @@ clamp_quality_estimate_to_one
 }
 if
 (
-rtc
-:
-:
 GetValueFromJsonObject
 (
 aec3_root
@@ -2050,9 +1990,6 @@ use_conservative_tail_frequency_response
 }
 if
 (
-rtc
-:
-:
 GetValueFromJsonObject
 (
 aec3_root
@@ -2179,9 +2116,6 @@ use_stationarity_properties_at_init
 }
 if
 (
-rtc
-:
-:
 GetValueFromJsonObject
 (
 aec3_root
@@ -2252,9 +2186,6 @@ render_power_gain_db
 }
 if
 (
-rtc
-:
-:
 GetValueFromJsonObject
 (
 aec3_root
@@ -2297,9 +2228,6 @@ linear_and_stable_echo_path
 }
 if
 (
-rtc
-:
-:
 GetValueFromJsonObject
 (
 aec3_root
@@ -2432,9 +2360,6 @@ model_reverb_in_nonlinear_mode
 }
 if
 (
-rtc
-:
-:
 GetValueFromJsonObject
 (
 aec3_root
@@ -2469,9 +2394,6 @@ subsection
 ;
 if
 (
-rtc
-:
-:
 GetValueFromJsonObject
 (
 aec3_root
@@ -2499,9 +2421,6 @@ nearend_average_blocks
 ;
 if
 (
-rtc
-:
-:
 GetValueFromJsonObject
 (
 section
@@ -2580,9 +2499,6 @@ max_dec_factor_lf
 }
 if
 (
-rtc
-:
-:
 GetValueFromJsonObject
 (
 section
@@ -2731,9 +2647,6 @@ first_hf_band
 ;
 if
 (
-rtc
-:
-:
 GetValueFromJsonObject
 (
 section
@@ -2860,9 +2773,6 @@ use_unbounded_echo_spectrum
 }
 if
 (
-rtc
-:
-:
 GetValueFromJsonObject
 (
 section
@@ -2971,9 +2881,6 @@ use_subband_nearend_detection
 ;
 if
 (
-rtc
-:
-:
 GetValueFromJsonObject
 (
 section
@@ -3081,9 +2988,6 @@ conservative_hf_suppression
 }
 if
 (
-rtc
-:
-:
 GetValueFromJsonObject
 (
 aec3_root
