@@ -113,7 +113,7 @@ kBindGroupTests
 kBindingCombinations
 getPipelineTypeForBindingCombination
 getPerStageWGSLForBindingCombination
-getStageVisibilityForBinidngCombination
+getStageVisibilityForBindingCombination
 addMaximumLimitUpToDependentLimit
 }
 from
@@ -995,7 +995,7 @@ maxBindingsPerBindGroup
 const
 visibility
 =
-getStageVisibilityForBinidngCombination
+getStageVisibilityForBindingCombination
 (
 bindingCombination
 )
