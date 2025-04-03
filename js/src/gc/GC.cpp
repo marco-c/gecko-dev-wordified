@@ -26293,6 +26293,13 @@ lock
 ;
 }
 }
+atomMarking
+.
+mergePendingFreeArenaIndexes
+(
+this
+)
+;
 assertBackgroundSweepingFinished
 (
 )
