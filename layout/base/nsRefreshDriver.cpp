@@ -5606,8 +5606,6 @@ defined
 (
 _WIN32
 )
-/
-/
 MOZ_ASSERT
 (
 aVsyncTimestamp
