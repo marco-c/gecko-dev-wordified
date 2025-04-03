@@ -654,6 +654,8 @@ Web
 /
 HTTP
 /
+Reference
+/
 Status
 ;
 const
@@ -820,6 +822,8 @@ Web
 /
 HTTP
 /
+Reference
+/
 Headers
 /
 {
@@ -911,6 +915,8 @@ MDN_URL
 Web
 /
 HTTP
+/
+Reference
 /
 Status
 /
@@ -1344,6 +1350,8 @@ MDN_URL
 Web
 /
 HTTP
+/
+Guides
 /
 CORS
 /
