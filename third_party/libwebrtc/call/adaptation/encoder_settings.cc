@@ -96,6 +96,11 @@ h
 #
 include
 <
+optional
+>
+#
+include
+<
 utility
 >
 namespace

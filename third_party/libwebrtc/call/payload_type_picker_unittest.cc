@@ -176,12 +176,6 @@ using
 testing
 :
 :
-Lt
-;
-using
-testing
-:
-:
 Ne
 ;
 TEST
