@@ -1811,7 +1811,7 @@ os
 getenv
 (
 "
-MOZ_FETCHES_DIR
+MOZ_ML_LOCAL_DIR
 "
 None
 )
@@ -2022,7 +2022,7 @@ fetches
 dir
 argument
 or
-MOZ_FETCHES_DIR
+MOZ_ML_LOCAL_DIR
 env
 var
 .

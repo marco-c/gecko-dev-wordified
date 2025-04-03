@@ -69,9 +69,10 @@ from
 pathlib
 import
 Path
-_THREAD
+THREADS
 =
-None
+[
+]
 class
 CustomHTTPRequestHandler
 (
@@ -532,13 +533,13 @@ tests
     
 We
 grab
-MOZ_FETCHES_DIR
+MOZ_ML_LOCAL_DIR
 .
 If
 set
 we
 serve
-MOZ_FETCHES_DIR
+MOZ_ML_LOCAL_DIR
 /
 onnx
 -
@@ -549,13 +550,41 @@ local
 hub
 .
     
+MOZ_FETCHES_DIR
+is
+used
+in
+the
+CI
+as
+an
+alternate
+localtion
+.
+    
 "
 "
 "
     
-global
-_THREAD
+fetches_dir
+=
+os
+.
+environ
+.
+get
+(
+"
+MOZ_ML_LOCAL_DIR
+"
+)
     
+if
+fetches_dir
+is
+None
+:
+        
 fetches_dir
 =
 os
@@ -631,9 +660,12 @@ port
 }
 "
     
-_THREAD
-=
+THREADS
+.
+append
+(
 server_thread
+)
 def
 after_runs
 (
@@ -641,14 +673,13 @@ env
 )
 :
     
-global
-_THREAD
-    
 if
-_THREAD
-is
-not
-None
+len
+(
+THREADS
+)
+>
+0
 :
         
 print
@@ -659,7 +690,10 @@ down
 "
 )
         
-_THREAD
+THREADS
+[
+0
+]
 .
 join
 (
@@ -668,6 +702,8 @@ timeout
 0
 )
         
-_THREAD
-=
-None
+THREADS
+.
+clear
+(
+)

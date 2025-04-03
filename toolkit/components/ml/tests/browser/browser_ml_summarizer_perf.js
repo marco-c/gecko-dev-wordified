@@ -518,7 +518,7 @@ model_id
 local
 -
 dir
-MOZ_FETCHES_DIR
+MOZ_ML_LOCAL_DIR
 /
 onnx
 -
