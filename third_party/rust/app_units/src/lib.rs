@@ -132,8 +132,8 @@ app_unit
 :
 {
 Au
-MIN_AU
-MAX_AU
 AU_PER_PX
+MAX_AU
+MIN_AU
 }
 ;
