@@ -600,7 +600,7 @@ being
 reported
 while
 reloading
-let
+const
 reloadedTargets
 =
 [

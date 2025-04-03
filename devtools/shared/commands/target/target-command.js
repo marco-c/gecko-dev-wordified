@@ -1430,6 +1430,16 @@ has
 just
 been
 created
+/
+/
+eslint
+-
+disable
+-
+next
+-
+line
+complexity
 async
 _onTargetAvailable
 (
@@ -7933,6 +7943,7 @@ on
 .
 *
 /
+async
 selectTarget
 (
 targetFront
@@ -7966,7 +7977,7 @@ isDestroyedOrBeingDestroyed
 return
 ;
 }
-return
+await
 this
 .
 _onTargetSelected
