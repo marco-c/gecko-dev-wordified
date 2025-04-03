@@ -3574,9 +3574,10 @@ thingKind
 lock
 )
 ;
-updateChunkListAfterAlloc
+updateFreeCountsAfterAlloc
 (
 gc
+1
 lock
 )
 ;
@@ -3785,18 +3786,6 @@ index
 =
 false
 ;
--
--
-info
-.
-numArenasFreeCommitted
-;
--
--
-info
-.
-numArenasFree
-;
 return
 &
 arenas
@@ -3990,7 +3979,7 @@ MOZ_ASSERT
 chunk
 -
 >
-unused
+isEmpty
 (
 )
 )
@@ -4044,7 +4033,7 @@ MOZ_ASSERT
 chunk
 -
 >
-unused
+isEmpty
 (
 )
 )
@@ -4102,7 +4091,7 @@ MOZ_ASSERT
 chunk
 -
 >
-unused
+isEmpty
 (
 )
 )
@@ -4223,7 +4212,7 @@ MOZ_ASSERT
 chunk
 -
 >
-unused
+isEmpty
 (
 )
 )
@@ -4679,7 +4668,7 @@ MOZ_ASSERT
 chunk
 -
 >
-unused
+isEmpty
 (
 )
 )
@@ -4705,7 +4694,7 @@ decommitAllArenas
 {
 MOZ_ASSERT
 (
-unused
+isEmpty
 (
 )
 )

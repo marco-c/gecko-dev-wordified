@@ -3061,7 +3061,7 @@ MOZ_ASSERT
 chunk
 -
 >
-unused
+isEmpty
 (
 )
 )
@@ -13294,7 +13294,7 @@ MOZ_ASSERT
 chunk
 -
 >
-unused
+isEmpty
 (
 )
 )
@@ -13571,7 +13571,7 @@ return
 chunk
 -
 >
-unused
+isEmpty
 (
 )
 &
@@ -13999,7 +13999,7 @@ MOZ_ASSERT
 chunk
 -
 >
-unused
+isEmpty
 (
 )
 )
