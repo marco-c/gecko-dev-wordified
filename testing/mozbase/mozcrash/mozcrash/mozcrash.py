@@ -6087,7 +6087,7 @@ Library
 Application
 Support
 /
-firefox
+Firefox
 /
 Crash
 Reports
