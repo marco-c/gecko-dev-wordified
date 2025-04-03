@@ -1618,12 +1618,6 @@ mWarnOnce_DepthTexCompareFilterable
 true
 ;
 mutable
-bool
-mRemapImplReadType_HalfFloatOes
-=
-false
-;
-mutable
 std
 :
 :
