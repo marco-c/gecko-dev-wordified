@@ -302,7 +302,7 @@ aOutputStream
 )
 ;
 }
-Http3WebTransportSession
+WebTransportSessionBase
 *
 ConnectionHandle
 :

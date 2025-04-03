@@ -1154,7 +1154,7 @@ DoCreateStream
 WebTransportStreamCallbackWrapper
 *
 aCallback
-Http3WebTransportSession
+WebTransportSessionBase
 *
 aSession
 bool
@@ -1167,7 +1167,7 @@ SendDatagramInternal
 const
 RefPtr
 <
-Http3WebTransportSession
+WebTransportSessionBase
 >
 &
 aSession
@@ -1200,7 +1200,7 @@ GetMaxDatagramSizeInternal
 const
 RefPtr
 <
-Http3WebTransportSession
+WebTransportSessionBase
 >
 &
 aSession
@@ -1249,7 +1249,7 @@ mMutex
 ;
 RefPtr
 <
-Http3WebTransportSession
+WebTransportSessionBase
 >
 mWebTransportSession
 MOZ_GUARDED_BY

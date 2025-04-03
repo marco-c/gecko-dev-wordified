@@ -13463,7 +13463,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-Http3WebTransportSession
+WebTransportSessionBase
 *
 Http3Session
 :

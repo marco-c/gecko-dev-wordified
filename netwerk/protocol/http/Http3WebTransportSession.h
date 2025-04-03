@@ -102,7 +102,7 @@ mozilla_net_Http3WebTransportSession_h
 #
 include
 "
-ARefBase
+WebTransportSessionBase
 .
 h
 "
@@ -192,6 +192,8 @@ class
 Http3WebTransportSession
 final
 :
+public
+WebTransportSessionBase
 public
 Http3StreamBase
 public
@@ -309,19 +311,6 @@ interim
 )
 override
 ;
-void
-SetWebTransportSessionEventListener
-(
-WebTransportSessionEventListener
-*
-listener
-)
-{
-mListener
-=
-listener
-;
-}
 nsresult
 TryActivating
 (
@@ -344,6 +333,7 @@ nsACString
 &
 aReason
 )
+override
 ;
 void
 OnSessionClosed
@@ -357,6 +347,13 @@ nsACString
 &
 aReason
 )
+;
+uint64_t
+StreamId
+(
+)
+const
+override
 ;
 void
 CreateOutgoingBidirectionalStream
@@ -372,7 +369,7 @@ Result
 <
 RefPtr
 <
-Http3WebTransportStream
+WebTransportStreamBase
 >
 nsresult
 >
@@ -384,6 +381,7 @@ nsresult
 &
 aCallback
 )
+override
 ;
 void
 CreateOutgoingUnidirectionalStream
@@ -399,7 +397,7 @@ Result
 <
 RefPtr
 <
-Http3WebTransportStream
+WebTransportStreamBase
 >
 nsresult
 >
@@ -411,6 +409,7 @@ nsresult
 &
 aCallback
 )
+override
 ;
 void
 RemoveWebTransportStream
@@ -445,6 +444,7 @@ aData
 uint64_t
 aTrackingId
 )
+override
 ;
 void
 OnDatagramReceived
@@ -462,6 +462,7 @@ void
 GetMaxDatagramSize
 (
 )
+override
 ;
 void
 OnOutgoingDatagramOutCome
@@ -531,7 +532,7 @@ Result
 <
 RefPtr
 <
-Http3WebTransportStream
+WebTransportStreamBase
 >
 nsresult
 >
@@ -599,12 +600,6 @@ nsresult
 mSocketOutCondition
 =
 NS_ERROR_NOT_INITIALIZED
-;
-RefPtr
-<
-WebTransportSessionEventListener
->
-mListener
 ;
 uint32_t
 mStatus

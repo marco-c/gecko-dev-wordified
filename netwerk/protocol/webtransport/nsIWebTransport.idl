@@ -154,10 +154,10 @@ mozilla
 net
 {
 class
-Http3WebTransportSession
+WebTransportSessionBase
 ;
 class
-Http3WebTransportStream
+WebTransportStreamBase
 ;
 }
 %
@@ -166,7 +166,7 @@ Http3WebTransportStream
 ptr
 ]
 native
-Http3WebTransportSessionPtr
+WebTransportSessionPtr
 (
 mozilla
 :
@@ -174,14 +174,14 @@ mozilla
 net
 :
 :
-Http3WebTransportSession
+WebTransportSessionBase
 )
 ;
 [
 ptr
 ]
 native
-Http3WebTransportStreamPtr
+WebTransportStreamPtr
 (
 mozilla
 :
@@ -189,7 +189,7 @@ mozilla
 net
 :
 :
-Http3WebTransportStream
+WebTransportStreamBase
 )
 ;
 native
@@ -699,7 +699,7 @@ void
 onSessionReadyInternal
 (
 in
-Http3WebTransportSessionPtr
+WebTransportSessionPtr
 aSession
 )
 ;
@@ -714,7 +714,7 @@ pass
 the
 reference
 of
-Http3WebTransportStream
+WebTransportStream
 /
 /
 object
@@ -725,7 +725,7 @@ void
 onIncomingStreamAvailableInternal
 (
 in
-Http3WebTransportStreamPtr
+WebTransportStreamPtr
 aStream
 )
 ;

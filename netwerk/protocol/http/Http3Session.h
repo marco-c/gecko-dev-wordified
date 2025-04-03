@@ -974,6 +974,12 @@ Http3StreamBase
 class
 QuicSocketControl
 ;
+class
+Http3WebTransportSession
+;
+class
+Http3WebTransportStream
+;
 /
 /
 IID
