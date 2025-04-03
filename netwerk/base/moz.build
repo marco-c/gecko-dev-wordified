@@ -280,11 +280,6 @@ nsIHttpAuthenticatorCallback
 idl
 "
 "
-nsIHttpPushListener
-.
-idl
-"
-"
 nsIIncrementalDownload
 .
 idl

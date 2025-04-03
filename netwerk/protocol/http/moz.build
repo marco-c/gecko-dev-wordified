@@ -598,11 +598,6 @@ Http2Compression
 cpp
 "
 "
-Http2Push
-.
-cpp
-"
-"
 Http2Session
 .
 cpp

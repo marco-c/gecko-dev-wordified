@@ -2672,9 +2672,6 @@ bits
 *
 /
 uint32_t
-mLastPushedID
-;
-uint32_t
 mConcurrentHighWater
 ;
 /
@@ -2827,13 +2824,6 @@ Http2StreamBase
 >
 >
 mSlowConsumersReadyForRead
-;
-nsTArray
-<
-Http2PushedStream
-*
->
-mPushedStreams
 ;
 /
 /
@@ -3238,9 +3228,6 @@ mExpectedHeaderID
 ;
 uint32_t
 mExpectedPushPromiseID
-;
-uint32_t
-mContinuedPromiseStream
 ;
 /
 /

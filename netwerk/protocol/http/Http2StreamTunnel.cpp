@@ -211,6 +211,13 @@ NetwerkProtocolHttpMetrics
 .
 h
 "
+#
+include
+"
+Http2Session
+.
+h
+"
 namespace
 mozilla
 :
