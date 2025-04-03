@@ -923,9 +923,6 @@ ValueType
 )
 >
 {
-struct
-EmptyContext
-;
 Ok
 (
 match
@@ -1036,7 +1033,6 @@ resolve_map
 (
 |
 leaf
-_
 |
 {
 Ok
@@ -1111,17 +1107,6 @@ clone
 }
 )
 }
-|
-_
-_
-|
-Ok
-(
-None
-)
-&
-mut
-EmptyContext
 )
 else
 {
