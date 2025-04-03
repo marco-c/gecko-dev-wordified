@@ -1939,7 +1939,9 @@ NetEqStatsGetter
 >
 CreateNetEqTestAndRun
 (
+const
 ParsedRtcEventLog
+&
 parsed_log
 uint32_t
 ssrc
