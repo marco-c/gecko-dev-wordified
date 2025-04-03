@@ -146,9 +146,6 @@ max
 float
 clamped
 =
-rtc
-:
-:
 SafeClamp
 (
 *
@@ -204,9 +201,6 @@ max
 size_t
 clamped
 =
-rtc
-:
-:
 SafeClamp
 (
 *
@@ -248,9 +242,6 @@ max
 int
 clamped
 =
-rtc
-:
-:
 SafeClamp
 (
 *

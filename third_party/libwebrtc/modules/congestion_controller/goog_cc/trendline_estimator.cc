@@ -2182,9 +2182,6 @@ time_delta_ms
 ;
 threshold_
 =
-rtc
-:
-:
 SafeClamp
 (
 threshold_

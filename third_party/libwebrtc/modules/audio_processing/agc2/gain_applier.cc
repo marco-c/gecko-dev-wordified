@@ -249,9 +249,6 @@ channel_view
 {
 sample
 =
-rtc
-:
-:
 SafeClamp
 (
 sample

@@ -195,9 +195,6 @@ worker_thread_checker_
 )
 ;
 return
-rtc
-:
-:
 SafeClamp
 (
 rtc

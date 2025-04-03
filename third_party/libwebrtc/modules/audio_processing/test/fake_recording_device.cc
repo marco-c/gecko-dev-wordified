@@ -722,9 +722,6 @@ c
 i
 ]
 =
-rtc
-:
-:
 SafeClamp
 (
 buffer
@@ -1052,9 +1049,6 @@ c
 i
 ]
 =
-rtc
-:
-:
 SafeClamp
 (
 buffer

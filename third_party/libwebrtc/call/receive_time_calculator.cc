@@ -387,9 +387,6 @@ us
 {
 stall_time_us
 =
-rtc
-:
-:
 SafeMin
 (
 stall_time_us
@@ -739,9 +736,6 @@ corrected_time_us
 =
 last_corrected_time_us_
 +
-rtc
-:
-:
 SafeClamp
 (
 packet_time_delta_us

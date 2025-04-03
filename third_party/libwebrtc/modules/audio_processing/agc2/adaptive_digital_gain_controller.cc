@@ -643,9 +643,6 @@ target_gain_difference_db
 ;
 }
 return
-rtc
-:
-:
 SafeClamp
 (
 target_gain_difference_db

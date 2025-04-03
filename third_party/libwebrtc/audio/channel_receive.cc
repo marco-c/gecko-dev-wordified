@@ -6666,9 +6666,6 @@ failing
 .
 delay_ms
 =
-rtc
-:
-:
 SafeClamp
 (
 delay_ms

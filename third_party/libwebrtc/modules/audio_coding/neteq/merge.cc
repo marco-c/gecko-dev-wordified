@@ -1658,9 +1658,6 @@ const
 auto
 mod_input_length
 =
-rtc
-:
-:
 SafeMin
 <
 size_t

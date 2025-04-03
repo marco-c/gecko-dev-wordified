@@ -1041,9 +1041,6 @@ const
 int
 new_level
 =
-rtc
-:
-:
 SafeClamp
 (
 level
@@ -2010,9 +2007,6 @@ const
 int
 estimated_gain_change
 =
-rtc
-:
-:
 SafeClamp
 (
 -
@@ -2062,9 +2056,6 @@ const
 int
 new_level
 =
-rtc
-:
-:
 SafeClamp
 (
 level

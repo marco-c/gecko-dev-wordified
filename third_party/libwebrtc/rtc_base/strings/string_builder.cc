@@ -256,9 +256,6 @@ const
 size_t
 chars_added
 =
-rtc
-:
-:
 SafeMin
 (
 str
@@ -729,9 +726,6 @@ const
 size_t
 chars_added
 =
-rtc
-:
-:
 SafeMin
 (
 len

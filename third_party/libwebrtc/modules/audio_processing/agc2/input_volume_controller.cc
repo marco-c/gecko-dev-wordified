@@ -831,9 +831,6 @@ kMaxSpeechLevelDbfs
 ;
 speech_level_dbfs
 =
-rtc
-:
-:
 SafeClamp
 <
 float
@@ -2158,9 +2155,6 @@ error
 .
 rms_error_db
 =
-rtc
-:
-:
 SafeClamp
 (
 rms_error_db

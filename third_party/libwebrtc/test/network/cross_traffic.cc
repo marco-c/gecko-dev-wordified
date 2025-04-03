@@ -408,9 +408,6 @@ double
 ;
 intensity_
 =
-rtc
-:
-:
 SafeClamp
 (
 intensity_

@@ -4725,9 +4725,6 @@ const
 int
 new_bitrate
 =
-rtc
-:
-:
 SafeClamp
 <
 int

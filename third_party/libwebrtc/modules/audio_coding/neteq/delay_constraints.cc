@@ -536,9 +536,6 @@ const
 int
 base_minimum_delay_ms
 =
-rtc
-:
-:
 SafeClamp
 (
 base_minimum_delay_ms_

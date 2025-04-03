@@ -911,9 +911,6 @@ into
 consideration
 .
 return
-rtc
-:
-:
 SafeClamp
 (
 element_sum

@@ -4945,9 +4945,6 @@ a
 {
 a
 =
-rtc
-:
-:
 SafeClamp
 (
 a
