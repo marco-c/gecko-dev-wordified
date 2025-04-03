@@ -355,6 +355,12 @@ mSchedulerWorker
 >
 GetNextTask
 (
+false
+/
+*
+aIsMainThread
+*
+/
 )
 ;
 if

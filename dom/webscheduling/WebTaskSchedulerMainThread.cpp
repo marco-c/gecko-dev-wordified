@@ -164,6 +164,12 @@ mScheduler
 >
 GetNextTask
 (
+true
+/
+*
+aIsMainThread
+*
+/
 )
 ;
 if
