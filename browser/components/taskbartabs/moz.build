@@ -92,6 +92,13 @@ taskbartabs
 =
 [
 "
+TaskbarTabs
+.
+sys
+.
+mjs
+"
+"
 TaskbarTabUI
 .
 sys

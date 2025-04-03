@@ -1041,6 +1041,12 @@ box
 translations
 -
 button
+#
+taskbar
+-
+tabs
+-
+button
 )
 ;
 if
