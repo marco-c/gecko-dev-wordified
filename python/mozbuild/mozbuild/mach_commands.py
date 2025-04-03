@@ -8868,16 +8868,8 @@ install
 }
             
 "
-run
+Run
 with
-LD_LIBRARY_PATH
-=
-/
-data
-/
-local
-/
-tmp
 /
 data
 /
@@ -8889,10 +8881,6 @@ js
 on
 the
 device
-(
-Bug
-1957112
-)
 "
         
 )
