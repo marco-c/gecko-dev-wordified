@@ -349,6 +349,11 @@ unenroll
 recipe
 .
 slug
+"
+mochitest
+-
+cleanup
+"
 )
 ;
 experiment
