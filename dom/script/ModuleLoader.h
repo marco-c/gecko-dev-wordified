@@ -160,6 +160,17 @@ ScriptLoader
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+ScriptLoadRequestType
+.
+h
+"
 class
 nsIURI
 ;
@@ -471,6 +482,9 @@ CreateTopLevel
 nsIURI
 *
 aURI
+nsIScriptElement
+*
+aElement
 ReferrerPolicy
 aReferrerPolicy
 ScriptFetchOptions
@@ -486,6 +500,8 @@ aReferrer
 ScriptLoadContext
 *
 aContext
+ScriptLoadRequestType
+aRequestType
 )
 ;
 /
