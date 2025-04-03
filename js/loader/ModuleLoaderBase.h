@@ -3338,8 +3338,6 @@ ModuleLoadRequest
 aRequest
 )
 ;
-protected
-:
 void
 SetModuleFetchStarted
 (
@@ -3348,8 +3346,6 @@ ModuleLoadRequest
 aRequest
 )
 ;
-private
-:
 ModuleScript
 *
 GetFetchedModule
