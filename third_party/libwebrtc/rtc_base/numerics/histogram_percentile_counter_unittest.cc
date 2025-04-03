@@ -123,7 +123,7 @@ HistogramPercentileCounterTest
 ReturnsCorrectPercentiles
 )
 {
-rtc
+webrtc
 :
 :
 HistogramPercentileCounter
@@ -310,7 +310,7 @@ HistogramPercentileCounterTest
 HandlesEmptySequence
 )
 {
-rtc
+webrtc
 :
 :
 HistogramPercentileCounter

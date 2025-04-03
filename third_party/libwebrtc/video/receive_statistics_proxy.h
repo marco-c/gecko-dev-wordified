@@ -781,9 +781,6 @@ qp_counter
 FrameCounts
 frame_counts
 ;
-rtc
-:
-:
 HistogramPercentileCounter
 interframe_delay_percentiles
 ;

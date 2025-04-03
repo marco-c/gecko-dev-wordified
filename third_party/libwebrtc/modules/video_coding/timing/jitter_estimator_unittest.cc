@@ -795,9 +795,6 @@ std
 pair
 <
 TimeDelta
-rtc
-:
-:
 HistogramPercentileCounter
 >
 >

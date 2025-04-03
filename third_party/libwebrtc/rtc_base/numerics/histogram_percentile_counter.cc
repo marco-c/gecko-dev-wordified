@@ -131,7 +131,7 @@ checks
 h
 "
 namespace
-rtc
+webrtc
 {
 HistogramPercentileCounter
 :
@@ -491,4 +491,4 @@ nullopt
 /
 /
 namespace
-rtc
+webrtc
