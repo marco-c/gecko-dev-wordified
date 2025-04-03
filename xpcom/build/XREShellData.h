@@ -236,6 +236,12 @@ FILE
 *
 errFile
 ;
+int
+crashChildNotificationSocket
+;
+int
+crashHelperSocket
+;
 #
 endif
 #
