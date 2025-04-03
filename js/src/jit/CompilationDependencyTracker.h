@@ -158,6 +158,7 @@ Type
 {
 GetIterator
 ArraySpecies
+RegExpPrototype
 EmulatesUndefined
 Limit
 }
