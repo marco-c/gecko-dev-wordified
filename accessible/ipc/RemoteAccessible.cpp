@@ -11405,11 +11405,9 @@ forget
 )
 ;
 }
-RefPtr
-<
 const
 AccAttributes
->
+*
 RemoteAccessible
 :
 :
@@ -11437,7 +11435,7 @@ attrs
 mCachedFields
 -
 >
-GetAttributeRefPtr
+GetAttributeWeakPtr
 <
 AccAttributes
 >
@@ -13521,11 +13519,7 @@ mCachedFields
 return
 ;
 }
-RefPtr
-<
-const
-AccAttributes
->
+auto
 attrs
 =
 GetCachedARIAAttributes
@@ -16290,11 +16284,7 @@ Nothing
 }
 if
 (
-RefPtr
-<
-const
-AccAttributes
->
+auto
 attrs
 =
 GetCachedARIAAttributes
