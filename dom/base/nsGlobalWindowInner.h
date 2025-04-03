@@ -2053,6 +2053,15 @@ SyncStateFromParentWindow
 (
 )
 ;
+virtual
+void
+UpdateWebSocketCount
+(
+int32_t
+aDelta
+)
+override
+;
 /
 /
 Called

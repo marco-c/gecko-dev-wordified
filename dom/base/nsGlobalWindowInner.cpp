@@ -17067,7 +17067,13 @@ mTopInnerWindow
 return
 ;
 }
+nsGlobalWindowInner
+:
+:
+Cast
+(
 mTopInnerWindow
+)
 -
 >
 UpdateWebSocketCount
@@ -17974,7 +17980,7 @@ mNumOfIndexedDBDatabases
 ;
 }
 void
-nsPIDOMWindowInner
+nsGlobalWindowInner
 :
 :
 UpdateWebSocketCount
@@ -18012,7 +18018,13 @@ IsTopInnerWindow
 )
 )
 {
+nsGlobalWindowInner
+:
+:
+Cast
+(
 mTopInnerWindow
+)
 -
 >
 UpdateWebSocketCount

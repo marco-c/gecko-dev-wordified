@@ -2474,6 +2474,16 @@ return
 false
 ;
 }
+virtual
+void
+UpdateWebSocketCount
+(
+int32_t
+aDelta
+)
+{
+}
+;
 /
 *
 *
