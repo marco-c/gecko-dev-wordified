@@ -132,7 +132,7 @@ time_utils
 h
 "
 namespace
-rtc
+webrtc
 {
 TimestampAligner
 :
@@ -1125,4 +1125,4 @@ time_us
 /
 /
 namespace
-rtc
+webrtc

@@ -1807,9 +1807,6 @@ if
 (
 align_offsync_estimation_time
 -
-rtc
-:
-:
 TimestampAligner
 :
 :
