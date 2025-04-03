@@ -810,6 +810,8 @@ step_func
 (
 onAllClosed
 )
+(
+)
 ;
 }
 )
