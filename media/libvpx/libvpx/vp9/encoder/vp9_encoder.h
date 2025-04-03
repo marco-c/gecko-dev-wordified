@@ -4007,6 +4007,9 @@ fn_ptr
 BLOCK_SIZES
 ]
 ;
+#
+if
+CONFIG_INTERNAL_STATS
 uint64_t
 time_receive_data
 ;
@@ -4019,6 +4022,8 @@ time_pick_lpf
 uint64_t
 time_encode_sb_row
 ;
+#
+endif
 TWO_PASS
 twopass
 ;
