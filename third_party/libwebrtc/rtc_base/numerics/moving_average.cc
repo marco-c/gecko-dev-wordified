@@ -126,7 +126,7 @@ checks
 h
 "
 namespace
-rtc
+webrtc
 {
 MovingAverage
 :
@@ -402,4 +402,4 @@ size
 /
 /
 namespace
-rtc
+webrtc
