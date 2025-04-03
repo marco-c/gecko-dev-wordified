@@ -467,6 +467,14 @@ nsIGeckoViewView
 any
 "
 ]
+[
+"
+nsIOhttpClientTest
+"
+"
+any
+"
+]
 /
 /
 Code
