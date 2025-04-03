@@ -716,9 +716,6 @@ rtc
 :
 make_ref_counted
 <
-cricket
-:
-:
 EncoderStreamFactory
 >
 (
