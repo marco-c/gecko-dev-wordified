@@ -131,6 +131,13 @@ h
 #
 include
 "
+ExtraFileParser
+.
+h
+"
+#
+include
+"
 json
 /
 json
