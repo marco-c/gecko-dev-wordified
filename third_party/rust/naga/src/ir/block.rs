@@ -196,7 +196,7 @@ core
 iter
 :
 :
-repeat
+repeat_n
 (
 Span
 :
@@ -204,10 +204,6 @@ Span
 default
 (
 )
-)
-.
-take
-(
 body
 .
 len

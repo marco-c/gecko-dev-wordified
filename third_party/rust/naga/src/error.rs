@@ -504,6 +504,9 @@ let
 mut
 writer
 =
+term
+:
+:
 termcolor
 :
 :

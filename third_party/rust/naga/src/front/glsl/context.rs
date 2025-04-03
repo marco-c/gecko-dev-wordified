@@ -7240,13 +7240,9 @@ core
 iter
 :
 :
-repeat
+repeat_n
 (
 right
-)
-.
-take
-(
 cols
 as
 usize

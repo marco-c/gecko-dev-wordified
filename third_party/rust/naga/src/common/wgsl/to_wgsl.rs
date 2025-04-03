@@ -214,7 +214,6 @@ as
 a
 '
 static
-'
 string
 .
 /
