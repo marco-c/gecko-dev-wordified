@@ -1230,6 +1230,7 @@ messages
 if
 args
 and
+(
 args
 [
 0
@@ -1239,6 +1240,15 @@ args
 "
 environment
 "
+or
+"
+-
+-
+quiet
+"
+in
+args
+)
 :
         
 quiet
