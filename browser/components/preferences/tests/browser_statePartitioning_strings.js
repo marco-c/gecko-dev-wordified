@@ -53,7 +53,7 @@ CB_STRICT_FEATURES_VALUE
 tp
 tpPrivate
 cookieBehavior5
-cm
+cryptoTP
 fp
 stp
 lvl2
