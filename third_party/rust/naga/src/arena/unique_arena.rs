@@ -1852,7 +1852,7 @@ core
 iter
 :
 :
-repeat
+repeat_n
 (
 Span
 :
@@ -1860,10 +1860,6 @@ Span
 default
 (
 )
-)
-.
-take
-(
 set
 .
 len
