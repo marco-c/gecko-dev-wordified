@@ -2958,8 +2958,6 @@ aFirstPartyURI
 nsIURI
 *
 aThirdPartyURI
-bool
-aIsPrivate
 )
 ;
 /

@@ -106845,8 +106845,6 @@ Document
 :
 RecomputeResistFingerprinting
 (
-bool
-aForceRefreshRTPCallerType
 )
 {
 mOverriddenFingerprintingSettings
@@ -107508,9 +107506,6 @@ mShouldResistFingerprinting
 if
 (
 changed
-|
-|
-aForceRefreshRTPCallerType
 )
 {
 if
