@@ -4496,6 +4496,7 @@ Core
 DOM
 :
 Performance
+APIs
 "
 )
 #
@@ -4659,6 +4660,7 @@ Core
 DOM
 :
 Performance
+APIs
 "
 )
 with
@@ -5616,8 +5618,10 @@ BUG_COMPONENT
 Core
 "
 "
+DOM
+:
 Performance
-Engineering
+APIs
 "
 )
 #
@@ -5714,6 +5718,7 @@ Core
 DOM
 :
 Performance
+APIs
 "
 )
 with
@@ -5822,6 +5827,7 @@ Core
 DOM
 :
 Performance
+APIs
 "
 )
 with
@@ -5851,6 +5857,7 @@ Core
 DOM
 :
 Performance
+APIs
 "
 )
 #
@@ -6363,6 +6370,7 @@ Core
 DOM
 :
 Performance
+APIs
 "
 )
 with
@@ -6652,6 +6660,7 @@ Core
 DOM
 :
 Performance
+APIs
 "
 )
 #
@@ -6842,6 +6851,7 @@ Core
 DOM
 :
 Performance
+APIs
 "
 )
 with
@@ -7330,6 +7340,7 @@ Core
 DOM
 :
 Performance
+APIs
 "
 )
 with
@@ -7409,6 +7420,7 @@ Core
 DOM
 :
 Performance
+APIs
 "
 )
 with
@@ -7634,6 +7646,7 @@ Core
 DOM
 :
 Performance
+APIs
 "
 )
 with
@@ -7928,6 +7941,7 @@ Core
 DOM
 :
 Performance
+APIs
 "
 )
 with
@@ -8206,6 +8220,7 @@ Core
 DOM
 :
 Performance
+APIs
 "
 )
 with
