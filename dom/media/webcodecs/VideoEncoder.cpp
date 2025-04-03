@@ -2046,10 +2046,6 @@ ImageBitmapFormat
 :
 :
 BGRA32
-ImageBitmapFormat
-:
-:
-BGRA32
 SaturatingCast
 <
 uint32_t
