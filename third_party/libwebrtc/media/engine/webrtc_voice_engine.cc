@@ -3257,8 +3257,12 @@ CreateAudioCodec
 (
 {
 kRedCodecName
-48000
-2
+codec
+.
+clockrate
+codec
+.
+channels
 {
 {
 "

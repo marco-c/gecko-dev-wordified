@@ -2931,7 +2931,7 @@ codecs
 )
 {
 int
-opus_codec
+codec_payload_type
 =
 Codec
 :
@@ -3056,7 +3056,7 @@ kOpusCodecName
 )
 &
 &
-opus_codec
+codec_payload_type
 =
 =
 Codec
@@ -3065,7 +3065,7 @@ Codec
 kIdNotSet
 )
 {
-opus_codec
+codec_payload_type
 =
 codec
 .
@@ -3075,7 +3075,7 @@ id
 }
 if
 (
-opus_codec
+codec_payload_type
 !
 =
 Codec
@@ -3153,7 +3153,7 @@ buffer
 param
 <
 <
-opus_codec
+codec_payload_type
 <
 <
 "
@@ -3161,7 +3161,7 @@ opus_codec
 "
 <
 <
-opus_codec
+codec_payload_type
 ;
 RTC_LOG
 (
