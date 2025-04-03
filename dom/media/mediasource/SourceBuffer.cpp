@@ -3307,8 +3307,15 @@ void
 SourceBuffer
 :
 :
-Ended
+SetEnded
 (
+const
+Optional
+<
+MediaSourceEndOfStreamError
+>
+&
+aError
 )
 {
 MOZ_ASSERT
@@ -3335,8 +3342,9 @@ Ended
 mTrackBuffersManager
 -
 >
-Ended
+SetEnded
 (
+aError
 )
 ;
 }

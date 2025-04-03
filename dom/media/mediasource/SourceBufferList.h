@@ -464,8 +464,15 @@ as
 ended
 .
 void
-Ended
+SetEnded
 (
+const
+Optional
+<
+MediaSourceEndOfStreamError
+>
+&
+aError
 )
 ;
 /

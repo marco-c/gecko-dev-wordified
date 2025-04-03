@@ -3245,8 +3245,9 @@ Ended
 mSourceBuffers
 -
 >
-Ended
+SetEnded
 (
+aError
 )
 ;
 if
@@ -3411,8 +3412,15 @@ Ended
 mSourceBuffers
 -
 >
-Ended
+SetEnded
 (
+Optional
+(
+MediaSourceEndOfStreamError
+:
+:
+Decode
+)
 )
 ;
 mDecoder
