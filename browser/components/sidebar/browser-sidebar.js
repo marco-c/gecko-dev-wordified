@@ -13513,7 +13513,6 @@ always
 -
 show
 "
-async
 (
 _aPreference
 _previousValue
@@ -13536,7 +13535,6 @@ SidebarController
 uninitializing
 )
 {
-await
 SidebarController
 .
 toggleExpandOnHover
