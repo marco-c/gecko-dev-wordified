@@ -428,14 +428,6 @@ testing
 :
 NiceMock
 ;
-using
-:
-:
-testing
-:
-:
-StrictMock
-;
 constexpr
 Timestamp
 kStartTime
