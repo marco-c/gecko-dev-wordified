@@ -278,6 +278,14 @@ eNo
 eDefault
 }
 ;
+enum
+class
+SystemGroupOnly
+{
+eYes
+eNo
+}
+;
 /
 *
 *

@@ -6432,16 +6432,7 @@ string
 typeof
 document
 .
-onbeforescriptexecute
-"
-object
-"
-]
-[
-typeof
-document
-.
-onafterscriptexecute
+onabort
 "
 object
 "
