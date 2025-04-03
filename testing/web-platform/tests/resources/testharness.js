@@ -6957,8 +6957,11 @@ for
 events
 *
 /
-function
+this
+.
 stop_watching
+=
+function
 (
 )
 {
@@ -6999,6 +7002,8 @@ test
 .
 _add_cleanup
 (
+this
+.
 stop_watching
 )
 ;
