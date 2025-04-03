@@ -1354,9 +1354,6 @@ TimeDelta
 duration
 )
 {
-rtc
-:
-:
 ScopedYieldPolicy
 yield_policy
 (
@@ -1503,9 +1500,6 @@ TimeDelta
 duration
 )
 {
-rtc
-:
-:
 ScopedYieldPolicy
 yield_policy
 (

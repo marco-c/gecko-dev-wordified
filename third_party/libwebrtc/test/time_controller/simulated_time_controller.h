@@ -322,9 +322,6 @@ SimulatedTimeControllerImpl
 public
 TaskQueueFactory
 public
-rtc
-:
-:
 YieldInterface
 {
 public
@@ -1200,9 +1197,6 @@ sim_time_impl
 SimulatedTimeControllerImpl
 impl_
 ;
-rtc
-:
-:
 ScopedYieldPolicy
 yield_policy_
 ;

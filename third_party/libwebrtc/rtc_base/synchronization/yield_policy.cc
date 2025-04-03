@@ -147,7 +147,7 @@ h
 #
 endif
 namespace
-rtc
+webrtc
 {
 namespace
 {
@@ -409,4 +409,4 @@ YieldExecution
 /
 /
 namespace
-rtc
+webrtc
