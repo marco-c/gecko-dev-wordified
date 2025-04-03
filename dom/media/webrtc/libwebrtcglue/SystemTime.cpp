@@ -447,7 +447,7 @@ fractions
 namespace
 mozilla
 namespace
-rtc
+webrtc
 {
 int64_t
 SystemTimeNanos
