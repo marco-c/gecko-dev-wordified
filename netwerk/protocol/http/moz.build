@@ -435,11 +435,6 @@ PHttpChannelParams
 h
 "
 "
-PSpdyPush
-.
-h
-"
-"
 ReplacedHttpResponse
 .
 h

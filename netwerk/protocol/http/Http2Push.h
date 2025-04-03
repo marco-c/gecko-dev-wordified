@@ -188,13 +188,6 @@ nsString
 .
 h
 "
-#
-include
-"
-PSpdyPush
-.
-h
-"
 namespace
 mozilla
 {
