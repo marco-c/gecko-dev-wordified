@@ -712,7 +712,7 @@ AudioDataResource
 Construct
 (
 const
-OwningAllowSharedBufferSource
+OwningMaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
 &
 aInit
 )
@@ -3830,7 +3830,7 @@ AudioData
 CopyTo
 (
 const
-AllowSharedBufferSource
+MaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
 &
 aDestination
 const

@@ -127,17 +127,6 @@ mozilla
 /
 dom
 /
-BindingDeclarations
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 PFileSystemManager
 .
 h
@@ -202,6 +191,9 @@ FileSystemReadWriteOptions
 ;
 class
 FileSystemManager
+;
+class
+MaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
 ;
 class
 Promise
@@ -401,7 +393,7 @@ uint64_t
 Read
 (
 const
-AllowSharedBufferSource
+MaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
 &
 aBuffer
 const
@@ -417,7 +409,7 @@ uint64_t
 Write
 (
 const
-AllowSharedBufferSource
+MaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
 &
 aBuffer
 const
@@ -517,7 +509,7 @@ uint64_t
 ReadOrWrite
 (
 const
-AllowSharedBufferSource
+MaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
 &
 aBuffer
 const

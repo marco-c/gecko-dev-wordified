@@ -1849,7 +1849,7 @@ void
 TestFunctions
 :
 :
-TestUnionOfBufferSource
+TestUnionOfBuffferSource
 (
 const
 ArrayBufferOrArrayBufferViewOrString
@@ -1862,10 +1862,10 @@ void
 TestFunctions
 :
 :
-TestUnionOfAllowSharedBufferSource
+TestUnionOfAllowSharedBuffferSource
 (
 const
-AllowSharedBufferSource
+MaybeSharedArrayBufferOrMaybeSharedArrayBufferView
 &
 aUnion
 )
