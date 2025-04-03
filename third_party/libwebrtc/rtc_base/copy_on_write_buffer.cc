@@ -110,7 +110,7 @@ string_view
 h
 "
 namespace
-rtc
+webrtc
 {
 CopyOnWriteBuffer
 :
@@ -758,4 +758,4 @@ IsConsistent
 /
 /
 namespace
-rtc
+webrtc

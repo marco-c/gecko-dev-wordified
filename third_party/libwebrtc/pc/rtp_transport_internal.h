@@ -157,9 +157,6 @@ h
 namespace
 rtc
 {
-class
-CopyOnWriteBuffer
-;
 struct
 PacketOptions
 ;
@@ -171,6 +168,9 @@ rtc
 namespace
 webrtc
 {
+class
+CopyOnWriteBuffer
+;
 /
 /
 This

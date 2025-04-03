@@ -140,7 +140,7 @@ gtest
 h
 "
 namespace
-rtc
+webrtc
 {
 namespace
 {
@@ -743,9 +743,6 @@ buf2
 .
 AppendData
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -1919,9 +1916,6 @@ setter
 [
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -2057,9 +2051,6 @@ setter
 [
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 int8_t
@@ -2201,9 +2192,6 @@ setter
 [
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -2319,9 +2307,6 @@ setter
 [
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -2458,9 +2443,6 @@ setter
 magic_number
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -3746,9 +3728,6 @@ setter
 [
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -4235,4 +4214,4 @@ i
 /
 /
 namespace
-rtc
+webrtc

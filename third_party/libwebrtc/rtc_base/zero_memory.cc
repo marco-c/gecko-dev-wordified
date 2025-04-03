@@ -125,7 +125,7 @@ zero_memory
 h
 "
 namespace
-rtc
+webrtc
 {
 /
 /
@@ -267,4 +267,4 @@ WEBRTC_WIN
 /
 /
 namespace
-rtc
+webrtc

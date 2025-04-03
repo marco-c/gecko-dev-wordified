@@ -160,7 +160,7 @@ gtest
 h
 "
 namespace
-rtc
+webrtc
 {
 namespace
 {
@@ -3078,9 +3078,6 @@ Fixed
 size
 view
 .
-rtc
-:
-:
 ArrayView
 <
 float
@@ -3125,9 +3122,6 @@ Variable
 size
 view
 .
-rtc
-:
-:
 ArrayView
 <
 float
@@ -3187,9 +3181,6 @@ constexpr_arr
 {
 }
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3246,9 +3237,6 @@ const_arr
 {
 }
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3304,9 +3292,6 @@ non_const_arr
 {
 }
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -6374,4 +6359,4 @@ uint8_av
 /
 /
 namespace
-rtc
+webrtc

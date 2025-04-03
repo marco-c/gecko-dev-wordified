@@ -106,7 +106,7 @@ gtest
 h
 "
 namespace
-rtc
+webrtc
 {
 namespace
 {
@@ -2458,9 +2458,6 @@ b
 4
 }
 ;
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -2470,9 +2467,6 @@ c
 a
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2553,4 +2547,4 @@ size
 /
 /
 namespace
-rtc
+webrtc

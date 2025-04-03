@@ -117,7 +117,7 @@ gtest
 h
 "
 namespace
-rtc
+webrtc
 {
 TEST
 (
@@ -259,9 +259,6 @@ i
 }
 ExplicitZeroMemory
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -373,4 +370,4 @@ buffer
 /
 /
 namespace
-rtc
+webrtc
