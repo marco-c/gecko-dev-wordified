@@ -2049,13 +2049,7 @@ move
 call
 )
 configuration
-std
-:
-:
-move
-(
 dependencies
-)
 stun_servers
 turn_servers
 )
@@ -2148,6 +2142,7 @@ macro
 expansion
 )
 .
+return
 rtc
 :
 :
@@ -2155,8 +2150,7 @@ scoped_refptr
 <
 PeerConnectionInterface
 >
-result_proxy
-=
+(
 PeerConnectionProxy
 :
 :
@@ -2176,9 +2170,7 @@ move
 pc
 )
 )
-;
-return
-result_proxy
+)
 ;
 }
 rtc
