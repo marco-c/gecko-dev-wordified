@@ -674,12 +674,8 @@ make_unique
 PeerConfigurer
 >
 (
+*
 network
--
->
-network_dependencies
-(
-)
 )
 ;
 update_configurer
