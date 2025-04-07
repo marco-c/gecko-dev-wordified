@@ -8942,6 +8942,15 @@ as
 /
 /
 SLOW_SCRIPT_PAGE_COUNT
+(
+glean
+:
+:
+dom
+:
+:
+slow_script_page_count
+)
 .
 bool
 mHasHadSlowScript
