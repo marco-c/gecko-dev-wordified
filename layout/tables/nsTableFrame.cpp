@@ -53867,15 +53867,6 @@ mColBackgrounds
 (
 aBuilder
 )
-mCurrentScrollParentId
-(
-aBuilder
--
->
-GetCurrentScrollParentId
-(
-)
-)
 {
 mPrevTableBackgroundSet
 =

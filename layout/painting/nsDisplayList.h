@@ -31928,9 +31928,6 @@ override
 ;
 protected
 :
-ViewID
-mScrollParentId
-;
 bool
 mForceDispatchToContentRegion
 {
