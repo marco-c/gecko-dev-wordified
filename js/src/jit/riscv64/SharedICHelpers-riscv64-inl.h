@@ -119,6 +119,15 @@ include
 "
 jit
 /
+BaselineFrame
+.
+h
+"
+#
+include
+"
+jit
+/
 SharedICHelpers
 .
 h
