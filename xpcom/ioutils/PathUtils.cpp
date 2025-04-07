@@ -298,11 +298,15 @@ xpcpublic
 .
 h
 "
+using
 namespace
 mozilla
 :
 :
 dom
+;
+namespace
+mozilla
 {
 static
 constexpr
@@ -3992,6 +3996,3 @@ NS_OK
 /
 namespace
 mozilla
-:
-:
-dom
