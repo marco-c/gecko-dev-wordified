@@ -26427,6 +26427,10 @@ changed
 bool
 RecomputeResistFingerprinting
 (
+bool
+aForceRefreshRTPCallerType
+=
+false
 )
 ;
 /
