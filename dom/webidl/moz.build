@@ -3263,11 +3263,6 @@ BroadcastChannel
 webidl
 "
 "
-BrowserElementDictionaries
-.
-webidl
-"
-"
 Cache
 .
 webidl
