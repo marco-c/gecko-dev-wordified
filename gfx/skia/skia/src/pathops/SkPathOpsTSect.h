@@ -174,13 +174,6 @@ SkOpDebugBool
 ;
 #
 endif
-#
-define
-SkDoubleIsNaN
-std
-:
-:
-isnan
 class
 SkTCoincident
 {

@@ -3859,15 +3859,6 @@ validCount
 /
 cubic
 roots
-static
-const
-double
-PI
-=
-3
-.
-141592653589793
-;
 /
 /
 from
@@ -4727,7 +4718,7 @@ theta
 +
 2
 *
-PI
+SK_DoublePI
 )
 /
 3
@@ -4767,7 +4758,7 @@ theta
 -
 2
 *
-PI
+SK_DoublePI
 )
 /
 3

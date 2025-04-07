@@ -127,6 +127,7 @@ SkShader
 Shaders
 specify
 the
+premultiplied
 source
 color
 (
@@ -138,10 +139,10 @@ is
 being
 drawn
 .
+*
 If
 a
 paint
-*
 has
 no
 shader
@@ -171,7 +172,7 @@ color
 s
 )
 are
-use
+used
 instead
 but
 they

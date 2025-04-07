@@ -42,11 +42,11 @@ SkSwizzlePriv_DEFINED
 #
 include
 "
-include
+src
 /
-private
+base
 /
-SkColorData
+SkVx
 .
 h
 "
@@ -55,9 +55,9 @@ include
 "
 src
 /
-base
+core
 /
-SkVx
+SkColorData
 .
 h
 "

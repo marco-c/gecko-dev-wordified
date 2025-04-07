@@ -1857,10 +1857,8 @@ SkScalerContext_DW
 :
 SkScalerContext_DW
 (
-sk_sp
-<
 DWriteFontTypeface
->
+&
 typefaceRef
 const
 SkScalerContextEffects
@@ -1874,13 +1872,7 @@ desc
 :
 SkScalerContext
 (
-std
-:
-:
-move
-(
 typefaceRef
-)
 effects
 desc
 )
@@ -11183,7 +11175,7 @@ advance
 0
 }
 ;
-uint16_t
+UINT16
 glyphId
 =
 glyph
@@ -14130,9 +14122,9 @@ fDescent
 #
 include
 "
-include
+src
 /
-private
+core
 /
 SkColorData
 .

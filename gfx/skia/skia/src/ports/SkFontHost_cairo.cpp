@@ -523,10 +523,8 @@ public
 :
 SkScalerContext_CairoFT
 (
-sk_sp
-<
 SkTypeface
->
+&
 typeface
 const
 SkScalerContextEffects
@@ -1009,8 +1007,7 @@ ctx
 new
 SkScalerContext_CairoFT
 (
-sk_ref_sp
-(
+*
 const_cast
 <
 SkCairoFTTypeface
@@ -1018,7 +1015,6 @@ SkCairoFTTypeface
 >
 (
 this
-)
 )
 effects
 desc
@@ -1663,10 +1659,8 @@ SkScalerContext_CairoFT
 :
 SkScalerContext_CairoFT
 (
-sk_sp
-<
 SkTypeface
->
+&
 typeface
 const
 SkScalerContextEffects
@@ -1689,13 +1683,7 @@ lcdFilter
 :
 SkScalerContext
 (
-std
-:
-:
-move
-(
 typeface
-)
 effects
 desc
 )

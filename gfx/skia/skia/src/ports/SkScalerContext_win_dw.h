@@ -139,10 +139,8 @@ public
 :
 SkScalerContext_DW
 (
-sk_sp
-<
 DWriteFontTypeface
->
+&
 const
 SkScalerContextEffects
 &

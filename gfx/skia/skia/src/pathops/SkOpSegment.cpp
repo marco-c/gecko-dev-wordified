@@ -234,9 +234,9 @@ keep
 the
 edge
 static
-const
+constexpr
 bool
-gUnaryActiveEdge
+kUnaryActiveEdge
 [
 2
 ]
@@ -274,9 +274,9 @@ F
 }
 ;
 static
-const
+constexpr
 bool
-gActiveEdge
+kActiveEdge
 [
 kXOR_SkPathOp
 +
@@ -1252,7 +1252,7 @@ xorSuMask
 bool
 result
 =
-gActiveEdge
+kActiveEdge
 [
 op
 ]
@@ -1438,7 +1438,7 @@ sumWinding
 bool
 result
 =
-gUnaryActiveEdge
+kUnaryActiveEdge
 [
 from
 ]
@@ -7103,7 +7103,7 @@ nullptr
 int
 safetyNet
 =
-100000
+1000
 ;
 while
 (
@@ -7286,7 +7286,7 @@ this
 int
 safetyNet
 =
-100000
+1000
 ;
 while
 (
@@ -7467,7 +7467,7 @@ this
 int
 safetyNet
 =
-100000
+1000
 ;
 while
 (
@@ -9280,7 +9280,7 @@ false
 int
 safetyNet
 =
-100000
+1000
 ;
 do
 {
@@ -10107,7 +10107,7 @@ startPtT
 int
 safetyHatch
 =
-1000000
+1000
 ;
 do
 {
@@ -10966,7 +10966,7 @@ segment
 int
 escapeHatch
 =
-100000
+100
 ;
 /
 /
@@ -12262,7 +12262,7 @@ ptT
 int
 safetyNet
 =
-1000000
+1000
 ;
 do
 {

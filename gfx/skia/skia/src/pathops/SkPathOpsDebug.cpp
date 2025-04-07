@@ -25189,7 +25189,7 @@ SkPathOp
 op
 )
 {
-SkDebugf
+SkDEBUGF
 (
 "
 /
@@ -25495,7 +25495,7 @@ SkPath
 path
 )
 {
-SkDebugf
+SkDEBUGF
 (
 "
 /

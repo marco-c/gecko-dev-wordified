@@ -91,17 +91,6 @@ h
 #
 include
 "
-include
-/
-pathops
-/
-SkPathOps
-.
-h
-"
-#
-include
-"
 src
 /
 base
@@ -182,7 +171,7 @@ include
 algorithm
 >
 bool
-TightBounds
+ComputeTightBounds
 (
 const
 SkPath

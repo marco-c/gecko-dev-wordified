@@ -48,6 +48,17 @@ include
 /
 core
 /
+SkPoint
+.
+h
+"
+#
+include
+"
+include
+/
+core
+/
 SkScalar
 .
 h
@@ -88,9 +99,6 @@ SkBlurStyle
 int
 ;
 struct
-SkIPoint
-;
-struct
 SkRect
 ;
 class
@@ -117,7 +125,7 @@ SkRect
 &
 src
 SkBlurStyle
-SkIPoint
+SkIVector
 *
 margin
 =
@@ -153,7 +161,7 @@ SkRRect
 &
 src
 SkBlurStyle
-SkIPoint
+SkIVector
 *
 margin
 =
@@ -321,7 +329,7 @@ SkScalar
 sigma
 SkBlurStyle
 style
-SkIPoint
+SkIVector
 *
 margin
 =
@@ -372,7 +380,7 @@ SkMask
 &
 src
 SkBlurStyle
-SkIPoint
+SkIVector
 *
 margin
 =

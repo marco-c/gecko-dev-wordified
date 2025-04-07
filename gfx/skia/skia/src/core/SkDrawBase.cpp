@@ -2343,7 +2343,7 @@ const
 SkPaint
 &
 paint
-bool
+SkDrawCoverage
 drawCoverage
 SkBlitter
 *
@@ -2680,7 +2680,7 @@ SkMatrix
 prePathMatrix
 bool
 pathIsMutable
-bool
+SkDrawCoverage
 drawCoverage
 SkBlitter
 *
@@ -3513,11 +3513,9 @@ endif
 /
 /
 /
+static
 bool
-SkDrawBase
-:
-:
-ComputeMaskBounds
+compute_mask_bounds
 (
 const
 SkRect
@@ -3540,6 +3538,16 @@ SkIRect
 bounds
 )
 {
+SkASSERT
+(
+filter
+)
+;
+SkASSERT
+(
+filterMatrix
+)
+;
 /
 /
 init
@@ -3563,7 +3571,7 @@ roundOut
 (
 )
 ;
-SkIPoint
+SkIVector
 margin
 =
 SkIPoint
@@ -3573,16 +3581,6 @@ Make
 (
 0
 0
-)
-;
-if
-(
-filter
-)
-{
-SkASSERT
-(
-filterMatrix
 )
 ;
 SkMask
@@ -3625,7 +3623,6 @@ margin
 return
 false
 ;
-}
 }
 /
 /
@@ -3955,6 +3952,8 @@ drawPath
 (
 devPath
 paint
+nullptr
+false
 )
 ;
 }
@@ -3995,6 +3994,11 @@ InitStyle
 style
 )
 {
+SkASSERT
+(
+filter
+)
+;
 if
 (
 devPath
@@ -4028,7 +4032,7 @@ bounds
 for
 inverse
 fills
-ComputeMaskBounds
+compute_mask_bounds
 is
 able
 to
@@ -4082,7 +4086,7 @@ getBounds
 if
 (
 !
-ComputeMaskBounds
+compute_mask_bounds
 (
 pathBounds
 clipBounds
@@ -4097,9 +4101,11 @@ bounds
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 if
 (
@@ -4865,6 +4871,7 @@ pointData
 .
 fFirst
 newP
+true
 )
 ;
 }
@@ -4879,6 +4886,8 @@ pointData
 .
 fFirst
 newP
+nullptr
+true
 )
 ;
 }
@@ -4909,6 +4918,7 @@ pointData
 .
 fLast
 newP
+true
 )
 ;
 }
@@ -4923,6 +4933,8 @@ pointData
 .
 fLast
 newP
+nullptr
+true
 )
 ;
 }

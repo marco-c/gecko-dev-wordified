@@ -86,7 +86,7 @@ include
 /
 core
 /
-SkMatrix
+SkM44
 .
 h
 "
@@ -742,7 +742,10 @@ skif
 Mapping
 mapping
 {
+SkM44
+(
 ctm
+)
 }
 ;
 if
@@ -2261,6 +2264,10 @@ mapping
 layerMatrix
 (
 )
+.
+asM33
+(
+)
 SkIRect
 (
 context
@@ -2479,10 +2486,7 @@ skif
 :
 Mapping
 (
-SkMatrix
-:
-:
-I
+SkM44
 (
 )
 )

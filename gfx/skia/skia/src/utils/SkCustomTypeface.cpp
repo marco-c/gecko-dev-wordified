@@ -1646,10 +1646,8 @@ public
 :
 SkUserScalerContext
 (
-sk_sp
-<
 SkUserTypeface
->
+&
 face
 const
 SkScalerContextEffects
@@ -1663,13 +1661,7 @@ desc
 :
 SkScalerContext
 (
-std
-:
-:
-move
-(
 face
-)
 effects
 desc
 )
@@ -2423,8 +2415,7 @@ make_unique
 SkUserScalerContext
 >
 (
-sk_ref_sp
-(
+*
 const_cast
 <
 SkUserTypeface
@@ -2432,7 +2423,6 @@ SkUserTypeface
 >
 (
 this
-)
 )
 effects
 desc

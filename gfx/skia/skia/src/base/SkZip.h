@@ -1942,6 +1942,9 @@ ts
 {
 /
 /
+NOLINTBEGIN
+/
+/
 Pick
 the
 first
@@ -2136,6 +2139,9 @@ ts
 .
 )
 ;
+/
+/
+NOLINTEND
 }
 }
 ;

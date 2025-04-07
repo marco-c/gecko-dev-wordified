@@ -1547,7 +1547,7 @@ int
 fGlyphCount
 ;
 const
-uint16_t
+SkGlyphID
 *
 fGlyphIndices
 ;
@@ -1651,7 +1651,7 @@ int
 count
 ;
 const
-uint16_t
+SkGlyphID
 *
 glyphs
 ;

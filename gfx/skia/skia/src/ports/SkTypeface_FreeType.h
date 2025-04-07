@@ -400,10 +400,9 @@ SkScalerContextEffects
 const
 SkDescriptor
 *
-sk_sp
-<
 SkTypeface
->
+*
+proxyTypeface
 )
 const
 override
@@ -469,7 +468,7 @@ bool
 onGetKerningPairAdjustments
 (
 const
-uint16_t
+SkGlyphID
 glyphs
 [
 ]

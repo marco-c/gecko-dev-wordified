@@ -605,7 +605,7 @@ push
 constant
 syntax
 bool
-fUsePushConstants
+fUseVulkanPushConstantsForGaneshRTAdjust
 =
 false
 ;

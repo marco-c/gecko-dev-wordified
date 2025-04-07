@@ -379,7 +379,10 @@ fAlloc
 >
 make
 <
-SkRasterPipeline_CoordClampCtx
+SkRasterPipelineContexts
+:
+:
+CoordClampCtx
 >
 (
 )

@@ -1126,6 +1126,14 @@ custom
 backdrop
 tile
 modes
+/
+/
+v107
+:
+Combine
+SkColorShader
+and
+SkColorShader4
 enum
 Version
 {
@@ -1204,6 +1212,12 @@ kUnclampedMatrixColorFilter
 kSaveLayerBackdropTileMode
 =
 106
+kCombineColorShaders
+=
+107
+kSerializeStableKeys
+=
+108
 /
 /
 Only
@@ -1484,7 +1498,7 @@ kMin_Version
 kPictureShaderFilterParam_Version
 kCurrent_Version
 =
-kSaveLayerBackdropTileMode
+kSerializeStableKeys
 }
 ;
 }

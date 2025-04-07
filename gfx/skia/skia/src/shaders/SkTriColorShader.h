@@ -63,9 +63,9 @@ h
 #
 include
 "
-include
+src
 /
-private
+core
 /
 SkColorData
 .

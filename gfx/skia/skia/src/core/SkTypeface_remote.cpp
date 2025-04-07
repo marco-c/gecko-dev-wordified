@@ -172,10 +172,8 @@ SkScalerContextProxy
 :
 SkScalerContextProxy
 (
-sk_sp
-<
 SkTypeface
->
+&
 tf
 const
 SkScalerContextEffects
@@ -197,13 +195,7 @@ manager
 :
 SkScalerContext
 {
-std
-:
-:
-move
-(
 tf
-)
 effects
 desc
 }

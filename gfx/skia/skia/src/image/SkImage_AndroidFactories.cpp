@@ -268,6 +268,19 @@ gpu
 /
 ganesh
 /
+GrExternalTextureGenerator
+.
+h
+"
+#
+include
+"
+include
+/
+gpu
+/
+ganesh
+/
 GrRecordingContext
 .
 h
@@ -793,7 +806,7 @@ kTopLeft_GrSurfaceOrigin
 )
 ;
 return
-DeferredFromGenerator
+DeferredFromTextureGenerator
 (
 std
 :
@@ -840,7 +853,7 @@ surfaceOrigin
 )
 ;
 return
-DeferredFromGenerator
+DeferredFromTextureGenerator
 (
 std
 :

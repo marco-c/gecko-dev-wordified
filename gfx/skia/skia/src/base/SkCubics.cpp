@@ -104,15 +104,6 @@ include
 cmath
 >
 static
-constexpr
-double
-PI
-=
-3
-.
-141592653589793
-;
-static
 bool
 nearly_equal
 (
@@ -771,7 +762,7 @@ theta
 +
 2
 *
-PI
+SK_DoublePI
 )
 /
 3
@@ -811,7 +802,7 @@ theta
 -
 2
 *
-PI
+SK_DoublePI
 )
 /
 3

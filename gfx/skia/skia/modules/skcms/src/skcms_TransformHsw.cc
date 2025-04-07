@@ -278,10 +278,8 @@ char
 dst
 int
 n
-const
 size_t
 src_bpp
-const
 size_t
 dst_bpp
 )

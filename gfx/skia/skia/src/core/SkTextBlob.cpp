@@ -406,7 +406,7 @@ mul
 glyphCount
 sizeof
 (
-uint16_t
+SkGlyphID
 )
 )
 posSize
@@ -741,7 +741,7 @@ fCount
 <
 =
 (
-uint16_t
+SkGlyphID
 *
 )
 posBuffer
@@ -2015,7 +2015,7 @@ glyphCount
 *
 sizeof
 (
-uint16_t
+SkGlyphID
 )
 SkTextEncoding
 :
@@ -5090,7 +5090,7 @@ glyphCount
 *
 sizeof
 (
-uint16_t
+SkGlyphID
 )
 )
 ;
@@ -5414,7 +5414,7 @@ mul
 glyphCount
 sizeof
 (
-uint16_t
+SkGlyphID
 )
 )
 posSize

@@ -469,6 +469,11 @@ store_101010x_XR
 \
 M
 (
+store_10101010_XR
+)
+\
+M
+(
 store_hhh
 )
 \
@@ -736,10 +741,8 @@ char
 dst
 int
 n
-const
 size_t
 src_bpp
-const
 size_t
 dst_bpp
 )
@@ -771,10 +774,8 @@ char
 dst
 int
 n
-const
 size_t
 src_bpp
-const
 size_t
 dst_bpp
 )
@@ -806,10 +807,8 @@ char
 dst
 int
 n
-const
 size_t
 src_bpp
-const
 size_t
 dst_bpp
 )

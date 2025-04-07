@@ -108,9 +108,6 @@ graphite
 class
 BackendTextureData
 ;
-struct
-VulkanTextureInfo
-;
 class
 SK_API
 BackendTexture

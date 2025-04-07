@@ -947,7 +947,7 @@ fDstColorSpace
 dstAT
 }
 .
-flags
+fFlags
 .
 mask
 (

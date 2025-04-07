@@ -509,7 +509,10 @@ fCoords
 [
 2
 *
-SkRasterPipeline_kMaxStride
+SkRasterPipelineContexts
+:
+:
+kMaxStride
 ]
 ;
 float
@@ -517,7 +520,10 @@ fRes0
 [
 4
 *
-SkRasterPipeline_kMaxStride
+SkRasterPipelineContexts
+:
+:
+kMaxStride
 ]
 ;
 }

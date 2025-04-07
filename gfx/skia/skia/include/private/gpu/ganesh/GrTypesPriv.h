@@ -3363,6 +3363,16 @@ GrColorType
 kUnknown
 kAlpha_8
 kBGR_565
+/
+/
+This
+corresponds
+to
+kRGB_565_SkColorType
+which
+is
+misnamed
+.
 kRGB_565
 kABGR_4444
 /

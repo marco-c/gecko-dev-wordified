@@ -610,7 +610,7 @@ const
 SkFont
 &
 const
-uint16_t
+SkGlyphID
 glyphs
 [
 ]
@@ -792,7 +792,7 @@ fCount
 ;
 }
 const
-uint16_t
+SkGlyphID
 *
 glyphs
 (
@@ -811,12 +811,12 @@ skia_private
 AutoSTArray
 <
 32
-uint16_t
+SkGlyphID
 >
 fStorage
 ;
 const
-uint16_t
+SkGlyphID
 *
 fGlyphs
 ;

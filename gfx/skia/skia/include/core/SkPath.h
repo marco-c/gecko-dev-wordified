@@ -14321,7 +14321,10 @@ validated
 by
 /
 /
-sk_path_analyze_verbs
+SkPathPriv
+:
+:
+AnalyzeVerbs
 (
 )
 .

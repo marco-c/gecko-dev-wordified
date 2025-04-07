@@ -497,7 +497,10 @@ static
 void
 load_color
 (
-SkRasterPipeline_UniformColorCtx
+SkRasterPipelineContexts
+:
+:
+UniformColorCtx
 *
 ctx
 const
@@ -886,7 +889,10 @@ I
 return
 ;
 }
-SkRasterPipeline_UniformColorCtx
+SkRasterPipelineContexts
+:
+:
+UniformColorCtx
 *
 uniformCtx
 =
@@ -934,7 +940,10 @@ alloc
 .
 make
 <
-SkRasterPipeline_UniformColorCtx
+SkRasterPipelineContexts
+:
+:
+UniformColorCtx
 >
 (
 )

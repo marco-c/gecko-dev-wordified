@@ -195,7 +195,6 @@ char
 string
 [
 ]
-const
 char
 prefixChar
 )
@@ -238,7 +237,6 @@ char
 string
 [
 ]
-const
 char
 suffixChar
 )
@@ -320,7 +318,6 @@ char
 string
 [
 ]
-const
 char
 subchar
 )
@@ -411,7 +408,6 @@ char
 string
 [
 ]
-const
 char
 subchar
 )
@@ -1167,7 +1163,6 @@ prefixStr
 bool
 startsWith
 (
-const
 char
 prefixChar
 )
@@ -1213,7 +1208,6 @@ suffixStr
 bool
 endsWith
 (
-const
 char
 suffixChar
 )
@@ -1259,7 +1253,6 @@ substring
 bool
 contains
 (
-const
 char
 subchar
 )
@@ -1305,7 +1298,6 @@ substring
 int
 findLastOf
 (
-const
 char
 subchar
 )

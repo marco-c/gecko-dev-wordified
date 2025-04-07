@@ -640,6 +640,7 @@ style
 &
 isFixedPitch
 nullptr
+nullptr
 )
 )
 {

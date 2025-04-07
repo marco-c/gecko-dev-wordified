@@ -162,6 +162,17 @@ include
 /
 core
 /
+SkTypeface
+.
+h
+"
+#
+include
+"
+include
+/
+core
+/
 SkTypes
 .
 h
@@ -1177,7 +1188,7 @@ skia_private
 :
 THashMap
 <
-uint32_t
+SkTypefaceID
 std
 :
 :
@@ -1193,7 +1204,7 @@ skia_private
 :
 THashMap
 <
-uint32_t
+SkTypefaceID
 std
 :
 :
@@ -1209,7 +1220,7 @@ skia_private
 :
 THashMap
 <
-uint32_t
+SkTypefaceID
 std
 :
 :
@@ -1225,7 +1236,7 @@ skia_private
 :
 THashMap
 <
-uint32_t
+SkTypefaceID
 skia_private
 :
 :
@@ -1242,7 +1253,7 @@ skia_private
 :
 THashMap
 <
-uint32_t
+SkTypefaceID
 SkPDFIndirectReference
 >
 fFontDescriptors
@@ -1252,7 +1263,7 @@ skia_private
 :
 THashMap
 <
-uint32_t
+SkTypefaceID
 SkPDFIndirectReference
 >
 fType3FontDescriptors

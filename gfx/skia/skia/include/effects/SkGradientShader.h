@@ -783,9 +783,13 @@ kOKLCHGamutMap
 kSRGB
 kHSL
 kHWB
+kDisplayP3
+kRec2020
+kProphotoRGB
+kA98RGB
 kLastColorSpace
 =
-kHWB
+kA98RGB
 }
 ;
 static

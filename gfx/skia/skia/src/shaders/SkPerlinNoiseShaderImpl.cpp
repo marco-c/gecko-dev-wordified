@@ -666,7 +666,10 @@ fAlloc
 >
 make
 <
-SkRasterPipeline_PerlinNoiseCtx
+SkRasterPipelineContexts
+:
+:
+PerlinNoiseCtx
 >
 (
 )
