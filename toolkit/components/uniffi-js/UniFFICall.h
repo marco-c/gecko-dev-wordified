@@ -364,7 +364,7 @@ Optional
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aDest
@@ -644,7 +644,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -784,7 +784,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -847,7 +847,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -991,7 +991,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
@@ -1219,7 +1219,7 @@ Sequence
 dom
 :
 :
-UniFFIScaffoldingValue
+OwningUniFFIScaffoldingValue
 >
 &
 aArgs
