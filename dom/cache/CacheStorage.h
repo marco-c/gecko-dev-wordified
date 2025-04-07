@@ -322,6 +322,17 @@ JSObject
 aGlobal
 )
 ;
+static
+bool
+CachesEnabled
+(
+JSContext
+*
+aCx
+JSObject
+*
+)
+;
 /
 /
 webidl

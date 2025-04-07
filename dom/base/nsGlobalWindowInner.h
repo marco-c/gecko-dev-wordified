@@ -2549,17 +2549,6 @@ JSObject
 *
 )
 ;
-static
-bool
-CachesEnabled
-(
-JSContext
-*
-aCx
-JSObject
-*
-)
-;
 /
 /
 WebIDL
