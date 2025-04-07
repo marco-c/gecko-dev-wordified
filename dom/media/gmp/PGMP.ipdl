@@ -94,6 +94,9 @@ MPL
 *
 /
 include
+CrashReporterInitArgs
+;
+include
 PrefsTypes
 ;
 include
@@ -255,8 +258,8 @@ parent
 async
 InitCrashReporter
 (
-NativeThreadId
-threadId
+CrashReporterInitArgs
+aInitArgs
 )
 ;
 async
