@@ -28797,6 +28797,10 @@ strip
 .
 split
 (
+"
+\
+n
+"
 )
                 
 self
