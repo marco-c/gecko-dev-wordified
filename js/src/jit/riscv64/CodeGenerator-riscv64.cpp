@@ -2156,13 +2156,13 @@ flags
 wasm
 :
 :
-BytecodeOffset
+TrapSiteDesc
 off
 =
 ool
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 ;
@@ -2968,7 +2968,7 @@ IntegerDivideByZero
 lir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 )
@@ -3087,7 +3087,7 @@ IntegerOverflow
 lir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 )
@@ -3257,7 +3257,7 @@ IntegerDivideByZero
 lir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 )
@@ -6844,7 +6844,7 @@ IntegerDivideByZero
 mir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 )
@@ -7068,7 +7068,7 @@ IntegerOverflow
 mir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 )
@@ -8199,7 +8199,7 @@ IntegerDivideByZero
 mir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 )
@@ -15153,7 +15153,7 @@ IntegerDivideByZero
 ins
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 )
@@ -15745,7 +15745,7 @@ OutOfBounds
 mir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 )
@@ -15846,7 +15846,7 @@ OutOfBounds
 mir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 )
