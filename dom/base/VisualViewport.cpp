@@ -1797,7 +1797,7 @@ RefreshDriver
 )
 -
 >
-PostVisualViewportScrollEvent
+PostScrollEvent
 (
 this
 )
