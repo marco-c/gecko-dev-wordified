@@ -586,6 +586,13 @@ Animation
 :
 ProgressTimelinePosition
 aProgressTimelinePosition
+EndpointBehavior
+aEndpointBehavior
+=
+EndpointBehavior
+:
+:
+Exclusive
 )
 ;
 /
@@ -619,6 +626,13 @@ TimingParams
 aTiming
 =
 nullptr
+EndpointBehavior
+aEndpointBehavior
+=
+EndpointBehavior
+:
+:
+Exclusive
 )
 const
 ;
