@@ -22553,7 +22553,7 @@ stream
 .
 discoverystream
 .
-reportContent
+reportAds
 .
 enabled
 "
