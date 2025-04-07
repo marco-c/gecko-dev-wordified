@@ -668,8 +668,7 @@ isTenured
 ;
 if
 (
-!
-IsBackgroundFinalized
+IsForegroundFinalized
 (
 asTenured
 (
@@ -701,7 +700,7 @@ js
 :
 CurrentThreadCanAccessZone
 (
-zone
+zoneFromAnyThread
 (
 )
 )

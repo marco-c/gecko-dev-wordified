@@ -272,6 +272,15 @@ hasFinalize
 )
 )
 ;
+MOZ_ASSERT
+(
+!
+IsFinalizedKind
+(
+kind
+)
+)
+;
 /
 /
 Note

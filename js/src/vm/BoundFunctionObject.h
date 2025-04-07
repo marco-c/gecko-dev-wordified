@@ -424,7 +424,7 @@ gc
 AllocKind
 :
 :
-OBJECT8_BACKGROUND
+OBJECT8
 ;
 void
 initFlags
