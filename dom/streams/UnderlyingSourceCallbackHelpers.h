@@ -308,7 +308,7 @@ class
 BodyStreamHolder
 ;
 class
-ReadableStreamController
+ReadableStreamControllerBase
 ;
 class
 ReadableStream
@@ -334,7 +334,7 @@ StartCallback
 JSContext
 *
 aCx
-ReadableStreamController
+ReadableStreamControllerBase
 &
 aController
 JS
@@ -383,7 +383,7 @@ PullCallback
 JSContext
 *
 aCx
-ReadableStreamController
+ReadableStreamControllerBase
 &
 aController
 ErrorResult
@@ -797,7 +797,7 @@ StartCallback
 JSContext
 *
 aCx
-ReadableStreamController
+ReadableStreamControllerBase
 &
 aController
 JS
@@ -827,7 +827,7 @@ PullCallback
 JSContext
 *
 aCx
-ReadableStreamController
+ReadableStreamControllerBase
 &
 aController
 ErrorResult
@@ -1083,7 +1083,7 @@ StartCallback
 (
 JSContext
 *
-ReadableStreamController
+ReadableStreamControllerBase
 &
 JS
 :
@@ -1111,7 +1111,7 @@ PullCallback
 JSContext
 *
 aCx
-ReadableStreamController
+ReadableStreamControllerBase
 &
 aController
 ErrorResult
@@ -1163,7 +1163,7 @@ PullCallbackImpl
 JSContext
 *
 aCx
-ReadableStreamController
+ReadableStreamControllerBase
 &
 aController
 ErrorResult
@@ -1677,7 +1677,7 @@ PullCallbackImpl
 JSContext
 *
 aCx
-ReadableStreamController
+ReadableStreamControllerBase
 &
 aController
 ErrorResult
@@ -1949,7 +1949,7 @@ PullCallbackImpl
 JSContext
 *
 aCx
-ReadableStreamController
+ReadableStreamControllerBase
 &
 aController
 ErrorResult

@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_ReadableStreamController_h
+mozilla_dom_ReadableStreamControllerBase_h
 #
 define
-mozilla_dom_ReadableStreamController_h
+mozilla_dom_ReadableStreamControllerBase_h
 #
 include
 "
@@ -174,7 +174,7 @@ class
 ReadableByteStreamController
 ;
 class
-ReadableStreamController
+ReadableStreamControllerBase
 :
 public
 nsISupports
@@ -184,9 +184,9 @@ public
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_CLASS
 (
-ReadableStreamController
+ReadableStreamControllerBase
 )
-ReadableStreamController
+ReadableStreamControllerBase
 (
 nsIGlobalObject
 *
@@ -400,7 +400,7 @@ mStream
 ;
 virtual
 ~
-ReadableStreamController
+ReadableStreamControllerBase
 (
 )
 =

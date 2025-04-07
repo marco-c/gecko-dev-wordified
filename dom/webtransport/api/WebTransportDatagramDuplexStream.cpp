@@ -1027,7 +1027,7 @@ PullCallbackImpl
 JSContext
 *
 aCx
-ReadableStreamController
+ReadableStreamControllerBase
 &
 aController
 ErrorResult

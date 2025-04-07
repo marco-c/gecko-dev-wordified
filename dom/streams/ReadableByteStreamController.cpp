@@ -328,7 +328,7 @@ mozilla
 /
 dom
 /
-ReadableStreamController
+ReadableStreamControllerBase
 .
 h
 "
@@ -1205,7 +1205,7 @@ ReadableByteStreamController
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
 ReadableByteStreamController
-ReadableStreamController
+ReadableStreamControllerBase
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
@@ -1218,7 +1218,7 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
 ReadableByteStreamController
-ReadableStreamController
+ReadableStreamControllerBase
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -1230,19 +1230,19 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_TRACE_BEGIN_INHERITED
 (
 ReadableByteStreamController
-ReadableStreamController
+ReadableStreamControllerBase
 )
 NS_IMPL_CYCLE_COLLECTION_TRACE_PRESERVED_WRAPPER
 NS_IMPL_CYCLE_COLLECTION_TRACE_END
 NS_IMPL_ADDREF_INHERITED
 (
 ReadableByteStreamController
-ReadableStreamController
+ReadableStreamControllerBase
 )
 NS_IMPL_RELEASE_INHERITED
 (
 ReadableByteStreamController
-ReadableStreamController
+ReadableStreamControllerBase
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
@@ -1251,7 +1251,7 @@ ReadableByteStreamController
 NS_WRAPPERCACHE_INTERFACE_MAP_ENTRY
 NS_INTERFACE_MAP_END_INHERITING
 (
-ReadableStreamController
+ReadableStreamControllerBase
 )
 ReadableByteStreamController
 :
@@ -1263,7 +1263,7 @@ nsIGlobalObject
 aGlobal
 )
 :
-ReadableStreamController
+ReadableStreamControllerBase
 (
 aGlobal
 )
@@ -3939,7 +3939,7 @@ Step
 .
 RefPtr
 <
-ReadableStreamController
+ReadableStreamControllerBase
 >
 controller
 (
@@ -14791,7 +14791,7 @@ UndefinedValue
 ;
 RefPtr
 <
-ReadableStreamController
+ReadableStreamControllerBase
 >
 controller
 =

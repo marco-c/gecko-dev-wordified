@@ -194,7 +194,7 @@ mozilla
 /
 dom
 /
-ReadableStreamController
+ReadableStreamControllerBase
 .
 h
 "
@@ -289,7 +289,7 @@ ReadableStreamDefaultController
 final
 :
 public
-ReadableStreamController
+ReadableStreamControllerBase
 public
 nsWrapperCache
 {
@@ -299,7 +299,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 (
 ReadableStreamDefaultController
-ReadableStreamController
+ReadableStreamControllerBase
 )
 public
 :

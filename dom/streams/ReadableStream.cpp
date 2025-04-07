@@ -372,7 +372,7 @@ mozilla
 /
 dom
 /
-ReadableStreamController
+ReadableStreamControllerBase
 .
 h
 "
@@ -1786,7 +1786,7 @@ PullCallbackImpl
 JSContext
 *
 aCx
-ReadableStreamController
+ReadableStreamControllerBase
 &
 aController
 ErrorResult
@@ -4428,7 +4428,7 @@ Step
 .
 RefPtr
 <
-ReadableStreamController
+ReadableStreamControllerBase
 >
 controller
 (
