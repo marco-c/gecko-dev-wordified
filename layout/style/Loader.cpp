@@ -5199,6 +5199,11 @@ contentType16
 contentType
 )
 ;
+nsAutoCString
+referrerSpec
+;
+if
+(
 nsCOMPtr
 <
 nsIURI
@@ -5213,10 +5218,8 @@ ReferrerInfo
 GetOriginalReferrer
 (
 )
-;
-nsAutoCString
-referrerSpec
-;
+)
+{
 referrer
 -
 >
@@ -5225,6 +5228,7 @@ GetSpec
 referrerSpec
 )
 ;
+}
 mLoader
 -
 >
