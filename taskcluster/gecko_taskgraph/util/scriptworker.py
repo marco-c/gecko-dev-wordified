@@ -4734,6 +4734,20 @@ the
 month
                 
 "
+day
+"
+:
+upload_date
+.
+strftime
+(
+"
+%
+d
+"
+)
+                
+"
 upload_date
 "
 :
@@ -4761,6 +4775,19 @@ M
 S
 "
 )
+                
+"
+head_rev
+"
+:
+config
+.
+params
+[
+"
+head_rev
+"
+]
             
 }
         
