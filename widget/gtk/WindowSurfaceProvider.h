@@ -400,12 +400,6 @@ const
 LayoutDeviceIntRegion
 &
 aInvalidRegion
-layers
-:
-:
-BufferMode
-*
-aBufferMode
 )
 ;
 void

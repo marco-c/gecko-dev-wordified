@@ -237,12 +237,6 @@ const
 LayoutDeviceIntRegion
 &
 aInvalidRegion
-layers
-:
-:
-BufferMode
-*
-aBufferMode
 )
 {
 if

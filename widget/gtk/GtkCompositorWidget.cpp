@@ -539,12 +539,6 @@ const
 LayoutDeviceIntRegion
 &
 aInvalidRegion
-layers
-:
-:
-BufferMode
-*
-aBufferMode
 )
 {
 return
@@ -553,7 +547,6 @@ mProvider
 StartRemoteDrawingInRegion
 (
 aInvalidRegion
-aBufferMode
 )
 ;
 }

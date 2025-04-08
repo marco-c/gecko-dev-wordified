@@ -726,16 +726,6 @@ mozilla
 layers
 :
 :
-BufferMode
-BufferMode
-;
-typedef
-mozilla
-:
-:
-layers
-:
-:
 CompositorBridgeChild
 CompositorBridgeChild
 ;
@@ -2439,8 +2429,6 @@ aWidget
 gfxContext
 *
 aTarget
-BufferMode
-aDoubleBuffering
 )
 ;
 ~
@@ -2760,9 +2748,6 @@ const
 LayoutDeviceIntRegion
 &
 aInvalidRegion
-BufferMode
-*
-aBufferMode
 )
 {
 return
