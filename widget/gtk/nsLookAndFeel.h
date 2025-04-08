@@ -848,6 +848,11 @@ mTitlebarRadius
 0
 ;
 int32_t
+mTooltipRadius
+=
+0
+;
+int32_t
 mTitlebarButtonSpacing
 =
 0

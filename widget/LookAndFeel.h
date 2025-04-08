@@ -1489,6 +1489,15 @@ TitlebarButtonSpacing
 /
 *
 *
+GTK
+tooltip
+radius
+*
+/
+TooltipRadius
+/
+*
+*
 *
 Corresponding
 to

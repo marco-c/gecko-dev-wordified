@@ -1070,6 +1070,11 @@ titlebarButtonSpacing
 "
 ui
 .
+tooltipRadius
+"
+"
+ui
+.
 dynamicRange
 "
 "
