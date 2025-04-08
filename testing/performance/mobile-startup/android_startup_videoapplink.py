@@ -65,6 +65,12 @@ import
 sys
 import
 time
+from
+mozperftest
+.
+utils
+import
+ON_TRY
 #
 Add
 the
@@ -544,6 +550,10 @@ self
 )
 :
         
+if
+ON_TRY
+:
+            
 self
 .
 device
