@@ -163,6 +163,18 @@ str
 =
 None
         
+uploader_capabilities
+:
+Optional
+[
+List
+[
+str
+]
+]
+=
+None
+        
 include_client_id
 :
 bool
@@ -383,6 +395,22 @@ self
 data_reviews
 =
 data_reviews
+        
+if
+not
+uploader_capabilities
+:
+            
+uploader_capabilities
+=
+[
+]
+        
+self
+.
+uploader_capabilities
+=
+uploader_capabilities
         
 self
 .

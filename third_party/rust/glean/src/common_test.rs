@@ -460,6 +460,10 @@ vec
 [
 ]
 true
+vec
+!
+[
+]
 )
 ;
 crate

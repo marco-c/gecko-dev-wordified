@@ -609,6 +609,9 @@ return_type
 return_type
 |
 ffi_type_name
+(
+ci
+)
 }
 }
     
@@ -656,6 +659,9 @@ borrow
 )
 |
 ffi_type_name
+(
+ci
+)
 }
 }
     
@@ -768,6 +774,9 @@ borrow
 )
 |
 ffi_type_name
+(
+ci
+)
 }
 }
 )
@@ -852,7 +861,6 @@ return_type
 %
 when
 Some
-with
 (
 type_
 )
@@ -863,6 +871,9 @@ type_
 type_
 |
 ffi_type_name
+(
+ci
+)
 }
 }
 {

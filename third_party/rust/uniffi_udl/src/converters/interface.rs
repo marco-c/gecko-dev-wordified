@@ -957,6 +957,13 @@ object_name
 to_string
 (
 )
+remote
+:
+attributes
+.
+contains_remote
+(
+)
 imp
 :
 object_impl

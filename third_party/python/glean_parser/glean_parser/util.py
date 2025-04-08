@@ -3698,6 +3698,10 @@ reason_codes
 "
 follows_collection_enabled
 "
+    
+"
+uploader_capabilities
+"
 ]
 #
 Names

@@ -1651,7 +1651,6 @@ val
 }
 /
 /
-/
 We
 also
 have
@@ -1670,7 +1669,6 @@ T
 which
 /
 /
-/
 is
 represented
 inside
@@ -1687,12 +1685,10 @@ T
 include
 /
 /
-/
 Bookmarks
 or
 Tabs
 .
-/
 /
 /
 See
@@ -1703,8 +1699,6 @@ for
 the
 implementations
 .
-/
-/
 /
 /
 /
@@ -1721,13 +1715,11 @@ way
 :
 /
 /
-/
 *
 Incoming
 encrypted
 data
 :
-/
 /
 /
 EncryptedIncomingBso
@@ -1748,13 +1740,11 @@ T
 >
 /
 /
-/
 *
 Incoming
 cleartext
 data
 :
-/
 /
 /
 IncomingBso
@@ -1764,7 +1754,6 @@ IncomingContent
 <
 T
 >
-/
 /
 /
 (
@@ -1780,7 +1769,6 @@ few
 collections
 managed
 by
-/
 /
 /
 the
@@ -1800,13 +1788,11 @@ encryted
 )
 /
 /
-/
 *
 Outgoing
 encrypted
 data
 :
-/
 /
 /
 OutgoingBso
@@ -1825,7 +1811,6 @@ crate
 -
 >
 EncryptedOutgoingBso
-/
 /
 /
 *
