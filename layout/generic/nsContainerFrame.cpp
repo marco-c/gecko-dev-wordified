@@ -16769,6 +16769,12 @@ StyleMargin
 HasInlineAxisAuto
 (
 aWM
+StyleDisplay
+(
+)
+-
+>
+mPosition
 )
 )
 {
@@ -17265,6 +17271,12 @@ StyleMargin
 HasBlockAxisAuto
 (
 aWM
+StyleDisplay
+(
+)
+-
+>
+mPosition
 )
 )
 {
