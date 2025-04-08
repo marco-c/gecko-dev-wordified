@@ -244,9 +244,6 @@ gfx
 class
 FileHandleWrapper
 ;
-struct
-FenceInfo
-;
 }
 /
 /
@@ -2218,11 +2215,14 @@ bool
 mHasKeyedMutex
 ;
 const
-gfx
+Maybe
+<
+layers
 :
 :
-FenceInfo
-mAcquireFenceInfo
+GpuProcessFencesHolderId
+>
+mFencesHolderId
 ;
 const
 gfx

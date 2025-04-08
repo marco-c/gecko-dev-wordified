@@ -1585,7 +1585,7 @@ hasKeyedMutex
 false
 /
 *
-fenceInfo
+fencesHolderId
 *
 /
 Nothing
