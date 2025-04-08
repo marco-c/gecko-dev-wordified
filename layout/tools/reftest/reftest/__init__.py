@@ -59,8 +59,6 @@ import
 os
 import
 re
-import
-six
 RE_COMMENT
 =
 re
@@ -1266,13 +1264,20 @@ i
 +
 1
             
-line
-=
-six
-.
-ensure_text
+if
+isinstance
 (
 line
+bytes
+)
+:
+                
+line
+=
+line
+.
+decode
+(
 )
             
 #

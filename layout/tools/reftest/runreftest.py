@@ -178,17 +178,6 @@ mozscreenshot
 import
 dump_screen
 printstatus
-from
-six
-import
-reraise
-string_types
-from
-six
-.
-moves
-import
-range
 try
 :
     
@@ -7304,6 +7293,8 @@ delete_session
             
 except
 IOError
+as
+e
 :
                 
 #
@@ -7365,11 +7356,7 @@ first
                 
 marionette_exception
 =
-sys
-.
-exc_info
-(
-)
+e
         
 status
 =
@@ -7663,19 +7650,8 @@ not
 None
 :
             
-exc
-value
-tb
-=
-marionette_exception
-            
 raise
-reraise
-(
-exc
-value
-tb
-)
+marionette_exception
         
 self
 .
@@ -8072,7 +8048,7 @@ isinstance
 self
 .
 lastTest
-string_types
+str
 )
 :
                     
@@ -8349,7 +8325,7 @@ not
 isinstance
 (
 test_id
-string_types
+str
 )
 :
                 
