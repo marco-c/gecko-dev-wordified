@@ -221,17 +221,15 @@ The
 set
 -
 digests
-here
 implement
-various
 "
 filters
 "
 that
 support
-*
 "
 approximate
+*
 member
 query
 "
@@ -241,9 +239,9 @@ these
 are
 like
 Bloom
-*
 Filter
 and
+*
 Quotient
 Filter
 however
@@ -251,8 +249,8 @@ much
 smaller
 faster
 and
-*
 designed
+*
 to
 fit
 the
@@ -263,7 +261,6 @@ uses
 for
 glyph
 coverage
-*
 queries
 .
 *

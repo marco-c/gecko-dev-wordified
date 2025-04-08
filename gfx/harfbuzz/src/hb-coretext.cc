@@ -1028,7 +1028,7 @@ blob
 TTC
 index
 %
-d
+u
 not
 supported
 "
@@ -2351,7 +2351,7 @@ nullptr
 TTC
 index
 %
-d
+u
 not
 supported
 "

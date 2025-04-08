@@ -280,7 +280,11 @@ point
 *
 slant_xy
 :
-(
+Slanting
+factor
+for
+synthetic
+oblique
 Since
 :
 11
@@ -288,13 +292,6 @@ Since
 0
 .
 0
-)
-:
-Slanting
-factor
-for
-synthetic
-oblique
 *
 *
 Current

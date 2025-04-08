@@ -651,6 +651,7 @@ std
 :
 atomic
 <
+typename
 std
 :
 :
@@ -701,6 +702,7 @@ std
 :
 atomic
 <
+typename
 std
 :
 :
@@ -751,6 +753,7 @@ std
 :
 atomic
 <
+typename
 std
 :
 :
@@ -800,6 +803,7 @@ std
 :
 atomic
 <
+typename
 std
 :
 :
@@ -847,6 +851,7 @@ std
 :
 atomic
 <
+typename
 std
 :
 :

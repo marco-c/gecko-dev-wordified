@@ -725,8 +725,6 @@ rangeRecord
 .
 len
 )
-/
-2
 )
 {
 for

@@ -5865,7 +5865,7 @@ for
 run
 -
 time
-santization
+sanitization
 *
 /
 sc

@@ -347,8 +347,6 @@ pairSet
 .
 len
 )
-/
-4
 )
 {
 for
