@@ -98,10 +98,6 @@ wait
 import
 Wait
 from
-six
-import
-reraise
-from
 telemetry_harness
 .
 ping_server
@@ -1688,13 +1684,10 @@ exc_info
 (
 )
             
-reraise
-(
-                
-exc_type
-                
+raise
 exc_type
 (
+                
 "
 Failed
 to
@@ -1712,10 +1705,12 @@ format
 (
 exc_value
 )
-)
-                
-exc_traceback
             
+)
+.
+with_traceback
+(
+exc_traceback
 )
         
 else

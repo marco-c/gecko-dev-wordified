@@ -61,6 +61,10 @@ from
 collections
 import
 defaultdict
+from
+io
+import
+StringIO
 import
 buildconfig
 import
@@ -83,10 +87,6 @@ mozbuild
 util
 import
 FileAvoidWrite
-from
-six
-import
-StringIO
 VALID_KEYS
 =
 {
