@@ -2634,9 +2634,8 @@ tell
 cellFrame
 -
 >
-BlockDirAlignChild
+AlignChildWithinCell
 (
-wm
 mMaxCellAscent
 aForceAlignTop
 )
@@ -7128,7 +7127,7 @@ wm
 /
 Note
 :
-BlockDirAlignChild
+AlignChildWithinCell
 can
 affect
 the
@@ -7178,9 +7177,8 @@ isCompleteAndNotTruncated
 aCellFrame
 -
 >
-BlockDirAlignChild
+AlignChildWithinCell
 (
-wm
 mMaxCellAscent
 ForceAlignTopForTableCell
 :
