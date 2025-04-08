@@ -150,6 +150,14 @@ enforceDefaultLimits
 ;
 globalTestConfig
 .
+blockAllFeatures
+=
+ctsOptions
+.
+blockAllFeatures
+;
+globalTestConfig
+.
 logToWebSocket
 =
 ctsOptions

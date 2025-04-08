@@ -79,6 +79,9 @@ false
 enforceDefaultLimits
 :
 false
+blockAllFeatures
+:
+false
 logToWebSocket
 :
 false

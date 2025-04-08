@@ -419,6 +419,14 @@ enforceDefaultLimits
 ;
 globalTestConfig
 .
+blockAllFeatures
+=
+options
+.
+blockAllFeatures
+;
+globalTestConfig
+.
 logToWebSocket
 =
 options
