@@ -24279,7 +24279,6 @@ const
 {
 const
 auto
-&
 bSize
 =
 StylePosition
@@ -24292,11 +24291,18 @@ BSize
 GetWritingMode
 (
 )
+StyleDisplay
+(
+)
+-
+>
+mPosition
 )
 ;
 return
 IsIntrinsicKeyword
 (
+*
 bSize
 )
 ;

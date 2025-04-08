@@ -1703,10 +1703,7 @@ nsROCSSPrimitiveValue
 *
 aValue
 const
-mozilla
-:
-:
-StyleSize
+AnchorResolvedSize
 &
 )
 ;
@@ -1757,10 +1754,7 @@ nsROCSSPrimitiveValue
 *
 aValue
 const
-mozilla
-:
-:
-StyleMaxSize
+AnchorResolvedMaxSize
 &
 )
 ;

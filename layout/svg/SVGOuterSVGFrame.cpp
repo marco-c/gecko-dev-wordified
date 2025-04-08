@@ -1351,8 +1351,15 @@ StylePosition
 ISize
 (
 wm
+StyleDisplay
+(
 )
-.
+-
+>
+mPosition
+)
+-
+>
 HasPercent
 (
 )
