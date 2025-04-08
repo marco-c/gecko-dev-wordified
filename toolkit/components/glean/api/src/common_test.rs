@@ -234,6 +234,10 @@ vec
 [
 ]
 true
+vec
+!
+[
+]
 )
 ;
 let
