@@ -16004,7 +16004,7 @@ aSizeOverrides
 .
 mStyleISize
 ?
-AnchorResolvedSize
+AnchorResolvedSizeHelper
 :
 :
 Overridden
@@ -16066,7 +16066,7 @@ aSizeOverrides
 .
 mStyleBSize
 ?
-AnchorResolvedSize
+AnchorResolvedSizeHelper
 :
 :
 Overridden

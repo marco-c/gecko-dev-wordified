@@ -1433,7 +1433,7 @@ BehavesLikeStretchOnInlineAxis
 {
 maxISize
 =
-AnchorResolvedMaxSize
+AnchorResolvedMaxSizeHelper
 :
 :
 None
@@ -1506,7 +1506,7 @@ content
 '
 maxISize
 =
-AnchorResolvedMaxSize
+AnchorResolvedMaxSizeHelper
 :
 :
 MaxContent
@@ -1701,7 +1701,7 @@ BehavesLikeStretchOnInlineAxis
 {
 minISize
 =
-AnchorResolvedSize
+AnchorResolvedSizeHelper
 :
 :
 Zero
@@ -1774,7 +1774,7 @@ content
 '
 minISize
 =
-AnchorResolvedSize
+AnchorResolvedSizeHelper
 :
 :
 MinContent
