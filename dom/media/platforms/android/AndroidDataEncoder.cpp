@@ -1528,6 +1528,13 @@ MOZ_ASSERT
 sample
 )
 ;
+mInputSampleDuration
+=
+aSample
+-
+>
+mDuration
+;
 /
 /
 Bug
@@ -2502,6 +2509,13 @@ FromMicroseconds
 (
 presentationTimeUs
 )
+;
+output
+-
+>
+mDuration
+=
+mInputSampleDuration
 ;
 mEncodedData
 .
