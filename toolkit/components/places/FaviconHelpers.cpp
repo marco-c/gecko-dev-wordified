@@ -247,15 +247,6 @@ include
 "
 mozilla
 /
-Telemetry
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPrefs_network
 .
 h

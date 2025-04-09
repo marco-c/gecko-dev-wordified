@@ -240,15 +240,6 @@ PresShell
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Telemetry
-.
-h
-"
 using
 namespace
 mozilla

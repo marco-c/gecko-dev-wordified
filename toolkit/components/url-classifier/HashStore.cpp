@@ -415,15 +415,6 @@ nsUrlClassifierDBService
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Telemetry
-.
-h
-"
 /
 /
 Main

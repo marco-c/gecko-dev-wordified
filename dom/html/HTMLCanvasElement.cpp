@@ -422,15 +422,6 @@ include
 "
 mozilla
 /
-Telemetry
-.
-h
-"
-#
-include
-"
-mozilla
-/
 webgpu
 /
 CanvasContext

@@ -339,15 +339,6 @@ h
 #
 include
 "
-mozilla
-/
-Telemetry
-.
-h
-"
-#
-include
-"
 nsAboutProtocolUtils
 .
 h

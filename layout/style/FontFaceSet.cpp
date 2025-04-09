@@ -401,15 +401,6 @@ include
 "
 mozilla
 /
-Telemetry
-.
-h
-"
-#
-include
-"
-mozilla
-/
 LoadInfo
 .
 h

@@ -168,15 +168,6 @@ h
 #
 include
 "
-mozilla
-/
-Telemetry
-.
-h
-"
-#
-include
-"
 BackgroundChild
 .
 h

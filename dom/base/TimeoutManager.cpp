@@ -178,15 +178,6 @@ include
 "
 mozilla
 /
-Telemetry
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ThrottledEventQueue
 .
 h

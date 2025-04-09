@@ -375,15 +375,6 @@ h
 #
 include
 "
-mozilla
-/
-Telemetry
-.
-h
-"
-#
-include
-"
 BatteryManager
 .
 h

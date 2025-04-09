@@ -294,15 +294,6 @@ include
 "
 mozilla
 /
-Telemetry
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TextControlElement
 .
 h

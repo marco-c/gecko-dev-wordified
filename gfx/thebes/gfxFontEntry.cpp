@@ -318,15 +318,6 @@ h
 #
 include
 "
-mozilla
-/
-Telemetry
-.
-h
-"
-#
-include
-"
 gfxSVGGlyphs
 .
 h

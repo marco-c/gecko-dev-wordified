@@ -349,15 +349,6 @@ include
 "
 mozilla
 /
-Telemetry
-.
-h
-"
-#
-include
-"
-mozilla
-/
 webrender
 /
 RendererOGL

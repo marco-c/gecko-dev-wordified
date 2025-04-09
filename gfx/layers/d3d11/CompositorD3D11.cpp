@@ -308,15 +308,6 @@ h
 #
 include
 "
-mozilla
-/
-Telemetry
-.
-h
-"
-#
-include
-"
 D3D11ShareHandleImage
 .
 h

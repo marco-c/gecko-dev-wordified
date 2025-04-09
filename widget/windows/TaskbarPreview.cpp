@@ -226,15 +226,6 @@ StaticPrefs_layout
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Telemetry
-.
-h
-"
 /
 /
 Defined

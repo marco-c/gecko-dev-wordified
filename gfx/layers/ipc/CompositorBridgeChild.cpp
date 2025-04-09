@@ -383,15 +383,6 @@ etc
 #
 include
 "
-mozilla
-/
-Telemetry
-.
-h
-"
-#
-include
-"
 gfxConfig
 .
 h

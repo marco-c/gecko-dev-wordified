@@ -201,15 +201,6 @@ include
 "
 mozilla
 /
-Telemetry
-.
-h
-"
-#
-include
-"
-mozilla
-/
 UniquePtrExtensions
 .
 h

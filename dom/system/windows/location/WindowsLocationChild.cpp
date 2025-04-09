@@ -160,15 +160,6 @@ h
 #
 include
 "
-mozilla
-/
-Telemetry
-.
-h
-"
-#
-include
-"
 nsIGeolocationProvider
 .
 h

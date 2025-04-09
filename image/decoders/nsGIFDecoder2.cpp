@@ -428,15 +428,6 @@ include
 <
 algorithm
 >
-#
-include
-"
-mozilla
-/
-Telemetry
-.
-h
-"
 using
 namespace
 mozilla
