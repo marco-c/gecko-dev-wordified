@@ -171,9 +171,22 @@ c
 {
 }
     
-execfile
+with
+open
 (
 configfile
+)
+as
+config
+:
+        
+exec
+(
+config
+.
+read
+(
+)
 c
 )
     
@@ -695,9 +708,6 @@ with
 open
 (
 path
-"
-rb
-"
 )
 as
 fh
