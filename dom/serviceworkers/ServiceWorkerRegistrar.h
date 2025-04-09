@@ -134,15 +134,6 @@ include
 "
 mozilla
 /
-Telemetry
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 ServiceWorkerRegistrarTypes

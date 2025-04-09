@@ -106,15 +106,6 @@ include
 "
 mozilla
 /
-Telemetry
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TimeStamp
 .
 h
