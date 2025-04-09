@@ -217,6 +217,13 @@ h
 /
 /
 JS_DefineProperty
+#
+include
+"
+GIFFTFwd
+.
+h
+"
 namespace
 mozilla
 :
@@ -302,7 +309,7 @@ sample
 aSamples
 )
 {
-Telemetry
+TelemetryHistogram
 :
 :
 Accumulate
@@ -366,7 +373,7 @@ sample
 aSamples
 )
 {
-Telemetry
+TelemetryHistogram
 :
 :
 Accumulate
@@ -449,7 +456,7 @@ extract
 (
 )
 ;
-Telemetry
+TelemetryHistogram
 :
 :
 Accumulate
@@ -504,7 +511,7 @@ if
 tuple
 )
 {
-Telemetry
+TelemetryHistogram
 :
 :
 Accumulate
@@ -628,7 +635,7 @@ sample
 aSamples
 )
 {
-Telemetry
+TelemetryHistogram
 :
 :
 Accumulate
@@ -692,7 +699,7 @@ sample
 aSamples
 )
 {
-Telemetry
+TelemetryHistogram
 :
 :
 Accumulate
@@ -775,7 +782,7 @@ extract
 (
 )
 ;
-Telemetry
+TelemetryHistogram
 :
 :
 Accumulate
@@ -830,7 +837,7 @@ if
 tuple
 )
 {
-Telemetry
+TelemetryHistogram
 :
 :
 Accumulate

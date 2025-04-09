@@ -2210,15 +2210,6 @@ XRE_CleanupX11ErrorHandler
 )
 ;
 void
-XRE_TelemetryAccumulate
-(
-int
-aID
-uint32_t
-aSample
-)
-;
-void
 XRE_StartupTimelineRecord
 (
 int

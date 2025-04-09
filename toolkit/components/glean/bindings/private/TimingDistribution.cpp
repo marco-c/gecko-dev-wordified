@@ -1721,6 +1721,9 @@ case
 /
 /
 Nanos
+TelemetryHistogram
+:
+:
 Accumulate
 (
 mirrorId
@@ -1745,6 +1748,9 @@ case
 /
 /
 Micros
+TelemetryHistogram
+:
+:
 Accumulate
 (
 mirrorId
@@ -1767,6 +1773,9 @@ case
 /
 /
 Millis
+TelemetryHistogram
+:
+:
 Accumulate
 (
 mirrorId
@@ -1789,6 +1798,9 @@ case
 /
 /
 Seconds
+TelemetryHistogram
+:
+:
 Accumulate
 (
 mirrorId
@@ -1811,6 +1823,9 @@ case
 /
 /
 Minutes
+TelemetryHistogram
+:
+:
 Accumulate
 (
 mirrorId
@@ -1835,6 +1850,9 @@ case
 /
 /
 Hours
+TelemetryHistogram
+:
+:
 Accumulate
 (
 mirrorId
@@ -1861,6 +1879,9 @@ case
 /
 /
 Days
+TelemetryHistogram
+:
+:
 Accumulate
 (
 mirrorId
@@ -1949,6 +1970,9 @@ if
 mirrorId
 )
 {
+TelemetryHistogram
+:
+:
 Accumulate
 (
 mirrorId
@@ -2010,6 +2034,9 @@ if
 mirrorId
 )
 {
+TelemetryHistogram
+:
+:
 Accumulate
 (
 mirrorId
@@ -2410,6 +2437,9 @@ optStart
 )
 )
 {
+TelemetryHistogram
+:
+:
 Accumulate
 (
 mirrorId
@@ -2504,6 +2534,9 @@ if
 mirrorId
 )
 {
+TelemetryHistogram
+:
+:
 Accumulate
 (
 mirrorId

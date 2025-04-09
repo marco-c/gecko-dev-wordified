@@ -242,6 +242,13 @@ h
 /
 /
 JS_DefineProperty
+#
+include
+"
+GIFFTFwd
+.
+h
+"
 namespace
 mozilla
 :
@@ -275,7 +282,7 @@ if
 hgramId
 )
 {
-Telemetry
+TelemetryHistogram
 :
 :
 Accumulate
@@ -334,7 +341,7 @@ if
 tuple
 )
 {
-Telemetry
+TelemetryHistogram
 :
 :
 Accumulate
