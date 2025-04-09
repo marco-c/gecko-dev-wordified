@@ -1733,6 +1733,13 @@ documentation
 for
 more
 .
+#
+[
+derive
+(
+Clone
+)
+]
 pub
 struct
 IntoIter
@@ -2987,7 +2994,7 @@ will
 offset
 the
 effective
-indexes
+indices
 .
 Similarly
 if
@@ -3004,7 +3011,7 @@ Slice
 :
 keys
 ]
-indexes
+indices
 will
 be
 interpreted
@@ -3517,8 +3524,6 @@ panics
 /
 impl
 <
-'
-a
 K
 V
 >
@@ -3530,7 +3535,7 @@ for
 Keys
 <
 '
-a
+_
 K
 V
 >
@@ -5157,6 +5162,10 @@ S
 :
 BuildHasher
 {
+#
+[
+track_caller
+]
 pub
 (
 super
@@ -5774,8 +5783,6 @@ BuildHasher
 }
 impl
 <
-'
-a
 I
 K
 V
@@ -5789,7 +5796,7 @@ for
 Splice
 <
 '
-a
+_
 I
 K
 V

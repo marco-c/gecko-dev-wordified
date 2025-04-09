@@ -3855,7 +3855,7 @@ hash_map
 HashMap
 ;
 struct
-Dropable
+Droppable
 <
 '
 a
@@ -3872,7 +3872,7 @@ a
 AtomicUsize
 }
 impl
-Dropable
+Droppable
 <
 '
 _
@@ -3891,7 +3891,7 @@ AtomicUsize
 )
 -
 >
-Dropable
+Droppable
 <
 '
 _
@@ -3908,7 +3908,7 @@ Ordering
 Relaxed
 )
 ;
-Dropable
+Droppable
 {
 k
 counter
@@ -3918,7 +3918,7 @@ counter
 impl
 Drop
 for
-Dropable
+Droppable
 <
 '
 _
@@ -3950,7 +3950,7 @@ Relaxed
 impl
 Clone
 for
-Dropable
+Droppable
 <
 '
 _
@@ -3966,7 +3966,7 @@ self
 >
 Self
 {
-Dropable
+Droppable
 :
 :
 new
@@ -3983,7 +3983,7 @@ counter
 impl
 Hash
 for
-Dropable
+Droppable
 <
 '
 _
@@ -4022,7 +4022,7 @@ state
 impl
 PartialEq
 for
-Dropable
+Droppable
 <
 '
 _
@@ -4055,7 +4055,7 @@ k
 impl
 Eq
 for
-Dropable
+Droppable
 <
 '
 _
@@ -4149,7 +4149,7 @@ in
 let
 d1
 =
-Dropable
+Droppable
 :
 :
 new
@@ -4162,7 +4162,7 @@ key
 let
 d2
 =
-Dropable
+Droppable
 :
 :
 new
@@ -4516,7 +4516,7 @@ in
 let
 d1
 =
-Dropable
+Droppable
 :
 :
 new
@@ -4529,7 +4529,7 @@ key
 let
 d2
 =
-Dropable
+Droppable
 :
 :
 new

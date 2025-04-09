@@ -308,7 +308,6 @@ index
 Valid
 indices
 are
-*
 0
 <
 =
@@ -319,7 +318,7 @@ self
 len
 (
 )
-*
+.
 /
 /
 /

@@ -106,9 +106,7 @@ contains
 i32
 :
 :
-min_value
-(
-)
+MIN
 )
 )
 ;
@@ -180,9 +178,7 @@ contains
 i32
 :
 :
-max_value
-(
-)
+MAX
 )
 )
 ;
@@ -211,9 +207,6 @@ check
 :
 <
 hashbrown
-:
-:
-hash_map
 :
 :
 DefaultHashBuilder
@@ -380,9 +373,7 @@ u64
 u64
 :
 :
-max_value
-(
-)
+MAX
 }
 fn
 write
