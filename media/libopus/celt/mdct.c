@@ -2271,7 +2271,7 @@ bitrev
 ;
 x1
 =
-SHL32
+SHL32_ovflw
 (
 *
 xp1
@@ -2280,7 +2280,7 @@ IMDCT_HEADROOM
 ;
 x2
 =
-SHL32
+SHL32_ovflw
 (
 *
 xp2
