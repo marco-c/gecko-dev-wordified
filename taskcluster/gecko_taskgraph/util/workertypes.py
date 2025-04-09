@@ -696,11 +696,13 @@ project
     
 return
 worker_config
-[
+.
+get
+(
 "
 implementation
 "
-]
+)
 worker_config
 .
 get
