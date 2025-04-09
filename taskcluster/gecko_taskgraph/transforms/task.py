@@ -13695,23 +13695,6 @@ implementation
 =
 worker_implementation
             
-#
-TODO
-:
-Remove
-this
-if
--
-statement
-in
-part
-2
-.
-            
-if
-tag_worker_implementation
-:
-                
 tags
 [
 "
@@ -13739,23 +13722,6 @@ if
 os
 :
             
-#
-TODO
-:
-Remove
-this
-if
--
-statement
-in
-part
-2
-.
-            
-if
-tag_worker_implementation
-:
-                
 tags
 [
 "
@@ -13859,20 +13825,10 @@ v1
 )
 :
         
-#
-TODO
-:
-Return
+return
 "
 scriptworker
 "
-in
-part
-2
-.
-        
-return
-None
     
 return
 worker_implementation
