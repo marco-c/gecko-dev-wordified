@@ -470,14 +470,14 @@ Services
 .
 cache2
 .
-clearOrigin
+clearOriginsByPrincipal
 (
 clearPrincipal
 )
 ;
 /
 /
-clearOrigin
+clearOriginsByPrincipal
 is
 async
 so

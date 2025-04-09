@@ -340,7 +340,7 @@ Services
 .
 cache2
 .
-clearOriginAttributes
+clearOriginsByOriginAttributes
 (
 JSON
 .
@@ -352,7 +352,7 @@ oaClear
 ;
 /
 /
-clearOriginAttributes
+clearOriginsByOriginAttributes
 is
 async
 so

@@ -3934,7 +3934,7 @@ NS_IMETHODIMP
 CacheStorageService
 :
 :
-ClearOrigin
+ClearOriginsByPrincipal
 (
 nsIPrincipal
 *
@@ -4025,7 +4025,7 @@ NS_IMETHODIMP
 CacheStorageService
 :
 :
-ClearOriginAttributes
+ClearOriginsByOriginAttributes
 (
 const
 nsAString
