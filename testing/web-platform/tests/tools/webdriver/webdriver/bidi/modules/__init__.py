@@ -19,6 +19,11 @@ import
 BrowsingContext
 from
 .
+emulation
+import
+Emulation
+from
+.
 input
 import
 Input
