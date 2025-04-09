@@ -1791,6 +1791,7 @@ return
 true
 ;
 }
+virtual
 bool
 PreDispatch
 (
@@ -1798,7 +1799,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-final
+override
 {
 AssertIsOnMainThread
 (
