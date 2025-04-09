@@ -232,7 +232,7 @@ uri
 kBaseURI
 +
 "
-file_bug1045809_1
+file_mixedActiveContent_1
 .
 html
 "
@@ -397,7 +397,7 @@ URI
 .
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 testcase
@@ -488,7 +488,7 @@ secure
 .
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 kSecureURI
@@ -698,7 +698,7 @@ URI
 .
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 testcase
