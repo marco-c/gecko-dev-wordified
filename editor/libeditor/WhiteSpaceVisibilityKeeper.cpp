@@ -16155,6 +16155,7 @@ atCollapsibleASCIISpace
 ]
 (
 )
+MOZ_NEVER_INLINE_DEBUG
 -
 >
 EditorDOMPointInText
