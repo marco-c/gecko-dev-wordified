@@ -66587,12 +66587,6 @@ allocSite
 temp
 (
 )
-ins
--
->
-typeDefIndex
-(
-)
 )
 ;
 define
@@ -66662,12 +66656,6 @@ temp
 (
 )
 temp
-(
-)
-ins
--
->
-typeDefIndex
 (
 )
 )
