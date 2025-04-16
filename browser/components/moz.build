@@ -522,6 +522,13 @@ sys
 mjs
 "
 "
+DesktopActorRegistry
+.
+sys
+.
+mjs
+"
+"
 StartupTelemetry
 .
 sys
