@@ -5150,9 +5150,7 @@ not
 isinstance
 (
 file_name
-six
-.
-text_type
+str
 )
 :
             
@@ -5176,9 +5174,7 @@ CreateFileW
             
 file_name
 =
-six
-.
-text_type
+str
 (
 file_name
 sys

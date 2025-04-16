@@ -55,8 +55,6 @@ MPL
 .
 import
 inspect
-import
-six
 convertor_registry
 =
 {
@@ -614,11 +612,10 @@ for
 key
 value
 in
-six
-.
-iteritems
-(
 values
+.
+items
+(
 )
 :
             
@@ -721,11 +718,10 @@ for
 name
 value
 in
-six
-.
-iteritems
-(
 kwargs
+.
+items
+(
 )
 if
 name
@@ -1074,9 +1070,7 @@ if
 isinstance
 (
 data
-six
-.
-text_type
+str
 )
 :
             
@@ -1105,9 +1099,7 @@ replace
 )
         
 return
-six
-.
-text_type
+str
 (
 data
 )
@@ -1130,9 +1122,7 @@ if
 isinstance
 (
 data
-six
-.
-text_type
+str
 )
 :
             
@@ -1529,9 +1519,9 @@ isinstance
 (
 data
 (
-six
-.
-string_types
+(
+str
+)
 dict
 )
 )

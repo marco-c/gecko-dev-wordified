@@ -75,8 +75,6 @@ as
 mozlog
 import
 mozunit
-import
-six
 class
 ListHandler
 (
@@ -673,9 +671,9 @@ actual
 _time
 "
 ]
-six
-.
-integer_types
+(
+int
+)
 )
 )
         

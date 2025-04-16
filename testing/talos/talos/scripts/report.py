@@ -75,8 +75,6 @@ import
 compare
 import
 numpy
-import
-six
 sys
 .
 path
@@ -665,10 +663,6 @@ week_avgs
 for
 j
 in
-six
-.
-moves
-.
 range
 (
 7
@@ -864,10 +858,6 @@ y
 for
 i
 in
-six
-.
-moves
-.
 range
 (
 1
@@ -963,10 +953,6 @@ clean_week
 for
 i
 in
-six
-.
-moves
-.
 range
 (
 5

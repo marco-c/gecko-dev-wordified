@@ -121,8 +121,6 @@ noqa
 F401
 import
 mozversioncontrol
-import
-six
 from
 mach
 .
@@ -3198,11 +3196,10 @@ record
 for
 record
 in
-six
-.
-itervalues
-(
 records
+.
+values
+(
 )
 :
         

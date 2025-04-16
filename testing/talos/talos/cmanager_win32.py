@@ -89,8 +89,6 @@ LONG
 LPCSTR
 LPCWSTR
 LPSTR
-import
-six
 from
 talos
 .
@@ -361,10 +359,6 @@ path
 for
 j
 in
-six
-.
-moves
-.
 range
 (
 0

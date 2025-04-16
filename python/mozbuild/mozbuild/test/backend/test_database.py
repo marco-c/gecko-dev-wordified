@@ -57,8 +57,6 @@ import
 json
 import
 os
-import
-six
 from
 mozunit
 import
@@ -438,11 +436,10 @@ consistency
 against
 expected_db
         
-six
+self
 .
 assertCountEqual
 (
-self
 compile_db
 expected_db
 )

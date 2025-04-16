@@ -2208,13 +2208,12 @@ for
 key
 comp
 in
-six
-.
-iteritems
-(
 self
 .
 filters
+.
+items
+(
 )
 :
             
@@ -2385,13 +2384,12 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 self
 .
 values
+.
+items
+(
 )
 :
                 

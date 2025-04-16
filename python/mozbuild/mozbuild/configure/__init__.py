@@ -1987,9 +1987,7 @@ forbidden_import
         
 str
 =
-six
-.
-text_type
+str
     
 )
     
@@ -2630,9 +2628,7 @@ if
 isinstance
 (
 arg
-six
-.
-binary_type
+bytes
 )
                         
 else
@@ -3223,13 +3219,12 @@ path
 for
 option
 in
-six
-.
-itervalues
-(
 self
 .
 _options
+.
+values
+(
 )
 :
             
@@ -4698,9 +4693,9 @@ if
 isinstance
 (
 arg
-six
-.
-string_types
+(
+str
+)
 )
 :
             
@@ -5235,11 +5230,10 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 kwargs
+.
+items
+(
 )
 if
 k
@@ -6062,9 +6056,9 @@ not
 isinstance
 (
 what
-six
-.
-string_types
+(
+str
+)
 )
 :
                     
@@ -6243,11 +6237,10 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 self
+.
+items
+(
 )
 if
 k
@@ -6778,20 +6771,18 @@ not
 isinstance
 (
 value
-six
-.
-string_types
+(
+str
+)
 )
 and
 (
-                
 required
 or
 value
 is
 not
 None
-            
 )
 :
                 
@@ -8230,9 +8221,9 @@ not
 isinstance
 (
 name
-six
-.
-string_types
+(
+str
+)
 )
 :
             
@@ -9293,9 +9284,9 @@ or
 isinstance
 (
 value
-six
-.
-string_types
+(
+str
+)
 )
         
 )
@@ -9545,13 +9536,12 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 func
 .
 __globals__
+.
+items
+(
 )
             
 if

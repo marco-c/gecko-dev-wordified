@@ -55,14 +55,10 @@ MPL
 .
 import
 re
-import
-six
 class
 StringVersion
 (
-six
-.
-text_type
+str
 )
 :
     

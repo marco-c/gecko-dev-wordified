@@ -67,8 +67,6 @@ from
 textwrap
 import
 dedent
-import
-six
 from
 mozpack
 import
@@ -369,9 +367,9 @@ if
 isinstance
 (
 value
-six
-.
-string_types
+(
+str
+)
 )
 :
                 
@@ -515,11 +513,10 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 context
+.
+items
+(
 )
         
 )
@@ -607,9 +604,7 @@ context
                 
 result
 =
-six
-.
-text_type
+str
 (
 self
 .
@@ -1508,11 +1503,10 @@ dict
 for
 d
 in
-six
-.
-itervalues
-(
 definition
+.
+values
+(
 )
 )
 :
@@ -1529,11 +1523,10 @@ for
 key
 value
 in
-six
-.
-iteritems
-(
 definition
+.
+items
+(
 )
 :
                 
@@ -1712,11 +1705,10 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 defn
+.
+items
+(
 )
 :
                     
@@ -1758,11 +1750,10 @@ for
 glob
 defn
 in
-six
-.
-iteritems
-(
 self
+.
+items
+(
 )
 :
                 
@@ -2968,11 +2959,10 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 other
+.
+items
+(
 )
 :
             

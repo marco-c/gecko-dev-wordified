@@ -55,8 +55,6 @@ MPL
 .
 import
 os
-import
-six
 def
 toolchain_task_definitions
 (
@@ -230,9 +228,7 @@ if
 isinstance
 (
 aliases
-six
-.
-text_type
+str
 )
 :
             

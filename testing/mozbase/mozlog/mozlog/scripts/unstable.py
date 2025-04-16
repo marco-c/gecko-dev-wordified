@@ -61,8 +61,6 @@ from
 collections
 import
 defaultdict
-import
-six
 from
 mozlog
 import
@@ -131,9 +129,7 @@ test
 in
 (
 str
-six
-.
-text_type
+str
 )
 :
             
@@ -367,11 +363,10 @@ for
 run_info
 tests
 in
-six
-.
-iteritems
-(
 statuses
+.
+items
+(
 )
 :
             
@@ -379,11 +374,10 @@ for
 test
 subtests
 in
-six
-.
-iteritems
-(
 tests
+.
+items
+(
 )
 :
                 
@@ -391,11 +385,10 @@ for
 name
 results
 in
-six
-.
-iteritems
-(
 subtests
+.
+items
+(
 )
 :
                     
@@ -481,11 +474,10 @@ for
 run_info
 tests
 in
-six
-.
-iteritems
-(
 data
+.
+items
+(
 )
 :
         
@@ -493,11 +485,10 @@ for
 test
 subtests
 in
-six
-.
-iteritems
-(
 tests
+.
+items
+(
 )
 :
             
@@ -505,11 +496,10 @@ for
 name
 results
 in
-six
-.
-iteritems
-(
 subtests
+.
+items
+(
 )
 :
                 
@@ -517,11 +507,10 @@ for
 status
 number
 in
-six
-.
-iteritems
-(
 results
+.
+items
+(
 )
 :
                     
@@ -552,11 +541,10 @@ for
 run_info
 tests
 in
-six
-.
-iteritems
-(
 data
+.
+items
+(
 )
 :
         
@@ -671,11 +659,10 @@ for
 name
 results
 in
-six
-.
-iteritems
-(
 subtests
+.
+items
+(
 )
 :
             
@@ -727,11 +714,10 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 results
+.
+items
+(
 )
 )
                 

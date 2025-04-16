@@ -63,8 +63,6 @@ import
 subprocess
 import
 sys
-import
-six
 from
 mozlog
 .
@@ -911,7 +909,6 @@ number_of_tests
 =
 sum
 (
-            
 len
 (
 tests
@@ -919,18 +916,16 @@ tests
 for
 tests
 in
-six
-.
-itervalues
-(
 data
 [
 "
 tests
 "
 ]
+.
+values
+(
 )
-        
 )
         
 self
@@ -1318,13 +1313,12 @@ subtest
 )
 data
 in
-six
-.
-iteritems
-(
 self
 .
 known_intermittent_results
+.
+items
+(
 )
 :
             
@@ -1716,11 +1710,10 @@ for
 stack
 failures
 in
-six
-.
-iteritems
-(
 failures_by_stack
+.
+items
+(
 )
 :
             

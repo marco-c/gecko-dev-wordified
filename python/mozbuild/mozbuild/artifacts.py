@@ -339,8 +339,6 @@ import
 pylru
 import
 requests
-import
-six
 from
 mach
 .
@@ -2067,13 +2065,12 @@ for
 filename
 entry
 in
-six
-.
-iteritems
-(
 reader
 .
 entries
+.
+items
+(
 )
 :
                 
@@ -9329,11 +9326,10 @@ for
 tree
 pushid
 in
-six
-.
-iteritems
-(
 found_pushids
+.
+items
+(
 )
 :
                 

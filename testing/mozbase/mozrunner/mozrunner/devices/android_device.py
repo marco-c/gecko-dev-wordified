@@ -6836,9 +6836,7 @@ and
 isinstance
 (
 expected
-six
-.
-text_type
+str
 )
 :
             
@@ -6879,9 +6877,7 @@ and
 isinstance
 (
 command
-six
-.
-text_type
+str
 )
 :
             
@@ -8521,9 +8517,7 @@ not
 isinstance
 (
 out
-six
-.
-text_type
+str
 )
 :
             

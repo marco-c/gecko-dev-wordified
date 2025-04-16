@@ -61,8 +61,6 @@ import
 traceback
 import
 types
-import
-six
 from
 mozlog
 import
@@ -255,13 +253,12 @@ self
 for
 item
 in
-six
-.
-itervalues
-(
 globals
 (
 )
+.
+values
+(
 )
 :
             

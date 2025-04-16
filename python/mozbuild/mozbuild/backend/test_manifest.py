@@ -65,8 +65,6 @@ as
 mozpath
 import
 six
-import
-six
 .
 moves
 .
@@ -762,13 +760,12 @@ dest
 _
 )
 in
-six
-.
-iteritems
-(
 obj
 .
 installs
+.
+items
+(
 )
 :
             

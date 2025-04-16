@@ -57,8 +57,6 @@ import
 os
 import
 unittest
-import
-six
 from
 mozpack
 import
@@ -5213,9 +5211,7 @@ ContextDerivedTypedRecord
 "
 field1
 "
-six
-.
-text_type
+str
 )
 (
 "
@@ -5330,9 +5326,7 @@ ContextDerivedTypedRecord
 "
 field1
 "
-six
-.
-text_type
+str
 )
 (
 "

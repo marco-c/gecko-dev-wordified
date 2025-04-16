@@ -2117,9 +2117,9 @@ not
 isinstance
 (
 a
-six
-.
-string_types
+(
+str
+)
 )
 or
 a
@@ -2655,14 +2655,10 @@ as
 e
 :
             
-six
-.
-raise_from
-(
-                
+raise
 BuildEnvironmentNotFoundException
 (
-                    
+                
 "
 config
 .
@@ -2676,12 +2672,10 @@ Run
 configure
 .
 "
-                
-)
-                
-e
             
 )
+from
+e
         
 return
 self

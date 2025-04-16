@@ -55,8 +55,6 @@ MPL
 .
 import
 math
-import
-six
 "
 "
 "
@@ -907,10 +905,6 @@ size
 for
 i
 in
-six
-.
-moves
-.
 range
 (
 0

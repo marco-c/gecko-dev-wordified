@@ -93,10 +93,6 @@ manifest
 import
 parse_manifest
 from
-six
-import
-viewitems
-from
 .
 manifest_handler
 import
@@ -254,11 +250,12 @@ for
 name
 count
 in
-viewitems
-(
 other
 .
 function_exec_counts
+.
+items
+(
 )
 :
             
@@ -287,11 +284,12 @@ for
 key
 taken
 in
-viewitems
-(
 other
 .
 branches
+.
+items
+(
 )
 :
             
@@ -321,11 +319,12 @@ exec_count
 checksum
 )
 in
-viewitems
-(
 other
 .
 lines
+.
+items
+(
 )
 :
             
@@ -437,11 +436,12 @@ for
 fn_name
 count
 in
-viewitems
-(
 self
 .
 function_exec_counts
+.
+items
+(
 )
             
 if
@@ -733,11 +733,12 @@ for
 ln
 line_info
 in
-viewitems
-(
 record
 .
 lines
+.
+items
+(
 )
 :
             
@@ -916,11 +917,12 @@ for
 ln
 fn_name
 in
-viewitems
-(
 record
 .
 functions
+.
+items
+(
 )
 :
             
@@ -1055,11 +1057,12 @@ branch_number
 )
 taken
 in
-viewitems
-(
 record
 .
 branches
+.
+items
+(
 )
 :
             
@@ -2361,11 +2364,12 @@ fn_name
 in
 sorted
 (
-viewitems
-(
 record
 .
 functions
+.
+items
+(
 )
 )
 :
@@ -2419,11 +2423,12 @@ exec_count
 in
 sorted
 (
-viewitems
-(
 record
 .
 function_exec_counts
+.
+items
+(
 )
 )
 :
@@ -2648,11 +2653,12 @@ checksum
 in
 sorted
 (
-viewitems
-(
 record
 .
 lines
+.
+items
+(
 )
 )
 :
@@ -3902,11 +3908,12 @@ for
 prefix
 dests
 in
-viewitems
-(
 self
 .
 _url_prefixes
+.
+items
+(
 )
 :
             

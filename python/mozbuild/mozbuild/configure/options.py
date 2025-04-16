@@ -63,8 +63,6 @@ from
 collections
 import
 OrderedDict
-import
-six
 HELP_OPTIONS_CATEGORY
 =
 "
@@ -261,22 +259,20 @@ isinstance
 obj
 tuple
 )
-        
 and
 len
 (
 obj
 )
-        
 and
 all
 (
 isinstance
 (
 o
-six
-.
-string_types
+(
+str
+)
 )
 for
 o
@@ -937,9 +933,9 @@ elif
 isinstance
 (
 value
-six
-.
-string_types
+(
+str
+)
 )
 :
             
@@ -1228,11 +1224,10 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 format_data
+.
+items
+(
 )
 :
             
@@ -1762,9 +1757,9 @@ not
 isinstance
 (
 name
-six
-.
-string_types
+(
+str
+)
 )
 :
                 
@@ -1857,9 +1852,9 @@ not
 isinstance
 (
 env
-six
-.
-string_types
+(
+str
+)
 )
 :
                 
@@ -1968,9 +1963,9 @@ not
 isinstance
 (
 default
-six
-.
-string_types
+(
+str
+)
 )
             
 and
@@ -2049,9 +2044,9 @@ not
 isinstance
 (
 category
-six
-.
-string_types
+(
+str
+)
 )
 :
             
@@ -2900,9 +2895,9 @@ not
 isinstance
 (
 option
-six
-.
-string_types
+(
+str
+)
 )
 :
             
@@ -4997,11 +4992,10 @@ for
 arg
 pos
 in
-six
-.
-itervalues
-(
 d
+.
+values
+(
 )
 :
                 

@@ -92,10 +92,6 @@ collections
 import
 defaultdict
 from
-six
-import
-iteritems
-from
 .
 import
 httpd
@@ -1200,9 +1196,10 @@ _
 proc
 )
 in
-iteritems
-(
 servers
+.
+items
+(
 )
 :
         
@@ -1222,9 +1219,10 @@ url
 _
 )
 in
-iteritems
-(
 servers
+.
+items
+(
 )
 :
         

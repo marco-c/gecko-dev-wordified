@@ -963,9 +963,7 @@ not
 isinstance
 (
 node_script
-six
-.
-text_type
+str
 )
 :
         

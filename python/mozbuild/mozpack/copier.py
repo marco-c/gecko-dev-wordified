@@ -74,8 +74,6 @@ Counter
 OrderedDict
 defaultdict
 import
-six
-import
 mozpack
 .
 path
@@ -1006,13 +1004,15 @@ registry
 "
         
 return
-six
-.
-iteritems
+iter
 (
 self
 .
 _files
+.
+items
+(
+)
 )
     
 def
@@ -2062,9 +2062,9 @@ assert
 isinstance
 (
 destination
-six
-.
-string_types
+(
+str
+)
 )
         
 assert
@@ -4255,9 +4255,9 @@ if
 isinstance
 (
 dest
-six
-.
-string_types
+(
+str
+)
 )
 :
             

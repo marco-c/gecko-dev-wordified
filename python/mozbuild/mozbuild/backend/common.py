@@ -73,8 +73,6 @@ mozpack
 path
 as
 mozpath
-import
-six
 from
 mozpack
 .
@@ -528,13 +526,12 @@ stems
 for
 m
 in
-six
-.
-itervalues
-(
 self
 .
 modules
+.
+values
+(
 )
 ]
 )

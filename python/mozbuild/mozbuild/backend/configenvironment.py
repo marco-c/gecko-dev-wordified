@@ -83,8 +83,6 @@ mozpack
 path
 as
 mozpath
-import
-six
 from
 mozbuild
 .
@@ -1240,9 +1238,9 @@ if
 isinstance
 (
 obj
-six
-.
-string_types
+(
+str
+)
 )
 :
                 
@@ -1850,11 +1848,10 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 values
+.
+items
+(
 )
 :
             

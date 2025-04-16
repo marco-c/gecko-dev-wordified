@@ -1630,13 +1630,12 @@ filenames
 =
 list
 (
-six
-.
-iterkeys
-(
 self
 .
 _files
+.
+keys
+(
 )
 )
         
@@ -1772,13 +1771,12 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 self
 .
 _files
+.
+items
+(
 )
 :
             
@@ -1799,11 +1797,10 @@ for
 k2
 v2
 in
-six
-.
-iteritems
-(
 v
+.
+items
+(
 )
 :
                 
@@ -1921,13 +1918,12 @@ for
 filename
 value
 in
-six
-.
-iteritems
-(
 self
 .
 _files
+.
+items
+(
 )
 :
             

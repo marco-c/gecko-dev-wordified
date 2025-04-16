@@ -5639,9 +5639,7 @@ and
 isinstance
 (
 update_channel
-six
-.
-text_type
+str
 )
 :
                     

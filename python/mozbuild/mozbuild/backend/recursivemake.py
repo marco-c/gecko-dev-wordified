@@ -5519,13 +5519,12 @@ for
 t
 deps
 in
-six
-.
-iteritems
-(
 self
 .
 _compile_graph
+.
+items
+(
 )
             
 if
@@ -6054,11 +6053,10 @@ graph
 in
 sorted
 (
-six
-.
-iteritems
-(
 non_default_graphs
+.
+items
+(
 )
 )
 :
@@ -6422,11 +6420,10 @@ graphs
 in
 sorted
 (
-six
-.
-iteritems
-(
 non_default_graphs
+.
+items
+(
 )
 )
 :

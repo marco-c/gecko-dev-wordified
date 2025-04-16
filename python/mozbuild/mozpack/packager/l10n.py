@@ -2072,13 +2072,12 @@ for
 path
 log
 in
-six
-.
-iteritems
-(
 app_finder
 .
 jarlogs
+.
+items
+(
 )
 :
         
@@ -2371,11 +2370,10 @@ for
 base
 path
 in
-six
-.
-iteritems
-(
 extra_l10n
+.
+items
+(
 )
 :
             

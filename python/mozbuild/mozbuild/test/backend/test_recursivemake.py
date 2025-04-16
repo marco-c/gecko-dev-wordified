@@ -65,8 +65,6 @@ as
 mozpath
 import
 six
-import
-six
 .
 moves
 .
@@ -10424,11 +10422,10 @@ for
 key
 expected_rules
 in
-six
-.
-iteritems
-(
 expected
+.
+items
+(
 )
 :
             

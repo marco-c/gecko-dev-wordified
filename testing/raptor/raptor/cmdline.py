@@ -57,8 +57,6 @@ import
 argparse
 import
 os
-import
-six
 from
 mozlog
 .
@@ -5325,11 +5323,10 @@ key
 in
 sorted
 (
-six
-.
-iterkeys
-(
 test_list
+.
+keys
+(
 )
 )
 :

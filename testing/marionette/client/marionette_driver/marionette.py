@@ -73,12 +73,6 @@ from
 contextlib
 import
 contextmanager
-import
-six
-from
-six
-import
-reraise
 from
 .
 import
@@ -4586,13 +4580,14 @@ port
 value
 )
             
-reraise
-(
-IOError
+raise
 OSError
 (
 msg
 )
+.
+with_traceback
+(
 tb
 )
         
@@ -4688,9 +4683,7 @@ errors
             
 )
             
-reraise
-(
-IOError
+raise
 OSError
 (
 msg
@@ -4700,6 +4693,9 @@ format
 timeout
 )
 )
+.
+with_traceback
+(
 sys
 .
 exc_info
@@ -5828,10 +5824,11 @@ self
 instance
 :
             
-reraise
-(
-exc_cls
+raise
 exc
+.
+with_traceback
+(
 tb
 )
         
@@ -6055,12 +6052,10 @@ reason
 )
 "
             
-reraise
-(
-                
-IOError
+raise
 OSError
 (
+                
 message
 .
 format
@@ -6072,9 +6067,12 @@ reason
 =
 exc
 )
-)
-tb
             
+)
+.
+with_traceback
+(
+tb
 )
     
 staticmethod
@@ -7252,11 +7250,10 @@ for
 pref
 value
 in
-six
-.
-iteritems
-(
 prefs
+.
+items
+(
 )
 :
                 
@@ -9201,9 +9198,7 @@ restart
 request
 "
                     
-reraise
-(
-exc_cls
+raise
 exc_cls
 (
 message
@@ -9213,6 +9208,9 @@ format
 timeout_restart
 )
 )
+.
+with_traceback
+(
 tb
 )
                 
@@ -9254,13 +9252,10 @@ code
 )
 "
                     
-reraise
-(
-                        
-exc_cls
-                        
+raise
 exc_cls
 (
+                        
 msg
 .
 format
@@ -9273,10 +9268,12 @@ runner
 .
 returncode
 )
-)
-                        
-tb
                     
+)
+.
+with_traceback
+(
+tb
 )
             
 self
@@ -9922,15 +9919,16 @@ close
 (
 )
             
-reraise
-(
-exc_type
+raise
 exc_type
 (
 value
 .
 message
 )
+.
+with_traceback
+(
 tb
 )
         
@@ -12604,9 +12602,7 @@ args
 bool
 int
 float
-six
-.
-string_types
+str
 )
 )
 or

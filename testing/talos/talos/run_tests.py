@@ -235,10 +235,6 @@ tpcycles
 ]
 not
 in
-six
-.
-moves
-.
 range
 (
 1

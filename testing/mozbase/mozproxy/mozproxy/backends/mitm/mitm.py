@@ -69,8 +69,6 @@ import
 time
 import
 mozinfo
-import
-six
 from
 mozprocess
 import
@@ -382,9 +380,9 @@ get
 recording_file
 "
 )
-six
-.
-string_types
+(
+str
+)
 )
 :
                 

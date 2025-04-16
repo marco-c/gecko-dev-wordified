@@ -2764,13 +2764,12 @@ for
 m
 includer
 in
-six
-.
-iteritems
-(
 self
 .
 _included_manifests
+.
+items
+(
 )
             
 if

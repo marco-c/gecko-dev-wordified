@@ -2347,9 +2347,7 @@ if
 isinstance
 (
 obj
-six
-.
-class_types
+type
 )
 and
 issubclass

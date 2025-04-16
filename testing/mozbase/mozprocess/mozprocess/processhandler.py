@@ -2014,9 +2014,9 @@ not
 isinstance
 (
 args
-six
-.
-string_types
+(
+str
+)
 )
 :
                     

@@ -646,7 +646,6 @@ self
 _subprocess_paths
 =
 {
-            
 mozpath
 .
 abspath
@@ -659,15 +658,13 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 paths
+.
+items
+(
 )
 if
 v
-        
 }
         
 paths

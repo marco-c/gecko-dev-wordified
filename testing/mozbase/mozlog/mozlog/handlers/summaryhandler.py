@@ -58,8 +58,6 @@ collections
 import
 OrderedDict
 defaultdict
-import
-six
 from
 .
 .
@@ -505,13 +503,12 @@ for
 suite
 data
 in
-six
-.
-iteritems
-(
 self
 .
 summary
+.
+items
+(
 )
 :
             

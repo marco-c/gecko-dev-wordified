@@ -91,8 +91,6 @@ import
 mozprofile
 import
 mozversion
-import
-six
 from
 manifestparser
 import
@@ -130,7 +128,6 @@ from
 six
 import
 MAXSIZE
-reraise
 from
 .
 import
@@ -4999,11 +4996,10 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 u
+.
+items
+(
 )
 :
                 
@@ -5234,13 +5230,10 @@ formatted
 }
 "
                     
-reraise
-(
-                        
-ValueError
-                        
+raise
 ValueError
 (
+                        
 msg
 .
 format
@@ -5255,8 +5248,11 @@ path
 )
 e
 )
+                    
 )
-                        
+.
+with_traceback
+(
 sys
 .
 exc_info
@@ -5265,7 +5261,6 @@ exc_info
 [
 2
 ]
-                    
 )
         
 return
@@ -6029,9 +6024,7 @@ error
 }
 "
                     
-reraise
-(
-exc_cls
+raise
 exc_cls
 (
 msg
@@ -6043,6 +6036,9 @@ port
 e
 )
 )
+.
+with_traceback
+(
 tb
 )
         
@@ -7079,16 +7075,14 @@ if
 interrupted
 :
                 
-reraise
-(
-interrupted
-[
-0
-]
+raise
 interrupted
 [
 1
 ]
+.
+with_traceback
+(
 interrupted
 [
 2

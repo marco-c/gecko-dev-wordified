@@ -265,17 +265,13 @@ if
 isinstance
 (
 src
-six
-.
-text_type
+str
 )
 and
 isinstance
 (
 dest
-six
-.
-text_type
+str
 )
 :
             
@@ -1251,9 +1247,9 @@ if
 isinstance
 (
 dest
-six
-.
-string_types
+(
+str
+)
 )
 :
             
@@ -2142,9 +2138,9 @@ not
 isinstance
 (
 dest
-six
-.
-string_types
+(
+str
+)
 )
 :
             
@@ -2173,9 +2169,9 @@ assert
 isinstance
 (
 dest
-six
-.
-string_types
+(
+str
+)
 )
         
 #
@@ -2430,9 +2426,9 @@ assert
 isinstance
 (
 dest
-six
-.
-string_types
+(
+str
+)
 )
         
 #
@@ -3182,9 +3178,9 @@ assert
 isinstance
 (
 dest
-six
-.
-string_types
+(
+str
+)
 )
         
 if
@@ -3595,9 +3591,9 @@ if
 isinstance
 (
 dest
-six
-.
-string_types
+(
+str
+)
 )
 :
             
@@ -3904,9 +3900,9 @@ if
 isinstance
 (
 dest
-six
-.
-string_types
+(
+str
+)
 )
 :
             
@@ -8174,11 +8170,10 @@ finder
 in
 sorted
 (
-six
-.
-iteritems
-(
 finders
+.
+items
+(
 )
 )
 :
@@ -9195,10 +9190,6 @@ prefix
 for
 i
 in
-six
-.
-moves
-.
 range
 (
 start

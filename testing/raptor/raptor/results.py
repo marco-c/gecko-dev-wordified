@@ -8044,18 +8044,15 @@ results
 for
 measurement
 in
-six
-.
-iteritems
-(
-                                
 new_result
 [
 "
 measurements
 "
 ]
-                            
+.
+items
+(
 )
 :
                                 

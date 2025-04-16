@@ -92,8 +92,6 @@ import
 subprocess
 import
 sys
-import
-six
 from
 mozsystemmonitor
 .
@@ -4463,9 +4461,9 @@ not
 isinstance
 (
 tests
-six
-.
-string_types
+(
+str
+)
 )
 :
             

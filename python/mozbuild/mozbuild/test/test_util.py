@@ -1272,11 +1272,10 @@ h
 "
 ]
         
-six
+self
 .
 assertCountEqual
 (
-self
 self
 .
 EXPORTS
@@ -1326,11 +1325,10 @@ h
 "
 ]
         
-six
+self
 .
 assertCountEqual
 (
-self
 self
 .
 EXPORTS
@@ -1413,11 +1411,10 @@ h
 "
 ]
         
-six
+self
 .
 assertCountEqual
 (
-self
 self
 .
 EXPORTS
@@ -1432,11 +1429,10 @@ True
 }
 )
         
-six
+self
 .
 assertCountEqual
 (
-self
 self
 .
 EXPORTS
@@ -1453,11 +1449,10 @@ True
 }
 )
         
-six
+self
 .
 assertCountEqual
 (
-self
 self
 .
 EXPORTS
@@ -1550,12 +1545,10 @@ foo
 h
 "
         
-six
+self
 .
 assertRegex
 (
-            
-self
             
 str
 (
@@ -1620,12 +1613,10 @@ foo
 h
 "
         
-six
+self
 .
 assertRegex
 (
-            
-self
             
 str
 (
@@ -1689,12 +1680,10 @@ foo
 h
 "
         
-six
+self
 .
 assertRegex
 (
-            
-self
             
 str
 (
@@ -1756,12 +1745,10 @@ EXPORTS
 True
 ]
         
-six
+self
 .
 assertRegex
 (
-            
-self
             
 str
 (
@@ -1780,8 +1767,6 @@ not
 an
 element
 of
-"
-"
 <
 (
 ?
@@ -3945,7 +3930,6 @@ FooList
 =
 StrictOrderingOnAppendListWithFlagsFactory
 (
-            
 {
 "
 foo
@@ -3956,11 +3940,8 @@ bool
 bar
 "
 :
-six
-.
-text_type
+str
 }
-        
 )
         
 foo
@@ -4021,22 +4002,18 @@ BarList
 =
 StrictOrderingOnAppendListWithFlagsFactory
 (
-            
 {
 "
 foo
 "
 :
-six
-.
-text_type
+str
 "
 baz
 "
 :
 bool
 }
-        
 )
         
 bar
@@ -5689,9 +5666,7 @@ self
 class
 Unicode
 (
-six
-.
-text_type
+str
 )
 :
             
@@ -5708,9 +5683,7 @@ not
 isinstance
 (
 other
-six
-.
-text_type
+str
 )
 :
                     
@@ -5720,9 +5693,7 @@ ValueError
 )
                 
 return
-six
-.
-text_type
+str
 .
 __new__
 (
@@ -5867,9 +5838,7 @@ FooBar
 "
 foo
 "
-six
-.
-text_type
+str
 )
 (
 "

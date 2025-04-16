@@ -2062,11 +2062,7 @@ socket
 }
 "
             
-six
-.
-reraise
-(
-exc_cls
+raise
 exc_cls
 (
 msg
@@ -2076,6 +2072,9 @@ format
 exc
 )
 )
+.
+with_traceback
+(
 tb
 )
         

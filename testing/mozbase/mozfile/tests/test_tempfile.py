@@ -81,8 +81,6 @@ import
 mozfile
 import
 mozunit
-import
-six
 class
 TestNamedTemporaryFile
 (
@@ -523,9 +521,9 @@ assertTrue
 isinstance
 (
 path
-six
-.
-string_types
+(
+str
+)
 )
 )
         

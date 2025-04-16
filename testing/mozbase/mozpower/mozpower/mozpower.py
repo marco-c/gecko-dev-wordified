@@ -61,8 +61,6 @@ import
 re
 import
 subprocess
-import
-six
 from
 .
 macintelpower
@@ -670,9 +668,7 @@ lower
             
 cpu
 =
-six
-.
-text_type
+str
 (
 self
 .

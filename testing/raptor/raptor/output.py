@@ -6868,14 +6868,13 @@ for
 _sub
 _value
 in
-six
-.
-iteritems
-(
 pagecycle
 [
 0
 ]
+.
+items
+(
 )
 :
                 

@@ -62,8 +62,6 @@ unittest
 import
 mozunit
 import
-six
-import
 mozpack
 .
 path
@@ -1125,11 +1123,10 @@ for
 path
 parts
 in
-six
-.
-iteritems
-(
 cases
+.
+items
+(
 )
 :
             

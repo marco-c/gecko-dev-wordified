@@ -856,11 +856,7 @@ abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
 for
 i
 in
-six
-.
-moves
-.
-xrange
+range
 (
 131597
 )

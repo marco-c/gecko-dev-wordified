@@ -1036,13 +1036,12 @@ for
 subdir
 _dc
 in
-six
-.
-iteritems
-(
 dc
 .
 subdirs
+.
+items
+(
 )
 :
             
@@ -3116,11 +3115,10 @@ for
 dest
 src
 in
-six
-.
-iteritems
-(
 expected_symlinks
+.
+items
+(
 )
 :
             

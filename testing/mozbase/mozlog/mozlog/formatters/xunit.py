@@ -59,8 +59,6 @@ xml
 etree
 import
 ElementTree
-import
-six
 from
 .
 import
@@ -100,9 +98,9 @@ not
 isinstance
 (
 test_id
-six
-.
-string_types
+(
+str
+)
 )
 :
         

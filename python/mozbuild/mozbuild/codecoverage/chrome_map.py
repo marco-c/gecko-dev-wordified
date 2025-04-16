@@ -65,8 +65,6 @@ mozpack
 path
 as
 mozpath
-import
-six
 from
 mach
 .
@@ -1117,11 +1115,10 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 chrome_mapping
+.
+items
+(
 )
 }
                     

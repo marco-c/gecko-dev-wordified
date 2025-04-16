@@ -83,8 +83,6 @@ import
 mozinfo
 import
 mozrunner
-import
-six
 from
 mozlog
 import
@@ -489,10 +487,6 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 self
 .
 browser_config
@@ -501,6 +495,9 @@ browser_config
 env
 "
 ]
+.
+items
+(
 )
 :
             
@@ -1195,9 +1192,9 @@ if
 isinstance
 (
 webextensions_folder
-six
-.
-string_types
+(
+str
+)
 )
 :
             
@@ -1266,9 +1263,9 @@ if
 isinstance
 (
 webextensions
-six
-.
-string_types
+(
+str
+)
 )
 :
             

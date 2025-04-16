@@ -72,8 +72,6 @@ import
 os
 import
 sys
-import
-six
 AWSY_PATH
 =
 os
@@ -1321,11 +1319,10 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 totals_uss
+.
+items
+(
 )
 if
 "

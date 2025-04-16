@@ -1083,9 +1083,9 @@ if
 isinstance
 (
 tags
-six
-.
-string_types
+(
+str
+)
 )
 :
             

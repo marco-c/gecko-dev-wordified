@@ -111,7 +111,6 @@ from
 six
 import
 ensure_binary
-iteritems
 class
 EasyServer
 (
@@ -636,9 +635,10 @@ for
 keyword
 value
 in
-iteritems
-(
 headerdict
+.
+items
+(
 )
 :
                     
@@ -742,11 +742,12 @@ for
 prefix
 disk_path
 in
-iteritems
-(
 self
 .
 path_mappings
+.
+items
+(
 )
 :
             
