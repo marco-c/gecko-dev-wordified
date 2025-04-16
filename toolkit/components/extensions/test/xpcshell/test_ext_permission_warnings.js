@@ -2891,6 +2891,10 @@ tabs
 nativeMessaging
 "
 ]
+data_collection
+:
+[
+]
 }
 "
 Expected
@@ -3151,6 +3155,10 @@ permissions
 :
 [
 ]
+data_collection
+:
+[
+]
 }
 "
 nativeMessaging
@@ -3181,6 +3189,10 @@ permissions
 "
 nativeMessaging
 "
+]
+data_collection
+:
+[
 ]
 }
 "
@@ -3265,6 +3277,10 @@ declarativeNetRequest
 "
 declarativeNetRequestFeedback
 "
+]
+data_collection
+:
+[
 ]
 }
 "
@@ -3379,6 +3395,10 @@ permissions
 "
 declarativeNetRequestWithHostAccess
 "
+]
+data_collection
+:
+[
 ]
 }
 "
@@ -3539,6 +3559,10 @@ permissions
 "
 mozillaAddons
 "
+]
+data_collection
+:
+[
 ]
 }
 "
@@ -3701,6 +3725,10 @@ a
 "
 ]
 permissions
+:
+[
+]
+data_collection
 :
 [
 ]
