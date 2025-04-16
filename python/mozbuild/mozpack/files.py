@@ -9032,25 +9032,14 @@ files
 )
 :
         
-"
-"
-"
-files
-must
-be
-a
-sorted
-list
-.
-"
-"
-"
-        
 self
 .
 _files
 =
+sorted
+(
 files
+)
     
 memoize
     
