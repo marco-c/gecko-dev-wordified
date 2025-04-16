@@ -529,6 +529,9 @@ NavigationHandlerList
 (
 )
 ;
+dom
+:
+:
 AbortController
 *
 AbortController
