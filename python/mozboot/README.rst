@@ -140,6 +140,8 @@ can
 run
 :
 curl
+-
+L
 https
 :
 /
@@ -169,9 +171,15 @@ bin
 bootstrap
 .
 py
-|
-python
 -
+o
+bootstrap
+.
+py
+python
+bootstrap
+.
+py
 The
 bootstrap
 script
