@@ -320,6 +320,12 @@ FenceD3D11
 CreateFromHandle
 (
 fenceHandle
+/
+*
+aDevice
+*
+/
+nullptr
 )
 ;
 if
