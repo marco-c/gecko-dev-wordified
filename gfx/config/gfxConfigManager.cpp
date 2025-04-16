@@ -296,6 +296,18 @@ gfx_webrender_software_AtStartup
 ;
 mWrCompositorForceEnabled
 =
+#
+ifdef
+MOZ_WAYLAND
+StaticPrefs
+:
+:
+gfx_wayland_hdr_AtStartup
+(
+)
+;
+#
+else
 StaticPrefs
 :
 :
@@ -303,6 +315,8 @@ gfx_webrender_compositor_force_enabled_AtStartup
 (
 )
 ;
+#
+endif
 mGPUProcessAllowSoftware
 =
 StaticPrefs
