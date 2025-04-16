@@ -894,12 +894,6 @@ svg
 )
 ;
 }
-bool
-AreWidthAndHeightUnsetOrPositive
-(
-)
-const
-;
 /
 *
 *
