@@ -1567,6 +1567,8 @@ nflower
 =
 rose
 \
+n
+\
 nfoo
 =
 bar

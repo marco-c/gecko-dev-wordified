@@ -28772,6 +28772,10 @@ m
 [
 0
 ]
+.
+strip
+(
+)
             
 self
 .
@@ -28789,15 +28793,25 @@ prefs
                 
 prefs
 =
-prefs
+[
+p
 .
 strip
 (
 )
+for
+p
+in
+prefs
 .
 split
 (
+"
+\
+n
+"
 )
+]
                 
 self
 .
