@@ -941,11 +941,6 @@ FILTERBAR_DISPLAY_MODES
 )
 .
 isRequired
-showEvaluationContextSelector
-:
-PropTypes
-.
-bool
 }
 ;
 }
@@ -1905,7 +1900,6 @@ dispatch
 reverseSearchInputVisible
 serviceContainer
 webConsoleUI
-showEvaluationContextSelector
 inputEnabled
 }
 =
@@ -1940,7 +1934,6 @@ editorMode
 dispatch
 reverseSearchInputVisible
 serviceContainer
-showEvaluationContextSelector
 webConsoleUI
 }
 )
@@ -2644,13 +2637,6 @@ state
 prefs
 .
 autocomplete
-showEvaluationContextSelector
-:
-state
-.
-ui
-.
-showEvaluationContextSelector
 }
 )
 ;

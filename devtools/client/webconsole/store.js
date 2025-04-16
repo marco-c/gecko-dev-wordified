@@ -803,16 +803,6 @@ UI
 .
 MESSAGE_TIMESTAMP
 )
-showEvaluationContextSelector
-:
-getBoolPref
-(
-PREFS
-.
-UI
-.
-CONTEXT_SELECTOR
-)
 enableNetworkMonitoring
 :
 webConsoleUI
