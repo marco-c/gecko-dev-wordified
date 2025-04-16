@@ -1051,7 +1051,7 @@ STATE_COOKIES_BLOCKED_TRACKER
 message
 =
 "
-CookieBlockedTracker
+CookieBlockedTrackerByETP
 "
 ;
 category
@@ -1099,7 +1099,7 @@ STATE_COOKIES_BLOCKED_FOREIGN
 message
 =
 "
-CookieBlockedForeign
+CookieBlockedForeignByETP
 "
 ;
 category

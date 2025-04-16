@@ -4898,8 +4898,9 @@ com
 was
 blocked
 because
-content
-blocking
+Enhanced
+Tracking
+Protection
 is
 enabled
 *
@@ -4920,8 +4921,9 @@ URL
 was
 blocked
 because
-content
-blocking
+Enhanced
+Tracking
+Protection
 is
 enabled
 *
@@ -4949,7 +4951,7 @@ firstMessage
 {
 if
 (
-isContentBlockingMessage
+isEnhancedTrackingProtectionMessage
 (
 firstMessage
 )
@@ -5448,7 +5450,7 @@ null
 }
 if
 (
-isContentBlockingMessage
+isEnhancedTrackingProtectionMessage
 (
 message
 )
@@ -5721,9 +5723,10 @@ if
 the
 message
 is
-a
-content
-blocking
+an
+Enhanced
+Tracking
+Protection
 message
 .
 *
@@ -5740,7 +5743,7 @@ Boolean
 *
 /
 function
-isContentBlockingMessage
+isEnhancedTrackingProtectionMessage
 (
 message
 )
@@ -6370,7 +6373,7 @@ getDescriptorValue
 getNaturalOrder
 getParentWarningGroupMessageId
 getWarningGroupType
-isContentBlockingMessage
+isEnhancedTrackingProtectionMessage
 isGroupType
 isMessageNetworkError
 isPacketPrivate
