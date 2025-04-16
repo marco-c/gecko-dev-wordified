@@ -47,7 +47,7 @@ Description
 test
 getImageData
 with
-srsb
+srgb
 and
 uint8
 from
@@ -98,7 +98,7 @@ async_test
 test
 getImageData
 with
-srsb
+srgb
 and
 uint8
 from
