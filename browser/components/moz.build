@@ -532,6 +532,13 @@ sys
 mjs
 "
 "
+ProfileDataUpgrader
+.
+sys
+.
+mjs
+"
+"
 StartupTelemetry
 .
 sys
