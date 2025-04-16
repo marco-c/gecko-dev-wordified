@@ -6288,6 +6288,15 @@ TESTATOPLANAR
 RAW
 3
 1
+I444
+1
+1
+)
+TESTATOPLANAR
+(
+RAW
+3
+1
 J420
 2
 2
@@ -17773,7 +17782,7 @@ kSize
 ;
 EXPECT_EQ
 (
-2755440272u
+223551344u
 checksum
 )
 ;
@@ -17974,7 +17983,7 @@ kSize
 ;
 EXPECT_EQ
 (
-1526656597u
+4197774805u
 checksum
 )
 ;
