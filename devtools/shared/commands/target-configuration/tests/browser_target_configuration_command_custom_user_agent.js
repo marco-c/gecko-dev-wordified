@@ -1444,6 +1444,10 @@ resource
 }
 }
 ;
+}
+)
+;
+await
 commands
 .
 resourceCommand
@@ -1465,9 +1469,6 @@ onUpdated
 ignoreExistingResources
 :
 true
-}
-)
-;
 }
 )
 ;
