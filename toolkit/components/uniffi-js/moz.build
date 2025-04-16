@@ -115,6 +115,11 @@ OwnedRustBuffer
 cpp
 "
 "
+ResultPromise
+.
+cpp
+"
+"
 UniFFIPointer
 .
 cpp
@@ -190,6 +195,11 @@ h
 "
 "
 PointerType
+.
+h
+"
+"
+ResultPromise
 .
 h
 "
