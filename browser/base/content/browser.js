@@ -27403,6 +27403,13 @@ openSavedTabGroup
 (
 lastClosedTabGroupId
 targetWindow
+{
+source
+:
+"
+recent
+"
+}
 )
 ;
 }
