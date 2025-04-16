@@ -262,7 +262,6 @@ args
 {
 if
 (
-!
 this
 .
 ownerDocument
