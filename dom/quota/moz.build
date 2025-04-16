@@ -262,6 +262,11 @@ ClientImpl
 h
 "
 "
+ClientStorageScope
+.
+h
+"
+"
 CommonMetadata
 .
 h
