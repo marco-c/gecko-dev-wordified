@@ -641,6 +641,11 @@ mPreferDarkTheme
 =
 false
 ;
+bool
+mIsDefaultThemeFallback
+=
+false
+;
 ThemeFamily
 mFamily
 {
@@ -1341,7 +1346,7 @@ ConfigureFinalEffectiveTheme
 )
 ;
 void
-MaybeApplyAdwaitaOverrides
+MaybeApplyColorOverrides
 (
 )
 ;
