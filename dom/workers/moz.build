@@ -163,6 +163,11 @@ WorkerCommon
 h
 "
 "
+WorkerCSPContext
+.
+h
+"
+"
 WorkerDebugger
 .
 h
@@ -344,6 +349,11 @@ cpp
 "
 "
 WorkerChannelInfo
+.
+cpp
+"
+"
+WorkerCSPContext
 .
 cpp
 "

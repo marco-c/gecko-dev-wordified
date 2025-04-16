@@ -178,6 +178,11 @@ nsCSPContext
 h
 "
 "
+nsCSPParser
+.
+h
+"
+"
 nsCSPService
 .
 h

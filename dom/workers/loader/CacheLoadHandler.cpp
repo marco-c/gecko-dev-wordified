@@ -3869,6 +3869,7 @@ rv
 )
 )
 {
+return
 DataReceived
 (
 )
@@ -3878,7 +3879,7 @@ return
 rv
 ;
 }
-void
+nsresult
 CacheLoadHandler
 :
 :
@@ -3968,6 +3969,9 @@ Set
 Eval
 and
 ContentSecurityPolicy
+nsresult
+rv
+=
 mWorkerRef
 -
 >
@@ -3984,6 +3988,12 @@ parent
 GetCsp
 (
 )
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 mWorkerRef
@@ -4024,6 +4034,9 @@ IsWasmEvalAllowed
 ;
 }
 }
+return
+NS_OK
+;
 }
 }
 /
