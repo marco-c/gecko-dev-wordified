@@ -475,7 +475,6 @@ proc
 :
 {
 self
-ExpressionKindTracker
 NameKey
 }
 valid
@@ -12873,18 +12872,6 @@ named_expressions
 func
 .
 named_expressions
-expr_kind_tracker
-:
-ExpressionKindTracker
-:
-:
-from_arena
-(
-&
-func
-.
-expressions
-)
 }
 ;
 self

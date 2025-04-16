@@ -208,6 +208,8 @@ D3DCOMPILE_ENABLE_STRICTNESS
 if
 device
 .
+shared
+.
 private_caps
 .
 instance_flags
@@ -2158,6 +2160,8 @@ directory
 }
 if
 device
+.
+shared
 .
 private_caps
 .

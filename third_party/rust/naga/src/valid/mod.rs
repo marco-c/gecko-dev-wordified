@@ -1995,6 +1995,7 @@ derive
 (
 Debug
 Clone
+Default
 )
 ]
 #
