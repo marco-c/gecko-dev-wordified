@@ -97,6 +97,14 @@ encryption
 )
 )
 ]
+#
+!
+[
+cfg
+(
+test
+)
+]
 use
 neqo_crypto
 :

@@ -144,6 +144,7 @@ Copy
 Ord
 PartialOrd
 Hash
+Default
 )
 ]
 pub

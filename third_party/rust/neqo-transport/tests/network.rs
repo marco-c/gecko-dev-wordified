@@ -129,8 +129,8 @@ network
 :
 :
 {
-Delay
 Drop
+RandomDelay
 TailDrop
 }
 Simulator
@@ -276,6 +276,11 @@ ConnectionParameters
 default
 (
 )
+.
+mlkem
+(
+false
+)
 [
 ]
 boxed
@@ -303,6 +308,11 @@ ConnectionParameters
 :
 default
 (
+)
+.
+mlkem
+(
+false
 )
 [
 ]
@@ -420,6 +430,11 @@ weeks
 1000
 )
 )
+.
+mlkem
+(
+false
+)
 boxed
 !
 [
@@ -461,7 +476,7 @@ IdleTimeout
 )
 ]
 )
-Delay
+RandomDelay
 :
 :
 new
@@ -503,6 +518,11 @@ weeks
 1000
 )
 )
+.
+mlkem
+(
+false
+)
 boxed
 !
 [
@@ -544,7 +564,7 @@ IdleTimeout
 )
 ]
 )
-Delay
+RandomDelay
 :
 :
 new
@@ -628,6 +648,11 @@ ConnectionParameters
 default
 (
 )
+.
+mlkem
+(
+false
+)
 [
 ]
 boxed
@@ -645,7 +670,7 @@ Confirmed
 )
 ]
 )
-Delay
+RandomDelay
 :
 :
 new
@@ -666,6 +691,11 @@ ConnectionParameters
 default
 (
 )
+.
+mlkem
+(
+false
+)
 [
 ]
 boxed
@@ -683,7 +713,7 @@ Confirmed
 )
 ]
 )
-Delay
+RandomDelay
 :
 :
 new
@@ -712,6 +742,11 @@ ConnectionParameters
 default
 (
 )
+.
+mlkem
+(
+false
+)
 [
 ]
 boxed
@@ -735,7 +770,7 @@ TailDrop
 dsl_downlink
 (
 )
-Delay
+RandomDelay
 :
 :
 new
@@ -755,6 +790,11 @@ ConnectionParameters
 :
 default
 (
+)
+.
+mlkem
+(
+false
 )
 [
 ]
@@ -779,7 +819,7 @@ TailDrop
 dsl_uplink
 (
 )
-Delay
+RandomDelay
 :
 :
 new
@@ -808,6 +848,11 @@ ConnectionParameters
 default
 (
 )
+.
+mlkem
+(
+false
+)
 [
 ]
 boxed
@@ -841,6 +886,11 @@ ConnectionParameters
 :
 default
 (
+)
+.
+mlkem
+(
+false
 )
 [
 ]
@@ -890,7 +940,7 @@ TRANSFER_AMOUNT
 )
 ]
 )
-Delay
+RandomDelay
 :
 :
 new
@@ -921,7 +971,7 @@ TRANSFER_AMOUNT
 )
 ]
 )
-Delay
+RandomDelay
 :
 :
 new
@@ -1020,7 +1070,7 @@ TailDrop
 dsl_downlink
 (
 )
-Delay
+RandomDelay
 :
 :
 new
@@ -1053,7 +1103,7 @@ TailDrop
 dsl_uplink
 (
 )
-Delay
+RandomDelay
 :
 :
 new
@@ -1137,7 +1187,7 @@ TRANSFER_AMOUNT
 )
 ]
 )
-Delay
+RandomDelay
 :
 :
 new
@@ -1171,7 +1221,7 @@ TRANSFER_AMOUNT
 )
 ]
 )
-Delay
+RandomDelay
 :
 :
 new

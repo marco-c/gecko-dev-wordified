@@ -735,7 +735,10 @@ client_preinfo
 max_early_data
 (
 )
+Ok
+(
 0
+)
 )
 ;
 assert_eq
@@ -817,7 +820,10 @@ server_preinfo
 max_early_data
 (
 )
+Ok
+(
 0
+)
 )
 ;
 assert_eq

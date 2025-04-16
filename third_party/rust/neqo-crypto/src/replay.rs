@@ -286,16 +286,6 @@ create
 the
 context
 .
-#
-[
-allow
-(
-clippy
-:
-:
-module_name_repetitions
-)
-]
 pub
 struct
 AntiReplay

@@ -422,16 +422,6 @@ status
 "
 )
 {
-#
-[
-allow
-(
-clippy
-:
-:
-map_err_ignore
-)
-]
 let
 status_code
 =

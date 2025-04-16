@@ -80,6 +80,14 @@ to
 those
 terms
 .
+#
+!
+[
+cfg
+(
+test
+)
+]
 use
 std
 :

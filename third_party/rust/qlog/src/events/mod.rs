@@ -3261,6 +3261,7 @@ Clone
 PartialEq
 Eq
 Debug
+Default
 )
 ]
 pub

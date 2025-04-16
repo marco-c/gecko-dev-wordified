@@ -1526,7 +1526,6 @@ here
 .
 AlreadyClosed
 AlreadyInitialized
-DecodingFrame
 FatalError
 HttpGoaway
 Internal
@@ -2129,7 +2128,6 @@ error
 ;
 }
 }
-;
 Self
 :
 :
@@ -3259,7 +3257,10 @@ Priority
 )
 -
 >
+Res
+<
 bool
+>
 ;
 fn
 priority_update_frame
@@ -3282,6 +3283,13 @@ priority_update_sent
 mut
 self
 )
+-
+>
+Res
+<
+(
+)
+>
 ;
 fn
 set_new_listener

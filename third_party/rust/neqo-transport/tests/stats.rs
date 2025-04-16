@@ -108,7 +108,6 @@ default
 (
 )
 ;
-let
 _
 =
 stats
@@ -124,7 +123,6 @@ ValidationOutcome
 Capable
 ]
 ;
-let
 _
 =
 stats
