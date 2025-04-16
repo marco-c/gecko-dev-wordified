@@ -2771,7 +2771,7 @@ filter
 placeholder
 :
 JSON_FILTER_TEXT
-value
+initialValue
 :
 filterText
 }

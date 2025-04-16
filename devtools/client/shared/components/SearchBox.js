@@ -434,7 +434,7 @@ type
 PropTypes
 .
 string
-value
+initialValue
 :
 PropTypes
 .
@@ -461,7 +461,7 @@ value
 :
 props
 .
-value
+initialValue
 |
 |
 "
