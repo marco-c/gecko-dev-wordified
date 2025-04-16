@@ -201,6 +201,9 @@ namespace
 layers
 {
 class
+FenceD3D11
+;
+class
 ZeroCopyUsageInfo
 final
 {
@@ -327,8 +330,6 @@ virtual
 D3D11ZeroCopyTextureImage
 (
 )
-=
-default
 ;
 void
 AllocateTextureClient
@@ -341,6 +342,12 @@ RefPtr
 ZeroCopyUsageInfo
 >
 aUsageInfo
+const
+RefPtr
+<
+FenceD3D11
+>
+aWriteFence
 )
 ;
 gfx
