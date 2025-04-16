@@ -18934,6 +18934,16 @@ Param
 aResponse
 )
 {
+if
+(
+Destroyed
+(
+)
+)
+{
+return
+;
+}
 auto
 acc
 (
