@@ -295,8 +295,8 @@ a
 license
 that
 expires
-1
-second
+2
+seconds
 from
 now
 .
@@ -313,7 +313,7 @@ valueOf
 (
 )
 +
-1000
+2000
 ;
 config
 .
@@ -342,7 +342,7 @@ response
 /
 /
 Wait
-2
+4
 seconds
 before
 calling
@@ -481,7 +481,7 @@ play
 /
 /
 Wait
-2
+4
 seconds
 to
 ensure
@@ -507,7 +507,7 @@ done
 )
 ;
 }
-2000
+4000
 )
 ;
 }
@@ -519,7 +519,7 @@ onFailure
 )
 ;
 }
-2000
+4000
 )
 ;
 }
