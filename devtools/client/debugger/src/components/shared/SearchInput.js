@@ -488,6 +488,11 @@ size
 PropTypes
 .
 string
+disabled
+:
+PropTypes
+.
+bool
 summaryMsg
 :
 PropTypes
@@ -1458,6 +1463,7 @@ query
 selectedItemId
 showErrorEmoji
 size
+disabled
 }
 =
 this
@@ -1478,6 +1484,7 @@ empty
 showErrorEmoji
 }
 )
+disabled
 onChange
 onKeyDown
 :
