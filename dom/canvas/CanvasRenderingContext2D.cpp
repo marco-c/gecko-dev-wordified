@@ -10290,11 +10290,9 @@ aSkipTransform
 *
 aCoveredRect
 :
-CurrentState
+GetCurrentTransform
 (
 )
-.
-transform
 .
 TransformBounds
 (
