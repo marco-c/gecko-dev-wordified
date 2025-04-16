@@ -490,6 +490,14 @@ f
 "
 curl
 -
+-
+retry
+5
+-
+L
+-
+f
+-
 O
 {
 head_repo
