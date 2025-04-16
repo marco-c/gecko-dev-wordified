@@ -374,11 +374,12 @@ JSLocale
 return
 NS_Atomize
 (
-"
-en
--
-US
-"
+nsRFPService
+:
+:
+GetSpoofedJSLocale
+(
+)
 )
 ;
 }
