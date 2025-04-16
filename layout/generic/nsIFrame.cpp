@@ -58364,7 +58364,7 @@ PresShell
 )
 -
 >
-ScheduleViewManagerFlush
+SchedulePaint
 (
 )
 ;

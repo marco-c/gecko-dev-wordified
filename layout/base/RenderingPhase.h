@@ -247,12 +247,7 @@ TODO
 Mark
 paint
 timing
-/
-/
-TODO
-:
 Paint
-.
 /
 /
 TODO
@@ -327,6 +322,10 @@ RenderingPhase
 :
 :
 UpdateIntersectionObservations
+RenderingPhase
+:
+:
+Paint
 }
 ;
 }
