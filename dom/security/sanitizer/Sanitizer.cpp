@@ -1450,6 +1450,10 @@ with
 element
 and
 sanitizer
+s
+/
+/
+configuration
 .
 AllowElement
 (
@@ -1517,6 +1521,10 @@ with
 element
 and
 sanitizer
+s
+/
+/
+configuration
 .
 RemoveElement
 (
@@ -1591,6 +1599,8 @@ and
 /
 /
 sanitizer
+s
+configuration
 .
 ReplaceElementWithChildren
 (
@@ -1658,6 +1668,10 @@ with
 attribute
 and
 sanitizer
+s
+/
+/
+configuration
 .
 AllowAttribute
 (
@@ -1725,6 +1739,10 @@ with
 attribute
 and
 sanitizer
+s
+/
+/
+configuration
 .
 RemoveAttribute
 (
@@ -2020,7 +2038,7 @@ elements
 equals
 size
 of
-this
+sanitizer
 s
 /
 /
@@ -2071,7 +2089,7 @@ removeElements
 equals
 size
 of
-this
+sanitizer
 s
 /
 /
@@ -2122,10 +2140,10 @@ replaceWithChildrenElements
 equals
 size
 of
-this
+/
+/
+sanitizer
 s
-/
-/
 configuration
 [
 "
@@ -2173,7 +2191,7 @@ attributes
 equals
 size
 of
-this
+sanitizer
 s
 /
 /
@@ -2224,7 +2242,7 @@ removeAttributes
 equals
 size
 of
-this
+sanitizer
 s
 /
 /
