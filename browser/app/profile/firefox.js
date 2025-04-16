@@ -20314,14 +20314,14 @@ enroll
 .
 Default
 to
-1
+25
 %
 of
 /
 /
 population
 (
-100
+2500
 /
 10000
 )
@@ -20335,7 +20335,7 @@ preonboarding
 .
 onTrainRolloutPopulation
 "
-100
+2500
 )
 ;
 /
