@@ -165,6 +165,15 @@ RangeAnalysis
 .
 h
 "
+#
+include
+"
+wasm
+/
+WasmMetadata
+.
+h
+"
 using
 namespace
 js
@@ -871,7 +880,10 @@ def
 wasmRefType
 (
 )
-wasmTypes_
+wasmCodeMeta_
+-
+>
+types
 )
 .
 get

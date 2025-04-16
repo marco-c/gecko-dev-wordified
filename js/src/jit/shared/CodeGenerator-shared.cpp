@@ -371,6 +371,13 @@ graph
 MacroAssembler
 *
 masmArg
+const
+wasm
+:
+:
+CodeMetadata
+*
+wasmCodeMeta
 )
 :
 masm
@@ -398,6 +405,10 @@ graph
 (
 *
 graph
+)
+wasmCodeMeta_
+(
+wasmCodeMeta
 )
 current
 (

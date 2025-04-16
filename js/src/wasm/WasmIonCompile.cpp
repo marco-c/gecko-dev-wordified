@@ -2620,9 +2620,8 @@ OptimizationLevel
 :
 Wasm
 )
+&
 codeMeta
-.
-types
 )
 loopDepth_
 (
@@ -70698,6 +70697,8 @@ mirGen
 lir
 &
 masm
+&
+codeMeta
 )
 ;
 TrapSiteDesc

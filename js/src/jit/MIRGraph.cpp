@@ -182,6 +182,15 @@ MIRGenerator
 .
 h
 "
+#
+include
+"
+wasm
+/
+WasmMetadata
+.
+h
+"
 using
 namespace
 js
@@ -223,9 +232,9 @@ const
 wasm
 :
 :
-TypeContext
+CodeMetadata
 *
-wasmTypes
+wasmCodeMeta
 )
 :
 realm
@@ -338,7 +347,7 @@ options
 gs_
 (
 alloc
-wasmTypes
+wasmCodeMeta
 )
 {
 }

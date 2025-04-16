@@ -973,9 +973,9 @@ const
 wasm
 :
 :
-TypeContext
+CodeMetadata
 *
-wasmTypes
+wasmCodeMeta
 =
 nullptr
 )
@@ -1456,9 +1456,9 @@ const
 wasm
 :
 :
-TypeContext
+CodeMetadata
 *
-wasmTypes
+wasmCodeMeta
 =
 nullptr
 )

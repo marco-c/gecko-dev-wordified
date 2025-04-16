@@ -198,9 +198,9 @@ const
 wasm
 :
 :
-TypeContext
+CodeMetadata
 *
-wasmTypes_
+wasmCodeMeta_
 ;
 public
 :
@@ -214,9 +214,9 @@ const
 wasm
 :
 :
-TypeContext
+CodeMetadata
 *
-wasmTypes
+wasmCodeMeta
 =
 nullptr
 )
@@ -225,9 +225,9 @@ JSONPrinter
 (
 out
 )
-wasmTypes_
+wasmCodeMeta_
 (
-wasmTypes
+wasmCodeMeta
 )
 {
 }

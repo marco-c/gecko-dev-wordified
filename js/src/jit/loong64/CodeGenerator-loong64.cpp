@@ -292,6 +292,13 @@ graph
 MacroAssembler
 *
 masm
+const
+wasm
+:
+:
+CodeMetadata
+*
+wasmCodeMeta
 )
 :
 CodeGeneratorShared
@@ -299,6 +306,7 @@ CodeGeneratorShared
 gen
 graph
 masm
+wasmCodeMeta
 )
 {
 }
