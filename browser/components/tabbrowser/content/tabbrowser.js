@@ -53140,6 +53140,17 @@ tab_menu
 }
 )
 ;
+gBrowser
+.
+selectedTab
+=
+this
+.
+contextTabs
+[
+0
+]
+;
 /
 /
 When
