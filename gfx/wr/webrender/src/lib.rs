@@ -1061,6 +1061,7 @@ ProgramBinary
 ProgramCache
 ProgramCacheObserver
 FormatDesc
+ShaderError
 }
 ;
 pub
