@@ -2368,6 +2368,11 @@ renderSettingsButton
 )
 this
 .
+renderProjectRootHeader
+(
+)
+this
+.
 isEmpty
 (
 )
@@ -2380,6 +2385,12 @@ L10N
 .
 getStr
 (
+projectRoot
+?
+"
+noSourcesInDirectoryRootText
+"
+:
 "
 noSourcesText
 "
@@ -2392,11 +2403,6 @@ createElement
 (
 Fragment
 null
-this
-.
-renderProjectRootHeader
-(
-)
 this
 .
 renderTree
