@@ -266,13 +266,10 @@ CreateDirectoryLockInternal
 (
 aPersistenceScope
 aOriginScope
-Nullable
-<
-Client
+ClientStorageScope
 :
 :
-Type
->
+CreateFromNull
 (
 )
 /

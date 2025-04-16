@@ -408,15 +408,9 @@ OriginScope
 &
 aOriginScope
 const
-Nullable
-<
-Client
-:
-:
-Type
->
+ClientStorageScope
 &
-aClientType
+aClientStorageScope
 bool
 aExclusive
 DirectoryLockCategory
