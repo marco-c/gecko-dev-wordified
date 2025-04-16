@@ -1296,6 +1296,7 @@ shade
 :
 :
 {
+PendingShadersToPrecache
 Shaders
 SharedShaders
 }
