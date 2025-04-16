@@ -98,12 +98,10 @@ BUG_COMPONENT
 =
 (
 "
-Firefox
+Toolkit
 "
 "
-Data
-Loss
-Prevention
+General
 "
 )
 EXTRA_JS_MODULES
