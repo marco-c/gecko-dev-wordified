@@ -1911,6 +1911,15 @@ ErrorResult
 aRv
 )
 ;
+static
+void
+AndroidMoveTaskToBack
+(
+GlobalObject
+&
+aGlobal
+)
+;
 private
 :
 /
