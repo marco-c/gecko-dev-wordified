@@ -19265,8 +19265,15 @@ MarkStickyFramesForReflow
 mPresShell
 -
 >
-AddResizeEventFlushObserverIfNeeded
+ScheduleResizeEventIfNeeded
 (
+PresShell
+:
+:
+ResizeEventKind
+:
+:
+Regular
 )
 ;
 }
