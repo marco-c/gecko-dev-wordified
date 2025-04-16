@@ -966,7 +966,7 @@ msg
 {
 chan_cap_
 .
-NoteSendMutex
+NoteLockHeld
 (
 )
 ;
@@ -1350,7 +1350,7 @@ SendMutex
 ;
 chan_cap_
 .
-NoteSendMutex
+NoteLockHeld
 (
 )
 ;
@@ -1973,7 +1973,7 @@ was_pending
 {
 chan_cap_
 .
-NoteOnIOThread
+NoteOnTarget
 (
 )
 ;
@@ -2890,7 +2890,7 @@ was_pending
 {
 chan_cap_
 .
-NoteSendMutex
+NoteLockHeld
 (
 )
 ;
@@ -3547,7 +3547,7 @@ AssertOnCurrentThread
 ;
 chan_cap_
 .
-NoteOnIOThread
+NoteOnTarget
 (
 )
 ;
@@ -4323,7 +4323,7 @@ msg
 {
 chan_cap_
 .
-NoteOnIOThread
+NoteOnTarget
 (
 )
 ;
@@ -4923,7 +4923,7 @@ msg
 {
 chan_cap_
 .
-NoteSendMutex
+NoteLockHeld
 (
 )
 ;

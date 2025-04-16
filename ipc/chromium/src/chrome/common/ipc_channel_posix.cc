@@ -1676,7 +1676,7 @@ ProcessIncomingMessages
 {
 chan_cap_
 .
-NoteOnIOThread
+NoteOnTarget
 (
 )
 ;
@@ -3868,7 +3868,7 @@ IOThread
 .
 chan_cap_
 .
-NoteSendMutex
+NoteLockHeld
 (
 )
 ;
@@ -5576,7 +5576,7 @@ SendMutex
 ;
 chan_cap_
 .
-NoteSendMutex
+NoteLockHeld
 (
 )
 ;
@@ -5831,7 +5831,7 @@ AssertOnCurrentThread
 ;
 chan_cap_
 .
-NoteOnIOThread
+NoteOnTarget
 (
 )
 ;
@@ -6036,7 +6036,7 @@ msg
 {
 chan_cap_
 .
-NoteSendMutex
+NoteLockHeld
 (
 )
 ;
@@ -7929,7 +7929,7 @@ msg
 {
 chan_cap_
 .
-NoteOnIOThread
+NoteOnTarget
 (
 )
 ;
