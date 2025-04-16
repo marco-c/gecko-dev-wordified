@@ -872,10 +872,9 @@ const
 {
 MOZ_DIAGNOSTIC_ASSERT
 (
-!
 mClientStorageScope
 .
-IsNull
+IsClient
 (
 )
 )
