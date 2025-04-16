@@ -39188,6 +39188,12 @@ aFrame
 )
 |
 |
+IsEditingHost
+(
+aFrame
+)
+|
+|
 !
 parent
 )
