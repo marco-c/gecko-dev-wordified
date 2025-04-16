@@ -809,7 +809,7 @@ types
 if
 arg_ty
 .
-equivalent
+non_struct_equivalent
 (
 rule_ty
 types
@@ -956,7 +956,7 @@ types
 ;
 arg_ty
 .
-equivalent
+non_struct_equivalent
 (
 rule_ty
 types

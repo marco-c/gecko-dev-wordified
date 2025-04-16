@@ -642,7 +642,10 @@ Vec
 new
 (
 )
-ray_get_intersection_function
+ray_get_committed_intersection_function
+:
+None
+ray_get_candidate_intersection_function
 :
 None
 }
@@ -1125,7 +1128,10 @@ temp_list
 recycle
 (
 )
-ray_get_intersection_function
+ray_get_candidate_intersection_function
+:
+None
+ray_get_committed_intersection_function
 :
 None
 }
