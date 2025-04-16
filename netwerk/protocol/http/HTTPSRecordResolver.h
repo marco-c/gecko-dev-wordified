@@ -299,9 +299,6 @@ nsIDNSHTTPSSVCRecord
 >
 mHTTPSRecord
 ;
-uint32_t
-mCaps
-;
 bool
 mDone
 =
