@@ -471,12 +471,6 @@ removeAllRecords
 )
 ;
 }
-await
-clearTelemetry
-(
-CC_NUM_USES_HISTOGRAM
-)
-;
 const
 expectedFormInteractionEvents
 =
