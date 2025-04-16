@@ -1327,6 +1327,10 @@ UniqueCodeBlock
 tier2CodeBlock
 UniqueLinkData
 tier2LinkData
+const
+TierStats
+&
+tier2Stats
 )
 const
 {
@@ -1352,6 +1356,7 @@ move
 (
 tier2LinkData
 )
+tier2Stats
 )
 )
 {

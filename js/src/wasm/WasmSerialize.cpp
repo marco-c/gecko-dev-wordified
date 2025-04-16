@@ -10258,6 +10258,9 @@ move
 (
 optimizedCodeLinkData
 )
+TierStats
+(
+)
 )
 )
 {
