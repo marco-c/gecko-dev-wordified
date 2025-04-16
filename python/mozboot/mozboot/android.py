@@ -298,7 +298,7 @@ packages
 "
 "
 "
-ANDROID_SDK_TOO_OLD
+ANDROID_SDK_TOO_OLD_UPDATE_IN_PLACE
 =
 "
 "
@@ -318,8 +318,6 @@ at
 s
 I
 can
-'
-t
 update
 outdated
 Android
@@ -333,7 +331,10 @@ sdkmanager
 '
 tool
 .
-Move
+If
+this
+fails
+move
 it
 out
 of
@@ -3055,24 +3056,23 @@ ANDROID_SDK_EXISTS
 sdk_path
 )
     
-elif
+else
+:
+        
+if
 sdk_path
 .
 is_dir
 (
 )
 :
-        
-raise
-NotImplementedError
+            
+print
 (
-ANDROID_SDK_TOO_OLD
+ANDROID_SDK_TOO_OLD_UPDATE_IN_PLACE
 %
 sdk_path
 )
-    
-else
-:
         
 #
 The
