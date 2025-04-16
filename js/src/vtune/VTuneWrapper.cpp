@@ -284,6 +284,16 @@ VTuneMutex
 return
 false
 ;
+if
+(
+getenv
+(
+"
+JS_LOAD_VTUNE_LIB
+"
+)
+)
+{
 /
 /
 Load
@@ -312,6 +322,7 @@ VTuneLoaded
 =
 true
 ;
+}
 return
 true
 ;
