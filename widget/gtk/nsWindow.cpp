@@ -127,6 +127,9 @@ include
 cstdint
 >
 #
+ifdef
+MOZ_X11
+#
 include
 <
 X11
@@ -135,6 +138,8 @@ Xlib
 .
 h
 >
+#
+endif
 #
 include
 <
