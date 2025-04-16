@@ -109891,6 +109891,13 @@ SetMicroTaskLevel
 0
 )
 ;
+ccjs
+-
+>
+EnterSyncOperation
+(
+)
+;
 }
 if
 (
@@ -110140,6 +110147,13 @@ ccjs
 SetMicroTaskLevel
 (
 mMicroTaskLevel
+)
+;
+ccjs
+-
+>
+LeaveSyncOperation
+(
 )
 ;
 }
