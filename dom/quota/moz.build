@@ -257,6 +257,11 @@ ClientDirectoryLock
 h
 "
 "
+ClientDirectoryLockHandle
+.
+h
+"
+"
 ClientImpl
 .
 h
@@ -613,6 +618,11 @@ cpp
 "
 "
 ClientDirectoryLock
+.
+cpp
+"
+"
+ClientDirectoryLockHandle
 .
 cpp
 "

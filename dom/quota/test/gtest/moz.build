@@ -153,6 +153,11 @@ TestCheckedUnsafePtr
 cpp
 "
 "
+TestClientDirectoryLockHandle
+.
+cpp
+"
+"
 TestClientStorageScope
 .
 cpp
