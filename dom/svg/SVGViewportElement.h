@@ -894,6 +894,12 @@ svg
 )
 ;
 }
+bool
+AreWidthAndHeightUnsetOrPositive
+(
+)
+const
+;
 /
 *
 *
