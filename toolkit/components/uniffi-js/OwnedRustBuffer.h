@@ -143,9 +143,9 @@ include
 "
 mozilla
 /
-dom
+uniffi
 /
-UniFFIRust
+Rust
 .
 h
 "

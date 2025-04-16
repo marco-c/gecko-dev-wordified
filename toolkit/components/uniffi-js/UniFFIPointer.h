@@ -166,9 +166,9 @@ include
 "
 mozilla
 /
-dom
+uniffi
 /
-UniFFIPointerType
+PointerType
 .
 h
 "
