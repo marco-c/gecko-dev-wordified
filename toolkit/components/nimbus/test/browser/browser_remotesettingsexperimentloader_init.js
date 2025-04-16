@@ -279,7 +279,6 @@ conflict
 )
 )
 ;
-await
 ExperimentFakes
 .
 cleanupAll

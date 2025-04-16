@@ -3433,7 +3433,6 @@ failure
 "
 )
 ;
-await
 ExperimentFakes
 .
 cleanupAll
@@ -3449,13 +3448,6 @@ slug
 {
 manager
 }
-)
-;
-assertEmptyStore
-(
-manager
-.
-store
 )
 ;
 sandbox
