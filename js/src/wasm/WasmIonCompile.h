@@ -268,6 +268,10 @@ CodeMetadata
 &
 codeMeta
 const
+CodeTailMetadata
+*
+codeTailMeta
+const
 CompilerEnvironment
 &
 compilerEnv

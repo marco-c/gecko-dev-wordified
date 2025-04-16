@@ -8915,6 +8915,7 @@ finishModule
 BytecodeBufferOrSource
 (
 )
+*
 moduleMeta
 /
 *
@@ -11605,6 +11606,7 @@ finishModule
 BytecodeBufferOrSource
 (
 )
+*
 moduleMeta
 /
 *

@@ -13907,6 +13907,7 @@ mg
 finishModule
 (
 bytecode
+*
 moduleMeta_
 /
 *

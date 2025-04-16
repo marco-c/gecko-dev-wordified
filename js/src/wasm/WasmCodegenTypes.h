@@ -247,6 +247,15 @@ h
 #
 include
 "
+threading
+/
+ExclusiveData
+.
+h
+"
+#
+include
+"
 wasm
 /
 WasmBuiltins

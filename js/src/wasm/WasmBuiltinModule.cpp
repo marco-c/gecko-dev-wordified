@@ -1929,6 +1929,7 @@ finishModule
 BytecodeBufferOrSource
 (
 )
+*
 moduleMeta
 /
 *

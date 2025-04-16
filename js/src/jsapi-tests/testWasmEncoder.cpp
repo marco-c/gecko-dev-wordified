@@ -736,6 +736,7 @@ finishModule
 BytecodeBufferOrSource
 (
 )
+*
 moduleMeta
 /
 *
