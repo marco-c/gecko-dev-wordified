@@ -137,6 +137,13 @@ mochitest
 .
 toml
 "
+"
+mochitest
+/
+perftest
+.
+toml
+"
 ]
 DIRS
 +
