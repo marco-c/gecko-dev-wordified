@@ -231,8 +231,8 @@ nsString
 h
 "
 #
-ifdef
-RELEASE_OR_BETA
+ifndef
+EARLY_BETA_OR_EARLIER
 #
 include
 "
@@ -743,8 +743,8 @@ string_view
 >
 {
 #
-ifdef
-RELEASE_OR_BETA
+ifndef
+EARLY_BETA_OR_EARLIER
 if
 (
 true
@@ -760,6 +760,7 @@ available
 in
 Release
 or
+late
 Beta
 builds
 .
@@ -880,6 +881,7 @@ Release
 or
 "
 "
+late
 Beta
 builds
 ;
