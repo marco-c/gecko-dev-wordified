@@ -144,11 +144,7 @@ h
 #
 include
 "
-mozilla
-/
-uniffi
-/
-Rust
+UniFFIRust
 .
 h
 "

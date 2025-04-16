@@ -124,7 +124,7 @@ include
 "
 mozilla
 /
-uniffi
+dom
 /
 OwnedRustBuffer
 .

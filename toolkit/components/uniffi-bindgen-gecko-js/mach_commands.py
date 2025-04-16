@@ -75,7 +75,7 @@ uniffi
 -
 js
 /
-GeneratedScaffolding
+UniFFIGeneratedScaffolding
 .
 cpp
 "
