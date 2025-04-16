@@ -7131,10 +7131,6 @@ FireScrollPortEvent
 void
 PostScrollEndEvent
 (
-bool
-aDelayed
-=
-false
 )
 ;
 MOZ_CAN_RUN_SCRIPT
@@ -7346,10 +7342,6 @@ true
 void
 PostScrollEvent
 (
-bool
-aDelayed
-=
-false
 )
 ;
 MOZ_CAN_RUN_SCRIPT

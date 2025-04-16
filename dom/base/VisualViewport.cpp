@@ -1506,7 +1506,7 @@ RefreshDriver
 aPresContext
 -
 >
-RefreshDriver
+PresShell
 (
 )
 -
