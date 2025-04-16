@@ -114,7 +114,6 @@ setProjectDirectoryRoot
 (
 newRootItemUniquePath
 newName
-newFullName
 )
 {
 return
@@ -240,9 +239,6 @@ newRootItemUniquePath
 name
 :
 newName
-fullName
-:
-newFullName
 }
 )
 ;
@@ -267,10 +263,6 @@ uniquePath
 "
 "
 name
-:
-"
-"
-fullName
 :
 "
 "
