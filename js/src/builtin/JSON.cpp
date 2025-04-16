@@ -3643,6 +3643,7 @@ endif
 /
 /
 DEBUG
+{
 RootedValue
 objValue
 (
@@ -3671,6 +3672,7 @@ outputValue
 return
 false
 ;
+}
 }
 if
 (
