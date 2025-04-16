@@ -459,7 +459,7 @@ aWinding
 aTarget
 -
 >
-GetBackendType
+GetPathType
 (
 )
 )
