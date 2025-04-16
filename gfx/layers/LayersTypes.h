@@ -2923,7 +2923,7 @@ in
 GPU
 process
 struct
-GpuProcessFencesHolderId
+CompositeProcessFencesHolderId
 {
 uint64_t
 mId
@@ -2931,7 +2931,7 @@ mId
 0
 ;
 static
-GpuProcessFencesHolderId
+CompositeProcessFencesHolderId
 GetNext
 (
 )
@@ -2976,7 +2976,7 @@ operator
 =
 (
 const
-GpuProcessFencesHolderId
+CompositeProcessFencesHolderId
 &
 aOther
 )
@@ -2997,7 +2997,7 @@ operator
 =
 (
 const
-GpuProcessFencesHolderId
+CompositeProcessFencesHolderId
 &
 aOther
 )
@@ -3068,7 +3068,7 @@ operator
 )
 (
 const
-GpuProcessFencesHolderId
+CompositeProcessFencesHolderId
 aKey
 )
 const

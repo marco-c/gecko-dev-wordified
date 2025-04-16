@@ -243,7 +243,7 @@ CompositeProcessD3D11FencesHolderMap
 :
 Register
 (
-GpuProcessFencesHolderId
+CompositeProcessFencesHolderId
 aHolderId
 )
 {
@@ -272,7 +272,7 @@ CompositeProcessD3D11FencesHolderMap
 :
 Unregister
 (
-GpuProcessFencesHolderId
+CompositeProcessFencesHolderId
 aHolderId
 )
 {
@@ -321,7 +321,7 @@ CompositeProcessD3D11FencesHolderMap
 :
 SetWriteFence
 (
-GpuProcessFencesHolderId
+CompositeProcessFencesHolderId
 aHolderId
 RefPtr
 <
@@ -461,7 +461,7 @@ CompositeProcessD3D11FencesHolderMap
 :
 SetReadFence
 (
-GpuProcessFencesHolderId
+CompositeProcessFencesHolderId
 aHolderId
 RefPtr
 <
@@ -577,7 +577,7 @@ CompositeProcessD3D11FencesHolderMap
 :
 WaitWriteFence
 (
-GpuProcessFencesHolderId
+CompositeProcessFencesHolderId
 aHolderId
 ID3D11Device
 *
@@ -685,7 +685,7 @@ CompositeProcessD3D11FencesHolderMap
 :
 WaitAllFencesAndForget
 (
-GpuProcessFencesHolderId
+CompositeProcessFencesHolderId
 aHolderId
 ID3D11Device
 *

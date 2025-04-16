@@ -1136,7 +1136,7 @@ ColorRange
 mColorRange
 ;
 const
-GpuProcessFencesHolderId
+CompositeProcessFencesHolderId
 mFencesHolderId
 ;
 const
@@ -1214,7 +1214,7 @@ gfx
 ColorRange
 aColorRange
 const
-GpuProcessFencesHolderId
+CompositeProcessFencesHolderId
 aFencesHolderId
 const
 RefPtr
@@ -2220,7 +2220,7 @@ Maybe
 layers
 :
 :
-GpuProcessFencesHolderId
+CompositeProcessFencesHolderId
 >
 mFencesHolderId
 ;
@@ -2534,7 +2534,7 @@ ColorRange
 mColorRange
 ;
 const
-GpuProcessFencesHolderId
+CompositeProcessFencesHolderId
 mFencesHolderId
 ;
 protected

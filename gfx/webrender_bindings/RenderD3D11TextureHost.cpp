@@ -314,7 +314,7 @@ Maybe
 layers
 :
 :
-GpuProcessFencesHolderId
+CompositeProcessFencesHolderId
 >
 &
 aFencesHolderId
@@ -2803,7 +2803,7 @@ const
 layers
 :
 :
-GpuProcessFencesHolderId
+CompositeProcessFencesHolderId
 aFencesHolderId
 )
 :

@@ -626,7 +626,7 @@ fencesHolderId
 layers
 :
 :
-GpuProcessFencesHolderId
+CompositeProcessFencesHolderId
 :
 :
 GetNext
@@ -714,7 +714,7 @@ const
 layers
 :
 :
-GpuProcessFencesHolderId
+CompositeProcessFencesHolderId
 aFencesHolderId
 RefPtr
 <

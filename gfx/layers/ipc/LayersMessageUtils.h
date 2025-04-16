@@ -1910,7 +1910,7 @@ mozilla
 layers
 :
 :
-GpuProcessFencesHolderId
+CompositeProcessFencesHolderId
 >
 {
 typedef
@@ -1920,7 +1920,7 @@ mozilla
 layers
 :
 :
-GpuProcessFencesHolderId
+CompositeProcessFencesHolderId
 paramType
 ;
 static

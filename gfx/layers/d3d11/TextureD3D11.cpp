@@ -4261,7 +4261,7 @@ nullptr
 auto
 fencesHolderId
 =
-GpuProcessFencesHolderId
+CompositeProcessFencesHolderId
 :
 :
 GetNext
@@ -4401,7 +4401,7 @@ gfx
 ColorRange
 aColorRange
 const
-GpuProcessFencesHolderId
+CompositeProcessFencesHolderId
 aFencesHolderId
 const
 RefPtr
