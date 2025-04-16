@@ -129,7 +129,7 @@ fs
 ;
 const
 {
-paths
+fixed
 }
 =
 require
@@ -461,6 +461,12 @@ uris
 modules
 )
 {
+let
+paths
+=
+{
+}
+;
 for
 (
 let
@@ -482,7 +488,7 @@ if
 (
 uri
 in
-paths
+fixed
 )
 {
 continue
@@ -744,6 +750,14 @@ uri
 ;
 }
 }
+Object
+.
+assign
+(
+paths
+fixed
+)
+;
 let
 tspaths
 =
