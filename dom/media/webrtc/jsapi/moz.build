@@ -190,6 +190,11 @@ UNIFIED_SOURCES
 =
 [
 "
+DefaultCodecPreferences
+.
+cpp
+"
+"
 MediaTransportHandler
 .
 cpp
