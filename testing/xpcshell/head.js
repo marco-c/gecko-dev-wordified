@@ -634,11 +634,6 @@ raw_msg
 {
 dump
 (
-"
-\
-n
-"
-+
 JSON
 .
 stringify
