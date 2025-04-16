@@ -1466,6 +1466,12 @@ open
 }
 )
 ;
+toolbarContextMenu
+.
+hidePopup
+(
+)
+;
 await
 mouseOutSidebarToCollapse
 (
