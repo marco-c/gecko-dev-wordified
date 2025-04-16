@@ -3954,6 +3954,18 @@ MutationObserver
 =
 >
 {
+/
+/
+it
+'
+s
+possible
+for
+lastOpenedId
+to
+be
+null
+here
 this
 .
 title
@@ -3968,6 +3980,7 @@ this
 .
 lastOpenedId
 )
+?
 .
 title
 ;
