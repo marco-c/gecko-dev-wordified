@@ -79,6 +79,9 @@ true
 requestCount
 :
 1
+expectedEventTimings
+:
+1
 }
 )
 ;
@@ -375,6 +378,11 @@ waitForNetworkEvents
 (
 monitor
 1
+{
+expectedEventTimings
+:
+1
+}
 )
 ;
 if
