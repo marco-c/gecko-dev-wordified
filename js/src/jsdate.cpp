@@ -290,7 +290,7 @@ h
 "
 #
 ifdef
-JS_HAS_TEMPORAL_API
+JS_HAS_INTL_API
 #
 include
 "
@@ -28800,7 +28800,7 @@ rval
 }
 #
 if
-JS_HAS_TEMPORAL_API
+JS_HAS_INTL_API
 /
 *
 *
@@ -29012,7 +29012,7 @@ true
 endif
 /
 *
-JS_HAS_TEMPORAL_API
+JS_HAS_INTL_API
 *
 /
 static
@@ -29395,7 +29395,7 @@ date_toUTCString
 )
 #
 if
-JS_HAS_TEMPORAL_API
+JS_HAS_INTL_API
 JS_FN
 (
 "
@@ -29405,11 +29405,6 @@ date_toTemporalInstant
 0
 0
 )
-#
-endif
-#
-if
-JS_HAS_INTL_API
 JS_SELF_HOSTED_FN
 (
 "

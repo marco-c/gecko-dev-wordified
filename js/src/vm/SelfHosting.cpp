@@ -446,7 +446,7 @@ h
 "
 #
 ifdef
-JS_HAS_TEMPORAL_API
+JS_HAS_INTL_API
 #
 include
 "
@@ -13365,7 +13365,7 @@ true
 }
 #
 ifdef
-JS_HAS_TEMPORAL_API
+JS_HAS_INTL_API
 static
 bool
 intrinsic_ToTemporalDuration
@@ -15509,7 +15509,7 @@ intrinsic_ToSource
 )
 #
 ifdef
-JS_HAS_TEMPORAL_API
+JS_HAS_INTL_API
 JS_FN
 (
 "

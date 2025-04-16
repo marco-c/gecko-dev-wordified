@@ -58,7 +58,7 @@ MPL
 /
 #
 ifdef
-JS_HAS_TEMPORAL_API
+JS_HAS_INTL_API
 #
 include
 <

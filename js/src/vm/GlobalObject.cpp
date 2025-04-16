@@ -339,7 +339,7 @@ h
 "
 #
 ifdef
-JS_HAS_TEMPORAL_API
+JS_HAS_INTL_API
 #
 include
 "
@@ -1200,11 +1200,6 @@ JSProto_Segmenter
 return
 false
 ;
-#
-endif
-#
-ifdef
-JS_HAS_TEMPORAL_API
 case
 JSProto_Temporal
 :
