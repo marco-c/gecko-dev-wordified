@@ -1595,14 +1595,6 @@ Glean
 contextualManager
 .
 passwordsEnabled
-false
-/
-/
-Remove
-this
-in
-bug
-1957425
 )
 ;
 await
