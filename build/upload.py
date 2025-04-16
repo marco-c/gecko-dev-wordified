@@ -659,7 +659,7 @@ file
 :
             
 raise
-IOError
+OSError
 (
 "
 File
@@ -913,7 +913,7 @@ True
 )
     
 except
-IOError
+OSError
 as
 strerror
 :

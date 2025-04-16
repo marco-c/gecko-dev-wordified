@@ -1997,7 +1997,7 @@ subprocess
 .
 PIPE
         
-universal_newlines
+text
 =
 True
         
@@ -2484,7 +2484,7 @@ subprocess
 .
 PIPE
         
-universal_newlines
+text
 =
 True
         

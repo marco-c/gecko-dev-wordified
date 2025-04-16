@@ -77,8 +77,6 @@ virtualenv
 import
 copy
 import
-io
-import
 json
 import
 multiprocessing
@@ -3240,8 +3238,6 @@ try
 :
                 
 with
-io
-.
 open
 (
 path
@@ -3407,8 +3403,6 @@ content
 )
                 
 with
-io
-.
 open
 (
 path

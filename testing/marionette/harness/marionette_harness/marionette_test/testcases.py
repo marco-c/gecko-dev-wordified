@@ -1939,7 +1939,7 @@ delete_session
 )
             
 except
-IOError
+OSError
 :
                 
 #

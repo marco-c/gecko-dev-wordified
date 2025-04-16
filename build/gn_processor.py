@@ -4823,7 +4823,6 @@ cond
 tuple
 (
 (
-(
 k
 args
 .
@@ -4839,7 +4838,6 @@ for
 k
 in
 attrs
-)
 )
                     
 conditions
@@ -5145,7 +5143,6 @@ cond
 tuple
 (
 (
-(
 k
 dict
 (
@@ -5164,7 +5161,6 @@ for
 k
 in
 attrs
-)
 )
                 
 conditions

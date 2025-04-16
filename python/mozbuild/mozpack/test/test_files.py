@@ -316,7 +316,7 @@ dummy_symlink
 )
             
 except
-EnvironmentError
+OSError
 :
                 
 pass
@@ -403,7 +403,7 @@ dummy_hardlink
 )
             
 except
-EnvironmentError
+OSError
 :
                 
 pass

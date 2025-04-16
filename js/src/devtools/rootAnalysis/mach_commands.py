@@ -1,16 +1,4 @@
 #
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
-#
 This
 Source
 Code
@@ -4871,7 +4859,7 @@ else
 :
                 
 raise
-IOError
+OSError
 (
 "
 not
@@ -4942,7 +4930,7 @@ html
         
 except
 (
-IOError
+OSError
 ValueError
 )
 :

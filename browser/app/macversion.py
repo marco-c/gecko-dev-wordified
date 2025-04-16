@@ -62,8 +62,6 @@ MPL
 /
 .
 import
-io
-import
 re
 import
 sys
@@ -275,8 +273,6 @@ buildid
 =
 (
     
-io
-.
 open
 (
 options

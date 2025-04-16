@@ -867,17 +867,9 @@ utf
 8
 "
             
-stderr
+capture_output
 =
-subprocess
-.
-PIPE
-            
-stdout
-=
-subprocess
-.
-PIPE
+True
         
 )
         
@@ -3001,7 +2993,7 @@ local_version
     
 except
 (
-IOError
+OSError
 ValueError
 )
 :

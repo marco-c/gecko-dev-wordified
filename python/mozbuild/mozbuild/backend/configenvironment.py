@@ -1679,7 +1679,7 @@ splitlines
 )
         
 except
-IOError
+OSError
 :
             
 pass
@@ -2098,7 +2098,7 @@ f
 )
             
 except
-IOError
+OSError
 :
                 
 pass

@@ -3693,8 +3693,6 @@ True
 )
             
 return
-io
-.
 open
 (
 path
@@ -3905,8 +3903,6 @@ TextIOBase
                     
 f
 =
-io
-.
 open
 (
 f
@@ -6437,8 +6433,6 @@ args
                 
 args
 =
-io
-.
 open
 (
 args
@@ -6945,8 +6939,6 @@ includes
 :
         
 with
-io
-.
 open
 (
 f

@@ -1094,7 +1094,7 @@ run
 (
                     
 args
-universal_newlines
+text
 =
 True
 capture_output

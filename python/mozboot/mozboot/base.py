@@ -3023,7 +3023,7 @@ env
 =
 env
             
-universal_newlines
+text
 =
 True
             

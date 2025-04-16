@@ -56,8 +56,6 @@ MPL
 import
 codecs
 import
-io
-import
 itertools
 import
 logging
@@ -2293,8 +2291,6 @@ changes
 .
     
 with
-io
-.
 open
 (
 "

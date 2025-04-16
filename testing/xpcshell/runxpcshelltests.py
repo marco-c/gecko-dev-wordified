@@ -11375,7 +11375,7 @@ error
 )
             
 raise
-IOError
+OSError
 (
 error
 )
@@ -11510,7 +11510,7 @@ error
 )
                 
 raise
-IOError
+OSError
 (
 error
 )

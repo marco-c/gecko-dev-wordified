@@ -78,8 +78,6 @@ precomplete
 file
 .
 import
-io
-import
 os
 def
 get_build_entries
@@ -563,8 +561,6 @@ endings
     
 precomplete_file
 =
-io
-.
 open
 (
 precomplete_file_path

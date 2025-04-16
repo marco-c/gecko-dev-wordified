@@ -56,8 +56,6 @@ MPL
 import
 atexit
 import
-io
-import
 re
 import
 yaml
@@ -1599,8 +1597,6 @@ try
 :
         
 with
-io
-.
 open
 (
 filename
@@ -1629,7 +1625,7 @@ f
 )
     
 except
-IOError
+OSError
 as
 e
 :

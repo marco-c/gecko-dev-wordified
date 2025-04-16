@@ -65,8 +65,6 @@ compiler
 warnings
 .
 import
-io
-import
 json
 import
 os
@@ -2015,8 +2013,6 @@ file
 "
         
 with
-io
-.
 open
 (
 filename
@@ -2088,8 +2084,6 @@ True
 )
         
 with
-io
-.
 open
 (
 filename

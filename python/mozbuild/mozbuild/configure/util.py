@@ -1154,9 +1154,9 @@ flush
         
 except
 (
+OSError
 KeyboardInterrupt
 SystemExit
-IOError
 )
 :
             

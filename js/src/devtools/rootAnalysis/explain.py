@@ -2496,7 +2496,7 @@ print_footer
 html
 )
 except
-IOError
+OSError
 as
 e
 :

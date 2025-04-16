@@ -1508,9 +1508,7 @@ contents
 )
     
 except
-os
-.
-error
+OSError
 as
 e
 :

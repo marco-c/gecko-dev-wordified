@@ -1022,7 +1022,7 @@ avoid_writing_to_file
 )
     
 except
-IOError
+OSError
 as
 e
 :

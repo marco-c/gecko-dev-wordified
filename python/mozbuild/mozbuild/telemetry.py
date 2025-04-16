@@ -270,7 +270,7 @@ return
 brand
     
 except
-WindowsError
+OSError
 :
         
 pass

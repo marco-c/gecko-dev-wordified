@@ -54,8 +54,6 @@ MPL
 /
 .
 import
-io
-import
 os
 import
 re
@@ -820,8 +818,6 @@ fp
         
 fp
 =
-io
-.
 open
 (
 fp
@@ -919,7 +915,7 @@ error
 :
         
 raise
-IOError
+OSError
 (
 f
 "

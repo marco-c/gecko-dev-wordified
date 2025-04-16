@@ -5007,7 +5007,7 @@ subprocess
 .
 STDOUT
             
-universal_newlines
+text
 =
 True
         
@@ -5477,7 +5477,7 @@ subprocess
 .
 STDOUT
             
-universal_newlines
+text
 =
 True
         
@@ -9562,21 +9562,13 @@ check
         
 )
         
-universal_newlines
+text
 =
 True
         
-stdout
+capture_output
 =
-subprocess
-.
-PIPE
-        
-stderr
-=
-subprocess
-.
-PIPE
+True
         
 check
 =
@@ -10200,17 +10192,9 @@ pip
 check_env_path
 ]
             
-stdout
+capture_output
 =
-subprocess
-.
-PIPE
-            
-stderr
-=
-subprocess
-.
-PIPE
+True
             
 encoding
 =
@@ -10503,7 +10487,7 @@ subprocess
 .
 STDOUT
             
-universal_newlines
+text
 =
 True
         
@@ -10980,17 +10964,9 @@ pip
 virtualenv_root
 ]
         
-stdout
+capture_output
 =
-subprocess
-.
-PIPE
-        
-stderr
-=
-subprocess
-.
-PIPE
+True
         
 encoding
 =

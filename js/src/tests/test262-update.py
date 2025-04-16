@@ -8,18 +8,6 @@ bin
 env
 python
 #
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
-#
 #
 This
 Source
@@ -77,8 +65,6 @@ MPL
 .
 import
 contextlib
-import
-io
 import
 os
 import
@@ -1625,8 +1611,6 @@ test262OutDir
 "
     
 with
-io
-.
 open
 (
 os
@@ -1834,8 +1818,6 @@ filePath
 :
         
 with
-io
-.
 open
 (
 filePath
@@ -2004,8 +1986,6 @@ js
 .
     
 with
-io
-.
 open
 (
 os
@@ -2073,11 +2053,8 @@ tests
 .
     
 with
-io
-.
 open
 (
-        
 os
 .
 path
@@ -2095,7 +2072,6 @@ js
 "
 wb
 "
-    
 )
 as
 browserFile
@@ -3189,7 +3165,6 @@ refTestOptions
 extend
 (
                     
-(
 "
 shell
 -
@@ -3210,7 +3185,6 @@ in
 sorted
 (
 shellOptions
-)
 )
                 
 )
@@ -3294,7 +3268,6 @@ refTestOptions
 extend
 (
             
-(
 "
 shell
 -
@@ -3315,7 +3288,6 @@ in
 sorted
 (
 optionalShellOptions
-)
 )
         
 )
@@ -4637,8 +4609,6 @@ harness
 .
             
 with
-io
-.
 open
 (
 filePath
@@ -6174,11 +6144,8 @@ filePathDirs
 )
             
 with
-io
-.
 open
 (
-                
 os
 .
 path
@@ -6199,7 +6166,6 @@ split
 "
 wb
 "
-            
 )
 as
 output_file
@@ -6988,8 +6954,6 @@ file
 .
     
 with
-io
-.
 open
 (
 os
@@ -7076,8 +7040,6 @@ file
 .
     
 with
-io
-.
 open
 (
 os

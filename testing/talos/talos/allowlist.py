@@ -295,7 +295,7 @@ allowlist_name
 ]
         
 except
-IOError
+OSError
 as
 e
 :
@@ -1379,7 +1379,7 @@ return
 True
         
 except
-IOError
+OSError
 as
 e
 :

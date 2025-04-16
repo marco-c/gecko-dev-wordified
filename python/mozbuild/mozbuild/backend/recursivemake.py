@@ -54,8 +54,6 @@ MPL
 /
 .
 import
-io
-import
 logging
 import
 os
@@ -7328,8 +7326,6 @@ stub
 )
                 
 with
-io
-.
 open
 (
 obj

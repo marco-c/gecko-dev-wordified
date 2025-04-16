@@ -103,7 +103,7 @@ read
 (
 )
 except
-IOError
+OSError
 :
     
 description

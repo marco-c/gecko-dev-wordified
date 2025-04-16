@@ -2576,8 +2576,6 @@ json
 )
             
 with
-io
-.
 open
 (
                 
@@ -5260,8 +5258,6 @@ else
 :
             
 with
-io
-.
 open
 (
 path
@@ -9764,11 +9760,8 @@ pathToThirdparty
 :
                 
 with
-io
-.
 open
 (
-                    
 pathToThirdparty
 encoding
 =
@@ -9783,14 +9776,12 @@ newline
 \
 n
 "
-                
 )
 as
 f
-io
-.
 open
 (
+                    
 pathToGenerated
 encoding
 =
@@ -9805,6 +9796,7 @@ newline
 \
 n
 "
+                
 )
 as
 g

@@ -924,7 +924,7 @@ url_base
 )
     
 except
-IOError
+OSError
 :
         
 return
@@ -1028,7 +1028,7 @@ DirectoryManifest
 )
     
 except
-IOError
+OSError
 :
         
 return

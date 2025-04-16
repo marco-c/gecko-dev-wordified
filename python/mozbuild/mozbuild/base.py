@@ -879,8 +879,6 @@ json
 .
 load
 (
-io
-.
 open
 (
 path
@@ -1474,8 +1472,6 @@ deps
 ]
         
 with
-io
-.
 open
 (
 dep_file
@@ -1672,8 +1668,6 @@ outputs
 ]
         
 with
-io
-.
 open
 (
 backend_file

@@ -8,18 +8,6 @@ bin
 env
 python
 #
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
-#
 Based
 upon
 makeunicodedata
@@ -870,12 +858,9 @@ reader
 unicode_data
 delimiter
 =
-str
-(
 "
 ;
 "
-)
 )
     
 while
@@ -4342,8 +4327,6 @@ h
 "
     
 with
-io
-.
 open
 (
 file_name
@@ -7334,8 +7317,6 @@ js
 "
     
 with
-io
-.
 open
 (
 file_name
@@ -7739,8 +7720,6 @@ js
 "
     
 with
-io
-.
 open
 (
 file_name
@@ -8064,8 +8043,6 @@ js
 "
     
 with
-io
-.
 open
 (
 file_name
@@ -8326,8 +8303,6 @@ js
 "
     
 with
-io
-.
 open
 (
 file_name
@@ -8780,8 +8755,6 @@ js
 "
     
 with
-io
-.
 open
 (
 file_name
@@ -10204,8 +10177,6 @@ cpp
 "
     
 with
-io
-.
 open
 (
 file_name
@@ -11431,8 +11402,6 @@ version
 )
     
 with
-io
-.
 open
 (
         
@@ -11463,8 +11432,6 @@ utf
 )
 as
 unicode_data
-io
-.
 open
 (
         
@@ -11495,8 +11462,6 @@ utf
 )
 as
 case_folding
-io
-.
 open
 (
         
@@ -11527,8 +11492,6 @@ utf
 )
 as
 derived_core_properties
-io
-.
 open
 (
         

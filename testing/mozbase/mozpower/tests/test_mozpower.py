@@ -9,8 +9,6 @@ env
 python
 import
 subprocess
-import
-sys
 from
 unittest
 import
@@ -218,36 +216,6 @@ parsing
 "
 "
     
-#
-The
-builtins
-module
-name
-differs
-between
-python
-2
-and
-3
-    
-builtins_name
-=
-"
-__builtin__
-"
-    
-if
-sys
-.
-version_info
-[
-0
-]
-=
-=
-3
-:
-        
 builtins_name
 =
 "
@@ -1846,12 +1814,9 @@ value
 ]
 =
 =
-float
-(
 6
 .
 1
-)
             
 elif
 "
@@ -1931,12 +1896,9 @@ value
 ]
 =
 =
-float
-(
 2
 .
 0
-)
             
 elif
 "
@@ -2016,12 +1978,9 @@ value
 ]
 =
 =
-float
-(
 3
 .
 0
-)
             
 else
 :

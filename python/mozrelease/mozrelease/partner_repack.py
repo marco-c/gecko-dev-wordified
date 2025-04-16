@@ -2188,7 +2188,7 @@ file_path
 )
     
 except
-IOError
+OSError
 :
         
 log

@@ -184,9 +184,7 @@ kwargs
         
 except
 (
-socket
-.
-error
+OSError
 socket
 .
 timeout

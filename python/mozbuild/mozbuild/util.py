@@ -87,8 +87,6 @@ functools
 import
 hashlib
 import
-io
-import
 itertools
 import
 os
@@ -201,8 +199,6 @@ mode
 :
         
 return
-io
-.
 open
 (
 path
@@ -210,8 +206,6 @@ mode
 )
     
 return
-io
-.
 open
 (
 path
@@ -1497,7 +1491,7 @@ existed
 True
         
 except
-IOError
+OSError
 :
             
 pass
@@ -1528,7 +1522,7 @@ True
 False
             
 except
-IOError
+OSError
 :
                 
 pass

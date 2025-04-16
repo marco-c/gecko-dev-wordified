@@ -587,7 +587,7 @@ manifest
 :
             
 raise
-IOError
+OSError
 (
 "
 The
@@ -1122,7 +1122,7 @@ children
 :
             
 raise
-IOError
+OSError
 (
 "
 %

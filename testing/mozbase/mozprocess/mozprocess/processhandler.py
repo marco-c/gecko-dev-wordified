@@ -1343,7 +1343,7 @@ ERROR_CONTROL_C_EXIT
 )
                 
 except
-WindowsError
+OSError
 :
                     
 self
@@ -6989,7 +6989,7 @@ winprocess
 STILL_ACTIVE
             
 except
-WindowsError
+OSError
 as
 e
 :

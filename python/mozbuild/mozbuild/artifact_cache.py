@@ -956,7 +956,7 @@ path
 )
             
 except
-WindowsError
+OSError
 :
                 
 #

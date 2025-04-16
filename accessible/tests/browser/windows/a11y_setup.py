@@ -1641,7 +1641,7 @@ index
 )
         
 except
-WindowsError
+OSError
 as
 e
 :
@@ -2752,7 +2752,7 @@ index
 )
         
 except
-WindowsError
+OSError
 as
 e
 :

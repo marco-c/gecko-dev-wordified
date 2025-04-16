@@ -67,12 +67,6 @@ from
 six
 .
 moves
-import
-input
-from
-six
-.
-moves
 .
 urllib
 import

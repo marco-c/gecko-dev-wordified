@@ -1,17 +1,4 @@
 #
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
-"
-#
 This
 Source
 Code
@@ -66,8 +53,6 @@ MPL
 0
 /
 .
-import
-io
 import
 json
 import
@@ -1756,7 +1741,7 @@ build
 "
 :
 "
-2009
+24h2
 "
 "
 name
@@ -1821,7 +1806,7 @@ win
 "
 11
 .
-2009
+26100
 "
 :
 {
@@ -1893,11 +1878,29 @@ path
 )
     
 assert
+(
+        
 skip_if
+        
 =
 =
 "
-win11_2009
+os
+=
+=
+'
+win
+'
+&
+&
+os_version
+=
+=
+'
+11
+.
+26100
+'
 &
 &
 processor
@@ -1910,6 +1913,8 @@ x86
 &
 debug
 "
+    
+)
     
 #
 Failed
@@ -6146,7 +6151,7 @@ build
 "
 :
 "
-2009
+24h2
 "
 "
 name
@@ -6867,7 +6872,22 @@ disabled
 :
     
 if
-win11_2009
+os
+=
+=
+'
+win
+'
+&
+&
+os_version
+=
+=
+'
+11
+.
+26100
+'
 &
 &
 processor
@@ -8004,8 +8024,6 @@ list
     
 manifest_str
 =
-io
-.
 open
 (
 manifest_path
@@ -8044,8 +8062,6 @@ list
     
 after_str
 =
-io
-.
 open
 (
 after_path
@@ -8185,8 +8201,6 @@ list
     
 manifest_str
 =
-io
-.
 open
 (
 manifest_path
@@ -8225,8 +8239,6 @@ list
     
 after_str
 =
-io
-.
 open
 (
 after_path
@@ -8371,8 +8383,6 @@ list
     
 manifest_str
 =
-io
-.
 open
 (
 manifest_path
@@ -8411,8 +8421,6 @@ list
     
 after_str
 =
-io
-.
 open
 (
 after_path
@@ -8642,8 +8650,6 @@ list
     
 manifest_str
 =
-io
-.
 open
 (
 manifest_path
@@ -8682,8 +8688,6 @@ list
     
 after_str
 =
-io
-.
 open
 (
 after_path
@@ -8865,8 +8869,6 @@ list
     
 manifest_str
 =
-io
-.
 open
 (
 manifest_path
@@ -8905,8 +8907,6 @@ list
     
 after_str
 =
-io
-.
 open
 (
 after_path
@@ -9067,8 +9067,6 @@ list
     
 manifest_str
 =
-io
-.
 open
 (
 manifest_path
@@ -9107,8 +9105,6 @@ list
     
 after_str
 =
-io
-.
 open
 (
 after_path
@@ -9318,8 +9314,6 @@ list
     
 manifest_str
 =
-io
-.
 open
 (
 manifest_path
@@ -9358,8 +9352,6 @@ list
     
 after_str
 =
-io
-.
 open
 (
 after_path
@@ -9576,8 +9568,6 @@ list
     
 manifest_str
 =
-io
-.
 open
 (
 manifest_path
@@ -9616,8 +9606,6 @@ list
     
 after_str
 =
-io
-.
 open
 (
 after_path
@@ -9839,8 +9827,6 @@ list
     
 manifest_str
 =
-io
-.
 open
 (
 manifest_path
@@ -9879,8 +9865,6 @@ list
     
 after_str
 =
-io
-.
 open
 (
 after_path
@@ -10170,8 +10154,6 @@ list
     
 manifest_str
 =
-io
-.
 open
 (
 manifest_path
@@ -10210,8 +10192,6 @@ list
     
 after_str
 =
-io
-.
 open
 (
 after_path
@@ -10442,8 +10422,6 @@ list
     
 manifest_str
 =
-io
-.
 open
 (
 manifest_path
@@ -11199,7 +11177,7 @@ windows11
 -
 32
 -
-2009
+24h2
 -
 qr
 /
@@ -11364,7 +11342,7 @@ build
 "
 :
 "
-2009
+24h2
 "
 "
 name
@@ -11519,8 +11497,6 @@ list
     
 manifest_before
 =
-io
-.
 open
 (
 manifest_before_path
@@ -11557,8 +11533,6 @@ list
     
 manifest_fp
 =
-io
-.
 open
 (
 manifest_path
@@ -11606,8 +11580,6 @@ list
     
 manifest_after
 =
-io
-.
 open
 (
 manifest_after_path
@@ -12050,8 +12022,6 @@ manifest_path
     
 manifest_str
 =
-io
-.
 open
 (
 manifest_path

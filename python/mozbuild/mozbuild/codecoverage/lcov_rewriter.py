@@ -3101,7 +3101,7 @@ fh
 )
         
 except
-IOError
+OSError
 :
             
 print

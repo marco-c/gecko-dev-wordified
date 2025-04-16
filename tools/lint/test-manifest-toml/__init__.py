@@ -54,8 +54,6 @@ MPL
 /
 .
 import
-io
-import
 os
 import
 re
@@ -390,8 +388,6 @@ file_name
         
 manifest_str
 =
-io
-.
 open
 (
 file_name
@@ -985,8 +981,6 @@ manifest
             
 fp
 =
-io
-.
 open
 (
 file_name

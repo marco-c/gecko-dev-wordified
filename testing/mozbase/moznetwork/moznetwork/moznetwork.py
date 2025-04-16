@@ -419,7 +419,7 @@ struct_size
 ]
     
 except
-IOError
+OSError
 :
         
 raise

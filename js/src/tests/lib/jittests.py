@@ -5196,7 +5196,7 @@ close
 )
             
 except
-IOError
+OSError
 :
                 
 sys

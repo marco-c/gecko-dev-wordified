@@ -3024,7 +3024,7 @@ app
         
 except
 (
-IOError
+OSError
 KeyError
 )
 :
@@ -3900,7 +3900,7 @@ UNKNOWN_RETURNCODE
 :
                 
 raise
-IOError
+OSError
 (
                     
 f

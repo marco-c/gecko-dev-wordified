@@ -1082,9 +1082,7 @@ this
 .
 format
 (
-(
 evt
-)
 )
                 
 +
@@ -1798,9 +1796,7 @@ s
 .
 format
 (
-(
 attr
-)
 )
         
 msg
@@ -1818,12 +1814,10 @@ nStart
 .
 format
 (
-(
 start
 .
 get_timestamp
 (
-)
 )
 )
         
@@ -1841,12 +1835,10 @@ End
 .
 format
 (
-(
 end
 .
 get_timestamp
 (
-)
 )
 )
         
@@ -4066,9 +4058,8 @@ self
         
 result
 =
-str
-(
-)
+"
+"
         
 for
 e
@@ -4098,9 +4089,7 @@ s
 .
 format
 (
-(
 e
-)
 )
         
 result
@@ -4118,7 +4107,6 @@ s
 .
 format
 (
-(
 self
 .
 seen_events
@@ -4126,7 +4114,6 @@ seen_events
 -
 1
 ]
-)
 )
         
 return
@@ -4619,11 +4606,9 @@ s
 .
 format
 (
-(
 self
 .
 guid
-)
 )
 class
 SessionStoreWindowRestored
@@ -4777,9 +4762,8 @@ False
         
 current
 =
-str
-(
-)
+"
+"
         
 for
 c
@@ -4837,9 +4821,8 @@ current
                     
 current
 =
-str
-(
-)
+"
+"
                     
 continue
             
@@ -5102,11 +5085,9 @@ process
 .
 format
 (
-(
 self
 .
 leafname
-)
 )
 class
 ThreadStart
@@ -5352,7 +5333,6 @@ process
 format
 (
             
-(
 self
 .
 whiteboard
@@ -5361,7 +5341,6 @@ XPerfEvent
 .
 EVENT_DATA_PID
 ]
-)
         
 )
         
@@ -5549,7 +5528,6 @@ ready
 format
 (
             
-(
 self
 .
 whiteboard
@@ -5558,7 +5536,6 @@ XPerfEvent
 .
 EVENT_DATA_TID
 ]
-)
         
 )
 class
@@ -5728,7 +5705,6 @@ s
 format
 (
             
-(
 self
 .
 whiteboard
@@ -5737,7 +5713,6 @@ XPerfEvent
 .
 EVENT_DATA_TID
 ]
-)
         
 )
 class
@@ -6046,11 +6021,9 @@ Bytes
 .
 format
 (
-(
 self
 .
 strverb
-)
 )
 class
 XPerfFile
@@ -6919,9 +6892,7 @@ csv
 .
 format
 (
-(
 leaf
-)
 )
 )
         
@@ -7863,12 +7834,10 @@ r
 .
 format
 (
-(
 attr
 .
 get_results
 (
-)
 )
 )
 )

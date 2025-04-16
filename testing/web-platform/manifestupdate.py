@@ -1135,7 +1135,7 @@ manifest_dir
 :
             
 raise
-IOError
+OSError
 (
 "
 Manifest

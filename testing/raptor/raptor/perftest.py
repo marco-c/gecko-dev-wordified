@@ -160,7 +160,7 @@ path
 :
         
 raise
-IOError
+OSError
 (
 "
 %

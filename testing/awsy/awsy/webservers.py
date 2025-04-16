@@ -233,9 +233,7 @@ start
 )
             
 except
-socket
-.
-error
+OSError
 as
 error
 :

@@ -4085,8 +4085,6 @@ com
 functools
 .
 lru_cache
-(
-)
 def
 get_tc_secret
 (

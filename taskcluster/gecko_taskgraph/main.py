@@ -2522,19 +2522,11 @@ base_path
 cur_path
 ]
                     
-stdout
+capture_output
 =
-subprocess
-.
-PIPE
+True
                     
-stderr
-=
-subprocess
-.
-PIPE
-                    
-universal_newlines
+text
 =
 True
                     

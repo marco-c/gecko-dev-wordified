@@ -58,8 +58,6 @@ codecs
 import
 fnmatch
 import
-io
-import
 json
 import
 os
@@ -1212,8 +1210,6 @@ else
                 
 fp
 =
-io
-.
 open
 (
 filename
@@ -1499,7 +1495,7 @@ toml
 :
                 
 raise
-IOError
+OSError
 (
                     
 f
@@ -1550,7 +1546,7 @@ strict
 :
                     
 raise
-IOError
+OSError
 (
 message
 )
@@ -1770,7 +1766,7 @@ else
 :
                 
 raise
-IOError
+OSError
 (
 f
 "
@@ -2592,7 +2588,7 @@ missing
 :
             
 raise
-IOError
+OSError
 (
 "
 Missing
@@ -3513,7 +3509,7 @@ strict
 :
                 
 raise
-IOError
+OSError
 (
                     
 "
@@ -5025,7 +5021,7 @@ strict
 :
                         
 raise
-IOError
+OSError
 (
 message
 )
@@ -5591,7 +5587,7 @@ filename
 :
             
 raise
-IOError
+OSError
 (
 "
 filename

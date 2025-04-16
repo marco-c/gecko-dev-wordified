@@ -1,6 +1,4 @@
 import
-io
-import
 json
 import
 os
@@ -1462,8 +1460,6 @@ None
 :
                     
 with
-io
-.
 open
 (
 path
@@ -1594,8 +1590,6 @@ None
 :
                 
 with
-io
-.
 open
 (
 path

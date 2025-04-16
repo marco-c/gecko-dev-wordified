@@ -1268,7 +1268,7 @@ manifest
 )
     
 except
-IOError
+OSError
 as
 e
 :
@@ -1602,7 +1602,7 @@ data
 )
     
 except
-IOError
+OSError
 as
 e
 :

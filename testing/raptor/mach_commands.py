@@ -1916,7 +1916,7 @@ close
 )
         
 except
-IOError
+OSError
 as
 e
 :

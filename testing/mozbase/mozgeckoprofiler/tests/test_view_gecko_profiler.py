@@ -8,8 +8,6 @@ bin
 env
 python
 import
-io
-import
 os
 import
 re
@@ -303,8 +301,6 @@ json
 )
         
 with
-io
-.
 open
 (
 profile_path

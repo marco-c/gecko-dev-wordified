@@ -209,7 +209,7 @@ f
     
 except
 (
-IOError
+OSError
 ValueError
 )
 as

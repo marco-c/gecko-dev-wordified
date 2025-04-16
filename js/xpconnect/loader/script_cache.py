@@ -63,8 +63,6 @@ MPL
 /
 .
 import
-io
-import
 os
 import
 struct
@@ -510,8 +508,6 @@ argv
 :
     
 with
-io
-.
 open
 (
 filename

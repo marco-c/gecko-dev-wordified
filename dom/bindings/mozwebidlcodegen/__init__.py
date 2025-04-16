@@ -75,8 +75,6 @@ errno
 import
 hashlib
 import
-io
-import
 json
 import
 logging
@@ -1783,8 +1781,6 @@ state_path
 :
             
 with
-io
-.
 open
 (
 state_path
@@ -2951,8 +2947,6 @@ _input_paths
 :
             
 with
-io
-.
 open
 (
 path
@@ -4667,8 +4661,6 @@ wrong
 .
             
 with
-io
-.
 open
 (
 f
@@ -4782,8 +4774,6 @@ self
 :
         
 with
-io
-.
 open
 (
 self
@@ -5077,8 +5067,6 @@ webidl
 )
     
 with
-io
-.
 open
 (
 os

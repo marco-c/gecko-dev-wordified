@@ -5923,7 +5923,7 @@ False
 capture_output
 =
 True
-universal_newlines
+text
 =
 True
     
@@ -6269,18 +6269,16 @@ subprocess
 .
 run
 (
-            
 args
 check
 =
 check
-universal_newlines
+text
 =
 True
 capture_output
 =
 True
-        
 )
 .
 stdout
@@ -7933,7 +7931,7 @@ capture_output
 =
 capture_output
             
-universal_newlines
+text
 =
 True
         

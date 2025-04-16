@@ -1633,7 +1633,7 @@ True
 None
         
 except
-IOError
+OSError
 as
 error
 :

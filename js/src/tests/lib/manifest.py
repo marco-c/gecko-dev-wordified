@@ -17,8 +17,6 @@ JS
 manifests
 .
 import
-io
-import
 os
 import
 posixpath
@@ -554,8 +552,6 @@ False
 for
 line
 in
-io
-.
 open
 (
 path
@@ -2929,8 +2925,6 @@ manifest
     
 fp
 =
-io
-.
 open
 (
 filename
@@ -3664,8 +3658,6 @@ entries
 ]
     
 with
-io
-.
 open
 (
 filename

@@ -54,8 +54,6 @@ MPL
 /
 .
 import
-io
-import
 os
 import
 re
@@ -1206,8 +1204,6 @@ else
 :
             
 with
-io
-.
 open
 (
 path

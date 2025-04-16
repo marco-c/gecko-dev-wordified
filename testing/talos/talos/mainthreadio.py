@@ -516,9 +516,8 @@ logfile
                 
 prev_filename
 =
-str
-(
-)
+"
+"
                 
 entries
 =
@@ -785,7 +784,7 @@ return
 True
     
 except
-IOError
+OSError
 as
 e
 :
@@ -995,7 +994,7 @@ return
 True
     
 except
-IOError
+OSError
 as
 e
 :

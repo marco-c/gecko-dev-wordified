@@ -455,7 +455,7 @@ addon
 )
             
 except
-IOError
+OSError
 :
                 
 pass
@@ -694,7 +694,7 @@ return
 path
         
 raise
-IOError
+OSError
 (
 "
 Add
@@ -1762,7 +1762,7 @@ addon_path
 :
             
 raise
-IOError
+OSError
 (
 "
 Add
@@ -2162,7 +2162,7 @@ read
 )
                     
 except
-IOError
+OSError
 :
                         
 with
@@ -2207,7 +2207,7 @@ else
 :
                 
 raise
-IOError
+OSError
 (
                     
 "
@@ -2233,7 +2233,7 @@ addon_path
         
 except
 (
-IOError
+OSError
 KeyError
 )
 as
