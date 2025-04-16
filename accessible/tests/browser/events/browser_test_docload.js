@@ -668,5 +668,13 @@ addAccessibleTask
 "
 "
 runTests
+{
+chrome
+:
+true
+topLevel
+:
+true
+}
 )
 ;
