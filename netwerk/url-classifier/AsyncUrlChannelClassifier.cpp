@@ -1996,12 +1996,6 @@ nsIUrlClassifierFeature
 >
 mFeature
 ;
-nsCOMPtr
-<
-nsIChannel
->
-mChannel
-;
 nsTArray
 <
 RefPtr
@@ -2156,10 +2150,6 @@ aChannel
 mFeature
 =
 aFeature
-;
-mChannel
-=
-aChannel
 ;
 nsresult
 rv
