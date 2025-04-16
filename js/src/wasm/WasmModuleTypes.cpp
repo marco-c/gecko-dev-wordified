@@ -1173,14 +1173,6 @@ sizeOfExcludingThis
 (
 mallocSizeOf
 )
-+
-payload
--
->
-sizeOfExcludingThis
-(
-mallocSizeOf
-)
 ;
 }
 const

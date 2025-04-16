@@ -6053,11 +6053,13 @@ maybeDebug
 ;
 if
 (
-codeMeta
+code
 (
 )
 .
 debugEnabled
+(
+)
 )
 {
 maybeDebug

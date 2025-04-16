@@ -309,11 +309,9 @@ code
 (
 )
 .
-codeMeta
+debugEnabled
 (
 )
-.
-debugEnabled
 )
 ;
 auto
