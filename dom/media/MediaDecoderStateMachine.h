@@ -1129,7 +1129,7 @@ InvokeResumeMediaSink
 )
 override
 ;
-bool
+nsresult
 IsCDMProxySupported
 (
 CDMProxy
