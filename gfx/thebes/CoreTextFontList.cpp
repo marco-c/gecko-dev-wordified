@@ -9368,6 +9368,11 @@ lowercased
 nsAutoCString
 key
 ;
+if
+(
+name
+)
+{
 /
 /
 CFStringGetLength
@@ -9404,9 +9409,9 @@ ensure
 there
 will
 also
+/
+/
 be
-/
-/
 space
 for
 null
@@ -9434,8 +9439,13 @@ name
 3
 )
 ;
+}
 if
 (
+!
+name
+|
+|
 !
 CFStringGetCString
 (
