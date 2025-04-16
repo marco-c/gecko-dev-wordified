@@ -9510,7 +9510,7 @@ event
 :
 longtask
 .
-Get
+MaybeTruncateAndGet
 (
 aName
 )
