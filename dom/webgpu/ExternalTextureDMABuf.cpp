@@ -157,13 +157,11 @@ h
 "
 #
 include
-"
-gbm
-/
+<
 gbm
 .
 h
-"
+>
 namespace
 mozilla
 :
