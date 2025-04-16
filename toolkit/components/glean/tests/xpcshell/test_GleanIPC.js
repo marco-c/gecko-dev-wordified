@@ -540,7 +540,7 @@ mabelsBathroomCounters
 .
 repeat
 (
-112
+72
 )
 ]
 .
