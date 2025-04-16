@@ -26697,11 +26697,10 @@ NS_ERROR_FAILURE
 *
 aResult
 =
-!
 doc
 -
 >
-ShouldFireFrameRequestCallbacks
+IsRenderingSuppressed
 (
 )
 |

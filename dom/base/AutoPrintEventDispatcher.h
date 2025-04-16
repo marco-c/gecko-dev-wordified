@@ -376,13 +376,6 @@ doc
 >
 EvaluateMediaQueriesAndReportChanges
 (
-/
-*
-aRecurse
-=
-*
-/
-false
 )
 ;
 }

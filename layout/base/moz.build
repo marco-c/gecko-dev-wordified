@@ -511,6 +511,11 @@ RelativeTo
 h
 "
 "
+RenderingPhase
+.
+h
+"
+"
 RestyleManager
 .
 h
