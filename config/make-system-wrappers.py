@@ -179,6 +179,17 @@ util
 .
 h
 "
+or
+header
+=
+=
+"
+pipewire
+/
+pipewire
+.
+h
+"
 :
                 
 #
@@ -193,14 +204,22 @@ Wayland
 1
 .
 12
-includes
+and
+pipewire
+.
+h
+>
+1
+.
+4
+include
+                
+#
 math
 .
 h
 inside
 an
-                
-#
 extern
 "
 C
@@ -210,14 +229,14 @@ which
 breaks
 including
 the
+                
+#
 header
 from
 C
 +
 +
 .
-                
-#
 This
 was
 fixed
@@ -229,10 +248,10 @@ Wayland
 but
 for
 versions
-earlier
-than
                 
 #
+earlier
+than
 that
 we
 work
@@ -245,6 +264,8 @@ including
 math
 .
 h
+                
+#
 first
 .
                 
