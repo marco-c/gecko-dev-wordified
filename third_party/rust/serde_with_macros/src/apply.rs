@@ -1015,12 +1015,6 @@ ty_pattern
 ty
 )
 ;
-dbg
-!
-(
-len_pattern
-)
-;
 let
 len_match
 =
@@ -1270,7 +1264,7 @@ it
 can
 match
 with
-everthing
+everything
 .
 /
 /
@@ -1339,7 +1333,7 @@ false
 }
 /
 /
-Boths
+Both
 parts
 are
 equal

@@ -18,7 +18,8 @@ FnvHashSet
 /
 Test
 that
-HashSets
+HashSet
+s
 are
 also
 supported
@@ -93,7 +94,7 @@ iter
 (
 )
 .
-cloned
+copied
 (
 )
 .
@@ -163,7 +164,8 @@ r
 /
 Test
 that
-HashSets
+HashSet
+s
 are
 also
 supported
@@ -247,7 +249,7 @@ iter
 (
 )
 .
-cloned
+copied
 (
 )
 .

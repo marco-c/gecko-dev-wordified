@@ -101,10 +101,13 @@ non_printable
 =
 >
 {
-write
+result
+.
+write_fmt
+(
+format_args
 !
 (
-result
 "
 \
 \
@@ -115,6 +118,7 @@ byte
 02x
 }
 "
+)
 )
 .
 unwrap
@@ -148,9 +152,13 @@ result
 .
 push
 (
-byte
-as
 char
+:
+:
+from
+(
+byte
+)
 )
 ;
 }
@@ -2090,7 +2098,6 @@ expect
 [
 [
 r
-#
 "
 \
 x91
@@ -2208,7 +2215,6 @@ xcc
 \
 xef
 "
-#
 ]
 ]
 .

@@ -1143,8 +1143,6 @@ str
 }
 impl
 <
-'
-a
 T
 >
 Serialize
@@ -1152,7 +1150,7 @@ for
 WithPrefix
 <
 '
-a
+_
 T
 >
 where
@@ -2523,8 +2521,6 @@ with_prefix
 }
 impl
 <
-'
-a
 S
 >
 SerializeMap
@@ -2532,7 +2528,7 @@ for
 WithPrefix
 <
 '
-a
+_
 S
 >
 where
@@ -2746,8 +2742,6 @@ end
 }
 impl
 <
-'
-a
 S
 >
 SerializeStruct
@@ -2755,7 +2749,7 @@ for
 WithPrefix
 <
 '
-a
+_
 S
 >
 where
@@ -2901,8 +2895,6 @@ impl
 <
 '
 de
-'
-a
 T
 >
 DeserializeSeed
@@ -2914,7 +2906,7 @@ for
 WithPrefix
 <
 '
-a
+_
 T
 >
 where
@@ -2991,8 +2983,6 @@ impl
 <
 '
 de
-'
-a
 D
 >
 Deserializer
@@ -3004,7 +2994,7 @@ for
 WithPrefix
 <
 '
-a
+_
 D
 >
 where
@@ -3220,8 +3210,6 @@ impl
 <
 '
 de
-'
-a
 V
 >
 Visitor
@@ -3233,7 +3221,7 @@ for
 WithPrefix
 <
 '
-a
+_
 V
 >
 where
@@ -3344,8 +3332,6 @@ impl
 <
 '
 de
-'
-a
 A
 >
 MapAccess
@@ -3357,7 +3343,7 @@ for
 WithPrefix
 <
 '
-a
+_
 A
 >
 where
@@ -3564,8 +3550,6 @@ impl
 <
 '
 de
-'
-a
 V
 >
 Visitor
@@ -3577,7 +3561,7 @@ for
 WithPrefixOption
 <
 '
-a
+_
 V
 >
 where
@@ -3778,8 +3762,6 @@ impl
 <
 '
 de
-'
-a
 A
 >
 Deserializer
@@ -3791,7 +3773,7 @@ for
 WithPrefixOption
 <
 '
-a
+_
 A
 >
 where
@@ -3890,8 +3872,6 @@ impl
 <
 '
 de
-'
-a
 A
 >
 MapAccess
@@ -3903,7 +3883,7 @@ for
 WithPrefixOption
 <
 '
-a
+_
 A
 >
 where

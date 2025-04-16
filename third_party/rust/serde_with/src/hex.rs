@@ -753,6 +753,7 @@ u8
 let
 b
 =
+*
 b
 "
 Hello
@@ -790,10 +791,6 @@ to_value
 ByteArray
 (
 b
-.
-clone
-(
-)
 )
 )
 .
