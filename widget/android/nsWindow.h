@@ -1588,6 +1588,13 @@ ScreenIntCoord
 aHeight
 )
 ;
+void
+PipModeChanged
+(
+bool
+aPipMode
+)
+;
 mozilla
 :
 :

@@ -462,11 +462,8 @@ aSizeMode
 {
 }
 #
-if
-defined
-(
+ifdef
 MOZ_WIDGET_ANDROID
-)
 virtual
 void
 DynamicToolbarMaxHeightChanged
@@ -514,6 +511,14 @@ mozilla
 :
 ScreenIntCoord
 aHeight
+)
+{
+}
+virtual
+void
+AndroidPipModeChanged
+(
+bool
 )
 {
 }

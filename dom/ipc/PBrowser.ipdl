@@ -4385,6 +4385,13 @@ ScreenIntCoord
 height
 )
 ;
+async
+AndroidPipModeChanged
+(
+bool
+aPipMode
+)
+;
 /
 *
 *
