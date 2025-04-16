@@ -1041,6 +1041,9 @@ BoolPromise
 >
 mClosePromiseHolder
 ;
+int64_t
+mDirectoryLockId
+;
 uint32_t
 mRegCount
 ;
