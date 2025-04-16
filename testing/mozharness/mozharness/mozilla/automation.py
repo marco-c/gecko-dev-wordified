@@ -189,9 +189,6 @@ TBPL_SUCCESS
 )
 class
 AutomationMixin
-(
-object
-)
 :
     
 worst_status

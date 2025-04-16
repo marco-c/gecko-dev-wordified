@@ -398,9 +398,6 @@ list
     
 class
 Attr
-(
-object
-)
 :
         
 def
@@ -821,9 +818,6 @@ x
     
 class
 Style
-(
-object
-)
 :
         
 def
@@ -869,9 +863,6 @@ y
 )
 class
 raw
-(
-object
-)
 :
     
 "
@@ -914,9 +905,6 @@ uniobj
 uniobj
 class
 SimpleUnicodeVisitor
-(
-object
-)
 :
     
 "

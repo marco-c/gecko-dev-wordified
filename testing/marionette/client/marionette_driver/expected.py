@@ -113,9 +113,6 @@ out
 "
 class
 element_present
-(
-object
-)
 :
     
 "
@@ -523,9 +520,6 @@ marionette
 )
 class
 element_stale
-(
-object
-)
 :
     
 "
@@ -716,9 +710,6 @@ return
 True
 class
 elements_present
-(
-object
-)
 :
     
 "
@@ -1136,9 +1127,6 @@ marionette
 )
 class
 element_displayed
-(
-object
-)
 :
     
 "
@@ -1717,9 +1705,6 @@ marionette
 )
 class
 element_selected
-(
-object
-)
 :
     
 "
@@ -1885,9 +1870,6 @@ marionette
 )
 class
 element_enabled
-(
-object
-)
 :
     
 "

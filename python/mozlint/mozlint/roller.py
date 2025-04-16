@@ -618,23 +618,20 @@ log
 .
 debug
 (
+f
 "
 Finished
 in
 {
+end_time
+-
+start_time
 :
 .
 2f
 }
 seconds
 "
-.
-format
-(
-end_time
--
-start_time
-)
 )
         
 sys
@@ -1043,9 +1040,6 @@ wrap_futures_atexit
 )
 class
 LintRoller
-(
-object
-)
 :
     
 "

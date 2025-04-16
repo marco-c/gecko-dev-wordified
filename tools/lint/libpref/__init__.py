@@ -632,8 +632,10 @@ e
         
 print
 (
+f
 "
 {
+pref_list_filename
 }
 :
 error
@@ -641,14 +643,9 @@ error
 \
 n
 {
+e
 }
 "
-.
-format
-(
-pref_list_filename
-e
-)
 file
 =
 sys

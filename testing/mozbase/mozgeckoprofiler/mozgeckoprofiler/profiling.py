@@ -437,9 +437,6 @@ with
 open
 (
 profile_path
-"
-r
-"
 encoding
 =
 "
@@ -507,20 +504,15 @@ memory
 while
 trying
 "
-            
+f
 "
 to
 symbolicate
 profile
 {
-0
+profile_path
 }
 "
-.
-format
-(
-profile_path
-)
         
 )
     

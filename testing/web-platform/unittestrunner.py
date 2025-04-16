@@ -252,9 +252,6 @@ keys
 )
 class
 ReplaceRequirements
-(
-object
-)
 :
     
 def

@@ -104,9 +104,6 @@ objfile
 .
 class
 GCCellPtrTypeCache
-(
-object
-)
 :
     
 def
@@ -654,9 +651,6 @@ GCCellPtr
 )
 class
 GCCellPtr
-(
-object
-)
 :
     
 def
@@ -1036,6 +1030,7 @@ kind
 ]
         
 return
+f
 "
 JS
 :
@@ -1044,18 +1039,11 @@ GCCellPtr
 (
 (
 {
+type_name
 }
 *
 )
 {
-}
-)
-"
-.
-format
-(
-            
-type_name
 ptr
 .
 cast
@@ -1066,5 +1054,6 @@ cache
 .
 void_ptr_t
 )
-        
+}
 )
+"

@@ -140,9 +140,6 @@ tgz
 )
 class
 ProgressBar
-(
-object
-)
 :
     
 def

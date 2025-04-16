@@ -950,17 +950,14 @@ task
 reference
 "
 :
+f
 "
 <
 {
+attribution_task_kind
 }
 >
 "
-.
-format
-(
-attribution_task_kind
-)
 }
                 
 "

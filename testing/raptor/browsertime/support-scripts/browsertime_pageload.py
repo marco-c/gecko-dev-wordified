@@ -785,19 +785,16 @@ raise
 MissingResultsError
 (
                         
+f
 "
 Browsertime
 cycle
 missing
 {
+raptor
 }
 measurement
 "
-.
-format
-(
-raptor
-)
                     
 )
                 
@@ -1730,20 +1727,13 @@ shouldAlert
 False
     
 def
-summarize_suites
-(
-self
-suites
-)
-:
-        
-def
 _process_geomean
 (
+self
 subtest
 )
 :
-            
+        
 data
 =
 subtest
@@ -1752,7 +1742,7 @@ subtest
 replicates
 "
 ]
-            
+        
 subtest
 [
 "
@@ -1770,15 +1760,16 @@ data
 )
 1
 )
-        
+    
 def
 _process_alt_method
 (
+self
 subtest
 alternative_method
 )
 :
-            
+        
 data
 =
 subtest
@@ -1787,7 +1778,7 @@ subtest
 replicates
 "
 ]
-            
+        
 if
 alternative_method
 =
@@ -1796,7 +1787,7 @@ alternative_method
 median
 "
 :
-                
+            
 subtest
 [
 "
@@ -1810,21 +1801,11 @@ median
 (
 data
 )
-        
-#
-converting
-suites
-and
-subtests
-into
-lists
-and
-sorting
-them
-        
+    
 def
 _process
 (
+self
 subtest
 method
 =
@@ -1833,7 +1814,7 @@ geomean
 "
 )
 :
-            
+        
 if
 self
 .
@@ -1844,7 +1825,7 @@ test_type
 power
 "
 :
-                
+            
 subtest
 [
 "
@@ -1863,7 +1844,7 @@ replicates
 "
 ]
 )
-            
+        
 elif
 method
 =
@@ -1872,23 +1853,35 @@ method
 geomean
 "
 :
-                
+            
+self
+.
 _process_geomean
 (
 subtest
 )
-            
+        
 else
 :
-                
+            
+self
+.
 _process_alt_method
 (
 subtest
 method
 )
-            
+        
 return
 subtest
+    
+def
+summarize_suites
+(
+self
+suites
+)
+:
         
 for
 suite
@@ -1905,6 +1898,8 @@ subtests
 =
 [
                 
+self
+.
 _process
 (
 subtest
@@ -2013,6 +2008,8 @@ alternative_method
                             
 )
                             
+self
+.
 _process
 (
 new_subtest

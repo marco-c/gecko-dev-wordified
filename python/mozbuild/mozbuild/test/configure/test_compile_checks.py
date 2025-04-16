@@ -2398,6 +2398,7 @@ textwrap
 dedent
 (
                     
+f
 "
 "
 "
@@ -2436,15 +2437,6 @@ yes
 "
 "
 "
-.
-format
-(
-                        
-flag
-=
-flag
-                    
-)
                 
 )
             

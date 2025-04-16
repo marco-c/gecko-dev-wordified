@@ -94,9 +94,6 @@ BaseFile
 Dest
 class
 FileRegistry
-(
-object
-)
 :
     
 "
@@ -1278,9 +1275,6 @@ tree
 )
 class
 FileRegistrySubtree
-(
-object
-)
 :
     
 "
@@ -1620,9 +1614,6 @@ _base
 f
 class
 FileCopyResult
-(
-object
-)
 :
     
 "

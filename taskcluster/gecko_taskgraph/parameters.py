@@ -820,9 +820,6 @@ with
 open
 (
 path
-"
-r
-"
 )
 as
 fh

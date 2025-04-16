@@ -339,9 +339,6 @@ binding
 power
 class
 ident_token
-(
-object
-)
 :
     
 def
@@ -394,9 +391,6 @@ value
 )
 class
 literal_token
-(
-object
-)
 :
     
 def
@@ -428,9 +422,6 @@ self
 value
 class
 eq_op_token
-(
-object
-)
 :
     
 "
@@ -461,9 +452,6 @@ lbp
 )
 class
 neq_op_token
-(
-object
-)
 :
     
 "
@@ -494,9 +482,6 @@ lbp
 )
 class
 lt_op_token
-(
-object
-)
 :
     
 "
@@ -525,9 +510,6 @@ lbp
 )
 class
 gt_op_token
-(
-object
-)
 :
     
 "
@@ -556,9 +538,6 @@ lbp
 )
 class
 le_op_token
-(
-object
-)
 :
     
 "
@@ -589,9 +568,6 @@ lbp
 )
 class
 ge_op_token
-(
-object
-)
 :
     
 "
@@ -622,9 +598,6 @@ lbp
 )
 class
 not_op_token
-(
-object
-)
 :
     
 "
@@ -649,9 +622,6 @@ expression
 )
 class
 and_op_token
-(
-object
-)
 :
     
 "
@@ -685,9 +655,6 @@ and
 right
 class
 or_op_token
-(
-object
-)
 :
     
 "
@@ -721,9 +688,6 @@ or
 right
 class
 lparen_token
-(
-object
-)
 :
     
 "
@@ -757,9 +721,6 @@ return
 expr
 class
 rparen_token
-(
-object
-)
 :
     
 "
@@ -767,9 +728,6 @@ object
 "
 class
 end_token
-(
-object
-)
 :
     
 "
@@ -961,9 +919,6 @@ expression
 "
 class
 ExpressionParser
-(
-object
-)
 :
     
 r

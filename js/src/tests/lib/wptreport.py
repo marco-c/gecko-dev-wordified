@@ -108,9 +108,6 @@ import
 WptreportFormatter
 class
 WptreportHandler
-(
-object
-)
 :
     
 def

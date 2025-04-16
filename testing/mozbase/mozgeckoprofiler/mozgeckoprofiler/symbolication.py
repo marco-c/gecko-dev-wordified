@@ -1015,7 +1015,7 @@ LOG
 .
 info
 (
-            
+f
 "
 Retrieving
 symbol
@@ -1028,16 +1028,6 @@ symbol_zip_url
 .
 .
 "
-.
-format
-(
-                
-symbol_zip_url
-=
-symbol_zip_url
-            
-)
-        
 )
         
 try

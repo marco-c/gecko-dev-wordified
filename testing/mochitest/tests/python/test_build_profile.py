@@ -294,9 +294,6 @@ profiles
 json
 "
 )
-"
-r
-"
 )
 as
 fh

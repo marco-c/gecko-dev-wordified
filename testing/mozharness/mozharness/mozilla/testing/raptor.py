@@ -8194,21 +8194,17 @@ options
 .
 extend
 (
-                
 [
+f
 "
 -
 -
 setpref
 =
 {
+i
 }
 "
-.
-format
-(
-i
-)
 for
 i
 in
@@ -8223,7 +8219,6 @@ extra_prefs
 "
 )
 ]
-            
 )
         
 if
@@ -8243,21 +8238,17 @@ options
 .
 extend
 (
-                
 [
+f
 "
 -
 -
 setenv
 =
 {
+i
 }
 "
-.
-format
-(
-i
-)
 for
 i
 in
@@ -8272,7 +8263,6 @@ environment
 "
 )
 ]
-            
 )
         
 if
@@ -8433,6 +8423,7 @@ extend
                 
 [
                     
+f
 "
 -
 -
@@ -8443,13 +8434,9 @@ summary
 methods
 =
 {
+method
 }
 "
-.
-format
-(
-method
-)
                     
 for
 method

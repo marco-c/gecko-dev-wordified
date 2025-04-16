@@ -180,9 +180,6 @@ with
 open
 (
 manifest_path
-"
-r
-"
 )
 as
 ymlf

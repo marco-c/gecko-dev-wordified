@@ -265,9 +265,6 @@ with
 open
 (
 input
-"
-r
-"
 encoding
 =
 "

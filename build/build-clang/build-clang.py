@@ -1033,24 +1033,21 @@ name
     
 print
 (
+f
 "
 tarring
 {
+name
 }
 from
 {
+base
 }
 /
 {
+directory
 }
 "
-.
-format
-(
-name
-base
-directory
-)
 file
 =
 sys
@@ -4657,12 +4654,17 @@ raise
 Exception
 (
                     
+f
 "
 {
+c
+.
+name
 }
 is
 overriding
 {
+key
 }
 with
 a
@@ -4672,16 +4674,6 @@ the
 wrong
 type
 "
-.
-format
-(
-                        
-c
-.
-name
-key
-                    
-)
                 
 )
             
@@ -4724,26 +4716,23 @@ dict
 raise
 Exception
 (
+f
 "
 {
+c
+.
+name
 }
 is
 setting
 {
+key
 }
 to
 a
 dict
 ?
 "
-.
-format
-(
-c
-.
-name
-key
-)
 )
             
 else

@@ -589,9 +589,6 @@ jar
 "
 class
 ArtifactJob
-(
-object
-)
 :
     
 trust_domain
@@ -1781,6 +1778,7 @@ raise
 ValueError
 (
                 
+f
 '
 Expected
 tests
@@ -1788,7 +1786,9 @@ archive
 matching
 "
 {
-re
+self
+.
+_tests_re
 }
 "
 but
@@ -1799,15 +1799,6 @@ found
 none
 !
 "
-.
-format
-(
-re
-=
-self
-.
-_tests_re
-)
             
 )
         
@@ -1824,6 +1815,7 @@ raise
 ValueError
 (
                 
+f
 '
 Expected
 Maven
@@ -1832,7 +1824,9 @@ archive
 matching
 "
 {
-re
+self
+.
+_maven_zip_re
 }
 "
 but
@@ -1843,15 +1837,6 @@ found
 none
 !
 "
-.
-format
-(
-re
-=
-self
-.
-_maven_zip_re
-)
             
 )
     
@@ -2408,6 +2393,7 @@ raise
 ValueError
 (
                 
+f
 '
 Archive
 format
@@ -2418,7 +2404,9 @@ pattern
 from
 "
 {
-patterns
+LinuxArtifactJob
+.
+test_artifact_patterns
 }
 "
 '
@@ -2430,17 +2418,6 @@ archive
 path
 .
 "
-.
-format
-(
-                    
-patterns
-=
-LinuxArtifactJob
-.
-test_artifact_patterns
-                
-)
             
 )
     
@@ -2833,6 +2810,7 @@ raise
 ValueError
 (
                 
+f
 '
 Archive
 format
@@ -2843,7 +2821,9 @@ pattern
 from
 "
 {
-patterns
+LinuxArtifactJob
+.
+test_artifact_patterns
 }
 "
 '
@@ -2855,17 +2835,6 @@ archive
 path
 .
 "
-.
-format
-(
-                    
-patterns
-=
-LinuxArtifactJob
-.
-test_artifact_patterns
-                
-)
             
 )
     
@@ -3116,9 +3085,11 @@ else
 raise
 ValueError
 (
+f
 '
 "
 {
+filename
 }
 "
 is
@@ -3129,11 +3100,6 @@ extra
 archive
 !
 '
-.
-format
-(
-filename
-)
 )
         
 src_prefix
@@ -4567,6 +4533,7 @@ raise
 ValueError
 (
                 
+f
 '
 Archive
 format
@@ -4577,7 +4544,9 @@ pattern
 from
 "
 {
-patterns
+LinuxArtifactJob
+.
+package_artifact_patterns
 }
 "
 '
@@ -4589,17 +4558,6 @@ archive
 path
 .
 "
-.
-format
-(
-                    
-patterns
-=
-LinuxArtifactJob
-.
-package_artifact_patterns
-                
-)
             
 )
 class
@@ -5475,7 +5433,7 @@ bundle_dirs
 raise
 ValueError
 (
-                    
+f
 "
 Expected
 one
@@ -5484,14 +5442,9 @@ bundle
 found
 :
 {
+bundle_dirs
 }
 "
-.
-format
-(
-bundle_dirs
-)
-                
 )
             
 [
@@ -6593,6 +6546,7 @@ raise
 ValueError
 (
                 
+f
 '
 Archive
 format
@@ -6603,7 +6557,9 @@ pattern
 from
 "
 {
-patterns
+self
+.
+artifact_patterns
 }
 "
 '
@@ -6615,22 +6571,10 @@ archive
 path
 .
 "
-.
-format
-(
-patterns
-=
-self
-.
-artifact_patterns
-)
             
 )
 class
 ThunderbirdMixin
-(
-object
-)
 :
     
 trust_domain
@@ -7057,9 +7001,6 @@ return
 decorator
 class
 CacheManager
-(
-object
-)
 :
     
 "
@@ -8077,8 +8018,11 @@ shippable
         
 namespace
 =
+f
 "
 {
+artifact_job_class
+.
 trust_domain
 }
 .
@@ -8095,6 +8039,8 @@ rev
 }
 .
 {
+artifact_job_class
+.
 product
 }
 .
@@ -8102,35 +8048,6 @@ product
 job
 }
 "
-.
-format
-(
-            
-trust_domain
-=
-artifact_job_class
-.
-trust_domain
-            
-rev
-=
-rev
-            
-tree
-=
-tree
-            
-product
-=
-artifact_job_class
-.
-product
-            
-job
-=
-job
-        
-)
         
 self
 .
@@ -8213,7 +8130,7 @@ yet
 raise
 ValueError
 (
-                
+f
 "
 Task
 for
@@ -8228,14 +8145,6 @@ yet
 )
 !
 "
-.
-format
-(
-namespace
-=
-namespace
-)
-            
 )
         
 return
@@ -8246,9 +8155,6 @@ taskId
 )
 class
 Artifacts
-(
-object
-)
 :
     
 "
@@ -9460,6 +9366,7 @@ topo
 order
 "
                 
+f
 "
 -
 -
@@ -9468,16 +9375,9 @@ max
 count
 =
 {
-num
+NUM_REVISIONS_TO_QUERY
 }
 "
-.
-format
-(
-num
-=
-NUM_REVISIONS_TO_QUERY
-)
                 
 "
 HEAD
@@ -9959,6 +9859,7 @@ n
 r
 "
             
+f
 "
 last
 (
@@ -9970,17 +9871,10 @@ and
 :
 .
 {
-num
+NUM_REVISIONS_TO_QUERY
 }
 )
 "
-.
-format
-(
-num
-=
-NUM_REVISIONS_TO_QUERY
-)
             
 cwd
 =
@@ -10406,6 +10300,7 @@ raise
 Exception
 (
                 
+f
 "
 Could
 not
@@ -10417,7 +10312,7 @@ in
 the
 last
 {
-num
+NUM_PUSHHEADS_TO_QUERY_PER_PARENT
 }
 revisions
 .
@@ -10425,12 +10320,16 @@ revisions
 n
 "
                 
+f
 "
 Search
 started
 with
 {
-rev
+last_revs
+[
+0
+]
 }
 which
 must
@@ -10446,6 +10345,7 @@ n
 n
 "
                 
+f
 "
 see
 https
@@ -10470,24 +10370,6 @@ artifact_builds
 .
 html
 "
-.
-format
-(
-#
-noqa
-E501
-                    
-rev
-=
-last_revs
-[
-0
-]
-num
-=
-NUM_PUSHHEADS_TO_QUERY_PER_PARENT
-                
-)
             
 )
     
@@ -12117,7 +11999,7 @@ urls
 raise
 ValueError
 (
-                
+f
 "
 Task
 {
@@ -12130,14 +12012,6 @@ artifacts
 found
 !
 "
-.
-format
-(
-taskId
-=
-taskId
-)
-            
 )
         
 for

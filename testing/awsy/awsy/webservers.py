@@ -99,9 +99,6 @@ __file__
 )
 class
 WebServers
-(
-object
-)
 :
     
 def
@@ -259,20 +256,17 @@ errno
                         
 print
 (
+f
 "
 port
 {
+port
 }
 is
 in
 use
 .
 "
-.
-format
-(
-port
-)
 )
                     
 else
@@ -280,20 +274,17 @@ else
                         
 print
 (
+f
 "
 port
 {
+port
 }
 error
 {
+error
 }
 "
-.
-format
-(
-port
-error
-)
 )
                 
 elif
@@ -306,20 +297,17 @@ str
                     
 print
 (
+f
 "
 port
 {
+port
 }
 error
 {
+error
 }
 "
-.
-format
-(
-port
-error
-)
 )
                 
 self
@@ -343,20 +331,17 @@ error
                 
 print
 (
+f
 "
 port
 {
+port
 }
 error
 {
+error
 }
 "
-.
-format
-(
-port
-error
-)
 )
                 
 self

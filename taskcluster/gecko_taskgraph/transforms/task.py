@@ -14498,21 +14498,18 @@ label
 "
 ]
 =
+f
 "
 {
-}
--
-{
-}
-"
-.
-format
-(
 config
 .
 kind
+}
+-
+{
 taskname
-)
+}
+"
         
 yield
 task

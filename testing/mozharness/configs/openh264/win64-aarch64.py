@@ -389,11 +389,12 @@ INCLUDES
 :
 (
             
+f
 "
 -
 I
 {
-_VSPATH
+VSPATH
 }
 \
 \
@@ -403,11 +404,12 @@ VC
 include
 "
             
+f
 "
 -
 I
 {
-_VSPATH
+VSPATH
 }
 \
 \
@@ -420,11 +422,12 @@ atlmfc
 include
 "
             
+f
 "
 -
 I
 {
-_VSPATH
+VSPATH
 }
 \
 \
@@ -446,11 +449,12 @@ Include
 ucrt
 "
             
+f
 "
 -
 I
 {
-_VSPATH
+VSPATH
 }
 \
 \
@@ -472,11 +476,12 @@ Include
 shared
 "
             
+f
 "
 -
 I
 {
-_VSPATH
+VSPATH
 }
 \
 \
@@ -498,11 +503,12 @@ Include
 um
 "
             
+f
 "
 -
 I
 {
-_VSPATH
+VSPATH
 }
 \
 \
@@ -525,13 +531,6 @@ winrt
 "
         
 )
-.
-format
-(
-_VSPATH
-=
-VSPATH
-)
         
 "
 LIB
@@ -539,9 +538,10 @@ LIB
 :
 (
             
+f
 "
 {
-_VSPATH
+VSPATH
 }
 /
 VC
@@ -552,9 +552,10 @@ arm64
 ;
 "
             
+f
 "
 {
-_VSPATH
+VSPATH
 }
 /
 VC
@@ -567,9 +568,10 @@ arm64
 ;
 "
             
+f
 "
 {
-_VSPATH
+VSPATH
 }
 /
 SDK
@@ -590,9 +592,10 @@ arm64
 ;
 "
             
+f
 "
 {
-_VSPATH
+VSPATH
 }
 /
 SDK
@@ -613,13 +616,6 @@ arm64
 ;
 "
         
-)
-.
-format
-(
-_VSPATH
-=
-VSPATH
 )
         
 "

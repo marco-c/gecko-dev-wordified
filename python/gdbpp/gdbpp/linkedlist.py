@@ -213,9 +213,6 @@ LinkedList
 )
 class
 linkedlist_printer
-(
-object
-)
 :
     
 def

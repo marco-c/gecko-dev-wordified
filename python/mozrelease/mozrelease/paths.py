@@ -132,37 +132,34 @@ product
     
 directory
 =
+(
+        
+f
 "
 /
 {
+product
 }
 /
 candidates
 /
 {
+str
+(
+version
+)
 }
 -
 candidates
 /
 build
 {
-}
-"
-.
-format
-(
-        
-product
-        
-str
-(
-version
-)
-        
 str
 (
 buildNumber
 )
+}
+"
     
 )
     
@@ -222,18 +219,15 @@ protocol
     
 directory
 =
+f
 "
 /
 {
+product
 }
 /
 releases
 "
-.
-format
-(
-product
-)
     
 if
 version
@@ -241,19 +235,16 @@ version
         
 directory
 =
+f
 "
 {
+directory
 }
 /
 {
+version
 }
 "
-.
-format
-(
-directory
-version
-)
     
 if
 protocol

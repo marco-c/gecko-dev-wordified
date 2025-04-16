@@ -217,9 +217,6 @@ Cargo
 .
 lock
 "
-"
-r
-"
 )
 as
 f

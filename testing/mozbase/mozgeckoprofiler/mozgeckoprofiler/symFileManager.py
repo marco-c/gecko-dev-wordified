@@ -882,9 +882,6 @@ symFile
 open
 (
 path
-"
-r
-"
 )
         
 except

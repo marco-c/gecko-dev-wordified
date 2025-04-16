@@ -534,9 +534,6 @@ with
 open
 (
 version_file_path
-"
-r
-"
 )
 as
 file
@@ -640,9 +637,6 @@ with
 open
 (
 json_file_path
-"
-r
-"
 )
 as
 file

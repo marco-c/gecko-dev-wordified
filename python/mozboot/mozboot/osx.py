@@ -223,9 +223,6 @@ installed
 "
 class
 OSXAndroidBootstrapper
-(
-object
-)
 :
     
 def
@@ -370,39 +367,6 @@ android
 AVD_MANIFEST_X86_64
             
 )
-            
-android
-.
-ensure_android
-(
-                
-"
-macosx
-"
-                
-os_arch
-                
-system_images_only
-=
-True
-                
-artifact_mode
-=
-artifact_mode
-                
-no_interactive
-=
-self
-.
-no_interactive
-                
-avd_manifest_path
-=
-android
-.
-AVD_MANIFEST_ARM
-            
-)
         
 else
 :
@@ -492,16 +456,7 @@ install_toolchain_artifact
 (
 android
 .
-MACOS_X86_64_ANDROID_AVD
-)
-            
-self
-.
-install_toolchain_artifact
-(
-android
-.
-MACOS_ARM_ANDROID_AVD
+X86_64_ANDROID_AVD
 )
         
 elif
@@ -513,27 +468,13 @@ arm64
 "
 :
             
-#
-The
-only
-emulator
-supported
-on
-Apple
-Silicon
-is
-the
-Arm64
-one
-.
-            
 self
 .
 install_toolchain_artifact
 (
 android
 .
-MACOS_ARM64_ANDROID_AVD
+ARM64_ANDROID_AVD
 )
     
 def

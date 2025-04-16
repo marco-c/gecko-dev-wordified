@@ -86,9 +86,6 @@ Transformer
 get_transformer
 class
 PerftestETL
-(
-object
-)
 :
     
 "

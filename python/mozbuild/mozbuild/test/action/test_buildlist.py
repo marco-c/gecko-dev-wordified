@@ -241,9 +241,6 @@ f
 open
 (
 filename
-"
-r
-"
 )
         
 lines
@@ -288,6 +285,7 @@ l
 >
 0
                 
+f
 "
 ran
 out
@@ -299,25 +297,17 @@ lines
 expected
 '
 {
-0
+l
 }
 '
 got
 '
 {
-1
+lines
 }
 '
 )
 "
-.
-format
-(
-                    
-l
-lines
-                
-)
             
 )
             
@@ -347,6 +337,7 @@ l
 =
 0
             
+f
 "
 not
 enough
@@ -358,24 +349,19 @@ file
 expected
 '
 {
-0
+l
 }
 '
 "
+f
 "
 got
 '
 {
-1
+lines
 }
 '
 "
-.
-format
-(
-l
-lines
-)
         
 )
     

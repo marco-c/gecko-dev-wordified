@@ -98,9 +98,6 @@ __name__
 )
 class
 JSObjectTypeCache
-(
-object
-)
 :
     
 def
@@ -564,18 +561,15 @@ non_native
 :
             
 return
+f
 "
 [
 object
 {
+class_name
 }
 ]
 "
-.
-format
-(
-class_name
-)
         
 else
 :

@@ -246,17 +246,14 @@ aliases
             
 aliased
 [
+f
 "
 toolchain
 -
 {
+alias
 }
 "
-.
-format
-(
-alias
-)
 ]
 =
 t

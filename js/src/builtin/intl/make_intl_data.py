@@ -492,53 +492,41 @@ description
         
 println
 (
+f
 "
 /
 /
 {
-0
+desc
 }
 "
-.
-format
-(
-desc
-)
 )
     
 println
 (
+f
 "
 /
 /
 Derived
 from
 {
-0
+source
 }
 .
 "
-.
-format
-(
-source
-)
 )
     
 println
 (
+f
 "
 /
 /
 {
-0
+url
 }
 "
-.
-format
-(
-url
-)
 )
 def
 writeMappingsVar
@@ -616,20 +604,16 @@ url
     
 println
 (
+f
 "
 var
 {
-0
+name
 }
 =
 {
 {
 "
-.
-format
-(
-name
-)
 )
     
 for
@@ -654,25 +638,20 @@ itemgetter
         
 println
 (
+f
 '
 "
 {
-0
+key
 }
 "
 :
 "
 {
-1
+value
 }
 "
 '
-.
-format
-(
-key
-value
-)
 )
     
 println
@@ -774,6 +753,7 @@ url
 println
 (
         
+f
 "
 "
 "
@@ -788,66 +768,55 @@ Locale
 :
 :
 {
-0
-}
-(
-{
-1
-}
-{
-2
-}
-)
-{
-{
-  
-MOZ_ASSERT
-(
-{
-3
-}
-(
-{
-2
-}
-.
-Span
-(
-)
-)
-)
-;
-  
-MOZ_ASSERT
-(
-{
-4
-}
-(
-{
-2
-}
-.
-Span
-(
-)
-)
-)
-;
-"
-"
-"
-.
-format
-(
-            
 fn_name
+}
+(
+{
 type_name
+}
+{
 name
-validate_fn
-validate_case_fn
-        
+}
 )
+{
+{
+  
+MOZ_ASSERT
+(
+{
+validate_fn
+}
+(
+{
+name
+}
+.
+Span
+(
+)
+)
+)
+;
+  
+MOZ_ASSERT
+(
+{
+validate_case_fn
+}
+(
+{
+name
+}
+.
+Span
+(
+)
+)
+)
+;
+"
+"
+"
 .
 strip
 (
@@ -914,40 +883,33 @@ fixed
             
 println
 (
-                
+f
 "
 static
 const
 char
 {
+name
 }
 [
 {
+len
+(
+subtags
+)
 }
 ]
 [
 {
+length
++
+1
 }
 ]
 =
 {
 {
 "
-.
-format
-(
-                    
-name
-len
-(
-subtags
-)
-length
-+
-1
-                
-)
-            
 )
         
 else
@@ -955,30 +917,27 @@ else
             
 println
 (
+f
 "
 static
 const
 char
 *
 {
+name
 }
 [
 {
+len
+(
+subtags
+)
 }
 ]
 =
 {
 {
 "
-.
-format
-(
-name
-len
-(
-subtags
-)
-)
 )
         
 #
@@ -1011,17 +970,14 @@ entries
 =
 (
                 
+f
 '
 "
 {
+tag
 }
 "
 '
-.
-format
-(
-tag
-)
 .
 rjust
 (
@@ -1029,12 +985,10 @@ length
 +
 2
 )
-                
 for
 tag
 in
 entries
-                
 if
 tag
 is
@@ -1170,6 +1124,7 @@ tag_maxlength
 println
 (
                 
+f
 "
 "
 "
@@ -1177,6 +1132,7 @@ println
 if
 (
 {
+source_name
 }
 .
 Length
@@ -1185,6 +1141,7 @@ Length
 =
 =
 {
+length
 }
 )
 {
@@ -1192,14 +1149,6 @@ Length
 "
 "
 "
-.
-format
-(
-                    
-source_name
-length
-                
-)
 .
 rstrip
 (
@@ -1273,28 +1222,25 @@ subtag
 :
             
 return
+f
 "
 "
 "
 {
+source_name
 }
 .
 EqualTo
 (
 "
 {
+subtag
 }
 "
 )
 "
 "
 "
-.
-format
-(
-source_name
-subtag
-)
         
 #
 Don
@@ -1331,6 +1277,7 @@ dict
 println
 (
                     
+f
 "
 "
 "
@@ -1338,12 +1285,20 @@ println
 if
 (
 {
+equals
+(
+subtags
+[
+0
+]
+)
 }
 )
 {
 {
       
 {
+target_name
 }
 .
 Set
@@ -1355,6 +1310,13 @@ MakeStringSpan
 (
 "
 {
+mappings
+[
+subtags
+[
+0
+]
+]
 }
 "
 )
@@ -1375,27 +1337,6 @@ false
 "
 "
 .
-format
-(
-                        
-equals
-(
-subtags
-[
-0
-]
-)
-target_name
-mappings
-[
-subtags
-[
-0
-]
-]
-                    
-)
-.
 strip
 (
                         
@@ -1414,21 +1355,13 @@ else
 println
 (
                     
+f
 "
 "
 "
     
 return
 {
-}
-;
-"
-"
-"
-.
-format
-(
-                        
 equals
 (
 subtags
@@ -1436,8 +1369,11 @@ subtags
 0
 ]
 )
-                    
-)
+}
+;
+"
+"
+"
 .
 strip
 (
@@ -1479,6 +1415,7 @@ subtags
 println
 (
                         
+f
 "
 "
 "
@@ -1486,18 +1423,27 @@ println
 if
 (
 {
+equals
+(
+subtag
+)
 }
 )
 {
 {
       
 {
+target_name
 }
 .
 Set
 (
 "
 {
+mappings
+[
+subtag
+]
 }
 "
 )
@@ -1512,21 +1458,6 @@ true
 "
 "
 "
-.
-format
-(
-                            
-equals
-(
-subtag
-)
-target_name
-mappings
-[
-subtag
-]
-                        
-)
 .
 strip
 (
@@ -1615,24 +1546,19 @@ cond
 println
 (
                     
+f
 "
 "
 "
     
 return
 {
+cond
 }
 ;
 "
 "
 "
-.
-format
-(
-                        
-cond
-                    
-)
 .
 strip
 (
@@ -1692,6 +1618,7 @@ False
 println
 (
                     
+f
 "
 "
 "
@@ -1706,12 +1633,12 @@ replacement
 SearchReplacement
 (
 {
-0
+source_name
 }
 s
 aliases
 {
-0
+source_name
 }
 )
 )
@@ -1719,7 +1646,7 @@ aliases
 {
       
 {
-1
+target_name
 }
 .
 Set
@@ -1748,14 +1675,6 @@ false
 "
 "
 .
-format
-(
-                        
-source_name
-target_name
-                    
-)
-.
 rstrip
 (
 )
@@ -1768,6 +1687,7 @@ else
 println
 (
                     
+f
 "
 "
 "
@@ -1776,24 +1696,17 @@ return
 HasReplacement
 (
 {
-0
+source_name
 }
 s
 {
-0
+source_name
 }
 )
 ;
 "
 "
 "
-.
-format
-(
-                        
-source_name
-                    
-)
 .
 rstrip
 (
@@ -2074,6 +1987,7 @@ cond
 =
 (
             
+f
 '
 Language
 (
@@ -2083,15 +1997,11 @@ EqualTo
 (
 "
 {
+lang
 }
 "
 )
 '
-.
-format
-(
-lang
-)
             
 for
 lang
@@ -2140,29 +2050,24 @@ cond
 println
 (
             
+f
 "
 "
 "
   
 {
-}
-(
-{
-}
-)
-{
-{
-"
-"
-"
-.
-format
-(
-                
 if_kind
+}
+(
+{
 cond
-            
+}
 )
+{
+{
+"
+"
+"
 .
 strip
 (
@@ -2179,6 +2084,7 @@ n
 println
 (
             
+f
 "
 "
 "
@@ -2187,6 +2093,7 @@ SetLanguage
 (
 "
 {
+language
 }
 "
 )
@@ -2194,13 +2101,6 @@ SetLanguage
 "
 "
 "
-.
-format
-(
-                
-language
-            
-)
 .
 strip
 (
@@ -2224,6 +2124,7 @@ None
 println
 (
                 
+f
 "
 "
 "
@@ -2245,6 +2146,7 @@ SetScript
 (
 "
 {
+script
 }
 "
 )
@@ -2255,13 +2157,6 @@ SetScript
 "
 "
 "
-.
-format
-(
-                    
-script
-                
-)
 .
 strip
 (
@@ -2285,6 +2180,7 @@ None
 println
 (
                 
+f
 "
 "
 "
@@ -2306,6 +2202,7 @@ SetRegion
 (
 "
 {
+region
 }
 "
 )
@@ -2316,13 +2213,6 @@ SetRegion
 "
 "
 "
-.
-format
-(
-                    
-region
-                
-)
 .
 strip
 (
@@ -2694,6 +2584,7 @@ cond
 =
 (
             
+f
 '
 Region
 (
@@ -2703,15 +2594,11 @@ EqualTo
 (
 "
 {
+region
 }
 "
 )
 '
-.
-format
-(
-region
-)
             
 for
 region
@@ -2760,29 +2647,24 @@ cond
 println
 (
             
+f
 "
 "
 "
   
 {
-}
-(
-{
-}
-)
-{
-{
-"
-"
-"
-.
-format
-(
-                
 if_kind
+}
+(
+{
 cond
-            
+}
 )
+{
+{
+"
+"
+"
 .
 strip
 (
@@ -2886,6 +2768,7 @@ None
 :
                     
 return
+f
 '
 Language
 (
@@ -2895,17 +2778,14 @@ EqualTo
 (
 "
 {
+language
 }
 "
 )
 '
-.
-format
-(
-language
-)
                 
 return
+f
 '
 (
 Language
@@ -2916,6 +2796,7 @@ EqualTo
 (
 "
 {
+language
 }
 "
 )
@@ -2929,19 +2810,12 @@ EqualTo
 (
 "
 {
+script
 }
 "
 )
 )
 '
-.
-format
-(
-                    
-language
-script
-                
-)
             
 cond
 =
@@ -2996,14 +2870,17 @@ cond
 println
 (
                 
+f
 "
 "
 "
     
 {
+if_kind
 }
 (
 {
+cond
 }
 )
 {
@@ -3013,6 +2890,7 @@ SetRegion
 (
 "
 {
+replacement_region
 }
 "
 )
@@ -3024,27 +2902,18 @@ SetRegion
 "
 "
 .
-format
-(
-                    
-if_kind
-cond
-replacement_region
-                
-)
-                
-.
 rstrip
 (
 )
-                
 .
 strip
 (
+                    
 "
 \
 n
 "
+                
 )
             
 )
@@ -3052,6 +2921,7 @@ n
 println
 (
             
+f
 "
 "
 "
@@ -3064,6 +2934,7 @@ SetRegion
 (
 "
 {
+default
 }
 "
 )
@@ -3078,25 +2949,18 @@ SetRegion
 "
 "
 .
-format
-(
-                
-default
-            
-)
-            
-.
 rstrip
 (
 )
-            
 .
 strip
 (
+                
 "
 \
 n
 "
+            
 )
         
 )
@@ -10446,19 +10310,16 @@ t
 "
             
 )
+f
 "
 unknown
 extension
 type
 :
 {
+extension
 }
 "
-.
-format
-(
-extension
-)
             
 extension_name
 =
@@ -10750,8 +10611,10 @@ not
 None
                 
 )
+f
 "
 {
+name
 }
 matches
 the
@@ -10760,11 +10623,6 @@ type
 '
 production
 "
-.
-format
-(
-name
-)
                 
 #
 <
@@ -11430,8 +11288,10 @@ not
 None
             
 )
+f
 "
 {
+type
 }
 matches
 the
@@ -11440,11 +11300,6 @@ type
 '
 production
 "
-.
-format
-(
-type
-)
             
 #
 Take
@@ -11541,9 +11396,11 @@ not
 None
             
 )
+f
 "
 replacement
 {
+replacement
 }
 matches
 the
@@ -11552,11 +11409,6 @@ type
 '
 production
 "
-.
-format
-(
-replacement
-)
             
 #
 '
@@ -11749,19 +11601,16 @@ version
     
 println
 (
+f
 "
 /
 /
 URL
 :
 {
+url
 }
 "
-.
-format
-(
-url
-)
 )
     
 println
@@ -13432,6 +13281,7 @@ in
 complex_region_mappings
             
 )
+f
 "
 unexpected
 region
@@ -13440,13 +13290,9 @@ complex
 mappings
 :
 {
+region
 }
 "
-.
-format
-(
-region
-)
         
 return
 (
@@ -14218,19 +14064,16 @@ icuDir
 raise
 RuntimeError
 (
+f
 "
 not
 a
 directory
 :
 {
+icuDir
 }
 "
-.
-format
-(
-icuDir
-)
 )
     
 reVersion
@@ -14870,11 +14713,6 @@ with
 open
 (
 filepath
-mode
-=
-"
-r
-"
 encoding
 =
 encoding
@@ -14894,9 +14732,6 @@ line
 total_ordering
 class
 Zone
-(
-object
-)
 :
     
 "
@@ -15020,9 +14855,6 @@ self
 name
 class
 TzDataDir
-(
-object
-)
 :
     
 "
@@ -15113,9 +14945,6 @@ readlines
 flines
 class
 TzDataFile
-(
-object
-)
 :
     
 "
@@ -19259,12 +19088,6 @@ yaml
 "
 )
         
-mode
-=
-"
-r
-"
-        
 encoding
 =
 "
@@ -21286,6 +21109,7 @@ version
         
 println
 (
+f
 "
 "
 "
@@ -21294,18 +21118,13 @@ tzdata
 =
 "
 {
-0
+version
 }
 "
 ;
 "
 "
 "
-.
-format
-(
-version
-)
 )
         
 println
@@ -23379,19 +23198,16 @@ generatedFileWarning
         
 println
 (
+f
 "
 /
 /
 Version
 :
 {
+published
 }
 "
-.
-format
-(
-published
-)
 )
         
 println
@@ -23520,39 +23336,33 @@ entries
                 
 println
 (
+f
 "
 /
 /
 {
-}
-(
-{
-}
-)
-"
-.
-format
-(
 currencyName
+}
+(
+{
 countryName
+}
 )
+"
 )
             
 println
 (
+f
 "
 {
+currency
 }
 :
 {
+minorUnits
 }
 "
-.
-format
-(
-currency
-minorUnits
-)
 )
         
 println
@@ -23955,6 +23765,7 @@ extension
 println
 (
         
+f
 "
 "
 "
@@ -23968,7 +23779,7 @@ inline
 bool
 Is
 {
-0
+extension
 }
 Key
 (
@@ -24000,7 +23811,7 @@ Length
 =
 =
 {
-0
+extension
 }
 KeyLength
 +
@@ -24008,7 +23819,7 @@ KeyLength
                 
 "
 {
-0
+extension
 }
 extension
 key
@@ -24049,7 +23860,7 @@ inline
 bool
 Is
 {
-0
+extension
 }
 Type
 (
@@ -24080,7 +23891,7 @@ static_assert
 Length
 >
 {
-0
+extension
 }
 KeyLength
 +
@@ -24088,7 +23899,7 @@ KeyLength
                 
 "
 {
-0
+extension
 }
 extension
 type
@@ -24138,13 +23949,6 @@ Length
 "
 "
 "
-.
-format
-(
-            
-extension
-        
-)
 .
 rstrip
 (
@@ -24196,6 +24000,7 @@ needs_binary_search
 println
 (
             
+f
 "
 "
 "
@@ -24203,7 +24008,7 @@ static
 int32_t
 Compare
 {
-0
+extension
 }
 Type
 (
@@ -24454,7 +24259,7 @@ char
 *
 Search
 {
-0
+extension
 }
 Replacement
 (
@@ -24535,7 +24340,7 @@ b
 return
 Compare
 {
-0
+extension
 }
 Type
 (
@@ -24567,7 +24372,7 @@ types
 &
 Compare
 {
-0
+extension
 }
 Type
 (
@@ -24614,13 +24419,6 @@ nullptr
 "
 "
 .
-format
-(
-                
-extension
-            
-)
-.
 rstrip
 (
                 
@@ -24636,6 +24434,7 @@ n
 println
 (
         
+f
 "
 "
 "
@@ -24650,7 +24449,7 @@ deprecated
 BCP
 47
 {
-0
+extension
 }
 extension
 types
@@ -24720,7 +24519,7 @@ Locale
 :
 Replace
 {
-0
+extension
 }
 ExtensionType
 (
@@ -24757,7 +24556,7 @@ size
 =
 =
 {
-0
+extension
 }
 KeyLength
 )
@@ -24767,7 +24566,7 @@ MOZ_ASSERT
 (
 IsCanonicallyCased
 {
-0
+extension
 }
 Key
 (
@@ -24785,7 +24584,7 @@ size
 )
 >
 {
-0
+extension
 }
 KeyLength
 )
@@ -24795,7 +24594,7 @@ MOZ_ASSERT
 (
 IsCanonicallyCased
 {
-0
+extension
 }
 Type
 (
@@ -24806,13 +24605,6 @@ type
 "
 "
 "
-.
-format
-(
-            
-extension
-        
-)
     
 )
     
@@ -24872,30 +24664,27 @@ len
         
 println
 (
+f
 "
 static
 const
 char
 *
 {
+name
 }
 [
 {
+len
+(
+subtags
+)
 }
 ]
 =
 {
 {
 "
-.
-format
-(
-name
-len
-(
-subtags
-)
-)
 )
         
 for
@@ -24912,17 +24701,14 @@ entries
 =
 (
                 
+f
 '
 "
 {
+tag
 }
 "
 '
-.
-format
-(
-tag
-)
 .
 center
 (
@@ -24930,12 +24716,10 @@ length
 +
 2
 )
-                
 for
 tag
 in
 entries
-                
 if
 tag
 is
@@ -25082,27 +24866,22 @@ continue
 cond
 =
 (
-            
+f
 '
 Is
 {
+extension
 }
 Key
 (
 key
 "
 {
+k
 }
 "
 )
 '
-.
-format
-(
-extension
-k
-)
-            
 for
 k
 in
@@ -25114,7 +24893,6 @@ key_aliases
 [
 hash_key
 ]
-        
 )
         
 if_kind
@@ -25163,29 +24941,24 @@ cond
 println
 (
             
+f
 "
 "
 "
   
 {
-}
-(
-{
-}
-)
-{
-{
-"
-"
-"
-.
-format
-(
-                
 if_kind
+}
+(
+{
 cond
-            
+}
 )
+{
+{
+"
+"
+"
 .
 strip
 (
@@ -25292,6 +25065,7 @@ max_len
 println
 (
                 
+f
 "
 "
 "
@@ -25299,6 +25073,7 @@ println
 return
 Search
 {
+extension
 }
 Replacement
 (
@@ -25310,13 +25085,6 @@ type
 "
 "
 "
-.
-format
-(
-                    
-extension
-                
-)
 .
 strip
 (
@@ -25343,6 +25111,7 @@ replacements
 println
 (
                     
+f
 "
 "
 "
@@ -25351,12 +25120,14 @@ if
 (
 Is
 {
+extension
 }
 Type
 (
 type
 "
 {
+type
 }
 "
 )
@@ -25367,6 +25138,7 @@ type
 return
 "
 {
+replacement
 }
 "
 ;
@@ -25376,15 +25148,6 @@ return
 "
 "
 "
-.
-format
-(
-                        
-extension
-type
-replacement
-                    
-)
 .
 strip
 (
@@ -25978,24 +25741,21 @@ continue
 raise
 Exception
 (
+f
 "
 unexpected
 line
 :
 '
 {
+line
 }
 '
 in
 {
+filepath
 }
 "
-.
-format
-(
-line
-filepath
-)
 )
     
 assert
@@ -26290,21 +26050,18 @@ sanctioned_units
 :
                 
 yield
+f
 "
 {
+numerator
 }
 -
 per
 -
 {
+denominator
 }
 "
-.
-format
-(
-numerator
-denominator
-)
     
 supported_simple_units
 =
@@ -26367,11 +26124,6 @@ with
 open
 (
 data_filter_file
-mode
-=
-"
-r
-"
 encoding
 =
 "
@@ -26822,21 +26574,16 @@ ignore
         
 println
 (
-            
+f
 "
 var
 sanctionedSimpleUnitIdentifiers
 =
 {
+sanctioned_units_object
 }
 ;
 "
-.
-format
-(
-sanctioned_units_object
-)
-        
 )
     
 sanctioned_h_file
@@ -26998,29 +26745,26 @@ sanctioned_units
             
 println
 (
+f
 '
 {
 {
 "
 {
-}
-"
-"
-{
-}
-"
-}
-}
-'
-.
-format
-(
 find_unit_type
 (
 unit_name
 )
+}
+"
+"
+{
 unit_name
-)
+}
+"
+}
+}
+'
 )
         
 println
@@ -27275,21 +27019,16 @@ separators
 println
 (
                 
+f
 "
 const
 sanctionedSimpleUnitIdentifiers
 =
 {
+sanctioned_units_array
 }
 ;
 "
-.
-format
-(
-                    
-sanctioned_units_array
-                
-)
             
 )
             
@@ -27513,6 +27252,7 @@ formed
 js
 "
         
+f
 "
 "
 "
@@ -27520,18 +27260,12 @@ const
 allUnits
 =
 {
+all_units_array
 }
 ;
 "
 "
 "
-.
-format
-(
-            
-all_units_array
-        
-)
         
 +
 r
@@ -28185,12 +27919,6 @@ yaml
 "
 )
         
-mode
-=
-"
-r
-"
-        
 encoding
 =
 "
@@ -28376,21 +28104,18 @@ missing
 raise
 RuntimeError
 (
+f
 "
 Missing
 units
 :
 {
-}
-"
-.
-format
-(
 units_to_string
 (
 missing
 )
-)
+}
+"
 )
         
 #
@@ -28438,21 +28163,18 @@ extra
 raise
 RuntimeError
 (
+f
 "
 Unnecessary
 units
 :
 {
-}
-"
-.
-format
-(
 units_to_string
 (
 extra
 )
-)
+}
+"
 )
     
 writeSanctionedSimpleUnitIdentifiersFiles
@@ -29032,24 +28754,21 @@ continue
 raise
 Exception
 (
+f
 "
 unexpected
 line
 :
 '
 {
+line
 }
 '
 in
 {
+filepath
 }
 "
-.
-format
-(
-line
-filepath
-)
 )
     
 assert
@@ -29410,23 +29129,18 @@ n
 .
 join
 (
-                    
+f
 '
 "
 {
+name
 }
 "
 '
-.
-format
-(
-name
-)
 for
 name
 in
 simple_numbering_systems
-                
 )
             
 )
@@ -29563,6 +29277,7 @@ generatedFileWarning
 println
 (
             
+f
 "
 "
 "
@@ -29583,6 +29298,9 @@ xml
 version
 CLDR
 {
+readCLDRVersionFromICU
+(
+)
 }
 .
 /
@@ -29643,15 +29361,6 @@ xml
 "
 "
 .
-format
-(
-                
-readCLDRVersionFromICU
-(
-)
-            
-)
-.
 rstrip
 (
 )
@@ -29693,19 +29402,16 @@ False
         
 println
 (
+f
 "
 const
 numberingSystems
 =
 {
+numbering_systems_object
 }
 ;
 "
-.
-format
-(
-numbering_systems_object
-)
 )
 def
 updateNumberingSystems
@@ -29787,12 +29493,6 @@ NumberingSystems
 yaml
 "
 )
-        
-mode
-=
-"
-r
-"
         
 encoding
 =
@@ -29920,20 +29620,17 @@ issuperset
 numbering_systems
     
 )
+f
 "
 {
-}
-"
-.
-format
-(
 numbering_systems
 .
 difference
 (
 all_numbering_systems_simple_digits
 )
-)
+}
+"
     
 #
 Assert
@@ -29988,24 +29685,21 @@ all_numbering_systems_simple_digits
 .
 issubset
 (
+        
 numbering_systems
+    
 )
+f
 "
 {
-}
-"
-.
-format
-(
-        
 all_numbering_systems_simple_digits
 .
 difference
 (
 numbering_systems
 )
-    
-)
+}
+"
     
 writeNumberingSystemFiles
 (

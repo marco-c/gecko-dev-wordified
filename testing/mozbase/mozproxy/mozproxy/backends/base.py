@@ -75,9 +75,6 @@ ABCMeta
 )
 class
 Playback
-(
-object
-)
 :
     
 def

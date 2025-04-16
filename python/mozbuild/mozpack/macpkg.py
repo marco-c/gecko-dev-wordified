@@ -136,9 +136,6 @@ import
 XML
 class
 ZlibFile
-(
-object
-)
 :
     
 def
@@ -851,9 +848,6 @@ filename
 content
 class
 Pbzx
-(
-object
-)
 :
     
 def
@@ -1322,9 +1316,6 @@ return
 result
 class
 Take
-(
-object
-)
 :
     
 "

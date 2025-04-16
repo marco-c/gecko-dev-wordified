@@ -6143,16 +6143,13 @@ about
                 
 return
 0
+f
 "
 pkgconf
 {
+mock_pkg_config_version
 }
 "
-.
-format
-(
-mock_pkg_config_version
-)
 "
 "
             

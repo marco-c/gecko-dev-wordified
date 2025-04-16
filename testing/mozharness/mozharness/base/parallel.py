@@ -82,9 +82,6 @@ ChunkingMixin
 1
 class
 ChunkingMixin
-(
-object
-)
 :
     
 "

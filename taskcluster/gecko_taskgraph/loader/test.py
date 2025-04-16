@@ -734,6 +734,7 @@ logger
 warning
 (
                 
+f
 "
 No
 build
@@ -741,22 +742,16 @@ task
 with
 platform
 {
+build_platform
 }
 ;
 ignoring
 test
 platform
 {
+test_platform
 }
 "
-.
-format
-(
-                    
-build_platform
-test_platform
-                
-)
             
 )
             

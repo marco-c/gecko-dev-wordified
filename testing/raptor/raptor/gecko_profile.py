@@ -500,20 +500,16 @@ LOG
 .
 info
 (
+f
 "
 Clearing
 archive
 {
-0
-}
-"
-.
-format
-(
 self
 .
 profile_arcname
-)
+}
+"
 )
         
 mozfile
@@ -568,32 +564,24 @@ dir
 :
 "
             
+f
 "
 {
-0
+self
+.
+temp_profile_dir
 }
 interval
 :
 {
-1
+gecko_profile_interval
 }
 entries
 :
 {
-2
+gecko_profile_entries
 }
 "
-.
-format
-(
-                
-self
-.
-temp_profile_dir
-gecko_profile_interval
-gecko_profile_entries
-            
-)
         
 )
     

@@ -3735,7 +3735,7 @@ self
 .
 error
 (
-                    
+f
 "
 Chunk
 to
@@ -3746,17 +3746,12 @@ between
 1
 and
 {
-}
-.
-"
-.
-format
-(
 args
 .
 total_chunks
-)
-                
+}
+.
+"
 )
         
 if
@@ -3828,9 +3823,6 @@ return
 args
 class
 RemoteMarionetteArguments
-(
-object
-)
 :
     
 name
@@ -4108,9 +4100,6 @@ package_name
 ]
 class
 Fixtures
-(
-object
-)
 :
     
 def
@@ -4136,9 +4125,6 @@ on
 )
 class
 BaseMarionetteTestRunner
-(
-object
-)
 :
     
 textrunnerclass
@@ -4739,7 +4725,7 @@ logger
 .
 warning
 (
-                        
+f
 "
 Failed
 to
@@ -4749,14 +4735,9 @@ failure
 debug
 :
 {
+exc
 }
 "
-.
-format
-(
-exc
-)
-                    
 )
             
 return
@@ -4822,19 +4803,16 @@ temporary
 data
 :
 "
+f
 '
 "
 {
-}
-"
-'
-.
-format
-(
 self
 .
 workspace_path
-)
+}
+"
+'
         
 )
         
@@ -5158,22 +5136,19 @@ path
 raise
 OSError
 (
+f
 "
 -
 -
 testvars
 file
 {
+path
 }
 does
 not
 exist
 "
-.
-format
-(
-path
-)
 )
                 
 try
@@ -5484,6 +5459,7 @@ logger
 warning
 (
                     
+f
 "
 Failed
 to
@@ -5492,15 +5468,11 @@ version
 information
 for
 {
-}
-"
-.
-format
-(
 self
 .
 bin
-)
+}
+"
                 
 )
         
@@ -6323,20 +6295,17 @@ test_path_prefixes
 =
 [
             
+f
 "
 tests
 {
-}
-"
-.
-format
-(
 os
 .
 path
 .
 sep
-)
+}
+"
         
 ]
         
@@ -6865,10 +6834,12 @@ logger
 .
 info
 (
+f
 "
 \
 nREPEAT
 {
+repeat_index
 }
 \
 n
@@ -6880,11 +6851,6 @@ n
 -
 -
 "
-.
-format
-(
-repeat_index
-)
 )
                 
 self
@@ -7124,19 +7090,16 @@ logger
 .
 info
 (
+f
 "
 passed
 :
 {
-}
-"
-.
-format
-(
 self
 .
 passed
-)
+}
+"
 )
         
 if
@@ -7154,19 +7117,16 @@ logger
 .
 info
 (
+f
 "
 failed
 :
 {
-}
-"
-.
-format
-(
 self
 .
 failed
-)
+}
+"
 )
         
 else
@@ -7179,33 +7139,26 @@ logger
 info
 (
                 
+f
 "
 failed
 :
 {
-0
+self
+.
+failed
 }
 (
 unexpected
 sucesses
 :
 {
-1
-}
-)
-"
-.
-format
-(
-                    
-self
-.
-failed
 self
 .
 unexpected_successes
-                
+}
 )
+"
             
 )
         
@@ -7224,19 +7177,16 @@ logger
 .
 info
 (
+f
 "
 todo
 :
 {
-}
-"
-.
-format
-(
 self
 .
 todo
-)
+}
+"
 )
         
 else
@@ -7248,30 +7198,25 @@ logger
 .
 info
 (
+f
 "
 todo
 :
 {
-0
+self
+.
+todo
 }
 (
 skipped
 :
 {
-1
-}
-)
-"
-.
-format
-(
-self
-.
-todo
 self
 .
 skipped
+}
 )
+"
 )
         
 if
@@ -7318,18 +7263,15 @@ logger
 .
 info
 (
+f
 "
 {
-}
-"
-.
-format
-(
 failed_test
 [
 0
 ]
-)
+}
+"
 )
     
 def
@@ -7681,19 +7623,16 @@ logger
 .
 info
 (
+f
 "
 mozinfo
 updated
 from
 :
 {
+json_path
 }
 "
-.
-format
-(
-json_path
-)
 )
             
 self
@@ -7702,20 +7641,17 @@ logger
 .
 info
 (
+f
 "
 mozinfo
 is
 :
 {
-}
-"
-.
-format
-(
 mozinfo
 .
 info
-)
+}
+"
 )
             
 filters
@@ -7791,23 +7727,20 @@ using
 specified
 "
                     
+f
 "
 combination
 of
 filters
 :
 {
-}
-"
-.
-format
-(
 manifest
 .
 fmt_filters
 (
 )
-)
+}
+"
                 
 )
             
@@ -8467,6 +8400,7 @@ raise
 ValueError
 (
                 
+f
 "
 Total
 number
@@ -8478,21 +8412,15 @@ between
 1
 and
 {
-}
-.
-"
-.
-format
-(
-                    
 len
 (
 self
 .
 tests
 )
-                
-)
+}
+.
+"
             
 )
         
@@ -8564,46 +8492,23 @@ logger
 info
 (
                 
+f
 "
 Running
 chunk
 {
-0
-}
-of
-{
-1
-}
-(
-{
-2
-}
-tests
-selected
-from
-a
-"
-                
-"
-total
-of
-{
-3
-}
-)
-"
-.
-format
-(
-                    
 self
 .
 this_chunk
-                    
+}
+of
+{
 self
 .
 total_chunks
-                    
+}
+(
+{
 len
 (
 chunks
@@ -8615,15 +8520,27 @@ this_chunk
 1
 ]
 )
-                    
+}
+tests
+selected
+from
+a
+"
+                
+f
+"
+total
+of
+{
 len
 (
 self
 .
 tests
 )
-                
+}
 )
+"
             
 )
             

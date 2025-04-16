@@ -1178,9 +1178,6 @@ with
 open
 (
 tmpOut
-"
-r
-"
 )
 as
 output

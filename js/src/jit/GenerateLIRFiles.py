@@ -3066,18 +3066,15 @@ ops
 .
 append
 (
+f
 "
 _
 (
 {
+name
 }
 )
 "
-.
-format
-(
-name
-)
 )
     
 #
@@ -3342,18 +3339,15 @@ ops
 .
 append
 (
+f
 "
 _
 (
 {
+name
 }
 )
 "
-.
-format
-(
-name
-)
 )
     
 contents

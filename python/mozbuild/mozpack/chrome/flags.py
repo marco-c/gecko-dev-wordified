@@ -73,9 +73,6 @@ import
 errors
 class
 Flag
-(
-object
-)
 :
     
 "
@@ -537,9 +534,6 @@ self
 other
 class
 StringFlag
-(
-object
-)
 :
     
 "
@@ -1047,9 +1041,6 @@ self
 other
 class
 VersionFlag
-(
-object
-)
 :
     
 "

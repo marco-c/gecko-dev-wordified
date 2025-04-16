@@ -354,9 +354,6 @@ total
 )
 class
 MockStatvfs
-(
-object
-)
 :
     
 def

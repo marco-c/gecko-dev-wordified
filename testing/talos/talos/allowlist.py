@@ -255,9 +255,6 @@ with
 open
 (
 filename
-"
-r
-"
 )
 as
 fHandle
@@ -1315,9 +1312,6 @@ with
 open
 (
 filename
-"
-r
-"
 )
 as
 f

@@ -614,18 +614,15 @@ so
                     
 print
 (
+f
 "
 Pushing
 {
+path
 }
 .
 .
 "
-.
-format
-(
-path
-)
 file
 =
 sys
@@ -767,18 +764,15 @@ so
                                 
 print
 (
+f
 "
 Pushing
 {
+path
 }
 .
 .
 "
-.
-format
-(
-path
-)
 file
 =
 sys

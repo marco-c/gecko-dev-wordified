@@ -45,9 +45,6 @@ import
 Terminal
 class
 NullProgressBar
-(
-object
-)
 :
     
 def
@@ -127,9 +124,6 @@ timedelta
 max
 class
 ProgressBar
-(
-object
-)
 :
     
 def
@@ -544,18 +538,15 @@ stdout
 .
 write
 (
+f
 "
 {
+pct
 :
 3d
 }
 %
 "
-.
-format
-(
-pct
-)
 )
         
 barlen
@@ -659,8 +650,10 @@ stdout
 .
 write
 (
+f
 "
 {
+dt
 :
 6
 .
@@ -668,11 +661,6 @@ write
 }
 s
 "
-.
-format
-(
-dt
-)
 )
         
 Terminal

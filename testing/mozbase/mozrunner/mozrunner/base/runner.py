@@ -122,9 +122,6 @@ ABCMeta
 )
 class
 BaseRunner
-(
-object
-)
 :
     
 "
@@ -818,6 +815,7 @@ raise
 RunnerNotStartedError
 (
                     
+f
 "
 Failed
 to
@@ -826,13 +824,9 @@ the
 process
 :
 {
+e
 }
 "
-.
-format
-(
-e
-)
                 
 )
 .

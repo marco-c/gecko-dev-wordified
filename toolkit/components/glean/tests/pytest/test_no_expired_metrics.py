@@ -258,9 +258,6 @@ version
 .
 txt
 "
-"
-r
-"
 )
 as
 version_file

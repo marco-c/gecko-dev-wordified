@@ -2792,20 +2792,17 @@ parameters
         
 print
 (
+f
 "
 See
 '
 {
+logdir
 }
 '
 for
 logs
 "
-.
-format
-(
-logdir
-)
 file
 =
 sys

@@ -234,7 +234,7 @@ expected_count
     
 print
 (
-        
+f
 "
 TEST
 -
@@ -244,22 +244,13 @@ check_source_count
 .
 py
 {
-0
+search_string
 }
 |
 {
-1
+expected_count
 }
 "
-.
-format
-(
-            
-search_string
-expected_count
-        
-)
-    
 )
 else
 :
@@ -267,6 +258,7 @@ else
 print
 (
         
+f
 "
 TEST
 -
@@ -278,15 +270,10 @@ check_source_count
 .
 py
 {
-0
+search_string
 }
 |
 "
-.
-format
-(
-search_string
-)
         
 end
 =
@@ -304,6 +291,7 @@ expected_count
 print
 (
             
+f
 "
 There
 are
@@ -312,7 +300,7 @@ occurrences
 of
 /
 {
-0
+search_string
 }
 /
 than
@@ -334,21 +322,16 @@ forgotten
 to
 "
             
+f
 "
 account
 for
 it
 {
-1
+error_location
 }
 .
 "
-.
-format
-(
-search_string
-error_location
-)
         
 )
     
@@ -358,6 +341,7 @@ else
 print
 (
             
+f
 "
 There
 are
@@ -366,7 +350,7 @@ occurrences
 of
 /
 {
-0
+search_string
 }
 /
 than
@@ -378,6 +362,7 @@ re
 trying
 "
             
+f
 "
 to
 prevent
@@ -388,13 +373,13 @@ the
 number
 of
 {
-1
+search_string
 }
 '
 s
 using
 {
-2
+replacement
 }
 if
 "
@@ -413,47 +398,33 @@ the
 expected
 "
             
+f
 "
 count
 {
-3
+error_location
 }
 .
 "
-.
-format
-(
-                
-search_string
-search_string
-replacement
-error_location
-            
-)
         
 )
     
 print
 (
+f
 "
 Expected
 :
 {
-0
+expected_count
 }
 ;
 found
 :
 {
-1
+count
 }
 "
-.
-format
-(
-expected_count
-count
-)
 )
     
 for
@@ -467,26 +438,21 @@ details
         
 print
 (
+f
 "
 Found
 {
-0
-}
-occurences
-in
-{
-1
-}
-"
-.
-format
-(
 details
 [
 k
 ]
+}
+occurences
+in
+{
 k
-)
+}
+"
 )
     
 sys

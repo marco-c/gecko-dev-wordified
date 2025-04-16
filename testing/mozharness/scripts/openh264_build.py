@@ -1108,6 +1108,7 @@ arch
 ]
                 
 return
+f
 "
 openh264
 -
@@ -1125,21 +1126,6 @@ version
 .
 zip
 "
-.
-format
-(
-                    
-version
-=
-version
-bits
-=
-bits
-suffix
-=
-suffix
-                
-)
             
 elif
 self
@@ -1158,6 +1144,7 @@ aarch64
 :
                 
 return
+f
 "
 openh264
 -
@@ -1171,18 +1158,12 @@ version
 .
 zip
 "
-.
-format
-(
-version
-=
-version
-)
             
 else
 :
                 
 return
+f
 "
 openh264
 -
@@ -1197,18 +1178,6 @@ version
 .
 zip
 "
-.
-format
-(
-                    
-version
-=
-version
-bits
-=
-bits
-                
-)
         
 elif
 sys
@@ -1238,6 +1207,7 @@ aarch64
 :
                 
 return
+f
 "
 openh264
 -
@@ -1251,18 +1221,12 @@ version
 .
 zip
 "
-.
-format
-(
-version
-=
-version
-)
             
 else
 :
                 
 return
+f
 "
 openh264
 -
@@ -1277,18 +1241,6 @@ version
 .
 zip
 "
-.
-format
-(
-                    
-version
-=
-version
-bits
-=
-bits
-                
-)
         
 self
 .
@@ -2979,21 +2931,15 @@ self
 .
 log
 (
+f
 "
 Skipping
 packaging
 of
 {
-package
+f
 }
 "
-.
-format
-(
-package
-=
-f
-)
 )
                 
 continue
@@ -3264,27 +3210,21 @@ zip_package_name
         
 symbol_package_name
 =
+f
 "
 {
-base
-}
-.
-symbols
-.
-zip
-"
-.
-format
-(
-base
-=
 zip_package_name
 [
 :
 -
 4
 ]
-)
+}
+.
+symbols
+.
+zip
+"
         
 symbol_zip_path
 =

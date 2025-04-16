@@ -83,6 +83,7 @@ doc
 :
     
 return
+f
 "
 data
 :
@@ -96,16 +97,12 @@ utf
 -
 8
 {
-}
-"
-.
-format
-(
 quote
 (
 doc
 )
-)
+}
+"
 #
 Each
 list
@@ -3020,6 +3017,7 @@ all_windows
             
 msg
 =
+f
 "
 Not
 all
@@ -3031,22 +3029,16 @@ opened
 .
 Expected
 {
-}
-got
-{
-}
-.
-"
-.
-format
-(
-                
 self
 .
 all_windows
+}
+got
+{
 current_windows_set
-            
-)
+}
+.
+"
         
 )
         

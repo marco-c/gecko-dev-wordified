@@ -1616,7 +1616,7 @@ open
 (
 dest_config_path
 "
-wt
+w
 "
 )
 as

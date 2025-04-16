@@ -440,9 +440,11 @@ raise
 Exception
 (
                 
+f
 "
 Regex
 {
+name
 }
 is
 invalid
@@ -456,16 +458,9 @@ quotes
 \
 n
 {
+regex
 }
 "
-.
-format
-(
-                    
-name
-regex
-                
-)
             
 )
 ensure_wrapped_singlequote

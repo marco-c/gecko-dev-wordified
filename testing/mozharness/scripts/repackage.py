@@ -765,17 +765,14 @@ extend
                     
 [
                         
+f
 "
 -
 -
 {
+arg
 }
 "
-.
-format
-(
-arg
-)
                         
 os
 .

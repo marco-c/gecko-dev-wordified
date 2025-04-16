@@ -2168,7 +2168,6 @@ Makefile
 lines
 =
 [
-            
 l
 .
 strip
@@ -2180,9 +2179,6 @@ in
 open
 (
 p
-"
-rt
-"
 )
 .
 readlines
@@ -2202,7 +2198,6 @@ startswith
 #
 "
 )
-        
 ]
         
 self
@@ -2408,9 +2403,6 @@ in
 open
 (
 p
-"
-rt
-"
 )
 .
 readlines
@@ -2516,9 +2508,6 @@ in
 open
 (
 p
-"
-rt
-"
 )
 .
 readlines
@@ -2623,9 +2612,6 @@ in
 open
 (
 p
-"
-rt
-"
 )
 .
 readlines
@@ -2886,9 +2872,6 @@ in
 open
 (
 p
-"
-rt
-"
 )
 .
 readlines
@@ -2980,9 +2963,6 @@ in
 open
 (
 root_deps_path
-"
-rt
-"
 )
 .
 readlines
@@ -3098,9 +3078,6 @@ in
 open
 (
 backend_path
-"
-rt
-"
 )
 .
 readlines
@@ -3289,9 +3266,6 @@ in
 open
 (
 backend_path
-"
-rt
-"
 )
 .
 readlines
@@ -3765,9 +3739,6 @@ in
 open
 (
 backend_path
-"
-rt
-"
 )
 .
 readlines
@@ -4170,9 +4141,6 @@ in
 open
 (
 backend_path
-"
-rt
-"
 )
 .
 readlines
@@ -4573,9 +4541,6 @@ in
 open
 (
 backend_path
-"
-rt
-"
 )
 .
 readlines
@@ -4907,9 +4872,6 @@ in
 open
 (
 backend_path
-"
-rt
-"
 )
 .
 readlines
@@ -5395,9 +5357,6 @@ in
 open
 (
 backend_path
-"
-rt
-"
 )
 .
 readlines
@@ -6299,9 +6258,6 @@ in
 open
 (
 backend_path
-"
-rt
-"
 )
 .
 readlines
@@ -6785,9 +6741,6 @@ in
 open
 (
 x_master
-"
-rt
-"
 )
 .
 readlines
@@ -8171,9 +8124,6 @@ in
 open
 (
 manifest_path
-"
-rt
-"
 )
 .
 readlines
@@ -8726,9 +8676,6 @@ in
 open
 (
 backend_path
-"
-rt
-"
 )
 .
 readlines
@@ -8830,9 +8777,6 @@ in
 open
 (
 backend_path
-"
-rt
-"
 )
 .
 readlines
@@ -8980,9 +8924,6 @@ in
 open
 (
 backend_path
-"
-rt
-"
 )
 .
 readlines
@@ -9122,9 +9063,6 @@ in
 open
 (
 backend_path
-"
-rt
-"
 )
 .
 readlines
@@ -9270,9 +9208,6 @@ in
 open
 (
 backend_path
-"
-rt
-"
 )
 .
 readlines
@@ -9443,9 +9378,6 @@ in
 open
 (
 backend_path
-"
-rt
-"
 )
 .
 readlines
@@ -9621,9 +9553,6 @@ in
 open
 (
 backend_path
-"
-rt
-"
 )
 .
 readlines
@@ -9804,9 +9733,6 @@ in
 open
 (
 backend_path
-"
-rt
-"
 )
 .
 readlines
@@ -9986,9 +9912,6 @@ in
 open
 (
 backend_path
-"
-rt
-"
 )
 .
 readlines
@@ -10162,9 +10085,6 @@ in
 open
 (
 root_deps_path
-"
-rt
-"
 )
 .
 readlines
@@ -10457,9 +10377,6 @@ in
 open
 (
 backend_path
-"
-rt
-"
 )
 .
 readlines
@@ -10591,9 +10508,6 @@ in
 open
 (
 backend_path
-"
-rt
-"
 )
 .
 readlines
@@ -10758,9 +10672,6 @@ in
 open
 (
 backend_path
-"
-rt
-"
 )
 .
 readlines
@@ -10940,9 +10851,6 @@ in
 open
 (
 backend_path
-"
-rt
-"
 )
 .
 readlines
@@ -11101,9 +11009,6 @@ topobjdir
 file
 "
 )
-"
-r
-"
 )
 .
 readlines
@@ -11207,9 +11112,6 @@ backend
 mk
 "
 )
-"
-r
-"
 )
 as
 fh
@@ -11273,9 +11175,6 @@ backend
 mk
 "
 )
-"
-r
-"
 )
 as
 fh
@@ -11350,7 +11249,6 @@ onlyness
 with
 open
 (
-            
 os
 .
 path
@@ -11373,10 +11271,6 @@ backend
 mk
 "
 )
-"
-r
-"
-        
 )
 as
 fh
@@ -11443,9 +11337,6 @@ backend
 mk
 "
 )
-"
-r
-"
         
 )
 as
@@ -11520,9 +11411,6 @@ backend
 mk
 "
 )
-"
-r
-"
 )
 as
 fh
@@ -11586,9 +11474,6 @@ backend
 mk
 "
 )
-"
-r
-"
 )
 as
 fh
@@ -11918,9 +11803,6 @@ backend
 mk
 "
 )
-"
-r
-"
 )
 as
 fh
@@ -12160,9 +12042,6 @@ env
 topobjdir
 name
 )
-"
-r
-"
 )
 as
 fh
@@ -12281,9 +12160,6 @@ backend
 mk
 "
 )
-"
-r
-"
 )
 as
 fh
@@ -12363,9 +12239,6 @@ backend
 mk
 "
 )
-"
-r
-"
 )
 as
 fh
@@ -12879,9 +12752,6 @@ backend
 mk
 "
 )
-"
-r
-"
 )
 as
 fh
@@ -13118,9 +12988,6 @@ backend
 mk
 "
 )
-"
-r
-"
 )
 as
 fh

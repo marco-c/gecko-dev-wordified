@@ -2202,6 +2202,7 @@ raise
 ConfigException
 (
                     
+f
 "
 Setting
 has
@@ -2210,17 +2211,13 @@ been
 registered
 :
 {
+section
 }
 .
 {
+option
 }
 "
-.
-format
-(
-section
-option
-)
                 
 )
             
@@ -2293,23 +2290,20 @@ raise
 ConfigException
 (
                         
+f
 "
 Setting
 already
 registered
 :
 {
+section_name
 }
 .
 {
+k
 }
 "
-.
-format
-(
-section_name
-k
-)
                     
 )
                 

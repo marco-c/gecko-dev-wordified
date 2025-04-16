@@ -161,9 +161,6 @@ SCRIPT_DIR
 )
 class
 CPPUnitTests
-(
-object
-)
 :
     
 #

@@ -358,9 +358,6 @@ proc
 returncode
 class
 PKCS12
-(
-object
-)
 :
     
 "

@@ -832,18 +832,15 @@ self
 .
 add_argument_group
 (
+f
 "
 {
-}
-arguments
-"
-.
-format
-(
 self
 .
 name
-)
+}
+arguments
+"
 )
         
 for
@@ -880,16 +877,13 @@ self
 .
 add_argument_group
 (
+f
 "
 {
+name
 }
 arguments
 "
-.
-format
-(
-name
-)
 )
             
 arguments

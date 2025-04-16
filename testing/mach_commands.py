@@ -1122,6 +1122,7 @@ suite
 .
 "
             
+f
 "
 Please
 specify
@@ -1138,6 +1139,7 @@ options
 \
 n
 {
+ADD_TEST_SUPPORTED_SUITES
 }
 \
 n
@@ -1183,13 +1185,6 @@ id
 1540285
 .
 "
-.
-format
-(
-                
-ADD_TEST_SUPPORTED_SUITES
-            
-)
         
 )
         
@@ -1223,9 +1218,11 @@ valid
 extension
 "
             
+f
 "
 (
 {
+ADD_TEST_SUPPORTED_DOCS
 }
 )
 or
@@ -1235,11 +1232,6 @@ the
 doc
 argument
 "
-.
-format
-(
-ADD_TEST_SUPPORTED_DOCS
-)
         
 )
         
@@ -1263,6 +1255,7 @@ None
         
 print
 (
+f
 "
 Sorry
 addtest
@@ -1275,13 +1268,9 @@ how
 to
 add
 {
+suite
 }
 "
-.
-format
-(
-suite
-)
 )
         
 return
@@ -1348,6 +1337,7 @@ path
             
 print
 (
+f
 "
 Adding
 a
@@ -1355,19 +1345,15 @@ test
 file
 at
 {
+path
 }
 (
 suite
 {
+suite
 }
 )
 "
-.
-format
-(
-path
-suite
-)
 )
             
 try
@@ -1522,6 +1508,7 @@ commit
 .
 "
             
+f
 "
 You
 can
@@ -1537,18 +1524,12 @@ n
 /
 mach
 {
+mach_command
 }
 {
+test
 }
 "
-.
-format
-(
-                
-mach_command
-test
-            
-)
         
 )
     
@@ -3097,16 +3078,13 @@ m
             
 substr
 =
+f
 "
 -
 {
+subsuite
 }
 "
-.
-format
-(
-subsuite
-)
 if
 subsuite
 else

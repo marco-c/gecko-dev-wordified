@@ -835,9 +835,6 @@ f
 open
 (
 filename
-"
-r
-"
 )
         
 try

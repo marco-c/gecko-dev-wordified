@@ -4,9 +4,6 @@ import
 manifestparser
 class
 Creator
-(
-object
-)
 :
     
 def
@@ -396,7 +393,7 @@ None
             
 print
 (
-                
+f
 "
 Sorry
 addtest
@@ -409,18 +406,11 @@ how
 to
 add
 {
-}
-"
-.
-format
-(
-                    
 self
 .
 suite
-                
-)
-            
+}
+"
 )
             
 return
@@ -467,6 +457,7 @@ template_file
 print
 (
                 
+f
 "
 Sorry
 addtest
@@ -479,29 +470,19 @@ how
 to
 add
 {
+self
+.
+suite
 }
 with
 document
 type
 {
-}
-"
-.
-format
-(
-#
-NOQA
-:
-E501
-                    
-self
-.
-suite
 self
 .
 doc
-                
-)
+}
+"
             
 )
             
@@ -2261,6 +2242,7 @@ manifest_file
             
 print
 (
+f
 "
 Could
 not
@@ -2268,13 +2250,9 @@ open
 manifest
 file
 {
+manifest_file
 }
 "
-.
-format
-(
-manifest_file
-)
 )
             
 return
@@ -2372,8 +2350,10 @@ tests
         
 print
 (
+f
 "
 {
+filename
 }
 is
 already
@@ -2382,11 +2362,6 @@ the
 manifest
 .
 "
-.
-format
-(
-filename
-)
 )
         
 return
@@ -2429,9 +2404,6 @@ with
 open
 (
 manifest_file
-"
-r
-"
 )
 as
 f

@@ -1155,9 +1155,6 @@ called
 "
 class
 LoggerState
-(
-object
-)
 :
     
 def
@@ -1223,9 +1220,6 @@ has_shutdown
 False
 class
 ComponentState
-(
-object
-)
 :
     
 def
@@ -1242,9 +1236,6 @@ filter_
 None
 class
 StructuredLogger
-(
-object
-)
 :
     
 _lock
@@ -2347,17 +2338,13 @@ suite_end
 "
                     
 +
+f
 "
 Logged
 with
 data
 :
 {
-}
-"
-.
-format
-(
 json
 .
 dumps
@@ -2368,7 +2355,8 @@ data
 :
 100
 ]
-)
+}
+"
                 
 )
                 
@@ -2416,24 +2404,21 @@ suite_start
 "
                     
 +
+f
 "
 Logged
 with
 data
 :
 {
-}
-"
-.
-format
-(
 json
 .
 dumps
 (
 data
 )
-)
+}
+"
                 
 )
                 
@@ -5997,9 +5982,6 @@ level_name
 )
 class
 StructuredLogFileLike
-(
-object
-)
 :
     
 "

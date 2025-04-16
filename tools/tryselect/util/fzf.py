@@ -1998,6 +1998,7 @@ fzf_path
 print
 (
                     
+f
 "
 fzf
 installed
@@ -2005,18 +2006,12 @@ somewhere
 other
 than
 {
+fzf_path
 }
 please
 update
 manually
 "
-.
-format
-(
-                        
-fzf_path
-                    
-)
                 
 )
                 
@@ -2033,18 +2028,15 @@ download_and_install_fzf
             
 print
 (
+f
 "
 Updated
 fzf
 to
 {
+FZF_CURRENT_VERSION
 }
 "
-.
-format
-(
-FZF_CURRENT_VERSION
-)
 )
         
 else
@@ -2150,18 +2142,15 @@ fzf_path
         
 print
 (
+f
 "
 Installed
 fzf
 to
 {
+fzf_path
 }
 "
-.
-format
-(
-fzf_path
-)
 )
     
 return
@@ -2189,9 +2178,10 @@ shortcuts
 append
 (
             
+f
 "
 {
-t
+terminal
 .
 white
 }
@@ -2199,13 +2189,13 @@ white
 action
 }
 {
-t
+terminal
 .
 normal
 }
 :
 {
-t
+terminal
 .
 yellow
 }
@@ -2215,26 +2205,11 @@ key
 }
 >
 {
-t
+terminal
 .
 normal
 }
 "
-.
-format
-(
-                
-t
-=
-terminal
-action
-=
-action
-key
-=
-key
-            
-)
         
 )
     
@@ -2839,20 +2814,27 @@ extend
 preview
 "
                 
+f
 '
 {
+sys
+.
+executable
 }
 {
+preview_script
 }
 -
 g
 {
+dep_cache
 }
 -
 s
 -
 c
 {
+cache_dir
 }
 -
 t
@@ -2865,18 +2847,6 @@ f
 }
 "
 '
-.
-format
-(
-                    
-sys
-.
-executable
-preview_script
-dep_cache
-cache_dir
-                
-)
             
 ]
         
@@ -2898,10 +2868,15 @@ extend
 preview
 "
                 
+f
 '
 {
+sys
+.
+executable
 }
 {
+preview_script
 }
 -
 t
@@ -2914,14 +2889,6 @@ f
 }
 "
 '
-.
-format
-(
-sys
-.
-executable
-preview_script
-)
             
 ]
         

@@ -156,9 +156,6 @@ ABCMeta
 )
 class
 BaseProfile
-(
-object
-)
 :
     
 def
@@ -2264,9 +2261,6 @@ builtins
 open
 (
 path
-"
-r
-"
 encoding
 =
 "
@@ -3696,9 +3690,6 @@ builtins
 open
 (
 pref_file
-"
-r
-"
 )
 as
 fh
@@ -3925,7 +3916,7 @@ cls
 raise
 NotImplementedError
 (
-            
+f
 "
 Profiles
 not
@@ -3934,15 +3925,10 @@ for
 application
 '
 {
+app
 }
 '
 "
-.
-format
-(
-app
-)
-        
 )
     
 return

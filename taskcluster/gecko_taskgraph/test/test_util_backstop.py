@@ -164,6 +164,7 @@ body
 dedent
 (
             
+f
 "
 "
 "
@@ -171,27 +172,20 @@ dedent
 pushdate
 :
 {
+LAST_BACKSTOP_PUSHDATE
 }
             
 pushlog_id
 :
 "
 {
+LAST_BACKSTOP_PUSHID
 }
 "
         
 "
 "
 "
-.
-format
-(
-                
-LAST_BACKSTOP_PUSHDATE
-                
-LAST_BACKSTOP_PUSHID
-            
-)
         
 )
     

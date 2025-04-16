@@ -2306,9 +2306,10 @@ destfoo
 srcbar
 )
             
+f
 "
 {
-0
+destfoo
 }
 is
 not
@@ -2316,15 +2317,9 @@ a
 symlink
 to
 {
-1
+srcbar
 }
 "
-.
-format
-(
-destfoo
-srcbar
-)
         
 )
     
@@ -3172,9 +3167,10 @@ destpath
 srcpath
 )
                 
+f
 "
 {
-0
+destpath
 }
 is
 not
@@ -3182,15 +3178,9 @@ a
 symlink
 to
 {
-1
+srcpath
 }
 "
-.
-format
-(
-destpath
-srcpath
-)
             
 )
 class
@@ -4327,9 +4317,10 @@ destpath
 srcpath
 )
             
+f
 "
 {
-0
+destpath
 }
 should
 be
@@ -4337,15 +4328,9 @@ a
 symlink
 to
 {
-1
+srcpath
 }
 "
-.
-format
-(
-destpath
-srcpath
-)
         
 )
         

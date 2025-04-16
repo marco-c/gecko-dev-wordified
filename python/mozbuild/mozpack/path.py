@@ -1627,6 +1627,7 @@ handle
 !
 =
 1
+f
 "
 Failed
 getting
@@ -1635,13 +1636,9 @@ handle
 to
 :
 {
+path
 }
 "
-.
-format
-(
-path
-)
     
 MAX_PATH
 =
@@ -1732,6 +1729,7 @@ rv
 <
 =
 MAX_PATH
+f
 "
 Failed
 getting
@@ -1740,13 +1738,9 @@ path
 for
 :
 {
+path
 }
 "
-.
-format
-(
-path
-)
     
 CloseHandle
 =

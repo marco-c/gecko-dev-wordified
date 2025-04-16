@@ -345,17 +345,14 @@ cache
 .
 makedir
 (
+f
 "
 tps
 -
 {
+task_id
 }
 "
-.
-format
-(
-task_id
-)
 )
 )
     
@@ -390,8 +387,10 @@ task
 /
 "
         
+f
 "
 {
+task_id
 }
 /
 artifacts
@@ -402,11 +401,6 @@ tps
 .
 xpi
 "
-.
-format
-(
-task_id
-)
     
 )
     
@@ -1463,9 +1457,6 @@ with
 open
 (
 path
-"
-r
-"
 encoding
 =
 "
@@ -1507,17 +1498,14 @@ append
 "
 Sync
 "
+f
 "
 Log
 :
 {
+path
 }
 "
-.
-format
-(
-path
-)
 )
 )
     
@@ -1539,21 +1527,18 @@ GradlewBuild
         
 attr
 =
+f
 "
 _
 {
-}
-_log
-"
-.
-format
-(
 log
 .
 lower
 (
 )
-)
+}
+_log
+"
         
 path
 =
@@ -1593,9 +1578,6 @@ with
 open
 (
 path
-"
-r
-"
 encoding
 =
 "
@@ -1633,17 +1615,14 @@ append
 (
 (
 log
+f
 "
 Log
 :
 {
+path
 }
 "
-.
-format
-(
-path
-)
 )
 )
     

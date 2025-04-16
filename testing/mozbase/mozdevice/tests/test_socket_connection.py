@@ -22,19 +22,16 @@ fixture
 params
 =
 [
+f
 "
 tcp
 :
 {
-}
-"
-.
-format
-(
 random_tcp_port
 (
 )
-)
+}
+"
 for
 _
 in
@@ -161,6 +158,7 @@ redirect_stdout_and_assert
     
 _expected
 =
+f
 "
 [
 '
@@ -168,21 +166,16 @@ reverse
 '
 '
 {
-0
+select_test_port
 }
 '
 '
 {
-0
+select_test_port
 }
 '
 ]
 "
-.
-format
-(
-select_test_port
-)
     
 redirect_stdout_and_assert
 (
@@ -222,6 +215,7 @@ redirect_stdout_and_assert
     
 _expected
 =
+f
 "
 [
 '
@@ -229,21 +223,16 @@ forward
 '
 '
 {
-0
+select_test_port
 }
 '
 '
 {
-0
+select_test_port
 }
 '
 ]
 "
-.
-format
-(
-select_test_port
-)
     
 redirect_stdout_and_assert
 (
@@ -409,6 +398,7 @@ redirect_stdout_and_assert
     
 _expected
 =
+f
 "
 [
 '
@@ -416,21 +406,16 @@ forward
 '
 '
 {
-0
+select_test_port
 }
 '
 '
 {
-0
+select_test_port
 }
 '
 ]
 "
-.
-format
-(
-select_test_port
-)
     
 redirect_stdout_and_assert
 (
@@ -500,6 +485,7 @@ redirect_stdout_and_assert
     
 _expected
 =
+f
 "
 [
 '
@@ -507,21 +493,16 @@ reverse
 '
 '
 {
-0
+select_test_port
 }
 '
 '
 {
-0
+select_test_port
 }
 '
 ]
 "
-.
-format
-(
-select_test_port
-)
     
 redirect_stdout_and_assert
 (

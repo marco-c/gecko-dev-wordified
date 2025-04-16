@@ -1782,9 +1782,6 @@ open
 logfile
 .
 name
-"
-r
-"
 encoding
 =
 "

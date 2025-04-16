@@ -143,9 +143,6 @@ with
 open
 (
 path
-"
-r
-"
 )
 as
 fh
@@ -288,9 +285,6 @@ with
 open
 (
 path
-"
-r
-"
 )
 as
 fh

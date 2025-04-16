@@ -3000,17 +3000,14 @@ c
 .
 get
 (
+f
 "
 specified_
 {
+category
 }
 _suites
 "
-.
-format
-(
-category
-)
 )
             
 if
@@ -3236,10 +3233,12 @@ self
 info
 (
                             
+f
 "
 Adding
 '
 {
+req_file
 }
 '
 for
@@ -3250,13 +3249,6 @@ common
 tests
 archive
 "
-.
-format
-(
-                                
-req_file
-                            
-)
                         
 )
                         

@@ -253,9 +253,6 @@ splitlines
 )
 class
 Clobberer
-(
-object
-)
 :
     
 def
@@ -599,9 +596,6 @@ open
 self
 .
 src_clobber
-"
-rt
-"
 )
 as
 fh

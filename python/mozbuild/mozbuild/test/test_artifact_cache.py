@@ -185,9 +185,6 @@ larger
 }
 class
 FakeResponse
-(
-object
-)
 :
     
 def
@@ -287,9 +284,6 @@ self
 pass
 class
 FakeSession
-(
-object
-)
 :
     
 def

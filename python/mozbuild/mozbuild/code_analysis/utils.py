@@ -71,9 +71,6 @@ import
 memoized_property
 class
 ClangTidyConfig
-(
-object
-)
 :
     
 def

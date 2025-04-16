@@ -1171,11 +1171,6 @@ with
 open
 (
 locales_file
-mode
-=
-"
-r
-"
 )
 as
 f

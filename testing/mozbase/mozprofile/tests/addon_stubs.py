@@ -477,9 +477,6 @@ write
 open
 (
 manifest
-"
-r
-"
 )
 .
 read

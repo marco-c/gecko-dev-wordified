@@ -224,20 +224,17 @@ read
     
 print
 (
+f
 "
 Looking
 for
 {
+find_cert
 }
 .
 .
 .
 "
-.
-format
-(
-find_cert
-)
 )
     
 if
@@ -248,20 +245,17 @@ new_updater
         
 print
 (
+f
 "
 Replacing
 {
+find_cert
 }
 with
 {
+replace_cert
 }
 "
-.
-format
-(
-find_cert
-replace_cert
-)
 )
         
 new_updater
@@ -279,22 +273,19 @@ else
         
 print
 (
+f
 "
 Didn
 '
 t
 find
 {
+find_cert
 }
 .
 .
 .
 "
-.
-format
-(
-find_cert
-)
 )
 if
 len
@@ -312,6 +303,7 @@ new_updater
 print
 (
         
+f
 "
 WARNING
 :
@@ -330,27 +322,21 @@ one
 old
 :
 {
-}
-new
-:
-{
-}
-)
-"
-.
-format
-(
-            
 len
 (
 updater_data
 )
+}
+new
+:
+{
 len
 (
 new_updater
 )
-        
+}
 )
+"
     
 )
 if

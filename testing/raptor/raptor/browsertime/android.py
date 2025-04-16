@@ -1745,18 +1745,15 @@ LOG
 .
 info
 (
+f
 "
 Merging
 profile
 :
 {
+path
 }
 "
-.
-format
-(
-path
-)
 )
             
 self

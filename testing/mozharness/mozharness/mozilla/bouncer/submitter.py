@@ -136,9 +136,6 @@ URLError
 urlopen
 class
 BouncerSubmitterMixin
-(
-object
-)
 :
     
 def

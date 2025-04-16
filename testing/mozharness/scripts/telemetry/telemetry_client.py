@@ -1122,17 +1122,14 @@ binary_path
 address
 "
             
+f
 "
 localhost
 :
 {
+marionette_port
 }
 "
-.
-format
-(
-marionette_port
-)
             
 #
 Resource
@@ -1372,19 +1369,16 @@ cmd
 extend
 (
 [
+f
 "
 -
 -
 setpref
 =
 {
+p
 }
 "
-.
-format
-(
-p
-)
 for
 p
 in

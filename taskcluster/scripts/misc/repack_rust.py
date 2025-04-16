@@ -2000,24 +2000,21 @@ name
     
 log
 (
+f
 "
 tarring
 {
+name
 }
 from
 {
+base
 }
 /
 {
+directory
 }
 "
-.
-format
-(
-name
-base
-directory
-)
 )
     
 assert
@@ -2298,35 +2295,30 @@ host
 :
 target
 (
-                        
+f
 "
 {
+base_url
 }
 /
 {
+rev
 }
 /
 {
+pkg
 }
 -
 nightly
 -
 {
+host
 }
 .
 tar
 .
 xz
 "
-.
-format
-(
-base_url
-rev
-pkg
-host
-)
-                    
 )
                 
 }
@@ -2369,11 +2361,14 @@ target
 :
 target
 (
+f
 "
 {
+base_url
 }
 /
 {
+rev
 }
 /
 rust
@@ -2386,12 +2381,6 @@ tar
 .
 xz
 "
-.
-format
-(
-base_url
-rev
-)
 )
             
 }
@@ -2445,35 +2434,30 @@ t
 :
 target
 (
-                        
+f
 "
 {
+base_url
 }
 /
 {
+rev
 }
 /
 {
+pkg
 }
 -
 nightly
 -
 {
+t
 }
 .
 tar
 .
 xz
 "
-.
-format
-(
-base_url
-rev
-pkg
-t
-)
-                    
 )
                     
 for
@@ -2660,6 +2644,7 @@ module
     
 log
 (
+f
 "
 Patching
 Rust
@@ -2668,17 +2653,13 @@ src
 .
 .
 {
+module
 }
 with
 {
+patch
 }
 "
-.
-format
-(
-module
-patch
-)
 )
     
 patch
@@ -3103,6 +3084,7 @@ textwrap
 dedent
 (
         
+f
 "
 "
 "
@@ -3184,7 +3166,7 @@ prefix
 =
 "
 {
-prefix
+install_dir
 }
 "
         
@@ -3209,19 +3191,6 @@ false
 "
 "
 "
-.
-format
-(
-            
-prefix
-=
-install_dir
-            
-omit_git_hash
-=
-omit_git_hash
-        
-)
     
 )
     

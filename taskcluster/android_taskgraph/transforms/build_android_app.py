@@ -874,12 +874,14 @@ extend
 firebase
 "
                     
+f
 "
 app
 /
 src
 /
 {
+gradle_build_type
 }
 /
 res
@@ -890,11 +892,6 @@ firebase
 .
 xml
 "
-.
-format
-(
-gradle_build_type
-)
                 
 )
                 

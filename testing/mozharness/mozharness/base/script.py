@@ -669,9 +669,6 @@ return
 None
 class
 PlatformMixin
-(
-object
-)
 :
     
 def
@@ -3335,18 +3332,15 @@ self
 .
 info
 (
+f
 "
 Fetch
 {
+url
 }
 into
 memory
 "
-.
-format
-(
-url
-)
 )
         
 parsed_url
@@ -3393,6 +3387,7 @@ path
 raise
 OSError
 (
+f
 "
 Could
 not
@@ -3402,13 +3397,9 @@ to
 extract
 :
 {
+url
 }
 "
-.
-format
-(
-url
-)
 )
             
 content_length
@@ -3752,6 +3743,7 @@ self
 .
 info
 (
+f
 "
 Content
 -
@@ -3760,31 +3752,24 @@ response
 header
 :
 {
+content_length
 }
 "
-.
-format
-(
-content_length
-)
 )
         
 self
 .
 info
 (
+f
 "
 Bytes
 received
 :
 {
+response_body_size
 }
 "
-.
-format
-(
-response_body_size
-)
 )
         
 if
@@ -3811,9 +3796,11 @@ body
 length
 "
                 
+f
 "
 of
 {
+content_length
 }
 bytes
 while
@@ -3821,17 +3808,10 @@ we
 actually
 retrieved
 {
+response_body_size
 }
 bytes
 "
-.
-format
-(
-                    
-content_length
-response_body_size
-                
-)
             
 )
         
@@ -5386,15 +5366,12 @@ self
 .
 info
 (
+f
 "
 {
+entry
 }
 "
-.
-format
-(
-entry
-)
 )
                 
 #
@@ -5589,8 +5566,10 @@ self
 .
 warning
 (
+f
 "
 {
+entry
 }
 was
 not
@@ -5600,11 +5579,6 @@ the
 zip
 file
 "
-.
-format
-(
-entry
-)
 )
     
 def
@@ -6198,17 +6172,14 @@ self
 .
 debug
 (
+f
 "
 Mimetype
 :
 {
+mimetype
 }
 "
-.
-format
-(
-mimetype
-)
 )
             
 function
@@ -6389,6 +6360,7 @@ attempts
             
 error_message
 =
+f
 "
 Can
 '
@@ -6396,13 +6368,9 @@ t
 download
 from
 {
+url
 }
 "
-.
-format
-(
-url
-)
             
 error_level
 =
@@ -15121,25 +15089,20 @@ self
 .
 info
 (
-                    
+f
 "
 Using
 ZipFile
 to
 extract
 {
+filename
 }
 to
 {
+extract_to
 }
 "
-.
-format
-(
-filename
-extract_to
-)
-                
 )
                 
 with
@@ -15372,25 +15335,20 @@ self
 .
 info
 (
-                    
+f
 "
 Using
 TarFile
 to
 extract
 {
+filename
 }
 to
 {
+extract_to
 }
 "
-.
-format
-(
-filename
-extract_to
-)
-                
 )
                 
 with
@@ -16054,7 +16012,6 @@ BaseScript
 (
 ScriptMixin
 LogMixin
-object
 )
 :
     
@@ -16725,26 +16682,23 @@ methods
 :
 "
                     
+f
 "
 failure
 to
 get
 attribute
 {
+k
 }
 :
 {
-}
-"
-.
-format
-(
-k
 str
 (
 e
 )
-)
+}
+"
                 
 )
             

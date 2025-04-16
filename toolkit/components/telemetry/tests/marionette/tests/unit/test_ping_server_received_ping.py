@@ -247,6 +247,7 @@ status_code
                 
 msg
 =
+f
 "
 Error
 sending
@@ -262,15 +263,6 @@ response
 text
 }
 "
-.
-format
-(
-                    
-response
-=
-response
-                
-)
             
 )
             

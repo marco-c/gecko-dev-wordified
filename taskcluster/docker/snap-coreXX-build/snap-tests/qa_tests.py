@@ -175,22 +175,19 @@ join
 self
 .
 _dir
+f
 "
 qa_expectations_
 {
-}
-.
-json
-"
-.
-format
-(
 self
 .
 _distro_release
 (
 )
-)
+}
+.
+json
+"
             
 )
         
@@ -303,17 +300,14 @@ _logger
 .
 info
 (
+f
 "
 open
 url
 {
+url
 }
 "
-.
-format
-(
-url
-)
 )
         
 if
@@ -922,24 +916,19 @@ _logger
 .
 info
 (
-            
+f
 "
 datum
 =
 {
+datum
 }
 datum_after_sleep
 =
 {
+datum_after_sleep
 }
 "
-.
-format
-(
-datum
-datum_after_sleep
-)
-        
 )
         
 assert
@@ -1055,24 +1044,19 @@ _logger
 info
 (
             
+f
 "
 datum_after_resume
 =
 {
+datum_after_resume
 }
 datum_after_sleep
 =
 {
+datum_after_sleep
 }
 "
-.
-format
-(
-                
-datum_after_resume
-datum_after_sleep
-            
-)
         
 )
         
@@ -1205,6 +1189,7 @@ ref_volume
 25
         
 )
+f
 "
 <
 video
@@ -1214,28 +1199,22 @@ volume
 increased
 from
 {
+ref_volume
 }
 to
 {
-}
-but
-got
-{
-}
-"
-.
-format
-(
-            
-ref_volume
 ref_volume
 *
 0
 .
 25
+}
+but
+got
+{
 new_volume
-        
-)
+}
+"
         
 self
 .
@@ -1278,17 +1257,14 @@ _logger
 .
 info
 (
+f
 "
 open
 url
 {
+url
 }
 "
-.
-format
-(
-url
-)
 )
         
 self
@@ -2303,6 +2279,7 @@ visibility_of_element_located
 By
 .
 CSS_SELECTOR
+f
 "
 div
 .
@@ -2316,16 +2293,12 @@ number
 =
 '
 {
+page
 }
 '
 ]
 canvas
 "
-.
-format
-(
-page
-)
 )
             
 )
@@ -2504,15 +2477,12 @@ pagenum
 .
 send_keys
 (
+f
 "
 {
+page
 }
 "
-.
-format
-(
-page
-)
 )
     
 def
@@ -2857,16 +2827,13 @@ _logger
 .
 info
 (
+f
 "
 assert
 {
+ref
 }
 "
-.
-format
-(
-ref
-)
 )
             
 self
@@ -3114,19 +3081,16 @@ _logger
 .
 info
 (
+f
 "
 reset
 to
 page
 for
 {
+menu_id
 }
 "
-.
-format
-(
-menu_id
-)
 )
             
 if
@@ -3170,18 +3134,15 @@ _logger
 .
 info
 (
+f
 "
 click
 menu
 for
 {
+menu_id
 }
 "
-.
-format
-(
-menu_id
-)
 )
             
 #
@@ -3200,18 +3161,15 @@ _logger
 .
 info
 (
+f
 "
 find
 button
 for
 {
+menu_id
 }
 "
-.
-format
-(
-menu_id
-)
 )
             
 button_to_test
@@ -3243,18 +3201,15 @@ _logger
 .
 info
 (
+f
 "
 click
 button
 for
 {
+menu_id
 }
 "
-.
-format
-(
-menu_id
-)
 )
             
 button_to_test
@@ -3323,19 +3278,16 @@ _logger
 .
 info
 (
+f
 "
 force
 close
 menu
 for
 {
+menu_id
 }
 "
-.
-format
-(
-menu_id
-)
 )
                     
 secondary_menu
@@ -3350,19 +3302,16 @@ _logger
 .
 info
 (
+f
 "
 wait
 menu
 disappear
 for
 {
+menu_id
 }
 "
-.
-format
-(
-menu_id
-)
 )
                     
 self
@@ -3394,16 +3343,13 @@ _logger
 .
 info
 (
+f
 "
 assert
 {
+menu_id
 }
 "
-.
-format
-(
-menu_id
-)
 )
             
 self
@@ -3957,16 +3903,13 @@ _logger
 .
 info
 (
+f
 "
 assert
 {
+ref
 }
 "
-.
-format
-(
-ref
-)
 )
             
 self
@@ -4530,15 +4473,18 @@ in_clipboard
 should_be_present
         
 )
+f
 "
 type
 {
+mime_type
 }
 should
 /
 should
 (
 {
+should_be_present
 }
 )
 not
@@ -4546,14 +4492,6 @@ be
 in
 clipboard
 "
-.
-format
-(
-            
-mime_type
-should_be_present
-        
-)
     
 def
 wait_for_element_in_clipboard
@@ -5775,24 +5713,21 @@ _logger
 .
 info
 (
+f
 "
 Download
 change
 folder
 :
 {
+previous
 }
 =
 >
 {
+new
 }
 "
-.
-format
-(
-previous
-new
-)
 )
         
 self
@@ -5914,19 +5849,16 @@ _logger
 .
 info
 (
+f
 "
 Download
 folder
 pref
 :
 {
+download_dir_pref
 }
 "
-.
-format
-(
-download_dir_pref
-)
 )
         
 assert
@@ -6251,7 +6183,7 @@ _logger
 .
 info
 (
-            
+f
 "
 Download
 folder
@@ -6261,14 +6193,9 @@ about
 preferences
 :
 {
+previous_folder
 }
 "
-.
-format
-(
-previous_folder
-)
-        
 )
         
 if
@@ -6380,19 +6307,16 @@ _logger
 .
 info
 (
+f
 "
 Download
 1
 assert
 :
 {
+download_1
 }
 "
-.
-format
-(
-download_1
-)
 )
             
 assert
@@ -6484,19 +6408,16 @@ _logger
 .
 info
 (
+f
 "
 Download
 2
 assert
 :
 {
+download_2
 }
 "
-.
-format
-(
-download_2
-)
 )
             
 assert
@@ -6660,18 +6581,15 @@ _logger
 .
 info
 (
+f
 "
 Download
 assert
 :
 {
+download_file
 }
 "
-.
-format
-(
-download_file
-)
 )
             
 assert

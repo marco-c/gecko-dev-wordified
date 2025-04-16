@@ -119,9 +119,6 @@ proc
 /
 cpuinfo
 "
-"
-r
-"
 )
 as
 f

@@ -349,25 +349,16 @@ extend
                     
 [
                         
-"
-{
-name
-}
-.
-{
-ext
-}
-"
-.
-format
-(
-name
-=
 f
+"
+{
+f
+}
+.
+{
 ext
-=
-ext
-)
+}
+"
                         
 for
 f

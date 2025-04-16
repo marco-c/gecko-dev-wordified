@@ -704,22 +704,19 @@ fd
 .
 write
 (
+f
 "
 subject
 :
 {
-}
-\
-n
-"
-.
-format
-(
 SAN
 [
 0
 ]
-)
+}
+\
+n
+"
 )
     
 fd
@@ -793,28 +790,25 @@ e
         
 print
 (
+f
 "
 {
-}
-\
-n
-\
-n
-{
-}
-\
-n
-"
-.
-format
-(
 e
+}
+\
+n
+\
+n
+{
 e
 .
 help
 (
 )
-)
+}
+\
+n
+"
 )
         
 return
@@ -1078,9 +1072,10 @@ pgoserver_certspec
 raise
 Exception
 (
-                
+f
 "
 {
+pgoserver_certspec
 }
 already
 exists
@@ -1090,12 +1085,6 @@ isn
 t
 allowed
 "
-.
-format
-(
-pgoserver_certspec
-)
-            
 )
         
 with
@@ -1181,42 +1170,36 @@ path
 join
 (
 pemfolder
+f
 "
 {
+name
 }
 .
 cert
 .
 pem
 "
-.
-format
-(
-name
-)
 )
                 
 print
 (
+f
 "
 Generating
 public
 certificate
 {
+name
 }
 (
 pem
 =
 {
+pem
 }
 )
 "
-.
-format
-(
-name
-pem
-)
 )
                 
 with
@@ -1231,9 +1214,6 @@ join
 root
 certspec
 )
-"
-r
-"
 )
 as
 certspec_file
@@ -1415,8 +1395,10 @@ raise
 Exception
 (
                         
+f
 "
 {
+keyspec
 }
 :
 keyspec
@@ -1433,6 +1415,7 @@ client
 keyspec
 "
                         
+f
 "
 or
 XXX
@@ -1444,15 +1427,10 @@ keyspec
 key_type
 =
 {
+key_type
 }
 )
 "
-.
-format
-(
-keyspec
-key_type
-)
                     
 )
                 
@@ -1465,42 +1443,36 @@ path
 join
 (
 pemfolder
+f
 "
 {
+name
 }
 .
 key
 .
 pem
 "
-.
-format
-(
-name
-)
 )
                 
 print
 (
+f
 "
 Generating
 private
 key
 {
+name
 }
 (
 pem
 =
 {
+key_pem
 }
 )
 "
-.
-format
-(
-name
-key_pem
-)
 )
                 
 with
@@ -1515,9 +1487,6 @@ join
 root
 keyspec
 )
-"
-r
-"
 )
 as
 keyspec_file
@@ -1576,19 +1545,16 @@ path
 join
 (
 pemfolder
+f
 "
 {
+name
 }
 .
 cert
 .
 pem
 "
-.
-format
-(
-name
-)
 )
                 
 if
@@ -1607,6 +1573,7 @@ raise
 Exception
 (
                         
+f
 "
 There
 has
@@ -1617,22 +1584,19 @@ corresponding
 certificate
 named
 {
+cert_pem
 }
 for
 "
                         
+f
 "
 the
 keyspec
 {
+keyspec
 }
 "
-.
-format
-(
-cert_pem
-keyspec
-)
                     
 )
                 
@@ -1645,29 +1609,27 @@ path
 join
 (
 pemfolder
+f
 "
 {
+name
 }
 .
 key
 .
 p12
 "
-.
-format
-(
-name
-)
 )
                 
 print
 (
-                    
+f
 "
 Converting
 private
 key
 {
+key_pem
 }
 to
 PKCS12
@@ -1675,16 +1637,10 @@ PKCS12
 p12
 =
 {
+p12
 }
 )
 "
-.
-format
-(
-key_pem
-p12
-)
-                
 )
                 
 status
@@ -1760,20 +1716,17 @@ status
                 
 print
 (
+f
 "
 Importing
 private
 key
 {
+key_pem
 }
 to
 database
 "
-.
-format
-(
-key_pem
-)
 )
                 
 status
@@ -1832,7 +1785,6 @@ shutil
 .
 copyfile
 (
-                        
 cert_pem
 os
 .
@@ -1841,19 +1793,15 @@ path
 join
 (
 srcDir
+f
 "
 {
+name
 }
 .
 ca
 "
-.
-format
-(
-name
 )
-)
-                    
 )
                 
 elif
@@ -1877,17 +1825,14 @@ path
 join
 (
 srcDir
+f
 "
 {
+name
 }
 .
 client
 "
-.
-format
-(
-name
-)
 )
 )
                 
@@ -1916,6 +1861,7 @@ raise
 Exception
 (
                         
+f
 "
 State
 error
@@ -1925,13 +1871,9 @@ keyspec
 key_type
 :
 {
+key_type
 }
 "
-.
-format
-(
-key_type
-)
                     
 )
     

@@ -295,9 +295,6 @@ with
 open
 (
 cache_path
-"
-r
-"
 )
 as
 ifile

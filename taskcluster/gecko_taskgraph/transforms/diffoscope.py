@@ -887,27 +887,22 @@ artifact
 reference
 "
 :
+f
 "
 <
 {
+dep_name
 }
 /
 {
-}
->
-"
-.
-format
-(
-                    
-dep_name
 get_artifact_path
 (
 task
 artifact
 )
-                
-)
+}
+>
+"
             
 }
             

@@ -3025,9 +3025,6 @@ with
 open
 (
 infile
-"
-r
-"
 )
 as
 infile

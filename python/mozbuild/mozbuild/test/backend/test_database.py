@@ -135,9 +135,6 @@ loads
 open
 (
 compile_commands_path
-"
-r
-"
 )
 .
 read
@@ -183,6 +180,7 @@ topobjdir
 command
 "
 :
+f
 "
 clang
 -
@@ -200,37 +198,28 @@ limit
 =
 0
 {
+topsrcdir
 }
 /
 bar
 .
 c
 "
-.
-format
-(
-                    
-topsrcdir
-                
-)
                 
 "
 file
 "
 :
+f
 "
 {
+topsrcdir
 }
 /
 bar
 .
 c
 "
-.
-format
-(
-topsrcdir
-)
             
 }
             
@@ -246,6 +235,7 @@ topobjdir
 command
 "
 :
+f
 "
 clang
 -
@@ -263,37 +253,28 @@ limit
 =
 0
 {
+topsrcdir
 }
 /
 foo
 .
 c
 "
-.
-format
-(
-                    
-topsrcdir
-                
-)
                 
 "
 file
 "
 :
+f
 "
 {
+topsrcdir
 }
 /
 foo
 .
 c
 "
-.
-format
-(
-topsrcdir
-)
             
 }
             
@@ -309,6 +290,7 @@ topobjdir
 command
 "
 :
+f
 "
 clang
 +
@@ -328,37 +310,28 @@ limit
 =
 0
 {
+topsrcdir
 }
 /
 baz
 .
 cpp
 "
-.
-format
-(
-                    
-topsrcdir
-                
-)
                 
 "
 file
 "
 :
+f
 "
 {
+topsrcdir
 }
 /
 baz
 .
 cpp
 "
-.
-format
-(
-topsrcdir
-)
             
 }
             
@@ -374,6 +347,7 @@ topobjdir
 command
 "
 :
+f
 "
 clang
 +
@@ -393,37 +367,28 @@ limit
 =
 0
 {
+topsrcdir
 }
 /
 qux
 .
 cpp
 "
-.
-format
-(
-                    
-topsrcdir
-                
-)
                 
 "
 file
 "
 :
+f
 "
 {
+topsrcdir
 }
 /
 qux
 .
 cpp
 "
-.
-format
-(
-topsrcdir
-)
             
 }
         

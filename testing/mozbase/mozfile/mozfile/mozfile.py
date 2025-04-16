@@ -3521,9 +3521,6 @@ temporary
 resources
 class
 NamedTemporaryFile
-(
-object
-)
 :
     
 "

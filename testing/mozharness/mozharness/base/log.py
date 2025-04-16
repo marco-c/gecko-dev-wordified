@@ -367,9 +367,6 @@ LogMixin
 1
 class
 LogMixin
-(
-object
-)
 :
     
 "
@@ -2674,9 +2671,6 @@ BaseLogger
 1
 class
 BaseLogger
-(
-object
-)
 :
     
 "

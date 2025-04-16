@@ -526,9 +526,6 @@ suites
 }
 class
 Verifier
-(
-object
-)
 :
     
 "
@@ -1006,6 +1003,7 @@ logger
 warning
 (
                     
+f
 "
 Could
 not
@@ -1015,6 +1013,7 @@ existing
 test
 for
 {
+test_name
 }
 -
 bad
@@ -1022,13 +1021,6 @@ test
 name
 ?
 "
-.
-format
-(
-                        
-test_name
-                    
-)
                     
 framework_info
 [
@@ -1443,6 +1435,7 @@ logger
 warning
 (
                     
+f
 "
 Could
 not
@@ -1452,13 +1445,9 @@ test
 description
 for
 {
+test_name
 }
 "
-.
-format
-(
-test_name
-)
                     
 test_to_manifest
 [
@@ -2081,6 +2070,7 @@ logger
 warning
 (
                         
+f
 "
 Missing
 description
@@ -2088,20 +2078,14 @@ for
 the
 metric
 {
+metric
 }
 in
 test
 {
+test
 }
 "
-.
-format
-(
-                            
-metric
-test
-                        
-)
                         
 test_list
 [
@@ -2485,6 +2469,7 @@ logger
 warning
 (
                     
+f
 "
 Could
 not
@@ -2494,6 +2479,7 @@ existing
 suite
 for
 {
+suite
 }
 -
 bad
@@ -2501,13 +2487,6 @@ suite
 name
 ?
 "
-.
-format
-(
-                        
-suite
-                    
-)
                     
 framework_info
 [
@@ -2731,20 +2710,17 @@ logger
 warning
 (
                     
+f
 "
 Duplicate
 definitions
 found
 for
 {
+metric
 }
 .
 "
-.
-format
-(
-metric
-)
                     
 framework_info
 [
@@ -2827,20 +2803,17 @@ logger
 warning
 (
                     
+f
 "
 Duplicate
 definitions
 found
 for
 {
+metric
 }
 .
 "
-.
-format
-(
-metric
-)
                     
 framework_info
 [
@@ -2942,19 +2915,16 @@ logger
 warning
 (
                     
+f
 "
 Missing
 suite
 description
 for
 {
+suite
 }
 "
-.
-format
-(
-suite
-)
                     
 [
 t
@@ -3159,9 +3129,6 @@ with
 open
 (
 desc_path
-"
-r
-"
 )
 as
 f
@@ -3338,21 +3305,18 @@ logger
 .
 warning
 (
+f
 "
 YAML
 ValidationError
 :
 {
-}
-"
-.
-format
-(
 str
 (
 e
 )
-)
+}
+"
 yaml_path
 )
         
@@ -3851,19 +3815,16 @@ logger
 .
 log
 (
+f
 "
 File
 validation
 error
 :
 {
+file_format
 }
 "
-.
-format
-(
-file_format
-)
 )
             
 if

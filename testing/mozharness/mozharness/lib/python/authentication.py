@@ -186,9 +186,6 @@ with
 open
 (
 CREDENTIALS_PATH
-"
-r
-"
 )
 as
 file_handler

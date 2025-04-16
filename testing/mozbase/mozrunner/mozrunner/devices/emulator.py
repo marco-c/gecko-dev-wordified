@@ -126,9 +126,6 @@ import
 Telnet
 class
 ArchContext
-(
-object
-)
 :
     
 def
@@ -413,9 +410,6 @@ extra_args
 )
 class
 SDCard
-(
-object
-)
 :
     
 def

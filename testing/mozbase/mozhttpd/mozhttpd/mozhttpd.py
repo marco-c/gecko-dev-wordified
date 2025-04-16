@@ -259,9 +259,6 @@ print_exc
 )
 class
 Request
-(
-object
-)
 :
     
 "
@@ -1408,9 +1405,6 @@ args
 pass
 class
 MozHttpd
-(
-object
-)
 :
     
 "

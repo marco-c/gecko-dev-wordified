@@ -368,9 +368,6 @@ signedEntry
 )
 class
 SignedEntry
-(
-object
-)
 :
     
 "
@@ -467,9 +464,6 @@ certificate
 certificate
 class
 SCT
-(
-object
-)
 :
     
 "

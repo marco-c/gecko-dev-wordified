@@ -37,9 +37,6 @@ NullHandler
 )
 class
 GradlewBuild
-(
-object
-)
 :
     
 binary
@@ -240,18 +237,15 @@ logger
 .
 info
 (
+f
 "
 Running
 cmd
 :
 {
+cmd
 }
 "
-.
-format
-(
-cmd
-)
 )
         
 out

@@ -7559,21 +7559,18 @@ setdefault
 "
 ARCHFLAGS
 "
+f
 "
 -
 arch
 {
-}
-"
-.
-format
-(
 platform
 .
 machine
 (
 )
-)
+}
+"
         
 )
         

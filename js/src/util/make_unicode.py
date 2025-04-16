@@ -1932,52 +1932,47 @@ lines
 append
 (
             
+f
 "
 MACRO
 (
 0x
 {
+from_code
 :
 x
 }
 0x
 {
+to_code
 :
 x
 }
 0x
 {
+lead
 :
 x
 }
 0x
 {
+from_trail
 :
 x
 }
 0x
 {
+to_trail
 :
 x
 }
 {
+diff
 :
 d
 }
 )
 "
-.
-format
-(
-                
-from_code
-to_code
-lead
-from_trail
-to_trail
-diff
-            
-)
         
 )
         
@@ -1986,34 +1981,29 @@ comment
 append
 (
             
+f
 "
 /
 /
 {
-}
-.
-.
-{
-}
-"
-.
-format
-(
-                
 codepoint_table
 .
 full_name
 (
 from_code
 )
+}
+.
+.
+{
 codepoint_table
 .
 full_name
 (
 to_code
 )
-            
-)
+}
+"
         
 )
     
@@ -2046,11 +2036,13 @@ out_file
 .
 write
 (
+f
 "
 #
 define
 FOR_EACH_NON_BMP_
 {
+name
 }
 (
 MACRO
@@ -2060,11 +2052,6 @@ MACRO
 \
 n
 "
-.
-format
-(
-name
-)
 )
     
 out_file
@@ -4579,18 +4566,15 @@ n
 "
         
 return
+f
 "
 0x
 {
+n
 :
 04X
 }
 "
-.
-format
-(
-n
-)
     
 def
 describe_range
@@ -4624,22 +4608,19 @@ end
 println
 (
 indent
+f
 "
 /
 /
 {
-}
-"
-.
-format
-(
 codepoint_table
 .
 full_name
 (
 start
 )
-)
+}
+"
 )
             
 else
@@ -4650,34 +4631,29 @@ println
                     
 indent
                     
+f
 "
 /
 /
 {
-}
-.
-.
-{
-}
-"
-.
-format
-(
-                        
 codepoint_table
 .
 full_name
 (
 start
 )
+}
+.
+.
+{
 codepoint_table
 .
 full_name
 (
 end
 )
-                    
-)
+}
+"
                 
 )
     
@@ -4729,47 +4705,41 @@ end
 :
             
 return
+f
 "
 ch
 !
 =
 {
-}
-"
-.
-format
-(
 hexlit
 (
 start
 )
-)
+}
+"
         
 return
+f
 "
 ch
 <
 {
+hexlit
+(
+start
+)
 }
 |
 |
 ch
 >
 {
-}
-"
-.
-format
-(
-hexlit
-(
-start
-)
 hexlit
 (
 end
 )
-)
+}
+"
     
 def
 in_range
@@ -4818,21 +4788,18 @@ end
 :
             
 return
+f
 "
 ch
 =
 =
 {
-}
-"
-.
-format
-(
 hexlit
 (
 start
 )
-)
+}
+"
         
 (
 left
@@ -4858,13 +4825,19 @@ else
 )
         
 return
+f
 "
 {
+left
 }
 ch
 >
 =
 {
+hexlit
+(
+start
+)
 }
 &
 &
@@ -4872,26 +4845,15 @@ ch
 <
 =
 {
-}
-{
-}
-"
-.
-format
-(
-            
-left
-hexlit
-(
-start
-)
 hexlit
 (
 end
 )
+}
+{
 right
-        
-)
+}
+"
     
 def
 in_any_range
@@ -5015,19 +4977,16 @@ expr
 )
         
 return
+f
 "
 |
 |
 \
 n
 {
+spaces
 }
 "
-.
-format
-(
-spaces
-)
 .
 join
 (
@@ -5201,6 +5160,7 @@ has_successor
 println
 (
 indent
+f
 "
 if
 (
@@ -5208,41 +5168,34 @@ ch
 <
 =
 {
+hexlit
+(
+max_child
+)
 }
 )
 {
 {
 "
-.
-format
-(
-hexlit
-(
-max_child
-)
-)
 )
                 
 println
 (
 indent
+f
 "
 return
 ch
 >
 =
 {
-}
-;
-"
-.
-format
-(
 hexlit
 (
 min_child
 )
-)
+}
+;
+"
 )
                 
 println
@@ -5259,21 +5212,18 @@ else
 println
 (
 indent
+f
 "
 return
 {
-}
-;
-"
-.
-format
-(
 in_range
 (
 min_child
 max_child
 )
-)
+}
+;
+"
 )
             
 return
@@ -5346,25 +5296,22 @@ min_parent
 println
 (
 indent
+f
 "
 if
 (
 ch
 <
 {
+hexlit
+(
+min_child
+)
 }
 )
 {
 {
 "
-.
-format
-(
-hexlit
-(
-min_child
-)
-)
 )
             
 println
@@ -5434,17 +5381,14 @@ depth
 println
 (
 indent
+f
 "
 return
 {
+range_test_expr
 }
 ;
 "
-.
-format
-(
-range_test_expr
-)
 )
         
 else
@@ -5453,6 +5397,7 @@ else
 println
 (
 indent
+f
 "
 if
 (
@@ -5460,19 +5405,15 @@ ch
 <
 =
 {
+hexlit
+(
+max_child
+)
 }
 )
 {
 {
 "
-.
-format
-(
-hexlit
-(
-max_child
-)
-)
 )
             
 describe_range
@@ -5486,17 +5427,14 @@ depth
 println
 (
 indent
+f
 "
 return
 {
+range_test_expr
 }
 ;
 "
-.
-format
-(
-range_test_expr
-)
 )
             
 println
@@ -5616,18 +5554,11 @@ character
         
 println
 (
+f
 "
 if
 (
 {
-}
-)
-{
-{
-"
-.
-format
-(
 out_range
 (
 code_list
@@ -5640,7 +5571,11 @@ code_list
 1
 ]
 )
+}
 )
+{
+{
+"
 )
         
 println
@@ -5845,6 +5780,7 @@ is_last_block
                 
 println
 (
+f
 "
 if
 (
@@ -5852,14 +5788,6 @@ ch
 <
 =
 {
-}
-)
-{
-{
-"
-.
-format
-(
 hexlit
 (
 matches
@@ -5868,7 +5796,11 @@ matches
 1
 ]
 )
+}
 )
+{
+{
+"
 )
             
 else
@@ -5876,20 +5808,13 @@ else
                 
 println
 (
+f
 "
 if
 (
 ch
 <
 {
-}
-)
-{
-{
-"
-.
-format
-(
 hexlit
 (
 matches
@@ -5897,7 +5822,11 @@ matches
 0
 ]
 )
+}
 )
+{
+{
+"
 )
                 
 println
@@ -6100,40 +6029,35 @@ itemgetter
 println
 (
                 
+f
 "
 case
 {
+hexlit
+(
+code
+)
 }
 :
 return
 {
+len
+(
+converted
+)
 }
 ;
 /
 /
 {
-}
-"
-.
-format
-(
-                    
-hexlit
-(
-code
-)
-len
-(
-converted
-)
 codepoint_table
 .
 name
 (
 code
 )
-                
-)
+}
+"
             
 )
         
@@ -6284,32 +6208,27 @@ itemgetter
             
 println
 (
-                
+f
 "
 case
 {
+hexlit
+(
+code
+)
 }
 :
 /
 /
 {
-}
-"
-.
-format
-(
-hexlit
-(
-code
-)
 codepoint_table
 .
 name
 (
 code
 )
-)
-            
+}
+"
 )
             
 for
@@ -6321,6 +6240,7 @@ converted
 println
 (
                     
+f
 "
 elements
 [
@@ -6333,29 +6253,23 @@ index
 ]
 =
 {
+hexlit
+(
+ch
+)
 }
 ;
 /
 /
 {
-}
-"
-.
-format
-(
-                        
-hexlit
-(
-ch
-)
 codepoint_table
 .
 name
 (
 ch
 )
-                    
-)
+}
+"
                 
 )
             
@@ -6576,6 +6490,7 @@ predicate
         
 println
 (
+f
 "
 const
 bool
@@ -6583,6 +6498,7 @@ unicode
 :
 :
 {
+name
 }
 [
 ]
@@ -6590,11 +6506,6 @@ unicode
 {
 {
 "
-.
-format
-(
-name
-)
 )
         
 header
@@ -6604,19 +6515,15 @@ header
 .
 join
 (
+f
 "
 {
-0
+x
 :
 <
 6
 }
 "
-.
-format
-(
-x
-)
 for
 x
 in
@@ -6633,19 +6540,16 @@ rstrip
         
 println
 (
+f
 "
 /
 *
 {
+header
 }
 *
 /
 "
-.
-format
-(
-header
-)
 )
         
 for
@@ -6660,11 +6564,12 @@ range
             
 write
 (
+f
 "
 /
 *
 {
-0
+i
 :
 >
 2
@@ -6672,11 +6577,6 @@ write
 *
 /
 "
-.
-format
-(
-i
-)
 )
             
 for
@@ -7082,6 +6982,7 @@ mapper
         
 println
 (
+f
 "
 const
 JS
@@ -7092,6 +6993,7 @@ unicode
 :
 :
 {
+name
 }
 [
 ]
@@ -7099,11 +7001,6 @@ unicode
 {
 {
 "
-.
-format
-(
-name
-)
 )
         
 header
@@ -7113,19 +7010,15 @@ header
 .
 join
 (
+f
 "
 {
-0
+x
 :
 <
 6
 }
 "
-.
-format
-(
-x
-)
 for
 x
 in
@@ -7142,19 +7035,16 @@ rstrip
         
 println
 (
+f
 "
 /
 *
 {
+header
 }
 *
 /
 "
-.
-format
-(
-header
-)
 )
         
 for
@@ -7169,11 +7059,12 @@ range
             
 write
 (
+f
 "
 /
 *
 {
-0
+i
 :
 >
 2
@@ -7181,11 +7072,6 @@ write
 *
 /
 "
-.
-format
-(
-i
-)
 )
             
 for
@@ -7215,21 +7101,18 @@ code
                     
 write
 (
+f
 "
 0x
 {
-:
-02X
-}
-"
-.
-format
-(
 mapper
 (
 code
 )
-)
+:
+02X
+}
+"
 )
             
 println
@@ -7278,20 +7161,17 @@ n
 :
         
 return
+f
 "
 \
 \
 u
 {
+n
 :
 04X
 }
 "
-.
-format
-(
-n
-)
     
 file_name
 =
@@ -7784,6 +7664,7 @@ test_non_bmp_mapping
 write
 (
                 
+f
 "
 "
 "
@@ -7796,6 +7677,7 @@ fromCodePoint
 (
 0x
 {
+code
 :
 04X
 }
@@ -7811,6 +7693,10 @@ codePointAt
 )
 0x
 {
+non_bmp_upper_map
+[
+code
+]
 :
 04X
 }
@@ -7819,41 +7705,27 @@ codePointAt
 /
 /
 {
+codepoint_table
+.
+name
+(
+code
+)
 }
 {
+codepoint_table
+.
+name
+(
+non_bmp_upper_map
+[
+code
+]
+)
 }
 "
 "
 "
-.
-format
-(
-                    
-code
-                    
-non_bmp_upper_map
-[
-code
-]
-                    
-codepoint_table
-.
-name
-(
-code
-)
-                    
-codepoint_table
-.
-name
-(
-non_bmp_upper_map
-[
-code
-]
-)
-                
-)
             
 )
         
@@ -7875,6 +7747,7 @@ test_non_bmp_mapping
 write
 (
                 
+f
 "
 "
 "
@@ -7887,6 +7760,7 @@ fromCodePoint
 (
 0x
 {
+code
 :
 04X
 }
@@ -7902,6 +7776,10 @@ codePointAt
 )
 0x
 {
+non_bmp_lower_map
+[
+code
+]
 :
 04X
 }
@@ -7910,41 +7788,27 @@ codePointAt
 /
 /
 {
+codepoint_table
+.
+name
+(
+code
+)
 }
 {
+codepoint_table
+.
+name
+(
+non_bmp_lower_map
+[
+code
+]
+)
 }
 "
 "
 "
-.
-format
-(
-                    
-code
-                    
-non_bmp_lower_map
-[
-code
-]
-                    
-codepoint_table
-.
-name
-(
-code
-)
-                    
-codepoint_table
-.
-name
-(
-non_bmp_lower_map
-[
-code
-]
-)
-                
-)
             
 )
         
@@ -7996,30 +7860,27 @@ c
 :
         
 return
+f
 "
 0x
 {
+c
 :
 04X
 }
 /
 *
 {
-}
-*
-/
-"
-.
-format
-(
-c
 codepoint_table
 .
 name
 (
 c
 )
-)
+}
+*
+/
+"
     
 file_name
 =
@@ -8254,30 +8115,27 @@ c
 :
         
 return
+f
 "
 0x
 {
+c
 :
 04X
 }
 /
 *
 {
-}
-*
-/
-"
-.
-format
-(
-c
 codepoint_table
 .
 name
 (
 c
 )
-)
+}
+*
+/
+"
     
 file_name
 =
@@ -8722,18 +8580,15 @@ c
 :
         
 return
+f
 "
 0x
 {
+c
 :
 04X
 }
 "
-.
-format
-(
-c
-)
     
 file_name
 =
@@ -9754,6 +9609,7 @@ println
         
 println
 (
+f
 "
 const
 uint8_t
@@ -9761,6 +9617,7 @@ unicode
 :
 :
 {
+name
 }
 [
 ]
@@ -9768,11 +9625,6 @@ unicode
 {
 {
 "
-.
-format
-(
-name
-)
 )
         
 line
@@ -9909,14 +9761,17 @@ println
         
 println
 (
+f
 "
 const
 {
+data_type
 }
 unicode
 :
 :
 {
+name
 }
 [
 ]
@@ -9924,12 +9779,6 @@ unicode
 {
 {
 "
-.
-format
-(
-data_type
-name
-)
 )
         
 for
@@ -10026,6 +9875,7 @@ bool
         
 println
 (
+f
 "
 js
 :
@@ -10034,17 +9884,13 @@ unicode
 :
 :
 {
+name
 }
 (
 char32_t
 codePoint
 )
 "
-.
-format
-(
-name
-)
 )
         
 println
@@ -10071,6 +9917,7 @@ keys
 println
 (
                 
+f
 "
 if
 (
@@ -10079,6 +9926,7 @@ codePoint
 =
 0x
 {
+from_code
 :
 X
 }
@@ -10089,6 +9937,7 @@ codePoint
 =
 0x
 {
+to_code
 :
 X
 }
@@ -10098,35 +9947,24 @@ X
 /
 /
 {
+codepoint_table
+.
+name
+(
+from_code
+)
 }
 .
 .
 {
+codepoint_table
+.
+name
+(
+to_code
+)
 }
 "
-.
-format
-(
-                    
-from_code
-                    
-to_code
-                    
-codepoint_table
-.
-name
-(
-from_code
-)
-                    
-codepoint_table
-.
-name
-(
-to_code
-)
-                
-)
             
 )
             
@@ -11208,19 +11046,16 @@ url
         
 request_url
 =
+f
 "
 {
+url
 }
 /
 UCD
 .
 zip
 "
-.
-format
-(
-url
-)
         
 with
 closing
@@ -11418,9 +11253,6 @@ UnicodeData
 txt
 "
 )
-"
-r
-"
 encoding
 =
 "
@@ -11448,9 +11280,6 @@ CaseFolding
 txt
 "
 )
-"
-r
-"
 encoding
 =
 "
@@ -11478,9 +11307,6 @@ DerivedCoreProperties
 txt
 "
 )
-"
-r
-"
 encoding
 =
 "
@@ -11508,9 +11334,6 @@ SpecialCasing
 txt
 "
 )
-"
-r
-"
 encoding
 =
 "

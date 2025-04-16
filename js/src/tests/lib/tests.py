@@ -760,20 +760,17 @@ JITFLAGS
         
 print
 (
+f
 '
 Invalid
 jitflag
 :
 "
 {
+variant
 }
 "
 '
-.
-format
-(
-variant
-)
 )
         
 sys
@@ -1161,28 +1158,25 @@ environ
 key
 ]
 =
+f
 "
 {
-}
-{
-}
-{
-}
-"
-.
-format
-(
 val
+}
+{
 os
 .
 pathsep
+}
+{
 os
 .
 environ
 [
 key
 ]
-)
+}
+"
         
 else
 :
@@ -1399,9 +1393,6 @@ return
 1
 class
 RefTestCase
-(
-object
-)
 :
     
 "

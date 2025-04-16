@@ -766,9 +766,6 @@ stop
 )
 class
 Browser
-(
-object
-)
 :
     
 def
@@ -1456,8 +1453,12 @@ pytest
 .
 fail
 (
+f
 "
 {
+e
+.
+cause
 }
 -
 Error
@@ -1465,17 +1466,10 @@ installing
 addon
 :
 {
+e
 }
 -
 "
-.
-format
-(
-e
-.
-cause
-e
-)
 )
         
 else
@@ -1688,6 +1682,7 @@ raise
 exc_type
 (
                 
+f
 "
 Failed
 to
@@ -1698,13 +1693,9 @@ new
 tab
 :
 {
+exc_value
 }
 "
-.
-format
-(
-exc_value
-)
             
 )
 .
@@ -2176,9 +2167,6 @@ quit
 )
 class
 Helpers
-(
-object
-)
 :
     
 def
@@ -2470,6 +2458,7 @@ pytest
 .
 fail
 (
+f
 "
 Error
 waiting
@@ -2477,13 +2466,9 @@ for
 ping
 :
 {
+e
 }
 "
-.
-format
-(
-e
-)
 )
         
 return

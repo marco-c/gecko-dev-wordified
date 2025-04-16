@@ -877,6 +877,7 @@ stack_defs
         
 stack
 =
+f
 "
 <
 div
@@ -884,11 +885,13 @@ div
 Stack
 :
 {
+stack_uses
 }
 &
 rArr
 ;
 {
+stack_defs
 }
 <
 /
@@ -897,12 +900,6 @@ div
 \
 n
 "
-.
-format
-(
-stack_uses
-stack_defs
-)
     
 else
 :
@@ -987,19 +984,16 @@ type
     
 key
 =
+f
 "
 {
+category
 }
 :
 {
+type
 }
 "
-.
-format
-(
-category
-type
-)
     
 if
 key
@@ -1066,22 +1060,19 @@ id
         
 id
 =
+f
 "
 {
+id
 }
 _
 {
-}
-"
-.
-format
-(
-id
 id_count
 [
 id
 ]
-)
+}
+"
     
 else
 :
@@ -1112,6 +1103,7 @@ index
 print
 (
         
+f
 "
 "
 "
@@ -1165,7 +1157,7 @@ href
 =
 "
 {
-source_base
+SOURCE_BASE
 }
 /
 js
@@ -1193,7 +1185,7 @@ href
 =
 "
 {
-source_base
+SOURCE_BASE
 }
 /
 js
@@ -1222,15 +1214,6 @@ p
 "
 "
 "
-.
-format
-(
-            
-source_base
-=
-SOURCE_BASE
-        
-)
     
 )
     
@@ -1243,7 +1226,7 @@ index
         
 print
 (
-            
+f
 '
 <
 h3
@@ -1251,34 +1234,21 @@ id
 =
 "
 {
-id
+make_element_id
+(
+category_name
+)
 }
 "
 >
 {
-name
+category_name
 }
 <
 /
 h3
 >
 '
-.
-format
-(
-                
-name
-=
-category_name
-id
-=
-make_element_id
-(
-category_name
-)
-            
-)
-        
 )
         
 for
@@ -1295,6 +1265,7 @@ type_name
 print
 (
                     
+f
 '
 <
 h4
@@ -1302,34 +1273,22 @@ id
 =
 "
 {
-id
+make_element_id
+(
+category_name
+type_name
+)
 }
 "
 >
 {
-name
+type_name
 }
 <
 /
 h4
 >
 '
-.
-format
-(
-                        
-name
-=
-type_name
-id
-=
-make_element_id
-(
-category_name
-type_name
-)
-                    
-)
                 
 )
             

@@ -420,9 +420,6 @@ str
 (
 src_path
 )
-"
-r
-"
 )
     
 dst

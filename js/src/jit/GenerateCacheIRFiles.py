@@ -1243,8 +1243,10 @@ cpp_type
 args_code
 +
 =
+f
 "
 {
+cpp_type
 }
 result
 (
@@ -1258,11 +1260,6 @@ newOperandId
 \
 n
 "
-.
-format
-(
-cpp_type
-)
                 
 args_code
 +
@@ -1286,28 +1283,28 @@ method_args
 .
 append
 (
+f
 "
 {
-}
-{
-}
-"
-.
-format
-(
 cpp_type
+}
+{
 arg_name
-)
+}
+"
 )
                 
 args_code
 +
 =
+f
 "
 {
+write_method
 }
 (
 {
+arg_name
 }
 )
 ;
@@ -1316,12 +1313,6 @@ args_code
 \
 n
 "
-.
-format
-(
-write_method
-arg_name
-)
     
 code
 =
@@ -1380,6 +1371,7 @@ method_args
 code
 +
 =
+f
 "
 writeOp
 (
@@ -1387,6 +1379,7 @@ CacheOp
 :
 :
 {
+name
 }
 )
 ;
@@ -1395,11 +1388,6 @@ CacheOp
 \
 n
 "
-.
-format
-(
-name
-)
     
 code
 +
@@ -2670,30 +2658,31 @@ method_args
 .
 append
 (
+f
 "
 {
-}
-{
-}
-"
-.
-format
-(
 cpp_type
+}
+{
 cpp_name
-)
+}
+"
 )
             
 args_code
 +
 =
+f
 "
 {
+cpp_type
 }
 {
+cpp_name
 }
 =
 {
+readexpr
 }
 ;
 \
@@ -2701,13 +2690,6 @@ args_code
 \
 n
 "
-.
-format
-(
-cpp_type
-cpp_name
-readexpr
-)
     
 #
 Generate
@@ -2760,6 +2742,7 @@ it
 code
 +
 =
+f
 "
 [
 [
@@ -2768,6 +2751,7 @@ nodiscard
 ]
 bool
 {
+method_name
 }
 (
 CacheIRReader
@@ -2781,11 +2765,6 @@ reader
 \
 n
 "
-.
-format
-(
-method_name
-)
     
 code
 +
@@ -3405,15 +3384,19 @@ n
 args_code
 +
 =
+f
 '
 {
+spew_method
 }
 (
 "
 {
+arg_name
 }
 "
 {
+readexpr
 }
 )
 ;
@@ -3422,13 +3405,6 @@ args_code
 \
 n
 '
-.
-format
-(
-spew_method
-arg_name
-readexpr
-)
             
 is_first
 =
@@ -3436,9 +3412,11 @@ False
     
 code
 =
+f
 "
 void
 {
+method_name
 }
 (
 CacheIRReader
@@ -3452,15 +3430,11 @@ reader
 \
 n
 "
-.
-format
-(
-method_name
-)
     
 code
 +
 =
+f
 "
 spewOp
 (
@@ -3468,6 +3442,7 @@ CacheOp
 :
 :
 {
+name
 }
 )
 ;
@@ -3476,11 +3451,6 @@ CacheOp
 \
 n
 "
-.
-format
-(
-name
-)
     
 code
 +
@@ -3698,13 +3668,17 @@ read_name
 args_code
 +
 =
+f
 "
 {
+read_type
 }
 {
+read_name
 }
 =
 {
+readexpr
 }
 ;
 \
@@ -3712,13 +3686,6 @@ args_code
 \
 n
 "
-.
-format
-(
-read_type
-read_name
-readexpr
-)
             
 write_type
 write_method
@@ -3809,17 +3776,24 @@ arg_name
 args_code
 +
 =
+(
+                    
+f
 "
 {
+write_type
 }
 {
+value_name
 }
 =
 get
 {
+arg_type
 }
 (
 {
+read_name
 }
 )
 ;
@@ -3828,27 +3802,22 @@ get
 \
 n
 "
-.
-format
-(
-                    
-write_type
-value_name
-arg_type
-read_name
                 
 )
             
 args_code
 +
 =
+f
 "
 writer
 .
 {
+write_method
 }
 (
 {
+value_name
 }
 )
 ;
@@ -3857,25 +3826,16 @@ writer
 \
 n
 "
-.
-format
-(
-write_method
-value_name
-)
     
 code
 =
+f
 "
 void
 {
+method_name
 }
 "
-.
-format
-(
-method_name
-)
     
 code
 +
@@ -3900,6 +3860,7 @@ n
 code
 +
 =
+f
 "
 writer
 .
@@ -3909,6 +3870,7 @@ CacheOp
 :
 :
 {
+name
 }
 )
 ;
@@ -3917,11 +3879,6 @@ CacheOp
 \
 n
 "
-.
-format
-(
-name
-)
     
 code
 +
@@ -4633,29 +4590,24 @@ ops_items
 .
 append
 (
-            
+f
 "
 _
 (
 {
+name
 }
 {
+args_length
 }
 {
+transpile_str
 }
 {
+cost_estimate
 }
 )
 "
-.
-format
-(
-name
-args_length
-transpile_str
-cost_estimate
-)
-        
 )
         
 writer_methods
@@ -4718,18 +4670,15 @@ transpiler_ops
 .
 append
 (
+f
 "
 _
 (
 {
+name
 }
 )
 "
-.
-format
-(
-name
-)
 )
         
 spewer_methods

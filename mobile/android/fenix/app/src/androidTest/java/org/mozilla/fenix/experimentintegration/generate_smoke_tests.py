@@ -211,9 +211,6 @@ with
 open
 (
 file_name
-"
-r
-"
 )
 as
 file
@@ -710,9 +707,6 @@ open
 variables
 .
 yaml
-"
-"
-r
 "
 )
 as

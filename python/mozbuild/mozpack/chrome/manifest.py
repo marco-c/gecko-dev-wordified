@@ -91,9 +91,6 @@ import
 errors
 class
 ManifestEntry
-(
-object
-)
 :
     
 "

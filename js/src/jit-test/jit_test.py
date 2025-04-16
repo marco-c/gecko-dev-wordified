@@ -370,20 +370,17 @@ jitflags
 )
         
 return
+f
 "
 {
-}
-{
-}
-"
-.
-format
-(
 job
 .
 path
+}
+{
 flags
-)
+}
+"
     
 for
 i
@@ -398,22 +395,19 @@ jobs
         
 print
 (
+f
 "
 {
+i
 }
 )
 {
-}
-"
-.
-format
-(
-i
 display_job
 (
 job
 )
-)
+}
+"
 )
     
 item
@@ -452,6 +446,7 @@ item
 raise
 Exception
 (
+f
 "
 Input
 isn
@@ -461,13 +456,9 @@ between
 1
 and
 {
+job_count
 }
 "
-.
-format
-(
-job_count
-)
 )
     
 except
@@ -2997,21 +2988,18 @@ test
 file
 "
                     
+f
 "
 '
 {
+options
+.
+read_tests
 }
 '
 \
 n
 "
-.
-format
-(
-options
-.
-read_tests
-)
                 
 )
                 
@@ -4153,20 +4141,17 @@ not
 exist
 :
 "
+f
 "
 '
 {
-}
-'
-"
-.
-format
-(
 prefix
 [
 0
 ]
-)
+}
+'
+"
                 
 file
 =

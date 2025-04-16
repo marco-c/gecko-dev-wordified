@@ -2505,6 +2505,7 @@ logger
 warning
 (
             
+f
 "
 using
 default
@@ -2513,14 +2514,17 @@ parameters
 ;
 add
 {
+project
 }
 to
 "
             
+f
 "
 PER_PROJECT_PARAMETERS
 in
 {
+__file__
 }
 to
 customize
@@ -2532,12 +2536,6 @@ for
 this
 project
 "
-.
-format
-(
-project
-__file__
-)
         
 )
         

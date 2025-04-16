@@ -135,9 +135,6 @@ get_proxy_logger
 )
 class
 FFSetup
-(
-object
-)
 :
     
 "
@@ -934,9 +931,6 @@ profiles
 json
 "
 )
-"
-r
-"
 )
 as
 fh
@@ -980,18 +974,15 @@ LOG
 .
 info
 (
+f
 "
 Merging
 profile
 :
 {
+path
 }
 "
-.
-format
-(
-path
-)
 )
             
 profile

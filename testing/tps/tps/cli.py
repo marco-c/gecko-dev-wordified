@@ -728,9 +728,6 @@ f
 open
 (
 configfile
-"
-r
-"
 )
     
 configcontent

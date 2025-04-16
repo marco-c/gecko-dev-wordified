@@ -491,24 +491,21 @@ w
 write
 (
     
+f
 "
 {
-}
-\
-n
-{
-}
-\
-n
-\
-n
-"
-.
-format
-(
 LICENSE_HEADER
+}
+\
+n
+{
 GENERATED_HEADER
-)
+}
+\
+n
+\
+n
+"
     
 +
 yaml

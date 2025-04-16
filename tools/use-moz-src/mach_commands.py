@@ -1321,16 +1321,13 @@ log
 logging
 .
 INFO
+f
 "
 Rewriting
 {
+matching_file
 }
 "
-.
-format
-(
-matching_file
-)
 )
                 
 affected_files
@@ -1885,13 +1882,17 @@ _log
 .
 log
 (
-            
 logging
 .
 INFO
+f
 "
 Formatting
 {
+len
+(
+updated_files
+)
 }
 affected
 files
@@ -1899,15 +1900,6 @@ files
 .
 .
 "
-.
-format
-(
-len
-(
-updated_files
-)
-)
-        
 )
         
 command_context

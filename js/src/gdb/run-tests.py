@@ -486,9 +486,6 @@ end
 .
 class
 Summary
-(
-object
-)
 :
     
 class

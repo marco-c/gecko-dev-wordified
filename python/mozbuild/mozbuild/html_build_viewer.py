@@ -622,9 +622,6 @@ read
 )
 class
 BuildViewerServer
-(
-object
-)
 :
     
 def

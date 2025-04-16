@@ -65,9 +65,6 @@ StructuredLogger
 get_default_logger
 class
 ProxyLogger
-(
-object
-)
 :
     
 "

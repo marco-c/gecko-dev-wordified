@@ -213,9 +213,6 @@ data
 )
 class
 WebPlatformTestsRunner
-(
-object
-)
 :
     
 "

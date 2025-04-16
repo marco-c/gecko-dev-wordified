@@ -319,9 +319,6 @@ _cfg_file_path
 (
 fx_install_dir
 )
-"
-r
-"
 )
 as
 fd

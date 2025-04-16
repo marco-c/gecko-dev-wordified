@@ -681,17 +681,14 @@ targets
             
 print
 (
+f
 "
 \
 t
 {
+target
 }
 "
-.
-format
-(
-target
-)
 )
             
 for
@@ -708,19 +705,16 @@ target
                 
 print
 (
+f
 "
 \
 t
 \
 t
 {
+url
 }
 "
-.
-format
-(
-url
-)
 )
 def
 main

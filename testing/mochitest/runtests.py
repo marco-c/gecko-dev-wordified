@@ -805,9 +805,6 @@ in
 mozharness
 class
 MessageLogger
-(
-object
-)
 :
     
 "
@@ -2022,11 +2019,12 @@ logger
 info
 (
                         
+f
 "
 <
 snipped
 {
-0
+snipped
 }
 output
 lines
@@ -2054,11 +2052,6 @@ your
 test
 >
 "
-.
-format
-(
-snipped
-)
                     
 )
                 
@@ -2392,19 +2385,16 @@ logger
 .
 info
 (
+f
 "
 Buffered
 messages
 logged
 at
 {
+timestamp
 }
 "
-.
-format
-(
-timestamp
-)
 )
             
 last_timestamp
@@ -3325,9 +3315,6 @@ SUPPORT
 #
 class
 MochitestServer
-(
-object
-)
 :
     
 "
@@ -4766,9 +4753,6 @@ killed
 )
 class
 WebSocketServer
-(
-object
-)
 :
     
 "
@@ -7309,9 +7293,6 @@ dirs
 )
 class
 MochitestDesktop
-(
-object
-)
 :
     
 "
@@ -9743,10 +9724,12 @@ raise
 FileExistsError
 (
                     
+f
 "
 Directory
 '
 {
+d
 }
 '
 already
@@ -9759,6 +9742,7 @@ member
 of
 "
                     
+f
 "
 test
 -
@@ -9766,15 +9750,10 @@ directories
 in
 manifest
 {
+manifest
 }
 .
 "
-.
-format
-(
-d
-manifest
-)
                 
 )
         
@@ -9814,6 +9793,7 @@ raise
 OSError
 (
                 
+f
 "
 Not
 all
@@ -9824,22 +9804,16 @@ created
 extraTestsDirs
 =
 {
+extraTestsDirs
 }
 -
 -
 created
 =
 {
+created
 }
 "
-.
-format
-(
-                    
-extraTestsDirs
-created
-                
-)
             
 )
     
@@ -13056,26 +13030,21 @@ log
 .
 suite_start
 (
-            
 self
 .
 tests_by_manifest
 name
 =
+f
 "
 mochitest
 -
 {
-}
-"
-.
-format
-(
 self
 .
 flavor
-)
-        
+}
+"
 )
         
 for
@@ -13217,6 +13186,7 @@ log
 warning
 (
             
+f
 "
 [
 runtests
@@ -13227,6 +13197,7 @@ error
 ]
 Using
 {
+pat_file
 }
 to
 filter
@@ -13266,11 +13237,6 @@ count
 appropriately
 .
 "
-.
-format
-(
-pat_file
-)
         
 )
         
@@ -13831,21 +13797,18 @@ SCRIPT_DIR
 runtimes
 "
                         
+f
 "
 manifest
 -
 runtimes
 -
 {
+platkey
 }
 .
 json
 "
-.
-format
-(
-platkey
-)
                     
 )
                     
@@ -13917,9 +13880,6 @@ with
 open
 (
 runtime_file
-"
-r
-"
 )
 as
 f
@@ -17372,9 +17332,6 @@ open
 self
 .
 start_script
-"
-r
-"
 )
 as
 fh
@@ -18650,9 +18607,6 @@ profiles
 json
 "
 )
-"
-r
-"
 )
 as
 fh
@@ -19141,6 +19095,7 @@ log
 critical
 (
                 
+f
 "
 Can
 '
@@ -19148,6 +19103,7 @@ t
 find
 target_dir
 {
+cond_prof_target_dir
 }
 from
 get_profile
@@ -19155,27 +19111,21 @@ get_profile
 )
 "
                 
+f
 "
 temp_download_dir
 {
+temp_download_dir
 }
 platform
 {
+platform
 }
 scenario
 {
+profile_scenario
 }
 "
-.
-format
-(
-                    
-cond_prof_target_dir
-temp_download_dir
-platform
-profile_scenario
-                
-)
             
 )
             
@@ -19189,6 +19139,7 @@ log
 info
 (
             
+f
 "
 Original
 self
@@ -19199,17 +19150,11 @@ now
 set
 :
 {
-}
-"
-.
-format
-(
-                
 self
 .
 conditioned_profile_dir
-            
-)
+}
+"
         
 )
         
@@ -20041,12 +19986,14 @@ log
 info
 (
                 
+f
 "
 Increasing
 default
 timeout
 to
 {
+test_timeout
 }
 seconds
 (
@@ -20054,13 +20001,6 @@ win
 aarch64
 )
 "
-.
-format
-(
-                    
-test_timeout
-                
-)
             
 )
         
@@ -20090,25 +20030,20 @@ log
 info
 (
                 
+f
 "
 Increasing
 default
 timeout
 to
 {
+test_timeout
 }
 seconds
 (
 MOZ_CHAOSMODE
 )
 "
-.
-format
-(
-                    
-test_timeout
-                
-)
             
 )
         
@@ -20832,7 +20767,7 @@ log
 .
 error
 (
-                        
+f
 "
 Could
 not
@@ -20842,14 +20777,9 @@ module
 with
 id
 {
+id
 }
 "
-.
-format
-(
-id
-)
-                    
 )
                     
 return
@@ -24586,34 +24516,28 @@ append
 name
 "
 :
+f
 "
 sine
 -
 {
+freq
 }
 "
-.
-format
-(
-freq
-)
                     
 "
 description
 "
 :
+f
 "
 {
+freq
 }
 Hz
 Sine
 Source
 "
-.
-format
-(
-freq
-)
                     
 "
 frequency
@@ -24795,7 +24719,7 @@ log
 .
 error
 (
-                    
+f
 "
 Could
 not
@@ -24803,16 +24727,11 @@ find
 required
 program
 {
+command
 }
 on
 system
 "
-.
-format
-(
-command
-)
-                
 )
                 
 return
@@ -25507,6 +25426,7 @@ log
 .
 error
 (
+f
 "
 Could
 not
@@ -25516,13 +25436,9 @@ module
 with
 id
 {
+id
 }
 "
-.
-format
-(
-id
-)
 )
                     
 return
@@ -28252,31 +28168,22 @@ log
 .
 info
 (
+f
 "
 {
-key
-}
-:
-{
-value
-}
-"
-.
-format
-(
-key
-=
 info
 [
 0
 ]
-value
-=
+}
+:
+{
 info
 [
 1
 ]
-)
+}
+"
 )
         
 self
@@ -28618,18 +28525,15 @@ log
 .
 info
 (
+f
 "
 Running
 manifest
 :
 {
+m
 }
 "
-.
-format
-(
-m
-)
 )
             
 self
@@ -30904,6 +30808,7 @@ log
 .
 info
 (
+f
 "
 runtests
 .
@@ -30914,13 +30819,9 @@ with
 scheme
 :
 {
+scheme
 }
 "
-.
-format
-(
-scheme
-)
 )
                 
 self
@@ -30929,7 +30830,7 @@ log
 .
 info
 (
-                    
+f
 "
 runtests
 .
@@ -30940,16 +30841,11 @@ with
 e10s
 :
 {
-}
-"
-.
-format
-(
 options
 .
 e10s
-)
-                
+}
+"
 )
                 
 self
@@ -32913,9 +32809,6 @@ close
     
 class
 OutputHandler
-(
-object
-)
 :
         
 "

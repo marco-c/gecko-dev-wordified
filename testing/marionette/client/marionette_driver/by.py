@@ -133,9 +133,6 @@ License
 .
 class
 By
-(
-object
-)
 :
     
 ID

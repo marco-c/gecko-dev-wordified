@@ -1394,9 +1394,6 @@ self
 KEEP
 class
 LineIO
-(
-object
-)
 :
     
 "

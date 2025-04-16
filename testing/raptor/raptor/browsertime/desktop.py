@@ -150,17 +150,14 @@ LOG
 .
 info
 (
+f
 "
 binary_path
 :
 {
+binary_path
 }
 "
-.
-format
-(
-binary_path
-)
 )
         
 args_list

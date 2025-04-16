@@ -4856,6 +4856,7 @@ self
 log
 (
                         
+f
 "
 -
 -
@@ -4864,13 +4865,9 @@ not
 supported
 in
 {
+suite_category
 }
 "
-.
-format
-(
-suite_category
-)
                         
 level
 =
@@ -5180,21 +5177,17 @@ base_cmd
 .
 extend
 (
-                                
 [
+f
 "
 -
 -
 tag
 =
 {
+t
 }
 "
-.
-format
-(
-t
-)
 for
 t
 in
@@ -5205,7 +5198,6 @@ test_tags
 "
 ]
 ]
-                            
 )
                         
 else
@@ -5800,19 +5792,16 @@ base_cmd
 extend
 (
 [
+f
 "
 -
 -
 setpref
 =
 {
+p
 }
 "
-.
-format
-(
-p
-)
 for
 p
 in
@@ -6393,17 +6382,14 @@ c
 .
 get
 (
+f
 "
 all_
 {
+category
 }
 _suites
 "
-.
-format
-(
-category
-)
 None
 )
         
@@ -6413,17 +6399,14 @@ c
 .
 get
 (
+f
 "
 specified_
 {
+category
 }
 _suites
 "
-.
-format
-(
-category
-)
 None
 )
         
@@ -7611,16 +7594,13 @@ stage
 getattr
 (
 self
+f
 "
 _stage_
 {
+category
 }
 "
-.
-format
-(
-category
-)
 None
 )
             
@@ -9600,18 +9580,15 @@ join
                 
 upload_dir
                 
+f
 "
 video_
 {
+suite_name
 }
 .
 webm
 "
-.
-format
-(
-suite_name
-)
             
 )
             
@@ -9626,19 +9603,16 @@ join
                 
 upload_dir
                 
+f
 "
 video_
 {
+suite_name
 }
 _tmp
 .
 webm
 "
-.
-format
-(
-suite_name
-)
             
 )
             
@@ -9646,21 +9620,18 @@ self
 .
 info
 (
+f
 "
 Recording
 suite
 {
+suite_name
 }
 to
 {
+target_file
 }
 "
-.
-format
-(
-suite_name
-target_file
-)
 )
             
 session_bus
@@ -9928,18 +9899,15 @@ join
                 
 upload_dir
                 
+f
 "
 video_
 {
+suite_name
 }
 .
 mov
 "
-.
-format
-(
-suite_name
-)
             
 )
             
@@ -9947,21 +9915,18 @@ self
 .
 info
 (
+f
 "
 Recording
 suite
 {
+suite_name
 }
 to
 {
+target_file
 }
 "
-.
-format
-(
-suite_name
-target_file
-)
 )
             
 process
@@ -11200,18 +11165,15 @@ self
 .
 info
 (
+f
 "
 Starting
 recording
 thread
 {
+suite
 }
 "
-.
-format
-(
-suite
-)
 )
                             
 video_recording_thread
@@ -11422,18 +11384,15 @@ self
 .
 info
 (
+f
 "
 Stopping
 recording
 thread
 {
+suite
 }
 "
-.
-format
-(
-suite
-)
 )
                         
 finish_video
@@ -11452,18 +11411,15 @@ self
 .
 info
 (
+f
 "
 Stopped
 recording
 thread
 {
+suite
 }
 "
-.
-format
-(
-suite
-)
 )
                     
 success_codes

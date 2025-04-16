@@ -1236,16 +1236,13 @@ bits
                 
 p
 =
+f
 "
 {
+p
 }
 64
 "
-.
-format
-(
-p
-)
             
 elif
 p
@@ -1259,16 +1256,13 @@ win
                 
 p
 =
+f
 "
 {
+p
 }
 32
 "
-.
-format
-(
-p
-)
             
 if
 d
@@ -1281,17 +1275,14 @@ asan
                 
 p
 =
+f
 "
 {
+p
 }
 -
 asan
 "
-.
-format
-(
-p
-)
             
 return
 p
@@ -1691,7 +1682,7 @@ open
 (
 file
 "
-wt
+w
 "
 )
     

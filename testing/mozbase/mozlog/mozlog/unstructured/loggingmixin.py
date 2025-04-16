@@ -61,9 +61,6 @@ Logger
 getLogger
 class
 LoggingMixin
-(
-object
-)
 :
     
 "

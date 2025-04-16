@@ -280,9 +280,6 @@ with
 open
 (
 profile_path
-"
-r
-"
 encoding
 =
 "

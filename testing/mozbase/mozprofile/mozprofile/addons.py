@@ -148,9 +148,6 @@ files
 "
 class
 AddonManager
-(
-object
-)
 :
     
 "

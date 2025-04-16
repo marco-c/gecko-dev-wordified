@@ -78,9 +78,6 @@ input
 open
 (
 relIdl
-"
-rt
-"
 )
 .
 read

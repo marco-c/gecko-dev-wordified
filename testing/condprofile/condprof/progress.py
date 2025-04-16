@@ -277,9 +277,6 @@ ETA_SMA_WINDOW
 9
 class
 Bar
-(
-object
-)
 :
     
 def

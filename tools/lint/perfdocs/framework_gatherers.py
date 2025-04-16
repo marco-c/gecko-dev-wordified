@@ -162,9 +162,6 @@ class
 "
 class
 FrameworkGatherer
-(
-object
-)
 :
     
 "
@@ -2538,6 +2535,7 @@ following
 name
 "
                 
+f
 "
 (
 obtained
@@ -2548,13 +2546,9 @@ yml
 )
 :
 {
+title
 }
 "
-.
-format
-(
-title
-)
             
 )
             
@@ -2572,6 +2566,7 @@ following
 name
 "
                 
+f
 "
 (
 obtained
@@ -2582,13 +2577,9 @@ yml
 )
 :
 {
+title
 }
 "
-.
-format
-(
-title
-)
             
 )
         

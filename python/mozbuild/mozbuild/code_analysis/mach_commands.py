@@ -427,9 +427,6 @@ return
 after
 class
 StaticAnalysisMonitor
-(
-object
-)
 :
     
 def
@@ -2151,9 +2148,6 @@ loads
 open
 (
 _compile_db
-"
-r
-"
 )
 .
 read
@@ -2657,9 +2651,6 @@ load
 open
 (
 compile_db
-"
-r
-"
 )
 )
     
@@ -2713,7 +2704,6 @@ command_context
 .
 log
 (
-                
 logging
 .
 INFO
@@ -2724,17 +2714,13 @@ analysis
 "
 {
 }
+f
 "
 Skipping
 {
+f
 }
 "
-.
-format
-(
-f
-)
-            
 )
             
 continue
@@ -3028,22 +3014,19 @@ analysis
 {
 }
                 
+f
 "
 {
+clang_paths
+.
+_clang_format_path
 }
 Version
 =
 {
+version_info
 }
 "
-.
-format
-(
-clang_paths
-.
-_clang_format_path
-version_info
-)
             
 )
     
@@ -3089,6 +3072,7 @@ see
 the
 "
             
+f
 "
 attached
 exception
@@ -3096,15 +3080,11 @@ exception
 \
 n
 {
-}
-"
-.
-format
-(
 e
 .
 output
-)
+}
+"
         
 )
     
@@ -3196,6 +3176,7 @@ analysis
 {
 }
             
+f
 "
 ERROR
 :
@@ -3210,6 +3191,11 @@ incorrect
 version
 (
 {
+_get_current_version
+(
+command_context
+clang_paths
+)
 }
 )
 of
@@ -3220,6 +3206,7 @@ binary
 .
 "
             
+f
 "
 Please
 update
@@ -3233,6 +3220,10 @@ at
 least
 >
 {
+_get_required_version
+(
+command_context
+)
 }
 )
 "
@@ -3248,22 +3239,6 @@ mach
 bootstrap
 '
 "
-.
-format
-(
-                
-_get_current_version
-(
-command_context
-clang_paths
-)
-                
-_get_required_version
-(
-command_context
-)
-            
-)
         
 )
     
@@ -4402,6 +4377,7 @@ analysis
 {
 }
             
+f
 "
 ERROR
 :
@@ -4414,18 +4390,12 @@ autotest
 for
 platform
 {
+platform
 }
 not
 supported
 .
 "
-.
-format
-(
-                
-platform
-            
-)
         
 )
         
@@ -4456,6 +4426,7 @@ analysis
 {
 }
         
+f
 "
 RUNNING
 :
@@ -4466,23 +4437,15 @@ autotest
 for
 platform
 {
-0
+platform
 }
 with
 {
-1
+max_workers
 }
 workers
 .
 "
-.
-format
-(
-            
-platform
-max_workers
-        
-)
     
 )
     
@@ -5049,8 +5012,10 @@ message_to_log
 tChecker
 "
                         
+f
 "
 {
+checker_name
 }
 not
 present
@@ -5062,13 +5027,6 @@ tidy
 version
 .
 "
-.
-format
-(
-                            
-checker_name
-                        
-)
                     
 )
                 
@@ -5088,9 +5046,10 @@ message_to_log
 tChecker
 "
                         
+f
 "
 {
-0
+checker_name
 }
 does
 not
@@ -5100,16 +5059,11 @@ test
 file
 -
 {
-0
+checker_name
 }
 .
 cpp
 "
-.
-format
-(
-checker_name
-)
                     
 )
                 
@@ -5124,11 +5078,12 @@ message_to_log
 =
 (
                         
+f
 "
 \
 tChecker
 {
-0
+checker_name
 }
 did
 not
@@ -5141,6 +5096,7 @@ test
 file
 "
                         
+f
 "
 clang
 -
@@ -5154,16 +5110,10 @@ is
 \
 n
 {
-1
+info1
 }
 "
                     
-)
-.
-format
-(
-checker_name
-info1
 )
                 
 elif
@@ -5175,13 +5125,12 @@ TOOLS_CHECKER_RESULT_FILE_NOT_FOUND
                     
 message_to_log
 =
-(
-                        
+f
 "
 \
 tChecker
 {
-0
+checker_name
 }
 does
 not
@@ -5191,18 +5140,11 @@ result
 file
 -
 {
-0
+checker_name
 }
 .
 json
 "
-                    
-)
-.
-format
-(
-checker_name
-)
                 
 elif
 checker_error
@@ -5215,27 +5157,29 @@ message_to_log
 =
 (
                         
+f
 "
 \
 tChecker
 {
-0
+checker_name
 }
 \
 nExpected
 :
 {
-1
+info1
 }
 \
 n
 "
                         
+f
 "
 Got
 :
 {
-2
+info2
 }
 \
 n
@@ -5255,20 +5199,13 @@ is
 n
 "
                         
+f
 "
 {
-3
+info3
 }
 "
                     
-)
-.
-format
-(
-checker_name
-info1
-info2
-info3
 )
                 
 print
@@ -5871,11 +5808,12 @@ failed_checks_baseline
 print
 (
                 
+f
 "
 \
 tChecker
 {
-0
+failed_check
 }
 expect
 following
@@ -5888,23 +5826,16 @@ t
 \
 t
 {
-1
+baseline_issue
 }
 "
-.
-format
-(
-                    
-failed_check
-baseline_issue
-                
-)
             
 )
         
 print
 (
             
+f
 "
 This
 is
@@ -5923,15 +5854,9 @@ build
 \
 n
 {
+clang_output
 }
 "
-.
-format
-(
-                
-clang_output
-            
-)
         
 )
         
@@ -7557,6 +7482,7 @@ analysis
 {
 }
         
+f
 "
 RUNNING
 :
@@ -7565,14 +7491,10 @@ clang
 tidy
 checker
 {
+check
 }
 .
 "
-.
-format
-(
-check
-)
     
 )
     
@@ -9782,20 +9704,16 @@ args
 -
 include
 "
+f
 "
 glob
 :
 *
 *
 {
-0
+dot_extension
 }
 "
-.
-format
-(
-dot_extension
-)
 ]
         
 args
@@ -9807,18 +9725,14 @@ args
 -
 exclude
 "
+f
 "
 listfile
 :
 {
-0
+_format_ignore_file
 }
 "
-.
-format
-(
-_format_ignore_file
-)
 ]
     
 else
@@ -9841,8 +9755,6 @@ commit
             
 commit_range
 =
-(
-                
 commit
 if
 "
@@ -9852,23 +9764,18 @@ if
 in
 commit
 else
+f
 "
 {
+commit
 }
 ~
 .
 .
 {
+commit
 }
 "
-.
-format
-(
-commit
-commit
-)
-            
-)
         
 args
 =
@@ -9907,17 +9814,13 @@ args
 +
 =
 [
+f
 "
 *
 {
-0
+dot_extension
 }
 "
-.
-format
-(
-dot_extension
-)
 ]
         
 #
@@ -10388,9 +10291,6 @@ with
 open
 (
 path_to_third_party
-"
-r
-"
 )
 as
 fh
@@ -10535,6 +10435,7 @@ verbose
                 
 print
 (
+f
 "
 static
 -
@@ -10546,15 +10447,10 @@ party
 code
 '
 {
-0
+f
 }
 '
 "
-.
-format
-(
-f
-)
 )
             
 continue
@@ -10778,6 +10674,7 @@ args
 =
 [
 clang_format
+f
 "
 -
 assume
@@ -10785,16 +10682,12 @@ assume
 filename
 =
 {
-}
-"
-.
-format
-(
 assume_filename
 [
 0
 ]
-)
+}
+"
 ]
     
 process
@@ -10818,9 +10711,6 @@ paths
 [
 0
 ]
-"
-r
-"
 )
 as
 fin
@@ -11734,60 +11624,48 @@ output
 replace
 (
                             
+f
 "
 +
 +
 +
 {
-}
-"
-.
-format
-(
 target_file
-)
+}
+"
                             
+f
 "
 +
 +
 +
 {
+target_path_diff
 }
 "
-.
-format
-(
-target_path_diff
-)
                         
 )
 .
 replace
 (
                             
+f
 "
 -
 -
 {
-}
-"
-.
-format
-(
 original_path
-)
+}
+"
                             
+f
 "
 -
 -
 {
+original_path_diff
 }
 "
-.
-format
-(
-original_path_diff
-)
                         
 )
                         
@@ -12186,9 +12064,6 @@ ensure_str
 open
 (
 path
-"
-r
-"
 )
 .
 read

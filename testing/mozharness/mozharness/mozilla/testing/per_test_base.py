@@ -78,9 +78,6 @@ import
 mozinfo
 class
 SingleTestMixin
-(
-object
-)
 :
     
 "
@@ -2397,9 +2394,6 @@ with
 open
 (
 paths_file
-"
-r
-"
 )
 as
 f

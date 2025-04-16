@@ -303,9 +303,6 @@ self
         
 class
 MockSink
-(
-object
-)
 :
             
 def
@@ -615,9 +612,6 @@ exe
 )
 class
 MockFinder
-(
-object
-)
 :
     
 def
@@ -705,9 +699,6 @@ find
 )
 class
 MockFormatter
-(
-object
-)
 :
     
 def
@@ -4576,9 +4567,6 @@ self
         
 class
 Logger
-(
-object
-)
 :
             
 def

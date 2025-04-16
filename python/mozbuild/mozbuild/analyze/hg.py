@@ -201,6 +201,7 @@ get
 URL
         
 +
+f
 "
 version
 =
@@ -209,7 +210,7 @@ version
 startID
 =
 {
-0
+start
 }
 &
 \
@@ -217,21 +218,13 @@ startID
 endID
 =
 {
-1
+end
 }
 &
 full
 =
 1
 "
-.
-format
-(
-            
-start
-end
-        
-)
     
 )
 .
@@ -464,9 +457,6 @@ sublist
 }
 class
 Pushlog
-(
-object
-)
 :
     
 def
@@ -628,9 +618,6 @@ return
 keys
 class
 Push
-(
-object
-)
 :
     
 def
@@ -686,9 +673,6 @@ files
 ]
 class
 Report
-(
-object
-)
 :
     
 def

@@ -623,6 +623,7 @@ NODE_FAILURE_MSG
 =
 (
         
+f
 "
 Could
 not
@@ -636,16 +637,10 @@ at
 least
 version
 {
+MIN_NODE_VERSION
 }
 .
 "
-.
-format
-(
-            
-MIN_NODE_VERSION
-        
-)
         
 +
 "
@@ -1152,6 +1147,7 @@ darwin
 raise
 ValueError
 (
+f
 "
 sys
 .
@@ -1162,15 +1158,11 @@ yet
 supported
 :
 {
-}
-"
-.
-format
-(
 sys
 .
 platform
-)
+}
+"
 )
 #
 Map

@@ -1813,9 +1813,6 @@ noinspection
 PyUnusedLocal
 class
 BuildOptionParser
-(
-object
-)
 :
     
 #
@@ -5964,18 +5961,15 @@ self
 .
 info
 (
+f
 "
 Use
 mozconfig
 :
 {
+abs_mozconfig_path
 }
 "
-.
-format
-(
-abs_mozconfig_path
-)
 )
         
 #
@@ -7882,9 +7876,6 @@ with
 open
 (
 p
-"
-r
-"
 )
 as
 fh
@@ -8337,9 +8328,6 @@ with
 open
 (
 stats_file
-"
-r
-"
 )
 as
 fh
@@ -11938,10 +11926,12 @@ else
             
 err
 =
+f
 "
 Build
 platform
 {
+build_platform
 }
 didn
 '
@@ -11965,13 +11955,6 @@ or
 ios
 '
 "
-.
-format
-(
-                
-build_platform
-            
-)
             
 self
 .

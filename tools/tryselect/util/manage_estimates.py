@@ -462,7 +462,7 @@ window
         
 print
 (
-            
+f
 "
 Error
 fetching
@@ -471,20 +471,13 @@ duration
 cache
 from
 {
+TASK_DURATION_URL
 }
 :
 {
+exc
 }
 "
-.
-format
-(
-                
-TASK_DURATION_URL
-exc
-            
-)
-        
 )
         
 return
@@ -663,6 +656,7 @@ window
 print
 (
             
+f
 "
 Error
 fetching
@@ -671,19 +665,13 @@ group
 percentiles
 from
 {
+GRAPH_QUANTILES_URL
 }
 :
 {
+exc
 }
 "
-.
-format
-(
-                
-GRAPH_QUANTILES_URL
-exc
-            
-)
         
 )
         

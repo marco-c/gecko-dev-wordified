@@ -1090,31 +1090,25 @@ cargo_version
 {
 }
                 
+f
 "
 Cargo
 >
 =
 {
-0
+minimum_rust_version
 }
 required
 (
 install
 Rust
 {
-0
+minimum_rust_version
 }
 or
 newer
 )
 "
-.
-format
-(
-                    
-minimum_rust_version
-                
-)
             
 )
             
@@ -2892,7 +2886,6 @@ self
 .
 log
 (
-                
 logging
 .
 DEBUG
@@ -2901,18 +2894,14 @@ package_license
 "
 {
 }
+f
 "
 has
 license
 {
+license
 }
 "
-.
-format
-(
-license
-)
-            
 )
             
 if
@@ -2951,11 +2940,13 @@ package_license_error
 {
 }
                         
+f
 "
 "
 "
 Package
 {
+package
 }
 has
 a
@@ -2965,6 +2956,7 @@ approved
 license
 :
 {
+license
 }
 .
     
@@ -3002,14 +2994,6 @@ licenses
 "
 "
 "
-.
-format
-(
-                            
-package
-license
-                        
-)
                     
 )
                     
@@ -3044,11 +3028,13 @@ package_license_error
 {
 }
                         
+f
 "
 "
 "
 Package
 {
+package
 }
 has
 a
@@ -3064,6 +3050,7 @@ dependencies
 :
     
 {
+license
 }
     
 but
@@ -3142,14 +3129,6 @@ licenses
 "
 "
 "
-.
-format
-(
-                            
-package
-license
-                        
-)
                     
 )
                     
@@ -3187,18 +3166,15 @@ package_check
 {
 }
                 
+f
 "
 Checking
 license
 for
 {
+package_name
 }
 "
-.
-format
-(
-package_name
-)
             
 )
             
@@ -3318,9 +3294,11 @@ package_invalid_license_format
 {
 }
                     
+f
 "
 package
 {
+package_name
 }
 has
 an
@@ -3333,13 +3311,6 @@ a
 string
 )
 "
-.
-format
-(
-                        
-package_name
-                    
-)
                 
 )
                 
@@ -3377,9 +3348,11 @@ package_invalid_license_format
 {
 }
                     
+f
 "
 package
 {
+package_name
 }
 has
 an
@@ -3394,13 +3367,6 @@ a
 string
 )
 "
-.
-format
-(
-                        
-package_name
-                    
-)
                 
 )
                 
@@ -3448,9 +3414,11 @@ package_no_license
 {
 }
                     
+f
 "
 package
 {
+package_name
 }
 does
 not
@@ -3458,11 +3426,6 @@ provide
 a
 license
 "
-.
-format
-(
-package_name
-)
                 
 )
                 
@@ -3527,20 +3490,17 @@ package_many_licenses
 {
 }
                     
+f
 "
 package
 {
+package_name
 }
 provides
 too
 many
 licenses
 "
-.
-format
-(
-package_name
-)
                 
 )
                 
@@ -3593,6 +3553,7 @@ package_license_file
 {
 }
                 
+f
 "
 package
 has
@@ -3600,13 +3561,9 @@ license
 -
 file
 {
+license_file
 }
 "
-.
-format
-(
-license_file
-)
             
 )
             
@@ -3635,11 +3592,13 @@ package_license_file_unknown
 {
 }
                     
+f
 "
 "
 "
 Package
 {
+package_name
 }
 has
 an
@@ -3648,6 +3607,7 @@ license
 file
 :
 {
+license_file
 }
 .
 Please
@@ -3678,14 +3638,6 @@ suitable
 "
 "
 "
-.
-format
-(
-                        
-package_name
-license_file
-                    
-)
                 
 )
                 
@@ -3764,11 +3716,13 @@ package_license_file_mismatch
 {
 }
                     
+f
 "
 "
 "
 Package
 {
+package_name
 }
 has
 changed
@@ -3777,10 +3731,12 @@ license
 file
 :
 {
+license_file
 }
 (
 hash
 {
+current_hash
 }
 )
 .
@@ -3806,15 +3762,6 @@ hash
 "
 "
 "
-.
-format
-(
-                        
-package_name
-license_file
-current_hash
-                    
-)
                 
 )
                 
@@ -6579,6 +6526,7 @@ license_check_failed
 {
 }
                 
+f
 "
 "
 "
@@ -6597,20 +6545,11 @@ version
 control
 .
 {
-notice
+CARGO_LOCK_NOTICE
 }
 "
 "
 "
-.
-format
-(
-                    
-notice
-=
-CARGO_LOCK_NOTICE
-                
-)
             
 )
             
@@ -6967,6 +6906,7 @@ filesize_check
 {
 }
                 
+f
 "
 "
 "
@@ -6974,7 +6914,7 @@ Your
 changes
 add
 {
-size
+cumulative_added_size
 }
 bytes
 of
@@ -7035,15 +6975,6 @@ publishing
 "
 "
 "
-.
-format
-(
-                    
-size
-=
-cumulative_added_size
-                
-)
             
 )
         

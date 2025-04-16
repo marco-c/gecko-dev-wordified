@@ -99,9 +99,6 @@ get_proxy_logger
 )
 class
 Output
-(
-object
-)
 :
     
 "

@@ -212,9 +212,6 @@ UNKNOWN_RETURNCODE
 ProcessHandler
 class
 GeckoInstance
-(
-object
-)
 :
     
 required_prefs
@@ -2105,23 +2102,20 @@ path
                 
 fname
 =
+f
 "
 gecko
 -
 {
+time
+.
+time
+(
+)
 }
 .
 log
 "
-.
-format
-(
-time
-.
-time
-(
-)
-)
                 
 path
 =
@@ -2404,14 +2398,10 @@ mkdtemp
                     
 suffix
 =
+f
 "
 .
 {
-}
-"
-.
-format
-(
 profile_name
 or
 os
@@ -2422,7 +2412,8 @@ basename
 (
 profile_path
 )
-)
+}
+"
                     
 dir
 =
@@ -3033,11 +3024,12 @@ exc_info
             
 msg
 =
+f
 '
 Application
 "
 {
-0
+app
 }
 "
 unknown
@@ -3047,15 +3039,6 @@ be
 one
 of
 {
-1
-}
-)
-'
-.
-format
-(
-                
-app
 list
 (
 apps
@@ -3064,8 +3047,9 @@ keys
 (
 )
 )
-            
+}
 )
+'
             
 raise
 NotImplementedError
@@ -4346,6 +4330,7 @@ raise
 exc_cls
 (
                 
+f
 "
 Error
 possibly
@@ -4357,13 +4342,9 @@ device
 args
 :
 {
+exc
 }
 "
-.
-format
-(
-exc
-)
             
 )
 .
@@ -4390,35 +4371,29 @@ forward
             
 local
 =
+f
 "
 tcp
 :
 {
-}
-"
-.
-format
-(
 self
 .
 marionette_port
-)
+}
+"
             
 remote
 =
+f
 "
 tcp
 :
 {
-}
-"
-.
-format
-(
 self
 .
 marionette_port
-)
+}
+"
         
 )
     
@@ -4694,21 +4669,16 @@ device
 .
 remove_forwards
 (
-                    
+f
 "
 tcp
 :
 {
-}
-"
-.
-format
-(
 self
 .
 marionette_port
-)
-                
+}
+"
 )
                 
 self
@@ -5718,9 +5688,6 @@ thunderbird_prefs
 )
 class
 NullOutput
-(
-object
-)
 :
     
 def

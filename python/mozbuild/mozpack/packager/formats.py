@@ -444,9 +444,6 @@ data
 "
 class
 PiecemealFormatter
-(
-object
-)
 :
     
 "
@@ -880,9 +877,6 @@ copier
 )
 class
 FlatSubFormatter
-(
-object
-)
 :
     
 "

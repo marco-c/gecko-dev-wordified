@@ -110,9 +110,6 @@ as
 DefaultCounterManager
 class
 CounterManagement
-(
-object
-)
 :
     
 def

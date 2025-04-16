@@ -338,24 +338,21 @@ self
 :
         
 return
+f
 "
 Binary
 expected
 at
 {
+self
+.
+path
 }
 does
 not
 exist
 .
 "
-.
-format
-(
-self
-.
-path
-)
     
 def
 help
@@ -882,9 +879,6 @@ load
 open
 (
 path
-"
-rt
-"
 encoding
 =
 "
@@ -1475,9 +1469,6 @@ with
 open
 (
 dep_file
-"
-r
-"
 encoding
 =
 "
@@ -1671,9 +1662,6 @@ with
 open
 (
 backend_file
-"
-r
-"
 encoding
 =
 "
@@ -6260,7 +6248,7 @@ open
 (
 logfile
 "
-wt
+w
 "
 )
                 
@@ -6359,9 +6347,6 @@ argv
 )
 class
 MachCommandConditions
-(
-object
-)
 :
     
 "
@@ -7080,16 +7065,13 @@ attr
 getattr
 (
 MachCommandConditions
+f
 "
 is_
 {
+app
 }
 "
-.
-format
-(
-app
-)
 None
 )
             
@@ -7109,9 +7091,6 @@ return
 False
 class
 PathArgument
-(
-object
-)
 :
     
 "

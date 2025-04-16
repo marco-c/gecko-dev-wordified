@@ -1748,9 +1748,11 @@ aliases
 !
 "
                 
+f
 "
 (
 {
+worker_type_alias
 }
 not
 found
@@ -1758,11 +1760,6 @@ in
 mapping
 )
 "
-.
-format
-(
-worker_type_alias
-)
             
 )
             

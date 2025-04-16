@@ -133,20 +133,17 @@ pytest
 .
 skip
 (
+f
 "
 terminal
 '
 {
+kind
 }
 '
 not
 found
 "
-.
-format
-(
-kind
-)
 )
     
 return

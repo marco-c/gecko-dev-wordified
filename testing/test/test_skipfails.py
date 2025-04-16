@@ -8027,9 +8027,6 @@ manifest_str
 open
 (
 manifest_path
-"
-r
-"
 encoding
 =
 "
@@ -8065,9 +8062,6 @@ after_str
 open
 (
 after_path
-"
-r
-"
 encoding
 =
 "
@@ -8204,9 +8198,6 @@ manifest_str
 open
 (
 manifest_path
-"
-r
-"
 encoding
 =
 "
@@ -8242,9 +8233,6 @@ after_str
 open
 (
 after_path
-"
-r
-"
 encoding
 =
 "
@@ -8386,9 +8374,6 @@ manifest_str
 open
 (
 manifest_path
-"
-r
-"
 encoding
 =
 "
@@ -8424,9 +8409,6 @@ after_str
 open
 (
 after_path
-"
-r
-"
 encoding
 =
 "
@@ -8653,9 +8635,6 @@ manifest_str
 open
 (
 manifest_path
-"
-r
-"
 encoding
 =
 "
@@ -8691,9 +8670,6 @@ after_str
 open
 (
 after_path
-"
-r
-"
 encoding
 =
 "
@@ -8872,9 +8848,6 @@ manifest_str
 open
 (
 manifest_path
-"
-r
-"
 encoding
 =
 "
@@ -8910,9 +8883,6 @@ after_str
 open
 (
 after_path
-"
-r
-"
 encoding
 =
 "
@@ -9070,9 +9040,6 @@ manifest_str
 open
 (
 manifest_path
-"
-r
-"
 encoding
 =
 "
@@ -9108,9 +9075,6 @@ after_str
 open
 (
 after_path
-"
-r
-"
 encoding
 =
 "
@@ -9317,9 +9281,6 @@ manifest_str
 open
 (
 manifest_path
-"
-r
-"
 encoding
 =
 "
@@ -9355,9 +9316,6 @@ after_str
 open
 (
 after_path
-"
-r
-"
 encoding
 =
 "
@@ -9571,9 +9529,6 @@ manifest_str
 open
 (
 manifest_path
-"
-r
-"
 encoding
 =
 "
@@ -9609,9 +9564,6 @@ after_str
 open
 (
 after_path
-"
-r
-"
 encoding
 =
 "
@@ -9830,9 +9782,6 @@ manifest_str
 open
 (
 manifest_path
-"
-r
-"
 encoding
 =
 "
@@ -9868,9 +9817,6 @@ after_str
 open
 (
 after_path
-"
-r
-"
 encoding
 =
 "
@@ -10157,9 +10103,6 @@ manifest_str
 open
 (
 manifest_path
-"
-r
-"
 encoding
 =
 "
@@ -10195,9 +10138,6 @@ after_str
 open
 (
 after_path
-"
-r
-"
 encoding
 =
 "
@@ -10425,9 +10365,6 @@ manifest_str
 open
 (
 manifest_path
-"
-r
-"
 encoding
 =
 "
@@ -11500,9 +11437,6 @@ manifest_before
 open
 (
 manifest_before_path
-"
-r
-"
 encoding
 =
 "
@@ -11583,9 +11517,6 @@ manifest_after
 open
 (
 manifest_after_path
-"
-r
-"
 encoding
 =
 "
@@ -12025,9 +11956,6 @@ manifest_str
 open
 (
 manifest_path
-"
-r
-"
 encoding
 =
 "

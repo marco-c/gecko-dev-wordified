@@ -1863,7 +1863,7 @@ open
 (
 source
 "
-wt
+w
 "
 )
 as
@@ -2027,7 +2027,7 @@ open
 (
 source
 "
-wt
+w
 "
 )
 as
@@ -2464,7 +2464,7 @@ open
 (
 source
 "
-wt
+w
 "
 )
 as
@@ -2645,7 +2645,7 @@ open
 (
 source
 "
-wt
+w
 "
 )
 as
@@ -7666,9 +7666,6 @@ readlines
 )
 class
 MatchTestTemplate
-(
-object
-)
 :
     
 def

@@ -951,7 +951,7 @@ error
 .
 append
 (
-                    
+f
 "
 We
 do
@@ -959,6 +959,7 @@ not
 want
 these
 {
+lib
 }
 symbol
 versions
@@ -967,12 +968,6 @@ be
 used
 :
 "
-.
-format
-(
-lib
-)
-                
 )
                 
 error
@@ -1822,6 +1817,7 @@ MOZ_AUTOMATION
         
 print
 (
+f
 "
 TEST
 -
@@ -1830,13 +1826,9 @@ PASS
 check_networking
 |
 {
+basename
 }
 "
-.
-format
-(
-basename
-)
 )
     
 return
@@ -2020,23 +2012,20 @@ MOZ_AUTOMATION
                 
 print
 (
+f
 "
 TEST
 -
 PASS
 |
 {
+name
 }
 |
 {
+basename
 }
 "
-.
-format
-(
-name
-basename
-)
 )
         
 except
@@ -2054,6 +2043,7 @@ e
 print
 (
                 
+f
 "
 TEST
 -
@@ -2062,24 +2052,20 @@ UNEXPECTED
 FAIL
 |
 {
-}
-|
-{
-}
-|
-{
-}
-"
-.
-format
-(
 name
+}
+|
+{
 basename
+}
+|
+{
 str
 (
 e
 )
-)
+}
+"
                 
 file
 =

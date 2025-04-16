@@ -96,9 +96,6 @@ get_proxy_logger
 )
 class
 ProcessContext
-(
-object
-)
 :
     
 "
@@ -267,37 +264,31 @@ LOG
 debug
 (
                 
-(
-                    
+f
 "
 Launcher
 process
 {
+parentProc
 }
 detected
 .
 Terminating
 parent
 "
-                    
+                
+f
 "
 process
 {
-}
-instead
-.
-"
-                
-)
-.
-format
-(
-parentProc
 kids
 [
 0
 ]
-)
+}
+instead
+.
+"
             
 )
             
@@ -437,9 +428,6 @@ wait
 )
 class
 Reader
-(
-object
-)
 :
     
 def
@@ -1227,6 +1215,7 @@ LOG
 info
 (
                     
+f
 "
 Browser
 shutdown
@@ -1234,7 +1223,7 @@ timed
 out
 after
 {
-0
+wait_for_quit_timeout
 }
 seconds
 killing
@@ -1244,11 +1233,6 @@ killing
 process
 .
 "
-.
-format
-(
-wait_for_quit_timeout
-)
                 
 )
                 
@@ -1267,6 +1251,7 @@ raise
 TalosError
 (
                     
+f
 "
 Browser
 shutdown
@@ -1274,7 +1259,7 @@ timed
 out
 after
 {
-0
+wait_for_quit_timeout
 }
 seconds
 killed
@@ -1284,11 +1269,6 @@ killed
 process
 .
 "
-.
-format
-(
-wait_for_quit_timeout
-)
                 
 )
         
@@ -1817,37 +1797,31 @@ LOG
 debug
 (
                 
-(
-                    
+f
 "
 Launcher
 process
 {
+proc
 }
 detected
 .
 Killing
 parent
 "
-                    
+                
+f
 "
 process
 {
-}
-instead
-.
-"
-                
-)
-.
-format
-(
-proc
 kids
 [
 0
 ]
-)
+}
+instead
+.
+"
             
 )
             

@@ -104,9 +104,6 @@ buildid
 open
 (
 path
-"
-r
-"
 encoding
 =
 "

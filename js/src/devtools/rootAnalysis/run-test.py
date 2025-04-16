@@ -963,17 +963,14 @@ xdb
     
 print
 (
+f
 "
 START
 TEST
 {
+name
 }
 "
-.
-format
-(
-name
-)
 flush
 =
 True

@@ -1064,12 +1064,14 @@ get_url
             
 message
 =
+f
 "
 The
 expected
 URL
 '
 {
+expected_url
 }
 '
 has
@@ -1077,11 +1079,6 @@ not
 been
 loaded
 "
-.
-format
-(
-expected_url
-)
         
 )
         

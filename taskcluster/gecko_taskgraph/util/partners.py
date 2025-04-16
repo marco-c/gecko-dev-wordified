@@ -4629,18 +4629,15 @@ output
         
 create_dir_command
 =
+f
 "
 mkdir
 -
 p
 {
+output_dir
 }
 "
-.
-format
-(
-output_dir
-)
         
 if
 create_dir_command
@@ -4735,20 +4732,15 @@ attribution_code
     
 attribution_string
 =
+f
 "
 {
-}
-{
-}
-"
-.
-format
-(
-        
 MACOS_ATTRIBUTION_SENTINEL
+}
+{
 quoted_attribution_code
-    
-)
+}
+"
     
 #
 Padding
@@ -4780,17 +4772,14 @@ attribution_string
 )
     
 return
+f
 "
 '
 {
+padded_attribution_string
 }
 '
 "
-.
-format
-(
-padded_attribution_string
-)
 def
 _pad_macos_attribution_code
 (

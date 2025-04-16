@@ -1413,9 +1413,6 @@ mode
 )
 class
 ResultRecorder
-(
-object
-)
 :
     
 def
@@ -1795,9 +1792,6 @@ stack
 )
 class
 TemporaryDirectory
-(
-object
-)
 :
     
 def

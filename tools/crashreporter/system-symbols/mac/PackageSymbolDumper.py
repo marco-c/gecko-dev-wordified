@@ -901,17 +901,14 @@ logging
 .
 info
 (
+f
 "
 find_all_packages
 :
 {
+path
 }
 "
-.
-format
-(
-path
-)
 )
         
 for
@@ -1098,10 +1095,11 @@ subprocess
 check_call
 (
                 
+f
 '
 cd
 {
-dest
+output_path
 }
 &
 &
@@ -1111,7 +1109,7 @@ extract
 -
 dc
 {
-payload
+payload_path
 }
 |
 pax
@@ -1129,21 +1127,6 @@ s
 :
 "
 '
-.
-format
-(
-                    
-extract
-=
-extract
-payload
-=
-payload_path
-dest
-=
-output_path
-                
-)
                 
 shell
 =
@@ -1189,10 +1172,11 @@ subprocess
 check_call
 (
                 
+f
 '
 cd
 {
-dest
+output_path
 }
 &
 &
@@ -1202,7 +1186,7 @@ extract
 -
 dc
 {
-payload
+payload_path
 }
 |
 pax
@@ -1220,21 +1204,6 @@ s
 :
 "
 '
-.
-format
-(
-                    
-extract
-=
-extract
-payload
-=
-payload_path
-dest
-=
-output_path
-                
-)
                 
 shell
 =
@@ -1370,7 +1339,7 @@ logging
 .
 error
 (
-                
+f
 "
 Unknown
 payload
@@ -1378,29 +1347,22 @@ format
 :
 0x
 {
+header
+[
 0
+]
 :
 x
 }
 {
+header
+[
 1
+]
 :
 x
 }
 "
-.
-format
-(
-header
-[
-0
-]
-header
-[
-1
-]
-)
-            
 )
             
 return
@@ -1425,6 +1387,7 @@ logging
 .
 error
 (
+f
 '
 Could
 not
@@ -1436,19 +1399,9 @@ path
 "
 :
 {
-info
+excinfo
 }
 '
-.
-format
-(
-path
-=
-path
-info
-=
-excinfo
-)
 )
 def
 write_symbol_file
@@ -1816,22 +1769,16 @@ logging
 .
 info
 (
+f
 "
 Extracting
 payload
 to
 {
-path
+temp_dir
 }
 .
 "
-.
-format
-(
-path
-=
-temp_dir
-)
 )
         
 if
@@ -2176,6 +2123,7 @@ logging
 .
 error
 (
+f
 "
 Exception
 while
@@ -2185,13 +2133,9 @@ from
 package
 :
 {
+e
 }
 "
-.
-format
-(
-e
-)
 )
         
 successful
@@ -2252,19 +2196,16 @@ logging
 .
 info
 (
+f
 "
 Reading
 processed
 packages
 from
 {
+tracking_file
 }
 "
-.
-format
-(
-tracking_file
-)
 )
     
 return
@@ -2273,9 +2214,6 @@ set
 open
 (
 tracking_file
-"
-r
-"
 )
 .
 read
@@ -2307,27 +2245,22 @@ logging
 info
 (
         
+f
 "
 Writing
 {
+len
+(
+processed_packages
+)
 }
 processed
 packages
 to
 {
+tracking_file
 }
 "
-.
-format
-(
-            
-len
-(
-processed_packages
-)
-tracking_file
-        
-)
     
 )
     
@@ -2398,6 +2331,7 @@ logging
 .
 info
 (
+f
 "
 Skipping
 already
@@ -2406,13 +2340,9 @@ processed
 package
 :
 {
+pkg
 }
 "
-.
-format
-(
-pkg
-)
 )
             
 else

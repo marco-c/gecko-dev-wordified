@@ -436,10 +436,14 @@ LOG
 .
 critical
 (
+f
 "
 test
 '
 {
+args
+.
+test
 }
 '
 could
@@ -448,18 +452,11 @@ be
 found
 for
 {
-}
-"
-.
-format
-(
-args
-.
-test
 args
 .
 app
-)
+}
+"
 )
         
 sys

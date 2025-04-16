@@ -302,6 +302,7 @@ output
 write
 (
         
+f
 "
 "
 "
@@ -344,7 +345,7 @@ SECTION_NAME_ATTRIBUTE
 #
 endif
 {
-extern
+keyword_extern
 }
 const
 char
@@ -353,7 +354,7 @@ gToolkitBuildID
 ]
 SECTION_NAME_ATTRIBUTE
 {
-used
+attribute_used
 }
 =
 "
@@ -365,23 +366,6 @@ buildid
 "
 "
 "
-.
-format
-(
-            
-extern
-=
-keyword_extern
-            
-used
-=
-attribute_used
-            
-buildid
-=
-buildid
-        
-)
     
 )
     

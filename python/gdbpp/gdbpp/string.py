@@ -133,9 +133,6 @@ nsTString
 )
 class
 string_printer
-(
-object
-)
 :
     
 def

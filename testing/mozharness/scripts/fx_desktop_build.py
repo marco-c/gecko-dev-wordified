@@ -148,7 +148,6 @@ class
 FxDesktopBuild
 (
 BuildScript
-object
 )
 :
     

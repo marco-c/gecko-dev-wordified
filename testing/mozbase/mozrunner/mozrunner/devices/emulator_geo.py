@@ -55,9 +55,6 @@ MPL
 .
 class
 EmulatorGeo
-(
-object
-)
 :
     
 def

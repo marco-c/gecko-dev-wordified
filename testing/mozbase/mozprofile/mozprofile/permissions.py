@@ -513,9 +513,6 @@ return
 s
 class
 Location
-(
-object
-)
 :
     
 "
@@ -775,9 +772,6 @@ options
 )
 class
 ServerLocations
-(
-object
-)
 :
     
 "
@@ -1398,9 +1392,6 @@ MissingPrimaryLocationError
 )
 class
 Permissions
-(
-object
-)
 :
     
 "
@@ -1628,6 +1619,7 @@ mode
                 
 trrUri
 =
+f
 "
 https
 :
@@ -1640,17 +1632,13 @@ example
 com
 :
 {
+dohServerPort
 }
 /
 dns
 -
 query
 "
-.
-format
-(
-dohServerPort
-)
                 
 user_prefs
 .

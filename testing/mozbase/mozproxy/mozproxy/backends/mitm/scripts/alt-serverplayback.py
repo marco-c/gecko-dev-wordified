@@ -1741,6 +1741,7 @@ log
 warn
 (
                     
+f
 "
 server_playback
 :
@@ -1750,19 +1751,13 @@ non
 replay
 request
 {
-}
-"
-.
-format
-(
-                        
 f
 .
 request
 .
 url
-                    
-)
+}
+"
                 
 )
                 

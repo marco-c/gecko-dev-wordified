@@ -3165,20 +3165,17 @@ refTestOptions
 extend
 (
                     
+f
 "
 shell
 -
 option
 (
 {
+opt
 }
 )
 "
-.
-format
-(
-opt
-)
 for
 opt
 in
@@ -3268,20 +3265,17 @@ refTestOptions
 extend
 (
             
+f
 "
 shell
 -
 option
 (
 {
+opt
 }
 )
 "
-.
-format
-(
-opt
-)
 for
 opt
 in

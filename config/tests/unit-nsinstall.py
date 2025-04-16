@@ -1110,7 +1110,6 @@ self
 .
 assertEqual
 (
-            
 nsinstall
 (
 [
@@ -1118,24 +1117,19 @@ nsinstall
 -
 m
 "
+f
 "
 {
-0
+mode
 :
 04o
 }
 "
-.
-format
-(
-mode
-)
 testfile
 testdir
 ]
 )
 0
-        
 )
         
 destfile

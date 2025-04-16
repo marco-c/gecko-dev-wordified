@@ -489,9 +489,6 @@ with
 open
 (
 prefs_file
-"
-r
-"
 )
 as
 fh

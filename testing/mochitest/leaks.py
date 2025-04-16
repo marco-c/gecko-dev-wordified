@@ -130,9 +130,6 @@ DOMWINDOW
 )
 class
 ShutdownLeaks
-(
-object
-)
 :
     
 "
@@ -2160,9 +2157,6 @@ xhtml
 "
 class
 LSANLeaks
-(
-object
-)
 :
     
 "

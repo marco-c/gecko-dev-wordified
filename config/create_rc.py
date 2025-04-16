@@ -573,9 +573,6 @@ do_include
 open
 (
 path
-"
-r
-"
 encoding
 =
 "
@@ -2131,6 +2128,7 @@ rcinclude
         
 include
 =
+f
 "
 /
 /
@@ -2138,17 +2136,11 @@ From
 included
 resource
 {
+rcinclude
 }
 \
 n
 {
-}
-"
-.
-format
-(
-            
-rcinclude
 preprocess
 (
 rcinclude
@@ -2158,8 +2150,8 @@ defines
 read
 (
 )
-        
-)
+}
+"
     
 else
 :
@@ -2486,25 +2478,22 @@ replace
 data
 +
 =
+f
 '
 \
 n
 {
+manifest_id
 }
 RT_MANIFEST
 "
 {
+manifest_path
 }
 "
 \
 n
 '
-.
-format
-(
-manifest_id
-manifest_path
-)
     
 with
 open

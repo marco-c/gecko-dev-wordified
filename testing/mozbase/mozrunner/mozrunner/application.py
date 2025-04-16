@@ -184,9 +184,6 @@ appname
 ]
 class
 DefaultContext
-(
-object
-)
 :
     
 profile_class
@@ -200,9 +197,6 @@ ABCMeta
 )
 class
 RemoteContext
-(
-object
-)
 :
     
 device
@@ -880,9 +874,6 @@ self
 _remote_profiles_ini
 class
 FirefoxContext
-(
-object
-)
 :
     
 profile_class
@@ -890,9 +881,6 @@ profile_class
 FirefoxProfile
 class
 ThunderbirdContext
-(
-object
-)
 :
     
 profile_class
@@ -900,9 +888,6 @@ profile_class
 ThunderbirdProfile
 class
 ChromeContext
-(
-object
-)
 :
     
 profile_class
@@ -910,9 +895,6 @@ profile_class
 ChromeProfile
 class
 ChromiumContext
-(
-object
-)
 :
     
 profile_class

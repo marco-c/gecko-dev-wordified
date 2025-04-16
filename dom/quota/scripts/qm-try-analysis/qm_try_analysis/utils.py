@@ -79,9 +79,6 @@ f
 open
 (
 FileName
-"
-r
-"
 )
     
 p
@@ -435,19 +432,16 @@ workdir
     
 exefile
 =
+f
 "
 {
+workdir
 }
 /
 qmexecutions
 .
 json
 "
-.
-format
-(
-workdir
-)
     
 try
 :
@@ -475,19 +469,16 @@ executions
     
 exefile
 =
+f
 "
 {
+workdir
 }
 /
 qmexecutions
 .
 json
 "
-.
-format
-(
-workdir
-)
     
 try
 :

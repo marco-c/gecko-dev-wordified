@@ -320,6 +320,7 @@ candidate
 raise
 Exception
 (
+f
 "
 Can
 '
@@ -329,13 +330,9 @@ gkrust_uniffi
 library
 in
 {
+out_dir
 }
 "
-.
-format
-(
-out_dir
-)
 )
 def
 build_uniffi_bindgen_gecko_js

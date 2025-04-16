@@ -2761,19 +2761,16 @@ unofficial
 raise
 Exception
 (
+f
 "
 channel
 is
 unrecognized
 :
 {
+channel
 }
 "
-.
-format
-(
-channel
-)
 )
     
 #
@@ -2820,7 +2817,7 @@ keys
 raise
 Exception
 (
-            
+f
 "
 arch
 name
@@ -2831,19 +2828,14 @@ and
 one
 of
 {
-}
-.
-"
-.
-format
-(
 _MSIX_ARCH
 .
 keys
 (
 )
-)
-        
+}
+.
+"
 )
     
 if
@@ -2861,18 +2853,15 @@ dir_or_package
 raise
 Exception
 (
+f
 "
 {
+dir_or_package
 }
 does
 not
 exist
 "
-.
-format
-(
-dir_or_package
-)
 )
     
 if
@@ -3115,16 +3104,13 @@ displayname
         
 displayname
 =
+f
 "
 Mozilla
 {
+first
 }
 "
-.
-format
-(
-first
-)
         
 if
 channel
@@ -3617,20 +3603,17 @@ branding
 raise
 Exception
 (
+f
 "
 branding
 dir
 {
+branding
 }
 does
 not
 exist
 "
-.
-format
-(
-branding
-)
 )
     
 template
@@ -3758,7 +3741,6 @@ mozpath
 .
 join
 (
-            
 get_state_dir
 (
 )
@@ -3770,20 +3752,16 @@ mach
 -
 msix
 "
+f
 "
 msix
 -
 temp
 -
 {
+channel
 }
 "
-.
-format
-(
-channel
-)
-        
 )
     
 )
@@ -3855,17 +3833,14 @@ builds
     
 instdir
 =
+f
 "
 {
+displayname
 }
 Package
 Root
 "
-.
-format
-(
-displayname
-)
     
 #
 The
@@ -3885,19 +3860,16 @@ identity
 =
 identity
 or
+f
 "
 {
-}
-.
-{
-}
-"
-.
-format
-(
 vendor
+}
+.
+{
 displayname
-)
+}
+"
 .
 replace
 (
@@ -3975,6 +3947,7 @@ name
     
 package_output_name
 =
+f
 "
 {
 identity
@@ -3985,27 +3958,12 @@ version
 }
 _
 {
-arch
-}
-"
-.
-format
-(
-        
-identity
-=
-identity
-version
-=
-version
-arch
-=
 _MSIX_ARCH
 [
 arch
 ]
-    
-)
+}
+"
     
 #
 The
@@ -4041,17 +3999,14 @@ mach
 -
 msix
 "
+f
 "
 {
+package_output_name
 }
 .
 msix
 "
-.
-format
-(
-package_output_name
-)
         
 )
     
@@ -6427,17 +6382,14 @@ mach
 msix
 "
         
+f
 "
 {
+friendly_name
 }
 .
 crt
 "
-.
-format
-(
-friendly_name
-)
 .
 replace
 (
@@ -6556,6 +6508,7 @@ crt_path
 crt_path
 }
             
+f
 "
 Creating
 new
@@ -6565,13 +6518,9 @@ certificate
 at
 :
 {
+crt_path
 }
 "
-.
-format
-(
-crt_path
-)
         
 )
         
@@ -6591,8 +6540,6 @@ in
 powershell
 (
                 
-(
-                    
 r
 "
 Get
@@ -6607,7 +6554,8 @@ CurrentUser
 \
 My
 "
-                    
+                
+f
 '
 |
 Where
@@ -6622,12 +6570,14 @@ Subject
 Match
 "
 {
+vendor
 }
 "
 }
 }
 '
-                    
+                
+f
 '
 |
 Where
@@ -6642,12 +6592,13 @@ FriendlyName
 Match
 "
 {
+friendly_name
 }
 "
 }
 }
 '
-                    
+                
 "
 |
 Select
@@ -6657,14 +6608,6 @@ Object
 ExpandProperty
 Thumbprint
 "
-                
-)
-.
-format
-(
-vendor
-friendly_name
-)
             
 )
 .
@@ -6687,6 +6630,7 @@ raise
 Exception
 (
                 
+f
 "
 Multiple
 certificates
@@ -6696,15 +6640,9 @@ name
 found
 :
 {
+friendly_name
 }
 "
-.
-format
-(
-                    
-friendly_name
-                
-)
             
 )
         
@@ -6746,8 +6684,7 @@ thumbprint
 powershell
 (
                     
-(
-                        
+f
 '
 New
 -
@@ -6759,10 +6696,12 @@ Custom
 Subject
 "
 {
+publisher
 }
 "
 '
-                        
+                    
+f
 '
 -
 KeyUsage
@@ -6771,10 +6710,11 @@ DigitalSignature
 FriendlyName
 "
 {
+friendly_name
 }
 "
 '
-                        
+                    
 r
 "
 -
@@ -6786,7 +6726,7 @@ CurrentUser
 \
 My
 "
-                        
+                    
 '
 -
 TextExtension
@@ -6801,9 +6741,7 @@ TextExtension
 37
 =
 {
-{
 text
-}
 }
 1
 .
@@ -6824,7 +6762,7 @@ text
 3
 "
 '
-                        
+                    
 '
 "
 2
@@ -6836,14 +6774,12 @@ text
 19
 =
 {
-{
 text
-}
 }
 "
 )
 '
-                        
+                    
 "
 |
 Select
@@ -6853,14 +6789,6 @@ Object
 ExpandProperty
 Thumbprint
 "
-                    
-)
-.
-format
-(
-publisher
-friendly_name
-)
                 
 )
                 
@@ -6885,6 +6813,7 @@ raise
 Exception
 (
                 
+f
 "
 Failed
 to
@@ -6897,22 +6826,16 @@ friendly
 name
 :
 {
+friendly_name
 }
 "
-.
-format
-(
-                    
-friendly_name
-                
-)
             
 )
         
 powershell
 (
             
-r
+rf
 '
 Export
 -
@@ -6927,22 +6850,16 @@ CurrentUser
 My
 \
 {
+thumbprint
 }
 -
 FilePath
 "
 {
+crt_path
 }
 "
 '
-.
-format
-(
-                
-thumbprint
-crt_path
-            
-)
         
 )
         
@@ -6980,9 +6897,7 @@ crt_path
 powershell
 (
             
-(
-                
-r
+rf
 '
 Export
 -
@@ -6997,15 +6912,18 @@ CurrentUser
 My
 \
 {
+thumbprint
 }
 -
 FilePath
 "
 {
+pfx_path
 }
 "
 '
-                
+            
+f
 '
 -
 Password
@@ -7017,6 +6935,7 @@ SecureString
 String
 "
 {
+password
 }
 "
 -
@@ -7025,15 +6944,6 @@ Force
 AsPlainText
 )
 '
-            
-)
-.
-format
-(
-thumbprint
-pfx_path
-password
-)
         
 )
         
@@ -7147,6 +7057,7 @@ in
 powershell
 (
             
+f
 '
 Get
 -
@@ -7155,6 +7066,7 @@ PfxCertificate
 FilePath
 "
 {
+crt_path
 }
 "
 |
@@ -7165,13 +7077,6 @@ Object
 ExpandProperty
 Thumbprint
 '
-.
-format
-(
-                
-crt_path
-            
-)
         
 )
 .
@@ -7193,6 +7098,7 @@ thumbprints
 raise
 Exception
 (
+f
 "
 Multiple
 thumbprints
@@ -7201,13 +7107,9 @@ for
 PFX
 :
 {
+pfx_path
 }
 "
-.
-format
-(
-pfx_path
-)
 )
     
 if
@@ -7223,6 +7125,7 @@ thumbprints
 raise
 Exception
 (
+f
 "
 No
 thumbprints
@@ -7231,13 +7134,9 @@ for
 PFX
 :
 {
+pfx_path
 }
 "
-.
-format
-(
-pfx_path
-)
 )
     
 thumbprint
@@ -7443,7 +7342,7 @@ in
 powershell
 (
                 
-r
+rf
 "
 Get
 -
@@ -7458,6 +7357,7 @@ LocalMachine
 Root
 \
 {
+thumbprint
 }
 "
                 
@@ -7470,11 +7370,6 @@ Object
 ExpandProperty
 Thumbprint
 "
-.
-format
-(
-thumbprint
-)
                 
 check
 =
@@ -8120,17 +8015,14 @@ join
         
 cache_dir
         
+f
 "
 {
+friendly_name
 }
 .
 pfx
 "
-.
-format
-(
-friendly_name
-)
 .
 replace
 (
@@ -8194,6 +8086,7 @@ pfx_path
 pfx_path
 }
             
+f
 "
 Creating
 new
@@ -8203,13 +8096,9 @@ certificate
 at
 :
 {
+pfx_path
 }
 "
-.
-format
-(
-pfx_path
-)
         
 )
         

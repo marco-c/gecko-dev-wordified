@@ -83,9 +83,6 @@ as
 urlparse
 class
 FOGPingServer
-(
-object
-)
 :
     
 "

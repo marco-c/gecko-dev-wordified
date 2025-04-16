@@ -55,9 +55,6 @@ MPL
 .
 class
 EmulatorScreen
-(
-object
-)
 :
     
 "

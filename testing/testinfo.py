@@ -198,9 +198,6 @@ obj
 )
 class
 TestInfo
-(
-object
-)
 :
     
 "
@@ -3386,9 +3383,6 @@ with
 open
 (
 runcounts_input_file
-"
-r
-"
 )
 as
 f
@@ -5487,27 +5481,22 @@ manifest_paths
         
 print
 (
-            
+f
 "
 Resolver
 found
 {
-}
-tests
-{
-}
-manifests
-"
-.
-format
-(
 len
 (
 tests
 )
+}
+tests
+{
 manifest_count
-)
-        
+}
+manifests
+"
 )
         
 if
@@ -5842,26 +5831,21 @@ bug_component
                         
 key
 =
+f
 "
 {
-}
-:
-:
-{
-}
-"
-.
-format
-(
-                            
 bug_component
 .
 product
+}
+:
+:
+{
 bug_component
 .
 component
-                        
-)
+}
+"
                     
 else
 :
@@ -6677,26 +6661,21 @@ bug_component
                         
 key
 =
+f
 "
 {
-}
-:
-:
-{
-}
-"
-.
-format
-(
-                            
 bug_component
 .
 product
+}
+:
+:
+{
 bug_component
 .
 component
-                        
-)
+}
+"
                     
 else
 :
@@ -8501,9 +8480,6 @@ with
 open
 (
 filename
-"
-r
-"
 )
 as
 f

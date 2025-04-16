@@ -437,6 +437,7 @@ outputVersion
 raise
 Exception
 (
+f
 "
 '
 version
@@ -447,16 +448,12 @@ isn
 t
 '
 {
+outputVersion
 :
 d
 }
 '
 "
-.
-format
-(
-outputVersion
-)
 )
     
 invocation
@@ -489,6 +486,7 @@ scan
 raise
 Exception
 (
+f
 "
 bad
 '
@@ -498,16 +496,12 @@ property
 :
 '
 {
+mode
 :
 s
 }
 '
 "
-.
-format
-(
-mode
-)
 )
     
 blockList

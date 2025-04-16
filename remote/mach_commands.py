@@ -620,16 +620,13 @@ f
 prefix
 "
             
+f
 "
 {
+puppeteer_dir
 }
 /
 "
-.
-format
-(
-puppeteer_dir
-)
             
 worktree
 =
@@ -1520,9 +1517,6 @@ msg
 )
 class
 MochaOutputHandler
-(
-object
-)
 :
     
 def
@@ -2029,18 +2023,13 @@ test_path
                 
 test_name
 =
+f
 "
 {
-}
-(
-{
-}
-)
-"
-.
-format
-(
 test_name
+}
+(
+{
 os
 .
 path
@@ -2049,7 +2038,9 @@ basename
 (
 test_path
 )
+}
 )
+"
             
 #
 mocha
@@ -2119,20 +2110,17 @@ return
             
 expected_name
 =
+f
 "
 [
 {
+test_file_name
 }
 ]
 {
+test_full_title
 }
 "
-.
-format
-(
-test_file_name
-test_full_title
-)
             
 expected_item
 =
@@ -2342,6 +2330,7 @@ logger
 warning
 (
                     
+f
 "
 Received
 a
@@ -2349,25 +2338,22 @@ second
 status
 for
 {
+test_name
 }
 :
 "
                     
+f
 "
 first
 {
+result_recorded
 }
 now
 {
+status
 }
 "
-.
-format
-(
-test_name
-result_recorded
-status
-)
                 
 )
             
@@ -2521,9 +2507,6 @@ Python
 7
 class
 TemporaryDirectory
-(
-object
-)
 :
     
 def
@@ -2557,28 +2540,25 @@ self
 :
         
 return
+f
 "
 <
 {
-}
-{
-!
-r
-}
->
-"
-.
-format
-(
 self
 .
 __class__
 .
 __name__
+}
+{
 self
 .
 path
-)
+!
+r
+}
+>
+"
     
 def
 __enter__
@@ -3364,23 +3344,20 @@ items
             
 print
 (
+f
 "
 Using
 extra
 preference
 :
 {
+k
 }
 =
 {
+v
 }
 "
-.
-format
-(
-k
-v
-)
 )
             
 prefs
@@ -4620,6 +4597,7 @@ logger
 .
 error
 (
+f
 "
 syntax
 error
@@ -4629,13 +4607,9 @@ in
 setpref
 =
 {
+s
 }
 "
-.
-format
-(
-s
-)
 )
             
 exit
@@ -4699,6 +4673,7 @@ logger
 .
 error
 (
+f
 "
 syntax
 error
@@ -4708,13 +4683,9 @@ in
 setopt
 =
 {
+s
 }
 "
-.
-format
-(
-s
-)
 )
             
 exit
@@ -5311,24 +5282,21 @@ strip
             
 print
 (
+f
 "
 {
-}
-:
-{
-}
-"
-.
-format
-(
 sys
 .
 argv
 [
 0
 ]
+}
+:
+{
 message
-)
+}
+"
 file
 =
 sys

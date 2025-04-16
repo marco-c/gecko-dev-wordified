@@ -260,9 +260,6 @@ MacOS
 X
 class
 ProcessHandlerMixin
-(
-object
-)
 :
     
 "
@@ -2744,9 +2741,6 @@ lst
 )
 class
 ProcessReader
-(
-object
-)
 :
     
 def
@@ -2873,6 +2867,7 @@ return
         
 print
 (
+f
 "
 DBG
 :
@@ -2881,13 +2876,9 @@ MARIONETTE
 ProcessReader
 |
 {
+msg
 }
 "
-.
-format
-(
-msg
-)
 file
 =
 sys
@@ -3522,9 +3513,6 @@ output
 line
 class
 StoreOutput
-(
-object
-)
 :
     
 "
@@ -3568,9 +3556,6 @@ line
 )
 class
 StreamOutput
-(
-object
-)
 :
     
 "

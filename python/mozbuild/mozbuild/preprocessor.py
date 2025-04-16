@@ -2045,32 +2045,25 @@ self
 :
             
 return
+f
 '
 Unexpected
 content
 at
 offset
 {
-0
-}
-"
-{
-1
-}
-"
-'
-.
-format
-(
-                
 self
 .
 offset
+}
+"
+{
 self
 .
 content
-            
-)
+}
+"
+'
 class
 Context
 (
@@ -2731,9 +2724,6 @@ msg
             
 class
 Fake
-(
-object
-)
 :
                 
 pass
@@ -2966,9 +2956,6 @@ else
             
 class
 NoMatch
-(
-object
-)
 :
                 
 def
@@ -3535,33 +3522,22 @@ out
 .
 write
 (
-                    
+f
 '
 /
 /
 line
 {
-line
+next_line
 }
 "
 {
-file
+next_file
 }
 "
 \
 n
 '
-.
-format
-(
-line
-=
-next_line
-file
-=
-next_file
-)
-                
 )
         
 self
@@ -3906,9 +3882,6 @@ f
 open
 (
 f
-"
-r
-"
 encoding
 =
 "
@@ -6436,9 +6409,6 @@ args
 open
 (
 args
-"
-r
-"
 encoding
 =
 "
@@ -6942,9 +6912,6 @@ with
 open
 (
 f
-"
-r
-"
 encoding
 =
 "

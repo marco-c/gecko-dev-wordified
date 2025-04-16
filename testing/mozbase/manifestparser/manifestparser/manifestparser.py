@@ -226,9 +226,6 @@ parsing
 manifests
 class
 ManifestParser
-(
-object
-)
 :
     
 "
@@ -6114,20 +6111,17 @@ join
 (
                 
 [
+f
 "
 [
 {
-}
-]
-"
-.
-format
-(
 denormalize_path
 (
 filename
 )
-)
+}
+]
+"
 for
 filename
 in

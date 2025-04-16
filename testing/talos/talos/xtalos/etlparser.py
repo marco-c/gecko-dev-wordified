@@ -848,9 +848,6 @@ reader
 open
 (
 filename
-"
-r
-"
 encoding
 =
 "
@@ -2074,6 +2071,7 @@ xtalos
 XTalosError
 (
                 
+f
 "
 Could
 not
@@ -2086,13 +2084,9 @@ for
 event
 :
 {
+event
 }
 "
-.
-format
-(
-event
-)
             
 )
         
@@ -3494,9 +3488,6 @@ with
 open
 (
 allowlist_path
-"
-r
-"
 )
 as
 fHandle
@@ -3583,9 +3574,6 @@ list
 "
 %
 approot
-"
-r
-"
 )
 as
 fhandle

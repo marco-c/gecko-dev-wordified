@@ -522,9 +522,6 @@ with
 open
 (
 cmake_path
-"
-r
-"
 )
 as
 f
@@ -608,6 +605,7 @@ ValueError
 raise
 Exception
 (
+f
 "
 Unable
 to
@@ -615,13 +613,9 @@ find
 ALL_CLANG_TIDY_CHECKS
 in
 {
+cmake_path
 }
 "
-.
-format
-(
-cmake_path
-)
 )
 def
 write_third_party_paths

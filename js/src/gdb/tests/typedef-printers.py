@@ -41,9 +41,6 @@ my_typedef
 )
 class
 my_typedef
-(
-object
-)
 :
     
 def

@@ -326,9 +326,6 @@ res
 )
 class
 InputBuffer
-(
-object
-)
 :
     
 def
@@ -597,42 +594,36 @@ i
             
 print
 (
+f
 "
 {
+i
 }
 :
 {
-}
-"
-.
-format
-(
-i
 hdr
 .
 unpack_str
 (
 )
-)
+}
+"
 )
             
 print
 (
+f
 "
 Key
 :
 {
-}
-"
-.
-format
-(
 hdr
 .
 unpack_str
 (
 )
-)
+}
+"
 )
             
 print

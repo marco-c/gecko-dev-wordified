@@ -279,9 +279,6 @@ seconds
 )
 class
 TerminalColors
-(
-object
-)
 :
     
 def
@@ -1558,21 +1555,17 @@ values
 .
 join
 (
-                    
 [
+f
 "
 {
+v
 }
 {
+k
 }
 s
 "
-.
-format
-(
-v
-k
-)
 for
 k
 v
@@ -1588,7 +1581,6 @@ items
 if
 v
 ]
-                
 )
             
 )
@@ -1649,45 +1641,32 @@ values
         
 known
 =
-(
-            
+f
 "
 (
 {
+intermittents
 }
 known
 intermittents
 )
 "
-.
-format
-(
-intermittents
-)
 if
 intermittents
 else
 "
 "
         
-)
-        
 rv
 .
 append
 (
+f
 "
 Expected
 results
 :
 {
-}
-{
-}
-"
-.
-format
-(
 sum
 (
 checks
@@ -1696,8 +1675,11 @@ values
 (
 )
 )
+}
+{
 known
-)
+}
+"
 )
         
 #
@@ -1749,18 +1731,15 @@ skip_tests
             
 skipped
 =
+f
 "
 Skipped
 :
 {
+skip_tests
 }
 tests
 "
-.
-format
-(
-skip_tests
-)
             
 if
 skip_subtests
@@ -1768,19 +1747,16 @@ skip_subtests
                 
 skipped
 =
+f
 "
 {
+skipped
 }
 {
+skip_subtests
 }
 subtests
 "
-.
-format
-(
-skipped
-skip_subtests
-)
             
 rv
 .
@@ -1823,18 +1799,15 @@ rv
 .
 append
 (
+f
 "
 Unexpected
 results
 :
 {
+unexpected_count
 }
 "
-.
-format
-(
-unexpected_count
-)
 )
         
 if
@@ -1881,20 +1854,15 @@ join
 (
                     
 [
-                        
+f
 "
 {
-}
-{
-}
-"
-.
-format
-(
 n
+}
+{
 s
-)
-                        
+}
+"
 for
 s
 n
@@ -1915,7 +1883,6 @@ items
 (
 )
 )
-                    
 ]
                 
 )

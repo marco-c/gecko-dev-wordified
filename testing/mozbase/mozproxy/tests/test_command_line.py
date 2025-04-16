@@ -282,9 +282,6 @@ kill_signal
 )
 class
 OutputHandler
-(
-object
-)
 :
     
 def

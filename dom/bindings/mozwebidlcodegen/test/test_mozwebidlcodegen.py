@@ -825,9 +825,6 @@ open
 manager
 .
 _state_path
-"
-r
-"
 )
 as
 fh
@@ -1370,9 +1367,6 @@ child_content
 open
 (
 child_path
-"
-r
-"
 )
 .
 read
@@ -1568,9 +1562,6 @@ parent_content
 open
 (
 parent_path
-"
-r
-"
 )
 .
 read
@@ -1932,7 +1923,7 @@ open
 (
 fake_path
 "
-wt
+w
 "
 newline
 =

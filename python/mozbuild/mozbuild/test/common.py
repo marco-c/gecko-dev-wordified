@@ -239,9 +239,6 @@ it
 .
 class
 MockConfig
-(
-object
-)
 :
     
 def

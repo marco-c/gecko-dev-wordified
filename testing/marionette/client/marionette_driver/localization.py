@@ -55,9 +55,6 @@ MPL
 .
 class
 L10n
-(
-object
-)
 :
     
 "

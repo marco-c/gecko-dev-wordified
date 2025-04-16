@@ -99,9 +99,6 @@ parse_manifest
 )
 class
 ChromeManifestHandler
-(
-object
-)
 :
     
 def

@@ -2421,6 +2421,7 @@ join
 self
 .
 remoteMozLog
+f
 "
 moz
 -
@@ -2432,13 +2433,6 @@ PID
 uid
 =
 {
-}
-.
-log
-"
-.
-format
-(
 str
 (
 uuid
@@ -2447,7 +2441,10 @@ uuid4
 (
 )
 )
-)
+}
+.
+log
+"
             
 )
         

@@ -91,9 +91,6 @@ get_proxy_logger
 )
 class
 GeckoProfile
-(
-object
-)
 :
     
 "
@@ -476,20 +473,16 @@ LOG
 .
 info
 (
+f
 "
 Clearing
 archive
 {
-0
-}
-"
-.
-format
-(
 self
 .
 profile_arcname
-)
+}
+"
 )
             
 mozfile
@@ -556,30 +549,22 @@ dir
 :
 "
             
+f
 "
 {
-0
+gecko_profile_dir
 }
 interval
 :
 {
-1
+gecko_profile_interval
 }
 entries
 :
 {
-2
+gecko_profile_entries
 }
 "
-.
-format
-(
-                
-gecko_profile_dir
-gecko_profile_interval
-gecko_profile_entries
-            
-)
         
 )
         
@@ -858,9 +843,6 @@ with
 open
 (
 profile_path
-"
-r
-"
 encoding
 =
 "
@@ -923,26 +905,21 @@ while
 trying
 "
                 
+f
 "
 to
 symbolicate
 profile
 {
-0
+profile_path
 }
 (
 cycle
 {
-1
+cycle
 }
 )
 "
-.
-format
-(
-profile_path
-cycle
-)
                 
 exc_info
 =
@@ -967,24 +944,19 @@ during
 profile
 "
                 
+f
 "
 symbolication
 {
-0
+profile_path
 }
 (
 cycle
 {
-1
+cycle
 }
 )
 "
-.
-format
-(
-profile_path
-cycle
-)
                 
 exc_info
 =
@@ -1593,19 +1565,15 @@ profile
                 
 cycle_name
 =
+f
 "
 cycle_
 {
-0
+cycle
 }
 .
 profile
 "
-.
-format
-(
-cycle
-)
                 
 path_in_zip
 =
@@ -1644,28 +1612,21 @@ LOG
 info
 (
                     
+f
 "
 Adding
 profile
 {
-0
+path_in_zip
 }
 to
 archive
 {
-1
-}
-"
-.
-format
-(
-                        
-path_in_zip
 self
 .
 profile_arcname
-                    
-)
+}
+"
                 
 )
                 
@@ -1689,38 +1650,31 @@ LOG
 exception
 (
                         
+f
 "
 Failed
 to
 copy
 profile
 {
-0
+profile_path
 }
 as
 {
-1
+path_in_zip
 }
 to
 "
                         
+f
 "
 archive
 {
-2
-}
-"
-.
-format
-(
-                            
-profile_path
-path_in_zip
 self
 .
 profile_arcname
-                        
-)
+}
+"
                     
 )
             

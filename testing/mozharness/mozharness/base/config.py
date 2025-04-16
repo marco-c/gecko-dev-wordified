@@ -1558,9 +1558,6 @@ BaseConfig
 1
 class
 BaseConfig
-(
-object
-)
 :
     
 "

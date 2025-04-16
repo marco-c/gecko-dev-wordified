@@ -901,10 +901,12 @@ output
     
 print
 (
+f
 "
 const
 uint32_t
 {
+store_table_name
 }
 [
 ]
@@ -912,11 +914,6 @@ uint32_t
 {
 {
 "
-.
-format
-(
-store_table_name
-)
 file
 =
 output
@@ -935,10 +932,12 @@ output
     
 print
 (
+f
 "
 constexpr
 uint32_t
 {
+store_table_name
 }
 [
 ]
@@ -946,11 +945,6 @@ uint32_t
 {
 {
 "
-.
-format
-(
-store_table_name
-)
 file
 =
 output

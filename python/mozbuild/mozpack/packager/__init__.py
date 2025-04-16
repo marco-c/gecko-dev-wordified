@@ -108,9 +108,6 @@ import
 errors
 class
 Component
-(
-object
-)
 :
     
 "
@@ -899,9 +896,6 @@ destdir
 )
 class
 PackageManifestParser
-(
-object
-)
 :
     
 "
@@ -1232,9 +1226,6 @@ str
 )
 class
 PreprocessorOutputWrapper
-(
-object
-)
 :
     
 "
@@ -1605,9 +1596,6 @@ args
 )
 class
 SimplePackager
-(
-object
-)
 :
     
 "
@@ -2896,9 +2884,6 @@ execute
 )
 class
 SimpleManifestSink
-(
-object
-)
 :
     
 "

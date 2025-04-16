@@ -464,6 +464,7 @@ raise
 Exception
 (
                     
+f
 "
 Abort
 :
@@ -473,15 +474,11 @@ execute
 certutil
 :
 {
-}
-"
-.
-format
-(
 self
 .
 certutil_path
-)
+}
+"
                 
 )
             

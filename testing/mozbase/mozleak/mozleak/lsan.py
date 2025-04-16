@@ -57,9 +57,6 @@ import
 re
 class
 LSANLeaks
-(
-object
-)
 :
     
 "

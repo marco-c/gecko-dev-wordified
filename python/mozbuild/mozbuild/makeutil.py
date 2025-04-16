@@ -65,9 +65,6 @@ import
 Iterable
 class
 Makefile
-(
-object
-)
 :
     
 "
@@ -393,9 +390,6 @@ fh
 )
 class
 _SimpleOrderedSet
-(
-object
-)
 :
     
 "
@@ -611,9 +605,6 @@ added
 )
 class
 Rule
-(
-object
-)
 :
     
 "

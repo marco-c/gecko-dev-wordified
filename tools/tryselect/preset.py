@@ -692,20 +692,17 @@ spaces
                 
 print
 (
+f
 "
 Presets
 from
 {
-}
-:
-"
-.
-format
-(
 handler
 .
 path
-)
+}
+:
+"
 )
                 
 print

@@ -1650,6 +1650,7 @@ n
 '
             
 +
+f
 '
 "
 name
@@ -1659,16 +1660,12 @@ name
 OpenH264
 -
 {
+version
 }
 "
 \
 n
 '
-.
-format
-(
-version
-)
             
 +
 '
@@ -1730,6 +1727,7 @@ n
 "
             
 +
+f
 '
 "
 version
@@ -1737,16 +1735,12 @@ version
 :
 "
 {
+version
 }
 "
 \
 n
 '
-.
-format
-(
-version
-)
             
 +
 "
@@ -2213,6 +2207,7 @@ n
 '
             
 +
+f
 '
 "
 name
@@ -2222,16 +2217,12 @@ name
 Widevine
 -
 {
+version
 }
 "
 \
 n
 '
-.
-format
-(
-version
-)
             
 +
 '
@@ -2293,6 +2284,7 @@ n
 "
             
 +
+f
 '
 "
 version
@@ -2300,16 +2292,12 @@ version
 :
 "
 {
+version
 }
 "
 \
 n
 '
-.
-format
-(
-version
-)
             
 +
 "
@@ -2433,6 +2421,7 @@ n
 '
             
 +
+f
 '
 "
 name
@@ -2440,20 +2429,16 @@ name
 :
 "
 {
+name
 }
 -
 {
+version
 }
 "
 \
 n
 '
-.
-format
-(
-name
-version
-)
             
 +
 '
@@ -2478,11 +2463,13 @@ n
 '
             
 +
+f
 '
 "
 gmp
 -
 {
+altname
 }
 "
 :
@@ -2491,11 +2478,6 @@ gmp
 \
 n
 '
-.
-format
-(
-altname
-)
             
 +
 '
@@ -2522,6 +2504,7 @@ n
 "
             
 +
+f
 '
 "
 version
@@ -2529,16 +2512,12 @@ version
 :
 "
 {
+version
 }
 "
 \
 n
 '
-.
-format
-(
-version
-)
             
 +
 "

@@ -71,9 +71,6 @@ import
 Option
 class
 HelpFormatter
-(
-object
-)
 :
     
 def

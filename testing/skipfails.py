@@ -688,9 +688,6 @@ _mozilla
 "
 class
 Mock
-(
-object
-)
 :
     
 def
@@ -815,9 +812,6 @@ return
 "
 class
 Classification
-(
-object
-)
 :
     
 "
@@ -925,9 +919,6 @@ unknown
 "
 class
 Kind
-(
-object
-)
 :
     
 "
@@ -961,9 +952,6 @@ wpt
 "
 class
 Skipfails
-(
-object
-)
 :
     
 "
@@ -7955,9 +7943,6 @@ manifest_str
 open
 (
 manifest_path
-"
-r
-"
 encoding
 =
 "
@@ -8219,9 +8204,6 @@ manifest_str
 open
 (
 manifest_path
-"
-r
-"
 encoding
 =
 "
@@ -8783,9 +8765,6 @@ fp
 open
 (
 variants_path
-"
-r
-"
 encoding
 =
 "
@@ -11633,9 +11612,6 @@ fp
 open
 (
 filename
-"
-r
-"
 encoding
 =
 "
@@ -14627,9 +14603,6 @@ manifest_str
 open
 (
 manifest
-"
-r
-"
 encoding
 =
 "

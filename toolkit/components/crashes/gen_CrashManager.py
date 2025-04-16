@@ -323,9 +323,6 @@ with
 open
 (
 crashManager
-"
-r
-"
 )
 as
 src

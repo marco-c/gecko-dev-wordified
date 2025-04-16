@@ -68,9 +68,6 @@ DEFAULT_IMPLICIT_WAIT_TIMEOUT
 0
 class
 Timeouts
-(
-object
-)
 :
     
 "

@@ -271,16 +271,11 @@ define
 MOZ_BUILDID
 buildid
 =
-(
-    
 open
 (
 options
 .
 buildid
-"
-r
-"
 encoding
 =
 "
@@ -296,7 +291,6 @@ read
 .
 split
 (
-)
 )
 #
 extract

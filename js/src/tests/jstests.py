@@ -259,9 +259,6 @@ pwd
 )
 class
 PathOptions
-(
-object
-)
 :
     
 def
@@ -3368,9 +3365,6 @@ with
 open
 (
 filename
-"
-r
-"
 )
 as
 fp
@@ -5757,17 +5751,14 @@ test_gen
                 
 print
 (
+f
 "
 {
-}
-"
-.
-format
-(
 tc
 .
 path
-)
+}
+"
 )
             
 return
@@ -6470,9 +6461,13 @@ out
             
 print
 (
+f
 "
 Skipping
 {
+test
+.
+path
 }
 due
 to
@@ -6480,16 +6475,9 @@ ignorable
 adb
 error
 {
+out
 }
 "
-.
-format
-(
-test
-.
-path
-out
-)
 )
             
 test

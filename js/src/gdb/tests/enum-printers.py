@@ -32,9 +32,6 @@ unscoped_no_storage
 )
 class
 UnscopedNoStoragePrinter
-(
-object
-)
 :
     
 def
@@ -74,9 +71,6 @@ unscoped_with_storage
 )
 class
 UnscopedWithStoragePrinter
-(
-object
-)
 :
     
 def
@@ -116,9 +110,6 @@ scoped_no_storage
 )
 class
 ScopedNoStoragePrinter
-(
-object
-)
 :
     
 def
@@ -158,9 +149,6 @@ scoped_with_storage
 )
 class
 ScopedWithStoragePrinter
-(
-object
-)
 :
     
 def

@@ -83,9 +83,6 @@ handler
 )
 class
 OutputHandler
-(
-object
-)
 :
     
 def

@@ -68,9 +68,6 @@ import
 get_transformers
 class
 Constant
-(
-object
-)
 :
     
 "

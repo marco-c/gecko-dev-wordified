@@ -369,9 +369,6 @@ self
 pass
 class
 CaptureIO
-(
-object
-)
 :
     
 def

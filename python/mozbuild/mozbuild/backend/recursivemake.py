@@ -548,9 +548,6 @@ replace
 )
 class
 BackendMakeFile
-(
-object
-)
 :
     
 "
@@ -1149,9 +1146,6 @@ fh
 diff
 class
 RecursiveMakeTraversal
-(
-object
-)
 :
     
 "
@@ -14388,9 +14382,6 @@ manifest
     
 class
 Substitution
-(
-object
-)
 :
         
 "
@@ -15020,18 +15011,15 @@ mk
 .
 add_statement
 (
+f
 "
 ALL_IPDLSRCS_FILE
 :
 =
 {
+ipdl_srcs_path
 }
 "
-.
-format
-(
-ipdl_srcs_path
-)
 )
         
 #
@@ -15159,17 +15147,14 @@ srcs
 .
 write
 (
+f
 "
 {
+filename
 }
 \
 n
 "
-.
-format
-(
-filename
-)
 )
             
 for
@@ -15182,17 +15167,14 @@ srcs
 .
 write
 (
+f
 "
 {
+filename
 }
 \
 n
 "
-.
-format
-(
-filename
-)
 )
         
 with

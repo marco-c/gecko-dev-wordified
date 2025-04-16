@@ -113,9 +113,6 @@ TransferMixin
 1
 class
 TransferMixin
-(
-object
-)
 :
     
 "

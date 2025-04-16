@@ -259,9 +259,6 @@ value
 "
 class
 Test_get_active_tests
-(
-object
-)
 :
     
 def
@@ -342,9 +339,6 @@ undef_test3
 )
 class
 Test_get_test
-(
-object
-)
 :
     
 global_overrides
@@ -910,9 +904,6 @@ counter_extra
 )
 class
 Test_get_browser_config
-(
-object
-)
 :
     
 required
@@ -1228,9 +1219,6 @@ optional
 )
 class
 Test_get_config
-(
-object
-)
 :
     
 classmethod

@@ -394,9 +394,6 @@ with
 open
 (
 path
-"
-r
-"
 )
 as
 f

@@ -2068,27 +2068,22 @@ _strict_type_checks
 ParserError
 (
                 
+f
 "
 {
+self
+.
+identifier
 }
 :
 invalid
 expiry_version
 :
 {
+expiry_version
 }
 .
 "
-.
-format
-(
-                    
-self
-.
-identifier
-expiry_version
-                
-)
             
 )
 .
@@ -2857,9 +2852,6 @@ with
 open
 (
 filename
-"
-r
-"
 )
 as
 f

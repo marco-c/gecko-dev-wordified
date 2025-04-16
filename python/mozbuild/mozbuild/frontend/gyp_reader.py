@@ -3427,9 +3427,6 @@ targets
 data
 class
 GypProcessor
-(
-object
-)
 :
     
 "

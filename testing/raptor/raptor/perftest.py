@@ -326,9 +326,6 @@ ABCMeta
 )
 class
 Perftest
-(
-object
-)
 :
     
 "
@@ -2209,6 +2206,7 @@ LOG
 info
 (
             
+f
 "
 Making
 temp_download_dir
@@ -2216,15 +2214,9 @@ from
 inside
 get_conditioned_profile
 {
+temp_download_dir
 }
 "
-.
-format
-(
-                
-temp_download_dir
-            
-)
         
 )
         
@@ -2624,6 +2616,7 @@ LOG
 critical
 (
                 
+f
 "
 Can
 '
@@ -2631,6 +2624,7 @@ t
 find
 target_dir
 {
+cond_prof_target_dir
 }
 from
 get_profile
@@ -2638,27 +2632,21 @@ get_profile
 )
 "
                 
+f
 "
 temp_download_dir
 {
+temp_download_dir
 }
 platform
 {
+platform
 }
 scenario
 {
+profile_scenario
 }
 "
-.
-format
-(
-                    
-cond_prof_target_dir
-temp_download_dir
-platform
-profile_scenario
-                
-)
             
 )
             
@@ -2670,6 +2658,7 @@ LOG
 info
 (
             
+f
 "
 Original
 self
@@ -2680,17 +2669,11 @@ now
 set
 :
 {
-}
-"
-.
-format
-(
-                
 self
 .
 conditioned_profile_dir
-            
-)
+}
+"
         
 )
         
@@ -2824,9 +2807,6 @@ profiles
 json
 "
 )
-"
-r
-"
 )
 as
 fh
@@ -2870,18 +2850,15 @@ LOG
 .
 info
 (
+f
 "
 Merging
 profile
 :
 {
+path
 }
 "
-.
-format
-(
-path
-)
 )
             
 self
@@ -2966,23 +2943,20 @@ LOG
 .
 info
 (
+f
 "
 Local
 browser
 profile
 :
 {
-}
-"
-.
-format
-(
 self
 .
 profile
 .
 profile
-)
+}
+"
 )
     
 property
@@ -3924,19 +3898,16 @@ LOG
 .
 info
 (
+f
 "
 Removing
 temporary
 directory
 :
 {
+dir_to_rm
 }
 "
-.
-format
-(
-dir_to_rm
-)
 )
             
 shutil
@@ -5319,17 +5290,14 @@ port
         
 tcp_port
 =
+f
 "
 tcp
 :
 {
+port
 }
 "
-.
-format
-(
-port
-)
         
 self
 .
@@ -5508,18 +5476,15 @@ LOG
 .
 info
 (
+f
 "
 Merging
 profile
 :
 {
+path
 }
 "
-.
-format
-(
-path
-)
 )
             
 self
@@ -5992,6 +5957,7 @@ LOG
 info
 (
             
+f
 "
 setting
 profile
@@ -6005,15 +5971,9 @@ app
 proxy
 :
 {
+proxy_prefs
 }
 "
-.
-format
-(
-                
-proxy_prefs
-            
-)
         
 )
         

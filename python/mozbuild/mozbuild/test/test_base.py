@@ -587,7 +587,7 @@ open
 (
 mozconfig
 "
-wt
+w
 "
 )
 as
@@ -677,7 +677,7 @@ open
 (
 mozinfo
 "
-wt
+w
 "
 )
 as
@@ -827,7 +827,7 @@ open
 (
 mozconfig
 "
-wt
+w
 "
 )
 as
@@ -888,7 +888,7 @@ open
 (
 mozinfo
 "
-wt
+w
 "
 )
 as
@@ -1133,7 +1133,7 @@ open
 (
 mozconfig
 "
-wt
+w
 "
 )
 as
@@ -1176,7 +1176,7 @@ open
 (
 mozinfo
 "
-wt
+w
 "
 )
 as
@@ -1383,7 +1383,7 @@ open
 (
 mozinfo
 "
-wt
+w
 "
 )
 as
@@ -1417,9 +1417,6 @@ topobjdir
             
 class
 MockMachContext
-(
-object
-)
 :
                 
 pass
@@ -1601,7 +1598,7 @@ open
 (
 mozinfo
 "
-wt
+w
 "
 )
 as
@@ -1787,7 +1784,7 @@ open
 (
 mozconfig
 "
-wt
+w
 "
 )
 as
@@ -1843,7 +1840,7 @@ open
 (
 mozinfo
 "
-wt
+w
 "
 )
 as
@@ -1881,9 +1878,6 @@ topobjdir
             
 class
 MockMachContext
-(
-object
-)
 :
                 
 pass

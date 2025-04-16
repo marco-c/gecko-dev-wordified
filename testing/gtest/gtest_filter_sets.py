@@ -133,9 +133,6 @@ with
 open
 (
 FILTER_SETS_FILE
-"
-r
-"
 )
 as
 file
@@ -204,9 +201,6 @@ with
 open
 (
 FILTER_SETS_FILE
-"
-r
-"
 )
 as
 file
@@ -223,19 +217,16 @@ file
     
 print
 (
+f
 "
 Filter
 sets
 from
 {
+FILTER_SETS_FILE
 }
 :
 "
-.
-format
-(
-FILTER_SETS_FILE
-)
 )
     
 for

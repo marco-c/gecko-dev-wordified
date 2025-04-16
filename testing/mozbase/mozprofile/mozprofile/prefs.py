@@ -177,9 +177,6 @@ files
 "
 class
 Preferences
-(
-object
-)
 :
     
 "

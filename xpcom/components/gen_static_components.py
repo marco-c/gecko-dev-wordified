@@ -111,9 +111,6 @@ arrays
 .
 class
 UUIDRepr
-(
-object
-)
 :
     
 def
@@ -969,9 +966,6 @@ relocations
 .
 class
 StringTable
-(
-object
-)
 :
     
 def
@@ -1416,9 +1410,6 @@ manifests
 .
 class
 Namespace
-(
-object
-)
 :
     
 def
@@ -1669,9 +1660,6 @@ array
 .
 class
 ModuleEntry
-(
-object
-)
 :
     
 next_anon_id
@@ -2477,6 +2465,7 @@ NO_CONTRACT_ID
 )
         
 return
+f
 "
 "
 "
@@ -2484,54 +2473,33 @@ return
 /
 *
 {
-name
-}
-*
-/
-{
-{
-          
-/
-*
-{
-{
-{
-cid_string
-}
-}
-}
-*
-/
-          
-{
-cid
-}
-          
-{
-contract_id
-}
-          
-{
-processes
-}
-        
-}
-}
-"
-"
-"
-.
-format
-(
-            
-name
-=
 self
 .
 name
-            
+}
+*
+/
+{
+{
+          
+/
+*
+{
+{
+{
+str
+(
+self
+.
 cid
-=
+)
+}
+}
+}
+*
+/
+          
+{
 self
 .
 cid
@@ -2539,30 +2507,26 @@ cid
 to_cxx
 (
 )
-            
-cid_string
-=
-str
-(
-self
-.
-cid
-)
-            
+}
+          
+{
 contract_id
-=
-contract_id
-            
-processes
-=
+}
+          
+{
 lower_processes
 (
 self
 .
 processes
 )
+}
         
-)
+}
+}
+"
+"
+"
     
 #
 Generates
@@ -2587,6 +2551,7 @@ self
 :
         
 return
+f
 "
 "
 "
@@ -2595,39 +2560,6 @@ return
 {
           
 {
-js_name
-}
-          
-ModuleID
-:
-:
-{
-name
-}
-          
-{
-{
-{
-iface_offset
-}
-}
-}
-          
-{
-iface_count
-}
-        
-}
-}
-"
-"
-"
-.
-format
-(
-            
-js_name
-=
 strings
 .
 entry_to_cxx
@@ -2636,29 +2568,41 @@ self
 .
 js_name
 )
-            
-name
-=
+}
+          
+ModuleID
+:
+:
+{
 self
 .
 name
-            
-iface_offset
-=
+}
+          
+{
+{
+{
 self
 .
 interfaces_offset
-            
-iface_count
-=
+}
+}
+}
+          
+{
 len
 (
 self
 .
 interfaces
 )
+}
         
-)
+}
+}
+"
+"
+"
     
 #
 Generates
@@ -4087,9 +4031,6 @@ entry
 .
 class
 ContractEntry
-(
-object
-)
 :
     
 def
@@ -4121,6 +4062,7 @@ self
 :
         
 return
+f
 "
 "
 "
@@ -4129,24 +4071,6 @@ return
 {
           
 {
-contract
-}
-          
-{
-module_id
-}
-        
-}
-}
-"
-"
-"
-.
-format
-(
-            
-contract
-=
 strings
 .
 entry_to_cxx
@@ -4155,17 +4079,22 @@ self
 .
 contract
 )
-            
-module_id
-=
+}
+          
+{
 lower_module_id
 (
 self
 .
 module
 )
+}
         
-)
+}
+}
+"
+"
+"
 #
 Represents
 a
@@ -4194,9 +4123,6 @@ metadata
 .
 class
 ProtocolHandler
-(
-object
-)
 :
     
 def
@@ -5218,6 +5144,7 @@ constructors
 append
 (
             
+f
 "
 "
 "
@@ -5225,13 +5152,20 @@ append
     
 case
 {
-id
+lower_module_id
+(
+entry
+)
 }
 :
 {
 {
 {
-constructor
+entry
+.
+lower_constructor
+(
+)
 }
 \
     
@@ -5240,25 +5174,6 @@ constructor
 "
 "
 "
-.
-format
-(
-                
-id
-=
-lower_module_id
-(
-entry
-)
-constructor
-=
-entry
-.
-lower_constructor
-(
-)
-            
-)
         
 )
     
@@ -7310,9 +7225,6 @@ load
 open
 (
 conf_file
-"
-r
-"
 )
 )
     
@@ -7445,9 +7357,6 @@ with
 open
 (
 template_file
-"
-r
-"
 )
 as
 tfh

@@ -137,9 +137,6 @@ tune_performance
 )
 class
 PerformanceTuner
-(
-object
-)
 :
     
 def
@@ -331,20 +328,17 @@ log
 .
 info
 (
+f
 "
 setting
 {
+file_name
 }
 to
 {
+value
 }
 "
-.
-format
-(
-file_name
-value
-)
 )
         
 try
@@ -394,21 +388,18 @@ log
 .
 info
 (
+f
 "
 successfully
 set
 {
+file_name
 }
 to
 {
+value
 }
 "
-.
-format
-(
-file_name
-value
-)
 )
         
 except
@@ -423,7 +414,7 @@ log
 .
 info
 (
-                
+f
 "
 Ignoring
 failure
@@ -431,22 +422,17 @@ to
 set
 value
 {
+file_name
 }
 to
 {
+value
 }
 .
 {
+e
 }
 "
-.
-format
-(
-file_name
-value
-e
-)
-            
 )
     
 def
@@ -637,6 +623,7 @@ log
 info
 (
                     
+f
 "
 Ignoring
 failure
@@ -644,29 +631,23 @@ to
 stop
 service
 {
+service
 }
 .
 Error
 :
 {
-}
-:
-{
-}
-"
-.
-format
-(
-                        
-service
 e
 .
 __class__
 .
 __name__
+}
+:
+{
 e
-                    
-)
+}
+"
                 
 )
         
@@ -843,20 +824,17 @@ log
 .
 info
 (
+f
 "
 setting
 {
+key
 }
 to
 {
+value
 }
 "
-.
-format
-(
-key
-value
-)
 )
             
 self
@@ -1270,6 +1248,7 @@ log
 info
 (
                 
+f
 "
 CPU
 for
@@ -1282,19 +1261,13 @@ product
 model
 '
 {
+device_name
 }
 '
 unknown
 not
 scaling_governor
 "
-.
-format
-(
-                    
-device_name
-                
-)
             
 )
         
@@ -1525,6 +1498,7 @@ log
 info
 (
             
+f
 "
 GPU
 for
@@ -1537,6 +1511,7 @@ product
 model
 '
 {
+device_name
 }
 '
 unknown
@@ -1544,13 +1519,6 @@ not
 setting
 devfreq
 "
-.
-format
-(
-                
-device_name
-            
-)
         
 )
         

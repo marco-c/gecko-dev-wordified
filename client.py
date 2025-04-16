@@ -571,9 +571,6 @@ lines
 open
 (
 depname
-"
-r
-"
 )
 .
 readlines

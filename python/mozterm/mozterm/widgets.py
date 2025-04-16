@@ -72,9 +72,6 @@ m
 "
 class
 BaseWidget
-(
-object
-)
 :
     
 def

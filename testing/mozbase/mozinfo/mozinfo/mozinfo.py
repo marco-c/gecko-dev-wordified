@@ -146,9 +146,6 @@ _os
 os
 class
 unknown
-(
-object
-)
 :
     
 "

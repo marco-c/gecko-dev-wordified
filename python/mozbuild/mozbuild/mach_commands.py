@@ -2342,6 +2342,7 @@ ADD_RUST_LTOABLE
 =
 (
                 
+f
 "
 force
 -
@@ -2350,7 +2351,7 @@ cargo
 library
 -
 {
-s
+cargo_command
 :
 s
 }
@@ -2361,20 +2362,11 @@ cargo
 program
 -
 {
-s
+cargo_command
 :
 s
 }
 "
-.
-format
-(
-                    
-s
-=
-cargo_command
-                
-)
             
 )
         
@@ -8237,9 +8229,6 @@ with
 open
 (
 package_name_path
-"
-r
-"
 )
 as
 f
@@ -8285,7 +8274,6 @@ command_context
 .
 log
 (
-        
 logging
 .
 INFO
@@ -8294,19 +8282,15 @@ package
 "
 {
 }
+f
 "
 Created
 package
 :
 {
+package_path
 }
 "
-.
-format
-(
-package_path
-)
-    
 )
 def
 _get_android_install_parser
@@ -11154,19 +11138,16 @@ activity_name
 raise
 RuntimeError
 (
+f
 "
 Application
 not
 recognized
 :
 {
+app
 }
 "
-.
-format
-(
-app
-)
 )
     
 #
@@ -11512,6 +11493,7 @@ suit
                 
 target_profile
 =
+f
 "
 /
 data
@@ -11521,19 +11503,13 @@ local
 tmp
 /
 {
+metadata
+.
+package_name
 }
 -
 profile
 "
-.
-format
-(
-                    
-metadata
-.
-package_name
-                
-)
                 
 device
 .
@@ -11719,16 +11695,13 @@ env
             
 extras
 [
+f
 "
 env
 {
+i
 }
 "
-.
-format
-(
-i
-)
 ]
 =
 e
@@ -21686,6 +21659,7 @@ run
 {
 }
         
+f
 "
 Example
 usage
@@ -21693,13 +21667,9 @@ usage
 snap
 run
 {
+snap_name
 }
 "
-.
-format
-(
-snap_name
-)
     
 )
     
@@ -22479,17 +22449,14 @@ topobjdir
 target
 =
 [
+f
 "
 chrome
 -
 {
+locale
 }
 "
-.
-format
-(
-locale
-)
 for
 locale
 in

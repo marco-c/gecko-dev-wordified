@@ -218,8 +218,10 @@ e
         
 print
 (
+f
 "
 {
+ERROR_LEVEL_MANIFESTS_PATH
 }
 :
 error
@@ -227,14 +229,9 @@ error
 \
 n
 {
+e
 }
 "
-.
-format
-(
-ERROR_LEVEL_MANIFESTS_PATH
-e
-)
 file
 =
 sys

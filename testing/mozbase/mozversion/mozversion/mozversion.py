@@ -93,9 +93,6 @@ Build
 )
 class
 Version
-(
-object
-)
 :
     
 def

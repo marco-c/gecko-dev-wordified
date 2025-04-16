@@ -195,9 +195,6 @@ return
 path
 class
 ConfigureTestVFS
-(
-object
-)
 :
     
 def
@@ -984,9 +981,6 @@ self
         
 class
 CTypesFunc
-(
-object
-)
 :
             
 def
@@ -1127,9 +1121,6 @@ kwargs
         
 class
 Buffer
-(
-object
-)
 :
             
 def
@@ -1384,9 +1375,6 @@ args
         
 class
 Process
-(
-object
-)
 :
             
 def

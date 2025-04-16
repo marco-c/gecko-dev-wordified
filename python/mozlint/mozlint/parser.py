@@ -74,9 +74,6 @@ GLOBAL_SUPPORT_FILES
 ]
 class
 Parser
-(
-object
-)
 :
     
 "
@@ -336,9 +333,11 @@ LinterParseError
                     
 relpath
                     
+f
 "
 The
 {
+attr
 }
 directive
 must
@@ -351,11 +350,6 @@ of
 strings
 !
 "
-.
-format
-(
-attr
-)
                 
 )
             
@@ -406,6 +400,7 @@ directive
 cannot
 "
                             
+f
 "
 contain
 globs
@@ -413,13 +408,9 @@ globs
 \
 n
 {
+path
 }
 "
-.
-format
-(
-path
-)
                         
 )
                     

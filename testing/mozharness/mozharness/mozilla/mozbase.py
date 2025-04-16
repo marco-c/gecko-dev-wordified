@@ -65,9 +65,6 @@ import
 PreScriptAction
 class
 MozbaseMixin
-(
-object
-)
 :
     
 "
@@ -196,7 +193,7 @@ self
 .
 fatal
 (
-                
+f
 "
 Could
 not
@@ -206,14 +203,9 @@ requirements
 file
 :
 {
+requirements
 }
 "
-.
-format
-(
-requirements
-)
-            
 )
         
 self

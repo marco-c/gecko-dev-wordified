@@ -465,20 +465,17 @@ else
 raise
 Exception
 (
+f
 "
 Unexpected
 OS
 :
 {
-}
-"
-.
-format
-(
 mozinfo
 .
 os
-)
+}
+"
 )
         
 super
@@ -720,9 +717,6 @@ mozinfo
 json
 "
 )
-"
-r
-"
 )
 as
 f
@@ -1157,18 +1151,13 @@ raise
 Exception
 (
                 
+f
 "
 File
 not
 found
 :
 {
-}
-"
-.
-format
-(
-                    
 os
 .
 path
@@ -1182,8 +1171,8 @@ self
 .
 grcov_bin
 )
-                
-)
+}
+"
             
 )
         
@@ -2740,6 +2729,7 @@ self
 .
 warn
 (
+f
 "
 Found
 absolute
@@ -2748,13 +2738,9 @@ for
 test
 :
 {
+test
 }
 "
-.
-format
-(
-test
-)
 )
         
 if
@@ -3218,9 +3204,6 @@ with
 open
 (
 grcov_file
-"
-r
-"
 )
 as
 f
@@ -3382,9 +3365,6 @@ with
 open
 (
 grcov_file
-"
-r
-"
 )
 as
 f

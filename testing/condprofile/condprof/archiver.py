@@ -139,9 +139,6 @@ metadata
 data
 class
 Archiver
-(
-object
-)
 :
     
 def

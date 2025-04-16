@@ -177,6 +177,7 @@ e
             
 print
 (
+f
 "
 Unable
 to
@@ -185,18 +186,14 @@ shellcheck
 output
 (
 {
+e
 }
 )
 :
 {
+line
 }
 "
-.
-format
-(
-e
-line
-)
 )
             
 return
@@ -354,9 +351,6 @@ with
 open
 (
 path
-"
-r
-"
 )
 as
 f
@@ -977,17 +971,14 @@ log
 .
 debug
 (
+f
 "
 Command
 :
 {
+cmd
 }
 "
-.
-format
-(
-cmd
-)
 )
         
 run_process

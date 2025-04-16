@@ -354,9 +354,6 @@ read_manifestparser_manifest
 read_reftest_manifest
 class
 ContextDerivedValue
-(
-object
-)
 :
     
 "
@@ -6019,9 +6016,6 @@ values
     
 class
 EnumClass
-(
-object
-)
 :
         
 def
@@ -7861,9 +7855,6 @@ return
 _TypedRecord
 class
 Schedules
-(
-object
-)
 :
     
 "

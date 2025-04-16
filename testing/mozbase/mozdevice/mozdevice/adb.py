@@ -619,35 +619,28 @@ arg_string
 )
         
 return
+f
 "
 args
 :
 {
+arg_string
 }
 exitcode
 :
 {
+self
+.
+exitcode
 }
 stdout
 :
 {
+self
+.
+stdout
 }
 "
-.
-format
-(
-            
-arg_string
-            
-self
-.
-exitcode
-            
-self
-.
-stdout
-        
-)
     
 def
 __iter__
@@ -24694,6 +24687,7 @@ _logger
 warning
 (
                 
+f
 "
 remote
 secure_mkdirs
@@ -24702,28 +24696,22 @@ push
 (
 '
 {
+local
 }
 '
 '
 {
+remote
 }
 '
 )
 {
-}
-"
-.
-format
-(
-                    
-local
-remote
 str
 (
 e
 )
-                
-)
+}
+"
             
 )
             

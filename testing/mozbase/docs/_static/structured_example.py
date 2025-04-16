@@ -218,9 +218,6 @@ assert_equals
 )
 class
 TestRunner
-(
-object
-)
 :
     
 def

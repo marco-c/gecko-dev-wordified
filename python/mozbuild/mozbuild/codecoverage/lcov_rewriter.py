@@ -99,9 +99,6 @@ import
 ChromeManifestHandler
 class
 LcovRecord
-(
-object
-)
 :
     
 __slots__
@@ -552,9 +549,6 @@ c
 )
 class
 RecordRewriter
-(
-object
-)
 :
     
 #
@@ -1316,9 +1310,6 @@ return
 generated_records
 class
 LcovFile
-(
-object
-)
 :
     
 #
@@ -1637,9 +1628,6 @@ with
 open
 (
 lcov_path
-"
-r
-"
 encoding
 =
 "
@@ -2993,9 +2981,6 @@ Exception
 pass
 class
 UrlFinder
-(
-object
-)
 :
     
 #
@@ -3079,9 +3064,6 @@ with
 open
 (
 chrome_map_path
-"
-r
-"
 encoding
 =
 "
@@ -4853,9 +4835,6 @@ return
 result
 class
 LcovFileRewriter
-(
-object
-)
 :
     
 #

@@ -519,9 +519,6 @@ SOCKET_PROCESSES
 )
 class
 BlocklistDescriptor
-(
-object
-)
 :
     
 "
@@ -2538,9 +2535,6 @@ FILTER_TESTS_ONLY
 ]
 class
 PETimeStamp
-(
-object
-)
 :
     
 def
@@ -2607,9 +2601,6 @@ self
 _value
 class
 Version
-(
-object
-)
 :
     
 "
@@ -3085,9 +3076,6 @@ _ver
 )
 class
 DllBlocklistEntry
-(
-object
-)
 :
     
 TEST_CONDITION

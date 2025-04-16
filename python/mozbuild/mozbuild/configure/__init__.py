@@ -176,9 +176,6 @@ Exception
 pass
 class
 SandboxDependsFunction
-(
-object
-)
 :
     
 "
@@ -579,9 +576,6 @@ functions
 )
 class
 DependsFunction
-(
-object
-)
 :
     
 __slots__

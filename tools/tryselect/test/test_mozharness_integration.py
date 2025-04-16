@@ -582,17 +582,14 @@ suite_definitions
         
 key
 =
+f
 "
 all_
 {
+category
 }
 _suites
 "
-.
-format
-(
-category
-)
         
 if
 key
@@ -613,17 +610,14 @@ sorted
 (
 config
 [
+f
 "
 all_
 {
+category
 }
 _suites
 "
-.
-format
-(
-category
-)
 ]
 )
 :
@@ -742,23 +736,20 @@ suite
 item
     
 return
+f
 "
 {
+name
 }
 /
 {
-}
-"
-.
-format
-(
-name
 suite
 [
 -
 1
 ]
-)
+}
+"
 pytest
 .
 mark

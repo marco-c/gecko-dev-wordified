@@ -329,9 +329,6 @@ cause
 cause
 class
 FasterBuildChange
-(
-object
-)
 :
     
 def
@@ -364,9 +361,6 @@ output_to_inputs
 }
 class
 Daemon
-(
-object
-)
 :
     
 def
@@ -1403,21 +1397,18 @@ print_line
 watch
 "
                     
+f
 "
 Subscribing
 to
 {
-}
-"
-.
-format
-(
 self
 .
 config_environment
 .
 topsrcdir
-)
+}
+"
                 
 )
             
@@ -1433,25 +1424,20 @@ verbose
                 
 print_line
 (
-                    
 "
 watch
 "
+f
 "
 Watching
 {
-}
-"
-.
-format
-(
 self
 .
 config_environment
 .
 topsrcdir
-)
-                
+}
+"
 )
             
 input_to_outputs
@@ -1484,6 +1470,7 @@ raise
 Exception
 (
                         
+f
 "
 Refusing
 to
@@ -1491,17 +1478,13 @@ watch
 input
 (
 {
+input
 }
 )
 with
 no
 outputs
 "
-.
-format
-(
-input
-)
                     
 )
             
@@ -1689,6 +1672,7 @@ FasterBuildException
                 
 e
                 
+f
 "
 Command
 error
@@ -1697,19 +1681,13 @@ pywatchman
 to
 watch
 {
-}
-"
-.
-format
-(
-                    
 self
 .
 config_environment
 .
 topsrcdir
-                
-)
+}
+"
             
 )
         
@@ -1734,6 +1712,7 @@ FasterBuildException
                 
 e
                 
+f
 "
 Socket
 timeout
@@ -1742,19 +1721,13 @@ pywatchman
 to
 watch
 {
-}
-"
-.
-format
-(
-                    
 self
 .
 config_environment
 .
 topsrcdir
-                
-)
+}
+"
             
 )
         
@@ -1844,16 +1817,13 @@ print_line
 "
 watch
 "
+f
 "
 !
 {
+unrecognized
 }
 "
-.
-format
-(
-unrecognized
-)
 now
 =
 now
@@ -1890,16 +1860,13 @@ print_line
 "
 watch
 "
+f
 "
 <
 {
+input
 }
 "
-.
-format
-(
-input
-)
 now
 =
 now
@@ -1919,16 +1886,13 @@ print_line
 "
 watch
 "
+f
 "
 >
 {
+output
 }
 "
-.
-format
-(
-output
-)
 now
 =
 now

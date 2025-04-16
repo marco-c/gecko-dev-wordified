@@ -261,9 +261,6 @@ type
 pass
 class
 IntelPowerGadget
-(
-object
-)
 :
     
 "
@@ -1707,9 +1704,6 @@ _running
 False
 class
 IPGResultsHandler
-(
-object
-)
 :
     
 "
@@ -3090,9 +3084,6 @@ with
 open
 (
 file
-"
-r
-"
 )
 as
 f

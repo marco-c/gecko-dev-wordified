@@ -1861,6 +1861,7 @@ raise
 Exception
 (
                 
+f
 "
 next_version
 property
@@ -1870,6 +1871,7 @@ be
 provided
 for
 {
+release_promotion_flavor
 }
 "
                 
@@ -1877,11 +1879,6 @@ for
 target
 .
 "
-.
-format
-(
-release_promotion_flavor
-)
             
 )
     
@@ -1936,6 +1933,7 @@ raise
 Exception
 (
                 
+f
 "
 partial_updates
 property
@@ -1945,6 +1943,7 @@ be
 provided
 for
 {
+release_promotion_flavor
 }
 "
                 
@@ -1952,11 +1951,6 @@ for
 target
 .
 "
-.
-format
-(
-release_promotion_flavor
-)
             
 )
         
@@ -2136,6 +2130,7 @@ raise
 Exception
 (
                 
+f
 "
 task
 group
@@ -2152,16 +2147,10 @@ e
 g
 .
 {
+t
 }
 )
 "
-.
-format
-(
-                    
-t
-                
-)
             
 )
     

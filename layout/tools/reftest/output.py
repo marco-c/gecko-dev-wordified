@@ -1192,9 +1192,6 @@ lines
 )
 class
 OutputHandler
-(
-object
-)
 :
     
 "

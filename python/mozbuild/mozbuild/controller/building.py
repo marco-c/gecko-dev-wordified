@@ -580,9 +580,6 @@ message
 )
 class
 TierStatus
-(
-object
-)
 :
     
 "
@@ -5202,27 +5199,25 @@ assert
 output_format
 in
 (
+            
 "
 text
 "
+            
 "
 json
 "
+        
 )
+f
 "
 Invalid
 output
 format
 {
+output_format
 }
 "
-.
-format
-(
-            
-output_format
-        
-)
         
 path
 =
@@ -5331,9 +5326,6 @@ path
 )
 class
 CCacheStats
-(
-object
-)
 :
     
 "
@@ -12359,9 +12351,6 @@ mozconfig
 path
 "
 ]
-"
-r
-"
 )
 as
 ifh

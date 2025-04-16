@@ -3762,9 +3762,6 @@ contents
 open
 (
 path
-"
-r
-"
 encoding
 =
 "

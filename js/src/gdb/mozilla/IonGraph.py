@@ -164,9 +164,6 @@ objfile
 .
 class
 jsvmPrinterCache
-(
-object
-)
 :
     
 def
@@ -270,9 +267,6 @@ jsvmLSprinter
 .
 class
 ModuleCache
-(
-object
-)
 :
     
 def
@@ -301,9 +295,6 @@ LSprinter
 )
 class
 jsvmLSprinter
-(
-object
-)
 :
     
 def

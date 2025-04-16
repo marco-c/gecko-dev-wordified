@@ -2785,6 +2785,7 @@ read
 )
         
 return
+f
 "
 s3
 :
@@ -2797,16 +2798,6 @@ path
 }
 :
 "
-.
-format
-(
-bucket
-=
-bucket
-path
-=
-path
-)
 def
 GetPlatformSpecificDumper
 (

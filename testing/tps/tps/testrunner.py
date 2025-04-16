@@ -91,9 +91,6 @@ import
 TPSTestPhase
 class
 TempFile
-(
-object
-)
 :
     
 "
@@ -244,9 +241,6 @@ __del__
 cleanup
 class
 TPSTestRunner
-(
-object
-)
 :
     
 extra_env
@@ -1225,9 +1219,6 @@ open
 self
 .
 resultfile
-"
-r
-"
 )
             
 results
@@ -1631,9 +1622,6 @@ with
 open
 (
 weavelog
-"
-r
-"
 )
 as
 fh
@@ -1833,9 +1821,6 @@ f
 open
 (
 testpath
-"
-r
-"
 )
         
 testcontent
@@ -2784,25 +2769,22 @@ phaselist
             
 print
 (
+f
 "
 \
 t
 {
+phase
+.
+phase
 }
 :
 {
-}
-"
-.
-format
-(
-phase
-.
-phase
 phase
 .
 status
-)
+}
+"
 )
         
 return
@@ -3548,21 +3530,18 @@ skip_reason
                     
 print
 (
+f
 "
 Skipping
 test
 {
+filename
 }
 -
 {
+skip_reason
 }
 "
-.
-format
-(
-filename
-skip_reason
-)
 )
                 
 else

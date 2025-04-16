@@ -210,9 +210,6 @@ NOT_EQ
 ]
 class
 ListManifestParser
-(
-object
-)
 :
     
 "

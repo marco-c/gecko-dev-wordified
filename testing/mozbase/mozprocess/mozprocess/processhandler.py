@@ -262,9 +262,6 @@ JobObjectExtendedLimitInformation
 )
 class
 ProcessHandlerMixin
-(
-object
-)
 :
     
 "
@@ -1082,6 +1079,7 @@ name
             
 print
 (
+f
 "
 DBG
 :
@@ -1090,24 +1088,20 @@ MOZPROC
 PID
 :
 {
+self
+.
+pid
 }
 (
 {
+thread
 }
 )
 |
 {
+msg
 }
 "
-.
-format
-(
-self
-.
-pid
-thread
-msg
-)
 )
         
 def
@@ -5681,6 +5675,7 @@ sep
         
 print
 (
+f
 "
 DBG
 :
@@ -5688,17 +5683,13 @@ DBG
 MOZPROC
 ProcessHandlerMixin
 {
+cmd
 }
 |
 {
+msg
 }
 "
-.
-format
-(
-cmd
-msg
-)
 )
     
 property
@@ -7414,9 +7405,6 @@ lst
 )
 class
 ProcessReader
-(
-object
-)
 :
     
 def
@@ -7553,6 +7541,7 @@ return
         
 print
 (
+f
 "
 DBG
 :
@@ -7561,13 +7550,9 @@ MOZPROC
 ProcessReader
 |
 {
+msg
 }
 "
-.
-format
-(
-msg
-)
 )
     
 def
@@ -8193,9 +8178,6 @@ output
 line
 class
 StoreOutput
-(
-object
-)
 :
     
 "
@@ -8239,9 +8221,6 @@ line
 )
 class
 StreamOutput
-(
-object
-)
 :
     
 "

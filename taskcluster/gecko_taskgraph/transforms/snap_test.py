@@ -511,15 +511,12 @@ TEST_TIMEOUT
 "
 ]
 =
+f
 "
 {
+timeout
 }
 "
-.
-format
-(
-timeout
-)
         
 yield
 task

@@ -653,9 +653,6 @@ with
 open
 (
 yml_file
-"
-r
-"
 )
 as
 yml_in

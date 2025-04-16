@@ -71,9 +71,6 @@ ErrorMessage
 errors
 class
 TestErrors
-(
-object
-)
 :
     
 def

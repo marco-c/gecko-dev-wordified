@@ -118,9 +118,6 @@ gtest
 )
 class
 GTests
-(
-object
-)
 :
     
 #

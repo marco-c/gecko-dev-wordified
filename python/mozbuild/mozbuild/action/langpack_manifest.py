@@ -596,6 +596,7 @@ e
             
 msg
 =
+f
 "
 Failed
 to
@@ -604,19 +605,15 @@ push
 timestamp
 using
 {
+url
 }
 \
 nError
 :
 {
+e
 }
 "
-.
-format
-(
-url
-e
-)
             
 raise
 Exception
@@ -661,24 +658,19 @@ exc
         
 msg
 =
+f
 "
 {
+str
+(
+exc
+)
 }
 \
 ndata
 is
 :
 {
-}
-"
-.
-format
-(
-            
-str
-(
-exc
-)
 json
 .
 dumps
@@ -691,8 +683,8 @@ sort_keys
 =
 True
 )
-        
-)
+}
+"
         
 raise
 KeyError
@@ -2322,22 +2314,18 @@ else
 raise
 Exception
 (
+f
 "
 Unknown
 flag
 value
 {
-0
-}
-"
-.
-format
-(
 value
 [
 1
 ]
-)
+}
+"
 )
     
 return
@@ -2732,20 +2720,16 @@ else
 raise
 Exception
 (
+f
 "
 Unknown
 type
 {
-0
-}
-"
-.
-format
-(
 entry
 .
 name
-)
+}
+"
 )
 #
 #
@@ -4325,25 +4309,22 @@ minor
             
 min_app_version
 =
+f
 "
 {
+v
+.
+major
 }
 .
 {
+v
+.
+minor
 }
 .
 0
 "
-.
-format
-(
-v
-.
-major
-v
-.
-minor
-)
         
 else
 :
@@ -4363,19 +4344,16 @@ major
             
 min_app_version
 =
+f
 "
 {
+v
+.
+major
 }
 .
 0
 "
-.
-format
-(
-v
-.
-major
-)
     
 res
 =

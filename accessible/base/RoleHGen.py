@@ -78,9 +78,6 @@ input
 open
 (
 roleIdl
-"
-rt
-"
 )
 .
 read

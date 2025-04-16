@@ -835,6 +835,7 @@ else
                 
 print
 (
+f
 "
 found
 files
@@ -844,13 +845,9 @@ couldn
 t
 find
 {
+name
 }
 "
-.
-format
-(
-name
-)
 )
 def
 create_suite
@@ -1690,22 +1687,19 @@ data_path
     
 print
 (
+f
 "
 PERFHERDER_DATA
 :
 {
-}
-"
-.
-format
-(
 json
 .
 dumps
 (
 perf_blob
 )
-)
+}
+"
 )
     
 sys

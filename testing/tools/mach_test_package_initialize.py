@@ -593,6 +593,7 @@ venv
         
 print
 (
+f
 "
 No
 mozharness
@@ -601,15 +602,11 @@ detected
 at
 '
 {
+venv
 }
 '
 .
 "
-.
-format
-(
-venv
-)
 )
         
 return

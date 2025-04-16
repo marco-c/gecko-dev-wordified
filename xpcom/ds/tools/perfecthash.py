@@ -241,9 +241,6 @@ import
 namedtuple
 class
 PerfectHash
-(
-object
-)
 :
     
 "
@@ -1652,9 +1649,6 @@ getter
 )
 class
 CGHelper
-(
-object
-)
 :
     
 "

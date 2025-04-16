@@ -481,18 +481,14 @@ fxc_location
 nologo
 "
         
+f
 "
 -
 T
 {
-0
+shader_model
 }
 "
-.
-format
-(
-shader_model
-)
         
 os
 .
@@ -503,31 +499,23 @@ relpath
 shader_file
 )
         
+f
 "
 -
 E
 {
-0
+shader_name
 }
 "
-.
-format
-(
-shader_name
-)
         
+f
 "
 -
 Vn
 {
-0
+shader_name
 }
 "
-.
-format
-(
-shader_name
-)
         
 "
 -
@@ -625,16 +613,11 @@ argv
 +
 =
 [
+f
 "
 -
 Fh
 {
-0
-}
-"
-.
-format
-(
 os
 .
 path
@@ -643,7 +626,8 @@ relpath
 (
 temp_filename
 )
-)
+}
+"
 ]
         
 sys
@@ -724,9 +708,6 @@ with
 open
 (
 temp_filename
-"
-r
-"
 )
 as
 temp_fp
@@ -747,22 +728,24 @@ output_fp
 .
 write
 (
+        
+f
 "
 ShaderBytes
 s
 {
-0
+shader_name
 }
 =
 {
 {
 {
-0
+shader_name
 }
 sizeof
 (
 {
-0
+shader_name
 }
 )
 }
@@ -771,11 +754,7 @@ sizeof
 \
 n
 "
-.
-format
-(
-shader_name
-)
+    
 )
     
 return
@@ -1148,9 +1127,6 @@ open
 .
 class
 ScopedTempFilename
-(
-object
-)
 :
     
 def

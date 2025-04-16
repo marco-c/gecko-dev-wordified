@@ -71,9 +71,6 @@ import
 FirefoxRunner
 class
 TPSFirefoxRunner
-(
-object
-)
 :
     
 PROCESS_TIMEOUT
@@ -375,16 +372,13 @@ build
         
 print
 (
+f
 "
 installing
 {
+pathToBuild
 }
 "
-.
-format
-(
-pathToBuild
-)
 )
         
 mozfile

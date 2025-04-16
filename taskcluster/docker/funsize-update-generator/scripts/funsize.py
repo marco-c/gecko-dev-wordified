@@ -887,7 +887,7 @@ tuple
 raise
 ValueError
 (
-            
+f
 "
 Malformed
 product
@@ -896,14 +896,9 @@ in
 mar
 :
 {
+product_info
 }
 "
-.
-format
-(
-product_info
-)
-        
 )
     
 found_channel_ids
@@ -936,25 +931,22 @@ raise
 ValueError
 (
             
+f
 "
 MAR_CHANNEL_ID
 mismatch
 {
-}
-not
-in
-{
-}
-"
-.
-format
-(
 product_info
 [
 1
 ]
+}
+not
+in
+{
 channel_ids
-)
+}
+"
         
 )
     
@@ -1087,6 +1079,7 @@ raise
 ValueError
 (
             
+f
 "
 {
 mar
@@ -1099,21 +1092,9 @@ URL
 prefixes
 :
 {
-p
+allowed_url_prefixes
 }
 "
-.
-format
-(
-                
-mar
-=
-mar
-p
-=
-allowed_url_prefixes
-            
-)
         
 )
 async
@@ -2468,16 +2449,13 @@ label
         
 label
 =
+f
 "
 {
+label
 }
 :
 "
-.
-format
-(
-label
-)
     
 else
 :
@@ -3795,13 +3773,9 @@ log
 .
 debug
 (
+f
 "
 {
-}
-"
-.
-format
-(
 json
 .
 dumps
@@ -3814,7 +3788,8 @@ sort_keys
 =
 True
 )
-)
+}
+"
 )
 if
 __name__

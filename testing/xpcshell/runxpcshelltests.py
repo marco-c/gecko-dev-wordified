@@ -860,19 +860,16 @@ ancestor_manifest
             
 group
 =
+f
 "
 {
+ancestor_manifest
 }
 :
 {
+group
 }
 "
-.
-format
-(
-ancestor_manifest
-group
-)
     
 return
 group
@@ -908,24 +905,20 @@ c
 \
 "
 else
+f
 "
 \
 \
 x
 {
-0
-:
-02X
-}
-"
-.
-format
-(
 ord
 (
 c
 )
-)
+:
+02X
+}
+"
 def
 cleanup_encoding
 (
@@ -8204,9 +8197,6 @@ keep_going
 True
 class
 XPCShellTests
-(
-object
-)
 :
     
 def
@@ -9175,23 +9165,20 @@ using
 specified
 "
                     
+f
 "
 combination
 of
 filters
 :
 {
-}
-"
-.
-format
-(
 mp
 .
 fmt_filters
 (
 )
-)
+}
+"
                 
 )
                 
@@ -9887,9 +9874,6 @@ profiles
 json
 "
 )
-"
-r
-"
 )
 as
 fh
@@ -10876,20 +10860,19 @@ TSAN_OPTIONS
 "
 ]
 =
+(
+                        
+f
 "
 external_symbolizer_path
 =
 {
+llvmsym
 }
 {
+oldTSanOptions
 }
 "
-.
-format
-(
-                        
-llvmsym
-oldTSanOptions
                     
 )
                 
@@ -13384,6 +13367,7 @@ log
 info
 (
             
+f
 "
 Making
 temp_download_dir
@@ -13391,15 +13375,9 @@ from
 inside
 get_conditioned_profile
 {
+temp_download_dir
 }
 "
-.
-format
-(
-                
-temp_download_dir
-            
-)
         
 )
         
@@ -13658,6 +13636,7 @@ log
 critical
 (
                 
+f
 "
 Can
 '
@@ -13665,6 +13644,7 @@ t
 find
 target_dir
 {
+cond_prof_target_dir
 }
 from
 get_profile
@@ -13672,27 +13652,21 @@ get_profile
 )
 "
                 
+f
 "
 temp_download_dir
 {
+temp_download_dir
 }
 platform
 {
+platform
 }
 scenario
 {
+profile_scenario
 }
 "
-.
-format
-(
-                    
-cond_prof_target_dir
-temp_download_dir
-platform
-profile_scenario
-                
-)
             
 )
             
@@ -13706,6 +13680,7 @@ log
 info
 (
             
+f
 "
 Original
 self
@@ -13716,17 +13691,11 @@ now
 set
 :
 {
-}
-"
-.
-format
-(
-                
 self
 .
 conditioned_profile_dir
-            
-)
+}
+"
         
 )
         
@@ -15129,31 +15098,22 @@ log
 .
 info
 (
+f
 "
 {
-key
-}
-:
-{
-value
-}
-"
-.
-format
-(
-key
-=
 info
 [
 0
 ]
-value
-=
+}
+:
+{
 info
 [
 1
 ]
-)
+}
+"
 )
         
 if

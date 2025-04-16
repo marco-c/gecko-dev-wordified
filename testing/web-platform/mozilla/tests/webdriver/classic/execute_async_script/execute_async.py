@@ -144,6 +144,7 @@ url
 inline
 (
         
+f
 "
 "
 "
@@ -187,6 +188,7 @@ event
 {
           
 {
+dialog_type
 }
 (
 "
@@ -208,13 +210,6 @@ script
 "
 "
 "
-.
-format
-(
-            
-dialog_type
-        
-)
     
 )
     

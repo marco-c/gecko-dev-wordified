@@ -96,9 +96,6 @@ import
 load_class
 class
 Transformer
-(
-object
-)
 :
     
 "

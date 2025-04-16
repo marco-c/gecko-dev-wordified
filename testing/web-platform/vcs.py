@@ -59,9 +59,6 @@ import
 subprocess
 class
 Mercurial
-(
-object
-)
 :
     
 def
@@ -228,9 +225,6 @@ return
 True
 class
 Git
-(
-object
-)
 :
     
 def

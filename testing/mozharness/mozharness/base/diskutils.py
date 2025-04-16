@@ -471,9 +471,6 @@ size
 )
 class
 DiskInfo
-(
-object
-)
 :
     
 "
@@ -681,9 +678,6 @@ unit
 unit
 class
 DiskSize
-(
-object
-)
 :
     
 "

@@ -59,9 +59,6 @@ import
 re
 class
 OutputHandler
-(
-object
-)
 :
     
 "

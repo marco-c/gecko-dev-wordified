@@ -1284,10 +1284,12 @@ log
 warn
 (
                             
+f
 "
 Replaying
 file
 {
+proto
 }
 has
 no
@@ -1295,11 +1297,6 @@ http_protocol
 info
 .
 "
-.
-format
-(
-proto
-)
                         
 )
         
@@ -2029,6 +2026,7 @@ log
 warn
 (
                         
+f
 "
 server_playback
 :
@@ -2038,19 +2036,13 @@ non
 replay
 request
 {
-}
-"
-.
-format
-(
-                            
 f
 .
 request
 .
 url
-                        
-)
+}
+"
                     
 )
                     

@@ -326,9 +326,6 @@ params
 )
 class
 EmptyConfig
-(
-object
-)
 :
     
 "
@@ -2545,9 +2542,6 @@ return
 template_wrapper
 class
 TemplateFunction
-(
-object
-)
 :
     
 def
@@ -6563,9 +6557,6 @@ e
 )
 class
 BuildReader
-(
-object
-)
 :
     
 "
@@ -9172,6 +9163,7 @@ path
 path
 }
             
+f
 "
 Reading
 file
@@ -9180,13 +9172,6 @@ file
 path
 }
 "
-.
-format
-(
-path
-=
-path
-)
         
 )
         
@@ -9274,6 +9259,7 @@ path
 path
 }
                     
+f
 "
 File
 already
@@ -9285,13 +9271,6 @@ Skipping
 path
 }
 "
-.
-format
-(
-path
-=
-path
-)
                 
 )
                 

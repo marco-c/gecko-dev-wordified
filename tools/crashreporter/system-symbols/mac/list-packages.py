@@ -268,19 +268,16 @@ KeyError
         
 print
 (
+f
 "
 Missing
 title
 in
 {
+product
 }
 skipping
 "
-.
-format
-(
-product
-)
 file
 =
 sys
@@ -322,6 +319,7 @@ Exception
 print
 (
             
+f
 "
 Cannot
 extract
@@ -331,14 +329,10 @@ version
 number
 in
 {
+product
 }
 skipping
 "
-.
-format
-(
-product
-)
             
 file
 =

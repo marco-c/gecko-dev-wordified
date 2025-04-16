@@ -1260,9 +1260,6 @@ with
 open
 (
 abspath
-"
-r
-"
 )
 as
 existingfile
@@ -1470,9 +1467,6 @@ join
 open
 (
 abspath
-"
-r
-"
 )
 .
 readlines

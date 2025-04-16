@@ -309,6 +309,7 @@ log
 .
 error
 (
+f
 "
 Error
 :
@@ -318,24 +319,18 @@ token
 ?
 (
 {
-0
-}
-:
-{
-1
-}
-)
-"
-.
-format
-(
 r
 .
 status_code
+}
+:
+{
 r
 .
 reason
+}
 )
+"
 )
     
 else
@@ -345,6 +340,7 @@ log
 .
 error
 (
+f
 "
 Error
 :
@@ -352,23 +348,17 @@ got
 HTTP
 response
 {
-0
-}
-:
-{
-1
-}
-"
-.
-format
-(
 r
 .
 status_code
+}
+:
+{
 r
 .
 reason
-)
+}
+"
 )
     
 log
@@ -425,8 +415,10 @@ secret_name
     
 secrets_url
 =
+f
 "
 {
+TASKCLUSTER_PROXY_URL
 }
 /
 secrets
@@ -436,20 +428,15 @@ v1
 secret
 /
 {
+secret_name
 }
 "
-.
-format
-(
-TASKCLUSTER_PROXY_URL
-secret_name
-)
     
 log
 .
 info
 (
-        
+f
 '
 Using
 symbol
@@ -462,15 +449,10 @@ service
 :
 "
 {
+secrets_url
 }
 "
 '
-.
-format
-(
-secrets_url
-)
-    
 )
     
 res
@@ -521,8 +503,10 @@ task_id
     
 artifacts_url
 =
+f
 "
 {
+TASKCLUSTER_PROXY_URL
 }
 /
 queue
@@ -532,18 +516,11 @@ v1
 task
 /
 {
+task_id
 }
 /
 artifacts
 "
-.
-format
-(
-        
-TASKCLUSTER_PROXY_URL
-task_id
-    
-)
     
 res
 =
@@ -834,18 +811,14 @@ log
 .
 error
 (
+f
 "
 Error
 :
 {
-0
+e
 }
 "
-.
-format
-(
-e
-)
 )
             
 log
@@ -942,12 +915,15 @@ log
 .
 info
 (
+f
 '
 Archive
 file
 "
 {
-0
+args
+.
+archive
 }
 "
 does
@@ -955,13 +931,6 @@ not
 exist
 !
 '
-.
-format
-(
-args
-.
-archive
-)
 )
             
 else
@@ -971,7 +940,7 @@ log
 .
 error
 (
-                    
+f
 '
 Error
 :
@@ -979,7 +948,9 @@ archive
 file
 "
 {
-0
+args
+.
+archive
 }
 "
 does
@@ -987,14 +958,6 @@ not
 exist
 !
 '
-.
-format
-(
-args
-.
-archive
-)
-                
 )
                 
 error
@@ -1972,28 +1935,23 @@ log
 .
 info
 (
+f
 '
 Preparing
 symbol
 archive
 "
 {
-0
+zip_path
 }
 "
 from
 "
 {
-1
+zst_archive
 }
 "
 '
-.
-format
-(
-zip_path
-zst_archive
-)
 )
     
 for
@@ -2158,6 +2116,7 @@ log
 .
 info
 (
+f
 '
 Continuing
 with
@@ -2165,14 +2124,10 @@ symbol
 archive
 "
 {
+zip_path
 }
 "
 '
-.
-format
-(
-zip_path
-)
 )
             
 if
@@ -2202,18 +2157,14 @@ log
 .
 error
 (
+f
 "
 Error
 :
 {
-0
+e
 }
 "
-.
-format
-(
-e
-)
 )
             
 log
@@ -2358,11 +2309,12 @@ log
 error
 (
                 
+f
 '
 SOCORRO_SYMBOL_UPLOAD_TOKEN_FILE
 "
 {
-0
+token_file
 }
 "
 does
@@ -2370,13 +2322,6 @@ not
 exist
 !
 '
-.
-format
-(
-                    
-token_file
-                
-)
             
 )
             
@@ -2388,9 +2333,6 @@ auth_token
 open
 (
 token_file
-"
-r
-"
 )
 .
 read
@@ -2474,28 +2416,23 @@ log
 .
 info
 (
+f
 '
 Uploading
 symbol
 file
 "
 {
-0
+zip_path
 }
 "
 to
 "
 {
-1
+url
 }
 "
 '
-.
-format
-(
-zip_path
-url
-)
 )
     
 for
@@ -2762,18 +2699,14 @@ log
 .
 error
 (
+f
 "
 Error
 :
 {
-0
+e
 }
 "
-.
-format
-(
-e
-)
 )
         
 log

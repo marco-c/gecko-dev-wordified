@@ -1090,9 +1090,6 @@ MINIMUM_RUST_VERSION
 )
 class
 BaseBootstrapper
-(
-object
-)
 :
     
 "
@@ -2571,10 +2568,12 @@ prompt
             
 print
 (
+f
 '
 Selecting
 "
 {
+default
 }
 "
 because
@@ -2584,11 +2583,6 @@ not
 interactive
 .
 '
-.
-format
-(
-default
-)
 )
             
 return

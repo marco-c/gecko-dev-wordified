@@ -97,16 +97,13 @@ headers
 Authorization
 "
 :
+f
 "
 Key
 {
+key
 }
 "
-.
-format
-(
-key
-)
 }
     
 start_url

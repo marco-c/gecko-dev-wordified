@@ -131,9 +131,6 @@ tested
 pass
 class
 PowerBase
-(
-object
-)
 :
     
 "

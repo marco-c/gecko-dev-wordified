@@ -1752,9 +1752,6 @@ self
         
 class
 Config
-(
-object
-)
 :
             
 pass
@@ -2217,9 +2214,6 @@ cls
         
 class
 Config
-(
-object
-)
 :
             
 pass

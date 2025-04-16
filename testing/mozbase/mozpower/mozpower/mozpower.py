@@ -239,9 +239,6 @@ file
 pass
 class
 MozPower
-(
-object
-)
 :
     
 "

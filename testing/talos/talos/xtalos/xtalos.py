@@ -142,9 +142,6 @@ with
 open
 (
 config_file
-"
-r
-"
 )
 as
 config

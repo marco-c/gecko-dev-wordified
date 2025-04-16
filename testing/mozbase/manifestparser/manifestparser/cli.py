@@ -366,9 +366,6 @@ args
 )
 class
 CLICommand
-(
-object
-)
 :
     
 usage

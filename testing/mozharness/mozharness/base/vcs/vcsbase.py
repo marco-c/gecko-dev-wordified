@@ -193,9 +193,6 @@ VCSMixin
 1
 class
 VCSMixin
-(
-object
-)
 :
     
 "

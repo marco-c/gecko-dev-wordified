@@ -179,9 +179,11 @@ logger
 info
 (
             
+f
 "
 Task
 {
+label
 }
 not
 in
@@ -195,13 +197,6 @@ be
 retriggered
 .
 "
-.
-format
-(
-                
-label
-            
-)
         
 )
         
@@ -1061,11 +1056,13 @@ logger
 info
 (
             
+f
 "
 Not
 retriggering
 task
 {
+label
 }
 task
 should
@@ -1081,11 +1078,6 @@ not
 specified
 .
 "
-.
-format
-(
-label
-)
         
 )
         
@@ -1405,34 +1397,29 @@ logger
 error
 (
             
+f
 "
 Refusing
 to
 rerun
 {
+label
 }
 :
 taskId
 {
+task_id
 }
 not
 in
 decision
 task
 {
+decision_task_id
 }
 label_to_taskid
 !
 "
-.
-format
-(
-                
-label
-task_id
-decision_task_id
-            
-)
         
 )
     
@@ -1468,34 +1455,29 @@ logger
 warning
 (
             
+f
 "
 No
 need
 to
 rerun
 {
+label
 }
 :
 state
 '
 {
+state
 }
 '
 not
 in
 {
+RERUN_STATES
 }
 !
 "
-.
-format
-(
-                
-label
-state
-RERUN_STATES
-            
-)
         
 )
         

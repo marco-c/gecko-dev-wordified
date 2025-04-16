@@ -1111,18 +1111,15 @@ logging
 .
 warning
 (
+f
 "
 ignoring
 paths
 :
 {
+ignore_missing
 }
 "
-.
-format
-(
-ignore_missing
-)
 )
     
 left_diff
@@ -1177,21 +1174,18 @@ ignore_missing
         
 _log
 (
+f
 "
 {
+label
 }
 only
 in
 {
+source_dir
 }
 :
 "
-.
-format
-(
-label
-source_dir
-)
 )
         
 for
@@ -1205,15 +1199,12 @@ left_diff
             
 _log
 (
+f
 "
 {
+d
 }
 "
-.
-format
-(
-d
-)
 )
     
 right_diff
@@ -1230,21 +1221,18 @@ logging
 .
 error
 (
+f
 "
 {
+label
 }
 only
 in
 {
+target_dir
 }
 :
 "
-.
-format
-(
-label
-target_dir
-)
 )
         
 for
@@ -1260,15 +1248,12 @@ logging
 .
 error
 (
+f
 "
 {
+d
 }
 "
-.
-format
-(
-d
-)
 )
         
 difference_found
@@ -1423,18 +1408,15 @@ logging
 .
 info
 (
+f
 "
 Difference
 found
 in
 {
+filename
 }
 "
-.
-format
-(
-filename
-)
 )
             
 if
@@ -1448,11 +1430,13 @@ logging
 info
 (
                     
+f
 "
 Ignoring
 difference
 in
 {
+filename
 }
 because
 it
@@ -1461,13 +1445,6 @@ listed
 in
 IGNORE_FILES
 "
-.
-format
-(
-                        
-filename
-                    
-)
                 
 )
                 
@@ -1549,9 +1526,14 @@ logging
 debug
 (
                 
+f
 "
 Got
 {
+len
+(
+transforms
+)
 }
 transform
 (
@@ -1561,19 +1543,9 @@ to
 consider
 for
 {
+filename
 }
 "
-.
-format
-(
-                    
-len
-(
-transforms
-)
-filename
-                
-)
             
 )
             
@@ -1613,25 +1585,20 @@ logging
 .
 debug
 (
-                        
+f
 "
 Trying
 deleting
 lines
 starting
 {
+d
 }
 from
 {
+side
 }
 "
-.
-format
-(
-d
-side
-)
-                    
 )
                     
 file_contents
@@ -1681,22 +1648,19 @@ logging
 .
 debug
 (
+f
 "
 Trying
 replacement
 for
 {
+r
 }
 in
 {
+side
 }
 "
-.
-format
-(
-r
-side
-)
 )
                     
 file_contents
@@ -1786,8 +1750,10 @@ logging
 error
 (
                     
+f
 "
 {
+filename
 }
 still
 differs
@@ -1797,11 +1763,6 @@ residual
 diff
 :
 "
-.
-format
-(
-filename
-)
                 
 )
                 
@@ -2106,23 +2067,20 @@ logging
 .
 info
 (
+f
 "
 Comparing
 {
+source
 }
 with
 {
+target
 }
 .
 .
 .
 "
-.
-format
-(
-source
-target
-)
 )
     
 source_dirs

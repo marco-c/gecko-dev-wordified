@@ -251,9 +251,6 @@ open
 "
 file1
 "
-"
-r
-"
 )
 .
 read
@@ -272,9 +269,6 @@ open
 (
 "
 file2
-"
-"
-r
 "
 )
 .
@@ -345,9 +339,6 @@ open
 "
 file1
 "
-"
-r
-"
 )
 .
 read
@@ -401,9 +392,6 @@ open
 "
 file2
 "
-"
-r
-"
 )
 .
 read
@@ -428,9 +416,6 @@ open
 (
 "
 file2
-"
-"
-r
 "
 )
 .
@@ -483,9 +468,6 @@ open
 (
 "
 file1
-"
-"
-r
 "
 )
 .
@@ -600,9 +582,6 @@ open
 "
 file3
 "
-"
-r
-"
 )
 .
 read
@@ -648,9 +627,6 @@ assertEqual
 open
 (
 path
-"
-r
-"
 )
 .
 read
@@ -708,9 +684,6 @@ assertEqual
 open
 (
 path
-"
-r
-"
 )
 .
 read
@@ -775,9 +748,6 @@ assertEqual
 open
 (
 path
-"
-r
-"
 )
 .
 read
@@ -810,9 +780,6 @@ assertEqual
 open
 (
 path
-"
-r
-"
 )
 .
 read

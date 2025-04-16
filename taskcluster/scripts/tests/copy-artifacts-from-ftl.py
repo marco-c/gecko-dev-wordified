@@ -630,9 +630,6 @@ with
 open
 (
 matrix_file_path
-"
-r
-"
 )
 as
 f

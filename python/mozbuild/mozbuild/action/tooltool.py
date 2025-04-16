@@ -576,11 +576,12 @@ times
 raise
 Exception
 (
-            
+f
 "
 jitter
 (
 {
+jitter
 }
 )
 must
@@ -591,16 +592,10 @@ sleep
 time
 (
 {
+sleeptime
 }
 )
 "
-.
-format
-(
-jitter
-sleeptime
-)
-        
 )
     
 sleeptime_real
@@ -1615,31 +1610,23 @@ pragma
 no
 cover
             
+f
 "
 header
 value
 value
 =
 {
+repr
+(
 val
+)
 }
 contained
 an
 illegal
 character
 "
-.
-format
-(
-                
-val
-=
-repr
-(
-val
-)
-            
-)
         
 )
     
@@ -1795,7 +1782,7 @@ log
 .
 debug
 (
-        
+f
 "
 calculating
 payload
@@ -1805,22 +1792,14 @@ from
 \
 n
 {
-parts
-}
-"
-.
-format
-(
-parts
-=
 pprint
 .
 pformat
 (
 parts
 )
-)
-    
+}
+"
 )
     
 return
@@ -1913,6 +1892,7 @@ exc_info
 raise
 InvalidCredentials
 (
+f
 "
 {
 etype
@@ -1922,16 +1902,6 @@ etype
 val
 }
 "
-.
-format
-(
-etype
-=
-etype
-val
-=
-val
-)
 )
 def
 normalize_header_attr
@@ -2138,6 +2108,7 @@ log
 .
 debug
 (
+f
 "
 normalized
 resource
@@ -2146,16 +2117,9 @@ mac
 calc
 :
 {
-norm
+normalized
 }
 "
-.
-format
-(
-norm
-=
-normalized
-)
 )
     
 digestmod
@@ -2397,23 +2361,20 @@ content_hash
     
 header
 =
+f
 '
 Hawk
 mac
 =
 "
 {
-}
-"
-'
-.
-format
-(
 prepare_header_val
 (
 mac
 )
-)
+}
+"
+'
     
 if
 content_hash
@@ -2426,25 +2387,22 @@ cover
         
 header
 =
+f
 '
 {
+header
 }
 hash
 =
 "
 {
-}
-"
-'
-.
-format
-(
-header
 prepare_header_val
 (
 content_hash
 )
-)
+}
+"
+'
     
 header
 =
@@ -2514,6 +2472,7 @@ log
 .
 debug
 (
+f
 "
 Hawk
 header
@@ -2521,31 +2480,24 @@ for
 URL
 =
 {
+url
 }
 method
 =
 {
+method
 }
 :
 {
+header
 }
 "
-.
-format
-(
-url
-method
-header
-)
 )
     
 return
 header
 class
 FileRecord
-(
-object
-)
 :
     
 def
@@ -3764,9 +3716,6 @@ return
 rv
 class
 Manifest
-(
-object
-)
 :
     
 valid_formats
@@ -4601,9 +4550,6 @@ builtins
 open
 (
 manifest_file
-"
-r
-"
 )
 as
 f
@@ -12001,38 +11947,32 @@ taskcluster_proxy_url
             
 tooltool_url
 =
+f
 "
 {
+taskcluster_proxy_url
 }
 /
 {
+tooltool_host
 }
 "
-.
-format
-(
-taskcluster_proxy_url
-tooltool_host
-)
         
 else
 :
             
 tooltool_url
 =
+f
 "
 https
 :
 /
 /
 {
+tooltool_host
 }
 "
-.
-format
-(
-tooltool_host
-)
         
 options_obj
 .

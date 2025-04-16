@@ -2506,12 +2506,15 @@ raise
 Exception
 (
                             
+f
 "
 Missing
 fetch
 job
 for
 {
+config
+.
 kind
 }
 -
@@ -2520,26 +2523,9 @@ name
 }
 :
 {
-fetch
+fetch_name
 }
 "
-.
-format
-(
-                                
-kind
-=
-config
-.
-kind
-name
-=
-name
-fetch
-=
-fetch_name
-                            
-)
                         
 )
                     
@@ -2652,6 +2638,7 @@ raise
 Exception
 (
                         
+f
 "
 {
 name
@@ -2667,6 +2654,7 @@ artifacts
 because
 "
                         
+f
 "
 it
 has
@@ -2677,16 +2665,6 @@ kind
 dependencies
 !
 "
-.
-format
-(
-name
-=
-name
-kind
-=
-kind
-)
                     
 )
                 
@@ -2726,6 +2704,7 @@ raise
 Exception
 (
                             
+f
 "
 {
 name
@@ -2741,6 +2720,7 @@ artifacts
 because
 "
                             
+f
 "
 there
 are
@@ -2749,33 +2729,16 @@ tasks
 with
 label
 {
-label
+dependencies
+[
+kind
+]
 }
 in
 kind
 dependencies
 !
 "
-.
-format
-(
-                                
-name
-=
-name
-                                
-kind
-=
-kind
-                                
-label
-=
-dependencies
-[
-kind
-]
-                            
-)
                         
 )
                     
@@ -3497,14 +3460,17 @@ raise
 Exception
 (
                 
+f
 "
 run_job_using
 (
 {
+run_using
 !
 r
 }
 {
+worker_implementation
 !
 r
 }
@@ -3513,24 +3479,14 @@ already
 exists
 :
 {
-!
-r
-}
-"
-.
-format
-(
-                    
-run_using
-                    
-worker_implementation
-                    
 for_run_using
 [
 worker_implementation
 ]
-                
-)
+!
+r
+}
+"
             
 )
         
@@ -3702,6 +3658,7 @@ raise
 Exception
 (
             
+f
 "
 no
 functions
@@ -3710,23 +3667,17 @@ run
 .
 using
 {
+run_using
 !
 r
 }
 on
 {
+worker_implementation
 !
 r
 }
 "
-.
-format
-(
-                
-run_using
-worker_implementation
-            
-)
         
 )
     

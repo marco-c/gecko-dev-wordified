@@ -469,12 +469,12 @@ MAX_NAME_LENGTH
 ParserError
 (
                     
-(
-                        
+f
 "
 Name
 '
 {
+n
 }
 '
 exceeds
@@ -483,17 +483,20 @@ name
 length
 of
 {
+MAX_NAME_LENGTH
 }
 characters
 .
 \
 n
 "
-                        
+                    
+f
 "
 See
 :
 {
+BASE_DOC_URL
 }
 #
 the
@@ -504,15 +507,6 @@ definition
 -
 file
 "
-                    
-)
-.
-format
-(
-n
-MAX_NAME_LENGTH
-BASE_DOC_URL
-)
                 
 )
 .
@@ -1182,23 +1176,20 @@ missing_fields
 )
                 
 +
+f
 "
 .
 \
 nSee
 :
 {
+BASE_DOC_URL
 }
 #
 required
 -
 fields
 "
-.
-format
-(
-BASE_DOC_URL
-)
             
 )
 .
@@ -1268,23 +1259,20 @@ unknown_fields
 )
                 
 +
+f
 "
 .
 \
 nSee
 :
 {
+BASE_DOC_URL
 }
 #
 required
 -
 fields
 "
-.
-format
-(
-BASE_DOC_URL
-)
             
 )
 .
@@ -1306,18 +1294,14 @@ wrong_type_names
 =
 [
             
+f
 "
 {
+f
 }
 must
 be
 {
-}
-"
-.
-format
-(
-f
 str
 (
 ALL_FIELDS
@@ -1325,7 +1309,8 @@ ALL_FIELDS
 f
 ]
 )
-)
+}
+"
             
 for
 f
@@ -1383,23 +1368,20 @@ wrong_type_names
 )
                 
 +
+f
 "
 .
 \
 nSee
 :
 {
+BASE_DOC_URL
 }
 #
 required
 -
 fields
 "
-.
-format
-(
-BASE_DOC_URL
-)
             
 )
 .
@@ -1466,19 +1448,16 @@ address
 notification_email
                     
 +
+f
 "
 .
 \
 nSee
 :
 {
+BASE_DOC_URL
 }
 "
-.
-format
-(
-BASE_DOC_URL
-)
                 
 )
 .
@@ -1651,18 +1630,21 @@ broken_types
 ParserError
 (
                     
-(
-                        
+f
 "
 Field
 '
 {
+field
 }
 '
 for
 probe
 '
 {
+self
+.
+_name
 }
 '
 must
@@ -1672,15 +1654,24 @@ values
 of
 type
 {
+str
+(
+LIST_FIELDS_CONTENT
+[
+field
+]
+)
 }
 "
-                        
+                    
+f
 "
 .
 \
 nSee
 :
 {
+BASE_DOC_URL
 }
 #
 the
@@ -1692,29 +1683,6 @@ definition
 file
 )
 "
-                    
-)
-.
-format
-(
-                        
-field
-                        
-self
-.
-_name
-                        
-str
-(
-LIST_FIELDS_CONTENT
-[
-field
-]
-)
-                        
-BASE_DOC_URL
-                    
-)
                 
 )
 .
@@ -1838,6 +1806,7 @@ count
 "
                     
 +
+f
 "
 \
 n
@@ -1848,13 +1817,9 @@ must
 not
 exceed
 {
+MAX_KEY_COUNT
 }
 "
-.
-format
-(
-MAX_KEY_COUNT
-)
                 
 )
 .
@@ -1906,6 +1871,7 @@ value
 "
                     
 +
+f
 "
 \
 n
@@ -1915,14 +1881,10 @@ are
 exceeding
 length
 {
+MAX_KEY_LENGTH
 }
 :
 "
-.
-format
-(
-MAX_KEY_LENGTH
-)
                     
 +
 "
@@ -2051,19 +2013,16 @@ kind
 scalar_kind
                 
 +
+f
 "
 .
 \
 nSee
 :
 {
+BASE_DOC_URL
 }
 "
-.
-format
-(
-BASE_DOC_URL
-)
             
 )
 .
@@ -2130,23 +2089,20 @@ policy
 collection_policy
                 
 +
+f
 "
 .
 \
 nSee
 :
 {
+BASE_DOC_URL
 }
 #
 optional
 -
 fields
 "
-.
-format
-(
-BASE_DOC_URL
-)
             
 )
 .
@@ -2247,23 +2203,20 @@ operating_systems
 operating_system
                     
 +
+f
 "
 .
 \
 nSee
 :
 {
+BASE_DOC_URL
 }
 #
 optional
 -
 fields
 "
-.
-format
-(
-BASE_DOC_URL
-)
                 
 )
 .
@@ -2326,19 +2279,16 @@ record_in_processes
 proc
                     
 +
+f
 "
 .
 \
 nSee
 :
 {
+BASE_DOC_URL
 }
 "
-.
-format
-(
-BASE_DOC_URL
-)
                 
 )
 .
@@ -2401,19 +2351,16 @@ products
 product
                     
 +
+f
 "
 .
 \
 nSee
 :
 {
+BASE_DOC_URL
 }
 "
-.
-format
-(
-BASE_DOC_URL
-)
                 
 )
 .
@@ -2491,37 +2438,32 @@ _strict_type_checks
 ParserError
 (
                 
+f
 "
 {
+self
+.
+_name
 }
 -
 invalid
 expires
 :
 {
+expires
 }
 .
 \
 nSee
 :
 {
+BASE_DOC_URL
 }
 #
 required
 -
 fields
 "
-.
-format
-(
-                    
-self
-.
-_name
-expires
-BASE_DOC_URL
-                
-)
             
 )
 .
@@ -3586,9 +3528,6 @@ with
 open
 (
 filename
-"
-r
-"
 encoding
 =
 "
@@ -3648,33 +3587,30 @@ e
 ParserError
 (
             
+f
 "
 Error
 parsing
 scalars
 in
 {
+filename
 }
 :
 {
+e
 }
 "
-            
+f
 "
 .
 \
 nSee
 :
 {
+BASE_DOC_URL
 }
 "
-.
-format
-(
-filename
-e
-BASE_DOC_URL
-)
         
 )
 .
@@ -3788,10 +3724,12 @@ category
 ParserError
 (
                 
+f
 '
 Category
 "
 {
+category_name
 }
 "
 must
@@ -3804,20 +3742,16 @@ in
 it
 '
                 
+f
 "
 .
 \
 nSee
 :
 {
+BASE_DOC_URL
 }
 "
-.
-format
-(
-category_name
-BASE_DOC_URL
-)
             
 )
 .

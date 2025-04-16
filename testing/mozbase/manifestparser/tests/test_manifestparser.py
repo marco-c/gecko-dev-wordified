@@ -5316,9 +5316,6 @@ after_str
 open
 (
 after_path
-"
-r
-"
 encoding
 =
 "
@@ -5469,9 +5466,6 @@ after_str
 open
 (
 after_path
-"
-r
-"
 encoding
 =
 "
@@ -5570,9 +5564,6 @@ after_str
 open
 (
 after_path
-"
-r
-"
 encoding
 =
 "
@@ -5676,9 +5667,6 @@ after_str
 open
 (
 after_path
-"
-r
-"
 encoding
 =
 "
@@ -5782,9 +5770,6 @@ after_str
 open
 (
 after_path
-"
-r
-"
 encoding
 =
 "

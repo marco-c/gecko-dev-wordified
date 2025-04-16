@@ -725,15 +725,24 @@ locale
         
 artifact_path
 =
+f
 "
 <
 {
+dep_job
+.
+kind
 }
 /
 {
+get_artifact_prefix
+(
+dep_job
+)
 }
 /
 {
+locale_suffix
 }
 target
 .
@@ -742,22 +751,6 @@ complete
 mar
 >
 "
-.
-format
-(
-            
-dep_job
-.
-kind
-            
-get_artifact_prefix
-(
-dep_job
-)
-            
-locale_suffix
-        
-)
         
 for
 build

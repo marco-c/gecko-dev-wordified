@@ -221,9 +221,6 @@ open
 push
 .
 history_path
-"
-r
-"
 )
 as
 fh
@@ -393,9 +390,6 @@ open
 push
 .
 history_path
-"
-r
-"
 )
 as
 fh

@@ -1256,11 +1256,16 @@ expiry
                         
 extra
 =
+f
 "
 extra_keys
 :
 {
+generate_alias
+(
+extra_keys
 extra_alias
+)
 }
 {
 extra_keys
@@ -1268,23 +1273,6 @@ extra_keys
 \
 n
 "
-.
-format
-(
-                            
-extra_alias
-=
-generate_alias
-(
-extra_keys
-extra_alias
-)
-                            
-extra_keys
-=
-extra_keys
-                        
-)
                         
 legacy_enum
 =

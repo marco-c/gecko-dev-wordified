@@ -70,9 +70,6 @@ with
 open
 (
 propFile
-"
-r
-"
 )
 as
 f

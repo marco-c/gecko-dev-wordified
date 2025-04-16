@@ -456,9 +456,6 @@ NO
 2
 class
 AvdInfo
-(
-object
-)
 :
     
 "
@@ -1506,9 +1503,6 @@ with
 open
 (
 manifest_path
-"
-r
-"
 )
 as
 f
@@ -4880,9 +4874,6 @@ app
 )
 class
 AndroidEmulator
-(
-object
-)
 :
     
 "
@@ -6704,9 +6695,6 @@ with
 open
 (
 ini_path
-"
-r
-"
 )
 as
 f
@@ -7804,9 +7792,6 @@ with
 open
 (
 prop_path
-"
-r
-"
 )
 as
 f

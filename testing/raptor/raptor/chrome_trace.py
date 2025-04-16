@@ -252,20 +252,16 @@ LOG
 .
 info
 (
+f
 "
 Clearing
 archive
 {
-0
-}
-"
-.
-format
-(
 self
 .
 profile_arcname
-)
+}
+"
 )
         
 mozfile
@@ -282,6 +278,7 @@ LOG
 info
 (
             
+f
 "
 Activating
 chrome
@@ -292,18 +289,11 @@ profile
 dir
 :
 {
-0
-}
-"
-.
-format
-(
-                
 self
 .
 temp_profile_dir
-            
-)
+}
+"
         
 )
     

@@ -373,12 +373,12 @@ MAX_NAME_LENGTH
 ParserError
 (
                     
-(
-                        
+f
 "
 Name
 '
 {
+n
 }
 '
 exceeds
@@ -387,17 +387,20 @@ name
 length
 of
 {
+MAX_NAME_LENGTH
 }
 characters
 .
 \
 n
 "
-                        
+                    
+f
 "
 See
 :
 {
+BASE_DOC_URL
 }
 #
 the
@@ -408,15 +411,6 @@ definition
 -
 file
 "
-                    
-)
-.
-format
-(
-n
-MAX_NAME_LENGTH
-BASE_DOC_URL
-)
                 
 )
 .
@@ -909,23 +903,20 @@ missing_fields
 )
                 
 +
+f
 "
 .
 \
 nSee
 :
 {
+BASE_DOC_URL
 }
 #
 required
 -
 fields
 "
-.
-format
-(
-BASE_DOC_URL
-)
             
 )
 .
@@ -995,23 +986,20 @@ unknown_fields
 )
                 
 +
+f
 "
 .
 \
 nSee
 :
 {
+BASE_DOC_URL
 }
 #
 required
 -
 fields
 "
-.
-format
-(
-BASE_DOC_URL
-)
             
 )
 .
@@ -1033,18 +1021,14 @@ wrong_type_names
 =
 [
             
+f
 "
 {
+f
 }
 must
 be
 {
-}
-"
-.
-format
-(
-f
 str
 (
 ALL_FIELDS
@@ -1052,7 +1036,8 @@ ALL_FIELDS
 f
 ]
 )
-)
+}
+"
             
 for
 f
@@ -1110,23 +1095,20 @@ wrong_type_names
 )
                 
 +
+f
 "
 .
 \
 nSee
 :
 {
+BASE_DOC_URL
 }
 #
 required
 -
 fields
 "
-.
-format
-(
-BASE_DOC_URL
-)
             
 )
 .
@@ -1299,18 +1281,21 @@ broken_types
 ParserError
 (
                     
-(
-                        
+f
 "
 Field
 '
 {
+field
 }
 '
 for
 probe
 '
 {
+self
+.
+_name
 }
 '
 must
@@ -1320,15 +1305,24 @@ values
 of
 type
 {
+str
+(
+LIST_FIELDS_CONTENT
+[
+field
+]
+)
 }
 "
-                        
+                    
+f
 "
 .
 \
 nSee
 :
 {
+BASE_DOC_URL
 }
 #
 the
@@ -1340,29 +1334,6 @@ definition
 file
 )
 "
-                    
-)
-.
-format
-(
-                        
-field
-                        
-self
-.
-_name
-                        
-str
-(
-LIST_FIELDS_CONTENT
-[
-field
-]
-)
-                        
-BASE_DOC_URL
-                    
-)
                 
 )
 .
@@ -1600,9 +1571,6 @@ with
 open
 (
 filename
-"
-r
-"
 encoding
 =
 "
@@ -1662,33 +1630,31 @@ e
 ParserError
 (
             
+f
 "
 Error
 parsing
 UserInteractions
 in
 {
+filename
 }
 :
 {
+e
 }
 "
             
+f
 "
 .
 \
 nSee
 :
 {
+BASE_DOC_URL
 }
 "
-.
-format
-(
-filename
-e
-BASE_DOC_URL
-)
         
 )
 .
@@ -1806,10 +1772,12 @@ category
 ParserError
 (
                 
+f
 '
 Category
 "
 {
+category_name
 }
 "
 must
@@ -1822,20 +1790,16 @@ in
 it
 '
                 
+f
 "
 .
 \
 nSee
 :
 {
+BASE_DOC_URL
 }
 "
-.
-format
-(
-category_name
-BASE_DOC_URL
-)
             
 )
 .

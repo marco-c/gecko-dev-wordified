@@ -124,9 +124,6 @@ __file__
 )
 class
 OutputHandler
-(
-object
-)
 :
     
 def

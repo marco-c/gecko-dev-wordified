@@ -177,9 +177,6 @@ DictReader
 open
 (
 expiry_filename
-"
-r
-"
 )
 )
 output_string

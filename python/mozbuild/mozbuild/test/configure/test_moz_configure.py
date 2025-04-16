@@ -226,21 +226,18 @@ else
 raise
 Exception
 (
+f
 "
 Missing
 platform
 for
 HOST
 {
-}
-"
-.
-format
-(
 self
 .
 HOST
-)
+}
+"
 )
         
 sandbox
@@ -1448,9 +1445,6 @@ self
         
 class
 FakeNSIS
-(
-object
-)
 :
             
 def

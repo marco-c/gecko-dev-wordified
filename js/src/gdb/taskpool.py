@@ -74,9 +74,6 @@ PIPE
 Popen
 class
 TaskPool
-(
-object
-)
 :
     
 #
@@ -234,9 +231,6 @@ given
     
 class
 Task
-(
-object
-)
 :
         
 def
@@ -612,9 +606,6 @@ open
 os
 .
 devnull
-"
-r
-"
 )
 as
 devnull

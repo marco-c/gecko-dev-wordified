@@ -178,9 +178,6 @@ import
 Preprocessor
 class
 XPIDLManager
-(
-object
-)
 :
     
 "
@@ -204,9 +201,6 @@ system
     
 class
 Module
-(
-object
-)
 :
         
 def
@@ -537,9 +531,6 @@ values
 )
 class
 BinariesCollection
-(
-object
-)
 :
     
 "

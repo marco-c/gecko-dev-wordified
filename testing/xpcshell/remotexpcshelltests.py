@@ -132,9 +132,6 @@ __file__
 )
 class
 RemoteProcessMonitor
-(
-object
-)
 :
     
 processStatus
@@ -2970,7 +2967,6 @@ XPCShellRemote
 xpcshell
 .
 XPCShellTests
-object
 )
 :
     

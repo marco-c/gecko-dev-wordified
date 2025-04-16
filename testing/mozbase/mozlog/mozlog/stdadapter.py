@@ -172,9 +172,6 @@ record
 )
 class
 LoggingWrapper
-(
-object
-)
 :
     
 def

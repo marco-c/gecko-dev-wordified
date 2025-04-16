@@ -1198,9 +1198,6 @@ f
 open
 (
 json_filename
-"
-r
-"
 )
     
 return

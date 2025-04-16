@@ -556,17 +556,14 @@ version
 txt
 "
 :
+f
 "
 {
+app_version
 }
 \
 n
 "
-.
-format
-(
-app_version
-)
         
 "
 browser
@@ -578,17 +575,14 @@ version_display
 txt
 "
 :
+f
 "
 {
+version
 }
 \
 n
 "
-.
-format
-(
-version
-)
         
 "
 config
@@ -598,17 +592,14 @@ milestone
 txt
 "
 :
+f
 "
 {
+app_version
 }
 \
 n
 "
-.
-format
-(
-app_version
-)
         
 "
 mobile
@@ -620,17 +611,14 @@ version
 txt
 "
 :
+f
 "
 {
+version
 }
 \
 n
 "
-.
-format
-(
-version
-)
     
 }
     
@@ -779,6 +767,7 @@ raise
 Exception
 (
             
+f
 "
 Can
 '
@@ -790,22 +779,16 @@ for
 version
 :
 {
+version
 }
 type
 :
 {
-}
-"
-.
-format
-(
-                
-version
 version
 .
 version_type
-            
-)
+}
+"
         
 )
     
@@ -1187,18 +1170,15 @@ locales
     
 msg
 =
+f
 "
 staging
 release
 :
 {
+version
 }
 "
-.
-format
-(
-version
-)
     
 return
 push_to_try

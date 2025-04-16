@@ -105,9 +105,6 @@ PropertyKey
 )
 class
 PropertyKey
-(
-object
-)
 :
     
 #

@@ -161,9 +161,6 @@ _FILTERS
 }
 class
 Filter
-(
-object
-)
 :
     
 def

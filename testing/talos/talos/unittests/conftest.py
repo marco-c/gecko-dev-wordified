@@ -301,9 +301,6 @@ with
 open
 (
 manifestName
-"
-r
-"
 )
 as
 fHandle

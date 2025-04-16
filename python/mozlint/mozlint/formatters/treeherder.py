@@ -63,9 +63,6 @@ import
 Issue
 class
 TreeherderFormatter
-(
-object
-)
 :
     
 "

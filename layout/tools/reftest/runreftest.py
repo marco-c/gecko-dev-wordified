@@ -1210,9 +1210,6 @@ yield
 line
 class
 ReftestResolver
-(
-object
-)
 :
     
 def
@@ -1965,9 +1962,6 @@ return
 manifests_by_url
 class
 RefTest
-(
-object
-)
 :
     
 oldcwd
@@ -3089,9 +3083,6 @@ profiles
 json
 "
 )
-"
-r
-"
 )
 as
 fh
@@ -3975,21 +3966,18 @@ log
 .
 info
 (
+f
 "
 Running
 with
 e10s
 :
 {
-}
-"
-.
-format
-(
 options
 .
 e10s
-)
+}
+"
 )
         
 self
@@ -7085,20 +7073,17 @@ outputHandler
 .
 proc_name
 =
+f
 "
 GECKO
 (
 {
-}
-)
-"
-.
-format
-(
 proc
 .
 pid
+}
 )
+"
         
 #
 Used
@@ -7779,9 +7764,6 @@ open
 self
 .
 testDumpFile
-"
-r
-"
 )
 as
 fh
@@ -8414,18 +8396,15 @@ log
 .
 info
 (
+f
 "
 Running
 tests
 in
 {
+manifest
 }
 "
-.
-format
-(
-manifest
-)
 )
             
 self

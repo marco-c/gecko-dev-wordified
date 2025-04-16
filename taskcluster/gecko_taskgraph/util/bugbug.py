@@ -440,6 +440,7 @@ url
 =
 BUGBUG_BASE_URL
 +
+f
 "
 /
 push
@@ -454,18 +455,6 @@ rev
 /
 schedules
 "
-.
-format
-(
-        
-branch
-=
-branch
-rev
-=
-rev
-    
-)
     
 start
 =

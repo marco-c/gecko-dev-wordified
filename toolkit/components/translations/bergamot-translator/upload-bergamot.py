@@ -799,9 +799,6 @@ with
 open
 (
 MOZ_YAML_PATH
-"
-r
-"
 encoding
 =
 "
@@ -1709,9 +1706,6 @@ with
 open
 (
 BROWSER_VERSION_PATH
-"
-r
-"
 encoding
 =
 "

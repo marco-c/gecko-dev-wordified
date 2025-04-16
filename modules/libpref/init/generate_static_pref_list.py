@@ -901,17 +901,14 @@ VALID_KEYS
                 
 error
 (
+f
 "
 invalid
 key
 {
+key
 }
 "
-.
-format
-(
-key
-)
 )
         
 #
@@ -968,6 +965,7 @@ str
             
 error
 (
+f
 "
 non
 -
@@ -975,13 +973,9 @@ string
 name
 value
 {
+name
 }
 "
-.
-format
-(
-name
-)
 )
         
 if
@@ -995,10 +989,12 @@ name
             
 error
 (
+f
 "
 name
 value
 {
+name
 }
 lacks
 a
@@ -1006,11 +1002,6 @@ a
 .
 '
 "
-.
-format
-(
-name
-)
 )
         
 if
@@ -1021,8 +1012,10 @@ seen_names
             
 error
 (
+f
 "
 {
+name
 }
 pref
 is
@@ -1031,11 +1024,6 @@ more
 than
 once
 "
-.
-format
-(
-name
-)
 )
         
 seen_names
@@ -1121,6 +1109,7 @@ pref
             
 error
 (
+f
 "
 missing
 type
@@ -1128,13 +1117,9 @@ key
 for
 pref
 {
+name
 }
 "
-.
-format
-(
-name
-)
 )
         
 typ
@@ -1155,23 +1140,20 @@ VALID_TYPES
             
 error
 (
+f
 "
 invalid
 type
 value
 {
+typ
 }
 for
 pref
 {
+name
 }
 "
-.
-format
-(
-typ
-name
-)
 )
         
 #
@@ -1196,6 +1178,7 @@ pref
             
 error
 (
+f
 "
 missing
 value
@@ -1203,13 +1186,9 @@ key
 for
 pref
 {
+name
 }
 "
-.
-format
-(
-name
-)
 )
         
 value
@@ -1250,6 +1229,7 @@ str
 error
 (
                     
+f
 "
 non
 -
@@ -1257,12 +1237,15 @@ string
 value
 value
 {
+value
 }
 for
 {
+typ
 }
 pref
 {
+name
 }
 ;
 "
@@ -1272,13 +1255,6 @@ add
 double
 quotes
 "
-.
-format
-(
-value
-typ
-name
-)
                 
 )
         
@@ -1300,23 +1276,20 @@ False
                 
 error
 (
+f
 "
 invalid
 boolean
 value
 {
+value
 }
 for
 pref
 {
+name
 }
 "
-.
-format
-(
-value
-name
-)
 )
         
 #
@@ -1341,6 +1314,7 @@ pref
             
 error
 (
+f
 "
 missing
 mirror
@@ -1348,13 +1322,9 @@ key
 for
 pref
 {
+name
 }
 "
-.
-format
-(
-name
-)
 )
         
 mirror
@@ -1393,23 +1363,20 @@ MIRROR_TEMPLATES
             
 error
 (
+f
 "
 invalid
 mirror
 value
 {
+mirror
 }
 for
 pref
 {
+name
 }
 "
-.
-format
-(
-mirror
-name
-)
 )
         
 #
@@ -1451,6 +1418,7 @@ bool
 error
 (
                     
+f
 "
 non
 -
@@ -1458,21 +1426,18 @@ boolean
 do_not_use_directly
 value
 {
+do_not_use_directly
 }
 for
 pref
 "
                     
+f
 "
 {
+name
 }
 "
-.
-format
-(
-do_not_use_directly
-name
-)
                 
 )
             
@@ -1557,7 +1522,7 @@ str
                 
 error
 (
-                    
+f
 "
 non
 -
@@ -1565,21 +1530,14 @@ string
 include
 value
 {
+include
 }
 for
 pref
 {
+name
 }
 "
-.
-format
-(
-                        
-include
-name
-                    
-)
-                
 )
             
 if
@@ -1606,10 +1564,12 @@ endswith
 error
 (
                     
+f
 "
 include
 value
 {
+include
 }
 starts
 with
@@ -1619,6 +1579,7 @@ does
 not
 "
                     
+f
 "
 end
 with
@@ -1626,14 +1587,9 @@ with
 for
 pref
 {
+name
 }
 "
-.
-format
-(
-include
-name
-)
                 
 )
         
@@ -1675,6 +1631,7 @@ bool
                 
 error
 (
+f
 "
 non
 -
@@ -1682,18 +1639,14 @@ boolean
 rust
 value
 {
+rust
 }
 for
 pref
 {
+name
 }
 "
-.
-format
-(
-rust
-name
-)
 )
             
 if
@@ -2060,17 +2013,14 @@ quotes
                 
 include
 =
+f
 '
 "
 {
+include
 }
 "
 '
-.
-format
-(
-include
-)
             
 includes
 [
@@ -2637,6 +2587,7 @@ static_pref_list_all_h
 extend
 (
         
+f
 '
 #
 include
@@ -2645,16 +2596,12 @@ mozilla
 /
 StaticPrefList_
 {
+group
 }
 .
 h
 "
 '
-.
-format
-(
-group
-)
         
 for
 group
@@ -2709,6 +2656,7 @@ static_prefs_all_h
 extend
 (
         
+f
 '
 #
 include
@@ -2717,16 +2665,12 @@ mozilla
 /
 StaticPrefs_
 {
+group
 }
 .
 h
 "
 '
-.
-format
-(
-group
-)
         
 for
 group
@@ -2855,17 +2799,14 @@ group
 .
 append
 (
+f
 "
 #
 include
 {
+include
 }
 "
-.
-format
-(
-include
-)
 )
             
 static_prefs_group_h
@@ -3307,8 +3248,10 @@ e
         
 print
 (
+f
 "
 {
+pref_list_filename
 }
 :
 error
@@ -3316,16 +3259,11 @@ error
 \
 n
 {
+e
 }
 \
 n
 "
-.
-format
-(
-pref_list_filename
-e
-)
 )
         
 sys
@@ -3503,18 +3441,15 @@ items
         
 filename
 =
+f
 "
 StaticPrefList_
 {
+group
 }
 .
 h
 "
-.
-format
-(
-group
-)
         
 with
 FileAvoidWrite
@@ -3561,18 +3496,15 @@ items
         
 filename
 =
+f
 "
 StaticPrefs_
 {
+group
 }
 .
 h
 "
-.
-format
-(
-group
-)
         
 with
 FileAvoidWrite

@@ -222,9 +222,6 @@ action
 )
 class
 TooltoolMixin
-(
-object
-)
 :
     
 "

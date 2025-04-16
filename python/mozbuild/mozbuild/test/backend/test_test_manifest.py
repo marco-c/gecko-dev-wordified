@@ -1072,9 +1072,6 @@ with
 open
 (
 backend_path
-"
-r
-"
 )
 as
 fh

@@ -155,9 +155,6 @@ png
 )
 class
 Gatherer
-(
-object
-)
 :
     
 "

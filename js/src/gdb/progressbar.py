@@ -71,9 +71,6 @@ import
 time
 class
 ProgressBar
-(
-object
-)
 :
     
 def

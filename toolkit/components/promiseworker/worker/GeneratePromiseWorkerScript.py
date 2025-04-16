@@ -127,9 +127,6 @@ with
 open
 (
 template_js
-"
-r
-"
 )
 as
 f

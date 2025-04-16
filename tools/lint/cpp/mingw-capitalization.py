@@ -174,9 +174,6 @@ with
 open
 (
 HEADERS_FILE
-"
-r
-"
 )
 as
 fh

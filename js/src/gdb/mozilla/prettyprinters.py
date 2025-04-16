@@ -1282,9 +1282,6 @@ attribute
 .
 class
 TypeCache
-(
-object
-)
 :
     
 def
@@ -2620,9 +2617,6 @@ contents
 .
 class
 Pointer
-(
-object
-)
 :
     
 def

@@ -529,23 +529,19 @@ stream
 .
 writeln
 (
+f
 "
 ERROR
 :
 {
-0
-}
-"
-.
-format
-(
 self
 .
 getDescription
 (
 test
 )
-)
+}
+"
 )
         
 self
@@ -598,23 +594,19 @@ stream
 .
 writeln
 (
+f
 "
 FAIL
 :
 {
-0
-}
-"
-.
-format
-(
 self
 .
 getDescription
 (
 test
 )
-)
+}
+"
 )
         
 self
@@ -727,22 +719,17 @@ tb
             
 message
 =
+f
 "
 line
 {
-0
+ln
 }
 :
 {
-1
+message
 }
 "
-.
-format
-(
-ln
-message
-)
         
 self
 .
@@ -1012,9 +999,6 @@ return
 path
 class
 _MockBaseOpen
-(
-object
-)
 :
     
 "
@@ -1482,9 +1466,6 @@ content
 )
 class
 MockedOpen
-(
-object
-)
 :
     
 "

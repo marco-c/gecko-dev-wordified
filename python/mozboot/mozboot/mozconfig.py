@@ -225,9 +225,6 @@ properly
 "
 class
 MozconfigBuilder
-(
-object
-)
 :
     
 def

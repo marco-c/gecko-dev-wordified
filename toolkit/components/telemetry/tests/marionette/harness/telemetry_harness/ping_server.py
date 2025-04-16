@@ -71,9 +71,6 @@ import
 httpd
 class
 PingServer
-(
-object
-)
 :
     
 "
@@ -324,20 +321,17 @@ type
             
 log_message
 =
+f
 "
 pings_handler
 received
 '
 {
+ping_type
 }
 '
 ping
 "
-.
-format
-(
-ping_type
-)
             
 if
 ping_type
@@ -369,22 +363,19 @@ reason
                 
 log_message
 =
+f
 "
 {
+log_message
 }
 with
 reason
 '
 {
+ping_reason
 }
 '
 "
-.
-format
-(
-log_message
-ping_reason
-)
             
 self
 .

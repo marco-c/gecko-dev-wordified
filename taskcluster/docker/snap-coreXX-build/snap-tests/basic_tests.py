@@ -209,12 +209,16 @@ self
 .
 _PROFILE_PATH
 =
+f
 "
 ~
 /
 snap
 /
 {
+self
+.
+_INSTANCE
 }
 /
 common
@@ -225,24 +229,20 @@ mozilla
 firefox
 /
 "
-.
-format
-(
-self
-.
-_INSTANCE
-)
         
 self
 .
 _LIB_PATH
 =
-r
+rf
 "
 /
 snap
 /
 {
+self
+.
+_INSTANCE
 }
 /
 current
@@ -257,15 +257,6 @@ libxul
 .
 so
 "
-.
-format
-(
-            
-self
-.
-_INSTANCE
-        
-)
         
 #
 This
@@ -291,7 +282,7 @@ self
 .
 _EXE_PATH
 =
-r
+rf
 "
 /
 snap
@@ -299,17 +290,13 @@ snap
 bin
 /
 {
+self
+.
+_INSTANCE
 }
 .
 geckodriver
 "
-.
-format
-(
-self
-.
-_INSTANCE
-)
         
 #
 This
@@ -543,12 +530,15 @@ self
 .
 _BIN_PATH
 =
-r
+rf
 "
 /
 snap
 /
 {
+self
+.
+_INSTANCE
 }
 /
 current
@@ -561,15 +551,6 @@ firefox
 /
 firefox
 "
-.
-format
-(
-            
-self
-.
-_INSTANCE
-        
-)
         
 snap_profile_path
 =
@@ -1038,9 +1019,6 @@ with
 open
 (
 exp
-"
-r
-"
 )
 as
 j
@@ -1120,19 +1098,16 @@ snap_core_base
         
 channel_and_core
 =
+f
 "
 {
+channel
 }
 core
 {
+core_base
 }
 "
-.
-format
-(
-channel
-core_base
-)
         
 self
 .
@@ -1140,19 +1115,16 @@ _logger
 .
 info
 (
+f
 "
 Channel
 &
 Core
 :
 {
+channel_and_core
 }
 "
-.
-format
-(
-channel_and_core
-)
 )
         
 for
@@ -1270,17 +1242,14 @@ _logger
 .
 info
 (
+f
 "
 tabs_after
 OK
 {
+tabs_after
 }
 "
-.
-format
-(
-tabs_after
-)
 )
                 
 self
@@ -1384,30 +1353,27 @@ self
 save_screenshot
 (
                     
+f
 "
 screenshot_
 {
-}
-_
-{
-}
-.
-png
-"
-.
-format
-(
 m
 .
 lower
 (
 )
+}
+_
+{
 test_status
 .
 lower
 (
 )
-)
+}
+.
+png
+"
                 
 )
                 
@@ -1426,31 +1392,28 @@ self
 save_screenshot
 (
                     
+f
 "
 screenshot_
 {
-}
-_
-{
-}
-_parent
-.
-png
-"
-.
-format
-(
 m
 .
 lower
 (
 )
+}
+_
+{
 test_status
 .
 lower
 (
 )
-)
+}
+_parent
+.
+png
+"
                 
 )
                 
@@ -1492,17 +1455,14 @@ _logger
 .
 info
 (
+f
 "
 tabs_after
 EXCEPTION
 {
+tabs_after
 }
 "
-.
-format
-(
-tabs_after
-)
 )
             
 finally
@@ -1514,16 +1474,13 @@ _logger
 .
 info
 (
+f
 "
 tabs_before
 {
+tabs_before
 }
 "
-.
-format
-(
-tabs_before
-)
 )
                 
 tabs_opened
@@ -1538,20 +1495,17 @@ _logger
 .
 info
 (
+f
 "
 opened
 {
-}
-tabs
-"
-.
-format
-(
 len
 (
 tabs_opened
 )
-)
+}
+tabs
+"
 )
                 
 self
@@ -1560,17 +1514,14 @@ _logger
 .
 info
 (
+f
 "
 opened
 {
+tabs_opened
 }
 tabs
 "
-.
-format
-(
-tabs_opened
-)
 )
                 
 closed
@@ -1589,17 +1540,14 @@ _logger
 .
 info
 (
+f
 "
 switch
 to
 {
+tab
 }
 "
-.
-format
-(
-tab
-)
 )
                     
 self
@@ -1619,16 +1567,13 @@ _logger
 .
 info
 (
+f
 "
 close
 {
+tab
 }
 "
-.
-format
-(
-tab
-)
 )
                     
 self
@@ -1651,6 +1596,7 @@ _logger
 info
 (
                         
+f
 "
 wait
 EC
@@ -1658,21 +1604,15 @@ EC
 number_of_windows_to_be
 (
 {
-}
-)
-"
-.
-format
-(
-                            
 len
 (
 tabs_after
 )
 -
 closed
-                        
+}
 )
+"
                     
 )
                     
@@ -1737,17 +1677,14 @@ _logger
 .
 info
 (
+f
 "
 Exiting
 with
 {
+ec
 }
 "
-.
-format
-(
-ec
-)
 )
         
 self
@@ -1838,25 +1775,22 @@ _logger
 .
 info
 (
+f
 "
 Saving
 screenshot
 '
 {
+name
 }
 '
 to
 '
 {
+final_name
 }
 '
 "
-.
-format
-(
-name
-final_name
-)
 )
         
 self
@@ -2152,20 +2086,17 @@ _logger
 .
 info
 (
+f
 "
 Update
 channel
 :
 {
-}
-"
-.
-format
-(
 self
 .
 _update_channel
-)
+}
+"
 )
             
 self
@@ -2244,20 +2175,17 @@ _logger
 .
 info
 (
+f
 "
 Snap
 Core
 :
 {
-}
-"
-.
-format
-(
 self
 .
 _snap_core_base
-)
+}
+"
 )
             
 self
@@ -2339,20 +2267,17 @@ _logger
 .
 info
 (
+f
 "
 Version
 major
 :
 {
-}
-"
-.
-format
-(
 self
 .
 _version_major
-)
+}
+"
 )
             
 self
@@ -2567,6 +2492,7 @@ _logger
 info
 (
                 
+f
 "
 Collecting
 new
@@ -2574,20 +2500,14 @@ reference
 screenshot
 :
 {
+new_ref
 }
 =
 >
 {
+new_ref_file
 }
 "
-.
-format
-(
-                    
-new_ref
-new_ref_file
-                
-)
             
 )
             
@@ -2828,6 +2748,7 @@ _logger
 .
 info
 (
+f
 "
 Non
 empty
@@ -2835,13 +2756,9 @@ differences
 bbox
 :
 {
+bbox
 }
 "
-.
-format
-(
-bbox
-)
 )
             
 buffered
@@ -3076,52 +2993,46 @@ right
 >
 =
 left
+f
 "
 Inconsistent
 boundaries
 right
 =
 {
+right
 }
 left
 =
 {
+left
 }
 "
-.
-format
-(
-                
-right
-left
-            
-)
             
 assert
+(
+                
 lower
 >
 =
 upper
+            
+)
+f
 "
 Inconsistent
 boundaries
 lower
 =
 {
+lower
 }
 upper
 =
 {
+upper
 }
 "
-.
-format
-(
-                
-lower
-upper
-            
-)
             
 if
 (
@@ -3378,6 +3289,7 @@ _logger
 .
 info
 (
+f
 "
 about
 :
@@ -3385,15 +3297,11 @@ support
 version
 :
 {
-}
-"
-.
-format
-(
 version_box
 .
 text
-)
+}
+"
 )
         
 assert
@@ -3467,7 +3375,7 @@ _logger
 .
 info
 (
-            
+f
 "
 about
 :
@@ -3476,16 +3384,11 @@ distribution
 ID
 :
 {
-}
-"
-.
-format
-(
 distributionid_box
 .
 text
-)
-        
+}
+"
 )
         
 assert
@@ -3562,7 +3465,7 @@ _logger
 .
 info
 (
-            
+f
 "
 about
 :
@@ -3571,14 +3474,9 @@ windowing
 protocol
 :
 {
+windowing_protocol
 }
 "
-.
-format
-(
-windowing_protocol
-)
-        
 )
         
 assert
@@ -3668,6 +3566,7 @@ _logger
 .
 info
 (
+f
 "
 about
 :
@@ -3675,15 +3574,11 @@ buildconfig
 source
 :
 {
-}
-"
-.
-format
-(
 source_link
 .
 text
-)
+}
+"
 )
         
 assert
@@ -3765,6 +3660,7 @@ _logger
 .
 info
 (
+f
 "
 about
 :
@@ -3772,15 +3668,11 @@ support
 buildflags
 :
 {
-}
-"
-.
-format
-(
 build_flags_box
 .
 text
-)
+}
+"
 )
         
 assert
@@ -4436,17 +4328,14 @@ _logger
 .
 info
 (
+f
 "
 video
 :
 {
+video
 }
 "
-.
-format
-(
-video
-)
 )
             
 if

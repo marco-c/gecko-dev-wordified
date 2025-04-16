@@ -911,20 +911,17 @@ format_
 :
         
 return
+f
 "
 {
-}
-SUMS
-"
-.
-format
-(
 format_
 .
 upper
 (
 )
-)
+}
+SUMS
+"
     
 def
 _get_summary_filename
@@ -935,20 +932,17 @@ format_
 :
         
 return
+f
 "
 {
-}
-SUMMARY
-"
-.
-format
-(
 format_
 .
 upper
 (
 )
-)
+}
+SUMMARY
+"
     
 def
 _get_hash_function
@@ -988,17 +982,14 @@ self
 .
 fatal
 (
+f
 "
 Unsupported
 format
 {
+format_
 }
 "
-.
-format
-(
-format_
-)
 )
     
 def
@@ -1158,21 +1149,18 @@ self
 .
 info
 (
+f
 "
 File
 prefix
 is
 :
 {
-}
-"
-.
-format
-(
 self
 .
 file_prefix
-)
+}
+"
 )
         
 #
@@ -1198,16 +1186,13 @@ self
 .
 debug
 (
+f
 "
 Downloading
 {
+item
 }
 "
-.
-format
-(
-item
-)
 )
             
 sums
@@ -1299,21 +1284,18 @@ self
 .
 debug
 (
+f
 "
 Found
 checksums
 file
 :
 {
+key
+.
+key
 }
 "
-.
-format
-(
-key
-.
-key
-)
 )
                     
 checksum_files
@@ -1348,21 +1330,18 @@ self
 .
 debug
 (
+f
 "
 Found
 beet
 file
 :
 {
+key
+.
+key
 }
 "
-.
-format
-(
-key
-.
-key
-)
 )
                     
 checksum_files
@@ -1386,6 +1365,7 @@ self
 .
 debug
 (
+f
 "
 Ignoring
 non
@@ -1394,15 +1374,11 @@ checksums
 file
 :
 {
+key
+.
+key
 }
 "
-.
-format
-(
-key
-.
-key
-)
 )
             
 if
@@ -1547,12 +1523,14 @@ self
 debug
 (
                                     
+f
 "
 Duplicate
 checksum
 for
 file
 {
+f
 }
 "
                                     
@@ -1570,11 +1548,6 @@ continuing
 .
 .
 "
-.
-format
-(
-f
-)
                                 
 )
                                 
@@ -1585,6 +1558,7 @@ self
 fatal
 (
                                 
+f
 "
 Found
 duplicate
@@ -1592,6 +1566,7 @@ checksum
 entry
 for
 {
+f
 }
 "
                                 
@@ -1606,11 +1581,6 @@ to
 pick
 .
 "
-.
-format
-(
-f
-)
                             
 )
                         
@@ -1644,6 +1614,7 @@ self
 .
 fatal
 (
+f
 "
 Missing
 necessary
@@ -1651,19 +1622,16 @@ format
 for
 file
 {
+f
 }
 "
-.
-format
-(
-f
-)
 )
                         
 self
 .
 debug
 (
+f
 "
 Adding
 checksums
@@ -1671,13 +1639,9 @@ for
 file
 :
 {
+f
 }
 "
-.
-format
-(
-f
-)
 )
                         
 self
@@ -1698,6 +1662,7 @@ self
 .
 debug
 (
+f
 "
 Ignoring
 checksums
@@ -1705,13 +1670,9 @@ for
 file
 :
 {
+f
 }
 "
-.
-format
-(
-f
-)
 )
     
 def
@@ -1888,19 +1849,16 @@ self
 .
 info
 (
+f
 "
 Creating
 summary
 file
 :
 {
+summary
 }
 "
-.
-format
-(
-summary
-)
 )
             
 content
@@ -2009,6 +1967,7 @@ self
 .
 info
 (
+f
 "
 Creating
 big
@@ -2016,13 +1975,9 @@ checksums
 file
 :
 {
+sums
 }
 "
-.
-format
-(
-sums
-)
 )
             
 with
