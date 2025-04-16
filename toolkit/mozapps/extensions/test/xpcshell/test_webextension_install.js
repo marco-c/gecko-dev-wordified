@@ -3957,6 +3957,10 @@ origins
 manifestV2
 .
 optional_permissions
+data_collection
+:
+[
+]
 }
 optionalOriginsNormalized
 :
@@ -4226,6 +4230,10 @@ host_permissions
 *
 "
 ]
+data_collection
+:
+[
+]
 }
 optionalOriginsNormalized
 :
@@ -4427,6 +4435,10 @@ origins
 manifestV2Privileged
 .
 optional_permissions
+data_collection
+:
+[
+]
 }
 optionalOriginsNormalized
 :

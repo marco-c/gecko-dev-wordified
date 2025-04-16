@@ -492,6 +492,14 @@ difference
 permissions
 .
 length
+&
+&
+!
+difference
+.
+data_collection
+.
+length
 )
 {
 return
