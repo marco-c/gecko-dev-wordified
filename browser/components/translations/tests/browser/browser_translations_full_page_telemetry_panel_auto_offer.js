@@ -227,7 +227,7 @@ onOpenPanel
 :
 FullPageTranslationsTestUtils
 .
-assertPanelViewDefault
+assertPanelViewIntro
 }
 )
 ;

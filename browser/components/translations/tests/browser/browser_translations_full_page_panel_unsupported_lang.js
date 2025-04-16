@@ -126,11 +126,16 @@ FullPageTranslationsTestUtils
 .
 clickChangeSourceLanguageButton
 (
+{
+intro
+:
+true
+}
 )
 ;
 FullPageTranslationsTestUtils
 .
-assertPanelViewDefault
+assertPanelViewIntro
 (
 )
 ;

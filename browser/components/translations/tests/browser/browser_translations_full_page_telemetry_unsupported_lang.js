@@ -188,7 +188,7 @@ FullPageTranslationsTestUtils
 clickChangeSourceLanguageButton
 (
 {
-firstShow
+intro
 :
 true
 }
@@ -494,7 +494,7 @@ FullPageTranslationsTestUtils
 clickChangeSourceLanguageButton
 (
 {
-firstShow
+intro
 :
 true
 }
