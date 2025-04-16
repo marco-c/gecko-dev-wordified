@@ -6383,7 +6383,7 @@ mOriginMetadata
 ClientStorageScope
 :
 :
-CreateFromNull
+CreateFromMetadata
 (
 )
 /
