@@ -3883,7 +3883,15 @@ return
 mPresShell
 -
 >
-ObservingStyleFlushes
+NeedStyleFlush
+(
+)
+|
+|
+mPresShell
+-
+>
+NeedLayoutFlush
 (
 )
 |
