@@ -2687,7 +2687,7 @@ veryLong
 .
 repeat
 (
-72
+112
 )
 ;
 Glean
@@ -2943,7 +2943,7 @@ mabelsLikeBalloons
 .
 repeat
 (
-72
+112
 )
 ]
 .
@@ -3125,7 +3125,7 @@ mabelsKitchenCounters
 .
 repeat
 (
-72
+112
 )
 ]
 .
@@ -3315,7 +3315,7 @@ mabelsBalloonStrings
 .
 repeat
 (
-72
+112
 )
 ]
 .
@@ -5370,7 +5370,7 @@ mabelsCustomLabelLengths
 .
 repeat
 (
-72
+112
 )
 ]
 .
@@ -5976,7 +5976,7 @@ buttonJars
 .
 repeat
 (
-72
+112
 )
 ]
 .
