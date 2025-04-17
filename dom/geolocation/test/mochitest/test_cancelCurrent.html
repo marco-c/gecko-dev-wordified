@@ -38,7 +38,7 @@ title
 >
 Test
 for
-watchPosition
+getCurrentPosition
 <
 /
 title
@@ -229,9 +229,6 @@ test1
 }
 )
 ;
-var
-watchID
-;
 function
 failureCallback
 (
@@ -268,7 +265,7 @@ finish
 function
 successCallback
 (
-position
+_position
 )
 {
 ok
@@ -303,13 +300,11 @@ test1
 (
 )
 {
-watchID
-=
 navigator
 .
 geolocation
 .
-watchPosition
+getCurrentPosition
 (
 successCallback
 failureCallback
