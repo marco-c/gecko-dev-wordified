@@ -2677,6 +2677,9 @@ name
 "
 lang
 "
+if
+!
+after_part
 =
 >
 {
@@ -2796,6 +2799,9 @@ locale
 -
 dir
 "
+if
+!
+after_part
 =
 >
 {
@@ -2817,6 +2823,9 @@ parser
 "
 dir
 "
+if
+!
+after_part
 =
 >
 {
