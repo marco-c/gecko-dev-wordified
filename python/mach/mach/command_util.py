@@ -1623,6 +1623,25 @@ py
 )
     
 "
+newtab
+"
+:
+MachCommandReference
+(
+"
+browser
+/
+extensions
+/
+newtab
+/
+mach_commands
+.
+py
+"
+)
+    
+"
 node
 "
 :
