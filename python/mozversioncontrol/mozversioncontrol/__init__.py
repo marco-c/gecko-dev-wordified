@@ -101,16 +101,6 @@ mozversioncontrol
 .
 repo
 .
-jj
-import
-JujutsuRepository
-#
-noqa
-from
-mozversioncontrol
-.
-repo
-.
 mercurial
 import
 HgRepository
