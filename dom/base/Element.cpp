@@ -36406,7 +36406,7 @@ safe
 sanitizer
 -
 >
-SanitizeFragment
+Sanitize
 (
 fragment
 /
