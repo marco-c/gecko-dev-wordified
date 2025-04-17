@@ -245,7 +245,6 @@ context
 Context
 &
 context
-const
 nostd
 :
 :
@@ -253,7 +252,6 @@ shared_ptr
 <
 Span
 >
-&
 span
 )
 noexcept

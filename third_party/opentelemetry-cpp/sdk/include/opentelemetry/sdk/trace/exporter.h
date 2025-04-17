@@ -294,6 +294,8 @@ timeout
 the
 default
 timeout
+of
+0
 means
 that
 no
@@ -346,8 +348,6 @@ max
 )
 )
 noexcept
-=
-0
 ;
 /
 *

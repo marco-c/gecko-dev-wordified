@@ -949,7 +949,6 @@ static
 void
 SetRuntimeContextStorage
 (
-const
 nostd
 :
 :
@@ -957,7 +956,6 @@ shared_ptr
 <
 RuntimeContextStorage
 >
-&
 storage
 )
 noexcept
