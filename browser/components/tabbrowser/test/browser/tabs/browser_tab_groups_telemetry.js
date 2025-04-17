@@ -3823,6 +3823,10 @@ saved
 )
 ;
 await
+win
+.
+gBrowser
+.
 removeTabGroup
 (
 win
