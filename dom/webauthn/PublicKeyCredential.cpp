@@ -1456,17 +1456,6 @@ mValue
 =
 true
 ;
-/
-/
-Bug
-1863819
-:
-support
-the
-PRF
-extension
-/
-/
 entry
 =
 capabilities
@@ -1479,8 +1468,6 @@ AppendElement
 (
 )
 ;
-/
-/
 entry
 -
 >
@@ -1494,8 +1481,6 @@ prf
 "
 _ns
 ;
-/
-/
 entry
 -
 >
