@@ -23412,10 +23412,6 @@ interestPicker
 :
 {
 }
-surfaceId
-:
-"
-"
 recommendations
 :
 [
