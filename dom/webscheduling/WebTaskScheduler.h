@@ -1787,6 +1787,14 @@ mScheduler
 &
 &
 mWebTask
+&
+&
+mWebTask
+-
+>
+isInList
+(
+)
 )
 {
 MOZ_ASSERT
