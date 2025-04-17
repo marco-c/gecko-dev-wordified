@@ -2691,7 +2691,7 @@ addon
 -
 privatebrowsing
 -
-checkbox
+checkbox2
 "
 )
 ;
