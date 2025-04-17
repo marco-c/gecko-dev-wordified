@@ -12669,9 +12669,15 @@ true
 global
 mIsHtml
 ?
-DocumentFlavorHTML
+DocumentFlavor
 :
-DocumentFlavorLegacyGuess
+:
+HTML
+:
+DocumentFlavor
+:
+:
+LegacyGuess
 )
 ;
 NS_ENSURE_SUCCESS

@@ -260,7 +260,10 @@ nullptr
 /
 /
 aEventObject
-DocumentFlavorHTML
+DocumentFlavor
+:
+:
+HTML
 )
 ;
 if

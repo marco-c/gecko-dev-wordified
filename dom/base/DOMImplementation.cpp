@@ -636,7 +636,10 @@ NodePrincipal
 )
 true
 scriptHandlingObject
-DocumentFlavorXML
+DocumentFlavor
+:
+:
+XML
 )
 ;
 NS_ENSURE_SUCCESS
@@ -987,7 +990,10 @@ NodePrincipal
 )
 true
 scriptHandlingObject
-DocumentFlavorLegacyGuess
+DocumentFlavor
+:
+:
+LegacyGuess
 )
 ;
 NS_ENSURE_SUCCESS

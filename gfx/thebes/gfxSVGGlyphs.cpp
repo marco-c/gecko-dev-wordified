@@ -2625,7 +2625,10 @@ nullptr
 /
 /
 aEventObject
-DocumentFlavorSVG
+DocumentFlavor
+:
+:
+SVG
 )
 ;
 NS_ENSURE_SUCCESS
