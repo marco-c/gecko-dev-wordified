@@ -1089,17 +1089,6 @@ JSObject
 obj
 )
 ;
-extern
-JS_PUBLIC_API
-JSObject
-*
-UnwrapReadableStream
-(
-JSObject
-*
-obj
-)
-;
 namespace
 detail
 {
