@@ -841,6 +841,11 @@ payload
 "
 ]
         
+errors
+=
+[
+]
+        
 with
 open
 (
@@ -855,29 +860,16 @@ as
 fh
 :
             
-lines
-=
-fh
-.
-readlines
-(
-)
-        
-errors
-=
-[
-]
-        
 for
 i
 line
 in
 enumerate
 (
-lines
+fh
 )
 :
-            
+                
 if
 self
 .
@@ -888,7 +880,7 @@ line
 config
 )
 :
-                
+                    
 errors
 .
 append
