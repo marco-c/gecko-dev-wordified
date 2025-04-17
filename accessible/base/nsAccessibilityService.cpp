@@ -9177,7 +9177,7 @@ if
 aria
 :
 :
-HasDefinedARIAHidden
+IsValidARIAHidden
 (
 content
 )
