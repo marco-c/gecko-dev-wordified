@@ -43479,6 +43479,12 @@ arena
 was
 created
 .
+/
+/
+coverity
+[
+missing_lock
+]
 MOZ_RELEASE_ASSERT
 (
 mArenaIdKey
