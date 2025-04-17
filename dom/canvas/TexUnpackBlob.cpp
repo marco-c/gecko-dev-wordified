@@ -6740,6 +6740,15 @@ managerId
 (
 )
 ;
+int32_t
+canvasId
+=
+sdc
+.
+canvasId
+(
+)
+;
 uintptr_t
 surfaceId
 =
@@ -6766,6 +6775,7 @@ GetContentId
 (
 )
 managerId
+canvasId
 surfaceId
 )
 ;
