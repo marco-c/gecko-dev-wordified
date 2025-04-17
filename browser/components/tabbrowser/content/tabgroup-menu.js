@@ -5457,6 +5457,11 @@ this
 smartTabGroupsEnabled
 &
 &
+this
+.
+smartTabGroupsOptin
+&
+&
 (
 this
 .
@@ -6590,6 +6595,12 @@ if
 this
 .
 smartTabGroupsEnabled
+|
+|
+!
+this
+.
+smartTabGroupsOptin
 )
 {
 return
