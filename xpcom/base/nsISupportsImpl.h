@@ -1799,6 +1799,7 @@ bool
 aShouldDelete
 )
 ;
+constexpr
 nsCycleCollectingAutoRefCnt
 (
 )
@@ -2367,6 +2368,7 @@ nsAutoRefCnt
 {
 public
 :
+constexpr
 nsAutoRefCnt
 (
 )
@@ -2522,6 +2524,7 @@ ThreadSafeAutoRefCnt
 {
 public
 :
+constexpr
 ThreadSafeAutoRefCnt
 (
 )
