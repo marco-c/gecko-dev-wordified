@@ -975,9 +975,6 @@ name
 "
 Temporal
 "
-nightly
-:
-true
 insecureContext
 :
 true
