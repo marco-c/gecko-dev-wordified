@@ -21103,6 +21103,10 @@ b
 true
 )
 ;
+/
+/
+Shortcuts
+experiment
 pref
 (
 "
@@ -21118,7 +21122,7 @@ newtabShortcuts
 .
 refresh
 "
-true
+false
 )
 ;
 /
