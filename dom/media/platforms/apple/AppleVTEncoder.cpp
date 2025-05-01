@@ -646,6 +646,11 @@ aBitsPerSec
 {
 int32_t
 bps
+=
+AssertedCast
+<
+int32_t
+>
 (
 aBitsPerSec
 )
