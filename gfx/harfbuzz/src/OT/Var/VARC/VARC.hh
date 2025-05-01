@@ -1060,6 +1060,7 @@ VARC
 >
 table
 ;
+mutable
 hb_atomic_t
 <
 hb_varc_scratch_t

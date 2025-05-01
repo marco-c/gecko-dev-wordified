@@ -759,6 +759,15 @@ hb
 -
 paint
 -
+bounded
+.
+cc
+'
+'
+hb
+-
+paint
+-
 extents
 .
 cc

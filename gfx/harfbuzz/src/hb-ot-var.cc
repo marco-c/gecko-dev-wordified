@@ -735,7 +735,7 @@ Deprecated
 2
 .
 0
--
+:
 use
 hb_ot_var_find_axis_info
 (

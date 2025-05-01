@@ -2036,6 +2036,7 @@ pointer
 .
 *
 /
+mutable
 hb_atomic_t
 <
 Stored

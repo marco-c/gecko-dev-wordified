@@ -1992,6 +1992,7 @@ ARABIC_NUM_FEATURES
 1
 ]
 ;
+mutable
 hb_atomic_t
 <
 arabic_fallback_plan_t

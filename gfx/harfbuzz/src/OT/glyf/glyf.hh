@@ -3083,6 +3083,7 @@ glyf
 >
 glyf_table
 ;
+mutable
 hb_atomic_t
 <
 hb_glyf_scratch_t
