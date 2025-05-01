@@ -1217,6 +1217,14 @@ processTopicModelResult
 )
 {
 const
+smartTabGroupingManager
+=
+new
+SmartTabGroupingManager
+(
+)
+;
+const
 input_phrases
 =
 [
@@ -1322,7 +1330,7 @@ Assert
 .
 equal
 (
-SmartTabGroupingManager
+smartTabGroupingManager
 .
 processTopicModelResult
 (
