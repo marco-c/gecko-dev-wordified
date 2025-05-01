@@ -686,9 +686,6 @@ aSession
 kVTCompressionPropertyKey_ConstantBitRate
 bitrate
 )
-=
-=
-noErr
 ;
 if
 (
@@ -710,6 +707,12 @@ supported
 )
 ;
 }
+return
+rv
+=
+=
+noErr
+;
 }
 return
 false
