@@ -104,6 +104,7 @@ js
 import
 {
 kResourceStates
+AllFeaturesMaxLimitsGPUTest
 }
 from
 '
@@ -128,9 +129,9 @@ js
 '
 ;
 import
-{
-AllFeaturesMaxLimitsValidationTest
-}
+*
+as
+vtu
 from
 '
 .
@@ -142,7 +143,7 @@ from
 .
 .
 /
-validation_test
+validation_test_utils
 .
 js
 '
@@ -167,7 +168,7 @@ g
 =
 makeTestGroup
 (
-AllFeaturesMaxLimitsValidationTest
+AllFeaturesMaxLimitsGPUTest
 )
 ;
 g
@@ -224,10 +225,11 @@ params
 const
 indexBuffer
 =
-t
+vtu
 .
 createBufferWithState
 (
+t
 state
 {
 size

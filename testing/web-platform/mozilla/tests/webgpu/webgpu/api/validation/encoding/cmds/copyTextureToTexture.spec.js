@@ -121,6 +121,7 @@ js
 import
 {
 kResourceStates
+AllFeaturesMaxLimitsGPUTest
 }
 from
 '
@@ -168,9 +169,9 @@ js
 '
 ;
 import
-{
-AllFeaturesMaxLimitsValidationTest
-}
+*
+as
+vtu
 from
 '
 .
@@ -179,7 +180,7 @@ from
 .
 .
 /
-validation_test
+validation_test_utils
 .
 js
 '
@@ -187,7 +188,7 @@ js
 class
 F
 extends
-AllFeaturesMaxLimitsValidationTest
+AllFeaturesMaxLimitsGPUTest
 {
 TestCopyTextureToTexture
 (
@@ -557,10 +558,11 @@ COPY_DST
 const
 srcTexture
 =
-t
+vtu
 .
 createTextureWithState
 (
+t
 srcState
 textureDesc
 )
@@ -568,10 +570,11 @@ textureDesc
 const
 dstTexture
 =
-t
+vtu
 .
 createTextureWithState
 (
+t
 dstState
 textureDesc
 )

@@ -1696,7 +1696,6 @@ status
 .
 *
 /
-protected
 eventualAsyncExpectation
 <
 T

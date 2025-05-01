@@ -72,7 +72,6 @@ js
 import
 {
 AllFeaturesMaxLimitsGPUTest
-TextureTestMixin
 }
 from
 '
@@ -93,10 +92,7 @@ js
 class
 VertexBuiltinTest
 extends
-TextureTestMixin
-(
 AllFeaturesMaxLimitsGPUTest
-)
 {
 }
 export

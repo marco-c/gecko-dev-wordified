@@ -74,7 +74,7 @@ js
 ;
 import
 {
-UniqueFeaturesAndLimitsValidationTest
+UniqueFeaturesOrLimitsGPUTest
 }
 from
 '
@@ -84,7 +84,13 @@ from
 .
 .
 /
-validation_test
+.
+.
+/
+.
+.
+/
+gpu_test
 .
 js
 '
@@ -95,7 +101,7 @@ g
 =
 makeTestGroup
 (
-UniqueFeaturesAndLimitsValidationTest
+UniqueFeaturesOrLimitsGPUTest
 )
 ;
 g

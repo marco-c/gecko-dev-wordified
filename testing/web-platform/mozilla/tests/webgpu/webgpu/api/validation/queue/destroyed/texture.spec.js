@@ -102,7 +102,7 @@ js
 ;
 import
 {
-AllFeaturesMaxLimitsValidationTest
+AllFeaturesMaxLimitsGPUTest
 }
 from
 '
@@ -112,7 +112,13 @@ from
 .
 .
 /
-validation_test
+.
+.
+/
+.
+.
+/
+gpu_test
 .
 js
 '
@@ -123,7 +129,7 @@ g
 =
 makeTestGroup
 (
-AllFeaturesMaxLimitsValidationTest
+AllFeaturesMaxLimitsGPUTest
 )
 ;
 g

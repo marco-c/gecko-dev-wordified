@@ -106,7 +106,7 @@ js
 ;
 import
 {
-AllFeaturesMaxLimitsValidationTest
+AllFeaturesMaxLimitsGPUTest
 }
 from
 '
@@ -116,7 +116,13 @@ from
 .
 .
 /
-validation_test
+.
+.
+/
+.
+.
+/
+gpu_test
 .
 js
 '
@@ -189,7 +195,7 @@ texture
 class
 F
 extends
-AllFeaturesMaxLimitsValidationTest
+AllFeaturesMaxLimitsGPUTest
 {
 getColorAttachment
 (
