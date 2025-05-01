@@ -5559,8 +5559,8 @@ False
 #
 Bug
 1898514
-:
-avoid
+-
+Avoid
 tp6m
 or
 non
@@ -5576,19 +5576,24 @@ non
 a55
 platform
                 
+#
+Bug
+1961831
+-
+Disable
+pageload
+tests
+temporarily
+during
+provider
+switch
+                
 if
 "
 tp6m
 "
 in
 try_name
-and
-"
-a55
-"
-not
-in
-platform
 :
                     
 return
@@ -5597,6 +5602,7 @@ False
 #
 Bug
 1945165
+-
 Disable
 ebay
 -
