@@ -119,7 +119,7 @@ include
 "
 gc
 /
-Barrier
+Allocator
 .
 h
 "
@@ -128,7 +128,7 @@ include
 "
 gc
 /
-BufferAllocator
+Barrier
 .
 h
 "
@@ -2660,10 +2660,7 @@ bufferp
 gc
 :
 :
-BufferAllocator
-:
-:
-TraceEdge
+TraceBufferEdgeInternal
 (
 trc
 owner
