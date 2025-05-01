@@ -90,6 +90,9 @@ GeckoSharedLibrary
 "
 AccessibleMarshal
 "
+linkage
+=
+None
 )
 #
 Missing

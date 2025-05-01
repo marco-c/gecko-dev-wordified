@@ -3783,6 +3783,9 @@ GeckoSharedLibrary
 name
 }
 "
+linkage
+=
+None
 )
 '
 )
