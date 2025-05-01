@@ -64,8 +64,6 @@ datetime
 timedelta
 import
 requests
-import
-six
 TASK_DURATION_URL
 =
 (
@@ -693,14 +691,9 @@ f
 .
 write
 (
-six
-.
-ensure_text
-(
 r
 .
-content
-)
+text
 )
     
 with

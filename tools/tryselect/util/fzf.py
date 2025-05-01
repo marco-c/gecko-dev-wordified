@@ -65,8 +65,6 @@ import
 sys
 import
 mozfile
-import
-six
 from
 gecko_taskgraph
 .
@@ -1658,10 +1656,6 @@ ff95134
     
 fzf_version
 =
-six
-.
-ensure_text
-(
 fzf_version
 .
 split
@@ -1670,6 +1664,9 @@ split
 [
 0
 ]
+.
+decode
+(
 )
     
 return

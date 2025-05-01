@@ -263,6 +263,10 @@ import
 sys
 import
 time
+from
+io
+import
+StringIO
 import
 mozpack
 .
@@ -289,10 +293,6 @@ mozbuild
 dirutils
 import
 mkdir
-from
-six
-import
-StringIO
 AUTOMATION
 =
 "

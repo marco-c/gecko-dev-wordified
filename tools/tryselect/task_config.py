@@ -119,8 +119,6 @@ as
 mozpath
 import
 requests
-import
-six
 from
 mozbuild
 .
@@ -1396,11 +1394,6 @@ env
 MOZHARNESS_TEST_PATHS
 "
 :
-six
-.
-ensure_text
-(
-                    
 json
 .
 dumps
@@ -1409,8 +1402,6 @@ resolve_tests_by_suite
 (
 paths
 )
-)
-                
 )
             
 }
