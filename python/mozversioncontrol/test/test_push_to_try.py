@@ -1167,19 +1167,14 @@ short
 (
 str
 (
-tool
+vcs
+.
+_git
+.
+_tool
 )
 "
-git
-"
-"
 remote
-"
-"
-remove
-"
-"
-mach_tryserver
 "
 )
             
