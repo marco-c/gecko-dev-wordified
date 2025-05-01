@@ -5550,7 +5550,7 @@ if
 (
 soft_clip
 )
-opus_pcm_soft_clip
+opus_pcm_soft_clip_impl
 (
 pcm
 nb_samples
@@ -5562,6 +5562,10 @@ st
 -
 >
 softclip_mem
+st
+-
+>
+arch
 )
 ;
 else
