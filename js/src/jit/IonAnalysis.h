@@ -258,6 +258,9 @@ FoldEmptyBlocks
 MIRGraph
 &
 graph
+bool
+*
+changed
 )
 ;
 [
