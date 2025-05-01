@@ -10,11 +10,8 @@ skip
 if
 :
 !
-getPrefValue
+wasmLazyTieringEnabled
 (
-"
-wasm_lazy_tiering
-"
 )
 |
 |
