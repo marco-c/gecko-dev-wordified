@@ -454,6 +454,11 @@ GeckoSharedLibrary
 "
 testcrasher
 "
+linkage
+=
+"
+dependent
+"
 )
 DEFINES
 [

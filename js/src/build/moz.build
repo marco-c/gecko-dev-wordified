@@ -249,9 +249,6 @@ GeckoSharedLibrary
 "
 js
 "
-linkage
-=
-None
 )
 SHARED_LIBRARY_NAME
 =
