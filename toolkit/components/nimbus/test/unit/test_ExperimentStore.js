@@ -1997,7 +1997,10 @@ cachedExperiment
 .
 branch
 .
-feature
+features
+[
+0
+]
 .
 value
 {
@@ -2854,7 +2857,10 @@ featureIds
 .
 branch
 .
-feature
+features
+[
+0
+]
 rollout
 .
 branch
@@ -3828,7 +3834,10 @@ purple
 .
 branch
 .
-feature
+features
+[
+0
+]
 .
 value
 experiment
