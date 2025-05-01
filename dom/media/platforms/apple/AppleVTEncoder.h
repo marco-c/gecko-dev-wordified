@@ -139,6 +139,15 @@ h
 #
 include
 "
+apple
+/
+AppleUtils
+.
+h
+"
+#
+include
+"
 PlatformEncoderModule
 .
 h
@@ -615,7 +624,10 @@ in
 task
 queue
 .
+AutoCFTypeRef
+<
 VTCompressionSessionRef
+>
 mSession
 ;
 /
