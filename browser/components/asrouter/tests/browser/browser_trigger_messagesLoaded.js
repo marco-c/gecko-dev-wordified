@@ -752,7 +752,7 @@ waitForCondition
 >
 ExperimentAPI
 .
-getExperiment
+getExperimentMetaData
 (
 {
 featureId

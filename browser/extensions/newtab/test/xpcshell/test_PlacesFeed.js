@@ -4165,7 +4165,7 @@ stub
 (
 ExperimentAPI
 "
-getExperiment
+getExperimentMetaData
 "
 )
 .
@@ -4177,6 +4177,9 @@ slug
 "
 slug
 "
+active
+:
+true
 branch
 :
 {

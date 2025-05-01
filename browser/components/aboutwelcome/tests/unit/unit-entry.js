@@ -2469,11 +2469,6 @@ fake_client_id
 ExperimentAPI
 :
 {
-getExperiment
-(
-)
-{
-}
 getExperimentMetaData
 (
 )

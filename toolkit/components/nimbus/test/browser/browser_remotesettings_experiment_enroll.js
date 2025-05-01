@@ -314,7 +314,7 @@ experiment
 =
 ExperimentAPI
 .
-getExperiment
+getExperimentMetaData
 (
 {
 slug
@@ -355,7 +355,7 @@ experiment
 =
 ExperimentAPI
 .
-getExperiment
+getExperimentMetaData
 (
 {
 slug
