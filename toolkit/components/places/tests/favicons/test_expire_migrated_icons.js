@@ -203,12 +203,13 @@ test
 )
 ;
 let
-favicon
+{
+data
+mimeType
+}
 =
 await
-PlacesTestUtils
-.
-getFaviconForPage
+getFaviconDataForPage
 (
 PAGE_URL
 )
@@ -217,8 +218,6 @@ Assert
 .
 equal
 (
-favicon
-.
 mimeType
 "
 image
@@ -231,9 +230,7 @@ Assert
 .
 deepEqual
 (
-favicon
-.
-rawData
+data
 "
 test
 "
