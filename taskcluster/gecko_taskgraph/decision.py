@@ -3672,12 +3672,6 @@ dump
 (
 data
 f
-sort_keys
-=
-True
-indent
-=
-2
 separators
 =
 (
