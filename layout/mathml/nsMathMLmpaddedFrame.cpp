@@ -1678,7 +1678,6 @@ aValueToUpdate
 float
 aFontSizeInflation
 )
-const
 {
 nsCSSUnit
 unit
@@ -1922,14 +1921,11 @@ amount
 =
 CalcLength
 (
-PresContext
-(
-)
-mComputedStyle
 aAttribute
 .
 mValue
 aFontSizeInflation
+this
 )
 ;
 }
