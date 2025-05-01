@@ -1195,7 +1195,6 @@ bool
 IsGlobalRefSet
 (
 )
-const
 ;
 /
 /
@@ -1214,6 +1213,18 @@ counter
 void
 GlobalRefAdd
 (
+)
+;
+void
+GlobalRefAddLocked
+(
+const
+mozilla
+:
+:
+MutexAutoLock
+&
+aProofOfLock
 )
 ;
 void
