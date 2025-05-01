@@ -808,6 +808,15 @@ version
 )
 :
 str
+    
+Optional
+(
+"
+head_git_rev
+"
+)
+:
+str
 }
 def
 get_contents
