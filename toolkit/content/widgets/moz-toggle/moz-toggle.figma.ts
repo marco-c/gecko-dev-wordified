@@ -13,6 +13,7 @@ connect
 /
 html
 "
+;
 /
 /
 Desktop
@@ -192,13 +193,10 @@ Checked
 }
 example
 :
-(
 props
-)
 =
 >
 html
-\
 <
 moz
 -
@@ -268,6 +266,7 @@ toggle
 >
 }
 )
+;
 /
 /
 Desktop
@@ -376,13 +375,10 @@ Switch
 }
 example
 :
-(
 props
-)
 =
 >
 html
-\
 <
 moz
 -
@@ -426,3 +422,4 @@ toggle
 >
 }
 )
+;

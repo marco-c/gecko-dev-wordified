@@ -13,6 +13,7 @@ connect
 /
 html
 "
+;
 /
 *
 *
@@ -279,13 +280,10 @@ dark
 }
 example
 :
-(
 props
-)
 =
 >
 html
-\
 <
 moz
 -
@@ -338,3 +336,4 @@ bar
 >
 }
 )
+;

@@ -13,12 +13,11 @@ connect
 /
 html
 "
+;
 const
 example
 =
-(
 props
-)
 =
 >
 html
@@ -215,6 +214,7 @@ small
 example
 }
 )
+;
 /
 /
 Desktop
@@ -353,6 +353,7 @@ undefined
 example
 }
 )
+;
 /
 /
 Desktop
@@ -503,3 +504,4 @@ undefined
 example
 }
 )
+;

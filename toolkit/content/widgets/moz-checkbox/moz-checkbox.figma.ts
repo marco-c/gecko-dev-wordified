@@ -13,6 +13,7 @@ connect
 /
 html
 "
+;
 /
 /
 Desktop
@@ -189,9 +190,7 @@ true
 }
 example
 :
-(
 props
-)
 =
 >
 html
@@ -264,6 +263,7 @@ checkbox
 >
 }
 )
+;
 /
 /
 Desktop
@@ -362,9 +362,7 @@ Label
 }
 example
 :
-(
 props
-)
 =
 >
 html
@@ -409,3 +407,4 @@ checkbox
 >
 }
 )
+;
