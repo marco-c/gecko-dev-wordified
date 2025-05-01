@@ -1193,12 +1193,6 @@ CompositorScrollUpdate
 aUpdate
 )
 {
-#
-if
-defined
-(
-MOZ_WIDGET_ANDROID
-)
 CompositorThread
 (
 )
@@ -1227,8 +1221,6 @@ aUpdate
 )
 )
 ;
-#
-endif
 }
 UiCompositorControllerParent
 :

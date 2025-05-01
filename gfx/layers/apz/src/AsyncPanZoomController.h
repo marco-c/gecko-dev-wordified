@@ -4136,9 +4136,6 @@ Metrics
 (
 )
 ;
-#
-ifdef
-MOZ_WIDGET_ANDROID
 /
 *
 *
@@ -4185,14 +4182,6 @@ UIController
 CompositorScrollUpdate
 mLastCompositorScrollUpdate
 ;
-#
-endif
-/
-/
-defined
-(
-MOZ_WIDGET_ANDROID
-)
 public
 :
 wr
