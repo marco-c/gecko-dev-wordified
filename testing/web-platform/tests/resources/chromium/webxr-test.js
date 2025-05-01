@@ -5742,6 +5742,13 @@ _calculateAnchorInformation
 frameData
 )
 ;
+if
+(
+options
+.
+depthActive
+)
+{
 this
 .
 _calculateDepthInformation
@@ -5749,6 +5756,7 @@ _calculateDepthInformation
 frameData
 )
 ;
+}
 this
 .
 _injectAdditionalFrameData
