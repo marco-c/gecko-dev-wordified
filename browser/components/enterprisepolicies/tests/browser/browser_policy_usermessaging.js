@@ -171,13 +171,9 @@ setupPolicyEngineWithJson
 policies
 :
 {
-UserMessaging
-:
-{
 SkipTermsOfUse
 :
 true
-}
 }
 }
 )
