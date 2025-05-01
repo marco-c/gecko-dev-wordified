@@ -3974,7 +3974,7 @@ type
 )
 {
 case
-FormDataValue
+IPCFormDataValue
 :
 :
 TBlobImpl
@@ -3996,7 +3996,7 @@ GetAllocationSize
 break
 ;
 case
-FormDataValue
+IPCFormDataValue
 :
 :
 TnsString
