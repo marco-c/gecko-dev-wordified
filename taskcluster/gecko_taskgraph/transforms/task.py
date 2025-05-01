@@ -13542,6 +13542,26 @@ user
 ]
 payload_builder
 (
+"
+landoscript
+"
+schema
+=
+{
+}
+)
+def
+build_landoscript_payload
+(
+config
+task
+task_def
+)
+:
+    
+pass
+payload_builder
+(
     
 "
 invalid
