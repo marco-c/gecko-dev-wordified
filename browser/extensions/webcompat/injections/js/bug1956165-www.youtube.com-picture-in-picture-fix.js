@@ -330,10 +330,6 @@ exportFunction
 (
 function
 (
-.
-.
-.
-args
 )
 {
 if
@@ -353,7 +349,6 @@ originalExitFullscreen
 apply
 (
 this
-args
 )
 ;
 }
