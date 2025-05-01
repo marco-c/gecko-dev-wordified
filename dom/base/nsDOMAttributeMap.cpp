@@ -1242,6 +1242,9 @@ SetNamedItemNS
 Attr
 &
 aAttr
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aError
@@ -1429,6 +1432,7 @@ NamespaceID
 (
 )
 value
+aSubjectPrincipal
 compliantStringHolder
 aError
 )

@@ -1003,6 +1003,9 @@ const
 TrustedHTMLOrTrustedScriptOrTrustedScriptURLOrString
 &
 aNewValue
+nsIPrincipal
+*
+aPrincipalOrNull
 Maybe
 <
 nsAutoString
@@ -1033,6 +1036,9 @@ const
 nsAString
 &
 aNewValue
+nsIPrincipal
+*
+aPrincipalOrNull
 Maybe
 <
 nsAutoString
