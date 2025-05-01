@@ -1071,6 +1071,13 @@ aReadbackBuffer
 bool
 *
 aNeedsYFlip
+const
+wr
+:
+:
+FrameReadyParams
+&
+aFrameParams
 RendererStats
 *
 aOutStats
