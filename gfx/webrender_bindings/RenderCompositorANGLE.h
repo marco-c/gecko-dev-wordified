@@ -702,6 +702,16 @@ wr
 :
 ImageRendering
 aImageRendering
+wr
+:
+:
+DeviceIntRect
+aRoundedClipRect
+wr
+:
+:
+ClipRadius
+aClipRadius
 )
 override
 ;

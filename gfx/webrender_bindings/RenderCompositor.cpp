@@ -346,6 +346,16 @@ wr
 :
 ImageRendering
 aImageRendering
+wr
+:
+:
+DeviceIntRect
+aRoundedClipRect
+wr
+:
+:
+ClipRadius
+aRoundedClipRadius
 )
 {
 RenderCompositor
@@ -371,6 +381,8 @@ aId
 aTransform
 aClipRect
 aImageRendering
+aRoundedClipRect
+aRoundedClipRadius
 )
 ;
 }

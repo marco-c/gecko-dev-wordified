@@ -199,6 +199,7 @@ device
 :
 :
 Device
+ClipRadius
 }
 ;
 pub
@@ -11356,6 +11357,12 @@ DeviceIntRect
 filter
 :
 ImageRendering
+_rounded_clip_rect
+:
+DeviceIntRect
+_rounded_clip_radii
+:
+ClipRadius
 )
 {
 if
@@ -11374,6 +11381,8 @@ id
 transform
 clip_rect
 filter
+_rounded_clip_rect
+_rounded_clip_radii
 )
 ;
 }

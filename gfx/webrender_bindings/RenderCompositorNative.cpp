@@ -2664,6 +2664,16 @@ wr
 :
 ImageRendering
 aImageRendering
+wr
+:
+:
+DeviceIntRect
+aRoundedClipRect
+wr
+:
+:
+ClipRadius
+aClipRadius
 )
 {
 MOZ_RELEASE_ASSERT

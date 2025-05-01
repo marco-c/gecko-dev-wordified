@@ -5787,6 +5787,16 @@ wr
 :
 ImageRendering
 aImageRendering
+wr
+:
+:
+DeviceIntRect
+aRoundedClipRect
+wr
+:
+:
+ClipRadius
+aClipRadius
 )
 {
 mDCLayerTree
@@ -5798,6 +5808,8 @@ aId
 aTransform
 aClipRect
 aImageRendering
+aRoundedClipRect
+aClipRadius
 )
 ;
 }

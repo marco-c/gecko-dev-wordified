@@ -985,6 +985,7 @@ composite
 LayerCompositor
 CompositorInputConfig
 CompositorSurfaceUsage
+ClipRadius
 }
 ;
 pub
