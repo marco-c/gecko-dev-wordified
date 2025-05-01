@@ -1648,7 +1648,7 @@ yes
 "
 )
 ;
-AutoCFRelease
+AutoCFTypeRef
 <
 CFDictionaryRef
 >
@@ -2336,7 +2336,7 @@ TODO
 kCVPixelBufferPixelFormatTypeKey
 }
 ;
-AutoCFRelease
+AutoCFTypeRef
 <
 CFDictionaryRef
 >
@@ -2355,7 +2355,7 @@ kCFTypeDictionaryValueCallBacks
 )
 )
 ;
-AutoCFRelease
+AutoCFTypeRef
 <
 CFNumberRef
 >
@@ -4408,7 +4408,7 @@ MaybeResolveOrRejectEncodePromise
 )
 ;
 }
-AutoCVBufferRelease
+AutoCVBufferRef
 <
 CVImageBufferRef
 >
