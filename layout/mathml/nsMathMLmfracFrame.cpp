@@ -574,6 +574,12 @@ nsMathMLmfracFrame
 :
 CalcLineThickness
 (
+nsPresContext
+*
+aPresContext
+ComputedStyle
+*
+aComputedStyle
 nsString
 &
 aThicknessAttribute
@@ -637,7 +643,7 @@ lineThickness
 =
 defaultThickness
 ;
-ParseAndCalcNumericValue
+ParseNumericValue
 (
 aThicknessAttribute
 &
@@ -649,8 +655,9 @@ MathMLElement
 :
 :
 PARSE_ALLOW_NEGATIVE
+aPresContext
+aComputedStyle
 aFontSizeInflation
-this
 )
 ;
 /
@@ -1310,7 +1317,7 @@ GetAttr
 nsGkAtoms
 :
 :
-linethickness_
+linethickness
 value
 )
 ;
@@ -1318,6 +1325,8 @@ mLineThickness
 =
 CalcLineThickness
 (
+presContext
+mComputedStyle
 value
 onePixel
 defaultRuleThickness

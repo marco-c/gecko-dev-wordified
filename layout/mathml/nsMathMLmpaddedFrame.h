@@ -482,6 +482,7 @@ aValueToUpdate
 float
 aFontSizeInflation
 )
+const
 ;
 }
 ;
