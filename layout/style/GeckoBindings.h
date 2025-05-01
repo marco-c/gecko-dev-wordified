@@ -3288,10 +3288,11 @@ mozilla
 :
 Length
 font_size
-bool
-use_user_font_set
-bool
-retrieve_math_scales
+mozilla
+:
+:
+StyleQueryFontMetricsFlags
+flags
 )
 ;
 mozilla
