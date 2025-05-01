@@ -3121,10 +3121,7 @@ mAvcc
 ;
 }
 return
-avcc
-!
-=
-nullptr
+true
 ;
 }
 static
