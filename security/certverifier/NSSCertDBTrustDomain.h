@@ -433,9 +433,6 @@ DisableMD5
 (
 )
 ;
-#
-ifdef
-MOZ_SYSTEM_NSS
 /
 *
 *
@@ -513,11 +510,6 @@ nsCString
 dir
 )
 ;
-#
-endif
-/
-/
-MOZ_SYSTEM_NSS
 /
 *
 *

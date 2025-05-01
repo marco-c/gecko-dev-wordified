@@ -11939,9 +11939,6 @@ false
 #
 endif
 }
-#
-ifdef
-MOZ_SYSTEM_NSS
 bool
 LoadLoadableRoots
 (
@@ -11983,11 +11980,6 @@ nullptr
 )
 ;
 }
-#
-endif
-/
-/
-MOZ_SYSTEM_NSS
 extern
 "
 C
