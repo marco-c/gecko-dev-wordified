@@ -77,10 +77,32 @@ format
     
 }
     
+#
+the
+android
+linters
+ignore
+the
+paths
+argument
+so
+just
+use
+an
+empty
+list
+    
+paths
+=
+[
+]
+    
 results
 =
 global_lint
 (
+        
+paths
         
 config
 =

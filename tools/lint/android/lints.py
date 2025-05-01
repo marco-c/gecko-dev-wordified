@@ -638,6 +638,7 @@ returncode
 def
 format
 (
+_paths
 config
 fix
 =
@@ -1203,6 +1204,7 @@ results
 def
 fenix_format
 (
+_paths
 config
 fix
 =
@@ -1246,6 +1248,7 @@ lintargs
 def
 ac_format
 (
+_paths
 config
 fix
 =
@@ -1291,6 +1294,7 @@ lintargs
 def
 focus_format
 (
+_paths
 config
 fix
 =
@@ -1971,6 +1975,7 @@ False
 def
 api_lint
 (
+_paths
 config
 *
 *
@@ -2370,6 +2375,7 @@ results
 def
 javadoc
 (
+_paths
 config
 *
 *
@@ -2649,6 +2655,7 @@ results
 def
 lint
 (
+_paths
 config
 *
 *
@@ -3189,6 +3196,7 @@ err
 def
 checkstyle
 (
+_paths
 config
 *
 *
@@ -3886,6 +3894,7 @@ err
 def
 test
 (
+_paths
 config
 *
 *

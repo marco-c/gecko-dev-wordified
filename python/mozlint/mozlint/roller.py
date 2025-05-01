@@ -812,8 +812,6 @@ get_context
         
 super
 (
-InterruptableQueue
-self
 )
 .
 __init__
@@ -909,6 +907,9 @@ process
     
 global
 SHUTDOWN
+#
+noqa
+PLW0603
     
 SHUTDOWN
 =
