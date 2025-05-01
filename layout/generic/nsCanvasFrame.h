@@ -628,7 +628,8 @@ override
 ;
 #
 endif
-nsresult
+nsIContent
+*
 GetContentForEvent
 (
 const
@@ -637,12 +638,8 @@ mozilla
 :
 WidgetEvent
 *
-aEvent
-nsIContent
-*
-*
-aContent
 )
+const
 override
 ;
 nsRect
