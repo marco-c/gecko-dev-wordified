@@ -17938,6 +17938,9 @@ const
 TrustedHTMLOrString
 &
 aFragment
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aRv
@@ -18014,6 +18017,7 @@ sink
 kTrustedTypesOnlySinkGroup
 *
 node
+aSubjectPrincipal
 compliantStringHolder
 aRv
 )

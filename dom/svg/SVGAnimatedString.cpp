@@ -652,6 +652,9 @@ SVGElement
 aSVGElement
 bool
 aDoSetAttr
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aRv
@@ -752,6 +755,7 @@ sink
 kTrustedTypesOnlySinkGroup
 *
 svgElement
+aSubjectPrincipal
 compliantStringHolder
 aRv
 )

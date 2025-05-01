@@ -2484,6 +2484,9 @@ aSinkGroup
 NodeOrGlobalObject
 &
 aNodeOrGlobalObject
+nsIPrincipal
+*
+aPrincipalOrNull
 Maybe
 <
 nsAutoString
@@ -3548,12 +3551,16 @@ _nodeOrGlobalObject
 &
 aNodeOrGlobal
 \
+nsIPrincipal
+*
+aPrincipalOrNull
 Maybe
 <
 nsAutoString
 >
 &
 aResultHolder
+\
 ErrorResult
 &
 aError
@@ -3571,6 +3578,8 @@ aInput
 aSink
 aSinkGroup
 aNodeOrGlobal
+aPrincipalOrNull
+\
 aResultHolder
 aError
 )
@@ -3689,6 +3698,7 @@ aInput
 aSink
 aSinkGroup
 aNode
+nullptr
 aResultHolder
 aError
 )
@@ -3737,6 +3747,7 @@ aInput
 aSink
 aSinkGroup
 aGlobalObject
+nullptr
 aResultHolder
 aError
 )
@@ -4415,6 +4426,7 @@ input
 sink
 kTrustedTypesOnlySinkGroup
 aElement
+nullptr
 aResultHolder
 aError
 )
@@ -4435,6 +4447,7 @@ input
 sink
 kTrustedTypesOnlySinkGroup
 aElement
+nullptr
 aResultHolder
 aError
 )
@@ -4455,6 +4468,7 @@ input
 sink
 kTrustedTypesOnlySinkGroup
 aElement
+nullptr
 aResultHolder
 aError
 )

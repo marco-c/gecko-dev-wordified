@@ -1086,9 +1086,9 @@ const
 RegistrationOptions
 &
 aOptions
-const
-CallerType
-aCallerType
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aRv
@@ -1269,6 +1269,7 @@ sink
 kTrustedTypesOnlySinkGroup
 *
 global
+aSubjectPrincipal
 compliantStringHolder
 aRv
 )

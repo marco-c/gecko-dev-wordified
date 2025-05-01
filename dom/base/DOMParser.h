@@ -179,6 +179,9 @@ h
 class
 nsIGlobalObject
 ;
+class
+nsIPrincipal
+;
 namespace
 mozilla
 {
@@ -276,6 +279,9 @@ TrustedHTMLOrString
 aStr
 SupportedType
 aType
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aRv

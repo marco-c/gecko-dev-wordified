@@ -5757,6 +5757,9 @@ const
 TrustedHTMLOrString
 &
 aHTML
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aError
@@ -5786,6 +5789,7 @@ true
 aIsShadowRoot
 *
 /
+aSubjectPrincipal
 aError
 )
 ;
@@ -5825,6 +5829,9 @@ const
 TrustedHTMLOrNullIsEmptyString
 &
 aInnerHTML
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aError
@@ -5862,6 +5869,7 @@ sink
 kTrustedTypesOnlySinkGroup
 *
 this
+aSubjectPrincipal
 compliantStringHolder
 aError
 )

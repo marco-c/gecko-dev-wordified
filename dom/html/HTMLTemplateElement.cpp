@@ -665,6 +665,9 @@ const
 TrustedHTMLOrString
 &
 aHTML
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aError
@@ -692,6 +695,7 @@ false
 aIsShadowRoot
 *
 /
+aSubjectPrincipal
 aError
 )
 ;

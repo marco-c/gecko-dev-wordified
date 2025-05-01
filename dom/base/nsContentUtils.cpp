@@ -37808,6 +37808,9 @@ TrustedHTMLOrString
 aSource
 bool
 aIsShadowRoot
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aError
@@ -37860,6 +37863,7 @@ elementSink
 kTrustedTypesOnlySinkGroup
 *
 aContext
+aSubjectPrincipal
 compliantStringHolder
 aError
 )

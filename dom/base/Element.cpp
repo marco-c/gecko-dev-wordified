@@ -29205,6 +29205,7 @@ sink
 kTrustedTypesOnlySinkGroup
 *
 this
+aSubjectPrincipal
 compliantStringHolder
 aError
 )
@@ -29287,6 +29288,9 @@ const
 TrustedHTMLOrNullIsEmptyString
 &
 aOuterHTML
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aError
@@ -29324,6 +29328,7 @@ sink
 kTrustedTypesOnlySinkGroup
 *
 this
+aSubjectPrincipal
 compliantStringHolder
 aError
 )
@@ -29717,6 +29722,9 @@ const
 TrustedHTMLOrString
 &
 aTrustedHTMLOrString
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aError
@@ -29754,6 +29762,7 @@ kSink
 kTrustedTypesOnlySinkGroup
 *
 this
+aSubjectPrincipal
 compliantStringHolder
 aError
 )
@@ -37058,6 +37067,9 @@ const
 TrustedHTMLOrString
 &
 aHTML
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aError
@@ -37077,6 +37089,7 @@ false
 aIsShadowRoot
 *
 /
+aSubjectPrincipal
 aError
 )
 ;

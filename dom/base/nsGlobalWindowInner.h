@@ -4865,6 +4865,9 @@ Value
 unused
 *
 /
+nsIPrincipal
+*
+aSubjectPrincipal
 mozilla
 :
 :
@@ -4921,6 +4924,9 @@ Value
 unused
 *
 /
+nsIPrincipal
+*
+aSubjectPrincipal
 mozilla
 :
 :
@@ -7615,6 +7621,9 @@ Value
 aArguments
 bool
 aIsInterval
+nsIPrincipal
+*
+aSubjectPrincipal
 mozilla
 :
 :

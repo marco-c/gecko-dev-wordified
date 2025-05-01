@@ -2359,6 +2359,9 @@ const
 TrustedHTMLOrString
 &
 aSrcdoc
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aError
@@ -2396,6 +2399,7 @@ sink
 kTrustedTypesOnlySinkGroup
 *
 this
+aSubjectPrincipal
 compliantStringHolder
 aError
 )

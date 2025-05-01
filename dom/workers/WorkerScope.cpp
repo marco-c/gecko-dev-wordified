@@ -4229,6 +4229,7 @@ sink
 kTrustedTypesOnlySinkGroup
 *
 pinnedGlobal
+nullptr
 compliantStringHolder
 aRv
 )
@@ -4367,6 +4368,9 @@ Value
 >
 &
 aArguments
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aRv
@@ -4380,6 +4384,7 @@ aHandler
 aTimeout
 aArguments
 false
+aSubjectPrincipal
 aRv
 )
 ;
@@ -4449,6 +4454,9 @@ Value
 >
 &
 aArguments
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aRv
@@ -4462,6 +4470,7 @@ aHandler
 aTimeout
 aArguments
 true
+aSubjectPrincipal
 aRv
 )
 ;
@@ -4533,6 +4542,9 @@ Value
 aArguments
 bool
 aIsInterval
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aRv
@@ -4707,6 +4719,7 @@ sinkSetTimeout
 kTrustedTypesOnlySinkGroup
 *
 pinnedGlobal
+aSubjectPrincipal
 compliantStringHolder
 aRv
 )

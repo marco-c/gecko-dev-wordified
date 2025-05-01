@@ -666,6 +666,9 @@ TrustedHTMLOrString
 aStr
 SupportedType
 aType
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aRv
@@ -716,6 +719,7 @@ sink
 kTrustedTypesOnlySinkGroup
 *
 pinnedOwner
+aSubjectPrincipal
 compliantStringHolder
 aRv
 )

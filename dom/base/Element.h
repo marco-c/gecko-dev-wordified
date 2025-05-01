@@ -10473,6 +10473,9 @@ const
 TrustedHTMLOrNullIsEmptyString
 &
 aOuterHTML
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aError
@@ -10490,6 +10493,9 @@ const
 TrustedHTMLOrString
 &
 aTrustedHTMLOrString
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aError
@@ -14805,6 +14811,9 @@ const
 TrustedHTMLOrString
 &
 aHTML
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aError

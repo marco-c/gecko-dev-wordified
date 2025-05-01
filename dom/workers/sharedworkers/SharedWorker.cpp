@@ -997,6 +997,7 @@ sink
 kTrustedTypesOnlySinkGroup
 *
 global
+principal
 compliantStringHolder
 aRv
 )

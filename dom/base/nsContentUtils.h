@@ -12737,6 +12737,9 @@ TrustedHTMLOrString
 aSource
 bool
 aIsShadowRoot
+nsIPrincipal
+*
+aSubjectPrincipal
 mozilla
 :
 :
