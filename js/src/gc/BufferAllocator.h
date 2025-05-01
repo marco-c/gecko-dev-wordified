@@ -4015,9 +4015,6 @@ CellAlignBytes
 )
 MediumBuffer
 {
-uint8_t
-sizeClass
-;
 #
 ifdef
 DEBUG
@@ -4028,11 +4025,8 @@ MediumBufferCheckValue
 ;
 #
 endif
-explicit
 MediumBuffer
 (
-uint8_t
-sizeClass
 )
 ;
 static
