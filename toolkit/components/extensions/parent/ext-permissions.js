@@ -713,6 +713,16 @@ length
 origins
 .
 length
+|
+|
+(
+dataCollectionPermissionsEnabled
+&
+&
+data_collection
+.
+length
+)
 )
 )
 {
