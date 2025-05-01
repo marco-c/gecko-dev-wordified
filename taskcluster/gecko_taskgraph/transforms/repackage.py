@@ -2389,6 +2389,22 @@ type
 release_type
 }
 "
+            
+"
+-
+-
+locales
+-
+file
+"
+            
+"
+{
+locales
+-
+file
+}
+"
         
 ]
         
@@ -2727,6 +2743,12 @@ deb
 l10n
 -
 templates
+"
+    
+"
+locales
+-
+file
 "
     
 "

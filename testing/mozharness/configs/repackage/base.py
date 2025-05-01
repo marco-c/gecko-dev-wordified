@@ -164,6 +164,24 @@ rpm
 "
     
 "
+locales
+-
+file
+"
+:
+"
+browser
+/
+locales
+/
+l10n
+-
+changesets
+.
+json
+"
+    
+"
 flatpak
 -
 templates
