@@ -72,13 +72,11 @@ true
 "
 browser
 .
-contextual
--
-password
--
-manager
+shopping
 .
-enabled
+experience2023
+.
+integratedSidebar
 "
 true
 ]
@@ -92,7 +90,7 @@ tools
 "
 "
 aichat
-passwords
+reviewchecker
 syncedtabs
 history
 "
@@ -264,7 +262,7 @@ tools
 "
 "
 aichat
-passwords
+reviewchecker
 syncedtabs
 history
 bookmarks
