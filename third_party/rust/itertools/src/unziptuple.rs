@@ -18,7 +18,7 @@ containers
 /
 /
 /
-unzip
+multiunzip
 (
 )
 consumes

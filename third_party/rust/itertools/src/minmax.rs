@@ -42,6 +42,7 @@ derive
 Copy
 Clone
 PartialEq
+Eq
 Debug
 )
 ]
@@ -345,14 +346,14 @@ T
 match
 self
 {
-MinMaxResult
+Self
 :
 :
 NoElements
 =
 >
 None
-MinMaxResult
+Self
 :
 :
 OneElement
@@ -372,7 +373,7 @@ clone
 x
 )
 )
-MinMaxResult
+Self
 :
 :
 MinMax
@@ -507,7 +508,6 @@ x
 )
 =
 >
-{
 match
 it
 .
@@ -580,7 +580,6 @@ x
 yk
 xk
 )
-}
 }
 }
 }

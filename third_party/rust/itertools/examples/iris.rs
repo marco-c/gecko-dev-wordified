@@ -82,8 +82,6 @@ static
 DATA
 :
 &
-'
-static
 str
 =
 include_str
@@ -118,6 +116,19 @@ f32
 4
 ]
 }
+#
+[
+allow
+(
+dead_code
+)
+]
+/
+/
+fields
+are
+currently
+ignored
 #
 [
 derive
@@ -160,7 +171,7 @@ ParseFloatError
 >
 Self
 {
-ParseError
+Self
 :
 :
 Numeric
@@ -214,7 +225,7 @@ let
 mut
 iris
 =
-Iris
+Self
 {
 name
 :
@@ -242,8 +253,8 @@ s
 .
 split
 (
-"
-"
+'
+'
 )
 .
 map
@@ -344,6 +355,7 @@ name
 "
 )
 )
+;
 }
 Ok
 (
@@ -537,11 +549,11 @@ using
 Itertools
 :
 :
-group_by
+chunk_by
 for
 (
 species
-species_group
+species_chunk
 )
 in
 &
@@ -551,7 +563,7 @@ iter
 (
 )
 .
-group_by
+chunk_by
 (
 |
 iris
@@ -579,7 +591,6 @@ or_insert_with
 (
 |
 |
-{
 plot_symbols
 .
 next
@@ -589,7 +600,6 @@ next
 unwrap
 (
 )
-}
 )
 ;
 println
@@ -615,7 +625,7 @@ species
 for
 iris
 in
-species_group
+species_chunk
 {
 /
 /
