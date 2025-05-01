@@ -3020,7 +3020,7 @@ NamedTemporaryFile
 mode
 =
 "
-w
+wb
 "
             
 delete
@@ -3054,10 +3054,41 @@ fpath
         
 )
         
+#
+Read
+directly
+from
+stdins
+byte
+buffer
+so
+that
+we
+treat
+the
+bytes
+        
+#
+as
+-
+is
+.
+Otherwise
+Python
+will
+convert
+LF
+to
+CRLF
+on
+Windows
+.
+        
 stdin_tempfile
 .
 write
 (
+b
 "
 "
 .
@@ -3066,6 +3097,8 @@ join
 sys
 .
 stdin
+.
+buffer
 )
 )
         
@@ -3496,6 +3529,8 @@ dump_stdin_file
 sys
 .
 stdout
+.
+buffer
         
 else
 :
@@ -3506,7 +3541,7 @@ open
 (
 dump_stdin_file
 "
-w
+wb
 "
 )
         
@@ -3519,25 +3554,23 @@ open
 stdin_tempfile
 .
 name
+"
+rb
+"
 )
 as
 fp
 :
                 
-print
+dump_stdin_file
+.
+write
 (
 fp
 .
 read
 (
 )
-.
-strip
-(
-)
-file
-=
-dump_stdin_file
 )
         
 finally

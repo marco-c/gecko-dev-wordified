@@ -1073,11 +1073,19 @@ stdin
 "
 io
 .
-StringIO
+TextIOWrapper
 (
+io
+.
+BytesIO
+(
+b
 "
 foobar
+\
+n
 "
+)
 )
 )
     
@@ -1149,11 +1157,19 @@ stdin
 "
 io
 .
-StringIO
+TextIOWrapper
 (
+io
+.
+BytesIO
+(
+b
 "
 foobar
+\
+n
 "
+)
 )
 )
     
@@ -1225,11 +1241,19 @@ stdin
 "
 io
 .
-StringIO
+TextIOWrapper
 (
+io
+.
+BytesIO
+(
+b
 "
 foobar
+\
+n
 "
+)
 )
 )
     
@@ -1297,11 +1321,19 @@ stdin
 "
 io
 .
-StringIO
+TextIOWrapper
 (
+io
+.
+BytesIO
+(
+b
 "
 foobar
+\
+n
 "
+)
 )
 )
     
