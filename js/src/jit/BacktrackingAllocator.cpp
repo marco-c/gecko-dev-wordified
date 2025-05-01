@@ -18711,7 +18711,7 @@ for
 LInstruction
 :
 :
-InputIterator
+NonSnapshotInputIter
 alloc
 (
 *
@@ -19001,7 +19001,7 @@ for
 LInstruction
 :
 :
-InputIterator
+InputIter
 inputAlloc
 (
 *
