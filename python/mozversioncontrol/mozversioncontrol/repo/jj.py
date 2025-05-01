@@ -388,6 +388,87 @@ resolve
 )
     
 def
+_run_read_only
+(
+self
+*
+args
+*
+*
+kwargs
+)
+:
+        
+"
+"
+"
+_run_read_only
+(
+)
+should
+be
+used
+instead
+of
+_run
+(
+)
+for
+read
+-
+only
+jj
+commands
+.
+        
+It
+will
+avoid
+locking
+the
+working
+copy
+and
+can
+prevent
+potential
+concurrency
+issues
+.
+        
+"
+"
+"
+        
+return
+super
+(
+)
+.
+_run
+(
+*
+(
+args
++
+(
+"
+-
+-
+ignore
+-
+working
+-
+copy
+"
+)
+)
+*
+*
+kwargs
+)
+    
+def
 resolve_to_change
 (
 self
@@ -407,7 +488,7 @@ change_id
 =
 self
 .
-_run
+_run_read_only
 (
             
 "
@@ -623,7 +704,7 @@ commit
 =
 self
 .
-_run
+_run_read_only
 (
             
 "
@@ -826,7 +907,7 @@ int
             
 self
 .
-_run
+_run_read_only
 (
                 
 "
@@ -881,7 +962,7 @@ self
 return
 self
 .
-_run
+_run_read_only
 (
 "
 sparse
@@ -911,7 +992,7 @@ email
 =
 self
 .
-_run
+_run_read_only
 (
 "
 config
@@ -992,7 +1073,7 @@ out
 =
 self
 .
-_run
+_run_read_only
 (
             
 "
@@ -1317,7 +1398,7 @@ lines
 =
 self
 .
-_run
+_run_read_only
 (
             
 "
@@ -1487,7 +1568,7 @@ paths
         
 self
 .
-_run
+_run_read_only
 (
 "
 file
@@ -2101,7 +2182,7 @@ value
         
 self
 .
-_run
+_run_read_only
 (
 "
 config
@@ -2183,7 +2264,7 @@ reversed
                 
 self
 .
-_run
+_run_read_only
 (
                     
 "
@@ -2532,7 +2613,7 @@ opid
 =
 self
 .
-_run
+_run_read_only
 (
             
 "
@@ -2709,7 +2790,7 @@ date
 =
 self
 .
-_run
+_run_read_only
 (
             
 "
