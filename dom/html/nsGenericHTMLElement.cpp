@@ -6972,15 +6972,6 @@ eIgnoreCase
 )
 |
 |
-(
-StaticPrefs
-:
-:
-dom_element_contenteditable_plaintext_only_enabled
-(
-)
-&
-&
 aValue
 .
 Equals
@@ -6993,7 +6984,6 @@ only
 "
 _ns
 eIgnoreCase
-)
 )
 ;
 }
