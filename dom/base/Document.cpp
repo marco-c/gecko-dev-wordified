@@ -83516,7 +83516,7 @@ principal
 >
 CheckMayLoadWithReporting
 (
-mDocumentURI
+aTargetURL
 false
 InnerWindowID
 (
