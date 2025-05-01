@@ -565,11 +565,6 @@ InternalList
 (
 )
 !
-if
-(
-mIsInTearoffTable
-)
-{
 void
 *
 key
@@ -601,11 +596,6 @@ RemoveTearoff
 key
 )
 ;
-mIsInTearoffTable
-=
-false
-;
-}
 }
 DOMSVGPointList
 :
