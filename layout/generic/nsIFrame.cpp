@@ -46544,6 +46544,16 @@ stylePos
 mBoxSizing
 )
 ;
+/
+/
+Note
+(
+dshin
+)
+:
+This
+allocates
+.
 return
 AnchorResolvedSizeHelper
 :
