@@ -939,7 +939,7 @@ fields
 (
 )
 .
-into_iter
+iter
 (
 )
 .
@@ -1060,7 +1060,6 @@ name
 :
 pointer_type
 (
-&
 c
 .
 ci
@@ -1078,7 +1077,6 @@ ffi_value_class
 :
 pointer_ffi_value_class
 (
-&
 c
 .
 ci
@@ -2411,16 +2409,10 @@ return_type
 .
 map
 (
-|
-return_type
-|
 FfiType
 :
 :
 from
-(
-return_type
-)
 )
 .
 map
@@ -2590,7 +2582,6 @@ pointer_ffi_value_class
 (
 crate_name_to_namespace
 (
-&
 crate_name
 )
 name
@@ -3257,7 +3248,7 @@ function_definitions
 (
 )
 .
-into_iter
+iter
 (
 )
 .
@@ -3288,7 +3279,7 @@ object_definitions
 (
 )
 .
-into_iter
+iter
 (
 )
 .

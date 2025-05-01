@@ -364,7 +364,7 @@ object_definitions
 (
 )
 .
-into_iter
+iter
 (
 )
 .
@@ -405,10 +405,6 @@ record_definitions
 (
 )
 .
-into_iter
-(
-)
-.
 filter
 (
 |
@@ -446,10 +442,6 @@ enum_definitions
 (
 )
 .
-into_iter
-(
-)
-.
 filter
 (
 |
@@ -484,10 +476,6 @@ chain
 ci
 .
 enum_definitions
-(
-)
-.
-into_iter
 (
 )
 .
@@ -516,7 +504,7 @@ variants
 (
 )
 .
-into_iter
+iter
 (
 )
 .
@@ -661,7 +649,7 @@ function_definitions
 (
 )
 .
-into_iter
+iter
 (
 )
 .
