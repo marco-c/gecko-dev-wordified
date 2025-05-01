@@ -7327,6 +7327,8 @@ dom
 /
 webgpu
 /
+tests
+/
 mochitest
 /
 *
