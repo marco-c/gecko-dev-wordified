@@ -2423,7 +2423,7 @@ multiSessionInstallLockout
 .
 enabled
 "
-false
+true
 )
 ;
 #
