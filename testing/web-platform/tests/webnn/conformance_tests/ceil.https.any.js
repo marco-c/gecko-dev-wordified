@@ -421,6 +421,11 @@ dataType
 float32
 '
 }
+'
+constant
+'
+:
+true
 }
 }
 '
@@ -1981,6 +1986,11 @@ dataType
 float16
 '
 }
+'
+constant
+'
+:
+true
 }
 }
 '
