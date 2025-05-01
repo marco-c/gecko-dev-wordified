@@ -125,6 +125,8 @@ tools
 /
 types
 /
+generated
+/
 tspaths
 .
 json
