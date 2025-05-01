@@ -1009,20 +1009,35 @@ version
 )
             
 (
+                
 str
 (
 tool
 )
+                
+"
+-
+-
+ignore
+-
+working
+-
+copy
+"
+                
 "
 operation
 "
+                
 "
 log
 "
+                
 "
 -
 n1
 "
+                
 "
 -
 -
@@ -1030,10 +1045,12 @@ no
 -
 graph
 "
+                
 "
 -
 T
 "
+                
 "
 id
 .
@@ -1042,6 +1059,7 @@ short
 16
 )
 "
+            
 )
             
 (
@@ -1076,11 +1094,35 @@ empty
 )
             
 (
+str
+(
+tool
+)
+"
+log
+"
+"
+-
+n0
+"
+)
+            
+(
                 
 str
 (
 tool
 )
+                
+"
+-
+-
+ignore
+-
+working
+-
+copy
+"
                 
 "
 log
