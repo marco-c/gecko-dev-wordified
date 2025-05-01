@@ -153,6 +153,9 @@ const
 toleranceValueDict
 =
 {
+int32
+:
+1
 int8
 :
 1
