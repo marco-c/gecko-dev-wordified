@@ -11602,7 +11602,7 @@ mThreadPool
 >
 Dispatch
 (
-NS_NewRunnableFunction
+NS_NewCancelableRunnableFunction
 (
 aMethodName
 [
@@ -11852,7 +11852,7 @@ mThreadPool
 >
 Dispatch
 (
-NS_NewRunnableFunction
+NS_NewCancelableRunnableFunction
 (
 aMethodName
 [
@@ -11926,7 +11926,7 @@ unwrapErr
 ;
 NS_DispatchToMainThread
 (
-NS_NewRunnableFunction
+NS_NewCancelableRunnableFunction
 (
 "
 reconnect
