@@ -16963,6 +16963,11 @@ remove
 it
 now
 .
+g_object_ref
+(
+gtkWidget
+)
+;
 if
 (
 GtkWidget
@@ -17013,6 +17018,11 @@ aContext
 gtkWidget
 offsetX
 offsetY
+)
+;
+g_object_unref
+(
+gtkWidget
 )
 ;
 return
