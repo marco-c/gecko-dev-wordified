@@ -161,6 +161,7 @@ ArraySpecies
 RegExpPrototype
 StringPrototypeSymbols
 EmulatesUndefined
+ArrayExceedsInt32Length
 Limit
 }
 ;
