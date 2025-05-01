@@ -4175,13 +4175,6 @@ SheetLoadData
 &
 )
 ;
-nsRefPtrHashtable
-<
-nsStringHashKey
-StyleSheet
->
-mInlineSheets
-;
 /
 /
 A
