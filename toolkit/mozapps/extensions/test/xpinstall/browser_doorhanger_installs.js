@@ -815,6 +815,8 @@ webext
 perm
 -
 privatebrowsing
+moz
+-
 checkbox
 "
 )
@@ -1103,12 +1105,9 @@ true
 {
 privateBrowsingCheckbox
 .
-checked
-=
-!
-privateBrowsingCheckbox
-.
-checked
+click
+(
+)
 ;
 }
 }
