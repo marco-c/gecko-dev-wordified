@@ -591,6 +591,22 @@ SimpleHTTPRequestHandler
 )
 :
             
+protocol_version
+=
+"
+HTTP
+/
+1
+.
+1
+"
+#
+allow
+connection
+re
+-
+use
+            
 doc_root
 =
 self
