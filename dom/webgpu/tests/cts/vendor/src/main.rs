@@ -1975,7 +1975,7 @@ ts
 file
 path
 :
-subtest_in_file
+test_in_file
 :
 /
 /
@@ -1987,7 +1987,7 @@ ___________________________
 /
 ^
 \
-_____________
+__________
 /
 /
 /
@@ -2059,7 +2059,7 @@ yet
 /
 /
 let
-subtest_and_later_start_idx
+test_and_later_start_idx
 =
 match
 path
@@ -2144,7 +2144,7 @@ path
 [
 .
 .
-subtest_and_later_start_idx
+test_and_later_start_idx
 ]
 .
 replace
