@@ -142,7 +142,7 @@ nsTArray
 h
 "
 class
-nsChildView
+nsCocoaWindow
 ;
 class
 NSView
@@ -225,7 +225,7 @@ region
 param
 aCoordinateConverter
 The
-nsChildView
+nsCocoaWindow
 to
 use
 for
@@ -298,7 +298,7 @@ LayoutDeviceIntRegion
 &
 aRegion
 const
-nsChildView
+nsCocoaWindow
 &
 aCoordinateConverter
 NSView

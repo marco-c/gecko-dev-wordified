@@ -140,7 +140,7 @@ class
 NSView
 ;
 class
-nsChildView
+nsCocoaWindow
 ;
 namespace
 mozilla
@@ -351,7 +351,7 @@ to
 param
 aCoordinateConverter
 The
-nsChildView
+nsCocoaWindow
 to
 use
 for
@@ -403,7 +403,7 @@ regions
 VibrancyManager
 (
 const
-nsChildView
+nsCocoaWindow
 &
 aCoordinateConverter
 NSView
@@ -498,7 +498,7 @@ PrefChanged
 protected
 :
 const
-nsChildView
+nsCocoaWindow
 &
 mCoordinateConverter
 ;

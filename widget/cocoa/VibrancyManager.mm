@@ -154,7 +154,7 @@ h
 #
 include
 "
-nsChildView
+nsCocoaWindow
 .
 h
 "
@@ -515,7 +515,7 @@ VibrancyManager
 VibrancyManager
 (
 const
-nsChildView
+nsCocoaWindow
 &
 aCoordinateConverter
 NSView

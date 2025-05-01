@@ -212,7 +212,7 @@ WritingModes
 h
 "
 class
-nsChildView
+nsCocoaWindow
 ;
 namespace
 mozilla
@@ -3098,7 +3098,7 @@ virtual
 bool
 OnDestroyWidget
 (
-nsChildView
+nsCocoaWindow
 *
 aDestroyingWidget
 )
@@ -3138,7 +3138,7 @@ OnDestroyWidget
 is
 called
 .
-nsChildView
+nsCocoaWindow
 *
 mWidget
 ;
@@ -3185,7 +3185,7 @@ STRONG
 ]
 TextInputHandlerBase
 (
-nsChildView
+nsCocoaWindow
 *
 aWidget
 NSView
@@ -5347,7 +5347,7 @@ keyboard
 layout
 statement
 of
-nsChildView
+nsCocoaWindow
 .
 *
 2
@@ -5357,7 +5357,7 @@ IME
 composition
 statement
 of
-nsChildView
+nsCocoaWindow
 .
 *
 And
@@ -5381,7 +5381,7 @@ instance
 Note
 that
 an
-nsChildView
+nsCocoaWindow
 handles
 one
 or
@@ -5515,7 +5515,7 @@ virtual
 bool
 OnDestroyWidget
 (
-nsChildView
+nsCocoaWindow
 *
 aDestroyingWidget
 )
@@ -6375,7 +6375,7 @@ mProcessTextSubstitution
 ;
 IMEInputHandler
 (
-nsChildView
+nsCocoaWindow
 *
 aWidget
 NSView
@@ -7375,7 +7375,7 @@ DebugPrintAllKeyboardLayouts
 ;
 TextInputHandler
 (
-nsChildView
+nsCocoaWindow
 *
 aWidget
 NSView

@@ -231,7 +231,7 @@ h
 #
 include
 "
-nsChildView
+nsCocoaWindow
 .
 h
 "
@@ -10964,7 +10964,7 @@ TextInputHandler
 :
 TextInputHandler
 (
-nsChildView
+nsCocoaWindow
 *
 aWidget
 NSView
@@ -11272,7 +11272,7 @@ YES
 }
 RefPtr
 <
-nsChildView
+nsCocoaWindow
 >
 widget
 (
@@ -12753,7 +12753,7 @@ return
 }
 RefPtr
 <
-nsChildView
+nsCocoaWindow
 >
 kungFuDeathGrip
 (
@@ -16259,7 +16259,7 @@ mWidget
 ?
 RefPtr
 <
-nsChildView
+nsCocoaWindow
 >
 widget
 (
@@ -17427,7 +17427,7 @@ break
 }
 RefPtr
 <
-nsChildView
+nsCocoaWindow
 >
 widget
 (
@@ -19553,7 +19553,7 @@ aSelector
 {
 RefPtr
 <
-nsChildView
+nsCocoaWindow
 >
 widget
 (
@@ -26144,7 +26144,7 @@ true
 ;
 RefPtr
 <
-nsChildView
+nsCocoaWindow
 >
 widget
 (
@@ -30582,7 +30582,7 @@ IMEInputHandler
 :
 IMEInputHandler
 (
-nsChildView
+nsCocoaWindow
 *
 aWidget
 NSView
@@ -30910,7 +30910,7 @@ IMEInputHandler
 :
 OnDestroyWidget
 (
-nsChildView
+nsCocoaWindow
 *
 aDestroyingWidget
 )
@@ -30980,7 +30980,7 @@ by
 another
 widget
 /
-nsChildView
+nsCocoaWindow
 .
 if
 (
@@ -34488,7 +34488,7 @@ TextInputHandlerBase
 :
 TextInputHandlerBase
 (
-nsChildView
+nsCocoaWindow
 *
 aWidget
 NSView
@@ -34563,7 +34563,7 @@ TextInputHandlerBase
 :
 OnDestroyWidget
 (
-nsChildView
+nsCocoaWindow
 *
 aDestroyingWidget
 )
