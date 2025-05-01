@@ -2263,6 +2263,17 @@ if
 (
 mConfig
 .
+mCodec
+=
+=
+CodecType
+:
+:
+H264
+&
+&
+mConfig
+.
 mScalabilityMode
 !
 =
