@@ -126,8 +126,6 @@ os
 import
 re
 import
-six
-import
 sys
 import
 zipfile
@@ -1763,13 +1761,12 @@ manifest
 coseManifest
 )
             
-coseManifest
+coseManifestBytes
 =
-six
-.
-ensure_binary
-(
 coseManifest
+.
+encode
+(
 )
             
 addManifestEntry
@@ -1785,7 +1782,7 @@ cose
 manifest
 "
 manifestHashes
-coseManifest
+coseManifestBytes
 mfEntries
             
 )
@@ -1881,7 +1878,7 @@ coseSignatureBytes
 =
 coseSig
 (
-coseManifest
+coseManifestBytes
 intermediates
 signatures
 )
@@ -1969,11 +1966,10 @@ hashed
 =
 hashFunc
 (
-six
-.
-ensure_binary
-(
 mfContents
+.
+encode
+(
 )
 )
 .
@@ -2055,11 +2051,10 @@ name
                     
 hashFunc
 (
-six
-.
-ensure_binary
-(
 sfContents
+.
+encode
+(
 )
 )
 .

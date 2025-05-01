@@ -146,17 +146,9 @@ signature
 import
 base64
 import
-binascii
-import
-hashlib
-import
 pathlib
 import
-six
-import
 sys
-import
-ecdsa
 #
 For
 pykey
