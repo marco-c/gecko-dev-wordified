@@ -20936,9 +20936,6 @@ onbeforematch
 insecureContext
 :
 true
-nightly
-:
-true
 }
 /
 /
