@@ -5552,7 +5552,7 @@ this
 .
 verticalPinnedTabsContainer
 .
-scrollTop
+scrollPosition
 :
 this
 .
@@ -13873,7 +13873,7 @@ this
 .
 verticalPinnedTabsContainer
 .
-scrollTop
+scrollPosition
 -
 dragData
 .
@@ -15319,7 +15319,7 @@ this
 .
 verticalPinnedTabsContainer
 .
-scrollTop
+scrollPosition
 -
 dragData
 .
