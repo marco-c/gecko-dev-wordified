@@ -712,7 +712,7 @@ AudioDataResource
 Construct
 (
 const
-OwningMaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
+OwningAllowSharedBufferSource
 &
 aInit
 )
@@ -1719,6 +1719,16 @@ AssertIsOnOwningThread
 (
 )
 ;
+if
+(
+!
+mNumberOfFrames
+)
+{
+return
+0
+;
+}
 /
 /
 The
@@ -3830,7 +3840,7 @@ AudioData
 CopyTo
 (
 const
-MaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
+AllowSharedBufferSource
 &
 aDestination
 const
