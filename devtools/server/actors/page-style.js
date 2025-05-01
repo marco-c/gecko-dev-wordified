@@ -2687,12 +2687,10 @@ options
 previewFontSize
 fontStyle
 :
-weight
-+
-"
-"
-+
 style
+fontWeight
+:
+weight
 fillStyle
 :
 options
