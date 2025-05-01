@@ -100,12 +100,10 @@ BUG_COMPONENT
 =
 (
 "
-Toolkit
+Core
 "
 "
-IOUtils
-and
-PathUtils
+XPCOM
 "
 )
 EXPORTS
