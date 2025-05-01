@@ -5101,8 +5101,8 @@ false
 Trap
 trap
 ;
-TrapSiteDesc
-trapDesc
+TrapSite
+trapSite
 ;
 if
 (
@@ -5116,7 +5116,7 @@ pc
 &
 trap
 &
-trapDesc
+trapSite
 )
 )
 {
@@ -5350,7 +5350,7 @@ activation
 startWasmTrap
 (
 trap
-trapDesc
+trapSite
 ToRegisterState
 (
 context
@@ -8196,8 +8196,8 @@ false
 Trap
 trap
 ;
-TrapSiteDesc
-trapDesc
+TrapSite
+trapSite
 ;
 if
 (
@@ -8216,7 +8216,7 @@ pc
 &
 trap
 &
-trapDesc
+trapSite
 )
 )
 {
@@ -8478,7 +8478,7 @@ activation
 startWasmTrap
 (
 trap
-trapDesc
+trapSite
 regs
 )
 ;
@@ -8556,8 +8556,8 @@ false
 Trap
 trap
 ;
-TrapSiteDesc
-trapDesc
+TrapSite
+trapSite
 ;
 if
 (
@@ -8576,7 +8576,7 @@ pc
 &
 trap
 &
-trapDesc
+trapSite
 )
 )
 {
@@ -8625,7 +8625,7 @@ activation
 startWasmTrap
 (
 trap
-trapDesc
+trapSite
 regs
 )
 ;

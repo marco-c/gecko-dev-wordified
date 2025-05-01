@@ -1835,9 +1835,9 @@ const
 wasm
 :
 :
-TrapSiteDesc
+TrapSite
 &
-trapDesc
+trapSite
 const
 wasm
 :
