@@ -13955,10 +13955,6 @@ global
 type
 (
 )
-.
-toMaybeRefType
-(
-)
 )
 ;
 }
@@ -14213,10 +14209,6 @@ global
 type
 (
 )
-.
-toMaybeRefType
-(
-)
 )
 ;
 curBlock_
@@ -14459,10 +14451,6 @@ valueAddr
 global
 .
 type
-(
-)
-.
-toMaybeRefType
 (
 )
 )
