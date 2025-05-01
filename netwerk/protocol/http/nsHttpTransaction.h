@@ -735,6 +735,15 @@ return
 mIsHttp2Websocket
 ;
 }
+bool
+Closed
+(
+)
+{
+return
+mClosed
+;
+}
 void
 SetTRRInfo
 (

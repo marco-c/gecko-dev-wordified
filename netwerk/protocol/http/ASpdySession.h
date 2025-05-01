@@ -572,6 +572,8 @@ GetExtendedCONNECTSupport
 0
 ;
 virtual
+Result
+<
 already_AddRefed
 <
 mozilla
@@ -581,6 +583,8 @@ net
 :
 :
 nsHttpConnection
+>
+nsresult
 >
 CreateTunnelStream
 (

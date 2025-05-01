@@ -5069,6 +5069,27 @@ FAILURE
 100
 )
     
+#
+WebTransport
+Session
+Limit
+(
+mWebTransportMaxSessions
+)
+Exceeded
+    
+errors
+[
+"
+NS_ERROR_WEBTRANSPORT_SESSION_LIMIT_EXCEEDED
+"
+]
+=
+FAILURE
+(
+199
+)
+    
 errors
 [
 "
