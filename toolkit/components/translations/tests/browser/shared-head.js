@@ -6429,16 +6429,6 @@ browser
 .
 translations
 .
-panelShown
-"
-true
-]
-[
-"
-browser
-.
-translations
-.
 automaticallyPopup
 "
 true
