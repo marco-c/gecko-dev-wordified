@@ -8971,7 +8971,7 @@ asTenured
 (
 )
 .
-markIfUnmarkedAtomic
+markIfUnmarkedThreadSafe
 (
 color
 )
