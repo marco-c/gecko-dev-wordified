@@ -178,7 +178,7 @@ u64
 }
 }
 impl
-std
+core
 :
 :
 fmt
@@ -197,7 +197,7 @@ f
 :
 &
 mut
-std
+core
 :
 :
 fmt
@@ -211,7 +211,7 @@ _
 )
 -
 >
-std
+core
 :
 :
 fmt

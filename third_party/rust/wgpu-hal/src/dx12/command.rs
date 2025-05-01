@@ -1,5 +1,14 @@
 use
-std
+alloc
+:
+:
+vec
+:
+:
+Vec
+;
+use
+core
 :
 :
 {
@@ -8,10 +17,6 @@ ops
 :
 :
 Range
-vec
-:
-:
-Vec
 }
 ;
 use
@@ -4880,7 +4885,7 @@ as_ref
 .
 map
 (
-std
+core
 :
 :
 ptr
@@ -5312,7 +5317,7 @@ clear_value
 as
 u8
 0
-std
+core
 :
 :
 ptr
@@ -5414,7 +5419,7 @@ list
 .
 RSSetViewports
 (
-std
+core
 :
 :
 slice
@@ -5434,7 +5439,7 @@ list
 .
 RSSetScissorRects
 (
-std
+core
 :
 :
 slice
@@ -7225,7 +7230,7 @@ unwrap
 .
 RSSetViewports
 (
-std
+core
 :
 :
 slice
@@ -7324,7 +7329,7 @@ unwrap
 .
 RSSetScissorRects
 (
-std
+core
 :
 :
 slice

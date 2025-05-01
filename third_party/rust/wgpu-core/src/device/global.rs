@@ -14108,6 +14108,12 @@ poll_type
 snatch_guard
 )
 ;
+device
+.
+lose_if_oom
+(
+)
+;
 /
 /
 Some
