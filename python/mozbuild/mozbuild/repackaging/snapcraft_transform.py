@@ -1024,7 +1024,7 @@ build_variables
 {
             
 "
-DEB_PKG_NAME
+PKG_NAME
 "
 :
 appname

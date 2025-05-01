@@ -1234,7 +1234,7 @@ f
 build_variables
 [
 '
-DEB_PKG_NAME
+PKG_NAME
 '
 ]
 }
@@ -1291,7 +1291,7 @@ f
 build_variables
 [
 '
-DEB_PKG_NAME
+PKG_NAME
 '
 ]
 }
@@ -1346,7 +1346,7 @@ f
 build_variables
 [
 '
-DEB_PKG_NAME
+PKG_NAME
 '
 ]
 }
@@ -1433,7 +1433,7 @@ f
 build_variables
 [
 '
-DEB_PKG_NAME
+PKG_NAME
 '
 ]
 }
@@ -1534,7 +1534,7 @@ if
 build_variables
 [
 "
-DEB_PKG_NAME
+PKG_NAME
 "
 ]
 =
@@ -1557,7 +1557,7 @@ StartupWMClass
 build_variables
 [
 "
-DEB_PKG_NAME
+PKG_NAME
 "
 ]
                     
