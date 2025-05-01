@@ -922,14 +922,6 @@ mozboot
 import
 android
             
-os_arch
-=
-platform
-.
-machine
-(
-)
-            
 os_name
 =
 None
@@ -1013,35 +1005,9 @@ NDK
             
 android
 .
-ensure_android
+ensure_android_ndk
 (
-                
 os_name
-                
-os_arch
-                
-ndk_only
-=
-True
-                
-artifact_mode
-=
-False
-            
-)
-            
-mozbuild_path
-sdk_path
-ndk_path
-avd_home_path
-=
-android
-.
-get_paths
-(
-                
-os_name
-            
 )
             
 self
@@ -1055,7 +1021,9 @@ str
 (
 Path
 (
-ndk_path
+android
+.
+NDK_PATH
 "
 simpleperf
 "
