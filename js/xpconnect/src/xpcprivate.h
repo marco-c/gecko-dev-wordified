@@ -3490,7 +3490,7 @@ const
 override
 ;
 void
-TraceNativeBlackRoots
+TraceAdditionalNativeBlackRoots
 (
 JSTracer
 *

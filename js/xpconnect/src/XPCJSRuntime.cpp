@@ -4957,7 +4957,7 @@ void
 XPCJSRuntime
 :
 :
-TraceNativeBlackRoots
+TraceAdditionalNativeBlackRoots
 (
 JSTracer
 *
