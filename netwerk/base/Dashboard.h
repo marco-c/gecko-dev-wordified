@@ -112,6 +112,9 @@ class
 HttpData
 ;
 class
+Http3ConnectionStatsData
+;
+class
 DnsData
 ;
 class
@@ -351,6 +354,13 @@ HttpData
 )
 ;
 nsresult
+GetHttp3ConnectionStatsDispatch
+(
+Http3ConnectionStatsData
+*
+)
+;
+nsresult
 GetDnsInfoDispatch
 (
 DnsData
@@ -390,6 +400,13 @@ nsresult
 GetHttpConnections
 (
 HttpData
+*
+)
+;
+nsresult
+GetHttp3ConnectionStats
+(
+Http3ConnectionStatsData
 *
 )
 ;

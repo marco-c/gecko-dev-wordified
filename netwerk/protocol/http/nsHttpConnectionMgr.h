@@ -224,6 +224,9 @@ NullHttpTransaction
 struct
 HttpRetParams
 ;
+struct
+Http3ConnectionStatsParams
+;
 /
 /
 -
@@ -1157,6 +1160,16 @@ GetConnectionData
 nsTArray
 <
 HttpRetParams
+>
+*
+)
+;
+bool
+GetHttp3ConnectionStatsData
+(
+nsTArray
+<
+Http3ConnectionStatsParams
 >
 *
 )

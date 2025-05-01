@@ -551,6 +551,11 @@ GetConnectionData
 (
 )
 ;
+Http3ConnectionStatsParams
+GetHttp3ConnectionStatsData
+(
+)
+;
 void
 LogConnections
 (
