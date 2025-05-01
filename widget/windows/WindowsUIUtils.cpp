@@ -5901,7 +5901,6 @@ nsresult
 >
 RequestShare
 (
-const
 std
 :
 :
@@ -5914,6 +5913,7 @@ IDataRequestedEventArgs
 pArgs
 )
 >
+&
 &
 aCallback
 )
