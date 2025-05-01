@@ -47292,8 +47292,7 @@ sync
 /
 /
 Emit
-a
-guard
+guards
 to
 skip
 the
@@ -47322,6 +47321,15 @@ object
 )
 temp
 value
+&
+skipBarrier
+)
+;
+CheckWholeCellLastElementCache
+(
+masm
+object
+temp
 &
 skipBarrier
 )
