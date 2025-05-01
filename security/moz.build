@@ -228,9 +228,6 @@ GeckoSharedLibrary
 "
 nss
 "
-linkage
-=
-None
 )
 #
 TODO

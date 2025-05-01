@@ -188,9 +188,6 @@ name
 output_category
 =
 output_category
-linkage
-=
-None
 )
 SHARED_LIBRARY_NAME
 =
@@ -205,9 +202,6 @@ name
 output_category
 =
 output_category
-linkage
-=
-None
 )
 SHARED_LIBRARY_NAME
 =
