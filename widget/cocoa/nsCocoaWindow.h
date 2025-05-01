@@ -388,6 +388,12 @@ NSRect
 )
 childViewFrameRectForCurrentBounds
 ;
+-
+(
+void
+)
+updateChildViewFrameRect
+;
 /
 /
 These
