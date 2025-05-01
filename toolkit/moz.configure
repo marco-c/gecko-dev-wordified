@@ -756,6 +756,8 @@ consecutive
 #
 Also
 ignore
+OLD_CONFIGURE
+and
 MOZCONFIG
 because
 they
@@ -776,6 +778,9 @@ option
 env
 in
 (
+"
+OLD_CONFIGURE
+"
 "
 MOZCONFIG
 "
