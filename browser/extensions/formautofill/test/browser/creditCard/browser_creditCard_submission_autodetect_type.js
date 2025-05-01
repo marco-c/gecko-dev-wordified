@@ -297,9 +297,6 @@ number
 encrypted
 "
 ]
-"
-testing
-"
 )
 ;
 savedCreditCard
@@ -639,9 +636,6 @@ number
 encrypted
 "
 ]
-"
-testing
-"
 )
 ;
 savedCreditCard
