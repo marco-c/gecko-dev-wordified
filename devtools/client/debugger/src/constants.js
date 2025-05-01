@@ -233,6 +233,15 @@ selection
 -
 marker
 "
+PAUSED_LOCATION_MARKER
+:
+"
+paused
+-
+location
+-
+marker
+"
 /
 *
 Gutter
