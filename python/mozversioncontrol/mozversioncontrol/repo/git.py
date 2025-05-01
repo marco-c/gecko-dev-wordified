@@ -657,46 +657,16 @@ self
 head_ref
     
 def
-base_ref_as_hg
+base_ref_as_commit
 (
 self
 )
 :
         
-base_ref
-=
-self
-.
-base_ref
-        
-try
-:
-            
 return
 self
 .
-_run
-(
-"
-cinnabar
-"
-"
-git2hg
-"
 base_ref
-)
-.
-strip
-(
-)
-        
-except
-subprocess
-.
-CalledProcessError
-:
-            
-return
     
 property
     
