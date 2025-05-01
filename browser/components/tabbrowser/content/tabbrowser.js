@@ -14102,6 +14102,11 @@ that
 /
 differently
 .
+if
+(
+aForceDiscard
+)
+{
 aTab
 .
 toggleAttribute
@@ -14112,6 +14117,7 @@ discarded
 true
 )
 ;
+}
 /
 /
 Remove
