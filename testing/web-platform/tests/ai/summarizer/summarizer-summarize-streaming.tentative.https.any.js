@@ -5,6 +5,7 @@ META
 title
 =
 Summarizer
+Summarize
 Streaming
 /
 /
