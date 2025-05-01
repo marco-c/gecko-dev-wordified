@@ -494,7 +494,9 @@ browser
 /
 components
 /
-BrowserGlue
+shell
+/
+StartupOSIntegration
 .
 sys
 .
