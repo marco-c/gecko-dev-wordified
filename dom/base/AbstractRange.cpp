@@ -611,7 +611,10 @@ tmp
 >
 UnregisterClosestCommonInclusiveAncestor
 (
-true
+IsUnlinking
+:
+:
+Yes
 )
 ;
 }
@@ -2780,6 +2783,8 @@ const
 Selection
 &
 aSelection
+IsUnlinking
+aIsUnlinking
 )
 {
 mSelections
@@ -2804,6 +2809,7 @@ mRegisteredClosestCommonInclusiveAncestor
 {
 UnregisterClosestCommonInclusiveAncestor
 (
+aIsUnlinking
 )
 ;
 MOZ_DIAGNOSTIC_ASSERT
@@ -2965,7 +2971,7 @@ AbstractRange
 :
 UnregisterClosestCommonInclusiveAncestor
 (
-bool
+IsUnlinking
 aIsUnlinking
 )
 {
@@ -3091,8 +3097,13 @@ anyway
 .
 if
 (
-!
 aIsUnlinking
+=
+=
+IsUnlinking
+:
+:
+No
 &
 &
 ranges
