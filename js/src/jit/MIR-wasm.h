@@ -17015,7 +17015,7 @@ the
 result
 .
 class
-MWasmRefIsSubtypeOfAbstract
+MWasmRefTestAbstract
 :
 public
 MUnaryInstruction
@@ -17031,7 +17031,7 @@ wasm
 RefType
 destType_
 ;
-MWasmRefIsSubtypeOfAbstract
+MWasmRefTestAbstract
 (
 MDefinition
 *
@@ -17080,7 +17080,7 @@ public
 :
 INSTRUCTION_HEADER
 (
-WasmRefIsSubtypeOfAbstract
+WasmRefTestAbstract
 )
 TRIVIAL_NEW_WRAPPERS
 NAMED_OPERANDS
@@ -17146,7 +17146,7 @@ destType
 ins
 -
 >
-toWasmRefIsSubtypeOfAbstract
+toWasmRefTestAbstract
 (
 )
 -
@@ -17261,7 +17261,7 @@ be
 used
 .
 class
-MWasmRefIsSubtypeOfConcrete
+MWasmRefTestConcrete
 :
 public
 MBinaryInstruction
@@ -17277,7 +17277,7 @@ wasm
 RefType
 destType_
 ;
-MWasmRefIsSubtypeOfConcrete
+MWasmRefTestConcrete
 (
 MDefinition
 *
@@ -17329,7 +17329,7 @@ public
 :
 INSTRUCTION_HEADER
 (
-WasmRefIsSubtypeOfConcrete
+WasmRefTestConcrete
 )
 TRIVIAL_NEW_WRAPPERS
 NAMED_OPERANDS
@@ -17399,7 +17399,7 @@ destType
 ins
 -
 >
-toWasmRefIsSubtypeOfConcrete
+toWasmRefTestConcrete
 (
 )
 -

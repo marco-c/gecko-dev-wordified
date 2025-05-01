@@ -37621,7 +37621,7 @@ nullptr
 }
 isSubTypeOf
 =
-MWasmRefIsSubtypeOfConcrete
+MWasmRefTestConcrete
 :
 :
 New
@@ -37639,7 +37639,7 @@ else
 {
 isSubTypeOf
 =
-MWasmRefIsSubtypeOfAbstract
+MWasmRefTestAbstract
 :
 :
 New

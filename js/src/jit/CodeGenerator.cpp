@@ -145367,9 +145367,9 @@ void
 CodeGenerator
 :
 :
-visitWasmRefIsSubtypeOfAbstract
+visitWasmRefTestAbstract
 (
-LWasmRefIsSubtypeOfAbstract
+LWasmRefTestAbstract
 *
 ins
 )
@@ -145385,7 +145385,7 @@ compilingWasm
 )
 ;
 const
-MWasmRefIsSubtypeOfAbstract
+MWasmRefTestAbstract
 *
 mir
 =
@@ -145571,9 +145571,9 @@ void
 CodeGenerator
 :
 :
-visitWasmRefIsSubtypeOfConcrete
+visitWasmRefTestConcrete
 (
-LWasmRefIsSubtypeOfConcrete
+LWasmRefTestConcrete
 *
 ins
 )
@@ -145589,7 +145589,7 @@ compilingWasm
 )
 ;
 const
-MWasmRefIsSubtypeOfConcrete
+MWasmRefTestConcrete
 *
 mir
 =
@@ -145772,9 +145772,9 @@ void
 CodeGenerator
 :
 :
-visitWasmRefIsSubtypeOfAbstractAndBranch
+visitWasmRefTestAbstractAndBranch
 (
-LWasmRefIsSubtypeOfAbstractAndBranch
+LWasmRefTestAbstractAndBranch
 *
 ins
 )
@@ -145895,9 +145895,9 @@ void
 CodeGenerator
 :
 :
-visitWasmRefIsSubtypeOfConcreteAndBranch
+visitWasmRefTestConcreteAndBranch
 (
-LWasmRefIsSubtypeOfConcreteAndBranch
+LWasmRefTestConcreteAndBranch
 *
 ins
 )
