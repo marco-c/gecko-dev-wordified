@@ -6761,10 +6761,6 @@ zendesk
 .
 com
 /
-agent
-/
-filters
-/
 *
 "
 ]
