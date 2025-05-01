@@ -71226,6 +71226,13 @@ FlushType
 :
 :
 Style
+aType
+>
+=
+FlushType
+:
+:
+Layout
 )
 ;
 FlushPendingNotifications
@@ -109607,8 +109614,8 @@ it
 continue
 ;
 }
-const
 auto
+*
 element
 =
 *
@@ -114214,6 +114221,13 @@ Layout
 /
 *
 aFlushAnimations
+=
+*
+/
+false
+/
+*
+aUpdateRelevancy
 =
 *
 /
