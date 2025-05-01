@@ -494,13 +494,6 @@ anything
 about
 that
 .
-We
-always
-advertise
-support
-for
-VERTEX_AND_INSTANCE_INDEX_RESPECTS_RESPECTIVE_FIRST_VALUE_IN_INDIRECT_DRAW
-.
 #
 #
 #

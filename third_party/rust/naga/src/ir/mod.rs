@@ -8843,6 +8843,8 @@ Pack2x16unorm
 Pack2x16float
 Pack4xI8
 Pack4xU8
+Pack4xI8Clamp
+Pack4xU8Clamp
 /
 /
 data

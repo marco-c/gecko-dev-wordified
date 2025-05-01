@@ -4997,6 +4997,17 @@ INDIRECT
 )
 ?
 ;
+buffer
+.
+check_destroyed
+(
+&
+state
+.
+snatch_guard
+)
+?
+;
 if
 offset
 %
