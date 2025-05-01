@@ -98,10 +98,12 @@ BUG_COMPONENT
 =
 (
 "
-Firefox
+Core
 "
 "
-Security
+Networking
+:
+DNS
 "
 )
 EXTRA_JS_MODULES
