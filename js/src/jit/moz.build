@@ -577,6 +577,11 @@ TypePolicy
 cpp
 "
 "
+UnrollLoops
+.
+cpp
+"
+"
 ValueNumbering
 .
 cpp
