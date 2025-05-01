@@ -8476,7 +8476,7 @@ GetFetchPriorityForImage
 const
 {
 return
-Element
+nsGenericHTMLElement
 :
 :
 GetFetchPriority
