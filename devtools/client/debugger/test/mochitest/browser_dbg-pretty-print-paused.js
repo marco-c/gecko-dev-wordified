@@ -152,6 +152,7 @@ js
 "
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -218,6 +219,7 @@ line
 18
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg
