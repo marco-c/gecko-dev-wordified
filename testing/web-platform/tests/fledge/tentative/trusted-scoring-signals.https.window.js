@@ -9841,7 +9841,7 @@ adComponents
 :
 [
 {
-renderUrl
+renderURL
 :
 componentURL1
 sizeGroup
@@ -9856,7 +9856,7 @@ c1
 '
 }
 {
-renderUrl
+renderURL
 :
 componentURL2
 sizeGroup
