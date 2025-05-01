@@ -1095,11 +1095,6 @@ sameSite
 :
 %
 s
--
-rawSameSite
-:
-%
-s
 \
 n
 "
@@ -1109,15 +1104,6 @@ aCookie
 -
 >
 SameSite
-(
-)
-)
-SameSiteToString
-(
-aCookie
--
->
-RawSameSite
 (
 )
 )

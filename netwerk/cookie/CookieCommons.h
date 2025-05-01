@@ -701,6 +701,9 @@ ShouldIncludeCrossSiteCookie
 Cookie
 *
 aCookie
+nsIURI
+*
+aHostURI
 bool
 aPartitionForeign
 bool
@@ -715,6 +718,9 @@ static
 bool
 ShouldIncludeCrossSiteCookie
 (
+nsIURI
+*
+aHostURI
 int32_t
 aSameSiteAttr
 bool
