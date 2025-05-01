@@ -76,6 +76,12 @@ Dict
 List
 Optional
 Union
+import
+mozpack
+.
+path
+as
+mozpath
 from
 mozpack
 .
@@ -1384,7 +1390,12 @@ outgoing
 .
 append
 (
+mozpath
+.
+normsep
+(
 file
+)
 )
         
 return
@@ -1498,9 +1509,18 @@ None
 )
 :
         
-return
-FileListFinder
+files
+=
+[
+mozpath
+.
+normsep
 (
+p
+)
+for
+p
+in
 self
 .
 _run
@@ -1516,6 +1536,12 @@ list
 splitlines
 (
 )
+]
+        
+return
+FileListFinder
+(
+files
 )
     
 def
