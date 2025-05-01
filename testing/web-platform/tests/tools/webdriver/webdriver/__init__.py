@@ -8,8 +8,6 @@ client
 import
 (
     
-Cookies
-    
 Find
     
 Session
