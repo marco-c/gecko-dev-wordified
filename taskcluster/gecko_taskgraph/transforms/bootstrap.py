@@ -530,6 +530,11 @@ bootstrap
 py
 -
 -
+vcs
+=
+git
+-
+-
 no
 -
 interactive
