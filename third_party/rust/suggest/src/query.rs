@@ -682,7 +682,7 @@ default
 }
 pub
 fn
-exposure
+dynamic
 (
 keyword
 :
@@ -717,7 +717,7 @@ vec
 SuggestionProvider
 :
 :
-Exposure
+Dynamic
 ]
 provider_constraints
 :
@@ -725,7 +725,7 @@ Some
 (
 SuggestionProviderConstraints
 {
-exposure_suggestion_types
+dynamic_suggestion_types
 :
 Some
 (
