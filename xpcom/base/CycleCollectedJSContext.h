@@ -2147,7 +2147,10 @@ occur
 uint32_t
 mDebuggerRecursionDepth
 ;
+Maybe
+<
 uint32_t
+>
 mMicroTaskRecursionDepth
 ;
 /
