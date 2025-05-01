@@ -940,10 +940,8 @@ v
 )
         
 for
-(
 k
 v
-)
 in
 files
 :
@@ -1695,10 +1693,8 @@ default_hooks
 )
         
 for
-(
 k
 v
-)
 in
 list
 (
@@ -5441,6 +5437,13 @@ libraries
 "
 "
         
+if
+chardet
+is
+not
+None
+:
+            
 return
 chardet
 .
@@ -5455,6 +5458,41 @@ content
 encoding
 "
 ]
+        
+else
+:
+            
+#
+If
+no
+character
+detection
+library
+is
+available
+we
+'
+ll
+fall
+back
+            
+#
+to
+a
+standard
+Python
+utf
+-
+8
+str
+.
+            
+return
+"
+utf
+-
+8
+"
     
 def
 iter_content

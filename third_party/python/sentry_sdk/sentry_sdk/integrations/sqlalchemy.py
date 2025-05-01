@@ -2,6 +2,8 @@ from
 __future__
 import
 absolute_import
+import
+re
 from
 sentry_sdk
 .
@@ -24,7 +26,7 @@ DidNotEnable
 from
 sentry_sdk
 .
-tracing
+tracing_utils
 import
 record_sql_queries
 try
@@ -138,16 +140,20 @@ version
 =
 tuple
 (
+                
 map
 (
 int
-SQLALCHEMY_VERSION
+re
 .
 split
 (
 "
 b
+|
+rc
 "
+SQLALCHEMY_VERSION
 )
 [
 0
@@ -160,6 +166,7 @@ split
 "
 )
 )
+            
 )
         
 except
@@ -174,7 +181,7 @@ DidNotEnable
 (
                 
 "
-Unparseable
+Unparsable
 SQLAlchemy
 version
 :
@@ -325,7 +332,7 @@ executemany
     
 )
     
-conn
+context
 .
 _sentry_sql_span_manager
 =
@@ -346,7 +353,7 @@ not
 None
 :
         
-conn
+context
 .
 _sentry_sql_span
 =
@@ -357,6 +364,8 @@ _after_cursor_execute
 conn
 cursor
 statement
+parameters
+context
 *
 args
 )
@@ -366,6 +375,8 @@ args
 type
 :
 (
+Any
+Any
 Any
 Any
 Any
@@ -381,7 +392,7 @@ ctx_mgr
 getattr
 (
         
-conn
+context
 "
 _sentry_sql_span_manager
 "
@@ -391,9 +402,12 @@ None
 #
 type
 :
+Optional
+[
 ContextManager
 [
 Any
+]
 ]
     
 if
@@ -403,7 +417,7 @@ not
 None
 :
         
-conn
+context
 .
 _sentry_sql_span_manager
 =
@@ -438,17 +452,25 @@ Any
 >
 None
     
-conn
+execution_context
 =
 context
 .
-connection
+execution_context
+    
+if
+execution_context
+is
+None
+:
+        
+return
     
 span
 =
 getattr
 (
-conn
+execution_context
 "
 _sentry_sql_span
 "
@@ -476,4 +498,85 @@ set_status
 "
 internal_error
 "
+)
+    
+#
+_after_cursor_execute
+does
+not
+get
+called
+for
+crashing
+SQL
+stmts
+.
+Judging
+    
+#
+from
+SQLAlchemy
+codebase
+it
+does
+seem
+like
+any
+error
+coming
+into
+this
+    
+#
+handler
+is
+going
+to
+be
+fatal
+.
+    
+ctx_mgr
+=
+getattr
+(
+        
+execution_context
+"
+_sentry_sql_span_manager
+"
+None
+    
+)
+#
+type
+:
+Optional
+[
+ContextManager
+[
+Any
+]
+]
+    
+if
+ctx_mgr
+is
+not
+None
+:
+        
+execution_context
+.
+_sentry_sql_span_manager
+=
+None
+        
+ctx_mgr
+.
+__exit__
+(
+None
+None
+None
 )

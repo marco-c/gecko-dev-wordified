@@ -8,7 +8,7 @@ py
 Copyright
 2006
 -
-2020
+2022
 the
 Mako
 authors
@@ -71,9 +71,6 @@ import
 Template
 class
 TGPlugin
-(
-object
-)
 :
     
 "
@@ -404,9 +401,7 @@ if
 isinstance
 (
 template
-compat
-.
-string_types
+str
 )
 :
             

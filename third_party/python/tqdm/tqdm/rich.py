@@ -41,10 +41,6 @@ trange
 "
 "
 from
-__future__
-import
-absolute_import
-from
 warnings
 import
 warn
@@ -75,11 +71,6 @@ import
 tqdm
 as
 std_tqdm
-from
-.
-utils
-import
-_range
 __author__
 =
 {
@@ -681,6 +672,23 @@ Progress
 )
 .
         
+options
+:
+dict
+optional
+            
+keyword
+arguments
+for
+rich
+.
+progress
+.
+Progress
+(
+)
+.
+        
 "
 "
 "
@@ -740,6 +748,23 @@ pop
 progress
 '
 None
+)
+        
+options
+=
+kwargs
+.
+pop
+(
+'
+options
+'
+{
+}
+)
+.
+copy
+(
 )
         
 super
@@ -905,6 +930,19 @@ unit_divisor
             
 )
         
+options
+.
+setdefault
+(
+'
+transient
+'
+not
+self
+.
+leave
+)
+        
 self
 .
 _prog
@@ -913,12 +951,9 @@ Progress
 (
 *
 progress
-transient
-=
-not
-self
-.
-leave
+*
+*
+options
 )
         
 self
@@ -1149,9 +1184,7 @@ kwargs
 "
 "
 "
-    
-A
-shortcut
+Shortcut
 for
 tqdm
 .
@@ -1159,7 +1192,7 @@ rich
 .
 tqdm
 (
-xrange
+range
 (
 *
 args
@@ -1169,18 +1202,6 @@ args
 kwargs
 )
 .
-    
-On
-Python3
-+
-range
-is
-used
-instead
-of
-xrange
-.
-    
 "
 "
 "
@@ -1188,7 +1209,7 @@ xrange
 return
 tqdm_rich
 (
-_range
+range
 (
 *
 args

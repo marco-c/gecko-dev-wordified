@@ -8,7 +8,7 @@ py
 Copyright
 2006
 -
-2020
+2022
 the
 Mako
 authors

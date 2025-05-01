@@ -37,19 +37,23 @@ VerifyingKey
 __all__
 =
 [
+    
 "
 ECDH
 "
+    
 "
 NoKeyError
 "
+    
 "
 NoCurveError
 "
+    
 "
 InvalidCurveError
 "
-           
+    
 "
 InvalidSharedSecretError
 "
@@ -118,6 +122,7 @@ Exception
 "
 "
 "
+    
 ECDH
 .
 Raised
@@ -132,6 +137,7 @@ use
 different
 curves
 .
+    
 "
 "
 "
@@ -218,8 +224,6 @@ an
 insecure
 channel
     
-"
-"
 "
 "
 "
@@ -332,7 +336,7 @@ type
 public_key
 :
 VerifyingKey
-       
+        
 "
 "
 "
@@ -408,6 +412,7 @@ create
 shared
 secret
 "
+            
 )
         
 if
@@ -433,11 +438,13 @@ create
 shared
 secret
 "
+            
 )
         
 if
 not
 (
+            
 self
 .
 private_key
@@ -453,6 +460,7 @@ curve
 remote_public_key
 .
 curve
+        
 )
 :
             
@@ -473,6 +481,7 @@ not
 equal
 .
 "
+            
 )
         
 #
@@ -485,11 +494,14 @@ PRIVATEKEYours
         
 result
 =
+(
+            
 remote_public_key
 .
 pubkey
 .
 point
+            
 *
 self
 .
@@ -498,6 +510,8 @@ private_key
 privkey
 .
 secret_multiplier
+        
+)
         
 if
 result
@@ -509,7 +523,6 @@ INFINITY
 raise
 InvalidSharedSecretError
 (
-                
 "
 Invalid
 shared
@@ -630,7 +643,6 @@ key
 rtype
 :
 VerifyingKey
-object
         
 "
 "
@@ -773,7 +785,6 @@ key
 rtype
 :
 VerifyingKey
-object
         
 "
 "
@@ -931,7 +942,6 @@ key
 rtype
 :
 VerifyingKey
-object
         
 "
 "
@@ -977,6 +987,7 @@ self
 .
 curve
 )
+        
 )
     
 def
@@ -1056,6 +1067,7 @@ encoding
 of
 private
 ECDSA
+            
 key
         
 :
@@ -1096,7 +1108,6 @@ key
 rtype
 :
 VerifyingKey
-object
         
 "
 "
@@ -1239,7 +1250,6 @@ key
 rtype
 :
 VerifyingKey
-object
         
 "
 "
@@ -1309,8 +1319,7 @@ key
 rtype
 :
 VerifyingKey
-object
-       
+        
 "
 "
 "
@@ -1454,8 +1463,13 @@ public_key
 def
 load_received_public_key_bytes
 (
+        
 self
 public_key_str
+valid_encodings
+=
+None
+    
 )
 :
         
@@ -1519,6 +1533,71 @@ bytes
 like
 object
         
+:
+param
+valid_encodings
+:
+list
+of
+acceptable
+point
+encoding
+formats
+            
+supported
+ones
+are
+:
+:
+term
+:
+uncompressed
+:
+term
+:
+compressed
+            
+:
+term
+:
+hybrid
+and
+:
+term
+:
+raw
+encoding
+(
+specified
+with
+raw
+            
+name
+)
+.
+All
+formats
+by
+default
+(
+specified
+with
+None
+)
+.
+        
+:
+type
+valid_encodings
+:
+:
+term
+:
+set
+-
+like
+object
+        
 "
 "
 "
@@ -1533,11 +1612,15 @@ VerifyingKey
 .
 from_string
 (
+                
 public_key_str
 self
 .
 curve
+valid_encodings
+            
 )
+        
 )
     
 def
@@ -1648,12 +1731,14 @@ self
 .
 load_received_public_key
 (
+            
 VerifyingKey
 .
 from_der
 (
 public_key_der
 )
+        
 )
     
 def
@@ -1762,12 +1847,14 @@ self
 .
 load_received_public_key
 (
+            
 VerifyingKey
 .
 from_pem
 (
 public_key_pem
 )
+        
 )
     
 def
@@ -1847,8 +1934,7 @@ secret
 :
 rtype
 :
-byte
-string
+bytes
         
 "
 "
@@ -1863,14 +1949,18 @@ self
 generate_sharedsecret
 (
 )
-            
 self
 .
 private_key
 .
 curve
 .
-order
+curve
+.
+p
+(
+)
+        
 )
     
 def
@@ -1926,7 +2016,6 @@ local
 and
 remote
 party
-.
         
 shared
 secret
@@ -1940,7 +2029,7 @@ key
 )
 =
 =
-                
+        
 shared
 secret
 (

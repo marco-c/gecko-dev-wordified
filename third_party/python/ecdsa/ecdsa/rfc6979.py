@@ -1,6 +1,6 @@
-'
-'
-'
+"
+"
+"
 RFC
 6979
 :
@@ -63,9 +63,9 @@ com
 codahale
 /
 rfc6979
-'
-'
-'
+"
+"
+"
 import
 hmac
 from
@@ -243,17 +243,31 @@ retry_gen
 extra_entropy
 =
 b
-'
-'
+"
+"
 )
 :
     
-'
-'
-'
-        
-order
+"
+"
+"
+    
+Generate
+the
+k
+value
 -
+the
+nonce
+for
+DSA
+.
+    
+:
+param
+int
+order
+:
 order
 of
 the
@@ -263,9 +277,12 @@ used
 in
 the
 signature
-        
+    
+:
+param
+int
 secexp
--
+:
 secure
 exponent
 (
@@ -275,9 +292,11 @@ key
 in
 numeric
 form
-        
+    
+:
+param
 hash_func
--
+:
 reference
 to
 the
@@ -287,10 +306,23 @@ function
 used
 for
 generating
-hash
         
+hash
+like
+:
+py
+:
+class
+:
+hashlib
+.
+sha1
+    
+:
+param
+bytes
 data
--
+:
 hash
 in
 binary
@@ -299,11 +331,12 @@ of
 the
 signing
 data
-        
-retry_gen
--
+    
+:
+param
 int
--
+retry_gen
+:
 how
 many
 good
@@ -315,10 +348,13 @@ to
 skip
 before
 returning
-        
+    
+:
+param
+bytes
 extra_entropy
--
-extra
+:
+additional
 added
 data
 in
@@ -326,18 +362,23 @@ binary
 form
 as
 per
+        
 section
 -
 3
 .
 6
 of
-            
 rfc6979
     
-'
-'
-'
+:
+rtype
+:
+int
+    
+"
+"
+"
     
 qlen
 =
@@ -362,11 +403,13 @@ qlen
 7
 )
 /
+/
 8
     
 bx
 =
 (
+        
 hmac_compat
 (
 number_to_string
@@ -375,7 +418,7 @@ secexp
 order
 )
 )
-          
+        
 hmac_compat
 (
 bits2octets
@@ -384,11 +427,12 @@ data
 order
 )
 )
-          
+        
 hmac_compat
 (
 extra_entropy
 )
+    
 )
     
 #
@@ -398,10 +442,10 @@ B
 v
 =
 b
-'
+"
 \
 x01
-'
+"
 *
 holen
     
@@ -412,10 +456,10 @@ C
 k
 =
 b
-'
+"
 \
 x00
-'
+"
 *
 holen
     
@@ -442,10 +486,10 @@ update
 v
 +
 b
-'
+"
 \
 x00
-'
+"
 )
     
 for
@@ -511,10 +555,10 @@ update
 v
 +
 b
-'
+"
 \
 x01
-'
+"
 )
     
 for
@@ -572,8 +616,8 @@ H1
 t
 =
 b
-'
-'
+"
+"
         
 #
 Step
@@ -654,10 +698,10 @@ k
 v
 +
 b
-'
+"
 \
 x00
-'
+"
 hash_func
 )
 .

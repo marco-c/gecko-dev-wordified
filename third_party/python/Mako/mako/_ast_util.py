@@ -8,7 +8,7 @@ py
 Copyright
 2006
 -
-2020
+2022
 the
 Mako
 authors
@@ -221,12 +221,6 @@ from
 _ast
 import
 USub
-from
-mako
-.
-compat
-import
-arg_stringname
 BOOLOP_SYMBOLS
 =
 {
@@ -504,31 +498,6 @@ fields
 "
 "
     
-#
-CPython
-2
-.
-5
-compat
-    
-if
-not
-hasattr
-(
-node
-"
-_fields
-"
-)
-or
-not
-node
-.
-_fields
-:
-        
-return
-    
 for
 field
 in
@@ -555,9 +524,6 @@ AttributeError
 pass
 class
 NodeVisitor
-(
-object
-)
 :
     
 "
@@ -1703,12 +1669,11 @@ write
 *
 "
 +
-arg_stringname
-(
 node
 .
 vararg
-)
+.
+arg
 )
         
 if
@@ -1733,12 +1698,11 @@ write
 *
 "
 +
-arg_stringname
-(
 node
 .
 kwarg
-)
+.
+arg
 )
     
 def

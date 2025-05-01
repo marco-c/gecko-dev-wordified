@@ -8,7 +8,7 @@ py
 Copyright
 2006
 -
-2020
+2022
 the
 Mako
 authors
@@ -185,10 +185,6 @@ pygments
 token
 import
 Text
-from
-mako
-import
-compat
 class
 MakoLexer
 (
@@ -970,8 +966,6 @@ options
         
 super
 (
-MakoHtmlLexer
-self
 )
 .
 __init__
@@ -1019,8 +1013,6 @@ options
         
 super
 (
-MakoXmlLexer
-self
 )
 .
 __init__
@@ -1073,19 +1065,15 @@ options
         
 super
 (
-MakoJavascriptLexer
-self
 )
 .
 __init__
 (
-            
 JavascriptLexer
 MakoLexer
 *
 *
 options
-        
 )
 class
 MakoCssLexer
@@ -1124,8 +1112,6 @@ options
         
 super
 (
-MakoCssLexer
-self
 )
 .
 __init__
@@ -1171,24 +1157,9 @@ MakoLexer
 (
 )
     
-if
-compat
-.
-py3k
-:
-        
 python_lexer
 =
 Python3Lexer
-(
-)
-    
-else
-:
-        
-python_lexer
-=
-PythonLexer
 (
 )
     

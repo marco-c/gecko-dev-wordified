@@ -29,12 +29,10 @@ RE_ANSI
 Comparable
 FormatReplace
 SimpleTextIOWrapper
-_basestring
     
 _environ_cols_wrapper
 _is_ascii
 _is_utf
-_range
 _screen_shape_linux
 _screen_shape_tput
     
@@ -42,9 +40,6 @@ _screen_shape_windows
 _screen_shape_wrapper
 _supports_unicode
 _term_move_up
-_unich
-    
-_unicode
 colorama
 )
 warn

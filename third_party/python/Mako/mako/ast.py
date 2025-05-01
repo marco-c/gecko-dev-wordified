@@ -8,7 +8,7 @@ py
 Copyright
 2006
 -
-2020
+2022
 the
 Mako
 authors
@@ -81,10 +81,6 @@ re
 from
 mako
 import
-compat
-from
-mako
-import
 exceptions
 from
 mako
@@ -92,9 +88,6 @@ import
 pyparser
 class
 PythonCode
-(
-object
-)
 :
     
 "
@@ -279,9 +272,7 @@ if
 isinstance
 (
 code
-compat
-.
-string_types
+str
 )
 :
             
@@ -331,9 +322,6 @@ expr
 )
 class
 ArgumentList
-(
-object
-)
 :
     
 "
@@ -401,9 +389,7 @@ if
 isinstance
 (
 code
-compat
-.
-string_types
+str
 )
 :
             
@@ -729,18 +715,15 @@ pass
         
 elif
 keyword
-=
-=
+in
+[
 "
 elif
 "
-or
-keyword
-=
-=
 "
 else
 "
+]
 :
             
 code
@@ -832,8 +815,6 @@ exception_kwargs
         
 super
 (
-PythonFragment
-self
 )
 .
 __init__
@@ -845,9 +826,6 @@ exception_kwargs
 )
 class
 FunctionDecl
-(
-object
-)
 :
     
 "
@@ -1466,13 +1444,10 @@ kwargs
         
 super
 (
-FunctionArgs
-self
 )
 .
 __init__
 (
-            
 "
 def
 ANON
@@ -1488,5 +1463,4 @@ code
 *
 *
 kwargs
-        
 )

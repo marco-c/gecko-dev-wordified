@@ -335,10 +335,6 @@ a
 *
 kw
 )
-#
-type
-:
-ignore
         
 Thread
 .

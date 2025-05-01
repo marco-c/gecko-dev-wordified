@@ -7,7 +7,9 @@ sys
 import
 types
 from
-functools
+sentry_sdk
+.
+_functools
 import
 wraps
 from
@@ -471,19 +473,6 @@ Any
 >
 Any
     
-from
-apache_beam
-.
-typehints
-.
-decorators
-import
-getfullargspec
-#
-type
-:
-ignore
-    
 if
 not
 hasattr
@@ -630,6 +619,19 @@ process_func
 except
 ImportError
 :
+            
+from
+apache_beam
+.
+typehints
+.
+decorators
+import
+getfullargspec
+#
+type
+:
+ignore
             
 return
 getfullargspec

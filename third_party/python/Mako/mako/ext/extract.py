@@ -8,7 +8,7 @@ py
 Copyright
 2006
 -
-2020
+2022
 the
 Mako
 authors
@@ -53,12 +53,16 @@ mit
 license
 .
 php
+from
+io
+import
+BytesIO
+from
+io
+import
+StringIO
 import
 re
-from
-mako
-import
-compat
 from
 mako
 import
@@ -69,10 +73,11 @@ import
 parsetree
 class
 MessageExtractor
-(
-object
-)
 :
+    
+use_bytes
+=
+True
     
 def
 process_file
@@ -111,9 +116,8 @@ parse
 (
 )
         
-for
-extracted
-in
+yield
+from
 self
 .
 extract_nodes
@@ -124,10 +128,6 @@ get_children
 (
 )
 )
-:
-            
-yield
-extracted
     
 def
 extract_nodes
@@ -567,10 +567,12 @@ if
 isinstance
 (
 code
-compat
-.
-text_type
+str
 )
+and
+self
+.
+use_bytes
 :
                 
 code
@@ -647,21 +649,36 @@ node
 .
 lineno
             
+if
+self
+.
+use_bytes
+:
+                
 code
 =
-compat
-.
-byte_buffer
+BytesIO
 (
-compat
-.
 b
+"
+\
+n
+"
++
+code
+)
+            
+else
+:
+                
+code
+=
+StringIO
 (
 "
 \
 n
 "
-)
 +
 code
 )
@@ -709,19 +726,14 @@ if
 child_nodes
 :
                 
-for
-extracted
-in
+yield
+from
 self
 .
 extract_nodes
 (
 child_nodes
 )
-:
-                    
-yield
-extracted
     
 staticmethod
     

@@ -8,7 +8,7 @@ py
 Copyright
 2006
 -
-2020
+2022
 the
 Mako
 authors
@@ -84,10 +84,6 @@ ast
 from
 mako
 import
-compat
-from
-mako
-import
 exceptions
 from
 mako
@@ -130,30 +126,24 @@ context
 itself
 TOPLEVEL_DECLARED
 =
-set
-(
-[
+{
 "
 UNDEFINED
 "
 "
 STOP_RENDERING
 "
-]
-)
+}
 RESERVED_NAMES
 =
-set
-(
-[
+{
 "
 context
 "
 "
 loop
 "
-]
-)
+}
 .
 union
 (
@@ -197,10 +187,6 @@ generate_magic_comment
 =
 True
     
-disable_unicode
-=
-False
-    
 strict_undefined
 =
 False
@@ -228,7 +214,7 @@ given
 a
 parsetree
 node
-      
+    
 uri
 and
 optional
@@ -237,81 +223,6 @@ filename
 "
 "
 "
-    
-#
-if
-on
-Py2K
-push
-the
-"
-source_encoding
-"
-string
-to
-be
-    
-#
-a
-bytestring
-itself
-as
-we
-will
-be
-embedding
-it
-into
-    
-#
-the
-generated
-source
-and
-we
-don
-'
-t
-want
-to
-coerce
-the
-    
-#
-result
-into
-a
-unicode
-object
-in
-"
-disable_unicode
-"
-mode
-    
-if
-not
-compat
-.
-py3k
-and
-isinstance
-(
-source_encoding
-compat
-.
-text_type
-)
-:
-        
-source_encoding
-=
-source_encoding
-.
-encode
-(
-source_encoding
-)
     
 buf
 =
@@ -352,8 +263,6 @@ source_encoding
             
 generate_magic_comment
             
-disable_unicode
-            
 strict_undefined
             
 enable_loop
@@ -374,9 +283,6 @@ getvalue
 )
 class
 _CompileContext
-(
-object
-)
 :
     
 def
@@ -401,8 +307,6 @@ source_encoding
         
 generate_magic_comment
         
-disable_unicode
-        
 strict_undefined
         
 enable_loop
@@ -459,12 +363,6 @@ self
 generate_magic_comment
 =
 generate_magic_comment
-        
-self
-.
-disable_unicode
-=
-disable_unicode
         
 self
 .
@@ -485,9 +383,6 @@ reserved_names
 reserved_names
 class
 _GenerateRenderMethod
-(
-object
-)
 :
     
 "
@@ -500,7 +395,7 @@ object
 which
 generates
 the
-       
+    
 full
 module
 source
@@ -1082,9 +977,6 @@ None
         
 class
 FindTopLevel
-(
-object
-)
 :
             
 def
@@ -2514,9 +2406,6 @@ True
                 
 class
 NSDefVisitor
-(
-object
-)
 :
                     
 def
@@ -3195,23 +3084,19 @@ scope
         
 comp_idents
 =
-dict
-(
-[
-(
+{
 c
 .
 funcname
+:
 c
-)
 for
 c
 in
 identifiers
 .
 defs
-]
-)
+}
         
 to_write
 =
@@ -4906,7 +4791,7 @@ to
 replace
 a
 rendering
-            
+        
 callable
 with
 a
@@ -5539,25 +5424,6 @@ filters
 +
 name
             
-elif
-self
-.
-compiler
-.
-disable_unicode
-:
-                
-return
-filters
-.
-NON_UNICODE_ESCAPES
-.
-get
-(
-name
-name
-)
-            
 else
 :
                 
@@ -6083,8 +5949,6 @@ children
 or
 (
                 
-compat
-.
 all
 (
                     
@@ -6109,8 +5973,6 @@ children
 )
                 
 and
-compat
-.
 all
 (
                     
@@ -6967,9 +6829,6 @@ body_identifiers
         
 class
 DefVisitor
-(
-object
-)
 :
             
 def
@@ -7389,9 +7248,6 @@ None
 )
 class
 _Identifiers
-(
-object
-)
 :
     
 "
@@ -7924,7 +7780,7 @@ a
 new
 Node
 with
-          
+        
 this
 Identifiers
 as
@@ -8106,7 +7962,7 @@ Identifiers
 with
 the
 undeclared
-            
+        
 and
 declared
 identifiers
@@ -9409,9 +9265,6 @@ return
 text
 class
 LoopVariable
-(
-object
-)
 :
     
 "

@@ -8,7 +8,7 @@ py
 Copyright
 2006
 -
-2020
+2022
 the
 Mako
 authors
@@ -55,10 +55,10 @@ license
 php
 __version__
 =
-'
-1
-.
+"
 1
 .
 2
-'
+.
+2
+"

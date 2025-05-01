@@ -8,7 +8,7 @@ py
 Copyright
 2006
 -
-2020
+2022
 the
 Mako
 authors
@@ -56,10 +56,6 @@ php
 from
 mako
 import
-compat
-from
-mako
-import
 util
 _cache_plugins
 =
@@ -96,9 +92,6 @@ BeakerCacheImpl
 )
 class
 Cache
-(
-object
-)
 :
     
 "
@@ -493,9 +486,7 @@ if
 isinstance
 (
 template
-compat
-.
-string_types
+str
 )
 and
 args
@@ -1311,9 +1302,6 @@ return
 tmpl_kw
 class
 CacheImpl
-(
-object
-)
 :
     
 "

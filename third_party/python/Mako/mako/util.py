@@ -8,7 +8,7 @@ py
 Copyright
 2006
 -
-2020
+2022
 the
 Mako
 authors
@@ -54,10 +54,6 @@ license
 .
 php
 from
-__future__
-import
-absolute_import
-from
 ast
 import
 parse
@@ -74,9 +70,10 @@ re
 import
 timeit
 from
-mako
-import
+.
 compat
+import
+importlib_metadata_get
 def
 update_wrapper
 (
@@ -103,9 +100,6 @@ return
 decorated
 class
 PluginLoader
-(
-object
-)
 :
     
 def
@@ -155,24 +149,24 @@ name
 (
 )
         
-else
-:
-            
-import
-pkg_resources
-            
 for
 impl
 in
-pkg_resources
-.
-iter_entry_points
+importlib_metadata_get
 (
 self
 .
 group
-name
 )
+:
+            
+if
+impl
+.
+name
+=
+=
+name
 :
                 
 self
@@ -192,21 +186,18 @@ impl
 load
 (
 )
-            
-else
-:
-                
+        
 from
 mako
 import
 exceptions
-                
+        
 raise
 exceptions
 .
 RuntimeException
 (
-                    
+            
 "
 Can
 '
@@ -225,7 +216,7 @@ self
 group
 name
 )
-                
+        
 )
     
 def
@@ -343,14 +334,7 @@ os
 makedirs
 (
 dir_
-compat
-.
-octal
-(
-"
-0775
-"
-)
+0o755
 )
         
 except
@@ -406,9 +390,6 @@ return
 x
 class
 memoized_property
-(
-object
-)
 :
     
 "
@@ -504,9 +485,6 @@ return
 result
 class
 memoized_instancemethod
-(
-object
-)
 :
     
 "
@@ -785,9 +763,6 @@ return
 x
 class
 FastEncodingBuffer
-(
-object
-)
 :
     
 "
@@ -803,16 +778,10 @@ faster
 than
 StringIO
     
-but
-doesn
-'
-t
-crash
-on
+and
+supports
 unicode
 data
-like
-cStringIO
 .
 "
 "
@@ -830,9 +799,6 @@ errors
 "
 strict
 "
-as_unicode
-=
-False
 )
 :
         
@@ -852,37 +818,12 @@ encoding
 =
 encoding
         
-if
-as_unicode
-:
-            
-self
-.
-delim
-=
-compat
-.
-u
-(
-"
-"
-)
-        
-else
-:
-            
 self
 .
 delim
 =
 "
 "
-        
-self
-.
-as_unicode
-=
-as_unicode
         
 self
 .
@@ -1047,9 +988,6 @@ inexact
     
 class
 _Item
-(
-object
-)
 :
         
 def
@@ -1200,16 +1138,13 @@ self
 key
 ]
         
-else
-:
-            
 self
 [
 key
 ]
 =
 value
-            
+        
 return
 value
     
@@ -1838,7 +1773,6 @@ return
 .
 join
 (
-[
 "
 %
 r
@@ -1858,7 +1792,6 @@ for
 k
 in
 keys
-]
 )
 +
 "
@@ -1935,9 +1868,6 @@ foo
 pass
 class
 Bar
-(
-object
-)
 :
 pass
 if
@@ -2823,34 +2753,20 @@ rb
 )
 :
     
-fp
-=
+with
 open
 (
 path
 mode
 )
-    
-try
+as
+fp
 :
         
-data
-=
+return
 fp
 .
 read
-(
-)
-        
-return
-data
-    
-finally
-:
-        
-fp
-.
-close
 (
 )
 def

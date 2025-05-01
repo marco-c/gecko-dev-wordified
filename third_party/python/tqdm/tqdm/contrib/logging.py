@@ -12,10 +12,6 @@ logging
 "
 "
 "
-from
-__future__
-import
-absolute_import
 import
 logging
 import
@@ -35,13 +31,9 @@ List
 Optional
 Type
 #
-pylint
+noqa
 :
-disable
-=
-unused
--
-import
+F401
 except
 ImportError
 :

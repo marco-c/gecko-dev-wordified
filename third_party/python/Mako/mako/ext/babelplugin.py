@@ -8,7 +8,7 @@ py
 Copyright
 2006
 -
-2020
+2022
 the
 Mako
 authors
@@ -62,15 +62,17 @@ extraction
 via
 Babel
 :
-http
+https
 :
 /
 /
-babel
-.
-edgewall
+pypi
 .
 org
+/
+project
+/
+Babel
 /
 "
 "
@@ -132,7 +134,6 @@ comment
 tags
 "
 :
-u
 "
 "
 .
@@ -169,8 +170,6 @@ None
         
 super
 (
-BabelMakoExtractor
-self
 )
 .
 __init__
@@ -387,14 +386,9 @@ comment_tags
 options
 )
     
-for
-message
-in
+yield
+from
 extractor
 (
 fileobj
 )
-:
-        
-yield
-message

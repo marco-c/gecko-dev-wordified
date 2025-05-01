@@ -8,7 +8,7 @@ py
 Copyright
 2006
 -
-2020
+2022
 the
 Mako
 authors
@@ -61,6 +61,8 @@ import
 re
 import
 stat
+import
+threading
 from
 mako
 import
@@ -75,23 +77,8 @@ mako
 template
 import
 Template
-try
-:
-    
-import
-threading
-except
-:
-    
-import
-dummy_threading
-as
-threading
 class
 TemplateCollection
-(
-object
-)
 :
     
 "
@@ -210,7 +197,7 @@ class
 .
 TemplateLookup
 .
-     
+    
 "
 "
 "
@@ -418,7 +405,7 @@ a
 URI
 relative
 to
-           
+        
 this
 :
 class
@@ -1092,14 +1079,6 @@ error_handler
 =
 None
         
-disable_unicode
-=
-False
-        
-bytestring_passthrough
-=
-False
-        
 output_encoding
 =
 None
@@ -1321,18 +1300,6 @@ include_error_handler
 "
 :
 include_error_handler
-            
-"
-disable_unicode
-"
-:
-disable_unicode
-            
-"
-bytestring_passthrough
-"
-:
-bytestring_passthrough
             
 "
 output_encoding
@@ -1574,6 +1541,8 @@ uri
         
 except
 KeyError
+as
+e
 :
             
 u
@@ -1687,7 +1656,9 @@ TopLevelLookupException
 (
                     
 "
-Cant
+Can
+'
+t
 locate
 template
 for
@@ -1699,6 +1670,8 @@ r
 uri
                 
 )
+from
+e
     
 def
 adjust_uri
@@ -1755,20 +1728,31 @@ uri
 [
 0
 ]
-!
+=
 =
 "
 /
 "
 :
             
-if
+v
+=
+self
+.
+_uri_cache
+[
+key
+]
+=
+uri
+        
+elif
 relativeto
 is
 not
 None
 :
-                
+            
 v
 =
 self
@@ -1782,7 +1766,7 @@ posixpath
 .
 join
 (
-                    
+                
 posixpath
 .
 dirname
@@ -1790,26 +1774,8 @@ dirname
 relativeto
 )
 uri
-                
-)
             
-else
-:
-                
-v
-=
-self
-.
-_uri_cache
-[
-key
-]
-=
-"
-/
-"
-+
-uri
+)
         
 else
 :
@@ -1823,6 +1789,10 @@ _uri_cache
 key
 ]
 =
+"
+/
+"
++
 uri
         
 return
@@ -1848,7 +1818,7 @@ a
 URI
 relative
 to
-           
+        
 this
 :
 class
@@ -1918,7 +1888,7 @@ is
 '
 relative
 '
-           
+        
 to
 the
 directories
@@ -2191,7 +2161,8 @@ template
 module
 .
 _modified_time
-<
+>
+=
 template_stat
 [
 stat
@@ -2200,6 +2171,9 @@ ST_MTIME
 ]
 :
                 
+return
+template
+            
 self
 .
 _collection
@@ -2209,7 +2183,7 @@ pop
 uri
 None
 )
-                
+            
 return
 self
 .
@@ -2220,15 +2194,11 @@ template
 filename
 uri
 )
-            
-else
-:
-                
-return
-template
         
 except
 OSError
+as
+e
 :
             
 self
@@ -2248,7 +2218,9 @@ TemplateLookupException
 (
                 
 "
-Cant
+Can
+'
+t
 locate
 template
 for
@@ -2260,6 +2232,8 @@ r
 uri
             
 )
+from
+e
     
 def
 put_string

@@ -231,6 +231,7 @@ w
 +
 \
 )
++
 "
 )
     
@@ -626,6 +627,30 @@ replace
 replace
 (
 "
+\
+\
+A
+"
+"
+"
+)
+            
+.
+replace
+(
+"
+\
+\
+Z
+"
+"
+"
+)
+            
+.
+replace
+(
+"
 /
 /
 "
@@ -944,7 +969,10 @@ type
 )
 -
 >
+Optional
+[
 str
+]
         
 resolver
 =
@@ -965,8 +993,6 @@ path
         
 return
 match
-or
-path
 LEGACY_RESOLVER
 =
 RavenResolver
