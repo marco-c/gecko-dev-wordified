@@ -430,6 +430,7 @@ RefFunc
 PostBarrier
 PostBarrierPrecise
 PostBarrierPreciseWithOffset
+PostBarrierWholeCell
 ExceptionNew
 ThrowException
 StructNewIL_true
@@ -1250,6 +1251,11 @@ extern
 const
 SymbolicAddressSignature
 SASigPostBarrierPreciseWithOffset
+;
+extern
+const
+SymbolicAddressSignature
+SASigPostBarrierWholeCell
 ;
 extern
 const
