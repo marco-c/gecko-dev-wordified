@@ -612,6 +612,14 @@ nonsponsored
 "
 true
 ]
+[
+"
+quicksuggest
+.
+ampTopPickCharThreshold
+"
+0
+]
 ]
 }
 )

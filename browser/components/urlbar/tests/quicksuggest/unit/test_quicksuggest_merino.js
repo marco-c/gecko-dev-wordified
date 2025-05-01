@@ -254,6 +254,14 @@ sponsored
 "
 true
 ]
+[
+"
+quicksuggest
+.
+ampTopPickCharThreshold
+"
+0
+]
 ]
 }
 )
