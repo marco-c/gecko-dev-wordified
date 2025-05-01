@@ -312,13 +312,8 @@ Utf8PathBuf
 )
 -
 >
-Result
-<
 Self
->
 {
-Ok
-(
 Self
 {
 path
@@ -329,7 +324,6 @@ ConnectionCell
 :
 Uninitialized
 }
-)
 }
 fn
 transaction
@@ -2205,7 +2199,6 @@ into
 (
 )
 )
-?
 ;
 let
 collection_url
@@ -2492,7 +2485,6 @@ into
 (
 )
 )
-?
 ;
 let
 collection_url
@@ -2609,7 +2601,6 @@ into
 (
 )
 )
-?
 ;
 let
 collection_url
@@ -2759,7 +2750,6 @@ into
 (
 )
 )
-?
 ;
 let
 attachment
@@ -2949,7 +2939,6 @@ into
 (
 )
 )
-?
 ;
 let
 collection_url
@@ -3233,7 +3222,6 @@ into
 (
 )
 )
-?
 ;
 let
 collection_url_1
@@ -3558,7 +3546,6 @@ into
 (
 )
 )
-?
 ;
 let
 collection_url
@@ -3657,7 +3644,6 @@ into
 (
 )
 )
-?
 ;
 let
 collection_url
@@ -4071,7 +4057,6 @@ into
 (
 )
 )
-?
 ;
 let
 collection_url1
@@ -4505,7 +4490,6 @@ into
 (
 )
 )
-?
 ;
 let
 collection_url
@@ -4884,7 +4868,6 @@ into
 (
 )
 )
-?
 ;
 let
 collection_url
@@ -5416,7 +5399,6 @@ into
 (
 )
 )
-?
 ;
 let
 collection_url

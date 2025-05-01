@@ -812,13 +812,8 @@ RemoteSettingsService
 )
 -
 >
-Result
-<
 Self
->
 {
-Ok
-(
 Self
 {
 amp_client
@@ -840,7 +835,6 @@ to_owned
 (
 )
 )
-?
 other_client
 :
 rs_service
@@ -860,7 +854,6 @@ to_owned
 (
 )
 )
-?
 fakespot_client
 :
 rs_service
@@ -880,9 +873,7 @@ to_owned
 (
 )
 )
-?
 }
-)
 }
 fn
 client_for_collection

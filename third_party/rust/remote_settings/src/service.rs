@@ -87,16 +87,14 @@ parking_lot
 Mutex
 ;
 use
-url
-:
-:
-Url
-;
-use
 crate
 :
 :
 {
+config
+:
+:
+BaseUrl
 storage
 :
 :
@@ -135,7 +133,7 @@ storage_dir
 Utf8PathBuf
 base_url
 :
-Url
+BaseUrl
 bucket_name
 :
 String
@@ -310,7 +308,7 @@ RemoteSettingsServer
 Prod
 )
 .
-get_url_with_prod_fallback
+get_base_url_with_prod_fallback
 (
 )
 ;
@@ -377,12 +375,9 @@ String
 )
 -
 >
-Result
-<
 Arc
 <
 RemoteSettingsClient
->
 >
 {
 let
@@ -439,7 +434,6 @@ clone
 (
 )
 )
-?
 }
 else
 {
@@ -467,7 +461,6 @@ sql
 )
 )
 )
-?
 }
 ;
 let
@@ -511,7 +504,6 @@ clone
 )
 storage
 )
-?
 )
 ;
 inner
@@ -530,10 +522,7 @@ client
 )
 )
 ;
-Ok
-(
 client
-)
 }
 /
 /
@@ -777,7 +766,7 @@ RemoteSettingsServer
 Prod
 )
 .
-get_url
+get_base_url
 (
 )
 ?
