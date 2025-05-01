@@ -2173,6 +2173,12 @@ _srcrpmdir
 /
 target
 "
+    
+"
+-
+-
+target
+"
 ]
 pytest
 .
@@ -2240,6 +2246,7 @@ join
 RPMBUILD_COMMAND
 )
 }
+noarch
 "
             
 ]
@@ -2252,6 +2259,12 @@ all
 "
 False
 RPMBUILD_COMMAND
++
+[
+"
+noarch
+"
+]
 )
         
 (
@@ -2305,6 +2318,7 @@ join
 RPMBUILD_COMMAND
 )
 }
+i386
 "
             
 ]
@@ -2317,6 +2331,12 @@ x86
 "
 False
 RPMBUILD_COMMAND
++
+[
+"
+i386
+"
+]
 )
         
 (
@@ -2370,6 +2390,7 @@ join
 RPMBUILD_COMMAND
 )
 }
+x86_64
 "
             
 ]
@@ -2385,6 +2406,12 @@ x86_64
 False
             
 RPMBUILD_COMMAND
++
+[
+"
+x86_64
+"
+]
         
 )
     
