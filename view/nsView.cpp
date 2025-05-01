@@ -3025,13 +3025,6 @@ InitData
 (
 )
 {
-mWindowType
-=
-WindowType
-:
-:
-Child
-;
 mClipChildren
 =
 true
