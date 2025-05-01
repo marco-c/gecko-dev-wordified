@@ -385,8 +385,6 @@ viewCustomizeSidebar
 let
 customizeDocument
 =
-window
-.
 SidebarController
 .
 browser
@@ -720,8 +718,6 @@ true
 let
 customizeDocument
 =
-window
-.
 SidebarController
 .
 browser

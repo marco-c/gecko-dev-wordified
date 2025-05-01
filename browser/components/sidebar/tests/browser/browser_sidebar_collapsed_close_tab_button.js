@@ -50,11 +50,7 @@ set
 :
 [
 [
-"
-sidebar
-.
-verticalTabs
-"
+VERTICAL_TABS_PREF
 true
 ]
 ]
@@ -79,11 +75,7 @@ prefs
 .
 getStringPref
 (
-"
-sidebar
-.
-visibility
-"
+SIDEBAR_VISIBILITY_PREF
 )
 "
 always
@@ -171,8 +163,6 @@ shown
 ;
 if
 (
-window
-.
 SidebarController
 .
 _state

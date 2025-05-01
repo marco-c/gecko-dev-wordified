@@ -93,11 +93,7 @@ set
 :
 [
 [
-"
-sidebar
-.
-verticalTabs
-"
+VERTICAL_TABS_PREF
 true
 ]
 ]

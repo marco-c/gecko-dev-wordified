@@ -88,11 +88,7 @@ nimbus
 const
 vertical
 =
-"
-sidebar
-.
-verticalTabs
-"
+VERTICAL_TABS_PREF
 ;
 Assert
 .
