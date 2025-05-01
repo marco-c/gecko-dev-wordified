@@ -606,6 +606,7 @@ structured_clone
 }
 ]
 }
+;
 on_event
 (
 window
@@ -1353,6 +1354,7 @@ message_events
 new_events
 ;
 }
+;
 WindowTestEnvironment
 .
 prototype
@@ -1513,6 +1515,7 @@ i
 name
 =
 =
+=
 "
 timeout
 "
@@ -1526,6 +1529,7 @@ i
 ]
 .
 content
+=
 =
 =
 "
@@ -3212,6 +3216,7 @@ this
 all_loaded
 =
 true
+;
 if
 (
 this
@@ -3667,6 +3672,7 @@ call
 (
 worker
 )
+=
 =
 =
 '
@@ -5496,6 +5502,7 @@ function
 {
 throw
 e
+;
 }
 description
 "
@@ -5915,6 +5922,7 @@ function
 {
 throw
 e
+;
 }
 description
 "
@@ -6060,6 +6068,7 @@ function
 {
 throw
 e
+;
 }
 description
 "
@@ -6259,6 +6268,7 @@ if
 (
 typeof
 eventTypes
+=
 =
 =
 '
@@ -6741,6 +6751,7 @@ typeof
 types
 =
 =
+=
 '
 string
 '
@@ -6864,6 +6875,7 @@ waitingFor
 types
 .
 length
+=
 =
 =
 0
@@ -9997,6 +10009,7 @@ childNodes
 length
 =
 =
+=
 1
 ?
 "
@@ -10043,6 +10056,7 @@ val
 childNodes
 .
 length
+=
 =
 =
 1
@@ -15259,6 +15273,7 @@ typeof
 constructor
 =
 =
+=
 "
 function
 "
@@ -15871,6 +15886,7 @@ assert_throws_dom
 "
 constructor
 )
+;
 }
 expose_assert
 (
@@ -16076,6 +16092,7 @@ typeof
 type
 =
 =
+=
 "
 number
 "
@@ -16083,6 +16100,7 @@ number
 |
 typeof
 type
+=
 =
 =
 "
@@ -17485,6 +17503,7 @@ assert_implements
 assert_implements
 "
 )
+;
 /
 *
 *
@@ -18125,6 +18144,7 @@ Feature
 Unsupported
 "
 }
+;
 Test
 .
 prototype
@@ -18146,6 +18166,7 @@ status
 ]
 ;
 }
+;
 Test
 .
 prototype
@@ -20448,6 +20469,7 @@ interval
 )
 ;
 }
+;
 /
 *
 *
@@ -21735,6 +21757,7 @@ _abortController
 signal
 ;
 }
+;
 /
 *
 *
@@ -22299,6 +22322,7 @@ callback
 )
 ;
 }
+;
 RemoteTest
 .
 prototype
@@ -22322,6 +22346,7 @@ status
 ]
 ;
 }
+;
 /
 *
 *
@@ -23978,7 +24003,7 @@ false
 ;
 this
 .
-pending_remotes
+remotes
 =
 [
 ]
@@ -24229,6 +24254,7 @@ if
 p
 =
 =
+=
 "
 allow_uncaught_exception
 "
@@ -24245,6 +24271,7 @@ else
 if
 (
 p
+=
 =
 =
 "
@@ -24266,6 +24293,7 @@ else
 if
 (
 p
+=
 =
 =
 "
@@ -24304,6 +24332,7 @@ if
 p
 =
 =
+=
 "
 single_test
 "
@@ -24323,6 +24352,7 @@ else
 if
 (
 p
+=
 =
 =
 "
@@ -24360,6 +24390,7 @@ if
 p
 =
 =
+=
 "
 hide_test_state
 "
@@ -24376,6 +24407,7 @@ else
 if
 (
 p
+=
 =
 =
 "
@@ -24959,6 +24991,24 @@ if
 this
 .
 phase
+=
+=
+=
+this
+.
+phases
+.
+COMPLETE
+)
+{
+return
+;
+}
+if
+(
+this
+.
+phase
 <
 this
 .
@@ -24992,6 +25042,8 @@ push
 (
 test
 )
+-
+1
 ;
 this
 .
@@ -25062,7 +25114,7 @@ length
 |
 this
 .
-pending_remotes
+remotes
 .
 length
 >
@@ -25106,7 +25158,7 @@ processing_callbacks
 !
 this
 .
-pending_remotes
+remotes
 .
 some
 (
@@ -25483,7 +25535,13 @@ test
 .
 phases
 .
-COMPLETE
+HAS_RESULT
+;
+test
+.
+done
+(
+)
 ;
 testDone
 (
@@ -25539,7 +25597,9 @@ assert_name
 args
 )
 )
+;
 }
+;
 Tests
 .
 prototype
@@ -25576,6 +25636,7 @@ stack
 stack
 ;
 }
+;
 /
 *
 *
@@ -26459,7 +26520,7 @@ worker
 ;
 this
 .
-pending_remotes
+remotes
 .
 push
 (
@@ -26609,7 +26670,7 @@ remote
 ;
 this
 .
-pending_remotes
+remotes
 .
 push
 (
@@ -27913,6 +27974,7 @@ root
 namespaceURI
 =
 =
+=
 "
 http
 :
@@ -27933,6 +27995,7 @@ xhtml
 root
 .
 localName
+=
 =
 =
 "
@@ -30959,6 +31022,7 @@ typeof
 message
 =
 =
+=
 "
 string
 "
@@ -31398,6 +31462,7 @@ n
 )
 ;
 }
+;
 function
 OptionalFeatureUnsupportedError
 (

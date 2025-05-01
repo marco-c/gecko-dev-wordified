@@ -2174,7 +2174,6 @@ list
 (
 range
 (
-1
 nums
 [
 -
