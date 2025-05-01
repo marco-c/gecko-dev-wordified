@@ -202,6 +202,13 @@ sinon
 stub
 (
 )
+SidebarManager
+:
+{
+hasSidebarLauncherBeenVisible
+:
+false
+}
 }
 ;
 add_task
