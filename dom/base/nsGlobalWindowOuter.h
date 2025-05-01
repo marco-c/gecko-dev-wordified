@@ -6345,11 +6345,6 @@ nsIURI
 aURI
 )
 ;
-bool
-IsOnlyTopLevelDocumentInSHistory
-(
-)
-;
 void
 MaybeResetWindowName
 (
