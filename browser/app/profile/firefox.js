@@ -20882,10 +20882,6 @@ b
 true
 )
 ;
-/
-/
-Shortcuts
-experiment
 pref
 (
 "
@@ -20901,7 +20897,7 @@ newtabShortcuts
 .
 refresh
 "
-false
+true
 )
 ;
 /
