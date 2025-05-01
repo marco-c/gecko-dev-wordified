@@ -333,12 +333,6 @@ builds
 worker
 /
 fetches
-/
-target
-.
-tar
-.
-xz
 "
                     
 }
@@ -470,10 +464,6 @@ fetches
 {
 locale
 }
-.
-langpack
-.
-xpi
 "
                     
 }
