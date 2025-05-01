@@ -546,6 +546,30 @@ None
     
 )
     
+#
+The
+new
+coordinates
+can
+be
+different
+from
+the
+initial
+ones
+if
+the
+position
+    
+#
+was
+not
+available
+at
+the
+beginning
+.
+    
 assert
 await
 get_current_geolocation
@@ -553,9 +577,9 @@ get_current_geolocation
 bidi_session
 new_tab
 )
+!
 =
-=
-default_coordinates
+TEST_COORDINATES
     
 assert
 (
@@ -566,8 +590,8 @@ get_current_geolocation
 bidi_session
 new_context
 )
+!
 =
-=
-default_coordinates
+TEST_COORDINATES
     
 )
