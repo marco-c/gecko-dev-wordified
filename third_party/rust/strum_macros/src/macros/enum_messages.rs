@@ -898,6 +898,10 @@ ty_generics
 #
 where_clause
 {
+#
+[
+inline
+]
 fn
 get_message
 (
@@ -933,6 +937,10 @@ arms
 *
 }
 }
+#
+[
+inline
+]
 fn
 get_detailed_message
 (
@@ -968,6 +976,10 @@ detailed_arms
 *
 }
 }
+#
+[
+inline
+]
 fn
 get_documentation
 (
@@ -1003,6 +1015,10 @@ documentation_arms
 *
 }
 }
+#
+[
+inline
+]
 fn
 get_serializations
 (
