@@ -11823,11 +11823,11 @@ t
 register_target_task
 (
 "
-snap_upstream_tests
+snap_upstream_tasks
 "
 )
 def
-target_tasks_snap_upstream_tests
+target_tasks_snap_upstream_tasks
 (
 full_task_graph
 parameters
@@ -11842,6 +11842,8 @@ graph_config
 Select
 tasks
 for
+building
+/
 testing
 Snap
 package
@@ -11852,8 +11854,8 @@ upstream
 Omit
 -
 try
-because
     
+because
 it
 does
 not
@@ -11866,6 +11868,31 @@ m
 -
 c
 cron
+    
+Use
+test
+tasks
+for
+linux64
+builds
+and
+only
+builds
+for
+arm
+*
+until
+there
+is
+    
+support
+for
+running
+tests
+(
+bug
+1855463
+)
     
 "
 "
@@ -11889,8 +11916,6 @@ if
 snap
 -
 upstream
--
-test
 "
 in
 name
