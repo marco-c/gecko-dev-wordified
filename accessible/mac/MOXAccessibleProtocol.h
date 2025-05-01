@@ -1572,6 +1572,17 @@ moxLanguage
 ;
 /
 /
+AXKeyShortcutsValue
+-
+(
+NSString
+*
+_Nullable
+)
+moxKeyShortcutsValue
+;
+/
+/
 AXMozDebugDescription
 -
 (

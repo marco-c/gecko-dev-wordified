@@ -1204,6 +1204,16 @@ NSString
 )
 moxLanguage
 ;
+/
+/
+override
+-
+(
+NSString
+*
+)
+moxKeyShortcutsValue
+;
 #
 ifndef
 RELEASE_OR_BETA
