@@ -1994,6 +1994,7 @@ the
 rest
 .
 }
+;
 toURI
 :
 (

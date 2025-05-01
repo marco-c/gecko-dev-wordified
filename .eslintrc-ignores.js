@@ -198,6 +198,17 @@ js
 "
 /
 /
+Exclude
+TypeScript
+files
+.
+"
+*
+.
+ts
+"
+/
+/
 Ignore
 VSCode
 files
