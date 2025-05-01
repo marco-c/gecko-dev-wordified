@@ -122,14 +122,10 @@ std
 ffi
 :
 :
-CStr
-os
-:
-:
-raw
-:
-:
+{
 c_char
+CStr
+}
 path
 :
 :
@@ -629,7 +625,7 @@ Hash
 )
 ]
 enum
-OS
+Os
 {
 iOS
 tvOS
@@ -671,7 +667,7 @@ self
 )
 -
 >
-OS
+Os
 {
 let
 value
@@ -686,7 +682,7 @@ value
 <
 10_000
 {
-OS
+Os
 :
 :
 iOS
@@ -697,7 +693,7 @@ value
 <
 20_000
 {
-OS
+Os
 :
 :
 macOS
@@ -714,7 +710,7 @@ value
 <
 40_000
 {
-OS
+Os
 :
 :
 tvOS
@@ -1051,7 +1047,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -1065,14 +1061,14 @@ gpu_family
 >
 =
 2
-OS
+Os
 :
 :
 tvOS
 =
 >
 true
-OS
+Os
 :
 :
 macOS
@@ -1106,7 +1102,7 @@ os
 )
 !
 =
-OS
+Os
 :
 :
 macOS
@@ -1129,7 +1125,7 @@ os
 )
 !
 =
-OS
+Os
 :
 :
 macOS
@@ -1152,7 +1148,7 @@ os
 )
 !
 =
-OS
+Os
 :
 :
 macOS
@@ -1175,7 +1171,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -1189,14 +1185,14 @@ gpu_family
 >
 =
 2
-OS
+Os
 :
 :
 tvOS
 =
 >
 true
-OS
+Os
 :
 :
 macOS
@@ -1223,7 +1219,7 @@ os
 )
 !
 =
-OS
+Os
 :
 :
 macOS
@@ -1256,7 +1252,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -1279,7 +1275,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -1293,7 +1289,7 @@ gpu_family
 >
 =
 3
-OS
+Os
 :
 :
 tvOS
@@ -1307,7 +1303,7 @@ gpu_family
 >
 =
 2
-OS
+Os
 :
 :
 macOS
@@ -1334,7 +1330,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -1348,7 +1344,7 @@ gpu_family
 >
 =
 3
-OS
+Os
 :
 :
 tvOS
@@ -1362,7 +1358,7 @@ gpu_family
 >
 =
 2
-OS
+Os
 :
 :
 macOS
@@ -1389,7 +1385,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -1403,7 +1399,7 @@ gpu_family
 >
 =
 3
-OS
+Os
 :
 :
 tvOS
@@ -1417,7 +1413,7 @@ gpu_family
 >
 =
 2
-OS
+Os
 :
 :
 macOS
@@ -1444,7 +1440,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -1458,7 +1454,7 @@ gpu_family
 >
 =
 3
-OS
+Os
 :
 :
 tvOS
@@ -1472,7 +1468,7 @@ gpu_family
 >
 =
 2
-OS
+Os
 :
 :
 macOS
@@ -1499,7 +1495,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -1513,14 +1509,14 @@ gpu_family
 >
 =
 4
-OS
+Os
 :
 :
 tvOS
 =
 >
 false
-OS
+Os
 :
 :
 macOS
@@ -1547,7 +1543,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -1570,7 +1566,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -1584,14 +1580,14 @@ gpu_family
 >
 =
 5
-OS
+Os
 :
 :
 tvOS
 =
 >
 false
-OS
+Os
 :
 :
 macOS
@@ -1618,7 +1614,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -1642,7 +1638,7 @@ os_version
 >
 =
 10
-OS
+Os
 :
 :
 tvOS
@@ -1656,7 +1652,7 @@ gpu_family
 >
 =
 2
-OS
+Os
 :
 :
 macOS
@@ -1690,7 +1686,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -1704,7 +1700,7 @@ os_version
 >
 =
 10
-OS
+Os
 :
 :
 tvOS
@@ -1718,7 +1714,7 @@ os_version
 >
 =
 10
-OS
+Os
 :
 :
 macOS
@@ -1752,7 +1748,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -1766,7 +1762,7 @@ os_version
 >
 =
 10
-OS
+Os
 :
 :
 tvOS
@@ -1780,7 +1776,7 @@ os_version
 >
 =
 10
-OS
+Os
 :
 :
 macOS
@@ -1807,7 +1803,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -1821,7 +1817,7 @@ os_version
 >
 =
 10
-OS
+Os
 :
 :
 tvOS
@@ -1835,7 +1831,7 @@ os_version
 >
 =
 10
-OS
+Os
 :
 :
 macOS
@@ -1869,7 +1865,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -1893,7 +1889,7 @@ os_version
 >
 =
 10
-OS
+Os
 :
 :
 tvOS
@@ -1907,7 +1903,7 @@ gpu_family
 >
 =
 2
-OS
+Os
 :
 :
 macOS
@@ -1941,7 +1937,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -1955,14 +1951,14 @@ gpu_family
 >
 =
 4
-OS
+Os
 :
 :
 tvOS
 =
 >
 false
-OS
+Os
 :
 :
 macOS
@@ -1996,7 +1992,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -2020,7 +2016,7 @@ os_version
 >
 =
 10
-OS
+Os
 :
 :
 tvOS
@@ -2034,7 +2030,7 @@ gpu_family
 >
 =
 2
-OS
+Os
 :
 :
 macOS
@@ -2068,7 +2064,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -2092,7 +2088,7 @@ os_version
 >
 =
 11
-OS
+Os
 :
 :
 tvOS
@@ -2106,7 +2102,7 @@ gpu_family
 >
 =
 2
-OS
+Os
 :
 :
 macOS
@@ -2140,7 +2136,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -2154,7 +2150,7 @@ os_version
 >
 =
 10
-OS
+Os
 :
 :
 tvOS
@@ -2168,7 +2164,7 @@ os_version
 >
 =
 10
-OS
+Os
 :
 :
 macOS
@@ -2202,7 +2198,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -2235,7 +2231,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -2259,7 +2255,7 @@ os_version
 >
 =
 10
-OS
+Os
 :
 :
 tvOS
@@ -2273,7 +2269,7 @@ gpu_family
 >
 =
 2
-OS
+Os
 :
 :
 macOS
@@ -2300,7 +2296,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -2314,7 +2310,7 @@ os_version
 >
 =
 11
-OS
+Os
 :
 :
 tvOS
@@ -2328,7 +2324,7 @@ os_version
 >
 =
 11
-OS
+Os
 :
 :
 macOS
@@ -2362,7 +2358,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -2386,7 +2382,7 @@ os_version
 >
 =
 10
-OS
+Os
 :
 :
 tvOS
@@ -2400,7 +2396,7 @@ gpu_family
 >
 =
 2
-OS
+Os
 :
 :
 macOS
@@ -2434,7 +2430,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -2448,7 +2444,7 @@ os_version
 >
 =
 10
-OS
+Os
 :
 :
 tvOS
@@ -2462,7 +2458,7 @@ os_version
 >
 =
 10
-OS
+Os
 :
 :
 macOS
@@ -2496,7 +2492,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -2510,7 +2506,7 @@ os_version
 >
 =
 10
-OS
+Os
 :
 :
 tvOS
@@ -2524,7 +2520,7 @@ os_version
 >
 =
 10
-OS
+Os
 :
 :
 macOS
@@ -2551,7 +2547,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -2587,7 +2583,7 @@ version
 =
 3
 )
-OS
+Os
 :
 :
 tvOS
@@ -2601,7 +2597,7 @@ os_version
 >
 =
 10
-OS
+Os
 :
 :
 macOS
@@ -2635,7 +2631,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -2649,7 +2645,7 @@ os_version
 >
 =
 10
-OS
+Os
 :
 :
 tvOS
@@ -2663,7 +2659,7 @@ os_version
 >
 =
 10
-OS
+Os
 :
 :
 macOS
@@ -2697,7 +2693,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -2711,7 +2707,7 @@ os_version
 >
 =
 10
-OS
+Os
 :
 :
 tvOS
@@ -2725,7 +2721,7 @@ os_version
 >
 =
 10
-OS
+Os
 :
 :
 macOS
@@ -2759,7 +2755,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -2773,7 +2769,7 @@ os_version
 >
 =
 10
-OS
+Os
 :
 :
 tvOS
@@ -2787,7 +2783,7 @@ os_version
 >
 =
 10
-OS
+Os
 :
 :
 macOS
@@ -2821,7 +2817,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -2835,7 +2831,7 @@ os_version
 >
 =
 10
-OS
+Os
 :
 :
 tvOS
@@ -2849,7 +2845,7 @@ os_version
 >
 =
 10
-OS
+Os
 :
 :
 macOS
@@ -2883,7 +2879,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -2897,7 +2893,7 @@ os_version
 >
 =
 10
-OS
+Os
 :
 :
 tvOS
@@ -2911,7 +2907,7 @@ os_version
 >
 =
 10
-OS
+Os
 :
 :
 macOS
@@ -2945,7 +2941,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -2978,7 +2974,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -2992,7 +2988,7 @@ os_version
 >
 =
 11
-OS
+Os
 :
 :
 tvOS
@@ -3006,7 +3002,7 @@ os_version
 >
 =
 11
-OS
+Os
 :
 :
 macOS
@@ -3040,7 +3036,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -3054,7 +3050,7 @@ os_version
 >
 =
 11
-OS
+Os
 :
 :
 tvOS
@@ -3068,7 +3064,7 @@ os_version
 >
 =
 11
-OS
+Os
 :
 :
 macOS
@@ -3102,7 +3098,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -3116,7 +3112,7 @@ os_version
 >
 =
 11
-OS
+Os
 :
 :
 tvOS
@@ -3130,7 +3126,7 @@ os_version
 >
 =
 11
-OS
+Os
 :
 :
 macOS
@@ -3164,7 +3160,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -3178,7 +3174,7 @@ os_version
 >
 =
 11
-OS
+Os
 :
 :
 tvOS
@@ -3192,7 +3188,7 @@ os_version
 >
 =
 11
-OS
+Os
 :
 :
 macOS
@@ -3226,7 +3222,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 iOS
@@ -3259,7 +3255,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 iOS
@@ -3292,7 +3288,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 iOS
@@ -3325,7 +3321,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 iOS
@@ -3358,7 +3354,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 iOS
@@ -3391,7 +3387,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -3405,14 +3401,14 @@ gpu_family
 >
 =
 4
-OS
+Os
 :
 :
 tvOS
 =
 >
 false
-OS
+Os
 :
 :
 macOS
@@ -3446,7 +3442,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -3460,14 +3456,14 @@ gpu_family
 >
 =
 4
-OS
+Os
 :
 :
 tvOS
 =
 >
 false
-OS
+Os
 :
 :
 macOS
@@ -3501,7 +3497,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -3515,14 +3511,14 @@ gpu_family
 >
 =
 4
-OS
+Os
 :
 :
 tvOS
 =
 >
 false
-OS
+Os
 :
 :
 macOS
@@ -3556,7 +3552,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -3570,14 +3566,14 @@ gpu_family
 >
 =
 5
-OS
+Os
 :
 :
 tvOS
 =
 >
 false
-OS
+Os
 :
 :
 macOS
@@ -3611,7 +3607,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -3644,7 +3640,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -3658,14 +3654,14 @@ gpu_family
 >
 =
 5
-OS
+Os
 :
 :
 tvOS
 =
 >
 false
-OS
+Os
 :
 :
 macOS
@@ -3699,7 +3695,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -3713,14 +3709,14 @@ gpu_family
 >
 =
 5
-OS
+Os
 :
 :
 tvOS
 =
 >
 false
-OS
+Os
 :
 :
 macOS
@@ -3754,7 +3750,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -3768,7 +3764,7 @@ gpu_family
 >
 =
 3
-OS
+Os
 :
 :
 tvOS
@@ -3782,7 +3778,7 @@ gpu_family
 >
 =
 3
-OS
+Os
 :
 :
 macOS
@@ -3843,7 +3839,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -3900,7 +3896,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -3946,7 +3942,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -3994,7 +3990,7 @@ gpu_family
 )
 {
 (
-OS
+Os
 :
 :
 iOS
@@ -4006,7 +4002,7 @@ iOS
 *
 KB
 (
-OS
+Os
 :
 :
 iOS
@@ -4037,7 +4033,7 @@ KB
 }
 }
 (
-OS
+Os
 :
 :
 iOS
@@ -4049,7 +4045,7 @@ iOS
 *
 KB
 (
-OS
+Os
 :
 :
 iOS
@@ -4063,7 +4059,7 @@ KB
 -
 32
 (
-OS
+Os
 :
 :
 tvOS
@@ -4077,7 +4073,7 @@ KB
 -
 32
 (
-OS
+Os
 :
 :
 tvOS
@@ -4089,7 +4085,7 @@ _
 *
 KB
 (
-OS
+Os
 :
 :
 macOS
@@ -4121,7 +4117,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 iOS
@@ -4180,7 +4176,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -4216,7 +4212,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -4247,7 +4243,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -4277,7 +4273,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -4293,7 +4289,7 @@ os_version
 =
 >
 65536
-OS
+Os
 :
 :
 tvOS
@@ -4309,7 +4305,7 @@ os_version
 =
 >
 65536
-OS
+Os
 :
 :
 macOS
@@ -4356,7 +4352,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -4372,21 +4368,21 @@ gpu_family
 =
 >
 64
-OS
+Os
 :
 :
 iOS
 =
 >
 16
-OS
+Os
 :
 :
 tvOS
 =
 >
 16
-OS
+Os
 :
 :
 macOS
@@ -4461,6 +4457,16 @@ self
 >
 u32
 {
+#
+[
+allow
+(
+clippy
+:
+:
+identity_op
+)
+]
 if
 self
 .
@@ -4469,7 +4475,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -4514,7 +4520,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -4552,7 +4558,7 @@ gpu_family
 )
 {
 (
-OS
+Os
 :
 :
 iOS
@@ -4560,7 +4566,7 @@ iOS
 )
 |
 (
-OS
+Os
 :
 :
 iOS
@@ -4587,7 +4593,7 @@ else
 }
 }
 (
-OS
+Os
 :
 :
 tvOS
@@ -4628,7 +4634,7 @@ gpu_family
 )
 {
 (
-OS
+Os
 :
 :
 iOS
@@ -4636,7 +4642,7 @@ iOS
 )
 |
 (
-OS
+Os
 :
 :
 iOS
@@ -4663,7 +4669,7 @@ else
 }
 }
 (
-OS
+Os
 :
 :
 tvOS
@@ -4704,7 +4710,7 @@ gpu_family
 )
 {
 (
-OS
+Os
 :
 :
 iOS
@@ -4712,7 +4718,7 @@ iOS
 )
 |
 (
-OS
+Os
 :
 :
 iOS
@@ -4739,7 +4745,7 @@ else
 }
 }
 (
-OS
+Os
 :
 :
 tvOS
@@ -4806,7 +4812,7 @@ gpu_family
 )
 {
 (
-OS
+Os
 :
 :
 iOS
@@ -4814,7 +4820,7 @@ iOS
 )
 |
 (
-OS
+Os
 :
 :
 iOS
@@ -4822,7 +4828,7 @@ iOS
 )
 |
 (
-OS
+Os
 :
 :
 tvOS
@@ -4832,7 +4838,7 @@ tvOS
 >
 64
 (
-OS
+Os
 :
 :
 iOS
@@ -4840,7 +4846,7 @@ _
 )
 |
 (
-OS
+Os
 :
 :
 tvOS
@@ -4850,7 +4856,7 @@ _
 >
 16
 (
-OS
+Os
 :
 :
 macOS
@@ -4907,7 +4913,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -4950,7 +4956,7 @@ Some
 )
 }
 }
-OS
+Os
 :
 :
 tvOS
@@ -4977,7 +4983,7 @@ Some
 )
 }
 }
-OS
+Os
 :
 :
 macOS
@@ -5005,7 +5011,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 iOS
@@ -5069,7 +5075,7 @@ gpu_family
 )
 {
 (
-OS
+Os
 :
 :
 iOS
@@ -5082,7 +5088,7 @@ Some
 128
 )
 (
-OS
+Os
 :
 :
 iOS
@@ -5090,7 +5096,7 @@ iOS
 )
 |
 (
-OS
+Os
 :
 :
 iOS
@@ -5103,7 +5109,7 @@ Some
 256
 )
 (
-OS
+Os
 :
 :
 iOS
@@ -5116,7 +5122,7 @@ Some
 512
 )
 (
-OS
+Os
 :
 :
 tvOS
@@ -5129,7 +5135,7 @@ Some
 256
 )
 (
-OS
+Os
 :
 :
 macOS
@@ -5210,7 +5216,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -5265,7 +5271,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 iOS
@@ -5367,7 +5373,7 @@ os
 )
 !
 =
-OS
+Os
 :
 :
 macOS
@@ -5407,7 +5413,7 @@ os
 )
 !
 =
-OS
+Os
 :
 :
 macOS
@@ -5535,7 +5541,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -5590,7 +5596,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 iOS
@@ -5692,7 +5698,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -5732,7 +5738,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -5772,7 +5778,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -5812,7 +5818,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -5852,7 +5858,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 iOS
@@ -5881,7 +5887,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -5933,7 +5939,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 iOS
@@ -5962,7 +5968,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -6014,7 +6020,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 iOS
@@ -6053,7 +6059,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -6107,7 +6113,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -6147,7 +6153,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -6309,7 +6315,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 iOS
@@ -6465,7 +6471,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -6479,7 +6485,7 @@ gpu_family
 >
 =
 3
-OS
+Os
 :
 :
 tvOS
@@ -6493,7 +6499,7 @@ gpu_family
 >
 =
 2
-OS
+Os
 :
 :
 macOS
@@ -6542,7 +6548,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -6556,7 +6562,7 @@ gpu_family
 >
 =
 3
-OS
+Os
 :
 :
 tvOS
@@ -6570,7 +6576,7 @@ gpu_family
 >
 =
 2
-OS
+Os
 :
 :
 macOS
@@ -6631,7 +6637,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -6645,7 +6651,7 @@ gpu_family
 >
 =
 3
-OS
+Os
 :
 :
 tvOS
@@ -6659,7 +6665,7 @@ gpu_family
 >
 =
 2
-OS
+Os
 :
 :
 macOS
@@ -6706,7 +6712,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -6728,7 +6734,7 @@ os
 (
 )
 {
-OS
+Os
 :
 :
 iOS
@@ -6742,7 +6748,7 @@ gpu_family
 >
 =
 3
-OS
+Os
 :
 :
 tvOS
@@ -6756,7 +6762,7 @@ gpu_family
 >
 =
 2
-OS
+Os
 :
 :
 macOS
@@ -6804,7 +6810,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 iOS
@@ -6833,7 +6839,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -6885,7 +6891,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 iOS
@@ -6914,7 +6920,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -6966,7 +6972,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -6987,7 +6993,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 iOS
@@ -7049,7 +7055,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -7089,7 +7095,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -7199,7 +7205,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 iOS
@@ -7228,7 +7234,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -7280,7 +7286,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 iOS
@@ -7309,7 +7315,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -7361,7 +7367,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -7382,7 +7388,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 iOS
@@ -7641,7 +7647,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -7722,7 +7728,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -7771,7 +7777,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -7836,7 +7842,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -8038,7 +8044,7 @@ os
 )
 =
 =
-OS
+Os
 :
 :
 macOS
@@ -8810,9 +8816,10 @@ C
 "
 {
 static
+mut
 _dispatch_main_q
 :
-dispatch_queue_t
+Object
 ;
 fn
 dispatch_data_create
@@ -10346,16 +10353,10 @@ library_data
 as_ptr
 (
 )
-as
-*
-const
-std
-:
-:
-ffi
-:
-:
-c_void
+.
+cast
+(
+)
 library_data
 .
 len
@@ -10367,13 +10368,9 @@ crate
 :
 c_size_t
 &
+raw
+mut
 _dispatch_main_q
-as
-*
-const
-_
-as
-dispatch_queue_t
 DISPATCH_DATA_DESTRUCTOR_DEFAULT
 )
 ;
@@ -12665,9 +12662,6 @@ counter_sets
 count
 ]
 ;
-let
-ret
-=
 (
 0
 .
@@ -12721,8 +12715,6 @@ csp
 collect
 (
 )
-;
-ret
 }
 }
 }

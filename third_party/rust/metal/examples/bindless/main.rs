@@ -578,10 +578,11 @@ new_texture
 texture_descriptor
 )
 .
-expect
+unwrap_or_else
 (
-&
-format
+|
+|
+panic
 !
 (
 "

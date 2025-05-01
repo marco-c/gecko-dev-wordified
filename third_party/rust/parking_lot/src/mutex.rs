@@ -95,9 +95,6 @@ raw_mutex
 :
 RawMutex
 ;
-use
-lock_api
-;
 /
 /
 /
@@ -2012,11 +2009,8 @@ unwrap
 )
 ;
 let
-&
 (
-ref
 lock
-ref
 cvar
 )
 =
@@ -2051,11 +2045,8 @@ notify_one
 )
 ;
 let
-&
 (
-ref
 lock
-ref
 cvar
 )
 =

@@ -94,8 +94,6 @@ const
 PROGRAM
 :
 &
-'
-static
 str
 =
 "

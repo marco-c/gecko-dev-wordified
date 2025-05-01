@@ -1028,9 +1028,6 @@ libraries
 count
 ]
 ;
-let
-ret
-=
 (
 0
 .
@@ -1069,8 +1066,6 @@ lib
 collect
 (
 )
-;
-ret
 }
 }
 /
@@ -1191,9 +1186,6 @@ archives
 count
 ]
 ;
-let
-ret
-=
 (
 0
 .
@@ -1232,8 +1224,6 @@ a
 collect
 (
 )
-;
-ret
 }
 }
 /

@@ -1,17 +1,17 @@
 use
+crate
+:
+:
+prelude
+:
+:
+*
+;
+use
+crate
+:
+:
 pthread_mutex_t
-;
-pub
-type
-c_long
-=
-i32
-;
-pub
-type
-c_ulong
-=
-u32
 ;
 s
 !
@@ -23,74 +23,68 @@ statvfs
 pub
 f_bsize
 :
-:
-:
 c_ulong
 pub
 f_frsize
-:
-:
 :
 c_ulong
 pub
 f_blocks
 :
+crate
 :
 :
 fsblkcnt_t
 pub
 f_bfree
 :
+crate
 :
 :
 fsblkcnt_t
 pub
 f_bavail
 :
+crate
 :
 :
 fsblkcnt_t
 pub
 f_files
 :
+crate
 :
 :
 fsfilcnt_t
 pub
 f_ffree
 :
+crate
 :
 :
 fsfilcnt_t
 pub
 f_favail
 :
+crate
 :
 :
 fsfilcnt_t
 pub
 f_fsid
 :
-:
-:
 c_ulong
 pub
 f_flag
-:
-:
 :
 c_ulong
 pub
 f_namemax
 :
-:
-:
 c_ulong
 __f_spare
 :
 [
-:
-:
 c_int
 ;
 6
@@ -121,13 +115,11 @@ usize
 =
 20
 ;
-align_const
-!
-{
 pub
 const
 PTHREAD_RECURSIVE_MUTEX_INITIALIZER_NP
 :
+crate
 :
 :
 pthread_mutex_t
@@ -176,6 +168,7 @@ pub
 const
 PTHREAD_ERRORCHECK_MUTEX_INITIALIZER_NP
 :
+crate
 :
 :
 pthread_mutex_t
@@ -224,6 +217,7 @@ pub
 const
 PTHREAD_ADAPTIVE_MUTEX_INITIALIZER_NP
 :
+crate
 :
 :
 pthread_mutex_t
@@ -268,7 +262,6 @@ size
 ]
 }
 ;
-}
 /
 /
 Syscall
@@ -277,8 +270,6 @@ pub
 const
 __X32_SYSCALL_BIT
 :
-:
-:
 c_long
 =
 0x40000000
@@ -286,8 +277,6 @@ c_long
 pub
 const
 SYS_read
-:
-:
 :
 c_long
 =
@@ -299,8 +288,6 @@ pub
 const
 SYS_write
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -310,8 +297,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_open
-:
-:
 :
 c_long
 =
@@ -323,8 +308,6 @@ pub
 const
 SYS_close
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -334,8 +317,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_stat
-:
-:
 :
 c_long
 =
@@ -347,8 +328,6 @@ pub
 const
 SYS_fstat
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -358,8 +337,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_lstat
-:
-:
 :
 c_long
 =
@@ -371,8 +348,6 @@ pub
 const
 SYS_poll
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -382,8 +357,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_lseek
-:
-:
 :
 c_long
 =
@@ -395,8 +368,6 @@ pub
 const
 SYS_mmap
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -406,8 +377,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_mprotect
-:
-:
 :
 c_long
 =
@@ -419,8 +388,6 @@ pub
 const
 SYS_munmap
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -430,8 +397,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_brk
-:
-:
 :
 c_long
 =
@@ -443,8 +408,6 @@ pub
 const
 SYS_rt_sigprocmask
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -454,8 +417,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_pread64
-:
-:
 :
 c_long
 =
@@ -467,8 +428,6 @@ pub
 const
 SYS_pwrite64
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -478,8 +437,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_access
-:
-:
 :
 c_long
 =
@@ -491,8 +448,6 @@ pub
 const
 SYS_pipe
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -502,8 +457,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_select
-:
-:
 :
 c_long
 =
@@ -515,8 +468,6 @@ pub
 const
 SYS_sched_yield
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -526,8 +477,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_mremap
-:
-:
 :
 c_long
 =
@@ -539,8 +488,6 @@ pub
 const
 SYS_msync
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -550,8 +497,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_mincore
-:
-:
 :
 c_long
 =
@@ -563,8 +508,6 @@ pub
 const
 SYS_madvise
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -574,8 +517,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_shmget
-:
-:
 :
 c_long
 =
@@ -587,8 +528,6 @@ pub
 const
 SYS_shmat
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -598,8 +537,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_shmctl
-:
-:
 :
 c_long
 =
@@ -611,8 +548,6 @@ pub
 const
 SYS_dup
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -622,8 +557,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_dup2
-:
-:
 :
 c_long
 =
@@ -635,8 +568,6 @@ pub
 const
 SYS_pause
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -646,8 +577,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_nanosleep
-:
-:
 :
 c_long
 =
@@ -659,8 +588,6 @@ pub
 const
 SYS_getitimer
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -670,8 +597,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_alarm
-:
-:
 :
 c_long
 =
@@ -683,8 +608,6 @@ pub
 const
 SYS_setitimer
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -694,8 +617,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_getpid
-:
-:
 :
 c_long
 =
@@ -707,8 +628,6 @@ pub
 const
 SYS_sendfile
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -718,8 +637,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_socket
-:
-:
 :
 c_long
 =
@@ -731,8 +648,6 @@ pub
 const
 SYS_connect
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -742,8 +657,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_accept
-:
-:
 :
 c_long
 =
@@ -755,8 +668,6 @@ pub
 const
 SYS_sendto
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -766,8 +677,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_shutdown
-:
-:
 :
 c_long
 =
@@ -779,8 +688,6 @@ pub
 const
 SYS_bind
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -790,8 +697,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_listen
-:
-:
 :
 c_long
 =
@@ -803,8 +708,6 @@ pub
 const
 SYS_getsockname
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -814,8 +717,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_getpeername
-:
-:
 :
 c_long
 =
@@ -827,8 +728,6 @@ pub
 const
 SYS_socketpair
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -838,8 +737,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_clone
-:
-:
 :
 c_long
 =
@@ -851,8 +748,6 @@ pub
 const
 SYS_fork
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -862,8 +757,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_vfork
-:
-:
 :
 c_long
 =
@@ -875,8 +768,6 @@ pub
 const
 SYS_exit
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -886,8 +777,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_wait4
-:
-:
 :
 c_long
 =
@@ -899,8 +788,6 @@ pub
 const
 SYS_kill
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -910,8 +797,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_uname
-:
-:
 :
 c_long
 =
@@ -923,8 +808,6 @@ pub
 const
 SYS_semget
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -934,8 +817,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_semop
-:
-:
 :
 c_long
 =
@@ -947,8 +828,6 @@ pub
 const
 SYS_semctl
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -958,8 +837,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_shmdt
-:
-:
 :
 c_long
 =
@@ -971,8 +848,6 @@ pub
 const
 SYS_msgget
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -982,8 +857,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_msgsnd
-:
-:
 :
 c_long
 =
@@ -995,8 +868,6 @@ pub
 const
 SYS_msgrcv
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1006,8 +877,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_msgctl
-:
-:
 :
 c_long
 =
@@ -1019,8 +888,6 @@ pub
 const
 SYS_fcntl
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1030,8 +897,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_flock
-:
-:
 :
 c_long
 =
@@ -1043,8 +908,6 @@ pub
 const
 SYS_fsync
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1054,8 +917,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_fdatasync
-:
-:
 :
 c_long
 =
@@ -1067,8 +928,6 @@ pub
 const
 SYS_truncate
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1078,8 +937,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_ftruncate
-:
-:
 :
 c_long
 =
@@ -1091,8 +948,6 @@ pub
 const
 SYS_getdents
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1102,8 +957,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_getcwd
-:
-:
 :
 c_long
 =
@@ -1115,8 +968,6 @@ pub
 const
 SYS_chdir
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1126,8 +977,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_fchdir
-:
-:
 :
 c_long
 =
@@ -1139,8 +988,6 @@ pub
 const
 SYS_rename
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1150,8 +997,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_mkdir
-:
-:
 :
 c_long
 =
@@ -1163,8 +1008,6 @@ pub
 const
 SYS_rmdir
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1174,8 +1017,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_creat
-:
-:
 :
 c_long
 =
@@ -1187,8 +1028,6 @@ pub
 const
 SYS_link
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1198,8 +1037,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_unlink
-:
-:
 :
 c_long
 =
@@ -1211,8 +1048,6 @@ pub
 const
 SYS_symlink
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1222,8 +1057,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_readlink
-:
-:
 :
 c_long
 =
@@ -1235,8 +1068,6 @@ pub
 const
 SYS_chmod
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1246,8 +1077,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_fchmod
-:
-:
 :
 c_long
 =
@@ -1259,8 +1088,6 @@ pub
 const
 SYS_chown
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1270,8 +1097,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_fchown
-:
-:
 :
 c_long
 =
@@ -1283,8 +1108,6 @@ pub
 const
 SYS_lchown
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1294,8 +1117,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_umask
-:
-:
 :
 c_long
 =
@@ -1307,8 +1128,6 @@ pub
 const
 SYS_gettimeofday
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1318,8 +1137,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_getrlimit
-:
-:
 :
 c_long
 =
@@ -1331,8 +1148,6 @@ pub
 const
 SYS_getrusage
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1342,8 +1157,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_sysinfo
-:
-:
 :
 c_long
 =
@@ -1355,8 +1168,6 @@ pub
 const
 SYS_times
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1366,8 +1177,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_getuid
-:
-:
 :
 c_long
 =
@@ -1379,8 +1188,6 @@ pub
 const
 SYS_syslog
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1390,8 +1197,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_getgid
-:
-:
 :
 c_long
 =
@@ -1403,8 +1208,6 @@ pub
 const
 SYS_setuid
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1414,8 +1217,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_setgid
-:
-:
 :
 c_long
 =
@@ -1427,8 +1228,6 @@ pub
 const
 SYS_geteuid
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1438,8 +1237,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_getegid
-:
-:
 :
 c_long
 =
@@ -1451,8 +1248,6 @@ pub
 const
 SYS_setpgid
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1462,8 +1257,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_getppid
-:
-:
 :
 c_long
 =
@@ -1475,8 +1268,6 @@ pub
 const
 SYS_getpgrp
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1486,8 +1277,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_setsid
-:
-:
 :
 c_long
 =
@@ -1499,8 +1288,6 @@ pub
 const
 SYS_setreuid
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1510,8 +1297,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_setregid
-:
-:
 :
 c_long
 =
@@ -1523,8 +1308,6 @@ pub
 const
 SYS_getgroups
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1534,8 +1317,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_setgroups
-:
-:
 :
 c_long
 =
@@ -1547,8 +1328,6 @@ pub
 const
 SYS_setresuid
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1558,8 +1337,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_getresuid
-:
-:
 :
 c_long
 =
@@ -1571,8 +1348,6 @@ pub
 const
 SYS_setresgid
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1582,8 +1357,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_getresgid
-:
-:
 :
 c_long
 =
@@ -1595,8 +1368,6 @@ pub
 const
 SYS_getpgid
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1606,8 +1377,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_setfsuid
-:
-:
 :
 c_long
 =
@@ -1619,8 +1388,6 @@ pub
 const
 SYS_setfsgid
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1630,8 +1397,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_getsid
-:
-:
 :
 c_long
 =
@@ -1643,8 +1408,6 @@ pub
 const
 SYS_capget
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1654,8 +1417,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_capset
-:
-:
 :
 c_long
 =
@@ -1667,8 +1428,6 @@ pub
 const
 SYS_rt_sigsuspend
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1678,8 +1437,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_utime
-:
-:
 :
 c_long
 =
@@ -1691,8 +1448,6 @@ pub
 const
 SYS_mknod
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1702,8 +1457,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_personality
-:
-:
 :
 c_long
 =
@@ -1715,8 +1468,6 @@ pub
 const
 SYS_ustat
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1726,8 +1477,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_statfs
-:
-:
 :
 c_long
 =
@@ -1739,8 +1488,6 @@ pub
 const
 SYS_fstatfs
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1750,8 +1497,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_sysfs
-:
-:
 :
 c_long
 =
@@ -1763,8 +1508,6 @@ pub
 const
 SYS_getpriority
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1774,8 +1517,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_setpriority
-:
-:
 :
 c_long
 =
@@ -1787,8 +1528,6 @@ pub
 const
 SYS_sched_setparam
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1798,8 +1537,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_sched_getparam
-:
-:
 :
 c_long
 =
@@ -1811,8 +1548,6 @@ pub
 const
 SYS_sched_setscheduler
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1822,8 +1557,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_sched_getscheduler
-:
-:
 :
 c_long
 =
@@ -1835,8 +1568,6 @@ pub
 const
 SYS_sched_get_priority_max
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1846,8 +1577,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_sched_get_priority_min
-:
-:
 :
 c_long
 =
@@ -1859,8 +1588,6 @@ pub
 const
 SYS_sched_rr_get_interval
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1870,8 +1597,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_mlock
-:
-:
 :
 c_long
 =
@@ -1883,8 +1608,6 @@ pub
 const
 SYS_munlock
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1894,8 +1617,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_mlockall
-:
-:
 :
 c_long
 =
@@ -1907,8 +1628,6 @@ pub
 const
 SYS_munlockall
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1918,8 +1637,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_vhangup
-:
-:
 :
 c_long
 =
@@ -1931,8 +1648,6 @@ pub
 const
 SYS_modify_ldt
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1942,8 +1657,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_pivot_root
-:
-:
 :
 c_long
 =
@@ -1955,8 +1668,6 @@ pub
 const
 SYS_prctl
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1966,8 +1677,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_arch_prctl
-:
-:
 :
 c_long
 =
@@ -1979,8 +1688,6 @@ pub
 const
 SYS_adjtimex
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -1990,8 +1697,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_setrlimit
-:
-:
 :
 c_long
 =
@@ -2003,8 +1708,6 @@ pub
 const
 SYS_chroot
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2014,8 +1717,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_sync
-:
-:
 :
 c_long
 =
@@ -2027,8 +1728,6 @@ pub
 const
 SYS_acct
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2038,8 +1737,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_settimeofday
-:
-:
 :
 c_long
 =
@@ -2051,8 +1748,6 @@ pub
 const
 SYS_mount
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2062,8 +1757,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_umount2
-:
-:
 :
 c_long
 =
@@ -2075,8 +1768,6 @@ pub
 const
 SYS_swapon
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2086,8 +1777,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_swapoff
-:
-:
 :
 c_long
 =
@@ -2099,8 +1788,6 @@ pub
 const
 SYS_reboot
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2110,8 +1797,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_sethostname
-:
-:
 :
 c_long
 =
@@ -2123,8 +1808,6 @@ pub
 const
 SYS_setdomainname
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2134,8 +1817,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_iopl
-:
-:
 :
 c_long
 =
@@ -2147,8 +1828,6 @@ pub
 const
 SYS_ioperm
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2158,8 +1837,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_init_module
-:
-:
 :
 c_long
 =
@@ -2171,8 +1848,6 @@ pub
 const
 SYS_delete_module
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2182,8 +1857,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_quotactl
-:
-:
 :
 c_long
 =
@@ -2195,8 +1868,6 @@ pub
 const
 SYS_getpmsg
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2206,8 +1877,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_putpmsg
-:
-:
 :
 c_long
 =
@@ -2219,8 +1888,6 @@ pub
 const
 SYS_afs_syscall
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2230,8 +1897,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_tuxcall
-:
-:
 :
 c_long
 =
@@ -2243,8 +1908,6 @@ pub
 const
 SYS_security
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2254,8 +1917,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_gettid
-:
-:
 :
 c_long
 =
@@ -2267,8 +1928,6 @@ pub
 const
 SYS_readahead
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2278,8 +1937,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_setxattr
-:
-:
 :
 c_long
 =
@@ -2291,8 +1948,6 @@ pub
 const
 SYS_lsetxattr
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2302,8 +1957,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_fsetxattr
-:
-:
 :
 c_long
 =
@@ -2315,8 +1968,6 @@ pub
 const
 SYS_getxattr
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2326,8 +1977,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_lgetxattr
-:
-:
 :
 c_long
 =
@@ -2339,8 +1988,6 @@ pub
 const
 SYS_fgetxattr
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2350,8 +1997,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_listxattr
-:
-:
 :
 c_long
 =
@@ -2363,8 +2008,6 @@ pub
 const
 SYS_llistxattr
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2374,8 +2017,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_flistxattr
-:
-:
 :
 c_long
 =
@@ -2387,8 +2028,6 @@ pub
 const
 SYS_removexattr
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2398,8 +2037,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_lremovexattr
-:
-:
 :
 c_long
 =
@@ -2411,8 +2048,6 @@ pub
 const
 SYS_fremovexattr
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2422,8 +2057,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_tkill
-:
-:
 :
 c_long
 =
@@ -2435,8 +2068,6 @@ pub
 const
 SYS_time
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2446,8 +2077,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_futex
-:
-:
 :
 c_long
 =
@@ -2459,8 +2088,6 @@ pub
 const
 SYS_sched_setaffinity
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2470,8 +2097,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_sched_getaffinity
-:
-:
 :
 c_long
 =
@@ -2483,8 +2108,6 @@ pub
 const
 SYS_io_destroy
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2494,8 +2117,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_io_getevents
-:
-:
 :
 c_long
 =
@@ -2507,8 +2128,6 @@ pub
 const
 SYS_io_cancel
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2518,8 +2137,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_lookup_dcookie
-:
-:
 :
 c_long
 =
@@ -2531,8 +2148,6 @@ pub
 const
 SYS_epoll_create
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2542,8 +2157,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_remap_file_pages
-:
-:
 :
 c_long
 =
@@ -2555,8 +2168,6 @@ pub
 const
 SYS_getdents64
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2566,8 +2177,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_set_tid_address
-:
-:
 :
 c_long
 =
@@ -2579,8 +2188,6 @@ pub
 const
 SYS_restart_syscall
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2590,8 +2197,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_semtimedop
-:
-:
 :
 c_long
 =
@@ -2603,8 +2208,6 @@ pub
 const
 SYS_fadvise64
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2614,8 +2217,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_timer_settime
-:
-:
 :
 c_long
 =
@@ -2627,8 +2228,6 @@ pub
 const
 SYS_timer_gettime
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2638,8 +2237,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_timer_getoverrun
-:
-:
 :
 c_long
 =
@@ -2651,8 +2248,6 @@ pub
 const
 SYS_timer_delete
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2662,8 +2257,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_clock_settime
-:
-:
 :
 c_long
 =
@@ -2675,8 +2268,6 @@ pub
 const
 SYS_clock_gettime
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2686,8 +2277,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_clock_getres
-:
-:
 :
 c_long
 =
@@ -2699,8 +2288,6 @@ pub
 const
 SYS_clock_nanosleep
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2710,8 +2297,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_exit_group
-:
-:
 :
 c_long
 =
@@ -2723,8 +2308,6 @@ pub
 const
 SYS_epoll_wait
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2734,8 +2317,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_epoll_ctl
-:
-:
 :
 c_long
 =
@@ -2747,8 +2328,6 @@ pub
 const
 SYS_tgkill
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2758,8 +2337,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_utimes
-:
-:
 :
 c_long
 =
@@ -2771,8 +2348,6 @@ pub
 const
 SYS_mbind
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2782,8 +2357,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_set_mempolicy
-:
-:
 :
 c_long
 =
@@ -2795,8 +2368,6 @@ pub
 const
 SYS_get_mempolicy
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2806,8 +2377,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_mq_open
-:
-:
 :
 c_long
 =
@@ -2819,8 +2388,6 @@ pub
 const
 SYS_mq_unlink
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2830,8 +2397,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_mq_timedsend
-:
-:
 :
 c_long
 =
@@ -2843,8 +2408,6 @@ pub
 const
 SYS_mq_timedreceive
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2854,8 +2417,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_mq_getsetattr
-:
-:
 :
 c_long
 =
@@ -2867,8 +2428,6 @@ pub
 const
 SYS_add_key
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2878,8 +2437,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_request_key
-:
-:
 :
 c_long
 =
@@ -2891,8 +2448,6 @@ pub
 const
 SYS_keyctl
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2902,8 +2457,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_ioprio_set
-:
-:
 :
 c_long
 =
@@ -2915,8 +2468,6 @@ pub
 const
 SYS_ioprio_get
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2926,8 +2477,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_inotify_init
-:
-:
 :
 c_long
 =
@@ -2939,8 +2488,6 @@ pub
 const
 SYS_inotify_add_watch
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2950,8 +2497,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_inotify_rm_watch
-:
-:
 :
 c_long
 =
@@ -2963,8 +2508,6 @@ pub
 const
 SYS_migrate_pages
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2974,8 +2517,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_openat
-:
-:
 :
 c_long
 =
@@ -2987,8 +2528,6 @@ pub
 const
 SYS_mkdirat
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -2998,8 +2537,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_mknodat
-:
-:
 :
 c_long
 =
@@ -3011,8 +2548,6 @@ pub
 const
 SYS_fchownat
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3022,8 +2557,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_futimesat
-:
-:
 :
 c_long
 =
@@ -3035,8 +2568,6 @@ pub
 const
 SYS_newfstatat
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3046,8 +2577,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_unlinkat
-:
-:
 :
 c_long
 =
@@ -3059,8 +2588,6 @@ pub
 const
 SYS_renameat
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3070,8 +2597,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_linkat
-:
-:
 :
 c_long
 =
@@ -3083,8 +2608,6 @@ pub
 const
 SYS_symlinkat
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3094,8 +2617,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_readlinkat
-:
-:
 :
 c_long
 =
@@ -3107,8 +2628,6 @@ pub
 const
 SYS_fchmodat
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3118,8 +2637,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_faccessat
-:
-:
 :
 c_long
 =
@@ -3131,8 +2648,6 @@ pub
 const
 SYS_pselect6
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3142,8 +2657,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_ppoll
-:
-:
 :
 c_long
 =
@@ -3155,8 +2668,6 @@ pub
 const
 SYS_unshare
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3166,8 +2677,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_splice
-:
-:
 :
 c_long
 =
@@ -3179,8 +2688,6 @@ pub
 const
 SYS_tee
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3190,8 +2697,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_sync_file_range
-:
-:
 :
 c_long
 =
@@ -3203,8 +2708,6 @@ pub
 const
 SYS_utimensat
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3214,8 +2717,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_epoll_pwait
-:
-:
 :
 c_long
 =
@@ -3227,8 +2728,6 @@ pub
 const
 SYS_signalfd
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3238,8 +2737,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_timerfd_create
-:
-:
 :
 c_long
 =
@@ -3251,8 +2748,6 @@ pub
 const
 SYS_eventfd
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3262,8 +2757,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_fallocate
-:
-:
 :
 c_long
 =
@@ -3275,8 +2768,6 @@ pub
 const
 SYS_timerfd_settime
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3286,8 +2777,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_timerfd_gettime
-:
-:
 :
 c_long
 =
@@ -3299,8 +2788,6 @@ pub
 const
 SYS_accept4
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3310,8 +2797,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_signalfd4
-:
-:
 :
 c_long
 =
@@ -3323,8 +2808,6 @@ pub
 const
 SYS_eventfd2
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3334,8 +2817,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_epoll_create1
-:
-:
 :
 c_long
 =
@@ -3347,8 +2828,6 @@ pub
 const
 SYS_dup3
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3358,8 +2837,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_pipe2
-:
-:
 :
 c_long
 =
@@ -3371,8 +2848,6 @@ pub
 const
 SYS_inotify_init1
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3382,8 +2857,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_perf_event_open
-:
-:
 :
 c_long
 =
@@ -3395,8 +2868,6 @@ pub
 const
 SYS_fanotify_init
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3406,8 +2877,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_fanotify_mark
-:
-:
 :
 c_long
 =
@@ -3419,8 +2888,6 @@ pub
 const
 SYS_prlimit64
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3430,8 +2897,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_name_to_handle_at
-:
-:
 :
 c_long
 =
@@ -3443,8 +2908,6 @@ pub
 const
 SYS_open_by_handle_at
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3454,8 +2917,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_clock_adjtime
-:
-:
 :
 c_long
 =
@@ -3467,8 +2928,6 @@ pub
 const
 SYS_syncfs
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3478,8 +2937,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_setns
-:
-:
 :
 c_long
 =
@@ -3491,8 +2948,6 @@ pub
 const
 SYS_getcpu
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3502,8 +2957,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_kcmp
-:
-:
 :
 c_long
 =
@@ -3515,8 +2968,6 @@ pub
 const
 SYS_finit_module
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3526,8 +2977,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_sched_setattr
-:
-:
 :
 c_long
 =
@@ -3539,8 +2988,6 @@ pub
 const
 SYS_sched_getattr
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3550,8 +2997,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_renameat2
-:
-:
 :
 c_long
 =
@@ -3563,8 +3008,6 @@ pub
 const
 SYS_seccomp
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3574,8 +3017,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_getrandom
-:
-:
 :
 c_long
 =
@@ -3587,8 +3028,6 @@ pub
 const
 SYS_memfd_create
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3598,8 +3037,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_kexec_file_load
-:
-:
 :
 c_long
 =
@@ -3611,8 +3048,6 @@ pub
 const
 SYS_bpf
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3622,8 +3057,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_userfaultfd
-:
-:
 :
 c_long
 =
@@ -3635,8 +3068,6 @@ pub
 const
 SYS_membarrier
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3646,8 +3077,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_mlock2
-:
-:
 :
 c_long
 =
@@ -3659,8 +3088,6 @@ pub
 const
 SYS_copy_file_range
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3670,8 +3097,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_pkey_mprotect
-:
-:
 :
 c_long
 =
@@ -3683,8 +3108,6 @@ pub
 const
 SYS_pkey_alloc
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3694,8 +3117,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_pkey_free
-:
-:
 :
 c_long
 =
@@ -3707,8 +3128,6 @@ pub
 const
 SYS_statx
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3718,8 +3137,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_rseq
-:
-:
 :
 c_long
 =
@@ -3731,8 +3148,6 @@ pub
 const
 SYS_pidfd_send_signal
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3742,8 +3157,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_io_uring_setup
-:
-:
 :
 c_long
 =
@@ -3755,8 +3168,6 @@ pub
 const
 SYS_io_uring_enter
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3766,8 +3177,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_io_uring_register
-:
-:
 :
 c_long
 =
@@ -3779,8 +3188,6 @@ pub
 const
 SYS_open_tree
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3790,8 +3197,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_move_mount
-:
-:
 :
 c_long
 =
@@ -3803,8 +3208,6 @@ pub
 const
 SYS_fsopen
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3814,8 +3217,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_fsconfig
-:
-:
 :
 c_long
 =
@@ -3827,8 +3228,6 @@ pub
 const
 SYS_fsmount
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3838,8 +3237,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_fspick
-:
-:
 :
 c_long
 =
@@ -3851,8 +3248,6 @@ pub
 const
 SYS_pidfd_open
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3862,8 +3257,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_clone3
-:
-:
 :
 c_long
 =
@@ -3875,8 +3268,6 @@ pub
 const
 SYS_close_range
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3886,8 +3277,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_openat2
-:
-:
 :
 c_long
 =
@@ -3899,8 +3288,6 @@ pub
 const
 SYS_pidfd_getfd
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3910,8 +3297,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_faccessat2
-:
-:
 :
 c_long
 =
@@ -3923,8 +3308,6 @@ pub
 const
 SYS_process_madvise
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3934,8 +3317,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_epoll_pwait2
-:
-:
 :
 c_long
 =
@@ -3947,8 +3328,6 @@ pub
 const
 SYS_mount_setattr
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3958,8 +3337,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_quotactl_fd
-:
-:
 :
 c_long
 =
@@ -3971,8 +3348,6 @@ pub
 const
 SYS_landlock_create_ruleset
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -3982,8 +3357,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_landlock_add_rule
-:
-:
 :
 c_long
 =
@@ -3995,8 +3368,6 @@ pub
 const
 SYS_landlock_restrict_self
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -4006,8 +3377,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_memfd_secret
-:
-:
 :
 c_long
 =
@@ -4019,8 +3388,6 @@ pub
 const
 SYS_process_mrelease
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -4030,8 +3397,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_futex_waitv
-:
-:
 :
 c_long
 =
@@ -4043,8 +3408,6 @@ pub
 const
 SYS_set_mempolicy_home_node
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -4054,8 +3417,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_fchmodat2
-:
-:
 :
 c_long
 =
@@ -4067,8 +3428,6 @@ pub
 const
 SYS_rt_sigaction
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -4078,8 +3437,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_rt_sigreturn
-:
-:
 :
 c_long
 =
@@ -4091,8 +3448,6 @@ pub
 const
 SYS_ioctl
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -4102,8 +3457,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_readv
-:
-:
 :
 c_long
 =
@@ -4115,8 +3468,6 @@ pub
 const
 SYS_writev
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -4126,8 +3477,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_recvfrom
-:
-:
 :
 c_long
 =
@@ -4139,8 +3488,6 @@ pub
 const
 SYS_sendmsg
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -4150,8 +3497,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_recvmsg
-:
-:
 :
 c_long
 =
@@ -4163,8 +3508,6 @@ pub
 const
 SYS_execve
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -4174,8 +3517,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_ptrace
-:
-:
 :
 c_long
 =
@@ -4187,8 +3528,6 @@ pub
 const
 SYS_rt_sigpending
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -4198,8 +3537,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_rt_sigtimedwait
-:
-:
 :
 c_long
 =
@@ -4211,8 +3548,6 @@ pub
 const
 SYS_rt_sigqueueinfo
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -4222,8 +3557,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_sigaltstack
-:
-:
 :
 c_long
 =
@@ -4235,8 +3568,6 @@ pub
 const
 SYS_timer_create
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -4246,8 +3577,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_mq_notify
-:
-:
 :
 c_long
 =
@@ -4259,8 +3588,6 @@ pub
 const
 SYS_kexec_load
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -4270,8 +3597,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_waitid
-:
-:
 :
 c_long
 =
@@ -4283,8 +3608,6 @@ pub
 const
 SYS_set_robust_list
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -4294,8 +3617,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_get_robust_list
-:
-:
 :
 c_long
 =
@@ -4307,8 +3628,6 @@ pub
 const
 SYS_vmsplice
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -4318,8 +3637,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_move_pages
-:
-:
 :
 c_long
 =
@@ -4331,8 +3648,6 @@ pub
 const
 SYS_preadv
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -4342,8 +3657,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_pwritev
-:
-:
 :
 c_long
 =
@@ -4355,8 +3668,6 @@ pub
 const
 SYS_rt_tgsigqueueinfo
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -4366,8 +3677,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_recvmmsg
-:
-:
 :
 c_long
 =
@@ -4379,8 +3688,6 @@ pub
 const
 SYS_sendmmsg
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -4390,8 +3697,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_process_vm_readv
-:
-:
 :
 c_long
 =
@@ -4403,8 +3708,6 @@ pub
 const
 SYS_process_vm_writev
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -4414,8 +3717,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_setsockopt
-:
-:
 :
 c_long
 =
@@ -4427,8 +3728,6 @@ pub
 const
 SYS_getsockopt
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -4438,8 +3737,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_io_setup
-:
-:
 :
 c_long
 =
@@ -4451,8 +3748,6 @@ pub
 const
 SYS_io_submit
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -4462,8 +3757,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_execveat
-:
-:
 :
 c_long
 =
@@ -4475,8 +3768,6 @@ pub
 const
 SYS_preadv2
 :
-:
-:
 c_long
 =
 __X32_SYSCALL_BIT
@@ -4486,8 +3777,6 @@ __X32_SYSCALL_BIT
 pub
 const
 SYS_pwritev2
-:
-:
 :
 c_long
 =

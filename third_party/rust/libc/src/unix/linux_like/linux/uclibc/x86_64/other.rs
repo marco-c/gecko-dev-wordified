@@ -1,3 +1,12 @@
+use
+crate
+:
+:
+prelude
+:
+:
+*
+;
 /
 /
 Thestyle
@@ -25,8 +34,6 @@ pub
 type
 pthread_t
 =
-:
-:
 c_ulong
 ;
 pub

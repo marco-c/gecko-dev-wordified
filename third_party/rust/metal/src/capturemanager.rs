@@ -495,6 +495,16 @@ Result
 String
 >
 {
+#
+[
+allow
+(
+clippy
+:
+:
+unit_arg
+)
+]
 unsafe
 {
 Ok

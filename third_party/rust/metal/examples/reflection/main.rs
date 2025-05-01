@@ -103,8 +103,6 @@ const
 PROGRAM
 :
 &
-'
-static
 str
 =
 r
