@@ -71,6 +71,7 @@ has_pkg_section
 (
 p
 section
+arch
 )
 :
     
@@ -112,6 +113,38 @@ pkg
 else
 :
                 
+next_section
+=
+next
+(
+iter
+(
+pkg
+.
+keys
+(
+)
+)
+)
+                
+if
+"
+on
+"
+in
+next_section
+or
+f
+"
+to
+{
+arch
+}
+"
+in
+next_section
+:
+                    
 yield
 from
 has_pkg_section
@@ -128,6 +161,7 @@ keys
 )
 )
 )
+arch
 )
 def
 iter_pkgs
@@ -162,6 +196,7 @@ has_pkg_section
 (
 part
 section
+arch
 )
 :
             
