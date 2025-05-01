@@ -1168,8 +1168,6 @@ Set
 quotaPerHost
 to
 maxPerHost
--
-1
 so
 there
 is
@@ -1189,7 +1187,7 @@ aPrefBranch
 SetIntPref
 (
 kPrefCookieQuotaPerHost
-49
+50
 )
 ;
 /

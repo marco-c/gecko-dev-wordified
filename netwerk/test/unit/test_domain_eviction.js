@@ -105,8 +105,6 @@ Set
 quotaPerHost
 to
 maxPerHost
--
-1
 so
 there
 is
@@ -133,7 +131,7 @@ cookie
 .
 quotaPerHost
 "
-49
+50
 )
 ;
 /
