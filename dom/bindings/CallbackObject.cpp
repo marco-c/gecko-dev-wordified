@@ -634,7 +634,7 @@ IsBlackForCC
 .
 NS_IMPL_CYCLE_COLLECTION_TRACE_END
 void
-CallbackObject
+CallbackObjectBase
 :
 :
 Trace
@@ -876,7 +876,7 @@ ClearJSReferences
 }
 JSObject
 *
-CallbackObject
+CallbackObjectBase
 :
 :
 Callback
@@ -918,7 +918,7 @@ callback
 ;
 }
 void
-CallbackObject
+CallbackObjectBase
 :
 :
 GetDescription
@@ -1267,7 +1267,7 @@ Append
 )
 ;
 }
-CallbackObject
+CallbackObjectBase
 :
 :
 CallSetup
@@ -1275,7 +1275,7 @@ CallSetup
 :
 CallSetup
 (
-CallbackObject
+CallbackObjectBase
 *
 aCallback
 ErrorResult
@@ -2177,7 +2177,7 @@ nullptr
 ;
 }
 bool
-CallbackObject
+CallbackObjectBase
 :
 :
 CallSetup
@@ -2318,7 +2318,7 @@ obj
 mRealm
 ;
 }
-CallbackObject
+CallbackObjectBase
 :
 :
 CallSetup
