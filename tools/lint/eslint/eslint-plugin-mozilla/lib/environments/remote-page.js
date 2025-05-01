@@ -150,6 +150,9 @@ false
 RPMOpenPreferences
 :
 false
+RPMHasConnectivity
+:
+false
 RPMGetTRRSkipReason
 :
 false
