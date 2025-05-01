@@ -20180,10 +20180,6 @@ up
 to
 date
 .
-Document
-*
-doc
-=
 mStart
 .
 GetContainer
@@ -20194,14 +20190,6 @@ GetContainer
 OwnerDoc
 (
 )
-;
-NS_ENSURE_TRUE
-(
-doc
-NS_ERROR_UNEXPECTED
-)
-;
-doc
 -
 >
 FlushPendingNotifications
@@ -20209,7 +20197,7 @@ FlushPendingNotifications
 FlushType
 :
 :
-Frames
+Layout
 )
 ;
 /
