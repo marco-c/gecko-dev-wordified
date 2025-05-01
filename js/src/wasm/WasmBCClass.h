@@ -12493,7 +12493,7 @@ BranchState
 b
 RegRef
 object
-RefType
+MaybeRefType
 sourceType
 RefType
 destType
@@ -15025,7 +15025,7 @@ const
 ResultType
 &
 labelType
-RefType
+MaybeRefType
 sourceType
 RefType
 destType

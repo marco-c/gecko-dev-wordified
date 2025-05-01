@@ -26062,7 +26062,7 @@ BranchState
 b
 RegRef
 object
-RefType
+MaybeRefType
 sourceType
 RefType
 destType
@@ -57054,7 +57054,10 @@ masm
 branchWasmRefIsSubtype
 (
 ref
+MaybeRefType
+(
 sourceType
+)
 destType
 &
 success
@@ -57210,7 +57213,10 @@ masm
 branchWasmRefIsSubtype
 (
 ref
+MaybeRefType
+(
 sourceType
+)
 destType
 &
 success
@@ -57276,7 +57282,7 @@ const
 ResultType
 &
 labelType
-RefType
+MaybeRefType
 sourceType
 RefType
 destType
@@ -57544,7 +57550,10 @@ emitBrOnCastCommon
 onSuccess
 labelRelativeDepth
 labelType
+MaybeRefType
+(
 sourceType
+)
 destType
 )
 ;
