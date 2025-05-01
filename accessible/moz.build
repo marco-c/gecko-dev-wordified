@@ -342,6 +342,17 @@ tests
 /
 browser
 /
+performance
+/
+browser
+.
+toml
+"
+"
+tests
+/
+browser
+/
 pivot
 /
 browser
