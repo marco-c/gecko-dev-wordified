@@ -407,9 +407,9 @@ Stat
 Number
 of
 strings
-tenured
+promoted
 .
-STAT_STRINGS_TENURED
+STAT_STRINGS_PROMOTED
 /
 /
 Number
@@ -423,9 +423,9 @@ STAT_STRINGS_DEDUPLICATED
 Number
 of
 BigInts
-tenured
+promoted
 .
-STAT_BIGINTS_TENURED
+STAT_BIGINTS_PROMOTED
 STAT_LIMIT
 }
 ;
