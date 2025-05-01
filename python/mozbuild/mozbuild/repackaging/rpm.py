@@ -56,6 +56,8 @@ MPL
 import
 os
 import
+pathlib
+import
 shutil
 import
 subprocess
@@ -93,6 +95,8 @@ inject_prefs_file
 load_application_ini_data
     
 mv_manpage_files
+    
+prepare_langpack_files
     
 render_templates
 )
@@ -245,6 +249,8 @@ log
     
 infile
     
+xpi_directory
+    
 output
     
 template_dir
@@ -292,6 +298,34 @@ tarfile
 "
 %
 infile
+)
+    
+if
+not
+pathlib
+.
+Path
+(
+xpi_directory
+)
+.
+is_dir
+(
+)
+:
+        
+raise
+NotADirectoryError
+(
+"
+The
+xpi_directory
+is
+not
+a
+directory
+.
+"
 )
     
 tmpdir
@@ -366,6 +400,19 @@ source_dir
 "
 rpm
 "
+)
+        
+build_variables
+[
+"
+LANGUAGES
+"
+]
+=
+prepare_langpack_files
+(
+rpm_dir
+xpi_directory
 )
         
 copy_plain_config
@@ -494,6 +541,25 @@ app_name
 template_dir
 )
         
+if
+not
+os
+.
+path
+.
+exists
+(
+output
+)
+:
+            
+os
+.
+mkdir
+(
+output
+)
+        
 _generate_rpm_archive
 (
             
@@ -505,7 +571,7 @@ target_dir
 =
 tmpdir
             
-output_file_path
+output_path
 =
 output
             
@@ -575,7 +641,7 @@ _generate_rpm_archive
 source_dir
 infile
 target_dir
-output_file_path
+output_path
 build_variables
 arch
 )
@@ -702,12 +768,48 @@ NoRpmPackageFound
 file_path
 )
     
+for
+pkg_arch
+in
+[
+arch
+"
+noarch
+"
+]
+:
+        
+packages_directory
+=
+pathlib
+.
+Path
+(
+target_dir
+pkg_arch
+)
+        
+for
+filename
+in
+packages_directory
+.
+glob
+(
+"
+*
+.
+rpm
+"
+)
+:
+            
 shutil
 .
-move
+copy
 (
-file_path
-output_file_path
+filename
+output_path
 )
 def
 _get_build_variables

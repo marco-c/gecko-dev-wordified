@@ -17166,28 +17166,74 @@ filename
 )
 CommandArgument
 (
+    
+"
+-
+-
+input
+-
+xpi
+-
+dir
+"
+    
+"
+-
+x
+"
+    
+type
+=
+str
+    
+required
+=
+True
+    
+help
+=
+"
+Directory
+which
+contains
+the
+.
+xpi
+langpacks
+"
+)
+CommandArgument
+(
+    
 "
 -
 -
 output
 "
+    
 "
 -
 o
 "
+    
 type
 =
 str
+    
 required
 =
 True
+    
 help
 =
 "
 Output
+directory
+for
+the
 .
 rpm
-filename
+files
 "
 )
 CommandArgument
@@ -17394,6 +17440,8 @@ command_context
     
 input
     
+input_xpi_dir
+    
 output
     
 arch
@@ -17485,6 +17533,8 @@ command_context
 log
         
 input
+        
+input_xpi_dir
         
 output
         
