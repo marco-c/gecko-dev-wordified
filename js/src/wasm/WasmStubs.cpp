@@ -8775,6 +8775,15 @@ ReturnReg
 #
 ifdef
 JS_64BIT
+/
+/
+boxNonDouble
+requires
+a
+widened
+int32
+value
+.
 masm
 .
 widenInt32
