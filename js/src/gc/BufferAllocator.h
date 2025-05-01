@@ -3501,7 +3501,7 @@ growMedium
 (
 MediumBuffer
 *
-header
+buffer
 size_t
 newBytes
 )
@@ -3511,7 +3511,7 @@ shrinkMedium
 (
 MediumBuffer
 *
-header
+buffer
 size_t
 newBytes
 )
@@ -3759,7 +3759,7 @@ sweepLargeTenured
 (
 LargeBuffer
 *
-header
+buffer
 )
 ;
 void
@@ -3775,7 +3775,7 @@ shrinkLarge
 (
 LargeBuffer
 *
-header
+buffer
 size_t
 newBytes
 )
@@ -3785,7 +3785,7 @@ unmapLarge
 (
 LargeBuffer
 *
-header
+buffer
 bool
 isSweeping
 MaybeLock
