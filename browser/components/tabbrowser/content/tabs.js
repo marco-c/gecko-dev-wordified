@@ -8583,7 +8583,6 @@ avoid
 detaching
 if
 the
-the
 tab
 was
 dropped
@@ -8667,7 +8666,7 @@ crossAxisStart
 =
 window
 .
-screenX
+mozInnerScreenX
 +
 rect
 .
@@ -8700,7 +8699,7 @@ crossAxisEnd
 =
 window
 .
-screenX
+mozInnerScreenX
 +
 rect
 .
@@ -8728,7 +8727,7 @@ crossAxisEnd
 =
 window
 .
-screenY
+mozInnerScreenY
 +
 rect
 .
