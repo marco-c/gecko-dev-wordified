@@ -881,6 +881,11 @@ main
 "
 :
 0
+"
+crashhelper
+"
+:
+0
 }
         
 "
@@ -900,6 +905,11 @@ gpu
 0
 "
 main
+"
+:
+0
+"
+crashhelper
 "
 :
 0
@@ -1188,6 +1198,11 @@ gpu
 0
 "
 main
+"
+:
+0
+"
+crashhelper
 "
 :
 0

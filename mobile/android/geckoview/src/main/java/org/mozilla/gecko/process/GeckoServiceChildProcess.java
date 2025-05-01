@@ -856,6 +856,10 @@ extras
 flags
 (
 flags
+|
+GeckoThread
+.
+FLAG_CHILD
 )
 .
 userSerialNumber

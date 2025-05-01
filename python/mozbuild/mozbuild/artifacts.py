@@ -4192,6 +4192,14 @@ _package_artifact_patterns
 product
 }
 /
+crashhelper
+"
+        
+"
+{
+product
+}
+/
 crashreporter
 "
         
@@ -4975,6 +4983,10 @@ MacOS
 "
             
 [
+                
+"
+crashhelper
+"
                 
 "
 crashreporter
