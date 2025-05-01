@@ -339,10 +339,6 @@ bootstrapped
 clang
                 
 "
-m4
-"
-                
-"
 make
 "
                 
