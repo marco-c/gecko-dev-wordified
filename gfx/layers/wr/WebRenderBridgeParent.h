@@ -1825,7 +1825,7 @@ aReasons
 )
 ;
 void
-NotifyDidSceneBuild
+ScheduleFrameAfterSceneBuild
 (
 RefPtr
 <
