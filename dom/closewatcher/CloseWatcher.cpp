@@ -468,6 +468,8 @@ CloseWatcher
 :
 RequestToClose
 (
+bool
+aRequireHistoryActionActivation
 )
 {
 /
@@ -647,6 +649,11 @@ init
 .
 mCancelable
 =
+!
+aRequireHistoryActionActivation
+|
+|
+(
 manager
 -
 >
@@ -660,6 +667,7 @@ winCtx
 >
 HasValidHistoryActivation
 (
+)
 )
 ;
 RefPtr

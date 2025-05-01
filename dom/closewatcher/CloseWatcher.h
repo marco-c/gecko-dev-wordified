@@ -261,6 +261,7 @@ RequestClose
 {
 RequestToClose
 (
+false
 )
 ;
 }
@@ -294,6 +295,8 @@ MOZ_CAN_RUN_SCRIPT
 bool
 RequestToClose
 (
+bool
+aRequireHistoryActionActivation
 )
 ;
 MOZ_CAN_RUN_SCRIPT

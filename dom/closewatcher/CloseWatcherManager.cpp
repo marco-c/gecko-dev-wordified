@@ -362,6 +362,7 @@ watcher
 >
 RequestToClose
 (
+true
 )
 )
 {
