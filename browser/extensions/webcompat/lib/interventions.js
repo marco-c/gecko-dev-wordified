@@ -1446,6 +1446,17 @@ in
 intervention
 )
 {
+for
+(
+const
+details
+of
+intervention
+[
+customFuncName
+]
+)
+{
 try
 {
 await
@@ -1454,8 +1465,8 @@ customFunc
 action
 ]
 (
+details
 config
-intervention
 )
 ;
 }
@@ -1488,6 +1499,7 @@ label
 e
 )
 ;
+}
 }
 }
 }
