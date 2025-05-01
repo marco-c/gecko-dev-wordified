@@ -6159,7 +6159,7 @@ separated
 list
 of
 Suggest
-exposure
+dynamic
 suggestion
 types
 to
@@ -6174,7 +6174,7 @@ urlbar
 .
 quicksuggest
 .
-exposureSuggestionTypes
+dynamicSuggestionTypes
 "
 "
 "
