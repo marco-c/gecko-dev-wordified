@@ -2456,7 +2456,7 @@ mark
 asyncio
 async
 def
-tst_page_with_cached_javascript_module
+test_page_with_cached_javascript_module
 (
     
 bidi_session
