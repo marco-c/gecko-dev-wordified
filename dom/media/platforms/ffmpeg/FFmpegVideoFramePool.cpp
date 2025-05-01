@@ -2431,7 +2431,7 @@ vaDesc
 .
 fourcc
 =
-VA_FOURCC_I420
+VA_FOURCC_YV12
 ;
 /
 /

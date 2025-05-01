@@ -267,15 +267,6 @@ VA_FOURCC_NV12
 endif
 #
 ifndef
-VA_FOURCC_I420
-#
-define
-VA_FOURCC_I420
-0x30323449
-#
-endif
-#
-ifndef
 VA_FOURCC_YV12
 #
 define
