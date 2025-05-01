@@ -2469,16 +2469,6 @@ fake_client_id
 ExperimentAPI
 :
 {
-getExperimentMetaData
-(
-)
-{
-}
-getRolloutMetaData
-(
-)
-{
-}
 }
 NimbusFeatures
 :
