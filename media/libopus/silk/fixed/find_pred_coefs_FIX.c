@@ -1236,6 +1236,13 @@ sum_log_gain_Q7
 =
 0
 ;
+psEncCtrl
+-
+>
+LTP_scale_Q14
+=
+0
+;
 }
 /
 *
