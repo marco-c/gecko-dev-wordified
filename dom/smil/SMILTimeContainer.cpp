@@ -951,10 +951,8 @@ NeedsSample
 (
 )
 )
-{
 return
 ;
-}
 UpdateCurrentTime
 (
 )
