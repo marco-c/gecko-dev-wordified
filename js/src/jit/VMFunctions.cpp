@@ -8046,9 +8046,8 @@ length
 arrRes
 -
 >
-setLength
+setLengthToInitializedLength
 (
-length
 )
 ;
 return

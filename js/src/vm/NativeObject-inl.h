@@ -1643,9 +1643,8 @@ ArrayObject
 (
 )
 .
-setLength
+setLengthToInitializedLength
 (
-count
 )
 ;
 return
@@ -3028,11 +3027,8 @@ ArrayObject
 (
 )
 .
-setLength
+setLengthToInitializedLength
 (
-start
-+
-count
 )
 ;
 }

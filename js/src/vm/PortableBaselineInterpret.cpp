@@ -14444,6 +14444,13 @@ aobj
 >
 setLength
 (
+ctx
+.
+frameMgr
+.
+cxForLocalUseOnly
+(
+)
 len
 +
 1
@@ -14619,11 +14626,8 @@ initLength
 aobj
 -
 >
-setLength
+setLengthToInitializedLength
 (
-initLength
-+
-1
 )
 ;
 aobj
@@ -28607,7 +28611,7 @@ len
 aobj
 -
 >
-setLength
+setDenseInitializedLength
 (
 len
 )
@@ -28615,9 +28619,8 @@ len
 aobj
 -
 >
-setDenseInitializedLength
+setLengthToInitializedLength
 (
-len
 )
 ;
 }
