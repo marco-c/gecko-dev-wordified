@@ -346,6 +346,11 @@ onMessage
 "
 test
 .
+runTests
+"
+"
+test
+.
 sendMessage
 "
 "
