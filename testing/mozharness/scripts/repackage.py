@@ -560,9 +560,7 @@ templates
 ]
             
 "
-deb
--
-l10n
+rpm
 -
 templates
 "
@@ -570,16 +568,16 @@ templates
 config
 [
 "
-deb
--
-l10n
+rpm
 -
 templates
 "
 ]
             
 "
-rpm
+deb
+-
+l10n
 -
 templates
 "
@@ -587,7 +585,9 @@ templates
 config
 [
 "
-rpm
+deb
+-
+l10n
 -
 templates
 "

@@ -2393,16 +2393,18 @@ release_type
 "
 -
 -
-locales
+input
 -
-file
+xpi
+-
+dir
 "
             
 "
 {
-locales
+fetch
 -
-file
+dir
 }
 "
         
@@ -2743,12 +2745,6 @@ deb
 l10n
 -
 templates
-"
-    
-"
-locales
--
-file
 "
     
 "
