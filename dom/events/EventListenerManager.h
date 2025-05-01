@@ -2874,6 +2874,16 @@ aEventNameWithOn
 )
 const
 ;
+bool
+HasNonPassiveListenersFor
+(
+const
+WidgetEvent
+*
+aEvent
+)
+const
+;
 /
 *
 *
@@ -4209,8 +4219,6 @@ const
 WidgetEvent
 *
 aEvent
-EventMessage
-aEventMessage
 )
 const
 ;
