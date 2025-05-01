@@ -2009,6 +2009,12 @@ streamCount
 1
 )
 {
+video_stream
+.
+num_temporal_layers
+=
+2
+;
 if
 (
 mCodecConfig
@@ -2032,12 +2038,6 @@ num_temporal_layers
 ;
 #
 else
-video_stream
-.
-num_temporal_layers
-=
-2
-;
 if
 (
 !
