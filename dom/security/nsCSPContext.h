@@ -1074,7 +1074,7 @@ script
 style
 violations
 void
-ReportInlineViolation
+reportInlineViolation
 (
 CSPDirective
 aDirective
@@ -1099,7 +1099,7 @@ aReportSample
 const
 nsAString
 &
-aSourceCode
+aSample
 const
 nsAString
 &
