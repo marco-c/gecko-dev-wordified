@@ -1205,7 +1205,7 @@ aId
 mWebTransportStream
 -
 >
-StreamId
+GetStreamId
 (
 )
 ;

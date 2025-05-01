@@ -349,7 +349,7 @@ aReason
 )
 ;
 uint64_t
-StreamId
+GetStreamId
 (
 )
 const

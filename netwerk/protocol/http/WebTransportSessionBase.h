@@ -152,7 +152,7 @@ listener
 ;
 virtual
 uint64_t
-StreamId
+GetStreamId
 (
 )
 const
@@ -258,6 +258,13 @@ aCallback
 =
 0
 ;
+virtual
+void
+StartReading
+(
+)
+{
+}
 protected
 :
 virtual

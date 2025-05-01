@@ -227,7 +227,7 @@ uint64_t
 Http3WebTransportSession
 :
 :
-StreamId
+GetStreamId
 (
 )
 const
