@@ -1850,6 +1850,12 @@ platform
 "
 variant
 "
+"
+subtest
+"
+"
+app
+"
 [
 str
 ]
