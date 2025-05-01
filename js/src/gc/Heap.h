@@ -3793,6 +3793,9 @@ bitmap
 void
 mergePendingFreeArenas
 (
+GCRuntime
+*
+gc
 const
 AutoLockGC
 &
