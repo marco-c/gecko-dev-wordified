@@ -555,6 +555,17 @@ build
 )
 )
 .
+lowMemoryDetection
+(
+false
+)
+/
+/
+Avoid
+unpredictability
+in
+tests
+.
 build
 (
 )

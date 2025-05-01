@@ -1093,6 +1093,17 @@ getExtras
 )
 )
 .
+lowMemoryDetection
+(
+false
+)
+/
+/
+Avoid
+unpredictability
+in
+tests
+.
 build
 (
 )
