@@ -794,8 +794,6 @@ import
 pyct
 import
 pykey
-import
-six
 from
 pyasn1
 .
@@ -2198,22 +2196,19 @@ nameComponent
 encoding
 ]
 =
-six
-.
-ensure_binary
-(
 value
+.
+encode
+(
 )
 .
 decode
 (
-                
 encoding
 =
 "
 unicode_escape
 "
-            
 )
         
 ava
@@ -3215,54 +3210,47 @@ hasher
 .
 update
 (
-six
-.
-ensure_binary
-(
 str
 (
 self
 .
 versionValue
 )
+.
+encode
+(
 )
 )
         
 hasher
 .
 update
-(
-six
-.
-ensure_binary
 (
 self
 .
 signature
+.
+encode
+(
 )
 )
         
 hasher
 .
 update
-(
-six
-.
-ensure_binary
 (
 self
 .
 issuer
+.
+encode
+(
 )
 )
         
 hasher
 .
 update
-(
-six
-.
-ensure_binary
 (
 str
 (
@@ -3270,16 +3258,15 @@ self
 .
 notBefore
 )
+.
+encode
+(
 )
 )
         
 hasher
 .
 update
-(
-six
-.
-ensure_binary
 (
 str
 (
@@ -3287,6 +3274,9 @@ self
 .
 notAfter
 )
+.
+encode
+(
 )
 )
         
@@ -3294,13 +3284,12 @@ hasher
 .
 update
 (
-six
-.
-ensure_binary
-(
 self
 .
 subject
+.
+encode
+(
 )
 )
         
@@ -3322,11 +3311,10 @@ hasher
 .
 update
 (
-six
-.
-ensure_binary
-(
 extensionLine
+.
+encode
+(
 )
 )
         
@@ -3359,16 +3347,15 @@ hasher
 .
 update
 (
-six
-.
-ensure_binary
-(
 self
 .
 savedEmbeddedSCTListData
 [
 0
 ]
+.
+encode
+(
 )
 )
             
@@ -3385,16 +3372,15 @@ hasher
 .
 update
 (
-six
-.
-ensure_binary
-(
 self
 .
 savedEmbeddedSCTListData
 [
 1
 ]
+.
+encode
+(
 )
 )
         
@@ -4998,20 +4984,17 @@ dNSName
 "
 ]
 =
-six
-.
-ensure_binary
-(
 name
+.
+encode
+(
 )
 .
 decode
 (
-                    
 "
 unicode_escape
 "
-                
 )
             
 subjectAlternativeName
@@ -6401,16 +6384,15 @@ toDER
         
 b64
 =
-six
-.
-ensure_text
-(
 base64
 .
 b64encode
 (
 der
 )
+.
+decode
+(
 )
         
 while
