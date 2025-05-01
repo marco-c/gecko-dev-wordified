@@ -814,6 +814,17 @@ Endpoint
 PRemoteWorkerServiceChild
 >
 aEndpoint
+mozilla
+:
+:
+ipc
+:
+:
+Endpoint
+<
+PRemoteWorkerDebuggerManagerChild
+>
+aDebuggerMgrEndpoint
 )
 ;
 void
