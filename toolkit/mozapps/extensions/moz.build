@@ -552,13 +552,6 @@ sys
 mjs
 "
 "
-ColorwayThemeMigration
-.
-sys
-.
-mjs
-"
-"
 LightweightThemeManager
 .
 sys
