@@ -9839,13 +9839,6 @@ rd
 >
 MostRecentRefresh
 (
-/
-*
-aEnsureTimerStarted
-=
-*
-/
-false
 )
 ;
 }

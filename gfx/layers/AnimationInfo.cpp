@@ -3842,13 +3842,6 @@ RefreshDriver
 >
 MostRecentRefresh
 (
-/
-*
-aEnsureTimerStarted
-=
-*
-/
-false
 )
 ;
 MOZ_ASSERT
