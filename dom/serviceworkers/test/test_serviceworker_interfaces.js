@@ -4588,7 +4588,7 @@ name
 "
 WGSLLanguageFeatures
 "
-isEarlyBetaOrEarlier
+earlyBetaOrEarlier
 :
 true
 }
