@@ -185,6 +185,17 @@ mozilla
 /
 dom
 /
+BufferSourceBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ImageBitmapBinding
 .
 h

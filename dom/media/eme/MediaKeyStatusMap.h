@@ -150,6 +150,17 @@ mozilla
 /
 dom
 /
+BufferSourceBindingFwd
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 TypedArray
 .
 h
@@ -186,9 +197,6 @@ ErrorResult
 namespace
 dom
 {
-class
-ArrayBufferViewOrArrayBuffer
-;
 /
 /
 The
@@ -300,7 +308,7 @@ void
 Get
 (
 const
-ArrayBufferViewOrArrayBuffer
+BufferSource
 &
 aKey
 OwningMediaKeyStatusOrUndefined
@@ -316,7 +324,7 @@ bool
 Has
 (
 const
-ArrayBufferViewOrArrayBuffer
+BufferSource
 &
 aKey
 )
@@ -591,7 +599,7 @@ KeyStatus
 FindKey
 (
 const
-ArrayBufferViewOrArrayBuffer
+BufferSource
 &
 aKey
 )

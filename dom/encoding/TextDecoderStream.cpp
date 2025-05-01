@@ -153,6 +153,17 @@ mozilla
 /
 dom
 /
+BufferSourceBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Promise
 .
 h
@@ -479,7 +490,7 @@ DecodeBufferSourceAndEnqueue
 JSContext
 *
 aCx
-OwningArrayBufferViewOrArrayBuffer
+OwningBufferSource
 *
 aInput
 bool
@@ -822,7 +833,7 @@ BufferSource
 .
 RootedUnion
 <
-OwningArrayBufferViewOrArrayBuffer
+OwningBufferSource
 >
 bufferSource
 (

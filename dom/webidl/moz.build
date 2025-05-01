@@ -3263,6 +3263,11 @@ BroadcastChannel
 webidl
 "
 "
+BufferSource
+.
+webidl
+"
+"
 Cache
 .
 webidl

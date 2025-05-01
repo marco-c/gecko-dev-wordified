@@ -160,6 +160,17 @@ mozilla
 /
 dom
 /
+BufferSourceBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Document
 .
 h
@@ -262,7 +273,7 @@ const
 dom
 :
 :
-ArrayBufferViewOrArrayBuffer
+BufferSource
 &
 aBufferOrView
 nsTArray

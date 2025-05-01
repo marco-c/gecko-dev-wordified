@@ -148,6 +148,17 @@ mozilla
 /
 dom
 /
+BufferSourceBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 DecompressionStreamBinding
 .
 h
@@ -428,7 +439,7 @@ TypeError
 .
 RootedUnion
 <
-OwningArrayBufferViewOrArrayBuffer
+OwningBufferSource
 >
 bufferSource
 (

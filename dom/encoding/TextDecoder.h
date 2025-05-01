@@ -127,6 +127,17 @@ mozilla
 /
 dom
 /
+BufferSourceBindingFwd
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 NonRefcountedDOMObject
 .
 h
@@ -186,9 +197,6 @@ mozilla
 :
 dom
 {
-class
-ArrayBufferViewOrArrayBuffer
-;
 class
 TextDecoderCommon
 {
@@ -668,7 +676,7 @@ Decode
 const
 Optional
 <
-ArrayBufferViewOrArrayBuffer
+BufferSource
 >
 &
 aBuffer

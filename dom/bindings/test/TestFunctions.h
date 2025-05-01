@@ -147,6 +147,17 @@ mozilla
 /
 dom
 /
+BufferSourceBindingFwd
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 NonRefcountedDOMObject
 .
 h

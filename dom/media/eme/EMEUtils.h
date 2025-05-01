@@ -136,6 +136,17 @@ mozilla
 /
 dom
 /
+BufferSourceBindingFwd
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 MediaKeyStatusMapBinding
 .
 h
@@ -188,9 +199,6 @@ KeySystemConfig
 namespace
 dom
 {
-class
-ArrayBufferViewOrArrayBuffer
-;
 class
 Document
 ;
@@ -365,7 +373,7 @@ const
 dom
 :
 :
-ArrayBufferViewOrArrayBuffer
+BufferSource
 &
 aBufferOrView
 nsTArray

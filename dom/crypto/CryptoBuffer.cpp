@@ -144,6 +144,17 @@ mozilla
 /
 dom
 /
+BufferSourceBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 UnionTypes
 .
 h
@@ -419,7 +430,7 @@ CryptoBuffer
 Assign
 (
 const
-ArrayBufferViewOrArrayBuffer
+BufferSource
 &
 aData
 )
@@ -451,7 +462,7 @@ CryptoBuffer
 Assign
 (
 const
-OwningArrayBufferViewOrArrayBuffer
+OwningBufferSource
 &
 aData
 )

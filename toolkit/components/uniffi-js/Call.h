@@ -143,6 +143,17 @@ mozilla
 /
 dom
 /
+UniFFIBindingFwd
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 UniFFIScaffolding
 .
 h

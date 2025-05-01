@@ -187,6 +187,17 @@ mozilla
 /
 dom
 /
+BufferSourceBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 StructuredCloneHolder
 .
 h
@@ -1442,7 +1453,7 @@ EncodedVideoChunk
 CopyTo
 (
 const
-MaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
+AllowSharedBufferSource
 &
 aDestination
 ErrorResult
