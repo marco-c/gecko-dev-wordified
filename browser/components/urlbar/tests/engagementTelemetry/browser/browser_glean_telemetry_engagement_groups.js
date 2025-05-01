@@ -1487,8 +1487,7 @@ openPopup
 (
 "
 >
-view
-add
+addon
 "
 )
 ;
