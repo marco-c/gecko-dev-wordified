@@ -3519,7 +3519,6 @@ Since
 hb_bool_t
 hb_face_is_immutable
 (
-const
 hb_face_t
 *
 face

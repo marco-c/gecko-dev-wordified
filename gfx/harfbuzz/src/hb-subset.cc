@@ -5158,7 +5158,7 @@ offset
 |
 offset
 >
-UINT32_MAX
+INT32_MAX
 )
 {
 return
@@ -5280,7 +5280,7 @@ offset
 |
 offset
 >
-UINT32_MAX
+INT32_MAX
 )
 {
 return

@@ -3384,7 +3384,6 @@ _hb_atexit_
 #
 #
 __LINE__
-;
 #
 endif
 #

@@ -4000,7 +4000,7 @@ extents
 >
 x_bearing
 =
-round
+roundf
 (
 x1
 )
@@ -4010,7 +4010,7 @@ extents
 >
 y_bearing
 =
-round
+roundf
 (
 y1
 )
@@ -4020,7 +4020,7 @@ extents
 >
 width
 =
-round
+roundf
 (
 x2
 )
@@ -4035,7 +4035,7 @@ extents
 >
 height
 =
-round
+roundf
 (
 y2
 )
