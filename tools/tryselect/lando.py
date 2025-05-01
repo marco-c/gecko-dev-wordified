@@ -411,6 +411,7 @@ str
 Tuple
 [
 str
+str
 List
 [
 str
@@ -461,6 +462,71 @@ patches
 "
 "
     
+#
+Get
+the
+appropriate
+base
+commit
+hash
+format
+.
+    
+#
+Use
+git
+for
+Git
+-
+native
+checkouts
+of
+Firefox
+.
+    
+#
+Use
+hg
+for
+Mercurial
+repos
+and
+git
+-
+cinnabar
+clones
+.
+    
+base_commit_vcs
+=
+(
+        
+"
+git
+"
+if
+vcs
+.
+name
+=
+=
+"
+git
+"
+and
+not
+vcs
+.
+is_cinnabar_repo
+(
+)
+else
+"
+hg
+"
+    
+)
+    
 base_commit
 =
 vcs
@@ -468,6 +534,17 @@ vcs
 base_ref_as_hg
 (
 )
+if
+base_commit_vcs
+=
+=
+"
+hg
+"
+else
+vcs
+.
+base_ref
     
 if
 not
@@ -499,10 +576,13 @@ print
 Using
 "
 base_commit
+f
 "
 as
 the
-hg
+{
+base_commit_vcs
+}
 base
 commit
 .
@@ -691,6 +771,7 @@ submission
     
 return
 base_commit
+base_commit_vcs
 base64_patches
 dataclass
 class
@@ -2575,6 +2656,10 @@ str
 base_commit
 :
 str
+        
+base_commit_vcs
+:
+str
     
 )
 -
@@ -2634,6 +2719,12 @@ base_commit
 "
 :
 base_commit
+            
+"
+base_commit_vcs
+"
+:
+base_commit_vcs
             
 "
 patch_format
@@ -2922,6 +3013,7 @@ try
 :
             
 base_commit
+base_commit_vcs
 patches
 =
 get_stack_info
@@ -2993,6 +3085,7 @@ post_try_push_patches
 patches
 patch_format
 base_commit
+base_commit_vcs
             
 )
         
