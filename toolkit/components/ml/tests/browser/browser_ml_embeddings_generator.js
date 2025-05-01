@@ -267,7 +267,7 @@ Physical
 Memory
 size
 <
-8GiB
+7GiB
 .
 "
 )
