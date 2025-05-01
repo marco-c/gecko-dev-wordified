@@ -489,6 +489,19 @@ None
     
 if
 env_path
+=
+=
+os
+.
+devnull
+:
+        
+env_path
+=
+None
+    
+if
+env_path
 is
 not
 None
