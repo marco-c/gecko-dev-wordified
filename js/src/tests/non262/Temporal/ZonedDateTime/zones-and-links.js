@@ -44,7 +44,7 @@ EDIT
 tzdata
 version
 =
-2025a
+2025b
 const
 zones
 =
@@ -531,6 +531,11 @@ Ciudad_Juarez
 America
 /
 Costa_Rica
+"
+"
+America
+/
+Coyhaique
 "
 "
 America
