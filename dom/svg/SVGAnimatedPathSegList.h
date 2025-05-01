@@ -181,6 +181,9 @@ SVGElement
 class
 SVGPathSegment
 ;
+struct
+SVGPathSegmentInit
+;
 }
 /
 /
@@ -489,13 +492,10 @@ dom
 :
 Sequence
 <
-OwningNonNull
-<
 dom
 :
 :
-SVGPathSegment
->
+SVGPathSegmentInit
 >
 &
 aValues
