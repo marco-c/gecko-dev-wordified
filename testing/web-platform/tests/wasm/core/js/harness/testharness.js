@@ -855,7 +855,6 @@ callback
 Iterate
 of
 the
-the
 windows
 [
 self

@@ -1507,7 +1507,6 @@ group
 owned
 by
 the
-the
 main
 frame
 '
@@ -1620,7 +1619,6 @@ interest
 group
 owned
 by
-the
 the
 main
 frame
@@ -1934,7 +1932,6 @@ interest
 group
 owned
 by
-the
 the
 main
 frame

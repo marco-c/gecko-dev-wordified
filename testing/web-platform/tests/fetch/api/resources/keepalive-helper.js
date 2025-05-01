@@ -1000,7 +1000,6 @@ keepaliveRedirectInUnloadTest
 in
 that
 the
-the
 latter
 *
 performs

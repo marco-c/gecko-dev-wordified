@@ -750,7 +750,6 @@ that
 explicitly
 setting
 the
-the
 fixed
 value
 is

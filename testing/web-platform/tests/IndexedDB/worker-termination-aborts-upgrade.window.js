@@ -455,7 +455,6 @@ only
 specifies
 that
 the
-the
 connection
 opening
 algorithm

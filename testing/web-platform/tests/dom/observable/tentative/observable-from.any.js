@@ -6118,7 +6118,6 @@ that
 occur
 during
 the
-the
 retrieval
 of
 next

@@ -368,7 +368,6 @@ start
 to
 count
 the
-the
 weekly
 epoch
 from

@@ -221,7 +221,6 @@ token
 /
 Create
 the
-the
 3
 actors
 .

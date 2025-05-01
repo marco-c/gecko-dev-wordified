@@ -1465,7 +1465,6 @@ strategy
 *
 If
 the
-the
 step
 is
 a

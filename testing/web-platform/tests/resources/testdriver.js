@@ -4707,7 +4707,6 @@ window
 *
 Matches
 the
-the
 behaviour
 of
 the

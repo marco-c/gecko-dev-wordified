@@ -2607,7 +2607,6 @@ timestamp
 Swap
 to
 the
-the
 other
 track
 .

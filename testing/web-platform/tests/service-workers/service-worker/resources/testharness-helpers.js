@@ -209,7 +209,6 @@ a
 replacement
 for
 the
-the
 version
 of
 assert_object_equals

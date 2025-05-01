@@ -441,7 +441,6 @@ means
 /
 /
 the
-the
 automations
 did
 different

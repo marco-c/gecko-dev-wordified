@@ -2798,7 +2798,6 @@ after
 100ms
 unless
 the
-the
 event
 is
 fired
