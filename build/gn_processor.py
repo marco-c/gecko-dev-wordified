@@ -4664,6 +4664,7 @@ drm
 /
 include
 /
+libdrm
 "
 ]
 \
