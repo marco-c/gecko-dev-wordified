@@ -3031,9 +3031,7 @@ if
 isinstance
 (
 f
-(
 str
-)
 )
 :
                             

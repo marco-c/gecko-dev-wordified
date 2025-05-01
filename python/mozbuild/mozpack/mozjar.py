@@ -4874,9 +4874,7 @@ isinstance
 data
 (
 bytes
-(
 str
-)
 )
 )
 :

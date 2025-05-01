@@ -2053,9 +2053,7 @@ assert
 isinstance
 (
 destination
-(
 str
-)
 )
         
 assert
@@ -4246,9 +4244,7 @@ if
 isinstance
 (
 dest
-(
 str
-)
 )
 :
             

@@ -754,9 +754,7 @@ if
 isinstance
 (
 longrepr
-(
 str
-)
 )
 :
                 

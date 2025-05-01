@@ -1229,9 +1229,7 @@ if
 isinstance
 (
 obj
-(
 str
-)
 )
 :
                 

@@ -2105,9 +2105,7 @@ not
 isinstance
 (
 a
-(
 str
-)
 )
 or
 a

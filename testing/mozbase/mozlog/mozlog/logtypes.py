@@ -1513,9 +1513,7 @@ isinstance
 (
 data
 (
-(
 str
-)
 dict
 )
 )

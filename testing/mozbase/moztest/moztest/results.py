@@ -678,9 +678,7 @@ assert
 isinstance
 (
 name
-(
 str
-)
 )
 "
 name
@@ -1324,9 +1322,7 @@ if
 isinstance
 (
 output
-(
 str
-)
 )
 :
             

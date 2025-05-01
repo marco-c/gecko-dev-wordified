@@ -580,9 +580,7 @@ if
 isinstance
 (
 _class
-(
 str
-)
 )
 :
             

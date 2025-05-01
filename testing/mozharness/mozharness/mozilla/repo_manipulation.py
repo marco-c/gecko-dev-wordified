@@ -1080,9 +1080,7 @@ if
 isinstance
 (
 tags
-(
 str
-)
 )
 :
             

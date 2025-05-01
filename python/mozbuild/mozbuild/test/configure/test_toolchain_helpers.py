@@ -367,9 +367,7 @@ if
 isinstance
 (
 value
-(
 str
-)
 )
 :
                 

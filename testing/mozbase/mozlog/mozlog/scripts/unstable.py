@@ -122,13 +122,9 @@ test
 :
         
 if
-type
+isinstance
 (
 test
-)
-in
-(
-str
 str
 )
 :

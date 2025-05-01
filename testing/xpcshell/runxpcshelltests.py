@@ -997,9 +997,7 @@ not
 isinstance
 (
 s
-(
 str
-)
 )
 :
         
@@ -5568,13 +5566,8 @@ isinstance
 line
 (
 str
-)
-)
-or
-isinstance
-(
-line
 bytes
+)
 )
 :
             

@@ -380,9 +380,7 @@ get
 recording_file
 "
 )
-(
 str
-)
 )
 :
                 

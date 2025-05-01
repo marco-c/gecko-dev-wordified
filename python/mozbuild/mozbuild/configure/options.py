@@ -252,8 +252,6 @@ obj
 :
     
 return
-(
-        
 isinstance
 (
 obj
@@ -270,16 +268,12 @@ all
 isinstance
 (
 o
-(
 str
-)
 )
 for
 o
 in
 obj
-)
-    
 )
 class
 OptionValue
@@ -933,9 +927,7 @@ elif
 isinstance
 (
 value
-(
 str
-)
 )
 :
             
@@ -1754,9 +1746,7 @@ not
 isinstance
 (
 name
-(
 str
-)
 )
 :
                 
@@ -1849,9 +1839,7 @@ not
 isinstance
 (
 env
-(
 str
-)
 )
 :
                 
@@ -1960,9 +1948,7 @@ not
 isinstance
 (
 default
-(
 str
-)
 )
             
 and
@@ -2041,9 +2027,7 @@ not
 isinstance
 (
 category
-(
 str
-)
 )
 :
             
@@ -2892,9 +2876,7 @@ not
 isinstance
 (
 option
-(
 str
-)
 )
 :
             

@@ -521,9 +521,7 @@ assertTrue
 isinstance
 (
 path
-(
 str
-)
 )
 )
         

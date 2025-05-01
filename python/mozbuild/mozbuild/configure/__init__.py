@@ -4687,9 +4687,7 @@ if
 isinstance
 (
 arg
-(
 str
-)
 )
 :
             
@@ -6050,9 +6048,7 @@ not
 isinstance
 (
 what
-(
 str
-)
 )
 :
                     
@@ -6765,9 +6761,7 @@ not
 isinstance
 (
 value
-(
 str
-)
 )
 and
 (
@@ -8215,9 +8209,7 @@ not
 isinstance
 (
 name
-(
 str
-)
 )
 :
             
@@ -9264,25 +9256,14 @@ if
 not
 reason
 and
-(
-            
 isinstance
 (
 value
 (
 bool
 tuple
-)
-)
-or
-isinstance
-(
-value
-(
 str
 )
-)
-        
 )
 :
             

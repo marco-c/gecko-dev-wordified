@@ -2008,9 +2008,7 @@ not
 isinstance
 (
 args
-(
 str
-)
 )
 :
                     
