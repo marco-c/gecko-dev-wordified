@@ -389,6 +389,11 @@ TouchManager
 h
 "
 "
+UniqueOrNonOwningPtr
+.
+h
+"
+"
 Units
 .
 h
