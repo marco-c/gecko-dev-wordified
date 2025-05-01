@@ -1931,9 +1931,7 @@ level1
 "
 :
 "
-Co
-.
-Dublin
+D
 "
 "
 postal
