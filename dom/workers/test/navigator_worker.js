@@ -69,7 +69,7 @@ name
 "
 gpu
 "
-isNightly
+isEarlyBetaOrEarlier
 :
 true
 isSecureContext
