@@ -201,6 +201,17 @@ include
 "
 mozilla
 /
+dom
+/
+WebCodecsUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 Point
@@ -282,13 +293,7 @@ class
 ImageBitmap
 ;
 class
-MaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
-;
-class
 OffscreenCanvas
-;
-class
-OwningMaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
 ;
 class
 Promise
@@ -378,7 +383,7 @@ aDuration
 int64_t
 aTimestamp
 const
-VideoColorSpaceInit
+VideoColorSpaceInternal
 &
 aColorSpace
 )
@@ -436,7 +441,7 @@ int64_t
 mTimestamp
 ;
 const
-VideoColorSpaceInit
+VideoColorSpaceInternal
 mColorSpace
 ;
 }
@@ -538,7 +543,7 @@ aDuration
 int64_t
 aTimestamp
 const
-VideoColorSpaceInit
+VideoColorSpaceInternal
 &
 aColorSpace
 )
@@ -916,7 +921,7 @@ Promise
 CopyTo
 (
 const
-MaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
+AllowSharedBufferSource
 &
 aDestination
 const
@@ -1620,7 +1625,7 @@ mDuration
 int64_t
 mTimestamp
 ;
-VideoColorSpaceInit
+VideoColorSpaceInternal
 mColorSpace
 ;
 /
