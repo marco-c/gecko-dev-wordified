@@ -7607,6 +7607,14 @@ not
 self
 .
 saw_crash_reporter_init
+                
+and
+len
+(
+process_output
+)
+>
+0
             
 )
             
