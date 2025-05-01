@@ -150,6 +150,11 @@ CrashAnnotations
 cpp
 "
 "
+ExtraFileParser
+.
+cpp
+"
+"
 nsExceptionHandlerUtils
 .
 cpp
