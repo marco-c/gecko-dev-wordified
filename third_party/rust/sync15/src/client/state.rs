@@ -5112,6 +5112,13 @@ test_state_machine_ready_from_empty
 (
 )
 {
+nss
+:
+:
+ensure_initialized
+(
+)
+;
 let
 _
 =
@@ -5461,6 +5468,13 @@ test_from_previous_state_declined
 (
 )
 {
+nss
+:
+:
+ensure_initialized
+(
+)
+;
 let
 _
 =
