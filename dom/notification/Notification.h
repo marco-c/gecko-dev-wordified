@@ -1129,9 +1129,13 @@ ResolveIconURL
 nsIGlobalObject
 *
 aGlobal
-nsString
+const
+nsAString
 &
 aIconURL
+nsString
+&
+aResolvedURL
 )
 ;
 }
