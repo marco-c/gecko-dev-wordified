@@ -4882,7 +4882,7 @@ nsIWidgetListener
 *
 listener
 =
-GetWidgetListener
+GetPaintListener
 (
 )
 )
@@ -4911,7 +4911,7 @@ nsIWidgetListener
 *
 listener
 =
-GetWidgetListener
+GetPaintListener
 (
 )
 ;
@@ -4939,7 +4939,7 @@ aRegion
 ;
 listener
 =
-GetWidgetListener
+GetPaintListener
 (
 )
 ;
