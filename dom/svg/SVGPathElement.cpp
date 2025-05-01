@@ -1488,7 +1488,10 @@ SetPathData
 const
 Sequence
 <
-SVGPathSegmentInit
+OwningNonNull
+<
+SVGPathSegment
+>
 >
 &
 aValues
