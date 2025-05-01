@@ -1722,9 +1722,6 @@ SAVE_TO_POCKET
 SCREENSHOT_UPDATED
 "
 "
-SECTION_DATA_UPDATE
-"
-"
 SECTION_DEREGISTER
 "
 "
@@ -1735,6 +1732,9 @@ SECTION_ENABLE
 "
 "
 SECTION_OPTIONS_CHANGED
+"
+"
+SECTION_PERSONALIZATION_UPDATE
 "
 "
 SECTION_REGISTER
@@ -16597,7 +16597,7 @@ SectionBlock
 :
 (
 {
-sectionData
+sectionPersonalization
 sectionKey
 sectionPosition
 title
@@ -16675,14 +16675,14 @@ type
 :
 actionTypes
 .
-SECTION_DATA_UPDATE
+SECTION_PERSONALIZATION_UPDATE
 data
 :
 {
 .
 .
 .
-sectionData
+sectionPersonalization
 [
 sectionKey
 ]
@@ -16859,7 +16859,7 @@ SectionUnfollow
 :
 (
 {
-sectionData
+sectionPersonalization
 sectionKey
 sectionPosition
 }
@@ -16890,7 +16890,7 @@ type
 :
 actionTypes
 .
-SECTION_DATA_UPDATE
+SECTION_PERSONALIZATION_UPDATE
 data
 :
 (
@@ -16910,7 +16910,7 @@ remaining
 remaining
 )
 (
-sectionData
+sectionPersonalization
 )
 }
 )
@@ -54153,7 +54153,7 @@ data
 {
 }
 }
-sectionData
+sectionPersonalization
 :
 {
 }
@@ -58542,7 +58542,7 @@ prevState
 showBlockSectionConfirmation
 :
 true
-sectionData
+sectionPersonalization
 :
 action
 .
@@ -58768,7 +58768,7 @@ false
 case
 actionTypes
 .
-SECTION_DATA_UPDATE
+SECTION_PERSONALIZATION_UPDATE
 :
 return
 {
@@ -58776,7 +58776,7 @@ return
 .
 .
 prevState
-sectionData
+sectionPersonalization
 :
 action
 .
@@ -76541,7 +76541,7 @@ index
 dispatch
 sectionKey
 following
-sectionData
+sectionPersonalization
 sectionPosition
 }
 )
@@ -76760,7 +76760,7 @@ true
 site
 :
 {
-sectionData
+sectionPersonalization
 sectionKey
 sectionPosition
 title
@@ -77007,7 +77007,7 @@ values
 ;
 const
 {
-sectionData
+sectionPersonalization
 }
 =
 (
@@ -77399,7 +77399,7 @@ updatedSections
 .
 .
 .
-sectionData
+sectionPersonalization
 }
 ;
 if
@@ -77550,7 +77550,7 @@ type
 :
 actionTypes
 .
-SECTION_DATA_UPDATE
+SECTION_PERSONALIZATION_UPDATE
 data
 :
 updatedSections
@@ -77755,7 +77755,7 @@ index
 const
 checked
 =
-sectionData
+sectionPersonalization
 [
 interest
 .
@@ -79231,7 +79231,7 @@ values
 ;
 const
 {
-sectionData
+sectionPersonalization
 }
 =
 (
@@ -79346,7 +79346,7 @@ layout
 const
 following
 =
-sectionData
+sectionPersonalization
 [
 sectionKey
 ]
@@ -79472,7 +79472,7 @@ updatedSectionData
 .
 .
 .
-sectionData
+sectionPersonalization
 [
 sectionKey
 ]
@@ -79508,7 +79508,7 @@ type
 :
 actionTypes
 .
-SECTION_DATA_UPDATE
+SECTION_PERSONALIZATION_UPDATE
 data
 :
 updatedSectionData
@@ -79555,7 +79555,7 @@ MOZ_BUTTON
 }
 [
 dispatch
-sectionData
+sectionPersonalization
 sectionKey
 sectionPosition
 ]
@@ -79583,7 +79583,7 @@ updatedSectionData
 .
 .
 .
-sectionData
+sectionPersonalization
 }
 ;
 delete
@@ -79603,7 +79603,7 @@ type
 :
 actionTypes
 .
-SECTION_DATA_UPDATE
+SECTION_PERSONALIZATION_UPDATE
 data
 :
 updatedSectionData
@@ -79650,7 +79650,7 @@ MOZ_BUTTON
 }
 [
 dispatch
-sectionData
+sectionPersonalization
 sectionKey
 sectionPosition
 ]
@@ -79973,9 +79973,9 @@ sectionPosition
 following
 :
 following
-sectionData
+sectionPersonalization
 :
-sectionData
+sectionPersonalization
 sectionKey
 :
 sectionKey
@@ -80572,7 +80572,7 @@ values
 const
 {
 spocs
-sectionData
+sectionPersonalization
 }
 =
 (
@@ -80660,7 +80660,7 @@ section
 =
 >
 !
-sectionData
+sectionPersonalization
 [
 section
 .
@@ -84254,7 +84254,7 @@ with
 useState
 const
 {
-sectionData
+sectionPersonalization
 }
 =
 (
@@ -84419,7 +84419,7 @@ external_React_namespaceObject
 useState
 )
 (
-sectionData
+sectionPersonalization
 )
 ;
 /
@@ -84490,7 +84490,7 @@ is
 open
 setSectionState
 (
-sectionData
+sectionPersonalization
 )
 ;
 followedSectionsData
@@ -84562,14 +84562,14 @@ type
 :
 actionTypes
 .
-SECTION_DATA_UPDATE
+SECTION_PERSONALIZATION_UPDATE
 data
 :
 {
 .
 .
 .
-sectionData
+sectionPersonalization
 [
 sectionKey
 ]
@@ -84636,7 +84636,7 @@ CUSTOMIZE_PANEL
 }
 [
 dispatch
-sectionData
+sectionPersonalization
 ]
 )
 ;
@@ -84668,14 +84668,14 @@ type
 :
 actionTypes
 .
-SECTION_DATA_UPDATE
+SECTION_PERSONALIZATION_UPDATE
 data
 :
 {
 .
 .
 .
-sectionData
+sectionPersonalization
 [
 sectionKey
 ]
@@ -84732,7 +84732,7 @@ CUSTOMIZE_PANEL
 }
 [
 dispatch
-sectionData
+sectionPersonalization
 ]
 )
 ;
@@ -84760,7 +84760,7 @@ updatedSectionData
 .
 .
 .
-sectionData
+sectionPersonalization
 }
 ;
 delete
@@ -84780,7 +84780,7 @@ type
 :
 actionTypes
 .
-SECTION_DATA_UPDATE
+SECTION_PERSONALIZATION_UPDATE
 data
 :
 updatedSectionData
@@ -84827,7 +84827,7 @@ CUSTOMIZE_PANEL
 }
 [
 dispatch
-sectionData
+sectionPersonalization
 ]
 )
 ;
@@ -84855,7 +84855,7 @@ updatedSectionData
 .
 .
 .
-sectionData
+sectionPersonalization
 }
 ;
 delete
@@ -84875,7 +84875,7 @@ type
 :
 actionTypes
 .
-SECTION_DATA_UPDATE
+SECTION_PERSONALIZATION_UPDATE
 data
 :
 updatedSectionData
@@ -84922,7 +84922,7 @@ CUSTOMIZE_PANEL
 }
 [
 dispatch
-sectionData
+sectionPersonalization
 ]
 )
 ;
@@ -85026,7 +85026,7 @@ receivedRank
 const
 following
 =
-sectionData
+sectionPersonalization
 [
 sectionKey
 ]
@@ -85339,7 +85339,7 @@ receivedRank
 const
 blocked
 =
-sectionData
+sectionPersonalization
 [
 sectionKey
 ]
@@ -108573,6 +108573,22 @@ enabled
 "
 ]
 ;
+const
+sectionsPersonalizationEnabled
+=
+prefs
+[
+"
+discoverystream
+.
+sections
+.
+personalization
+.
+enabled
+"
+]
+;
 /
 /
 Logic
@@ -108588,8 +108604,11 @@ in
 Customize
 panel
 const
-mayHaveTopicSections
+mayHavePersonalizedTopicSections
 =
+sectionsPersonalizationEnabled
+&
+&
 topicLabelsEnabled
 &
 &
@@ -109129,7 +109148,7 @@ pocketRegion
 pocketRegion
 mayHaveTopicSections
 :
-mayHaveTopicSections
+mayHavePersonalizedTopicSections
 mayHaveSponsoredTopSites
 :
 mayHaveSponsoredTopSites
