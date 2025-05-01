@@ -377,7 +377,6 @@ drm
 /
 include
 /
-libdrm
 "
 ]
 USE_LIBS

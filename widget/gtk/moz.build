@@ -972,7 +972,6 @@ drm
 /
 include
 /
-libdrm
 "
 ]
 DEFINES
