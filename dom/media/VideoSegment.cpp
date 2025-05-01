@@ -1117,11 +1117,6 @@ bool
 aForceBlack
 TimeStamp
 aTimeStamp
-media
-:
-:
-TimeUnit
-aProcessingDuration
 TimeStamp
 aWebrtcCaptureTime
 )
@@ -1141,13 +1136,6 @@ chunk
 mTimeStamp
 =
 aTimeStamp
-;
-chunk
--
->
-mProcessingDuration
-=
-aProcessingDuration
 ;
 chunk
 -
