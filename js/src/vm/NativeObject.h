@@ -9887,16 +9887,6 @@ ObjectElements
 :
 :
 VALUES_PER_HEADER
--
-gc
-:
-:
-LargeBufferHeaderSize
-/
-sizeof
-(
-Value
-)
 ;
 static
 void
