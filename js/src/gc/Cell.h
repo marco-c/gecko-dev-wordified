@@ -6329,6 +6329,12 @@ GC
 cells
 .
 }
+size_t
+allocBytes
+(
+)
+const
+;
 void
 *
 data

@@ -1031,6 +1031,12 @@ alloc
 size_t
 GetAllocSize
 (
+JS
+:
+:
+Zone
+*
+zone
 void
 *
 alloc

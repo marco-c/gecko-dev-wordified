@@ -3556,6 +3556,7 @@ actualSize
 =
 GetAllocSize
 (
+zone
 alloc
 )
 ;
@@ -3978,6 +3979,7 @@ actualSize
 =
 GetAllocSize
 (
+zone
 alloc
 )
 ;
@@ -4038,6 +4040,7 @@ actualSize
 =
 GetAllocSize
 (
+zone
 alloc
 )
 )
@@ -4150,6 +4153,7 @@ actualSize
 =
 GetAllocSize
 (
+zone
 alloc
 )
 ;

@@ -22082,6 +22082,9 @@ gc
 :
 GetAllocSize
 (
+zone
+(
+)
 as
 <
 NativeObject
@@ -22143,6 +22146,9 @@ gc
 :
 GetAllocSize
 (
+zone
+(
+)
 allocatedElements
 )
 ;
