@@ -146,6 +146,24 @@ debian
 "
     
 "
+rpm
+-
+templates
+"
+:
+"
+browser
+/
+installer
+/
+linux
+/
+app
+/
+rpm
+"
+    
+"
 flatpak
 -
 templates
