@@ -16363,6 +16363,12 @@ ArrayBufferObject
 donor
 )
 {
+AutoSetNewObjectMetadata
+metadata
+(
+cx
+)
+;
 /
 /
 Similar
