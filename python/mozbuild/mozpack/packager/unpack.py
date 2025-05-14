@@ -56,10 +56,6 @@ MPL
 import
 codecs
 from
-six
-.
-moves
-.
 urllib
 .
 parse
