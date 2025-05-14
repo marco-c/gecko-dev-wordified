@@ -3100,7 +3100,7 @@ store
 =
 ExperimentAPI
 .
-_manager
+manager
 .
 store
 ;
