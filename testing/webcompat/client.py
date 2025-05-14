@@ -1447,10 +1447,7 @@ event
 1
         
 if
-len
-(
 must_sub
-)
 :
             
 await
@@ -1533,10 +1530,7 @@ event
 )
         
 if
-len
-(
 must_unsub
-)
 :
             
 try
@@ -7463,10 +7457,7 @@ num_intercepted
 0
         
 while
-len
-(
 left_to_try
-)
 :
             
 finder

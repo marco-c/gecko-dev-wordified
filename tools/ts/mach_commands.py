@@ -551,10 +551,7 @@ json
         
 if
 not
-len
-(
 files
-)
 :
             
 return

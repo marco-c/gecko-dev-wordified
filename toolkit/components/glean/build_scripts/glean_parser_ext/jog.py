@@ -1438,10 +1438,7 @@ meta
 )
             
 if
-len
-(
 extra
-)
 :
                 
 metric_arg_list
