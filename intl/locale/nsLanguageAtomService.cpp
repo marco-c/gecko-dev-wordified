@@ -143,6 +143,13 @@ h
 #
 include
 "
+MainThreadUtils
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h
