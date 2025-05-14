@@ -4892,13 +4892,6 @@ view
 return
 ;
 }
-menuPopupFrame
--
->
-WidgetPositionOrSizeDidChange
-(
-)
-;
 /
 /
 Don
@@ -5160,13 +5153,6 @@ menuPopupFrame
 return
 ;
 }
-menuPopupFrame
--
->
-WidgetPositionOrSizeDidChange
-(
-)
-;
 nsView
 *
 view
