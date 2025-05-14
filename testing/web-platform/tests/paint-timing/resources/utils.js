@@ -404,6 +404,15 @@ presentationTime
 "
 in
 entry
+&
+&
+entry
+.
+presentationTime
+!
+=
+=
+null
 )
 {
 assert_greater_than
