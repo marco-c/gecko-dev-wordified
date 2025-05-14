@@ -187,8 +187,6 @@ r
 "
 (
 perfMetrics
-\
-s
 .
 *
 )
@@ -561,22 +559,13 @@ n
 "
 )
             
-#
-Check
-if
-a
-temporary
-commit
-wa
-created
-            
 match
 =
 self
 .
 matcher
 .
-match
+search
 (
 data
 )
@@ -584,16 +573,6 @@ data
 if
 match
 :
-                
-#
-Last
-line
-found
-is
-the
-revision
-we
-want
                 
 self
 .
