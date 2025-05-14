@@ -276,6 +276,7 @@ resolve
 )
 )
 ;
+await
 PushService
 .
 init
