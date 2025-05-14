@@ -5,6 +5,14 @@ jit
 -
 test
 |
+-
+-
+setpref
+=
+wasm_unroll_loops
+=
+false
+;
 skip
 -
 if
