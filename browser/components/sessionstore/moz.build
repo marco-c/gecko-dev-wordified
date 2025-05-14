@@ -176,6 +176,13 @@ sys
 mjs
 "
 "
+session
+.
+schema
+.
+json
+"
+"
 SessionCookies
 .
 sys
