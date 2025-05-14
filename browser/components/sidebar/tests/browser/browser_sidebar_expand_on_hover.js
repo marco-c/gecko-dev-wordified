@@ -1209,7 +1209,9 @@ expanded
 "
 )
 ;
-is
+Assert
+.
+less
 (
 Math
 .
@@ -1222,6 +1224,7 @@ verticalTabsComputedStyle
 width
 )
 )
+%
 Math
 .
 round
@@ -1233,6 +1236,7 @@ pinnedTabComputedStyle
 width
 )
 )
+10
 "
 The
 pinned
