@@ -168,6 +168,12 @@ TimeZone
 Timelike
 }
 ;
+use
+malloc_size_of_derive
+:
+:
+MallocSizeOf
+;
 /
 /
 /
@@ -216,6 +222,7 @@ derive
 Clone
 PartialEq
 Eq
+MallocSizeOf
 )
 ]
 pub

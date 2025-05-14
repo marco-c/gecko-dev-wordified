@@ -82,6 +82,12 @@ Lifetime
 }
 ;
 use
+malloc_size_of_derive
+:
+:
+MallocSizeOf
+;
+use
 once_cell
 :
 :
@@ -107,6 +113,7 @@ derive
 (
 Debug
 Default
+MallocSizeOf
 )
 ]
 pub

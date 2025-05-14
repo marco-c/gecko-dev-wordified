@@ -66,6 +66,12 @@ borrow
 Cow
 ;
 use
+malloc_size_of_derive
+:
+:
+MallocSizeOf
+;
+use
 super
 :
 :
@@ -84,6 +90,7 @@ Lifetime
 derive
 (
 Debug
+MallocSizeOf
 )
 ]
 pub
@@ -132,6 +139,7 @@ StringMetric
 derive
 (
 Debug
+MallocSizeOf
 )
 ]
 pub
@@ -1175,6 +1183,7 @@ None
 derive
 (
 Debug
+MallocSizeOf
 )
 ]
 pub
@@ -1837,6 +1846,7 @@ None
 derive
 (
 Debug
+MallocSizeOf
 )
 ]
 pub

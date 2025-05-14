@@ -66,6 +66,12 @@ collections
 HashMap
 ;
 use
+malloc_size_of_derive
+:
+:
+MallocSizeOf
+;
+use
 serde
 :
 :
@@ -188,6 +194,7 @@ Clone
 Serialize
 Deserialize
 PartialEq
+MallocSizeOf
 )
 ]
 pub

@@ -67,6 +67,12 @@ uploading
 and
 requests
 .
+use
+malloc_size_of_derive
+:
+:
+MallocSizeOf
+;
 const
 MAX_RECOVERABLE_FAILURES
 :
@@ -242,6 +248,7 @@ requests
 derive
 (
 Debug
+MallocSizeOf
 )
 ]
 pub
