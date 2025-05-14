@@ -248,13 +248,27 @@ remote_log_file
 def
 launch
 (
+        
 self
+        
 app
+        
 debugger_info
+        
 test_url
+        
 extra_args
+        
 env
+        
 e10s
+        
+activity
+=
+"
+TestRunnerActivity
+"
+    
 )
 :
         
@@ -355,12 +369,6 @@ extend
 (
 extra_args
 )
-        
-activity
-=
-"
-TestRunnerActivity
-"
         
 self
 .

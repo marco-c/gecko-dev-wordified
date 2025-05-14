@@ -1894,6 +1894,33 @@ app
             
 break
     
+#
+Force
+the
+buildapp
+to
+be
+android
+if
+requested
+    
+if
+kwargs
+.
+get
+(
+"
+android
+"
+)
+:
+        
+buildapp
+=
+"
+android
+"
+    
 flavors
 =
 None

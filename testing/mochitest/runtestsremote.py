@@ -716,6 +716,14 @@ remoteappname
         
 self
 .
+appActivity
+=
+options
+.
+appActivity
+        
+self
+.
 device
 .
 stop_application
@@ -2778,6 +2786,12 @@ debuggerInfo
 e10s
 =
 e10s
+            
+activity
+=
+self
+.
+appActivity
         
 )
         
