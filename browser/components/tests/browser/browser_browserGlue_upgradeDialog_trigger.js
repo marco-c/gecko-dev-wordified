@@ -34,7 +34,7 @@ strict
 ;
 const
 {
-ExperimentFakes
+NimbusTestUtils
 }
 =
 ChromeUtils
@@ -299,7 +299,7 @@ let
 doCleanup
 =
 await
-ExperimentFakes
+NimbusTestUtils
 .
 enrollWithFeatureConfig
 (
