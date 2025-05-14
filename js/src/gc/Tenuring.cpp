@@ -3385,6 +3385,16 @@ MOZ_ASSERT
 (
 IsInsideNursery
 (
+nurseryBaseOrRelocOverlay
+(
+)
+)
+)
+;
+MOZ_ASSERT
+(
+IsInsideNursery
+(
 base
 )
 )
