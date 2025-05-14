@@ -108,6 +108,19 @@ mjs
 )
 ;
 const
+STUDIES_ENABLED_CHANGED
+=
+"
+nimbus
+:
+studies
+-
+enabled
+-
+changed
+"
+;
+const
 gExperimentalPane
 =
 {
@@ -234,8 +247,6 @@ addObserver
 this
 .
 _onStudiesEnabledChanged
-ExperimentAPI
-.
 STUDIES_ENABLED_CHANGED
 )
 ;
@@ -1129,8 +1140,6 @@ removeObserver
 this
 .
 _onStudiesEnabledChanged
-ExperimentAPI
-.
 STUDIES_ENABLED_CHANGED
 )
 ;
