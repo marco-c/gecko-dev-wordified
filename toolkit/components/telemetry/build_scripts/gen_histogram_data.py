@@ -1227,15 +1227,6 @@ histogram
     
 pass
 def
-static_asserts_for_flag
-(
-output
-histogram
-)
-:
-    
-pass
-def
 static_asserts_for_count
 (
 output
@@ -1537,12 +1528,6 @@ boolean
 "
 :
 static_asserts_for_boolean
-        
-"
-flag
-"
-:
-static_asserts_for_flag
         
 "
 count
