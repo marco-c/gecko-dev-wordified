@@ -9744,6 +9744,12 @@ sImgSrcDataBlobAllowList
 "
 about
 :
+addons
+"
+_ns
+"
+about
+:
 debugging
 "
 _ns

@@ -4088,6 +4088,11 @@ revision
 "
 v1
 "
+taskName
+:
+"
+task1
+"
 }
 {
 name
@@ -4101,6 +4106,11 @@ revision
 :
 "
 v2
+"
+taskName
+:
+"
+task2
 "
 }
 ]
@@ -5000,6 +5010,7 @@ name
 :
 model
 revision
+taskName
 }
 ]
 ;
