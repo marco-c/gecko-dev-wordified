@@ -2715,6 +2715,20 @@ return
 BoxedValue
 "
     
+if
+mir_type
+=
+=
+"
+Int64
+"
+:
+        
+return
+"
+Int64
+"
+    
 return
 "
 WordSized
