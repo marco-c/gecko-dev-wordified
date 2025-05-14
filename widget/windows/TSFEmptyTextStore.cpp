@@ -925,7 +925,7 @@ false
 }
 const
 auto
-EmptyContextIsSupported
+emptyContextIsSupported
 =
 [
 &
@@ -1017,6 +1017,8 @@ hr
 )
 ;
 }
+(
+)
 ;
 /
 /
@@ -1048,9 +1050,7 @@ ClientId
 (
 )
 0
-EmptyContextIsSupported
-(
-)
+emptyContextIsSupported
 ?
 static_cast
 <
@@ -1204,6 +1204,12 @@ MarkContextAsEmpty
 context
 )
 ;
+if
+(
+emptyContextIsSupported
+)
+{
+HRESULT
 hr
 =
 documentMgr
@@ -1296,9 +1302,9 @@ to
 create
 ITfContext
 due
+"
+"
 to
-"
-"
 TextStore
 being
 destroyed
@@ -1326,6 +1332,7 @@ TF_POPF_ALL
 return
 false
 ;
+}
 }
 mDocumentMgr
 =
