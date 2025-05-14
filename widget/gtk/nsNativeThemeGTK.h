@@ -567,12 +567,6 @@ StyleAppearance
 )
 override
 ;
-bool
-ThemeNeedsComboboxDropmarker
-(
-)
-override
-;
 Transparency
 GetWidgetTransparency
 (

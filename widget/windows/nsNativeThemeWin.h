@@ -527,12 +527,6 @@ return
 true
 ;
 }
-bool
-ThemeNeedsComboboxDropmarker
-(
-)
-override
-;
 nsNativeThemeWin
 (
 )
