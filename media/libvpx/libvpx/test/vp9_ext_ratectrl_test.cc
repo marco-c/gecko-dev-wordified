@@ -171,15 +171,6 @@ endif
 #
 include
 "
-vp9
-/
-simple_encode
-.
-h
-"
-#
-include
-"
 vpx
 /
 vpx_codec

@@ -5447,6 +5447,7 @@ vp8e_token_partitions
 /
 *
 !
+\
 brief
 VP9
 encoder

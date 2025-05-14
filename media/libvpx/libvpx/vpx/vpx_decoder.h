@@ -446,6 +446,7 @@ VPX_CODEC_CAP_FRAME_THREADING
 /
 *
 !
+\
 brief
 Can
 support
