@@ -4379,7 +4379,7 @@ result
 NS_QueryNotificationCallbacks
 (
 channel
-NS_GET_TEMPLATE_IID
+NS_GET_IID
 (
 T
 )
@@ -4869,7 +4869,7 @@ NS_QueryNotificationCallbacks
 (
 callbacks
 loadGroup
-NS_GET_TEMPLATE_IID
+NS_GET_IID
 (
 T
 )

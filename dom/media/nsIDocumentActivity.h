@@ -111,12 +111,10 @@ define
 NS_IDOCUMENTACTIVITY_IID
 \
 {
-\
 0x9b9f584e
 0xefa8
 0x11e3
 {
-\
 0xbb
 0x74
 0x5e
@@ -125,9 +123,7 @@ NS_IDOCUMENTACTIVITY_IID
 0x5d
 0x46
 0xb0
-\
 }
-\
 }
 class
 nsIDocumentActivity
@@ -137,7 +133,7 @@ nsISupports
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_IDOCUMENTACTIVITY_IID
 )
@@ -151,11 +147,6 @@ NotifyOwnerDocumentActivityChanged
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsIDocumentActivity
-NS_IDOCUMENTACTIVITY_IID
-)
 /
 *
 Use

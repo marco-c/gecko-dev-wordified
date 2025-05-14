@@ -135,12 +135,10 @@ define
 NS_ISCRIPTOBJECTPRINCIPAL_IID
 \
 {
-\
 0x3eedba38
 0x8d22
 0x41e1
 {
-\
 0x81
 0x7a
 0x0e
@@ -149,9 +147,7 @@ NS_ISCRIPTOBJECTPRINCIPAL_IID
 0x65
 0xb6
 0x64
-\
 }
-\
 }
 /
 *
@@ -172,7 +168,7 @@ nsISupports
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_ISCRIPTOBJECTPRINCIPAL_IID
 )
@@ -214,11 +210,6 @@ PartitionedPrincipal
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsIScriptObjectPrincipal
-NS_ISCRIPTOBJECTPRINCIPAL_IID
-)
 #
 endif
 /

@@ -134,12 +134,10 @@ define
 NS_IFOO_IID
 \
 {
-\
 0x6f7652e0
 0xee43
 0x11d1
 {
-\
 0x9c
 0xc3
 0x00
@@ -148,9 +146,7 @@ NS_IFOO_IID
 0x8c
 0xa6
 0xb3
-\
 }
-\
 }
 namespace
 TestCOMPtr
@@ -163,7 +159,7 @@ nsISupports
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_IFOO_IID
 )
@@ -238,11 +234,6 @@ total_queries_
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-IFoo
-NS_IFOO_IID
-)
 int
 IFoo
 :
@@ -583,12 +574,10 @@ define
 NS_IBAR_IID
 \
 {
-\
 0x6f7652e1
 0xee43
 0x11d1
 {
-\
 0x9c
 0xc3
 0x00
@@ -597,9 +586,7 @@ NS_IBAR_IID
 0x8c
 0xa6
 0xb3
-\
 }
-\
 }
 class
 IBar
@@ -609,7 +596,7 @@ IFoo
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_IBAR_IID
 )
@@ -647,11 +634,6 @@ total_queries_
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-IBar
-NS_IBAR_IID
-)
 int
 IBar
 :

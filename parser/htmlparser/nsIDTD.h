@@ -219,12 +219,10 @@ define
 NS_IDTD_IID
 \
 {
-\
 0x3de05873
 0xefa7
 0x410d
 {
-\
 0xa4
 0x61
 0x80
@@ -233,9 +231,7 @@ NS_IDTD_IID
 0xd9
 0xe3
 0x26
-\
 }
-\
 }
 enum
 eAutoDetectResult
@@ -273,7 +269,7 @@ nsISupports
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_IDTD_IID
 )
@@ -499,11 +495,6 @@ Terminate
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsIDTD
-NS_IDTD_IID
-)
 #
 define
 NS_DECL_NSIDTD

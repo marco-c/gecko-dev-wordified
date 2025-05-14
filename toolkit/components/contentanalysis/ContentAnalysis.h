@@ -1001,7 +1001,7 @@ SupportsWeakPtr
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 CONTENTANALYSIS_IID
 )
@@ -3127,11 +3127,6 @@ ContentAnalysisTest
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-ContentAnalysis
-CONTENTANALYSIS_IID
-)
 class
 ContentAnalysisResponse
 final

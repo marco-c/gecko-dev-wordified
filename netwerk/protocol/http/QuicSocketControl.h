@@ -132,12 +132,10 @@ define
 NS_QUICSOCKETCONTROL_IID
 \
 {
-\
 0xdbc67fd0
 0x1ac6
 0x457b
 {
-\
 0x91
 0x4e
 0x4c
@@ -146,9 +144,7 @@ NS_QUICSOCKETCONTROL_IID
 0xff
 0x00
 0x69
-\
 }
-\
 }
 class
 QuicSocketControl
@@ -159,7 +155,7 @@ CommonSocketControl
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_QUICSOCKETCONTROL_IID
 )
@@ -308,11 +304,6 @@ mRetryEchConfig
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-QuicSocketControl
-NS_QUICSOCKETCONTROL_IID
-)
 }
 /
 /

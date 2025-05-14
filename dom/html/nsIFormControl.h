@@ -363,12 +363,10 @@ define
 NS_IFORMCONTROL_IID
 \
 {
-\
 0x4b89980c
 0x4dcd
 0x428f
 {
-\
 0xb7
 0xad
 0x43
@@ -377,9 +375,7 @@ NS_IFORMCONTROL_IID
 0x29
 0x79
 0xec
-\
 }
-\
 }
 /
 *
@@ -436,7 +432,7 @@ aType
 )
 {
 }
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_IFORMCONTROL_IID
 )
@@ -1730,11 +1726,6 @@ FormControlType
 Output
 ;
 }
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsIFormControl
-NS_IFORMCONTROL_IID
-)
 #
 endif
 /

@@ -453,10 +453,12 @@ b4ec8387
 /
 \
 0xb4ec8387
-0x98aa
-0x4c08
-{
 \
+0x98aa
+\
+0x4c08
+\
+{
 0x93
 0xb6
 0x6d
@@ -465,9 +467,7 @@ b4ec8387
 0x9c
 0x06
 0xf2
-\
 }
-\
 }
 class
 nsDocLoader
@@ -491,7 +491,7 @@ nsISupportsPriority
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_THIS_DOCLOADER_IMPL_CID
 )
@@ -2487,11 +2487,6 @@ aRetVal
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsDocLoader
-NS_THIS_DOCLOADER_IMPL_CID
-)
 static
 inline
 nsISupports

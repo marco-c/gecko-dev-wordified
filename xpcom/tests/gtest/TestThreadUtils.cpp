@@ -5174,12 +5174,10 @@ define
 NS_IFOO_IID
 \
 {
-\
 0x9e70a320
 0xbe02
 0x11d1
 {
-\
 0x80
 0x31
 0x00
@@ -5188,9 +5186,7 @@ NS_IFOO_IID
 0x15
 0x9b
 0x5a
-\
 }
-\
 }
 TEST
 (
@@ -6579,7 +6575,7 @@ ISpyWithISupports
 public
 nsISupports
 {
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_IFOO_IID
 )
@@ -6605,11 +6601,6 @@ ID
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-ISpyWithISupports
-NS_IFOO_IID
-)
 struct
 SpyWithISupports
 :
@@ -6686,7 +6677,7 @@ nsISupports
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_IFOO_IID
 )
@@ -6712,11 +6703,6 @@ ID
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-IThreadUtilsObject
-NS_IFOO_IID
-)
 struct
 ThreadUtilsObjectNonRefCountedBase
 {

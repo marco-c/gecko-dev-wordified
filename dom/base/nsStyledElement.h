@@ -211,12 +211,10 @@ define
 NS_STYLED_ELEMENT_IID
 \
 {
-\
 0xacbd9ea6
 0x15aa
 0x4f37
 {
-\
 0x8c
 0xe0
 0x35
@@ -225,9 +223,7 @@ NS_STYLED_ELEMENT_IID
 0x21
 0xca
 0xe9
-\
 }
-\
 }
 using
 nsStyledElementBase
@@ -393,7 +389,7 @@ Style
 (
 )
 ;
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_STYLED_ELEMENT_IID
 )
@@ -629,11 +625,6 @@ override
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsStyledElement
-NS_STYLED_ELEMENT_IID
-)
 #
 endif
 /

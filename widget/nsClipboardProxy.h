@@ -120,12 +120,10 @@ define
 NS_CLIPBOARDPROXY_IID
 \
 {
-\
 0xa64c82da
 0x7326
 0x4681
 {
-\
 0xa0
 0x95
 0x81
@@ -134,9 +132,7 @@ NS_CLIPBOARDPROXY_IID
 0x86
 0xe6
 0xde
-\
 }
-\
 }
 /
 /
@@ -175,7 +171,7 @@ ClipboardCapabilities
 ;
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_CLIPBOARDPROXY_IID
 )
@@ -193,11 +189,6 @@ aClipboardCaps
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsIClipboardProxy
-NS_CLIPBOARDPROXY_IID
-)
 class
 nsClipboardProxy
 final

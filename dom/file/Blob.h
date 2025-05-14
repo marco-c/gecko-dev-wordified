@@ -200,12 +200,10 @@ define
 NS_DOM_BLOB_IID
 \
 {
-\
 0x648c2a83
 0xbdb1
 0x4a7d
 {
-\
 0xb5
 0x0a
 0xca
@@ -214,9 +212,7 @@ NS_DOM_BLOB_IID
 0x87
 0x45
 0xc2
-\
 }
-\
 }
 class
 Blob
@@ -233,7 +229,7 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 Blob
 )
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_DOM_BLOB_IID
 )
@@ -957,11 +953,6 @@ mGlobal
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-Blob
-NS_DOM_BLOB_IID
-)
 /
 /
 Override

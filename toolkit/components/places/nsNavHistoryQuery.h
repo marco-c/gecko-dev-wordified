@@ -172,12 +172,10 @@ define
 NS_NAVHISTORYQUERY_IID
 \
 {
-\
 0xb10185e0
 0x86eb
 0x4612
 {
-\
 0x95
 0x7c
 0x09
@@ -186,9 +184,7 @@ NS_NAVHISTORYQUERY_IID
 0xb1
 0xce
 0xd7
-\
 }
-\
 }
 class
 nsNavHistoryQuery
@@ -211,7 +207,7 @@ nsNavHistoryQuery
 aOther
 )
 ;
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_NAVHISTORYQUERY_IID
 )
@@ -514,11 +510,6 @@ mTransitions
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsNavHistoryQuery
-NS_NAVHISTORYQUERY_IID
-)
 /
 /
 nsNavHistoryQueryOptions
@@ -527,12 +518,10 @@ define
 NS_NAVHISTORYQUERYOPTIONS_IID
 \
 {
-\
 0x95f8ba3b
 0xd681
 0x4d89
 {
-\
 0xab
 0xd1
 0xfd
@@ -541,9 +530,7 @@ NS_NAVHISTORYQUERYOPTIONS_IID
 0xa3
 0xde
 0x18
-\
 }
-\
 }
 class
 nsNavHistoryQueryOptions
@@ -566,7 +553,7 @@ nsNavHistoryQueryOptions
 other
 )
 ;
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_NAVHISTORYQUERYOPTIONS_IID
 )
@@ -790,11 +777,6 @@ mAsyncEnabled
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsNavHistoryQueryOptions
-NS_NAVHISTORYQUERYOPTIONS_IID
-)
 #
 endif
 /

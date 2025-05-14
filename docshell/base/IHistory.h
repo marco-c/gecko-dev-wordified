@@ -190,12 +190,10 @@ define
 IHISTORY_IID
 \
 {
-\
 0x0057c9d3
 0xb98e
 0x4933
 {
-\
 0xbd
 0xc5
 0x02
@@ -204,9 +202,7 @@ IHISTORY_IID
 0x67
 0x05
 0xe1
-\
 }
-\
 }
 class
 IHistory
@@ -216,7 +212,7 @@ nsISupports
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 IHISTORY_IID
 )
@@ -1030,11 +1026,6 @@ aTitle
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-IHistory
-IHISTORY_IID
-)
 }
 /
 /

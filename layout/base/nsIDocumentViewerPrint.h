@@ -174,12 +174,10 @@ define
 NS_IDOCUMENT_VIEWER_PRINT_IID
 \
 {
-\
 0xc6f255cf
 0xcadd
 0x4382
 {
-\
 0xb5
 0x7f
 0xcd
@@ -188,9 +186,7 @@ NS_IDOCUMENT_VIEWER_PRINT_IID
 0x74
 0x16
 0x9b
-\
 }
-\
 }
 /
 *
@@ -222,7 +218,7 @@ nsISupports
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_IDOCUMENT_VIEWER_PRINT_IID
 )
@@ -359,11 +355,6 @@ aPresShell
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsIDocumentViewerPrint
-NS_IDOCUMENT_VIEWER_PRINT_IID
-)
 /
 *
 Use

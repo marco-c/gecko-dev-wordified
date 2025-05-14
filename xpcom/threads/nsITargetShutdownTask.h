@@ -146,12 +146,10 @@ define
 NS_ITARGETSHUTDOWNTASK_IID
 \
 {
-\
 0xb08647aa
 0xcfb5
 0x4630
 {
-\
 0x8e
 0x26
 0x9a
@@ -160,9 +158,7 @@ NS_ITARGETSHUTDOWNTASK_IID
 0x3f
 0x08
 0x40
-\
 }
-\
 }
 class
 NS_NO_VTABLE
@@ -173,9 +169,9 @@ nsISupports
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
-NS_ISHUTDOWNTASK_IID
+NS_ITARGETSHUTDOWNTASK_IID
 )
 virtual
 void
@@ -227,10 +223,5 @@ TargetShutdown
 }
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsITargetShutdownTask
-NS_ITARGETSHUTDOWNTASK_IID
-)
 #
 endif

@@ -149,12 +149,10 @@ define
 NS_IANIMATION_OBSERVER_IID
 \
 {
-\
 0xed025fc7
 0xdeda
 0x48b9
 {
-\
 0x9c
 0x35
 0xf2
@@ -163,9 +161,7 @@ NS_IANIMATION_OBSERVER_IID
 0xeb
 0xd0
 0x8d
-\
 }
-\
 }
 class
 nsIAnimationObserver
@@ -175,7 +171,7 @@ nsIMutationObserver
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_IANIMATION_OBSERVER_IID
 )
@@ -232,11 +228,6 @@ aAnimation
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsIAnimationObserver
-NS_IANIMATION_OBSERVER_IID
-)
 #
 define
 NS_DECL_NSIANIMATIONOBSERVER_ANIMATIONADDED

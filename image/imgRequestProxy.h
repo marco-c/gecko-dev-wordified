@@ -204,10 +204,12 @@ NS_IMGREQUESTPROXY_CID
 /
 \
 0x20557898
-0x1dd2
-0x11b2
-{
 \
+0x1dd2
+\
+0x11b2
+\
+{
 0x8f
 0x65
 0x9c
@@ -216,9 +218,7 @@ NS_IMGREQUESTPROXY_CID
 0xe2
 0xbc
 0x95
-\
 }
-\
 }
 class
 imgCacheValidator
@@ -320,7 +320,7 @@ image
 ProgressTracker
 ProgressTracker
 ;
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_IMGREQUESTPROXY_CID
 )
@@ -1458,11 +1458,6 @@ p
 )
 ;
 }
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-imgRequestProxy
-NS_IMGREQUESTPROXY_CID
-)
 /
 /
 Used

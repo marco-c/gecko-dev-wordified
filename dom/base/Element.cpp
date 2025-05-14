@@ -31836,7 +31836,7 @@ CustomElementRegistry
 CallGetCustomInterface
 (
 this
-NS_GET_TEMPLATE_IID
+NS_GET_IID
 (
 T
 )

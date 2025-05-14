@@ -115,7 +115,7 @@ nsSupportsWeakReference
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_TEXT_INPUT_PROXY_LISTENER_IID
 )
@@ -565,11 +565,6 @@ aData
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-TextEventDispatcherListener
-NS_TEXT_INPUT_PROXY_LISTENER_IID
-)
 }
 /
 /

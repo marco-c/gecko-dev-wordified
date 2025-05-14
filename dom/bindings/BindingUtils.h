@@ -708,7 +708,7 @@ UnwrapArgImpl
 (
 cx
 src
-NS_GET_TEMPLATE_IID
+NS_GET_IID
 (
 Interface
 )

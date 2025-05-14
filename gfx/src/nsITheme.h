@@ -436,7 +436,7 @@ ComputedStyle
 ;
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_ITHEME_IID
 )
@@ -1588,11 +1588,6 @@ ThemeSupportsScrollbarButtons
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsITheme
-NS_ITHEME_IID
-)
 /
 /
 Singleton

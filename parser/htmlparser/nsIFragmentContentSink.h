@@ -133,12 +133,10 @@ define
 NS_I_FRAGMENT_CONTENT_SINK_IID
 \
 {
-\
 0x1a8ce30b
 0x63fc
 0x441a
 {
-\
 0xa3
 0xaa
 0xf7
@@ -147,9 +145,7 @@ NS_I_FRAGMENT_CONTENT_SINK_IID
 0xfe
 0x96
 0x69
-\
 }
-\
 }
 /
 *
@@ -221,7 +217,7 @@ nsISupports
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_I_FRAGMENT_CONTENT_SINK_IID
 )
@@ -548,11 +544,6 @@ aPreventScriptExecution
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsIFragmentContentSink
-NS_I_FRAGMENT_CONTENT_SINK_IID
-)
 nsresult
 NS_NewXMLFragmentContentSink
 (

@@ -146,12 +146,10 @@ define
 NS_ICORSPREFLIGHTCALLBACK_IID
 \
 {
-\
 0x3758cfbb
 0x259f
 0x4074
 {
-\
 0xa8
 0xc0
 0x98
@@ -160,9 +158,7 @@ NS_ICORSPREFLIGHTCALLBACK_IID
 0x3c
 0xc0
 0xe3
-\
 }
-\
 }
 class
 nsICorsPreflightCallback
@@ -172,9 +168,9 @@ nsISupports
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
-nsICorsPreflightCallback
+NS_ICORSPREFLIGHTCALLBACK_IID
 )
 ;
 NS_IMETHOD
@@ -194,12 +190,6 @@ aError
 0
 ;
 }
-;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsICorsPreflightCallback
-NS_ICORSPREFLIGHTCALLBACK_IID
-)
 ;
 #
 endif

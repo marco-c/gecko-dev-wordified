@@ -251,7 +251,7 @@ nsresult
 NS_ADDREF
 |
 |
-NS_GET_TEMPLATE_IID
+NS_GET_IID
 |
 et
 al
@@ -1967,7 +1967,7 @@ TestForIID
 decltype
 (
 &
-NS_GET_TEMPLATE_IID
+NS_GET_IID
 (
 T
 )
@@ -2211,12 +2211,11 @@ to
 your
 type
 with
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 /
-"
-"
-NS_DEFINE_STATIC_IID_ACCESSOR
 ;
+"
+"
 or
 make
 the
@@ -2354,7 +2353,7 @@ mRawPtr
 >
 QueryInterface
 (
-NS_GET_TEMPLATE_IID
+NS_GET_IID
 (
 T
 )
@@ -3182,7 +3181,7 @@ nullptr
 assign_from_qi
 (
 aQI
-NS_GET_TEMPLATE_IID
+NS_GET_IID
 (
 T
 )
@@ -3237,7 +3236,7 @@ nullptr
 assign_from_qi_with_error
 (
 aQI
-NS_GET_TEMPLATE_IID
+NS_GET_IID
 (
 T
 )
@@ -3281,7 +3280,7 @@ nullptr
 assign_from_gs_cid
 (
 aGS
-NS_GET_TEMPLATE_IID
+NS_GET_IID
 (
 T
 )
@@ -3328,7 +3327,7 @@ nullptr
 assign_from_gs_cid_with_error
 (
 aGS
-NS_GET_TEMPLATE_IID
+NS_GET_IID
 (
 T
 )
@@ -3372,7 +3371,7 @@ nullptr
 assign_from_gs_contractid
 (
 aGS
-NS_GET_TEMPLATE_IID
+NS_GET_IID
 (
 T
 )
@@ -3419,7 +3418,7 @@ nullptr
 assign_from_gs_contractid_with_error
 (
 aGS
-NS_GET_TEMPLATE_IID
+NS_GET_IID
 (
 T
 )
@@ -3463,7 +3462,7 @@ nullptr
 assign_from_query_referent
 (
 aQueryReferent
-NS_GET_TEMPLATE_IID
+NS_GET_IID
 (
 T
 )
@@ -3517,7 +3516,7 @@ nullptr
 assign_from_helper
 (
 aHelper
-NS_GET_TEMPLATE_IID
+NS_GET_IID
 (
 T
 )
@@ -4327,7 +4326,7 @@ aRhs
 assign_from_qi
 (
 aRhs
-NS_GET_TEMPLATE_IID
+NS_GET_IID
 (
 T
 )
@@ -4376,7 +4375,7 @@ aRhs
 assign_from_qi_with_error
 (
 aRhs
-NS_GET_TEMPLATE_IID
+NS_GET_IID
 (
 T
 )
@@ -4414,7 +4413,7 @@ aRhs
 assign_from_gs_cid
 (
 aRhs
-NS_GET_TEMPLATE_IID
+NS_GET_IID
 (
 T
 )
@@ -4455,7 +4454,7 @@ aRhs
 assign_from_gs_cid_with_error
 (
 aRhs
-NS_GET_TEMPLATE_IID
+NS_GET_IID
 (
 T
 )
@@ -4493,7 +4492,7 @@ aRhs
 assign_from_gs_contractid
 (
 aRhs
-NS_GET_TEMPLATE_IID
+NS_GET_IID
 (
 T
 )
@@ -4534,7 +4533,7 @@ aRhs
 assign_from_gs_contractid_with_error
 (
 aRhs
-NS_GET_TEMPLATE_IID
+NS_GET_IID
 (
 T
 )
@@ -4573,7 +4572,7 @@ aRhs
 assign_from_query_referent
 (
 aRhs
-NS_GET_TEMPLATE_IID
+NS_GET_IID
 (
 T
 )
@@ -4621,7 +4620,7 @@ aRhs
 assign_from_helper
 (
 aRhs
-NS_GET_TEMPLATE_IID
+NS_GET_IID
 (
 T
 )
@@ -7629,7 +7628,7 @@ NS_FAILED
 (
 aQueryReferent
 (
-NS_GET_TEMPLATE_IID
+NS_GET_IID
 (
 T
 )
@@ -7685,7 +7684,7 @@ NS_FAILED
 (
 aHelper
 (
-NS_GET_TEMPLATE_IID
+NS_GET_IID
 (
 T
 )
@@ -7747,7 +7746,7 @@ NS_FAILED
 (
 aQueryReferent
 (
-NS_GET_TEMPLATE_IID
+NS_GET_IID
 (
 T
 )
@@ -7814,7 +7813,7 @@ NS_FAILED
 (
 aHelper
 (
-NS_GET_TEMPLATE_IID
+NS_GET_IID
 (
 T
 )

@@ -182,10 +182,5 @@ mWatcher
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsPrintDialogServiceWin
-NS_IPRINTDIALOGSERVICE_IID
-)
 #
 endif

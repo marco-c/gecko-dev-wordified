@@ -362,7 +362,7 @@ h
 /
 /
 for
-NS_GET_TEMPLATE_IID
+NS_GET_IID
 nsIID
 #
 include
@@ -1971,7 +1971,7 @@ nsIID
 &
 iid
 =
-NS_GET_TEMPLATE_IID
+NS_GET_IID
 (
 binding_detail
 :

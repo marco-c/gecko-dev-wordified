@@ -426,7 +426,7 @@ nsWrapperCache
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 NS_EVENT_IID
 )
@@ -3205,11 +3205,6 @@ mOriginalWantsPopupControlCheck
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-Event
-NS_EVENT_IID
-)
 }
 /
 /

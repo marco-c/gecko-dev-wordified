@@ -13306,7 +13306,7 @@ nsISupports
 {
 public
 :
-NS_DECLARE_STATIC_IID_ACCESSOR
+NS_INLINE_DECL_STATIC_IID
 (
 WINDOWSTATEHOLDER_IID
 )
@@ -13395,11 +13395,6 @@ mInnerWindowReflector
 ;
 }
 ;
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-WindowStateHolder
-WINDOWSTATEHOLDER_IID
-)
 WindowStateHolder
 :
 :

@@ -269,11 +269,6 @@ void
 exportSettings
 ;
 end
-NS_DEFINE_STATIC_IID_ACCESSOR
-(
-nsPrintDialogServiceX
-NS_IPRINTDIALOGSERVICE_IID
-)
 #
 endif
 /
