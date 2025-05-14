@@ -1427,6 +1427,17 @@ run
 tests
         
 self
+[
+"
+test
+"
+]
+=
+"
+mochitest
+"
+        
+self
 .
 script_type
 =
