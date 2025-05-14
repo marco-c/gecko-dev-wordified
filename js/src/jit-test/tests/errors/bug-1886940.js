@@ -7,7 +7,7 @@ test
 |
 error
 :
-RangeError
+TypeError
 [
 ]
 .
