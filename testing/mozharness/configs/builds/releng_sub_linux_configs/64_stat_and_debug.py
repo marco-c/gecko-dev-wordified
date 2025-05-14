@@ -98,6 +98,27 @@ hg
 shared
 "
     
+"
+upload_env
+"
+:
+{
+        
+"
+UPLOAD_PATH
+"
+:
+"
+/
+builds
+/
+worker
+/
+artifacts
+"
+    
+}
+    
 #
 #
 #
@@ -393,12 +414,6 @@ LC_ALL
 C
 "
         
-#
-#
-64
-bit
-specific
-        
 "
 PATH
 "
@@ -414,7 +429,6 @@ bin
 /
 bin
 :
-\
 /
 usr
 /
