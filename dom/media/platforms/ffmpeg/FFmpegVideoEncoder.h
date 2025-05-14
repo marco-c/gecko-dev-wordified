@@ -174,7 +174,10 @@ class
 FFmpegVideoEncoder
 :
 public
-MediaDataEncoder
+FFmpegDataEncoder
+<
+V
+>
 {
 }
 ;

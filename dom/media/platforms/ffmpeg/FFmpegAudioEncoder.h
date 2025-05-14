@@ -183,7 +183,10 @@ class
 FFmpegAudioEncoder
 :
 public
-MediaDataEncoder
+FFmpegDataEncoder
+<
+V
+>
 {
 }
 ;
