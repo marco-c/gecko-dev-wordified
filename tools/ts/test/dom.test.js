@@ -136,6 +136,11 @@ files
 =
 [
 "
+BufferSource
+.
+webidl
+"
+"
 TestFunctions
 .
 webidl
