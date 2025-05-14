@@ -5757,6 +5757,10 @@ const
 TrustedHTMLOrString
 &
 aHTML
+const
+SetHTMLUnsafeOptions
+&
+aOptions
 nsIPrincipal
 *
 aSubjectPrincipal
@@ -5783,6 +5787,7 @@ SetHTMLUnsafe
 this
 host
 aHTML
+aOptions
 true
 /
 *
