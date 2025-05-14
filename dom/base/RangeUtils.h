@@ -212,7 +212,7 @@ const
 AbstractRange
 *
 aRange
-AllowRangeCrossShadowBoundary
+bool
 aAllowCrossShadowBoundary
 )
 ;
@@ -224,7 +224,7 @@ const
 AbstractRange
 *
 aRange
-AllowRangeCrossShadowBoundary
+bool
 aAllowCrossShadowBoundary
 )
 ;
@@ -237,7 +237,7 @@ const
 AbstractRange
 *
 aRange
-AllowRangeCrossShadowBoundary
+bool
 aAllowCrossShadowBoundary
 )
 ;
@@ -249,7 +249,7 @@ const
 AbstractRange
 *
 aRange
-AllowRangeCrossShadowBoundary
+bool
 aAllowCrossShadowBoundary
 )
 ;
@@ -258,11 +258,10 @@ nsINode
 *
 GetParentNodeInSameSelection
 (
-const
 nsINode
 &
 aNode
-AllowRangeCrossShadowBoundary
+bool
 aAllowCrossShadowBoundary
 )
 ;
@@ -275,7 +274,7 @@ const
 nsINode
 *
 aNode
-AllowRangeCrossShadowBoundary
+bool
 aAllowCrossShadowBoundary
 )
 ;
