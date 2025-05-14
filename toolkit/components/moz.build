@@ -278,6 +278,9 @@ lib_json
 kvstore
 "
 "
+media
+"
+"
 mediasniffer
 "
 "
