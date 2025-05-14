@@ -1372,14 +1372,6 @@ config
 )
             
 "
-MH_BUILD_POOL
-"
-:
-"
-taskcluster
-"
-            
-"
 MOZ_BUILD_DATE
 "
 :

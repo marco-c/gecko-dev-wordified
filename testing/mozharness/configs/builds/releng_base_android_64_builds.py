@@ -392,6 +392,27 @@ multi_locale
 :
 True
     
+"
+upload_env
+"
+:
+{
+        
+"
+UPLOAD_PATH
+"
+:
+"
+/
+builds
+/
+worker
+/
+artifacts
+"
+    
+}
+    
 #
 #
 #
