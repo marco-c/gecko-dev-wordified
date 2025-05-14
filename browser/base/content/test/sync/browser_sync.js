@@ -130,7 +130,7 @@ sys
 .
 mjs
 "
-ExperimentFakes
+NimbusTestUtils
 :
 "
 resource
@@ -5135,7 +5135,7 @@ let
 cleanupNimbus
 =
 await
-ExperimentFakes
+NimbusTestUtils
 .
 enrollWithFeatureConfig
 (
@@ -5361,7 +5361,7 @@ let
 cleanupNimbus
 =
 await
-ExperimentFakes
+NimbusTestUtils
 .
 enrollWithFeatureConfig
 (
