@@ -971,6 +971,12 @@ template
 0x
 %
 p
+"
+"
+initial
+heap
+%
+u
 \
 n
 "
@@ -993,6 +999,12 @@ JSObject
 env
 .
 namedLambdaTemplate
+)
+unsigned
+(
+env
+.
+initialHeap
 )
 )
 ;

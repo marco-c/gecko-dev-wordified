@@ -2435,6 +2435,12 @@ NamedLambdaObject
 >
 namedLambdaTemplate
 ;
+gc
+:
+:
+Heap
+initialHeap
+;
 public
 :
 FunctionEnvironment
@@ -2445,6 +2451,11 @@ callObjectTemplate
 NamedLambdaObject
 *
 namedLambdaTemplate
+gc
+:
+:
+Heap
+initialHeap
 )
 :
 callObjectTemplate
@@ -2454,6 +2465,10 @@ callObjectTemplate
 namedLambdaTemplate
 (
 namedLambdaTemplate
+)
+initialHeap
+(
+initialHeap
 )
 {
 }
