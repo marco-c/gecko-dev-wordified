@@ -164,7 +164,6 @@ kShortAddressModes
 kShortAddressModeToAddressMode
 kShortShaderStages
 skipIfTextureFormatNotSupportedOrNeedsFilteringAndIsUnfilterable
-skipIfTextureViewAndFormatNotCompatibleForDevice
 }
 from
 '
@@ -1337,9 +1336,10 @@ minFilter
 format
 )
 ;
-skipIfTextureViewAndFormatNotCompatibleForDevice
-(
 t
+.
+skipIfTextureFormatAndViewDimensionNotCompatible
+(
 format
 viewDimension
 )

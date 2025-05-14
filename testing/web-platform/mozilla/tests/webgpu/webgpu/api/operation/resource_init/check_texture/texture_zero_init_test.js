@@ -137,7 +137,7 @@ js
 import
 {
 kUncompressedTextureFormats
-textureDimensionAndFormatCompatible
+textureFormatAndDimensionPossiblyCompatible
 isColorTextureFormat
 isDepthTextureFormat
 isStencilTextureFormat
@@ -2762,7 +2762,7 @@ format
 )
 =
 >
-textureDimensionAndFormatCompatible
+textureFormatAndDimensionPossiblyCompatible
 (
 dimension
 format

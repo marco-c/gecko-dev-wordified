@@ -88,7 +88,7 @@ import
 getBlockInfoForSizedTextureFormat
 isDepthOrStencilTextureFormat
 kSizedTextureFormats
-textureDimensionAndFormatCompatible
+textureFormatAndDimensionPossiblyCompatible
 }
 from
 '
@@ -1064,7 +1064,7 @@ format
 )
 =
 >
-textureDimensionAndFormatCompatible
+textureFormatAndDimensionPossiblyCompatible
 (
 dimension
 format
@@ -1311,6 +1311,14 @@ t
 skipIfTextureFormatNotSupported
 (
 format
+)
+;
+t
+.
+skipIfTextureFormatAndDimensionNotCompatible
+(
+format
+dimension
 )
 ;
 const

@@ -252,7 +252,6 @@ graphWeights
 makeRandomDepthComparisonTexelGenerator
 queryMipLevelMixWeightsForDevice
 readTextureToTexelViews
-skipIfTextureViewAndFormatNotCompatibleForDevice
 texelsApproximatelyEqual
 }
 from
@@ -429,9 +428,10 @@ skipIfTextureViewDimensionNotSupported
 viewDimension
 )
 ;
-skipIfTextureViewAndFormatNotCompatibleForDevice
-(
 t
+.
+skipIfTextureFormatAndViewDimensionNotCompatible
+(
 format
 viewDimension
 )
@@ -838,9 +838,10 @@ skipIfTextureViewDimensionNotSupported
 viewDimension
 )
 ;
-skipIfTextureViewAndFormatNotCompatibleForDevice
-(
 t
+.
+skipIfTextureFormatAndViewDimensionNotCompatible
+(
 srcFormat
 viewDimension
 )

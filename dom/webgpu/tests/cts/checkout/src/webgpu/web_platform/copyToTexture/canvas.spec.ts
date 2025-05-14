@@ -851,6 +851,8 @@ getContext
 2d
 '
 )
+as
+CanvasRenderingContext2D
 ;
 if
 (
