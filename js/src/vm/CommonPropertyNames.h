@@ -1337,14 +1337,6 @@ RegExpToString
 \
 MACRO_
 (
-dollar_SharedArrayBufferSpecies_
-"
-SharedArrayBufferSpecies
-"
-)
-\
-MACRO_
-(
 domNode
 "
 domNode

@@ -185,11 +185,14 @@ in
 constructors
 .
 Array
+ArrayBuffer
+Int32Array
 ListFormat
 Map
 Promise
 RegExp
 Set
+SharedArrayBuffer
 Symbol
 /
 /
@@ -200,6 +203,9 @@ prototypes
 .
 FunctionPrototype
 IteratorPrototype
+ObjectPrototype
+RegExpPrototype
+StringPrototype
 /
 /
 Built
