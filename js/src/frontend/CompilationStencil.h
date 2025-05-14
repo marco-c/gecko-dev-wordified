@@ -8900,12 +8900,6 @@ CompilationAtomCache
 atomCache
 ScriptIndexRange
 range
-Handle
-<
-JSAtom
-*
->
-name
 JS
 :
 :

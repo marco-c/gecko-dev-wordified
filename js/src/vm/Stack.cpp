@@ -5103,17 +5103,6 @@ entry
 isBaseline
 (
 )
-|
-|
-(
-*
-entry
-)
--
->
-isSelfHostedShared
-(
-)
 )
 {
 frame
