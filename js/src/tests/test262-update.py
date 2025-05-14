@@ -124,15 +124,6 @@ Bug
 1693576
         
 "
-Atomics
-.
-waitAsync
-"
-#
-Bug
-1467846
-        
-"
 legacy
 -
 regexp
@@ -815,6 +806,18 @@ enable
 math
 -
 sumprecise
+"
+    
+"
+Atomics
+.
+waitAsync
+"
+:
+"
+-
+P
+atomics_wait_async
 "
 }
 INCLUDE_FEATURE_DETECTED_OPTIONAL_SHELL_OPTIONS
