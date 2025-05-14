@@ -4659,12 +4659,6 @@ maxage
 =
 =
 INT64_MIN
-|
-|
-maxage
-=
-=
-INT64_MAX
 )
 {
 aCookieData
