@@ -294,9 +294,7 @@ webext
 -
 perms
 -
-header
--
-unsigned
+header2
 "
 {
 extension
