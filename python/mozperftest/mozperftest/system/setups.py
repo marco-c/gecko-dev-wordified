@@ -68,7 +68,18 @@ mozperftest
 .
 utils
 import
+(
+    
+CHROME_DESKTOP_APPS
+    
+CHROME_MOBILE_APPS
+    
+FIREFOX_DESKTOP_APPS
+    
+FIREFOX_MOBILE_APPS
+    
 ON_TRY
+)
 class
 MultipleApplicationSetups
 (
@@ -945,11 +956,7 @@ BaseSetup
     
 apps
 =
-[
-"
-firefox
-"
-]
+FIREFOX_DESKTOP_APPS
     
 def
 setup_binary
@@ -1012,11 +1019,7 @@ BaseSetup
     
 apps
 =
-[
-"
-chrome
-"
-]
+CHROME_DESKTOP_APPS
     
 def
 setup_binary
@@ -1179,13 +1182,7 @@ BaseSetup
     
 apps
 =
-[
-"
-chrome
--
-m
-"
-]
+CHROME_MOBILE_APPS
     
 version_producer
 =
@@ -1216,17 +1213,7 @@ BaseSetup
     
 apps
 =
-[
-"
-fenix
-"
-"
-geckoview
-"
-"
-focus
-"
-]
+FIREFOX_MOBILE_APPS
     
 version_producer
 =
