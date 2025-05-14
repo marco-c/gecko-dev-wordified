@@ -571,9 +571,6 @@ class
 ParentIdleListener
 ;
 class
-nsIOriginsListLoadCallback
-;
-class
 nsIWidget
 ;
 class
@@ -9886,17 +9883,6 @@ nsIThread
 >
 mClipboardContentAnalysisThread
 ;
-#
-ifdef
-MOZ_WMF_CDM
-RefPtr
-<
-nsIOriginsListLoadCallback
->
-mOriginsListCallback
-;
-#
-endif
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
