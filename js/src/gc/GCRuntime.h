@@ -2346,6 +2346,11 @@ bool
 always
 )
 ;
+void
+verifyPostBarriers
+(
+)
+;
 bool
 selectForMarking
 (

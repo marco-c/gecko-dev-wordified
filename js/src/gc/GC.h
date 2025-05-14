@@ -1202,6 +1202,7 @@ enum
 VerifierType
 {
 PreBarrierVerifier
+PostBarrierVerifier
 }
 ;
 #
