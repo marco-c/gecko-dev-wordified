@@ -14984,8 +14984,8 @@ this
 .
 mlModelDetails
 .
-setAddon
-(
+addon
+=
 addon
 .
 type
@@ -14998,7 +14998,6 @@ mlmodel
 addon
 :
 null
-)
 ;
 this
 .
