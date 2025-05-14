@@ -388,6 +388,12 @@ mHasNetworkId
 =
 false
 ;
+bool
+mIdleStartupDone
+{
+false
+}
+;
 Mutex
 mLock
 MOZ_UNANNOTATED
