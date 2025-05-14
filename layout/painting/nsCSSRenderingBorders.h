@@ -235,9 +235,6 @@ class
 nsDisplayButtonBorder
 ;
 class
-nsDisplayButtonForeground
-;
-class
 nsDisplayOutline
 ;
 enum
@@ -605,13 +602,6 @@ mozilla
 :
 :
 nsDisplayButtonBorder
-;
-friend
-class
-mozilla
-:
-:
-nsDisplayButtonForeground
 ;
 public
 :
