@@ -267,7 +267,6 @@ child
 lists
 .
 Principal
-Caption
 ColGroup
 Absolute
 Fixed

@@ -2881,17 +2881,6 @@ case
 FrameChildListID
 :
 :
-Caption
-:
-return
-"
-CaptionList
-"
-;
-case
-FrameChildListID
-:
-:
 ColGroup
 :
 return
