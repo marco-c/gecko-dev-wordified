@@ -166,7 +166,9 @@ step
 {
 assert_matrix_approx_equals
 (
-IDENTITY_MATRIX
+view
+.
+projectionMatrix
 depthInformation
 .
 projectionMatrix
@@ -174,7 +176,9 @@ projectionMatrix
 ;
 assert_transform_approx_equals
 (
-IDENTITY_TRANSFORM
+view
+.
+transform
 depthInformation
 .
 transform
