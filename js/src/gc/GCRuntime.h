@@ -4342,6 +4342,12 @@ testMarkQueuePos
 )
 const
 ;
+size_t
+testMarkQueueRemaining
+(
+)
+const
+;
 #
 endif
 private
