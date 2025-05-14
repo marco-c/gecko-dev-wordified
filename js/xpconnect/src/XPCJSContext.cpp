@@ -6334,17 +6334,6 @@ disableOptionsForSafeMode
 ;
 }
 }
-JS_SetParallelParsingEnabled
-(
-cx
-StaticPrefs
-:
-:
-javascript_options_parallel_parsing
-(
-)
-)
-;
 }
 XPCJSContext
 :

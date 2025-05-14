@@ -896,10 +896,6 @@ offthreadIonCompilationEnabled_
 (
 true
 )
-parallelParsingEnabled_
-(
-true
-)
 autoWritableJitCodeActive_
 (
 false
