@@ -79621,6 +79621,7 @@ nsAtom
 *
 aName
 )
+const
 {
 MOZ_ASSERT
 (

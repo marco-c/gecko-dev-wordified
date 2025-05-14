@@ -4214,6 +4214,7 @@ nsAtom
 *
 aName
 )
+const
 ;
 void
 AddAnchorPosAnchor
