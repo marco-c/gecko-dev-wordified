@@ -68,6 +68,10 @@ filecmp
 import
 dircmp
 from
+io
+import
+StringIO
+from
 shutil
 import
 copy2
@@ -82,12 +86,6 @@ import
 ZipFile
 import
 mozunit
-import
-six
-from
-six
-import
-StringIO
 from
 mozbuild
 .
@@ -543,11 +541,10 @@ rv
 =
 GetVolumePathName
 (
-six
-.
-ensure_binary
-(
 path
+.
+encode
+(
 )
 volpath
 len
@@ -667,11 +664,10 @@ fh
 CreateFile
 (
         
-six
-.
-ensure_binary
-(
 path
+.
+encode
+(
 )
         
 GENERIC_READ

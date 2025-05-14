@@ -70,20 +70,18 @@ import
 tempfile
 import
 unittest
+from
+io
+import
+StringIO
 import
 mozunit
-import
-six
 from
 mozfile
 .
 mozfile
 import
 NamedTemporaryFile
-from
-six
-import
-StringIO
 from
 mozbuild
 .
@@ -1671,12 +1669,7 @@ self
 .
 f
 =
-six
-.
-ensure_text
-(
 f
-)
         
 os
 .

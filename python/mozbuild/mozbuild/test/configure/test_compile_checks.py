@@ -59,6 +59,10 @@ import
 textwrap
 import
 unittest
+from
+io
+import
+StringIO
 import
 mozpack
 .
@@ -73,10 +77,6 @@ from
 mozunit
 import
 main
-from
-six
-import
-StringIO
 from
 test_toolchain_helpers
 import

@@ -56,6 +56,8 @@ MPL
 import
 os
 import
+pickle
+import
 unittest
 import
 mozpack
@@ -63,14 +65,6 @@ mozpack
 path
 as
 mozpath
-import
-six
-.
-moves
-.
-cPickle
-as
-pickle
 from
 mozpack
 .

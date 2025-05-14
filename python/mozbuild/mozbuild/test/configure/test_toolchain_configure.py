@@ -58,6 +58,10 @@ logging
 import
 os
 from
+io
+import
+StringIO
+from
 mozboot
 .
 util
@@ -73,10 +77,6 @@ from
 mozunit
 import
 main
-from
-six
-import
-StringIO
 from
 test_toolchain_helpers
 import

@@ -67,8 +67,10 @@ import
 tempfile
 import
 unittest
+from
+io
 import
-six
+StringIO
 from
 buildconfig
 import
@@ -80,11 +82,6 @@ import
 path
 as
 mozpath
-from
-six
-import
-StringIO
-string_types
 from
 mozbuild
 .
@@ -1185,7 +1182,7 @@ if
 isinstance
 (
 path
-string_types
+str
 )
 :
             
@@ -1950,11 +1947,10 @@ os
 write
 (
 fh
-six
-.
-ensure_binary
-(
 mozconfig
+.
+encode
+(
 )
 )
             

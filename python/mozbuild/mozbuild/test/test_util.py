@@ -71,8 +71,6 @@ import
 unittest
 import
 pytest
-import
-six
 from
 mozfile
 .
@@ -6659,20 +6657,6 @@ unittest
 TestCase
 )
 :
-    
-unittest
-.
-skipUnless
-(
-six
-.
-PY3
-"
-requires
-Python
-3
-"
-)
     
 def
 test_hexdump

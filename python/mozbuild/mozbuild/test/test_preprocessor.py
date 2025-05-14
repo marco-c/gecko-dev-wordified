@@ -60,6 +60,10 @@ shutil
 import
 unittest
 from
+io
+import
+StringIO
+from
 tempfile
 import
 mkdtemp
@@ -68,10 +72,6 @@ mozunit
 import
 MockedOpen
 main
-from
-six
-import
-StringIO
 from
 mozbuild
 .

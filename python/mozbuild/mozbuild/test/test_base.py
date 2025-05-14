@@ -65,6 +65,10 @@ import
 tempfile
 import
 unittest
+from
+io
+import
+StringIO
 import
 mozpack
 .
@@ -92,10 +96,6 @@ from
 mozunit
 import
 main
-from
-six
-import
-StringIO
 from
 mozbuild
 .
