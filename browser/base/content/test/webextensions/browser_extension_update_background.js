@@ -917,6 +917,8 @@ webext
 perm
 -
 list
+-
+required
 "
 )
 ;

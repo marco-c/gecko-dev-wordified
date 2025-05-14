@@ -179,7 +179,7 @@ gBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .
@@ -297,10 +297,6 @@ perms
 header
 -
 unsigned
--
-with
--
-perms
 "
 {
 extension
