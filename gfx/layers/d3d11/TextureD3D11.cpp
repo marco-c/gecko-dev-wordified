@@ -2173,6 +2173,9 @@ ref
 )
 )
 ;
+}
+else
+{
 gfxCriticalNoteOnce
 <
 <
