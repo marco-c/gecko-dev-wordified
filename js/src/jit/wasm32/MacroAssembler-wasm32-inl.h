@@ -3903,6 +3903,7 @@ rhs
 Label
 *
 label
+LhsHighBitsAreClean
 )
 {
 MOZ_CRASH
@@ -3925,6 +3926,7 @@ rhs
 Label
 *
 label
+LhsHighBitsAreClean
 )
 {
 MOZ_CRASH

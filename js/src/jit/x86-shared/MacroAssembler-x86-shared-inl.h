@@ -3670,6 +3670,7 @@ rhs
 Label
 *
 label
+LhsHighBitsAreClean
 )
 {
 cmp32
@@ -3700,6 +3701,7 @@ rhs
 Label
 *
 label
+LhsHighBitsAreClean
 )
 {
 cmp32

@@ -8936,6 +8936,7 @@ rhs
 Label
 *
 label
+LhsHighBitsAreClean
 )
 {
 cmp32
@@ -8966,6 +8967,7 @@ imm
 Label
 *
 label
+LhsHighBitsAreClean
 )
 {
 if
