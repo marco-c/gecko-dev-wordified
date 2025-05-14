@@ -5405,12 +5405,12 @@ try_name
                     
 #
 Bug
-1947649
+1963732
 -
 Disable
 js2
 on
-1400
+1500
 mac
 for
 custom
@@ -5431,7 +5431,7 @@ in
 try_name
 and
 "
-1400
+1500
 "
 in
 platform

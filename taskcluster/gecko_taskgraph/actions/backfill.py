@@ -2777,27 +2777,6 @@ continue
         
 if
 "
-macosx1400
-"
-in
-entry
-.
-attributes
-.
-get
-(
-"
-test_platform
-"
-"
-"
-)
-:
-            
-continue
-        
-if
-"
 macosx1500
 "
 in
