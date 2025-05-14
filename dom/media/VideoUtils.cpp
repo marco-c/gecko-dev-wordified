@@ -1927,7 +1927,7 @@ buffers
 minStackSize
 *
 =
-2
+4
 ;
 #
 endif
