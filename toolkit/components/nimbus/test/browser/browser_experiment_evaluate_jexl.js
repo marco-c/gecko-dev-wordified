@@ -115,7 +115,9 @@ FAKE_CONTEXT
 {
 experiment
 :
-ExperimentFakes
+NimbusTestUtils
+.
+factories
 .
 recipe
 (
@@ -378,7 +380,9 @@ onStartup
 let
 recipe
 =
-ExperimentFakes
+NimbusTestUtils
+.
+factories
 .
 recipe
 (
@@ -414,9 +418,9 @@ const
 doExperimentCleanup
 =
 await
-ExperimentFakes
+NimbusTestUtils
 .
-enrollmentHelper
+enroll
 (
 recipe
 )

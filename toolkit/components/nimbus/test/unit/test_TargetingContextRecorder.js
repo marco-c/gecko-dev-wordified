@@ -939,7 +939,9 @@ set
 "
 experiment
 "
-ExperimentFakes
+NimbusTestUtils
+.
+factories
 .
 experiment
 (
@@ -958,7 +960,9 @@ set
 "
 rollout
 "
-ExperimentFakes
+NimbusTestUtils
+.
+factories
 .
 rollout
 (
@@ -1784,7 +1788,9 @@ experiment
 -
 1
 "
-ExperimentFakes
+NimbusTestUtils
+.
+factories
 .
 experiment
 (
@@ -1796,7 +1802,9 @@ experiment
 {
 branch
 :
-ExperimentFakes
+NimbusTestUtils
+.
+factories
 .
 recipe
 .
@@ -1819,7 +1827,9 @@ experiment
 -
 2
 "
-ExperimentFakes
+NimbusTestUtils
+.
+factories
 .
 experiment
 (
@@ -1831,7 +1841,9 @@ experiment
 {
 branch
 :
-ExperimentFakes
+NimbusTestUtils
+.
+factories
 .
 recipe
 .
@@ -1854,7 +1866,9 @@ rollout
 -
 1
 "
-ExperimentFakes
+NimbusTestUtils
+.
+factories
 .
 rollout
 (
@@ -1870,7 +1884,9 @@ branch
 .
 .
 .
-ExperimentFakes
+NimbusTestUtils
+.
+factories
 .
 recipe
 .

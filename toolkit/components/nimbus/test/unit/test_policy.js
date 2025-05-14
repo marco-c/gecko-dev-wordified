@@ -166,7 +166,9 @@ active
 const
 loader
 =
-ExperimentFakes
+NimbusTestUtils
+.
+stubs
 .
 rsLoader
 (

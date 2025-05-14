@@ -200,7 +200,7 @@ enrollmentCleanup
 push
 (
 await
-ExperimentFakes
+NimbusTestUtils
 .
 enrollWithFeatureConfig
 (

@@ -356,9 +356,9 @@ value
 "
 )
 ;
-ExperimentFakes
+NimbusTestUtils
 .
-cleanupAll
+cleanupManager
 (
 [
 recipe
@@ -630,9 +630,9 @@ value
 "
 )
 ;
-ExperimentFakes
+NimbusTestUtils
 .
-cleanupAll
+cleanupManager
 (
 [
 recipe
