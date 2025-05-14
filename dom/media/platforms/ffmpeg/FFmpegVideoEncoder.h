@@ -194,16 +194,6 @@ LIBAV_VER
 >
 {
 using
-DurationMap
-=
-SimpleMap
-<
-int64_t
-int64_t
-ThreadSafePolicy
->
-;
-using
 PtsMap
 =
 SimpleMap
