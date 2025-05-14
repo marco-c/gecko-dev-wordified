@@ -1010,10 +1010,14 @@ machine
         
 if
 os_arch
+.
+lower
+(
+)
 =
 =
 "
-AMD64
+amd64
 "
 :
             
@@ -1037,9 +1041,8 @@ so
 let
 '
 s
-normalized
+normalize
 it
-here
 .
             
 return
