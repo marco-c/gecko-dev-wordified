@@ -38890,6 +38890,8 @@ gc
 :
 AllocKind
 allocKind
+uint32_t
+siteOffset
 )
 {
 JSObject
@@ -38912,6 +38914,17 @@ JSFunction
 >
 (
 )
+)
+;
+gc
+:
+:
+Heap
+heap
+=
+allocSiteInitialHeapField
+(
+siteOffset
 )
 ;
 MDefinition
@@ -39045,6 +39058,7 @@ alloc
 )
 env
 funConst
+heap
 )
 ;
 addEffectful

@@ -14918,6 +14918,8 @@ gc
 :
 AllocKind
 allocKind
+uint32_t
+siteOffset
 )
 {
 MOZ_CRASH

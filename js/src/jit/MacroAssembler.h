@@ -39170,6 +39170,14 @@ bool
 initContents
 =
 true
+const
+AllocSiteInput
+&
+allocSite
+=
+AllocSiteInput
+(
+)
 )
 ;
 void
@@ -39298,6 +39306,10 @@ allocKind
 Label
 *
 fail
+const
+AllocSiteInput
+&
+allocSite
 )
 ;
 void
