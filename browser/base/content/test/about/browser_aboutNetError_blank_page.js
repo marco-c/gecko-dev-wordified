@@ -793,6 +793,13 @@ removeTab
 tab
 )
 ;
+await
+SpecialPowers
+.
+popPrefEnv
+(
+)
+;
 }
 )
 ;
