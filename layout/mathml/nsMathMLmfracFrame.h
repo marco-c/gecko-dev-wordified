@@ -580,12 +580,6 @@ form
 nscoord
 CalcLineThickness
 (
-nsPresContext
-*
-aPresContext
-ComputedStyle
-*
-aComputedStyle
 nsString
 &
 aThicknessAttribute
