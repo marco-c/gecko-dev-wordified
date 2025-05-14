@@ -160,6 +160,19 @@ self
         
 pass
     
+def
+is_cinnabar_repo
+(
+self
+)
+-
+>
+bool
+:
+        
+return
+False
+    
 property
     
 def
@@ -173,6 +186,15 @@ pass
     
 def
 base_ref_as_hg
+(
+self
+)
+:
+        
+pass
+    
+def
+base_ref_as_commit
 (
 self
 )

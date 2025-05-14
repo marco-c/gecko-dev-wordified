@@ -698,6 +698,18 @@ CalledProcessError
             
 return
     
+def
+base_ref_as_commit
+(
+self
+)
+:
+        
+return
+self
+.
+base_ref
+    
 property
     
 def

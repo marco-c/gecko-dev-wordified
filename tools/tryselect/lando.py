@@ -508,11 +508,15 @@ if
 vcs
 .
 name
-=
-=
+in
+(
 "
 git
 "
+"
+jj
+"
+)
 and
 not
 vcs
@@ -529,6 +533,8 @@ hg
     
 base_commit
 =
+(
+        
 vcs
 .
 base_ref_as_hg
@@ -544,7 +550,11 @@ hg
 else
 vcs
 .
-base_ref
+base_ref_as_commit
+(
+)
+    
+)
     
 if
 not
@@ -554,20 +564,17 @@ base_commit
 raise
 ValueError
 (
-            
 "
 Could
 not
 determine
 base
-Mercurial
 commit
 hash
 for
 submission
 .
 "
-        
 )
     
 print
@@ -626,7 +633,9 @@ base_ref
 "
 ]
 =
-base_commit
+vcs
+.
+base_ref
     
 nodes
 =
