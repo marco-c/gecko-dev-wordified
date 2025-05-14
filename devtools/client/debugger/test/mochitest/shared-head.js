@@ -12433,6 +12433,14 @@ paused
 -
 line
 "
+tracedLine
+:
+"
+.
+traced
+-
+line
+"
 debugErrorLine
 :
 "
