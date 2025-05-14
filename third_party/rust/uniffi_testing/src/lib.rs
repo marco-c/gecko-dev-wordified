@@ -78,6 +78,7 @@ cargo_metadata
 :
 :
 {
+CrateType
 Message
 Metadata
 MetadataCommand
@@ -560,12 +561,14 @@ any
 |
 t
 |
+*
 t
 =
 =
-"
-cdylib
-"
+CrateType
+:
+:
+CDyLib
 )
 )
 .

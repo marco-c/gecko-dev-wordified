@@ -1354,7 +1354,7 @@ mode
 /
 /
 The
-Rinja
+Askama
 templates
 generate
 placeholder

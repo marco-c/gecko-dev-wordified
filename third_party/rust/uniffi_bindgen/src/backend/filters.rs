@@ -62,7 +62,7 @@ MPL
 Backend
 -
 agnostic
-rinja
+askama
 filters
 use
 crate
@@ -94,7 +94,7 @@ and
 str
 etc
 to
-rinja
+askama
 errors
 .
 /
@@ -115,7 +115,7 @@ directly
 .
 pub
 fn
-to_rinja_error
+to_askama_error
 <
 T
 :
@@ -132,12 +132,12 @@ T
 )
 -
 >
-rinja
+askama
 :
 :
 Error
 {
-rinja
+askama
 :
 :
 Error
@@ -284,13 +284,13 @@ AsType
 )
 -
 >
-rinja
+askama
 :
 :
 Result
 <
 FfiType
-rinja
+askama
 :
 :
 Error

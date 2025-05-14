@@ -1617,7 +1617,7 @@ Needed
 for
 rust
 scaffolding
-rinja
+askama
 template
 impl
 From

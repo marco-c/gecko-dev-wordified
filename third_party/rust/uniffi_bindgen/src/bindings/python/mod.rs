@@ -77,6 +77,16 @@ as
 fs
 ;
 mod
+pipeline
+;
+pub
+use
+pipeline
+:
+:
+pipeline
+;
+mod
 gen_python
 ;
 #

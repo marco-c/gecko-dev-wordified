@@ -894,7 +894,10 @@ hidden
 ]
 #
 [
+unsafe
+(
 no_mangle
+)
 ]
 pub
 extern
@@ -982,7 +985,10 @@ metadata_expr
 ;
 #
 [
+unsafe
+(
 no_mangle
+)
 ]
 #
 [

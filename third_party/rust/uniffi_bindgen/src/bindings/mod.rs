@@ -110,6 +110,7 @@ kotlin
 :
 KotlinBindingGenerator
 ;
+pub
 mod
 python
 ;

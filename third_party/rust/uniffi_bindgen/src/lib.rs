@@ -1045,6 +1045,10 @@ macro_metadata
 ;
 pub
 mod
+pipeline
+;
+pub
+mod
 scaffolding
 ;
 #
@@ -4614,7 +4618,7 @@ HACK
 /
 Include
 the
-rinja
+askama
 config
 file
 into
@@ -4666,7 +4670,7 @@ id
 In
 the
 future
-rinja
+askama
 should
 handle
 that
@@ -4724,7 +4728,7 @@ include_bytes
 .
 .
 /
-rinja
+askama
 .
 toml
 "

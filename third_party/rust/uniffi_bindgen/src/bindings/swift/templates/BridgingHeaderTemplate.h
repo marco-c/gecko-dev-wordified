@@ -498,7 +498,7 @@ FfiDefinition
 :
 Struct
 (
-struct
+struct_item
 )
 %
 }
@@ -506,7 +506,7 @@ typedef
 struct
 {
 {
-struct
+struct_item
 .
 name
 (
@@ -522,7 +522,7 @@ ffi_struct_name
 for
 field
 in
-struct
+struct_item
 .
 fields
 (
@@ -565,7 +565,7 @@ endfor
 }
 {
 {
-struct
+struct_item
 .
 name
 (

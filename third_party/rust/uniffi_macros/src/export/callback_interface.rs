@@ -707,7 +707,10 @@ missing_docs
 ]
 #
 [
+unsafe
+(
 no_mangle
+)
 ]
 pub
 extern
