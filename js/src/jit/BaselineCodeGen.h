@@ -510,6 +510,17 @@ scratch
 )
 ;
 void
+loadScriptGCThingInternal
+(
+ScriptGCThingType
+type
+Register
+dest
+Register
+scratch
+)
+;
+void
 pushScriptGCThingArg
 (
 ScriptGCThingType
