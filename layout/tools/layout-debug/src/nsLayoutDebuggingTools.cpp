@@ -1152,7 +1152,7 @@ GetPseudoElementType
 PseudoStyleType
 :
 :
-viewTransition
+mozSnapshotContainingBlock
 )
 {
 fprintf

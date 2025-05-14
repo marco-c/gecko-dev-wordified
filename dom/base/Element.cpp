@@ -28360,7 +28360,7 @@ root
 vt
 -
 >
-GetRoot
+GetViewTransitionTreeRoot
 (
 )
 ;

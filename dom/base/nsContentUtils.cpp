@@ -69442,7 +69442,7 @@ root
 vt
 -
 >
-GetRoot
+GetSnapshotContainingBlock
 (
 )
 )
