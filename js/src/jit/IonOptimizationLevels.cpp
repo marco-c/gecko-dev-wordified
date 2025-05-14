@@ -746,12 +746,6 @@ case
 return
 RegisterAllocator_Simple
 ;
-case
-3
-:
-return
-RegisterAllocator_Testbed
-;
 }
 MOZ_CRASH
 (
