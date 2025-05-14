@@ -11577,7 +11577,7 @@ custom
 -
 element
 .
-js
+mjs
 )
 and
 so
