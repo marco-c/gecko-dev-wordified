@@ -14968,6 +14968,11 @@ handleBlockUrl
 (
 {
 data
+source
+:
+"
+TOP_SITES
+"
 }
 )
 ;
@@ -15182,6 +15187,11 @@ handleBlockUrl
 (
 {
 data
+source
+:
+"
+TOP_SITES
+"
 }
 )
 ;
