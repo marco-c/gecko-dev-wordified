@@ -8383,7 +8383,7 @@ element
 *
 /
 inline
-nsINode
+nsIContent
 *
 GetFlattenedTreeParentNodeForSelection
 (
