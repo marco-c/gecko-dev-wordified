@@ -2955,17 +2955,6 @@ JSTracer
 trc
 )
 {
-MOZ_ASSERT
-(
-!
-JS
-:
-:
-RuntimeHeapIsMinorCollecting
-(
-)
-)
-;
 /
 /
 Shared

@@ -316,6 +316,7 @@ tracer
 UnmarkGray
 VerifyTraceProtoAndIface
 CompartmentCheck
+HeapCheck
 }
 ;
 enum
