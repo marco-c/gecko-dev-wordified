@@ -2041,13 +2041,17 @@ import
 VendorPython
     
 if
+(
 upgrade
 or
 upgrade_package
+)
 and
+(
 add
 or
 remove
+)
 :
         
 command_context
