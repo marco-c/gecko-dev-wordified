@@ -23592,11 +23592,11 @@ false
 ;
 }
 static
-const
+constexpr
 nsAttrValue
 :
 :
-EnumTable
+EnumTableEntry
 kAsAttributeTable
 [
 ]
@@ -23660,10 +23660,6 @@ DESTINATION_FETCH
 json
 "
 DESTINATION_JSON
-}
-{
-nullptr
-0
 }
 }
 ;

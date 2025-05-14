@@ -341,7 +341,7 @@ const
 nsAttrValue
 :
 :
-EnumTable
+EnumTableEntry
 kULTypeTable
 [
 ]
@@ -351,7 +351,7 @@ const
 nsAttrValue
 :
 :
-EnumTable
+EnumTableEntry
 kOLTypeTable
 [
 ]
