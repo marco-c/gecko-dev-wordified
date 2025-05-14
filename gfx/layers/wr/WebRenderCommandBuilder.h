@@ -1125,6 +1125,7 @@ forget
 }
 WebRenderLayerManager
 *
+const
 mManager
 ;
 private
@@ -1335,6 +1336,9 @@ wr
 :
 usize
 mDumpIndent
+;
+bool
+mApzEnabled
 ;
 public
 :
