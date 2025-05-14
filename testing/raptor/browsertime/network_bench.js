@@ -1439,6 +1439,15 @@ browserName
 "
 firefox
 "
+&
+&
+protocol
+=
+=
+=
+"
+h3
+"
 )
 {
 const
