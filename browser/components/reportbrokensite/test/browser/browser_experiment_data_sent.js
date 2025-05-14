@@ -125,7 +125,7 @@ mjs
 ;
 const
 {
-ExperimentFakes
+NimbusTestUtils
 }
 =
 ChromeUtils
@@ -220,7 +220,7 @@ EXPERIMENT_CLEANUPS
 =
 [
 await
-ExperimentFakes
+NimbusTestUtils
 .
 enrollWithFeatureConfig
 (
@@ -254,7 +254,7 @@ branch
 }
 )
 await
-ExperimentFakes
+NimbusTestUtils
 .
 enrollWithFeatureConfig
 (
@@ -298,7 +298,7 @@ const
 disable
 =
 await
-ExperimentFakes
+NimbusTestUtils
 .
 enrollWithFeatureConfig
 (
