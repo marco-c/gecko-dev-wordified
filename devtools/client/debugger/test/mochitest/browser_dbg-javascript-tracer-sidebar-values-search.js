@@ -794,9 +794,6 @@ trace
 line
 "
 )
-!
-=
-focusedTrace
 )
 ;
 focusedTrace
