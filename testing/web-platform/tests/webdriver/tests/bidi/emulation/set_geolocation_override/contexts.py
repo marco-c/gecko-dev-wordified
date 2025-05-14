@@ -13,7 +13,6 @@ CoordinatesOptions
 from
 .
 import
-get_current_geolocation
 TEST_COORDINATES
 pytestmark
 =
@@ -31,6 +30,7 @@ bidi_session
 new_tab
 top_context
 url
+get_current_geolocation
 set_geolocation_permission
 )
 :
@@ -118,7 +118,6 @@ default_coordinates
 await
 get_current_geolocation
 (
-bidi_session
 new_tab
 )
     
@@ -129,19 +128,14 @@ default_coordinates
 TEST_COORDINATES
     
 assert
-(
-        
 await
 get_current_geolocation
 (
-bidi_session
 top_context
 )
 =
 =
 default_coordinates
-    
-)
     
 #
 Set
@@ -208,7 +202,6 @@ assert
 await
 get_current_geolocation
 (
-bidi_session
 new_tab
 )
 =
@@ -216,19 +209,14 @@ new_tab
 TEST_COORDINATES
     
 assert
-(
-        
 await
 get_current_geolocation
 (
-bidi_session
 top_context
 )
 =
 =
 default_coordinates
-    
-)
     
 #
 Reset
@@ -264,7 +252,6 @@ assert
 await
 get_current_geolocation
 (
-bidi_session
 new_tab
 )
 =
@@ -272,19 +259,14 @@ new_tab
 default_coordinates
     
 assert
-(
-        
 await
 get_current_geolocation
 (
-bidi_session
 top_context
 )
 =
 =
 default_coordinates
-    
-)
 async
 def
 test_multiple_contexts
@@ -293,6 +275,7 @@ test_multiple_contexts
 bidi_session
 new_tab
 url
+get_current_geolocation
 set_geolocation_permission
 )
 :
@@ -396,7 +379,6 @@ default_coordinates
 await
 get_current_geolocation
 (
-bidi_session
 new_tab
 )
     
@@ -407,19 +389,14 @@ default_coordinates
 TEST_COORDINATES
     
 assert
-(
-        
 await
 get_current_geolocation
 (
-bidi_session
 new_context
 )
 =
 =
 default_coordinates
-    
-)
     
 #
 Set
@@ -492,7 +469,6 @@ assert
 await
 get_current_geolocation
 (
-bidi_session
 new_tab
 )
 =
@@ -503,7 +479,6 @@ assert
 await
 get_current_geolocation
 (
-bidi_session
 new_context
 )
 =
@@ -574,7 +549,6 @@ assert
 await
 get_current_geolocation
 (
-bidi_session
 new_tab
 )
 !
@@ -582,16 +556,11 @@ new_tab
 TEST_COORDINATES
     
 assert
-(
-        
 await
 get_current_geolocation
 (
-bidi_session
 new_context
 )
 !
 =
 TEST_COORDINATES
-    
-)

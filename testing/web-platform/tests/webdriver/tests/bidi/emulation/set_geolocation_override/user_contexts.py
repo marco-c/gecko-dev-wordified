@@ -13,7 +13,6 @@ CoordinatesOptions
 from
 .
 import
-get_current_geolocation
 TEST_COORDINATES
 pytestmark
 =
@@ -28,9 +27,15 @@ test_user_contexts
 (
     
 bidi_session
+    
 url
+    
 create_user_context
+    
 new_tab
+    
+get_current_geolocation
+    
 set_geolocation_permission
 )
 :
@@ -153,10 +158,7 @@ default_coordinates
 await
 get_current_geolocation
 (
-        
-bidi_session
 context_in_user_context_1
-    
 )
     
 assert
@@ -169,7 +171,6 @@ assert
 await
 get_current_geolocation
 (
-bidi_session
 new_tab
 )
 =
@@ -233,26 +234,19 @@ accuracy
 )
     
 assert
-(
-        
 await
 get_current_geolocation
 (
-bidi_session
 context_in_user_context_1
 )
-        
 =
 =
 TEST_COORDINATES
-    
-)
     
 assert
 await
 get_current_geolocation
 (
-bidi_session
 new_tab
 )
 =
@@ -321,29 +315,29 @@ complete
 )
     
 assert
-(
-        
 await
 get_current_geolocation
 (
-bidi_session
 context_in_user_context_2
 )
-        
 =
 =
 TEST_COORDINATES
-    
-)
 async
 def
 test_set_to_default_user_context
 (
     
 bidi_session
+    
 new_tab
+    
 create_user_context
+    
 url
+    
+get_current_geolocation
+    
 set_geolocation_permission
 )
 :
@@ -466,7 +460,6 @@ default_coordinates
 await
 get_current_geolocation
 (
-bidi_session
 new_tab
 )
     
@@ -554,10 +547,8 @@ assert
 await
 get_current_geolocation
 (
-bidi_session
 context_in_user_context_1
 )
-        
 =
 =
 default_coordinates
@@ -568,7 +559,6 @@ assert
 await
 get_current_geolocation
 (
-bidi_session
 new_tab
 )
 =
@@ -639,10 +629,8 @@ assert
 await
 get_current_geolocation
 (
-bidi_session
 context_in_default_context_2
 )
-        
 =
 =
 TEST_COORDINATES
@@ -681,8 +669,13 @@ test_set_to_multiple_user_contexts
 (
     
 bidi_session
+    
 create_user_context
+    
 url
+    
+get_current_geolocation
+    
 set_geolocation_permission
 )
 :
@@ -881,45 +874,39 @@ accuracy
 )
     
 assert
-(
-        
 await
 get_current_geolocation
 (
-bidi_session
 context_in_user_context_1
 )
-        
 =
 =
 TEST_COORDINATES
     
-)
-    
 assert
-(
-        
 await
 get_current_geolocation
 (
-bidi_session
 context_in_user_context_2
 )
-        
 =
 =
 TEST_COORDINATES
-    
-)
 async
 def
 test_set_to_user_context_and_then_to_context
 (
     
 bidi_session
+    
 create_user_context
+    
 url
+    
 new_tab
+    
+get_current_geolocation
+    
 set_geolocation_permission
 )
 :
@@ -1042,10 +1029,7 @@ default_coordinates
 await
 get_current_geolocation
 (
-        
-bidi_session
 context_in_user_context_1
-    
 )
     
 assert
@@ -1206,7 +1190,6 @@ assert
 await
 get_current_geolocation
 (
-bidi_session
 context_in_user_context_1
 )
         
@@ -1259,7 +1242,6 @@ assert
 await
 get_current_geolocation
 (
-bidi_session
 context_in_user_context_1
 )
         
@@ -1346,20 +1328,14 @@ applied
 .
     
 assert
-(
-        
 await
 get_current_geolocation
 (
-bidi_session
 context_in_user_context_2
 )
-        
 =
 =
 TEST_COORDINATES
-    
-)
     
 await
 bidi_session
@@ -1403,10 +1379,8 @@ assert
 await
 get_current_geolocation
 (
-bidi_session
 context_in_user_context_1
 )
-        
 =
 =
 default_coordinates
