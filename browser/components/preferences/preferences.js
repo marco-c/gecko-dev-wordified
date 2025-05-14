@@ -2301,6 +2301,11 @@ return
 let
 item
 ;
+let
+unknownCategory
+=
+false
+;
 if
 (
 category
@@ -2359,7 +2364,12 @@ value
 =
 "
 +
+CSS
+.
+escape
+(
 category
+)
 +
 "
 ]
@@ -2377,6 +2387,10 @@ item
 hidden
 )
 {
+unknownCategory
+=
+true
+;
 category
 =
 kDefaultCategoryInternalName
@@ -2409,6 +2423,9 @@ if
 gLastCategory
 .
 category
+|
+|
+unknownCategory
 |
 |
 category
