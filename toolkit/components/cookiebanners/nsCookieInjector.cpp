@@ -2317,6 +2317,15 @@ partitioned
 *
 /
 false
+/
+*
+is
+from
+http
+:
+*
+/
+true
 nullptr
 [
 ]

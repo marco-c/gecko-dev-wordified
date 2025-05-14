@@ -609,6 +609,9 @@ in
 OriginAttributesPtr
 aOriginAttributes
 in
+boolean
+aFromHttp
+in
 nsIDPtr
 aOperationID
 )
@@ -1045,6 +1048,9 @@ aSchemeMap
 in
 boolean
 aIsPartitioned
+in
+boolean
+aFromHttp
 in
 nsIDPtr
 aOperationID

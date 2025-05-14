@@ -633,6 +633,8 @@ const
 nsACString
 &
 aPath
+bool
+aFromHttp
 const
 nsID
 *
