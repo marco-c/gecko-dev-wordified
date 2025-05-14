@@ -68,18 +68,6 @@ use
 crate
 :
 :
-gecko
-:
-:
-media_queries
-:
-:
-QueryFontMetricsFlags
-;
-use
-crate
-:
-:
 parser
 :
 :
@@ -350,6 +338,7 @@ FontVariantAlternates
 FontVariantEastAsian
 FontVariantLigatures
 FontVariantNumeric
+QueryFontMetricsFlags
 XLang
 XTextScale
 }
