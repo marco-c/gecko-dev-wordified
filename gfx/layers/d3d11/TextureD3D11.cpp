@@ -2404,6 +2404,10 @@ Unlock
 (
 )
 {
+IncrementAndSignalWriteFence
+(
+)
+;
 if
 (
 mFencesHolderId
@@ -4170,7 +4174,6 @@ IncrementAndSignalWriteFence
 {
 if
 (
-!
 mFencesHolderId
 .
 isNothing
