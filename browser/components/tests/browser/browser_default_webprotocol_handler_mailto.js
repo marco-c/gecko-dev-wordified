@@ -58,7 +58,7 @@ mjs
 ;
 const
 {
-ExperimentFakes
+NimbusTestUtils
 }
 =
 ChromeUtils
@@ -732,7 +732,7 @@ testResetFOG
 )
 ;
 return
-ExperimentFakes
+NimbusTestUtils
 .
 enrollWithFeatureConfig
 (
