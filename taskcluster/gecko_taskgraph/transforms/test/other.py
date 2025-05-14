@@ -9757,19 +9757,6 @@ in
 tasks
 :
         
-#
-add
-in
-137
-as
-it
-is
-an
-error
-with
-GCP
-workers
-        
 task
 [
 "
@@ -9783,7 +9770,6 @@ status
 =
 [
 4
-137
 ]
         
 yield
