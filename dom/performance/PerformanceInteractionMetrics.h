@@ -173,9 +173,15 @@ aCopy
 =
 delete
 ;
+Maybe
+<
 uint64_t
+>
 ComputeInteractionId
 (
+PerformanceEventTiming
+*
+aEventTiming
 const
 WidgetEvent
 *

@@ -356,12 +356,12 @@ GetPerformanceInteractionMetrics
 )
 override
 ;
-Maybe
-<
-uint64_t
->
-ComputeInteractionId
+void
+SetInteractionId
 (
+PerformanceEventTiming
+*
+aEventTiming
 const
 WidgetEvent
 *
