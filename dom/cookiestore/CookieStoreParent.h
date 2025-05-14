@@ -180,7 +180,7 @@ MozPromise
 <
 CopyableTArray
 <
-CookieData
+CookieStruct
 >
 nsresult
 true
@@ -532,7 +532,7 @@ bool
 aOnlyFirstMatch
 nsTArray
 <
-CookieData
+CookieStruct
 >
 &
 aResults
