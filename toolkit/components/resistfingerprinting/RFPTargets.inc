@@ -657,6 +657,11 @@ ITEM_VALUE
 JSLocalePrompt
 67
 )
+ITEM_VALUE
+(
+ScreenAvailToResolution
+68
+)
 /
 /
 !
