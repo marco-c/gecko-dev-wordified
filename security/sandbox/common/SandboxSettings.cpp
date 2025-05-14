@@ -1208,17 +1208,6 @@ not
 the
 default
 .
-/
-/
-We
-are
-also
-disabling
-for
-safe
-mode
-initially
-.
 if
 (
 level
@@ -1228,9 +1217,6 @@ level
 &
 &
 (
-gSafeMode
-|
-|
 !
 IsWebglOutOfProcessEnabled
 (
