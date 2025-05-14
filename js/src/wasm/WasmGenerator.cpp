@@ -2642,9 +2642,9 @@ featureUsage
 ;
 /
 /
-Combine
-the
-tier
+Fold
+in
+compilation
 stats
 from
 all
@@ -2655,11 +2655,11 @@ this
 block
 tierStats_
 .
-merge
+mergeCompileStats
 (
 code
 .
-tierStats
+compileStats
 )
 ;
 if
@@ -7811,7 +7811,7 @@ ModuleGenerator
 :
 finishTier
 (
-TierStats
+CompileAndLinkStats
 *
 tierStats
 CodeBlockResult
@@ -7964,8 +7964,8 @@ tierStats
 tierStats_
 ;
 tierStats_
-=
-TierStats
+.
+clear
 (
 )
 ;
@@ -8038,7 +8038,7 @@ compilingTier1
 CodeBlockResult
 tier1Result
 ;
-TierStats
+CompileAndLinkStats
 tier1Stats
 ;
 if
@@ -9599,7 +9599,6 @@ finishModule
 (
 %
 s
-tier
 %
 .
 2f
@@ -9767,7 +9766,7 @@ false
 CodeBlockResult
 tier2Result
 ;
-TierStats
+CompileAndLinkStats
 tier2Stats
 ;
 if
@@ -9970,7 +9969,7 @@ false
 CodeBlockResult
 tier2Result
 ;
-TierStats
+CompileAndLinkStats
 tier2Stats
 ;
 if

@@ -550,8 +550,8 @@ funcBaselineSpewers
 FeatureUsage
 featureUsage
 ;
-TierStats
-tierStats
+CompileStats
+compileStats
 ;
 [
 [
@@ -676,6 +676,12 @@ FeatureUsage
 :
 :
 None
+;
+compileStats
+.
+clear
+(
+)
 ;
 MOZ_ASSERT
 (
@@ -810,6 +816,13 @@ FeatureUsage
 :
 :
 None
+&
+&
+compileStats
+.
+empty
+(
+)
 ;
 }
 size_t
@@ -1543,7 +1556,7 @@ numCallRefMetrics_
 uint32_t
 numAllocSites_
 ;
-TierStats
+CompileAndLinkStats
 tierStats_
 ;
 /
@@ -1876,7 +1889,7 @@ nodiscard
 bool
 finishTier
 (
-TierStats
+CompileAndLinkStats
 *
 tierStats
 CodeBlockResult

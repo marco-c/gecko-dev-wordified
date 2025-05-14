@@ -1328,7 +1328,7 @@ tier2CodeBlock
 UniqueLinkData
 tier2LinkData
 const
-TierStats
+CompileAndLinkStats
 &
 tier2Stats
 )
