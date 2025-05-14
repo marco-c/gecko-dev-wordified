@@ -252,6 +252,7 @@ kDirectionAttribute
 kDtlsMessageAttribute
 kEndOfCandidatesAttribute
 kExtmapAttribute
+kExtmapAllowMixedAttribute
 kFingerprintAttribute
 kFmtpAttribute
 kGroupAttribute
