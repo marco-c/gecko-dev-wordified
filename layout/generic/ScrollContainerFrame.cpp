@@ -25709,14 +25709,6 @@ HasAnyStateBits
 (
 NS_FRAME_CAPTURED_IN_VIEW_TRANSITION
 )
-&
-&
-StaticPrefs
-:
-:
-dom_viewTransitions_live_capture
-(
-)
 )
 {
 SerializeList
