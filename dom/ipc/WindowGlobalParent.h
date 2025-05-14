@@ -1984,16 +1984,14 @@ ipc
 IPCResult
 RecvGetIdentityCredential
 (
+const
 IdentityCredentialRequestOptions
-&
 &
 aOptions
 const
 CredentialMediationRequirement
 &
 aMediationRequirement
-bool
-aHasUserActivation
 const
 GetIdentityCredentialResolver
 &

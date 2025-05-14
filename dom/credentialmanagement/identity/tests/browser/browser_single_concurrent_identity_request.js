@@ -103,14 +103,6 @@ function
 (
 )
 {
-content
-.
-document
-.
-notifyUserGestureActivation
-(
-)
-;
 let
 promise
 =
@@ -126,11 +118,6 @@ get
 identity
 :
 {
-mode
-:
-"
-active
-"
 providers
 :
 [
@@ -146,7 +133,7 @@ example
 .
 net
 /
-browser
+tests
 /
 dom
 /
