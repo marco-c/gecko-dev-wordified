@@ -231,6 +231,15 @@ EncoderConfig
 aConfig
 )
 ;
+RefPtr
+<
+InitPromise
+>
+Init
+(
+)
+override
+;
 nsCString
 GetDescriptionName
 (
@@ -258,7 +267,7 @@ mTaskQueue
 .
 virtual
 MediaResult
-InitSpecific
+InitEncoder
 (
 )
 override
