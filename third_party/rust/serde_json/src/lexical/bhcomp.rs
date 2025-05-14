@@ -547,7 +547,6 @@ Calculate
 b
 from
 a
-a
 representation
 of
 b
@@ -595,7 +594,6 @@ b
 +
 h
 from
-a
 a
 representation
 of

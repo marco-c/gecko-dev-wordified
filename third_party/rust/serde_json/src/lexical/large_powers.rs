@@ -29,7 +29,11 @@ limbs
 [
 cfg
 (
-limb_width_32
+fast_arithmetic
+=
+"
+32
+"
 )
 ]
 pub
@@ -49,7 +53,11 @@ large_powers32
 [
 cfg
 (
-limb_width_64
+fast_arithmetic
+=
+"
+64
+"
 )
 ]
 pub
