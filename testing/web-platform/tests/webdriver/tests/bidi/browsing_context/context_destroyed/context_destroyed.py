@@ -240,6 +240,25 @@ type_hint
 type_hint
 )
     
+contexts
+=
+await
+bidi_session
+.
+browsing_context
+.
+get_tree
+(
+root
+=
+new_context
+[
+"
+context
+"
+]
+)
+    
 await
 bidi_session
 .
@@ -298,6 +317,18 @@ user_context
 "
 default
 "
+        
+client_window
+=
+contexts
+[
+0
+]
+[
+"
+clientWindow
+"
+]
     
 )
 pytest
@@ -743,6 +774,18 @@ new_tab
 context
 "
 ]
+        
+client_window
+=
+contexts
+[
+0
+]
+[
+"
+clientWindow
+"
+]
     
 )
 async
@@ -937,6 +980,18 @@ new_tab
 [
 "
 context
+"
+]
+        
+client_window
+=
+contexts
+[
+0
+]
+[
+"
+clientWindow
 "
 ]
     
@@ -1161,6 +1216,18 @@ new_tab
 [
 "
 context
+"
+]
+        
+client_window
+=
+contexts
+[
+0
+]
+[
+"
+clientWindow
 "
 ]
     
@@ -1419,6 +1486,18 @@ top_iframe
 context
 "
 ]
+        
+client_window
+=
+contexts
+[
+0
+]
+[
+"
+clientWindow
+"
+]
     
 )
     
@@ -1516,6 +1595,25 @@ complete
     
 )
     
+contexts
+=
+await
+bidi_session
+.
+browsing_context
+.
+get_tree
+(
+root
+=
+new_tab
+[
+"
+context
+"
+]
+)
+    
 #
 Destroy
 top
@@ -1573,6 +1671,18 @@ test_page_nested_frames
 parent
 =
 None
+        
+client_window
+=
+contexts
+[
+0
+]
+[
+"
+clientWindow
+"
+]
     
 )
     
@@ -1912,6 +2022,25 @@ user_context
     
 )
     
+contexts
+=
+await
+bidi_session
+.
+browsing_context
+.
+get_tree
+(
+root
+=
+context
+[
+"
+context
+"
+]
+)
+    
 assert
 len
 (
@@ -1993,6 +2122,18 @@ None
 user_context
 =
 user_context
+        
+client_window
+=
+contexts
+[
+0
+]
+[
+"
+clientWindow
+"
+]
     
 )
     
@@ -2057,6 +2198,25 @@ user_context
 =
 user_context
     
+)
+    
+contexts
+=
+await
+bidi_session
+.
+browsing_context
+.
+get_tree
+(
+root
+=
+context
+[
+"
+context
+"
+]
 )
     
 with
@@ -2152,6 +2312,18 @@ None
 user_context
 =
 user_context
+            
+client_window
+=
+contexts
+[
+0
+]
+[
+"
+clientWindow
+"
+]
         
 )
 pytest
