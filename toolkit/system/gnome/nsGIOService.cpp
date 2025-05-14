@@ -3732,15 +3732,9 @@ RefPtr
 GDBusProxy
 >
 proxy
-;
-RefPtr
-<
-GVariant
->
-result
-;
-proxy
 =
+dont_AddRef
+(
 g_dbus_proxy_new_for_bus_sync
 (
 G_BUS_TYPE_SESSION
@@ -3756,6 +3750,7 @@ cancellable
 getter_Transfers
 (
 error
+)
 )
 )
 ;
@@ -3810,6 +3805,10 @@ builder
 G_VARIANT_TYPE_VARDICT
 )
 ;
+RefPtr
+<
+GVariant
+>
 result
 =
 dont_AddRef
