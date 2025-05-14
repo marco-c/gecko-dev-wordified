@@ -749,8 +749,6 @@ aEndBoundary
 ErrorResult
 &
 aRv
-AllowRangeCrossShadowBoundary
-aAllowCrossShadowBoundary
 )
 ;
 template
@@ -774,8 +772,6 @@ aEndBoundary
 ErrorResult
 &
 aRv
-AllowRangeCrossShadowBoundary
-aAllowCrossShadowBoundary
 )
 ;
 template
@@ -799,8 +795,6 @@ aEndBoundary
 ErrorResult
 &
 aRv
-AllowRangeCrossShadowBoundary
-aAllowCrossShadowBoundary
 )
 ;
 template
@@ -824,8 +818,6 @@ aEndBoundary
 ErrorResult
 &
 aRv
-AllowRangeCrossShadowBoundary
-aAlloCrossShadowBoundary
 )
 ;
 template
@@ -843,8 +835,6 @@ const
 RangeBoundary
 &
 aEndBoundary
-AllowRangeCrossShadowBoundary
-aAllowCrossShadowBoundary
 )
 ;
 template
@@ -862,8 +852,6 @@ const
 RawRangeBoundary
 &
 aEndBoundary
-AllowRangeCrossShadowBoundary
-aAllowCrossShadowBoundary
 )
 ;
 template
@@ -881,8 +869,6 @@ const
 RangeBoundary
 &
 aEndBoundary
-AllowRangeCrossShadowBoundary
-aAllowCrossShadowBoundary
 )
 ;
 template
@@ -900,8 +886,6 @@ const
 RawRangeBoundary
 &
 aEndBoundary
-AllowRangeCrossShadowBoundary
-aAllowCrossShadowBoundary
 )
 ;
 template
@@ -1774,8 +1758,6 @@ aEndBoundary
 ErrorResult
 &
 aRv
-AllowRangeCrossShadowBoundary
-aAllowCrossShadowBoundary
 )
 {
 /
@@ -1835,7 +1817,6 @@ SetStartAndEnd
 (
 aStartBoundary
 aEndBoundary
-aAllowCrossShadowBoundary
 )
 ;
 if
