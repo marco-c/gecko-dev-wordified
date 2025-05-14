@@ -733,8 +733,6 @@ config
 =
 aConfig
 aTaskQueue
-&
-aConfig
 ]
 (
 const
@@ -757,7 +755,7 @@ self
 >
 CheckAndMaybeCreateEncoder
 (
-aConfig
+config
 i
 +
 1
