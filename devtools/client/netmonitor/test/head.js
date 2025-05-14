@@ -8286,6 +8286,7 @@ querySelector
 CodeMirror
 "
 )
+?
 .
 CodeMirror
 .
