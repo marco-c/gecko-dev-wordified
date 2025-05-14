@@ -8106,6 +8106,11 @@ CharacterDataChangeInfo
 &
 )
 {
+MaybeHandleChangeToHiddenNameOrDescription
+(
+aContent
+)
+;
 }
 void
 DocAccessible
