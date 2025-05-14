@@ -12641,9 +12641,11 @@ executor
 nodiscard
 ]
 ]
-static
 PromiseObject
 *
+js
+:
+:
 CreatePromiseObjectWithoutResolutionFunctions
 (
 JSContext
