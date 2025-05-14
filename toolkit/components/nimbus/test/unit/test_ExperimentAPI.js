@@ -1486,7 +1486,7 @@ bar
 type
 :
 "
-bool
+boolean
 "
 }
 baz
@@ -1827,7 +1827,7 @@ bar
 type
 :
 "
-bool
+boolean
 "
 }
 baz
