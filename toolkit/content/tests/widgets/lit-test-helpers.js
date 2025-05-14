@@ -858,7 +858,6 @@ event
 target
 .
 constructor
-?
 .
 properties
 ;
@@ -876,7 +875,7 @@ value
 :
 event
 .
-currentTarget
+target
 .
 value
 localName
@@ -891,7 +890,6 @@ localName
 .
 (
 reactiveProps
-?
 .
 hasOwnProperty
 (
