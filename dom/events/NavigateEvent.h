@@ -540,7 +540,7 @@ AbortController
 const
 ;
 bool
-HasBeenDispatched
+IsBeingDispatched
 (
 )
 const
