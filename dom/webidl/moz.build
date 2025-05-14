@@ -5503,11 +5503,6 @@ SVGDescElement
 webidl
 "
 "
-SVGDiscardElement
-.
-webidl
-"
-"
 SVGElement
 .
 webidl

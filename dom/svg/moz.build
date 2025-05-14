@@ -257,11 +257,6 @@ SVGDescElement
 h
 "
 "
-SVGDiscardElement
-.
-h
-"
-"
 SVGDocument
 .
 h
@@ -873,11 +868,6 @@ cpp
 "
 "
 SVGDescElement
-.
-cpp
-"
-"
-SVGDiscardElement
 .
 cpp
 "

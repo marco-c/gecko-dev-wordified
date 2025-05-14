@@ -353,17 +353,6 @@ dom
 :
 Element
 ;
-using
-DiscardArray
-=
-nsTObserverArray
-<
-RefPtr
-<
-Element
->
->
-;
 /
 *
 *
@@ -1378,9 +1367,6 @@ SampleAt
 (
 SMILTime
 aContainerTime
-DiscardArray
-&
-aDiscards
 )
 ;
 /
@@ -1501,9 +1487,6 @@ SampleEndAt
 (
 SMILTime
 aContainerTime
-DiscardArray
-&
-aDiscards
 )
 ;
 /
@@ -2691,9 +2674,6 @@ DoSampleAt
 (
 SMILTime
 aContainerTime
-DiscardArray
-&
-aDiscards
 bool
 aEndOnly
 )

@@ -590,15 +590,6 @@ objects
 desc
 '
 ]
-SVGDiscardElement
-:
-[
-'
-objects
-.
-discard
-'
-]
 SVGTitleElement
 :
 [

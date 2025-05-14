@@ -1360,11 +1360,6 @@ ELT_BGSOUND
 static
 nsHtml5ElementName
 *
-ELT_DISCARD
-;
-static
-nsHtml5ElementName
-*
 ELT_EMBED
 ;
 static
