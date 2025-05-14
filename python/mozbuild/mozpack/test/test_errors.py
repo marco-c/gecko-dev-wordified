@@ -57,10 +57,12 @@ import
 sys
 import
 unittest
+from
+io
+import
+StringIO
 import
 mozunit
-import
-six
 from
 mozpack
 .
@@ -84,11 +86,7 @@ errors
 .
 out
 =
-six
-.
-moves
-.
-cStringIO
+StringIO
 (
 )
         

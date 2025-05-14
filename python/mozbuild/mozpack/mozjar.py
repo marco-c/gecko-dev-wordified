@@ -54,6 +54,8 @@ MPL
 /
 .
 import
+functools
+import
 os
 import
 struct
@@ -73,8 +75,6 @@ zipfile
 import
 ZIP_DEFLATED
 ZIP_STORED
-import
-six
 import
 mozpack
 .
@@ -2003,16 +2003,15 @@ self
 .
 filename
 =
-six
-.
-ensure_text
-(
 header
 [
 "
 filename
 "
 ]
+.
+decode
+(
 )
         
 self
@@ -3061,16 +3060,15 @@ continue
             
 entries
 [
-six
-.
-ensure_text
-(
 entry
 [
 "
 filename
 "
 ]
+.
+decode
+(
 )
 ]
 =
@@ -3091,16 +3089,15 @@ self
 .
 _last_preloaded
 =
-six
-.
-ensure_text
-(
 entry
 [
 "
 filename
 "
 ]
+.
+decode
+(
 )
         
 self
@@ -4153,16 +4150,15 @@ header
 size
             
 if
-six
-.
-ensure_text
-(
 entry
 [
 "
 filename
 "
 ]
+.
+decode
+(
 )
 =
 =
@@ -4230,9 +4226,7 @@ cdir_size
 "
 ]
 =
-six
-.
-moves
+functools
 .
 reduce
 (
@@ -4759,18 +4753,29 @@ it
 "
 "
         
+if
+isinstance
+(
+name
+bytes
+)
+:
+            
+name
+=
+name
+.
+decode
+(
+)
+        
 name
 =
 mozpath
 .
 normsep
 (
-six
-.
-ensure_text
-(
 name
-)
 )
         
 if
@@ -5258,11 +5263,10 @@ filename
 "
 ]
 =
-six
-.
-ensure_binary
-(
 name
+.
+encode
+(
 )
         
 self
@@ -5599,13 +5603,20 @@ tobytes
 (
 )
         
-data
-=
-six
-.
-ensure_binary
+if
+isinstance
 (
 data
+str
+)
+:
+            
+data
+=
+data
+.
+encode
+(
 )
         
 self

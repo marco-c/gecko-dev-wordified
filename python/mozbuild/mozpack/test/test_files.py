@@ -153,6 +153,7 @@ from
 io
 import
 BytesIO
+StringIO
 from
 tempfile
 import
@@ -161,8 +162,6 @@ import
 mozfile
 import
 mozunit
-import
-six
 import
 mozpack
 .
@@ -7490,11 +7489,10 @@ _verify_command
 mini_lines
 =
 [
-six
-.
-ensure_text
-(
 s
+.
+decode
+(
 )
 for
 s
@@ -7562,8 +7560,6 @@ errors
 .
 out
 =
-six
-.
 StringIO
 (
 )
@@ -8921,11 +8917,10 @@ wb
 .
 write
 (
-six
-.
-ensure_binary
-(
 path
+.
+encode
+(
 )
 )
     
@@ -10345,11 +10340,10 @@ content
             
 content
 =
-six
-.
-ensure_binary
-(
 path
+.
+encode
+(
 )
         
 open
@@ -10626,11 +10620,6 @@ unittest
 .
 skipIf
 (
-    
-six
-.
-PY3
-and
 os
 .
 name
@@ -10825,13 +10814,12 @@ hglib
 open
 (
             
-six
-.
-ensure_binary
-(
 self
 .
 tmpdir
+.
+encode
+(
 )
             
 encoding
@@ -10919,11 +10907,10 @@ fh
 .
 write
 (
-six
-.
-ensure_binary
-(
 path
+.
+encode
+(
 )
 )
             
@@ -10931,16 +10918,15 @@ c
 .
 add
 (
-six
-.
-ensure_binary
-(
 self
 .
 tmppath
 (
 path
 )
+.
+encode
+(
 )
 )
     
@@ -11140,10 +11126,6 @@ c
 .
 add
 (
-six
-.
-ensure_binary
-(
 self
 .
 tmppath
@@ -11152,6 +11134,9 @@ tmppath
 foo
 "
 )
+.
+encode
+(
 )
 )
             
@@ -11228,10 +11213,6 @@ c
 .
 add
 (
-six
-.
-ensure_binary
-(
 self
 .
 tmppath
@@ -11240,6 +11221,9 @@ tmppath
 bar
 "
 )
+.
+encode
+(
 )
 )
             
@@ -11492,10 +11476,6 @@ c
 .
 add
 (
-six
-.
-ensure_binary
-(
 self
 .
 tmppath
@@ -11504,6 +11484,9 @@ tmppath
 foo
 "
 )
+.
+encode
+(
 )
 )
             

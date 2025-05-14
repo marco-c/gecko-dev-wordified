@@ -61,10 +61,12 @@ from
 collections
 import
 OrderedDict
+from
+io
+import
+StringIO
 import
 mozunit
-import
-six
 import
 mozpack
 .
@@ -2719,11 +2721,7 @@ self
         
 s
 =
-six
-.
-moves
-.
-cStringIO
+StringIO
 (
             
 "
