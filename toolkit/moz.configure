@@ -4044,9 +4044,7 @@ l10n
 -
 base
 "
-"
-MOZ_AUTOMATION
-"
+moz_automation
 build_environment
 )
 imports
@@ -10928,9 +10926,7 @@ target
 cross_compiling
 hazard_analysis
 asan
-"
-MOZ_AUTOMATION
-"
+moz_automation
 )
 def
 geckodriver_default
@@ -21579,9 +21575,7 @@ srcsrv
 ]
 depends
 (
-"
-MOZ_AUTOMATION
-"
+moz_automation
 c_compiler
 )
 def
@@ -26371,9 +26365,7 @@ renaming
 with
 only_when
 (
-"
-MOZ_AUTOMATION
-"
+moz_automation
 )
 :
 option

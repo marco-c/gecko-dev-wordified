@@ -4860,9 +4860,7 @@ depends
 (
 developer_options
 debug_rust
-"
-MOZ_AUTOMATION
-"
+moz_automation
 code_coverage
 "
 -
