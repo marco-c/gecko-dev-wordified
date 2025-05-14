@@ -448,6 +448,10 @@ add_handler
 log_buffer
 )
         
+result
+=
+1
+        
 try
 :
             
