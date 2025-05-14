@@ -59,7 +59,7 @@ mjs
 ;
 const
 {
-ExperimentFakes
+NimbusTestUtils
 }
 =
 ChromeUtils
@@ -170,7 +170,7 @@ let
 doExperimentCleanup
 =
 await
-ExperimentFakes
+NimbusTestUtils
 .
 enrollWithFeatureConfig
 (
