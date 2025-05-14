@@ -2621,8 +2621,6 @@ tabs
 /
 *
 fetching
-symbols
-/
 inline
 scope
 /

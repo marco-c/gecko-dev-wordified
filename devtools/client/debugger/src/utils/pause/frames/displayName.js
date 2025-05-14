@@ -442,9 +442,6 @@ comes
 from
 ast
 reducer
-and
-getSymbols
-selector
 .
 *
 param

@@ -107,11 +107,6 @@ useful
 for
 loading
 sources
-parsing
-symbols
-.
-.
-.
 *
 *
 getValue

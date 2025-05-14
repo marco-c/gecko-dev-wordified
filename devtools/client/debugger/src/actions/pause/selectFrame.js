@@ -236,10 +236,6 @@ the
 source
 being
 loaded
-and
-symbols
-fetched
-below
 .
 await
 dispatch

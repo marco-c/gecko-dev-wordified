@@ -176,13 +176,6 @@ related
 to
 text
 content
-*
-and
-*
-late
-fetching
-of
-symbols
 await
 waitForScrolling
 (

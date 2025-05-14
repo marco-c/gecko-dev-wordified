@@ -1219,11 +1219,6 @@ nextProps
 isPaused
 &
 &
-features
-.
-codemirrorNext
-&
-&
 !
 nextProps
 .
