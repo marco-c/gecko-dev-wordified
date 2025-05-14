@@ -218,11 +218,6 @@ avrt
 dll
 "
 "
-bcryptprimitives
-.
-dll
-"
-"
 comdlg32
 .
 dll
