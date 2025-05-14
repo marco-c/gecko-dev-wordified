@@ -50,6 +50,8 @@ throws
 new
 UrlbarQueryContext
 (
+{
+}
 )
 /
 Missing
