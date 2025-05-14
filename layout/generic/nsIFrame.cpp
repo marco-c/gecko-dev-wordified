@@ -2489,6 +2489,12 @@ StyleVisibility
 IsVisible
 (
 )
+|
+|
+HasAnyStateBits
+(
+NS_FRAME_IS_NONDISPLAY
+)
 )
 {
 return
