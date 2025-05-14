@@ -1220,7 +1220,7 @@ assignment
 operator
 which
 will
-memmove
+memcpy
 /
 /
 under
