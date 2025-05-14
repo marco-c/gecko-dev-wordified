@@ -8494,6 +8494,14 @@ WidgetMouseEvent
 aMouseEvent
 )
 ;
+void
+UpdateGestureContent
+(
+nsIContent
+*
+aContent
+)
+;
 /
 *
 *
