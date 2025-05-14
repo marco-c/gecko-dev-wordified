@@ -3417,7 +3417,7 @@ NS_IMETHODIMP
 VectorImage
 :
 :
-GetIntrinsicSize
+GetIntrinsicSizeInAppUnits
 (
 nsSize
 *

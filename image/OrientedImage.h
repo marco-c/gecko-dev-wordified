@@ -247,7 +247,7 @@ aNativeSizes
 override
 ;
 NS_IMETHOD
-GetIntrinsicSize
+GetIntrinsicSizeInAppUnits
 (
 nsSize
 *

@@ -348,7 +348,7 @@ NS_IMETHODIMP
 OrientedImage
 :
 :
-GetIntrinsicSize
+GetIntrinsicSizeInAppUnits
 (
 nsSize
 *
@@ -363,7 +363,7 @@ InnerImage
 )
 -
 >
-GetIntrinsicSize
+GetIntrinsicSizeInAppUnits
 (
 aSize
 )

@@ -2012,7 +2012,7 @@ NS_IMETHODIMP
 RasterImage
 :
 :
-GetIntrinsicSize
+GetIntrinsicSizeInAppUnits
 (
 nsSize
 *
