@@ -543,7 +543,7 @@ aError
 )
 ;
 }
-nsIntSize
+CSSIntSize
 NaturalSize
 (
 )

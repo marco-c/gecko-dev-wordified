@@ -4083,7 +4083,7 @@ GetWidthHeightForImage
 width
 ;
 }
-nsIntSize
+CSSIntSize
 HTMLImageElement
 :
 :
@@ -4164,7 +4164,7 @@ return
 }
 ;
 }
-nsIntSize
+CSSIntSize
 size
 ;
 /
