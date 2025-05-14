@@ -754,15 +754,6 @@ MOZ_GTK_SCALE_THUMB_VERTICAL
 *
 Paints
 a
-GtkEntry
-.
-*
-/
-MOZ_GTK_ENTRY
-/
-*
-Paints
-a
 GtkExpander
 .
 *
