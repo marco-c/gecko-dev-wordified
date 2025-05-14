@@ -415,6 +415,21 @@ enabled
 :
 False
         
+#
+Remove
+once
+Firefox
+140
+is
+no
+longer
+supported
+(
+see
+bug
+1902921
+)
+        
 "
 browser
 .
