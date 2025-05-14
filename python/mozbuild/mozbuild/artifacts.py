@@ -8863,6 +8863,22 @@ _topsrcdir
                 
 return
 kind
+        
+#
+Fall
+back
+to
+the
+new
+default
+git
+repository
+.
+        
+return
+"
+firefox
+"
     
 def
 _guess_artifact_job
