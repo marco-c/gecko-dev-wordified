@@ -96,7 +96,9 @@ Assert
 .
 ok
 (
-ExperimentManager
+ExperimentAPI
+.
+manager
 .
 store
 .
@@ -156,7 +158,9 @@ random
 )
 ;
 await
-ExperimentManager
+ExperimentAPI
+.
+manager
 .
 enroll
 (
@@ -167,7 +171,9 @@ test_double_feature_enrollment
 )
 ;
 await
-ExperimentManager
+ExperimentAPI
+.
+manager
 .
 enroll
 (
@@ -181,7 +187,9 @@ Assert
 .
 equal
 (
-ExperimentManager
+ExperimentAPI
+.
+manager
 .
 store
 .

@@ -371,7 +371,9 @@ we
 use
 it
 await
-ExperimentManager
+ExperimentAPI
+.
+manager
 .
 onStartup
 (
