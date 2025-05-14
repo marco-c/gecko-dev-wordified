@@ -7079,9 +7079,6 @@ Highlight
 insecureContext
 :
 true
-nightly
-:
-true
 }
 /
 /
@@ -7106,9 +7103,6 @@ name
 HighlightRegistry
 "
 insecureContext
-:
-true
-nightly
 :
 true
 }
