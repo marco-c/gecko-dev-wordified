@@ -170,7 +170,7 @@ box
 *
 param
 {
-DOMElement
+HTMLInputElement
 }
 inputElement
 *
@@ -199,7 +199,7 @@ input
 *
 param
 {
-DOMElement
+Element
 }
 tableParent
 *
@@ -327,7 +327,7 @@ getSubmission
 *
 param
 {
-sring
+string
 }
 idPrefix
 *
