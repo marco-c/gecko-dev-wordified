@@ -1,4 +1,8 @@
 from
+__future__
+import
+annotations
+from
 functools
 import
 lru_cache
@@ -6,11 +10,6 @@ from
 logging
 import
 getLogger
-from
-typing
-import
-List
-Optional
 from
 .
 constant
@@ -62,6 +61,8 @@ is_unprintable
 remove_accent
     
 unicode_range
+    
+is_cjk_uncommon
 )
 class
 MessDetectorPlugin
@@ -321,10 +322,9 @@ self
 .
 _last_printable_char
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
         
@@ -460,10 +460,7 @@ self
 None
 :
 #
-pragma
-:
-no
-cover
+Abstract
         
 self
 .
@@ -639,10 +636,7 @@ self
 None
 :
 #
-pragma
-:
-no
-cover
+Abstract
         
 self
 .
@@ -799,10 +793,7 @@ self
 None
 :
 #
-pragma
-:
-no
-cover
+Abstract
         
 self
 .
@@ -885,10 +876,9 @@ self
 .
 _last_latin_character
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
     
@@ -1038,10 +1028,7 @@ self
 None
 :
 #
-pragma
-:
-no
-cover
+Abstract
         
 self
 .
@@ -1136,10 +1123,9 @@ self
 .
 _last_printable_seen
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
     
@@ -1232,10 +1218,9 @@ return
         
 unicode_range_a
 :
-Optional
-[
 str
-]
+|
+None
 =
 unicode_range
 (
@@ -1246,10 +1231,9 @@ _last_printable_seen
         
 unicode_range_b
 :
-Optional
-[
 str
-]
+|
+None
 =
 unicode_range
 (
@@ -1287,10 +1271,7 @@ self
 None
 :
 #
-pragma
-:
-no
-cover
+Abstract
         
 self
 .
@@ -2045,10 +2026,7 @@ self
 None
 :
 #
-pragma
-:
-no
-cover
+Abstract
         
 self
 .
@@ -2141,7 +2119,7 @@ self
 .
 _character_count
 class
-CjkInvalidStopPlugin
+CjkUncommonPlugin
 (
 MessDetectorPlugin
 )
@@ -2151,40 +2129,14 @@ MessDetectorPlugin
 "
 "
     
-GB
-(
-Chinese
-)
-based
-encoding
-often
-render
-the
-stop
-incorrectly
-when
-the
-content
-does
-not
-fit
-and
-    
-can
-be
-easily
-detected
-.
-Searching
-for
-the
-overuse
-of
-'
-'
-and
-'
-'
+Detect
+messy
+CJK
+text
+that
+probably
+means
+nothing
 .
     
 "
@@ -2203,7 +2155,7 @@ None
         
 self
 .
-_wrong_stop_count
+_character_count
 :
 int
 =
@@ -2211,7 +2163,7 @@ int
         
 self
 .
-_cjk_character_count
+_uncommon_count
 :
 int
 =
@@ -2231,7 +2183,10 @@ bool
 :
         
 return
-True
+is_cjk
+(
+character
+)
     
 def
 feed
@@ -2246,28 +2201,15 @@ str
 None
 :
         
-if
-character
-in
-{
-"
-"
-"
-"
-}
-:
-            
 self
 .
-_wrong_stop_count
+_character_count
 +
 =
 1
-            
-return
         
 if
-is_cjk
+is_cjk_uncommon
 (
 character
 )
@@ -2275,10 +2217,12 @@ character
             
 self
 .
-_cjk_character_count
+_uncommon_count
 +
 =
 1
+            
+return
     
 def
 reset
@@ -2290,20 +2234,17 @@ self
 None
 :
 #
-pragma
-:
-no
-cover
+Abstract
         
 self
 .
-_wrong_stop_count
+_character_count
 =
 0
         
 self
 .
-_cjk_character_count
+_uncommon_count
 =
 0
     
@@ -2322,9 +2263,9 @@ float
 if
 self
 .
-_cjk_character_count
+_character_count
 <
-16
+8
 :
             
 return
@@ -2332,14 +2273,62 @@ return
 .
 0
         
-return
+uncommon_form_usage
+:
+float
+=
 self
 .
-_wrong_stop_count
+_uncommon_count
 /
 self
 .
-_cjk_character_count
+_character_count
+        
+#
+we
+can
+be
+pretty
+sure
+it
+'
+s
+garbage
+when
+uncommon
+characters
+are
+widely
+        
+#
+used
+.
+otherwise
+it
+could
+just
+be
+traditional
+chinese
+for
+example
+.
+        
+return
+uncommon_form_usage
+/
+10
+if
+uncommon_form_usage
+>
+0
+.
+5
+else
+0
+.
+0
 class
 ArchaicUpperLowerPlugin
 (
@@ -2401,10 +2390,9 @@ self
 .
 _last_alpha_seen
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
         
@@ -2691,10 +2679,7 @@ self
 None
 :
 #
-pragma
-:
-no
-cover
+Abstract
         
 self
 .
@@ -2815,10 +2800,7 @@ self
 None
 :
 #
-pragma
-:
-no
-cover
+Abstract
         
 self
 .
@@ -2936,16 +2918,14 @@ is_suspiciously_successive_range
     
 unicode_range_a
 :
-Optional
-[
 str
-]
+|
+None
 unicode_range_b
 :
-Optional
-[
 str
-]
+|
+None
 )
 -
 >
@@ -3090,21 +3070,24 @@ False
 keywords_range_a
 keywords_range_b
 =
+(
+        
 unicode_range_a
 .
 split
 (
-        
 "
 "
-    
 )
+        
 unicode_range_b
 .
 split
 (
 "
 "
+)
+    
 )
     
 for
@@ -3431,7 +3414,7 @@ earlier
     
 detectors
 :
-List
+list
 [
 MessDetectorPlugin
 ]
@@ -3700,10 +3683,6 @@ dt
 in
 detectors
 :
-#
-pragma
-:
-nocover
             
 logger
 .

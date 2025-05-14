@@ -45,7 +45,7 @@ copyright
 Copyright
 2006
 -
-2024
+2025
 by
 the
 Pygments
@@ -99,7 +99,9 @@ Macaulay2
 -
 1
 .
-23
+24
+.
+11
 .
 Do
 not
@@ -111,6 +113,14 @@ manually
 M2KEYWORDS
 =
 (
+    
+"
+SPACE
+"
+    
+"
+TEST
+"
     
 "
 and
@@ -197,10 +207,6 @@ shield
 "
     
 "
-SPACE
-"
-    
-"
 step
 "
     
@@ -210,6 +216,10 @@ symbol
     
 "
 then
+"
+    
+"
+threadLocal
 "
     
 "
@@ -254,6 +264,10 @@ M2DATATYPES
 (
     
 "
+ANCHOR
+"
+    
+"
 Adjacent
 "
     
@@ -263,10 +277,6 @@ AffineVariety
     
 "
 Analyzer
-"
-    
-"
-ANCHOR
 "
     
 "
@@ -286,6 +296,26 @@ AtomicInt
 "
     
 "
+BLOCKQUOTE
+"
+    
+"
+BODY
+"
+    
+"
+BOLD
+"
+    
+"
+BR
+"
+    
+"
+BUTTON
+"
+    
+"
 Bag
 "
     
@@ -302,35 +332,7 @@ BinaryOperation
 "
     
 "
-BLOCKQUOTE
-"
-    
-"
-BODY
-"
-    
-"
-BOLD
-"
-    
-"
 Boolean
-"
-    
-"
-BR
-"
-    
-"
-BUTTON
-"
-    
-"
-CacheFunction
-"
-    
-"
-CacheTable
 "
     
 "
@@ -342,6 +344,22 @@ CDATA
 "
     
 "
+CODE
+"
+    
+"
+COMMENT
+"
+    
+"
+CacheFunction
+"
+    
+"
+CacheTable
+"
+    
+"
 ChainComplex
 "
     
@@ -350,19 +368,11 @@ ChainComplexMap
 "
     
 "
-CODE
-"
-    
-"
 CoherentSheaf
 "
     
 "
 Command
-"
-    
-"
-COMMENT
 "
     
 "
@@ -386,11 +396,23 @@ Constant
 "
     
 "
-Database
+DD
 "
     
 "
-DD
+DIV
+"
+    
+"
+DL
+"
+    
+"
+DT
+"
+    
+"
+Database
 "
     
 "
@@ -410,15 +432,7 @@ DirectSum
 "
     
 "
-DIV
-"
-    
-"
 Divide
-"
-    
-"
-DL
 "
     
 "
@@ -426,15 +440,11 @@ DocumentTag
 "
     
 "
-DT
+EM
 "
     
 "
 Eliminate
-"
-    
-"
-EM
 "
     
 "
@@ -510,10 +520,6 @@ GroebnerBasisOptions
 "
     
 "
-HashTable
-"
-    
-"
 HEAD
 "
     
@@ -542,14 +548,6 @@ HEADER6
 "
     
 "
-HeaderType
-"
-    
-"
-Holder
-"
-    
-"
 HR
 "
     
@@ -559,6 +557,18 @@ HREF
     
 "
 HTML
+"
+    
+"
+HashTable
+"
+    
+"
+HeaderType
+"
+    
+"
+Holder
 "
     
 "
@@ -582,19 +592,27 @@ HypertextVoid
 "
     
 "
-Ideal
-"
-    
-"
 IMG
 "
     
 "
-ImmutableType
+INDENT
 "
     
 "
-INDENT
+INPUT
+"
+    
+"
+ITALIC
+"
+    
+"
+Ideal
+"
+    
+"
+ImmutableType
 "
     
 "
@@ -626,15 +644,7 @@ InfiniteNumber
 "
     
 "
-INPUT
-"
-    
-"
 IntermediateMarkUpType
-"
-    
-"
-ITALIC
 "
     
 "
@@ -666,11 +676,11 @@ LINK
 "
     
 "
-List
+LITERAL
 "
     
 "
-LITERAL
+List
 "
     
 "
@@ -679,6 +689,14 @@ LocalDictionary
     
 "
 LowerBound
+"
+    
+"
+MENU
+"
+    
+"
+META
 "
     
 "
@@ -699,14 +717,6 @@ Matrix
     
 "
 MatrixExpression
-"
-    
-"
-MENU
-"
-    
-"
-META
 "
     
 "
@@ -802,11 +812,15 @@ OrderedMonoid
 "
     
 "
-Package
+PARA
 "
     
 "
-PARA
+PRE
+"
+    
+"
+Package
 "
     
 "
@@ -827,10 +841,6 @@ PolynomialRing
     
 "
 Power
-"
-    
-"
-PRE
 "
     
 "
@@ -862,11 +872,23 @@ Pseudocode
 "
     
 "
+PseudocodeClosure
+"
+    
+"
 QQ
 "
     
 "
 QuotientRing
+"
+    
+"
+RR
+"
+    
+"
+RRi
 "
     
 "
@@ -898,19 +920,39 @@ RowExpression
 "
     
 "
-RR
-"
-    
-"
-RRi
-"
-    
-"
 SAMP
 "
     
 "
 SCRIPT
+"
+    
+"
+SMALL
+"
+    
+"
+SPAN
+"
+    
+"
+STRONG
+"
+    
+"
+STYLE
+"
+    
+"
+SUB
+"
+    
+"
+SUBSECTION
+"
+    
+"
+SUP
 "
     
 "
@@ -942,14 +984,6 @@ SheafOfRings
 "
     
 "
-SMALL
-"
-    
-"
-SPAN
-"
-    
-"
 SparseMonomialVectorExpression
 "
     
@@ -962,23 +996,7 @@ String
 "
     
 "
-STRONG
-"
-    
-"
-STYLE
-"
-    
-"
-SUB
-"
-    
-"
 Subscript
-"
-    
-"
-SUBSECTION
 "
     
 "
@@ -987,10 +1005,6 @@ Sum
     
 "
 SumOfTwists
-"
-    
-"
-SUP
 "
     
 "
@@ -1010,27 +1024,7 @@ TABLE
 "
     
 "
-Table
-"
-    
-"
-Tally
-"
-    
-"
-Task
-"
-    
-"
 TD
-"
-    
-"
-TensorProduct
-"
-    
-"
-TestInput
 "
     
 "
@@ -1039,14 +1033,6 @@ TEX
     
 "
 TH
-"
-    
-"
-Thing
-"
-    
-"
-Time
 "
     
 "
@@ -1071,6 +1057,34 @@ TR
     
 "
 TT
+"
+    
+"
+Table
+"
+    
+"
+Tally
+"
+    
+"
+Task
+"
+    
+"
+TensorProduct
+"
+    
+"
+TestInput
+"
+    
+"
+Thing
+"
+    
+"
+Time
 "
     
 "
@@ -1118,17 +1132,113 @@ WrapperType
 "
     
 "
-ZeroExpression
+ZZ
 "
     
 "
-ZZ
+ZeroExpression
 "
     
 )
 M2FUNCTIONS
 =
 (
+    
+"
+BesselJ
+"
+    
+"
+BesselY
+"
+    
+"
+Beta
+"
+    
+"
+Digamma
+"
+    
+"
+EXAMPLE
+"
+    
+"
+End
+"
+    
+"
+Fano
+"
+    
+"
+GCstats
+"
+    
+"
+GF
+"
+    
+"
+Gamma
+"
+    
+"
+Grassmannian
+"
+    
+"
+Hom
+"
+    
+"
+LLL
+"
+    
+"
+LUdecomposition
+"
+    
+"
+M2CODE
+"
+    
+"
+NNParser
+"
+    
+"
+Proj
+"
+    
+"
+QQParser
+"
+    
+"
+QRDecomposition
+"
+    
+"
+SVD
+"
+    
+"
+SYNOPSIS
+"
+    
+"
+Schubert
+"
+    
+"
+Spec
+"
+    
+"
+ZZParser
+"
     
 "
 about
@@ -1172,10 +1282,6 @@ addEndFunction
     
 "
 addHook
-"
-    
-"
-addStartFunction
 "
     
 "
@@ -1299,6 +1405,10 @@ associatedPrimes
 "
     
 "
+atEndOfFile
+"
+    
+"
 atan
 "
     
@@ -1308,10 +1418,6 @@ atan2
     
 "
 atanh
-"
-    
-"
-atEndOfFile
 "
     
 "
@@ -1340,18 +1446,6 @@ beginDocumentation
     
 "
 benchmark
-"
-    
-"
-BesselJ
-"
-    
-"
-BesselY
-"
-    
-"
-Beta
 "
     
 "
@@ -1403,15 +1497,19 @@ changeBase
 "
     
 "
+changeDirectory
+"
+    
+"
 char
 "
     
 "
-characters
+charAnalyzer
 "
     
 "
-charAnalyzer
+characters
 "
     
 "
@@ -1483,10 +1581,6 @@ columnAdd
 "
     
 "
-columnate
-"
-    
-"
 columnMult
 "
     
@@ -1503,6 +1597,10 @@ columnSwap
 "
     
 "
+columnate
+"
+    
+"
 combine
 "
     
@@ -1511,11 +1609,11 @@ commandInterpreter
 "
     
 "
-commonest
+commonRing
 "
     
 "
-commonRing
+commonest
 "
     
 "
@@ -1759,10 +1857,6 @@ difference
 "
     
 "
-Digamma
-"
-    
-"
 dim
 "
     
@@ -1839,10 +1933,6 @@ eliminate
 "
     
 "
-End
-"
-    
-"
 endPackage
 "
     
@@ -1876,10 +1966,6 @@ eulers
     
 "
 even
-"
-    
-"
-EXAMPLE
 "
     
 "
@@ -1936,10 +2022,6 @@ exteriorPower
     
 "
 factor
-"
-    
-"
-Fano
 "
     
 "
@@ -2071,10 +2153,6 @@ futureParser
 "
     
 "
-Gamma
-"
-    
-"
 gb
 "
     
@@ -2096,10 +2174,6 @@ gcdCoefficients
     
 "
 gcdLLL
-"
-    
-"
-GCstats
 "
     
 "
@@ -2143,19 +2217,15 @@ get
 "
     
 "
-getc
-"
-    
-"
 getChangeMatrix
 "
     
 "
-getenv
+getGlobalSymbol
 "
     
 "
-getGlobalSymbol
+getIOThreadMode
 "
     
 "
@@ -2179,7 +2249,11 @@ getWWW
 "
     
 "
-GF
+getc
+"
+    
+"
+getenv
 "
     
 "
@@ -2219,10 +2293,6 @@ graphRing
 "
     
 "
-Grassmannian
-"
-    
-"
 groebnerBasis
 "
     
@@ -2236,6 +2306,10 @@ hash
     
 "
 hashTable
+"
+    
+"
+headlines
 "
     
 "
@@ -2264,10 +2338,6 @@ hilbertSeries
     
 "
 hold
-"
-    
-"
-Hom
 "
     
 "
@@ -2379,10 +2449,6 @@ installAssignmentMethod
 "
     
 "
-installedPackages
-"
-    
-"
 installHilbertFunction
 "
     
@@ -2396,6 +2462,10 @@ installMinprimes
     
 "
 installPackage
+"
+    
+"
+installedPackages
 "
     
 "
@@ -2463,19 +2533,15 @@ irreducibleDecomposition
 "
     
 "
-isAffineRing
-"
-    
-"
 isANumber
 "
     
 "
-isBorel
+isAffineRing
 "
     
 "
-isc
+isBorel
 "
     
 "
@@ -2491,11 +2557,11 @@ isConstant
 "
     
 "
-isDirectory
+isDirectSum
 "
     
 "
-isDirectSum
+isDirectory
 "
     
 "
@@ -2551,6 +2617,10 @@ isIsomorphism
 "
     
 "
+isLLL
+"
+    
+"
 isLiftable
 "
     
@@ -2560,10 +2630,6 @@ isLinearType
     
 "
 isListener
-"
-    
-"
-isLLL
 "
     
 "
@@ -2655,6 +2721,10 @@ isSkewCommutative
 "
     
 "
+isSmooth
+"
+    
+"
 isSorted
 "
     
@@ -2695,11 +2765,19 @@ isUnit
 "
     
 "
+isVeryAmple
+"
+    
+"
 isWellDefined
 "
     
 "
 isWeylAlgebra
+"
+    
+"
+isc
 "
     
 "
@@ -2815,10 +2893,6 @@ listSymbols
 "
     
 "
-LLL
-"
-    
-"
 lngamma
 "
     
@@ -2856,14 +2930,6 @@ lookup
     
 "
 lookupCount
-"
-    
-"
-LUdecomposition
-"
-    
-"
-M2CODE
 "
     
 "
@@ -2955,6 +3021,14 @@ min
 "
     
 "
+minPosition
+"
+    
+"
+minPres
+"
+    
+"
 mingens
 "
     
@@ -2988,14 +3062,6 @@ minimizeFilename
     
 "
 minors
-"
-    
-"
-minPosition
-"
-    
-"
-minPres
 "
     
 "
@@ -3035,11 +3101,11 @@ monomialIdeal
 "
     
 "
-monomials
+monomialSubideal
 "
     
 "
-monomialSubideal
+monomials
 "
     
 "
@@ -3119,15 +3185,11 @@ next
 "
     
 "
-nextkey
-"
-    
-"
 nextPrime
 "
     
 "
-NNParser
+nextkey
 "
     
 "
@@ -3147,10 +3209,6 @@ notImplemented
 "
     
 "
-nullhomotopy
-"
-    
-"
 nullParser
 "
     
@@ -3159,15 +3217,23 @@ nullSpace
 "
     
 "
+nullhomotopy
+"
+    
+"
+numColumns
+"
+    
+"
+numRows
+"
+    
+"
 number
 "
     
 "
 numcols
-"
-    
-"
-numColumns
 "
     
 "
@@ -3184,10 +3250,6 @@ numericInterval
     
 "
 numgens
-"
-    
-"
-numRows
 "
     
 "
@@ -3243,15 +3305,15 @@ openOutAppend
 "
     
 "
+optP
+"
+    
+"
 optionalSignParser
 "
     
 "
 options
-"
-    
-"
-optP
 "
     
 "
@@ -3284,6 +3346,10 @@ pager
     
 "
 pairs
+"
+    
+"
+parallelApply
 "
     
 "
@@ -3399,11 +3465,11 @@ print
 "
     
 "
-printerr
+printString
 "
     
 "
-printString
+printerr
 "
     
 "
@@ -3416,10 +3482,6 @@ product
     
 "
 profile
-"
-    
-"
-Proj
 "
     
 "
@@ -3439,11 +3501,11 @@ prune
 "
     
 "
-pseudocode
+pseudoRemainder
 "
     
 "
-pseudoRemainder
+pseudocode
 "
     
 "
@@ -3456,14 +3518,6 @@ pushForward
     
 "
 pushout
-"
-    
-"
-QQParser
-"
-    
-"
-QRDecomposition
 "
     
 "
@@ -3511,11 +3565,11 @@ readDirectory
 "
     
 "
-readlink
+readPackage
 "
     
 "
-readPackage
+readlink
 "
     
 "
@@ -3531,11 +3585,11 @@ recursionDepth
 "
     
 "
-reducedRowEchelonForm
+reduceHilbert
 "
     
 "
-reduceHilbert
+reducedRowEchelonForm
 "
     
 "
@@ -3555,6 +3609,10 @@ reesIdeal
 "
     
 "
+regSeqInIdeal
+"
+    
+"
 regex
 "
     
@@ -3564,10 +3622,6 @@ regexQuote
     
 "
 registerFinalizer
-"
-    
-"
-regSeqInIdeal
 "
     
 "
@@ -3739,10 +3793,6 @@ schreyerOrder
 "
     
 "
-Schubert
-"
-    
-"
 searchPath
 "
     
@@ -3764,6 +3814,18 @@ select
     
 "
 selectInSubring
+"
+    
+"
+selectKeys
+"
+    
+"
+selectPairs
+"
+    
+"
+selectValues
 "
     
 "
@@ -3820,6 +3882,14 @@ setup
     
 "
 setupEmacs
+"
+    
+"
+setupLift
+"
+    
+"
+setupPromote
 "
     
 "
@@ -3900,10 +3970,6 @@ source
     
 "
 span
-"
-    
-"
-Spec
 "
     
 "
@@ -4007,10 +4073,6 @@ support
 "
     
 "
-SVD
-"
-    
-"
 switch
 "
     
@@ -4048,10 +4110,6 @@ symmetricPower
     
 "
 synonym
-"
-    
-"
-SYNOPSIS
 "
     
 "
@@ -4119,10 +4177,6 @@ terms
 "
     
 "
-TEST
-"
-    
-"
 testHunekeQuestion
 "
     
@@ -4175,18 +4229,6 @@ toLower
 "
     
 "
-top
-"
-    
-"
-topCoefficients
-"
-    
-"
-topComponents
-"
-    
-"
 toRR
 "
     
@@ -4204,6 +4246,18 @@ toString
     
 "
 toUpper
+"
+    
+"
+top
+"
+    
+"
+topCoefficients
+"
+    
+"
+topComponents
 "
     
 "
@@ -4256,6 +4310,10 @@ uninstallAllPackages
     
 "
 uninstallPackage
+"
+    
+"
+union
 "
     
 "
@@ -4366,10 +4424,6 @@ zero
 zeta
 "
     
-"
-ZZParser
-"
-    
 )
 M2CONSTANTS
 =
@@ -4377,6 +4431,10 @@ M2CONSTANTS
     
 "
 A1BrouwerDegrees
+"
+    
+"
+AbstractSimplicialComplexes
 "
     
 "
@@ -4637,6 +4695,10 @@ CheckDocumentation
     
 "
 Chordal
+"
+    
+"
+cite
 "
     
 "
@@ -5616,6 +5678,10 @@ Macaulay2Doc
 "
     
 "
+Maintainer
+"
+    
+"
 MakeDocumentation
 "
     
@@ -5756,6 +5822,18 @@ MonomialSize
 "
     
 "
+Msolve
+"
+    
+"
+MultigradedBGG
+"
+    
+"
+MultigradedImplicitization
+"
+    
+"
 MultiGradedRationalMap
 "
     
@@ -5888,6 +5966,10 @@ NumericalSchubertCalculus
 "
     
 "
+NumericalSemigroups
+"
+    
+"
 NumericSolutions
 "
     
@@ -6013,6 +6095,10 @@ PencilsOfQuadrics
     
 "
 Permanents
+"
+    
+"
+Permutations
 "
     
 "
@@ -6452,6 +6538,14 @@ SchurRings
 "
     
 "
+SchurVeronese
+"
+    
+"
+SCMAlgebras
+"
+    
+"
 scriptCommandLine
 "
     
@@ -6756,6 +6850,10 @@ ThreadedGB
 "
     
 "
+Threads
+"
+    
+"
 Threshold
 "
     
@@ -6829,6 +6927,10 @@ Triplets
     
 "
 Tropical
+"
+    
+"
+TropicalToric
 "
     
 "
@@ -6973,6 +7075,10 @@ VirtualResolutions
     
 "
 Visualize
+"
+    
+"
+VNumber
 "
     
 "

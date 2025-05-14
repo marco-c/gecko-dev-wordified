@@ -1,3 +1,7 @@
+from
+__future__
+import
+annotations
 import
 logging
 from
@@ -8,10 +12,6 @@ from
 typing
 import
 BinaryIO
-List
-Optional
-Set
-Union
 from
 .
 cd
@@ -64,22 +64,6 @@ is_cp_similar
 is_multi_byte_encoding
     
 should_strip_sig_or_bom
-)
-#
-Will
-most
-likely
-be
-controversial
-#
-logging
-.
-addLevelName
-(
-TRACE
-"
-TRACE
-"
 )
 logger
 =
@@ -134,11 +118,9 @@ from_bytes
     
 sequences
 :
-Union
-[
 bytes
+|
 bytearray
-]
     
 steps
 :
@@ -162,25 +144,23 @@ float
     
 cp_isolation
 :
-Optional
-[
-List
+list
 [
 str
 ]
-]
+|
+None
 =
 None
     
 cp_exclusion
 :
-Optional
-[
-List
+list
 [
 str
 ]
-]
+|
+None
 =
 None
     
@@ -466,7 +446,6 @@ bytearray
 got
 :
 {
-0
 }
 "
 .
@@ -544,6 +523,14 @@ intention
 if
 explain
 :
+#
+Defensive
+:
+ensure
+exit
+path
+clean
+handler
             
 logger
 .
@@ -923,7 +910,7 @@ length
     
 prioritized_encodings
 :
-List
+list
 [
 str
 ]
@@ -933,10 +920,9 @@ str
     
 specified_encoding
 :
-Optional
-[
 str
-]
+|
+None
 =
 (
         
@@ -995,7 +981,7 @@ specified_encoding
     
 tested
 :
-Set
+set
 [
 str
 ]
@@ -1006,7 +992,7 @@ set
     
 tested_but_hard_failure
 :
-List
+list
 [
 str
 ]
@@ -1016,7 +1002,7 @@ str
     
 tested_but_soft_failure
 :
-List
+list
 [
 str
 ]
@@ -1026,28 +1012,25 @@ str
     
 fallback_ascii
 :
-Optional
-[
 CharsetMatch
-]
+|
+None
 =
 None
     
 fallback_u8
 :
-Optional
-[
 CharsetMatch
-]
+|
+None
 =
 None
     
 fallback_specified
 :
-Optional
-[
 CharsetMatch
-]
+|
+None
 =
 None
     
@@ -1204,10 +1187,9 @@ encoding_iana
         
 decoded_payload
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
         
@@ -1729,7 +1711,7 @@ False
         
 md_chunks
 :
-List
+list
 [
 str
 ]
@@ -2265,7 +2247,7 @@ is_multi_byte_decoder
             
 target_languages
 :
-List
+list
 [
 str
 ]
@@ -2580,6 +2562,14 @@ encoding
 if
 explain
 :
+#
+Defensive
+:
+ensure
+exit
+path
+clean
+handler
                     
 logger
 .
@@ -2691,6 +2681,14 @@ encoding
 if
 explain
 :
+#
+Defensive
+:
+ensure
+exit
+path
+clean
+handler
                 
 logger
 .
@@ -2763,6 +2761,14 @@ encoding_iana
 if
 explain
 :
+#
+Defensive
+:
+ensure
+exit
+path
+clean
+handler
                 
 logger
 .
@@ -3097,25 +3103,23 @@ float
     
 cp_isolation
 :
-Optional
-[
-List
+list
 [
 str
 ]
-]
+|
+None
 =
 None
     
 cp_exclusion
 :
-Optional
-[
-List
+list
 [
 str
 ]
-]
+|
+None
 =
 None
     
@@ -3218,12 +3222,11 @@ from_path
     
 path
 :
-Union
-[
 str
+|
 bytes
+|
 PathLike
-]
 #
 type
 :
@@ -3256,25 +3259,23 @@ float
     
 cp_isolation
 :
-Optional
-[
-List
+list
 [
 str
 ]
-]
+|
+None
 =
 None
     
 cp_exclusion
 :
-Optional
-[
-List
+list
 [
 str
 ]
-]
+|
+None
 =
 None
     
@@ -3388,13 +3389,13 @@ is_binary
     
 fp_or_path_or_payload
 :
-Union
-[
 PathLike
+|
 str
+|
 BinaryIO
+|
 bytes
-]
 #
 type
 :
@@ -3427,25 +3428,23 @@ float
     
 cp_isolation
 :
-Optional
-[
-List
+list
 [
 str
 ]
-]
+|
+None
 =
 None
     
 cp_exclusion
 :
-Optional
-[
-List
+list
 [
 str
 ]
-]
+|
+None
 =
 None
     

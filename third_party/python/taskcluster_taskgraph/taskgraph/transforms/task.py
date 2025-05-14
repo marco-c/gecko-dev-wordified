@@ -2857,6 +2857,14 @@ or
 recursive
 directory
                 
+#
+or
+a
+volume
+mounted
+directory
+.
+                
 "
 type
 "
@@ -2868,6 +2876,9 @@ file
 "
 "
 directory
+"
+"
+volume
 "
 )
                 

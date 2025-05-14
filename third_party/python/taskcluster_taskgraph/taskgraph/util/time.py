@@ -686,8 +686,13 @@ datetime
 .
 datetime
 .
-utcnow
+now
 (
+datetime
+.
+timezone
+.
+utc
 )
     
 time
@@ -758,6 +763,13 @@ bug
 return
 time
 .
+replace
+(
+tzinfo
+=
+None
+)
+.
 isoformat
 (
 timespec
@@ -812,6 +824,21 @@ time
 "
 "
     
+now
+=
+datetime
+.
+datetime
+.
+now
+(
+datetime
+.
+timezone
+.
+utc
+)
+    
 if
 datetime_format
 is
@@ -819,13 +846,7 @@ True
 :
         
 return
-datetime
-.
-datetime
-.
-utcnow
-(
-)
+now
     
 else
 :
@@ -841,12 +862,13 @@ bug
 )
         
 return
-datetime
+now
 .
-datetime
-.
-utcnow
+replace
 (
+tzinfo
+=
+None
 )
 .
 isoformat

@@ -44,7 +44,7 @@ copyright
 Copyright
 2006
 -
-2024
+2025
 by
 the
 Pygments
@@ -936,14 +936,21 @@ f
 )
                 
 for
-f
+_
+_
+files
 in
 os
 .
-listdir
+walk
 (
 font_dir
 )
+                
+for
+f
+in
+files
                 
 if
 f

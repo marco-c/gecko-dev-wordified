@@ -7,7 +7,6 @@ typing
 import
 TYPE_CHECKING
 Any
-Optional
 from
 warnings
 import
@@ -53,10 +52,9 @@ TypedDict
         
 encoding
 :
-Optional
-[
 str
-]
+|
+None
         
 language
 :
@@ -64,10 +62,9 @@ str
         
 confidence
 :
-Optional
-[
 float
-]
+|
+None
 def
 detect
 (
@@ -261,6 +258,7 @@ pragma
 :
 nocover
             
+f
 "
 Expected
 object
@@ -271,21 +269,13 @@ or
 bytearray
 got
 :
-"
-            
-"
 {
-0
-}
-"
-.
-format
-(
 type
 (
 byte_str
 )
-)
+}
+"
         
 )
     

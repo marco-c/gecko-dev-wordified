@@ -43,7 +43,7 @@ copyright
 Copyright
 2006
 -
-2024
+2025
 by
 the
 Pygments
@@ -5219,9 +5219,12 @@ text
 )
 :
         
-return
-(
-            
+#
+TODO
+supported
+?
+        
+if
 shebang_matches
 (
 text
@@ -5231,7 +5234,14 @@ mojo
 ?
 "
 )
-or
+:
+            
+return
+1
+.
+0
+        
+if
 "
 import
 "
@@ -5241,9 +5251,12 @@ text
 :
 1000
 ]
+:
+            
+return
+0
+.
+9
         
-)
-#
-TODO
-supported
-?
+return
+0

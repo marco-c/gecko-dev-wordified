@@ -1,4 +1,8 @@
 from
+__future__
+import
+annotations
+from
 encodings
 .
 aliases
@@ -20,12 +24,9 @@ from
 typing
 import
 Any
-Dict
 Iterator
 List
-Optional
 Tuple
-Union
 from
 .
 constant
@@ -67,25 +68,21 @@ bool
         
 languages
 :
-"
 CoherenceMatches
-"
         
 decoded_payload
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
         
 preemptive_declaration
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
     
@@ -136,13 +133,12 @@ self
 .
 _unicode_ranges
 :
-Optional
-[
-List
+list
 [
 str
 ]
-]
+|
+None
 =
 None
         
@@ -150,7 +146,7 @@ self
 .
 _leaves
 :
-List
+list
 [
 CharsetMatch
 ]
@@ -172,10 +168,9 @@ self
 .
 _output_payload
 :
-Optional
-[
 bytes
-]
+|
+None
 =
 None
         
@@ -183,10 +178,9 @@ self
 .
 _output_encoding
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
         
@@ -194,10 +188,9 @@ self
 .
 _string
 :
-Optional
-[
 str
-]
+|
+None
 =
 decoded_payload
         
@@ -205,10 +198,9 @@ self
 .
 _preemptive_declaration
 :
-Optional
-[
 str
-]
+|
+None
 =
 preemptive_declaration
     
@@ -552,30 +544,27 @@ str
 :
         
 return
+f
 "
 <
 CharsetMatch
 '
 {
+self
+.
+encoding
 }
 '
 bytes
 (
 {
+self
+.
+fingerprint
 }
 )
 >
 "
-.
-format
-(
-self
-.
-encoding
-self
-.
-fingerprint
-)
     
 def
 add_submatch
@@ -583,9 +572,7 @@ add_submatch
 self
 other
 :
-"
 CharsetMatch
-"
 )
 -
 >
@@ -687,7 +674,7 @@ self
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -727,7 +714,7 @@ CP855
         
 also_known_as
 :
-List
+list
 [
 str
 ]
@@ -824,7 +811,7 @@ self
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -1209,11 +1196,9 @@ self
 )
 -
 >
-List
+list
 [
-"
 CharsetMatch
-"
 ]
 :
         
@@ -1253,7 +1238,7 @@ self
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -1280,16 +1265,14 @@ ranges
         
 detected_ranges
 :
-List
-[
-Optional
+list
 [
 str
-]
+|
+None
 ]
 =
 [
-            
 unicode_range
 (
 char
@@ -1301,7 +1284,6 @@ str
 (
 self
 )
-        
 ]
         
 #
@@ -1343,7 +1325,7 @@ self
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -1580,11 +1562,22 @@ groups
 [
 0
 ]
+                        
 iana_name
 (
 self
 .
 _output_encoding
+)
+.
+replace
+(
+"
+_
+"
+"
+-
+"
 )
 #
 type
@@ -1604,6 +1597,8 @@ decoded_string
 8192
 ]
                     
+count
+=
 1
                 
 )
@@ -1746,13 +1741,12 @@ __init__
 self
 results
 :
-Optional
-[
-List
+list
 [
 CharsetMatch
 ]
-]
+|
+None
 =
 None
 )
@@ -1762,7 +1756,7 @@ self
 .
 _results
 :
-List
+list
 [
 CharsetMatch
 ]
@@ -1802,11 +1796,9 @@ __getitem__
 self
 item
 :
-Union
-[
 int
+|
 str
-]
 )
 -
 >
@@ -2123,12 +2115,9 @@ self
 )
 -
 >
-Optional
-[
-"
 CharsetMatch
-"
-]
+|
+None
 :
         
 "
@@ -2179,12 +2168,9 @@ self
 )
 -
 >
-Optional
-[
-"
 CharsetMatch
-"
-]
+|
+None
 :
         
 "
@@ -2245,21 +2231,20 @@ str
         
 encoding
 :
-Optional
-[
 str
-]
+|
+None
         
 encoding_aliases
 :
-List
+list
 [
 str
 ]
         
 alternative_encodings
 :
-List
+list
 [
 str
 ]
@@ -2270,7 +2255,7 @@ str
         
 alphabets
 :
-List
+list
 [
 str
 ]
@@ -2289,10 +2274,9 @@ float
         
 unicode_path
 :
-Optional
-[
 str
-]
+|
+None
         
 is_preferred
 :
@@ -2313,10 +2297,9 @@ self
 .
 unicode_path
 :
-Optional
-[
 str
-]
+|
+None
 =
 unicode_path
         
@@ -2324,10 +2307,9 @@ self
 .
 encoding
 :
-Optional
-[
 str
-]
+|
+None
 =
 encoding
         
@@ -2335,7 +2317,7 @@ self
 .
 encoding_aliases
 :
-List
+list
 [
 str
 ]
@@ -2346,7 +2328,7 @@ self
 .
 alternative_encodings
 :
-List
+list
 [
 str
 ]
@@ -2365,7 +2347,7 @@ self
 .
 alphabets
 :
-List
+list
 [
 str
 ]
@@ -2413,7 +2395,7 @@ self
 )
 -
 >
-Dict
+dict
 [
 str
 Any

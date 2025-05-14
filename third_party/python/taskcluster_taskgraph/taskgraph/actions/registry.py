@@ -1346,15 +1346,6 @@ base_repository
             
 }
             
-revision
-=
-parameters
-[
-"
-head_rev
-"
-]
-            
 push
 =
 {
@@ -1389,7 +1380,23 @@ pushlog_id
 revision
 "
 :
-revision
+parameters
+[
+"
+head_rev
+"
+]
+                
+"
+base_revision
+"
+:
+parameters
+[
+"
+base_rev
+"
+]
             
 }
             

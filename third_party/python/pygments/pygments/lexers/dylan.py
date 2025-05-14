@@ -43,7 +43,7 @@ copyright
 Copyright
 2006
 -
-2024
+2025
 by
 the
 Pygments
@@ -2686,6 +2686,10 @@ dylan
 -
 console
 /
+console
+.
+dylan
+-
 console
 '
     

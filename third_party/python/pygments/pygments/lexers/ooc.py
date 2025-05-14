@@ -41,7 +41,7 @@ copyright
 Copyright
 2006
 -
-2024
+2025
 by
 the
 Pygments
@@ -121,7 +121,7 @@ Ooc
 url
 =
 '
-http
+https
 :
 /
 /
@@ -129,7 +129,9 @@ ooc
 -
 lang
 .
-org
+github
+.
+io
 /
 '
     
@@ -436,13 +438,10 @@ Note
 :
 %
 =
-and
-^
-=
 not
 listed
 on
-http
+https
 :
 /
 /
@@ -450,9 +449,16 @@ ooc
 -
 lang
 .
-org
+github
+.
+io
 /
-syntax
+docs
+/
+lang
+/
+operators
+/
             
 (
 r

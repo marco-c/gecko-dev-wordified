@@ -49,7 +49,7 @@ copyright
 Copyright
 2006
 -
-2024
+2025
 by
 the
 Pygments
@@ -13798,7 +13798,7 @@ evoque
 '
 ]
     
-filenames
+alias_filenames
 =
 [
 '
@@ -13926,7 +13926,7 @@ evoque
 '
 ]
     
-filenames
+alias_filenames
 =
 [
 '
