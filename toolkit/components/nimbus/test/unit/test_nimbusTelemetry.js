@@ -1615,7 +1615,7 @@ GleanPings
 .
 nimbusTargetingContext
 .
-testSubmission
+testBeforeNextSubmit
 (
 (
 )
@@ -1672,7 +1672,11 @@ control
 )
 ;
 }
+)
+;
+await
 recordTargetingContext
+(
 )
 ;
 cleanupExperiment
