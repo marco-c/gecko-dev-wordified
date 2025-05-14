@@ -2827,6 +2827,8 @@ computeInitialHotnessCounter
 (
 uint32_t
 funcIndex
+size_t
+codeSectionSize
 )
 ;
 void
