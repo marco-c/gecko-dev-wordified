@@ -76,12 +76,4 @@ android
 -
 aarch64
 "
-    
-"
-mozconfig_variant
-"
-:
-"
-nightly
-"
 }

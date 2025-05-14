@@ -82,14 +82,21 @@ aarch64
 "
     
 "
-mozconfig_variant
+extra_mozconfig_content
 "
 :
+[
 "
-debug
+ac_add_options
+-
+-
+enable
+-
+geckoview
 -
 lite
 "
+]
     
 "
 debug_build

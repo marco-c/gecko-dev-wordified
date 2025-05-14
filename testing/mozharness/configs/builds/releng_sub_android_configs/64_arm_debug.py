@@ -80,14 +80,6 @@ arm
 "
     
 "
-mozconfig_variant
-"
-:
-"
-debug
-"
-    
-"
 debug_build
 "
 :

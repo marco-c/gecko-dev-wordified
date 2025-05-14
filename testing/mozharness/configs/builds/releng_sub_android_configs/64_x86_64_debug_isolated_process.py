@@ -80,18 +80,6 @@ x86_64
 "
     
 "
-mozconfig_variant
-"
-:
-"
-debug
--
-isolated
--
-process
-"
-    
-"
 debug_build
 "
 :

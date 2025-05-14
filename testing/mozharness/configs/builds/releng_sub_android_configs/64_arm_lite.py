@@ -80,12 +80,19 @@ arm
 "
     
 "
-mozconfig_variant
+extra_mozconfig_content
 "
 :
+[
 "
-nightly
+ac_add_options
+-
+-
+enable
+-
+geckoview
 -
 lite
 "
+]
 }

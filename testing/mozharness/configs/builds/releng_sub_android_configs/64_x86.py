@@ -76,12 +76,4 @@ android
 -
 x86
 "
-    
-"
-mozconfig_variant
-"
-:
-"
-nightly
-"
 }
