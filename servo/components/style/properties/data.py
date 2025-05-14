@@ -4210,6 +4210,10 @@ WordBreak
 "
                 
 "
+WritingModeProperty
+"
+                
+"
 XSpan
 "
                 
