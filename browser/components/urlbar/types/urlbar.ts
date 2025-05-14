@@ -192,3 +192,15 @@ mjs
 .
 UrlbarResult
 ;
+type
+Values
+<
+T
+>
+=
+T
+[
+keyof
+T
+]
+;
