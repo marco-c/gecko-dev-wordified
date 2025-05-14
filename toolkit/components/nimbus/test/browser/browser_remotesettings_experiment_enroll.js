@@ -342,10 +342,7 @@ active
 "
 )
 ;
-await
-NimbusTestUtils
-.
-removeStore
+assertEmptyStore
 (
 ExperimentAPI
 .
