@@ -190,7 +190,6 @@ Map
 Promise
 RegExp
 Set
-SharedArrayBuffer
 Symbol
 /
 /
