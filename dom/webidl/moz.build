@@ -4973,6 +4973,11 @@ PaintRequestList
 webidl
 "
 "
+PaintTimingMixin
+.
+webidl
+"
+"
 PaintWorkletGlobalScope
 .
 webidl
