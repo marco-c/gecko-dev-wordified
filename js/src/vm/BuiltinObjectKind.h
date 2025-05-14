@@ -185,7 +185,6 @@ in
 constructors
 .
 Array
-Int32Array
 ListFormat
 Map
 Promise
@@ -202,9 +201,6 @@ prototypes
 .
 FunctionPrototype
 IteratorPrototype
-ObjectPrototype
-RegExpPrototype
-StringPrototype
 /
 /
 Built
