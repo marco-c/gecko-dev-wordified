@@ -325,17 +325,7 @@ Open
 (
 )
 const
-{
-return
-GetBoolAttr
-(
-nsGkAtoms
-:
-:
-open
-)
 ;
-}
 void
 SetOpen
 (
