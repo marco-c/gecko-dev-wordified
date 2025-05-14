@@ -258,6 +258,15 @@ aHeight
 override
 ;
 NS_IMETHOD
+GetIntrinsicSize
+(
+ImageIntrinsicSize
+*
+aIntrinsicSize
+)
+override
+;
+NS_IMETHOD
 GetIntrinsicSizeInAppUnits
 (
 nsSize
