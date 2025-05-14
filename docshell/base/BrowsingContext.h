@@ -7053,6 +7053,11 @@ Navigation
 aNavigation
 )
 ;
+void
+ConsumeHistoryActivation
+(
+)
+;
 protected
 :
 virtual
