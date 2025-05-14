@@ -430,7 +430,7 @@ encoder
 instance
 .
 virtual
-nsresult
+MediaResult
 InitSpecific
 (
 )
@@ -539,7 +539,7 @@ virtual
 Result
 <
 EncodedData
-nsresult
+MediaResult
 >
 EncodeInputWithModernAPIs
 (
@@ -556,7 +556,7 @@ aSample
 Result
 <
 EncodedData
-nsresult
+MediaResult
 >
 EncodeWithModernAPIs
 (
@@ -566,7 +566,7 @@ virtual
 Result
 <
 EncodedData
-nsresult
+MediaResult
 >
 DrainWithModernAPIs
 (
@@ -654,7 +654,7 @@ already_AddRefed
 <
 MediaByteBuffer
 >
-nsresult
+MediaResult
 >
 GetExtraData
 (
