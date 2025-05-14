@@ -128395,7 +128395,12 @@ mSanitizer
 Value
 (
 )
-true
+/
+*
+aSafe
+*
+/
+false
 aError
 )
 ;
@@ -128437,7 +128442,7 @@ doc
 aSafe
 *
 /
-true
+false
 aError
 )
 ;
@@ -128707,6 +128712,11 @@ global
 aOptions
 .
 mSanitizer
+/
+*
+aSafe
+*
+/
 true
 aError
 )
