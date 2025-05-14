@@ -4170,6 +4170,7 @@ NotifyAll
 ;
 }
 )
+NS_DISPATCH_EVENT_MAY_BLOCK
 )
 ;
 if
