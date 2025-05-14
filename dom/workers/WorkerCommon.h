@@ -295,17 +295,6 @@ JSObject
 object
 )
 ;
-void
-UpdateWorkersPlaybackState
-(
-const
-nsPIDOMWindowInner
-&
-aWindow
-bool
-aIsPlayingAudio
-)
-;
 }
 /
 /
