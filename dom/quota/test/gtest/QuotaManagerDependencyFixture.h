@@ -533,6 +533,12 @@ aPattern
 )
 ;
 static
+void
+ProcessPendingNormalOriginOperations
+(
+)
+;
+static
 uint64_t
 TotalDirectoryIterations
 (
