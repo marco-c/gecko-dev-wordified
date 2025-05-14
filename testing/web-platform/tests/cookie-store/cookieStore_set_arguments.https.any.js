@@ -3653,6 +3653,8 @@ b
 assert_equals
 (
 cookie
+.
+value
 "
 x
 y
