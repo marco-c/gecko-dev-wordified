@@ -901,16 +901,6 @@ AllowRangeCrossShadowBoundary
 :
 :
 No
-nsTArray
-<
-AncestorInfo
->
-*
-aInclusiveAncestorsOfEndContainer
-=
-nullptr
-)
-;
 static
 nsIContent
 *
