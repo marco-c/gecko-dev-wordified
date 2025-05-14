@@ -1775,7 +1775,7 @@ stderr
 in
 case
 they
-we
+were
 closed
 /
 /
