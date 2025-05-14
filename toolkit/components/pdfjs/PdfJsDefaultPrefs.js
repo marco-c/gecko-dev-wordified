@@ -217,6 +217,16 @@ pref
 "
 pdfjs
 .
+capCanvasAreaFactor
+"
+200
+)
+;
+pref
+(
+"
+pdfjs
+.
 cursorToolOnLoad
 "
 0
