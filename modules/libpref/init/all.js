@@ -47580,7 +47580,7 @@ ml
 .
 minimumPhysicalMemory
 "
-4
+3
 )
 ;
 /
