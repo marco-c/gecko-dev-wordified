@@ -6461,6 +6461,8 @@ number
 aEvent
 .
 deltaX
+=
+0
 ]
 -
 Floating
@@ -6487,6 +6489,8 @@ number
 aEvent
 .
 deltaY
+=
+0
 ]
 -
 Floating
@@ -6513,6 +6517,8 @@ number
 aEvent
 .
 deltaZ
+=
+0
 ]
 -
 Floating
