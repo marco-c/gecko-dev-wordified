@@ -532,7 +532,6 @@ r
 ]
 .
 startOffset
-false
 )
 GetTextLeafPointFrom
 (
@@ -548,7 +547,6 @@ r
 ]
 .
 endOffset
-true
 )
 )
 ;
@@ -748,8 +746,6 @@ IAccessibleText
 aText
 long
 aOffset
-bool
-aDescendToEnd
 )
 {
 if
@@ -818,7 +814,6 @@ hyp
 ToTextLeafPoint
 (
 aOffset
-aDescendToEnd
 )
 ;
 }
