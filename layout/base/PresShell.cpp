@@ -33896,6 +33896,12 @@ RangeUtils
 :
 :
 CompareNodeToRange
+<
+TreeKind
+:
+:
+ShadowIncludingDOM
+>
 (
 content
 aRange
