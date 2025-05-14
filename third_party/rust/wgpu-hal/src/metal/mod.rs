@@ -1261,6 +1261,9 @@ bool
 format_astc_hdr
 :
 bool
+format_astc_3d
+:
+bool
 format_any8_unorm_srgb_all
 :
 bool

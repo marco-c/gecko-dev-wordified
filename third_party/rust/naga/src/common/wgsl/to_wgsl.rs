@@ -146,7 +146,7 @@ implementing
 /
 /
 [
-std
+core
 :
 :
 fmt
@@ -329,7 +329,7 @@ implementing
 /
 /
 [
-std
+core
 :
 :
 fmt
