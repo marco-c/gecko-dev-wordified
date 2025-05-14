@@ -338,11 +338,6 @@ mTag
 #
 ifdef
 MOZ_ENABLE_DBUS
-uint32_t
-mDBusID
-=
-0
-;
 RefPtr
 <
 GDBusProxy
