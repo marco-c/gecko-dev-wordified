@@ -543,7 +543,7 @@ __func__
 mPreloadResponseAvailablePromise
 -
 >
-UseSynchronousTaskDispatch
+UseDirectTaskDispatch
 (
 __func__
 )
@@ -605,7 +605,7 @@ __func__
 mPreloadResponseTimingPromise
 -
 >
-UseSynchronousTaskDispatch
+UseDirectTaskDispatch
 (
 __func__
 )
@@ -657,7 +657,7 @@ __func__
 mPreloadResponseEndPromise
 -
 >
-UseSynchronousTaskDispatch
+UseDirectTaskDispatch
 (
 __func__
 )
