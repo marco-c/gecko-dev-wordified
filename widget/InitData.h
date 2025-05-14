@@ -650,17 +650,6 @@ mRTL
 false
 ;
 bool
-mNoAutoHide
-=
-false
-;
-/
-/
-true
-for
-noautohide
-panels
-bool
 mIsDragPopup
 =
 false
