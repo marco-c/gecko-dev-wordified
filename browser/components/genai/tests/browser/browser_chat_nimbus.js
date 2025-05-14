@@ -30,7 +30,7 @@ zero
 /
 const
 {
-ExperimentFakes
+NimbusTestUtils
 }
 =
 ChromeUtils
@@ -164,7 +164,7 @@ let
 cleanup
 =
 await
-ExperimentFakes
+NimbusTestUtils
 .
 enrollWithFeatureConfig
 (
@@ -377,7 +377,7 @@ value
 cleanup
 =
 await
-ExperimentFakes
+NimbusTestUtils
 .
 enrollWithFeatureConfig
 (
@@ -599,7 +599,7 @@ const
 cleanup
 =
 await
-ExperimentFakes
+NimbusTestUtils
 .
 enrollWithFeatureConfig
 (
@@ -767,7 +767,7 @@ const
 cleanRollout
 =
 await
-ExperimentFakes
+NimbusTestUtils
 .
 enrollWithFeatureConfig
 (
@@ -855,7 +855,7 @@ const
 cleanExperiment
 =
 await
-ExperimentFakes
+NimbusTestUtils
 .
 enrollWithFeatureConfig
 (
@@ -1010,7 +1010,7 @@ let
 cleanup
 =
 await
-ExperimentFakes
+NimbusTestUtils
 .
 enrollWithFeatureConfig
 (
@@ -1101,7 +1101,7 @@ cleanup
 cleanup
 =
 await
-ExperimentFakes
+NimbusTestUtils
 .
 enrollWithFeatureConfig
 (
