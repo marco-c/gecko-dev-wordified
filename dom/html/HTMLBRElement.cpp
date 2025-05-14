@@ -216,11 +216,11 @@ NS_IMPL_ELEMENT_CLONE
 HTMLBRElement
 )
 static
-constexpr
+const
 nsAttrValue
 :
 :
-EnumTableEntry
+EnumTable
 kClearTable
 [
 ]
@@ -261,6 +261,10 @@ StyleClear
 :
 :
 Both
+}
+{
+nullptr
+0
 }
 }
 ;

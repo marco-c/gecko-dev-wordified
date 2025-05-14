@@ -243,7 +243,7 @@ const
 nsAttrValue
 :
 :
-EnumTableEntry
+EnumTable
 kAlignTable
 [
 ]
@@ -275,6 +275,10 @@ StyleTextAlign
 :
 :
 Center
+}
+{
+nullptr
+0
 }
 }
 ;

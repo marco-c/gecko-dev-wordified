@@ -203,7 +203,7 @@ const
 nsAttrValue
 :
 :
-EnumTableEntry
+EnumTable
 HTMLLIElement
 :
 :
@@ -248,6 +248,10 @@ ListStyle
 :
 Square
 }
+{
+nullptr
+0
+}
 }
 ;
 /
@@ -270,7 +274,7 @@ const
 nsAttrValue
 :
 :
-EnumTableEntry
+EnumTable
 HTMLLIElement
 :
 :
@@ -323,6 +327,10 @@ ListStyle
 :
 :
 Decimal
+}
+{
+nullptr
+0
 }
 }
 ;

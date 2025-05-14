@@ -30690,7 +30690,7 @@ const
 nsAttrValue
 :
 :
-EnumTableEntry
+EnumTable
 kPreloadTable
 [
 ]
@@ -30730,6 +30730,10 @@ HTMLMediaElement
 :
 :
 PRELOAD_ATTR_AUTO
+}
+{
+nullptr
+0
 }
 }
 ;
