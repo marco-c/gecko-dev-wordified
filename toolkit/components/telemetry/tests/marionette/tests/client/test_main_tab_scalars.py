@@ -217,7 +217,7 @@ BrowserUsageTelemetry
 .
 _onTabsOpenedTask
 .
-_timeoutMs
+_idleTimeoutMs
 =
 0
 ;
