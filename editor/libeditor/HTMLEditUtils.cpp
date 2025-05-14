@@ -19957,12 +19957,6 @@ RangeUtils
 :
 :
 CompareNodeToRangeBoundaries
-<
-TreeKind
-:
-:
-ShadowIncludingDOM
->
 (
 const_cast
 <
