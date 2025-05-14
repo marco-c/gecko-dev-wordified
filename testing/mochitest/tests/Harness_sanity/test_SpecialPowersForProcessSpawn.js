@@ -543,6 +543,7 @@ search
 /
 TypeError
 :
+(
 can
 '
 t
@@ -551,6 +552,8 @@ property
 "
 location
 "
+)
+?
 frame1
 .
 contentDocument
