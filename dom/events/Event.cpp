@@ -2822,6 +2822,11 @@ mInPassiveListener
 {
 if
 (
+mOwner
+)
+{
+if
+(
 nsPIDOMWindowInner
 *
 win
@@ -2893,6 +2898,7 @@ false
 params
 )
 ;
+}
 }
 }
 }

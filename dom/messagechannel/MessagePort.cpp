@@ -759,11 +759,6 @@ new
 MessageEvent
 (
 mPort
--
->
-GetOwnerWindow
-(
-)
 nullptr
 nullptr
 )
