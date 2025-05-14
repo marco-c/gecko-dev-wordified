@@ -3831,13 +3831,6 @@ allowOutOfBounds
 )
 ;
 AttachDecision
-tryAttachArrayBufferByteLength
-(
-bool
-isPossiblyWrapped
-)
-;
-AttachDecision
 tryAttachIsConstructing
 (
 )
