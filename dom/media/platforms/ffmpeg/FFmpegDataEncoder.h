@@ -615,9 +615,13 @@ is
 enabled
 .
 virtual
+Result
+<
 RefPtr
 <
 MediaRawData
+>
+MediaResult
 >
 ToMediaRawData
 (
@@ -628,9 +632,13 @@ aPacket
 =
 0
 ;
+Result
+<
 RefPtr
 <
 MediaRawData
+>
+MediaResult
 >
 ToMediaRawDataCommon
 (
