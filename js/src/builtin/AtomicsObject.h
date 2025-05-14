@@ -383,6 +383,11 @@ this
 )
 ;
 }
+~
+FutexWaiterListHead
+(
+)
+;
 }
 ;
 class
