@@ -3630,7 +3630,7 @@ InThrottlingTimeWindow
 /
 /
 Two
-hashtalbes
+hashtables
 keeping
 track
 of
