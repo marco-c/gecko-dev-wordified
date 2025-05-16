@@ -3644,10 +3644,9 @@ nullptr
 aDownloadRequestFilename
 *
 /
-u
-"
-"
-_ns
+VoidString
+(
+)
 )
 ;
 }
@@ -3841,10 +3840,9 @@ aClassicHistoryAPIState
 aDownloadRequestFilename
 *
 /
-u
-"
-"
-_ns
+VoidString
+(
+)
 )
 ;
 }

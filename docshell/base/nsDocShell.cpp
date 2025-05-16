@@ -85653,6 +85653,14 @@ ConsumeTextDirectiveUserActivation
 hasValidUserGestureActivation
 )
 ;
+loadState
+-
+>
+SetUserNavigationInvolvement
+(
+aUserInvolvement
+)
+;
 nsCOMPtr
 <
 nsIRunnable
