@@ -32010,6 +32010,8 @@ size
 SDBFind
 *
 find
+=
+NULL
 ;
 CK_ULONG
 count
