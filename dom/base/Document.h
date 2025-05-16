@@ -13410,17 +13410,6 @@ eSVG
 ;
 }
 bool
-IsUnstyledDocument
-(
-)
-{
-return
-IsLoadedAsData
-(
-)
-;
-}
-bool
 LoadsFullXULStyleSheetUpFront
 (
 )

@@ -4506,7 +4506,7 @@ AllowXULXBL
 !
 doc
 .
-IsUnstyledDocument
+IsLoadedAsData
 (
 )
 )
