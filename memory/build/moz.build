@@ -95,11 +95,6 @@ malloc_decls
 h
 "
 "
-mozjemalloc_profiling
-.
-h
-"
-"
 mozjemalloc_types
 .
 h
@@ -427,14 +422,6 @@ DEFINES
 [
 "
 NON_RANDOM_ARENA_IDS
-"
-]
-=
-True
-DEFINES
-[
-"
-MOZJEMALLOC_PROFILING_CALLBACKS
 "
 ]
 =

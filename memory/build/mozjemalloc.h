@@ -1020,7 +1020,7 @@ false
 ;
 }
 static
-may_purge_now_result_t
+purge_result_t
 moz_may_purge_now
 (
 bool
@@ -1048,7 +1048,7 @@ aKeepGoing
 )
 {
 return
-may_purge_now_result_t
+purge_result_t
 :
 :
 Done
