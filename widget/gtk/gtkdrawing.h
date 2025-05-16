@@ -916,17 +916,6 @@ MOZ_GTK_TREEVIEW
 /
 *
 Paints
-the
-border
-of
-a
-GtkTreeView
-*
-/
-MOZ_GTK_TREEVIEW_VIEW
-/
-*
-Paints
 treeheader
 cells
 *
