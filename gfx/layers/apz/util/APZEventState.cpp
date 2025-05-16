@@ -2459,6 +2459,11 @@ false
 break
 ;
 }
+case
+eTouchRawUpdate
+:
+break
+;
 default
 :
 MOZ_ASSERT_UNREACHABLE
