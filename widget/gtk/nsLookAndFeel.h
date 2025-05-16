@@ -729,6 +729,11 @@ mThreeDShadow
 kBlack
 ;
 nscolor
+mOddCellBackground
+=
+kWhite
+;
+nscolor
 mNativeHyperLinkText
 =
 kBlack

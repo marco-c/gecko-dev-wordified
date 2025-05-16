@@ -2247,6 +2247,12 @@ case
 ColorID
 :
 :
+MozEventreerow
+:
+case
+ColorID
+:
+:
 MozOddtreerow
 :
 case

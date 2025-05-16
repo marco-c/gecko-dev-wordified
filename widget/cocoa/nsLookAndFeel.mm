@@ -2294,6 +2294,12 @@ ColorID
 :
 MozColheaderhover
 :
+case
+ColorID
+:
+:
+MozEventreerow
+:
 /
 /
 Background
