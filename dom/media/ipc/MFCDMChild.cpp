@@ -919,10 +919,6 @@ mShutdown
 =
 true
 ;
-mProxyCallback
-=
-nullptr
-;
 if
 (
 mState
@@ -962,6 +958,10 @@ mInitRequest
 DisconnectIfExists
 (
 )
+;
+mProxyCallback
+=
+nullptr
 ;
 {
 MutexAutoLock
@@ -1584,7 +1584,11 @@ __func__
 )
 ;
 }
-mProxyCallback
+RefPtr
+<
+WMFCDMProxyCallback
+>
+callback
 =
 aProxyCallback
 ;
@@ -1614,6 +1618,7 @@ this
 }
 this
 params
+callback
 ]
 (
 )
@@ -1630,6 +1635,7 @@ mManagerThread
 __func__
 [
 self
+callback
 this
 ]
 (
@@ -1680,6 +1686,10 @@ __func__
 return
 ;
 }
+mProxyCallback
+=
+callback
+;
 mId
 =
 aResult
@@ -2902,6 +2912,11 @@ get
 ;
 MOZ_ASSERT
 (
+mManagerThread
+)
+;
+MOZ_ASSERT
+(
 mProxyCallback
 )
 ;
@@ -2962,6 +2977,11 @@ get
 ;
 MOZ_ASSERT
 (
+mManagerThread
+)
+;
+MOZ_ASSERT
+(
 mProxyCallback
 )
 ;
@@ -3018,6 +3038,11 @@ sessionId
 get
 (
 )
+)
+;
+MOZ_ASSERT
+(
+mManagerThread
 )
 ;
 MOZ_ASSERT
