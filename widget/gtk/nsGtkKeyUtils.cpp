@@ -5850,7 +5850,7 @@ in
 next
 key
 press
-wonn
+won
 '
 t
 updated
@@ -5902,7 +5902,7 @@ that
 will
 be
 enough
-durration
+duration
 to
 set
 repeat
