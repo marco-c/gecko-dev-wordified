@@ -3346,18 +3346,6 @@ configure_git
                     
 git
                     
-to_optional_path
-(
-which
-(
-"
-git
--
-cinnabar
-"
-)
-)
-                    
 state_dir
                     
 checkout_root
@@ -5775,14 +5763,8 @@ clone
     
 )
 def
-update_git_tools
+update_git_cinnabar
 (
-git
-:
-Optional
-[
-Path
-]
 root_state_dir
 :
 Path
@@ -5809,7 +5791,9 @@ git
 cinnabar
 is
 up
+-
 to
+-
 date
 .
     
@@ -6154,6 +6138,20 @@ exists
         
 try
 :
+            
+print
+(
+"
+\
+nUpdating
+git
+-
+cinnabar
+.
+.
+.
+"
+)
             
 subprocess
 .
@@ -6773,13 +6771,6 @@ git
 :
 Path
     
-cinnabar
-:
-Optional
-[
-Path
-]
-    
 root_state_dir
 :
 Path
@@ -7398,10 +7389,23 @@ cinnabar_dir
 =
 str
 (
-update_git_tools
+update_git_cinnabar
 (
-git
 root_state_dir
+)
+)
+        
+cinnabar
+=
+to_optional_path
+(
+which
+(
+"
+git
+-
+cinnabar
+"
 )
 )
         

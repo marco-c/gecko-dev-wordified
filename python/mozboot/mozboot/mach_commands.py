@@ -662,13 +662,19 @@ git
 "
 :
             
+if
+repo
+.
+is_cinnabar_repo
+(
+)
+:
+                
 bootstrap
 .
-update_git_tools
+update_git_cinnabar
 (
-                
-vcs
-                
+                    
 Path
 (
 command_context
@@ -677,7 +683,7 @@ _mach_context
 .
 state_dir
 )
-            
+                
 )
         
 else
@@ -723,18 +729,6 @@ configure_git
 (
                 
 vcs
-                
-to_optional_path
-(
-which
-(
-"
-git
--
-cinnabar
-"
-)
-)
                 
 Path
 (
