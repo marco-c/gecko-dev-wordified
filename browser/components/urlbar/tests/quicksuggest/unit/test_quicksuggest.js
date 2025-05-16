@@ -2523,11 +2523,14 @@ Assert
 ok
 (
 !
+(
+await
 UrlbarProviderQuickSuggest
 .
 isActive
 (
 context
+)
 )
 "
 Provider

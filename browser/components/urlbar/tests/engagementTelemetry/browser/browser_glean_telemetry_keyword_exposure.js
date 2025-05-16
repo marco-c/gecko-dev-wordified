@@ -3023,6 +3023,7 @@ provider
 .
 isActive
 =
+async
 context
 =
 >

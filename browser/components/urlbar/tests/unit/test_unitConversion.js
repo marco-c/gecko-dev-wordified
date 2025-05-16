@@ -4886,6 +4886,7 @@ jst
 ;
 add_task
 (
+async
 function
 (
 )
@@ -5016,6 +5017,7 @@ queryString
 const
 isActive
 =
+await
 UrlbarProviderUnitConversion
 .
 isActive
