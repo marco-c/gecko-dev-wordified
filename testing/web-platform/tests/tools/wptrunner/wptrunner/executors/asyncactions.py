@@ -6,14 +6,6 @@ allow
 untyped
 -
 defs
-from
-webdriver
-.
-bidi
-.
-undefined
-import
-UNDEFINED
 webdriver
 =
 None
@@ -703,6 +695,12 @@ error
 is
 None
 else
+webdriver
+.
+bidi
+.
+undefined
+.
 UNDEFINED
 )
         
