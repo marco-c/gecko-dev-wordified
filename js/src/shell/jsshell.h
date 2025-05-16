@@ -712,10 +712,6 @@ enableWasmOptimizing
 ;
 extern
 bool
-enableWasmVerbose
-;
-extern
-bool
 enableTestWasmAwaitTier2
 ;
 extern
