@@ -1683,12 +1683,13 @@ TagFreedPage
 The
 result
 of
-a
-purge
-step
+calling
+moz_may_purge_now
+(
+)
 .
 enum
-purge_result_t
+may_purge_now_result_t
 {
 /
 /
