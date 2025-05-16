@@ -214,7 +214,6 @@ objects
 .
 class
 DummyMediaDataDecoder
-final
 :
 public
 MediaDataDecoder
@@ -320,7 +319,7 @@ NeedsConversion
 const
 override
 ;
-private
+protected
 :
 ~
 DummyMediaDataDecoder
@@ -339,7 +338,6 @@ const
 bool
 mIsH264
 ;
-const
 uint32_t
 mMaxRefFrames
 ;
