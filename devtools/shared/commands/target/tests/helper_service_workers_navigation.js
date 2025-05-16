@@ -385,6 +385,7 @@ linkedBrowser
 [
 expectedPageUrl
 ]
+async
 function
 (
 _url
@@ -417,9 +418,12 @@ hasRegistration
 =
 !
 !
+(
+await
 win
 .
 registrationPromise
+)
 ;
 return
 isExpectedUrl
