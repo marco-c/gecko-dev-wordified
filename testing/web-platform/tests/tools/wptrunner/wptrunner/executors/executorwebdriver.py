@@ -1864,6 +1864,7 @@ set_geolocation_override
 (
 self
 coordinates
+error
 contexts
 )
 :
@@ -1884,6 +1885,9 @@ set_geolocation_override
 coordinates
 =
 coordinates
+error
+=
+error
 contexts
 =
 contexts
