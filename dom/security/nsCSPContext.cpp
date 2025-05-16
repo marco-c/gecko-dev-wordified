@@ -7267,6 +7267,15 @@ Length
 ;
 if
 (
+!
+StaticPrefs
+:
+:
+security_csp_reporting_enabled
+(
+)
+|
+|
 ShouldThrottleReport
 (
 aViolationEventInit
