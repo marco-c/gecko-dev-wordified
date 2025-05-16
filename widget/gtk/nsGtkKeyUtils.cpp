@@ -12918,6 +12918,10 @@ isMeta
 =
 %
 s
+isAltGraph
+=
+%
+s
 mKeyCode
 =
 0x
@@ -12994,6 +12998,14 @@ GetBoolName
 aKeyEvent
 .
 IsMeta
+(
+)
+)
+GetBoolName
+(
+aKeyEvent
+.
+IsAltGraph
 (
 )
 )
