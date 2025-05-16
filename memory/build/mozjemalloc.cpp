@@ -27308,6 +27308,12 @@ mIsPurging
 =
 true
 ;
+aStats
+.
+chunks
++
++
+;
 }
 /
 /
@@ -28145,6 +28151,7 @@ OnPurge
 start
 end
 purge_stats
+pr
 )
 ;
 }
