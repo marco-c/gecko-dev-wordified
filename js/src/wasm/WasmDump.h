@@ -224,15 +224,6 @@ include
 "
 wasm
 /
-WasmValidate
-.
-h
-"
-#
-include
-"
-wasm
-/
 WasmValType
 .
 h
@@ -883,8 +874,6 @@ out
 ;
 struct
 OpDumper
-:
-BaseOpDumper
 {
 StructuredPrinter
 &
@@ -930,7 +919,6 @@ dumpOpBegin
 OpBytes
 op
 )
-override
 {
 out
 .
@@ -979,7 +967,6 @@ void
 dumpOpEnd
 (
 )
-override
 {
 }
 void
@@ -992,7 +979,6 @@ asTypeUse
 =
 false
 )
-override
 {
 if
 (
@@ -1043,7 +1029,6 @@ dumpFuncIndex
 uint32_t
 funcIndex
 )
-override
 {
 out
 .
@@ -1063,7 +1048,6 @@ dumpTableIndex
 uint32_t
 tableIndex
 )
-override
 {
 out
 .
@@ -1083,7 +1067,6 @@ dumpGlobalIndex
 uint32_t
 globalIndex
 )
-override
 {
 out
 .
@@ -1103,7 +1086,6 @@ dumpMemoryIndex
 uint32_t
 memoryIndex
 )
-override
 {
 out
 .
@@ -1123,7 +1105,6 @@ dumpElemIndex
 uint32_t
 elemIndex
 )
-override
 {
 out
 .
@@ -1143,7 +1124,6 @@ dumpDataIndex
 uint32_t
 dataIndex
 )
-override
 {
 out
 .
@@ -1163,7 +1143,6 @@ dumpTagIndex
 uint32_t
 tagIndex
 )
-override
 {
 out
 .
@@ -1183,7 +1162,6 @@ dumpLocalIndex
 uint32_t
 localIndex
 )
-override
 {
 out
 .
@@ -1203,7 +1181,6 @@ dumpBlockType
 BlockType
 type
 )
-override
 {
 if
 (
@@ -1356,7 +1333,6 @@ dumpI32Const
 int32_t
 constant
 )
-override
 {
 out
 .
@@ -1376,7 +1352,6 @@ dumpI64Const
 int64_t
 constant
 )
-override
 {
 out
 .
@@ -1396,7 +1371,6 @@ dumpF32Const
 float
 constant
 )
-override
 {
 out
 .
@@ -1416,7 +1390,6 @@ dumpF64Const
 double
 constant
 )
-override
 {
 out
 .
@@ -1436,7 +1409,6 @@ dumpV128Const
 V128
 constant
 )
-override
 {
 out
 .
@@ -1582,7 +1554,6 @@ dumpVectorMask
 V128
 mask
 )
-override
 {
 out
 .
@@ -1727,7 +1698,6 @@ dumpRefType
 RefType
 type
 )
-override
 {
 out
 .
@@ -1754,7 +1724,6 @@ dumpHeapType
 RefType
 type
 )
-override
 {
 out
 .
@@ -1781,7 +1750,6 @@ dumpValType
 ValType
 type
 )
-override
 {
 out
 .
@@ -1810,7 +1778,6 @@ TryTableCatchVector
 &
 catches
 )
-override
 {
 for
 (
@@ -1958,7 +1925,6 @@ Nothing
 >
 addr
 )
-override
 {
 if
 (
@@ -2043,7 +2009,6 @@ dumpBlockDepth
 uint32_t
 relativeDepth
 )
-override
 {
 out
 .
@@ -2065,7 +2030,6 @@ Uint32Vector
 &
 relativeDepths
 )
-override
 {
 for
 (
@@ -2109,7 +2073,6 @@ dumpFieldIndex
 uint32_t
 fieldIndex
 )
-override
 {
 out
 .
@@ -2129,7 +2092,6 @@ dumpNumElements
 uint32_t
 numElements
 )
-override
 {
 out
 .
@@ -2149,7 +2111,6 @@ dumpLaneIndex
 uint32_t
 laneIndex
 )
-override
 {
 out
 .
@@ -2167,7 +2128,6 @@ void
 startScope
 (
 )
-override
 {
 out
 .
@@ -2180,7 +2140,6 @@ void
 endScope
 (
 )
-override
 {
 out
 .

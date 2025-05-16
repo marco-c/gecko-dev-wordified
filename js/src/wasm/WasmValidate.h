@@ -1241,33 +1241,9 @@ UniqueChars
 error
 )
 ;
-/
-/
-A
-base
-type
-for
-dumping
-wasm
-ops
-.
-Does
-nothing
-by
-default
-;
-extend
-to
-add
-/
-/
-actual
-behavior
-.
 struct
-BaseOpDumper
+NopOpDumper
 {
-virtual
 void
 dumpOpBegin
 (
@@ -1276,14 +1252,12 @@ op
 )
 {
 }
-virtual
 void
 dumpOpEnd
 (
 )
 {
 }
-virtual
 void
 dumpTypeIndex
 (
@@ -1296,7 +1270,6 @@ false
 )
 {
 }
-virtual
 void
 dumpFuncIndex
 (
@@ -1305,7 +1278,6 @@ funcIndex
 )
 {
 }
-virtual
 void
 dumpTableIndex
 (
@@ -1314,7 +1286,6 @@ tableIndex
 )
 {
 }
-virtual
 void
 dumpGlobalIndex
 (
@@ -1323,7 +1294,6 @@ globalIndex
 )
 {
 }
-virtual
 void
 dumpMemoryIndex
 (
@@ -1332,7 +1302,6 @@ memoryIndex
 )
 {
 }
-virtual
 void
 dumpElemIndex
 (
@@ -1341,7 +1310,6 @@ elemIndex
 )
 {
 }
-virtual
 void
 dumpDataIndex
 (
@@ -1350,7 +1318,6 @@ dataIndex
 )
 {
 }
-virtual
 void
 dumpTagIndex
 (
@@ -1359,7 +1326,6 @@ tagIndex
 )
 {
 }
-virtual
 void
 dumpLocalIndex
 (
@@ -1368,7 +1334,6 @@ localIndex
 )
 {
 }
-virtual
 void
 dumpBlockType
 (
@@ -1377,7 +1342,6 @@ type
 )
 {
 }
-virtual
 void
 dumpI32Const
 (
@@ -1386,7 +1350,6 @@ constant
 )
 {
 }
-virtual
 void
 dumpI64Const
 (
@@ -1395,7 +1358,6 @@ constant
 )
 {
 }
-virtual
 void
 dumpF32Const
 (
@@ -1404,7 +1366,6 @@ constant
 )
 {
 }
-virtual
 void
 dumpF64Const
 (
@@ -1413,7 +1374,6 @@ constant
 )
 {
 }
-virtual
 void
 dumpV128Const
 (
@@ -1422,7 +1382,6 @@ constant
 )
 {
 }
-virtual
 void
 dumpVectorMask
 (
@@ -1431,7 +1390,6 @@ mask
 )
 {
 }
-virtual
 void
 dumpRefType
 (
@@ -1440,7 +1398,6 @@ type
 )
 {
 }
-virtual
 void
 dumpHeapType
 (
@@ -1449,7 +1406,6 @@ type
 )
 {
 }
-virtual
 void
 dumpValType
 (
@@ -1458,7 +1414,6 @@ type
 )
 {
 }
-virtual
 void
 dumpTryTableCatches
 (
@@ -1469,7 +1424,6 @@ catches
 )
 {
 }
-virtual
 void
 dumpLinearMemoryAddress
 (
@@ -1484,7 +1438,6 @@ addr
 )
 {
 }
-virtual
 void
 dumpBlockDepth
 (
@@ -1493,7 +1446,6 @@ relativeDepth
 )
 {
 }
-virtual
 void
 dumpBlockDepths
 (
@@ -1504,7 +1456,6 @@ relativeDepths
 )
 {
 }
-virtual
 void
 dumpFieldIndex
 (
@@ -1513,7 +1464,6 @@ fieldIndex
 )
 {
 }
-virtual
 void
 dumpNumElements
 (
@@ -1522,7 +1472,6 @@ numElements
 )
 {
 }
-virtual
 void
 dumpLaneIndex
 (
@@ -1531,7 +1480,6 @@ laneIndex
 )
 {
 }
-virtual
 void
 startScope
 (
@@ -1539,7 +1487,6 @@ startScope
 {
 }
 ;
-virtual
 void
 endScope
 (
@@ -1549,6 +1496,11 @@ endScope
 ;
 }
 ;
+template
+<
+class
+T
+>
 [
 [
 nodiscard
@@ -1560,7 +1512,7 @@ ValidateOps
 ValidatingOpIter
 &
 iter
-BaseOpDumper
+T
 &
 dumper
 const
