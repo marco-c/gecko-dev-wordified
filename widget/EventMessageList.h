@@ -793,6 +793,10 @@ ePointerCancel
 )
 NS_EVENT_MESSAGE
 (
+ePointerRawUpdate
+)
+NS_EVENT_MESSAGE
+(
 ePointerGotCapture
 )
 NS_EVENT_MESSAGE
