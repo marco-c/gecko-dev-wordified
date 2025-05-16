@@ -3013,12 +3013,6 @@ init
 (
 )
 ;
-MenuTouchModeObserver
-.
-init
-(
-)
-;
 if
 (
 AppConstants
@@ -6876,12 +6870,6 @@ locales
 -
 changed
 "
-)
-;
-MenuTouchModeObserver
-.
-uninit
-(
 )
 ;
 BrowserOffline
