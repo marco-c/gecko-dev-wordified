@@ -752,10 +752,6 @@ adb_binary
 =
 None
                  
-remote_queue
-=
-None
-                 
 device_serial
 =
 None
@@ -811,7 +807,6 @@ logger
                          
 webdriver_binary
 adb_binary
-remote_queue
                          
 device_serial
 webdriver_args
