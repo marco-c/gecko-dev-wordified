@@ -148,9 +148,9 @@ capturer
 is
 available
 using
-/
-/
 SCContentSharingPicker
+/
+/
 for
 picking
 a
