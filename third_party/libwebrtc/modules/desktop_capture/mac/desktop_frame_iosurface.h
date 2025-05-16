@@ -189,11 +189,6 @@ ScopedCFTypeRef
 IOSurfaceRef
 >
 io_surface
-CGRect
-rect
-=
-{
-}
 )
 ;
 ~
@@ -239,6 +234,7 @@ non
 null
 IOSurfaceRef
 .
+explicit
 DesktopFrameIOSurface
 (
 rtc
@@ -249,15 +245,6 @@ ScopedCFTypeRef
 IOSurfaceRef
 >
 io_surface
-uint8_t
-*
-data
-int32_t
-width
-int32_t
-height
-int32_t
-stride
 )
 ;
 const
