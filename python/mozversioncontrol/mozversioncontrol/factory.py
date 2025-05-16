@@ -137,12 +137,9 @@ Version
 28
 "
 )
-USING_JJ_WARNING
+USING_JJ_DETECTED
 =
-"
-"
-"
-\
+'
 Using
 JujutsuRepository
 because
@@ -156,6 +153,13 @@ directory
 was
 detected
 !
+'
+USING_JJ_WARNING
+=
+"
+"
+"
+\
 Warning
 :
 jj
@@ -222,7 +226,6 @@ pass
 def
 get_repository_object
 (
-    
 path
 :
 Optional
@@ -233,26 +236,6 @@ str
 Path
 ]
 ]
-hg
-=
-"
-hg
-"
-git
-=
-"
-git
-"
-jj
-=
-"
-jj
-"
-src
-=
-"
-src
-"
 )
 :
     
@@ -366,9 +349,6 @@ return
 HgRepository
 (
 path
-hg
-=
-hg
 )
     
 if
@@ -384,11 +364,6 @@ jj
 is_dir
 (
 )
-and
-jj
-is
-not
-None
 :
         
 avoid
@@ -675,6 +650,16 @@ True
                     
 print
 (
+USING_JJ_DETECTED
+file
+=
+sys
+.
+stderr
+)
+                    
+print
+(
 USING_JJ_WARNING
 file
 =
@@ -687,12 +672,6 @@ return
 JujutsuRepository
 (
 path
-jj
-=
-jj
-git
-=
-git
 )
             
 except
@@ -739,9 +718,6 @@ return
 GitRepository
 (
 path
-git
-=
-git
 )
     
 if
@@ -768,9 +744,6 @@ return
 SrcRepository
 (
 path
-src
-=
-src
 )
     
 raise
