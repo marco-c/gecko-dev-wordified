@@ -801,6 +801,17 @@ DumpRunningWorkers
 (
 )
 ;
+void
+UpdateWorkersPlaybackState
+(
+const
+nsPIDOMWindowInner
+&
+aWindow
+bool
+aIsPlayingAudio
+)
+;
 private
 :
 RuntimeService
