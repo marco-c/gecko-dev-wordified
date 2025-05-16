@@ -1977,7 +1977,7 @@ OnKeysChanged
 (
 GdkKeymap
 *
-aKeymap
+aGdkKeymap
 KeymapWrapper
 *
 aKeymapWrapper
