@@ -3266,6 +3266,16 @@ ALLOC_MANUAL_SYNCHRONIZATION
 )
 )
 {
+if
+(
+!
+(
+aFlags
+&
+USE_D3D11_KEYED_MUTEX
+)
+)
+{
 auto
 *
 fencesHolderMap
@@ -3290,6 +3300,7 @@ IsSupported
 device
 )
 ;
+}
 if
 (
 !
