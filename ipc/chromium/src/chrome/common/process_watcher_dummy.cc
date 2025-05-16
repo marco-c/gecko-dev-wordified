@@ -139,3 +139,16 @@ bool
 )
 {
 }
+mozilla
+:
+:
+UniqueFileHandle
+GetSignalPipe
+(
+)
+{
+return
+{
+}
+;
+}
