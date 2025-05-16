@@ -108,6 +108,8 @@ HgRepository
     
 InvalidRepoPath
     
+JujutsuRepository
+    
 MissingConfigureInfo
     
 MissingVCSTool
@@ -6918,6 +6920,48 @@ cls
 .
 repository
 GitRepository
+)
+        
+except
+InvalidRepoPath
+:
+            
+return
+False
+    
+staticmethod
+    
+def
+is_jj
+(
+cls
+)
+:
+        
+"
+"
+"
+Must
+have
+a
+jj
+source
+checkout
+.
+"
+"
+"
+        
+try
+:
+            
+return
+isinstance
+(
+cls
+.
+repository
+JujutsuRepository
 )
         
 except
