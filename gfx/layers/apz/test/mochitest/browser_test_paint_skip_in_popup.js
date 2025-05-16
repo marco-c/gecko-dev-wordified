@@ -782,10 +782,6 @@ some
 data
 =
 >
-Math
-.
-round
-(
 SpecialPowers
 .
 wrap
@@ -794,10 +790,12 @@ data
 )
 .
 scrollOffsetY
-)
-=
-=
+-
 scrollMax
+<
+1
+.
+0
 )
 There
 should
