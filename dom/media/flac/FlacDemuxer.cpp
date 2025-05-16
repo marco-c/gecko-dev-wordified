@@ -6149,7 +6149,13 @@ frames
 >
 AppendSample
 (
+std
+:
+:
+move
+(
 frame
+)
 )
 ;
 }
