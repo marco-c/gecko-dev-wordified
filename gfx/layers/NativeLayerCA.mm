@@ -12999,9 +12999,6 @@ thread
 .
 Maybe
 <
-NativeLayerCA
-:
-:
 SurfaceWithInvalidRegion
 >
 NativeLayerCA
