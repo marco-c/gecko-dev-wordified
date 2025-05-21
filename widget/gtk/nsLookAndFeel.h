@@ -719,12 +719,7 @@ mButtonBorder
 kBlack
 ;
 nscolor
-mThreeDHighlight
-=
-kBlack
-;
-nscolor
-mThreeDShadow
+mFrameBorder
 =
 kBlack
 ;
