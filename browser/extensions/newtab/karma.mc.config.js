@@ -1519,7 +1519,7 @@ branches
 *
 *
 *
-WallpaperSection
+WallpaperCategories
 .
 jsx
 is
@@ -1537,9 +1537,9 @@ src
 /
 components
 /
-WallpapersSection
+WallpaperCategories
 /
-*
+WallpaperCategories
 .
 jsx
 "
