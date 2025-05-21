@@ -230,6 +230,14 @@ windows2022
 -
 32
 "
+    
+"
+mac
+"
+:
+"
+macosx64
+"
 }
 def
 filter_platform
