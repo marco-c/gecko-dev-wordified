@@ -215,11 +215,6 @@ path
 )
 class
 Repository
-(
-abc
-.
-ABC
-)
 :
     
 "
@@ -283,6 +278,12 @@ this
 "
 "
 "
+    
+__metaclass__
+=
+abc
+.
+ABCMeta
     
 def
 __init__
@@ -904,11 +905,9 @@ installed
 return
 False
     
-property
-    
 abc
 .
-abstractmethod
+abstractproperty
     
 def
 name
@@ -929,11 +928,9 @@ tool
 "
 "
     
-property
-    
 abc
 .
-abstractmethod
+abstractproperty
     
 def
 head_ref
@@ -986,11 +983,9 @@ repo
 "
 "
     
-property
-    
 abc
 .
-abstractmethod
+abstractproperty
     
 def
 base_ref
@@ -1094,11 +1089,9 @@ on
 "
 "
     
-property
-    
 abc
 .
-abstractmethod
+abstractproperty
     
 def
 branch
@@ -2492,7 +2485,7 @@ abc
 abstractmethod
     
 def
-get_commits
+get_branch_nodes
 (
         
 self

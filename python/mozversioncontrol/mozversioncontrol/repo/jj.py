@@ -544,7 +544,7 @@ methods
 such
 as
         
-get_commits
+get_branch_nodes
 .
         
 "
@@ -565,7 +565,7 @@ n0
 )
     
 def
-_resolve_to_change
+resolve_to_change
 (
 self
 revset
@@ -741,7 +741,7 @@ semantics
 return
 self
 .
-_resolve_to_change
+resolve_to_change
 (
 "
 "
@@ -779,7 +779,7 @@ ref
 =
 self
 .
-_resolve_to_change
+resolve_to_change
 (
 "
 latest
@@ -808,7 +808,7 @@ self
 head_ref
     
 def
-_resolve_to_commit
+resolve_to_commit
 (
 self
 revset
@@ -1450,7 +1450,7 @@ rev
 =
 self
 .
-_resolve_to_commit
+resolve_to_commit
 (
 rev
 )
@@ -2349,7 +2349,7 @@ value
 )
     
 def
-get_commits
+get_branch_nodes
 (
         
 self
@@ -2548,7 +2548,7 @@ splitlines
 )
     
 def
-_looks_like_change_id
+looks_like_change_id
 (
 self
 id
@@ -2585,7 +2585,7 @@ id
 )
     
 def
-_looks_like_commit_id
+looks_like_commit_id
 (
 self
 id
@@ -2680,14 +2680,14 @@ id
 if
 self
 .
-_looks_like_commit_id
+looks_like_commit_id
 (
 id
 )
 else
 self
 .
-_resolve_to_commit
+resolve_to_commit
 (
 id
 )
@@ -2971,7 +2971,7 @@ _snapshot
 yield
 self
 .
-_resolve_to_change
+resolve_to_change
 (
 "
 "

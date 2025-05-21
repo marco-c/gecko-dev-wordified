@@ -2440,7 +2440,7 @@ a
 )
     
 def
-get_commits
+get_branch_nodes
 (
         
 self
