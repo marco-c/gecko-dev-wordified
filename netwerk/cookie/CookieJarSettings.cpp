@@ -2930,6 +2930,10 @@ attrs
 mPartitionKey
 )
 ;
+mToBeMerged
+=
+true
+;
 }
 void
 CookieJarSettings
@@ -2988,6 +2992,10 @@ UpdatePartitionKeyWithForeignAncestorBit
 mPartitionKey
 foreignByAncestorContext
 )
+;
+mToBeMerged
+=
+true
 ;
 }
 void
@@ -3216,6 +3224,10 @@ aChannel
 )
 mIsOnContentBlockingAllowList
 )
+;
+mToBeMerged
+=
+true
 ;
 }
 /
