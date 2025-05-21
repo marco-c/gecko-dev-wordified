@@ -1886,7 +1886,7 @@ surf
 }
 }
 }
-NS_IMETHODIMP
+void
 nsNativeThemeGTK
 :
 :
@@ -1957,7 +1957,6 @@ gtkType
 )
 {
 return
-NS_OK
 ;
 }
 gfxContext
@@ -2300,7 +2299,6 @@ drawingRect
 )
 {
 return
-NS_OK
 ;
 }
 Transparency
@@ -2545,9 +2543,6 @@ ToUnknownSize
 )
 transparency
 )
-;
-return
-NS_OK
 ;
 }
 bool

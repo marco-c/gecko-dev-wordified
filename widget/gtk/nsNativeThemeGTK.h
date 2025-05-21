@@ -138,7 +138,7 @@ The
 nsITheme
 interface
 .
-NS_IMETHOD
+void
 DrawWidgetBackground
 (
 gfxContext

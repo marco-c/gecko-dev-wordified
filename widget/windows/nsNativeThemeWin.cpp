@@ -5054,7 +5054,7 @@ PresContext
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsNativeThemeWin
 :
 :
@@ -5123,7 +5123,7 @@ if
 !
 theme
 )
-return
+{
 ClassicDrawWidgetBackground
 (
 aContext
@@ -5133,6 +5133,9 @@ aRect
 aDirtyRect
 )
 ;
+return
+;
+}
 /
 /
 ^
@@ -5170,9 +5173,10 @@ NS_FAILED
 rv
 )
 )
+{
 return
-rv
 ;
+}
 if
 (
 AssumeThemePartAndStateAreTransparent
@@ -5183,7 +5187,6 @@ state
 )
 {
 return
-NS_OK
 ;
 }
 gfxContextMatrixAutoSaveRestore
@@ -5359,9 +5362,10 @@ if
 !
 hdc
 )
+{
 return
-NS_ERROR_FAILURE
 ;
+}
 nativeDrawing
 .
 TransformToNativeRect
@@ -6490,9 +6494,6 @@ nativeDrawing
 PaintToContext
 (
 )
-;
-return
-NS_OK
 ;
 }
 bool
@@ -8197,7 +8198,7 @@ aAttribute
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsNativeThemeWin
 :
 :
@@ -8228,9 +8229,6 @@ mMinimumWidgetSizeCacheValid
 mGutterSizeCacheValid
 =
 false
-;
-return
-NS_OK
 ;
 }
 bool
@@ -10575,8 +10573,8 @@ focused
 nsresult
 rv
 ;
-rv
-=
+MOZ_TRY
+(
 ClassicGetThemePartAndState
 (
 aFrame
@@ -10585,16 +10583,7 @@ part
 state
 focused
 )
-;
-if
-(
-NS_FAILED
-(
-rv
 )
-)
-return
-rv
 ;
 if
 (
