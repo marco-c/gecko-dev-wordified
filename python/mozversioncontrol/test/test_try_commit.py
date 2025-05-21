@@ -132,6 +132,17 @@ as
 head
 :
             
+if
+vcs
+.
+name
+!
+=
+"
+src
+"
+:
+                
 assert
 vcs
 .

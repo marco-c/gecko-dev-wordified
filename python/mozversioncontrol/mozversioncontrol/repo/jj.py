@@ -565,7 +565,7 @@ n0
 )
     
 def
-resolve_to_change
+_resolve_to_change
 (
 self
 revset
@@ -741,7 +741,7 @@ semantics
 return
 self
 .
-resolve_to_change
+_resolve_to_change
 (
 "
 "
@@ -779,7 +779,7 @@ ref
 =
 self
 .
-resolve_to_change
+_resolve_to_change
 (
 "
 latest
@@ -808,7 +808,7 @@ self
 head_ref
     
 def
-resolve_to_commit
+_resolve_to_commit
 (
 self
 revset
@@ -888,7 +888,7 @@ self
 return
 self
 .
-resolve_to_commit
+_resolve_to_commit
 (
 self
 .
@@ -1450,7 +1450,7 @@ rev
 =
 self
 .
-resolve_to_commit
+_resolve_to_commit
 (
 rev
 )
@@ -2548,7 +2548,7 @@ splitlines
 )
     
 def
-looks_like_change_id
+_looks_like_change_id
 (
 self
 id
@@ -2585,7 +2585,7 @@ id
 )
     
 def
-looks_like_commit_id
+_looks_like_commit_id
 (
 self
 id
@@ -2680,14 +2680,14 @@ id
 if
 self
 .
-looks_like_commit_id
+_looks_like_commit_id
 (
 id
 )
 else
 self
 .
-resolve_to_commit
+_resolve_to_commit
 (
 id
 )
@@ -2971,7 +2971,7 @@ _snapshot
 yield
 self
 .
-resolve_to_change
+_resolve_to_change
 (
 "
 "
