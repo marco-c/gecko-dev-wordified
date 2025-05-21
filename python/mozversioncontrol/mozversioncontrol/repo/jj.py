@@ -544,7 +544,7 @@ methods
 such
 as
         
-get_branch_nodes
+get_commits
 .
         
 "
@@ -2349,7 +2349,7 @@ value
 )
     
 def
-get_branch_nodes
+get_commits
 (
         
 self
