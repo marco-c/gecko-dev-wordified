@@ -96,7 +96,6 @@ is_true
 def
 run_condition_true
 (
-self
 command_context
 )
 :
@@ -121,7 +120,6 @@ is_false
 def
 run_condition_false
 (
-self
 command_context
 )
 :
@@ -148,7 +146,6 @@ is_false
 def
 run_condition_true_and_false
 (
-self
 command_context
 )
 :
@@ -221,7 +218,6 @@ is_ctx_foo
 def
 run_foo_ctx
 (
-self
 command_context
 )
 :
@@ -246,7 +242,6 @@ is_ctx_bar
 def
 run_bar_ctx
 (
-self
 command_context
 )
 :
@@ -272,7 +267,6 @@ is_ctx_bar
 def
 run_foobar_ctx
 (
-self
 command_context
 )
 :
