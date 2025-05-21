@@ -735,11 +735,15 @@ gBrowser
 adoptTabGroup
 (
 otherTabGroup
+{
+tabIndex
+:
 gBrowser
 .
 tabs
 .
 length
+}
 )
 ;
 adoptedTabGroup

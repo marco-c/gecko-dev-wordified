@@ -3433,7 +3433,11 @@ gBrowser
 adoptTabGroup
 (
 group
+{
+elementIndex
+:
 0
+}
 )
 ;
 let

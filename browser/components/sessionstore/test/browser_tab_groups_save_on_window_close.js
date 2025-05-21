@@ -1086,7 +1086,11 @@ tabGroups
 [
 0
 ]
+{
+elementIndex
+:
 2
+}
 )
 ;
 await

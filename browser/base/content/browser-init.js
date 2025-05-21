@@ -1743,7 +1743,11 @@ adoptTabGroup
 tabToAdopt
 .
 group
+{
+elementIndex
+:
 0
+}
 )
 ;
 gBrowser
