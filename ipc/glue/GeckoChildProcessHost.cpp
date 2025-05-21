@@ -7204,6 +7204,12 @@ mChildArgs
 ;
 #
 if
+defined
+(
+XP_LINUX
+)
+&
+&
 !
 defined
 (
@@ -7249,6 +7255,12 @@ mChildArgs
 endif
 /
 /
+defined
+(
+XP_LINUX
+)
+&
+&
 !
 defined
 (
