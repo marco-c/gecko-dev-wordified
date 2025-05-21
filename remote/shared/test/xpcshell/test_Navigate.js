@@ -268,12 +268,8 @@ originalURI
 uri
 ;
 }
-get
 QueryInterface
-(
-)
-{
-return
+=
 ChromeUtils
 .
 generateQI
@@ -288,7 +284,6 @@ nsIChannel
 ]
 )
 ;
-}
 }
 class
 MockWebProgress
