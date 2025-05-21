@@ -41089,6 +41089,7 @@ PointerEventHandler
 :
 ShouldDispatchClickEventOnCapturingElement
 (
+aEvent
 )
 )
 {
