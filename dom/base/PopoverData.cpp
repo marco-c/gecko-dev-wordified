@@ -297,8 +297,7 @@ NS_IMPL_ISUPPORTS
 PopoverCloseWatcherListener
 nsIDOMEventListener
 )
-CloseWatcher
-&
+void
 PopoverData
 :
 :
@@ -417,6 +416,11 @@ EnsureCloseWatcherManager
 (
 )
 ;
+MOZ_ASSERT
+(
+mCloseWatcher
+)
+;
 manager
 -
 >
@@ -429,10 +433,6 @@ mCloseWatcher
 }
 }
 }
-return
-*
-mCloseWatcher
-;
 }
 CloseWatcher
 *
