@@ -877,6 +877,8 @@ nsString
 aFontName
 gfxFontStyle
 &
+float
+aTextScaleFactor
 )
 const
 ;
@@ -1200,6 +1202,13 @@ TitlebarAction
 :
 :
 None
+;
+float
+mTextScaleFactor
+=
+1
+.
+0f
 ;
 RefPtr
 <
