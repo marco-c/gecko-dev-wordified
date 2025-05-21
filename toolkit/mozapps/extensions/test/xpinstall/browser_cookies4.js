@@ -198,7 +198,7 @@ Ci
 .
 nsICookie
 .
-SAMESITE_NONE
+SAMESITE_UNSET
 Ci
 .
 nsICookie
@@ -294,7 +294,7 @@ gBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 TESTROOT

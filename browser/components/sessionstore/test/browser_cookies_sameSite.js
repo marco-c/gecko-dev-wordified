@@ -463,7 +463,7 @@ Ci
 .
 nsICookie
 .
-SAMESITE_NONE
+SAMESITE_UNSET
 )
 ;
 await
@@ -496,7 +496,7 @@ Ci
 .
 nsICookie
 .
-SAMESITE_NONE
+SAMESITE_UNSET
 )
 ;
 await
