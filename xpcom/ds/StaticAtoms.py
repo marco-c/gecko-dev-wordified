@@ -20551,16 +20551,6 @@ onpointerleave
 Atom
 (
 "
-onpointerrawupdate
-"
-"
-onpointerrawupdate
-"
-)
-    
-Atom
-(
-"
 ongotpointercapture
 "
 "
