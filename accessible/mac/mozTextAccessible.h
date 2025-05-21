@@ -155,7 +155,7 @@ moxRequired
 override
 -
 (
-NSNumber
+NSString
 *
 )
 moxInvalid
