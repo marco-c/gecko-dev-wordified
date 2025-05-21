@@ -2871,6 +2871,13 @@ deleteModels
 {
 model
 revision
+deletedBy
+:
+"
+about
+:
+inference
+"
 }
 )
 ;

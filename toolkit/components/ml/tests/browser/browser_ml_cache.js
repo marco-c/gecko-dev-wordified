@@ -8725,7 +8725,11 @@ cache
 .
 deleteFilesByEngine
 (
+{
+engineId
+:
 engineOne
+}
 )
 ;
 retrievedData
@@ -8794,7 +8798,11 @@ cache
 .
 deleteFilesByEngine
 (
+{
+engineId
+:
 engineTwo
+}
 )
 ;
 /
@@ -9012,7 +9020,11 @@ hub
 .
 deleteFilesByEngine
 (
+{
+engineId
+:
 engineOne
+}
 )
 ;
 /
