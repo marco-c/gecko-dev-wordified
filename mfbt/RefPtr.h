@@ -556,6 +556,7 @@ mRawPtr
 /
 /
 Constructors
+constexpr
 RefPtr
 (
 )
