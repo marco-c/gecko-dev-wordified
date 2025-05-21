@@ -1160,6 +1160,13 @@ view
 -
 transition
 -
+class
+"
+"
+view
+-
+transition
+-
 name
 "
 "
