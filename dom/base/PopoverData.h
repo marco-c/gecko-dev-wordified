@@ -351,6 +351,11 @@ GetCloseWatcher
 (
 )
 ;
+void
+DestroyCloseWatcher
+(
+)
+;
 PopoverAttributeState
 GetPopoverAttributeState
 (
