@@ -2259,7 +2259,7 @@ value
 )
     
 def
-get_branch_nodes
+get_commits
 (
         
 self

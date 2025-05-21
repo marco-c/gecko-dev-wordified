@@ -613,7 +613,7 @@ hg
 log
 .
     
-branch_nodes_kwargs
+get_commits_kwargs
 =
 {
 }
@@ -626,27 +626,25 @@ HgRepository
 )
 :
         
-branch_nodes_kwargs
+get_commits_kwargs
 [
 "
 base_ref
 "
 ]
 =
-vcs
-.
-base_ref
+base_commit
     
 nodes
 =
 vcs
 .
-get_branch_nodes
+get_commits
 (
 head
 *
 *
-branch_nodes_kwargs
+get_commits_kwargs
 )
     
 if
