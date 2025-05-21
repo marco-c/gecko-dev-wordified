@@ -214,6 +214,15 @@ return
 mApzResponse
 ;
 }
+void
+NotifyTouchRawUpdateOfHandled
+(
+const
+WidgetTouchEvent
+&
+aEvent
+)
+;
 private
 :
 Touch
