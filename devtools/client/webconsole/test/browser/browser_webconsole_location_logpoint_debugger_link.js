@@ -436,10 +436,10 @@ expectUrl
 true
 expectLine
 :
-false
+true
 expectColumn
 :
-false
+true
 logPointExpr
 :
 "
@@ -491,10 +491,10 @@ expectUrl
 true
 expectLine
 :
-false
+true
 expectColumn
 :
-false
+true
 logPointExpr
 :
 "
