@@ -1309,9 +1309,8 @@ call
 this
 )
 ;
-assert_true
+assert_unreached
 (
-false
 '
 Graph
 builder
