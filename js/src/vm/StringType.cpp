@@ -17565,7 +17565,7 @@ template
 typename
 CharT
 >
-size_t
+void
 JSLinearString
 :
 :
@@ -17639,7 +17639,6 @@ chars
 pointer
 .
 return
-0
 ;
 }
 /
@@ -17697,7 +17696,6 @@ nogc
 )
 {
 return
-0
 ;
 }
 /
@@ -17833,12 +17831,9 @@ MemoryUse
 StringContents
 )
 ;
-return
-nbytes
-;
 }
 template
-size_t
+void
 JSLinearString
 :
 :
@@ -17856,7 +17851,7 @@ str
 )
 ;
 template
-size_t
+void
 JSLinearString
 :
 :
