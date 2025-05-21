@@ -168,10 +168,10 @@ transaction
 )
 {
 return
-gHttpHandler
--
->
-ActiveTabPriority
+StaticPrefs
+:
+:
+network_http_active_tab_priority
 (
 )
 ?
