@@ -260,9 +260,12 @@ descriptor
 )
 ;
 await
+tabDescriptor
+.
 navigateTo
 (
 EXAMPLE_ORG_URI
+true
 )
 ;
 info

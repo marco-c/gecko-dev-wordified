@@ -1167,13 +1167,13 @@ props
 .
 toolbox
 .
-target
+commands
+.
+targetCommand
 .
 navigateTo
 (
-{
 url
-}
 )
 ;
 }
