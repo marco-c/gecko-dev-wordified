@@ -1309,15 +1309,6 @@ TransactionObserverFunc
 &
 &
 transactionObserver
-OnPushCallback
-&
-&
-aOnPushCallback
-HttpTransactionShell
-*
-transWithPushedStream
-uint32_t
-aPushedStreamId
 )
 {
 nsresult
