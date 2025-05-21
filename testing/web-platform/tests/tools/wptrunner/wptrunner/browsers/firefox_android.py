@@ -1173,7 +1173,7 @@ fission
 disableSessionHistoryInParent
 "
 :
-False
+True
 }
     
 def
