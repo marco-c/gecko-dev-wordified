@@ -1037,11 +1037,11 @@ COOKIE_GROUP
 2
 |
 {
-message2
+message1
 }
 |
 {
-message1
+message2
 }
 ]
 )

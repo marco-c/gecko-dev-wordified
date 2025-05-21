@@ -541,10 +541,10 @@ validateTelemetryValues
 {
 setCookies
 :
-5
+6
 setForeigns
 :
-1
+2
 setPartitioneds
 :
 3
@@ -656,10 +656,10 @@ validateTelemetryValues
 {
 setCookies
 :
-6
+8
 setForeigns
 :
-2
+4
 setPartitioneds
 :
 4

@@ -188,7 +188,7 @@ Ci
 .
 nsICookie
 .
-SAMESITE_UNSET
+SAMESITE_NONE
 Ci
 .
 nsICookie
