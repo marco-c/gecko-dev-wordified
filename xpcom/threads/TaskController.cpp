@@ -6132,7 +6132,7 @@ result
 )
 {
 case
-purge_result_t
+may_purge_now_result_t
 :
 :
 Done
@@ -6241,7 +6241,7 @@ CancelIdleMemoryCleanupTimerAndRunner
 break
 ;
 case
-purge_result_t
+may_purge_now_result_t
 :
 :
 WantsLater
@@ -6312,7 +6312,7 @@ wantsLaterDelay
 break
 ;
 case
-purge_result_t
+may_purge_now_result_t
 :
 :
 NeedsMore
@@ -6568,7 +6568,7 @@ memory_lazypurge_reuse_grace_period
 (
 )
 ;
-purge_result_t
+may_purge_now_result_t
 result
 ;
 do
@@ -6619,7 +6619,7 @@ while
 result
 =
 =
-purge_result_t
+may_purge_now_result_t
 :
 :
 NeedsMore
@@ -6652,7 +6652,7 @@ result
 )
 {
 case
-purge_result_t
+may_purge_now_result_t
 :
 :
 Done
@@ -6684,7 +6684,7 @@ CancelIdleMemoryCleanupTimerAndRunner
 break
 ;
 case
-purge_result_t
+may_purge_now_result_t
 :
 :
 WantsLater
@@ -6719,7 +6719,7 @@ aWantsLaterDelay
 break
 ;
 case
-purge_result_t
+may_purge_now_result_t
 :
 :
 NeedsMore
