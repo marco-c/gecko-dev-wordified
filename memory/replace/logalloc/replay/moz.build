@@ -774,3 +774,16 @@ replace_malloc
 mozbuild
 "
 )
+include
+(
+"
+/
+mozglue
+/
+misc
+/
+timestamp
+.
+mozbuild
+"
+)
