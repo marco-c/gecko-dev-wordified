@@ -316,7 +316,7 @@ Assert
 .
 rejects
 (
-RemoteSettingsExperimentLoader
+ExperimentAPI
 .
 optInToExperiment
 (
@@ -377,7 +377,7 @@ true
 )
 ;
 await
-RemoteSettingsExperimentLoader
+ExperimentAPI
 .
 optInToExperiment
 (
@@ -440,7 +440,7 @@ Assert
 .
 rejects
 (
-RemoteSettingsExperimentLoader
+ExperimentAPI
 .
 optInToExperiment
 (
@@ -550,7 +550,7 @@ Assert
 .
 rejects
 (
-RemoteSettingsExperimentLoader
+ExperimentAPI
 .
 optInToExperiment
 (
@@ -658,7 +658,7 @@ recipe
 )
 ;
 await
-RemoteSettingsExperimentLoader
+ExperimentAPI
 .
 optInToExperiment
 (
@@ -763,7 +763,7 @@ Assert
 .
 rejects
 (
-RemoteSettingsExperimentLoader
+ExperimentAPI
 .
 optInToExperiment
 (
@@ -898,7 +898,7 @@ Assert
 .
 rejects
 (
-RemoteSettingsExperimentLoader
+ExperimentAPI
 .
 optInToExperiment
 (
@@ -1022,7 +1022,7 @@ Assert
 .
 rejects
 (
-RemoteSettingsExperimentLoader
+ExperimentAPI
 .
 optInToExperiment
 (
@@ -1146,7 +1146,7 @@ Assert
 .
 rejects
 (
-RemoteSettingsExperimentLoader
+ExperimentAPI
 .
 optInToExperiment
 (
