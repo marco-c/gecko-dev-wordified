@@ -4190,6 +4190,10 @@ channel_
 else
 :
             
+rev
+=
+None
+            
 version
 =
 None
