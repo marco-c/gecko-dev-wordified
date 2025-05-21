@@ -2897,9 +2897,7 @@ if
 !
 self
 .
-in_media_or_container_query
-(
-)
+in_media_query
 {
 flags
 |
