@@ -2679,6 +2679,7 @@ MallocAllocPolicy
 >
 class
 MOZ_NON_PARAM
+MOZ_GSL_OWNER
 Vector
 final
 :
