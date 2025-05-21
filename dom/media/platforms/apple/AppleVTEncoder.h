@@ -340,11 +340,6 @@ GetDescriptionName
 const
 override
 {
-MOZ_ASSERT
-(
-mSession
-)
-;
 return
 mIsHardwareAccelerated
 ?
