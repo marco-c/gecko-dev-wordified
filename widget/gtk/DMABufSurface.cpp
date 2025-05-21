@@ -124,7 +124,7 @@ h
 #
 include
 "
-DMABufLibWrapper
+DMABufDevice
 .
 h
 "

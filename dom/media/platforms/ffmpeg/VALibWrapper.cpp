@@ -102,7 +102,7 @@ mozilla
 /
 widget
 /
-DMABufLibWrapper
+DMABufDevice
 .
 h
 "

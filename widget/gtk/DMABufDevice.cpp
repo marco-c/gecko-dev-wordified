@@ -110,7 +110,7 @@ MPL
 #
 include
 "
-DMABufLibWrapper
+DMABufDevice
 .
 h
 "
