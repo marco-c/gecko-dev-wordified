@@ -77,8 +77,6 @@ mozpack
 path
 as
 mozpath
-import
-six
 from
 mach
 .
@@ -1948,7 +1946,7 @@ argument
         
 out
 =
-six
+io
 .
 StringIO
 (

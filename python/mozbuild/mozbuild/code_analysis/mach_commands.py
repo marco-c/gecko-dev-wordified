@@ -99,8 +99,6 @@ path
 as
 mozpath
 import
-six
-import
 yaml
 from
 mach
@@ -11673,10 +11671,6 @@ changes
     
 content
 =
-six
-.
-ensure_str
-(
 open
 (
 path
@@ -11684,7 +11678,6 @@ path
 .
 read
 (
-)
 )
     
 def

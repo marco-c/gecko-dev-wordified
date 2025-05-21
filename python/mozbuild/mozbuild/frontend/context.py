@@ -307,8 +307,6 @@ mozpack
 path
 as
 mozpath
-import
-six
 from
 mozbuild
 .
@@ -6306,14 +6304,11 @@ value
 class
 Path
 (
-six
-.
-with_metaclass
-(
-PathMeta
 ContextDerivedValue
 str
-)
+metaclass
+=
+PathMeta
 )
 :
     

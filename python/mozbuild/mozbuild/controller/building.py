@@ -89,8 +89,6 @@ from
 textwrap
 import
 TextWrapper
-import
-six
 from
 mach
 .
@@ -2601,15 +2599,11 @@ fh
                 
 to_write
 =
-six
-.
-ensure_text
-(
-                    
 json
 .
 dumps
 (
+                    
 self
 .
 resources
@@ -2625,7 +2619,6 @@ separators
 "
 :
 "
-)
 )
                 
 )
@@ -6329,15 +6322,6 @@ self
 line
 )
 :
-        
-line
-=
-six
-.
-ensure_text
-(
-line
-)
         
 for
 stat_key
@@ -11813,53 +11797,46 @@ fh
             
 to_write
 =
-six
-.
-ensure_text
-(
-                
 json
 .
 dumps
 (
-                    
+                
 {
-                        
-"
-topsrcdir
-"
-:
-self
-.
-topsrcdir
-                        
-"
-topobjdir
-"
-:
-self
-.
-topobjdir
-                        
-"
-mozconfig
-"
-:
-self
-.
-mozconfig
                     
+"
+topsrcdir
+"
+:
+self
+.
+topsrcdir
+                    
+"
+topobjdir
+"
+:
+self
+.
+topobjdir
+                    
+"
+mozconfig
+"
+:
+self
+.
+mozconfig
+                
 }
-                    
+                
 sort_keys
 =
 True
-                    
+                
 indent
 =
 2
-                
-)
             
 )
             
@@ -12766,7 +12743,7 @@ substs
         
 clobber_output
 =
-six
+io
 .
 StringIO
 (

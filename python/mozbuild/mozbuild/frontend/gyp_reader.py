@@ -77,8 +77,6 @@ mozpack
 path
 as
 mozpath
-import
-six
 from
 mozpack
 .
@@ -1772,17 +1770,12 @@ name
             
 name
 =
-six
-.
-ensure_text
-(
 spec
 [
 "
 target_name
 "
 ]
-)
             
 if
 spec

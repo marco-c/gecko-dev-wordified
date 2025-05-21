@@ -53,22 +53,14 @@ MPL
 0
 /
 .
+import
+configparser
 from
 mozpack
 .
 files
 import
 FileFinder
-from
-six
-import
-string_types
-from
-six
-.
-moves
-import
-configparser
 def
 get_application_ini_value
 (
@@ -239,7 +231,7 @@ if
 isinstance
 (
 finder_or_application_directory
-string_types
+str
 )
 :
         
