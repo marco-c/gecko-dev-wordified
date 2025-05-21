@@ -423,7 +423,7 @@ runningInInterpreter
 )
 |
 |
-isSelfHosted
+isRealmIndependent
 (
 )
 )
