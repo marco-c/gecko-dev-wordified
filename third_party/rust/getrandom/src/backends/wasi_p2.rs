@@ -34,6 +34,10 @@ random
 :
 get_random_u64
 ;
+#
+[
+inline
+]
 pub
 fn
 inner_u32
@@ -68,6 +72,10 @@ val
 )
 )
 }
+#
+[
+inline
+]
 pub
 fn
 inner_u64
@@ -88,6 +96,10 @@ get_random_u64
 )
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fill_inner

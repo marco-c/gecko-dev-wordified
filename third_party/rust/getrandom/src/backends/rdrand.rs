@@ -1230,6 +1230,10 @@ b
 )
 )
 }
+#
+[
+inline
+]
 pub
 fn
 inner_u32
@@ -1290,6 +1294,10 @@ Error
 FAILED_RDRAND
 )
 }
+#
+[
+inline
+]
 pub
 fn
 inner_u64
@@ -1350,6 +1358,10 @@ Error
 FAILED_RDRAND
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fill_inner

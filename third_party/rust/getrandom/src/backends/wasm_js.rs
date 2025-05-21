@@ -162,6 +162,10 @@ atomics
 )
 )
 ]
+#
+[
+inline
+]
 pub
 fn
 fill_inner

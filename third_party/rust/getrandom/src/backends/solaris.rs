@@ -285,6 +285,10 @@ usize
 =
 1024
 ;
+#
+[
+inline
+]
 pub
 fn
 fill_inner

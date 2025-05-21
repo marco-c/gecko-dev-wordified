@@ -18,7 +18,10 @@ realloc
 sh
 #
 [
+unsafe
+(
 no_mangle
+)
 ]
 pub
 unsafe
@@ -27,7 +30,7 @@ extern
 C
 "
 fn
-cabi_realloc_wit_bindgen_0_21_0
+cabi_realloc_wit_bindgen_0_39_0
 (
 old_ptr
 :

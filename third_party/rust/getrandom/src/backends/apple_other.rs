@@ -46,6 +46,10 @@ inner_u32
 inner_u64
 }
 ;
+#
+[
+inline
+]
 pub
 fn
 fill_inner

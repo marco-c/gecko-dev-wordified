@@ -63,6 +63,10 @@ usize
 )
 ;
 }
+#
+[
+inline
+]
 pub
 fn
 fill_inner

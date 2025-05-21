@@ -539,6 +539,10 @@ on
 top
 of
 fill_uninit
+#
+[
+inline
+]
 pub
 fn
 inner_u32
@@ -682,6 +686,10 @@ on
 top
 of
 fill_uninit
+#
+[
+inline
+]
 pub
 fn
 inner_u64

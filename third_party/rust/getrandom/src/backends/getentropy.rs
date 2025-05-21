@@ -126,6 +126,10 @@ rs
 mod
 util_libc
 ;
+#
+[
+inline
+]
 pub
 fn
 fill_inner
