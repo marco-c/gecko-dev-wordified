@@ -13471,7 +13471,6 @@ effectiveTitlebarStyle
 =
 HeaderBarShouldDrawContainer
 (
-MOZ_GTK_HEADER_BAR
 )
 ?
 MOZ_GTK_HEADERBAR_FIXED
