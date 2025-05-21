@@ -739,6 +739,7 @@ capturer
 s
 lifetime
 .
+const
 DesktopCaptureOptions
 capture_options_
 ;
