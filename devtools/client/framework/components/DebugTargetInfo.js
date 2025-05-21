@@ -2225,7 +2225,9 @@ props
 .
 toolbox
 .
-target
+commands
+.
+targetCommand
 .
 goBack
 (
@@ -2282,7 +2284,9 @@ props
 .
 toolbox
 .
-target
+commands
+.
+targetCommand
 .
 goForward
 (
