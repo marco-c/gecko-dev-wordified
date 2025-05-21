@@ -677,6 +677,14 @@ mozilla
 -
 esr128
 "
+        
+"
+releases
+/
+mozilla
+-
+esr140
+"
     
 ]
     
@@ -6684,6 +6692,14 @@ releases
 comm
 -
 esr128
+"
+        
+"
+releases
+/
+comm
+-
+esr140
 "
     
 ]
