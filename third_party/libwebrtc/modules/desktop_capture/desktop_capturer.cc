@@ -231,6 +231,13 @@ defined
 (
 WEBRTC_MAC
 )
+&
+&
+!
+defined
+(
+WEBRTC_IOS
+)
 #
 include
 "
@@ -731,6 +738,13 @@ elif
 defined
 (
 WEBRTC_MAC
+)
+&
+&
+!
+defined
+(
+WEBRTC_IOS
 )
 capturer
 =
