@@ -122,12 +122,10 @@ define
 NS_PKCS11MODULEDB_CID
 \
 {
-\
 0xff9fbcd7
 0x9517
 0x4334
 {
-\
 0xb9
 0x7a
 0xce
@@ -136,9 +134,7 @@ NS_PKCS11MODULEDB_CID
 0x90
 0x99
 0x74
-\
 }
-\
 }
 class
 PKCS11ModuleDB

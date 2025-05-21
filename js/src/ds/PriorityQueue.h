@@ -343,9 +343,9 @@ necessary
 move
 semantics
 for
+/
+/
 working
-/
-/
 with
 UniquePtrs
 in
@@ -356,8 +356,6 @@ should
 be
 used
 together
-/
-/
 Example
 :
 /
@@ -479,9 +477,9 @@ only
 be
 used
 for
+/
+/
 other
-/
-/
 datatypes
 .
 T

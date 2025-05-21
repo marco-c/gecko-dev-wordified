@@ -431,8 +431,15 @@ hash
 }
 #
 endif
+mozilla
+:
+:
+UniquePtr
+<
 char
-*
+[
+]
+>
 ConstructCommandLine
 (
 int32_t

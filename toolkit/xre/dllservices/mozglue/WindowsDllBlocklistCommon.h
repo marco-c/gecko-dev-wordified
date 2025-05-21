@@ -202,6 +202,7 @@ define
 DLL_BLOCKLIST_DEFINITIONS_END
 \
 {
+\
 }
 \
 }

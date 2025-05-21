@@ -162,12 +162,10 @@ define
 NS_CACHEDFAVICONPROTOCOLHANDLER_CID
 \
 {
-\
 0xe8b8bdb7
 0xc96c
 0x4d82
 {
-\
 0x9c
 0x6f
 0x2b
@@ -176,9 +174,7 @@ NS_CACHEDFAVICONPROTOCOLHANDLER_CID
 0x5e
 0xc7
 0xea
-\
 }
-\
 }
 class
 nsCachedFaviconProtocolHandler

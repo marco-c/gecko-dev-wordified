@@ -351,12 +351,10 @@ define
 IN_DEEPTREEWALKER_CID
 \
 {
-\
 0xbfcb82c2
 0x5611
 0x4318
 {
-\
 0x90
 0xd6
 0xba
@@ -365,9 +363,7 @@ IN_DEEPTREEWALKER_CID
 0x86
 0x42
 0x52
-\
 }
-\
 }
 #
 endif

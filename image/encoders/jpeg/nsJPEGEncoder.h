@@ -139,7 +139,6 @@ define
 NS_JPEGENCODER_CID
 \
 {
-\
 /
 *
 ac2bb8fe
@@ -155,10 +154,12 @@ be03932b56e0
 /
 \
 0xac2bb8fe
-0xeeeb
-0x4572
-{
 \
+0xeeeb
+\
+0x4572
+\
+{
 0xb4
 0x0f
 0xbe
@@ -167,9 +168,7 @@ be03932b56e0
 0x2b
 0x56
 0xe0
-\
 }
-\
 }
 /
 /

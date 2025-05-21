@@ -344,6 +344,7 @@ copy
 and
 refer
 to
+*
 that
 .
 *
@@ -404,8 +405,8 @@ inline
 in
 the
 lowest
-bit
 *
+bit
 which
 is
 set
@@ -421,10 +422,10 @@ not
 work
 with
 a
+*
 byte
 -
 aligned
-*
 data
 types
 or
@@ -438,10 +439,10 @@ There
 are
 asserts
 to
+*
 try
 and
 catch
-*
 this
 as
 early
@@ -466,8 +467,8 @@ mozilla
 :
 UniquePtr
 supports
--
 *
+-
 however
 these
 cases

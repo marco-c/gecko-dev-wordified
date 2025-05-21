@@ -154,12 +154,10 @@ define
 JSINSPECTOR_CID
 \
 {
-\
 0xec5aa99c
 0x7abb
 0x4142
 {
-\
 0xac
 0x5f
 0xaa
@@ -168,9 +166,7 @@ JSINSPECTOR_CID
 0x9e
 0x38
 0xe2
-\
 }
-\
 }
 namespace
 mozilla

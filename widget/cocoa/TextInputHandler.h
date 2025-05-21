@@ -5396,8 +5396,8 @@ E
 g
 .
 even
-if
 *
+if
 a
 text
 editor

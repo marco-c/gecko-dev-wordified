@@ -183,7 +183,6 @@ define
 NS_HTTPCOMPRESSCONVERTER_CID
 \
 {
-\
 /
 *
 66230b2b
@@ -199,10 +198,12 @@ abf4
 /
 \
 0x66230b2b
-0x17fa
-0x4bd3
-{
 \
+0x17fa
+\
+0x4bd3
+\
+{
 0xab
 0xf4
 0x07
@@ -211,9 +212,7 @@ abf4
 0x51
 0x02
 0x2d
-\
 }
-\
 }
 #
 define

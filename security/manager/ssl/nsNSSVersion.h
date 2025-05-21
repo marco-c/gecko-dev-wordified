@@ -144,12 +144,10 @@ define
 NS_NSSVERSION_CID
 \
 {
-\
 0x23ad3531
 0x11d2
 0x4e8e
 {
-\
 0x80
 0x5a
 0x6a
@@ -158,9 +156,7 @@ NS_NSSVERSION_CID
 0x91
 0x68
 0x1a
-\
 }
-\
 }
 #
 endif

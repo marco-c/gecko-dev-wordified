@@ -122,12 +122,10 @@ define
 NS_SSLSOCKETPROVIDER_CID
 \
 {
-\
 0x217d014a
 0x1dd2
 0x11b2
 {
-\
 0x99
 0x9c
 0xb0
@@ -136,9 +134,7 @@ NS_SSLSOCKETPROVIDER_CID
 0x79
 0xb3
 0x24
-\
 }
-\
 }
 class
 nsSSLSocketProvider

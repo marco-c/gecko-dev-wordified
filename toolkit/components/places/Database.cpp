@@ -14322,6 +14322,8 @@ tables
 for
 moz_newtab_story_click
 and
+/
+/
 moz_newtab_story_impression
 nsCOMPtr
 <

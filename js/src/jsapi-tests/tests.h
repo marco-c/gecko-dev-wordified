@@ -2867,13 +2867,13 @@ BEGIN_TEST_WITH_ATTRIBUTES_AND_EXTRA
 (
 \
 testname
+\
 cls_
 #
 #
 testname
 (
 )
-\
 :
 JSAPIRuntimeTest
 (

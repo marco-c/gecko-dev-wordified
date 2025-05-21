@@ -130,12 +130,10 @@ define
 NS_NSSDIALOGS_CID
 \
 {
-\
 0x518e071f
 0x1dd2
 0x11b2
 {
-\
 0x93
 0x7e
 0xc4
@@ -144,9 +142,7 @@ NS_NSSDIALOGS_CID
 0xde
 0xf7
 0x78
-\
 }
-\
 }
 class
 nsNSSDialogs

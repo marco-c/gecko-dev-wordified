@@ -130,12 +130,10 @@ define
 NS_SECRETDECODERRING_CID
 \
 {
-\
 0x0c4f1ddc
 0x1dd2
 0x11b2
 {
-\
 0x9d
 0x95
 0xf2
@@ -144,9 +142,7 @@ NS_SECRETDECODERRING_CID
 0x13
 0x04
 0x4b
-\
 }
-\
 }
 class
 SecretDecoderRing

@@ -141,12 +141,10 @@ define
 NS_SCRIPTABLEBASE64ENCODER_CID
 \
 {
-\
 0xaaf68860
 0xf849
 0x40ee
 {
-\
 0xbb
 0x7a
 0xb2
@@ -155,9 +153,7 @@ NS_SCRIPTABLEBASE64ENCODER_CID
 0xe0
 0x36
 0xa3
-\
 }
-\
 }
 #
 define
@@ -189,8 +185,9 @@ private
 nsScriptableBase64Encoder
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 #

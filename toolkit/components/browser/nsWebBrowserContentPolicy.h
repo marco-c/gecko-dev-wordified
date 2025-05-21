@@ -139,12 +139,10 @@ define
 NS_WEBBROWSERCONTENTPOLICY_CID
 \
 {
-\
 0xf66bc334
 0x1dd1
 0x11b2
 {
-\
 0xba
 0xb2
 0x90
@@ -153,9 +151,7 @@ NS_WEBBROWSERCONTENTPOLICY_CID
 0xe1
 0x5c
 0x19
-\
 }
-\
 }
 #
 define

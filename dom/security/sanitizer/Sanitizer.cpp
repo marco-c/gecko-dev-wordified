@@ -5692,6 +5692,8 @@ Text
 Comment
 Element
 or
+/
+/
 DocumentType
 .
 MOZ_ASSERT

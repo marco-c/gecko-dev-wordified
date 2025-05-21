@@ -125,12 +125,10 @@ define
 NS_IOUTIL_CID
 \
 {
-\
 0xeb833911
 0x4f49
 0x4623
 {
-\
 0x84
 0x5f
 0xe5
@@ -139,9 +137,7 @@ NS_IOUTIL_CID
 0x6d
 0xe4
 0xc2
-\
 }
-\
 }
 #
 include
@@ -170,8 +166,9 @@ nsIIOUtil
 nsIOUtil
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
