@@ -310,6 +310,19 @@ antitracking
 btpHasPurgedSite
 ;
 const
+etpCategory
+=
+atOverrides
+?
+.
+etpCategory
+?
+?
+antitracking
+.
+etpCategory
+;
+const
 extra_labels
 =
 [
@@ -633,6 +646,7 @@ btpHasPurgedSite
 isPB
 :
 isPrivateBrowsing
+etpCategory
 languages
 locales
 :

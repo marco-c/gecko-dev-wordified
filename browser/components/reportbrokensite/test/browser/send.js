@@ -1292,6 +1292,11 @@ false
 btpHasPurgedSite
 :
 false
+etpCategory
+:
+"
+standard
+"
 }
 frameworks
 :
