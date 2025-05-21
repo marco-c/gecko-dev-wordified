@@ -3670,6 +3670,11 @@ SystemAllocPolicy
 >
 selfHostJitCache
 ;
+void
+clearSelfHostedJitCache
+(
+)
+;
 private
 :
 /
