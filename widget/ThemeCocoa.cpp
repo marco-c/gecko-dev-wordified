@@ -131,7 +131,7 @@ mozilla
 :
 widget
 {
-NS_IMETHODIMP
+void
 ThemeCocoa
 :
 :
@@ -187,7 +187,6 @@ window
 server
 .
 return
-NS_OK
 ;
 default
 :
