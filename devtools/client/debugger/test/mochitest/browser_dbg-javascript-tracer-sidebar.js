@@ -1146,7 +1146,7 @@ waitForSelectedLocation
 (
 dbg
 1
-0
+1
 )
 ;
 focusedPausedFrame
@@ -1254,7 +1254,7 @@ waitForSelectedLocation
 (
 dbg
 1
-12
+13
 )
 ;
 focusedPausedFrame
