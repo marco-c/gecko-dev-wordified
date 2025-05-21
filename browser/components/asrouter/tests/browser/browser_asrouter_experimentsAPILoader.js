@@ -1769,7 +1769,7 @@ false
 )
 ;
 await
-ExperimentAPI
+RemoteSettingsExperimentLoader
 .
 optInToExperiment
 (
