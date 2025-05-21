@@ -22907,9 +22907,6 @@ name
 "
 onpointerrawupdate
 "
-disabled
-:
-true
 }
 /
 /
