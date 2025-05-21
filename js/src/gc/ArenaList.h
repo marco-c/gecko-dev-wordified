@@ -1977,15 +1977,6 @@ kind
 )
 const
 ;
-inline
-bool
-needBackgroundFinalizeWait
-(
-AllocKind
-kind
-)
-const
-;
 /
 *
 Clear
