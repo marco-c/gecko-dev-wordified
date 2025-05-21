@@ -341,7 +341,7 @@ The
 nsITheme
 interface
 .
-void
+NS_IMETHOD
 DrawWidgetBackground
 (
 gfxContext
@@ -488,7 +488,7 @@ aAttribute
 )
 override
 ;
-void
+NS_IMETHOD
 ThemeChanged
 (
 )
