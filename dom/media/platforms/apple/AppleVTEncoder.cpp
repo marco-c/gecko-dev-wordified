@@ -7755,6 +7755,10 @@ InvalidateSessionIfNeeded
 (
 )
 ;
+mIsHardwareAccelerated
+=
+false
+;
 mError
 =
 MediaResult
