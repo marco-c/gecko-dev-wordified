@@ -6182,6 +6182,15 @@ Result
 :
 :
 ERROR_OCSP_INVALID_SIGNING_CERT
+|
+|
+stapledOCSPResponseResult
+=
+=
+Result
+:
+:
+ERROR_OCSP_RESPONSE_FOR_CERT_MISSING
 )
 {
 /
