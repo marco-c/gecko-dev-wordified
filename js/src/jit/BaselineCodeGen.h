@@ -2572,6 +2572,17 @@ isSelfHosted
 const
 {
 return
+JS
+:
+:
+Prefs
+:
+:
+experimental_self_hosted_cache
+(
+)
+&
+&
 script
 (
 )
