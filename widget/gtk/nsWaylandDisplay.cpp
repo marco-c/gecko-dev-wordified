@@ -3673,6 +3673,13 @@ mDisplay
 aDisplay
 )
 {
+MOZ_DIAGNOSTIC_ASSERT
+(
+XRE_IsParentProcess
+(
+)
+)
+;
 /
 /
 GTK
