@@ -106,7 +106,7 @@ reject_delay
 .
 duration_ms
 "
-500
+1000
 ]
 ]
 }
@@ -132,14 +132,6 @@ function
 (
 )
 {
-content
-.
-document
-.
-notifyUserGestureActivation
-(
-)
-;
 let
 promise
 =
@@ -155,11 +147,6 @@ get
 identity
 :
 {
-mode
-:
-"
-active
-"
 providers
 :
 [
@@ -175,7 +162,7 @@ example
 .
 net
 /
-browser
+tests
 /
 dom
 /
