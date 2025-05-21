@@ -115,6 +115,8 @@ types
 registerFront
 getFront
 createRootFront
+BULK_REQUEST
+BULK_RESPONSE
 }
 =
 require
@@ -284,6 +286,18 @@ exports
 types
 =
 types
+;
+exports
+.
+BULK_REQUEST
+=
+BULK_REQUEST
+;
+exports
+.
+BULK_RESPONSE
+=
+BULK_RESPONSE
 ;
 exports
 .
