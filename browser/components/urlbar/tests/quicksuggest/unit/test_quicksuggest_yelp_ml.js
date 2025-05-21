@@ -118,10 +118,6 @@ suggestions
 attachment
 :
 {
-subjects
-:
-[
-]
 /
 /
 The
@@ -149,7 +145,7 @@ score
 right
 now
 .
-businessSubjects
+subjects
 :
 [
 "
@@ -410,6 +406,14 @@ yelp
 mlEnabled
 "
 true
+]
+[
+"
+yelp
+.
+serviceResultDistinction
+"
+false
 ]
 ]
 remoteSettingsRecords

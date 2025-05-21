@@ -177,6 +177,14 @@ featureGate
 "
 true
 ]
+[
+"
+yelp
+.
+serviceResultDistinction
+"
+true
+]
 ]
 }
 )
