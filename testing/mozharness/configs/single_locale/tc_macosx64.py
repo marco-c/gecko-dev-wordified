@@ -86,6 +86,19 @@ s
 "
         
 "
+EN_US_BINARY_URL
+"
+:
+os
+.
+environ
+[
+"
+EN_US_BINARY_URL
+"
+]
+        
+"
 DIST
 "
 :
