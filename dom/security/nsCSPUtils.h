@@ -1616,6 +1616,14 @@ nsIChannel
 aChannel
 )
 ;
+bool
+CSP_ShouldURIInheritCSP
+(
+nsIURI
+*
+aURI
+)
+;
 void
 CSP_ApplyMetaCSPToDoc
 (
