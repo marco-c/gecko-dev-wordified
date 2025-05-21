@@ -735,6 +735,8 @@ const
 ClientMetadata
 &
 aClientMetadata
+bool
+aCreateIfNonExistent
 RefPtr
 <
 UniversalDirectoryLock

@@ -380,6 +380,12 @@ InitializeTemporaryClient
 GetTestClientMetadata
 (
 )
+/
+*
+aCreateIfNonExistent
+*
+/
+true
 )
 )
 ;

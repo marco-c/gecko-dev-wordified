@@ -3339,6 +3339,10 @@ const
 Type
 &
 aClientType
+const
+bool
+&
+aCreateIfNonExistent
 InitializeTemporaryClientResolver
 &
 &
@@ -3495,6 +3499,7 @@ quotaManager
 InitializeTemporaryClient
 (
 clientMetadata
+aCreateIfNonExistent
 )
 -
 >

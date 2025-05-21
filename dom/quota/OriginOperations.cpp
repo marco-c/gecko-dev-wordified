@@ -2880,6 +2880,10 @@ InitializeTemporaryClientOp
 public
 InitializeClientBase
 {
+const
+bool
+mCreateIfNonExistent
+;
 public
 :
 InitializeTemporaryClientOp
@@ -2896,6 +2900,8 @@ const
 ClientMetadata
 &
 aClientMetadata
+bool
+aCreateIfNonExistent
 RefPtr
 <
 UniversalDirectoryLock
@@ -5329,6 +5335,8 @@ const
 ClientMetadata
 &
 aClientMetadata
+bool
+aCreateIfNonExistent
 RefPtr
 <
 UniversalDirectoryLock
@@ -5350,6 +5358,7 @@ move
 aQuotaManager
 )
 aClientMetadata
+aCreateIfNonExistent
 std
 :
 :
@@ -11221,6 +11230,8 @@ const
 ClientMetadata
 &
 aClientMetadata
+bool
+aCreateIfNonExistent
 RefPtr
 <
 UniversalDirectoryLock
@@ -11254,6 +11265,10 @@ move
 (
 aDirectoryLock
 )
+)
+mCreateIfNonExistent
+(
+aCreateIfNonExistent
 )
 {
 AssertIsOnOwningThread
@@ -11336,6 +11351,7 @@ aQuotaManager
 EnsureTemporaryClientIsInitialized
 (
 mClientMetadata
+mCreateIfNonExistent
 )
 .
 map

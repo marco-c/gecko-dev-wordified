@@ -550,6 +550,10 @@ const
 Type
 &
 aClientType
+const
+bool
+&
+aCreateIfNonExistent
 InitializeTemporaryClientResolver
 &
 &

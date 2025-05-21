@@ -878,6 +878,9 @@ initTemporaryClient
 persistence
 principal
 client
+createIfNonExistent
+=
+true
 callback
 )
 {
@@ -895,6 +898,7 @@ initializeTemporaryClient
 persistence
 principal
 client
+createIfNonExistent
 )
 ;
 request

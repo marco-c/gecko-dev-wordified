@@ -508,6 +508,10 @@ const
 ClientMetadata
 &
 aClientMetadata
+bool
+aCreateIfNonExistent
+=
+true
 )
 ;
 static

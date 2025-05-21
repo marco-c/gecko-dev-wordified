@@ -250,6 +250,12 @@ principal
 clientMetadata
 .
 client
+/
+*
+createIfNonExistent
+*
+/
+true
 )
 ;
 await

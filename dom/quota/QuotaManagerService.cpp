@@ -4928,6 +4928,8 @@ const
 nsAString
 &
 aClientType
+bool
+aCreateIfNonExistent
 nsIQuotaRequest
 *
 *
@@ -5198,6 +5200,7 @@ SendInitializeTemporaryClient
 persistenceType
 principalInfo
 clientType
+aCreateIfNonExistent
 )
 -
 >
