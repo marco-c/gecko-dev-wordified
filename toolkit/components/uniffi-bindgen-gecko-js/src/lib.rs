@@ -651,6 +651,10 @@ callback_ids
 :
 &
 CallbackIds
+js_dir
+:
+&
+Utf8PathBuf
 )
 -
 >
@@ -685,6 +689,7 @@ config
 function_ids
 object_ids
 callback_ids
+js_dir
 }
 ;
 let
@@ -829,6 +834,10 @@ function_ids
 object_ids
 &
 callback_ids
+&
+args
+.
+js_dir
 )
 ?
 ;
@@ -848,6 +857,10 @@ function_ids
 object_ids
 &
 callback_ids
+&
+args
+.
+js_dir
 )
 ?
 ;
