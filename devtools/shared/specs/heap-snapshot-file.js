@@ -65,6 +65,7 @@ const
 {
 Arg
 generateActorSpec
+BULK_RESPONSE
 }
 =
 require
@@ -114,6 +115,9 @@ string
 "
 )
 }
+response
+:
+BULK_RESPONSE
 }
 }
 }
