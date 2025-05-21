@@ -62,12 +62,6 @@ installer
 "
 "
     
-if
-mozinfo
-.
-isLinux
-:
-        
 assert
 mozinstall
 .
@@ -83,17 +77,6 @@ xz
 )
 )
     
-if
-mozinfo
-.
-isWin
-:
-        
-#
-test
-zip
-installer
-        
 assert
 mozinstall
 .
@@ -106,6 +89,12 @@ zip
 "
 )
 )
+    
+if
+mozinfo
+.
+isWin
+:
         
 #
 test
@@ -199,6 +188,10 @@ if
 mozinfo
 .
 isMac
+or
+mozinfo
+.
+isLinux
 :
         
 assert
