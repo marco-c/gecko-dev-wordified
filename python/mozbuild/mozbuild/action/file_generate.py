@@ -105,8 +105,6 @@ import
 traceback
 import
 buildconfig
-import
-six
 from
 mozbuild
 .
@@ -796,19 +794,7 @@ set
                 
 deps
 =
-set
-(
-six
-.
-ensure_text
-(
-s
-)
-for
-s
-in
 ret
-)
                 
 #
 The
@@ -877,12 +863,7 @@ deps
 set
 (
                     
-six
-.
-ensure_text
-(
 s
-)
                     
 for
 s
@@ -923,15 +904,6 @@ deps
 =
 set
 (
-six
-.
-ensure_text
-(
-s
-)
-for
-s
-in
 buildconfig
 .
 get_dependencies

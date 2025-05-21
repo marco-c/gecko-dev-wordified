@@ -125,8 +125,6 @@ mozpack
 path
 as
 mozpath
-import
-six
 from
 mozpack
 .
@@ -566,10 +564,6 @@ fingerprint
 =
 sha1
 (
-six
-.
-ensure_binary
-(
 fileobj
 .
 open
@@ -578,7 +572,6 @@ open
 .
 read
 (
-)
 )
 )
 .

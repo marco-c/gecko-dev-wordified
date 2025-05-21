@@ -53,6 +53,8 @@ MPL
 0
 /
 .
+import
+pickle
 from
 collections
 import
@@ -63,14 +65,6 @@ mozpack
 path
 as
 mozpath
-import
-six
-.
-moves
-.
-cPickle
-as
-pickle
 from
 mozbuild
 .
