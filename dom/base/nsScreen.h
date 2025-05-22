@@ -632,6 +632,12 @@ GetTopWindowInnerRectForRFP
 (
 )
 ;
+bool
+IsFullscreen
+(
+)
+const
+;
 private
 :
 virtual
