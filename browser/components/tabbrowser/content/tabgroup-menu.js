@@ -5943,6 +5943,7 @@ this
 .
 #
 smartTabGroupingManager
+?
 .
 terminateProcess
 (
