@@ -62,12 +62,6 @@ installer
 "
 "
     
-if
-mozinfo
-.
-isLinux
-:
-        
 assert
 mozinstall
 .
@@ -83,17 +77,6 @@ xz
 )
 )
     
-if
-mozinfo
-.
-isWin
-:
-        
-#
-test
-zip
-installer
-        
 assert
 mozinstall
 .
@@ -103,6 +86,25 @@ get_installer
 (
 "
 zip
+"
+)
+)
+    
+if
+mozinfo
+.
+isWin
+:
+        
+assert
+mozinstall
+.
+is_installer
+(
+get_installer
+(
+"
+msix
 "
 )
 )
@@ -199,6 +201,10 @@ if
 mozinfo
 .
 isMac
+or
+mozinfo
+.
+isLinux
 :
         
 assert
