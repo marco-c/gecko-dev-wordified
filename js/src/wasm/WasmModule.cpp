@@ -545,6 +545,8 @@ wasm
 ReportTier2ResultsOffThread
 (
 bool
+cancelled
+bool
 success
 Maybe
 <
@@ -615,6 +617,9 @@ if
 (
 !
 success
+|
+|
+cancelled
 )
 {
 const
@@ -629,6 +634,13 @@ error
 get
 (
 )
+:
+cancelled
+?
+"
+compilation
+cancelled
+"
 :
 "
 out
@@ -1089,6 +1101,7 @@ stderr
 .
 ReportTier2ResultsOffThread
 (
+cancelled_
 success
 mozilla
 :

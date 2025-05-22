@@ -4778,6 +4778,7 @@ cancelled
 ;
 ReportTier2ResultsOffThread
 (
+cancelled
 ok
 mozilla
 :
