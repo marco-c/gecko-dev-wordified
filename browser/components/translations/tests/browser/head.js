@@ -5374,6 +5374,9 @@ runInPage
 (
 async
 (
+{
+waitForCondition
+}
 )
 =
 >
@@ -5485,8 +5488,6 @@ to
 complete
 .
 await
-ContentTaskUtils
-.
 waitForCondition
 (
 (
@@ -7799,7 +7800,7 @@ page
 /
 static
 async
-waitForAllTranslationsToComplete
+waitForAllPendingTranslationsToComplete
 (
 runInPage
 )
@@ -7809,6 +7810,9 @@ runInPage
 (
 async
 (
+{
+waitForCondition
+}
 )
 =
 >
@@ -7844,8 +7848,6 @@ hasPendingCallbackOnEventLoop
 )
 {
 await
-ContentTaskUtils
-.
 waitForCondition
 (
 (
@@ -7872,8 +7874,6 @@ complete
 )
 ;
 await
-ContentTaskUtils
-.
 waitForCondition
 (
 (
@@ -7970,6 +7970,9 @@ runInPage
 (
 async
 (
+{
+waitForCondition
+}
 )
 =
 >
@@ -7989,8 +7992,6 @@ Translations
 )
 ;
 await
-ContentTaskUtils
-.
 waitForCondition
 (
 (
@@ -8083,6 +8084,9 @@ runInPage
 (
 async
 (
+{
+waitForCondition
+}
 )
 =
 >
@@ -8102,8 +8106,6 @@ Translations
 )
 ;
 await
-ContentTaskUtils
-.
 waitForCondition
 (
 (
@@ -8182,6 +8184,9 @@ runInPage
 (
 async
 (
+{
+waitForCondition
+}
 )
 =
 >
@@ -8201,8 +8206,6 @@ Translations
 )
 ;
 await
-ContentTaskUtils
-.
 waitForCondition
 (
 (
@@ -8280,6 +8283,9 @@ runInPage
 (
 async
 (
+{
+waitForCondition
+}
 )
 =
 >
@@ -8299,8 +8305,6 @@ Translations
 )
 ;
 await
-ContentTaskUtils
-.
 waitForCondition
 (
 (
@@ -8380,6 +8384,9 @@ runInPage
 (
 async
 (
+{
+waitForCondition
+}
 )
 =
 >
@@ -8399,8 +8406,6 @@ Translations
 )
 ;
 await
-ContentTaskUtils
-.
 waitForCondition
 (
 (
@@ -9519,7 +9524,7 @@ win
 await
 FullPageTranslationsTestUtils
 .
-waitForAllTranslationsToComplete
+waitForAllPendingTranslationsToComplete
 (
 runInPage
 )
@@ -9721,7 +9726,7 @@ win
 await
 FullPageTranslationsTestUtils
 .
-waitForAllTranslationsToComplete
+waitForAllPendingTranslationsToComplete
 (
 runInPage
 )
@@ -9851,7 +9856,7 @@ pending
 await
 FullPageTranslationsTestUtils
 .
-waitForAllTranslationsToComplete
+waitForAllPendingTranslationsToComplete
 (
 runInPage
 )
