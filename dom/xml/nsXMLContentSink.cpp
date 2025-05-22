@@ -4782,15 +4782,11 @@ nsILoadInfo
 >
 secCheckLoadInfo
 =
-MOZ_TRY
-(
+new
 net
 :
 :
 LoadInfo
-:
-:
-Create
 (
 mDocument
 -
@@ -4821,7 +4817,6 @@ nsIContentPolicy
 :
 :
 TYPE_XSLT
-)
 )
 ;
 /

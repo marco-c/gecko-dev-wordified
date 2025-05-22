@@ -1888,15 +1888,14 @@ nsILoadInfo
 >
 loadInfo
 =
-MOZ_TRY
-(
+new
+mozilla
+:
+:
 net
 :
 :
 LoadInfo
-:
-:
-Create
 (
 loadingPrincipal
 nullptr
@@ -1925,7 +1924,6 @@ nsIContentPolicy
 :
 :
 TYPE_INTERNAL_IMAGE_FAVICON
-)
 )
 ;
 nsCOMPtr

@@ -10354,15 +10354,11 @@ nsILoadInfo
 >
 secCheckLoadInfo
 =
-MOZ_TRY
-(
+new
 net
 :
 :
 LoadInfo
-:
-:
-Create
 (
 aPrincipal
 /
@@ -10384,7 +10380,6 @@ nsIContentPolicy
 :
 TYPE_WEBSOCKET
 aClientInfo
-)
 )
 ;
 if

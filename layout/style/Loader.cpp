@@ -5611,15 +5611,11 @@ nsILoadInfo
 >
 secCheckLoadInfo
 =
-MOZ_TRY
-(
+new
 net
 :
 :
 LoadInfo
-:
-:
-Create
 (
 aLoadingPrincipal
 aTriggeringPrincipal
@@ -5629,7 +5625,6 @@ nsILoadInfo
 :
 SEC_ONLY_FOR_EXPLICIT_CONTENTSEC_CHECK
 contentPolicyType
-)
 )
 ;
 secCheckLoadInfo
