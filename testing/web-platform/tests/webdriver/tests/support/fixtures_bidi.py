@@ -3228,6 +3228,9 @@ async
 def
 create_user_context
 (
+accept_insecure_certs
+=
+None
 )
 :
         
@@ -3243,6 +3246,11 @@ browser
 .
 create_user_context
 (
+            
+accept_insecure_certs
+=
+accept_insecure_certs
+        
 )
         
 user_contexts
