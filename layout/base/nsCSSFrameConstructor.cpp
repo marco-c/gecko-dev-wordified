@@ -9258,12 +9258,14 @@ needed
 .
 AutoTArray
 <
+const
 nsIFrame
 *
 20
 >
 firstNewFrameAncestors
 ;
+const
 nsIFrame
 *
 notCommonAncestor
