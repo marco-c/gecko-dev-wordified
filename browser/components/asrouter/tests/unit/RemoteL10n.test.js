@@ -579,6 +579,13 @@ brandings
 .
 ftl
 "
+"
+preview
+/
+termsOfUse
+.
+ftl
+"
 ]
 )
 ;
@@ -761,6 +768,13 @@ toolkit
 branding
 /
 brandings
+.
+ftl
+"
+"
+preview
+/
+termsOfUse
 .
 ftl
 "
