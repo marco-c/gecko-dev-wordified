@@ -2132,6 +2132,15 @@ GetTopInnerSizeForRFP
 )
 )
 ;
+txn
+.
+SetIPAddressSpace
+(
+GetIPAddressSpace
+(
+)
+)
+;
 /
 /
 Propagate
