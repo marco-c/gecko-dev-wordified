@@ -176,7 +176,7 @@ available
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsUntranslated
+assertPageIsNotTranslated
 (
 runInPage
 )

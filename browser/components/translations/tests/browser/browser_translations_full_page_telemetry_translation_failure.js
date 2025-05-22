@@ -134,7 +134,7 @@ available
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsUntranslated
+assertPageIsNotTranslated
 (
 runInPage
 )
@@ -242,7 +242,7 @@ assertPanelViewError
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsUntranslated
+assertPageIsNotTranslated
 (
 runInPage
 )
@@ -552,7 +552,7 @@ assertPanelViewError
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsUntranslated
+assertPageIsNotTranslated
 (
 runInPage
 )

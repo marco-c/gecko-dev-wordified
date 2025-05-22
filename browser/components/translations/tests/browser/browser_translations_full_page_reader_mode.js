@@ -100,7 +100,7 @@ visible
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsUntranslated
+assertPageIsNotTranslated
 (
 runInPage
 )
@@ -278,7 +278,7 @@ mode
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsUntranslated
+assertPageIsNotTranslated
 (
 runInPage
 )
@@ -362,7 +362,7 @@ visible
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsUntranslated
+assertPageIsNotTranslated
 (
 runInPage
 )

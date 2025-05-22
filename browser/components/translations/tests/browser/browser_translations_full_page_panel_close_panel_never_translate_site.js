@@ -318,7 +318,7 @@ openTranslationsSettingsMenu
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsUntranslated
+assertPageIsNotTranslated
 (
 runInPage
 )

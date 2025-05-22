@@ -55,7 +55,8 @@ the
 box
 on
 an
-untranslated
+not
+translated
 page
 should
 immediately
@@ -139,7 +140,7 @@ visible
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsUntranslated
+assertPageIsNotTranslated
 (
 runInPage
 )
@@ -390,7 +391,7 @@ appears
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsUntranslated
+assertPageIsNotTranslated
 (
 runInPage
 )

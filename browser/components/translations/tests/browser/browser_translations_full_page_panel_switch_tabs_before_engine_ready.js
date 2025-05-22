@@ -204,7 +204,7 @@ page
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsUntranslated
+assertPageIsNotTranslated
 (
 runInSpanishPage
 )
@@ -526,7 +526,7 @@ tab
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsUntranslated
+assertPageIsNotTranslated
 (
 runInSpanishDotComPage
 )
@@ -600,7 +600,7 @@ tab
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsUntranslated
+assertPageIsNotTranslated
 (
 runInSpanishDotOrgPage
 )
@@ -789,7 +789,7 @@ downloads
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsUntranslated
+assertPageIsNotTranslated
 (
 runInSpanishDotComPage
 )
@@ -969,7 +969,7 @@ tab
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsUntranslated
+assertPageIsNotTranslated
 (
 runInSpanishDotComPage
 )
@@ -1123,7 +1123,7 @@ tab
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsUntranslated
+assertPageIsNotTranslated
 (
 runInSpanishDotOrgPage
 )

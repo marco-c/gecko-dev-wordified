@@ -55,7 +55,8 @@ the
 box
 on
 an
-untranslated
+not
+translated
 page
 should
 immediately
@@ -145,7 +146,7 @@ visible
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsUntranslated
+assertPageIsNotTranslated
 (
 runInPage
 )
@@ -217,7 +218,7 @@ true
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsUntranslated
+assertPageIsNotTranslated
 (
 runInPage
 )
@@ -247,7 +248,7 @@ SPANISH_PAGE_URL_2
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsUntranslated
+assertPageIsNotTranslated
 (
 runInPage
 )
@@ -310,7 +311,7 @@ permissions
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsUntranslated
+assertPageIsNotTranslated
 (
 runInPage
 )
@@ -450,7 +451,7 @@ visible
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsUntranslated
+assertPageIsNotTranslated
 (
 runInPage
 )
@@ -573,7 +574,7 @@ true
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsUntranslated
+assertPageIsNotTranslated
 (
 runInPage
 )
@@ -596,7 +597,7 @@ SPANISH_PAGE_URL
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsUntranslated
+assertPageIsNotTranslated
 (
 runInPage
 )
@@ -626,7 +627,7 @@ SPANISH_PAGE_URL_2
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsUntranslated
+assertPageIsNotTranslated
 (
 runInPage
 )
@@ -689,7 +690,7 @@ permissions
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsUntranslated
+assertPageIsNotTranslated
 (
 runInPage
 )
@@ -1059,7 +1060,7 @@ true
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsUntranslated
+assertPageIsNotTranslated
 (
 runInPage
 )
@@ -1082,7 +1083,7 @@ SPANISH_PAGE_URL
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsUntranslated
+assertPageIsNotTranslated
 (
 runInPage
 )
@@ -1112,7 +1113,7 @@ SPANISH_PAGE_URL_2
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsUntranslated
+assertPageIsNotTranslated
 (
 runInPage
 )

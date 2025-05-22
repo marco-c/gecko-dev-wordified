@@ -6648,7 +6648,8 @@ htmlMatches
 The
 comment
 is
-untranslated
+not
+translated
 in
 a
 mutation
