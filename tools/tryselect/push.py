@@ -1673,6 +1673,7 @@ allow_log_capture
 else
 :
             
+return
 push_to_lando_try
 (
 vcs
