@@ -9128,7 +9128,7 @@ is
 removed
 .
 void
-DestroyElementMaps
+WillRemoveRoot
 (
 )
 ;
