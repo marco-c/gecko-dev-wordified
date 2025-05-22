@@ -346,6 +346,9 @@ Init
 nsIURI
 *
 uri
+nsILoadInfo
+*
+aLoadInfo
 )
 {
 NS_ASSERTION
@@ -364,6 +367,10 @@ uri
 mOriginalURI
 =
 uri
+;
+mLoadInfo
+=
+aLoadInfo
 ;
 nsresult
 rv

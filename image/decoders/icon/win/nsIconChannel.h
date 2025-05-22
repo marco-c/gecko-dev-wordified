@@ -240,6 +240,9 @@ Init
 nsIURI
 *
 uri
+nsILoadInfo
+*
+aLoadInfo
 )
 ;
 /

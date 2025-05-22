@@ -279,6 +279,9 @@ Init
 nsIURI
 *
 aURI
+nsILoadInfo
+*
+aLoadInfo
 )
 ;
 /
