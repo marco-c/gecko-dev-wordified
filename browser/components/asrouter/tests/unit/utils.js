@@ -1600,6 +1600,11 @@ offUpdate
 )
 {
 }
+recordExposureEvent
+(
+)
+{
+}
 }
 ;
 }
