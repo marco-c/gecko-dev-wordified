@@ -525,6 +525,9 @@ dom
 GPUCanvasConfiguration
 &
 aConfig
+ErrorResult
+&
+aRv
 )
 ;
 void
