@@ -5368,6 +5368,12 @@ move
 (
 files
 )
+/
+*
+aAutoAcknowledge
+*
+/
+true
 windowGlobal
 nsIContentAnalysisRequest
 :

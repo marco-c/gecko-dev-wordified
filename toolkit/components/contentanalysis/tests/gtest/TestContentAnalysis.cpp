@@ -11077,6 +11077,12 @@ move
 (
 files
 )
+true
+/
+*
+autoAcknowledge
+*
+/
 nullptr
 nsIContentAnalysisRequest
 :
@@ -12224,6 +12230,12 @@ move
 (
 files
 )
+true
+/
+*
+autoAcknowledge
+*
+/
 nullptr
 nsIContentAnalysisRequest
 :
