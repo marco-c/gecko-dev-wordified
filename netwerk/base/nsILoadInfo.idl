@@ -4917,6 +4917,9 @@ space
 .
 *
 /
+[
+infallible
+]
 attribute
 nsILoadInfo_IPAddressSpace
 ipAddressSpace
@@ -4958,6 +4961,9 @@ request
 .
 *
 /
+[
+infallible
+]
 attribute
 nsILoadInfo_IPAddressSpace
 parentIpAddressSpace
