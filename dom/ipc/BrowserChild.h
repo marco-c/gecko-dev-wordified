@@ -4259,6 +4259,13 @@ RecvDispatchToDropTargetAndResumeEndDragSession
 (
 bool
 aShouldDrop
+nsTHashSet
+<
+nsString
+>
+&
+&
+aAllowedFilesPaths
 )
 ;
 void
