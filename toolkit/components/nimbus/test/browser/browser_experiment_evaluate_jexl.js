@@ -372,9 +372,7 @@ it
 await
 ExperimentAPI
 .
-manager
-.
-onStartup
+ready
 (
 )
 ;

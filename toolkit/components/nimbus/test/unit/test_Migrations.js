@@ -3692,6 +3692,15 @@ manager
 await
 manager
 .
+store
+.
+init
+(
+)
+;
+await
+manager
+.
 onStartup
 (
 )
