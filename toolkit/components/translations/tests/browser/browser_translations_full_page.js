@@ -146,7 +146,7 @@ assertTranslationResult
 (
 "
 The
-last
+final
 paragraph
 gets
 translated
@@ -162,7 +162,7 @@ viewport
 "
 selectors
 .
-getLastParagraph
+getFinalParagraph
 "
 PUES
 AUNQUE
@@ -780,7 +780,7 @@ assertTranslationResult
 (
 "
 The
-last
+final
 paragraph
 gets
 translated
@@ -796,7 +796,7 @@ viewport
 "
 selectors
 .
-getLastParagraph
+getFinalParagraph
 "
 PUES
 AUNQUE
