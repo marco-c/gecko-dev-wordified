@@ -472,7 +472,7 @@ false
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsTranslated
+assertOnlyIntersectingContentIsTranslated
 (
 {
 fromLanguage
@@ -655,14 +655,14 @@ platform
 win
 "
 ?
-1718
+1616
 /
 /
 With
 carriage
 returns
 :
-1709
+1607
 /
 /
 No
@@ -670,7 +670,7 @@ carriage
 returns
 source_text_word_count
 :
-281
+257
 }
 }
 )

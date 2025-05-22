@@ -1255,6 +1255,9 @@ LANGUAGE_PAIRS
 autoDownloadFromRemoteSettings
 :
 true
+contentEagerMode
+:
+true
 prefs
 :
 [
@@ -1417,7 +1420,7 @@ translatePage
 await
 FullPageTranslationsTestUtils
 .
-assertPageIsTranslated
+assertAllPageContentIsTranslated
 (
 {
 fromLanguage
