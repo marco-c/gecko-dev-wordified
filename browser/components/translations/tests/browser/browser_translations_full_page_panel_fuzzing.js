@@ -1098,6 +1098,15 @@ a
 valid
 operation
 .
+/
+/
+eslint
+-
+disable
+-
+next
+-
+line
 while
 (
 true
