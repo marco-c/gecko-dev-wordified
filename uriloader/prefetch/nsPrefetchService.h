@@ -507,9 +507,6 @@ int32_t
 mStopCount
 ;
 bool
-mHaveProcessed
-;
-bool
 mPrefetchDisabled
 ;
 /
