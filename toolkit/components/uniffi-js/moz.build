@@ -209,7 +209,7 @@ Rust
 h
 "
 ]
-MOZ_SRC_FILES
+EXTRA_JS_MODULES
 +
 =
 [
