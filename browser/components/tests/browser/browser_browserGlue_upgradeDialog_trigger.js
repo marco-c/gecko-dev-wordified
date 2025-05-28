@@ -373,6 +373,7 @@ disabled
 ]
 )
 ;
+await
 doCleanup
 (
 )

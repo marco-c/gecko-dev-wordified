@@ -1063,6 +1063,7 @@ restore
 (
 )
 ;
+await
 doExperimentCleanup
 (
 )
@@ -1432,6 +1433,7 @@ args
 "
 )
 ;
+await
 doExperimentCleanup
 (
 )
