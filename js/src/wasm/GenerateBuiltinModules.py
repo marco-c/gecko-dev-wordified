@@ -869,6 +869,17 @@ type
 ]
 }
 {
+cppBool
+(
+sa
+[
+'
+needs_thunk
+'
+]
+)
+}
+{
 op
 [
 '

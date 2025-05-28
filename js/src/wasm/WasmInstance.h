@@ -4456,7 +4456,7 @@ typeDef
 )
 ;
 static
-int32_t
+void
 intrI8VecMul
 (
 Instance
