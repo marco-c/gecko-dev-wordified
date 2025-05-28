@@ -78510,6 +78510,12 @@ false
 endif
 ABIArgGenerator
 abi
+(
+ABIKind
+:
+:
+Wasm
+)
 ;
 for
 (

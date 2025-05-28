@@ -6798,14 +6798,11 @@ call
 with
 callWithABI
 .
-template
-<
-class
-ABIArgGeneratorT
->
 void
 setupABICallHelper
 (
+ABIKind
+kind
 )
 ;
 /

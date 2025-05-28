@@ -528,6 +528,15 @@ Realm
 .
 h
 "
+#
+include
+"
+wasm
+/
+WasmFrame
+.
+h
+"
 using
 mozilla
 :

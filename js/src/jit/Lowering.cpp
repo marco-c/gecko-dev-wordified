@@ -64941,6 +64941,12 @@ return
 }
 ABIArgGenerator
 abi
+(
+ABIKind
+:
+:
+Wasm
+)
 ;
 for
 (

@@ -1860,7 +1860,7 @@ it
 is
 compiled
 .
-WasmABIArgGenerator
+ABIArgGenerator
 abi
 ;
 /
@@ -2072,6 +2072,10 @@ ABIKind
 abiKind
 )
 :
+abi
+(
+abiKind
+)
 abiKind
 (
 abiKind
