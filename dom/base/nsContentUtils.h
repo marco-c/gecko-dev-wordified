@@ -25412,12 +25412,6 @@ case
 nsIContentPolicy
 :
 :
-TYPE_OBJECT_SUBREQUEST
-:
-case
-nsIContentPolicy
-:
-:
 TYPE_DTD
 :
 case

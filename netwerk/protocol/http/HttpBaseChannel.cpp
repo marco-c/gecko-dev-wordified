@@ -20418,15 +20418,6 @@ extContentPolicyType
 ExtContentPolicy
 :
 :
-TYPE_OBJECT_SUBREQUEST
-|
-|
-extContentPolicyType
-=
-=
-ExtContentPolicy
-:
-:
 TYPE_WEBSOCKET
 |
 |
@@ -41263,12 +41254,6 @@ case
 ExtContentPolicy
 :
 :
-TYPE_OBJECT_SUBREQUEST
-:
-case
-ExtContentPolicy
-:
-:
 TYPE_WEBSOCKET
 :
 case
@@ -41294,7 +41279,6 @@ type
 DOCUMENT
 SUBDOCUMENT
 OBJECT
-OBJECT_SUBREQUEST
 /
 /
 WEBSOCKET

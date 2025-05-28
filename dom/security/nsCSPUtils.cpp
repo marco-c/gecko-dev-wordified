@@ -2565,12 +2565,6 @@ case
 nsIContentPolicy
 :
 :
-TYPE_OBJECT_SUBREQUEST
-:
-case
-nsIContentPolicy
-:
-:
 TYPE_INTERNAL_EMBED
 :
 case

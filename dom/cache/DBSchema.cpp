@@ -3144,15 +3144,6 @@ TYPE_XMLHTTPREQUEST
 nsIContentPolicy
 :
 :
-TYPE_OBJECT_SUBREQUEST
-=
-=
-12
-&
-&
-nsIContentPolicy
-:
-:
 TYPE_DTD
 =
 =
