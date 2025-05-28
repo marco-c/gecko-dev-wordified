@@ -489,6 +489,9 @@ super
 __init__
 (
 logger
+*
+*
+kwargs
 )
         
 self

@@ -1574,12 +1574,16 @@ kwargs
 )
 :
         
-Browser
+super
+(
+)
 .
 __init__
 (
-self
 logger
+*
+*
+kwargs
 )
         
 self
