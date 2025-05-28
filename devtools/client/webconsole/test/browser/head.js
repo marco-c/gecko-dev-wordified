@@ -4126,8 +4126,6 @@ activeElement
 const
 isPanelFocused
 =
-isCm6Enabled
-?
 inputEl
 .
 classList
@@ -4159,15 +4157,6 @@ log
 point
 "
 )
-:
-inputEl
-.
-tagName
-=
-=
-"
-TEXTAREA
-"
 ;
 ok
 (
