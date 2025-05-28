@@ -1413,6 +1413,14 @@ OnProfileReceived
 profileAndAdditionalInformation
 :
 ProfileAndAdditionalInformation
+|
+null
+error
+?
+:
+Error
+|
+string
 )
 =
 >
@@ -3854,6 +3862,8 @@ ProfileCaptureResult
 symbolicationService
 :
 SymbolicationService
+|
+null
 ;
 }
 ;
