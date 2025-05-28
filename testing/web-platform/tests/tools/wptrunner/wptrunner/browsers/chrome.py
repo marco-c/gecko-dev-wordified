@@ -1337,7 +1337,7 @@ pipe
 Classify
 http
 -
-private
+local
 http
 -
 public
@@ -1386,6 +1386,28 @@ address_space_overrides
 .
 md
     
+#
+and
+https
+:
+/
+/
+github
+.
+com
+/
+explainers
+-
+by
+-
+googlers
+/
+local
+-
+network
+-
+access
+    
 address_space_overrides_ports
 =
 [
@@ -1394,10 +1416,10 @@ address_space_overrides_ports
 "
 http
 -
-private
+local
 "
 "
-private
+local
 "
 )
         
@@ -1416,10 +1438,10 @@ public
 "
 https
 -
-private
+local
 "
 "
-private
+local
 "
 )
         
