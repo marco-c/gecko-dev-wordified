@@ -1077,7 +1077,7 @@ stackArgAreaSize
 /
 /
 The
-builtin
+system
 ABI
 preserves
 the
@@ -1125,7 +1125,7 @@ abiKind
 ABIKind
 :
 :
-WasmBuiltin
+System
 restoreState
 =
 =
@@ -1193,7 +1193,7 @@ abiKind
 ABIKind
 :
 :
-WasmBuiltin
+System
 )
 {
 /

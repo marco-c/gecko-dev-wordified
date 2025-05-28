@@ -32695,7 +32695,7 @@ setupABICallHelper
 ABIKind
 :
 :
-WasmBuiltin
+System
 )
 ;
 dynamicAlignment_

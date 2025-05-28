@@ -2089,16 +2089,16 @@ abiKind
 ABIKind
 :
 :
-WasmBuiltin
+System
 )
 {
 /
 /
-Builtin
-calls
-use
-the
+The
 system
+ABI
+follows
+the
 hardFP
 setting
 on
@@ -17187,7 +17187,7 @@ abiKind
 ABIKind
 :
 :
-WasmBuiltin
+System
 )
 ;
 MInstruction
@@ -20926,7 +20926,7 @@ callState
 ABIKind
 :
 :
-WasmBuiltin
+System
 )
 ;
 return
@@ -20993,7 +20993,7 @@ callState
 ABIKind
 :
 :
-WasmBuiltin
+System
 )
 ;
 return
@@ -21083,7 +21083,7 @@ callState
 ABIKind
 :
 :
-WasmBuiltin
+System
 )
 ;
 return
@@ -21218,7 +21218,7 @@ callState
 ABIKind
 :
 :
-WasmBuiltin
+System
 )
 ;
 return
@@ -22034,7 +22034,7 @@ callState
 ABIKind
 :
 :
-WasmBuiltin
+System
 )
 ;
 if
@@ -23484,7 +23484,7 @@ callState
 ABIKind
 :
 :
-WasmBuiltin
+System
 )
 ;
 if

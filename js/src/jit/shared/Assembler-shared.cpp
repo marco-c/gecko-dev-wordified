@@ -652,12 +652,6 @@ ABIKind
 :
 Wasm
 :
-case
-ABIKind
-:
-:
-WasmBuiltin
-:
 return
 wasm
 :
