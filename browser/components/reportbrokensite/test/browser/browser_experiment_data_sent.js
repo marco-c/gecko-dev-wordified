@@ -355,6 +355,7 @@ disabled
 }
 )
 ;
+await
 ExperimentAPI
 .
 manager
@@ -483,6 +484,7 @@ of
 EXPERIMENT_CLEANUPS
 )
 {
+await
 cleanup
 (
 )
