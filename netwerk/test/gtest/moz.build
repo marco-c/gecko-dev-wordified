@@ -188,6 +188,11 @@ TestLinkHeader
 cpp
 "
 "
+TestLocalNetworkAccess
+.
+cpp
+"
+"
 TestMIMEInputStream
 .
 cpp
