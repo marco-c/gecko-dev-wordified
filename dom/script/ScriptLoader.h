@@ -818,7 +818,7 @@ Document
 aDocument
 )
 ;
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS_FINAL
 NS_DECL_CYCLE_COLLECTION_CLASS
 (
 ScriptLoader
@@ -2523,7 +2523,6 @@ of
 head
 *
 /
-virtual
 void
 PreloadURI
 (
@@ -3581,7 +3580,6 @@ SetEnabled
 )
 *
 /
-virtual
 void
 ProcessPendingRequestsAsync
 (

@@ -325,7 +325,6 @@ MemoryPressureListener
 aListener
 )
 ;
-virtual
 ~
 MemoryPressureObserver
 (

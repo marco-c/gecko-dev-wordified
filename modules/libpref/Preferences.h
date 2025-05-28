@@ -2918,7 +2918,6 @@ AllowOffMainThreadSave
 ;
 private
 :
-virtual
 ~
 Preferences
 (

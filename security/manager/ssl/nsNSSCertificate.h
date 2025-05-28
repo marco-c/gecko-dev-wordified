@@ -209,7 +209,6 @@ der
 ;
 private
 :
-virtual
 ~
 nsNSSCertificate
 (

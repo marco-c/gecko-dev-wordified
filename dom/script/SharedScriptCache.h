@@ -892,7 +892,6 @@ ScriptLoadData
 {
 protected
 :
-virtual
 ~
 ScriptLoadData
 (

@@ -678,7 +678,6 @@ DoClearSSLExternalAndInternalSessionCache
 ;
 protected
 :
-virtual
 ~
 nsNSSComponent
 (
