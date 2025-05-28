@@ -46212,9 +46212,9 @@ void
 LIRGenerator
 :
 :
-visitGuardIsFixedLengthTypedArray
+visitGuardIsNonResizableTypedArray
 (
-MGuardIsFixedLengthTypedArray
+MGuardIsNonResizableTypedArray
 *
 ins
 )
@@ -46250,7 +46250,7 @@ alloc
 (
 )
 )
-LGuardIsFixedLengthTypedArray
+LGuardIsNonResizableTypedArray
 (
 useRegister
 (
