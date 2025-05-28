@@ -712,6 +712,7 @@ marker
 *
 /
 public
+static
 boolean
 isProfilerActive
 (
@@ -813,6 +814,7 @@ active
 *
 /
 public
+static
 Nullable
 Double
 getProfilerTime
@@ -925,6 +927,7 @@ marker
 *
 /
 public
+static
 void
 addMarker
 (
@@ -1072,6 +1075,7 @@ marker
 *
 /
 public
+static
 void
 addMarker
 (
@@ -1201,6 +1205,7 @@ time
 *
 /
 public
+static
 void
 addMarker
 (
@@ -1315,6 +1320,7 @@ marker
 *
 /
 public
+static
 void
 addMarker
 (
@@ -1415,6 +1421,7 @@ string
 *
 /
 public
+static
 void
 addMarker
 (
@@ -1553,6 +1560,7 @@ array
 *
 /
 public
+static
 void
 startProfiler
 (
@@ -1636,6 +1644,7 @@ JSON
 *
 /
 public
+static
 NonNull
 GeckoResult
 <
