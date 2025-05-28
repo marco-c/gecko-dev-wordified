@@ -12,6 +12,18 @@ META
 :
 script
 =
+/
+resources
+/
+testdriver
+.
+js
+/
+/
+META
+:
+script
+=
 .
 .
 /
@@ -41,9 +53,7 @@ signal
 >
 {
 return
-Summarizer
-.
-create
+createSummarizer
 (
 {
 signal
@@ -56,7 +66,7 @@ signal
 )
 ;
 }
-"
+'
 Aborting
 Summarizer
 .
@@ -64,7 +74,7 @@ create
 (
 )
 .
-"
+'
 )
 ;
 promise_test
@@ -78,9 +88,7 @@ const
 session
 =
 await
-Summarizer
-.
-create
+createSummarizer
 (
 )
 ;
@@ -109,7 +117,7 @@ signal
 )
 ;
 }
-"
+'
 Aborting
 Summarizer
 .
@@ -117,7 +125,7 @@ summarize
 (
 )
 .
-"
+'
 )
 ;
 promise_test
@@ -131,9 +139,7 @@ const
 session
 =
 await
-Summarizer
-.
-create
+createSummarizer
 (
 )
 ;
@@ -162,7 +168,7 @@ signal
 )
 ;
 }
-"
+'
 Aborting
 Summarizer
 .
@@ -170,6 +176,6 @@ summarizeStreaming
 (
 )
 .
-"
+'
 )
 ;
