@@ -29558,6 +29558,10 @@ topic
 isListCard
 &
 &
+!
+refinedCardsLayout
+&
+&
 /
 *
 #
@@ -30184,6 +30188,10 @@ isListCard
 isListCard
 showTopics
 :
+!
+refinedCardsLayout
+&
+&
 this
 .
 props
