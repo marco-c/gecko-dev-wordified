@@ -6574,7 +6574,6 @@ file
 .
 MOZ_ASSERT
 (
-!
 removedWaiter
 -
 >
