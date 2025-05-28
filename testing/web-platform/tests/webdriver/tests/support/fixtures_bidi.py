@@ -3231,6 +3231,9 @@ create_user_context
 accept_insecure_certs
 =
 None
+proxy
+=
+None
 )
 :
         
@@ -3250,6 +3253,9 @@ create_user_context
 accept_insecure_certs
 =
 accept_insecure_certs
+proxy
+=
+proxy
         
 )
         
