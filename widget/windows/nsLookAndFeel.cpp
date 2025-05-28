@@ -3150,7 +3150,7 @@ AlertNotificationOrigin
 :
 aResult
 =
-NS_ALERT_TOP
+0
 ;
 if
 (
