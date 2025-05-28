@@ -543,6 +543,7 @@ strict
 "
 )
 ;
+await
 doExperimentCleanup
 (
 )

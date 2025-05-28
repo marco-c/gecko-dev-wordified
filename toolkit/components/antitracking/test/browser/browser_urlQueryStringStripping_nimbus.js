@@ -833,6 +833,7 @@ string
 )
 ;
 }
+await
 doExperimentCleanup
 (
 )
