@@ -5080,57 +5080,11 @@ topsrcdir
     
 srcdir
     
-non_unified_sources
-    
-gn_configs
-    
-mozilla_flags
+all_mozbuild_results
     
 write_mozbuild_variables
 )
 :
-    
-all_mozbuild_results
-=
-[
-]
-    
-for
-gn_config
-in
-gn_configs
-:
-        
-mozbuild_attrs
-=
-process_gn_config
-(
-            
-gn_config
-            
-topsrcdir
-            
-srcdir
-            
-non_unified_sources
-            
-gn_config
-[
-"
-sandbox_vars
-"
-]
-            
-mozilla_flags
-        
-)
-        
-all_mozbuild_results
-.
-append
-(
-mozbuild_attrs
-)
     
 #
 Translate
@@ -5711,6 +5665,8 @@ def
 generate_gn_config
 (
     
+topsrcdir
+    
 build_root_dir
     
 target_dir
@@ -5724,6 +5680,10 @@ sandbox_variables
 gn_target
     
 moz_build_flag
+    
+non_unified_sources
+    
+mozilla_flags
 )
 :
     
@@ -5762,6 +5722,18 @@ s
 '
 %
 v
+    
+build_root_dir
+=
+topsrcdir
+/
+build_root_dir
+    
+srcdir
+=
+build_root_dir
+/
+target_dir
     
 input_variables
 =
@@ -6201,6 +6173,30 @@ gn_target
             
 )
             
+gn_config
+=
+process_gn_config
+(
+                
+gn_config
+                
+topsrcdir
+                
+srcdir
+                
+non_unified_sources
+                
+gn_config
+[
+"
+sandbox_vars
+"
+]
+                
+mozilla_flags
+            
+)
+            
 return
 gn_config
 def
@@ -6634,7 +6630,7 @@ submit
 generate_gn_config
                 
 topsrcdir
-/
+                
 config
 [
 "
@@ -6671,6 +6667,20 @@ config
 [
 "
 moz_build_flag
+"
+]
+                
+config
+[
+"
+non_unified_sources
+"
+]
+                
+config
+[
+"
+mozilla_flags
 "
 ]
             
@@ -6785,21 +6795,7 @@ target_dir
 "
 ]
         
-config
-[
-"
-non_unified_sources
-"
-]
-        
 gn_configs
-        
-config
-[
-"
-mozilla_flags
-"
-]
         
 config
 [
