@@ -1892,17 +1892,7 @@ OFFSCREEN
 states
 :
 :
-ENABLED
-|
-states
-:
-:
 SENSITIVE
-|
-states
-:
-:
-COLLAPSED
 |
 states
 :
