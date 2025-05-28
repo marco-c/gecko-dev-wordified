@@ -5376,12 +5376,6 @@ us
 .
 if
 (
-!
-callFromWasm
-)
-{
-if
-(
 result
 =
 =
@@ -5474,7 +5468,6 @@ float
 )
 )
 ;
-}
 }
 if
 (

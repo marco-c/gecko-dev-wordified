@@ -18163,7 +18163,7 @@ void
 *
 thunk
 =
-MaybeGetBuiltinThunk
+MaybeGetTypedNative
 (
 fun
 funcType

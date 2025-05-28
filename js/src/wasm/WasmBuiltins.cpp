@@ -14252,6 +14252,10 @@ if
 GenerateBuiltinThunk
 (
 masm
+ABIKind
+:
+:
+WasmBuiltin
 abiType
 exitReason
 funcPtr
@@ -14417,6 +14421,10 @@ if
 GenerateBuiltinThunk
 (
 masm
+ABIKind
+:
+:
+Wasm
 abiType
 exitReason
 funcPtr
@@ -15254,7 +15262,7 @@ void
 wasm
 :
 :
-MaybeGetBuiltinThunk
+MaybeGetTypedNative
 (
 JSFunction
 *
