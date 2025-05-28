@@ -3222,6 +3222,7 @@ Firefox
 is
 running
 .
+await
 doCleanup
 (
 )
@@ -3359,6 +3360,7 @@ v900
 "
 )
 ;
+await
 doCleanup
 (
 )
