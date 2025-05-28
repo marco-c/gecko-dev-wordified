@@ -606,9 +606,6 @@ len
 <
 8
 {
-log
-:
-:
 trace
 !
 (
@@ -649,9 +646,6 @@ default
 /
 "
 {
-log
-:
-:
 trace
 !
 (
@@ -725,9 +719,6 @@ o
 =
 >
 {
-log
-:
-:
 info
 !
 (
@@ -745,9 +736,6 @@ column
 "
 )
 ;
-log
-:
-:
 trace
 !
 (
@@ -778,9 +766,6 @@ e
 =
 >
 {
-log
-:
-:
 info
 !
 (
@@ -796,9 +781,6 @@ column
 "
 )
 ;
-log
-:
-:
 trace
 !
 (
@@ -862,9 +844,6 @@ o
 =
 >
 {
-log
-:
-:
 trace
 !
 (
@@ -891,9 +870,6 @@ _
 =
 >
 {
-log
-:
-:
 trace
 !
 (
@@ -939,9 +915,6 @@ _
 =
 >
 {
-log
-:
-:
 trace
 !
 (
@@ -1097,9 +1070,6 @@ row
 in
 rows
 {
-log
-:
-:
 trace
 !
 (
@@ -1282,9 +1252,6 @@ data
 )
 )
 ;
-log
-:
-:
 trace
 !
 (
@@ -1374,9 +1341,6 @@ entries_successful
 entries
 ;
 }
-log
-:
-:
 info
 !
 (
@@ -1460,9 +1424,6 @@ e
 =
 >
 {
-log
-:
-:
 warn
 !
 (
@@ -1565,9 +1526,6 @@ e
 =
 >
 {
-log
-:
-:
 warn
 !
 (
@@ -1664,9 +1622,6 @@ e
 =
 >
 {
-log
-:
-:
 warn
 !
 (

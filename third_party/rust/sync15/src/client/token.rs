@@ -65,6 +65,9 @@ error
 :
 {
 self
+debug
+trace
+warn
 Error
 as
 ErrorKind
@@ -850,9 +853,6 @@ Result
 TokenFetchResult
 >
 {
-log
-:
-:
 debug
 !
 (
@@ -935,9 +935,6 @@ is_success
 (
 )
 {
-log
-:
-:
 warn
 !
 (
@@ -976,9 +973,6 @@ we
 might
 need
 ?
-log
-:
-:
 trace
 !
 (
@@ -2306,9 +2300,6 @@ tc
 }
 else
 {
-log
-:
-:
 warn
 !
 (
@@ -2652,9 +2643,6 @@ now
 )
 )
 {
-log
-:
-:
 debug
 !
 (

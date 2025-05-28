@@ -188,6 +188,7 @@ error
 :
 :
 {
+trace
 ApiResult
 RemoteSettingsError
 Result
@@ -1072,9 +1073,6 @@ Log
 report
 the
 error
-log
-:
-:
 trace
 !
 (

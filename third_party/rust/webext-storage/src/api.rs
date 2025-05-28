@@ -576,9 +576,6 @@ unwrap_or_default
 if
 in_mirror
 {
-log
-:
-:
 trace
 !
 (
@@ -654,9 +651,6 @@ ext_id
 }
 else
 {
-log
-:
-:
 trace
 !
 (
@@ -802,9 +796,6 @@ unreachable
 )
 }
 ;
-log
-:
-:
 trace
 !
 (

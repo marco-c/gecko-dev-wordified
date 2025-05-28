@@ -76,7 +76,9 @@ crate
 :
 :
 {
+error
 msg_types
+warn
 Error
 }
 ;
@@ -280,9 +282,6 @@ args
 *
 )
 ;
-log
-:
-:
 error
 !
 (
@@ -690,9 +689,6 @@ for
 them
 anyway
 .
-log
-:
-:
 warn
 !
 (
@@ -1026,6 +1022,12 @@ super
 :
 :
 FetchCallback
+;
+use
+crate
+:
+:
+error
 ;
 use
 std
@@ -1445,9 +1447,6 @@ actually
 do
 here
 .
-log
-:
-:
 error
 !
 (
@@ -1607,10 +1606,6 @@ mut
 error
 |
 |
-{
-log
-:
-:
 error
 !
 (
@@ -1628,7 +1623,6 @@ as_str
 (
 )
 )
-}
 )
 ;
 error

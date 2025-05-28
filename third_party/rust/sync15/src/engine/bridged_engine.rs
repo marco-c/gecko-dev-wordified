@@ -60,6 +60,15 @@ use
 crate
 :
 :
+error
+:
+:
+debug
+;
+use
+crate
+:
+:
 {
 telemetry
 ServerTimestamp
@@ -1512,9 +1521,6 @@ coll
 sync_id
 )
 {
-log
-:
-:
 debug
 !
 (

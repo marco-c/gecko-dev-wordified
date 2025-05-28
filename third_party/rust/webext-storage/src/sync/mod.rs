@@ -399,9 +399,6 @@ incoming_value
 =
 parent_value
 {
-log
-:
-:
 trace
 !
 (
@@ -502,9 +499,6 @@ have
 deleted
 it
 .
-log
-:
-:
 trace
 !
 (
@@ -617,9 +611,6 @@ into_iter
 (
 )
 {
-log
-:
-:
 trace
 !
 (
@@ -706,9 +697,6 @@ value
 in
 other
 .
-log
-:
-:
 trace
 !
 (
@@ -1174,13 +1162,10 @@ new_syncable_mem_db
 >
 StorageDb
 {
-let
-_
-=
-env_logger
+error_support
 :
 :
-try_init
+init_for_tests
 (
 )
 ;

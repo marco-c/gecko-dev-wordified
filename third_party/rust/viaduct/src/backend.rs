@@ -63,6 +63,15 @@ crate
 GLOBAL_SETTINGS
 ;
 use
+crate
+:
+:
+{
+info
+trace
+}
+;
+use
 ffi
 :
 :
@@ -171,9 +180,6 @@ call_once
 |
 |
 {
-log
-:
-:
 info
 !
 (
@@ -198,9 +204,6 @@ if
 !
 called
 {
-log
-:
-:
 trace
 !
 (

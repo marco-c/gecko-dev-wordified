@@ -89,7 +89,11 @@ crate
 error
 :
 :
+{
+info
+warn
 Error
+}
 ;
 use
 crate
@@ -189,9 +193,6 @@ collection_name
 (
 )
 ;
-log
-:
-:
 info
 !
 (
@@ -260,9 +261,6 @@ or
 declined
 "
 .
-log
-:
-:
 warn
 !
 (
@@ -363,9 +361,6 @@ None
 =
 >
 {
-log
-:
-:
 info
 !
 (
@@ -628,9 +623,6 @@ collection_request
 )
 ?
 ;
-log
-:
-:
 info
 !
 (
@@ -742,9 +734,6 @@ files
 f36274f455a6299f10e7ce56b167882c369aa806
 #
 r1189267540
-log
-:
-:
 info
 !
 (
@@ -858,9 +847,6 @@ s
 not
 trivial
 .
-log
-:
-:
 info
 !
 (
@@ -900,9 +886,6 @@ upload
 )
 ?
 ;
-log
-:
-:
 info
 !
 (
@@ -1023,9 +1006,6 @@ sync_finished
 )
 ?
 ;
-log
-:
-:
 info
 !
 (

@@ -1685,9 +1685,6 @@ error
 e
 )
 ;
-log
-:
-:
 warn
 !
 (

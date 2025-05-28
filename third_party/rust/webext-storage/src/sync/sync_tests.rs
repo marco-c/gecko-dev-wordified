@@ -290,9 +290,6 @@ OutgoingBso
 >
 >
 {
-log
-:
-:
 info
 !
 (
@@ -387,9 +384,6 @@ collect
 (
 )
 ;
-log
-:
-:
 debug
 !
 (
@@ -442,9 +436,6 @@ NeverInterrupts
 )
 ?
 ;
-log
-:
-:
 debug
 !
 (
@@ -511,9 +502,6 @@ tx
 )
 ?
 ;
-log
-:
-:
 info
 !
 (

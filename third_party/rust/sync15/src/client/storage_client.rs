@@ -113,6 +113,10 @@ error
 :
 {
 self
+debug
+info
+trace
+warn
 Error
 ErrorResponse
 }
@@ -334,9 +338,6 @@ u32
 MAX
 )
 {
-log
-:
-:
 warn
 !
 (
@@ -607,9 +608,6 @@ MissingServerTimestamp
 )
 ?
 ;
-log
-:
-:
 info
 !
 (
@@ -663,9 +661,6 @@ resp
 .
 status
 ;
-log
-:
-:
 info
 !
 (
@@ -851,9 +846,6 @@ could
 panic
 ?
 )
-log
-:
-:
 warn
 !
 (
@@ -1644,9 +1636,6 @@ status
 =
 >
 {
-log
-:
-:
 debug
 !
 (
@@ -2388,9 +2377,6 @@ Deserialize
 a
 >
 {
-log
-:
-:
 trace
 !
 (
@@ -2946,9 +2932,6 @@ engine
 )
 ?
 ;
-log
-:
-:
 debug
 !
 (

@@ -2153,13 +2153,10 @@ new_mem_db
 >
 StorageDb
 {
-let
-_
-=
-env_logger
+error_support
 :
 :
-try_init
+init_for_tests
 (
 )
 ;
