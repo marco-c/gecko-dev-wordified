@@ -5168,7 +5168,7 @@ GetJsepTransceiver
 .
 mRecvTrack
 .
-GetOtherReceivePayloadTypes
+GetDuplicateReceivePayloadTypes
 (
 )
 ;
@@ -5183,7 +5183,7 @@ duplicatePts
 filter
 -
 >
-AddOtherReceivePT
+AddDuplicateReceivePT
 (
 duplicatePt
 )
