@@ -3048,6 +3048,16 @@ front
 )
 ;
 }
+/
+/
+eslint
+-
+disable
+-
+next
+-
+line
+complexity
 function
 makeNodesForProperties
 (
