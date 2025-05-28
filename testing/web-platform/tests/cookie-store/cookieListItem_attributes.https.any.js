@@ -1503,10 +1503,6 @@ cookie
 .
 path
 currentDirectory
-+
-'
-/
-'
 )
 ;
 assert_equals
@@ -1567,7 +1563,9 @@ CookieListItem
 cookieStore
 .
 set
-adds
+does
+not
+add
 /
 to
 path
