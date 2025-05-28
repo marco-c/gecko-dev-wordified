@@ -65,6 +65,8 @@ MPL
 import
 datetime
 import
+errno
+import
 functools
 import
 glob
