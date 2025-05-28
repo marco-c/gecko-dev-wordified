@@ -2858,6 +2858,24 @@ kwargs
 )
 :
         
+if
+"
+profile_creator_cls
+"
+not
+in
+kwargs
+:
+            
+kwargs
+[
+"
+profile_creator_cls
+"
+]
+=
+ProfileCreator
+        
 super
 (
 )
