@@ -1313,6 +1313,8 @@ bool
 aReturnUnclamped
 )
 ;
+Maybe
+<
 std
 :
 :
@@ -1320,6 +1322,7 @@ pair
 <
 TimeStamp
 TimeStamp
+>
 >
 GetTimeStampsForMarker
 (
@@ -1348,9 +1351,6 @@ PerformanceMeasureOptions
 >
 &
 aOptions
-ErrorResult
-&
-aRv
 )
 ;
 }
