@@ -772,6 +772,7 @@ default
 "
 )
 ;
+await
 doCleanup
 (
 )
