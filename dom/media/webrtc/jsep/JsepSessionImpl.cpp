@@ -6138,7 +6138,7 @@ mRecvTrack
 JsepTrack
 :
 :
-SetUniqueReceivePayloadTypes
+SetReceivePayloadTypes
 (
 recvTracks
 true
@@ -7583,7 +7583,7 @@ mRecvTrack
 JsepTrack
 :
 :
-SetUniqueReceivePayloadTypes
+SetReceivePayloadTypes
 (
 receiveTracks
 )
