@@ -265,7 +265,6 @@ config
 "
 )
 ;
-await
 cleanupExperiment
 (
 )
@@ -1051,7 +1050,6 @@ exposureEvents
 length
 )
 ;
-await
 doExperimentCleanup
 (
 )
