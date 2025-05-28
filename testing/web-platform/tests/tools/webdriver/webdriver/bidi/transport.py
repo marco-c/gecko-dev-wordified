@@ -208,10 +208,6 @@ WebSocketClientProtocol
 ]
 =
 None
-#
-type
-:
-ignore
         
 self
 .
@@ -321,10 +317,6 @@ max_size
 *
 1024
 )
-#
-type
-:
-ignore
         
 self
 .
@@ -424,10 +416,6 @@ connection
 websockets
 .
 WebSocketClientProtocol
-#
-type
-:
-ignore
         
 data
 :

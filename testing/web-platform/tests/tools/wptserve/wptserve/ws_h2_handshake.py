@@ -125,10 +125,6 @@ WsH2Handshaker
 HandshakerBase
 )
 :
-#
-type
-:
-ignore
     
 def
 __init__

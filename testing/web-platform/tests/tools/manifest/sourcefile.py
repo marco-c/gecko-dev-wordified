@@ -35,7 +35,6 @@ Text
 Tuple
 TypedDict
 Union
-cast
 )
 from
 urllib
@@ -265,6 +264,15 @@ constants
 .
 spaceCharacters
 )
+#
+type
+:
+ignore
+[
+attr
+-
+defined
+]
 def
 replace_end
 (
@@ -1377,8 +1385,7 @@ ElementTree
 Element
 :
     
-doc
-=
+return
 html5lib
 .
 parse
@@ -1392,15 +1399,6 @@ etree
 useChardet
 =
 False
-)
-    
-return
-cast
-(
-ElementTree
-.
-Element
-doc
 )
 def
 _parse_xml
