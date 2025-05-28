@@ -35608,9 +35608,9 @@ void
 CodeGenerator
 :
 :
-visitGuardIsFixedLengthTypedArray
+visitGuardIsNonResizableTypedArray
 (
-LGuardIsFixedLengthTypedArray
+LGuardIsNonResizableTypedArray
 *
 guard
 )
@@ -35654,7 +35654,7 @@ temp
 ;
 masm
 .
-branchIfClassIsNotFixedLengthTypedArray
+branchIfClassIsNotNonResizableTypedArray
 (
 temp
 &

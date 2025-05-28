@@ -4976,7 +4976,7 @@ AssertPropertyLookup
 ;
 DECLARE_CACHEOP_CASE
 (
-GuardIsFixedLengthTypedArray
+GuardIsNonResizableTypedArray
 )
 ;
 DECLARE_CACHEOP_CASE
@@ -8852,7 +8852,7 @@ DISPATCH_CACHEOP
 }
 CACHEOP_CASE
 (
-GuardIsFixedLengthTypedArray
+GuardIsNonResizableTypedArray
 )
 {
 ObjOperandId
@@ -8888,6 +8888,18 @@ if
 (
 !
 IsFixedLengthTypedArrayClass
+(
+obj
+-
+>
+getClass
+(
+)
+)
+&
+&
+!
+IsImmutableTypedArrayClass
 (
 obj
 -
