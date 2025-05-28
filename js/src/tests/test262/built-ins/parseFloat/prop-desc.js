@@ -107,12 +107,16 @@ js
 -
 *
 /
-verifyProperty
+verifyPrimordialCallableProperty
 (
 this
 "
 parseFloat
 "
+"
+parseFloat
+"
+1
 {
 writable
 :

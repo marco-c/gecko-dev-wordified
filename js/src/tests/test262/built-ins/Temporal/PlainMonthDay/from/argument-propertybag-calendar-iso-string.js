@@ -50,11 +50,12 @@ Copyright
 (
 C
 )
-2024
-Igalia
-S
-.
-L
+2025
+Brage
+Hogstad
+University
+of
+Bergen
 .
 All
 rights

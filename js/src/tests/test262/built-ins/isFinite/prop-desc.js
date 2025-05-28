@@ -61,12 +61,16 @@ js
 -
 *
 /
-verifyProperty
+verifyPrimordialCallableProperty
 (
 this
 "
 isFinite
 "
+"
+isFinite
+"
+1
 {
 writable
 :

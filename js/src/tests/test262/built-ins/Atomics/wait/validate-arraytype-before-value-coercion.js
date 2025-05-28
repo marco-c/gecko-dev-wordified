@@ -65,7 +65,7 @@ sec
 -
 atomics
 .
-notify
+wait
 description
 :
 >

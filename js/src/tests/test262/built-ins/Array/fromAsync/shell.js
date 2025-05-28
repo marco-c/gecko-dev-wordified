@@ -157,7 +157,11 @@ if
 !
 Object
 .
-hasOwn
+prototype
+.
+hasOwnProperty
+.
+call
 (
 globalThis
 "
@@ -1822,7 +1826,11 @@ assert
 (
 Object
 .
-hasOwn
+prototype
+.
+hasOwnProperty
+.
+call
 (
 TemporalHelpers
 .

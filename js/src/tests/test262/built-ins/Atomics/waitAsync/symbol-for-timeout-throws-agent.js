@@ -12,8 +12,6 @@ option
 setpref
 =
 atomics_wait_async
-=
-true
 )
 skip
 -

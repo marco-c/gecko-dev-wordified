@@ -51,10 +51,6 @@ from
 "
 .
 /
-import
--
-defer
--
 throws_FIXTURE
 .
 js

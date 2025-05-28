@@ -65,7 +65,7 @@ sec
 -
 atomics
 .
-store
+load
 description
 :
 >

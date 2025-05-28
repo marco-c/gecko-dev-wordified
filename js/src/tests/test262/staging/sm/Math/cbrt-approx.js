@@ -172,6 +172,11 @@ SQRT2
 ]
 ]
 ;
+var
+sloppy_tolerance
+=
+3
+;
 for
 (
 var
@@ -191,6 +196,7 @@ cbrt
 x
 )
 y
+sloppy_tolerance
 )
 ;
 reportCompare

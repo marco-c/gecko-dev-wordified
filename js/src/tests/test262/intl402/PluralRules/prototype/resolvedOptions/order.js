@@ -111,6 +111,9 @@ locale
 type
 "
 "
+notation
+"
+"
 minimumIntegerDigits
 "
 "

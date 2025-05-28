@@ -60,7 +60,7 @@ the
 sequences
 of
 code
-point
+unit
 value
 values
 es5id

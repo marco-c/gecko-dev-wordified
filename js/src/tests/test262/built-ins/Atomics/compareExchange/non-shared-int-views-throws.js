@@ -65,7 +65,7 @@ sec
 -
 atomics
 .
-compareExchange
+compareexchange
 description
 :
 >

@@ -4085,7 +4085,11 @@ assert
 (
 Object
 .
-hasOwn
+prototype
+.
+hasOwnProperty
+.
+call
 (
 TemporalHelpers
 .

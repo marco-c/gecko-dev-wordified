@@ -65,7 +65,7 @@ sec
 -
 atomics
 .
-add
+and
 description
 :
 >

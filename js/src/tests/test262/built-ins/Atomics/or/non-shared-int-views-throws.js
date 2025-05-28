@@ -65,13 +65,13 @@ sec
 -
 atomics
 .
-and
+or
 description
 :
 >
 Atomics
 .
-and
+or
 throws
 when
 operating
@@ -139,7 +139,7 @@ function
 {
 Atomics
 .
-and
+or
 (
 view
 0
@@ -149,7 +149,7 @@ view
 }
 Atomics
 .
-and
+or
 (
 new
 {

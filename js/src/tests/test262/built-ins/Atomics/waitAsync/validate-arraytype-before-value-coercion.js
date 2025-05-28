@@ -12,8 +12,6 @@ option
 setpref
 =
 atomics_wait_async
-=
-true
 )
 skip
 -
@@ -126,7 +124,7 @@ sec
 -
 atomics
 .
-notify
+waitasync
 description
 :
 >

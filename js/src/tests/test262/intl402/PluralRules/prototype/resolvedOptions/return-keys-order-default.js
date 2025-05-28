@@ -89,6 +89,9 @@ locale
 type
 '
 '
+notation
+'
+'
 minimumIntegerDigits
 '
 '

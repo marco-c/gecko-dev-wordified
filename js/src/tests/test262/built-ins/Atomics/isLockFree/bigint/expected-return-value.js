@@ -104,7 +104,7 @@ sec
 -
 atomics
 .
-isLockFree
+islockfree
 description
 :
 >

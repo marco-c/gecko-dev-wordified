@@ -81,6 +81,9 @@ localeMatcher
 "
 type
 "
+"
+notation
+"
 /
 /
 Inside

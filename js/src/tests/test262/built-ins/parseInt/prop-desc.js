@@ -108,12 +108,16 @@ js
 -
 *
 /
-verifyProperty
+verifyPrimordialCallableProperty
 (
 this
 "
 parseInt
 "
+"
+parseInt
+"
+2
 {
 writable
 :
