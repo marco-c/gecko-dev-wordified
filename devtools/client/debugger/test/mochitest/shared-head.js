@@ -2343,9 +2343,6 @@ line
 wasmOffsetToLine
 (
 dbg
-source
-.
-id
 line
 )
 ;
@@ -15192,7 +15189,6 @@ function
 wasmOffsetToLine
 (
 dbg
-sourceId
 offset
 )
 {
@@ -15220,7 +15216,6 @@ dbg
 .
 wasmOffsetToLine
 (
-sourceId
 offset
 )
 +

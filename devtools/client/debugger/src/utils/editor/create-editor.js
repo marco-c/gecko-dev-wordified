@@ -307,20 +307,6 @@ example
 )
 *
 *
-param
-{
-Boolean
-}
-useCm6
-:
-Should
-the
-headless
-editor
-use
-CodeMirror
-6
-*
 returns
 {
 CodeMirror
@@ -331,7 +317,6 @@ export
 function
 createHeadlessEditor
 (
-useCm6
 )
 {
 const
@@ -342,7 +327,7 @@ createEditor
 {
 cm6
 :
-useCm6
+true
 }
 )
 ;

@@ -1979,7 +1979,6 @@ lines
 [
 toWasmSourceLine
 (
-sourceId
 line
 )
 ]
