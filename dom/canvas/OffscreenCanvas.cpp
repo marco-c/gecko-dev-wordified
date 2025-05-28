@@ -1426,13 +1426,7 @@ return
 }
 Maybe
 <
-mozilla
-:
-:
-ipc
-:
-:
-ActorId
+int32_t
 >
 childId
 ;
