@@ -1152,6 +1152,12 @@ hasResizableBuffer
 )
 const
 ;
+bool
+hasImmutableBuffer
+(
+)
+const
+;
 private
 :
 bool
