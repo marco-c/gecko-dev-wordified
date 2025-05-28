@@ -152,12 +152,6 @@ routes
 "
         
 "
-worker
-.
-push
-"
-        
-"
 scopes
 "
         
@@ -599,31 +593,6 @@ force
 dry
 -
 run
-"
-]
-        
-if
-merge_config
-.
-get
-(
-"
-push
-"
-)
-:
-            
-worker
-[
-"
-push
-"
-]
-=
-merge_config
-[
-"
-push
 "
 ]
         
