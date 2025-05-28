@@ -168,6 +168,11 @@ TestClientUsageArray
 cpp
 "
 "
+TestCommonMetadata
+.
+cpp
+"
+"
 TestDirectoryLock
 .
 cpp
