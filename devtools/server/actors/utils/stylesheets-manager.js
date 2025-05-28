@@ -5956,9 +5956,9 @@ resource
 :
 /
 /
-content
+gre
 -
-accessible
+resources
 /
 accessiblecaret
 .
@@ -5975,9 +5975,9 @@ resource
 :
 /
 /
-content
+gre
 -
-accessible
+resources
 /
 details
 .
