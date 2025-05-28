@@ -538,10 +538,12 @@ device
 )
 )
 ;
+await
 doExperimentCleanup
 (
 )
 ;
+await
 cleanup
 (
 )
