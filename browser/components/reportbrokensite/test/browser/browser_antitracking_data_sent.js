@@ -173,7 +173,7 @@ win
 breakageCategory
 :
 "
-adblocker
+adblockers
 "
 description
 :

@@ -579,12 +579,6 @@ defaultOrder
 choose
 "
 "
-checkout
-"
-"
-load
-"
-"
 slow
 "
 "
@@ -597,10 +591,7 @@ content
 account
 "
 "
-adblocker
-"
-"
-notsupported
+adblockers
 "
 "
 other
