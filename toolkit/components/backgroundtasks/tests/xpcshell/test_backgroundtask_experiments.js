@@ -540,6 +540,7 @@ test
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -583,6 +584,7 @@ test
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -651,6 +653,7 @@ test
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -696,6 +699,7 @@ async
 =
 >
 {
+await
 manager
 .
 unenroll
@@ -705,6 +709,7 @@ baz
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -714,6 +719,7 @@ rol2
 "
 )
 ;
+await
 cleanup
 (
 )
