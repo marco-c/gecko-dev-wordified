@@ -1443,7 +1443,7 @@ glean_core
 Glean
 :
 :
-glean_apply_server_knobs_config
+apply_server_knobs_config
 ]
 .
 pub

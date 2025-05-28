@@ -655,7 +655,7 @@ default
 )
 ;
 let
-test_sting
+test_string
 =
 "
 01234567890
@@ -674,7 +674,7 @@ set_sync
 (
 &
 glean
-test_sting
+test_string
 .
 clone
 (
@@ -691,7 +691,7 @@ truncated
 assert_eq
 !
 (
-test_sting
+test_string
 [
 .
 .

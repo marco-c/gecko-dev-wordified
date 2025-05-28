@@ -1027,11 +1027,11 @@ assert_eq
 counter_val
 "
 {
+json
 :
 ?
 }
 "
-json
 )
 ;
 }
@@ -1102,9 +1102,9 @@ sequence
 number
 :
 {
+seq
 }
 "
-seq
 )
 }
 }
@@ -1358,9 +1358,9 @@ sequence
 number
 :
 {
+seq
 }
 "
-seq
 )
 }
 }
