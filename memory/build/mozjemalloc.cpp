@@ -14740,7 +14740,7 @@ process
 /
 Returns
 a
-purge_result_t
+may_purge_now_result_t
 with
 the
 following
@@ -14912,7 +14912,7 @@ true
 .
 /
 /
-purge_result_t
+may_purge_now_result_t
 MayPurgeSteps
 (
 bool
@@ -44958,7 +44958,7 @@ aEnabled
 ;
 }
 inline
-purge_result_t
+may_purge_now_result_t
 MozJemalloc
 :
 :
@@ -45141,7 +45141,7 @@ return
 false
 ;
 }
-purge_result_t
+may_purge_now_result_t
 ArenaCollection
 :
 :
@@ -45239,7 +45239,7 @@ isEmpty
 )
 {
 return
-purge_result_t
+may_purge_now_result_t
 :
 :
 Done
@@ -45282,7 +45282,7 @@ found
 )
 {
 return
-purge_result_t
+may_purge_now_result_t
 :
 :
 WantsLater
@@ -45294,7 +45294,7 @@ aPeekOnly
 )
 {
 return
-purge_result_t
+may_purge_now_result_t
 :
 :
 NeedsMore
@@ -45664,7 +45664,7 @@ idle
 budget
 .
 return
-purge_result_t
+may_purge_now_result_t
 :
 :
 NeedsMore
