@@ -176,6 +176,9 @@ SandboxBrokerClient
 struct
 ContentProcessSandboxParams
 ;
+struct
+SocketProcessSandboxParams
+;
 UniquePtr
 <
 sandbox
@@ -262,6 +265,10 @@ GetSocketProcessSandboxPolicy
 SandboxBrokerClient
 *
 aMaybeBroker
+SocketProcessSandboxParams
+&
+&
+aParams
 )
 ;
 UniquePtr
