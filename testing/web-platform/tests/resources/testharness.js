@@ -16751,9 +16751,6 @@ AbortError
 URLMismatchError
 :
 21
-QuotaExceededError
-:
-22
 TimeoutError
 :
 23
@@ -16794,6 +16791,9 @@ NotAllowedError
 :
 0
 OptOutError
+:
+0
+QuotaExceededError
 :
 0
 }
