@@ -88,10 +88,10 @@ memtest
 :
 :
 {
-MemtestKind
-MemtestOutcome
-MemtestRunner
-MemtestRunnerArgs
+Outcome
+Runner
+RunnerArgs
+TestKind
 }
 rand
 :
@@ -253,7 +253,7 @@ mem_usize_count
 let
 memtest_report_list
 =
-MemtestRunner
+Runner
 :
 :
 from_test_kinds
@@ -333,7 +333,7 @@ report
 outcome
 Ok
 (
-MemtestOutcome
+Outcome
 :
 :
 Fail
@@ -391,7 +391,7 @@ requested
 memory
 vector
 length
-MemtestRunnerArgs
+RunnerArgs
 and
 a
 vector
@@ -399,7 +399,7 @@ of
 /
 /
 /
-MemtestKinds
+TestKinds
 to
 run
 .
@@ -416,10 +416,10 @@ Result
 <
 (
 usize
-MemtestRunnerArgs
+RunnerArgs
 Vec
 <
-MemtestKind
+TestKind
 >
 )
 >
@@ -579,7 +579,7 @@ Returns
 a
 vector
 of
-MemtestKind
+TestKind
 that
 contains
 all
@@ -603,7 +603,7 @@ Result
 <
 Vec
 <
-MemtestKind
+TestKind
 >
 >
 {
@@ -671,7 +671,7 @@ Result
 <
 Vec
 <
-MemtestKind
+TestKind
 >
 >
 >
@@ -688,7 +688,7 @@ Vec
 _
 >
 =
-MemtestKind
+TestKind
 :
 :
 ALL
@@ -814,7 +814,7 @@ matches
 !
 (
 k
-MemtestKind
+TestKind
 :
 :
 BlockMove
@@ -828,7 +828,7 @@ BlockMove
 should
 exist
 in
-MemtestKind
+TestKind
 :
 :
 ALL
@@ -969,7 +969,7 @@ use
 memtest
 :
 :
-MemtestRunnerArgs
+RunnerArgs
 ;
 /
 /
@@ -1326,7 +1326,7 @@ memsize_mb
 let
 memtest_runner_args
 =
-MemtestRunnerArgs
+RunnerArgs
 {
 timeout
 :
