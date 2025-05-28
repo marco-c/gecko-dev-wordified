@@ -272,9 +272,9 @@ resource
 :
 /
 /
-gre
+content
 -
-resources
+accessible
 /
 accessiblecaret
 .

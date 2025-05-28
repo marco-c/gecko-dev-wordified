@@ -153,7 +153,7 @@ include
 "
 mozilla
 /
-BuiltInStyleSheets
+UserAgentStyleSheetID
 .
 h
 "
@@ -458,7 +458,7 @@ sShared
 [
 size_t
 (
-BuiltInStyleSheet
+UserAgentStyleSheetID
 :
 :
 Count
