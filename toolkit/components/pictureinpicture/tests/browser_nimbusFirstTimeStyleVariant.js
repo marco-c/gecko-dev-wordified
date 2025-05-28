@@ -598,6 +598,7 @@ toggle
 }
 )
 ;
+await
 doExperimentCleanup
 (
 )
