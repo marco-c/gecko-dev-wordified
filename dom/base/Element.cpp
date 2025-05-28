@@ -5809,13 +5809,13 @@ sf
 return
 ;
 }
-CSSIntPoint
+CSSPoint
 scrollPos
 =
 sf
 -
 >
-GetRoundedScrollPositionCSSPixels
+GetScrollPositionCSSPixels
 (
 )
 ;
@@ -5834,11 +5834,6 @@ scrollPos
 .
 x
 =
-int32_t
-(
-mozilla
-:
-:
 ToZeroIfNonfinite
 (
 frame
@@ -5861,7 +5856,6 @@ mLeft
 .
 Value
 (
-)
 )
 )
 )
@@ -5882,11 +5876,6 @@ scrollPos
 .
 y
 =
-int32_t
-(
-mozilla
-:
-:
 ToZeroIfNonfinite
 (
 frame
@@ -5909,7 +5898,6 @@ mTop
 .
 Value
 (
-)
 )
 )
 )
@@ -6022,7 +6010,7 @@ sf
 return
 ;
 }
-CSSIntPoint
+CSSPoint
 scrollDelta
 ;
 if
@@ -6040,11 +6028,6 @@ scrollDelta
 .
 x
 =
-int32_t
-(
-mozilla
-:
-:
 ToZeroIfNonfinite
 (
 frame
@@ -6067,7 +6050,6 @@ mLeft
 .
 Value
 (
-)
 )
 )
 )
@@ -6088,11 +6070,6 @@ scrollDelta
 .
 y
 =
-int32_t
-(
-mozilla
-:
-:
 ToZeroIfNonfinite
 (
 frame
@@ -6115,7 +6092,6 @@ mTop
 .
 Value
 (
-)
 )
 )
 )
@@ -6154,7 +6130,7 @@ scrollMode
 )
 ;
 }
-int32_t
+double
 Element
 :
 :
@@ -6166,7 +6142,7 @@ return
 CSSPixel
 :
 :
-FromAppUnitsRounded
+FromAppUnits
 (
 GetScrollOrigin
 (
@@ -6182,7 +6158,7 @@ Element
 :
 SetScrollTop
 (
-int32_t
+double
 aScrollTop
 )
 {
@@ -6204,7 +6180,7 @@ options
 )
 ;
 }
-int32_t
+double
 Element
 :
 :
@@ -6216,7 +6192,7 @@ return
 CSSPixel
 :
 :
-FromAppUnitsRounded
+FromAppUnits
 (
 GetScrollOrigin
 (
@@ -6232,7 +6208,7 @@ Element
 :
 SetScrollLeft
 (
-int32_t
+double
 aScrollLeft
 )
 {
@@ -6345,7 +6321,7 @@ GetScrollRange
 )
 ;
 }
-int32_t
+double
 Element
 :
 :
@@ -6357,7 +6333,7 @@ return
 CSSPixel
 :
 :
-FromAppUnitsRounded
+FromAppUnits
 (
 GetScrollRange
 (
@@ -6369,7 +6345,7 @@ Y
 )
 ;
 }
-int32_t
+double
 Element
 :
 :
@@ -6381,7 +6357,7 @@ return
 CSSPixel
 :
 :
-FromAppUnitsRounded
+FromAppUnits
 (
 GetScrollRange
 (
@@ -6393,7 +6369,7 @@ YMost
 )
 ;
 }
-int32_t
+double
 Element
 :
 :
@@ -6405,7 +6381,7 @@ return
 CSSPixel
 :
 :
-FromAppUnitsRounded
+FromAppUnits
 (
 GetScrollRange
 (
@@ -6417,7 +6393,7 @@ X
 )
 ;
 }
-int32_t
+double
 Element
 :
 :
@@ -6429,7 +6405,7 @@ return
 CSSPixel
 :
 :
-FromAppUnitsRounded
+FromAppUnits
 (
 GetScrollRange
 (
