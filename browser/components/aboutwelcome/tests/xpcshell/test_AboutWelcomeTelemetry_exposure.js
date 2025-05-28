@@ -514,6 +514,7 @@ still
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -523,6 +524,7 @@ foo
 "
 )
 ;
+await
 cleanup
 (
 )

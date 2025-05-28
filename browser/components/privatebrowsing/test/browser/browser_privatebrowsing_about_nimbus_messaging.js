@@ -468,6 +468,7 @@ closeWindow
 win
 )
 ;
+await
 doExperimentCleanup
 (
 )
@@ -903,6 +904,7 @@ URL
 "
 )
 ;
+await
 doExperimentCleanup
 (
 )
@@ -1296,6 +1298,7 @@ experiments
 "
 )
 ;
+await
 doExperimentCleanup
 (
 )
