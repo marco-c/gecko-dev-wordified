@@ -575,13 +575,14 @@ offset
 ]
 class
 WrapperHandler
-:
-    
-__meta__
+(
+metaclass
 =
 abc
 .
 ABCMeta
+)
+:
     
 headers
 :
@@ -1517,10 +1518,6 @@ pair
 .
         
 pass
-    
-abc
-.
-abstractmethod
     
 def
 check_exposure
