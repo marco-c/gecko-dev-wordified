@@ -464,6 +464,7 @@ bucketing
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -852,6 +853,7 @@ exists
 "
 )
 ;
+await
 labs
 .
 unenroll
@@ -861,6 +863,7 @@ recipe
 slug
 )
 ;
+await
 cleanup
 (
 )
@@ -1020,6 +1023,7 @@ slug
 }
 )
 ;
+await
 labs
 .
 unenroll
@@ -1144,6 +1148,7 @@ slug
 }
 )
 ;
+await
 labs
 .
 unenroll
@@ -1153,6 +1158,7 @@ recipe
 slug
 )
 ;
+await
 cleanup
 (
 )
@@ -1382,6 +1388,7 @@ Should
 not
 throw
 .
+await
 labs
 .
 unenroll
@@ -1397,6 +1404,7 @@ Should
 not
 throw
 .
+await
 labs
 .
 unenroll
@@ -1436,6 +1444,7 @@ API
 "
 )
 ;
+await
 labs
 .
 unenroll
@@ -1481,6 +1490,7 @@ Should
 not
 throw
 .
+await
 labs
 .
 unenroll
@@ -1593,6 +1603,7 @@ Disqualified
 ]
 )
 ;
+await
 manager
 .
 unenroll
@@ -1602,6 +1613,7 @@ rollout
 "
 )
 ;
+await
 cleanup
 (
 )

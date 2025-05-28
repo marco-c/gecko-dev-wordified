@@ -163,6 +163,7 @@ clearUserPref
 TEST_FALLBACK_PREF
 )
 ;
+await
 cleanup
 (
 )
@@ -356,6 +357,7 @@ value
 "
 )
 ;
+await
 NimbusTestUtils
 .
 cleanupManager
@@ -403,6 +405,7 @@ clearUserPref
 TEST_FALLBACK_PREF
 )
 ;
+await
 cleanup
 (
 )
@@ -630,6 +633,7 @@ value
 "
 )
 ;
+await
 NimbusTestUtils
 .
 cleanupManager
@@ -647,6 +651,7 @@ manager
 }
 )
 ;
+await
 cleanup
 (
 )
@@ -848,6 +853,7 @@ clearUserPref
 TEST_FALLBACK_PREF
 )
 ;
+await
 manager
 .
 unenroll
@@ -857,6 +863,7 @@ rollout
 slug
 )
 ;
+await
 cleanup
 (
 )
@@ -936,6 +943,7 @@ settings
 "
 )
 ;
+await
 cleanup
 (
 )

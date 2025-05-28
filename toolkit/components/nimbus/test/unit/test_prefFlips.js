@@ -846,6 +846,7 @@ return
 .
 .
 ctx
+async
 cleanup
 (
 )
@@ -857,6 +858,7 @@ ctx
 manager
 )
 ;
+await
 baseCleanup
 (
 )
@@ -2635,6 +2637,7 @@ prefName
 )
 ;
 }
+await
 cleanup
 (
 )
@@ -7922,6 +7925,7 @@ unenrollmentOrder
 ]
 )
 {
+await
 manager
 .
 unenroll
@@ -8003,6 +8007,7 @@ slug
 n
 )
 ;
+await
 manager
 .
 unenroll
@@ -8042,6 +8047,7 @@ deleteBranch
 PREF_BAR
 )
 ;
+await
 cleanup
 (
 )
@@ -10582,6 +10588,7 @@ Unenrolling
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -10609,6 +10616,7 @@ checkExpectedPrefBranches
 expectedPrefs
 )
 ;
+await
 cleanup
 (
 )
@@ -10956,6 +10964,7 @@ enrollment
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -10994,6 +11003,7 @@ unenrollment
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -11310,6 +11320,7 @@ user
 null
 )
 ;
+await
 manager
 .
 unenroll
@@ -11348,6 +11359,7 @@ unenrollment
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -11457,6 +11469,9 @@ manager
 enroll
 (
 recipe
+"
+test
+"
 )
 ;
 const
@@ -11650,6 +11665,7 @@ deleteBranch
 PREF
 )
 ;
+await
 cleanup
 (
 )
@@ -11794,6 +11810,9 @@ manager
 enroll
 (
 recipe
+"
+test
+"
 )
 ;
 const
@@ -12021,6 +12040,7 @@ deleteBranch
 BAD_PREF
 )
 ;
+await
 cleanup
 (
 )
@@ -12517,6 +12537,7 @@ ROLLOUT
 )
 )
 {
+await
 manager
 .
 unenroll
@@ -12535,6 +12556,7 @@ EXPERIMENT
 )
 )
 {
+await
 manager
 .
 unenroll
@@ -12578,6 +12600,7 @@ EXPERIMENT
 ]
 )
 ;
+await
 cleanup
 (
 )
@@ -13075,6 +13098,7 @@ ROLLOUT
 )
 )
 {
+await
 manager
 .
 unenroll
@@ -13093,6 +13117,7 @@ EXPERIMENT
 )
 )
 {
+await
 manager
 .
 unenroll
@@ -13136,6 +13161,7 @@ EXPERIMENT
 ]
 )
 ;
+await
 cleanup
 (
 )
@@ -13516,6 +13542,7 @@ two
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -14066,6 +14093,7 @@ correct
 value
 )
 ;
+await
 NimbusTestUtils
 .
 cleanupManager
@@ -14207,6 +14235,7 @@ correct
 value
 )
 ;
+await
 cleanup
 (
 )
@@ -14631,6 +14660,7 @@ correct
 value
 )
 ;
+await
 NimbusTestUtils
 .
 cleanupManager
@@ -14669,6 +14699,7 @@ after
 unenrollment
 )
 ;
+await
 cleanup
 (
 )
@@ -15106,6 +15137,7 @@ deleteBranch
 PREF_2
 )
 ;
+await
 cleanup
 (
 )
@@ -15339,6 +15371,7 @@ deleteBranch
 PREF
 )
 ;
+await
 cleanup
 (
 )

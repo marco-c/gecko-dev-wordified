@@ -171,6 +171,7 @@ test
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -207,6 +208,7 @@ false
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -542,6 +544,7 @@ out
 ]
 )
 ;
+await
 cleanup
 (
 )
@@ -882,6 +885,7 @@ out
 ]
 )
 ;
+await
 cleanup
 (
 )
@@ -1022,6 +1026,7 @@ false
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -1088,6 +1093,9 @@ manager
 enroll
 (
 experiment
+"
+test
+"
 )
 ;
 /
@@ -1122,6 +1130,7 @@ unenroll
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -1188,6 +1197,7 @@ unenroll
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -1330,6 +1340,7 @@ unenrollment
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -1490,6 +1501,7 @@ reason
 ]
 )
 ;
+await
 cleanup
 (
 )
@@ -1541,6 +1553,7 @@ test
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -1654,6 +1667,7 @@ unknown
 ]
 )
 ;
+await
 cleanup
 (
 )
@@ -1761,6 +1775,9 @@ isRollout
 true
 }
 )
+"
+test
+"
 )
 ;
 Assert
@@ -1785,6 +1802,7 @@ enrolling
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -1861,6 +1879,7 @@ parameters
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -1911,8 +1930,12 @@ testFeature
 "
 }
 )
+"
+test
+"
 )
 ;
+await
 manager
 .
 unenroll
@@ -2008,6 +2031,7 @@ foo
 ]
 )
 ;
+await
 cleanup
 (
 )
@@ -2065,6 +2089,9 @@ branches
 ]
 }
 )
+"
+test
+"
 )
 ;
 Assert
@@ -2089,6 +2116,7 @@ active
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -2277,6 +2305,7 @@ unknown
 ]
 )
 ;
+await
 cleanup
 (
 )

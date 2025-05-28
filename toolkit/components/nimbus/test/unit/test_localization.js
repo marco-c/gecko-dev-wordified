@@ -973,6 +973,7 @@ doExperimentCleanup
 (
 )
 ;
+await
 cleanup
 (
 )
@@ -1243,6 +1244,7 @@ nimbus_experiment
 }
 )
 ;
+await
 cleanup
 (
 )
@@ -1538,6 +1540,7 @@ nimbus_experiment
 }
 )
 ;
+await
 cleanup
 (
 )
@@ -1736,6 +1739,7 @@ doExperimentCleanup
 (
 )
 ;
+await
 cleanup
 (
 )
@@ -2824,6 +2828,7 @@ baz
 fallbackPref
 )
 ;
+await
 cleanup
 (
 )
@@ -3422,6 +3427,7 @@ waldo
 fallbackPref
 )
 ;
+await
 cleanup
 (
 )
@@ -3544,6 +3550,7 @@ enroll
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -3852,6 +3859,7 @@ nimbus_experiment
 }
 )
 ;
+await
 cleanup
 (
 )
@@ -4249,6 +4257,7 @@ nimbus_experiment
 }
 )
 ;
+await
 cleanup
 (
 )
@@ -4954,6 +4963,7 @@ nimbus_experiment
 }
 )
 ;
+await
 cleanup
 (
 )
@@ -5518,6 +5528,7 @@ nimbus_experiment
 }
 )
 ;
+await
 cleanup
 (
 )
@@ -5709,6 +5720,9 @@ waldo
 }
 }
 )
+"
+test
+"
 )
 ;
 await
@@ -5789,6 +5803,9 @@ localizations
 LOCALIZATIONS
 }
 )
+"
+test
+"
 )
 ;
 await
@@ -5827,6 +5844,9 @@ localizations
 LOCALIZATIONS
 }
 )
+"
+test
+"
 )
 ;
 await
@@ -5859,6 +5879,9 @@ localizations
 LOCALIZATIONS
 }
 )
+"
+test
+"
 )
 ;
 const
@@ -6065,6 +6088,7 @@ LOCALIZED_DEEPLY_NESTED_VALUE
 ]
 )
 ;
+await
 NimbusTestUtils
 .
 cleanupManager
@@ -6120,6 +6144,7 @@ cleanupFeature
 (
 )
 ;
+await
 cleanup
 (
 )

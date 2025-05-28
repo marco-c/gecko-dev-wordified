@@ -269,6 +269,7 @@ cleanupExperiment
 (
 )
 ;
+await
 cleanup
 (
 )
@@ -326,6 +327,7 @@ getEnrollmentMetadata
 "
 )
 ;
+await
 NimbusTestUtils
 .
 assert
@@ -665,6 +667,7 @@ restore
 (
 )
 ;
+await
 manager
 .
 unenroll
@@ -674,6 +677,7 @@ blah
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -862,6 +866,7 @@ exposureEvents
 length
 )
 ;
+await
 manager
 .
 unenroll
@@ -871,6 +876,7 @@ blah
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -1048,6 +1054,7 @@ doExperimentCleanup
 (
 )
 ;
+await
 cleanup
 (
 )
@@ -1294,6 +1301,7 @@ value
 "
 )
 ;
+await
 cleanup
 (
 )

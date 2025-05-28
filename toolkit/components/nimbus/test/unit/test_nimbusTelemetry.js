@@ -688,6 +688,7 @@ testResetFOG
 (
 )
 ;
+await
 cleanup
 (
 )
@@ -1181,10 +1182,12 @@ control
 recordTargetingContext
 )
 ;
+await
 cleanupExperiment
 (
 )
 ;
+await
 cleanup
 (
 )

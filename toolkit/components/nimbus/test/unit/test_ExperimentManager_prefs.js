@@ -1110,6 +1110,7 @@ return
 .
 .
 ctx
+async
 cleanup
 (
 )
@@ -1128,6 +1129,7 @@ ctx
 manager
 )
 ;
+await
 baseCleanup
 (
 )
@@ -1703,6 +1705,7 @@ i
 +
 ;
 }
+await
 cleanup
 (
 )
@@ -5073,6 +5076,7 @@ onStartup
 (
 )
 ;
+await
 NimbusTestUtils
 .
 assert
@@ -5501,6 +5505,7 @@ of
 unenrollOrder
 )
 {
+await
 manager
 .
 unenroll
@@ -5535,6 +5540,7 @@ i
 +
 ;
 }
+await
 cleanup
 (
 )
@@ -7932,6 +7938,7 @@ deleteBranch
 pref
 )
 ;
+await
 cleanup
 (
 )
@@ -9480,6 +9487,7 @@ DEFAULT
 ]
 )
 ;
+await
 cleanup
 (
 )
@@ -10095,6 +10103,7 @@ deleteBranch
 pref
 )
 ;
+await
 cleanup
 (
 )
@@ -11079,6 +11088,7 @@ doEnrollmentCleanup
 (
 )
 ;
+await
 cleanup
 (
 )
@@ -11847,6 +11857,7 @@ onStartup
 (
 )
 ;
+await
 NimbusTestUtils
 .
 assert
@@ -12782,6 +12793,7 @@ slugs
 enrollmentKind
 ]
 ;
+await
 manager
 .
 unenroll
@@ -12790,6 +12802,7 @@ slug
 )
 ;
 }
+await
 cleanup
 (
 )
@@ -13691,6 +13704,7 @@ enrollment
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -13808,6 +13822,7 @@ unenrollment
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -13817,6 +13832,7 @@ rollout
 slug
 )
 ;
+await
 cleanup
 (
 )
@@ -14457,6 +14473,7 @@ featureCleanup
 (
 )
 ;
+await
 cleanup
 (
 )
@@ -14540,6 +14557,7 @@ onStartup
 (
 )
 ;
+await
 NimbusTestUtils
 .
 assert
@@ -14892,6 +14910,7 @@ TYPED_FEATURE
 featureId
 )
 ;
+await
 manager
 .
 unenroll
@@ -14901,6 +14920,7 @@ enrollment
 slug
 )
 ;
+await
 cleanup
 (
 )

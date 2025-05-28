@@ -248,6 +248,7 @@ conflict
 )
 )
 ;
+await
 NimbusTestUtils
 .
 cleanupManager

@@ -284,6 +284,7 @@ active
 "
 )
 ;
+await
 ExperimentAPI
 .
 manager

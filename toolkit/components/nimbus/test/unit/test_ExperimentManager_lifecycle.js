@@ -383,6 +383,7 @@ qux
 )
 )
 ;
+await
 manager
 .
 unenroll
@@ -392,6 +393,7 @@ foo
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -401,6 +403,7 @@ bar
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -579,6 +582,7 @@ enabled
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -771,6 +775,7 @@ store
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -780,6 +785,7 @@ recipe
 slug
 )
 ;
+await
 cleanup
 (
 )
@@ -946,6 +952,7 @@ enrolled
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -955,6 +962,7 @@ recipe
 slug
 )
 ;
+await
 cleanup
 (
 )
@@ -1343,6 +1351,7 @@ changed
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -1564,6 +1573,7 @@ match
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -1807,6 +1817,7 @@ rollout
 ]
 )
 ;
+await
 manager
 .
 unenroll
@@ -1816,6 +1827,7 @@ experiment
 slug
 )
 ;
+await
 manager
 .
 unenroll
@@ -1916,6 +1928,7 @@ rollout
 ]
 )
 ;
+await
 cleanup
 (
 )
@@ -2018,6 +2031,7 @@ resetHistory
 (
 )
 ;
+await
 manager
 .
 unenroll
@@ -2070,6 +2084,7 @@ out
 )
 )
 ;
+await
 cleanup
 (
 )

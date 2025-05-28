@@ -392,6 +392,7 @@ true
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -401,6 +402,7 @@ foo
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -587,6 +589,7 @@ isRollout
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -598,6 +601,7 @@ slug
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -930,6 +934,7 @@ arguments
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -1303,6 +1308,7 @@ slug
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -1312,6 +1318,7 @@ foo
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -1796,6 +1803,7 @@ rollout
 ]
 )
 ;
+await
 manager
 .
 unenroll
@@ -1805,6 +1813,7 @@ rollout
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -2123,6 +2132,7 @@ correctly
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -2132,6 +2142,7 @@ foo
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -2526,6 +2537,7 @@ reason
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -2535,6 +2547,7 @@ foo
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -2663,6 +2676,9 @@ manager
 enroll
 (
 recipe
+"
+test_rollout_failure_group_conflict
+"
 )
 ;
 Assert
@@ -2838,6 +2854,7 @@ reason
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -2849,6 +2866,7 @@ recipe
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -3105,6 +3123,7 @@ failure
 "
 )
 ;
+await
 NimbusTestUtils
 .
 cleanupManager
@@ -3122,6 +3141,7 @@ manager
 }
 )
 ;
+await
 cleanup
 (
 )
@@ -3447,6 +3467,7 @@ total
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -3726,6 +3747,7 @@ prefs
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -3735,6 +3757,7 @@ recipe
 slug
 )
 ;
+await
 cleanup
 (
 )
@@ -3887,6 +3910,7 @@ setExperimentActive
 "
 )
 ;
+await
 manager
 .
 forceEnroll
@@ -4098,6 +4122,7 @@ experiment
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -4107,6 +4132,7 @@ optin
 bar
 )
 ;
+await
 cleanup
 (
 )
@@ -4205,6 +4231,7 @@ loader
 "
 )
 ;
+await
 manager
 .
 forceEnroll
@@ -4315,6 +4342,7 @@ active
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -4328,6 +4356,7 @@ slug
 }
 )
 ;
+await
 cleanup
 (
 )
@@ -4663,6 +4692,7 @@ of
 expected
 )
 {
+await
 manager
 .
 unenroll
@@ -4676,6 +4706,7 @@ slug
 ;
 }
 }
+await
 cleanup
 (
 )
@@ -4838,6 +4869,7 @@ doExperimentCleanup
 (
 )
 ;
+await
 cleanup
 (
 )
@@ -5049,6 +5081,7 @@ false
 )
 )
 ;
+await
 cleanup
 (
 )
@@ -5186,6 +5219,7 @@ rollout
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -5218,6 +5252,7 @@ experiment
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -5268,6 +5303,9 @@ reenroll
 :
 true
 }
+"
+test
+"
 )
 /
 An
@@ -5306,6 +5344,9 @@ reenroll
 :
 true
 }
+"
+test
+"
 )
 ;
 Assert
@@ -5338,6 +5379,7 @@ rollout
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -5347,6 +5389,7 @@ rollout
 slug
 )
 ;
+await
 cleanup
 (
 )
@@ -5690,6 +5733,9 @@ manager
 enroll
 (
 recipe
+"
+test
+"
 )
 ;
 Assert
@@ -5729,6 +5775,7 @@ branch
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -5738,6 +5785,7 @@ recipe
 slug
 )
 ;
+await
 cleanup
 (
 )
@@ -6024,6 +6072,7 @@ argument
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -6472,6 +6521,7 @@ recipes
 "
 )
 ;
+await
 cleanup
 (
 )
@@ -6535,6 +6585,9 @@ isRollout
 true
 }
 )
+"
+test
+"
 )
 ;
 await
@@ -6574,6 +6627,9 @@ isRollout
 true
 }
 )
+"
+test
+"
 )
 ;
 await
@@ -6608,6 +6664,9 @@ desktop
 "
 }
 )
+"
+test
+"
 )
 ;
 await
@@ -6642,6 +6701,9 @@ desktop
 "
 }
 )
+"
+test
+"
 )
 ;
 Assert
@@ -6752,6 +6814,7 @@ active
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -6763,6 +6826,7 @@ rollout
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -6774,6 +6838,7 @@ rollout
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -6785,6 +6850,7 @@ experiment
 "
 )
 ;
+await
 manager
 .
 unenroll
@@ -6796,6 +6862,7 @@ experiment
 "
 )
 ;
+await
 cleanup
 (
 )

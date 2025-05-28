@@ -279,11 +279,13 @@ registerCleanupFunction
 {
 registerCleanupFunction
 (
+async
 (
 )
 =
 >
 {
+await
 NimbusTestUtils
 .
 assert
