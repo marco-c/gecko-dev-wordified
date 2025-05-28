@@ -9758,6 +9758,9 @@ input
 &
 CompositorInputConfig
 )
+-
+>
+bool
 ;
 /
 /
@@ -9813,6 +9816,12 @@ self
 index
 :
 usize
+dirty_rects
+:
+&
+[
+DeviceIntRect
+]
 )
 ;
 fn
