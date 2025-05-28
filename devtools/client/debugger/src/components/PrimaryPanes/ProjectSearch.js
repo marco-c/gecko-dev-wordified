@@ -1150,16 +1150,6 @@ query
 getEditor
 (
 )
-matchItem
-.
-location
-.
-line
-matchItem
-.
-location
-.
-column
 )
 ;
 }
