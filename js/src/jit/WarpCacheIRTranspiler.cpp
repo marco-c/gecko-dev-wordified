@@ -2913,6 +2913,12 @@ case
 GuardClassKind
 :
 :
+ImmutableArrayBuffer
+:
+case
+GuardClassKind
+:
+:
 ResizableArrayBuffer
 :
 case

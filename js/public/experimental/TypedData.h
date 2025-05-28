@@ -2932,6 +2932,13 @@ const
 JSClass
 *
 const
+ImmutableUnsharedClass
+;
+static
+const
+JSClass
+*
+const
 FixedLengthSharedClass
 ;
 static
@@ -2995,6 +3002,12 @@ clasp
 =
 =
 ResizableUnsharedClass
+|
+|
+clasp
+=
+=
+ImmutableUnsharedClass
 |
 |
 clasp
