@@ -2134,6 +2134,46 @@ mochitest
 "
         
 }
+        
+{
+            
+"
+source
+"
+:
+buildconfig
+.
+topobjdir
+            
+"
+base
+"
+:
+"
+dist
+/
+bin
+"
+            
+"
+pattern
+"
+:
+"
+IA2Marshal
+.
+dll
+"
+            
+"
+dest
+"
+:
+"
+mochitest
+"
+        
+}
     
 ]
     
