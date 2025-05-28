@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 /
 /
 The
@@ -4395,10 +4390,8 @@ path
 )
 ;
 }
-module
-.
-exports
-=
+export
+default
 {
 testPaths
 :

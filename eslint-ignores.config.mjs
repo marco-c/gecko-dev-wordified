@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 /
 *
 *
@@ -176,10 +171,8 @@ string
 }
 *
 /
-module
-.
-exports
-=
+export
+default
 [
 /
 /
