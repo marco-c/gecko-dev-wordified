@@ -11656,6 +11656,10 @@ RefType
 exn
 (
 )
+.
+asNonNullable
+(
+)
 )
 )
 )
