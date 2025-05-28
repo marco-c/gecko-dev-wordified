@@ -4225,14 +4225,14 @@ WaitAsyncNotifyTask
 *
 *
 (
-transfered
+transferred
 )
 *
 own
 own
 *
 *
-DelayedJSDispatchaleHandler
+DelayedJSDispatchableHandler
 PromiseObject
 JSDispatchableHandler
 *
@@ -4493,7 +4493,7 @@ See
 AsyncFutexWaiter
 :
 :
-maybeCancelTimeout
+maybeClearTimeout
 in
 atomics_notify_impl
 .
@@ -4578,7 +4578,7 @@ See
 AsyncFutexWaiter
 :
 :
-maybeCancelTimeout
+maybeClearTimeout
 in
 atomics_notify_impl
 .
@@ -4731,7 +4731,7 @@ See
 AsyncFutexWaiter
 :
 :
-maybeCancelTimeout
+maybeClearTimeout
 in
 prepareForCancel
 .
