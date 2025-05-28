@@ -751,8 +751,9 @@ packet
 object
 with
 length
-and
 copyTo
+and
+copyToBuffer
 /
 /
 which
@@ -787,6 +788,10 @@ binary
 buffer
 via
 copyTo
+/
+/
+or
+copyToBuffer
 .
 return
 [
@@ -801,6 +806,11 @@ copyTo
 packet
 .
 copyTo
+copyToBuffer
+:
+packet
+.
+copyToBuffer
 }
 ]
 ;
