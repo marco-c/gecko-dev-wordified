@@ -151,9 +151,7 @@ type
 [
 undefined
 '
-tl
-;
-dr
+tldr
 '
 '
 teaser
