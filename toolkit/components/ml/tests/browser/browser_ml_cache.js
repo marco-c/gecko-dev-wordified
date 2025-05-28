@@ -7726,6 +7726,8 @@ modelHubUrlTemplate
 model
 }
 /
+resolve
+/
 {
 revision
 }
