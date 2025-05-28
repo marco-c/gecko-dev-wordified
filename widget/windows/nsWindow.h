@@ -2561,15 +2561,6 @@ aObserver
 override
 ;
 nsresult
-ClearNativeTouchSequence
-(
-nsIObserver
-*
-aObserver
-)
-override
-;
-nsresult
 SynthesizeNativePenInput
 (
 uint32_t

@@ -1473,15 +1473,6 @@ aObserver
 )
 override
 ;
-nsresult
-ClearNativeTouchSequence
-(
-nsIObserver
-*
-aObserver
-)
-override
-;
 uint32_t
 GetMaxTouchPoints
 (
