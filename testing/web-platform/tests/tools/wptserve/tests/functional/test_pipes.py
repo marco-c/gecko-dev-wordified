@@ -1786,16 +1786,26 @@ not
 that
 easy
         
+clock_info
+=
+time
+.
+get_clock_info
+(
+"
+monotonic
+"
+)
+        
 t0
 =
 time
 .
-time
+monotonic
 (
 )
         
-resp
-=
+with
 self
 .
 request
@@ -1825,12 +1835,23 @@ r2
 )
 "
 )
+as
+resp
+:
+            
+actual
+=
+resp
+.
+read
+(
+)
         
 t1
 =
 time
 .
-time
+monotonic
 (
 )
         
@@ -1850,9 +1871,9 @@ document
 txt
 "
 )
-'
+"
 rb
-'
+"
 )
 as
 f
@@ -1870,11 +1891,7 @@ self
 .
 assertEqual
 (
-resp
-.
-read
-(
-)
+actual
 expected
 )
         
@@ -1882,10 +1899,14 @@ self
 .
 assertGreater
 (
-6
 t1
 -
 t0
+6
+-
+clock_info
+.
+resolution
 )
     
 def
