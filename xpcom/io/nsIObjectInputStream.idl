@@ -207,6 +207,9 @@ see
 nsIObjectOutputStream
 *
 /
+[
+must_use
+]
 nsISupports
 readObject
 (
@@ -217,6 +220,7 @@ aIsStrongRef
 ;
 [
 notxpcom
+must_use
 ]
 nsresult
 readID

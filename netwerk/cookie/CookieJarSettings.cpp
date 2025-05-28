@@ -3362,6 +3362,8 @@ rv
 bool
 isFixed
 ;
+rv
+=
 aStream
 -
 >
@@ -3533,6 +3535,8 @@ i
 nsAutoCString
 principalJSON
 ;
+rv
+=
 aStream
 -
 >
@@ -3585,6 +3589,8 @@ continue
 uint32_t
 cookiePermission
 ;
+rv
+=
 aStream
 -
 >
