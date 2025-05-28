@@ -1266,6 +1266,9 @@ cx
 (
 )
 ;
+AutoUnsafeCallWithABI
+unsafe
+;
 /
 /
 Size
@@ -1524,6 +1527,9 @@ cx
 (
 )
 ;
+AutoUnsafeCallWithABI
+unsafe
+;
 /
 /
 Size
@@ -1777,6 +1783,9 @@ cx
 (
 )
 ;
+AutoUnsafeCallWithABI
+unsafe
+;
 /
 /
 Size
@@ -2021,6 +2030,9 @@ instance
 cx
 (
 )
+;
+AutoUnsafeCallWithABI
+unsafe
 ;
 /
 /
@@ -2269,6 +2281,9 @@ instance
 cx
 (
 )
+;
+AutoUnsafeCallWithABI
+unsafe
 ;
 /
 /
@@ -2690,6 +2705,9 @@ cx
 (
 )
 ;
+AutoUnsafeCallWithABI
+unsafe
+;
 /
 /
 Size
@@ -3059,6 +3077,9 @@ instance
 cx
 (
 )
+;
+AutoUnsafeCallWithABI
+unsafe
 ;
 /
 /
