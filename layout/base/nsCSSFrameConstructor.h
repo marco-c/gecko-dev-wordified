@@ -14822,14 +14822,14 @@ CountersDirty
 )
 ;
 void
-ConstructAnonymousContentForCanvas
+ConstructAnonymousContentForRoot
 (
 nsFrameConstructorState
 &
 aState
 nsContainerFrame
 *
-aFrame
+aCanvasFrame
 nsIContent
 *
 aDocElement
