@@ -623,6 +623,7 @@ slug
 }
 )
 ;
+await
 doExperimentCleanup
 (
 )
