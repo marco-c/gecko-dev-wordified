@@ -66,8 +66,14 @@ mozbuild
 .
 artifacts
 import
+(
+    
 ArtifactJob
-ThunderbirdMixin
+    
+GeckoJobConfiguration
+    
+ThunderbirdJobConfiguration
+)
 class
 FakeArtifactJob
 (
@@ -80,6 +86,10 @@ package_re
 r
 "
 "
+    
+job_configuration
+=
+GeckoJobConfiguration
 class
 TestArtifactJob
 (
@@ -152,9 +162,10 @@ version_display
 =
 "
 "
+            
 expected_trees
 =
-ArtifactJob
+GeckoJobConfiguration
 .
 default_candidate_trees
         
@@ -179,9 +190,10 @@ version_display
 .
 1b2
 "
+            
 expected_trees
 =
-ArtifactJob
+GeckoJobConfiguration
 .
 beta_candidate_trees
         
@@ -208,9 +220,10 @@ version_display
 .
 0esr
 "
+            
 expected_trees
 =
-ArtifactJob
+GeckoJobConfiguration
 .
 esr_candidate_trees
         
@@ -235,9 +248,10 @@ version_display
 .
 0a1
 "
+            
 expected_trees
 =
-ArtifactJob
+GeckoJobConfiguration
 .
 nightly_candidate_trees
         
@@ -264,9 +278,10 @@ version_display
 .
 1
 "
+            
 expected_trees
 =
-ArtifactJob
+GeckoJobConfiguration
 .
 default_candidate_trees
         
@@ -299,7 +314,7 @@ n91
             
 expected_trees
 =
-ArtifactJob
+GeckoJobConfiguration
 .
 esr_candidate_trees
         
@@ -320,7 +335,7 @@ FakeArtifactJob
         
 expected_trees
 =
-ArtifactJob
+GeckoJobConfiguration
 .
 esr_candidate_trees
         
@@ -394,15 +409,6 @@ candidate_trees
 expected_trees
 )
 class
-FakeThunderbirdJob
-(
-ThunderbirdMixin
-FakeArtifactJob
-)
-:
-    
-pass
-class
 TestThunderbirdMixin
 (
 TestCase
@@ -443,8 +449,11 @@ source_repo
         
 job
 =
-FakeThunderbirdJob
+FakeArtifactJob
 (
+override_job_configuration
+=
+ThunderbirdJobConfiguration
 )
         
 self
@@ -512,7 +521,7 @@ beta
             
 expected_trees
 =
-ThunderbirdMixin
+ThunderbirdJobConfiguration
 .
 beta_candidate_trees
         
@@ -562,7 +571,7 @@ esr91
             
 expected_trees
 =
-ThunderbirdMixin
+ThunderbirdJobConfiguration
 .
 esr_candidate_trees
         
@@ -608,7 +617,7 @@ central
             
 expected_trees
 =
-ThunderbirdMixin
+ThunderbirdJobConfiguration
 .
 nightly_candidate_trees
         
@@ -658,7 +667,7 @@ release
             
 expected_trees
 =
-ThunderbirdMixin
+ThunderbirdJobConfiguration
 .
 default_candidate_trees
         
@@ -673,13 +682,16 @@ self
         
 job
 =
-FakeThunderbirdJob
+FakeArtifactJob
 (
+override_job_configuration
+=
+ThunderbirdJobConfiguration
 )
         
 expected_trees
 =
-ThunderbirdMixin
+ThunderbirdJobConfiguration
 .
 esr_candidate_trees
         
