@@ -263,18 +263,13 @@ typedef
 import
 (
 "
-.
-.
-/
-types
-/
 perf
 "
 )
 .
-MinimallyTypedGeckoProfile
+ProfileAndAdditionalInformation
 }
-MinimallyTypedGeckoProfile
+ProfileAndAdditionalInformation
 *
 /
 /
@@ -1116,7 +1111,7 @@ ThunkAction
 <
 Promise
 <
-MinimallyTypedGeckoProfile
+ProfileAndAdditionalInformation
 >
 >
 }
@@ -1152,7 +1147,7 @@ REQUESTING_PROFILE
 )
 ;
 const
-profile
+profileAndAdditionalInformation
 =
 await
 perfFront
@@ -1173,7 +1168,7 @@ OBTAINED_PROFILE
 )
 ;
 return
-profile
+profileAndAdditionalInformation
 ;
 }
 ;
