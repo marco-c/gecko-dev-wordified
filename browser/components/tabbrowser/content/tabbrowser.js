@@ -22945,6 +22945,7 @@ duplicateTabs
 removeDuplicateTabs
 (
 aTab
+options
 )
 {
 this
@@ -22963,6 +22964,7 @@ this
 closingTabsEnum
 .
 DUPLICATES
+options
 )
 ;
 }
@@ -22971,6 +22973,7 @@ _removeDuplicateTabs
 aConfirmationAnchor
 tabs
 aCloseTabs
+options
 )
 {
 if
@@ -23006,6 +23009,7 @@ this
 removeTabs
 (
 tabs
+options
 )
 ;
 ConfirmationHint
@@ -23135,6 +23139,7 @@ removed
 removeTabsToTheStartFrom
 (
 aTab
+options
 )
 {
 let
@@ -23173,6 +23178,7 @@ this
 removeTabs
 (
 tabs
+options
 )
 ;
 }
@@ -23214,6 +23220,7 @@ removed
 removeTabsToTheEndFrom
 (
 aTab
+options
 )
 {
 let
@@ -23252,6 +23259,7 @@ this
 removeTabs
 (
 tabs
+options
 )
 ;
 }
@@ -23581,6 +23589,7 @@ aParams
 removeMultiSelectedTabs
 (
 {
+isUserTriggered
 telemetrySource
 }
 =
@@ -23622,6 +23631,7 @@ removeTabs
 (
 selectedTabs
 {
+isUserTriggered
 telemetrySource
 }
 )
@@ -23903,6 +23913,7 @@ suppressWarnAboutClosingWindow
 skipPermitUnload
 skipRemoves
 skipSessionStore
+isUserTriggered
 telemetrySource
 }
 )
@@ -24442,6 +24453,7 @@ prewarmed
 true
 skipPermitUnload
 skipSessionStore
+isUserTriggered
 telemetrySource
 }
 )
@@ -25195,6 +25207,10 @@ by
 removeTabGroup
 .
 *
+TODO
+add
+docs
+*
 /
 removeTabs
 (
@@ -25213,6 +25229,9 @@ skipSessionStore
 =
 false
 skipGroupCheck
+=
+false
+isUserTriggered
 =
 false
 telemetrySource
@@ -25393,6 +25412,8 @@ group
 animate
 skipSessionStore
 skipPermitUnload
+isUserTriggered
+telemetrySource
 }
 )
 ;
@@ -25424,6 +25445,7 @@ skipRemoves
 :
 false
 skipSessionStore
+isUserTriggered
 telemetrySource
 }
 )
@@ -25547,6 +25569,8 @@ prewarmed
 true
 skipPermitUnload
 skipSessionStore
+isUserTriggered
+telemetrySource
 }
 ;
 /
@@ -25693,6 +25717,7 @@ skipPermitUnload
 closeWindowWithLastTab
 prewarmed
 skipSessionStore
+isUserTriggered
 telemetrySource
 }
 =
@@ -25959,6 +25984,7 @@ skipPermitUnload
 closeWindowWithLastTab
 prewarmed
 skipSessionStore
+isUserTriggered
 telemetrySource
 }
 )
@@ -26418,6 +26444,7 @@ prewarmed
 skipSessionStore
 =
 false
+isUserTriggered
 telemetrySource
 }
 =
@@ -27408,6 +27435,7 @@ adoptedBy
 :
 adoptedByTab
 skipSessionStore
+isUserTriggered
 telemetrySource
 }
 }
@@ -53633,9 +53661,12 @@ gBrowser
 .
 removeMultiSelectedTabs
 (
-{
-telemetrySource
-:
+gBrowser
+.
+TabMetrics
+.
+userTriggeredContext
+(
 gBrowser
 .
 TabMetrics
@@ -53643,7 +53674,7 @@ TabMetrics
 METRIC_SOURCE
 .
 TAB_STRIP
-}
+)
 )
 ;
 }
@@ -53660,8 +53691,15 @@ contextTab
 animate
 :
 true
-telemetrySource
-:
+.
+.
+.
+gBrowser
+.
+TabMetrics
+.
+userTriggeredContext
+(
 gBrowser
 .
 TabMetrics
@@ -53669,6 +53707,7 @@ TabMetrics
 METRIC_SOURCE
 .
 TAB_STRIP
+)
 }
 )
 ;
