@@ -870,7 +870,9 @@ rfc
 tag
 =
 "
-sri
+ed25519
+-
+integrity
 "
 sig1
 =
@@ -895,7 +897,9 @@ kInvalidKey
 tag
 =
 "
-sri
+ed25519
+-
+integrity
 "
 "
 accept
@@ -969,7 +973,9 @@ rfc
 tag
 =
 "
-sri
+ed25519
+-
+integrity
 "
 "
 accept
