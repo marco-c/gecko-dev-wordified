@@ -3266,6 +3266,13 @@ JSClass
 const
 ResizableClassPtr
 ;
+static
+const
+JSClass
+*
+const
+ImmutableClassPtr
+;
 protected
 :
 explicit
@@ -3320,6 +3327,12 @@ clasp
 =
 =
 ResizableClassPtr
+|
+|
+clasp
+=
+=
+ImmutableClassPtr
 )
 {
 return
