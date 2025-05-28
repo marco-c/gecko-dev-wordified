@@ -1032,21 +1032,24 @@ version
 )
             
 (
+str
+(
+tool
+)
+"
+debug
+"
+"
+snapshot
+"
+)
+            
+(
                 
 str
 (
 tool
 )
-                
-"
--
--
-ignore
--
-working
--
-copy
-"
                 
 "
 operation
