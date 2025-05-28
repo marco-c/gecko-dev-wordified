@@ -1,7 +1,7 @@
 /
 *
 global
-runHeuristicsTest
+add_heuristic_tests
 *
 /
 "

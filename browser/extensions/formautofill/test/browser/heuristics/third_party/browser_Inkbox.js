@@ -1,7 +1,7 @@
 /
 *
 global
-add_heuristic_tests
+add_autofill_heuristic_tests
 *
 /
 "

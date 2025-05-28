@@ -56,6 +56,12 @@ MPL
 .
 *
 /
+/
+*
+globals
+quit
+*
+/
 "
 use
 strict
