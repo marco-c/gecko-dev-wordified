@@ -222,6 +222,7 @@ experiment
 "
 )
 ;
+await
 experimentCleanup
 (
 )
@@ -423,6 +424,7 @@ experiment
 "
 )
 ;
+await
 experimentCleanup
 (
 )
