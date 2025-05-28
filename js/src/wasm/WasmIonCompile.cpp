@@ -21455,6 +21455,9 @@ identity
 builtin
 .
 failureMode
+builtin
+.
+failureTrap
 callState
 -
 >
@@ -21505,6 +21508,9 @@ identity
 builtin
 .
 failureMode
+builtin
+.
+failureTrap
 callState
 -
 >

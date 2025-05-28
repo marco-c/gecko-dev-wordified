@@ -758,6 +758,20 @@ FailureMode
 :
 :
 FailOnInvalidRef
+#
+define
+_NoTrap
+Trap
+:
+:
+Limit
+#
+define
+_ThrowReported
+Trap
+:
+:
+ThrowReported
 namespace
 js
 {
@@ -775,6 +789,7 @@ SymbolicAddress
 SinNativeD
 _F64
 _Infallible
+_NoTrap
 1
 {
 _F64
@@ -793,6 +808,7 @@ SymbolicAddress
 SinFdlibmD
 _F64
 _Infallible
+_NoTrap
 1
 {
 _F64
@@ -811,6 +827,7 @@ SymbolicAddress
 CosNativeD
 _F64
 _Infallible
+_NoTrap
 1
 {
 _F64
@@ -829,6 +846,7 @@ SymbolicAddress
 CosFdlibmD
 _F64
 _Infallible
+_NoTrap
 1
 {
 _F64
@@ -847,6 +865,7 @@ SymbolicAddress
 TanNativeD
 _F64
 _Infallible
+_NoTrap
 1
 {
 _F64
@@ -865,6 +884,7 @@ SymbolicAddress
 TanFdlibmD
 _F64
 _Infallible
+_NoTrap
 1
 {
 _F64
@@ -883,6 +903,7 @@ SymbolicAddress
 ASinD
 _F64
 _Infallible
+_NoTrap
 1
 {
 _F64
@@ -901,6 +922,7 @@ SymbolicAddress
 ACosD
 _F64
 _Infallible
+_NoTrap
 1
 {
 _F64
@@ -919,6 +941,7 @@ SymbolicAddress
 ATanD
 _F64
 _Infallible
+_NoTrap
 1
 {
 _F64
@@ -937,6 +960,7 @@ SymbolicAddress
 CeilD
 _F64
 _Infallible
+_NoTrap
 1
 {
 _F64
@@ -955,6 +979,7 @@ SymbolicAddress
 CeilF
 _F32
 _Infallible
+_NoTrap
 1
 {
 _F32
@@ -973,6 +998,7 @@ SymbolicAddress
 FloorD
 _F64
 _Infallible
+_NoTrap
 1
 {
 _F64
@@ -991,6 +1017,7 @@ SymbolicAddress
 FloorF
 _F32
 _Infallible
+_NoTrap
 1
 {
 _F32
@@ -1009,6 +1036,7 @@ SymbolicAddress
 TruncD
 _F64
 _Infallible
+_NoTrap
 1
 {
 _F64
@@ -1027,6 +1055,7 @@ SymbolicAddress
 TruncF
 _F32
 _Infallible
+_NoTrap
 1
 {
 _F32
@@ -1045,6 +1074,7 @@ SymbolicAddress
 NearbyIntD
 _F64
 _Infallible
+_NoTrap
 1
 {
 _F64
@@ -1063,6 +1093,7 @@ SymbolicAddress
 NearbyIntF
 _F32
 _Infallible
+_NoTrap
 1
 {
 _F32
@@ -1081,6 +1112,7 @@ SymbolicAddress
 ExpD
 _F64
 _Infallible
+_NoTrap
 1
 {
 _F64
@@ -1099,6 +1131,7 @@ SymbolicAddress
 LogD
 _F64
 _Infallible
+_NoTrap
 1
 {
 _F64
@@ -1117,6 +1150,7 @@ SymbolicAddress
 PowD
 _F64
 _Infallible
+_NoTrap
 2
 {
 _F64
@@ -1136,6 +1170,7 @@ SymbolicAddress
 ATan2D
 _F64
 _Infallible
+_NoTrap
 2
 {
 _F64
@@ -1155,6 +1190,7 @@ SymbolicAddress
 ArrayMemMove
 _VOID
 _Infallible
+_NoTrap
 6
 {
 _WAD
@@ -1178,6 +1214,7 @@ SymbolicAddress
 ArrayRefsMove
 _VOID
 _Infallible
+_NoTrap
 5
 {
 _WAD
@@ -1200,6 +1237,7 @@ SymbolicAddress
 MemoryGrowM32
 _I32
 _Infallible
+_NoTrap
 3
 {
 _PTR
@@ -1220,6 +1258,7 @@ SymbolicAddress
 MemoryGrowM64
 _I64
 _Infallible
+_NoTrap
 3
 {
 _PTR
@@ -1240,6 +1279,7 @@ SymbolicAddress
 MemorySizeM32
 _I32
 _Infallible
+_NoTrap
 2
 {
 _PTR
@@ -1259,6 +1299,7 @@ SymbolicAddress
 MemorySizeM64
 _I64
 _Infallible
+_NoTrap
 2
 {
 _PTR
@@ -1278,6 +1319,7 @@ SymbolicAddress
 WaitI32M32
 _I32
 _FailOnNegI32
+_ThrowReported
 5
 {
 _PTR
@@ -1300,6 +1342,7 @@ SymbolicAddress
 WaitI32M64
 _I32
 _FailOnNegI32
+_ThrowReported
 5
 {
 _PTR
@@ -1322,6 +1365,7 @@ SymbolicAddress
 WaitI64M32
 _I32
 _FailOnNegI32
+_ThrowReported
 5
 {
 _PTR
@@ -1344,6 +1388,7 @@ SymbolicAddress
 WaitI64M64
 _I32
 _FailOnNegI32
+_ThrowReported
 5
 {
 _PTR
@@ -1366,6 +1411,7 @@ SymbolicAddress
 WakeM32
 _I32
 _FailOnNegI32
+_ThrowReported
 4
 {
 _PTR
@@ -1387,6 +1433,7 @@ SymbolicAddress
 WakeM64
 _I32
 _FailOnNegI32
+_ThrowReported
 4
 {
 _PTR
@@ -1408,6 +1455,7 @@ SymbolicAddress
 MemCopyM32
 _VOID
 _FailOnNegI32
+_ThrowReported
 5
 {
 _PTR
@@ -1430,6 +1478,7 @@ SymbolicAddress
 MemCopySharedM32
 _VOID
 _FailOnNegI32
+_ThrowReported
 5
 {
 _PTR
@@ -1452,6 +1501,7 @@ SymbolicAddress
 MemCopyM64
 _VOID
 _FailOnNegI32
+_ThrowReported
 5
 {
 _PTR
@@ -1474,6 +1524,7 @@ SymbolicAddress
 MemCopySharedM64
 _VOID
 _FailOnNegI32
+_ThrowReported
 5
 {
 _PTR
@@ -1496,6 +1547,7 @@ SymbolicAddress
 MemCopyAny
 _VOID
 _FailOnNegI32
+_ThrowReported
 6
 {
 _PTR
@@ -1519,6 +1571,7 @@ SymbolicAddress
 DataDrop
 _VOID
 _FailOnNegI32
+_ThrowReported
 2
 {
 _PTR
@@ -1538,6 +1591,7 @@ SymbolicAddress
 MemFillM32
 _VOID
 _FailOnNegI32
+_ThrowReported
 5
 {
 _PTR
@@ -1560,6 +1614,7 @@ SymbolicAddress
 MemFillSharedM32
 _VOID
 _FailOnNegI32
+_ThrowReported
 5
 {
 _PTR
@@ -1582,6 +1637,7 @@ SymbolicAddress
 MemFillM64
 _VOID
 _FailOnNegI32
+_ThrowReported
 5
 {
 _PTR
@@ -1604,6 +1660,7 @@ SymbolicAddress
 MemFillSharedM64
 _VOID
 _FailOnNegI32
+_ThrowReported
 5
 {
 _PTR
@@ -1626,6 +1683,7 @@ SymbolicAddress
 MemDiscardM32
 _VOID
 _FailOnNegI32
+_ThrowReported
 4
 {
 _PTR
@@ -1647,6 +1705,7 @@ SymbolicAddress
 MemDiscardSharedM32
 _VOID
 _FailOnNegI32
+_ThrowReported
 4
 {
 _PTR
@@ -1668,6 +1727,7 @@ SymbolicAddress
 MemDiscardM64
 _VOID
 _FailOnNegI32
+_ThrowReported
 4
 {
 _PTR
@@ -1689,6 +1749,7 @@ SymbolicAddress
 MemDiscardSharedM64
 _VOID
 _FailOnNegI32
+_ThrowReported
 4
 {
 _PTR
@@ -1710,6 +1771,7 @@ SymbolicAddress
 MemInitM32
 _VOID
 _FailOnNegI32
+_ThrowReported
 6
 {
 _PTR
@@ -1733,6 +1795,7 @@ SymbolicAddress
 MemInitM64
 _VOID
 _FailOnNegI32
+_ThrowReported
 6
 {
 _PTR
@@ -1756,6 +1819,7 @@ SymbolicAddress
 TableCopy
 _VOID
 _FailOnNegI32
+_ThrowReported
 6
 {
 _PTR
@@ -1779,6 +1843,7 @@ SymbolicAddress
 ElemDrop
 _VOID
 _FailOnNegI32
+_ThrowReported
 2
 {
 _PTR
@@ -1798,6 +1863,7 @@ SymbolicAddress
 TableFill
 _VOID
 _FailOnNegI32
+_ThrowReported
 5
 {
 _PTR
@@ -1820,6 +1886,7 @@ SymbolicAddress
 TableGet
 _RoN
 _FailOnInvalidRef
+_ThrowReported
 3
 {
 _PTR
@@ -1840,6 +1907,7 @@ SymbolicAddress
 TableGrow
 _I32
 _Infallible
+_NoTrap
 4
 {
 _PTR
@@ -1861,6 +1929,7 @@ SymbolicAddress
 TableInit
 _VOID
 _FailOnNegI32
+_ThrowReported
 6
 {
 _PTR
@@ -1884,6 +1953,7 @@ SymbolicAddress
 TableSet
 _VOID
 _FailOnNegI32
+_ThrowReported
 4
 {
 _PTR
@@ -1905,6 +1975,7 @@ SymbolicAddress
 TableSize
 _I32
 _Infallible
+_NoTrap
 2
 {
 _PTR
@@ -1924,6 +1995,7 @@ SymbolicAddress
 RefFunc
 _RoN
 _FailOnInvalidRef
+_ThrowReported
 2
 {
 _PTR
@@ -1943,6 +2015,7 @@ SymbolicAddress
 PostBarrierEdge
 _VOID
 _Infallible
+_NoTrap
 2
 {
 _PTR
@@ -1962,6 +2035,7 @@ SymbolicAddress
 PostBarrierEdgePrecise
 _VOID
 _Infallible
+_NoTrap
 3
 {
 _PTR
@@ -1982,6 +2056,7 @@ SymbolicAddress
 PostBarrierWholeCell
 _VOID
 _Infallible
+_NoTrap
 2
 {
 _PTR
@@ -2001,6 +2076,7 @@ SymbolicAddress
 ExceptionNew
 _RoN
 _FailOnNullPtr
+_ThrowReported
 2
 {
 _PTR
@@ -2020,6 +2096,7 @@ SymbolicAddress
 ThrowException
 _VOID
 _FailOnNegI32
+_ThrowReported
 2
 {
 _PTR
@@ -2039,6 +2116,7 @@ SymbolicAddress
 StructNewIL_true
 _RoN
 _FailOnNullPtr
+_ThrowReported
 3
 {
 _PTR
@@ -2059,6 +2137,7 @@ SymbolicAddress
 StructNewIL_false
 _RoN
 _FailOnNullPtr
+_ThrowReported
 3
 {
 _PTR
@@ -2079,6 +2158,7 @@ SymbolicAddress
 StructNewOOL_true
 _RoN
 _FailOnNullPtr
+_ThrowReported
 3
 {
 _PTR
@@ -2099,6 +2179,7 @@ SymbolicAddress
 StructNewOOL_false
 _RoN
 _FailOnNullPtr
+_ThrowReported
 3
 {
 _PTR
@@ -2119,6 +2200,7 @@ SymbolicAddress
 ArrayNew_true
 _RoN
 _FailOnNullPtr
+_ThrowReported
 4
 {
 _PTR
@@ -2140,6 +2222,7 @@ SymbolicAddress
 ArrayNew_false
 _RoN
 _FailOnNullPtr
+_ThrowReported
 4
 {
 _PTR
@@ -2161,6 +2244,7 @@ SymbolicAddress
 ArrayNewData
 _RoN
 _FailOnNullPtr
+_ThrowReported
 6
 {
 _PTR
@@ -2184,6 +2268,7 @@ SymbolicAddress
 ArrayNewElem
 _RoN
 _FailOnNullPtr
+_ThrowReported
 6
 {
 _PTR
@@ -2207,6 +2292,7 @@ SymbolicAddress
 ArrayInitData
 _VOID
 _FailOnNegI32
+_ThrowReported
 6
 {
 _PTR
@@ -2230,6 +2316,7 @@ SymbolicAddress
 ArrayInitElem
 _VOID
 _FailOnNegI32
+_ThrowReported
 7
 {
 _PTR
@@ -2254,6 +2341,7 @@ SymbolicAddress
 ArrayCopy
 _VOID
 _FailOnNegI32
+_ThrowReported
 7
 {
 _PTR
@@ -2303,6 +2391,11 @@ DECLARE_BUILTIN_MODULE_FUNC_FAILMODE_
 #
 op
 \
+DECLARE_BUILTIN_MODULE_FUNC_FAILTRAP_
+#
+#
+op
+\
 DECLARE_BUILTIN_MODULE_FUNC_PARAM_MIRTYPES_
 #
 #
@@ -2330,6 +2423,7 @@ SymbolicAddress
 UpdateSuspenderState
 _VOID
 _Infallible
+_NoTrap
 3
 {
 _PTR

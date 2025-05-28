@@ -17389,6 +17389,9 @@ identity
 builtin
 .
 failureMode
+builtin
+.
+failureTrap
 )
 ;
 }

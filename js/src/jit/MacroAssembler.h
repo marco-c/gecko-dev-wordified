@@ -28054,6 +28054,11 @@ wasm
 :
 FailureMode
 failureMode
+wasm
+:
+:
+Trap
+failureTrap
 )
 ;
 /
@@ -28113,6 +28118,11 @@ wasm
 :
 FailureMode
 failureMode
+wasm
+:
+:
+Trap
+failureTrap
 const
 wasm
 :
