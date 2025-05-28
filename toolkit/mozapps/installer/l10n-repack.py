@@ -112,16 +112,6 @@ set
 [
         
 "
-*
-*
-/
-crashreporter
-*
-.
-ini
-"
-        
-"
 dictionaries
 "
         
