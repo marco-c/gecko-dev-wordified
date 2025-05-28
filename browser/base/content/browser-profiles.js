@@ -1830,6 +1830,7 @@ profiles
 theme
 -
 fg
+currentColor
 )
 "
 ;
