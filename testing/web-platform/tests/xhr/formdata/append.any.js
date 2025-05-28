@@ -268,6 +268,10 @@ getTime
 -
 2000
 )
+.
+getTime
+(
+)
 ;
 /
 /
@@ -353,6 +357,10 @@ fd
 lastModified
 new
 Date
+(
+)
+.
+getTime
 (
 )
 )
