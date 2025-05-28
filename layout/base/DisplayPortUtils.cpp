@@ -5663,7 +5663,7 @@ frame
 nsLayoutUtils
 :
 :
-GetCrossDocParentFrameInProcess
+GetParentOrPlaceholderForCrossDoc
 (
 frame
 )
