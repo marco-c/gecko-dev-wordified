@@ -3809,6 +3809,10 @@ SpecifiedValueInfo
 or
 so
 instead
+;
+see
+bug
+1887627
 .
         
 return
@@ -3819,6 +3823,18 @@ in
 {
             
 "
+BorderSpacing
+"
+            
+"
+FontSize
+"
+            
+"
+Inset
+"
+            
+"
 Length
 "
             
@@ -3827,7 +3843,11 @@ LengthPercentage
 "
             
 "
-FontSize
+LengthPercentageOrAuto
+"
+            
+"
+LetterSpacing
 "
             
 "
@@ -3835,7 +3855,71 @@ LineHeight
 "
             
 "
+LineWidth
+"
+            
+"
+MaxSize
+"
+            
+"
+NonNegativeLength
+"
+            
+"
+NonNegativeLengthOrAuto
+"
+            
+"
+NonNegativeLengthOrNumber
+"
+            
+"
+NonNegativeLengthOrNumberRect
+"
+            
+"
+NonNegativeLengthPercentage
+"
+            
+"
+NonNegativeLengthPercentageOrNormal
+"
+            
+"
+Position
+"
+            
+"
+PositionOrAuto
+"
+            
+"
+SimpleShadow
+"
+            
+"
 Size
+"
+            
+"
+SVGLength
+"
+            
+"
+SVGStrokeDashArray
+"
+            
+"
+SVGWidth
+"
+            
+"
+TextDecorationLength
+"
+            
+"
+TextIndent
 "
             
 "
