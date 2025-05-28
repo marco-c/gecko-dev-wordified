@@ -1066,7 +1066,7 @@ declSection
 /
 One
 function
-tableSection
+defaultTableSection
 (
 1
 )
@@ -1139,13 +1139,13 @@ type
 ?
 BadType
 :
-AnyFuncCode
+FuncRefCode
 )
 ;
 /
 /
 always
-anyfunc
+funcref
 body
 .
 push
@@ -2134,7 +2134,7 @@ globalSection
 {
 valType
 :
-AnyFuncCode
+FuncRefCode
 flags
 :
 0
