@@ -9101,6 +9101,12 @@ hasMovableChars
 )
 const
 ;
+bool
+hasCharsInCollectedNurseryRegion
+(
+)
+const
+;
 void
 maybeInitializeIndexValue
 (

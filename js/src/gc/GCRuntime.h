@@ -3827,6 +3827,14 @@ AutoHeapSession
 session
 )
 ;
+void
+checkHeapBeforeMinorGC
+(
+AutoHeapSession
+&
+session
+)
+;
 #
 else
 bool

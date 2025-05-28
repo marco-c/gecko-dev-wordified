@@ -806,6 +806,7 @@ Nursery
 :
 inCollectedRegion
 (
+const
 gc
 :
 :

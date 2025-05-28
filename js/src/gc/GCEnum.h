@@ -526,6 +526,12 @@ D
 YieldWhileGrayMarking
 25
 )
+\
+D
+(
+CheckHeapBeforeMinorGC
+26
+)
 enum
 class
 ZealMode
