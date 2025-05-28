@@ -222,7 +222,7 @@ platform
 =
 =
 "
-windows
+win
 "
 )
 {
