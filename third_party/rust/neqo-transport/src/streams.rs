@@ -442,17 +442,9 @@ RemoteStreamLimits
 local_stream_limits
 :
 LocalStreamLimits
-pub
-(
-crate
-)
 send
 :
 SendStreams
-pub
-(
-crate
-)
 recv
 :
 RecvStreams
@@ -494,6 +486,8 @@ borrow
 )
 .
 local
+(
+)
 .
 get_integer
 (
@@ -510,6 +504,8 @@ borrow
 )
 .
 local
+(
+)
 .
 get_integer
 (
@@ -526,6 +522,8 @@ borrow
 )
 .
 local
+(
+)
 .
 get_integer
 (
@@ -695,6 +693,8 @@ borrow
 )
 .
 local
+(
+)
 .
 get_integer
 (
@@ -727,6 +727,8 @@ borrow
 )
 .
 local
+(
+)
 .
 get_integer
 (
@@ -2260,6 +2262,8 @@ borrow
 )
 .
 local
+(
+)
 .
 get_integer
 (
@@ -3041,6 +3045,8 @@ borrow
 )
 .
 local
+(
+)
 .
 get_integer
 (

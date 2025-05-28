@@ -280,7 +280,6 @@ the
 ALPN
 says
 .
-pub
 alpn
 :
 String
@@ -320,7 +319,6 @@ traces
 to
 this
 directory
-pub
 qlog_dir
 :
 Option
@@ -348,7 +346,6 @@ default_value
 "
 )
 ]
-pub
 max_table_size_encoder
 :
 u64
@@ -373,7 +370,6 @@ default_value
 "
 )
 ]
-pub
 max_table_size_decoder
 :
 u64
@@ -403,7 +399,6 @@ default_value
 "
 )
 ]
-pub
 max_blocked_streams
 :
 u16
@@ -443,7 +438,6 @@ TLS_AES_128_GCM_SHA256
 TLS_AES_256_GCM_SHA384
 TLS_CHACHA20_POLY1305_SHA256
 .
-pub
 ciphers
 :
 Vec
@@ -476,7 +470,6 @@ with
 QUIC
 Network
 Simulator
-pub
 qns_test
 :
 Option
@@ -490,7 +483,6 @@ command
 flatten
 )
 ]
-pub
 quic_parameters
 :
 QuicParameters

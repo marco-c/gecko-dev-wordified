@@ -700,7 +700,9 @@ borrow_mut
 (
 )
 .
-local
+local_mut
+(
+)
 .
 set_integer
 (
@@ -2603,7 +2605,9 @@ server
 .
 crypto
 .
-streams
+streams_mut
+(
+)
 .
 write_frame
 (
@@ -2655,7 +2659,9 @@ server
 .
 crypto
 .
-streams
+streams_mut
+(
+)
 .
 write_frame
 (
