@@ -16709,7 +16709,7 @@ t1
 JsepTrack
 :
 :
-SetUniqueReceivePayloadTypes
+SetReceivePayloadTypes
 (
 tracks
 )
@@ -16731,7 +16731,7 @@ EXPECT_THAT
 (
 t1
 .
-GetDuplicateReceivePayloadTypes
+GetOtherReceivePayloadTypes
 (
 )
 UnorderedElementsAre
@@ -17265,7 +17265,7 @@ t2
 JsepTrack
 :
 :
-SetUniqueReceivePayloadTypes
+SetReceivePayloadTypes
 (
 tracks
 )
@@ -17287,7 +17287,7 @@ EXPECT_THAT
 (
 t1
 .
-GetDuplicateReceivePayloadTypes
+GetOtherReceivePayloadTypes
 (
 )
 UnorderedElementsAre
@@ -17312,7 +17312,7 @@ EXPECT_THAT
 (
 t2
 .
-GetDuplicateReceivePayloadTypes
+GetOtherReceivePayloadTypes
 (
 )
 UnorderedElementsAre
@@ -17846,7 +17846,7 @@ t2
 JsepTrack
 :
 :
-SetUniqueReceivePayloadTypes
+SetReceivePayloadTypes
 (
 tracks
 )
@@ -17867,7 +17867,7 @@ EXPECT_THAT
 (
 t1
 .
-GetDuplicateReceivePayloadTypes
+GetOtherReceivePayloadTypes
 (
 )
 UnorderedElementsAre
@@ -17892,7 +17892,7 @@ EXPECT_THAT
 (
 t2
 .
-GetDuplicateReceivePayloadTypes
+GetOtherReceivePayloadTypes
 (
 )
 UnorderedElementsAre
@@ -18469,7 +18469,7 @@ t2
 JsepTrack
 :
 :
-SetUniqueReceivePayloadTypes
+SetReceivePayloadTypes
 (
 tracks
 )
@@ -18491,7 +18491,7 @@ EXPECT_THAT
 (
 t1
 .
-GetDuplicateReceivePayloadTypes
+GetOtherReceivePayloadTypes
 (
 )
 UnorderedElementsAre
@@ -18517,7 +18517,7 @@ EXPECT_THAT
 (
 t2
 .
-GetDuplicateReceivePayloadTypes
+GetOtherReceivePayloadTypes
 (
 )
 UnorderedElementsAre
@@ -19113,7 +19113,7 @@ t2
 JsepTrack
 :
 :
-SetUniqueReceivePayloadTypes
+SetReceivePayloadTypes
 (
 tracks
 )
@@ -19136,7 +19136,7 @@ EXPECT_THAT
 (
 t1
 .
-GetDuplicateReceivePayloadTypes
+GetOtherReceivePayloadTypes
 (
 )
 UnorderedElementsAre
@@ -19162,7 +19162,7 @@ EXPECT_THAT
 (
 t2
 .
-GetDuplicateReceivePayloadTypes
+GetOtherReceivePayloadTypes
 (
 )
 UnorderedElementsAre
@@ -19617,7 +19617,7 @@ t2
 JsepTrack
 :
 :
-SetUniqueReceivePayloadTypes
+SetReceivePayloadTypes
 (
 newTracks
 )
@@ -19638,7 +19638,7 @@ EXPECT_THAT
 (
 t1
 .
-GetDuplicateReceivePayloadTypes
+GetOtherReceivePayloadTypes
 (
 )
 UnorderedElementsAre
@@ -19664,7 +19664,7 @@ EXPECT_THAT
 (
 t2
 .
-GetDuplicateReceivePayloadTypes
+GetOtherReceivePayloadTypes
 (
 )
 UnorderedElementsAre

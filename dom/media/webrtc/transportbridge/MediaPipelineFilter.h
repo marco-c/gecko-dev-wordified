@@ -617,7 +617,7 @@ it
 here
 .
 void
-AddDuplicateReceivePT
+AddOtherReceivePT
 (
 uint8_t
 payload_type
@@ -692,7 +692,7 @@ set
 <
 uint8_t
 >
-receive_payload_type_set_
+unique_payload_type_set_
 ;
 std
 :
@@ -701,7 +701,7 @@ set
 <
 uint8_t
 >
-duplicate_payload_type_set_
+other_payload_type_set_
 ;
 Maybe
 <
