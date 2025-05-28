@@ -3643,6 +3643,14 @@ row
 _pref
 .
 exists
+&
+&
+!
+row
+.
+_pref
+.
+isLocked
 ;
 }
 return
