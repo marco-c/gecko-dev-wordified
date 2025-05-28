@@ -3670,7 +3670,13 @@ Reverse
 ;
 }
 return
+std
+:
+:
+move
+(
 wordBoundaryDistances
+)
 ;
 }
 template
