@@ -60,7 +60,7 @@ util
 .
 scriptworker
 import
-get_signing_cert_scope
+get_signing_type
 from
 taskgraph
 .
@@ -472,16 +472,16 @@ transforms
 .
 add
 def
-add_signing_cert_scope
+add_signing_type
 (
 config
 tasks
 )
 :
     
-signing_cert_scope
+signing_type
 =
-get_signing_cert_scope
+get_signing_type
 (
 config
 )
@@ -493,20 +493,20 @@ tasks
 :
         
 task
-.
-setdefault
-(
-"
-scopes
-"
 [
+"
+worker
+"
 ]
-)
-.
-append
-(
-signing_cert_scope
-)
+[
+"
+signing
+-
+type
+"
+]
+=
+signing_type
         
 yield
 task

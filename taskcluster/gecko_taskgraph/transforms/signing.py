@@ -134,7 +134,7 @@ import
     
 add_scope_prefix
     
-get_signing_cert_scope_per_platform
+get_signing_type_per_platform
 )
 transforms
 =
@@ -814,11 +814,6 @@ dep_job
 .
 attributes
         
-signing_format_scopes
-=
-[
-]
-        
 formats
 =
 set
@@ -1307,9 +1302,9 @@ chunk_locales
 "
 )
         
-signing_cert_scope
+signing_type
 =
-get_signing_cert_scope_per_platform
+get_signing_type_per_platform
 (
             
 build_platform
@@ -1367,6 +1362,14 @@ signing
 "
                 
 "
+signing
+-
+type
+"
+:
+signing_type
+                
+"
 upstream
 -
 artifacts
@@ -1404,16 +1407,6 @@ time
 )
             
 }
-            
-"
-scopes
-"
-:
-[
-signing_cert_scope
-]
-+
-signing_format_scopes
             
 "
 dependencies
@@ -1574,6 +1567,28 @@ notarization
 "
 )
 :
+            
+task
+[
+"
+worker
+"
+]
+[
+"
+signing
+-
+type
+"
+]
+=
+"
+release
+-
+apple
+-
+notarization
+"
             
 task
 [

@@ -139,7 +139,7 @@ util
 .
 scriptworker
 import
-get_signing_cert_scope_per_platform
+get_signing_type_per_platform
 logger
 =
 logging
@@ -768,9 +768,9 @@ for
 shippable
 '
         
-signing_cert_scope
+signing_type
 =
-get_signing_cert_scope_per_platform
+get_signing_type_per_platform
 (
             
 build_platform
@@ -778,12 +778,6 @@ is_shippable
 config
         
 )
-        
-scopes
-=
-[
-signing_cert_scope
-]
         
 task
 =
@@ -862,6 +856,14 @@ signing
 "
                 
 "
+signing
+-
+type
+"
+:
+signing_type
+                
+"
 upstream
 -
 artifacts
@@ -892,12 +894,6 @@ attributes
 "
 :
 attributes
-            
-"
-scopes
-"
-:
-scopes
             
 "
 run
