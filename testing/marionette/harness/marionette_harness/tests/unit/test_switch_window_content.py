@@ -60,10 +60,6 @@ unittest
 import
 skipIf
 from
-six
-.
-moves
-.
 urllib
 .
 parse

@@ -54,10 +54,6 @@ MPL
 /
 .
 from
-six
-.
-moves
-.
 urllib
 .
 parse
@@ -75,8 +71,6 @@ marionette_driver
 errors
 import
 (
-    
-DetachedShadowRootException
     
 NoSuchShadowRootException
 )

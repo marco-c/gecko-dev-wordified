@@ -55,8 +55,6 @@ MPL
 .
 import
 sys
-import
-six
 from
 marionette_driver
 import
@@ -339,9 +337,7 @@ stacktrace
         
 r
 =
-six
-.
-text_type
+str
 (
 exc
 )
@@ -435,19 +431,7 @@ self
 .
 assertIn
 (
-six
-.
-ensure_str
-(
 unicode_message
-encoding
-=
-"
-utf
--
-8
-"
-)
 r
 )
         

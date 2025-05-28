@@ -53,13 +53,7 @@ MPL
 0
 /
 .
-import
-six
 from
-six
-.
-moves
-.
 urllib
 .
 parse
@@ -193,16 +187,12 @@ self
 .
 assertIsInstance
 (
-                
 self
 .
 marionette
 .
 current_window_handle
-six
-.
-string_types
-            
+str
 )
         
 except
@@ -228,9 +218,7 @@ self
 assertIsInstance
 (
 handle
-six
-.
-string_types
+str
 )
     
 def

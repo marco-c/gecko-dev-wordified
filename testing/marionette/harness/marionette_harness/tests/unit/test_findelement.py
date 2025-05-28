@@ -53,13 +53,7 @@ MPL
 0
 /
 .
-import
-re
 from
-six
-.
-moves
-.
 urllib
 .
 parse

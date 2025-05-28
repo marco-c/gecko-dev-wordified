@@ -53,8 +53,6 @@ MPL
 0
 /
 .
-import
-six
 from
 marionette_driver
 import
@@ -71,8 +69,6 @@ import
 (
     
 MarionetteTestCase
-    
-run_if_manage_instance
 )
 class
 TestPreferences
@@ -180,11 +176,10 @@ for
 key
 value
 in
-six
-.
-iteritems
-(
 required_prefs
+.
+items
+(
 )
 :
             
@@ -248,31 +243,12 @@ for
 key
 value
 in
-six
-.
-iteritems
-(
 required_prefs
+.
+items
+(
 )
 :
-            
-if
-key
-in
-[
-"
-browser
-.
-tabs
-.
-remote
-.
-autostart
-"
-]
-:
-                
-return
             
 self
 .
@@ -671,9 +647,7 @@ assertTrue
 isinstance
 (
 value
-six
-.
-string_types
+str
 )
 )
         

@@ -55,11 +55,6 @@ MPL
 .
 import
 traceback
-import
-six
-six
-.
-python_2_unicode_compatible
 class
 MarionetteException
 (

@@ -53,15 +53,7 @@ MPL
 0
 /
 .
-import
-types
-import
-six
 from
-six
-.
-moves
-.
 urllib
 .
 parse
@@ -858,9 +850,7 @@ self
 assertIsInstance
 (
 attr
-six
-.
-string_types
+str
 )
         
 self
@@ -884,11 +874,10 @@ for
 tag
 attrs
 in
-six
-.
-iteritems
-(
 boolean_attributes
+.
+items
+(
 )
 :
             
@@ -980,9 +969,7 @@ self
 assertIsInstance
 (
 res
-six
-.
-string_types
+str
 )
                 
 self
@@ -1052,9 +1039,7 @@ self
 assertIsInstance
 (
 attr
-six
-.
-string_types
+str
 )
         
 self
@@ -1168,9 +1153,7 @@ self
 assertIsInstance
 (
 attr
-six
-.
-string_types
+str
 )
         
 self
@@ -1319,9 +1302,7 @@ self
 assertIsInstance
 (
 attr
-six
-.
-string_types
+str
 )
         
 self

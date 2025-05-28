@@ -53,8 +53,6 @@ MPL
 0
 /
 .
-import
-six
 from
 marionette_harness
 import

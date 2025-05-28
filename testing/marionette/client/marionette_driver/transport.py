@@ -65,8 +65,6 @@ from
 threading
 import
 RLock
-import
-six
 class
 SocketTimeout
 :
@@ -2256,19 +2254,14 @@ obj
         
 data
 =
-six
-.
-ensure_binary
-(
 data
+.
+encode
+(
 )
         
 payload
 =
-six
-.
-ensure_binary
-(
 str
 (
 len
@@ -2276,6 +2269,9 @@ len
 data
 )
 )
+.
+encode
+(
 )
 +
 b

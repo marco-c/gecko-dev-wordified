@@ -58,10 +58,6 @@ datetime
 import
 datetime
 from
-six
-.
-moves
-.
 urllib
 .
 parse

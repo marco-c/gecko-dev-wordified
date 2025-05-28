@@ -58,10 +58,6 @@ contextlib
 import
 os
 from
-six
-.
-moves
-.
 urllib
 .
 parse

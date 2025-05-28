@@ -54,13 +54,7 @@ MPL
 /
 .
 import
-types
-import
-six
-import
 mozunit
-import
-pytest
 from
 marionette_harness
 .
@@ -248,9 +242,7 @@ assert
 isinstance
 (
 url
-six
-.
-string_types
+str
 )
 def
 test_start_with_custom_root
@@ -353,9 +345,7 @@ assert
 isinstance
 (
 url
-six
-.
-string_types
+str
 )
 def
 test_where_is

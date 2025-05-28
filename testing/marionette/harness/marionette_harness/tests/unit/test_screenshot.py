@@ -65,13 +65,7 @@ import
 tempfile
 import
 unittest
-import
-six
 from
-six
-.
-moves
-.
 urllib
 .
 parse
@@ -99,39 +93,6 @@ MarionetteTestCase
 skip
     
 WindowManagerMixin
-)
-def
-decodebytes
-(
-s
-)
-:
-    
-if
-six
-.
-PY3
-:
-        
-return
-base64
-.
-decodebytes
-(
-six
-.
-ensure_binary
-(
-s
-)
-)
-    
-return
-base64
-.
-decodestring
-(
-s
 )
 def
 inline
@@ -622,10 +583,6 @@ file
 "
         
 if
-six
-.
-PY3
-and
 not
 isinstance
 (
@@ -650,6 +607,8 @@ utf
         
 image
 =
+base64
+.
 decodebytes
 (
 screenshot
@@ -708,10 +667,6 @@ element
 )
         
 if
-six
-.
-PY3
-and
 not
 isinstance
 (
@@ -753,10 +708,6 @@ base64
 )
         
 if
-six
-.
-PY3
-and
 not
 isinstance
 (
@@ -1013,10 +964,6 @@ screenshot
 :
         
 if
-six
-.
-PY3
-and
 not
 isinstance
 (
@@ -1048,6 +995,8 @@ screenshot
         
 image
 =
+base64
+.
 decodebytes
 (
 screenshot

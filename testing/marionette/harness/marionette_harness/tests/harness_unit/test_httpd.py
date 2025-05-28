@@ -57,16 +57,10 @@ import
 json
 import
 os
-import
-types
-import
-six
 from
-six
+urllib
 .
-moves
-.
-urllib_request
+request
 import
 urlopen
 import
@@ -234,9 +228,7 @@ assert
 isinstance
 (
 url
-six
-.
-string_types
+str
 )
     
 assert
@@ -293,9 +285,7 @@ isinstance
 server
 .
 doc_root
-six
-.
-string_types
+str
 )
     
 server
@@ -310,9 +300,7 @@ isinstance
 server
 .
 doc_root
-six
-.
-string_types
+str
 )
 def
 test_router
