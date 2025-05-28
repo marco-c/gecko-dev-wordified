@@ -170,14 +170,14 @@ this
 )
 ;
 const
-MODELHUBPROVIDER_PREF
+LOCAL_MODEL_MANAGEMENT_ENABLED_PREF
 =
 "
-browser
+extensions
 .
-ml
+htmlaboutaddons
 .
-modelHubProvider
+local_model_management
 "
 ;
 function
@@ -253,7 +253,7 @@ pref_set
 :
 [
 [
-MODELHUBPROVIDER_PREF
+LOCAL_MODEL_MANAGEMENT_ENABLED_PREF
 false
 ]
 ]
@@ -299,7 +299,7 @@ pref_set
 :
 [
 [
-MODELHUBPROVIDER_PREF
+LOCAL_MODEL_MANAGEMENT_ENABLED_PREF
 true
 ]
 ]
@@ -343,7 +343,7 @@ pref_set
 :
 [
 [
-MODELHUBPROVIDER_PREF
+LOCAL_MODEL_MANAGEMENT_ENABLED_PREF
 true
 ]
 ]
