@@ -208,7 +208,6 @@ RemoteAgent
 supported
 protocol
 (
-CDP
 WebDriver
 BiDi
 )
@@ -239,10 +238,6 @@ extra_prefs
 None
         
 use_bidi
-=
-False
-        
-use_cdp
 =
 False
         
@@ -396,14 +391,6 @@ use_bidi
 and
 current_browser
 .
-use_cdp
-=
-=
-use_cdp
-                
-and
-current_browser
-.
 use_marionette
 =
 =
@@ -549,10 +536,6 @@ truncate_enabled
 use_bidi
 =
 use_bidi
-            
-use_cdp
-=
-use_cdp
             
 use_marionette
 =
