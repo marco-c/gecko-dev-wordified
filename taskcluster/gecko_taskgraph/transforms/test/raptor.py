@@ -3861,6 +3861,27 @@ command
 ]
 =
 modified
+            
+task
+[
+"
+worker
+"
+]
+[
+"
+env
+"
+]
+[
+"
+DISABLE_USB_POWER_METER_RESET
+"
+]
+=
+"
+1
+"
         
 yield
 task
