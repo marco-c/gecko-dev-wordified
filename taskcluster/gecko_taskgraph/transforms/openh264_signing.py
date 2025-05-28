@@ -129,7 +129,7 @@ util
 .
 scriptworker
 import
-get_signing_type_per_platform
+get_signing_cert_scope_per_platform
 transforms
 =
 TransformSequence
@@ -428,14 +428,22 @@ copy_attributes_from_dependent_job
 dep_job
 )
         
-signing_type
+signing_cert_scope
 =
-get_signing_type_per_platform
+get_signing_cert_scope_per_platform
 (
+            
 build_platform
 is_nightly
 config
+        
 )
+        
+scopes
+=
+[
+signing_cert_scope
+]
         
 worker_type
 =
@@ -458,14 +466,6 @@ scriptworker
 -
 signing
 "
-            
-"
-signing
--
-type
-"
-:
-signing_type
             
 "
 max
@@ -583,17 +583,6 @@ worker_type
 mac
 -
 signing
-"
-            
-worker
-[
-"
-implementation
-"
-]
-=
-"
-iscript
 "
             
 worker
@@ -755,6 +744,12 @@ worker
 "
 :
 worker
+            
+"
+scopes
+"
+:
+scopes
             
 "
 dependencies
