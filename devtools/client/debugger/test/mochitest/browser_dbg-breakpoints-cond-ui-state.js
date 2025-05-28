@@ -791,7 +791,6 @@ assertConditonalBreakpointPanelFocus
 (
 dbg
 {
-isCm6Enabled
 }
 )
 ;
@@ -1053,7 +1052,6 @@ dbg
 isLogPoint
 :
 true
-isCm6Enabled
 }
 )
 ;
@@ -1305,7 +1303,6 @@ dbg
 isLogPoint
 =
 false
-isCm6Enabled
 }
 )
 {
@@ -1323,8 +1320,6 @@ activeElement
 const
 isPanelFocused
 =
-isCm6Enabled
-?
 focusedElement
 .
 classList
@@ -1363,15 +1358,6 @@ point
 "
 }
 )
-:
-focusedElement
-.
-tagName
-=
-=
-"
-TEXTAREA
-"
 ;
 ok
 (

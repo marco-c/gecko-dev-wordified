@@ -152,14 +152,8 @@ getEditorFileMode
 (
 dbg
 )
-isCm6Enabled
-?
 "
 javascript
-"
-:
-"
-htmlmixed
 "
 "
 Mode

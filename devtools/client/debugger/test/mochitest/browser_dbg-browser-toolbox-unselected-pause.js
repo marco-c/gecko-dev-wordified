@@ -208,7 +208,6 @@ findElement
 getSelector
 findElementWithSelector
 createLocation
-isCm6Enabled
 getEditorContent
 getCMEditor
 }

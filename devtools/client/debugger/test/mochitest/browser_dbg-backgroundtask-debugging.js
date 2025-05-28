@@ -715,7 +715,6 @@ waitUntil
 createLocation
 getEditorContent
 getCMEditor
-isCm6Enabled
 log
 :
 (
