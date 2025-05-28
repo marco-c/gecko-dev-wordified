@@ -784,14 +784,6 @@ GetPartitionedPrincipalToInherit
 )
 const
 ;
-void
-SetPartitionedPrincipalToInherit
-(
-nsIPrincipal
-*
-aPrincipal
-)
-;
 nsIContentSecurityPolicy
 *
 GetCsp

@@ -4606,14 +4606,6 @@ PrincipalToInherit
 }
 if
 (
-snapshot
--
->
-GetPartitionedPrincipalToInherit
-(
-)
-&
-&
 !
 principalEq
 (
