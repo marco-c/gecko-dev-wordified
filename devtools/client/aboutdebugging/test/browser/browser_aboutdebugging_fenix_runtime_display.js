@@ -234,9 +234,8 @@ document
 )
 ;
 await
-selectRuntime
+waitForRuntimePage
 (
-DEVICE_NAME
 ADB_RUNTIME_NAME
 document
 )
@@ -619,9 +618,8 @@ document
 )
 ;
 await
-selectRuntime
+waitForRuntimePage
 (
-DEVICE_NAME
 ADB_RUNTIME_NAME
 document
 )

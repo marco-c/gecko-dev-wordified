@@ -342,11 +342,8 @@ document
 )
 ;
 await
-selectRuntime
+waitForRuntimePage
 (
-"
-deviceName
-"
 "
 runtimeName
 "

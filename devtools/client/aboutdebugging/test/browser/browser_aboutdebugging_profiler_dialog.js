@@ -207,9 +207,8 @@ document
 )
 ;
 await
-selectRuntime
+waitForRuntimePage
 (
-DEVICE_NAME
 RUNTIME_NAME
 document
 )
@@ -586,9 +585,8 @@ document
 )
 ;
 await
-selectRuntime
+waitForRuntimePage
 (
-DEVICE_NAME
 RUNTIME_NAME
 document
 )
