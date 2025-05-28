@@ -1408,6 +1408,11 @@ bufferSize
 .
 height
 ;
+if
+(
+windowPixelCount
+)
+{
 int
 nativeLayerCount
 =
@@ -1552,6 +1557,7 @@ windowPixelCount
 )
 )
 ;
+}
 }
 mDrawnPixelCount
 =
