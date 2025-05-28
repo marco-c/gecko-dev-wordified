@@ -2878,7 +2878,7 @@ self
 .
 logger
 .
-info
+debug
 (
 "
 click
@@ -2931,7 +2931,7 @@ self
 .
 logger
 .
-info
+debug
 (
 "
 Deleting
@@ -2966,7 +2966,7 @@ self
 .
 logger
 .
-info
+debug
 (
 "
 Getting
@@ -3002,7 +3002,7 @@ self
 .
 logger
 .
-info
+debug
 (
 "
 Getting
@@ -3081,7 +3081,7 @@ self
 .
 logger
 .
-info
+debug
 (
 "
 Minimizing
@@ -3111,7 +3111,7 @@ self
 .
 logger
 .
-info
+debug
 (
 "
 Restoring
@@ -3139,7 +3139,7 @@ self
 .
 logger
 .
-info
+debug
 (
 "
 Getting
