@@ -430,6 +430,11 @@ uint64_t
 >
 mLastKeydownInteractionValue
 ;
+bool
+mContextMenuTriggered
+=
+false
+;
 }
 ;
 inline
