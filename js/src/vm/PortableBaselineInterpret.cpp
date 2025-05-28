@@ -7937,6 +7937,12 @@ case
 GuardClassKind
 :
 :
+ImmutableDataView
+:
+case
+GuardClassKind
+:
+:
 ResizableDataView
 :
 case
