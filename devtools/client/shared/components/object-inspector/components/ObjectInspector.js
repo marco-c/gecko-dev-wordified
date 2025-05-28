@@ -1421,7 +1421,7 @@ i
 +
 )
 {
-let
+const
 rootItem
 =
 roots
@@ -2165,12 +2165,10 @@ props
 ;
 if
 (
+!
 roots
 .
 length
-=
-=
-0
 )
 {
 return

@@ -1694,8 +1694,6 @@ kind
 ArrayLike
 "
 length
-:
-length
 }
 ;
 if
@@ -2382,8 +2380,6 @@ kind
 "
 MapLike
 "
-size
-:
 size
 }
 ;
@@ -4436,8 +4432,6 @@ if
 privatePropertiesSymbols
 .
 length
->
-0
 )
 {
 preview
@@ -4585,8 +4579,6 @@ if
 symbols
 .
 length
->
-0
 )
 {
 preview
@@ -6285,8 +6277,6 @@ if
 privatePropertiesSymbols
 .
 length
->
-0
 )
 {
 preview

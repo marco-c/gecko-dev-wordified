@@ -201,9 +201,11 @@ if
 !
 threadPauseState
 )
+{
 return
 null
 ;
+}
 const
 {
 selectedFrameId
