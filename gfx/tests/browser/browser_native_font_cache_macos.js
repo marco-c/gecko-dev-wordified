@@ -295,8 +295,12 @@ const
 EXPECTED_START_WITH
 =
 "
-Main
-Process
+Total
+resident
+memory
+(
+approximate
+)
 "
 ;
 let
