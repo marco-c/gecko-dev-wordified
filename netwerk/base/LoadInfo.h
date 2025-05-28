@@ -1896,6 +1896,11 @@ WindowGlobalParent
 aGlobal
 )
 ;
+bool
+IsDocumentMissingClientInfo
+(
+)
+;
 /
 /
 This
