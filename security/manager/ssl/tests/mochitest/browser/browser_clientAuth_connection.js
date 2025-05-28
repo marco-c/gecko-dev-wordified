@@ -346,6 +346,7 @@ chooseCertificate
 hostname
 certArray
 loadContext
+caNames
 callback
 )
 {
@@ -1134,7 +1135,7 @@ options
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 win
 .

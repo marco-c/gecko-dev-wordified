@@ -257,7 +257,7 @@ Time
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 win
 .
@@ -757,6 +757,7 @@ chooseCertificate
 hostname
 certArray
 loadContext
+caNames
 callback
 )
 {
