@@ -799,6 +799,15 @@ nsIAccessibleEvent
 :
 :
 EVENT_OBJECT_ATTRIBUTE_CHANGED
+&
+&
+aEventType
+!
+=
+nsIAccessibleEvent
+:
+:
+EVENT_ERRORMESSAGE_CHANGED
 )
 {
 return

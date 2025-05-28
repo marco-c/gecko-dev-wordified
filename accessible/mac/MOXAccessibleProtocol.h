@@ -729,6 +729,17 @@ moxEnabled
 ;
 /
 /
+AXErrorMessageElements
+-
+(
+NSArray
+*
+_Nullable
+)
+moxErrorMessageElements
+;
+/
+/
 AXFocused
 -
 (

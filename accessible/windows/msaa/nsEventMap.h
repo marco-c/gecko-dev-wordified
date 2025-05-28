@@ -440,6 +440,13 @@ nsIAccessibleEvent
 :
 :
 EVENT_LIVE_REGION_CHANGED
+kEVENT_WIN_UNKNOWN
+/
+/
+nsIAccessibleEvent
+:
+:
+EVENT_ERRORMESSAGE_CHANGED
 /
 /
 clang

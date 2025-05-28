@@ -3197,6 +3197,13 @@ changed
 /
 /
 EVENT_LIVE_REGION_CHANGED
+"
+errormessage
+changed
+"
+/
+/
+EVENT_ERRORMESSAGE_CHANGED
 }
 ;
 #
