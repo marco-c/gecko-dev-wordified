@@ -1062,9 +1062,7 @@ zoom
 =
 style
 .
-resolved_specified_zoom
-(
-)
+effective_zoom_for_inheritance
 ;
 style
 .

@@ -3835,6 +3835,10 @@ LineHeight
 "
             
 "
+Size
+"
+            
+"
 WordSpacing
 "
         
