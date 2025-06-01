@@ -2,7 +2,7 @@
 *
 *
 *
-fileoverview
+file
 Add
 environment
 defaults
@@ -177,9 +177,9 @@ js
 .
 *
 *
-return
+returns
 {
-String
+string
 }
 The
 absolute
