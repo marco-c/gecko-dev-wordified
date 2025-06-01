@@ -582,8 +582,6 @@ ExtentAlloc
 :
 :
 sFirstFree
-=
-nullptr
 ;
 using
 UniqueBaseNode
