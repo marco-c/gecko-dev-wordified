@@ -1621,7 +1621,7 @@ WeakActorLifecycleProxy
 >
 mToplevel
 ;
-int32_t
+ActorId
 mId
 =
 0
@@ -1631,7 +1631,7 @@ mType
 =
 LastMsgIndex
 ;
-int32_t
+ActorId
 mManagerId
 =
 0

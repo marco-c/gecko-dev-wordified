@@ -4588,7 +4588,7 @@ Id
 (
 )
 ;
-int32_t
+ActorId
 canvasId
 =
 aActor

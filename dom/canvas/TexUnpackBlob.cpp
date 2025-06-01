@@ -6740,7 +6740,13 @@ managerId
 (
 )
 ;
-int32_t
+mozilla
+:
+:
+ipc
+:
+:
+ActorId
 canvasId
 =
 sdc
