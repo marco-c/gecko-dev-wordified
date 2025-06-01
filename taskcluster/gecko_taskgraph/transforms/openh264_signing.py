@@ -588,6 +588,17 @@ signing
 worker
 [
 "
+implementation
+"
+]
+=
+"
+iscript
+"
+            
+worker
+[
+"
 mac
 -
 behavior
