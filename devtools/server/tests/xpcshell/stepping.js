@@ -6,7 +6,6 @@ strict
 /
 *
 exported
-global
 arithmetic
 composition
 chaining

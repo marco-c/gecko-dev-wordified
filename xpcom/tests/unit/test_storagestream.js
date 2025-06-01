@@ -120,6 +120,11 @@ varsIgnorePattern
 "
 unusedVariable
 "
+caughtErrors
+:
+"
+none
+"
 }
 ]
 *

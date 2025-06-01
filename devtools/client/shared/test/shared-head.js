@@ -47,6 +47,11 @@ vars
 "
 local
 "
+caughtErrors
+:
+"
+none
+"
 }
 ]
 *

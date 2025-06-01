@@ -53,6 +53,11 @@ vars
 "
 local
 "
+caughtErrors
+:
+"
+none
+"
 args
 :
 "

@@ -6,7 +6,6 @@ strict
 /
 *
 exported
-global
 doRet
 doThrow
 *

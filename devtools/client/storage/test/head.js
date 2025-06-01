@@ -80,6 +80,11 @@ vars
 "
 local
 "
+caughtErrors
+:
+"
+none
+"
 }
 ]
 *

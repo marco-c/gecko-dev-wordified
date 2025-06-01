@@ -18,7 +18,6 @@ js
 exported
 getBackgroundServiceWorkerRegistration
 waitForTerminatedWorkers
-*
 runExtensionAPITest
 *
 /
