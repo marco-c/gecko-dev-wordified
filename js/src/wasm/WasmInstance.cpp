@@ -14263,6 +14263,9 @@ return
 0
 ;
 }
+#
+ifdef
+ENABLE_WASM_JS_STRING_BUILTINS
 template
 <
 bool
@@ -16382,6 +16385,11 @@ return
 result
 ;
 }
+#
+endif
+/
+/
+ENABLE_WASM_JS_STRING_BUILTINS
 /
 /
 /
@@ -20089,8 +20097,6 @@ funcIndex
 )
 .
 size
-(
-)
 ;
 return
 LazyTieringHeuristics
@@ -21137,8 +21143,6 @@ funcIndex
 )
 .
 size
-(
-)
 ;
 }
 if

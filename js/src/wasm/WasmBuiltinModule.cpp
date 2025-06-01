@@ -2076,6 +2076,9 @@ endif
 /
 /
 ENABLE_WASM_MOZ_INTGEMM
+#
+ifdef
+ENABLE_WASM_JS_STRING_BUILTINS
 static
 BuiltinModuleFuncId
 JSStringFuncs
@@ -2151,6 +2154,11 @@ js
 string
 "
 ;
+#
+endif
+/
+/
+ENABLE_WASM_JS_STRING_BUILTINS
 Maybe
 <
 BuiltinModuleId
@@ -2173,6 +2181,9 @@ BuiltinModuleIds
 enabledBuiltins
 )
 {
+#
+ifdef
+ENABLE_WASM_JS_STRING_BUILTINS
 if
 (
 enabledBuiltins
@@ -2240,6 +2251,11 @@ JSStringConstants
 )
 ;
 }
+#
+endif
+/
+/
+ENABLE_WASM_JS_STRING_BUILTINS
 /
 /
 Not
@@ -2295,6 +2311,9 @@ BuiltinModuleFuncId
 matchedFuncId
 )
 {
+#
+ifdef
+ENABLE_WASM_JS_STRING_BUILTINS
 /
 /
 Imported
@@ -2411,6 +2430,11 @@ true
 ;
 }
 }
+#
+endif
+/
+/
+ENABLE_WASM_JS_STRING_BUILTINS
 return
 false
 ;
@@ -2489,6 +2513,9 @@ endif
 /
 /
 ENABLE_WASM_MOZ_INTGEMM
+#
+ifdef
+ENABLE_WASM_JS_STRING_BUILTINS
 case
 BuiltinModuleId
 :
@@ -2516,6 +2543,11 @@ MOZ_CRASH
 (
 )
 ;
+#
+endif
+/
+/
+ENABLE_WASM_JS_STRING_BUILTINS
 default
 :
 MOZ_CRASH
