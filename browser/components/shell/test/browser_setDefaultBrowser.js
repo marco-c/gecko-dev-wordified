@@ -452,6 +452,7 @@ instead
 "
 )
 ;
+await
 doCleanup
 (
 )
