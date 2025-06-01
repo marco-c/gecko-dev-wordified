@@ -3850,7 +3850,7 @@ unreachable
 ;
 }
 }
-DoUploadToStencilTest
+doUploadToStencilTest
 (
 format
 textureSize
@@ -4314,7 +4314,7 @@ expectedData
 )
 ;
 }
-DoCopyFromStencilTest
+doCopyFromStencilTest
 (
 format
 textureSize
@@ -5506,7 +5506,7 @@ buffer
 }
 ;
 }
-DoCopyTextureToBufferWithDepthAspectTest
+doCopyTextureToBufferWithDepthAspectTest
 (
 format
 copySize
@@ -10368,7 +10368,7 @@ undefined
 )
 ;
 function
-CopyMethodSupportedWithDepthStencilFormat
+copyMethodSupportedWithDepthStencilFormat
 (
 aspect
 format
@@ -10601,7 +10601,7 @@ t
 )
 =
 >
-CopyMethodSupportedWithDepthStencilFormat
+copyMethodSupportedWithDepthStencilFormat
 (
 t
 .
@@ -10799,7 +10799,7 @@ only
 {
 t
 .
-DoCopyTextureToBufferWithDepthAspectTest
+doCopyTextureToBufferWithDepthAspectTest
 (
 format
 copySize
@@ -10815,7 +10815,7 @@ else
 {
 t
 .
-DoCopyFromStencilTest
+doCopyFromStencilTest
 (
 format
 textureSize
@@ -10888,7 +10888,7 @@ copyMethod
 ;
 t
 .
-DoUploadToStencilTest
+doUploadToStencilTest
 (
 format
 textureSize
@@ -11033,7 +11033,7 @@ t
 )
 =
 >
-CopyMethodSupportedWithDepthStencilFormat
+copyMethodSupportedWithDepthStencilFormat
 (
 t
 .
@@ -11210,7 +11210,7 @@ only
 {
 t
 .
-DoCopyTextureToBufferWithDepthAspectTest
+doCopyTextureToBufferWithDepthAspectTest
 (
 format
 copySize
@@ -11226,7 +11226,7 @@ else
 {
 t
 .
-DoCopyFromStencilTest
+doCopyFromStencilTest
 (
 format
 textureSize
@@ -11309,7 +11309,7 @@ dataPaddingInBytes
 ;
 t
 .
-DoUploadToStencilTest
+doUploadToStencilTest
 (
 format
 textureSize

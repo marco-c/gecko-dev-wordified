@@ -264,7 +264,7 @@ F
 extends
 AllFeaturesMaxLimitsGPUTest
 {
-TestCopyBufferToBuffer
+testCopyBufferToBuffer
 (
 options
 :
@@ -589,7 +589,7 @@ SubmitError
 ;
 t
 .
-TestCopyBufferToBuffer
+testCopyBufferToBuffer
 (
 {
 srcBuffer
@@ -781,7 +781,7 @@ COPY_DST
 ;
 t
 .
-TestCopyBufferToBuffer
+testCopyBufferToBuffer
 (
 {
 srcBuffer
@@ -935,7 +935,7 @@ FinishError
 ;
 t
 .
-TestCopyBufferToBuffer
+testCopyBufferToBuffer
 (
 {
 srcBuffer
@@ -1071,7 +1071,7 @@ COPY_DST
 ;
 t
 .
-TestCopyBufferToBuffer
+testCopyBufferToBuffer
 (
 {
 srcBuffer
@@ -1286,7 +1286,7 @@ COPY_DST
 ;
 t
 .
-TestCopyBufferToBuffer
+testCopyBufferToBuffer
 (
 {
 srcBuffer
@@ -1475,7 +1475,7 @@ COPY_DST
 ;
 t
 .
-TestCopyBufferToBuffer
+testCopyBufferToBuffer
 (
 {
 srcBuffer
@@ -1690,7 +1690,7 @@ COPY_DST
 ;
 t
 .
-TestCopyBufferToBuffer
+testCopyBufferToBuffer
 (
 {
 srcBuffer
@@ -1818,7 +1818,7 @@ COPY_DST
 ;
 t
 .
-TestCopyBufferToBuffer
+testCopyBufferToBuffer
 (
 {
 srcBuffer

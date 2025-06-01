@@ -161,7 +161,7 @@ F
 extends
 AllFeaturesMaxLimitsGPUTest
 {
-TestClearBuffer
+testClearBuffer
 (
 options
 )
@@ -523,7 +523,7 @@ COPY_DST
 ;
 t
 .
-TestClearBuffer
+testClearBuffer
 (
 {
 buffer
@@ -636,7 +636,7 @@ COPY_DST
 ;
 t
 .
-TestClearBuffer
+testClearBuffer
 (
 {
 buffer
@@ -732,7 +732,7 @@ usage
 ;
 t
 .
-TestClearBuffer
+testClearBuffer
 (
 {
 buffer
@@ -914,7 +914,7 @@ COPY_DST
 ;
 t
 .
-TestClearBuffer
+testClearBuffer
 (
 {
 buffer
@@ -1082,7 +1082,7 @@ COPY_DST
 ;
 t
 .
-TestClearBuffer
+testClearBuffer
 (
 {
 buffer
@@ -1198,7 +1198,7 @@ COPY_DST
 ;
 t
 .
-TestClearBuffer
+testClearBuffer
 (
 {
 buffer
@@ -1358,7 +1358,7 @@ COPY_DST
 ;
 t
 .
-TestClearBuffer
+testClearBuffer
 (
 {
 buffer

@@ -97,7 +97,7 @@ extends
 AllFeaturesMaxLimitsGPUTest
 {
 async
-ExpectShaderOutputWithConstants
+expectShaderOutputWithConstants
 (
 isAsync
 format
@@ -851,7 +851,7 @@ bgra8unorm
 await
 t
 .
-ExpectShaderOutputWithConstants
+expectShaderOutputWithConstants
 (
 t
 .
@@ -1088,7 +1088,7 @@ kPrecisionTestFormat
 await
 t
 .
-ExpectShaderOutputWithConstants
+expectShaderOutputWithConstants
 (
 t
 .
@@ -2340,7 +2340,7 @@ D
 await
 t
 .
-ExpectShaderOutputWithConstants
+expectShaderOutputWithConstants
 (
 t
 .

@@ -122,6 +122,8 @@ js
 import
 {
 IsDualSourceBlendingFactor
+as
+isDualSourceBlendingFactor
 kBlendFactors
 kBlendOperations
 }
@@ -1659,7 +1661,7 @@ t
 {
 if
 (
-IsDualSourceBlendingFactor
+isDualSourceBlendingFactor
 (
 t
 .
@@ -1669,7 +1671,7 @@ srcFactor
 )
 |
 |
-IsDualSourceBlendingFactor
+isDualSourceBlendingFactor
 (
 t
 .
@@ -1841,7 +1843,7 @@ break
 const
 useBlendSrc1
 =
-IsDualSourceBlendingFactor
+isDualSourceBlendingFactor
 (
 t
 .
@@ -1851,7 +1853,7 @@ srcFactor
 )
 |
 |
-IsDualSourceBlendingFactor
+isDualSourceBlendingFactor
 (
 t
 .

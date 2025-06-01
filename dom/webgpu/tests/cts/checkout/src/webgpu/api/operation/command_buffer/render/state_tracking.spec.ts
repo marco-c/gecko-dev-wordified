@@ -172,7 +172,7 @@ VertexAndIndexStateTrackingTest
 extends
 AllFeaturesMaxLimitsGPUTest
 {
-GetRenderPipelineForTest
+getRenderPipelineForTest
 (
 arrayStride
 :
@@ -896,7 +896,7 @@ renderPipeline
 =
 t
 .
-GetRenderPipelineForTest
+getRenderPipelineForTest
 (
 t
 .
@@ -1603,7 +1603,7 @@ renderPipeline
 =
 t
 .
-GetRenderPipelineForTest
+getRenderPipelineForTest
 (
 t
 .
@@ -2217,7 +2217,7 @@ renderPipeline1
 =
 t
 .
-GetRenderPipelineForTest
+getRenderPipelineForTest
 (
 t
 .
@@ -2229,7 +2229,7 @@ renderPipeline2
 =
 t
 .
-GetRenderPipelineForTest
+getRenderPipelineForTest
 (
 t
 .
@@ -3684,7 +3684,7 @@ renderPipeline
 =
 t
 .
-GetRenderPipelineForTest
+getRenderPipelineForTest
 (
 t
 .

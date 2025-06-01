@@ -204,7 +204,7 @@ js
 '
 ;
 function
-ComponentCount
+getComponentCountForFormat
 (
 format
 :
@@ -400,7 +400,7 @@ format
 const
 componentCount
 =
-ComponentCount
+getComponentCountForFormat
 (
 format
 )
@@ -434,7 +434,7 @@ format
 )
 ;
 const
-SetData
+setData
 =
 (
 texelValue
@@ -650,7 +650,7 @@ component
 +
 1
 ;
-SetData
+setData
 (
 texelValue
 texelValue
@@ -682,7 +682,7 @@ component
 %
 256
 ;
-SetData
+setData
 (
 texelValue
 texelValue
@@ -723,7 +723,7 @@ texelValue
 .
 0
 ;
-SetData
+setData
 (
 texelValue
 outputValue
@@ -790,7 +790,7 @@ outputComponent
 component
 ]
 ;
-SetData
+setData
 (
 texelValue
 outputValue
@@ -847,7 +847,7 @@ component
 1
 )
 ;
-SetData
+setData
 (
 texelValue
 texelValue
@@ -883,7 +883,7 @@ component
 -
 128
 ;
-SetData
+setData
 (
 texelValue
 texelValue
@@ -937,7 +937,7 @@ texelValue
 0
 )
 ;
-SetData
+setData
 (
 texelValue
 outputValue
@@ -981,7 +981,7 @@ component
 .
 0
 ;
-SetData
+setData
 (
 texelValue
 texelValue
@@ -1031,7 +1031,7 @@ f16Array
 =
 texelValue
 ;
-SetData
+setData
 (
 texelValue
 f16Array

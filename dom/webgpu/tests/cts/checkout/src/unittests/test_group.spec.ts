@@ -2604,7 +2604,6 @@ status
 {
 expectedStatus
 }
-}
 allSkip
 :
 {
