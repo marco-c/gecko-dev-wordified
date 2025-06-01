@@ -1710,9 +1710,13 @@ commit_message
 changed_files
 )
             
+if
+job_id
+:
+                
 print
 (
-                
+                    
 f
 "
 Follow
@@ -1725,7 +1729,7 @@ on
 Treeherder
 :
 "
-                
+                    
 f
 "
 {
@@ -1739,7 +1743,7 @@ job_id
 )
 }
 "
-            
+                
 )
             
 return
