@@ -270,7 +270,7 @@ Message
 :
 Message
 (
-int32_t
+routeid_t
 routing_id
 msgid_t
 type
@@ -392,6 +392,15 @@ event_footer_size
 =
 0
 ;
+header
+(
+)
+-
+>
+_padding
+=
+0
+;
 }
 Message
 :
@@ -447,7 +456,7 @@ Message
 :
 IPDLMessage
 (
-int32_t
+routeid_t
 routing_id
 msgid_t
 type
