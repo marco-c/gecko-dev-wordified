@@ -1030,6 +1030,8 @@ if
 innerWindowID
 )
 {
+if
+(
 nsCOMPtr
 <
 nsIHttpChannel
@@ -1040,10 +1042,6 @@ do_QueryInterface
 (
 aRequest
 )
-;
-if
-(
-httpChannel
 )
 {
 Unused

@@ -663,7 +663,7 @@ CookieBlockedForeign
 /
 /
 We
-explicitely
+explicitly
 destroy
 the
 toolbox
@@ -2119,7 +2119,7 @@ displayed
 /
 /
 We
-explicitely
+explicitly
 destroy
 the
 toolbox
