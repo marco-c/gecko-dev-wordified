@@ -712,9 +712,6 @@ RemoteCommand
 .
 CloseTab
 (
-{
-url
-:
 "
 https
 :
@@ -728,7 +725,6 @@ must
 -
 send
 "
-}
 )
 ;
 await
@@ -753,9 +749,6 @@ RemoteCommand
 .
 CloseTab
 (
-{
-url
-:
 "
 https
 :
@@ -769,7 +762,6 @@ can
 -
 send
 "
-}
 )
 ;
 await
@@ -794,9 +786,6 @@ RemoteCommand
 .
 CloseTab
 (
-{
-url
-:
 "
 https
 :
@@ -808,7 +797,6 @@ bar
 /
 early
 "
-}
 )
 ;
 await
@@ -1153,9 +1141,6 @@ RemoteCommand
 .
 CloseTab
 (
-{
-url
-:
 "
 https
 :
@@ -1167,7 +1152,6 @@ bar
 /
 due
 "
-}
 )
 ;
 await
@@ -1192,9 +1176,6 @@ RemoteCommand
 .
 CloseTab
 (
-{
-url
-:
 "
 https
 :
@@ -1206,7 +1187,6 @@ bar
 /
 due2
 "
-}
 )
 ;
 await
@@ -1693,9 +1673,6 @@ RemoteCommand
 .
 CloseTab
 (
-{
-url
-:
 "
 https
 :
@@ -1711,7 +1688,6 @@ at
 -
 shutdown
 "
-}
 )
 ;
 Assert
@@ -2220,11 +2196,7 @@ RemoteCommand
 .
 CloseTab
 (
-{
-url
-:
 tab1
-}
 )
 ;
 Assert
@@ -2262,11 +2234,7 @@ RemoteCommand
 .
 CloseTab
 (
-{
-url
-:
 tab2
-}
 )
 ;
 Assert
@@ -2715,11 +2683,7 @@ RemoteCommand
 .
 CloseTab
 (
-{
-url
-:
 tab1
-}
 )
 ;
 Assert
@@ -2764,11 +2728,7 @@ RemoteCommand
 .
 CloseTab
 (
-{
-url
-:
 tab2
-}
 )
 ;
 Assert
@@ -3328,9 +3288,6 @@ RemoteCommand
 .
 CloseTab
 (
-{
-url
-:
 "
 https
 :
@@ -3341,7 +3298,6 @@ foo
 bar
 /
 "
-}
 )
 ;
 const
@@ -3650,9 +3606,6 @@ RemoteCommand
 .
 CloseTab
 (
-{
-url
-:
 https
 :
 /
@@ -3666,7 +3619,6 @@ addingsomeextralongstring
 tab
 {
 i
-}
 }
 )
 )
@@ -3991,9 +3943,6 @@ RemoteCommand
 .
 CloseTab
 (
-{
-url
-:
 "
 https
 :
@@ -4013,7 +3962,6 @@ repeat
 (
 COMMAND_MAX_PAYLOAD_SIZE
 )
-}
 )
 ;
 await
