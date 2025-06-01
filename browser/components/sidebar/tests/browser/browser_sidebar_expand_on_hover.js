@@ -1336,15 +1336,13 @@ expanded
 )
 ;
 let
-verticalPinnedTabsContainer
+pinnedTabsContainer
 =
 document
 .
 getElementById
 (
 "
-vertical
--
 pinned
 -
 tabs
@@ -1356,7 +1354,7 @@ container
 let
 verticalTabsWidth
 =
-verticalPinnedTabsContainer
+pinnedTabsContainer
 .
 clientWidth
 ;

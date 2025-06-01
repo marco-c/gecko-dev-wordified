@@ -3180,7 +3180,7 @@ tabs
 )
 ;
 let
-verticalPinnedTabsContainer
+pinnedTabsContainer
 =
 document
 .
@@ -3188,8 +3188,6 @@ querySelector
 (
 "
 #
-vertical
--
 pinned
 -
 tabs
@@ -3204,7 +3202,7 @@ BrowserTestUtils
 .
 isVisible
 (
-verticalPinnedTabsContainer
+pinnedTabsContainer
 )
 "
 Vertical
@@ -3218,7 +3216,7 @@ visible
 ;
 is
 (
-verticalPinnedTabsContainer
+pinnedTabsContainer
 .
 children
 .
@@ -3239,7 +3237,7 @@ container
 ;
 is
 (
-verticalPinnedTabsContainer
+pinnedTabsContainer
 .
 getBoundingClientRect
 (
