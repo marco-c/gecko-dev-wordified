@@ -3192,7 +3192,6 @@ while
 bootstrapping
 us
 .
-static
 StaticMutex
 gInitLock
 MOZ_UNANNOTATED

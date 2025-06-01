@@ -1533,5 +1533,10 @@ AutoLock
 MaybeMutex
 >
 ;
+extern
+StaticMutex
+gInitLock
+MOZ_UNANNOTATED
+;
 #
 endif
