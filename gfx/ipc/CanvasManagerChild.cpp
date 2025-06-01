@@ -1384,7 +1384,7 @@ GetSnapshot
 (
 uint32_t
 aManagerId
-ActorId
+int32_t
 aProtocolId
 const
 Maybe

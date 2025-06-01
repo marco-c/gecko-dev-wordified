@@ -1207,7 +1207,7 @@ uint32_t
 &
 aManagerId
 const
-ActorId
+int32_t
 &
 aProtocolId
 const
@@ -1632,7 +1632,7 @@ ContentParentId
 aContentId
 uint32_t
 aManagerId
-ActorId
+int32_t
 aCanvasId
 )
 {
@@ -1710,7 +1710,7 @@ ContentParentId
 aContentId
 uint32_t
 aManagerId
-ActorId
+int32_t
 aCanvasId
 uintptr_t
 aSurfaceId
