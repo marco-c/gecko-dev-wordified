@@ -264,7 +264,7 @@ kExpectedRequestsOfInitialLoadDisabled
 const
 kExpectedRequestsOfInitialLoadForSVGImageTag
 =
-kExpectedRequestsOfInitialLoadForSVGImageTagDisabled
+kExpectedRequestsOfInitialLoad
 ;
 const
 kExpectedRequestsOfDynamicLoadForSVGImageTagDisabled
