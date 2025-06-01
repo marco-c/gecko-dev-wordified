@@ -20089,6 +20089,8 @@ funcIndex
 )
 .
 size
+(
+)
 ;
 return
 LazyTieringHeuristics
@@ -21135,6 +21137,8 @@ funcIndex
 )
 .
 size
+(
+)
 ;
 }
 if

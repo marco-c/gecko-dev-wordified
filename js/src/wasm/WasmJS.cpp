@@ -30179,6 +30179,8 @@ if
 codeSection_
 .
 size
+(
+)
 >
 MaxCodeSectionBytes
 )
@@ -30203,6 +30205,8 @@ resize
 codeSection_
 .
 size
+(
+)
 )
 )
 {

@@ -18662,6 +18662,8 @@ funcIndex
 )
 .
 size
+(
+)
 ;
 uint32_t
 rootFunctionBodySize
@@ -43194,6 +43196,8 @@ length
 funcRange
 .
 size
+(
+)
 callKind
 )
 ;
