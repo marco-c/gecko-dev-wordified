@@ -246,7 +246,7 @@ position
 :
 :
 {
-AnchorSide
+GenericAnchorSide
 AspectRatio
 as
 GenericAspectRatio
@@ -10508,7 +10508,7 @@ ok
 let
 side
 =
-AnchorSide
+GenericAnchorSide
 :
 :
 parse

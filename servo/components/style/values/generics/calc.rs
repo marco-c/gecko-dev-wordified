@@ -124,7 +124,7 @@ position
 :
 :
 {
-AnchorSide
+GenericAnchorSide
 GenericAnchorFunction
 }
 ;
@@ -6271,7 +6271,7 @@ f
 .
 side
 {
-AnchorSide
+GenericAnchorSide
 :
 :
 Keyword
@@ -6280,7 +6280,7 @@ k
 )
 =
 >
-AnchorSide
+GenericAnchorSide
 :
 :
 Keyword
@@ -6288,7 +6288,7 @@ Keyword
 *
 k
 )
-AnchorSide
+GenericAnchorSide
 :
 :
 Percentage
@@ -6297,7 +6297,7 @@ p
 )
 =
 >
-AnchorSide
+GenericAnchorSide
 :
 :
 Percentage
@@ -12084,7 +12084,7 @@ f
 {
 if
 let
-AnchorSide
+GenericAnchorSide
 :
 :
 Percentage
