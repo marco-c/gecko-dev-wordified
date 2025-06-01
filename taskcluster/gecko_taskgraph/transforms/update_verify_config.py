@@ -944,12 +944,6 @@ release_config
 partial_versions
 "
 ]
-.
-split
-(
-"
-"
-)
 :
                 
 command

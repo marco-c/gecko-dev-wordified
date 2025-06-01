@@ -1506,7 +1506,7 @@ products
 "
 ]
     
-previous_versions_string
+previous_versions
 =
 release_config
 .
@@ -1515,24 +1515,13 @@ get
 "
 partial_versions
 "
-None
+[
+]
 )
     
 if
-previous_versions_string
-:
-        
+not
 previous_versions
-=
-previous_versions_string
-.
-split
-(
-"
-"
-)
-    
-else
 :
         
 logger

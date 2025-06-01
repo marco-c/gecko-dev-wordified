@@ -10705,6 +10705,12 @@ domain
 partial_versions
 "
 :
+"
+"
+.
+join
+(
+                        
 release_config
 .
 get
@@ -10712,8 +10718,10 @@ get
 "
 partial_versions
 "
-"
-"
+[
+]
+)
+                    
 )
                     
 "
