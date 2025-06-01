@@ -621,7 +621,7 @@ SetHiddenWindowVSync
 )
 ;
 void
-SetVSyncEventsLocked
+SetVSyncEventsStateLocked
 (
 const
 MutexAutoLock
