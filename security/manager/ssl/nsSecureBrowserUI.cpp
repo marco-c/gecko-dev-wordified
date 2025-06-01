@@ -985,7 +985,12 @@ GetWebProgress
 >
 OnSecurityChange
 (
-nullptr
+ctx
+-
+>
+GetWebProgress
+(
+)
 nullptr
 mState
 )

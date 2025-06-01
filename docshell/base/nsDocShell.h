@@ -7788,6 +7788,14 @@ nsIURI
 aURI
 )
 ;
+already_AddRefed
+<
+nsIWebProgressListener
+>
+BCWebProgressListener
+(
+)
+;
 /
 /
 data
