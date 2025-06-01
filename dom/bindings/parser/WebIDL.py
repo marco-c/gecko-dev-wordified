@@ -24969,6 +24969,14 @@ Float32Array
 "
 Float64Array
 "
+        
+"
+BigInt64Array
+"
+        
+"
+BigUint64Array
+"
     
 )
     
@@ -25295,6 +25303,26 @@ IDLType
 Tags
 .
 interface
+        
+Types
+.
+BigInt64Array
+:
+IDLType
+.
+Tags
+.
+interface
+        
+Types
+.
+BigUint64Array
+:
+IDLType
+.
+Tags
+.
+interface
     
 }
     
@@ -25584,6 +25612,22 @@ Float64Array
 :
 "
 Float64Array
+"
+        
+Types
+.
+BigInt64Array
+:
+"
+BigInt64Array
+"
+        
+Types
+.
+BigUint64Array
+:
+"
+BigUint64Array
 "
     
 }
@@ -26579,7 +26623,7 @@ IDLBuiltinType
 .
 Types
 .
-Float64Array
+BigUint64Array
         
 )
     
@@ -28795,6 +28839,68 @@ IDLBuiltinType
 Types
 .
 Float64Array
+    
+)
+    
+IDLBuiltinType
+.
+Types
+.
+BigInt64Array
+:
+IDLBuiltinType
+(
+        
+BuiltinLocation
+(
+"
+<
+builtin
+type
+>
+"
+)
+        
+"
+BigInt64Array
+"
+        
+IDLBuiltinType
+.
+Types
+.
+BigInt64Array
+    
+)
+    
+IDLBuiltinType
+.
+Types
+.
+BigUint64Array
+:
+IDLBuiltinType
+(
+        
+BuiltinLocation
+(
+"
+<
+builtin
+type
+>
+"
+)
+        
+"
+BigUint64Array
+"
+        
+IDLBuiltinType
+.
+Types
+.
+BigUint64Array
     
 )
 }
@@ -60221,7 +60327,7 @@ IDLBuiltinType
 .
 Types
 .
-Float64Array
+BigUint64Array
 +
 1
         
