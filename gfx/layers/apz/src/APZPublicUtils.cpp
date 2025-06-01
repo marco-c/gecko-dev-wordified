@@ -236,7 +236,7 @@ static
 gfx
 :
 :
-IntSize
+Size
 GetDisplayportAlignmentMultiplier
 (
 const
