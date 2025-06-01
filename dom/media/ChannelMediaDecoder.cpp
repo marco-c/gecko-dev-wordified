@@ -3763,6 +3763,8 @@ mDownloadByteRate
 :
 {
 }
+"
+"
 mTotalBytes
 "
 "
