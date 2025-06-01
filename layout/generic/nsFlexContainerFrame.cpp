@@ -39267,6 +39267,19 @@ wm
 positionProperty
 )
 ;
+const
+auto
+anchorPosResolutionParams
+=
+AnchorPosResolutionParams
+:
+:
+UseCBFrameSize
+(
+this
+positionProperty
+)
+;
 if
 (
 bsize
@@ -39318,7 +39331,7 @@ LogicalSide
 :
 BStart
 wm
-positionProperty
+anchorPosResolutionParams
 )
 -
 >
@@ -39338,7 +39351,7 @@ LogicalSide
 :
 BEnd
 wm
-positionProperty
+anchorPosResolutionParams
 )
 -
 >
