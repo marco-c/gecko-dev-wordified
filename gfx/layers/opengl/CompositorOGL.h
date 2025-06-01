@@ -2022,6 +2022,10 @@ bool
 aDEAAEnabled
 =
 false
+bool
+aRoundedClip
+=
+false
 )
 const
 ;

@@ -306,6 +306,9 @@ ENABLE_MASK_TEXTURE_RECT
 ENABLE_TEXTURE_NV12_GA_SWITCH
 =
 0x10000
+ENABLE_ROUNDED_CLIP
+=
+0x20000
 }
 ;
 class
@@ -359,6 +362,8 @@ ViewportSize
 VisibleCenter
 YuvColorMatrix
 YuvOffsetVector
+RoundedClipRect
+RoundedClipRadii
 KnownUniformCount
 }
 ;
@@ -1205,6 +1210,13 @@ SetColorMultiplier
 (
 uint32_t
 aMultiplier
+)
+;
+void
+SetRoundedClip
+(
+bool
+aEnabled
 )
 ;
 bool
