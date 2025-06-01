@@ -1590,6 +1590,14 @@ static
 GdkAtom
 sNativeImageMimeAtom
 ;
+static
+GdkAtom
+sUTF8STRINGMimeAtom
+;
+static
+GdkAtom
+sSTRINGMimeAtom
+;
 nsDragSession
 (
 )
