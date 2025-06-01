@@ -222,13 +222,6 @@ h
 #
 include
 "
-nsIWebProgressListener2
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes
@@ -741,7 +734,7 @@ nsIBrowserChild
 public
 nsIObserver
 public
-nsIWebProgressListener2
+nsIWebProgressListener
 public
 TabContext
 public
@@ -1025,7 +1018,6 @@ NS_DECL_NSIWINDOWPROVIDER
 NS_DECL_NSIBROWSERCHILD
 NS_DECL_NSIOBSERVER
 NS_DECL_NSIWEBPROGRESSLISTENER
-NS_DECL_NSIWEBPROGRESSLISTENER2
 NS_DECL_NSITOOLTIPLISTENER
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 (
@@ -4780,12 +4772,6 @@ RefPtr
 BrowsingContext
 >
 mBrowsingContext
-;
-RefPtr
-<
-nsBrowserStatusFilter
->
-mStatusFilter
 ;
 RefPtr
 <
