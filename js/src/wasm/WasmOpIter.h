@@ -13314,7 +13314,7 @@ flags
 6
 )
 ;
-uint8_t
+uint32_t
 undefinedBits
 =
 flags
