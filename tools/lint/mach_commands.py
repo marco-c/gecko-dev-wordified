@@ -1265,6 +1265,9 @@ linters
 "
 eslint
 "
+"
+stylelint
+"
 ]
         
 paths
