@@ -152,7 +152,11 @@ EnumWithData
 .
 A
 (
+{
+value
+:
 10
+}
 )
 )
 new
@@ -160,7 +164,11 @@ EnumWithData
 .
 A
 (
+{
+value
+:
 10
+}
 )
 )
 ;
