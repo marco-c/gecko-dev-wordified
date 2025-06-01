@@ -6,6 +6,16 @@ allow
 dead_code
 )
 ]
+/
+/
+some
+code
+is
+tested
+for
+type
+checking
+only
 use
 super
 :

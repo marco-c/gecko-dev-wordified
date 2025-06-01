@@ -4,9 +4,18 @@
 allow
 (
 dead_code
-unused_imports
 )
 ]
+/
+/
+some
+code
+is
+tested
+for
+type
+checking
+only
 use
 derive_more
 :
@@ -37,6 +46,7 @@ is
 required
 for
 IndexMut
+.
 impl
 <
 __IdxT
@@ -184,6 +194,7 @@ is
 required
 for
 IndexMut
+.
 impl
 <
 __IdxT
