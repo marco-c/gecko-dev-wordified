@@ -1802,7 +1802,7 @@ to
 pub
 side
 :
-AnchorSide
+GenericAnchorSide
 <
 Percentage
 >
@@ -2504,7 +2504,7 @@ C
 ]
 pub
 enum
-AnchorSide
+GenericAnchorSide
 <
 P
 >
@@ -2545,7 +2545,7 @@ impl
 <
 P
 >
-AnchorSide
+GenericAnchorSide
 <
 P
 >
