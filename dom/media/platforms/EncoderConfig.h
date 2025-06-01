@@ -1449,6 +1449,8 @@ mHardwarePreference
 ;
 SampleFormat
 mFormat
+{
+}
 ;
 ScalabilityMode
 mScalabilityMode
