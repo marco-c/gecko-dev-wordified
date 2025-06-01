@@ -780,6 +780,15 @@ wr
 :
 NativeSurfaceId
 aId
+const
+wr
+:
+:
+DeviceIntRect
+*
+aDirtyRects
+size_t
+aNumDirtyRects
 )
 {
 RenderCompositor
@@ -801,6 +810,8 @@ compositor
 BindSwapChain
 (
 aId
+aDirtyRects
+aNumDirtyRects
 )
 ;
 }
