@@ -3273,14 +3273,6 @@ DisableNativeCompositor
 {
 MOZ_ASSERT
 (
-!
-UseLayerCompositor
-(
-)
-)
-;
-MOZ_ASSERT
-(
 mCurrentSurface
 .
 isNothing
