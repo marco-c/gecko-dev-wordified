@@ -1400,6 +1400,10 @@ IsStackAllocated
 }
 ;
 }
+/
+/
+namespace
+js
 #
 endif
 /
