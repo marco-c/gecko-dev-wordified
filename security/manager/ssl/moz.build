@@ -85,6 +85,14 @@ MPL
 0
 /
 .
+DIRS
++
+=
+[
+"
+abridged_certs
+"
+]
 TEST_DIRS
 +
 =

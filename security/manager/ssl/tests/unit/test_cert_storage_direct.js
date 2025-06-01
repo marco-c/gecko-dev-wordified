@@ -1534,7 +1534,8 @@ findCertByHash
 base64ToArray
 (
 "
-aaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+=
 "
 )
 )
@@ -1853,7 +1854,8 @@ JEc41lICBdZ7VFtk
 base64ToArray
 (
 "
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+=
 "
 )
 ]
