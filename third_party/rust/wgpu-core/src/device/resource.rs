@@ -24201,9 +24201,6 @@ upgrade
 buffer
 )
 {
-let
-_
-=
 buffer
 .
 destroy
@@ -24238,9 +24235,6 @@ upgrade
 texture
 )
 {
-let
-_
-=
 texture
 .
 destroy

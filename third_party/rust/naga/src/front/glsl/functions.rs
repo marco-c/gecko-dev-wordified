@@ -8229,11 +8229,9 @@ crate
 :
 :
 EarlyDepthTest
-{
-conservative
 :
-None
-}
+:
+Force
 )
 .
 filter

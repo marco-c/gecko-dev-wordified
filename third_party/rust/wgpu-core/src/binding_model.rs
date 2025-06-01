@@ -1868,7 +1868,7 @@ BindingArraySamplerElements
 >
 {
 "
-max_binding_array_elements_per_shader_stage
+max_binding_array_sampler_elements_per_shader_stage
 "
 }
 }

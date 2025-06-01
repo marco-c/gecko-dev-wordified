@@ -962,10 +962,13 @@ wgt
 BufferAddress
 size
 :
+Option
+<
 wgt
 :
 :
 BufferAddress
+>
 }
 CopyBufferToTexture
 {
