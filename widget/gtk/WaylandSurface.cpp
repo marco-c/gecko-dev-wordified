@@ -876,7 +876,7 @@ mReadyToDrawFrameCallback
 bool
 )
 mIsReadyToDraw
-mReadToDrawCallbacks
+mReadyToDrawCallbacks
 .
 size
 (
@@ -1011,7 +1011,7 @@ quit
 if
 (
 !
-mReadToDrawCallbacks
+mReadyToDrawCallbacks
 .
 empty
 (
@@ -1031,7 +1031,7 @@ callback
 "
 )
 ;
-mReadToDrawCallbacks
+mReadyToDrawCallbacks
 .
 clear
 (
@@ -1060,7 +1060,7 @@ std
 :
 move
 (
-mReadToDrawCallbacks
+mReadyToDrawCallbacks
 )
 ;
 RequestFrameCallbackLocked
@@ -1259,7 +1259,7 @@ mIsReadyToDraw
 mSurface
 )
 ;
-mReadToDrawCallbacks
+mReadyToDrawCallbacks
 .
 push_back
 (
@@ -1351,7 +1351,7 @@ stored
 "
 )
 ;
-mReadToDrawCallbacks
+mReadyToDrawCallbacks
 .
 push_back
 (
@@ -1425,7 +1425,7 @@ mReadyToDrawFrameCallback
 wl_callback_destroy
 )
 ;
-mReadToDrawCallbacks
+mReadyToDrawCallbacks
 .
 clear
 (
