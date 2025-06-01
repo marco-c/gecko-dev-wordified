@@ -1876,7 +1876,6 @@ cleared
 "
 )
 ;
-await
 fooCleanup
 (
 )
@@ -2467,21 +2466,6 @@ match
 "
 )
 ;
-await
-NimbusTestUtils
-.
-cleanupManager
-(
-[
-"
-foo
-"
-"
-bar
-"
-]
-)
-;
 ExperimentAPI
 .
 manager
@@ -2781,7 +2765,6 @@ correctly
 "
 )
 ;
-await
 doCleanup
 (
 )
