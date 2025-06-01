@@ -14918,9 +14918,11 @@ nsLayoutUtils
 :
 GetRectRelativeToFrame
 (
+const
 Element
 *
 aElement
+const
 nsIFrame
 *
 aFrame
