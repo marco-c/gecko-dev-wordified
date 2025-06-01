@@ -177,7 +177,7 @@ type_traits
 #
 include
 "
-mozmemory_utils
+mozmemory_stall
 .
 h
 "

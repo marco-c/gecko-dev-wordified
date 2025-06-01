@@ -1075,7 +1075,7 @@ a
 path
         
 "
-mozmemory_utils
+mozmemory_stall
 .
 h
 "
