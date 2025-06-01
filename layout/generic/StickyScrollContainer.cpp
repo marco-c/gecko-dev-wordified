@@ -424,17 +424,10 @@ aPosition
 GetAnchorResolvedInset
 (
 aSide
-AnchorPosResolutionParams
-:
-:
-UseCBFrameSize
-(
-nullptr
 StylePositionProperty
 :
 :
 Sticky
-)
 )
 ;
 if

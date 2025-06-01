@@ -133,7 +133,7 @@ position
 :
 :
 {
-GenericAnchorSide
+AnchorSide
 AnchorSideKeyword
 GenericAnchorFunction
 }
@@ -4524,7 +4524,7 @@ Err
 }
 }
 impl
-GenericAnchorSide
+AnchorSide
 <
 Box
 <
@@ -4762,7 +4762,7 @@ ok
 let
 side
 =
-GenericAnchorSide
+AnchorSide
 :
 :
 parse_in_calc
