@@ -693,16 +693,6 @@ builtins
 for
 this
 module
-only
-available
-if
-the
-feature
-/
-/
-is
-also
-enabled
 .
 bool
 jsStringBuiltins

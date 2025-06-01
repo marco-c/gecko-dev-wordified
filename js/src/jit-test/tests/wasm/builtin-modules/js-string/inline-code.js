@@ -10,12 +10,6 @@ skip
 if
 :
 !
-wasmJSStringBuiltinsEnabled
-(
-)
-|
-|
-!
 hasDisassembler
 (
 )

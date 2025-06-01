@@ -4444,9 +4444,6 @@ set
 (
 [
 "
-wasm_js_string_builtins
-"
-"
 wasm_js_promise_integration
 "
 ]
