@@ -2494,10 +2494,6 @@ view1
 view2
 )
 ;
-continueToNextStep
-(
-)
-;
 }
 function
 grabFileUsageAndContinueHandler
