@@ -4116,6 +4116,18 @@ re
 too
 late
 .
+if
+(
+window
+.
+gBrowser
+.
+isTab
+(
+tabToAdopt
+)
+)
+{
 let
 adoptedBy
 =
@@ -4136,6 +4148,7 @@ adoptedBy
 tabToAdopt
 )
 ;
+}
 }
 else
 {
