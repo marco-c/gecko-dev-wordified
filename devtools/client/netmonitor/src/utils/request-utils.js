@@ -4874,6 +4874,13 @@ object
 "
 |
 |
+json
+=
+=
+=
+null
+|
+|
 /
 /
 Parsed
@@ -4932,6 +4939,7 @@ numbers
 here
 .
 json
+?
 .
 type
 =
