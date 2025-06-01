@@ -117,7 +117,9 @@ subprocess
 import
 sys
 import
-six
+urllib
+.
+request
 try
 :
     
@@ -431,10 +433,6 @@ communicate
             
 input
 =
-six
-.
-moves
-.
 urllib
 .
 request

@@ -114,8 +114,6 @@ from
 uuid
 import
 UUID
-import
-six
 #
 This
 constant
@@ -418,13 +416,9 @@ row
 class
 XPerfAttribute
 (
-six
-.
-with_metaclass
-(
+metaclass
+=
 ABCMeta
-object
-)
 )
 :
     
@@ -2902,13 +2896,9 @@ timestamp
 class
 EventExpression
 (
-six
-.
-with_metaclass
-(
+metaclass
+=
 ABCMeta
-object
-)
 )
 :
     

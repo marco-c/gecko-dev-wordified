@@ -69,8 +69,6 @@ import
 socket
 import
 sys
-import
-six
 from
 mach
 .
@@ -863,8 +861,7 @@ self
 try
 :
             
-config_file
-=
+with
 open
 (
 self
@@ -874,14 +871,13 @@ config_file_path
 wb
 "
 )
-            
+as
+config_file
+:
+                
 config_file
 .
 write
-(
-six
-.
-ensure_binary
 (
 json
 .
@@ -891,6 +887,14 @@ self
 .
 config
 )
+.
+encode
+(
+"
+utf
+-
+8
+"
 )
 )
         

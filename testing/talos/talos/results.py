@@ -101,8 +101,6 @@ import
 os
 import
 re
-import
-six
 from
 talos
 import
@@ -3126,10 +3124,6 @@ values
 =
 dict
 (
-six
-.
-moves
-.
 zip
 (
 header
@@ -3390,10 +3384,6 @@ values
 =
 dict
 (
-six
-.
-moves
-.
 zip
 (
 header

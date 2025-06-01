@@ -120,12 +120,14 @@ import
 re
 import
 sys
+import
+urllib
+.
+parse
 from
 optparse
 import
 OptionParser
-import
-six
 def
 main
 (
@@ -893,10 +895,6 @@ download
     
 parsed
 =
-six
-.
-moves
-.
 urllib
 .
 parse
@@ -1016,10 +1014,6 @@ path
     
 req
 =
-six
-.
-moves
-.
 urllib
 .
 request
@@ -1031,10 +1025,6 @@ url
     
 f
 =
-six
-.
-moves
-.
 urllib
 .
 request

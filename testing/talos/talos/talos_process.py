@@ -73,8 +73,6 @@ import
 mozcrash
 import
 psutil
-import
-six
 from
 mozlog
 import
@@ -485,12 +483,19 @@ line
         
 line
 =
-six
+line
 .
-ensure_str
+decode
+(
+)
+if
+isinstance
 (
 line
+bytes
 )
+else
+line
         
 line
 =
