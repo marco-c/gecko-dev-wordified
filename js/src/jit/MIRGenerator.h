@@ -448,14 +448,8 @@ template
 typename
 T
 >
-js
-:
-:
-lifo_alloc_pointer
-<
 T
 *
->
 allocate
 (
 size_t
