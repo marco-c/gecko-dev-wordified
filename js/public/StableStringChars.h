@@ -894,11 +894,8 @@ copyLatin1Chars
 JSContext
 *
 cx
-Handle
-<
 JSLinearString
 *
->
 linearString
 )
 ;
@@ -908,11 +905,8 @@ copyTwoByteChars
 JSContext
 *
 cx
-Handle
-<
 JSLinearString
 *
->
 linearString
 )
 ;
@@ -921,11 +915,8 @@ copyAndInflateLatin1Chars
 (
 JSContext
 *
-Handle
-<
 JSLinearString
 *
->
 linearString
 )
 ;
