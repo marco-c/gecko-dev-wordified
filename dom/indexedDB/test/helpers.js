@@ -2451,6 +2451,7 @@ function
 requestSucceeded
 (
 request
+optionalSyncSuccessCallback
 )
 {
 return
@@ -2510,6 +2511,16 @@ function
 event
 )
 {
+if
+(
+optionalSyncSuccessCallback
+)
+{
+optionalSyncSuccessCallback
+(
+)
+;
+}
 resolve
 (
 event
