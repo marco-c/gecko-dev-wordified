@@ -23925,7 +23925,6 @@ pseudo
 elements
 )
 .
-pub
 fn
 is_css2_pseudo_element
 (

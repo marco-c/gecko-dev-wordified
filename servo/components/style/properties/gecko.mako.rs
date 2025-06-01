@@ -1526,11 +1526,9 @@ p
 >
 p
 .
-pseudo_type_and_argument
+pseudo_type
 (
 )
-.
-0
 None
 =
 >
