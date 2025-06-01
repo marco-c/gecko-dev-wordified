@@ -421,7 +421,7 @@ AbstractRange
 >
 ErrorResult
 >
-ExtendRangeToBlockBoundaries
+ExtendRangeToWordBoundaries
 (
 AbstractRange
 *
