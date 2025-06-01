@@ -263,13 +263,6 @@ h
 #
 include
 "
-onnxruntime_c_api
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
