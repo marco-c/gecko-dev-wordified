@@ -2456,6 +2456,16 @@ interaction
 .
 *
 /
+/
+/
+eslint
+-
+disable
+-
+next
+-
+line
+complexity
 async
 function
 runTestBounce

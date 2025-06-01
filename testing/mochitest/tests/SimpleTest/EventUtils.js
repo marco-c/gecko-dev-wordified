@@ -25294,6 +25294,16 @@ given
 .
 *
 /
+/
+/
+eslint
+-
+disable
+-
+next
+-
+line
+complexity
 async
 function
 synthesizeMockDragAndDrop

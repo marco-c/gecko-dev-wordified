@@ -1322,6 +1322,16 @@ return
 res
 ;
 }
+/
+/
+eslint
+-
+disable
+-
+next
+-
+line
+complexity
 function
 cleanTimeStamp
 (

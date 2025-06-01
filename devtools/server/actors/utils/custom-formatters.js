@@ -772,6 +772,16 @@ object
 .
 *
 /
+/
+/
+eslint
+-
+disable
+-
+next
+-
+line
+complexity
 function
 processFormatterForHeader
 (
