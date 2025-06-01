@@ -21473,6 +21473,12 @@ cbWM
 ;
 if
 (
+availISizeCBWM
+=
+=
+NS_UNCONSTRAINEDSIZE
+|
+|
 computedISizeCBWM
 =
 =
