@@ -1539,7 +1539,7 @@ aValue
 {
 default
 :
-MOZ_FALLTHROUGH_ASSERT
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unexpected
@@ -1552,9 +1552,6 @@ value
 "
 )
 ;
-case
-0
-:
 break
 ;
 case
@@ -1569,6 +1566,9 @@ ColorScheme
 Dark
 )
 ;
+case
+0
+:
 case
 2
 :
