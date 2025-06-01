@@ -2087,7 +2087,10 @@ becoming
 too
 big
 .
-IntSize
+gfx
+:
+:
+Size
 multiplier
 =
 layers
