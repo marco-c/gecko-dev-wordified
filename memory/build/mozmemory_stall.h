@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozjemalloc_utils_h
+mozjemalloc_stall_h
 #
 define
-mozjemalloc_utils_h
+mozjemalloc_stall_h
 #
 include
 <
@@ -526,4 +526,4 @@ mozilla
 endif
 /
 /
-mozjemalloc_utils_h
+mozjemalloc_stall_h
