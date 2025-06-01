@@ -11187,6 +11187,16 @@ to
 macOS
 vulnerabilities
 .
+"
+terminal
+"
+/
+/
+macOS
+Terminal
+app
+configuration
+files
 #
 endif
 "

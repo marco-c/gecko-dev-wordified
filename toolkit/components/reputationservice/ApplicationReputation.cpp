@@ -1199,6 +1199,10 @@ atloc
 .
 ftploc
 "
+"
+.
+terminal
+"
 /
 /
 clang

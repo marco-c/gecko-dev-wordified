@@ -888,6 +888,15 @@ shs
 "
 "
 .
+terminal
+"
+/
+/
+macOS
+terminal
+files
+"
+.
 url
 "
 "

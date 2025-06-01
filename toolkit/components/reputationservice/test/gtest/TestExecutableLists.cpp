@@ -2020,6 +2020,16 @@ Linux
 shell
 "
 .
+terminal
+"
+/
+/
+Apple
+Terminal
+configuration
+files
+"
+.
 tgz
 "
 /
