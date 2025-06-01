@@ -69307,6 +69307,12 @@ GetAnchorResolvedInset
 (
 masonrySide
 wm
+AnchorPosResolutionParams
+:
+:
+UseCBFrameSize
+(
+this
 item
 -
 >
@@ -69319,6 +69325,7 @@ StyleDisplay
 -
 >
 mPosition
+)
 )
 -
 >
