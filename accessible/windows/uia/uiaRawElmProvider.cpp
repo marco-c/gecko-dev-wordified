@@ -1991,7 +1991,13 @@ case
 states
 :
 :
-EXPANDABLE
+COLLAPSED
+:
+case
+states
+:
+:
+EXPANDED
 :
 case
 states

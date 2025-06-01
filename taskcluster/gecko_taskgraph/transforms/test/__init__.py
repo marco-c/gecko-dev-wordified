@@ -3081,27 +3081,6 @@ python
 ]
         
 #
-Fetch
-uv
-binary
-and
-add
-it
-to
-PATH
-        
-Optional
-(
-"
-use
--
-uv
-"
-)
-:
-bool
-        
-#
 Cache
 mounts
 /
@@ -3735,18 +3714,6 @@ python
 "
 system
 "
-)
-        
-task
-.
-setdefault
-(
-"
-use
--
-uv
-"
-True
 )
         
 task
