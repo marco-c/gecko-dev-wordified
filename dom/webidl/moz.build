@@ -4958,6 +4958,11 @@ OffscreenCanvasRenderingContext2D
 webidl
 "
 "
+ONNX
+.
+webidl
+"
+"
 OscillatorNode
 .
 webidl
