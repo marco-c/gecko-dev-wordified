@@ -544,11 +544,6 @@ aError
 )
 ;
 }
-CSSIntSize
-NaturalSize
-(
-)
-;
 uint32_t
 NaturalHeight
 (
