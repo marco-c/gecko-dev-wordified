@@ -290,6 +290,10 @@ class
 VideoDecoderConfigInternal
 ;
 }
+/
+/
+namespace
+dom
 #
 define
 WEBCODECS_MARKER
