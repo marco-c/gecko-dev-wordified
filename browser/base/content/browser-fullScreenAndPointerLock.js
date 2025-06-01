@@ -2603,7 +2603,7 @@ gURLBar
 .
 controller
 .
-addQueryListener
+addListener
 (
 this
 )
@@ -3969,7 +3969,7 @@ gURLBar
 .
 controller
 .
-removeQueryListener
+removeListener
 (
 this
 )

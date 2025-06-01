@@ -1087,7 +1087,7 @@ args
 {
 controller
 .
-removeQueryListener
+removeListener
 (
 proxifiedObserver
 )
@@ -1126,7 +1126,7 @@ false
 ;
 controller
 .
-addQueryListener
+addListener
 (
 proxifiedObserver
 )

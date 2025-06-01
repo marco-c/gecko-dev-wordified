@@ -298,7 +298,7 @@ resolve
 {
 controller
 .
-addQueryListener
+addListener
 (
 {
 async
@@ -309,7 +309,7 @@ queryContext
 {
 controller
 .
-removeQueryListener
+removeListener
 (
 this
 )

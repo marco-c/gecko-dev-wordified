@@ -702,7 +702,7 @@ true
 ;
 controller
 .
-addQueryListener
+addListener
 (
 controllerListener
 )
@@ -858,7 +858,7 @@ finished
 ;
 controller
 .
-removeQueryListener
+removeListener
 (
 controllerListener
 )
@@ -1305,7 +1305,7 @@ true
 ;
 controller
 .
-addQueryListener
+addListener
 (
 controllerListener
 )
@@ -1368,7 +1368,7 @@ finished
 ;
 controller
 .
-removeQueryListener
+removeListener
 (
 controllerListener
 )
