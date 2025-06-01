@@ -1634,12 +1634,6 @@ InlinableNative
 :
 IntrinsicArrayIteratorPrototypeOptimizable
 :
-case
-InlinableNative
-:
-:
-IntrinsicThisTimeValue
-:
 #
 ifdef
 ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
