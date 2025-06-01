@@ -233,17 +233,6 @@ ruleTester
 new
 RuleTester
 (
-{
-parserOptions
-:
-{
-ecmaVersion
-:
-"
-latest
-"
-}
-}
 )
 ;
 /
