@@ -302,7 +302,7 @@ i32
 (
 i31
 .
-get_u
+get_s
 (
 ref
 .

@@ -3116,7 +3116,7 @@ simd_address
 wast
 :
 143
-assert_malformed
+assert_invalid
 (
 (
 )
@@ -3149,8 +3149,10 @@ const
 )
 )
 )
-i32
-constant
+offset
+out
+of
+range
 )
 ;
 /
@@ -3168,7 +3170,7 @@ simd_address
 wast
 :
 151
-assert_malformed
+assert_invalid
 (
 (
 )
@@ -3208,7 +3210,9 @@ i32x4
 )
 )
 )
-i32
-constant
+offset
+out
+of
+range
 )
 ;
