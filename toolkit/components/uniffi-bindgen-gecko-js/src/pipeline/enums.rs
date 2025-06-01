@@ -201,14 +201,6 @@ to_string
 (
 )
 }
-.
-.
-TypeNode
-:
-:
-default
-(
-)
 }
 }
 ;
