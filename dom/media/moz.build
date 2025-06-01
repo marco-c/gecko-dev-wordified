@@ -1022,11 +1022,6 @@ MediaSpan
 h
 "
 "
-MediaStatistics
-.
-h
-"
-"
 MediaStreamWindowCapturer
 .
 h
