@@ -1367,7 +1367,7 @@ HTMLScriptElement
 :
 GetSrc
 (
-OwningTrustedScriptURLOrString
+OwningTrustedScriptURLOrUSVString
 &
 aSrc
 )
@@ -1381,7 +1381,7 @@ src
 nullptr
 aSrc
 .
-SetAsString
+SetAsUSVString
 (
 )
 )
@@ -1394,7 +1394,7 @@ HTMLScriptElement
 SetSrc
 (
 const
-TrustedScriptURLOrString
+TrustedScriptURLOrUSVString
 &
 aSrc
 nsIPrincipal
