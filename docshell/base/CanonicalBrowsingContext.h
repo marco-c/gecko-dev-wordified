@@ -2014,6 +2014,14 @@ UpdateSecurityState
 (
 )
 ;
+void
+MaybeAddAsProgressListener
+(
+nsIWebProgress
+*
+aWebProgress
+)
+;
 /
 /
 Called

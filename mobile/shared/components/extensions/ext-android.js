@@ -687,7 +687,7 @@ Ci
 .
 nsIWebProgress
 .
-NOTIFY_STATE_NETWORK
+NOTIFY_STATE_ALL
 |
 Ci
 .
