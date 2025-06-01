@@ -858,6 +858,9 @@ return
 SECFailure
 ;
 }
+#
+ifndef
+UNSAFE_FUZZER_MODE
 SECStatus
 rv
 =
@@ -899,4 +902,14 @@ SECFailure
 return
 rv
 ;
+#
+else
+return
+px
+!
+=
+NULL
+;
+#
+endif
 }
