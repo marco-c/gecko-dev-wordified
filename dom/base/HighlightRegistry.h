@@ -584,6 +584,14 @@ Highlight
 aHighlight
 )
 ;
+void
+RepaintHighlightSelection
+(
+Highlight
+&
+aHighlight
+)
+;
 /
 /
 WebIDL

@@ -730,12 +730,7 @@ SetPriority
 int32_t
 aPriority
 )
-{
-mPriority
-=
-aPriority
 ;
-}
 /
 *
 *
@@ -789,12 +784,7 @@ SetType
 HighlightType
 aHighlightType
 )
-{
-mHighlightType
-=
-aHighlightType
 ;
-}
 /
 *
 *
@@ -1010,6 +1000,11 @@ aRv
 ;
 private
 :
+void
+Repaint
+(
+)
+;
 RefPtr
 <
 nsPIDOMWindowInner

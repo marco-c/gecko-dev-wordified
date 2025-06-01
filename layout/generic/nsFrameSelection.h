@@ -3202,6 +3202,14 @@ Highlight
 aHighlight
 )
 ;
+void
+RepaintHighlightSelection
+(
+nsAtom
+*
+aHighlightName
+)
+;
 /
 *
 *
