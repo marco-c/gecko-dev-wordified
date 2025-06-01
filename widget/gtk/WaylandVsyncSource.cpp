@@ -573,7 +573,7 @@ shell
 mWaylandSurface
 -
 >
-AddFrameCallbackLocked
+SetFrameCallbackLocked
 (
 surfaceLock
 [

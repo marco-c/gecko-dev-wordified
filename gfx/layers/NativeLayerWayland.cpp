@@ -4914,7 +4914,7 @@ events
 mSurface
 -
 >
-AddFrameCallbackLocked
+SetFrameCallbackLocked
 (
 surfaceLock
 [
