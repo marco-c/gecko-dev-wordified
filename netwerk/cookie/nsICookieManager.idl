@@ -938,7 +938,7 @@ attribute
 [
 implicit_jscontext
 ]
-void
+nsICookieValidation
 add
 (
 in
