@@ -371,6 +371,7 @@ as
 DontCheckTDZ
 .
 class
+MOZ_STACK_CLASS
 TDZCheckCache
 :
 public

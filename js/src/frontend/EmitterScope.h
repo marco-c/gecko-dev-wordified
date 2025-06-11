@@ -119,6 +119,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Maybe
 .
 h
@@ -246,6 +255,7 @@ introduces
 bindings
 .
 class
+MOZ_STACK_CLASS
 EmitterScope
 :
 public

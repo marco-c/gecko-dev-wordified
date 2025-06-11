@@ -343,6 +343,7 @@ context
 *
 /
 class
+MOZ_STACK_CLASS
 ParseContext
 :
 public
@@ -396,6 +397,7 @@ lexical
 declarations
 .
 class
+MOZ_STACK_CLASS
 Statement
 :
 public
@@ -635,6 +637,7 @@ a
 scope
 .
 class
+MOZ_STACK_CLASS
 Scope
 :
 public
