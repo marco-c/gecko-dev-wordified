@@ -6619,6 +6619,14 @@ number_spatial_layers
 )
 ;
 void
+av1_apply_roi_map
+(
+AV1_COMP
+*
+cpi
+)
+;
+void
 av1_apply_active_map
 (
 AV1_COMP

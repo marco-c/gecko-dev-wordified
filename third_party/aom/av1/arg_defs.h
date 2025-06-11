@@ -809,6 +809,9 @@ sb_qp_sweep
 arg_def_t
 enable_low_complexity_decode
 ;
+arg_def_t
+screen_detection_mode
+;
 #
 endif
 /

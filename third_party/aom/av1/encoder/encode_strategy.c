@@ -1571,6 +1571,13 @@ mmx
 registers
 if
 (
+is_one_pass_rt_params
+(
+cpi
+)
+|
+|
+(
 cpi
 -
 >
@@ -1599,6 +1606,7 @@ svc
 number_spatial_layers
 >
 1
+)
 )
 {
 /
@@ -1688,6 +1696,8 @@ the
 user
 .
 For
+RTC
+or
 spatial
 layers
 SVC
@@ -1695,9 +1705,9 @@ set
 the
 framerate
 based
+/
+/
 directly
-/
-/
 on
 the
 duration

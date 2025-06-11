@@ -537,9 +537,8 @@ stride
 ;
 /
 *
-*
-\
 !
+\
 brief
 Function
 pointer
@@ -619,9 +618,8 @@ n
 ;
 /
 *
-*
-\
 !
+\
 brief
 Function
 pointer
