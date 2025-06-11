@@ -1004,9 +1004,6 @@ private
 Mutex
 lock_
 ;
-rtc
-:
-:
 Event
 done_
 ;

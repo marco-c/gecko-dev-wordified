@@ -408,9 +408,6 @@ NetworkEmulationManager
 network_emulation
 )
 {
-rtc
-:
-:
 Event
 stats_loaded
 ;
@@ -1063,9 +1060,6 @@ RTC_GUARDED_BY
 sequence_checker_
 )
 ;
-rtc
-:
-:
 Event
 all_stats_collected_
 ;

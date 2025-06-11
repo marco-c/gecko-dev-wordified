@@ -845,9 +845,6 @@ task
 can
 execute
 .
-rtc
-:
-:
 Event
 blocker
 ;
@@ -868,9 +865,6 @@ blocker
 .
 Wait
 (
-rtc
-:
-:
 Event
 :
 :

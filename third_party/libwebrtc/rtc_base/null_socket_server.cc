@@ -219,9 +219,6 @@ warn_after
 =
 *
 /
-rtc
-:
-:
 Event
 :
 :

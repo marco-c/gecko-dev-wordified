@@ -321,9 +321,6 @@ void
 run
 )
 {
-rtc
-:
-:
 Event
 thread_has_run_event
 ;
@@ -882,9 +879,6 @@ SequenceChecker
 kDetached
 )
 ;
-rtc
-:
-:
 Event
 blocker
 ;
@@ -923,9 +917,6 @@ blocker
 .
 Wait
 (
-rtc
-:
-:
 Event
 :
 :
@@ -1023,9 +1014,6 @@ SequenceChecker
 kDetached
 )
 ;
-rtc
-:
-:
 Event
 blocker
 ;
@@ -1064,9 +1052,6 @@ blocker
 .
 Wait
 (
-rtc
-:
-:
 Event
 :
 :

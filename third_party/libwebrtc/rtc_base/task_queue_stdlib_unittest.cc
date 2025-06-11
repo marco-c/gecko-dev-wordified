@@ -363,9 +363,6 @@ NORMAL
 auto
 wait_duration
 =
-rtc
-:
-:
 Event
 :
 :

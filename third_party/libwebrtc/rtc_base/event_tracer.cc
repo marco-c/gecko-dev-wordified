@@ -2232,9 +2232,6 @@ rtc
 PlatformThread
 logging_thread_
 ;
-rtc
-:
-:
 Event
 shutdown_event_
 ;

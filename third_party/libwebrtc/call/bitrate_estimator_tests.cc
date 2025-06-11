@@ -804,9 +804,6 @@ RTC_GUARDED_BY
 mutex_
 )
 ;
-rtc
-:
-:
 Event
 done_
 ;

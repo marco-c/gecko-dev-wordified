@@ -3294,9 +3294,6 @@ Wait
 /
 WakeUp
 .
-rtc
-:
-:
 Event
 wakeup_
 ;

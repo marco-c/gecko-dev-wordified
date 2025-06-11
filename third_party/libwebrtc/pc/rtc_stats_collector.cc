@@ -9288,9 +9288,6 @@ network_report_event_
 .
 Wait
 (
-rtc
-:
-:
 Event
 :
 :

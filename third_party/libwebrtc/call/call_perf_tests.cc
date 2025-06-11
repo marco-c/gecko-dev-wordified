@@ -5216,9 +5216,6 @@ stream
 }
 private
 :
-rtc
-:
-:
 Event
 time_to_reconfigure_
 ;

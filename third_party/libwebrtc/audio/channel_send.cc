@@ -3827,9 +3827,6 @@ in
 the
 encoder
 .
-rtc
-:
-:
 Event
 flush
 ;
@@ -3872,9 +3869,6 @@ flush
 .
 Wait
 (
-rtc
-:
-:
 Event
 :
 :

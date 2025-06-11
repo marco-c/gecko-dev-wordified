@@ -1162,9 +1162,6 @@ with
 the
 task_queue_
 .
-rtc
-:
-:
 Event
 output_stopped
 ;
@@ -1190,9 +1187,6 @@ output_stopped
 .
 Wait
 (
-rtc
-:
-:
 Event
 :
 :

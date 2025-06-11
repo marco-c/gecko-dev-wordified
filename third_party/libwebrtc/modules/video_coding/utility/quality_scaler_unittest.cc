@@ -285,9 +285,6 @@ Set
 )
 ;
 }
-rtc
-:
-:
 Event
 event
 ;

@@ -288,9 +288,6 @@ Set
 )
 ;
 }
-rtc
-:
-:
 Event
 event_
 ;

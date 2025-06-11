@@ -1929,9 +1929,6 @@ std
 atomic_int
 queue_size_
 ;
-rtc
-:
-:
 Event
 task_executed_
 ;

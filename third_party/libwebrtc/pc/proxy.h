@@ -869,9 +869,6 @@ event_
 .
 Wait
 (
-rtc
-:
-:
 Event
 :
 :
@@ -967,9 +964,6 @@ Args
 >
 args_
 ;
-rtc
-:
-:
 Event
 event_
 ;
@@ -1136,9 +1130,6 @@ event_
 .
 Wait
 (
-rtc
-:
-:
 Event
 :
 :
@@ -1235,9 +1226,6 @@ Args
 >
 args_
 ;
-rtc
-:
-:
 Event
 event_
 ;

@@ -1457,9 +1457,6 @@ test_done_
 .
 Wait
 (
-rtc
-:
-:
 Event
 :
 :
@@ -1599,9 +1596,6 @@ TaskQueueBase
 const
 task_queue_
 ;
-rtc
-:
-:
 Event
 test_done_
 ;

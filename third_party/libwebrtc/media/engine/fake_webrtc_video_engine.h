@@ -637,9 +637,6 @@ private
 Mutex
 mutex_
 ;
-rtc
-:
-:
 Event
 init_encode_event_
 ;
@@ -824,9 +821,6 @@ private
 Mutex
 mutex_
 ;
-rtc
-:
-:
 Event
 created_video_encoder_event_
 ;

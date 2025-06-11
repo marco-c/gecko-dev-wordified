@@ -1255,9 +1255,6 @@ invoked
 ExecutionOrderKeeper
 execution_order
 ;
-rtc
-:
-:
 Event
 event
 ;

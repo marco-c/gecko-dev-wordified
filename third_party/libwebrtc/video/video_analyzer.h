@@ -1759,9 +1759,6 @@ PlatformThread
 >
 comparison_thread_pool_
 ;
-rtc
-:
-:
 Event
 comparison_available_event_
 ;
@@ -1785,9 +1782,6 @@ RTC_GUARDED_BY
 comparison_lock_
 )
 ;
-rtc
-:
-:
 Event
 done_
 ;

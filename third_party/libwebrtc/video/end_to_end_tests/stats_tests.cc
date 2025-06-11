@@ -2441,9 +2441,6 @@ uint32_t
 >
 expected_send_ssrcs_
 ;
-rtc
-:
-:
 Event
 check_stats_event_
 ;

@@ -408,9 +408,6 @@ event_timeout
 )
 {
 }
-rtc
-:
-:
 Event
 observation_complete_
 ;

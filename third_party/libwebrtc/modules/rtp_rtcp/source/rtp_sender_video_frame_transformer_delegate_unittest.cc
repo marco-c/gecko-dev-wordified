@@ -1038,9 +1038,6 @@ c_str
 )
 )
 ;
-rtc
-:
-:
 Event
 event
 ;
@@ -1926,9 +1923,6 @@ ASSERT_TRUE
 callback
 )
 ;
-rtc
-:
-:
 Event
 event
 ;

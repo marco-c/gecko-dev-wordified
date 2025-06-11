@@ -2085,9 +2085,6 @@ value
 of
 network_report_
 .
-rtc
-:
-:
 Event
 network_report_event_
 ;

@@ -200,9 +200,6 @@ task
 return
 ;
 }
-rtc
-:
-:
 Event
 event
 ;
@@ -262,9 +259,6 @@ give_up_after
 =
 *
 /
-rtc
-:
-:
 Event
 :
 :

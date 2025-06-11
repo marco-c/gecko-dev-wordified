@@ -2788,9 +2788,6 @@ observer_
 }
 )
 ;
-rtc
-:
-:
 Event
 event
 ;
@@ -6103,9 +6100,6 @@ observer_
 }
 )
 ;
-rtc
-:
-:
 Event
 event
 ;

@@ -966,9 +966,6 @@ the
 worker
 thread
 .
-rtc
-:
-:
 Event
 event
 ;

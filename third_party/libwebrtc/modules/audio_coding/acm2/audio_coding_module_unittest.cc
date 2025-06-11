@@ -3042,9 +3042,6 @@ bool
 >
 quit_
 ;
-rtc
-:
-:
 Event
 test_complete_
 ;

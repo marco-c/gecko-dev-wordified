@@ -3703,9 +3703,6 @@ Priority
 NORMAL
 )
 ;
-rtc
-:
-:
 Event
 event
 ;
@@ -3857,9 +3854,6 @@ as
 their
 creation
 .
-rtc
-:
-:
 Event
 event
 ;
@@ -3958,9 +3952,6 @@ Run
 (
 )
 {
-rtc
-:
-:
 Event
 event
 ;
@@ -4346,9 +4337,6 @@ int
 >
 unknown_packets
 ;
-rtc
-:
-:
 Event
 event
 (

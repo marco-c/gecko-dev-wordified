@@ -187,9 +187,6 @@ kEventTimeout
 }
 private
 :
-rtc
-:
-:
 Event
 event_
 ;

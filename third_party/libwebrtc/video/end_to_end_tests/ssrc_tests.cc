@@ -526,9 +526,6 @@ PacketReceiver
 *
 receiver_
 ;
-rtc
-:
-:
 Event
 undemuxable_packet_handler_triggered_
 ;

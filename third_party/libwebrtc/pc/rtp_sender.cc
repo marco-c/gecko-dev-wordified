@@ -2336,9 +2336,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Event
 >
 done_event
@@ -2348,9 +2345,6 @@ std
 :
 make_unique
 <
-rtc
-:
-:
 Event
 >
 (
@@ -2395,9 +2389,6 @@ done_event
 >
 Wait
 (
-rtc
-:
-:
 Event
 :
 :

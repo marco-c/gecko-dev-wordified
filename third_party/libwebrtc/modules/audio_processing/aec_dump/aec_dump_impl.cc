@@ -451,9 +451,6 @@ have
 finished
 running
 .
-rtc
-:
-:
 Event
 thread_sync_event
 ;
@@ -506,9 +503,6 @@ thread_sync_event
 .
 Wait
 (
-rtc
-:
-:
 Event
 :
 :

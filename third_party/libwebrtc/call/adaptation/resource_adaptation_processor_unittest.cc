@@ -3277,9 +3277,6 @@ s
 task
 queue
 .
-rtc
-:
-:
 Event
 resource_event
 ;
@@ -3411,9 +3408,6 @@ kDefaultFrameRate
 kDefaultFrameSize
 )
 ;
-rtc
-:
-:
 Event
 overuse_event
 ;

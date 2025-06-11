@@ -3013,9 +3013,6 @@ for
 the
 test
 .
-rtc
-:
-:
 Event
 test_complete_
 ;
