@@ -1299,6 +1299,9 @@ bool
 mCompositorUseDComp
 ;
 bool
+mUseLayerCompositor
+;
+bool
 mUseCompositorWnd
 ;
 bool
@@ -1340,6 +1343,10 @@ aCompositorUseANGLE
 false
 bool
 aCompositorUseDComp
+=
+false
+bool
+aUseLayerCompositor
 =
 false
 bool
@@ -1403,6 +1410,10 @@ mCompositorUseDComp
 (
 aCompositorUseDComp
 )
+mUseLayerCompositor
+(
+aUseLayerCompositor
+)
 mUseCompositorWnd
 (
 aUseCompositorWnd
@@ -1450,6 +1461,10 @@ aCompositorUseANGLE
 false
 bool
 aCompositorUseDComp
+=
+false
+bool
+aUseLayerCompositor
 =
 false
 bool
@@ -1509,6 +1524,10 @@ aCompositorUseANGLE
 mCompositorUseDComp
 (
 aCompositorUseDComp
+)
+mUseLayerCompositor
+(
+aUseLayerCompositor
 )
 mUseCompositorWnd
 (

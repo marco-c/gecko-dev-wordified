@@ -1775,6 +1775,16 @@ mUseDComp
 ;
 }
 bool
+GetUseLayerCompositor
+(
+)
+const
+{
+return
+mUseLayerCompositor
+;
+}
+bool
 GetUseTripleBuffering
 (
 )
@@ -1933,6 +1943,8 @@ bool
 aUseANGLE
 bool
 aUseDComp
+bool
+aUseLayerCompositor
 bool
 aUseTripleBuffering
 bool
@@ -2693,6 +2705,9 @@ mUseANGLE
 ;
 bool
 mUseDComp
+;
+bool
+mUseLayerCompositor
 ;
 bool
 mUseTripleBuffering
