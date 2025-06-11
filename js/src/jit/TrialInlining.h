@@ -744,6 +744,9 @@ public
 ValOperandId
 receiverOperand
 ;
+ObjOperandId
+calleeOperand
+;
 bool
 sameRealm
 =
