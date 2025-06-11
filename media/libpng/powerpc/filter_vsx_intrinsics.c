@@ -141,7 +141,6 @@ ifndef
 __VSX__
 #
 error
-"
 This
 code
 requires
@@ -152,15 +151,12 @@ POWER7
 and
 later
 )
-.
-Please
-provide
+;
+please
+compile
+with
 -
 mvsx
-compiler
-flag
-.
-"
 #
 endif
 #

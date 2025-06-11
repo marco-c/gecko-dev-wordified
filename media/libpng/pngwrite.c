@@ -14312,10 +14312,8 @@ image
 to
 the
 given
-(
 FILE
-*
-)
+object
 .
 *
 /

@@ -15,6 +15,8 @@ Copyright
 c
 )
 2018
+-
+2025
 Cosmin
 Truta
 *
@@ -443,7 +445,8 @@ data
 length
 png_voidcast
 (
-png_FILE_p
+FILE
+*
 png_ptr
 -
 >

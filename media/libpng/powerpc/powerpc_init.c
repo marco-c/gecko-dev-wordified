@@ -325,7 +325,6 @@ PNG_POWERPC_VSX_FILE
 /
 #
 error
-"
 PNG_POWERPC_VSX_FILE
 undefined
 :
@@ -338,7 +337,6 @@ time
 POWERPC
 VSX
 checks
-"
 #
 endif
 /

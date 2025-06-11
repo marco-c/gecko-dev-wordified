@@ -121,8 +121,8 @@ path
 *
 /
 typedef
-png_libpng_version_1_6_47
-Your_png_h_is_not_version_1_6_47
+png_libpng_version_1_6_48
+Your_png_h_is_not_version_1_6_48
 ;
 /
 *
@@ -4215,7 +4215,8 @@ png_init_io
 (
 png_structrp
 png_ptr
-png_FILE_p
+FILE
+*
 fp
 )
 {
@@ -4981,7 +4982,7 @@ version
 .
 6
 .
-47
+48
 "
 PNG_STRING_NEWLINE
 \
@@ -10745,7 +10746,7 @@ COLORSPACE
 /
 #
 ifdef
-PNG_iCCP_SUPPORTED
+PNG_READ_iCCP_SUPPORTED
 /
 *
 Error
@@ -11283,16 +11284,6 @@ return
 0
 ;
 }
-#
-endif
-/
-*
-iCCP
-*
-/
-#
-ifdef
-PNG_READ_iCCP_SUPPORTED
 /
 *
 Encoded
