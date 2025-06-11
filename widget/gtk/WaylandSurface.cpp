@@ -833,7 +833,7 @@ void
 WaylandSurface
 :
 :
-InitialFrameCallbackHandler
+ReadyToDrawFrameCallbackHandler
 (
 struct
 wl_callback
@@ -847,7 +847,7 @@ LOGWAYLAND
 WaylandSurface
 :
 :
-InitialFrameCallbackHandler
+ReadyToDrawFrameCallbackHandler
 (
 )
 "
@@ -916,7 +916,7 @@ directly
 to
 GtkWidget
 and
-InitialFrameCallbackHandler
+ReadyToDrawFrameCallbackHandler
 is
 called
 by
@@ -1124,7 +1124,7 @@ cb
 }
 static
 void
-InitialFrameCallbackHandler
+ReadyToDrawFrameCallbackHandler
 (
 void
 *
@@ -1153,7 +1153,7 @@ aWaylandSurface
 waylandSurface
 -
 >
-InitialFrameCallbackHandler
+ReadyToDrawFrameCallbackHandler
 (
 callback
 )
@@ -1163,12 +1163,12 @@ static
 const
 struct
 wl_callback_listener
-sWaylandSurfaceInitialFrameListener
+sWaylandSurfaceReadyToDrawFrameListener
 =
 {
 :
 :
-InitialFrameCallbackHandler
+ReadyToDrawFrameCallbackHandler
 }
 ;
 void
@@ -3139,7 +3139,7 @@ wl_callback_add_listener
 (
 mReadyToDrawFrameCallback
 &
-sWaylandSurfaceInitialFrameListener
+sWaylandSurfaceReadyToDrawFrameListener
 this
 )
 ;
