@@ -236,6 +236,21 @@ locale
 else
 :
             
+only_archs
+=
+task
+.
+pop
+(
+"
+only
+-
+archs
+"
+[
+]
+)
+            
 for
 dep
 in
@@ -283,6 +298,7 @@ name
 ]
                         
 for
+arch
 apk_metadata
 in
 dep
@@ -298,9 +314,17 @@ apks
 }
 )
 .
-values
+items
 (
 )
+                        
+if
+not
+only_archs
+or
+arch
+in
+only_archs
                     
 ]
                 
