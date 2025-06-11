@@ -2758,6 +2758,7 @@ should
 not
 drop
 .
+{
 delayed_packets
 .
 front
@@ -2839,6 +2840,7 @@ Allow
 5
 %
 error
+}
 /
 /
 Thoughput

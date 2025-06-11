@@ -11696,7 +11696,7 @@ VideoCodecAnalyzer
 const
 EncodingSettings
 &
-frame_settings
+first_frame_settings
 =
 encoding_settings
 .
@@ -11724,7 +11724,7 @@ encoder
 .
 Initialize
 (
-frame_settings
+first_frame_settings
 )
 ;
 int
@@ -11732,7 +11732,7 @@ num_spatial_layers
 =
 ScalabilityModeToNumSpatialLayers
 (
-frame_settings
+first_frame_settings
 .
 scalability_mode
 )
@@ -11794,7 +11794,7 @@ decoder
 >
 Initialize
 (
-frame_settings
+first_frame_settings
 .
 sdp_video_format
 )

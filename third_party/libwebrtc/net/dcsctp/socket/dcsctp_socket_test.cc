@@ -25556,9 +25556,17 @@ for
 ;
 )
 {
+std
+:
+:
+vector
+<
+uint8_t
+>
+data
+;
 if
 (
-auto
 data
 =
 a
@@ -25623,7 +25631,6 @@ data
 else
 if
 (
-auto
 data
 =
 z

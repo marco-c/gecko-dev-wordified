@@ -35167,7 +35167,7 @@ for
 const
 RemoteCandidate
 &
-candidate
+remote_candidate
 :
 ch
 .
@@ -35178,7 +35178,7 @@ remote_candidates
 {
 EXPECT_TRUE
 (
-candidate
+remote_candidate
 .
 username
 (
@@ -35191,7 +35191,7 @@ kIceUfrag
 ]
 |
 |
-candidate
+remote_candidate
 .
 username
 (
@@ -35206,7 +35206,7 @@ kIceUfrag
 ;
 if
 (
-candidate
+remote_candidate
 .
 username
 (
@@ -35225,7 +35225,7 @@ kIcePwd
 [
 1
 ]
-candidate
+remote_candidate
 .
 password
 (
@@ -35236,7 +35236,7 @@ password
 else
 if
 (
-candidate
+remote_candidate
 .
 username
 (
@@ -35255,7 +35255,7 @@ kIcePwd
 [
 2
 ]
-candidate
+remote_candidate
 .
 password
 (

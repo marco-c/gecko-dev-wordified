@@ -3672,14 +3672,14 @@ end
 {
 AsyncPacketSocket
 *
-socket
+server_socket
 =
 iter
 -
 >
 first
 ;
-socket
+server_socket
 -
 >
 UnsubscribeCloseEvent
@@ -3687,7 +3687,7 @@ UnsubscribeCloseEvent
 this
 )
 ;
-socket
+server_socket
 -
 >
 DeregisterReceivedPacketCallback
@@ -3715,7 +3715,7 @@ absl
 :
 WrapUnique
 (
-socket
+server_socket
 )
 ;
 /
