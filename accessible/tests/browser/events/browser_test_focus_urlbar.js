@@ -2098,10 +2098,7 @@ gURLBar
 querySelector
 (
 "
-.
-textbox
--
-contextmenu
+menupopup
 "
 )
 ;
