@@ -20,6 +20,14 @@ resource
 management
 "
 )
+|
+|
+getBuildConfiguration
+(
+"
+debug
+"
+)
 if
 (
 '
