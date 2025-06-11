@@ -1293,9 +1293,11 @@ definition
 in
 /
 /
-nsPlacesAutoComplete
+PlacesUtils
 .
-js
+sys
+.
+mjs
 .
 #
 define
@@ -1323,6 +1325,11 @@ INTEGER
 "
 \
 "
+groupId
+TEXT
+"
+\
+"
 open_count
 INTEGER
 "
@@ -1333,6 +1340,7 @@ KEY
 (
 url
 userContextId
+groupId
 )
 "
 \
