@@ -1617,9 +1617,6 @@ std
 :
 make_unique
 <
-rtc
-:
-:
 TestCertificateVerifier
 >
 (
