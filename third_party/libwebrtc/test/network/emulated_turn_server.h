@@ -313,9 +313,6 @@ EmulatedTURNServer
 public
 EmulatedTURNServerInterface
 public
-cricket
-:
-:
 TurnAuthInterface
 public
 webrtc
@@ -610,9 +607,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 TurnServer
 >
 turn_server_

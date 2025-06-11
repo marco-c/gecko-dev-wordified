@@ -1526,7 +1526,7 @@ fake_rtp_packet_transport1_
 reset
 (
 new
-rtc
+webrtc
 :
 :
 FakePacketTransport
@@ -1552,7 +1552,7 @@ fake_rtcp_packet_transport1_
 reset
 (
 new
-rtc
+webrtc
 :
 :
 FakePacketTransport
@@ -1715,7 +1715,7 @@ fake_rtp_packet_transport2_
 reset
 (
 new
-rtc
+webrtc
 :
 :
 FakePacketTransport
@@ -1741,7 +1741,7 @@ fake_rtcp_packet_transport2_
 reset
 (
 new
-rtc
+webrtc
 :
 :
 FakePacketTransport
@@ -11579,7 +11579,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 FakePacketTransport
@@ -11591,7 +11591,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 FakePacketTransport
@@ -11603,7 +11603,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 FakePacketTransport
@@ -11615,7 +11615,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 FakePacketTransport

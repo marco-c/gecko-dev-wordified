@@ -661,9 +661,6 @@ observer
 transport
 )
 ;
-rtc
-:
-:
 FakePacketTransport
 fake_rtcp
 (
@@ -679,9 +676,6 @@ SetWritable
 true
 )
 ;
-rtc
-:
-:
 FakePacketTransport
 fake_rtp
 (
@@ -764,9 +758,6 @@ observer
 transport
 )
 ;
-rtc
-:
-:
 FakePacketTransport
 fake_rtcp
 (
@@ -782,9 +773,6 @@ SetWritable
 true
 )
 ;
-rtc
-:
-:
 FakePacketTransport
 fake_rtp
 (
@@ -867,9 +855,6 @@ observer
 transport
 )
 ;
-rtc
-:
-:
 FakePacketTransport
 fake_rtp
 (
@@ -931,9 +916,6 @@ observer
 transport
 )
 ;
-rtc
-:
-:
 FakePacketTransport
 fake_rtp
 (
@@ -1011,9 +993,6 @@ observer
 transport
 )
 ;
-rtc
-:
-:
 FakePacketTransport
 fake_rtp
 (
@@ -1104,9 +1083,6 @@ observer
 transport
 )
 ;
-rtc
-:
-:
 FakePacketTransport
 fake_rtp
 (
@@ -1350,9 +1326,6 @@ observer
 transport
 )
 ;
-rtc
-:
-:
 FakePacketTransport
 fake_rtcp
 (
@@ -1633,9 +1606,6 @@ ExplicitKeyValueConfig
 )
 )
 ;
-rtc
-:
-:
 FakePacketTransport
 fake_rtcp
 (
@@ -1644,9 +1614,6 @@ fake_rtcp
 "
 )
 ;
-rtc
-:
-:
 FakePacketTransport
 fake_rtp
 (
@@ -1819,9 +1786,6 @@ observer
 transport
 )
 ;
-rtc
-:
-:
 FakePacketTransport
 fake_rtp
 (
@@ -1986,9 +1950,6 @@ ExplicitKeyValueConfig
 )
 )
 ;
-rtc
-:
-:
 FakePacketTransport
 fake_rtp
 (
@@ -2170,9 +2131,6 @@ ExplicitKeyValueConfig
 )
 )
 ;
-rtc
-:
-:
 FakePacketTransport
 fake_rtp
 (
@@ -2358,9 +2316,6 @@ packets
 to
 itself
 .
-rtc
-:
-:
 FakePacketTransport
 fake_rtp
 (
@@ -2548,9 +2503,6 @@ ExplicitKeyValueConfig
 )
 )
 ;
-rtc
-:
-:
 FakePacketTransport
 fake_rtp
 (
@@ -2753,9 +2705,6 @@ observer
 transport
 )
 ;
-rtc
-:
-:
 FakePacketTransport
 fake_rtp
 (
@@ -2935,9 +2884,6 @@ Enabled
 )
 )
 ;
-rtc
-:
-:
 FakePacketTransport
 fake_rtp
 (
@@ -3173,9 +3119,6 @@ ExplicitKeyValueConfig
 )
 )
 ;
-rtc
-:
-:
 FakePacketTransport
 fake_rtp
 (

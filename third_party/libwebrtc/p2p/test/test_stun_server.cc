@@ -117,7 +117,7 @@ socket_server
 h
 "
 namespace
-cricket
+webrtc
 {
 std
 :
@@ -132,6 +132,9 @@ function
 <
 void
 (
+webrtc
+:
+:
 TestStunServer
 *
 )
@@ -149,9 +152,6 @@ SocketServer
 *
 ss
 const
-webrtc
-:
-:
 SocketAddress
 &
 addr
@@ -275,6 +275,9 @@ function
 <
 void
 (
+webrtc
+:
+:
 TestStunServer
 *
 )
@@ -321,13 +324,13 @@ TestStunServer
 :
 OnBindingRequest
 (
+cricket
+:
+:
 StunMessage
 *
 msg
 const
-webrtc
-:
-:
 SocketAddress
 &
 remote_addr
@@ -360,9 +363,15 @@ remote_addr
 }
 else
 {
+cricket
+:
+:
 StunMessage
 response
 (
+cricket
+:
+:
 STUN_BINDING_RESPONSE
 msg
 -
@@ -392,4 +401,4 @@ remote_addr
 /
 /
 namespace
-cricket
+webrtc

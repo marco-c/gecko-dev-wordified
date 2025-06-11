@@ -368,6 +368,9 @@ KeyParams
 KeyType
 key_type
 =
+rtc
+:
+:
 KT_DEFAULT
 )
 ;

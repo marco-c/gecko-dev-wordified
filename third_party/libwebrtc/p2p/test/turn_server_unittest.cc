@@ -194,7 +194,7 @@ by
 TurnServer
 .
 namespace
-cricket
+webrtc
 {
 class
 TurnServerConnectionTest
@@ -369,9 +369,6 @@ socket_factory_
 .
 CreateUdpSocket
 (
-webrtc
-:
-:
 SocketAddress
 (
 "
@@ -406,9 +403,6 @@ socket_factory_
 .
 CreateUdpSocket
 (
-webrtc
-:
-:
 SocketAddress
 (
 "
@@ -518,4 +512,4 @@ connection4
 /
 /
 namespace
-cricket
+webrtc

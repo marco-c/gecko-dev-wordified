@@ -10352,9 +10352,6 @@ caller_
 callee_
 ;
 }
-cricket
-:
-:
 TestTurnServer
 *
 CreateTurnServer
@@ -10414,9 +10411,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 TestTurnServer
 >
 turn_server
@@ -10437,9 +10431,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 TestTurnServer
 >
 (
@@ -10501,9 +10492,6 @@ get
 )
 ;
 }
-cricket
-:
-:
 TestTurnCustomizer
 *
 CreateTurnCustomizer
@@ -10515,9 +10503,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 TestTurnCustomizer
 >
 turn_customizer
@@ -10538,9 +10523,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 TestTurnCustomizer
 >
 (
@@ -10611,9 +10593,6 @@ than
 void
 ExpectTurnCustomizerCountersIncremented
 (
-cricket
-:
-:
 TestTurnCustomizer
 *
 turn_customizer
@@ -12175,9 +12154,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 TestTurnServer
 >
 >
@@ -12193,9 +12169,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 TestTurnCustomizer
 >
 >

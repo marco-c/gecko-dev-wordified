@@ -162,7 +162,7 @@ PacketTransportInternal
 NotifyPacketReceivedPassthrougPacketToRegisteredListener
 )
 {
-rtc
+webrtc
 :
 :
 FakePacketTransport
@@ -302,7 +302,7 @@ PacketTransportInternal
 NotifiesOnceOnClose
 )
 {
-rtc
+webrtc
 :
 :
 FakePacketTransport

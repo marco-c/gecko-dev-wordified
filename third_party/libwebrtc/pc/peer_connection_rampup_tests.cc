@@ -2054,9 +2054,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 TestTurnServer
 >
 turn_server
@@ -2095,9 +2092,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 TestTurnServer
 >
 (
@@ -2641,9 +2635,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 TestTurnServer
 >
 >

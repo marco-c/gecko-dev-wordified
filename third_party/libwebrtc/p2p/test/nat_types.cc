@@ -103,7 +103,7 @@ checks
 h
 "
 namespace
-rtc
+webrtc
 {
 class
 SymmetricNAT
@@ -332,4 +332,4 @@ return
 /
 /
 namespace
-rtc
+webrtc

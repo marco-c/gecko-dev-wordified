@@ -420,9 +420,6 @@ std
 :
 make_unique
 <
-rtc
-:
-:
 FakePacketTransport
 >
 (
@@ -438,9 +435,6 @@ std
 :
 make_unique
 <
-rtc
-:
-:
 FakePacketTransport
 >
 (
@@ -1126,9 +1120,6 @@ fake_rtp_packet_transport
 =
 static_cast
 <
-rtc
-:
-:
 FakePacketTransport
 *
 >
@@ -1251,9 +1242,6 @@ fake_rtp_packet_transport
 =
 static_cast
 <
-rtc
-:
-:
 FakePacketTransport
 *
 >
@@ -1477,9 +1465,6 @@ fake_rtp_packet_transport
 =
 static_cast
 <
-rtc
-:
-:
 FakePacketTransport
 *
 >
@@ -1577,9 +1562,6 @@ fake_rtp_packet_transport
 =
 static_cast
 <
-rtc
-:
-:
 FakePacketTransport
 *
 >
@@ -2098,9 +2080,6 @@ fake_rtp_packet_transport
 =
 static_cast
 <
-rtc
-:
-:
 FakePacketTransport
 *
 >
@@ -2236,9 +2215,6 @@ fake_rtp_packet_transport
 =
 static_cast
 <
-rtc
-:
-:
 FakePacketTransport
 *
 >
@@ -2495,9 +2471,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 FakePacketTransport
 >
 rtp_packet_transport1_
@@ -2507,9 +2480,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 FakePacketTransport
 >
 rtp_packet_transport2_
@@ -2914,9 +2884,6 @@ std
 :
 make_unique
 <
-rtc
-:
-:
 FakePacketTransport
 >
 (
