@@ -60,8 +60,6 @@ importlib
 .
 util
 import
-json
-import
 os
 import
 subprocess
@@ -96,6 +94,10 @@ mozbuild
 telemetry
 import
 filter_args
+from
+mozfile
+import
+json
 from
 mozversioncontrol
 import
