@@ -12879,7 +12879,7 @@ pixels
 .
 static
 gfxFloat
-GetSnappedBaselineY
+GetMaybeSnappedBaselineY
 (
 nsIFrame
 *
@@ -12928,7 +12928,7 @@ caller
 .
 static
 gfxFloat
-GetSnappedBaselineX
+GetMaybeSnappedBaselineX
 (
 nsIFrame
 *
