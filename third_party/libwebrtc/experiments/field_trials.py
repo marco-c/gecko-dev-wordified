@@ -1147,26 +1147,6 @@ FieldTrial
 '
 WebRTC
 -
-Video
--
-SimulcastIndependentFrameIds
-'
-               
-42226243
-               
-date
-(
-2024
-12
-1
-)
-)
-    
-FieldTrial
-(
-'
-WebRTC
--
 VideoEncoderSettings
 '
                
