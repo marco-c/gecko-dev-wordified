@@ -189,9 +189,15 @@ struct
 ifaddrs
 *
 interface
+webrtc
+:
+:
 InterfaceAddress
 *
 ipaddress
+webrtc
+:
+:
 IPAddress
 *
 mask

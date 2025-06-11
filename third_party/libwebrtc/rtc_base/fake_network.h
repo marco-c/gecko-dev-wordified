@@ -696,9 +696,15 @@ prefix_length
 kFakeIPv6NetworkPrefixLength
 ;
 }
+webrtc
+:
+:
 IPAddress
 prefix
 =
+webrtc
+:
+:
 TruncateIP
 (
 it

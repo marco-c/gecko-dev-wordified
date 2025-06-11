@@ -112,7 +112,7 @@ gtest
 h
 "
 namespace
-rtc
+webrtc
 {
 static
 const
@@ -8480,4 +8480,4 @@ addr5
 /
 /
 namespace
-rtc
+webrtc

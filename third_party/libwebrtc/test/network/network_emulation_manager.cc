@@ -839,9 +839,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 IPAddress
 >
 ip
@@ -2696,9 +2693,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 IPAddress
 >
 NetworkEmulationManagerImpl
@@ -2731,9 +2725,6 @@ i
 +
 )
 {
-rtc
-:
-:
 IPAddress
 ip
 (

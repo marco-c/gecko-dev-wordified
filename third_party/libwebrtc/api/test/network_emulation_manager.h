@@ -597,9 +597,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 IPAddress
 >
 ip

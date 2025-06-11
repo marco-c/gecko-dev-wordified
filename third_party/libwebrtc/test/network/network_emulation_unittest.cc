@@ -1422,9 +1422,6 @@ std
 :
 set
 <
-rtc
-:
-:
 IPAddress
 >
 ips
@@ -1535,9 +1532,6 @@ std
 :
 set
 <
-rtc
-:
-:
 IPAddress
 >
 ips
@@ -2295,9 +2289,6 @@ bytes
 0l
 )
 ;
-rtc
-:
-:
 IPAddress
 bob_ip
 =
@@ -2313,9 +2304,6 @@ std
 :
 map
 <
-rtc
-:
-:
 IPAddress
 EmulatedNetworkIncomingStats
 >
@@ -2402,9 +2390,6 @@ std
 :
 map
 <
-rtc
-:
-:
 IPAddress
 EmulatedNetworkOutgoingStats
 >
@@ -2719,9 +2704,6 @@ IsFinite
 )
 )
 ;
-rtc
-:
-:
 IPAddress
 alice_ip
 =
@@ -2737,9 +2719,6 @@ std
 :
 map
 <
-rtc
-:
-:
 IPAddress
 EmulatedNetworkIncomingStats
 >
@@ -2826,9 +2805,6 @@ std
 :
 map
 <
-rtc
-:
-:
 IPAddress
 EmulatedNetworkOutgoingStats
 >
@@ -4338,9 +4314,6 @@ EmulatedNetworkStats
 st
 )
 {
-rtc
-:
-:
 IPAddress
 bob_ip
 =
@@ -4356,9 +4329,6 @@ std
 :
 map
 <
-rtc
-:
-:
 IPAddress
 EmulatedNetworkIncomingStats
 >
@@ -4383,9 +4353,6 @@ std
 :
 map
 <
-rtc
-:
-:
 IPAddress
 EmulatedNetworkOutgoingStats
 >
@@ -5853,9 +5820,6 @@ endpoint_config
 .
 ip
 =
-rtc
-:
-:
 IPAddress
 (
 kEndpointIp
@@ -6032,9 +5996,6 @@ endpoint_config
 .
 ip
 =
-rtc
-:
-:
 IPAddress
 (
 kDestEndpointIp

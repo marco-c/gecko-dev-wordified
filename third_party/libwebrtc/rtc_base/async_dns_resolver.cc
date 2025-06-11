@@ -242,9 +242,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 IPAddress
 >
 &
@@ -607,9 +604,6 @@ ai_family
 family
 )
 {
-rtc
-:
-:
 IPAddress
 ip
 ;
@@ -1161,9 +1155,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 IPAddress
 >
 addresses

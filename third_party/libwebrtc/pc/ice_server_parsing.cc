@@ -2254,9 +2254,6 @@ empty
 )
 )
 {
-rtc
-:
-:
 IPAddress
 ip
 ;

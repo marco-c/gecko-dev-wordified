@@ -167,7 +167,7 @@ function
 void
 (
 const
-rtc
+webrtc
 :
 :
 IPAddress
@@ -271,9 +271,6 @@ void
 CreateNameForAddress
 (
 const
-rtc
-:
-:
 IPAddress
 &
 addr
@@ -356,9 +353,6 @@ void
 RemoveNameForAddress
 (
 const
-rtc
-:
-:
 IPAddress
 &
 addr

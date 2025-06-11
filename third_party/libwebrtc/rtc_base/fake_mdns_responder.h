@@ -226,9 +226,6 @@ void
 CreateNameForAddress
 (
 const
-rtc
-:
-:
 IPAddress
 &
 addr
@@ -322,9 +319,6 @@ void
 RemoveNameForAddress
 (
 const
-rtc
-:
-:
 IPAddress
 &
 addr
@@ -396,9 +390,6 @@ result
 )
 ;
 }
-rtc
-:
-:
 IPAddress
 GetMappedAddressForName
 (
@@ -438,9 +429,6 @@ first
 }
 }
 return
-rtc
-:
-:
 IPAddress
 (
 )
@@ -458,9 +446,6 @@ std
 :
 map
 <
-rtc
-:
-:
 IPAddress
 std
 :

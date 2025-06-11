@@ -4314,7 +4314,7 @@ configured
 to
 use
 .
-rtc
+webrtc
 :
 :
 IPAddress
@@ -4391,12 +4391,18 @@ AF_INET6
 &
 &
 (
+webrtc
+:
+:
 IPIsLinkLocal
 (
 ip
 )
 !
 =
+webrtc
+:
+:
 IPIsLinkLocal
 (
 addr

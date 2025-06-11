@@ -620,9 +620,6 @@ port
 ;
 if
 (
-rtc
-:
-:
 IPIsUnspec
 (
 connection_addr

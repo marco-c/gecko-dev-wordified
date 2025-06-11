@@ -1251,6 +1251,9 @@ preference
 int
 addr_pref
 =
+webrtc
+:
+:
 IPAddressPrecedence
 (
 address_
@@ -1658,7 +1661,7 @@ if
 use_hostname_address
 )
 {
-rtc
+webrtc
 :
 :
 IPAddress
@@ -1724,6 +1727,9 @@ redacted_addr
 else
 if
 (
+webrtc
+:
+:
 IPFromString
 (
 address

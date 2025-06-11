@@ -724,9 +724,6 @@ std
 :
 map
 <
-rtc
-:
-:
 IPAddress
 std
 :

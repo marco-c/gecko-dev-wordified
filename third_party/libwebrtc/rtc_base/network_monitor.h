@@ -114,6 +114,15 @@ include
 "
 rtc_base
 /
+ip_address
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 network_constants
 .
 h
@@ -121,9 +130,6 @@ h
 namespace
 rtc
 {
-class
-IPAddress
-;
 enum
 class
 NetworkBindingResult
@@ -313,6 +319,9 @@ BindSocketToNetwork
 int
 socket_fd
 const
+webrtc
+:
+:
 IPAddress
 &
 address
@@ -758,6 +767,9 @@ socket_fd
 *
 /
 const
+webrtc
+:
+:
 IPAddress
 &
 /

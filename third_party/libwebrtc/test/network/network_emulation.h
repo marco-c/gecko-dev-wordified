@@ -595,9 +595,6 @@ stats_gathering_mode
 explicit
 EmulatedNetworkStatsBuilder
 (
-rtc
-:
-:
 IPAddress
 local_ip
 EmulatedNetworkStatsGatheringMode
@@ -618,9 +615,6 @@ packet
 void
 OnPacketDropped
 (
-rtc
-:
-:
 IPAddress
 source_ip
 DataSize
@@ -668,9 +662,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 IPAddress
 >
 local_addresses_
@@ -687,9 +678,6 @@ std
 :
 map
 <
-rtc
-:
-:
 IPAddress
 std
 :
@@ -710,9 +698,6 @@ std
 :
 map
 <
-rtc
-:
-:
 IPAddress
 std
 :
@@ -1076,9 +1061,6 @@ void
 SetReceiver
 (
 const
-rtc
-:
-:
 IPAddress
 &
 dest_ip
@@ -1091,9 +1073,6 @@ void
 RemoveReceiver
 (
 const
-rtc
-:
-:
 IPAddress
 &
 dest_ip
@@ -1209,9 +1188,6 @@ std
 :
 map
 <
-rtc
-:
-:
 IPAddress
 EmulatedNetworkReceiverInterface
 *
@@ -1485,9 +1461,6 @@ void
 CreateRoute
 (
 const
-rtc
-:
-:
 IPAddress
 &
 receiver_ip
@@ -1510,9 +1483,6 @@ void
 ClearRoute
 (
 const
-rtc
-:
-:
 IPAddress
 &
 receiver_ip
@@ -1601,9 +1571,6 @@ Options
 uint64_t
 id
 const
-rtc
-:
-:
 IPAddress
 &
 ip
@@ -1638,9 +1605,6 @@ local
 IP
 address
 .
-rtc
-:
-:
 IPAddress
 ip
 ;
@@ -1905,9 +1869,6 @@ UnbindDefaultReceiver
 )
 override
 ;
-rtc
-:
-:
 IPAddress
 GetPeerLocalAddress
 (
@@ -2238,9 +2199,6 @@ EmulatedEndpointImpl
 LookupByLocalAddress
 (
 const
-rtc
-:
-:
 IPAddress
 &
 local_ip

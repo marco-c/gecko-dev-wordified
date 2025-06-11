@@ -1297,9 +1297,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 IPAddress
 >
 local_addresses
@@ -1348,9 +1345,6 @@ std
 :
 map
 <
-rtc
-:
-:
 IPAddress
 EmulatedNetworkOutgoingStats
 >
@@ -1361,9 +1355,6 @@ std
 :
 map
 <
-rtc
-:
-:
 IPAddress
 EmulatedNetworkIncomingStats
 >
@@ -1887,9 +1878,6 @@ UnbindDefaultReceiver
 0
 ;
 virtual
-rtc
-:
-:
 IPAddress
 GetPeerLocalAddress
 (

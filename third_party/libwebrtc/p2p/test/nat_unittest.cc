@@ -1580,6 +1580,9 @@ SocketAddress
 &
 src
 const
+webrtc
+:
+:
 IPAddress
 &
 dst
@@ -2051,6 +2054,9 @@ networks
 )
 {
 const
+webrtc
+:
+:
 IPAddress
 &
 ip
@@ -2323,6 +2329,9 @@ public
 Expose
 this
 publicly
+webrtc
+:
+:
 IPAddress
 GetNextIP
 (

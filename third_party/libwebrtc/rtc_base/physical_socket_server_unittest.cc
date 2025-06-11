@@ -542,6 +542,9 @@ BindSocketToNetwork
 (
 int
 const
+webrtc
+:
+:
 IPAddress
 &
 )
@@ -718,6 +721,9 @@ void
 ConnectInternalAcceptError
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -727,6 +733,9 @@ void
 WritableAfterPartialWrite
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -1075,6 +1084,9 @@ PhysicalSocketTest
 ConnectInternalAcceptError
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -1932,6 +1944,9 @@ PhysicalSocketTest
 WritableAfterPartialWrite
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback

@@ -1423,6 +1423,9 @@ copied_bind_addr
 .
 SetIP
 (
+webrtc
+:
+:
 GetAnyIP
 (
 copied_bind_addr

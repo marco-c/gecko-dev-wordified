@@ -4179,6 +4179,9 @@ delete
 connections_
 ;
 }
+webrtc
+:
+:
 IPAddress
 VirtualSocketServer
 :
@@ -4197,6 +4200,9 @@ family
 AF_INET
 )
 {
+webrtc
+:
+:
 IPAddress
 next_ip
 (
@@ -4238,6 +4244,9 @@ family
 AF_INET6
 )
 {
+webrtc
+:
+:
 IPAddress
 next_ip
 (
@@ -4273,6 +4282,9 @@ next_ip
 ;
 }
 return
+webrtc
+:
+:
 IPAddress
 (
 )
@@ -4568,14 +4580,14 @@ VirtualSocketServer
 SetAlternativeLocalAddress
 (
 const
-rtc
+webrtc
 :
 :
 IPAddress
 &
 address
 const
-rtc
+webrtc
 :
 :
 IPAddress
@@ -4830,6 +4842,9 @@ point
 RTC_DCHECK
 (
 !
+webrtc
+:
+:
 IPIsUnspec
 (
 addr
@@ -4930,6 +4945,9 @@ app_addr
 RTC_DCHECK
 (
 !
+webrtc
+:
+:
 IPIsUnspec
 (
 app_addr
@@ -5184,6 +5202,9 @@ it
 second
 ;
 }
+webrtc
+:
+:
 IPAddress
 default_ip
 =
@@ -5203,6 +5224,9 @@ family
 if
 (
 !
+webrtc
+:
+:
 IPIsUnspec
 (
 default_ip
@@ -7050,6 +7074,9 @@ GetLocalAddress
 (
 )
 ;
+webrtc
+:
+:
 IPAddress
 default_ip
 =
@@ -7076,6 +7103,9 @@ IsAnyIP
 &
 &
 !
+webrtc
+:
+:
 IPIsUnspec
 (
 default_ip
@@ -8560,6 +8590,9 @@ return
 false
 ;
 }
+webrtc
+:
+:
 IPAddress
 local_ip
 =
@@ -8574,6 +8607,9 @@ ipaddr
 (
 )
 ;
+webrtc
+:
+:
 IPAddress
 remote_ip
 =
@@ -8588,6 +8624,9 @@ ipaddr
 (
 )
 ;
+webrtc
+:
+:
 IPAddress
 local_normalized
 =
@@ -8597,6 +8636,9 @@ Normalized
 (
 )
 ;
+webrtc
+:
+:
 IPAddress
 remote_normalized
 =
@@ -8716,6 +8758,9 @@ AF_INET
 remote_v6_only
 &
 &
+webrtc
+:
+:
 IPIsAny
 (
 remote_ip
@@ -8766,6 +8811,9 @@ AF_INET
 local_v6_only
 &
 &
+webrtc
+:
+:
 IPIsAny
 (
 local_ip
@@ -8853,6 +8901,9 @@ return
 false
 ;
 }
+webrtc
+:
+:
 IPAddress
 VirtualSocketServer
 :
@@ -8888,6 +8939,9 @@ default_source_address_v6_
 ;
 }
 return
+webrtc
+:
+:
 IPAddress
 (
 )
@@ -8900,6 +8954,9 @@ VirtualSocketServer
 SetDefaultSourceAddress
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 from_addr
@@ -8908,6 +8965,9 @@ from_addr
 RTC_DCHECK
 (
 !
+webrtc
+:
+:
 IPIsAny
 (
 from_addr

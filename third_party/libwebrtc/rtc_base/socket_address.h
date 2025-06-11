@@ -313,6 +313,9 @@ to
 SocketAddress
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 ip
@@ -476,6 +479,9 @@ void
 SetIP
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 ip
@@ -596,6 +602,9 @@ void
 SetResolvedIP
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 ip
@@ -691,6 +700,9 @@ ip
 const
 ;
 const
+webrtc
+:
+:
 IPAddress
 &
 ipaddr
@@ -1518,6 +1530,9 @@ std
 string
 hostname_
 ;
+webrtc
+:
+:
 IPAddress
 ip_
 ;

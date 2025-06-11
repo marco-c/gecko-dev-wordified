@@ -474,9 +474,6 @@ std
 :
 map
 <
-rtc
-:
-:
 IPAddress
 std
 :
@@ -513,9 +510,6 @@ std
 :
 map
 <
-rtc
-:
-:
 IPAddress
 std
 :
@@ -1814,9 +1808,6 @@ incoming_stats_per_source
 )
 {
 const
-rtc
-:
-:
 IPAddress
 &
 source_ip

@@ -334,9 +334,6 @@ rtc
 :
 SocketAddress
 (
-rtc
-:
-:
 GetAnyIP
 (
 AF_INET

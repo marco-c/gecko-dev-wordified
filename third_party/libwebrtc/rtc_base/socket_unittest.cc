@@ -1201,6 +1201,9 @@ bool
 IsUnspecOrEmptyIP
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 address
@@ -1214,6 +1217,9 @@ defined
 WEBRTC_WIN
 )
 return
+webrtc
+:
+:
 IPIsAny
 (
 address
@@ -1241,6 +1247,9 @@ SocketTest
 ConnectInternal
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -1847,6 +1856,9 @@ SocketTest
 ConnectWithDnsLookupInternal
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -2368,6 +2380,9 @@ SocketTest
 ConnectFailInternal
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -2675,6 +2690,9 @@ accept_addr
 ;
 EXPECT_EQ
 (
+webrtc
+:
+:
 IPAddress
 (
 )
@@ -2693,6 +2711,9 @@ SocketTest
 ConnectWithDnsLookupFailInternal
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -3077,6 +3098,9 @@ SocketTest
 ConnectWithClosedSocketInternal
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -3258,6 +3282,9 @@ SocketTest
 ConnectWhileNotClosedInternal
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -3762,6 +3789,9 @@ SocketTest
 ServerCloseDuringConnectInternal
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -4052,6 +4082,9 @@ SocketTest
 ClientCloseDuringConnectInternal
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -4440,6 +4473,9 @@ SocketTest
 ServerCloseInternal
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -5210,6 +5246,9 @@ SocketTest
 CloseInClosedCallbackInternal
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -5844,6 +5883,9 @@ SocketTest
 DeleteInReadCallbackInternal
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -6085,6 +6127,9 @@ SocketTest
 SocketServerWaitInternal
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -6664,6 +6709,9 @@ SocketTest
 TcpInternal
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -7766,6 +7814,9 @@ SocketTest
 SingleFlowControlCallbackInternal
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -8459,6 +8510,9 @@ SocketTest
 UdpInternal
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -8895,6 +8949,9 @@ SocketTest
 UdpReadyToSend
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -9335,6 +9392,9 @@ SocketTest
 GetSetOptionsInternal
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -10207,6 +10267,9 @@ SocketTest
 SocketRecvTimestamp
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -10543,6 +10606,9 @@ SocketTest
 UdpSocketRecvTimestampUseRtcEpoch
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback
@@ -10844,6 +10910,9 @@ SocketTest
 SocketSendRecvWithEcn
 (
 const
+webrtc
+:
+:
 IPAddress
 &
 loopback

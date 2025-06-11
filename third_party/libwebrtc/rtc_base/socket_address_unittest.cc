@@ -315,6 +315,9 @@ IsUnresolvedIP
 ;
 EXPECT_EQ
 (
+webrtc
+:
+:
 IPAddress
 (
 )
@@ -356,6 +359,9 @@ TestIPPortCtor
 SocketAddress
 addr
 (
+webrtc
+:
+:
 IPAddress
 (
 0x01020304
@@ -374,6 +380,9 @@ IsUnresolvedIP
 ;
 EXPECT_EQ
 (
+webrtc
+:
+:
 IPAddress
 (
 0x01020304U
@@ -459,6 +468,9 @@ IsUnresolvedIP
 ;
 EXPECT_EQ
 (
+webrtc
+:
+:
 IPAddress
 (
 0x01020304U
@@ -532,6 +544,9 @@ kTestV6AddrString
 1234
 )
 ;
+webrtc
+:
+:
 IPAddress
 tocheck
 (
@@ -641,6 +656,9 @@ IsUnresolvedIP
 ;
 EXPECT_EQ
 (
+webrtc
+:
+:
 IPAddress
 (
 0xFFFFFFFFU
@@ -731,6 +749,9 @@ IsUnresolvedIP
 ;
 EXPECT_EQ
 (
+webrtc
+:
+:
 IPAddress
 (
 )
@@ -824,6 +845,9 @@ IsUnresolvedIP
 ;
 EXPECT_EQ
 (
+webrtc
+:
+:
 IPAddress
 (
 0x01020304U
@@ -908,6 +932,9 @@ from
 SocketAddress
 addr
 (
+webrtc
+:
+:
 IPAddress
 (
 0x88888888
@@ -930,6 +957,9 @@ IsUnresolvedIP
 ;
 EXPECT_EQ
 (
+webrtc
+:
+:
 IPAddress
 (
 0x01020304U
@@ -999,6 +1029,9 @@ TestSetIPPort
 SocketAddress
 addr
 (
+webrtc
+:
+:
 IPAddress
 (
 0x88888888
@@ -1010,6 +1043,9 @@ addr
 .
 SetIP
 (
+webrtc
+:
+:
 IPAddress
 (
 0x01020304
@@ -1034,6 +1070,9 @@ IsUnresolvedIP
 ;
 EXPECT_EQ
 (
+webrtc
+:
+:
 IPAddress
 (
 0x01020304U
@@ -1096,6 +1135,9 @@ TestSetIPFromString
 SocketAddress
 addr
 (
+webrtc
+:
+:
 IPAddress
 (
 0x88888888
@@ -1136,6 +1178,9 @@ IsUnresolvedIP
 ;
 EXPECT_EQ
 (
+webrtc
+:
+:
 IPAddress
 (
 0x01020304U
@@ -1205,6 +1250,9 @@ TestSetIPFromHostname
 SocketAddress
 addr
 (
+webrtc
+:
+:
 IPAddress
 (
 0x88888888
@@ -1243,6 +1291,9 @@ IsUnresolvedIP
 ;
 EXPECT_EQ
 (
+webrtc
+:
+:
 IPAddress
 (
 )
@@ -1301,6 +1352,9 @@ addr
 .
 SetResolvedIP
 (
+webrtc
+:
+:
 IPAddress
 (
 0x01020304
@@ -1318,6 +1372,9 @@ IsUnresolvedIP
 ;
 EXPECT_EQ
 (
+webrtc
+:
+:
 IPAddress
 (
 0x01020304U
@@ -1404,6 +1461,9 @@ IsUnresolvedIP
 ;
 EXPECT_EQ
 (
+webrtc
+:
+:
 IPAddress
 (
 0x01020304U
@@ -1561,6 +1621,9 @@ IsUnresolvedIP
 ;
 EXPECT_EQ
 (
+webrtc
+:
+:
 IPAddress
 (
 )
@@ -1670,6 +1733,9 @@ IsUnresolvedIP
 ;
 EXPECT_EQ
 (
+webrtc
+:
+:
 IPAddress
 (
 0x01020304U
@@ -1777,6 +1843,9 @@ IsUnresolvedIP
 ;
 EXPECT_EQ
 (
+webrtc
+:
+:
 IPAddress
 (
 0x01020304U
@@ -1864,6 +1933,9 @@ IsUnresolvedIP
 ;
 EXPECT_EQ
 (
+webrtc
+:
+:
 IPAddress
 (
 kMappedV4Addr
@@ -1983,6 +2055,9 @@ IsUnresolvedIP
 ;
 EXPECT_EQ
 (
+webrtc
+:
+:
 IPAddress
 (
 kTestV6Addr
@@ -2070,6 +2145,9 @@ IsUnresolvedIP
 ;
 EXPECT_EQ
 (
+webrtc
+:
+:
 IPAddress
 (
 kTestV6Addr
@@ -2963,6 +3041,9 @@ ToSensitiveNameAndAddressString
 SocketAddress
 ipv4OnlyAddress
 (
+webrtc
+:
+:
 IPAddress
 (
 0x01020304
@@ -3032,6 +3113,9 @@ hostAndIpv4
 .
 SetResolvedIP
 (
+webrtc
+:
+:
 IPAddress
 (
 0x01020304
@@ -3085,6 +3169,9 @@ ToSensitiveNameAndAddressString
 SocketAddress
 ipv6OnlyAddress
 (
+webrtc
+:
+:
 IPAddress
 (
 kTestV6Addr
@@ -3117,6 +3204,9 @@ hostAndIpv6
 .
 SetResolvedIP
 (
+webrtc
+:
+:
 IPAddress
 (
 kTestV6Addr

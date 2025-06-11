@@ -704,7 +704,7 @@ Network
 Adapter
 1
 "
-rtc
+webrtc
 :
 :
 IPAddress
@@ -718,7 +718,7 @@ ipv4_network1
 .
 AddIP
 (
-rtc
+webrtc
 :
 :
 IPAddress

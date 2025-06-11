@@ -692,7 +692,7 @@ webrtc
 ScopedTaskSafety
 pending_delete
 ;
-rtc
+webrtc
 :
 :
 IPAddress
@@ -812,7 +812,7 @@ bool
 HasPermission
 (
 const
-rtc
+webrtc
 :
 :
 IPAddress
@@ -824,7 +824,7 @@ void
 AddPermission
 (
 const
-rtc
+webrtc
 :
 :
 IPAddress
@@ -839,7 +839,7 @@ iterator
 FindPermission
 (
 const
-rtc
+webrtc
 :
 :
 IPAddress

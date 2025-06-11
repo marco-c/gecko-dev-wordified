@@ -9653,7 +9653,7 @@ back
 .
 AddIP
 (
-rtc
+webrtc
 :
 :
 InterfaceAddress
@@ -9663,7 +9663,7 @@ kLocalIPv6Addr
 ipaddr
 (
 )
-rtc
+webrtc
 :
 :
 IPV6_ADDRESS_FLAG_TEMPORARY
