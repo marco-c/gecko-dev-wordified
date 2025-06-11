@@ -2030,9 +2030,9 @@ receiver_lock_
 Mutex
 receiver_lock_
 ;
-RTC_NO_UNIQUE_ADDRESS
-SequenceChecker
-enabled_state_checker_
+mutable
+Mutex
+enable_state_mutex_
 ;
 const
 Options
@@ -2042,7 +2042,7 @@ bool
 is_enabled_
 RTC_GUARDED_BY
 (
-enabled_state_checker_
+enable_state_mutex_
 )
 ;
 Clock
