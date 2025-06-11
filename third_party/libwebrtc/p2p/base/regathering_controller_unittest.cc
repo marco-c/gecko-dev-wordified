@@ -951,9 +951,6 @@ RegatheringControllerTest
 IceRegatheringDoesNotOccurIfSessionNotCleared
 )
 {
-rtc
-:
-:
 ScopedFakeClock
 clock
 ;
@@ -1037,9 +1034,6 @@ RegatheringControllerTest
 IceRegatheringRepeatsAsScheduled
 )
 {
-rtc
-:
-:
 ScopedFakeClock
 clock
 ;
@@ -1225,9 +1219,6 @@ RegatheringControllerTest
 ScheduleOfIceRegatheringOnFailedNetworksCanBeReplaced
 )
 {
-rtc
-:
-:
 ScopedFakeClock
 clock
 ;

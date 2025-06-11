@@ -4760,9 +4760,6 @@ PacketRouterRembTest
 ChangeSendRtpModuleChangeRembSender
 )
 {
-rtc
-:
-:
 ScopedFakeClock
 clock
 ;
@@ -4915,9 +4912,6 @@ PacketRouterRembTest
 NoSendingRtpModule
 )
 {
-rtc
-:
-:
 ScopedFakeClock
 clock
 ;
@@ -5030,9 +5024,6 @@ PacketRouterRembTest
 NonCandidateSendRtpModuleNotUsedForRemb
 )
 {
-rtc
-:
-:
 ScopedFakeClock
 clock
 ;
@@ -5124,9 +5115,6 @@ PacketRouterRembTest
 CandidateSendRtpModuleUsedForRemb
 )
 {
-rtc
-:
-:
 ScopedFakeClock
 clock
 ;
@@ -5213,9 +5201,6 @@ PacketRouterRembTest
 NonCandidateReceiveRtpModuleNotUsedForRemb
 )
 {
-rtc
-:
-:
 ScopedFakeClock
 clock
 ;
@@ -5307,9 +5292,6 @@ PacketRouterRembTest
 CandidateReceiveRtpModuleUsedForRemb
 )
 {
-rtc
-:
-:
 ScopedFakeClock
 clock
 ;
@@ -5396,9 +5378,6 @@ PacketRouterRembTest
 SendCandidatePreferredOverReceiveCandidate_SendModuleAddedFirst
 )
 {
-rtc
-:
-:
 ScopedFakeClock
 clock
 ;
@@ -5545,9 +5524,6 @@ PacketRouterRembTest
 SendCandidatePreferredOverReceiveCandidate_ReceiveModuleAddedFirst
 )
 {
-rtc
-:
-:
 ScopedFakeClock
 clock
 ;
@@ -5705,9 +5681,6 @@ PacketRouterRembTest
 ReceiveModuleTakesOverWhenLastSendModuleRemoved
 )
 {
-rtc
-:
-:
 ScopedFakeClock
 clock
 ;

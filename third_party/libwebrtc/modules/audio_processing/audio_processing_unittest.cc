@@ -11115,9 +11115,6 @@ Format
 format
 )
 {
-rtc
-:
-:
 ScopedFakeClock
 fake_clock
 ;

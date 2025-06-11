@@ -573,7 +573,9 @@ cricket
 Candidates
 ;
 using
-cricket
+:
+:
+webrtc
 :
 :
 FakeDtlsTransport
@@ -4643,9 +4645,6 @@ ok
 )
 )
 ;
-rtc
-:
-:
 FakeSSLCertificate
 fake_certificate
 (

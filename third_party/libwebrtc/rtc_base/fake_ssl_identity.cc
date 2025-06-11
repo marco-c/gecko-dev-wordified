@@ -136,7 +136,7 @@ message_digest
 h
 "
 namespace
-rtc
+webrtc
 {
 FakeSSLCertificate
 :
@@ -156,6 +156,9 @@ pem_string
 )
 digest_algorithm_
 (
+rtc
+:
+:
 DIGEST_SHA_1
 )
 expiration_time_
@@ -192,6 +195,9 @@ std
 :
 unique_ptr
 <
+rtc
+:
+:
 SSLCertificate
 >
 FakeSSLCertificate
@@ -252,11 +258,17 @@ der_string
 ;
 RTC_CHECK
 (
+rtc
+:
+:
 SSLIdentity
 :
 :
 PemToDer
 (
+rtc
+:
+:
 kPemTypeCertificate
 pem_string_
 &
@@ -465,6 +477,9 @@ std
 :
 unique_ptr
 <
+rtc
+:
+:
 SSLCertificate
 >
 >
@@ -518,6 +533,9 @@ std
 :
 make_unique
 <
+rtc
+:
+:
 SSLCertChain
 >
 (
@@ -549,6 +567,9 @@ std
 :
 make_unique
 <
+rtc
+:
+:
 SSLCertChain
 >
 (
@@ -600,6 +621,9 @@ std
 :
 unique_ptr
 <
+rtc
+:
+:
 SSLIdentity
 >
 FakeSSLIdentity
@@ -625,6 +649,9 @@ this
 ;
 }
 const
+rtc
+:
+:
 SSLCertificate
 &
 FakeSSLIdentity
@@ -646,6 +673,9 @@ Get
 ;
 }
 const
+rtc
+:
+:
 SSLCertChain
 &
 FakeSSLIdentity
@@ -726,6 +756,9 @@ operator
 =
 (
 const
+rtc
+:
+:
 SSLIdentity
 &
 other
@@ -749,4 +782,4 @@ false
 /
 /
 namespace
-rtc
+webrtc

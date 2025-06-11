@@ -518,6 +518,9 @@ std
 :
 make_unique
 <
+webrtc
+:
+:
 FakeFrameSource
 >
 (
@@ -1072,6 +1075,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 FakeFrameSource
 >
 frame_source_

@@ -373,9 +373,6 @@ rtc
 AsyncPacketSocket
 >
 socket
-rtc
-:
-:
 ThreadProcessingFakeClock
 *
 fake_clock
@@ -787,9 +784,6 @@ int
 ms
 )
 ;
-rtc
-:
-:
 ThreadProcessingFakeClock
 *
 fake_clock_

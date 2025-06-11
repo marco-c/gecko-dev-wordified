@@ -2311,13 +2311,13 @@ certificate
 )
 ;
 }
-rtc
+webrtc
 :
 :
 ScopedFakeClock
 fake_clock_
 ;
-rtc
+webrtc
 :
 :
 FakeNetworkManager

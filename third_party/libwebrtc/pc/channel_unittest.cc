@@ -1582,7 +1582,7 @@ fake_rtp_dtls_transport1_
 reset
 (
 new
-cricket
+webrtc
 :
 :
 FakeDtlsTransport
@@ -1613,7 +1613,7 @@ fake_rtcp_dtls_transport1_
 reset
 (
 new
-cricket
+webrtc
 :
 :
 FakeDtlsTransport
@@ -1771,7 +1771,7 @@ fake_rtp_dtls_transport2_
 reset
 (
 new
-cricket
+webrtc
 :
 :
 FakeDtlsTransport
@@ -1802,7 +1802,7 @@ fake_rtcp_dtls_transport2_
 reset
 (
 new
-cricket
+webrtc
 :
 :
 FakeDtlsTransport
@@ -11531,7 +11531,7 @@ std
 :
 unique_ptr
 <
-cricket
+webrtc
 :
 :
 FakeDtlsTransport
@@ -11543,7 +11543,7 @@ std
 :
 unique_ptr
 <
-cricket
+webrtc
 :
 :
 FakeDtlsTransport
@@ -11555,7 +11555,7 @@ std
 :
 unique_ptr
 <
-cricket
+webrtc
 :
 :
 FakeDtlsTransport
@@ -11567,7 +11567,7 @@ std
 :
 unique_ptr
 <
-cricket
+webrtc
 :
 :
 FakeDtlsTransport

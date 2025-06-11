@@ -3436,6 +3436,9 @@ static
 void
 DelayedPostsWithIdenticalTimesAreProcessedInFifoOrder
 (
+webrtc
+:
+:
 FakeClock
 &
 clock
@@ -3696,6 +3699,9 @@ ThreadTest
 DelayedPostsWithIdenticalTimesAreProcessedInFifoOrder
 )
 {
+webrtc
+:
+:
 ScopedBaseFakeClock
 clock
 ;
@@ -5542,6 +5548,9 @@ ThreadPostDelayedTaskTest
 InvokesInDelayOrder
 )
 {
+webrtc
+:
+:
 ScopedFakeClock
 clock
 ;

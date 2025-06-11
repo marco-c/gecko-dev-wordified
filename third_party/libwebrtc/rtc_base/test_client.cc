@@ -298,9 +298,6 @@ rtc
 AsyncPacketSocket
 >
 socket
-rtc
-:
-:
 ThreadProcessingFakeClock
 *
 fake_clock

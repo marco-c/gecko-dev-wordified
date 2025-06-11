@@ -1043,9 +1043,6 @@ ControllerManagerTest
 DoNotReorderBeforeMinReordingTime
 )
 {
-rtc
-:
-:
 ScopedFakeClock
 fake_clock
 ;
@@ -1164,9 +1161,6 @@ ControllerManagerTest
 ReorderBeyondMinReordingTimeAndMinDistance
 )
 {
-rtc
-:
-:
 ScopedFakeClock
 fake_clock
 ;
@@ -1309,9 +1303,6 @@ ControllerManagerTest
 DoNotReorderIfNetworkMetricsChangeTooSmall
 )
 {
-rtc
-:
-:
 ScopedFakeClock
 fake_clock
 ;
@@ -2375,9 +2366,6 @@ kClockInitialTimeMs
 =
 12345678
 ;
-rtc
-:
-:
 ScopedFakeClock
 fake_clock
 ;
@@ -2710,9 +2698,6 @@ ControllerManagerTest
 CreateFromConfigStringAndCheckReordering
 )
 {
-rtc
-:
-:
 ScopedFakeClock
 fake_clock
 ;

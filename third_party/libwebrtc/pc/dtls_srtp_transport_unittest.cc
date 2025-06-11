@@ -315,12 +315,6 @@ using
 cricket
 :
 :
-FakeDtlsTransport
-;
-using
-cricket
-:
-:
 FakeIceTransport
 ;
 using
@@ -328,6 +322,14 @@ webrtc
 :
 :
 DtlsSrtpTransport
+;
+using
+:
+:
+webrtc
+:
+:
+FakeDtlsTransport
 ;
 using
 webrtc

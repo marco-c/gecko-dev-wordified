@@ -649,9 +649,6 @@ OnConnected
 )
 ;
 }
-cricket
-:
-:
 FakeDtlsTransport
 fake_dtls_transport_
 ;

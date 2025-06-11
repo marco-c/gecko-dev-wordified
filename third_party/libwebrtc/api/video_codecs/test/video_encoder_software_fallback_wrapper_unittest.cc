@@ -3265,9 +3265,6 @@ expected_name
 )
 ;
 }
-rtc
-:
-:
 ScopedFakeClock
 clock_
 ;

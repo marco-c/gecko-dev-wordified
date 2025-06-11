@@ -225,14 +225,8 @@ absl
 monostate
 SimulatedClock
 *
-rtc
-:
-:
 FakeClock
 *
-rtc
-:
-:
 ThreadProcessingFakeClock
 *
 TimeController

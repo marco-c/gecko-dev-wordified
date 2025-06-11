@@ -25337,9 +25337,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 FakeWebRtcVideoEncoderFactory
 >
 video_encoder_factory
@@ -25349,9 +25346,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 FakeWebRtcVideoEncoderFactory
 >
 (
@@ -25423,9 +25417,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 FakeWebRtcVideoDecoderFactory
 >
 video_decoder_factory
@@ -25435,9 +25426,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 FakeWebRtcVideoDecoderFactory
 >
 (
@@ -25580,9 +25568,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 FakeWebRtcVideoEncoderFactory
 >
 video_encoder_factory
@@ -25592,9 +25577,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 FakeWebRtcVideoEncoderFactory
 >
 (
@@ -25726,9 +25708,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 FakeWebRtcVideoDecoderFactory
 >
 video_decoder_factory
@@ -25738,9 +25717,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 FakeWebRtcVideoDecoderFactory
 >
 (

@@ -1133,9 +1133,6 @@ Enabled
 "
 )
 ;
-rtc
-:
-:
 ScopedFakeClock
 fake_clock
 ;
@@ -1232,9 +1229,6 @@ AudioNetworkAdaptorImplTest
 DumpNetworkMetricsIsCalledOnSetNetworkMetrics
 )
 {
-rtc
-:
-:
 ScopedFakeClock
 fake_clock
 ;

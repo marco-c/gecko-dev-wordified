@@ -4153,6 +4153,9 @@ VirtualSocketServer
 :
 VirtualSocketServer
 (
+webrtc
+:
+:
 ThreadProcessingFakeClock
 *
 fake_clock

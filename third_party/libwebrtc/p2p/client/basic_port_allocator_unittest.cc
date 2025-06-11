@@ -3988,7 +3988,7 @@ webrtc
 TestTurnServer
 turn_server_
 ;
-rtc
+webrtc
 :
 :
 FakeNetworkManager
@@ -4061,7 +4061,7 @@ FakeClockBase
 {
 public
 :
-rtc
+webrtc
 :
 :
 ScopedFakeClock

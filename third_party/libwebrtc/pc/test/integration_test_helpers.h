@@ -4203,9 +4203,6 @@ observer
 ;
 }
 }
-rtc
-:
-:
 FakeNetworkManager
 *
 network_manager
@@ -7563,9 +7560,6 @@ by
 the
 peer_connection_factory_
 .
-rtc
-:
-:
 FakeNetworkManager
 *
 fake_network_manager_

@@ -1117,6 +1117,9 @@ FakeClock
 TimeFunctionsUseFakeClock
 )
 {
+webrtc
+:
+:
 FakeClock
 clock
 ;
@@ -1217,6 +1220,9 @@ FakeClock
 InitialTime
 )
 {
+webrtc
+:
+:
 FakeClock
 clock
 ;
@@ -1237,6 +1243,9 @@ FakeClock
 SetTime
 )
 {
+webrtc
+:
+:
 FakeClock
 clock
 ;
@@ -1299,6 +1308,9 @@ FakeClock
 AdvanceTime
 )
 {
+webrtc
+:
+:
 FakeClock
 clock
 ;
@@ -1482,6 +1494,9 @@ TimeMillis
 (
 )
 ;
+webrtc
+:
+:
 ThreadProcessingFakeClock
 clock
 ;

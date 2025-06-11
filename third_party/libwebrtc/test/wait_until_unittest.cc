@@ -707,9 +707,6 @@ WaitUntilTest
 ReturnsWhenConditionIsMetWithThreadProcessingFakeClock
 )
 {
-rtc
-:
-:
 ScopedFakeClock
 fake_clock
 ;
@@ -804,9 +801,6 @@ WaitUntilTest
 ReturnsWhenConditionIsMetWithFakeClock
 )
 {
-rtc
-:
-:
 FakeClock
 fake_clock
 ;

@@ -1897,9 +1897,6 @@ test
 EventVerifier
 verifier_
 ;
-rtc
-:
-:
 ScopedFakeClock
 clock_
 ;
@@ -7354,9 +7351,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 ScopedFakeClock
 >
 fake_clock
@@ -7366,9 +7360,6 @@ std
 :
 make_unique
 <
-rtc
-:
-:
 ScopedFakeClock
 >
 (
@@ -7980,9 +7971,6 @@ std
 :
 make_unique
 <
-rtc
-:
-:
 ScopedFakeClock
 >
 (

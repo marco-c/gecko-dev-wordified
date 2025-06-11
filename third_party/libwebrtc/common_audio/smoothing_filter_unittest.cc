@@ -170,9 +170,6 @@ kClockInitialTime
 )
 ;
 }
-rtc
-:
-:
 ScopedFakeClock
 fake_clock
 ;

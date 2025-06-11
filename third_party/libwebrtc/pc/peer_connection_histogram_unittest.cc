@@ -1505,9 +1505,6 @@ std
 :
 make_unique
 <
-rtc
-:
-:
 FakeNetworkManager
 >
 (
@@ -1618,9 +1615,6 @@ std
 :
 make_unique
 <
-rtc
-:
-:
 FakeNetworkManager
 >
 (
@@ -1693,9 +1687,6 @@ std
 :
 make_unique
 <
-rtc
-:
-:
 FakeNetworkManager
 >
 (
@@ -1895,9 +1886,6 @@ std
 :
 make_unique
 <
-rtc
-:
-:
 FakeNetworkManager
 >
 (

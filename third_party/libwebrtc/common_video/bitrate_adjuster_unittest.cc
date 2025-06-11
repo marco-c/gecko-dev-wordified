@@ -400,9 +400,6 @@ const
 float
 kMaxAdjustedBitratePct
 ;
-rtc
-:
-:
 ScopedFakeClock
 clock_
 ;

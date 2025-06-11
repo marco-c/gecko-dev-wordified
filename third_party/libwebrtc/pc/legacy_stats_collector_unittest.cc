@@ -4544,9 +4544,6 @@ void
 TestCertificateReports
 (
 const
-rtc
-:
-:
 FakeSSLIdentity
 &
 local_identity
@@ -4564,9 +4561,6 @@ string
 &
 local_ders
 const
-rtc
-:
-:
 FakeSSLIdentity
 &
 remote_identity
@@ -9773,9 +9767,6 @@ local_ders
 values
 "
 ;
-rtc
-:
-:
 FakeSSLIdentity
 local_identity
 (
@@ -9843,9 +9834,6 @@ remote_ders
 set
 "
 ;
-rtc
-:
-:
 FakeSSLIdentity
 remote_identity
 (
@@ -9907,9 +9895,6 @@ der
 .
 "
 ;
-rtc
-:
-:
 FakeSSLIdentity
 local_identity
 (
@@ -9942,9 +9927,6 @@ der
 .
 "
 ;
-rtc
-:
-:
 FakeSSLIdentity
 remote_identity
 (
@@ -10272,9 +10254,6 @@ der
 .
 "
 ;
-rtc
-:
-:
 FakeSSLIdentity
 local_identity
 (
@@ -10313,9 +10292,6 @@ der
 .
 "
 ;
-rtc
-:
-:
 FakeSSLCertificate
 remote_cert
 (
@@ -10334,9 +10310,6 @@ foobar
 "
 )
 ;
-rtc
-:
-:
 FakeSSLIdentity
 remote_identity
 (

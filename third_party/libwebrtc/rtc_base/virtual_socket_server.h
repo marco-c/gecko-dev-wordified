@@ -1579,6 +1579,9 @@ time
 explicit
 VirtualSocketServer
 (
+webrtc
+:
+:
 ThreadProcessingFakeClock
 *
 fake_clock
@@ -3432,6 +3435,9 @@ t
 use
 ProcessMessagesUntilIdle
 .
+webrtc
+:
+:
 ThreadProcessingFakeClock
 *
 fake_clock_

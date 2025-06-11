@@ -1299,16 +1299,10 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 FakeSSLIdentity
 >
 (
 new
-rtc
-:
-:
 FakeSSLIdentity
 (
 info
@@ -6929,9 +6923,6 @@ graph
 }
 protected
 :
-rtc
-:
-:
 ScopedFakeClock
 fake_clock_
 ;
@@ -11552,9 +11543,6 @@ kTransportName
 transport
 "
 ;
-rtc
-:
-:
 ScopedFakeClock
 fake_clock
 ;

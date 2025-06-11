@@ -886,9 +886,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 FakeDtlsTransport
 >
 (
@@ -1745,9 +1742,6 @@ i
 ;
 }
 return
-cricket
-:
-:
 CreateSimStreamParams
 (
 "
@@ -2338,9 +2332,6 @@ cricket
 StreamParams
 stream_params
 =
-cricket
-:
-:
 CreateSimStreamParams
 (
 "
@@ -3837,9 +3828,6 @@ media_engine_
 UniqueRandomIdGenerator
 ssrc_generator_
 ;
-cricket
-:
-:
 FakeCall
 fake_call_
 ;
@@ -6487,9 +6475,6 @@ cricket
 StreamParams
 stream_params
 =
-cricket
-:
-:
 CreateSimStreamParams
 (
 "
@@ -8154,9 +8139,6 @@ cricket
 StreamParams
 stream_params
 =
-cricket
-:
-:
 CreateSimStreamParams
 (
 "
@@ -8471,9 +8453,6 @@ cricket
 StreamParams
 stream_params
 =
-cricket
-:
-:
 CreateSimStreamParams
 (
 "

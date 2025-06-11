@@ -3576,9 +3576,6 @@ rtc
 :
 ScopedFakeClock
 .
-rtc
-:
-:
 ScopedFakeClock
 fake_global_clock
 ;
@@ -3782,9 +3779,6 @@ ssrcs
 0
 ]
 ;
-rtc
-:
-:
 ScopedFakeClock
 fake_global_clock
 ;
@@ -3933,9 +3927,6 @@ kInterframeDelayMs
 =
 100
 ;
-rtc
-:
-:
 ScopedFakeClock
 fake_global_clock
 ;
@@ -4440,9 +4431,6 @@ kInterframeDelayMs
 =
 100
 ;
-rtc
-:
-:
 ScopedFakeClock
 fake_global_clock
 ;
