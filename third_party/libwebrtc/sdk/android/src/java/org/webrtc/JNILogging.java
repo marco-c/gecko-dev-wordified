@@ -133,6 +133,12 @@ loggable
 ;
 }
 CalledByNative
+SuppressWarnings
+(
+"
+EnumOrdinal
+"
+)
 public
 void
 logToInjectable
