@@ -476,6 +476,9 @@ ArrayBuffer
 Atomics
 "
 "
+AsyncDisposableStack
+"
+"
 Boolean
 "
 "
@@ -492,6 +495,9 @@ DataView
 "
 "
 Date
+"
+"
+DisposableStack
 "
 "
 Error
@@ -586,6 +592,9 @@ true
 }
 "
 String
+"
+"
+SuppressedError
 "
 "
 Symbol
