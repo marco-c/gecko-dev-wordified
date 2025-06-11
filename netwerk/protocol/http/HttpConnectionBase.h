@@ -1225,6 +1225,11 @@ nsresult
 aReason
 )
 ;
+void
+RecordConnectionAddressType
+(
+)
+;
 protected
 :
 /
@@ -1355,6 +1360,12 @@ ConnectionCloseReason
 :
 :
 UNSET
+;
+bool
+mAddressTypeReported
+{
+false
+}
 ;
 }
 ;
