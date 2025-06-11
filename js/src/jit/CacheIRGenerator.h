@@ -610,6 +610,14 @@ GuardClassKind
 kind
 )
 ;
+enum
+class
+AccessorKind
+{
+Getter
+Setter
+}
+;
 void
 emitGuardGetterSetterSlot
 (
@@ -620,6 +628,8 @@ PropertyInfo
 prop
 ObjOperandId
 holderId
+AccessorKind
+kind
 bool
 holderIsConstant
 =
