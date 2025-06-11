@@ -5900,6 +5900,16 @@ limits
 :
 {
 }
+'
+texture
+-
+formats
+-
+tier1
+'
+:
+{
+}
 }
 ;
 /
