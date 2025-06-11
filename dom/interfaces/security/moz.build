@@ -121,6 +121,11 @@ nsIContentSecurityPolicy
 idl
 "
 "
+nsIIntegrityPolicy
+.
+idl
+"
+"
 nsIReferrerInfo
 .
 idl

@@ -1422,6 +1422,9 @@ HTMLImageElement
 class
 ImageTracker
 ;
+class
+IntegrityPolicy
+;
 enum
 class
 InteractiveWidget
@@ -8889,6 +8892,14 @@ nsUnblockOnloadEvent
 ;
 nsresult
 InitCSP
+(
+nsIChannel
+*
+aChannel
+)
+;
+nsresult
+InitIntegrityPolicy
 (
 nsIChannel
 *
@@ -32393,6 +32404,12 @@ nsCOMPtr
 nsIContentSecurityPolicy
 >
 mPreloadCSP
+;
+RefPtr
+<
+IntegrityPolicy
+>
+mIntegrityPolicy
 ;
 private
 :
