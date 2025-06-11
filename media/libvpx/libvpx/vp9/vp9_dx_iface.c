@@ -4450,6 +4450,10 @@ NULL
 /
 /
 vpx_codec_enc_mr_get_mem_loc_fn_t
+NULL
+/
+/
+vpx_codec_enc_mr_free_mem_loc_fn_t
 }
 }
 ;
