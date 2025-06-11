@@ -39888,6 +39888,6 @@ component
 .
 enabled
 "
-false
+true
 )
 ;
