@@ -977,9 +977,6 @@ main_thread_
 )
 ;
 mutable
-rtc
-:
-:
 MovingMaxCounter
 <
 int
@@ -1137,9 +1134,6 @@ GetStats
 )
 .
 mutable
-rtc
-:
-:
 MovingMaxCounter
 <
 TimingFrameInfo

@@ -111,7 +111,7 @@ MovingMaxCounter
 ReportsMaximumInTheWindow
 )
 {
-rtc
+webrtc
 :
 :
 MovingMaxCounter
@@ -225,7 +225,7 @@ MovingMaxCounter
 IgnoresOldElements
 )
 {
-rtc
+webrtc
 :
 :
 MovingMaxCounter
@@ -321,7 +321,7 @@ MovingMaxCounter
 HandlesEmptyWindow
 )
 {
-rtc
+webrtc
 :
 :
 MovingMaxCounter
@@ -376,7 +376,7 @@ MovingMaxCounter
 HandlesSamplesWithEqualTimestamps
 )
 {
-rtc
+webrtc
 :
 :
 MovingMaxCounter
