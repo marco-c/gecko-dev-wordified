@@ -951,15 +951,12 @@ FrameSize
 ;
 masm
 .
-Push
-(
-FrameDescriptor
+PushFrameDescriptor
 (
 FrameType
 :
 :
 TrampolineNative
-)
 )
 ;
 masm
@@ -1159,7 +1156,7 @@ ensure
 /
 /
 the
-HasCachedSavedFrame
+HASCACHEDSAVEDFRAME_BIT
 flag
 from
 a
