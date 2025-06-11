@@ -369,7 +369,7 @@ bool
 mLoadedInThisProcess
 ;
 bool
-mPersist
+mTransient
 ;
 bool
 mHasUserInteraction

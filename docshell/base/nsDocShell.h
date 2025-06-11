@@ -6705,8 +6705,6 @@ WindowGlobalChild
 aWindowActor
 bool
 aIsTransientAboutBlank
-bool
-aPersist
 nsIRequest
 *
 aRequest
@@ -7454,8 +7452,6 @@ document
 void
 MoveLoadingToActiveEntry
 (
-bool
-aPersist
 bool
 aExpired
 uint32_t

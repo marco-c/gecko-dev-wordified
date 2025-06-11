@@ -130,9 +130,8 @@ tab
 )
 )
 ;
-ok
+is
 (
-!
 state
 .
 entries
@@ -140,13 +139,14 @@ entries
 0
 ]
 .
-persist
+transient
+true
 "
 Should
 have
 collected
 the
-persistence
+transient
 state
 "
 )
@@ -459,7 +459,7 @@ entries
 0
 ]
 .
-persist
+transient
 ;
 BrowserTestUtils
 .

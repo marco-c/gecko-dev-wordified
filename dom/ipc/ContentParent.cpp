@@ -48810,10 +48810,6 @@ aLoadType
 const
 bool
 &
-aPersist
-const
-bool
-&
 aCloneEntryChildren
 const
 bool
@@ -48909,7 +48905,6 @@ SessionHistoryCommit
 aLoadID
 aChangeID
 aLoadType
-aPersist
 aCloneEntryChildren
 aChannelExpired
 aCacheKey
