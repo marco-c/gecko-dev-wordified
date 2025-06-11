@@ -1114,7 +1114,7 @@ i
 ]
 ;
 size_t
-payload_length
+block_length
 =
 new_header
 .
@@ -1124,7 +1124,7 @@ if
 (
 payload_ptr
 +
-payload_length
+block_length
 >
 red_packet
 .
@@ -1255,7 +1255,7 @@ payload
 SetData
 (
 payload_ptr
-payload_length
+block_length
 )
 ;
 new_packets
@@ -1274,7 +1274,7 @@ new_packet
 payload_ptr
 +
 =
-payload_length
+block_length
 ;
 }
 /

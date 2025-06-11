@@ -5424,12 +5424,6 @@ int
 timestamp_offset
 )
 {
-constexpr
-int
-kRedHeaderLength
-=
-4
-;
 const
 size_t
 size

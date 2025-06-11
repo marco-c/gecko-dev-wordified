@@ -4948,9 +4948,6 @@ being
 recycled
 .
 }
-RTCError
-error
-;
 switch
 (
 media_description_options
@@ -6279,9 +6276,6 @@ UnstoppedRtpHeaderExtensionCapabilities
 header_extensions_in
 )
 )
-;
-RTCError
-error
 ;
 switch
 (

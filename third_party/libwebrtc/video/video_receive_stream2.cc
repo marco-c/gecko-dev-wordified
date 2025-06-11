@@ -6630,7 +6630,7 @@ for
 const
 auto
 &
-frame
+buffered_frame
 :
 buffered_encoded_frames_
 )
@@ -6641,7 +6641,7 @@ RecordableEncodedFrame
 EncodedResolution
 resolution
 {
-frame
+buffered_frame
 -
 >
 EncodedImage
@@ -6649,7 +6649,7 @@ EncodedImage
 )
 .
 _encodedWidth
-frame
+buffered_frame
 -
 >
 EncodedImage
@@ -6664,7 +6664,7 @@ if
 IsKeyFrameAndUnspecifiedResolution
 (
 *
-frame
+buffered_frame
 )
 )
 {
@@ -6690,7 +6690,7 @@ encoded_frame_buffer_function_
 WebRtcRecordableEncodedFrame
 (
 *
-frame
+buffered_frame
 resolution
 )
 )

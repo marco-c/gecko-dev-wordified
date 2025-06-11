@@ -1320,7 +1320,7 @@ optional
 <
 int
 >
-qp
+vp8_qp
 =
 qp_counters_
 .
@@ -1333,7 +1333,7 @@ kMinRequiredSamples
 ;
 if
 (
-qp
+vp8_qp
 )
 {
 RTC_HISTOGRAM_COUNTS_200
@@ -1350,7 +1350,7 @@ Vp8
 Qp
 "
 *
-qp
+vp8_qp
 )
 ;
 log_stream
@@ -1370,7 +1370,7 @@ Qp
 <
 <
 *
-qp
+vp8_qp
 <
 <
 '

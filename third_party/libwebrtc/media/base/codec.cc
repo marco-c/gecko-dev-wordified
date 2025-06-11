@@ -1170,7 +1170,7 @@ std
 :
 string
 &
-name
+key
 std
 :
 :
@@ -1193,7 +1193,7 @@ params
 .
 find
 (
-name
+key
 )
 ;
 if
@@ -1234,7 +1234,7 @@ std
 :
 string
 &
-name
+key
 int
 *
 out
@@ -1254,7 +1254,7 @@ params
 .
 find
 (
-name
+key
 )
 ;
 if
@@ -1297,7 +1297,7 @@ std
 :
 string
 &
-name
+key
 const
 std
 :
@@ -1309,7 +1309,7 @@ value
 {
 params
 [
-name
+key
 ]
 =
 value
@@ -1327,14 +1327,14 @@ std
 :
 string
 &
-name
+key
 int
 value
 )
 {
 params
 [
-name
+key
 ]
 =
 rtc
@@ -1358,7 +1358,7 @@ std
 :
 string
 &
-name
+key
 )
 {
 return
@@ -1366,7 +1366,7 @@ params
 .
 erase
 (
-name
+key
 )
 =
 =

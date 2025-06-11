@@ -5880,7 +5880,7 @@ fec_state
 )
 {
 uint32_t
-ssrc
+fec_ssrc
 =
 rtp_config_
 .
@@ -5890,7 +5890,7 @@ ssrc
 ;
 rtp_states
 [
-ssrc
+fec_ssrc
 ]
 =
 *

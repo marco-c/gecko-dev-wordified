@@ -2694,7 +2694,7 @@ cricket
 :
 Candidates
 &
-candidates
+transport_candidates
 =
 kv
 .
@@ -2751,7 +2751,7 @@ Candidate
 &
 candidate
 :
-candidates
+transport_candidates
 )
 {
 cricket

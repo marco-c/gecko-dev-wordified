@@ -4704,7 +4704,7 @@ SSL_CONNECTING
 if
 (
 int
-err
+error
 =
 BeginSSL
 (
@@ -4716,7 +4716,7 @@ Error
 "
 BeginSSL
 "
-err
+error
 0
 true
 )
@@ -4834,7 +4834,7 @@ SSL_CONNECTING
 if
 (
 int
-err
+error
 =
 ContinueSSL
 (
@@ -4846,7 +4846,7 @@ Error
 "
 ContinueSSL
 "
-err
+error
 0
 true
 )
