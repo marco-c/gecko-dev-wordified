@@ -27,16 +27,6 @@ zero
 .
 0
 /
-/
-/
-/
-*
-eslint
--
-env
-serviceworker
-*
-/
 function
 promisifyTimerFocus
 (
@@ -103,12 +93,12 @@ then
 (
 function
 (
-clients
+matchedClients
 )
 {
 if
 (
-clients
+matchedClients
 .
 length
 =
@@ -188,7 +178,7 @@ resolve
 var
 immediatePromise
 =
-clients
+matchedClients
 [
 0
 ]
@@ -202,7 +192,7 @@ withinTimeout
 =
 promisifyTimerFocus
 (
-clients
+matchedClients
 [
 0
 ]
@@ -214,7 +204,7 @@ afterTimeout
 =
 promisifyTimerFocus
 (
-clients
+matchedClients
 [
 0
 ]
@@ -272,7 +262,7 @@ function
 (
 )
 {
-clients
+matchedClients
 .
 forEach
 (
@@ -319,7 +309,7 @@ n
 "
 )
 ;
-clients
+matchedClients
 .
 forEach
 (

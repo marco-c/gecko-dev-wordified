@@ -1,12 +1,4 @@
 /
-*
-eslint
--
-env
-serviceworker
-*
-/
-/
 /
 the
 worker

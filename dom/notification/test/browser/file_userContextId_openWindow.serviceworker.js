@@ -1,11 +1,3 @@
-/
-*
-eslint
--
-env
-serviceworker
-*
-/
 onnotificationclick
 =
 (

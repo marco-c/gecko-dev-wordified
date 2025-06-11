@@ -627,6 +627,8 @@ register
 "
 file_userContextId_openWindow
 .
+serviceworker
+.
 js
 "
 )
