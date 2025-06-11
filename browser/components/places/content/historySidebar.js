@@ -445,7 +445,9 @@ gSearchBox
 addEventListener
 (
 "
-command
+MozInputSearch
+:
+search
 "
 (
 )

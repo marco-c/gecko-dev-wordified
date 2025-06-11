@@ -9213,14 +9213,7 @@ box
 ;
 searchBox
 .
-value
-=
-"
-"
-;
-searchBox
-.
-doCommand
+clear
 (
 )
 ;

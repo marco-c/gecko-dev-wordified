@@ -150,8 +150,6 @@ search
 box
 "
 )
-.
-inputField
 ;
 const
 popupshowing
