@@ -319,9 +319,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 AsyncPacketSocket
 >
 (
@@ -755,9 +752,6 @@ TestController
 :
 OnReadPacket
 (
-rtc
-:
-:
 AsyncPacketSocket
 *
 socket

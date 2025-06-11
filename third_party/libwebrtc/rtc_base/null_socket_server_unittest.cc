@@ -180,7 +180,7 @@ wait_until
 h
 "
 namespace
-rtc
+webrtc
 {
 TEST
 (
@@ -188,6 +188,9 @@ NullSocketServerTest
 WaitAndSet
 )
 {
+rtc
+:
+:
 AutoThread
 main_thread
 ;
@@ -197,6 +200,9 @@ ss
 auto
 thread
 =
+rtc
+:
+:
 Thread
 :
 :
@@ -283,9 +289,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -318,6 +321,9 @@ ss
 int64_t
 start
 =
+rtc
+:
+:
 TimeMillis
 (
 )
@@ -326,9 +332,6 @@ ss
 .
 Wait
 (
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -373,6 +376,9 @@ early
 .
 EXPECT_GE
 (
+rtc
+:
+:
 TimeSince
 (
 start
@@ -385,4 +391,4 @@ start
 /
 /
 namespace
-rtc
+webrtc

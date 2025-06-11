@@ -3189,9 +3189,6 @@ return
 true
 ;
 }
-rtc
-:
-:
 PhysicalSocketServer
 pss_
 ;

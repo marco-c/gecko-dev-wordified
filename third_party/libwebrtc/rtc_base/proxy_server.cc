@@ -141,6 +141,9 @@ ProxyServer
 :
 ProxyServer
 (
+webrtc
+:
+:
 SocketFactory
 *
 int_factory
@@ -151,6 +154,9 @@ webrtc
 SocketAddress
 &
 int_addr
+webrtc
+:
+:
 SocketFactory
 *
 ext_factory
@@ -299,6 +305,9 @@ ProxyServer
 :
 OnAcceptEvent
 (
+webrtc
+:
+:
 Socket
 *
 socket
@@ -319,6 +328,9 @@ get
 )
 )
 ;
+webrtc
+:
+:
 Socket
 *
 int_socket
@@ -331,6 +343,9 @@ Accept
 nullptr
 )
 ;
+webrtc
+:
+:
 AsyncProxyServerSocket
 *
 wrapped_socket
@@ -340,6 +355,9 @@ WrapSocket
 int_socket
 )
 ;
+webrtc
+:
+:
 Socket
 *
 ext_socket
@@ -418,9 +436,15 @@ ProxyBinding
 :
 ProxyBinding
 (
+webrtc
+:
+:
 AsyncProxyServerSocket
 *
 int_socket
+webrtc
+:
+:
 Socket
 *
 ext_socket
@@ -584,6 +608,9 @@ ProxyBinding
 :
 OnConnectRequest
 (
+webrtc
+:
+:
 AsyncProxyServerSocket
 *
 socket
@@ -629,6 +656,9 @@ ProxyBinding
 :
 OnInternalRead
 (
+webrtc
+:
+:
 Socket
 *
 socket
@@ -663,6 +693,9 @@ ProxyBinding
 :
 OnInternalWrite
 (
+webrtc
+:
+:
 Socket
 *
 socket
@@ -686,6 +719,9 @@ ProxyBinding
 :
 OnInternalClose
 (
+webrtc
+:
+:
 Socket
 *
 socket
@@ -704,6 +740,9 @@ ProxyBinding
 :
 OnExternalConnect
 (
+webrtc
+:
+:
 Socket
 *
 socket
@@ -742,6 +781,9 @@ ProxyBinding
 :
 OnExternalRead
 (
+webrtc
+:
+:
 Socket
 *
 socket
@@ -776,6 +818,9 @@ ProxyBinding
 :
 OnExternalWrite
 (
+webrtc
+:
+:
 Socket
 *
 socket
@@ -799,6 +844,9 @@ ProxyBinding
 :
 OnExternalClose
 (
+webrtc
+:
+:
 Socket
 *
 socket
@@ -838,6 +886,9 @@ ProxyBinding
 :
 Read
 (
+webrtc
+:
+:
 Socket
 *
 socket
@@ -936,6 +987,9 @@ ProxyBinding
 :
 Write
 (
+webrtc
+:
+:
 Socket
 *
 socket

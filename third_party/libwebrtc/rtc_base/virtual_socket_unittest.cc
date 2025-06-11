@@ -436,6 +436,9 @@ Sender
 Thread
 *
 th
+webrtc
+:
+:
 Socket
 *
 s
@@ -454,6 +457,9 @@ std
 :
 make_unique
 <
+webrtc
+:
+:
 AsyncUDPSocket
 >
 (
@@ -613,6 +619,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 AsyncUDPSocket
 >
 socket
@@ -664,6 +673,9 @@ Receiver
 Thread
 *
 th
+webrtc
+:
+:
 Socket
 *
 s
@@ -682,6 +694,9 @@ std
 :
 make_unique
 <
+webrtc
+:
+:
 AsyncUDPSocket
 >
 (
@@ -840,6 +855,9 @@ Stop
 void
 OnReadPacket
 (
+webrtc
+:
+:
 AsyncPacketSocket
 *
 s
@@ -968,6 +986,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 AsyncUDPSocket
 >
 socket
@@ -1320,6 +1341,9 @@ the
 any
 address
 .
+webrtc
+:
+:
 Socket
 *
 socket
@@ -1395,6 +1419,9 @@ std
 :
 make_unique
 <
+webrtc
+:
+:
 AsyncUDPSocket
 >
 (
@@ -1414,6 +1441,9 @@ the
 address
 route
 .
+webrtc
+:
+:
 Socket
 *
 socket2
@@ -1486,6 +1516,9 @@ std
 :
 make_unique
 <
+webrtc
+:
+:
 AsyncUDPSocket
 >
 (
@@ -1628,6 +1661,9 @@ SocketAddress
 initial_addr
 )
 {
+webrtc
+:
+:
 Socket
 *
 socket
@@ -1711,6 +1747,9 @@ std
 :
 make_unique
 <
+webrtc
+:
+:
 AsyncUDPSocket
 >
 (
@@ -1720,6 +1759,9 @@ socket
 fake_clock_
 )
 ;
+webrtc
+:
+:
 Socket
 *
 socket2
@@ -1755,6 +1797,9 @@ std
 :
 make_unique
 <
+webrtc
+:
+:
 AsyncUDPSocket
 >
 (
@@ -1898,6 +1943,9 @@ absl
 :
 WrapUnique
 (
+webrtc
+:
+:
 AsyncUDPSocket
 :
 :
@@ -2085,6 +2133,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 Socket
 >
 client
@@ -2126,6 +2177,9 @@ client
 GetState
 (
 )
+webrtc
+:
+:
 Socket
 :
 :
@@ -2155,6 +2209,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 Socket
 >
 server
@@ -2255,6 +2312,9 @@ server
 GetState
 (
 )
+webrtc
+:
+:
 Socket
 :
 :
@@ -2394,6 +2454,9 @@ client
 GetState
 (
 )
+webrtc
+:
+:
 Socket
 :
 :
@@ -2449,6 +2512,9 @@ client
 GetState
 (
 )
+webrtc
+:
+:
 Socket
 :
 :
@@ -2511,6 +2577,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 Socket
 >
 accepted
@@ -2563,6 +2632,9 @@ accepted
 GetState
 (
 )
+webrtc
+:
+:
 Socket
 :
 :
@@ -2620,6 +2692,9 @@ client
 GetState
 (
 )
+webrtc
+:
+:
 Socket
 :
 :
@@ -2745,6 +2820,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 Socket
 >
 client
@@ -2787,6 +2865,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 Socket
 >
 server
@@ -2937,6 +3018,9 @@ client
 GetState
 (
 )
+webrtc
+:
+:
 Socket
 :
 :
@@ -3036,6 +3120,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 Socket
 >
 client
@@ -3069,6 +3156,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 Socket
 >
 server
@@ -3212,6 +3302,9 @@ client
 GetState
 (
 )
+webrtc
+:
+:
 Socket
 :
 :
@@ -3383,6 +3476,9 @@ client
 GetState
 (
 )
+webrtc
+:
+:
 Socket
 :
 :
@@ -3531,6 +3627,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 Socket
 >
 accepted
@@ -3583,6 +3682,9 @@ accepted
 GetState
 (
 )
+webrtc
+:
+:
 Socket
 :
 :
@@ -3607,6 +3709,9 @@ client
 GetState
 (
 )
+webrtc
+:
+:
 Socket
 :
 :
@@ -3641,6 +3746,9 @@ accepted
 GetState
 (
 )
+webrtc
+:
+:
 Socket
 :
 :
@@ -3709,6 +3817,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 Socket
 >
 a
@@ -3774,6 +3885,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 Socket
 >
 b
@@ -3897,6 +4011,9 @@ a
 GetState
 (
 )
+webrtc
+:
+:
 Socket
 :
 :
@@ -3942,6 +4059,9 @@ b
 GetState
 (
 )
+webrtc
+:
+:
 Socket
 :
 :
@@ -4066,6 +4186,9 @@ a
 GetState
 (
 )
+webrtc
+:
+:
 Socket
 :
 :
@@ -4112,6 +4235,9 @@ b
 GetState
 (
 )
+webrtc
+:
+:
 Socket
 :
 :
@@ -4162,6 +4288,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 Socket
 >
 a
@@ -4227,6 +4356,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 Socket
 >
 b
@@ -5060,6 +5192,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 Socket
 >
 a
@@ -5087,6 +5222,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 Socket
 >
 b
@@ -5517,6 +5655,9 @@ SocketAddress
 initial_addr
 )
 {
+webrtc
+:
+:
 Socket
 *
 send_socket
@@ -5533,6 +5674,9 @@ family
 SOCK_DGRAM
 )
 ;
+webrtc
+:
+:
 Socket
 *
 recv_socket
@@ -5886,6 +6030,9 @@ UpdateDelayDistribution
 (
 )
 ;
+webrtc
+:
+:
 Socket
 *
 send_socket
@@ -5902,6 +6049,9 @@ family
 SOCK_DGRAM
 )
 ;
+webrtc
+:
+:
 Socket
 *
 recv_socket
@@ -6353,6 +6503,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 Socket
 >
 client
@@ -6394,6 +6547,9 @@ client
 GetState
 (
 )
+webrtc
+:
+:
 Socket
 :
 :
@@ -6451,6 +6607,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 Socket
 >
 server
@@ -6548,6 +6707,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 Socket
 >
 accepted
@@ -6697,6 +6859,9 @@ client
 GetState
 (
 )
+webrtc
+:
+:
 Socket
 :
 :
@@ -6788,6 +6953,9 @@ bool
 shouldSucceed
 )
 {
+webrtc
+:
+:
 Socket
 *
 socket
@@ -6840,6 +7008,9 @@ std
 :
 make_unique
 <
+webrtc
+:
+:
 AsyncUDPSocket
 >
 (
@@ -6849,6 +7020,9 @@ socket
 fake_clock_
 )
 ;
+webrtc
+:
+:
 Socket
 *
 socket2
@@ -6888,6 +7062,9 @@ std
 :
 make_unique
 <
+webrtc
+:
+:
 AsyncUDPSocket
 >
 (
@@ -7024,6 +7201,9 @@ webrtc
 ScopedFakeClock
 fake_clock_
 ;
+webrtc
+:
+:
 VirtualSocketServer
 ss_
 ;
@@ -8129,6 +8309,9 @@ VirtualSocketServerTest
 SetSendingBlockedWithUdpSocket
 )
 {
+webrtc
+:
+:
 Socket
 *
 socket1
@@ -8150,6 +8333,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 Socket
 >
 socket2
@@ -8207,6 +8393,9 @@ std
 :
 make_unique
 <
+webrtc
+:
+:
 AsyncUDPSocket
 >
 (
@@ -8340,6 +8529,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 Socket
 >
 socket1
@@ -8367,6 +8559,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 Socket
 >
 socket2
@@ -8863,6 +9058,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 VirtualSocketServer
 :
 :
@@ -8870,6 +9068,9 @@ Function
 >
 f
 =
+webrtc
+:
+:
 VirtualSocketServer
 :
 :

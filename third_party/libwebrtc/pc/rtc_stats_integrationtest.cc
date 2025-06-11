@@ -1151,9 +1151,6 @@ the
 correct
 order
 .
-rtc
-:
-:
 VirtualSocketServer
 virtual_socket_server_
 ;

@@ -1342,7 +1342,7 @@ RtpUtilsTest
 ApplyPacketOptionsWithDefaultValues
 )
 {
-rtc
+webrtc
 :
 :
 PacketTimeUpdateParams
@@ -1481,7 +1481,7 @@ RtpUtilsTest
 ApplyPacketOptionsWithAuthParams
 )
 {
-rtc
+webrtc
 :
 :
 PacketTimeUpdateParams
@@ -1837,7 +1837,7 @@ RtpUtilsTest
 ApplyPacketOptionsWithAuthParamsAndAbsSendTime
 )
 {
-rtc
+webrtc
 :
 :
 PacketTimeUpdateParams

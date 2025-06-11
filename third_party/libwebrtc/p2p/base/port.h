@@ -1234,7 +1234,7 @@ TaskQueueBase
 *
 network_thread
 ;
-rtc
+webrtc
 :
 :
 PacketSocketFactory
@@ -1600,7 +1600,7 @@ of
 this
 port
 .
-rtc
+webrtc
 :
 :
 PacketSocketFactory
@@ -2253,7 +2253,7 @@ virtual
 bool
 HandleIncomingPacket
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -2570,7 +2570,7 @@ virtual
 void
 OnSentPacket
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -3362,7 +3362,7 @@ TaskQueueBase
 const
 thread_
 ;
-rtc
+webrtc
 :
 :
 PacketSocketFactory

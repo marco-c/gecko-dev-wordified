@@ -1807,9 +1807,6 @@ flags
 int
 SetOption
 (
-rtc
-:
-:
 Socket
 :
 :
@@ -1834,9 +1831,6 @@ value
 bool
 GetOption
 (
-rtc
-:
-:
 Socket
 :
 :

@@ -130,7 +130,7 @@ socket_server
 h
 "
 namespace
-rtc
+webrtc
 {
 NullSocketServer
 :
@@ -156,9 +156,6 @@ NullSocketServer
 :
 Wait
 (
-webrtc
-:
-:
 TimeDelta
 max_wait_duration
 bool
@@ -222,6 +219,9 @@ warn_after
 =
 *
 /
+rtc
+:
+:
 Event
 :
 :
@@ -247,9 +247,6 @@ Set
 )
 ;
 }
-rtc
-:
-:
 Socket
 *
 NullSocketServer
@@ -283,4 +280,4 @@ nullptr
 /
 /
 namespace
-rtc
+webrtc

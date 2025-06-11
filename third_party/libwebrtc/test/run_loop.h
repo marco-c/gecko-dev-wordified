@@ -257,9 +257,6 @@ class
 FakeSocketServer
 :
 public
-rtc
-:
-:
 SocketServer
 {
 public
@@ -299,9 +296,6 @@ WakeUp
 )
 override
 ;
-rtc
-:
-:
 Socket
 *
 CreateSocket
@@ -336,9 +330,6 @@ public
 explicit
 WorkerThread
 (
-rtc
-:
-:
 SocketServer
 *
 ss

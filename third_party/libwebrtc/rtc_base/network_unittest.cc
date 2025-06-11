@@ -449,9 +449,6 @@ testing
 :
 UnorderedElementsAreArray
 ;
-namespace
-rtc
-{
 #
 define
 MAYBE_SKIP_IPV4
@@ -459,6 +456,11 @@ MAYBE_SKIP_IPV4
 if
 (
 !
+:
+:
+rtc
+:
+:
 HasIPv4Enabled
 (
 )
@@ -485,6 +487,9 @@ return
 ;
 \
 }
+namespace
+rtc
+{
 namespace
 {
 webrtc
@@ -2186,6 +2191,9 @@ TestBasicNetworkManager
 NetworkMonitorFactory
 *
 network_monitor_factory
+webrtc
+:
+:
 SocketFactory
 *
 socket_factory
@@ -2384,6 +2392,9 @@ IPAddress
 ADAPTER_TYPE_ETHERNET
 )
 ;
+webrtc
+:
+:
 PhysicalSocketServer
 socket_server
 ;
@@ -2483,6 +2494,9 @@ IPAddress
 24
 )
 ;
+webrtc
+:
+:
 PhysicalSocketServer
 socket_server
 ;
@@ -2595,6 +2609,9 @@ NetworkTest
 DISABLED_TestCreateNetworks
 )
 {
+webrtc
+:
+:
 PhysicalSocketServer
 socket_server
 ;
@@ -2885,6 +2902,9 @@ NetworkTest
 TestUpdateNetworks
 )
 {
+webrtc
+:
+:
 PhysicalSocketServer
 socket_server
 ;
@@ -3209,6 +3229,9 @@ IPAddress
 )
 )
 ;
+webrtc
+:
+:
 PhysicalSocketServer
 socket_server
 ;
@@ -4365,6 +4388,9 @@ NetworkTest
 TestIPv6MergeNetworkList
 )
 {
+webrtc
+:
+:
 PhysicalSocketServer
 socket_server
 ;
@@ -4564,6 +4590,9 @@ NetworkTest
 TestNoChangeMerge
 )
 {
+webrtc
+:
+:
 PhysicalSocketServer
 socket_server
 ;
@@ -4853,6 +4882,9 @@ NetworkTest
 MergeWithChangedIP
 )
 {
+webrtc
+:
+:
 PhysicalSocketServer
 socket_server
 ;
@@ -5254,6 +5286,9 @@ NetworkTest
 TestMultipleIPMergeNetworkList
 )
 {
+webrtc
+:
+:
 PhysicalSocketServer
 socket_server
 ;
@@ -5771,6 +5806,9 @@ NetworkTest
 TestMultiplePublicNetworksOnOneInterfaceMerge
 )
 {
+webrtc
+:
+:
 PhysicalSocketServer
 socket_server
 ;
@@ -6185,6 +6223,9 @@ NetworkTest
 TestCreateAndDumpNetworks
 )
 {
+webrtc
+:
+:
 PhysicalSocketServer
 socket_server
 ;
@@ -6252,6 +6293,9 @@ NetworkTest
 TestIPv6Toggle
 )
 {
+webrtc
+:
+:
 PhysicalSocketServer
 socket_server
 ;
@@ -6343,6 +6387,9 @@ NetworkTest
 IPv6NetworksPreferredOverIPv4
 )
 {
+webrtc
+:
+:
 PhysicalSocketServer
 socket_server
 ;
@@ -6634,6 +6681,9 @@ NetworkTest
 NetworksSortedByInterfaceName
 )
 {
+webrtc
+:
+:
 PhysicalSocketServer
 socket_server
 ;
@@ -7104,6 +7154,9 @@ Network
 >
 result
 ;
+webrtc
+:
+:
 PhysicalSocketServer
 socket_server
 ;
@@ -7271,6 +7324,9 @@ Network
 >
 result
 ;
+webrtc
+:
+:
 PhysicalSocketServer
 socket_server
 ;
@@ -7417,6 +7473,9 @@ Network
 >
 result
 ;
+webrtc
+:
+:
 PhysicalSocketServer
 socket_server
 ;
@@ -7515,6 +7574,9 @@ Network
 >
 result
 ;
+webrtc
+:
+:
 PhysicalSocketServer
 socket_server
 ;
@@ -7632,6 +7694,9 @@ FFFF
 :
 "
 ;
+webrtc
+:
+:
 PhysicalSocketServer
 socket_server
 ;
@@ -7919,6 +7984,9 @@ FFFF
 :
 "
 ;
+webrtc
+:
+:
 PhysicalSocketServer
 socket_server
 ;
@@ -8472,6 +8540,9 @@ default
 FakeNetworkMonitorFactory
 factory
 ;
+webrtc
+:
+:
 PhysicalSocketServer
 socket_server
 ;
@@ -8674,6 +8745,9 @@ NetworkTest
 TestMergeNetworkList
 )
 {
+webrtc
+:
+:
 PhysicalSocketServer
 socket_server
 ;
@@ -9036,6 +9110,9 @@ NetworkTest
 TestMergeNetworkListWithInactiveNetworks
 )
 {
+webrtc
+:
+:
 PhysicalSocketServer
 socket_server
 ;
@@ -10481,6 +10558,9 @@ TestNetworkMonitoring
 FakeNetworkMonitorFactory
 factory
 ;
+webrtc
+:
+:
 PhysicalSocketServer
 socket_server
 ;
@@ -10742,6 +10822,9 @@ ip
 FakeNetworkMonitorFactory
 factory
 ;
+webrtc
+:
+:
 PhysicalSocketServer
 socket_server
 ;
@@ -11418,6 +11501,9 @@ NetworkTest
 TestWhenNetworkListChangeReturnsChangedFlag
 )
 {
+webrtc
+:
+:
 PhysicalSocketServer
 socket_server
 ;
@@ -11957,6 +12043,9 @@ FFFF
 FFFF
 "
 ;
+webrtc
+:
+:
 PhysicalSocketServer
 socket_server
 ;
@@ -12117,6 +12206,9 @@ FFFF
 FFFF
 "
 ;
+webrtc
+:
+:
 PhysicalSocketServer
 socket_server
 ;
@@ -12339,6 +12431,9 @@ default
 FakeNetworkMonitorFactory
 factory
 ;
+webrtc
+:
+:
 PhysicalSocketServer
 socket_server
 ;
@@ -13182,6 +13277,9 @@ NetworkTest
 VpnList
 )
 {
+webrtc
+:
+:
 PhysicalSocketServer
 socket_server
 ;
@@ -13489,6 +13587,9 @@ NetworkTest
 VpnListOverrideAdapterType
 )
 {
+webrtc
+:
+:
 PhysicalSocketServer
 socket_server
 ;

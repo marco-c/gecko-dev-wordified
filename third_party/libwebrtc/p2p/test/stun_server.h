@@ -180,9 +180,6 @@ socket
 explicit
 StunServer
 (
-rtc
-:
-:
 AsyncUDPSocket
 *
 socket
@@ -221,9 +218,6 @@ socket
 void
 OnPacket
 (
-rtc
-:
-:
 AsyncPacketSocket
 *
 socket
@@ -419,9 +413,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 AsyncUDPSocket
 >
 socket_

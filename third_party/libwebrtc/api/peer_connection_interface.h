@@ -12605,9 +12605,6 @@ signaling_thread
 =
 nullptr
 ;
-rtc
-:
-:
 SocketFactory
 *
 socket_factory
@@ -12637,9 +12634,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 PacketSocketFactory
 >
 packet_socket_factory

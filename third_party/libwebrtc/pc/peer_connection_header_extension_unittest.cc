@@ -699,9 +699,6 @@ std
 :
 make_unique
 <
-rtc
-:
-:
 BasicPacketSocketFactory
 >
 (
@@ -861,9 +858,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SocketServer
 >
 socket_server_

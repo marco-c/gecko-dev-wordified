@@ -528,7 +528,7 @@ const
 CreateRelayPortArgs
 &
 args
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -1043,7 +1043,7 @@ override
 int
 SetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -1059,7 +1059,7 @@ override
 int
 GetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -1082,7 +1082,7 @@ override
 bool
 HandleIncomingPacket
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -1159,7 +1159,7 @@ virtual
 void
 OnReadPacket
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -1177,7 +1177,7 @@ packet
 void
 OnSentPacket
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -1197,7 +1197,7 @@ virtual
 void
 OnReadyToSend
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -1220,7 +1220,7 @@ override
 void
 OnSocketConnect
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -1231,7 +1231,7 @@ socket
 void
 OnSocketClose
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -1286,7 +1286,7 @@ OnAllocateMismatch
 (
 )
 ;
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -1433,7 +1433,7 @@ const
 PortParametersRef
 &
 args
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -1574,7 +1574,7 @@ webrtc
 TaskQueueBase
 *
 thread
-rtc
+webrtc
 :
 :
 PacketSocketFactory
@@ -1587,7 +1587,7 @@ rtc
 Network
 *
 network
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -1685,7 +1685,7 @@ webrtc
 TaskQueueBase
 *
 thread
-rtc
+webrtc
 :
 :
 PacketSocketFactory
@@ -1847,7 +1847,7 @@ std
 :
 map
 <
-rtc
+webrtc
 :
 :
 Socket
@@ -2376,7 +2376,7 @@ credentials_
 AttemptedServerSet
 attempted_server_addresses_
 ;
-rtc
+webrtc
 :
 :
 AsyncPacketSocket

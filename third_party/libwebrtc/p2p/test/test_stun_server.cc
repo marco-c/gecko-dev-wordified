@@ -145,9 +145,6 @@ TestStunServer
 :
 Create
 (
-rtc
-:
-:
 SocketServer
 *
 ss
@@ -163,9 +160,6 @@ Thread
 network_thread
 )
 {
-rtc
-:
-:
 Socket
 *
 socket
@@ -199,16 +193,10 @@ create
 socket
 "
 ;
-rtc
-:
-:
 AsyncUDPSocket
 *
 udp_socket
 =
-rtc
-:
-:
 AsyncUDPSocket
 :
 :

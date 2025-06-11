@@ -260,17 +260,6 @@ unique_id_generator
 h
 "
 namespace
-rtc
-{
-class
-BasicPacketSocketFactory
-;
-}
-/
-/
-namespace
-rtc
-namespace
 webrtc
 {
 /
@@ -646,9 +635,6 @@ get
 )
 ;
 }
-rtc
-:
-:
 PacketSocketFactory
 *
 default_socket_factory
@@ -843,9 +829,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SocketFactory
 >
 owned_socket_factory_
@@ -1056,9 +1039,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 PacketSocketFactory
 >
 default_socket_factory_

@@ -310,7 +310,7 @@ Millis
 )
 ;
 static
-rtc
+webrtc
 :
 :
 Socket
@@ -335,7 +335,7 @@ INADDR_ANY
 0
 )
 ;
-rtc
+webrtc
 :
 :
 Socket
@@ -488,7 +488,7 @@ default
 void
 CreateSSLAdapter
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -711,7 +711,7 @@ GetLocalAddress
 )
 ;
 }
-rtc
+webrtc
 :
 :
 Socket
@@ -812,7 +812,7 @@ length
 void
 OnSSLAdapterReadEvent
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -911,7 +911,7 @@ buffer
 void
 OnSSLAdapterCloseEvent
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -970,7 +970,7 @@ GetState
 )
 !
 =
-rtc
+webrtc
 :
 :
 Socket
@@ -1007,7 +1007,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 Socket
@@ -1304,7 +1304,7 @@ protected
 void
 OnReadEvent
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -1424,7 +1424,7 @@ key_params
 vss_
 (
 new
-rtc
+webrtc
 :
 :
 VirtualSocketServer
@@ -1678,7 +1678,7 @@ is
 CS_CLOSED
 ASSERT_EQ
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -1730,7 +1730,7 @@ be
 CS_CONNECTING
 ASSERT_EQ
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -1796,7 +1796,7 @@ testing
 :
 Eq
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -1877,7 +1877,7 @@ testing
 :
 Eq
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -2114,7 +2114,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 VirtualSocketServer

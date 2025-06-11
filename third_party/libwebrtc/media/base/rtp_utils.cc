@@ -715,7 +715,7 @@ rtp
 size_t
 length
 const
-rtc
+webrtc
 :
 :
 PacketTimeUpdateParams
@@ -3459,7 +3459,7 @@ data
 size_t
 length
 const
-rtc
+webrtc
 :
 :
 PacketTimeUpdateParams

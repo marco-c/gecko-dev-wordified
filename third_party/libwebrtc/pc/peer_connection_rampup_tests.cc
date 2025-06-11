@@ -2036,9 +2036,6 @@ network_thread
 (
 )
 ;
-rtc
-:
-:
 SocketFactory
 *
 factory
@@ -2341,9 +2338,6 @@ return
 network_thread_
 ;
 }
-rtc
-:
-:
 FirewallSocketServer
 *
 firewall_socket_server
@@ -2825,15 +2819,9 @@ built
 up
 queue
 .
-rtc
-:
-:
 VirtualSocketServer
 virtual_socket_server_
 ;
-rtc
-:
-:
 FirewallSocketServer
 firewall_socket_server_
 ;

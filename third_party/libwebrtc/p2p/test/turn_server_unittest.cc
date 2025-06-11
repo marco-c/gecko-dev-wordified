@@ -327,9 +327,6 @@ a
 }
 protected
 :
-rtc
-:
-:
 VirtualSocketServer
 vss_
 ;
@@ -339,9 +336,6 @@ rtc
 AutoSocketServerThread
 thread_
 ;
-rtc
-:
-:
 BasicPacketSocketFactory
 socket_factory_
 ;
@@ -358,9 +352,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 AsyncPacketSocket
 >
 socket1
@@ -392,9 +383,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 AsyncPacketSocket
 >
 socket2

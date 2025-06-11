@@ -3528,9 +3528,6 @@ GetError
 ;
 if
 (
-rtc
-:
-:
 IsBlockingError
 (
 transport_

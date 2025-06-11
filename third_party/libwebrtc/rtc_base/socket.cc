@@ -106,7 +106,7 @@ buffer
 h
 "
 namespace
-rtc
+webrtc
 {
 int
 Socket
@@ -203,9 +203,6 @@ buffer
 .
 arrival_time
 =
-webrtc
-:
-:
 Timestamp
 :
 :
@@ -223,4 +220,4 @@ len
 /
 /
 namespace
-rtc
+webrtc

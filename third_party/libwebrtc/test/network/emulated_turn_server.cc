@@ -323,7 +323,7 @@ class
 PacketSocketFactoryWrapper
 :
 public
-rtc
+webrtc
 :
 :
 PacketSocketFactory
@@ -383,7 +383,7 @@ the
 peer_
 endpoint
 .
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -413,7 +413,7 @@ CreatePeerSocket
 )
 ;
 }
-rtc
+webrtc
 :
 :
 AsyncListenSocket
@@ -440,7 +440,7 @@ return
 nullptr
 ;
 }
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -462,7 +462,7 @@ SocketAddress
 &
 remote_address
 const
-rtc
+webrtc
 :
 :
 PacketSocketTcpOptions
@@ -562,9 +562,6 @@ EmulatedTURNServer
 AsyncPacketSocketWrapper
 :
 public
-rtc
-:
-:
 AsyncPacketSocket
 {
 public
@@ -775,9 +772,6 @@ ReceivedPacket
 packet
 )
 {
-rtc
-:
-:
 AsyncPacketSocket
 :
 :
@@ -787,9 +781,6 @@ packet
 )
 ;
 }
-rtc
-:
-:
 AsyncPacketSocket
 :
 :
@@ -801,9 +792,6 @@ const
 override
 {
 return
-rtc
-:
-:
 AsyncPacketSocket
 :
 :
@@ -813,9 +801,6 @@ STATE_BOUND
 int
 GetOption
 (
-rtc
-:
-:
 Socket
 :
 :
@@ -834,9 +819,6 @@ return
 int
 SetOption
 (
-rtc
-:
-:
 Socket
 :
 :
@@ -1216,9 +1198,6 @@ nullptr
 )
 ;
 }
-rtc
-:
-:
 AsyncPacketSocket
 *
 EmulatedTURNServer

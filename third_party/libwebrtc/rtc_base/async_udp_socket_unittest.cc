@@ -158,13 +158,10 @@ gtest
 h
 "
 namespace
-rtc
+webrtc
 {
 static
 const
-webrtc
-:
-:
 SocketAddress
 kAddr
 (
@@ -381,4 +378,4 @@ ect
 /
 /
 namespace
-rtc
+webrtc

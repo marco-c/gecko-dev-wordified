@@ -856,9 +856,6 @@ sdp_semantics
 vss_
 (
 new
-rtc
-:
-:
 VirtualSocketServer
 (
 )
@@ -1381,9 +1378,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 VirtualSocketServer
 >
 vss_

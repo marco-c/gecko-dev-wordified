@@ -242,7 +242,7 @@ gtest
 h
 "
 namespace
-cricket
+webrtc
 {
 static
 unsigned
@@ -517,9 +517,6 @@ kTurnChannelDataMessageWithOddLength
 ;
 static
 const
-webrtc
-:
-:
 SocketAddress
 kClientAddr
 (
@@ -537,9 +534,6 @@ kClientAddr
 ;
 static
 const
-webrtc
-:
-:
 SocketAddress
 kServerAddr
 (
@@ -559,9 +553,6 @@ class
 AsyncStunServerTCPSocket
 :
 public
-rtc
-:
-:
 AsyncTcpListenSocket
 {
 public
@@ -574,9 +565,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Socket
 >
 socket
@@ -597,9 +585,6 @@ socket
 void
 HandleIncomingConnection
 (
-rtc
-:
-:
 Socket
 *
 socket
@@ -646,9 +631,6 @@ AsyncStunTCPSocketTest
 vss_
 (
 new
-rtc
-:
-:
 VirtualSocketServer
 (
 )
@@ -684,9 +666,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Socket
 >
 server
@@ -752,9 +731,6 @@ AsyncStunTCPSocketTest
 OnNewConnection
 )
 ;
-rtc
-:
-:
 Socket
 *
 client
@@ -830,9 +806,6 @@ ProcessMessagesUntilIdle
 void
 OnReadPacket
 (
-rtc
-:
-:
 AsyncPacketSocket
 *
 /
@@ -891,9 +864,6 @@ size
 void
 OnSentPacket
 (
-rtc
-:
-:
 AsyncPacketSocket
 *
 /
@@ -922,9 +892,6 @@ sent_packets_
 void
 OnNewConnection
 (
-rtc
-:
-:
 AsyncListenSocket
 *
 /
@@ -932,9 +899,6 @@ AsyncListenSocket
 server
 *
 /
-rtc
-:
-:
 AsyncPacketSocket
 *
 new_socket
@@ -1115,9 +1079,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 VirtualSocketServer
 >
 vss_
@@ -1142,9 +1103,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 AsyncListenSocket
 >
 listen_socket_
@@ -1154,9 +1112,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 AsyncPacketSocket
 >
 recv_socket_
@@ -1379,9 +1334,6 @@ size
 }
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 ;
@@ -2248,4 +2200,4 @@ sent_packets_
 /
 /
 namespace
-cricket
+webrtc

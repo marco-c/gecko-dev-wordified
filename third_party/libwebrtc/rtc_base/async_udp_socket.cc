@@ -223,7 +223,7 @@ time_utils
 h
 "
 namespace
-rtc
+webrtc
 {
 AsyncUDPSocket
 *
@@ -236,9 +236,6 @@ Socket
 *
 socket
 const
-webrtc
-:
-:
 SocketAddress
 &
 bind_address
@@ -319,9 +316,6 @@ SocketFactory
 *
 factory
 const
-webrtc
-:
-:
 SocketAddress
 &
 bind_address
@@ -424,9 +418,6 @@ OnWriteEvent
 )
 ;
 }
-webrtc
-:
-:
 SocketAddress
 AsyncUDPSocket
 :
@@ -445,9 +436,6 @@ GetLocalAddress
 )
 ;
 }
-webrtc
-:
-:
 SocketAddress
 AsyncUDPSocket
 :
@@ -507,6 +495,9 @@ options
 info_signaled_after_sent
 )
 ;
+webrtc
+:
+:
 CopySocketInformationToPacketInfo
 (
 cb
@@ -553,9 +544,6 @@ pv
 size_t
 cb
 const
-webrtc
-:
-:
 SocketAddress
 &
 addr
@@ -588,6 +576,9 @@ options
 info_signaled_after_sent
 )
 ;
+webrtc
+:
+:
 CopySocketInformationToPacketInfo
 (
 cb
@@ -939,9 +930,6 @@ to
 the
 user
 .
-webrtc
-:
-:
 SocketAddress
 local_addr
 =
@@ -1027,9 +1015,6 @@ receive_buffer
 .
 arrival_time
 =
-webrtc
-:
-:
 Timestamp
 :
 :
@@ -1065,9 +1050,6 @@ time
 .
 socket_time_offset_
 =
-webrtc
-:
-:
 Timestamp
 :
 :
@@ -1099,6 +1081,9 @@ socket_time_offset_
 }
 NotifyPacketReceived
 (
+rtc
+:
+:
 ReceivedPacket
 (
 receive_buffer
@@ -1138,4 +1123,4 @@ this
 /
 /
 namespace
-rtc
+webrtc

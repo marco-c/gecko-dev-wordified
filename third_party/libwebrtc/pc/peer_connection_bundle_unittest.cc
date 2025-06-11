@@ -1961,9 +1961,6 @@ return
 candidate
 ;
 }
-rtc
-:
-:
 VirtualSocketServer
 vss_
 ;

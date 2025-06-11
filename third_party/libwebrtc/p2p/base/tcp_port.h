@@ -355,7 +355,7 @@ webrtc
 TaskQueueBase
 *
 thread
-rtc
+webrtc
 :
 :
 PacketSocketFactory
@@ -489,7 +489,7 @@ connections
 int
 GetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -506,7 +506,7 @@ override
 int
 SetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -611,13 +611,13 @@ connection
 void
 OnNewConnection
 (
-rtc
+webrtc
 :
 :
 AsyncListenSocket
 *
 socket
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -636,7 +636,7 @@ webrtc
 SocketAddress
 addr
 ;
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -650,7 +650,7 @@ TryCreateServerSocket
 (
 )
 ;
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -684,7 +684,7 @@ Socket
 void
 OnReadPacket
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -702,7 +702,7 @@ packet
 void
 OnSentPacket
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -721,7 +721,7 @@ override
 void
 OnReadyToSend
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -737,7 +737,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 AsyncListenSocket
@@ -800,7 +800,7 @@ webrtc
 :
 flat_map
 <
-rtc
+webrtc
 :
 :
 Socket
@@ -867,7 +867,7 @@ const
 Candidate
 &
 candidate
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -908,7 +908,7 @@ GetError
 )
 override
 ;
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -1049,7 +1049,7 @@ network_thread
 void
 ConnectSocketSignals
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -1066,7 +1066,7 @@ network_thread
 void
 DisconnectSocketSignals
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -1083,7 +1083,7 @@ network_thread
 void
 OnConnect
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -1094,7 +1094,7 @@ socket
 void
 OnClose
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -1107,7 +1107,7 @@ error
 void
 OnSentPacket
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -1125,7 +1125,7 @@ sent_packet
 void
 OnReadPacket
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -1143,7 +1143,7 @@ packet
 void
 OnReadyToSend
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -1199,7 +1199,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 AsyncPacketSocket

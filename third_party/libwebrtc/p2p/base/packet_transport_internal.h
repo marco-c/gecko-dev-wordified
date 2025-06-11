@@ -443,7 +443,7 @@ virtual
 int
 SetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -482,7 +482,7 @@ virtual
 bool
 GetOption
 (
-rtc
+webrtc
 :
 :
 Socket

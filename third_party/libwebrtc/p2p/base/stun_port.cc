@@ -927,7 +927,7 @@ AddressResolver
 :
 AddressResolver
 (
-rtc
+webrtc
 :
 :
 PacketSocketFactory
@@ -1246,7 +1246,7 @@ webrtc
 :
 IceCandidateType
 type
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -1626,7 +1626,7 @@ GetState
 )
 =
 =
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -2234,7 +2234,7 @@ UDPPort
 :
 SetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -2251,7 +2251,7 @@ if
 opt
 =
 =
-rtc
+webrtc
 :
 :
 Socket
@@ -2301,7 +2301,7 @@ UDPPort
 :
 GetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -2343,7 +2343,7 @@ UDPPort
 :
 HandleIncomingPacket
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -2477,7 +2477,7 @@ UDPPort
 :
 OnLocalAddressReady
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -2641,7 +2641,7 @@ UDPPort
 :
 OnReadPacket
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -2838,7 +2838,7 @@ UDPPort
 :
 OnSentPacket
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -2875,7 +2875,7 @@ UDPPort
 :
 OnReadyToSend
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -3333,7 +3333,7 @@ GetState
 )
 =
 =
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -4507,7 +4507,7 @@ webrtc
 TaskQueueBase
 *
 thread
-rtc
+webrtc
 :
 :
 PacketSocketFactory

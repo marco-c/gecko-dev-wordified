@@ -682,9 +682,6 @@ PeerConnectionJsepTest
 vss_
 (
 new
-rtc
-:
-:
 VirtualSocketServer
 (
 )
@@ -849,9 +846,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 VirtualSocketServer
 >
 vss_

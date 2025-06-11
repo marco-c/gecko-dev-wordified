@@ -110,6 +110,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 SocketServer
 >
 CreateDefaultSocketServer

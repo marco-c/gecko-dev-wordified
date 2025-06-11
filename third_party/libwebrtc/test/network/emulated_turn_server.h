@@ -494,9 +494,6 @@ key
 )
 ;
 }
-rtc
-:
-:
 AsyncPacketSocket
 *
 CreatePeerSocket
@@ -661,9 +658,6 @@ of
 the
 socket
 .
-rtc
-:
-:
 AsyncPacketSocket
 *
 Wrap

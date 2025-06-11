@@ -514,9 +514,6 @@ std
 :
 make_unique
 <
-rtc
-:
-:
 NullSocketServer
 >
 (

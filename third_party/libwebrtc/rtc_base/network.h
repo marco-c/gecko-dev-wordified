@@ -3551,6 +3551,9 @@ code
 .
 BasicNetworkManager
 (
+webrtc
+:
+:
 SocketFactory
 *
 socket_factory
@@ -3584,6 +3587,9 @@ BasicNetworkManager
 NetworkMonitorFactory
 *
 network_monitor_factory
+webrtc
+:
+:
 SocketFactory
 *
 socket_factory
@@ -4211,6 +4217,9 @@ NetworkMonitorFactory
 const
 network_monitor_factory_
 ;
+webrtc
+:
+:
 SocketFactory
 *
 const

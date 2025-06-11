@@ -195,9 +195,6 @@ absl
 :
 Nonnull
 <
-rtc
-:
-:
 SocketFactory
 *
 >

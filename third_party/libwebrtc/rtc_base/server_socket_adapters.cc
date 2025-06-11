@@ -106,7 +106,7 @@ byte_buffer
 h
 "
 namespace
-rtc
+webrtc
 {
 AsyncProxyServerSocket
 :
@@ -183,6 +183,9 @@ hello
 messages
 .
 const
+rtc
+:
+:
 ArrayView
 <
 const
@@ -280,6 +283,9 @@ len
 )
 ;
 const
+rtc
+:
+:
 ArrayView
 <
 const
@@ -341,4 +347,4 @@ false
 /
 /
 namespace
-rtc
+webrtc

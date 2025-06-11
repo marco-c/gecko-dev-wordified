@@ -197,6 +197,15 @@ include
 "
 rtc_base
 /
+socket_factory
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 task_queue_for_test
 .
 h
@@ -210,13 +219,6 @@ thread
 .
 h
 "
-namespace
-rtc
-{
-class
-SocketFactory
-;
-}
 namespace
 cricket
 {
@@ -295,7 +297,7 @@ const
 PortParametersRef
 &
 args
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -379,7 +381,7 @@ const
 PortParametersRef
 &
 args
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -459,7 +461,7 @@ rtc
 Thread
 *
 network_thread
-rtc
+webrtc
 :
 :
 PacketSocketFactory
@@ -1181,7 +1183,7 @@ Thread
 *
 network_thread_
 ;
-rtc
+webrtc
 :
 :
 PacketSocketFactory
@@ -1303,7 +1305,7 @@ rtc
 Thread
 *
 network_thread
-rtc
+webrtc
 :
 :
 PacketSocketFactory
@@ -1340,7 +1342,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 PacketSocketFactory
@@ -1499,7 +1501,7 @@ rtc
 Thread
 *
 network_thread
-rtc
+webrtc
 :
 :
 PacketSocketFactory
@@ -1510,7 +1512,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 PacketSocketFactory
@@ -1600,7 +1602,7 @@ webrtc
 :
 AlwaysValidPointerNoDefault
 <
-rtc
+webrtc
 :
 :
 PacketSocketFactory

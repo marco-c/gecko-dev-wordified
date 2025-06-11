@@ -388,9 +388,6 @@ private
 void
 OnReadPacket
 (
-rtc
-:
-:
 AsyncPacketSocket
 *
 socket
@@ -431,9 +428,6 @@ Thread
 >
 packet_sender_thread_
 ;
-rtc
-:
-:
 BasicPacketSocketFactory
 socket_factory_
 RTC_GUARDED_BY
@@ -495,9 +489,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 AsyncPacketSocket
 >
 udp_socket_

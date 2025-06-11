@@ -305,9 +305,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 AsyncPacketSocket
 >
 socket
@@ -367,9 +364,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 AsyncPacketSocket
 >
 socket
@@ -451,9 +445,6 @@ state
 bool
 CheckConnState
 (
-rtc
-:
-:
 AsyncPacketSocket
 :
 :
@@ -482,9 +473,6 @@ CheckConnected
 return
 CheckConnState
 (
-rtc
-:
-:
 AsyncPacketSocket
 :
 :
@@ -642,9 +630,6 @@ GetError
 int
 SetOption
 (
-rtc
-:
-:
 Socket
 :
 :
@@ -724,9 +709,6 @@ doesn
 t
 exist
 .
-rtc
-:
-:
 Socket
 :
 :
@@ -738,9 +720,6 @@ GetState
 void
 OnPacket
 (
-rtc
-:
-:
 AsyncPacketSocket
 *
 socket
@@ -756,9 +735,6 @@ received_packet
 void
 OnReadyToSend
 (
-rtc
-:
-:
 AsyncPacketSocket
 *
 socket
@@ -798,9 +774,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 AsyncPacketSocket
 >
 socket_

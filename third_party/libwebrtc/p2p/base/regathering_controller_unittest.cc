@@ -380,9 +380,6 @@ std
 :
 make_unique
 <
-rtc
-:
-:
 VirtualSocketServer
 >
 (
@@ -415,9 +412,6 @@ std
 :
 make_unique
 <
-rtc
-:
-:
 BasicPacketSocketFactory
 >
 (
@@ -817,9 +811,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 VirtualSocketServer
 >
 vss_
@@ -856,9 +847,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 PacketSocketFactory
 >
 packet_socket_factory_

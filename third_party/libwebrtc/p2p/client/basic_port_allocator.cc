@@ -1340,7 +1340,7 @@ rtc
 NetworkManager
 *
 network_manager
-rtc
+webrtc
 :
 :
 PacketSocketFactory
@@ -12235,7 +12235,7 @@ AllocationSequence
 :
 OnReadPacket
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket

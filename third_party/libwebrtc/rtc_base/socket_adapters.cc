@@ -196,7 +196,7 @@ zero_memory
 h
 "
 namespace
-rtc
+webrtc
 {
 BufferedReadAdapter
 :
@@ -901,6 +901,9 @@ challenge
 /
 /
 static
+rtc
+:
+:
 ArrayView
 <
 const
@@ -1106,6 +1109,9 @@ compression
 /
 /
 static
+rtc
+:
+:
 ArrayView
 <
 const
@@ -1152,9 +1158,6 @@ AsyncSSLSocket
 Connect
 (
 const
-webrtc
-:
-:
 SocketAddress
 &
 addr
@@ -1447,4 +1450,4 @@ this
 /
 /
 namespace
-rtc
+webrtc

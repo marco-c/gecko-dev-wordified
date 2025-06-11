@@ -567,9 +567,6 @@ virtual
 int
 SetOption
 (
-rtc
-:
-:
 Socket
 :
 :
@@ -585,9 +582,6 @@ virtual
 int
 GetOption
 (
-rtc
-:
-:
 Socket
 :
 :
@@ -1128,9 +1122,6 @@ this
 port
 .
 virtual
-rtc
-:
-:
 PacketSocketFactory
 *
 socket_factory

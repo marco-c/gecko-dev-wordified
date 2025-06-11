@@ -449,9 +449,6 @@ rtc
 Thread
 &
 internal_socket_thread
-rtc
-:
-:
 SocketFactory
 *
 internal
@@ -469,9 +466,6 @@ rtc
 Thread
 &
 external_socket_thread
-rtc
-:
-:
 SocketFactory
 *
 external
@@ -550,9 +544,6 @@ networks
 void
 OnInternalUDPPacket
 (
-rtc
-:
-:
 AsyncPacketSocket
 *
 socket
@@ -568,9 +559,6 @@ packet
 void
 OnExternalUDPPacket
 (
-rtc
-:
-:
 AsyncPacketSocket
 *
 socket
@@ -618,9 +606,6 @@ const
 SocketAddressPair
 &
 r
-rtc
-:
-:
 AsyncUDPSocket
 *
 s
@@ -655,9 +640,6 @@ ext_addr
 SocketAddressPair
 route
 ;
-rtc
-:
-:
 AsyncUDPSocket
 *
 socket
@@ -766,9 +748,6 @@ Thread
 &
 external_socket_thread_
 ;
-rtc
-:
-:
 SocketFactory
 *
 external_
@@ -776,9 +755,6 @@ external_
 SocketAddress
 external_ip_
 ;
-rtc
-:
-:
 AsyncUDPSocket
 *
 udp_server_socket_

@@ -112,7 +112,7 @@ checks
 h
 "
 namespace
-rtc
+webrtc
 {
 AsyncSocketAdapter
 :
@@ -201,9 +201,6 @@ OnCloseEvent
 )
 ;
 }
-webrtc
-:
-:
 SocketAddress
 AsyncSocketAdapter
 :
@@ -222,9 +219,6 @@ GetLocalAddress
 )
 ;
 }
-webrtc
-:
-:
 SocketAddress
 AsyncSocketAdapter
 :
@@ -250,9 +244,6 @@ AsyncSocketAdapter
 Bind
 (
 const
-webrtc
-:
-:
 SocketAddress
 &
 addr
@@ -275,9 +266,6 @@ AsyncSocketAdapter
 Connect
 (
 const
-webrtc
-:
-:
 SocketAddress
 &
 addr
@@ -331,9 +319,6 @@ pv
 size_t
 cb
 const
-webrtc
-:
-:
 SocketAddress
 &
 addr
@@ -390,9 +375,6 @@ void
 pv
 size_t
 cb
-webrtc
-:
-:
 SocketAddress
 *
 paddr
@@ -441,9 +423,6 @@ AsyncSocketAdapter
 :
 Accept
 (
-webrtc
-:
-:
 SocketAddress
 *
 paddr
@@ -657,4 +636,4 @@ err
 /
 /
 namespace
-rtc
+webrtc

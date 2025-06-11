@@ -373,9 +373,6 @@ override
 int
 SetRtpOption
 (
-rtc
-:
-:
 Socket
 :
 :
@@ -389,9 +386,6 @@ override
 int
 SetRtcpOption
 (
-rtc
-:
-:
 Socket
 :
 :

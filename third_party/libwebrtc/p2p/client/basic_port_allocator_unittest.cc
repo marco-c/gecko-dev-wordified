@@ -589,6 +589,8 @@ MAYBE_SKIP_IPV4
 if
 (
 !
+:
+:
 rtc
 :
 :
@@ -1298,7 +1300,7 @@ BasicPortAllocatorTestBase
 vss_
 (
 new
-rtc
+webrtc
 :
 :
 VirtualSocketServer
@@ -1308,7 +1310,7 @@ VirtualSocketServer
 fss_
 (
 new
-rtc
+webrtc
 :
 :
 FirewallSocketServer
@@ -1368,7 +1370,7 @@ kNatTcpAddr
 nat_socket_factory_
 (
 new
-rtc
+webrtc
 :
 :
 BasicPacketSocketFactory
@@ -3139,7 +3141,7 @@ it
 >
 GetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -3165,7 +3167,7 @@ it
 >
 GetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -3186,7 +3188,7 @@ send_buffer_size
 }
 }
 }
-rtc
+webrtc
 :
 :
 VirtualSocketServer
@@ -3805,7 +3807,7 @@ std
 :
 make_unique
 <
-rtc
+webrtc
 :
 :
 BasicPacketSocketFactory
@@ -3912,7 +3914,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 VirtualSocketServer
@@ -3924,14 +3926,14 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 FirewallSocketServer
 >
 fss_
 ;
-rtc
+webrtc
 :
 :
 BasicPacketSocketFactory
@@ -3966,7 +3968,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 BasicPacketSocketFactory
@@ -13068,11 +13070,11 @@ fss_
 AddRule
 (
 false
-rtc
+webrtc
 :
 :
 FP_UDP
-rtc
+webrtc
 :
 :
 FD_ANY
@@ -18198,11 +18200,11 @@ fss_
 AddRule
 (
 false
-rtc
+webrtc
 :
 :
 FP_UDP
-rtc
+webrtc
 :
 :
 FD_ANY

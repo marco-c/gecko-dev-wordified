@@ -209,9 +209,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SocketFactory
 >
 &
@@ -244,9 +241,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SocketServer
 >
 socket_server
@@ -890,9 +884,6 @@ Time32
 )
 )
 ;
-rtc
-:
-:
 SocketFactory
 *
 socket_factory
@@ -1077,9 +1068,6 @@ std
 :
 make_unique
 <
-rtc
-:
-:
 BasicPacketSocketFactory
 >
 (

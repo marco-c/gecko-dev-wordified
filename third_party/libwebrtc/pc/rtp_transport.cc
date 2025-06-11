@@ -239,9 +239,6 @@ RtpTransport
 :
 SetRtpOption
 (
-rtc
-:
-:
 Socket
 :
 :
@@ -268,9 +265,6 @@ RtpTransport
 :
 SetRtcpOption
 (
-rtc
-:
-:
 Socket
 :
 :

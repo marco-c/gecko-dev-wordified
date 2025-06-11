@@ -2437,9 +2437,6 @@ get
 )
 ;
 }
-rtc
-:
-:
 VirtualSocketServer
 vss_
 ;
@@ -11630,9 +11627,6 @@ packet_socket_factory_
 reset
 (
 new
-rtc
-:
-:
 BasicPacketSocketFactory
 (
 socket_server_
@@ -11769,9 +11763,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SocketServer
 >
 socket_server_
@@ -11809,9 +11800,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 PacketSocketFactory
 >
 packet_socket_factory_

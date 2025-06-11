@@ -139,6 +139,15 @@ include
 "
 api
 /
+packet_socket_factory
+.
+h
+"
+#
+include
+"
+api
+/
 sequence_checker
 .
 h
@@ -244,9 +253,6 @@ rtc
 class
 ByteBufferWriter
 ;
-class
-PacketSocketFactory
-;
 }
 /
 /
@@ -345,9 +351,6 @@ SocketAddress
 src
 ProtocolType
 proto
-rtc
-:
-:
 AsyncPacketSocket
 *
 socket
@@ -365,9 +368,6 @@ return
 src_
 ;
 }
-rtc
-:
-:
 AsyncPacketSocket
 *
 socket
@@ -421,9 +421,6 @@ dst_
 ProtocolType
 proto_
 ;
-rtc
-:
-:
 AsyncPacketSocket
 *
 socket_
@@ -510,9 +507,6 @@ const
 TurnServerConnection
 &
 conn
-rtc
-:
-:
 AsyncPacketSocket
 *
 server_socket
@@ -776,9 +770,6 @@ msg
 void
 OnExternalPacket
 (
-rtc
-:
-:
 AsyncPacketSocket
 *
 socket
@@ -931,9 +922,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 AsyncPacketSocket
 >
 external_socket_
@@ -1531,9 +1519,6 @@ clients
 void
 AddInternalSocket
 (
-rtc
-:
-:
 AsyncPacketSocket
 *
 socket
@@ -1578,9 +1563,6 @@ added
 void
 AddInternalServerSocket
 (
-rtc
-:
-:
 Socket
 *
 socket
@@ -1616,9 +1598,6 @@ sockets
 void
 SetExternalSocketFactory
 (
-rtc
-:
-:
 PacketSocketFactory
 *
 factory
@@ -1746,9 +1725,6 @@ thread_
 void
 OnInternalPacket
 (
-rtc
-:
-:
 AsyncPacketSocket
 *
 socket
@@ -1768,9 +1744,6 @@ thread_
 void
 OnNewInternalConnection
 (
-rtc
-:
-:
 Socket
 *
 socket
@@ -1788,9 +1761,6 @@ socket
 void
 AcceptConnection
 (
-rtc
-:
-:
 Socket
 *
 server_socket
@@ -1803,9 +1773,6 @@ thread_
 void
 OnInternalSocketClose
 (
-rtc
-:
-:
 AsyncPacketSocket
 *
 socket
@@ -2085,9 +2052,6 @@ thread_
 void
 DestroyInternalSocket
 (
-rtc
-:
-:
 AsyncPacketSocket
 *
 socket
@@ -2103,9 +2067,6 @@ std
 :
 map
 <
-rtc
-:
-:
 AsyncPacketSocket
 *
 ProtocolType
@@ -2150,9 +2111,6 @@ std
 :
 map
 <
-rtc
-:
-:
 Socket
 *
 ServerSocketInfo
@@ -2296,9 +2254,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 PacketSocketFactory
 >
 external_socket_factory_

@@ -1999,7 +1999,7 @@ len
 int
 SetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -2031,7 +2031,7 @@ true
 bool
 GetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -3704,7 +3704,7 @@ std
 :
 map
 <
-rtc
+webrtc
 :
 :
 Socket

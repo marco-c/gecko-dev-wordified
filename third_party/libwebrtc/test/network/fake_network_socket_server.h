@@ -226,9 +226,6 @@ rtc
 SocketFactory
 methods
 :
-rtc
-:
-:
 Socket
 *
 CreateSocket

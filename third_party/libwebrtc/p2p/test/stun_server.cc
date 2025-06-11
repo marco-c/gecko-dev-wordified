@@ -169,9 +169,6 @@ StunServer
 :
 StunServer
 (
-rtc
-:
-:
 AsyncUDPSocket
 *
 socket
@@ -244,9 +241,6 @@ StunServer
 :
 OnPacket
 (
-rtc
-:
-:
 AsyncPacketSocket
 *
 socket

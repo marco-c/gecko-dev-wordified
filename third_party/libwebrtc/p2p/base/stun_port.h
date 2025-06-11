@@ -279,7 +279,7 @@ const
 PortParametersRef
 &
 args
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -389,7 +389,7 @@ webrtc
 TaskQueueBase
 *
 thread
-rtc
+webrtc
 :
 :
 PacketSocketFactory
@@ -402,7 +402,7 @@ rtc
 Network
 *
 network
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -597,7 +597,7 @@ webrtc
 TaskQueueBase
 *
 thread
-rtc
+webrtc
 :
 :
 PacketSocketFactory
@@ -753,7 +753,7 @@ override
 int
 SetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -769,7 +769,7 @@ override
 int
 GetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -792,7 +792,7 @@ override
 bool
 HandleIncomingPacket
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -921,7 +921,7 @@ webrtc
 :
 IceCandidateType
 type
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -1002,7 +1002,7 @@ override
 void
 OnLocalAddressReady
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -1028,7 +1028,7 @@ override
 void
 OnReadPacket
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -1046,7 +1046,7 @@ packet
 void
 OnSentPacket
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -1065,7 +1065,7 @@ override
 void
 OnReadyToSend
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -1212,7 +1212,7 @@ public
 explicit
 AddressResolver
 (
-rtc
+webrtc
 :
 :
 PacketSocketFactory
@@ -1304,7 +1304,7 @@ AsyncDnsResolverInterface
 >
 ResolverMap
 ;
-rtc
+webrtc
 :
 :
 PacketSocketFactory
@@ -1670,7 +1670,7 @@ bind_request_failed_servers_
 StunRequestManager
 request_manager_
 ;
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -1808,7 +1808,7 @@ webrtc
 TaskQueueBase
 *
 thread
-rtc
+webrtc
 :
 :
 PacketSocketFactory

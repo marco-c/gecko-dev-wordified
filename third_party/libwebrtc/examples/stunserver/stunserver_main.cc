@@ -257,14 +257,14 @@ RTC_DCHECK
 pthMain
 )
 ;
-rtc
+webrtc
 :
 :
 AsyncUDPSocket
 *
 server_socket
 =
-rtc
+webrtc
 :
 :
 AsyncUDPSocket

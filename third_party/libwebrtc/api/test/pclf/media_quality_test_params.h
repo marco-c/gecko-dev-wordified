@@ -485,9 +485,6 @@ NetworkManager
 >
 network_manager
 ;
-rtc
-:
-:
 SocketFactory
 *
 socket_factory
@@ -782,9 +779,6 @@ rtc
 NetworkManager
 >
 network_manager
-rtc
-:
-:
 SocketFactory
 *
 socket_factory

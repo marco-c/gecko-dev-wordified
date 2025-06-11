@@ -184,6 +184,9 @@ class
 MockAsyncSocket
 :
 public
+webrtc
+:
+:
 Socket
 {
 public
@@ -198,6 +201,9 @@ default
 ;
 MOCK_METHOD
 (
+webrtc
+:
+:
 Socket
 *
 Accept
@@ -732,6 +738,9 @@ rtc
 AutoThread
 main_thread
 ;
+webrtc
+:
+:
 Socket
 *
 async_socket
@@ -790,6 +799,9 @@ main_thread
 OpenSSLAdapterFactory
 adapter_factory
 ;
+webrtc
+:
+:
 Socket
 *
 async_socket
@@ -910,6 +922,9 @@ get
 )
 )
 ;
+webrtc
+:
+:
 Socket
 *
 async_socket

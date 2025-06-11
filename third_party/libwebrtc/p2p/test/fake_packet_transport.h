@@ -484,9 +484,6 @@ len
 int
 SetOption
 (
-rtc
-:
-:
 Socket
 :
 :
@@ -511,9 +508,6 @@ return
 bool
 GetOption
 (
-rtc
-:
-:
 Socket
 :
 :
@@ -829,9 +823,6 @@ std
 :
 map
 <
-rtc
-:
-:
 Socket
 :
 :

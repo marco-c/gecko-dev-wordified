@@ -1531,7 +1531,7 @@ class
 TurnPortTestVirtualSocketServer
 :
 public
-rtc
+webrtc
 :
 :
 VirtualSocketServer
@@ -1577,7 +1577,7 @@ UpdateDelayDistribution
 ;
 }
 using
-rtc
+webrtc
 :
 :
 VirtualSocketServer
@@ -1952,7 +1952,7 @@ true
 void
 OnSocketReadPacket
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -2062,7 +2062,7 @@ DeregisterReceivedPacketCallback
 )
 ;
 }
-rtc
+webrtc
 :
 :
 Socket
@@ -2074,7 +2074,7 @@ SocketAddress
 addr
 )
 {
-rtc
+webrtc
 :
 :
 Socket
@@ -4746,7 +4746,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 Socket
@@ -4998,7 +4998,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 Socket
@@ -7438,7 +7438,7 @@ size
 protected
 :
 virtual
-rtc
+webrtc
 :
 :
 PacketSocketFactory
@@ -7550,7 +7550,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -7676,7 +7676,7 @@ error_event_
 ;
 private
 :
-rtc
+webrtc
 :
 :
 BasicPacketSocketFactory
@@ -8102,7 +8102,7 @@ turn_port_
 >
 SetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -8805,7 +8805,7 @@ turn_port_
 >
 SetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -8958,7 +8958,7 @@ turn_port_
 >
 SetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -17200,7 +17200,7 @@ get
 )
 {
 }
-rtc
+webrtc
 :
 :
 PacketSocketFactory

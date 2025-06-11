@@ -681,7 +681,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 BasicPacketSocketFactory
@@ -778,7 +778,7 @@ std
 :
 make_unique
 <
-rtc
+webrtc
 :
 :
 VirtualSocketServer
@@ -793,7 +793,7 @@ std
 :
 make_unique
 <
-rtc
+webrtc
 :
 :
 BasicPacketSocketFactory
@@ -1112,7 +1112,7 @@ std
 :
 make_unique
 <
-rtc
+webrtc
 :
 :
 BasicPacketSocketFactory
@@ -2328,7 +2328,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 VirtualSocketServer
@@ -2340,7 +2340,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 BasicPacketSocketFactory

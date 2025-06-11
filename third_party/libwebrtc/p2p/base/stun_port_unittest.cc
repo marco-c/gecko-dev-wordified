@@ -1160,7 +1160,7 @@ nat_server_address
 ss_
 (
 new
-rtc
+webrtc
 :
 :
 VirtualSocketServer
@@ -1354,7 +1354,7 @@ addr
 ;
 }
 virtual
-rtc
+webrtc
 :
 :
 PacketSocketFactory
@@ -1368,7 +1368,7 @@ return
 nat_socket_factory_
 ;
 }
-rtc
+webrtc
 :
 :
 SocketServer
@@ -1404,7 +1404,7 @@ get
 )
 ;
 }
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -1707,7 +1707,7 @@ webrtc
 SocketAddress
 &
 server_addr
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -1953,7 +1953,7 @@ PrepareAddress
 void
 OnReadPacket
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -2287,7 +2287,7 @@ return
 thread_
 ;
 }
-rtc
+webrtc
 :
 :
 SocketFactory
@@ -2327,7 +2327,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 VirtualSocketServer
@@ -2346,7 +2346,7 @@ webrtc
 NATSocketFactory
 nat_factory_
 ;
-rtc
+webrtc
 :
 :
 BasicPacketSocketFactory
@@ -2384,7 +2384,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -3120,7 +3120,7 @@ nat_factory
 )
 {
 }
-rtc
+webrtc
 :
 :
 PacketSocketFactory
@@ -5955,7 +5955,7 @@ class
 MockAsyncPacketSocket
 :
 public
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -6073,7 +6073,7 @@ MOCK_METHOD
 int
 GetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -6095,7 +6095,7 @@ MOCK_METHOD
 int
 SetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -6204,7 +6204,7 @@ WillRepeatedly
 (
 Return
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket
@@ -6318,7 +6318,7 @@ port
 >
 SetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -7159,7 +7159,7 @@ ss
 )
 {
 }
-rtc
+webrtc
 :
 :
 PacketSocketFactory

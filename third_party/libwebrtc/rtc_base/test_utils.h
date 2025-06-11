@@ -371,9 +371,6 @@ override
 void
 Monitor
 (
-rtc
-:
-:
 Socket
 *
 socket
@@ -464,9 +461,6 @@ socket
 void
 Unmonitor
 (
-rtc
-:
-:
 Socket
 *
 socket
@@ -523,9 +517,6 @@ socket
 bool
 Check
 (
-rtc
-:
-:
 Socket
 *
 socket
@@ -554,9 +545,6 @@ std
 :
 map
 <
-rtc
-:
-:
 Socket
 *
 int
@@ -566,9 +554,6 @@ EventMap
 void
 OnConnectEvent
 (
-rtc
-:
-:
 Socket
 *
 socket
@@ -584,9 +569,6 @@ SSE_OPEN
 void
 OnReadEvent
 (
-rtc
-:
-:
 Socket
 *
 socket
@@ -602,9 +584,6 @@ SSE_READ
 void
 OnWriteEvent
 (
-rtc
-:
-:
 Socket
 *
 socket
@@ -620,9 +599,6 @@ SSE_WRITE
 void
 OnCloseEvent
 (
-rtc
-:
-:
 Socket
 *
 socket
@@ -649,9 +625,6 @@ SSE_ERROR
 void
 AddEvents
 (
-rtc
-:
-:
 Socket
 *
 obj
@@ -714,9 +687,6 @@ events
 bool
 DoCheck
 (
-rtc
-:
-:
 Socket
 *
 obj

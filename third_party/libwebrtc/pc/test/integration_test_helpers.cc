@@ -1666,9 +1666,6 @@ RTCConfiguration
 config
 PeerConnectionDependencies
 dependencies
-rtc
-:
-:
 SocketServer
 *
 socket_server

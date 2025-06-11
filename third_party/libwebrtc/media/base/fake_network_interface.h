@@ -1019,9 +1019,6 @@ SocketType
 type
 *
 /
-rtc
-:
-:
 Socket
 :
 :
@@ -1036,9 +1033,6 @@ if
 opt
 =
 =
-rtc
-:
-:
 Socket
 :
 :
@@ -1056,9 +1050,6 @@ if
 opt
 =
 =
-rtc
-:
-:
 Socket
 :
 :
@@ -1076,9 +1067,6 @@ if
 opt
 =
 =
-rtc
-:
-:
 Socket
 :
 :
