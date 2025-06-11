@@ -4366,6 +4366,13 @@ EXIFParser
 :
 Parse
 (
+/
+*
+aExpectExifIdCode
+=
+*
+/
+true
 marker
 -
 >
