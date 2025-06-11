@@ -1114,10 +1114,6 @@ aCache
 {
 mWasSuppressed
 =
-!
-mCache
-|
-|
 mCache
 -
 >
@@ -1209,11 +1205,6 @@ AutoDisplayItemCacheSuppressor
 (
 )
 {
-if
-(
-mCache
-)
-{
 mCache
 -
 >
@@ -1222,7 +1213,6 @@ SetSuppressed
 mWasSuppressed
 )
 ;
-}
 }
 private
 :
