@@ -1059,7 +1059,7 @@ local
 description
 .
 virtual
-void
+RTCError
 StartSctpTransport
 (
 const
@@ -1094,7 +1094,6 @@ int
 max_message_size
 )
 {
-return
 StartSctpTransport
 (
 {

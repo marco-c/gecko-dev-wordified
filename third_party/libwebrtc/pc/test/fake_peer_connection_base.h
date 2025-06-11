@@ -2307,7 +2307,7 @@ INTERNAL_ERROR
 )
 ;
 }
-void
+RTCError
 StartSctpTransport
 (
 const
@@ -2317,6 +2317,14 @@ options
 )
 override
 {
+return
+RTCError
+:
+:
+OK
+(
+)
+;
 }
 void
 AddRemoteCandidate

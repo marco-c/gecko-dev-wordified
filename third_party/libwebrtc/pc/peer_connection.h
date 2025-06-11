@@ -3086,7 +3086,7 @@ the
 local
 description
 .
-void
+RTCError
 StartSctpTransport
 (
 const
