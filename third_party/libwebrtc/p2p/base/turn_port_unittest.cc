@@ -2351,6 +2351,9 @@ ProtocolAddress
 server_address
 )
 {
+webrtc
+:
+:
 RelayServerConfig
 config
 ;
@@ -2358,6 +2361,9 @@ config
 .
 credentials
 =
+webrtc
+:
+:
 RelayCredentials
 (
 username
@@ -2537,6 +2543,9 @@ turn_port_
 >
 SetTlsCertPolicy
 (
+webrtc
+:
+:
 TlsCertPolicy
 :
 :
@@ -2656,6 +2665,9 @@ packet
 )
 ;
 }
+webrtc
+:
+:
 RelayServerConfig
 config
 ;
@@ -2663,6 +2675,9 @@ config
 .
 credentials
 =
+webrtc
+:
+:
 RelayCredentials
 (
 username
@@ -11976,6 +11991,9 @@ Set
 bad
 credentials
 .
+webrtc
+:
+:
 RelayCredentials
 bad_credentials
 (
@@ -13629,6 +13647,9 @@ bad_ufrag
 and
 bad_pwd
 .
+webrtc
+:
+:
 RelayCredentials
 bad_credentials
 (
@@ -14787,6 +14808,9 @@ the
 TURN
 candidate
 .
+webrtc
+:
+:
 Candidate
 remote_candidate
 (
@@ -16864,6 +16888,9 @@ x
 '
 )
 ;
+webrtc
+:
+:
 RelayCredentials
 credentials
 (

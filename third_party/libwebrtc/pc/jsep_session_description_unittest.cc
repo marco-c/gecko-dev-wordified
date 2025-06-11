@@ -261,12 +261,6 @@ gtest
 h
 "
 using
-cricket
-:
-:
-MediaProtocolType
-;
-using
 :
 :
 testing
@@ -303,6 +297,14 @@ webrtc
 :
 :
 JsepSessionDescription
+;
+using
+:
+:
+webrtc
+:
+:
+MediaProtocolType
 ;
 using
 webrtc
@@ -456,7 +458,7 @@ std
 :
 unique_ptr
 <
-cricket
+webrtc
 :
 :
 SessionDescription
@@ -473,7 +475,7 @@ std
 :
 make_unique
 <
-cricket
+webrtc
 :
 :
 SessionDescription
@@ -492,7 +494,7 @@ std
 :
 make_unique
 <
-cricket
+webrtc
 :
 :
 AudioContentDescription
@@ -511,7 +513,7 @@ std
 :
 make_unique
 <
-cricket
+webrtc
 :
 :
 VideoContentDescription
@@ -739,7 +741,7 @@ port
 +
 )
 ;
-cricket
+webrtc
 :
 :
 Candidate
@@ -949,7 +951,7 @@ jsep_desc
 )
 ;
 }
-cricket
+webrtc
 :
 :
 Candidate
@@ -1129,7 +1131,7 @@ JsepSessionDescriptionTest
 CloneWithCandidates
 )
 {
-cricket
+webrtc
 :
 :
 Candidate
@@ -1171,7 +1173,7 @@ kCandidateGeneration
 kCandidateFoundation
 )
 ;
-cricket
+webrtc
 :
 :
 Candidate
@@ -1768,7 +1770,7 @@ std
 :
 vector
 <
-cricket
+webrtc
 :
 :
 Candidate
@@ -2277,7 +2279,7 @@ JsepSessionDescriptionTest
 AddHostnameCandidate
 )
 {
-cricket
+webrtc
 :
 :
 Candidate
@@ -2570,7 +2572,7 @@ JsepSessionDescriptionTest
 SerializeDeserializeWithHostnameCandidate
 )
 {
-cricket
+webrtc
 :
 :
 Candidate
@@ -3058,7 +3060,7 @@ than
 local
 host
 .
-cricket
+webrtc
 :
 :
 Candidate
@@ -3096,7 +3098,7 @@ kCandidateGeneration
 kCandidateFoundation
 )
 ;
-cricket
+webrtc
 :
 :
 Candidate
@@ -3350,7 +3352,7 @@ JsepSessionDescriptionTest
 SerializeSessionDescriptionWithBothIPFamilies
 )
 {
-cricket
+webrtc
 :
 :
 Candidate
@@ -3392,7 +3394,7 @@ kCandidateGeneration
 kCandidateFoundation
 )
 ;
-cricket
+webrtc
 :
 :
 Candidate
@@ -3661,7 +3663,7 @@ than
 local
 host
 .
-cricket
+webrtc
 :
 :
 Candidate
@@ -3699,7 +3701,7 @@ kCandidateGeneration
 kCandidateFoundation
 )
 ;
-cricket
+webrtc
 :
 :
 Candidate
@@ -3967,7 +3969,7 @@ than
 local
 host
 .
-cricket
+webrtc
 :
 :
 Candidate
@@ -4005,7 +4007,7 @@ kCandidateGeneration
 kCandidateFoundation
 )
 ;
-cricket
+webrtc
 :
 :
 Candidate
@@ -4242,7 +4244,7 @@ JsepSessionDescriptionTest
 RemoveCandidateAndSetConnectionAddress
 )
 {
-cricket
+webrtc
 :
 :
 Candidate
@@ -4289,7 +4291,7 @@ audio
 "
 )
 ;
-cricket
+webrtc
 :
 :
 Candidate
@@ -4336,7 +4338,7 @@ audio
 "
 )
 ;
-cricket
+webrtc
 :
 :
 Candidate
@@ -4485,7 +4487,7 @@ std
 :
 vector
 <
-cricket
+webrtc
 :
 :
 Candidate

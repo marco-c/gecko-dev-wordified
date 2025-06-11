@@ -503,6 +503,9 @@ adapter
 if
 known
 .
+webrtc
+:
+:
 AdapterType
 adapter_type
 ;
@@ -516,9 +519,15 @@ adapter_type
 =
 ADAPTER_TYPE_VPN
 .
+webrtc
+:
+:
 AdapterType
 underlying_type_for_vpn
 =
+webrtc
+:
+:
 ADAPTER_TYPE_UNKNOWN
 ;
 /

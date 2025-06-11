@@ -1310,6 +1310,9 @@ TCPPort
 CreateConnection
 (
 const
+webrtc
+:
+:
 Candidate
 &
 address
@@ -2965,6 +2968,9 @@ Port
 >
 tcp_port
 const
+webrtc
+:
+:
 Candidate
 &
 candidate

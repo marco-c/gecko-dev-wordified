@@ -662,9 +662,6 @@ std
 string
 &
 mid
-cricket
-:
-:
 MediaProtocolType
 media_protocol_type
 const
@@ -690,9 +687,6 @@ string
 mid
 ;
 const
-cricket
-:
-:
 MediaProtocolType
 media_protocol_type
 ;
@@ -938,9 +932,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 SessionDescription
 >
 RestoreMediaSectionsOrder
@@ -950,9 +941,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 SessionDescription
 >
 source

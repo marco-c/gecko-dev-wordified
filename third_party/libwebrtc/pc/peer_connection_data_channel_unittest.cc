@@ -947,9 +947,6 @@ description
 void
 ChangeSctpPortOnDescription
 (
-cricket
-:
-:
 SessionDescription
 *
 desc
@@ -961,9 +958,6 @@ auto
 *
 data_content
 =
-cricket
-:
-:
 GetFirstDataContent
 (
 desc
@@ -1696,9 +1690,6 @@ auto
 *
 data_content
 =
-cricket
-:
-:
 GetFirstDataContent
 (
 answer
@@ -1943,9 +1934,6 @@ options
 ;
 EXPECT_FALSE
 (
-cricket
-:
-:
 GetFirstSctpDataContentDescription
 (
 offer
@@ -2059,9 +2047,6 @@ options
 ;
 EXPECT_TRUE
 (
-cricket
-:
-:
 GetFirstSctpDataContentDescription
 (
 offer

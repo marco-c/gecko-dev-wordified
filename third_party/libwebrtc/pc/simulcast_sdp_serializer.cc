@@ -2143,9 +2143,6 @@ SimulcastSdpSerializer
 SerializeRidDescription
 (
 const
-cricket
-:
-:
 MediaContentDescription
 &
 media_desc
@@ -2853,9 +2850,6 @@ SimulcastSdpSerializer
 DeserializeRidDescription
 (
 const
-cricket
-:
-:
 MediaContentDescription
 &
 media_desc

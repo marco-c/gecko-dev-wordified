@@ -1020,6 +1020,9 @@ jsep_description
 .
 rtcp_mux_enabled
 type
+webrtc
+:
+:
 ContentSource
 :
 :
@@ -1494,6 +1497,9 @@ jsep_description
 .
 rtcp_mux_enabled
 type
+webrtc
+:
+:
 ContentSource
 :
 :
@@ -2463,6 +2469,9 @@ webrtc
 SdpType
 type
 const
+webrtc
+:
+:
 ContentInfo
 &
 content
@@ -2609,6 +2618,9 @@ const
 IceParameters
 &
 ice_parameters
+webrtc
+:
+:
 IceTransportInternal
 *
 ice_transport
@@ -2743,6 +2755,9 @@ webrtc
 :
 SdpType
 type
+webrtc
+:
+:
 ContentSource
 source
 )

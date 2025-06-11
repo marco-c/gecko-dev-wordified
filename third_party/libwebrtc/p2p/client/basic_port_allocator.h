@@ -339,6 +339,9 @@ RTC_EXPORT
 BasicPortAllocator
 :
 public
+webrtc
+:
+:
 PortAllocator
 {
 public
@@ -522,6 +525,9 @@ return
 socket_factory_
 ;
 }
+webrtc
+:
+:
 PortAllocatorSession
 *
 CreateSessionInternal
@@ -563,6 +569,9 @@ void
 AddTurnServerForTesting
 (
 const
+webrtc
+:
+:
 RelayServerConfig
 &
 turn_server
@@ -807,6 +816,9 @@ RTC_EXPORT
 BasicPortAllocatorSession
 :
 public
+webrtc
+:
+:
 PortAllocatorSession
 {
 public
@@ -1063,6 +1075,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Candidate
 >
 ReadyCandidates
@@ -1681,6 +1696,9 @@ Port
 *
 port
 const
+webrtc
+:
+:
 Candidate
 &
 c
@@ -1809,6 +1827,9 @@ Network
 networks
 bool
 disable_equivalent_phases
+webrtc
+:
+:
 IceRegatheringReason
 reason
 )
@@ -1817,6 +1838,9 @@ bool
 CheckCandidateFilter
 (
 const
+webrtc
+:
+:
 Candidate
 &
 c
@@ -1827,6 +1851,9 @@ bool
 CandidatePairable
 (
 const
+webrtc
+:
+:
 Candidate
 &
 c
@@ -1933,6 +1960,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Candidate
 >
 *
@@ -2054,6 +2084,9 @@ candidate_error_events_
 uint32_t
 candidate_filter_
 =
+webrtc
+:
+:
 CF_ALL
 ;
 /
@@ -2185,6 +2218,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 RelayServerConfig
 >
 RelayList
@@ -2268,6 +2304,9 @@ void
 AddRelay
 (
 const
+webrtc
+:
+:
 RelayServerConfig
 &
 config
@@ -2290,6 +2329,9 @@ bool
 SupportsProtocol
 (
 const
+webrtc
+:
+:
 RelayServerConfig
 &
 relay
@@ -2689,6 +2731,9 @@ void
 CreateTurnPort
 (
 const
+webrtc
+:
+:
 RelayServerConfig
 &
 config

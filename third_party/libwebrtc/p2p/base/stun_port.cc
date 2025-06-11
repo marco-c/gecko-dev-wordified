@@ -1715,6 +1715,9 @@ UDPPort
 CreateConnection
 (
 const
+webrtc
+:
+:
 Candidate
 &
 address
@@ -4326,6 +4329,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Candidate
 >
 &
@@ -4340,6 +4346,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Candidate
 >
 :

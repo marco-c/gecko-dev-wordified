@@ -730,6 +730,9 @@ void
 MediaChannelParametersFromMediaDescription
 (
 const
+webrtc
+:
+:
 MediaContentDescription
 *
 desc
@@ -870,6 +873,9 @@ void
 RtpSendParametersFromMediaDescription
 (
 const
+webrtc
+:
+:
 MediaContentDescription
 *
 desc
@@ -1863,6 +1869,9 @@ BaseChannel
 SetLocalContent
 (
 const
+webrtc
+:
+:
 MediaContentDescription
 *
 content
@@ -1912,6 +1921,9 @@ BaseChannel
 SetRemoteContent
 (
 const
+webrtc
+:
+:
 MediaContentDescription
 *
 content
@@ -5094,6 +5106,9 @@ BaseChannel
 UpdateRemoteStreams_w
 (
 const
+webrtc
+:
+:
 MediaContentDescription
 *
 content
@@ -6282,6 +6297,9 @@ VoiceChannel
 SetLocalContent_w
 (
 const
+webrtc
+:
+:
 MediaContentDescription
 *
 content
@@ -6642,6 +6660,9 @@ VoiceChannel
 SetRemoteContent_w
 (
 const
+webrtc
+:
+:
 MediaContentDescription
 *
 content
@@ -7268,6 +7289,9 @@ VideoChannel
 SetLocalContent_w
 (
 const
+webrtc
+:
+:
 MediaContentDescription
 *
 content
@@ -7992,6 +8016,9 @@ VideoChannel
 SetRemoteContent_w
 (
 const
+webrtc
+:
+:
 MediaContentDescription
 *
 content

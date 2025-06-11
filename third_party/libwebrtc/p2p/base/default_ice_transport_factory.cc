@@ -135,7 +135,7 @@ class
 BasicIceControllerFactory
 :
 public
-cricket
+webrtc
 :
 :
 IceControllerFactoryInterface
@@ -155,7 +155,7 @@ IceControllerInterface
 Create
 (
 const
-cricket
+webrtc
 :
 :
 IceControllerFactoryArgs

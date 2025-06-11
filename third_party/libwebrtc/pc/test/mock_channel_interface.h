@@ -447,7 +447,7 @@ bool
 SetLocalContent
 (
 const
-cricket
+webrtc
 :
 :
 MediaContentDescription
@@ -470,7 +470,7 @@ bool
 SetRemoteContent
 (
 const
-cricket
+webrtc
 :
 :
 MediaContentDescription

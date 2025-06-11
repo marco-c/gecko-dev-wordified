@@ -101,7 +101,7 @@ checks
 h
 "
 namespace
-rtc
+webrtc
 {
 std
 :
@@ -235,4 +235,4 @@ string
 /
 /
 namespace
-rtc
+webrtc

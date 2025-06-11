@@ -1399,9 +1399,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Candidate
 >
 &
@@ -2335,9 +2332,6 @@ absl
 string_view
 mid
 const
-cricket
-:
-:
 Candidate
 &
 candidate

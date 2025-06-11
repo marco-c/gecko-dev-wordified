@@ -742,6 +742,9 @@ Connection
 CreateConnection
 (
 const
+webrtc
+:
+:
 Candidate
 &
 address
@@ -1647,7 +1650,7 @@ network_cost
 )
 >
 =
-rtc
+webrtc
 :
 :
 kNetworkCostHigh

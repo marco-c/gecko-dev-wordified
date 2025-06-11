@@ -132,7 +132,7 @@ webrtc
 IceCandidateType
 ;
 namespace
-cricket
+webrtc
 {
 TEST
 (
@@ -223,6 +223,9 @@ c
 component
 (
 )
+cricket
+:
+:
 ICE_CANDIDATE_COMPONENT_DEFAULT
 )
 ;
@@ -230,6 +233,9 @@ c
 .
 set_component
 (
+cricket
+:
+:
 ICE_CANDIDATE_COMPONENT_RTCP
 )
 ;
@@ -240,6 +246,9 @@ c
 component
 (
 )
+cricket
+:
+:
 ICE_CANDIDATE_COMPONENT_RTCP
 )
 ;
@@ -437,9 +446,6 @@ udp
 "
 )
 ;
-webrtc
-:
-:
 SocketAddress
 address
 (
@@ -759,4 +765,4 @@ foundation
 /
 /
 namespace
-cricket
+webrtc

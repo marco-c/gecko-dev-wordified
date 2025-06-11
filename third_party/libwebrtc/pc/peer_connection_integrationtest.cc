@@ -6230,9 +6230,6 @@ SessionDescriptionInterface
 sdp
 )
 {
-cricket
-:
-:
 VideoContentDescription
 *
 video
@@ -7900,9 +7897,6 @@ contents
 {
 if
 (
-cricket
-:
-:
 IsVideoContent
 (
 &
@@ -9388,9 +9382,6 @@ contents
 )
 )
 {
-cricket
-:
-:
 MediaContentDescription
 *
 media
@@ -9854,9 +9845,6 @@ contents
 )
 )
 {
-cricket
-:
-:
 MediaContentDescription
 *
 media
@@ -17648,9 +17636,6 @@ callee_candidate_pre_restart
 )
 ;
 const
-cricket
-:
-:
 SessionDescription
 *
 desc
@@ -18330,9 +18315,6 @@ actually
 negotiated
 .
 const
-cricket
-:
-:
 SessionDescription
 *
 desc
@@ -19029,9 +19011,6 @@ ContentInfo
 *
 answer_video_content
 =
-cricket
-:
-:
 GetFirstVideoContent
 (
 callee
@@ -23488,9 +23467,6 @@ SessionDescriptionInterface
 sdp
 )
 {
-cricket
-:
-:
 AudioContentDescription
 *
 audio
@@ -23600,9 +23576,6 @@ set_codecs
 audio_codecs
 )
 ;
-cricket
-:
-:
 VideoContentDescription
 *
 video
@@ -29803,9 +29776,6 @@ SessionDescriptionInterface
 sdp
 )
 {
-cricket
-:
-:
 VideoContentDescription
 *
 video
@@ -30032,9 +30002,6 @@ SessionDescriptionInterface
 sdp
 )
 {
-cricket
-:
-:
 VideoContentDescription
 *
 video
@@ -35013,9 +34980,6 @@ contents
 )
 )
 {
-cricket
-:
-:
 MediaContentDescription
 *
 media
@@ -35466,9 +35430,6 @@ contents
 )
 )
 {
-cricket
-:
-:
 MediaContentDescription
 *
 media

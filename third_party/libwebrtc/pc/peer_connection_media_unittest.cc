@@ -1657,9 +1657,6 @@ auto
 *
 content
 =
-cricket
-:
-:
 GetFirstMediaContent
 (
 sdesc
@@ -2783,9 +2780,6 @@ auto
 *
 description
 =
-cricket
-:
-:
 GetFirstMediaContent
 (
 offer
@@ -3071,9 +3065,6 @@ auto
 *
 description
 =
-cricket
-:
-:
 GetFirstMediaContent
 (
 answer
@@ -4232,9 +4223,6 @@ auto
 *
 audio_content
 =
-cricket
-:
-:
 GetFirstAudioContent
 (
 answer
@@ -4263,9 +4251,6 @@ auto
 *
 video_content
 =
-cricket
-:
-:
 GetFirstVideoContent
 (
 answer
@@ -4453,9 +4438,6 @@ auto
 *
 offer_description
 =
-cricket
-:
-:
 GetFirstVideoContentDescription
 (
 offer
@@ -4697,9 +4679,6 @@ auto
 *
 offer_description
 =
-cricket
-:
-:
 GetFirstVideoContentDescription
 (
 offer
@@ -4793,9 +4772,6 @@ auto
 *
 answer_description
 =
-cricket
-:
-:
 GetFirstVideoContentDescription
 (
 answer
@@ -5118,9 +5094,6 @@ auto
 *
 answer_description
 =
-cricket
-:
-:
 GetFirstVideoContentDescription
 (
 answer
@@ -5378,9 +5351,6 @@ auto
 *
 content
 =
-cricket
-:
-:
 GetFirstMediaContent
 (
 offer
@@ -5782,9 +5752,6 @@ CreateOffer
 (
 )
 ;
-cricket
-:
-:
 GetFirstAudioContentDescription
 (
 offer
@@ -6170,9 +6137,6 @@ CreateOffer
 (
 )
 ;
-cricket
-:
-:
 GetFirstAudioContentDescription
 (
 offer
@@ -6291,9 +6255,6 @@ auto
 *
 audio_content
 =
-cricket
-:
-:
 GetFirstAudioContent
 (
 answer
@@ -6701,9 +6662,6 @@ bool
 HasAnyComfortNoiseCodecs
 (
 const
-cricket
-:
-:
 SessionDescription
 *
 desc
@@ -6714,9 +6672,6 @@ auto
 *
 audio_desc
 =
-cricket
-:
-:
 GetFirstAudioContentDescription
 (
 desc
@@ -6763,9 +6718,6 @@ bool
 HasPayloadTypeConflict
 (
 const
-cricket
-:
-:
 SessionDescription
 *
 desc
@@ -6785,9 +6737,6 @@ auto
 *
 audio_desc
 =
-cricket
-:
-:
 GetFirstAudioContentDescription
 (
 desc
@@ -6847,9 +6796,6 @@ auto
 *
 video_desc
 =
-cricket
-:
-:
 GetFirstVideoContentDescription
 (
 desc
@@ -7344,7 +7290,7 @@ function
 <
 void
 (
-cricket
+webrtc
 :
 :
 SessionDescription
@@ -7431,7 +7377,7 @@ function
 <
 void
 (
-cricket
+webrtc
 :
 :
 SessionDescription
@@ -7647,9 +7593,6 @@ error
 void
 RemoveVideoContentAndUnbundle
 (
-cricket
-:
-:
 SessionDescription
 *
 desc
@@ -7681,9 +7624,6 @@ BUNDLE
 auto
 content_name
 =
-cricket
-:
-:
 GetFirstVideoContent
 (
 desc
@@ -7714,9 +7654,6 @@ content_name
 void
 RenameVideoContentAndUnbundle
 (
-cricket
-:
-:
 SessionDescription
 *
 desc
@@ -7749,9 +7686,6 @@ auto
 *
 video_content
 =
-cricket
-:
-:
 GetFirstVideoContent
 (
 desc
@@ -7800,9 +7734,6 @@ mid
 void
 ReverseMediaContent
 (
-cricket
-:
-:
 SessionDescription
 *
 desc
@@ -7838,9 +7769,6 @@ transport_infos
 void
 ChangeMediaTypeAudioToVideo
 (
-cricket
-:
-:
 SessionDescription
 *
 desc
@@ -7849,9 +7777,6 @@ desc
 auto
 audio_mid
 =
-cricket
-:
-:
 GetFirstAudioContent
 (
 desc
@@ -7874,9 +7799,6 @@ auto
 *
 video_content
 =
-cricket
-:
-:
 GetFirstVideoContent
 (
 desc
@@ -8356,9 +8278,6 @@ CreateOffer
 void
 RenameContent
 (
-cricket
-:
-:
 SessionDescription
 *
 desc
@@ -8380,9 +8299,6 @@ auto
 *
 content
 =
-cricket
-:
-:
 GetFirstMediaContent
 (
 desc
@@ -8451,9 +8367,6 @@ the
 BUNDLE
 group
 .
-cricket
-:
-:
 ContentGroup
 new_bundle_group
 =
@@ -8630,9 +8543,6 @@ CreateAnswer
 EXPECT_EQ
 (
 kAudioMid
-cricket
-:
-:
 GetFirstAudioContent
 (
 answer
@@ -8652,9 +8562,6 @@ mid
 EXPECT_EQ
 (
 kVideoMid
-cricket
-:
-:
 GetFirstVideoContent
 (
 answer
@@ -8824,9 +8731,6 @@ CreateOffer
 EXPECT_EQ
 (
 kAudioMid
-cricket
-:
-:
 GetFirstAudioContent
 (
 reoffer
@@ -8846,9 +8750,6 @@ mid
 EXPECT_EQ
 (
 kVideoMid
-cricket
-:
-:
 GetFirstVideoContent
 (
 reoffer
@@ -9293,9 +9194,6 @@ CreateAnswerAndSetAsLocal
 auto
 answer_description
 =
-cricket
-:
-:
 GetFirstAudioContentDescription
 (
 answer
@@ -9362,9 +9260,6 @@ auto
 *
 offer_description
 =
-cricket
-:
-:
 GetFirstAudioContentDescription
 (
 offer
@@ -9722,9 +9617,6 @@ CreateAnswerAndSetAsLocal
 auto
 answer_description
 =
-cricket
-:
-:
 GetFirstAudioContentDescription
 (
 answer
@@ -9783,9 +9675,6 @@ auto
 *
 offer_description
 =
-cricket
-:
-:
 GetFirstAudioContentDescription
 (
 offer
@@ -10140,9 +10029,6 @@ CreateAnswerAndSetAsLocal
 auto
 answer_description
 =
-cricket
-:
-:
 GetFirstAudioContentDescription
 (
 answer
@@ -10209,9 +10095,6 @@ auto
 *
 offer_description
 =
-cricket
-:
-:
 GetFirstAudioContentDescription
 (
 offer
@@ -10632,9 +10515,6 @@ CreateAnswerAndSetAsLocal
 auto
 answer_description
 =
-cricket
-:
-:
 GetFirstAudioContentDescription
 (
 answer
@@ -10964,9 +10844,6 @@ CreateAnswerAndSetAsLocal
 auto
 answer_description
 =
-cricket
-:
-:
 GetFirstAudioContentDescription
 (
 answer
@@ -11285,9 +11162,6 @@ CreateAnswerAndSetAsLocal
 auto
 answer_description
 =
-cricket
-:
-:
 GetFirstAudioContentDescription
 (
 answer
@@ -11360,9 +11234,6 @@ auto
 *
 offer_description
 =
-cricket
-:
-:
 GetFirstAudioContentDescription
 (
 offer
@@ -15430,9 +15301,6 @@ RTX
 EXPECT_EQ
 (
 2u
-cricket
-:
-:
 GetFirstAudioContentDescription
 (
 offer
@@ -15456,9 +15324,6 @@ size
 EXPECT_EQ
 (
 2u
-cricket
-:
-:
 GetFirstVideoContentDescription
 (
 offer
@@ -15825,9 +15690,6 @@ RTX
 EXPECT_EQ
 (
 2u
-cricket
-:
-:
 GetFirstAudioContentDescription
 (
 answer
@@ -15851,9 +15713,6 @@ size
 EXPECT_EQ
 (
 2u
-cricket
-:
-:
 GetFirstVideoContentDescription
 (
 answer
@@ -16243,9 +16102,6 @@ RTX
 EXPECT_EQ
 (
 2u
-cricket
-:
-:
 GetFirstAudioContentDescription
 (
 reoffer
@@ -16269,9 +16125,6 @@ size
 EXPECT_EQ
 (
 2u
-cricket
-:
-:
 GetFirstVideoContentDescription
 (
 reoffer

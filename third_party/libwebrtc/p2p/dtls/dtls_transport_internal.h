@@ -865,6 +865,9 @@ underneath
 IceTransport
 .
 virtual
+webrtc
+:
+:
 IceTransportInternal
 *
 ice_transport

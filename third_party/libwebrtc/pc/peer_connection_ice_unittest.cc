@@ -820,9 +820,6 @@ IceCandidateInterface
 >
 CreateJsepCandidateForFirstTransport
 (
-cricket
-:
-:
 Candidate
 *
 candidate
@@ -931,9 +928,6 @@ transport
 bool
 AddIceCandidate
 (
-cricket
-:
-:
 Candidate
 *
 candidate
@@ -1583,9 +1577,6 @@ return
 wrapper
 ;
 }
-cricket
-:
-:
 Candidate
 CreateLocalUdpCandidate
 (
@@ -1595,9 +1586,6 @@ SocketAddress
 address
 )
 {
-cricket
-:
-:
 Candidate
 candidate
 ;
@@ -2338,9 +2326,6 @@ ice_credentials
 bool
 AddCandidateToFirstTransport
 (
-cricket
-:
-:
 Candidate
 *
 candidate
@@ -2508,16 +2493,10 @@ char
 *
 b_expr
 const
-cricket
-:
-:
 Candidate
 &
 a
 const
-cricket
-:
-:
 Candidate
 &
 b
@@ -3314,9 +3293,6 @@ CreateOfferAndSetAsLocal
 (
 )
 ;
-cricket
-:
-:
 Candidate
 candidate
 =
@@ -3778,9 +3754,6 @@ CreateOfferAndSetAsLocal
 (
 )
 ;
-cricket
-:
-:
 Candidate
 candidate
 =
@@ -3895,9 +3868,6 @@ CreatePeerConnectionWithAudioVideo
 (
 )
 ;
-cricket
-:
-:
 Candidate
 candidate
 =
@@ -4049,9 +4019,6 @@ get
 )
 )
 ;
-cricket
-:
-:
 Candidate
 candidate
 =
@@ -4064,9 +4031,6 @@ auto
 *
 audio_content
 =
-cricket
-:
-:
 GetFirstAudioContent
 (
 caller
@@ -4209,9 +4173,6 @@ CreateAnswerAndSetAsLocal
 )
 )
 ;
-cricket
-:
-:
 Candidate
 candidate
 =
@@ -4366,9 +4327,6 @@ CreateAnswerAndSetAsLocal
 (
 )
 ;
-cricket
-:
-:
 Candidate
 bad_candidate
 =
@@ -4498,9 +4456,6 @@ get
 )
 )
 ;
-cricket
-:
-:
 Candidate
 candidate
 =
@@ -4513,9 +4468,6 @@ auto
 *
 audio_content
 =
-cricket
-:
-:
 GetFirstAudioContent
 (
 caller
@@ -4686,9 +4638,6 @@ transport_name
 is
 empty
 .
-cricket
-:
-:
 Candidate
 candidate
 =
@@ -4701,9 +4650,6 @@ auto
 *
 audio_content
 =
-cricket
-:
-:
 GetFirstAudioContent
 (
 caller
@@ -4852,9 +4798,6 @@ CreateAnswerAndSetAsLocal
 )
 )
 ;
-cricket
-:
-:
 Candidate
 candidate
 =
@@ -5032,9 +4975,6 @@ candidate
 via
 AddIceCandidate
 .
-cricket
-:
-:
 Candidate
 candidate1
 =
@@ -5075,9 +5015,6 @@ CreateOffer
 (
 )
 ;
-cricket
-:
-:
 Candidate
 candidate2
 =
@@ -5854,9 +5791,6 @@ CreateOfferAndSetAsLocal
 )
 )
 ;
-cricket
-:
-:
 Candidate
 candidate
 =
@@ -5994,9 +5928,6 @@ CreateAnswerAndSetAsLocal
 )
 )
 ;
-cricket
-:
-:
 Candidate
 candidate1
 =
@@ -6014,9 +5945,6 @@ AddIceCandidate
 candidate1
 )
 ;
-cricket
-:
-:
 Candidate
 candidate2
 =
@@ -7839,9 +7767,6 @@ CreateOfferAndSetAsLocal
 (
 )
 ;
-cricket
-:
-:
 Candidate
 candidate
 =
@@ -7982,9 +7907,6 @@ CreateOfferAndSetAsLocal
 (
 )
 ;
-cricket
-:
-:
 Candidate
 old_candidate
 =
@@ -8041,9 +7963,6 @@ CreateOfferAndSetAsLocal
 options
 )
 ;
-cricket
-:
-:
 Candidate
 new_candidate
 =
@@ -12651,9 +12570,6 @@ transport_name
 is
 empty
 .
-cricket
-:
-:
 Candidate
 candidate
 =
@@ -12666,9 +12582,6 @@ auto
 *
 audio_content
 =
-cricket
-:
-:
 GetFirstAudioContent
 (
 caller

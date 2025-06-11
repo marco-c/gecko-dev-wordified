@@ -1222,6 +1222,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Candidate
 >
 &
@@ -1398,6 +1401,9 @@ keep
 it
 const
 .
+webrtc
+:
+:
 Candidate
 c
 (
@@ -1617,6 +1623,9 @@ Port
 MaybeObfuscateAddress
 (
 const
+webrtc
+:
+:
 Candidate
 &
 c
@@ -1910,6 +1919,9 @@ Port
 FinishAddingAddress
 (
 const
+webrtc
+:
+:
 Candidate
 &
 c
@@ -2753,6 +2765,9 @@ Port
 AddPrflxCandidate
 (
 const
+webrtc
+:
+:
 Candidate
 &
 local

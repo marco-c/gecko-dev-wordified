@@ -446,9 +446,6 @@ string
 SerializeRidDescription
 (
 const
-cricket
-:
-:
 MediaContentDescription
 &
 media_desc
@@ -507,9 +504,6 @@ RidDescription
 DeserializeRidDescription
 (
 const
-cricket
-:
-:
 MediaContentDescription
 &
 media_desc

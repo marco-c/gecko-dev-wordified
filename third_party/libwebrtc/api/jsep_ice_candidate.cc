@@ -184,9 +184,6 @@ sdp_mline_index_
 ;
 }
 const
-cricket
-:
-:
 Candidate
 &
 JsepIceCandidate
@@ -418,9 +415,6 @@ JsepCandidateCollection
 remove
 (
 const
-cricket
-:
-:
 Candidate
 &
 candidate

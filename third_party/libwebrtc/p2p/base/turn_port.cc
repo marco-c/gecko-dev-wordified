@@ -1405,6 +1405,9 @@ ProtocolAddress
 &
 server_address
 const
+webrtc
+:
+:
 RelayCredentials
 &
 credentials
@@ -1568,6 +1571,9 @@ ProtocolAddress
 &
 server_address
 const
+webrtc
+:
+:
 RelayCredentials
 &
 credentials
@@ -1760,6 +1766,9 @@ ProtocolAddress
 &
 server_address
 const
+webrtc
+:
+:
 RelayCredentials
 &
 credentials
@@ -1894,6 +1903,9 @@ ProtocolAddress
 &
 server_address
 const
+webrtc
+:
+:
 RelayCredentials
 &
 credentials
@@ -2206,6 +2218,9 @@ server_address_
 proto
 ;
 }
+webrtc
+:
+:
 TlsCertPolicy
 TurnPort
 :
@@ -2225,6 +2240,9 @@ TurnPort
 :
 SetTlsCertPolicy
 (
+webrtc
+:
+:
 TlsCertPolicy
 tls_cert_policy
 )
@@ -2932,6 +2950,9 @@ if
 tls_cert_policy_
 =
 =
+webrtc
+:
+:
 TlsCertPolicy
 :
 :
@@ -4109,6 +4130,9 @@ TurnPort
 CreateConnection
 (
 const
+webrtc
+:
+:
 Candidate
 &
 remote_candidate
@@ -4282,6 +4306,9 @@ index
 )
 {
 const
+webrtc
+:
+:
 Candidate
 &
 local_candidate
@@ -8881,6 +8908,9 @@ channel_number
 )
 {
 const
+webrtc
+:
+:
 Candidate
 &
 remote_candidate

@@ -199,6 +199,9 @@ SetOffer
 (
 bool
 offer_enable
+webrtc
+:
+:
 ContentSource
 src
 )
@@ -274,6 +277,9 @@ state_
 src
 =
 =
+webrtc
+:
+:
 CS_LOCAL
 )
 ?
@@ -293,6 +299,9 @@ SetProvisionalAnswer
 (
 bool
 answer_enable
+webrtc
+:
+:
 ContentSource
 src
 )
@@ -371,6 +380,9 @@ if
 src
 =
 =
+webrtc
+:
+:
 CS_REMOTE
 )
 state_
@@ -431,6 +443,9 @@ if
 src
 =
 =
+webrtc
+:
+:
 CS_REMOTE
 )
 state_
@@ -503,6 +518,9 @@ SetAnswer
 (
 bool
 answer_enable
+webrtc
+:
+:
 ContentSource
 src
 )
@@ -654,6 +672,9 @@ ExpectOffer
 (
 bool
 offer_enable
+webrtc
+:
+:
 ContentSource
 source
 )
@@ -692,6 +713,9 @@ ST_SENTOFFER
 source
 =
 =
+webrtc
+:
+:
 CS_LOCAL
 )
 |
@@ -706,6 +730,9 @@ ST_RECEIVEDOFFER
 source
 =
 =
+webrtc
+:
+:
 CS_REMOTE
 )
 )
@@ -717,6 +744,9 @@ RtcpMuxFilter
 :
 ExpectAnswer
 (
+webrtc
+:
+:
 ContentSource
 source
 )
@@ -733,6 +763,9 @@ ST_SENTOFFER
 source
 =
 =
+webrtc
+:
+:
 CS_REMOTE
 )
 |
@@ -747,6 +780,9 @@ ST_RECEIVEDOFFER
 source
 =
 =
+webrtc
+:
+:
 CS_LOCAL
 )
 |
@@ -761,6 +797,9 @@ ST_SENTPRANSWER
 source
 =
 =
+webrtc
+:
+:
 CS_LOCAL
 )
 |
@@ -775,6 +814,9 @@ ST_RECEIVEDPRANSWER
 source
 =
 =
+webrtc
+:
+:
 CS_REMOTE
 )
 )

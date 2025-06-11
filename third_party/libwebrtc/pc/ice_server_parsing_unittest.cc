@@ -446,9 +446,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 RelayServerConfig
 >
 turn_servers_
@@ -650,9 +647,6 @@ turn_servers_
 tls_cert_policy
 =
 =
-cricket
-:
-:
 TlsCertPolicy
 :
 :
@@ -714,9 +708,6 @@ turn_servers_
 tls_cert_policy
 =
 =
-cricket
-:
-:
 TlsCertPolicy
 :
 :

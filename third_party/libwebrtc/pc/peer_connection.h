@@ -1055,9 +1055,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 RelayServerConfig
 >
 &
@@ -1910,9 +1907,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Candidate
 >
 &
@@ -2721,9 +2715,6 @@ get
 )
 ;
 }
-cricket
-:
-:
 PortAllocator
 *
 port_allocator
@@ -2818,9 +2809,6 @@ absl
 string_view
 mid
 const
-cricket
-:
-:
 Candidate
 &
 candidate
@@ -3007,9 +2995,6 @@ bool
 ValidateBundleSettings
 (
 const
-cricket
-:
-:
 SessionDescription
 *
 desc
@@ -3024,9 +3009,6 @@ std
 :
 string
 const
-cricket
-:
-:
 ContentGroup
 *
 >
@@ -3475,9 +3457,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 RelayServerConfig
 >
 &
@@ -3559,9 +3538,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 RelayServerConfig
 >
 &
@@ -3758,9 +3734,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Candidate
 >
 &
@@ -3830,9 +3803,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 RelayServerConfig
 >
 &
@@ -3881,9 +3851,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 RelayServerConfig
 >
 &
@@ -4009,9 +3976,6 @@ bool
 GetTransportDescription
 (
 const
-cricket
-:
-:
 SessionDescription
 *
 description
@@ -4112,7 +4076,9 @@ signaling_thread
 void
 OnTransportControllerGatheringState
 (
-cricket
+:
+:
+webrtc
 :
 :
 IceGatheringState
@@ -4141,9 +4107,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Candidate
 >
 &
@@ -4183,9 +4146,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Candidate
 >
 &
@@ -4320,9 +4280,6 @@ void
 ReportIceCandidateCollected
 (
 const
-cricket
-:
-:
 Candidate
 &
 candidate
@@ -4350,9 +4307,6 @@ void
 ReportRemoteIceCandidateAdded
 (
 const
-cricket
-:
-:
 Candidate
 &
 candidate
@@ -4663,9 +4617,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 PortAllocator
 >
 port_allocator_

@@ -994,6 +994,9 @@ kTurnUdpExtAddr
 )
 ;
 const
+webrtc
+:
+:
 RelayCredentials
 kRelayCredentials
 (
@@ -1080,6 +1083,9 @@ kTestData
 ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890
 "
 ;
+webrtc
+:
+:
 Candidate
 GetCandidate
 (
@@ -1632,6 +1638,9 @@ Connection
 CreateConnection
 (
 const
+webrtc
+:
+:
 Candidate
 &
 remote_candidate
@@ -2465,6 +2474,9 @@ void
 CreateConnection
 (
 const
+webrtc
+:
+:
 Candidate
 &
 remote_candidate
@@ -2607,6 +2619,9 @@ void
 AcceptConnection
 (
 const
+webrtc
+:
+:
 Candidate
 &
 remote_candidate
@@ -2644,6 +2659,9 @@ get
 NULL
 )
 ;
+webrtc
+:
+:
 Candidate
 c
 =
@@ -4305,7 +4323,7 @@ ipaddr
 (
 )
 32
-rtc
+webrtc
 :
 :
 ADAPTER_TYPE_UNKNOWN
@@ -4870,6 +4888,9 @@ SocketAddress
 server_addr
 )
 {
+webrtc
+:
+:
 RelayServerConfig
 config
 ;
@@ -10762,6 +10783,9 @@ kLocalAddr2
 )
 )
 ;
+webrtc
+:
+:
 Candidate
 c
 =
@@ -19145,7 +19169,7 @@ kNetworkCostUnknown
 .
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 kNetworkCostUnknown
@@ -19192,7 +19216,7 @@ Candidates
 {
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 kNetworkCostUnknown
@@ -19218,7 +19242,7 @@ test_network
 >
 set_type
 (
-rtc
+webrtc
 :
 :
 ADAPTER_TYPE_WIFI
@@ -19226,7 +19250,7 @@ ADAPTER_TYPE_WIFI
 ;
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 kNetworkCostLow
@@ -19258,7 +19282,7 @@ Candidates
 {
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 kNetworkCostLow
@@ -19320,7 +19344,7 @@ test_network
 >
 set_type
 (
-rtc
+webrtc
 :
 :
 ADAPTER_TYPE_CELLULAR
@@ -19328,7 +19352,7 @@ ADAPTER_TYPE_CELLULAR
 ;
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 kNetworkCostHigh
@@ -19360,7 +19384,7 @@ Candidates
 {
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 kNetworkCostHigh
@@ -19377,7 +19401,7 @@ test_network
 >
 set_type
 (
-rtc
+webrtc
 :
 :
 ADAPTER_TYPE_WIFI
@@ -19412,7 +19436,7 @@ test_network
 >
 set_type
 (
-rtc
+webrtc
 :
 :
 ADAPTER_TYPE_CELLULAR
@@ -19484,7 +19508,7 @@ kNetworkCostHigh
 ;
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 kNetworkCostLow
@@ -19672,7 +19696,7 @@ IsRtcOk
 ;
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 kNetworkCostHigh
@@ -19954,7 +19978,7 @@ kNetworkCostUnknown
 .
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 kNetworkCostUnknown
@@ -19995,7 +20019,7 @@ test_network
 >
 set_type
 (
-rtc
+webrtc
 :
 :
 ADAPTER_TYPE_CELLULAR
@@ -20140,7 +20164,7 @@ network_info
 ;
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 kNetworkCostHigh
@@ -24499,6 +24523,9 @@ expected_priority_v4
 1509957199U
 +
 (
+webrtc
+:
+:
 kMaxTurnServers
 <
 <
@@ -24511,6 +24538,9 @@ expected_priority_v6
 1509959759U
 +
 (
+webrtc
+:
+:
 kMaxTurnServers
 <
 <
@@ -24523,6 +24553,9 @@ expected_priority_ula
 1509962319U
 +
 (
+webrtc
+:
+:
 kMaxTurnServers
 <
 <
@@ -24540,6 +24573,9 @@ expected_priority_v4compat
 1509949775U
 +
 (
+webrtc
+:
+:
 kMaxTurnServers
 <
 <
@@ -24552,6 +24588,9 @@ expected_priority_6to4
 1509954639U
 +
 (
+webrtc
+:
+:
 kMaxTurnServers
 <
 <
@@ -24564,6 +24603,9 @@ expected_priority_teredo
 1509952079U
 +
 (
+webrtc
+:
+:
 kMaxTurnServers
 <
 <
@@ -24576,6 +24618,9 @@ expected_priority_sitelocal
 1509949775U
 +
 (
+webrtc
+:
+:
 kMaxTurnServers
 <
 <
@@ -24588,6 +24633,9 @@ expected_priority_6bone
 1509949775U
 +
 (
+webrtc
+:
+:
 kMaxTurnServers
 <
 <
@@ -26273,7 +26321,7 @@ PortTest
 TestCandidatePriority
 )
 {
-cricket
+webrtc
 :
 :
 Candidate
@@ -26286,7 +26334,7 @@ set_priority
 3
 )
 ;
-cricket
+webrtc
 :
 :
 Candidate
@@ -26848,6 +26896,9 @@ EXPECT_EQ
 0x7E001E85U
 +
 (
+webrtc
+:
+:
 kMaxTurnServers
 <
 <
@@ -26873,6 +26924,9 @@ EXPECT_EQ
 0x2001EE9U
 +
 (
+webrtc
+:
+:
 kMaxTurnServers
 <
 <
@@ -34981,6 +35035,9 @@ password
 )
 ;
 const
+webrtc
+:
+:
 Candidate
 &
 candidate
@@ -35098,7 +35155,7 @@ address
 5000
 )
 ;
-cricket
+webrtc
 :
 :
 Candidate

@@ -249,9 +249,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 IceTransportInternal
 >
 internal
@@ -282,9 +279,6 @@ thread_checker_
 )
 ;
 }
-cricket
-:
-:
 IceTransportInternal
 *
 internal
@@ -320,9 +314,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 IceTransportInternal
 >
 internal_
@@ -346,9 +337,6 @@ IceTransportInterface
 >
 CreateIceTransport
 (
-cricket
-:
-:
 PortAllocator
 *
 port_allocator

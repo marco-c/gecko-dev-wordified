@@ -205,9 +205,6 @@ auto
 *
 audio_desc
 =
-cricket
-:
-:
 GetFirstAudioContentDescription
 (
 session

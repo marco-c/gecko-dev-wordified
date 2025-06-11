@@ -688,9 +688,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Candidate
 >
 &
@@ -1946,9 +1943,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Candidate
 >
 &

@@ -2470,9 +2470,6 @@ void
 TestDeserialization
 (
 const
-cricket
-:
-:
 MediaContentDescription
 &
 media_desc
@@ -2558,9 +2555,6 @@ void
 TestSerialization
 (
 const
-cricket
-:
-:
 MediaContentDescription
 &
 media_desc
@@ -2632,9 +2626,6 @@ kSend
 ;
 TestSerialization
 (
-cricket
-:
-:
 VideoContentDescription
 (
 )
@@ -2677,9 +2668,6 @@ kReceive
 ;
 TestSerialization
 (
-cricket
-:
-:
 VideoContentDescription
 (
 )
@@ -2741,9 +2729,6 @@ VP9
 "
 )
 ;
-cricket
-:
-:
 VideoContentDescription
 video_desc
 ;
@@ -2826,9 +2811,6 @@ VP8
 "
 )
 ;
-cricket
-:
-:
 VideoContentDescription
 video_desc
 ;
@@ -2952,9 +2934,6 @@ height
 ;
 TestSerialization
 (
-cricket
-:
-:
 VideoContentDescription
 (
 )
@@ -3047,9 +3026,6 @@ VP9
 "
 )
 ;
-cricket
-:
-:
 VideoContentDescription
 video_desc
 ;
@@ -3195,9 +3171,6 @@ VP8
 "
 )
 ;
-cricket
-:
-:
 VideoContentDescription
 video_desc
 ;
@@ -3334,9 +3307,6 @@ kSend
 ;
 TestDeserialization
 (
-cricket
-:
-:
 VideoContentDescription
 (
 )
@@ -3378,9 +3348,6 @@ kReceive
 ;
 TestDeserialization
 (
-cricket
-:
-:
 VideoContentDescription
 (
 )
@@ -3424,9 +3391,6 @@ VP8
 "
 )
 ;
-cricket
-:
-:
 VideoContentDescription
 video_desc
 ;
@@ -3529,9 +3493,6 @@ VP8
 "
 )
 ;
-cricket
-:
-:
 VideoContentDescription
 video_desc
 ;
@@ -3673,9 +3634,6 @@ H264
 "
 )
 ;
-cricket
-:
-:
 VideoContentDescription
 video_desc
 ;
@@ -3774,9 +3732,6 @@ height
 ;
 TestDeserialization
 (
-cricket
-:
-:
 VideoContentDescription
 (
 )
@@ -3882,9 +3837,6 @@ bps
 ;
 TestDeserialization
 (
-cricket
-:
-:
 VideoContentDescription
 (
 )
@@ -3981,9 +3933,6 @@ height
 ;
 TestDeserialization
 (
-cricket
-:
-:
 VideoContentDescription
 (
 )
@@ -4055,9 +4004,6 @@ H264
 "
 )
 ;
-cricket
-:
-:
 VideoContentDescription
 video_desc
 ;
@@ -4184,9 +4130,6 @@ H264
 "
 )
 ;
-cricket
-:
-:
 VideoContentDescription
 video_desc
 ;
@@ -4370,9 +4313,6 @@ value
 .
 TestDeserialization
 (
-cricket
-:
-:
 VideoContentDescription
 (
 )
@@ -4403,9 +4343,6 @@ RidDescriptionSdpSerializerTest
 RidDescriptionDeserializationFailed
 )
 {
-cricket
-:
-:
 VideoContentDescription
 video_desc
 ;

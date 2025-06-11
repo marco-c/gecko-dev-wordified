@@ -355,7 +355,7 @@ std
 :
 vector
 <
-cricket
+webrtc
 :
 :
 RelayServerConfig
@@ -396,7 +396,7 @@ std
 :
 vector
 <
-cricket
+webrtc
 :
 :
 RelayServerConfig
@@ -682,7 +682,7 @@ stun_server_2
 3478
 }
 ;
-cricket
+webrtc
 :
 :
 RelayServerConfig
@@ -707,7 +707,7 @@ PROTO_UDP
 false
 }
 ;
-cricket
+webrtc
 :
 :
 RelayServerConfig
@@ -823,7 +823,7 @@ allocator_
 >
 SetCandidateFilter
 (
-cricket
+webrtc
 :
 :
 CF_RELAY
@@ -848,7 +848,7 @@ session
 ;
 EXPECT_EQ
 (
-cricket
+webrtc
 :
 :
 CF_RELAY
@@ -926,7 +926,7 @@ std
 :
 vector
 <
-cricket
+webrtc
 :
 :
 RelayServerConfig
@@ -1001,7 +1001,7 @@ std
 :
 vector
 <
-cricket
+webrtc
 :
 :
 RelayServerConfig
@@ -1355,7 +1355,7 @@ std
 :
 vector
 <
-cricket
+webrtc
 :
 :
 RelayServerConfig
@@ -1434,7 +1434,7 @@ std
 :
 vector
 <
-cricket
+webrtc
 :
 :
 RelayServerConfig
@@ -1851,7 +1851,7 @@ allocator_
 >
 SetCandidateFilter
 (
-cricket
+webrtc
 :
 :
 CF_RELAY
@@ -1877,7 +1877,7 @@ peeked_session
 ;
 EXPECT_EQ
 (
-cricket
+webrtc
 :
 :
 CF_ALL
@@ -1898,7 +1898,7 @@ TakePooledSession
 ;
 EXPECT_EQ
 (
-cricket
+webrtc
 :
 :
 CF_RELAY
@@ -2172,13 +2172,13 @@ PortAllocatorTest
 SanitizeEmptyCandidateDefaultConfig
 )
 {
-cricket
+webrtc
 :
 :
 Candidate
 input
 ;
-cricket
+webrtc
 :
 :
 Candidate
@@ -2218,7 +2218,7 @@ PortAllocatorTest
 SanitizeIpv4CandidateDefaultConfig
 )
 {
-cricket
+webrtc
 :
 :
 Candidate
@@ -2255,7 +2255,7 @@ foundation
 1
 )
 ;
-cricket
+webrtc
 :
 :
 Candidate
@@ -2316,7 +2316,7 @@ SetMdnsObfuscationEnabledForTesting
 true
 )
 ;
-cricket
+webrtc
 :
 :
 Candidate
@@ -2353,7 +2353,7 @@ foundation
 1
 )
 ;
-cricket
+webrtc
 :
 :
 Candidate
@@ -2430,7 +2430,7 @@ populates
 the
 hostname
 .
-cricket
+webrtc
 :
 :
 Candidate
@@ -2467,7 +2467,7 @@ foundation
 1
 )
 ;
-cricket
+webrtc
 :
 :
 Candidate
@@ -2544,7 +2544,7 @@ populates
 the
 hostname
 .
-cricket
+webrtc
 :
 :
 Candidate
@@ -2581,7 +2581,7 @@ foundation
 1
 )
 ;
-cricket
+webrtc
 :
 :
 Candidate
@@ -2705,7 +2705,7 @@ ip
 )
 )
 ;
-cricket
+webrtc
 :
 :
 Candidate
@@ -2742,7 +2742,7 @@ foundation
 1
 )
 ;
-cricket
+webrtc
 :
 :
 Candidate

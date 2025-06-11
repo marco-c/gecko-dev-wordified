@@ -244,9 +244,6 @@ sdp_mid
 int
 sdp_mline_index
 const
-cricket
-:
-:
 Candidate
 &
 candidate
@@ -308,9 +305,6 @@ sdp_mid
 int
 sdp_mline_index
 const
-cricket
-:
-:
 Candidate
 &
 candidate

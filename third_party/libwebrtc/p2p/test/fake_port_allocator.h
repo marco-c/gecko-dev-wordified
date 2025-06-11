@@ -446,12 +446,18 @@ class
 FakePortAllocatorSession
 :
 public
+webrtc
+:
+:
 PortAllocatorSession
 {
 public
 :
 FakePortAllocatorSession
 (
+webrtc
+:
+:
 PortAllocator
 *
 allocator
@@ -492,6 +498,9 @@ FieldTrialsView
 *
 field_trials
 )
+:
+webrtc
+:
 :
 PortAllocatorSession
 (
@@ -655,6 +664,9 @@ flags
 (
 )
 &
+webrtc
+:
+:
 PORTALLOCATOR_ENABLE_IPV6
 )
 )
@@ -820,6 +832,9 @@ override
 SignalIceRegathering
 (
 this
+webrtc
+:
+:
 IceRegatheringReason
 :
 :
@@ -853,6 +868,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Candidate
 >
 ReadyCandidates
@@ -917,6 +935,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 RelayServerConfig
 >
 &
@@ -1085,6 +1106,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Candidate
 >
 &
@@ -1172,6 +1196,9 @@ release
 )
 ;
 }
+webrtc
+:
+:
 PortAllocator
 *
 allocator_
@@ -1222,6 +1249,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Candidate
 >
 candidates_
@@ -1257,6 +1287,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 RelayServerConfig
 >
 turn_servers_
@@ -1264,6 +1297,9 @@ turn_servers_
 uint32_t
 candidate_filter_
 =
+webrtc
+:
+:
 CF_ALL
 ;
 int
@@ -1290,7 +1326,7 @@ class
 FakePortAllocator
 :
 public
-cricket
+webrtc
 :
 :
 PortAllocator
@@ -1385,7 +1421,7 @@ network_ignore_mask
 override
 {
 }
-cricket
+webrtc
 :
 :
 PortAllocatorSession

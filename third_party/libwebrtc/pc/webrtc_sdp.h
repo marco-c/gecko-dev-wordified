@@ -259,17 +259,6 @@ rtc_export
 h
 "
 namespace
-cricket
-{
-class
-Candidate
-;
-}
-/
-/
-namespace
-cricket
-namespace
 webrtc
 {
 class
@@ -398,9 +387,6 @@ string
 SdpSerializeCandidate
 (
 const
-cricket
-:
-:
 Candidate
 &
 candidate
@@ -684,9 +670,6 @@ absl
 :
 string_view
 message
-cricket
-:
-:
 Candidate
 *
 candidate
@@ -785,9 +768,6 @@ absl
 :
 string_view
 message
-cricket
-:
-:
 Candidate
 *
 candidate

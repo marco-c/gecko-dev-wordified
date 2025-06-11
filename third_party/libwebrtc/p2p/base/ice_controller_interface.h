@@ -688,6 +688,9 @@ void
 SetIceConfig
 (
 const
+webrtc
+:
+:
 IceConfig
 &
 config
@@ -915,6 +918,9 @@ const
 Connection
 *
 conn
+webrtc
+:
+:
 NominationMode
 mode
 IceMode

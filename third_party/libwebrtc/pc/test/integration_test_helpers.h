@@ -852,14 +852,6 @@ using
 cricket
 :
 :
-ContentInfo
-;
-using
-:
-:
-cricket
-:
-:
 StreamParams
 ;
 using
@@ -4225,9 +4217,6 @@ return
 event_log_factory_
 ;
 }
-cricket
-:
-:
 Candidate
 last_candidate_gathered
 (
@@ -4249,9 +4238,6 @@ candidate
 ;
 }
 return
-cricket
-:
-:
 Candidate
 (
 )
@@ -8574,9 +8560,6 @@ MockIceTransport
 =
 default
 ;
-cricket
-:
-:
 IceTransportInternal
 *
 internal

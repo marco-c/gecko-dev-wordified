@@ -424,6 +424,9 @@ public
 explicit
 StreamInterfaceChannel
 (
+webrtc
+:
+:
 IceTransportInternal
 *
 ice_transport
@@ -554,6 +557,9 @@ error
 override
 ;
 private
+:
+webrtc
+:
 :
 IceTransportInternal
 *
@@ -909,6 +915,9 @@ DtlsTransport
 .
 DtlsTransport
 (
+webrtc
+:
+:
 IceTransportInternal
 *
 ice_transport
@@ -1572,6 +1581,9 @@ keying_material
 )
 override
 ;
+webrtc
+:
+:
 IceTransportInternal
 *
 ice_transport
@@ -2044,6 +2056,9 @@ by
 this
 class
 .
+webrtc
+:
+:
 IceTransportInternal
 *
 const

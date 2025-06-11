@@ -127,9 +127,6 @@ const
 Config
 &
 config
-cricket
-:
-:
 IceTransportInternal
 *
 ice_transport

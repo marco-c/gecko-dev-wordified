@@ -96,6 +96,15 @@ include
 "
 api
 /
+ice_transport_interface
+.
+h
+"
+#
+include
+"
+api
+/
 sequence_checker
 .
 h
@@ -170,9 +179,6 @@ creator_thread_
 ;
 }
 }
-cricket
-:
-:
 IceTransportInternal
 *
 IceTransportWithPointer

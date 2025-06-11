@@ -962,6 +962,9 @@ bool
 SetLocalContent
 (
 const
+webrtc
+:
+:
 MediaContentDescription
 *
 content
@@ -983,6 +986,9 @@ bool
 SetRemoteContent
 (
 const
+webrtc
+:
+:
 MediaContentDescription
 *
 content
@@ -1913,6 +1919,9 @@ bool
 UpdateRemoteStreams_w
 (
 const
+webrtc
+:
+:
 MediaContentDescription
 *
 content
@@ -1940,6 +1949,9 @@ bool
 SetLocalContent_w
 (
 const
+webrtc
+:
+:
 MediaContentDescription
 *
 content
@@ -1969,6 +1981,9 @@ bool
 SetRemoteContent_w
 (
 const
+webrtc
+:
+:
 MediaContentDescription
 *
 content
@@ -3089,6 +3104,9 @@ bool
 SetLocalContent_w
 (
 const
+webrtc
+:
+:
 MediaContentDescription
 *
 content
@@ -3116,6 +3134,9 @@ bool
 SetRemoteContent_w
 (
 const
+webrtc
+:
+:
 MediaContentDescription
 *
 content
@@ -3417,6 +3438,9 @@ bool
 SetLocalContent_w
 (
 const
+webrtc
+:
+:
 MediaContentDescription
 *
 content
@@ -3444,6 +3468,9 @@ bool
 SetRemoteContent_w
 (
 const
+webrtc
+:
+:
 MediaContentDescription
 *
 content

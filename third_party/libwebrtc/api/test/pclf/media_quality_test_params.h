@@ -1018,9 +1018,6 @@ PORTALLOCATOR_DISABLE_TCP
 uint32_t
 port_allocator_flags
 =
-cricket
-:
-:
 PORTALLOCATOR_DISABLE_TCP
 ;
 /

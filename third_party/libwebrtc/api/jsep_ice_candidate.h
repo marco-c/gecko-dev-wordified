@@ -212,9 +212,6 @@ sdp_mid
 int
 sdp_mline_index
 const
-cricket
-:
-:
 Candidate
 &
 candidate
@@ -273,9 +270,6 @@ void
 SetCandidate
 (
 const
-cricket
-:
-:
 Candidate
 &
 candidate
@@ -304,9 +298,6 @@ const
 override
 ;
 const
-cricket
-:
-:
 Candidate
 &
 candidate
@@ -349,9 +340,6 @@ sdp_mid_
 int
 sdp_mline_index_
 ;
-cricket
-:
-:
 Candidate
 candidate_
 ;
@@ -545,9 +533,6 @@ size_t
 remove
 (
 const
-cricket
-:
-:
 Candidate
 &
 candidate

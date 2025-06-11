@@ -236,7 +236,7 @@ function
 bool
 (
 const
-cricket
+webrtc
 :
 :
 ContentInfo
@@ -277,9 +277,6 @@ SdpContentsAll
 SdpContentPredicate
 pred
 const
-cricket
-:
-:
 SessionDescription
 *
 desc
@@ -313,9 +310,6 @@ SdpContentsNone
 SdpContentPredicate
 pred
 const
-cricket
-:
-:
 SessionDescription
 *
 desc
@@ -356,7 +350,7 @@ function
 <
 void
 (
-cricket
+webrtc
 :
 :
 ContentInfo
@@ -392,9 +386,6 @@ SdpContentsForEach
 (
 SdpContentMutator
 fn
-cricket
-:
-:
 SessionDescription
 *
 desc

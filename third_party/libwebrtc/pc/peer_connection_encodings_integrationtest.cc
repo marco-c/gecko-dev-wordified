@@ -2485,9 +2485,6 @@ still
 send
 simulcast
 .
-cricket
-:
-:
 MediaContentDescription
 *
 mcd_answer

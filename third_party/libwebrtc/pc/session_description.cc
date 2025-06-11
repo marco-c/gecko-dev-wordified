@@ -134,7 +134,7 @@ string_builder
 h
 "
 namespace
-cricket
+webrtc
 {
 namespace
 {
@@ -550,9 +550,6 @@ ToString
 )
 const
 {
-rtc
-:
-:
 StringBuilder
 acc
 ;
@@ -1170,6 +1167,9 @@ SessionDescription
 AddTransportInfo
 (
 const
+cricket
+:
+:
 TransportInfo
 &
 transport_info
@@ -1200,6 +1200,9 @@ name
 {
 for
 (
+cricket
+:
+:
 TransportInfos
 :
 :
@@ -1254,6 +1257,9 @@ false
 ;
 }
 const
+cricket
+:
+:
 TransportInfo
 *
 SessionDescription
@@ -1273,6 +1279,9 @@ const
 {
 for
 (
+cricket
+:
+:
 TransportInfos
 :
 :
@@ -1323,6 +1332,9 @@ return
 NULL
 ;
 }
+cricket
+:
+:
 TransportInfo
 *
 SessionDescription
@@ -1341,6 +1353,9 @@ name
 {
 for
 (
+cricket
+:
+:
 TransportInfos
 :
 :
@@ -1770,4 +1785,4 @@ get
 /
 /
 namespace
-cricket
+webrtc

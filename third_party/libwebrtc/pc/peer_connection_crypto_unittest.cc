@@ -1064,9 +1064,6 @@ ConnectionRole
 &
 AudioConnectionRole
 (
-cricket
-:
-:
 SessionDescription
 *
 desc
@@ -1076,9 +1073,6 @@ return
 ConnectionRoleFromContent
 (
 desc
-cricket
-:
-:
 GetFirstAudioContent
 (
 desc
@@ -1093,9 +1087,6 @@ ConnectionRole
 &
 VideoConnectionRole
 (
-cricket
-:
-:
 SessionDescription
 *
 desc
@@ -1105,9 +1096,6 @@ return
 ConnectionRoleFromContent
 (
 desc
-cricket
-:
-:
 GetFirstVideoContent
 (
 desc
@@ -1122,15 +1110,9 @@ ConnectionRole
 &
 ConnectionRoleFromContent
 (
-cricket
-:
-:
 SessionDescription
 *
 desc
-cricket
-:
-:
 ContentInfo
 *
 content
@@ -1230,9 +1212,6 @@ return
 ]
 (
 const
-cricket
-:
-:
 ContentInfo
 *
 content
@@ -1352,9 +1331,6 @@ return
 [
 ]
 (
-cricket
-:
-:
 ContentInfo
 *
 content
@@ -3583,9 +3559,6 @@ auto
 *
 audio_content
 =
-cricket
-:
-:
 GetFirstAudioContent
 (
 invalid_answer

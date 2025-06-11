@@ -799,9 +799,6 @@ cricket
 TransportDescriptionFactory
 transport_desc_factory_
 ;
-cricket
-:
-:
 MediaSessionDescriptionFactory
 session_desc_factory_
 ;

@@ -622,15 +622,9 @@ endpoint
 to
 WebRTC
 .
-rtc
-:
-:
 AdapterType
 type
 =
-rtc
-:
-:
 AdapterType
 :
 :

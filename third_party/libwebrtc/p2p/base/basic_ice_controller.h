@@ -150,6 +150,9 @@ explicit
 BasicIceController
 (
 const
+webrtc
+:
+:
 IceControllerFactoryArgs
 &
 args
@@ -165,6 +168,9 @@ void
 SetIceConfig
 (
 const
+webrtc
+:
+:
 IceConfig
 &
 config
@@ -291,6 +297,9 @@ const
 Connection
 *
 conn
+webrtc
+:
+:
 NominationMode
 mode
 IceMode
@@ -732,7 +741,7 @@ std
 :
 optional
 <
-rtc
+webrtc
 :
 :
 AdapterType
@@ -997,6 +1006,9 @@ Connection
 >
 is_connection_pruned_func_
 ;
+webrtc
+:
+:
 IceConfig
 config_
 ;

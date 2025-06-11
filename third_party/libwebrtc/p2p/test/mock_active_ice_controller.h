@@ -169,7 +169,7 @@ void
 SetIceConfig
 (
 const
-cricket
+webrtc
 :
 :
 IceConfig
@@ -276,7 +276,7 @@ cricket
 :
 Connection
 *
-cricket
+webrtc
 :
 :
 NominationMode

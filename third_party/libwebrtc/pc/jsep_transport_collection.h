@@ -345,9 +345,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 ContentGroup
 >
 >
@@ -380,9 +377,6 @@ mid
 name
 .
 const
-cricket
-:
-:
 ContentGroup
 *
 LookupGroupByMid
@@ -397,9 +391,6 @@ mid
 )
 const
 ;
-cricket
-:
-:
 ContentGroup
 *
 LookupGroupByMid
@@ -480,9 +471,6 @@ void
 Update
 (
 const
-cricket
-:
-:
 SessionDescription
 *
 description
@@ -506,9 +494,6 @@ void
 DeleteMid
 (
 const
-cricket
-:
-:
 ContentGroup
 *
 bundle_group
@@ -531,9 +516,6 @@ void
 DeleteGroup
 (
 const
-cricket
-:
-:
 ContentGroup
 *
 bundle_group
@@ -609,9 +591,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 ContentGroup
 >
 >
@@ -631,9 +610,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 ContentGroup
 >
 >
@@ -652,9 +628,6 @@ std
 :
 :
 string
-cricket
-:
-:
 ContentGroup
 *
 >

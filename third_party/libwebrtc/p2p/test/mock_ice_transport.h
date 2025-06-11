@@ -143,9 +143,6 @@ class
 MockIceTransport
 :
 public
-cricket
-:
-:
 IceTransportInternal
 {
 public
@@ -243,7 +240,7 @@ MOCK_METHOD
 bool
 GetStats
 (
-cricket
+webrtc
 :
 :
 IceTransportStats
@@ -407,9 +404,6 @@ void
 SetIceConfig
 (
 const
-cricket
-:
-:
 IceConfig
 &
 config
@@ -422,9 +416,6 @@ config
 ;
 }
 const
-cricket
-:
-:
 IceConfig
 &
 config
@@ -546,9 +537,6 @@ RemoveAllRemoteCandidates
 override
 {
 }
-cricket
-:
-:
 IceGatheringState
 gathering_state
 (
@@ -557,9 +545,6 @@ const
 override
 {
 return
-cricket
-:
-:
 IceGatheringState
 :
 :
@@ -596,9 +581,6 @@ std
 string
 transport_name_
 ;
-cricket
-:
-:
 IceConfig
 ice_config_
 ;

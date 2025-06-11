@@ -540,9 +540,6 @@ Connection
 CreateConnection
 (
 const
-cricket
-:
-:
 Candidate
 &
 remote_candidate
@@ -618,9 +615,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Candidate
 >
 &
@@ -1209,9 +1203,6 @@ void
 AddPrflxCandidate
 (
 const
-cricket
-:
-:
 Candidate
 &
 local

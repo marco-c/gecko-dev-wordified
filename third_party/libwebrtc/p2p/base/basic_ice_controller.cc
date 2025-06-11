@@ -239,7 +239,7 @@ std
 :
 optional
 <
-rtc
+webrtc
 :
 :
 AdapterType
@@ -247,7 +247,7 @@ AdapterType
 network_preference
 )
 {
-rtc
+webrtc
 :
 :
 AdapterType
@@ -303,7 +303,7 @@ std
 :
 optional
 <
-rtc
+webrtc
 :
 :
 AdapterType
@@ -373,6 +373,9 @@ BasicIceController
 BasicIceController
 (
 const
+webrtc
+:
+:
 IceControllerFactoryArgs
 &
 args
@@ -420,6 +423,9 @@ BasicIceController
 SetIceConfig
 (
 const
+webrtc
+:
+:
 IceConfig
 &
 config
@@ -1838,6 +1844,9 @@ now
 const
 {
 const
+webrtc
+:
+:
 Candidate
 &
 remote
@@ -5335,7 +5344,7 @@ std
 :
 optional
 <
-rtc
+webrtc
 :
 :
 AdapterType
@@ -5997,6 +6006,9 @@ const
 Connection
 *
 conn
+webrtc
+:
+:
 NominationMode
 mode
 IceMode
@@ -6010,6 +6022,9 @@ mode
 )
 {
 case
+webrtc
+:
+:
 NominationMode
 :
 :
@@ -6030,6 +6045,9 @@ return
 false
 ;
 case
+webrtc
+:
+:
 NominationMode
 :
 :
@@ -6047,6 +6065,9 @@ return
 GetUseCandidateAttr
 (
 conn
+webrtc
+:
+:
 NominationMode
 :
 :
@@ -6059,6 +6080,9 @@ return
 true
 ;
 case
+webrtc
+:
+:
 NominationMode
 :
 :

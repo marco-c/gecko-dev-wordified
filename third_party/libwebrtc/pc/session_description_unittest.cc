@@ -101,7 +101,7 @@ gtest
 h
 "
 namespace
-cricket
+webrtc
 {
 TEST
 (
@@ -894,4 +894,4 @@ extmap_allow_mixed_enum
 /
 /
 namespace
-cricket
+webrtc
