@@ -655,6 +655,18 @@ args
 runargs
 )
         
+stderr
+=
+runargs
+.
+get
+(
+"
+stderr
+"
+None
+)
+        
 try
 :
             
@@ -679,6 +691,10 @@ encoding
 env
 =
 env
+                
+stderr
+=
+stderr
             
 )
         
@@ -2848,6 +2864,44 @@ for
 the
 specified
 file
+.
+"
+"
+"
+        
+pass
+    
+abc
+.
+abstractmethod
+    
+def
+configure
+(
+self
+state_dir
+:
+Path
+update_only
+:
+bool
+=
+False
+)
+:
+        
+"
+"
+"
+Perform
+initial
+VCS
+setup
+applying
+sensible
+defaults
+for
+configuration
 .
 "
 "
