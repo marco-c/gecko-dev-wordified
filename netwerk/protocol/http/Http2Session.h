@@ -2374,6 +2374,13 @@ Http2StreamBase
 *
 )
 ;
+void
+RemoveStreamFromTables
+(
+Http2StreamBase
+*
+)
+;
 [
 [
 nodiscard
