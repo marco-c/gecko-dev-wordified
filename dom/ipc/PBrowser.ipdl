@@ -3284,7 +3284,8 @@ aCharacters
 nsString
 aUnmodifiedCharacters
 uint64_t
-aObserverId
+?
+aCallbackId
 )
 ;
 async
@@ -3299,7 +3300,8 @@ aButton
 uint32_t
 aModifierFlags
 uint64_t
-aObserverId
+?
+aCallbackId
 )
 ;
 async
@@ -3308,7 +3310,8 @@ SynthesizeNativeMouseMove
 LayoutDeviceIntPoint
 aPoint
 uint64_t
-aObserverId
+?
+aCallbackId
 )
 ;
 async
@@ -3329,7 +3332,8 @@ aModifierFlags
 uint32_t
 aAdditionalFlags
 uint64_t
-aObserverId
+?
+aCallbackId
 )
 ;
 async
@@ -3346,7 +3350,8 @@ aPointerPressure
 uint32_t
 aPointerOrientation
 uint64_t
-aObserverId
+?
+aCallbackId
 )
 ;
 async
@@ -3370,7 +3375,8 @@ aPoint
 bool
 aLongTap
 uint64_t
-aObserverId
+?
+aCallbackId
 )
 ;
 async
@@ -3393,7 +3399,8 @@ aTiltY
 int32_t
 aButton
 uint64_t
-aObserverId
+?
+aCallbackId
 )
 ;
 async
@@ -3419,7 +3426,8 @@ aDeltaY
 int32_t
 aModifierFlags
 uint64_t
-aObserverId
+?
+aCallbackId
 )
 ;
 async
@@ -3661,12 +3669,10 @@ ReleasePointerLock
 child
 :
 async
-NativeSynthesisResponse
+SynthesizedEventResponse
 (
 uint64_t
-aObserverId
-nsCString
-aResponse
+aCallbackId
 )
 ;
 async

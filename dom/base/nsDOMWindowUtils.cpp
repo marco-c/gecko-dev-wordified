@@ -6684,9 +6684,9 @@ const
 nsAString
 &
 aUnmodifiedCharacters
-nsIObserver
+nsISynthesizedEventCallback
 *
-aObserver
+aCallback
 )
 {
 /
@@ -6714,9 +6714,11 @@ if
 !
 widget
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 NS_DispatchToMainThread
 (
 NativeInputRunnable
@@ -6731,7 +6733,7 @@ int32_t
 uint32_t
 nsString
 nsString
-nsIObserver
+nsISynthesizedEventCallback
 *
 >
 (
@@ -6761,7 +6763,7 @@ aModifiers
 )
 aCharacters
 aUnmodifiedCharacters
-aObserver
+aCallback
 )
 )
 )
@@ -6789,9 +6791,9 @@ aModifierFlags
 Element
 *
 aElementOnWidget
-nsIObserver
+nsISynthesizedEventCallback
 *
-aObserver
+aCallback
 )
 {
 /
@@ -6936,7 +6938,7 @@ nsIWidget
 :
 :
 Modifiers
-nsIObserver
+nsISynthesizedEventCallback
 *
 >
 (
@@ -6969,7 +6971,7 @@ GetWidgetModifiers
 (
 aModifierFlags
 )
-aObserver
+aCallback
 )
 )
 )
@@ -7003,9 +7005,9 @@ aAdditionalFlags
 Element
 *
 aElement
-nsIObserver
+nsISynthesizedEventCallback
 *
-aObserver
+aCallback
 )
 {
 /
@@ -7058,7 +7060,7 @@ double
 double
 uint32_t
 uint32_t
-nsIObserver
+nsISynthesizedEventCallback
 *
 >
 (
@@ -7085,7 +7087,7 @@ aDeltaY
 aDeltaZ
 aModifierFlags
 aAdditionalFlags
-aObserver
+aCallback
 )
 )
 )
@@ -7112,9 +7114,9 @@ double
 aPressure
 uint32_t
 aOrientation
-nsIObserver
+nsISynthesizedEventCallback
 *
-aObserver
+aCallback
 Element
 *
 aElement
@@ -7213,7 +7215,7 @@ TouchPointerState
 LayoutDeviceIntPoint
 double
 uint32_t
-nsIObserver
+nsISynthesizedEventCallback
 *
 >
 (
@@ -7244,7 +7246,7 @@ aScreenY
 )
 aPressure
 aOrientation
-aObserver
+aCallback
 )
 )
 )
@@ -7355,9 +7357,9 @@ int32_t
 aScreenY
 bool
 aLongTap
-nsIObserver
+nsISynthesizedEventCallback
 *
-aObserver
+aCallback
 )
 {
 nsCOMPtr
@@ -7391,7 +7393,7 @@ NewRunnableMethod
 <
 LayoutDeviceIntPoint
 bool
-nsIObserver
+nsISynthesizedEventCallback
 *
 >
 (
@@ -7413,7 +7415,7 @@ aScreenX
 aScreenY
 )
 aLongTap
-aObserver
+aCallback
 )
 )
 )
@@ -7446,9 +7448,9 @@ int32_t
 aTiltY
 int32_t
 aButton
-nsIObserver
+nsISynthesizedEventCallback
 *
-aObserver
+aCallback
 Element
 *
 aElement
@@ -7538,7 +7540,7 @@ uint32_t
 int32_t
 int32_t
 int32_t
-nsIObserver
+nsISynthesizedEventCallback
 *
 >
 (
@@ -7572,7 +7574,7 @@ aRotation
 aTiltX
 aTiltY
 aButton
-aObserver
+aCallback
 )
 )
 )
@@ -7680,9 +7682,9 @@ double
 aDeltaY
 int32_t
 aModifierFlags
-nsIObserver
+nsISynthesizedEventCallback
 *
-aObserver
+aCallback
 )
 {
 nsCOMPtr
@@ -7730,7 +7732,7 @@ LayoutDeviceIntPoint
 double
 double
 uint32_t
-nsIObserver
+nsISynthesizedEventCallback
 *
 >
 (
@@ -7761,7 +7763,7 @@ aScreenY
 aDeltaX
 aDeltaY
 aModifierFlags
-aObserver
+aCallback
 )
 )
 )
