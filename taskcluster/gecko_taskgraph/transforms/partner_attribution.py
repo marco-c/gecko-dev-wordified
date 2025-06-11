@@ -71,8 +71,6 @@ description
 "
 "
 import
-json
-import
 logging
 from
 collections
@@ -86,6 +84,12 @@ transforms
 base
 import
 TransformSequence
+from
+taskgraph
+.
+util
+import
+json
 from
 taskgraph
 .

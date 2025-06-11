@@ -83,8 +83,6 @@ approach
 "
 "
 "
-import
-json
 from
 textwrap
 import
@@ -95,6 +93,12 @@ import
 path
 as
 mozpath
+from
+taskgraph
+.
+util
+import
+json
 from
 taskgraph
 .

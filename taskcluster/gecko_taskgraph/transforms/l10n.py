@@ -65,8 +65,6 @@ kind
 "
 "
 "
-import
-json
 from
 mozbuild
 .
@@ -81,6 +79,12 @@ transforms
 base
 import
 TransformSequence
+from
+taskgraph
+.
+util
+import
+json
 from
 taskgraph
 .

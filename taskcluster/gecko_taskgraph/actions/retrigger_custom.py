@@ -54,9 +54,13 @@ MPL
 /
 .
 import
-json
-import
 logging
+from
+taskgraph
+.
+util
+import
+json
 from
 taskgraph
 .

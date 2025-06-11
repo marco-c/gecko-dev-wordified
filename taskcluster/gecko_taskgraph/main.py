@@ -58,8 +58,6 @@ argparse
 import
 atexit
 import
-json
-import
 logging
 import
 os
@@ -3988,6 +3986,13 @@ options
 :
     
 from
+taskgraph
+.
+util
+import
+json
+    
+from
 gecko_taskgraph
 .
 actions
@@ -4387,6 +4392,7 @@ taskgraph
 .
 util
 import
+json
 yaml
     
 import

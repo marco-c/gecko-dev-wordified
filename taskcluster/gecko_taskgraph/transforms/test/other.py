@@ -58,8 +58,6 @@ copy
 import
 hashlib
 import
-json
-import
 re
 from
 mozbuild
@@ -75,6 +73,12 @@ transforms
 base
 import
 TransformSequence
+from
+taskgraph
+.
+util
+import
+json
 from
 taskgraph
 .

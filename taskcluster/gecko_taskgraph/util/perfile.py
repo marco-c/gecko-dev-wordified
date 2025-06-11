@@ -56,8 +56,6 @@ MPL
 import
 itertools
 import
-json
-import
 logging
 import
 math
@@ -77,6 +75,12 @@ import
 match
 as
 mozpackmatch
+from
+taskgraph
+.
+util
+import
+json
 logger
 =
 logging

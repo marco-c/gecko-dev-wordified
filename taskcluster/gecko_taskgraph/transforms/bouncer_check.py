@@ -54,8 +54,6 @@ MPL
 /
 .
 import
-json
-import
 logging
 from
 shlex
@@ -71,6 +69,12 @@ transforms
 base
 import
 TransformSequence
+from
+taskgraph
+.
+util
+import
+json
 from
 taskgraph
 .

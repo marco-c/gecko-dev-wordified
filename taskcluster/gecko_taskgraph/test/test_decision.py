@@ -54,8 +54,6 @@ MPL
 /
 .
 import
-json
-import
 os
 import
 shutil
@@ -74,6 +72,12 @@ mozunit
 import
 MockedOpen
 main
+from
+taskgraph
+.
+util
+import
+json
 from
 taskgraph
 .

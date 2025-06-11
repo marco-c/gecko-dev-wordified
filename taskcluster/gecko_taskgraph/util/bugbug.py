@@ -54,8 +54,6 @@ MPL
 /
 .
 import
-json
-import
 os
 import
 sys
@@ -73,6 +71,12 @@ from
 taskgraph
 import
 create
+from
+taskgraph
+.
+util
+import
+json
 from
 taskgraph
 .
