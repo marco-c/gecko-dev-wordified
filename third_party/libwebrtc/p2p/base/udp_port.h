@@ -90,6 +90,12 @@ define
 P2P_BASE_UDP_PORT_H_
 /
 /
+IWYU
+pragma
+:
+begin_keep
+/
+/
 StunPort
 will
 be
@@ -108,6 +114,12 @@ stun_port
 .
 h
 "
+/
+/
+IWYU
+pragma
+:
+end_keep
 #
 endif
 /
