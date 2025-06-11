@@ -220,9 +220,6 @@ kPpsBufferMaxSize
 0
 }
 ;
-rtc
-:
-:
 BitBufferWriter
 bit_buffer
 (

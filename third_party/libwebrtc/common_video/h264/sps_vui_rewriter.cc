@@ -346,9 +346,6 @@ CopyUInt8
 BitstreamReader
 &
 source
-rtc
-:
-:
 BitBufferWriter
 &
 destination
@@ -394,9 +391,6 @@ CopyExpGolomb
 BitstreamReader
 &
 source
-rtc
-:
-:
 BitBufferWriter
 &
 destination
@@ -441,9 +435,6 @@ bits
 BitstreamReader
 &
 source
-rtc
-:
-:
 BitBufferWriter
 &
 destination
@@ -507,9 +498,6 @@ sps
 BitstreamReader
 &
 source
-rtc
-:
-:
 BitBufferWriter
 &
 destination
@@ -534,9 +522,6 @@ CopyHrdParameters
 BitstreamReader
 &
 source
-rtc
-:
-:
 BitBufferWriter
 &
 destination
@@ -545,9 +530,6 @@ destination
 bool
 AddBitstreamRestriction
 (
-rtc
-:
-:
 BitBufferWriter
 *
 destination
@@ -567,9 +549,6 @@ color_space
 bool
 AddVideoSignalTypeInfo
 (
-rtc
-:
-:
 BitBufferWriter
 &
 destination
@@ -585,9 +564,6 @@ CopyOrRewriteVideoSignalTypeInfo
 BitstreamReader
 &
 source
-rtc
-:
-:
 BitBufferWriter
 &
 destination
@@ -609,9 +585,6 @@ CopyRemainingBits
 BitstreamReader
 &
 source
-rtc
-:
-:
 BitBufferWriter
 &
 destination
@@ -930,9 +903,6 @@ size
 kMaxVuiSpsIncrease
 )
 ;
-rtc
-:
-:
 BitBufferWriter
 sps_writer
 (
@@ -1908,9 +1878,6 @@ sps
 BitstreamReader
 &
 source
-rtc
-:
-:
 BitBufferWriter
 &
 destination
@@ -2872,9 +2839,6 @@ CopyHrdParameters
 BitstreamReader
 &
 source
-rtc
-:
-:
 BitBufferWriter
 &
 destination
@@ -3088,9 +3052,6 @@ segment
 bool
 AddBitstreamRestriction
 (
-rtc
-:
-:
 BitBufferWriter
 *
 destination
@@ -3373,9 +3334,6 @@ kUnspecified
 bool
 AddVideoSignalTypeInfo
 (
-rtc
-:
-:
 BitBufferWriter
 &
 destination
@@ -3559,9 +3517,6 @@ CopyOrRewriteVideoSignalTypeInfo
 BitstreamReader
 &
 source
-rtc
-:
-:
 BitBufferWriter
 &
 destination
@@ -4101,9 +4056,6 @@ CopyRemainingBits
 BitstreamReader
 &
 source
-rtc
-:
-:
 BitBufferWriter
 &
 destination

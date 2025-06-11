@@ -1396,9 +1396,6 @@ const
 RTPVideoHeaderVP9
 &
 vp9
-rtc
-:
-:
 BitBufferWriter
 *
 writer
@@ -1534,9 +1531,6 @@ const
 RTPVideoHeaderVP9
 &
 vp9
-rtc
-:
-:
 BitBufferWriter
 *
 writer
@@ -1712,9 +1706,6 @@ const
 RTPVideoHeaderVP9
 &
 vp9
-rtc
-:
-:
 BitBufferWriter
 *
 writer
@@ -1746,9 +1737,6 @@ const
 RTPVideoHeaderVP9
 &
 vp9
-rtc
-:
-:
 BitBufferWriter
 *
 writer
@@ -1881,9 +1869,6 @@ const
 RTPVideoHeaderVP9
 &
 vp9
-rtc
-:
-:
 BitBufferWriter
 *
 writer
@@ -2264,9 +2249,6 @@ const
 RTPVideoHeaderVP9
 &
 vp9
-rtc
-:
-:
 BitBufferWriter
 *
 writer
@@ -3759,9 +3741,6 @@ hdr_
 .
 non_ref_for_inter_layer_pred
 ;
-rtc
-:
-:
 BitBufferWriter
 writer
 (

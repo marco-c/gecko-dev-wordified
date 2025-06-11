@@ -151,7 +151,7 @@ gtest
 h
 "
 namespace
-rtc
+webrtc
 {
 using
 :
@@ -2109,4 +2109,4 @@ abc
 /
 /
 namespace
-rtc
+webrtc

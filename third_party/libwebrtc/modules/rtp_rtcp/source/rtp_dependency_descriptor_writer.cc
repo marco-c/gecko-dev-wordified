@@ -805,9 +805,6 @@ size
 bits
 +
 =
-rtc
-:
-:
 BitBufferWriter
 :
 :
@@ -845,9 +842,6 @@ decode_target_protected_by_chain
 bits
 +
 =
-rtc
-:
-:
 BitBufferWriter
 :
 :

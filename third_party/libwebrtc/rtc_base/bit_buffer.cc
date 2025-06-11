@@ -357,7 +357,7 @@ target_bit_offset
 /
 namespace
 namespace
-rtc
+webrtc
 {
 BitBufferWriter
 :
@@ -1528,4 +1528,4 @@ success
 /
 /
 namespace
-rtc
+webrtc
