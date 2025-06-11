@@ -107,6 +107,14 @@ uniffi_reexport_scaffolding
 (
 )
 ;
+filter_adult
+:
+:
+uniffi_reexport_scaffolding
+!
+(
+)
+;
 }
 /
 /
