@@ -479,7 +479,6 @@ has
 already
 exited
 .
-virtual
 ~
 PlatformThread
 (
