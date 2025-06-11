@@ -131,6 +131,15 @@ stun
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+checks
+.
+h
+"
 namespace
 cricket
 {

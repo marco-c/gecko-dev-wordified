@@ -211,7 +211,7 @@ include
 "
 rtc_base
 /
-ssl_certificate
+rtc_certificate
 .
 h
 "
@@ -220,7 +220,7 @@ include
 "
 rtc_base
 /
-ssl_fingerprint
+ssl_certificate
 .
 h
 "

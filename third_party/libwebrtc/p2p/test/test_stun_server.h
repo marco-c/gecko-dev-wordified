@@ -91,6 +91,11 @@ P2P_TEST_TEST_STUN_SERVER_H_
 #
 include
 <
+functional
+>
+#
+include
+<
 memory
 >
 #
