@@ -54,8 +54,6 @@ MPL
 /
 .
 import
-json
-import
 os
 import
 re
@@ -118,6 +116,12 @@ taskgraph
 taskgraph
 import
 TaskGraph
+from
+taskgraph
+.
+util
+import
+json
 here
 =
 os
