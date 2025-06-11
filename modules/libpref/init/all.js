@@ -51077,6 +51077,7 @@ supportedCountries
 "
 US
 CA
+GB
 FR
 DE
 "
