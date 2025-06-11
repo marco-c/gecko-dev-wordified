@@ -1920,10 +1920,6 @@ gecko_profiler
 :
 JSONWriter
 )
--
->
-(
-)
 {
 match
 MetricT
