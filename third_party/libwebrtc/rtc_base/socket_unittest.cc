@@ -8608,6 +8608,9 @@ std
 :
 make_unique
 <
+webrtc
+:
+:
 TestClient
 >
 (
@@ -8635,6 +8638,9 @@ std
 :
 make_unique
 <
+webrtc
+:
+:
 TestClient
 >
 (
@@ -8764,6 +8770,9 @@ std
 :
 make_unique
 <
+webrtc
+:
+:
 TestClient
 >
 (
@@ -9012,6 +9021,9 @@ std
 :
 make_unique
 <
+webrtc
+:
+:
 TestClient
 >
 (
@@ -10609,6 +10621,9 @@ std
 :
 make_unique
 <
+webrtc
+:
+:
 TestClient
 >
 (
@@ -10636,6 +10651,9 @@ std
 :
 make_unique
 <
+webrtc
+:
+:
 TestClient
 >
 (
@@ -10675,6 +10693,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 TestClient
 :
 :
@@ -10745,6 +10766,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 TestClient
 :
 :

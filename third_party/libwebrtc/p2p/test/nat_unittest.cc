@@ -365,6 +365,9 @@ namespace
 bool
 CheckReceive
 (
+webrtc
+:
+:
 TestClient
 *
 client
@@ -401,6 +404,9 @@ CheckNoPacket
 )
 ;
 }
+webrtc
+:
+:
 TestClient
 *
 CreateTestClient
@@ -416,6 +422,9 @@ local_addr
 {
 return
 new
+webrtc
+:
+:
 TestClient
 (
 absl
@@ -435,6 +444,9 @@ local_addr
 )
 ;
 }
+webrtc
+:
+:
 TestClient
 *
 CreateTCPTestClient
@@ -446,6 +458,9 @@ socket
 {
 return
 new
+webrtc
+:
+:
 TestClient
 (
 std
@@ -615,6 +630,9 @@ internal_tcp_address
 )
 )
 ;
+webrtc
+:
+:
 TestClient
 *
 in
@@ -638,6 +656,9 @@ internal_addr
 }
 )
 ;
+webrtc
+:
+:
 TestClient
 *
 out
@@ -1062,6 +1083,9 @@ internal_tcp_address
 )
 )
 ;
+webrtc
+:
+:
 TestClient
 *
 in
@@ -1087,6 +1111,9 @@ internal_addr
 }
 )
 ;
+webrtc
+:
+:
 TestClient
 *
 out
@@ -3024,7 +3051,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 TestClient
@@ -3046,7 +3073,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 TestClient
