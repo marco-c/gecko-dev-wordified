@@ -16354,7 +16354,16 @@ getOpsGetProperty
 )
 )
 {
-RootedObject
+typename
+MaybeRooted
+<
+JSObject
+*
+allowGC
+>
+:
+:
+RootType
 protoRoot
 (
 cx
