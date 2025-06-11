@@ -184,6 +184,10 @@ VideoDecoder
 CreateDecoder
 (
 const
+Environment
+&
+env
+const
 SdpVideoFormat
 &
 /
@@ -196,6 +200,7 @@ format
 return
 CreateDav1dDecoder
 (
+env
 )
 ;
 }

@@ -491,6 +491,26 @@ FieldTrial
 '
 WebRTC
 -
+Dav1dDecoder
+-
+CropToRenderResolution
+'
+               
+405341160
+               
+date
+(
+2026
+3
+21
+)
+)
+    
+FieldTrial
+(
+'
+WebRTC
+-
 DisableRtxRateLimiter
 '
                
