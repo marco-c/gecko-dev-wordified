@@ -4405,8 +4405,6 @@ resIds
 "
 browser
 /
-browser
-/
 setDesktopBackground
 .
 ftl
