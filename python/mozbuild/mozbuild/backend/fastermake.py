@@ -413,9 +413,6 @@ substs
 MOZ_UI_LOCALE
 "
 ]
-[
-0
-]
             
 localized
 =
