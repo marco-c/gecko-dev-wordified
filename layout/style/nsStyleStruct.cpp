@@ -11096,11 +11096,6 @@ if
 IsElement
 (
 )
-|
-|
-IsMozSymbolicIcon
-(
-)
 )
 {
 return
@@ -11214,12 +11209,6 @@ Tag
 :
 :
 Element
-:
-case
-Tag
-:
-:
-MozSymbolicIcon
 :
 return
 true
@@ -11412,12 +11401,6 @@ Tag
 :
 :
 Element
-:
-case
-Tag
-:
-:
-MozSymbolicIcon
 :
 return
 true
