@@ -1002,11 +1002,27 @@ False
         
 )
         
+#
+Always
+use
+the
+ci
+command
+to
+not
+get
+updated
+sub
+-
+dependencies
+installed
+.
+        
 run_npm
 (
             
 "
-install
+ci
 "
             
 cwd
