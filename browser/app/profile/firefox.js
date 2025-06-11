@@ -39817,6 +39817,6 @@ component
 .
 enabled
 "
-false
+true
 )
 ;
