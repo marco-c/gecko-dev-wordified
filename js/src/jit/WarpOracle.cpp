@@ -7050,7 +7050,6 @@ mirGen_
 .
 runtime
 targetScript
-targetFunction
 osrPc
 needsArgsObj
 inlineScriptTree

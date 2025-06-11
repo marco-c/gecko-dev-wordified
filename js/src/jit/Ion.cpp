@@ -11387,12 +11387,6 @@ runtime
 )
 )
 script
-script
--
->
-function
-(
-)
 osrPc
 script
 -
