@@ -757,11 +757,6 @@ onGMPReady
 (
 )
 ;
-bool
-gmpHasH264
-(
-)
-;
 static
 void
 UpdateNetworkState
