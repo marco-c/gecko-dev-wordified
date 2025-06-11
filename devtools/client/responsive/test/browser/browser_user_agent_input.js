@@ -280,6 +280,9 @@ changeUserAgentInput
 ui
 "
 "
+"
+VK_TAB
+"
 )
 ;
 await
