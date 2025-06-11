@@ -1707,6 +1707,7 @@ bool
 IsRasterImage
 (
 )
+const
 ;
 /
 /
