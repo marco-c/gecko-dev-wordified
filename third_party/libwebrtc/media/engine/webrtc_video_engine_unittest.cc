@@ -3561,7 +3561,7 @@ engine_codecs
 =
 engine_
 .
-send_codecs
+LegacySendCodecs
 (
 )
 ;
@@ -3770,7 +3770,7 @@ codec
 :
 engine_
 .
-send_codecs
+LegacySendCodecs
 (
 )
 )
@@ -3821,7 +3821,7 @@ codec
 :
 engine_
 .
-recv_codecs
+LegacyRecvCodecs
 (
 )
 )
@@ -5726,7 +5726,7 @@ codecs
 =
 engine_
 .
-send_codecs
+LegacySendCodecs
 (
 )
 ;
@@ -6280,7 +6280,7 @@ engine_codecs
 =
 engine_
 .
-send_codecs
+LegacySendCodecs
 (
 )
 ;
@@ -6366,7 +6366,7 @@ engine_codecs
 =
 engine_
 .
-send_codecs
+LegacySendCodecs
 (
 )
 ;
@@ -6493,7 +6493,7 @@ codecs
 =
 engine_
 .
-send_codecs
+LegacySendCodecs
 (
 )
 ;
@@ -6692,7 +6692,7 @@ const
 return
 engine_
 .
-send_codecs
+LegacySendCodecs
 (
 )
 [
@@ -7503,7 +7503,7 @@ supported_codecs
 =
 engine_
 .
-recv_codecs
+LegacyRecvCodecs
 (
 /
 *
@@ -9405,7 +9405,7 @@ EXPECT_THAT
 (
 engine_
 .
-send_codecs
+LegacySendCodecs
 (
 )
 Not
@@ -9445,7 +9445,7 @@ EXPECT_THAT
 (
 engine_
 .
-send_codecs
+LegacySendCodecs
 (
 )
 Contains
@@ -9546,7 +9546,7 @@ send_codecs
 =
 engine_
 .
-send_codecs
+LegacySendCodecs
 (
 )
 ;
@@ -9805,7 +9805,7 @@ codecs_before
 (
 engine_
 .
-send_codecs
+LegacySendCodecs
 (
 )
 )
@@ -9838,7 +9838,7 @@ codecs_after
 (
 engine_
 .
-send_codecs
+LegacySendCodecs
 (
 )
 )
@@ -9959,7 +9959,7 @@ rtx
 "
 engine_
 .
-send_codecs
+LegacySendCodecs
 (
 )
 .
@@ -10527,7 +10527,7 @@ EXPECT_EQ
 0u
 engine
 .
-send_codecs
+LegacySendCodecs
 (
 )
 .
@@ -10541,7 +10541,7 @@ EXPECT_EQ
 0u
 engine
 .
-recv_codecs
+LegacyRecvCodecs
 (
 )
 .
@@ -10684,7 +10684,7 @@ EXPECT_EQ
 0u
 engine
 .
-send_codecs
+LegacySendCodecs
 (
 )
 .
@@ -10698,7 +10698,7 @@ EXPECT_EQ
 0u
 engine
 .
-recv_codecs
+LegacyRecvCodecs
 (
 )
 .
@@ -11022,7 +11022,7 @@ engine_codecs
 =
 engine
 .
-send_codecs
+LegacySendCodecs
 (
 )
 ;
@@ -12390,7 +12390,7 @@ send_codecs
 =
 engine_
 .
-send_codecs
+LegacySendCodecs
 (
 false
 )
@@ -12407,7 +12407,7 @@ recv_codecs
 =
 engine_
 .
-recv_codecs
+LegacyRecvCodecs
 (
 false
 )
@@ -12428,7 +12428,7 @@ send_codecs
 =
 engine_
 .
-send_codecs
+LegacySendCodecs
 (
 true
 )
@@ -12445,7 +12445,7 @@ recv_codecs
 =
 engine_
 .
-recv_codecs
+LegacyRecvCodecs
 (
 true
 )
@@ -12698,7 +12698,7 @@ codecs
 =
 engine_
 .
-recv_codecs
+LegacyRecvCodecs
 (
 )
 ;
@@ -13985,7 +13985,7 @@ codecs
 =
 engine_
 .
-send_codecs
+LegacySendCodecs
 (
 )
 ;
@@ -15176,7 +15176,7 @@ engine_codec
 :
 engine_
 .
-send_codecs
+LegacySendCodecs
 (
 )
 )
@@ -21523,7 +21523,7 @@ codecs
 =
 engine_
 .
-send_codecs
+LegacySendCodecs
 (
 )
 ;
@@ -21533,7 +21533,7 @@ codecs
 =
 engine_
 .
-recv_codecs
+LegacyRecvCodecs
 (
 )
 ;
@@ -21732,7 +21732,7 @@ engine_codec
 :
 engine_
 .
-send_codecs
+LegacySendCodecs
 (
 )
 )
@@ -23084,7 +23084,7 @@ codecs
 =
 engine_
 .
-send_codecs
+LegacySendCodecs
 (
 )
 ;
@@ -24167,7 +24167,7 @@ codecs
 =
 engine_
 .
-send_codecs
+LegacySendCodecs
 (
 )
 ;
@@ -26623,7 +26623,7 @@ codecs
 =
 engine_
 .
-send_codecs
+LegacySendCodecs
 (
 )
 ;
@@ -26874,7 +26874,7 @@ codecs
 =
 engine_
 .
-send_codecs
+LegacySendCodecs
 (
 )
 ;
@@ -26975,7 +26975,7 @@ codecs
 =
 engine_
 .
-send_codecs
+LegacySendCodecs
 (
 )
 ;
@@ -27337,7 +27337,7 @@ codecs
 =
 engine_
 .
-send_codecs
+LegacySendCodecs
 (
 )
 ;
@@ -34412,7 +34412,7 @@ Matches
 (
 engine_
 .
-send_codecs
+LegacySendCodecs
 (
 )
 [
@@ -37527,7 +37527,7 @@ FindCodecById
 (
 engine_
 .
-send_codecs
+LegacySendCodecs
 (
 )
 kUnusedPayloadType
@@ -37616,7 +37616,7 @@ FindCodecById
 (
 engine_
 .
-send_codecs
+LegacySendCodecs
 (
 )
 kUnusedPayloadType1
@@ -37629,7 +37629,7 @@ FindCodecById
 (
 engine_
 .
-send_codecs
+LegacySendCodecs
 (
 )
 kUnusedPayloadType2
@@ -37795,7 +37795,7 @@ FindCodecById
 (
 engine_
 .
-send_codecs
+LegacySendCodecs
 (
 )
 kUnusedPayloadType1
@@ -37808,7 +37808,7 @@ FindCodecById
 (
 engine_
 .
-send_codecs
+LegacySendCodecs
 (
 )
 kUnusedPayloadType2
@@ -41495,7 +41495,7 @@ FindCodecById
 (
 engine_
 .
-recv_codecs
+LegacyRecvCodecs
 (
 )
 kUnusedPayloadType1
@@ -41508,7 +41508,7 @@ FindCodecById
 (
 engine_
 .
-recv_codecs
+LegacyRecvCodecs
 (
 )
 kUnusedPayloadType2
@@ -42278,7 +42278,7 @@ FindCodecById
 (
 engine_
 .
-recv_codecs
+LegacyRecvCodecs
 (
 )
 kUnusedPayloadType1
@@ -42291,7 +42291,7 @@ FindCodecById
 (
 engine_
 .
-recv_codecs
+LegacyRecvCodecs
 (
 )
 kUnusedPayloadType2
@@ -42686,7 +42686,7 @@ FindCodecById
 (
 engine_
 .
-recv_codecs
+LegacyRecvCodecs
 (
 )
 kUnusedPayloadType1
@@ -42699,7 +42699,7 @@ FindCodecById
 (
 engine_
 .
-recv_codecs
+LegacyRecvCodecs
 (
 )
 kUnusedPayloadType2
@@ -43284,7 +43284,7 @@ codecs
 =
 engine_
 .
-recv_codecs
+LegacyRecvCodecs
 (
 )
 ;
@@ -43329,7 +43329,7 @@ EXPECT_EQ
 (
 engine_
 .
-recv_codecs
+LegacyRecvCodecs
 (
 )
 [
@@ -43353,7 +43353,7 @@ EXPECT_EQ
 (
 engine_
 .
-recv_codecs
+LegacyRecvCodecs
 (
 )
 [
@@ -59555,7 +59555,7 @@ FindCodecById
 (
 engine_
 .
-recv_codecs
+LegacyRecvCodecs
 (
 )
 kRedRtxPayloadType

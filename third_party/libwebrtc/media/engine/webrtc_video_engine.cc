@@ -560,6 +560,15 @@ include
 "
 call
 /
+payload_type
+.
+h
+"
+#
+include
+"
+call
+/
 payload_type_picker
 .
 h
@@ -6619,7 +6628,7 @@ Codec
 WebRtcVideoEngine
 :
 :
-send_codecs
+LegacySendCodecs
 (
 bool
 include_rtx
@@ -6656,7 +6665,7 @@ Codec
 WebRtcVideoEngine
 :
 :
-recv_codecs
+LegacyRecvCodecs
 (
 bool
 include_rtx

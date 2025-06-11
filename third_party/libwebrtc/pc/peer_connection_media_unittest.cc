@@ -6676,7 +6676,7 @@ voice
 (
 )
 .
-send_codecs
+LegacySendCodecs
 (
 )
 ;
@@ -11730,7 +11730,7 @@ voice
 (
 )
 .
-send_codecs
+LegacySendCodecs
 (
 )
 ;
@@ -12081,7 +12081,7 @@ voice
 (
 )
 .
-send_codecs
+LegacySendCodecs
 (
 )
 ;
@@ -12753,7 +12753,7 @@ video
 (
 )
 .
-send_codecs
+LegacySendCodecs
 (
 )
 ;
@@ -13470,7 +13470,7 @@ video
 (
 )
 .
-send_codecs
+LegacySendCodecs
 (
 )
 ;
@@ -13855,7 +13855,7 @@ video
 (
 )
 .
-send_codecs
+LegacySendCodecs
 (
 )
 ;
@@ -14428,7 +14428,7 @@ video
 (
 )
 .
-send_codecs
+LegacySendCodecs
 (
 )
 ;
