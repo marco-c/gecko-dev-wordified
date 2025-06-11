@@ -981,9 +981,7 @@ mStatSentToClientLater
 /
 /
 Wait
-0
-.
-5
+one
 sec
 before
 we
@@ -1015,8 +1013,6 @@ double
 sFailureTimeout
 =
 CLOCKS_PER_SEC
-/
-2
 ;
 clock_t
 mFailureTime
