@@ -633,7 +633,7 @@ eCombobox
 states
 :
 :
-COLLAPSED
+EXPANDABLE
 |
 states
 :
