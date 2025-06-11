@@ -206,7 +206,7 @@ wait_until
 h
 "
 namespace
-rtc
+webrtc
 {
 class
 RTCCertificateGeneratorFixture
@@ -219,6 +219,9 @@ RTCCertificateGeneratorFixture
 :
 signaling_thread_
 (
+rtc
+:
+:
 Thread
 :
 :
@@ -228,6 +231,9 @@ Current
 )
 worker_thread_
 (
+rtc
+:
+:
 Thread
 :
 :
@@ -398,6 +404,9 @@ false
 }
 protected
 :
+rtc
+:
+:
 Thread
 *
 const
@@ -408,6 +417,9 @@ std
 :
 unique_ptr
 <
+rtc
+:
+:
 Thread
 >
 worker_thread_
@@ -449,15 +461,9 @@ protected
 :
 static
 constexpr
-webrtc
-:
-:
 TimeDelta
 kGenerationTimeoutMs
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -490,6 +496,9 @@ RTCCertificateGenerator
 :
 GenerateCertificate
 (
+rtc
+:
+:
 KeyParams
 :
 :
@@ -517,6 +526,9 @@ RTCCertificateGenerator
 :
 GenerateCertificate
 (
+rtc
+:
+:
 KeyParams
 :
 :
@@ -555,6 +567,9 @@ generator
 >
 GenerateCertificateAsync
 (
+rtc
+:
+:
 KeyParams
 :
 :
@@ -784,6 +799,9 @@ RTCCertificateGenerator
 :
 GenerateCertificate
 (
+rtc
+:
+:
 KeyParams
 :
 :
@@ -826,6 +844,9 @@ RTCCertificateGenerator
 :
 GenerateCertificate
 (
+rtc
+:
+:
 KeyParams
 :
 :
@@ -929,9 +950,15 @@ RTCCertificateGeneratorTest
 GenerateWithInvalidParamsShouldFail
 )
 {
+rtc
+:
+:
 KeyParams
 invalid_params
 =
+rtc
+:
+:
 KeyParams
 :
 :
@@ -1042,4 +1069,4 @@ certificate
 /
 /
 namespace
-rtc
+webrtc

@@ -133,7 +133,7 @@ time_utils
 h
 "
 namespace
-rtc
+webrtc
 {
 scoped_refptr
 <
@@ -149,6 +149,9 @@ std
 :
 unique_ptr
 <
+rtc
+:
+:
 SSLIdentity
 >
 identity
@@ -164,9 +167,6 @@ protected
 constructor
 .
 return
-rtc
-:
-:
 scoped_refptr
 <
 RTCCertificate
@@ -189,6 +189,9 @@ RTCCertificate
 :
 RTCCertificate
 (
+rtc
+:
+:
 SSLIdentity
 *
 identity
@@ -252,6 +255,9 @@ uint64_t
 expires
 )
 *
+rtc
+:
+:
 kNumMillisecsPerSec
 ;
 /
@@ -302,6 +308,9 @@ now
 ;
 }
 const
+rtc
+:
+:
 SSLCertificate
 &
 RTCCertificate
@@ -322,6 +331,9 @@ certificate
 ;
 }
 const
+rtc
+:
+:
 SSLCertChain
 &
 RTCCertificate
@@ -389,10 +401,16 @@ std
 :
 unique_ptr
 <
+rtc
+:
+:
 SSLIdentity
 >
 identity
 (
+rtc
+:
+:
 SSLIdentity
 :
 :
@@ -494,4 +512,4 @@ certificate
 /
 /
 namespace
-rtc
+webrtc

@@ -132,6 +132,15 @@ include
 "
 rtc_base
 /
+rtc_certificate
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 system
 /
 rtc_export
@@ -141,9 +150,6 @@ h
 namespace
 rtc
 {
-class
-RTCCertificate
-;
 class
 SSLCertificate
 ;
@@ -357,6 +363,9 @@ SSLFingerprint
 CreateFromCertificate
 (
 const
+webrtc
+:
+:
 RTCCertificate
 &
 cert

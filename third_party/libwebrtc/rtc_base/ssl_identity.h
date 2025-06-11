@@ -390,10 +390,16 @@ RSA
 int
 mod_size
 =
+rtc
+:
+:
 kRsaDefaultModSize
 int
 pub_exp
 =
+rtc
+:
+:
 kRsaDefaultExponent
 )
 ;
@@ -416,6 +422,9 @@ ECDSA
 ECCurve
 curve
 =
+rtc
+:
+:
 EC_NIST_P256
 )
 ;

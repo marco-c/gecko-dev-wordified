@@ -587,7 +587,7 @@ rtc
 :
 scoped_refptr
 <
-rtc
+webrtc
 :
 :
 RTCCertificate
@@ -597,7 +597,7 @@ MakeCertificate
 )
 {
 return
-rtc
+webrtc
 :
 :
 RTCCertificate
@@ -773,7 +773,7 @@ rtc
 :
 scoped_refptr
 <
-rtc
+webrtc
 :
 :
 RTCCertificate
@@ -1658,7 +1658,7 @@ rtc
 :
 scoped_refptr
 <
-rtc
+webrtc
 :
 :
 RTCCertificate
@@ -1670,7 +1670,7 @@ rtc
 :
 scoped_refptr
 <
-rtc
+webrtc
 :
 :
 RTCCertificate

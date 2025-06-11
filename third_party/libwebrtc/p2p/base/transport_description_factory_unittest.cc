@@ -294,7 +294,7 @@ field_trials_
 )
 cert1_
 (
-rtc
+webrtc
 :
 :
 RTCCertificate
@@ -328,7 +328,7 @@ User1
 )
 cert2_
 (
-rtc
+webrtc
 :
 :
 RTCCertificate
@@ -1352,7 +1352,7 @@ rtc
 :
 scoped_refptr
 <
-rtc
+webrtc
 :
 :
 RTCCertificate
@@ -1364,7 +1364,7 @@ rtc
 :
 scoped_refptr
 <
-rtc
+webrtc
 :
 :
 RTCCertificate

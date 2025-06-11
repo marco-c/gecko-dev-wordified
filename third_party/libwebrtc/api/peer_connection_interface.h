@@ -3201,9 +3201,6 @@ rtc
 :
 scoped_refptr
 <
-rtc
-:
-:
 RTCCertificate
 >
 >
@@ -12356,9 +12353,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 RTCCertificateGeneratorInterface
 >
 cert_generator

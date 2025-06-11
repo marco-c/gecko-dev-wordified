@@ -188,7 +188,7 @@ exp
 .
 static
 const
-rtc
+webrtc
 :
 :
 RTCCertificatePEM
@@ -197,7 +197,7 @@ kRsaPems
 ]
 =
 {
-rtc
+webrtc
 :
 :
 RTCCertificatePEM
@@ -478,7 +478,7 @@ CERTIFICATE
 n
 "
 )
-rtc
+webrtc
 :
 :
 RTCCertificatePEM
@@ -823,7 +823,7 @@ ToPEMString
 .
 static
 const
-rtc
+webrtc
 :
 :
 RTCCertificatePEM
@@ -832,7 +832,7 @@ kEcdsaPems
 ]
 =
 {
-rtc
+webrtc
 :
 :
 RTCCertificatePEM
@@ -993,7 +993,7 @@ CERTIFICATE
 n
 "
 )
-rtc
+webrtc
 :
 :
 RTCCertificatePEM
@@ -1151,7 +1151,7 @@ class
 FakeRTCCertificateGenerator
 :
 public
-rtc
+webrtc
 :
 :
 RTCCertificateGeneratorInterface
@@ -1459,7 +1459,7 @@ rtc
 :
 scoped_refptr
 <
-rtc
+webrtc
 :
 :
 RTCCertificate
@@ -1483,7 +1483,7 @@ rtc
 KT_RSA
 :
 return
-rtc
+webrtc
 :
 :
 RTCCertificate
@@ -1504,7 +1504,7 @@ rtc
 KT_ECDSA
 :
 return
-rtc
+webrtc
 :
 :
 RTCCertificate
@@ -1532,7 +1532,7 @@ nullptr
 private
 :
 const
-rtc
+webrtc
 :
 :
 RTCCertificatePEM
@@ -1794,14 +1794,14 @@ rtc
 :
 scoped_refptr
 <
-rtc
+webrtc
 :
 :
 RTCCertificate
 >
 certificate
 =
-rtc
+webrtc
 :
 :
 RTCCertificate

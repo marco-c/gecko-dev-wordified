@@ -800,9 +800,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 RTCCertificateGeneratorInterface
 >
 cert_generator
@@ -811,9 +808,6 @@ rtc
 :
 scoped_refptr
 <
-rtc
-:
-:
 RTCCertificate
 >
 certificate
@@ -830,7 +824,7 @@ rtc
 :
 scoped_refptr
 <
-rtc
+webrtc
 :
 :
 RTCCertificate
@@ -3110,9 +3104,6 @@ rtc
 :
 scoped_refptr
 <
-rtc
-:
-:
 RTCCertificate
 >
 certificate

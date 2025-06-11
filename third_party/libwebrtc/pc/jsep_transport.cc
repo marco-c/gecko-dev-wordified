@@ -394,7 +394,7 @@ rtc
 :
 scoped_refptr
 <
-rtc
+webrtc
 :
 :
 RTCCertificate
@@ -2157,7 +2157,7 @@ JsepTransport
 VerifyCertificateFingerprint
 (
 const
-rtc
+webrtc
 :
 :
 RTCCertificate

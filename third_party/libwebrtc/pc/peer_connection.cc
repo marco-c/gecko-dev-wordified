@@ -2842,9 +2842,6 @@ rtc
 :
 scoped_refptr
 <
-rtc
-:
-:
 RTCCertificate
 >
 >
@@ -15530,9 +15527,6 @@ rtc
 :
 scoped_refptr
 <
-rtc
-:
-:
 RTCCertificate
 >
 *

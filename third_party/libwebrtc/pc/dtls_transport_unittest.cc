@@ -526,9 +526,6 @@ ICE_CANDIDATE_COMPONENT_RTP
 auto
 cert1
 =
-rtc
-:
-:
 RTCCertificate
 :
 :
@@ -563,9 +560,6 @@ cert1
 auto
 cert2
 =
-rtc
-:
-:
 RTCCertificate
 :
 :

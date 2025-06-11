@@ -1874,9 +1874,6 @@ rtc
 :
 scoped_refptr
 <
-rtc
-:
-:
 RTCCertificate
 >
 &
@@ -1888,9 +1885,6 @@ rtc
 :
 scoped_refptr
 <
-rtc
-:
-:
 RTCCertificate
 >
 GetLocalCertificate
@@ -3937,9 +3931,6 @@ rtc
 :
 scoped_refptr
 <
-rtc
-:
-:
 RTCCertificate
 >
 certificate_

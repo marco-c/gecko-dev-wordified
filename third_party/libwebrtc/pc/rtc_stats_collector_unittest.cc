@@ -986,9 +986,6 @@ rtc
 :
 scoped_refptr
 <
-rtc
-:
-:
 RTCCertificate
 >
 certificate
@@ -1292,9 +1289,6 @@ info
 >
 certificate
 =
-rtc
-:
-:
 RTCCertificate
 :
 :
