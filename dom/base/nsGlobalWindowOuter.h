@@ -329,17 +329,6 @@ include
 "
 mozilla
 /
-dom
-/
-UnionTypes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Attributes
 .
 h
@@ -594,9 +583,6 @@ MediaQueryList
 ;
 class
 Navigator
-;
-class
-OwningExternalOrWindowProxy
 ;
 class
 Promise

@@ -185,6 +185,17 @@ IPCBlobUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+UnionTypes
+.
+h
+"
 using
 namespace
 mozilla
