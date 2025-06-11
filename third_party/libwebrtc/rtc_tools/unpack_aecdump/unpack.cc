@@ -1315,9 +1315,6 @@ std
 :
 string
 name
-rtc
-:
-:
 FunctionView
 <
 bool
@@ -1327,9 +1324,6 @@ Event
 )
 >
 is_exporter_for
-rtc
-:
-:
 FunctionView
 <
 std
@@ -1618,9 +1612,6 @@ string
 setting_name_
 ;
 const
-rtc
-:
-:
 FunctionView
 <
 bool
@@ -1631,9 +1622,6 @@ Event
 is_exporter_for_
 ;
 const
-rtc
-:
-:
 FunctionView
 <
 std

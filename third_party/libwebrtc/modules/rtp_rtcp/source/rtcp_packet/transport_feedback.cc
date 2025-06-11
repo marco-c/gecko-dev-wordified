@@ -3392,9 +3392,6 @@ TransportFeedback
 :
 ForAllPackets
 (
-rtc
-:
-:
 FunctionView
 <
 void

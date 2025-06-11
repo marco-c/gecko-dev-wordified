@@ -312,9 +312,6 @@ sequence_checker_
 void
 RunOnDifferentThread
 (
-rtc
-:
-:
 FunctionView
 <
 void

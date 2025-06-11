@@ -1132,9 +1132,6 @@ position
 =
 0
 ;
-rtc
-:
-:
 FunctionView
 <
 void

@@ -489,9 +489,6 @@ EmulatedNetworkManagerInterface
 *
 >
 network_links
-rtc
-:
-:
 FunctionView
 <
 void
@@ -501,9 +498,6 @@ PeerConfigurer
 )
 >
 alice_configurer
-rtc
-:
-:
 FunctionView
 <
 void

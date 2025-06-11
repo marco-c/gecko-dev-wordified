@@ -445,9 +445,6 @@ return
 w
 ;
 }
-rtc
-:
-:
 FunctionView
 <
 float

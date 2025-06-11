@@ -174,9 +174,6 @@ SendTask
 TaskQueueBase
 *
 task_queue
-rtc
-:
-:
 FunctionView
 <
 void
@@ -592,9 +589,6 @@ queue
 void
 SendTask
 (
-rtc
-:
-:
 FunctionView
 <
 void

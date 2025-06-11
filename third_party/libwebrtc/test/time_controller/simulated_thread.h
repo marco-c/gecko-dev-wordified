@@ -218,9 +218,6 @@ interface
 void
 BlockingCallImpl
 (
-rtc
-:
-:
 FunctionView
 <
 void

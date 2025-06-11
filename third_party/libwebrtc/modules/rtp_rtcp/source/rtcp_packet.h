@@ -424,9 +424,6 @@ made
 using
 PacketReadyCallback
 =
-rtc
-:
-:
 FunctionView
 <
 void

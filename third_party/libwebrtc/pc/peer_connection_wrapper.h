@@ -1632,9 +1632,6 @@ SessionDescriptionInterface
 >
 CreateSdp
 (
-rtc
-:
-:
 FunctionView
 <
 void
@@ -1655,9 +1652,6 @@ error_out
 bool
 SetSdp
 (
-rtc
-:
-:
 FunctionView
 <
 void

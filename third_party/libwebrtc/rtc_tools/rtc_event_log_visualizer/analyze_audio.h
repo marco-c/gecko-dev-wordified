@@ -361,9 +361,6 @@ const
 NetEqStatsGetterMap
 &
 neteq_stats_getters
-rtc
-:
-:
 FunctionView
 <
 float
@@ -401,9 +398,6 @@ const
 NetEqStatsGetterMap
 &
 neteq_stats_getters
-rtc
-:
-:
 FunctionView
 <
 float

@@ -111,16 +111,13 @@ gtest
 h
 "
 namespace
-rtc
+webrtc
 {
 namespace
 {
 int
 CallWith33
 (
-rtc
-:
-:
 FunctionView
 <
 int
@@ -257,9 +254,6 @@ f
 )
 )
 ;
-rtc
-:
-:
 FunctionView
 <
 int
@@ -315,9 +309,6 @@ x
 ;
 }
 ;
-rtc
-:
-:
 FunctionView
 <
 int
@@ -373,9 +364,6 @@ FunctionViewTest
 IntIntFunction
 )
 {
-rtc
-:
-:
 FunctionView
 <
 int
@@ -409,9 +397,6 @@ FunctionViewTest
 IntIntFunctionPointer
 )
 {
-rtc
-:
-:
 FunctionView
 <
 int
@@ -460,9 +445,6 @@ FunctionViews
 .
 EXPECT_FALSE
 (
-rtc
-:
-:
 FunctionView
 <
 int
@@ -475,9 +457,6 @@ int
 ;
 EXPECT_FALSE
 (
-rtc
-:
-:
 FunctionView
 <
 int
@@ -501,9 +480,6 @@ pointers
 .
 EXPECT_FALSE
 (
-rtc
-:
-:
 FunctionView
 <
 int
@@ -568,9 +544,6 @@ x
 ;
 }
 ;
-rtc
-:
-:
 FunctionView
 <
 std
@@ -660,9 +633,6 @@ return
 ;
 }
 ;
-rtc
-:
-:
 FunctionView
 <
 int
@@ -674,9 +644,6 @@ fv1
 f17
 )
 ;
-rtc
-:
-:
 FunctionView
 <
 int
@@ -722,9 +689,6 @@ return
 ;
 }
 ;
-rtc
-:
-:
 FunctionView
 <
 int
@@ -736,9 +700,6 @@ fv1
 f17
 )
 ;
-rtc
-:
-:
 FunctionView
 <
 int
@@ -793,9 +754,6 @@ return
 ;
 }
 ;
-rtc
-:
-:
 FunctionView
 <
 int
@@ -818,9 +776,6 @@ return
 ;
 }
 ;
-rtc
-:
-:
 FunctionView
 <
 int
@@ -886,9 +841,6 @@ return
 ;
 }
 ;
-rtc
-:
-:
 FunctionView
 <
 int
@@ -911,9 +863,6 @@ return
 ;
 }
 ;
-rtc
-:
-:
 FunctionView
 <
 int
@@ -988,9 +937,6 @@ return
 ;
 }
 ;
-rtc
-:
-:
 FunctionView
 <
 int
@@ -1013,9 +959,6 @@ return
 ;
 }
 ;
-rtc
-:
-:
 FunctionView
 <
 int
@@ -1130,9 +1073,6 @@ return
 ;
 }
 ;
-rtc
-:
-:
 FunctionView
 <
 int
@@ -1144,9 +1084,6 @@ fv1
 f17
 )
 ;
-rtc
-:
-:
 FunctionView
 <
 int
@@ -1256,9 +1193,6 @@ return
 ;
 }
 ;
-rtc
-:
-:
 FunctionView
 <
 int
@@ -1270,9 +1204,6 @@ fv1
 f17
 )
 ;
-rtc
-:
-:
 FunctionView
 <
 int
@@ -1355,4 +1286,4 @@ fv2
 /
 /
 namespace
-rtc
+webrtc

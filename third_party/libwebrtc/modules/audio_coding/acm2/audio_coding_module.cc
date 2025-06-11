@@ -373,9 +373,6 @@ Sender
 void
 ModifyEncoder
 (
-rtc
-:
-:
 FunctionView
 <
 void
@@ -1929,9 +1926,6 @@ AudioCodingModuleImpl
 :
 ModifyEncoder
 (
-rtc
-:
-:
 FunctionView
 <
 void

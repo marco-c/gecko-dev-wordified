@@ -529,9 +529,6 @@ CallbackListReceivers
 :
 Foreach
 (
-rtc
-:
-:
 FunctionView
 <
 void

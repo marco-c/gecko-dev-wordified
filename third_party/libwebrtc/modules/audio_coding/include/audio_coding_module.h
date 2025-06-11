@@ -425,9 +425,6 @@ virtual
 void
 ModifyEncoder
 (
-rtc
-:
-:
 FunctionView
 <
 void

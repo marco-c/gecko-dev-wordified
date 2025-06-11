@@ -649,9 +649,6 @@ AddPeer
 EmulatedNetworkManagerInterface
 *
 network
-rtc
-:
-:
 FunctionView
 <
 void

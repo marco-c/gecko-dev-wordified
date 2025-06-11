@@ -425,9 +425,6 @@ const
 VectorMath
 vector_math_
 ;
-rtc
-:
-:
 FunctionView
 <
 float
