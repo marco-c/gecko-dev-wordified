@@ -26214,7 +26214,7 @@ x
 )
 )
 #
-Automation
+Package
 renaming
 #
 =
@@ -26279,12 +26279,6 @@ renaming
 =
 =
 =
-with
-only_when
-(
-moz_automation
-)
-:
 option
 (
 env
