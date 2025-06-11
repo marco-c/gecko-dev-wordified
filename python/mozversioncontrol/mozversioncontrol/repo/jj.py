@@ -3718,6 +3718,10 @@ user
 preferences
 .
             
+updated_author
+=
+False
+            
 #
 Copy
 over
@@ -3735,10 +3739,11 @@ they
 ve
 been
 set
-there
-by
+in
+git
+but
 not
-for
+in
 jj
             
 username_key
@@ -3749,7 +3754,7 @@ user
 name
 "
             
-username
+git_username
 =
 self
 .
@@ -3760,15 +3765,19 @@ get_config_key_value
 username_key
 )
             
-if
-username
-and
+jj_username_missing
+=
 self
 .
 config_key_list_value_missing
 (
 username_key
 )
+            
+if
+git_username
+and
+jj_username_missing
 :
                 
 self
@@ -3776,8 +3785,12 @@ self
 set_config_key_value
 (
 username_key
-username
+git_username
 )
+                
+updated_author
+=
+True
             
 email_key
 =
@@ -3787,7 +3800,7 @@ user
 email
 "
             
-email
+git_email
 =
 self
 .
@@ -3798,15 +3811,19 @@ get_config_key_value
 email_key
 )
             
-if
-email
-and
+jj_email_missing
+=
 self
 .
 config_key_list_value_missing
 (
 email_key
 )
+            
+if
+git_email
+and
+jj_email_missing
 :
                 
 self
@@ -3814,7 +3831,38 @@ self
 set_config_key_value
 (
 email_key
-email
+git_email
+)
+                
+updated_author
+=
+True
+            
+if
+updated_author
+:
+                
+self
+.
+_run
+(
+"
+describe
+"
+"
+-
+-
+reset
+-
+author
+"
+"
+-
+-
+no
+-
+edit
+"
 )
             
 jj_revset_immutable_heads_key
