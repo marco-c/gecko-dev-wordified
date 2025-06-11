@@ -1672,6 +1672,15 @@ build_type
 )
             
 )
+            
+task
+[
+"
+retries
+"
+]
+=
+0
         
 elif
 "
