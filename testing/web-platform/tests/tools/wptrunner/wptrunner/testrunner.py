@@ -2101,6 +2101,8 @@ current_group
 [
 1
 ]
+!
+r
 }
 "
                                   
@@ -3285,6 +3287,8 @@ queue
 :
 {
 subsuite
+!
+r
 }
 :
 {
@@ -3341,6 +3345,8 @@ queue
 :
 {
 subsuite
+!
+r
 }
 :
 {
@@ -6948,6 +6954,8 @@ subsuite
 :
 {
 subsuite
+!
+r
 }
 "
 )
