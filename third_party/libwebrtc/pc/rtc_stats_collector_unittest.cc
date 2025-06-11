@@ -21701,7 +21701,7 @@ senders
 0
 ]
 .
-simulcast_index
+encoding_index
 =
 0
 ;
@@ -22204,7 +22204,7 @@ senders
 1
 ]
 .
-simulcast_index
+encoding_index
 =
 1
 ;
@@ -22383,7 +22383,7 @@ q
 ;
 expected_video
 .
-simulcast_index
+encoding_index
 =
 0
 ;

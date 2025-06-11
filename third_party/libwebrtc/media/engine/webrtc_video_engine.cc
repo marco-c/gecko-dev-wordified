@@ -18649,7 +18649,7 @@ map
 uint32_t
 size_t
 >
-simulcast_index_by_ssrc
+encoding_index_by_ssrc
 ;
 for
 (
@@ -18677,7 +18677,7 @@ size
 i
 )
 {
-simulcast_index_by_ssrc
+encoding_index_by_ssrc
 [
 parameters_
 .
@@ -18824,7 +18824,7 @@ size
 1
 &
 &
-simulcast_index_by_ssrc
+encoding_index_by_ssrc
 .
 find
 (
@@ -18832,7 +18832,7 @@ ssrc
 )
 !
 =
-simulcast_index_by_ssrc
+encoding_index_by_ssrc
 .
 end
 (
@@ -18841,9 +18841,9 @@ end
 {
 info
 .
-simulcast_index
+encoding_index
 =
-simulcast_index_by_ssrc
+encoding_index_by_ssrc
 [
 ssrc
 ]
@@ -19243,7 +19243,7 @@ infos
 ;
 info
 .
-simulcast_index
+encoding_index
 =
 std
 :

@@ -4885,7 +4885,7 @@ optional
 <
 size_t
 >
-simulcast_index
+encoding_index
 ;
 std
 :
