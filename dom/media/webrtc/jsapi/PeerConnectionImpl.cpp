@@ -4056,7 +4056,7 @@ nsresult
 PeerConnectionImpl
 :
 :
-ConfigureJsepSessionCodecs
+SortJsepSessionCodecs
 (
 )
 {
@@ -4875,7 +4875,7 @@ transceiver
 nsresult
 res
 =
-ConfigureJsepSessionCodecs
+SortJsepSessionCodecs
 (
 )
 ;
@@ -4893,7 +4893,7 @@ LOGTAG
 "
 Failed
 to
-configure
+sort
 codecs
 "
 )
@@ -9141,7 +9141,7 @@ CreateOffer
 nsresult
 nrv
 =
-ConfigureJsepSessionCodecs
+SortJsepSessionCodecs
 (
 )
 ;
@@ -9159,7 +9159,7 @@ LOGTAG
 "
 Failed
 to
-configure
+sort
 codecs
 "
 )
@@ -10382,7 +10382,7 @@ NS_OK
 nsresult
 nrv
 =
-ConfigureJsepSessionCodecs
+SortJsepSessionCodecs
 (
 )
 ;
@@ -10400,7 +10400,7 @@ LOGTAG
 "
 Failed
 to
-configure
+sort
 codecs
 "
 )
