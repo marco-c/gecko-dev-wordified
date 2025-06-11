@@ -3634,12 +3634,6 @@ scene
 :
 &
 Scene
-root_pipeline
-:
-Option
-<
-PipelineId
->
 fonts
 :
 SharedFontResources
@@ -3704,14 +3698,9 @@ backend
 let
 root_pipeline_id
 =
-root_pipeline
-.
-or
-(
 scene
 .
 root_pipeline_id
-)
 .
 unwrap
 (
