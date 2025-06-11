@@ -738,8 +738,8 @@ emitCallScriptedSetterShared
 (
 ObjOperandId
 receiverId
-uint32_t
-setterOffset
+ObjOperandId
+calleeId
 ValOperandId
 rhsId
 bool
