@@ -93,6 +93,11 @@ rid_description
 .
 h
 "
+#
+include
+<
+string
+>
 namespace
 cricket
 {

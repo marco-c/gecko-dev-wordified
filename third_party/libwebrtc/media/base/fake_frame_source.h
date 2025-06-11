@@ -93,6 +93,11 @@ define
 MEDIA_BASE_FAKE_FRAME_SOURCE_H_
 #
 include
+<
+cstdint
+>
+#
+include
 "
 api
 /
@@ -105,9 +110,11 @@ h
 #
 include
 "
-rtc_base
+api
 /
-time_utils
+video
+/
+video_rotation
 .
 h
 "

@@ -116,6 +116,15 @@ vector
 #
 include
 "
+api
+/
+array_view
+.
+h
+"
+#
+include
+"
 media
 /
 base
