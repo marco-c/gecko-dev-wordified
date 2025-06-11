@@ -2960,8 +2960,6 @@ issues
 13163
 .
 it
-.
-skip
 (
 '
 should

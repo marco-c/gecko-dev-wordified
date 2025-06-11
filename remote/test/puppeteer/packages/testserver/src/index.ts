@@ -27,6 +27,8 @@ import
 assert
 from
 '
+node
+:
 assert
 '
 ;
@@ -37,6 +39,8 @@ readFileSync
 }
 from
 '
+node
+:
 fs
 '
 ;
@@ -58,6 +62,8 @@ ServerResponse
 }
 from
 '
+node
+:
 http
 '
 ;
@@ -77,6 +83,8 @@ HttpsServerOptions
 }
 from
 '
+node
+:
 https
 '
 ;
@@ -87,6 +95,8 @@ AddressInfo
 }
 from
 '
+node
+:
 net
 '
 ;
@@ -96,6 +106,8 @@ join
 }
 from
 '
+node
+:
 path
 '
 ;
@@ -106,6 +118,8 @@ Duplex
 }
 from
 '
+node
+:
 stream
 '
 ;

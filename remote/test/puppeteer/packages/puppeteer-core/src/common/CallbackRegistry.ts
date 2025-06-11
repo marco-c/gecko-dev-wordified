@@ -102,6 +102,13 @@ util
 js
 '
 ;
+const
+idGenerator
+=
+createIncrementalIdGenerator
+(
+)
+;
 /
 *
 *
@@ -143,9 +150,7 @@ Callback
 #
 idGenerator
 =
-createIncrementalIdGenerator
-(
-)
+idGenerator
 ;
 create
 (

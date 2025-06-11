@@ -29,6 +29,8 @@ createWriteStream
 }
 from
 '
+node
+:
 fs
 '
 ;
@@ -38,6 +40,8 @@ as
 http
 from
 '
+node
+:
 http
 '
 ;
@@ -47,6 +51,8 @@ as
 https
 from
 '
+node
+:
 https
 '
 ;
@@ -57,6 +63,8 @@ urlToHttpOptions
 }
 from
 '
+node
+:
 url
 '
 ;

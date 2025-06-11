@@ -27,6 +27,8 @@ import
 assert
 from
 '
+node
+:
 assert
 '
 ;
@@ -129,6 +131,8 @@ non
 -
 breaking
 spaces
+in
+span
 '
 async
 (

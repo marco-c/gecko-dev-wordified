@@ -27,6 +27,8 @@ import
 assert
 from
 '
+node
+:
 assert
 '
 ;
@@ -34,6 +36,8 @@ import
 fs
 from
 '
+node
+:
 fs
 '
 ;
@@ -41,6 +45,8 @@ import
 http
 from
 '
+node
+:
 http
 '
 ;
@@ -48,6 +54,8 @@ import
 https
 from
 '
+node
+:
 https
 '
 ;
@@ -55,6 +63,8 @@ import
 os
 from
 '
+node
+:
 os
 '
 ;
@@ -62,6 +72,8 @@ import
 path
 from
 '
+node
+:
 path
 '
 ;

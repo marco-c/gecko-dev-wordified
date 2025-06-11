@@ -1049,7 +1049,7 @@ to
 schedule
 evaluateHandle
 call
-synchroniously
+synchronously
 (
 at
 /
@@ -1176,7 +1176,7 @@ to
 schedule
 evaluate
 call
-synchroniously
+synchronously
 (
 at
 /
@@ -1268,7 +1268,7 @@ to
 schedule
 resolveNode
 call
-synchroniously
+synchronously
 (
 at
 /

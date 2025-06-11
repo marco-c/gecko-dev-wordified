@@ -30,6 +30,8 @@ resolve
 }
 from
 '
+node
+:
 path
 '
 ;

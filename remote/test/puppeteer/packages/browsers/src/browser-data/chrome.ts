@@ -27,6 +27,8 @@ import
 path
 from
 '
+node
+:
 path
 '
 ;
@@ -80,6 +82,11 @@ switch
 platform
 )
 {
+case
+BrowserPlatform
+.
+LINUX_ARM
+:
 case
 BrowserPlatform
 .
@@ -293,6 +300,11 @@ Testing
 '
 )
 ;
+case
+BrowserPlatform
+.
+LINUX_ARM
+:
 case
 BrowserPlatform
 .
@@ -1170,6 +1182,11 @@ Dev
 '
 ;
 }
+case
+BrowserPlatform
+.
+LINUX_ARM
+:
 case
 BrowserPlatform
 .

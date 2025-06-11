@@ -95,7 +95,7 @@ from
 '
 .
 /
-CDPSession
+CdpSession
 .
 js
 '

@@ -30,6 +30,8 @@ rm
 }
 from
 '
+node
+:
 fs
 /
 promises
@@ -41,6 +43,8 @@ tmpdir
 }
 from
 '
+node
+:
 os
 '
 ;
@@ -50,6 +54,8 @@ join
 }
 from
 '
+node
+:
 path
 '
 ;

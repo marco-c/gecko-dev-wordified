@@ -29,6 +29,8 @@ homedir
 }
 from
 '
+node
+:
 os
 '
 ;
@@ -38,6 +40,8 @@ join
 }
 from
 '
+node
+:
 path
 '
 ;

@@ -27,6 +27,8 @@ import
 assert
 from
 '
+node
+:
 assert
 '
 ;
@@ -34,6 +36,8 @@ import
 path
 from
 '
+node
+:
 path
 '
 ;

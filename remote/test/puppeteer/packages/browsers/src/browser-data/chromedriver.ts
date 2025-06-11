@@ -27,6 +27,8 @@ import
 path
 from
 '
+node
+:
 path
 '
 ;
@@ -58,6 +60,11 @@ switch
 platform
 )
 {
+case
+BrowserPlatform
+.
+LINUX_ARM
+:
 case
 BrowserPlatform
 .
@@ -254,6 +261,11 @@ chromedriver
 '
 )
 ;
+case
+BrowserPlatform
+.
+LINUX_ARM
+:
 case
 BrowserPlatform
 .

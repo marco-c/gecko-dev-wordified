@@ -758,6 +758,8 @@ BidiConnection
 send
 (
 '
+goog
+:
 cdp
 .
 resolveRealm

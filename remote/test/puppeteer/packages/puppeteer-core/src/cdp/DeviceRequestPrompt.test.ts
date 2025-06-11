@@ -149,6 +149,11 @@ return
 undefined
 ;
 }
+readonly
+detached
+=
+false
+;
 async
 detach
 (

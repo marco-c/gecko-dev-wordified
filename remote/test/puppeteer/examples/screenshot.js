@@ -71,7 +71,7 @@ page
 goto
 (
 '
-http
+https
 :
 /
 /

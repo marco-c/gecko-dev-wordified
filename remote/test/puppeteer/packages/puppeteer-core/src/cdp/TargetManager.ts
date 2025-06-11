@@ -134,7 +134,6 @@ js
 '
 ;
 import
-type
 {
 CdpCDPSession
 }
@@ -142,7 +141,7 @@ from
 '
 .
 /
-CDPSession
+CdpSession
 .
 js
 '
@@ -224,11 +223,11 @@ TargetInfo
 session
 ?
 :
-CDPSession
+CdpCDPSession
 parentSession
 ?
 :
-CDPSession
+CdpCDPSession
 )
 =
 >
@@ -2017,7 +2016,7 @@ this
 #
 connection
 .
-session
+_session
 (
 event
 .
@@ -2370,7 +2369,7 @@ targetInfo
 session
 parentSession
 instanceof
-CDPSession
+CdpCDPSession
 ?
 parentSession
 :
@@ -2438,13 +2437,9 @@ if
 isExistingTarget
 )
 {
-(
 session
-as
-CdpCDPSession
-)
 .
-_setTarget
+setTarget
 (
 target
 )
@@ -2526,7 +2521,7 @@ as
 CdpCDPSession
 )
 .
-_target
+target
 (
 )
 :
@@ -2786,7 +2781,7 @@ as
 CdpCDPSession
 )
 .
-_target
+target
 (
 )
 .

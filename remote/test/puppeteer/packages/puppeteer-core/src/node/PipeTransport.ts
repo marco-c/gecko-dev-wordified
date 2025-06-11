@@ -357,7 +357,7 @@ OK
 new
 EventEmitter
 (
-pipeRead
+pipeWrite
 as
 unknown
 as
