@@ -24,16 +24,6 @@ warmup
 threshold
 =
 30
-;
--
--
-baseline
--
-offthread
--
-compile
-=
-off
 /
 /
 We

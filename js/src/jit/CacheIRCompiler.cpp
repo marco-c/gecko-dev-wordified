@@ -68881,15 +68881,12 @@ void
 ;
 masm
 .
-Push
-(
-FrameDescriptor
+PushFrameDescriptor
 (
 FrameType
 :
 :
 IonICCall
-)
 )
 ;
 masm
