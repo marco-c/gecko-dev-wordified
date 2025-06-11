@@ -64,6 +64,9 @@ if
 event
 .
 data
+?
+.
+type
 !
 =
 =
@@ -167,9 +170,9 @@ client
 .
 postMessage
 (
-"
-DONE
-"
+event
+.
+data
 )
 ;
 }
