@@ -378,19 +378,6 @@ str
 Required
 (
 "
-try_options
-"
-)
-:
-Any
-(
-None
-dict
-)
-    
-Required
-(
-"
 try_task_config
 "
 )
@@ -1204,12 +1191,6 @@ default
         
 "
 try_mode
-"
-:
-None
-        
-"
-try_options
 "
 :
 None
