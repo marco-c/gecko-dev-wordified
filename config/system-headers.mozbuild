@@ -6202,13 +6202,6 @@ h
 "
 android
 /
-sharedmem
-.
-h
-"
-"
-android
-/
 system_fonts
 .
 h
