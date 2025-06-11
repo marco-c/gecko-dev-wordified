@@ -1822,6 +1822,8 @@ rtc
 ReceivedPacket
 &
 packet
+bool
+piggybacked
 )
 ;
 void
@@ -1929,6 +1931,11 @@ error
 ;
 void
 ConfigureHandshakeTimeout
+(
+)
+;
+void
+DisablePiggybackingAndRestart
 (
 )
 ;
