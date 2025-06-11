@@ -883,8 +883,6 @@ getBoolPref
 "
 layout
 .
-scroll
-.
 disable
 -
 pixel
