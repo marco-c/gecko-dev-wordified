@@ -3831,6 +3831,13 @@ XRE_IsParentProcess
 )
 )
 ;
+MOZ_DIAGNOSTIC_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 /
 /
 GTK
