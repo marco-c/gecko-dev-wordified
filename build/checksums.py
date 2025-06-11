@@ -598,7 +598,10 @@ d
 for
 f
 in
+sorted
+(
 files
+)
 :
                     
 full
