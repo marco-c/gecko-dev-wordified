@@ -8104,7 +8104,7 @@ thread
 ;
 #
 ifndef
-DEBUG
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 /
 /
 Only
@@ -8113,7 +8113,8 @@ the
 real
 verification
 in
-debug
+early
+beta
 builds
 return
 true
@@ -8122,7 +8123,7 @@ true
 else
 /
 /
-DEBUG
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 if
 (
 !
