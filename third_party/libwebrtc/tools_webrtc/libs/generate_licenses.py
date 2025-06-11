@@ -510,20 +510,6 @@ TXT
 ]
     
 '
-libevent
-'
-:
-[
-'
-third_party
-/
-libevent
-/
-LICENSE
-'
-]
-    
-'
 libjpeg_turbo
 '
 :
