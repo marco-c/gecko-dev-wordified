@@ -5837,6 +5837,16 @@ not
 supported
 "
 ;
+default
+:
+/
+/
+Fall
+through
+to
+RTC_CHECK_NOTREACHED
+break
+;
 }
 RTC_DCHECK_NOTREACHED
 (
