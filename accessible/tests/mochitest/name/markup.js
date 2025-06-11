@@ -523,7 +523,7 @@ is
 empty
 and
 no
-explict
+explicit
 -
 name
 .
@@ -1563,7 +1563,7 @@ aRule
 getAttribute
 (
 "
-explict
+explicit
 -
 name
 "
