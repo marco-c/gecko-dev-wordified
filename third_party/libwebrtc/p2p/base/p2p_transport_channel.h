@@ -3655,7 +3655,7 @@ StunUInt64Attribute
 )
 ;
 void
-SendPeriodicPingUntilDtlsConnected
+PeriodicRetransmitDtlsPacketUntilDtlsConnected
 (
 )
 ;
@@ -3802,7 +3802,7 @@ piggybacking
 callbacks
 .
 bool
-pending_ping_until_dtls_connected_
+pending_periodic_retransmit_dtls_packet_
 =
 false
 ;
