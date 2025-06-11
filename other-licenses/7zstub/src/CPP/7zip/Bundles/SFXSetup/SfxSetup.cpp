@@ -913,6 +913,13 @@ result
 while
 (
 (
+index
+<
+bufLen
+)
+&
+&
+(
 buf
 [
 index
@@ -923,13 +930,6 @@ index
 \
 0
 '
-)
-&
-&
-(
-index
-<
-bufLen
 )
 )
 {
