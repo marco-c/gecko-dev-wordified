@@ -1505,6 +1505,10 @@ isInDevToolsContext
 bool
 parserCreatedScript
 ;
+RequestMode
+?
+requestMode
+;
 bool
 isFromProcessingFrameAttributes
 ;
@@ -1956,6 +1960,10 @@ parser
 .
 bool
 parserCreatedScript
+;
+RequestMode
+?
+requestMode
 ;
 /
 /
