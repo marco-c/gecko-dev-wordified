@@ -520,6 +520,14 @@ set
 [
 [
 "
+test
+.
+wait300msAfterTabSwitch
+"
+true
+]
+[
+"
 privacy
 .
 query_stripping

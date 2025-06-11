@@ -408,6 +408,14 @@ set
 [
 [
 "
+test
+.
+wait300msAfterTabSwitch
+"
+true
+]
+[
+"
 cookiebanners
 .
 service
