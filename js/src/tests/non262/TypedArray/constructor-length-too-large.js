@@ -66,7 +66,7 @@ systems
 the
 limit
 is
-8GB
+16GB
 presently
 .
 const
@@ -80,9 +80,9 @@ INT32_MAX
 1
 ;
 const
-EIGHTGB
+SIXTEENGB
 =
-8
+16
 *
 1024
 *
@@ -105,7 +105,7 @@ largeArrayBufferSupported
 {
 return
 (
-EIGHTGB
+SIXTEENGB
 /
 elementSize
 )
