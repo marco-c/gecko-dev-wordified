@@ -393,30 +393,9 @@ fine
     
 client
 .
-execute_script
+add_stylesheet
 (
         
-"
-"
-"
-       
-const
-s
-=
-document
-.
-createElement
-(
-"
-style
-"
-)
-;
-       
-s
-.
-textContent
-=
 "
 #
 board
@@ -445,21 +424,6 @@ duration
 important
 ;
 }
-"
-;
-       
-document
-.
-head
-.
-appendChild
-(
-s
-)
-;
-    
-"
-"
 "
     
 )
