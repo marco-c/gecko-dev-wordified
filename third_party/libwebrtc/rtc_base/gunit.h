@@ -161,7 +161,7 @@ timeout
 for
 (
 int64_t
-start
+wait_start
 =
 rtc
 :
@@ -184,7 +184,7 @@ SystemTimeMillis
 (
 )
 <
-start
+wait_start
 +
 (
 timeout
@@ -289,7 +289,7 @@ do
 {
 \
 int64_t
-start
+wait_start
 =
 rtc
 :
@@ -322,7 +322,7 @@ SystemTimeMillis
 (
 )
 <
-start
+wait_start
 +
 (
 timeout
@@ -436,7 +436,7 @@ clock
 for
 (
 int64_t
-start
+wait_start
 =
 rtc
 :
@@ -459,7 +459,7 @@ TimeMillis
 (
 )
 <
-start
+wait_start
 +
 (
 timeout

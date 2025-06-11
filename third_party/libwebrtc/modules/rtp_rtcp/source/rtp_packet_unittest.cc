@@ -2481,7 +2481,7 @@ extensions
 ;
 constexpr
 char
-kLongMid
+kOtherLongMid
 [
 ]
 =
@@ -2493,7 +2493,7 @@ ASSERT_EQ
 (
 strlen
 (
-kLongMid
+kOtherLongMid
 )
 17u
 )
@@ -2524,7 +2524,7 @@ SetExtension
 RtpMid
 >
 (
-kLongMid
+kOtherLongMid
 )
 )
 ;

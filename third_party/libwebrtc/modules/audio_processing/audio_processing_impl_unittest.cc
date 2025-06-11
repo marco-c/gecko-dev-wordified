@@ -1309,13 +1309,13 @@ Initialize
 ;
 constexpr
 size_t
-kMaxSampleRateHz
+kMaxTestedSampleRateHz
 =
 32000
 ;
 constexpr
 size_t
-kMaxNumChannels
+kMaxTestedNumChannels
 =
 2
 ;
@@ -1325,9 +1325,9 @@ std
 array
 <
 int16_t
-kMaxNumChannels
+kMaxTestedNumChannels
 *
-kMaxSampleRateHz
+kMaxTestedSampleRateHz
 /
 100
 >

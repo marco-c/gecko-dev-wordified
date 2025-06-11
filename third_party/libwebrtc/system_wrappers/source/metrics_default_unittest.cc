@@ -641,7 +641,7 @@ std
 :
 :
 string
-kName
+kOverFlowName
 =
 "
 Overflow
@@ -659,7 +659,7 @@ bucket
 .
 RTC_HISTOGRAM_PERCENTAGE
 (
-kName
+kOverFlowName
 101
 )
 ;
@@ -671,7 +671,7 @@ metrics
 :
 NumSamples
 (
-kName
+kOverFlowName
 )
 )
 ;
@@ -683,14 +683,14 @@ metrics
 :
 NumEvents
 (
-kName
+kOverFlowName
 101
 )
 )
 ;
 RTC_HISTOGRAM_PERCENTAGE
 (
-kName
+kOverFlowName
 102
 )
 ;
@@ -702,7 +702,7 @@ metrics
 :
 NumSamples
 (
-kName
+kOverFlowName
 )
 )
 ;
@@ -714,7 +714,7 @@ metrics
 :
 NumEvents
 (
-kName
+kOverFlowName
 101
 )
 )
@@ -731,7 +731,7 @@ std
 :
 :
 string
-kName
+kUnderFlowName
 =
 "
 Underflow
@@ -749,7 +749,7 @@ bucket
 .
 RTC_HISTOGRAM_COUNTS_10000
 (
-kName
+kUnderFlowName
 0
 )
 ;
@@ -761,7 +761,7 @@ metrics
 :
 NumSamples
 (
-kName
+kUnderFlowName
 )
 )
 ;
@@ -773,14 +773,14 @@ metrics
 :
 NumEvents
 (
-kName
+kUnderFlowName
 0
 )
 )
 ;
 RTC_HISTOGRAM_COUNTS_10000
 (
-kName
+kUnderFlowName
 -
 1
 )
@@ -793,7 +793,7 @@ metrics
 :
 NumSamples
 (
-kName
+kUnderFlowName
 )
 )
 ;
@@ -805,7 +805,7 @@ metrics
 :
 NumEvents
 (
-kName
+kUnderFlowName
 0
 )
 )
@@ -1144,7 +1144,7 @@ std
 :
 :
 string
-kName
+kMinMaxName
 =
 "
 MinMaxCounts100
@@ -1152,7 +1152,7 @@ MinMaxCounts100
 ;
 RTC_HISTOGRAM_COUNTS_100
 (
-kName
+kMinMaxName
 4
 )
 ;
@@ -1203,7 +1203,7 @@ size
 ;
 EXPECT_EQ
 (
-kName
+kMinMaxName
 histograms
 .
 begin

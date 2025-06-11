@@ -4724,7 +4724,6 @@ _handleRecord
 NULL
 )
 {
-int
 errVal
 =
 LATE

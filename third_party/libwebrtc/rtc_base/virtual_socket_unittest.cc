@@ -742,7 +742,7 @@ rtc
 :
 AsyncPacketSocket
 *
-socket
+s
 const
 rtc
 :
@@ -754,7 +754,7 @@ packet
 {
 OnReadPacket
 (
-socket
+s
 packet
 )
 ;

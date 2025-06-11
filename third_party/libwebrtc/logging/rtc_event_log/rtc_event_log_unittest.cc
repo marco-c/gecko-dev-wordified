@@ -2767,7 +2767,7 @@ all_extensions
 )
 ;
 auto
-event
+first_event
 =
 gen_
 .
@@ -2782,7 +2782,7 @@ event_log
 >
 Log
 (
-event
+first_event
 -
 >
 Copy
@@ -2799,7 +2799,7 @@ std
 :
 move
 (
-event
+first_event
 )
 )
 ;

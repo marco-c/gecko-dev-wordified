@@ -4794,12 +4794,6 @@ RtpVideoStreamReceiver2Test
 DropsPacketWithRedPayloadTypeAndEmptyPayload
 )
 {
-const
-uint8_t
-kRedPayloadType
-=
-125
-;
 config_
 .
 rtp

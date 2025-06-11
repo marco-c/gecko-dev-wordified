@@ -903,7 +903,7 @@ kCorruptionDetectionExtensionId
 ;
 constexpr
 int
-kPayload
+kPayloadType
 =
 100
 ;
@@ -1524,7 +1524,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 fake_clock_
@@ -1675,7 +1675,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 kCaptureTimestamp
@@ -1845,7 +1845,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 fake_clock_
@@ -2097,7 +2097,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 fake_clock_
@@ -2301,7 +2301,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 fake_clock_
@@ -2343,7 +2343,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 +
@@ -2443,7 +2443,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 fake_clock_
@@ -2479,7 +2479,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 +
@@ -4614,7 +4614,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 fake_clock_
@@ -4817,7 +4817,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 fake_clock_
@@ -5274,7 +5274,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 fake_clock_
@@ -5388,7 +5388,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 fake_clock_
@@ -5593,7 +5593,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 fake_clock_
@@ -5825,7 +5825,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 fake_clock_
@@ -6099,7 +6099,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 fake_clock_
@@ -6213,7 +6213,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 fake_clock_
@@ -6304,7 +6304,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 fake_clock_
@@ -6718,7 +6718,7 @@ rtp_sender_video
 .
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 fake_clock_
@@ -6879,7 +6879,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 fake_clock_
@@ -7116,7 +7116,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 VideoCodecType
 :
 :
@@ -7309,7 +7309,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 fake_clock_
@@ -7375,7 +7375,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 fake_clock_
@@ -7520,7 +7520,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 fake_clock_
@@ -7583,7 +7583,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 fake_clock_
@@ -7637,7 +7637,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 fake_clock_
@@ -7825,7 +7825,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 fake_clock_
@@ -7930,7 +7930,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 fake_clock_
@@ -8108,7 +8108,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 fake_clock_
@@ -8183,7 +8183,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 fake_clock_
@@ -8363,7 +8363,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 fake_clock_
@@ -8438,7 +8438,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 fake_clock_
@@ -8587,7 +8587,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 fake_clock_
@@ -8654,7 +8654,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 fake_clock_
@@ -8716,7 +8716,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 fake_clock_
@@ -8891,7 +8891,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 fake_clock_
@@ -8946,7 +8946,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 fake_clock_
@@ -9024,7 +9024,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 /
@@ -9175,7 +9175,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 kAbsoluteCaptureTimestamp
@@ -9399,7 +9399,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 /
@@ -9641,7 +9641,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 fake_clock_
@@ -9712,7 +9712,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 fake_clock_
@@ -9820,7 +9820,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 fake_clock_
@@ -9890,7 +9890,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 fake_clock_
@@ -9953,7 +9953,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 fake_clock_
@@ -10005,7 +10005,7 @@ SendGenericVideo
 {
 const
 uint8_t
-kPayloadType
+kPayloadTypeGeneric
 =
 127
 ;
@@ -10056,7 +10056,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayloadType
+kPayloadTypeGeneric
 kCodecType
 1234
 fake_clock_
@@ -10179,7 +10179,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayloadType
+kPayloadTypeGeneric
 kCodecType
 1234
 fake_clock_
@@ -10268,7 +10268,7 @@ SendRawVideo
 {
 const
 uint8_t
-kPayloadType
+kPayloadTypeRaw
 =
 111
 ;
@@ -10311,7 +10311,7 @@ rtp_sender_video_
 >
 SendVideo
 (
-kPayloadType
+kPayloadTypeRaw
 std
 :
 :
@@ -10775,7 +10775,7 @@ rtp_sender_video
 >
 SendEncodedImage
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 *
@@ -11087,7 +11087,7 @@ rtp_sender_video
 >
 SendEncodedImage
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 *
@@ -11135,7 +11135,7 @@ rtp_sender_video
 >
 SendEncodedImage
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 *
@@ -11392,7 +11392,7 @@ rtp_sender_video
 >
 SendEncodedImage
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 *
@@ -11721,7 +11721,7 @@ rtp_sender_video
 >
 SendEncodedImage
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 *
@@ -11861,7 +11861,7 @@ rtp_sender_video
 >
 SendEncodedImage
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 *
@@ -12062,7 +12062,7 @@ rtp_sender_video
 >
 SendEncodedImage
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 *
@@ -12110,7 +12110,7 @@ rtp_sender_video
 >
 SendEncodedImage
 (
-kPayload
+kPayloadType
 kType
 kTimestamp
 *

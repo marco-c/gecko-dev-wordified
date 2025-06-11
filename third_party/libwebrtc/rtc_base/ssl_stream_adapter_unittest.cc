@@ -4886,6 +4886,9 @@ packet
 size_t
 sent
 ;
+size_t
+read
+;
 int
 error
 ;
@@ -5232,9 +5235,6 @@ to
 return
 SR_BLOCK
 .
-int
-error
-;
 EXPECT_EQ
 (
 webrtc
@@ -5251,9 +5251,6 @@ sent
 error
 )
 )
-;
-size_t
-read
 ;
 EXPECT_EQ
 (

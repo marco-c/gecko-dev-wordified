@@ -4231,7 +4231,7 @@ VideoReceiveStreamInterface
 :
 :
 Stats
-stats
+receive_stats
 =
 receive_stream
 -
@@ -4243,7 +4243,7 @@ GetStats
 receive_stream_nack_packets
 +
 =
-stats
+receive_stats
 .
 rtcp_packet_type_counts
 .

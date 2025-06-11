@@ -1074,7 +1074,7 @@ kTiebreakerDefault
 const
 char
 *
-data
+kTestData
 =
 "
 ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890
@@ -6345,7 +6345,7 @@ ch1
 .
 SendData
 (
-data
+kTestData
 static_cast
 <
 int
@@ -6353,7 +6353,7 @@ int
 (
 strlen
 (
-data
+kTestData
 )
 )
 )

@@ -8138,7 +8138,7 @@ num_temporal_layers
 )
 ;
 DataRate
-total_bitrate
+total_layer_bitrate
 =
 std
 :
@@ -8230,7 +8230,7 @@ ss
 .
 maxBitrate
 =
-total_bitrate
+total_layer_bitrate
 .
 kbps
 (
@@ -8240,7 +8240,7 @@ ss
 .
 targetBitrate
 =
-total_bitrate
+total_layer_bitrate
 .
 kbps
 (

@@ -857,9 +857,9 @@ HAND_SHAKING
 :
 {
 NetworkTesterPacket
-packet
+start_packet
 ;
-packet
+start_packet
 .
 set_type
 (
@@ -879,7 +879,7 @@ source_address
 ;
 SendData
 (
-packet
+start_packet
 std
 :
 :
