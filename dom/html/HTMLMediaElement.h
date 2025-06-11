@@ -11978,6 +11978,12 @@ GetPreloadDefaultAuto
 )
 const
 ;
+bool
+ShouldSuspendDownloadAfterFirstFrameLoaded
+(
+)
+const
+;
 /
 *
 *
