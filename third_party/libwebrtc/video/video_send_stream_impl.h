@@ -724,6 +724,16 @@ GetStats
 override
 ;
 void
+SetStats
+(
+const
+Stats
+&
+stats
+)
+override
+;
+void
 StopPermanentlyAndGetRtpStates
 (
 RtpStateMap
