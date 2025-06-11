@@ -58,8 +58,6 @@ gzip
 import
 hashlib
 import
-json
-import
 os
 import
 time
@@ -112,6 +110,7 @@ taskgraph
 .
 util
 import
+json
 yaml
 from
 taskgraph

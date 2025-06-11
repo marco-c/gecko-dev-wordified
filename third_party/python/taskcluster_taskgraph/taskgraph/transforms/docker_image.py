@@ -54,8 +54,6 @@ MPL
 /
 .
 import
-json
-import
 logging
 import
 os
@@ -76,6 +74,12 @@ transforms
 base
 import
 TransformSequence
+from
+taskgraph
+.
+util
+import
+json
 from
 taskgraph
 .

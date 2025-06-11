@@ -87,8 +87,6 @@ consistency
 "
 "
 "
-import
-json
 from
 typing
 import
@@ -109,6 +107,7 @@ taskgraph
 .
 util
 import
+json
 path
 from
 taskgraph
