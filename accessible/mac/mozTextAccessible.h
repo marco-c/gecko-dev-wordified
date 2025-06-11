@@ -127,6 +127,16 @@ mozAccessible
 override
 -
 (
+NSString
+*
+)
+moxTitle
+;
+/
+/
+override
+-
+(
 id
 )
 moxValue

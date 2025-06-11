@@ -2248,7 +2248,7 @@ if
 (
 label
 )
-{
+return
 label
 -
 >
@@ -2257,10 +2257,6 @@ Name
 aName
 )
 ;
-return
-eNameFromRelations
-;
-}
 return
 eNameOK
 ;

@@ -238,8 +238,7 @@ getAttributeValue
 AXTitle
 "
 )
-"
-"
+null
 "
 document
 has
@@ -600,8 +599,7 @@ getAttributeValue
 AXTitle
 "
 )
-"
-"
+null
 "
 iframe
 document

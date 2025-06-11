@@ -5641,7 +5641,7 @@ ARIA
 .
 *
 /
-ENameValueFlag
+void
 ARIAName
 (
 nsString
