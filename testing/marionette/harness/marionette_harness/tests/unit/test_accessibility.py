@@ -104,19 +104,6 @@ setUp
 (
 )
         
-with
-self
-.
-marionette
-.
-using_context
-(
-"
-chrome
-"
-)
-:
-            
 self
 .
 marionette
@@ -140,19 +127,6 @@ self
 )
 :
         
-with
-self
-.
-marionette
-.
-using_context
-(
-"
-chrome
-"
-)
-:
-            
 self
 .
 marionette

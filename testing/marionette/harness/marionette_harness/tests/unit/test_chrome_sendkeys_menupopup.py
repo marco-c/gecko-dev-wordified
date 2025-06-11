@@ -134,7 +134,7 @@ content
 /
 marionette
 /
-test_menupopup
+test_xul
 .
 xhtml
 "
@@ -266,7 +266,7 @@ By
 .
 ID
 "
-test
+remote
 -
 window
 "
