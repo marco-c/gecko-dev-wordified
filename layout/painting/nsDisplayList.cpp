@@ -15962,9 +15962,11 @@ continue
 }
 if
 (
+!
 same3DContext
-|
-|
+&
+&
+!
 item
 -
 >
@@ -15978,6 +15980,9 @@ r
 )
 )
 {
+continue
+;
+}
 AutoTArray
 <
 nsIFrame
@@ -16583,7 +16588,6 @@ itemBufferStart
 ;
 break
 ;
-}
 }
 }
 }
