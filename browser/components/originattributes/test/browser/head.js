@@ -2652,6 +2652,7 @@ aCompareResultFunc
 shouldIsolate
 resultA
 resultB
+aMode
 )
 ;
 }
