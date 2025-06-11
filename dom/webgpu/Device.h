@@ -535,15 +535,6 @@ CleanupUnregisteredInParent
 )
 ;
 void
-GenerateValidationError
-(
-const
-nsCString
-&
-aMessage
-)
-;
-void
 TrackBuffer
 (
 Buffer
