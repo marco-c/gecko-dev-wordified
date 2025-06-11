@@ -4143,6 +4143,16 @@ LiteralMetadata
 :
 :
 EmptySequence
+codes
+:
+:
+LIT_EMPTY_MAP
+=
+>
+LiteralMetadata
+:
+:
+EmptyMap
 _
 =
 >

@@ -301,6 +301,10 @@ clone
 (
 )
 }
+.
+into
+(
+)
 }
 )
 _
@@ -495,6 +499,10 @@ HandleKind
 :
 :
 RustFuture
+)
+.
+into
+(
 )
 )
 }

@@ -229,6 +229,10 @@ FfiType
 :
 :
 UInt64
+.
+into
+(
+)
 }
 ]
 return_type
@@ -245,6 +249,10 @@ FfiType
 RustBuffer
 (
 None
+)
+.
+into
+(
 )
 )
 }
@@ -316,6 +324,10 @@ FfiType
 :
 :
 ForeignBytes
+.
+into
+(
+)
 }
 ]
 return_type
@@ -332,6 +344,10 @@ FfiType
 RustBuffer
 (
 None
+)
+.
+into
+(
 )
 )
 }
@@ -405,6 +421,10 @@ FfiType
 RustBuffer
 (
 None
+)
+.
+into
+(
 )
 }
 ]
@@ -487,6 +507,10 @@ RustBuffer
 (
 None
 )
+.
+into
+(
+)
 }
 FfiArgument
 {
@@ -505,6 +529,10 @@ FfiType
 :
 :
 UInt64
+.
+into
+(
+)
 }
 ]
 return_type
@@ -521,6 +549,10 @@ FfiType
 RustBuffer
 (
 None
+)
+.
+into
+(
 )
 )
 }
