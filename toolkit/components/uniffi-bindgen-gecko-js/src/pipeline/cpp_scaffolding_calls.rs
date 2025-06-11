@@ -364,6 +364,9 @@ default
 (
 )
 }
+receiver
+:
+true
 .
 .
 FfiValueArgument
@@ -422,6 +425,9 @@ ffi_type
 clone
 (
 )
+receiver
+:
+false
 .
 .
 FfiValueArgument
