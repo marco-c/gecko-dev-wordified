@@ -1213,9 +1213,6 @@ kPcmWavHeaderSize
 auto
 header
 =
-rtc
-:
-:
 MsanUninitialized
 <
 WavHeaderPcm
@@ -1514,9 +1511,6 @@ kIeeeFloatWavHeaderSize
 auto
 header
 =
-rtc
-:
-:
 MsanUninitialized
 <
 WavHeaderIeeeFloat
@@ -2459,9 +2453,6 @@ file
 auto
 header
 =
-rtc
-:
-:
 MsanUninitialized
 <
 WavHeaderPcm

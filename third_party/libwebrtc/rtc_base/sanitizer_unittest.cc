@@ -131,7 +131,7 @@ h
 #
 endif
 namespace
-rtc
+webrtc
 {
 namespace
 {
@@ -941,4 +941,4 @@ passed
 /
 /
 namespace
-rtc
+webrtc

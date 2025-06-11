@@ -627,9 +627,6 @@ Decode
 "
 )
 ;
-rtc
-:
-:
 MsanCheckInitialized
 (
 rtc
@@ -726,9 +723,6 @@ DecodeRedundant
 "
 )
 ;
-rtc
-:
-:
 MsanCheckInitialized
 (
 rtc
