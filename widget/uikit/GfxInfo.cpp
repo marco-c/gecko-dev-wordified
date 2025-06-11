@@ -613,7 +613,10 @@ NS_ERROR_NOT_IMPLEMENTED
 const
 nsTArray
 <
+RefPtr
+<
 GfxDriverInfo
+>
 >
 &
 GfxInfo
@@ -684,7 +687,10 @@ aSuggestedDriverVersion
 const
 nsTArray
 <
+RefPtr
+<
 GfxDriverInfo
+>
 >
 &
 aDriverInfo
