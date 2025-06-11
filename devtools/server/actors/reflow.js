@@ -2707,6 +2707,17 @@ _stopListeners
 (
 )
 {
+if
+(
+!
+this
+.
+listenerTarget
+)
+{
+return
+;
+}
 this
 .
 listenerTarget
