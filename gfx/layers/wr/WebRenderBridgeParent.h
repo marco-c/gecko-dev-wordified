@@ -2159,6 +2159,12 @@ wr
 :
 Epoch
 aWrEpoch
+const
+VsyncId
+&
+aVsyncId
+bool
+aRenderOffscreen
 )
 ;
 void
