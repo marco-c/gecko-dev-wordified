@@ -15530,7 +15530,7 @@ if
 aState
 -
 >
-mInPreserves3D
+mGatheringPreserves3DLeaves
 )
 {
 /
@@ -15923,7 +15923,7 @@ iterations
 aState
 -
 >
-mInPreserves3D
+mGatheringPreserves3DLeaves
 =
 true
 ;
@@ -15942,7 +15942,7 @@ neverUsed
 aState
 -
 >
-mInPreserves3D
+mGatheringPreserves3DLeaves
 =
 false
 ;
@@ -46989,7 +46989,7 @@ if
 aState
 -
 >
-mInPreserves3D
+mGatheringPreserves3DLeaves
 )
 {
 GetChildren
