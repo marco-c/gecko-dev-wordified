@@ -97,6 +97,11 @@ cpu_info
 h
 "
 #
+include
+<
+cstdint
+>
+#
 if
 defined
 (
@@ -160,6 +165,15 @@ h
 >
 #
 endif
+#
+include
+"
+rtc_base
+/
+checks
+.
+h
+"
 #
 include
 "
