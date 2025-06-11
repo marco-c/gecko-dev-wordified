@@ -180,7 +180,6 @@ Windows
 ASan
 .
 if
-(
 CONFIG
 [
 "
@@ -191,18 +190,6 @@ MOZ_WIDGET_TOOLKIT
 =
 "
 uikit
-"
-and
-CONFIG
-[
-"
-OS_TARGET
-"
-]
-!
-=
-"
-Android
 "
 and
 not
@@ -225,7 +212,6 @@ CONFIG
 MOZ_ASAN
 "
 ]
-)
 )
 :
 LOCAL_INCLUDES
