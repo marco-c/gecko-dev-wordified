@@ -7561,6 +7561,15 @@ mBuilder
 >
 mCurrentContainerASR
 =
+mBuilder
+-
+>
+IsInViewTransitionCapture
+(
+)
+?
+mSavedContainerASR
+:
 ActiveScrolledRoot
 :
 :
