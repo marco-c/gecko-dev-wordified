@@ -438,7 +438,6 @@ __init__
 self
 name
 descr
-bucket
 children
 =
 [
@@ -464,12 +463,6 @@ telemetry
         
 self
 .
-bucket
-=
-bucket
-        
-self
-.
 children
 =
 children
@@ -487,7 +480,6 @@ addPhaseKind
 (
 name
 descr
-bucket
 children
 =
 [
@@ -507,7 +499,6 @@ PhaseKind
 (
 name
 descr
-bucket
 children
 )
     
@@ -552,7 +543,6 @@ MUTATOR
 Mutator
 Running
 "
-0
 )
     
 addPhaseKind
@@ -564,7 +554,6 @@ GC_BEGIN
 Begin
 Callback
 "
-1
 )
     
 addPhaseKind
@@ -582,8 +571,6 @@ Major
 GC
 "
         
-70
-        
 [
             
 addPhaseKind
@@ -598,8 +585,6 @@ Mark
 Roots
 "
                 
-48
-                
 [
                     
 addPhaseKind
@@ -613,7 +598,6 @@ Cross
 Compartment
 Wrappers
 "
-50
 )
                     
 addPhaseKind
@@ -628,7 +612,6 @@ and
 JS
 stacks
 "
-51
 )
                     
 addPhaseKind
@@ -643,7 +626,6 @@ Runtime
 wide
 Data
 "
-52
 )
                     
 addPhaseKind
@@ -655,7 +637,6 @@ MARK_EMBEDDING
 Mark
 Embedding
 "
-53
 )
                 
 ]
@@ -676,7 +657,6 @@ Wait
 Background
 Thread
 "
-2
 )
     
 addPhaseKind
@@ -692,8 +672,6 @@ For
 Collection
 "
         
-69
-        
 [
             
 addPhaseKind
@@ -704,7 +682,6 @@ UNMARK
 "
 Unmark
 "
-7
 )
             
 addPhaseKind
@@ -716,7 +693,6 @@ UNMARK_WEAKMAPS
 Unmark
 WeakMaps
 "
-76
 )
             
 addPhaseKind
@@ -729,7 +705,6 @@ Mark
 Discard
 Code
 "
-3
 )
             
 addPhaseKind
@@ -741,7 +716,6 @@ RELAZIFY_FUNCTIONS
 Relazify
 Functions
 "
-4
 )
             
 addPhaseKind
@@ -752,7 +726,6 @@ PURGE
 "
 Purge
 "
-5
 )
             
 addPhaseKind
@@ -764,7 +737,6 @@ PURGE_PROP_MAP_TABLES
 Purge
 PropMapTables
 "
-60
 )
             
 addPhaseKind
@@ -777,7 +749,6 @@ Purge
 Source
 URLs
 "
-73
 )
             
 addPhaseKind
@@ -790,7 +761,6 @@ Join
 Parallel
 Tasks
 "
-67
 )
         
 ]
@@ -807,8 +777,6 @@ MARK
 "
 Mark
 "
-        
-6
         
 [
             
@@ -828,7 +796,6 @@ MARK_DELAYED
 Mark
 Delayed
 "
-8
 )
             
 addPhaseKind
@@ -842,8 +809,6 @@ MARK_WEAK
 Mark
 Weak
 "
-                
-13
                 
 [
                     
@@ -865,7 +830,6 @@ Gray
 and
 Weak
 "
-16
 )
                 
 ]
@@ -883,7 +847,6 @@ Incoming
 Gray
 Pointers
 "
-14
 )
             
 addPhaseKind
@@ -895,7 +858,6 @@ MARK_GRAY
 Mark
 Gray
 "
-15
 )
             
 addPhaseKind
@@ -909,8 +871,6 @@ PARALLEL_MARK
 Parallel
 marking
 "
-                
-78
                 
 [
                     
@@ -943,7 +903,6 @@ Parallel
 marking
 work
 "
-79
 )
                     
 addPhaseKind
@@ -956,12 +915,10 @@ Waiting
 for
 work
 "
-80
 )
                     
 addPhaseKind
 (
-                        
 "
 PARALLEL_MARK_OTHER
 "
@@ -970,8 +927,6 @@ Parallel
 marking
 overhead
 "
-82
-                    
 )
                 
 ]
@@ -992,8 +947,6 @@ SWEEP
 "
 Sweep
 "
-        
-9
         
 [
             
@@ -1017,8 +970,6 @@ Start
 Callbacks
 "
                 
-17
-                
 [
                     
 addPhaseKind
@@ -1033,7 +984,6 @@ Slice
 Weak
 Callback
 "
-57
 )
                     
 addPhaseKind
@@ -1049,7 +999,6 @@ Compartment
 Weak
 Callback
 "
-58
                     
 )
                 
@@ -1067,7 +1016,6 @@ Sweep
 Atoms
 Bitmap
 "
-68
 )
             
 addPhaseKind
@@ -1080,7 +1028,6 @@ Sweep
 Atoms
 Table
 "
-18
 )
             
 addPhaseKind
@@ -1095,8 +1042,6 @@ Sweep
 Compartments
 "
                 
-20
-                
 [
                     
 addPhaseKind
@@ -1108,7 +1053,6 @@ SWEEP_JIT_SCRIPTS
 Sweep
 JitScripts
 "
-21
 )
                     
 addPhaseKind
@@ -1121,7 +1065,6 @@ Sweep
 Inner
 Views
 "
-22
 )
                     
 addPhaseKind
@@ -1136,7 +1079,6 @@ Cross
 Compartment
 Wrappers
 "
-23
                     
 )
                     
@@ -1150,7 +1092,6 @@ Sweep
 Base
 Shapes
 "
-24
 )
                     
 addPhaseKind
@@ -1163,7 +1104,6 @@ Sweep
 Initial
 Shapes
 "
-25
 )
                     
 addPhaseKind
@@ -1175,7 +1115,6 @@ SWEEP_REGEXP
 Sweep
 Regexps
 "
-28
 )
                     
 addPhaseKind
@@ -1188,7 +1127,6 @@ Sweep
 Compression
 Tasks
 "
-62
 )
                     
 addPhaseKind
@@ -1200,7 +1138,6 @@ SWEEP_WEAKMAPS
 Sweep
 WeakMaps
 "
-63
 )
                     
 addPhaseKind
@@ -1213,7 +1150,6 @@ Sweep
 Unique
 IDs
 "
-64
 )
                     
 addPhaseKind
@@ -1226,7 +1162,6 @@ Sweep
 Weak
 Pointers
 "
-81
 )
                     
 addPhaseKind
@@ -1242,8 +1177,6 @@ FinalizationRegistries
 and
 WeakRefs
 "
-                        
-74
                     
 )
                     
@@ -1257,7 +1190,6 @@ Sweep
 JIT
 Data
 "
-65
 )
                     
 addPhaseKind
@@ -1270,7 +1202,6 @@ Sweep
 Weak
 Caches
 "
-66
 )
                     
 addPhaseKind
@@ -1282,7 +1213,6 @@ SWEEP_MISC
 Sweep
 Miscellaneous
 "
-29
 )
                     
 getPhaseKind
@@ -1306,7 +1236,6 @@ Sweep
 PropMap
 Tree
 "
-77
 )
             
 addPhaseKind
@@ -1319,7 +1248,6 @@ Finalize
 End
 Callback
 "
-38
 )
             
 addPhaseKind
@@ -1330,7 +1258,6 @@ DESTROY
 "
 Deallocate
 "
-39
 )
             
 getPhaseKind
@@ -1350,7 +1277,6 @@ Find
 Dead
 Compartments
 "
-54
 )
         
 ]
@@ -1368,8 +1294,6 @@ COMPACT
 Compact
 "
         
-40
-        
 [
             
 addPhaseKind
@@ -1381,7 +1305,6 @@ COMPACT_MOVE
 Compact
 Move
 "
-41
 )
             
 addPhaseKind
@@ -1395,8 +1318,6 @@ COMPACT_UPDATE
 Compact
 Update
 "
-                
-42
                 
 [
                     
@@ -1417,7 +1338,6 @@ Compact
 Update
 Cells
 "
-43
 )
                     
 getPhaseKind
@@ -1443,7 +1363,6 @@ DECOMMIT
 "
 Decommit
 "
-72
 )
     
 addPhaseKind
@@ -1455,7 +1374,6 @@ GC_END
 End
 Callback
 "
-44
 )
     
 addPhaseKind
@@ -1470,8 +1388,6 @@ All
 Minor
 GCs
 "
-        
-45
         
 [
             
@@ -1501,8 +1417,6 @@ Evict
 Nursery
 "
         
-46
-        
 [
             
 getPhaseKind
@@ -1527,8 +1441,6 @@ TRACE_HEAP
 Trace
 Heap
 "
-        
-47
         
 [
             
@@ -1942,25 +1854,6 @@ AllPhases
 +
 1
 #
-And
-the
-maximum
-bucket
-number
-.
-MaxBucket
-=
-max
-(
-kind
-.
-bucket
-for
-kind
-in
-AllPhaseKinds
-)
-#
 Generate
 code
 .
@@ -2332,8 +2225,6 @@ Phase
 :
 %
 s
-%
-d
 "
 %
 s
@@ -2351,9 +2242,6 @@ name
 phase
 .
 name
-phaseKind
-.
-bucket
 phaseKind
 .
 name
@@ -2574,49 +2462,4 @@ write
 \
 n
 "
-)
-    
-#
-    
-#
-Print
-in
-a
-comment
-the
-next
-available
-phase
-kind
-number
-.
-    
-#
-    
-out
-.
-write
-(
-"
-/
-/
-The
-next
-available
-phase
-kind
-number
-is
-:
-%
-d
-\
-n
-"
-%
-(
-MaxBucket
-+
-1
-)
 )
