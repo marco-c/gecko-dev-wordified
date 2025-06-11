@@ -180,13 +180,11 @@ resource
 /
 devtools
 /
-client
+shared
 /
 performance
 -
 new
-/
-shared
 /
 profiler_get_symbols
 .
