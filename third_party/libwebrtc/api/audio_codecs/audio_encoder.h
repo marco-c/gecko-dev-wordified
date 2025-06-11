@@ -670,9 +670,6 @@ kPcmU
 kG722
 =
 5
-kIlbc
-=
-6
 /
 /
 Number

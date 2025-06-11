@@ -749,9 +749,9 @@ CreateAudioCodec
 (
 102
 "
-iLBC
+G722
 "
-8000
+16000
 1
 )
 CreateAudioCodec
@@ -812,9 +812,9 @@ CreateAudioCodec
 (
 127
 "
-iLBC
+G722
 "
-8000
+16000
 1
 )
 }
@@ -830,9 +830,9 @@ CreateAudioCodec
 (
 102
 "
-iLBC
+G722
 "
-8000
+16000
 1
 )
 CreateAudioCodec
@@ -37151,10 +37151,6 @@ auto
 content
 :
 offer
-.
-get
-(
-)
 -
 >
 contents

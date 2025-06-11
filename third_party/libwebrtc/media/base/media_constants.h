@@ -257,13 +257,6 @@ kG722CodecName
 extern
 const
 char
-kIlbcCodecName
-[
-]
-;
-extern
-const
-char
 kPcmuCodecName
 [
 ]

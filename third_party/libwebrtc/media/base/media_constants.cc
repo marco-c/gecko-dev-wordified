@@ -351,16 +351,6 @@ G722
 ;
 const
 char
-kIlbcCodecName
-[
-]
-=
-"
-ILBC
-"
-;
-const
-char
 kPcmuCodecName
 [
 ]

@@ -438,7 +438,7 @@ format
 would
 choose
 some
-identation
+indentation
 /
 /
 leading
@@ -8155,16 +8155,6 @@ creates
 a
 reversed
 vector
-.
-Used
-in
-e
-.
-g
-.
-prediction
-in
-iLBC
 .
 /
 /
