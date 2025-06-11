@@ -168,6 +168,11 @@ IntegrityPolicy
 h
 "
 "
+IntegrityPolicyService
+.
+h
+"
+"
 nsContentSecurityManager
 .
 h
@@ -294,6 +299,11 @@ cpp
 "
 "
 IntegrityPolicy
+.
+cpp
+"
+"
+IntegrityPolicyService
 .
 cpp
 "

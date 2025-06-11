@@ -710,11 +710,6 @@ NS_ENSURE_ARG_POINTER
 outMetadata
 )
 ;
-NS_ENSURE_ARG_POINTER
-(
-aReporter
-)
-;
 MOZ_ASSERT
 (
 outMetadata
@@ -830,6 +825,9 @@ token
 ;
 if
 (
+aReporter
+&
+&
 metadata
 .
 IsMalformed
@@ -876,6 +874,9 @@ token
 else
 if
 (
+aReporter
+&
+&
 !
 metadata
 .
