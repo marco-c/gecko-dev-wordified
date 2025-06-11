@@ -475,6 +475,9 @@ val
 uint16_t
 v
 =
+webrtc
+:
+:
 HostToNetwork16
 (
 val
@@ -506,6 +509,9 @@ val
 uint32_t
 v
 =
+webrtc
+:
+:
 HostToNetwork32
 (
 val
@@ -546,6 +552,9 @@ val
 uint32_t
 v
 =
+webrtc
+:
+:
 HostToNetwork32
 (
 val
@@ -577,6 +586,9 @@ val
 uint64_t
 v
 =
+webrtc
+:
+:
 HostToNetwork64
 (
 val

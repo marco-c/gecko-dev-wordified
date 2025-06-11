@@ -4207,8 +4207,14 @@ next_ipv4_
 .
 s_addr
 =
+webrtc
+:
+:
 HostToNetwork32
 (
+webrtc
+:
+:
 NetworkToHost32
 (
 next_ipv4_

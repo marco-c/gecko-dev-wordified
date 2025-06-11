@@ -1188,7 +1188,7 @@ false
 *
 value
 =
-rtc
+webrtc
 :
 :
 GetBE32
@@ -1539,7 +1539,7 @@ words
 uint16_t
 extension_length_in_32bits
 =
-rtc
+webrtc
 :
 :
 GetBE16
@@ -2133,7 +2133,7 @@ length
 uint16_t
 profile_id
 =
-rtc
+webrtc
 :
 :
 GetBE16
@@ -2153,7 +2153,7 @@ words
 uint16_t
 extension_length_in_32bits
 =
-rtc
+webrtc
 :
 :
 GetBE16

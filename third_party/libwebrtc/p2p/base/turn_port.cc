@@ -5191,7 +5191,7 @@ request
 uint16_t
 msg_type
 =
-rtc
+webrtc
 :
 :
 GetBE16
@@ -7729,7 +7729,7 @@ message
 uint16_t
 len
 =
-rtc
+webrtc
 :
 :
 GetBE16

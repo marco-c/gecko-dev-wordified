@@ -1114,7 +1114,7 @@ pad_bytes
 PacketLength
 pkt_len
 =
-rtc
+webrtc
 :
 :
 GetBE16
@@ -1138,7 +1138,7 @@ expected_pkt_len
 uint16_t
 msg_type
 =
-rtc
+webrtc
 :
 :
 GetBE16

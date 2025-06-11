@@ -3445,7 +3445,7 @@ rtp
 packet
 copy
 .
-rtc
+webrtc
 :
 :
 SetBE32
@@ -3460,7 +3460,7 @@ data
 ssrc
 )
 ;
-rtc
+webrtc
 :
 :
 SetBE16
@@ -3483,7 +3483,7 @@ pl_type
 0
 )
 {
-rtc
+webrtc
 :
 :
 Set8

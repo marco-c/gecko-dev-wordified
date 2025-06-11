@@ -108,7 +108,7 @@ gtest
 h
 "
 namespace
-rtc
+webrtc
 {
 /
 /
@@ -641,4 +641,4 @@ buf
 /
 /
 namespace
-rtc
+webrtc

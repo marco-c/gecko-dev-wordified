@@ -860,7 +860,7 @@ number
 by
 one
 .
-rtc
+webrtc
 :
 :
 SetBE16
@@ -1452,7 +1452,7 @@ number
 by
 one
 .
-rtc
+webrtc
 :
 :
 SetBE16

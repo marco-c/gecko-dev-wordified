@@ -949,9 +949,6 @@ number
 by
 one
 .
-rtc
-:
-:
 SetBE16
 (
 reinterpret_cast
@@ -1947,9 +1944,6 @@ number
 by
 one
 .
-rtc
-:
-:
 SetBE16
 (
 reinterpret_cast

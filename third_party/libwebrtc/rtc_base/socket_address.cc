@@ -1765,6 +1765,9 @@ saddr
 >
 sin_port
 =
+webrtc
+:
+:
 HostToNetwork16
 (
 port_
@@ -1829,6 +1832,9 @@ false
 ;
 SetIP
 (
+webrtc
+:
+:
 NetworkToHost32
 (
 saddr
@@ -1841,6 +1847,9 @@ s_addr
 ;
 SetPort
 (
+webrtc
+:
+:
 NetworkToHost16
 (
 saddr
@@ -1942,6 +1951,9 @@ saddr
 >
 sin6_port
 =
+webrtc
+:
+:
 HostToNetwork16
 (
 port
@@ -2002,6 +2014,9 @@ saddr
 >
 sin_port
 =
+webrtc
+:
+:
 HostToNetwork16
 (
 port
@@ -2126,6 +2141,9 @@ saddr
 >
 sin_addr
 )
+webrtc
+:
+:
 NetworkToHost16
 (
 saddr
@@ -2178,6 +2196,9 @@ saddr
 >
 sin6_addr
 )
+webrtc
+:
+:
 NetworkToHost16
 (
 saddr
