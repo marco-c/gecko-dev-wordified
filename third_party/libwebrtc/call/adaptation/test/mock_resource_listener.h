@@ -102,6 +102,15 @@ h
 #
 include
 "
+api
+/
+scoped_refptr
+.
+h
+"
+#
+include
+"
 test
 /
 gmock
