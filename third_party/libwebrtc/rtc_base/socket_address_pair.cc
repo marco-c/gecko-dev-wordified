@@ -92,7 +92,7 @@ socket_address_pair
 h
 "
 namespace
-rtc
+webrtc
 {
 SocketAddressPair
 :
@@ -100,10 +100,16 @@ SocketAddressPair
 SocketAddressPair
 (
 const
+rtc
+:
+:
 SocketAddress
 &
 src
 const
+rtc
+:
+:
 SocketAddress
 &
 dest
@@ -244,4 +250,4 @@ Hash
 /
 /
 namespace
-rtc
+webrtc

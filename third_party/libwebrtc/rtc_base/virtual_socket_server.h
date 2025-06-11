@@ -178,6 +178,15 @@ include
 "
 rtc_base
 /
+socket_address_pair
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 socket_server
 .
 h
@@ -201,9 +210,6 @@ VirtualSocketPacket
 ;
 class
 VirtualSocketServer
-;
-class
-SocketAddressPair
 ;
 /
 /
@@ -3264,6 +3270,9 @@ std
 :
 map
 <
+webrtc
+:
+:
 SocketAddressPair
 VirtualSocket
 *

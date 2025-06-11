@@ -231,6 +231,9 @@ operator
 )
 (
 const
+webrtc
+:
+:
 SocketAddressPair
 &
 r
@@ -243,10 +246,16 @@ operator
 )
 (
 const
+webrtc
+:
+:
 SocketAddressPair
 &
 r1
 const
+webrtc
+:
+:
 SocketAddressPair
 &
 r2
@@ -603,6 +612,9 @@ TransEntry
 TransEntry
 (
 const
+webrtc
+:
+:
 SocketAddressPair
 &
 r
@@ -637,6 +649,9 @@ SocketAddress
 ext_addr
 )
 ;
+webrtc
+:
+:
 SocketAddressPair
 route
 ;
@@ -662,6 +677,9 @@ std
 :
 map
 <
+webrtc
+:
+:
 SocketAddressPair
 TransEntry
 *
@@ -699,6 +717,9 @@ void
 Translate
 (
 const
+webrtc
+:
+:
 SocketAddressPair
 &
 route
