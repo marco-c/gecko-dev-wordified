@@ -3252,6 +3252,14 @@ mSize
 ;
 params
 .
+contentType
+(
+)
+=
+mContentType
+;
+params
+.
 fileName
 (
 )
