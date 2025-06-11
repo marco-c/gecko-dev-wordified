@@ -1237,6 +1237,18 @@ GetTtl
 ttl
 )
 ;
+TimeStamp
+lastUpdate
+;
+rec
+-
+>
+GetLastUpdate
+(
+&
+lastUpdate
+)
+;
 SendLookupCompletedHelper
 (
 mIPCActor
@@ -1251,6 +1263,7 @@ trrFetchDurationNetworkOnly
 isTRR
 effectiveTRRMode
 ttl
+lastUpdate
 )
 )
 )
