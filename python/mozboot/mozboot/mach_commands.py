@@ -580,7 +580,9 @@ subprocess
 from
 mozversioncontrol
 .
-factory
+repo
+.
+base
 import
 get_tool_path
         
