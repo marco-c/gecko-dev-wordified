@@ -787,13 +787,15 @@ the
 0th
 item
 .
+await
 profile
 .
-avatar
-=
+setAvatar
+(
 "
 flower
 "
+)
 ;
 let
 expectedAvatar
