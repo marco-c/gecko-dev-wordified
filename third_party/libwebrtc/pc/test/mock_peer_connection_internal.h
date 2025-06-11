@@ -1812,9 +1812,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 SSLRole
 >
 GetSctpSslRole_n
@@ -2346,7 +2343,7 @@ std
 :
 string
 &
-rtc
+webrtc
 :
 :
 SSLRole

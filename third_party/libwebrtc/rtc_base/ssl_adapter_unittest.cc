@@ -494,7 +494,7 @@ rtc
 Socket
 *
 socket
-rtc
+webrtc
 :
 :
 SSLRole
@@ -1048,7 +1048,7 @@ socket_
 release
 (
 )
-rtc
+webrtc
 :
 :
 SSL_CLIENT
@@ -1321,7 +1321,7 @@ Accept
 (
 nullptr
 )
-rtc
+webrtc
 :
 :
 SSL_SERVER

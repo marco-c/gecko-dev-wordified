@@ -1147,7 +1147,7 @@ webrtc
 RtcEventLog
 *
 event_log
-rtc
+webrtc
 :
 :
 SSLProtocolVersion
@@ -1530,7 +1530,7 @@ DtlsTransport
 :
 SetDtlsRole
 (
-rtc
+webrtc
 :
 :
 SSLRole
@@ -1600,7 +1600,7 @@ DtlsTransport
 :
 GetDtlsRole
 (
-rtc
+webrtc
 :
 :
 SSLRole
@@ -1746,7 +1746,7 @@ std
 :
 optional
 <
-rtc
+webrtc
 :
 :
 SSLRole
@@ -2269,7 +2269,7 @@ early
 /
 ClientHello
 .
-rtc
+webrtc
 :
 :
 SSLPeerCertificateDigestError
@@ -2289,7 +2289,7 @@ if
 err
 !
 =
-rtc
+webrtc
 :
 :
 SSLPeerCertificateDigestError
@@ -2394,7 +2394,7 @@ return
 err
 =
 =
-rtc
+webrtc
 :
 :
 SSLPeerCertificateDigestError
@@ -2651,7 +2651,7 @@ dtls_stun_piggyback_controller_
 }
 dtls_
 =
-rtc
+webrtc
 :
 :
 SSLStreamAdapter
@@ -2826,7 +2826,7 @@ remote_fingerprint_value_
 )
 !
 =
-rtc
+webrtc
 :
 :
 SSLPeerCertificateDigestError
@@ -3112,7 +3112,7 @@ kConnected
 )
 {
 return
-rtc
+webrtc
 :
 :
 kSslSignatureAlgorithmUnknown
@@ -4855,7 +4855,7 @@ local_certificate_
 {
 SetDtlsRole
 (
-rtc
+webrtc
 :
 :
 SSL_SERVER
@@ -5401,14 +5401,14 @@ SetDtlsHandshakeComplete
 dtls_role_
 =
 =
-rtc
+webrtc
 :
 :
 SSL_CLIENT
 ssl_version_bytes
 =
 =
-rtc
+webrtc
 :
 :
 kDtls13VersionBytes
@@ -6156,7 +6156,7 @@ if
 dtls_role_
 =
 =
-rtc
+webrtc
 :
 :
 SSL_SERVER
@@ -6561,7 +6561,7 @@ DtlsTransport
 :
 OnDtlsHandshakeError
 (
-rtc
+webrtc
 :
 :
 SSLHandshakeError

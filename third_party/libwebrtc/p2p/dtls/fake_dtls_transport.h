@@ -1066,7 +1066,7 @@ std
 :
 move
 (
-rtc
+webrtc
 :
 :
 SSL_CLIENT
@@ -1223,7 +1223,7 @@ std
 :
 optional
 <
-rtc
+webrtc
 :
 :
 SSLRole
@@ -1303,7 +1303,7 @@ true
 bool
 SetDtlsRole
 (
-rtc
+webrtc
 :
 :
 SSLRole
@@ -1328,7 +1328,7 @@ true
 bool
 GetDtlsRole
 (
-rtc
+webrtc
 :
 :
 SSLRole
@@ -1679,7 +1679,7 @@ do_dtls_
 void
 set_ssl_max_protocol_version
 (
-rtc
+webrtc
 :
 :
 SSLProtocolVersion
@@ -1691,7 +1691,7 @@ ssl_max_version_
 version
 ;
 }
-rtc
+webrtc
 :
 :
 SSLProtocolVersion
@@ -2087,13 +2087,13 @@ do_dtls_
 =
 false
 ;
-rtc
+webrtc
 :
 :
 SSLProtocolVersion
 ssl_max_version_
 =
-rtc
+webrtc
 :
 :
 SSL_PROTOCOL_DTLS_12
@@ -2109,7 +2109,7 @@ std
 :
 optional
 <
-rtc
+webrtc
 :
 :
 SSLRole
@@ -2119,7 +2119,7 @@ dtls_role_
 int
 crypto_suite_
 =
-rtc
+webrtc
 :
 :
 kSrtpAes128CmSha1_80

@@ -13987,9 +13987,6 @@ channel_stats
 dtls_role
 =
 =
-rtc
-:
-:
 SSL_CLIENT
 ?
 "
@@ -14029,15 +14026,9 @@ channel_stats
 srtp_crypto_suite
 !
 =
-rtc
-:
-:
 kSrtpInvalidCryptoSuite
 &
 &
-rtc
-:
-:
 SrtpCryptoSuiteToName
 (
 channel_stats
@@ -14055,9 +14046,6 @@ transport_stats
 >
 srtp_cipher
 =
-rtc
-:
-:
 SrtpCryptoSuiteToName
 (
 channel_stats

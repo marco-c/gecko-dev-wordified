@@ -880,15 +880,9 @@ redetermine_role_on_ice_restart
 =
 true
 ;
-rtc
-:
-:
 SSLProtocolVersion
 ssl_max_version
 =
-rtc
-:
-:
 SSL_PROTOCOL_DTLS_12
 ;
 /
@@ -1082,7 +1076,7 @@ function
 <
 void
 (
-rtc
+webrtc
 :
 :
 SSLHandshakeError
@@ -1967,9 +1961,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 SSLRole
 >
 GetDtlsRole
@@ -3772,9 +3763,6 @@ network_thread_
 void
 OnDtlsHandshakeError
 (
-rtc
-:
-:
 SSLHandshakeError
 error
 )

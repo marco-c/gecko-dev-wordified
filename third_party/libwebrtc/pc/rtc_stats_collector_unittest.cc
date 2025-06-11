@@ -24285,9 +24285,6 @@ rtp_transport_channel_stats
 .
 dtls_role
 =
-rtc
-:
-:
 SSL_CLIENT
 ;
 rtp_transport_channel_stats
@@ -24334,9 +24331,6 @@ rtp_transport_channel_stats
 .
 srtp_crypto_suite
 =
-rtc
-:
-:
 kSrtpAes128CmSha1_80
 ;
 pc_

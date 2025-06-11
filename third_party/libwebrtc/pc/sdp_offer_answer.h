@@ -841,9 +841,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 SSLRole
 >
 GetDtlsRole
@@ -1193,9 +1190,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 SSLRole
 >
 GuessSslRole

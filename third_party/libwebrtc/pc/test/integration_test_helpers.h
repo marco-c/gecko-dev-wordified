@@ -1097,9 +1097,6 @@ const
 int
 kDefaultSrtpCryptoSuite
 =
-rtc
-:
-:
 kSrtpAes128CmSha1_80
 ;
 static
@@ -1107,9 +1104,6 @@ const
 int
 kDefaultSrtpCryptoSuiteGcm
 =
-rtc
-:
-:
 kSrtpAeadAes256Gcm
 ;
 static
@@ -11959,9 +11953,6 @@ testing
 :
 Eq
 (
-rtc
-:
-:
 SrtpCryptoSuiteToName
 (
 expected_cipher_suite

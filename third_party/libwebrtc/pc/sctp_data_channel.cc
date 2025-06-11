@@ -803,9 +803,6 @@ SctpSidAllocator
 :
 AllocateSid
 (
-rtc
-:
-:
 SSLRole
 role
 )
@@ -823,9 +820,6 @@ potential_sid
 role
 =
 =
-rtc
-:
-:
 SSL_CLIENT
 )
 ?

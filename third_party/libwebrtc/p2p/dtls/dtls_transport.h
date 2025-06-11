@@ -925,13 +925,13 @@ webrtc
 RtcEventLog
 *
 event_log
-rtc
+webrtc
 :
 :
 SSLProtocolVersion
 max_version
 =
-rtc
+webrtc
 :
 :
 SSL_PROTOCOL_DTLS_12
@@ -1241,7 +1241,7 @@ std
 :
 optional
 <
-rtc
+webrtc
 :
 :
 SSLRole
@@ -1407,7 +1407,7 @@ override
 bool
 GetDtlsRole
 (
-rtc
+webrtc
 :
 :
 SSLRole
@@ -1420,7 +1420,7 @@ override
 bool
 SetDtlsRole
 (
-rtc
+webrtc
 :
 :
 SSLRole
@@ -1922,7 +1922,7 @@ payload
 void
 OnDtlsHandshakeError
 (
-rtc
+webrtc
 :
 :
 SSLHandshakeError
@@ -2046,7 +2046,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 SSLStreamAdapter
@@ -2112,7 +2112,7 @@ std
 :
 optional
 <
-rtc
+webrtc
 :
 :
 SSLRole
@@ -2120,7 +2120,7 @@ SSLRole
 dtls_role_
 ;
 const
-rtc
+webrtc
 :
 :
 SSLProtocolVersion

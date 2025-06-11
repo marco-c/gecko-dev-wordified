@@ -2041,7 +2041,7 @@ role
 ;
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 SSL_SERVER
@@ -2384,7 +2384,7 @@ role
 ;
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 SSL_CLIENT
@@ -3513,7 +3513,7 @@ ok
 }
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 SSL_CLIENT
@@ -3759,7 +3759,7 @@ ok
 }
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 SSL_SERVER
@@ -5237,7 +5237,7 @@ std
 :
 optional
 <
-rtc
+webrtc
 :
 :
 SSLRole
@@ -5258,7 +5258,7 @@ role
 ;
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 SSL_CLIENT
@@ -5512,7 +5512,7 @@ std
 :
 optional
 <
-rtc
+webrtc
 :
 :
 SSLRole
@@ -5533,7 +5533,7 @@ role
 ;
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 SSL_CLIENT
@@ -5832,7 +5832,7 @@ std
 :
 optional
 <
-rtc
+webrtc
 :
 :
 SSLRole
@@ -5853,7 +5853,7 @@ role
 ;
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 SSL_CLIENT
@@ -5935,7 +5935,7 @@ role
 ;
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 SSL_SERVER
@@ -6126,7 +6126,7 @@ std
 :
 optional
 <
-rtc
+webrtc
 :
 :
 SSLRole
@@ -6170,7 +6170,7 @@ server
 .
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 SSL_SERVER
@@ -7520,7 +7520,7 @@ fake_dtls1
 >
 SetSrtpCryptoSuite
 (
-rtc
+webrtc
 :
 :
 kSrtpAeadAes256Gcm
@@ -7531,7 +7531,7 @@ fake_dtls2
 >
 SetSrtpCryptoSuite
 (
-rtc
+webrtc
 :
 :
 kSrtpAeadAes256Gcm

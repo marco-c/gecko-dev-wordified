@@ -1968,9 +1968,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 SSLRole
 >
 fallback_ssl_role
@@ -2033,9 +2030,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 SSLRole
 >
 role
@@ -2708,9 +2702,6 @@ DataChannelController
 :
 AllocateSctpSids
 (
-rtc
-:
-:
 SSLRole
 role
 )

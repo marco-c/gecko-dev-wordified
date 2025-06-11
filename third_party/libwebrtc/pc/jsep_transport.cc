@@ -1951,7 +1951,7 @@ std
 :
 optional
 <
-rtc
+webrtc
 :
 :
 SSLRole
@@ -1984,7 +1984,7 @@ internal
 )
 )
 ;
-rtc
+webrtc
 :
 :
 SSLRole
@@ -2014,7 +2014,7 @@ std
 :
 optional
 <
-rtc
+webrtc
 :
 :
 SSLRole
@@ -2029,7 +2029,7 @@ std
 :
 optional
 <
-rtc
+webrtc
 :
 :
 SSLRole
@@ -2681,7 +2681,7 @@ std
 :
 optional
 <
-rtc
+webrtc
 :
 :
 SSLRole
@@ -3102,7 +3102,7 @@ std
 :
 optional
 <
-rtc
+webrtc
 :
 :
 SSLRole
@@ -3435,7 +3435,7 @@ std
 :
 optional
 <
-rtc
+webrtc
 :
 :
 SSLRole
@@ -4100,7 +4100,7 @@ if
 current_dtls_role
 =
 =
-rtc
+webrtc
 :
 :
 SSL_CLIENT
@@ -4118,7 +4118,7 @@ CONNECTIONROLE_ACTIVE
 current_dtls_role
 =
 =
-rtc
+webrtc
 :
 :
 SSL_SERVER
@@ -4240,12 +4240,12 @@ negotiated_dtls_role
 (
 is_remote_server
 ?
-rtc
+webrtc
 :
 :
 SSL_CLIENT
 :
-rtc
+webrtc
 :
 :
 SSL_SERVER
@@ -4354,7 +4354,7 @@ dtls_state
 (
 )
 ;
-rtc
+webrtc
 :
 :
 SSLRole

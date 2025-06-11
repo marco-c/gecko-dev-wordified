@@ -834,9 +834,6 @@ const
 CryptoOptions
 &
 crypto_options
-rtc
-:
-:
 SSLProtocolVersion
 max_version
 )
@@ -4978,9 +4975,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 SSLRole
 >
 role
@@ -5053,9 +5047,6 @@ role
 ;
 EXPECT_EQ
 (
-rtc
-:
-:
 SSL_CLIENT
 *
 role

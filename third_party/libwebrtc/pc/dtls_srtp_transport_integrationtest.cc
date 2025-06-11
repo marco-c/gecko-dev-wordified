@@ -751,7 +751,7 @@ event_log
 *
 /
 nullptr
-rtc
+webrtc
 :
 :
 SSL_PROTOCOL_DTLS_12
@@ -864,7 +864,7 @@ client_dtls_transport_
 >
 SetDtlsRole
 (
-rtc
+webrtc
 :
 :
 SSL_SERVER
@@ -883,7 +883,7 @@ server_dtls_transport_
 >
 SetDtlsRole
 (
-rtc
+webrtc
 :
 :
 SSL_CLIENT
@@ -1089,7 +1089,7 @@ salt_len
 ;
 ASSERT_TRUE
 (
-rtc
+webrtc
 :
 :
 GetSrtpKeyAndSaltLengths

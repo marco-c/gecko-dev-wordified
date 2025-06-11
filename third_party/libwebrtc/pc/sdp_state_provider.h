@@ -322,9 +322,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 SSLRole
 >
 GetDtlsRole

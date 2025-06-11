@@ -13660,9 +13660,6 @@ dtls_10_options
 .
 ssl_max_version
 =
-rtc
-:
-:
 SSL_PROTOCOL_DTLS_10
 ;
 ASSERT_TRUE
@@ -13805,9 +13802,6 @@ dtls_10_options
 .
 ssl_max_version
 =
-rtc
-:
-:
 SSL_PROTOCOL_DTLS_10
 ;
 ASSERT_TRUE
@@ -13887,9 +13881,6 @@ WaitUntil
 ]
 {
 return
-rtc
-:
-:
 SSLStreamAdapter
 :
 :
@@ -13960,9 +13951,6 @@ testing
 :
 Eq
 (
-rtc
-:
-:
 SrtpCryptoSuiteToName
 (
 kDefaultSrtpCryptoSuite
@@ -14008,9 +13996,6 @@ dtls_12_options
 .
 ssl_max_version
 =
-rtc
-:
-:
 SSL_PROTOCOL_DTLS_12
 ;
 ASSERT_TRUE
@@ -14090,9 +14075,6 @@ WaitUntil
 ]
 {
 return
-rtc
-:
-:
 SSLStreamAdapter
 :
 :
@@ -14163,9 +14145,6 @@ testing
 :
 Eq
 (
-rtc
-:
-:
 SrtpCryptoSuiteToName
 (
 kDefaultSrtpCryptoSuite
@@ -14224,9 +14203,6 @@ caller_options
 .
 ssl_max_version
 =
-rtc
-:
-:
 SSL_PROTOCOL_DTLS_12
 ;
 PeerConnectionFactory
@@ -14239,9 +14215,6 @@ callee_options
 .
 ssl_max_version
 =
-rtc
-:
-:
 SSL_PROTOCOL_DTLS_10
 ;
 ASSERT_TRUE
@@ -14397,9 +14370,6 @@ caller_options
 .
 ssl_max_version
 =
-rtc
-:
-:
 SSL_PROTOCOL_DTLS_10
 ;
 PeerConnectionFactory
@@ -14412,9 +14382,6 @@ callee_options
 .
 ssl_max_version
 =
-rtc
-:
-:
 SSL_PROTOCOL_DTLS_12
 ;
 ASSERT_TRUE
@@ -14594,9 +14561,6 @@ false
 int
 expected_cipher_suite
 =
-rtc
-:
-:
 kSrtpAes128CmSha1_80
 ;
 TestNegotiatedCipherSuite
@@ -14648,9 +14612,6 @@ true
 int
 expected_cipher_suite
 =
-rtc
-:
-:
 kSrtpAes128CmSha1_80
 ;
 TestNegotiatedCipherSuite
@@ -14702,9 +14663,6 @@ true
 int
 expected_cipher_suite
 =
-rtc
-:
-:
 kSrtpAes128CmSha1_32
 ;
 TestNegotiatedCipherSuite

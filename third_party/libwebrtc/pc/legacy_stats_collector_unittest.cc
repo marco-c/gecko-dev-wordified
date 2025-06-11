@@ -4646,9 +4646,6 @@ channel_stats
 .
 srtp_crypto_suite
 =
-rtc
-:
-:
 kSrtpAes128CmSha1_80
 ;
 channel_stats
@@ -4971,14 +4968,8 @@ kStatsValueNameSrtpCipher
 ;
 EXPECT_EQ
 (
-rtc
-:
-:
 SrtpCryptoSuiteToName
 (
-rtc
-:
-:
 kSrtpAes128CmSha1_80
 )
 srtp_crypto_suite

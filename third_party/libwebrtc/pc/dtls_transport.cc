@@ -693,9 +693,6 @@ success
 =
 true
 ;
-rtc
-:
-:
 SSLRole
 internal_role
 ;
@@ -740,9 +737,6 @@ internal_role
 )
 {
 case
-rtc
-:
-:
 SSL_CLIENT
 :
 role
@@ -755,9 +749,6 @@ kClient
 break
 ;
 case
-rtc
-:
-:
 SSL_SERVER
 :
 role

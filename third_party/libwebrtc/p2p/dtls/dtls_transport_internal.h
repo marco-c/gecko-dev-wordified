@@ -420,7 +420,7 @@ virtual
 bool
 GetDtlsRole
 (
-rtc
+webrtc
 :
 :
 SSLRole
@@ -435,7 +435,7 @@ virtual
 bool
 SetDtlsRole
 (
-rtc
+webrtc
 :
 :
 SSLRole
@@ -817,7 +817,7 @@ std
 :
 optional
 <
-rtc
+webrtc
 :
 :
 SSLRole
@@ -842,7 +842,7 @@ construction
 bool
 SetSslMaxProtocolVersion
 (
-rtc
+webrtc
 :
 :
 SSLProtocolVersion
@@ -1060,7 +1060,7 @@ callback
 void
 SendDtlsHandshakeError
 (
-rtc
+webrtc
 :
 :
 SSLHandshakeError
@@ -1089,7 +1089,7 @@ webrtc
 CallbackList
 <
 const
-rtc
+webrtc
 :
 :
 SSLHandshakeError
