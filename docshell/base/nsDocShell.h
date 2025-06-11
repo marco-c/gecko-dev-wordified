@@ -466,6 +466,9 @@ class
 nsIReferrerInfo
 ;
 class
+nsBrowserStatusFilter
+;
+class
 nsCommandManager
 ;
 class
@@ -8015,6 +8018,12 @@ dom
 BrowsingContext
 >
 mBrowsingContext
+;
+RefPtr
+<
+nsBrowserStatusFilter
+>
+mBCWebProgressStatusFilter
 ;
 /
 /
