@@ -108,6 +108,11 @@ string
 >
 #
 include
+<
+vector
+>
+#
+include
 "
 absl
 /
@@ -341,6 +346,11 @@ StatsSample
 std
 :
 :
+vector
+<
+std
+:
+:
 optional
 <
 std
@@ -348,7 +358,8 @@ std
 :
 string
 >
-scalability_mode
+>
+scalability_modes
 ;
 DataSize
 bytes_sent
