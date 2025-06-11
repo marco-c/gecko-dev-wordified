@@ -576,6 +576,11 @@ AccessibleCaretManager
 cpp
 "
 "
+AnchorPositioningUtils
+.
+cpp
+"
+"
 Baseline
 .
 cpp
