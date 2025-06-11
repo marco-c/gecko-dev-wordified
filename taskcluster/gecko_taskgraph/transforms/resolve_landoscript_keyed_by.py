@@ -146,38 +146,6 @@ worker
 -
 type
 "
-        
-"
-worker
-.
-actions
-[
-]
-.
-tag
-.
-hg
--
-repo
--
-url
-"
-        
-"
-worker
-.
-actions
-[
-]
-.
-version
--
-bump
-.
-bump
--
-files
-"
     
 ]
     
@@ -198,10 +166,6 @@ for
 additional_field
 in
 (
-            
-"
-actions
-"
             
 "
 l10n
