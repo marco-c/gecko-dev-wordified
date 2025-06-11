@@ -2123,6 +2123,12 @@ EventDispatcher
 GetInstance
 (
 )
+/
+*
+window
+*
+/
+nullptr
 )
 ;
 mEventDispatcher
@@ -2194,6 +2200,12 @@ ByName
 (
 aName
 )
+/
+*
+window
+*
+/
+nullptr
 )
 ;
 dispatcher
