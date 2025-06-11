@@ -49971,7 +49971,7 @@ navigation
 .
 enabled
 "
-false
+true
 )
 ;
 #
