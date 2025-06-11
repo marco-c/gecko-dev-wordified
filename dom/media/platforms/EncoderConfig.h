@@ -263,9 +263,9 @@ enum
 class
 HardwarePreference
 {
+None
 RequireHardware
 RequireSoftware
-None
 }
 ;
 /
@@ -1445,12 +1445,14 @@ only
 HardwarePreference
 mHardwarePreference
 {
+HardwarePreference
+:
+:
+None
 }
 ;
 SampleFormat
 mFormat
-{
-}
 ;
 ScalabilityMode
 mScalabilityMode

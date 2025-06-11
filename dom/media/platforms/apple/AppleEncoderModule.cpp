@@ -320,6 +320,16 @@ return
 false
 ;
 }
+/
+/
+Only
+hardware
+encoder
+are
+supported
+for
+now
+.
 return
 aConfig
 .
