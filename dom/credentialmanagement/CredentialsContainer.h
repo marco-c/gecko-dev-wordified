@@ -292,9 +292,6 @@ WebAuthnHandler
 >
 mWebAuthnHandler
 ;
-bool
-mActiveIdentityRequest
-;
 }
 ;
 }
