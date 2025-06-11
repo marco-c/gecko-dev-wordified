@@ -58,8 +58,6 @@ abc
 import
 ABCMeta
 abstractmethod
-import
-six
 #
 abstract
 class
@@ -67,14 +65,13 @@ for
 all
 playback
 tools
-six
-.
-add_metaclass
-(
-ABCMeta
-)
 class
 Playback
+(
+metaclass
+=
+ABCMeta
+)
 :
     
 def

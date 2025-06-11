@@ -72,10 +72,6 @@ from
 urllib
 import
 parse
-from
-six
-import
-string_types
 __all__
 =
 [
@@ -954,7 +950,7 @@ if
 isinstance
 (
 options
-string_types
+str
 )
 :
             

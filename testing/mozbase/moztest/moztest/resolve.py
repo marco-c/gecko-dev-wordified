@@ -82,8 +82,6 @@ mozpack
 path
 as
 mozpath
-import
-six
 from
 manifestparser
 import
@@ -5213,16 +5211,13 @@ file_relpath
     
 return
 test
-six
-.
-add_metaclass
-(
-ABCMeta
-)
 class
 TestLoader
 (
 MozbuildObject
+metaclass
+=
+ABCMeta
 )
 :
     

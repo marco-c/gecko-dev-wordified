@@ -99,11 +99,6 @@ import
 mozunit
 import
 pytest
-from
-six
-import
-ensure_binary
-ensure_str
 def
 httpd_url
 (
@@ -464,14 +459,15 @@ querystr
             
 data
 =
-ensure_binary
-(
 json
 .
 dumps
 (
 postdata
 )
+.
+encode
+(
 )
         
 )
@@ -1578,8 +1574,6 @@ resource
             
 data
 =
-ensure_binary
-(
 json
 .
 dumps
@@ -1587,6 +1581,9 @@ dumps
 {
 }
 )
+.
+encode
+(
 )
         
 )
@@ -1709,13 +1706,14 @@ listing
 for
 "
 in
-ensure_str
-(
 f
 .
 read
 (
 )
+.
+decode
+(
 )
     
 #
@@ -2078,14 +2076,15 @@ read
 )
 =
 =
-ensure_binary
-(
 index_contents
 (
 "
 *
 "
 )
+.
+encode
+(
 )
 pytest
 .
@@ -2287,12 +2286,13 @@ read
 )
 =
 =
-ensure_binary
-(
 index_contents
 (
 host
 )
+.
+encode
+(
 )
     
 unproxied_host

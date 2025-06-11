@@ -83,10 +83,6 @@ mozlog
 unstructured
 import
 getLogger
-from
-six
-import
-string_types
 _SALT
 =
 binascii
@@ -1371,7 +1367,7 @@ if
 isinstance
 (
 addons
-string_types
+str
 )
 :
             
@@ -2641,7 +2637,7 @@ details
 unpack
 "
 ]
-string_types
+str
 )
 :
             

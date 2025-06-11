@@ -16,6 +16,10 @@ UTF
 import
 zipfile
 from
+io
+import
+BytesIO
+from
 urllib
 .
 parse
@@ -29,10 +33,6 @@ from
 conftest
 import
 fspath
-from
-six
-import
-BytesIO
 def
 test_symbols_path_not_present
 (

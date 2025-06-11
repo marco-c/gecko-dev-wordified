@@ -75,8 +75,6 @@ abc
 import
 ABCMeta
 abstractproperty
-import
-six
 from
 mozlog
 import
@@ -85,11 +83,6 @@ from
 mozprocess
 import
 ProcessHandler
-from
-six
-import
-ensure_str
-string_types
 try
 :
     
@@ -114,14 +107,13 @@ from
 errors
 import
 RunnerNotStartedError
-six
-.
-add_metaclass
-(
-ABCMeta
-)
 class
 BaseRunner
+(
+metaclass
+=
+ABCMeta
+)
 :
     
 "
@@ -229,7 +221,7 @@ if
 isinstance
 (
 profile
-string_types
+str
 )
 :
             
@@ -721,16 +713,10 @@ k
             
 str_env
 [
-ensure_str
-(
 k
-)
 ]
 =
-ensure_str
-(
 v
-)
         
 if
 interactive

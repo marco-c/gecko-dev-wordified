@@ -72,10 +72,6 @@ import
 mozunit
 import
 pytest
-from
-six
-import
-text_type
 here
 =
 os
@@ -279,7 +275,7 @@ Profile
 )
     
 assert
-text_type
+str
 (
 profile
 )
