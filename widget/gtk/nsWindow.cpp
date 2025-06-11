@@ -21748,7 +21748,6 @@ if
 isX11
 &
 &
-!
 gtk_check_version
 (
 3
