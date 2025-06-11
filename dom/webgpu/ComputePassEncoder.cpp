@@ -170,6 +170,7 @@ GPU_IMPL_CYCLE_COLLECTION
 ComputePassEncoder
 mParent
 mUsedBindGroups
+mUsedBuffers
 mUsedPipelines
 )
 GPU_IMPL_JS_WRAP
@@ -378,6 +379,12 @@ release
 )
 ;
 mUsedBindGroups
+.
+Clear
+(
+)
+;
+mUsedBuffers
 .
 Clear
 (
@@ -695,6 +702,14 @@ mValid
 return
 ;
 }
+mUsedBuffers
+.
+AppendElement
+(
+&
+aIndirectBuffer
+)
+;
 ffi
 :
 :
