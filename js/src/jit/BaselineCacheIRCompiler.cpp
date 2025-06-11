@@ -29259,6 +29259,13 @@ scratch
 =
 ReturnReg
 ;
+masm
+.
+reserveStack
+(
+RegExpReservedStack
+)
+;
 Label
 done
 vmCall
