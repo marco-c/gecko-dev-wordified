@@ -32734,6 +32734,15 @@ MediaSourceEnum
 :
 :
 AudioCapture
+|
+|
+source
+=
+=
+MediaSourceEnum
+:
+:
+Browser
 )
 {
 l
