@@ -1438,9 +1438,9 @@ dcsctp
 :
 :
 DcSctpOptions
-options
+dcsctp_options
 ;
-options
+dcsctp_options
 .
 local_port
 =
@@ -1448,7 +1448,7 @@ options
 .
 local_port
 ;
-options
+dcsctp_options
 .
 remote_port
 =
@@ -1456,7 +1456,7 @@ options
 .
 remote_port
 ;
-options
+dcsctp_options
 .
 max_message_size
 =
@@ -1464,7 +1464,7 @@ options
 .
 max_message_size
 ;
-options
+dcsctp_options
 .
 max_timer_backoff_duration
 =
@@ -1484,7 +1484,7 @@ too
 many
 retransmissions
 .
-options
+dcsctp_options
 .
 max_retransmissions
 =
@@ -1493,7 +1493,7 @@ std
 :
 nullopt
 ;
-options
+dcsctp_options
 .
 max_init_retransmits
 =
@@ -1502,7 +1502,7 @@ std
 :
 nullopt
 ;
-options
+dcsctp_options
 .
 per_stream_send_queue_limit
 =
@@ -1530,7 +1530,7 @@ service
 Practically
 unlimited
 .
-options
+dcsctp_options
 .
 max_send_buffer_size
 =
@@ -1547,7 +1547,7 @@ max
 (
 )
 ;
-options
+dcsctp_options
 .
 enable_message_interleaving
 =
@@ -1620,7 +1620,7 @@ move
 (
 packet_observer
 )
-options
+dcsctp_options
 )
 ;
 }
