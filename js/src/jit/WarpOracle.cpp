@@ -6722,6 +6722,7 @@ TrialInliner
 :
 canInline
 (
+cx_
 targetFunction
 script_
 loc
