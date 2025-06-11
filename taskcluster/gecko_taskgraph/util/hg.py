@@ -708,6 +708,12 @@ timeout
 60
 )
         
+response
+.
+raise_for_status
+(
+)
+        
 return
 response
 .
