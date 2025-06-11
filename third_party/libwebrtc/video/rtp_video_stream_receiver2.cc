@@ -142,6 +142,11 @@ utility
 #
 include
 <
+variant
+>
+#
+include
+<
 vector
 >
 #
@@ -152,17 +157,6 @@ absl
 algorithm
 /
 container
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-variant
 .
 h
 "
@@ -3634,7 +3628,7 @@ RtpVideoStreamReceiver2
 SetLastCorruptionDetectionIndex
 (
 const
-absl
+std
 :
 :
 variant
@@ -3655,7 +3649,7 @@ auto
 *
 sync_data
 =
-absl
+std
 :
 :
 get_if
@@ -3689,7 +3683,7 @@ auto
 *
 data
 =
-absl
+std
 :
 :
 get_if

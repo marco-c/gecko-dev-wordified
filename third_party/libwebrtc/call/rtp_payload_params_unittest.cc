@@ -117,6 +117,11 @@ set
 #
 include
 <
+variant
+>
+#
+include
+<
 vector
 >
 #
@@ -127,17 +132,6 @@ absl
 container
 /
 inlined_vector
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-variant
 .
 h
 "
@@ -724,7 +718,7 @@ auto
 &
 vp8_header
 =
-absl
+std
 :
 :
 get
@@ -942,7 +936,7 @@ auto
 &
 vp9_header
 =
-absl
+std
 :
 :
 get
@@ -1284,7 +1278,7 @@ EXPECT_EQ
 kInitialPictureId1
 +
 1
-absl
+std
 :
 :
 get
@@ -1419,7 +1413,7 @@ codec
 EXPECT_EQ
 (
 0
-absl
+std
 :
 :
 get
@@ -2087,7 +2081,7 @@ auto
 &
 vp8_header
 =
-absl
+std
 :
 :
 get
@@ -2322,7 +2316,7 @@ auto
 &
 vp9_header
 =
-absl
+std
 :
 :
 get
@@ -2731,7 +2725,7 @@ auto
 *
 generic
 =
-absl
+std
 :
 :
 get_if
@@ -2782,7 +2776,7 @@ codec_info
 ;
 generic
 =
-absl
+std
 :
 :
 get_if

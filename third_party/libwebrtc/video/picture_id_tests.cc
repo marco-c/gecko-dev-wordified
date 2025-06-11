@@ -710,7 +710,7 @@ auto
 *
 vp8_header
 =
-absl
+std
 :
 :
 get_if
@@ -767,7 +767,7 @@ auto
 *
 vp9_header
 =
-absl
+std
 :
 :
 get_if

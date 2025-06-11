@@ -125,15 +125,9 @@ utility
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 variant
-.
-h
-"
+>
 #
 include
 "
@@ -2158,7 +2152,7 @@ valueless_by_exception
 )
 ;
 return
-absl
+std
 :
 :
 visit
@@ -2210,7 +2204,7 @@ ok
 .
 if
 (
-absl
+std
 :
 :
 holds_alternative
@@ -2225,7 +2219,7 @@ step
 RestrictionsWithCounters
 restrictions
 =
-absl
+std
 :
 :
 get
@@ -2500,7 +2494,7 @@ current_restrictions_
 ;
 if
 (
-absl
+std
 :
 :
 holds_alternative
@@ -2663,7 +2657,7 @@ DegradationPreference
 BALANCED
 &
 &
-absl
+std
 :
 :
 holds_alternative
@@ -2680,7 +2674,7 @@ restrictions_or_state
 AdaptIfFpsDiffInsufficient
 (
 input_state
-absl
+std
 :
 :
 get
@@ -2996,7 +2990,7 @@ current_restrictions
 ;
 if
 (
-absl
+std
 :
 :
 holds_alternative
@@ -4278,7 +4272,7 @@ current_restrictions_
 if
 (
 !
-absl
+std
 :
 :
 holds_alternative
@@ -4297,7 +4291,7 @@ first_step
 auto
 first_restrictions
 =
-absl
+std
 :
 :
 get
@@ -4364,7 +4358,7 @@ first_restrictions
 ;
 if
 (
-absl
+std
 :
 :
 holds_alternative

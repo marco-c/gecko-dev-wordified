@@ -108,6 +108,11 @@ h
 #
 include
 <
+variant
+>
+#
+include
+<
 vector
 >
 #
@@ -118,17 +123,6 @@ absl
 algorithm
 /
 container
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-variant
 .
 h
 "
@@ -515,7 +509,7 @@ kVideoCodecVP8
 )
 {
 return
-absl
+std
 :
 :
 get
@@ -555,7 +549,7 @@ kVideoCodecVP9
 )
 {
 return
-absl
+std
 :
 :
 get
@@ -621,7 +615,7 @@ kVideoCodecVP8
 )
 {
 return
-absl
+std
 :
 :
 get
@@ -661,7 +655,7 @@ kVideoCodecVP9
 )
 {
 return
-absl
+std
 :
 :
 get
@@ -727,7 +721,7 @@ kVideoCodecVP8
 )
 {
 return
-absl
+std
 :
 :
 get
@@ -767,7 +761,7 @@ kVideoCodecVP9
 )
 {
 return
-absl
+std
 :
 :
 get
@@ -833,7 +827,7 @@ kVideoCodecVP8
 )
 {
 return
-absl
+std
 :
 :
 get
@@ -873,7 +867,7 @@ kVideoCodecVP9
 )
 {
 return
-absl
+std
 :
 :
 get
@@ -974,7 +968,7 @@ auto
 &
 h264
 =
-absl
+std
 :
 :
 get
@@ -1039,7 +1033,7 @@ auto
 *
 vp9_header
 =
-absl
+std
 :
 :
 get_if
@@ -1451,7 +1445,7 @@ auto
 *
 h264
 =
-absl
+std
 :
 :
 get_if
@@ -2340,7 +2334,7 @@ end
 {
 if
 (
-absl
+std
 :
 :
 get
@@ -2410,7 +2404,7 @@ const
 int
 partition_id
 =
-absl
+std
 :
 :
 get
@@ -2445,7 +2439,7 @@ end
 bool
 beginning
 =
-absl
+std
 :
 :
 get
@@ -2468,7 +2462,7 @@ beginningOfPartition
 int
 current_partition_id
 =
-absl
+std
 :
 :
 get

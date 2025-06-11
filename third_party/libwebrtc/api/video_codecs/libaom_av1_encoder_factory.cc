@@ -144,6 +144,11 @@ type_traits
 #
 include
 <
+variant
+>
+#
+include
+<
 vector
 >
 #
@@ -165,17 +170,6 @@ absl
 cleanup
 /
 cleanup
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-variant
 .
 h
 "
@@ -1236,7 +1230,7 @@ auto
 *
 cbr
 =
-absl
+std
 :
 :
 get_if
@@ -2683,7 +2677,7 @@ rc_mode
 AOM_CBR
 &
 &
-absl
+std
 :
 :
 holds_alternative
@@ -2705,7 +2699,7 @@ rc_mode
 AOM_Q
 &
 &
-absl
+std
 :
 :
 holds_alternative
@@ -4259,7 +4253,7 @@ settings
 spatial_id
 ]
 ;
-absl
+std
 :
 :
 visit
@@ -4963,7 +4957,7 @@ frame_settings
 accum_rate
 +
 =
-absl
+std
 :
 :
 get
@@ -5486,7 +5480,7 @@ Cbr
 *
 cbr
 =
-absl
+std
 :
 :
 get_if

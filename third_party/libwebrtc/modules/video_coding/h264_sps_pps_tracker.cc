@@ -113,15 +113,9 @@ utility
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 variant
-.
-h
-"
+>
 #
 include
 "
@@ -277,7 +271,7 @@ auto
 &
 h264_header
 =
-absl
+std
 :
 :
 get

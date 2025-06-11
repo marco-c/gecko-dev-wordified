@@ -98,15 +98,9 @@ optional
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 variant
-.
-h
-"
+>
 #
 include
 "
@@ -515,7 +509,7 @@ qp
 const
 ;
 const
-absl
+std
 :
 :
 variant

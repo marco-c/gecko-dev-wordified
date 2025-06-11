@@ -604,7 +604,7 @@ std
 :
 optional
 <
-absl
+std
 :
 :
 variant
@@ -645,7 +645,7 @@ has_value
 ;
 ASSERT_TRUE
 (
-absl
+std
 :
 :
 holds_alternative
@@ -661,7 +661,7 @@ data
 FrameInstrumentationData
 frame_instrumentation_data
 =
-absl
+std
 :
 :
 get

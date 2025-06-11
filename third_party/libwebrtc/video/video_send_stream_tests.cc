@@ -151,6 +151,11 @@ utility
 #
 include
 <
+variant
+>
+#
+include
+<
 vector
 >
 #
@@ -161,17 +166,6 @@ absl
 strings
 /
 match
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-variant
 .
 h
 "
@@ -18963,7 +18957,7 @@ auto
 &
 vp9_header
 =
-absl
+std
 :
 :
 get
@@ -20895,7 +20889,7 @@ auto
 &
 vp9_header
 =
-absl
+std
 :
 :
 get
@@ -25903,7 +25897,7 @@ auto
 *
 vp8_header
 =
-absl
+std
 :
 :
 get_if
@@ -25939,7 +25933,7 @@ auto
 *
 vp9_header
 =
-absl
+std
 :
 :
 get_if
