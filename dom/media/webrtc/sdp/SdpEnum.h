@@ -131,6 +131,15 @@ Assertions
 .
 h
 "
+#
+include
+"
+mozilla
+/
+TypedEnumBits
+.
+h
+"
 namespace
 mozilla
 :
@@ -330,6 +339,11 @@ kRecv
 =
 2
 }
+;
+MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
+(
+Direction
+)
 ;
 inline
 std
