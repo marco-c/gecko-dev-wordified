@@ -2162,7 +2162,7 @@ the
 product
 tag
 as
-teh
+the
 web
 speech
 api
