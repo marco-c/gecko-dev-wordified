@@ -424,16 +424,6 @@ mozSelectableChildAccessible
 override
 -
 (
-NSString
-*
-)
-moxLabel
-;
-/
-/
-override
--
-(
 BOOL
 )
 moxIgnoreWithParent
