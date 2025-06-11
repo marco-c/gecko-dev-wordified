@@ -744,6 +744,16 @@ RTC_DCHECK_RUN_ON
 sequence_checker_
 )
 ;
+data_recv_count_
++
+=
+(
+data
+!
+=
+nullptr
+)
+;
 /
 /
 Drop
