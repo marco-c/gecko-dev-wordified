@@ -593,7 +593,7 @@ Scaling
 (
 sx
 sy
-0
+1
 .
 0f
 )
