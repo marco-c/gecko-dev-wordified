@@ -426,6 +426,9 @@ struct
 JS_PUBLIC_API
 JSContext
 ;
+class
+JSFunction
+;
 namespace
 JS
 {
@@ -693,7 +696,7 @@ InlinableOpData
 {
 public
 :
-JSScript
+JSFunction
 *
 target
 =
@@ -741,9 +744,6 @@ public
 ValOperandId
 receiverOperand
 ;
-ObjOperandId
-calleeOperand
-;
 bool
 sameRealm
 =
@@ -761,9 +761,6 @@ public
 :
 ObjOperandId
 receiverOperand
-;
-ObjOperandId
-calleeOperand
 ;
 ValOperandId
 rhsOperand
@@ -956,7 +953,7 @@ static
 bool
 canInline
 (
-JSScript
+JSFunction
 *
 target
 HandleScript
@@ -1004,7 +1001,7 @@ ICScript
 *
 createInlinedICScript
 (
-JSScript
+JSFunction
 *
 target
 BytecodeLocation
@@ -1035,7 +1032,7 @@ kind
 TrialInliningDecision
 getInliningDecision
 (
-JSScript
+JSFunction
 *
 target
 ICCacheIRStub
