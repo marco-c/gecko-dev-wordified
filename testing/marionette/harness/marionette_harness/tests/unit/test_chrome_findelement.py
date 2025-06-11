@@ -91,7 +91,7 @@ content
 /
 marionette
 /
-test_no_xul
+test
 .
 xhtml
 "
@@ -108,7 +108,7 @@ content
 /
 marionette
 /
-test
+test_xul
 .
 xhtml
 "
@@ -452,7 +452,7 @@ By
 .
 ID
 "
-textInput
+button
 "
 )
         
@@ -468,7 +468,7 @@ By
 .
 ID
 "
-things
+types
 "
 )
         
@@ -482,7 +482,7 @@ By
 .
 TAG_NAME
 "
-input
+button
 "
 )
         
@@ -569,7 +569,7 @@ By
 .
 ID
 "
-textInput3
+button
 "
 )
         
@@ -585,7 +585,7 @@ By
 .
 ID
 "
-things
+types
 "
 )
         
@@ -599,18 +599,17 @@ By
 .
 TAG_NAME
 "
-input
+button
 "
 )
         
 self
 .
-assertTrue
+assertIn
 (
 el
 .
 id
-in
 [
 found_el
 .
@@ -682,7 +681,7 @@ document
 getElementsByTagName
 (
 '
-vbox
+button
 '
 )
 [
@@ -705,7 +704,7 @@ By
 .
 TAG_NAME
 "
-vbox
+button
 "
 )
         
@@ -714,7 +713,7 @@ self
 assertEqual
 (
 "
-vbox
+button
 "
 found_el
 .
@@ -810,7 +809,7 @@ document
 getElementsByClassName
 (
 '
-asdf
+foo
 '
 )
 [
@@ -833,7 +832,7 @@ By
 .
 CLASS_NAME
 "
-asdf
+foo
 "
 )
         
@@ -1028,55 +1027,6 @@ win
         
 self
 .
-marionette
-.
-timeout
-.
-implicit
-=
-1
-        
-self
-.
-assertRaises
-(
-            
-NoSuchElementException
-            
-self
-.
-marionette
-.
-find_element
-            
-By
-.
-ID
-            
-"
-I
-'
-m
-not
-on
-the
-page
-"
-        
-)
-        
-self
-.
-marionette
-.
-timeout
-.
-implicit
-=
-0
-        
-self
-.
 assertRaises
 (
             
@@ -1174,7 +1124,7 @@ timeout
 .
 implicit
 =
-4
+2
         
 self
 .
@@ -1225,7 +1175,7 @@ document
 getElementById
 (
 '
-things
+types
 '
 )
 .
@@ -1236,7 +1186,7 @@ b
 ;
             
 }
-1000
+500
 )
 ;
 "
@@ -1303,7 +1253,7 @@ document
 getElementById
 (
 '
-things
+types
 '
 )
 ;
