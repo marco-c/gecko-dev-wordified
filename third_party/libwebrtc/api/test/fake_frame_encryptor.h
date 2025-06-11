@@ -272,7 +272,7 @@ true
 int
 Encrypt
 (
-cricket
+webrtc
 :
 :
 MediaType
@@ -327,7 +327,7 @@ frame
 size_t
 GetMaxCiphertextByteSize
 (
-cricket
+webrtc
 :
 :
 MediaType

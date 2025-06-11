@@ -463,7 +463,7 @@ override
 RtpCapabilities
 GetRtpSenderCapabilities
 (
-cricket
+webrtc
 :
 :
 MediaType
@@ -475,7 +475,7 @@ override
 RtpCapabilities
 GetRtpReceiverCapabilities
 (
-cricket
+webrtc
 :
 :
 MediaType

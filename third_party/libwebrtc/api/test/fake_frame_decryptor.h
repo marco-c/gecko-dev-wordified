@@ -274,7 +274,7 @@ true
 Result
 Decrypt
 (
-cricket
+webrtc
 :
 :
 MediaType
@@ -335,7 +335,7 @@ frame
 size_t
 GetMaxPlaintextByteSize
 (
-cricket
+webrtc
 :
 :
 MediaType

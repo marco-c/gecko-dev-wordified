@@ -1368,7 +1368,7 @@ AsVoiceSendChannel
 0
 ;
 virtual
-cricket
+webrtc
 :
 :
 MediaType
@@ -2005,7 +2005,7 @@ AsVoiceReceiveChannel
 0
 ;
 virtual
-cricket
+webrtc
 :
 :
 MediaType

@@ -305,7 +305,7 @@ virtual
 void
 OnFirstPacketReceived
 (
-cricket
+webrtc
 :
 :
 MediaType
@@ -589,7 +589,7 @@ video
 receiver
 ?
 virtual
-cricket
+webrtc
 :
 :
 MediaType

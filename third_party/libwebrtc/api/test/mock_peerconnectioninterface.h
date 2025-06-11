@@ -621,7 +621,7 @@ RtpTransceiverInterface
 >
 AddTransceiver
 (
-cricket
+webrtc
 :
 :
 MediaType
@@ -645,7 +645,7 @@ RtpTransceiverInterface
 >
 AddTransceiver
 (
-cricket
+webrtc
 :
 :
 MediaType

@@ -122,7 +122,7 @@ Backwards
 compatibility
 values
 for
-cricket
+webrtc
 :
 :
 MediaType
@@ -301,7 +301,7 @@ Backwards
 compatibility
 values
 for
-cricket
+webrtc
 :
 :
 MediaType

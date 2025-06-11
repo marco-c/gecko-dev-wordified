@@ -319,7 +319,7 @@ virtual
 void
 OnFirstPacketSent
 (
-cricket
+webrtc
 :
 :
 MediaType
@@ -537,7 +537,7 @@ video
 sender
 ?
 virtual
-cricket
+webrtc
 :
 :
 MediaType

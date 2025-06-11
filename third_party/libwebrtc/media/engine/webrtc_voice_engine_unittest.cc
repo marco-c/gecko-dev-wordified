@@ -11034,10 +11034,13 @@ opus_rtp_codec
 .
 kind
 =
-cricket
+webrtc
 :
 :
-MEDIA_TYPE_AUDIO
+MediaType
+:
+:
+AUDIO
 ;
 opus_rtp_codec
 .

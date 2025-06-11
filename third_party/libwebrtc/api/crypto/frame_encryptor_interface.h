@@ -90,6 +90,16 @@ define
 API_CRYPTO_FRAME_ENCRYPTOR_INTERFACE_H_
 #
 include
+<
+cstddef
+>
+#
+include
+<
+cstdint
+>
+#
+include
 "
 api
 /
@@ -109,7 +119,7 @@ h
 #
 include
 "
-rtc_base
+api
 /
 ref_count
 .
@@ -337,7 +347,7 @@ virtual
 int
 Encrypt
 (
-cricket
+webrtc
 :
 :
 MediaType
@@ -428,7 +438,7 @@ virtual
 size_t
 GetMaxCiphertextByteSize
 (
-cricket
+webrtc
 :
 :
 MediaType

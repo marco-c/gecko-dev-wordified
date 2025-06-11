@@ -256,7 +256,7 @@ PROXY_CONSTMETHOD1
 (
 RtpCapabilities
 GetRtpSenderCapabilities
-cricket
+webrtc
 :
 :
 MediaType
@@ -265,7 +265,7 @@ PROXY_CONSTMETHOD1
 (
 RtpCapabilities
 GetRtpReceiverCapabilities
-cricket
+webrtc
 :
 :
 MediaType

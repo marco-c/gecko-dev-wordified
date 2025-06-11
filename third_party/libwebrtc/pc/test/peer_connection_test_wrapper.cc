@@ -1820,7 +1820,7 @@ PeerConnectionTestWrapper
 :
 FindFirstSendCodecWithName
 (
-cricket
+webrtc
 :
 :
 MediaType

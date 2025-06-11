@@ -1119,7 +1119,7 @@ cricket
 ContentInfos
 &
 contents
-cricket
+webrtc
 :
 :
 MediaType
@@ -1177,7 +1177,7 @@ const
 SessionDescription
 *
 sdesc
-cricket
+webrtc
 :
 :
 MediaType
@@ -1280,7 +1280,7 @@ cricket
 ContentInfos
 *
 contents
-cricket
+webrtc
 :
 :
 MediaType
@@ -1330,7 +1330,7 @@ GetFirstMediaContent
 SessionDescription
 *
 sdesc
-cricket
+webrtc
 :
 :
 MediaType

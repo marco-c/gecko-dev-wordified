@@ -1752,7 +1752,7 @@ PeerConnectionWrapper
 :
 AddTransceiver
 (
-cricket
+webrtc
 :
 :
 MediaType
@@ -1818,7 +1818,7 @@ PeerConnectionWrapper
 :
 AddTransceiver
 (
-cricket
+webrtc
 :
 :
 MediaType

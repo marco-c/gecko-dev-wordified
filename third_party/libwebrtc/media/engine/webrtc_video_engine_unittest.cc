@@ -39868,10 +39868,13 @@ vp9_rtp_codec
 .
 kind
 =
-cricket
+webrtc
 :
 :
-MEDIA_TYPE_VIDEO
+MediaType
+:
+:
+VIDEO
 ;
 vp9_rtp_codec
 .
