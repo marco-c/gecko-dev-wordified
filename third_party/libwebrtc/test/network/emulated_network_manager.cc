@@ -274,9 +274,6 @@ absl
 :
 Nonnull
 <
-rtc
-:
-:
 Thread
 *
 >
@@ -370,9 +367,6 @@ absl
 :
 Nonnull
 <
-rtc
-:
-:
 Thread
 *
 >

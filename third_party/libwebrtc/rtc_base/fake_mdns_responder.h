@@ -201,9 +201,6 @@ public
 explicit
 FakeMdnsResponder
 (
-rtc
-:
-:
 Thread
 *
 thread
@@ -454,9 +451,6 @@ string
 >
 addr_name_map_
 ;
-rtc
-:
-:
 Thread
 *
 const

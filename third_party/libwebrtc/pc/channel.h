@@ -671,7 +671,7 @@ webrtc
 TaskQueueBase
 *
 worker_thread
-rtc
+webrtc
 :
 :
 Thread
@@ -739,7 +739,7 @@ return
 worker_thread_
 ;
 }
-rtc
+webrtc
 :
 :
 Thread
@@ -2358,7 +2358,7 @@ TaskQueueBase
 const
 worker_thread_
 ;
-rtc
+webrtc
 :
 :
 Thread
@@ -2903,7 +2903,7 @@ webrtc
 TaskQueueBase
 *
 worker_thread
-rtc
+webrtc
 :
 :
 Thread
@@ -3237,7 +3237,7 @@ webrtc
 TaskQueueBase
 *
 worker_thread
-rtc
+webrtc
 :
 :
 Thread

@@ -1686,9 +1686,6 @@ audio
 device
 module
 .
-rtc
-:
-:
 Thread
 *
 thread_

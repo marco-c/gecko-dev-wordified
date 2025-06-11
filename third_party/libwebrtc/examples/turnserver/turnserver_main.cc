@@ -556,7 +556,7 @@ webrtc
 PhysicalSocketServer
 socket_server
 ;
-rtc
+webrtc
 :
 :
 AutoSocketServerThread

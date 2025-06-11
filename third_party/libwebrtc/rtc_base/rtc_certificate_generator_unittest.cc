@@ -219,9 +219,6 @@ RTCCertificateGeneratorFixture
 :
 signaling_thread_
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -231,9 +228,6 @@ Current
 )
 worker_thread_
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -404,9 +398,6 @@ false
 }
 protected
 :
-rtc
-:
-:
 Thread
 *
 const
@@ -417,9 +408,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 worker_thread_
@@ -472,9 +460,6 @@ Millis
 10000
 )
 ;
-rtc
-:
-:
 AutoThread
 main_thread_
 ;

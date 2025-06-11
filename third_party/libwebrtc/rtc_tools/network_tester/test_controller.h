@@ -421,9 +421,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 packet_sender_thread_

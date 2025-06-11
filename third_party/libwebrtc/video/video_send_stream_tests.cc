@@ -13684,9 +13684,6 @@ perhaps
 ?
 )
 .
-rtc
-:
-:
 Thread
 :
 :
@@ -13816,9 +13813,6 @@ perhaps
 ?
 )
 .
-rtc
-:
-:
 Thread
 :
 :

@@ -2099,9 +2099,6 @@ SocketServer
 void
 SetMessageQueue
 (
-rtc
-:
-:
 Thread
 *
 queue
@@ -3297,9 +3294,6 @@ WakeUp
 Event
 wakeup_
 ;
-rtc
-:
-:
 Thread
 *
 msg_queue_

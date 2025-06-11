@@ -256,9 +256,6 @@ RTC_EXCLUSIVE_LOCKS_REQUIRED
 capture_lock_
 )
 ;
-rtc
-:
-:
 PlatformThread
 _captureThread
 RTC_GUARDED_BY

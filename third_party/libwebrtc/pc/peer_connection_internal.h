@@ -1362,9 +1362,6 @@ PeerConnectionSdpMethods
 public
 :
 virtual
-rtc
-:
-:
 Thread
 *
 network_thread
@@ -1375,9 +1372,6 @@ const
 0
 ;
 virtual
-rtc
-:
-:
 Thread
 *
 worker_thread

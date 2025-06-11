@@ -482,9 +482,6 @@ reset
 Deletes
 resolver
 .
-rtc
-:
-:
 Thread
 :
 :

@@ -342,9 +342,6 @@ public
 :
 TestTurnServer
 (
-rtc
-:
-:
 Thread
 *
 thread

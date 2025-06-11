@@ -534,9 +534,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 thread
@@ -701,9 +698,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 thread
@@ -856,9 +850,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 thread
@@ -1025,9 +1016,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 thread

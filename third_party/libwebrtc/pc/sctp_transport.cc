@@ -279,9 +279,6 @@ dtls_transport
 :
 owner_thread_
 (
-rtc
-:
-:
 Thread
 :
 :

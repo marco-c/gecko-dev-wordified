@@ -815,9 +815,6 @@ const
 SocketAddress
 &
 int_addr
-rtc
-:
-:
 Thread
 &
 external_socket_thread
@@ -1039,9 +1036,6 @@ return
 server_
 ;
 }
-rtc
-:
-:
 Thread
 *
 queue
@@ -1105,9 +1099,6 @@ override
 void
 SetMessageQueue
 (
-rtc
-:
-:
 Thread
 *
 queue
@@ -1158,9 +1149,6 @@ SocketServer
 *
 server_
 ;
-rtc
-:
-:
 Thread
 *
 msg_queue_

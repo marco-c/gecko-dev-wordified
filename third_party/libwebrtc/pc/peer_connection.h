@@ -2056,9 +2056,6 @@ Close
 )
 override
 ;
-rtc
-:
-:
 Thread
 *
 signaling_thread
@@ -2076,9 +2073,6 @@ signaling_thread
 )
 ;
 }
-rtc
-:
-:
 Thread
 *
 network_thread
@@ -2096,9 +2090,6 @@ network_thread
 )
 ;
 }
-rtc
-:
-:
 Thread
 *
 worker_thread

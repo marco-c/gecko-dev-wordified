@@ -701,9 +701,6 @@ override
 {
 signaling_thread_
 =
-rtc
-:
-:
 Thread
 :
 :
@@ -753,9 +750,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 signaling_thread_
@@ -1284,9 +1278,6 @@ override
 {
 signaling_thread_
 =
-rtc
-:
-:
 Thread
 :
 :
@@ -1296,9 +1287,6 @@ Create
 ;
 worker_thread_
 =
-rtc
-:
-:
 Thread
 :
 :
@@ -1363,9 +1351,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 signaling_thread_
@@ -1375,9 +1360,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 worker_thread_

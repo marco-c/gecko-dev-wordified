@@ -5247,15 +5247,9 @@ dependencies
 SocketServer
 *
 socket_server
-rtc
-:
-:
 Thread
 *
 network_thread
-rtc
-:
-:
 Thread
 *
 worker_thread
@@ -6275,9 +6269,6 @@ msg
 }
 else
 {
-rtc
-:
-:
 Thread
 :
 :
@@ -6407,9 +6398,6 @@ msg
 }
 else
 {
-rtc
-:
-:
 Thread
 :
 :
@@ -7537,9 +7525,6 @@ fake_network_manager_
 =
 nullptr
 ;
-rtc
-:
-:
 Thread
 *
 network_thread_
@@ -8770,9 +8755,6 @@ get
 network_thread_
 (
 new
-rtc
-:
-:
 Thread
 (
 fss_
@@ -8784,9 +8766,6 @@ get
 )
 worker_thread_
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -10344,9 +10323,6 @@ server
 "
 )
 {
-rtc
-:
-:
 Thread
 *
 thread
@@ -10801,9 +10777,6 @@ data
 ;
 }
 }
-rtc
-:
-:
 Thread
 *
 network_thread
@@ -11957,9 +11930,6 @@ sdp_semantics_
 ;
 private
 :
-rtc
-:
-:
 AutoThread
 main_thread_
 ;
@@ -12034,9 +12004,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 network_thread_
@@ -12046,9 +12013,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 worker_thread_

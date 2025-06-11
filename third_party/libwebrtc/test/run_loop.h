@@ -320,9 +320,6 @@ class
 WorkerThread
 :
 public
-rtc
-:
-:
 Thread
 {
 public

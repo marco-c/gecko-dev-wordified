@@ -437,16 +437,10 @@ IsCurrent
 return
 true
 ;
-rtc
-:
-:
 Thread
 *
 current_thread
 =
-rtc
-:
-:
 ThreadManager
 :
 :

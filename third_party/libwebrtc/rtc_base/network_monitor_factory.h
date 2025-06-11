@@ -88,6 +88,15 @@ RTC_BASE_NETWORK_MONITOR_FACTORY_H_
 #
 define
 RTC_BASE_NETWORK_MONITOR_FACTORY_H_
+#
+include
+"
+rtc_base
+/
+network_monitor
+.
+h
+"
 namespace
 webrtc
 {
@@ -135,9 +144,6 @@ iOS
 SDK
 code
 .
-class
-NetworkMonitorInterface
-;
 /
 *
 *
@@ -179,6 +185,9 @@ NetworkMonitorFactory
 public
 :
 virtual
+webrtc
+:
+:
 NetworkMonitorInterface
 *
 CreateNetworkMonitor

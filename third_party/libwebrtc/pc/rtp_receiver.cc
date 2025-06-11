@@ -311,9 +311,6 @@ MediaStreamProxy
 :
 Create
 (
-rtc
-:
-:
 Thread
 :
 :

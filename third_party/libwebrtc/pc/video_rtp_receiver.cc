@@ -159,9 +159,6 @@ VideoRtpReceiver
 :
 VideoRtpReceiver
 (
-rtc
-:
-:
 Thread
 *
 worker_thread
@@ -205,9 +202,6 @@ VideoRtpReceiver
 :
 VideoRtpReceiver
 (
-rtc
-:
-:
 Thread
 *
 worker_thread
@@ -268,9 +262,6 @@ VideoTrack
 :
 Create
 (
-rtc
-:
-:
 Thread
 :
 :

@@ -1735,9 +1735,6 @@ thread_pool_
 .
 push_back
 (
-rtc
-:
-:
 PlatformThread
 :
 :

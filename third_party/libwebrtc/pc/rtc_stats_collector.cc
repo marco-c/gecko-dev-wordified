@@ -8604,9 +8604,6 @@ RTC_DCHECK_RUN_ON
 signaling_thread_
 )
 ;
-rtc
-:
-:
 Thread
 :
 :
@@ -8715,9 +8712,6 @@ RTC_DCHECK_RUN_ON
 signaling_thread_
 )
 ;
-rtc
-:
-:
 Thread
 :
 :
@@ -8782,9 +8776,6 @@ RTC_DCHECK_RUN_ON
 network_thread_
 )
 ;
-rtc
-:
-:
 Thread
 :
 :
@@ -9064,9 +9055,6 @@ RTC_DCHECK_RUN_ON
 network_thread_
 )
 ;
-rtc
-:
-:
 Thread
 :
 :
@@ -9678,9 +9666,6 @@ RTC_DCHECK_RUN_ON
 network_thread_
 )
 ;
-rtc
-:
-:
 Thread
 :
 :
@@ -9770,9 +9755,6 @@ RTC_DCHECK_RUN_ON
 network_thread_
 )
 ;
-rtc
-:
-:
 Thread
 :
 :
@@ -10013,9 +9995,6 @@ RTC_DCHECK_RUN_ON
 network_thread_
 )
 ;
-rtc
-:
-:
 Thread
 :
 :
@@ -10729,9 +10708,6 @@ RTC_DCHECK_RUN_ON
 signaling_thread_
 )
 ;
-rtc
-:
-:
 Thread
 :
 :
@@ -11602,9 +11578,6 @@ RTC_DCHECK_RUN_ON
 signaling_thread_
 )
 ;
-rtc
-:
-:
 Thread
 :
 :
@@ -11681,9 +11654,6 @@ RTC_DCHECK_RUN_ON
 signaling_thread_
 )
 ;
-rtc
-:
-:
 Thread
 :
 :
@@ -11739,9 +11709,6 @@ RTC_DCHECK_RUN_ON
 network_thread_
 )
 ;
-rtc
-:
-:
 Thread
 :
 :
@@ -11833,9 +11800,6 @@ RTC_DCHECK_RUN_ON
 network_thread_
 )
 ;
-rtc
-:
-:
 Thread
 :
 :
@@ -12626,9 +12590,6 @@ RTC_DCHECK_RUN_ON
 network_thread_
 )
 ;
-rtc
-:
-:
 Thread
 :
 :
@@ -13339,9 +13300,6 @@ RTC_DCHECK_RUN_ON
 network_thread_
 )
 ;
-rtc
-:
-:
 Thread
 :
 :
@@ -13991,9 +13949,6 @@ RTC_DCHECK_RUN_ON
 network_thread_
 )
 ;
-rtc
-:
-:
 Thread
 :
 :
@@ -14424,9 +14379,6 @@ BlockingCall
 &
 ]
 {
-rtc
-:
-:
 Thread
 :
 :
@@ -14864,9 +14816,6 @@ BlockingCall
 &
 ]
 {
-rtc
-:
-:
 Thread
 :
 :

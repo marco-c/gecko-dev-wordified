@@ -641,9 +641,6 @@ the
 network
 thread
 .
-rtc
-:
-:
 Thread
 *
 const

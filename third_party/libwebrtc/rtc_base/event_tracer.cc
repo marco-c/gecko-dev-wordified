@@ -1523,9 +1523,6 @@ now
 .
 logging_thread_
 =
-rtc
-:
-:
 PlatformThread
 :
 :
@@ -2226,9 +2223,6 @@ RTC_GUARDED_BY
 mutex_
 )
 ;
-rtc
-:
-:
 PlatformThread
 logging_thread_
 ;

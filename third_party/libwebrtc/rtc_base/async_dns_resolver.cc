@@ -1308,9 +1308,6 @@ thread_function
 ;
 #
 else
-rtc
-:
-:
 PlatformThread
 :
 :

@@ -130,9 +130,6 @@ config
 IceTransportInternal
 *
 ice_transport
-rtc
-:
-:
 Thread
 *
 thread

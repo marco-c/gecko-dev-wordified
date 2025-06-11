@@ -724,9 +724,6 @@ run_params
 void
 WaitUntilIceCandidatesGathered
 (
-rtc
-:
-:
 Thread
 *
 signaling_thread
@@ -735,9 +732,6 @@ signaling_thread
 void
 WaitUntilPeersAreConnected
 (
-rtc
-:
-:
 Thread
 *
 signaling_thread

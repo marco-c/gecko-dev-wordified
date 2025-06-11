@@ -365,9 +365,6 @@ thread
 .
 VideoRtpReceiver
 (
-rtc
-:
-:
 Thread
 *
 worker_thread
@@ -420,9 +417,6 @@ webrtc
 9480
 VideoRtpReceiver
 (
-rtc
-:
-:
 Thread
 *
 worker_thread
@@ -991,9 +985,6 @@ RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 signaling_thread_checker_
 ;
-rtc
-:
-:
 Thread
 *
 const

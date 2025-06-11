@@ -487,9 +487,6 @@ msg
 }
 private
 :
-rtc
-:
-:
 AutoThread
 main_thread
 ;

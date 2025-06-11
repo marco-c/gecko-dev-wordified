@@ -552,9 +552,6 @@ WillByDefault
 (
 Return
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -606,9 +603,6 @@ test
 RunLoop
 run_loop_
 ;
-rtc
-:
-:
 Thread
 network_thread_
 ;

@@ -627,7 +627,7 @@ webrtc
 DataChannelInterface
 *
 dc
-rtc
+webrtc
 :
 :
 Thread
@@ -1290,7 +1290,7 @@ DataChannelInterface
 const
 dc_
 ;
-rtc
+webrtc
 :
 :
 Thread
@@ -1623,7 +1623,7 @@ FLAGS_port
 auto
 signaling_thread
 =
-rtc
+webrtc
 :
 :
 Thread
@@ -2158,7 +2158,7 @@ FLAGS_packet_size
 auto
 signaling_thread
 =
-rtc
+webrtc
 :
 :
 Thread

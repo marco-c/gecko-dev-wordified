@@ -1364,9 +1364,6 @@ potential
 race
 conditions
 .
-rtc
-:
-:
 RaceChecker
 send_checker_
 ;

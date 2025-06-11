@@ -3391,7 +3391,7 @@ other
 /
 teardown
 .
-rtc
+webrtc
 :
 :
 Thread
@@ -7364,7 +7364,7 @@ VirtualSocketServer
 >
 ss_
 ;
-rtc
+webrtc
 :
 :
 AutoSocketServerThread
@@ -11243,7 +11243,7 @@ MIN_CONNECTION_LIFETIME
 1
 )
 ;
-rtc
+webrtc
 :
 :
 Thread
@@ -11304,7 +11304,7 @@ Prune
 (
 )
 ;
-rtc
+webrtc
 :
 :
 Thread
@@ -11500,7 +11500,7 @@ DEAD_CONNECTION_RECEIVE_TIMEOUT
 1
 )
 ;
-rtc
+webrtc
 :
 :
 Thread
@@ -11854,7 +11854,7 @@ before_last_receiving
 1
 )
 ;
-rtc
+webrtc
 :
 :
 Thread
@@ -12282,7 +12282,7 @@ DEAD_CONNECTION_RECEIVE_TIMEOUT
 1
 )
 ;
-rtc
+webrtc
 :
 :
 Thread
@@ -23694,7 +23694,7 @@ delay
 of
 100ms
 .
-rtc
+webrtc
 :
 :
 Thread
@@ -25619,7 +25619,7 @@ webrtc
 TestTurnServer
 turn_server2
 (
-rtc
+webrtc
 :
 :
 Thread
@@ -25775,7 +25775,7 @@ webrtc
 TestTurnServer
 turn_server3
 (
-rtc
+webrtc
 :
 :
 Thread
@@ -35333,7 +35333,7 @@ was
 not
 deleted
 .
-rtc
+webrtc
 :
 :
 Thread

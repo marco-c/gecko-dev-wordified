@@ -252,9 +252,6 @@ that
 are
 ready
 .
-rtc
-:
-:
 ThreadManager
 :
 :
@@ -280,9 +277,6 @@ AdvanceTime
 delta
 )
 ;
-rtc
-:
-:
 ThreadManager
 :
 :

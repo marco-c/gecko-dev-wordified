@@ -319,9 +319,6 @@ scoped_refptr
 VideoTrackSourceInterface
 >
 source
-rtc
-:
-:
 Thread
 *
 worker_thread
@@ -470,9 +467,6 @@ VideoTrackSourceInterface
 >
 >
 source
-rtc
-:
-:
 Thread
 *
 worker_thread
@@ -504,9 +498,6 @@ RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 signaling_thread_
 ;
-rtc
-:
-:
 Thread
 *
 const

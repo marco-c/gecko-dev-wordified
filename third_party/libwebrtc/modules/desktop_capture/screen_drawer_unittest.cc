@@ -583,9 +583,6 @@ ctor
 auto
 lock_thread
 =
-rtc
-:
-:
 PlatformThread
 :
 :

@@ -395,9 +395,6 @@ thread
 .
 AudioRtpReceiver
 (
-rtc
-:
-:
 Thread
 *
 worker_thread
@@ -457,9 +454,6 @@ removed
 .
 AudioRtpReceiver
 (
-rtc
-:
-:
 Thread
 *
 worker_thread
@@ -919,9 +913,6 @@ RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 signaling_thread_checker_
 ;
-rtc
-:
-:
 Thread
 *
 const

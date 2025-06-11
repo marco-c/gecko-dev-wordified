@@ -973,7 +973,7 @@ webrtc
 TaskQueueBase
 *
 worker_thread
-rtc
+webrtc
 :
 :
 Thread
@@ -6022,7 +6022,7 @@ webrtc
 TaskQueueBase
 *
 worker_thread
-rtc
+webrtc
 :
 :
 Thread
@@ -6954,7 +6954,7 @@ webrtc
 TaskQueueBase
 *
 worker_thread
-rtc
+webrtc
 :
 :
 Thread

@@ -461,7 +461,7 @@ webrtc
 PortAllocator
 *
 allocator
-rtc
+webrtc
 :
 :
 Thread
@@ -1203,7 +1203,7 @@ PortAllocator
 *
 allocator_
 ;
-rtc
+webrtc
 :
 :
 Thread
@@ -1335,7 +1335,7 @@ public
 :
 FakePortAllocator
 (
-rtc
+webrtc
 :
 :
 Thread
@@ -1367,7 +1367,7 @@ field_trials
 }
 FakePortAllocator
 (
-rtc
+webrtc
 :
 :
 Thread
@@ -1531,7 +1531,7 @@ private
 :
 FakePortAllocator
 (
-rtc
+webrtc
 :
 :
 Thread
@@ -1593,7 +1593,7 @@ nullptr
 {
 network_thread_
 =
-rtc
+webrtc
 :
 :
 Thread
@@ -1625,7 +1625,7 @@ Initialize
 )
 ;
 }
-rtc
+webrtc
 :
 :
 Thread

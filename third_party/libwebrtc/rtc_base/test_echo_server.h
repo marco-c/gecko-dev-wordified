@@ -242,9 +242,6 @@ public
 :
 TestEchoServer
 (
-rtc
-:
-:
 Thread
 *
 thread
@@ -511,9 +508,6 @@ might
 be
 unsafe
 .
-rtc
-:
-:
 Thread
 :
 :

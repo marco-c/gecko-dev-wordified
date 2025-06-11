@@ -1091,9 +1091,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 PlatformThread
 >
 thread_pool_

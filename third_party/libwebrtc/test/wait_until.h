@@ -518,9 +518,6 @@ clock
 {
 RTC_CHECK
 (
-rtc
-:
-:
 Thread
 :
 :

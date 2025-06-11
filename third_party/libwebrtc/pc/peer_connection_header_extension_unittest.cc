@@ -585,9 +585,6 @@ factory_dependencies
 .
 network_thread
 =
-rtc
-:
-:
 Thread
 :
 :
@@ -599,9 +596,6 @@ factory_dependencies
 .
 worker_thread
 =
-rtc
-:
-:
 Thread
 :
 :
@@ -613,9 +607,6 @@ factory_dependencies
 .
 signaling_thread
 =
-rtc
-:
-:
 Thread
 :
 :
@@ -685,9 +676,6 @@ cricket
 FakePortAllocator
 >
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -862,9 +850,6 @@ SocketServer
 >
 socket_server_
 ;
-rtc
-:
-:
 AutoSocketServerThread
 main_thread_
 ;

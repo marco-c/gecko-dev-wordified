@@ -340,6 +340,9 @@ Thread
 "
 <
 <
+webrtc
+:
+:
 Thread
 :
 :
@@ -439,6 +442,9 @@ Thread
 "
 <
 <
+webrtc
+:
+:
 Thread
 :
 :
@@ -466,6 +472,9 @@ Thread
 "
 <
 <
+webrtc
+:
+:
 Thread
 :
 :
@@ -879,10 +888,16 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 Thread
 >
 thread
 (
+webrtc
+:
+:
 Thread
 :
 :
@@ -968,6 +983,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 Thread
 >
 >
@@ -1216,6 +1234,9 @@ id
 ;
 thread_
 =
+webrtc
+:
+:
 PlatformThread
 :
 :
@@ -1285,6 +1306,9 @@ my_id_
 ;
 }
 private
+:
+webrtc
+:
 :
 PlatformThread
 thread_

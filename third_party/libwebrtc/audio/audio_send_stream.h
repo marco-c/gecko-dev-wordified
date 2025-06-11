@@ -999,9 +999,6 @@ env_
 SequenceChecker
 worker_thread_checker_
 ;
-rtc
-:
-:
 RaceChecker
 audio_capture_race_checker_
 ;

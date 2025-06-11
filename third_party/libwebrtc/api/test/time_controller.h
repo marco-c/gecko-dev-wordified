@@ -365,9 +365,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 CreateThread
@@ -417,9 +414,6 @@ current
 thread
 .
 virtual
-rtc
-:
-:
 Thread
 *
 GetMainThread

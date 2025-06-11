@@ -118,7 +118,7 @@ FifoBufferTest
 TestAll
 )
 {
-rtc
+webrtc
 :
 :
 AutoThread
@@ -2315,7 +2315,7 @@ FifoBufferTest
 FullBufferCheck
 )
 {
-rtc
+webrtc
 :
 :
 AutoThread

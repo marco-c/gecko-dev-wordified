@@ -396,13 +396,13 @@ webrtc
 SocketServer
 *
 socket_server
-rtc
+webrtc
 :
 :
 Thread
 *
 network_thread
-rtc
+webrtc
 :
 :
 Thread
@@ -1069,7 +1069,7 @@ SocketServer
 const
 socket_server_
 ;
-rtc
+webrtc
 :
 :
 Thread
@@ -1077,7 +1077,7 @@ Thread
 const
 network_thread_
 ;
-rtc
+webrtc
 :
 :
 Thread

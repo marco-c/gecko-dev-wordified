@@ -291,9 +291,6 @@ nullptr
 }
 protected
 :
-rtc
-:
-:
 AutoThread
 main_thread_
 ;

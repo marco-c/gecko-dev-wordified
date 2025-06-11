@@ -4966,9 +4966,6 @@ srtp_crypto_suite
 }
 private
 :
-rtc
-:
-:
 AutoThread
 main_thread_
 ;
@@ -5356,9 +5353,6 @@ FakeVideoTrackSource
 Create
 (
 )
-rtc
-:
-:
 Thread
 :
 :
@@ -5482,9 +5476,6 @@ FakeVideoTrackSource
 Create
 (
 )
-rtc
-:
-:
 Thread
 :
 :
@@ -6150,9 +6141,6 @@ StatsCollectionTest
 DetachAndMergeThreaded
 )
 {
-rtc
-:
-:
 Thread
 new_thread
 (

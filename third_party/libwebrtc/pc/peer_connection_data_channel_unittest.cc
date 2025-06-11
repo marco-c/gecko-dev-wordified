@@ -390,9 +390,6 @@ deps
 .
 network_thread
 =
-rtc
-:
-:
 Thread
 :
 :
@@ -404,9 +401,6 @@ deps
 .
 worker_thread
 =
-rtc
-:
-:
 Thread
 :
 :
@@ -418,9 +412,6 @@ deps
 .
 signaling_thread
 =
-rtc
-:
-:
 Thread
 :
 :
@@ -1007,9 +998,6 @@ VirtualSocketServer
 >
 vss_
 ;
-rtc
-:
-:
 AutoSocketServerThread
 main_
 ;

@@ -4179,6 +4179,9 @@ defined
 (
 WEBRTC_POSIX
 )
+webrtc
+:
+:
 NetworkMonitorInterface
 :
 :
@@ -4224,6 +4227,9 @@ ADAPTER_TYPE_UNKNOWN
 .
 network_preference
 =
+webrtc
+:
+:
 NetworkPreference
 :
 :
@@ -4278,6 +4284,9 @@ ADAPTER_TYPE_UNKNOWN
 .
 network_preference
 =
+webrtc
+:
+:
 NetworkPreference
 :
 :
@@ -4823,6 +4832,9 @@ a
 new
 network
 .
+webrtc
+:
+:
 NetworkMonitorInterface
 :
 :
@@ -6598,6 +6610,9 @@ StartUpdating
 {
 thread_
 =
+webrtc
+:
+:
 Thread
 :
 :
@@ -7482,6 +7497,9 @@ Ignored
 ;
 }
 }
+webrtc
+:
+:
 NetworkBindingResult
 BasicNetworkManager
 :

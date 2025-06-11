@@ -2371,9 +2371,6 @@ NATSocketServer
 :
 SetMessageQueue
 (
-rtc
-:
-:
 Thread
 *
 queue
@@ -2555,9 +2552,6 @@ const
 SocketAddress
 &
 int_ip
-rtc
-:
-:
 Thread
 &
 external_socket_thread

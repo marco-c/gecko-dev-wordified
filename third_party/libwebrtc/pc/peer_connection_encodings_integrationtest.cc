@@ -1595,9 +1595,6 @@ std
 :
 make_unique
 <
-rtc
-:
-:
 Thread
 >
 (
@@ -3194,9 +3191,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 background_thread_
@@ -9882,9 +9876,6 @@ be
 enough
 )
 .
-rtc
-:
-:
 Thread
 :
 :
@@ -10216,9 +10207,6 @@ be
 enough
 )
 .
-rtc
-:
-:
 Thread
 :
 :
@@ -10653,9 +10641,6 @@ the
 expected
 target
 .
-rtc
-:
-:
 Thread
 :
 :
@@ -11136,9 +11121,6 @@ the
 expected
 target
 .
-rtc
-:
-:
 Thread
 :
 :
@@ -20128,9 +20110,6 @@ be
 enough
 )
 .
-rtc
-:
-:
 Thread
 :
 :

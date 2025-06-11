@@ -1485,9 +1485,6 @@ current
 )
 current
 =
-rtc
-:
-:
 ThreadManager
 :
 :

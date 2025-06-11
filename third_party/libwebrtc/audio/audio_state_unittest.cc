@@ -3207,9 +3207,6 @@ needs
 a
 thread
 .
-rtc
-:
-:
 ThreadManager
 :
 :
@@ -3288,9 +3285,6 @@ needs
 a
 thread
 .
-rtc
-:
-:
 ThreadManager
 :
 :
@@ -3525,9 +3519,6 @@ needs
 a
 thread
 .
-rtc
-:
-:
 ThreadManager
 :
 :

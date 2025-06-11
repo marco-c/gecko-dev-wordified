@@ -2511,7 +2511,7 @@ webrtc
 ScopedTaskSafety
 task_safety_
 ;
-rtc
+webrtc
 :
 :
 Thread
@@ -2519,7 +2519,7 @@ Thread
 const
 thread_
 =
-rtc
+webrtc
 :
 :
 Thread
@@ -2896,7 +2896,7 @@ err
 )
 ;
 }
-rtc
+webrtc
 :
 :
 Thread
@@ -2904,7 +2904,7 @@ Thread
 const
 thread_
 =
-rtc
+webrtc
 :
 :
 Thread
@@ -6172,7 +6172,7 @@ GetIdentityForTesting
 )
 ;
 }
-rtc
+webrtc
 :
 :
 AutoThread

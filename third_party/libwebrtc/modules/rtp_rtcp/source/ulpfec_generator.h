@@ -687,9 +687,6 @@ const
 int
 ulpfec_payload_type_
 ;
-rtc
-:
-:
 RaceChecker
 race_checker_
 ;

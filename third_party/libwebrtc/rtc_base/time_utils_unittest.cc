@@ -168,9 +168,6 @@ TimeMillis
 (
 )
 ;
-rtc
-:
-:
 Thread
 :
 :
@@ -1419,16 +1416,10 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 worker
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -1534,9 +1525,6 @@ it
 was
 started
 .
-rtc
-:
-:
 Thread
 :
 :

@@ -513,9 +513,6 @@ SocketReader
 Socket
 *
 socket
-rtc
-:
-:
 Thread
 *
 network_thread
@@ -651,9 +648,6 @@ Socket
 const
 socket_
 ;
-rtc
-:
-:
 Thread
 *
 const
@@ -1719,9 +1713,6 @@ bob_endpoint
 }
 )
 ;
-rtc
-:
-:
 Thread
 *
 t1
@@ -1733,9 +1724,6 @@ network_thread
 (
 )
 ;
-rtc
-:
-:
 Thread
 *
 t2
@@ -3102,9 +3090,6 @@ bob_endpoint
 }
 )
 ;
-rtc
-:
-:
 Thread
 *
 t1
@@ -3116,9 +3101,6 @@ network_thread
 (
 )
 ;
-rtc
-:
-:
 Thread
 *
 t2
@@ -3811,9 +3793,6 @@ bob_endpoint
 }
 )
 ;
-rtc
-:
-:
 Thread
 *
 t1
@@ -3825,9 +3804,6 @@ network_thread
 (
 )
 ;
-rtc
-:
-:
 Thread
 *
 t2
@@ -4642,9 +4618,6 @@ bob_endpoint
 }
 )
 ;
-rtc
-:
-:
 Thread
 *
 t1
@@ -4656,9 +4629,6 @@ network_thread
 (
 )
 ;
-rtc
-:
-:
 Thread
 *
 t2

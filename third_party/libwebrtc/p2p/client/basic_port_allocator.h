@@ -860,7 +860,7 @@ allocator
 (
 )
 ;
-rtc
+webrtc
 :
 :
 Thread
@@ -2015,7 +2015,7 @@ BasicPortAllocator
 *
 allocator_
 ;
-rtc
+webrtc
 :
 :
 Thread

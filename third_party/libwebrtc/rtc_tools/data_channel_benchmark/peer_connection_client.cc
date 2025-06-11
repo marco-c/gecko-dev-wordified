@@ -996,9 +996,6 @@ PeerConnectionClient
 :
 CreateDefaultFactory
 (
-rtc
-:
-:
 Thread
 *
 signaling_thread

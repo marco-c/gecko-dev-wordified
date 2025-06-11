@@ -795,9 +795,6 @@ RtpSenderReceiverTest
 :
 network_thread_
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -807,9 +804,6 @@ Current
 )
 worker_thread_
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -1444,9 +1438,6 @@ Create
 (
 kVideoTrackId
 source
-rtc
-:
-:
 Thread
 :
 :
@@ -2131,9 +2122,6 @@ make_ref_counted
 AudioRtpReceiver
 >
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -2215,9 +2203,6 @@ make_ref_counted
 VideoRtpReceiver
 >
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -2367,9 +2352,6 @@ make_ref_counted
 VideoRtpReceiver
 >
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -3269,9 +3251,6 @@ Create
 CreateEnvironment
 (
 )
-rtc
-:
-:
 Thread
 :
 :
@@ -3744,17 +3723,11 @@ test
 RunLoop
 run_loop_
 ;
-rtc
-:
-:
 Thread
 *
 const
 network_thread_
 ;
-rtc
-:
-:
 Thread
 *
 const

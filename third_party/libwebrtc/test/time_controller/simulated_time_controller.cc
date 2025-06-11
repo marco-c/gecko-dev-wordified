@@ -386,9 +386,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 SimulatedTimeControllerImpl
@@ -1275,9 +1272,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 GlobalSimulatedTimeController
@@ -1318,9 +1312,6 @@ socket_server
 )
 ;
 }
-rtc
-:
-:
 Thread
 *
 GlobalSimulatedTimeController

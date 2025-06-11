@@ -269,9 +269,6 @@ loop
 void
 SetMessageQueue
 (
-rtc
-:
-:
 Thread
 *
 thread
@@ -331,9 +328,6 @@ endpoints_container_
 Event
 wakeup_
 ;
-rtc
-:
-:
 Thread
 *
 thread_

@@ -592,9 +592,6 @@ callback
 thread
 otherwise
 .
-rtc
-:
-:
 RaceChecker
 capture_checker_
 ;

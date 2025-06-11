@@ -340,13 +340,6 @@ weak_ptr
 h
 "
 namespace
-rtc
-{
-class
-Thread
-;
-}
-namespace
 webrtc
 {
 /
@@ -1650,9 +1643,6 @@ const
 ;
 private
 :
-rtc
-:
-:
 Thread
 *
 signaling_thread
@@ -1669,9 +1659,6 @@ signaling_thread
 )
 ;
 }
-rtc
-:
-:
 Thread
 *
 worker_thread

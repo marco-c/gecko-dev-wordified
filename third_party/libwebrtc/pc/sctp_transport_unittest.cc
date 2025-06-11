@@ -963,9 +963,6 @@ internal
 )
 ;
 }
-rtc
-:
-:
 AutoThread
 main_thread_
 ;
@@ -998,9 +995,6 @@ SctpTransportSimpleTest
 CreateClearDelete
 )
 {
-rtc
-:
-:
 AutoThread
 main_thread
 ;

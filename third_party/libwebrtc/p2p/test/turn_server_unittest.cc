@@ -330,9 +330,6 @@ protected
 VirtualSocketServer
 vss_
 ;
-rtc
-:
-:
 AutoSocketServerThread
 thread_
 ;

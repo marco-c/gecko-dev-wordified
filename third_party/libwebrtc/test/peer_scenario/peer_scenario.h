@@ -954,9 +954,6 @@ log_writer_manager_
 NetworkEmulationManagerImpl
 net_
 ;
-rtc
-:
-:
 Thread
 *
 const

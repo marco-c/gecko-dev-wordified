@@ -667,7 +667,7 @@ std
 :
 make_unique
 <
-rtc
+webrtc
 :
 :
 Thread
@@ -679,7 +679,7 @@ pss_
 )
 worker_thread_
 (
-rtc
+webrtc
 :
 :
 Thread
@@ -1833,7 +1833,7 @@ IsRtcOk
 }
 protected
 :
-rtc
+webrtc
 :
 :
 AutoThread
@@ -1850,7 +1850,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 Thread
@@ -1862,7 +1862,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 Thread
@@ -5660,7 +5660,7 @@ and
 be
 destroyed
 .
-rtc
+webrtc
 :
 :
 Thread

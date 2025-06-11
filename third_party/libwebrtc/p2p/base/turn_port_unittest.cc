@@ -7554,7 +7554,7 @@ TurnPortTestVirtualSocketServer
 >
 ss_
 ;
-rtc
+webrtc
 :
 :
 AutoSocketServerThread
@@ -15798,7 +15798,7 @@ reset
 (
 )
 ;
-rtc
+webrtc
 :
 :
 Thread

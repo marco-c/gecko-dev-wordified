@@ -137,7 +137,7 @@ MicroGeckoProfiler
 h
 "
 namespace
-rtc
+webrtc
 {
 namespace
 {
@@ -1405,4 +1405,4 @@ joinable
 /
 /
 namespace
-rtc
+webrtc

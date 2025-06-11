@@ -353,9 +353,6 @@ peers
 .
 TestPeerFactory
 (
-rtc
-:
-:
 Thread
 *
 signaling_thread
@@ -386,9 +383,6 @@ ABSL_DEPRECATE_AND_INLINE
 )
 TestPeerFactory
 (
-rtc
-:
-:
 Thread
 *
 signaling_thread
@@ -493,9 +487,6 @@ echo_emulation_config
 )
 ;
 private
-:
-rtc
-:
 :
 Thread
 *

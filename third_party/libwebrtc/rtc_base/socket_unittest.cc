@@ -5081,9 +5081,6 @@ a
 single
 signal
 .
-rtc
-:
-:
 Thread
 :
 :
@@ -5996,9 +5993,6 @@ the
 same
 time
 .
-rtc
-:
-:
 Thread
 :
 :
@@ -6549,16 +6543,10 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 thread
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -6582,9 +6570,6 @@ BlockingCall
 [
 ]
 {
-rtc
-:
-:
 Thread
 :
 :
@@ -8403,9 +8388,6 @@ buf
 )
 )
 ;
-rtc
-:
-:
 Thread
 :
 :
@@ -10379,9 +10361,6 @@ kTimeBetweenPacketsMs
 =
 100
 ;
-rtc
-:
-:
 Thread
 :
 :
@@ -10737,9 +10716,6 @@ TimeMicros
 000
 )
 ;
-rtc
-:
-:
 Thread
 :
 :

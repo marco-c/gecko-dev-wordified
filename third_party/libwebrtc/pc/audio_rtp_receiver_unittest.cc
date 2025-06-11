@@ -292,9 +292,6 @@ AudioRtpReceiverTest
 :
 worker_
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -380,15 +377,9 @@ nullptr
 )
 ;
 }
-rtc
-:
-:
 AutoThread
 main_thread_
 ;
-rtc
-:
-:
 Thread
 *
 worker_
@@ -732,9 +723,6 @@ auto
 *
 thread
 =
-rtc
-:
-:
 Thread
 :
 :

@@ -216,9 +216,6 @@ std
 :
 make_unique
 <
-rtc
-:
-:
 Thread
 >
 (

@@ -15240,9 +15240,6 @@ return
 {
 }
 ;
-rtc
-:
-:
 Thread
 :
 :
@@ -16441,9 +16438,6 @@ worker_thread
 )
 )
 ;
-rtc
-:
-:
 Thread
 :
 :
@@ -18065,9 +18059,6 @@ ReportTransportStats
 "
 )
 ;
-rtc
-:
-:
 Thread
 :
 :

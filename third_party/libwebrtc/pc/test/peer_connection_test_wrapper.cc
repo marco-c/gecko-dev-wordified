@@ -1095,13 +1095,13 @@ webrtc
 SocketServer
 *
 socket_server
-rtc
+webrtc
 :
 :
 Thread
 *
 network_thread
-rtc
+webrtc
 :
 :
 Thread
@@ -1413,7 +1413,7 @@ CreatePeerConnectionFactory
 (
 network_thread_
 worker_thread_
-rtc
+webrtc
 :
 :
 Thread

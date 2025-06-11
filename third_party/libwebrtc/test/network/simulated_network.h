@@ -858,9 +858,6 @@ the
 packet
 queues
 .
-rtc
-:
-:
 RaceChecker
 process_checker_
 ;

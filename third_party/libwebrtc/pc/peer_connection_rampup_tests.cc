@@ -1290,9 +1290,6 @@ firewall_socket_server_
 )
 worker_thread_
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -1450,9 +1447,6 @@ pcf_deps
 .
 signaling_thread
 =
-rtc
-:
-:
 Thread
 :
 :
@@ -2019,9 +2013,6 @@ server
 "
 )
 {
-rtc
-:
-:
 Thread
 *
 thread
@@ -2184,9 +2175,6 @@ string
 test_string
 )
 {
-rtc
-:
-:
 Thread
 :
 :
@@ -2232,9 +2220,6 @@ number_of_polls
 i
 )
 {
-rtc
-:
-:
 Thread
 :
 :
@@ -2318,9 +2303,6 @@ kNeitherIsBetter
 )
 ;
 }
-rtc
-:
-:
 Thread
 *
 network_thread
@@ -2819,9 +2801,6 @@ virtual_socket_server_
 FirewallSocketServer
 firewall_socket_server_
 ;
-rtc
-:
-:
 Thread
 network_thread_
 ;
@@ -2830,9 +2809,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 worker_thread_

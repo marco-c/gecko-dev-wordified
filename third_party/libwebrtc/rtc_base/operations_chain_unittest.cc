@@ -252,6 +252,9 @@ OperationTracker
 :
 background_thread_
 (
+webrtc
+:
+:
 Thread
 :
 :
@@ -667,10 +670,16 @@ void
 callback
 )
 {
+webrtc
+:
+:
 Thread
 *
 current_thread
 =
+webrtc
+:
+:
 Thread
 :
 :
@@ -750,6 +759,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 Thread
 >
 background_thread_
@@ -811,6 +823,9 @@ OperationTrackerProxy
 :
 operations_chain_thread_
 (
+webrtc
+:
+:
 Thread
 :
 :
@@ -1419,6 +1434,9 @@ std
 :
 unique_ptr
 <
+webrtc
+:
+:
 Thread
 >
 operations_chain_thread_
@@ -2679,7 +2697,7 @@ OperationsChainTest
 OnChainEmptyCallback
 )
 {
-rtc
+webrtc
 :
 :
 AutoThread

@@ -281,9 +281,6 @@ TaskQueueBase
 *
 network_thread
 =
-rtc
-:
-:
 Thread
 :
 :
@@ -349,9 +346,6 @@ TaskQueueBase
 *
 network_thread
 =
-rtc
-:
-:
 Thread
 :
 :
@@ -453,9 +447,6 @@ VideoRtpReceiverTest
 :
 worker_thread_
 (
-rtc
-:
-:
 Thread
 :
 :
@@ -644,9 +635,6 @@ GetSource
 )
 ;
 }
-rtc
-:
-:
 AutoThread
 main_thread_
 ;
@@ -655,9 +643,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 worker_thread_

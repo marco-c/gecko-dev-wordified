@@ -1845,9 +1845,6 @@ is
 still
 sequential
 .
-rtc
-:
-:
 RaceChecker
 audio_thread_race_checker_
 ;

@@ -129,7 +129,7 @@ gmock
 h
 "
 namespace
-rtc
+webrtc
 {
 TEST
 (
@@ -223,9 +223,6 @@ empty
 )
 )
 ;
-webrtc
-:
-:
 Event
 done
 ;
@@ -280,9 +277,6 @@ done
 .
 Wait
 (
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -384,9 +378,6 @@ empty
 )
 )
 ;
-webrtc
-:
-:
 Event
 done
 ;
@@ -445,9 +436,6 @@ done
 .
 Wait
 (
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -635,9 +623,6 @@ the
 join
 implementation
 .
-webrtc
-:
-:
 Event
 event
 ;
@@ -674,9 +659,6 @@ give_up_after
 =
 *
 /
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -715,21 +697,12 @@ flag
 =
 false
 ;
-webrtc
-:
-:
 Event
 thread_started
 ;
-webrtc
-:
-:
 Event
 thread_continue
 ;
-webrtc
-:
-:
 Event
 thread_exiting
 ;
@@ -752,9 +725,6 @@ thread_continue
 .
 Wait
 (
-webrtc
-:
-:
 Event
 :
 :
@@ -781,9 +751,6 @@ thread_started
 .
 Wait
 (
-webrtc
-:
-:
 Event
 :
 :
@@ -805,9 +772,6 @@ thread_exiting
 .
 Wait
 (
-webrtc
-:
-:
 Event
 :
 :
@@ -824,4 +788,4 @@ flag
 /
 /
 namespace
-rtc
+webrtc

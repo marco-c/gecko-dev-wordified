@@ -894,9 +894,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 thread

@@ -1361,9 +1361,6 @@ FirewallSocketServer
 :
 SetMessageQueue
 (
-rtc
-:
-:
 Thread
 *
 queue

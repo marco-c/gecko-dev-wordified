@@ -125,9 +125,6 @@ class
 SimulatedThread
 :
 public
-rtc
-:
-:
 Thread
 public
 sim_time_impl

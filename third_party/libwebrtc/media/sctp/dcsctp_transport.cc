@@ -1040,9 +1040,6 @@ const
 Environment
 &
 env
-rtc
-:
-:
 Thread
 *
 network_thread
@@ -1083,9 +1080,6 @@ const
 Environment
 &
 env
-rtc
-:
-:
 Thread
 *
 network_thread

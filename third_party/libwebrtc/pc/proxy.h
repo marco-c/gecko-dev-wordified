@@ -794,9 +794,6 @@ args
 R
 Marshal
 (
-rtc
-:
-:
 Thread
 *
 t
@@ -1055,9 +1052,6 @@ args
 R
 Marshal
 (
-rtc
-:
-:
 Thread
 *
 t

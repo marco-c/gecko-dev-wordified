@@ -709,17 +709,11 @@ EmulatedNetworkManagerInterface
 const
 manager_
 ;
-rtc
-:
-:
 Thread
 *
 const
 signaling_thread_
 ;
-rtc
-:
-:
 Thread
 *
 const
@@ -926,9 +920,6 @@ endpoint_
 )
 signaling_thread_
 (
-rtc
-:
-:
 Thread
 :
 :

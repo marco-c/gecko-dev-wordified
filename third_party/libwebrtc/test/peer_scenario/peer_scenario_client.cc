@@ -1635,9 +1635,6 @@ PeerScenarioClient
 NetworkEmulationManager
 *
 net
-rtc
-:
-:
 Thread
 *
 signaling_thread

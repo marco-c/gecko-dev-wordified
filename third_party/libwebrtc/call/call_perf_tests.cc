@@ -5674,9 +5674,6 @@ SetConfig
 pipe_config
 )
 ;
-rtc
-:
-:
 Thread
 :
 :
@@ -5746,9 +5743,6 @@ call_stats
 .
 rtt_ms
 ;
-rtc
-:
-:
 Thread
 :
 :

@@ -2360,9 +2360,6 @@ current_time
 ;
 }
 }
-rtc
-:
-:
 Thread
 :
 :

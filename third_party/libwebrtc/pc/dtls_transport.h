@@ -480,9 +480,6 @@ observer_
 =
 nullptr
 ;
-rtc
-:
-:
 Thread
 *
 owner_thread_

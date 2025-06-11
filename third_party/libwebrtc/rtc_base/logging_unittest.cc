@@ -1622,9 +1622,6 @@ Start
 {
 thread_
 =
-rtc
-:
-:
 PlatformThread
 :
 :
@@ -1651,9 +1648,6 @@ LogThread
 ;
 }
 private
-:
-rtc
-:
 :
 PlatformThread
 thread_

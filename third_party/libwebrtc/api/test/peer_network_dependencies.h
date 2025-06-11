@@ -177,9 +177,6 @@ absl
 :
 Nonnull
 <
-rtc
-:
-:
 Thread
 *
 >

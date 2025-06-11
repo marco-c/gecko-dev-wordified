@@ -532,6 +532,9 @@ class
 FakeNetworkMonitor
 :
 public
+webrtc
+:
+:
 NetworkMonitorInterface
 {
 public
@@ -697,6 +700,9 @@ return
 true
 ;
 }
+webrtc
+:
+:
 NetworkBindingResult
 BindSocketToNetwork
 (
@@ -732,6 +738,9 @@ address
 )
 {
 return
+webrtc
+:
+:
 NetworkBindingResult
 :
 :
@@ -761,6 +770,9 @@ iter
 )
 {
 return
+webrtc
+:
+:
 NetworkBindingResult
 :
 :
@@ -769,6 +781,9 @@ SUCCESS
 }
 }
 return
+webrtc
+:
+:
 NetworkBindingResult
 :
 :
@@ -885,6 +900,9 @@ FakeNetworkMonitorFactory
 )
 {
 }
+webrtc
+:
+:
 NetworkMonitorInterface
 *
 CreateNetworkMonitor
@@ -2179,7 +2197,7 @@ test
 ScopedKeyValueConfig
 field_trials_
 ;
-rtc
+webrtc
 :
 :
 AutoThread
@@ -2976,6 +2994,9 @@ StartUpdating
 (
 )
 ;
+webrtc
+:
+:
 Thread
 :
 :
@@ -3034,6 +3055,9 @@ started
 )
 )
 ;
+webrtc
+:
+:
 Thread
 :
 :
@@ -3140,6 +3164,9 @@ StartUpdating
 (
 )
 ;
+webrtc
+:
+:
 Thread
 :
 :
@@ -12726,6 +12753,9 @@ fd
 77
 ipv6
 )
+webrtc
+:
+:
 NetworkBindingResult
 :
 :
@@ -12759,6 +12789,9 @@ fd
 77
 ipv4
 )
+webrtc
+:
+:
 NetworkBindingResult
 :
 :

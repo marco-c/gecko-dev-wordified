@@ -688,9 +688,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 CreateAndStartThread
@@ -700,9 +697,6 @@ CreateAndStartThread
 auto
 thread
 =
-rtc
-:
-:
 Thread
 :
 :
@@ -1112,9 +1106,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Thread
 >
 signaling_thread_
@@ -1129,9 +1120,6 @@ PeerConnectionFactoryInterface
 pc_factory_
 ;
 private
-:
-rtc
-:
 :
 AutoThread
 main_thread_

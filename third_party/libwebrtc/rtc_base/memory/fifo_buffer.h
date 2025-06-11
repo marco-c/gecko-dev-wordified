@@ -227,6 +227,9 @@ FifoBuffer
 (
 size_t
 length
+webrtc
+:
+:
 Thread
 *
 owner
@@ -903,6 +906,9 @@ dispatched
 on
 this
 thread
+webrtc
+:
+:
 Thread
 *
 const

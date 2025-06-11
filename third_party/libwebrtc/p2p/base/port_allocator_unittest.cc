@@ -308,7 +308,7 @@ cricket
 FakePortAllocator
 >
 (
-rtc
+webrtc
 :
 :
 Thread
@@ -616,7 +616,7 @@ VirtualSocketServer
 >
 vss_
 ;
-rtc
+webrtc
 :
 :
 AutoSocketServerThread

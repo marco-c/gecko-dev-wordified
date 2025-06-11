@@ -101,7 +101,7 @@ checks
 h
 "
 namespace
-rtc
+webrtc
 {
 const
 char
@@ -166,4 +166,4 @@ NetworkMonitorInterface
 /
 /
 namespace
-rtc
+webrtc

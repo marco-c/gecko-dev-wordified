@@ -3116,7 +3116,7 @@ AsyncDnsResolverFactoryInterface
 >
 owned_dns_resolver_factory_
 ;
-rtc
+webrtc
 :
 :
 Thread

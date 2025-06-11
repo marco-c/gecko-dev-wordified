@@ -2913,9 +2913,6 @@ from
 test
 contexts
 .
-rtc
-:
-:
 RaceChecker
 incoming_frame_race_checker_
 ;
