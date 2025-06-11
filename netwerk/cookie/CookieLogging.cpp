@@ -182,6 +182,17 @@ return
 strict
 "
 ;
+case
+nsICookie
+:
+:
+SAMESITE_UNSET
+:
+return
+"
+unset
+"
+;
 default
 :
 MOZ_CRASH
