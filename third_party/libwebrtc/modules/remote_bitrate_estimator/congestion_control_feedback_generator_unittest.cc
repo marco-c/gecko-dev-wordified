@@ -246,15 +246,6 @@ include
 "
 rtc_base
 /
-logging
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 network
 /
 ecn_marking
