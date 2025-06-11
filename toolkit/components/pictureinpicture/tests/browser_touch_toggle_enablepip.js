@@ -890,7 +890,7 @@ tiltY
 [
 twist
 ]
-false
+0
 /
 *
 modifiers
@@ -935,7 +935,7 @@ tiltY
 [
 twist
 ]
-false
+0
 /
 *
 modifiers
@@ -1102,7 +1102,7 @@ tiltY
 [
 twist
 ]
-false
+0
 /
 *
 modifiers
@@ -1147,7 +1147,7 @@ tiltY
 [
 twist
 ]
-false
+0
 /
 *
 modifiers
