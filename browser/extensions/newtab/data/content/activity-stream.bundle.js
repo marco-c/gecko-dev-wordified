@@ -25742,7 +25742,7 @@ faviconSize
 =
 refinedCardsLayout
 ?
-24
+20
 :
 16
 ;
