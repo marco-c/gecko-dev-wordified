@@ -6650,6 +6650,7 @@ key
 -
 frame
 .
+{
 std
 :
 :
@@ -6758,6 +6759,7 @@ value_or
 2
 )
 ;
+}
 /
 /
 Encode
@@ -8872,6 +8874,7 @@ key
 -
 frame
 .
+{
 std
 :
 :
@@ -9021,6 +9024,7 @@ maxFramerate
 )
 )
 ;
+}
 for
 (
 size_t
@@ -12996,6 +13000,7 @@ the
 last
 layer
 .
+{
 bitrate_allocation
 .
 SetBitrate
@@ -13096,6 +13101,7 @@ size
 3u
 )
 ;
+}
 /
 /
 Verify
