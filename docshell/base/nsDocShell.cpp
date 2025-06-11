@@ -23901,11 +23901,6 @@ Navigation
 (
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
-(
-navigation
-)
-;
 /
 /
 1
@@ -24067,6 +24062,9 @@ nullptr
 ;
 if
 (
+navigation
+&
+&
 !
 navigation
 -
@@ -62337,7 +62335,7 @@ GetInnerWindow
 /
 /
 Step
-20
+21
 .
 1
 if
@@ -62385,7 +62383,7 @@ GetSourceElement
 /
 /
 Step
-20
+21
 .
 2
 RefPtr
@@ -62404,7 +62402,7 @@ GetFormDataEntryList
 /
 /
 Step
-20
+21
 .
 3
 RefPtr
@@ -62447,7 +62445,7 @@ URI
 /
 /
 Step
-20
+21
 .
 4
 bool
@@ -62503,7 +62501,7 @@ nullptr
 /
 /
 Step
-20
+21
 .
 5
 if

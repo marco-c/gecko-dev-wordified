@@ -580,11 +580,6 @@ bool
 aRequireUserInteraction
 bool
 aUserActivation
-CallerType
-aCallerType
-ErrorResult
-&
-aRv
 )
 ;
 /
