@@ -45984,6 +45984,13 @@ aRoot
 nullptr
 &
 margin
+/
+*
+aScrollMargin
+=
+*
+/
+nullptr
 )
 ;
 const
@@ -110615,6 +110622,13 @@ aRoot
 nullptr
 &
 margin
+/
+*
+aScrollMargin
+=
+*
+/
+nullptr
 )
 ;
 if
