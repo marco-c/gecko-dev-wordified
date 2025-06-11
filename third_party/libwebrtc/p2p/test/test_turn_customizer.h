@@ -156,7 +156,7 @@ Number
 void
 MaybeModifyOutgoingStunMessage
 (
-cricket
+webrtc
 :
 :
 PortInterface
@@ -219,7 +219,7 @@ return
 bool
 AllowChannelData
 (
-cricket
+webrtc
 :
 :
 PortInterface

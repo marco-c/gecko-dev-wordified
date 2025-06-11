@@ -702,6 +702,9 @@ rtc
 AsyncPacketSocket
 *
 socket
+webrtc
+:
+:
 ProtocolType
 proto
 )
@@ -786,6 +789,9 @@ rtc
 Socket
 *
 socket
+webrtc
+:
+:
 ProtocolType
 proto
 std
@@ -3450,7 +3456,7 @@ iter
 second
 !
 =
-cricket
+webrtc
 :
 :
 PROTO_UDP
@@ -3646,6 +3652,9 @@ rtc
 SocketAddress
 &
 src
+webrtc
+:
+:
 ProtocolType
 proto
 rtc

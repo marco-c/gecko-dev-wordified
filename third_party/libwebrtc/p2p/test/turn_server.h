@@ -318,6 +318,9 @@ TurnServerConnection
 :
 proto_
 (
+webrtc
+:
+:
 PROTO_UDP
 )
 socket_
@@ -335,6 +338,9 @@ rtc
 SocketAddress
 &
 src
+webrtc
+:
+:
 ProtocolType
 proto
 rtc
@@ -419,7 +425,7 @@ rtc
 SocketAddress
 dst_
 ;
-cricket
+webrtc
 :
 :
 ProtocolType
@@ -1559,6 +1565,9 @@ rtc
 AsyncPacketSocket
 *
 socket
+webrtc
+:
+:
 ProtocolType
 proto
 )
@@ -1606,6 +1615,9 @@ rtc
 Socket
 *
 socket
+webrtc
+:
+:
 ProtocolType
 proto
 std
@@ -2112,6 +2124,9 @@ rtc
 :
 AsyncPacketSocket
 *
+webrtc
+:
+:
 ProtocolType
 >
 InternalSocketMap
@@ -2119,6 +2134,9 @@ InternalSocketMap
 struct
 ServerSocketInfo
 {
+webrtc
+:
+:
 ProtocolType
 proto
 ;

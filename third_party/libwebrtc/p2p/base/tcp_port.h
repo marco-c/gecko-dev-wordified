@@ -537,6 +537,9 @@ protocol
 const
 override
 ;
+webrtc
+:
+:
 ProtocolType
 GetProtocol
 (
@@ -1172,6 +1175,9 @@ port
 GetProtocol
 (
 )
+webrtc
+:
+:
 PROTO_TCP
 )
 ;

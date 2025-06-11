@@ -781,6 +781,9 @@ receiving
 const
 ;
 const
+webrtc
+:
+:
 PortInterface
 *
 port
@@ -2453,6 +2456,9 @@ for
 unit
 tests
 .
+webrtc
+:
+:
 PortInterface
 *
 PortForTest
@@ -2468,6 +2474,9 @@ get
 ;
 }
 const
+webrtc
+:
+:
 PortInterface
 *
 PortForTest
@@ -2719,6 +2728,9 @@ rtc
 :
 WeakPtr
 <
+webrtc
+:
+:
 PortInterface
 >
 port
@@ -2899,6 +2911,9 @@ and
 receives
 packets
 .
+webrtc
+:
+:
 PortInterface
 *
 port
@@ -3015,6 +3030,9 @@ rtc
 :
 WeakPtr
 <
+webrtc
+:
+:
 PortInterface
 >
 port_
@@ -3924,6 +3942,9 @@ rtc
 :
 WeakPtr
 <
+webrtc
+:
+:
 PortInterface
 >
 port

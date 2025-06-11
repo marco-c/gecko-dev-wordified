@@ -724,6 +724,9 @@ const
 Candidate
 &
 c
+webrtc
+:
+:
 PortInterface
 *
 origin_port
@@ -739,6 +742,9 @@ origin_port
 )
 {
 }
+webrtc
+:
+:
 PortInterface
 *
 origin_port
@@ -750,6 +756,9 @@ origin_port_
 ;
 }
 private
+:
+webrtc
+:
 :
 PortInterface
 *
@@ -1435,6 +1444,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 PortInterface
 *
 >
@@ -1458,6 +1470,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 PortInterface
 *
 >
@@ -2103,6 +2118,9 @@ const
 Candidate
 &
 remote_candidate
+webrtc
+:
+:
 PortInterface
 *
 origin_port
@@ -2111,6 +2129,9 @@ origin_port
 bool
 CreateConnection
 (
+webrtc
+:
+:
 PortInterface
 *
 port
@@ -2118,6 +2139,9 @@ const
 Candidate
 &
 remote_candidate
+webrtc
+:
+:
 PortInterface
 *
 origin_port
@@ -2158,6 +2182,9 @@ const
 Candidate
 &
 remote_candidate
+webrtc
+:
+:
 PortInterface
 *
 origin_port
@@ -2198,6 +2225,9 @@ OnPortReady
 PortAllocatorSession
 *
 session
+webrtc
+:
+:
 PortInterface
 *
 port
@@ -2215,6 +2245,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 PortInterface
 *
 >
@@ -2281,6 +2314,9 @@ session
 void
 OnUnknownAddress
 (
+webrtc
+:
+:
 PortInterface
 *
 port
@@ -2291,6 +2327,9 @@ rtc
 SocketAddress
 &
 addr
+webrtc
+:
+:
 ProtocolType
 proto
 IceMessage
@@ -2337,6 +2376,9 @@ pruned_ports_
 void
 OnPortDestroyed
 (
+webrtc
+:
+:
 PortInterface
 *
 port
@@ -2372,6 +2414,9 @@ ports_
 bool
 PrunePort
 (
+webrtc
+:
+:
 PortInterface
 *
 port
@@ -2380,6 +2425,9 @@ port
 void
 OnRoleConflict
 (
+webrtc
+:
+:
 PortInterface
 *
 port
@@ -2642,6 +2690,9 @@ bool
 IsPortPruned
 (
 const
+webrtc
+:
+:
 PortInterface
 *
 port
@@ -3024,6 +3075,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 PortInterface
 *
 >
@@ -3086,6 +3140,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 PortInterface
 *
 >

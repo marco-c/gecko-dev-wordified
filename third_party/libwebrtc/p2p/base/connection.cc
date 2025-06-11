@@ -1595,6 +1595,9 @@ rtc
 :
 WeakPtr
 <
+webrtc
+:
+:
 PortInterface
 >
 port
@@ -13216,6 +13219,9 @@ rtc
 :
 WeakPtr
 <
+webrtc
+:
+:
 PortInterface
 >
 port

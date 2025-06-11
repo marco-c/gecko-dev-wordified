@@ -830,6 +830,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 PortInterface
 *
 >
@@ -1132,7 +1135,7 @@ this
 void
 OnPortDestroyed
 (
-cricket
+webrtc
 :
 :
 PortInterface
@@ -1226,6 +1229,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 PortInterface
 *
 >

@@ -1448,15 +1448,9 @@ turn_servers
 nullptr
 )
 ;
-cricket
-:
-:
 ProtocolType
 turn_transport_type
 =
-cricket
-:
-:
 PROTO_UDP
 ;
 RTC_DCHECK
@@ -1632,9 +1626,6 @@ std
 :
 optional
 <
-cricket
-:
-:
 ProtocolType
 >
 proto
@@ -1661,9 +1652,6 @@ proto
 proto
 !
 =
-cricket
-:
-:
 PROTO_UDP
 &
 &
@@ -1671,9 +1659,6 @@ PROTO_UDP
 proto
 !
 =
-cricket
-:
-:
 PROTO_TCP
 )
 )
@@ -1883,9 +1868,6 @@ kDefaultStunTlsPort
 ;
 turn_transport_type
 =
-cricket
-:
-:
 PROTO_TLS
 ;
 }

@@ -383,9 +383,15 @@ rtc
 SocketAddress
 &
 udp_ext_addr
+webrtc
+:
+:
 ProtocolType
 int_protocol
 =
+webrtc
+:
+:
 PROTO_UDP
 bool
 ignore_bad_cert
@@ -576,6 +582,9 @@ rtc
 SocketAddress
 &
 int_addr
+webrtc
+:
+:
 ProtocolType
 proto
 bool
@@ -609,7 +618,7 @@ if
 proto
 =
 =
-cricket
+webrtc
 :
 :
 PROTO_UDP
@@ -640,7 +649,7 @@ if
 proto
 =
 =
-cricket
+webrtc
 :
 :
 PROTO_TCP
@@ -649,7 +658,7 @@ PROTO_TCP
 proto
 =
 =
-cricket
+webrtc
 :
 :
 PROTO_TLS
@@ -713,7 +722,7 @@ if
 proto
 =
 =
-cricket
+webrtc
 :
 :
 PROTO_TLS
