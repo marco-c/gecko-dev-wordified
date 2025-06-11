@@ -285,7 +285,7 @@ std
 vector
 ;
 namespace
-rtc
+webrtc
 {
 static
 const
@@ -2178,4 +2178,4 @@ success
 /
 /
 namespace
-rtc
+webrtc

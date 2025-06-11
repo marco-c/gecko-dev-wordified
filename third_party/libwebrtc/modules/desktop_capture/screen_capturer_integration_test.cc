@@ -1635,9 +1635,6 @@ std
 string
 result
 ;
-rtc
-:
-:
 Base64
 :
 :
