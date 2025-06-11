@@ -9989,7 +9989,7 @@ false
 }
 Connection
 *
-connection
+new_connection
 =
 port
 -
@@ -10003,7 +10003,7 @@ origin
 if
 (
 !
-connection
+new_connection
 )
 {
 return
@@ -10012,7 +10012,7 @@ false
 }
 AddConnection
 (
-connection
+new_connection
 )
 ;
 RTC_LOG

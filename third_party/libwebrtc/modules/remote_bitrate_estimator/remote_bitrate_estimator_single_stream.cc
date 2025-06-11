@@ -787,13 +787,6 @@ BandwidthUsage
 kBwOverusing
 )
 {
-std
-:
-:
-optional
-<
-DataRate
->
 incoming_bitrate
 =
 incoming_bitrate_

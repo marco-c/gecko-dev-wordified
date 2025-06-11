@@ -2356,7 +2356,6 @@ n
 '
 ;
 }
-int
 num_total_frames
 =
 stats

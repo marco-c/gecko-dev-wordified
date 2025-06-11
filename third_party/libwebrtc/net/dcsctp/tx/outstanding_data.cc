@@ -3478,14 +3478,14 @@ tsn
 for
 (
 UnwrappedTSN
-tsn
+tsn_to_nack
 :
 tsns_to_nack
 )
 {
 NackItem
 (
-tsn
+tsn_to_nack
 /
 *
 retransmit_now
