@@ -90,7 +90,7 @@ content
 /
 marionette
 /
-test
+test_no_xul
 .
 xhtml
 "
@@ -107,7 +107,7 @@ content
 /
 marionette
 /
-test_xul
+test
 .
 xhtml
 "

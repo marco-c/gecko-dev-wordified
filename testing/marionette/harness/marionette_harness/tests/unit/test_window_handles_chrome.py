@@ -102,7 +102,7 @@ content
 /
 marionette
 /
-test
+test_dialog
 .
 xhtml
 "
