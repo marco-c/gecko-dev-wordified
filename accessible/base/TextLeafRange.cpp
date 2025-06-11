@@ -16860,6 +16860,8 @@ SetSelection
 (
 int32_t
 aSelectionNum
+bool
+aSetFocus
 )
 const
 {
@@ -16982,6 +16984,7 @@ mEnd
 .
 mOffset
 aSelectionNum
+aSetFocus
 )
 ;
 return
@@ -17411,6 +17414,9 @@ bug
 .
 if
 (
+aSetFocus
+&
+&
 isFocusable
 )
 {
@@ -17695,6 +17701,9 @@ ScrollOverflowHidden
 ;
 if
 (
+aSetFocus
+&
+&
 mStart
 =
 =

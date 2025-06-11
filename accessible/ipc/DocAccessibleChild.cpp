@@ -1948,6 +1948,10 @@ const
 int32_t
 &
 aSelectionNum
+const
+bool
+&
+aSetFocus
 )
 {
 TextLeafRange
@@ -1981,6 +1985,7 @@ range
 SetSelection
 (
 aSelectionNum
+aSetFocus
 )
 ;
 }

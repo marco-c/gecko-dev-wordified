@@ -6748,6 +6748,12 @@ TextLeafRange
 :
 :
 kRemoveAllExistingSelectedRanges
+/
+*
+aSetFocus
+*
+/
+false
 )
 )
 {
@@ -6806,6 +6812,12 @@ SetSelection
 (
 -
 1
+/
+*
+aSetFocus
+*
+/
+false
 )
 )
 {
