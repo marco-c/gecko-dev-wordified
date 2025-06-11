@@ -1028,7 +1028,7 @@ navigate
 *
 we
 receive
-NETWORK_EVENT_STACKTRACE
+NETWOR_EVENT_STACKTRACE
 which
 are
 meant
