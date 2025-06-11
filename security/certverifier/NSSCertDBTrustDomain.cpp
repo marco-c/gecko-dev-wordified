@@ -11291,6 +11291,13 @@ srv
 }
 CollectThirdPartyPKCS11ModuleTelemetry
 (
+/
+*
+aIsInitialization
+=
+*
+/
+true
 )
 ;
 return

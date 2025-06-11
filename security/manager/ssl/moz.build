@@ -1098,6 +1098,12 @@ include
 /
 xpcom
 /
+base
+"
+"
+/
+xpcom
+/
 build
 "
 ]

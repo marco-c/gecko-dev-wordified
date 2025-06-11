@@ -209,6 +209,11 @@ nsMacPreferencesReader
 .
 h
 "
+"
+nsMacUtilsImpl
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +

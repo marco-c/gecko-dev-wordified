@@ -216,6 +216,10 @@ Module
 void
 CollectThirdPartyPKCS11ModuleTelemetry
 (
+bool
+aIsInitialization
+=
+false
 )
 ;
 }
