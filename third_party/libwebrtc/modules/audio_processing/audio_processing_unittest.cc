@@ -13575,7 +13575,7 @@ const
 int
 kMaxOutputAverageNear
 =
-kIntNear
+7
 ;
 #
 endif
