@@ -460,8 +460,6 @@ const
 OriginMetadata
 &
 aOriginMetadata
-int64_t
-aTimestamp
 )
 ;
 static
