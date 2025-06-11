@@ -98,6 +98,9 @@ stdint
 .
 h
 >
+namespace
+webrtc
+{
 /
 /
 Filter
@@ -182,6 +185,11 @@ chroma_error_threshold
 ;
 }
 ;
+}
+/
+/
+namespace
+webrtc
 #
 endif
 /
