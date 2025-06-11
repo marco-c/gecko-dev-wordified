@@ -66,7 +66,10 @@ dataclass
 from
 typing
 import
+Callable
 Dict
+Optional
+Union
 from
 .
 import
@@ -98,6 +101,7 @@ from
 .
 parameters
 import
+Parameters
 parameters_loader
 from
 .
@@ -759,10 +763,29 @@ __init__
 self
         
 root_dir
+:
+Optional
+[
+str
+]
         
 parameters
+:
+Union
+[
+Parameters
+Callable
+[
+[
+GraphConfig
+]
+Parameters
+]
+]
         
 decision_task_id
+:
+str
 =
 "
 DECISION
@@ -771,6 +794,8 @@ TASK
 "
         
 write_artifacts
+:
+bool
 =
 False
     

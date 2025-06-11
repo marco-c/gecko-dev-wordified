@@ -1322,10 +1322,8 @@ is
 specified
 .
         
-use_caches
+taskgraph_config
 =
-(
-            
 config
 .
 graph_config
@@ -1335,10 +1333,14 @@ get
 "
 taskgraph
 "
+)
+or
 {
 }
-)
-            
+        
+use_caches
+=
+taskgraph_config
 .
 get
 (
@@ -1348,7 +1350,6 @@ run
 {
 }
 )
-            
 .
 get
 (
@@ -1362,8 +1363,6 @@ caches
 checkout
 "
 ]
-)
-        
 )
     
 for
