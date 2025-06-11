@@ -352,6 +352,10 @@ target_fps
 TaskQueueFactory
 &
 task_queue_factory
+bool
+allow_zero_hertz
+=
+false
 )
 ;
 virtual
@@ -626,6 +630,16 @@ RTC_GUARDED_BY
 &
 lock_
 )
+;
+bool
+allow_zero_hertz_
+=
+false
+;
+int
+number_of_frames_skipped_
+=
+0
 ;
 std
 :
