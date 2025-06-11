@@ -1691,7 +1691,7 @@ stream_states_
 emplace
 (
 stream_index
-StreamState
+AnalyzerStreamState
 (
 peer_index
 frame_receivers_indexes
@@ -1701,7 +1701,7 @@ clock_
 )
 ;
 }
-StreamState
+AnalyzerStreamState
 *
 state
 =
@@ -2774,7 +2774,7 @@ Now
 (
 )
 ;
-StreamState
+AnalyzerStreamState
 &
 state
 =
@@ -4252,7 +4252,7 @@ stream
 (
 )
 ;
-StreamState
+AnalyzerStreamState
 *
 state
 =
@@ -6240,7 +6240,7 @@ state_entry
 .
 first
 ;
-StreamState
+AnalyzerStreamState
 &
 stream_state
 =
@@ -7335,7 +7335,7 @@ AddExistingFramesInFlightForStreamToComparator
 (
 size_t
 stream_index
-StreamState
+AnalyzerStreamState
 &
 stream_state
 size_t
@@ -7510,7 +7510,7 @@ const
 InternalStatsKey
 &
 stats_key
-StreamState
+AnalyzerStreamState
 &
 state
 )

@@ -113,7 +113,7 @@ array_view
 h
 "
 namespace
-rtc
+webrtc
 {
 /
 /
@@ -398,4 +398,4 @@ StreamInterface
 /
 /
 namespace
-rtc
+webrtc

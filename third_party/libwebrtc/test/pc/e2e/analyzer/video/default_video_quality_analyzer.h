@@ -974,7 +974,7 @@ AddExistingFramesInFlightForStreamToComparator
 (
 size_t
 stream_index
-StreamState
+AnalyzerStreamState
 &
 stream_state
 size_t
@@ -1055,7 +1055,7 @@ const
 InternalStatsKey
 &
 stats_key
-StreamState
+AnalyzerStreamState
 &
 state
 )
@@ -1581,7 +1581,7 @@ std
 unordered_map
 <
 size_t
-StreamState
+AnalyzerStreamState
 >
 stream_states_
 RTC_GUARDED_BY

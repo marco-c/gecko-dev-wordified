@@ -277,11 +277,11 @@ size_t
 1
 .
 class
-StreamState
+AnalyzerStreamState
 {
 public
 :
-StreamState
+AnalyzerStreamState
 (
 size_t
 sender

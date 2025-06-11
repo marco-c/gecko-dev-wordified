@@ -675,7 +675,7 @@ ice_transport
 )
 state_
 (
-rtc
+webrtc
 :
 :
 SS_OPEN
@@ -743,13 +743,13 @@ if
 state_
 =
 =
-rtc
+webrtc
 :
 :
 SS_CLOSED
 )
 return
-rtc
+webrtc
 :
 :
 SR_EOS
@@ -759,13 +759,13 @@ if
 state_
 =
 =
-rtc
+webrtc
 :
 :
 SS_OPENING
 )
 return
-rtc
+webrtc
 :
 :
 SR_BLOCK
@@ -793,14 +793,14 @@ read
 )
 {
 return
-rtc
+webrtc
 :
 :
 SR_BLOCK
 ;
 }
 return
-rtc
+webrtc
 :
 :
 SR_SUCCESS
@@ -894,7 +894,7 @@ size
 )
 ;
 return
-rtc
+webrtc
 :
 :
 SR_SUCCESS
@@ -972,7 +972,7 @@ size
 )
 ;
 return
-rtc
+webrtc
 :
 :
 SR_SUCCESS
@@ -1113,7 +1113,7 @@ queue
 }
 FireEvent
 (
-rtc
+webrtc
 :
 :
 SE_READ
@@ -1168,7 +1168,7 @@ Clear
 ;
 state_
 =
-rtc
+webrtc
 :
 :
 SS_CLOSED
@@ -3419,7 +3419,7 @@ error
 )
 =
 =
-rtc
+webrtc
 :
 :
 SR_SUCCESS
@@ -5417,7 +5417,7 @@ if
 (
 sig
 &
-rtc
+webrtc
 :
 :
 SE_OPEN
@@ -5493,7 +5493,7 @@ GetState
 )
 =
 =
-rtc
+webrtc
 :
 :
 SS_OPEN
@@ -5569,7 +5569,7 @@ if
 (
 sig
 &
-rtc
+webrtc
 :
 :
 SE_READ
@@ -5635,7 +5635,7 @@ if
 ret
 =
 =
-rtc
+webrtc
 :
 :
 SR_SUCCESS
@@ -5737,7 +5737,7 @@ if
 ret
 =
 =
-rtc
+webrtc
 :
 :
 SR_EOS
@@ -5802,7 +5802,7 @@ if
 ret
 =
 =
-rtc
+webrtc
 :
 :
 SR_ERROR
@@ -5874,7 +5874,7 @@ while
 ret
 =
 =
-rtc
+webrtc
 :
 :
 SR_SUCCESS
@@ -5885,7 +5885,7 @@ if
 (
 sig
 &
-rtc
+webrtc
 :
 :
 SE_CLOSE
@@ -5896,7 +5896,7 @@ RTC_DCHECK
 sig
 =
 =
-rtc
+webrtc
 :
 :
 SE_CLOSE

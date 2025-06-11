@@ -1690,7 +1690,7 @@ class
 StreamWrapper
 :
 public
-rtc
+webrtc
 :
 :
 StreamInterface
@@ -1705,7 +1705,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 StreamInterface
@@ -1816,7 +1816,7 @@ removal_tag
 )
 ;
 }
-rtc
+webrtc
 :
 :
 StreamState
@@ -1849,7 +1849,7 @@ Close
 )
 ;
 }
-rtc
+webrtc
 :
 :
 StreamResult
@@ -1884,7 +1884,7 @@ error
 )
 ;
 }
-rtc
+webrtc
 :
 :
 StreamResult
@@ -1928,7 +1928,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 StreamInterface
@@ -1952,7 +1952,7 @@ SSLDummyStream
 final
 :
 public
-rtc
+webrtc
 :
 :
 StreamInterface
@@ -2083,7 +2083,7 @@ this
 )
 ;
 }
-rtc
+webrtc
 :
 :
 StreamState
@@ -2094,13 +2094,13 @@ const
 override
 {
 return
-rtc
+webrtc
 :
 :
 SS_OPEN
 ;
 }
-rtc
+webrtc
 :
 :
 StreamResult
@@ -2123,7 +2123,7 @@ error
 )
 override
 {
-rtc
+webrtc
 :
 :
 StreamResult
@@ -2146,13 +2146,13 @@ if
 r
 =
 =
-rtc
+webrtc
 :
 :
 SR_BLOCK
 )
 return
-rtc
+webrtc
 :
 :
 SR_BLOCK
@@ -2162,13 +2162,13 @@ if
 r
 =
 =
-rtc
+webrtc
 :
 :
 SR_EOS
 )
 return
-rtc
+webrtc
 :
 :
 SR_EOS
@@ -2178,7 +2178,7 @@ if
 r
 !
 =
-rtc
+webrtc
 :
 :
 SR_SUCCESS
@@ -2189,14 +2189,14 @@ ADD_FAILURE
 )
 ;
 return
-rtc
+webrtc
 :
 :
 SR_ERROR
 ;
 }
 return
-rtc
+webrtc
 :
 :
 SR_SUCCESS
@@ -2227,12 +2227,12 @@ int
 mask
 =
 (
-rtc
+webrtc
 :
 :
 SE_READ
 |
-rtc
+webrtc
 :
 :
 SE_CLOSE
@@ -2313,7 +2313,7 @@ if
 (
 sig
 &
-rtc
+webrtc
 :
 :
 SE_WRITE
@@ -2356,7 +2356,7 @@ PostEvent
 (
 sig
 &
-rtc
+webrtc
 :
 :
 SE_WRITE
@@ -2372,7 +2372,7 @@ to
 the
 outgoing
 FifoBuffer
-rtc
+webrtc
 :
 :
 StreamResult
@@ -2407,7 +2407,7 @@ error
 )
 ;
 }
-rtc
+webrtc
 :
 :
 StreamResult
@@ -2559,7 +2559,7 @@ class
 BufferQueueStream
 :
 public
-rtc
+webrtc
 :
 :
 StreamInterface
@@ -2601,7 +2601,7 @@ always
 open
 "
 .
-rtc
+webrtc
 :
 :
 StreamState
@@ -2612,7 +2612,7 @@ const
 override
 {
 return
-rtc
+webrtc
 :
 :
 SS_OPEN
@@ -2631,7 +2631,7 @@ succeed
 or
 block
 .
-rtc
+webrtc
 :
 :
 StreamResult
@@ -2686,7 +2686,7 @@ read
 )
 )
 return
-rtc
+webrtc
 :
 :
 SR_BLOCK
@@ -2701,7 +2701,7 @@ NotifyWritableForTest
 )
 ;
 return
-rtc
+webrtc
 :
 :
 SR_SUCCESS
@@ -2721,7 +2721,7 @@ succeed
 or
 block
 .
-rtc
+webrtc
 :
 :
 StreamResult
@@ -2777,7 +2777,7 @@ written
 )
 )
 return
-rtc
+webrtc
 :
 :
 SR_BLOCK
@@ -2792,7 +2792,7 @@ NotifyReadableForTest
 )
 ;
 return
-rtc
+webrtc
 :
 :
 SR_SUCCESS
@@ -2825,7 +2825,7 @@ NotifyReadableForTest
 {
 PostEvent
 (
-rtc
+webrtc
 :
 :
 SE_READ
@@ -2840,7 +2840,7 @@ NotifyWritableForTest
 {
 PostEvent
 (
-rtc
+webrtc
 :
 :
 SE_WRITE
@@ -3299,7 +3299,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 StreamInterface
@@ -3316,7 +3316,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 StreamInterface
@@ -4180,7 +4180,7 @@ GetState
 )
 =
 =
-rtc
+webrtc
 :
 :
 SS_OPEN
@@ -4196,7 +4196,7 @@ GetState
 )
 =
 =
-rtc
+webrtc
 :
 :
 SS_OPEN
@@ -4261,7 +4261,7 @@ testing
 :
 Eq
 (
-rtc
+webrtc
 :
 :
 SS_CLOSED
@@ -4491,7 +4491,7 @@ GetState
 )
 =
 =
-rtc
+webrtc
 :
 :
 SS_OPENING
@@ -4543,7 +4543,7 @@ GetState
 )
 =
 =
-rtc
+webrtc
 :
 :
 SS_OPEN
@@ -4559,7 +4559,7 @@ GetState
 )
 =
 =
-rtc
+webrtc
 :
 :
 SS_OPEN
@@ -4607,7 +4607,7 @@ client_ssl_
 GetState
 (
 )
-rtc
+webrtc
 :
 :
 SS_CLOSED
@@ -4847,7 +4847,7 @@ SR_BLOCK
 .
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 SS_OPENING
@@ -4861,7 +4861,7 @@ GetState
 ;
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 SS_OPENING
@@ -4891,7 +4891,7 @@ error
 ;
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 SR_BLOCK
@@ -4908,7 +4908,7 @@ error
 ;
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 SR_BLOCK
@@ -5191,7 +5191,7 @@ valid_identity
 {
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 SS_OPEN
@@ -5237,7 +5237,7 @@ error
 ;
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 SR_SUCCESS
@@ -5257,7 +5257,7 @@ read
 ;
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 SR_BLOCK
@@ -5277,7 +5277,7 @@ else
 {
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 SS_CLOSED
@@ -5325,7 +5325,7 @@ valid_identity
 {
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 SS_OPEN
@@ -5342,7 +5342,7 @@ else
 {
 EXPECT_EQ
 (
-rtc
+webrtc
 :
 :
 SS_CLOSED
@@ -5356,7 +5356,7 @@ GetState
 ;
 }
 }
-rtc
+webrtc
 :
 :
 StreamResult
@@ -5429,7 +5429,7 @@ written
 data_len
 ;
 return
-rtc
+webrtc
 :
 :
 SR_SUCCESS
@@ -5470,7 +5470,7 @@ written
 data_len
 ;
 return
-rtc
+webrtc
 :
 :
 SR_SUCCESS
@@ -5982,7 +5982,7 @@ virtual
 void
 ReadData
 (
-rtc
+webrtc
 :
 :
 StreamInterface
@@ -6035,7 +6035,7 @@ if
 (
 sig
 &
-rtc
+webrtc
 :
 :
 SE_READ
@@ -6055,7 +6055,7 @@ if
 (
 sig
 &
-rtc
+webrtc
 :
 :
 SE_WRITE
@@ -6098,7 +6098,7 @@ if
 (
 sig
 &
-rtc
+webrtc
 :
 :
 SE_READ
@@ -6371,7 +6371,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 StreamInterface
@@ -6408,7 +6408,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 StreamInterface
@@ -6538,7 +6538,7 @@ sent
 int
 error
 ;
-rtc
+webrtc
 :
 :
 StreamResult
@@ -6566,7 +6566,7 @@ if
 rv
 =
 =
-rtc
+webrtc
 :
 :
 SR_SUCCESS
@@ -6597,7 +6597,7 @@ if
 rv
 =
 =
-rtc
+webrtc
 :
 :
 SR_BLOCK
@@ -6638,7 +6638,7 @@ packet
 void
 ReadData
 (
-rtc
+webrtc
 :
 :
 StreamInterface
@@ -6660,7 +6660,7 @@ bread
 int
 err2
 ;
-rtc
+webrtc
 :
 :
 StreamResult
@@ -6689,7 +6689,7 @@ if
 r
 =
 =
-rtc
+webrtc
 :
 :
 SR_ERROR
@@ -6727,7 +6727,7 @@ if
 r
 =
 =
-rtc
+webrtc
 :
 :
 SR_BLOCK
@@ -6736,7 +6736,7 @@ break
 ;
 ASSERT_EQ
 (
-rtc
+webrtc
 :
 :
 SR_SUCCESS
@@ -7113,7 +7113,7 @@ received_
 ;
 }
 ;
-rtc
+webrtc
 :
 :
 StreamResult
@@ -7216,7 +7216,7 @@ to
 writer
 .
 return
-rtc
+webrtc
 :
 :
 SR_SUCCESS
