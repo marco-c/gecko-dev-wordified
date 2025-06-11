@@ -490,6 +490,11 @@ server_manifest
 .
 json
 "
+clientId
+:
+"
+test
+"
 nonce
 :
 "
