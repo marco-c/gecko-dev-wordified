@@ -469,10 +469,10 @@ feature
 featureStatus
 \
 refreshRateStatus
-maxRefreshRateComparator
-maxRefreshRate
+minRefreshRateComparator
+minRefreshRate
 \
-maxRefreshRateMax
+minRefreshRateMax
 maxRefreshRateComparator
 maxRefreshRate
 \
