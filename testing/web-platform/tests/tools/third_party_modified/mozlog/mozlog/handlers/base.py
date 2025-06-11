@@ -137,6 +137,8 @@ wrapped
 append
 (
 inner
+.
+message_handler
 )
 class
 LogLevelFilter
