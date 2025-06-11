@@ -9822,6 +9822,10 @@ PeerConnectionInterface
 RTCConfiguration
 &
 callee_config
+bool
+create_media_engine
+=
+true
 )
 {
 caller_
@@ -9851,6 +9855,7 @@ reset_decoder_factory
 *
 /
 false
+create_media_engine
 )
 ;
 callee_
@@ -9880,6 +9885,7 @@ reset_decoder_factory
 *
 /
 false
+create_media_engine
 )
 ;
 return

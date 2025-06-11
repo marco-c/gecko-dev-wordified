@@ -12810,7 +12810,7 @@ EndToEndCallWithDataChannelOnlyConnects
 {
 ASSERT_TRUE
 (
-CreatePeerConnectionWrappers
+CreatePeerConnectionWrappersWithoutMediaEngine
 (
 )
 )
@@ -12947,7 +12947,7 @@ DataChannelClosesWhenClosed
 {
 ASSERT_TRUE
 (
-CreatePeerConnectionWrappers
+CreatePeerConnectionWrappersWithoutMediaEngine
 (
 )
 )
@@ -13115,7 +13115,7 @@ DataChannelClosesWhenClosedReverse
 {
 ASSERT_TRUE
 (
-CreatePeerConnectionWrappers
+CreatePeerConnectionWrappersWithoutMediaEngine
 (
 )
 )
@@ -13283,7 +13283,7 @@ DataChannelClosesWhenPeerConnectionClosed
 {
 ASSERT_TRUE
 (
-CreatePeerConnectionWrappers
+CreatePeerConnectionWrappersWithoutMediaEngine
 (
 )
 )
@@ -13863,6 +13863,13 @@ CreatePeerConnectionWrappersWithConfig
 (
 config
 config
+/
+*
+create_media_engine
+=
+*
+/
+false
 )
 ;
 PeerConnectionDependencies
@@ -13934,6 +13941,13 @@ false
 /
 *
 reset_decoder_factory
+=
+*
+/
+false
+/
+*
+create_media_engine
 =
 *
 /
