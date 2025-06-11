@@ -1701,6 +1701,16 @@ in
 purgecaches_dirs
 :
             
+os
+.
+makedirs
+(
+dir
+exist_ok
+=
+True
+)
+            
 with
 open
 (
