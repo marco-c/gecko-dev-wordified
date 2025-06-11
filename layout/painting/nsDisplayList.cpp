@@ -9292,12 +9292,10 @@ OutOfFlowDisplayData
 clipChain
 combinedClipChain
 asr
-this
--
->
 mCurrentScrollParentId
 visibleRect
 dirtyRect
+mInViewTransitionCapture
 )
 ;
 aDirtyFrame
@@ -9455,9 +9453,6 @@ emplace
 clipChain
 combinedClipChain
 asr
-this
--
->
 mCurrentScrollParentId
 GetVisibleRect
 (
@@ -9465,6 +9460,7 @@ GetVisibleRect
 GetDirtyRect
 (
 )
+mInViewTransitionCapture
 )
 ;
 }
