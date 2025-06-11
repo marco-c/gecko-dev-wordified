@@ -1586,6 +1586,13 @@ options
 /
 object
 argument
+and
+the
+exception
+type
+is
+not
+SuppressedError
 .
 bool
 hasOptions
@@ -1602,6 +1609,12 @@ messageArg
 isObject
 (
 )
+&
+&
+exnType
+!
+=
+JSEXN_SUPPRESSEDERR
 ;
 Rooted
 <
