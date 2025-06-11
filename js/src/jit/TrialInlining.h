@@ -953,9 +953,6 @@ static
 bool
 canInline
 (
-JSContext
-*
-cx
 JSFunction
 *
 target
