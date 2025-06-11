@@ -1862,16 +1862,11 @@ void
 param
 )
 {
-char
-stacktop
-;
-profiler_register_thread
+PROFILER_REGISTER_THREAD
 (
 "
 onnx_worker
 "
-&
-stacktop
 )
 ;
 LOGD
