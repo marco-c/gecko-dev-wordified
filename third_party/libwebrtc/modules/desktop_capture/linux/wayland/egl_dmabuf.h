@@ -91,7 +91,7 @@ MODULES_DESKTOP_CAPTURE_LINUX_WAYLAND_EGL_DMABUF_H_
 #
 include
 <
-epoxy
+EGL
 /
 egl
 .
@@ -100,7 +100,7 @@ h
 #
 include
 <
-epoxy
+GL
 /
 gl
 .
