@@ -1156,7 +1156,7 @@ ensure
 /
 /
 the
-HASCACHEDSAVEDFRAME_BIT
+HasCachedSavedFrame
 flag
 from
 a
