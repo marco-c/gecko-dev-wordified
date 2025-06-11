@@ -3617,6 +3617,17 @@ EligibleForThrottling
 )
 const
 ;
+bool
+AllowedToConnectToIpAddressSpace
+(
+nsILoadInfo
+:
+:
+IPAddressSpace
+aTargetIpAddressSpace
+)
+override
+;
 private
 :
 bool

@@ -214,6 +214,13 @@ h
 #
 include
 "
+nsILoadInfo
+.
+h
+"
+#
+include
+"
 nsISocketTransport
 .
 h

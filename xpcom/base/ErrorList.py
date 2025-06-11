@@ -4051,6 +4051,18 @@ FAILURE
 92
 )
     
+errors
+[
+"
+NS_ERROR_LOCAL_NETWORK_ACCESS_DENIED
+"
+]
+=
+FAILURE
+(
+93
+)
+    
 #
 XXX
 really
