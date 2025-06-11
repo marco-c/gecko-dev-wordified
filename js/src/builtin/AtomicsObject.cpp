@@ -6496,6 +6496,9 @@ next
 while
 (
 iter
+&
+&
+iter
 !
 =
 this
