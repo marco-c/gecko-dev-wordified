@@ -5789,11 +5789,11 @@ content
 /
 widgets
 /
-search
+moz
 -
-textbox
-.
-js
+input
+-
+search
 }
 *
 returns
