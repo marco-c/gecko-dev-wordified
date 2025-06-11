@@ -795,6 +795,9 @@ GetPSForEffect
 Effect
 *
 aEffect
+const
+ClipType
+aClipType
 )
 ;
 Maybe
