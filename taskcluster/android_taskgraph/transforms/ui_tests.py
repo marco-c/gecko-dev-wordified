@@ -280,34 +280,15 @@ component
 "
 ]
         
-device_type
+flank_config
 =
 "
-arm
-"
-#
-This
-maps
-to
-existing
-Flank
-configurations
-in
-automation
+components
 /
-taskcluster
-/
-androidTest
-(
-e
-.
-g
-flank
--
 arm
 .
 yml
-)
+"
         
 apk_app
 apk_test
@@ -768,15 +749,6 @@ python3
 "
                 
 "
-.
-.
-/
-.
-.
-/
-.
-.
-/
 taskcluster
 /
 scripts
@@ -790,7 +762,7 @@ lab
 py
 "
                 
-device_type
+flank_config
                 
 apk_app
                 
