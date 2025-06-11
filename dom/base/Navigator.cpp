@@ -14215,6 +14215,11 @@ NavigatorLogin
 GetWindow
 (
 )
+-
+>
+AsGlobal
+(
+)
 )
 ;
 }

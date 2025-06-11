@@ -266,12 +266,12 @@ concurrentResponse
 .
 name
 "
-NotAllowedError
+InvalidStateError
 "
 "
 Expected
 '
-NotAllowedError
+InvalidStateError
 '
 but
 got
