@@ -313,6 +313,13 @@ the
 interventions
 and
 shims
+if
+(
+info
+.
+interventions
+)
+{
 info
 .
 interventions
@@ -341,6 +348,14 @@ domain
 )
 )
 ;
+}
+if
+(
+info
+.
+shims
+)
+{
 info
 .
 shims
@@ -369,6 +384,7 @@ name
 )
 )
 ;
+}
 document
 .
 body
