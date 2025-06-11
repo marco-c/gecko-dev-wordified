@@ -51095,7 +51095,7 @@ creditCards
 supported
 "
 "
-detect
+on
 "
 )
 ;

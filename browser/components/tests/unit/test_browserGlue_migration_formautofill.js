@@ -324,7 +324,7 @@ available
 "
 being
 "
-detect
+on
 "
 .
 Assert
@@ -348,7 +348,7 @@ supported
 "
 )
 "
-detect
+on
 "
 )
 ;
