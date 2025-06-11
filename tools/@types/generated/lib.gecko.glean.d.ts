@@ -22750,7 +22750,7 @@ listItemManage
 :
 GleanEvent
 ;
-extensionModelLink
+modelCardLink
 :
 GleanEvent
 ;
