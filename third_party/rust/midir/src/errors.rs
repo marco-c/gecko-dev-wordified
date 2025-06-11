@@ -127,6 +127,10 @@ fmt
 :
 :
 Formatter
+<
+'
+_
+>
 )
 -
 >
@@ -223,6 +227,10 @@ fmt
 :
 :
 Formatter
+<
+'
+_
+>
 )
 -
 >
@@ -334,6 +342,10 @@ fmt
 :
 :
 Formatter
+<
+'
+_
+>
 )
 -
 >
@@ -436,10 +448,6 @@ T
 ConnectError
 {
 kind
-:
-kind
-inner
-:
 inner
 }
 }
@@ -548,6 +556,10 @@ fmt
 :
 :
 Formatter
+<
+'
+_
+>
 )
 -
 >
@@ -598,6 +610,10 @@ fmt
 :
 :
 Formatter
+<
+'
+_
+>
 )
 -
 >
@@ -698,6 +714,10 @@ fmt
 :
 :
 Formatter
+<
+'
+_
+>
 )
 -
 >
