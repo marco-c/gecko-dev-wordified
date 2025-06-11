@@ -1844,7 +1844,7 @@ getSeconds
 )
 }
 .
-txt
+log
 ;
 const
 outputText
