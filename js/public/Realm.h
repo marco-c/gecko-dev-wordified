@@ -509,6 +509,16 @@ JSObject
 obj
 )
 ;
+extern
+JS_PUBLIC_API
+bool
+HasRealmInitializedGlobal
+(
+Realm
+*
+realm
+)
+;
 /
 /
 Get
