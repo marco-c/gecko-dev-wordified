@@ -223,6 +223,16 @@ nsAString
 aCommand
 )
 ;
+static
+bool
+IsCallerChromeOrCommandForEnabled
+(
+JSContext
+*
+JSObject
+*
+)
+;
 protected
 :
 ~

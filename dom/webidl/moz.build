@@ -3353,6 +3353,11 @@ CloseWatcher
 webidl
 "
 "
+CommandEvent
+.
+webidl
+"
+"
 Comment
 .
 webidl
