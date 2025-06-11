@@ -568,7 +568,7 @@ min
 -
 width
 :
-216px
+150px
 ;
 max
 -
