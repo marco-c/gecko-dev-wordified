@@ -27180,10 +27180,10 @@ small
 {
 width
 :
-100
+110
 height
 :
-120
+110
 }
 medium
 :
@@ -27195,7 +27195,7 @@ height
 :
 refinedCardsLayout
 ?
-172
+162
 :
 150
 }
@@ -27204,10 +27204,10 @@ large
 {
 width
 :
-265
+190
 height
 :
-265
+250
 }
 }
 ;
