@@ -1281,7 +1281,7 @@ kMinBufferCount
 ;
 auto
 &
-bmc
+memory_constraints
 =
 *
 constraints
@@ -1290,14 +1290,14 @@ mutable_buffer_memory_constraints
 (
 )
 ;
-bmc
+memory_constraints
 .
 set_ram_domain_supported
 (
 true
 )
 ;
-bmc
+memory_constraints
 .
 set_cpu_domain_supported
 (
@@ -1312,7 +1312,7 @@ sysmem2
 :
 ImageFormatConstraints
 &
-ifc
+image_constraints
 =
 constraints
 .
@@ -1325,7 +1325,7 @@ emplace_back
 (
 )
 ;
-ifc
+image_constraints
 .
 mutable_color_spaces
 (
@@ -1337,14 +1337,14 @@ emplace_back
 kSRGBColorSpace
 )
 ;
-ifc
+image_constraints
 .
 set_pixel_format
 (
 kBGRA32PixelFormatType
 )
 ;
-ifc
+image_constraints
 .
 set_pixel_format_modifier
 (
@@ -1360,7 +1360,7 @@ PixelFormatModifier
 LINEAR
 )
 ;
-ifc
+image_constraints
 .
 set_required_min_size
 (
@@ -1377,7 +1377,7 @@ height_
 }
 )
 ;
-ifc
+image_constraints
 .
 set_required_max_size
 (
@@ -1394,7 +1394,7 @@ height_
 }
 )
 ;
-ifc
+image_constraints
 .
 set_bytes_per_row_divisor
 (
