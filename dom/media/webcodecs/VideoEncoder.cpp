@@ -126,13 +126,6 @@ h
 #
 include
 "
-EncoderConfig
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -311,13 +304,6 @@ h
 #
 include
 "
-nsIGlobalObject
-.
-h
-"
-#
-include
-"
 nsPrintfCString
 .
 h
@@ -325,7 +311,7 @@ h
 #
 include
 "
-nsRFPService
+nsReadableUtils
 .
 h
 "
@@ -1250,7 +1236,6 @@ Maybe
 <
 T
 >
-&
 aRHS
 )
 {
@@ -2649,9 +2634,6 @@ VideoEncoderConfigInternal
 >
 &
 aConfig
-nsIGlobalObject
-*
-aGlobal
 )
 {
 /
@@ -2794,12 +2776,6 @@ false
 ;
 }
 }
-ApplyResistFingerprintingIfNeeded
-(
-aConfig
-aGlobal
-)
-;
 return
 EncoderSupport
 :
@@ -3127,7 +3103,6 @@ VideoEncoderConfigInternal
 (
 aConfig
 )
-nullptr
 )
 ;
 }
@@ -4233,7 +4208,6 @@ VideoEncoderConfigInternal
 (
 config
 )
-global
 )
 ;
 VideoEncoderSupport
