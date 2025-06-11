@@ -8552,7 +8552,7 @@ GetFormDataEntryList
 )
 {
 return
-nullptr
+mFormDataEntryList
 ;
 }
 void
