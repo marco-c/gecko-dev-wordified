@@ -2414,6 +2414,10 @@ Option
 String
 >
 pub
+jsdoc_name
+:
+String
+pub
 canonical_name
 :
 String
