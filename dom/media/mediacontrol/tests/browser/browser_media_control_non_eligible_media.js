@@ -263,7 +263,7 @@ it
 .
 *
 /
-add_task
+add_setup
 (
 async
 function
@@ -289,6 +289,14 @@ mediacontrol
 testingevents
 .
 enabled
+"
+true
+]
+[
+"
+test
+.
+wait300msAfterTabSwitch
 "
 true
 ]
