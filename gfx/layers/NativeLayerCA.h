@@ -1038,6 +1038,10 @@ const
 char
 *
 aPath
+const
+MutexAutoLock
+&
+aProofOfLock
 )
 ;
 enum

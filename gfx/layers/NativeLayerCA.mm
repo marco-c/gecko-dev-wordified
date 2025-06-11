@@ -2253,6 +2253,7 @@ DumpLayerTreeToFile
 filePath
 UTF8String
 ]
+lock
 )
 ;
 }
@@ -3375,14 +3376,12 @@ const
 char
 *
 aPath
+const
+MutexAutoLock
+&
+aProofOfLock
 )
 {
-MutexAutoLock
-lock
-(
-mMutex
-)
-;
 NSLog
 (
 "
