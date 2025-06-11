@@ -15391,12 +15391,6 @@ AllowGC
 CanGC
 )
 {
-vp
-.
-setUndefined
-(
-)
-;
 /
 /
 If
@@ -15435,6 +15429,12 @@ return
 undefined
 |
 .
+vp
+.
+setUndefined
+(
+)
+;
 return
 true
 ;
