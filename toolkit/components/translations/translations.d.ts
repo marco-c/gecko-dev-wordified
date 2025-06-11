@@ -1409,10 +1409,6 @@ attachments
 :
 any
 ;
-sync
-:
-Function
-;
 }
 /
 *
