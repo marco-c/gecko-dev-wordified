@@ -336,7 +336,7 @@ bool
 DefaultCodecPreferences
 :
 :
-H264PacketizationModeZeroSupportedStatic
+SendingH264PacketizationModeZeroSupportedStatic
 (
 )
 {
