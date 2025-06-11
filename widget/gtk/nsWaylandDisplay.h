@@ -353,6 +353,12 @@ gbm
 .
 h
 >
+using
+GdkMonitor
+=
+struct
+_GdkMonitor
+;
 namespace
 mozilla
 :
@@ -379,12 +385,6 @@ WP_COLOR_MANAGER_V1_PRIMARIES_ADOBE_RGB
 ;
 class
 DMABufFormats
-;
-using
-GdkMonitor
-=
-struct
-_GdkMonitor
 ;
 /
 /
