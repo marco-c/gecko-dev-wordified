@@ -296,6 +296,13 @@ h
 define
 INVALID_MV
 0x80008000
+#
+define
+INVALID_REF2CUR
+(
+-
+32
+)
 PACKED
 (
 typedef
@@ -305,7 +312,7 @@ refmvs_temporal_block
 mv
 mv
 ;
-int8_t
+uint8_t
 ref
 ;
 }
@@ -473,13 +480,13 @@ mfmv_ref
 3
 ]
 ;
-int
+int8_t
 mfmv_ref2cur
 [
 3
 ]
 ;
-int
+uint8_t
 mfmv_ref2ref
 [
 3
@@ -812,7 +819,7 @@ Dav1dFrameHeader
 *
 frm_hdr
 const
-unsigned
+uint8_t
 ref_poc
 [
 7
@@ -821,7 +828,7 @@ refmvs_temporal_block
 *
 rp
 const
-unsigned
+uint8_t
 ref_ref_poc
 [
 7

@@ -6538,7 +6538,7 @@ if
 ref2cur
 =
 =
-INT_MIN
+INVALID_REF2CUR
 )
 continue
 ;
@@ -7396,7 +7396,7 @@ Dav1dFrameHeader
 const
 frm_hdr
 const
-unsigned
+uint8_t
 ref_poc
 [
 7
@@ -7406,7 +7406,7 @@ refmvs_temporal_block
 const
 rp
 const
-unsigned
+uint8_t
 ref_ref_poc
 [
 7
@@ -7768,7 +7768,7 @@ n_blocks
 ;
 }
 const
-unsigned
+int
 poc
 =
 frm_hdr
@@ -8156,7 +8156,7 @@ n
 )
 {
 const
-unsigned
+int
 rpoc
 =
 ref_poc
@@ -8205,7 +8205,7 @@ mfmv_ref2cur
 n
 ]
 =
-INT_MIN
+INVALID_REF2CUR
 ;
 }
 else
@@ -8250,7 +8250,7 @@ m
 )
 {
 const
-unsigned
+int
 rrpoc
 =
 ref_ref_poc
