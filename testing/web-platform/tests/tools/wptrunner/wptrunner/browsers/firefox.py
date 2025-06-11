@@ -1907,6 +1907,24 @@ enabled
 )
           
 "
+remoteCNM
+"
+:
+not
+bool_pref
+(
+"
+remote
+.
+parent
+-
+navigation
+.
+enabled
+"
+)
+          
+"
 incOriginInit
 "
 :
@@ -2091,6 +2109,10 @@ tsan
         
 "
 remoteAsyncEvents
+"
+        
+"
+remoteCNM
 "
         
 "
