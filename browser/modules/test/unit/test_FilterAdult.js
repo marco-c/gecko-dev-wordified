@@ -126,9 +126,6 @@ mjs
 "
 )
 ;
-let
-originalPrefValue
-;
 const
 FILTER_ADULT_ENABLED_PREF
 =
