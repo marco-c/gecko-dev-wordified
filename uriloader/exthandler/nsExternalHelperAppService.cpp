@@ -10882,7 +10882,6 @@ nsContentSecurityUtils
 ClassifyDownload
 (
 aChannel
-MIMEType
 )
 ;
 if

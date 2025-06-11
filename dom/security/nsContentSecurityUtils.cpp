@@ -15919,10 +15919,6 @@ ClassifyDownload
 nsIChannel
 *
 aChannel
-const
-nsAutoCString
-&
-aMimeTypeGuess
 )
 {
 MOZ_ASSERT
