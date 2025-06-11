@@ -6037,7 +6037,10 @@ CODEC_HW_HEVC
 const
 nsTArray
 <
+RefPtr
+<
 GfxDriverInfo
+>
 >
 &
 GfxInfo
@@ -9276,7 +9279,10 @@ aSuggestedDriverVersion
 const
 nsTArray
 <
+RefPtr
+<
 GfxDriverInfo
+>
 >
 &
 aDriverInfo
