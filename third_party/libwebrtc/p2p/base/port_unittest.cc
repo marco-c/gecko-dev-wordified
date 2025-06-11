@@ -2095,7 +2095,7 @@ lconn
 >
 Ping
 (
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -3327,7 +3327,7 @@ kTurnUdpExtAddr
 )
 username_
 (
-rtc
+webrtc
 :
 :
 CreateRandomString
@@ -3337,7 +3337,7 @@ ICE_UFRAG_LENGTH
 )
 password_
 (
-rtc
+webrtc
 :
 :
 CreateRandomString
@@ -11169,7 +11169,7 @@ anything
 int64_t
 before_created
 =
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -11193,7 +11193,7 @@ port
 int64_t
 after_created
 =
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -11455,7 +11455,7 @@ nullptr
 int64_t
 before_last_receiving
 =
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -11472,7 +11472,7 @@ ReceivedPing
 int64_t
 after_last_receiving
 =
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -11809,7 +11809,7 @@ nullptr
 int64_t
 before_last_receiving
 =
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -11826,7 +11826,7 @@ ReceivedPing
 int64_t
 after_last_receiving
 =
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -12241,7 +12241,7 @@ ReceivedPing
 int64_t
 send_ping_timestamp
 =
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -35669,7 +35669,7 @@ lconn
 >
 Ping
 (
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -36822,7 +36822,7 @@ lconn
 >
 Ping
 (
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -37205,7 +37205,7 @@ lconn
 >
 Ping
 (
-rtc
+webrtc
 :
 :
 TimeMillis

@@ -544,7 +544,7 @@ const
 int64_t
 now
 =
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -693,7 +693,7 @@ nullptr
 ;
 if
 (
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -792,7 +792,7 @@ FindNextPingableConnection
 int64_t
 now
 =
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -2956,7 +2956,7 @@ nullopt
 int64_t
 now
 =
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -3427,7 +3427,7 @@ int64_t
 >
 receiving_unchanged_threshold
 (
-rtc
+webrtc
 :
 :
 TimeMillis

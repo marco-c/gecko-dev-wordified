@@ -309,9 +309,6 @@ static_cast
 uint64_t
 >
 (
-rtc
-:
-:
 TimeNanos
 (
 )

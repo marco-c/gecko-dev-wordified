@@ -321,9 +321,6 @@ ss
 int64_t
 start
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -376,9 +373,6 @@ early
 .
 EXPECT_GE
 (
-rtc
-:
-:
 TimeSince
 (
 start

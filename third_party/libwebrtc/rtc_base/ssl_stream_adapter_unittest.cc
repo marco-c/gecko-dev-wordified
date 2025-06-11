@@ -3118,7 +3118,7 @@ predictable
 loss
 patterns
 .
-rtc
+webrtc
 :
 :
 SetRandomTestMode
@@ -3143,7 +3143,7 @@ the
 next
 test
 .
-rtc
+webrtc
 :
 :
 SetRandomTestMode
@@ -4498,7 +4498,7 @@ SS_OPENING
 &
 &
 (
-rtc
+webrtc
 :
 :
 TimeDiff
@@ -4513,7 +4513,7 @@ time_start
 <
 3600
 *
-rtc
+webrtc
 :
 :
 kNumNanosecsPerSec
@@ -5386,7 +5386,7 @@ of
 packets
 if
 (
-rtc
+webrtc
 :
 :
 CreateRandomId

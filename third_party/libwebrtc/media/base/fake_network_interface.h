@@ -1199,9 +1199,6 @@ Timestamp
 :
 Micros
 (
-rtc
-:
-:
 TimeMicros
 (
 )

@@ -1389,9 +1389,6 @@ Timestamp
 :
 Micros
 (
-rtc
-:
-:
 TimeMicros
 (
 )
@@ -1753,9 +1750,6 @@ Timestamp
 :
 Millis
 (
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -1852,9 +1846,6 @@ Timestamp
 :
 Millis
 (
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -2644,9 +2635,6 @@ encoding_settings
 int64_t
 encode_start_us
 =
-rtc
-:
-:
 TimeMicros
 (
 )
@@ -2778,9 +2766,6 @@ encoded_frame
 int64_t
 encode_finished_us
 =
-rtc
-:
-:
 TimeMicros
 (
 )
@@ -3056,9 +3041,6 @@ encoded_frame
 int64_t
 decode_start_us
 =
-rtc
-:
-:
 TimeMicros
 (
 )
@@ -3345,9 +3327,6 @@ nullopt
 int64_t
 decode_finished_us
 =
-rtc
-:
-:
 TimeMicros
 (
 )

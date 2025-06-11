@@ -1273,14 +1273,8 @@ time
 int64_t
 time
 =
-rtc
-:
-:
 TimeDiff
 (
-rtc
-:
-:
 SystemTimeMillis
 (
 )
@@ -1798,9 +1792,6 @@ const
 int64_t
 g_start
 =
-rtc
-:
-:
 SystemTimeMillis
 (
 )

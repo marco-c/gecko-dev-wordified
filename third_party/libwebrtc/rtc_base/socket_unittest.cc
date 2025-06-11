@@ -9168,9 +9168,6 @@ error
 uint32_t
 start_ms
 =
-rtc
-:
-:
 Time
 (
 )
@@ -9191,9 +9188,6 @@ start_ms
 +
 5000
 >
-rtc
-:
-:
 Time
 (
 )
@@ -10289,9 +10283,6 @@ get
 int64_t
 send_time_1
 =
-rtc
-:
-:
 TimeMicros
 (
 )
@@ -10402,9 +10393,6 @@ kTimeBetweenPacketsMs
 int64_t
 send_time_2
 =
-rtc
-:
-:
 TimeMicros
 (
 )
@@ -10741,9 +10729,6 @@ packet_time
 us
 (
 )
-rtc
-:
-:
 TimeMicros
 (
 )
@@ -10836,9 +10821,6 @@ packet_time
 us
 (
 )
-rtc
-:
-:
 TimeMicros
 (
 )

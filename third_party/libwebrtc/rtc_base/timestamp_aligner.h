@@ -362,9 +362,6 @@ constexpr
 int64_t
 kMinFrameIntervalUs
 =
-rtc
-:
-:
 kNumMicrosecsPerMillisec
 ;
 /

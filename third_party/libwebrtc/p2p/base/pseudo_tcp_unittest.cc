@@ -480,7 +480,7 @@ and
 time
 out
 .
-rtc
+webrtc
 :
 :
 SetRandomTestMode
@@ -504,7 +504,7 @@ the
 next
 test
 .
-rtc
+webrtc
 :
 :
 SetRandomTestMode
@@ -1144,7 +1144,7 @@ packets
 .
 if
 (
-rtc
+webrtc
 :
 :
 CreateRandomId
@@ -1687,7 +1687,7 @@ connected
 .
 start
 =
-rtc
+webrtc
 :
 :
 Time32
@@ -1806,7 +1806,7 @@ IsRtcOk
 ;
 elapsed
 =
-rtc
+webrtc
 :
 :
 Time32
@@ -2600,7 +2600,7 @@ connected
 .
 start
 =
-rtc
+webrtc
 :
 :
 Time32
@@ -2721,7 +2721,7 @@ IsRtcOk
 ;
 elapsed
 =
-rtc
+webrtc
 :
 :
 TimeSince

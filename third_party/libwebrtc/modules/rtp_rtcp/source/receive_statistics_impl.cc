@@ -291,9 +291,6 @@ ms
 (
 )
 -
-rtc
-:
-:
 kNtpJan1970Millisecs
 )
 ;

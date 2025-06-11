@@ -160,14 +160,14 @@ CreateRandomIceCredentials
 return
 IceParameters
 (
-rtc
+webrtc
 :
 :
 CreateRandomString
 (
 ICE_UFRAG_LENGTH
 )
-rtc
+webrtc
 :
 :
 CreateRandomString

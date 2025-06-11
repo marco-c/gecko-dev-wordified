@@ -2288,9 +2288,6 @@ PacketLossFractionSmoother
 :
 last_sample_time_ms_
 (
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -2365,9 +2362,6 @@ packet_loss_fraction
 int64_t
 now_ms
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -5029,9 +5023,6 @@ use_stable_target_for_adaptation_
 int64_t
 now_ms
 =
-rtc
-:
-:
 TimeMillis
 (
 )

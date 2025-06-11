@@ -403,9 +403,6 @@ rel_freq_error
 int64_t
 system_start_us
 =
-rtc
-:
-:
 TimeMicros
 (
 )
@@ -560,9 +557,6 @@ EXPECT_GE
 translated_time_us
 prev_translated_time_us
 +
-rtc
-:
-:
 kNumMicrosecsPerMillisec
 )
 ;
@@ -1211,9 +1205,6 @@ EXPECT_EQ
 clip_timestamp_us
 prev_timestamp_us
 +
-rtc
-:
-:
 kNumMicrosecsPerMillisec
 )
 ;

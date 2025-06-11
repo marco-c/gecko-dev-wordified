@@ -727,6 +727,9 @@ out_clock
 int64_t
 time
 =
+webrtc
+:
+:
 TimeNanos
 (
 )
@@ -738,6 +741,9 @@ tv_sec
 =
 time
 /
+webrtc
+:
+:
 kNumNanosecsPerSec
 ;
 out_clock
@@ -748,9 +754,15 @@ tv_usec
 (
 time
 %
+webrtc
+:
+:
 kNumNanosecsPerSec
 )
 /
+webrtc
+:
+:
 kNumNanosecsPerMicrosec
 ;
 }

@@ -826,9 +826,6 @@ mock_source
 int64_t
 start
 =
-rtc
-:
-:
 TimeNanos
 (
 )
@@ -863,9 +860,6 @@ double
 total_time_c_us
 =
 (
-rtc
-:
-:
 TimeNanos
 (
 )
@@ -873,9 +867,6 @@ TimeNanos
 start
 )
 /
-rtc
-:
-:
 kNumNanosecsPerMicrosec
 ;
 printf
@@ -1344,9 +1335,6 @@ Convolve_C
 int64_t
 start
 =
-rtc
-:
-:
 TimeNanos
 (
 )
@@ -1400,9 +1388,6 @@ double
 total_time_c_us
 =
 (
-rtc
-:
-:
 TimeNanos
 (
 )
@@ -1410,9 +1395,6 @@ TimeNanos
 start
 )
 /
-rtc
-:
-:
 kNumNanosecsPerMicrosec
 ;
 printf
@@ -1473,9 +1455,6 @@ pointer
 .
 start
 =
-rtc
-:
-:
 TimeNanos
 (
 )
@@ -1531,9 +1510,6 @@ double
 total_time_optimized_unaligned_us
 =
 (
-rtc
-:
-:
 TimeNanos
 (
 )
@@ -1541,9 +1517,6 @@ TimeNanos
 start
 )
 /
-rtc
-:
-:
 kNumNanosecsPerMicrosec
 ;
 printf
@@ -1590,9 +1563,6 @@ pointer
 .
 start
 =
-rtc
-:
-:
 TimeNanos
 (
 )
@@ -1646,9 +1616,6 @@ double
 total_time_optimized_aligned_us
 =
 (
-rtc
-:
-:
 TimeNanos
 (
 )
@@ -1656,9 +1623,6 @@ TimeNanos
 start
 )
 /
-rtc
-:
-:
 kNumNanosecsPerMicrosec
 ;
 printf

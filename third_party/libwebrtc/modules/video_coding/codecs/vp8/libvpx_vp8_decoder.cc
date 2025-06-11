@@ -694,9 +694,6 @@ QpSmoother
 :
 last_sample_ms_
 (
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -754,9 +751,6 @@ sample
 int64_t
 now_ms
 =
-rtc
-:
-:
 TimeMillis
 (
 )

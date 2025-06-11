@@ -1045,9 +1045,6 @@ capture_us
 <
 kEncodingTimeMeasureWindowMs
 *
-rtc
-:
-:
 kNumMicrosecsPerMillisec
 )
 {
@@ -1982,9 +1979,6 @@ kMaxAge
 =
 2
 *
-rtc
-:
-:
 kNumMicrosecsPerSec
 ;
 for
@@ -2474,9 +2468,6 @@ override
 int64_t
 now_ms
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -3337,9 +3328,6 @@ options_
 .
 frame_timeout_interval_ms
 *
-rtc
-:
-:
 kNumMicrosecsPerMillisec
 ;
 }
@@ -3599,9 +3587,6 @@ EncodedFrameTimeMeasured
 *
 encode_duration_us
 /
-rtc
-:
-:
 kNumMicrosecsPerMillisec
 )
 ;
@@ -3651,9 +3636,6 @@ return
 int64_t
 now_ms
 =
-rtc
-:
-:
 TimeMillis
 (
 )

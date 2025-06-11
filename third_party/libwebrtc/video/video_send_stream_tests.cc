@@ -17134,9 +17134,6 @@ const
 int64_t
 start_time
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -17222,9 +17219,6 @@ TimeDelta
 :
 Millis
 (
-rtc
-:
-:
 TimeMillis
 (
 )

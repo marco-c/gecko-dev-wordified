@@ -544,7 +544,7 @@ if
 (
 WithinLifetime
 (
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -717,7 +717,7 @@ attribute
 int64_t
 now
 =
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -732,7 +732,7 @@ now
 )
 &
 &
-rtc
+webrtc
 :
 :
 TimeDiff
@@ -890,7 +890,7 @@ lifetime
 0
 |
 |
-rtc
+webrtc
 :
 :
 TimeDiff
@@ -3376,7 +3376,7 @@ StunBindingRequest
 (
 this
 stun_addr
-rtc
+webrtc
 :
 :
 TimeMillis

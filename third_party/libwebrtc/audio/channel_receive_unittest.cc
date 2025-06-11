@@ -641,9 +641,6 @@ is
 zero
 .
 return
-rtc
-:
-:
 TimeMillis
 (
 )

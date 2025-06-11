@@ -3740,9 +3740,6 @@ static_cast
 double
 >
 (
-rtc
-:
-:
 TimeUTCMillis
 (
 )
@@ -4490,9 +4487,6 @@ kMinGatherStatsPeriodMs
 int64_t
 cache_now_ms
 =
-rtc
-:
-:
 TimeMillis
 (
 )

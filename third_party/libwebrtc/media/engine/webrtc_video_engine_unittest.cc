@@ -5588,7 +5588,7 @@ frame_source
 (
 1280
 720
-rtc
+webrtc
 :
 :
 kNumMicrosecsPerSec
@@ -6257,7 +6257,7 @@ frame_source
 (
 1280
 720
-rtc
+webrtc
 :
 :
 kNumMicrosecsPerSec
@@ -6429,7 +6429,7 @@ VideoRotation
 :
 :
 kVideoRotation_0
-rtc
+webrtc
 :
 :
 kNumMicrosecsPerSec
@@ -6480,7 +6480,7 @@ VideoRotation
 :
 :
 kVideoRotation_0
-rtc
+webrtc
 :
 :
 kNumMicrosecsPerSec
@@ -8254,7 +8254,7 @@ frame_source
 (
 1280
 720
-rtc
+webrtc
 :
 :
 kNumMicrosecsPerSec
@@ -8517,7 +8517,7 @@ frame_source
 (
 1280
 720
-rtc
+webrtc
 :
 :
 kNumMicrosecsPerSec
@@ -8949,7 +8949,7 @@ frame_source
 (
 1280
 720
-rtc
+webrtc
 :
 :
 kNumMicrosecsPerSec
@@ -9230,7 +9230,7 @@ frame_source
 (
 1280
 720
-rtc
+webrtc
 :
 :
 kNumMicrosecsPerSec
@@ -9530,7 +9530,7 @@ frame_source
 (
 1280
 720
-rtc
+webrtc
 :
 :
 kNumMicrosecsPerSec
@@ -11917,7 +11917,7 @@ frame_source
 (
 1280
 720
-rtc
+webrtc
 :
 :
 kNumMicrosecsPerSec
@@ -12266,7 +12266,7 @@ frame_source
 (
 1280
 720
-rtc
+webrtc
 :
 :
 kNumMicrosecsPerSec
@@ -14401,7 +14401,7 @@ FakeFrameSource
 (
 640
 480
-rtc
+webrtc
 :
 :
 kNumMicrosecsPerSec
@@ -14857,7 +14857,7 @@ FakeFrameSource
 (
 kVideoWidth
 kVideoHeight
-rtc
+webrtc
 :
 :
 kNumMicrosecsPerSec
@@ -17404,7 +17404,7 @@ frame_source
 (
 kTestWidth
 kTestHeight
-rtc
+webrtc
 :
 :
 kNumMicrosecsPerSec
@@ -19109,13 +19109,13 @@ frame_source
 (
 480
 360
-rtc
+webrtc
 :
 :
 kNumMicrosecsPerSec
 /
 30
-rtc
+webrtc
 :
 :
 kNumMicrosecsPerSec
@@ -19928,7 +19928,7 @@ frame_source
 (
 kVideoWidth
 kVideoHeight
-rtc
+webrtc
 :
 :
 kNumMicrosecsPerSec
@@ -20154,7 +20154,7 @@ VideoRotation
 :
 :
 kVideoRotation_0
-rtc
+webrtc
 :
 :
 kNumMicrosecsPerSec
@@ -20207,7 +20207,7 @@ VideoRotation
 :
 :
 kVideoRotation_0
-rtc
+webrtc
 :
 :
 kNumMicrosecsPerSec
@@ -21795,7 +21795,7 @@ frame_source_
 (
 1280
 720
-rtc
+webrtc
 :
 :
 kNumMicrosecsPerSec
@@ -28219,7 +28219,7 @@ frame_source
 (
 1280
 720
-rtc
+webrtc
 :
 :
 kNumMicrosecsPerSec
@@ -28399,7 +28399,7 @@ frame_source
 (
 1280
 720
-rtc
+webrtc
 :
 :
 kNumMicrosecsPerSec
@@ -28911,7 +28911,7 @@ frame_source
 (
 1280
 720
-rtc
+webrtc
 :
 :
 kNumMicrosecsPerSec
@@ -64833,7 +64833,7 @@ VideoRotation
 :
 :
 kVideoRotation_0
-rtc
+webrtc
 :
 :
 kNumMicrosecsPerSec
@@ -65648,7 +65648,7 @@ test_params
 resolution
 .
 height
-rtc
+webrtc
 :
 :
 kNumMicrosecsPerSec
@@ -76113,7 +76113,7 @@ VideoRotation
 :
 :
 kVideoRotation_0
-rtc
+webrtc
 :
 :
 kNumMicrosecsPerSec
@@ -79922,7 +79922,7 @@ frame_source
 (
 capture_width
 capture_height
-rtc
+webrtc
 :
 :
 kNumMicrosecsPerSec
@@ -81771,7 +81771,7 @@ frame_source
 (
 1280
 720
-rtc
+webrtc
 :
 :
 kNumMicrosecsPerSec
@@ -82276,7 +82276,7 @@ frame_source
 (
 1280
 720
-rtc
+webrtc
 :
 :
 kNumMicrosecsPerSec
@@ -82939,7 +82939,7 @@ frame_source
 (
 1280
 720
-rtc
+webrtc
 :
 :
 kNumMicrosecsPerSec

@@ -5611,7 +5611,7 @@ clock
 int64_t
 connect_start
 =
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -5699,7 +5699,7 @@ IsRtcOk
 ;
 connect_time
 =
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -5817,7 +5817,7 @@ selected_connection
 int64_t
 converge_start
 =
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -5959,7 +5959,7 @@ expected
 ;
 converge_time
 =
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -31780,7 +31780,7 @@ buf
 Length
 (
 )
-rtc
+webrtc
 :
 :
 TimeMicros
@@ -32976,7 +32976,7 @@ TimeNanos
 start
 )
 /
-rtc
+webrtc
 :
 :
 kNumNanosecsPerMillisec
@@ -33078,7 +33078,7 @@ TimeNanos
 start
 )
 /
-rtc
+webrtc
 :
 :
 kNumNanosecsPerMillisec
@@ -33191,7 +33191,7 @@ TimeNanos
 start
 )
 /
-rtc
+webrtc
 :
 :
 kNumNanosecsPerMillisec
@@ -33245,7 +33245,7 @@ TimeNanos
 (
 )
 /
-rtc
+webrtc
 :
 :
 kNumNanosecsPerMillisec
@@ -33287,7 +33287,7 @@ TimeNanos
 (
 )
 /
-rtc
+webrtc
 :
 :
 kNumNanosecsPerMillisec
@@ -33309,7 +33309,7 @@ TimeNanos
 start
 )
 /
-rtc
+webrtc
 :
 :
 kNumNanosecsPerMillisec
@@ -33441,7 +33441,7 @@ TimeNanos
 start
 )
 /
-rtc
+webrtc
 :
 :
 kNumNanosecsPerMillisec
@@ -36133,7 +36133,7 @@ CreateFromLegacy
 ABC
 "
 3
-rtc
+webrtc
 :
 :
 TimeMicros
@@ -39864,7 +39864,7 @@ CreateFromLegacy
 ABC
 "
 3
-rtc
+webrtc
 :
 :
 TimeMicros
@@ -40198,7 +40198,7 @@ CreateFromLegacy
 XYZ
 "
 3
-rtc
+webrtc
 :
 :
 TimeMicros
@@ -40503,7 +40503,7 @@ CreateFromLegacy
 XYZ
 "
 3
-rtc
+webrtc
 :
 :
 TimeMicros
@@ -40560,7 +40560,7 @@ CreateFromLegacy
 ABC
 "
 3
-rtc
+webrtc
 :
 :
 TimeMicros
@@ -40653,7 +40653,7 @@ CreateFromLegacy
 ABC
 "
 3
-rtc
+webrtc
 :
 :
 TimeMicros
@@ -40927,7 +40927,7 @@ CreateFromLegacy
 XYZ
 "
 3
-rtc
+webrtc
 :
 :
 TimeMicros
@@ -41809,7 +41809,7 @@ CreateFromLegacy
 XYZ
 "
 3
-rtc
+webrtc
 :
 :
 TimeMicros
@@ -41923,7 +41923,7 @@ CreateFromLegacy
 XYZ
 "
 3
-rtc
+webrtc
 :
 :
 TimeMicros
@@ -43782,7 +43782,7 @@ CreateFromLegacy
 XYZ
 "
 3
-rtc
+webrtc
 :
 :
 TimeMicros

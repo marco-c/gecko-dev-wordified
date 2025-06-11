@@ -4083,7 +4083,7 @@ deterministic
 expiration
 timestamp
 .
-rtc
+webrtc
 :
 :
 SetRandomTestMode
@@ -4108,7 +4108,7 @@ the
 next
 test
 .
-rtc
+webrtc
 :
 :
 SetRandomTestMode
@@ -4732,7 +4732,7 @@ buf
 length
 ]
 =
-rtc
+webrtc
 :
 :
 CreateRandomId
@@ -4839,7 +4839,7 @@ buf
 length
 ]
 =
-rtc
+webrtc
 :
 :
 CreateRandomId
@@ -4991,7 +4991,7 @@ nullptr
 time_t
 lifetime
 =
-rtc
+webrtc
 :
 :
 CreateRandomId

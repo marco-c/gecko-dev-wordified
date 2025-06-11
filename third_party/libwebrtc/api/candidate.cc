@@ -295,9 +295,6 @@ Candidate
 :
 id_
 (
-rtc
-:
-:
 CreateRandomString
 (
 8
@@ -399,9 +396,6 @@ network_cost
 :
 id_
 (
-rtc
-:
-:
 CreateRandomString
 (
 8
@@ -499,9 +493,6 @@ generate_id
 {
 id_
 =
-rtc
-:
-:
 CreateRandomString
 (
 8

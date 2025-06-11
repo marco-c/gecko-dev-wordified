@@ -202,9 +202,6 @@ result
 int64_t
 time_us
 =
-rtc
-:
-:
 TimeMicros
 (
 )

@@ -3887,9 +3887,6 @@ rtc
 :
 ToString
 (
-rtc
-:
-:
 CreateRandomId64
 (
 )
@@ -7913,9 +7910,6 @@ id
 (
 )
 :
-rtc
-:
-:
 CreateRandomUuid
 (
 )
@@ -7953,9 +7947,6 @@ rtp_manager
 CreateReceiver
 (
 media_type
-rtc
-:
-:
 CreateRandomUuid
 (
 )
@@ -8212,9 +8203,6 @@ stream_ids
 .
 push_back
 (
-rtc
-:
-:
 CreateRandomUuid
 (
 )
@@ -8306,9 +8294,6 @@ env_
 worker_thread
 (
 )
-rtc
-:
-:
 CreateRandomUuid
 (
 )
@@ -8398,9 +8383,6 @@ env_
 worker_thread
 (
 )
-rtc
-:
-:
 CreateRandomUuid
 (
 )

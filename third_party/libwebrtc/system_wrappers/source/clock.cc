@@ -124,9 +124,6 @@ kNtpJan1970Sec
 int64_t
 clock_time
 =
-rtc
-:
-:
 TimeMicros
 (
 )
@@ -134,9 +131,6 @@ TimeMicros
 int64_t
 utc_time
 =
-rtc
-:
-:
 TimeUTCMicros
 (
 )
@@ -148,9 +142,6 @@ clock_time
 +
 kNtpJan1970Sec
 *
-rtc
-:
-:
 kNumMicrosecsPerSec
 ;
 }
@@ -232,9 +223,6 @@ uint64_t
 (
 time_ntp_us
 /
-rtc
-:
-:
 kNumMicrosecsPerSec
 )
 ;
@@ -263,9 +251,6 @@ us_fractions
 =
 time_ntp_us
 %
-rtc
-:
-:
 kNumMicrosecsPerSec
 ;
 uint32_t
@@ -275,9 +260,6 @@ us_fractions
 *
 kNtpFractionsInSecond
 /
-rtc
-:
-:
 kNumMicrosecsPerSec
 ;
 return
@@ -318,9 +300,6 @@ Timestamp
 :
 Micros
 (
-rtc
-:
-:
 TimeMicros
 (
 )

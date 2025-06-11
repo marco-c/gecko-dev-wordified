@@ -805,9 +805,6 @@ UpdateProfileTimeStamp
 {
 profile_timestamp_ms_
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -844,9 +841,6 @@ return
 ;
 }
 return
-rtc
-:
-:
 TimeSince
 (
 profile_timestamp_ms_

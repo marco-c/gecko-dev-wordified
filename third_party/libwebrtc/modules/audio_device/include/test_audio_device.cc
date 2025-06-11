@@ -342,9 +342,6 @@ constexpr
 int
 kFramesPerSecond
 =
-rtc
-:
-:
 kNumMicrosecsPerSec
 /
 kFrameLengthUs

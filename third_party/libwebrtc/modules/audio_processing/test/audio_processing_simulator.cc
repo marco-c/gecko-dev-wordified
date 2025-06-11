@@ -635,9 +635,6 @@ call_type
 :
 start_time_
 (
-rtc
-:
-:
 TimeNanos
 (
 )
@@ -662,9 +659,6 @@ api_call_statistics_
 >
 Add
 (
-rtc
-:
-:
 TimeNanos
 (
 )

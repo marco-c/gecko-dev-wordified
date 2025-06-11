@@ -956,7 +956,7 @@ STUN_BINDING_RESPONSE
 int64_t
 start
 =
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -1037,7 +1037,7 @@ IsRtcOk
 int64_t
 elapsed
 =
-rtc
+webrtc
 :
 :
 TimeMillis

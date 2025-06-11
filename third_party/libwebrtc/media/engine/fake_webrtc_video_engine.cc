@@ -1612,9 +1612,6 @@ num_encoders
 int64_t
 start_offset_ms
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -1651,9 +1648,6 @@ ms
 )
 -
 (
-rtc
-:
-:
 TimeMillis
 (
 )

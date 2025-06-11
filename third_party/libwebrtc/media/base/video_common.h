@@ -1917,7 +1917,7 @@ const
 int64_t
 kMinimumInterval
 =
-rtc
+webrtc
 :
 :
 kNumNanosecsPerSec
@@ -2030,7 +2030,7 @@ fps
 return
 fps
 ?
-rtc
+webrtc
 :
 :
 kNumNanosecsPerSec
@@ -2064,7 +2064,7 @@ static_cast
 int
 >
 (
-rtc
+webrtc
 :
 :
 kNumNanosecsPerSec
@@ -2099,7 +2099,7 @@ static_cast
 float
 >
 (
-rtc
+webrtc
 :
 :
 kNumNanosecsPerSec

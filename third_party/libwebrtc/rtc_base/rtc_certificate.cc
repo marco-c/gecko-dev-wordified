@@ -255,9 +255,6 @@ uint64_t
 expires
 )
 *
-rtc
-:
-:
 kNumMillisecsPerSec
 ;
 /

@@ -483,9 +483,6 @@ periodic_track_source_config
 .
 timestamp_offset_ms
 =
-rtc
-:
-:
 TimeMillis
 (
 )

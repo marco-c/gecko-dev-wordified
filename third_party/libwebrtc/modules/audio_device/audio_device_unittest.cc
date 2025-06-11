@@ -1899,9 +1899,6 @@ pulse_time_
 {
 pulse_time_
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -2138,9 +2135,6 @@ index_of_max
 int64_t
 now_time
 =
-rtc
-:
-:
 TimeMillis
 (
 )

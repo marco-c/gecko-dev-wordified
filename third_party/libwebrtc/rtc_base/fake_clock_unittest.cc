@@ -118,9 +118,6 @@ kFixedTimeUs
 int64_t
 real_time_us
 =
-rtc
-:
-:
 TimeMicros
 (
 )
@@ -137,9 +134,6 @@ scoped
 ;
 EXPECT_EQ
 (
-rtc
-:
-:
 TimeMicros
 (
 )
@@ -161,9 +155,6 @@ Millis
 ;
 EXPECT_EQ
 (
-rtc
-:
-:
 TimeMicros
 (
 )
@@ -185,9 +176,6 @@ kFixedTimeUs
 ;
 EXPECT_EQ
 (
-rtc
-:
-:
 TimeMicros
 (
 )
@@ -209,9 +197,6 @@ Millis
 ;
 EXPECT_EQ
 (
-rtc
-:
-:
 TimeMicros
 (
 )
@@ -223,9 +208,6 @@ kFixedTimeUs
 }
 EXPECT_NE
 (
-rtc
-:
-:
 TimeMicros
 (
 )
@@ -236,9 +218,6 @@ kFixedTimeUs
 ;
 EXPECT_GE
 (
-rtc
-:
-:
 TimeMicros
 (
 )

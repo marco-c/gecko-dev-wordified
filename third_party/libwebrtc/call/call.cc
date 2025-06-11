@@ -9613,9 +9613,6 @@ receive_time_calculator_
 ReconcileReceiveTimes
 (
 packet_time_us
-rtc
-:
-:
 TimeUTCMicros
 (
 )

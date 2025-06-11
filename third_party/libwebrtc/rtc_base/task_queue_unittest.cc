@@ -377,9 +377,6 @@ HIGH
 uint32_t
 start
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -439,9 +436,6 @@ Seconds
 uint32_t
 end
 =
-rtc
-:
-:
 TimeMillis
 (
 )

@@ -581,9 +581,6 @@ thread
 )
 nonce_key_
 (
-rtc
-:
-:
 CreateRandomString
 (
 kNonceKeySize
@@ -2858,9 +2855,6 @@ TimeDelta
 :
 Millis
 (
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -3169,9 +3163,6 @@ resp
 int64_t
 timestamp
 =
-rtc
-:
-:
 TimeMillis
 (
 )

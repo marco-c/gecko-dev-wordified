@@ -187,9 +187,6 @@ us
 =
 kMaxCompactNtp
 *
-rtc
-:
-:
 kNumMicrosecsPerSec
 /
 kCompactNtpInSecond
@@ -245,9 +242,6 @@ us
 )
 *
 kCompactNtpInSecond
-rtc
-:
-:
 kNumMicrosecsPerSec
 )
 ;
@@ -350,9 +344,6 @@ DivideRoundToNearest
 (
 value
 *
-rtc
-:
-:
 kNumMicrosecsPerSec
 1
 <

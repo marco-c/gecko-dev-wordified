@@ -2083,7 +2083,7 @@ static_cast
 int
 >
 (
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -2130,7 +2130,7 @@ return
 }
 tstamp_
 =
-rtc
+webrtc
 :
 :
 TimeMillis

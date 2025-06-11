@@ -1131,9 +1131,6 @@ delayed_entry
 .
 next_fire_at_us
 =
-rtc
-:
-:
 TimeMicros
 (
 )
@@ -1197,9 +1194,6 @@ const
 int64_t
 tick_us
 =
-rtc
-:
-:
 TimeMicros
 (
 )

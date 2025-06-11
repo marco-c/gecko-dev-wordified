@@ -4178,9 +4178,6 @@ total_frames_duration_ms_double
 =
 total_inter_frame_delay_
 *
-rtc
-:
-:
 kNumMillisecsPerSec
 ;
 if

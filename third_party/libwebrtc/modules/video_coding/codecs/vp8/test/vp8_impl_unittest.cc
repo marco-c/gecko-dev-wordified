@@ -1690,9 +1690,6 @@ set_timestamp_us
 (
 kInitialTimestampMs
 *
-rtc
-:
-:
 kNumMicrosecsPerMillisec
 )
 ;
@@ -3118,9 +3115,6 @@ set_timestamp_us
 (
 kInitialTimestampMs
 *
-rtc
-:
-:
 kNumMicrosecsPerMillisec
 )
 ;

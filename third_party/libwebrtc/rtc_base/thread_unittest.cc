@@ -3504,6 +3504,9 @@ done
 int64_t
 now
 =
+webrtc
+:
+:
 TimeMillis
 (
 )
@@ -3670,6 +3673,9 @@ posted
 .
 RTC_DCHECK_EQ
 (
+webrtc
+:
+:
 TimeMillis
 (
 )

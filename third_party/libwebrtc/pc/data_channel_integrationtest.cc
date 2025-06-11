@@ -5992,9 +5992,6 @@ message
 ;
 ASSERT_TRUE
 (
-rtc
-:
-:
 CreateRandomString
 (
 length

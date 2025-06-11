@@ -3561,9 +3561,6 @@ ts_upper
 ts_lower
 )
 /
-rtc
-:
-:
 kNumMicrosecsPerSec
 ;
 marker

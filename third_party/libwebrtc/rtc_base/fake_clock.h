@@ -193,9 +193,6 @@ class
 FakeClock
 :
 public
-rtc
-:
-:
 ClockInterface
 {
 public
@@ -311,9 +308,6 @@ class
 ThreadProcessingFakeClock
 :
 public
-rtc
-:
-:
 ClockInterface
 {
 public
@@ -397,9 +391,6 @@ override
 ;
 private
 :
-rtc
-:
-:
 ClockInterface
 *
 prev_clock_
@@ -443,9 +434,6 @@ ScopedFakeClock
 override
 ;
 private
-:
-rtc
-:
 :
 ClockInterface
 *

@@ -266,9 +266,6 @@ execution
 int
 cms
 =
-rtc
-:
-:
 GetClockForTesting
 (
 )

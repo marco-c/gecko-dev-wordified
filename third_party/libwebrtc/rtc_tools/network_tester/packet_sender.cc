@@ -212,9 +212,6 @@ task_safety_flag
 int64_t
 target_time_ms
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -290,9 +287,6 @@ int64_t
 )
 target_time_ms
 -
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -745,9 +739,6 @@ packet
 .
 set_send_timestamp
 (
-rtc
-:
-:
 TimeMicros
 (
 )

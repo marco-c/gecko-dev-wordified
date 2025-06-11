@@ -795,9 +795,6 @@ FileUtilsTest
 RandomOutputPathFromUnchangedWorkingDir
 )
 {
-rtc
-:
-:
 SetRandomTestMode
 (
 true
@@ -886,9 +883,6 @@ data
 )
 )
 ;
-rtc
-:
-:
 SetRandomTestMode
 (
 true

@@ -153,16 +153,8 @@ gtest
 h
 "
 namespace
-rtc
-{
-using
-:
-:
 webrtc
-:
-:
-TimeDelta
-;
+{
 TEST
 (
 TimeTest
@@ -176,6 +168,9 @@ TimeMillis
 (
 )
 ;
+rtc
+:
+:
 Thread
 :
 :
@@ -410,9 +405,6 @@ ts_diff
 int64_t
 ts_earlier
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -427,9 +419,6 @@ ts_diff
 EXPECT_EQ
 (
 ts_diff
-rtc
-:
-:
 TimeDiff
 (
 ts_later
@@ -441,9 +430,6 @@ EXPECT_EQ
 (
 -
 ts_diff
-rtc
-:
-:
 TimeDiff
 (
 ts_earlier
@@ -453,7 +439,7 @@ ts_later
 ;
 }
 class
-TmToSeconds
+TmToSecondsTest
 :
 public
 :
@@ -465,7 +451,7 @@ Test
 {
 public
 :
-TmToSeconds
+TmToSecondsTest
 (
 )
 {
@@ -483,9 +469,6 @@ deterministic
 expiration
 timestamp
 .
-rtc
-:
-:
 SetRandomTestMode
 (
 true
@@ -493,7 +476,7 @@ true
 ;
 }
 ~
-TmToSeconds
+TmToSecondsTest
 (
 )
 override
@@ -508,9 +491,6 @@ the
 next
 test
 .
-rtc
-:
-:
 SetRandomTestMode
 (
 false
@@ -578,9 +558,6 @@ happy
 int
 year
 =
-rtc
-:
-:
 CreateRandomId
 (
 )
@@ -662,9 +639,6 @@ tm
 .
 tm_mon
 =
-rtc
-:
-:
 CreateRandomId
 (
 )
@@ -675,9 +649,6 @@ tm
 .
 tm_mday
 =
-rtc
-:
-:
 CreateRandomId
 (
 )
@@ -695,9 +666,6 @@ tm
 .
 tm_hour
 =
-rtc
-:
-:
 CreateRandomId
 (
 )
@@ -708,9 +676,6 @@ tm
 .
 tm_min
 =
-rtc
-:
-:
 CreateRandomId
 (
 )
@@ -721,9 +686,6 @@ tm
 .
 tm_sec
 =
-rtc
-:
-:
 CreateRandomId
 (
 )
@@ -733,9 +695,6 @@ CreateRandomId
 int64_t
 t
 =
-rtc
-:
-:
 TmToSeconds
 (
 tm
@@ -765,9 +724,6 @@ unhappy
 .
 switch
 (
-rtc
-:
-:
 CreateRandomId
 (
 )
@@ -924,9 +880,6 @@ break
 }
 EXPECT_EQ
 (
-rtc
-:
-:
 TmToSeconds
 (
 tm
@@ -984,9 +937,6 @@ i
 time_t
 t
 =
-rtc
-:
-:
 CreateRandomId
 (
 )
@@ -1022,9 +972,6 @@ tm
 ;
 EXPECT_TRUE
 (
-rtc
-:
-:
 TmToSeconds
 (
 *
@@ -1056,9 +1003,6 @@ tm
 ;
 EXPECT_TRUE
 (
-rtc
-:
-:
 TmToSeconds
 (
 tm
@@ -1076,7 +1020,7 @@ endif
 ;
 TEST_F
 (
-TmToSeconds
+TmToSecondsTest
 TestTmToSeconds
 )
 {
@@ -1117,9 +1061,6 @@ FakeClock
 TimeFunctionsUseFakeClock
 )
 {
-webrtc
-:
-:
 FakeClock
 clock
 ;
@@ -1133,9 +1074,6 @@ clock
 .
 SetTime
 (
-webrtc
-:
-:
 Timestamp
 :
 :
@@ -1220,9 +1158,6 @@ FakeClock
 InitialTime
 )
 {
-webrtc
-:
-:
 FakeClock
 clock
 ;
@@ -1243,9 +1178,6 @@ FakeClock
 SetTime
 )
 {
-webrtc
-:
-:
 FakeClock
 clock
 ;
@@ -1253,9 +1185,6 @@ clock
 .
 SetTime
 (
-webrtc
-:
-:
 Timestamp
 :
 :
@@ -1279,9 +1208,6 @@ clock
 .
 SetTime
 (
-webrtc
-:
-:
 Timestamp
 :
 :
@@ -1308,9 +1234,6 @@ FakeClock
 AdvanceTime
 )
 {
-webrtc
-:
-:
 FakeClock
 clock
 ;
@@ -1318,9 +1241,6 @@ clock
 .
 AdvanceTime
 (
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -1344,9 +1264,6 @@ clock
 .
 AdvanceTime
 (
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -1370,9 +1287,6 @@ clock
 .
 AdvanceTime
 (
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -1396,9 +1310,6 @@ clock
 .
 AdvanceTime
 (
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -1494,9 +1405,6 @@ TimeMillis
 (
 )
 ;
-webrtc
-:
-:
 ThreadProcessingFakeClock
 clock
 ;
@@ -1511,10 +1419,16 @@ std
 :
 unique_ptr
 <
+rtc
+:
+:
 Thread
 >
 worker
 (
+rtc
+:
+:
 Thread
 :
 :
@@ -1545,9 +1459,6 @@ for
 10
 seconds
 .
-webrtc
-:
-:
 Event
 message_handler_dispatched
 ;
@@ -1623,6 +1534,9 @@ it
 was
 started
 .
+rtc
+:
+:
 Thread
 :
 :
@@ -1661,9 +1575,6 @@ clock
 .
 AdvanceTime
 (
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -1679,9 +1590,6 @@ message_handler_dispatched
 .
 Wait
 (
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -1747,4 +1655,4 @@ real_start_time_ms
 /
 /
 namespace
-rtc
+webrtc

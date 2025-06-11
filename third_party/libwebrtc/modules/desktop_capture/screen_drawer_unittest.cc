@@ -437,9 +437,6 @@ const
 int64_t
 current_ms
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -511,9 +508,6 @@ lock
 .
 while
 (
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -528,9 +522,6 @@ SleepMs
 kLockDurationMs
 -
 (
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -708,9 +699,6 @@ const
 int64_t
 start_ms
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -761,9 +749,6 @@ lock
 ASSERT_GT
 (
 kLockDurationMs
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -778,9 +763,6 @@ ctor
 ASSERT_LE
 (
 kLockDurationMs
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -956,9 +938,6 @@ DrawableRegion
 Random
 random
 (
-rtc
-:
-:
 TimeMicros
 (
 )

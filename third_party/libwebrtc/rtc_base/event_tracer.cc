@@ -2488,9 +2488,6 @@ num_args
 arg_names
 arg_types
 arg_values
-rtc
-:
-:
 TimeMicros
 (
 )

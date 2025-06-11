@@ -342,17 +342,11 @@ config
 .
 frame_interval_ms
 *
-rtc
-:
-:
 kNumMicrosecsPerMillisec
 config
 .
 timestamp_offset_ms
 *
-rtc
-:
-:
 kNumMicrosecsPerMillisec
 )
 task_queue_

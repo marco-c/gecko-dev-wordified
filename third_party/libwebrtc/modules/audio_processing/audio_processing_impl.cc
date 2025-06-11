@@ -3698,9 +3698,6 @@ WriteInitMessage
 formats_
 .
 api_format
-rtc
-:
-:
 TimeUTCMillis
 (
 )
@@ -10864,9 +10861,6 @@ WriteInitMessage
 formats_
 .
 api_format
-rtc
-:
-:
 TimeUTCMillis
 (
 )

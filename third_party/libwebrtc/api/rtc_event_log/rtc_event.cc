@@ -117,9 +117,6 @@ RtcEvent
 :
 timestamp_us_
 (
-rtc
-:
-:
 TimeMillis
 (
 )

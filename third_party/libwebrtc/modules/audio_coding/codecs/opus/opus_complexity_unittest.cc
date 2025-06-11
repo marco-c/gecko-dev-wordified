@@ -357,9 +357,6 @@ const
 int64_t
 start_time_ms
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -430,9 +427,6 @@ kInputBlockSizeSamples
 ;
 }
 return
-rtc
-:
-:
 TimeMillis
 (
 )

@@ -256,7 +256,7 @@ GetThreadCpuTimeNanos
 +
 kProcessingTimeMillisecs
 *
-rtc
+webrtc
 :
 :
 kNumNanosecsPerMillisec
@@ -526,6 +526,9 @@ kProcessingTimeMillisecs
 kAllowedErrorMillisecs
 )
 *
+webrtc
+:
+:
 kNumNanosecsPerMillisec
 )
 ;
@@ -566,6 +569,9 @@ kProcessingTimeMillisecs
 kAllowedErrorMillisecs
 )
 *
+webrtc
+:
+:
 kNumNanosecsPerMillisec
 )
 ;
@@ -633,6 +639,9 @@ kProcessingTimeMillisecs
 kAllowedErrorMillisecs
 )
 *
+webrtc
+:
+:
 kNumNanosecsPerMillisec
 )
 ;

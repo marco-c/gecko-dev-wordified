@@ -365,16 +365,10 @@ NowSeconds
 const
 {
 return
-rtc
-:
-:
 TimeNanos
 (
 )
 /
-rtc
-:
-:
 kNumNanosecsPerSec
 ;
 }
@@ -406,9 +400,6 @@ exp_s
 =
 exp_ms
 /
-rtc
-:
-:
 kNumMillisecsPerSec
 ;
 /
@@ -428,9 +419,6 @@ RTC_CHECK_EQ
 (
 exp_s
 *
-rtc
-:
-:
 kNumMillisecsPerSec
 exp_ms
 )
@@ -462,9 +450,6 @@ HasExpired
 (
 now_s
 *
-rtc
-:
-:
 kNumMillisecsPerSec
 )
 ;

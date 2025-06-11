@@ -603,9 +603,6 @@ CF_ALL
 )
 tiebreaker_
 (
-rtc
-:
-:
 CreateRandomId64
 (
 )

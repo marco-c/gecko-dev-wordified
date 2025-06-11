@@ -2204,9 +2204,6 @@ static_cast
 double
 >
 (
-rtc
-:
-:
 kNumMillisecsPerSec
 )
 ;
@@ -2998,9 +2995,6 @@ voice_receiver_info
 jitter_ms
 )
 /
-rtc
-:
-:
 kNumMillisecsPerSec
 ;
 inbound_audio
@@ -3261,9 +3255,6 @@ voice_receiver_info
 total_interruption_duration_ms
 )
 /
-rtc
-:
-:
 kNumMillisecsPerSec
 ;
 return
@@ -3914,9 +3905,6 @@ video_receiver_info
 jitter_ms
 )
 /
-rtc
-:
-:
 kNumMillisecsPerSec
 ;
 inbound_video
@@ -4261,9 +4249,6 @@ video_receiver_info
 total_pauses_duration_ms
 )
 /
-rtc
-:
-:
 kNumMillisecsPerSec
 ;
 inbound_video
@@ -4290,9 +4275,6 @@ video_receiver_info
 total_freezes_duration_ms
 )
 /
-rtc
-:
-:
 kNumMillisecsPerSec
 ;
 inbound_video
@@ -4310,9 +4292,6 @@ video_receiver_info
 min_playout_delay_ms
 )
 /
-rtc
-:
-:
 kNumMillisecsPerSec
 ;
 if
@@ -5290,9 +5269,6 @@ video_sender_info
 total_encode_time_ms
 )
 /
-rtc
-:
-:
 kNumMillisecsPerSec
 ;
 outbound_video
@@ -8209,9 +8185,6 @@ timer
 int64_t
 cache_now_us
 =
-rtc
-:
-:
 TimeMicros
 (
 )
@@ -8416,9 +8389,6 @@ Timestamp
 :
 Micros
 (
-rtc
-:
-:
 TimeUTCMicros
 (
 )
@@ -10389,9 +10359,6 @@ info
 total_round_trip_time_ms
 )
 /
-rtc
-:
-:
 kNumMillisecsPerSec
 ;
 if
@@ -10421,9 +10388,6 @@ info
 current_round_trip_time_ms
 )
 /
-rtc
-:
-:
 kNumMillisecsPerSec
 ;
 }

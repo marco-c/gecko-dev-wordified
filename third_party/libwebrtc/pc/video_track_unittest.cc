@@ -219,7 +219,7 @@ frame_source_
 (
 640
 480
-rtc
+webrtc
 :
 :
 kNumMicrosecsPerSec

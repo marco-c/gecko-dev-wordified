@@ -659,9 +659,6 @@ metadata
 .
 encode_start_time_ms
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -760,9 +757,6 @@ empty
 )
 |
 |
-rtc
-:
-:
 TimeDiff
 (
 frame
@@ -1009,9 +1003,6 @@ kNotTriggered
 int64_t
 encode_done_ms
 =
-rtc
-:
-:
 TimeMillis
 (
 )

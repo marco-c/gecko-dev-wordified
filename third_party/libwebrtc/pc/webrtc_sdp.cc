@@ -6121,9 +6121,6 @@ stream
 .
 id
 =
-rtc
-:
-:
 CreateRandomString
 (
 8
@@ -25962,9 +25959,6 @@ empty
 {
 track_id
 =
-rtc
-:
-:
 CreateRandomString
 (
 8

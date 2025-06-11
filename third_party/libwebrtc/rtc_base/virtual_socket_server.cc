@@ -6393,9 +6393,6 @@ return
 int64_t
 cur_time
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -6763,9 +6760,6 @@ return
 int64_t
 cur_time
 =
-rtc
-:
-:
 TimeMillis
 (
 )

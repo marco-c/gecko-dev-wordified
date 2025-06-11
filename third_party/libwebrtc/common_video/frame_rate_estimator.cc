@@ -233,9 +233,6 @@ static_cast
 double
 >
 (
-rtc
-:
-:
 kNumMicrosecsPerSec
 )
 /

@@ -567,9 +567,6 @@ stop_ns
 start_ns
 )
 /
-rtc
-:
-:
 kNumNanosecsPerMicrosec
 ;
 RTC_DCHECK_GE
@@ -2213,9 +2210,6 @@ const
 int64_t
 encode_start_ns
 =
-rtc
-:
-:
 TimeNanos
 (
 )
@@ -2764,9 +2758,6 @@ const
 int64_t
 encode_stop_ns
 =
-rtc
-:
-:
 TimeNanos
 (
 )
@@ -3660,9 +3651,6 @@ layers
 post_encode_time_ns_
 +
 =
-rtc
-:
-:
 TimeNanos
 (
 )
@@ -4064,9 +4052,6 @@ const
 int64_t
 decode_stop_ns
 =
-rtc
-:
-:
 TimeNanos
 (
 )
@@ -4693,9 +4678,6 @@ frame_stat
 >
 decode_start_ns
 =
-rtc
-:
-:
 TimeNanos
 (
 )

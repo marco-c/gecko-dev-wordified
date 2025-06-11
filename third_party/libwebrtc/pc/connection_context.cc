@@ -871,14 +871,8 @@ thread
 )
 ;
 }
-rtc
-:
-:
 InitRandom
 (
-rtc
-:
-:
 Time32
 (
 )

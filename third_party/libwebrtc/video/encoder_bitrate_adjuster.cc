@@ -2863,9 +2863,6 @@ size
 bytes
 (
 )
-rtc
-:
-:
 TimeMillis
 (
 )

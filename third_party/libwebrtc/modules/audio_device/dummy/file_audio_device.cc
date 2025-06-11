@@ -2112,9 +2112,6 @@ false
 int64_t
 currentTime
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -2213,9 +2210,6 @@ Unlock
 int64_t
 deltaTimeMillis
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -2262,9 +2256,6 @@ false
 int64_t
 currentTime
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -2366,9 +2357,6 @@ Unlock
 int64_t
 deltaTimeMillis
 =
-rtc
-:
-:
 TimeMillis
 (
 )

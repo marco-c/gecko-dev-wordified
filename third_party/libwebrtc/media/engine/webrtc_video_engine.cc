@@ -967,7 +967,7 @@ constexpr
 int64_t
 kUnsignaledSsrcCooldownMs
 =
-rtc
+webrtc
 :
 :
 kNumMillisecsPerSec
@@ -12203,7 +12203,7 @@ false
 int64_t
 now_ms
 =
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -18180,7 +18180,7 @@ stats
 .
 ToString
 (
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -23309,7 +23309,7 @@ false
 int64_t
 now_ms
 =
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -24089,7 +24089,7 @@ has_value
 int64_t
 now_ms
 =
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -24193,7 +24193,7 @@ nullopt
 ;
 last_unsignalled_ssrc_creation_time_ms_
 =
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -26802,7 +26802,7 @@ sink_lock_
 int64_t
 time_now_ms
 =
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -28063,7 +28063,7 @@ stats
 .
 ToString
 (
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -28680,7 +28680,7 @@ Timestamp
 :
 Micros
 (
-rtc
+webrtc
 :
 :
 TimeMicros

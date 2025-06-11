@@ -1298,9 +1298,6 @@ input_frame
 int64_t
 start_time_nanos
 =
-rtc
-:
-:
 TimeNanos
 (
 )
@@ -1550,9 +1547,6 @@ capture_time_ms
 )
 +
 (
-rtc
-:
-:
 TimeNanos
 (
 )
@@ -1560,9 +1554,6 @@ TimeNanos
 start_time_nanos
 )
 /
-rtc
-:
-:
 kNumNanosecsPerMillisec
 )
 ;

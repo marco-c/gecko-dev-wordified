@@ -1508,9 +1508,6 @@ debug_dump_writer
 DumpControllerManagerConfig
 (
 controller_manager_config
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -2252,9 +2249,6 @@ const
 int64_t
 now_ms
 =
-rtc
-:
-:
 TimeMillis
 (
 )

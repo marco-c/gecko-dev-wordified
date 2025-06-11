@@ -2358,9 +2358,6 @@ kRepetitions
 int64_t
 start
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -2399,9 +2396,6 @@ message
 }
 finish
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -2449,9 +2443,6 @@ time
 "
 <
 <
-rtc
-:
-:
 TimeDiff
 (
 finish

@@ -11691,7 +11691,7 @@ network_thread_
 int64_t
 now
 =
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -12793,7 +12793,7 @@ estimated_disconnected_time_ms
 =
 ComputeEstimatedDisconnectedTimeMs
 (
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -14184,7 +14184,7 @@ use_candidate_attr
 ;
 last_ping_sent_ms_
 =
-rtc
+webrtc
 :
 :
 TimeMillis

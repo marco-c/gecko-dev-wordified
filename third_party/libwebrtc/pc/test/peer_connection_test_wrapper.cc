@@ -3455,7 +3455,7 @@ config
 .
 timestamp_offset_ms
 =
-rtc
+webrtc
 :
 :
 TimeMillis

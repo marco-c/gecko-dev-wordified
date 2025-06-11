@@ -4433,9 +4433,6 @@ worker_thread_checker_
 int64_t
 now_ms
 =
-rtc
-:
-:
 TimeMillis
 (
 )
@@ -5066,9 +5063,6 @@ packet
 UpdatePlayoutTimestamp
 (
 true
-rtc
-:
-:
 TimeMillis
 (
 )

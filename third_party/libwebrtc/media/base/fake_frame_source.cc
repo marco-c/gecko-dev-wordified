@@ -239,9 +239,6 @@ FakeFrameSource
 width
 height
 interval_us
-rtc
-:
-:
 TimeMicros
 (
 )
