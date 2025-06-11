@@ -658,7 +658,7 @@ storeID
 await
 service
 .
-asyncFlushGroupProfile
+asyncFlushCurrentProfile
 (
 )
 ;
@@ -934,7 +934,7 @@ newProfileDir
 await
 service
 .
-asyncFlushGroupProfile
+asyncFlushCurrentProfile
 (
 )
 ;
@@ -1241,7 +1241,7 @@ directory
 await
 service
 .
-asyncFlushGroupProfile
+asyncFlushCurrentProfile
 (
 )
 ;

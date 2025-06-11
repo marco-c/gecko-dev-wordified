@@ -33,7 +33,7 @@ zero
 Tests
 that
 the
-group
+current
 profile
 is
 correctly
@@ -199,19 +199,9 @@ Assert
 .
 ok
 (
-!
 service
 .
 currentProfile
-)
-;
-Assert
-.
-ok
-(
-service
-.
-groupProfile
 )
 ;
 Assert
@@ -220,7 +210,7 @@ equal
 (
 service
 .
-groupProfile
+currentProfile
 .
 storeID
 "
@@ -234,7 +224,7 @@ equal
 (
 service
 .
-groupProfile
+currentProfile
 .
 rootDir
 .

@@ -194,16 +194,6 @@ Assert
 ok
 (
 !
-service
-.
-groupProfile
-)
-;
-Assert
-.
-ok
-(
-!
 profile
 .
 storeID

@@ -663,7 +663,7 @@ ok
 !
 gProfileService
 .
-groupProfile
+currentProfile
 .
 showProfileSelector
 "
@@ -732,7 +732,7 @@ state
 .
 gProfileService
 .
-groupProfile
+currentProfile
 .
 showProfileSelector
 =
@@ -793,7 +793,7 @@ ok
 (
 gProfileService
 .
-groupProfile
+currentProfile
 .
 showProfileSelector
 "

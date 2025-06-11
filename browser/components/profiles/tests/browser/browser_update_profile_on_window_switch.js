@@ -290,7 +290,7 @@ Failed
 }
 ;
 let
-asyncFlushGroupProfileResolver
+asyncFlushCurrentProfileResolver
 =
 Promise
 .
@@ -300,13 +300,13 @@ withResolvers
 ;
 gProfileService
 .
-asyncFlushGroupProfile
+asyncFlushCurrentProfile
 =
 (
 )
 =
 >
-asyncFlushGroupProfileResolver
+asyncFlushCurrentProfileResolver
 .
 resolve
 (
@@ -321,7 +321,7 @@ window
 )
 ;
 await
-asyncFlushGroupProfileResolver
+asyncFlushCurrentProfileResolver
 .
 promise
 ;
