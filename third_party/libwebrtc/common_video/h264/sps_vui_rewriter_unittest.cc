@@ -2159,9 +2159,6 @@ ParseResult
 expected_parse_result
 )
 {
-rtc
-:
-:
 LogMessage
 :
 :
@@ -2173,9 +2170,6 @@ rtc
 LS_VERBOSE
 )
 ;
-rtc
-:
-:
 Buffer
 original_sps
 ;
@@ -2694,9 +2688,6 @@ SpsVuiRewriterOutgoingVuiTest
 ParseOutgoingBitstreamOptimalVui
 )
 {
-rtc
-:
-:
 LogMessage
 :
 :
@@ -2783,9 +2774,6 @@ SpsVuiRewriterOutgoingVuiTest
 ParseOutgoingBitstreamNoVui
 )
 {
-rtc
-:
-:
 LogMessage
 :
 :
@@ -2961,9 +2949,6 @@ SpsVuiRewriterOutgoingAudTest
 ParseOutgoingBitstreamWithAud
 )
 {
-rtc
-:
-:
 LogMessage
 :
 :

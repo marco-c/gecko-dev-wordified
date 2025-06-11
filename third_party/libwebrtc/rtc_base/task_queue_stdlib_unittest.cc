@@ -219,9 +219,6 @@ class
 StringPtrLogSink
 :
 public
-rtc
-:
-:
 LogSink
 {
 public
@@ -328,9 +325,6 @@ stream
 log_output
 )
 ;
-rtc
-:
-:
 LogMessage
 :
 :
@@ -408,9 +402,6 @@ task_queue
 =
 nullptr
 ;
-rtc
-:
-:
 LogMessage
 :
 :
