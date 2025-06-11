@@ -101,7 +101,7 @@ arraysize
 h
 "
 namespace
-rtc
+webrtc
 {
 /
 /
@@ -340,4 +340,4 @@ c
 /
 /
 namespace
-rtc
+webrtc

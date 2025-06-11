@@ -106,7 +106,7 @@ gtest
 h
 "
 namespace
-rtc
+webrtc
 {
 TEST
 (
@@ -213,4 +213,4 @@ c
 /
 /
 namespace
-rtc
+webrtc
