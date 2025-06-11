@@ -13349,9 +13349,6 @@ const
 auto
 found
 =
-gl
-:
-:
 MaybeFind
 (
 mColorLutTexMap
