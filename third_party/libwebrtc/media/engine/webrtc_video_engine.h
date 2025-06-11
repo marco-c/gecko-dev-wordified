@@ -1315,6 +1315,9 @@ WebRtcVideoSendChannel
 )
 override
 ;
+webrtc
+:
+:
 MediaType
 media_type
 (
@@ -4270,6 +4273,9 @@ WebRtcVideoReceiveChannel
 override
 ;
 public
+:
+webrtc
+:
 :
 MediaType
 media_type
