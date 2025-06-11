@@ -211,7 +211,7 @@ string_builder
 h
 "
 namespace
-rtc
+webrtc
 {
 SocketAddress
 :
@@ -263,9 +263,6 @@ port
 {
 SetIP
 (
-webrtc
-:
-:
 IPAddress
 (
 ip_as_host_order_integer
@@ -284,9 +281,6 @@ SocketAddress
 SocketAddress
 (
 const
-webrtc
-:
-:
 IPAddress
 &
 ip
@@ -346,9 +340,6 @@ false
 ;
 ip_
 =
-webrtc
-:
-:
 IPAddress
 (
 )
@@ -495,9 +486,6 @@ false
 ;
 ip_
 =
-webrtc
-:
-:
 IPAddress
 (
 ip_as_host_order_integer
@@ -515,9 +503,6 @@ SocketAddress
 SetIP
 (
 const
-webrtc
-:
-:
 IPAddress
 &
 ip
@@ -585,9 +570,6 @@ literal_
 {
 ip_
 =
-webrtc
-:
-:
 IPAddress
 (
 )
@@ -610,9 +592,6 @@ ip_as_host_order_integer
 {
 ip_
 =
-webrtc
-:
-:
 IPAddress
 (
 ip_as_host_order_integer
@@ -630,9 +609,6 @@ SocketAddress
 SetResolvedIP
 (
 const
-webrtc
-:
-:
 IPAddress
 &
 ip
@@ -689,9 +665,6 @@ v4AddressAsHostOrderInteger
 ;
 }
 const
-webrtc
-:
-:
 IPAddress
 &
 SocketAddress
@@ -953,9 +926,6 @@ buf
 1024
 ]
 ;
-webrtc
-:
-:
 SimpleStringBuilder
 sb
 (
@@ -1005,9 +975,6 @@ buf
 1024
 ]
 ;
-webrtc
-:
-:
 SimpleStringBuilder
 sb
 (
@@ -1080,9 +1047,6 @@ buf
 1024
 ]
 ;
-webrtc
-:
-:
 SimpleStringBuilder
 sb
 (
@@ -1943,9 +1907,6 @@ sockaddr_storage
 *
 addr
 const
-webrtc
-:
-:
 IPAddress
 &
 ip
@@ -2206,9 +2167,6 @@ out
 =
 SocketAddress
 (
-webrtc
-:
-:
 IPAddress
 (
 saddr
@@ -2264,9 +2222,6 @@ out
 =
 SocketAddress
 (
-webrtc
-:
-:
 IPAddress
 (
 saddr
@@ -2323,9 +2278,6 @@ AF_INET
 return
 SocketAddress
 (
-webrtc
-:
-:
 IPAddress
 (
 INADDR_ANY
@@ -2346,9 +2298,6 @@ AF_INET6
 return
 SocketAddress
 (
-webrtc
-:
-:
 IPAddress
 (
 in6addr_any
@@ -2367,4 +2316,4 @@ SocketAddress
 /
 /
 namespace
-rtc
+webrtc

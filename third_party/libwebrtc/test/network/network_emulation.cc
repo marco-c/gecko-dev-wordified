@@ -3904,16 +3904,10 @@ EmulatedEndpointImpl
 SendPacket
 (
 const
-rtc
-:
-:
 SocketAddress
 &
 from
 const
-rtc
-:
-:
 SocketAddress
 &
 to

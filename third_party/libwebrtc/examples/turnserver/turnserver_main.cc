@@ -445,7 +445,7 @@ return
 1
 ;
 }
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -740,7 +740,7 @@ BasicPacketSocketFactory
 &
 socket_server
 )
-rtc
+webrtc
 :
 :
 SocketAddress

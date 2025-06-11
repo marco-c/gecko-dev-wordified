@@ -584,15 +584,9 @@ from
 =
 *
 /
-rtc
-:
-:
 SocketAddress
 (
 )
-rtc
-:
-:
 SocketAddress
 (
 endpoint_

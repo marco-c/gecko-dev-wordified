@@ -254,7 +254,7 @@ STUN
 server
 .
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -286,7 +286,7 @@ TURN
 server
 .
 const
-rtc
+webrtc
 :
 :
 SocketAddress

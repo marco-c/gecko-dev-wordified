@@ -632,9 +632,6 @@ kPollIntervalTimeMs
 ;
 static
 const
-rtc
-:
-:
 SocketAddress
 kDefaultLocalAddress
 (
@@ -2075,9 +2072,6 @@ network_thread
 {
 static
 const
-rtc
-:
-:
 SocketAddress
 turn_server_internal_address
 {
@@ -2087,9 +2081,6 @@ kTurnInternalPort
 ;
 static
 const
-rtc
-:
-:
 SocketAddress
 turn_server_external_address
 {

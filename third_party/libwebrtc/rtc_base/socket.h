@@ -516,6 +516,9 @@ Timestamp
 >
 arrival_time
 ;
+webrtc
+:
+:
 SocketAddress
 source_address
 ;
@@ -590,6 +593,9 @@ is
 returned
 .
 virtual
+webrtc
+:
+:
 SocketAddress
 GetLocalAddress
 (
@@ -627,6 +633,9 @@ is
 returned
 .
 virtual
+webrtc
+:
+:
 SocketAddress
 GetRemoteAddress
 (
@@ -640,6 +649,9 @@ int
 Bind
 (
 const
+webrtc
+:
+:
 SocketAddress
 &
 addr
@@ -652,6 +664,9 @@ int
 Connect
 (
 const
+webrtc
+:
+:
 SocketAddress
 &
 addr
@@ -684,6 +699,9 @@ pv
 size_t
 cb
 const
+webrtc
+:
+:
 SocketAddress
 &
 addr
@@ -746,6 +764,9 @@ size_t
 cb
 *
 /
+webrtc
+:
+:
 SocketAddress
 *
 /
@@ -849,6 +870,9 @@ Socket
 *
 Accept
 (
+webrtc
+:
+:
 SocketAddress
 *
 paddr

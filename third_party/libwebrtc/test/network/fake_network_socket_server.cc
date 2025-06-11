@@ -329,9 +329,6 @@ string
 ToString
 (
 const
-rtc
-:
-:
 SocketAddress
 &
 addr
@@ -440,9 +437,6 @@ rtc
 Socket
 methods
 :
-rtc
-:
-:
 SocketAddress
 GetLocalAddress
 (
@@ -450,9 +444,6 @@ GetLocalAddress
 const
 override
 ;
-rtc
-:
-:
 SocketAddress
 GetRemoteAddress
 (
@@ -464,9 +455,6 @@ int
 Bind
 (
 const
-rtc
-:
-:
 SocketAddress
 &
 addr
@@ -477,9 +465,6 @@ int
 Connect
 (
 const
-rtc
-:
-:
 SocketAddress
 &
 addr
@@ -514,9 +499,6 @@ pv
 size_t
 cb
 const
-rtc
-:
-:
 SocketAddress
 &
 addr
@@ -577,9 +559,6 @@ Socket
 *
 Accept
 (
-rtc
-:
-:
 SocketAddress
 *
 paddr
@@ -653,9 +632,6 @@ RTC_GUARDED_BY
 thread_
 )
 ;
-rtc
-:
-:
 SocketAddress
 local_addr_
 RTC_GUARDED_BY
@@ -664,9 +640,6 @@ RTC_GUARDED_BY
 thread_
 )
 ;
-rtc
-:
-:
 SocketAddress
 remote_addr_
 RTC_GUARDED_BY
@@ -975,9 +948,6 @@ WakeUp
 )
 ;
 }
-rtc
-:
-:
 SocketAddress
 FakeNetworkSocket
 :
@@ -996,9 +966,6 @@ return
 local_addr_
 ;
 }
-rtc
-:
-:
 SocketAddress
 FakeNetworkSocket
 :
@@ -1024,9 +991,6 @@ FakeNetworkSocket
 Bind
 (
 const
-rtc
-:
-:
 SocketAddress
 &
 addr
@@ -1207,9 +1171,6 @@ FakeNetworkSocket
 Connect
 (
 const
-rtc
-:
-:
 SocketAddress
 &
 addr
@@ -1339,9 +1300,6 @@ pv
 size_t
 cb
 const
-rtc
-:
-:
 SocketAddress
 &
 addr
@@ -1605,9 +1563,6 @@ FakeNetworkSocket
 :
 Accept
 (
-rtc
-:
-:
 SocketAddress
 *
 /

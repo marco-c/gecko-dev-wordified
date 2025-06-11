@@ -1067,6 +1067,9 @@ s_
 INVALID_SOCKET
 ;
 }
+webrtc
+:
+:
 SocketAddress
 PhysicalSocket
 :
@@ -1117,6 +1120,9 @@ addr
 addrlen
 )
 ;
+webrtc
+:
+:
 SocketAddress
 address
 ;
@@ -1128,6 +1134,9 @@ result
 0
 )
 {
+webrtc
+:
+:
 SocketAddressFromSockAddrStorage
 (
 addr_storage
@@ -1164,6 +1173,9 @@ return
 address
 ;
 }
+webrtc
+:
+:
 SocketAddress
 PhysicalSocket
 :
@@ -1214,6 +1226,9 @@ addr
 addrlen
 )
 ;
+webrtc
+:
+:
 SocketAddress
 address
 ;
@@ -1225,6 +1240,9 @@ result
 0
 )
 {
+webrtc
+:
+:
 SocketAddressFromSockAddrStorage
 (
 addr_storage
@@ -1268,11 +1286,17 @@ PhysicalSocket
 Bind
 (
 const
+webrtc
+:
+:
 SocketAddress
 &
 bind_addr
 )
 {
+webrtc
+:
+:
 SocketAddress
 copied_bind_addr
 =
@@ -1759,6 +1783,9 @@ PhysicalSocket
 Connect
 (
 const
+webrtc
+:
+:
 SocketAddress
 &
 addr
@@ -1895,6 +1922,9 @@ PhysicalSocket
 DoConnect
 (
 const
+webrtc
+:
+:
 SocketAddress
 &
 connect_addr
@@ -2800,6 +2830,9 @@ buffer
 size_t
 length
 const
+webrtc
+:
+:
 SocketAddress
 &
 addr
@@ -3191,6 +3224,9 @@ void
 buffer
 size_t
 length
+webrtc
+:
+:
 SocketAddress
 *
 out_addr
@@ -3469,6 +3505,9 @@ void
 buffer
 size_t
 length
+webrtc
+:
+:
 SocketAddress
 *
 out_addr
@@ -3887,6 +3926,9 @@ if
 out_addr
 )
 {
+webrtc
+:
+:
 SocketAddressFromSockAddrStorage
 (
 addr_storage
@@ -4072,6 +4114,9 @@ PhysicalSocket
 :
 Accept
 (
+webrtc
+:
+:
 SocketAddress
 *
 out_addr
@@ -4166,6 +4211,9 @@ out_addr
 =
 nullptr
 )
+webrtc
+:
+:
 SocketAddressFromSockAddrStorage
 (
 addr_storage
@@ -4371,6 +4419,9 @@ error
 0
 )
 {
+webrtc
+:
+:
 SocketAddress
 address
 ;

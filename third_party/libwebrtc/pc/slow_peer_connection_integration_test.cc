@@ -1248,9 +1248,6 @@ SSLCertificateVerifierFailureUsedForTurnConnectionsFailsConnection
 {
 static
 const
-rtc
-:
-:
 SocketAddress
 turn_server_internal_address
 {
@@ -1268,9 +1265,6 @@ turn_server_internal_address
 ;
 static
 const
-rtc
-:
-:
 SocketAddress
 turn_server_external_address
 {

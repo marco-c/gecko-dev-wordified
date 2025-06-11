@@ -295,6 +295,9 @@ AsyncProxyServerSocket
 *
 socket
 const
+webrtc
+:
+:
 SocketAddress
 &
 addr
@@ -444,6 +447,9 @@ SocketFactory
 *
 int_factory
 const
+webrtc
+:
+:
 SocketAddress
 &
 int_addr
@@ -451,6 +457,9 @@ SocketFactory
 *
 ext_factory
 const
+webrtc
+:
+:
 SocketAddress
 &
 ext_ip
@@ -495,6 +504,9 @@ proxy
 server
 is
 bound
+webrtc
+:
+:
 SocketAddress
 GetServerAddress
 (
@@ -528,6 +540,9 @@ SocketFactory
 *
 ext_factory_
 ;
+webrtc
+:
+:
 SocketAddress
 ext_ip_
 ;

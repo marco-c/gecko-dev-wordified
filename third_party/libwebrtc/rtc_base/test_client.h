@@ -239,9 +239,6 @@ Packet
 p
 )
 ;
-rtc
-:
-:
 SocketAddress
 addr
 ;
@@ -411,9 +408,6 @@ TestClient
 =
 delete
 ;
-rtc
-:
-:
 SocketAddress
 address
 (
@@ -429,9 +423,6 @@ GetLocalAddress
 )
 ;
 }
-rtc
-:
-:
 SocketAddress
 remote_address
 (
@@ -545,9 +536,6 @@ buf
 size_t
 size
 const
-rtc
-:
-:
 SocketAddress
 &
 dest
@@ -623,9 +611,6 @@ char
 buf
 size_t
 len
-rtc
-:
-:
 SocketAddress
 *
 addr

@@ -1224,7 +1224,7 @@ rtc
 ReceivedPacket
 (
 piggybacked_dtls_packet
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -5567,7 +5567,7 @@ MakeArrayView
 buf
 read
 )
-rtc
+webrtc
 :
 :
 SocketAddress

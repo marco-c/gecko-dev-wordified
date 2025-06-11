@@ -262,9 +262,6 @@ works
 AsyncDnsResolver
 resolver
 ;
-rtc
-:
-:
 SocketAddress
 address
 (
@@ -281,9 +278,6 @@ number
 does
 not
 matter
-rtc
-:
-:
 SocketAddress
 resolved_address
 ;
@@ -369,9 +363,6 @@ resolved_address
 EXPECT_EQ
 (
 resolved_address
-rtc
-:
-:
 SocketAddress
 (
 "
@@ -438,9 +429,6 @@ AsyncDnsResolver
 (
 )
 ;
-rtc
-:
-:
 SocketAddress
 address
 (
@@ -457,9 +445,6 @@ number
 does
 not
 matter
-rtc
-:
-:
 SocketAddress
 resolved_address
 ;

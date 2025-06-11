@@ -863,7 +863,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -928,7 +928,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1146,7 +1146,7 @@ bool
 ResolveServerName
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1176,7 +1176,7 @@ AsyncPacketSocket
 *
 socket
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1403,7 +1403,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1441,7 +1441,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 SocketAddress

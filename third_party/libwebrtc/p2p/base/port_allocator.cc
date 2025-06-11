@@ -247,7 +247,7 @@ RelayServerConfig
 RelayServerConfig
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -319,7 +319,7 @@ proto
 :
 RelayServerConfig
 (
-rtc
+webrtc
 :
 :
 SocketAddress

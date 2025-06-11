@@ -148,7 +148,7 @@ bool
 GetResolvedAddress
 (
 int
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -188,7 +188,7 @@ void
 Start
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -214,7 +214,7 @@ void
 Start
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -274,7 +274,7 @@ AsyncDnsResolverInterface
 CreateAndResolve
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -309,7 +309,7 @@ AsyncDnsResolverInterface
 CreateAndResolve
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress

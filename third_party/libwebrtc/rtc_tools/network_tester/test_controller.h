@@ -506,9 +506,6 @@ RTC_GUARDED_BY
 packet_sender_thread_
 )
 ;
-rtc
-:
-:
 SocketAddress
 remote_address_
 ;

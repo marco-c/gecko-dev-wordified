@@ -195,9 +195,6 @@ GetResolvedAddress
 (
 int
 family
-rtc
-:
-:
 SocketAddress
 *
 addr
@@ -232,9 +229,6 @@ webrtc
 SequenceChecker
 sequence_checker_
 ;
-rtc
-:
-:
 SocketAddress
 addr_
 RTC_GUARDED_BY
@@ -297,9 +291,6 @@ void
 Start
 (
 const
-rtc
-:
-:
 SocketAddress
 &
 addr
@@ -333,9 +324,6 @@ void
 Start
 (
 const
-rtc
-:
-:
 SocketAddress
 &
 addr

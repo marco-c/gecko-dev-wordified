@@ -149,7 +149,7 @@ SocketServer
 *
 ss
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -325,7 +325,7 @@ StunMessage
 *
 msg
 const
-rtc
+webrtc
 :
 :
 SocketAddress

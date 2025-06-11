@@ -249,9 +249,6 @@ Thread
 *
 thread
 const
-rtc
-:
-:
 SocketAddress
 &
 addr
@@ -284,9 +281,6 @@ TestEchoServer
 =
 delete
 ;
-rtc
-:
-:
 SocketAddress
 address
 (

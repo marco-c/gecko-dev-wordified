@@ -1020,9 +1020,6 @@ AsyncDnsResolver
 Start
 (
 const
-rtc
-:
-:
 SocketAddress
 &
 addr
@@ -1076,9 +1073,6 @@ AsyncDnsResolver
 Start
 (
 const
-rtc
-:
-:
 SocketAddress
 &
 addr
@@ -1360,9 +1354,6 @@ GetResolvedAddress
 (
 int
 family
-rtc
-:
-:
 SocketAddress
 *
 addr

@@ -2693,7 +2693,7 @@ StunAddressAttribute
 uint16_t
 type
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2753,7 +2753,7 @@ STUN_ADDRESS_UNDEF
 ;
 }
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2804,7 +2804,7 @@ void
 SetAddress
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2936,7 +2936,7 @@ break
 }
 }
 }
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2994,7 +2994,7 @@ StunXorAddressAttribute
 uint16_t
 type
 const
-rtc
+webrtc
 :
 :
 SocketAddress

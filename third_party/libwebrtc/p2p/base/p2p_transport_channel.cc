@@ -6522,7 +6522,7 @@ PortInterface
 *
 port
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -8861,7 +8861,7 @@ GetError
 return
 ;
 }
-rtc
+webrtc
 :
 :
 SocketAddress

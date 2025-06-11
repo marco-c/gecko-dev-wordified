@@ -189,9 +189,6 @@ BasicAsyncDnsResolverFactory
 CreateAndResolve
 (
 const
-rtc
-:
-:
 SocketAddress
 &
 addr
@@ -258,9 +255,6 @@ BasicAsyncDnsResolverFactory
 CreateAndResolve
 (
 const
-rtc
-:
-:
 SocketAddress
 &
 addr

@@ -906,7 +906,7 @@ proto_name
 struct
 ProtocolAddress
 {
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -921,7 +921,7 @@ proto
 ProtocolAddress
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1140,7 +1140,7 @@ std
 :
 set
 <
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2067,7 +2067,7 @@ std
 :
 map
 <
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2107,7 +2107,7 @@ Connection
 GetConnection
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2293,7 +2293,7 @@ bool
 CanHandleIncomingPacketsFrom
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2320,7 +2320,7 @@ StunMessage
 *
 message
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2343,7 +2343,7 @@ StunMessage
 *
 message
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2503,7 +2503,7 @@ bool
 MaybeIceRoleConflict
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2689,21 +2689,21 @@ void
 AddAddress
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
 &
 address
 const
-rtc
+webrtc
 :
 :
 SocketAddress
 &
 base_address
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2899,7 +2899,7 @@ data
 size_t
 size
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -3018,7 +3018,7 @@ data
 size_t
 size
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -3063,7 +3063,7 @@ bool
 IsCompatibleAddress
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress

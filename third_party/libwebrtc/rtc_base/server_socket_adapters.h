@@ -140,6 +140,9 @@ signal2
 AsyncProxyServerSocket
 *
 const
+webrtc
+:
+:
 SocketAddress
 &
 >
@@ -152,6 +155,9 @@ SendConnectResult
 int
 err
 const
+webrtc
+:
+:
 SocketAddress
 &
 addr

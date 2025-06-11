@@ -634,12 +634,6 @@ PeerConnectionInterface
 RtcpMuxPolicy
 ;
 using
-rtc
-:
-:
-SocketAddress
-;
-using
 :
 :
 testing
@@ -1937,9 +1931,6 @@ Candidate
 CreateLocalUdpCandidate
 (
 const
-rtc
-:
-:
 SocketAddress
 &
 address

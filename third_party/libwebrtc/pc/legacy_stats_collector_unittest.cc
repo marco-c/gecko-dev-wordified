@@ -9119,9 +9119,6 @@ kLocalIp
 "
 ;
 const
-rtc
-:
-:
 SocketAddress
 kLocalAddress
 (
@@ -9153,9 +9150,6 @@ kRemoteIp
 "
 ;
 const
-rtc
-:
-:
 SocketAddress
 kRemoteAddress
 (

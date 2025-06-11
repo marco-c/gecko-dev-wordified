@@ -439,9 +439,6 @@ Millis
 ;
 static
 const
-rtc
-:
-:
 SocketAddress
 kLocalAddrs
 [
@@ -449,9 +446,6 @@ kLocalAddrs
 ]
 =
 {
-rtc
-:
-:
 SocketAddress
 (
 "
@@ -465,9 +459,6 @@ SocketAddress
 "
 0
 )
-rtc
-:
-:
 SocketAddress
 (
 "
@@ -485,9 +476,6 @@ SocketAddress
 ;
 static
 const
-rtc
-:
-:
 SocketAddress
 kPrivateLocalAddress
 (
@@ -505,9 +493,6 @@ kPrivateLocalAddress
 ;
 static
 const
-rtc
-:
-:
 SocketAddress
 kPrivateIpv6LocalAddress
 (
@@ -2115,9 +2100,6 @@ kUsagePatternMetric
 )
 ;
 }
-rtc
-:
-:
 SocketAddress
 NextLocalAddress
 (

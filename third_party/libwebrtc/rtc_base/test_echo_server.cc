@@ -115,9 +115,6 @@ Thread
 *
 thread
 const
-rtc
-:
-:
 SocketAddress
 &
 addr

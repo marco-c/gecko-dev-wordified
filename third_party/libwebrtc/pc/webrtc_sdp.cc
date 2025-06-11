@@ -737,7 +737,9 @@ cricket
 VideoContentDescription
 ;
 using
-rtc
+:
+:
+webrtc
 :
 :
 SocketAddress
@@ -2716,9 +2718,6 @@ session_td
 RtpHeaderExtensions
 *
 session_extmaps
-rtc
-:
-:
 SocketAddress
 *
 connection_addr
@@ -2754,9 +2753,6 @@ size_t
 *
 pos
 const
-rtc
-:
-:
 SocketAddress
 &
 session_connection_addr
@@ -7945,9 +7941,6 @@ session_td
 RtpHeaderExtensions
 session_extmaps
 ;
-rtc
-:
-:
 SocketAddress
 session_connection_addr
 ;
@@ -15943,9 +15936,6 @@ absl
 :
 string_view
 line
-rtc
-:
-:
 SocketAddress
 *
 addr
@@ -16344,9 +16334,6 @@ session_td
 RtpHeaderExtensions
 *
 session_extmaps
-rtc
-:
-:
 SocketAddress
 *
 connection_addr
@@ -20765,9 +20752,6 @@ size_t
 *
 pos
 const
-rtc
-:
-:
 SocketAddress
 &
 session_connection_addr
@@ -22012,9 +21996,6 @@ are
 not
 specified
 .
-rtc
-:
-:
 SocketAddress
 address
 ;
@@ -23895,9 +23876,6 @@ kLineTypeConnection
 )
 )
 {
-rtc
-:
-:
 SocketAddress
 addr
 ;

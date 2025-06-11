@@ -392,9 +392,6 @@ GetResolvedAddress
 (
 int
 family
-rtc
-:
-:
 SocketAddress
 *
 addr
@@ -513,9 +510,6 @@ void
 Start
 (
 const
-rtc
-:
-:
 SocketAddress
 &
 addr
@@ -551,9 +545,6 @@ void
 Start
 (
 const
-rtc
-:
-:
 SocketAddress
 &
 addr
@@ -681,9 +672,6 @@ AsyncDnsResolverInterface
 CreateAndResolve
 (
 const
-rtc
-:
-:
 SocketAddress
 &
 addr
@@ -763,9 +751,6 @@ AsyncDnsResolverInterface
 CreateAndResolve
 (
 const
-rtc
-:
-:
 SocketAddress
 &
 addr

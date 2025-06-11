@@ -352,7 +352,7 @@ absl
 string_view
 protocol
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1694,7 +1694,7 @@ no
 hostname
 available
 .
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1759,7 +1759,7 @@ be
 redacted
 too
 .
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1791,7 +1791,7 @@ redacted_addr
 }
 else
 {
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1831,7 +1831,7 @@ copy
 .
 set_related_address
 (
-rtc
+webrtc
 :
 :
 EmptySocketAddressWithFamily
@@ -1874,7 +1874,7 @@ Candidate
 ComputeFoundation
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress

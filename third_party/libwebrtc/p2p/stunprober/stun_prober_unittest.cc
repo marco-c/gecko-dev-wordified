@@ -237,7 +237,7 @@ stunprober
 namespace
 {
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -256,7 +256,7 @@ kLocalAddr
 )
 ;
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -275,7 +275,7 @@ kStunAddr1
 )
 ;
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -294,7 +294,7 @@ kStunAddr2
 )
 ;
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -313,7 +313,7 @@ kFailedStunAddr
 )
 ;
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -526,7 +526,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -608,7 +608,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -678,7 +678,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1095,7 +1095,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1131,7 +1131,7 @@ addrs
 .
 push_back
 (
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1180,7 +1180,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1216,7 +1216,7 @@ addrs
 .
 push_back
 (
-rtc
+webrtc
 :
 :
 SocketAddress

@@ -480,12 +480,6 @@ cricket
 ServerAddresses
 ;
 using
-rtc
-:
-:
-SocketAddress
-;
-using
 :
 :
 testing
@@ -546,6 +540,14 @@ webrtc
 :
 :
 IceCandidateType
+;
+using
+:
+:
+webrtc
+:
+:
+SocketAddress
 ;
 static
 const
@@ -1139,7 +1141,7 @@ std
 :
 set
 <
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1147,7 +1149,7 @@ SocketAddress
 &
 stun_server_addresses
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1484,7 +1486,7 @@ void
 CreateStunPort
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1699,7 +1701,7 @@ void
 CreateSharedUdpPort
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1748,7 +1750,7 @@ socket_factory
 >
 CreateUdpSocket
 (
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2014,7 +2016,7 @@ packet_time_us
 /
 -
 1
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -3231,7 +3233,7 @@ WillOnce
 ]
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -3516,7 +3518,7 @@ WillOnce
 ]
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -7270,7 +7272,7 @@ WillOnce
 ]
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -7562,7 +7564,7 @@ WillOnce
 ]
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress

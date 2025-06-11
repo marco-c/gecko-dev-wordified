@@ -244,6 +244,9 @@ BasicPacketSocketFactory
 CreateUdpSocket
 (
 const
+webrtc
+:
+:
 SocketAddress
 &
 address
@@ -345,6 +348,9 @@ BasicPacketSocketFactory
 CreateServerTcpSocket
 (
 const
+webrtc
+:
+:
 SocketAddress
 &
 local_address
@@ -526,10 +532,16 @@ BasicPacketSocketFactory
 CreateClientTcpSocket
 (
 const
+webrtc
+:
+:
 SocketAddress
 &
 local_address
 const
+webrtc
+:
+:
 SocketAddress
 &
 remote_address
@@ -1159,6 +1171,9 @@ Socket
 *
 socket
 const
+webrtc
+:
+:
 SocketAddress
 &
 local_address
@@ -1261,6 +1276,9 @@ socket
 >
 Bind
 (
+webrtc
+:
+:
 SocketAddress
 (
 local_address

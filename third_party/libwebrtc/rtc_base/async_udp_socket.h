@@ -272,6 +272,9 @@ Socket
 *
 socket
 const
+webrtc
+:
+:
 SocketAddress
 &
 bind_address
@@ -308,6 +311,9 @@ SocketFactory
 *
 factory
 const
+webrtc
+:
+:
 SocketAddress
 &
 bind_address
@@ -328,6 +334,9 @@ AsyncUDPSocket
 =
 default
 ;
+webrtc
+:
+:
 SocketAddress
 GetLocalAddress
 (
@@ -335,6 +344,9 @@ GetLocalAddress
 const
 override
 ;
+webrtc
+:
+:
 SocketAddress
 GetRemoteAddress
 (
@@ -371,6 +383,9 @@ pv
 size_t
 cb
 const
+webrtc
+:
+:
 SocketAddress
 &
 addr

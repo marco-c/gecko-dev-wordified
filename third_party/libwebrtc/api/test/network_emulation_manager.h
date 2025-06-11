@@ -881,9 +881,6 @@ TURN
 allocation
 .
 virtual
-rtc
-:
-:
 SocketAddress
 GetClientEndpointAddress
 (

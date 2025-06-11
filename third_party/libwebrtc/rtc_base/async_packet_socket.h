@@ -697,6 +697,9 @@ STATE_BINDING
 )
 .
 virtual
+webrtc
+:
+:
 SocketAddress
 GetLocalAddress
 (
@@ -723,6 +726,9 @@ TCP
 socket
 .
 virtual
+webrtc
+:
+:
 SocketAddress
 GetRemoteAddress
 (
@@ -766,6 +772,9 @@ pv
 size_t
 cb
 const
+webrtc
+:
+:
 SocketAddress
 &
 addr
@@ -1047,6 +1056,9 @@ signal2
 AsyncPacketSocket
 *
 const
+webrtc
+:
+:
 SocketAddress
 &
 >
@@ -1313,6 +1325,9 @@ kBinding
 )
 .
 virtual
+webrtc
+:
+:
 SocketAddress
 GetLocalAddress
 (

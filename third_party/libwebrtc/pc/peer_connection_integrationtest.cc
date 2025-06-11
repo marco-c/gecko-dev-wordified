@@ -20813,9 +20813,6 @@ allowed_internal_delay_ms
 ;
 static
 const
-rtc
-:
-:
 SocketAddress
 turn_server_1_internal_address
 {
@@ -20833,9 +20830,6 @@ turn_server_1_internal_address
 ;
 static
 const
-rtc
-:
-:
 SocketAddress
 turn_server_1_external_address
 {
@@ -20853,9 +20847,6 @@ turn_server_1_external_address
 ;
 static
 const
-rtc
-:
-:
 SocketAddress
 turn_server_2_internal_address
 {
@@ -20873,9 +20864,6 @@ turn_server_2_internal_address
 ;
 static
 const
-rtc
-:
-:
 SocketAddress
 turn_server_2_external_address
 {
@@ -21972,9 +21960,6 @@ TurnCustomizerUsedForTurnConnections
 {
 static
 const
-rtc
-:
-:
 SocketAddress
 turn_server_1_internal_address
 {
@@ -21992,9 +21977,6 @@ turn_server_1_internal_address
 ;
 static
 const
-rtc
-:
-:
 SocketAddress
 turn_server_1_external_address
 {
@@ -22012,9 +21994,6 @@ turn_server_1_external_address
 ;
 static
 const
-rtc
-:
-:
 SocketAddress
 turn_server_2_internal_address
 {
@@ -22032,9 +22011,6 @@ turn_server_2_internal_address
 ;
 static
 const
-rtc
-:
-:
 SocketAddress
 turn_server_2_external_address
 {
@@ -22379,9 +22355,6 @@ TCPUsedForTurnConnections
 {
 static
 const
-rtc
-:
-:
 SocketAddress
 turn_server_internal_address
 {
@@ -22399,9 +22372,6 @@ turn_server_internal_address
 ;
 static
 const
-rtc
-:
-:
 SocketAddress
 turn_server_external_address
 {
@@ -22738,9 +22708,6 @@ SSLCertificateVerifierUsedForTurnConnections
 {
 static
 const
-rtc
-:
-:
 SocketAddress
 turn_server_internal_address
 {
@@ -22758,9 +22725,6 @@ turn_server_internal_address
 ;
 static
 const
-rtc
-:
-:
 SocketAddress
 turn_server_external_address
 {
@@ -27953,9 +27917,6 @@ RegatherAfterChangingIceTransportType
 {
 static
 const
-rtc
-:
-:
 SocketAddress
 turn_server_internal_address
 {
@@ -27973,9 +27934,6 @@ turn_server_internal_address
 ;
 static
 const
-rtc
-:
-:
 SocketAddress
 turn_server_external_address
 {
@@ -28686,9 +28644,6 @@ OnIceCandidateError
 {
 static
 const
-rtc
-:
-:
 SocketAddress
 turn_server_internal_address
 {
@@ -28706,9 +28661,6 @@ turn_server_internal_address
 ;
 static
 const
-rtc
-:
-:
 SocketAddress
 turn_server_external_address
 {

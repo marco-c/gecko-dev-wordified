@@ -435,9 +435,6 @@ EmulatedEndpoint
 *
 endpoint
 const
-rtc
-:
-:
 SocketAddress
 &
 receiver_address
@@ -503,9 +500,6 @@ mutex_
 =
 nullptr
 ;
-rtc
-:
-:
 SocketAddress
 local_address_
 RTC_GUARDED_BY
@@ -513,9 +507,6 @@ RTC_GUARDED_BY
 mutex_
 )
 ;
-rtc
-:
-:
 SocketAddress
 remote_address_
 RTC_GUARDED_BY

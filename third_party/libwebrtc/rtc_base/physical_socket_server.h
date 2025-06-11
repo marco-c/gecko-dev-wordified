@@ -1113,6 +1113,9 @@ int
 type
 )
 ;
+webrtc
+:
+:
 SocketAddress
 GetLocalAddress
 (
@@ -1120,6 +1123,9 @@ GetLocalAddress
 const
 override
 ;
+webrtc
+:
+:
 SocketAddress
 GetRemoteAddress
 (
@@ -1131,6 +1137,9 @@ int
 Bind
 (
 const
+webrtc
+:
+:
 SocketAddress
 &
 bind_addr
@@ -1141,6 +1150,9 @@ int
 Connect
 (
 const
+webrtc
+:
+:
 SocketAddress
 &
 addr
@@ -1212,6 +1224,9 @@ buffer
 size_t
 length
 const
+webrtc
+:
+:
 SocketAddress
 &
 addr
@@ -1253,6 +1268,9 @@ void
 buffer
 size_t
 length
+webrtc
+:
+:
 SocketAddress
 *
 out_addr
@@ -1283,6 +1301,9 @@ Socket
 *
 Accept
 (
+webrtc
+:
+:
 SocketAddress
 *
 out_addr
@@ -1321,6 +1342,9 @@ int
 DoConnect
 (
 const
+webrtc
+:
+:
 SocketAddress
 &
 connect_addr
@@ -1429,6 +1453,9 @@ void
 buffer
 size_t
 length
+webrtc
+:
+:
 SocketAddress
 *
 out_addr

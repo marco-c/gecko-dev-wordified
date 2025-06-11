@@ -3611,9 +3611,6 @@ cricket
 ServerAddresses
 stun_servers
 ;
-rtc
-:
-:
 SocketAddress
 stun1
 (
@@ -3884,9 +3881,6 @@ cricket
 ServerAddresses
 stun_servers
 ;
-rtc
-:
-:
 SocketAddress
 stun1
 (
@@ -4799,9 +4793,6 @@ cricket
 ServerAddresses
 stun_servers
 ;
-rtc
-:
-:
 SocketAddress
 stun1
 (
@@ -4824,9 +4815,6 @@ insert
 stun1
 )
 ;
-rtc
-:
-:
 SocketAddress
 stun2
 (
@@ -4853,9 +4841,6 @@ stun2
 /
 Default
 port
-rtc
-:
-:
 SocketAddress
 stun3
 (
@@ -4878,9 +4863,6 @@ insert
 stun3
 )
 ;
-rtc
-:
-:
 SocketAddress
 stun4
 (

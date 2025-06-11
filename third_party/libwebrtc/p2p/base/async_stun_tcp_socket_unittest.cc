@@ -517,7 +517,7 @@ kTurnChannelDataMessageWithOddLength
 ;
 static
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -537,7 +537,7 @@ kClientAddr
 ;
 static
 const
-rtc
+webrtc
 :
 :
 SocketAddress

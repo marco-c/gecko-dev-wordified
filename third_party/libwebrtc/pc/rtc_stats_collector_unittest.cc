@@ -1630,9 +1630,6 @@ cricket
 :
 ICE_CANDIDATE_COMPONENT_RTP
 protocol
-rtc
-:
-:
 SocketAddress
 (
 hostname
@@ -15845,9 +15842,6 @@ remote_candidate
 >
 set_related_address
 (
-rtc
-:
-:
 SocketAddress
 (
 "

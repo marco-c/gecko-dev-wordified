@@ -1245,7 +1245,7 @@ Port
 GetConnection
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1295,21 +1295,21 @@ Port
 AddAddress
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
 &
 address
 const
-rtc
+webrtc
 :
 :
 SocketAddress
 &
 base_address
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1737,7 +1737,7 @@ ipaddr
 addr
 )
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1822,7 +1822,7 @@ copy
 .
 set_related_address
 (
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2193,7 +2193,7 @@ size
 )
 ;
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -2784,7 +2784,7 @@ data
 size_t
 size
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -4305,7 +4305,7 @@ Port
 IsCompatibleAddress
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -4799,7 +4799,7 @@ Port
 MaybeIceRoleConflict
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -5184,7 +5184,7 @@ Port
 CanHandleIncomingPacketsFrom
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -5206,7 +5206,7 @@ StunMessage
 *
 message
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -5584,7 +5584,7 @@ StunMessage
 *
 message
 const
-rtc
+webrtc
 :
 :
 SocketAddress

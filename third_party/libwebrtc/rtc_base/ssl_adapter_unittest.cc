@@ -319,7 +319,7 @@ CreateSocket
 (
 )
 {
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -693,7 +693,7 @@ curves
 )
 ;
 }
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1064,7 +1064,7 @@ absl
 string_view
 hostname
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1241,7 +1241,7 @@ ToString
 )
 ;
 }
-rtc
+webrtc
 :
 :
 SocketAddress

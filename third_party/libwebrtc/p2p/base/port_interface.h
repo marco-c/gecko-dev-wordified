@@ -505,9 +505,6 @@ Connection
 GetConnection
 (
 const
-rtc
-:
-:
 SocketAddress
 &
 remote_addr
@@ -682,9 +679,6 @@ data
 size_t
 size
 const
-rtc
-:
-:
 SocketAddress
 &
 addr
@@ -747,9 +741,6 @@ signal6
 PortInterface
 *
 const
-rtc
-:
-:
 SocketAddress
 &
 ProtocolType
@@ -810,9 +801,6 @@ StunMessage
 *
 message
 const
-rtc
-:
-:
 SocketAddress
 &
 addr
@@ -958,9 +946,6 @@ char
 *
 size_t
 const
-rtc
-:
-:
 SocketAddress
 &
 >
@@ -1364,9 +1349,6 @@ data
 size_t
 size
 const
-rtc
-:
-:
 SocketAddress
 &
 addr
@@ -1463,9 +1445,6 @@ bool
 MaybeIceRoleConflict
 (
 const
-rtc
-:
-:
 SocketAddress
 &
 addr

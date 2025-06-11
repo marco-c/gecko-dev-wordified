@@ -236,6 +236,9 @@ Socket
 *
 socket
 const
+webrtc
+:
+:
 SocketAddress
 &
 bind_address
@@ -316,6 +319,9 @@ SocketFactory
 *
 factory
 const
+webrtc
+:
+:
 SocketAddress
 &
 bind_address
@@ -418,6 +424,9 @@ OnWriteEvent
 )
 ;
 }
+webrtc
+:
+:
 SocketAddress
 AsyncUDPSocket
 :
@@ -436,6 +445,9 @@ GetLocalAddress
 )
 ;
 }
+webrtc
+:
+:
 SocketAddress
 AsyncUDPSocket
 :
@@ -541,6 +553,9 @@ pv
 size_t
 cb
 const
+webrtc
+:
+:
 SocketAddress
 &
 addr
@@ -924,6 +939,9 @@ to
 the
 user
 .
+webrtc
+:
+:
 SocketAddress
 local_addr
 =

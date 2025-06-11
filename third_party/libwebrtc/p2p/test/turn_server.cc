@@ -874,7 +874,7 @@ PacketSocketFactory
 *
 factory
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -972,7 +972,7 @@ connect
 to
 us
 .
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -1510,7 +1510,7 @@ type
 STUN_ALLOCATE_REQUEST
 )
 {
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -3132,7 +3132,7 @@ StunMessage
 *
 msg
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -3646,7 +3646,7 @@ TurnServerConnection
 TurnServerConnection
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -6020,7 +6020,7 @@ TurnServerAllocation
 FindChannel
 (
 const
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -6162,7 +6162,7 @@ data
 size_t
 size
 const
-rtc
+webrtc
 :
 :
 SocketAddress
