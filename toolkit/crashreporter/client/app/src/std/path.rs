@@ -183,10 +183,6 @@ Eq
 PartialOrd
 Ord
 Hash
-serde
-:
-:
-Serialize
 )
 ]
 pub
