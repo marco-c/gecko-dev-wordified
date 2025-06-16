@@ -42070,7 +42070,17 @@ aFrame
 ;
 if
 (
+(
 image
+|
+|
+aFrame
+-
+>
+IsHTMLCanvasFrame
+(
+)
+)
 &
 &
 !
