@@ -419,7 +419,7 @@ S_MUL
 a
 b
 )
-MULT32_32_Q31
+MULT32_32_P31
 (
 b
 a
@@ -431,7 +431,7 @@ S_MUL2
 a
 b
 )
-MULT32_32_Q31
+MULT32_32_P31
 (
 b
 a

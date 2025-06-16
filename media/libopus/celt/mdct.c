@@ -2212,7 +2212,7 @@ i
 *
 stride
 ]
-4
+11
 )
 )
 )
@@ -2261,7 +2261,7 @@ post_shift
 IMAX
 (
 0
-26
+19
 -
 celt_ilog2
 (
