@@ -8931,9 +8931,6 @@ launch
 main
 thread
 time
-TimeStamp
-mActivateTS
-;
 bool
 mIsAPreallocBlocker
 ;
