@@ -9321,7 +9321,6 @@ events
 in
 its
 bounds
-virtual
 void
 HitTest
 (
@@ -9345,6 +9344,17 @@ aOutFrames
 )
 override
 {
+if
+(
+ShouldIgnoreForBackfaceHidden
+(
+aState
+)
+)
+{
+return
+;
+}
 aOutFrames
 -
 >
