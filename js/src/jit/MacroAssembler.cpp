@@ -38377,11 +38377,11 @@ ObjectFlags
 =
 sizeof
 (
-uint16_t
+uint32_t
 )
 )
 ;
-load16ZeroExtend
+load32
 (
 Address
 (
@@ -38538,11 +38538,11 @@ ObjectFlags
 =
 sizeof
 (
-uint16_t
+uint32_t
 )
 )
 ;
-load16ZeroExtend
+load32
 (
 Address
 (
@@ -46440,9 +46440,6 @@ ok
 )
 ;
 }
-#
-ifdef
-ENABLE_WASM_MEMORY64
 void
 MacroAssembler
 :
@@ -46521,8 +46518,6 @@ ret
 ;
 }
 ;
-#
-endif
 BranchWasmRefIsSubtypeRegisters
 MacroAssembler
 :
