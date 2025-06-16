@@ -453,11 +453,6 @@ InputEvent
 h
 "
 "
-InvokeEvent
-.
-h
-"
-"
 KeyboardEvent
 .
 h
@@ -731,11 +726,6 @@ cpp
 "
 "
 InputEvent
-.
-cpp
-"
-"
-InvokeEvent
 .
 cpp
 "

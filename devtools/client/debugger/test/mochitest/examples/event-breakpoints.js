@@ -537,13 +537,13 @@ invokee
 addEventListener
 (
 "
-invoke
+command
 "
-onInvoke
+onCommand
 )
 ;
 function
-onInvoke
+onCommand
 (
 event
 )
