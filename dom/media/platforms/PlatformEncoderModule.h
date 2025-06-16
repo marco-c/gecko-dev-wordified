@@ -132,6 +132,13 @@ h
 #
 include
 "
+MediaCodecsSupport
+.
+h
+"
+#
+include
+"
 MediaResult
 .
 h
@@ -316,7 +323,10 @@ a
 codec
 .
 virtual
-bool
+media
+:
+:
+EncodeSupportSet
 Supports
 (
 const
@@ -329,7 +339,10 @@ const
 0
 ;
 virtual
-bool
+media
+:
+:
+EncodeSupportSet
 SupportsCodec
 (
 CodecType

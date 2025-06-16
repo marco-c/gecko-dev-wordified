@@ -436,12 +436,17 @@ aCodecType
 )
 ;
 return
+!
 factory
 -
 >
 SupportsCodec
 (
 type
+)
+.
+isEmpty
+(
 )
 ;
 }
