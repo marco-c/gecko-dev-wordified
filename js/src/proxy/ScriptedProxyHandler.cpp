@@ -8654,14 +8654,10 @@ Step
 reordered
 )
 .
-Rooted
-<
 ProxyObject
 *
->
 proxy
-(
-cx
+=
 &
 proxy_
 -
@@ -8671,7 +8667,6 @@ as
 ProxyObject
 >
 (
-)
 )
 ;
 proxy

@@ -4513,14 +4513,10 @@ NativeObject
 )
 )
 ;
-Rooted
-<
-NativeObject
+auto
 *
->
 nativeObj
-(
-cx
+=
 &
 obj
 -
@@ -4530,7 +4526,6 @@ as
 NativeObject
 >
 (
-)
 )
 ;
 if
