@@ -391,6 +391,8 @@ case
 hiddenUndoCloseWindow
 "
 :
+SessionWindowUI
+.
 undoCloseWindow
 (
 0

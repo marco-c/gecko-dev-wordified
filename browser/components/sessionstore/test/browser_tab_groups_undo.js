@@ -296,8 +296,11 @@ group
 "
 )
 ;
+SessionWindowUI
+.
 undoCloseTab
 (
+window
 )
 ;
 Assert

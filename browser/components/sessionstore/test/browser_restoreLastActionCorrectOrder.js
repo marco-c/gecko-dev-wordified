@@ -281,8 +281,11 @@ tabs
 /
 )
 ;
+SessionWindowUI
+.
 restoreLastClosedTabOrWindowOrSession
 (
+window
 )
 ;
 await
@@ -399,7 +402,7 @@ tab
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 win2
 .
@@ -481,8 +484,11 @@ tabs
 "
 )
 ;
+SessionWindowUI
+.
 restoreLastClosedTabOrWindowOrSession
 (
+window
 )
 ;
 Assert

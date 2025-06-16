@@ -3231,7 +3231,7 @@ Session
 command
 if
 needed
-RestoreLastSessionObserver
+gRestoreLastSessionObserver
 .
 init
 (

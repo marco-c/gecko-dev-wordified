@@ -208,6 +208,8 @@ window
 let
 newWin
 =
+SessionWindowUI
+.
 undoCloseWindow
 (
 0
@@ -671,6 +673,8 @@ window
 let
 newWin
 =
+SessionWindowUI
+.
 undoCloseWindow
 (
 0

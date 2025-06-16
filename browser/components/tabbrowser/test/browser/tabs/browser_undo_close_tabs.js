@@ -324,8 +324,11 @@ closed
 "
 )
 ;
+SessionWindowUI
+.
 undoCloseTab
 (
+window
 )
 ;
 await
@@ -862,8 +865,11 @@ one
 "
 )
 ;
+SessionWindowUI
+.
 undoCloseTab
 (
+window
 )
 ;
 await
@@ -1047,8 +1053,11 @@ closed
 "
 )
 ;
+SessionWindowUI
+.
 undoCloseTab
 (
+window
 )
 ;
 await

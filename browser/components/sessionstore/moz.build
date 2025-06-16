@@ -239,6 +239,13 @@ sys
 mjs
 "
 "
+SessionWindowUI
+.
+sys
+.
+mjs
+"
+"
 SessionWriter
 .
 sys

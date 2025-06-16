@@ -3612,8 +3612,11 @@ waitForNoActiveGroups
 (
 )
 ;
+SessionWindowUI
+.
 undoCloseTab
 (
+win
 undefined
 win
 .
@@ -3648,8 +3651,11 @@ saved
 )
 ;
 await
-addTab
+addTabTo
 (
+win
+.
+gBrowser
 "
 about
 :

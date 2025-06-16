@@ -294,10 +294,11 @@ selected
 "
 )
 ;
-win
+SessionWindowUI
 .
 undoCloseTab
 (
+win
 )
 ;
 await
