@@ -185,6 +185,11 @@ RemoteDecodeUtils
 h
 "
 "
+RemoteEncoderModule
+.
+h
+"
+"
 RemoteImageHolder
 .
 h
@@ -295,6 +300,11 @@ cpp
 "
 "
 RemoteDecodeUtils
+.
+cpp
+"
+"
+RemoteEncoderModule
 .
 cpp
 "

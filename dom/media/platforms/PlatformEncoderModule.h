@@ -380,6 +380,7 @@ Asychronously
 create
 an
 encoder
+virtual
 RefPtr
 <
 PlatformEncoderModule
