@@ -1570,7 +1570,7 @@ init
 (
 )
 ;
-TaskbarTabUI
+TaskbarTabsChrome
 .
 init
 (
