@@ -13853,15 +13853,13 @@ JSClass
 clasp
 )
 {
-RootedValue
+HandleValue
 thisv
-(
-cx
+=
 args
 .
 thisv
 (
-)
 )
 ;
 #
