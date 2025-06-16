@@ -100,6 +100,13 @@ h
 #
 include
 "
+MediaCodecsSupport
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Logging
@@ -235,7 +242,10 @@ CodecType
 aCodec
 )
 ;
-bool
+media
+:
+:
+EncodeSupportSet
 CanCreateWMFEncoder
 (
 CodecType
