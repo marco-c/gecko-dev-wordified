@@ -63,8 +63,6 @@ import
 sys
 import
 mozinfo
-import
-six
 from
 mach
 .
@@ -615,14 +613,6 @@ runtime_testvars_file
 open
 (
 runtime_testvars_path
-"
-wb
-"
-if
-six
-.
-PY2
-else
 "
 w
 "
