@@ -8254,10 +8254,6 @@ BrowsingContext
 >
 &
 aContext
-SessionHistoryInfo
-&
-&
-aInfo
 GetContiguousSessionHistoryInfosResolver
 &
 &
