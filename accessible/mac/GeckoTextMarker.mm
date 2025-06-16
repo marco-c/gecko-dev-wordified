@@ -629,7 +629,7 @@ State
 states
 :
 :
-COLLAPSED
+INVISIBLE
 )
 )
 {
@@ -637,8 +637,7 @@ COLLAPSED
 /
 XXX
 :
-Menu
-collapsed
+Invisible
 XUL
 menu
 popups
@@ -2470,7 +2469,7 @@ State
 states
 :
 :
-COLLAPSED
+INVISIBLE
 )
 )
 {
@@ -2478,8 +2477,7 @@ COLLAPSED
 /
 XXX
 :
-Menu
-collapsed
+Invisible
 XUL
 menu
 popups
@@ -3033,7 +3031,7 @@ State
 states
 :
 :
-COLLAPSED
+INVISIBLE
 )
 )
 {
@@ -3041,8 +3039,7 @@ COLLAPSED
 /
 XXX
 :
-Menu
-collapsed
+Invisible
 XUL
 menu
 popups
