@@ -2123,6 +2123,9 @@ true
 GetCookieJarSettings
 (
 )
+PrincipalOrNull
+(
+)
 &
 *
 out_format
@@ -2223,6 +2226,7 @@ CanvasRandomization
 )
 )
 {
+return
 gfxUtils
 :
 :
@@ -2238,6 +2242,9 @@ true
 aMimeType
 aEncoderOptions
 GetCookieJarSettings
+(
+)
+PrincipalOrNull
 (
 )
 aStream

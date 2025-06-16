@@ -3051,6 +3051,9 @@ aIsAlphaPremultiplied
 nsICookieJarSettings
 *
 aCookieJarSettings
+nsIPrincipal
+*
+aPrincipal
 int32_t
 *
 outFormat
@@ -3099,6 +3102,9 @@ aEncoderOptions
 nsICookieJarSettings
 *
 aCookieJarSettings
+nsIPrincipal
+*
+aPrincipal
 nsIInputStream
 *
 *

@@ -8633,6 +8633,9 @@ premultAlpha
 GetCookieJarSettings
 (
 )
+PrincipalOrNull
+(
+)
 out_format
 )
 ;
@@ -8763,6 +8766,9 @@ premultAlpha
 mimeType
 encoderOptions
 GetCookieJarSettings
+(
+)
+PrincipalOrNull
 (
 )
 out_stream
