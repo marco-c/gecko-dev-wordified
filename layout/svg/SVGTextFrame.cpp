@@ -21212,7 +21212,7 @@ if
 ShouldRenderAsPath
 (
 frame
-contextPaint
+outerContextPaint
 paintSVGGlyphs
 )
 )
@@ -21221,7 +21221,7 @@ SVGTextDrawPathCallbacks
 callbacks
 (
 this
-contextPaint
+outerContextPaint
 aContext
 frame
 matrixForPaintServers
