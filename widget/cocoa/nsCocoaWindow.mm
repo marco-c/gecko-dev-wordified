@@ -5441,17 +5441,6 @@ HandleMainThreadCATransaction
 (
 )
 {
-AUTO_PROFILER_TRACING_MARKER
-(
-"
-Paint
-"
-"
-HandleMainThreadCATransaction
-"
-GRAPHICS
-)
-;
 WillPaintWindow
 (
 )
