@@ -348,9 +348,6 @@ WebMessage
 WebNotification
 "
 "
-WebNotificationAction
-"
-"
 WebNotificationDelegate
 "
 "
