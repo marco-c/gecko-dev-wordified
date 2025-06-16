@@ -298,7 +298,6 @@ h
 /
 Rooted
 {
-Function
 Object
 String
 Value

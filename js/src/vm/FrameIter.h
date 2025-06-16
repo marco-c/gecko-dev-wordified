@@ -237,10 +237,6 @@ JS
 :
 :
 Handle
-JS
-:
-:
-Rooted
 #
 include
 "

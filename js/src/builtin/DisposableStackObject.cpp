@@ -2528,17 +2528,10 @@ the
 this
 value
 .
-JS
-:
-:
-Rooted
-<
-DisposableStackObject
+auto
 *
->
 disposableStack
-(
-cx
+=
 &
 args
 .
@@ -2555,7 +2548,6 @@ as
 DisposableStackObject
 >
 (
-)
 )
 ;
 /

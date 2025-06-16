@@ -1988,17 +1988,10 @@ names
 .
 empty_
 ;
-JS
-:
-:
-Rooted
-<
 JSFunction
 *
->
 handlerFun
-(
-cx
+=
 NewNativeFunction
 (
 cx
@@ -2013,7 +2006,6 @@ AllocKind
 :
 FUNCTION_EXTENDED
 GenericObject
-)
 )
 ;
 if

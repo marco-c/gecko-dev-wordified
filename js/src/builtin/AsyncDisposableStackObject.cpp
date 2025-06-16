@@ -1073,17 +1073,10 @@ the
 this
 value
 .
-JS
-:
-:
-Rooted
-<
-AsyncDisposableStackObject
+auto
 *
->
 disposableStack
-(
-cx
+=
 &
 args
 .
@@ -1100,7 +1093,6 @@ as
 AsyncDisposableStackObject
 >
 (
-)
 )
 ;
 /

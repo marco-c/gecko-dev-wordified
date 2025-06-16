@@ -291,14 +291,10 @@ Value
 val
 )
 {
-Rooted
-<
-ParseRecordObject
+auto
 *
->
 obj
-(
-cx
+=
 NewObjectWithGivenProto
 <
 ParseRecordObject
@@ -306,7 +302,6 @@ ParseRecordObject
 (
 cx
 nullptr
-)
 )
 ;
 if

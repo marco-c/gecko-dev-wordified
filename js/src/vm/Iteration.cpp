@@ -12828,14 +12828,10 @@ false
 Step
 2
 .
-Rooted
-<
 JSObject
 *
->
 home
-(
-cx
+=
 GlobalObject
 :
 :
@@ -12847,7 +12843,6 @@ cx
 >
 global
 (
-)
 )
 )
 ;
@@ -13242,14 +13237,10 @@ vp
 Step
 1
 .
-Rooted
-<
 JSObject
 *
->
 constructor
-(
-cx
+=
 GlobalObject
 :
 :
@@ -13257,7 +13248,6 @@ getOrCreateConstructor
 (
 cx
 JSProto_Iterator
-)
 )
 ;
 if
