@@ -1770,6 +1770,8 @@ codeSectionRange
 -
 >
 size
+(
+)
 ;
 }
 return

@@ -7234,6 +7234,8 @@ codeSectionRange
 -
 >
 size
+(
+)
 :
 0
 ;
@@ -7644,6 +7646,8 @@ funcIndex
 )
 .
 size
+(
+)
 ;
 JS_LOG
 (

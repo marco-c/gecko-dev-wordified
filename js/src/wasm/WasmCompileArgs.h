@@ -2669,8 +2669,6 @@ if
 range
 .
 end
-(
-)
 <
 =
 codeOffset
@@ -2703,8 +2701,6 @@ if
 range
 .
 end
-(
-)
 <
 =
 tailOffset
