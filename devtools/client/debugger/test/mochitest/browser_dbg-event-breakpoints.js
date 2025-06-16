@@ -694,7 +694,7 @@ event
 .
 control
 .
-invoke
+command
 "
 )
 ;
