@@ -365,6 +365,12 @@ using
 Element
 :
 :
+Command
+;
+using
+Element
+:
+:
 Focus
 ;
 using
@@ -372,12 +378,6 @@ Element
 :
 :
 SetTabIndex
-;
-using
-Element
-:
-:
-Command
 ;
 explicit
 nsGenericHTMLElement
