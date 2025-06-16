@@ -2277,9 +2277,11 @@ querySelector
 #
 avatars
 >
-profiles
+moz
 -
-group
+visual
+-
+picker
 -
 item
 [
@@ -2774,9 +2776,11 @@ querySelector
 #
 themes
 >
-profiles
+moz
 -
-group
+visual
+-
+picker
 -
 item
 [
