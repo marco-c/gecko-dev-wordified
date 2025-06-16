@@ -33,7 +33,7 @@ use
 strict
 "
 ;
-add_task
+add_setup
 (
 setup
 )
