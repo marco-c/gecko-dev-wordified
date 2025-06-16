@@ -5214,8 +5214,12 @@ bool
 (
 JSContext
 *
-HandleValue
-HandleValue
+const
+Value
+&
+const
+Value
+&
 bool
 *
 )
