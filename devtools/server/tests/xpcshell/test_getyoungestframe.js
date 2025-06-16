@@ -117,6 +117,16 @@ dbg
 =
 makeDebugger
 (
+{
+shouldAddNewGlobalAsDebuggee
+(
+)
+{
+return
+true
+;
+}
+}
 )
 ;
 dbg

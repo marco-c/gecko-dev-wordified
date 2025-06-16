@@ -98,12 +98,11 @@ executeOnNextTickAndWaitForPause
 )
 =
 >
-Cu
+global
 .
-evalInSandbox
+eval
 (
 expression
-global
 )
 threadFront
 )
