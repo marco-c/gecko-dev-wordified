@@ -407,8 +407,6 @@ JSContext
 cx
 AbstractFramePtr
 frame
-HandleScript
-script
 JSObject
 *
 argsobj
