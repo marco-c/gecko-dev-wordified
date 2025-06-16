@@ -14510,6 +14510,10 @@ false
 /
 /
 isPrivateModeGranted
+false
+/
+/
+isTechnicalAndInteractionDataGranted
 )
 )
 }

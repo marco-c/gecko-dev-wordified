@@ -1069,6 +1069,10 @@ true
 /
 /
 isPrivateModeGranted
+false
+/
+/
+isTechnicalAndInteractionDataGranted
 )
 )
 ;
