@@ -1447,14 +1447,6 @@ true
 }
 if
 (
-ExnRefAvailable
-(
-cx
-)
-)
-{
-if
-(
 StringEqualsLiteral
 (
 typeLinearStr
@@ -1477,7 +1469,6 @@ exn
 return
 true
 ;
-}
 }
 if
 (

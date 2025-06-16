@@ -644,10 +644,6 @@ jsStringConstants
 (
 false
 )
-requireExnref
-(
-false
-)
 {
 }
 /
@@ -736,15 +732,6 @@ jsStringConstants
 ;
 SharedChars
 jsStringConstantsNamespace
-;
-/
-/
-Enable
-exnref
-support
-.
-bool
-requireExnref
 ;
 /
 /
