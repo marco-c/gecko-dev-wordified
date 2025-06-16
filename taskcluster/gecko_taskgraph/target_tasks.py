@@ -5008,23 +5008,6 @@ try_name
 return
 True
                 
-#
-Bug
-1954124
--
-Don
-'
-t
-run
-JS3
-+
-Android
-on
-a
-cron
-yet
-.
-                
 if
 "
 jetstream3
@@ -5034,7 +5017,7 @@ try_name
 :
                     
 return
-False
+True
                 
 #
 Bug
@@ -5901,23 +5884,6 @@ try_name
 return
 True
                 
-#
-Bug
-1954124
--
-Don
-'
-t
-run
-JS3
-+
-Android
-on
-a
-cron
-yet
-.
-                
 if
 "
 jetstream3
@@ -5927,7 +5893,7 @@ try_name
 :
                     
 return
-False
+True
                 
 if
 "
