@@ -5399,6 +5399,14 @@ variable
 \
 MACRO_
 (
+variants
+"
+variants
+"
+)
+\
+MACRO_
+(
 void_
 "
 void
