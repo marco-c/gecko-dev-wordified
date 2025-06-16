@@ -132,7 +132,7 @@ mozilla
 {
 enum
 class
-RemoteDecodeIn
+RemoteMediaIn
 ;
 /
 /
@@ -189,7 +189,7 @@ PlatformDecoderModule
 >
 Create
 (
-RemoteDecodeIn
+RemoteMediaIn
 aLocation
 )
 ;
@@ -289,12 +289,12 @@ private
 explicit
 RemoteDecoderModule
 (
-RemoteDecodeIn
+RemoteMediaIn
 aLocation
 )
 ;
 const
-RemoteDecodeIn
+RemoteMediaIn
 mLocation
 ;
 }

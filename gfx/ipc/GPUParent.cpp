@@ -306,7 +306,7 @@ include
 "
 mozilla
 /
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 .
 h
 "
@@ -315,7 +315,7 @@ include
 "
 mozilla
 /
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 .
 h
 "
@@ -4561,11 +4561,11 @@ IPCResult
 GPUParent
 :
 :
-RecvNewContentRemoteDecoderManager
+RecvNewContentRemoteMediaManager
 (
 Endpoint
 <
-PRemoteDecoderManagerParent
+PRemoteMediaManagerParent
 >
 &
 &
@@ -4579,7 +4579,7 @@ aChildId
 if
 (
 !
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 :
 :
 CreateForContent
@@ -5315,7 +5315,7 @@ endif
 Wait
 until
 all
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 have
 closed
 .

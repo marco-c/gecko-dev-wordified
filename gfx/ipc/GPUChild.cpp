@@ -341,14 +341,14 @@ include
 "
 mozilla
 /
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 .
 h
 "
 /
 /
 For
-RemoteDecodeIn
+RemoteMediaIn
 #
 include
 "
@@ -2771,7 +2771,7 @@ ContentParent
 :
 BroadcastMediaCodecsSupportedUpdate
 (
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 GpuProcess
@@ -2788,7 +2788,7 @@ ContentParent
 :
 BroadcastMediaCodecsSupportedUpdate
 (
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 GpuProcess

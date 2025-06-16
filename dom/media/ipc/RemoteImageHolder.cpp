@@ -151,7 +151,7 @@ include
 "
 mozilla
 /
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 .
 h
 "
@@ -1021,7 +1021,7 @@ are
 held
 by
 the
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 we
 didn
 '
@@ -1411,12 +1411,12 @@ aResult
 >
 mManager
 =
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 :
 :
 GetSingleton
 (
-GetRemoteDecodeInFromVideoBridgeSource
+GetRemoteMediaInFromVideoBridgeSource
 (
 aResult
 -

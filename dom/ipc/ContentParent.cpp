@@ -3115,7 +3115,7 @@ std
 :
 map
 <
-RemoteDecodeIn
+RemoteMediaIn
 media
 :
 :
@@ -10076,7 +10076,7 @@ ContentParent
 :
 BroadcastMediaCodecsSupportedUpdate
 (
-RemoteDecodeIn
+RemoteMediaIn
 aLocation
 const
 media
@@ -10163,7 +10163,7 @@ support
 %
 s
 "
-RemoteDecodeInToStr
+RemoteMediaInToStr
 (
 aLocation
 )
@@ -19482,7 +19482,7 @@ vrBridge
 ;
 Endpoint
 <
-PRemoteDecoderManagerChild
+PRemoteMediaManagerChild
 >
 videoManager
 ;
@@ -20665,7 +20665,7 @@ vrBridge
 ;
 Endpoint
 <
-PRemoteDecoderManagerChild
+PRemoteMediaManagerChild
 >
 videoManager
 ;

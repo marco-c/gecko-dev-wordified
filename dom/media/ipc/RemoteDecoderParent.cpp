@@ -124,7 +124,7 @@ h
 #
 include
 "
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 .
 h
 "
@@ -145,7 +145,7 @@ RemoteDecoderParent
 :
 RemoteDecoderParent
 (
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 *
 aParent
 const

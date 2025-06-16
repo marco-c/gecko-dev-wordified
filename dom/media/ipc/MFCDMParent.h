@@ -120,7 +120,7 @@ h
 #
 include
 "
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 .
 h
 "
@@ -238,7 +238,7 @@ const
 nsAString
 &
 aKeySystem
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 *
 aManager
 nsISerialEventTarget
@@ -720,7 +720,7 @@ mKeySystem
 const
 RefPtr
 <
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 >
 mManager
 ;

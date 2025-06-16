@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-include_dom_media_ipc_RemoteDecoderManagerParent_h
+include_dom_media_ipc_RemoteMediaManagerParent_h
 #
 define
-include_dom_media_ipc_RemoteDecoderManagerParent_h
+include_dom_media_ipc_RemoteMediaManagerParent_h
 #
 include
 "
@@ -132,7 +132,7 @@ include
 "
 mozilla
 /
-PRemoteDecoderManagerParent
+PRemoteMediaManagerParent
 .
 h
 "
@@ -173,11 +173,11 @@ class
 PMFMediaEngineParent
 ;
 class
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 final
 :
 public
-PRemoteDecoderManagerParent
+PRemoteMediaManagerParent
 public
 layers
 :
@@ -186,13 +186,13 @@ IGPUVideoSurfaceManager
 {
 friend
 class
-PRemoteDecoderManagerParent
+PRemoteMediaManagerParent
 ;
 public
 :
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 override
 )
 static
@@ -201,7 +201,7 @@ CreateForContent
 (
 Endpoint
 <
-PRemoteDecoderManagerParent
+PRemoteMediaManagerParent
 >
 &
 &
@@ -516,7 +516,7 @@ override
 ;
 private
 :
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 (
 nsISerialEventTarget
 *
@@ -529,7 +529,7 @@ aContentId
 )
 ;
 ~
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 (
 )
 ;
@@ -538,7 +538,7 @@ Open
 (
 Endpoint
 <
-PRemoteDecoderManagerParent
+PRemoteMediaManagerParent
 >
 &
 &
@@ -606,4 +606,4 @@ mozilla
 endif
 /
 /
-include_dom_media_ipc_RemoteDecoderManagerParent_h
+include_dom_media_ipc_RemoteMediaManagerParent_h

@@ -1815,7 +1815,7 @@ IPCResult
 RecvEnsureUtilityProcessAndCreateBridge
 (
 const
-RemoteDecodeIn
+RemoteMediaIn
 &
 aLocation
 EnsureUtilityProcessAndCreateBridgeResolver

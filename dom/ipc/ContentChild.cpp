@@ -351,7 +351,7 @@ include
 "
 mozilla
 /
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 .
 h
 "
@@ -9673,7 +9673,7 @@ gfxFeatureStatus
 /
 Initialize
 the
-RemoteDecoderManager
+RemoteMediaManager
 thread
 and
 its
@@ -9683,7 +9683,7 @@ PBackground
 /
 channel
 .
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 :
 :
 Init
@@ -10577,7 +10577,7 @@ PVRManagerChild
 aVRBridge
 Endpoint
 <
-PRemoteDecoderManagerChild
+PRemoteMediaManagerChild
 >
 &
 &
@@ -10833,7 +10833,7 @@ OtherChildID
 )
 ;
 }
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 :
 :
 InitForGPUProcess
@@ -10972,7 +10972,7 @@ PVRManagerChild
 aVRBridge
 Endpoint
 <
-PRemoteDecoderManagerChild
+PRemoteMediaManagerChild
 >
 &
 &
@@ -11275,7 +11275,7 @@ nullptr
 )
 ;
 }
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 :
 :
 InitForGPUProcess
@@ -30448,7 +30448,7 @@ ContentChild
 :
 RecvUpdateMediaCodecsSupported
 (
-RemoteDecodeIn
+RemoteMediaIn
 aLocation
 const
 media
@@ -30459,7 +30459,7 @@ MediaCodecsSupported
 aSupported
 )
 {
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 :
 :
 SetSupported

@@ -131,7 +131,7 @@ h
 #
 include
 "
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 .
 h
 "
@@ -290,7 +290,7 @@ nsISerialEventTarget
 >
 thread
 =
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 :
 :
 GetManagerThread
@@ -402,7 +402,7 @@ this
 return
 InvokeAsync
 (
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 :
 :
 GetManagerThread
@@ -432,7 +432,7 @@ Init
 >
 Then
 (
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 :
 :
 GetManagerThread
@@ -678,7 +678,7 @@ aSample
 return
 InvokeAsync
 (
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 :
 :
 GetManagerThread
@@ -752,7 +752,7 @@ this
 return
 InvokeAsync
 (
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 :
 :
 GetManagerThread
@@ -815,7 +815,7 @@ this
 return
 InvokeAsync
 (
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 :
 :
 GetManagerThread
@@ -868,7 +868,7 @@ this
 return
 InvokeAsync
 (
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 :
 :
 GetManagerThread
@@ -918,7 +918,7 @@ this
 return
 InvokeAsync
 (
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 :
 :
 GetManagerThread
@@ -1001,7 +1001,7 @@ p
 >
 Then
 (
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 :
 :
 GetManagerThread
@@ -1125,7 +1125,7 @@ time
 =
 aTime
 ;
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 :
 :
 GetManagerThread

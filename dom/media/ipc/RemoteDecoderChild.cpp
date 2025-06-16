@@ -124,7 +124,7 @@ h
 #
 include
 "
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 .
 h
 "
@@ -145,7 +145,7 @@ RemoteDecoderChild
 :
 RemoteDecoderChild
 (
-RemoteDecodeIn
+RemoteMediaIn
 aLocation
 )
 :
@@ -166,7 +166,7 @@ GetCurrentSerialEventTarget
 {
 MOZ_DIAGNOSTIC_ASSERT
 (
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 :
 :
 GetManagerThread
@@ -174,7 +174,7 @@ GetManagerThread
 )
 &
 &
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 :
 :
 GetManagerThread
@@ -307,7 +307,7 @@ if
 mLocation
 =
 =
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 GpuProcess
@@ -448,7 +448,7 @@ if
 mLocation
 =
 =
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 GpuProcess
@@ -457,7 +457,7 @@ GpuProcess
 mLocation
 =
 =
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 RddProcess
@@ -474,7 +474,7 @@ if
 mLocation
 =
 =
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 UtilityProcess_MFMediaEngineCDM
@@ -795,7 +795,7 @@ mDescription
 .
 Append
 (
-RemoteDecodeInToStr
+RemoteMediaInToStr
 (
 GetManager
 (
@@ -1021,7 +1021,7 @@ if
 mLocation
 =
 =
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 GpuProcess
@@ -1030,7 +1030,7 @@ GpuProcess
 mLocation
 =
 =
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 RddProcess
@@ -1047,7 +1047,7 @@ if
 mLocation
 =
 =
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 UtilityProcess_MFMediaEngineCDM
@@ -2096,7 +2096,7 @@ IsOnCurrentThread
 )
 ;
 }
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 *
 RemoteDecoderChild
 :
@@ -2120,7 +2120,7 @@ nullptr
 return
 static_cast
 <
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 *
 >
 (

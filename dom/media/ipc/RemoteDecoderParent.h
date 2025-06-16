@@ -142,7 +142,7 @@ namespace
 mozilla
 {
 class
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 ;
 using
 mozilla
@@ -195,7 +195,7 @@ RemoteDecoderParent
 )
 RemoteDecoderParent
 (
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 *
 aParent
 const
@@ -347,7 +347,7 @@ aDecodedData
 const
 RefPtr
 <
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 >
 mParent
 ;

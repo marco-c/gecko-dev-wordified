@@ -111,7 +111,7 @@ PProfiler
 ;
 include
 protocol
-PRemoteDecoderManager
+PRemoteMediaManager
 ;
 include
 protocol
@@ -477,11 +477,11 @@ endpoint
 )
 ;
 async
-NewContentRemoteDecoderManager
+NewContentRemoteMediaManager
 (
 Endpoint
 <
-PRemoteDecoderManagerParent
+PRemoteMediaManagerParent
 >
 endpoint
 ContentParentId

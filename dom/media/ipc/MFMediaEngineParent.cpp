@@ -141,7 +141,7 @@ h
 #
 include
 "
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 .
 h
 "
@@ -433,7 +433,7 @@ MFMediaEngineParent
 :
 MFMediaEngineParent
 (
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 *
 aManager
 nsISerialEventTarget

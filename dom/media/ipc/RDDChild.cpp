@@ -1056,7 +1056,7 @@ ContentParent
 :
 BroadcastMediaCodecsSupportedUpdate
 (
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 RddProcess

@@ -207,7 +207,7 @@ h
 #
 include
 "
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 .
 h
 "
@@ -416,7 +416,7 @@ RemoteVideoDecoderChild
 :
 RemoteVideoDecoderChild
 (
-RemoteDecodeIn
+RemoteMediaIn
 aLocation
 )
 :
@@ -717,7 +717,7 @@ MOZ_ASSERT_IF
 mLocation
 =
 =
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 GpuProcess
@@ -726,11 +726,11 @@ aIdentifier
 ;
 RefPtr
 <
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 >
 manager
 =
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 :
 :
 GetSingleton
@@ -747,7 +747,7 @@ isn
 t
 available
 because
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 has
 been
 /
@@ -798,7 +798,7 @@ NS_ERROR_DOM_MEDIA_FATAL_ERR
 RESULT_DETAIL
 (
 "
-RemoteDecoderManager
+RemoteMediaManager
 is
 not
 available
@@ -824,7 +824,7 @@ if
 mLocation
 =
 =
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 GpuProcess
@@ -941,7 +941,7 @@ NS_ERROR_DOM_MEDIA_FATAL_ERR
 RESULT_DETAIL
 (
 "
-RemoteDecoderManager
+RemoteMediaManager
 unable
 to
 send
@@ -987,7 +987,7 @@ RemoteVideoDecoderParent
 :
 RemoteVideoDecoderParent
 (
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 *
 aParent
 const

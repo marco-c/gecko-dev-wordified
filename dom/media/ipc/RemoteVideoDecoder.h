@@ -130,7 +130,7 @@ h
 #
 include
 "
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 .
 h
 "
@@ -251,7 +251,7 @@ public
 explicit
 RemoteVideoDecoderChild
 (
-RemoteDecodeIn
+RemoteMediaIn
 aLocation
 )
 ;
@@ -336,7 +336,7 @@ public
 :
 RemoteVideoDecoderParent
 (
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 *
 aParent
 const

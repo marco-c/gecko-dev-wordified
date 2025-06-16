@@ -134,7 +134,7 @@ include
 "
 mozilla
 /
-PRemoteDecoderManagerChild
+PRemoteMediaManagerChild
 .
 h
 "
@@ -288,7 +288,7 @@ ipc
 :
 Endpoint
 <
-PRemoteDecoderManagerChild
+PRemoteMediaManagerChild
 >
 nsresult
 true
@@ -329,7 +329,7 @@ and
 /
 create
 a
-RemoteDecoderManager
+RemoteMediaManager
 bridge
 RefPtr
 <
@@ -696,10 +696,10 @@ ipc
 :
 Endpoint
 <
-PRemoteDecoderManagerChild
+PRemoteMediaManagerChild
 >
 *
-aOutRemoteDecoderManager
+aOutRemoteMediaManager
 )
 ;
 const

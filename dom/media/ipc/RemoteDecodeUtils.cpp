@@ -115,7 +115,7 @@ mSandbox
 SandboxingKind
 GetSandboxingKindFromLocation
 (
-RemoteDecodeIn
+RemoteMediaIn
 aLocation
 )
 {
@@ -125,7 +125,7 @@ aLocation
 )
 {
 case
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 UtilityProcess_Generic
@@ -140,7 +140,7 @@ GENERIC_UTILITY
 ifdef
 MOZ_APPLEMEDIA
 case
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 UtilityProcess_AppleMedia
@@ -159,7 +159,7 @@ endif
 ifdef
 XP_WIN
 case
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 UtilityProcess_WMF
@@ -176,7 +176,7 @@ endif
 ifdef
 MOZ_WMF_MEDIA_ENGINE
 case
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 UtilityProcess_MFMediaEngineCDM
@@ -195,7 +195,7 @@ MOZ_ASSERT_UNREACHABLE
 (
 "
 Unsupported
-RemoteDecodeIn
+RemoteMediaIn
 "
 )
 ;
@@ -207,8 +207,8 @@ COUNT
 ;
 }
 }
-RemoteDecodeIn
-GetRemoteDecodeInFromKind
+RemoteMediaIn
+GetRemoteMediaInFromKind
 (
 SandboxingKind
 aKind
@@ -226,7 +226,7 @@ SandboxingKind
 GENERIC_UTILITY
 :
 return
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 UtilityProcess_Generic
@@ -241,7 +241,7 @@ SandboxingKind
 UTILITY_AUDIO_DECODING_APPLE_MEDIA
 :
 return
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 UtilityProcess_AppleMedia
@@ -258,7 +258,7 @@ SandboxingKind
 UTILITY_AUDIO_DECODING_WMF
 :
 return
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 UtilityProcess_WMF
@@ -275,7 +275,7 @@ SandboxingKind
 MF_MEDIA_ENGINE_CDM
 :
 return
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 UtilityProcess_MFMediaEngineCDM
@@ -293,15 +293,15 @@ SandboxingKind
 )
 ;
 return
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 Unspecified
 ;
 }
 }
-RemoteDecodeIn
-GetRemoteDecodeInFromVideoBridgeSource
+RemoteMediaIn
+GetRemoteMediaInFromVideoBridgeSource
 (
 layers
 :
@@ -325,7 +325,7 @@ VideoBridgeSource
 RddProcess
 :
 return
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 RddProcess
@@ -340,7 +340,7 @@ VideoBridgeSource
 GpuProcess
 :
 return
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 GpuProcess
@@ -355,7 +355,7 @@ VideoBridgeSource
 MFMediaEngineCDMProcess
 :
 return
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 UtilityProcess_MFMediaEngineCDM
@@ -371,7 +371,7 @@ VideoBridgeSource
 )
 ;
 return
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 Unspecified
@@ -381,9 +381,9 @@ Unspecified
 const
 char
 *
-RemoteDecodeInToStr
+RemoteMediaInToStr
 (
-RemoteDecodeIn
+RemoteMediaIn
 aLocation
 )
 {
@@ -393,7 +393,7 @@ aLocation
 )
 {
 case
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 RddProcess
@@ -404,7 +404,7 @@ RDD
 "
 ;
 case
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 GpuProcess
@@ -415,7 +415,7 @@ GPU
 "
 ;
 case
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 UtilityProcess_Generic
@@ -430,7 +430,7 @@ Generic
 ifdef
 MOZ_APPLEMEDIA
 case
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 UtilityProcess_AppleMedia
@@ -447,7 +447,7 @@ endif
 ifdef
 XP_WIN
 case
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 UtilityProcess_WMF
@@ -464,7 +464,7 @@ endif
 ifdef
 MOZ_WMF_MEDIA_ENGINE
 case
-RemoteDecodeIn
+RemoteMediaIn
 :
 :
 UtilityProcess_MFMediaEngineCDM
@@ -486,7 +486,7 @@ MOZ_ASSERT_UNREACHABLE
 (
 "
 Unsupported
-RemoteDecodeIn
+RemoteMediaIn
 "
 )
 ;

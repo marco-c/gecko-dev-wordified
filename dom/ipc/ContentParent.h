@@ -1833,7 +1833,7 @@ static
 void
 BroadcastMediaCodecsSupportedUpdate
 (
-RemoteDecodeIn
+RemoteMediaIn
 aLocation
 const
 media

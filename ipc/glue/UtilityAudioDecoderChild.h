@@ -362,7 +362,7 @@ IPCResult
 RecvUpdateMediaCodecsSupported
 (
 const
-RemoteDecodeIn
+RemoteMediaIn
 &
 aLocation
 const

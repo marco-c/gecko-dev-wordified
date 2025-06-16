@@ -98,7 +98,7 @@ GraphicsMessages
 ;
 include
 protocol
-PRemoteDecoderManager
+PRemoteMediaManager
 ;
 include
 protocol
@@ -144,12 +144,12 @@ using
 mozilla
 :
 :
-RemoteDecodeIn
+RemoteMediaIn
 from
 "
 mozilla
 /
-RemoteDecoderManagerChild
+RemoteMediaManagerChild
 .
 h
 "
@@ -212,11 +212,11 @@ PUtilityAudioDecoder
 parent
 :
 async
-NewContentRemoteDecoderManager
+NewContentRemoteMediaManager
 (
 Endpoint
 <
-PRemoteDecoderManagerParent
+PRemoteMediaManagerParent
 >
 endpoint
 ContentParentId
@@ -276,7 +276,7 @@ child
 async
 UpdateMediaCodecsSupported
 (
-RemoteDecodeIn
+RemoteMediaIn
 aLocation
 MediaCodecsSupported
 aSupported

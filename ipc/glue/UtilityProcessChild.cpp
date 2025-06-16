@@ -230,7 +230,7 @@ include
 "
 mozilla
 /
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 .
 h
 "
@@ -2525,7 +2525,7 @@ endif
 Wait
 until
 all
-RemoteDecoderManagerParent
+RemoteMediaManagerParent
 have
 closed
 .

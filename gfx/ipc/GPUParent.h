@@ -706,11 +706,11 @@ ipc
 :
 :
 IPCResult
-RecvNewContentRemoteDecoderManager
+RecvNewContentRemoteMediaManager
 (
 Endpoint
 <
-PRemoteDecoderManagerParent
+PRemoteMediaManagerParent
 >
 &
 &

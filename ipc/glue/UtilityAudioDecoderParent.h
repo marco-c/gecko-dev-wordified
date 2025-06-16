@@ -125,7 +125,7 @@ include
 "
 mozilla
 /
-PRemoteDecoderManagerParent
+PRemoteMediaManagerParent
 .
 h
 "
@@ -276,11 +276,11 @@ ipc
 :
 :
 IPCResult
-RecvNewContentRemoteDecoderManager
+RecvNewContentRemoteMediaManager
 (
 Endpoint
 <
-PRemoteDecoderManagerParent
+PRemoteMediaManagerParent
 >
 &
 &
