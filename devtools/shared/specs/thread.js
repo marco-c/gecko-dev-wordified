@@ -189,6 +189,13 @@ nullable
 :
 string
 "
+showStacktrace
+:
+"
+nullable
+:
+boolean
+"
 }
 )
 ;

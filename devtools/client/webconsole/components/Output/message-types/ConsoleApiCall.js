@@ -769,6 +769,7 @@ type
 |
 |
 (
+(
 type
 =
 =
@@ -776,6 +777,16 @@ type
 "
 error
 "
+|
+|
+type
+=
+=
+=
+"
+logPoint
+"
+)
 &
 &
 Array

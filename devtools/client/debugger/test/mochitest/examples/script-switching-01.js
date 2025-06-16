@@ -81,3 +81,13 @@ return
 43
 ;
 }
+function
+logPointTest
+(
+)
+{
+firstCall
+(
+)
+;
+}

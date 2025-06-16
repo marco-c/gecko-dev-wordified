@@ -1982,6 +1982,17 @@ type
 "
 trace
 "
+|
+|
+newMessage
+.
+type
+=
+=
+=
+"
+logPoint
+"
 )
 {
 /

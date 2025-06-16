@@ -1291,6 +1291,11 @@ logValue
 options
 .
 logValue
+showStacktrace
+:
+options
+.
+showStacktrace
 }
 ;
 const
