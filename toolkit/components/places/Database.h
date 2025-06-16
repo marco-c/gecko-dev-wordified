@@ -1796,6 +1796,11 @@ MigrateV80Up
 )
 ;
 nsresult
+MigrateV81Up
+(
+)
+;
+nsresult
 UpdateBookmarkRootTitles
 (
 )
