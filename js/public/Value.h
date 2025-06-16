@@ -3807,10 +3807,6 @@ match
 *
 /
 class
-alignas
-(
-8
-)
 Value
 {
 private
@@ -7372,7 +7368,6 @@ const
 endif
 }
 JS_HAZ_GC_POINTER
-MOZ_NON_PARAM
 ;
 static_assert
 (

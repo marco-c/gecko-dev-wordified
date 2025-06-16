@@ -387,6 +387,10 @@ trampoline
 frame
 .
 class
+alignas
+(
+8
+)
 ArraySortData
 {
 public
@@ -693,8 +697,11 @@ unused
 private
 field
 .
-size_t
+uint32_t
 padding
+[
+2
+]
 ;
 #
 endif
