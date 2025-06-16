@@ -36,7 +36,7 @@ unittest
 from
 functools
 import
-lru_cache
+cache
 from
 pathlib
 import
@@ -49,8 +49,6 @@ from
 typing
 import
 Any
-Dict
-List
 TypedDict
 import
 mozunit
@@ -106,14 +104,14 @@ run_mach
 (
 args
 :
-List
+list
 [
 str
 ]
 *
 env
 :
-Dict
+dict
 [
 str
 str
@@ -255,12 +253,7 @@ n
 )
         
 raise
-lru_cache
-(
-maxsize
-=
-None
-)
+cache
 def
 get_metrics
 (
@@ -311,23 +304,18 @@ TypedDict
     
 prefs
 :
-List
+list
 [
 TargetingPref
 ]
     
 values
 :
-List
+list
 [
 str
 ]
-lru_cache
-(
-maxsize
-=
-None
-)
+cache
 def
 dump_targeting_context
 (
@@ -560,7 +548,7 @@ str
         
 defaults
 :
-Dict
+dict
 [
 str
 Any
@@ -568,7 +556,7 @@ Any
         
 metric
 :
-Dict
+dict
 [
 str
 Any

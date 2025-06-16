@@ -59,7 +59,6 @@ from
 typing
 import
 Any
-Dict
 Optional
 import
 yaml
@@ -232,7 +231,7 @@ test_settings
 :
 Optional
 [
-Dict
+dict
 [
 str
 Any
@@ -258,7 +257,7 @@ self
 .
 _platform
 :
-Dict
+dict
 [
 str
 Any
@@ -275,7 +274,7 @@ self
 .
 _platform_os
 :
-Dict
+dict
 [
 str
 str
@@ -294,7 +293,7 @@ self
 .
 _build
 :
-Dict
+dict
 [
 str
 str
@@ -311,7 +310,7 @@ self
 .
 _runtime
 :
-Dict
+dict
 [
 str
 str
@@ -1428,7 +1427,7 @@ from_dict
 self
 data
 :
-Dict
+dict
 [
 str
 Any

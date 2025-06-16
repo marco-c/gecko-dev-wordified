@@ -9113,12 +9113,7 @@ property
     
 functools
 .
-lru_cache
-(
-maxsize
-=
-None
-)
+cache
     
 def
 _is_git_cinnabar
@@ -9210,12 +9205,7 @@ property
     
 functools
 .
-lru_cache
-(
-maxsize
-=
-None
-)
+cache
     
 def
 _git_repo_kind

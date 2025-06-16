@@ -193,7 +193,6 @@ Path
 from
 typing
 import
-List
 Optional
 Union
 from
@@ -381,7 +380,7 @@ run_command
     
 command
 :
-List
+list
 [
 Union
 [

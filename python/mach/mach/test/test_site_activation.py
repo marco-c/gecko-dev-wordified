@@ -77,10 +77,6 @@ from
 subprocess
 import
 CompletedProcess
-from
-typing
-import
-List
 import
 buildconfig
 import
@@ -119,28 +115,28 @@ str
         
 stdlib_paths
 :
-List
+list
 [
 Path
 ]
         
 system_paths
 :
-List
+list
 [
 Path
 ]
         
 required_mach_sys_paths
 :
-List
+list
 [
 Path
 ]
         
 mach_requirement_paths
 :
-List
+list
 [
 Path
 ]
@@ -1890,12 +1886,7 @@ command_requirement_path
 )
 functools
 .
-lru_cache
-(
-maxsize
-=
-None
-)
+cache
 def
 _original_python
 (
@@ -2216,9 +2207,9 @@ None
 )
 -
 >
-List
+list
 [
-List
+list
 [
 Path
 ]
@@ -2406,7 +2397,7 @@ context
 ActivationContext
 original
 :
-List
+list
 [
 Path
 ]
@@ -2468,7 +2459,7 @@ PythonVirtualenv
 )
 -
 >
-List
+list
 [
 Path
 ]
@@ -2575,14 +2566,14 @@ _filter_pydev_from_paths
 (
 paths
 :
-List
+list
 [
 str
 ]
 )
 -
 >
-List
+list
 [
 str
 ]

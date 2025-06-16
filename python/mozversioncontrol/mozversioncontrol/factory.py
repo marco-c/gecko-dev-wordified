@@ -68,14 +68,8 @@ Path
 from
 typing
 import
-(
-    
-Dict
-    
 Optional
-    
 Union
-)
 from
 packaging
 .
@@ -142,7 +136,7 @@ import
 SrcRepository
 VCS_CLASSES
 :
-Dict
+dict
 [
 str
 type

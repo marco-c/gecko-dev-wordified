@@ -69,10 +69,6 @@ import
 dataclass
 field
 from
-typing
-import
-List
-from
 mozlint
 import
 result
@@ -813,7 +809,7 @@ str
     
 paths
 :
-List
+list
 [
 str
 ]

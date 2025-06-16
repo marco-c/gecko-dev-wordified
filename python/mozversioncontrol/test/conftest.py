@@ -67,10 +67,6 @@ from
 pathlib
 import
 Path
-from
-typing
-import
-List
 import
 pytest
 #
@@ -512,7 +508,7 @@ vcs
 str
 steps
 :
-List
+list
 [
 str
 ]

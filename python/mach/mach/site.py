@@ -105,10 +105,6 @@ contextlib
 import
 contextmanager
 from
-functools
-import
-lru_cache
-from
 pathlib
 import
 Path
@@ -244,12 +240,9 @@ sep
 \
 "
 )
-lru_cache
-(
-maxsize
-=
-None
-)
+functools
+.
+cache
 def
 use_uv
 (
@@ -296,12 +289,9 @@ get_uv_executable
 )
     
 )
-lru_cache
-(
-maxsize
-=
-None
-)
+functools
+.
+cache
 def
 get_uv_executable
 (
@@ -317,12 +307,9 @@ which
 uv
 "
 )
-lru_cache
-(
-maxsize
-=
-None
-)
+functools
+.
+cache
 def
 show_pip_output
 (
@@ -8757,12 +8744,7 @@ python_executable
     
 functools
 .
-lru_cache
-(
-maxsize
-=
-None
-)
+cache
     
 def
 sys_path
@@ -9416,12 +9398,7 @@ return
 stdlib
 functools
 .
-lru_cache
-(
-maxsize
-=
-None
-)
+cache
 def
 resolve_requirements
 (

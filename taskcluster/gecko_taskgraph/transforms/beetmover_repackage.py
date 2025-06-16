@@ -72,10 +72,6 @@ description
 import
 logging
 from
-typing
-import
-List
-from
 taskgraph
 .
 transforms
@@ -419,7 +415,7 @@ get_label_by_suffix
 (
 labels
 :
-List
+list
 suffix
 :
 str
@@ -457,7 +453,7 @@ Args
         
 labels
 (
-List
+list
 )
 :
 List

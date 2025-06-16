@@ -70,6 +70,13 @@ sys
 import
 tempfile
 from
+collections
+.
+abc
+import
+Iterable
+Mapping
+from
 datetime
 import
 datetime
@@ -77,12 +84,7 @@ from
 typing
 import
 Callable
-Iterable
-List
-Mapping
 Optional
-Set
-Tuple
 repos
 =
 [
@@ -607,7 +609,7 @@ runs
 :
 Iterable
 [
-Tuple
+tuple
 [
 str
 str
@@ -619,7 +621,7 @@ results_by_category
 Mapping
 [
 str
-List
+list
 [
 int
 ]
@@ -632,9 +634,9 @@ Optional
 Mapping
 [
 str
-List
+list
 [
-Tuple
+tuple
 [
 int
 int
@@ -1150,7 +1152,7 @@ commit
 str
 task_filters
 :
-List
+list
 [
 str
 ]
@@ -1163,7 +1165,7 @@ bool
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -1200,16 +1202,16 @@ get_runs
 (
 commits
 :
-List
+list
 [
 str
 ]
 )
 -
 >
-List
+list
 [
-Tuple
+tuple
 [
 str
 str
@@ -1310,7 +1312,7 @@ category_filters
 :
 Optional
 [
-List
+list
 [
 str
 ]
@@ -1492,14 +1494,14 @@ fetch_logs
     
 commits
 :
-List
+list
 [
 str
 ]
     
 task_filters
 :
-List
+list
 [
 str
 ]
@@ -1583,7 +1585,7 @@ str
 Mapping
 [
 str
-Set
+set
 [
 Optional
 [
@@ -1875,14 +1877,14 @@ score_runs
     
 commits
 :
-List
+list
 [
 str
 ]
     
 task_filters
 :
-List
+list
 [
 str
 ]
@@ -1906,7 +1908,7 @@ category_filters
 :
 Optional
 [
-List
+list
 [
 str
 ]

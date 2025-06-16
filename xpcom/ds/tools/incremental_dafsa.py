@@ -121,8 +121,6 @@ from
 typing
 import
 Callable
-Dict
-List
 Optional
 class
 Node
@@ -130,7 +128,7 @@ Node
     
 children
 :
-Dict
+dict
 [
 str
 "
@@ -140,10 +138,10 @@ Node
     
 parents
 :
-Dict
+dict
 [
 str
-List
+list
 [
 "
 Node
@@ -1709,7 +1707,7 @@ SuffixCursor
     
 stack
 :
-List
+list
 [
 Node
 ]

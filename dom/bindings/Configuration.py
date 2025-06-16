@@ -62,10 +62,6 @@ collections
 import
 defaultdict
 from
-typing
-import
-List
-from
 WebIDL
 import
 IDLIncludesStatement
@@ -263,7 +259,7 @@ file
     
 unionTypedefs
 :
-List
+list
 [
 IDLTypedef
 ]

@@ -86,7 +86,6 @@ Path
 from
 typing
 import
-Dict
 Optional
 Union
 from
@@ -4410,7 +4409,7 @@ load_commands_from_spec
     
 spec
 :
-Dict
+dict
 [
 str
 MachCommandReference

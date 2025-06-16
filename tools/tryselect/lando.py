@@ -129,16 +129,8 @@ Path
 from
 typing
 import
-(
-    
-List
-    
 Optional
-    
-Tuple
-    
 Union
-)
 import
 requests
 from
@@ -408,11 +400,11 @@ str
 )
 -
 >
-Tuple
+tuple
 [
 str
 str
-List
+list
 [
 str
 ]
@@ -2700,7 +2692,7 @@ self
         
 patches
 :
-List
+list
 [
 str
 ]

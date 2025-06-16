@@ -79,7 +79,6 @@ from
 typing
 import
 Any
-List
 import
 appdirs
 import
@@ -1597,7 +1596,7 @@ target_kinds
     
 parameters
 :
-List
+list
 [
 Any
 [

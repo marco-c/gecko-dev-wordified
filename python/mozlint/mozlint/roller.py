@@ -105,11 +105,6 @@ from
 subprocess
 import
 CalledProcessError
-from
-typing
-import
-Dict
-Set
 import
 mozpack
 .
@@ -1905,13 +1900,13 @@ should_lint_entire_tree
 self
 vcs_paths
 :
-Set
+set
 [
 str
 ]
 linter
 :
-Dict
+dict
 )
 -
 >

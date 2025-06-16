@@ -72,7 +72,6 @@ from
 typing
 import
 Callable
-List
 Optional
 Union
 import
@@ -1566,7 +1565,7 @@ kwargs
 )
 -
 >
-List
+list
 [
 DoctorCheck
 ]
@@ -1959,7 +1958,7 @@ kwargs
 Union
 [
 DoctorCheck
-List
+list
 [
 DoctorCheck
 ]
@@ -3033,7 +3032,7 @@ configure_args
 :
 Optional
 [
-List
+list
 [
 str
 ]

@@ -81,7 +81,6 @@ from
 typing
 import
 Any
-Dict
 import
 requests
 import
@@ -176,7 +175,7 @@ Path
 )
 -
 >
-Dict
+dict
 [
 str
 Any

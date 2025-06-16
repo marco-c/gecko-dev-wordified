@@ -162,7 +162,6 @@ Path
 from
 typing
 import
-List
 Union
 class
 ConfigException
@@ -1738,7 +1737,7 @@ load_files
 self
 filenames
 :
-List
+list
 [
 Path
 ]

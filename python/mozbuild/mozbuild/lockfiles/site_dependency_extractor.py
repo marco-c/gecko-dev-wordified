@@ -70,9 +70,7 @@ Path
 from
 typing
 import
-List
 Optional
-Tuple
 #
 Skip
 locking
@@ -257,7 +255,7 @@ self
 .
 dependencies
 :
-List
+list
 [
 Dependency
 ]
@@ -272,13 +270,13 @@ self
 )
 -
 >
-Tuple
+tuple
 [
 Optional
 [
 str
 ]
-List
+list
 [
 Dependency
 ]

@@ -64,7 +64,6 @@ Path
 from
 typing
 import
-Dict
 Union
 from
 mozpack
@@ -879,7 +878,7 @@ str
         
 changed_files
 :
-Dict
+dict
 [
 str
 str

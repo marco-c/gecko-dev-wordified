@@ -70,12 +70,8 @@ Path
 from
 typing
 import
-Dict
-List
 Literal
 Optional
-Set
-Tuple
 TypedDict
 import
 requests
@@ -177,7 +173,7 @@ TypedDict
     
 manifest
 :
-List
+list
 [
 str
 ]
@@ -194,10 +190,10 @@ TypedDict
     
 tests
 :
-Dict
+dict
 [
 str
-List
+list
 [
 TestInfoAllTestsItem
 ]
@@ -686,9 +682,9 @@ get_test_info_all_tests
         
 manifest_errors
 :
-Set
+set
 [
-Tuple
+tuple
 [
 int
 str
@@ -701,10 +697,10 @@ set
         
 task_data
 :
-Dict
+dict
 [
 str
-Tuple
+tuple
 [
 int
 str
@@ -1306,9 +1302,9 @@ self
 )
 -
 >
-List
+list
 [
-Tuple
+tuple
 [
 int
 str
@@ -1407,7 +1403,7 @@ keep_bugs_above_threshold
 self
 failure_list
 :
-List
+list
 [
 BugzillaFailure
 ]
@@ -1415,7 +1411,7 @@ BugzillaFailure
 )
 -
 >
-List
+list
 [
 int
 ]
@@ -1423,7 +1419,7 @@ int
         
 filtered_failure_list
 :
-List
+list
 [
 int
 ]
@@ -1479,7 +1475,7 @@ keep_single_tracking_bugs_with_path
 self
 summaries
 :
-List
+list
 [
 BugzillaSummary
 ]
@@ -1487,9 +1483,9 @@ BugzillaSummary
 )
 -
 >
-List
+list
 [
-Tuple
+tuple
 [
 int
 str
@@ -1499,9 +1495,9 @@ str
         
 valid_bug_list
 :
-List
+list
 [
-Tuple
+tuple
 [
 int
 str
@@ -1677,14 +1673,14 @@ get_bugzilla_summaries
 self
 bug_id_list
 :
-List
+list
 [
 int
 ]
 )
 -
 >
-List
+list
 [
 BugzillaSummary
 ]
@@ -1757,7 +1753,7 @@ USER_AGENT
         
 json_response
 :
-Dict
+dict
 [
 Literal
 [
@@ -1765,7 +1761,7 @@ Literal
 bugs
 "
 ]
-List
+list
 [
 BugzillaSummary
 ]
@@ -1797,7 +1793,7 @@ trunk
 )
 -
 >
-List
+list
 [
 BugzillaFailure
 ]
@@ -1938,7 +1934,7 @@ trunk
 )
 -
 >
-List
+list
 [
 FailureByBug
 ]
@@ -2038,7 +2034,7 @@ get_task_list
 self
 task_id_list
 :
-List
+list
 [
 str
 ]
@@ -2051,9 +2047,9 @@ trunk
 )
 -
 >
-List
+list
 [
-Tuple
+tuple
 [
 str
 object

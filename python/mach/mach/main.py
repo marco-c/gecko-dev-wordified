@@ -97,10 +97,6 @@ pathlib
 import
 Path
 from
-typing
-import
-List
-from
 .
 base
 import
@@ -3330,7 +3326,7 @@ load_settings_by_file
 self
 paths
 :
-List
+list
 [
 Path
 ]

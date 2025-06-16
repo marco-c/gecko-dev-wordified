@@ -60,10 +60,7 @@ reduce
 from
 typing
 import
-Dict
-List
 Optional
-Tuple
 class
 FailedPlatform
 :
@@ -266,7 +263,7 @@ oop_permutations
 Optional
 [
             
-Dict
+dict
 [
                 
 str
@@ -274,10 +271,10 @@ str
 Build
 type
                 
-Dict
+dict
 [
 str
-Dict
+dict
 [
 str
 int
@@ -334,10 +331,10 @@ self
 .
 failures
 :
-Dict
+dict
 [
 str
-Dict
+dict
 [
 str
 int
@@ -366,7 +363,7 @@ self
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -410,7 +407,7 @@ str
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -1612,7 +1609,7 @@ str
 )
 -
 >
-Tuple
+tuple
 [
 str
 int

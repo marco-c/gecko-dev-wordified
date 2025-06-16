@@ -70,6 +70,12 @@ sys
 import
 uuid
 from
+collections
+.
+abc
+import
+Iterator
+from
 contextlib
 import
 contextmanager
@@ -84,9 +90,6 @@ Path
 from
 typing
 import
-Dict
-Iterator
-List
 Optional
 Union
 from
@@ -687,7 +690,7 @@ self
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -2195,7 +2198,7 @@ str
         
 changed_files
 :
-Dict
+dict
 [
 str
 str
@@ -2468,7 +2471,7 @@ follow
 :
 Optional
 [
-List
+list
 [
 str
 ]
@@ -2479,7 +2482,7 @@ None
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -2620,14 +2623,14 @@ get_commit_patches
 self
 nodes
 :
-List
+list
 [
 str
 ]
 )
 -
 >
-List
+list
 [
 bytes
 ]
@@ -2707,7 +2710,7 @@ changed_files
 :
 Optional
 [
-Dict
+dict
 [
 str
 str

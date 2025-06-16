@@ -238,8 +238,6 @@ from
 typing
 import
 Any
-Dict
-List
 NamedTuple
 Union
 from
@@ -319,7 +317,7 @@ schema
     
 message_types
 :
-Dict
+dict
 [
 str
 Path
@@ -381,7 +379,7 @@ bundle_common
 Union
 [
 bool
-List
+list
 [
 str
 ]
@@ -399,7 +397,7 @@ schema
     
 test_corpus
 :
-Dict
+dict
 [
 str
 Path
@@ -3057,7 +3055,7 @@ schema_def
 SchemaDefinition
 schema
 :
-Dict
+dict
 [
 str
 Any
@@ -3227,7 +3225,7 @@ schema_def
 SchemaDefinition
 schema
 :
-Dict
+dict
 [
 str
 Any

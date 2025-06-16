@@ -65,10 +65,6 @@ from
 pathlib
 import
 Path
-from
-typing
-import
-List
 import
 mozfile
 from
@@ -1181,7 +1177,7 @@ str
     
 extra_files
 :
-List
+list
 [
 tuple
 ]

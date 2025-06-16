@@ -62,7 +62,6 @@ Path
 from
 typing
 import
-List
 Union
 from
 mozlint
@@ -325,7 +324,7 @@ mozlint_confs
 Union
 [
 str
-List
+list
 [
 str
 ]
