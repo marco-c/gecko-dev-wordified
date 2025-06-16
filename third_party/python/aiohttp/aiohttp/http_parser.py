@@ -83,15 +83,15 @@ _EXC_SENTINEL
     
 DEBUG
     
+EMPTY_BODY_METHODS
+    
+EMPTY_BODY_STATUS_CODES
+    
 NO_EXTENSIONS
     
 BaseTimerContext
     
-method_must_be_empty_body
-    
 set_exception
-    
-status_code_must_be_empty_body
 )
 from
 .
@@ -100,6 +100,8 @@ import
 (
     
 BadHttpMessage
+    
+BadHttpMethod
     
 BadStatusLine
     
@@ -2414,20 +2416,18 @@ payload
                         
 empty_body
 =
-status_code_must_be_empty_body
-(
 code
-)
+in
+EMPTY_BODY_STATUS_CODES
 or
 bool
 (
                             
 method
 and
-method_must_be_empty_body
-(
 method
-)
+in
+EMPTY_BODY_METHODS
                         
 )
                         
@@ -3604,7 +3604,7 @@ ValueError
 :
             
 raise
-BadStatusLine
+BadHttpMethod
 (
 line
 )
@@ -3663,7 +3663,7 @@ method
 :
             
 raise
-BadStatusLine
+BadHttpMethod
 (
 method
 )
@@ -5175,7 +5175,7 @@ ContentLengthError
 Not
 enough
 data
-for
+to
 satisfy
 content
 length
@@ -5204,7 +5204,7 @@ TransferEncodingError
 Not
 enough
 data
-for
+to
 satisfy
 transfer
 length

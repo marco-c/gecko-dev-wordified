@@ -394,13 +394,6 @@ handler
 )
 handler
 )
-#
-type
-:
-ignore
-[
-misc
-]
     
 return
 handler
@@ -1163,8 +1156,6 @@ of
 started
 or
 joined
-"
-"
 application
 is
 deprecated
@@ -2851,8 +2842,6 @@ make_handler
 )
 is
 deprecated
-"
-"
 use
 AppRunner
 API
@@ -3094,6 +3083,18 @@ Request
 Request
 :
         
+if
+TYPE_CHECKING
+:
+            
+assert
+self
+.
+_loop
+is
+not
+None
+        
 return
 _cls
 (
@@ -3174,6 +3175,7 @@ warnings
 warn
 (
                     
+f
 '
 old
 -
@@ -3181,22 +3183,16 @@ style
 middleware
 "
 {
+m
 !
 r
 }
 "
 deprecated
-'
-"
 see
 #
 2252
-"
-.
-format
-(
-m
-)
+'
                     
 DeprecationWarning
                     
@@ -3490,13 +3486,6 @@ handler
 handler
 )
 handler
-#
-type
-:
-ignore
-[
-misc
-]
                             
 )
                         

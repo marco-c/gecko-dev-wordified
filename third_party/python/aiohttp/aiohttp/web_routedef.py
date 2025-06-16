@@ -299,8 +299,6 @@ __name__
 !
 r
 }
-"
-"
 {
 info
 }
@@ -527,8 +525,6 @@ prefix
 {
 path
 }
-"
-"
 {
 info
 }

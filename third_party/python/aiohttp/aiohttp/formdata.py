@@ -110,6 +110,14 @@ str
 ]
 =
 None
+        
+*
+        
+default_to_multipart
+:
+bool
+=
+False
     
 )
 -
@@ -148,13 +156,7 @@ self
 .
 _is_multipart
 =
-False
-        
-self
-.
-_is_processed
-=
-False
+default_to_multipart
         
 self
 .
@@ -400,7 +402,6 @@ str
 raise
 TypeError
 (
-                
 "
 filename
 must
@@ -410,8 +411,6 @@ instance
 of
 str
 .
-"
-"
 Got
 :
 %
@@ -419,7 +418,6 @@ s
 "
 %
 filename
-            
 )
         
 if
@@ -500,8 +498,6 @@ instance
 of
 str
 .
-"
-"
 Got
 :
 %
@@ -921,8 +917,6 @@ form
 -
 urlencoded
 ;
-"
-"
 charset
 =
 %
@@ -990,25 +984,6 @@ format
 "
 "
 "
-        
-if
-self
-.
-_is_processed
-:
-            
-raise
-RuntimeError
-(
-"
-Form
-data
-has
-been
-processed
-already
-"
-)
         
 for
 dispparams
@@ -1213,9 +1188,11 @@ part
         
 self
 .
-_is_processed
-=
-True
+_fields
+.
+clear
+(
+)
         
 return
 self

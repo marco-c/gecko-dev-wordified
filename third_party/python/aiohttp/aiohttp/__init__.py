@@ -3,9 +3,9 @@ __version__
 "
 3
 .
-10
+12
 .
-11
+12
 "
 from
 typing
@@ -62,6 +62,8 @@ ClientTimeout
     
 ClientWebSocketResponse
     
+ClientWSTimeout
+    
 ConnectionTimeoutError
     
 ContentTypeError
@@ -100,9 +102,41 @@ TooManyRedirects
     
 UnixConnector
     
+WSMessageTypeError
+    
 WSServerHandshakeError
     
 request
+)
+from
+.
+client_middleware_digest_auth
+import
+DigestAuthMiddleware
+from
+.
+client_middlewares
+import
+ClientHandlerType
+ClientMiddlewareType
+from
+.
+compression_utils
+import
+set_zlib_backend
+from
+.
+connector
+import
+(
+    
+AddrInfoType
+as
+AddrInfoType
+    
+SocketFactoryType
+as
+SocketFactoryType
 )
 from
 .
@@ -434,6 +468,10 @@ hdrs
 client
     
 "
+AddrInfoType
+"
+    
+"
 BaseConnector
 "
     
@@ -510,6 +548,10 @@ ClientWebSocketResponse
 "
     
 "
+ClientWSTimeout
+"
+    
+"
 ConnectionTimeoutError
 "
     
@@ -519,6 +561,10 @@ ContentTypeError
     
 "
 Fingerprint
+"
+    
+"
+FlowControlDataQueue
 "
     
 "
@@ -566,6 +612,10 @@ ServerTimeoutError
 "
     
 "
+SocketFactoryType
+"
+    
+"
 SocketTimeoutError
 "
     
@@ -591,6 +641,17 @@ WSServerHandshakeError
     
 "
 request
+"
+    
+#
+client_middleware
+    
+"
+ClientMiddlewareType
+"
+    
+"
+ClientHandlerType
 "
     
 #
@@ -623,7 +684,15 @@ ChainMapProxy
 "
     
 "
+DigestAuthMiddleware
+"
+    
+"
 ETag
+"
+    
+"
+set_zlib_backend
 "
     
 #
@@ -781,10 +850,6 @@ EofStream
 "
     
 "
-FlowControlDataQueue
-"
-    
-"
 StreamReader
 "
     
@@ -875,6 +940,10 @@ GunicornUVLoopWebWorker
 "
 GunicornWebWorker
 "
+    
+"
+WSMessageTypeError
+"
 )
 def
 __dir__
@@ -895,9 +964,6 @@ return
 __all__
 +
 (
-"
-__author__
-"
 "
 __doc__
 "

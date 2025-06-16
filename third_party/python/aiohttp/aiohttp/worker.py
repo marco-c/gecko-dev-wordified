@@ -14,6 +14,8 @@ web
 import
 asyncio
 import
+inspect
+import
 os
 import
 re
@@ -28,13 +30,9 @@ FrameType
 from
 typing
 import
+TYPE_CHECKING
 Any
-Awaitable
-Callable
 Optional
-Union
-#
-noqa
 from
 gunicorn
 .
@@ -68,7 +66,8 @@ from
 web_log
 import
 AccessLogger
-try
+if
+TYPE_CHECKING
 :
     
 import
@@ -79,6 +78,21 @@ SSLContext
 ssl
 .
 SSLContext
+else
+:
+    
+try
+:
+        
+import
+ssl
+        
+SSLContext
+=
+ssl
+.
+SSLContext
+    
 except
 ImportError
 :
@@ -87,7 +101,7 @@ pragma
 :
 no
 cover
-    
+        
 ssl
 =
 None
@@ -98,7 +112,7 @@ ignore
 [
 assignment
 ]
-    
+        
 SSLContext
 =
 object
@@ -410,6 +424,26 @@ self
 wsgi
         
 elif
+inspect
+.
+iscoroutinefunction
+(
+self
+.
+wsgi
+)
+or
+(
+            
+sys
+.
+version_info
+<
+(
+3
+14
+)
+and
 asyncio
 .
 iscoroutinefunction
@@ -417,6 +451,8 @@ iscoroutinefunction
 self
 .
 wsgi
+)
+        
 )
 :
             

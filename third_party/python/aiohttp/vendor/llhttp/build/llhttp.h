@@ -11,11 +11,11 @@ LLHTTP_VERSION_MAJOR
 #
 define
 LLHTTP_VERSION_MINOR
-2
+3
 #
 define
 LLHTTP_VERSION_PATCH
-1
+0
 #
 ifndef
 INCLUDE_LLHTTP_ITSELF_H_
@@ -293,6 +293,9 @@ HPE_CB_CHUNK_EXTENSION_VALUE_COMPLETE
 HPE_CB_RESET
 =
 31
+HPE_CB_PROTOCOL_COMPLETE
+=
+38
 }
 ;
 typedef
@@ -1130,6 +1133,13 @@ XX
 31
 CB_RESET
 CB_RESET
+)
+\
+XX
+(
+38
+CB_PROTOCOL_COMPLETE
+CB_PROTOCOL_COMPLETE
 )
 \
 #
@@ -2679,6 +2689,9 @@ HPE_USER
 *
 /
 llhttp_data_cb
+on_protocol
+;
+llhttp_data_cb
 on_url
 ;
 llhttp_data_cb
@@ -2790,6 +2803,9 @@ HPE_PAUSED
 /
 llhttp_cb
 on_message_complete
+;
+llhttp_cb
+on_protocol_complete
 ;
 llhttp_cb
 on_url_complete

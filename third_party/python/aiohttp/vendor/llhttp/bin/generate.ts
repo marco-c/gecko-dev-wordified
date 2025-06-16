@@ -100,6 +100,8 @@ disable
 next
 -
 line
+stylistic
+/
 max
 -
 len
