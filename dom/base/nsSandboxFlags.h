@@ -783,7 +783,7 @@ download
 const
 unsigned
 long
-SANDBOXED_ALLOW_DOWNLOADS
+SANDBOXED_DOWNLOADS
 =
 0x10000
 ;

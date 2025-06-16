@@ -335,7 +335,7 @@ allow
 downloads
 "
 allowdownloads
-SANDBOXED_ALLOW_DOWNLOADS
+SANDBOXED_DOWNLOADS
 )
 SANDBOX_KEYWORD
 (
