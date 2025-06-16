@@ -64,6 +64,23 @@ F401
 except
 ImportError
 :
+#
+pragma
+:
+no
+cover
+        
+#
+FIXME
+:
+Refactor
+for
+coverage
+.
+See
+#
+837
+.
         
 USE_EXTENSIONS
 =

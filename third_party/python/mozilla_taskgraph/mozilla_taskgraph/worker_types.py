@@ -3814,7 +3814,7 @@ destinations
 )
 :
 [
-str
+taskref_or_string
 ]
             
 }

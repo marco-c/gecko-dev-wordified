@@ -114,10 +114,6 @@ unused
 -
 ignore
 ]
-#
-noqa
-:
-E501
         
 from
 .
@@ -138,10 +134,6 @@ unused
 -
 ignore
 ]
-#
-noqa
-:
-E501
         
 cached_property
 =

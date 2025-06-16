@@ -2,7 +2,9 @@
 file
 generated
 by
-setuptools_scm
+setuptools
+-
+scm
 #
 don
 '
@@ -15,6 +17,22 @@ track
 in
 version
 control
+__all__
+=
+[
+"
+__version__
+"
+"
+__version_tuple__
+"
+"
+version
+"
+"
+version_tuple
+"
+]
 TYPE_CHECKING
 =
 False
@@ -26,6 +44,10 @@ from
 typing
 import
 Tuple
+    
+from
+typing
+import
 Union
     
 VERSION_TUPLE
@@ -66,9 +88,9 @@ version
 '
 3
 .
-16
+18
 .
-1
+0
 '
 __version_tuple__
 =
@@ -76,6 +98,6 @@ version_tuple
 =
 (
 3
-16
-1
+18
+0
 )

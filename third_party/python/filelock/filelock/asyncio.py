@@ -14,10 +14,6 @@ lock
 "
 "
 "
-#
-noqa
-:
-A005
 from
 __future__
 import
@@ -533,7 +529,9 @@ executor
 return
 cast
 (
+"
 BaseAsyncFileLock
+"
 instance
 )
 class

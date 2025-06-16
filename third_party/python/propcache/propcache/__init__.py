@@ -18,7 +18,6 @@ from
 typing
 import
 TYPE_CHECKING
-List
 _PUBLIC_API
 =
 (
@@ -34,9 +33,9 @@ __version__
 "
 0
 .
-2
+3
 .
-0
+2
 "
 __all__
 =
@@ -179,7 +178,7 @@ _dir_facade
 )
 -
 >
-List
+list
 [
 str
 ]
