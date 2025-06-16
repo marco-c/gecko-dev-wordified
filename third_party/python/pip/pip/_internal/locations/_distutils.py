@@ -175,7 +175,6 @@ Dict
 List
 Optional
 Union
-cast
 from
 pip
 .
@@ -453,12 +452,10 @@ not
 None
     
 i
-=
-cast
-(
+:
 distutils_install_command
+=
 obj
-)
     
 #
 NOTE
@@ -608,6 +605,12 @@ finalize_options
 )
     
 scheme
+:
+Dict
+[
+str
+str
+]
 =
 {
 }

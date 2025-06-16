@@ -83,7 +83,7 @@ _compat
 import
 BadMetadata
 BasePath
-get_dist_name
+get_dist_canonical_name
 get_info_location
 from
 .
@@ -462,9 +462,9 @@ dist
 try
 :
                 
-raw_name
+name
 =
-get_dist_name
+get_dist_canonical_name
 (
 dist
 )
@@ -496,15 +496,8 @@ reason
                 
 continue
             
-normalized_name
-=
-canonicalize_name
-(
-raw_name
-)
-            
 if
-normalized_name
+name
 in
 self
 .
@@ -519,7 +512,7 @@ _found_names
 .
 add
 (
-normalized_name
+name
 )
             
 yield
@@ -1194,15 +1187,14 @@ pip
 for
 package
 installation
-.
 "
         
 gone_in
 =
 "
-24
+25
 .
-3
+1
 "
         
 issue
@@ -1398,6 +1390,13 @@ BaseDistribution
 ]
 :
         
+canonical_name
+=
+canonicalize_name
+(
+name
+)
+        
 matches
 =
 (
@@ -1419,10 +1418,7 @@ distribution
 canonical_name
 =
 =
-canonicalize_name
-(
-name
-)
+canonical_name
         
 )
         

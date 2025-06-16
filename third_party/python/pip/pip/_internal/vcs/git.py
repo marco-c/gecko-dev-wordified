@@ -17,6 +17,10 @@ urllib
 .
 request
 from
+dataclasses
+import
+replace
+from
 typing
 import
 List
@@ -1576,14 +1580,20 @@ sha
 )
             
 rev_options
-.
+=
+replace
+(
+rev_options
 branch_name
 =
+(
 rev
 if
 is_branch
 else
 None
+)
+)
             
 return
 rev_options

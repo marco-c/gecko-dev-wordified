@@ -219,6 +219,12 @@ itertools
 import
 os
 from
+collections
+.
+abc
+import
+Iterator
+from
 fnmatch
 import
 fnmatchcase
@@ -235,7 +241,6 @@ typing
 import
 TYPE_CHECKING
 Iterable
-Iterator
 Mapping
 import
 _distutils_hack
@@ -260,19 +265,6 @@ distutils
 util
 import
 convert_path
-StrIter
-=
-Iterator
-[
-str
-]
-chain_iter
-=
-itertools
-.
-chain
-.
-from_iterable
 if
 TYPE_CHECKING
 :
@@ -281,6 +273,13 @@ from
 setuptools
 import
 Distribution
+chain_iter
+=
+itertools
+.
+chain
+.
+from_iterable
 def
 _valid_name
 (
@@ -760,6 +759,7 @@ classmethod
 def
 _find_iter
 (
+        
 cls
 where
 :
@@ -770,10 +770,14 @@ _Filter
 include
 :
 _Filter
+    
 )
 -
 >
-StrIter
+Iterator
+[
+str
+]
 :
         
 raise
@@ -822,6 +826,7 @@ classmethod
 def
 _find_iter
 (
+        
 cls
 where
 :
@@ -832,10 +837,14 @@ _Filter
 include
 :
 _Filter
+    
 )
 -
 >
-StrIter
+Iterator
+[
+str
+]
 :
         
 "
@@ -1198,6 +1207,7 @@ classmethod
 def
 _find_iter
 (
+        
 cls
 where
 :
@@ -1208,10 +1218,14 @@ _Filter
 include
 :
 _Filter
+    
 )
 -
 >
-StrIter
+Iterator
+[
+str
+]
 :
         
 for
@@ -2140,16 +2154,24 @@ package_dir
 def
 __call__
 (
+        
 self
 force
+:
+bool
 =
 False
 name
+:
+bool
 =
 True
 ignore_ext_modules
+:
+bool
 =
 False
+    
 )
 :
         

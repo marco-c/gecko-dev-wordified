@@ -1,3 +1,7 @@
+from
+__future__
+import
+annotations
 import
 contextlib
 import
@@ -58,16 +62,24 @@ __init__
 (
         
 self
+        
 name
+        
 requested_version
+        
 module
+        
 homepage
+:
+str
 =
 '
 '
+        
 attribute
 =
 None
+        
 format
 =
 None
@@ -263,6 +275,8 @@ paths
 =
 None
 default
+:
+str
 =
 "
 unknown
@@ -646,6 +660,10 @@ get_module_constant
 module
 symbol
 default
+:
+str
+|
+int
 =
 -
 1
@@ -884,6 +902,10 @@ extract_constant
 code
 symbol
 default
+:
+str
+|
+int
 =
 -
 1

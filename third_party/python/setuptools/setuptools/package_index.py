@@ -2142,6 +2142,8 @@ __init__
 self
         
 index_url
+:
+str
 =
 "
 https
@@ -2169,6 +2171,8 @@ ca_bundle
 None
         
 verify_ssl
+:
+bool
 =
 True
         
@@ -2220,6 +2224,8 @@ endswith
 self
 .
 scanned_urls
+:
+dict
 =
 {
 }
@@ -2227,6 +2233,8 @@ scanned_urls
 self
 .
 fetched_urls
+:
+dict
 =
 {
 }
@@ -2234,6 +2242,8 @@ fetched_urls
 self
 .
 package_pages
+:
+dict
 =
 {
 }
@@ -2265,6 +2275,8 @@ match
 self
 .
 to_scan
+:
+list
 =
 [
 ]
@@ -2340,6 +2352,8 @@ process_url
 self
 url
 retrieve
+:
+bool
 =
 False
 )
@@ -2847,6 +2861,8 @@ process_filename
 self
 fn
 nested
+:
+bool
 =
 False
 )
@@ -2979,6 +2995,8 @@ url_ok
 self
 url
 fatal
+:
+bool
 =
 False
 )
@@ -4406,12 +4424,9 @@ misspelled
 meth
 msg
 =
-(
-                
 self
 .
 warn
-                
 "
 Couldn
 '
@@ -4428,8 +4443,6 @@ misspelled
 ?
 )
 "
-            
-)
         
 meth
 (
@@ -4800,14 +4813,20 @@ requirement
 tmpdir
         
 force_scan
+:
+bool
 =
 False
         
 source
+:
+bool
 =
 False
         
 develop_ok
+:
+bool
 =
 False
         
@@ -5327,15 +5346,21 @@ download_location
 def
 fetch
 (
+        
 self
 requirement
 tmpdir
 force_scan
+:
+bool
 =
 False
 source
+:
+bool
 =
 False
+    
 )
 :
         

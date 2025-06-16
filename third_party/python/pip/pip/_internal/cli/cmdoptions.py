@@ -1460,6 +1460,9 @@ on
 "
 off
 "
+"
+raw
+"
 ]
     
 default
@@ -1482,6 +1485,7 @@ used
 [
 on
 off
+raw
 ]
 (
 default
@@ -1694,6 +1698,7 @@ mechanism
 to
 use
 [
+auto
 disabled
 import
 subprocess
@@ -1705,7 +1710,8 @@ subprocess
 (
 default
 :
-disabled
+%
+default
 )
 "
     
@@ -6214,15 +6220,15 @@ as
 a
 root
 user
-.
-By
+[
+warn
+ignore
+]
+(
 default
-a
-warning
-message
-is
-shown
-.
+:
+warn
+)
 "
 )
 def
@@ -6847,6 +6853,17 @@ ALWAYS_ENABLED_FEATURES
 [
     
 "
+truststore
+"
+#
+always
+on
+since
+24
+.
+2
+    
+"
 no
 -
 binary
@@ -6919,10 +6936,6 @@ choices
 fast
 -
 deps
-"
-        
-"
-truststore
 "
     
 ]
@@ -6998,6 +7011,12 @@ choices
 legacy
 -
 resolver
+"
+        
+"
+legacy
+-
+certs
 "
     
 ]

@@ -34,6 +34,12 @@ more_itertools
 import
 unique_everseen
 from
+setuptools
+.
+_path
+import
+StrPath
+from
 .
 .
 dist
@@ -299,26 +305,53 @@ __updated_files
 def
 copy_file
 (
+#
+type
+:
+ignore
+[
+override
+]
+#
+No
+overload
+str
+support
+only
         
 self
         
 infile
+:
+StrPath
         
 outfile
+:
+StrPath
         
 preserve_mode
+:
+bool
 =
 True
         
 preserve_times
+:
+bool
 =
 True
         
 link
+:
+str
+|
+None
 =
 None
         
 level
+:
+object
 =
 1
     
@@ -957,6 +990,8 @@ get_outputs
 (
 self
 include_bytecode
+:
+bool
 =
 True
 )
@@ -967,6 +1002,23 @@ list
 str
 ]
 :
+#
+type
+:
+ignore
+[
+override
+]
+#
+Using
+a
+real
+boolean
+instead
+of
+0
+|
+1
         
 "
 "

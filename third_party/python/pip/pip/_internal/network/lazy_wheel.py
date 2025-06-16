@@ -1241,10 +1241,6 @@ ZipFile
 (
 self
 )
-#
-type
-:
-ignore
                 
 except
 BadZipFile

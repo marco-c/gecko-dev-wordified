@@ -574,6 +574,8 @@ def
 _fetch_build_eggs
 (
 dist
+:
+Distribution
 )
 :
     
@@ -739,6 +741,12 @@ attrs
 )
 :
     
+logging
+.
+configure
+(
+)
+    
 #
 Make
 sure
@@ -753,12 +761,6 @@ interpret
 attrs
 '
 .
-    
-logging
-.
-configure
-(
-)
     
 _install_setup_requires
 (
@@ -790,11 +792,6 @@ __doc__
 if
 TYPE_CHECKING
 :
-    
-from
-typing_extensions
-import
-TypeAlias
     
 #
 Work
@@ -832,15 +829,14 @@ issues
 /
 10962
     
-_Command
-:
-TypeAlias
-=
+from
 distutils
 .
 core
-.
+import
 Command
+as
+_Command
 else
 :
     
@@ -1429,6 +1425,8 @@ ensure_string_list
 (
 self
 option
+:
+str
 )
 :
         

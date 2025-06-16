@@ -264,7 +264,7 @@ names
         
 msg
 =
-(
+f
 "
 Legacy
 build
@@ -272,6 +272,7 @@ of
 wheel
 for
 {
+name
 !
 r
 }
@@ -282,12 +283,6 @@ files
 \
 n
 "
-)
-.
-format
-(
-name
-)
         
 msg
 +
@@ -321,6 +316,7 @@ msg
 =
 (
             
+f
 "
 Legacy
 build
@@ -328,6 +324,7 @@ of
 wheel
 for
 {
+name
 !
 r
 }
@@ -341,6 +338,7 @@ file
 n
 "
             
+f
 "
 Filenames
 (
@@ -349,17 +347,12 @@ first
 )
 :
 {
+names
 }
 \
 n
 "
         
-)
-.
-format
-(
-name
-names
 )
         
 msg

@@ -3,6 +3,7 @@ logging
 from
 typing
 import
+TYPE_CHECKING
 Iterable
 Optional
 Set
@@ -38,16 +39,6 @@ pip
 .
 _internal
 .
-index
-.
-package_finder
-import
-PackageFinder
-from
-pip
-.
-_internal
-.
 metadata
 import
 BaseDistribution
@@ -61,6 +52,20 @@ utils
 subprocess
 import
 runner_with_spinner_message
+if
+TYPE_CHECKING
+:
+    
+from
+pip
+.
+_internal
+.
+index
+.
+package_finder
+import
+PackageFinder
 logger
 =
 logging
@@ -190,7 +195,9 @@ self
         
 finder
 :
+"
 PackageFinder
+"
         
 build_isolation
 :
@@ -499,7 +506,9 @@ _prepare_build_backend
 self
 finder
 :
+"
 PackageFinder
+"
 )
 -
 >
@@ -821,7 +830,9 @@ _install_build_reqs
 self
 finder
 :
+"
 PackageFinder
+"
 )
 -
 >
@@ -890,8 +901,6 @@ self
 req
 .
 supports_pyproject_editable
-(
-)
         
 )
 :

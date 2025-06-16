@@ -266,12 +266,12 @@ TypeVar
 _K
 "
 )
-_V
+_V_co
 =
 TypeVar
 (
 "
-_V
+_V_co
 "
 covariant
 =
@@ -1542,6 +1542,14 @@ loaded
 items
 )
     
+assert
+spec
+.
+loader
+is
+not
+None
+    
 spec
 .
 loader
@@ -1550,10 +1558,6 @@ exec_module
 (
 module
 )
-#
-type
-:
-ignore
     
 return
 module
@@ -2281,7 +2285,23 @@ discovery
 import
 construct_package_dir
     
+#
+check
+"
+not
+namespaces
+"
+first
+due
+to
+python
+/
+mypy
+#
+6232
+    
 if
+not
 namespaces
 :
         
@@ -2290,8 +2310,6 @@ setuptools
 .
 discovery
 import
-PEP420PackageFinder
-as
 PackageFinder
     
 else
@@ -2302,11 +2320,9 @@ setuptools
 .
 discovery
 import
+PEP420PackageFinder
+as
 PackageFinder
-#
-type
-:
-ignore
     
 root_dir
 =
@@ -2779,6 +2795,8 @@ text
 :
 str
 text_source
+:
+str
 =
 "
 entry
@@ -2873,6 +2891,17 @@ value
 "
 "
     
+#
+Using
+undocumented
+behaviour
+see
+python
+/
+typeshed
+#
+12700
+    
 parser
 =
 ConfigParser
@@ -2892,6 +2921,11 @@ delimiters
 type
 :
 ignore
+[
+call
+-
+overload
+]
     
 parser
 .
@@ -3166,9 +3200,6 @@ TracebackType
 None
     
 )
--
->
-None
 :
         
 if
@@ -3279,7 +3310,7 @@ LazyMappingProxy
 Mapping
 [
 _K
-_V
+_V_co
 ]
 )
 :
@@ -3407,7 +3438,7 @@ Callable
 Mapping
 [
 _K
-_V
+_V_co
 ]
 ]
 )
@@ -3426,7 +3457,7 @@ _value
 Mapping
 [
 _K
-_V
+_V_co
 ]
 |
 None
@@ -3443,7 +3474,7 @@ self
 Mapping
 [
 _K
-_V
+_V_co
 ]
 :
         
@@ -3480,7 +3511,7 @@ _K
 )
 -
 >
-_V
+_V_co
 :
         
 return

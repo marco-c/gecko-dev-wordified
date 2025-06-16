@@ -5019,9 +5019,7 @@ style
 .
 _hash
 =
-self
-.
-_hash
+None
         
 style
 .

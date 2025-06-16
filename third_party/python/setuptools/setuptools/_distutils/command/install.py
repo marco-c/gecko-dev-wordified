@@ -38,11 +38,10 @@ site
 import
 USER_BASE
 USER_SITE
-from
-.
-.
 import
-_collections
+jaraco
+.
+collections
 from
 .
 .
@@ -3533,7 +3532,9 @@ self
 .
 config_vars
 =
-_collections
+jaraco
+.
+collections
 .
 DictStack
 (

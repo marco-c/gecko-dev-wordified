@@ -1192,7 +1192,7 @@ try
 first
 try
 with
-tenacity
+retry
 ;
 retrying
 to

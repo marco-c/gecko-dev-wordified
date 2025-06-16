@@ -73,11 +73,11 @@ resources
 path
 (
 __package__
-'
+"
 _in_process
 .
 py
-'
+"
 )
 else
 :
@@ -103,10 +103,11 @@ __package__
 .
 joinpath
 (
-'
+"
 _in_process
 .
 py
-'
+"
 )
+        
 )

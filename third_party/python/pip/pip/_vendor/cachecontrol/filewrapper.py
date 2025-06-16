@@ -283,7 +283,7 @@ Any
         
 #
 The
-vaguaries
+vagaries
 of
 garbage
 collection
@@ -332,7 +332,7 @@ exist
 .
 This
 stop
-thigns
+things
 from
         
 #

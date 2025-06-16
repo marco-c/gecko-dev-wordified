@@ -156,6 +156,11 @@ switching_protocols
 "
 processing
 "
+"
+early
+-
+hints
+"
 )
     
 103
@@ -555,6 +560,9 @@ precondition
 "
 request_entity_too_large
 "
+"
+content_too_large
+"
 )
     
 414
@@ -562,6 +570,9 @@ request_entity_too_large
 (
 "
 request_uri_too_large
+"
+"
+uri_too_long
 "
 )
     
@@ -636,6 +647,9 @@ unprocessable_entity
 "
 unprocessable
 "
+"
+unprocessable_content
+"
 )
     
 423
@@ -665,6 +679,9 @@ unordered_collection
 "
 "
 unordered
+"
+"
+too_early
 "
 )
     

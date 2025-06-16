@@ -46,7 +46,6 @@ main
 (
 args
 :
-(
 Optional
 [
 List
@@ -54,7 +53,6 @@ List
 str
 ]
 ]
-)
 =
 None
 )

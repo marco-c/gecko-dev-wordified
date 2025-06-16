@@ -13,6 +13,10 @@ itertools
 import
 chain
 from
+typing
+import
+ClassVar
+from
 .
 .
 _importlib
@@ -290,10 +294,13 @@ Distribution
     
 negative_opt
 :
+ClassVar
+[
 dict
 [
 str
 str
+]
 ]
 =
 {

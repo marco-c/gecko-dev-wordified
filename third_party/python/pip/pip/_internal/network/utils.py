@@ -12,7 +12,6 @@ requests
 .
 models
 import
-CONTENT_CHUNK_SIZE
 Response
 from
 pip
@@ -272,6 +271,11 @@ Encoding
 identity
 "
 }
+DOWNLOAD_CHUNK_SIZE
+=
+256
+*
+1024
 def
 raise_for_status
 (
@@ -499,7 +503,7 @@ chunk_size
 :
 int
 =
-CONTENT_CHUNK_SIZE
+DOWNLOAD_CHUNK_SIZE
 )
 -
 >

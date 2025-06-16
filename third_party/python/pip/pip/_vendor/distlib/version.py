@@ -5611,7 +5611,6 @@ startswith
 '
 )
 and
-                    
 x
 <
 '

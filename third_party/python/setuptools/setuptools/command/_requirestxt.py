@@ -115,6 +115,12 @@ from
 .
 import
 _reqs
+from
+.
+.
+_reqs
+import
+_StrOrIter
 #
 dict
 can
@@ -138,14 +144,6 @@ Dict
 _T
 None
 ]
-_ordered
-=
-dict
-_StrOrIter
-=
-_reqs
-.
-_StrOrIter
 def
 _prepare
 (

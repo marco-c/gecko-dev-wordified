@@ -1577,6 +1577,7 @@ DEFAULT_REMOVE_HEADERS_ON_REDIRECT
 =
 frozenset
 (
+        
 [
 "
 Cookie
@@ -1584,7 +1585,13 @@ Cookie
 "
 Authorization
 "
+"
+Proxy
+-
+Authorization
+"
 ]
+    
 )
     
 #

@@ -30,8 +30,6 @@ import
     
 InvalidSdistFilename
     
-InvalidVersion
-    
 InvalidWheelFilename
     
 canonicalize_name
@@ -432,10 +430,7 @@ name
 ]
             
 except
-(
 InvalidWheelFilename
-InvalidVersion
-)
 :
                 
 try
@@ -454,10 +449,7 @@ name
 ]
                 
 except
-(
 InvalidSdistFilename
-InvalidVersion
-)
 :
                     
 continue

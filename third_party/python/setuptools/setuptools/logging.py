@@ -241,6 +241,8 @@ def
 set_threshold
 (
 level
+:
+int
 )
 :
     

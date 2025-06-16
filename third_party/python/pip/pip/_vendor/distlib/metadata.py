@@ -309,14 +309,12 @@ Version
 '
 Platform
 '
-               
 '
 Summary
 '
 '
 Description
 '
-               
 '
 Keywords
 '
@@ -325,6 +323,7 @@ Home
 -
 page
 '
+               
 '
 Author
 '
@@ -333,7 +332,6 @@ Author
 -
 email
 '
-               
 '
 License
 '
@@ -355,7 +353,6 @@ Version
 '
 Platform
 '
-               
 '
 Supported
 -
@@ -384,7 +381,6 @@ Author
 -
 email
 '
-               
 '
 License
 '
@@ -422,7 +418,6 @@ Requires
 '
 Classifier
 '
-                
 '
 Download
 -
@@ -446,7 +441,6 @@ Version
 '
 Platform
 '
-               
 '
 Supported
 -
@@ -475,7 +469,6 @@ Author
 -
 email
 '
-               
 '
 Maintainer
 '
@@ -501,7 +494,6 @@ Obsoletes
 -
 Dist
 '
-               
 '
 Project
 -
@@ -547,7 +539,6 @@ Requires
 -
 Python
 '
-                
 '
 Obsoletes
 -
@@ -558,10 +549,10 @@ Requires
 -
 External
 '
+                
 '
 Maintainer
 '
-                
 '
 Maintainer
 -
@@ -590,7 +581,6 @@ Version
 '
 Platform
 '
-               
 '
 Supported
 -
@@ -619,7 +609,6 @@ Author
 -
 email
 '
-               
 '
 Maintainer
 '
@@ -645,7 +634,6 @@ Obsoletes
 -
 Dist
 '
-               
 '
 Project
 -
@@ -677,7 +665,6 @@ Private
 -
 Version
 '
-               
 '
 Obsoleted
 -
@@ -690,10 +677,10 @@ Requires
 -
 Dist
 '
+               
 '
 Extension
 '
-               
 '
 Provides
 -
@@ -718,7 +705,6 @@ Obsoleted
 -
 By
 '
-                
 '
 Setup
 -
@@ -789,7 +775,6 @@ Content
 -
 Type
 '
-                             
 '
 Requires
 '
@@ -1483,7 +1468,7 @@ and
 in
 possible_versions
 :
-            
+        
 #
 possible_versions
 .
@@ -1495,7 +1480,7 @@ remove
 0
 '
 )
-            
+        
 #
 logger
 .
@@ -1866,7 +1851,7 @@ return
 if
 is_2_2
 :
-        
+    
 #
 return
 '
@@ -1916,7 +1901,6 @@ id17
 _ATTR2FIELD
 =
 {
-    
 name
 .
 lower
@@ -2002,7 +1986,6 @@ Classifier
 '
 Obsoletes
 '
-               
 '
 Requires
 '
@@ -2014,12 +1997,12 @@ Obsoletes
 -
 Dist
 '
-               
 '
 Provides
 -
 Dist
 '
+               
 '
 Requires
 -
@@ -2030,7 +2013,6 @@ Requires
 -
 External
 '
-               
 '
 Project
 -
@@ -2388,7 +2370,6 @@ None
 mapping
 =
 None
-                 
 scheme
 =
 '
@@ -2642,7 +2623,6 @@ self
 .
 _fields
 or
-                
 self
 .
 _convert_name
@@ -2813,14 +2793,6 @@ Public
 API
     
 #
-#
-dependencies
-=
-property
-(
-_get_dependencies
-_set_dependencies
-)
     
 def
 get_fullname
@@ -2835,6 +2807,7 @@ False
 "
 "
 "
+        
 Return
 the
 distribution
@@ -2854,6 +2827,7 @@ filename
 escaped
 form
 .
+        
 "
 "
 "
@@ -3773,7 +3747,6 @@ Platform
 '
 )
 and
-            
 not
 isinstance
 (
@@ -3828,7 +3801,6 @@ name
 in
 _LISTFIELDS
 and
-              
 not
 isinstance
 (
@@ -3941,7 +3913,6 @@ logger
 .
 warning
 (
-                            
 "
 '
 %
@@ -3963,7 +3934,6 @@ s
 '
 )
 "
-                            
 project_name
 v
 name
@@ -4027,7 +3997,6 @@ s
 '
 )
 "
-                                   
 project_name
 value
 name
@@ -4081,7 +4050,6 @@ s
 '
 )
 "
-                                   
 project_name
 value
 name
@@ -4581,15 +4549,13 @@ are_valid_constraints
                                    
 (
 _VERSIONS_FIELDS
-                                    
 scheme
 .
 is_valid_constraint_list
 )
-                                   
 (
 _VERSION_FIELDS
-                                    
+                                                                                         
 scheme
 .
 is_valid_version
@@ -5046,7 +5012,6 @@ __name__
 self
 .
 name
-                               
 self
 .
 version
@@ -5434,7 +5399,6 @@ None
 mapping
 =
 None
-                 
 scheme
 =
 '
@@ -5752,7 +5716,6 @@ StringIO
 (
 data
 )
-                                                  
 scheme
 =
 scheme
@@ -6047,7 +6010,6 @@ modules
 '
 namespaces
 '
-                               
 '
 classifiers
 '
@@ -6356,7 +6318,6 @@ property
 %
 (
 value
-                                                                    
 key
 )
 )
@@ -6457,7 +6418,6 @@ modules
 '
 namespaces
 '
-                             
 '
 classifiers
 '
@@ -7147,7 +7107,6 @@ reqts
 extras
 =
 extras
-                                                        
 env
 =
 env
@@ -7414,7 +7373,6 @@ warnings
 %
 s
 '
-                               
 missing
 warnings
 )
@@ -7548,7 +7506,6 @@ summary
 '
 description
 '
-                  
 '
 classifier
 '
@@ -7641,7 +7598,6 @@ requires_dist
 run_requires
 '
 )
-                
 (
 '
 setup_requires_dist
@@ -7699,11 +7655,13 @@ self
 .
 provides
         
+#
 author
 =
 {
 }
         
+#
 maintainer
 =
 {
@@ -8382,7 +8340,6 @@ True
 indent
 =
 2
-                          
 sort_keys
 =
 True
@@ -8422,7 +8379,6 @@ True
 indent
 =
 2
-                              
 sort_keys
 =
 True
@@ -8610,7 +8566,6 @@ self
 __class__
 .
 __name__
-                                    
 self
 .
 metadata_version

@@ -19464,6 +19464,11 @@ kwargs
 type
 :
 ignore
+[
+arg
+-
+type
+]
         
 return
 self

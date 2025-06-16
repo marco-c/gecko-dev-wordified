@@ -33,6 +33,7 @@ Any
 Dict
 List
 Union
+cast
 METADATA_FIELDS
 =
 [
@@ -176,6 +177,24 @@ False
 License
 "
 False
+)
+    
+(
+"
+License
+-
+Expression
+"
+False
+)
+    
+(
+"
+License
+-
+File
+"
+True
 )
     
 (
@@ -597,10 +616,14 @@ value
     
 payload
 =
+cast
+(
+str
 msg
 .
 get_payload
 (
+)
 )
     
 if

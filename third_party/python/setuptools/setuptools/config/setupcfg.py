@@ -112,8 +112,6 @@ Tuple
     
 TypeVar
     
-Union
-    
 cast
 )
 from
@@ -172,6 +170,11 @@ TYPE_CHECKING
 :
     
 from
+typing_extensions
+import
+TypeAlias
+    
+from
 setuptools
 .
 dist
@@ -185,17 +188,15 @@ dist
 import
 DistributionMetadata
 SingleCommandOptions
+:
+TypeAlias
 =
 Dict
 [
-"
 str
-"
 Tuple
 [
-"
 str
-"
 Any
 ]
 ]
@@ -264,21 +265,26 @@ itself
 "
 "
 AllCommandOptions
+:
+TypeAlias
 =
 Dict
 [
-"
 str
-"
 SingleCommandOptions
 ]
-#
+"
+"
+"
 cmd
 name
 =
 >
 its
 options
+"
+"
+"
 Target
 =
 TypeVar
@@ -286,17 +292,12 @@ TypeVar
 "
 Target
 "
-bound
-=
-Union
-[
 "
 Distribution
 "
 "
 DistributionMetadata
 "
-]
 )
 def
 read_configuration
@@ -306,9 +307,13 @@ filepath
 :
 StrPath
 find_others
+:
+bool
 =
 False
 ignore_option_errors
+:
+bool
 =
 False
 )
@@ -558,10 +563,8 @@ False
 >
 tuple
 [
-ConfigHandler
-.
-.
-.
+ConfigMetadataHandler
+ConfigOptionsHandler
 ]
 :
     
@@ -736,7 +739,9 @@ _get_option
 (
 target_obj
 :
-Target
+Distribution
+|
+DistributionMetadata
 key
 :
 str
@@ -819,14 +824,22 @@ getter
 def
 configuration_to_dict
 (
+    
 handlers
 :
-tuple
+Iterable
 [
+        
 ConfigHandler
-.
-.
-.
+[
+Distribution
+]
+|
+ConfigHandler
+[
+DistributionMetadata
+]
+    
 ]
 )
 -
@@ -851,7 +864,7 @@ dict
     
 :
 param
-list
+Iterable
 [
 ConfigHandler
 ]
@@ -935,6 +948,8 @@ command_options
 AllCommandOptions
     
 ignore_option_errors
+:
+bool
 =
 False
 )
@@ -1539,6 +1554,8 @@ ignore_option_errors
 self
 .
 target_obj
+:
+Target
 =
 target_obj
         
@@ -1857,13 +1874,13 @@ setter
 getattr
 (
 target_obj
-'
+f
+"
 set_
-%
-s
-'
-%
+{
 option_name
+}
+"
 simple_setter
 )
         
@@ -2259,6 +2276,7 @@ raise
 ValueError
 (
                     
+f
 '
 Only
 strings
@@ -2267,7 +2285,7 @@ accepted
 for
 the
 {
-0
+key
 }
 field
 '
@@ -2278,11 +2296,6 @@ are
 not
 accepted
 '
-.
-format
-(
-key
-)
                 
 )
             
@@ -2300,6 +2313,8 @@ value
 root_dir
 :
 StrPath
+|
+None
 )
 :
         
@@ -2977,13 +2992,13 @@ variant
                 
 method_postfix
 =
-'
+f
+"
 _
-%
-s
-'
-%
+{
 section_name
+}
+"
             
 section_parser_method
 :
@@ -3007,15 +3022,13 @@ into
 dunderscores
 .
                 
-(
+f
 '
 parse_section
-%
-s
-'
-%
+{
 method_postfix
-)
+}
+'
 .
 replace
 (
@@ -3298,6 +3311,8 @@ None
 root_dir
 :
 StrPath
+|
+None
 =
 os
 .
@@ -4282,14 +4297,10 @@ exclude
         
 find_kwargs
 =
-dict
-(
-[
-            
-(
+{
 k
+:
 v
-)
 for
 k
 v
@@ -4305,9 +4316,7 @@ in
 valid_keys
 and
 v
-        
-]
-)
+}
         
 where
 =

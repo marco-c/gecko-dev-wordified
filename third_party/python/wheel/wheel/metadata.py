@@ -46,7 +46,10 @@ Parser
 from
 typing
 import
+Generator
+Iterable
 Iterator
+Literal
 from
 .
 vendored
@@ -60,7 +63,18 @@ def
 _nonblank
 (
 str
+:
+str
 )
+-
+>
+bool
+|
+Literal
+[
+"
+"
+]
 :
     
 return
@@ -82,7 +96,18 @@ def
 yield_lines
 (
 iterable
+:
+Iterable
+[
+str
+]
 )
+-
+>
+Iterator
+[
+str
+]
 :
     
 r
@@ -270,7 +295,15 @@ def
 _
 (
 text
+:
+str
 )
+-
+>
+Iterator
+[
+str
+]
 :
     
 return
@@ -292,8 +325,33 @@ splitlines
 def
 split_sections
 (
+    
 s
+:
+str
+|
+Iterator
+[
+str
+]
 )
+-
+>
+Generator
+[
+tuple
+[
+str
+|
+None
+list
+[
+str
+]
+]
+None
+None
+]
 :
     
 "
@@ -382,6 +440,11 @@ section
 None
     
 content
+:
+list
+[
+str
+]
 =
 [
 ]
@@ -483,7 +546,12 @@ def
 safe_extra
 (
 extra
+:
+str
 )
+-
+>
+str
 :
     
 "
@@ -562,7 +630,12 @@ def
 safe_name
 (
 name
+:
+str
 )
+-
+>
+str
 :
     
 "
@@ -659,14 +732,9 @@ fashion
 "
     
 if
-getattr
-(
 requirement
-"
+.
 url
-"
-None
-)
 :
         
 return
@@ -678,6 +746,11 @@ requirement
 url
     
 requires_dist
+:
+list
+[
+str
+]
 =
 [
 ]
@@ -841,6 +914,8 @@ extras_require
 dict
 [
 str
+|
+None
 list
 [
 str
@@ -1028,17 +1103,17 @@ and
 condition
 +
 =
+f
 "
 extra
 =
 =
 '
-%
-s
+{
+extra
+}
 '
 "
-%
-extra
         
 if
 condition
@@ -1061,15 +1136,25 @@ depends
 )
 :
             
+canonical_req
+=
+str
+(
+Requirement
+(
+new_req
++
+condition
+)
+)
+            
 yield
 "
 Requires
 -
 Dist
 "
-new_req
-+
-condition
+canonical_req
 def
 pkginfo_to_metadata
 (

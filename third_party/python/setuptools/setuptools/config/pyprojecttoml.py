@@ -251,13 +251,13 @@ by
 default
 .
 See
-issue
-31
-for
+abravalheri
+/
 validate
 -
 pyproject
-.
+#
+31
         
 trove_classifier
 .
@@ -268,6 +268,11 @@ _disable_download
 type
 :
 ignore
+[
+union
+-
+attr
+]
     
 try
 :
@@ -401,6 +406,8 @@ filepath
 StrPath
     
 ignore_option_errors
+:
+bool
 =
 False
 )
@@ -459,10 +466,14 @@ filepath
 StrPath
     
 expand
+:
+bool
 =
 True
     
 ignore_option_errors
+:
+bool
 =
 False
     
@@ -968,6 +979,35 @@ setuptools
 ]
 =
 setuptools_table
+    
+if
+"
+ext
+-
+modules
+"
+in
+setuptools_table
+:
+        
+_ExperimentalConfiguration
+.
+emit
+(
+subject
+=
+"
+[
+tool
+.
+setuptools
+.
+ext
+-
+modules
+]
+"
+)
     
 with
 _ignore_errors

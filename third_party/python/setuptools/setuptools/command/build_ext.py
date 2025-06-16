@@ -576,14 +576,10 @@ dist
 Distribution
     
 editable_mode
-:
-bool
 =
 False
     
 inplace
-:
-bool
 =
 False
     
@@ -3244,6 +3240,8 @@ export_symbols
 None
         
 debug
+:
+bool
 =
 False
         
@@ -3347,6 +3345,8 @@ export_symbols
 None
         
 debug
+:
+bool
 =
 False
         

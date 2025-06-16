@@ -113,32 +113,31 @@ VcsInfo
 requirement
 +
 =
-"
-{
-}
-+
-{
-}
-{
-}
-"
-.
-format
 (
             
+f
+"
+{
 direct_url
 .
 info
 .
 vcs
+}
++
+{
 direct_url
 .
 url
+}
+{
 direct_url
 .
 info
 .
 commit_id
+}
+"
         
 )
     

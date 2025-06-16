@@ -634,7 +634,7 @@ Style
 color
 =
 "
-red
+yellow
 "
 )
     
@@ -1708,6 +1708,25 @@ bright_red
 bold
 =
 True
+)
+    
+"
+traceback
+.
+error_range
+"
+:
+Style
+(
+underline
+=
+True
+bold
+=
+True
+dim
+=
+False
 )
     
 "

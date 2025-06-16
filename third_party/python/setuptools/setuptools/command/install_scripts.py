@@ -379,6 +379,8 @@ self
 script_name
 contents
 mode
+:
+str
 =
 "
 t

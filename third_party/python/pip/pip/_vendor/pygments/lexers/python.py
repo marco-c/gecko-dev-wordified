@@ -45,7 +45,7 @@ copyright
 Copyright
 2006
 -
-2023
+2024
 by
 the
 Pygments
@@ -67,8 +67,6 @@ details
 "
 "
 import
-re
-import
 keyword
 from
 pip
@@ -80,7 +78,6 @@ pygments
 lexer
 import
 DelegatingLexer
-Lexer
 RegexLexer
 include
 \
@@ -90,9 +87,7 @@ using
 default
 words
 combined
-do_insertions
 this
-line_re
 from
 pip
 .
@@ -192,15 +187,6 @@ x
     
 .
 .
-versionadded
-:
-:
-0
-.
-10
-    
-.
-.
 versionchanged
 :
 :
@@ -239,7 +225,7 @@ Python
 url
 =
 '
-http
+https
 :
 /
 /
@@ -267,6 +253,12 @@ python3
 '
 '
 py3
+'
+'
+bazel
+'
+'
+starlark
 '
 ]
     
@@ -415,28 +407,34 @@ python3
 '
 ]
     
+version_added
+=
+'
+0
+.
+10
+'
+    
 uni_name
 =
+f
 "
 [
-%
-s
-]
-[
-%
-s
-]
-*
-"
-%
-(
+{
 uni
 .
 xid_start
+}
+]
+[
+{
 uni
 .
 xid_continue
-)
+}
+]
+*
+"
     
 def
 innerstring_rules
@@ -2698,6 +2696,20 @@ this
 isn
 '
 t
+                                       
+#
+pattern
+matching
+(
+but
+None
+/
+True
+/
+False
+is
+ok
+)
              
 r
 '
@@ -2706,9 +2718,22 @@ r
 .
 join
 (
+k
+for
+k
+in
 keyword
 .
 kwlist
+if
+k
+[
+0
+]
+.
+islower
+(
+)
 )
 +
 r
@@ -2719,9 +2744,6 @@ b
 )
 )
 '
-#
-pattern
-matching
              
 bygroups
 (
@@ -5065,7 +5087,7 @@ x
 url
 =
 '
-http
+https
 :
 /
 /
@@ -5121,6 +5143,11 @@ x
 python2
 '
 ]
+    
+version_added
+=
+'
+'
     
 def
 innerstring_rules
@@ -7986,6 +8013,11 @@ aliases
 '
 pycon
 '
+'
+python
+-
+console
+'
 ]
     
 mimetypes
@@ -8502,6 +8534,11 @@ aliases
 '
 pycon
 '
+'
+python
+-
+console
+'
 ]
     
 mimetypes
@@ -8517,6 +8554,23 @@ python
 doctest
 '
 ]
+    
+url
+=
+'
+https
+:
+/
+/
+python
+.
+org
+'
+    
+version_added
+=
+'
+'
     
 def
 __init__
@@ -8690,15 +8744,6 @@ exceptions
     
 .
 .
-versionadded
-:
-:
-1
-.
-0
-    
-.
-.
 versionchanged
 :
 :
@@ -8783,6 +8828,26 @@ python3
 traceback
 '
 ]
+    
+url
+=
+'
+https
+:
+/
+/
+python
+.
+org
+'
+    
+version_added
+=
+'
+1
+.
+0
+'
     
 tokens
 =
@@ -9315,15 +9380,6 @@ tracebacks
     
 .
 .
-versionadded
-:
-:
-0
-.
-7
-    
-.
-.
 versionchanged
 :
 :
@@ -9395,6 +9451,26 @@ python2
 traceback
 '
 ]
+    
+url
+=
+'
+https
+:
+/
+/
+python
+.
+org
+'
+    
+version_added
+=
+'
+0
+.
+7
+'
     
 tokens
 =
@@ -9830,15 +9906,6 @@ source
 code
 .
     
-.
-.
-versionadded
-:
-:
-1
-.
-1
-    
 "
 "
 "
@@ -9852,7 +9919,7 @@ Cython
 url
 =
 '
-http
+https
 :
 /
 /
@@ -9913,6 +9980,14 @@ x
 cython
 '
 ]
+    
+version_added
+=
+'
+1
+.
+1
+'
     
 tokens
 =
@@ -12383,15 +12458,6 @@ CPython
 VM
 .
     
-.
-.
-versionadded
-:
-:
-1
-.
-6
-    
 "
 "
 "
@@ -12431,6 +12497,30 @@ x
 dg
 '
 ]
+    
+url
+=
+'
+http
+:
+/
+/
+pyos
+.
+github
+.
+io
+/
+dg
+'
+    
+version_added
+=
+'
+1
+.
+6
+'
     
 tokens
 =
@@ -13808,15 +13898,6 @@ Python
 builtins
 .
     
-.
-.
-versionadded
-:
-:
-0
-.
-10
-    
 "
 "
 "
@@ -13847,6 +13928,14 @@ aliases
 numpy
 '
 ]
+    
+version_added
+=
+'
+0
+.
+10
+'
     
 #
 override

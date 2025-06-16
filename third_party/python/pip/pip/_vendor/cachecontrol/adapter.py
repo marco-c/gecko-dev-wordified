@@ -534,6 +534,13 @@ resp
 def
 build_response
 (
+#
+type
+:
+ignore
+[
+override
+]
         
 self
         
@@ -876,9 +883,7 @@ type
 :
 ignore
 [
-attr
--
-defined
+assignment
 ]
                     
 response
@@ -889,9 +894,9 @@ type
 :
 ignore
 [
-attr
+arg
 -
-defined
+type
 ]
                     
 functools
@@ -922,15 +927,6 @@ super_update_chunk_length
 response
 .
 _update_chunk_length
-#
-type
-:
-ignore
-[
-attr
--
-defined
-]
                     
 def
 _update_chunk_length
@@ -969,9 +965,9 @@ type
 :
 ignore
 [
-attr
+union
 -
-defined
+attr
 ]
                     
 response
@@ -987,9 +983,9 @@ type
 :
 ignore
 [
-attr
+method
 -
-defined
+assign
 ]
                         
 _update_chunk_length
@@ -1010,17 +1006,6 @@ build_response
 request
 response
 )
-#
-type
-:
-ignore
-[
-no
--
-untyped
--
-call
-]
         
 #
 See

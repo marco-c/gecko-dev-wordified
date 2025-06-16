@@ -60,14 +60,14 @@ sys
 #
 Copied
 from
-setup
+pyproject
 .
-py
+toml
 PYTHON_REQUIRES
 =
 (
 3
-7
+8
 )
 def
 version_str

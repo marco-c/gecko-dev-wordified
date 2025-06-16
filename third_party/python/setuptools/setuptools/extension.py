@@ -11,6 +11,12 @@ typing
 import
 TYPE_CHECKING
 from
+setuptools
+.
+_path
+import
+StrPath
+from
 .
 monkey
 import
@@ -104,11 +110,6 @@ if
 TYPE_CHECKING
 :
     
-from
-typing_extensions
-import
-TypeAlias
-    
 #
 Work
 around
@@ -145,15 +146,14 @@ issues
 /
 10962
     
-_Extension
-:
-TypeAlias
-=
+from
 distutils
 .
 core
-.
+import
 Extension
+as
+_Extension
 else
 :
     
@@ -317,6 +317,13 @@ arg
 list
 [
 str
+|
+os
+.
+PathLike
+[
+str
+]
 ]
 sources
 :
@@ -988,9 +995,7 @@ errors
 PlatformError
 :
 if
-'
 runtime_library_dirs
-'
 is
       
 specified
@@ -1126,21 +1131,33 @@ only
 def
 __init__
 (
+        
 self
+        
 name
 :
 str
+        
 sources
+:
+list
+[
+StrPath
+]
+        
 *
 args
+        
 py_limited_api
 :
 bool
 =
 False
+        
 *
 *
 kw
+    
 )
 :
         
@@ -1182,13 +1199,34 @@ super
 .
 __init__
 (
+            
 name
+            
 sources
+#
+type
+:
+ignore
+[
+arg
+-
+type
+]
+#
+Vendored
+version
+of
+setuptools
+supports
+PathLike
+            
 *
 args
+            
 *
 *
 kw
+        
 )
     
 def

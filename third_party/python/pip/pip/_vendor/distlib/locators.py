@@ -95,7 +95,6 @@ urlparse
 urlunparse
 url2pathname
 pathname2url
-                     
 queue
 quote
 unescape
@@ -105,7 +104,6 @@ HTTPRedirectHandler
 as
 BaseRedirectHandler
 text_type
-                     
 Request
 HTTPError
 URLError
@@ -132,11 +130,10 @@ cached_property
 ensure_slash
 split_filename
 get_project_data
-                   
 parse_requirement
+                   
 parse_name_and_version
 ServerProxy
-                   
 normalize_name
 )
 from
@@ -611,7 +608,6 @@ req
 fp
 code
 msg
-                                                  
 headers
 )
     
@@ -1504,7 +1500,6 @@ in
 t
 .
 netloc
-                
 is_downloadable
 is_wheel
 compatible
@@ -1869,7 +1864,6 @@ fragment
 %
 r
 '
-                         
 project_name
 frag
 )
@@ -2054,7 +2048,6 @@ urlunparse
 scheme
 netloc
 origpath
-                                               
 params
 query
 '
@@ -2073,7 +2066,6 @@ version
 .
 join
 (
-                                
 [
 '
 .
@@ -2293,7 +2285,6 @@ urlunparse
 scheme
 netloc
 origpath
-                                                   
 params
 query
 '
@@ -4423,6 +4414,7 @@ re
 .
 compile
 (
+        
 "
 "
 "
@@ -4896,7 +4888,6 @@ quote
 (
 path
 )
-                               
 params
 query
 frag
@@ -4958,7 +4949,6 @@ rel3
 '
 ]
 or
-                   
 d
 [
 '
@@ -6129,7 +6119,6 @@ self
 .
 binary_extensions
 +
-                         
 self
 .
 excluded_extensions
@@ -6293,7 +6282,6 @@ s
 '
 link
 rel
-                     
 referrer
 result
 )
@@ -6441,7 +6429,6 @@ _process_download
 link
 )
 and
-                                        
 self
 .
 _should_queue
@@ -7587,7 +7574,6 @@ file
 '
 '
 '
-                                      
 pathname2url
 (
 os
@@ -7599,7 +7585,6 @@ abspath
 fn
 )
 )
-                                      
 '
 '
 '
@@ -7728,7 +7713,6 @@ file
 '
 '
 '
-                                      
 pathname2url
 (
 os
@@ -7740,7 +7724,6 @@ abspath
 fn
 )
 )
-                                      
 '
 '
 '
@@ -8003,6 +7986,7 @@ data
 name
 '
 ]
+                                 
 info
 [
 '
@@ -8019,7 +8003,6 @@ get
 '
 summary
 '
-                                                  
 '
 Placeholder
 for
@@ -8318,6 +8301,7 @@ urls
 '
 :
 {
+                    
 dist
 .
 version
@@ -8330,6 +8314,7 @@ dist
 source_url
 ]
 )
+                
 }
                 
 '
@@ -8337,6 +8322,7 @@ digests
 '
 :
 {
+                    
 dist
 .
 version
@@ -8347,6 +8333,7 @@ set
 None
 ]
 )
+                
 }
             
 }
@@ -9033,7 +9020,7 @@ default_locator
 =
 AggregatingLocator
 (
-                    
+    
 #
 JSONLocator
 (
@@ -9048,7 +9035,7 @@ PEP
 426
 is
 withdrawn
-                    
+    
 SimpleScrapingLocator
 (
 '
@@ -9063,14 +9050,13 @@ org
 simple
 /
 '
-                                          
 timeout
 =
 3
 .
 0
 )
-                    
+    
 scheme
 =
 '
@@ -9952,7 +9938,6 @@ cantreplace
 '
 provider
 other
-                          
 frozenset
 (
 unmatched
@@ -10378,7 +10363,6 @@ locator
 locate
 (
 requirement
-                                               
 prereleases
 =
 prereleases
@@ -10797,7 +10781,6 @@ s
 to
 install_dists
 '
-                                         
 provider
 .
 name_and_version
@@ -10929,7 +10912,6 @@ dependency
 only
 .
 '
-                             
 dist
 .
 name_and_version

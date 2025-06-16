@@ -129,6 +129,38 @@ pragma
 :
 no
 cover
+if
+sys
+.
+version_info
+>
+=
+(
+3
+11
+)
+:
+    
+from
+typing
+import
+Self
+else
+:
+    
+from
+pip
+.
+_vendor
+.
+typing_extensions
+import
+Self
+#
+pragma
+:
+no
+cover
 from
 .
 import
@@ -300,6 +332,9 @@ super
 .
 __init__
 (
+daemon
+=
+True
 )
     
 def
@@ -350,6 +385,14 @@ wait
 (
 update_period
 )
+and
+self
+.
+progress
+.
+live
+.
+is_started
 :
             
 completed
@@ -503,6 +546,12 @@ float
 ]
 =
 None
+    
+completed
+:
+int
+=
+0
     
 auto_refresh
 :
@@ -692,6 +741,24 @@ len
 (
 sequence
 )
+.
+        
+completed
+(
+int
+optional
+)
+:
+Number
+of
+steps
+completed
+so
+far
+.
+Defaults
+to
+0
 .
         
 auto_refresh
@@ -1066,12 +1133,19 @@ track
 (
             
 sequence
+            
 total
 =
 total
+            
+completed
+=
+completed
+            
 description
 =
 description
+            
 update_period
 =
 update_period
@@ -1761,6 +1835,30 @@ UnsupportedOperation
 (
 "
 write
+"
+)
+    
+def
+writelines
+(
+self
+lines
+:
+Iterable
+[
+Any
+]
+)
+-
+>
+None
+:
+        
+raise
+UnsupportedOperation
+(
+"
+writelines
 "
 )
 class
@@ -5071,9 +5169,13 @@ timedelta
 (
 seconds
 =
+max
+(
+0
 int
 (
 elapsed
+)
 )
 )
         
@@ -7973,8 +8075,8 @@ Optional
 Console
 instance
 .
-Default
-will
+Defaults
+to
 an
 internal
 Console
@@ -8554,7 +8656,7 @@ SpinnerColumn
 *
 Progress
 .
-default_columns
+get_default_columns
 (
 )
                 
@@ -8884,6 +8986,13 @@ self
 console
 .
 is_interactive
+and
+not
+self
+.
+console
+.
+is_jupyter
 :
             
 self
@@ -8901,9 +9010,7 @@ self
 )
 -
 >
-"
-Progress
-"
+Self
 :
         
 self
@@ -8985,6 +9092,12 @@ float
 ]
 =
 None
+        
+completed
+:
+int
+=
+0
         
 task_id
 :
@@ -9078,6 +9191,24 @@ len
 (
 sequence
 )
+.
+            
+completed
+(
+int
+optional
+)
+:
+Number
+of
+steps
+completed
+so
+far
+.
+Defaults
+to
+0
 .
             
 task_id
@@ -9196,6 +9327,9 @@ description
 total
 =
 total
+completed
+=
+completed
 )
         
 else
@@ -9209,6 +9343,9 @@ task_id
 total
 =
 total
+completed
+=
+completed
 )
         
 if
@@ -10228,19 +10365,16 @@ r
 raise
 ValueError
 (
+f
 "
 invalid
 mode
 {
+mode
 !
 r
 }
 "
-.
-format
-(
-mode
-)
 )
         
 #

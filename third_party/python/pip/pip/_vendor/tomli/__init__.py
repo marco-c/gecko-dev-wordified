@@ -41,7 +41,7 @@ __version__
 "
 2
 .
-0
+2
 .
 1
 "
@@ -65,16 +65,3 @@ import
 TOMLDecodeError
 load
 loads
-#
-Pretend
-this
-exception
-was
-created
-here
-.
-TOMLDecodeError
-.
-__module__
-=
-__name__

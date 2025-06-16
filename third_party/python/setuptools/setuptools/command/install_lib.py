@@ -611,19 +611,55 @@ outfile
 :
 str
         
+#
+override
+:
+Using
+actual
+booleans
+        
 preserve_mode
+:
+bool
 =
 True
+#
+type
+:
+ignore
+[
+override
+]
         
 preserve_times
+:
+bool
 =
 True
+#
+type
+:
+ignore
+[
+override
+]
         
 preserve_symlinks
+:
+bool
 =
 False
+#
+type
+:
+ignore
+[
+override
+]
         
 level
+:
+object
 =
 1
     

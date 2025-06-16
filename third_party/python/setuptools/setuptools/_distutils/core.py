@@ -73,11 +73,6 @@ import
 Command
 from
 .
-config
-import
-PyPIRCCommand
-from
-.
 debug
 import
 DEBUG
@@ -130,9 +125,6 @@ Distribution
 '
 '
 Command
-'
-'
-PyPIRCCommand
 '
 '
 Extension
