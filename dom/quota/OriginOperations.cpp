@@ -17094,6 +17094,11 @@ CreateDirectoryMetadata2
 (
 *
 directory
+FullOriginMetadata
+{
+originMetadata
+OriginStateMetadata
+{
 timestamp
 /
 *
@@ -17101,7 +17106,8 @@ aPersisted
 *
 /
 true
-originMetadata
+}
+}
 )
 )
 )
