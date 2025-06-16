@@ -21070,7 +21070,7 @@ EXPECT_EQ
 (
 typeString
 "
-tracing
+StackMarker
 "
 )
 ;
@@ -21122,7 +21122,7 @@ EXPECT_EQ
 (
 typeString
 "
-tracing
+StackMarker
 "
 )
 ;
