@@ -22226,7 +22226,7 @@ FromNodeOrNull
 buttonControl
 -
 >
-GetInvokeTargetElement
+GetCommandForElement
 (
 )
 )

@@ -7163,9 +7163,9 @@ Invoke
 (
 see
 *
-invoketarget
+command
 /
-invokeaction
+commandfor
 attributes
 )
 .
