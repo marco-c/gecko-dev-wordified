@@ -14055,6 +14055,11 @@ MozRevealed
 NonTSPseudoClass
 :
 :
+ActiveViewTransition
+|
+NonTSPseudoClass
+:
+:
 MozValueEmpty
 =
 >
