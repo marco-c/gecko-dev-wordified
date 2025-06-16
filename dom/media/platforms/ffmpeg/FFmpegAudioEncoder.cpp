@@ -447,12 +447,8 @@ r
 =
 AllocateCodecContext
 (
-/
-*
-aHardware
-*
-/
-false
+mLib
+mCodecID
 )
 ;
 if

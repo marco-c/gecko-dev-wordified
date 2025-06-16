@@ -145,10 +145,7 @@ AppleEncoderModule
 =
 default
 ;
-media
-:
-:
-EncodeSupportSet
+bool
 Supports
 (
 const
@@ -159,10 +156,7 @@ aConfig
 const
 override
 ;
-media
-:
-:
-EncodeSupportSet
+bool
 SupportsCodec
 (
 CodecType

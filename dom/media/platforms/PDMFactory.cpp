@@ -4849,9 +4849,6 @@ m
 ;
 }
 StaticMutex
-PDMFactory
-:
-:
 sSupportedMutex
 ;
 /
