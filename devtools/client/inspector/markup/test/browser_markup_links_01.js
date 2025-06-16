@@ -675,7 +675,7 @@ attributes
 attributeName
 :
 "
-commandfor
+invoketarget
 "
 links
 :

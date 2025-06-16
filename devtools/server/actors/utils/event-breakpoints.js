@@ -836,7 +836,7 @@ dom
 .
 element
 .
-commandfor
+invokers
 .
 enabled
 "
@@ -848,7 +848,7 @@ generalEvent
 control
 "
 "
-command
+invoke
 "
 global
 =
@@ -857,7 +857,7 @@ global
 &
 &
 "
-CommandEvent
+InvokeEvent
 "
 in
 global
