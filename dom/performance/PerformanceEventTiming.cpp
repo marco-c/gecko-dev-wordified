@@ -282,7 +282,7 @@ TimeStamp
 &
 aStartTime
 bool
-aIsCacelable
+aIsCancelable
 EventMessage
 aMessage
 )
@@ -340,7 +340,7 @@ mDuration
 )
 mCancelable
 (
-aIsCacelable
+aIsCancelable
 )
 mMessage
 (
