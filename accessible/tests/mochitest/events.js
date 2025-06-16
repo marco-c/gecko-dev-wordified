@@ -188,6 +188,13 @@ nsIAccessibleEvent
 EVENT_DOCUMENT_LOAD_STOPPED
 ;
 const
+EVENT_ERRORMESSAGE_CHANGED
+=
+nsIAccessibleEvent
+.
+EVENT_ERRORMESSAGE_CHANGED
+;
+const
 EVENT_HIDE
 =
 nsIAccessibleEvent
