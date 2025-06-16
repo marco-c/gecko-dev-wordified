@@ -731,15 +731,6 @@ partitionKey
 %
 2Clocalhost
 %
-2C
-{
-httpserv
-.
-identity
-.
-primaryPort
-}
-%
 29
 :
 http

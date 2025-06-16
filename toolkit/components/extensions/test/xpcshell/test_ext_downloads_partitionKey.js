@@ -1128,13 +1128,6 @@ TEST_URL
 (
 http
 localhost
-{
-server
-.
-identity
-.
-primaryPort
-}
 )
 false
 )
@@ -1162,13 +1155,6 @@ TEST_URL
 (
 http
 localhost
-{
-server
-.
-identity
-.
-primaryPort
-}
 )
 true
 )
