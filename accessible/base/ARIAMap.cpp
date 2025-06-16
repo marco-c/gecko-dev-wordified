@@ -4056,6 +4056,7 @@ atomRole
 GetUTF16String
 (
 )
+nsCaseInsensitiveStringComparator
 )
 )
 {
