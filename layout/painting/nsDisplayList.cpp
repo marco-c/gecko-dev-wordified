@@ -20229,6 +20229,17 @@ nsDisplayListBuilder
 aBuilder
 )
 {
+if
+(
+!
+XRE_IsParentProcess
+(
+)
+)
+{
+return
+;
+}
 const
 auto
 &
