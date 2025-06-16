@@ -128,6 +128,15 @@ browser
 .
 toml
 "
+"
+tests
+/
+browser
+/
+browser_uuid_migration
+.
+toml
+"
 ]
 with
 Files
