@@ -818,7 +818,9 @@ ResponsiveUIManager
 .
 isActiveForTab
 (
-target
+commands
+.
+descriptorFront
 .
 localTab
 )
@@ -831,7 +833,9 @@ ResponsiveUIManager
 .
 getResponsiveUIForTab
 (
-target
+commands
+.
+descriptorFront
 .
 localTab
 )
