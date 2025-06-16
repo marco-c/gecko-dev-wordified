@@ -805,8 +805,14 @@ setAttribute
 "
 taskbartab
 "
+extraOptions
+.
+getPropertyAsAString
+(
 "
+taskbartab
 "
+)
 )
 ;
 }
