@@ -6038,11 +6038,7 @@ tableFrame
 tableFrame
 -
 >
-PrincipalChildList
-(
-)
-.
-FirstChild
+InnerTableFrame
 (
 )
 )
