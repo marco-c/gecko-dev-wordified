@@ -103,6 +103,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsICryptoHash
 .
 h
