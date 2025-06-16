@@ -556,7 +556,6 @@ AssertCurrentThreadOwnsQuotaMutex
 return
 {
 mAccessTime
-mAccessed
 mPersisted
 }
 ;
