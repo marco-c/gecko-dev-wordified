@@ -219,8 +219,10 @@ class
 TrackSupport
 {
 None
-Audio
-Video
+DecodeAudio
+DecodeVideo
+EncodeAudio
+EncodeVideo
 }
 ;
 using
