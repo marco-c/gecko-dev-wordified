@@ -46365,9 +46365,6 @@ aMatrix
 )
 const
 {
-bool
-snap
-;
 const
 nsRect
 untransformedBounds
@@ -46375,8 +46372,6 @@ untransformedBounds
 GetUntransformedBounds
 (
 aBuilder
-&
-snap
 )
 ;
 /
@@ -48411,9 +48406,6 @@ nsRegion
 nsRegion
 result
 ;
-bool
-tmpSnap
-;
 const
 nsRect
 bounds
@@ -48421,8 +48413,6 @@ bounds
 GetUntransformedBounds
 (
 aBuilder
-&
-tmpSnap
 )
 ;
 const
@@ -48453,6 +48443,9 @@ untransformedVisible
 )
 )
 {
+bool
+tmpSnap
+;
 result
 =
 GetBuildingRect
@@ -49050,17 +49043,12 @@ factor
 )
 )
 ;
-bool
-snap
-;
 nsRect
 childBounds
 =
 GetUntransformedBounds
 (
 aBuilder
-&
-snap
 )
 ;
 RectDouble

@@ -12388,9 +12388,6 @@ WebRenderGroupData
 aWrappingItem
 )
 ;
-bool
-snapped
-;
 nsRect
 groupBounds
 =
@@ -12400,8 +12397,6 @@ aWrappingItem
 GetUntransformedBounds
 (
 aDisplayListBuilder
-&
-snapped
 )
 ;
 DIGroup
