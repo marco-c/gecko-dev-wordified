@@ -931,15 +931,13 @@ the
 expected
 item
 .
-await
 profile
 .
-setAvatar
-(
+avatar
+=
 "
 flower
 "
-)
 ;
 await
 SelectableProfileService
