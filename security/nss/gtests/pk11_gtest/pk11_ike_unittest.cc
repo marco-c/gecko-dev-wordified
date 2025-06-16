@@ -581,7 +581,7 @@ size
 CK_MECHANISM_TYPE
 derive_mech
 =
-CKM_NSS_IKE_PRF_DERIVE
+CKM_IKE_PRF_DERIVE
 ;
 ScopedPK11SymKey
 gxy_key
@@ -614,8 +614,8 @@ cases
 and
 3
 )
-CK_NSS_IKE_PRF_DERIVE_PARAMS
-nss_ike_prf_params
+CK_IKE_PRF_DERIVE_PARAMS
+ike_prf_params
 =
 {
 prf_mech
@@ -665,8 +665,8 @@ derive
 session
 keys
 .
-CK_NSS_IKE1_PRF_DERIVE_PARAMS
-nss_ike_v1_prf_params
+CK_IKE1_PRF_DERIVE_PARAMS
+ike_v1_prf_params
 =
 {
 prf_mech
@@ -712,7 +712,7 @@ key_number
 ;
 /
 /
-IKE_V1_APP_B
+IKE_V1_EXTENDED
 do
 quick
 mode
@@ -725,8 +725,8 @@ one
 call
 )
 .
-CK_NSS_IKE1_APP_B_PRF_DERIVE_PARAMS
-nss_ike_app_b_prf_params_quick
+CK_IKE1_EXTENDED_DERIVE_PARAMS
+ike1_extended_derive_params_quick
 =
 {
 prf_mech
@@ -752,7 +752,7 @@ size
 ;
 /
 /
-IKE_V1_APP_B
+IKE_V1_EXTENDED
 used
 for
 long
@@ -761,13 +761,13 @@ keys
 in
 ike_v1
 CK_MECHANISM_TYPE
-nss_ike_app_b_prf_params
+ike1_extended_derive_params
 =
 prf_mech
 ;
 /
 /
-IKE_PRF_PLUS
+IKE_V2_PRF_PLUS
 used
 to
 generate
@@ -776,8 +776,8 @@ keys
 in
 ike
 v2
-CK_NSS_IKE_PRF_PLUS_DERIVE_PARAMS
-nss_ike_prf_plus_params
+CK_IKE2_PRF_PLUS_DERIVE_PARAMS
+ike2_prf_plus_params
 =
 {
 prf_mech
@@ -812,10 +812,10 @@ char
 *
 )
 &
-nss_ike_prf_params
+ike_prf_params
 sizeof
 (
-nss_ike_prf_params
+ike_prf_params
 )
 }
 ;
@@ -832,7 +832,7 @@ IkeTestType
 :
 ikeGxy
 :
-nss_ike_prf_params
+ike_prf_params
 .
 bDataAsKey
 =
@@ -854,7 +854,7 @@ IkeTestType
 :
 ikeV2Rekey
 :
-nss_ike_prf_params
+ike_prf_params
 .
 bRekey
 =
@@ -867,7 +867,7 @@ ImportKey
 gxykm_item
 )
 ;
-nss_ike_prf_params
+ike_prf_params
 .
 hNewKey
 =
@@ -890,7 +890,7 @@ ikeV1
 :
 derive_mech
 =
-CKM_NSS_IKE1_PRF_DERIVE
+CKM_IKE1_PRF_DERIVE
 ;
 params_item
 .
@@ -902,7 +902,7 @@ char
 *
 )
 &
-nss_ike_v1_prf_params
+ike_v1_prf_params
 ;
 params_item
 .
@@ -910,7 +910,7 @@ len
 =
 sizeof
 (
-nss_ike_v1_prf_params
+ike_v1_prf_params
 )
 ;
 gxy_key
@@ -920,7 +920,7 @@ ImportKey
 gxykm_item
 )
 ;
-nss_ike_v1_prf_params
+ike_v1_prf_params
 .
 hKeygxy
 =
@@ -950,13 +950,13 @@ ImportKey
 prevkm_item
 )
 ;
-nss_ike_v1_prf_params
+ike_v1_prf_params
 .
 bHasPrevKey
 =
 true
 ;
-nss_ike_v1_prf_params
+ike_v1_prf_params
 .
 hPrevKey
 =
@@ -980,7 +980,7 @@ ikeV1AppB
 :
 derive_mech
 =
-CKM_NSS_IKE1_APP_B_PRF_DERIVE
+CKM_IKE1_EXTENDED_DERIVE
 ;
 params_item
 .
@@ -992,7 +992,7 @@ char
 *
 )
 &
-nss_ike_app_b_prf_params
+ike1_extended_derive_params
 ;
 params_item
 .
@@ -1000,7 +1000,7 @@ len
 =
 sizeof
 (
-nss_ike_app_b_prf_params
+ike1_extended_derive_params
 )
 ;
 break
@@ -1013,7 +1013,7 @@ ikeV1AppBQuick
 :
 derive_mech
 =
-CKM_NSS_IKE1_APP_B_PRF_DERIVE
+CKM_IKE1_EXTENDED_DERIVE
 ;
 params_item
 .
@@ -1025,7 +1025,7 @@ char
 *
 )
 &
-nss_ike_app_b_prf_params_quick
+ike1_extended_derive_params_quick
 ;
 params_item
 .
@@ -1033,7 +1033,7 @@ len
 =
 sizeof
 (
-nss_ike_app_b_prf_params_quick
+ike1_extended_derive_params_quick
 )
 ;
 if
@@ -1053,13 +1053,13 @@ ImportKey
 gxykm_item
 )
 ;
-nss_ike_app_b_prf_params_quick
+ike1_extended_derive_params_quick
 .
 bHasKeygxy
 =
 true
 ;
-nss_ike_app_b_prf_params_quick
+ike1_extended_derive_params_quick
 .
 hKeygxy
 =
@@ -1083,7 +1083,7 @@ ikePlus
 :
 derive_mech
 =
-CKM_NSS_IKE_PRF_PLUS_DERIVE
+CKM_IKE2_PRF_PLUS_DERIVE
 ;
 params_item
 .
@@ -1095,7 +1095,7 @@ char
 *
 )
 &
-nss_ike_prf_plus_params
+ike2_prf_plus_params
 ;
 params_item
 .
@@ -1103,7 +1103,7 @@ len
 =
 sizeof
 (
-nss_ike_prf_plus_params
+ike2_prf_plus_params
 )
 ;
 break

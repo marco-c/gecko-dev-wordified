@@ -515,7 +515,7 @@ IkeTestType
 ikeGxy
 /
 *
-CKM_NSS_IKE_PRF_DERIVE
+CKM_IKE_PRF_DERIVE
 case
 1
 *
@@ -523,7 +523,7 @@ case
 ikeV1Psk
 /
 *
-CKM_NSS_IKE_PRF_DERIVE
+CKM_IKE_PRF_DERIVE
 case
 2
 *
@@ -531,7 +531,7 @@ case
 ikeV2Rekey
 /
 *
-CKM_NSS_IKE_PRF_DERIVE
+CKM_IKE_PRF_DERIVE
 case
 3
 *
@@ -539,13 +539,13 @@ case
 ikeV1
 /
 *
-CKM_NSS_IKE1_PRF_DERIVE
+CKM_IKE1_PRF_DERIVE
 *
 /
 ikeV1AppB
 /
 *
-CKM_NSS_IKE1_PRF_APP_B_DERIVE
+CKM_IKE1_PRF_EXTENDED_DERIVE
 base
 mode
 *
@@ -553,7 +553,7 @@ mode
 ikeV1AppBQuick
 /
 *
-CKM_NSS_IKE1_PRF_APP_B_DERIVE
+CKM_IKE1_PRF_EXTENDED_DERIVE
 quick
 mode
 *
@@ -561,7 +561,7 @@ mode
 ikePlus
 /
 *
-CKM_NSS_IKE_PRF_DERIVE
+CKM_IKE2_PRF_PLUS_DERIVE
 *
 /
 }
