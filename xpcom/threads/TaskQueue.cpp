@@ -1660,12 +1660,6 @@ g
 mQueue
 )
 ;
-SerialEventTargetGuard
-tg
-(
-mQueue
-)
-;
 {
 LogRunnable
 :
