@@ -709,7 +709,7 @@ WebCodecsId
 >
 sNextId
 ;
-struct
+class
 EncoderConfigurationChangeList
 ;
 namespace

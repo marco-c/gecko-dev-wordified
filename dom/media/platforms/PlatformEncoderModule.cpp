@@ -1110,14 +1110,7 @@ if
 aConfig
 .
 mCodecSpecific
-|
-|
-!
-aConfig
 .
-mCodecSpecific
--
->
 is
 <
 H264Specific
@@ -1157,8 +1150,7 @@ specific
 aConfig
 .
 mCodecSpecific
--
->
+.
 as
 <
 H264Specific
