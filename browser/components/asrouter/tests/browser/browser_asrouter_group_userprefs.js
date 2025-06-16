@@ -294,6 +294,14 @@ updateCycleInMs
 0
 }
 ]
+[
+"
+test
+.
+wait300msAfterTabSwitch
+"
+true
+]
 ]
 }
 )

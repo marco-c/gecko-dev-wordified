@@ -330,6 +330,14 @@ unloadDelayMs
 "
 50
 ]
+[
+"
+test
+.
+wait300msAfterTabSwitch
+"
+true
+]
 ]
 }
 )

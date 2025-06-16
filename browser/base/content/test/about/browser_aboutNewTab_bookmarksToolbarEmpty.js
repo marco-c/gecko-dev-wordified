@@ -272,6 +272,14 @@ preload
 "
 false
 ]
+[
+"
+test
+.
+wait300msAfterTabSwitch
+"
+true
+]
 ]
 }
 )
