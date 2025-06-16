@@ -891,8 +891,7 @@ RefPtr
 <
 ResolvableNormalOriginOp
 <
-ClientMetadataArray
-true
+bool
 >
 >
 CreateClearClientOp
@@ -1027,8 +1026,7 @@ RefPtr
 <
 ResolvableNormalOriginOp
 <
-ClientMetadataArray
-true
+bool
 >
 >
 CreateShutdownClientOp
