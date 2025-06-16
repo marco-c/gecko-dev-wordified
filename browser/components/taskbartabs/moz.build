@@ -92,13 +92,6 @@ taskbartabs
 =
 [
 "
-TaskbarTabCmd
-.
-sys
-.
-mjs
-"
-"
 TaskbarTabs
 .
 sys
@@ -107,6 +100,13 @@ mjs
 "
 "
 TaskbarTabsChrome
+.
+sys
+.
+mjs
+"
+"
+TaskbarTabsCmd
 .
 sys
 .
