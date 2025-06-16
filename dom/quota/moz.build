@@ -647,6 +647,11 @@ DirectoryLockImpl
 cpp
 "
 "
+DirectoryMetadata
+.
+cpp
+"
+"
 EncryptingOutputStream
 .
 cpp
