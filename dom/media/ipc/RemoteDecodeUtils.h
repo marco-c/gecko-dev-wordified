@@ -164,6 +164,16 @@ VideoBridgeSource
 aSource
 )
 ;
+layers
+:
+:
+VideoBridgeSource
+GetVideoBridgeSourceFromRemoteMediaIn
+(
+RemoteMediaIn
+aSource
+)
+;
 const
 char
 *
