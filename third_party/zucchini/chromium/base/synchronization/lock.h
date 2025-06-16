@@ -151,6 +151,12 @@ public
 :
 #
 if
+defined
+(
+MOZ_ZUCCHINI
+)
+|
+|
 !
 DCHECK_IS_ON
 (
@@ -465,6 +471,13 @@ const
 endif
 /
 /
+defined
+(
+MOZ_ZUCCHINI
+)
+|
+|
+!
 DCHECK_IS_ON
 (
 )
