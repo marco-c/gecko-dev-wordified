@@ -1045,7 +1045,7 @@ score
 expectedFeatureName
 :
 "
-OfflineWikipediaSuggestions
+WikipediaSuggestions
 "
 expectedScore
 :
@@ -1183,7 +1183,7 @@ score
 expectedFeatureName
 :
 "
-OfflineWikipediaSuggestions
+WikipediaSuggestions
 "
 expectedScore
 :
@@ -1311,7 +1311,7 @@ score
 expectedFeatureName
 :
 "
-OfflineWikipediaSuggestions
+WikipediaSuggestions
 "
 expectedScore
 :
@@ -1449,7 +1449,7 @@ score
 expectedFeatureName
 :
 "
-OfflineWikipediaSuggestions
+WikipediaSuggestions
 "
 expectedScore
 :
