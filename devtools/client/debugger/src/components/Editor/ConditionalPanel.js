@@ -1501,9 +1501,12 @@ parent
 {
 if
 (
-parent
-instanceof
 HTMLElement
+.
+isInstance
+(
+parent
+)
 &
 &
 parent
