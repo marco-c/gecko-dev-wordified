@@ -1544,6 +1544,9 @@ sfv
 "
 idna_glue
 "
+"
+urlpattern_glue
+"
 ]
 include
 (

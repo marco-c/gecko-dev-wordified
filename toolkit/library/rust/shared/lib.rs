@@ -643,6 +643,10 @@ extern
 crate
 urlpattern
 ;
+extern
+crate
+urlpattern_glue
+;
 #
 [
 cfg
