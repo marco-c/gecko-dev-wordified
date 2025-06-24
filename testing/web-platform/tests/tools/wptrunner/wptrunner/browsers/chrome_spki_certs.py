@@ -32,11 +32,13 @@ pem
 WPT_FINGERPRINT
 =
 '
-w8nmBfff
+0BFjPjhH1jzif
 +
-kNkigb6RX
+9C8nnl
 +
-eQYKYR50daj4tOqmfn3haN6o
+d94xL0i
+/
+PK6o1CJnqnHKps
 =
 '
 #
