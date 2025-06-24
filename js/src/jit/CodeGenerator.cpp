@@ -18589,7 +18589,7 @@ flags
 ~
 (
 flags
-&
+|
 ~
 ATOM_BIT
 )
