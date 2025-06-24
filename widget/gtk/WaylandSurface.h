@@ -421,8 +421,12 @@ ones
 )
 .
 void
-SetFrameCallbackState
+SetFrameCallbackStateLocked
 (
+const
+WaylandSurfaceLock
+&
+aProofOfLock
 bool
 aEnabled
 )
@@ -891,6 +895,7 @@ screen
 bool
 AttachLocked
 (
+const
 WaylandSurfaceLock
 &
 aSurfaceLock
@@ -935,6 +940,7 @@ content
 void
 RemoveAttachedBufferLocked
 (
+const
 WaylandSurfaceLock
 &
 aProofOfLock
@@ -1870,6 +1876,11 @@ wp_image_description_v1
 aImageDescription
 uint32_t
 aIdentity
+)
+;
+void
+AssertCurrentThreadOwnsMutex
+(
 )
 ;
 private
