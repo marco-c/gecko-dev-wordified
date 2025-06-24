@@ -418,10 +418,6 @@ IsOnCurrentThread
 )
 )
 ;
-ForceEnablingFFmpegDebugLogs
-(
-)
-;
 FFMPEG_LOG
 (
 "
