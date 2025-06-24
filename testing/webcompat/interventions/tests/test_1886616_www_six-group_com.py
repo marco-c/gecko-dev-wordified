@@ -222,6 +222,11 @@ client
 navigate
 (
 URL
+wait
+=
+"
+none
+"
 )
     
 assert
@@ -254,6 +259,11 @@ client
 navigate
 (
 URL
+wait
+=
+"
+none
+"
 )
     
 assert

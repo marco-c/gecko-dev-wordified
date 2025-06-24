@@ -1108,6 +1108,29 @@ height
 if
 self
 .
+request
+.
+config
+.
+getoption
+(
+"
+platform_override
+"
+)
+=
+=
+"
+android
+"
+:
+            
+return
+False
+        
+if
+self
+.
 session
 .
 capabilities
@@ -3712,6 +3735,12 @@ if
 "
 Address
 rejected
+"
+in
+s
+or
+"
+NS_ERROR_NET_TIMEOUT
 "
 in
 s
@@ -10117,6 +10146,15 @@ trending_list
             
 )
             
+time
+.
+sleep
+(
+0
+.
+5
+)
+            
 with_scrollbar
 =
 trending_list
@@ -10154,6 +10192,15 @@ none
                 
 trending_list
             
+)
+            
+time
+.
+sleep
+(
+0
+.
+5
 )
             
 without_scrollbar
