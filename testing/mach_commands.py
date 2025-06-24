@@ -8717,6 +8717,47 @@ for
 annotations
 "
 )
+CommandArgument
+(
+    
+"
+-
+i
+"
+    
+"
+-
+-
+task
+-
+id
+"
+    
+dest
+=
+"
+task_id
+"
+    
+help
+=
+"
+Task
+id
+to
+write
+a
+condition
+for
+instead
+of
+all
+tasks
+from
+the
+push
+"
+)
 def
 skipfails
 (
@@ -8771,6 +8812,10 @@ implicit_vars
 False
     
 new_version
+=
+None
+    
+task_id
 =
 None
 )
@@ -8858,6 +8903,8 @@ turbo
 implicit_vars
         
 new_version
+        
+task_id
     
 )
 .
