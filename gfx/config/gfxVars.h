@@ -831,6 +831,13 @@ false
 \
 _
 (
+UseWMFHWDWM
+bool
+false
+)
+\
+_
+(
 UseDMABufSurfaceExport
 bool
 true
