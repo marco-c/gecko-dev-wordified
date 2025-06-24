@@ -1619,6 +1619,15 @@ module
 naga_shader
 .
 info
+Some
+(
+(
+naga_stage
+stage
+.
+entry_point
+)
+)
 stage
 .
 constants

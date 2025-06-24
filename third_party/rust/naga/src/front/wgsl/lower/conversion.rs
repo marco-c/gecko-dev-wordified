@@ -3524,6 +3524,17 @@ Some
 goal
 )
 }
+pub
+(
+in
+crate
+:
+:
+front
+:
+:
+wgsl
+)
 const
 fn
 concretize

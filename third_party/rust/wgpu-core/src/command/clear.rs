@@ -56,7 +56,7 @@ api_log
 command
 :
 :
-CommandEncoderError
+EncoderStateError
 device
 :
 :
@@ -553,13 +553,13 @@ error
 transparent
 )
 ]
-CommandEncoderError
+EncoderState
 (
 #
 [
 from
 ]
-CommandEncoderError
+EncoderStateError
 )
 #
 [
