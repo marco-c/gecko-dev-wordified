@@ -2470,7 +2470,7 @@ AllocKind
 COMPACT_PROP_MAP
 )
 .
-first
+getFirst
 (
 )
 ;
@@ -2484,7 +2484,7 @@ AllocKind
 NORMAL_PROP_MAP
 )
 .
-first
+getFirst
 (
 )
 ;

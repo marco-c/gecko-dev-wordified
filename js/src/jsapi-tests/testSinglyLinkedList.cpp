@@ -203,7 +203,7 @@ CHECK
 !
 list
 .
-first
+getFirst
 (
 )
 )
@@ -213,7 +213,7 @@ CHECK
 !
 list
 .
-last
+getLast
 (
 )
 )
@@ -264,7 +264,7 @@ CHECK
 (
 list
 .
-first
+getFirst
 (
 )
 -
@@ -279,7 +279,7 @@ CHECK
 (
 list
 .
-last
+getLast
 (
 )
 -
@@ -335,7 +335,7 @@ CHECK
 (
 list
 .
-first
+getFirst
 (
 )
 -
@@ -350,7 +350,7 @@ CHECK
 (
 list
 .
-last
+getLast
 (
 )
 -
@@ -411,7 +411,7 @@ CHECK
 (
 list
 .
-first
+getFirst
 (
 )
 -
@@ -464,7 +464,7 @@ CHECK
 (
 list
 .
-first
+getFirst
 (
 )
 -
@@ -494,7 +494,7 @@ CHECK
 (
 list
 .
-first
+getFirst
 (
 )
 -
@@ -533,7 +533,7 @@ CHECK
 (
 list
 .
-first
+getFirst
 (
 )
 -
@@ -574,7 +574,7 @@ CHECK
 (
 list
 .
-first
+getFirst
 (
 )
 -
@@ -589,7 +589,7 @@ CHECK
 (
 list
 .
-last
+getLast
 (
 )
 -
@@ -1221,7 +1221,7 @@ get
 =
 list
 .
-first
+getFirst
 (
 )
 )
@@ -1234,7 +1234,7 @@ iterFrom
 (
 list
 .
-last
+getLast
 (
 )
 )
@@ -1260,7 +1260,7 @@ get
 =
 list
 .
-last
+getLast
 (
 )
 )
@@ -1290,7 +1290,7 @@ removeRange
 e
 list
 .
-last
+getLast
 (
 )
 )
@@ -1402,7 +1402,7 @@ CHECK
 !
 list
 .
-first
+getFirst
 (
 )
 )
@@ -1412,7 +1412,7 @@ CHECK
 !
 list
 .
-last
+getLast
 (
 )
 )

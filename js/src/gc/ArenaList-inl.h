@@ -183,7 +183,7 @@ isEmpty
 &
 &
 !
-first
+getFirst
 (
 )
 -
@@ -218,7 +218,7 @@ Arena
 *
 arena
 =
-first
+getFirst
 (
 )
 ;
@@ -772,7 +772,7 @@ bucketLast
 =
 bucket
 .
-last
+getLast
 (
 )
 ;
@@ -879,7 +879,7 @@ buckets
 i
 ]
 .
-last
+getLast
 (
 )
 ;
@@ -1781,7 +1781,7 @@ arenaList
 thingKind
 )
 .
-first
+getFirst
 (
 )
 ;
@@ -1816,7 +1816,7 @@ collectingArenaList
 thingKind
 )
 .
-first
+getFirst
 (
 )
 ;
