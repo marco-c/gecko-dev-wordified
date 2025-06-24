@@ -7435,7 +7435,7 @@ eMouseEnterIntoWidget
 PointerEventHandler
 :
 :
-UpdateActivePointerState
+UpdatePointerActiveState
 (
 mouseEvent
 aTargetContent
@@ -7937,7 +7937,7 @@ ePointerDown
 PointerEventHandler
 :
 :
-UpdateActivePointerState
+UpdatePointerActiveState
 (
 mouseEvent
 aTargetContent
@@ -8043,7 +8043,7 @@ ePointerMove
 PointerEventHandler
 :
 :
-UpdateActivePointerState
+UpdatePointerActiveState
 (
 mouseEvent
 aTargetContent
@@ -28487,7 +28487,7 @@ pointerEvent
 PointerEventHandler
 :
 :
-UpdateActivePointerState
+UpdatePointerActiveState
 (
 pointerEvent
 )
@@ -31629,7 +31629,7 @@ eMouseExitFromWidget
 PointerEventHandler
 :
 :
-UpdateActivePointerState
+UpdatePointerActiveState
 (
 aEvent
 -
