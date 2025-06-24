@@ -1112,16 +1112,6 @@ artifacts
 "
 :
 upstream_artifacts
-                
-"
-max
--
-run
--
-time
-"
-:
-3600
             
 }
             
