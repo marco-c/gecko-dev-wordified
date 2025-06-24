@@ -607,8 +607,6 @@ thread
 void
 KeyFrameRequestDone
 (
-bool
-aSuccess
 )
 ;
 bool

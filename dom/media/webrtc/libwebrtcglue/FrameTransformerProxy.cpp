@@ -1316,8 +1316,6 @@ FrameTransformerProxy
 :
 KeyFrameRequestDone
 (
-bool
-aSuccess
 )
 {
 MutexAutoLock
@@ -1350,7 +1348,6 @@ FrameTransformerProxy
 (
 this
 )
-aSuccess
 ]
 {
 if
@@ -1363,7 +1360,6 @@ mScriptTransformer
 >
 KeyFrameRequestDone
 (
-aSuccess
 )
 ;
 }

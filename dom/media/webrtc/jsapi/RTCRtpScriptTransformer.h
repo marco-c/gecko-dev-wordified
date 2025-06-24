@@ -978,8 +978,6 @@ SendKeyFrameRequest
 void
 KeyFrameRequestDone
 (
-bool
-aSuccess
 )
 ;
 /
