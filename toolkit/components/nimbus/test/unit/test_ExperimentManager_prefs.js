@@ -5509,7 +5509,6 @@ of
 unenrollOrder
 )
 {
-await
 manager
 .
 unenroll
@@ -12827,7 +12826,6 @@ slugs
 enrollmentKind
 ]
 ;
-await
 manager
 .
 unenroll
@@ -13738,7 +13736,6 @@ enrollment
 "
 )
 ;
-await
 manager
 .
 unenroll
@@ -13856,7 +13853,6 @@ unenrollment
 "
 )
 ;
-await
 manager
 .
 unenroll
@@ -14945,7 +14941,6 @@ TYPED_FEATURE
 featureId
 )
 ;
-await
 manager
 .
 unenroll
@@ -15049,6 +15044,13 @@ hello
 "
 test
 "
+)
+;
+await
+NimbusTestUtils
+.
+flushStore
+(
 )
 ;
 const
@@ -15199,7 +15201,6 @@ foo
 ]
 )
 ;
-await
 manager
 .
 unenroll
