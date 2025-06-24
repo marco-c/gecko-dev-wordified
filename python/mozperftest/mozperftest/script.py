@@ -872,6 +872,17 @@ manifest
 flavor
             
 self
+[
+"
+test
+"
+]
+=
+"
+mochitest
+"
+            
+self
 .
 script_type
 =
