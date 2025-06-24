@@ -555,7 +555,9 @@ we
 are
 not
 blocking
-trackers
+/
+/
+fingerprinters
 if
 (
 !
