@@ -4346,7 +4346,7 @@ currentTime
 =
 aCurrentTimeInUsec
 /
-PR_USEC_PER_MSEC
+PR_USEC_PER_SEC
 ;
 CookieListIter
 exactIter
@@ -7094,7 +7094,7 @@ currentTime
 =
 aCurrentTimeInUsec
 /
-PR_USEC_PER_MSEC
+PR_USEC_PER_SEC
 ;
 int64_t
 purgeTime

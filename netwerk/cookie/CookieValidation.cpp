@@ -735,13 +735,13 @@ network_cookie_maxageCap
 )
 ;
 int64_t
-currentTimeInMSec
+currentTimeInSec
 =
 PR_Now
 (
 )
 /
-PR_USEC_PER_MSEC
+PR_USEC_PER_SEC
 ;
 int64_t
 expiry
@@ -751,6 +751,8 @@ mCookieData
 expiry
 (
 )
+/
+PR_USEC_PER_SEC
 ;
 if
 (
@@ -759,11 +761,9 @@ maxageCap
 &
 expiry
 >
-currentTimeInMSec
+currentTimeInSec
 +
 maxageCap
-*
-1000
 )
 {
 mResult

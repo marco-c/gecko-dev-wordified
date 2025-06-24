@@ -8295,9 +8295,9 @@ PR_Now
 (
 )
 /
-PR_USEC_PER_MSEC
+PR_USEC_PER_SEC
 +
-2000
+2
 /
 /
 expiry
