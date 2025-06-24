@@ -824,16 +824,6 @@ enabled
 "
 false
 ]
-[
-"
-network
-.
-lna
-.
-block_trackers
-"
-false
-]
 ]
 false
 false
