@@ -169,6 +169,7 @@ Promise
 (
 (
 resolve
+reject
 )
 =
 >
@@ -332,7 +333,7 @@ readValue
 options
 .
 pushUrl
-true
+URL
 )
 ;
 const
@@ -506,6 +507,7 @@ for
 soft
 navigation
 '
+3000
 )
 ;
 if
@@ -1594,7 +1596,7 @@ includes
 (
 pushUrl
 ?
-URL
+pushUrl
 :
 document
 .
