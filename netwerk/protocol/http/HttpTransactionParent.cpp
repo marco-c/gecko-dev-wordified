@@ -978,13 +978,9 @@ nsILoadInfo
 :
 IPAddressSpace
 aParentIpAddressSpace
-dom
-:
-:
-ContentPermissionRequestBase
-:
-:
-PromptResult
+const
+LNAPerms
+&
 aLnaPermissionStatus
 )
 {
