@@ -176,7 +176,7 @@ funcScope
 *
 this
 "
-getInternalfomratParameter
+getInternalformatParameter
 "
 )
 ;
