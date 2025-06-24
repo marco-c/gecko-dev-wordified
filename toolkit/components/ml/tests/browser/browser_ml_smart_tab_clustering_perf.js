@@ -137,7 +137,7 @@ win
 ;
 requestLongerTimeout
 (
-250
+300
 )
 ;
 const
@@ -363,6 +363,8 @@ dtype
 "
 q8
 "
+/
+/
 timeoutMS
 :
 2
@@ -370,6 +372,10 @@ timeoutMS
 60
 *
 1000
+timeoutMS
+:
+-
+1
 }
 )
 ;
