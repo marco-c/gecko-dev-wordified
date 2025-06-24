@@ -8950,6 +8950,15 @@ new
 255
 )
 ;
+if
+stats
+.
+max
+>
+0
+.
+0
+{
 for
 (
 index
@@ -9079,6 +9088,7 @@ color_top
 color_bottom
 )
 ;
+}
 }
 rect
 }
