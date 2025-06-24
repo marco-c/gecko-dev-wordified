@@ -24,7 +24,7 @@ property
 bool
 ucd
 -
-16
+15
 .
 0
 .
@@ -43,7 +43,7 @@ whitespace
 Unicode
 version
 :
-16
+15
 .
 0
 .
@@ -58,9 +58,9 @@ ucd
 generate
 0
 .
-3
+2
 .
-1
+14
 is
 available
 on

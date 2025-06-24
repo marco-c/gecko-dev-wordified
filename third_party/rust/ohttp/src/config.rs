@@ -1973,8 +1973,7 @@ Unsupported
 )
 =
 >
-{
-}
+continue
 Err
 (
 e

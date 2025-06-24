@@ -1228,10 +1228,10 @@ add
 (
 pt_expected
 )
-.
-cast_mut
-(
-)
+as
+*
+mut
+_
 /
 /
 const

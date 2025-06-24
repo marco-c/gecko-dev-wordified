@@ -781,13 +781,14 @@ regex
 -
 cli
 debug
+nfa
 thompson
 -
-qr
+-
+quiet
 -
 -
-captures
-none
+reverse
 '
 \
 w

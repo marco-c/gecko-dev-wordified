@@ -634,7 +634,7 @@ position
 information
 for
 a
-capture
+captue
 group
 when
 using
@@ -788,7 +788,7 @@ position
 information
 for
 a
-capture
+captue
 group
 when
 using
@@ -1332,7 +1332,7 @@ state
 is
 an
 unconditional
-epsilon
+espilon
 transition
 then
 this
