@@ -438,6 +438,10 @@ Type
 application
 /
 json
+;
+charset
+=
+utf8
 "
 false
 )
