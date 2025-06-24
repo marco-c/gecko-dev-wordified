@@ -97,13 +97,10 @@ success
 :
 ICU4XChineseBasedCalendar
 (
-icu4x
-:
-:
 capi
 :
 :
-CalendarKind_Dangi
+ICU4XAnyCalendarKind_Dangi
 locale
 success
 )
@@ -135,13 +132,10 @@ success
 :
 ICU4XChineseBasedCalendar
 (
-icu4x
-:
-:
 capi
 :
 :
-CalendarKind_Dangi
+ICU4XAnyCalendarKind_Dangi
 timeZone
 locale
 success
@@ -322,6 +316,7 @@ const
 {
 return
 "
+dangi
 "
 ;
 }

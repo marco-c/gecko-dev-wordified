@@ -644,7 +644,7 @@ fields
 The
 impl
 of
-validate_bytes
+validate_byte_slice
 (
 )
 returns
@@ -667,7 +667,7 @@ valid
 The
 impl
 of
-validate_bytes
+validate_byte_slice
 (
 )
 returns
@@ -692,7 +692,7 @@ entirety
 The
 impl
 of
-from_bytes_unchecked
+from_byte_slice_unchecked
 (
 )
 returns
@@ -745,7 +745,7 @@ FooULE
 /
 !
 fn
-validate_bytes
+validate_byte_slice
 (
 bytes
 :
@@ -760,7 +760,7 @@ Result
 <
 (
 )
-UleError
+ZeroVecError
 >
 {
 /
@@ -784,7 +784,7 @@ AsULE
 ULE
 :
 :
-validate_bytes
+validate_byte_slice
 (
 &
 bytes
@@ -801,7 +801,7 @@ map_err
 |
 _
 |
-UleError
+ZeroVecError
 :
 :
 parse
@@ -828,7 +828,7 @@ AsULE
 ULE
 :
 :
-validate_bytes
+validate_byte_slice
 (
 &
 bytes
@@ -845,7 +845,7 @@ map_err
 |
 _
 |
-UleError
+ZeroVecError
 :
 :
 parse
@@ -873,7 +873,7 @@ u32
 >
 :
 :
-parse_bytes
+parse_byte_slice
 (
 &
 bytes
@@ -889,7 +889,7 @@ map_err
 |
 _
 |
-UleError
+ZeroVecError
 :
 :
 parse
@@ -920,7 +920,7 @@ Ok
 !
 unsafe
 fn
-from_bytes_unchecked
+from_byte_slice_unchecked
 (
 bytes
 :
@@ -1163,7 +1163,7 @@ AsULE
 ULE
 :
 :
-slice_as_bytes
+as_byte_slice
 (
 &
 [
@@ -1189,7 +1189,7 @@ AsULE
 ULE
 :
 :
-slice_as_bytes
+as_byte_slice
 (
 &
 [

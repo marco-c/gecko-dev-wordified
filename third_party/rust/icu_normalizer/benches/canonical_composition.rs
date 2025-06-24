@@ -79,8 +79,8 @@ properties
 :
 :
 {
-CanonicalCompositionBorrowed
-CanonicalDecompositionBorrowed
+CanonicalComposition
+CanonicalDecomposition
 Decomposed
 }
 ;
@@ -88,7 +88,7 @@ use
 icu_normalizer
 :
 :
-ComposingNormalizerBorrowed
+ComposingNormalizer
 ;
 struct
 BenchDataContent
@@ -189,14 +189,17 @@ BenchDataContent
 {
 let
 nfc_normalizer
+:
+ComposingNormalizer
 =
-ComposingNormalizerBorrowed
+ComposingNormalizer
 :
 :
 new_nfc
 (
 )
 ;
+return
 [
 BenchDataContent
 {
@@ -978,6 +981,7 @@ result
 }
 }
 ]
+;
 }
 fn
 function_under_bench
@@ -985,7 +989,7 @@ function_under_bench
 canonical_composer
 :
 &
-CanonicalCompositionBorrowed
+CanonicalComposition
 composable_points
 :
 &
@@ -1052,7 +1056,7 @@ group_name
 let
 composer
 =
-CanonicalCompositionBorrowed
+CanonicalComposition
 :
 :
 new
@@ -1141,7 +1145,7 @@ char
 let
 decomposer
 =
-CanonicalDecompositionBorrowed
+CanonicalDecomposition
 :
 :
 new

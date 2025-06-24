@@ -127,9 +127,6 @@ f1
 /
 /
 /
-/
-/
-/
 g
 denotes
 the
@@ -503,9 +500,6 @@ level
 hashing
 schema
 .
-/
-/
-/
 /
 /
 /

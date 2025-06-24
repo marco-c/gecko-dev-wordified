@@ -569,6 +569,7 @@ str
 ]
 >
 const
+:
 crate
 :
 :

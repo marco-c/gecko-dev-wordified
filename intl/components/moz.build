@@ -200,6 +200,13 @@ h
 "
 src
 /
+ICU4XGeckoDataProvider
+.
+h
+"
+"
+src
+/
 ICUError
 .
 h
@@ -408,6 +415,13 @@ cpp
 "
 src
 /
+ICU4XGeckoDataProvider
+.
+cpp
+"
+"
+src
+/
 ListFormat
 .
 cpp
@@ -540,7 +554,7 @@ icu_capi
 /
 bindings
 /
-cpp
+c
 "
 ]
 if

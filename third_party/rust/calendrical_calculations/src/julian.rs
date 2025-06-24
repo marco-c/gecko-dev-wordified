@@ -833,14 +833,8 @@ of
 a
 Julian
 date
-.
-/
-/
-/
-/
-/
-/
-Years
+;
+years
 are
 counted
 as

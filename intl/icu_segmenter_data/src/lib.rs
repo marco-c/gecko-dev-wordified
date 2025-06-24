@@ -77,7 +77,7 @@ include
 /
 data
 /
-mod
+macros
 .
 rs
 "

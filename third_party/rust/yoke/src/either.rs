@@ -569,10 +569,6 @@ Target
 =
 T
 >
-T
-:
-?
-Sized
 {
 type
 Target
@@ -626,8 +622,6 @@ deref
 }
 /
 /
-Safety
-:
 Safe
 because
 both
@@ -675,16 +669,10 @@ Target
 =
 T
 >
-T
-:
-?
-Sized
 {
 }
 /
 /
-Safety
-:
 Safe
 because
 both

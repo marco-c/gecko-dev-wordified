@@ -565,7 +565,7 @@ u32
 >
 :
 :
-parse_bytes
+parse_byte_slice
 (
 TEST_BUFFER_LE
 )
@@ -676,7 +676,7 @@ str
 >
 :
 :
-parse_bytes
+parse_byte_slice
 (
 TEST_VARZEROSLICE_BYTES
 )

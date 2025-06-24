@@ -162,6 +162,8 @@ bool
 impl
 <
 '
+a
+'
 ast
 >
 Visit
@@ -173,7 +175,7 @@ for
 TypeVisitor
 <
 '
-_
+a
 >
 {
 fn

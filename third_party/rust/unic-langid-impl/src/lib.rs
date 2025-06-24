@@ -3871,8 +3871,9 @@ as_ref
 (
 )
 .
-is_none_or
+map_or
 (
+true
 |
 t
 |
