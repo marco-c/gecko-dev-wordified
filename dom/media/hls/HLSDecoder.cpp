@@ -1910,7 +1910,6 @@ Create
 OriginAttributes
 (
 )
-aMediaUri
 )
 ;
 }
@@ -2030,7 +2029,6 @@ Create
 OriginAttributes
 (
 )
-aMediaUri
 )
 ;
 nsCOMPtr
