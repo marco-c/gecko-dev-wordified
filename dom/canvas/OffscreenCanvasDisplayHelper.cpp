@@ -3513,6 +3513,8 @@ resistFingerprinting
 nsIPrincipal
 *
 principal
+=
+nullptr
 ;
 {
 MutexAutoLock
