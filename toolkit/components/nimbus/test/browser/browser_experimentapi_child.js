@@ -793,6 +793,13 @@ foo
 "
 )
 ;
+await
+NimbusTestUtils
+.
+flushStore
+(
+)
+;
 BrowserTestUtils
 .
 removeTab
@@ -1199,6 +1206,13 @@ _deleteForTests
 "
 qux
 "
+)
+;
+await
+NimbusTestUtils
+.
+flushStore
+(
 )
 ;
 BrowserTestUtils
