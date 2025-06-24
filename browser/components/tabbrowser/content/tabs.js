@@ -7781,6 +7781,7 @@ gBrowser
 pinTab
 (
 item
+true
 )
 ;
 }
