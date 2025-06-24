@@ -7309,10 +7309,9 @@ nullptr
 nsICSPEventListener
 *
 /
-u
-"
-"
-_ns
+VoidString
+(
+)
 aElement
 -
 >
