@@ -556,6 +556,13 @@ aQueueId
 )
 {
 }
+virtual
+void
+CleanForRecycling
+(
+)
+{
+}
 const
 uint32_t
 mWidth
