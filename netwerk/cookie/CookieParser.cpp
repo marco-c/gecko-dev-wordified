@@ -3640,6 +3640,7 @@ aCurrentTime
 value
 +
 =
+(
 maxageCap
 ?
 std
@@ -3652,6 +3653,9 @@ maxageCap
 )
 :
 maxage
+)
+*
+1000
 ;
 aCookieData
 .
@@ -3731,7 +3735,7 @@ expiresTime
 /
 int64_t
 (
-PR_USEC_PER_SEC
+PR_USEC_PER_MSEC
 )
 ;
 /
@@ -3842,7 +3846,7 @@ dateHeaderTime
 /
 int64_t
 (
-PR_USEC_PER_SEC
+PR_USEC_PER_MSEC
 )
 ;
 int64_t
@@ -4814,7 +4818,7 @@ expires
 maxage
 currentTimeInUsec
 /
-PR_USEC_PER_SEC
+PR_USEC_PER_MSEC
 aDateHeader
 aFromHttp
 )

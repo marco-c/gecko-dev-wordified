@@ -6987,7 +6987,7 @@ currentTime
 =
 currentTimeInUsec
 /
-PR_USEC_PER_SEC
+PR_USEC_PER_MSEC
 ;
 bool
 stale
