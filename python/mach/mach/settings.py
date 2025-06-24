@@ -472,6 +472,34 @@ history
 10
                 
 )
+                
+(
+                    
+"
+try
+.
+nobrowser
+"
+                    
+"
+boolean
+"
+                    
+"
+Do
+not
+automatically
+open
+a
+browser
+during
+authentication
+.
+"
+                    
+False
+                
+)
             
 ]
         
