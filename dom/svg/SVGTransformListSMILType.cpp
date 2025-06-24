@@ -266,7 +266,7 @@ void
 SVGTransformListSMILType
 :
 :
-Init
+InitValue
 (
 SMILValue
 &
@@ -311,7 +311,7 @@ void
 SVGTransformListSMILType
 :
 :
-Destroy
+DestroyValue
 (
 SMILValue
 &

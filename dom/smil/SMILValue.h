@@ -284,7 +284,7 @@ SMILValue
 mType
 -
 >
-Destroy
+DestroyValue
 (
 *
 this

@@ -1233,7 +1233,7 @@ in
 SVGPathSegListSMILType
 :
 :
-Init
+InitValue
 (
 )
 has
@@ -1244,6 +1244,7 @@ a
 SetElement
 (
 )
+*
 call
 .
 *

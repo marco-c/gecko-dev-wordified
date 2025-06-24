@@ -203,7 +203,7 @@ Methods
 -
 -
 void
-Init
+InitValue
 (
 SMILValue
 &
@@ -213,7 +213,7 @@ const
 override
 ;
 void
-Destroy
+DestroyValue
 (
 SMILValue
 &

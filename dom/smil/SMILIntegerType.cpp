@@ -151,7 +151,7 @@ void
 SMILIntegerType
 :
 :
-Init
+InitValue
 (
 SMILValue
 &
@@ -192,7 +192,7 @@ void
 SMILIntegerType
 :
 :
-Destroy
+DestroyValue
 (
 SMILValue
 &

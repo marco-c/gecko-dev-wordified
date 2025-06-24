@@ -1215,7 +1215,7 @@ void
 SVGMotionSMILType
 :
 :
-Init
+InitValue
 (
 SMILValue
 &
@@ -1260,7 +1260,7 @@ void
 SVGMotionSMILType
 :
 :
-Destroy
+DestroyValue
 (
 SMILValue
 &
@@ -3306,10 +3306,12 @@ guaranteed
 success
 here
 since
-Init
+InitValue
 (
 )
 allocates
+/
+/
 1
 slot
 .
@@ -3608,10 +3610,12 @@ guaranteed
 success
 here
 since
-Init
+InitValue
 (
 )
 allocates
+/
+/
 1
 slot
 .

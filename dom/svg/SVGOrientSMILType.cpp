@@ -194,7 +194,7 @@ void
 SVGOrientSMILType
 :
 :
-Init
+InitValue
 (
 SMILValue
 &
@@ -259,7 +259,7 @@ void
 SVGOrientSMILType
 :
 :
-Destroy
+DestroyValue
 (
 SMILValue
 &

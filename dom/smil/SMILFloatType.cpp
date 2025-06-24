@@ -151,7 +151,7 @@ void
 SMILFloatType
 :
 :
-Init
+InitValue
 (
 SMILValue
 &
@@ -194,7 +194,7 @@ void
 SMILFloatType
 :
 :
-Destroy
+DestroyValue
 (
 SMILValue
 &

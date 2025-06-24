@@ -1513,7 +1513,7 @@ in
 SVGLengthListSMILType
 :
 :
-Init
+InitValue
 (
 )
 has

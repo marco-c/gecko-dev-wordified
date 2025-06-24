@@ -1273,7 +1273,7 @@ in
 SVGPointListSMILType
 :
 :
-Init
+InitValue
 (
 )
 has

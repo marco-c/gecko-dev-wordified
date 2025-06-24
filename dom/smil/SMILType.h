@@ -839,7 +839,7 @@ this
 /
 virtual
 void
-Init
+InitValue
 (
 SMILValue
 &
@@ -884,7 +884,7 @@ IsNull
 /
 virtual
 void
-Destroy
+DestroyValue
 (
 SMILValue
 &
