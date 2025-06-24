@@ -738,6 +738,7 @@ entries
 .
 *
 /
+static
 getPerformanceEntries
 (
 type
