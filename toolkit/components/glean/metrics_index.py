@@ -2053,16 +2053,6 @@ yaml
 "
     
 "
-services
-/
-sync
-/
-pings
-.
-yaml
-"
-    
-"
 toolkit
 /
 components
@@ -2230,6 +2220,16 @@ yaml
 services
 /
 fxaccounts
+/
+pings
+.
+yaml
+"
+    
+"
+services
+/
+sync
 /
 pings
 .
