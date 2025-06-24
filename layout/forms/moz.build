@@ -206,11 +206,6 @@ nsListControlFrame
 cpp
 "
 "
-nsMeterFrame
-.
-cpp
-"
-"
 nsNumberControlFrame
 .
 cpp

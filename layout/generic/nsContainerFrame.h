@@ -6685,6 +6685,7 @@ bool
 ResolvedOrientationIsVertical
 (
 )
+const
 ;
 /
 *
