@@ -293,7 +293,7 @@ nsIEventTarget
 >
 aTarget
 const
-nsCString
+nsACString
 &
 aName
 bool
@@ -470,7 +470,7 @@ nsIEventTarget
 >
 aTarget
 const
-nsCString
+nsACString
 &
 aName
 bool
