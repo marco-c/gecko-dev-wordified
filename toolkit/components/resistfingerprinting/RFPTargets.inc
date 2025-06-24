@@ -662,6 +662,11 @@ ITEM_VALUE
 ScreenAvailToResolution
 68
 )
+ITEM_VALUE
+(
+UseHardcodedFontSubstitutes
+69
+)
 /
 /
 !
