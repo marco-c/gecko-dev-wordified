@@ -49661,6 +49661,10 @@ BrowsingContext
 >
 &
 aContext
+SessionHistoryInfo
+&
+&
+aInfo
 GetContiguousSessionHistoryInfosResolver
 &
 &
@@ -49693,6 +49697,7 @@ get_canonical
 >
 GetContiguousSessionHistoryInfos
 (
+aInfo
 )
 )
 ;
