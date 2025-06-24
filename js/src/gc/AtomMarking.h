@@ -672,9 +672,6 @@ Value
 value
 )
 ;
-#
-ifdef
-DEBUG
 /
 /
 Return
@@ -711,6 +708,9 @@ T
 thing
 )
 ;
+#
+ifdef
+DEBUG
 bool
 idIsMarked
 (

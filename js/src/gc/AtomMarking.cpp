@@ -2143,9 +2143,6 @@ isBigInt
 )
 ;
 }
-#
-ifdef
-DEBUG
 template
 <
 typename
@@ -2358,6 +2355,9 @@ Symbol
 thing
 )
 ;
+#
+ifdef
+DEBUG
 template
 <
 >
