@@ -2469,6 +2469,12 @@ each
 code
 point
 .
+/
+/
+/
+/
+/
+/
 This
 CodePointTrie
 /
@@ -2957,7 +2963,7 @@ u16
 ZeroVec
 :
 :
-parse_byte_slice
+parse_bytes
 (
 index_array_as_bytes
 )
@@ -2991,7 +2997,7 @@ u8
 ZeroVec
 :
 :
-parse_byte_slice
+parse_bytes
 (
 data_8_array
 )
@@ -4303,7 +4309,7 @@ u16
 ZeroVec
 :
 :
-parse_byte_slice
+parse_bytes
 (
 index_array_as_bytes
 )

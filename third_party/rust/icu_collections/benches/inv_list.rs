@@ -104,7 +104,7 @@ best_sample
 CodePointInversionList
 :
 :
-try_from_inversion_list_slice
+try_from_u32_inversion_list_slice
 (
 &
 best_ex
@@ -150,7 +150,7 @@ worst_sample
 CodePointInversionList
 :
 :
-try_from_inversion_list_slice
+try_from_u32_inversion_list_slice
 (
 &
 worst_ex
@@ -251,15 +251,12 @@ best_sample
 .
 contains_range
 (
-&
-(
 '
 A
 '
 .
 .
 ch
-)
 )
 )
 .
@@ -287,8 +284,6 @@ worst_sample
 .
 contains_range
 (
-&
-(
 char
 :
 :
@@ -305,7 +300,6 @@ unwrap
 ch
 )
 )
-)
 .
 count
 (
@@ -316,17 +310,6 @@ count
 }
 )
 ;
-#
-[
-cfg
-(
-feature
-=
-"
-bench
-"
-)
-]
 {
 let
 mut
@@ -473,7 +456,6 @@ iter
 (
 |
 |
-{
 sample
 .
 iter_chars
@@ -489,8 +471,6 @@ sample
 .
 contains_range
 (
-&
-(
 '
 A
 '
@@ -499,8 +479,6 @@ A
 ch
 )
 )
-)
-}
 )
 }
 )
@@ -546,8 +524,6 @@ sample
 .
 contains_range
 (
-&
-(
 char
 :
 :
@@ -562,7 +538,6 @@ unwrap
 .
 .
 ch
-)
 )
 )
 }

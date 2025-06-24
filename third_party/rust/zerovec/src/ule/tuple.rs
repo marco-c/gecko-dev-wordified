@@ -436,7 +436,7 @@ fields
 The
 impl
 of
-validate_byte_slice
+validate_bytes
 (
 )
 returns
@@ -456,7 +456,7 @@ valid
 The
 impl
 of
-validate_byte_slice
+validate_bytes
 (
 )
 returns
@@ -524,7 +524,7 @@ t
 >
 {
 fn
-validate_byte_slice
+validate_bytes
 (
 bytes
 :
@@ -539,7 +539,7 @@ Result
 <
 (
 )
-ZeroVecError
+UleError
 >
 {
 /
@@ -608,7 +608,7 @@ ule_bytes
 return
 Err
 (
-ZeroVecError
+UleError
 :
 :
 length
@@ -683,7 +683,7 @@ t
 >
 :
 :
-validate_byte_slice
+validate_bytes
 (
 &
 chunk
@@ -1160,6 +1160,17 @@ t
 >
 {
 }
+#
+[
+cfg
+(
+feature
+=
+"
+alloc
+"
+)
+]
 impl
 <
 '
@@ -1441,7 +1452,7 @@ zerovec2
 ZeroVec
 :
 :
-parse_byte_slice
+parse_bytes
 (
 bytes
 )
@@ -1494,7 +1505,7 @@ u32
 >
 :
 :
-parse_byte_slice
+parse_bytes
 (
 bytes
 )
@@ -1604,7 +1615,7 @@ zerovec2
 ZeroVec
 :
 :
-parse_byte_slice
+parse_bytes
 (
 bytes
 )
@@ -1658,7 +1669,7 @@ u32
 >
 :
 :
-parse_byte_slice
+parse_bytes
 (
 bytes
 )
@@ -1773,7 +1784,7 @@ zerovec2
 ZeroVec
 :
 :
-parse_byte_slice
+parse_bytes
 (
 bytes
 )
@@ -1828,7 +1839,7 @@ u32
 >
 :
 :
-parse_byte_slice
+parse_bytes
 (
 bytes
 )

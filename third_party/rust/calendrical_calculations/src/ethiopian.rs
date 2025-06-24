@@ -149,7 +149,7 @@ coptic
 :
 COPTIC_EPOCH
 .
-const_diff
+until
 (
 crate
 :
