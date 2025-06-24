@@ -258,6 +258,7 @@ DuplicateTransitionNameCapturingOldState
 DuplicateTransitionNameCapturingNewState
 PseudoUpdateFailure
 Resize
+PageSwap
 }
 ;
 /
