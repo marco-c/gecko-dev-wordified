@@ -853,7 +853,6 @@ clearUserPref
 TEST_FALLBACK_PREF
 )
 ;
-await
 manager
 .
 unenroll

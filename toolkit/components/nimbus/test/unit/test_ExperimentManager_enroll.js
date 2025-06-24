@@ -392,7 +392,6 @@ true
 "
 )
 ;
-await
 manager
 .
 unenroll
@@ -589,7 +588,6 @@ isRollout
 "
 )
 ;
-await
 manager
 .
 unenroll
@@ -1310,7 +1308,6 @@ slug
 "
 )
 ;
-await
 manager
 .
 unenroll
@@ -1805,7 +1802,6 @@ rollout
 ]
 )
 ;
-await
 manager
 .
 unenroll
@@ -2134,7 +2130,6 @@ correctly
 "
 )
 ;
-await
 manager
 .
 unenroll
@@ -2539,7 +2534,6 @@ reason
 "
 )
 ;
-await
 manager
 .
 unenroll
@@ -2856,7 +2850,6 @@ reason
 "
 )
 ;
-await
 manager
 .
 unenroll
@@ -3749,7 +3742,6 @@ prefs
 "
 )
 ;
-await
 manager
 .
 unenroll
@@ -4124,7 +4116,6 @@ experiment
 "
 )
 ;
-await
 manager
 .
 unenroll
@@ -4344,7 +4335,6 @@ active
 "
 )
 ;
-await
 manager
 .
 unenroll
@@ -4694,7 +4684,6 @@ of
 expected
 )
 {
-await
 manager
 .
 unenroll
@@ -5224,7 +5213,6 @@ rollout
 "
 )
 ;
-await
 manager
 .
 unenroll
@@ -5257,7 +5245,6 @@ experiment
 "
 )
 ;
-await
 manager
 .
 unenroll
@@ -5384,7 +5371,6 @@ rollout
 "
 )
 ;
-await
 manager
 .
 unenroll
@@ -5780,7 +5766,6 @@ branch
 "
 )
 ;
-await
 manager
 .
 unenroll
@@ -6819,7 +6804,6 @@ active
 "
 )
 ;
-await
 manager
 .
 unenroll
@@ -6831,7 +6815,6 @@ rollout
 "
 )
 ;
-await
 manager
 .
 unenroll
@@ -6843,7 +6826,6 @@ rollout
 "
 )
 ;
-await
 manager
 .
 unenroll
@@ -6855,7 +6837,6 @@ experiment
 "
 )
 ;
-await
 manager
 .
 unenroll
