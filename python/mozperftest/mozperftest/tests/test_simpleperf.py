@@ -428,6 +428,20 @@ result
 =
 metadata
     
+assert
+metadata
+.
+get_extra_options
+(
+)
+=
+=
+[
+"
+simpleperf
+"
+]
+    
 #
 Test
 teardown
