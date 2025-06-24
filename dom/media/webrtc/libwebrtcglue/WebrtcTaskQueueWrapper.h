@@ -263,7 +263,7 @@ DeletionPolicy
 Deletion
 >
 class
-TaskQueueWrapper
+WebrtcTaskQueueWrapper
 :
 public
 webrtc
@@ -273,7 +273,7 @@ TaskQueueBase
 {
 public
 :
-TaskQueueWrapper
+WebrtcTaskQueueWrapper
 (
 RefPtr
 <
@@ -307,7 +307,7 @@ aName
 {
 }
 ~
-TaskQueueWrapper
+WebrtcTaskQueueWrapper
 (
 )
 =
@@ -576,7 +576,7 @@ return
 NS_NewRunnableFunction
 (
 "
-TaskQueueWrapper
+WebrtcTaskQueueWrapper
 :
 :
 CreateTaskRunner
@@ -677,7 +677,7 @@ return
 NS_NewRunnableFunction
 (
 "
-TaskQueueWrapper
+WebrtcTaskQueueWrapper
 :
 :
 CreateTaskRunner
@@ -1009,7 +1009,7 @@ mHasShutdown
 {
 false
 "
-TaskQueueWrapper
+WebrtcTaskQueueWrapper
 :
 :
 mHasShutdown
@@ -1026,7 +1026,7 @@ Deletion
 class
 DefaultDelete
 <
-TaskQueueWrapper
+WebrtcTaskQueueWrapper
 <
 Deletion
 >
@@ -1045,7 +1045,7 @@ operator
 (
 )
 (
-TaskQueueWrapper
+WebrtcTaskQueueWrapper
 <
 Deletion
 >
@@ -1093,12 +1093,12 @@ Deletion
 >
 UniquePtr
 <
-TaskQueueWrapper
+WebrtcTaskQueueWrapper
 <
 Deletion
 >
 >
-CreateTaskQueueWrapper
+CreateWebrtcTaskQueueWrapper
 (
 absl
 :
@@ -1164,7 +1164,7 @@ aSupportTailDispatch
 return
 MakeUnique
 <
-TaskQueueWrapper
+WebrtcTaskQueueWrapper
 <
 Deletion
 >
@@ -1301,7 +1301,7 @@ webrtc
 TaskQueueDeleter
 >
 (
-CreateTaskQueueWrapper
+CreateWebrtcTaskQueueWrapper
 <
 DeletionPolicy
 :

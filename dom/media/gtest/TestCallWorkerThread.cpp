@@ -165,7 +165,7 @@ CallWorkerThread
 (
 MakeUnique
 <
-TaskQueueWrapper
+WebrtcTaskQueueWrapper
 <
 DeletionPolicy
 :

@@ -137,7 +137,7 @@ h
 #
 include
 "
-TaskQueueWrapper
+WebrtcTaskQueueWrapper
 .
 h
 "
@@ -189,7 +189,7 @@ CallWorkerThread
 (
 UniquePtr
 <
-TaskQueueWrapper
+WebrtcTaskQueueWrapper
 <
 DeletionPolicy
 :
@@ -298,7 +298,7 @@ override
 const
 UniquePtr
 <
-TaskQueueWrapper
+WebrtcTaskQueueWrapper
 <
 DeletionPolicy
 :

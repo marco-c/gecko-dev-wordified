@@ -3317,7 +3317,7 @@ WrapUnique
 (
 taskQueueFactory
 .
-CreateTaskQueueWrapper
+CreateWebrtcTaskQueueWrapper
 <
 DeletionPolicy
 :
