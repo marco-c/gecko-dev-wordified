@@ -7239,6 +7239,8 @@ simpleConnectForm
 nsACString
 &
 output
+bool
+addTEHeader
 )
 {
 mSetInitialMaxBufferSizeAllowed
@@ -8108,6 +8110,9 @@ connections
 .
 if
 (
+addTEHeader
+&
+&
 !
 simpleConnectForm
 &

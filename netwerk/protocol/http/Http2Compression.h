@@ -1051,6 +1051,8 @@ simpleConnectForm
 nsACString
 &
 output
+bool
+addTEHeader
 )
 ;
 int64_t

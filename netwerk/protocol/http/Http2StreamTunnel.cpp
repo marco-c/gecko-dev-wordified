@@ -1852,6 +1852,7 @@ EmptyCString
 )
 true
 aCompressedData
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3962,6 +3963,7 @@ websocket
 _ns
 false
 aCompressedData
+true
 )
 ;
 NS_ENSURE_SUCCESS
