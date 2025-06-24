@@ -596,6 +596,9 @@ DIRS
 =
 [
 "
+installation_dir_layout
+"
+"
 pbproxy
 "
 "
