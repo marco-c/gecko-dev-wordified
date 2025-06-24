@@ -95,8 +95,6 @@ as
 mpu
 import
 mozversion
-import
-six
 from
 mozprofile
 import
@@ -318,14 +316,13 @@ POST_DELAY_DEBUG
 POST_DELAY_DEFAULT
 =
 30000
-six
-.
-add_metaclass
-(
-ABCMeta
-)
 class
 Perftest
+(
+metaclass
+=
+ABCMeta
+)
 :
     
 "

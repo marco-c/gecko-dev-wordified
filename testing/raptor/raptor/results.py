@@ -97,8 +97,6 @@ from
 pathlib
 import
 Path
-import
-six
 from
 logger
 .
@@ -217,14 +215,13 @@ car
 m
 "
 )
-six
-.
-add_metaclass
-(
-ABCMeta
-)
 class
 PerftestResultsHandler
+(
+metaclass
+=
+ABCMeta
+)
 :
     
 "

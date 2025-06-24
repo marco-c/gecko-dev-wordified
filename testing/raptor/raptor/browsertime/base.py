@@ -89,8 +89,6 @@ import
 mozcrash
 import
 mozprocess
-import
-six
 from
 benchmark
 import
@@ -163,16 +161,13 @@ for
 benchmark
 tests
 )
-six
-.
-add_metaclass
-(
-ABCMeta
-)
 class
 Browsertime
 (
 Perftest
+metaclass
+=
+ABCMeta
 )
 :
     
