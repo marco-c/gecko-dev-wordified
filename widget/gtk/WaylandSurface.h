@@ -2701,6 +2701,16 @@ return
 mCb
 ;
 }
+void
+Clear
+(
+)
+{
+mCb
+=
+nullptr
+;
+}
 }
 ;
 bool

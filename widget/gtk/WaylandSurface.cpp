@@ -3489,6 +3489,12 @@ mImageDescription
 wp_image_description_v1_destroy
 )
 ;
+mFrameCallbackHandler
+.
+Clear
+(
+)
+;
 mParentSurface
 =
 nullptr
