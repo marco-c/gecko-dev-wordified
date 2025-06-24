@@ -6878,10 +6878,6 @@ instead
 void
 LoadFromSourceChildren
 (
-const
-JSCallingLocation
-&
-aCallingLocation
 )
 ;
 /
@@ -6934,10 +6930,6 @@ algorithm
 void
 SelectResource
 (
-const
-JSCallingLocation
-&
-aCallingLocation
 )
 ;
 /
@@ -6967,10 +6959,6 @@ SelectResource
 void
 SelectResourceWrapper
 (
-const
-JSCallingLocation
-&
-aCallingLocation
 )
 ;
 /
@@ -7065,10 +7053,6 @@ algorithm
 MediaResult
 LoadResource
 (
-const
-JSCallingLocation
-&
-aCallingLocation
 )
 ;
 /
@@ -7490,10 +7474,6 @@ ResumeLoad
 (
 PreloadAction
 aAction
-const
-JSCallingLocation
-&
-aCallingLocation
 )
 ;
 /
@@ -7569,10 +7549,6 @@ action
 void
 UpdatePreloadAction
 (
-const
-JSCallingLocation
-&
-aCallingLocation
 )
 ;
 /
