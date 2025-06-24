@@ -4961,6 +4961,9 @@ return
 true
 ;
 }
+#
+ifndef
+NIGHTLY_BUILD
 DetectJsHacks
 (
 )
@@ -5021,6 +5024,8 @@ return
 true
 ;
 }
+#
+endif
 if
 (
 XRE_IsE10sParentProcess
