@@ -267,10 +267,10 @@ cpu
 '
 nominal
 '
-)
 0
 .
 2
+)
 ;
 await
 syncObserver
