@@ -28,16 +28,10 @@ use
 "
 "
 "
-from
-__future__
-import
-absolute_import
 import
 re
 from
-sentry_sdk
-.
-_types
+typing
 import
 TYPE_CHECKING
 if
@@ -208,9 +202,6 @@ return
 regex
 class
 RavenResolver
-(
-object
-)
 :
     
 _new_style_group_matcher
@@ -603,11 +594,14 @@ group
 (
 2
 )
+str
+(
 pattern
 .
 pattern
 .
 _route
+)
             
 )
         

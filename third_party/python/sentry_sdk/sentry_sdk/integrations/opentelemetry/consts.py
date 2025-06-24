@@ -3,14 +3,7 @@ opentelemetry
 .
 context
 import
-(
-#
-type
-:
-ignore
-    
 create_key
-)
 SENTRY_TRACE_KEY
 =
 create_key

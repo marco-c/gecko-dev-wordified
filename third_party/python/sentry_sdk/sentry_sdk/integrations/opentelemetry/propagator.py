@@ -2,20 +2,12 @@ from
 opentelemetry
 import
 trace
-#
-type
-:
-ignore
 from
 opentelemetry
 .
 context
 import
 (
-#
-type
-:
-ignore
     
 Context
     
@@ -31,10 +23,6 @@ propagators
 textmap
 import
 (
-#
-type
-:
-ignore
     
 CarrierT
     
@@ -54,10 +42,6 @@ opentelemetry
 trace
 import
 (
-#
-type
-:
-ignore
     
 NonRecordingSpan
     
@@ -112,9 +96,7 @@ import
 Baggage
 extract_sentrytrace_data
 from
-sentry_sdk
-.
-_types
+typing
 import
 TYPE_CHECKING
 if
@@ -125,10 +107,6 @@ from
 typing
 import
 Optional
-    
-from
-typing
-import
 Set
 class
 SentryPropagator
@@ -136,10 +114,6 @@ SentryPropagator
 TextMapPropagator
 )
 :
-#
-type
-:
-ignore
     
 "
 "
@@ -189,6 +163,9 @@ Optional
 Context
 ]
 Getter
+[
+CarrierT
+]
 )
 -
 >
@@ -470,6 +447,9 @@ Optional
 Context
 ]
 Setter
+[
+CarrierT
+]
 )
 -
 >
@@ -582,17 +562,25 @@ if
 baggage
 :
                 
+baggage_data
+=
+baggage
+.
+serialize
+(
+)
+                
+if
+baggage_data
+:
+                    
 setter
 .
 set
 (
 carrier
 BAGGAGE_HEADER_NAME
-baggage
-.
-serialize
-(
-)
+baggage_data
 )
     
 property

@@ -1,9 +1,7 @@
-from
-__future__
-import
-absolute_import
 import
 weakref
+import
+sentry_sdk
 from
 sentry_sdk
 .
@@ -19,14 +17,9 @@ continue_trace
 from
 sentry_sdk
 .
-hub
-import
-Hub
-from
-sentry_sdk
-.
 integrations
 import
+_check_minimum_version
 DidNotEnable
 Integration
 from
@@ -42,7 +35,7 @@ sentry_sdk
 .
 tracing
 import
-TRANSACTION_SOURCE_TASK
+TransactionSource
 from
 sentry_sdk
 .
@@ -51,6 +44,8 @@ import
 (
     
 capture_internal_exceptions
+    
+ensure_integration_enabled
     
 event_from_exception
     
@@ -111,9 +106,7 @@ installed
 "
 )
 from
-sentry_sdk
-.
-_types
+typing
 import
 TYPE_CHECKING
 if
@@ -160,6 +153,19 @@ identifier
 rq
 "
     
+origin
+=
+f
+"
+auto
+.
+queue
+.
+{
+identifier
+}
+"
+    
 staticmethod
     
 def
@@ -184,53 +190,10 @@ parse_version
 RQ_VERSION
 )
         
-if
+_check_minimum_version
+(
+RqIntegration
 version
-is
-None
-:
-            
-raise
-DidNotEnable
-(
-"
-Unparsable
-RQ
-version
-:
-{
-}
-"
-.
-format
-(
-RQ_VERSION
-)
-)
-        
-if
-version
-<
-(
-0
-6
-)
-:
-            
-raise
-DidNotEnable
-(
-"
-RQ
-0
-.
-6
-or
-newer
-is
-required
-.
-"
 )
         
 old_perform_job
@@ -238,6 +201,12 @@ old_perform_job
 Worker
 .
 perform_job
+        
+ensure_integration_enabled
+(
+RqIntegration
+old_perform_job
+)
         
 def
 sentry_patched_perform_job
@@ -268,55 +237,10 @@ Any
 >
 bool
             
-hub
-=
-Hub
-.
-current
-            
-integration
-=
-hub
-.
-get_integration
-(
-RqIntegration
-)
-            
-if
-integration
-is
-None
-:
-                
-return
-old_perform_job
-(
-self
-job
-*
-args
-*
-*
-kwargs
-)
-            
-client
-=
-hub
-.
-client
-            
-assert
-client
-is
-not
-None
-            
 with
-hub
+sentry_sdk
 .
-push_scope
+new_scope
 (
 )
 as
@@ -379,7 +303,15 @@ task
                     
 source
 =
-TRANSACTION_SOURCE_TASK
+TransactionSource
+.
+TASK
+                    
+origin
+=
+RqIntegration
+.
+origin
                 
 )
                 
@@ -398,12 +330,13 @@ job
 func_name
                 
 with
-hub
+sentry_sdk
 .
 start_transaction
 (
                     
 transaction
+                    
 custom_sampling_context
 =
 {
@@ -469,7 +402,11 @@ sent
 out
 .
                 
-client
+sentry_sdk
+.
+get_client
+(
+)
 .
 flush
 (
@@ -519,29 +456,34 @@ Any
 >
 Any
             
-#
-Note
-the
-order
-of
-the
-or
-here
-is
-important
-            
-#
-because
-calling
+retry
+=
+(
+                
+hasattr
+(
+job
+"
+retries_left
+"
+)
+                
+and
 job
 .
-is_failed
-will
-change
-_status
+retries_left
+                
+and
+job
 .
+retries_left
+>
+0
             
-if
+)
+            
+failed
+=
 job
 .
 _status
@@ -554,6 +496,12 @@ or
 job
 .
 is_failed
+            
+if
+failed
+and
+not
+retry
 :
                 
 _capture_exception
@@ -585,6 +533,12 @@ Queue
 .
 enqueue_job
         
+ensure_integration_enabled
+(
+RqIntegration
+old_enqueue_job
+)
+        
 def
 sentry_patched_enqueue_job
 (
@@ -610,27 +564,15 @@ Any
 >
 Any
             
-hub
+scope
 =
-Hub
+sentry_sdk
 .
-current
+get_current_scope
+(
+)
             
 if
-hub
-.
-get_integration
-(
-RqIntegration
-)
-is
-not
-None
-:
-                
-if
-hub
-.
 scope
 .
 span
@@ -638,7 +580,7 @@ is
 not
 None
 :
-                    
+                
 job
 .
 meta
@@ -650,13 +592,13 @@ _sentry_trace_headers
 =
 dict
 (
-                        
-hub
+                    
+scope
 .
 iter_trace_propagation_headers
 (
 )
-                    
+                
 )
             
 return
@@ -934,48 +876,13 @@ Any
 >
 None
     
-hub
+client
 =
-Hub
+sentry_sdk
 .
-current
-    
-if
-hub
-.
-get_integration
+get_client
 (
-RqIntegration
 )
-is
-None
-:
-        
-return
-    
-#
-If
-an
-integration
-is
-there
-a
-client
-has
-to
-be
-there
-.
-    
-client
-=
-hub
-.
-client
-#
-type
-:
-Any
     
 event
 hint
@@ -1010,7 +917,7 @@ False
     
 )
     
-hub
+sentry_sdk
 .
 capture_event
 (

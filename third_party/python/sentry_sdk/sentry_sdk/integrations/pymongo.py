@@ -1,25 +1,17 @@
-from
-__future__
-import
-absolute_import
 import
 copy
-from
-sentry_sdk
 import
-Hub
+json
+import
+sentry_sdk
 from
 sentry_sdk
 .
 consts
 import
+SPANSTATUS
 SPANDATA
-from
-sentry_sdk
-.
-hub
-import
-_should_send_default_pii
+OP
 from
 sentry_sdk
 .
@@ -27,6 +19,12 @@ integrations
 import
 DidNotEnable
 Integration
+from
+sentry_sdk
+.
+scope
+import
+should_send_default_pii
 from
 sentry_sdk
 .
@@ -39,12 +37,6 @@ sentry_sdk
 utils
 import
 capture_internal_exceptions
-from
-sentry_sdk
-.
-_types
-import
-TYPE_CHECKING
 try
 :
     
@@ -65,6 +57,10 @@ not
 installed
 "
 )
+from
+typing
+import
+TYPE_CHECKING
 if
 TYPE_CHECKING
 :
@@ -631,14 +627,12 @@ CommandStartedEvent
 >
 None
         
-hub
-=
-Hub
-.
-current
-        
 if
-hub
+sentry_sdk
+.
+get_client
+(
+)
 .
 get_integration
 (
@@ -700,14 +694,6 @@ signature
 None
 )
             
-op
-=
-"
-db
-.
-query
-"
-            
 tags
 =
 {
@@ -737,6 +723,19 @@ DB_OPERATION
 event
 .
 command_name
+                
+SPANDATA
+.
+DB_MONGODB_COLLECTION
+:
+command
+.
+get
+(
+event
+.
+command_name
+)
             
 }
             
@@ -893,7 +892,7 @@ pass
             
 if
 not
-_should_send_default_pii
+should_send_default_pii
 (
 )
 :
@@ -907,33 +906,39 @@ command
             
 query
 =
-"
-{
-}
-{
-}
-"
+json
 .
-format
+dumps
 (
-event
-.
-command_name
 command
+default
+=
+str
 )
             
 span
 =
-hub
+sentry_sdk
 .
 start_span
 (
+                
 op
 =
-op
-description
+OP
+.
+DB
+                
+name
 =
 query
+                
+origin
+=
+PyMongoIntegration
+.
+origin
+            
 )
             
 for
@@ -947,9 +952,41 @@ items
 )
 :
                 
+#
+set
+the
+tag
+for
+backwards
+-
+compatibility
+.
+                
+#
+TODO
+:
+remove
+the
+set_tag
+call
+in
+the
+next
+major
+release
+!
+                
 span
 .
 set_tag
+(
+tag
+value
+)
+                
+span
+.
+set_data
 (
 tag
 value
@@ -980,10 +1017,11 @@ capture_internal_exceptions
 )
 :
                 
-hub
+sentry_sdk
 .
 add_breadcrumb
 (
+                    
 message
 =
 query
@@ -994,10 +1032,13 @@ query
 "
 type
 =
-op
+OP
+.
+DB
 data
 =
 tags
+                
 )
             
 self
@@ -1036,14 +1077,12 @@ CommandFailedEvent
 >
 None
         
-hub
-=
-Hub
-.
-current
-        
 if
-hub
+sentry_sdk
+.
+get_client
+(
+)
 .
 get_integration
 (
@@ -1078,9 +1117,9 @@ span
 .
 set_status
 (
-"
-internal_error
-"
+SPANSTATUS
+.
+INTERNAL_ERROR
 )
             
 span
@@ -1116,14 +1155,12 @@ CommandSucceededEvent
 >
 None
         
-hub
-=
-Hub
-.
-current
-        
 if
-hub
+sentry_sdk
+.
+get_client
+(
+)
 .
 get_integration
 (
@@ -1158,9 +1195,9 @@ span
 .
 set_status
 (
-"
-ok
-"
+SPANSTATUS
+.
+OK
 )
             
 span
@@ -1188,6 +1225,19 @@ identifier
 =
 "
 pymongo
+"
+    
+origin
+=
+f
+"
+auto
+.
+db
+.
+{
+identifier
+}
 "
     
 staticmethod

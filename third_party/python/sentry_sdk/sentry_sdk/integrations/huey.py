@@ -1,29 +1,11 @@
-from
-__future__
-import
-absolute_import
 import
 sys
 from
 datetime
 import
 datetime
-from
-sentry_sdk
-.
-_compat
 import
-reraise
-from
 sentry_sdk
-.
-_types
-import
-TYPE_CHECKING
-from
-sentry_sdk
-import
-Hub
 from
 sentry_sdk
 .
@@ -38,12 +20,7 @@ sentry_sdk
 consts
 import
 OP
-from
-sentry_sdk
-.
-hub
-import
-_should_send_default_pii
+SPANSTATUS
 from
 sentry_sdk
 .
@@ -51,6 +28,12 @@ integrations
 import
 DidNotEnable
 Integration
+from
+sentry_sdk
+.
+scope
+import
+should_send_default_pii
 from
 sentry_sdk
 .
@@ -62,7 +45,7 @@ BAGGAGE_HEADER_NAME
     
 SENTRY_TRACE_HEADER_NAME
     
-TRANSACTION_SOURCE_TASK
+TransactionSource
 )
 from
 sentry_sdk
@@ -73,10 +56,18 @@ import
     
 capture_internal_exceptions
     
+ensure_integration_enabled
+    
 event_from_exception
     
 SENSITIVE_DATA_SUBSTITUTE
+    
+reraise
 )
+from
+typing
+import
+TYPE_CHECKING
 if
 TYPE_CHECKING
 :
@@ -179,6 +170,19 @@ identifier
 huey
 "
     
+origin
+=
+f
+"
+auto
+.
+queue
+.
+{
+identifier
+}
+"
+    
 staticmethod
     
 def
@@ -224,6 +228,12 @@ Huey
 .
 enqueue
     
+ensure_integration_enabled
+(
+HueyIntegration
+old_enqueue
+)
+    
 def
 _sentry_enqueue
 (
@@ -250,45 +260,30 @@ ResultGroup
 ]
 ]
         
-hub
-=
-Hub
-.
-current
-        
-if
-hub
-.
-get_integration
-(
-HueyIntegration
-)
-is
-None
-:
-            
-return
-old_enqueue
-(
-self
-task
-)
-        
 with
-hub
+sentry_sdk
 .
 start_span
 (
+            
 op
 =
 OP
 .
 QUEUE_SUBMIT_HUEY
-description
+            
+name
 =
 task
 .
 name
+            
+origin
+=
+HueyIntegration
+.
+origin
+        
 )
 :
             
@@ -498,7 +493,7 @@ task
 args
                     
 if
-_should_send_default_pii
+should_send_default_pii
 (
 )
                     
@@ -518,7 +513,7 @@ task
 kwargs
                     
 if
-_should_send_default_pii
+should_send_default_pii
 (
 )
                     
@@ -567,11 +562,13 @@ ExcInfo
 >
 None
     
-hub
+scope
 =
-Hub
+sentry_sdk
 .
-current
+get_current_scope
+(
+)
     
 if
 exc_info
@@ -582,32 +579,28 @@ in
 HUEY_CONTROL_FLOW_EXCEPTIONS
 :
         
-hub
-.
 scope
 .
 transaction
 .
 set_status
 (
-"
-aborted
-"
+SPANSTATUS
+.
+ABORTED
 )
         
 return
     
-hub
-.
 scope
 .
 transaction
 .
 set_status
 (
-"
-internal_error
-"
+SPANSTATUS
+.
+INTERNAL_ERROR
 )
     
 event
@@ -620,17 +613,13 @@ exc_info
         
 client_options
 =
-hub
+sentry_sdk
 .
-client
+get_client
+(
+)
 .
 options
-if
-hub
-.
-client
-else
-None
         
 mechanism
 =
@@ -651,7 +640,7 @@ False
     
 )
     
-hub
+scope
 .
 capture_event
 (
@@ -677,6 +666,12 @@ F
 >
 F
     
+ensure_integration_enabled
+(
+HueyIntegration
+func
+)
+    
 def
 _sentry_execute
 (
@@ -701,33 +696,6 @@ Any
 -
 >
 Any
-        
-hub
-=
-Hub
-.
-current
-        
-if
-hub
-.
-get_integration
-(
-HueyIntegration
-)
-is
-None
-:
-            
-return
-func
-(
-*
-args
-*
-*
-kwargs
-)
         
 try
 :
@@ -796,6 +764,12 @@ Huey
 .
 _execute
     
+ensure_integration_enabled
+(
+HueyIntegration
+old_execute
+)
+    
 def
 _sentry_execute
 (
@@ -822,35 +796,10 @@ datetime
 >
 Any
         
-hub
-=
-Hub
-.
-current
-        
-if
-hub
-.
-get_integration
-(
-HueyIntegration
-)
-is
-None
-:
-            
-return
-old_execute
-(
-self
-task
-timestamp
-)
-        
 with
-hub
+sentry_sdk
 .
-push_scope
+isolation_scope
 (
 )
 as
@@ -925,7 +874,15 @@ QUEUE_TASK_HUEY
                 
 source
 =
-TRANSACTION_SOURCE_TASK
+TransactionSource
+.
+TASK
+                
+origin
+=
+HueyIntegration
+.
+origin
             
 )
             
@@ -933,9 +890,9 @@ transaction
 .
 set_status
 (
-"
-ok
-"
+SPANSTATUS
+.
+OK
 )
             
 if
@@ -968,7 +925,7 @@ _sentry_is_patched
 True
             
 with
-hub
+sentry_sdk
 .
 start_transaction
 (

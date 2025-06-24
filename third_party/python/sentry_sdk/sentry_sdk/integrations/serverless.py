@@ -1,33 +1,20 @@
 import
 sys
 from
-sentry_sdk
-.
-hub
+functools
 import
-Hub
+wraps
+import
+sentry_sdk
 from
 sentry_sdk
 .
 utils
 import
 event_from_exception
-from
-sentry_sdk
-.
-_compat
-import
 reraise
 from
-sentry_sdk
-.
-_functools
-import
-wraps
-from
-sentry_sdk
-.
-_types
+typing
 import
 TYPE_CHECKING
 if
@@ -247,26 +234,15 @@ Any
 Any
             
 with
-Hub
-(
-Hub
+sentry_sdk
 .
-current
-)
-as
-hub
-:
-                
-with
-hub
-.
-configure_scope
+isolation_scope
 (
 )
 as
 scope
 :
-                    
+                
 scope
 .
 clear_breadcrumbs
@@ -301,7 +277,9 @@ if
 flush
 :
                         
-_flush_client
+sentry_sdk
+.
+flush
 (
 )
         
@@ -352,19 +330,20 @@ exc_info
 (
 )
     
-hub
+client
 =
-Hub
+sentry_sdk
 .
-current
+get_client
+(
+)
     
 if
-hub
-.
 client
-is
-not
-None
+.
+is_active
+(
+)
 :
         
 event
@@ -377,8 +356,6 @@ exc_info
             
 client_options
 =
-hub
-.
 client
 .
 options
@@ -402,7 +379,7 @@ False
         
 )
         
-hub
+sentry_sdk
 .
 capture_event
 (
@@ -416,27 +393,4 @@ reraise
 (
 *
 exc_info
-)
-def
-_flush_client
-(
-)
-:
-    
-#
-type
-:
-(
-)
--
->
-None
-    
-return
-Hub
-.
-current
-.
-flush
-(
 )

@@ -1,4 +1,6 @@
 import
+functools
+import
 sys
 from
 copy
@@ -7,11 +9,15 @@ deepcopy
 from
 datetime
 import
+datetime
 timedelta
+timezone
 from
 os
 import
 environ
+import
+sentry_sdk
 from
 sentry_sdk
 .
@@ -24,44 +30,6 @@ sentry_sdk
 consts
 import
 OP
-from
-sentry_sdk
-.
-hub
-import
-Hub
-_should_send_default_pii
-from
-sentry_sdk
-.
-tracing
-import
-TRANSACTION_SOURCE_COMPONENT
-from
-sentry_sdk
-.
-_compat
-import
-datetime_utcnow
-duration_in_milliseconds
-reraise
-from
-sentry_sdk
-.
-utils
-import
-(
-    
-AnnotatedValue
-    
-capture_internal_exceptions
-    
-event_from_exception
-    
-logger
-    
-TimeoutThread
-)
 from
 sentry_sdk
 .
@@ -79,7 +47,36 @@ _filter_headers
 from
 sentry_sdk
 .
-_types
+scope
+import
+should_send_default_pii
+from
+sentry_sdk
+.
+tracing
+import
+TransactionSource
+from
+sentry_sdk
+.
+utils
+import
+(
+    
+AnnotatedValue
+    
+capture_internal_exceptions
+    
+event_from_exception
+    
+logger
+    
+TimeoutThread
+    
+reraise
+)
+from
+typing
 import
 TYPE_CHECKING
 #
@@ -107,11 +104,6 @@ MILLIS_TO_SECONDS
 if
 TYPE_CHECKING
 :
-    
-from
-datetime
-import
-datetime
     
 from
 typing
@@ -176,6 +168,13 @@ F
 >
 F
     
+functools
+.
+wraps
+(
+func
+)
+    
 def
 sentry_func
 (
@@ -205,15 +204,17 @@ Any
 >
 Any
         
-hub
+client
 =
-Hub
+sentry_sdk
 .
-current
+get_client
+(
+)
         
 integration
 =
-hub
+client
 .
 get_integration
 (
@@ -237,30 +238,6 @@ args
 *
 kwargs
 )
-        
-#
-If
-an
-integration
-is
-there
-a
-client
-has
-to
-be
-there
-.
-        
-client
-=
-hub
-.
-client
-#
-type
-:
-Any
         
 configured_time
 =
@@ -321,14 +298,19 @@ configured_time
         
 initial_time
 =
-datetime_utcnow
+datetime
+.
+now
 (
+timezone
+.
+utc
 )
         
 with
-hub
+sentry_sdk
 .
-push_scope
+isolation_scope
 (
 )
 as
@@ -478,7 +460,15 @@ FUNCTION_NAME
                 
 source
 =
-TRANSACTION_SOURCE_COMPONENT
+TransactionSource
+.
+COMPONENT
+                
+origin
+=
+GcpIntegration
+.
+origin
             
 )
             
@@ -568,7 +558,7 @@ gcp_event
 }
             
 with
-hub
+sentry_sdk
 .
 start_transaction
 (
@@ -641,7 +631,7 @@ False
                     
 )
                     
-hub
+sentry_sdk
 .
 capture_event
 (
@@ -677,7 +667,7 @@ the
 event
 queue
                     
-hub
+client
 .
 flush
 (
@@ -700,6 +690,19 @@ identifier
 =
 "
 gcp
+"
+    
+origin
+=
+f
+"
+auto
+.
+function
+.
+{
+identifier
+}
 "
     
 def
@@ -851,8 +854,13 @@ Event
         
 final_time
 =
-datetime_utcnow
+datetime
+.
+now
 (
+timezone
+.
+utc
 )
         
 time_diff
@@ -863,9 +871,13 @@ initial_time
         
 execution_duration_in_millis
 =
-duration_in_milliseconds
-(
 time_diff
+/
+timedelta
+(
+milliseconds
+=
+1
 )
         
 extra
@@ -1111,7 +1123,7 @@ headers
 )
         
 if
-_should_send_default_pii
+should_send_default_pii
 (
 )
 :

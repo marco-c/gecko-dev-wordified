@@ -1,13 +1,5 @@
-from
-sentry_sdk
 import
-Hub
-from
 sentry_sdk
-.
-_types
-import
-MYPY
 from
 sentry_sdk
 .
@@ -20,8 +12,22 @@ sentry_sdk
 integrations
 import
 DidNotEnable
+from
+sentry_sdk
+.
+integrations
+.
+grpc
+.
+consts
+import
+SPAN_ORIGIN
+from
+typing
+import
+TYPE_CHECKING
 if
-MYPY
+TYPE_CHECKING
 :
     
 from
@@ -133,12 +139,6 @@ Message
 >
 _UnaryOutcome
         
-hub
-=
-Hub
-.
-current
-        
 method
 =
 client_call_details
@@ -146,7 +146,7 @@ client_call_details
 method
         
 with
-hub
+sentry_sdk
 .
 start_span
 (
@@ -156,7 +156,8 @@ op
 OP
 .
 GRPC_CLIENT
-description
+            
+name
 =
 "
 unary
@@ -168,6 +169,10 @@ s
 "
 %
 method
+            
+origin
+=
+SPAN_ORIGIN
         
 )
 as
@@ -201,11 +206,10 @@ client_call_details
 =
 self
 .
-_update_client_call_details_metadata_from_hub
+_update_client_call_details_metadata_from_scope
 (
                 
 client_call_details
-hub
             
 )
             
@@ -280,12 +284,6 @@ Message
 Call
 ]
         
-hub
-=
-Hub
-.
-current
-        
 method
 =
 client_call_details
@@ -293,7 +291,7 @@ client_call_details
 method
         
 with
-hub
+sentry_sdk
 .
 start_span
 (
@@ -303,7 +301,8 @@ op
 OP
 .
 GRPC_CLIENT
-description
+            
+name
 =
 "
 unary
@@ -315,6 +314,10 @@ s
 "
 %
 method
+            
+origin
+=
+SPAN_ORIGIN
         
 )
 as
@@ -348,11 +351,10 @@ client_call_details
 =
 self
 .
-_update_client_call_details_metadata_from_hub
+_update_client_call_details_metadata_from_scope
 (
                 
 client_call_details
-hub
             
 )
             
@@ -406,10 +408,9 @@ response
 staticmethod
     
 def
-_update_client_call_details_metadata_from_hub
+_update_client_call_details_metadata_from_scope
 (
 client_call_details
-hub
 )
 :
         
@@ -418,7 +419,6 @@ type
 :
 (
 ClientCallDetails
-Hub
 )
 -
 >
@@ -445,10 +445,19 @@ else
 )
         
 for
+(
+            
 key
+            
 value
+        
+)
 in
-hub
+sentry_sdk
+.
+get_current_scope
+(
+)
 .
 iter_trace_propagation_headers
 (

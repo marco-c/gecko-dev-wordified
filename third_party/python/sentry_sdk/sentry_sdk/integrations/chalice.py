@@ -1,17 +1,11 @@
 import
 sys
 from
-sentry_sdk
-.
-_compat
+functools
 import
-reraise
-from
-sentry_sdk
-.
-hub
+wraps
 import
-Hub
+sentry_sdk
 from
 sentry_sdk
 .
@@ -32,7 +26,7 @@ sentry_sdk
 .
 tracing
 import
-TRANSACTION_SOURCE_COMPONENT
+TransactionSource
 from
 sentry_sdk
 .
@@ -45,30 +39,32 @@ capture_internal_exceptions
 event_from_exception
     
 parse_version
+    
+reraise
 )
-from
-sentry_sdk
-.
-_types
-import
-TYPE_CHECKING
-from
-sentry_sdk
-.
-_functools
-import
-wraps
+try
+:
+    
 import
 chalice
 #
 type
 :
 ignore
+    
+from
+chalice
+import
+__version__
+as
+CHALICE_VERSION
+    
 from
 chalice
 import
 Chalice
 ChaliceViewError
+    
 from
 chalice
 .
@@ -81,6 +77,24 @@ ChaliceEventSourceHandler
 type
 :
 ignore
+except
+ImportError
+:
+    
+raise
+DidNotEnable
+(
+"
+Chalice
+is
+not
+installed
+"
+)
+from
+typing
+import
+TYPE_CHECKING
 if
 TYPE_CHECKING
 :
@@ -122,29 +136,6 @@ Callable
 Any
 ]
 )
-try
-:
-    
-from
-chalice
-import
-__version__
-as
-CHALICE_VERSION
-except
-ImportError
-:
-    
-raise
-DidNotEnable
-(
-"
-Chalice
-is
-not
-installed
-"
-)
 class
 EventSourceHandler
 (
@@ -176,26 +167,18 @@ Any
 >
 Any
         
-hub
-=
-Hub
-.
-current
-        
 client
 =
-hub
+sentry_sdk
 .
-client
-#
-type
-:
-Any
+get_client
+(
+)
         
 with
-hub
+sentry_sdk
 .
-push_scope
+isolation_scope
 (
 )
 as
@@ -288,7 +271,7 @@ False
                 
 )
                 
-hub
+sentry_sdk
 .
 capture_event
 (
@@ -298,7 +281,7 @@ hint
 hint
 )
                 
-hub
+client
 .
 flush
 (
@@ -356,26 +339,18 @@ Any
 >
 Any
         
-hub
-=
-Hub
-.
-current
-        
 client
 =
-hub
+sentry_sdk
 .
-client
-#
-type
-:
-Any
+get_client
+(
+)
         
 with
-hub
+sentry_sdk
 .
-push_scope
+isolation_scope
 (
 )
 as
@@ -411,7 +386,9 @@ function_name
                     
 source
 =
-TRANSACTION_SOURCE_COMPONENT
+TransactionSource
+.
+COMPONENT
                 
 )
                 
@@ -509,7 +486,7 @@ False
                 
 )
                 
-hub
+sentry_sdk
 .
 capture_event
 (
@@ -519,7 +496,7 @@ hint
 hint
 )
                 
-hub
+client
 .
 flush
 (

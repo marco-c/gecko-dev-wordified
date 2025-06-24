@@ -1,20 +1,11 @@
-from
-__future__
-import
-absolute_import
 import
 ast
+import
+sentry_sdk
 from
 sentry_sdk
 import
-Hub
 serializer
-from
-sentry_sdk
-.
-_types
-import
-TYPE_CHECKING
 from
 sentry_sdk
 .
@@ -35,6 +26,10 @@ utils
 import
 walk_exception_chain
 iter_stacks
+from
+typing
+import
+TYPE_CHECKING
 if
 TYPE_CHECKING
 :
@@ -187,9 +182,11 @@ Event
 ]
             
 if
-Hub
+sentry_sdk
 .
-current
+get_client
+(
+)
 .
 get_integration
 (
@@ -834,7 +831,8 @@ reverse
 True
 )
     
-return
+vars
+=
 {
         
 atok
@@ -862,3 +860,14 @@ MAX_DATABAG_BREADTH
 ]
     
 }
+    
+return
+serializer
+.
+serialize
+(
+vars
+is_vars
+=
+True
+)

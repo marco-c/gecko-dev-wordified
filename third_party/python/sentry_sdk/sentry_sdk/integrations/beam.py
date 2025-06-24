@@ -1,36 +1,13 @@
-from
-__future__
-import
-absolute_import
 import
 sys
 import
 types
 from
-sentry_sdk
-.
-_functools
+functools
 import
 wraps
-from
-sentry_sdk
-.
-hub
 import
-Hub
-from
 sentry_sdk
-.
-_compat
-import
-reraise
-from
-sentry_sdk
-.
-utils
-import
-capture_internal_exceptions
-event_from_exception
 from
 sentry_sdk
 .
@@ -48,7 +25,20 @@ ignore_logger
 from
 sentry_sdk
 .
-_types
+utils
+import
+(
+    
+capture_internal_exceptions
+    
+ensure_integration_enabled
+    
+event_from_exception
+    
+reraise
+)
+from
+typing
 import
 TYPE_CHECKING
 if
@@ -73,19 +63,7 @@ TypeVar
 from
 typing
 import
-Optional
-    
-from
-typing
-import
 Callable
-    
-from
-sentry_sdk
-.
-client
-import
-Client
     
 from
 sentry_sdk
@@ -681,30 +659,9 @@ get
 exceptions
 .
     
-Pass
-the
-client
-on
-to
-raise_exception
-so
-it
-can
-get
-rebinded
-.
-    
 "
 "
 "
-    
-client
-=
-Hub
-.
-current
-.
-client
     
 wraps
 (
@@ -756,7 +713,6 @@ Exception
             
 raise_exception
 (
-client
 )
         
 if
@@ -777,7 +733,6 @@ return
 _wrap_generator_call
 (
 gen
-client
 )
     
 setattr
@@ -793,11 +748,14 @@ _inner
 type
 :
 ignore
+ensure_integration_enabled
+(
+BeamIntegration
+)
 def
 _capture_exception
 (
 exc_info
-hub
 )
 :
     
@@ -806,7 +764,6 @@ type
 :
 (
 ExcInfo
-Hub
 )
 -
 >
@@ -827,36 +784,13 @@ Sentry
 "
 "
     
-integration
+client
 =
-hub
+sentry_sdk
 .
-get_integration
+get_client
 (
-BeamIntegration
 )
-    
-if
-integration
-is
-None
-:
-        
-return
-    
-client
-=
-hub
-.
-client
-    
-if
-client
-is
-None
-:
-        
-return
     
 event
 hint
@@ -891,7 +825,7 @@ False
     
 )
     
-hub
+sentry_sdk
 .
 capture_event
 (
@@ -903,7 +837,6 @@ hint
 def
 raise_exception
 (
-client
 )
 :
     
@@ -911,10 +844,6 @@ client
 type
 :
 (
-Optional
-[
-Client
-]
 )
 -
 >
@@ -928,42 +857,10 @@ Raise
 an
 exception
 .
-If
-the
-client
-is
-not
-in
-the
-hub
-rebind
-it
-.
     
 "
 "
 "
-    
-hub
-=
-Hub
-.
-current
-    
-if
-hub
-.
-client
-is
-None
-:
-        
-hub
-.
-bind_client
-(
-client
-)
     
 exc_info
 =
@@ -982,7 +879,6 @@ capture_internal_exceptions
 _capture_exception
 (
 exc_info
-hub
 )
     
 reraise
@@ -994,7 +890,6 @@ def
 _wrap_generator_call
 (
 gen
-client
 )
 :
     
@@ -1005,10 +900,6 @@ type
 Iterator
 [
 T
-]
-Optional
-[
-Client
 ]
 )
 -
@@ -1060,5 +951,4 @@ Exception
             
 raise_exception
 (
-client
 )

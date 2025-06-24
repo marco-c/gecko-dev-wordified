@@ -3,6 +3,12 @@ sys
 import
 weakref
 from
+functools
+import
+wraps
+import
+sentry_sdk
+from
 sentry_sdk
 .
 api
@@ -11,29 +17,26 @@ continue_trace
 from
 sentry_sdk
 .
-_compat
-import
-reraise
-from
-sentry_sdk
-.
 consts
 import
 OP
+SPANSTATUS
 SPANDATA
-from
-sentry_sdk
-.
-hub
-import
-Hub
 from
 sentry_sdk
 .
 integrations
 import
+(
+    
+_DEFAULT_FAILED_REQUEST_STATUS_CODES
+    
+_check_minimum_version
+    
 Integration
+    
 DidNotEnable
+)
 from
 sentry_sdk
 .
@@ -47,7 +50,7 @@ sentry_sdk
 .
 sessions
 import
-auto_session_tracking
+track_session
 from
 sentry_sdk
 .
@@ -72,7 +75,7 @@ BAGGAGE_HEADER_NAME
     
 SOURCE_FOR_STYLE
     
-TRANSACTION_SOURCE_ROUTE
+TransactionSource
 )
 from
 sentry_sdk
@@ -89,6 +92,8 @@ import
     
 capture_internal_exceptions
     
+ensure_integration_enabled
+    
 event_from_exception
     
 logger
@@ -96,6 +101,8 @@ logger
 parse_url
     
 parse_version
+    
+reraise
     
 transaction_from_function
     
@@ -148,9 +155,7 @@ installed
 "
 )
 from
-sentry_sdk
-.
-_types
+typing
 import
 TYPE_CHECKING
 if
@@ -176,6 +181,13 @@ aiohttp
 import
 TraceRequestStartParams
 TraceRequestEndParams
+    
+from
+collections
+.
+abc
+import
+Set
     
 from
 types
@@ -239,15 +251,48 @@ identifier
 aiohttp
 "
     
+origin
+=
+f
+"
+auto
+.
+http
+.
+{
+identifier
+}
+"
+    
 def
 __init__
 (
+        
 self
+        
 transaction_style
 =
 "
 handler_name
 "
+#
+type
+:
+str
+        
+*
+        
+failed_request_status_codes
+=
+_DEFAULT_FAILED_REQUEST_STATUS_CODES
+#
+type
+:
+Set
+[
+int
+]
+    
 )
 :
         
@@ -255,7 +300,9 @@ handler_name
 type
 :
 (
-str
+.
+.
+.
 )
 -
 >
@@ -302,6 +349,12 @@ self
 transaction_style
 =
 transaction_style
+        
+self
+.
+_failed_request_status_codes
+=
+failed_request_status_codes
     
 staticmethod
     
@@ -327,52 +380,10 @@ parse_version
 AIOHTTP_VERSION
 )
         
-if
+_check_minimum_version
+(
+AioHttpIntegration
 version
-is
-None
-:
-            
-raise
-DidNotEnable
-(
-"
-Unparsable
-AIOHTTP
-version
-:
-{
-}
-"
-.
-format
-(
-AIOHTTP_VERSION
-)
-)
-        
-if
-version
-<
-(
-3
-4
-)
-:
-            
-raise
-DidNotEnable
-(
-"
-AIOHTTP
-3
-.
-4
-or
-newer
-required
-.
-"
 )
         
 if
@@ -473,19 +484,21 @@ Any
 >
 Any
             
-hub
+integration
 =
-Hub
+sentry_sdk
 .
-current
-            
-if
-hub
+get_client
+(
+)
 .
 get_integration
 (
 AioHttpIntegration
 )
+            
+if
+integration
 is
 None
 :
@@ -513,18 +526,19 @@ request
 )
             
 with
-Hub
+sentry_sdk
+.
+isolation_scope
 (
-hub
 )
 as
-hub
+scope
 :
                 
 with
-auto_session_tracking
+track_session
 (
-hub
+scope
 session_mode
 =
 "
@@ -554,22 +568,18 @@ each
 request
 .
                     
-with
-hub
+scope
 .
-configure_scope
+generate_propagation_context
 (
 )
-as
-scope
-:
-                        
+                    
 scope
 .
 clear_breadcrumbs
 (
 )
-                        
+                    
 scope
 .
 add_event_processor
@@ -639,12 +649,20 @@ request
                         
 source
 =
-TRANSACTION_SOURCE_ROUTE
+TransactionSource
+.
+ROUTE
+                        
+origin
+=
+AioHttpIntegration
+.
+origin
                     
 )
                     
 with
-hub
+sentry_sdk
 .
 start_transaction
 (
@@ -691,6 +709,25 @@ e
 status_code
 )
                             
+if
+(
+                                
+e
+.
+status_code
+                                
+in
+integration
+.
+_failed_request_status_codes
+                            
+)
+:
+                                
+_capture_exception
+(
+)
+                            
 raise
                         
 except
@@ -706,9 +743,9 @@ transaction
 .
 set_status
 (
-"
-cancelled
-"
+SPANSTATUS
+.
+CANCELLED
 )
                             
 raise
@@ -749,17 +786,98 @@ reraise
 *
 _capture_exception
 (
-hub
 )
 )
                         
+try
+:
+                            
+#
+A
+valid
+response
+handler
+will
+return
+a
+valid
+response
+with
+a
+status
+.
+But
+if
+the
+handler
+                            
+#
+returns
+an
+invalid
+response
+(
+e
+.
+g
+.
+None
+)
+the
+line
+below
+will
+raise
+an
+AttributeError
+.
+                            
+#
+Even
+though
+this
+is
+likely
+invalid
+we
+need
+to
+handle
+this
+case
+to
+ensure
+we
+don
+'
+t
+break
+                            
+#
+the
+application
+.
+                            
+response_status
+=
+response
+.
+status
+                        
+except
+AttributeError
+:
+                            
+pass
+                        
+else
+:
+                            
 transaction
 .
 set_http_status
 (
-response
-.
-status
+response_status
 )
                         
 return
@@ -776,6 +894,11 @@ old_urldispatcher_resolve
 UrlDispatcher
 .
 resolve
+        
+wraps
+(
+old_urldispatcher_resolve
+)
         
 async
 def
@@ -806,20 +929,27 @@ self
 request
 )
             
-hub
-=
-Hub
-.
-current
-            
 integration
 =
-hub
+sentry_sdk
+.
+get_client
+(
+)
 .
 get_integration
 (
 AioHttpIntegration
 )
+            
+if
+integration
+is
+None
+:
+                
+return
+rv
             
 name
 =
@@ -917,25 +1047,17 @@ not
 None
 :
                 
-with
-Hub
+sentry_sdk
 .
-current
-.
-configure_scope
+get_current_scope
 (
 )
-as
-scope
-:
-                    
-scope
 .
 set_transaction_name
 (
-                        
+                    
 name
-                        
+                    
 source
 =
 SOURCE_FOR_STYLE
@@ -944,7 +1066,7 @@ integration
 .
 transaction_style
 ]
-                    
+                
 )
             
 return
@@ -961,6 +1083,12 @@ old_client_session_init
 ClientSession
 .
 __init__
+        
+ensure_integration_enabled
+(
+AioHttpIntegration
+old_client_session_init
+)
         
 def
 init
@@ -983,33 +1111,6 @@ Any
 -
 >
 None
-            
-hub
-=
-Hub
-.
-current
-            
-if
-hub
-.
-get_integration
-(
-AioHttpIntegration
-)
-is
-None
-:
-                
-return
-old_client_session_init
-(
-*
-args
-*
-*
-kwargs
-)
             
 client_trace_configs
 =
@@ -1102,14 +1203,12 @@ TraceRequestStartParams
 >
 None
         
-hub
-=
-Hub
-.
-current
-        
 if
-hub
+sentry_sdk
+.
+get_client
+(
+)
 .
 get_integration
 (
@@ -1158,7 +1257,7 @@ False
         
 span
 =
-hub
+sentry_sdk
 .
 start_span
 (
@@ -1169,7 +1268,7 @@ OP
 .
 HTTP_CLIENT
             
-description
+name
 =
 "
 %
@@ -1189,6 +1288,12 @@ parsed_url
 else
 SENSITIVE_DATA_SUBSTITUTE
 )
+            
+origin
+=
+AioHttpIntegration
+.
+origin
         
 )
         
@@ -1245,10 +1350,18 @@ parsed_url
 fragment
 )
         
+client
+=
+sentry_sdk
+.
+get_client
+(
+)
+        
 if
 should_propagate_trace
 (
-hub
+client
 str
 (
 params
@@ -1259,14 +1372,27 @@ url
 :
             
 for
+(
+                
 key
+                
 value
+            
+)
 in
-hub
+sentry_sdk
+.
+get_current_scope
+(
+)
 .
 iter_trace_propagation_headers
 (
+                
 span
+=
+span
+            
 )
 :
                 
@@ -1645,12 +1771,6 @@ request
 remote
 }
             
-hub
-=
-Hub
-.
-current
-            
 request_info
 [
 "
@@ -1714,7 +1834,6 @@ data
 =
 get_aiohttp_request_data
 (
-hub
 request
 )
         
@@ -1726,7 +1845,6 @@ aiohttp_processor
 def
 _capture_exception
 (
-hub
 )
 :
     
@@ -1734,7 +1852,6 @@ hub
 type
 :
 (
-Hub
 )
 -
 >
@@ -1758,15 +1875,13 @@ exc_info
         
 client_options
 =
-hub
+sentry_sdk
 .
-client
+get_client
+(
+)
 .
 options
-#
-type
-:
-ignore
         
 mechanism
 =
@@ -1787,7 +1902,7 @@ False
     
 )
     
-hub
+sentry_sdk
 .
 capture_event
 (
@@ -1819,7 +1934,6 @@ details
 def
 get_aiohttp_request_data
 (
-hub
 request
 )
 :
@@ -1828,7 +1942,6 @@ request
 type
 :
 (
-Hub
 Request
 )
 -
@@ -1866,9 +1979,11 @@ if
 not
 request_body_within_bounds
 (
-hub
+sentry_sdk
 .
-client
+get_client
+(
+)
 len
 (
 bytes_body

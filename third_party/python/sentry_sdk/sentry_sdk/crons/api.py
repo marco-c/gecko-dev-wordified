@@ -1,13 +1,9 @@
 import
 uuid
-from
-sentry_sdk
 import
-Hub
-from
 sentry_sdk
-.
-_types
+from
+typing
 import
 TYPE_CHECKING
 if
@@ -101,22 +97,13 @@ Event
     
 options
 =
-Hub
+sentry_sdk
 .
-current
-.
-client
+get_client
+(
+)
 .
 options
-if
-Hub
-.
-current
-.
-client
-else
-{
-}
     
 check_in_id
 =
@@ -319,13 +306,7 @@ monitor_config
     
 )
     
-hub
-=
-Hub
-.
-current
-    
-hub
+sentry_sdk
 .
 capture_event
 (
