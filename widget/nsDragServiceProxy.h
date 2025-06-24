@@ -117,6 +117,10 @@ NS_INLINE_DECL_REFCOUNTING_INHERITED
 nsDragSessionProxy
 nsBaseDragSession
 )
+nsDragSessionProxy
+(
+)
+;
 MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
@@ -275,6 +279,10 @@ NS_INLINE_DECL_REFCOUNTING_INHERITED
 nsDragServiceProxy
 nsBaseDragService
 )
+nsDragServiceProxy
+(
+)
+;
 already_AddRefed
 <
 nsIDragSession
