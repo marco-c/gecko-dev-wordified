@@ -66,6 +66,7 @@ enum
 class
 InstallationDirLayoutType
 {
+Unknown
 Single
 Versioned
 }
