@@ -128,8 +128,8 @@ const
 string
 &
 transportId
+const
 CandidateInfo
-&
 &
 candidateInfo
 )
@@ -196,12 +196,12 @@ ipc
 IPCResult
 RecvOnPacketReceived
 (
+const
 string
 &
-&
 transportId
+const
 MediaPacket
-&
 &
 packet
 )
@@ -219,8 +219,8 @@ const
 string
 &
 transportId
+const
 MediaPacket
-&
 &
 packet
 )

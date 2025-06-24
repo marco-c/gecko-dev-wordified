@@ -1920,11 +1920,11 @@ VideoSink
 :
 OnVideoQueuePushed
 (
-const
 RefPtr
 <
 VideoData
 >
+&
 &
 aSample
 )

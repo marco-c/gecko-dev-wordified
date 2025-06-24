@@ -394,8 +394,8 @@ override
 void
 OnPlaybackEvent
 (
-const
 MediaPlaybackEvent
+&
 &
 aEvent
 )

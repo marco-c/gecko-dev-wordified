@@ -882,6 +882,7 @@ LoopbackTransport
 :
 MediaTransportHandler
 (
+nullptr
 )
 {
 RunOnSts
@@ -1558,9 +1559,7 @@ RTCP
 rtcp_packets_received_
 ;
 }
-mRtpPacketReceived
-.
-Notify
+SignalPacketReceived
 (
 aTransportId
 aPacket
