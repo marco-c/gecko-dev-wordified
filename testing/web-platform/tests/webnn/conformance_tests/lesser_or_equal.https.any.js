@@ -7756,6 +7756,13 @@ webnn_conformance_test
 buildAndExecuteGraph
 getLesserOrEqualPrecisionTolerance
 test
+/
+*
+cast_to_supported_type
+=
+*
+/
+true
 )
 ;
 }

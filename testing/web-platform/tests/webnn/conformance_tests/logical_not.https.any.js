@@ -1368,6 +1368,13 @@ webnn_conformance_test
 buildAndExecuteGraph
 getLogicalNotPrecisionTolerance
 test
+/
+*
+cast_to_supported_type
+=
+*
+/
+true
 )
 ;
 }
