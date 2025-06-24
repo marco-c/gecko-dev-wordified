@@ -7,9 +7,17 @@ Identifier
 :
 MIT
 import
+contextlib
+import
 copy
 import
 enum
+import
+functools
+import
+inspect
+import
+itertools
 import
 linecache
 import
@@ -62,11 +70,11 @@ import
     
 PY310
     
+PY_3_8_PLUS
+    
 _AnnotationExtractor
     
 get_generic_base
-    
-set_closure_cell
 )
 from
 .
@@ -464,6 +472,10 @@ _args
 )
 )
 :
+#
+noqa
+:
+B008
         
 return
 _none_constructor
@@ -566,17 +578,18 @@ is
 also
 decorated
 with
-        
 attr
 .
 s
+        
 /
 attrs
 .
 define
 /
-et
-cetera
+and
+so
+on
 !
     
 Please
@@ -706,9 +719,9 @@ instantiating
 otherwise
 a
 TypeError
-        
 will
 be
+        
 raised
 .
         
@@ -725,13 +738,13 @@ as
 shown
 below
 .
-    
+        
+.
+.
+seealso
 :
-type
-default
 :
-Any
-value
+defaults
     
 :
 param
@@ -830,8 +843,8 @@ as
 validators
 and
 must
-        
 all
+        
 pass
 .
         
@@ -872,6 +885,16 @@ as
 shown
 below
 .
+        
+.
+.
+seealso
+:
+:
+:
+ref
+:
+validators
     
 :
 type
@@ -899,9 +922,9 @@ in
 the
 generated
 __repr__
-        
 method
 .
+        
 If
 True
 include
@@ -914,8 +937,8 @@ omit
 it
 .
 By
-        
 default
+        
 the
 built
 -
@@ -931,8 +954,8 @@ To
 override
 how
 the
-        
 attribute
+        
 value
 is
 formatted
@@ -943,9 +966,9 @@ that
 takes
 a
 single
-        
 value
 and
+        
 returns
 a
 string
@@ -957,7 +980,6 @@ resulting
 string
 is
 used
-        
 as
 -
 is
@@ -966,6 +988,7 @@ i
 e
 .
 it
+        
 will
 be
 used
@@ -978,7 +1001,6 @@ calling
 repr
 (
 )
-        
 (
 the
 default
@@ -1015,8 +1037,8 @@ this
 attribute
 in
 the
-        
 generated
+        
 __eq__
 and
 __ne__
@@ -1025,8 +1047,8 @@ that
 check
 two
 instances
-        
 for
+        
 equality
 .
 To
@@ -1037,9 +1059,9 @@ attribute
 value
 is
 compared
-        
 pass
 a
+        
 callable
 that
 takes
@@ -1050,11 +1072,18 @@ and
 returns
 the
 value
-        
 to
 be
+        
 compared
 .
+        
+.
+.
+seealso
+:
+:
+comparison
     
 :
 type
@@ -1090,8 +1119,8 @@ and
 __ge__
 methods
 .
-        
 To
+        
 override
 how
 the
@@ -1099,11 +1128,11 @@ attribute
 value
 is
 ordered
-        
 pass
 a
 callable
 that
+        
 takes
 a
 single
@@ -1112,11 +1141,17 @@ and
 returns
 the
 value
-        
 to
 be
 ordered
 .
+        
+.
+.
+seealso
+:
+:
+comparison
     
 :
 type
@@ -1167,6 +1202,13 @@ or
 order
 *
 .
+        
+.
+.
+seealso
+:
+:
+comparison
     
 :
 type
@@ -1181,10 +1223,9 @@ callable
     
 :
 param
-Optional
-[
 bool
-]
+|
+None
 hash
 :
 Include
@@ -1235,6 +1276,13 @@ is
 discouraged
 *
 .
+        
+.
+.
+seealso
+:
+:
+hashing
     
 :
 param
@@ -1283,6 +1331,13 @@ value
 or
 factory
 .
+        
+.
+.
+seealso
+:
+:
+init
     
 :
 param
@@ -1294,12 +1349,12 @@ that
 is
 called
 by
-        
 *
 attrs
 *
 -
 generated
+        
 __init__
 methods
 to
@@ -1308,10 +1363,10 @@ attribute
 '
 s
 value
-        
 to
 the
 desired
+        
 format
 .
 It
@@ -1324,10 +1379,10 @@ in
 value
 and
 the
-        
 returned
 value
 will
+        
 be
 used
 as
@@ -1339,10 +1394,10 @@ the
 attribute
 .
 The
-        
 value
 is
 converted
+        
 before
 being
 passed
@@ -1352,9 +1407,22 @@ validator
 if
 any
 .
+        
+.
+.
+seealso
+:
+:
+:
+ref
+:
+converters
     
 :
 param
+dict
+|
+None
 metadata
 :
 An
@@ -1364,10 +1432,10 @@ to
 be
 used
 by
+        
 third
 -
 party
-        
 components
 .
 See
@@ -1408,8 +1476,8 @@ pep
 526
 )
 .
-        
 This
+        
 argument
 is
 provided
@@ -1417,10 +1485,10 @@ for
 backward
 compatibility
 .
-        
 Regardless
 of
 the
+        
 approach
 used
 the
@@ -1429,7 +1497,6 @@ will
 be
 stored
 on
-        
 Attribute
 .
 type
@@ -1465,9 +1532,9 @@ own
 code
 or
 for
-        
 static
 type
+        
 checking
 <
 types
@@ -1476,6 +1543,7 @@ types
     
 :
 param
+bool
 kw_only
 :
 Make
@@ -1589,10 +1657,9 @@ NO_OP
     
 :
 param
-Optional
-[
 str
-]
+|
+None
 alias
 :
 Override
@@ -2009,10 +2076,8 @@ not
 False
 :
         
-raise
-TypeError
-(
-            
+msg
+=
 "
 Invalid
 value
@@ -2028,6 +2093,10 @@ None
 .
 "
         
+raise
+TypeError
+(
+msg
 )
     
 if
@@ -2044,8 +2113,8 @@ not
 NOTHING
 :
             
-raise
-ValueError
+msg
+=
 (
                 
 "
@@ -2056,13 +2125,16 @@ factory
 arguments
 are
 mutually
-"
-                
-"
 exclusive
 .
 "
             
+)
+            
+raise
+ValueError
+(
+msg
 )
         
 if
@@ -2073,9 +2145,8 @@ factory
 )
 :
             
-raise
-ValueError
-(
+msg
+=
 "
 The
 factory
@@ -2086,6 +2157,11 @@ a
 callable
 .
 "
+            
+raise
+ValueError
+(
+msg
 )
         
 default
@@ -2424,9 +2500,6 @@ linecache_tuple
             
 break
         
-else
-:
-            
 filename
 =
 f
@@ -2445,7 +2518,7 @@ count
 }
 >
 "
-            
+        
 count
 +
 =
@@ -3080,6 +3153,10 @@ inherited
 =
 True
 )
+#
+noqa
+:
+PLW2901
             
 base_attrs
 .
@@ -3336,6 +3413,10 @@ inherited
 =
 True
 )
+#
+noqa
+:
+PLW2901
             
 taken_attr_names
 .
@@ -3474,21 +3555,14 @@ None
         
 ca_list
 =
-[
+list
 (
-name
-ca
-)
-for
-name
-ca
-in
 these
 .
 items
 (
 )
-]
+)
     
 elif
 auto_attribs
@@ -3578,23 +3652,16 @@ _CountingAttr
 )
 :
                 
-if
-a
-is
-NOTHING
-:
-                    
 a
 =
 attrib
 (
 )
-                
-else
-:
-                    
+if
 a
-=
+is
+NOTHING
+else
 attrib
 (
 default
@@ -3959,10 +4026,9 @@ is
 NOTHING
 :
             
-raise
-ValueError
-(
-                
+msg
+=
+f
 "
 No
 mandatory
@@ -3973,10 +4039,6 @@ an
 attribute
 with
 a
-"
-                
-f
-"
 default
 value
 or
@@ -3993,6 +4055,10 @@ r
 }
 "
             
+raise
+ValueError
+(
+msg
 )
         
 if
@@ -4142,6 +4208,325 @@ attrs
 base_attrs
 base_attr_map
 )
+)
+def
+_make_cached_property_getattr
+(
+    
+cached_properties
+    
+original_getattr
+    
+cls
+)
+:
+    
+lines
+=
+[
+        
+#
+Wrapped
+to
+get
+__class__
+into
+closure
+cell
+for
+super
+(
+)
+        
+#
+(
+It
+will
+be
+replaced
+with
+the
+newly
+constructed
+class
+after
+construction
+)
+.
+        
+"
+def
+wrapper
+(
+)
+:
+"
+        
+"
+__class__
+=
+_cls
+"
+        
+"
+def
+__getattr__
+(
+self
+item
+cached_properties
+=
+cached_properties
+original_getattr
+=
+original_getattr
+_cached_setattr_get
+=
+_cached_setattr_get
+)
+:
+"
+        
+"
+func
+=
+cached_properties
+.
+get
+(
+item
+)
+"
+        
+"
+if
+func
+is
+not
+None
+:
+"
+        
+"
+result
+=
+func
+(
+self
+)
+"
+        
+"
+_setter
+=
+_cached_setattr_get
+(
+self
+)
+"
+        
+"
+_setter
+(
+item
+result
+)
+"
+        
+"
+return
+result
+"
+    
+]
+    
+if
+original_getattr
+is
+not
+None
+:
+        
+lines
+.
+append
+(
+            
+"
+return
+original_getattr
+(
+self
+item
+)
+"
+        
+)
+    
+else
+:
+        
+lines
+.
+extend
+(
+            
+[
+                
+"
+if
+hasattr
+(
+super
+(
+)
+'
+__getattr__
+'
+)
+:
+"
+                
+"
+return
+super
+(
+)
+.
+__getattr__
+(
+item
+)
+"
+                
+"
+original_error
+=
+f
+\
+"
+'
+{
+self
+.
+__class__
+.
+__name__
+}
+'
+object
+has
+no
+attribute
+'
+{
+item
+}
+'
+\
+"
+"
+                
+"
+raise
+AttributeError
+(
+original_error
+)
+"
+            
+]
+        
+)
+    
+lines
+.
+extend
+(
+        
+[
+            
+"
+return
+__getattr__
+"
+            
+"
+__getattr__
+=
+wrapper
+(
+)
+"
+        
+]
+    
+)
+    
+unique_filename
+=
+_generate_unique_filename
+(
+cls
+"
+getattr
+"
+)
+    
+glob
+=
+{
+        
+"
+cached_properties
+"
+:
+cached_properties
+        
+"
+_cached_setattr_get
+"
+:
+_obj_setattr
+.
+__get__
+        
+"
+_cls
+"
+:
+cls
+        
+"
+original_getattr
+"
+:
+original_getattr
+    
+}
+    
+return
+_make_method
+(
+        
+"
+__getattr__
+"
+        
+"
+\
+n
+"
+.
+join
+(
+lines
+)
+        
+unique_filename
+        
+glob
+    
 )
 def
 _frozen_setattrs
@@ -4299,6 +4684,10 @@ _frozen
         
 "
 _has_pre_init
+"
+        
+"
+_pre_init_has_args
 "
         
 "
@@ -4491,6 +4880,72 @@ __attrs_pre_init__
 False
 )
 )
+        
+self
+.
+_pre_init_has_args
+=
+False
+        
+if
+self
+.
+_has_pre_init
+:
+            
+#
+Check
+if
+the
+pre
+init
+method
+has
+more
+arguments
+than
+just
+self
+            
+#
+We
+want
+to
+pass
+arguments
+if
+pre
+init
+expects
+arguments
+            
+pre_init_func
+=
+cls
+.
+__attrs_pre_init__
+            
+pre_init_signature
+=
+inspect
+.
+signature
+(
+pre_init_func
+)
+            
+self
+.
+_pre_init_has_args
+=
+len
+(
+pre_init_signature
+.
+parameters
+)
+>
+1
         
 self
 .
@@ -5018,21 +5473,9 @@ _sentinel
 )
 :
                     
-try
-:
-                        
-delattr
-(
-cls
-name
-)
-                    
-except
-AttributeError
-:
-                        
 #
-This
+An
+AttributeError
 can
 happen
 if
@@ -5041,9 +5484,9 @@ base
 class
 defines
 a
-class
-                        
+                    
 #
+class
 variable
 and
 we
@@ -5054,7 +5497,7 @@ an
 attribute
 with
 the
-                        
+                    
 #
 same
 name
@@ -5065,8 +5508,21 @@ a
 type
 annotation
 .
+                    
+with
+contextlib
+.
+suppress
+(
+AttributeError
+)
+:
                         
-pass
+delattr
+(
+cls
+name
+)
         
 #
 Attach
@@ -5212,14 +5668,14 @@ if
 k
 not
 in
+(
+*
 tuple
 (
 self
 .
 _attr_names
 )
-+
-(
 "
 __dict__
 "
@@ -5429,9 +5885,8 @@ __weakref__
         
 existing_slots
 =
-dict
-(
-)
+{
+}
         
 weakref_inherited
 =
@@ -5568,6 +6023,242 @@ names
 "
 __weakref__
 "
+)
+        
+if
+PY_3_8_PLUS
+:
+            
+cached_properties
+=
+{
+                
+name
+:
+cached_property
+.
+func
+                
+for
+name
+cached_property
+in
+cd
+.
+items
+(
+)
+                
+if
+isinstance
+(
+cached_property
+functools
+.
+cached_property
+)
+            
+}
+        
+else
+:
+            
+#
+functools
+.
+cached_property
+was
+introduced
+in
+3
+.
+8
+.
+            
+#
+So
+can
+'
+t
+be
+used
+before
+this
+.
+            
+cached_properties
+=
+{
+}
+        
+#
+Collect
+methods
+with
+a
+__class__
+reference
+that
+are
+shadowed
+in
+the
+new
+class
+.
+        
+#
+To
+know
+to
+update
+them
+.
+        
+additional_closure_functions_to_update
+=
+[
+]
+        
+if
+cached_properties
+:
+            
+#
+Add
+cached
+properties
+to
+names
+for
+slotting
+.
+            
+names
++
+=
+tuple
+(
+cached_properties
+.
+keys
+(
+)
+)
+            
+for
+name
+in
+cached_properties
+:
+                
+#
+Clear
+out
+function
+from
+class
+to
+avoid
+clashing
+.
+                
+del
+cd
+[
+name
+]
+            
+class_annotations
+=
+_get_annotations
+(
+self
+.
+_cls
+)
+            
+for
+name
+func
+in
+cached_properties
+.
+items
+(
+)
+:
+                
+annotation
+=
+inspect
+.
+signature
+(
+func
+)
+.
+return_annotation
+                
+if
+annotation
+is
+not
+inspect
+.
+Parameter
+.
+empty
+:
+                    
+class_annotations
+[
+name
+]
+=
+annotation
+            
+original_getattr
+=
+cd
+.
+get
+(
+"
+__getattr__
+"
+)
+            
+if
+original_getattr
+is
+not
+None
+:
+                
+additional_closure_functions_to_update
+.
+append
+(
+original_getattr
+)
+            
+cd
+[
+"
+__getattr__
+"
+]
+=
+_make_cached_property_getattr
+(
+                
+cached_properties
+original_getattr
+self
+.
+_cls
+            
 )
         
 #
@@ -5862,12 +6553,20 @@ working
 for
 item
 in
+itertools
+.
+chain
+(
+            
 cls
 .
 __dict__
 .
 values
 (
+)
+additional_closure_functions_to_update
+        
 )
 :
             
@@ -6016,6 +6715,11 @@ except
 ValueError
 :
 #
+noqa
+:
+PERF203
+                    
+#
 ValueError
 :
 Cell
@@ -6031,11 +6735,11 @@ if
 match
 :
                         
-set_closure_cell
-(
 cell
+.
+cell_contents
+=
 cls
-)
         
 return
 cls
@@ -6104,10 +6808,8 @@ is
 None
 :
             
-raise
-ValueError
-(
-                
+msg
+=
 "
 __str__
 can
@@ -6121,6 +6823,10 @@ exists
 .
 "
             
+raise
+ValueError
+(
+msg
 )
         
 def
@@ -6520,6 +7226,10 @@ _has_pre_init
                 
 self
 .
+_pre_init_has_args
+                
+self
+.
 _has_post_init
                 
 self
@@ -6634,6 +7344,10 @@ _attrs
 self
 .
 _has_pre_init
+                
+self
+.
+_pre_init_has_args
                 
 self
 .
@@ -6883,10 +7597,8 @@ is
 one
 !
             
-raise
-ValueError
-(
-                
+msg
+=
 "
 Can
 '
@@ -6900,6 +7612,10 @@ hooks
 .
 "
             
+raise
+ValueError
+(
+msg
 )
         
 #
@@ -7020,59 +7736,62 @@ possible
 "
 "
         
-try
-:
-            
-method
+with
+contextlib
 .
-__module__
-=
-self
-.
-_cls
-.
-__module__
-        
-except
+suppress
+(
 AttributeError
+)
 :
             
-pass
+method
+.
+__module__
+=
+self
+.
+_cls
+.
+__module__
         
-try
+with
+contextlib
+.
+suppress
+(
+AttributeError
+)
 :
             
 method
 .
 __qualname__
 =
+f
 "
-.
-"
-.
-join
-(
-                
-(
+{
 self
 .
 _cls
 .
 __qualname__
+}
+.
+{
 method
 .
 __name__
-)
-            
-)
+}
+"
         
-except
+with
+contextlib
+.
+suppress
+(
 AttributeError
-:
-            
-pass
-        
-try
+)
 :
             
 method
@@ -7103,12 +7822,6 @@ __qualname__
 "
             
 )
-        
-except
-AttributeError
-:
-            
-pass
         
 return
 method
@@ -7190,9 +7903,8 @@ None
 )
 :
         
-raise
-ValueError
-(
+msg
+=
 "
 Don
 '
@@ -7206,6 +7918,11 @@ and
 order
 .
 "
+        
+raise
+ValueError
+(
+msg
 )
     
 #
@@ -7279,9 +7996,8 @@ is
 True
 :
         
-raise
-ValueError
-(
+msg
+=
 "
 order
 can
@@ -7295,6 +8011,11 @@ True
 too
 .
 "
+        
+raise
+ValueError
+(
+msg
 )
     
 return
@@ -7378,9 +8099,8 @@ None
 )
 :
         
-raise
-ValueError
-(
+msg
+=
 "
 Don
 '
@@ -7394,6 +8114,11 @@ and
 order
 .
 "
+        
+raise
+ValueError
+(
+msg
 )
     
 def
@@ -7551,9 +8276,8 @@ is
 True
 :
         
-raise
-ValueError
-(
+msg
+=
 "
 order
 can
@@ -7567,6 +8291,11 @@ True
 too
 .
 "
+        
+raise
+ValueError
+(
+msg
 )
     
 return
@@ -7913,8 +8642,8 @@ mappings
 .
 This
 is
-        
 useful
+        
 to
 avoid
 the
@@ -8148,10 +8877,10 @@ on
 a
 class
 yourself
-        
 *
 attrs
 *
+        
 will
 deduce
 eq
@@ -8163,11 +8892,11 @@ create
 *
 neither
 *
-        
 __eq__
 *
 nor
 *
+        
 __ne__
 (
 but
@@ -8177,9 +8906,9 @@ come
 with
 a
 sensible
-        
 __ne__
 by
+        
 default
 so
 it
@@ -8191,10 +8920,10 @@ enough
 to
 only
 implement
-        
 __eq__
 in
 most
+        
 cases
 )
 .
@@ -8277,10 +9006,10 @@ eq
 *
 order
 *
-        
 *
 cmp
 *
+        
 or
 *
 hash
@@ -8340,7 +9069,6 @@ not
 necessary
 except
 for
-        
 Exception
 \
 s
@@ -8348,10 +9076,9 @@ s
     
 :
 param
-Optional
-[
 bool
-]
+|
+None
 eq
 :
 If
@@ -8405,13 +9132,19 @@ are
 identical
 *
 !
+        
+.
+.
+seealso
+:
+:
+comparison
     
 :
 param
-Optional
-[
 bool
-]
+|
+None
 order
 :
 If
@@ -8452,13 +9185,19 @@ of
 eq
 *
 .
+        
+.
+.
+seealso
+:
+:
+comparison
     
 :
 param
-Optional
-[
 bool
-]
+|
+None
 cmp
 :
 Setting
@@ -8472,8 +9211,8 @@ setting
 *
 eq
 *
-        
 and
+        
 *
 order
 *
@@ -8495,13 +9234,19 @@ or
 order
 *
 .
+        
+.
+.
+seealso
+:
+:
+comparison
     
 :
 param
-Optional
-[
 bool
-]
+|
+None
 unsafe_hash
 :
 If
@@ -8635,10 +9380,10 @@ for
 yourself
 and
 force
-        
 *
 attrs
 *
+        
 to
 create
 one
@@ -8655,10 +9400,10 @@ immutable
 even
 though
 you
-        
 didn
 '
 t
+        
 freeze
 it
 programmatically
@@ -8671,8 +9416,8 @@ not
 .
 Both
 of
-        
 these
+        
 cases
 are
 rather
@@ -8684,20 +9429,29 @@ used
 carefully
 .
         
-See
-our
+.
+.
+seealso
+:
+:
+           
+-
+Our
 documentation
 on
 hashing
+           
+-
 Python
 '
 s
 documentation
 on
-        
 object
 .
 __hash__
+           
+-
 and
 the
 GitHub
@@ -8708,7 +9462,7 @@ to
 the
 default
 \
-        
+             
 behavior
 <
 https
@@ -8731,17 +9485,16 @@ issues
 >
 _
 for
+             
 more
-        
 details
 .
     
 :
 param
-Optional
-[
 bool
-]
+|
+None
 hash
 :
 Alias
@@ -8770,10 +9523,10 @@ method
 that
 initializes
 the
-        
 *
 attrs
 *
+        
 attributes
 .
 Leading
@@ -8783,10 +9536,10 @@ stripped
 for
 the
 argument
-        
 name
 .
 If
+        
 a
 __attrs_pre_init__
 method
@@ -8796,9 +9549,9 @@ the
 class
 it
 will
-        
 be
 called
+        
 before
 the
 class
@@ -8808,8 +9561,8 @@ initialized
 If
 a
 __attrs_post_init__
-        
 method
+        
 exists
 on
 the
@@ -8836,8 +9589,8 @@ __attrs_init__
 method
 will
 be
-        
 injected
+        
 instead
 .
 This
@@ -8848,9 +9601,9 @@ define
 a
 custom
 __init__
-        
 method
 that
+        
 can
 do
 pre
@@ -8866,10 +9619,10 @@ super
 __init__
 (
 )
-        
 and
 then
 call
+        
 __attrs_init__
 (
 )
@@ -8878,6 +9631,13 @@ __attrs_post_init__
 (
 )
 .
+        
+.
+.
+seealso
+:
+:
+init
     
 :
 param
@@ -9081,12 +9841,12 @@ that
 limitation
 by
 using
-               
 object
 .
 __setattr__
 (
 self
+               
 "
 attribute_name
 "
@@ -9168,8 +9928,8 @@ If
 *
 attrs
 *
-        
 encounters
+        
 a
 field
 that
@@ -9184,19 +9944,19 @@ but
 lacks
 a
 type
-        
 annotation
 an
+        
 attr
 .
 exceptions
 .
 UnannotatedAttributeError
 is
-        
 raised
 .
 Use
+        
 field_name
 :
 typing
@@ -9216,11 +9976,11 @@ you
 don
 '
 t
-        
 want
 to
 set
 a
+        
 type
 .
         
@@ -9417,10 +10177,10 @@ attributes
 keyword
 -
 only
-        
 in
 the
 generated
+        
 __init__
 (
 if
@@ -9428,7 +10188,6 @@ init
 is
 False
 this
-        
 parameter
 is
 ignored
@@ -9450,8 +10209,8 @@ hash
 code
 is
 computed
-        
 only
+        
 once
 and
 stored
@@ -9465,8 +10224,8 @@ is
 set
 to
 True
-        
 hashing
+        
 must
 be
 either
@@ -9476,11 +10235,11 @@ implicitly
 enabled
 for
 this
-        
 class
 .
 If
 the
+        
 hash
 code
 is
@@ -9489,11 +10248,11 @@ avoid
 any
 reassignments
 of
-        
 fields
 involved
 in
 hash
+        
 code
 computation
 or
@@ -9501,11 +10260,11 @@ mutations
 of
 the
 objects
-        
 those
 fields
 point
 to
+        
 after
 object
 creation
@@ -9514,11 +10273,11 @@ If
 such
 changes
 occur
-        
 the
 behavior
 of
 the
+        
 object
 '
 s
@@ -9538,9 +10297,9 @@ the
 class
 subclasses
 BaseException
-        
 (
 which
+        
 implicitly
 includes
 any
@@ -9550,8 +10309,8 @@ any
 exception
 )
 the
-        
 following
+        
 happens
 to
 behave
@@ -9562,7 +10321,6 @@ well
 behaved
 Python
 exceptions
-        
 class
 :
         
@@ -9725,8 +10483,13 @@ backward
 compatibility
 .
        
-See
-issue
+.
+.
+seealso
+:
+:
+          
+Issue
 #
 428
 <
@@ -9749,18 +10512,12 @@ issues
 428
 >
 _
-for
-       
-more
-details
-.
     
 :
 param
-Optional
-[
 bool
-]
+|
+None
 getstate_setstate
 :
        
@@ -9796,11 +10553,11 @@ If
 True
 __getstate__
 and
-       
 __setstate__
 are
 generated
 and
+       
 attached
 to
 the
@@ -9808,13 +10565,13 @@ class
 .
 This
 is
-       
 necessary
 for
 slotted
 classes
 to
 be
+       
 pickleable
 .
 If
@@ -9823,13 +10580,13 @@ None
 it
 '
 s
-       
 True
 by
 default
 for
 slotted
 classes
+       
 and
 False
 for
@@ -9850,8 +10607,8 @@ getstate_setstate
 is
 left
 None
-       
 and
+       
 *
 *
 either
@@ -9863,8 +10620,8 @@ __setstate__
 is
 detected
 directly
-       
 on
+       
 the
 class
 (
@@ -10022,10 +10779,9 @@ NO_OP
     
 :
 param
-Optional
-[
 callable
-]
+|
+None
 field_transformer
 :
         
@@ -10041,8 +10797,8 @@ class
 object
 and
 all
-        
 fields
+        
 right
 before
 *
@@ -10055,34 +10811,35 @@ class
 You
 can
 use
-        
 this
 e
 .
 g
 .
 to
+        
 automatically
 add
 converters
 or
 validators
 to
-        
 fields
 based
 on
 their
+        
 types
 .
-See
+        
+.
+.
+seealso
+:
+:
 transform
 -
 fields
-for
-more
-details
-.
     
 :
 param
@@ -10726,9 +11483,8 @@ and
 is_frozen
 :
             
-raise
-ValueError
-(
+msg
+=
 "
 Can
 '
@@ -10742,6 +11498,11 @@ custom
 __setattr__
 .
 "
+            
+raise
+ValueError
+(
+msg
 )
         
 builder
@@ -10974,10 +11735,8 @@ for
 example
 .
             
-raise
-TypeError
-(
-                
+msg
+=
 "
 Invalid
 value
@@ -10993,9 +11752,13 @@ None
 .
 "
             
+raise
+TypeError
+(
+msg
 )
         
-elif
+if
 hash
 is
 False
@@ -11040,10 +11803,8 @@ if
 cache_hash
 :
                 
-raise
-TypeError
-(
-                    
+msg
+=
 "
 Invalid
 value
@@ -11054,9 +11815,6 @@ To
 use
 hash
 caching
-"
-                    
-"
 hashing
 must
 be
@@ -11064,13 +11822,14 @@ either
 explicitly
 or
 implicitly
-"
-                    
-"
 enabled
 .
 "
                 
+raise
+TypeError
+(
+msg
 )
         
 elif
@@ -11132,10 +11891,8 @@ if
 cache_hash
 :
                 
-raise
-TypeError
-(
-                    
+msg
+=
 "
 Invalid
 value
@@ -11146,9 +11903,6 @@ To
 use
 hash
 caching
-"
-                    
-"
 hashing
 must
 be
@@ -11156,13 +11910,14 @@ either
 explicitly
 or
 implicitly
-"
-                    
-"
 enabled
 .
 "
                 
+raise
+TypeError
+(
+msg
 )
             
 builder
@@ -11206,10 +11961,8 @@ if
 cache_hash
 :
                 
-raise
-TypeError
-(
-                    
+msg
+=
 "
 Invalid
 value
@@ -11220,9 +11973,6 @@ To
 use
 hash
 caching
-"
-                    
-"
 init
 must
 be
@@ -11230,6 +11980,10 @@ True
 .
 "
                 
+raise
+TypeError
+(
+msg
 )
         
 if
@@ -11312,9 +12066,6 @@ None
 return
 wrap
     
-else
-:
-        
 return
 wrap
 (
@@ -11586,15 +12337,9 @@ hash_def
 hash_def
 +
 =
-(
-            
 "
 _cache_wrapper
 =
-"
-            
-+
-"
 __import__
 (
 '
@@ -11610,8 +12355,6 @@ _CacheHashWrapper
 )
 :
 "
-        
-)
         
 hash_func
 =
@@ -12354,9 +13097,9 @@ name
 lines
 +
 =
-others
-+
 [
+*
+others
 "
 )
 "
@@ -13442,9 +14185,8 @@ type
 )
 :
         
-raise
-TypeError
-(
+msg
+=
 "
 Passed
 object
@@ -13454,6 +14196,11 @@ a
 class
 .
 "
+        
+raise
+TypeError
+(
+msg
 )
     
 attrs
@@ -13540,9 +14287,8 @@ attrs
 return
 attrs
         
-raise
-NotAnAttrsClassError
-(
+msg
+=
 f
 "
 {
@@ -13559,6 +14305,11 @@ decorated
 class
 .
 "
+        
+raise
+NotAnAttrsClassError
+(
+msg
 )
     
 return
@@ -13670,9 +14421,8 @@ type
 )
 :
         
-raise
-TypeError
-(
+msg
+=
 "
 Passed
 object
@@ -13682,6 +14432,11 @@ a
 class
 .
 "
+        
+raise
+TypeError
+(
+msg
 )
     
 attrs
@@ -13701,9 +14456,8 @@ is
 None
 :
         
-raise
-NotAnAttrsClassError
-(
+msg
+=
 f
 "
 {
@@ -13720,6 +14474,11 @@ decorated
 class
 .
 "
+        
+raise
+NotAnAttrsClassError
+(
+msg
 )
     
 return
@@ -13894,6 +14653,8 @@ attrs
     
 pre_init
     
+pre_init_has_args
+    
 post_init
     
 frozen
@@ -13936,9 +14697,8 @@ and
 has_cls_on_setattr
 :
         
-raise
-ValueError
-(
+msg
+=
 "
 Frozen
 classes
@@ -13949,6 +14709,11 @@ use
 on_setattr
 .
 "
+        
+raise
+ValueError
+(
+msg
 )
     
 needs_cached_setattr
@@ -14019,9 +14784,8 @@ is
 True
 :
                 
-raise
-ValueError
-(
+msg
+=
 "
 Frozen
 classes
@@ -14032,6 +14796,11 @@ use
 on_setattr
 .
 "
+                
+raise
+ValueError
+(
+msg
 )
             
 needs_cached_setattr
@@ -14079,6 +14848,8 @@ frozen
 slots
         
 pre_init
+        
+pre_init_has_args
         
 post_init
         
@@ -14489,6 +15260,8 @@ frozen
 slots
     
 pre_init
+    
+pre_init_has_args
     
 post_init
     
@@ -14974,6 +15747,11 @@ default
 Factory
 )
         
+maybe_self
+=
+"
+self
+"
 if
 has_factory
 and
@@ -14982,19 +15760,7 @@ a
 default
 .
 takes_self
-:
-            
-maybe_self
-=
-"
-self
-"
-        
 else
-:
-            
-maybe_self
-=
 "
 "
         
@@ -15116,10 +15882,7 @@ default
 .
 factory
             
-else
-:
-                
-if
+elif
 a
 .
 converter
@@ -15127,17 +15890,17 @@ is
 not
 None
 :
-                    
+                
 lines
 .
 append
 (
-                        
+                    
 fmt_setter_with_converter
 (
-                            
+                        
 attr_name
-                            
+                        
 f
 "
 attr_dict
@@ -15151,13 +15914,13 @@ attr_name
 .
 default
 "
-                            
-has_on_setattr
                         
-)
+has_on_setattr
                     
 )
-                    
+                
+)
+                
 conv_name
 =
 _init_converter_pat
@@ -15167,7 +15930,7 @@ a
 .
 name
 )
-                    
+                
 names_for_globals
 [
 conv_name
@@ -15176,20 +15939,20 @@ conv_name
 a
 .
 converter
-                
+            
 else
 :
-                    
+                
 lines
 .
 append
 (
-                        
+                    
 fmt_setter
 (
-                            
+                        
 attr_name
-                            
+                        
 f
 "
 attr_dict
@@ -15203,11 +15966,11 @@ attr_name
 .
 default
 "
-                            
-has_on_setattr
                         
-)
+has_on_setattr
                     
+)
+                
 )
         
 elif
@@ -15908,6 +16671,10 @@ frozen
 if
 slots
 :
+#
+noqa
+:
+SIM108
                 
 #
 if
@@ -16066,6 +16833,10 @@ join
 args
 )
     
+pre_init_args
+=
+args
+    
 if
 kw_only_args
 :
@@ -16106,6 +16877,99 @@ kw_only
 args
         
 )
+        
+pre_init_kw_only_args
+=
+"
+"
+.
+join
+(
+            
+[
+"
+%
+s
+=
+%
+s
+"
+%
+(
+kw_arg
+kw_arg
+)
+for
+kw_arg
+in
+kw_only_args
+]
+        
+)
+        
+pre_init_args
++
+=
+(
+            
+"
+"
+if
+pre_init_args
+else
+"
+"
+        
+)
+#
+handle
+only
+kwargs
+and
+no
+regular
+args
+        
+pre_init_args
++
+=
+pre_init_kw_only_args
+    
+if
+pre_init
+and
+pre_init_has_args
+:
+        
+#
+If
+pre
+init
+method
+has
+arguments
+pass
+same
+arguments
+as
+__init__
+        
+lines
+[
+0
+]
+=
+"
+self
+.
+__attrs_pre_init__
+(
+%
+s
+)
+"
+%
+pre_init_args
     
 return
 (
@@ -17042,10 +17906,8 @@ not
 None
 :
             
-raise
-ValueError
-(
-                
+msg
+=
 "
 Type
 annotation
@@ -17058,6 +17920,10 @@ be
 present
 "
             
+raise
+ValueError
+(
+msg
 )
         
 inst_dict
@@ -17701,123 +18567,124 @@ alias
     
 __attrs_attrs__
 =
-tuple
 (
         
-Attribute
+*
+tuple
 (
             
+Attribute
+(
+                
 name
 =
 name
-            
+                
 alias
 =
 _default_init_alias_for
 (
 name
 )
-            
+                
 default
 =
 NOTHING
-            
+                
 validator
 =
 None
-            
+                
 repr
 =
 True
-            
+                
 cmp
 =
 None
-            
+                
 hash
 =
 True
-            
+                
 init
 =
 True
-            
+                
 kw_only
 =
 False
-            
+                
 eq
 =
 True
-            
+                
 eq_key
 =
 None
-            
+                
 order
 =
 False
-            
+                
 order_key
 =
 None
-            
+                
 inherited
 =
 False
-            
+                
 on_setattr
 =
 None
-        
+            
 )
-        
+            
 for
 name
 in
 (
-            
+                
 "
 counter
 "
-            
+                
 "
 _default
 "
-            
+                
 "
 repr
 "
-            
+                
 "
 eq
 "
-            
+                
 "
 order
 "
-            
+                
 "
 hash
 "
-            
+                
 "
 init
 "
-            
+                
 "
 on_setattr
 "
-            
+                
 "
 alias
 "
+            
+)
         
 )
-    
-)
-+
-(
         
 Attribute
 (
@@ -18506,6 +19373,7 @@ _f
 def
 make_class
 (
+    
 name
 attrs
 bases
@@ -18513,6 +19381,9 @@ bases
 (
 object
 )
+class_body
+=
+None
 *
 *
 attributes_arguments
@@ -18641,6 +19512,23 @@ subclass
     
 :
 param
+dict
+class_body
+:
+An
+optional
+dictionary
+of
+class
+attributes
+for
+the
+new
+class
+.
+    
+:
+param
 attributes_arguments
 :
 Passed
@@ -18704,6 +19592,20 @@ is
 retained
 .
     
+.
+.
+versionchanged
+:
+:
+23
+.
+2
+.
+0
+*
+class_body
+*
+    
 "
 "
 "
@@ -18748,9 +19650,8 @@ attrs
 else
 :
         
-raise
-TypeError
-(
+msg
+=
 "
 attrs
 argument
@@ -18763,6 +19664,11 @@ a
 list
 .
 "
+        
+raise
+TypeError
+(
+msg
 )
     
 pre_init
@@ -18805,6 +19711,20 @@ body
 =
 {
 }
+    
+if
+class_body
+is
+not
+None
+:
+        
+body
+.
+update
+(
+class_body
+)
     
 if
 pre_init
@@ -18936,7 +19856,14 @@ IronPython
 )
 .
     
-try
+with
+contextlib
+.
+suppress
+(
+AttributeError
+ValueError
+)
 :
         
 type_
@@ -18963,15 +19890,6 @@ __main__
 "
         
 )
-    
-except
-(
-AttributeError
-ValueError
-)
-:
-        
-pass
     
 #
 We

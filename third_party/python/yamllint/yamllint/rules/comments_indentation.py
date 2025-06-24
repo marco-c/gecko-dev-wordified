@@ -1,16 +1,4 @@
 #
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
-#
 Copyright
 (
 C
@@ -600,16 +588,13 @@ comment
 -
 2
     
-if
-prev_line_indent
-<
-=
-next_line_indent
-:
-        
 prev_line_indent
 =
+max
+(
+prev_line_indent
 next_line_indent
+)
     
 #
 If

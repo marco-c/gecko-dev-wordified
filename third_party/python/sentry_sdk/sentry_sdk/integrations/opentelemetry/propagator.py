@@ -59,11 +59,11 @@ type
 :
 ignore
     
-TraceFlags
-    
 NonRecordingSpan
     
 SpanContext
+    
+TraceFlags
 )
 from
 sentry_sdk
@@ -116,9 +116,9 @@ sentry_sdk
 .
 _types
 import
-MYPY
+TYPE_CHECKING
 if
-MYPY
+TYPE_CHECKING
 :
     
 from
@@ -496,11 +496,17 @@ get_current_span
 context
 )
         
-if
-not
+current_span_context
+=
 current_span
 .
-context
+get_span_context
+(
+)
+        
+if
+not
+current_span_context
 .
 is_valid
 :
@@ -513,9 +519,7 @@ trace
 .
 format_span_id
 (
-current_span
-.
-context
+current_span_context
 .
 span_id
 )
@@ -558,6 +562,12 @@ to_traceparent
 )
 )
         
+if
+sentry_span
+.
+containing_transaction
+:
+            
 baggage
 =
 sentry_span
@@ -567,11 +577,11 @@ containing_transaction
 get_baggage
 (
 )
-        
+            
 if
 baggage
 :
-            
+                
 setter
 .
 set

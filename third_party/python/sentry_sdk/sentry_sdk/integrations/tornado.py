@@ -9,6 +9,12 @@ iscoroutinefunction
 from
 sentry_sdk
 .
+api
+import
+continue_trace
+from
+sentry_sdk
+.
 consts
 import
 OP
@@ -29,8 +35,6 @@ import
 TRANSACTION_SOURCE_COMPONENT
     
 TRANSACTION_SOURCE_ROUTE
-    
-Transaction
 )
 from
 sentry_sdk
@@ -127,9 +131,9 @@ sentry_sdk
 .
 _types
 import
-MYPY
+TYPE_CHECKING
 if
-MYPY
+TYPE_CHECKING
 :
     
 from
@@ -162,6 +166,7 @@ sentry_sdk
 .
 _types
 import
+Event
 EventProcessor
 class
 TornadoIntegration
@@ -393,10 +398,6 @@ args
 kwargs
 )
 :
-#
-type
-:
-ignore
                 
 #
 type
@@ -577,6 +578,14 @@ as
 hub
 :
         
+headers
+=
+self
+.
+request
+.
+headers
+        
 with
 hub
 .
@@ -609,15 +618,9 @@ processor
         
 transaction
 =
-Transaction
-.
-continue_from_headers
+continue_trace
 (
             
-self
-.
-request
-.
 headers
             
 op
@@ -852,12 +855,8 @@ hint
 type
 :
 (
-Dict
-[
-str
-Any
-]
-Dict
+Event
+dict
 [
 str
 Any
@@ -865,11 +864,7 @@ Any
 )
 -
 >
-Dict
-[
-str
-Any
-]
+Event
         
 handler
 =
@@ -925,6 +920,9 @@ transaction_from_function
 (
 method
 )
+or
+"
+"
             
 event
 [

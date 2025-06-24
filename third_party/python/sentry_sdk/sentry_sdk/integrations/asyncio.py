@@ -34,7 +34,7 @@ sentry_sdk
 .
 _types
 import
-MYPY
+TYPE_CHECKING
 from
 sentry_sdk
 .
@@ -67,7 +67,7 @@ available
 "
 )
 if
-MYPY
+TYPE_CHECKING
 :
     
 from
@@ -76,11 +76,65 @@ import
 Any
     
 from
+collections
+.
+abc
+import
+Coroutine
+    
+from
 sentry_sdk
 .
 _types
 import
 ExcInfo
+def
+get_name
+(
+coro
+)
+:
+    
+#
+type
+:
+(
+Any
+)
+-
+>
+str
+    
+return
+(
+        
+getattr
+(
+coro
+"
+__qualname__
+"
+None
+)
+        
+or
+getattr
+(
+coro
+"
+__name__
+"
+None
+)
+        
+or
+"
+coroutine
+without
+__name__
+"
+    
+)
 def
 patch_asyncio
 (
@@ -124,6 +178,9 @@ _sentry_task_factory
 (
 loop
 coro
+*
+*
+kwargs
 )
 :
             
@@ -131,12 +188,25 @@ coro
 type
 :
 (
+asyncio
+.
+AbstractEventLoop
+Coroutine
+[
 Any
+Any
+Any
+]
 Any
 )
 -
 >
+asyncio
+.
+Future
+[
 Any
+]
             
 async
 def
@@ -152,7 +222,7 @@ type
 )
 -
 >
-None
+Any
                 
 hub
 =
@@ -162,6 +232,10 @@ Hub
 .
 current
 )
+                
+result
+=
+None
                 
 with
 hub
@@ -179,15 +253,18 @@ OP
 FUNCTION
 description
 =
+get_name
+(
 coro
-.
-__qualname__
+)
 )
 :
                         
 try
 :
                             
+result
+=
 await
 coro
                         
@@ -203,6 +280,9 @@ _capture_exception
 hub
 )
 )
+                
+return
+result
             
 #
 Trying
@@ -230,11 +310,10 @@ loop
 _coro_creating_hub_and_span
 (
 )
+*
+*
+kwargs
 )
-#
-type
-:
-ignore
             
 #
 The
@@ -308,6 +387,9 @@ _coro_creating_hub_and_span
 loop
 =
 loop
+*
+*
+kwargs
 )
             
 if
@@ -342,6 +424,10 @@ set_task_factory
 (
 _sentry_task_factory
 )
+#
+type
+:
+ignore
     
 except
 RuntimeError

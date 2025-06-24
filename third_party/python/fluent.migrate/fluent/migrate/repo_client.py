@@ -511,6 +511,12 @@ line
 7
 :
 ]
+or
+"
+[
+noname
+]
+"
                 
 elif
 line
@@ -525,8 +531,7 @@ mail
 )
 :
                     
-user
-+
+email
 =
 line
 [
@@ -537,6 +542,25 @@ line
 includes
 leading
 space
+                    
+user
++
+=
+email
+if
+email
+!
+=
+'
+<
+>
+'
+else
+'
+<
+nomail
+>
+'
                 
 elif
 line

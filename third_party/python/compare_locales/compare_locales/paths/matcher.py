@@ -82,30 +82,27 @@ forth
 ANDROID_LEGACY_MAP
 =
 {
-    
-'
+"
 he
-'
+"
 :
-'
+"
 iw
-'
-    
-'
+"
+"
 id
-'
+"
 :
-'
+"
 in
-'
-    
-'
+"
+"
 yi
-'
+"
 :
-'
+"
 ji
-'
+"
 }
 ANDROID_STANDARD_MAP
 =
@@ -114,7 +111,6 @@ ANDROID_STANDARD_MAP
 legacy
 :
 standard
-    
 for
 standard
 legacy
@@ -129,9 +125,9 @@ class
 Matcher
 :
     
-'
-'
-'
+"
+"
+"
 Path
 pattern
 matcher
@@ -213,9 +209,9 @@ and
 forth
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -235,9 +231,9 @@ None
 )
 :
         
-'
-'
-'
+"
+"
+"
 Create
 regular
 expression
@@ -249,10 +245,9 @@ match
 (
 )
 .
-        
-'
-'
-'
+"
+"
+"
         
 parser
 =
@@ -318,9 +313,9 @@ abspath
 root
 )
 +
-'
+"
 /
-'
+"
         
 #
 allow
@@ -533,9 +528,9 @@ path
 )
 :
         
-'
-'
-'
+"
+"
+"
 Test
 the
 given
@@ -574,9 +569,9 @@ a
 match
 .
         
-'
-'
-'
+"
+"
+"
         
 self
 .
@@ -646,15 +641,15 @@ items
 }
         
 if
-'
+"
 android_locale
-'
+"
 in
 d
 and
-'
+"
 locale
-'
+"
 not
 in
 d
@@ -671,9 +666,9 @@ locale
 =
 d
 [
-'
+"
 android_locale
-'
+"
 ]
             
 #
@@ -705,7 +700,7 @@ sub
 (
                 
 r
-'
+"
 (
 iw
 |
@@ -721,7 +716,7 @@ Z
 |
 -
 )
-'
+"
                 
 lambda
 legacy
@@ -747,7 +742,7 @@ re
 sub
 (
 r
-'
+"
 -
 r
 (
@@ -760,13 +755,13 @@ Z
 2
 }
 )
-'
+"
 r
-'
+"
 -
 \
 1
-'
+"
 locale
 )
             
@@ -776,29 +771,29 @@ locale
 .
 replace
 (
-'
+"
 b
 +
-'
-'
-'
+"
+"
+"
 )
 .
 replace
 (
-'
+"
 +
-'
-'
+"
+"
 -
-'
+"
 )
             
 d
 [
-'
+"
 locale
-'
+"
 ]
 =
 locale
@@ -837,8 +832,8 @@ self
 env
 )
 +
-'
-'
+"
+"
         
 if
 self
@@ -880,9 +875,9 @@ path
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Replace
 the
@@ -902,9 +897,9 @@ Match
 object
 .
         
-'
-'
-'
+"
+"
+"
         
 m
 =
@@ -945,8 +940,8 @@ is
 not
 None
 else
-'
-'
+"
+"
 )
 )
             
@@ -1013,9 +1008,9 @@ other
 )
 :
         
-'
-'
-'
+"
+"
+"
 Concat
 two
 Matcher
@@ -1064,9 +1059,9 @@ parent
 directories
 .
         
-'
-'
-'
+"
+"
+"
         
 if
 not
@@ -1109,14 +1104,14 @@ None
 raise
 ValueError
 (
-'
+"
 Other
 matcher
 must
 not
 be
 rooted
-'
+"
 )
         
 result
@@ -1201,7 +1196,7 @@ self
 :
         
 return
-'
+"
 {
 }
 (
@@ -1222,7 +1217,7 @@ root
 r
 }
 )
-'
+"
 .
 format
 (
@@ -1272,9 +1267,9 @@ other
 )
 :
         
-'
-'
-'
+"
+"
+"
 Equality
 for
 Matcher
@@ -1309,9 +1304,9 @@ are
 OK
 .
         
-'
-'
-'
+"
+"
+"
         
 if
 other
@@ -1415,9 +1410,9 @@ env
 )
 :
     
-'
-'
-'
+"
+"
+"
 Expand
 a
 given
@@ -1447,9 +1442,9 @@ contains
 wildcards
 .
     
-'
-'
-'
+"
+"
+"
     
 matcher
 =
@@ -1481,9 +1476,9 @@ class
 Node
 :
     
-'
-'
-'
+"
+"
+"
 Abstract
 base
 class
@@ -1494,9 +1489,9 @@ in
 parsed
 patterns
 .
-'
-'
-'
+"
+"
+"
     
 def
 regex_pattern
@@ -1506,9 +1501,9 @@ env
 )
 :
         
-'
-'
-'
+"
+"
+"
 Create
 a
 regular
@@ -1518,9 +1513,9 @@ for
 this
 Node
 .
-'
-'
-'
+"
+"
+"
         
 raise
 NotImplementedError
@@ -1533,9 +1528,9 @@ env
 )
 :
         
-'
-'
-'
+"
+"
+"
 Convert
 this
 node
@@ -1547,9 +1542,9 @@ the
 given
 environment
 .
-'
-'
-'
+"
+"
+"
         
 raise
 NotImplementedError
@@ -1587,9 +1582,9 @@ root
 getattr
 (
 iterable
-'
+"
 root
-'
+"
 None
 )
         
@@ -1600,9 +1595,9 @@ prefix_length
 getattr
 (
 iterable
-'
+"
 prefix_length
-'
+"
 None
 )
     
@@ -1616,8 +1611,8 @@ env
         
 root
 =
-'
-'
+"
+"
         
 if
 self
@@ -1678,12 +1673,11 @@ root
 return
 root
 +
-'
-'
+"
+"
 .
 join
 (
-            
 child
 .
 regex_pattern
@@ -1694,7 +1688,6 @@ for
 child
 in
 self
-        
 )
     
 def
@@ -1710,8 +1703,8 @@ False
         
 root
 =
-'
-'
+"
+"
         
 if
 self
@@ -1767,8 +1760,8 @@ root
 return
 root
 +
-'
-'
+"
+"
 .
 join
 (
@@ -1893,8 +1886,6 @@ return
 True
         
 return
-(
-            
 self
 .
 root
@@ -1903,7 +1894,6 @@ root
 other
 .
 root
-            
 and
 self
 .
@@ -1913,8 +1903,6 @@ prefix_length
 other
 .
 prefix_length
-        
-)
 class
 Literal
 (
@@ -1998,7 +1986,7 @@ repeat
             
 return
 f
-'
+"
 (
 ?
 P
@@ -2009,11 +1997,11 @@ self
 name
 }
 )
-'
+"
         
 return
 f
-'
+"
 (
 ?
 P
@@ -2033,7 +2021,7 @@ env
 )
 }
 )
-'
+"
     
 def
 _pattern_from_env
@@ -2088,11 +2076,11 @@ path
 segments
         
 return
-'
+"
 .
 +
 ?
-'
+"
     
 def
 expand
@@ -2105,9 +2093,9 @@ False
 )
 :
         
-'
-'
-'
+"
+"
+"
 Create
 a
 string
@@ -2146,9 +2134,9 @@ variable
 references
 .
         
-'
-'
-'
+"
+"
+"
         
 if
 self
@@ -2172,7 +2160,6 @@ name
 .
 expand
 (
-            
 self
 .
 _no_cycle
@@ -2182,7 +2169,6 @@ env
 raise_missing
 =
 raise_missing
-        
 )
     
 def
@@ -2193,9 +2179,9 @@ env
 )
 :
         
-'
-'
-'
+"
+"
+"
 Remove
 our
 variable
@@ -2216,9 +2202,9 @@ cyclic
 references
 .
         
-'
-'
-'
+"
+"
+"
         
 if
 self
@@ -2316,8 +2302,6 @@ return
 False
         
 return
-(
-            
 self
 .
 name
@@ -2326,7 +2310,6 @@ name
 other
 .
 name
-            
 and
 self
 .
@@ -2336,8 +2319,6 @@ repeat
 other
 .
 repeat
-        
-)
 class
 AndroidLocale
 (
@@ -2345,9 +2326,9 @@ Variable
 )
 :
     
-'
-'
-'
+"
+"
+"
 Subclass
 for
 Android
@@ -2392,9 +2373,9 @@ b
 +
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -2410,9 +2391,9 @@ self
 .
 name
 =
-'
+"
 android_locale
-'
+"
         
 self
 .
@@ -2453,11 +2434,11 @@ android_locale
 )
         
 return
-'
+"
 .
 +
 ?
-'
+"
     
 def
 expand
@@ -2470,9 +2451,9 @@ False
 )
 :
         
-'
-'
-'
+"
+"
+"
 Create
 a
 string
@@ -2511,9 +2492,9 @@ variable
 references
 .
         
-'
-'
-'
+"
+"
+"
         
 android_locale
 =
@@ -2545,9 +2526,9 @@ env
 :
         
 if
-'
+"
 locale
-'
+"
 not
 in
 env
@@ -2562,9 +2543,9 @@ bcp47
 =
 env
 [
-'
+"
 locale
-'
+"
 ]
 .
 expand
@@ -2608,7 +2589,7 @@ sub
 (
             
 r
-'
+"
 (
 he
 |
@@ -2624,7 +2605,7 @@ Z
 |
 -
 )
-'
+"
             
 lambda
 standard
@@ -2649,7 +2630,7 @@ re
 match
 (
 r
-'
+"
 [
 a
 -
@@ -2668,21 +2649,21 @@ Z
 {
 2
 }
-'
+"
 bcp47
 )
 :
             
 android
 =
-'
+"
 {
 }
 -
 r
 {
 }
-'
+"
 .
 format
 (
@@ -2691,37 +2672,37 @@ bcp47
 .
 split
 (
-'
+"
 -
-'
+"
 )
 )
         
 elif
-'
+"
 -
-'
+"
 in
 bcp47
 :
             
 android
 =
-'
+"
 b
 +
-'
+"
 +
 bcp47
 .
 replace
 (
-'
+"
 -
-'
-'
+"
+"
 +
-'
+"
 )
         
 return
@@ -2757,7 +2738,7 @@ env
         
 return
 f
-'
+"
 (
 ?
 P
@@ -2775,7 +2756,7 @@ number
 ]
 *
 )
-'
+"
     
 def
 expand
@@ -2791,11 +2772,11 @@ False
 return
 env
 [
-'
+"
 s
 %
 d
-'
+"
 %
 self
 .
@@ -2903,7 +2884,7 @@ env
         
 return
 f
-'
+"
 (
 ?
 P
@@ -2924,7 +2905,7 @@ suffix
 }
 )
 ?
-'
+"
     
 def
 __ne__
@@ -2983,7 +2964,7 @@ compile
 (
     
 r
-'
+"
 (
 ?
 P
@@ -3014,15 +2995,15 @@ suffix
 |
 )
 )
-'
+"
     
 r
-'
+"
 |
-'
+"
     
 r
-'
+"
 (
 ?
 P
@@ -3032,15 +3013,15 @@ star
 \
 *
 )
-'
+"
     
 r
-'
+"
 |
-'
+"
     
 r
-'
+"
 (
 ?
 P
@@ -3064,7 +3045,7 @@ w
 *
 }
 )
-'
+"
 )
 class
 PatternParser
@@ -3217,7 +3198,6 @@ pattern
 .
 append
 (
-                    
 Literal
 (
 pattern
@@ -3233,7 +3213,6 @@ start
 )
 ]
 )
-                
 )
             
 self
@@ -3302,9 +3281,9 @@ match
 .
 group
 (
-'
+"
 variable
-'
+"
 )
 :
             
@@ -3349,9 +3328,9 @@ match
 .
 group
 (
-'
+"
 varname
-'
+"
 )
         
 #
@@ -3377,9 +3356,9 @@ if
 varname
 =
 =
-'
+"
 android_locale
-'
+"
 :
             
 self
@@ -3478,9 +3457,9 @@ match
 .
 group
 (
-'
+"
 star
-'
+"
 )
 :
             
@@ -3519,9 +3498,9 @@ match
 .
 group
 (
-'
+"
 suffix
-'
+"
 )
 )
 )

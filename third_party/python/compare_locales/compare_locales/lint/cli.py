@@ -98,9 +98,9 @@ import
 version
 epilog
 =
-'
-'
-'
+"
+"
+"
 \
 moz
 -
@@ -151,9 +151,9 @@ a
 new
 ID
 .
-'
-'
-'
+"
+"
+"
 def
 main
 (
@@ -169,11 +169,11 @@ ArgumentParser
         
 description
 =
-'
+"
 Validate
 localizable
 strings
-'
+"
         
 epilog
 =
@@ -185,60 +185,58 @@ p
 .
 add_argument
 (
-'
+"
 l10n_toml
-'
+"
 )
     
 p
 .
 add_argument
 (
-        
-'
+"
 -
 -
 version
-'
+"
 action
 =
-'
+"
 version
-'
+"
 version
 =
-'
+"
 %
 (
 prog
 )
 s
-'
+"
 +
 version
-    
 )
     
 p
 .
 add_argument
 (
-'
+"
 -
 W
-'
+"
 action
 =
-'
+"
 store_true
-'
+"
 help
 =
-'
+"
 error
 on
 warnings
-'
+"
 )
     
 p
@@ -246,29 +244,29 @@ p
 add_argument
 (
         
-'
+"
 -
 -
 l10n
 -
 reference
-'
+"
         
 dest
 =
-'
+"
 l10n_reference
-'
+"
         
 metavar
 =
-'
+"
 PATH
-'
+"
         
 help
 =
-'
+"
 check
 for
 conflicts
@@ -279,14 +277,14 @@ l10n
 only
 reference
 repository
-'
+"
         
-'
+"
 like
 gecko
 -
 strings
-'
+"
     
 )
     
@@ -295,29 +293,29 @@ p
 add_argument
 (
         
-'
+"
 -
 -
 reference
 -
 project
-'
+"
         
 dest
 =
-'
+"
 ref_project
-'
+"
         
 metavar
 =
-'
+"
 PATH
-'
+"
         
 help
 =
-'
+"
 check
 for
 conflicts
@@ -326,13 +324,12 @@ a
 reference
 project
 like
-'
-        
-'
+"
+"
 android
 -
 l10n
-'
+"
     
 )
     
@@ -353,8 +350,6 @@ l10n_reference
 l10n_base
 locale
 =
-\
-            
 os
 .
 path
@@ -394,13 +389,13 @@ p
 .
 error
 (
-'
+"
 Pass
 an
 existing
 l10n
 reference
-'
+"
 )
     
 else
@@ -408,9 +403,9 @@ else
         
 l10n_base
 =
-'
+"
 .
-'
+"
         
 locale
 =
@@ -432,9 +427,9 @@ l10n_toml
 env
 =
 {
-'
+"
 l10n_base
-'
+"
 :
 l10n_base
 }
@@ -495,12 +490,10 @@ get_reference_and_tests
 =
 mirror_reference_and_tests
 (
-            
 files
 args
 .
 ref_project
-        
 )
     
 linter
@@ -559,15 +552,15 @@ all
 (
 r
 [
-'
+"
 level
-'
+"
 ]
 =
 =
-'
+"
 warning
-'
+"
 for
 r
 in
@@ -592,7 +585,8 @@ results
         
 print
 (
-'
+            
+"
 {
 }
 (
@@ -605,54 +599,55 @@ print
 :
 {
 }
-'
+"
 .
 format
 (
-            
+                
 mozpath
 .
 relpath
 (
 result
 [
-'
+"
 path
-'
+"
 ]
-'
+"
 .
-'
+"
 )
-            
+                
 result
 .
 get
 (
-'
+"
 lineno
-'
+"
 0
 )
-            
+                
 result
 .
 get
 (
-'
+"
 column
-'
+"
 0
 )
-            
+                
 result
 [
-'
+"
 message
-'
+"
 ]
-        
+            
 )
+        
 )
     
 return
@@ -661,9 +656,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 main

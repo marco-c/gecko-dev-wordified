@@ -887,6 +887,19 @@ setcbreak
 filehandle
 )
             
+#
+pylint
+:
+disable
+=
+attribute
+-
+defined
+-
+outside
+-
+init
+            
 try
 :
                 
@@ -1076,6 +1089,19 @@ setraw
 (
 filehandle
 )
+            
+#
+pylint
+:
+disable
+=
+attribute
+-
+defined
+-
+outside
+-
+init
             
 try
 :

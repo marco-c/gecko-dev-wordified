@@ -175,9 +175,9 @@ class
 Entry
 :
     
-'
-'
-'
+"
+"
+"
     
 Abstraction
 layer
@@ -234,14 +234,13 @@ definition
 -
 >
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
 (
-        
 self
 ctx
 pre_comment
@@ -249,7 +248,6 @@ inner_white
 span
 key_span
 val_span
-    
 )
 :
         
@@ -493,9 +491,9 @@ if
 hasattr
 (
 self
-'
+"
 pre_comment
-'
+"
 )
 and
 self
@@ -663,7 +661,7 @@ re
 .
 compile
 (
-'
+"
 <
 br
 [
@@ -678,7 +676,7 @@ n
 /
 ?
 >
-'
+"
 re
 .
 U
@@ -691,7 +689,7 @@ re
 compile
 (
 r
-'
+"
 <
 /
 ?
@@ -702,7 +700,7 @@ w
 *
 ?
 >
-'
+"
 re
 .
 U
@@ -756,10 +754,10 @@ re_br
 .
 sub
 (
-'
+"
 \
 n
-'
+"
 self
 .
 val
@@ -773,8 +771,8 @@ re_sgml
 .
 sub
 (
-'
-'
+"
+"
 value
 )
         
@@ -865,9 +863,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
 Is
 this
 entity
@@ -891,9 +889,9 @@ dynamic
 property
 .
         
-'
-'
-'
+"
+"
+"
         
 return
 True
@@ -918,7 +916,6 @@ used
 by
 tools
 .
-        
 "
 "
 "
@@ -990,11 +987,11 @@ val_span
 0
 ]
 ]
-+
             
++
 raw_val
-+
             
++
 self
 .
 ctx
@@ -1170,7 +1167,6 @@ removed
 in
 merges
 .
-    
 "
 "
 "
@@ -1299,9 +1295,9 @@ Comment
 )
 :
     
-'
-'
-'
+"
+"
+"
 Helper
 for
 file
@@ -1326,9 +1322,9 @@ defaults
 to
 1
     
-'
-'
-'
+"
+"
+"
     
 comment_offset
 =
@@ -1355,13 +1351,13 @@ self
 .
 _val_cache
 =
-'
-'
+"
+"
 .
 join
 (
                 
-l
+line
 [
 self
 .
@@ -1369,7 +1365,7 @@ comment_offset
 :
 ]
 for
-l
+line
 in
 self
 .
@@ -1390,9 +1386,9 @@ class
 Junk
 :
     
-'
-'
-'
+"
+"
+"
     
 An
 almost
@@ -1438,9 +1434,9 @@ in
 localizations
 .
     
-'
-'
-'
+"
+"
+"
     
 junkid
 =
@@ -1480,7 +1476,7 @@ self
 .
 key
 =
-'
+"
 _junk_
 %
 d_
@@ -1489,7 +1485,7 @@ d
 -
 %
 d
-'
+"
 %
 (
 self
@@ -1702,7 +1698,7 @@ column
 d
 '
             
-'
+"
 to
 line
 %
@@ -1710,7 +1706,7 @@ d
 column
 %
 d
-'
+"
 %
 params
         
@@ -1734,9 +1730,9 @@ Entry
 )
 :
     
-'
-'
-'
+"
+"
+"
 Entity
 -
 like
@@ -1751,9 +1747,9 @@ whitespace
 if
 allowed
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -1802,9 +1798,9 @@ ValueError
 )
 :
     
-'
-'
-'
+"
+"
+"
 Raised
 when
 the
@@ -1820,10 +1816,9 @@ a
 found
 match
 .
-    
-'
-'
-'
+"
+"
+"
     
 pass
 class
@@ -1842,7 +1837,7 @@ re
 .
 compile
 (
-'
+"
 [
 \
 t
@@ -1852,7 +1847,7 @@ r
 n
 ]
 +
-'
+"
 re
 .
 M
@@ -1949,10 +1944,10 @@ re
 .
 compile
 (
-'
+"
 \
 n
-'
+"
 re
 .
 M
@@ -1968,7 +1963,6 @@ m
 end
 (
 )
-                               
 for
 m
 in
@@ -2035,9 +2029,9 @@ not
 hasattr
 (
 self
-'
+"
 encoding
-'
+"
 )
 :
             
@@ -2045,11 +2039,11 @@ self
 .
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
         
 self
 .
@@ -2065,18 +2059,18 @@ file
 )
 :
         
-'
-'
-'
+"
+"
+"
 Read
 contents
 from
 disk
 with
 universal_newlines
-'
-'
-'
+"
+"
+"
         
 if
 isinstance
@@ -2119,9 +2113,7 @@ paths
 with
 open
 (
-            
 file
-            
 encoding
 =
 self
@@ -2129,14 +2121,12 @@ self
 encoding
 errors
 =
-'
+"
 replace
-'
-            
+"
 newline
 =
 None
-        
 )
 as
 f
@@ -2161,9 +2151,9 @@ contents
 )
 :
         
-'
-'
-'
+"
+"
+"
 Read
 contents
 and
@@ -2184,9 +2174,9 @@ line
 endings
 .
         
-'
-'
-'
+"
+"
+"
         
 (
 contents
@@ -2203,9 +2193,9 @@ encoding
 )
 (
 contents
-'
+"
 replace
-'
+"
 )
         
 self
@@ -2371,9 +2361,9 @@ offset
 )
 :
         
-'
-'
-'
+"
+"
+"
 Parse
 the
 next
@@ -2455,9 +2445,9 @@ are
 joined
 .
         
-'
-'
-'
+"
+"
+"
         
 junk_offset
 =
@@ -2500,9 +2490,9 @@ offset
 <
 2
 and
-'
+"
 License
-'
+"
 in
 current_comment
 .
@@ -2609,13 +2599,10 @@ end
 )
             
 if
-(
-                
 current_comment
 is
 not
 None
-                
 and
 white_space
 .
@@ -2623,15 +2610,13 @@ raw_val
 .
 count
 (
-'
+"
 \
 n
-'
+"
 )
 >
 1
-            
-)
 :
                 
 #
@@ -2840,7 +2825,6 @@ Entity
 ctx
 current_comment
 white_space
-            
 m
 .
 span
@@ -2850,17 +2834,17 @@ m
 .
 span
 (
-'
+"
 key
-'
+"
 )
 m
 .
 span
 (
-'
+"
 val
-'
+"
 )
         
 )
@@ -2907,7 +2891,7 @@ cnt
                 
 yield
 f
-'
+"
 {
 entity_id
 }
@@ -2916,4 +2900,4 @@ occurs
 cnt
 }
 times
-'
+"

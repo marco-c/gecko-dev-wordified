@@ -25,6 +25,8 @@ capture_internal_exceptions
     
 event_from_exception
     
+parse_version
+    
 transaction_from_function
 )
 from
@@ -55,9 +57,9 @@ sentry_sdk
 .
 _types
 import
-MYPY
+TYPE_CHECKING
 if
-MYPY
+TYPE_CHECKING
 :
     
 from
@@ -252,42 +254,17 @@ type
 >
 None
         
-try
-:
-            
 version
 =
-tuple
+parse_version
 (
-map
-(
-int
 BOTTLE_VERSION
-.
-replace
-(
-"
--
-dev
-"
-"
-"
-)
-.
-split
-(
-"
-.
-"
-)
-)
 )
         
-except
-(
-TypeError
-ValueError
-)
+if
+version
+is
+None
 :
             
 raise
@@ -304,7 +281,7 @@ version
 .
 format
 (
-version
+BOTTLE_VERSION
 )
 )
         
@@ -1116,12 +1093,8 @@ hint
 type
 :
 (
-Dict
-[
-str
-Any
-]
-Dict
+Event
+dict
 [
 str
 Any
@@ -1129,11 +1102,7 @@ Any
 )
 -
 >
-Dict
-[
-str
-Any
-]
+Event
         
 _set_transaction_name_and_source
 (

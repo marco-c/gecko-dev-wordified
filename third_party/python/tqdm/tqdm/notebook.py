@@ -536,8 +536,6 @@ None
 return
 super
 (
-TqdmHBox
-self
 )
 .
 __repr__
@@ -1678,8 +1676,6 @@ True
         
 super
 (
-tqdm_notebook
-self
 )
 .
 __init__
@@ -1904,8 +1900,6 @@ it
 =
 super
 (
-tqdm_notebook
-self
 )
 .
 __iter__
@@ -2015,8 +2009,6 @@ try
 return
 super
 (
-tqdm_notebook
-self
 )
 .
 update
@@ -2128,8 +2120,6 @@ return
         
 super
 (
-tqdm_notebook
-self
 )
 .
 close
@@ -2315,8 +2305,6 @@ disable
 return
 super
 (
-tqdm_notebook
-self
 )
 .
 reset
@@ -2388,8 +2376,6 @@ width
 return
 super
 (
-tqdm_notebook
-self
 )
 .
 reset

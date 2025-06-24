@@ -31,9 +31,9 @@ sentry_sdk
 .
 _types
 import
-MYPY
+TYPE_CHECKING
 if
-MYPY
+TYPE_CHECKING
 :
     
 from
@@ -157,8 +157,7 @@ send
 %
 i
 pending
-error
-messages
+events
 "
 %
 pending

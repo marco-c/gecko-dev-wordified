@@ -92,7 +92,7 @@ content
 return
 sorted
 (
-l
+line
 .
 split
 (
@@ -101,7 +101,7 @@ split
 0
 ]
 for
-l
+line
 in
 content
 .
@@ -109,5 +109,5 @@ splitlines
 (
 )
 if
-l
+line
 )

@@ -88,14 +88,10 @@ from
 .
 base
 import
-(
-    
 Entity
 Comment
 Junk
-    
 Parser
-)
 class
 DTDEntityMixin
 :
@@ -109,9 +105,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
 Unescape
 HTML
 entities
@@ -203,9 +199,9 @@ entities
 .
 py
         
-'
-'
-'
+"
+"
+"
         
 return
 html_unescape
@@ -473,7 +469,7 @@ xEFFFF
     
 CharMinusDash
 =
-'
+"
 \
 x09
 \
@@ -495,11 +491,11 @@ uE000
 -
 \
 uFFFD
-'
+"
     
 XmlComment
 =
-'
+"
 <
 !
 -
@@ -519,13 +515,15 @@ s
 -
 -
 >
-'
+"
 %
 CharMinusDash
     
 NameStartChar
 =
-'
+(
+        
+"
 :
 A
 -
@@ -547,11 +545,10 @@ xF8
 -
 \
 u02FF
-'
-+
-\
+"
         
-'
++
+"
 \
 u0370
 -
@@ -572,11 +569,10 @@ u2070
 -
 \
 u218F
-'
-+
-\
+"
         
-'
++
+"
 \
 u2C00
 -
@@ -597,7 +593,9 @@ uFDF0
 -
 \
 uFFFD
-'
+"
+    
+)
     
 #
 +
@@ -660,7 +658,7 @@ NameChar
 NameStartChar
 +
 r
-'
+"
 \
 -
 \
@@ -668,9 +666,9 @@ r
 0
 -
 9
-'
+"
 +
-'
+"
 \
 xB7
 \
@@ -683,27 +681,27 @@ u203F
 -
 \
 u2040
-'
+"
     
 Name
 =
-'
+"
 [
-'
+"
 +
 NameStartChar
 +
-'
+"
 ]
 [
-'
+"
 +
 NameChar
 +
-'
+"
 ]
 *
-'
+"
     
 reKey
 =
@@ -711,7 +709,8 @@ re
 .
 compile
 (
-'
+        
+"
 <
 !
 ENTITY
@@ -730,11 +729,11 @@ P
 <
 key
 >
-'
+"
 +
 Name
 +
-'
+"
 )
 [
 \
@@ -745,9 +744,9 @@ r
 n
 ]
 +
-'
-                       
-'
+"
+        
+"
 (
 ?
 P
@@ -765,15 +764,12 @@ val
 \
 "
 |
-\
 '
 [
 ^
-\
 '
 ]
 *
-\
 '
 ?
 )
@@ -787,8 +783,8 @@ n
 ]
 *
 >
-'
-                       
+"
+        
 re
 .
 DOTALL
@@ -796,6 +792,7 @@ DOTALL
 re
 .
 M
+    
 )
     
 #
@@ -814,11 +811,11 @@ re
 .
 compile
 (
-'
+"
 ^
 \
 ufeff
-'
+"
 )
     
 reComment
@@ -827,7 +824,7 @@ re
 .
 compile
 (
-'
+"
 <
 !
 -
@@ -850,10 +847,9 @@ s
 -
 -
 >
-'
+"
 %
 CharMinusDash
-                           
 re
 .
 S
@@ -865,7 +861,8 @@ re
 .
 compile
 (
-'
+        
+"
 <
 !
 ENTITY
@@ -894,15 +891,15 @@ P
 <
 key
 >
-'
+"
 +
 Name
 +
-'
+"
 )
-'
-                      
-'
+"
+        
+"
 [
 \
 t
@@ -922,9 +919,9 @@ r
 n
 ]
 +
-'
-                      
-'
+"
+        
+"
 (
 ?
 P
@@ -942,15 +939,12 @@ val
 \
 "
 |
-\
 '
 [
 ^
-\
 '
 ]
 *
-\
 '
 )
 [
@@ -972,19 +966,19 @@ r
 n
 ]
 *
-'
-                      
-'
+"
+        
+"
 %
-'
+"
 +
 Name
 +
-'
+"
 ;
-'
-                      
-'
+"
+        
+"
 (
 ?
 :
@@ -996,11 +990,11 @@ t
 (
 ?
 :
-'
+"
 +
 XmlComment
 +
-'
+"
 [
 \
 t
@@ -1017,7 +1011,8 @@ n
 ?
 )
 ?
-'
+"
+    
 )
     
 class
@@ -1090,9 +1085,9 @@ offset
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Overload
 Parser
@@ -1133,9 +1128,9 @@ url
 foo
 ;
         
-'
-'
-'
+"
+"
+"
         
 if
 offset
@@ -1222,18 +1217,19 @@ m
 .
 span
 (
-'
+"
 key
-'
+"
 )
 m
 .
 span
 (
-'
+"
 val
-'
+"
 )
+                
 )
         
 return
@@ -1256,9 +1252,9 @@ m
 .
 span
 (
-'
+"
 val
-'
+"
 )
         
 valspan
@@ -1281,10 +1277,10 @@ valspan
 return
 DTDEntity
 (
+            
 ctx
 current_comment
 white_space
-                         
 m
 .
 span
@@ -1294,9 +1290,10 @@ m
 .
 span
 (
-'
+"
 key
-'
+"
 )
 valspan
+        
 )

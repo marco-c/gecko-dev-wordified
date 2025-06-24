@@ -1,14 +1,23 @@
+import
+sys
+from
+copy
+import
+deepcopy
 from
 datetime
 import
-datetime
 timedelta
 from
 os
 import
 environ
+from
+sentry_sdk
+.
+api
 import
-sys
+continue_trace
 from
 sentry_sdk
 .
@@ -28,13 +37,6 @@ sentry_sdk
 tracing
 import
 TRANSACTION_SOURCE_COMPONENT
-Transaction
-from
-sentry_sdk
-.
-_compat
-import
-reraise
 from
 sentry_sdk
 .
@@ -69,12 +71,24 @@ _filter_headers
 from
 sentry_sdk
 .
+_compat
+import
+datetime_utcnow
+reraise
+from
+sentry_sdk
+.
 _types
 import
-MYPY
+TYPE_CHECKING
 if
-MYPY
+TYPE_CHECKING
 :
+    
+from
+datetime
+import
+datetime
     
 from
 typing
@@ -523,6 +537,14 @@ isinstance
 aws_event
 list
 )
+and
+len
+(
+aws_event
+)
+>
+=
+1
 :
             
 request_data
@@ -852,39 +874,44 @@ get
 "
 headers
 "
+{
+}
 )
             
 #
+Some
 AWS
-Service
-may
-set
-an
-explicit
-{
-headers
-:
-None
-}
-we
-can
-'
-t
-rely
-on
-.
-get
+Services
 (
-)
-'
-s
-default
+ie
 .
+EventBridge
+)
+set
+headers
+as
+a
+list
+            
+#
+or
+None
+so
+we
+must
+ensure
+it
+is
+a
+dict
             
 if
+not
+isinstance
+(
 headers
-is
-None
+dict
+)
 :
                 
 headers
@@ -894,9 +921,7 @@ headers
             
 transaction
 =
-Transaction
-.
-continue_from_headers
+continue_trace
 (
                 
 headers
@@ -2005,9 +2030,7 @@ EventProcessor
     
 start_time
 =
-datetime
-.
-utcnow
+datetime_utcnow
 (
 )
     
@@ -2437,7 +2460,10 @@ request
 "
 ]
 =
+deepcopy
+(
 request
+)
         
 return
 sentry_event
@@ -2795,9 +2821,7 @@ formatstring
 end_time
 =
 (
-datetime
-.
-utcnow
+datetime_utcnow
 (
 )
 +

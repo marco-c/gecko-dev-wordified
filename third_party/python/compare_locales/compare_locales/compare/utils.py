@@ -53,13 +53,13 @@ MPL
 0
 /
 .
-'
+"
 Mozilla
 l10n
 compare
 locales
 tool
-'
+"
 from
 compare_locales
 import
@@ -145,9 +145,9 @@ module
 .
 split
 (
-'
+"
 /
-'
+"
 )
             
 parts
@@ -159,9 +159,9 @@ file
 .
 split
 (
-'
+"
 /
-'
+"
 )
         
 else
@@ -173,9 +173,9 @@ leaf
 .
 split
 (
-'
+"
 /
-'
+"
 )
         
 return
@@ -424,8 +424,8 @@ value
     
 indent
 =
-'
-'
+"
+"
     
 def
 getContent
@@ -437,9 +437,9 @@ depth
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Returns
 iterator
@@ -480,9 +480,9 @@ key
 string
 .
         
-'
-'
-'
+"
+"
+"
         
 keys
 =
@@ -509,9 +509,9 @@ None
 yield
 (
 depth
-'
+"
 value
-'
+"
 self
 .
 value
@@ -526,9 +526,9 @@ keys
 yield
 (
 depth
-'
+"
 key
-'
+"
 key
 )
             
@@ -555,9 +555,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Returns
 this
@@ -588,9 +588,9 @@ JSON
 able
 .
         
-'
-'
-'
+"
+"
+"
         
 if
 self
@@ -608,9 +608,10 @@ value
         
 return
 {
-'
+            
+"
 /
-'
+"
 .
 join
 (
@@ -627,7 +628,6 @@ key
 toJSON
 (
 )
-                
 for
 key
 in
@@ -638,6 +638,7 @@ branches
 keys
 (
 )
+        
 }
     
 def
@@ -661,9 +662,9 @@ t
 ]
 =
 =
-'
+"
 key
-'
+"
 :
                 
 return
@@ -676,9 +677,9 @@ t
 0
 ]
 +
-'
+"
 /
-'
+"
 .
 join
 (
@@ -734,10 +735,10 @@ self
 :
         
 return
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -789,9 +790,9 @@ left
 =
 list
 (
-l
+li
 for
-l
+li
 in
 left
 )
@@ -823,9 +824,9 @@ right
 =
 list
 (
-l
+li
 for
-l
+li
 in
 right
 )
@@ -1011,9 +1012,9 @@ right_items
                 
 yield
 (
-'
+"
 equal
-'
+"
 item
 )
             
@@ -1025,9 +1026,9 @@ left_items
                 
 yield
 (
-'
+"
 delete
-'
+"
 item
 )
             
@@ -1036,8 +1037,8 @@ else
                 
 yield
 (
-'
+"
 add
-'
+"
 item
 )

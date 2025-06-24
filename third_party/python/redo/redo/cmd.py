@@ -83,13 +83,13 @@ BLOCK
 *
 import
 logging
+import
+sys
 from
 subprocess
 import
-check_call
 CalledProcessError
-import
-sys
+check_call
 from
 redo
 import
@@ -106,14 +106,28 @@ def
 main
 (
 argv
+=
+None
 )
 :
     
 from
 argparse
 import
-ArgumentParser
 REMAINDER
+ArgumentParser
+    
+if
+argv
+is
+None
+:
+        
+argv
+=
+sys
+.
+argv
     
 parser
 =
@@ -125,7 +139,6 @@ parser
 .
 add_argument
 (
-        
 "
 -
 a
@@ -151,7 +164,6 @@ to
 retry
 .
 "
-    
 )
     
 parser
@@ -163,21 +175,17 @@ add_argument
 -
 s
 "
-        
 "
 -
 -
 sleeptime
 "
-        
 type
 =
 int
-        
 default
 =
 60
-        
 help
 =
 "
@@ -207,7 +215,6 @@ add_argument
 -
 m
 "
-        
 "
 -
 -
@@ -215,17 +222,14 @@ max
 -
 sleeptime
 "
-        
 type
 =
 int
-        
 default
 =
 5
 *
 60
-        
 help
 =
 "
@@ -274,7 +278,6 @@ parser
 .
 add_argument
 (
-        
 "
 cmd
 "
@@ -297,7 +300,6 @@ http
 /
 blah
 "
-    
 )
     
 args
@@ -443,7 +445,6 @@ log
 .
 error
 (
-            
 "
 Unable
 to
@@ -461,7 +462,6 @@ attempts
 exc_info
 =
 True
-        
 )
         
 rc
@@ -493,7 +493,4 @@ __main__
     
 main
 (
-sys
-.
-argv
 )

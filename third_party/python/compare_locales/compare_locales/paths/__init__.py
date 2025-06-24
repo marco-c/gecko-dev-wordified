@@ -70,9 +70,11 @@ import
 (
     
 L10nConfigParser
+    
 SourceTreeConfigParser
     
 EnumerateApp
+    
 EnumerateSourceTreeApp
 )
 from
@@ -95,41 +97,45 @@ __all__
 =
 [
     
-'
+"
 Matcher
-'
+"
     
-'
+"
 ProjectConfig
-'
+"
     
-'
+"
 L10nConfigParser
-'
-'
+"
+    
+"
 SourceTreeConfigParser
-'
+"
     
-'
+"
 EnumerateApp
-'
-'
+"
+    
+"
 EnumerateSourceTreeApp
-'
+"
     
-'
+"
 ProjectFiles
-'
-'
-REFERENCE_LOCALE
-'
+"
     
-'
+"
+REFERENCE_LOCALE
+"
+    
+"
 TOMLParser
-'
-'
+"
+    
+"
 ConfigNotFound
-'
+"
 ]
 class
 File

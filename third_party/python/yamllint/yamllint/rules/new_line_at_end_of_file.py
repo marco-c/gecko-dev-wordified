@@ -1,16 +1,4 @@
 #
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
-#
 Copyright
 (
 C
@@ -192,7 +180,7 @@ new
 line
 character
 <
-http
+https
 :
 /
 /

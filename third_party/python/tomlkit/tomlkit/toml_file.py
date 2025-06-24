@@ -218,6 +218,24 @@ r
 \
 n
 "
+                    
+content
+=
+content
+.
+replace
+(
+"
+\
+r
+\
+n
+"
+"
+\
+n
+"
+)
                 
 elif
 num_win_eol

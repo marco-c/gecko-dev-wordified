@@ -21,7 +21,7 @@ sentry_sdk
 .
 _types
 import
-MYPY
+TYPE_CHECKING
 from
 trytond
 .
@@ -43,7 +43,7 @@ type
 :
 ignore
 if
-MYPY
+TYPE_CHECKING
 :
     
 from

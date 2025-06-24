@@ -1,16 +1,4 @@
 #
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
-#
 Copyright
 (
 C
@@ -161,6 +149,8 @@ rules
 import
 (
     
+anchors
+    
 braces
     
 brackets
@@ -180,6 +170,8 @@ document_start
 empty_lines
     
 empty_values
+    
+float_values
     
 hyphens
     
@@ -207,6 +199,12 @@ _RULES
 =
 {
     
+anchors
+.
+ID
+:
+anchors
+    
 braces
 .
 ID
@@ -266,6 +264,12 @@ empty_values
 ID
 :
 empty_values
+    
+float_values
+.
+ID
+:
+float_values
     
 hyphens
 .
@@ -350,18 +354,18 @@ _RULES
 raise
 ValueError
 (
+f
 '
 no
 such
 rule
 :
 "
-%
-s
+{
+id
+}
 "
 '
-%
-id
 )
     
 return

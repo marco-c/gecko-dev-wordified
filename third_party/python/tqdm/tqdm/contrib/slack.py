@@ -212,8 +212,6 @@ channel
         
 super
 (
-SlackIO
-self
 )
 .
 __init__
@@ -780,8 +778,6 @@ mininterval
         
 super
 (
-tqdm_slack
-self
 )
 .
 __init__
@@ -805,8 +801,6 @@ kwargs
         
 super
 (
-tqdm_slack
-self
 )
 .
 display
@@ -987,8 +981,6 @@ kwargs
         
 super
 (
-tqdm_slack
-self
 )
 .
 clear

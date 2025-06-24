@@ -29,9 +29,9 @@ sentry_sdk
 .
 _types
 import
-MYPY
+TYPE_CHECKING
 if
-MYPY
+TYPE_CHECKING
 :
     
 from
@@ -40,9 +40,11 @@ import
 Any
     
 from
-typing
+sentry_sdk
+.
+_types
 import
-Dict
+Event
 MODULE_RE
 =
 r
@@ -299,12 +301,8 @@ hint
 type
 :
 (
-Dict
-[
-str
-Any
-]
-Dict
+Event
+dict
 [
 str
 Any
@@ -312,11 +310,7 @@ Any
 )
 -
 >
-Dict
-[
-str
-Any
-]
+Event
             
 with
 capture_internal_exceptions
@@ -342,12 +336,8 @@ hint
 type
 :
 (
-Dict
-[
-str
-Any
-]
-Dict
+Event
+dict
 [
 str
 Any
@@ -355,11 +345,7 @@ Any
 )
 -
 >
-Dict
-[
-str
-Any
-]
+Event
     
 if
 Hub

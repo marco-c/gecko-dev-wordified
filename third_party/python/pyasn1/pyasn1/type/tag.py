@@ -16,7 +16,7 @@ c
 )
 2005
 -
-2019
+2020
 Ilya
 Etingof
 <
@@ -28,15 +28,19 @@ com
 #
 License
 :
-http
+https
 :
 /
 /
-snmplabs
-.
-com
-/
 pyasn1
+.
+readthedocs
+.
+io
+/
+en
+/
+latest
 /
 license
 .
@@ -601,8 +605,6 @@ else
             
 raise
 IndexError
-(
-)
     
 def
 __iter__

@@ -1,5 +1,4 @@
 from
-cbor2
 .
 decoder
 import
@@ -10,7 +9,6 @@ CBORDecodeError
 #
 noqa
 from
-cbor2
 .
 encoder
 import
@@ -22,7 +20,6 @@ shareable_encoder
 #
 noqa
 from
-cbor2
 .
 types
 import

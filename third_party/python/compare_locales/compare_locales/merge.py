@@ -53,9 +53,9 @@ MPL
 0
 /
 .
-'
-'
-'
+"
+"
+"
 Merge
 resources
 across
@@ -140,9 +140,9 @@ to
 newest
 instead
 .
-'
-'
-'
+"
+"
+"
 from
 collections
 import
@@ -213,9 +213,8 @@ UserWarning
 raise
 MergeNotSupportedError
 (
-            
 f
-'
+"
 Unsupported
 file
 format
@@ -225,7 +224,7 @@ name
 }
 )
 .
-'
+"
 )
     
 entities
@@ -258,9 +257,9 @@ True
 )
 :
     
-'
-'
-'
+"
+"
+"
 Merge
 parsed
 or
@@ -330,9 +329,9 @@ oldest
 first
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 parse_resource
@@ -555,6 +554,7 @@ map
 parse_resource
 resources
 )
+    
 )
     
 return
@@ -574,9 +574,9 @@ True
 )
 :
     
-'
-'
-'
+"
+"
+"
 Merge
 two
 OrderedDicts
@@ -624,9 +624,9 @@ older
 dict
 .
     
-'
-'
-'
+"
+"
+"
     
 diff
 =

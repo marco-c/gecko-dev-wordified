@@ -272,13 +272,19 @@ not
 isinstance
 (
 data
+(
+Table
+InlineTable
 Container
+)
 )
 and
 isinstance
 (
+        
 data
 Mapping
+    
 )
 :
         
@@ -351,6 +357,8 @@ Expecting
 Mapping
 or
 TOML
+Table
+or
 Container
 {
 type
@@ -478,6 +486,40 @@ keys
 in
 alphabetic
 order
+    
+:
+Example
+:
+    
+>
+>
+>
+with
+open
+(
+"
+output
+.
+toml
+"
+"
+w
+"
+)
+as
+fp
+:
+    
+.
+.
+.
+tomlkit
+.
+dump
+(
+data
+fp
+)
     
 "
 "
@@ -1061,7 +1103,10 @@ raw
 :
 str
 =
-None
+"
+[
+]
+"
 )
 -
 >
@@ -1151,19 +1196,6 @@ a
     
 "
 "
-"
-    
-if
-raw
-is
-None
-:
-        
-raw
-=
-"
-[
-]
 "
     
 return
@@ -2017,7 +2049,7 @@ item
 or
 raise
 a
-TypeError
+ConvertError
 .
     
 "

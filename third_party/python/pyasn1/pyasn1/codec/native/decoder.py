@@ -16,7 +16,7 @@ c
 )
 2005
 -
-2019
+2020
 Ilya
 Etingof
 <
@@ -28,20 +28,26 @@ com
 #
 License
 :
-http
+https
 :
 /
 /
-snmplabs
-.
-com
-/
 pyasn1
+.
+readthedocs
+.
+io
+/
+en
+/
+latest
 /
 license
 .
 html
 #
+import
+warnings
 from
 pyasn1
 import
@@ -50,6 +56,12 @@ from
 pyasn1
 import
 error
+from
+pyasn1
+.
+compat
+import
+_MISSING
 from
 pyasn1
 .
@@ -101,7 +113,7 @@ debug
 DEBUG_DECODER
 )
 class
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 object
 )
@@ -130,9 +142,9 @@ clone
 pyObject
 )
 class
-BitStringDecoder
+BitStringPayloadDecoder
 (
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 )
 :
     
@@ -166,7 +178,7 @@ pyObject
 )
 )
 class
-SequenceOrSetDecoder
+SequenceOrSetPayloadDecoder
 (
 object
 )
@@ -238,7 +250,7 @@ options
 return
 asn1Value
 class
-SequenceOfOrSetOfDecoder
+SequenceOfOrSetOfPayloadDecoder
 (
 object
 )
@@ -292,7 +304,7 @@ options
 return
 asn1Value
 class
-ChoiceDecoder
+ChoicePayloadDecoder
 (
 object
 )
@@ -365,7 +377,7 @@ break
         
 return
 asn1Value
-tagMap
+TAG_MAP
 =
 {
     
@@ -375,7 +387,7 @@ Integer
 .
 tagSet
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -385,7 +397,7 @@ Boolean
 .
 tagSet
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -395,7 +407,7 @@ BitString
 .
 tagSet
 :
-BitStringDecoder
+BitStringPayloadDecoder
 (
 )
     
@@ -405,7 +417,7 @@ OctetString
 .
 tagSet
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -415,7 +427,7 @@ Null
 .
 tagSet
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -425,7 +437,17 @@ ObjectIdentifier
 .
 tagSet
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
+(
+)
+    
+univ
+.
+RelativeOID
+.
+tagSet
+:
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -435,7 +457,7 @@ Enumerated
 .
 tagSet
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -445,7 +467,7 @@ Real
 .
 tagSet
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -455,7 +477,7 @@ Sequence
 .
 tagSet
 :
-SequenceOrSetDecoder
+SequenceOrSetPayloadDecoder
 (
 )
 #
@@ -469,7 +491,7 @@ Set
 .
 tagSet
 :
-SequenceOrSetDecoder
+SequenceOrSetPayloadDecoder
 (
 )
 #
@@ -483,7 +505,7 @@ Choice
 .
 tagSet
 :
-ChoiceDecoder
+ChoicePayloadDecoder
 (
 )
 #
@@ -502,7 +524,7 @@ UTF8String
 .
 tagSet
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -512,7 +534,7 @@ NumericString
 .
 tagSet
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -522,7 +544,7 @@ PrintableString
 .
 tagSet
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -532,7 +554,7 @@ TeletexString
 .
 tagSet
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -542,7 +564,7 @@ VideotexString
 .
 tagSet
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -552,7 +574,7 @@ IA5String
 .
 tagSet
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -562,7 +584,7 @@ GraphicString
 .
 tagSet
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -572,7 +594,7 @@ VisibleString
 .
 tagSet
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -582,7 +604,7 @@ GeneralString
 .
 tagSet
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -592,7 +614,7 @@ UniversalString
 .
 tagSet
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -602,7 +624,7 @@ BMPString
 .
 tagSet
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -616,7 +638,7 @@ ObjectDescriptor
 .
 tagSet
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -626,7 +648,7 @@ GeneralizedTime
 .
 tagSet
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -636,7 +658,7 @@ UTCTime
 .
 tagSet
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
 }
@@ -653,7 +675,7 @@ for
 faster
 codec
 lookup
-typeMap
+TYPE_MAP
 =
 {
     
@@ -663,7 +685,7 @@ Integer
 .
 typeId
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -673,7 +695,7 @@ Boolean
 .
 typeId
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -683,7 +705,7 @@ BitString
 .
 typeId
 :
-BitStringDecoder
+BitStringPayloadDecoder
 (
 )
     
@@ -693,7 +715,7 @@ OctetString
 .
 typeId
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -703,7 +725,7 @@ Null
 .
 typeId
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -713,7 +735,17 @@ ObjectIdentifier
 .
 typeId
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
+(
+)
+    
+univ
+.
+RelativeOID
+.
+typeId
+:
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -723,7 +755,7 @@ Enumerated
 .
 typeId
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -733,7 +765,7 @@ Real
 .
 typeId
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -748,7 +780,7 @@ Set
 .
 typeId
 :
-SequenceOrSetDecoder
+SequenceOrSetPayloadDecoder
 (
 )
     
@@ -758,7 +790,7 @@ SetOf
 .
 typeId
 :
-SequenceOfOrSetOfDecoder
+SequenceOfOrSetOfPayloadDecoder
 (
 )
     
@@ -768,7 +800,7 @@ Sequence
 .
 typeId
 :
-SequenceOrSetDecoder
+SequenceOrSetPayloadDecoder
 (
 )
     
@@ -778,7 +810,7 @@ SequenceOf
 .
 typeId
 :
-SequenceOfOrSetOfDecoder
+SequenceOfOrSetOfPayloadDecoder
 (
 )
     
@@ -788,7 +820,7 @@ Choice
 .
 typeId
 :
-ChoiceDecoder
+ChoicePayloadDecoder
 (
 )
     
@@ -798,7 +830,7 @@ Any
 .
 typeId
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -813,7 +845,7 @@ UTF8String
 .
 typeId
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -823,7 +855,7 @@ NumericString
 .
 typeId
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -833,7 +865,7 @@ PrintableString
 .
 typeId
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -843,7 +875,7 @@ TeletexString
 .
 typeId
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -853,7 +885,7 @@ VideotexString
 .
 typeId
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -863,7 +895,7 @@ IA5String
 .
 typeId
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -873,7 +905,7 @@ GraphicString
 .
 typeId
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -883,7 +915,7 @@ VisibleString
 .
 typeId
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -893,7 +925,7 @@ GeneralString
 .
 typeId
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -903,7 +935,7 @@ UniversalString
 .
 typeId
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -913,7 +945,7 @@ BMPString
 .
 typeId
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -927,7 +959,7 @@ ObjectDescriptor
 .
 typeId
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -937,7 +969,7 @@ GeneralizedTime
 .
 typeId
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
     
@@ -947,41 +979,70 @@ UTCTime
 .
 typeId
 :
-AbstractScalarDecoder
+AbstractScalarPayloadDecoder
 (
 )
 }
 class
-Decoder
+SingleItemDecoder
 (
 object
 )
 :
     
-#
-noinspection
-PyDefaultArgument
+TAG_MAP
+=
+TAG_MAP
+    
+TYPE_MAP
+=
+TYPE_MAP
     
 def
 __init__
 (
 self
 tagMap
+=
+_MISSING
 typeMap
+=
+_MISSING
+*
+*
+ignored
 )
 :
         
 self
 .
-__tagMap
+_tagMap
 =
 tagMap
+if
+tagMap
+is
+not
+_MISSING
+else
+self
+.
+TAG_MAP
         
 self
 .
-__typeMap
+_typeMap
 =
 typeMap
+if
+typeMap
+is
+not
+_MISSING
+else
+self
+.
+TYPE_MAP
     
 def
 __call__
@@ -1024,6 +1085,9 @@ scope
 s
 working
 with
+'
+                
+'
 type
 %
 s
@@ -1062,6 +1126,7 @@ error
 .
 PyAsn1Error
 (
+                
 '
 asn1Spec
 is
@@ -1077,6 +1142,9 @@ an
 ASN
 .
 1
+'
+                
+'
 Item
 not
 %
@@ -1098,7 +1166,7 @@ valueDecoder
 =
 self
 .
-__typeMap
+_typeMap
 [
 asn1Spec
 .
@@ -1146,7 +1214,7 @@ valueDecoder
 =
 self
 .
-__tagMap
+_tagMap
 [
 baseTagSet
 ]
@@ -1191,6 +1259,9 @@ Python
 type
 %
 s
+'
+                
+'
 <
 %
 s
@@ -1204,6 +1275,7 @@ valueDecoder
 )
 .
 __name__
+                          
 type
 (
 pyObject
@@ -1246,6 +1318,9 @@ ASN
 type
 %
 s
+'
+                
+'
 <
 %
 s
@@ -1259,6 +1334,7 @@ valueDecoder
 )
 .
 __name__
+                          
 type
 (
 value
@@ -1282,6 +1358,67 @@ pop
         
 return
 value
+class
+Decoder
+(
+object
+)
+:
+    
+SINGLE_ITEM_DECODER
+=
+SingleItemDecoder
+    
+def
+__init__
+(
+self
+*
+*
+options
+)
+:
+        
+self
+.
+_singleItemDecoder
+=
+self
+.
+SINGLE_ITEM_DECODER
+(
+*
+*
+options
+)
+    
+def
+__call__
+(
+self
+pyObject
+asn1Spec
+=
+None
+*
+*
+kwargs
+)
+:
+        
+return
+self
+.
+_singleItemDecoder
+(
+pyObject
+asn1Spec
+=
+asn1Spec
+*
+*
+kwargs
+)
 #
 :
 Turns
@@ -1641,6 +1778,76 @@ decode
 =
 Decoder
 (
+)
+def
+__getattr__
+(
+attr
+:
+str
+)
+:
+    
+if
+newAttr
+:
+=
+{
+"
 tagMap
+"
+:
+"
+TAG_MAP
+"
+"
 typeMap
+"
+:
+"
+TYPE_MAP
+"
+}
+.
+get
+(
+attr
+)
+:
+        
+warnings
+.
+warn
+(
+f
+"
+{
+attr
+}
+is
+deprecated
+.
+Please
+use
+{
+newAttr
+}
+instead
+.
+"
+DeprecationWarning
+)
+        
+return
+globals
+(
+)
+[
+newAttr
+]
+    
+raise
+AttributeError
+(
+attr
 )

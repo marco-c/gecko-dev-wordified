@@ -61,7 +61,7 @@ import
 mozpath
 REFERENCE_LOCALE
 =
-'
+"
 en
 -
 x
@@ -69,7 +69,7 @@ x
 moz
 -
 reference
-'
+"
 class
 ConfigList
 (
@@ -85,9 +85,9 @@ other
 )
 :
         
-'
-'
-'
+"
+"
+"
 Add
 configs
 from
@@ -104,10 +104,9 @@ this
 path
 yet
 .
-        
-'
-'
-'
+"
+"
+"
         
 for
 config
@@ -145,9 +144,9 @@ class
 ProjectFiles
 :
     
-'
-'
-'
+"
+"
+"
 Iterable
 object
 to
@@ -191,9 +190,9 @@ self
 test
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -407,29 +406,23 @@ paths
 :
                 
 if
-(
-                    
 locale
 and
-                    
-'
+"
 locales
-'
+"
 in
 paths
 and
-                    
 locale
 not
 in
 paths
 [
-'
+"
 locales
-'
+"
 ]
-                
-)
 :
                     
 continue
@@ -438,21 +431,21 @@ m
 =
 {
                     
-'
+"
 l10n
-'
+"
 :
 paths
 [
-'
+"
 l10n
-'
+"
 ]
 .
 with_env
 (
-{
                         
+{
 "
 locale
 "
@@ -460,45 +453,45 @@ locale
 locale
 or
 REFERENCE_LOCALE
-                    
 }
+                    
 )
                     
-'
+"
 module
-'
+"
 :
 paths
 .
 get
 (
-'
+"
 module
-'
+"
 )
                 
 }
                 
 if
-'
+"
 reference
-'
+"
 in
 paths
 :
                     
 m
 [
-'
+"
 reference
-'
+"
 ]
 =
 paths
 [
-'
+"
 reference
-'
+"
 ]
                 
 if
@@ -512,28 +505,27 @@ None
                     
 m
 [
-'
+"
 merge
-'
+"
 ]
 =
 paths
 [
-'
+"
 l10n
-'
+"
 ]
 .
 with_env
 (
-{
                         
+{
 "
 locale
 "
 :
 locale
-                        
 "
 l10n_base
 "
@@ -541,15 +533,15 @@ l10n_base
 self
 .
 mergebase
-                    
 }
+                    
 )
                 
 m
 [
-'
+"
 test
-'
+"
 ]
 =
 set
@@ -558,34 +550,34 @@ paths
 .
 get
 (
-'
+"
 test
-'
+"
 [
 ]
 )
 )
                 
 if
-'
+"
 locales
-'
+"
 in
 paths
 :
                     
 m
 [
-'
+"
 locales
-'
+"
 ]
 =
 paths
 [
-'
+"
 locales
-'
+"
 ]
 [
 :
@@ -748,36 +740,35 @@ i
 :
                 
 if
-(
 mozpath
 .
 realpath
 (
 m
 [
-'
+"
 l10n
-'
+"
 ]
 .
 prefix
 )
 !
 =
-                        
 mozpath
 .
 realpath
 (
+                    
 m_
 [
-'
+"
 l10n
-'
+"
 ]
 .
 prefix
-)
+                
 )
 :
                     
@@ -794,9 +785,9 @@ continue
 if
 m
 [
-'
+"
 l10n
-'
+"
 ]
 .
 pattern
@@ -804,9 +795,9 @@ pattern
 =
 m_
 [
-'
+"
 l10n
-'
+"
 ]
 .
 pattern
@@ -842,73 +833,74 @@ same
 thing
                 
 if
-'
+"
 reference
-'
+"
 in
 m
 :
                     
 if
-(
 mozpath
 .
 realpath
 (
 m
 [
-'
+"
 reference
-'
+"
 ]
 .
 prefix
 )
 !
 =
-                            
 mozpath
 .
 realpath
 (
+                        
 m_
 .
 get
 (
-'
+"
 reference
-'
+"
 )
 .
 prefix
-)
+                    
 )
 :
                         
 raise
 RuntimeError
 (
-'
+                            
+"
 Mismatch
 in
 reference
 for
-'
+"
+                            
 +
-                                           
 mozpath
 .
 realpath
 (
 m
 [
-'
+"
 l10n
-'
+"
 ]
 .
 prefix
 )
+                        
 )
                 
 drops
@@ -924,17 +916,17 @@ i
                 
 m
 [
-'
+"
 test
-'
+"
 ]
 |
 =
 m_
 [
-'
+"
 test
-'
+"
 ]
         
 drops
@@ -1029,17 +1021,17 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
 Iterate
 over
 locale
 files
 .
-'
-'
-'
+"
+"
+"
         
 known
 =
@@ -1058,9 +1050,9 @@ matcher
 =
 matchers
 [
-'
+"
 l10n
-'
+"
 ]
             
 for
@@ -1087,24 +1079,24 @@ path
 ]
 =
 {
-'
+"
 test
-'
+"
 :
 matchers
 .
 get
 (
-'
+"
 test
-'
+"
 )
 }
                     
 if
-'
+"
 reference
-'
+"
 in
 matchers
 :
@@ -1114,9 +1106,9 @@ known
 path
 ]
 [
-'
+"
 reference
-'
+"
 ]
 =
 matcher
@@ -1126,17 +1118,18 @@ sub
                             
 matchers
 [
-'
+"
 reference
-'
+"
 ]
 path
+                        
 )
                     
 if
-'
+"
 merge
-'
+"
 in
 matchers
 :
@@ -1146,29 +1139,28 @@ known
 path
 ]
 [
-'
+"
 merge
-'
+"
 ]
 =
 matcher
 .
 sub
 (
-                            
 matchers
 [
-'
+"
 merge
-'
+"
 ]
 path
 )
             
 if
-'
+"
 reference
-'
+"
 not
 in
 matchers
@@ -1180,9 +1172,9 @@ matcher
 =
 matchers
 [
-'
+"
 reference
-'
+"
 ]
             
 for
@@ -1204,9 +1196,9 @@ sub
 (
 matchers
 [
-'
+"
 l10n
-'
+"
 ]
 path
 )
@@ -1224,32 +1216,29 @@ l10npath
 ]
 =
 {
-                        
-'
+"
 reference
-'
+"
 :
 path
-                        
-'
+"
 test
-'
+"
 :
 matchers
 .
 get
 (
-'
+"
 test
-'
+"
 )
-                    
 }
                     
 if
-'
+"
 merge
-'
+"
 in
 matchers
 :
@@ -1259,22 +1248,20 @@ known
 l10npath
 ]
 [
-'
+"
 merge
-'
+"
 ]
 =
-\
-                            
 matcher
 .
 sub
 (
 matchers
 [
-'
+"
 merge
-'
+"
 ]
 path
 )
@@ -1300,23 +1287,23 @@ d
 .
 get
 (
-'
+"
 reference
-'
+"
 )
 d
 .
 get
 (
-'
+"
 merge
-'
+"
 )
 d
 [
-'
+"
 test
-'
+"
 ]
 )
     
@@ -1327,17 +1314,17 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
 Iterate
 over
 reference
 files
 .
-'
-'
-'
+"
+"
+"
         
 #
 unset
@@ -1382,9 +1369,9 @@ matchers
 :
             
 if
-'
+"
 reference
-'
+"
 not
 in
 matchers
@@ -1396,9 +1383,9 @@ matcher
 =
 matchers
 [
-'
+"
 reference
-'
+"
 ]
             
 for
@@ -1420,9 +1407,9 @@ sub
 (
 matchers
 [
-'
+"
 reference
-'
+"
 ]
 path
 )
@@ -1440,26 +1427,23 @@ refpath
 ]
 =
 {
-                        
-'
+"
 reference
-'
+"
 :
 path
-                        
-'
+"
 test
-'
+"
 :
 matchers
 .
 get
 (
-'
+"
 test
-'
+"
 )
-                    
 }
         
 for
@@ -1483,16 +1467,16 @@ d
 .
 get
 (
-'
+"
 reference
-'
+"
 )
 None
 d
 [
-'
+"
 test
-'
+"
 ]
 )
         
@@ -1510,9 +1494,9 @@ matcher
 )
 :
         
-'
-'
-'
+"
+"
+"
 Base
 implementation
 of
@@ -1542,9 +1526,9 @@ IO
 patterns
 .
         
-'
-'
-'
+"
+"
+"
         
 base
 =
@@ -1705,9 +1689,9 @@ path
 )
 :
         
-'
-'
-'
+"
+"
+"
 Return
 the
 tuple
@@ -1741,9 +1725,9 @@ actually
 exist
 .
         
-'
-'
-'
+"
+"
+"
         
 if
 (
@@ -1754,11 +1738,12 @@ locale
 is
 not
 None
-and
             
+and
 self
 .
 exclude
+            
 and
 self
 .
@@ -1789,9 +1774,9 @@ matcher
 =
 matchers
 [
-'
+"
 l10n
-'
+"
 ]
             
 if
@@ -1820,9 +1805,9 @@ merge
 None
                 
 if
-'
+"
 reference
-'
+"
 in
 matchers
 :
@@ -1835,17 +1820,17 @@ sub
 (
 matchers
 [
-'
+"
 reference
-'
+"
 ]
 path
 )
                 
 if
-'
+"
 merge
-'
+"
 in
 matchers
 :
@@ -1858,9 +1843,9 @@ sub
 (
 matchers
 [
-'
+"
 merge
-'
+"
 ]
 path
 )
@@ -1873,15 +1858,15 @@ matchers
 .
 get
 (
-'
+"
 test
-'
+"
 )
             
 if
-'
+"
 reference
-'
+"
 not
 in
 matchers
@@ -1893,9 +1878,9 @@ matcher
 =
 matchers
 [
-'
+"
 reference
-'
+"
 ]
             
 if
@@ -1922,17 +1907,17 @@ sub
 (
 matchers
 [
-'
+"
 l10n
-'
+"
 ]
 path
 )
                 
 if
-'
+"
 merge
-'
+"
 in
 matchers
 :
@@ -1945,9 +1930,9 @@ sub
 (
 matchers
 [
-'
+"
 merge
-'
+"
 ]
 path
 )
@@ -1960,7 +1945,7 @@ matchers
 .
 get
 (
-'
+"
 test
-'
+"
 )

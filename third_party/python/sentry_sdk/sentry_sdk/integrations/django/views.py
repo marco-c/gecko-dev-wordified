@@ -1,5 +1,3 @@
-import
-threading
 from
 sentry_sdk
 .
@@ -17,13 +15,13 @@ sentry_sdk
 .
 _types
 import
-MYPY
+TYPE_CHECKING
 from
 sentry_sdk
 import
 _functools
 if
-MYPY
+TYPE_CHECKING
 :
     
 from
@@ -282,7 +280,8 @@ integration
 middleware_spans
 :
             
-if
+is_async_view
+=
 (
                 
 iscoroutinefunction
@@ -303,6 +302,9 @@ callback
 )
             
 )
+            
+if
+is_async_view
 :
                 
 sentry_wrapped_callback
@@ -450,15 +452,9 @@ sentry_scope
 .
 profile
 .
-active_thread_id
-=
-threading
-.
-current_thread
+update_active_thread_id
 (
 )
-.
-ident
             
 with
 hub

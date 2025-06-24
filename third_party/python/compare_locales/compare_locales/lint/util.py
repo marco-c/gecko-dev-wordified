@@ -75,9 +75,9 @@ basedir
 )
 :
     
-'
-'
-'
+"
+"
+"
 Get
 reference
 files
@@ -92,10 +92,9 @@ l10n
 and
 friends
 .
-    
-'
-'
-'
+"
+"
+"
     
 def
 get_reference_and_tests
@@ -113,9 +112,9 @@ matchers
 :
             
 if
-'
+"
 reference
-'
+"
 not
 in
 matchers
@@ -127,9 +126,9 @@ matcher
 =
 matchers
 [
-'
+"
 reference
-'
+"
 ]
             
 if
@@ -173,9 +172,9 @@ matchers
 .
 get
 (
-'
+"
 test
-'
+"
 )
         
 return
@@ -191,9 +190,9 @@ files
 )
 :
     
-'
-'
-'
+"
+"
+"
 Get
 reference
 files
@@ -208,10 +207,9 @@ strings
 and
 friends
 .
-    
-'
-'
-'
+"
+"
+"
     
 def
 get_reference_and_tests

@@ -69,18 +69,18 @@ re
 .
 compile
 (
-'
+"
 \
 ufffd
-'
+"
 )
 class
 Checker
 :
     
-'
-'
-'
+"
+"
+"
 Abstract
 class
 to
@@ -90,10 +90,9 @@ per
 file
 type
 .
-    
-'
-'
-'
+"
+"
+"
     
 pattern
 =
@@ -176,9 +175,9 @@ l10nEnt
 )
 :
         
-'
-'
-'
+"
+"
+"
 Given
 the
 reference
@@ -244,9 +243,9 @@ encoding
 errors
 .
         
-'
-'
-'
+"
+"
+"
         
 for
 m
@@ -304,9 +303,9 @@ reference
 )
 :
         
-'
-'
-'
+"
+"
+"
 Set
 the
 reference
@@ -324,9 +323,9 @@ is
 True
 .
         
-'
-'
-'
+"
+"
+"
         
 self
 .
@@ -401,20 +400,20 @@ l10n_map
             
 yield
 (
-'
+"
 error
-'
+"
 0
-'
+"
 reference
 is
 a
 CSS
 spec
-'
-'
+"
+"
 css
-'
+"
 )
             
 return
@@ -425,20 +424,20 @@ errors
             
 yield
 (
-'
+"
 error
-'
+"
 0
-'
+"
 reference
 is
 a
 CSS
 spec
-'
-'
+"
+"
 css
-'
+"
 )
             
 return
@@ -471,13 +470,13 @@ msgs
 insert
 (
 0
-'
+"
 %
 s
 only
 in
 l10n
-'
+"
 %
 prop
 )
@@ -507,6 +506,7 @@ msgs
 .
 append
 (
+                        
 "
 units
 for
@@ -517,7 +517,7 @@ don
 t
 match
 "
-                                
+                        
 "
 (
 %
@@ -534,6 +534,7 @@ prop
 unit
 ref_unit
 )
+                    
 )
         
 for
@@ -551,13 +552,13 @@ msgs
 insert
 (
 0
-'
+"
 %
 s
 only
 in
 reference
-'
+"
 %
 prop
 )
@@ -568,20 +569,20 @@ msgs
             
 yield
 (
-'
+"
 warning
-'
+"
 0
-'
-'
+"
+"
 .
 join
 (
 msgs
 )
-'
+"
 css
-'
+"
 )
     
 def
@@ -597,9 +598,9 @@ not
 hasattr
 (
 self
-'
+"
 _css_spec
-'
+"
 )
 :
             
@@ -613,14 +614,14 @@ compile
 (
                 
 r
-'
+"
 (
 ?
 :
-'
+"
                 
 r
-'
+"
 (
 ?
 P
@@ -647,10 +648,10 @@ width
 height
 )
 )
-'
+"
                 
 r
-'
+"
 [
 \
 t
@@ -670,10 +671,10 @@ r
 n
 ]
 *
-'
+"
                 
 r
-'
+"
 (
 ?
 P
@@ -702,10 +703,10 @@ length
 ]
 +
 )
-'
+"
                 
 r
-'
+"
 (
 ?
 P
@@ -732,19 +733,19 @@ pc
 |
 pt
 )
-'
+"
                 
 r
-'
+"
 )
-'
+"
                 
 r
-'
+"
 |
 \
 Z
-'
+"
             
 )
             
@@ -757,7 +758,7 @@ re
 compile
 (
 r
-'
+"
 [
 \
 t
@@ -785,7 +786,7 @@ r
 n
 ]
 *
-'
+"
 )
         
 refMap
@@ -890,27 +891,29 @@ errors
 .
 append
 (
-{
                         
-'
+{
+                            
+"
 pos
-'
+"
 :
 end
-                        
-'
+                            
+"
 code
-'
+"
 :
-'
+"
 css
 -
 bad
 -
 content
-'
-                    
+"
+                        
 }
+                    
 )
                 
 elif
@@ -922,9 +925,9 @@ split
 .
 group
 (
-'
+"
 semi
-'
+"
 )
 is
 None
@@ -941,27 +944,29 @@ errors
 .
 append
 (
-{
                         
-'
+{
+                            
+"
 pos
-'
+"
 :
 end
-                        
-'
+                            
+"
 code
-'
+"
 :
-'
+"
 css
 -
 missing
 -
 semicolon
-'
-                    
+"
+                        
 }
+                    
 )
             
 if
@@ -969,9 +974,9 @@ m
 .
 group
 (
-'
+"
 prop
-'
+"
 )
 :
                 
@@ -988,9 +993,9 @@ m
 .
 group
 (
-'
+"
 prop
-'
+"
 )
 ]
 =
@@ -998,9 +1003,9 @@ m
 .
 group
 (
-'
+"
 unit
-'
+"
 )
             
 end

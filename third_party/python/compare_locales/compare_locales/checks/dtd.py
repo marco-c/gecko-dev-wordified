@@ -176,13 +176,13 @@ re
 compile
 (
 r
-'
+"
 .
 *
 \
 .
 dtd
-'
+"
 )
     
 needs_reference
@@ -205,14 +205,14 @@ re
 .
 compile
 (
-'
+"
 &
 (
 %
 s
 )
 ;
-'
+"
 %
 DTDParser
 .
@@ -222,9 +222,9 @@ Name
 tmpl
 =
 b
-'
-'
-'
+"
+"
+"
 <
 !
 DOCTYPE
@@ -243,28 +243,28 @@ s
 /
 elem
 >
-'
-'
-'
+"
+"
+"
     
 xmllist
 =
 {
-'
+"
 amp
-'
-'
+"
+"
 lt
-'
-'
+"
+"
 gt
-'
-'
+"
+"
 apos
-'
-'
+"
+"
 quot
-'
+"
 }
     
 def
@@ -304,11 +304,11 @@ is
 not
 None
 and
-'
+"
 android
 -
 dtd
-'
+"
 in
 self
 .
@@ -376,7 +376,6 @@ __known_entities
 .
 update
 (
-                    
 self
 .
 entities_for_value
@@ -388,9 +387,12 @@ raw_val
 )
         
 return
+(
+            
 self
 .
 __known_entities
+            
 if
 self
 .
@@ -398,7 +400,6 @@ __known_entities
 is
 not
 None
-\
             
 else
 self
@@ -406,6 +407,8 @@ self
 entities_for_value
 (
 refValue
+)
+        
 )
     
 def
@@ -475,8 +478,8 @@ ContentHandler
         
 textcontent
 =
-'
-'
+"
+"
         
 def
 characters
@@ -512,7 +515,7 @@ TextContent
 numPattern
 =
 r
-'
+"
 (
 [
 0
@@ -536,7 +539,7 @@ r
 ]
 +
 )
-'
+"
     
 num
 =
@@ -544,18 +547,18 @@ re
 .
 compile
 (
-'
+"
 ^
 %
 s
-'
+"
 %
 numPattern
 )
     
 lengthPattern
 =
-'
+"
 %
 s
 (
@@ -569,7 +572,7 @@ cm
 |
 in
 )
-'
+"
 %
 numPattern
     
@@ -579,11 +582,11 @@ re
 .
 compile
 (
-'
+"
 ^
 %
 s
-'
+"
 %
 lengthPattern
 )
@@ -696,8 +699,8 @@ refValue
         
 entities
 =
-'
-'
+"
+"
 .
 join
 (
@@ -761,35 +764,36 @@ parse
                 
 BytesIO
 (
+                    
 self
 .
 tmpl
 %
-                        
 (
 entities
 .
 encode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
-                         
 refValue
 .
 encode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
 )
+                
 )
+            
 )
             
 #
@@ -805,12 +809,14 @@ parse
                 
 BytesIO
 (
+                    
 self
 .
 tmpl
+                    
 %
-                        
 (
+                        
 (
 refEnt
 .
@@ -821,20 +827,20 @@ entities
 .
 encode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
-                         
+                        
 b
-'
+"
 &
 %
 s
 ;
-'
+"
 %
 refEnt
 .
@@ -842,14 +848,17 @@ key
 .
 encode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
+                    
 )
+                
 )
+            
 )
         
 except
@@ -866,15 +875,13 @@ noqa
             
 yield
 (
-'
+"
 warning
-'
-                   
+"
 (
 0
 0
 )
-                   
 "
 can
 '
@@ -885,9 +892,9 @@ en
 US
 value
 "
-'
+"
 xmlparse
-'
+"
 )
         
 #
@@ -926,8 +933,8 @@ _entities
 =
 entities
 +
-'
-'
+"
+"
 .
 join
 (
@@ -961,8 +968,8 @@ texthandler
 .
 textcontent
 =
-'
-'
+"
+"
             
 parser
 .
@@ -980,8 +987,10 @@ parser
 .
 parse
 (
+                
 BytesIO
 (
+                    
 self
 .
 tmpl
@@ -991,25 +1000,26 @@ _entities
 .
 encode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
-                         
 l10nValue
 .
 encode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
 )
+                
 )
+            
 )
             
 #
@@ -1046,12 +1056,14 @@ parse
                 
 BytesIO
 (
+                    
 self
 .
 tmpl
+                    
 %
-                        
 (
+                        
 (
 l10nEnt
 .
@@ -1062,20 +1074,20 @@ _entities
 .
 encode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
-                         
+                        
 b
-'
+"
 &
 %
 s
 ;
-'
+"
 %
 l10nEnt
 .
@@ -1083,14 +1095,17 @@ key
 .
 encode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
+                    
 )
+                
 )
+            
 )
         
 except
@@ -1244,15 +1259,15 @@ DOCTYPE
             
 yield
 (
-'
+"
 error
-'
+"
 (
 lnr
 col
 )
-'
-'
+"
+"
 .
 join
 (
@@ -1260,20 +1275,20 @@ e
 .
 args
 )
-'
+"
 xmlparse
-'
+"
 )
         
 warntmpl
 =
-'
+"
 Referencing
 unknown
 entity
 %
 s
-'
+"
         
 if
 reflist
@@ -1292,19 +1307,17 @@ inContext
 warntmpl
 +
 =
-'
+"
 (
 %
 s
 used
 in
 context
-'
+"
 %
-\
-                    
-'
-'
+"
+"
 .
 join
 (
@@ -1321,15 +1334,15 @@ elsewhere
 warntmpl
 +
 =
-'
+"
 %
 s
 known
 )
-'
+"
 %
-'
-'
+"
+"
 .
 join
 (
@@ -1345,9 +1358,9 @@ else
 warntmpl
 +
 =
-'
+"
 )
-'
+"
             
 else
 :
@@ -1355,16 +1368,16 @@ else
 warntmpl
 +
 =
-'
+"
 (
 %
 s
 known
 )
-'
+"
 %
-'
-'
+"
+"
 .
 join
 (
@@ -1382,9 +1395,9 @@ missing
             
 yield
 (
-'
+"
 warning
-'
+"
 (
 0
 0
@@ -1392,10 +1405,9 @@ warning
 warntmpl
 %
 key
-                   
-'
+"
 xmlparse
-'
+"
 )
         
 if
@@ -1435,15 +1447,17 @@ mismatch
                 
 yield
 (
-'
+                    
+"
 warning
-'
+"
+                    
 (
 0
 0
 )
-                       
-'
+                    
+"
 Entity
 {
 }
@@ -1454,15 +1468,14 @@ but
 used
 in
 context
-'
+"
 .
 format
 (
-                           
+                        
 key
-                           
-'
-'
+"
+"
 .
 join
 (
@@ -1471,11 +1484,13 @@ sorted
 inContext
 )
 )
-                
+                    
 )
-'
+                    
+"
 xmlparse
-'
+"
+                
 )
         
 #
@@ -1505,19 +1520,19 @@ l10nValue
             
 yield
 (
-'
+"
 warning
-'
+"
 0
-'
+"
 reference
 is
 a
 number
-'
-'
+"
+"
 number
-'
+"
 )
         
 #
@@ -1557,20 +1572,20 @@ l10nValue
             
 yield
 (
-'
+"
 error
-'
+"
 0
-'
+"
 reference
 is
 a
 CSS
 length
-'
-'
+"
+"
 css
-'
+"
 )
         
 #
@@ -1600,11 +1615,11 @@ is
 not
 None
 and
-'
+"
 android
 -
 dtd
-'
+"
 in
 self
 .
@@ -1814,12 +1829,12 @@ str
 .
 encode
 (
-'
+"
 ascii
-'
-'
+"
+"
 backslashreplace
-'
+"
 )
         
 try
@@ -1829,11 +1844,11 @@ val
 .
 decode
 (
-'
+"
 unicode
 -
 escape
-'
+"
 )
         
 except
@@ -1887,11 +1902,11 @@ args
 .
 decode
 (
-'
+"
 unicode
 -
 escape
-'
+"
 )
 )
             
@@ -2020,9 +2035,9 @@ e
             
 yield
 (
-'
+"
 error
-'
+"
 e
 .
 args
@@ -2035,9 +2050,9 @@ args
 [
 4
 ]
-'
+"
 android
-'
+"
 )
         
 #
@@ -2090,9 +2105,9 @@ m
 .
 group
 (
-'
+"
 q
-'
+"
 )
             
 offset
@@ -2207,7 +2222,9 @@ group
                     
 msg
 =
-"
+(
+                        
+'
 Quotes
 in
 Android
@@ -2217,11 +2234,9 @@ escaping
 with
 \
 \
-\
 "
-"
-\
-                          
+'
+                        
 "
 or
 \
@@ -2234,12 +2249,16 @@ in
 apostrophes
 .
 "
+                    
+)
                 
 else
 :
                     
 msg
 =
+(
+                        
 "
 Apostrophes
 in
@@ -2249,8 +2268,7 @@ need
 escaping
 with
 "
-\
-                          
+                        
 "
 \
 \
@@ -2268,18 +2286,19 @@ put
 string
 in
 "
-\
-                          
+                        
 "
 quotes
 .
 "
+                    
+)
                 
 yield
 (
-'
+"
 error
-'
+"
 m
 .
 end
@@ -2289,7 +2308,7 @@ end
 +
 offset
 msg
-'
+"
 android
-'
+"
 )

@@ -87,7 +87,7 @@ re
 .
 compile
 (
-'
+"
 (
 .
 *
@@ -100,7 +100,7 @@ strings
 \
 .
 xml
-'
+"
 )
     
 def
@@ -112,9 +112,9 @@ l10nEnt
 )
 :
         
-'
-'
-'
+"
+"
+"
 Given
 the
 reference
@@ -171,9 +171,9 @@ in
 the
 report
         
-'
-'
-'
+"
+"
+"
         
 yield
 from
@@ -305,9 +305,9 @@ l10nEnt
 )
 :
         
-'
-'
-'
+"
+"
+"
 Check
 a
 single
@@ -338,9 +338,9 @@ array
 >
 .
         
-'
-'
-'
+"
+"
+"
         
 l10n
 =
@@ -361,24 +361,19 @@ refs
             
 yield
 (
-                
 "
 error
 "
-                
 0
-                
 "
 strings
 must
 be
 translatable
 "
-                
 "
 android
 "
-            
 )
             
 return
@@ -394,24 +389,19 @@ l10n
             
 yield
 (
-                
 "
 error
 "
-                
 0
-                
 "
 strings
 must
 be
 translatable
 "
-                
 "
 android
 "
-            
 )
             
 return
@@ -428,24 +418,19 @@ refs
             
 yield
 (
-                
 "
 warning
 "
-                
 0
-                
 "
 strings
 must
 be
 translatable
 "
-                
 "
 android
 "
-            
 )
         
 if
@@ -472,7 +457,6 @@ plain
 text
 allowed
 "
-                
 "
 or
 one
@@ -500,6 +484,7 @@ val
 )
         
 params
+count
 errors
 =
 get_params
@@ -516,30 +501,34 @@ errors
             
 yield
 (
-                
 "
 warning
 "
-                
 pos
-                
 error
-                
 "
 android
 "
-            
 )
         
-if
-params
-:
-            
+#
+Always
+check
+parameters
+as
+the
+translation
+might
+have
+additional
+ones
+        
 yield
 from
 check_params
 (
 params
+count
 l10nEnt
 .
 val
@@ -598,9 +587,9 @@ ref_nodes
 )
 :
         
-'
-'
-'
+"
+"
+"
 Android
 allows
 to
@@ -636,14 +625,13 @@ on
 that
 .
         
-'
-'
-'
+"
+"
+"
         
 return
 any
 (
-            
 textContent
 (
 node
@@ -651,17 +639,15 @@ node
 .
 startswith
 (
-'
+"
 string
 /
-'
+"
 )
-            
 for
 node
 in
 ref_nodes
-        
 )
     
 def
@@ -672,9 +658,9 @@ node
 )
 :
         
-'
-'
-'
+"
+"
+"
 Only
 allow
 single
@@ -691,9 +677,9 @@ by
 whitespace
 .
         
-'
-'
-'
+"
+"
+"
         
 cdata
 =
@@ -873,9 +859,9 @@ string
 )
 :
     
-'
-'
-'
+"
+"
+"
 Check
 Android
 logic
@@ -1031,9 +1017,9 @@ resource
 #
 escaping_quotes
     
-'
-'
-'
+"
+"
+"
     
 for
 m
@@ -1052,17 +1038,14 @@ string
         
 yield
 (
-            
 "
 error
 "
-            
 m
 .
 start
 (
 )
-            
 "
 Double
 straight
@@ -1070,11 +1053,9 @@ quotes
 not
 allowed
 "
-            
 "
 android
 "
-        
 )
     
 string
@@ -1136,28 +1117,23 @@ string
             
 yield
 (
-                
 "
 error
 "
-                
 m
 .
 start
 (
 )
-                
 "
 Apostrophe
 must
 be
 escaped
 "
-                
 "
 android
 "
-            
 )
 def
 get_params
@@ -1166,9 +1142,9 @@ refs
 )
 :
     
-'
-'
-'
+"
+"
+"
 Get
 printf
 parameters
@@ -1185,10 +1161,12 @@ of
 positions
 to
 formatter
+parameter
+count
 and
+    
 a
 list
-    
 of
 errors
 .
@@ -1201,9 +1179,9 @@ mismatching
 formatters
 .
     
-'
-'
-'
+"
+"
+"
     
 params
 =
@@ -1214,6 +1192,10 @@ errors
 =
 [
 ]
+    
+count
+=
+0
     
 next_implicit
 =
@@ -1249,8 +1231,9 @@ re
 .
 finditer
 (
+            
 r
-'
+"
 %
 (
 ?
@@ -1272,14 +1255,35 @@ P
 <
 format
 >
+(
+?
+:
+\
+.
 [
-sSd
+0
+-
+9
+]
++
+)
+?
+f
+|
+[
+dsS
 ]
 )
-'
+"
 ref
+        
 )
 :
+            
+count
++
+=
+1
             
 order
 =
@@ -1287,9 +1291,9 @@ m
 .
 group
 (
-'
+"
 order
-'
+"
 )
             
 if
@@ -1324,9 +1328,9 @@ m
 .
 group
 (
-'
+"
 format
-'
+"
 )
             
 if
@@ -1390,8 +1394,8 @@ errors
 .
 append
 (
-(
                     
+(
 msg
 .
 format
@@ -1409,30 +1413,31 @@ params
 order
 ]
 )
-                    
 m
 .
 start
 (
 )
-                
 )
+                
 )
     
 return
 params
+count
 errors
 def
 check_params
 (
 params
+count
 string
 )
 :
     
-'
-'
-'
+"
+"
+"
 Compare
 the
 printf
@@ -1466,11 +1471,16 @@ by
 get_params
 .
     
-'
-'
-'
+"
+"
+"
+    
+has_errors
+=
+False
     
 lparams
+lcount
 errors
 =
 get_params
@@ -1487,21 +1497,20 @@ in
 errors
 :
         
+has_errors
+=
+True
+        
 yield
 (
-            
 "
 error
 "
-            
 pos
-            
 error
-            
 "
 android
 "
-        
 )
     
 #
@@ -1584,6 +1593,10 @@ in
 params
 :
             
+has_errors
+=
+True
+            
 yield
 (
                 
@@ -1593,29 +1606,24 @@ error
                 
 0
                 
+f
 "
 Formatter
 %
 {
+order
 }
 {
+lparams
+[
+order
+]
 }
 not
 found
 in
 reference
 "
-.
-format
-(
-                    
-order
-lparams
-[
-order
-]
-                
-)
                 
 "
 android
@@ -1636,24 +1644,23 @@ order
 ]
 :
             
+has_errors
+=
+True
+            
 yield
 (
-                
 "
 error
 "
-                
 0
-                
 "
 Mismatching
 formatter
 "
-                
 "
 android
 "
-            
 )
     
 #
@@ -1697,6 +1704,10 @@ lparams
 )
 :
             
+has_errors
+=
+True
+            
 yield
 (
                 
@@ -1734,4 +1745,30 @@ order
 android
 "
             
+)
+    
+if
+not
+has_errors
+and
+count
+!
+=
+lcount
+:
+        
+yield
+(
+"
+warning
+"
+0
+"
+Formatter
+count
+mismatch
+"
+"
+android
+"
 )

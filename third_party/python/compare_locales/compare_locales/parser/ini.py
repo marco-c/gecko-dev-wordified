@@ -59,13 +59,9 @@ from
 .
 base
 import
-(
-    
 Entry
 OffsetComment
-    
 Parser
-)
 class
 IniSection
 (
@@ -73,9 +69,9 @@ Entry
 )
 :
     
-'
-'
-'
+"
+"
+"
 Entity
 -
 like
@@ -85,10 +81,9 @@ sections
 in
 ini
 files
-    
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -140,9 +135,9 @@ Parser
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Parse
 files
@@ -173,9 +168,9 @@ value
 .
 .
     
-'
-'
-'
+"
+"
+"
     
 Comment
 =
@@ -196,7 +191,7 @@ re
 .
 compile
 (
-'
+"
 (
 ?
 :
@@ -230,7 +225,7 @@ n
 ]
 *
 )
-'
+"
 re
 .
 M
@@ -245,7 +240,7 @@ re
 compile
 (
 r
-'
+"
 \
 [
 (
@@ -260,7 +255,7 @@ val
 )
 \
 ]
-'
+"
 re
 .
 M
@@ -274,7 +269,7 @@ re
 .
 compile
 (
-'
+"
 (
 ?
 P
@@ -295,7 +290,7 @@ val
 .
 *
 )
-'
+"
 re
 .
 M
@@ -352,9 +347,9 @@ m
 .
 span
 (
-'
+"
 val
-'
+"
 )
 )
         

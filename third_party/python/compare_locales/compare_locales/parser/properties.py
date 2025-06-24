@@ -59,14 +59,10 @@ from
 .
 base
 import
-(
-    
 Entity
 OffsetComment
 Whitespace
-    
 Parser
-)
 class
 PropertiesEntityMixin
 :
@@ -77,8 +73,9 @@ re
 .
 compile
 (
+        
 r
-'
+"
 \
 \
 (
@@ -104,9 +101,8 @@ F
 }
 )
 |
-'
-                        
-'
+"
+"
 (
 ?
 P
@@ -131,48 +127,49 @@ single
 .
 )
 )
-'
+"
 re
 .
 M
+    
 )
     
 known_escapes
 =
 {
-'
+"
 n
-'
+"
 :
-'
+"
 \
 n
-'
-'
+"
+"
 r
-'
+"
 :
-'
+"
 \
 r
-'
-'
+"
+"
 t
-'
+"
 :
-'
+"
 \
 t
-'
-'
+"
+"
 \
 \
-'
+"
 :
-'
+"
 \
 \
-'
+"
 }
     
 property
@@ -202,9 +199,9 @@ groupdict
 if
 found
 [
-'
+"
 uni
-'
+"
 ]
 :
                 
@@ -215,9 +212,9 @@ int
 (
 found
 [
-'
+"
 uni
-'
+"
 ]
 [
 1
@@ -230,15 +227,15 @@ uni
 if
 found
 [
-'
+"
 nl
-'
+"
 ]
 :
                 
 return
-'
-'
+"
+"
             
 return
 self
@@ -249,15 +246,15 @@ get
 (
 found
 [
-'
+"
 single
-'
+"
 ]
 found
 [
-'
+"
 single
-'
+"
 ]
 )
         
@@ -308,8 +305,7 @@ re
 .
 compile
 (
-            
-'
+"
 (
 ?
 P
@@ -351,7 +347,7 @@ t
 t
 ]
 *
-'
+"
 re
 .
 M
@@ -365,7 +361,7 @@ re
 .
 compile
 (
-'
+"
 (
 ?
 :
@@ -397,7 +393,7 @@ n
 ]
 *
 )
-'
+"
 re
 .
 M
@@ -412,11 +408,11 @@ re
 compile
 (
 r
-'
+"
 \
 \
 +
-'
+"
 )
         
 self
@@ -428,7 +424,7 @@ re
 compile
 (
 r
-'
+"
 [
 \
 t
@@ -447,7 +443,7 @@ n
 \
 Z
 )
-'
+"
 re
 .
 M
@@ -524,9 +520,9 @@ offset
 =
 0
 and
-'
+"
 License
-'
+"
 in
 current_comment
 .
@@ -611,13 +607,10 @@ end
 )
             
 if
-(
-                
 current_comment
 is
 not
 None
-                
 and
 white_space
 .
@@ -625,15 +618,13 @@ raw_val
 .
 count
 (
-'
+"
 \
 n
-'
+"
 )
 >
 1
-            
-)
 :
                 
 #
@@ -697,10 +688,10 @@ contents
 .
 find
 (
-'
+"
 \
 n
-'
+"
 offset
 )
                 
@@ -826,7 +817,9 @@ PropertiesEntity
 (
                 
 ctx
+                
 current_comment
+                
 white_space
                 
 (
@@ -845,9 +838,9 @@ m
 .
 span
 (
-'
+"
 key
-'
+"
 )
                 
 (
@@ -858,6 +851,7 @@ end
 )
 endval
 )
+            
 )
 #
 value

@@ -1,3 +1,13 @@
+#
+fmt
+:
+off
+import
+typing
+#
+fmt
+:
+on
 class
 Error
 (
@@ -105,18 +115,57 @@ string
 def
 __init__
 (
+        
 self
+        
 message
+:
+str
+        
 path
+:
+typing
+.
+Optional
+[
+typing
+.
+List
+[
+typing
+.
+Hashable
+]
+]
 =
 None
+        
 error_message
+:
+typing
+.
+Optional
+[
+str
+]
 =
 None
+        
 error_type
+:
+typing
+.
+Optional
+[
+str
+]
 =
 None
+    
 )
+-
+>
+None
 :
         
 Error
@@ -129,7 +178,7 @@ message
         
 self
 .
-path
+_path
 =
 path
 or
@@ -138,7 +187,7 @@ or
         
 self
 .
-error_message
+_error_message
 =
 error_message
 or
@@ -157,6 +206,9 @@ msg
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -167,11 +219,55 @@ args
 0
 ]
     
+property
+    
+def
+path
+(
+self
+)
+-
+>
+typing
+.
+List
+[
+typing
+.
+Hashable
+]
+:
+        
+return
+self
+.
+_path
+    
+property
+    
+def
+error_message
+(
+self
+)
+-
+>
+str
+:
+        
+return
+self
+.
+_error_message
+    
 def
 __str__
 (
 self
 )
+-
+>
+str
 :
         
 path
@@ -199,8 +295,6 @@ self
 path
 )
 )
-\
-            
 if
 self
 .
@@ -245,12 +339,24 @@ prepend
 (
 self
 path
+:
+typing
+.
+List
+[
+typing
+.
+Hashable
+]
 )
+-
+>
+None
 :
         
 self
 .
-path
+_path
 =
 path
 +
@@ -269,9 +375,24 @@ __init__
 (
 self
 errors
+:
+typing
+.
+Optional
+[
+typing
+.
+List
+[
+Invalid
+]
+]
 =
 None
 )
+-
+>
+None
 :
         
 self
@@ -293,6 +414,9 @@ __repr__
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -315,6 +439,9 @@ msg
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -334,6 +461,16 @@ path
 (
 self
 )
+-
+>
+typing
+.
+List
+[
+typing
+.
+Hashable
+]
 :
         
 return
@@ -353,6 +490,9 @@ error_message
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -370,7 +510,12 @@ add
 (
 self
 error
+:
+Invalid
 )
+-
+>
+None
 :
         
 self
@@ -387,6 +532,9 @@ __str__
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -405,7 +553,19 @@ prepend
 (
 self
 path
+:
+typing
+.
+List
+[
+typing
+.
+Hashable
+]
 )
+-
+>
+None
 :
         
 for

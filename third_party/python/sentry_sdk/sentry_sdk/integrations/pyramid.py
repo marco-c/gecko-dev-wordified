@@ -102,9 +102,9 @@ sentry_sdk
 .
 _types
 import
-MYPY
+TYPE_CHECKING
 if
-MYPY
+TYPE_CHECKING
 :
     
 from
@@ -177,6 +177,7 @@ sentry_sdk
 .
 _types
 import
+Event
 EventProcessor
 if
 getattr
@@ -1201,7 +1202,7 @@ PyramidIntegration
 EventProcessor
     
 def
-event_processor
+pyramid_event_processor
 (
 event
 hint
@@ -1212,11 +1213,7 @@ hint
 type
 :
 (
-Dict
-[
-str
-Any
-]
+Event
 Dict
 [
 str
@@ -1225,11 +1222,7 @@ Any
 )
 -
 >
-Dict
-[
-str
-Any
-]
+Event
         
 request
 =
@@ -1304,4 +1297,4 @@ return
 event
     
 return
-event_processor
+pyramid_event_processor

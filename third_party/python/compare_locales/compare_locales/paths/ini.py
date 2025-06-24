@@ -77,9 +77,9 @@ class
 L10nConfigParser
 :
     
-'
-'
-'
+"
+"
+"
 Helper
 class
 to
@@ -119,9 +119,9 @@ need
 async
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -255,9 +255,9 @@ cp
 )
 :
         
-'
-'
-'
+"
+"
+"
 Get
 the
 depth
@@ -271,10 +271,9 @@ l10n
 .
 ini
 .
-        
-'
-'
-'
+"
+"
+"
         
 try
 :
@@ -285,12 +284,12 @@ cp
 .
 get
 (
-'
+"
 general
-'
-'
+"
+"
 depth
-'
+"
 )
         
 except
@@ -302,9 +301,9 @@ NoOptionError
             
 depth
 =
-'
+"
 .
-'
+"
         
 return
 depth
@@ -316,9 +315,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
 Get
 the
 test
@@ -348,9 +347,9 @@ local
 anyway
 .
         
-'
-'
-'
+"
+"
+"
         
 filter_path
 =
@@ -366,11 +365,11 @@ self
 .
 inipath
 )
-'
+"
 filter
 .
 py
-'
+"
 )
         
 try
@@ -400,9 +399,9 @@ read
 (
 )
 filter_path
-'
+"
 exec
-'
+"
 )
 {
 }
@@ -410,9 +409,9 @@ local
 )
             
 if
-'
+"
 test
-'
+"
 in
 local
 and
@@ -420,9 +419,9 @@ callable
 (
 local
 [
-'
+"
 test
-'
+"
 ]
 )
 :
@@ -432,9 +431,9 @@ filters
 [
 local
 [
-'
+"
 test
-'
+"
 ]
 ]
             
@@ -613,9 +612,9 @@ cp
 .
 items
 (
-'
+"
 includes
-'
+"
 )
 :
                 
@@ -684,12 +683,12 @@ cp
 .
 get
 (
-'
+"
 compare
-'
-'
+"
+"
 dirs
-'
+"
 )
 .
 split
@@ -736,12 +735,12 @@ cp
 .
 get
 (
-'
+"
 general
-'
-'
+"
+"
 all
-'
+"
 )
 )
         
@@ -1016,9 +1015,9 @@ L10nConfigParser
 )
 :
     
-'
-'
-'
+"
+"
+"
 Subclassing
 L10nConfigParser
 to
@@ -1046,9 +1045,9 @@ real
 builds
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -1060,9 +1059,9 @@ redirects
 )
 :
         
-'
-'
-'
+"
+"
+"
 Add
 additional
 arguments
@@ -1095,9 +1094,9 @@ local
 clones
 .
         
-'
-'
-'
+"
+"
+"
         
 L10nConfigParser
 .
@@ -1187,9 +1186,9 @@ toolkit
         
 details
 =
-'
+"
 include_
-'
+"
 +
 title
         
@@ -1209,9 +1208,9 @@ orig_cp
 get
 (
 details
-'
+"
 mozilla
-'
+"
 )
             
 branch
@@ -1233,11 +1232,11 @@ orig_cp
 get
 (
 details
-'
+"
 l10n
 .
 ini
-'
+"
 )
             
 path
@@ -1279,7 +1278,6 @@ base
 self
 .
 redirects
-                                    
 *
 *
 self
@@ -1307,11 +1305,11 @@ EnumerateApp
     
 reference
 =
-'
+"
 en
 -
 US
-'
+"
     
 def
 __init__
@@ -1459,9 +1457,9 @@ config
 .
 set_root
 (
-'
+"
 .
-'
+"
 )
 #
 sets
@@ -1563,26 +1561,29 @@ paths
 =
 {
                 
-'
+"
 module
-'
+"
 :
 module
                 
-'
+"
 reference
-'
+"
 :
 mozpath
 .
 normpath
 (
-'
-%
-s
+f
+"
+{
+basepath
+}
 /
-%
-s
+{
+module
+}
 /
 locales
 /
@@ -1592,24 +1593,18 @@ US
 /
 *
 *
-'
-%
-                                              
-(
-basepath
-module
-)
+"
 )
                 
-'
+"
 l10n
-'
+"
 :
 mozpath
 .
 normpath
 (
-'
+"
 {
 l10n_base
 }
@@ -1623,9 +1618,8 @@ s
 /
 *
 *
-'
+"
 %
-                                         
 module
 )
             
@@ -1635,28 +1629,28 @@ if
 module
 =
 =
-'
+"
 mobile
 /
 android
 /
 base
-'
+"
 :
                 
 paths
 [
-'
+"
 test
-'
+"
 ]
 =
 [
-'
+"
 android
 -
 dtd
-'
+"
 ]
             
 projectconfig
@@ -1688,9 +1682,9 @@ EnumerateApp
 )
 :
     
-'
-'
-'
+"
+"
+"
 Subclass
 EnumerateApp
 to
@@ -1724,9 +1718,9 @@ for
 building
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -1778,7 +1772,6 @@ inipath
 self
 .
 basepath
-                                             
 self
 .
 redirects

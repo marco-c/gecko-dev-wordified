@@ -10,8 +10,8 @@ python
 #
 Copyright
 2015
-2016
-2017
+-
+2021
 Nir
 Cohen
 #
@@ -348,7 +348,7 @@ __version__
 "
 1
 .
-8
+9
 .
 0
 "
@@ -903,6 +903,12 @@ release
 "
     
 "
+altlinux
+-
+release
+"
+    
+"
 arch
 -
 release
@@ -1043,6 +1049,16 @@ release
 iredmail
 -
 release
+"
+    
+"
+board
+-
+release
+"
+    
+"
+ec2_version
 "
 )
 def
@@ -1823,6 +1839,12 @@ guix
 "
 Guix
 System
+    
+"
+altlinux
+"
+ALT
+Linux
     
 =
 =
@@ -7400,7 +7422,7 @@ info
 "
         
 return
-dict
+InfoDict
 (
             
 id
@@ -7423,7 +7445,7 @@ best
             
 version_parts
 =
-dict
+VersionDict
 (
                 
 major

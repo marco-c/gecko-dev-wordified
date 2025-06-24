@@ -214,8 +214,6 @@ chat_id
         
 super
 (
-TelegramIO
-self
 )
 .
 __init__
@@ -1009,8 +1007,6 @@ TQDM_TELEGRAM_CHAT_ID
         
 super
 (
-tqdm_telegram
-self
 )
 .
 __init__
@@ -1034,8 +1030,6 @@ kwargs
         
 super
 (
-tqdm_telegram
-self
 )
 .
 display
@@ -1165,8 +1159,6 @@ kwargs
         
 super
 (
-tqdm_telegram
-self
 )
 .
 clear
@@ -1212,8 +1204,6 @@ return
         
 super
 (
-tqdm_telegram
-self
 )
 .
 close

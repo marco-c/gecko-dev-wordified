@@ -98,9 +98,8 @@ bool
 )
 :
         
-raise
-TypeError
-(
+msg
+=
 "
 '
 run
@@ -110,6 +109,11 @@ be
 bool
 .
 "
+        
+raise
+TypeError
+(
+msg
 )
     
 global

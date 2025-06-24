@@ -53,9 +53,9 @@ MPL
 0
 /
 .
-'
-'
-'
+"
+"
+"
 A
 tuple
 with
@@ -135,9 +135,9 @@ the
 superclass
 implementation
 .
-'
-'
-'
+"
+"
+"
 class
 KeyedTuple
 (

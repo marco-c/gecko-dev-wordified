@@ -97,15 +97,15 @@ MSGS
 =
 {
     
-'
+"
 missing
 -
 msg
 -
 ref
-'
+"
 :
-'
+"
 Missing
 message
 reference
@@ -113,17 +113,17 @@ reference
 {
 ref
 }
-'
+"
     
-'
+"
 missing
 -
 term
 -
 ref
-'
+"
 :
-'
+"
 Missing
 term
 reference
@@ -131,17 +131,17 @@ reference
 {
 ref
 }
-'
+"
     
-'
+"
 obsolete
 -
 msg
 -
 ref
-'
+"
 :
-'
+"
 Obsolete
 message
 reference
@@ -149,17 +149,17 @@ reference
 {
 ref
 }
-'
+"
     
-'
+"
 obsolete
 -
 term
 -
 ref
-'
+"
 :
-'
+"
 Obsolete
 term
 reference
@@ -167,13 +167,13 @@ reference
 {
 ref
 }
-'
+"
     
-'
+"
 duplicate
 -
 attribute
-'
+"
 :
 '
 Attribute
@@ -186,63 +186,63 @@ is
 duplicated
 '
     
-'
+"
 missing
 -
 value
-'
+"
 :
-'
+"
 Missing
 value
-'
+"
     
-'
+"
 obsolete
 -
 value
-'
+"
 :
-'
+"
 Obsolete
 value
-'
+"
     
-'
+"
 missing
 -
 attribute
-'
+"
 :
-'
+"
 Missing
 attribute
 :
 {
 name
 }
-'
+"
     
-'
+"
 obsolete
 -
 attribute
-'
+"
 :
-'
+"
 Obsolete
 attribute
 :
 {
 name
 }
-'
+"
     
-'
+"
 duplicate
 -
 variant
-'
+"
 :
 '
 Variant
@@ -256,13 +256,13 @@ is
 duplicated
 '
     
-'
+"
 missing
 -
 plural
-'
+"
 :
-'
+"
 Plural
 categories
 missing
@@ -270,19 +270,19 @@ missing
 {
 categories
 }
-'
+"
     
-'
+"
 plain
 -
 message
-'
+"
 :
-'
+"
 {
 message
 }
-'
+"
 }
 def
 pattern_variants
@@ -536,9 +536,7 @@ node
 if
 isinstance
 (
-            
 node
-            
 (
 ftl
 .
@@ -550,7 +548,6 @@ ftl
 .
 BaseComment
 )
-        
 )
 :
             
@@ -666,9 +663,9 @@ id
 name
 !
 =
-'
+"
 style
-'
+"
 :
             
 return
@@ -691,9 +688,9 @@ self
 .
 css_styles
 =
-'
+"
 skip
-'
+"
             
 return
         
@@ -779,9 +776,9 @@ attribute
 ref
 +
 =
-'
+"
 .
-'
+"
 +
 node
 .
@@ -796,11 +793,11 @@ refs
 ref
 ]
 =
-'
+"
 msg
 -
 ref
-'
+"
     
 def
 visit_TermReference
@@ -833,9 +830,9 @@ self
 .
 refs
 [
-'
+"
 -
-'
+"
 +
 node
 .
@@ -844,18 +841,18 @@ id
 name
 ]
 =
-'
+"
 term
 -
 ref
-'
+"
 class
 GenericL10nChecks
 :
     
-'
-'
-'
+"
+"
+"
 Helper
 Mixin
 for
@@ -866,9 +863,9 @@ Terms
 and
 Messages
 .
-'
-'
-'
+"
+"
+"
     
 def
 check_duplicate_attributes
@@ -980,9 +977,10 @@ append
                             
 (
                                 
-'
+"
 warning
-'
+"
+                                
 left_attr
 .
 span
@@ -991,11 +989,11 @@ start
                                 
 MSGS
 [
-'
+"
 duplicate
 -
 attribute
-'
+"
 ]
 .
 format
@@ -1031,9 +1029,10 @@ append
                         
 (
                             
-'
+"
 warning
-'
+"
+                            
 right_attr
 .
 span
@@ -1042,16 +1041,15 @@ start
                             
 MSGS
 [
-'
+"
 duplicate
 -
 attribute
-'
+"
 ]
 .
 format
 (
-                                
 name
 =
 left_attr
@@ -1059,7 +1057,6 @@ left_attr
 id
 .
 name
-                            
 )
                         
 )
@@ -1172,9 +1169,10 @@ append
                             
 (
                                 
-'
+"
 warning
-'
+"
+                                
 left_key
 .
 span
@@ -1183,20 +1181,18 @@ start
                                 
 MSGS
 [
-'
+"
 duplicate
 -
 variant
-'
+"
 ]
 .
 format
 (
-                                    
 name
 =
 key_string
-                                
 )
                             
 )
@@ -1219,9 +1215,10 @@ append
                         
 (
                             
-'
+"
 warning
-'
+"
+                            
 variants
 [
 right
@@ -1235,20 +1232,18 @@ start
                             
 MSGS
 [
-'
+"
 duplicate
 -
 variant
-'
+"
 ]
 .
 format
 (
-                                
 name
 =
 key_string
-                            
 )
                         
 )
@@ -1321,9 +1316,9 @@ check_plurals
 .
 discard
 (
-'
+"
 other
-'
+"
 )
             
 given_plurals
@@ -1369,9 +1364,10 @@ append
                         
 (
                             
-'
+"
 warning
-'
+"
+                            
 variants
 [
 0
@@ -1385,11 +1381,11 @@ start
                             
 MSGS
 [
-'
+"
 missing
 -
 plural
-'
+"
 ]
 .
 format
@@ -1397,8 +1393,8 @@ format
                                 
 categories
 =
-'
-'
+"
+"
 .
 join
 (
@@ -1585,9 +1581,9 @@ append
 (
                 
 (
-'
+"
 error
-'
+"
 node
 .
 value
@@ -1597,11 +1593,11 @@ span
 start
 MSGS
 [
-'
+"
 obsolete
 -
 value
-'
+"
 ]
 )
             
@@ -1626,22 +1622,20 @@ messages
 .
 append
 (
-                
 (
-'
+"
 error
-'
+"
 0
 MSGS
 [
-'
+"
 missing
 -
 value
-'
+"
 ]
 )
-            
 )
         
 ref_attrs
@@ -1680,19 +1674,17 @@ append
 (
                 
 (
-                    
-'
+"
 error
-'
+"
 0
-                    
 MSGS
 [
-'
+"
 missing
 -
 attribute
-'
+"
 ]
 .
 format
@@ -1701,7 +1693,6 @@ name
 =
 missing_attr
 )
-                
 )
             
 )
@@ -1723,9 +1714,10 @@ append
                 
 (
                     
-'
+"
 error
-'
+"
+                    
 self
 .
 attribute_positions
@@ -1735,11 +1727,11 @@ obs_attr
                     
 MSGS
 [
-'
+"
 obsolete
 -
 attribute
-'
+"
 ]
 .
 format
@@ -1828,18 +1820,18 @@ id
 name
 !
 =
-'
+"
 style
-'
+"
 or
 self
 .
 css_styles
 =
 =
-'
+"
 skip
-'
+"
 :
             
 return
@@ -1856,9 +1848,9 @@ if
 ref_styles
 in
 (
-'
+"
 skip
-'
+"
 None
 )
 :
@@ -1901,11 +1893,9 @@ check_style
 (
             
 ref_styles
-            
 self
 .
 css_styles
-            
 self
 .
 css_errors
@@ -1977,9 +1967,9 @@ attribute
 ref
 +
 =
-'
+"
 .
-'
+"
 +
 node
 .
@@ -2002,11 +1992,11 @@ check_obsolete_ref
 (
 node
 ref
-'
+"
 msg
 -
 ref
-'
+"
 )
     
 def
@@ -2027,9 +2017,9 @@ return
         
 ref
 =
-'
+"
 -
-'
+"
 +
 node
 .
@@ -2052,11 +2042,11 @@ check_obsolete_ref
 (
 node
 ref
-'
+"
 term
 -
 ref
-'
+"
 )
     
 def
@@ -2087,9 +2077,10 @@ append
                 
 (
                     
-'
+"
 warning
-'
+"
+                    
 node
 .
 span
@@ -2098,10 +2089,10 @@ start
                     
 MSGS
 [
-'
+"
 obsolete
 -
-'
+"
 +
 ref_type
 ]
@@ -2164,9 +2155,7 @@ node
 if
 isinstance
 (
-            
 node
-            
 (
 ftl
 .
@@ -2178,7 +2167,6 @@ ftl
 .
 BaseComment
 )
-        
 )
 :
             
@@ -2270,9 +2258,9 @@ Checker
 )
 :
     
-'
-'
-'
+"
+"
+"
 Tests
 to
 run
@@ -2283,10 +2271,9 @@ FTL
 )
 files
 .
-    
-'
-'
-'
+"
+"
+"
     
 pattern
 =
@@ -2295,13 +2282,13 @@ re
 compile
 (
 r
-'
+"
 .
 *
 \
 .
 ftl
-'
+"
 )
     
 def
@@ -2313,9 +2300,9 @@ l10n_entry
 )
 :
         
-'
-'
-'
+"
+"
+"
 Run
 checks
 on
@@ -2325,9 +2312,9 @@ against
 reference
 message
 .
-'
-'
-'
+"
+"
+"
         
 ref_data
 =
@@ -2405,10 +2392,10 @@ msg
 =
 MSGS
 [
-'
+"
 missing
 -
-'
+"
 +
 ref_type
 ]
@@ -2425,9 +2412,9 @@ messages
 append
 (
 (
-'
+"
 warning
-'
+"
 0
 msg
 )
@@ -2444,16 +2431,16 @@ l10n_entry
 )
 :
         
-'
-'
-'
+"
+"
+"
 Check
 localized
 terms
 .
-'
-'
-'
+"
+"
+"
         
 l10n_data
 =
@@ -2590,7 +2577,7 @@ yield
 cat
 pos
 msg
-'
+"
 fluent
-'
+"
 )
