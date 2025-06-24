@@ -9602,13 +9602,13 @@ been
 set
 up
 .
-FontPresentation
-mEmojiPresentation
+StyleFontVariantEmoji
+mFontVariantEmoji
 =
-FontPresentation
+StyleFontVariantEmoji
 :
 :
-Any
+Normal
 ;
 /
 /
