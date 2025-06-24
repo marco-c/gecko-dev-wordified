@@ -43,7 +43,7 @@ array
 .
 prototype
 .
-toSpliced
+tospliced
 description
 :
 >

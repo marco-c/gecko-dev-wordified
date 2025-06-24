@@ -41,7 +41,7 @@ string
 .
 prototype
 .
-trimEnd
+trimend
 description
 :
 Behavior

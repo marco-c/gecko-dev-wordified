@@ -48,7 +48,7 @@ map
 .
 prototype
 .
-forEach
+foreach
 description
 :
 >

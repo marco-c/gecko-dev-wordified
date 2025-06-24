@@ -45,15 +45,6 @@ non262
 shell
 .
 js
-sm
-/
-non262
--
-Reflect
--
-shell
-.
-js
 deepEqual
 .
 js

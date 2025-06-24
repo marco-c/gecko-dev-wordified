@@ -50,7 +50,7 @@ regexp
 .
 prototype
 .
-unicodeSets
+unicodesets
 description
 :
 Invoked

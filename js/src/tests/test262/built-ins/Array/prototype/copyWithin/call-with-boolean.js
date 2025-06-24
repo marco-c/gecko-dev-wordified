@@ -41,7 +41,7 @@ array
 .
 prototype
 .
-copyWithin
+copywithin
 description
 :
 Array

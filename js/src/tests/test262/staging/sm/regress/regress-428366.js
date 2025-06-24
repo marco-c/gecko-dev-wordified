@@ -171,16 +171,6 @@ expect
 '
 '
 ;
-printBugNumber
-(
-BUGNUMBER
-)
-;
-printStatus
-(
-summary
-)
-;
 this
 .
 __proto__

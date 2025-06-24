@@ -48,7 +48,7 @@ set
 .
 prototype
 .
-forEach
+foreach
 description
 :
 >

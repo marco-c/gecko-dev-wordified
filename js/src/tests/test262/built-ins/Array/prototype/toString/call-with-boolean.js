@@ -41,7 +41,7 @@ array
 .
 prototype
 .
-toString
+tostring
 description
 :
 Array

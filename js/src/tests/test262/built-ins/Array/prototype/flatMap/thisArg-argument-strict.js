@@ -49,7 +49,7 @@ array
 .
 prototype
 .
-flatMap
+flatmap
 description
 :
 >

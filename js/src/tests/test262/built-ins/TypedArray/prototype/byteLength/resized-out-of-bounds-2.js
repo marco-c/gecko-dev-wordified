@@ -44,7 +44,7 @@ typedarray
 .
 prototype
 .
-byteLength
+bytelength
 description
 :
 >

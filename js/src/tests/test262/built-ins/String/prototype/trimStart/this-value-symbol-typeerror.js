@@ -41,7 +41,7 @@ string
 .
 prototype
 .
-trimStart
+trimstart
 description
 :
 Type

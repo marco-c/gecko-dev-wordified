@@ -42,7 +42,7 @@ typedarray
 .
 prototype
 .
-findLast
+findlast
 description
 :
 >

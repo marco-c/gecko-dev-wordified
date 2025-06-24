@@ -40,7 +40,7 @@ array
 .
 prototype
 .
-findLast
+findlast
 description
 :
 >

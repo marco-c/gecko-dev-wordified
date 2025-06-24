@@ -45,7 +45,7 @@ sec
 -
 promise
 .
-allSettled
+allsettled
 description
 :
 >

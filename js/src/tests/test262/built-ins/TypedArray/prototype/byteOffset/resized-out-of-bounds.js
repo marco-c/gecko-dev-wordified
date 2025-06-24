@@ -44,7 +44,7 @@ typedarray
 .
 prototype
 .
-byteOffset
+byteoffset
 description
 :
 >

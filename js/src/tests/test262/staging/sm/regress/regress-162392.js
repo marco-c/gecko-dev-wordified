@@ -374,16 +374,6 @@ test
 (
 )
 {
-printBugNumber
-(
-BUGNUMBER
-)
-;
-printStatus
-(
-summary
-)
-;
 assert
 .
 sameValue

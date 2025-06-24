@@ -343,16 +343,6 @@ test
 (
 )
 {
-printBugNumber
-(
-BUGNUMBER
-)
-;
-printStatus
-(
-summary
-)
-;
 var
 list1
 =

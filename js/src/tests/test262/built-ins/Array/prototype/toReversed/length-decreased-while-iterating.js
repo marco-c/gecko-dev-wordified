@@ -43,7 +43,7 @@ array
 .
 prototype
 .
-toReversed
+toreversed
 description
 :
 >

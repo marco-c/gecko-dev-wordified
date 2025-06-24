@@ -44,7 +44,7 @@ array
 .
 prototype
 .
-flatMap
+flatmap
 description
 :
 Array

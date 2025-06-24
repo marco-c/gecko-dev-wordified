@@ -54,15 +54,6 @@ non262
 shell
 .
 js
-sm
-/
-non262
--
-extensions
--
-shell
-.
-js
 ]
 description
 :

@@ -336,16 +336,6 @@ test
 (
 )
 {
-printBugNumber
-(
-BUGNUMBER
-)
-;
-printStatus
-(
-summary
-)
-;
 /
 /
 -

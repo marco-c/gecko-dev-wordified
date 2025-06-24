@@ -45,15 +45,6 @@ non262
 shell
 .
 js
-sm
-/
-non262
--
-RegExp
--
-shell
-.
-js
 compareArray
 .
 js

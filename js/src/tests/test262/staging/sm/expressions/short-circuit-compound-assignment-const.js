@@ -48,15 +48,6 @@ non262
 shell
 .
 js
-sm
-/
-non262
--
-expressions
--
-shell
-.
-js
 ]
 flags
 :

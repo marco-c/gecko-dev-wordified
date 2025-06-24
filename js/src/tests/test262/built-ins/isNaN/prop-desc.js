@@ -71,17 +71,6 @@ isNaN
 isNaN
 "
 1
-{
-writable
-:
-true
-enumerable
-:
-false
-configurable
-:
-true
-}
 )
 ;
 reportCompare

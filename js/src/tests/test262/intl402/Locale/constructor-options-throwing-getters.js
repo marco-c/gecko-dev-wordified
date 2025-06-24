@@ -86,6 +86,9 @@ script
 region
 "
 "
+variants
+"
+"
 calendar
 "
 "

@@ -41,7 +41,7 @@ array
 .
 prototype
 .
-indexOf
+indexof
 description
 :
 Array

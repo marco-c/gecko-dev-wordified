@@ -173,16 +173,6 @@ No
 Crash
 '
 ;
-printBugNumber
-(
-BUGNUMBER
-)
-;
-printStatus
-(
-summary
-)
-;
 /
 *
 *

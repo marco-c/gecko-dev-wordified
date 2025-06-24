@@ -205,9 +205,6 @@ function
 stringFromTemplate
 (
 strings
-.
-.
-.
 subs
 )
 {
@@ -752,9 +749,6 @@ rendered
 stringFromTemplate
 (
 strings
-.
-.
-.
 renderings
 )
 ;
@@ -834,9 +828,6 @@ toString
 stringFromTemplate
 (
 strings
-.
-.
-.
 subs
 )
 }
@@ -3175,7 +3166,9 @@ value
 done
 )
 {
-assertDeepEq
+assert
+.
+deepEqual
 (
 result
 .

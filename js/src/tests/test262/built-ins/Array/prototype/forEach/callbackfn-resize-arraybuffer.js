@@ -43,7 +43,7 @@ array
 .
 prototype
 .
-forEach
+foreach
 description
 :
 TypedArray

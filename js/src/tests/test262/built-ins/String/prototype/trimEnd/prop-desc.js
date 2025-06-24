@@ -42,7 +42,7 @@ string
 .
 prototype
 .
-trimEnd
+trimend
 description
 :
 >

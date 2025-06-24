@@ -106,16 +106,6 @@ valid
 name
 "
 ;
-printBugNumber
-(
-BUGNUMBER
-)
-;
-printStatus
-(
-summary
-)
-;
 var
 yield
 =

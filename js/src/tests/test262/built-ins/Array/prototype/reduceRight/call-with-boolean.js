@@ -41,7 +41,7 @@ array
 .
 prototype
 .
-reduceRight
+reduceright
 description
 :
 Array

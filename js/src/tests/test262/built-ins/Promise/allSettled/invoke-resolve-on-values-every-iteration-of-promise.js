@@ -63,7 +63,7 @@ sec
 -
 promise
 .
-allSettled
+allsettled
 info
 :
 |

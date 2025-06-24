@@ -335,16 +335,6 @@ test
 (
 )
 {
-printBugNumber
-(
-BUGNUMBER
-)
-;
-printStatus
-(
-summary
-)
-;
 function
 f
 (

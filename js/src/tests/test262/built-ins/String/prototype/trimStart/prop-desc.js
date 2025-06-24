@@ -42,7 +42,7 @@ string
 .
 prototype
 .
-trimStart
+trimstart
 description
 :
 >

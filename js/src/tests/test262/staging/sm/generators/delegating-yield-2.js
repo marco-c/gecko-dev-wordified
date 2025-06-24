@@ -57,6 +57,9 @@ generators
 shell
 .
 js
+deepEqual
+.
+js
 ]
 flags
 :

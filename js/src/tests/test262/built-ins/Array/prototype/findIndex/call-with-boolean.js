@@ -41,7 +41,7 @@ array
 .
 prototype
 .
-findIndex
+findindex
 description
 :
 Array

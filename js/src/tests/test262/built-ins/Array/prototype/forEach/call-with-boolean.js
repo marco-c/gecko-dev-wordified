@@ -41,7 +41,7 @@ array
 .
 prototype
 .
-forEach
+foreach
 description
 :
 Array

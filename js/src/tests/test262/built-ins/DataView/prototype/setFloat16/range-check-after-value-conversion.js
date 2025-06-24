@@ -41,7 +41,7 @@ dataview
 .
 prototype
 .
-setFloat16
+setfloat16
 description
 :
 >

@@ -43,7 +43,7 @@ array
 .
 prototype
 .
-toSorted
+tosorted
 description
 :
 >

@@ -37,7 +37,7 @@ esid
 :
 sec
 -
-String
+string
 .
 prototype
 .

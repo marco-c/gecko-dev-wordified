@@ -43,7 +43,7 @@ error
 .
 prototype
 .
-toString
+tostring
 description
 :
 Property

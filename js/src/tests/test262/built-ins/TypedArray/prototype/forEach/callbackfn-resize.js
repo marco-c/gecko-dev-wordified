@@ -45,7 +45,7 @@ typedarray
 .
 prototype
 .
-forEach
+foreach
 description
 :
 Instance

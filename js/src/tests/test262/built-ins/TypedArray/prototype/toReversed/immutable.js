@@ -45,7 +45,7 @@ typedarray
 .
 prototype
 .
-toReversed
+toreversed
 description
 :
 >

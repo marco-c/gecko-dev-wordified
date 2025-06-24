@@ -41,7 +41,7 @@ array
 .
 prototype
 .
-lastIndexOf
+lastindexof
 description
 :
 Array

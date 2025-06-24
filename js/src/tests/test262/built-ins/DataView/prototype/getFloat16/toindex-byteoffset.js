@@ -41,7 +41,7 @@ dataview
 .
 prototype
 .
-getFloat16
+getfloat16
 description
 :
 >

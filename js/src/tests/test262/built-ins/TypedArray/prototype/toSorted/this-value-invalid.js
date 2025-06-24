@@ -45,7 +45,7 @@ typedarray
 .
 prototype
 .
-toSorted
+tosorted
 description
 :
 >
