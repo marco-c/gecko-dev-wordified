@@ -11068,7 +11068,7 @@ promise
 ContentAnalysis
 :
 :
-CheckFilesInBatchMode
+CheckUploadsInBatchMode
 (
 std
 :
@@ -12221,7 +12221,7 @@ promise
 ContentAnalysis
 :
 :
-CheckFilesInBatchMode
+CheckUploadsInBatchMode
 (
 std
 :

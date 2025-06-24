@@ -810,7 +810,8 @@ mOperationTypeForDisplay
 ;
 /
 /
-String
+File
+name
 to
 display
 if
@@ -818,9 +819,12 @@ mOperationTypeForDisplay
 is
 /
 /
-OPERATION_CUSTOMDISPLAYSTRING
+eUpload
+or
+eDownload
+.
 nsString
-mOperationDisplayString
+mFileNameForDisplay
 ;
 /
 /
@@ -1477,7 +1481,7 @@ RefPtr
 <
 FilesAllowedPromise
 >
-CheckFilesInBatchMode
+CheckUploadsInBatchMode
 (
 nsCOMArray
 <

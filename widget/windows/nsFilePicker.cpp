@@ -5359,7 +5359,7 @@ contentanalysis
 ContentAnalysis
 :
 :
-CheckFilesInBatchMode
+CheckUploadsInBatchMode
 (
 std
 :
