@@ -1096,7 +1096,7 @@ expectDark
 true
 expectLWTAttributes
 :
-true
+false
 }
 )
 ;
@@ -1182,7 +1182,7 @@ expectDark
 true
 expectLWTAttributes
 :
-true
+false
 }
 )
 ;
@@ -1780,7 +1780,7 @@ expectDark
 true
 expectLWTAttributes
 :
-true
+false
 }
 )
 ;
