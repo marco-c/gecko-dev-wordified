@@ -2261,7 +2261,7 @@ GetWritingMode
 ;
 const
 auto
-anchorPosResolutionParams
+anchorResolutionParams
 =
 AnchorPosResolutionParams
 :
@@ -2391,7 +2391,7 @@ pos
 ISize
 (
 wm
-anchorPosResolutionParams
+anchorResolutionParams
 .
 mPosition
 )
@@ -2409,7 +2409,7 @@ pos
 MinISize
 (
 wm
-anchorPosResolutionParams
+anchorResolutionParams
 .
 mPosition
 )
@@ -2427,7 +2427,7 @@ pos
 MaxISize
 (
 wm
-anchorPosResolutionParams
+anchorResolutionParams
 .
 mPosition
 )
@@ -2527,7 +2527,7 @@ LogicalSide
 :
 IStart
 wm
-anchorPosResolutionParams
+anchorResolutionParams
 .
 mPosition
 )
@@ -2547,7 +2547,7 @@ LogicalSide
 :
 IEnd
 wm
-anchorPosResolutionParams
+anchorResolutionParams
 .
 mPosition
 )
@@ -2705,7 +2705,7 @@ pos
 BSize
 (
 wm
-anchorPosResolutionParams
+anchorResolutionParams
 .
 mPosition
 )
@@ -2719,7 +2719,7 @@ AnchorPosOffsetResolutionParams
 :
 UseCBFrameSize
 (
-anchorPosResolutionParams
+anchorResolutionParams
 )
 ;
 if
@@ -2796,7 +2796,7 @@ pos
 MinBSize
 (
 wm
-anchorPosResolutionParams
+anchorResolutionParams
 .
 mPosition
 )
@@ -2814,7 +2814,7 @@ pos
 MaxBSize
 (
 wm
-anchorPosResolutionParams
+anchorResolutionParams
 .
 mPosition
 )
@@ -2882,7 +2882,7 @@ LogicalSide
 :
 BStart
 wm
-anchorPosResolutionParams
+anchorResolutionParams
 .
 mPosition
 )
@@ -2902,7 +2902,7 @@ LogicalSide
 :
 BEnd
 wm
-anchorPosResolutionParams
+anchorResolutionParams
 .
 mPosition
 )
@@ -3015,7 +3015,7 @@ AnchorPosOffsetResolutionParams
 :
 UseCBFrameSize
 (
-anchorPosResolutionParams
+anchorResolutionParams
 )
 ;
 if
@@ -3209,7 +3209,7 @@ AnchorPosOffsetResolutionParams
 :
 UseCBFrameSize
 (
-anchorPosResolutionParams
+anchorResolutionParams
 )
 ;
 if
@@ -6336,14 +6336,16 @@ mStyleMargin
 ;
 const
 auto
-positionProperty
+anchorResolutionParams
 =
+AnchorPosResolutionParams
+:
+:
+From
+(
+&
 aKidReflowInput
-.
-mStyleDisplay
--
->
-mPosition
+)
 ;
 if
 (
@@ -6372,7 +6374,9 @@ LogicalSide
 :
 IStart
 outerWM
-positionProperty
+anchorResolutionParams
+.
+mPosition
 )
 -
 >
@@ -6389,7 +6393,9 @@ LogicalSide
 :
 IEnd
 outerWM
-positionProperty
+anchorResolutionParams
+.
+mPosition
 )
 -
 >
@@ -6420,7 +6426,9 @@ LogicalSide
 :
 BStart
 outerWM
-positionProperty
+anchorResolutionParams
+.
+mPosition
 )
 -
 >
@@ -6437,7 +6445,9 @@ LogicalSide
 :
 BEnd
 outerWM
-positionProperty
+anchorResolutionParams
+.
+mPosition
 )
 -
 >
@@ -6511,7 +6521,9 @@ styleMargin
 HasInlineAxisAuto
 (
 outerWM
-positionProperty
+anchorResolutionParams
+.
+mPosition
 )
 |
 |
@@ -6521,7 +6533,9 @@ styleMargin
 HasBlockAxisAuto
 (
 outerWM
-positionProperty
+anchorResolutionParams
+.
+mPosition
 )
 propValue
 )
