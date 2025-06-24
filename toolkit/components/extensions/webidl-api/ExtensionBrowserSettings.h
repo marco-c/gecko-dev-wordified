@@ -421,12 +421,6 @@ UseDocumentFonts
 ;
 ExtensionSetting
 *
-VerticalTabs
-(
-)
-;
-ExtensionSetting
-*
 ZoomFullPage
 (
 )
@@ -564,12 +558,6 @@ RefPtr
 ExtensionSetting
 >
 mUseDocumentFontsSetting
-;
-RefPtr
-<
-ExtensionSetting
->
-mVerticalTabsSetting
 ;
 RefPtr
 <

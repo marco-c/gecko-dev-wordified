@@ -159,7 +159,6 @@ mWebNotificationsDisabledSetting
 mOverrideDocumentColorsSetting
 mOverrideContentColorSchemeSetting
 mUseDocumentFontsSetting
-mVerticalTabsSetting
 mZoomFullPageSetting
 mZoomSiteSpecificSetting
 mColorManagementNamespace
@@ -354,16 +353,6 @@ zoomSiteSpecific
 "
 _ns
 ZoomSiteSpecific
-)
-NS_IMPL_WEBEXT_SETTING
-(
-ExtensionBrowserSettings
-u
-"
-verticalTabs
-"
-_ns
-VerticalTabs
 )
 ExtensionBrowserSettings
 :
