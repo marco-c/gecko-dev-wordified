@@ -281,6 +281,10 @@ OriginScope
 &
 aOriginScope
 const
+ClientStorageScope
+&
+aClientStorageScope
+const
 bool
 aAlreadyInitialized
 UninitChecker
@@ -305,12 +309,7 @@ CreateDirectoryLockInternal
 (
 aPersistenceScope
 aOriginScope
-ClientStorageScope
-:
-:
-CreateFromNull
-(
-)
+aClientStorageScope
 /
 *
 aExclusive
