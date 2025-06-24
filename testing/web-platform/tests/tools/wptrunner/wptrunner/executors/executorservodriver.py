@@ -65,12 +65,6 @@ session
 =
 session
         
-webdriver
-.
-client
-.
-command
-        
 def
 get_prefs
 (
@@ -113,12 +107,6 @@ get
 body
 )
         
-webdriver
-.
-client
-.
-command
-        
 def
 set_prefs
 (
@@ -156,12 +144,6 @@ set
 "
 body
 )
-        
-webdriver
-.
-client
-.
-command
         
 def
 reset_prefs
