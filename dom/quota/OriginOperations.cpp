@@ -14676,6 +14676,16 @@ aExclusive
 *
 /
 true
+/
+*
+aInitializeOrigins
+*
+/
+false
+DirectoryLockCategory
+:
+:
+UninitClients
 )
 ;
 }
@@ -16189,6 +16199,10 @@ aExclusive
 *
 /
 true
+DirectoryLockCategory
+:
+:
+UninitClients
 )
 ;
 return
