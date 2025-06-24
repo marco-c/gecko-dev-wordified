@@ -295,8 +295,9 @@ findElement
 (
 dbg
 "
-inlinePreview
+inlinePreviewsOnLine
 "
+74
 )
 ;
 is
