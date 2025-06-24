@@ -2358,6 +2358,12 @@ if
 this
 .
 sidebarRevampEnabled
+&
+&
+!
+BrowserHandler
+.
+kiosk
 )
 {
 if
