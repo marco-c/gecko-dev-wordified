@@ -498,6 +498,11 @@ MoveUnpartitionedChipsCookies
 (
 )
 ;
+void
+RecordValidationTelemetry
+(
+)
+;
 nsresult
 CreateTableWorker
 (
