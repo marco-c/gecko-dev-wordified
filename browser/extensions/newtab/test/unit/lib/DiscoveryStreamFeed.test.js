@@ -189,6 +189,16 @@ foo
 }
 "
 ;
+const
+DEFAULT_COLUMN_COUNT
+=
+4
+;
+const
+DEFAULT_ROW_COUNT
+=
+6
+;
 /
 /
 eslint
@@ -2498,7 +2508,7 @@ components
 properties
 .
 items
-3
+DEFAULT_COLUMN_COUNT
 )
 ;
 }
@@ -2631,7 +2641,7 @@ components
 properties
 .
 items
-3
+DEFAULT_COLUMN_COUNT
 )
 ;
 }
@@ -2642,7 +2652,7 @@ it
 "
 should
 use
-7
+6
 row
 layout
 if
@@ -2764,7 +2774,9 @@ components
 properties
 .
 items
-21
+DEFAULT_ROW_COUNT
+*
+DEFAULT_COLUMN_COUNT
 )
 ;
 }
@@ -3017,7 +3029,7 @@ components
 properties
 .
 items
-3
+DEFAULT_COLUMN_COUNT
 )
 ;
 }
@@ -3259,7 +3271,9 @@ components
 properties
 .
 items
-24
+DEFAULT_ROW_COUNT
+*
+DEFAULT_COLUMN_COUNT
 )
 ;
 }
