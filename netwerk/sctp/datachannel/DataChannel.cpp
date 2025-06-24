@@ -8400,19 +8400,7 @@ SCTP
 s
 buffers
 .
-/
-/
-returns
-if
-we
-'
-re
-still
-blocked
-(
-true
-)
-bool
+void
 DataChannelConnection
 :
 :
@@ -8483,7 +8471,6 @@ None
 )
 {
 return
-false
 ;
 }
 /
@@ -8562,7 +8549,6 @@ nullptr
 )
 {
 return
-true
 ;
 }
 /
@@ -8852,9 +8838,6 @@ PendingType
 Dcep
 ;
 }
-return
-blocked
-;
 }
 /
 /
