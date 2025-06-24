@@ -1100,6 +1100,14 @@ closed
 "
 )
 ;
+await
+waitForSelectedLocation
+(
+dbg
+5
+3
+)
+;
 info
 (
 "
