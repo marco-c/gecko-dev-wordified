@@ -1695,6 +1695,13 @@ traceRuntimeAtoms
 trc
 )
 ;
+atomMarking
+.
+markAtomsUsedByUncollectedZones
+(
+this
+)
+;
 }
 {
 /

@@ -409,8 +409,6 @@ refineZoneBitmapsForCollectedZones
 GCRuntime
 *
 gc
-size_t
-collectedZones
 )
 ;
 /
@@ -444,8 +442,6 @@ markAtomsUsedByUncollectedZones
 GCRuntime
 *
 gc
-size_t
-uncollectedZones
 )
 ;
 private
