@@ -7143,15 +7143,6 @@ return
 mNewInvisibleWhiteSpaces
 ;
 }
-void
-MaybeAppendNewInvisibleWhiteSpace
-(
-const
-nsIContent
-*
-aContentWillBeRemoved
-)
-;
 private
 :
 ~
