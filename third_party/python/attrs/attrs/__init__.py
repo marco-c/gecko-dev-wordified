@@ -17,7 +17,11 @@ Attribute
     
 AttrsInstance
     
+Converter
+    
 Factory
+    
+NothingType
     
 _make_getattr
     
@@ -65,6 +69,30 @@ validators
 __all__
 =
 [
+    
+"
+NOTHING
+"
+    
+"
+Attribute
+"
+    
+"
+AttrsInstance
+"
+    
+"
+Converter
+"
+    
+"
+Factory
+"
+    
+"
+NothingType
+"
     
 "
 __author__
@@ -119,14 +147,6 @@ astuple
 "
     
 "
-Attribute
-"
-    
-"
-AttrsInstance
-"
-    
-"
 cmp_using
 "
     
@@ -147,19 +167,15 @@ exceptions
 "
     
 "
-Factory
-"
-    
-"
 field
 "
     
 "
-fields_dict
+fields
 "
     
 "
-fields
+fields_dict
 "
     
 "
@@ -180,10 +196,6 @@ make_class
     
 "
 mutable
-"
-    
-"
-NOTHING
 "
     
 "
