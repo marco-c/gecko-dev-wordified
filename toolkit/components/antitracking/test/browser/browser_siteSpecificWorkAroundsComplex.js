@@ -1142,6 +1142,11 @@ db
 create
 (
 {
+category
+:
+"
+baseline
+"
 urlPattern
 :
 e
