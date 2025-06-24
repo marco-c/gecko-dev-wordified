@@ -342,7 +342,6 @@ self
 .
 get_ray_query_pointer_id
 (
-ir_module
 )
 ;
 let

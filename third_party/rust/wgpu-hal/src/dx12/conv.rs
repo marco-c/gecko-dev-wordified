@@ -936,6 +936,16 @@ Direct3D12
 :
 :
 D3D12_DESCRIPTOR_RANGE_TYPE_SRV
+Bt
+:
+:
+ExternalTexture
+=
+>
+unimplemented
+!
+(
+)
 }
 }
 pub

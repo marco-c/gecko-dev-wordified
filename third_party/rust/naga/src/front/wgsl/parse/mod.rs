@@ -1769,6 +1769,10 @@ conv
 :
 map_built_in
 (
+&
+lexer
+.
+enable_extensions
 raw
 span
 )

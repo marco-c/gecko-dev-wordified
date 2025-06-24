@@ -1457,6 +1457,15 @@ vertex_index
 Bi
 :
 :
+ClipDistance
+=
+>
+"
+clip_distances
+"
+Bi
+:
+:
 FragDepth
 =
 >
@@ -1598,11 +1607,6 @@ Bi
 :
 :
 BaseVertex
-|
-Bi
-:
-:
-ClipDistance
 |
 Bi
 :
