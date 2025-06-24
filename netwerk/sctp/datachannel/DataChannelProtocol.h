@@ -161,7 +161,7 @@ endif
 #
 define
 WEBRTC_DATACHANNEL_STREAMS_DEFAULT
-256
+2048
 /
 /
 Do
