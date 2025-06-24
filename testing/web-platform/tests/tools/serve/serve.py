@@ -8156,7 +8156,7 @@ domain
     
 #
 Windows
-interpets
+interprets
 the
 IP
 address
