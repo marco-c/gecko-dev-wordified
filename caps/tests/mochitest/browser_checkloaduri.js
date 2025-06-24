@@ -2232,14 +2232,6 @@ https_first
 "
 false
 ]
-[
-"
-security
-.
-allow_eval_with_system_principal
-"
-true
-]
 ]
 }
 )
