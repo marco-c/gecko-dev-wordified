@@ -4345,15 +4345,6 @@ use
 MemoryUse
 :
 :
-ForOfPICStub
-|
-|
-use
-=
-=
-MemoryUse
-:
-:
 ICUObject
 ;
 }
