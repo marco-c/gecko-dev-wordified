@@ -321,6 +321,17 @@ ShouldUseNativeStyle
 )
 const
 ;
+void
+BuildDisplayList
+(
+nsDisplayListBuilder
+*
+const
+nsDisplayListSet
+&
+)
+override
+;
 protected
 :
 /
