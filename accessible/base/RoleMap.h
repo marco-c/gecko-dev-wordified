@@ -858,7 +858,7 @@ IsAccessibilityElementRule
 :
 IfChildlessWithNameAndFocusable
 UIA_DataItemControlTypeId
-eNameFromSubtreeIfReqRule
+eNameFromSubtreeRule
 )
 ROLE
 (
