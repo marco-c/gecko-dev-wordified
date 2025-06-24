@@ -930,7 +930,7 @@ cgContext
 bool
 inCheckbox
 const
-HIRect
+NSRect
 &
 inBoxRect
 const
@@ -945,7 +945,7 @@ DrawTextField
 CGContextRef
 cgContext
 const
-HIRect
+NSRect
 &
 inBoxRect
 const
@@ -960,7 +960,7 @@ DrawPushButton
 CGContextRef
 cgContext
 const
-HIRect
+NSRect
 &
 inBoxRect
 ButtonType
@@ -975,7 +975,7 @@ DrawSquareBezelPushButton
 CGContextRef
 cgContext
 const
-HIRect
+NSRect
 &
 inBoxRect
 ControlParams
@@ -988,7 +988,7 @@ DrawHelpButton
 CGContextRef
 cgContext
 const
-HIRect
+NSRect
 &
 inBoxRect
 ControlParams
@@ -1001,7 +1001,7 @@ DrawDisclosureButton
 CGContextRef
 cgContext
 const
-HIRect
+NSRect
 &
 inBoxRect
 ControlParams
@@ -1016,7 +1016,7 @@ DrawHIThemeButton
 CGContextRef
 cgContext
 const
-HIRect
+NSRect
 &
 aRect
 ThemeButtonKind
@@ -1039,7 +1039,7 @@ DrawButton
 CGContextRef
 context
 const
-HIRect
+NSRect
 &
 inBoxRect
 const
@@ -1054,7 +1054,7 @@ DrawDropdown
 CGContextRef
 context
 const
-HIRect
+NSRect
 &
 inBoxRect
 const
