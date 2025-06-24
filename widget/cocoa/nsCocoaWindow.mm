@@ -13723,6 +13723,17 @@ WidgetMouseEvent
 eReal
 )
 ;
+[
+self
+convertCocoaMouseEvent
+:
+aEvent
+toGeckoEvent
+:
+&
+event
+]
+;
 event
 .
 mRefPoint
