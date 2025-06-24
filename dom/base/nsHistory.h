@@ -595,8 +595,14 @@ mozilla
 :
 Maybe
 <
+mozilla
+:
+:
+NotNull
+<
 JSContext
 *
+>
 >
 aCx
 int32_t

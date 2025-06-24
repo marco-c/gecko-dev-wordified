@@ -906,7 +906,10 @@ DeltaTraverse
 (
 Some
 (
+WrapNotNull
+(
 aCx
+)
 )
 aDelta
 aCallerType
@@ -1400,8 +1403,11 @@ mozilla
 :
 Maybe
 <
+NotNull
+<
 JSContext
 *
+>
 >
 aCx
 int32_t
@@ -1568,8 +1574,10 @@ docShell
 >
 ReloadNavigable
 (
-*
+WrapNotNull
+(
 aCx
+)
 nsIWebNavigation
 :
 :
