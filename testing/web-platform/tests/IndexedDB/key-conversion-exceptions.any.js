@@ -1766,12 +1766,6 @@ get
 getKey
 '
 '
-getAll
-'
-'
-getAllKeys
-'
-'
 count
 '
 '
@@ -1980,6 +1974,12 @@ on
 IDBIndex
 .
 [
+'
+getAll
+'
+'
+getAllKeys
+'
 '
 getAllRecords
 '
