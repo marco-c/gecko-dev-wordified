@@ -8250,11 +8250,13 @@ AnchorPosOffsetResolutionParams
 :
 UseCBFrameSize
 (
+{
 aFixedPosFrame
 StylePositionProperty
 :
 :
 Fixed
+}
 )
 ;
 if

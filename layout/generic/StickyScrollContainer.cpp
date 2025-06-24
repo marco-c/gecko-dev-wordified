@@ -429,11 +429,13 @@ AnchorPosOffsetResolutionParams
 :
 UseCBFrameSize
 (
+{
 nullptr
 StylePositionProperty
 :
 :
 Sticky
+}
 )
 )
 ;
