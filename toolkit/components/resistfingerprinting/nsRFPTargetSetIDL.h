@@ -111,6 +111,16 @@ aBits
 {
 }
 ;
+RFPTargetSet
+ToRFPTargetSet
+(
+)
+const
+{
+return
+mBits
+;
+}
 private
 :
 ~
