@@ -469,11 +469,11 @@ related
 void
 OnVideoQueuePushed
 (
+const
 RefPtr
 <
 VideoData
 >
-&
 &
 aSample
 )

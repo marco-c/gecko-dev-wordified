@@ -2162,8 +2162,8 @@ ChannelMediaDecoder
 :
 OnPlaybackEvent
 (
+const
 MediaPlaybackEvent
-&
 &
 aEvent
 )
@@ -2299,13 +2299,7 @@ MediaDecoder
 :
 OnPlaybackEvent
 (
-std
-:
-:
-move
-(
 aEvent
-)
 )
 ;
 }

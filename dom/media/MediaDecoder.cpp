@@ -2104,8 +2104,8 @@ MediaDecoder
 :
 OnPlaybackEvent
 (
+const
 MediaPlaybackEvent
-&
 &
 aEvent
 )
