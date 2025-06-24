@@ -7229,9 +7229,6 @@ aSizeMode
 ;
 }
 }
-#
-ifdef
-MOZ_WIDGET_ANDROID
 void
 BrowserParent
 :
@@ -7284,6 +7281,9 @@ aOffset
 ;
 }
 }
+#
+ifdef
+MOZ_WIDGET_ANDROID
 void
 BrowserParent
 :

@@ -7252,12 +7252,6 @@ ScreenIntCoord
 aHeight
 )
 {
-#
-if
-defined
-(
-MOZ_WIDGET_ANDROID
-)
 mDynamicToolbarMaxHeight
 =
 aHeight
@@ -7309,8 +7303,6 @@ aHeight
 )
 ;
 }
-#
-endif
 return
 IPC_OK
 (
@@ -7335,12 +7327,6 @@ ScreenIntCoord
 aOffset
 )
 {
-#
-if
-defined
-(
-MOZ_WIDGET_ANDROID
-)
 RefPtr
 <
 Document
@@ -7386,8 +7372,6 @@ aOffset
 )
 ;
 }
-#
-endif
 return
 IPC_OK
 (

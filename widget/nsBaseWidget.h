@@ -1114,6 +1114,17 @@ return
 mWindowRenderer
 ;
 }
+void
+DynamicToolbarOffsetChanged
+(
+mozilla
+:
+:
+ScreenIntCoord
+aOffset
+)
+override
+;
 /
 /
 A

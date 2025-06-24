@@ -2671,9 +2671,6 @@ uint32_t
 aCharCodes
 )
 ;
-#
-ifdef
-MOZ_WIDGET_ANDROID
 void
 DynamicToolbarMaxHeightChanged
 (
@@ -2688,6 +2685,9 @@ ScreenIntCoord
 aOffset
 )
 ;
+#
+ifdef
+MOZ_WIDGET_ANDROID
 void
 KeyboardHeightChanged
 (
