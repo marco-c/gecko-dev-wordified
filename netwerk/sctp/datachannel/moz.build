@@ -99,6 +99,11 @@ DataChannel
 h
 "
 "
+DataChannelDcSctp
+.
+h
+"
+"
 DataChannelListener
 .
 h
@@ -125,6 +130,11 @@ SOURCES
 [
 "
 DataChannel
+.
+cpp
+"
+"
+DataChannelDcSctp
 .
 cpp
 "
