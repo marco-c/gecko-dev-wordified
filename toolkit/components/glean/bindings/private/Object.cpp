@@ -446,7 +446,7 @@ result
 =
 mObject
 .
-TestGetValue
+TestGetValueAsJSONString
 (
 aPingName
 )
