@@ -685,6 +685,7 @@ the
 parent
 process
 .
+await
 ExperimentAPI
 .
 manager
@@ -791,13 +792,6 @@ _deleteForTests
 "
 foo
 "
-)
-;
-await
-NimbusTestUtils
-.
-flushStore
-(
 )
 ;
 BrowserTestUtils
@@ -1184,6 +1178,7 @@ correct
 }
 )
 ;
+await
 ExperimentAPI
 .
 manager
@@ -1206,13 +1201,6 @@ _deleteForTests
 "
 qux
 "
-)
-;
-await
-NimbusTestUtils
-.
-flushStore
-(
 )
 ;
 BrowserTestUtils

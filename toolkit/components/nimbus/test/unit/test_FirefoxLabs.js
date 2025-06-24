@@ -853,6 +853,7 @@ exists
 "
 )
 ;
+await
 labs
 .
 unenroll
@@ -1022,6 +1023,7 @@ slug
 }
 )
 ;
+await
 labs
 .
 unenroll
@@ -1146,6 +1148,7 @@ slug
 }
 )
 ;
+await
 labs
 .
 unenroll
@@ -1385,6 +1388,7 @@ Should
 not
 throw
 .
+await
 labs
 .
 unenroll
@@ -1400,6 +1404,7 @@ Should
 not
 throw
 .
+await
 labs
 .
 unenroll
@@ -1439,6 +1444,7 @@ API
 "
 )
 ;
+await
 labs
 .
 unenroll
@@ -1484,6 +1490,7 @@ Should
 not
 throw
 .
+await
 labs
 .
 unenroll
@@ -1596,6 +1603,7 @@ Disqualified
 ]
 )
 ;
+await
 manager
 .
 unenroll
