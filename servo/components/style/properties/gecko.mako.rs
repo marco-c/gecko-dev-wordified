@@ -537,7 +537,6 @@ pseudo
 :
 Option
 <
-<
 &
 PseudoElement
 >
@@ -956,7 +955,6 @@ self
 old_values
 :
 Option
-<
 <
 &
 ComputedValues
@@ -1500,7 +1498,6 @@ pseudo
 :
 Option
 <
-<
 &
 PseudoElement
 >
@@ -1791,7 +1788,6 @@ self
 -
 >
 Option
-<
 <
 &
 ComputedValues

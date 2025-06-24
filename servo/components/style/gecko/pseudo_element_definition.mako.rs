@@ -1535,7 +1535,6 @@ self
 >
 Option
 <
-<
 &
 [
 Atom

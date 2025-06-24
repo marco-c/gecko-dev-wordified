@@ -128,7 +128,6 @@ above
 example
 Vec
 <
-<
 &
 Foo
 >
@@ -3121,7 +3120,6 @@ self
 -
 >
 Option
-<
 <
 &
 crate
@@ -7523,7 +7521,6 @@ self
 -
 >
 Option
-<
 <
 &
 '
@@ -12883,7 +12880,6 @@ self
 >
 Option
 <
-<
 &
 PseudoElement
 >
@@ -13043,7 +13039,6 @@ self
 -
 >
 Option
-<
 <
 &
 StrongRuleNode
@@ -13316,7 +13311,6 @@ context
 :
 Option
 <
-<
 &
 resolved
 :
@@ -13561,7 +13555,6 @@ LonghandId
 context
 :
 Option
-<
 <
 &
 resolved
@@ -14199,7 +14192,6 @@ new
 pseudo
 :
 Option
-<
 <
 &
 PseudoElement
@@ -14968,7 +14960,6 @@ self
 -
 >
 Option
-<
 <
 &
 ComputedValues
@@ -15783,7 +15774,6 @@ self
 >
 LogicalMargin
 <
-<
 &
 computed
 :
@@ -15995,7 +15985,6 @@ self
 >
 LogicalMargin
 <
-<
 &
 computed
 :
@@ -16069,7 +16058,6 @@ self
 -
 >
 LogicalMargin
-<
 <
 &
 computed
@@ -17216,7 +17204,6 @@ self
 >
 Option
 <
-<
 &
 mut
 T
@@ -17583,7 +17570,6 @@ stylist
 :
 Option
 <
-<
 &
 '
 a
@@ -17768,7 +17754,6 @@ pub
 pseudo
 :
 Option
-<
 <
 &
 '
@@ -18071,7 +18056,6 @@ stylist
 :
 Option
 <
-<
 &
 '
 a
@@ -18081,7 +18065,6 @@ parent_style
 :
 Option
 <
-<
 &
 '
 a
@@ -18090,7 +18073,6 @@ ComputedValues
 pseudo
 :
 Option
-<
 <
 &
 '
@@ -18377,7 +18359,6 @@ stylist
 :
 Option
 <
-<
 &
 '
 a
@@ -18392,7 +18373,6 @@ ComputedValues
 parent_style
 :
 Option
-<
 <
 &
 '
@@ -19083,7 +19063,6 @@ stylist
 :
 Option
 <
-<
 &
 '
 a
@@ -19093,7 +19072,6 @@ parent
 :
 Option
 <
-<
 &
 '
 a
@@ -19102,7 +19080,6 @@ ComputedValues
 pseudo
 :
 Option
-<
 <
 &
 '
@@ -19713,7 +19690,6 @@ self
 -
 >
 Option
-<
 <
 &
 mut
