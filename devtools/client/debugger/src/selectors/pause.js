@@ -1736,7 +1736,7 @@ location
 .
 *
 It
-considers
+consider
 both
 paused
 and
