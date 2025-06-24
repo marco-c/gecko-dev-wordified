@@ -113,6 +113,13 @@ sys
 mjs
 "
 "
+TaskbarTabsPageAction
+.
+sys
+.
+mjs
+"
+"
 TaskbarTabsPin
 .
 sys
