@@ -431,12 +431,6 @@ ZoomSiteSpecific
 (
 )
 ;
-ExtensionSetting
-*
-VerticalTabs
-(
-)
-;
 ExtensionBrowserSettingsColorManagement
 *
 GetExtensionBrowserSettingsColorManagement
@@ -576,12 +570,6 @@ RefPtr
 ExtensionSetting
 >
 mZoomSiteSpecificSetting
-;
-RefPtr
-<
-ExtensionSetting
->
-mVerticalTabsSetting
 ;
 RefPtr
 <
