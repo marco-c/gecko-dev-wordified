@@ -400,16 +400,6 @@ enabled
 "
 true
 ]
-[
-"
-network
-.
-lna
-.
-block_trackers
-"
-false
-]
 ]
 false
 false
