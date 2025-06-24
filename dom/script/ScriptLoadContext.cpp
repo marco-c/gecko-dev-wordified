@@ -544,9 +544,12 @@ mInCompilingList
 (
 false
 )
-mIsTracking
+mClassificationFlags
 (
-false
+{
+0
+0
+}
 )
 mWasCompiledOMT
 (
