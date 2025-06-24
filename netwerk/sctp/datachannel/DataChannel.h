@@ -1432,12 +1432,6 @@ bool
 inOrder
 uint32_t
 prValue
-DataChannelListener
-*
-aListener
-nsISupports
-*
-aContext
 bool
 aExternalNegotiated
 uint16_t
@@ -3261,12 +3255,6 @@ bool
 ordered
 bool
 negotiated
-DataChannelListener
-*
-aListener
-nsISupports
-*
-aContext
 )
 ;
 DataChannel
@@ -3781,6 +3769,8 @@ only
 DataChannelListener
 *
 mListener
+=
+nullptr
 ;
 nsCOMPtr
 <
