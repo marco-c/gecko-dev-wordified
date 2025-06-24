@@ -9619,6 +9619,14 @@ name
 }
 if
 (
+!
+captureElements
+.
+IsEmpty
+(
+)
+&
+&
 StaticPrefs
 :
 :
