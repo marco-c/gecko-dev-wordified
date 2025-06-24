@@ -314,7 +314,7 @@ wave_handler
 #
 serving
 wave
-specifc
+specific
 testharnessreport
 .
 js
