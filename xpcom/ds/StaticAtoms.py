@@ -1983,6 +1983,16 @@ background
 Atom
 (
 "
+badge
+"
+"
+badge
+"
+)
+    
+Atom
+(
+"
 bar
 "
 "

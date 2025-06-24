@@ -522,6 +522,11 @@ SetKeyEquiv
 (
 )
 ;
+void
+SetBadge
+(
+)
+;
 nsCOMPtr
 <
 nsIContent
