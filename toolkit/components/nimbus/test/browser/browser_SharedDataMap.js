@@ -246,7 +246,7 @@ keys
 (
 sdm
 .
-_jsonFile
+_store
 .
 data
 )
@@ -273,7 +273,7 @@ disk
 await
 sdm
 .
-_jsonFile
+_store
 .
 finalize
 (
@@ -350,7 +350,7 @@ spy
 (
 sdm
 .
-_jsonFile
+_store
 "
 saveSoon
 "
@@ -374,7 +374,7 @@ ok
 (
 sdm
 .
-_jsonFile
+_store
 .
 saveSoon
 .
@@ -627,7 +627,7 @@ stub
 (
 sdm
 .
-_jsonFile
+_store
 "
 load
 "
@@ -639,7 +639,7 @@ replaceGetter
 (
 sdm
 .
-_jsonFile
+_store
 "
 data
 "
@@ -674,7 +674,7 @@ ok
 (
 sdm
 .
-_jsonFile
+_store
 .
 load
 .
@@ -723,7 +723,7 @@ spy
 (
 sdm
 .
-_jsonFile
+_store
 "
 load
 "
@@ -749,7 +749,7 @@ ok
 (
 sdm
 .
-_jsonFile
+_store
 .
 load
 .
@@ -773,7 +773,7 @@ ok
 (
 sdm
 .
-_jsonFile
+_store
 .
 load
 .
@@ -885,7 +885,7 @@ hasOwn
 (
 childSdm
 "
-_jsonFile
+_store
 "
 )
 "
