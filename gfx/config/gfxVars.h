@@ -943,13 +943,6 @@ uint64_t
 (
 )
 )
-\
-_
-(
-AllowGLNorm16Textures
-bool
-false
-)
 /
 *
 Add
