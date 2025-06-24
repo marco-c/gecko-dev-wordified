@@ -16615,9 +16615,7 @@ creation
 in
 /
 /
-nsNumber
-/
-SearchControlFrame
+nsNumberControlFrame
 :
 :
 CreateAnonymousContent
@@ -16639,15 +16637,6 @@ StyleAppearance
 :
 :
 PasswordInput
-|
-|
-aDefaultAppearance
-=
-=
-StyleAppearance
-:
-:
-Searchfield
 ;
 case
 StyleAppearance
