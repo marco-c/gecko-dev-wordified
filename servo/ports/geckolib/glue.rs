@@ -675,7 +675,7 @@ gecko_bindings
 structs
 :
 :
-AnchorPosResolutionParams
+AnchorPosOffsetResolutionParams
 ;
 use
 style
@@ -49683,7 +49683,7 @@ PhysicalSide
 params
 :
 &
-AnchorPosResolutionParams
+AnchorPosOffsetResolutionParams
 out
 :
 &
@@ -58573,7 +58573,7 @@ AnchorFunction
 params
 :
 &
-AnchorPosResolutionParams
+AnchorPosOffsetResolutionParams
 prop_side
 :
 PhysicalSide
@@ -58592,6 +58592,8 @@ valid_for
 (
 prop_side
 params
+.
+mBaseParams
 .
 mPosition
 )

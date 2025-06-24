@@ -13890,7 +13890,7 @@ aSide
 WritingMode
 aWM
 const
-AnchorPosResolutionParams
+AnchorPosOffsetResolutionParams
 &
 aParams
 )

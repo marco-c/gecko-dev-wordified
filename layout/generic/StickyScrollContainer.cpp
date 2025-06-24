@@ -424,7 +424,7 @@ aPosition
 GetAnchorResolvedInset
 (
 aSide
-AnchorPosResolutionParams
+AnchorPosOffsetResolutionParams
 :
 :
 UseCBFrameSize

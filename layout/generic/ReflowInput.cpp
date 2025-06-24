@@ -6617,7 +6617,7 @@ const
 auto
 anchorResolutionParams
 =
-AnchorPosResolutionParams
+AnchorPosOffsetResolutionParams
 :
 :
 UseCBFrameSize
@@ -7791,7 +7791,7 @@ const
 auto
 anchorResolutionParams
 =
-AnchorPosResolutionParams
+AnchorPosOffsetResolutionParams
 :
 :
 UseCBFrameSize
@@ -13390,7 +13390,7 @@ const
 auto
 anchorResolutionParams
 =
-AnchorPosResolutionParams
+AnchorPosOffsetResolutionParams
 :
 :
 ExplicitCBFrameSize

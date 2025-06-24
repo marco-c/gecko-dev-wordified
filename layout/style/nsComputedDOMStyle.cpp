@@ -12352,7 +12352,7 @@ const
 auto
 anchorResolutionParams
 =
-AnchorPosResolutionParams
+AnchorPosOffsetResolutionParams
 :
 :
 UseCBFrameSize
@@ -12582,7 +12582,7 @@ const
 auto
 anchorResolutionParams
 =
-AnchorPosResolutionParams
+AnchorPosOffsetResolutionParams
 :
 :
 UseCBFrameSize
@@ -13166,7 +13166,7 @@ StylePosition
 GetAnchorResolvedInset
 (
 aSide
-AnchorPosResolutionParams
+AnchorPosOffsetResolutionParams
 :
 :
 UseCBFrameSize

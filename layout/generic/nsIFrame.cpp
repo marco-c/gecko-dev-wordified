@@ -51461,7 +51461,7 @@ const
 auto
 anchorResolutionParams
 =
-AnchorPosResolutionParams
+AnchorPosOffsetResolutionParams
 :
 :
 UseCBFrameSize

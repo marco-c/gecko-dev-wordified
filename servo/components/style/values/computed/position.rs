@@ -547,7 +547,7 @@ gecko_bindings
 structs
 :
 :
-AnchorPosResolutionParams
+AnchorPosOffsetResolutionParams
 logical_geometry
 :
 :
@@ -618,7 +618,7 @@ PhysicalSide
 params
 :
 &
-AnchorPosResolutionParams
+AnchorPosOffsetResolutionParams
 )
 -
 >

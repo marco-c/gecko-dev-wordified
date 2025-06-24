@@ -2702,9 +2702,9 @@ positionProperty
 ;
 const
 auto
-anchorPosResolutionParams
+anchorResolutionParams
 =
-AnchorPosResolutionParams
+AnchorPosOffsetResolutionParams
 :
 :
 UseCBFrameSize
@@ -2745,7 +2745,7 @@ LogicalSide
 :
 BEnd
 wm
-anchorPosResolutionParams
+anchorResolutionParams
 )
 -
 >
@@ -2765,7 +2765,7 @@ LogicalSide
 :
 BStart
 wm
-anchorPosResolutionParams
+anchorResolutionParams
 )
 -
 >
@@ -2993,7 +2993,7 @@ const
 auto
 anchorResolutionParams
 =
-AnchorPosResolutionParams
+AnchorPosOffsetResolutionParams
 :
 :
 UseCBFrameSize
@@ -3188,7 +3188,7 @@ const
 auto
 anchorResolutionParams
 =
-AnchorPosResolutionParams
+AnchorPosOffsetResolutionParams
 :
 :
 UseCBFrameSize
@@ -7735,9 +7735,9 @@ mPosition
 ;
 const
 auto
-anchorPosResolutionParams
+anchorResolutionParams
 =
-AnchorPosResolutionParams
+AnchorPosOffsetResolutionParams
 :
 :
 UseCBFrameSize
@@ -7760,7 +7760,7 @@ LogicalSide
 :
 IStart
 outerWM
-anchorPosResolutionParams
+anchorResolutionParams
 )
 -
 >
@@ -7779,7 +7779,7 @@ LogicalSide
 :
 IEnd
 outerWM
-anchorPosResolutionParams
+anchorResolutionParams
 )
 -
 >
@@ -7801,7 +7801,7 @@ LogicalSide
 :
 BStart
 outerWM
-anchorPosResolutionParams
+anchorResolutionParams
 )
 -
 >
@@ -7820,7 +7820,7 @@ LogicalSide
 :
 BEnd
 outerWM
-anchorPosResolutionParams
+anchorResolutionParams
 )
 -
 >

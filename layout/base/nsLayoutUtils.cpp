@@ -8245,7 +8245,7 @@ const
 auto
 params
 =
-AnchorPosResolutionParams
+AnchorPosOffsetResolutionParams
 :
 :
 UseCBFrameSize

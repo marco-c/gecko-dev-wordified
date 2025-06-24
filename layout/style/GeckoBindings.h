@@ -4379,7 +4379,7 @@ bool
 Gecko_GetAnchorPosOffset
 (
 const
-AnchorPosResolutionParams
+AnchorPosOffsetResolutionParams
 *
 aParams
 const
