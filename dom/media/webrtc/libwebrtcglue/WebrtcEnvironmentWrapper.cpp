@@ -184,10 +184,7 @@ RtcEventLogNull
 >
 (
 )
-MakeUnique
-<
-SharedThreadPoolWebRtcTaskQueueFactory
->
+CreateWebrtcTaskQueueFactory
 (
 )
 WrapUnique
