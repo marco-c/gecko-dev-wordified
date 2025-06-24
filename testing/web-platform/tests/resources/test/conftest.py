@@ -479,6 +479,14 @@ capabilities
     
 config
 .
+driver
+.
+start
+(
+)
+    
+config
+.
 add_cleanup
 (
 config

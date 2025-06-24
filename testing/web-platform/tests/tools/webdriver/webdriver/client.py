@@ -35,91 +35,6 @@ bidi
 client
 import
 BidiSession
-def
-command
-(
-func
-)
-:
-    
-def
-inner
-(
-self
-*
-args
-*
-*
-kwargs
-)
-:
-        
-if
-hasattr
-(
-self
-"
-session
-"
-)
-:
-            
-session
-=
-self
-.
-session
-        
-else
-:
-            
-session
-=
-self
-        
-if
-session
-.
-session_id
-is
-None
-:
-            
-session
-.
-start
-(
-)
-        
-return
-func
-(
-self
-*
-args
-*
-*
-kwargs
-)
-    
-inner
-.
-__name__
-=
-func
-.
-__name__
-    
-inner
-.
-__doc__
-=
-func
-.
-__doc__
-    
-return
-inner
 class
 Timeouts
 :
@@ -670,8 +585,6 @@ _pointer_params
         
 return
 d
-    
-command
     
 def
 perform
@@ -1960,8 +1873,6 @@ session
 =
 session
     
-command
-    
 def
 perform
 (
@@ -2057,8 +1968,6 @@ body
 return
 actions
     
-command
-    
 def
 release
 (
@@ -2147,8 +2056,6 @@ session
 =
 session
     
-command
-    
 def
 close
 (
@@ -2216,8 +2123,6 @@ handles
     
 property
     
-command
-    
 def
 rect
 (
@@ -2246,8 +2151,6 @@ rect
 .
 setter
     
-command
-    
 def
 rect
 (
@@ -2274,8 +2177,6 @@ new_rect
 )
     
 property
-    
-command
     
 def
 size
@@ -2329,8 +2230,6 @@ height
 size
 .
 setter
-    
-command
     
 def
 size
@@ -2439,8 +2338,6 @@ pass
     
 property
     
-command
-    
 def
 position
 (
@@ -2493,8 +2390,6 @@ y
 position
 .
 setter
-    
-command
     
 def
 position
@@ -2596,8 +2491,6 @@ implemented
             
 pass
     
-command
-    
 def
 maximize
 (
@@ -2622,8 +2515,6 @@ maximize
 "
 )
     
-command
-    
 def
 minimize
 (
@@ -2647,8 +2538,6 @@ window
 minimize
 "
 )
-    
-command
     
 def
 fullscreen
@@ -2690,8 +2579,6 @@ self
 session
 =
 session
-    
-command
     
 def
 css
@@ -2790,8 +2677,6 @@ session
 =
 session
     
-command
-    
 def
 dismiss
 (
@@ -2814,8 +2699,6 @@ alert
 dismiss
 "
 )
-    
-command
     
 def
 accept
@@ -2841,8 +2724,6 @@ accept
 )
     
 property
-    
-command
     
 def
 text
@@ -2871,8 +2752,6 @@ text
 text
 .
 setter
-    
-command
     
 def
 text
@@ -4178,8 +4057,6 @@ timeout
     
 property
     
-command
-    
 def
 url
 (
@@ -4203,8 +4080,6 @@ url
 url
 .
 setter
-    
-command
     
 def
 url
@@ -4259,8 +4134,6 @@ url
 body
 )
     
-command
-    
 def
 back
 (
@@ -4281,8 +4154,6 @@ back
 "
 )
     
-command
-    
 def
 forward
 (
@@ -4302,8 +4173,6 @@ POST
 forward
 "
 )
-    
-command
     
 def
 refresh
@@ -4327,8 +4196,6 @@ refresh
     
 property
     
-command
-    
 def
 title
 (
@@ -4351,8 +4218,6 @@ title
     
 property
     
-command
-    
 def
 source
 (
@@ -4372,8 +4237,6 @@ GET
 source
 "
 )
-    
-command
     
 def
 new_window
@@ -4424,8 +4287,6 @@ handle
     
 property
     
-command
-    
 def
 window_handle
 (
@@ -4449,8 +4310,6 @@ window
 window_handle
 .
 setter
-    
-command
     
 def
 window_handle
@@ -4548,8 +4407,6 @@ body
     
 property
     
-command
-    
 def
 handles
 (
@@ -4574,8 +4431,6 @@ handles
     
 property
     
-command
-    
 def
 active_element
 (
@@ -4597,8 +4452,6 @@ element
 active
 "
 )
-    
-command
     
 def
 cookies
@@ -4671,8 +4524,6 @@ url
 {
 }
 )
-    
-command
     
 def
 set_cookie
@@ -4894,8 +4745,6 @@ url
 .
 ]
     
-command
-    
 def
 execute_script
 (
@@ -4951,8 +4800,6 @@ sync
 "
 body
 )
-    
-command
     
 def
 execute_async_script
@@ -5017,8 +4864,6 @@ body
 .
 ]
     
-command
-    
 def
 screenshot
 (
@@ -5038,8 +4883,6 @@ GET
 screenshot
 "
 )
-    
-command
     
 def
 print
@@ -5360,8 +5203,6 @@ url
 body
 )
     
-command
-    
 def
 find_element
 (
@@ -5400,8 +5241,6 @@ element
 "
 body
 )
-    
-command
     
 def
 find_elements
@@ -5745,8 +5584,6 @@ url
 body
 )
     
-command
-    
 def
 find_element
 (
@@ -5786,8 +5623,6 @@ element
 body
 )
     
-command
-    
 def
 click
 (
@@ -5808,8 +5643,6 @@ click
 {
 }
 )
-    
-command
     
 def
 tap
@@ -5832,8 +5665,6 @@ tap
 }
 )
     
-command
-    
 def
 clear
 (
@@ -5854,8 +5685,6 @@ clear
 {
 }
 )
-    
-command
     
 def
 send_keys
@@ -5887,8 +5716,6 @@ text
     
 property
     
-command
-    
 def
 text
 (
@@ -5911,8 +5738,6 @@ text
     
 property
     
-command
-    
 def
 name
 (
@@ -5932,8 +5757,6 @@ GET
 name
 "
 )
-    
-command
     
 def
 style
@@ -5984,8 +5807,6 @@ property_name
     
 property
     
-command
-    
 def
 rect
 (
@@ -6008,8 +5829,6 @@ rect
     
 property
     
-command
-    
 def
 selected
 (
@@ -6029,8 +5848,6 @@ GET
 selected
 "
 )
-    
-command
     
 def
 screenshot
@@ -6053,8 +5870,6 @@ screenshot
 )
     
 property
-    
-command
     
 def
 shadow_root
@@ -6075,8 +5890,6 @@ GET
 shadow
 "
 )
-    
-command
     
 def
 attribute
@@ -6125,8 +5938,6 @@ s
 name
 )
     
-command
-    
 def
 get_computed_label
 (
@@ -6146,8 +5957,6 @@ GET
 computedlabel
 "
 )
-    
-command
     
 def
 get_computed_role
@@ -6187,8 +5996,6 @@ overridden
 by
 this
 .
-    
-command
     
 def
 property
