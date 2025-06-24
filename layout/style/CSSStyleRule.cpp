@@ -1247,6 +1247,7 @@ CSSStyleRule
 implementation
 *
 /
+const
 StyleLockedDeclarationBlock
 *
 CSSStyleRule

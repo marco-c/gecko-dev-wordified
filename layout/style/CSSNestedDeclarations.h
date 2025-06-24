@@ -394,6 +394,7 @@ get
 )
 ;
 }
+const
 StyleLockedDeclarationBlock
 *
 RawStyle

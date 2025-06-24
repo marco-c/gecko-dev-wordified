@@ -207,9 +207,6 @@ mozilla
 :
 dom
 {
-class
-CSSStyleRule
-;
 /
 *
 *
@@ -274,13 +271,7 @@ bool
 aWithStartingStyle
 nsTArray
 <
-RefPtr
-<
-css
-:
-:
-Rule
->
+OwningCSSRuleOrInspectorDeclaration
 >
 &
 aResult

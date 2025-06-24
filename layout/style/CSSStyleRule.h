@@ -488,6 +488,7 @@ return
 mRawRule
 ;
 }
+const
 StyleLockedDeclarationBlock
 *
 RawStyle

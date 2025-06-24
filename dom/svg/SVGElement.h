@@ -1033,6 +1033,7 @@ static
 bool
 UpdateDeclarationBlockFromLength
 (
+const
 StyleLockedDeclarationBlock
 &
 nsCSSPropertyID
@@ -1046,6 +1047,7 @@ static
 bool
 UpdateDeclarationBlockFromPath
 (
+const
 StyleLockedDeclarationBlock
 &
 const
@@ -1058,6 +1060,7 @@ static
 bool
 UpdateDeclarationBlockFromTransform
 (
+const
 StyleLockedDeclarationBlock
 &
 const
