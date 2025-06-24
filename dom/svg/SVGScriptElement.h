@@ -340,7 +340,7 @@ override
 /
 ScriptElement
 bool
-HasScriptContent
+HasExternalScriptContent
 (
 )
 override

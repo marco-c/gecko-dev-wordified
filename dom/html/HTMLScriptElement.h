@@ -1156,7 +1156,7 @@ this
 ScriptElement
 virtual
 bool
-HasScriptContent
+HasExternalScriptContent
 (
 )
 override
