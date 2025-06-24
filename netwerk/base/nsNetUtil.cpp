@@ -3473,6 +3473,15 @@ ons
 .
 if
 (
+aContentPolicyType
+!
+=
+nsIContentPolicy
+:
+:
+TYPE_DOCUMENT
+&
+&
 aTriggeringPrincipal
 &
 &
