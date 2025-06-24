@@ -1275,6 +1275,11 @@ mTextScaleFactor
 .
 0f
 ;
+int32_t
+mRoundedCornerProviderRadius
+=
+0
+;
 RefPtr
 <
 GtkCssProvider
