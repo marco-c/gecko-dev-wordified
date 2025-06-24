@@ -174,11 +174,6 @@ NonBlocking
 >
 >
 (
-TaskQueue
-:
-:
-Create
-(
 do_AddRef
 (
 GetCurrentSerialEventTarget
@@ -186,14 +181,10 @@ GetCurrentSerialEventTarget
 )
 )
 "
-MainTaskQueue
-"
-true
-)
-"
 TestCallWorkerThread
 "
 _ns
+true
 )
 )
 ;
