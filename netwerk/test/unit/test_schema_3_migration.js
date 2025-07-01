@@ -814,9 +814,13 @@ equal
 cookie
 .
 expiry
+(
 futureExpiry
 +
 44
+)
+*
+1000
 )
 ;
 finish_test
