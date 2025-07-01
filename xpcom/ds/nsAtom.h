@@ -1229,7 +1229,7 @@ gUnusedAtomCount
 kAtomGCThreshold
 )
 {
-ScheduleAtomTableGC
+GCAtomTable
 (
 )
 ;
@@ -1310,7 +1310,7 @@ gUnusedAtomCount
 ;
 static
 void
-ScheduleAtomTableGC
+GCAtomTable
 (
 )
 ;
