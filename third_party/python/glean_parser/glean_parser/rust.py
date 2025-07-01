@@ -760,22 +760,6 @@ type
 )
 )
     
-if
-getattr
-(
-obj
-"
-dual_labeled_counter
-"
-False
-)
-:
-        
-return
-"
-DualLabeledCounterMetric
-"
-    
 generate_enums
 =
 getattr
