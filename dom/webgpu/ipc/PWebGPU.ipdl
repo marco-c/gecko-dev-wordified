@@ -583,17 +583,6 @@ result
 )
 ;
 async
-BufferUnmap
-(
-RawId
-deviceId
-RawId
-bufferId
-bool
-flush
-)
-;
-async
 QueueSubmit
 (
 RawId

@@ -437,11 +437,8 @@ BufferMapResolver
 aResolver
 )
 ;
-ipc
-:
-:
-IPCResult
-RecvBufferUnmap
+void
+BufferUnmap
 (
 RawId
 aDeviceId
