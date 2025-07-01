@@ -1256,6 +1256,17 @@ aTimestamp
 )
 ;
 void
+UpdateOriginMaintenanceDate
+(
+const
+OriginMetadata
+&
+aOriginMetadata
+int32_t
+aMaintenanceDate
+)
+;
+void
 UpdateOriginAccessed
 (
 const
