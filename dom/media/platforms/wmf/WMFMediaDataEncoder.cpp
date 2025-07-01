@@ -248,11 +248,6 @@ HardwarePreference
 :
 :
 RequireSoftware
-|
-|
-IsWin32kLockedDown
-(
-)
 )
 {
 WMF_ENC_LOGE
