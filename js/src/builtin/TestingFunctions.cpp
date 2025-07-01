@@ -58573,7 +58573,7 @@ IS_STARTUP_PREF
 \
 if
 (
-StringEqualsAscii
+StringEqualsLiteral
 (
 name
 NAME
