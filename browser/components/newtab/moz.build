@@ -124,6 +124,13 @@ sys
 .
 mjs
 "
+"
+AboutNewTabResourceMapping
+.
+sys
+.
+mjs
+"
 ]
 XPCOM_MANIFESTS
 +
