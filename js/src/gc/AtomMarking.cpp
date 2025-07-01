@@ -1153,7 +1153,7 @@ get
 (
 )
 ;
-MarkBitmapWord
+AtomicBitmapWord
 *
 chunkWords
 =
@@ -1285,7 +1285,7 @@ get
 (
 )
 ;
-MarkBitmapWord
+AtomicBitmapWord
 *
 chunkWords
 =
@@ -1548,7 +1548,7 @@ get
 (
 )
 ;
-MarkBitmapWord
+AtomicBitmapWord
 *
 chunkWords
 =

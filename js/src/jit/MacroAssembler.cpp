@@ -54909,7 +54909,10 @@ static_assert
 gc
 :
 :
-MarkBitmapWordBits
+ChunkMarkBitmap
+:
+:
+BitsPerWord
 =
 =
 JS_BITS_PER_WORD
@@ -54943,7 +54946,7 @@ bitmap
 [
 bit
 /
-MarkBitmapWordBits
+WordBits
 ]
 ;
 /
@@ -55088,7 +55091,7 @@ uintptr_t
 (
 bit
 %
-MarkBitmapWordBits
+WordBits
 )
 ;
 andPtr
@@ -55098,7 +55101,10 @@ Imm32
 gc
 :
 :
-MarkBitmapWordBits
+ChunkMarkBitmap
+:
+:
+BitsPerWord
 -
 1
 )

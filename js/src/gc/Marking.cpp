@@ -20976,7 +20976,7 @@ return
 nullptr
 ;
 }
-MarkBitmapWord
+AtomicBitmapWord
 *
 wordp
 ;
@@ -21096,7 +21096,7 @@ ColorBit
 :
 GrayOrBlackBit
 ;
-MarkBitmapWord
+AtomicBitmapWord
 *
 wordp
 ;
