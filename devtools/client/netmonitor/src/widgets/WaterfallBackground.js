@@ -1031,7 +1031,6 @@ colorStr
 #
 000
 "
-document
 )
 ;
 return
