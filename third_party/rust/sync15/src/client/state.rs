@@ -3972,10 +3972,6 @@ match
 self
 {
 Initial
-{
-.
-.
-}
 =
 >
 "

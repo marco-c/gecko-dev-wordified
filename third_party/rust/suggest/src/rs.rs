@@ -2877,7 +2877,7 @@ std
 iter
 :
 :
-repeat
+repeat_n
 (
 Some
 (
@@ -2887,10 +2887,6 @@ as_str
 (
 )
 )
-)
-.
-take
-(
 *
 repeat_for
 )
