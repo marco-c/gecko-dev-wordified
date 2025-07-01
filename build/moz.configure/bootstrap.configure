@@ -208,7 +208,7 @@ toolchains
 }
 "
 )
-depends_if
+depends
 (
 "
 -
@@ -287,6 +287,12 @@ match
 name
 )
 :
+if
+not
+bootstrap
+:
+return
+False
 if
 name
 in
@@ -1781,8 +1787,6 @@ path_prefix
 path_parts
 )
 if
-enable_bootstrap
-and
 want_bootstrap
 (
 path_parts
