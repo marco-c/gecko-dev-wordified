@@ -32989,6 +32989,15 @@ MDefinition
 Opcode
 :
 :
+GuardElementsArePacked
+:
+case
+MDefinition
+:
+:
+Opcode
+:
+:
 InArray
 :
 case
