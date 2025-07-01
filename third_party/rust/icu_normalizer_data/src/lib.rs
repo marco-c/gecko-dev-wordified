@@ -76,7 +76,7 @@ generated
 with
 CLDR
 version
-45
+47
 .
 0
 .
@@ -85,13 +85,13 @@ ICU
 version
 icu4x
 /
-2024
+2025
 -
 05
 -
-16
+01
 /
-75
+77
 .
 x
 and
@@ -158,7 +158,7 @@ ICU4X_DATA_DIR
 )
 "
 /
-macros
+mod
 .
 rs
 "
@@ -184,7 +184,7 @@ include
 /
 data
 /
-macros
+mod
 .
 rs
 "

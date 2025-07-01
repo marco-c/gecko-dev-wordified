@@ -634,7 +634,7 @@ impl
 The
 impl
 of
-validate_byte_slice
+validate_bytes
 (
 )
 returns
@@ -654,7 +654,7 @@ valid
 The
 impl
 of
-validate_byte_slice
+validate_bytes
 (
 )
 returns
@@ -716,7 +716,7 @@ U
 >
 {
 fn
-validate_byte_slice
+validate_bytes
 (
 bytes
 :
@@ -731,7 +731,7 @@ Result
 <
 (
 )
-ZeroVecError
+UleError
 >
 {
 let
@@ -764,7 +764,7 @@ size
 return
 Err
 (
-ZeroVecError
+UleError
 :
 :
 length
@@ -890,7 +890,7 @@ x
 return
 Err
 (
-ZeroVecError
+UleError
 :
 :
 parse
@@ -911,7 +911,7 @@ Self
 U
 :
 :
-validate_byte_slice
+validate_bytes
 (
 &
 chunk
@@ -928,7 +928,7 @@ _
 return
 Err
 (
-ZeroVecError
+UleError
 :
 :
 parse
@@ -1480,7 +1480,7 @@ Some
 U
 :
 :
-from_byte_slice_unchecked
+from_bytes_unchecked
 (
 &
 self
@@ -1648,7 +1648,7 @@ types
 The
 impl
 of
-validate_byte_slice
+validate_bytes
 (
 )
 returns
@@ -1668,7 +1668,7 @@ valid
 The
 impl
 of
-validate_byte_slice
+validate_bytes
 (
 )
 returns
@@ -1690,7 +1690,7 @@ entirety
 The
 impl
 of
-from_byte_slice_unchecked
+from_bytes_unchecked
 (
 )
 returns
@@ -1752,7 +1752,7 @@ U
 inline
 ]
 fn
-validate_byte_slice
+validate_bytes
 (
 slice
 :
@@ -1767,7 +1767,7 @@ Result
 <
 (
 )
-ZeroVecError
+UleError
 >
 {
 if
@@ -1780,7 +1780,7 @@ is_empty
 return
 Err
 (
-ZeroVecError
+UleError
 :
 :
 length
@@ -1878,7 +1878,7 @@ len
 {
 Err
 (
-ZeroVecError
+UleError
 :
 :
 length
@@ -1911,7 +1911,7 @@ Ok
 U
 :
 :
-validate_byte_slice
+validate_bytes
 (
 &
 slice
@@ -1926,7 +1926,7 @@ _
 >
 Err
 (
-ZeroVecError
+UleError
 :
 :
 parse
@@ -1946,7 +1946,7 @@ inline
 ]
 unsafe
 fn
-from_byte_slice_unchecked
+from_bytes_unchecked
 (
 bytes
 :
