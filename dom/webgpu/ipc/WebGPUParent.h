@@ -659,11 +659,8 @@ DeviceActionWithAckResolver
 aResolver
 )
 ;
-ipc
-:
-:
-IPCResult
-RecvDevicePushErrorScope
+void
+DevicePushErrorScope
 (
 RawId
 aDeviceId
