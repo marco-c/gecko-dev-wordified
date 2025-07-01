@@ -335,9 +335,10 @@ OK
 .
 Assert
 .
-greater
+ok
 (
 newValue
+>
 value
 {
 desc

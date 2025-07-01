@@ -7951,9 +7951,10 @@ now
 ;
 Assert
 .
-less
+ok
 (
 timeDiff
+<
 MAC_MAX_TIME_DIFFERENCE
 "
 the

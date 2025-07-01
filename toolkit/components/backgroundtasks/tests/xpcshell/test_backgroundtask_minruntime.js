@@ -166,11 +166,12 @@ timers
 .
 Assert
 .
-greater
+ok
 (
 finishTime
 -
 startTime
+>
 1800
 "
 Runtime

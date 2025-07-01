@@ -819,9 +819,11 @@ length
 ;
 Assert
 .
-equal
+ok
 (
 contents
+=
+=
 aExpectedContents
 )
 ;

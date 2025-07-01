@@ -118,9 +118,12 @@ js
 ;
 Assert
 .
-strictEqual
+ok
 (
 indent1
+=
+=
+=
 indent2
 )
 ;

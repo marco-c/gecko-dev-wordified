@@ -273,7 +273,7 @@ event
 ;
 Assert
 .
-greater
+ok
 (
 Glean
 .
@@ -286,6 +286,7 @@ testGetValue
 )
 .
 sum
+>
 0
 "
 Should

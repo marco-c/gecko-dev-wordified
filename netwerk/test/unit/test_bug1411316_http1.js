@@ -478,11 +478,13 @@ status
 ;
 Assert
 .
-equal
+ok
 (
 this
 .
 onStopRequestStatus
+=
+=
 status
 )
 ;

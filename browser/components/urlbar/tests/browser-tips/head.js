@@ -2468,13 +2468,15 @@ true
 ;
 Assert
 .
-greaterOrEqual
+ok
 (
 context
 .
 results
 .
 length
+>
+=
 2
 "
 Number

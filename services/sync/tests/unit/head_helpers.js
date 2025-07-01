@@ -2727,9 +2727,11 @@ sync
 ;
 Assert
 .
-equal
+ok
 (
 numErrors
+=
+=
 0
 "
 There

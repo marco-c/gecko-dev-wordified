@@ -1431,9 +1431,11 @@ delay
 {
 Assert
 .
-lessOrEqual
+ok
 (
 delay
+<
+=
 TelemetryEventPing
 .
 maxFrequency

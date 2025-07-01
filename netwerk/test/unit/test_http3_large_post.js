@@ -420,11 +420,12 @@ timing
 .
 Assert
 .
-greater
+ok
 (
 this
 .
 onProgressNotificationCount
+>
 10
 )
 ;

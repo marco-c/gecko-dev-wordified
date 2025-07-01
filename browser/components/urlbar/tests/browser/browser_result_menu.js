@@ -899,9 +899,10 @@ break
 }
 Assert
 .
-less
+ok
 (
 resultIndex
+<
 count
 "
 Result

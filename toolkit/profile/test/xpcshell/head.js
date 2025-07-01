@@ -907,11 +907,14 @@ dir
 ;
 Assert
 .
-strictEqual
+ok
 (
 service
 .
 currentProfile
+=
+=
+=
 profile
 .
 value

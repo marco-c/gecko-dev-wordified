@@ -270,11 +270,13 @@ e
 {
 Assert
 .
-equal
+ok
 (
 e
 .
 name
+=
+=
 "
 NS_ERROR_FILE_NOT_FOUND
 "

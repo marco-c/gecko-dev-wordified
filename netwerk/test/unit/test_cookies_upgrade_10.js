@@ -339,12 +339,14 @@ schema
 .
 Assert
 .
-greaterOrEqual
+ok
 (
 getDBVersion
 (
 destFile
 )
+>
+=
 13
 )
 ;

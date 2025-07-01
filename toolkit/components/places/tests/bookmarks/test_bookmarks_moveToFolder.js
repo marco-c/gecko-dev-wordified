@@ -3591,11 +3591,13 @@ index
 ;
 Assert
 .
-greaterOrEqual
+ok
 (
 bm
 .
 lastModified
+>
+=
 lastModified
 )
 ;

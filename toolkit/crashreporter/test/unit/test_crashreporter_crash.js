@@ -159,11 +159,12 @@ exists
 ;
 Assert
 .
-greater
+ok
 (
 mdump
 .
 fileSize
+>
 0
 )
 ;

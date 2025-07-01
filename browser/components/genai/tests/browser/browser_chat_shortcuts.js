@@ -1435,9 +1435,7 @@ input
 ;
 Assert
 .
-greater
-(
-Number
+ok
 (
 events
 [
@@ -1447,7 +1445,7 @@ events
 extra
 .
 selection
-)
+>
 8192
 "
 Selected

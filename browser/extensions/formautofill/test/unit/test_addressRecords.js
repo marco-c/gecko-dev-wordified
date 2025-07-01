@@ -1928,11 +1928,12 @@ US
 ;
 Assert
 .
-greater
+ok
 (
 address
 .
 timeLastModified
+>
 timeLastModified
 )
 ;

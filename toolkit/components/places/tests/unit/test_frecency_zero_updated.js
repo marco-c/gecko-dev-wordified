@@ -107,7 +107,8 @@ recalculateAnyOutdatedFrecencies
 ;
 Assert
 .
-greater
+ok
+(
 (
 await
 PlacesTestUtils
@@ -126,6 +127,8 @@ url
 TEST_URI
 }
 )
+)
+>
 0
 )
 ;
@@ -226,7 +229,8 @@ TEST_URI
 ;
 Assert
 .
-greater
+ok
+(
 (
 await
 PlacesTestUtils
@@ -245,6 +249,8 @@ url
 TEST_URI
 }
 )
+)
+>
 0
 )
 ;

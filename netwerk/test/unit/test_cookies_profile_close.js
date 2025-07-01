@@ -239,11 +239,13 @@ cookies
 ;
 Assert
 .
-equal
+ok
 (
 cookies
 .
 length
+=
+=
 1
 )
 ;

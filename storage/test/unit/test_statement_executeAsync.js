@@ -5552,9 +5552,10 @@ sure
 .
 Assert
 .
-greater
+ok
 (
 expectedResults
+>
 1
 )
 ;

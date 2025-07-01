@@ -385,9 +385,10 @@ win
 ;
 Assert
 .
-greater
+ok
 (
 count
+>
 0
 "
 Sanity
@@ -489,9 +490,10 @@ win
 ;
 Assert
 .
-greater
+ok
 (
 count
+>
 1
 "
 Sanity

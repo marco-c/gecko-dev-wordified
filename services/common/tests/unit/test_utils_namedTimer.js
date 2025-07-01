@@ -186,13 +186,14 @@ XP
 .
 Assert
 .
-greater
+ok
 (
 Date
 .
 now
 (
 )
+>
 t0
 )
 ;
@@ -284,7 +285,7 @@ XP
 .
 Assert
 .
-greater
+ok
 (
 Date
 .
@@ -293,6 +294,7 @@ now
 )
 -
 t0
+>
 delay
 )
 ;

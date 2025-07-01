@@ -256,9 +256,11 @@ name
 ;
 Assert
 .
-notEqual
+ok
 (
 entry
+!
+=
 null
 )
 ;

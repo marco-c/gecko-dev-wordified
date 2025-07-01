@@ -827,11 +827,13 @@ com
 {
 Assert
 .
-equal
+ok
 (
 cookie
 .
 expiry
+=
+=
 futureExpiry
 )
 ;

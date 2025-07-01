@@ -959,7 +959,7 @@ call
 }
 Assert
 .
-strictEqual
+ok
 (
 clickCall
 .
@@ -969,6 +969,9 @@ args
 ]
 .
 message_id
+=
+=
+=
 "
 MR_WELCOME_DEFAULT_0_AW_STEP1
 "

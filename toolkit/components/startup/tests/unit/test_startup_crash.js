@@ -1731,7 +1731,7 @@ with
 now
 Assert
 .
-lessOrEqual
+ok
 (
 prefService
 .
@@ -1739,6 +1739,8 @@ getIntPref
 (
 pref_last_success
 )
+<
+=
 now_seconds
 (
 )
@@ -1746,7 +1748,7 @@ now_seconds
 ;
 Assert
 .
-greaterOrEqual
+ok
 (
 prefService
 .
@@ -1754,6 +1756,8 @@ getIntPref
 (
 pref_last_success
 )
+>
+=
 now_seconds
 (
 )

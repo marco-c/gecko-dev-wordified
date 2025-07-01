@@ -348,12 +348,14 @@ VACUUM
 ;
 Assert
 .
-greaterOrEqual
+ok
 (
 get_size
 (
 filename
 )
+>
+=
 CHUNK_SIZE
 )
 ;

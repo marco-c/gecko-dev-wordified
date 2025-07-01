@@ -2087,9 +2087,12 @@ request
 {
 Assert
 .
-strictEqual
+ok
 (
 request
+=
+=
+=
 this
 .
 _channel
@@ -3339,9 +3342,12 @@ stream
 {
 Assert
 .
-strictEqual
+ok
 (
 stream
+=
+=
+=
 this
 .
 stream

@@ -1101,9 +1101,10 @@ limit
 ;
 Assert
 .
-less
+ok
 (
 limit
+<
 length
 "
 Limit
@@ -1137,9 +1138,10 @@ limit
 ;
 Assert
 .
-greater
+ok
 (
 defaultLimit
+>
 limit
 "
 Default
@@ -1286,9 +1288,11 @@ length
 ;
 Assert
 .
-notEqual
+ok
 (
 newLength
+!
+=
 length
 "
 Lengths

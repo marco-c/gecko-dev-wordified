@@ -447,7 +447,7 @@ length
 ;
 Assert
 .
-greater
+ok
 (
 gpAppender
 .
@@ -464,6 +464,7 @@ info
 test
 "
 )
+>
 0
 )
 ;
@@ -2818,11 +2819,14 @@ messages
 {
 Assert
 .
-strictEqual
+ok
 (
 msg
 .
 params
+=
+=
+=
 testParams
 )
 ;

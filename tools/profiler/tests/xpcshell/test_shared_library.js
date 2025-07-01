@@ -106,11 +106,13 @@ object
 ;
 Assert
 .
-greaterOrEqual
+ok
 (
 libs
 .
 length
+>
+=
 1
 )
 ;
@@ -242,7 +244,7 @@ number
 ;
 Assert
 .
-lessOrEqual
+ok
 (
 libs
 [
@@ -250,6 +252,8 @@ libs
 ]
 .
 start
+<
+=
 libs
 [
 0

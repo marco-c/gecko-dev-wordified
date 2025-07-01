@@ -939,11 +939,12 @@ data
 .
 Assert
 .
-greater
+ok
 (
 bytes
 .
 byteLength
+>
 1500
 Wrong
 bytes

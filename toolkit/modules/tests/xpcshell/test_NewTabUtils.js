@@ -7865,11 +7865,12 @@ topsiteFrecency
 ;
 Assert
 .
-less
+ok
 (
 links
 .
 length
+<
 MANY_LINKS
 "
 query

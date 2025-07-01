@@ -380,7 +380,7 @@ shouldBeGreaterThanZero
 {
 Assert
 .
-greater
+ok
 (
 Number
 (
@@ -389,6 +389,7 @@ extra
 label
 ]
 )
+>
 0
 )
 ;
@@ -397,7 +398,7 @@ else
 {
 Assert
 .
-greaterOrEqual
+ok
 (
 Number
 (
@@ -406,6 +407,8 @@ extra
 label
 ]
 )
+>
+=
 0
 )
 ;

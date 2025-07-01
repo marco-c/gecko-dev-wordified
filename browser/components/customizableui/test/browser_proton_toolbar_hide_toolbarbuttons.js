@@ -439,9 +439,11 @@ shouldUpdateVersion
 {
 Assert
 .
-greaterOrEqual
+ok
 (
 toolbarVersion
+>
+=
 1
 "
 Toolbar
@@ -456,9 +458,11 @@ else
 {
 Assert
 .
-equal
+ok
 (
 toolbarVersion
+=
+=
 0
 "
 Toolbar
@@ -974,7 +978,7 @@ initialize
 ;
 Assert
 .
-greaterOrEqual
+ok
 (
 Services
 .
@@ -984,6 +988,8 @@ getIntPref
 (
 kPrefProtonToolbarVersion
 )
+>
+=
 1
 "
 Toolbar

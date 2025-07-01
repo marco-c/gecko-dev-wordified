@@ -391,7 +391,7 @@ instance
 ;
 Assert
 .
-less
+ok
 (
 Math
 .
@@ -409,6 +409,7 @@ getTime
 (
 )
 )
+<
 1
 "
 Times

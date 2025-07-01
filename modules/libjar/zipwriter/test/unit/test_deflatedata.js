@@ -224,9 +224,11 @@ FILENAME
 ;
 Assert
 .
-notEqual
+ok
 (
 entry
+!
+=
 null
 )
 ;

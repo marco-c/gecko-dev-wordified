@@ -2324,7 +2324,7 @@ i
 ;
 Assert
 .
-notStrictEqual
+ok
 (
 details
 .
@@ -2333,6 +2333,9 @@ result
 payload
 .
 provider
+!
+=
+=
 "
 Fakespot
 "

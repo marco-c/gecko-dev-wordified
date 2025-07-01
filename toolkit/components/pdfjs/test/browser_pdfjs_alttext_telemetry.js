@@ -1317,14 +1317,12 @@ extra
 ;
 Assert
 .
-greater
-(
-Number
+ok
 (
 extra
 .
 time
-)
+>
 0
 "
 time

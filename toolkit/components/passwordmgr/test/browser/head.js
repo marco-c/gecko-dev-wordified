@@ -632,11 +632,12 @@ undefined
 {
 Assert
 .
-greater
+ok
 (
 login
 .
 timeLastUsed
+>
 expected
 .
 usedSince
@@ -663,11 +664,12 @@ undefined
 {
 Assert
 .
-greater
+ok
 (
 login
 .
 timePasswordChanged
+>
 expected
 .
 passwordChangedSince
@@ -1828,7 +1830,7 @@ submission
 ;
 Assert
 .
-less
+ok
 (
 logins
 [
@@ -1836,6 +1838,7 @@ logins
 ]
 .
 timeCreated
+<
 logins
 [
 0
@@ -3751,9 +3754,11 @@ text
 ;
 Assert
 .
-notEqual
+ok
 (
 targetIndex
+!
+=
 -
 1
 "

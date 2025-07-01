@@ -422,9 +422,10 @@ expectedHeight
 ;
 Assert
 .
-less
+ok
 (
 deviation
+<
 0
 .
 01

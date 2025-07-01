@@ -390,9 +390,11 @@ directory
 ;
 Assert
 .
-notEqual
+ok
 (
 dir
+!
+=
 null
 )
 ;

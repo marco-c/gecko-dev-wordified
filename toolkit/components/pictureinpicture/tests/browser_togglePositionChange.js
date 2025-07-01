@@ -212,9 +212,12 @@ TOGGLE_POSITION_RIGHT
 ;
 Assert
 .
-strictEqual
+ok
 (
 position
+=
+=
+=
 TOGGLE_POSITION_LEFT
 "
 Picture
@@ -254,9 +257,12 @@ TOGGLE_POSITION_RIGHT
 ;
 Assert
 .
-strictEqual
+ok
 (
 position
+=
+=
+=
 TOGGLE_POSITION_RIGHT
 "
 Picture

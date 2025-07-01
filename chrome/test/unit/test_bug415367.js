@@ -178,9 +178,11 @@ result
 {
 Assert
 .
-notEqual
+ok
 (
 uri
+!
+=
 null
 )
 ;

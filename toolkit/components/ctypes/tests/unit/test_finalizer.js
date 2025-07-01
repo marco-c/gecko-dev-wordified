@@ -1560,13 +1560,14 @@ been
 finalized
 Assert
 .
-greater
+ok
 (
 count_finalized
 (
 size
 tc
 )
+>
 0
 )
 ;

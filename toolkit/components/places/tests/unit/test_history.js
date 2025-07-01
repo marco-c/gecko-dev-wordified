@@ -1228,11 +1228,12 @@ true
 ;
 Assert
 .
-greater
+ok
 (
 root
 .
 childCount
+>
 0
 )
 ;

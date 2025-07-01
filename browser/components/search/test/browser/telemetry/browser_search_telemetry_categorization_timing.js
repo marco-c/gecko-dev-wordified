@@ -301,11 +301,12 @@ testGetValue
 ;
 Assert
 .
-greater
+ok
 (
 durations
 .
 sum
+>
 0
 "
 Sum

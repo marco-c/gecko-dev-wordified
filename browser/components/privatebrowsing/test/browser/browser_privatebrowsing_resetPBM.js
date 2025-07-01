@@ -3187,7 +3187,7 @@ length
 ;
 Assert
 .
-notEqual
+ok
 (
 win
 .
@@ -3198,6 +3198,8 @@ selectedBrowser
 currentURI
 .
 spec
+!
+=
 "
 about
 :

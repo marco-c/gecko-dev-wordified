@@ -2128,7 +2128,7 @@ providerName
 ;
 Assert
 .
-equal
+ok
 (
 historyResults
 [
@@ -2138,6 +2138,8 @@ historyResults
 result
 .
 providerName
+=
+=
 "
 InputHistory
 "

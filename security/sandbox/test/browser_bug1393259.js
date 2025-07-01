@@ -545,9 +545,11 @@ fontPath
 ;
 Assert
 .
-equal
+ok
 (
 exitCode
+=
+=
 0
 "
 registering
@@ -690,9 +692,11 @@ waitForUnreg
 {
 Assert
 .
-equal
+ok
 (
 exitCode
+=
+=
 0
 "
 unregistering

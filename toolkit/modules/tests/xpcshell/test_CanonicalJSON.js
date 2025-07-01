@@ -895,7 +895,7 @@ properly
 .
 Assert
 .
-strictEqual
+ok
 (
 CanonicalJSON
 .
@@ -904,6 +904,9 @@ stringify
 -
 0
 )
+=
+=
+=
 "
 -
 0
@@ -912,7 +915,7 @@ stringify
 ;
 Assert
 .
-strictEqual
+ok
 (
 CanonicalJSON
 .
@@ -920,6 +923,9 @@ stringify
 (
 0
 )
+=
+=
+=
 "
 0
 "

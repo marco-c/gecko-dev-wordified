@@ -563,9 +563,10 @@ format
 ;
 Assert
 .
-greater
+ok
 (
 netCallbacksRequired
+>
 0
 "
 Callback

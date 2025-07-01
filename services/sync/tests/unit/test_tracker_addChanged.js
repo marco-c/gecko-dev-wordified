@@ -276,12 +276,13 @@ getChangedIDs
 ;
 Assert
 .
-greater
+ok
 (
 changes
 [
 id
 ]
+>
 10
 )
 ;

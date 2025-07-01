@@ -171,9 +171,10 @@ true
 ;
 Assert
 .
-greater
+ok
 (
 nodeCount
+>
 0
 )
 ;

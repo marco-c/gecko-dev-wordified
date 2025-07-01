@@ -316,7 +316,8 @@ false
 ;
 Assert
 .
-strictEqual
+ok
+(
 (
 Services
 .
@@ -327,6 +328,10 @@ getStringPref
 TRACKING_TABLE_PREF
 )
 LEVEL_1_TRACKING_TABLE
+)
+=
+=
+=
 LEVEL_1_TRACKING_TABLE
 "
 urlclassifier

@@ -184,9 +184,11 @@ js
 ;
 Assert
 .
-lessOrEqual
+ok
 (
 gNumTimesSourcesSent
+<
+=
 1
 "
 Should

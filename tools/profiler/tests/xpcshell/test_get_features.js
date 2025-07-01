@@ -74,9 +74,11 @@ GetFeatures
 ;
 Assert
 .
-notEqual
+ok
 (
 profilerFeatures
+!
+=
 null
 )
 ;

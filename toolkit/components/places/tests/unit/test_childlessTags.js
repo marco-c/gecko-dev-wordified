@@ -995,9 +995,11 @@ tag
 ;
 Assert
 .
-greaterOrEqual
+ok
 (
 indexOfTag
+>
+=
 0
 )
 ;

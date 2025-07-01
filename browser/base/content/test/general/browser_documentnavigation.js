@@ -994,13 +994,15 @@ function
 {
 Assert
 .
-equal
+ok
 (
 content
 .
 document
 .
 activeElement
+=
+=
 content
 .
 document

@@ -758,12 +758,10 @@ maxWindowId
 ;
 Assert
 .
-less
-(
-Number
+ok
 (
 id
-)
+<
 maxWindowId
 )
 ;

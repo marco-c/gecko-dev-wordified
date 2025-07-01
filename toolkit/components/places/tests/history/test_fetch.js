@@ -500,12 +500,15 @@ delete
 .
 Assert
 .
-strictEqual
+ok
 (
 typeof
 pageInfo
 .
 frecency
+=
+=
+=
 "
 number
 "

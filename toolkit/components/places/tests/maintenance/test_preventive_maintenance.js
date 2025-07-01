@@ -7171,9 +7171,10 @@ syncChangeCounter
 ;
 Assert
 .
-greater
+ok
 (
 actualChangeCounter
+>
 0
 )
 ;
@@ -14814,9 +14815,11 @@ lastModified
 ;
 Assert
 .
-lessOrEqual
+ok
 (
 dateAdded
+<
+=
 nowAsPRTime
 )
 ;
@@ -16189,9 +16192,10 @@ getResultByIndex
 ;
 Assert
 .
-greater
+ok
 (
 defaultBookmarksMaxId
+>
 0
 )
 ;

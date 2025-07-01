@@ -1736,7 +1736,7 @@ value
 ;
 Assert
 .
-greater
+ok
 (
 UrlbarTestUtils
 .
@@ -1744,6 +1744,7 @@ getResultCount
 (
 window
 )
+>
 0
 "
 There
@@ -1823,9 +1824,10 @@ window
 ;
 Assert
 .
-greater
+ok
 (
 resultCount
+>
 0
 "
 There

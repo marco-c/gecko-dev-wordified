@@ -499,9 +499,11 @@ count
 {
 Assert
 .
-equal
+ok
 (
 count
+=
+=
 1
 )
 ;
@@ -578,9 +580,11 @@ count
 {
 Assert
 .
-equal
+ok
 (
 count
+=
+=
 0
 )
 ;

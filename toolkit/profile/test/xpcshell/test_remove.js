@@ -147,12 +147,15 @@ infinitely
 .
 Assert
 .
-strictEqual
+ok
 (
 serviceProfiles
 [
 i
 ]
+=
+=
+=
 knownProfiles
 [
 i

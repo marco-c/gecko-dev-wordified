@@ -379,13 +379,15 @@ load
 ;
 Assert
 .
-equal
+ok
 (
 win
 .
 document
 .
 documentURI
+=
+=
 "
 chrome
 :

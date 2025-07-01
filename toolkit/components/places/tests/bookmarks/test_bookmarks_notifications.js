@@ -2108,11 +2108,12 @@ DEFAULT_INDEX
 ;
 Assert
 .
-greater
+ok
 (
 bm
 .
 index
+>
 0
 )
 ;

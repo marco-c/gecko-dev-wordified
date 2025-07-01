@@ -7124,9 +7124,11 @@ value
 .
 Assert
 .
-notEqual
+ok
 (
 target
+!
+=
 null
 )
 ;

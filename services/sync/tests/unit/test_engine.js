@@ -1782,9 +1782,10 @@ getChangedIDs
 ;
 Assert
 .
-less
+ok
 (
 0
+<
 changes
 .
 abcdefghijkl

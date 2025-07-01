@@ -381,7 +381,7 @@ function
 {
 Assert
 .
-greaterOrEqual
+ok
 (
 content
 .
@@ -399,6 +399,8 @@ getBoundingClientRect
 )
 .
 left
+>
+=
 0
 "
 scroll

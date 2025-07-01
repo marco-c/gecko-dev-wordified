@@ -396,11 +396,13 @@ dos
 ;
 Assert
 .
-equal
+ok
 (
 dos
 .
 length
+=
+=
 4096
 )
 ;

@@ -620,11 +620,12 @@ Static
 check
 Assert
 .
-greater
+ok
 (
 responseBody
 .
 length
+>
 1024
 )
 ;

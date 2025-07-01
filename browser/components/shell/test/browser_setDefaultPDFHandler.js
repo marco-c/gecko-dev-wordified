@@ -331,11 +331,13 @@ Windows
 .
 Assert
 .
-equal
+ok
 (
 AppConstants
 .
 platform
+=
+=
 "
 win
 "

@@ -222,7 +222,7 @@ MOZ_NORMANDY
 {
 Assert
 .
-greater
+ok
 (
 Glean
 .
@@ -233,6 +233,7 @@ normandyInitTime
 testGetValue
 (
 )
+>
 0
 )
 ;
@@ -246,7 +247,7 @@ MOZ_UPDATE_AGENT
 {
 Assert
 .
-greater
+ok
 (
 Glean
 .
@@ -257,6 +258,7 @@ deleteTasksTime
 testGetValue
 (
 )
+>
 0
 )
 ;
@@ -445,7 +447,7 @@ TIMED_OUT
 ;
 Assert
 .
-greater
+ok
 (
 Glean
 .
@@ -456,6 +458,7 @@ elapsed
 testGetValue
 (
 )
+>
 0
 )
 ;
@@ -483,7 +486,7 @@ MOZ_NORMANDY
 {
 Assert
 .
-greater
+ok
 (
 Glean
 .
@@ -494,6 +497,7 @@ normandyInitTime
 testGetValue
 (
 )
+>
 0
 )
 ;
@@ -507,7 +511,7 @@ MOZ_UPDATE_AGENT
 {
 Assert
 .
-greater
+ok
 (
 Glean
 .
@@ -518,6 +522,7 @@ deleteTasksTime
 testGetValue
 (
 )
+>
 0
 )
 ;

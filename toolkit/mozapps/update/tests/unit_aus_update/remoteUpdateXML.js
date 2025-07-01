@@ -679,7 +679,7 @@ date
 .
 Assert
 .
-less
+ok
 (
 Date
 .
@@ -690,6 +690,7 @@ now
 bestUpdate
 .
 installDate
+<
 10000
 "
 the

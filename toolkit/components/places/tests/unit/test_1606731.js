@@ -207,13 +207,15 @@ true
 ;
 Assert
 .
-equal
+ok
 (
 result
 .
 root
 .
 childCount
+=
+=
 1
 )
 ;

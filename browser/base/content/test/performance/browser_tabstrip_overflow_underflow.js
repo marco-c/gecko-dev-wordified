@@ -862,11 +862,12 @@ view
 .
 Assert
 .
-greater
+ok
 (
 arrowScrollbox
 .
 scrollPosition
+>
 0
 "
 First

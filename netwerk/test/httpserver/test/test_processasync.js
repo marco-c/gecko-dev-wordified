@@ -1138,9 +1138,11 @@ time
 ;
 Assert
 .
-greaterOrEqual
+ok
 (
 now
+>
+=
 startTime_handleAsync2
 +
 startToHeaderDelay
@@ -1241,9 +1243,11 @@ time
 ;
 Assert
 .
-greaterOrEqual
+ok
 (
 now
+>
+=
 startTime_handleAsync2
 +
 startToFinishedDelay

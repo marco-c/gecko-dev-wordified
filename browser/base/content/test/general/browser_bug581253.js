@@ -251,11 +251,13 @@ editBMPanel_tagsField
 ;
 Assert
 .
-equal
+ok
 (
 tagsField
 .
 value
+=
+=
 testTag
 "
 tags

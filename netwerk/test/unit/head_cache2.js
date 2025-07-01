@@ -2256,9 +2256,10 @@ findCacheIndex
 ;
 Assert
 .
-greater
+ok
 (
 index
+>
 -
 1
 "
