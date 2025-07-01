@@ -2040,7 +2040,7 @@ N
 B
 .
 Compiler
-instrinsic
+intrinsic
 is
 used
 because

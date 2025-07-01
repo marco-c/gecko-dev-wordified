@@ -85,18 +85,15 @@ service
 /
 *
 *
-*
 Logical
 name
 of
 the
 service
 .
-*
 <
 p
 >
-*
 MUST
 be
 the
@@ -114,7 +111,6 @@ the
 value
 was
 not
-*
 specified
 SDKs
 MUST
@@ -128,7 +124,6 @@ concatenated
 with
 <
 a
-*
 href
 =
 "
@@ -156,7 +151,6 @@ code
 unknown_service
 :
 bash
-*
 endcode
 .
 If
@@ -176,7 +170,6 @@ MUST
 be
 set
 to
-*
 code
 unknown_service
 endcode
@@ -199,7 +192,6 @@ name
 /
 *
 *
-*
 The
 version
 string
@@ -217,7 +209,6 @@ not
 defined
 by
 these
-*
 conventions
 .
 *

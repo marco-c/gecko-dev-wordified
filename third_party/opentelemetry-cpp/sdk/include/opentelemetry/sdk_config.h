@@ -25,15 +25,6 @@ include
 "
 opentelemetry
 /
-config
-.
-h
-"
-#
-include
-"
-opentelemetry
-/
 sdk
 /
 common

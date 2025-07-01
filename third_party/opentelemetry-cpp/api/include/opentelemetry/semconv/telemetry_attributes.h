@@ -85,7 +85,6 @@ telemetry
 /
 *
 *
-*
 The
 language
 of
@@ -113,7 +112,6 @@ language
 /
 *
 *
-*
 The
 name
 of
@@ -124,11 +122,9 @@ as
 defined
 above
 .
-*
 <
 p
 >
-*
 The
 OpenTelemetry
 SDK
@@ -145,7 +141,6 @@ endcode
 attribute
 to
 code
-*
 opentelemetry
 endcode
 .
@@ -163,13 +158,11 @@ provided
 implementation
 is
 used
-*
 this
 SDK
 MUST
 set
 the
-*
 code
 telemetry
 .
@@ -189,7 +182,6 @@ module
 name
 of
 this
-*
 SDK
 '
 s
@@ -207,7 +199,6 @@ language
 .
 The
 identifier
-*
 code
 opentelemetry
 endcode
@@ -224,7 +215,6 @@ case
 .
 All
 custom
-*
 identifiers
 SHOULD
 be
@@ -254,7 +244,6 @@ name
 "
 ;
 /
-*
 *
 *
 The
@@ -288,7 +277,6 @@ TelemetrySdkLanguageValues
 /
 *
 *
-*
 none
 *
 /
@@ -304,7 +292,6 @@ cpp
 "
 ;
 /
-*
 *
 *
 none
@@ -324,7 +311,6 @@ dotnet
 /
 *
 *
-*
 none
 *
 /
@@ -340,7 +326,6 @@ erlang
 "
 ;
 /
-*
 *
 *
 none
@@ -360,7 +345,6 @@ go
 /
 *
 *
-*
 none
 *
 /
@@ -376,7 +360,6 @@ java
 "
 ;
 /
-*
 *
 *
 none
@@ -396,7 +379,6 @@ nodejs
 /
 *
 *
-*
 none
 *
 /
@@ -412,7 +394,6 @@ php
 "
 ;
 /
-*
 *
 *
 none
@@ -432,7 +413,6 @@ python
 /
 *
 *
-*
 none
 *
 /
@@ -448,7 +428,6 @@ ruby
 "
 ;
 /
-*
 *
 *
 none
@@ -468,7 +447,6 @@ rust
 /
 *
 *
-*
 none
 *
 /
@@ -484,7 +462,6 @@ swift
 "
 ;
 /
-*
 *
 *
 none
