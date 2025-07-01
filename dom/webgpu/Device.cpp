@@ -1615,6 +1615,7 @@ mBridge
 GetClient
 (
 )
+mId
 &
 desc
 ownerId
@@ -1643,9 +1644,8 @@ CanSend
 mBridge
 -
 >
-SendDeviceAction
+SendMessage
 (
-mId
 std
 :
 :
@@ -1916,6 +1916,7 @@ mBridge
 GetClient
 (
 )
+mId
 &
 desc
 ToFFI
@@ -1938,9 +1939,8 @@ CanSend
 mBridge
 -
 >
-SendDeviceAction
+SendMessage
 (
-mId
 std
 :
 :
@@ -2050,6 +2050,7 @@ mBridge
 GetClient
 (
 )
+mId
 &
 desc
 ToFFI
@@ -2072,9 +2073,8 @@ CanSend
 mBridge
 -
 >
-SendDeviceAction
+SendMessage
 (
-mId
 std
 :
 :
@@ -2357,6 +2357,7 @@ mBridge
 GetClient
 (
 )
+mId
 &
 desc
 ToFFI
@@ -2379,9 +2380,8 @@ CanSend
 mBridge
 -
 >
-SendDeviceAction
+SendMessage
 (
-mId
 std
 :
 :
@@ -3235,6 +3235,7 @@ mBridge
 GetClient
 (
 )
+mId
 &
 desc
 ToFFI
@@ -3257,9 +3258,8 @@ CanSend
 mBridge
 -
 >
-SendDeviceAction
+SendMessage
 (
-mId
 std
 :
 :
@@ -3431,6 +3431,7 @@ mBridge
 GetClient
 (
 )
+mId
 &
 desc
 ToFFI
@@ -3453,9 +3454,8 @@ CanSend
 mBridge
 -
 >
-SendDeviceAction
+SendMessage
 (
-mId
 std
 :
 :
@@ -3857,6 +3857,7 @@ mBridge
 GetClient
 (
 )
+mId
 &
 desc
 ToFFI
@@ -3879,9 +3880,8 @@ CanSend
 mBridge
 -
 >
-SendDeviceAction
+SendMessage
 (
-mId
 std
 :
 :
@@ -5323,6 +5323,10 @@ aBridge
 GetClient
 (
 )
+aContext
+-
+>
+mParentId
 &
 desc
 ToFFI
@@ -6679,6 +6683,10 @@ aBridge
 GetClient
 (
 )
+aContext
+-
+>
+mParentId
 &
 desc
 ToFFI
@@ -6782,9 +6790,8 @@ CanSend
 mBridge
 -
 >
-SendDeviceAction
+SendMessage
 (
-mId
 std
 :
 :
@@ -6895,9 +6902,8 @@ CanSend
 mBridge
 -
 >
-SendDeviceAction
+SendMessage
 (
-mId
 std
 :
 :

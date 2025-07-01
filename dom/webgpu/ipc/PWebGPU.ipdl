@@ -480,15 +480,6 @@ buf
 )
 ;
 async
-DeviceAction
-(
-RawId
-selfId
-ByteBuf
-buf
-)
-;
-async
 DeviceActionWithAck
 (
 RawId
