@@ -955,7 +955,7 @@ RefPtr
 <
 MozPromise
 <
-IdentityProviderToken
+IdentityAssertionResponse
 nsresult
 true
 >
@@ -981,7 +981,7 @@ RefPtr
 <
 MozPromise
 <
-IdentityProviderToken
+IdentityAssertionResponse
 nsresult
 true
 >
@@ -994,7 +994,7 @@ result
 new
 MozPromise
 <
-IdentityProviderToken
+IdentityAssertionResponse
 nsresult
 true
 >
@@ -1128,7 +1128,7 @@ ErrorResult
 &
 )
 {
-IdentityProviderToken
+IdentityAssertionResponse
 value
 ;
 bool
