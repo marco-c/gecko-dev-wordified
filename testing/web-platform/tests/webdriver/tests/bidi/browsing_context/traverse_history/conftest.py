@@ -75,7 +75,7 @@ _
 )
 :
             
-return
+assert
 await
 current_url
 (
@@ -84,20 +84,6 @@ context
 =
 =
 target_url
-        
-wait
-=
-AsyncPoll
-(
-            
-bidi_session
-            
-timeout
-=
-timeout
-            
-message
-=
 "
 Expected
 URL
@@ -106,6 +92,14 @@ not
 load
 "
         
+wait
+=
+AsyncPoll
+(
+bidi_session
+timeout
+=
+timeout
 )
         
 await
@@ -144,13 +138,13 @@ timeout
         
 async
 def
-check_url
+check_url_different
 (
 _
 )
 :
             
-return
+assert
 await
 current_url
 (
@@ -159,20 +153,6 @@ context
 !
 =
 target_url
-        
-wait
-=
-AsyncPoll
-(
-            
-bidi_session
-            
-timeout
-=
-timeout
-            
-message
-=
 "
 Expected
 URL
@@ -181,6 +161,14 @@ still
 loaded
 "
         
+wait
+=
+AsyncPoll
+(
+bidi_session
+timeout
+=
+timeout
 )
         
 await
@@ -188,7 +176,7 @@ wait
 .
 until
 (
-check_url
+check_url_different
 )
     
 return

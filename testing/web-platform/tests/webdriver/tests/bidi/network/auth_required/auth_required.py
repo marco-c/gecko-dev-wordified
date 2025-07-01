@@ -21,11 +21,9 @@ TimeoutException
 from
 tests
 .
-support
-.
-sync
+bidi
 import
-AsyncPoll
+wait_for_bidi_events
 from
 .
 .
@@ -757,18 +755,9 @@ bidi_session
 .
 add_event_listener
 (
+        
 AUTH_REQUIRED_EVENT
 on_event
-)
-    
-wait
-=
-AsyncPoll
-(
-bidi_session
-timeout
-=
-1
 )
     
 wrong_credentials
@@ -820,19 +809,14 @@ wrong
 credentials
     
 await
-wait
-.
-until
+wait_for_bidi_events
 (
-lambda
-_
-:
-len
-(
+bidi_session
 events
-)
->
-0
+1
+timeout
+=
+1
 )
     
 await
@@ -871,18 +855,13 @@ wrong
 credentials
     
 await
-wait
-.
-until
+wait_for_bidi_events
 (
-lambda
-_
-:
-len
-(
+bidi_session
 events
-)
->
+2
+timeout
+=
 1
 )
     
@@ -895,16 +874,6 @@ event
 was
 received
     
-wait
-=
-AsyncPoll
-(
-bidi_session
-timeout
-=
-1
-)
-    
 with
 pytest
 .
@@ -915,19 +884,14 @@ TimeoutException
 :
         
 await
-wait
-.
-until
+wait_for_bidi_events
 (
-lambda
-_
-:
-len
-(
+bidi_session
 events
-)
->
-2
+3
+timeout
+=
+1
 )
     
 remove_listener

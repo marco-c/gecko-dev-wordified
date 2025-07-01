@@ -170,6 +170,14 @@ click
 (
 )
     
+#
+Wait
+until
+iframe
+is
+gone
+.
+    
 async
 def
 is_frame_removed
@@ -194,7 +202,7 @@ current_session
 window_handle
 )
         
-return
+assert
 not
 contexts
 [
@@ -205,30 +213,8 @@ contexts
 children
 "
 ]
-    
-#
-Wait
-until
-IFrame
-is
-gone
-.
-    
-wait
-=
-AsyncPoll
-(
-        
-current_session
-        
-timeout
-=
-5
-        
-message
-=
 "
-IFrame
+iframe
 that
 should
 be
@@ -238,6 +224,11 @@ still
 open
 "
     
+wait
+=
+AsyncPoll
+(
+current_session
 )
     
 await

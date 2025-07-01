@@ -15,11 +15,9 @@ ContextTarget
 from
 tests
 .
-support
-.
-sync
+bidi
 import
-AsyncPoll
+wait_for_bidi_events
 from
 .
 .
@@ -535,31 +533,15 @@ iframe
     
 )
     
-wait
-=
-AsyncPoll
+await
+wait_for_bidi_events
 (
 bidi_session
+events
+1
 timeout
 =
 2
-)
-    
-await
-wait
-.
-until
-(
-lambda
-_
-:
-len
-(
-events
-)
->
-=
-1
 )
     
 contexts
@@ -995,41 +977,16 @@ has_preflight
 else
 1
     
-wait
-=
-AsyncPoll
+await
+wait_for_bidi_events
 (
 bidi_session
+events
+expected_events
 timeout
 =
 2
 )
-    
-await
-wait
-.
-until
-(
-lambda
-_
-:
-len
-(
-events
-)
->
-=
-expected_events
-)
-    
-assert
-len
-(
-events
-)
-=
-=
-expected_events
     
 #
 TODO
@@ -1452,16 +1409,6 @@ the
 redirection
 .
     
-wait
-=
-AsyncPoll
-(
-bidi_session
-timeout
-=
-2
-)
-    
 fetch_error_event
 =
 await
@@ -1685,16 +1632,6 @@ url
 redirect_url
     
 )
-)
-    
-wait
-=
-AsyncPoll
-(
-bidi_session
-timeout
-=
-2
 )
     
 fetch_error_event
