@@ -709,7 +709,7 @@ MOZ_ASSERT
 (
 endAddr
 %
-MinMediumAllocSize
+MediumAllocGranularity
 )
 =
 =
@@ -865,7 +865,7 @@ MaxAllocsPerChunk
 =
 ChunkSize
 /
-MinMediumAllocSize
+MediumAllocGranularity
 ;
 using
 EncodedSizeArray
@@ -1260,7 +1260,7 @@ MOZ_ASSERT
 (
 offset
 %
-MinMediumAllocSize
+MediumAllocGranularity
 =
 =
 0
@@ -1269,7 +1269,7 @@ MinMediumAllocSize
 return
 offset
 /
-MinMediumAllocSize
+MediumAllocGranularity
 ;
 }
 const
@@ -1294,7 +1294,7 @@ MOZ_ASSERT
 (
 offset
 %
-MinMediumAllocSize
+MediumAllocGranularity
 =
 =
 0
@@ -1341,7 +1341,7 @@ sizeof
 (
 BufferChunk
 )
-MinMediumAllocSize
+MediumAllocGranularity
 )
 ;
 #
@@ -1519,7 +1519,7 @@ MOZ_ASSERT
 (
 offset
 %
-MinMediumAllocSize
+MediumAllocGranularity
 )
 =
 =
@@ -2829,7 +2829,7 @@ ChunkSize
 return
 next
 *
-MinMediumAllocSize
+MediumAllocGranularity
 ;
 }
 size_t
@@ -2880,7 +2880,7 @@ ChunkSize
 return
 prev
 *
-MinMediumAllocSize
+MediumAllocGranularity
 ;
 }
 void
@@ -9722,7 +9722,7 @@ constexpr
 size_t
 StepBytes
 =
-MinMediumAllocSize
+MediumAllocGranularity
 ;
 size_t
 freeOffset
@@ -10891,7 +10891,7 @@ size
 (
 )
 %
-MinMediumAllocSize
+MediumAllocGranularity
 )
 =
 =
@@ -11068,7 +11068,7 @@ MOZ_ASSERT
 (
 newSize
 %
-MinMediumAllocSize
+MediumAllocGranularity
 )
 =
 =
@@ -12380,7 +12380,7 @@ MOZ_ASSERT
 (
 freeStart
 %
-MinMediumAllocSize
+MediumAllocGranularity
 )
 =
 =
@@ -12392,7 +12392,7 @@ MOZ_ASSERT
 (
 freeEnd
 %
-MinMediumAllocSize
+MediumAllocGranularity
 )
 =
 =
@@ -14740,7 +14740,7 @@ MOZ_ASSERT
 (
 offset
 %
-MinMediumAllocSize
+MediumAllocGranularity
 )
 =
 =
@@ -14872,7 +14872,7 @@ MOZ_ASSERT
 (
 offset
 %
-MinMediumAllocSize
+MediumAllocGranularity
 )
 =
 =
