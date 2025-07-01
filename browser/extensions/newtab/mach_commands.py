@@ -54,8 +54,6 @@ MPL
 /
 .
 import
-json
-import
 os
 import
 re
@@ -97,6 +95,10 @@ CommandArgument
     
 SubCommand
 )
+from
+mozfile
+import
+json
 FIREFOX_L10N_REPO
 =
 "

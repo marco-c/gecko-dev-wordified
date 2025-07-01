@@ -102,8 +102,6 @@ tests
 "
 "
 import
-json
-import
 math
 import
 os
@@ -115,6 +113,10 @@ from
 mod_pywebsocket
 import
 msgutil
+from
+mozfile
+import
+json
 def
 web_socket_do_extra_handshake
 (
