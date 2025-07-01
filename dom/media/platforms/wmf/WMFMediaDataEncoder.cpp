@@ -965,6 +965,12 @@ mConfig
 .
 mCodec
 )
+mConfig
+.
+mSize
+mConfig
+.
+mCodecSpecific
 )
 ;
 if
