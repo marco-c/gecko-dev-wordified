@@ -622,6 +622,15 @@ from
 SyncModuleLoader
 .
 static
+bool
+IsTrustedScheme
+(
+nsIURI
+*
+aURI
+)
+;
+static
 nsresult
 LoadSingleModuleScript
 (
