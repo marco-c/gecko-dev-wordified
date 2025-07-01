@@ -264,6 +264,12 @@ defined
 (
 JS_SIMULATOR_ARM64
 )
+|
+|
+defined
+(
+JS_SIMULATOR_LOONG64
+)
 #
 define
 SINGLESTEP_PROFILING
