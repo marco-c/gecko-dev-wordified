@@ -1726,6 +1726,16 @@ JSLinearString
 str
 )
 ;
+extern
+double
+OffThreadAtomToNumber
+(
+const
+JSOffThreadAtom
+*
+str
+)
+;
 /
 /
 Parse
