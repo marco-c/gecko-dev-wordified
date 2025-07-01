@@ -248,12 +248,6 @@ mercurial
 only
 )
 "
-                
-"
-default
-"
-:
-False
             
 }
             
