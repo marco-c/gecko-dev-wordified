@@ -868,9 +868,6 @@ features
 pending_promise
 .
 limits
-pending_promise
-.
-adapter_info
 )
 ;
 device
@@ -3065,9 +3062,6 @@ features
 pending_promise
 .
 limits
-pending_promise
-.
-adapter_info
 )
 ;
 device
