@@ -287,7 +287,7 @@ override
 static
 AVCodec
 *
-FindAVCodec
+FindSoftwareAVCodec
 (
 FFmpegLibWrapper
 *
@@ -309,6 +309,10 @@ FFmpegLibWrapper
 aLib
 AVCodecID
 aCodec
+AVHWDeviceType
+aDeviceType
+=
+AV_HWDEVICE_TYPE_NONE
 )
 ;
 #
