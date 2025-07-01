@@ -7116,7 +7116,6 @@ uint8_t
 {
 Invalid
 Custom
-Auto
 TogglePopover
 ShowPopover
 HidePopover
@@ -7136,13 +7135,7 @@ aCommand
 const
 {
 return
-aCommand
-=
-=
-Command
-:
-:
-Auto
+false
 ;
 }
 /
