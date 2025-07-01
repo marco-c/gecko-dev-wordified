@@ -729,15 +729,11 @@ MidiPortWrapper
 >
 bool
 {
-(
+!
 port
 .
 input
 (
-)
-=
-=
-false
 )
 &
 &
