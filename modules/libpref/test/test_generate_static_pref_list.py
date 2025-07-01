@@ -113,6 +113,7 @@ init
 .
 generate_static_pref_list
 import
+check_pref_list
 generate_code
 test_data_path
 =
@@ -2425,17 +2426,24 @@ safe_load
 inp
 )
         
+check_pref_list
+(
+pref_list
+)
+        
 code
 =
 generate_code
 (
 pref_list
+[
 "
 (
 string
 input
 )
 "
+]
 )
         
 self
@@ -2647,14 +2655,21 @@ safe_load
 inp
 )
                 
+check_pref_list
+(
+pref_list
+)
+                
 generate_code
 (
 pref_list
+[
 "
 (
 string
 input
 "
+]
 )
                 
 self
