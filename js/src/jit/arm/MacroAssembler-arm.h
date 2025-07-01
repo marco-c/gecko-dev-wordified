@@ -3132,7 +3132,7 @@ cc
 Always
 )
 ;
-BufferOffset
+void
 ma_pop
 (
 Register
@@ -4746,12 +4746,11 @@ ma_nop
 )
 ;
 }
-BufferOffset
+void
 ret
 (
 )
 {
-return
 ma_pop
 (
 pc
