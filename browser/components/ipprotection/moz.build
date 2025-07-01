@@ -150,3 +150,17 @@ browser
 toml
 "
 ]
+XPCSHELL_TESTS_MANIFESTS
++
+=
+[
+"
+tests
+/
+xpcshell
+/
+xpcshell
+.
+toml
+"
+]
