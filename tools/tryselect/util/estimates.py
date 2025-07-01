@@ -425,6 +425,14 @@ readlines
 )
 ]
     
+if
+not
+boundaries
+:
+        
+return
+0
+    
 boundaries
 .
 sort
@@ -447,8 +455,6 @@ duration
 v
 :
             
-break
-    
 #
 Estimate
 percentile
@@ -459,7 +465,7 @@ boundaries
 )
 -
 quantile
-    
+            
 return
 int
 (
@@ -472,6 +478,9 @@ len
 boundaries
 )
 )
+    
+return
+100
 def
 task_duration_data
 (
