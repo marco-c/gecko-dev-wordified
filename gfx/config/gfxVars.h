@@ -316,13 +316,6 @@ false
 \
 _
 (
-CanUseHardwareVideoEncoding
-bool
-false
-)
-\
-_
-(
 DXInterop2Blocked
 bool
 false

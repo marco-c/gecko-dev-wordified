@@ -287,7 +287,7 @@ override
 static
 AVCodec
 *
-FindSoftwareAVCodec
+FindAVCodec
 (
 FFmpegLibWrapper
 *
@@ -296,9 +296,6 @@ AVCodecID
 aCodec
 )
 ;
-#
-ifdef
-MOZ_USE_HWDECODE
 static
 AVCodec
 *
@@ -311,8 +308,6 @@ AVCodecID
 aCodec
 )
 ;
-#
-endif
 protected
 :
 /
