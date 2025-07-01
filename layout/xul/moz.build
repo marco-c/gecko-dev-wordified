@@ -223,6 +223,11 @@ nsXULTooltipListener
 cpp
 "
 "
+PopupQueue
+.
+cpp
+"
+"
 SimpleXULLeafFrame
 .
 cpp
