@@ -6861,7 +6861,7 @@ viewTransitionOld
 vt
 -
 >
-ReadOldImageKey
+GetOldImageKey
 (
 name
 aManager

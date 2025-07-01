@@ -1281,13 +1281,8 @@ txn
 .
 generate_frame
 (
-&
-Default
-:
-:
-default
-(
-)
+0
+true
 RenderReasons
 :
 :

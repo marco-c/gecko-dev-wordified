@@ -776,8 +776,6 @@ VsyncId
 aVsyncId
 bool
 aPresent
-bool
-aTracked
 wr
 :
 :
