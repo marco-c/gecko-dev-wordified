@@ -567,6 +567,13 @@ PropTypes
 func
 .
 isRequired
+updateCursorPosition
+:
+PropTypes
+.
+func
+.
+isRequired
 }
 ;
 }
@@ -1732,6 +1739,7 @@ const
 {
 selectSpecificLocation
 selectedLocation
+updateCursorPosition
 }
 =
 this
@@ -1780,6 +1788,11 @@ column
 )
 ;
 selectSpecificLocation
+(
+sourceLocation
+)
+;
+updateCursorPosition
 (
 sourceLocation
 )
@@ -2880,6 +2893,11 @@ getFunctionSymbols
 actions
 .
 getFunctionSymbols
+updateCursorPosition
+:
+actions
+.
+updateCursorPosition
 }
 )
 (

@@ -941,14 +941,6 @@ js
 "
 )
 ;
-await
-waitForSelectedLocation
-(
-dbg
-7
-12
-)
-;
 assertLine
 (
 dbg
