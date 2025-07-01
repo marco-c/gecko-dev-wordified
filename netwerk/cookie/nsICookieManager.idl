@@ -839,7 +839,7 @@ aExpiry
 expiration
 date
 in
-seconds
+mseconds
 since
 midnight
 (

@@ -385,6 +385,8 @@ true
 /
 isSession
 futureExpiry
+*
+1000
 {
 }
 /

@@ -334,7 +334,7 @@ PR_Now
 (
 )
 /
-PR_USEC_PER_SEC
+PR_USEC_PER_MSEC
 aOptions
 .
 mExpires
@@ -342,8 +342,6 @@ mExpires
 Value
 (
 )
-/
-PR_MSEC_PER_SEC
 )
 ;
 }
@@ -4722,8 +4720,6 @@ aData
 expiry
 (
 )
-*
-PR_MSEC_PER_SEC
 )
 ;
 }

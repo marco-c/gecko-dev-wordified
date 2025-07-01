@@ -577,10 +577,12 @@ SetExpiry
 (
 currentTimeInUsec
 /
-PR_USEC_PER_SEC
+PR_USEC_PER_MSEC
 )
 +
 mExpiryRelative
+*
+PR_MSEC_PER_SEC
 )
 ;
 cookieNative
