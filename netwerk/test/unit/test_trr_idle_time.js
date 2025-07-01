@@ -443,7 +443,7 @@ killed
 ;
 Assert
 .
-greater
+greaterOrEqual
 (
 distr
 .
@@ -907,7 +907,7 @@ killed
 ;
 Assert
 .
-greater
+greaterOrEqual
 (
 distr
 .
