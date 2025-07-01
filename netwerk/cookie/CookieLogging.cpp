@@ -923,7 +923,7 @@ Expiry
 *
 int64_t
 (
-PR_USEC_PER_MSEC
+PR_USEC_PER_SEC
 )
 PR_GMTParameters
 &

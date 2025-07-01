@@ -328,13 +328,13 @@ return
 CookieCommons
 :
 :
-MaybeCapExpiry
+MaybeReduceExpiry
 (
 PR_Now
 (
 )
 /
-PR_USEC_PER_MSEC
+PR_USEC_PER_SEC
 aOptions
 .
 mExpires
@@ -342,6 +342,8 @@ mExpires
 Value
 (
 )
+/
+PR_MSEC_PER_SEC
 )
 ;
 }
@@ -4720,6 +4722,8 @@ aData
 expiry
 (
 )
+*
+PR_MSEC_PER_SEC
 )
 ;
 }

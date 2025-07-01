@@ -329,7 +329,7 @@ takes
 a
 time
 in
-milliseconds
+seconds
 let
 expiration
 =
@@ -338,9 +338,9 @@ Date
 now
 (
 )
-+
+/
 1000
-*
++
 60
 *
 60

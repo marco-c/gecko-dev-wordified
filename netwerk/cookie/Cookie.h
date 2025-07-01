@@ -713,7 +713,7 @@ expiry
 /
 /
 in
-milliseconds
+seconds
 inline
 int64_t
 LastAccessed
