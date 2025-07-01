@@ -139,13 +139,6 @@ struct
 StyleLockedDeclarationBlock
 ;
 namespace
-gfx
-{
-class
-DataSourceSurface
-;
-}
-namespace
 layers
 {
 class
