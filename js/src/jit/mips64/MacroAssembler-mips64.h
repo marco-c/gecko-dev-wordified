@@ -2044,7 +2044,7 @@ as_nop
 )
 ;
 }
-void
+BufferOffset
 ret
 (
 )
@@ -2054,6 +2054,9 @@ ma_pop
 ra
 )
 ;
+BufferOffset
+offset
+=
 as_jr
 (
 ra
@@ -2062,6 +2065,9 @@ ra
 as_nop
 (
 )
+;
+return
+offset
 ;
 }
 inline

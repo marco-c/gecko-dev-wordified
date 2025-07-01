@@ -144,6 +144,17 @@ h
 #
 include
 "
+jit
+/
+shared
+/
+IonAssemblerBuffer
+.
+h
+"
+#
+include
+"
 wasm
 /
 WasmCodegenTypes
@@ -681,7 +692,7 @@ MOZ_CRASH
 )
 ;
 }
-void
+BufferOffset
 ret
 (
 )

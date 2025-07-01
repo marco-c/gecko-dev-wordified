@@ -135,7 +135,7 @@ int32_t
 imm20
 )
 ;
-void
+BufferOffset
 jalr
 (
 Register
