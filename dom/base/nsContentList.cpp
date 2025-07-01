@@ -4173,6 +4173,9 @@ ContentAppended
 nsIContent
 *
 aFirstNewContent
+const
+ContentAppendInfo
+&
 )
 {
 nsIContent
@@ -4847,6 +4850,9 @@ ContentInserted
 nsIContent
 *
 aChild
+const
+ContentInsertInfo
+&
 )
 {
 /
@@ -4943,8 +4949,8 @@ nsIContent
 *
 aChild
 const
-BatchRemovalState
-*
+ContentRemoveInfo
+&
 )
 {
 if
@@ -6794,6 +6800,9 @@ ContentAppended
 nsIContent
 *
 aFirstNewContent
+const
+ContentAppendInfo
+&
 )
 {
 nsIContent
@@ -6876,6 +6885,9 @@ ContentInserted
 nsIContent
 *
 aChild
+const
+ContentInsertInfo
+&
 )
 {
 /
@@ -6948,9 +6960,8 @@ nsIContent
 *
 aChild
 const
-BatchRemovalState
-*
-aState
+ContentRemoveInfo
+&
 )
 {
 /

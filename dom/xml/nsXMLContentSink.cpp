@@ -2459,6 +2459,8 @@ NotifyContentInserted
 (
 mDocument
 rootElement
+{
+}
 )
 ;
 mDocument

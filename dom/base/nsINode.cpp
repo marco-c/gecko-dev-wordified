@@ -11514,6 +11514,8 @@ NotifyContentAppended
 (
 parent
 aKid
+{
+}
 )
 ;
 }
@@ -11526,6 +11528,8 @@ NotifyContentInserted
 (
 this
 aKid
+{
+}
 )
 ;
 }
@@ -14905,7 +14909,9 @@ NotifyContentWillBeRemoved
 (
 this
 aKid
+{
 aState
+}
 )
 ;
 }
@@ -19223,6 +19229,8 @@ nsIContent
 this
 )
 firstInsertedContent
+{
+}
 )
 ;
 }
@@ -19276,6 +19284,8 @@ nsIContent
 this
 )
 firstInsertedContent
+{
+}
 )
 ;
 if
