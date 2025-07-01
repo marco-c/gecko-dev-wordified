@@ -880,12 +880,6 @@ aError
 Command
 &
 CommandFor
-MOZ_CAN_RUN_SCRIPT
-void
-HandleCommandForAction
-(
-)
-;
 Element
 *
 GetCommandForElement
