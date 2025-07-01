@@ -4579,6 +4579,7 @@ this
 )
 features
 limits
+mInfo
 }
 ;
 mBridge
