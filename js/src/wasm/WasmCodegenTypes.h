@@ -7362,7 +7362,7 @@ entry
 =
 inlinedCallerOffsetsMap_
 .
-lookup
+readonlyThreadsafeLookup
 (
 index
 )
