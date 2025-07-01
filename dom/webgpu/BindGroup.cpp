@@ -153,6 +153,10 @@ const
 aParent
 RawId
 aId
+CanvasContextArray
+&
+&
+aCanvasContexts
 )
 :
 ChildOf
@@ -162,6 +166,16 @@ aParent
 mId
 (
 aId
+)
+mUsedCanvasContexts
+(
+std
+:
+:
+move
+(
+aCanvasContexts
+)
 )
 {
 MOZ_RELEASE_ASSERT
