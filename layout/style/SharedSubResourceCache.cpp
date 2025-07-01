@@ -724,7 +724,7 @@ if
 aPrincipal
 &
 &
-aEntryLoaderPrincipal
+aEntryPartitionPrincipal
 -
 >
 Equals
