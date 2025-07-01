@@ -194,10 +194,6 @@ should
 #
 include
 a
-inlines
-.
-h
-/
 -
 inl
 .
@@ -2413,28 +2409,6 @@ HeaderCycleB1
 inl
 .
 h
-            
--
->
-tests
-/
-style
-/
-jsheadercycleB5inlines
-.
-h
-               
--
->
-tests
-/
-style
-/
-HeaderCycleB1
--
-inl
-.
-h
       
 -
 >
@@ -2624,19 +2598,12 @@ filename
 .
 endswith
 (
-(
-"
-inlines
-.
-h
-"
 "
 -
 inl
 .
 h
 "
-)
 )
 :
             
@@ -3702,9 +3669,6 @@ trailing
 cpp
 .
 h
-inlines
-.
-h
 or
 -
 inl
@@ -3726,18 +3690,6 @@ name
 replace
 (
 "
-inlines
-.
-h
-"
-"
-"
-)
-        
-.
-replace
-(
-"
 -
 inl
 .
@@ -3746,7 +3698,6 @@ h
 "
 "
 )
-        
 .
 replace
 (
@@ -3757,7 +3708,6 @@ h
 "
 "
 )
-        
 .
 replace
 (
@@ -4134,7 +4084,9 @@ jsfoo
 .
 h
 or
-jsfooinlines
+jsfoo
+-
+inl
 .
 h
 within
@@ -4183,12 +4135,6 @@ h
           
 5
 .
-jsfooinlines
-.
-h
-          
-6
-.
 foo
 /
 Bar
@@ -4197,7 +4143,7 @@ inl
 .
 h
           
-7
+6
 .
 non
 -
@@ -4257,7 +4203,7 @@ hpp
 :
             
 return
-7
+6
         
 #
 A
@@ -4344,28 +4290,10 @@ h
 :
                 
 return
-6
+5
             
 return
 4
-        
-if
-self
-.
-inclname
-.
-endswith
-(
-"
-inlines
-.
-h
-"
-)
-:
-            
-return
-5
         
 return
 3
