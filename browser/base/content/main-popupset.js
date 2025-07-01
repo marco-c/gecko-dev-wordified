@@ -333,6 +333,17 @@ pinTab
 TabContextMenu
 .
 contextTab
+{
+telemetrySource
+:
+lazy
+.
+TabMetrics
+.
+METRIC_SOURCE
+.
+TAB_MENU
+}
 )
 ;
 break
