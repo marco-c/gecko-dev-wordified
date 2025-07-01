@@ -3334,16 +3334,8 @@ size_t
 bytes
 bool
 nurseryOwned
-)
-;
-void
-*
-allocSmallInGC
-(
-size_t
-bytes
 bool
-nurseryOwned
+inGC
 )
 ;
 void
