@@ -88,13 +88,15 @@ Windows
 binary
 .
 import
-json
-import
 subprocess
 import
 sys
 import
 buildconfig
+from
+mozfile
+import
+json
 #
 usage
 if

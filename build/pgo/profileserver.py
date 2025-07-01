@@ -65,8 +65,6 @@ MPL
 import
 glob
 import
-json
-import
 os
 import
 subprocess
@@ -85,6 +83,7 @@ from
 mozfile
 import
 TemporaryDirectory
+json
 from
 mozhttpd
 import

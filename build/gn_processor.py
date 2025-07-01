@@ -115,6 +115,12 @@ frontend
 sandbox
 import
 alphabetical_sorted
+from
+mozfile
+import
+json
+as
+mozfile_json
 license_header
 =
 "
@@ -6149,7 +6155,7 @@ target_dir
             
 gn_config
 =
-json
+mozfile_json
 .
 loads
 (
@@ -6292,7 +6298,7 @@ fh
         
 config
 =
-json
+mozfile_json
 .
 load
 (

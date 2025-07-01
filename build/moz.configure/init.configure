@@ -236,6 +236,11 @@ build_environment
 )
 imports
 (
+_from
+=
+"
+mozfile
+"
 _import
 =
 "
