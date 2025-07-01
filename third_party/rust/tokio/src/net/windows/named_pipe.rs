@@ -166,10 +166,7 @@ documentation
 [
 cfg
 (
-not
-(
-docsrs
-)
+windows
 )
 ]
 mod
@@ -286,7 +283,10 @@ them
 [
 cfg
 (
-docsrs
+not
+(
+windows
+)
 )
 ]
 mod

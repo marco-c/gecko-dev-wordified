@@ -1072,7 +1072,6 @@ or
 zero
 duration
 if
-that
 this
 instant
 is

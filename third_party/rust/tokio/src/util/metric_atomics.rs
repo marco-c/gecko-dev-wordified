@@ -35,7 +35,6 @@ AtomicU64
 AtomicU64
 that
 is
-is
 a
 no
 -

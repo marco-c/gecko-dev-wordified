@@ -87,6 +87,7 @@ task
 :
 :
 {
+ready
 Context
 Poll
 }
@@ -1382,7 +1383,7 @@ ready
 crate
 :
 :
-runtime
+task
 :
 :
 coop
@@ -1860,7 +1861,7 @@ await
 let
 coop
 =
-crate
+std
 :
 :
 future
@@ -1871,7 +1872,7 @@ poll_fn
 crate
 :
 :
-runtime
+task
 :
 :
 coop

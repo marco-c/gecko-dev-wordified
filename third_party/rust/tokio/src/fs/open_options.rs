@@ -3636,6 +3636,17 @@ fs
 :
 :
 OpenOptions
+#
+[
+cfg
+(
+any
+(
+windows
+unix
+)
+)
+]
 pub
 (
 super

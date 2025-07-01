@@ -451,11 +451,6 @@ multi
 -
 thread
 "
-feature
-=
-"
-time
-"
 all
 (
 feature

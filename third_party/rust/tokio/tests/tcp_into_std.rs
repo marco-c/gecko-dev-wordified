@@ -26,6 +26,10 @@ target_os
 wasi
 "
 )
+not
+(
+miri
+)
 )
 )
 ]
@@ -37,6 +41,13 @@ doesn
 t
 support
 bind
+/
+/
+No
+socket
+on
+miri
+.
 use
 std
 :

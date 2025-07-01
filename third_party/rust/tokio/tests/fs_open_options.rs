@@ -605,9 +605,9 @@ mode
 is
 :
 {
+mode
 }
 "
-mode
 )
 ;
 }

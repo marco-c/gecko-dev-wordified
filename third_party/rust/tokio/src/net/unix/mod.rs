@@ -147,11 +147,8 @@ pipe
 A
 type
 representing
-process
-and
-process
-group
-IDs
+user
+ID
 .
 #
 [
@@ -172,7 +169,7 @@ u32
 A
 type
 representing
-user
+group
 ID
 .
 #
@@ -194,8 +191,11 @@ u32
 A
 type
 representing
+process
+and
+process
 group
-ID
+IDs
 .
 #
 [

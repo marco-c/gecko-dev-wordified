@@ -646,7 +646,7 @@ Option
 >
 {
 use
-crate
+std
 :
 :
 future

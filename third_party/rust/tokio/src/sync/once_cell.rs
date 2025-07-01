@@ -101,7 +101,6 @@ principle
 behind
 the
 safety
-the
 of
 the
 cell
@@ -1438,12 +1437,12 @@ rustc
 version
 with
 it
-stablised
+stabilised
 /
 /
 we
 can
-made
+make
 this
 function
 available

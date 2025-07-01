@@ -2069,6 +2069,7 @@ pos
 level_for
 (
 {
+pos
 }
 )
 -
@@ -2076,12 +2077,11 @@ level_for
 binary
 =
 {
+pos
 :
 b
 }
 "
-pos
-pos
 )
 ;
 }
@@ -2130,6 +2130,7 @@ u64
 level_for
 (
 {
+a
 }
 )
 -
@@ -2137,12 +2138,11 @@ level_for
 binary
 =
 {
+a
 :
 b
 }
 "
-a
-a
 )
 ;
 if
@@ -2172,6 +2172,7 @@ u64
 level_for
 (
 {
+a
 }
 )
 -
@@ -2179,12 +2180,11 @@ level_for
 binary
 =
 {
+a
 :
 b
 }
 "
-a
-a
 )
 ;
 }
@@ -2215,6 +2215,7 @@ u64
 level_for
 (
 {
+a
 }
 )
 -
@@ -2222,12 +2223,11 @@ level_for
 binary
 =
 {
+a
 :
 b
 }
 "
-a
-a
 )
 ;
 }

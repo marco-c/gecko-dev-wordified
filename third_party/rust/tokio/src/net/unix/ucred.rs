@@ -246,6 +246,11 @@ target_os
 "
 openbsd
 "
+target_os
+=
+"
+haiku
+"
 )
 )
 ]
@@ -487,6 +492,11 @@ target_os
 "
 openbsd
 "
+target_os
+=
+"
+haiku
+"
 )
 )
 ]
@@ -572,6 +582,11 @@ target_os
 =
 "
 android
+"
+target_os
+=
+"
+haiku
 "
 )
 )
