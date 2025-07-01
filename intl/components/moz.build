@@ -200,13 +200,6 @@ h
 "
 src
 /
-ICU4XGeckoDataProvider
-.
-h
-"
-"
-src
-/
 ICUError
 .
 h
@@ -409,13 +402,6 @@ cpp
 src
 /
 ICU4CLibrary
-.
-cpp
-"
-"
-src
-/
-ICU4XGeckoDataProvider
 .
 cpp
 "
