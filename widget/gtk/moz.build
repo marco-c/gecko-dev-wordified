@@ -452,12 +452,12 @@ GfxInfo
 cpp
 "
 "
-gtk3drawing
+GtkCompositorWidget
 .
 cpp
 "
 "
-GtkCompositorWidget
+GtkWidgets
 .
 cpp
 "
@@ -583,11 +583,6 @@ cpp
 "
 "
 WaylandSurfaceLock
-.
-cpp
-"
-"
-WidgetStyleCache
 .
 cpp
 "
