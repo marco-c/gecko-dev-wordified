@@ -1543,9 +1543,6 @@ ALL_SHARED_ARCH
 #
 define
 OOL_IN_HEADER
-class
-JSLinearString
-;
 namespace
 JS
 {
@@ -36309,7 +36306,7 @@ guardSpecificAtom
 (
 Register
 str
-JSAtom
+JSOffThreadAtom
 *
 atom
 Register
@@ -39518,9 +39515,9 @@ branchIfNotStringCharsEquals
 Register
 stringChars
 const
-JSLinearString
+JSOffThreadAtom
 *
-linear
+str
 Label
 *
 label
@@ -39534,7 +39531,7 @@ Returns
 true
 if
 |
-linear
+str
 |
 is
 a
@@ -39560,9 +39557,9 @@ bool
 canCompareStringCharsInline
 (
 const
-JSLinearString
+JSOffThreadAtom
 *
-linear
+str
 )
 ;
 /
@@ -39584,9 +39581,9 @@ loadStringCharsForCompare
 Register
 input
 const
-JSLinearString
+JSOffThreadAtom
 *
-linear
+str
 Register
 stringChars
 Label
@@ -39621,7 +39618,7 @@ the
 length
 of
 |
-linear
+str
 |
 .
 void
@@ -39632,9 +39629,9 @@ op
 Register
 stringChars
 const
-JSLinearString
+JSOffThreadAtom
 *
-linear
+str
 Register
 result
 )
