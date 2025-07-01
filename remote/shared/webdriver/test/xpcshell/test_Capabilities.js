@@ -125,7 +125,7 @@ Capabilities
 mergeCapabilities
 PageLoadStrategy
 processCapabilities
-Proxy
+ProxyConfiguration
 Timeouts
 validateCapabilities
 }
@@ -550,7 +550,7 @@ let
 p
 =
 new
-Proxy
+ProxyConfiguration
 (
 )
 ;
@@ -629,7 +629,7 @@ let
 p
 =
 new
-Proxy
+ProxyConfiguration
 (
 )
 ;
@@ -760,7 +760,7 @@ direct
 p
 =
 new
-Proxy
+ProxyConfiguration
 (
 )
 ;
@@ -806,7 +806,7 @@ autodetect
 p
 =
 new
-Proxy
+ProxyConfiguration
 (
 )
 ;
@@ -852,7 +852,7 @@ system
 p
 =
 new
-Proxy
+ProxyConfiguration
 (
 )
 ;
@@ -916,7 +916,7 @@ socks
 p
 =
 new
-Proxy
+ProxyConfiguration
 (
 )
 ;
@@ -1121,7 +1121,7 @@ exclustions
 p
 =
 new
-Proxy
+ProxyConfiguration
 (
 )
 ;
@@ -1182,7 +1182,7 @@ test_Proxy_toString
 equal
 (
 new
-Proxy
+ProxyConfiguration
 (
 )
 .
@@ -1211,7 +1211,7 @@ let
 p
 =
 new
-Proxy
+ProxyConfiguration
 (
 )
 ;
@@ -1233,7 +1233,7 @@ url
 p
 =
 new
-Proxy
+ProxyConfiguration
 (
 )
 ;
@@ -1281,7 +1281,7 @@ proxy
 p
 =
 new
-Proxy
+ProxyConfiguration
 (
 )
 ;
@@ -1341,7 +1341,7 @@ manual
 p
 =
 new
-Proxy
+ProxyConfiguration
 (
 )
 ;
@@ -1569,7 +1569,7 @@ address
 p
 =
 new
-Proxy
+ProxyConfiguration
 (
 )
 ;
@@ -1643,14 +1643,14 @@ let
 p
 =
 new
-Proxy
+ProxyConfiguration
 (
 )
 ;
 deepEqual
 (
 p
-Proxy
+ProxyConfiguration
 .
 fromJSON
 (
@@ -1661,7 +1661,7 @@ undefined
 deepEqual
 (
 p
-Proxy
+ProxyConfiguration
 .
 fromJSON
 (
@@ -1693,7 +1693,7 @@ throws
 )
 =
 >
-Proxy
+ProxyConfiguration
 .
 fromJSON
 (
@@ -1720,7 +1720,7 @@ throws
 )
 =
 >
-Proxy
+ProxyConfiguration
 .
 fromJSON
 (
@@ -1740,7 +1740,7 @@ throws
 )
 =
 >
-Proxy
+ProxyConfiguration
 .
 fromJSON
 (
@@ -1784,7 +1784,7 @@ throws
 )
 =
 >
-Proxy
+ProxyConfiguration
 .
 fromJSON
 (
@@ -1808,7 +1808,7 @@ InvalidArgumentError
 p
 =
 new
-Proxy
+ProxyConfiguration
 (
 )
 ;
@@ -1831,7 +1831,7 @@ foo
 deepEqual
 (
 p
-Proxy
+ProxyConfiguration
 .
 fromJSON
 (
@@ -1857,7 +1857,7 @@ proxy
 p
 =
 new
-Proxy
+ProxyConfiguration
 (
 )
 ;
@@ -1872,7 +1872,7 @@ manual
 deepEqual
 (
 p
-Proxy
+ProxyConfiguration
 .
 fromJSON
 (
@@ -1993,7 +1993,7 @@ throws
 )
 =
 >
-Proxy
+ProxyConfiguration
 .
 fromJSON
 (
@@ -2008,7 +2008,7 @@ InvalidArgumentError
 p
 =
 new
-Proxy
+ProxyConfiguration
 (
 )
 ;
@@ -2241,7 +2241,7 @@ port
 deepEqual
 (
 p
-Proxy
+ProxyConfiguration
 .
 fromJSON
 (
@@ -2355,7 +2355,7 @@ proxy
 deepEqual
 (
 p
-Proxy
+ProxyConfiguration
 .
 fromJSON
 (
@@ -2379,7 +2379,7 @@ throws
 )
 =
 >
-Proxy
+ProxyConfiguration
 .
 fromJSON
 (
@@ -2417,7 +2417,7 @@ throws
 )
 =
 >
-Proxy
+ProxyConfiguration
 .
 fromJSON
 (
@@ -2458,7 +2458,7 @@ throws
 )
 =
 >
-Proxy
+ProxyConfiguration
 .
 fromJSON
 (
@@ -2526,7 +2526,7 @@ throws
 )
 =
 >
-Proxy
+ProxyConfiguration
 .
 fromJSON
 (
@@ -2554,7 +2554,7 @@ settings
 p
 =
 new
-Proxy
+ProxyConfiguration
 (
 )
 ;
@@ -2622,7 +2622,7 @@ noProxy
 deepEqual
 (
 p
-Proxy
+ProxyConfiguration
 .
 fromJSON
 (
@@ -2642,7 +2642,7 @@ removed
 p
 =
 new
-Proxy
+ProxyConfiguration
 (
 )
 ;
@@ -2697,7 +2697,7 @@ db8
 deepEqual
 (
 p
-Proxy
+ProxyConfiguration
 .
 fromJSON
 (
@@ -2876,7 +2876,7 @@ proxy
 "
 )
 instanceof
-Proxy
+ProxyConfiguration
 )
 ;
 equal
@@ -3142,7 +3142,7 @@ proxy
 "
 )
 instanceof
-Proxy
+ProxyConfiguration
 )
 ;
 ok
@@ -5460,7 +5460,7 @@ let
 proxy
 =
 new
-Proxy
+ProxyConfiguration
 (
 )
 ;
@@ -5590,7 +5590,7 @@ proxy
 proxyType
 =
 new
-Proxy
+ProxyConfiguration
 (
 )
 ;
@@ -5672,7 +5672,7 @@ proxyType
 foo
 :
 new
-Proxy
+ProxyConfiguration
 (
 )
 }
