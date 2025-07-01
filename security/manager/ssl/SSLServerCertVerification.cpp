@@ -3967,7 +3967,7 @@ glean
 ssl
 :
 :
-ct_policy_non_compliant_connections_by_ca
+ct_policy_non_compliant_connections_by_ca_2
 .
 AccumulateSingleSample
 (
@@ -4182,7 +4182,7 @@ glean
 cert_pinning
 :
 :
-failures_by_ca
+failures_by_ca_2
 .
 AccumulateSingleSample
 (
@@ -4378,7 +4378,7 @@ glean
 cert
 :
 :
-validation_success_by_ca
+validation_success_by_ca_2
 .
 AccumulateSingleSample
 (
