@@ -1707,11 +1707,6 @@ NormalizedConstraintSet
 >
 mAdvanced
 ;
-const
-char
-*
-mBadConstraint
-;
 }
 ;
 /
