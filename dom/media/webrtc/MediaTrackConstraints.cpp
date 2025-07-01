@@ -2467,6 +2467,11 @@ MediaDeviceKind
 :
 :
 Videoinput
+&
+&
+aPrefs
+.
+mResizeModeEnabled
 )
 {
 /

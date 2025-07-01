@@ -290,18 +290,6 @@ aGivenProto
 )
 override
 ;
-/
-/
-No
-code
-needed
-as
-MediaTrackSupportedConstraints
-members
-default
-to
-true
-.
 void
 GetSupportedConstraints
 (
@@ -309,8 +297,6 @@ MediaTrackSupportedConstraints
 &
 aResult
 )
-{
-}
 ;
 already_AddRefed
 <
