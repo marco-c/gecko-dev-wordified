@@ -161,6 +161,17 @@ aDoc
 /
 LocalAccessible
 virtual
+ENameValueFlag
+Name
+(
+nsString
+&
+aName
+)
+const
+override
+;
+virtual
 void
 Description
 (
