@@ -304,7 +304,7 @@ RefPtr
 <
 MozPromise
 <
-IdentityAssertionResponse
+IdentityProviderToken
 nsresult
 true
 >
