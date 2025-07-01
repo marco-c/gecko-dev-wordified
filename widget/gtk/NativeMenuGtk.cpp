@@ -1482,9 +1482,8 @@ nsIContent
 *
 aChild
 const
-BatchRemovalState
-*
-aState
+ContentRemoveInfo
+&
 )
 {
 if
@@ -1529,6 +1528,9 @@ ContentInserted
 nsIContent
 *
 aChild
+const
+ContentInsertInfo
+&
 )
 {
 if
@@ -1555,6 +1557,9 @@ ContentAppended
 nsIContent
 *
 aChild
+const
+ContentAppendInfo
+&
 )
 {
 if

@@ -456,6 +456,10 @@ ContentAppended
 nsIContent
 *
 aFirstNewContent
+const
+ContentAppendInfo
+&
+aInfo
 )
 {
 for
@@ -481,6 +485,7 @@ GetNextSibling
 ContentInserted
 (
 cur
+aInfo
 )
 ;
 }
@@ -594,8 +599,8 @@ nsIContent
 *
 aChild
 const
-BatchRemovalState
-*
+ContentRemoveInfo
+&
 )
 {
 nsIContent
@@ -765,6 +770,9 @@ ContentInserted
 nsIContent
 *
 aChild
+const
+ContentInsertInfo
+&
 )
 {
 nsIContent

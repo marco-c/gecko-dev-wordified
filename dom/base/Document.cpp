@@ -18487,7 +18487,8 @@ NotifyContentWillBeRemoved
 (
 this
 content
-nullptr
+{
+}
 )
 ;
 DisconnectChild
@@ -47581,7 +47582,9 @@ NotifyContentWillBeRemoved
 (
 this
 aKid
+{
 aState
+}
 )
 ;
 aNotify
@@ -53651,7 +53654,8 @@ ps
 ContentWillBeRemoved
 (
 container
-nullptr
+{
+}
 )
 ;
 }
@@ -54004,6 +54008,8 @@ ps
 ContentAppended
 (
 container
+{
+}
 )
 ;
 }
@@ -92426,6 +92432,10 @@ ContentAppended
 nsIContent
 *
 aFirstNewContent
+const
+ContentAppendInfo
+&
+aInfo
 )
 {
 for
@@ -92451,6 +92461,7 @@ GetNextSibling
 ContentInserted
 (
 c
+aInfo
 )
 ;
 }
@@ -92464,6 +92475,9 @@ ContentInserted
 nsIContent
 *
 aChild
+const
+ContentInsertInfo
+&
 )
 {
 FireEvent
