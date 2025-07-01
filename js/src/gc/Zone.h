@@ -6182,7 +6182,7 @@ fuses
 js
 :
 :
-DependentScriptGroup
+DependentIonScriptGroup
 fuseDependencies
 ;
 private
