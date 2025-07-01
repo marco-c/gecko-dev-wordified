@@ -597,6 +597,16 @@ loadQuotaFromCache
 "
 false
 ]
+[
+"
+dom
+.
+quotaManager
+.
+loadQuotaFromSecondaryCache
+"
+false
+]
 ]
 }
 testInitializeAllTemporaryOrigins
