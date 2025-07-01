@@ -1249,6 +1249,12 @@ ToResolvedValue
 css
 (
 function
+=
+"
+light
+-
+dark
+"
 comma
 )
 ]
