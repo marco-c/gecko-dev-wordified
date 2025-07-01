@@ -35566,7 +35566,6 @@ masm
 guardSpecificAtom
 (
 str
-&
 guard
 -
 >
@@ -35576,11 +35575,6 @@ mir
 -
 >
 atom
-(
-)
--
->
-asOffThreadAtom
 (
 )
 scratch
