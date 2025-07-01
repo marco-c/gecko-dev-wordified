@@ -242,6 +242,9 @@ AVCodecID
 aCodecId
 )
 ;
+#
+ifdef
+MOZ_USE_HWDECODE
 static
 AVCodec
 *
@@ -255,6 +258,8 @@ AVCodecID
 aCodecId
 )
 ;
+#
+endif
 FFmpegDataEncoder
 (
 const

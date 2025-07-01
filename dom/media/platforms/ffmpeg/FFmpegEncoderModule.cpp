@@ -856,6 +856,9 @@ EncodeSupportSet
 EncodeSupportSet
 supports
 ;
+#
+ifdef
+MOZ_USE_HWDECODE
 if
 (
 StaticPrefs
@@ -902,6 +905,8 @@ EncodeSupport
 HardwareEncode
 ;
 }
+#
+endif
 if
 (
 FFmpegDataEncoder
