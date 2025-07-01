@@ -10464,13 +10464,6 @@ searchValue
 if
 (
 isStyleSheetHighlighted
-&
-&
-rule
-.
-editor
-.
-source
 )
 {
 rule
