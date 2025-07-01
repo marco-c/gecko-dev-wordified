@@ -21968,7 +21968,7 @@ addPtr
 (
 Imm32
 (
-HashAtomOrSymbolPropertyKey
+HashPropertyKeyThreadSafe
 (
 id
 )
@@ -23095,7 +23095,7 @@ addPtr
 (
 Imm32
 (
-HashAtomOrSymbolPropertyKey
+HashPropertyKeyThreadSafe
 (
 id
 )
