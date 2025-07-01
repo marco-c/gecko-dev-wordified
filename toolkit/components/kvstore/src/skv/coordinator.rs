@@ -739,14 +739,10 @@ COORDINATOR
 .
 get_or_init
 (
-|
-|
 Coordinator
 :
 :
 new
-(
-)
 )
 }
 /
