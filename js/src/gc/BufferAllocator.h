@@ -3574,12 +3574,10 @@ addFreeRegion
 FreeLists
 *
 freeLists
-size_t
-sizeClass
 uintptr_t
 start
 uintptr_t
-end
+bytes
 bool
 anyDecommitted
 ListPosition
