@@ -287,7 +287,7 @@ override
 static
 AVCodec
 *
-FindAVCodec
+FindSoftwareAVCodec
 (
 FFmpegLibWrapper
 *
