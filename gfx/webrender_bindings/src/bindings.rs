@@ -13081,6 +13081,9 @@ u64
 present
 :
 bool
+tracked
+:
+bool
 reasons
 :
 RenderReasons
@@ -13092,6 +13095,7 @@ generate_frame
 (
 id
 present
+tracked
 reasons
 )
 ;
