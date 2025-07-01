@@ -1698,6 +1698,11 @@ GetHasActiveCloseWatcher
 )
 ;
 }
+void
+ProcessCloseRequest
+(
+)
+;
 protected
 :
 WindowContext
