@@ -2567,13 +2567,11 @@ url
 ;
 Assert
 .
-ok
+equal
 (
 base64Icon
 .
 spec
-=
-=
 aExpected
 .
 icon

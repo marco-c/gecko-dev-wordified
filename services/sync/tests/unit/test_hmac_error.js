@@ -1564,12 +1564,10 @@ again
 ;
 Assert
 .
-ok
+equal
 (
 !
 hasData
-=
-=
 !
 hasKeys
 )
@@ -1720,12 +1718,10 @@ modified
 ;
 Assert
 .
-ok
+equal
 (
 !
 hasData
-=
-=
 !
 hasKeys
 )

@@ -163,12 +163,9 @@ unknownActorName
 {
 Assert
 .
-ok
+strictEqual
 (
 fluentName
-=
-=
-=
 unknownFluentName
 Actor
 name
@@ -188,12 +185,9 @@ else
 {
 Assert
 .
-ok
+notStrictEqual
 (
 fluentName
-!
-=
-=
 unknownFluentName
 Actor
 name

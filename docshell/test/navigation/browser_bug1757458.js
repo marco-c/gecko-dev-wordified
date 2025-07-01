@@ -132,7 +132,7 @@ async
 {
 Assert
 .
-ok
+equal
 (
 content
 .
@@ -146,8 +146,6 @@ viewsource
 )
 .
 localName
-=
-=
 "
 body
 "
@@ -201,7 +199,7 @@ bfcache
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 testPage2
@@ -256,7 +254,7 @@ async
 {
 Assert
 .
-ok
+equal
 (
 content
 .
@@ -270,8 +268,6 @@ viewsource
 )
 .
 localName
-=
-=
 "
 body
 "

@@ -489,10 +489,9 @@ indexOf
 ;
 Assert
 .
-ok
+greater
 (
 childIndex
->
 0
 )
 ;
@@ -1070,15 +1069,13 @@ doc
 {
 Assert
 .
-ok
+notEqual
 (
 doc
 .
 documentElement
 .
 localName
-!
-=
 "
 parsererror
 "
@@ -3011,7 +3008,7 @@ length
 ;
 Assert
 .
-ok
+equal
 (
 ChromeUtils
 .
@@ -3021,8 +3018,6 @@ frag
 .
 firstChild
 )
-=
-=
 "
 Comment
 "

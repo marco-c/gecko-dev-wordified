@@ -133,12 +133,11 @@ properly
 ;
 Assert
 .
-ok
+greater
 (
 addon
 .
 signedState
->
 AddonManager
 .
 SIGNEDSTATE_MISSING

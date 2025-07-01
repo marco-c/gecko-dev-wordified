@@ -111,10 +111,9 @@ age
 .
 Assert
 .
-ok
+less
 (
 gPurgeAge
-<
 64
 )
 ;
@@ -1093,11 +1092,9 @@ expiry
 {
 Assert
 .
-ok
+notEqual
 (
 begin
-!
-=
 end
 )
 ;

@@ -1184,15 +1184,13 @@ earlier
 .
 Assert
 .
-ok
+notEqual
 (
 metadata1
 .
 exists
 (
 )
-!
-=
 metadata2
 .
 exists

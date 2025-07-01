@@ -215,7 +215,7 @@ count
 {
 Assert
 .
-ok
+greaterOrEqual
 (
 Date
 .
@@ -226,8 +226,6 @@ now
 this
 .
 _lastEvent
->
-=
 MIN_TIME_DIFFERENCE
 )
 ;

@@ -203,10 +203,9 @@ A
 ;
 Assert
 .
-ok
+greater
 (
 num
->
 0
 )
 ;

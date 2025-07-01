@@ -322,8 +322,7 @@ still
 exists
 Assert
 .
-ok
-(
+greater
 (
 await
 promiseCountEntries
@@ -339,8 +338,6 @@ value
 A
 "
 )
-)
->
 0
 )
 ;

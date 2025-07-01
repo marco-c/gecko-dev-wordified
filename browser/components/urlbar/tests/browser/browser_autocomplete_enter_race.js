@@ -1171,7 +1171,7 @@ recievedResult
 ;
 Assert
 .
-ok
+less
 (
 Cu
 .
@@ -1180,7 +1180,6 @@ now
 )
 -
 start
-<
 TIMEOUT
 )
 ;

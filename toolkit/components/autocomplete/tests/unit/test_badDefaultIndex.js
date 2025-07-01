@@ -141,13 +141,11 @@ aDefaultIndex
 {
 Assert
 .
-ok
+lessOrEqual
 (
 aValues
 .
 length
-<
-=
 aDefaultIndex
 )
 ;

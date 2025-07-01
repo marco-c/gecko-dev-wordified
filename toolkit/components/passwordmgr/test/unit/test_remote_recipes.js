@@ -889,11 +889,9 @@ e
 {
 Assert
 .
-ok
+equal
 (
 e
-=
-=
 "
 There
 were
@@ -1005,11 +1003,9 @@ e
 {
 Assert
 .
-ok
+equal
 (
 e
-=
-=
 "
 There
 were

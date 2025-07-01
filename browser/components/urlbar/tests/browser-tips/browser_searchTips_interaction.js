@@ -2668,13 +2668,11 @@ resetEnv
 ;
 Assert
 .
-ok
+equal
 (
 UrlbarProviderSearchTips
 .
 showedTipTypeInCurrentEngagement
-=
-=
 UrlbarProviderSearchTips
 .
 TIP_TYPE

@@ -292,13 +292,11 @@ recordIsUpdated
 {
 Assert
 .
-ok
+greaterOrEqual
 (
 stored_record
 .
 timePasswordChanged
->
-=
 expectedTimePasswordChanged
 )
 ;

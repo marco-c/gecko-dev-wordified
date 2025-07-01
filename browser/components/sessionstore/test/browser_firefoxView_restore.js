@@ -110,13 +110,11 @@ CLOSED_URI
 ;
 Assert
 .
-ok
+equal
 (
 gBrowser
 .
 selectedTab
-=
-=
 tab
 )
 ;

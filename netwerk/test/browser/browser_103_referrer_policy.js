@@ -375,12 +375,9 @@ text
 ;
 Assert
 .
-ok
+strictEqual
 (
 referrer_response
-=
-=
-=
 expected_results
 .
 referrer

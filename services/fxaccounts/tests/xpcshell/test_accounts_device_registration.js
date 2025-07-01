@@ -3125,15 +3125,13 @@ sessionToken
 ;
 Assert
 .
-ok
+greaterOrEqual
 (
 spy
 .
 getDeviceList
 .
 time
->
-=
 spy
 .
 updateDevice

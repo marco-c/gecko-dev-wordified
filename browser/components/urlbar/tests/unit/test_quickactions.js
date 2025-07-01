@@ -209,12 +209,9 @@ context
 ;
 Assert
 .
-ok
+strictEqual
 (
 results
-=
-=
-=
 null
 "
 there
@@ -260,7 +257,7 @@ context
 ;
 Assert
 .
-ok
+equal
 (
 results
 [
@@ -268,8 +265,6 @@ results
 ]
 .
 key
-=
-=
 "
 newaction
 "
@@ -338,7 +333,7 @@ context
 ;
 Assert
 .
-ok
+equal
 (
 results
 [
@@ -346,8 +341,6 @@ results
 ]
 .
 key
-=
-=
 "
 multiaction
 "
@@ -384,7 +377,7 @@ context
 ;
 Assert
 .
-ok
+equal
 (
 results
 [
@@ -392,8 +385,6 @@ results
 ]
 .
 key
-=
-=
 "
 multiaction
 "
@@ -473,7 +464,7 @@ context
 ;
 Assert
 .
-ok
+equal
 (
 results
 [
@@ -481,8 +472,6 @@ results
 ]
 .
 key
-=
-=
 "
 testaction
 "
@@ -566,12 +555,9 @@ context
 ;
 Assert
 .
-ok
+strictEqual
 (
 result
-=
-=
-=
 null
 "
 there
@@ -697,7 +683,7 @@ minimumSearchString
 {
 Assert
 .
-ok
+equal
 (
 result
 [
@@ -705,8 +691,6 @@ result
 ]
 .
 key
-=
-=
 "
 newaction
 "

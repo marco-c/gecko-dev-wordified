@@ -292,8 +292,7 @@ contents
 .
 Assert
 .
-ok
-(
+greater
 (
 await
 promiseCountEntries
@@ -301,8 +300,6 @@ promiseCountEntries
 null
 null
 )
-)
->
 0
 )
 ;

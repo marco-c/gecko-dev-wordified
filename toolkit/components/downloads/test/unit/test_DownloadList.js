@@ -2574,10 +2574,9 @@ downloadThree
 ;
 Assert
 .
-ok
+less
 (
 removeNotifications
-<
 3
 )
 ;

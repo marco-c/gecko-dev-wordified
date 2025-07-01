@@ -783,15 +783,13 @@ cookie
 service
 Assert
 .
-ok
+greaterOrEqual
 (
 schema12db
 .
 db
 .
 schemaVersion
->
-=
 13
 )
 ;

@@ -1458,13 +1458,11 @@ cancelled
 ;
 Assert
 .
-ok
+equal
 (
 got
 .
 normal
-=
-=
 expected
 .
 normal

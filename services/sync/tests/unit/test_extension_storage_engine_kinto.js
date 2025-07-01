@@ -849,15 +849,13 @@ oldSync
 }
 Assert
 .
-ok
+greaterOrEqual
 (
 syncMock
 .
 calls
 .
 length
->
-=
 1
 )
 ;

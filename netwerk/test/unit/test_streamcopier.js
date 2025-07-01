@@ -111,12 +111,11 @@ length
 .
 Assert
 .
-ok
+greater
 (
 testStr
 .
 length
->
 1024
 *
 10

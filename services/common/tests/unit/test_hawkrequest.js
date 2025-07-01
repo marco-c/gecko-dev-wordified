@@ -470,10 +470,9 @@ languages
 .
 Assert
 .
-ok
+less
 (
 testCount
-<
 languages
 .
 length

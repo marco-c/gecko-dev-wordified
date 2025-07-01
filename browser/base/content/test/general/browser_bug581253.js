@@ -161,7 +161,7 @@ bookmarked
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 testURL
@@ -251,13 +251,11 @@ editBMPanel_tagsField
 ;
 Assert
 .
-ok
+equal
 (
 tagsField
 .
 value
-=
-=
 testTag
 "
 tags

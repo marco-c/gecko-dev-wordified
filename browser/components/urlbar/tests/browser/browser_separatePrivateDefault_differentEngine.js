@@ -497,10 +497,9 @@ win
 ;
 Assert
 .
-ok
+greater
 (
 count
->
 1
 "
 Sanity

@@ -463,13 +463,11 @@ browser
 ;
 Assert
 .
-ok
+greaterOrEqual
 (
 redPixels
 /
 total
->
-=
 0
 .
 1

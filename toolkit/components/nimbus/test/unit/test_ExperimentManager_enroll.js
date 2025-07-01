@@ -3722,12 +3722,11 @@ prefs
 .
 Assert
 .
-ok
+less
 (
 prefValue
 .
 length
-<
 3498
 "
 Make

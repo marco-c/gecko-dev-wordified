@@ -2691,12 +2691,11 @@ grouped
 ;
 Assert
 .
-ok
+greater
 (
 pinnedTab
 .
 _tPos
->
 pinnedUngroupedTab
 .
 _tPos

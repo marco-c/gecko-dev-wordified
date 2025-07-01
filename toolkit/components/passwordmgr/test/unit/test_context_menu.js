@@ -960,12 +960,9 @@ length
 {
 Assert
 .
-ok
+strictEqual
 (
 fragment
-=
-=
-=
 null
 "
 Null

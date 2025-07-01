@@ -694,10 +694,9 @@ fileSize
 ;
 Assert
 .
-ok
+greater
 (
 size
->
 320e3
 )
 ;

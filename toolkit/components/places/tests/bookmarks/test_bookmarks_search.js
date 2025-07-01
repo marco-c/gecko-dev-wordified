@@ -2241,7 +2241,7 @@ search
 ;
 Assert
 .
-ok
+greater
 (
 results
 .
@@ -2263,7 +2263,6 @@ guid
 ;
 }
 )
->
 -
 1
 "
@@ -2280,7 +2279,7 @@ results
 ;
 Assert
 .
-ok
+greater
 (
 results
 .
@@ -2302,7 +2301,6 @@ guid
 ;
 }
 )
->
 -
 1
 "

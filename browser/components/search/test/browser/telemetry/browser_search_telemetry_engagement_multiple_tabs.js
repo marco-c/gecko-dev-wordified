@@ -803,11 +803,9 @@ else
 {
 Assert
 .
-ok
+equal
 (
 pid
-=
-=
 currentPid
 "
 The
@@ -1060,11 +1058,9 @@ else
 {
 Assert
 .
-ok
+equal
 (
 pid
-=
-=
 currentPid
 "
 The
