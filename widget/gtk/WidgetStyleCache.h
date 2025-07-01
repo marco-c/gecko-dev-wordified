@@ -141,7 +141,6 @@ GtkWidget
 GetWidget
 (
 WidgetNodeType
-aNodeType
 )
 ;
 /
