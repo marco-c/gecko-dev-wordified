@@ -4832,10 +4832,6 @@ ContentAppended
 nsIContent
 *
 aFirstNewContent
-const
-ContentAppendInfo
-&
-aInfo
 )
 {
 for
@@ -4871,7 +4867,6 @@ index
 ContentInserted
 (
 cur
-aInfo
 )
 ;
 }
@@ -4885,9 +4880,6 @@ ContentInserted
 nsIContent
 *
 aChild
-const
-ContentInsertInfo
-&
 )
 {
 NS_ASSERTION
@@ -5376,8 +5368,8 @@ nsIContent
 *
 aChild
 const
-ContentRemoveInfo
-&
+BatchRemovalState
+*
 )
 {
 NS_ASSERTION

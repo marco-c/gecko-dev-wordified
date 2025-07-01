@@ -1100,10 +1100,6 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-const
-ContentAppendInfo
-&
-aInfo
 )
 {
 aContainer
@@ -1125,7 +1121,6 @@ NOTIFIER
 (
 ContentAppended
 aFirstNewContent
-aInfo
 )
 nsIMutationObserver
 :
@@ -1146,10 +1141,6 @@ aContainer
 nsIContent
 *
 aChild
-const
-ContentInsertInfo
-&
-aInfo
 )
 {
 MOZ_ASSERT
@@ -1199,7 +1190,6 @@ NOTIFIER
 (
 ContentInserted
 aChild
-aInfo
 )
 nsIMutationObserver
 :
@@ -1221,9 +1211,9 @@ nsIContent
 *
 aChild
 const
-ContentRemoveInfo
-&
-aInfo
+BatchRemovalState
+*
+aState
 )
 {
 MOZ_ASSERT
@@ -1306,7 +1296,7 @@ NOTIFIER
 (
 ContentWillBeRemoved
 aChild
-aInfo
+aState
 )
 nsIMutationObserver
 :

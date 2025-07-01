@@ -789,10 +789,6 @@ ContentAppended
 nsIContent
 *
 aFirstNewContent
-const
-ContentAppendInfo
-&
-aInfo
 )
 override
 {
@@ -807,7 +803,6 @@ mOwner
 ContentAppended
 (
 aFirstNewContent
-aInfo
 )
 ;
 }
@@ -817,10 +812,6 @@ ContentInserted
 nsIContent
 *
 aChild
-const
-ContentInsertInfo
-&
-aInfo
 )
 override
 {
@@ -835,7 +826,6 @@ mOwner
 ContentInserted
 (
 aChild
-aInfo
 )
 ;
 }
@@ -846,9 +836,9 @@ nsIContent
 *
 aChild
 const
-ContentRemoveInfo
-&
-aInfo
+BatchRemovalState
+*
+aState
 )
 override
 {
@@ -863,7 +853,7 @@ mOwner
 ContentWillBeRemoved
 (
 aChild
-aInfo
+aState
 )
 ;
 }

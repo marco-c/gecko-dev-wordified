@@ -13612,8 +13612,6 @@ target
 GetFirstChild
 (
 )
-{
-}
 )
 ;
 }

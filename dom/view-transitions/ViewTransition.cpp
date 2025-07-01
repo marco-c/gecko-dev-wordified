@@ -7661,8 +7661,6 @@ ps
 ContentAppended
 (
 mSnapshotContainingBlock
-{
-}
 )
 ;
 }
@@ -12600,8 +12598,7 @@ ps
 ContentWillBeRemoved
 (
 mSnapshotContainingBlock
-{
-}
+nullptr
 )
 ;
 }

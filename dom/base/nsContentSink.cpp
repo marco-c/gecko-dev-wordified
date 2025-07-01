@@ -3936,8 +3936,6 @@ GetChildAt_Deprecated
 (
 aStartIndex
 )
-{
-}
 )
 ;
 mLastNotificationTime
