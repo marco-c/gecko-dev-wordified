@@ -242,6 +242,10 @@ counter
 "
 labeled_counter
 "
+        
+"
+dual_labeled_counter
+"
     
 ]
     
