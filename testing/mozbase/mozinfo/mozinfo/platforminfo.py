@@ -216,9 +216,7 @@ process
 "
 :
 "
-isolated
--
-process
+isolated_process
 "
     
 }
@@ -246,9 +244,8 @@ None
 :
         
 if
+not
 test_settings
-is
-None
 :
             
 return

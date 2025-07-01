@@ -1171,6 +1171,8 @@ bugzilla
 is
 not
 None
+and
+dry_run
 :
             
 self
@@ -5876,6 +5878,16 @@ summary
 "
 "
         
+if
+self
+.
+dry_run
+:
+            
+return
+[
+]
+        
 bugs
 =
 [
@@ -5999,13 +6011,6 @@ exceptions
 HTTPError
 :
                 
-if
-not
-self
-.
-dry_run
-:
-                    
 raise
         
 return
@@ -6964,6 +6969,10 @@ self
 bugzilla
 is
 None
+or
+self
+.
+dry_run
 :
             
 self
@@ -7045,16 +7054,6 @@ fails
 )
 "
                 
-product
-component
-=
-self
-.
-get_file_info
-(
-path
-)
-                
 if
 self
 .
@@ -7065,7 +7064,6 @@ self
 .
 warning
 (
-                        
 f
 '
 Dry
@@ -7075,25 +7073,26 @@ NOT
 creating
 bug
 :
-{
-product
-}
-:
-:
-{
-component
-}
 "
 {
 bug_summary
 }
 "
 '
-                    
 )
                 
 else
 :
+                    
+product
+component
+=
+self
+.
+get_file_info
+(
+path
+)
                     
 bug
 =
@@ -9308,6 +9307,14 @@ version
 self
 .
 new_version
+            
+if
+not
+test_setting
+:
+                
+return
+None
             
 platform_info
 =
@@ -12381,6 +12388,24 @@ TestTask
                 
 continue
             
+extras
+=
+self
+.
+get_extra
+(
+task
+.
+id
+)
+            
+if
+not
+extras
+:
+                
+continue
+            
 jtask
 =
 {
@@ -12448,14 +12473,7 @@ extra
 "
 ]
 =
-self
-.
-get_extra
-(
-task
-.
-id
-)
+extras
 .
 to_dict
 (
