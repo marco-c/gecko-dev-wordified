@@ -4864,12 +4864,11 @@ number
 ;
 Assert
 .
-ok
+greater
 (
 result
 .
 createdAt
->
 0
 )
 ;

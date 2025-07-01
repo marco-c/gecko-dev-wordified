@@ -1508,12 +1508,11 @@ syncCounter
 ;
 Assert
 .
-ok
+greater
 (
 deletedLogin
 .
 timePasswordChanged
->
 0
 "
 deleted

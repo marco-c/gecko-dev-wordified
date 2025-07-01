@@ -613,7 +613,7 @@ promiseEngineAdded
 ;
 Assert
 .
-ok
+greater
 (
 (
 await
@@ -627,7 +627,6 @@ getVisibleEngines
 )
 .
 length
->
 initialEngines
 .
 length

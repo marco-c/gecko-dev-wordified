@@ -3851,7 +3851,7 @@ infobar
 ;
 Assert
 .
-ok
+less
 (
 Services
 .
@@ -3865,7 +3865,6 @@ Preferences
 .
 AcceptedPolicyVersion
 )
-<
 900
 "
 Before
@@ -4293,13 +4292,11 @@ p
 ;
 Assert
 .
-ok
+greaterOrEqual
 (
 unblockSpy
 .
 callCount
->
-=
 blockSpy
 .
 callCount

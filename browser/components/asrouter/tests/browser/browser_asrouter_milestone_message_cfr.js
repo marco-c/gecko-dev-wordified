@@ -80,14 +80,11 @@ notification
 {
 Assert
 .
-ok
+strictEqual
 (
 notification
 .
 hidden
-=
-=
-=
 false
 "
 Panel
@@ -99,7 +96,7 @@ visible
 ;
 Assert
 .
-ok
+strictEqual
 (
 notification
 .
@@ -113,9 +110,6 @@ notification
 category
 "
 )
-=
-=
-=
 "
 short_message
 "

@@ -836,11 +836,9 @@ socketProcessId
 ;
 Assert
 .
-ok
+notEqual
 (
 socketProcessId
-!
-=
 0
 )
 ;
@@ -970,11 +968,9 @@ socketProcessId
 ;
 Assert
 .
-ok
+notEqual
 (
 socketProcessId
-!
-=
 0
 )
 ;

@@ -132,7 +132,7 @@ async
 {
 Assert
 .
-ok
+equal
 (
 content
 .
@@ -146,8 +146,6 @@ viewsource
 )
 .
 localName
-=
-=
 "
 body
 "
@@ -256,7 +254,7 @@ async
 {
 Assert
 .
-ok
+equal
 (
 content
 .
@@ -270,8 +268,6 @@ viewsource
 )
 .
 localName
-=
-=
 "
 body
 "

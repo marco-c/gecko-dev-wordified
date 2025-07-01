@@ -228,7 +228,7 @@ seconds
 .
 Assert
 .
-ok
+less
 (
 Math
 .
@@ -238,7 +238,6 @@ nowSeconds
 -
 prefValue
 )
-<
 2
 "
 Last

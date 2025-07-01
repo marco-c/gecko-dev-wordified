@@ -74,11 +74,9 @@ expiry
 ;
 Assert
 .
-ok
+lessOrEqual
 (
 capped
-<
-=
 now
 +
 20
@@ -99,11 +97,9 @@ cap
 ;
 Assert
 .
-ok
+lessOrEqual
 (
 capped
-<
-=
 expiry
 "
 result

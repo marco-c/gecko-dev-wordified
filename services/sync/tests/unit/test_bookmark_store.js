@@ -739,13 +739,11 @@ data
 ;
 Assert
 .
-ok
+greaterOrEqual
 (
 newrecord
 .
 sortindex
->
-=
 150
 )
 ;

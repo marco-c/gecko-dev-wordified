@@ -459,12 +459,11 @@ Static
 check
 Assert
 .
-ok
+greater
 (
 responseBody
 .
 length
->
 1024
 )
 ;

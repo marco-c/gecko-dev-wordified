@@ -1437,11 +1437,9 @@ delay
 ;
 Assert
 .
-ok
+greaterOrEqual
 (
 nextSchedule
->
-=
 testPrefDelay
 )
 ;
@@ -1538,7 +1536,7 @@ pref
 value
 Assert
 .
-ok
+lessOrEqual
 (
 scheduler
 .
@@ -1549,8 +1547,6 @@ Date
 now
 (
 )
-<
-=
 testPrefDelay
 )
 ;

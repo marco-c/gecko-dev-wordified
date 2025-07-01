@@ -934,7 +934,7 @@ records
 failure
 Assert
 .
-ok
+strictEqual
 (
 Glean
 .
@@ -947,9 +947,6 @@ metric2
 testGetValue
 (
 )
-=
-=
-=
 false
 "
 Glean
@@ -1183,7 +1180,7 @@ records
 failure
 Assert
 .
-ok
+strictEqual
 (
 Glean
 .
@@ -1196,9 +1193,6 @@ ping2
 testGetValue
 (
 )
-=
-=
-=
 false
 "
 Glean

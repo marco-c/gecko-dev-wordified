@@ -702,7 +702,7 @@ guid
 ;
 Assert
 .
-ok
+less
 (
 rootNode
 .
@@ -712,7 +712,6 @@ getChild
 )
 .
 dateAdded
-<
 rootNode
 .
 getChild
@@ -725,7 +724,7 @@ dateAdded
 ;
 Assert
 .
-ok
+less
 (
 rootNode
 .
@@ -735,7 +734,6 @@ getChild
 )
 .
 dateAdded
-<
 rootNode
 .
 getChild
@@ -825,7 +823,7 @@ guid
 ;
 Assert
 .
-ok
+greater
 (
 rootNode
 .
@@ -835,7 +833,6 @@ getChild
 )
 .
 dateAdded
->
 rootNode
 .
 getChild
@@ -848,7 +845,7 @@ dateAdded
 ;
 Assert
 .
-ok
+greater
 (
 rootNode
 .
@@ -858,7 +855,6 @@ getChild
 )
 .
 dateAdded
->
 rootNode
 .
 getChild
@@ -948,7 +944,7 @@ guid
 ;
 Assert
 .
-ok
+less
 (
 rootNode
 .
@@ -958,7 +954,6 @@ getChild
 )
 .
 lastModified
-<
 rootNode
 .
 getChild
@@ -971,7 +966,7 @@ lastModified
 ;
 Assert
 .
-ok
+less
 (
 rootNode
 .
@@ -981,7 +976,6 @@ getChild
 )
 .
 lastModified
-<
 rootNode
 .
 getChild
@@ -1071,7 +1065,7 @@ guid
 ;
 Assert
 .
-ok
+greater
 (
 rootNode
 .
@@ -1081,7 +1075,6 @@ getChild
 )
 .
 lastModified
->
 rootNode
 .
 getChild
@@ -1094,7 +1087,7 @@ lastModified
 ;
 Assert
 .
-ok
+greater
 (
 rootNode
 .
@@ -1104,7 +1097,6 @@ getChild
 )
 .
 lastModified
->
 rootNode
 .
 getChild
@@ -1218,7 +1210,7 @@ guid
 ;
 Assert
 .
-ok
+less
 (
 rootNode
 .
@@ -1228,7 +1220,6 @@ getChild
 )
 .
 dateAdded
-<
 rootNode
 .
 getChild
@@ -1241,7 +1232,7 @@ dateAdded
 ;
 Assert
 .
-ok
+less
 (
 rootNode
 .
@@ -1251,7 +1242,6 @@ getChild
 )
 .
 dateAdded
-<
 rootNode
 .
 getChild
@@ -1365,7 +1355,7 @@ guid
 ;
 Assert
 .
-ok
+greater
 (
 rootNode
 .
@@ -1375,7 +1365,6 @@ getChild
 )
 .
 dateAdded
->
 rootNode
 .
 getChild
@@ -1388,7 +1377,7 @@ dateAdded
 ;
 Assert
 .
-ok
+greater
 (
 rootNode
 .
@@ -1398,7 +1387,6 @@ getChild
 )
 .
 dateAdded
->
 rootNode
 .
 getChild
@@ -1512,7 +1500,7 @@ guid
 ;
 Assert
 .
-ok
+less
 (
 rootNode
 .
@@ -1522,7 +1510,6 @@ getChild
 )
 .
 lastModified
-<
 rootNode
 .
 getChild
@@ -1535,7 +1522,7 @@ lastModified
 ;
 Assert
 .
-ok
+less
 (
 rootNode
 .
@@ -1545,7 +1532,6 @@ getChild
 )
 .
 lastModified
-<
 rootNode
 .
 getChild
@@ -1659,7 +1645,7 @@ guid
 ;
 Assert
 .
-ok
+greater
 (
 rootNode
 .
@@ -1669,7 +1655,6 @@ getChild
 )
 .
 lastModified
->
 rootNode
 .
 getChild
@@ -1682,7 +1667,7 @@ lastModified
 ;
 Assert
 .
-ok
+greater
 (
 rootNode
 .
@@ -1692,7 +1677,6 @@ getChild
 )
 .
 lastModified
->
 rootNode
 .
 getChild

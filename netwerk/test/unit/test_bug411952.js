@@ -224,7 +224,7 @@ circumstances
 .
 Assert
 .
-ok
+lessOrEqual
 (
 Math
 .
@@ -234,8 +234,6 @@ creationTime
 -
 now
 )
-<
-=
 1000
 "
 Cookie

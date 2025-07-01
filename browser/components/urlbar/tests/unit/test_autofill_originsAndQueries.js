@@ -5248,10 +5248,9 @@ getOriginAutofillThreshold
 ;
 Assert
 .
-ok
+less
 (
 placeFrecency
-<
 threshold
 Place
 frecency
@@ -5276,10 +5275,9 @@ threshold
 ;
 Assert
 .
-ok
+less
 (
 originFrecency
-<
 threshold
 Origin
 frecency
@@ -6886,10 +6884,9 @@ getOriginAutofillThreshold
 ;
 Assert
 .
-ok
+less
 (
 originFrecency
-<
 threshold
 )
 ;
@@ -7544,10 +7541,9 @@ getOriginAutofillThreshold
 ;
 Assert
 .
-ok
+less
 (
 originFrecency
-<
 threshold
 )
 ;

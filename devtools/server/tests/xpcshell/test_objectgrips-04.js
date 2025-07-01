@@ -330,11 +330,9 @@ undefined
 ;
 Assert
 .
-ok
+notEqual
 (
 prototype
-!
-=
 undefined
 )
 ;

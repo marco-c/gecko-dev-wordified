@@ -801,7 +801,7 @@ EXPIRY_MS_B
 ;
 Assert
 .
-ok
+notEqual
 (
 permissionsA
 [
@@ -809,8 +809,6 @@ PERM_A
 ]
 .
 expireTimeout
-!
-=
 expireTimeoutA
 "
 Overwritten
@@ -964,13 +962,11 @@ state
 ;
 Assert
 .
-ok
+notEqual
 (
 permissionB
 .
 expireTimeout
-!
-=
 expireTimeoutB
 "
 Overwritten

@@ -350,11 +350,9 @@ pop
 ;
 Assert
 .
-ok
+notEqual
 (
 firstButton
-!
-=
 lastButton
 "
 There

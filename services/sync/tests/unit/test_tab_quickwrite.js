@@ -420,10 +420,9 @@ getLastSync
 ;
 Assert
 .
-ok
+less
 (
 lastSync
-<
 FAR_FUTURE
 )
 ;
@@ -632,10 +631,9 @@ getLastSync
 ;
 Assert
 .
-ok
+less
 (
 lastSync
-<
 FAR_FUTURE
 )
 ;

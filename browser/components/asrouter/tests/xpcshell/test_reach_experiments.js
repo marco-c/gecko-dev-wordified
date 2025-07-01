@@ -283,7 +283,7 @@ needle
 {
 Assert
 .
-ok
+notStrictEqual
 (
 haystack
 .
@@ -300,9 +300,6 @@ item
 needle
 )
 )
-!
-=
-=
 null
 )
 ;

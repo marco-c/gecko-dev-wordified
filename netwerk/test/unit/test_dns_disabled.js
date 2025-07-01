@@ -258,12 +258,9 @@ e
 {
 Assert
 .
-ok
+strictEqual
 (
 mustBlock
-=
-=
-=
 true
 )
 ;

@@ -2927,12 +2927,11 @@ dialog
 ;
 Assert
 .
-ok
+greater
 (
 docEl
 .
 scrollHeight
->
 contentOldHeight
 "
 Content

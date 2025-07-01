@@ -574,8 +574,7 @@ proxy
 .
 Assert
 .
-ok
-(
+greaterOrEqual
 (
 await
 trrProxy
@@ -583,9 +582,6 @@ trrProxy
 request_count
 (
 )
-)
->
-=
 1
 Request
 count

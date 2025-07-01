@@ -988,7 +988,7 @@ flavors
 {
 Assert
 .
-ok
+strictEqual
 (
 this
 .
@@ -996,9 +996,6 @@ countHistogramEntries
 (
 h
 )
-=
-=
-=
 resultCount
 "
 Timing
@@ -1032,7 +1029,7 @@ flavors
 {
 Assert
 .
-ok
+strictEqual
 (
 this
 .
@@ -1040,9 +1037,6 @@ countHistogramEntries
 (
 h
 )
-=
-=
-=
 0
 "
 No
@@ -1108,7 +1102,7 @@ h
 ;
 Assert
 .
-ok
+strictEqual
 (
 this
 .
@@ -1116,9 +1110,6 @@ countHistogramEntries
 (
 hObj
 )
-=
-=
-=
 0
 No
 entries

@@ -608,7 +608,7 @@ try
 {
 Assert
 .
-ok
+notEqual
 (
 req
 .
@@ -620,8 +620,6 @@ Set
 Cookie
 "
 )
-!
-=
 "
 "
 "

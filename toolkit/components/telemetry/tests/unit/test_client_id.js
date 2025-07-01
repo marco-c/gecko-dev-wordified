@@ -945,7 +945,7 @@ IDs
 ;
 Assert
 .
-ok
+equal
 (
 Services
 .
@@ -955,8 +955,6 @@ getPrefType
 (
 PREF_CACHED_CLIENTID
 )
-=
-=
 Ci
 .
 nsIPrefBranch
@@ -2011,7 +2009,7 @@ IDs
 ;
 Assert
 .
-ok
+equal
 (
 Services
 .
@@ -2021,8 +2019,6 @@ getPrefType
 (
 PREF_CACHED_PROFILEGROUPID
 )
-=
-=
 Ci
 .
 nsIPrefBranch
@@ -4184,7 +4180,7 @@ IDs
 ;
 Assert
 .
-ok
+equal
 (
 Services
 .
@@ -4194,8 +4190,6 @@ getPrefType
 (
 PREF_CACHED_USAGE_PROFILEID
 )
-=
-=
 Ci
 .
 nsIPrefBranch
@@ -5110,7 +5104,7 @@ IDs
 ;
 Assert
 .
-ok
+equal
 (
 Services
 .
@@ -5120,8 +5114,6 @@ getPrefType
 (
 PREF_CACHED_USAGE_PROFILEGROUPID
 )
-=
-=
 Ci
 .
 nsIPrefBranch

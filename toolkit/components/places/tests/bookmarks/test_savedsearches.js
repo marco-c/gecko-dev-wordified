@@ -459,12 +459,11 @@ valid
 itemId
 Assert
 .
-ok
+greater
 (
 node
 .
 itemId
->
 0
 )
 ;
@@ -699,12 +698,11 @@ valid
 itemId
 Assert
 .
-ok
+greater
 (
 node
 .
 itemId
->
 0
 )
 ;

@@ -397,13 +397,11 @@ name
 ;
 Assert
 .
-ok
+equal
 (
 !
 !
 name
-=
-=
 db2
 .
 tableExists

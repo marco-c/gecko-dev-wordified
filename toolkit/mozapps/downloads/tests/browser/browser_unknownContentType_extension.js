@@ -278,7 +278,7 @@ path
 ;
 Assert
 .
-ok
+equal
 (
 filename
 .
@@ -288,8 +288,6 @@ indexOf
 .
 "
 )
-=
-=
 filename
 .
 lastIndexOf

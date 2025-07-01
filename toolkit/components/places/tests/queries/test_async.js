@@ -907,12 +907,9 @@ defined
 .
 Assert
 .
-ok
+strictEqual
 (
 aOldState
-=
-=
-=
 aExpectOldState
 )
 ;

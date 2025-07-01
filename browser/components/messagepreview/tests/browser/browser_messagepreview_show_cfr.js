@@ -386,7 +386,7 @@ popupshown
 ;
 Assert
 .
-ok
+strictEqual
 (
 document
 .
@@ -404,9 +404,6 @@ notification
 )
 .
 hidden
-=
-=
-=
 false
 "
 Panel

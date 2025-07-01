@@ -335,7 +335,7 @@ foo
 ;
 Assert
 .
-ok
+notEqual
 (
 TelemetryTimestamps
 .
@@ -344,8 +344,6 @@ get
 )
 .
 foo
-!
-=
 null
 )
 ;
@@ -356,7 +354,7 @@ was
 added
 Assert
 .
-ok
+greaterOrEqual
 (
 TelemetryTimestamps
 .
@@ -365,8 +363,6 @@ get
 )
 .
 foo
->
-=
 now
 )
 ;
@@ -571,11 +567,9 @@ getSimpleMeasurementsFromTelemetryController
 ;
 Assert
 .
-ok
+notEqual
 (
 simpleMeasurements
-!
-=
 null
 )
 ;
@@ -589,12 +583,11 @@ ping
 data
 Assert
 .
-ok
+greater
 (
 simpleMeasurements
 .
 foo
->
 1
 )
 ;
@@ -605,12 +598,11 @@ was
 included
 Assert
 .
-ok
+greater
 (
 simpleMeasurements
 .
 bar
->
 1
 )
 ;

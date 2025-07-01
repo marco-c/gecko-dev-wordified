@@ -285,13 +285,11 @@ ch
 {
 Assert
 .
-ok
+equal
 (
 ch
 .
 contentLength
-=
-=
 0
 )
 ;

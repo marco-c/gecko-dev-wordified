@@ -132,7 +132,7 @@ com
 ;
 Assert
 .
-ok
+less
 (
 client
 .
@@ -145,7 +145,6 @@ Date
 now
 (
 )
-<
 SECOND_MS
 )
 ;
@@ -303,7 +302,7 @@ hour
 .
 Assert
 .
-ok
+lessOrEqual
 (
 Math
 .
@@ -315,8 +314,6 @@ localtimeOffsetMsec
 +
 HOUR_MS
 )
-<
-=
 SECOND_MS
 )
 ;
@@ -1508,7 +1505,7 @@ hour
 off
 Assert
 .
-ok
+less
 (
 Math
 .
@@ -1520,7 +1517,6 @@ localtimeOffsetMsec
 +
 HOUR_MS
 )
-<
 SECOND_MS
 )
 ;
@@ -1819,7 +1815,7 @@ now
 .
 Assert
 .
-ok
+less
 (
 Math
 .
@@ -1833,7 +1829,6 @@ localtimeOffsetMsec
 *
 HOUR_MS
 )
-<
 MINUTE_MS
 )
 ;
@@ -2101,11 +2096,9 @@ attempts
 ;
 Assert
 .
-ok
+lessOrEqual
 (
 attempts
-<
-=
 2
 )
 ;
@@ -2146,10 +2139,9 @@ attempts
 {
 Assert
 .
-ok
+greater
 (
 delta
->
 MINUTE_MS
 )
 ;
@@ -2204,10 +2196,9 @@ by
 client
 Assert
 .
-ok
+less
 (
 delta
-<
 MINUTE_MS
 )
 ;
@@ -2472,11 +2463,9 @@ attempts
 ;
 Assert
 .
-ok
+lessOrEqual
 (
 attempts
-<
-=
 2
 )
 ;
@@ -2997,11 +2986,9 @@ attempts
 ;
 Assert
 .
-ok
+lessOrEqual
 (
 attempts
-<
-=
 2
 )
 ;
@@ -3047,10 +3034,9 @@ attempts
 {
 Assert
 .
-ok
+greater
 (
 delta
->
 MINUTE_MS
 )
 ;
@@ -3112,10 +3098,9 @@ the
 client
 Assert
 .
-ok
+less
 (
 delta
-<
 MINUTE_MS
 )
 ;

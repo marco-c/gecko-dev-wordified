@@ -94,7 +94,7 @@ ready
 ;
 Assert
 .
-ok
+strictEqual
 (
 ExperimentAPI
 .
@@ -107,9 +107,6 @@ getAllActiveExperiments
 )
 .
 length
-=
-=
-=
 0
 "
 Clean

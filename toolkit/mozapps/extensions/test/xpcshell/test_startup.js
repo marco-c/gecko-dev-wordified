@@ -590,15 +590,13 @@ null
 ;
 Assert
 .
-ok
+greaterOrEqual
 (
 addon
 .
 syncGUID
 .
 length
->
-=
 9
 )
 ;
