@@ -287,7 +287,6 @@ else
 define
 MOZ_SOURCE_STAMP_VALUE
 nullptr
-;
 #
 endif
 static
