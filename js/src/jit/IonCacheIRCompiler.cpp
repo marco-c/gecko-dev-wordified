@@ -1973,12 +1973,15 @@ pushStubCodePointer
 ;
 masm
 .
-PushFrameDescriptor
+Push
+(
+FrameDescriptor
 (
 FrameType
 :
 :
 IonJS
+)
 )
 ;
 masm
@@ -6217,7 +6220,9 @@ callee
 ;
 masm
 .
-PushFrameDescriptorForJitCall
+Push
+(
+FrameDescriptor
 (
 FrameType
 :
@@ -6230,6 +6235,7 @@ argc
 *
 /
 0
+)
 )
 ;
 /
@@ -6860,7 +6866,9 @@ callee
 ;
 masm
 .
-PushFrameDescriptorForJitCall
+Push
+(
+FrameDescriptor
 (
 FrameType
 :
@@ -6873,6 +6881,7 @@ argc
 *
 /
 3
+)
 )
 ;
 /
@@ -11146,7 +11155,9 @@ callee
 ;
 masm
 .
-PushFrameDescriptorForJitCall
+Push
+(
+FrameDescriptor
 (
 FrameType
 :
@@ -11159,6 +11170,7 @@ argc
 *
 /
 1
+)
 )
 ;
 /
@@ -13597,7 +13609,9 @@ callee
 ;
 masm
 .
-PushFrameDescriptorForJitCall
+Push
+(
+FrameDescriptor
 (
 FrameType
 :
@@ -13610,6 +13624,7 @@ argc
 *
 /
 0
+)
 )
 ;
 masm

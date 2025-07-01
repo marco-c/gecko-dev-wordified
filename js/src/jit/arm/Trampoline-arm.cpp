@@ -1979,12 +1979,15 @@ frame
 .
 masm
 .
-pushFrameDescriptor
+push
+(
+FrameDescriptor
 (
 FrameType
 :
 :
 BaselineJS
+)
 )
 ;
 masm
