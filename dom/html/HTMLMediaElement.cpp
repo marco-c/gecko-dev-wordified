@@ -47535,7 +47535,7 @@ return
 mTextTrackManager
 -
 >
-NotifyUpdateCueDisplay
+DispatchUpdateCueDisplay
 (
 )
 ;
