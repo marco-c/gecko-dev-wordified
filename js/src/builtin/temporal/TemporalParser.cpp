@@ -4112,7 +4112,7 @@ std
 :
 initializer_list
 <
-char16_t
+char
 >
 chars
 )
@@ -4203,7 +4203,7 @@ std
 :
 initializer_list
 <
-char16_t
+char
 >
 chars
 )
