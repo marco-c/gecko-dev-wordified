@@ -145,17 +145,6 @@ h
 #
 include
 "
-av1
-/
-common
-/
-entropymode
-.
-h
-"
-#
-include
-"
 gtest
 /
 gtest
@@ -291,7 +280,7 @@ exponent
 TEST
 (
 Log2Test
-Av1CeilLog2
+AomCeilLog2
 )
 {
 /
@@ -303,7 +292,7 @@ exhaustively
 .
 EXPECT_EQ
 (
-av1_ceil_log2
+aom_ceil_log2
 (
 0
 )
@@ -328,7 +317,7 @@ n
 {
 EXPECT_EQ
 (
-av1_ceil_log2
+aom_ceil_log2
 (
 n
 )
@@ -388,7 +377,7 @@ exponent
 ;
 EXPECT_EQ
 (
-av1_ceil_log2
+aom_ceil_log2
 (
 power_of_2
 -
@@ -399,7 +388,7 @@ exponent
 ;
 EXPECT_EQ
 (
-av1_ceil_log2
+aom_ceil_log2
 (
 power_of_2
 )
@@ -408,7 +397,7 @@ exponent
 ;
 EXPECT_EQ
 (
-av1_ceil_log2
+aom_ceil_log2
 (
 power_of_2
 +
@@ -431,7 +420,7 @@ INT_MAX
 1
 EXPECT_EQ
 (
-av1_ceil_log2
+aom_ceil_log2
 (
 INT_MAX
 )
