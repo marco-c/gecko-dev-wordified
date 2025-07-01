@@ -205,10 +205,6 @@ Warning
 processing
 background
 :
-Error
-processing
-background
-:
 background
 requires
 at
@@ -233,10 +229,6 @@ Reading
 manifest
 :
 Warning
-processing
-background
-:
-Error
 processing
 background
 :
