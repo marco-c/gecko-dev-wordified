@@ -13223,14 +13223,7 @@ return
 !
 mViewTransitionName
 .
-_0
-.
-AsAtom
-(
-)
--
->
-IsEmpty
+IsNone
 (
 )
 ;
