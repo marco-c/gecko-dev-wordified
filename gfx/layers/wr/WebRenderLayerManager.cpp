@@ -2895,6 +2895,8 @@ Don
 t
 discard
 images
+and
+fonts
 in
 an
 offscreen
@@ -2904,10 +2906,10 @@ It
 won
 '
 t
+/
+/
 replace
 the
-/
-/
 display
 list
 in
@@ -2919,12 +2921,12 @@ the
 images
 may
 still
+/
+/
 be
 used
 by
 the
-/
-/
 previous
 (
 which
@@ -2941,7 +2943,6 @@ DiscardImagesInTransaction
 resourceUpdates
 )
 ;
-}
 WrBridge
 (
 )
@@ -2952,6 +2953,7 @@ RemoveExpiredFontKeys
 resourceUpdates
 )
 ;
+}
 /
 /
 Skip
