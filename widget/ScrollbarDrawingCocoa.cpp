@@ -2577,10 +2577,6 @@ ElementState
 &
 aElementState
 const
-DocumentState
-&
-aDocumentState
-const
 Colors
 &
 aColors
@@ -2806,10 +2802,6 @@ ElementState
 &
 aElementState
 const
-DocumentState
-&
-aDocumentState
-const
 Colors
 &
 aColors
@@ -2827,7 +2819,6 @@ aScrollbarKind
 aFrame
 aStyle
 aElementState
-aDocumentState
 aColors
 aDpiRatio
 )
@@ -2863,10 +2854,6 @@ ElementState
 &
 aElementState
 const
-DocumentState
-&
-aDocumentState
-const
 Colors
 &
 aColors
@@ -2884,7 +2871,6 @@ aScrollbarKind
 aFrame
 aStyle
 aElementState
-aDocumentState
 aColors
 aDpiRatio
 )
@@ -2924,10 +2910,6 @@ const
 ElementState
 &
 aElementState
-const
-DocumentState
-&
-aDocumentState
 const
 Colors
 &
@@ -2996,7 +2978,6 @@ ComputeScrollbarTrackColor
 (
 aFrame
 aStyle
-aDocumentState
 aColors
 )
 ;
@@ -3088,10 +3069,6 @@ ElementState
 &
 aElementState
 const
-DocumentState
-&
-aDocumentState
-const
 Colors
 &
 aColors
@@ -3109,7 +3086,6 @@ aScrollbarKind
 aFrame
 aStyle
 aElementState
-aDocumentState
 aColors
 aDpiRatio
 )
@@ -3145,10 +3121,6 @@ ElementState
 &
 aElementState
 const
-DocumentState
-&
-aDocumentState
-const
 Colors
 &
 aColors
@@ -3166,7 +3138,6 @@ aScrollbarKind
 aFrame
 aStyle
 aElementState
-aDocumentState
 aColors
 aDpiRatio
 )
@@ -3202,10 +3173,6 @@ const
 ComputedStyle
 &
 aStyle
-const
-DocumentState
-&
-aDocumentState
 const
 Colors
 &
@@ -3299,10 +3266,6 @@ ComputedStyle
 &
 aStyle
 const
-DocumentState
-&
-aDocumentState
-const
 Colors
 &
 aColors
@@ -3319,7 +3282,6 @@ aRect
 aScrollbarKind
 aFrame
 aStyle
-aDocumentState
 aColors
 aDpiRatio
 )
@@ -3351,10 +3313,6 @@ ComputedStyle
 &
 aStyle
 const
-DocumentState
-&
-aDocumentState
-const
 Colors
 &
 aColors
@@ -3371,7 +3329,6 @@ aRect
 aScrollbarKind
 aFrame
 aStyle
-aDocumentState
 aColors
 aDpiRatio
 )

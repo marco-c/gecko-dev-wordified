@@ -220,9 +220,6 @@ const
 ElementState
 &
 const
-DocumentState
-&
-const
 Colors
 &
 const
@@ -246,9 +243,6 @@ ComputedStyle
 &
 const
 ElementState
-&
-const
-DocumentState
 &
 const
 Colors
@@ -275,9 +269,6 @@ ComputedStyle
 &
 const
 ElementState
-&
-const
-DocumentState
 &
 const
 Colors
@@ -311,9 +302,6 @@ const
 ElementState
 &
 const
-DocumentState
-&
-const
 Colors
 &
 const
@@ -337,9 +325,6 @@ ComputedStyle
 &
 const
 ElementState
-&
-const
-DocumentState
 &
 const
 Colors
@@ -366,9 +351,6 @@ ComputedStyle
 &
 const
 ElementState
-&
-const
-DocumentState
 &
 const
 Colors
@@ -399,9 +381,6 @@ const
 ComputedStyle
 &
 const
-DocumentState
-&
-const
 Colors
 &
 const
@@ -422,9 +401,6 @@ nsIFrame
 *
 const
 ComputedStyle
-&
-const
-DocumentState
 &
 const
 Colors
@@ -448,9 +424,6 @@ nsIFrame
 *
 const
 ComputedStyle
-&
-const
-DocumentState
 &
 const
 Colors

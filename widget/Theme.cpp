@@ -7785,22 +7785,6 @@ twipsPerPixel
 aPaintData
 )
 ;
-const
-DocumentState
-docState
-=
-pc
--
->
-Document
-(
-)
--
->
-State
-(
-)
-;
 ElementState
 elementState
 =
@@ -8441,7 +8425,6 @@ StyleForScrollbar
 aFrame
 )
 elementState
-docState
 colors
 dpiRatio
 )
@@ -8500,7 +8483,6 @@ StyleForScrollbar
 aFrame
 )
 elementState
-docState
 colors
 dpiRatio
 )
@@ -8540,7 +8522,6 @@ StyleForScrollbar
 (
 aFrame
 )
-docState
 colors
 dpiRatio
 )
@@ -8683,7 +8664,6 @@ StyleForScrollbar
 aFrame
 )
 elementState
-docState
 colors
 dpiRatio
 )

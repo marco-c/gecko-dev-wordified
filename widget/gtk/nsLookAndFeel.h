@@ -863,11 +863,6 @@ mThemedScrollbar
 kWhite
 ;
 nscolor
-mThemedScrollbarInactive
-=
-kWhite
-;
-nscolor
 mThemedScrollbarThumb
 =
 kBlack
@@ -879,11 +874,6 @@ kBlack
 ;
 nscolor
 mThemedScrollbarThumbActive
-=
-kBlack
-;
-nscolor
-mThemedScrollbarThumbInactive
 =
 kBlack
 ;

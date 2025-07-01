@@ -222,11 +222,6 @@ ComputedStyle
 const
 ElementState
 &
-aElementState
-const
-DocumentState
-&
-aDocumentState
 const
 Colors
 &
@@ -252,11 +247,6 @@ ComputedStyle
 const
 ElementState
 &
-aElementState
-const
-DocumentState
-&
-aDocumentState
 const
 Colors
 &
@@ -283,11 +273,6 @@ ComputedStyle
 const
 ElementState
 &
-aElementState
-const
-DocumentState
-&
-aDocumentState
 const
 Colors
 &
