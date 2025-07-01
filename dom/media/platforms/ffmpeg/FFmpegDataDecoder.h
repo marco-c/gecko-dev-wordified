@@ -296,6 +296,9 @@ AVCodecID
 aCodec
 )
 ;
+#
+ifdef
+MOZ_USE_HWDECODE
 static
 AVCodec
 *
@@ -308,6 +311,8 @@ AVCodecID
 aCodec
 )
 ;
+#
+endif
 protected
 :
 /
