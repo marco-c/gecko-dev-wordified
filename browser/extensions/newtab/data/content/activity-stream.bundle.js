@@ -106780,7 +106780,11 @@ FEATURE_HIGHLIGHT
 "
 value
 :
+{
+feature
+:
 DownloadMobilePromoHighlight_FEATURE_ID
+}
 }
 )
 )
@@ -106870,7 +106874,11 @@ FEATURE_HIGHLIGHT
 "
 value
 :
+{
+feature
+:
 DownloadMobilePromoHighlight_FEATURE_ID
+}
 }
 )
 )
@@ -110971,9 +110979,13 @@ FEATURE_HIGHLIGHT
 "
 value
 :
+{
+feature
+:
 "
 FEATURE_DOWNLOAD_MOBILE_PROMO
 "
+}
 }
 )
 )
