@@ -494,17 +494,6 @@ dummy
 )
 ;
 async
-TextureAction
-(
-RawId
-selfId
-RawId
-aDeviceId
-ByteBuf
-buf
-)
-;
-async
 CommandEncoderAction
 (
 RawId
