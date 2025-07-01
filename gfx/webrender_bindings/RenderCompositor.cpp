@@ -579,6 +579,8 @@ DeviceIntSize
 aSize
 bool
 aIsOpaque
+bool
+aNeedsSyncDcompCommit
 )
 {
 RenderCompositor
@@ -602,6 +604,7 @@ CreateSwapChainSurface
 aId
 aSize
 aIsOpaque
+aNeedsSyncDcompCommit
 )
 ;
 }
