@@ -4202,7 +4202,7 @@ reg
 )
 ;
 }
-void
+BufferOffset
 ret
 (
 )
@@ -4212,6 +4212,7 @@ ma_pop
 ra
 )
 ;
+return
 jalr
 (
 zero_reg

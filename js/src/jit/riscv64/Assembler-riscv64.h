@@ -2569,7 +2569,7 @@ nop
 }
 }
 virtual
-void
+BufferOffset
 emit
 (
 Instr
@@ -2583,6 +2583,9 @@ hasCreator
 )
 )
 ;
+BufferOffset
+offset
+=
 m_buffer
 .
 putInt
@@ -2656,9 +2659,12 @@ JitSpew_Codegen
 }
 #
 endif
+return
+offset
+;
 }
 virtual
-void
+BufferOffset
 emit
 (
 ShortInstr
@@ -2671,7 +2677,7 @@ MOZ_CRASH
 ;
 }
 virtual
-void
+BufferOffset
 emit
 (
 uint64_t
@@ -2684,7 +2690,7 @@ MOZ_CRASH
 ;
 }
 virtual
-void
+BufferOffset
 emit
 (
 uint32_t
@@ -2743,6 +2749,7 @@ Instr
 x
 )
 ;
+return
 m_buffer
 .
 putInt
