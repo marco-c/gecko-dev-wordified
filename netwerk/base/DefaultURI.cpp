@@ -94,6 +94,15 @@ h
 #
 include
 "
+urlpattern_glue
+/
+URLPatternGlue
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ipc
