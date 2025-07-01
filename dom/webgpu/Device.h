@@ -547,12 +547,6 @@ IsLost
 )
 const
 ;
-bool
-IsBridgeAlive
-(
-)
-const
-;
 RawId
 GetId
 (
