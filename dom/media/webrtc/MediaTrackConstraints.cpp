@@ -2176,6 +2176,10 @@ NormalizedConstraints
 &
 aConstraints
 const
+MediaEnginePrefs
+&
+aPrefs
+const
 nsTArray
 <
 RefPtr
@@ -2231,6 +2235,7 @@ device
 GetBestFitnessDistance
 (
 sets
+aPrefs
 CallerType
 :
 :
@@ -2406,6 +2411,10 @@ const
 NormalizedConstraints
 &
 aConstraints
+const
+MediaEnginePrefs
+&
+aPrefs
 nsTArray
 <
 RefPtr
@@ -2555,6 +2564,7 @@ i
 GetBestFitnessDistance
 (
 aggregateConstraints
+aPrefs
 aCallerType
 )
 ;
@@ -2628,6 +2638,7 @@ return
 FindBadConstraint
 (
 c
+aPrefs
 unsatisfactory
 )
 ;
@@ -2732,6 +2743,7 @@ j
 GetBestFitnessDistance
 (
 aggregateConstraints
+aPrefs
 aCallerType
 )
 ;
@@ -2827,6 +2839,10 @@ NormalizedConstraints
 &
 aConstraints
 const
+MediaEnginePrefs
+&
+aPrefs
+const
 nsTArray
 <
 RefPtr
@@ -2904,6 +2920,7 @@ NormalizedConstraints
 (
 empty
 )
+aPrefs
 aDevices
 )
 )
@@ -2934,6 +2951,7 @@ if
 SomeSettingsFit
 (
 fresh
+aPrefs
 aDevices
 )
 )
@@ -2966,6 +2984,7 @@ if
 SomeSettingsFit
 (
 fresh
+aPrefs
 aDevices
 )
 )
@@ -2998,6 +3017,7 @@ if
 SomeSettingsFit
 (
 fresh
+aPrefs
 aDevices
 )
 )
@@ -3030,6 +3050,7 @@ if
 SomeSettingsFit
 (
 fresh
+aPrefs
 aDevices
 )
 )
@@ -3062,6 +3083,7 @@ if
 SomeSettingsFit
 (
 fresh
+aPrefs
 aDevices
 )
 )
@@ -3094,6 +3116,7 @@ if
 SomeSettingsFit
 (
 fresh
+aPrefs
 aDevices
 )
 )
@@ -3127,6 +3150,10 @@ const
 NormalizedConstraints
 &
 aConstraints
+const
+MediaEnginePrefs
+&
+aPrefs
 const
 MediaDevice
 *
@@ -3205,6 +3232,7 @@ return
 FindBadConstraint
 (
 c
+aPrefs
 devices
 )
 ;

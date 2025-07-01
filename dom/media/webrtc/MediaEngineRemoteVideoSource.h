@@ -799,6 +799,10 @@ NormalizedConstraintSet
 >
 &
 aConstraintSets
+const
+MediaEnginePrefs
+&
+aPrefs
 )
 const
 override

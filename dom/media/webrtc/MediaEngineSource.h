@@ -1128,6 +1128,10 @@ NormalizedConstraintSet
 >
 &
 aConstraintSets
+const
+MediaEnginePrefs
+&
+aPrefs
 )
 const
 =
@@ -1529,6 +1533,10 @@ NormalizedConstraintSet
 >
 &
 aConstraintSets
+const
+MediaEnginePrefs
+&
+aPrefs
 )
 const
 override

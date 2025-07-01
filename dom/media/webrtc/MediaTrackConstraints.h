@@ -132,6 +132,9 @@ LocalMediaDevice
 class
 MediaDevice
 ;
+class
+MediaEnginePrefs
+;
 /
 /
 Helper
@@ -2128,6 +2131,10 @@ NormalizedConstraints
 &
 aConstraints
 const
+MediaEnginePrefs
+&
+aPrefs
+const
 nsTArray
 <
 RefPtr
@@ -2188,6 +2195,10 @@ const
 NormalizedConstraints
 &
 aConstraints
+const
+MediaEnginePrefs
+&
+aPrefs
 nsTArray
 <
 RefPtr
@@ -2215,6 +2226,10 @@ NormalizedConstraints
 &
 aConstraints
 const
+MediaEnginePrefs
+&
+aPrefs
+const
 nsTArray
 <
 RefPtr
@@ -2236,6 +2251,10 @@ const
 NormalizedConstraints
 &
 aConstraints
+const
+MediaEnginePrefs
+&
+aPrefs
 const
 MediaDevice
 *
