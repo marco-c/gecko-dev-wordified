@@ -168,6 +168,11 @@ TestContentAnalysisMisbehaving
 cpp
 "
 "
+TestContentAnalysisTelemetry
+.
+cpp
+"
+"
 TestContentAnalysisUtils
 .
 cpp
