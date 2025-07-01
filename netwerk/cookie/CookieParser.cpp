@@ -3942,7 +3942,7 @@ expiry
 CookieCommons
 :
 :
-MaybeReduceExpiry
+MaybeCapExpiry
 (
 aCurrentTime
 expires

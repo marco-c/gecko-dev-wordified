@@ -6435,7 +6435,7 @@ int64_t
 CookieCommons
 :
 :
-MaybeReduceExpiry
+MaybeCapExpiry
 (
 int64_t
 aCurrentTimeInMSec

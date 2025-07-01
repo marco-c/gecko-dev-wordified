@@ -328,7 +328,7 @@ return
 CookieCommons
 :
 :
-MaybeReduceExpiry
+MaybeCapExpiry
 (
 PR_Now
 (
