@@ -1045,13 +1045,6 @@ Add
 this
 )
 ;
-window
--
->
-NotifyCloseWatcherAdded
-(
-)
-;
 }
 }
 void
@@ -1085,13 +1078,6 @@ Remove
 (
 *
 this
-)
-;
-window
--
->
-NotifyCloseWatcherRemoved
-(
 )
 ;
 }
