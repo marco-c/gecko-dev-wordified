@@ -583,12 +583,14 @@ LoginHelper
 .
 getOSAuthEnabled
 (
+PASSWORDS_OS_REAUTH_PREF
 )
 ;
 LoginHelper
 .
 setOSAuthEnabled
 (
+PASSWORDS_OS_REAUTH_PREF
 false
 )
 ;
