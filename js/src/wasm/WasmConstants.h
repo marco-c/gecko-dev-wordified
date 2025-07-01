@@ -5082,7 +5082,7 @@ const
 unsigned
 MaxBrTableElems
 =
-1000000
+65520
 ;
 static
 const
