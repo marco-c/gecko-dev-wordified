@@ -61,6 +61,8 @@ from
 pathlib
 import
 Path
+import
+buildconfig
 from
 mozpack
 import
@@ -233,6 +235,17 @@ args
     
 dmg_tool
 =
+buildconfig
+.
+substs
+.
+get
+(
+"
+DMG_TOOL
+"
+)
+or
 bootstrap_toolchain
 (
 "
@@ -244,6 +257,17 @@ dmg
     
 hfs_tool
 =
+buildconfig
+.
+substs
+.
+get
+(
+"
+HFS_TOOL
+"
+)
+or
 bootstrap_toolchain
 (
 "
