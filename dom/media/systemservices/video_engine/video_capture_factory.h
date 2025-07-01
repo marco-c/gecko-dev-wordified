@@ -591,6 +591,10 @@ HasCameraDevice
 (
 )
 ;
+const
+bool
+mUseFakeCamera
+;
 std
 :
 :
