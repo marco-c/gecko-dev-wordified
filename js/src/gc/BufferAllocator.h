@@ -3420,7 +3420,7 @@ inGC
 ;
 void
 *
-bumpAllocOrRetry
+retryBumpAlloc
 (
 size_t
 requestedBytes
