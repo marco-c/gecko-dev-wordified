@@ -2039,6 +2039,14 @@ webrtc
 :
 DegradationPreference
 mConfiguredDegradationPreference
+=
+webrtc
+:
+:
+DegradationPreference
+:
+:
+DISABLED
 ;
 /
 /
