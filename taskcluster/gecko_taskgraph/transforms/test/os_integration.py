@@ -78,6 +78,23 @@ tasks
 :
     
 if
+(
+        
+config
+.
+params
+[
+"
+tasks_for
+"
+]
+!
+=
+"
+cron
+"
+        
+or
 config
 .
 params
@@ -93,6 +110,8 @@ os
 -
 integration
 "
+    
+)
 :
         
 yield
