@@ -374,6 +374,16 @@ aPersisted
 /
 false
 }
+ClientUsageArray
+(
+)
+/
+*
+aUsage
+*
+/
+0
+kCurrentQuotaVersion
 }
 ;
 }

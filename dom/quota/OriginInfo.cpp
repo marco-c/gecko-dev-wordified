@@ -578,6 +578,9 @@ FlattenToOriginMetadata
 LockedFlattenToOriginStateMetadata
 (
 )
+mClientUsages
+mUsage
+kCurrentQuotaVersion
 }
 ;
 }
