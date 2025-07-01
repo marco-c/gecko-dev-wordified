@@ -1720,7 +1720,7 @@ tenuredChunk
 ArenaChunk
 :
 :
-emplace
+init
 (
 nurseryChunk
 gc
@@ -15077,7 +15077,7 @@ toSpaceChunk
 gc
 -
 >
-takeOrAllocChunk
+getOrAllocChunk
 (
 StallAndRetry
 :
@@ -15114,7 +15114,7 @@ fromSpaceChunk
 gc
 -
 >
-takeOrAllocChunk
+getOrAllocChunk
 (
 StallAndRetry
 :

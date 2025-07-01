@@ -3744,7 +3744,7 @@ stallAndRetry
 static
 ArenaChunk
 *
-emplace
+init
 (
 void
 *
