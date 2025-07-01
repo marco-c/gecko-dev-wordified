@@ -24096,7 +24096,7 @@ pref
 if
 defined
 (
-NIGHTLY_BUILD
+NIGHTLY_BUIILD
 )
 pref
 (
