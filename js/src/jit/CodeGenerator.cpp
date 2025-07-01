@@ -121482,8 +121482,8 @@ MOZ_ASSERT
 isValid
 )
 ;
-RecompileInfo
-recompileInfo
+IonScriptKey
+ionScriptKey
 (
 script
 compilationId
@@ -121652,7 +121652,7 @@ jitZone
 >
 addInlinedCompilation
 (
-recompileInfo
+ionScriptKey
 inlinedScript
 )
 )

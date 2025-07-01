@@ -789,7 +789,7 @@ h
 /
 /
 for
-RecompileInfoVector
+IonScriptKeyVector
 #
 include
 "
@@ -23532,7 +23532,7 @@ script
 jit
 :
 :
-RecompileInfoVector
+IonScriptKeyVector
 &
 invalid
 Vector
@@ -23703,7 +23703,7 @@ scripts
 later
 .
 {
-RecompileInfoVector
+IonScriptKeyVector
 invalid
 ;
 if
