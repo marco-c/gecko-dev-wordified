@@ -1485,6 +1485,16 @@ user
 of
 this
 source
+/
+/
+and
+the
+distance
+calculation
+used
+when
+applying
+them
 .
 /
 /
@@ -1508,6 +1518,9 @@ webrtc
 :
 CaptureCapability
 mCapability
+;
+DistanceCalculation
+mCalculation
 ;
 /
 *
