@@ -2095,7 +2095,6 @@ dense
 DFAs
 must
 be
-be
 aligned
 to
 the
@@ -3561,6 +3560,7 @@ automaton
 {
 Automaton
 OverlappingState
+StartError
 }
 start
 :

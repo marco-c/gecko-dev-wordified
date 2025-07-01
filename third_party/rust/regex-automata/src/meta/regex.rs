@@ -21408,7 +21408,6 @@ of
 running
 faster
 than
-than
 a
 character
 -
@@ -25355,7 +25354,6 @@ is
 explicitly
 separated
 from
-the
 the
 core
 regex
@@ -29946,7 +29944,7 @@ of
 /
 /
 them
-excceed
+exceed
 the
 limit
 then
@@ -39692,14 +39690,17 @@ rebar
 test
 ]
 fn
-regression
+regression_suffix_literal_count
 (
 )
 {
+let
+_
+=
 env_logger
 :
 :
-init
+try_init
 (
 )
 ;
