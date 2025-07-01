@@ -904,12 +904,6 @@ case
 ColorID
 :
 :
-ThemedScrollbarThumbInactive
-:
-case
-ColorID
-:
-:
 ThemedScrollbarThumb
 :
 /
