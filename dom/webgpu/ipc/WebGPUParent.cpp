@@ -1315,6 +1315,11 @@ mAwaitingGetError
 =
 false
 ;
+RawId
+mDeviceId
+=
+0
+;
 public
 :
 ErrorBuffer
@@ -1373,6 +1378,8 @@ errorBuf
 mType
 mMessageUtf8
 BUFFER_SIZE
+&
+mDeviceId
 }
 ;
 return
@@ -1515,6 +1522,9 @@ isDeviceLost
 ;
 nsCString
 message
+;
+RawId
+deviceId
 ;
 }
 ;
@@ -1670,6 +1680,7 @@ nsCString
 {
 mMessageUtf8
 }
+mDeviceId
 }
 )
 ;
@@ -1705,6 +1716,7 @@ nsCString
 {
 mMessageUtf8
 }
+mDeviceId
 }
 )
 ;
@@ -2173,12 +2185,6 @@ WebGPUParent
 :
 ForwardError
 (
-const
-Maybe
-<
-RawId
->
-aDeviceId
 ErrorBuffer
 &
 aError
@@ -2279,17 +2285,18 @@ isDeviceLost
 {
 if
 (
-aDeviceId
-.
-isSome
-(
-)
+error
+-
+>
+deviceId
 )
 {
 LoseDevice
 (
-*
-aDeviceId
+error
+-
+>
+deviceId
 Nothing
 (
 )
@@ -2305,7 +2312,10 @@ else
 {
 ReportError
 (
-aDeviceId
+error
+-
+>
+deviceId
 error
 -
 >
@@ -2353,11 +2363,7 @@ WebGPUParent
 :
 ReportError
 (
-const
-Maybe
-<
 RawId
->
 aDeviceId
 const
 GPUErrorFilter
@@ -2389,7 +2395,6 @@ mErrorScopeStackByDevice
 .
 find
 (
-*
 aDeviceId
 )
 ;
@@ -2683,7 +2688,6 @@ infoByteBuf
 ;
 ForwardError
 (
-0
 error
 )
 ;
@@ -3009,7 +3013,6 @@ if
 (
 ForwardError
 (
-0
 error
 )
 )
@@ -3525,7 +3528,6 @@ ToFFI
 ;
 ForwardError
 (
-aDeviceId
 error
 )
 ;
@@ -3978,6 +3980,10 @@ req
 -
 >
 mContext
+mapData
+-
+>
+mDeviceId
 req
 -
 >
@@ -4373,6 +4379,7 @@ mContext
 get
 (
 )
+aDeviceId
 aBufferId
 aOffset
 aSize
@@ -4387,7 +4394,6 @@ ToFFI
 ;
 ForwardError
 (
-aDeviceId
 mapError
 )
 ;
@@ -4490,6 +4496,7 @@ mContext
 get
 (
 )
+aDeviceId
 aBufferId
 offset
 size
@@ -4502,7 +4509,6 @@ ToFFI
 ;
 ForwardError
 (
-aDeviceId
 getRangeError
 )
 ;
@@ -4617,6 +4623,7 @@ mContext
 get
 (
 )
+aDeviceId
 aBufferId
 unmapError
 .
@@ -4627,7 +4634,6 @@ ToFFI
 ;
 ForwardError
 (
-aDeviceId
 unmapError
 )
 ;
@@ -4862,6 +4868,7 @@ mContext
 get
 (
 )
+aDeviceId
 aQueueId
 aCommandBuffers
 .
@@ -5018,7 +5025,6 @@ textureId
 }
 ForwardError
 (
-aDeviceId
 error
 )
 ;
@@ -5233,6 +5239,7 @@ mContext
 get
 (
 )
+aDeviceId
 aQueueId
 aBufferId
 offset
@@ -5250,7 +5257,6 @@ ToFFI
 ;
 ForwardError
 (
-aDeviceId
 error
 )
 ;
@@ -5339,6 +5345,7 @@ mContext
 get
 (
 )
+aDeviceId
 aQueueId
 ToFFI
 (
@@ -5367,7 +5374,6 @@ ToFFI
 ;
 ForwardError
 (
-aDeviceId
 error
 )
 ;
@@ -5769,7 +5775,6 @@ ToFFI
 ;
 ForwardError
 (
-aDeviceId
 error
 )
 ;
@@ -6328,6 +6333,10 @@ req
 -
 >
 mContext
+data
+-
+>
+mDeviceId
 bufferId
 0
 bufferSize
@@ -6366,10 +6375,6 @@ mParent
 >
 ForwardError
 (
-data
--
->
-mDeviceId
 getRangeError
 )
 ;
@@ -6628,6 +6633,10 @@ req
 -
 >
 mContext
+data
+-
+>
+mDeviceId
 bufferId
 unmapError
 .
@@ -6664,10 +6673,6 @@ mParent
 >
 ForwardError
 (
-data
--
->
-mDeviceId
 unmapError
 )
 ;
@@ -6986,6 +6991,10 @@ req
 -
 >
 mContext
+data
+-
+>
+mDeviceId
 req
 -
 >
@@ -7027,10 +7036,6 @@ mParent
 >
 ForwardError
 (
-data
--
->
-mDeviceId
 getRangeError
 )
 ;
@@ -7208,6 +7213,10 @@ req
 -
 >
 mContext
+data
+-
+>
+mDeviceId
 req
 -
 >
@@ -7247,10 +7256,6 @@ mParent
 >
 ForwardError
 (
-data
--
->
-mDeviceId
 unmapError
 )
 ;
@@ -7799,10 +7804,6 @@ if
 (
 ForwardError
 (
-data
--
->
-mDeviceId
 error
 )
 )
@@ -7923,10 +7924,6 @@ if
 (
 ForwardError
 (
-data
--
->
-mDeviceId
 error
 )
 )
@@ -8034,6 +8031,10 @@ mContext
 get
 (
 )
+data
+-
+>
+mDeviceId
 aCommandEncoderId
 &
 texView
@@ -8053,10 +8054,6 @@ if
 (
 ForwardError
 (
-data
--
->
-mDeviceId
 error
 )
 )
@@ -8091,6 +8088,10 @@ mContext
 get
 (
 )
+data
+-
+>
+mDeviceId
 aCommandEncoderId
 &
 commandDesc
@@ -8105,10 +8106,6 @@ if
 (
 ForwardError
 (
-data
--
->
-mDeviceId
 error
 )
 )
@@ -8150,6 +8147,10 @@ get
 data
 -
 >
+mDeviceId
+data
+-
+>
 mQueueId
 &
 aCommandEncoderId
@@ -8178,10 +8179,6 @@ if
 (
 ForwardError
 (
-data
--
->
-mDeviceId
 error
 )
 )
@@ -8247,6 +8244,10 @@ mContext
 get
 (
 )
+data
+-
+>
+mDeviceId
 bufferId
 0
 bufferSize
@@ -8266,10 +8267,6 @@ if
 (
 ForwardError
 (
-data
--
->
-mDeviceId
 error
 )
 )
@@ -8985,10 +8982,6 @@ if
 (
 ForwardError
 (
-data
--
->
-mDeviceId
 error
 )
 )
@@ -9133,10 +9126,6 @@ if
 (
 ForwardError
 (
-data
--
->
-mDeviceId
 error
 )
 )
@@ -9219,6 +9208,10 @@ mContext
 get
 (
 )
+data
+-
+>
+mDeviceId
 aCommandEncoderId
 &
 texView
@@ -9238,10 +9231,6 @@ if
 (
 ForwardError
 (
-data
--
->
-mDeviceId
 error
 )
 )
@@ -9276,6 +9265,10 @@ mContext
 get
 (
 )
+data
+-
+>
+mDeviceId
 aCommandEncoderId
 &
 commandDesc
@@ -9290,10 +9283,6 @@ if
 (
 ForwardError
 (
-data
--
->
-mDeviceId
 error
 )
 )
@@ -9335,6 +9324,10 @@ get
 data
 -
 >
+mDeviceId
+data
+-
+>
 mQueueId
 &
 aCommandEncoderId
@@ -9363,10 +9356,6 @@ if
 (
 ForwardError
 (
-data
--
->
-mDeviceId
 error
 )
 )
@@ -9543,6 +9532,10 @@ mContext
 get
 (
 )
+data
+-
+>
+mDeviceId
 bufferId
 0
 bufferSize
@@ -9562,10 +9555,6 @@ if
 (
 ForwardError
 (
-data
--
->
-mDeviceId
 error
 )
 )
@@ -9933,7 +9922,6 @@ ToFFI
 ;
 ForwardError
 (
-0
 error
 )
 ;
@@ -9995,7 +9983,6 @@ ToFFI
 ;
 ForwardError
 (
-aDeviceId
 error
 )
 ;
@@ -10045,6 +10032,7 @@ mContext
 get
 (
 )
+aDeviceId
 aEncoderId
 ToFFI
 (
@@ -10060,7 +10048,6 @@ ToFFI
 ;
 ForwardError
 (
-aDeviceId
 error
 )
 ;
@@ -10105,6 +10092,7 @@ mContext
 get
 (
 )
+aDeviceId
 aEncoderId
 ToFFI
 (
@@ -10120,7 +10108,6 @@ ToFFI
 ;
 ForwardError
 (
-aDeviceId
 error
 )
 ;
@@ -10262,10 +10249,7 @@ MAX_ERROR_SCOPE_STACK_SIZE
 ;
 ReportError
 (
-Some
-(
 aDeviceId
-)
 dom
 :
 :

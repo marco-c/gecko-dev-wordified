@@ -584,10 +584,7 @@ ipc
 IPCResult
 RecvUncapturedError
 (
-Maybe
-<
 RawId
->
 aDeviceId
 const
 nsACString

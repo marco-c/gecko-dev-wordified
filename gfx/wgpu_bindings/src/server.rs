@@ -1747,7 +1747,7 @@ true
 }
 error_buf
 .
-init
+init_without_device_id
 (
 ErrMsg
 {
@@ -1813,7 +1813,7 @@ e
 {
 error_buf
 .
-init
+init_without_device_id
 (
 e
 )
@@ -3816,7 +3816,7 @@ None
 {
 error_buf
 .
-init
+init_without_device_id
 (
 ErrMsg
 {
@@ -3890,7 +3890,7 @@ res
 {
 error_buf
 .
-init
+init_without_device_id
 (
 err
 )
@@ -3931,7 +3931,7 @@ res
 {
 error_buf
 .
-init
+init_without_device_id
 (
 err
 )
@@ -4643,7 +4643,7 @@ global
 :
 &
 Global
-self_id
+device_id
 :
 id
 :
@@ -4794,7 +4794,7 @@ global
 .
 device_create_shader_module
 (
-self_id
+device_id
 &
 desc
 source
@@ -5025,6 +5025,7 @@ type
 :
 err_type
 }
+device_id
 )
 ;
 return
@@ -5069,7 +5070,7 @@ global
 :
 &
 Global
-self_id
+device_id
 :
 id
 :
@@ -5235,6 +5236,7 @@ ErrorBufferType
 :
 OutOfMemory
 }
+device_id
 )
 ;
 global
@@ -5262,7 +5264,7 @@ global
 .
 device_create_buffer
 (
-self_id
+device_id
 &
 desc
 Some
@@ -5285,6 +5287,7 @@ error_buf
 init
 (
 err
+device_id
 )
 ;
 }
@@ -5556,6 +5559,12 @@ global
 :
 &
 Global
+device_id
+:
+id
+:
+:
+DeviceId
 buffer_id
 :
 id
@@ -5901,6 +5910,7 @@ error_buf
 init
 (
 error
+device_id
 )
 ;
 }
@@ -5977,6 +5987,12 @@ global
 :
 &
 Global
+device_id
+:
+id
+:
+:
+DeviceId
 buffer_id
 :
 id
@@ -6056,6 +6072,7 @@ error_buf
 init
 (
 error
+device_id
 )
 ;
 (
@@ -6095,6 +6112,12 @@ global
 :
 &
 Global
+device_id
+:
+id
+:
+:
+DeviceId
 buffer_id
 :
 id
@@ -6210,6 +6233,7 @@ error_buf
 init
 (
 other
+device_id
 )
 }
 }
@@ -12136,7 +12160,7 @@ device_action
 (
 &
 self
-self_id
+device_id
 :
 id
 :
@@ -12239,6 +12263,7 @@ ErrorBufferType
 :
 OutOfMemory
 }
+device_id
 )
 ;
 return
@@ -12303,6 +12328,7 @@ ErrorBufferType
 :
 Validation
 }
+device_id
 )
 ;
 return
@@ -12346,7 +12372,7 @@ self
 .
 device_limits
 (
-self_id
+device_id
 )
 ;
 if
@@ -12407,6 +12433,7 @@ ErrorBufferType
 :
 Validation
 }
+device_id
 )
 ;
 return
@@ -12419,7 +12446,7 @@ self
 .
 device_features
 (
-self_id
+device_id
 )
 ;
 if
@@ -12505,6 +12532,7 @@ ErrorBufferType
 :
 Validation
 }
+device_id
 )
 ;
 return
@@ -12529,7 +12557,7 @@ self
 .
 create_texture_with_external_texture_d3d11
 (
-self_id
+device_id
 id
 &
 desc
@@ -12562,7 +12590,7 @@ self
 .
 create_texture_with_external_texture_dmabuf
 (
-self_id
+device_id
 id
 &
 desc
@@ -12595,7 +12623,7 @@ self
 .
 create_texture_with_external_texture_iosurface
 (
-self_id
+device_id
 id
 &
 desc
@@ -12642,7 +12670,7 @@ self
 .
 webgpu_parent
 swap_chain_id
-self_id
+device_id
 id
 desc
 .
@@ -12674,7 +12702,7 @@ self
 .
 device_create_texture
 (
-self_id
+device_id
 &
 desc
 Some
@@ -12697,6 +12725,7 @@ error_buf
 init
 (
 err
+device_id
 )
 ;
 }
@@ -12722,7 +12751,7 @@ self
 .
 device_create_sampler
 (
-self_id
+device_id
 &
 desc
 Some
@@ -12745,6 +12774,7 @@ error_buf
 init
 (
 err
+device_id
 )
 ;
 }
@@ -12770,7 +12800,7 @@ self
 .
 device_create_bind_group_layout
 (
-self_id
+device_id
 &
 desc
 Some
@@ -12793,6 +12823,7 @@ error_buf
 init
 (
 err
+device_id
 )
 ;
 }
@@ -12841,6 +12872,7 @@ error_buf
 init
 (
 err
+device_id
 )
 ;
 }
@@ -12889,6 +12921,7 @@ error_buf
 init
 (
 err
+device_id
 )
 ;
 }
@@ -12914,7 +12947,7 @@ self
 .
 device_create_pipeline_layout
 (
-self_id
+device_id
 &
 desc
 Some
@@ -12937,6 +12970,7 @@ error_buf
 init
 (
 err
+device_id
 )
 ;
 }
@@ -12962,7 +12996,7 @@ self
 .
 device_create_bind_group
 (
-self_id
+device_id
 &
 desc
 Some
@@ -12985,6 +13019,7 @@ error_buf
 init
 (
 err
+device_id
 )
 ;
 }
@@ -13028,7 +13063,7 @@ self
 .
 device_create_shader_module
 (
-self_id
+device_id
 &
 desc
 source
@@ -13052,6 +13087,7 @@ error_buf
 init
 (
 err
+device_id
 )
 ;
 }
@@ -13114,7 +13150,7 @@ self
 .
 device_create_compute_pipeline
 (
-self_id
+device_id
 &
 desc
 Some
@@ -13138,6 +13174,7 @@ error_buf
 init
 (
 err
+device_id
 )
 ;
 }
@@ -13200,7 +13237,7 @@ self
 .
 device_create_render_pipeline
 (
-self_id
+device_id
 &
 desc
 Some
@@ -13224,6 +13261,7 @@ error_buf
 init
 (
 err
+device_id
 )
 ;
 }
@@ -13273,6 +13311,7 @@ error_buf
 init
 (
 err
+device_id
 )
 ;
 }
@@ -13328,7 +13367,7 @@ self
 .
 device_create_query_set
 (
-self_id
+device_id
 &
 desc
 Some
@@ -13351,6 +13390,7 @@ error_buf
 init
 (
 err
+device_id
 )
 ;
 }
@@ -13376,7 +13416,7 @@ self
 .
 device_create_command_encoder
 (
-self_id
+device_id
 &
 desc
 Some
@@ -13399,6 +13439,7 @@ error_buf
 init
 (
 err
+device_id
 )
 ;
 }
@@ -13430,6 +13471,7 @@ r
 #
 type
 }
+device_id
 )
 ;
 }
@@ -13440,6 +13482,12 @@ texture_action
 (
 &
 self
+device_id
+:
+id
+:
+:
+DeviceId
 self_id
 :
 id
@@ -13502,6 +13550,7 @@ error_buf
 init
 (
 err
+device_id
 )
 ;
 }
@@ -13513,6 +13562,12 @@ command_encoder_action
 (
 &
 self
+device_id
+:
+id
+:
+:
+DeviceId
 self_id
 :
 id
@@ -13569,6 +13624,7 @@ error_buf
 init
 (
 err
+device_id
 )
 ;
 }
@@ -13610,6 +13666,7 @@ error_buf
 init
 (
 err
+device_id
 )
 ;
 }
@@ -13651,6 +13708,7 @@ error_buf
 init
 (
 err
+device_id
 )
 ;
 }
@@ -13692,6 +13750,7 @@ error_buf
 init
 (
 err
+device_id
 )
 ;
 }
@@ -13750,6 +13809,7 @@ error_buf
 init
 (
 err
+device_id
 )
 ;
 }
@@ -13792,6 +13852,7 @@ error_buf
 init
 (
 err
+device_id
 )
 ;
 }
@@ -13863,6 +13924,7 @@ error_buf
 init
 (
 err
+device_id
 )
 ;
 }
@@ -13900,6 +13962,7 @@ error_buf
 init
 (
 err
+device_id
 )
 ;
 }
@@ -13935,6 +13998,7 @@ error_buf
 init
 (
 err
+device_id
 )
 ;
 }
@@ -13965,6 +14029,7 @@ error_buf
 init
 (
 err
+device_id
 )
 ;
 }
@@ -14000,6 +14065,7 @@ error_buf
 init
 (
 err
+device_id
 )
 ;
 }
@@ -14107,42 +14173,51 @@ Message
 :
 Texture
 (
+device_id
 id
 action
 )
 =
 >
+{
 global
 .
 texture_action
 (
+device_id
 id
 action
 error_buf
 )
+}
 Message
 :
 :
 CommandEncoder
 (
+device_id
 id
 action
 )
 =
 >
+{
 global
 .
 command_encoder_action
 (
+device_id
 id
 action
 error_buf
 )
+}
 Message
 :
 :
 CommandEncoderFinish
 (
+device_id
 id
 desc
 )
@@ -14178,6 +14253,7 @@ error_buf
 init
 (
 err
+device_id
 )
 ;
 }
@@ -14711,6 +14787,12 @@ global
 :
 &
 Global
+device_id
+:
+id
+:
+:
+DeviceId
 encoder_id
 :
 id
@@ -14753,6 +14835,12 @@ replay_render_pass
 (
 &
 self
+device_id
+:
+id
+:
+:
+DeviceId
 encoder_id
 :
 id
@@ -14779,6 +14867,12 @@ replay_render_pass
 (
 &
 self
+device_id
+:
+id
+:
+:
+DeviceId
 encoder_id
 :
 id
@@ -14803,6 +14897,7 @@ command
 replay_render_pass
 (
 self
+device_id
 encoder_id
 src_pass
 error_buf
@@ -14814,6 +14909,7 @@ global
 .
 replay_render_pass
 (
+device_id
 encoder_id
 &
 pass
@@ -14838,6 +14934,12 @@ global
 :
 &
 Global
+device_id
+:
+id
+:
+:
+DeviceId
 encoder_id
 :
 id
@@ -14880,6 +14982,12 @@ replay_compute_pass
 (
 &
 self
+device_id
+:
+id
+:
+:
+DeviceId
 encoder_id
 :
 id
@@ -14906,6 +15014,12 @@ replay_compute_pass
 (
 &
 self
+device_id
+:
+id
+:
+:
+DeviceId
 encoder_id
 :
 id
@@ -14930,6 +15044,7 @@ command
 replay_compute_pass
 (
 self
+device_id
 encoder_id
 src_pass
 error_buf
@@ -14941,6 +15056,7 @@ global
 .
 replay_compute_pass
 (
+device_id
 encoder_id
 &
 src_pass
@@ -14964,7 +15080,7 @@ global
 :
 &
 Global
-self_id
+device_id
 :
 id
 :
@@ -15066,7 +15182,7 @@ global
 .
 device_create_command_encoder
 (
-self_id
+device_id
 &
 desc
 Some
@@ -15089,6 +15205,7 @@ error_buf
 init
 (
 err
+device_id
 )
 ;
 }
@@ -15109,6 +15226,12 @@ global
 :
 &
 Global
+device_id
+:
+id
+:
+:
+DeviceId
 self_id
 :
 id
@@ -15187,6 +15310,7 @@ error_buf
 init
 (
 err
+device_id
 )
 ;
 }
@@ -15208,6 +15332,12 @@ global
 :
 &
 Global
+device_id
+:
+id
+:
+:
+DeviceId
 self_id
 :
 id
@@ -15299,6 +15429,7 @@ error_buf
 init
 (
 err
+device_id
 )
 ;
 }
@@ -15353,6 +15484,12 @@ global
 :
 &
 Global
+device_id
+:
+id
+:
+:
+DeviceId
 self_id
 :
 id
@@ -15420,6 +15557,7 @@ error_buf
 init
 (
 err
+device_id
 )
 ;
 return
@@ -16345,6 +16483,12 @@ global
 :
 &
 Global
+device_id
+:
+id
+:
+:
+DeviceId
 self_id
 :
 id
@@ -16401,6 +16545,7 @@ error_buf
 init
 (
 err
+device_id
 )
 ;
 }
@@ -16455,6 +16600,12 @@ global
 :
 &
 Global
+device_id
+:
+id
+:
+:
+DeviceId
 self_id
 :
 id
@@ -16669,6 +16820,7 @@ error_buf
 init
 (
 err
+device_id
 )
 ;
 }
