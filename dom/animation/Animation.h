@@ -969,6 +969,15 @@ ErrorResult
 aRv
 )
 ;
+Nullable
+<
+double
+>
+GetOverallProgress
+(
+)
+const
+;
 double
 PlaybackRate
 (
