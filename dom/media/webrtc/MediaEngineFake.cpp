@@ -607,9 +607,14 @@ protected
 MediaEngineFakeVideoSource
 (
 )
-=
-default
+{
+mGeneratedImageListener
+.
+DisconnectIfExists
+(
+)
 ;
+}
 void
 OnGeneratedImage
 (
