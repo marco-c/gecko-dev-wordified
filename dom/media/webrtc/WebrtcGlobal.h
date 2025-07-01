@@ -878,9 +878,6 @@ mBytesSent
 mBytesReceived
 mLastPacketSentTimestamp
 mLastPacketReceivedTimestamp
-mTotalRoundTripTime
-mResponsesReceived
-mCurrentRoundTripTime
 )
 ;
 DEFINE_IPC_SERIALIZER_WITH_SUPER_CLASS_AND_FIELDS
