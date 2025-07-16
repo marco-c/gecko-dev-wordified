@@ -236,6 +236,7 @@ DestinationType
 uint8_t
 {
 Script
+Style
 }
 ;
 using

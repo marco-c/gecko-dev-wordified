@@ -3441,6 +3441,12 @@ nsAString
 &
 aNonce
 StylePreloadKind
+CORSMode
+aCORSMode
+const
+nsAString
+&
+aIntegrity
 )
 ;
 bool
