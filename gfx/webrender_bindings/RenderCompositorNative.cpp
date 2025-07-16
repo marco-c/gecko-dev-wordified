@@ -1389,11 +1389,6 @@ GetBufferSize
 (
 )
 ;
-[
-[
-maybe_unused
-]
-]
 uint64_t
 windowPixelCount
 =
