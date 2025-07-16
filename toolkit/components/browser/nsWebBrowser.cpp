@@ -3345,8 +3345,6 @@ Stop
 (
 uint32_t
 aStopFlags
-bool
-aUnsetOngoingNavigation
 )
 {
 NS_ENSURE_STATE
@@ -3361,7 +3359,6 @@ mDocShell
 Stop
 (
 aStopFlags
-aUnsetOngoingNavigation
 )
 ;
 }
