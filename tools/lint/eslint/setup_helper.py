@@ -585,9 +585,17 @@ def
 remove_directory
 (
 path
+skip_logging
+=
+False
 )
 :
     
+if
+not
+skip_logging
+:
+        
 print
 (
 "
@@ -667,6 +675,10 @@ should_clobber
 False
     
 no_optional
+=
+False
+    
+skip_logging
 =
 False
 )
@@ -815,6 +827,7 @@ project_root
 node_modules
 "
 )
+skip_logging
 )
         
 npm_path
@@ -1074,8 +1087,14 @@ node_dir
 +
 path
         
+if
+not
+skip_logging
+:
+            
 print
 (
+                
 '
 Installing
 %
@@ -1102,6 +1121,7 @@ join
 cmd
 )
 )
+            
 )
         
 result
@@ -1161,6 +1181,11 @@ package_name
         
 )
         
+if
+not
+skip_logging
+:
+            
 print
 (
 "
@@ -1175,7 +1200,7 @@ successfully
 %
 package_name
 )
-        
+            
 print
 (
 "
