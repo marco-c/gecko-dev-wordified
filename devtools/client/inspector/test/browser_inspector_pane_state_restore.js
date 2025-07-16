@@ -281,7 +281,7 @@ EXPECTED_NEW_SIDEBAR_WIDTH
 )
 ;
 await
-closeToolbox
+closeToolboxIfOpen
 (
 )
 ;

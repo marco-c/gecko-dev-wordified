@@ -159,7 +159,7 @@ mode
 )
 ;
 await
-closeToolbox
+closeToolboxIfOpen
 (
 )
 ;

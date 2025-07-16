@@ -1617,7 +1617,7 @@ enabled
 )
 ;
 await
-closeToolbox
+closeToolboxIfOpen
 (
 )
 ;

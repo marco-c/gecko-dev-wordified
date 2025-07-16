@@ -326,7 +326,7 @@ disappeared
 )
 ;
 await
-closeToolbox
+closeToolboxIfOpen
 (
 )
 ;
@@ -411,7 +411,7 @@ disappeared
 )
 ;
 await
-closeToolbox
+closeToolboxIfOpen
 (
 )
 ;
@@ -1349,7 +1349,7 @@ disappeared
 )
 ;
 await
-closeToolbox
+closeToolboxIfOpen
 (
 )
 ;
@@ -1756,7 +1756,7 @@ TEST_MOCHI_URI
 )
 ;
 await
-closeToolbox
+closeToolboxIfOpen
 (
 )
 ;
@@ -1962,7 +1962,7 @@ ones
 )
 ;
 await
-closeToolbox
+closeToolboxIfOpen
 (
 )
 ;

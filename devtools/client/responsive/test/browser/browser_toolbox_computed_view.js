@@ -260,11 +260,6 @@ ui
 manager
 )
 ;
-await
-closeToolbox
-(
-)
-;
 }
 )
 ;

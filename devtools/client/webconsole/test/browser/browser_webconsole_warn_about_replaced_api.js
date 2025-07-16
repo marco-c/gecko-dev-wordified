@@ -156,7 +156,7 @@ hud
 )
 ;
 await
-closeToolbox
+closeToolboxIfOpen
 (
 )
 ;
@@ -187,7 +187,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .
