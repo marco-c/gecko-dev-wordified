@@ -131,22 +131,6 @@ noscratch
 "
     
 "
-large
--
-dw
-"
-:
-"
-t
--
-linux
--
-large
--
-noscratch
-"
-    
-"
 default
 "
 :
