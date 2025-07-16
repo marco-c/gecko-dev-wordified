@@ -29117,6 +29117,8 @@ if
 aForward
 )
 {
+if
+(
 nsIFrame
 *
 frame
@@ -29127,7 +29129,8 @@ invokerContent
 GetPrimaryFrame
 (
 )
-;
+)
+{
 int32_t
 tabIndex
 =
@@ -29193,6 +29196,7 @@ aResultContent
 return
 rv
 ;
+}
 }
 }
 }
