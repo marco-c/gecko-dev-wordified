@@ -196,6 +196,7 @@ BorderInstance
 ImageSource
 UvRectKind
 TransformPaletteId
+BlurEdgeMode
 }
 ;
 use
@@ -1768,6 +1769,10 @@ pub
 blur_region
 :
 DeviceIntSize
+pub
+edge_mode
+:
+BlurEdgeMode
 }
 impl
 BlurTask
@@ -4236,6 +4241,10 @@ RenderTargetKind
 Alpha
 None
 cache_size
+BlurEdgeMode
+:
+:
+Duplicate
 )
 }
 )
@@ -7595,6 +7604,9 @@ BlurTaskCache
 blur_region
 :
 DeviceIntSize
+edge_mode
+:
+BlurEdgeMode
 )
 -
 >
@@ -7921,6 +7933,7 @@ adjusted_blur_std_deviation
 height
 target_kind
 blur_region
+edge_mode
 }
 )
 )
@@ -7970,6 +7983,7 @@ adjusted_blur_std_deviation
 width
 target_kind
 blur_region
+edge_mode
 }
 )
 )
@@ -8696,6 +8710,10 @@ RenderTargetKind
 Color
 None
 content_size
+BlurEdgeMode
+:
+:
+Duplicate
 )
 }
 FilterPrimitiveKind
@@ -8928,6 +8946,10 @@ RenderTargetKind
 Color
 None
 content_size
+BlurEdgeMode
+:
+:
+Duplicate
 )
 ;
 RenderTask
@@ -14688,6 +14710,10 @@ adjusted_blur_task_size
 to_i32
 (
 )
+BlurEdgeMode
+:
+:
+Duplicate
 )
 ;
 task_id
@@ -15484,6 +15510,10 @@ adjusted_blur_task_size
 to_i32
 (
 )
+BlurEdgeMode
+:
+:
+Duplicate
 )
 ;
 /

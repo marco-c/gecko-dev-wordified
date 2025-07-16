@@ -207,6 +207,7 @@ TransformPalette
 ZBufferIdGenerator
 MaskInstance
 ClipSpace
+BlurEdgeMode
 }
 ;
 use
@@ -2761,6 +2762,9 @@ blur_std_deviation
 info
 .
 blur_region
+info
+.
+edge_mode
 task_id
 .
 into
@@ -2835,6 +2839,9 @@ blur_std_deviation
 info
 .
 blur_region
+info
+.
+edge_mode
 task_id
 .
 into
@@ -4057,6 +4064,9 @@ f32
 blur_region
 :
 DeviceIntSize
+edge_mode
+:
+BlurEdgeMode
 task_address
 :
 RenderTaskAddress
@@ -4106,6 +4116,13 @@ as_int
 (
 )
 blur_std_deviation
+edge_mode
+:
+edge_mode
+.
+as_int
+(
+)
 blur_region
 :
 blur_region
