@@ -701,8 +701,6 @@ LogicalSide
 BStart
 wm
 anchorResolutionParams
-.
-mPosition
 )
 -
 >
@@ -723,8 +721,6 @@ LogicalSide
 BEnd
 wm
 anchorResolutionParams
-.
-mPosition
 )
 -
 >
@@ -759,8 +755,6 @@ LogicalSide
 IStart
 wm
 anchorResolutionParams
-.
-mPosition
 )
 -
 >
@@ -781,8 +775,6 @@ LogicalSide
 IEnd
 wm
 anchorResolutionParams
-.
-mPosition
 )
 -
 >

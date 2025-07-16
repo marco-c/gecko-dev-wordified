@@ -46016,8 +46016,6 @@ GetMargin
 (
 eSideTop
 anchorResolutionParams
-.
-mPosition
 )
 aPercentageBasis
 )
@@ -46036,8 +46034,6 @@ GetMargin
 (
 eSideBottom
 anchorResolutionParams
-.
-mPosition
 )
 aPercentageBasis
 )
@@ -46059,8 +46055,6 @@ GetMargin
 (
 eSideLeft
 anchorResolutionParams
-.
-mPosition
 )
 aPercentageBasis
 )
@@ -46079,8 +46073,6 @@ GetMargin
 (
 eSideRight
 anchorResolutionParams
-.
-mPosition
 )
 aPercentageBasis
 )
@@ -47866,8 +47858,6 @@ HasInlineAxisAuto
 (
 aWM
 anchorResolutionParams
-.
-mPosition
 )
 &
 &
@@ -50015,8 +50005,6 @@ HasBlockAxisAuto
 (
 aWM
 anchorResolutionParams
-.
-mPosition
 )
 )
 {
