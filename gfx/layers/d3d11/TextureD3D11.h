@@ -2008,6 +2008,12 @@ SurfaceDescriptorD3D10
 aDescriptor
 )
 ;
+~
+DXGITextureHostD3D11
+(
+)
+override
+;
 void
 DeallocateDeviceData
 (
@@ -2301,6 +2307,12 @@ SurfaceDescriptorDXGIYCbCr
 &
 aDescriptor
 )
+;
+~
+DXGIYCbCrTextureHostD3D11
+(
+)
+override
 ;
 void
 DeallocateDeviceData
