@@ -1120,6 +1120,13 @@ EventNameType_HTMLXUL
 EventNameType_SVGGraphic
 ePointerEventClass
 )
+EVENT
+(
+command
+eCommand
+EventNameType_HTMLXUL
+eBasicEventClass
+)
 NON_IDL_EVENT
 (
 mouselongtap
@@ -2285,13 +2292,6 @@ compositionend
 eCompositionEnd
 EventNameType_XUL
 eCompositionEventClass
-)
-NON_IDL_EVENT
-(
-command
-eXULCommand
-EventNameType_XUL
-eInputEventClass
 )
 NON_IDL_EVENT
 (
