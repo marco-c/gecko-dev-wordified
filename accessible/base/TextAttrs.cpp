@@ -1894,7 +1894,7 @@ SetAttribute
 nsGkAtoms
 :
 :
-backgroundColor
+background_color
 Color
 {
 aValue
@@ -3663,7 +3663,7 @@ SetAttribute
 nsGkAtoms
 :
 :
-fontWeight
+font_weight
 value
 )
 ;

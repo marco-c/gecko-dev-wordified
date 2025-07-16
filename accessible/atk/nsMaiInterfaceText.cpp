@@ -557,7 +557,7 @@ name
 nsGkAtoms
 :
 :
-backgroundColor
+background_color
 )
 {
 atkName
@@ -663,7 +663,7 @@ name
 nsGkAtoms
 :
 :
-fontWeight
+font_weight
 )
 {
 atkName

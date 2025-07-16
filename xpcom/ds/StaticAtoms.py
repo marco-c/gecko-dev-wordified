@@ -5145,18 +5145,6 @@ font
 Atom
 (
 "
-fontWeight
-"
-"
-font
--
-weight
-"
-)
-    
-Atom
-(
-"
 footer
 "
 "
@@ -14659,7 +14647,7 @@ B
 Atom
 (
 "
-backgroundColor
+background_color
 "
 "
 background
@@ -14781,7 +14769,7 @@ cm
 Atom
 (
 "
-colorBurn
+color_burn
 "
 "
 color
@@ -14793,7 +14781,7 @@ burn
 Atom
 (
 "
-colorDodge
+color_dodge
 "
 "
 color
@@ -14805,7 +14793,7 @@ dodge
 Atom
 (
 "
-colorInterpolation
+color_interpolation
 "
 "
 color
@@ -14817,7 +14805,7 @@ interpolation
 Atom
 (
 "
-colorInterpolationFilters
+color_interpolation_filters
 "
 "
 color
@@ -14831,7 +14819,7 @@ filters
 Atom
 (
 "
-colorProfile
+color_profile
 "
 "
 color
@@ -15589,6 +15577,18 @@ font_variant
 font
 -
 variant
+"
+)
+    
+Atom
+(
+"
+font_weight
+"
+"
+font
+-
+weight
 "
 )
     

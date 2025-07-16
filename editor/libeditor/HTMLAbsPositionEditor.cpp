@@ -5968,7 +5968,7 @@ aElement
 nsGkAtoms
 :
 :
-backgroundColor
+background_color
 backgroundColorValue
 )
 ;
@@ -5991,7 +5991,7 @@ GetComputedProperty
 nsGkAtoms
 :
 :
-backgroundColor
+background_color
 )
 "
 "

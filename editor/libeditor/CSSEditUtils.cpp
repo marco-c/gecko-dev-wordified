@@ -4526,7 +4526,7 @@ return
 nsGkAtoms
 :
 :
-backgroundColor
+background_color
 ;
 case
 eCSSEditableProperty_background_image
@@ -4607,7 +4607,7 @@ return
 nsGkAtoms
 :
 :
-fontWeight
+font_weight
 ;
 case
 eCSSEditableProperty_height

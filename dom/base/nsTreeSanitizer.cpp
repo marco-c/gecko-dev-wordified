@@ -1578,7 +1578,7 @@ clipPath
 nsGkAtoms
 :
 :
-colorProfile
+color_profile
 /
 /
 color
@@ -2271,7 +2271,7 @@ color
 nsGkAtoms
 :
 :
-colorInterpolation
+color_interpolation
 /
 /
 color
@@ -2280,7 +2280,7 @@ interpolation
 nsGkAtoms
 :
 :
-colorInterpolationFilters
+color_interpolation_filters
 /
 /
 color
@@ -2530,7 +2530,7 @@ variant
 nsGkAtoms
 :
 :
-fontWeight
+font_weight
 /
 /
 font
