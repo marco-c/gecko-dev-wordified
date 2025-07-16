@@ -270,7 +270,7 @@ backgroundTaskFinished
 =
 false
 ;
-auto
+UniquePtr
 ticket
 =
 ShutdownBlockingTicket
