@@ -52,7 +52,9 @@ https
 :
 /
 /
-wicg
+w3c
+-
+fedid
 .
 github
 .
@@ -90,7 +92,9 @@ https
 :
 /
 /
-wicg
+w3c
+-
+fedid
 .
 github
 .
@@ -140,7 +144,9 @@ https
 :
 /
 /
-wicg
+w3c
+-
+fedid
 .
 github
 .
