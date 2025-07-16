@@ -4401,6 +4401,8 @@ color
 =
 _rgbaToString
 (
+content
+.
 InspectorUtils
 .
 colorToRGBA
@@ -4409,9 +4411,6 @@ expected
 [
 color
 ]
-content
-.
-document
 )
 )
 ;
@@ -7286,7 +7285,6 @@ colorToRGBA
 "
 MenuText
 "
-document
 )
 )
 ;
@@ -7302,7 +7300,6 @@ colorToRGBA
 "
 Menu
 "
-document
 )
 )
 ;
@@ -7389,7 +7386,6 @@ colorToRGBA
 "
 MenuText
 "
-document
 )
 )
 ;
@@ -7405,7 +7401,6 @@ colorToRGBA
 "
 Menu
 "
-document
 )
 )
 ;
