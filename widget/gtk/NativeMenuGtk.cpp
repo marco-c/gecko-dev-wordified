@@ -2722,7 +2722,7 @@ win
 rect
 GDK_GRAVITY_NORTH_WEST
 GDK_GRAVITY_NORTH_WEST
-GetLastMousePressEvent
+GetLastPointerDownEvent
 (
 )
 )

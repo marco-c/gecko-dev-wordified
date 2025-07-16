@@ -5895,7 +5895,7 @@ existingEvent
 widget
 :
 :
-GetLastMousePressEvent
+GetLastPointerDownEvent
 (
 )
 ;

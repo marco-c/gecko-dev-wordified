@@ -233,13 +233,17 @@ returns
 the
 last
 mouse
+button
 press
+/
+touch
+begin
 event
 we
 processed
 .
 void
-SetLastMousePressEvent
+SetLastPointerDownEvent
 (
 GdkEvent
 *
@@ -247,7 +251,7 @@ GdkEvent
 ;
 GdkEvent
 *
-GetLastMousePressEvent
+GetLastPointerDownEvent
 (
 )
 ;
