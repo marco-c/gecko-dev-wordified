@@ -1509,13 +1509,12 @@ StylePosition
 ISize
 (
 wm
-AnchorPosResolutionParams
-:
-:
-From
+StyleDisplay
 (
-this
 )
+-
+>
+mPosition
 )
 -
 >

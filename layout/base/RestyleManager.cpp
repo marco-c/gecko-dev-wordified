@@ -6113,6 +6113,8 @@ HasBlockAxisAuto
 (
 wm
 anchorResolutionParams
+.
+mPosition
 )
 )
 {

@@ -2754,13 +2754,12 @@ stylePos
 BSize
 (
 wm
-AnchorPosResolutionParams
-:
-:
-From
+StyleDisplay
 (
-this
 )
+-
+>
+mPosition
 )
 -
 >

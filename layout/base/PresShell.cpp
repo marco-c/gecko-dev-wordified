@@ -88144,6 +88144,8 @@ pos
 GetMinWidth
 (
 anchorResolutionParams
+.
+mPosition
 )
 ;
 styleMinWidth
@@ -88178,6 +88180,8 @@ pos
 GetMinHeight
 (
 anchorResolutionParams
+.
+mPosition
 )
 ;
 styleMinHeight
@@ -88212,6 +88216,8 @@ pos
 GetMaxWidth
 (
 anchorResolutionParams
+.
+mPosition
 )
 ;
 maxWidth
@@ -88246,6 +88252,8 @@ pos
 GetMaxHeight
 (
 anchorResolutionParams
+.
+mPosition
 )
 ;
 maxHeight
