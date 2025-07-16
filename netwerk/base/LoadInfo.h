@@ -2548,7 +2548,7 @@ mParentIPAddressSpace
 nsILoadInfo
 :
 :
-Public
+Unknown
 ;
 nsILoadInfo
 :
@@ -2559,7 +2559,7 @@ mIPAddressSpace
 nsILoadInfo
 :
 :
-Public
+Unknown
 ;
 Maybe
 <

@@ -3483,7 +3483,7 @@ nsILoadInfo
 IPAddressSpace
 :
 :
-Public
+Unknown
 ;
 fields
 .
