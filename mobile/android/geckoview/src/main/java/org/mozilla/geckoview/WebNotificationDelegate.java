@@ -77,17 +77,6 @@ annotation
 .
 NonNull
 ;
-import
-org
-.
-mozilla
-.
-gecko
-.
-annotation
-.
-WrapForJNI
-;
 public
 interface
 WebNotificationDelegate
@@ -117,7 +106,6 @@ received
 *
 /
 AnyThread
-WrapForJNI
 default
 void
 onShowNotification
@@ -154,7 +142,6 @@ received
 *
 /
 AnyThread
-WrapForJNI
 default
 void
 onCloseNotification
