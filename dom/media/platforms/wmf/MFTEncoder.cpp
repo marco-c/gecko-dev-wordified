@@ -6368,16 +6368,6 @@ outputs
 .
 while
 (
-mOutputs
-.
-Length
-(
-)
-=
-=
-0
-&
-&
 mDrainState
 !
 =
