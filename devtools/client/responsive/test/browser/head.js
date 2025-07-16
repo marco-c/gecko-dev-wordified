@@ -1261,7 +1261,7 @@ const
 result
 =
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -1270,7 +1270,9 @@ ui
 getViewportBrowser
 (
 )
+[
 args
+]
 task
 )
 ;
