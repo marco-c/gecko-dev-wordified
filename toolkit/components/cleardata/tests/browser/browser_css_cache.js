@@ -695,8 +695,13 @@ test_deleteByPrincipal
 await
 SpecialPowers
 .
-setBoolPref
+pushPrefEnv
 (
+{
+set
+:
+[
+[
 "
 dom
 .
@@ -705,6 +710,9 @@ security
 https_first
 "
 false
+]
+]
+}
 )
 ;
 await
