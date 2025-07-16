@@ -4460,6 +4460,17 @@ DeviceColor
 )
 override
 ;
+void
+SetAttribute
+(
+uint32_t
+aIndex
+const
+IntRect
+&
+)
+override
+;
 IntRect
 MapRectToSource
 (
@@ -4557,6 +4568,9 @@ mKernelUnitLength
 ;
 DeviceColor
 mColor
+;
+IntRect
+mRenderRect
 ;
 #
 if
