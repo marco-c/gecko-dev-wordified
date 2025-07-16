@@ -956,9 +956,6 @@ static
 bool
 canInline
 (
-JSContext
-*
-cx
 JSScript
 *
 target
