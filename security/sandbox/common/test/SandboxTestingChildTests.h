@@ -3605,10 +3605,11 @@ sandbox
 .
 content
 .
-headless
+level
 is
-turned
-off
+less
+than
+5
 .
 if
 (
