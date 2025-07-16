@@ -8,12 +8,6 @@ pin
 Pin
 ;
 use
-core
-:
-:
-usize
-;
-use
 futures_core
 :
 :
@@ -343,9 +337,7 @@ _
 usize
 :
 :
-max_value
-(
-)
+MAX
 None
 )
 }

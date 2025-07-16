@@ -490,6 +490,9 @@ where
 W
 :
 ArcWake
++
+'
+static
 {
 /
 /

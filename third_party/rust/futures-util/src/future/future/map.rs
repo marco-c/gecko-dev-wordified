@@ -338,7 +338,7 @@ self
 .
 project_replace
 (
-Map
+Self
 :
 :
 Complete

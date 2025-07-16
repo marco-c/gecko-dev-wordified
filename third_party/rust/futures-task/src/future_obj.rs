@@ -280,6 +280,8 @@ T
 static
 )
 {
+unsafe
+{
 mem
 :
 :
@@ -287,6 +289,7 @@ transmute
 (
 ptr
 )
+}
 }
 #
 [
@@ -346,6 +349,8 @@ static
 )
 )
 {
+unsafe
+{
 mem
 :
 :
@@ -353,6 +358,7 @@ transmute
 (
 ptr
 )
+}
 }
 impl
 <
@@ -1987,6 +1993,8 @@ a
 {
 drop
 (
+unsafe
+{
 Box
 :
 :
@@ -2003,6 +2011,7 @@ F
 (
 )
 )
+}
 )
 }
 }
@@ -2091,6 +2100,8 @@ a
 {
 drop
 (
+unsafe
+{
 Box
 :
 :
@@ -2098,6 +2109,7 @@ from_raw
 (
 ptr
 )
+}
 )
 }
 }
@@ -2188,6 +2200,8 @@ a
 {
 drop
 (
+unsafe
+{
 Box
 :
 :
@@ -2195,6 +2209,7 @@ from_raw
 (
 ptr
 )
+}
 )
 }
 }
@@ -2316,6 +2331,8 @@ Pin
 :
 from
 (
+unsafe
+{
 Box
 :
 :
@@ -2323,6 +2340,7 @@ from_raw
 (
 ptr
 )
+}
 )
 )
 }
@@ -2444,6 +2462,8 @@ Pin
 :
 from
 (
+unsafe
+{
 Box
 :
 :
@@ -2451,6 +2471,7 @@ from_raw
 (
 ptr
 )
+}
 )
 )
 }
@@ -2574,6 +2595,8 @@ Pin
 :
 from
 (
+unsafe
+{
 Box
 :
 :
@@ -2581,6 +2604,7 @@ from_raw
 (
 ptr
 )
+}
 )
 )
 }

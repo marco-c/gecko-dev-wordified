@@ -1985,6 +1985,13 @@ that
 task
 is
 Sync
+#
+[
+allow
+(
+dead_code
+)
+]
 trait
 AssertSync
 :

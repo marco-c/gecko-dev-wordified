@@ -507,7 +507,7 @@ get_unchecked_mut
 (
 )
 {
-MaybeDone
+Self
 :
 :
 Done
@@ -626,7 +626,7 @@ Self
 Gone
 )
 {
-MaybeDone
+Self
 :
 :
 Done
@@ -768,7 +768,7 @@ get_unchecked_mut
 (
 )
 {
-MaybeDone
+Self
 :
 :
 Future
@@ -812,7 +812,7 @@ res
 )
 ;
 }
-MaybeDone
+Self
 :
 :
 Done
@@ -823,7 +823,7 @@ _
 >
 {
 }
-MaybeDone
+Self
 :
 :
 Gone

@@ -108,6 +108,15 @@ use
 std
 :
 :
+boxed
+:
+:
+Box
+;
+use
+std
+:
+:
 pin
 :
 :
@@ -3155,6 +3164,8 @@ self
 ;
 drop
 (
+unsafe
+{
 Box
 :
 :
@@ -3167,6 +3178,7 @@ mut
 dyn
 UnsafeNotify01
 )
+}
 )
 ;
 }

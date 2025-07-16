@@ -443,6 +443,15 @@ use
 std
 :
 :
+boxed
+:
+:
+Box
+;
+use
+std
+:
+:
 cell
 :
 :
@@ -1088,6 +1097,8 @@ PopResult
 T
 >
 {
+unsafe
+{
 let
 tail
 =
@@ -1226,6 +1237,7 @@ else
 Inconsistent
 }
 }
+}
 /
 /
 /
@@ -1294,11 +1306,14 @@ T
 loop
 {
 match
+unsafe
+{
 self
 .
 pop
 (
 )
+}
 {
 Empty
 =
