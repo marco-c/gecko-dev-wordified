@@ -475,6 +475,15 @@ TOPMOST_MODAL
 bits
 (
 )
+|
+ElementState
+:
+:
+HEADING_LEVEL_BITS
+.
+bits
+(
+)
 )
 ;
 /
