@@ -532,6 +532,7 @@ assumption
 let
 oneOffs
 =
+await
 getOneOffs
 (
 )
@@ -1021,6 +1022,7 @@ test
 let
 oneOffs
 =
+await
 getOneOffs
 (
 )
@@ -1349,6 +1351,7 @@ promise
 let
 oneOffs
 =
+await
 getOneOffs
 (
 )
@@ -1837,6 +1840,7 @@ items
 let
 oneOffs
 =
+await
 getOneOffs
 (
 )
@@ -2162,6 +2166,7 @@ items
 let
 oneOffs
 =
+await
 getOneOffs
 (
 )
@@ -2510,6 +2515,7 @@ selected
 let
 oneOffs
 =
+await
 getOneOffs
 (
 )
@@ -3073,6 +3079,7 @@ KEY_ArrowUp
 const
 allOneOffs
 =
+await
 getOneOffs
 (
 )
