@@ -877,6 +877,16 @@ imgIRequest
 aRequest
 )
 ;
+void
+StartTimerForAnimatedImagesIfNeeded
+(
+)
+;
+void
+StopTimerForAnimatedImagesIfNeeded
+(
+)
+;
 /
 *
 *
@@ -2194,7 +2204,7 @@ HasObservers
 <
 <
 0
-HasImageRequests
+HasImageAnimations
 =
 1
 <
@@ -2686,7 +2696,7 @@ ObserverCount
 const
 ;
 bool
-HasImageRequests
+ComputeHasImageAnimations
 (
 )
 const
@@ -3372,6 +3382,11 @@ mAttemptedExtraTickSinceLastVsync
 ;
 bool
 mHasExceededAfterLoadTickPeriod
+:
+1
+;
+bool
+mHasImageAnimations
 :
 1
 ;
