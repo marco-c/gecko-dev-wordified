@@ -4650,8 +4650,10 @@ const
 nsStyleMargin
 &
 aStyleMargin
-StylePositionProperty
-aProp
+const
+AnchorPosResolutionParams
+&
+aParams
 )
 {
 for
@@ -4672,7 +4674,7 @@ aStyleMargin
 GetMargin
 (
 side
-aProp
+aParams
 )
 -
 >
@@ -4837,8 +4839,6 @@ HasPercentageUnitMargin
 *
 margin
 anchorResolutionParams
-.
-mPosition
 )
 )
 {
