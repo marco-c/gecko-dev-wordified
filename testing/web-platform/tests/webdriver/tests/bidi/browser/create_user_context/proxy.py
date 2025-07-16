@@ -67,7 +67,6 @@ await
 create_user_context_with_proxy
 (
 {
-        
 "
 proxyType
 "
@@ -75,7 +74,6 @@ proxyType
 "
 system
 "
-    
 }
 )
     
@@ -93,7 +91,6 @@ async
 def
 test_autodetect
 (
-        
 create_user_context_with_proxy
 )
 :
@@ -102,7 +99,6 @@ await
 create_user_context_with_proxy
 (
 {
-        
 "
 proxyType
 "
@@ -110,7 +106,6 @@ proxyType
 "
 autodetect
 "
-    
 }
 )
     
@@ -136,7 +131,6 @@ await
 create_user_context_with_proxy
 (
 {
-        
 "
 proxyType
 "
@@ -144,7 +138,6 @@ proxyType
 "
 direct
 "
-    
 }
 )
     
@@ -158,30 +151,6 @@ is
 actually
 set
 .
-pytest
-.
-mark
-.
-parametrize
-(
-"
-ftpProxy
-"
-[
-None
-"
-127
-.
-0
-.
-0
-.
-1
-:
-21
-"
-]
-)
 pytest
 .
 mark
@@ -260,13 +229,13 @@ mark
 .
 parametrize
 (
+    
 "
 socks
 "
 [
 None
 {
-    
 "
 socksProxy
 "
@@ -282,7 +251,6 @@ socksProxy
 :
 1080
 "
-    
 "
 socksVersion
 "
@@ -295,12 +263,10 @@ async
 def
 test_manual
 (
+    
 create_user_context_with_proxy
-        
-ftpProxy
 httpProxy
 sslProxy
-        
 noProxy
 socks
 )
@@ -309,7 +275,6 @@ socks
 proxy
 =
 {
-        
 "
 proxyType
 "
@@ -317,24 +282,7 @@ proxyType
 "
 manual
 "
-    
 }
-    
-if
-ftpProxy
-is
-not
-None
-:
-        
-proxy
-[
-"
-ftpProxy
-"
-]
-=
-ftpProxy
     
 if
 httpProxy
