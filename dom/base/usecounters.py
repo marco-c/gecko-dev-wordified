@@ -5124,6 +5124,8 @@ impl
 :
 :
 CounterMetric
+<
+>
 doc_metric
 ;
     
@@ -5134,6 +5136,8 @@ impl
 :
 :
 CounterMetric
+<
+>
 page_metric
 ;
   
@@ -5726,6 +5730,8 @@ impl
 :
 :
 CounterMetric
+<
+>
 dedicated_metric
 ;
     
@@ -5736,6 +5742,8 @@ impl
 :
 :
 CounterMetric
+<
+>
 shared_metric
 ;
     
@@ -5746,6 +5754,8 @@ impl
 :
 :
 CounterMetric
+<
+>
 service_metric
 ;
   
