@@ -245,7 +245,7 @@ normal
 static
 const
 char
-kPHCAvgDelayPageRuse
+kPHCAvgDelayPageReuse
 [
 ]
 =
@@ -300,7 +300,7 @@ normal
 static
 const
 char
-kPHCAvgDelayContentPageRuse
+kPHCAvgDelayContentPageReuse
 [
 ]
 =
@@ -630,7 +630,7 @@ kPHCAvgDelayNormal
 strcmp
 (
 aPrefName
-kPHCAvgDelayPageRuse
+kPHCAvgDelayPageReuse
 )
 )
 |
@@ -666,7 +666,7 @@ kPHCAvgDelayContentNormal
 strcmp
 (
 aPrefName
-kPHCAvgDelayContentPageRuse
+kPHCAvgDelayContentPageReuse
 )
 )
 )
@@ -723,7 +723,7 @@ Preferences
 RegisterCallback
 (
 PrefChangeCallback
-kPHCAvgDelayPageRuse
+kPHCAvgDelayPageReuse
 )
 ;
 Preferences
@@ -750,7 +750,7 @@ Preferences
 RegisterCallback
 (
 PrefChangeCallback
-kPHCAvgDelayContentPageRuse
+kPHCAvgDelayContentPageReuse
 )
 ;
 UpdatePHCState
