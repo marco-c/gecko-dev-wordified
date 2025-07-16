@@ -289,6 +289,9 @@ struct
 nsCSSValueSharedList
 ;
 struct
+AnchorPosResolutionParams
+;
+struct
 AnchorPosOffsetResolutionParams
 ;
 class
