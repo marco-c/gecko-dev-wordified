@@ -103,9 +103,7 @@ nsDocShellTelemetryUtils_h__
 #
 include
 "
-mozilla
-/
-Telemetry
+nsLiteralString
 .
 h
 "
@@ -158,10 +156,7 @@ cpp
 .
 *
 /
-Telemetry
-:
-:
-LABELS_PAGE_LOAD_ERROR
+nsLiteralCString
 LoadErrorToTelemetryLabel
 (
 nsresult
