@@ -449,6 +449,11 @@ item
 ]
 )
 ;
+await
+waitForAllNetworkUpdateEvents
+(
+)
+;
 is
 (
 getSelectedRequest

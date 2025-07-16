@@ -893,6 +893,15 @@ false
 )
 )
 ;
+const
+wait
+=
+waitForNetworkEvents
+(
+monitor
+REQUEST_COUNT
+)
+;
 await
 navigateTo
 (
@@ -900,11 +909,7 @@ TOP_URL
 )
 ;
 await
-waitForNetworkEvents
-(
-monitor
-REQUEST_COUNT
-)
+wait
 ;
 is
 (
@@ -1144,6 +1149,7 @@ stack
 =
 spec
 ;
+await
 verifyRequestItemTarget
 (
 document

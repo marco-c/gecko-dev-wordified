@@ -314,6 +314,7 @@ total
 )
 ;
 }
+await
 verifyRequestItemTarget
 (
 document
@@ -410,6 +411,7 @@ true
 }
 )
 ;
+await
 verifyRequestItemTarget
 (
 document

@@ -293,6 +293,7 @@ total
 "
 )
 ;
+await
 verifyRequestItemTarget
 (
 document

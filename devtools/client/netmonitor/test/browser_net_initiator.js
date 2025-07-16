@@ -786,7 +786,7 @@ length
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .
@@ -950,6 +950,7 @@ recorded
 "
 )
 ;
+await
 validateRequests
 (
 EXPECTED_REQUESTS

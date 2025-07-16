@@ -1147,6 +1147,11 @@ e
 ]
 )
 {
+await
+waitForAllNetworkUpdateEvents
+(
+)
+;
 isnot
 (
 getSelectedRequest
@@ -1398,6 +1403,7 @@ title
 )
 ;
 }
+await
 verifyRequestItemTarget
 (
 document
@@ -1484,6 +1490,7 @@ sizeB
 }
 )
 ;
+await
 verifyRequestItemTarget
 (
 document
@@ -1570,6 +1577,7 @@ sizeB
 }
 )
 ;
+await
 verifyRequestItemTarget
 (
 document
@@ -1656,6 +1664,7 @@ sizeB
 }
 )
 ;
+await
 verifyRequestItemTarget
 (
 document
@@ -1742,6 +1751,7 @@ sizeB
 }
 )
 ;
+await
 verifyRequestItemTarget
 (
 document

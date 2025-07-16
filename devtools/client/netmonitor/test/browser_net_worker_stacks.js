@@ -600,6 +600,7 @@ stackTrace
 )
 )
 ;
+await
 validateRequests
 (
 EXPECTED_REQUESTS

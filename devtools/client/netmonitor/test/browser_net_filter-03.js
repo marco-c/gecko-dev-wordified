@@ -576,6 +576,7 @@ all
 "
 )
 ;
+await
 testContents
 (
 [
@@ -638,6 +639,7 @@ all
 "
 )
 ;
+await
 testContents
 (
 [
@@ -701,6 +703,7 @@ html
 "
 )
 ;
+await
 testContents
 (
 [
@@ -789,6 +792,7 @@ html
 "
 )
 ;
+await
 testContents
 (
 [
@@ -884,6 +888,7 @@ html
 "
 )
 ;
+await
 testContents
 (
 [
@@ -1027,6 +1032,7 @@ selectedId
 )
 ;
 }
+async
 function
 testContents
 (
@@ -1035,6 +1041,11 @@ visible
 selection
 )
 {
+await
+waitForAllNetworkUpdateEvents
+(
+)
+;
 isnot
 (
 getSelectedRequest

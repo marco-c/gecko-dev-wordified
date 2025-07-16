@@ -3156,6 +3156,7 @@ for
 const
 {
 resource
+update
 }
 of
 updates
@@ -3187,6 +3188,7 @@ networkDataProvider
 onNetworkResourceUpdated
 (
 resource
+update
 )
 ;
 messageUpdates
