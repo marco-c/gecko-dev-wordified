@@ -410,7 +410,7 @@ Assert
 equal
 (
 origCount
-5
+4
 "
 Rendered
 expected
