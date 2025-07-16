@@ -339,6 +339,14 @@ and
 Animations
 "
 )
+DIRS
++
+=
+[
+"
+typedom
+"
+]
 TEST_DIRS
 +
 =

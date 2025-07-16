@@ -3576,6 +3576,11 @@ CSSStyleSheet
 webidl
 "
 "
+CSSStyleValue
+.
+webidl
+"
+"
 CSSSupportsRule
 .
 webidl
