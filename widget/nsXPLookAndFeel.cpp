@@ -1065,11 +1065,6 @@ titlebarRadius
 "
 ui
 .
-titlebarButtonSpacing
-"
-"
-ui
-.
 tooltipRadius
 "
 "
