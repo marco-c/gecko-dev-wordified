@@ -508,6 +508,7 @@ Clean
 clipboard
 data
 .
+await
 cleanupAllClipboard
 (
 )

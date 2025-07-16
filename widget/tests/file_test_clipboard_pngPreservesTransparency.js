@@ -342,11 +342,13 @@ toString
 }
 add_setup
 (
+async
 function
 init
 (
 )
 {
+await
 cleanupAllClipboard
 (
 )
@@ -705,6 +707,7 @@ red
 "
 )
 ;
+await
 cleanupAllClipboard
 (
 )

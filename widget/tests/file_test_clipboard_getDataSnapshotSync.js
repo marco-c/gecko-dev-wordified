@@ -192,6 +192,7 @@ type
 }
 )
 ;
+await
 cleanupAllClipboard
 (
 )
@@ -281,6 +282,7 @@ type
 }
 )
 ;
+await
 cleanupAllClipboard
 (
 )
@@ -789,6 +791,7 @@ sync
 "
 )
 ;
+await
 cleanupAllClipboard
 (
 )
@@ -1014,6 +1017,7 @@ flavorList
 "
 )
 ;
+await
 cleanupAllClipboard
 (
 )
