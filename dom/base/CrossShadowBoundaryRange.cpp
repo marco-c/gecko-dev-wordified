@@ -1300,7 +1300,7 @@ newStartBoundary
 newEndBoundary
 )
 {
-SetStartAndEnd
+DoSetRange
 (
 newStartBoundary
 ?
@@ -1328,6 +1328,8 @@ mEnd
 AsRaw
 (
 )
+nullptr
+mOwner
 )
 ;
 }
