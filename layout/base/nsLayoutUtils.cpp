@@ -27068,8 +27068,6 @@ MaxBSize
 (
 wm
 anchorResolutionParams
-.
-mPosition
 )
 )
 )
@@ -31125,8 +31123,6 @@ stylePos
 GetMaxWidth
 (
 anchorResolutionParams
-.
-mPosition
 )
 :
 stylePos
@@ -31135,8 +31131,6 @@ stylePos
 GetMaxHeight
 (
 anchorResolutionParams
-.
-mPosition
 )
 ;
 auto
@@ -31716,8 +31710,6 @@ stylePos
 GetMaxHeight
 (
 anchorResolutionParams
-.
-mPosition
 )
 :
 stylePos
@@ -31726,8 +31718,6 @@ stylePos
 GetMaxWidth
 (
 anchorResolutionParams
-.
-mPosition
 )
 ;
 /
@@ -34080,8 +34070,6 @@ stylePos
 GetMaxWidth
 (
 anchorResolutionParams
-.
-mPosition
 )
 :
 stylePos
@@ -34090,8 +34078,6 @@ stylePos
 GetMaxHeight
 (
 anchorResolutionParams
-.
-mPosition
 )
 ;
 auto
