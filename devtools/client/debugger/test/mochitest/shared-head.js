@@ -20556,7 +20556,7 @@ unchecked
 }
 async
 function
-toggleDebbuggerSettingsMenuItem
+toggleDebuggerSettingsMenuItem
 (
 dbg
 {

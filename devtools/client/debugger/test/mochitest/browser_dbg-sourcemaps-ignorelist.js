@@ -185,7 +185,7 @@ scripts
 )
 ;
 await
-toggleDebbuggerSettingsMenuItem
+toggleDebuggerSettingsMenuItem
 (
 dbg
 {
@@ -413,7 +413,7 @@ scripts
 )
 ;
 await
-toggleDebbuggerSettingsMenuItem
+toggleDebuggerSettingsMenuItem
 (
 dbg
 {
