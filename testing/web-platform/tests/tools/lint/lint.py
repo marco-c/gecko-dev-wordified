@@ -2904,6 +2904,10 @@ AssertPreconditionRegexp
 rules
 .
 HTMLInvalidSyntaxRegexp
+            
+rules
+.
+TestDriverInternalRegexp
 ]
 ]
 def
