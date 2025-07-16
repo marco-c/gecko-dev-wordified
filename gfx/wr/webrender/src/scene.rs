@@ -1999,6 +1999,9 @@ false
 max_shared_surface_size
 :
 2048
+enable_dithering
+:
+false
 }
 }
 }
