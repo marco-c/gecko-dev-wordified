@@ -2200,8 +2200,10 @@ the
 document
 .
 }
+RefPtr
+<
 SVGDocument
-*
+>
 doc
 =
 mSVGDocumentWrapper
