@@ -582,6 +582,14 @@ nsIContent
 aContent
 )
 ;
+nsresult
+CopyInnerTo
+(
+SVGStyleElement
+*
+aDest
+)
+;
 }
 ;
 }

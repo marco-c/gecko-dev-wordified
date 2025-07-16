@@ -1309,6 +1309,14 @@ GetStyleSheetInfo
 )
 final
 ;
+nsresult
+CopyInnerTo
+(
+HTMLLinkElement
+*
+aDest
+)
+;
 RefPtr
 <
 nsDOMTokenList
