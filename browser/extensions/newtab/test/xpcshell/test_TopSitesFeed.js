@@ -3392,7 +3392,7 @@ values
 topSitesRows
 *
 =
-3
+100
 ;
 await
 feed
