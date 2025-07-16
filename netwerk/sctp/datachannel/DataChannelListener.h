@@ -120,13 +120,6 @@ NETWERK_SCTP_DATACHANNEL_DATACHANNELLISTENER_H_
 #
 include
 "
-nsISupports
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -197,9 +190,6 @@ virtual
 nsresult
 OnMessageAvailable
 (
-nsISupports
-*
-aContext
 const
 nsACString
 &
@@ -222,9 +212,6 @@ virtual
 nsresult
 OnBinaryMessageAvailable
 (
-nsISupports
-*
-aContext
 const
 nsACString
 &
@@ -245,9 +232,6 @@ virtual
 nsresult
 OnChannelConnected
 (
-nsISupports
-*
-aContext
 )
 =
 0
@@ -264,9 +248,6 @@ virtual
 nsresult
 OnChannelClosed
 (
-nsISupports
-*
-aContext
 )
 =
 0
@@ -285,9 +266,6 @@ virtual
 nsresult
 OnBufferLow
 (
-nsISupports
-*
-aContext
 )
 =
 0
@@ -305,9 +283,6 @@ virtual
 nsresult
 NotBuffered
 (
-nsISupports
-*
-aContext
 )
 =
 0

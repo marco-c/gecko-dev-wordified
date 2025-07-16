@@ -10518,9 +10518,6 @@ SetListener
 DataChannelListener
 *
 aListener
-nsISupports
-*
-aContext
 )
 {
 MOZ_ASSERT
@@ -10529,10 +10526,6 @@ NS_IsMainThread
 (
 )
 )
-;
-mContext
-=
-aContext
 ;
 mListener
 =
@@ -10761,7 +10754,6 @@ mListener
 >
 OnBufferLow
 (
-mContext
 )
 ;
 }
@@ -10812,7 +10804,6 @@ mListener
 >
 NotBuffered
 (
-mContext
 )
 ;
 if
@@ -11036,7 +11027,6 @@ mListener
 >
 OnChannelConnected
 (
-mContext
 )
 ;
 }
@@ -11355,7 +11345,6 @@ mListener
 >
 OnChannelClosed
 (
-mContext
 )
 ;
 }
@@ -12137,10 +12126,6 @@ mListener
 >
 OnMessageAvailable
 (
-mChannel
--
->
-mContext
 mData
 )
 ;
@@ -12155,10 +12140,6 @@ mListener
 >
 OnBinaryMessageAvailable
 (
-mChannel
--
->
-mContext
 mData
 )
 ;
