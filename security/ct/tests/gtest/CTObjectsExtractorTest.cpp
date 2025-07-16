@@ -292,6 +292,10 @@ CTLogState
 :
 :
 Admissible
+CTLogFormat
+:
+:
+RFC6962
 0
 )
 ;

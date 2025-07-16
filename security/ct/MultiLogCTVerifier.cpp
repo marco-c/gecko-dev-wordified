@@ -1039,6 +1039,12 @@ state
 matchingLog
 -
 >
+format
+(
+)
+matchingLog
+-
+>
 timestamp
 (
 )
