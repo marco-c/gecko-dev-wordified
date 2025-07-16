@@ -3476,12 +3476,11 @@ path
 join
 (
 topsrcdir
-subdir
 )
                 
 if
 subdir
-!
+=
 =
 os
 .
@@ -3512,12 +3511,7 @@ path
 join
 (
 topsrcdir
-"
-mobile
-"
-"
-android
-"
+subdir
 )
                 
 name
