@@ -4798,7 +4798,13 @@ atp_set_real_time_limit
 )
 )
 {
-NS_WARNING
+MOZ_LOG
+(
+gCubebLog
+LogLevel
+:
+:
+Warning
 (
 "
 could
@@ -4814,6 +4820,7 @@ CubebUtils
 :
 InitLibrary
 "
+)
 )
 ;
 }
