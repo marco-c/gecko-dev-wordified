@@ -545,7 +545,6 @@ CrashGenerator
 :
 new
 (
-client_pid
 breakpad_data
 minidump_path
 )
@@ -595,7 +594,6 @@ IPCServer
 :
 new
 (
-client_pid
 listener
 connector
 )
@@ -845,7 +843,6 @@ CrashGenerator
 :
 new
 (
-client_pid
 breakpad_data
 minidump_path
 )
@@ -1016,7 +1013,6 @@ IPCServer
 :
 new
 (
-client_pid
 listener
 connector
 )
