@@ -890,24 +890,24 @@ GetNext
 )
 )
 ;
-mUseSharedTextureInSwapChain
+mUseExternalTextureInSwapChain
 =
 aConfig
 .
 mDevice
 -
 >
-mSupportSharedTextureInSwapChain
+mSupportExternalTextureInSwapChain
 ;
 if
 (
-mUseSharedTextureInSwapChain
+mUseExternalTextureInSwapChain
 )
 {
 bool
 client_can_use
 =
-wgpu_client_use_shared_texture_in_swapChain
+wgpu_client_use_external_texture_in_swapChain
 (
 ConvertTextureFormat
 (
@@ -930,7 +930,7 @@ gfxCriticalNote
 WebGPU
 :
 disabling
-SharedTexture
+ExternalTexture
 swapchain
 :
 \
@@ -944,7 +944,7 @@ not
 supported
 "
 ;
-mUseSharedTextureInSwapChain
+mUseExternalTextureInSwapChain
 =
 false
 ;
@@ -971,7 +971,7 @@ gfxCriticalNote
 WebGPU
 :
 disabling
-SharedTexture
+ExternalTexture
 swapchain
 :
 \
@@ -994,7 +994,7 @@ is
 false
 "
 ;
-mUseSharedTextureInSwapChain
+mUseExternalTextureInSwapChain
 =
 false
 ;
@@ -1012,7 +1012,7 @@ use
 hardware
 acceleration
 disable
-shared
+external
 texture
 /
 /
@@ -1059,7 +1059,7 @@ gfxCriticalNote
 WebGPU
 :
 disabling
-SharedTexture
+ExternalTexture
 swapchain
 :
 \
@@ -1074,7 +1074,7 @@ hardware
 acceleration
 "
 ;
-mUseSharedTextureInSwapChain
+mUseExternalTextureInSwapChain
 =
 false
 ;
@@ -1100,7 +1100,7 @@ is
 not
 enabled
 disable
-shared
+external
 texture
 in
 swap
@@ -1137,7 +1137,7 @@ gfxCriticalNote
 WebGPU
 :
 disabling
-SharedTexture
+ExternalTexture
 swapchain
 :
 \
@@ -1150,7 +1150,7 @@ dmabuf
 format
 "
 ;
-mUseSharedTextureInSwapChain
+mUseExternalTextureInSwapChain
 =
 false
 ;
@@ -1239,7 +1239,7 @@ ref
 (
 )
 mBufferIds
-mUseSharedTextureInSwapChain
+mUseExternalTextureInSwapChain
 mGfxFormat
 mCanvasSize
 )
@@ -1815,7 +1815,7 @@ mRemoteTextureOwnerId
 ;
 if
 (
-mUseSharedTextureInSwapChain
+mUseExternalTextureInSwapChain
 )
 {
 mCurrentTexture

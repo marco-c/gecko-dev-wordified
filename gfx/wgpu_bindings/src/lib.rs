@@ -759,7 +759,7 @@ wgt
 :
 :
 Backend
-support_use_shared_texture_in_swap_chain
+support_use_external_texture_in_swap_chain
 :
 bool
 }
@@ -1322,7 +1322,7 @@ BufferId
 remote_texture_owner_id
 :
 RemoteTextureOwnerId
-use_shared_texture_in_swap_chain
+use_external_texture_in_swap_chain
 :
 bool
 }

@@ -196,7 +196,7 @@ class
 ErrorBuffer
 ;
 class
-SharedTexture
+ExternalTexture
 ;
 class
 PresentationData
@@ -471,7 +471,7 @@ RemoteTextureOwnerId
 &
 aOwnerId
 bool
-aUseSharedTextureInSwapChain
+aUseExternalTextureInSwapChain
 )
 ;
 void
@@ -628,7 +628,7 @@ aBufferId
 )
 ;
 bool
-UseSharedTextureForSwapChain
+UseExternalTextureForSwapChain
 (
 ffi
 :
@@ -638,7 +638,7 @@ aSwapChainId
 )
 ;
 void
-DisableSharedTextureForSwapChain
+DisableExternalTextureForSwapChain
 (
 ffi
 :
@@ -648,7 +648,7 @@ aSwapChainId
 )
 ;
 bool
-EnsureSharedTextureForSwapChain
+EnsureExternalTextureForSwapChain
 (
 ffi
 :
@@ -683,7 +683,7 @@ aUsage
 )
 ;
 void
-EnsureSharedTextureForReadBackPresent
+EnsureExternalTextureForReadBackPresent
 (
 ffi
 :
@@ -722,9 +722,9 @@ std
 :
 shared_ptr
 <
-SharedTexture
+ExternalTexture
 >
-CreateSharedTexture
+CreateExternalTexture
 (
 const
 layers
@@ -766,9 +766,9 @@ std
 :
 shared_ptr
 <
-SharedTexture
+ExternalTexture
 >
-GetSharedTexture
+GetExternalTexture
 (
 ffi
 :
@@ -778,7 +778,7 @@ aId
 )
 ;
 void
-PostSharedTexture
+PostExternalTexture
 (
 const
 std
@@ -786,11 +786,11 @@ std
 :
 shared_ptr
 <
-SharedTexture
+ExternalTexture
 >
 &
 &
-aSharedTexture
+aExternalTexture
 const
 layers
 :
@@ -863,7 +863,7 @@ aDeviceId
 )
 ;
 void
-RemoveSharedTexture
+RemoveExternalTexture
 (
 RawId
 aTextureId
@@ -1203,10 +1203,10 @@ std
 :
 shared_ptr
 <
-SharedTexture
+ExternalTexture
 >
 >
-mSharedTextures
+mExternalTextures
 ;
 /
 /

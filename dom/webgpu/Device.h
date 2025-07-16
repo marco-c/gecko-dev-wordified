@@ -421,7 +421,7 @@ mAdapterInfo
 ;
 const
 bool
-mSupportSharedTextureInSwapChain
+mSupportExternalTextureInSwapChain
 ;
 static
 CheckedInt
@@ -512,7 +512,7 @@ const
 >
 aBufferIds
 bool
-aUseSharedTextureInSwapChain
+aUseExternalTextureInSwapChain
 gfx
 :
 :
