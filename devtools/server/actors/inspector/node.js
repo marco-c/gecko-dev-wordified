@@ -958,6 +958,8 @@ walker
 inlineTextChild
 (
 this
+.
+rawNode
 )
 ;
 const

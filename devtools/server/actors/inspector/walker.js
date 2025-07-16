@@ -3986,15 +3986,13 @@ NodeActor
 *
 *
 param
-NodeActor
-node
+Element
+rawNode
 *
 /
 inlineTextChild
 (
-{
 rawNode
-}
 )
 {
 /
@@ -13490,6 +13488,8 @@ this
 inlineTextChild
 (
 targetActor
+.
+rawNode
 )
 ;
 if
@@ -13717,6 +13717,8 @@ this
 inlineTextChild
 (
 parentActor
+.
+rawNode
 )
 ;
 this
