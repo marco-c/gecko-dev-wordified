@@ -152249,12 +152249,6 @@ colorToRGBA
 colorString
 :
 string
-doc
-?
-:
-Document
-|
-null
 )
 :
 InspectorRGBATuple
