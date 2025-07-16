@@ -183,6 +183,15 @@ include
 "
 mozilla
 /
+StaticPrefs_dom
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TimeStamp
 .
 h
