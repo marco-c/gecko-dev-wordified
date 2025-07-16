@@ -819,7 +819,7 @@ return
 NS_OK
 ;
 }
-nsresult
+bool
 NSSKeyStore
 :
 :
@@ -838,7 +838,7 @@ mSlot
 )
 {
 return
-NS_ERROR_NOT_AVAILABLE
+false
 ;
 }
 UniquePK11SymKey
@@ -877,11 +877,11 @@ symKey
 )
 {
 return
-NS_ERROR_NOT_AVAILABLE
+false
 ;
 }
 return
-NS_OK
+true
 ;
 }
 nsresult
