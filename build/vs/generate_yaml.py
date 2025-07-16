@@ -234,25 +234,18 @@ type
         
 if
 type
-=
-=
+in
+{
 "
 Component
 "
-or
-type
-=
-=
 "
 Workload
 "
-or
-type
-=
-=
 "
 Group
 "
+}
 :
             
 continue
