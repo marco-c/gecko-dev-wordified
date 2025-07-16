@@ -678,7 +678,6 @@ self
 m
 str
 {
-&
 self
 .
 node

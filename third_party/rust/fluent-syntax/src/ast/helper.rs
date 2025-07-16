@@ -43,7 +43,7 @@ comments
 which
 are
 single
-continous
+continuous
 String
 into
 a
@@ -58,9 +58,10 @@ slices
 [
 derive
 (
-Debug
-PartialEq
 Clone
+Debug
+Eq
+PartialEq
 )
 ]
 #
@@ -119,8 +120,6 @@ S
 }
 impl
 <
-'
-s
 S
 >
 From

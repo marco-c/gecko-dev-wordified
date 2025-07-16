@@ -400,5 +400,9 @@ parser
 ;
 pub
 mod
+serializer
+;
+pub
+mod
 unicode
 ;

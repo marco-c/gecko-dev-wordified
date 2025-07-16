@@ -29,9 +29,10 @@ Error
 [
 derive
 (
-Debug
-PartialEq
 Clone
+Debug
+Eq
+PartialEq
 )
 ]
 pub
@@ -177,9 +178,10 @@ crate
 [
 derive
 (
-Debug
-PartialEq
 Clone
+Debug
+Eq
+PartialEq
 )
 ]
 pub

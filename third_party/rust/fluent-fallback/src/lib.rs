@@ -551,7 +551,7 @@ is
 far
 from
 the
-ergonomical
+ergonomic
 API
 style
 the
@@ -722,9 +722,6 @@ the
 ToResourceId
 ]
 (
-fluent_fallback
-:
-:
 types
 :
 :
@@ -1177,7 +1174,7 @@ above
 [
 Vec
 <
-LagnuageIdentifier
+LanguageIdentifier
 >
 ]
 (
@@ -1310,9 +1307,6 @@ generator
 ;
 mod
 localization
-;
-mod
-pin_cell
 ;
 pub
 mod

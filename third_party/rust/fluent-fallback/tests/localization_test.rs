@@ -1488,10 +1488,6 @@ with_env
 resource_ids
 true
 locales
-.
-clone
-(
-)
 res_mgr
 )
 ;
@@ -1830,10 +1826,6 @@ with_env
 resource_ids
 true
 locales
-.
-clone
-(
-)
 res_mgr
 )
 ;
@@ -2172,10 +2164,6 @@ with_env
 resource_ids
 true
 locales
-.
-clone
-(
-)
 res_mgr
 )
 ;
@@ -2623,10 +2611,6 @@ with_env
 resource_ids
 true
 locales
-.
-clone
-(
-)
 res_mgr
 )
 ;
@@ -3020,9 +3004,8 @@ assert_eq
 (
 msgs
 .
-get
+first
 (
-0
 )
 .
 unwrap
@@ -3116,9 +3099,8 @@ assert_eq
 (
 msgs
 .
-get
+first
 (
-0
 )
 .
 unwrap

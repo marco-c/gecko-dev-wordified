@@ -833,7 +833,6 @@ self
 &
 str
 {
-&
 self
 .
 0

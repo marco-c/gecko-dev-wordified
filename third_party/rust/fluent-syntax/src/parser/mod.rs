@@ -581,6 +581,16 @@ ParserError
 }
 ;
 pub
+(
+crate
+)
+use
+slice
+:
+:
+matches_fluent_ws
+;
+pub
 use
 slice
 :
