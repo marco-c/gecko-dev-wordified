@@ -560,6 +560,13 @@ nsINode
 aNode
 RangeBoundaryIsMutationObserved
 aIsMutationObserved
+TreeKind
+aBoundaryTreeKind
+=
+TreeKind
+:
+:
+DOM
 )
 :
 AbstractRange
@@ -572,6 +579,7 @@ aIsDynamicRange
 *
 /
 false
+aBoundaryTreeKind
 )
 mIsMutationObserved
 (
