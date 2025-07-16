@@ -147,14 +147,14 @@ h
 #
 include
 "
-nsIFrame
+nsDisplayList
 .
 h
 "
 #
 include
 "
-nsDisplayList
+nsIFrame
 .
 h
 "

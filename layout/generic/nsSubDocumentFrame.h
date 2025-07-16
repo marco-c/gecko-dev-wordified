@@ -123,6 +123,13 @@ NSSUBDOCUMENTFRAME_H_
 #
 include
 "
+Units
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -143,13 +150,6 @@ h
 #
 include
 "
-nsDisplayList
-.
-h
-"
-#
-include
-"
 nsAtomicContainerFrame
 .
 h
@@ -157,7 +157,7 @@ h
 #
 include
 "
-nsIReflowCallback
+nsDisplayList
 .
 h
 "
@@ -171,7 +171,7 @@ h
 #
 include
 "
-Units
+nsIReflowCallback
 .
 h
 "

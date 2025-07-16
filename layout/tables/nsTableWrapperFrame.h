@@ -127,7 +127,7 @@ h
 #
 include
 "
-nscore
+nsCellMap
 .
 h
 "
@@ -141,14 +141,14 @@ h
 #
 include
 "
-nsCellMap
+nsTableFrame
 .
 h
 "
 #
 include
 "
-nsTableFrame
+nscore
 .
 h
 "

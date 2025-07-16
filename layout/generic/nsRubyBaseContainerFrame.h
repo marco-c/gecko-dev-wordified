@@ -140,14 +140,14 @@ nsRubyBaseContainerFrame_h___
 #
 include
 "
-nsContainerFrame
+RubyUtils
 .
 h
 "
 #
 include
 "
-RubyUtils
+nsContainerFrame
 .
 h
 "

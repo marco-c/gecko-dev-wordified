@@ -150,14 +150,14 @@ h
 #
 include
 "
-prio
+nsTArray
 .
 h
 "
 #
 include
 "
-nsTArray
+prio
 .
 h
 "

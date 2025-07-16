@@ -123,14 +123,14 @@ nsIMathMLFrame_h___
 #
 include
 "
-nsQueryFrame
+nsMathMLOperators
 .
 h
 "
 #
 include
 "
-nsMathMLOperators
+nsQueryFrame
 .
 h
 "

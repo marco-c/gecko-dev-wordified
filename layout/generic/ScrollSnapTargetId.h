@@ -70,6 +70,13 @@ cstdint
 #
 include
 "
+Units
+.
+h
+"
+#
+include
+"
 nsPoint
 .
 h
@@ -78,13 +85,6 @@ h
 include
 "
 nsTArray
-.
-h
-"
-#
-include
-"
-Units
 .
 h
 "

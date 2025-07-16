@@ -123,14 +123,14 @@ MOZILLA_GEOMETRYUTILS_H_
 #
 include
 "
-nsTArray
+nsCOMPtr
 .
 h
 "
 #
 include
 "
-nsCOMPtr
+nsTArray
 .
 h
 "

@@ -123,13 +123,6 @@ mozilla_layout_ScrollAnchorContainer_h_
 #
 include
 "
-nsPoint
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Saturate
@@ -142,6 +135,13 @@ include
 mozilla
 /
 TimeStamp
+.
+h
+"
+#
+include
+"
+nsPoint
 .
 h
 "

@@ -130,9 +130,7 @@ include
 "
 mozilla
 /
-dom
-/
-CSSPropertyRuleBinding
+ServoBindings
 .
 h
 "
@@ -141,7 +139,9 @@ include
 "
 mozilla
 /
-ServoBindings
+dom
+/
+CSSPropertyRuleBinding
 .
 h
 "

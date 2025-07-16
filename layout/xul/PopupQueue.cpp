@@ -124,9 +124,7 @@ include
 "
 mozilla
 /
-dom
-/
-Element
+StaticPtr
 .
 h
 "
@@ -135,7 +133,9 @@ include
 "
 mozilla
 /
-StaticPtr
+dom
+/
+Element
 .
 h
 "

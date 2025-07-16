@@ -154,14 +154,14 @@ h
 #
 include
 "
-nsChangeHint
+nsCOMPtr
 .
 h
 "
 #
 include
 "
-nsCOMPtr
+nsChangeHint
 .
 h
 "

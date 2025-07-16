@@ -123,6 +123,13 @@ mozilla_ServoElementSnapshotTable_h
 #
 include
 "
+ServoElementSnapshot
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -142,13 +149,6 @@ h
 include
 "
 nsHashKeys
-.
-h
-"
-#
-include
-"
-ServoElementSnapshot
 .
 h
 "

@@ -123,6 +123,13 @@ LAYOUT_SVG_SVGGFRAME_H_
 #
 include
 "
+gfxMatrix
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -135,13 +142,6 @@ include
 mozilla
 /
 SVGContainerFrame
-.
-h
-"
-#
-include
-"
-gfxMatrix
 .
 h
 "

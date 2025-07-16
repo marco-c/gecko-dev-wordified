@@ -143,6 +143,13 @@ h
 #
 include
 "
+PresShell
+.
+h
+"
+#
+include
+"
 mozilla
 /
 OverflowChangedTracker
@@ -176,13 +183,6 @@ h
 include
 "
 nsLayoutUtils
-.
-h
-"
-#
-include
-"
-PresShell
 .
 h
 "

@@ -125,9 +125,7 @@ include
 "
 mozilla
 /
-dom
-/
-Document
+StyleSheet
 .
 h
 "
@@ -136,7 +134,9 @@ include
 "
 mozilla
 /
-StyleSheet
+dom
+/
+Document
 .
 h
 "

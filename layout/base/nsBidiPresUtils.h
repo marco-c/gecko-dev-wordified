@@ -159,13 +159,6 @@ h
 #
 include
 "
-nsHashKeys
-.
-h
-"
-#
-include
-"
 nsCoord
 .
 h
@@ -173,7 +166,7 @@ h
 #
 include
 "
-nsTArray
+nsHashKeys
 .
 h
 "
@@ -181,6 +174,13 @@ h
 include
 "
 nsLineBox
+.
+h
+"
+#
+include
+"
+nsTArray
 .
 h
 "

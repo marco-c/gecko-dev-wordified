@@ -125,9 +125,7 @@ include
 "
 mozilla
 /
-dom
-/
-Document
+PresShell
 .
 h
 "
@@ -136,7 +134,9 @@ include
 "
 mozilla
 /
-PresShell
+dom
+/
+Document
 .
 h
 "

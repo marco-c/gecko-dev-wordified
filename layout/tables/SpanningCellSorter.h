@@ -141,6 +141,13 @@ h
 #
 include
 "
+StackArena
+.
+h
+"
+#
+include
+"
 nsDebug
 .
 h
@@ -149,13 +156,6 @@ h
 include
 "
 nsTArray
-.
-h
-"
-#
-include
-"
-StackArena
 .
 h
 "

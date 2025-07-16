@@ -123,7 +123,9 @@ ScrollVelocityQueue_h_
 #
 include
 "
-nsTArray
+mozilla
+/
+TimeStamp
 .
 h
 "
@@ -137,9 +139,7 @@ h
 #
 include
 "
-mozilla
-/
-TimeStamp
+nsTArray
 .
 h
 "

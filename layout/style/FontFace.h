@@ -123,11 +123,7 @@ mozilla_dom_FontFace_h
 #
 include
 "
-mozilla
-/
-dom
-/
-FontFaceBinding
+gfxUserFontSet
 .
 h
 "
@@ -152,7 +148,11 @@ h
 #
 include
 "
-gfxUserFontSet
+mozilla
+/
+dom
+/
+FontFaceBinding
 .
 h
 "

@@ -123,13 +123,6 @@ nsImageRenderer_h__
 #
 include
 "
-nsStyleStruct
-.
-h
-"
-#
-include
-"
 Units
 .
 h
@@ -149,6 +142,13 @@ include
 mozilla
 /
 SurfaceFromElementResult
+.
+h
+"
+#
+include
+"
+nsStyleStruct
 .
 h
 "

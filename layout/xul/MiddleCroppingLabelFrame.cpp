@@ -133,9 +133,7 @@ include
 "
 mozilla
 /
-dom
-/
-Element
+PresShell
 .
 h
 "
@@ -144,7 +142,9 @@ include
 "
 mozilla
 /
-PresShell
+dom
+/
+Element
 .
 h
 "

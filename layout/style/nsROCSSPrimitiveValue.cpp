@@ -145,6 +145,13 @@ h
 #
 include
 "
+nsError
+.
+h
+"
+#
+include
+"
 nsPresContext
 .
 h
@@ -153,13 +160,6 @@ h
 include
 "
 nsStyleUtil
-.
-h
-"
-#
-include
-"
-nsError
 .
 h
 "

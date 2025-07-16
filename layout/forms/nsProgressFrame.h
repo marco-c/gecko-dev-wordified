@@ -132,6 +132,13 @@ h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsContainerFrame
 .
 h
@@ -140,13 +147,6 @@ h
 include
 "
 nsIAnonymousContentCreator
-.
-h
-"
-#
-include
-"
-nsCOMPtr
 .
 h
 "

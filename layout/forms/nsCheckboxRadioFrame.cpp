@@ -124,13 +124,6 @@ h
 #
 include
 "
-nsLayoutUtils
-.
-h
-"
-#
-include
-"
 mozilla
 /
 PresShell
@@ -141,6 +134,13 @@ h
 include
 "
 nsIContent
+.
+h
+"
+#
+include
+"
+nsLayoutUtils
 .
 h
 "

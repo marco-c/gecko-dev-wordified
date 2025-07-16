@@ -130,9 +130,7 @@ include
 "
 mozilla
 /
-dom
-/
-CSSFontFeatureValuesRuleBinding
+ServoBindings
 .
 h
 "
@@ -141,7 +139,9 @@ include
 "
 mozilla
 /
-ServoBindings
+dom
+/
+CSSFontFeatureValuesRuleBinding
 .
 h
 "

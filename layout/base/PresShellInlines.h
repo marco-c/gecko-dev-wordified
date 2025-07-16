@@ -123,13 +123,6 @@ mozilla_PresShellInlines_h
 #
 include
 "
-nsDocShell
-.
-h
-"
-#
-include
-"
 GeckoProfiler
 .
 h
@@ -162,6 +155,13 @@ mozilla
 dom
 /
 Element
+.
+h
+"
+#
+include
+"
+nsDocShell
 .
 h
 "

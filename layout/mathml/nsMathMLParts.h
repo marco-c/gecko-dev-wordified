@@ -123,14 +123,14 @@ nsMathMLParts_h___
 #
 include
 "
-nscore
+nsISupports
 .
 h
 "
 #
 include
 "
-nsISupports
+nscore
 .
 h
 "

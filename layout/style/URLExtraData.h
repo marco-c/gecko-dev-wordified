@@ -144,7 +144,7 @@ include
 "
 mozilla
 /
-StaticPtr
+BuiltInStyleSheets
 .
 h
 "
@@ -153,7 +153,7 @@ include
 "
 mozilla
 /
-BuiltInStyleSheets
+StaticPtr
 .
 h
 "

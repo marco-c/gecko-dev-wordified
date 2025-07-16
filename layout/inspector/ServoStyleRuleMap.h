@@ -125,9 +125,7 @@ include
 "
 mozilla
 /
-css
-/
-Rule
+StyleSheet
 .
 h
 "
@@ -136,7 +134,9 @@ include
 "
 mozilla
 /
-StyleSheet
+css
+/
+Rule
 .
 h
 "

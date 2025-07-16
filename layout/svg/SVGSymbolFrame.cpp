@@ -132,9 +132,7 @@ include
 "
 mozilla
 /
-dom
-/
-SVGSymbolElement
+PresShell
 .
 h
 "
@@ -143,7 +141,9 @@ include
 "
 mozilla
 /
-PresShell
+dom
+/
+SVGSymbolElement
 .
 h
 "

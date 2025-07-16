@@ -140,6 +140,13 @@ nsIAnonymousContentCreator_h___
 #
 include
 "
+X11UndefineNone
+.
+h
+"
+#
+include
+"
 mozilla
 /
 AnonymousContentKey
@@ -157,13 +164,6 @@ h
 include
 "
 nsTArrayForwardDeclare
-.
-h
-"
-#
-include
-"
-X11UndefineNone
 .
 h
 "

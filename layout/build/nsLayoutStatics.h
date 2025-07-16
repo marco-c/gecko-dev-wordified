@@ -123,14 +123,14 @@ nsLayoutStatics_h__
 #
 include
 "
-nscore
+MainThreadUtils
 .
 h
 "
 #
 include
 "
-MainThreadUtils
+nsDebug
 .
 h
 "
@@ -144,7 +144,7 @@ h
 #
 include
 "
-nsDebug
+nscore
 .
 h
 "

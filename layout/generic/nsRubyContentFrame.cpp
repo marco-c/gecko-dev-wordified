@@ -147,14 +147,14 @@ h
 #
 include
 "
-nsPresContext
+nsCSSAnonBoxes
 .
 h
 "
 #
 include
 "
-nsCSSAnonBoxes
+nsPresContext
 .
 h
 "

@@ -154,6 +154,13 @@ h
 #
 include
 "
+SVGAnimatedTransformList
+.
+h
+"
+#
+include
+"
 gfxPattern
 .
 h
@@ -240,13 +247,6 @@ h
 include
 "
 nsContentUtils
-.
-h
-"
-#
-include
-"
-SVGAnimatedTransformList
 .
 h
 "

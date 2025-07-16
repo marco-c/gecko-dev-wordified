@@ -150,7 +150,7 @@ mozilla
 /
 dom
 /
-SVGFEImageElement
+MutationEventBinding
 .
 h
 "
@@ -161,7 +161,7 @@ mozilla
 /
 dom
 /
-MutationEventBinding
+SVGFEImageElement
 .
 h
 "
@@ -175,14 +175,14 @@ h
 #
 include
 "
-nsIFrame
+nsGkAtoms
 .
 h
 "
 #
 include
 "
-nsGkAtoms
+nsIFrame
 .
 h
 "

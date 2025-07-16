@@ -151,13 +151,6 @@ h
 #
 include
 "
-nsViewManager
-.
-h
-"
-#
-include
-"
 nsIDocShell
 .
 h
@@ -166,6 +159,13 @@ h
 include
 "
 nsIDocShellTreeOwner
+.
+h
+"
+#
+include
+"
+nsViewManager
 .
 h
 "

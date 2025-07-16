@@ -123,6 +123,13 @@ LAYOUT_SVG_SVGIMAGECONTEXT_H_
 #
 include
 "
+Units
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Maybe
@@ -144,13 +151,6 @@ include
 mozilla
 /
 SVGPreserveAspectRatio
-.
-h
-"
-#
-include
-"
-Units
 .
 h
 "

@@ -75,7 +75,7 @@ iosfwd
 #
 include
 "
-nsPoint
+Units
 .
 h
 "
@@ -127,7 +127,7 @@ h
 #
 include
 "
-Units
+nsPoint
 .
 h
 "

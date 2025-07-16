@@ -132,14 +132,14 @@ h
 #
 include
 "
-nsQueryFrame
+nsCoord
 .
 h
 "
 #
 include
 "
-nsCoord
+nsQueryFrame
 .
 h
 "

@@ -140,6 +140,13 @@ mozilla_ServoTypes_h
 #
 include
 "
+X11UndefineNone
+.
+h
+"
+#
+include
+"
 mozilla
 /
 RefPtr
@@ -166,13 +173,6 @@ h
 include
 "
 nsCoord
-.
-h
-"
-#
-include
-"
-X11UndefineNone
 .
 h
 "

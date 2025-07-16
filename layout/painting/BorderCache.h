@@ -123,11 +123,7 @@ mozilla_BorderCache_h_
 #
 include
 "
-mozilla
-/
-gfx
-/
-2D
+PLDHashTable
 .
 h
 "
@@ -143,7 +139,11 @@ h
 #
 include
 "
-PLDHashTable
+mozilla
+/
+gfx
+/
+2D
 .
 h
 "

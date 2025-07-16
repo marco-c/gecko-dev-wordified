@@ -136,14 +136,14 @@ nsITableLayoutStrategy_h_
 #
 include
 "
-nscore
+nsCoord
 .
 h
 "
 #
 include
 "
-nsCoord
+nscore
 .
 h
 "

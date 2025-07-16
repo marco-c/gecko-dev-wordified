@@ -151,14 +151,14 @@ h
 #
 include
 "
-nsColor
+nsCSSPropertyID
 .
 h
 "
 #
 include
 "
-nsCSSPropertyID
+nsColor
 .
 h
 "

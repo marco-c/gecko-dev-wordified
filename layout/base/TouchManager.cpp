@@ -124,6 +124,13 @@ h
 #
 include
 "
+PositionedEventTargeting
+.
+h
+"
+#
+include
+"
 Units
 .
 h
@@ -242,13 +249,6 @@ h
 include
 "
 nsView
-.
-h
-"
-#
-include
-"
-PositionedEventTargeting
 .
 h
 "

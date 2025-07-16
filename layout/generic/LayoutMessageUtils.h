@@ -141,13 +141,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 mozilla
 /
 AspectRatio
@@ -162,6 +155,13 @@ mozilla
 webrender
 /
 WebRenderTypes
+.
+h
+"
+#
+include
+"
+nsIFrame
 .
 h
 "

@@ -136,14 +136,14 @@ nsRubyFrame_h___
 #
 include
 "
-nsInlineFrame
+RubyUtils
 .
 h
 "
 #
 include
 "
-RubyUtils
+nsInlineFrame
 .
 h
 "

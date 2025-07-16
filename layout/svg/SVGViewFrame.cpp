@@ -177,14 +177,14 @@ h
 #
 include
 "
-nsIFrame
+nsGkAtoms
 .
 h
 "
 #
 include
 "
-nsGkAtoms
+nsIFrame
 .
 h
 "

@@ -132,9 +132,7 @@ include
 "
 mozilla
 /
-gfx
-/
-Matrix
+Maybe
 .
 h
 "
@@ -143,7 +141,9 @@ include
 "
 mozilla
 /
-Maybe
+gfx
+/
+Matrix
 .
 h
 "

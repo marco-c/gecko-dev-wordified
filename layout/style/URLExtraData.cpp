@@ -140,6 +140,13 @@ h
 #
 include
 "
+ReferrerInfo
+.
+h
+"
+#
+include
+"
 mozilla
 /
 NullPrincipal
@@ -150,13 +157,6 @@ h
 include
 "
 nsAboutProtocolUtils
-.
-h
-"
-#
-include
-"
-ReferrerInfo
 .
 h
 "

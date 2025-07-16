@@ -137,9 +137,7 @@ include
 "
 mozilla
 /
-dom
-/
-CSSCounterStyleRuleBinding
+ServoBindings
 .
 h
 "
@@ -148,7 +146,9 @@ include
 "
 mozilla
 /
-ServoBindings
+dom
+/
+CSSCounterStyleRuleBinding
 .
 h
 "
