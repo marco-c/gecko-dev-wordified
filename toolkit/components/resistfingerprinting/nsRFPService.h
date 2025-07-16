@@ -4395,7 +4395,7 @@ Maybe
 <
 bool
 >
-HandleExeptionalRFPTargets
+HandleExceptionalRFPTargets
 (
 RFPTarget
 aTarget

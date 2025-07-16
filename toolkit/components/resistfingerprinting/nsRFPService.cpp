@@ -1922,7 +1922,7 @@ bool
 nsRFPService
 :
 :
-HandleExeptionalRFPTargets
+HandleExceptionalRFPTargets
 (
 RFPTarget
 aTarget
@@ -2233,7 +2233,7 @@ bool
 >
 result
 =
-HandleExeptionalRFPTargets
+HandleExceptionalRFPTargets
 (
 aTarget
 aIsPrivateMode
