@@ -5200,8 +5200,13 @@ resourceFormat
 ;
 t
 .
-skipIfTextureFormatNotUsableAsStorageTexture
+skipIfTextureFormatNotUsableWithStorageAccessMode
 (
+'
+write
+-
+only
+'
 storageTextureFormat
 resourceFormat
 )

@@ -2124,8 +2124,13 @@ params
 ;
 t
 .
-skipIfTextureFormatNotUsableAsStorageTexture
+skipIfTextureFormatNotUsableWithStorageAccessMode
 (
+'
+write
+-
+only
+'
 format
 )
 ;

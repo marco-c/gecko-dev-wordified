@@ -7178,6 +7178,16 @@ tier1
 :
 {
 }
+'
+texture
+-
+formats
+-
+tier2
+'
+:
+{
+}
 }
 ;
 /
