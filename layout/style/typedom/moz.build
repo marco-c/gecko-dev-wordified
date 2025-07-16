@@ -120,6 +120,11 @@ CSSStyleValue
 .
 h
 "
+"
+StylePropertyMapReadOnly
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
@@ -127,6 +132,11 @@ UNIFIED_SOURCES
 [
 "
 CSSStyleValue
+.
+cpp
+"
+"
+StylePropertyMapReadOnly
 .
 cpp
 "
