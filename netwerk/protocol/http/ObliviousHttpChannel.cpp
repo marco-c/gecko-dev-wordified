@@ -4975,6 +4975,14 @@ aMethod
 "
 PUT
 "
+&
+&
+aMethod
+!
+=
+"
+DELETE
+"
 )
 {
 return
