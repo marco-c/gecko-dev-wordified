@@ -290,9 +290,7 @@ b
 -
 linux
 -
-medium
--
-gcp
+amd
 "
         
 worker
