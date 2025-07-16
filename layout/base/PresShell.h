@@ -19323,6 +19323,10 @@ const
 nsRect
 &
 aRect
+const
+nsRect
+&
+aPreserve3DRect
 bool
 aRemoveOnly
 =
