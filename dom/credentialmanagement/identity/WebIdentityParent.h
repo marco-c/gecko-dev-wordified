@@ -611,6 +611,8 @@ tuple
 <
 nsCString
 nsCString
+const
+bool
 >
 nsresult
 true
@@ -628,6 +630,7 @@ tuple
 <
 IdentityProviderAPIConfig
 IdentityProviderAccount
+const
 bool
 >
 nsresult
@@ -2293,6 +2296,9 @@ const
 IdentityProviderAccount
 &
 aAccount
+const
+bool
+isAutoSelected
 )
 ;
 }
