@@ -3231,7 +3231,7 @@ right
 detail
 view
 is
-laoded
+loaded
 "
 )
 ;
