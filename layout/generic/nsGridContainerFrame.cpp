@@ -2706,8 +2706,6 @@ MinSize
 aAxis
 aWM
 anchorResolutionParams
-.
-mPosition
 )
 ;
 if
@@ -2824,8 +2822,6 @@ aAxis
 )
 aWM
 anchorResolutionParams
-.
-mPosition
 )
 ;
 if
@@ -3085,8 +3081,6 @@ BSize
 (
 aWM
 anchorResolutionParams
-.
-mPosition
 )
 ;
 if
@@ -3193,8 +3187,6 @@ aAxis
 )
 aWM
 anchorResolutionParams
-.
-mPosition
 )
 ;
 if
@@ -7048,8 +7040,6 @@ Size
 aContainerAxis
 aContainerWM
 anchorResolutionParams
-.
-mPosition
 )
 ;
 /
@@ -7283,8 +7273,6 @@ MinSize
 aContainerAxis
 aContainerWM
 anchorResolutionParams
-.
-mPosition
 )
 ;
 /
@@ -8108,8 +8096,6 @@ BSize
 (
 aContainerWM
 anchorResolutionParams
-.
-mPosition
 )
 )
 |
@@ -8124,8 +8110,6 @@ MinBSize
 (
 aContainerWM
 anchorResolutionParams
-.
-mPosition
 )
 )
 |
@@ -48666,8 +48650,6 @@ Size
 aAxis
 cbwm
 anchorResolutionParams
-.
-mPosition
 )
 ;
 const
@@ -49155,8 +49137,6 @@ Size
 aAxis
 containerWM
 anchorResolutionParams
-.
-mPosition
 )
 ;
 MOZ_ASSERT
@@ -49380,8 +49360,6 @@ MinSize
 aAxis
 containerWM
 anchorResolutionParams
-.
-mPosition
 )
 ;
 /
@@ -66051,12 +66029,14 @@ mStylePosition
 BSize
 (
 childWM
+AnchorPosResolutionParams
+:
+:
+From
+(
+&
 childRI
-.
-mStyleDisplay
--
->
-mPosition
+)
 )
 -
 >

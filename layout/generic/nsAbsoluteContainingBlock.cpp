@@ -2382,8 +2382,6 @@ ISize
 (
 wm
 anchorResolutionParams
-.
-mPosition
 )
 )
 |
@@ -2400,8 +2398,6 @@ MinISize
 (
 wm
 anchorResolutionParams
-.
-mPosition
 )
 )
 |
@@ -2692,8 +2688,6 @@ BSize
 (
 wm
 anchorResolutionParams
-.
-mPosition
 )
 ;
 const
@@ -2783,8 +2777,6 @@ MinBSize
 (
 wm
 anchorResolutionParams
-.
-mPosition
 )
 )
 |

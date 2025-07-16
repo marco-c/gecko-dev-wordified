@@ -6477,8 +6477,6 @@ ISize
 (
 wm
 anchorResolutionParams
-.
-mPosition
 )
 -
 >
@@ -6494,8 +6492,6 @@ BSize
 (
 wm
 anchorResolutionParams
-.
-mPosition
 )
 -
 >

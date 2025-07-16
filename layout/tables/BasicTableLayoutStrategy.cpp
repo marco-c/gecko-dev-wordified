@@ -757,8 +757,6 @@ BSize
 (
 aWM
 anchorResolutionParams
-.
-mPosition
 )
 *
 stylePos
@@ -768,8 +766,6 @@ MinBSize
 (
 aWM
 anchorResolutionParams
-.
-mPosition
 )
 *
 stylePos
@@ -1012,8 +1008,6 @@ ISize
 (
 aWM
 anchorResolutionParams
-.
-mPosition
 )
 ;
 /
@@ -1601,8 +1595,6 @@ BSize
 (
 aWM
 anchorResolutionParams
-.
-mPosition
 )
 aFrame
 -
@@ -1681,8 +1673,6 @@ MinISize
 (
 aWM
 anchorResolutionParams
-.
-mPosition
 )
 ;
 if
@@ -1838,8 +1828,6 @@ BSize
 (
 aWM
 anchorResolutionParams
-.
-mPosition
 )
 aFrame
 -
