@@ -660,10 +660,13 @@ aRv
 void
 ResolveLost
 (
+Maybe
+<
 dom
 :
 :
 GPUDeviceLostReason
+>
 aReason
 const
 nsAString
