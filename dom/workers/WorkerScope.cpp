@@ -1985,16 +1985,6 @@ HybridEventTarget
 )
 )
 {
-if
-(
-StaticPrefs
-:
-:
-dom_workers_timeoutmanager_AtStartup
-(
-)
-)
-{
 mTimeoutManager
 =
 MakeUnique
@@ -2019,7 +2009,6 @@ workers
 mSerialEventTarget
 )
 ;
-}
 LOG
 (
 (
