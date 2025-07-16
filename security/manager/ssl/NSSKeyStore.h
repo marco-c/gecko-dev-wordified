@@ -202,7 +202,7 @@ encrypt
 override
 ;
 virtual
-bool
+nsresult
 SecretAvailable
 (
 const
