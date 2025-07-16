@@ -4058,7 +4058,6 @@ as
 CKT_NSS_TRUST_UNKNOWN
 "
 )
-;
 #
 define
 CKT_NSS_MUST_VERIFY
