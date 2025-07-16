@@ -36321,6 +36321,10 @@ const
 nsDisplayList
 &
 aList
+uint32_t
+aIndent
+=
+0
 bool
 aDumpHtml
 =

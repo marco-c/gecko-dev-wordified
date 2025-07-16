@@ -1568,6 +1568,8 @@ const
 nsDisplayList
 &
 aList
+uint32_t
+aIndent
 bool
 aDumpHtml
 )
@@ -1578,11 +1580,12 @@ std
 stringstream
 ss
 ;
-PrintDisplayList
+PrintDisplayListTo
 (
 aBuilder
 aList
 ss
+aIndent
 aDumpHtml
 )
 ;
