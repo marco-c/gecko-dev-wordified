@@ -84,6 +84,9 @@ class
 nsIFrame
 ;
 class
+nsIContent
+;
+class
 nsPresContext
 ;
 namespace
