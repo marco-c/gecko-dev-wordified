@@ -388,7 +388,7 @@ Status
 of
 when
 a
-Disaptcher
+Dispatcher
 future
 completes
 .
