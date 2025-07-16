@@ -1069,6 +1069,13 @@ Option
 <
 CompositorClipIndex
 >
+pub
+tile_id
+:
+Option
+<
+TileId
+>
 }
 pub
 fn
@@ -5817,6 +5824,9 @@ external_surface
 .
 transform_index
 clip_index
+tile_id
+:
+None
 }
 ;
 let
