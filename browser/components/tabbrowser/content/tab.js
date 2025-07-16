@@ -1739,6 +1739,7 @@ visible
 )
 {
 return
+(
 this
 .
 isOpen
@@ -1750,6 +1751,7 @@ this
 hidden
 &
 &
+(
 !
 this
 .
@@ -1757,6 +1759,13 @@ group
 ?
 .
 collapsed
+|
+|
+this
+.
+selected
+)
+)
 ;
 }
 get
