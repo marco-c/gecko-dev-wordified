@@ -150,14 +150,6 @@ specification
 [
 tamper
 ]
-[
-leafIndex
-:
-<
-leaf
-index
->
-]
 certificate
 :
 <
@@ -297,22 +289,22 @@ self
 :
         
 return
-f
 '
 Invalid
 key
 :
 "
-{
+%
+s
+"
+'
+%
 str
 (
 self
 .
 key
 )
-}
-"
-'
 class
 UnknownSignedEntryType
 (
@@ -357,23 +349,23 @@ self
 :
         
 return
-f
 '
 Unknown
 SignedEntry
 type
 :
 "
-{
+%
+s
+"
+'
+%
 str
 (
 self
 .
 signedEntry
 )
-}
-"
-'
 class
 SignedEntry
 :
@@ -495,9 +487,6 @@ self
 key
 date
 signedEntry
-leafIndex
-=
-None
 )
 :
         
@@ -535,12 +524,6 @@ self
 tamper
 =
 False
-        
-self
-.
-leafIndex
-=
-leafIndex
     
 def
 signAndEncode
@@ -653,6 +636,16 @@ byte
 length
 -
 prefixed
+currently
+empty
+(
+so
+two
+0
+        
+#
+bytes
+)
 )
         
 #
@@ -881,132 +874,6 @@ self
 signedEntry
 )
         
-extensions
-=
-[
-]
-        
-if
-self
-.
-leafIndex
-:
-            
-#
-An
-extension
-consists
-of
-1
-byte
-to
-identify
-the
-extension
-type
-2
-            
-#
-big
--
-endian
-bytes
-for
-the
-length
-of
-the
-extension
-data
-and
-then
-            
-#
-the
-extension
-data
-.
-            
-#
-The
-type
-of
-leaf_index
-is
-0
-and
-its
-data
-consists
-of
-5
-bytes
-.
-            
-extensions
-=
-[
-b
-"
-\
-0
-\
-0
-\
-5
-"
-+
-self
-.
-leafIndex
-.
-to_bytes
-(
-5
-byteorder
-=
-"
-big
-"
-)
-]
-        
-extensionsLength
-=
-sum
-(
-map
-(
-len
-extensions
-)
-)
-        
-extensionsEncoded
-=
-extensionsLength
-.
-to_bytes
-(
-2
-byteorder
-=
-"
-big
-"
-)
-+
-b
-"
-"
-.
-join
-(
-            
-extensions
-        
-)
-        
 data
 =
 b
@@ -1027,7 +894,13 @@ b
 +
 entry_with_type
 +
-extensionsEncoded
+b
+"
+\
+0
+\
+0
+"
         
 if
 isinstance
@@ -1220,6 +1093,10 @@ length
 -
 prefixed
 data
+currently
+        
+#
+empty
 )
         
 #
@@ -1324,11 +1201,12 @@ key_id
 timestamp
             
 +
-extensionsEncoded
-            
-+
 b
 "
+\
+0
+\
+0
 \
 4
 "
@@ -1378,10 +1256,6 @@ tamper
 =
 False
         
-leafIndex
-=
-None
-        
 for
 line
 in
@@ -1392,7 +1266,7 @@ readlines
 )
 :
             
-lineStripped
+line
 =
 line
 .
@@ -1406,14 +1280,14 @@ readingCertificateSpecification
                 
 print
 (
-lineStripped
+line
 file
 =
 certificateSpecification
 )
             
 elif
-lineStripped
+line
 =
 =
 "
@@ -1427,7 +1301,7 @@ readingCertificateSpecification
 True
             
 elif
-lineStripped
+line
 .
 startswith
 (
@@ -1444,7 +1318,7 @@ pykey
 .
 keyFromSpecification
 (
-lineStripped
+line
 [
 len
 (
@@ -1458,7 +1332,7 @@ key
 )
             
 elif
-lineStripped
+line
 .
 startswith
 (
@@ -1478,7 +1352,7 @@ datetime
 strptime
 (
                     
-lineStripped
+line
 [
 len
 (
@@ -1501,7 +1375,7 @@ d
 )
             
 elif
-lineStripped
+line
 =
 =
 "
@@ -1513,35 +1387,6 @@ tamper
 =
 True
             
-elif
-lineStripped
-.
-startswith
-(
-"
-leafIndex
-:
-"
-)
-:
-                
-leafIndex
-=
-int
-(
-lineStripped
-[
-len
-(
-"
-leafIndex
-:
-"
-)
-:
-]
-)
-            
 else
 :
                 
@@ -1550,7 +1395,7 @@ pycert
 .
 UnknownParameterTypeError
 (
-lineStripped
+line
 )
         
 certificateSpecification
@@ -1590,12 +1435,6 @@ sct
 tamper
 =
 tamper
-        
-sct
-.
-leafIndex
-=
-leafIndex
         
 return
 sct

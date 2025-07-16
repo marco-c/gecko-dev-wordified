@@ -267,10 +267,6 @@ CTLogState
 :
 :
 Admissible
-CTLogFormat
-:
-:
-RFC6962
 0
 )
 ;
@@ -716,10 +712,6 @@ CTLogState
 :
 :
 Admissible
-CTLogFormat
-:
-:
-RFC6962
 0
 )
 ;

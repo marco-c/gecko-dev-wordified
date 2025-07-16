@@ -314,13 +314,6 @@ specification
 <
 YYYYMMDD
 >
-[
-:
-<
-leaf
-index
->
-]
 .
 .
 .
@@ -880,6 +873,8 @@ value
         
 super
 (
+UnknownBaseError
+self
 )
 .
 __init__
@@ -908,26 +903,28 @@ self
 :
         
 return
-f
 '
 Unknown
-{
+%
+s
+type
+"
+%
+s
+"
+'
+%
+(
 self
 .
 category
-}
-type
-"
-{
 repr
 (
 self
 .
 value
 )
-}
-"
-'
+)
 class
 UnknownAlgorithmTypeError
 (
@@ -1471,6 +1468,8 @@ value
         
 super
 (
+InvalidSCTSpecification
+self
 )
 .
 __init__
@@ -1491,19 +1490,22 @@ self
 :
         
 return
-f
+repr
+(
 '
 invalid
 SCT
 specification
 "
 {
-self
-.
-value
 }
 "
 '
+%
+self
+.
+value
+)
 class
 InvalidSerialNumber
 (
@@ -1536,6 +1538,8 @@ value
         
 super
 (
+InvalidSerialNumber
+self
 )
 .
 __init__
@@ -1773,15 +1777,15 @@ string
         
 string
 =
-f
 "
 /
 CN
 =
-{
-string
-}
+%
+s
 "
+%
+string
     
 rdns
 =
@@ -5090,12 +5094,8 @@ split
 )
 :
             
-policyOIDMapped
-=
-policyOID
-            
 if
-policyOIDMapped
+policyOID
 =
 =
 "
@@ -5103,7 +5103,7 @@ any
 "
 :
                 
-policyOIDMapped
+policyOID
 =
 "
 2
@@ -5131,7 +5131,7 @@ rfc2459
 .
 CertPolicyId
 (
-policyOIDMapped
+policyOID
 )
             
 policy
@@ -5718,14 +5718,6 @@ d
 8
 }
 )
-:
-?
-(
-\
-d
-+
-)
-?
 "
 sctSpec
 )
@@ -5748,26 +5740,6 @@ match
 group
 (
 1
-)
-            
-leafIndex
-=
-match
-.
-group
-(
-3
-)
-            
-if
-leafIndex
-:
-                
-leafIndex
-=
-int
-(
-leafIndex
 )
             
 key
@@ -5826,7 +5798,6 @@ pyct
 .
 SCT
 (
-                
 key
 time
 pyct
@@ -5838,8 +5809,6 @@ self
 .
 issuerKey
 )
-leafIndex
-            
 )
             
 signed
