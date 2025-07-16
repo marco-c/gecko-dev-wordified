@@ -699,7 +699,7 @@ UpdateOffset
 )
 ;
 void
-UpdateSourceRect
+UpdateRenderRect
 (
 )
 ;
@@ -725,7 +725,7 @@ IntSize
 mKernelSize
 ;
 IntRect
-mSourceRect
+mRenderRect
 ;
 }
 ;
