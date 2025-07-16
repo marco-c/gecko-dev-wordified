@@ -18037,6 +18037,11 @@ also
 excluded
 if
 (
+NS_IsMainThread
+(
+)
+&
+&
 BasePrincipal
 :
 :

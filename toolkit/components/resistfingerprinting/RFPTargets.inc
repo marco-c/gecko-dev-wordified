@@ -672,6 +672,11 @@ ITEM_VALUE
 DiskStorageLimit
 70
 )
+ITEM_VALUE
+(
+WebCodecs
+71
+)
 /
 /
 !
