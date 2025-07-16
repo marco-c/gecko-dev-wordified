@@ -14061,11 +14061,6 @@ NonTSPseudoClass
 :
 :
 MozValueEmpty
-|
-NonTSPseudoClass
-:
-:
-MozSuppressForPrintSelection
 =
 >
 self
