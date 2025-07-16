@@ -743,7 +743,9 @@ L107
 /
 /
 /
-ARM
+aarch64
+/
+arm64ec
 '
 s
 big
@@ -895,6 +897,11 @@ target_arch
 =
 "
 aarch64
+"
+target_arch
+=
+"
+arm64ec
 "
 target_arch
 =
@@ -1511,6 +1518,11 @@ target_arch
 =
 "
 aarch64
+"
+target_arch
+=
+"
+arm64ec
 "
 target_arch
 =
