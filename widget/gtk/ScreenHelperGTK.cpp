@@ -3215,6 +3215,8 @@ return
 true
 ;
 }
+#
+endif
 void
 ScreenGetterGtk
 :
@@ -3223,6 +3225,9 @@ Finish
 (
 )
 {
+#
+ifdef
+MOZ_WAYLAND
 LOG_SCREEN
 (
 "
@@ -3261,9 +3266,9 @@ monitor
 nullptr
 ;
 }
-}
 #
 endif
+}
 RefPtr
 <
 Screen
