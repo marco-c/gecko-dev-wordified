@@ -143,6 +143,9 @@ context
 ]
 cookie_name
 cookie_value
+secure
+=
+True
 )
     
 #
@@ -240,7 +243,7 @@ none
 secure
 "
 :
-False
+True
                     
 "
 size
@@ -537,6 +540,9 @@ context
 ]
 cookie_name
 cookie_value
+secure
+=
+True
 )
     
 #
@@ -626,7 +632,7 @@ none
 secure
 "
 :
-False
+True
             
 "
 size

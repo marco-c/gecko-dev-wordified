@@ -248,6 +248,12 @@ NetworkStringValue
 cookie_value
 )
             
+same_site
+=
+"
+none
+"
+            
 secure
 =
 True
@@ -703,6 +709,12 @@ NetworkStringValue
 (
 cookie_value
 )
+            
+same_site
+=
+"
+none
+"
             
 secure
 =
