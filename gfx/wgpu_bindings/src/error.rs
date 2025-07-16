@@ -109,6 +109,10 @@ std
 :
 :
 {
+borrow
+:
+:
+Cow
 error
 :
 :
@@ -1466,7 +1470,12 @@ crate
 )
 message
 :
-String
+Cow
+<
+'
+static
+str
+>
 pub
 (
 crate
