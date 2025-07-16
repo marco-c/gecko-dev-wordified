@@ -39990,11 +39990,6 @@ addons
 mozilla
 .
 org
-install
-.
-mozilla
-.
-org
 oauth
 .
 accounts
