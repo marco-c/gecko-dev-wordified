@@ -53626,7 +53626,7 @@ isContentEditable
 boolean
 ;
 readonly
-isFormAssociatedCustomElements
+isFormAssociatedCustomElement
 :
 boolean
 ;
