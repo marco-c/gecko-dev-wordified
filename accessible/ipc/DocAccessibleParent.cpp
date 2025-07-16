@@ -3368,6 +3368,10 @@ mIsCaretAtEndOfLine
 =
 aIsAtEndOfLine
 ;
+mCaretRect
+=
+aCaretRect
+;
 if
 (
 aIsSelectionCollapsed
@@ -7441,6 +7445,10 @@ endif
 mFocus
 =
 aID
+;
+mCaretRect
+=
+aCaretRect
 ;
 PlatformFocusEvent
 (
