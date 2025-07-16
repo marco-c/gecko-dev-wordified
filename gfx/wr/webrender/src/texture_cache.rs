@@ -6598,6 +6598,9 @@ Eviction
 shader
 :
 TargetShader
+force_standalone_texture
+:
+bool
 )
 {
 debug_assert
@@ -6772,6 +6775,7 @@ allocate
 params
 handle
 eviction
+force_standalone_texture
 )
 ;
 /
@@ -10403,6 +10407,9 @@ TextureCacheHandle
 eviction
 :
 Eviction
+force_standalone_texture
+:
+bool
 )
 {
 debug_assert
@@ -10460,6 +10467,10 @@ entry
 let
 use_shared_cache
 =
+!
+force_standalone_texture
+&
+&
 self
 .
 is_allowed_in_shared_cache
@@ -11874,6 +11885,7 @@ TargetShader
 :
 :
 Text
+false
 )
 ;
 texture_cache_handle
