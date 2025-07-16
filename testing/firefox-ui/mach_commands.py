@@ -303,6 +303,8 @@ tests
 "
 ]
 =
+[
+            
 os
 .
 path
@@ -319,9 +321,11 @@ functional
 "
 manifest
 .
-ini
+toml
 "
 )
+        
+]
     
 kwargs
 [
