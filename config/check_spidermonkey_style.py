@@ -825,6 +825,16 @@ ICU4X
 "
 icu4x
 /
+Locale
+.
+hpp
+"
+#
+ICU4X
+        
+"
+icu4x
+/
 SentenceSegmenter
 .
 hpp
