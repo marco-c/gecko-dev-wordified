@@ -1176,6 +1176,8 @@ GetMargin
 (
 side
 anchorResolutionParams
+.
+mPosition
 )
 -
 >

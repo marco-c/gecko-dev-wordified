@@ -4747,13 +4747,12 @@ pos
 ISize
 (
 wm
-AnchorPosResolutionParams
-:
-:
-From
+StyleDisplay
 (
-this
 )
+-
+>
+mPosition
 )
 ;
 if

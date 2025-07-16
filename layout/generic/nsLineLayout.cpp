@@ -4650,10 +4650,8 @@ const
 nsStyleMargin
 &
 aStyleMargin
-const
-AnchorPosResolutionParams
-&
-aParams
+StylePositionProperty
+aProp
 )
 {
 for
@@ -4674,7 +4672,7 @@ aStyleMargin
 GetMargin
 (
 side
-aParams
+aProp
 )
 -
 >
@@ -4839,6 +4837,8 @@ HasPercentageUnitMargin
 *
 margin
 anchorResolutionParams
+.
+mPosition
 )
 )
 {
@@ -4908,6 +4908,8 @@ ISize
 (
 aWM
 anchorResolutionParams
+.
+mPosition
 )
 ;
 const
@@ -4956,6 +4958,8 @@ MaxISize
 (
 aWM
 anchorResolutionParams
+.
+mPosition
 )
 )
 |
@@ -4972,6 +4976,8 @@ MinISize
 (
 aWM
 anchorResolutionParams
+.
+mPosition
 )
 )
 |
@@ -5286,6 +5292,8 @@ BSize
 (
 aWM
 anchorResolutionParams
+.
+mPosition
 )
 -
 >

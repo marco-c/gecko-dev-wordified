@@ -1190,6 +1190,8 @@ LogicalSide
 BStart
 wm
 anchorResolutionParams
+.
+mPosition
 )
 ;
 /
@@ -1261,6 +1263,8 @@ LogicalSide
 BEnd
 wm
 anchorResolutionParams
+.
+mPosition
 )
 ;
 return

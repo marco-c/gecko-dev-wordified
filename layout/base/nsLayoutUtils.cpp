@@ -22491,6 +22491,8 @@ GetMargin
 (
 side
 anchorResolutionParams
+.
+mPosition
 )
 -
 >
@@ -26862,6 +26864,8 @@ BSize
 (
 wm
 anchorResolutionParams
+.
+mPosition
 )
 )
 ;
@@ -27068,6 +27072,8 @@ MaxBSize
 (
 wm
 anchorResolutionParams
+.
+mPosition
 )
 )
 )
@@ -27106,6 +27112,8 @@ MinBSize
 (
 wm
 anchorResolutionParams
+.
+mPosition
 )
 )
 )
@@ -30984,6 +30992,8 @@ stylePos
 GetMinWidth
 (
 anchorResolutionParams
+.
+mPosition
 )
 :
 stylePos
@@ -30992,6 +31002,8 @@ stylePos
 GetMinHeight
 (
 anchorResolutionParams
+.
+mPosition
 )
 ;
 auto
@@ -31060,6 +31072,8 @@ stylePos
 GetWidth
 (
 anchorResolutionParams
+.
+mPosition
 )
 :
 stylePos
@@ -31068,6 +31082,8 @@ stylePos
 GetHeight
 (
 anchorResolutionParams
+.
+mPosition
 )
 )
 ;
@@ -31123,6 +31139,8 @@ stylePos
 GetMaxWidth
 (
 anchorResolutionParams
+.
+mPosition
 )
 :
 stylePos
@@ -31131,6 +31149,8 @@ stylePos
 GetMaxHeight
 (
 anchorResolutionParams
+.
+mPosition
 )
 ;
 auto
@@ -31667,6 +31687,8 @@ stylePos
 GetHeight
 (
 anchorResolutionParams
+.
+mPosition
 )
 :
 stylePos
@@ -31675,6 +31697,8 @@ stylePos
 GetWidth
 (
 anchorResolutionParams
+.
+mPosition
 )
 )
 ;
@@ -31689,6 +31713,8 @@ stylePos
 GetMinHeight
 (
 anchorResolutionParams
+.
+mPosition
 )
 :
 stylePos
@@ -31697,6 +31723,8 @@ stylePos
 GetMinWidth
 (
 anchorResolutionParams
+.
+mPosition
 )
 ;
 auto
@@ -31710,6 +31738,8 @@ stylePos
 GetMaxHeight
 (
 anchorResolutionParams
+.
+mPosition
 )
 :
 stylePos
@@ -31718,6 +31748,8 @@ stylePos
 GetMaxWidth
 (
 anchorResolutionParams
+.
+mPosition
 )
 ;
 /
@@ -34043,6 +34075,8 @@ stylePos
 GetMinWidth
 (
 anchorResolutionParams
+.
+mPosition
 )
 :
 stylePos
@@ -34051,6 +34085,8 @@ stylePos
 GetMinHeight
 (
 anchorResolutionParams
+.
+mPosition
 )
 ;
 auto
@@ -34070,6 +34106,8 @@ stylePos
 GetMaxWidth
 (
 anchorResolutionParams
+.
+mPosition
 )
 :
 stylePos
@@ -34078,6 +34116,8 @@ stylePos
 GetMaxHeight
 (
 anchorResolutionParams
+.
+mPosition
 )
 ;
 auto
@@ -34298,6 +34338,8 @@ stylePos
 GetWidth
 (
 anchorResolutionParams
+.
+mPosition
 )
 :
 stylePos
@@ -34306,6 +34348,8 @@ stylePos
 GetHeight
 (
 anchorResolutionParams
+.
+mPosition
 )
 ;
 /
@@ -54492,6 +54536,8 @@ ISize
 (
 wm
 anchorResolutionParams
+.
+mPosition
 )
 ;
 const
@@ -54510,6 +54556,8 @@ BSize
 (
 wm
 anchorResolutionParams
+.
+mPosition
 )
 ;
 if
