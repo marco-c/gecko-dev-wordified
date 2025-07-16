@@ -3,6 +3,9 @@ use
 strict
 "
 ;
+add_setup
+(
+async
 function
 run_test
 (
@@ -12,11 +15,9 @@ do_get_profile
 (
 )
 ;
-run_next_test
-(
+}
 )
 ;
-}
 /
 /
 For
@@ -30,8 +31,9 @@ of
 notificationstore
 .
 json
-add_test
+add_task
 (
+async
 function
 test_bug1024090_purge
 (
@@ -67,6 +69,7 @@ true
 }
 )
 ;
+await
 cleanup
 .
 then
@@ -135,10 +138,6 @@ startNotificationDB
 (
 )
 ;
-run_next_test
-(
-)
-;
 }
 )
 ;
@@ -150,8 +149,9 @@ run_next_test
 Store
 one
 notification
-add_test
+add_task
 (
+async
 function
 test_bug1024090_send_one
 (
@@ -199,6 +199,7 @@ requestID
 ;
 }
 ;
+await
 addAndSend
 (
 "
@@ -231,8 +232,9 @@ one
 notification
 one
 exists
-add_test
+add_task
 (
+async
 function
 test_bug1024090_get_one
 (
@@ -297,6 +299,7 @@ stored
 ;
 }
 ;
+await
 addAndSend
 (
 "
