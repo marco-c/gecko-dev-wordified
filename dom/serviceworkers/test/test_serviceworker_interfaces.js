@@ -3785,16 +3785,9 @@ a
 DOM
 peer
 !
-{
-name
-:
 "
 Scheduler
 "
-nightly
-:
-true
-}
 /
 /
 IMPORTANT
