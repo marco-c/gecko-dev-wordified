@@ -17472,8 +17472,6 @@ pos
 GetWidth
 (
 anchorResolutionParams
-.
-mPosition
 )
 ;
 const
@@ -17485,8 +17483,6 @@ pos
 GetHeight
 (
 anchorResolutionParams
-.
-mPosition
 )
 ;
 if
@@ -17533,8 +17529,6 @@ pos
 GetMinWidth
 (
 anchorResolutionParams
-.
-mPosition
 )
 )
 |
@@ -17561,8 +17555,6 @@ pos
 GetMinHeight
 (
 anchorResolutionParams
-.
-mPosition
 )
 )
 |
@@ -17588,8 +17580,6 @@ pos
 GetMinWidth
 (
 anchorResolutionParams
-.
-mPosition
 )
 -
 >
@@ -17603,8 +17593,6 @@ pos
 GetMinHeight
 (
 anchorResolutionParams
-.
-mPosition
 )
 -
 >
@@ -46785,10 +46773,12 @@ ShouldApplyAutomaticMinimumOnInlineAxis
 (
 WritingMode
 aWM
+bool
+aIsScrollableOverflow
 const
-nsStyleDisplay
-*
-aDisplay
+AnchorPosResolutionParams
+&
+aParams
 const
 nsStylePosition
 *
@@ -46854,12 +46844,7 @@ ratio
 minimum
 return
 !
-aDisplay
--
->
-IsScrollableOverflow
-(
-)
+aIsScrollableOverflow
 &
 &
 aPosition
@@ -46868,10 +46853,7 @@ aPosition
 MinISize
 (
 aWM
-aDisplay
--
->
-mPosition
+aParams
 )
 -
 >
@@ -47088,8 +47070,6 @@ ISize
 (
 aWM
 anchorResolutionParams
-.
-mPosition
 )
 ;
 /
@@ -47174,8 +47154,6 @@ BSize
 (
 aWM
 anchorResolutionParams
-.
-mPosition
 )
 ;
 if
@@ -48607,8 +48585,6 @@ MinBSize
 (
 aWM
 anchorResolutionParams
-.
-mPosition
 )
 ;
 const
@@ -49151,8 +49127,6 @@ MinISize
 (
 aWM
 anchorResolutionParams
-.
-mPosition
 )
 ;
 nscoord
@@ -49445,6 +49419,12 @@ ShouldApplyAutomaticMinimumOnInlineAxis
 (
 aWM
 disp
+-
+>
+IsScrollableOverflow
+(
+)
+anchorResolutionParams
 stylePos
 )
 )
@@ -51271,8 +51251,6 @@ ISize
 (
 aWM
 anchorResolutionParams
-.
-mPosition
 )
 ;
 if
@@ -51343,8 +51321,6 @@ BSize
 (
 aWM
 anchorResolutionParams
-.
-mPosition
 )
 ;
 const
@@ -51385,8 +51361,6 @@ MinBSize
 (
 aWM
 anchorResolutionParams
-.
-mPosition
 )
 *
 stylePos
@@ -51713,8 +51687,6 @@ aWM
 anchorResolutionParams
 .
 mBaseParams
-.
-mPosition
 )
 ;
 const
@@ -51746,8 +51718,6 @@ aWM
 anchorResolutionParams
 .
 mBaseParams
-.
-mPosition
 )
 ;
 const
@@ -52705,8 +52675,6 @@ aWM
 anchorResolutionParams
 .
 mBaseParams
-.
-mPosition
 )
 *
 stylePos
@@ -53657,8 +53625,6 @@ MinBSize
 (
 aWM
 anchorResolutionParams
-.
-mPosition
 )
 *
 stylePos
@@ -54425,13 +54391,13 @@ aReflowInput
 GetWritingMode
 (
 )
+AnchorPosResolutionParams
+:
+:
+From
+(
 aReflowInput
--
->
-mStyleDisplay
--
->
-mPosition
+)
 )
 ;
 if
