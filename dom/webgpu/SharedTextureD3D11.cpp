@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-ExternalTextureD3D11
+SharedTextureD3D11
 .
 h
 "
@@ -184,9 +184,9 @@ webgpu
 static
 UniquePtr
 <
-ExternalTextureD3D11
+SharedTextureD3D11
 >
-ExternalTextureD3D11
+SharedTextureD3D11
 :
 :
 Create
@@ -650,7 +650,7 @@ fencesHolderId
 return
 MakeUnique
 <
-ExternalTextureD3D11
+SharedTextureD3D11
 >
 (
 aWidth
@@ -676,10 +676,10 @@ fence
 )
 ;
 }
-ExternalTextureD3D11
+SharedTextureD3D11
 :
 :
-ExternalTextureD3D11
+SharedTextureD3D11
 (
 const
 uint32_t
@@ -734,7 +734,7 @@ FenceD3D11
 aWriteFence
 )
 :
-ExternalTexture
+SharedTexture
 (
 aWidth
 aHeight
@@ -776,11 +776,11 @@ mTexture
 )
 ;
 }
-ExternalTextureD3D11
+SharedTextureD3D11
 :
 :
 ~
-ExternalTextureD3D11
+SharedTextureD3D11
 (
 )
 {
@@ -828,10 +828,10 @@ exist
 }
 void
 *
-ExternalTextureD3D11
+SharedTextureD3D11
 :
 :
-GetExternalTextureHandle
+GetSharedTextureHandle
 (
 )
 {
@@ -903,7 +903,7 @@ layers
 :
 SurfaceDescriptor
 >
-ExternalTextureD3D11
+SharedTextureD3D11
 :
 :
 ToSurfaceDescriptor
@@ -1026,7 +1026,7 @@ mFencesHolderId
 ;
 }
 void
-ExternalTextureD3D11
+SharedTextureD3D11
 :
 :
 GetSnapshot
