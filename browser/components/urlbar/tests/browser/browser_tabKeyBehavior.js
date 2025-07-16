@@ -1921,6 +1921,8 @@ getButtonForResultIndex
 (
 window
 "
+result
+-
 menu
 "
 UrlbarTestUtils

@@ -209,6 +209,8 @@ getButtonForResultIndex
 (
 window
 "
+result
+-
 menu
 "
 resultIndex
@@ -312,6 +314,8 @@ getButtonForResultIndex
 (
 window
 "
+result
+-
 menu
 "
 resultIndex

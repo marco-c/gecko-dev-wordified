@@ -2321,6 +2321,8 @@ _buttons
 has
 (
 "
+result
+-
 menu
 "
 )
@@ -3279,6 +3281,8 @@ _buttons
 get
 (
 "
+result
+-
 menu
 "
 )

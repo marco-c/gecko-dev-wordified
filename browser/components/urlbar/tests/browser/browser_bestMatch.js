@@ -469,6 +469,8 @@ urlbarView
 -
 button
 -
+result
+-
 menu
 "
 ]
@@ -943,6 +945,8 @@ _buttons
 get
 (
 "
+result
+-
 menu
 "
 )

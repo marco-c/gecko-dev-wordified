@@ -2117,6 +2117,8 @@ urlbarView
 -
 button
 -
+result
+-
 menu
 "
 afterMouseupCallback
@@ -2206,6 +2208,8 @@ urlbarView
 -
 button
 -
+result
+-
 menu
 "
 afterMouseupCallback
@@ -2272,6 +2276,8 @@ child
 urlbarView
 -
 button
+-
+result
 -
 menu
 "
