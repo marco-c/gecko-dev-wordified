@@ -1607,11 +1607,6 @@ button
 "
 )
 ;
-requestLongerTimeout
-(
-10000
-)
-;
 await
 BrowserTestUtils
 .
@@ -1703,7 +1698,7 @@ p
 >
 "
 ;
-return
+await
 new
 Promise
 (
