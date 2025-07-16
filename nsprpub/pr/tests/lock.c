@@ -2672,10 +2672,6 @@ loops
 =
 100
 ;
-PR_STDIO_INIT
-(
-)
-;
 PR_Init
 (
 PR_USER_THREAD

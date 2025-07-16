@@ -798,10 +798,6 @@ PR_PRIORITY_NORMAL
 0
 )
 ;
-PR_STDIO_INIT
-(
-)
-;
 if
 (
 debug_mode

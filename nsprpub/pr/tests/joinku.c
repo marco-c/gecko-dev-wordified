@@ -1075,10 +1075,6 @@ PR_PRIORITY_NORMAL
 0
 )
 ;
-PR_STDIO_INIT
-(
-)
-;
 /
 *
 main
@@ -1156,10 +1152,6 @@ argv
 {
 PRIntn
 rv
-;
-PR_STDIO_INIT
-(
-)
 ;
 rv
 =

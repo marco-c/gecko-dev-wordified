@@ -760,10 +760,6 @@ char
 argv
 )
 {
-PR_STDIO_INIT
-(
-)
-;
 lock
 =
 PR_NewLock

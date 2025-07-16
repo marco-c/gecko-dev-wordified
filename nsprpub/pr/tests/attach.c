@@ -1215,10 +1215,6 @@ PR_SetError
 0
 )
 ;
-PR_STDIO_INIT
-(
-)
-;
 /
 *
 *

@@ -1495,10 +1495,6 @@ timeout
 DEFAULT_TIMEOUT
 ;
 }
-PR_STDIO_INIT
-(
-)
-;
 memset
 (
 &

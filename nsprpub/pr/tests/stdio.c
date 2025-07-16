@@ -356,10 +356,6 @@ char
 argv
 )
 {
-PR_STDIO_INIT
-(
-)
-;
 return
 PR_Initialize
 (

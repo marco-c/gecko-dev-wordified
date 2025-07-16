@@ -456,10 +456,6 @@ threads
 =
 1
 ;
-PR_STDIO_INIT
-(
-)
-;
 while
 (
 PL_OPT_EOL

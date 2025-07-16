@@ -6634,10 +6634,6 @@ accepting
 workersMin
 ;
 }
-PR_STDIO_INIT
-(
-)
-;
 TimeOfDayMessage
 (
 "

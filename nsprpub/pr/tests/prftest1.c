@@ -941,10 +941,6 @@ main
 test
 *
 /
-PR_STDIO_INIT
-(
-)
-;
 i16
 =
 -

@@ -1548,10 +1548,6 @@ PR_PRIORITY_LOW
 0
 )
 ;
-PR_STDIO_INIT
-(
-)
-;
 printf
 (
 "

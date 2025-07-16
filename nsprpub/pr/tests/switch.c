@@ -1493,10 +1493,6 @@ argv
 PRIntn
 result
 ;
-PR_STDIO_INIT
-(
-)
-;
 result
 =
 PR_Initialize

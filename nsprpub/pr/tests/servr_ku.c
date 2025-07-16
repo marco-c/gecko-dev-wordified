@@ -3416,10 +3416,6 @@ PR_PRIORITY_NORMAL
 0
 )
 ;
-PR_STDIO_INIT
-(
-)
-;
 PR_SetThreadRecycleMode
 (
 64
