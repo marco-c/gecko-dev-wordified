@@ -871,7 +871,7 @@ constexpr
 uint32_t
 ABIStackAlignment
 =
-8
+16
 ;
 static
 constexpr
@@ -885,7 +885,7 @@ constexpr
 uint32_t
 JitStackAlignment
 =
-8
+16
 ;
 static
 constexpr
