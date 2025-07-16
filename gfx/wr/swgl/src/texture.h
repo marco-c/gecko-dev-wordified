@@ -3165,6 +3165,9 @@ zeroes
 is
 needed
 .
+ALIGNED_DECL
+(
+16
 static
 const
 uint32_t
@@ -3182,6 +3185,7 @@ sizeof
 uint32_t
 )
 ]
+)
 =
 {
 0
