@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-ExternalTextureDMABuf
+SharedTextureDMABuf
 .
 h
 "
@@ -173,9 +173,9 @@ webgpu
 static
 UniquePtr
 <
-ExternalTextureDMABuf
+SharedTextureDMABuf
 >
-ExternalTextureDMABuf
+SharedTextureDMABuf
 :
 :
 Create
@@ -542,7 +542,7 @@ nullptr
 return
 MakeUnique
 <
-ExternalTextureDMABuf
+SharedTextureDMABuf
 >
 (
 aParent
@@ -573,10 +573,10 @@ get_SurfaceDescriptorDMABuf
 )
 ;
 }
-ExternalTextureDMABuf
+SharedTextureDMABuf
 :
 :
-ExternalTextureDMABuf
+SharedTextureDMABuf
 (
 WebGPUParent
 *
@@ -629,7 +629,7 @@ SurfaceDescriptorDMABuf
 aSurfaceDescriptor
 )
 :
-ExternalTexture
+SharedTexture
 (
 aWidth
 aHeight
@@ -670,17 +670,17 @@ aSurfaceDescriptor
 )
 {
 }
-ExternalTextureDMABuf
+SharedTextureDMABuf
 :
 :
 ~
-ExternalTextureDMABuf
+SharedTextureDMABuf
 (
 )
 {
 }
 void
-ExternalTextureDMABuf
+SharedTextureDMABuf
 :
 :
 CleanForRecycling
@@ -707,7 +707,7 @@ layers
 :
 SurfaceDescriptor
 >
-ExternalTextureDMABuf
+SharedTextureDMABuf
 :
 :
 ToSurfaceDescriptor
@@ -792,7 +792,7 @@ sd
 ;
 }
 void
-ExternalTextureDMABuf
+SharedTextureDMABuf
 :
 :
 GetSnapshot
@@ -1072,7 +1072,7 @@ stride
 }
 }
 UniqueFileHandle
-ExternalTextureDMABuf
+SharedTextureDMABuf
 :
 :
 CloneDmaBufFd
@@ -1101,7 +1101,7 @@ ffi
 :
 WGPUVkImageHandle
 *
-ExternalTextureDMABuf
+SharedTextureDMABuf
 :
 :
 GetHandle
@@ -1118,7 +1118,7 @@ Get
 ;
 }
 void
-ExternalTextureDMABuf
+SharedTextureDMABuf
 :
 :
 onBeforeQueueSubmit

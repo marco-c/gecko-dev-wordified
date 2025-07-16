@@ -2747,7 +2747,7 @@ bool
 Adapter
 :
 :
-SupportExternalTextureInSwapChain
+SupportSharedTextureInSwapChain
 (
 )
 const
@@ -2756,7 +2756,7 @@ return
 mInfoInner
 -
 >
-support_use_external_texture_in_swap_chain
+support_use_shared_texture_in_swap_chain
 ;
 }
 static
