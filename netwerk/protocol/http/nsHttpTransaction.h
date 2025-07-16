@@ -3613,16 +3613,6 @@ aTargetIpAddressSpace
 )
 override
 ;
-void
-SetTargetIpAddressSpace
-(
-nsILoadInfo
-:
-:
-IPAddressSpace
-aTargetIpAddressSpace
-)
-;
 private
 :
 bool
