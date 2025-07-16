@@ -2834,6 +2834,11 @@ embeddedSCTs
 sctsFromOCSP
 sctsFromTLS
 time
+trustDomain
+.
+GetDistrustAfterTime
+(
+)
 result
 )
 ;
@@ -2987,6 +2992,10 @@ invalidTimestamp
 zu
 "
 "
+distrustedTimestamp
+=
+%
+zu
 decodingErrors
 =
 %
@@ -3005,6 +3014,9 @@ sctsWithInvalidSignatures
 result
 .
 sctsWithInvalidTimestamps
+result
+.
+sctsWithDistrustedTimestamps
 result
 .
 decodingErrors
