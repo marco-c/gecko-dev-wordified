@@ -232,6 +232,8 @@ bool
 aIsInPrivateBrowsing
 bool
 aOn3pcbException
+int64_t
+aCurrentTimeInMSec
 )
 ;
 bool
