@@ -4554,7 +4554,7 @@ track
 track
 -
 >
-GetCurrentCuesAndOtherCues
+GetOverlappingCurrentAndOtherCues
 (
 &
 currentCues
