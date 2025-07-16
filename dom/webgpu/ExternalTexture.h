@@ -156,7 +156,7 @@ id
 >
 .
 class
-ExtTex
+ExternalTexture
 :
 public
 ObjectBase
@@ -165,14 +165,14 @@ public
 :
 GPU_DECL_CYCLE_COLLECTION
 (
-ExtTex
+ExternalTexture
 )
 GPU_DECL_JS_WRAP
 (
-ExtTex
+ExternalTexture
 )
 explicit
-ExtTex
+ExternalTexture
 (
 nsIGlobalObject
 *
@@ -206,7 +206,7 @@ nsIGlobalObject
 mGlobal
 ;
 ~
-ExtTex
+ExternalTexture
 (
 )
 =
