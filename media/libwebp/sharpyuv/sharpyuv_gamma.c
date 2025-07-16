@@ -203,6 +203,15 @@ h
 #
 include
 "
+sharpyuv
+/
+sharpyuv
+.
+h
+"
+#
+include
+"
 src
 /
 webp

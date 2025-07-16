@@ -327,7 +327,7 @@ struct
 {
 void
 *
-impl_
+impl
 ;
 /
 /
@@ -338,7 +338,7 @@ implementation
 worker
 details
 WebPWorkerStatus
-status_
+status
 ;
 WebPWorkerHook
 hook

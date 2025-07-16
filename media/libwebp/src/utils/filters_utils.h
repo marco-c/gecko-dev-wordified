@@ -195,9 +195,9 @@ include
 "
 src
 /
-webp
+dsp
 /
-types
+dsp
 .
 h
 "
@@ -206,9 +206,9 @@ include
 "
 src
 /
-dsp
+webp
 /
-dsp
+types
 .
 h
 "

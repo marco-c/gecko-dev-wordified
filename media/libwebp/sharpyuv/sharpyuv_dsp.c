@@ -226,6 +226,17 @@ include
 "
 src
 /
+dsp
+/
+cpu
+.
+h
+"
+#
+include
+"
+src
+/
 webp
 /
 types

@@ -205,17 +205,6 @@ src
 /
 webp
 /
-types
-.
-h
-"
-#
-include
-"
-src
-/
-webp
-/
 encode
 .
 h
@@ -228,6 +217,17 @@ src
 webp
 /
 format_constants
+.
+h
+"
+#
+include
+"
+src
+/
+webp
+/
+types
 .
 h
 "
@@ -961,7 +961,7 @@ MAX_LENGTH
 .
 uint32_t
 *
-offset_length_
+offset_length
 ;
 /
 /
@@ -997,7 +997,7 @@ given
 image
 .
 int
-size_
+size
 ;
 }
 ;
@@ -1105,7 +1105,7 @@ return
 p
 -
 >
-offset_length_
+offset_length
 [
 base_position
 ]
@@ -1133,7 +1133,7 @@ return
 p
 -
 >
-offset_length_
+offset_length
 [
 base_position
 ]
@@ -1323,7 +1323,7 @@ struct
 VP8LBackwardRefs
 {
 int
-block_size_
+block_size
 ;
 /
 /
@@ -1332,7 +1332,7 @@ block
 -
 size
 int
-error_
+error
 ;
 /
 /
@@ -1346,7 +1346,7 @@ error
 occurred
 PixOrCopyBlock
 *
-refs_
+refs
 ;
 /
 /
@@ -1358,7 +1358,7 @@ blocks
 PixOrCopyBlock
 *
 *
-tail_
+tail
 ;
 /
 /
@@ -1367,7 +1367,7 @@ list
 recycling
 PixOrCopyBlock
 *
-free_blocks_
+free_blocks
 ;
 /
 /
@@ -1376,7 +1376,7 @@ free
 list
 PixOrCopyBlock
 *
-last_block_
+last_block
 ;
 /
 /
@@ -1475,7 +1475,7 @@ private
 :
 PixOrCopyBlock
 *
-cur_block_
+cur_block
 ;
 /
 /
@@ -1488,7 +1488,7 @@ list
 const
 PixOrCopy
 *
-last_pos_
+last_pos
 ;
 /
 /
@@ -1646,7 +1646,7 @@ cur_pos
 c
 -
 >
-last_pos_
+last_pos
 )
 VP8LRefsCursorNextBlock
 (

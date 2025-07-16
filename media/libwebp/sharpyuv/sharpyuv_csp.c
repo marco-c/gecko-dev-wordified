@@ -199,6 +199,15 @@ stddef
 .
 h
 >
+#
+include
+"
+sharpyuv
+/
+sharpyuv
+.
+h
+"
 static
 int
 ToFixed16

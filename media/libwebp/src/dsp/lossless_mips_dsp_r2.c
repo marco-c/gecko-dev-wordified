@@ -3845,7 +3845,7 @@ G_to_R
 m
 -
 >
-green_to_red_
+green_to_red
 ;
 const
 uint32_t
@@ -3854,7 +3854,7 @@ G_to_B
 m
 -
 >
-green_to_blue_
+green_to_blue
 ;
 const
 uint32_t
@@ -3863,7 +3863,7 @@ R_to_B
 m
 -
 >
-red_to_blue_
+red_to_blue
 ;
 const
 uint32_t

@@ -201,6 +201,10 @@ h
 >
 /
 /
+IWYU
+pragma
+:
+export
 for
 size_t
 #
@@ -213,6 +217,12 @@ inttypes
 .
 h
 >
+/
+/
+IWYU
+pragma
+:
+export
 #
 if
 defined

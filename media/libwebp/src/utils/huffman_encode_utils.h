@@ -327,7 +327,7 @@ typedef
 struct
 {
 uint32_t
-total_count_
+total_count
 ;
 /
 /
@@ -335,7 +335,7 @@ Symbol
 frequency
 .
 int
-value_
+value
 ;
 /
 /
@@ -343,7 +343,7 @@ Symbol
 value
 .
 int
-pool_index_left_
+pool_index_left
 ;
 /
 /
@@ -356,7 +356,7 @@ sub
 tree
 .
 int
-pool_index_right_
+pool_index_right
 ;
 /
 /

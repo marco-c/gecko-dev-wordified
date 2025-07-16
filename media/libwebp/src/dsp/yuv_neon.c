@@ -225,6 +225,17 @@ src
 /
 dsp
 /
+dsp
+.
+h
+"
+#
+include
+"
+src
+/
+dsp
+/
 neon
 .
 h

@@ -243,6 +243,17 @@ format_constants
 .
 h
 "
+#
+include
+"
+src
+/
+webp
+/
+types
+.
+h
+"
 /
 /
 Huffman
