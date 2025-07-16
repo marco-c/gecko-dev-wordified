@@ -5026,7 +5026,7 @@ undefined
 {
 requestedLocale
 =
-intl_DefaultLocale
+DefaultLocale
 (
 )
 ;
@@ -5278,7 +5278,7 @@ undefined
 {
 requestedLocale
 =
-intl_DefaultLocale
+DefaultLocale
 (
 )
 ;
