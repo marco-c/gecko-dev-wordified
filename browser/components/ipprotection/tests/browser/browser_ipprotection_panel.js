@@ -120,7 +120,7 @@ Tests
 that
 clicking
 toolbar
-dropmarker
+button
 opens
 the
 panel
@@ -143,12 +143,12 @@ add_task
 (
 async
 function
-click_toolbar_dropmarker
+click_toolbar_button
 (
 )
 {
 let
-dropmarker
+button
 =
 document
 .
@@ -159,11 +159,6 @@ lazy
 IPProtectionWidget
 .
 WIDGET_ID
-+
-"
--
-dropmarker
-"
 )
 ;
 let
@@ -197,7 +192,7 @@ popupshown
 Open
 the
 panel
-dropmarker
+button
 .
 click
 (

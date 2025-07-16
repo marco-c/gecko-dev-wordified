@@ -140,7 +140,7 @@ test_main_content
 )
 {
 let
-dropmarker
+button
 =
 document
 .
@@ -151,11 +151,6 @@ lazy
 IPProtectionWidget
 .
 WIDGET_ID
-+
-"
--
-dropmarker
-"
 )
 ;
 let
@@ -189,7 +184,7 @@ popupshown
 Open
 the
 panel
-dropmarker
+button
 .
 click
 (
