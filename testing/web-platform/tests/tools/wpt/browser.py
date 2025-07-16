@@ -11671,7 +11671,8 @@ capitalize
 (
 )
             
-return
+path
+=
 f
 "
 /
@@ -11695,6 +11696,20 @@ Chrome
 suffix
 }
 "
+            
+return
+path
+if
+os
+.
+path
+.
+isfile
+(
+path
+)
+else
+None
         
 if
 uname
@@ -11808,6 +11823,17 @@ exe
             
 return
 path
+if
+os
+.
+path
+.
+isfile
+(
+path
+)
+else
+None
         
 self
 .
@@ -15906,7 +15932,8 @@ capitalize
 (
 )
             
-return
+path
+=
 f
 "
 /
@@ -15930,6 +15957,20 @@ Edge
 suffix
 }
 "
+            
+return
+path
+if
+os
+.
+path
+.
+isfile
+(
+path
+)
+else
+None
         
 if
 self
@@ -16083,6 +16124,17 @@ exe
             
 return
 path
+if
+os
+.
+path
+.
+isfile
+(
+path
+)
+else
+None
         
 self
 .
