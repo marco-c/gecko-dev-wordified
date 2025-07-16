@@ -3854,6 +3854,9 @@ nsIThreadPoolListener
 >
 listener
 ;
+nsCString
+name
+;
 {
 MutexAutoLock
 lock
@@ -3870,6 +3873,10 @@ return
 NS_ERROR_ILLEGAL_DURING_SHUTDOWN
 ;
 }
+name
+=
+mName
+;
 mShutdown
 =
 true
@@ -4191,6 +4198,8 @@ nsThreadPool
 ShutdownWithTimeout
 "
 _ns
++
+name
 [
 &
 ]
