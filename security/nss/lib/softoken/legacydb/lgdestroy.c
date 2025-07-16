@@ -419,6 +419,9 @@ break
 case
 LG_TOKEN_TYPE_TRUST
 :
+case
+LG_TOKEN_TYPE_NSS_TRUST
+:
 certHandle
 =
 lg_getCertDB

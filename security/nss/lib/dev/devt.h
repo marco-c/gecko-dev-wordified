@@ -523,6 +523,9 @@ NSSUTF8
 *
 label
 ;
+CK_MECHANISM_TYPE
+trustType
+;
 }
 ;
 typedef

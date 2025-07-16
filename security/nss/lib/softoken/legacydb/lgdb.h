@@ -532,6 +532,10 @@ bit
 #
 define
 LG_TOKEN_TYPE_TRUST
+0x00000000L
+#
+define
+LG_TOKEN_TYPE_NSS_TRUST
 0x20000000L
 #
 define
