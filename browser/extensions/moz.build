@@ -107,3 +107,13 @@ detection
 newtab
 "
 ]
+JAR_MANIFESTS
++
+=
+[
+"
+jar
+.
+mn
+"
+]
