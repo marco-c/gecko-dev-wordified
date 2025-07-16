@@ -1757,7 +1757,7 @@ false
 intl
 :
 :
-FieldType
+RelativeTimeFormatUnit
 jsUnitType
 ;
 using
