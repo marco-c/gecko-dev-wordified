@@ -1035,6 +1035,7 @@ ConvertNumberToString
 (
 Decimal
 aValue
+Localized
 nsAString
 &
 aResultString
@@ -1298,6 +1299,7 @@ ConvertNumberToString
 (
 Decimal
 aValue
+Localized
 nsAString
 &
 aResultString
@@ -2056,6 +2058,7 @@ ConvertNumberToString
 (
 Decimal
 aValue
+Localized
 nsAString
 &
 aResultString
@@ -2567,6 +2570,7 @@ ConvertNumberToString
 (
 Decimal
 aValue
+Localized
 nsAString
 &
 aResultString
@@ -2873,6 +2877,7 @@ ConvertNumberToString
 (
 Decimal
 aValue
+Localized
 nsAString
 &
 aResultString
