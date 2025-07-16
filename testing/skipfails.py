@@ -10522,8 +10522,6 @@ macos
 20
             
 if
-(
-                
 extra
 .
 os
@@ -10532,19 +10530,6 @@ os
 "
 mac
 "
-                
-and
-extra
-.
-os_version
-=
-=
-"
-11
-.
-20
-"
-                
 and
 processor
 =
@@ -10552,8 +10537,6 @@ processor
 "
 aarch64
 "
-            
-)
 :
                 
 skip_if
