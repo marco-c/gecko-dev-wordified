@@ -2318,9 +2318,13 @@ SHEntrySharedState
 :
 :
 ~
-UniquePtr
+unique_ptr
 <
 SHEntrySharedState
+DefaultDelete
+<
+SHEntrySharedState
+>
 >
 (
 )

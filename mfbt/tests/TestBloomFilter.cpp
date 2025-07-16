@@ -208,10 +208,7 @@ testBitBloomFilter
 )
 {
 const
-mozilla
-:
-:
-UniquePtr
+auto
 filter
 =
 mozilla
@@ -432,10 +429,7 @@ testCountingBloomFilter
 )
 {
 const
-mozilla
-:
-:
-UniquePtr
+auto
 filter
 =
 mozilla

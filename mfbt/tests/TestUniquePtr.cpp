@@ -361,7 +361,7 @@ B
 UniqueA
 :
 :
-DeleterType
+deleter_type
 >
 UniqueB
 ;
@@ -415,7 +415,7 @@ DeleterSubclass
 UniqueA
 :
 :
-DeleterType
+deleter_type
 {
 }
 ;
@@ -567,7 +567,7 @@ is_same_v
 NewInt
 :
 :
-DeleterType
+deleter_type
 DefaultDelete
 <
 int
@@ -2587,7 +2587,7 @@ is_same_v
 IntArray
 :
 :
-DeleterType
+deleter_type
 DefaultDelete
 <
 int
