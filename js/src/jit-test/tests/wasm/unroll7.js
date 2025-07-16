@@ -9,7 +9,14 @@ skip
 -
 if
 :
-true
+wasmCompileMode
+(
+)
+!
+=
+"
+ion
+"
 /
 /
 Tests
