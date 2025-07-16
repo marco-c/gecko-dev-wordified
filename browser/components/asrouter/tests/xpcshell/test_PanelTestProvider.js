@@ -131,7 +131,7 @@ update_action
 1
 spotlight
 :
-6
+7
 feature_callout
 :
 5
