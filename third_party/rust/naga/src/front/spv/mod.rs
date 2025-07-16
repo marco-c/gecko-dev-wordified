@@ -292,15 +292,6 @@ NonZeroU32
 }
 ;
 use
-std
-:
-:
-path
-:
-:
-PathBuf
-;
-use
 half
 :
 :
@@ -337,6 +328,10 @@ Arena
 Handle
 UniqueArena
 }
+path_like
+:
+:
+PathLikeOwned
 proc
 :
 :
@@ -2235,7 +2230,7 @@ block_ctx_dump_prefix
 :
 Option
 <
-PathBuf
+PathLikeOwned
 >
 }
 impl

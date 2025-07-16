@@ -17,10 +17,16 @@ use
 core
 :
 :
+{
+convert
+:
+:
+Infallible
 ops
 :
 :
 Range
+}
 ;
 #
 [
@@ -736,6 +742,7 @@ command
 :
 :
 RenderCommand
+Infallible
 >
 }
 DestroyRenderBundle
@@ -1157,6 +1164,7 @@ command
 :
 :
 ComputeCommand
+Infallible
 >
 timestamp_writes
 :
@@ -1190,6 +1198,7 @@ command
 :
 :
 RenderCommand
+Infallible
 >
 target_colors
 :

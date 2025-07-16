@@ -62,10 +62,6 @@ crate
 :
 {
 cow_label
-error
-:
-:
-HasErrorBufferType
 wgpu_string
 AdapterInformation
 ByteBuf
@@ -126,6 +122,10 @@ wgt
 :
 :
 {
+error
+:
+:
+WebGpuError
 BufferAddress
 BufferSize
 DynamicOffset
@@ -7060,7 +7060,7 @@ type
 :
 e
 .
-error_type
+webgpu_error_type
 (
 )
 }
@@ -11478,13 +11478,13 @@ r
 #
 type
 :
-crate
+wgt
 :
 :
 error
 :
 :
-ErrorBufferType
+ErrorType
 :
 :
 Validation

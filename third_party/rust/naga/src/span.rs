@@ -42,10 +42,10 @@ crate
 :
 :
 {
-as_diagnostic_file_path
+path_like
 :
 :
-AsDiagnosticFilePath
+PathLike
 Arena
 Handle
 UniqueArena
@@ -2017,7 +2017,7 @@ E
 Error
 P
 :
-AsDiagnosticFilePath
+PathLike
 {
 use
 codespan_reporting
@@ -2243,7 +2243,7 @@ E
 Error
 P
 :
-AsDiagnosticFilePath
+PathLike
 {
 use
 codespan_reporting
