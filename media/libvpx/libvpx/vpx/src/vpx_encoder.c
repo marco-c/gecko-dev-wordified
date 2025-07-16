@@ -146,6 +146,15 @@ include
 "
 vpx
 /
+vpx_encoder
+.
+h
+"
+#
+include
+"
+vpx
+/
 internal
 /
 vpx_codec_internal

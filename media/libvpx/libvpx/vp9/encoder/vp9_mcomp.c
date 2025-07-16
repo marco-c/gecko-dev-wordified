@@ -15609,7 +15609,7 @@ point
 .
 range
 =
-VPXMAX
+clamp
 (
 range
 (
@@ -15633,13 +15633,6 @@ col
 )
 /
 4
-)
-;
-range
-=
-VPXMIN
-(
-range
 MAX_RANGE
 )
 ;
@@ -21377,7 +21370,7 @@ point
 .
 range
 =
-VPXMAX
+clamp
 (
 range
 (
@@ -21401,13 +21394,6 @@ col
 )
 /
 4
-)
-;
-range
-=
-VPXMIN
-(
-range
 MAX_RANGE
 )
 ;
