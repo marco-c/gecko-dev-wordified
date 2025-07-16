@@ -330,13 +330,6 @@ struct
 RTCRtpSourceEntry
 ;
 }
-namespace
-dom
-{
-struct
-RTCRtpSourceEntry
-;
-}
 enum
 class
 MediaSessionConduitLocalDirection
@@ -1248,6 +1241,7 @@ aAudioLevel
 protected
 :
 virtual
+const
 std
 :
 :
@@ -1258,6 +1252,7 @@ webrtc
 :
 RtpSource
 >
+&
 GetUpstreamRtpSources
 (
 )

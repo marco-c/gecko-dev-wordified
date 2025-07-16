@@ -591,6 +591,7 @@ DOMHighResTimeStamp
 MOCK_CONST_METHOD0
 (
 GetUpstreamRtpSources
+const
 std
 :
 :
@@ -601,6 +602,7 @@ webrtc
 :
 RtpSource
 >
+&
 (
 )
 )
