@@ -11086,11 +11086,11 @@ Register
 dest
 )
 {
-MOZ_CRASH
+andi
 (
-"
-NYI
-"
+dest
+src
+0xFF
 )
 ;
 }
