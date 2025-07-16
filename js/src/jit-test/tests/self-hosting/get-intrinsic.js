@@ -21,7 +21,7 @@ Implementation
 in
 JS
 "
-localeCache
+globalMapIterationResultPair
 "
 /
 /
