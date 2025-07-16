@@ -126,6 +126,16 @@ cookieBehavior
 "
 1
 ]
+[
+"
+dom
+.
+security
+.
+https_first
+"
+false
+]
 ]
 }
 )
