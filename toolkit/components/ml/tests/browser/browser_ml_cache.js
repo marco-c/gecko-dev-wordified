@@ -931,7 +931,7 @@ equal
 jsonData
 .
 hidden_size
-768
+32
 )
 ;
 }
@@ -1125,7 +1125,7 @@ equal
 jsonData
 .
 hidden_size
-768
+32
 )
 ;
 hub
@@ -1683,7 +1683,7 @@ equal
 jsonData
 .
 hidden_size
-768
+32
 )
 ;
 }
@@ -7862,7 +7862,7 @@ equal
 jsonData
 .
 hidden_size
-768
+32
 )
 ;
 let
@@ -7886,7 +7886,7 @@ res
 ]
 .
 size
-562
+548
 )
 ;
 let
@@ -7914,7 +7914,7 @@ blob
 )
 .
 size
-562
+548
 )
 ;
 }
