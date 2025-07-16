@@ -443,6 +443,18 @@ AppendElement
 aBindGroup
 )
 ;
+mUsedCanvasContexts
+.
+AppendElements
+(
+aBindGroup
+-
+>
+GetCanvasContexts
+(
+)
+)
+;
 bindGroup
 =
 aBindGroup
@@ -949,6 +961,7 @@ EndComputePass
 (
 *
 mPass
+mUsedCanvasContexts
 )
 ;
 Cleanup

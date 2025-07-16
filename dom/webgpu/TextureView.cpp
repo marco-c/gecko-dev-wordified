@@ -194,8 +194,10 @@ Cleanup
 )
 ;
 }
+WeakPtr
+<
 CanvasContext
-*
+>
 TextureView
 :
 :
