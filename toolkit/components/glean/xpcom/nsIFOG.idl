@@ -820,7 +820,7 @@ glean_core
 Glean
 :
 :
-set_metrics_enabled_config
+apply_server_knobs_config
 ]
 *
 *
