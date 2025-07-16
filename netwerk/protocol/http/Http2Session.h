@@ -2968,8 +2968,10 @@ streams
 nsTHashMap
 <
 nsUint32HashKey
+WeakPtr
+<
 Http2StreamBase
-*
+>
 >
 mStreamIDHash
 ;
@@ -3269,8 +3271,10 @@ to
 the
 stream
 .
+WeakPtr
+<
 Http2StreamBase
-*
+>
 mInputFrameDataStream
 ;
 /
@@ -3348,8 +3352,10 @@ at
 that
 time
 .
+WeakPtr
+<
 Http2StreamBase
-*
+>
 mNeedsCleanup
 ;
 /
