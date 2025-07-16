@@ -494,7 +494,7 @@ k
 Percentage
 :
 :
-hundred
+zero
 (
 )
 )
