@@ -434,6 +434,8 @@ dom
 .
 webgpu
 .
+service
+-
 workers
 .
 enabled
