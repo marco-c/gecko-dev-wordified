@@ -212,12 +212,16 @@ font
 -
 face
 {
+\
+n
 font
 -
 family
 :
 bar
 ;
+\
+n
 src
 :
 url
@@ -249,6 +253,8 @@ truetype
 "
 )
 ;
+\
+n
 }
 )
 ;
