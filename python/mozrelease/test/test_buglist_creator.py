@@ -120,8 +120,6 @@ MPL
 0
 /
 .
-import
-json
 from
 pathlib
 import
@@ -130,6 +128,10 @@ import
 mozunit
 import
 pytest
+from
+mozfile
+import
+json
 from
 mozilla_version
 .
