@@ -669,11 +669,8 @@ header
 for
 POST
 request
-Services
-.
-prefs
-.
-setBoolPref
+await
+pushPref
 (
 "
 network
@@ -835,7 +832,9 @@ sjs
 \
 -
 Method
+"
 POST
+"
 \
 -
 WebSession
@@ -1221,7 +1220,9 @@ sjs
 \
 -
 Method
+"
 POST
+"
 \
 -
 WebSession

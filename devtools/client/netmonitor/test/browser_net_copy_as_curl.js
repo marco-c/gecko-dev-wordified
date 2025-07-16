@@ -89,11 +89,8 @@ header
 for
 POST
 request
-Services
-.
-prefs
-.
-setBoolPref
+await
+pushPref
 (
 "
 network
