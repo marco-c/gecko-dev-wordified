@@ -506,7 +506,7 @@ namespace
 intl
 {
 using
-RelativeTimeFormatUnit
+FieldType
 =
 js
 :
@@ -544,7 +544,7 @@ intl
 NumberPartVector
 &
 parts
-RelativeTimeFormatUnit
+FieldType
 relativeTimeUnit
 MutableHandleValue
 result
