@@ -3450,12 +3450,6 @@ bool
 aIsFullscreen
 )
 ;
-static
-uint64_t
-GetSpoofedStorageLimit
-(
-)
-;
 private
 :
 nsresult

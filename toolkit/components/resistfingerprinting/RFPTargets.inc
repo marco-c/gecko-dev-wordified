@@ -667,11 +667,6 @@ ITEM_VALUE
 UseHardcodedFontSubstitutes
 69
 )
-ITEM_VALUE
-(
-DiskStorageLimit
-70
-)
 /
 /
 !
