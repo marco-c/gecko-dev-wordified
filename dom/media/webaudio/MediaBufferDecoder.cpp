@@ -3016,6 +3016,8 @@ WebAudioDecodeJob
 UnknownError
 )
 ;
+return
+;
 }
 mDecodeJob
 .
