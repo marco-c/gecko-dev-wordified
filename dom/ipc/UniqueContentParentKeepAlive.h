@@ -167,6 +167,7 @@ operator
 (
 ContentParent
 *
+&
 aProcess
 )
 ;
@@ -177,6 +178,7 @@ operator
 (
 ThreadsafeContentParentHandle
 *
+&
 aHandle
 )
 ;

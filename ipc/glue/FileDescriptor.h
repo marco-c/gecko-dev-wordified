@@ -278,7 +278,7 @@ PlatformHandleType
 UniquePlatformHandle
 :
 :
-ElementType
+element_type
 ;
 /
 /
