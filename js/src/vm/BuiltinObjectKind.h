@@ -185,7 +185,6 @@ in
 constructors
 .
 Array
-ListFormat
 Map
 Promise
 RegExp
