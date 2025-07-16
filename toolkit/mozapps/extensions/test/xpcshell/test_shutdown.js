@@ -110,6 +110,9 @@ getInstallSourceFromHost
 "
 stageLangpacksForAppUpdate
 "
+"
+updatePromptHandler
+"
 ]
 ;
 const
