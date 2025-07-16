@@ -103960,11 +103960,28 @@ self
 )
 :
         
+#
+The
+non
+-
+function
+properties
+on
+Object
+.
+prototype
+.
+        
 names
 =
-set
-(
-)
+{
+"
+constructor
+"
+"
+__proto__
+"
+}
         
 iface
 =
