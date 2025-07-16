@@ -382,6 +382,8 @@ TimeStamp
 onStartRequestStart
 HttpConnectionInfoCloneArgs
 connInfoArgs
+IPAddressSpace
+targetIpAddressSpace
 )
 ;
 async
