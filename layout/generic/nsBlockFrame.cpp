@@ -31678,8 +31678,6 @@ BSize
 (
 wm
 anchorResolutionParams
-.
-mPosition
 )
 ;
 if
@@ -31694,8 +31692,6 @@ MinBSize
 (
 wm
 anchorResolutionParams
-.
-mPosition
 )
 )
 |
@@ -65837,12 +65833,14 @@ mStylePosition
 ISize
 (
 wm
+AnchorPosResolutionParams
+:
+:
+From
+(
+&
 reflowInput
-.
-mStyleDisplay
--
->
-mPosition
+)
 )
 ;
 if

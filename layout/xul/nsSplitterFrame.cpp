@@ -3722,8 +3722,6 @@ pos
 GetMinWidth
 (
 anchorResolutionParams
-.
-mPosition
 )
 *
 pos
@@ -3731,8 +3729,6 @@ pos
 GetMinHeight
 (
 anchorResolutionParams
-.
-mPosition
 )
 )
 ;
@@ -3773,8 +3769,6 @@ pos
 GetWidth
 (
 anchorResolutionParams
-.
-mPosition
 )
 curSize
 .
@@ -3788,8 +3782,6 @@ pos
 GetHeight
 (
 anchorResolutionParams
-.
-mPosition
 )
 curSize
 .
