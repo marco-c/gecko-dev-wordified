@@ -1041,6 +1041,15 @@ ClickEventPrevented
 (
 )
 ;
+already_AddRefed
+<
+Event
+>
+GetTriggerEvent
+(
+)
+const
+;
 protected
 :
 ~
