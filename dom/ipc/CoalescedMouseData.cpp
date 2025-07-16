@@ -442,6 +442,16 @@ ePointerMove
 event
 -
 >
+mButton
+=
+MouseButton
+:
+:
+eNotPressed
+;
+event
+-
+>
 mPressure
 =
 aEvent
