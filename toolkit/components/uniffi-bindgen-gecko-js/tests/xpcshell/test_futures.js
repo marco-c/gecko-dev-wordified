@@ -49,6 +49,7 @@ asyncRoundtripMap
 asyncRoundtripObj
 asyncThrowError
 AsyncInterface
+TestAsyncCallbackInterface
 CallbackInterfaceNumbers
 Failure1
 }
@@ -440,12 +441,18 @@ asyncCallbackInterfaces
 /
 class
 AsyncCallbackInterface
+extends
+TestAsyncCallbackInterface
 {
 constructor
 (
 value
 )
 {
+super
+(
+)
+;
 this
 .
 value
