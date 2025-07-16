@@ -298,7 +298,7 @@ h
 #
 include
 "
-nsDOMDataChannelDeclarations
+RTCDataChannelDeclarations
 .
 h
 "
@@ -483,7 +483,7 @@ h
 #
 include
 "
-nsDOMDataChannel
+RTCDataChannel
 .
 h
 "
@@ -6445,7 +6445,7 @@ NS_ERROR_FAILURE
 }
 already_AddRefed
 <
-nsDOMDataChannel
+RTCDataChannel
 >
 PeerConnectionImpl
 :
@@ -6479,7 +6479,7 @@ rv
 {
 RefPtr
 <
-nsDOMDataChannel
+RTCDataChannel
 >
 result
 ;
@@ -6535,7 +6535,7 @@ bool
 aExternalNegotiated
 uint16_t
 aStream
-nsDOMDataChannel
+RTCDataChannel
 *
 *
 aRetval
@@ -6843,7 +6843,7 @@ mUuidGen
 }
 RefPtr
 <
-nsDOMDataChannel
+RTCDataChannel
 >
 retval
 ;
@@ -8884,7 +8884,7 @@ get
 ;
 RefPtr
 <
-nsDOMDataChannel
+RTCDataChannel
 >
 domchannel
 ;
