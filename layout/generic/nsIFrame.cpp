@@ -313,17 +313,6 @@ mozilla
 /
 dom
 /
-ImageTracker
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 Selection
 .
 h

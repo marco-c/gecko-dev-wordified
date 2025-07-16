@@ -1101,11 +1101,6 @@ ImageEncoder
 h
 "
 "
-ImageTracker
-.
-h
-"
-"
 InteractiveWidget
 .
 h
@@ -1941,11 +1936,6 @@ cpp
 "
 "
 ImageEncoder
-.
-cpp
-"
-"
-ImageTracker
 .
 cpp
 "
