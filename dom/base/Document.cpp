@@ -53733,11 +53733,8 @@ GetRootElement
 ;
 if
 (
-NS_WARN_IF
-(
 !
 root
-)
 )
 {
 /
