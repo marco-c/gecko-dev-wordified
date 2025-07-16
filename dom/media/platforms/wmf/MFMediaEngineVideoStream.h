@@ -144,7 +144,7 @@ TrackInfo
 &
 aInfo
 bool
-aIsEncrytpedCustomInit
+aIsEncryptedCustomInit
 MFMediaSource
 *
 aParentSource

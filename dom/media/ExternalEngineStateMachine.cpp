@@ -9620,7 +9620,7 @@ clear
 2
 =
 enabled
-encrytped
+encrypted
 if
 (
 StaticPrefs

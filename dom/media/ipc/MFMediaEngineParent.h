@@ -486,7 +486,7 @@ MediaInfoIPDL
 &
 aInfo
 bool
-aIsEncrytpedCustomInit
+aIsEncryptedCustomInit
 )
 ;
 void

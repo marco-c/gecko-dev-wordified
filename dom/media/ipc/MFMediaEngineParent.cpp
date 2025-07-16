@@ -2125,7 +2125,7 @@ MediaInfoIPDL
 &
 aInfo
 bool
-aIsEncrytpedCustomInit
+aIsEncryptedCustomInit
 )
 {
 AssertOnManagerThread
@@ -2227,7 +2227,7 @@ videoInfo
 (
 )
 mManagerThread
-aIsEncrytpedCustomInit
+aIsEncryptedCustomInit
 )
 )
 IPC_OK
@@ -2237,7 +2237,7 @@ IPC_OK
 ;
 const
 bool
-isEncryted
+isEncrypted
 =
 mMediaSource
 -
@@ -2284,7 +2284,7 @@ video
 =
 %
 s
-aIsEncrytpedCustomInit
+aIsEncryptedCustomInit
 =
 %
 d
@@ -2391,8 +2391,8 @@ yes
 "
 no
 "
-aIsEncrytpedCustomInit
-isEncryted
+aIsEncryptedCustomInit
+isEncrypted
 )
 ;
 LOG
@@ -2466,7 +2466,7 @@ EnabledSwapChain
 ;
 if
 (
-isEncryted
+isEncrypted
 )
 {
 /
@@ -2539,7 +2539,7 @@ ifdef
 MOZ_WMF_CDM
 if
 (
-isEncryted
+isEncrypted
 &
 &
 !
@@ -2567,7 +2567,7 @@ S_OK
 }
 if
 (
-isEncryted
+isEncrypted
 &
 &
 mContentProtectionManager

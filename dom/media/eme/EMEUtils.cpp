@@ -385,7 +385,7 @@ clear
 2
 =
 enabled
-encrytped
+encrypted
 .
 return
 StaticPrefs

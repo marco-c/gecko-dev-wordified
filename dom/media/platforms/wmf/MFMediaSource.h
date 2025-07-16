@@ -336,7 +336,7 @@ nsISerialEventTarget
 *
 aManagerThread
 bool
-aIsEncrytpedCustomInit
+aIsEncryptedCustomInit
 )
 ;
 /

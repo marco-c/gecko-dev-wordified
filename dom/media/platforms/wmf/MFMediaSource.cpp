@@ -291,7 +291,7 @@ nsISerialEventTarget
 *
 aManagerThread
 bool
-aIsEncrytpedCustomInit
+aIsEncryptedCustomInit
 )
 {
 /
@@ -369,7 +369,7 @@ streamId
 +
 *
 aAudio
-aIsEncrytpedCustomInit
+aIsEncryptedCustomInit
 this
 )
 )
@@ -442,7 +442,7 @@ streamId
 +
 *
 aVideo
-aIsEncrytpedCustomInit
+aIsEncryptedCustomInit
 this
 )
 )

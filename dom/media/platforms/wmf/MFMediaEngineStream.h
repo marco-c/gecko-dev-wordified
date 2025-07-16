@@ -257,7 +257,7 @@ TrackInfo
 &
 aInfo
 bool
-aIsEncrytpedCustomInit
+aIsEncryptedCustomInit
 MFMediaSource
 *
 aParentSource
@@ -1258,7 +1258,7 @@ issuecomment
 -
 819783073
 bool
-mIsEncrytpedCustomInit
+mIsEncryptedCustomInit
 ;
 }
 ;
