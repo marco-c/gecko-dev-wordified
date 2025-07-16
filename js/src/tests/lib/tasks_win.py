@@ -542,6 +542,11 @@ out
 decode
 (
 system_encoding
+errors
+=
+"
+replace
+"
 )
         
 err
@@ -551,6 +556,11 @@ err
 decode
 (
 system_encoding
+errors
+=
+"
+replace
+"
 )
         
 qWatch
