@@ -2482,7 +2482,7 @@ bix
 )
 /
 *
-showHashedPointers
+showDetails
 =
 *
 /
@@ -2758,7 +2758,7 @@ vix
 )
 /
 *
-showHashedPointers
+showDetails
 =
 *
 /
@@ -8731,7 +8731,7 @@ printer
 graph
 /
 *
-showHashedPointers
+showDetails
 =
 *
 /
@@ -9132,7 +9132,7 @@ printer
 targetBlock
 /
 *
-showHashedPointers
+showDetails
 =
 *
 /
@@ -9218,7 +9218,7 @@ printer
 exitingValue
 /
 *
-showHashedPointers
+showDetails
 =
 *
 /
@@ -15159,7 +15159,7 @@ printer
 block
 /
 *
-showHashedPointers
+showDetails
 =
 *
 /
@@ -15373,7 +15373,7 @@ printer
 graph
 /
 *
-showHashedPointers
+showDetails
 =
 *
 /
