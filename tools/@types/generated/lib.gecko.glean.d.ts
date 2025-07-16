@@ -39035,14 +39035,6 @@ stripOnShareParamsRemoved
 :
 GleanCustomDistribution
 ;
-tpAllowlistBaselineEnabled
-:
-GleanBoolean
-;
-tpAllowlistConvenienceEnabled
-:
-GleanBoolean
-;
 trackersBlockedCount
 :
 GleanCounter
