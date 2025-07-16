@@ -482,7 +482,7 @@ aCue
 {
 if
 (
-mList
+mCueSet
 .
 Contains
 (
@@ -505,6 +505,14 @@ CompareCuesByTime
 )
 )
 ;
+mCueSet
+.
+Insert
+(
+&
+aCue
+)
+;
 }
 void
 TextTrackCueList
@@ -523,7 +531,7 @@ aRv
 if
 (
 !
-mList
+mCueSet
 .
 Contains
 (
@@ -562,6 +570,14 @@ aCue
 mList
 .
 RemoveElement
+(
+&
+aCue
+)
+;
+mCueSet
+.
+Remove
 (
 &
 aCue
@@ -686,7 +702,7 @@ if
 aCue
 &
 &
-mList
+mCueSet
 .
 Contains
 (
