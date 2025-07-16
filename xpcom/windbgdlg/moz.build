@@ -93,6 +93,9 @@ windbgdlg
 "
 ]
 )
+WINCONSOLE
+=
+False
 OS_LIBS
 +
 =

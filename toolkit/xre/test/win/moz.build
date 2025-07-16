@@ -153,6 +153,9 @@ toolkit
 xre
 "
 ]
+WINCONSOLE
+=
+True
 DisableStlWrapping
 (
 )
