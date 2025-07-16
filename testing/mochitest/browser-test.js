@@ -6325,6 +6325,14 @@ dumpDMDAfterTest
 )
 ;
 }
+this
+.
+PromiseTestUtils
+.
+assertNoUncaughtRejections
+(
+)
+;
 /
 /
 Note
