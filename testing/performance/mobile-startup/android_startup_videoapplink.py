@@ -1229,6 +1229,9 @@ get_image
 (
 self
 frame_position
+cropped
+=
+True
 )
 :
         
@@ -1309,6 +1312,10 @@ the
 image
 comparisons
         
+if
+cropped
+:
+            
 return
 frame
 [
@@ -1329,6 +1336,9 @@ self
 width
 )
 ]
+        
+return
+frame
     
 def
 error
@@ -1361,7 +1371,7 @@ diff
 =
 cv2
 .
-subtract
+absdiff
 (
 img1
 img2
@@ -1399,6 +1409,7 @@ def
 get_page_loaded_time
 (
 self
+iteration
 )
 :
         
@@ -1565,6 +1576,60 @@ lo
 mid
 +
 1
+        
+save_image_location
+=
+pathlib
+.
+Path
+(
+            
+os
+.
+environ
+[
+"
+TESTING_DIR
+"
+]
+            
+f
+"
+vid
+{
+iteration
+}
+_
+{
+self
+.
+browser
+}
+_startup_done_frame_
+{
+lo
+}
+.
+jpg
+"
+        
+)
+        
+cv2
+.
+imwrite
+(
+save_image_location
+self
+.
+get_image
+(
+lo
+cropped
+=
+False
+)
+)
         
 return
 lo
@@ -2218,6 +2283,7 @@ ImageObject
 .
 get_page_loaded_time
 (
+iteration
 )
         
 start_video_timestamp
