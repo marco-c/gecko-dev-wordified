@@ -4659,6 +4659,9 @@ tok
 \
 if
 (
+tx_class
+=
+=
 TX_CLASS_2D
 )
 \
@@ -4819,6 +4822,9 @@ y
 \
 if
 (
+tx_class
+=
+=
 TX_CLASS_2D
 )
 \
@@ -4826,7 +4832,7 @@ level
 =
 levels
 +
-rc
+rc_i
 ;
 \
 else
