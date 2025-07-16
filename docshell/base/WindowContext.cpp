@@ -1425,7 +1425,7 @@ CanSet
 (
 FieldIndex
 <
-IDX_HasBeforeUnload
+IDX_NeedsBeforeUnload
 >
 const
 bool
