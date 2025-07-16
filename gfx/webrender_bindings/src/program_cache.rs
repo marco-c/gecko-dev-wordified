@@ -86,7 +86,6 @@ create_dir_all
 read_dir
 read_to_string
 File
-remove_dir_all
 }
 ;
 use
@@ -2637,6 +2636,9 @@ now
 (
 )
 ;
+remove_dir_all
+:
+:
 remove_dir_all
 (
 &
