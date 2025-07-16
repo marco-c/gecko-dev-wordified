@@ -334,9 +334,6 @@ InputSample
 aInput
 )
 ;
-HRESULT
-TakeOutput
-(
 nsTArray
 <
 RefPtr
@@ -344,8 +341,8 @@ RefPtr
 IMFSample
 >
 >
-&
-aOutput
+TakeOutput
+(
 )
 ;
 HRESULT
