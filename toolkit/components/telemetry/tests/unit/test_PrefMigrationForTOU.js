@@ -2837,7 +2837,7 @@ ok
 !
 TelemetryReportingPolicy
 .
-testUserHasAcceptedTOU
+userHasAcceptedTOU
 (
 )
 "
@@ -3171,7 +3171,7 @@ ok
 (
 TelemetryReportingPolicy
 .
-testUserHasAcceptedTOU
+userHasAcceptedTOU
 (
 )
 "
