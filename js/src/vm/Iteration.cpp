@@ -12553,7 +12553,7 @@ zip
 "
 IteratorZip
 "
-1
+2
 0
 )
 JS_SELF_HOSTED_FN
@@ -12564,7 +12564,7 @@ zipKeyed
 "
 IteratorZipKeyed
 "
-1
+2
 0
 )
 #
