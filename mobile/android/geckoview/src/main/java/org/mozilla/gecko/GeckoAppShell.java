@@ -4987,6 +4987,9 @@ name
 "
 alertclickcallback
 "
+String
+.
+class
 action
 )
 ;
