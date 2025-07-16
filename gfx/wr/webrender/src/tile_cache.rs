@@ -345,7 +345,7 @@ MAX_CACHE_SLICES
 :
 usize
 =
-12
+16
 ;
 struct
 SliceDescriptor
