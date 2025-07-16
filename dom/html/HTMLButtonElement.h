@@ -899,7 +899,7 @@ GetCommand
 (
 nsAString
 &
-aValue
+aCommand
 )
 const
 ;
@@ -909,9 +909,6 @@ Element
 Command
 GetCommand
 (
-nsAtom
-*
-aAtom
 )
 const
 ;
