@@ -144,6 +144,16 @@ Locked
 :
 true
 }
+ScreenShare
+:
+{
+BlockNewRequests
+:
+true
+Locked
+:
+true
+}
 }
 InstallAddonsPermission
 :
@@ -204,6 +214,9 @@ microphone
 "
 "
 xr
+"
+"
+screen
 "
 ]
 ;
