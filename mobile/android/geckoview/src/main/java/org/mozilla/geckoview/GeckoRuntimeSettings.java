@@ -5269,7 +5269,7 @@ ipc
 .
 processCount
 "
-4
+2
 )
 ;
 /
