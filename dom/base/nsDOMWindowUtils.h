@@ -633,6 +633,8 @@ bool
 aIsPen
 bool
 aToWindow
+AsyncEnabledOption
+aAsyncEnabled
 bool
 *
 aPreventDefault
