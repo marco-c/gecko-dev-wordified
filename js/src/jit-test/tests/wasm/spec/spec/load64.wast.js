@@ -811,6 +811,7 @@ const
 )
 (
 func
+\
 f
 (
 param
@@ -848,6 +849,7 @@ i32
 )
 (
 call
+\
 f
 (
 i32
@@ -892,6 +894,7 @@ i32
 )
 (
 call
+\
 f
 (
 i32
@@ -936,6 +939,7 @@ i32
 )
 (
 call
+\
 f
 (
 i32
@@ -964,6 +968,7 @@ const
 )
 (
 type
+\
 sig
 (
 func
@@ -984,6 +989,7 @@ table
 funcref
 (
 elem
+\
 f
 )
 )
@@ -1007,6 +1013,7 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -1060,6 +1067,7 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -1113,6 +1121,7 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -1166,6 +1175,7 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -1277,6 +1287,7 @@ const
 )
 (
 global
+\
 g
 (
 mut
@@ -1311,6 +1322,7 @@ i32
 global
 .
 set
+\
 g
 (
 i32
@@ -3994,6 +4006,7 @@ i64
 )
 (
 func
+\
 load_i32
 (
 i32
@@ -4043,6 +4056,7 @@ i64
 )
 (
 func
+\
 load8_s_i32
 (
 i32
@@ -4092,6 +4106,7 @@ i64
 )
 (
 func
+\
 load8_u_i32
 (
 i32
@@ -4141,6 +4156,7 @@ i64
 )
 (
 func
+\
 load16_s_i32
 (
 i32
@@ -4190,6 +4206,7 @@ i64
 )
 (
 func
+\
 load16_u_i32
 (
 i32
@@ -4239,6 +4256,7 @@ i64
 )
 (
 func
+\
 load_i64
 (
 i64
@@ -4288,6 +4306,7 @@ i64
 )
 (
 func
+\
 load8_s_i64
 (
 i64
@@ -4337,6 +4356,7 @@ i64
 )
 (
 func
+\
 load8_u_i64
 (
 i64
@@ -4386,6 +4406,7 @@ i64
 )
 (
 func
+\
 load16_s_i64
 (
 i64
@@ -4435,6 +4456,7 @@ i64
 )
 (
 func
+\
 load16_u_i64
 (
 i64
@@ -4484,6 +4506,7 @@ i64
 )
 (
 func
+\
 load32_s_i64
 (
 i64
@@ -4533,6 +4556,7 @@ i64
 )
 (
 func
+\
 load32_u_i64
 (
 i64
@@ -4582,6 +4606,7 @@ i64
 )
 (
 func
+\
 load_f32
 (
 f32
@@ -4631,6 +4656,7 @@ i64
 )
 (
 func
+\
 load_f64
 (
 f64
@@ -5408,6 +5434,7 @@ i64
 )
 (
 func
+\
 type
 -
 address
@@ -5458,6 +5485,7 @@ i64
 )
 (
 func
+\
 type
 -
 address
@@ -5521,6 +5549,7 @@ i64
 )
 (
 func
+\
 type
 -
 address
@@ -5584,6 +5613,7 @@ i64
 )
 (
 func
+\
 type
 -
 address
@@ -5656,6 +5686,7 @@ i64
 )
 (
 func
+\
 type
 -
 address
@@ -5741,6 +5772,7 @@ i64
 )
 (
 func
+\
 type
 -
 address
@@ -5808,6 +5840,7 @@ i64
 )
 (
 func
+\
 type
 -
 address
@@ -5881,6 +5914,7 @@ i64
 )
 (
 func
+\
 type
 -
 address
@@ -5948,6 +5982,7 @@ i64
 )
 (
 func
+\
 type
 -
 address
@@ -6005,6 +6040,7 @@ i64
 )
 (
 func
+\
 type
 -
 address
@@ -6074,6 +6110,7 @@ i64
 )
 (
 func
+\
 type
 -
 address
@@ -6149,6 +6186,7 @@ i64
 )
 (
 func
+\
 f
 (
 param
@@ -6167,6 +6205,7 @@ get
 )
 (
 type
+\
 sig
 (
 func
@@ -6185,11 +6224,13 @@ table
 funcref
 (
 elem
+\
 f
 )
 )
 (
 func
+\
 type
 -
 address
@@ -6209,6 +6250,7 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -6264,6 +6306,7 @@ i64
 )
 (
 func
+\
 type
 -
 address
@@ -6336,6 +6379,7 @@ i64
 )
 (
 func
+\
 type
 -
 address
@@ -6402,6 +6446,7 @@ i64
 )
 (
 global
+\
 x
 (
 mut
@@ -6416,6 +6461,7 @@ const
 )
 (
 func
+\
 type
 -
 address
@@ -6431,6 +6477,7 @@ set
 global
 .
 set
+\
 x
 (
 i32
@@ -6442,6 +6489,7 @@ load
 global
 .
 get
+\
 x
 )
 (
@@ -6484,6 +6532,7 @@ i64
 )
 (
 func
+\
 type
 -
 address
@@ -6545,6 +6594,7 @@ i64
 )
 (
 func
+\
 type
 -
 address
@@ -6604,6 +6654,7 @@ i64
 )
 (
 func
+\
 type
 -
 address

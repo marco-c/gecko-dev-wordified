@@ -253,6 +253,7 @@ factorial
 named
 (
 func
+\
 fac
 -
 rec
@@ -270,6 +271,7 @@ named
 )
 (
 param
+\
 n
 i64
 )
@@ -291,6 +293,7 @@ eq
 local
 .
 get
+\
 n
 )
 (
@@ -319,10 +322,12 @@ mul
 local
 .
 get
+\
 n
 )
 (
 call
+\
 fac
 -
 rec
@@ -336,6 +341,7 @@ sub
 local
 .
 get
+\
 n
 )
 (
@@ -513,6 +519,7 @@ named
 )
 (
 param
+\
 n
 i64
 )
@@ -522,11 +529,13 @@ i64
 )
 (
 local
+\
 i
 i64
 )
 (
 local
+\
 res
 i64
 )
@@ -534,11 +543,13 @@ i64
 local
 .
 set
+\
 i
 (
 local
 .
 get
+\
 n
 )
 )
@@ -546,6 +557,7 @@ n
 local
 .
 set
+\
 res
 (
 i64
@@ -556,9 +568,11 @@ const
 )
 (
 block
+\
 done
 (
 loop
+\
 loop
 (
 if
@@ -570,6 +584,7 @@ eq
 local
 .
 get
+\
 i
 )
 (
@@ -583,6 +598,7 @@ const
 then
 (
 br
+\
 done
 )
 )
@@ -592,6 +608,7 @@ else
 local
 .
 set
+\
 res
 (
 i64
@@ -601,12 +618,14 @@ mul
 local
 .
 get
+\
 i
 )
 (
 local
 .
 get
+\
 res
 )
 )
@@ -615,6 +634,7 @@ res
 local
 .
 set
+\
 i
 (
 i64
@@ -624,6 +644,7 @@ sub
 local
 .
 get
+\
 i
 )
 (
@@ -638,6 +659,7 @@ const
 )
 (
 br
+\
 loop
 )
 )
@@ -646,6 +668,7 @@ loop
 local
 .
 get
+\
 res
 )
 )
@@ -799,6 +822,7 @@ locals
 .
 (
 func
+\
 pick0
 (
 param
@@ -824,6 +848,7 @@ get
 )
 (
 func
+\
 pick1
 (
 param
@@ -887,6 +912,7 @@ get
 )
 (
 loop
+\
 l
 (
 param
@@ -899,10 +925,12 @@ i64
 )
 (
 call
+\
 pick1
 )
 (
 call
+\
 pick1
 )
 (
@@ -912,6 +940,7 @@ mul
 )
 (
 call
+\
 pick1
 )
 (
@@ -927,6 +956,7 @@ sub
 )
 (
 call
+\
 pick0
 )
 (
@@ -942,6 +972,7 @@ gt_u
 )
 (
 br_if
+\
 l
 )
 (

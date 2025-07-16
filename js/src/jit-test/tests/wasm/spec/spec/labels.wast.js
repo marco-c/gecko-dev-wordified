@@ -169,6 +169,7 @@ i32
 )
 (
 block
+\
 exit
 (
 result
@@ -176,6 +177,7 @@ i32
 )
 (
 br
+\
 exit
 (
 i32
@@ -206,6 +208,7 @@ i32
 )
 (
 local
+\
 i
 i32
 )
@@ -213,6 +216,7 @@ i32
 local
 .
 set
+\
 i
 (
 i32
@@ -223,6 +227,7 @@ const
 )
 (
 block
+\
 exit
 (
 result
@@ -230,6 +235,7 @@ i32
 )
 (
 loop
+\
 cont
 (
 result
@@ -239,6 +245,7 @@ i32
 local
 .
 set
+\
 i
 (
 i32
@@ -248,6 +255,7 @@ add
 local
 .
 get
+\
 i
 )
 (
@@ -268,6 +276,7 @@ eq
 local
 .
 get
+\
 i
 )
 (
@@ -281,11 +290,13 @@ const
 then
 (
 br
+\
 exit
 (
 local
 .
 get
+\
 i
 )
 )
@@ -293,6 +304,7 @@ i
 )
 (
 br
+\
 cont
 )
 )
@@ -312,6 +324,7 @@ i32
 )
 (
 local
+\
 i
 i32
 )
@@ -319,6 +332,7 @@ i32
 local
 .
 set
+\
 i
 (
 i32
@@ -329,6 +343,7 @@ const
 )
 (
 block
+\
 exit
 (
 result
@@ -336,6 +351,7 @@ i32
 )
 (
 loop
+\
 cont
 (
 result
@@ -345,6 +361,7 @@ i32
 local
 .
 set
+\
 i
 (
 i32
@@ -354,6 +371,7 @@ add
 local
 .
 get
+\
 i
 )
 (
@@ -374,6 +392,7 @@ eq
 local
 .
 get
+\
 i
 )
 (
@@ -387,6 +406,7 @@ const
 then
 (
 br
+\
 cont
 )
 )
@@ -401,6 +421,7 @@ eq
 local
 .
 get
+\
 i
 )
 (
@@ -414,11 +435,13 @@ const
 then
 (
 br
+\
 exit
 (
 local
 .
 get
+\
 i
 )
 )
@@ -428,6 +451,7 @@ i
 local
 .
 set
+\
 i
 (
 i32
@@ -437,6 +461,7 @@ add
 local
 .
 get
+\
 i
 )
 (
@@ -449,6 +474,7 @@ const
 )
 (
 br
+\
 cont
 )
 )
@@ -468,6 +494,7 @@ i32
 )
 (
 local
+\
 i
 i32
 )
@@ -475,6 +502,7 @@ i32
 local
 .
 set
+\
 i
 (
 i32
@@ -485,6 +513,7 @@ const
 )
 (
 block
+\
 exit
 (
 result
@@ -492,6 +521,7 @@ i32
 )
 (
 loop
+\
 cont
 (
 result
@@ -501,6 +531,7 @@ i32
 local
 .
 set
+\
 i
 (
 i32
@@ -510,6 +541,7 @@ add
 local
 .
 get
+\
 i
 )
 (
@@ -530,6 +562,7 @@ eq
 local
 .
 get
+\
 i
 )
 (
@@ -543,11 +576,13 @@ const
 then
 (
 br
+\
 exit
 (
 local
 .
 get
+\
 i
 )
 )
@@ -557,6 +592,7 @@ i
 local
 .
 get
+\
 i
 )
 )
@@ -572,6 +608,7 @@ loop4
 )
 (
 param
+\
 max
 i32
 )
@@ -581,6 +618,7 @@ i32
 )
 (
 local
+\
 i
 i32
 )
@@ -588,6 +626,7 @@ i32
 local
 .
 set
+\
 i
 (
 i32
@@ -598,6 +637,7 @@ const
 )
 (
 block
+\
 exit
 (
 result
@@ -605,6 +645,7 @@ i32
 )
 (
 loop
+\
 cont
 (
 result
@@ -614,6 +655,7 @@ i32
 local
 .
 set
+\
 i
 (
 i32
@@ -623,12 +665,14 @@ add
 local
 .
 get
+\
 i
 )
 (
 local
 .
 get
+\
 i
 )
 )
@@ -643,12 +687,14 @@ gt_u
 local
 .
 get
+\
 i
 )
 (
 local
 .
 get
+\
 max
 )
 )
@@ -656,11 +702,13 @@ max
 then
 (
 br
+\
 exit
 (
 local
 .
 get
+\
 i
 )
 )
@@ -668,6 +716,7 @@ i
 )
 (
 br
+\
 cont
 )
 )
@@ -691,6 +740,7 @@ i32
 add
 (
 loop
+\
 l
 (
 result
@@ -761,6 +811,7 @@ i32
 )
 (
 local
+\
 i
 i32
 )
@@ -768,6 +819,7 @@ i32
 local
 .
 set
+\
 i
 (
 i32
@@ -780,6 +832,7 @@ const
 block
 (
 if
+\
 l
 (
 i32
@@ -791,12 +844,14 @@ const
 then
 (
 br
+\
 l
 )
 (
 local
 .
 set
+\
 i
 (
 i32
@@ -811,6 +866,7 @@ const
 local
 .
 set
+\
 i
 (
 i32
@@ -820,6 +876,7 @@ add
 local
 .
 get
+\
 i
 )
 (
@@ -832,6 +889,7 @@ const
 )
 (
 if
+\
 l
 (
 i32
@@ -843,79 +901,14 @@ const
 then
 (
 br
+\
 l
 )
 (
 local
 .
 set
-i
-(
-i32
-.
-const
-666
-)
-)
-)
-(
-else
-(
-local
-.
-set
-i
-(
-i32
-.
-const
-888
-)
-)
-)
-)
-(
-local
-.
-set
-i
-(
-i32
-.
-add
-(
-local
-.
-get
-i
-)
-(
-i32
-.
-const
-1
-)
-)
-)
-(
-if
-l
-(
-i32
-.
-const
-1
-)
-(
-then
-(
-br
-l
-)
-(
-local
-.
-set
+\
 i
 (
 i32
@@ -931,6 +924,7 @@ else
 local
 .
 set
+\
 i
 (
 i32
@@ -945,6 +939,7 @@ const
 local
 .
 set
+\
 i
 (
 i32
@@ -954,6 +949,7 @@ add
 local
 .
 get
+\
 i
 )
 (
@@ -966,6 +962,80 @@ const
 )
 (
 if
+\
+l
+(
+i32
+.
+const
+1
+)
+(
+then
+(
+br
+\
+l
+)
+(
+local
+.
+set
+\
+i
+(
+i32
+.
+const
+666
+)
+)
+)
+(
+else
+(
+local
+.
+set
+\
+i
+(
+i32
+.
+const
+888
+)
+)
+)
+)
+(
+local
+.
+set
+\
+i
+(
+i32
+.
+add
+(
+local
+.
+get
+\
+i
+)
+(
+i32
+.
+const
+1
+)
+)
+)
+(
+if
+\
 l
 (
 i32
@@ -979,6 +1049,7 @@ then
 local
 .
 set
+\
 i
 (
 i32
@@ -992,12 +1063,14 @@ const
 else
 (
 br
+\
 l
 )
 (
 local
 .
 set
+\
 i
 (
 i32
@@ -1012,6 +1085,7 @@ const
 local
 .
 set
+\
 i
 (
 i32
@@ -1021,6 +1095,7 @@ add
 local
 .
 get
+\
 i
 )
 (
@@ -1033,6 +1108,7 @@ const
 )
 (
 if
+\
 l
 (
 i32
@@ -1046,6 +1122,7 @@ then
 local
 .
 set
+\
 i
 (
 i32
@@ -1059,12 +1136,14 @@ const
 else
 (
 br
+\
 l
 )
 (
 local
 .
 set
+\
 i
 (
 i32
@@ -1079,6 +1158,7 @@ const
 local
 .
 set
+\
 i
 (
 i32
@@ -1088,6 +1168,7 @@ add
 local
 .
 get
+\
 i
 )
 (
@@ -1103,6 +1184,7 @@ const
 local
 .
 get
+\
 i
 )
 )
@@ -1120,6 +1202,7 @@ i32
 )
 (
 local
+\
 i
 i32
 )
@@ -1127,6 +1210,7 @@ i32
 local
 .
 set
+\
 i
 (
 i32
@@ -1155,6 +1239,7 @@ br
 local
 .
 set
+\
 i
 (
 i32
@@ -1169,6 +1254,7 @@ const
 local
 .
 set
+\
 i
 (
 i32
@@ -1178,6 +1264,7 @@ add
 local
 .
 get
+\
 i
 )
 (
@@ -1206,6 +1293,7 @@ br
 local
 .
 set
+\
 i
 (
 i32
@@ -1221,6 +1309,7 @@ else
 local
 .
 set
+\
 i
 (
 i32
@@ -1235,6 +1324,7 @@ const
 local
 .
 set
+\
 i
 (
 i32
@@ -1244,6 +1334,7 @@ add
 local
 .
 get
+\
 i
 )
 (
@@ -1272,6 +1363,7 @@ br
 local
 .
 set
+\
 i
 (
 i32
@@ -1287,6 +1379,7 @@ else
 local
 .
 set
+\
 i
 (
 i32
@@ -1301,6 +1394,7 @@ const
 local
 .
 set
+\
 i
 (
 i32
@@ -1310,6 +1404,7 @@ add
 local
 .
 get
+\
 i
 )
 (
@@ -1334,6 +1429,7 @@ then
 local
 .
 set
+\
 i
 (
 i32
@@ -1353,6 +1449,7 @@ br
 local
 .
 set
+\
 i
 (
 i32
@@ -1367,6 +1464,7 @@ const
 local
 .
 set
+\
 i
 (
 i32
@@ -1376,6 +1474,7 @@ add
 local
 .
 get
+\
 i
 )
 (
@@ -1400,6 +1499,7 @@ then
 local
 .
 set
+\
 i
 (
 i32
@@ -1419,6 +1519,7 @@ br
 local
 .
 set
+\
 i
 (
 i32
@@ -1433,6 +1534,7 @@ const
 local
 .
 set
+\
 i
 (
 i32
@@ -1442,6 +1544,7 @@ add
 local
 .
 get
+\
 i
 )
 (
@@ -1457,6 +1560,7 @@ const
 local
 .
 get
+\
 i
 )
 )
@@ -1478,6 +1582,7 @@ i32
 )
 (
 block
+\
 ret
 (
 result
@@ -1495,6 +1600,7 @@ const
 )
 (
 block
+\
 exit
 (
 result
@@ -1502,25 +1608,35 @@ i32
 )
 (
 block
+\
 0
 (
 block
+\
 default
 (
 block
+\
 3
 (
 block
+\
 2
 (
 block
+\
 1
 (
 br_table
+\
 0
+\
 1
+\
 2
+\
 3
+\
 default
 (
 local
@@ -1539,6 +1655,7 @@ get
 2
 (
 br
+\
 exit
 (
 i32
@@ -1553,6 +1670,7 @@ const
 3
 (
 br
+\
 ret
 (
 i32
@@ -1597,16 +1715,21 @@ i32
 )
 (
 block
+\
 default
 (
 block
+\
 1
 (
 block
+\
 0
 (
 br_table
+\
 0
+\
 1
 (
 local
@@ -1617,6 +1740,7 @@ get
 )
 (
 br
+\
 default
 )
 )
@@ -1661,6 +1785,7 @@ i32
 )
 (
 local
+\
 i
 i32
 )
@@ -1668,6 +1793,7 @@ i32
 local
 .
 set
+\
 i
 (
 i32
@@ -1678,6 +1804,7 @@ const
 )
 (
 block
+\
 outer
 (
 result
@@ -1685,9 +1812,11 @@ i32
 )
 (
 block
+\
 inner
 (
 br_if
+\
 inner
 (
 i32
@@ -1700,6 +1829,7 @@ const
 local
 .
 set
+\
 i
 (
 i32
@@ -1709,6 +1839,7 @@ or
 local
 .
 get
+\
 i
 )
 (
@@ -1721,6 +1852,7 @@ const
 )
 (
 br_if
+\
 inner
 (
 i32
@@ -1733,6 +1865,7 @@ const
 local
 .
 set
+\
 i
 (
 i32
@@ -1742,6 +1875,7 @@ or
 local
 .
 get
+\
 i
 )
 (
@@ -1757,6 +1891,7 @@ const
 drop
 (
 br_if
+\
 outer
 (
 block
@@ -1768,6 +1903,7 @@ i32
 local
 .
 set
+\
 i
 (
 i32
@@ -1777,6 +1913,7 @@ or
 local
 .
 get
+\
 i
 )
 (
@@ -1791,6 +1928,7 @@ const
 local
 .
 get
+\
 i
 )
 )
@@ -1806,6 +1944,7 @@ const
 local
 .
 set
+\
 i
 (
 i32
@@ -1815,6 +1954,7 @@ or
 local
 .
 get
+\
 i
 )
 (
@@ -1829,6 +1969,7 @@ const
 drop
 (
 br_if
+\
 outer
 (
 block
@@ -1840,6 +1981,7 @@ i32
 local
 .
 set
+\
 i
 (
 i32
@@ -1849,6 +1991,7 @@ or
 local
 .
 get
+\
 i
 )
 (
@@ -1863,6 +2006,7 @@ const
 local
 .
 get
+\
 i
 )
 )
@@ -1878,6 +2022,7 @@ const
 local
 .
 set
+\
 i
 (
 i32
@@ -1887,6 +2032,7 @@ or
 local
 .
 get
+\
 i
 )
 (
@@ -1901,6 +2047,7 @@ const
 local
 .
 get
+\
 i
 )
 )
@@ -1919,6 +2066,7 @@ i32
 )
 (
 block
+\
 l0
 (
 result
@@ -1928,9 +2076,11 @@ i32
 drop
 (
 br_if
+\
 l0
 (
 block
+\
 l1
 (
 result
@@ -1938,6 +2088,7 @@ i32
 )
 (
 br
+\
 l1
 (
 i32
@@ -1977,6 +2128,7 @@ i32
 )
 (
 block
+\
 l0
 (
 result
@@ -1996,9 +2148,11 @@ then
 drop
 (
 br_if
+\
 l0
 (
 block
+\
 l1
 (
 result
@@ -2006,6 +2160,7 @@ i32
 )
 (
 br
+\
 l1
 (
 i32
@@ -2047,6 +2202,7 @@ i32
 )
 (
 local
+\
 i1
 i32
 )
@@ -2058,6 +2214,7 @@ i32
 add
 (
 block
+\
 l0
 (
 result
@@ -2067,6 +2224,7 @@ i32
 drop
 (
 br_if
+\
 l0
 (
 block
@@ -2078,6 +2236,7 @@ i32
 local
 .
 set
+\
 i1
 (
 i32
@@ -2090,6 +2249,7 @@ const
 local
 .
 get
+\
 i1
 )
 )
@@ -2103,6 +2263,7 @@ i32
 local
 .
 set
+\
 i1
 (
 i32
@@ -2115,6 +2276,7 @@ const
 local
 .
 get
+\
 i1
 )
 )
@@ -2139,6 +2301,7 @@ const
 local
 .
 get
+\
 i1
 )
 )
@@ -2156,6 +2319,7 @@ i32
 )
 (
 block
+\
 l0
 (
 result
@@ -2173,9 +2337,11 @@ const
 then
 (
 br
+\
 l0
 (
 block
+\
 l1
 (
 result
@@ -2183,6 +2349,7 @@ i32
 )
 (
 br
+\
 l1
 (
 i32
@@ -2202,6 +2369,7 @@ block
 drop
 (
 block
+\
 l1
 (
 result
@@ -2209,6 +2377,7 @@ i32
 )
 (
 br
+\
 l1
 (
 i32
@@ -2244,6 +2413,7 @@ i32
 )
 (
 block
+\
 l1
 (
 result
@@ -2255,6 +2425,7 @@ i32
 xor
 (
 br
+\
 l1
 (
 i32
@@ -2286,6 +2457,7 @@ i32
 )
 (
 block
+\
 l1
 (
 result
@@ -2297,6 +2469,7 @@ i32
 add
 (
 block
+\
 l1
 (
 result
@@ -2311,6 +2484,7 @@ const
 )
 (
 block
+\
 l1
 (
 result
@@ -2318,6 +2492,7 @@ i32
 )
 (
 br
+\
 l1
 (
 i32
@@ -3295,6 +3470,7 @@ module
 func
 (
 block
+\
 l
 (
 f32
@@ -3302,6 +3478,7 @@ f32
 neg
 (
 br_if
+\
 l
 (
 i32
@@ -3349,9 +3526,11 @@ module
 func
 (
 block
+\
 l
 (
 br_if
+\
 l
 (
 f32
@@ -3401,9 +3580,11 @@ module
 func
 (
 block
+\
 l
 (
 br_if
+\
 l
 (
 f32

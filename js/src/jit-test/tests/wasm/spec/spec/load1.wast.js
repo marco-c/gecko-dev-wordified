@@ -163,6 +163,7 @@ instantiate
 (
 (
 module
+\
 M
 (
 memory
@@ -259,6 +260,7 @@ instantiate
 module
 (
 memory
+\
 mem1
 (
 import
@@ -273,6 +275,7 @@ mem
 )
 (
 memory
+\
 mem2
 3
 )
@@ -280,6 +283,7 @@ mem2
 data
 (
 memory
+\
 mem1
 )
 (
@@ -310,6 +314,7 @@ const
 data
 (
 memory
+\
 mem2
 )
 (
@@ -356,6 +361,7 @@ i32
 i32
 .
 load8_u
+\
 mem1
 (
 local
@@ -385,6 +391,7 @@ i32
 i32
 .
 load8_u
+\
 mem2
 (
 local

@@ -165,11 +165,13 @@ instantiate
 module
 (
 memory
+\
 mem1
 1
 )
 (
 memory
+\
 mem2
 1
 )
@@ -193,6 +195,7 @@ i64
 i64
 .
 load
+\
 mem1
 (
 local
@@ -222,6 +225,7 @@ i64
 i64
 .
 load
+\
 mem2
 (
 local
@@ -235,6 +239,7 @@ get
 data
 (
 memory
+\
 mem1
 )
 (
@@ -253,6 +258,7 @@ const
 data
 (
 memory
+\
 mem2
 )
 (

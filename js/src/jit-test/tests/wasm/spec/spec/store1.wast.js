@@ -163,6 +163,7 @@ instantiate
 (
 (
 module
+\
 M1
 (
 memory
@@ -288,6 +289,7 @@ instantiate
 (
 (
 module
+\
 M2
 (
 memory
@@ -553,6 +555,7 @@ instantiate
 module
 (
 memory
+\
 mem1
 (
 import
@@ -567,6 +570,7 @@ mem
 )
 (
 memory
+\
 mem2
 (
 import
@@ -599,6 +603,7 @@ i64
 i64
 .
 load
+\
 mem1
 (
 local
@@ -628,6 +633,7 @@ i64
 i64
 .
 load
+\
 mem2
 (
 local
@@ -654,6 +660,7 @@ i64
 i64
 .
 store
+\
 mem1
 (
 local
@@ -686,6 +693,7 @@ i64
 i64
 .
 store
+\
 mem2
 (
 local

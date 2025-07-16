@@ -167,6 +167,7 @@ extend_i32_s
 )
 (
 param
+\
 x
 i32
 )
@@ -182,6 +183,7 @@ extend_i32_s
 local
 .
 get
+\
 x
 )
 )
@@ -198,6 +200,7 @@ extend_i32_u
 )
 (
 param
+\
 x
 i32
 )
@@ -213,6 +216,7 @@ extend_i32_u
 local
 .
 get
+\
 x
 )
 )
@@ -229,6 +233,7 @@ wrap_i64
 )
 (
 param
+\
 x
 i64
 )
@@ -244,6 +249,7 @@ wrap_i64
 local
 .
 get
+\
 x
 )
 )
@@ -260,6 +266,7 @@ trunc_f32_s
 )
 (
 param
+\
 x
 f32
 )
@@ -275,6 +282,7 @@ trunc_f32_s
 local
 .
 get
+\
 x
 )
 )
@@ -291,6 +299,7 @@ trunc_f32_u
 )
 (
 param
+\
 x
 f32
 )
@@ -306,6 +315,7 @@ trunc_f32_u
 local
 .
 get
+\
 x
 )
 )
@@ -322,6 +332,7 @@ trunc_f64_s
 )
 (
 param
+\
 x
 f64
 )
@@ -337,6 +348,7 @@ trunc_f64_s
 local
 .
 get
+\
 x
 )
 )
@@ -353,6 +365,7 @@ trunc_f64_u
 )
 (
 param
+\
 x
 f64
 )
@@ -368,6 +381,7 @@ trunc_f64_u
 local
 .
 get
+\
 x
 )
 )
@@ -384,6 +398,7 @@ trunc_f32_s
 )
 (
 param
+\
 x
 f32
 )
@@ -399,6 +414,7 @@ trunc_f32_s
 local
 .
 get
+\
 x
 )
 )
@@ -415,6 +431,7 @@ trunc_f32_u
 )
 (
 param
+\
 x
 f32
 )
@@ -430,6 +447,7 @@ trunc_f32_u
 local
 .
 get
+\
 x
 )
 )
@@ -446,6 +464,7 @@ trunc_f64_s
 )
 (
 param
+\
 x
 f64
 )
@@ -461,6 +480,7 @@ trunc_f64_s
 local
 .
 get
+\
 x
 )
 )
@@ -477,6 +497,7 @@ trunc_f64_u
 )
 (
 param
+\
 x
 f64
 )
@@ -492,6 +513,7 @@ trunc_f64_u
 local
 .
 get
+\
 x
 )
 )
@@ -508,6 +530,7 @@ trunc_sat_f32_s
 )
 (
 param
+\
 x
 f32
 )
@@ -523,6 +546,7 @@ trunc_sat_f32_s
 local
 .
 get
+\
 x
 )
 )
@@ -539,6 +563,7 @@ trunc_sat_f32_u
 )
 (
 param
+\
 x
 f32
 )
@@ -554,6 +579,7 @@ trunc_sat_f32_u
 local
 .
 get
+\
 x
 )
 )
@@ -570,6 +596,7 @@ trunc_sat_f64_s
 )
 (
 param
+\
 x
 f64
 )
@@ -585,6 +612,7 @@ trunc_sat_f64_s
 local
 .
 get
+\
 x
 )
 )
@@ -601,6 +629,7 @@ trunc_sat_f64_u
 )
 (
 param
+\
 x
 f64
 )
@@ -616,6 +645,7 @@ trunc_sat_f64_u
 local
 .
 get
+\
 x
 )
 )
@@ -632,6 +662,7 @@ trunc_sat_f32_s
 )
 (
 param
+\
 x
 f32
 )
@@ -647,6 +678,7 @@ trunc_sat_f32_s
 local
 .
 get
+\
 x
 )
 )
@@ -663,6 +695,7 @@ trunc_sat_f32_u
 )
 (
 param
+\
 x
 f32
 )
@@ -678,6 +711,7 @@ trunc_sat_f32_u
 local
 .
 get
+\
 x
 )
 )
@@ -694,6 +728,7 @@ trunc_sat_f64_s
 )
 (
 param
+\
 x
 f64
 )
@@ -709,6 +744,7 @@ trunc_sat_f64_s
 local
 .
 get
+\
 x
 )
 )
@@ -725,6 +761,7 @@ trunc_sat_f64_u
 )
 (
 param
+\
 x
 f64
 )
@@ -740,6 +777,7 @@ trunc_sat_f64_u
 local
 .
 get
+\
 x
 )
 )
@@ -756,6 +794,7 @@ convert_i32_s
 )
 (
 param
+\
 x
 i32
 )
@@ -771,6 +810,7 @@ convert_i32_s
 local
 .
 get
+\
 x
 )
 )
@@ -787,6 +827,7 @@ convert_i64_s
 )
 (
 param
+\
 x
 i64
 )
@@ -802,6 +843,7 @@ convert_i64_s
 local
 .
 get
+\
 x
 )
 )
@@ -818,6 +860,7 @@ convert_i32_s
 )
 (
 param
+\
 x
 i32
 )
@@ -833,6 +876,7 @@ convert_i32_s
 local
 .
 get
+\
 x
 )
 )
@@ -849,6 +893,7 @@ convert_i64_s
 )
 (
 param
+\
 x
 i64
 )
@@ -864,6 +909,7 @@ convert_i64_s
 local
 .
 get
+\
 x
 )
 )
@@ -880,6 +926,7 @@ convert_i32_u
 )
 (
 param
+\
 x
 i32
 )
@@ -895,6 +942,7 @@ convert_i32_u
 local
 .
 get
+\
 x
 )
 )
@@ -911,6 +959,7 @@ convert_i64_u
 )
 (
 param
+\
 x
 i64
 )
@@ -926,6 +975,7 @@ convert_i64_u
 local
 .
 get
+\
 x
 )
 )
@@ -942,6 +992,7 @@ convert_i32_u
 )
 (
 param
+\
 x
 i32
 )
@@ -957,6 +1008,7 @@ convert_i32_u
 local
 .
 get
+\
 x
 )
 )
@@ -973,6 +1025,7 @@ convert_i64_u
 )
 (
 param
+\
 x
 i64
 )
@@ -988,6 +1041,7 @@ convert_i64_u
 local
 .
 get
+\
 x
 )
 )
@@ -1004,6 +1058,7 @@ promote_f32
 )
 (
 param
+\
 x
 f32
 )
@@ -1019,6 +1074,7 @@ promote_f32
 local
 .
 get
+\
 x
 )
 )
@@ -1035,6 +1091,7 @@ demote_f64
 )
 (
 param
+\
 x
 f64
 )
@@ -1050,6 +1107,7 @@ demote_f64
 local
 .
 get
+\
 x
 )
 )
@@ -1066,6 +1124,7 @@ reinterpret_i32
 )
 (
 param
+\
 x
 i32
 )
@@ -1081,6 +1140,7 @@ reinterpret_i32
 local
 .
 get
+\
 x
 )
 )
@@ -1097,6 +1157,7 @@ reinterpret_i64
 )
 (
 param
+\
 x
 i64
 )
@@ -1112,6 +1173,7 @@ reinterpret_i64
 local
 .
 get
+\
 x
 )
 )
@@ -1128,6 +1190,7 @@ reinterpret_f32
 )
 (
 param
+\
 x
 f32
 )
@@ -1143,6 +1206,7 @@ reinterpret_f32
 local
 .
 get
+\
 x
 )
 )
@@ -1159,6 +1223,7 @@ reinterpret_f64
 )
 (
 param
+\
 x
 f64
 )
@@ -1174,6 +1239,7 @@ reinterpret_f64
 local
 .
 get
+\
 x
 )
 )

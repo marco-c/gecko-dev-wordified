@@ -15048,6 +15048,7 @@ instantiate
 module
 (
 func
+\
 f32x4
 .
 ceil
@@ -15098,6 +15099,7 @@ instantiate
 module
 (
 func
+\
 f32x4
 .
 floor
@@ -15148,6 +15150,7 @@ instantiate
 module
 (
 func
+\
 f32x4
 .
 trunc
@@ -15198,6 +15201,7 @@ instantiate
 module
 (
 func
+\
 f32x4
 .
 nearest

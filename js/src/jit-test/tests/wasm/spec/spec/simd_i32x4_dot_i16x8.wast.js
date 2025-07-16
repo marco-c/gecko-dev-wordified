@@ -2092,6 +2092,7 @@ instantiate
 module
 (
 func
+\
 i32x4
 .
 dot_i16x8_s
@@ -2154,6 +2155,7 @@ instantiate
 module
 (
 func
+\
 i32x4
 .
 dot_i16x8_s

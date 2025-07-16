@@ -161,6 +161,7 @@ Auxiliary
 definition
 (
 func
+\
 dummy
 )
 (
@@ -487,6 +488,7 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
@@ -522,6 +524,7 @@ nop
 )
 (
 call
+\
 dummy
 )
 (
@@ -549,6 +552,7 @@ nop
 )
 (
 call
+\
 dummy
 )
 (
@@ -580,6 +584,7 @@ return
 )
 (
 call
+\
 dummy
 )
 )
@@ -600,6 +605,7 @@ mid
 block
 (
 call
+\
 dummy
 )
 (
@@ -607,6 +613,7 @@ return
 )
 (
 call
+\
 dummy
 )
 )
@@ -630,6 +637,7 @@ nop
 )
 (
 call
+\
 dummy
 )
 (
@@ -664,6 +672,7 @@ nop
 )
 (
 call
+\
 dummy
 )
 (
@@ -740,6 +749,7 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
@@ -786,6 +796,7 @@ nop
 )
 (
 call
+\
 dummy
 )
 (
@@ -1437,6 +1448,7 @@ const
 )
 (
 func
+\
 f
 (
 param
@@ -1474,6 +1486,7 @@ i32
 )
 (
 call
+\
 f
 (
 return
@@ -1516,6 +1529,7 @@ i32
 )
 (
 call
+\
 f
 (
 i32
@@ -1558,6 +1572,7 @@ i32
 )
 (
 call
+\
 f
 (
 i32
@@ -1584,6 +1599,7 @@ const
 )
 (
 type
+\
 sig
 (
 func
@@ -1604,6 +1620,7 @@ table
 funcref
 (
 elem
+\
 f
 )
 )
@@ -1627,6 +1644,7 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -1678,6 +1696,7 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -1729,6 +1748,7 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -1780,6 +1800,7 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -1896,6 +1917,7 @@ const
 )
 (
 global
+\
 a
 (
 mut
@@ -1930,6 +1952,7 @@ i32
 global
 .
 set
+\
 a
 (
 return
@@ -5019,6 +5042,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 value
@@ -5067,6 +5091,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 value
@@ -5128,6 +5153,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 value
@@ -5189,6 +5215,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 value
@@ -5259,6 +5286,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 value
@@ -5345,6 +5373,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 value
@@ -5410,6 +5439,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 value
@@ -5481,6 +5511,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 value
@@ -5546,6 +5577,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 value
@@ -5601,6 +5633,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 value
@@ -5668,6 +5701,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 value
@@ -5741,6 +5775,7 @@ instantiate
 module
 (
 func
+\
 f
 (
 param
@@ -5759,6 +5794,7 @@ get
 )
 (
 type
+\
 sig
 (
 func
@@ -5777,11 +5813,13 @@ table
 funcref
 (
 elem
+\
 f
 )
 )
 (
 func
+\
 type
 -
 value
@@ -5809,6 +5847,7 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -5854,6 +5893,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 value
@@ -5924,6 +5964,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 value
@@ -5988,6 +6029,7 @@ instantiate
 module
 (
 global
+\
 x
 (
 mut
@@ -6002,6 +6044,7 @@ const
 )
 (
 func
+\
 type
 -
 value
@@ -6025,6 +6068,7 @@ i32
 global
 .
 set
+\
 x
 (
 return
@@ -6034,6 +6078,7 @@ return
 global
 .
 get
+\
 x
 )
 )
@@ -6072,6 +6117,7 @@ memory
 )
 (
 func
+\
 type
 -
 value
@@ -6135,6 +6181,7 @@ memory
 )
 (
 func
+\
 type
 -
 value
@@ -6196,6 +6243,7 @@ memory
 )
 (
 func
+\
 type
 -
 value
@@ -6259,6 +6307,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 value
@@ -6310,6 +6359,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 value

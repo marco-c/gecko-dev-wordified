@@ -163,6 +163,7 @@ instantiate
 (
 (
 module
+\
 Mt
 (
 type
@@ -199,13 +200,18 @@ i32
 const
 2
 )
+\
 g
+\
 g
+\
 g
+\
 g
 )
 (
 func
+\
 g
 (
 result
@@ -373,6 +379,7 @@ not
 exist
 (
 func
+\
 f
 (
 result
@@ -393,6 +400,7 @@ i32
 const
 7
 )
+\
 f
 )
 (
@@ -403,6 +411,7 @@ i32
 const
 9
 )
+\
 f
 )
 )
@@ -489,6 +498,7 @@ funcref
 )
 (
 func
+\
 f
 (
 result
@@ -509,6 +519,7 @@ i32
 const
 7
 )
+\
 f
 )
 (
@@ -517,6 +528,7 @@ memory
 )
 (
 memory
+\
 m
 1
 )
@@ -526,6 +538,7 @@ memory
 )
 (
 data
+\
 m
 (
 i32

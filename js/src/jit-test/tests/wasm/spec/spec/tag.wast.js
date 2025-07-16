@@ -180,6 +180,7 @@ i32
 )
 (
 tag
+\
 t3
 (
 param
@@ -241,6 +242,7 @@ instantiate
 module
 (
 tag
+\
 t0
 (
 import
@@ -266,6 +268,7 @@ t3
 "
 (
 tag
+\
 t1
 (
 param
@@ -341,6 +344,7 @@ module
 rec
 (
 type
+\
 t1
 (
 func
@@ -348,6 +352,7 @@ func
 )
 (
 type
+\
 t2
 (
 func
@@ -364,6 +369,7 @@ tag
 )
 (
 type
+\
 t1
 )
 )
@@ -413,6 +419,7 @@ module
 rec
 (
 type
+\
 t1
 (
 func
@@ -420,6 +427,7 @@ func
 )
 (
 type
+\
 t2
 (
 func
@@ -439,6 +447,7 @@ tag
 )
 (
 type
+\
 t1
 )
 )
@@ -472,6 +481,7 @@ module
 rec
 (
 type
+\
 t1
 (
 func
@@ -479,6 +489,7 @@ func
 )
 (
 type
+\
 t2
 (
 func
@@ -498,6 +509,7 @@ tag
 )
 (
 type
+\
 t2
 )
 )
@@ -532,6 +544,7 @@ instantiate
 module
 (
 type
+\
 t
 (
 func
@@ -550,6 +563,7 @@ tag
 )
 (
 type
+\
 t
 )
 )

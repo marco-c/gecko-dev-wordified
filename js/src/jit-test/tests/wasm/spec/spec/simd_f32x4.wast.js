@@ -75441,6 +75441,7 @@ instantiate
 module
 (
 func
+\
 f32x4
 .
 abs
@@ -75491,6 +75492,7 @@ instantiate
 module
 (
 func
+\
 f32x4
 .
 min
@@ -75553,6 +75555,7 @@ instantiate
 module
 (
 func
+\
 f32x4
 .
 min
@@ -75603,6 +75606,7 @@ instantiate
 module
 (
 func
+\
 f32x4
 .
 max
@@ -75665,6 +75669,7 @@ instantiate
 module
 (
 func
+\
 f32x4
 .
 max

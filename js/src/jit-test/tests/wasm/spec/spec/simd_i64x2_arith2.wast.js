@@ -1267,6 +1267,7 @@ instantiate
 module
 (
 func
+\
 i64x2
 .
 abs

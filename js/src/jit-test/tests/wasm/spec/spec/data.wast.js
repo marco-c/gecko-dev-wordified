@@ -157,6 +157,7 @@ instantiate
 module
 (
 memory
+\
 m
 1
 )
@@ -300,6 +301,7 @@ bc
 data
 (
 memory
+\
 m
 )
 (
@@ -313,6 +315,7 @@ const
 data
 (
 memory
+\
 m
 )
 (
@@ -334,6 +337,7 @@ bcd
 data
 (
 memory
+\
 m
 )
 (
@@ -350,6 +354,7 @@ const
 data
 (
 memory
+\
 m
 )
 (
@@ -374,6 +379,7 @@ bc
 )
 (
 data
+\
 d1
 (
 i32
@@ -384,6 +390,7 @@ const
 )
 (
 data
+\
 d2
 (
 i32
@@ -402,6 +409,7 @@ bcd
 )
 (
 data
+\
 d3
 (
 offset
@@ -415,6 +423,7 @@ const
 )
 (
 data
+\
 d4
 (
 offset
@@ -438,6 +447,7 @@ bc
 )
 (
 data
+\
 d5
 (
 memory
@@ -452,6 +462,7 @@ const
 )
 (
 data
+\
 d6
 (
 memory
@@ -474,6 +485,7 @@ bcd
 )
 (
 data
+\
 d7
 (
 memory
@@ -491,6 +503,7 @@ const
 )
 (
 data
+\
 d8
 (
 memory
@@ -518,9 +531,11 @@ bc
 )
 (
 data
+\
 d9
 (
 memory
+\
 m
 )
 (
@@ -532,9 +547,11 @@ const
 )
 (
 data
+\
 d10
 (
 memory
+\
 m
 )
 (
@@ -554,9 +571,11 @@ bcd
 )
 (
 data
+\
 d11
 (
 memory
+\
 m
 )
 (
@@ -571,9 +590,11 @@ const
 )
 (
 data
+\
 d12
 (
 memory
+\
 m
 )
 (
@@ -1016,6 +1037,7 @@ instantiate
 module
 (
 global
+\
 g
 (
 import
@@ -1038,6 +1060,7 @@ data
 global
 .
 get
+\
 g
 )
 "
@@ -1069,6 +1092,7 @@ instantiate
 module
 (
 global
+\
 g
 (
 import
@@ -1100,6 +1124,7 @@ data
 global
 .
 get
+\
 g
 )
 "
@@ -1184,6 +1209,7 @@ memory
 )
 (
 global
+\
 g
 i32
 (
@@ -1199,6 +1225,7 @@ data
 global
 .
 get
+\
 g
 )
 "
@@ -4433,6 +4460,7 @@ instantiate
 module
 (
 global
+\
 g
 (
 import
@@ -4458,6 +4486,7 @@ data
 global
 .
 get
+\
 g
 )
 )

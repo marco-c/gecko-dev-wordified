@@ -161,6 +161,7 @@ Auxiliary
 definition
 (
 func
+\
 dummy
 )
 (
@@ -610,6 +611,7 @@ br
 )
 (
 call
+\
 dummy
 )
 )
@@ -630,6 +632,7 @@ mid
 block
 (
 call
+\
 dummy
 )
 (
@@ -638,6 +641,7 @@ br
 )
 (
 call
+\
 dummy
 )
 )
@@ -661,6 +665,7 @@ nop
 )
 (
 call
+\
 dummy
 )
 (
@@ -696,6 +701,7 @@ nop
 )
 (
 call
+\
 dummy
 )
 (
@@ -787,6 +793,7 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
@@ -841,6 +848,7 @@ nop
 )
 (
 call
+\
 dummy
 )
 (
@@ -1627,6 +1635,7 @@ const
 )
 (
 func
+\
 f
 (
 param
@@ -1670,6 +1679,7 @@ i32
 )
 (
 call
+\
 f
 (
 br
@@ -1720,6 +1730,7 @@ i32
 )
 (
 call
+\
 f
 (
 i32
@@ -1770,6 +1781,7 @@ i32
 )
 (
 call
+\
 f
 (
 i32
@@ -1820,6 +1832,7 @@ i32
 )
 (
 call
+\
 f
 (
 br
@@ -1836,6 +1849,7 @@ const
 )
 (
 type
+\
 sig
 (
 func
@@ -1856,6 +1870,7 @@ table
 funcref
 (
 elem
+\
 f
 )
 )
@@ -1885,6 +1900,7 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -1944,6 +1960,7 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -2003,6 +2020,7 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -2062,6 +2080,7 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -2121,6 +2140,7 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -2237,6 +2257,7 @@ const
 )
 (
 global
+\
 a
 (
 mut
@@ -2277,6 +2298,7 @@ i32
 global
 .
 set
+\
 a
 (
 br
@@ -3127,6 +3149,7 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
@@ -6667,6 +6690,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 arg
@@ -6729,6 +6753,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 arg
@@ -6794,6 +6819,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 arg
@@ -6861,6 +6887,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 arg
@@ -6929,6 +6956,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 arg
@@ -6999,6 +7027,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 arg
@@ -7075,6 +7104,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 arg
@@ -7145,6 +7175,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 arg
@@ -7208,6 +7239,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 arg
@@ -7283,6 +7315,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 arg
@@ -7364,6 +7397,7 @@ instantiate
 module
 (
 func
+\
 f
 (
 param
@@ -7382,6 +7416,7 @@ get
 )
 (
 type
+\
 sig
 (
 func
@@ -7400,11 +7435,13 @@ table
 funcref
 (
 elem
+\
 f
 )
 )
 (
 func
+\
 type
 -
 arg
@@ -7424,6 +7461,7 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -7478,6 +7516,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 arg
@@ -7556,6 +7595,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 arg
@@ -7628,6 +7668,7 @@ instantiate
 module
 (
 global
+\
 x
 (
 mut
@@ -7642,6 +7683,7 @@ const
 )
 (
 func
+\
 type
 -
 arg
@@ -7663,6 +7705,7 @@ i32
 global
 .
 set
+\
 x
 (
 br
@@ -7673,6 +7716,7 @@ br
 global
 .
 get
+\
 x
 )
 )
@@ -7720,6 +7764,7 @@ memory
 )
 (
 func
+\
 type
 -
 arg
@@ -7791,6 +7836,7 @@ memory
 )
 (
 func
+\
 type
 -
 arg
@@ -7860,6 +7906,7 @@ memory
 )
 (
 func
+\
 type
 -
 arg
@@ -7931,6 +7978,7 @@ instantiate
 module
 (
 func
+\
 unbound
 -
 label
@@ -7970,6 +8018,7 @@ instantiate
 module
 (
 func
+\
 unbound
 -
 nested
@@ -8017,6 +8066,7 @@ instantiate
 module
 (
 func
+\
 large
 -
 label

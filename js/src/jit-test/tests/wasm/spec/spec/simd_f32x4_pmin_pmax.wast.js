@@ -375432,6 +375432,7 @@ instantiate
 module
 (
 func
+\
 f32x4
 .
 pmin
@@ -375494,6 +375495,7 @@ instantiate
 module
 (
 func
+\
 f32x4
 .
 pmin
@@ -375544,6 +375546,7 @@ instantiate
 module
 (
 func
+\
 f32x4
 .
 pmax
@@ -375606,6 +375609,7 @@ instantiate
 module
 (
 func
+\
 f32x4
 .
 pmax

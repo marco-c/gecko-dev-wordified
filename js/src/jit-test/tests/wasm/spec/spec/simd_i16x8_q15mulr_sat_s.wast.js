@@ -2196,6 +2196,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 q15mulr_sat_s
@@ -2262,6 +2263,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 q15mulr_sat_s

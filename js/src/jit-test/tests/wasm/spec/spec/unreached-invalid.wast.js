@@ -164,6 +164,7 @@ instantiate
 module
 (
 func
+\
 local
 -
 index
@@ -213,6 +214,7 @@ instantiate
 module
 (
 func
+\
 global
 -
 index
@@ -262,6 +264,7 @@ instantiate
 module
 (
 func
+\
 func
 -
 index
@@ -306,6 +309,7 @@ instantiate
 module
 (
 func
+\
 label
 -
 index
@@ -350,6 +354,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 num
@@ -408,6 +413,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 poly
@@ -473,6 +479,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 poly
@@ -555,6 +562,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 unconsumed
@@ -603,6 +611,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 unconsumed
@@ -650,6 +659,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 unconsumed
@@ -703,6 +713,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 unconsumed
@@ -748,6 +759,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 unconsumed
@@ -799,6 +811,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 unconsumed
@@ -856,6 +869,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 unary
@@ -924,6 +938,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 unary
@@ -992,6 +1007,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 binary
@@ -1063,6 +1079,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 binary
@@ -1137,6 +1154,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 block
@@ -1199,6 +1217,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 block
@@ -1275,6 +1294,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 loop
@@ -1340,6 +1360,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 loop
@@ -1416,6 +1437,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 func
@@ -1475,6 +1497,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 func
@@ -1544,6 +1567,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 unary
@@ -1608,6 +1632,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 unary
@@ -1672,6 +1697,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 binary
@@ -1739,6 +1765,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 binary
@@ -1809,6 +1836,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 block
@@ -1870,6 +1898,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 block
@@ -1951,6 +1980,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 loop
@@ -2015,6 +2045,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 loop
@@ -2090,6 +2121,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 func
@@ -2148,6 +2180,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 func
@@ -2216,6 +2249,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 unary
@@ -2280,6 +2314,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 unary
@@ -2348,6 +2383,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 unary
@@ -2419,6 +2455,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 unary
@@ -2483,6 +2520,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 binary
@@ -2550,6 +2588,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 binary
@@ -2620,6 +2659,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 block
@@ -2681,6 +2721,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 block
@@ -2756,6 +2797,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 loop
@@ -2820,6 +2862,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 loop
@@ -2889,6 +2932,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 func
@@ -2947,6 +2991,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 func
@@ -3009,6 +3054,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 unary
@@ -3086,6 +3132,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 unary
@@ -3169,6 +3216,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 unary
@@ -3251,6 +3299,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 unary
@@ -3320,6 +3369,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 unary
@@ -3389,6 +3439,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 binary
@@ -3461,6 +3512,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 binary
@@ -3536,6 +3588,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 block
@@ -3602,6 +3655,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 block
@@ -3682,6 +3736,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 loop
@@ -3751,6 +3806,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 loop
@@ -3825,6 +3881,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 func
@@ -3888,6 +3945,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 func
@@ -3955,6 +4013,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 unary
@@ -4025,6 +4084,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 unary
@@ -4095,6 +4155,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 binary
@@ -4168,6 +4229,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 binary
@@ -4244,6 +4306,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 block
@@ -4311,6 +4374,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 block
@@ -4392,6 +4456,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 loop
@@ -4462,6 +4527,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 loop
@@ -4537,6 +4603,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 func
@@ -4601,6 +4668,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 func
@@ -4669,6 +4737,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 unary
@@ -4741,6 +4810,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 unary
@@ -4816,6 +4886,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 binary
@@ -4891,6 +4962,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 binary
@@ -4972,6 +5044,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 if
@@ -5041,6 +5114,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 if
@@ -5118,6 +5192,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 block
@@ -5190,6 +5265,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 block
@@ -5274,6 +5350,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 block
@@ -5346,6 +5423,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 block
@@ -5430,6 +5508,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 return
@@ -5497,6 +5576,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 br
@@ -5573,6 +5653,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 br_if
@@ -5638,6 +5719,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 br_if
@@ -5718,6 +5800,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 br_if
@@ -5811,6 +5894,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 br_if
@@ -5894,6 +5978,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 br_table
@@ -5957,6 +6042,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 br_table
@@ -6036,6 +6122,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 br_table
@@ -6115,6 +6202,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 block
@@ -6179,6 +6267,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 block
@@ -6241,6 +6330,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 block
@@ -6313,6 +6403,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 block
@@ -6393,6 +6484,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 block
@@ -6458,6 +6550,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 block
@@ -6531,6 +6624,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 block
@@ -6610,6 +6704,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 block
@@ -6678,6 +6773,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 block
@@ -6754,6 +6850,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 block
@@ -6840,6 +6937,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 block
@@ -6921,6 +7019,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 block
@@ -6985,6 +7084,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 block
@@ -7053,6 +7153,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 block
@@ -7131,6 +7232,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 block
@@ -7217,6 +7319,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 loop
@@ -7281,6 +7384,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 loop
@@ -7343,6 +7447,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 loop
@@ -7415,6 +7520,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 cont
@@ -7474,6 +7580,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 cont
@@ -7536,6 +7643,7 @@ instantiate
 module
 (
 func
+\
 tee
 -
 local
@@ -7590,6 +7698,7 @@ instantiate
 module
 (
 func
+\
 br_if
 -
 unreachable
@@ -7660,6 +7769,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 br_if
@@ -7717,6 +7827,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 after
@@ -8154,6 +8265,7 @@ instantiate
 module
 (
 func
+\
 meet
 -
 bottom
@@ -8167,6 +8279,7 @@ externref
 )
 (
 block
+\
 l1
 (
 result
@@ -8176,6 +8289,7 @@ externref
 drop
 (
 block
+\
 l2
 (
 result
@@ -8183,8 +8297,11 @@ i32
 )
 (
 br_table
+\
 l2
+\
 l1
+\
 l2
 (
 ref
@@ -8242,6 +8359,7 @@ instantiate
 module
 (
 type
+\
 t
 (
 func
@@ -8266,6 +8384,7 @@ unreachable
 )
 (
 call_ref
+\
 t
 )
 )
@@ -8302,6 +8421,7 @@ instantiate
 module
 (
 type
+\
 t
 (
 func
@@ -8327,6 +8447,7 @@ unreachable
 )
 (
 call_ref
+\
 t
 )
 )

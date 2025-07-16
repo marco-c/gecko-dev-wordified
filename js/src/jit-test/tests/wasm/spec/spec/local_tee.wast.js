@@ -1113,6 +1113,7 @@ const
 )
 (
 func
+\
 dummy
 )
 (
@@ -1155,6 +1156,7 @@ const
 )
 (
 call
+\
 dummy
 )
 )
@@ -1187,6 +1189,7 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
@@ -1203,6 +1206,7 @@ const
 )
 (
 call
+\
 dummy
 )
 )
@@ -1235,10 +1239,12 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 (
@@ -1295,6 +1301,7 @@ const
 )
 (
 call
+\
 dummy
 )
 )
@@ -1327,6 +1334,7 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
@@ -1343,6 +1351,7 @@ const
 )
 (
 call
+\
 dummy
 )
 )
@@ -1375,10 +1384,12 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 (
@@ -2108,6 +2119,7 @@ const
 )
 (
 func
+\
 f
 (
 param
@@ -2149,6 +2161,7 @@ i32
 )
 (
 call
+\
 f
 (
 local
@@ -2198,6 +2211,7 @@ i32
 )
 (
 call
+\
 f
 (
 i32
@@ -2247,6 +2261,7 @@ i32
 )
 (
 call
+\
 f
 (
 i32
@@ -2276,6 +2291,7 @@ const
 )
 (
 type
+\
 sig
 (
 func
@@ -2296,6 +2312,7 @@ table
 funcref
 (
 elem
+\
 f
 )
 )
@@ -2323,6 +2340,7 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -2381,6 +2399,7 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -2439,6 +2458,7 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -2497,6 +2517,7 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -2611,6 +2632,7 @@ const
 )
 (
 global
+\
 g
 (
 mut
@@ -2645,6 +2667,7 @@ i32
 global
 .
 set
+\
 g
 (
 local
@@ -5606,6 +5629,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 local
@@ -5667,6 +5691,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 local
@@ -5729,6 +5754,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 local
@@ -5792,6 +5818,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 local
@@ -5848,6 +5875,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 local
@@ -5907,6 +5935,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 local
@@ -5966,6 +5995,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 local
@@ -6026,6 +6056,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -6081,6 +6112,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -6137,6 +6169,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -6194,6 +6227,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -6250,6 +6284,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -6309,6 +6344,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -6368,6 +6404,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -6428,6 +6465,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -6484,6 +6522,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -6553,6 +6592,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -6622,6 +6662,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -6700,6 +6741,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -6791,6 +6833,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -6864,6 +6907,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -6943,6 +6987,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -7016,6 +7061,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -7079,6 +7125,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -7154,6 +7201,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -7235,6 +7283,7 @@ instantiate
 module
 (
 func
+\
 f
 (
 param
@@ -7253,6 +7302,7 @@ get
 )
 (
 type
+\
 sig
 (
 func
@@ -7271,11 +7321,13 @@ table
 funcref
 (
 elem
+\
 f
 )
 )
 (
 func
+\
 type
 -
 param
@@ -7305,6 +7357,7 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -7356,6 +7409,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -7430,6 +7484,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -7498,6 +7553,7 @@ instantiate
 module
 (
 global
+\
 x
 (
 mut
@@ -7512,6 +7568,7 @@ const
 )
 (
 func
+\
 type
 -
 param
@@ -7537,6 +7594,7 @@ i32
 global
 .
 set
+\
 x
 (
 local
@@ -7549,6 +7607,7 @@ tee
 global
 .
 get
+\
 x
 )
 (
@@ -7590,6 +7649,7 @@ memory
 )
 (
 func
+\
 type
 -
 param
@@ -7661,6 +7721,7 @@ memory
 )
 (
 func
+\
 type
 -
 param
@@ -7730,6 +7791,7 @@ memory
 )
 (
 func
+\
 type
 -
 param
@@ -7798,6 +7860,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 mixed
@@ -7861,6 +7924,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 mixed
@@ -7925,6 +7989,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 mixed
@@ -7989,6 +8054,7 @@ instantiate
 module
 (
 type
+\
 t
 (
 func
@@ -7996,12 +8062,14 @@ func
 )
 (
 func
+\
 f
 (
 param
 (
 ref
 null
+\
 t
 )
 )
@@ -8010,6 +8078,7 @@ t
 func
 (
 local
+\
 x
 funcref
 )
@@ -8017,12 +8086,14 @@ funcref
 ref
 .
 null
+\
 t
 )
 (
 local
 .
 tee
+\
 x
 )
 ;
@@ -8036,6 +8107,7 @@ the
 stack
 (
 call
+\
 f
 )
 )
@@ -8070,6 +8142,7 @@ instantiate
 module
 (
 func
+\
 unbound
 -
 local
@@ -8123,6 +8196,7 @@ instantiate
 module
 (
 func
+\
 large
 -
 local
@@ -8176,6 +8250,7 @@ instantiate
 module
 (
 func
+\
 unbound
 -
 param
@@ -8229,6 +8304,7 @@ instantiate
 module
 (
 func
+\
 large
 -
 param
@@ -8282,6 +8358,7 @@ instantiate
 module
 (
 func
+\
 unbound
 -
 mixed
@@ -8339,6 +8416,7 @@ instantiate
 module
 (
 func
+\
 large
 -
 mixed

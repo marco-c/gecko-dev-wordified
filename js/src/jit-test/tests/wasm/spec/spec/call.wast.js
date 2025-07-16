@@ -161,6 +161,7 @@ Auxiliary
 definitions
 (
 func
+\
 const
 -
 i32
@@ -177,6 +178,7 @@ const
 )
 (
 func
+\
 const
 -
 i64
@@ -193,6 +195,7 @@ const
 )
 (
 func
+\
 const
 -
 f32
@@ -209,6 +212,7 @@ const
 )
 (
 func
+\
 const
 -
 f64
@@ -225,6 +229,7 @@ const
 )
 (
 func
+\
 const
 -
 i32
@@ -250,6 +255,7 @@ const
 )
 (
 func
+\
 id
 -
 i32
@@ -270,6 +276,7 @@ get
 )
 (
 func
+\
 id
 -
 i64
@@ -290,6 +297,7 @@ get
 )
 (
 func
+\
 id
 -
 f32
@@ -310,6 +318,7 @@ get
 )
 (
 func
+\
 id
 -
 f64
@@ -330,6 +339,7 @@ get
 )
 (
 func
+\
 id
 -
 i32
@@ -360,6 +370,7 @@ get
 )
 (
 func
+\
 swap
 -
 i32
@@ -390,6 +401,7 @@ get
 )
 (
 func
+\
 swap
 -
 f32
@@ -420,6 +432,7 @@ get
 )
 (
 func
+\
 swap
 -
 f64
@@ -450,6 +463,7 @@ get
 )
 (
 func
+\
 f32
 -
 i32
@@ -471,6 +485,7 @@ get
 )
 (
 func
+\
 i32
 -
 i64
@@ -492,6 +507,7 @@ get
 )
 (
 func
+\
 f64
 -
 f32
@@ -513,6 +529,7 @@ get
 )
 (
 func
+\
 i64
 -
 f64
@@ -551,6 +568,7 @@ i32
 )
 (
 call
+\
 const
 -
 i32
@@ -572,6 +590,7 @@ i64
 )
 (
 call
+\
 const
 -
 i64
@@ -593,6 +612,7 @@ f32
 )
 (
 call
+\
 const
 -
 f32
@@ -614,6 +634,7 @@ f64
 )
 (
 call
+\
 const
 -
 f64
@@ -638,6 +659,7 @@ i64
 )
 (
 call
+\
 const
 -
 i32
@@ -663,6 +685,7 @@ i32
 )
 (
 call
+\
 id
 -
 i32
@@ -692,6 +715,7 @@ i64
 )
 (
 call
+\
 id
 -
 i64
@@ -721,6 +745,7 @@ f32
 )
 (
 call
+\
 id
 -
 f32
@@ -752,6 +777,7 @@ f64
 )
 (
 call
+\
 id
 -
 f64
@@ -783,6 +809,7 @@ i32
 )
 (
 call
+\
 f32
 -
 i32
@@ -820,6 +847,7 @@ i64
 )
 (
 call
+\
 i32
 -
 i64
@@ -855,6 +883,7 @@ f32
 )
 (
 call
+\
 f64
 -
 f32
@@ -890,6 +919,7 @@ f64
 )
 (
 call
+\
 i64
 -
 f64
@@ -930,6 +960,7 @@ f64
 )
 (
 call
+\
 id
 -
 i32
@@ -972,6 +1003,7 @@ i32
 )
 (
 call
+\
 swap
 -
 i32
@@ -1012,6 +1044,7 @@ f32
 )
 (
 call
+\
 swap
 -
 f32
@@ -1052,6 +1085,7 @@ f64
 )
 (
 call
+\
 swap
 -
 f64
@@ -1098,6 +1132,7 @@ i32
 add
 (
 call
+\
 swap
 -
 i32
@@ -1136,6 +1171,7 @@ i32
 )
 (
 call
+\
 swap
 -
 i32
@@ -1192,6 +1228,7 @@ i32
 )
 (
 call
+\
 swap
 -
 i32
@@ -1199,6 +1236,7 @@ i32
 i32
 (
 call
+\
 swap
 -
 i32
@@ -1224,6 +1262,7 @@ const
 Recursion
 (
 func
+\
 fac
 (
 export
@@ -1279,6 +1318,7 @@ get
 )
 (
 call
+\
 fac
 (
 i64
@@ -1304,6 +1344,7 @@ const
 )
 (
 func
+\
 fac
 -
 acc
@@ -1354,6 +1395,7 @@ get
 else
 (
 call
+\
 fac
 -
 acc
@@ -1397,6 +1439,7 @@ get
 )
 (
 func
+\
 fib
 (
 export
@@ -1452,6 +1495,7 @@ i64
 add
 (
 call
+\
 fib
 (
 i64
@@ -1473,6 +1517,7 @@ const
 )
 (
 call
+\
 fib
 (
 i64
@@ -1498,6 +1543,7 @@ const
 )
 (
 func
+\
 even
 (
 export
@@ -1543,6 +1589,7 @@ const
 else
 (
 call
+\
 odd
 (
 i64
@@ -1567,6 +1614,7 @@ const
 )
 (
 func
+\
 odd
 (
 export
@@ -1612,6 +1660,7 @@ const
 else
 (
 call
+\
 even
 (
 i64
@@ -1719,6 +1768,7 @@ circumstances
 .
 (
 func
+\
 runaway
 (
 export
@@ -1728,11 +1778,13 @@ runaway
 )
 (
 call
+\
 runaway
 )
 )
 (
 func
+\
 mutual
 -
 runaway1
@@ -1746,6 +1798,7 @@ runaway
 )
 (
 call
+\
 mutual
 -
 runaway2
@@ -1753,11 +1806,13 @@ runaway2
 )
 (
 func
+\
 mutual
 -
 runaway2
 (
 call
+\
 mutual
 -
 runaway1
@@ -1796,6 +1851,7 @@ i32
 select
 (
 call
+\
 const
 -
 i32
@@ -1840,6 +1896,7 @@ const
 )
 (
 call
+\
 const
 -
 i32
@@ -1884,6 +1941,7 @@ const
 )
 (
 call
+\
 const
 -
 i32
@@ -1914,6 +1972,7 @@ i32
 )
 (
 call
+\
 const
 -
 i32
@@ -1965,6 +2024,7 @@ br_if
 0
 (
 call
+\
 const
 -
 i32
@@ -2011,6 +2071,7 @@ const
 )
 (
 call
+\
 const
 -
 i32
@@ -2042,6 +2103,7 @@ i32
 )
 (
 call
+\
 const
 -
 i32
@@ -2089,6 +2151,7 @@ const
 )
 (
 call
+\
 const
 -
 i32
@@ -2102,6 +2165,7 @@ br_table
 )
 (
 func
+\
 func
 (
 param
@@ -2121,6 +2185,7 @@ get
 )
 (
 type
+\
 check
 (
 func
@@ -2140,6 +2205,7 @@ table
 funcref
 (
 elem
+\
 func
 )
 )
@@ -2169,10 +2235,12 @@ i32
 call_indirect
 (
 type
+\
 check
 )
 (
 call
+\
 const
 -
 i32
@@ -2218,6 +2286,7 @@ i32
 call_indirect
 (
 type
+\
 check
 )
 (
@@ -2228,6 +2297,7 @@ const
 )
 (
 call
+\
 const
 -
 i32
@@ -2267,6 +2337,7 @@ i32
 call_indirect
 (
 type
+\
 check
 )
 (
@@ -2283,6 +2354,7 @@ const
 )
 (
 call
+\
 const
 -
 i32
@@ -2304,6 +2376,7 @@ first
 )
 (
 call
+\
 const
 -
 i32
@@ -2340,6 +2413,7 @@ const
 )
 (
 call
+\
 const
 -
 i32
@@ -2374,6 +2448,7 @@ memory
 grow
 (
 call
+\
 const
 -
 i32
@@ -2398,6 +2473,7 @@ i32
 )
 (
 call
+\
 const
 -
 i32
@@ -2420,6 +2496,7 @@ operand
 )
 (
 call
+\
 const
 -
 i32
@@ -2455,6 +2532,7 @@ br
 0
 (
 call
+\
 const
 -
 i32
@@ -2491,6 +2569,7 @@ set
 0
 (
 call
+\
 const
 -
 i32
@@ -2532,6 +2611,7 @@ tee
 0
 (
 call
+\
 const
 -
 i32
@@ -2540,6 +2620,7 @@ i32
 )
 (
 global
+\
 a
 (
 mut
@@ -2574,9 +2655,11 @@ i32
 global
 .
 set
+\
 a
 (
 call
+\
 const
 -
 i32
@@ -2586,6 +2669,7 @@ i32
 global
 .
 get
+\
 a
 )
 )
@@ -2611,6 +2695,7 @@ i32
 load
 (
 call
+\
 const
 -
 i32
@@ -2619,6 +2704,7 @@ i32
 )
 (
 func
+\
 dummy
 (
 param
@@ -2637,6 +2723,7 @@ get
 )
 (
 func
+\
 du
 (
 param
@@ -2681,6 +2768,7 @@ f32
 sqrt
 (
 call
+\
 du
 (
 f32
@@ -2722,6 +2810,7 @@ i32
 add
 (
 call
+\
 dummy
 (
 i32
@@ -2773,6 +2862,7 @@ const
 )
 (
 call
+\
 dummy
 (
 i32
@@ -2812,6 +2902,7 @@ i32
 eqz
 (
 call
+\
 dummy
 (
 i32
@@ -2851,6 +2942,7 @@ i32
 le_u
 (
 call
+\
 dummy
 (
 i32
@@ -2902,6 +2994,7 @@ const
 )
 (
 call
+\
 dummy
 (
 i32
@@ -2941,6 +3034,7 @@ i64
 extend_i32_s
 (
 call
+\
 dummy
 (
 i32
@@ -2960,6 +3054,7 @@ argument
 passing
 (
 func
+\
 return
 -
 from
@@ -3111,6 +3206,7 @@ i32
 )
 (
 call
+\
 return
 -
 from
@@ -6674,6 +6770,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 void
@@ -6725,6 +6822,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 num
@@ -6786,6 +6884,7 @@ instantiate
 module
 (
 func
+\
 arity
 -
 0
@@ -6836,6 +6935,7 @@ instantiate
 module
 (
 func
+\
 arity
 -
 0
@@ -6887,6 +6987,7 @@ instantiate
 module
 (
 func
+\
 arity
 -
 1
@@ -6939,6 +7040,7 @@ instantiate
 module
 (
 func
+\
 arity
 -
 2
@@ -6997,6 +7099,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 first
@@ -7059,6 +7162,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 second
@@ -7121,6 +7225,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 first
@@ -7186,6 +7291,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 second
@@ -7251,6 +7357,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 first
@@ -7306,6 +7413,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 second
@@ -7368,6 +7476,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 first
@@ -7423,6 +7532,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 second
@@ -7485,6 +7595,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 first
@@ -7549,6 +7660,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 second
@@ -7620,6 +7732,7 @@ instantiate
 module
 (
 func
+\
 unbound
 -
 func
@@ -7659,6 +7772,7 @@ instantiate
 module
 (
 func
+\
 large
 -
 func

@@ -157,10 +157,12 @@ instantiate
 module
 (
 tag
+\
 e0
 )
 (
 tag
+\
 e
 -
 i32
@@ -171,6 +173,7 @@ i32
 )
 (
 tag
+\
 e
 -
 f32
@@ -181,6 +184,7 @@ f32
 )
 (
 tag
+\
 e
 -
 i64
@@ -191,6 +195,7 @@ i64
 )
 (
 tag
+\
 e
 -
 f64
@@ -201,6 +206,7 @@ f64
 )
 (
 tag
+\
 e
 -
 i32
@@ -214,6 +220,7 @@ i32
 )
 (
 func
+\
 throw
 -
 if
@@ -256,6 +263,7 @@ ne
 then
 (
 throw
+\
 e0
 )
 )
@@ -291,6 +299,7 @@ get
 )
 (
 throw
+\
 e
 -
 f32
@@ -320,6 +329,7 @@ get
 )
 (
 throw
+\
 e
 -
 i64
@@ -349,6 +359,7 @@ get
 )
 (
 throw
+\
 e
 -
 f64
@@ -366,10 +377,12 @@ polymorphic
 )
 (
 throw
+\
 e0
 )
 (
 throw
+\
 e
 -
 i32
@@ -395,11 +408,13 @@ i32
 )
 (
 throw
+\
 e0
 )
 )
 (
 throw
+\
 e
 -
 i32
@@ -407,6 +422,7 @@ i32
 )
 (
 func
+\
 throw
 -
 1
@@ -426,6 +442,7 @@ const
 )
 (
 throw
+\
 e
 -
 i32
@@ -449,6 +466,7 @@ throw
 )
 (
 block
+\
 h
 (
 result
@@ -459,15 +477,18 @@ i32
 try_table
 (
 catch
+\
 e
 -
 i32
 -
 i32
+\
 h
 )
 (
 call
+\
 throw
 -
 1

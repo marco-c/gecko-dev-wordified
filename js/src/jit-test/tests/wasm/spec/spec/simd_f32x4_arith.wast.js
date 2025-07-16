@@ -166222,6 +166222,7 @@ instantiate
 module
 (
 func
+\
 f32x4
 .
 neg
@@ -166272,6 +166273,7 @@ instantiate
 module
 (
 func
+\
 f32x4
 .
 sqrt
@@ -166322,6 +166324,7 @@ instantiate
 module
 (
 func
+\
 f32x4
 .
 add
@@ -166384,6 +166387,7 @@ instantiate
 module
 (
 func
+\
 f32x4
 .
 add
@@ -166434,6 +166438,7 @@ instantiate
 module
 (
 func
+\
 f32x4
 .
 sub
@@ -166496,6 +166501,7 @@ instantiate
 module
 (
 func
+\
 f32x4
 .
 sub
@@ -166546,6 +166552,7 @@ instantiate
 module
 (
 func
+\
 f32x4
 .
 mul
@@ -166608,6 +166615,7 @@ instantiate
 module
 (
 func
+\
 f32x4
 .
 mul
@@ -166658,6 +166666,7 @@ instantiate
 module
 (
 func
+\
 f32x4
 .
 div
@@ -166720,6 +166729,7 @@ instantiate
 module
 (
 func
+\
 f32x4
 .
 div

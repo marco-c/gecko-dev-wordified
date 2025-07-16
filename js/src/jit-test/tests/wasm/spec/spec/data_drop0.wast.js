@@ -165,21 +165,25 @@ instantiate
 module
 (
 memory
+\
 mem0
 0
 )
 (
 memory
+\
 mem1
 1
 )
 (
 memory
+\
 mem2
 0
 )
 (
 data
+\
 p
 "
 x
@@ -187,6 +191,7 @@ x
 )
 (
 data
+\
 a
 (
 memory
@@ -214,6 +219,7 @@ drop_passive
 data
 .
 drop
+\
 p
 )
 )
@@ -227,6 +233,7 @@ init_passive
 )
 (
 param
+\
 len
 i32
 )
@@ -234,7 +241,9 @@ i32
 memory
 .
 init
+\
 mem1
+\
 p
 (
 i32
@@ -252,6 +261,7 @@ const
 local
 .
 get
+\
 len
 )
 )
@@ -268,6 +278,7 @@ drop_active
 data
 .
 drop
+\
 a
 )
 )
@@ -281,6 +292,7 @@ init_active
 )
 (
 param
+\
 len
 i32
 )
@@ -288,7 +300,9 @@ i32
 memory
 .
 init
+\
 mem1
+\
 a
 (
 i32
@@ -306,6 +320,7 @@ const
 local
 .
 get
+\
 len
 )
 )

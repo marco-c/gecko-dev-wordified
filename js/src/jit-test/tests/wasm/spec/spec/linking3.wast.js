@@ -163,9 +163,11 @@ instantiate
 (
 (
 module
+\
 Mm
 (
 memory
+\
 mem0
 (
 export
@@ -178,6 +180,7 @@ mem0
 )
 (
 memory
+\
 mem1
 (
 export
@@ -190,6 +193,7 @@ mem1
 )
 (
 memory
+\
 mem2
 (
 export
@@ -255,6 +259,7 @@ load
 )
 (
 param
+\
 a
 i32
 )
@@ -266,6 +271,7 @@ i32
 i32
 .
 load8_u
+\
 mem1
 (
 local
@@ -335,6 +341,7 @@ instantiate
 module
 (
 func
+\
 host
 (
 import
@@ -770,9 +777,11 @@ instantiate
 (
 (
 module
+\
 Ms
 (
 type
+\
 t
 (
 func
@@ -817,6 +826,7 @@ memory
 )
 (
 type
+\
 t
 )
 (
@@ -845,12 +855,14 @@ table
 )
 (
 type
+\
 t
 )
 (
 call_indirect
 (
 type
+\
 t
 )
 (
@@ -966,10 +978,12 @@ i32
 const
 0
 )
+\
 f
 )
 (
 func
+\
 f
 (
 result
@@ -984,6 +998,7 @@ const
 )
 (
 func
+\
 main
 (
 unreachable
@@ -991,6 +1006,7 @@ unreachable
 )
 (
 start
+\
 main
 )
 )

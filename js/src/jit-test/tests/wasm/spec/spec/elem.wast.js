@@ -157,16 +157,19 @@ instantiate
 module
 (
 table
+\
 t
 10
 funcref
 )
 (
 func
+\
 f
 )
 (
 func
+\
 g
 )
 ;
@@ -183,6 +186,7 @@ funcref
 ref
 .
 func
+\
 f
 )
 (
@@ -190,6 +194,7 @@ item
 ref
 .
 func
+\
 f
 )
 (
@@ -205,6 +210,7 @@ func
 ref
 .
 func
+\
 g
 )
 )
@@ -215,30 +221,38 @@ func
 (
 elem
 func
+\
 f
+\
 f
+\
 g
+\
 g
 )
 (
 elem
+\
 p1
 funcref
 )
 (
 elem
+\
 p2
 funcref
 (
 ref
 .
 func
+\
 f
 )
 (
 ref
 .
 func
+\
 f
 )
 (
@@ -251,21 +265,28 @@ func
 ref
 .
 func
+\
 g
 )
 )
 (
 elem
+\
 p3
 func
 )
 (
 elem
+\
 p4
 func
+\
 f
+\
 f
+\
 g
+\
 g
 )
 ;
@@ -275,6 +296,7 @@ Active
 elem
 (
 table
+\
 t
 )
 (
@@ -289,6 +311,7 @@ funcref
 elem
 (
 table
+\
 t
 )
 (
@@ -302,6 +325,7 @@ funcref
 ref
 .
 func
+\
 f
 )
 (
@@ -315,6 +339,7 @@ func
 elem
 (
 table
+\
 t
 )
 (
@@ -329,6 +354,7 @@ func
 elem
 (
 table
+\
 t
 )
 (
@@ -338,13 +364,16 @@ const
 0
 )
 func
+\
 f
+\
 g
 )
 (
 elem
 (
 table
+\
 t
 )
 (
@@ -362,6 +391,7 @@ funcref
 elem
 (
 table
+\
 t
 )
 (
@@ -374,7 +404,9 @@ const
 )
 )
 func
+\
 f
+\
 g
 )
 (
@@ -404,7 +436,9 @@ const
 0
 )
 func
+\
 f
+\
 f
 )
 (
@@ -440,13 +474,16 @@ const
 )
 )
 func
+\
 f
+\
 f
 )
 (
 elem
 (
 table
+\
 t
 )
 (
@@ -461,6 +498,7 @@ func
 elem
 (
 table
+\
 t
 )
 (
@@ -470,30 +508,16 @@ const
 0
 )
 func
+\
 f
+\
 f
 )
 (
 elem
 (
 table
-t
-)
-(
-offset
-(
-i32
-.
-const
-0
-)
-)
-func
-)
-(
-elem
-(
-table
+\
 t
 )
 (
@@ -506,7 +530,27 @@ const
 )
 )
 func
+)
+(
+elem
+(
+table
+\
+t
+)
+(
+offset
+(
+i32
+.
+const
+0
+)
+)
+func
+\
 f
+\
 f
 )
 (
@@ -537,6 +581,7 @@ funcref
 ref
 .
 func
+\
 f
 )
 (
@@ -558,7 +603,9 @@ const
 )
 )
 func
+\
 f
+\
 f
 )
 (
@@ -572,7 +619,9 @@ const
 0
 )
 )
+\
 f
+\
 f
 )
 (
@@ -597,6 +646,7 @@ funcref
 ref
 .
 func
+\
 f
 )
 (
@@ -615,7 +665,9 @@ const
 0
 )
 func
+\
 f
+\
 f
 )
 (
@@ -626,7 +678,9 @@ i32
 const
 0
 )
+\
 f
+\
 f
 )
 (
@@ -644,6 +698,7 @@ item
 ref
 .
 func
+\
 f
 )
 )
@@ -659,9 +714,11 @@ func
 )
 (
 elem
+\
 a1
 (
 table
+\
 t
 )
 (
@@ -674,9 +731,11 @@ funcref
 )
 (
 elem
+\
 a2
 (
 table
+\
 t
 )
 (
@@ -690,6 +749,7 @@ funcref
 ref
 .
 func
+\
 f
 )
 (
@@ -701,9 +761,11 @@ func
 )
 (
 elem
+\
 a3
 (
 table
+\
 t
 )
 (
@@ -716,9 +778,11 @@ func
 )
 (
 elem
+\
 a4
 (
 table
+\
 t
 )
 (
@@ -728,14 +792,18 @@ const
 0
 )
 func
+\
 f
+\
 g
 )
 (
 elem
+\
 a9
 (
 table
+\
 t
 )
 (
@@ -751,9 +819,11 @@ funcref
 )
 (
 elem
+\
 a10
 (
 table
+\
 t
 )
 (
@@ -766,11 +836,14 @@ const
 )
 )
 func
+\
 f
+\
 g
 )
 (
 elem
+\
 a11
 (
 table
@@ -786,6 +859,7 @@ func
 )
 (
 elem
+\
 a12
 (
 table
@@ -798,11 +872,14 @@ const
 0
 )
 func
+\
 f
+\
 f
 )
 (
 elem
+\
 a13
 (
 table
@@ -821,6 +898,7 @@ func
 )
 (
 elem
+\
 a14
 (
 table
@@ -836,14 +914,18 @@ const
 )
 )
 func
+\
 f
+\
 f
 )
 (
 elem
+\
 a15
 (
 table
+\
 t
 )
 (
@@ -856,9 +938,11 @@ func
 )
 (
 elem
+\
 a16
 (
 table
+\
 t
 )
 (
@@ -868,14 +952,18 @@ const
 0
 )
 func
+\
 f
+\
 f
 )
 (
 elem
+\
 a17
 (
 table
+\
 t
 )
 (
@@ -891,9 +979,11 @@ func
 )
 (
 elem
+\
 a18
 (
 table
+\
 t
 )
 (
@@ -906,11 +996,14 @@ const
 )
 )
 func
+\
 f
+\
 f
 )
 (
 elem
+\
 a19
 (
 offset
@@ -924,6 +1017,7 @@ const
 )
 (
 elem
+\
 a20
 (
 offset
@@ -939,6 +1033,7 @@ funcref
 ref
 .
 func
+\
 f
 )
 (
@@ -950,6 +1045,7 @@ func
 )
 (
 elem
+\
 a21
 (
 offset
@@ -961,11 +1057,14 @@ const
 )
 )
 func
+\
 f
+\
 f
 )
 (
 elem
+\
 a22
 (
 offset
@@ -976,11 +1075,14 @@ const
 0
 )
 )
+\
 f
+\
 f
 )
 (
 elem
+\
 a23
 (
 i32
@@ -991,6 +1093,7 @@ const
 )
 (
 elem
+\
 a24
 (
 i32
@@ -1003,6 +1106,7 @@ funcref
 ref
 .
 func
+\
 f
 )
 (
@@ -1014,6 +1118,7 @@ func
 )
 (
 elem
+\
 a25
 (
 i32
@@ -1022,11 +1127,14 @@ const
 0
 )
 func
+\
 f
+\
 f
 )
 (
 elem
+\
 a26
 (
 i32
@@ -1034,7 +1142,9 @@ i32
 const
 0
 )
+\
 f
+\
 f
 )
 ;
@@ -1053,12 +1163,14 @@ funcref
 ref
 .
 func
+\
 f
 )
 (
 ref
 .
 func
+\
 f
 )
 (
@@ -1071,6 +1183,7 @@ func
 ref
 .
 func
+\
 g
 )
 )
@@ -1083,19 +1196,25 @@ func
 elem
 declare
 func
+\
 f
+\
 f
+\
 g
+\
 g
 )
 (
 elem
+\
 d1
 declare
 funcref
 )
 (
 elem
+\
 d2
 declare
 funcref
@@ -1103,12 +1222,14 @@ funcref
 ref
 .
 func
+\
 f
 )
 (
 ref
 .
 func
+\
 f
 )
 (
@@ -1121,23 +1242,30 @@ func
 ref
 .
 func
+\
 g
 )
 )
 (
 elem
+\
 d3
 declare
 func
 )
 (
 elem
+\
 d4
 declare
 func
+\
 f
+\
 f
+\
 g
+\
 g
 )
 )
@@ -1165,14 +1293,17 @@ instantiate
 module
 (
 func
+\
 f
 )
 (
 func
+\
 g
 )
 (
 table
+\
 t
 funcref
 (
@@ -1181,6 +1312,7 @@ elem
 ref
 .
 func
+\
 f
 )
 (
@@ -1193,6 +1325,7 @@ func
 ref
 .
 func
+\
 g
 )
 )
@@ -1222,14 +1355,17 @@ instantiate
 module
 (
 func
+\
 f
 )
 (
 func
+\
 g
 )
 (
 table
+\
 t
 10
 (
@@ -1240,6 +1376,7 @@ func
 ref
 .
 func
+\
 f
 )
 )
@@ -1251,6 +1388,7 @@ i32
 const
 3
 )
+\
 g
 )
 )
@@ -1283,6 +1421,7 @@ funcref
 )
 (
 func
+\
 f
 )
 (
@@ -1293,6 +1432,7 @@ i32
 const
 0
 )
+\
 f
 )
 )
@@ -1334,6 +1474,7 @@ funcref
 )
 (
 func
+\
 f
 )
 (
@@ -1344,6 +1485,7 @@ i32
 const
 0
 )
+\
 f
 )
 )
@@ -1376,6 +1518,7 @@ funcref
 )
 (
 func
+\
 f
 )
 (
@@ -1386,6 +1529,7 @@ i32
 const
 0
 )
+\
 f
 )
 (
@@ -1396,6 +1540,7 @@ i32
 const
 3
 )
+\
 f
 )
 (
@@ -1406,6 +1551,7 @@ i32
 const
 7
 )
+\
 f
 )
 (
@@ -1416,6 +1562,7 @@ i32
 const
 5
 )
+\
 f
 )
 (
@@ -1426,6 +1573,7 @@ i32
 const
 3
 )
+\
 f
 )
 )
@@ -1467,6 +1615,7 @@ funcref
 )
 (
 func
+\
 f
 )
 (
@@ -1477,6 +1626,7 @@ i32
 const
 9
 )
+\
 f
 )
 (
@@ -1487,6 +1637,7 @@ i32
 const
 3
 )
+\
 f
 )
 (
@@ -1497,6 +1648,7 @@ i32
 const
 7
 )
+\
 f
 )
 (
@@ -1507,6 +1659,7 @@ i32
 const
 3
 )
+\
 f
 )
 (
@@ -1517,6 +1670,7 @@ i32
 const
 5
 )
+\
 f
 )
 )
@@ -1562,6 +1716,7 @@ funcref
 )
 (
 func
+\
 f
 )
 (
@@ -1572,6 +1727,7 @@ global
 get
 0
 )
+\
 f
 )
 )
@@ -1599,6 +1755,7 @@ instantiate
 module
 (
 global
+\
 g
 (
 import
@@ -1618,6 +1775,7 @@ funcref
 )
 (
 func
+\
 f
 )
 (
@@ -1626,8 +1784,10 @@ elem
 global
 .
 get
+\
 g
 )
+\
 f
 )
 )
@@ -1655,6 +1815,7 @@ instantiate
 module
 (
 type
+\
 out
 -
 i32
@@ -1679,6 +1840,7 @@ i32
 const
 7
 )
+\
 const
 -
 i32
@@ -1693,6 +1855,7 @@ i32
 const
 9
 )
+\
 const
 -
 i32
@@ -1701,6 +1864,7 @@ b
 )
 (
 func
+\
 const
 -
 i32
@@ -1708,6 +1872,7 @@ i32
 a
 (
 type
+\
 out
 -
 i32
@@ -1721,6 +1886,7 @@ const
 )
 (
 func
+\
 const
 -
 i32
@@ -1728,6 +1894,7 @@ i32
 b
 (
 type
+\
 out
 -
 i32
@@ -1751,6 +1918,7 @@ call
 )
 (
 type
+\
 out
 -
 i32
@@ -1759,6 +1927,7 @@ i32
 call_indirect
 (
 type
+\
 out
 -
 i32
@@ -1783,6 +1952,7 @@ call
 )
 (
 type
+\
 out
 -
 i32
@@ -1791,6 +1961,7 @@ i32
 call_indirect
 (
 type
+\
 out
 -
 i32
@@ -1906,6 +2077,7 @@ instantiate
 module
 (
 type
+\
 out
 -
 i32
@@ -1941,6 +2113,7 @@ func
 ref
 .
 func
+\
 const
 -
 i32
@@ -1961,6 +2134,7 @@ funcref
 ref
 .
 func
+\
 const
 -
 i32
@@ -1976,6 +2150,7 @@ func
 )
 (
 func
+\
 const
 -
 i32
@@ -1983,6 +2158,7 @@ i32
 a
 (
 type
+\
 out
 -
 i32
@@ -1996,6 +2172,7 @@ const
 )
 (
 func
+\
 const
 -
 i32
@@ -2003,6 +2180,7 @@ i32
 b
 (
 type
+\
 out
 -
 i32
@@ -2026,6 +2204,7 @@ call
 )
 (
 type
+\
 out
 -
 i32
@@ -2034,6 +2213,7 @@ i32
 call_indirect
 (
 type
+\
 out
 -
 i32
@@ -2058,6 +2238,7 @@ call
 )
 (
 type
+\
 out
 -
 i32
@@ -2066,6 +2247,7 @@ i32
 call_indirect
 (
 type
+\
 out
 -
 i32
@@ -2202,10 +2384,12 @@ global
 get
 0
 )
+\
 f
 )
 (
 func
+\
 f
 )
 )
@@ -2233,6 +2417,7 @@ instantiate
 module
 (
 global
+\
 g
 i32
 (
@@ -2253,12 +2438,15 @@ elem
 global
 .
 get
+\
 g
 )
+\
 f
 )
 (
 func
+\
 f
 )
 )
@@ -2291,6 +2479,7 @@ funcref
 )
 (
 func
+\
 f
 )
 (
@@ -2301,6 +2490,7 @@ i32
 const
 9
 )
+\
 f
 )
 )
@@ -2342,6 +2532,7 @@ funcref
 )
 (
 func
+\
 f
 )
 (
@@ -2352,6 +2543,7 @@ i32
 const
 9
 )
+\
 f
 )
 )
@@ -2551,6 +2743,7 @@ funcref
 )
 (
 func
+\
 f
 )
 (
@@ -2561,6 +2754,7 @@ i32
 const
 0
 )
+\
 f
 )
 )
@@ -2603,6 +2797,7 @@ funcref
 )
 (
 func
+\
 f
 )
 (
@@ -2613,6 +2808,7 @@ i32
 const
 0
 )
+\
 f
 )
 )
@@ -2654,6 +2850,7 @@ funcref
 )
 (
 func
+\
 f
 )
 (
@@ -2664,6 +2861,7 @@ i32
 const
 1
 )
+\
 f
 )
 )
@@ -2706,6 +2904,7 @@ funcref
 )
 (
 func
+\
 f
 )
 (
@@ -2716,6 +2915,7 @@ i32
 const
 1
 )
+\
 f
 )
 )
@@ -8446,6 +8646,7 @@ funcref
 )
 (
 func
+\
 f
 )
 (
@@ -8456,6 +8657,7 @@ i32
 const
 0
 )
+\
 f
 )
 )
@@ -8498,6 +8700,7 @@ funcref
 )
 (
 func
+\
 f
 )
 (
@@ -8508,6 +8711,7 @@ i32
 const
 0
 )
+\
 f
 )
 )
@@ -8550,6 +8754,7 @@ funcref
 )
 (
 func
+\
 f
 )
 (
@@ -8560,6 +8765,7 @@ i32
 const
 0
 )
+\
 f
 )
 )
@@ -8647,6 +8853,7 @@ funcref
 )
 (
 func
+\
 f
 )
 (
@@ -8657,6 +8864,7 @@ i32
 const
 10
 )
+\
 f
 )
 )
@@ -8707,6 +8915,7 @@ funcref
 )
 (
 func
+\
 f
 )
 (
@@ -8717,6 +8926,7 @@ i32
 const
 10
 )
+\
 f
 )
 )
@@ -8759,6 +8969,7 @@ funcref
 )
 (
 func
+\
 f
 )
 (
@@ -8769,6 +8980,7 @@ i32
 const
 10
 )
+\
 f
 )
 )
@@ -8819,6 +9031,7 @@ funcref
 )
 (
 func
+\
 f
 )
 (
@@ -8829,6 +9042,7 @@ i32
 const
 10
 )
+\
 f
 )
 )
@@ -8870,6 +9084,7 @@ funcref
 )
 (
 func
+\
 f
 )
 (
@@ -8881,6 +9096,7 @@ const
 -
 1
 )
+\
 f
 )
 )
@@ -8931,6 +9147,7 @@ funcref
 )
 (
 func
+\
 f
 )
 (
@@ -8942,6 +9159,7 @@ const
 -
 1
 )
+\
 f
 )
 )
@@ -8983,6 +9201,7 @@ funcref
 )
 (
 func
+\
 f
 )
 (
@@ -8994,6 +9213,7 @@ const
 -
 10
 )
+\
 f
 )
 )
@@ -9044,6 +9264,7 @@ funcref
 )
 (
 func
+\
 f
 )
 (
@@ -9055,6 +9276,7 @@ const
 -
 10
 )
+\
 f
 )
 )
@@ -9093,6 +9315,7 @@ funcref
 )
 (
 elem
+\
 e
 (
 i32
@@ -9101,10 +9324,12 @@ const
 0
 )
 func
+\
 f
 )
 (
 func
+\
 f
 )
 (
@@ -9119,6 +9344,7 @@ init
 table
 .
 init
+\
 e
 (
 i32
@@ -9203,13 +9429,16 @@ funcref
 )
 (
 elem
+\
 e
 declare
 func
+\
 f
 )
 (
 func
+\
 f
 )
 (
@@ -9224,6 +9453,7 @@ init
 table
 .
 init
+\
 e
 (
 i32
@@ -9306,6 +9536,7 @@ instantiate
 module
 (
 func
+\
 f
 )
 (
@@ -9316,6 +9547,7 @@ i32
 const
 0
 )
+\
 f
 )
 )
@@ -9858,6 +10090,7 @@ instantiate
 module
 (
 global
+\
 g
 (
 import
@@ -9884,6 +10117,7 @@ elem
 global
 .
 get
+\
 g
 )
 )
@@ -10314,12 +10548,14 @@ funcref
 item
 (
 call
+\
 f
 )
 )
 )
 (
 func
+\
 f
 (
 result
@@ -10361,6 +10597,7 @@ instantiate
 module
 (
 type
+\
 out
 -
 i32
@@ -10385,6 +10622,7 @@ i32
 const
 9
 )
+\
 const
 -
 i32
@@ -10399,6 +10637,7 @@ i32
 const
 9
 )
+\
 const
 -
 i32
@@ -10407,6 +10646,7 @@ b
 )
 (
 func
+\
 const
 -
 i32
@@ -10414,6 +10654,7 @@ i32
 a
 (
 type
+\
 out
 -
 i32
@@ -10427,6 +10668,7 @@ const
 )
 (
 func
+\
 const
 -
 i32
@@ -10434,6 +10676,7 @@ i32
 b
 (
 type
+\
 out
 -
 i32
@@ -10457,6 +10700,7 @@ overwritten
 )
 (
 type
+\
 out
 -
 i32
@@ -10465,6 +10709,7 @@ i32
 call_indirect
 (
 type
+\
 out
 -
 i32
@@ -10541,6 +10786,7 @@ instantiate
 module
 (
 type
+\
 out
 -
 i32
@@ -10574,6 +10820,7 @@ i32
 const
 9
 )
+\
 const
 -
 i32
@@ -10588,6 +10835,7 @@ i32
 const
 9
 )
+\
 const
 -
 i32
@@ -10596,6 +10844,7 @@ b
 )
 (
 func
+\
 const
 -
 i32
@@ -10603,6 +10852,7 @@ i32
 a
 (
 type
+\
 out
 -
 i32
@@ -10616,6 +10866,7 @@ const
 )
 (
 func
+\
 const
 -
 i32
@@ -10623,6 +10874,7 @@ i32
 b
 (
 type
+\
 out
 -
 i32
@@ -10648,6 +10900,7 @@ element
 )
 (
 type
+\
 out
 -
 i32
@@ -10656,6 +10909,7 @@ i32
 call_indirect
 (
 type
+\
 out
 -
 i32
@@ -10732,9 +10986,11 @@ instantiate
 (
 (
 module
+\
 module1
 (
 type
+\
 out
 -
 i32
@@ -10767,6 +11023,7 @@ i32
 const
 8
 )
+\
 const
 -
 i32
@@ -10781,6 +11038,7 @@ i32
 const
 9
 )
+\
 const
 -
 i32
@@ -10789,6 +11047,7 @@ b
 )
 (
 func
+\
 const
 -
 i32
@@ -10796,6 +11055,7 @@ i32
 a
 (
 type
+\
 out
 -
 i32
@@ -10809,6 +11069,7 @@ const
 )
 (
 func
+\
 const
 -
 i32
@@ -10816,6 +11077,7 @@ i32
 b
 (
 type
+\
 out
 -
 i32
@@ -10839,6 +11101,7 @@ call
 )
 (
 type
+\
 out
 -
 i32
@@ -10847,6 +11110,7 @@ i32
 call_indirect
 (
 type
+\
 out
 -
 i32
@@ -10871,6 +11135,7 @@ call
 )
 (
 type
+\
 out
 -
 i32
@@ -10879,6 +11144,7 @@ i32
 call_indirect
 (
 type
+\
 out
 -
 i32
@@ -10903,6 +11169,7 @@ call
 )
 (
 type
+\
 out
 -
 i32
@@ -10911,6 +11178,7 @@ i32
 call_indirect
 (
 type
+\
 out
 -
 i32
@@ -11080,9 +11348,11 @@ instantiate
 (
 (
 module
+\
 module2
 (
 type
+\
 out
 -
 i32
@@ -11118,6 +11388,7 @@ i32
 const
 7
 )
+\
 const
 -
 i32
@@ -11132,6 +11403,7 @@ i32
 const
 8
 )
+\
 const
 -
 i32
@@ -11140,6 +11412,7 @@ d
 )
 (
 func
+\
 const
 -
 i32
@@ -11147,6 +11420,7 @@ i32
 c
 (
 type
+\
 out
 -
 i32
@@ -11160,6 +11434,7 @@ const
 )
 (
 func
+\
 const
 -
 i32
@@ -11167,6 +11442,7 @@ i32
 d
 (
 type
+\
 out
 -
 i32
@@ -11323,9 +11599,11 @@ instantiate
 (
 (
 module
+\
 module3
 (
 type
+\
 out
 -
 i32
@@ -11361,6 +11639,7 @@ i32
 const
 8
 )
+\
 const
 -
 i32
@@ -11375,6 +11654,7 @@ i32
 const
 9
 )
+\
 const
 -
 i32
@@ -11383,6 +11663,7 @@ f
 )
 (
 func
+\
 const
 -
 i32
@@ -11390,6 +11671,7 @@ i32
 e
 (
 type
+\
 out
 -
 i32
@@ -11403,6 +11685,7 @@ const
 )
 (
 func
+\
 const
 -
 i32
@@ -11410,6 +11693,7 @@ i32
 f
 (
 type
+\
 out
 -
 i32
@@ -11571,6 +11855,7 @@ instantiate
 module
 (
 func
+\
 f
 )
 (
@@ -11586,6 +11871,7 @@ i32
 const
 0
 )
+\
 f
 )
 )
@@ -11669,22 +11955,26 @@ instantiate
 module
 (
 func
+\
 f
 )
 (
 table
+\
 t
 1
 externref
 )
 (
 elem
+\
 e
 funcref
 (
 ref
 .
 func
+\
 f
 )
 )
@@ -11694,7 +11984,9 @@ func
 table
 .
 init
+\
 t
+\
 e
 (
 i32
@@ -11747,12 +12039,14 @@ instantiate
 module
 (
 table
+\
 t
 1
 funcref
 )
 (
 elem
+\
 e
 externref
 (
@@ -11768,7 +12062,9 @@ func
 table
 .
 init
+\
 t
+\
 e
 (
 i32
@@ -11816,9 +12112,11 @@ instantiate
 (
 (
 module
+\
 m
 (
 table
+\
 t
 (
 export
@@ -11839,6 +12137,7 @@ get
 )
 (
 param
+\
 i
 i32
 )
@@ -11850,11 +12149,13 @@ externref
 table
 .
 get
+\
 t
 (
 local
 .
 get
+\
 i
 )
 )
@@ -11869,11 +12170,13 @@ set
 )
 (
 param
+\
 i
 i32
 )
 (
 param
+\
 x
 externref
 )
@@ -11881,17 +12184,20 @@ externref
 table
 .
 set
+\
 t
 (
 local
 .
 get
+\
 i
 )
 (
 local
 .
 get
+\
 x
 )
 )
@@ -12171,6 +12477,7 @@ table
 "
 (
 table
+\
 t
 2
 externref
@@ -12289,6 +12596,7 @@ instantiate
 (
 (
 module
+\
 module4
 (
 func
@@ -12379,6 +12687,7 @@ funcref
 )
 (
 type
+\
 out
 -
 i32
@@ -12424,6 +12733,7 @@ call_imported_elem
 )
 (
 type
+\
 out
 -
 i32
@@ -12432,6 +12742,7 @@ i32
 call_indirect
 (
 type
+\
 out
 -
 i32

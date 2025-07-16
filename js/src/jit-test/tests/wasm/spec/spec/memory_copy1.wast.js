@@ -165,6 +165,7 @@ instantiate
 module
 (
 memory
+\
 mem0
 (
 data
@@ -186,6 +187,7 @@ ee
 )
 (
 memory
+\
 mem1
 (
 data
@@ -207,6 +209,7 @@ ff
 )
 (
 memory
+\
 mem2
 (
 data
@@ -228,6 +231,7 @@ dd
 )
 (
 memory
+\
 mem3
 (
 data
@@ -265,7 +269,9 @@ i32
 memory
 .
 copy
+\
 mem0
+\
 mem3
 (
 local
@@ -307,6 +313,7 @@ i32
 i32
 .
 load8_u
+\
 mem0
 (
 local

@@ -239,6 +239,7 @@ instantiate
 (
 (
 module
+\
 M1
 binary
 "
@@ -286,6 +287,7 @@ instantiate
 (
 (
 module
+\
 M2
 binary
 "

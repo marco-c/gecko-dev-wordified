@@ -18768,6 +18768,7 @@ instantiate
 module
 (
 func
+\
 i8x16
 .
 add_sat_s
@@ -18842,6 +18843,7 @@ instantiate
 module
 (
 func
+\
 i8x16
 .
 add_sat_s
@@ -18892,6 +18894,7 @@ instantiate
 module
 (
 func
+\
 i8x16
 .
 add_sat_u
@@ -18966,6 +18969,7 @@ instantiate
 module
 (
 func
+\
 i8x16
 .
 add_sat_u
@@ -19016,6 +19020,7 @@ instantiate
 module
 (
 func
+\
 i8x16
 .
 sub_sat_s
@@ -19090,6 +19095,7 @@ instantiate
 module
 (
 func
+\
 i8x16
 .
 sub_sat_s
@@ -19140,6 +19146,7 @@ instantiate
 module
 (
 func
+\
 i8x16
 .
 sub_sat_u
@@ -19214,6 +19221,7 @@ instantiate
 module
 (
 func
+\
 i8x16
 .
 sub_sat_u

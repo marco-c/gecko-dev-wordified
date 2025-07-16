@@ -155,6 +155,7 @@ instantiate
 (
 (
 module
+\
 Mf
 (
 func
@@ -170,11 +171,13 @@ i32
 )
 (
 call
+\
 g
 )
 )
 (
 func
+\
 g
 (
 result
@@ -234,9 +237,11 @@ instantiate
 (
 (
 module
+\
 Nf
 (
 func
+\
 f
 (
 import
@@ -261,6 +266,7 @@ call
 "
 (
 func
+\
 f
 )
 )
@@ -281,6 +287,7 @@ i32
 )
 (
 call
+\
 f
 )
 )
@@ -298,11 +305,13 @@ i32
 )
 (
 call
+\
 g
 )
 )
 (
 func
+\
 g
 (
 result
@@ -506,6 +515,7 @@ print_i32
 "
 (
 func
+\
 f
 (
 param
@@ -520,6 +530,7 @@ print
 "
 (
 func
+\
 f
 )
 )
@@ -661,9 +672,11 @@ instantiate
 (
 (
 module
+\
 Mg
 (
 global
+\
 glob
 (
 export
@@ -695,6 +708,7 @@ i32
 global
 .
 get
+\
 glob
 )
 )
@@ -705,6 +719,7 @@ mutable
 globals
 (
 global
+\
 mut_glob
 (
 export
@@ -739,6 +754,7 @@ i32
 global
 .
 get
+\
 mut_glob
 )
 )
@@ -758,6 +774,7 @@ i32
 global
 .
 set
+\
 mut_glob
 (
 local
@@ -814,9 +831,11 @@ instantiate
 (
 (
 module
+\
 Ng
 (
 global
+\
 x
 (
 import
@@ -831,6 +850,7 @@ i32
 )
 (
 global
+\
 mut_glob
 (
 import
@@ -848,6 +868,7 @@ i32
 )
 (
 func
+\
 f
 (
 import
@@ -865,6 +886,7 @@ i32
 )
 (
 func
+\
 get_mut
 (
 import
@@ -882,6 +904,7 @@ i32
 )
 (
 func
+\
 set_mut
 (
 import
@@ -906,6 +929,7 @@ glob
 "
 (
 global
+\
 x
 )
 )
@@ -918,11 +942,13 @@ get
 "
 (
 func
+\
 f
 )
 )
 (
 global
+\
 glob
 (
 export
@@ -954,6 +980,7 @@ i32
 global
 .
 get
+\
 glob
 )
 )
@@ -966,6 +993,7 @@ mut_glob
 "
 (
 global
+\
 mut_glob
 )
 )
@@ -978,6 +1006,7 @@ get_mut
 "
 (
 func
+\
 get_mut
 )
 )
@@ -990,6 +1019,7 @@ set_mut
 "
 (
 func
+\
 set_mut
 )
 )
@@ -1657,9 +1687,11 @@ instantiate
 (
 (
 module
+\
 Mref_ex
 (
 type
+\
 t
 (
 func
@@ -1667,12 +1699,14 @@ func
 )
 (
 func
+\
 f
 )
 (
 elem
 declare
 func
+\
 f
 )
 (
@@ -1719,6 +1753,7 @@ func
 ref
 .
 func
+\
 f
 )
 )
@@ -1737,12 +1772,14 @@ refnull
 (
 ref
 null
+\
 t
 )
 (
 ref
 .
 null
+\
 t
 )
 )
@@ -1760,12 +1797,14 @@ ref
 )
 (
 ref
+\
 t
 )
 (
 ref
 .
 func
+\
 f
 )
 )
@@ -1839,6 +1878,7 @@ func
 ref
 .
 func
+\
 f
 )
 )
@@ -1859,6 +1899,7 @@ mut
 (
 ref
 null
+\
 t
 )
 )
@@ -1866,6 +1907,7 @@ t
 ref
 .
 null
+\
 t
 )
 )
@@ -1885,6 +1927,7 @@ ref
 mut
 (
 ref
+\
 t
 )
 )
@@ -1892,6 +1935,7 @@ t
 ref
 .
 func
+\
 f
 )
 )
@@ -1965,9 +2009,11 @@ instantiate
 (
 (
 module
+\
 Mref_im
 (
 type
+\
 t
 (
 func
@@ -2115,6 +2161,7 @@ refnull
 (
 ref
 null
+\
 t
 )
 )
@@ -2136,6 +2183,7 @@ ref
 (
 ref
 null
+\
 t
 )
 )
@@ -2156,6 +2204,7 @@ ref
 )
 (
 ref
+\
 t
 )
 )
@@ -2243,6 +2292,7 @@ mut
 (
 ref
 null
+\
 t
 )
 )
@@ -2266,6 +2316,7 @@ ref
 mut
 (
 ref
+\
 t
 )
 )
@@ -2374,6 +2425,7 @@ instantiate
 module
 (
 type
+\
 t
 (
 func
@@ -2431,6 +2483,7 @@ instantiate
 module
 (
 type
+\
 t
 (
 func
@@ -2488,6 +2541,7 @@ instantiate
 module
 (
 type
+\
 t
 (
 func
@@ -2545,6 +2599,7 @@ instantiate
 module
 (
 type
+\
 t
 (
 func
@@ -2568,6 +2623,7 @@ funcnull
 (
 ref
 null
+\
 t
 )
 )
@@ -2603,6 +2659,7 @@ instantiate
 module
 (
 type
+\
 t
 (
 func
@@ -2626,6 +2683,7 @@ func
 (
 ref
 null
+\
 t
 )
 )
@@ -2661,6 +2719,7 @@ instantiate
 module
 (
 type
+\
 t
 (
 func
@@ -2684,6 +2743,7 @@ extern
 (
 ref
 null
+\
 t
 )
 )
@@ -2719,6 +2779,7 @@ instantiate
 module
 (
 type
+\
 t
 (
 func
@@ -2741,6 +2802,7 @@ funcnull
 )
 (
 ref
+\
 t
 )
 )
@@ -2776,6 +2838,7 @@ instantiate
 module
 (
 type
+\
 t
 (
 func
@@ -2798,6 +2861,7 @@ func
 )
 (
 ref
+\
 t
 )
 )
@@ -2833,6 +2897,7 @@ instantiate
 module
 (
 type
+\
 t
 (
 func
@@ -2855,6 +2920,7 @@ refnull
 )
 (
 ref
+\
 t
 )
 )
@@ -2890,6 +2956,7 @@ instantiate
 module
 (
 type
+\
 t
 (
 func
@@ -2912,6 +2979,7 @@ extern
 )
 (
 ref
+\
 t
 )
 )
@@ -3375,6 +3443,7 @@ instantiate
 module
 (
 type
+\
 t
 (
 func
@@ -3400,6 +3469,7 @@ mut
 (
 ref
 null
+\
 t
 )
 )
@@ -3436,6 +3506,7 @@ instantiate
 module
 (
 type
+\
 t
 (
 func
@@ -3461,6 +3532,7 @@ mut
 (
 ref
 null
+\
 t
 )
 )
@@ -3497,6 +3569,7 @@ instantiate
 module
 (
 type
+\
 t
 (
 func
@@ -3522,6 +3595,7 @@ mut
 (
 ref
 null
+\
 t
 )
 )
@@ -3558,6 +3632,7 @@ instantiate
 module
 (
 type
+\
 t
 (
 func
@@ -3583,6 +3658,7 @@ mut
 (
 ref
 null
+\
 t
 )
 )
@@ -3619,6 +3695,7 @@ instantiate
 module
 (
 type
+\
 t
 (
 func
@@ -3643,6 +3720,7 @@ funcnull
 mut
 (
 ref
+\
 t
 )
 )
@@ -3679,6 +3757,7 @@ instantiate
 module
 (
 type
+\
 t
 (
 func
@@ -3703,6 +3782,7 @@ func
 mut
 (
 ref
+\
 t
 )
 )
@@ -3739,6 +3819,7 @@ instantiate
 module
 (
 type
+\
 t
 (
 func
@@ -3763,6 +3844,7 @@ refnull
 mut
 (
 ref
+\
 t
 )
 )
@@ -3799,6 +3881,7 @@ instantiate
 module
 (
 type
+\
 t
 (
 func
@@ -3823,6 +3906,7 @@ extern
 mut
 (
 ref
+\
 t
 )
 )
@@ -4054,6 +4138,7 @@ instantiate
 (
 (
 module
+\
 Mt
 (
 type
@@ -4090,13 +4175,18 @@ i32
 const
 2
 )
+\
 g
+\
 g
+\
 g
+\
 g
 )
 (
 func
+\
 g
 (
 result
@@ -4206,6 +4296,7 @@ instantiate
 (
 (
 module
+\
 Nt
 (
 type
@@ -4225,6 +4316,7 @@ i32
 )
 (
 func
+\
 f
 (
 import
@@ -4246,6 +4338,7 @@ i32
 )
 (
 func
+\
 h
 (
 import
@@ -4266,15 +4359,21 @@ table
 funcref
 (
 elem
+\
 g
+\
 g
+\
 g
+\
 h
+\
 f
 )
 )
 (
 func
+\
 g
 (
 result
@@ -4296,6 +4395,7 @@ call
 "
 (
 func
+\
 f
 )
 )
@@ -4320,6 +4420,7 @@ i32
 )
 (
 call
+\
 f
 (
 local
@@ -5017,6 +5118,7 @@ instantiate
 (
 (
 module
+\
 Ot
 (
 type
@@ -5030,6 +5132,7 @@ i32
 )
 (
 func
+\
 h
 (
 import
@@ -5067,11 +5170,14 @@ i32
 const
 1
 )
+\
 i
+\
 h
 )
 (
 func
+\
 i
 (
 result
@@ -5913,10 +6019,12 @@ i32
 const
 9
 )
+\
 f
 )
 (
 func
+\
 f
 )
 )
@@ -5942,6 +6050,7 @@ instantiate
 (
 (
 module
+\
 G1
 (
 global
@@ -6006,6 +6115,7 @@ instantiate
 (
 (
 module
+\
 G2
 (
 global
@@ -6124,10 +6234,12 @@ i32
 const
 10
 )
+\
 f
 )
 (
 func
+\
 f
 )
 )
@@ -6196,6 +6308,7 @@ not
 exist
 (
 func
+\
 f
 (
 result
@@ -6216,6 +6329,7 @@ i32
 const
 7
 )
+\
 f
 )
 (
@@ -6226,6 +6340,7 @@ i32
 const
 9
 )
+\
 f
 )
 )
@@ -6304,6 +6419,7 @@ funcref
 )
 (
 func
+\
 f
 (
 result
@@ -6324,6 +6440,7 @@ i32
 const
 7
 )
+\
 f
 )
 (
@@ -6334,10 +6451,15 @@ i32
 const
 8
 )
+\
 f
+\
 f
+\
 f
+\
 f
+\
 f
 )
 ;
@@ -6465,6 +6587,7 @@ funcref
 )
 (
 func
+\
 f
 (
 result
@@ -6485,6 +6608,7 @@ i32
 const
 7
 )
+\
 f
 )
 (
@@ -6575,9 +6699,11 @@ instantiate
 (
 (
 module
+\
 Mtable_ex
 (
 type
+\
 t
 (
 func
@@ -6614,6 +6740,7 @@ refnull
 (
 ref
 null
+\
 t
 )
 )
@@ -6679,6 +6806,7 @@ instantiate
 module
 (
 type
+\
 t
 (
 func
@@ -6721,6 +6849,7 @@ refnull
 (
 ref
 null
+\
 t
 )
 )
@@ -6868,6 +6997,7 @@ instantiate
 module
 (
 type
+\
 t
 (
 func
@@ -6890,6 +7020,7 @@ funcnull
 (
 ref
 null
+\
 t
 )
 )
@@ -6925,6 +7056,7 @@ instantiate
 module
 (
 type
+\
 t
 (
 func
@@ -6947,6 +7079,7 @@ extern
 (
 ref
 null
+\
 t
 )
 )
@@ -7069,6 +7202,7 @@ instantiate
 (
 (
 module
+\
 Mm
 (
 memory
@@ -7132,6 +7266,7 @@ load
 )
 (
 param
+\
 a
 i32
 )
@@ -7198,9 +7333,11 @@ instantiate
 (
 (
 module
+\
 Nm
 (
 func
+\
 loadM
 (
 import
@@ -7262,6 +7399,7 @@ load
 "
 (
 func
+\
 loadM
 )
 )
@@ -7275,6 +7413,7 @@ load
 )
 (
 param
+\
 a
 i32
 )
@@ -7438,6 +7577,7 @@ instantiate
 (
 (
 module
+\
 Om
 (
 memory
@@ -7497,6 +7637,7 @@ load
 )
 (
 param
+\
 a
 i32
 )
@@ -7803,6 +7944,7 @@ instantiate
 (
 (
 module
+\
 Pm
 (
 memory
@@ -7828,6 +7970,7 @@ grow
 )
 (
 param
+\
 a
 i32
 )
@@ -8185,6 +8328,7 @@ instantiate
 module
 (
 func
+\
 host
 (
 import
@@ -8592,9 +8736,11 @@ instantiate
 (
 (
 module
+\
 Ms
 (
 type
+\
 t
 (
 func
@@ -8639,6 +8785,7 @@ memory
 )
 (
 type
+\
 t
 )
 (
@@ -8667,12 +8814,14 @@ table
 )
 (
 type
+\
 t
 )
 (
 call_indirect
 (
 type
+\
 t
 )
 (
@@ -8780,10 +8929,12 @@ i32
 const
 0
 )
+\
 f
 )
 (
 func
+\
 f
 (
 result
@@ -8798,6 +8949,7 @@ const
 )
 (
 func
+\
 main
 (
 unreachable
@@ -8805,6 +8957,7 @@ unreachable
 )
 (
 start
+\
 main
 )
 )

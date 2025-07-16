@@ -13093,6 +13093,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 neg
@@ -13143,6 +13144,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 add
@@ -13209,6 +13211,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 add
@@ -13259,6 +13262,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 sub
@@ -13325,6 +13329,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 sub
@@ -13375,6 +13380,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 mul
@@ -13441,6 +13447,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 mul

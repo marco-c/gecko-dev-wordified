@@ -442,6 +442,7 @@ instantiate
 module
 (
 func
+\
 a
 (
 export
@@ -475,6 +476,7 @@ instantiate
 module
 (
 func
+\
 a
 )
 (
@@ -484,6 +486,7 @@ a
 "
 (
 func
+\
 a
 )
 )
@@ -553,11 +556,13 @@ a
 "
 (
 func
+\
 a
 )
 )
 (
 func
+\
 a
 )
 )
@@ -583,6 +588,7 @@ instantiate
 (
 (
 module
+\
 Func
 (
 export
@@ -591,14 +597,17 @@ e
 "
 (
 func
+\
 f
 )
 )
 (
 func
+\
 f
 (
 param
+\
 n
 i32
 )
@@ -616,6 +625,7 @@ add
 local
 .
 get
+\
 n
 )
 (
@@ -754,6 +764,7 @@ instantiate
 (
 (
 module
+\
 Other1
 )
 )
@@ -1448,6 +1459,7 @@ instantiate
 module
 (
 tag
+\
 t0
 (
 export
@@ -1458,6 +1470,7 @@ t0
 )
 (
 tag
+\
 t1
 (
 export
@@ -1736,6 +1749,7 @@ instantiate
 module
 (
 global
+\
 a
 (
 export
@@ -1776,6 +1790,7 @@ instantiate
 module
 (
 global
+\
 a
 i32
 (
@@ -1792,6 +1807,7 @@ a
 "
 (
 global
+\
 a
 )
 )
@@ -1868,11 +1884,13 @@ a
 "
 (
 global
+\
 a
 )
 )
 (
 global
+\
 a
 i32
 (
@@ -1905,6 +1923,7 @@ instantiate
 (
 (
 module
+\
 Global
 (
 export
@@ -1913,11 +1932,13 @@ e
 "
 (
 global
+\
 g
 )
 )
 (
 global
+\
 g
 i32
 (
@@ -2048,6 +2069,7 @@ instantiate
 (
 (
 module
+\
 Other2
 )
 )
@@ -2861,6 +2883,7 @@ instantiate
 module
 (
 table
+\
 a
 (
 export
@@ -2896,6 +2919,7 @@ instantiate
 module
 (
 table
+\
 a
 (
 export
@@ -2932,6 +2956,7 @@ instantiate
 module
 (
 table
+\
 a
 0
 funcref
@@ -2943,6 +2968,7 @@ a
 "
 (
 table
+\
 a
 )
 )
@@ -2971,6 +2997,7 @@ instantiate
 module
 (
 table
+\
 a
 0
 1
@@ -2983,6 +3010,7 @@ a
 "
 (
 table
+\
 a
 )
 )
@@ -3093,11 +3121,13 @@ a
 "
 (
 table
+\
 a
 )
 )
 (
 table
+\
 a
 0
 funcref
@@ -3132,11 +3162,13 @@ a
 "
 (
 table
+\
 a
 )
 )
 (
 table
+\
 a
 0
 1
@@ -3827,6 +3859,7 @@ instantiate
 module
 (
 memory
+\
 a
 (
 export
@@ -3861,6 +3894,7 @@ instantiate
 module
 (
 memory
+\
 a
 (
 export
@@ -3896,6 +3930,7 @@ instantiate
 module
 (
 memory
+\
 a
 0
 )
@@ -3906,6 +3941,7 @@ a
 "
 (
 memory
+\
 a
 )
 )
@@ -3934,6 +3970,7 @@ instantiate
 module
 (
 memory
+\
 a
 0
 1
@@ -3945,6 +3982,7 @@ a
 "
 (
 memory
+\
 a
 )
 )
@@ -4053,11 +4091,13 @@ a
 "
 (
 memory
+\
 a
 )
 )
 (
 memory
+\
 a
 0
 )
@@ -4091,11 +4131,13 @@ a
 "
 (
 memory
+\
 a
 )
 )
 (
 memory
+\
 a
 0
 1

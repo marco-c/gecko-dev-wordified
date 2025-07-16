@@ -184,6 +184,7 @@ left
 )
 (
 param
+\
 cond
 i32
 )
@@ -206,6 +207,7 @@ const
 local
 .
 get
+\
 cond
 )
 )
@@ -224,6 +226,7 @@ right
 )
 (
 param
+\
 cond
 i32
 )
@@ -246,6 +249,7 @@ unreachable
 local
 .
 get
+\
 cond
 )
 )
@@ -466,6 +470,7 @@ drop
 )
 (
 type
+\
 t
 (
 func
@@ -498,6 +503,7 @@ unreachable
 )
 (
 call_ref
+\
 t
 )
 )

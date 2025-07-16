@@ -187,6 +187,7 @@ grow
 )
 (
 param
+\
 sz
 i32
 )
@@ -200,6 +201,7 @@ grow
 local
 .
 get
+\
 sz
 )
 )
@@ -501,6 +503,7 @@ grow
 )
 (
 param
+\
 sz
 i32
 )
@@ -514,6 +517,7 @@ grow
 local
 .
 get
+\
 sz
 )
 )
@@ -816,6 +820,7 @@ grow
 )
 (
 param
+\
 sz
 i32
 )
@@ -829,6 +834,7 @@ grow
 local
 .
 get
+\
 sz
 )
 )
@@ -1267,6 +1273,7 @@ grow
 )
 (
 param
+\
 sz
 i32
 )
@@ -1280,6 +1287,7 @@ grow
 local
 .
 get
+\
 sz
 )
 )
@@ -1750,6 +1758,7 @@ instantiate
 module
 (
 memory
+\
 mem1
 (
 import
@@ -1765,6 +1774,7 @@ mem1
 )
 (
 memory
+\
 mem2
 (
 import
@@ -1779,11 +1789,13 @@ mem2
 )
 (
 memory
+\
 mem3
 3
 )
 (
 memory
+\
 mem4
 4
 5
@@ -1804,6 +1816,7 @@ i32
 memory
 .
 size
+\
 mem1
 )
 )
@@ -1823,6 +1836,7 @@ i32
 memory
 .
 size
+\
 mem2
 )
 )
@@ -1842,6 +1856,7 @@ i32
 memory
 .
 size
+\
 mem3
 )
 )
@@ -1861,6 +1876,7 @@ i32
 memory
 .
 size
+\
 mem4
 )
 )
@@ -2044,6 +2060,7 @@ memory
 )
 (
 func
+\
 type
 -
 result
@@ -2094,6 +2111,7 @@ memory
 )
 (
 func
+\
 type
 -
 result

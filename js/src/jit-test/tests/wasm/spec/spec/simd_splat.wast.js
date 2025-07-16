@@ -12368,6 +12368,7 @@ instantiate
 module
 (
 global
+\
 g
 (
 mut
@@ -12545,6 +12546,7 @@ v128
 global
 .
 set
+\
 g
 (
 f32x4
@@ -12564,6 +12566,7 @@ return
 global
 .
 get
+\
 g
 )
 )
@@ -12721,6 +12724,7 @@ v128
 global
 .
 set
+\
 g
 (
 f64x2
@@ -12740,6 +12744,7 @@ return
 global
 .
 get
+\
 g
 )
 )
@@ -13196,6 +13201,7 @@ instantiate
 module
 (
 func
+\
 i8x16
 .
 splat
@@ -13246,6 +13252,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 splat
@@ -13296,6 +13303,7 @@ instantiate
 module
 (
 func
+\
 i32x4
 .
 splat
@@ -13346,6 +13354,7 @@ instantiate
 module
 (
 func
+\
 f32x4
 .
 splat
@@ -13396,6 +13405,7 @@ instantiate
 module
 (
 func
+\
 i64x2
 .
 splat
@@ -13446,6 +13456,7 @@ instantiate
 module
 (
 func
+\
 f64x2
 .
 splat

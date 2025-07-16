@@ -165,6 +165,7 @@ abs
 )
 (
 param
+\
 x
 f64
 )
@@ -180,6 +181,7 @@ abs
 local
 .
 get
+\
 x
 )
 )
@@ -194,6 +196,7 @@ neg
 )
 (
 param
+\
 x
 f64
 )
@@ -209,6 +212,7 @@ neg
 local
 .
 get
+\
 x
 )
 )
@@ -223,11 +227,13 @@ copysign
 )
 (
 param
+\
 x
 f64
 )
 (
 param
+\
 y
 f64
 )
@@ -243,12 +249,14 @@ copysign
 local
 .
 get
+\
 x
 )
 (
 local
 .
 get
+\
 y
 )
 )

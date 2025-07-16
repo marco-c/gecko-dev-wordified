@@ -165,16 +165,19 @@ instantiate
 module
 (
 memory
+\
 mem0
 0
 )
 (
 memory
+\
 mem1
 0
 )
 (
 memory
+\
 mem2
 1
 )
@@ -196,6 +199,7 @@ i32
 memory
 .
 fill
+\
 mem2
 (
 local
@@ -237,6 +241,7 @@ i32
 i32
 .
 load8_u
+\
 mem2
 (
 local

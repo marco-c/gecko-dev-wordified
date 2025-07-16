@@ -161,6 +161,7 @@ instantiate
 module
 (
 type
+\
 arr
 (
 array
@@ -172,6 +173,7 @@ i8
 )
 (
 data
+\
 d
 "
 abcd
@@ -198,6 +200,7 @@ i32
 result
 (
 ref
+\
 arr
 )
 )
@@ -205,7 +208,9 @@ arr
 array
 .
 new_data
+\
 arr
+\
 d
 (
 local
@@ -592,6 +597,7 @@ instantiate
 module
 (
 type
+\
 a32
 (
 array
@@ -600,6 +606,7 @@ i32
 )
 (
 type
+\
 a64
 (
 array
@@ -608,12 +615,14 @@ i64
 )
 (
 data
+\
 data0
 "
 "
 )
 (
 data
+\
 data1
 "
 1
@@ -621,6 +630,7 @@ data1
 )
 (
 data
+\
 data2
 "
 12
@@ -628,6 +638,7 @@ data2
 )
 (
 data
+\
 data3
 "
 123
@@ -635,6 +646,7 @@ data3
 )
 (
 data
+\
 data4
 "
 1234
@@ -642,6 +654,7 @@ data4
 )
 (
 data
+\
 data7
 "
 1234567
@@ -649,6 +662,7 @@ data7
 )
 (
 data
+\
 data9
 "
 123456789
@@ -668,7 +682,9 @@ drop
 array
 .
 new_data
+\
 a32
+\
 data0
 (
 i32
@@ -699,7 +715,9 @@ drop
 array
 .
 new_data
+\
 a32
+\
 data1
 (
 i32
@@ -730,7 +748,9 @@ drop
 array
 .
 new_data
+\
 a32
+\
 data2
 (
 i32
@@ -761,7 +781,9 @@ drop
 array
 .
 new_data
+\
 a32
+\
 data3
 (
 i32
@@ -792,7 +814,9 @@ drop
 array
 .
 new_data
+\
 a32
+\
 data4
 (
 i32
@@ -823,7 +847,9 @@ drop
 array
 .
 new_data
+\
 a32
+\
 data9
 (
 i32
@@ -854,7 +880,9 @@ drop
 array
 .
 new_data
+\
 a64
+\
 data0
 (
 i32
@@ -885,7 +913,9 @@ drop
 array
 .
 new_data
+\
 a64
+\
 data1
 (
 i32
@@ -916,7 +946,9 @@ drop
 array
 .
 new_data
+\
 a64
+\
 data4
 (
 i32
@@ -947,7 +979,9 @@ drop
 array
 .
 new_data
+\
 a64
+\
 data7
 (
 i32
@@ -978,7 +1012,9 @@ drop
 array
 .
 new_data
+\
 a64
+\
 data9
 (
 i32
@@ -1009,7 +1045,9 @@ drop
 array
 .
 new_data
+\
 a64
+\
 data9
 (
 i32
@@ -1467,6 +1505,7 @@ instantiate
 module
 (
 type
+\
 arr
 (
 array
@@ -1478,6 +1517,7 @@ i8
 )
 (
 data
+\
 d
 "
 \
@@ -1517,6 +1557,7 @@ i32
 local
 (
 ref
+\
 arr
 )
 )
@@ -1529,7 +1570,9 @@ set
 array
 .
 new_data
+\
 arr
+\
 d
 (
 i32
@@ -1549,6 +1592,7 @@ const
 array
 .
 get_u
+\
 arr
 (
 local
@@ -1567,6 +1611,7 @@ const
 array
 .
 get_u
+\
 arr
 (
 local
@@ -1661,6 +1706,7 @@ instantiate
 module
 (
 type
+\
 arr
 (
 array
@@ -1672,6 +1718,7 @@ i32
 )
 (
 data
+\
 d
 "
 \
@@ -1712,12 +1759,15 @@ i32
 array
 .
 get
+\
 arr
 (
 array
 .
 new_data
+\
 arr
+\
 d
 (
 i32
@@ -1815,6 +1865,7 @@ instantiate
 module
 (
 type
+\
 arr
 (
 array
@@ -1826,6 +1877,7 @@ i16
 )
 (
 data
+\
 d
 "
 \
@@ -1861,12 +1913,15 @@ i32
 array
 .
 get_u
+\
 arr
 (
 array
 .
 new_data
+\
 arr
+\
 d
 (
 i32

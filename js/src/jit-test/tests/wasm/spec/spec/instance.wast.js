@@ -155,6 +155,7 @@ module
 (
 (
 module
+\
 M
 (
 global
@@ -324,6 +325,7 @@ glob
 "
 (
 global
+\
 glob1
 (
 mut
@@ -341,6 +343,7 @@ glob
 "
 (
 global
+\
 glob2
 (
 mut
@@ -358,6 +361,7 @@ tab
 "
 (
 table
+\
 tab1
 10
 funcref
@@ -373,6 +377,7 @@ tab
 "
 (
 table
+\
 tab2
 10
 funcref
@@ -388,6 +393,7 @@ mem
 "
 (
 memory
+\
 mem1
 1
 )
@@ -402,6 +408,7 @@ mem
 "
 (
 memory
+\
 mem2
 1
 )
@@ -416,6 +423,7 @@ tag
 "
 (
 tag
+\
 tag1
 )
 )
@@ -429,17 +437,20 @@ tag
 "
 (
 tag
+\
 tag2
 )
 )
 (
 func
+\
 f
 )
 (
 elem
 declare
 func
+\
 f
 )
 (
@@ -458,6 +469,7 @@ i32
 global
 .
 set
+\
 glob1
 (
 i32
@@ -470,6 +482,7 @@ const
 global
 .
 get
+\
 glob2
 )
 )
@@ -489,6 +502,7 @@ funcref
 table
 .
 set
+\
 tab1
 (
 i32
@@ -500,6 +514,7 @@ const
 ref
 .
 func
+\
 f
 )
 )
@@ -507,6 +522,7 @@ f
 table
 .
 get
+\
 tab2
 (
 i32
@@ -532,6 +548,7 @@ i32
 i32
 .
 store
+\
 mem1
 (
 i32
@@ -550,6 +567,7 @@ const
 i32
 .
 load
+\
 mem2
 (
 i32
@@ -573,23 +591,29 @@ i32
 )
 (
 block
+\
 on_tag1
 (
 block
+\
 on_other
 (
 try_table
 (
 catch
+\
 tag1
+\
 on_tag1
 )
 (
 catch_all
+\
 on_other
 )
 (
 throw
+\
 tag2
 )
 )
@@ -792,6 +816,7 @@ glob
 "
 (
 global
+\
 glob1
 (
 mut
@@ -809,6 +834,7 @@ glob
 "
 (
 global
+\
 glob2
 (
 mut
@@ -826,6 +852,7 @@ tab
 "
 (
 table
+\
 tab1
 10
 funcref
@@ -841,6 +868,7 @@ tab
 "
 (
 table
+\
 tab2
 10
 funcref
@@ -856,6 +884,7 @@ mem
 "
 (
 memory
+\
 mem1
 1
 )
@@ -870,6 +899,7 @@ mem
 "
 (
 memory
+\
 mem2
 1
 )
@@ -884,6 +914,7 @@ tag
 "
 (
 tag
+\
 tag1
 )
 )
@@ -897,17 +928,20 @@ tag
 "
 (
 tag
+\
 tag2
 )
 )
 (
 func
+\
 f
 )
 (
 elem
 declare
 func
+\
 f
 )
 (
@@ -926,6 +960,7 @@ i32
 global
 .
 set
+\
 glob1
 (
 i32
@@ -938,6 +973,7 @@ const
 global
 .
 get
+\
 glob2
 )
 )
@@ -957,6 +993,7 @@ funcref
 table
 .
 set
+\
 tab1
 (
 i32
@@ -968,6 +1005,7 @@ const
 ref
 .
 func
+\
 f
 )
 )
@@ -975,6 +1013,7 @@ f
 table
 .
 get
+\
 tab2
 (
 i32
@@ -1000,6 +1039,7 @@ i32
 i32
 .
 store
+\
 mem1
 (
 i32
@@ -1018,6 +1058,7 @@ const
 i32
 .
 load
+\
 mem2
 (
 i32
@@ -1041,23 +1082,29 @@ i32
 )
 (
 block
+\
 on_tag1
 (
 block
+\
 on_other
 (
 try_table
 (
 catch
+\
 tag1
+\
 on_tag1
 )
 (
 catch_all
+\
 on_other
 )
 (
 throw
+\
 tag2
 )
 )
@@ -1256,9 +1303,11 @@ module
 (
 (
 module
+\
 N
 (
 global
+\
 glob
 (
 mut
@@ -1273,6 +1322,7 @@ const
 )
 (
 table
+\
 tab
 10
 funcref
@@ -1285,11 +1335,13 @@ func
 )
 (
 memory
+\
 mem
 1
 )
 (
 tag
+\
 tag
 )
 (
@@ -1299,6 +1351,7 @@ glob1
 "
 (
 global
+\
 glob
 )
 )
@@ -1309,6 +1362,7 @@ glob2
 "
 (
 global
+\
 glob
 )
 )
@@ -1319,6 +1373,7 @@ tab1
 "
 (
 table
+\
 tab
 )
 )
@@ -1329,6 +1384,7 @@ tab2
 "
 (
 table
+\
 tab
 )
 )
@@ -1339,6 +1395,7 @@ mem1
 "
 (
 memory
+\
 mem
 )
 )
@@ -1349,6 +1406,7 @@ mem2
 "
 (
 memory
+\
 mem
 )
 )
@@ -1359,6 +1417,7 @@ tag1
 "
 (
 tag
+\
 tag
 )
 )
@@ -1369,6 +1428,7 @@ tag2
 "
 (
 tag
+\
 tag
 )
 )
@@ -1445,6 +1505,7 @@ glob1
 "
 (
 global
+\
 glob1
 (
 mut
@@ -1462,6 +1523,7 @@ glob2
 "
 (
 global
+\
 glob2
 (
 mut
@@ -1479,6 +1541,7 @@ tab1
 "
 (
 table
+\
 tab1
 10
 funcref
@@ -1494,6 +1557,7 @@ tab2
 "
 (
 table
+\
 tab2
 10
 funcref
@@ -1509,6 +1573,7 @@ mem1
 "
 (
 memory
+\
 mem1
 1
 )
@@ -1523,6 +1588,7 @@ mem2
 "
 (
 memory
+\
 mem2
 1
 )
@@ -1537,6 +1603,7 @@ tag1
 "
 (
 tag
+\
 tag1
 )
 )
@@ -1550,17 +1617,20 @@ tag2
 "
 (
 tag
+\
 tag2
 )
 )
 (
 func
+\
 f
 )
 (
 elem
 declare
 func
+\
 f
 )
 (
@@ -1579,6 +1649,7 @@ i32
 global
 .
 set
+\
 glob1
 (
 i32
@@ -1591,6 +1662,7 @@ const
 global
 .
 get
+\
 glob2
 )
 )
@@ -1610,6 +1682,7 @@ funcref
 table
 .
 set
+\
 tab1
 (
 i32
@@ -1621,6 +1694,7 @@ const
 ref
 .
 func
+\
 f
 )
 )
@@ -1628,6 +1702,7 @@ f
 table
 .
 get
+\
 tab2
 (
 i32
@@ -1653,6 +1728,7 @@ i32
 i32
 .
 store
+\
 mem1
 (
 i32
@@ -1671,6 +1747,7 @@ const
 i32
 .
 load
+\
 mem2
 (
 i32
@@ -1694,23 +1771,29 @@ i32
 )
 (
 block
+\
 on_tag1
 (
 block
+\
 on_other
 (
 try_table
 (
 catch
+\
 tag1
+\
 on_tag1
 )
 (
 catch_all
+\
 on_other
 )
 (
 throw
+\
 tag2
 )
 )

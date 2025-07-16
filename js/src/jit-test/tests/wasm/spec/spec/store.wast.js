@@ -157,11 +157,13 @@ instantiate
 module
 (
 memory
+\
 mem1
 1
 )
 (
 memory
+\
 mem2
 1
 )
@@ -185,6 +187,7 @@ i64
 i64
 .
 load
+\
 mem1
 (
 local
@@ -214,6 +217,7 @@ i64
 i64
 .
 load
+\
 mem2
 (
 local
@@ -240,6 +244,7 @@ i64
 i64
 .
 store
+\
 mem1
 (
 local
@@ -272,6 +277,7 @@ i64
 i64
 .
 store
+\
 mem2
 (
 local
@@ -432,6 +438,7 @@ instantiate
 (
 (
 module
+\
 M1
 (
 memory
@@ -549,6 +556,7 @@ instantiate
 (
 (
 module
+\
 M2
 (
 memory
@@ -790,6 +798,7 @@ instantiate
 module
 (
 memory
+\
 mem1
 (
 import
@@ -804,6 +813,7 @@ mem
 )
 (
 memory
+\
 mem2
 (
 import
@@ -836,6 +846,7 @@ i64
 i64
 .
 load
+\
 mem1
 (
 local
@@ -865,6 +876,7 @@ i64
 i64
 .
 load
+\
 mem2
 (
 local
@@ -891,6 +903,7 @@ i64
 i64
 .
 store
+\
 mem1
 (
 local
@@ -923,6 +936,7 @@ i64
 i64
 .
 store
+\
 mem2
 (
 local
@@ -1137,6 +1151,7 @@ instantiate
 module
 (
 memory
+\
 mem1
 (
 import
@@ -1151,6 +1166,7 @@ mem
 )
 (
 memory
+\
 mem2
 3
 )
@@ -1158,6 +1174,7 @@ mem2
 data
 (
 memory
+\
 mem1
 )
 (
@@ -1188,6 +1205,7 @@ const
 data
 (
 memory
+\
 mem2
 )
 (
@@ -1234,6 +1252,7 @@ i32
 i32
 .
 load8_u
+\
 mem1
 (
 local
@@ -1263,6 +1282,7 @@ i32
 i32
 .
 load8_u
+\
 mem2
 (
 local
@@ -1288,6 +1308,7 @@ to
 )
 (
 local
+\
 i
 i32
 )
@@ -1295,6 +1316,7 @@ i32
 local
 .
 set
+\
 i
 (
 i32
@@ -1305,6 +1327,7 @@ const
 )
 (
 loop
+\
 cont
 (
 br_if
@@ -1317,6 +1340,7 @@ eq
 local
 .
 get
+\
 i
 )
 (
@@ -1331,22 +1355,26 @@ const
 i32
 .
 store8
+\
 mem2
 (
 local
 .
 get
+\
 i
 )
 (
 i32
 .
 load8_u
+\
 mem1
 (
 local
 .
 get
+\
 i
 )
 )
@@ -1355,6 +1383,7 @@ i
 local
 .
 set
+\
 i
 (
 i32
@@ -1364,6 +1393,7 @@ add
 local
 .
 get
+\
 i
 )
 (
@@ -1376,6 +1406,7 @@ const
 )
 (
 br
+\
 cont
 )
 )
@@ -1396,6 +1427,7 @@ to
 )
 (
 local
+\
 i
 i32
 )
@@ -1403,6 +1435,7 @@ i32
 local
 .
 set
+\
 i
 (
 i32
@@ -1413,6 +1446,7 @@ const
 )
 (
 loop
+\
 cont
 (
 br_if
@@ -1425,6 +1459,7 @@ eq
 local
 .
 get
+\
 i
 )
 (
@@ -1439,22 +1474,26 @@ const
 i32
 .
 store8
+\
 mem1
 (
 local
 .
 get
+\
 i
 )
 (
 i32
 .
 load8_u
+\
 mem2
 (
 local
 .
 get
+\
 i
 )
 )
@@ -1463,6 +1502,7 @@ i
 local
 .
 set
+\
 i
 (
 i32
@@ -1472,6 +1512,7 @@ add
 local
 .
 get
+\
 i
 )
 (
@@ -1484,6 +1525,7 @@ const
 )
 (
 br
+\
 cont
 )
 )
@@ -3950,6 +3992,7 @@ memory
 )
 (
 func
+\
 type
 -
 address
@@ -3996,6 +4039,7 @@ memory
 )
 (
 func
+\
 type
 -
 value
@@ -4048,6 +4092,7 @@ memory
 )
 (
 func
+\
 type
 -
 address
@@ -4113,6 +4158,7 @@ memory
 )
 (
 func
+\
 type
 -
 value
@@ -4178,6 +4224,7 @@ memory
 )
 (
 func
+\
 type
 -
 address
@@ -4243,6 +4290,7 @@ memory
 )
 (
 func
+\
 type
 -
 value
@@ -4308,6 +4356,7 @@ memory
 )
 (
 func
+\
 type
 -
 address
@@ -4376,6 +4425,7 @@ memory
 )
 (
 func
+\
 type
 -
 value
@@ -4444,6 +4494,7 @@ memory
 )
 (
 func
+\
 type
 -
 address
@@ -4525,6 +4576,7 @@ memory
 )
 (
 func
+\
 type
 -
 value
@@ -4606,6 +4658,7 @@ memory
 )
 (
 func
+\
 type
 -
 address
@@ -4675,6 +4728,7 @@ memory
 )
 (
 func
+\
 type
 -
 value
@@ -4744,6 +4798,7 @@ memory
 )
 (
 func
+\
 type
 -
 address
@@ -4819,6 +4874,7 @@ memory
 )
 (
 func
+\
 type
 -
 value
@@ -4894,6 +4950,7 @@ memory
 )
 (
 func
+\
 type
 -
 address
@@ -4963,6 +5020,7 @@ memory
 )
 (
 func
+\
 type
 -
 value
@@ -5032,6 +5090,7 @@ memory
 )
 (
 func
+\
 type
 -
 address
@@ -5085,6 +5144,7 @@ memory
 )
 (
 func
+\
 type
 -
 value
@@ -5144,6 +5204,7 @@ memory
 )
 (
 func
+\
 type
 -
 address
@@ -5209,6 +5270,7 @@ memory
 )
 (
 func
+\
 type
 -
 value
@@ -5280,6 +5342,7 @@ memory
 )
 (
 func
+\
 type
 -
 address
@@ -5351,6 +5414,7 @@ memory
 )
 (
 func
+\
 type
 -
 value
@@ -5428,6 +5492,7 @@ memory
 )
 (
 func
+\
 f
 (
 param
@@ -5446,6 +5511,7 @@ get
 )
 (
 type
+\
 sig
 (
 func
@@ -5464,11 +5530,13 @@ table
 funcref
 (
 elem
+\
 f
 )
 )
 (
 func
+\
 type
 -
 address
@@ -5488,6 +5556,7 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -5539,6 +5608,7 @@ memory
 )
 (
 func
+\
 f
 (
 param
@@ -5557,6 +5627,7 @@ get
 )
 (
 type
+\
 sig
 (
 func
@@ -5575,11 +5646,13 @@ table
 funcref
 (
 elem
+\
 f
 )
 )
 (
 func
+\
 type
 -
 value
@@ -5599,6 +5672,7 @@ i32
 call_indirect
 (
 type
+\
 sig
 )
 (

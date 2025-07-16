@@ -193,6 +193,7 @@ memory
 )
 (
 memory
+\
 m
 (
 import
@@ -258,6 +259,7 @@ i32
 i32
 .
 load
+\
 m
 (
 local

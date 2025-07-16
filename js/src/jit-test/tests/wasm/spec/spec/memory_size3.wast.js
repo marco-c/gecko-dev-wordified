@@ -172,6 +172,7 @@ memory
 )
 (
 memory
+\
 m
 1
 )
@@ -181,6 +182,7 @@ memory
 )
 (
 func
+\
 type
 -
 result
@@ -194,6 +196,7 @@ empty
 memory
 .
 size
+\
 m
 )
 )
@@ -244,11 +247,13 @@ memory
 )
 (
 memory
+\
 m
 1
 )
 (
 func
+\
 type
 -
 result
@@ -266,6 +271,7 @@ f32
 memory
 .
 size
+\
 m
 )
 )

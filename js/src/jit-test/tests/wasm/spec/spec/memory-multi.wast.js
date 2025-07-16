@@ -161,11 +161,13 @@ instantiate
 module
 (
 memory
+\
 mem1
 1
 )
 (
 memory
+\
 mem2
 1
 )
@@ -185,7 +187,9 @@ i32
 memory
 .
 init
+\
 mem1
+\
 d
 (
 i32
@@ -210,6 +214,7 @@ const
 i32
 .
 load
+\
 mem1
 (
 i32
@@ -235,7 +240,9 @@ i32
 memory
 .
 init
+\
 mem2
+\
 d
 (
 i32
@@ -260,6 +267,7 @@ const
 i32
 .
 load
+\
 mem2
 (
 i32
@@ -271,6 +279,7 @@ const
 )
 (
 data
+\
 d
 "
 \
@@ -406,11 +415,13 @@ instantiate
 module
 (
 memory
+\
 mem1
 1
 )
 (
 memory
+\
 mem2
 1
 )
@@ -430,6 +441,7 @@ i32
 memory
 .
 fill
+\
 mem1
 (
 i32
@@ -454,6 +466,7 @@ const
 i32
 .
 load
+\
 mem1
 (
 i32
@@ -479,6 +492,7 @@ i32
 memory
 .
 fill
+\
 mem2
 (
 i32
@@ -503,6 +517,7 @@ const
 i32
 .
 load
+\
 mem2
 (
 i32

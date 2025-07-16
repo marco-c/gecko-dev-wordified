@@ -163,9 +163,11 @@ instantiate
 (
 (
 module
+\
 Mm
 (
 memory
+\
 mem0
 (
 export
@@ -178,6 +180,7 @@ mem0
 )
 (
 memory
+\
 mem1
 (
 export
@@ -190,6 +193,7 @@ mem1
 )
 (
 memory
+\
 mem2
 (
 export
@@ -255,6 +259,7 @@ load
 )
 (
 param
+\
 a
 i32
 )
@@ -266,6 +271,7 @@ i32
 i32
 .
 load8_u
+\
 mem1
 (
 local
@@ -330,9 +336,11 @@ instantiate
 (
 (
 module
+\
 Nm
 (
 func
+\
 loadM
 (
 import
@@ -367,6 +375,7 @@ mem0
 )
 (
 memory
+\
 m
 1
 )
@@ -412,6 +421,7 @@ load
 "
 (
 func
+\
 loadM
 )
 )
@@ -425,6 +435,7 @@ load
 )
 (
 param
+\
 a
 i32
 )
@@ -436,6 +447,7 @@ i32
 i32
 .
 load8_u
+\
 m
 (
 local
@@ -605,6 +617,7 @@ instantiate
 (
 (
 module
+\
 Om
 (
 memory
@@ -664,6 +677,7 @@ load
 )
 (
 param
+\
 a
 i32
 )

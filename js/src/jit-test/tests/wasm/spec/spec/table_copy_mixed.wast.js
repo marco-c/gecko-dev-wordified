@@ -157,6 +157,7 @@ instantiate
 module
 (
 table
+\
 t32
 30
 30
@@ -164,6 +165,7 @@ funcref
 )
 (
 table
+\
 t64
 i64
 30
@@ -182,7 +184,9 @@ test32
 table
 .
 copy
+\
 t32
+\
 t32
 (
 i32
@@ -216,7 +220,9 @@ test64
 table
 .
 copy
+\
 t64
+\
 t64
 (
 i64
@@ -250,7 +256,9 @@ test_64to32
 table
 .
 copy
+\
 t32
+\
 t64
 (
 i32
@@ -284,7 +292,9 @@ test_32to64
 table
 .
 copy
+\
 t64
+\
 t32
 (
 i64
@@ -334,6 +344,7 @@ instantiate
 module
 (
 table
+\
 t32
 30
 30
@@ -341,6 +352,7 @@ funcref
 )
 (
 table
+\
 t64
 i64
 30
@@ -359,7 +371,9 @@ bad_size_arg
 table
 .
 copy
+\
 t32
+\
 t64
 (
 i32
@@ -412,6 +426,7 @@ instantiate
 module
 (
 table
+\
 t32
 30
 30
@@ -419,6 +434,7 @@ funcref
 )
 (
 table
+\
 t64
 i64
 30
@@ -437,7 +453,9 @@ bad_src_idx
 table
 .
 copy
+\
 t32
+\
 t64
 (
 i32
@@ -490,6 +508,7 @@ instantiate
 module
 (
 table
+\
 t32
 30
 30
@@ -497,6 +516,7 @@ funcref
 )
 (
 table
+\
 t64
 i64
 30
@@ -515,7 +535,9 @@ bad_dst_idx
 table
 .
 copy
+\
 t32
+\
 t64
 (
 i64

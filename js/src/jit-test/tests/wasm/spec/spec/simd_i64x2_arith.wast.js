@@ -10561,6 +10561,7 @@ instantiate
 module
 (
 func
+\
 i64x2
 .
 neg
@@ -10611,6 +10612,7 @@ instantiate
 module
 (
 func
+\
 i64x2
 .
 add
@@ -10671,6 +10673,7 @@ instantiate
 module
 (
 func
+\
 i64x2
 .
 add
@@ -10721,6 +10724,7 @@ instantiate
 module
 (
 func
+\
 i64x2
 .
 sub
@@ -10781,6 +10785,7 @@ instantiate
 module
 (
 func
+\
 i64x2
 .
 sub
@@ -10831,6 +10836,7 @@ instantiate
 module
 (
 func
+\
 i64x2
 .
 mul
@@ -10891,6 +10897,7 @@ instantiate
 module
 (
 func
+\
 i64x2
 .
 mul

@@ -161,6 +161,7 @@ Auxiliary
 definition
 (
 type
+\
 sig
 (
 func
@@ -168,6 +169,7 @@ func
 )
 (
 func
+\
 dummy
 )
 ;
@@ -187,10 +189,12 @@ f
 )
 (
 func
+\
 f
 )
 (
 func
+\
 h
 (
 export
@@ -225,6 +229,7 @@ i32
 func
 (
 local
+\
 x
 i32
 )
@@ -258,6 +263,7 @@ f32
 )
 (
 local
+\
 x
 i64
 )
@@ -296,6 +302,7 @@ i32
 func
 (
 param
+\
 x
 i32
 )
@@ -329,6 +336,7 @@ f32
 )
 (
 param
+\
 x
 i64
 )
@@ -417,6 +425,7 @@ unreachable
 )
 (
 type
+\
 sig
 -
 1
@@ -426,6 +435,7 @@ func
 )
 (
 type
+\
 sig
 -
 2
@@ -439,6 +449,7 @@ i32
 )
 (
 type
+\
 sig
 -
 3
@@ -446,6 +457,7 @@ sig
 func
 (
 param
+\
 x
 i32
 )
@@ -453,6 +465,7 @@ i32
 )
 (
 type
+\
 sig
 -
 4
@@ -484,6 +497,7 @@ use
 )
 (
 type
+\
 sig
 -
 1
@@ -503,6 +517,7 @@ use
 )
 (
 type
+\
 sig
 -
 2
@@ -528,6 +543,7 @@ use
 )
 (
 type
+\
 sig
 -
 3
@@ -547,6 +563,7 @@ use
 )
 (
 type
+\
 sig
 -
 4
@@ -572,6 +589,7 @@ use
 )
 (
 type
+\
 sig
 -
 2
@@ -601,6 +619,7 @@ use
 )
 (
 type
+\
 sig
 -
 3
@@ -624,6 +643,7 @@ use
 )
 (
 type
+\
 sig
 -
 4
@@ -652,6 +672,7 @@ const
 func
 (
 type
+\
 sig
 )
 )
@@ -659,6 +680,7 @@ sig
 func
 (
 type
+\
 forward
 )
 )
@@ -668,6 +690,7 @@ forward
 reference
 (
 func
+\
 complex
 (
 param
@@ -676,6 +699,7 @@ f32
 )
 (
 param
+\
 x
 i64
 )
@@ -707,6 +731,7 @@ f32
 )
 (
 local
+\
 y
 i32
 )
@@ -732,11 +757,13 @@ unreachable
 )
 (
 func
+\
 complex
 -
 sig
 (
 type
+\
 sig
 )
 (
@@ -745,6 +772,7 @@ f32
 )
 (
 local
+\
 y
 i32
 )
@@ -770,6 +798,7 @@ unreachable
 )
 (
 type
+\
 forward
 (
 func
@@ -1024,6 +1053,7 @@ f32
 )
 (
 local
+\
 x
 i32
 )
@@ -1380,6 +1410,7 @@ param
 )
 (
 param
+\
 x
 i64
 )
@@ -1510,6 +1541,7 @@ void
 )
 (
 call
+\
 dummy
 )
 )
@@ -1686,10 +1718,12 @@ void
 block
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 )
@@ -1718,6 +1752,7 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
@@ -1756,6 +1791,7 @@ i64
 )
 (
 call
+\
 dummy
 )
 (
@@ -1989,6 +2025,7 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
@@ -2030,6 +2067,7 @@ i64
 )
 (
 call
+\
 dummy
 )
 (
@@ -2272,6 +2310,7 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
@@ -2314,6 +2353,7 @@ i64
 )
 (
 call
+\
 dummy
 )
 (
@@ -7097,6 +7137,7 @@ instantiate
 module
 (
 func
+\
 f
 (
 result
@@ -7117,6 +7158,7 @@ type
 definition
 (
 func
+\
 g
 (
 param
@@ -7131,6 +7173,7 @@ type
 definition
 (
 type
+\
 t
 (
 func
@@ -7142,6 +7185,7 @@ i32
 )
 (
 func
+\
 i32
 -
 >
@@ -7159,6 +7203,7 @@ i32
 )
 (
 func
+\
 void
 -
 >
@@ -7182,9 +7227,11 @@ f64
 )
 (
 func
+\
 check
 (
 call
+\
 i32
 -
 >
@@ -7200,6 +7247,7 @@ const
 drop
 (
 call
+\
 void
 -
 >
@@ -7235,6 +7283,7 @@ instantiate
 module
 (
 func
+\
 f
 (
 result
@@ -7255,6 +7304,7 @@ type
 definition
 (
 func
+\
 g
 (
 param
@@ -7269,6 +7319,7 @@ type
 definition
 (
 func
+\
 h
 (
 result
@@ -7289,6 +7340,7 @@ type
 definition
 (
 type
+\
 t
 (
 func
@@ -7339,6 +7391,7 @@ instantiate
 (
 (
 func
+\
 f
 (
 result
@@ -7353,6 +7406,7 @@ const
 )
 (
 func
+\
 g
 (
 param
@@ -7361,6 +7415,7 @@ i32
 )
 (
 func
+\
 h
 (
 result
@@ -7375,6 +7430,7 @@ const
 )
 (
 type
+\
 t
 (
 func
@@ -7422,6 +7478,7 @@ instantiate
 module
 (
 type
+\
 proc
 (
 func
@@ -7433,6 +7490,7 @@ i32
 )
 (
 type
+\
 sig
 (
 func
@@ -7456,10 +7514,12 @@ f
 )
 (
 type
+\
 sig
 )
 (
 local
+\
 var
 i32
 )
@@ -7467,18 +7527,22 @@ i32
 local
 .
 get
+\
 var
 )
 )
 (
 func
+\
 g
 (
 type
+\
 sig
 )
 (
 local
+\
 var
 i32
 )
@@ -7486,6 +7550,7 @@ i32
 local
 .
 get
+\
 var
 )
 )
@@ -7499,10 +7564,12 @@ g
 )
 (
 type
+\
 sig
 )
 (
 call
+\
 g
 (
 local
@@ -7522,10 +7589,12 @@ p
 )
 (
 type
+\
 proc
 )
 (
 local
+\
 var
 i32
 )
@@ -7545,6 +7614,7 @@ const
 local
 .
 get
+\
 var
 )
 )
@@ -7686,6 +7756,7 @@ instantiate
 module
 (
 type
+\
 sig
 (
 func
@@ -7693,6 +7764,7 @@ func
 )
 (
 func
+\
 empty
 -
 sig
@@ -7705,9 +7777,11 @@ should
 be
 assigned
 type
+\
 sig
 (
 func
+\
 complex
 -
 sig
@@ -7727,6 +7801,7 @@ i32
 )
 (
 func
+\
 empty
 -
 sig
@@ -7739,9 +7814,11 @@ should
 be
 assigned
 type
+\
 sig
 (
 func
+\
 complex
 -
 sig
@@ -7761,6 +7838,7 @@ i32
 )
 (
 func
+\
 complex
 -
 sig
@@ -7780,6 +7858,7 @@ i32
 )
 (
 func
+\
 complex
 -
 sig
@@ -7799,6 +7878,7 @@ i32
 )
 (
 func
+\
 complex
 -
 sig
@@ -7818,6 +7898,7 @@ i32
 )
 (
 type
+\
 empty
 -
 sig
@@ -7829,6 +7910,7 @@ func
 )
 (
 type
+\
 complex
 -
 sig
@@ -7854,36 +7936,43 @@ table
 funcref
 (
 elem
+\
 complex
 -
 sig
 -
 3
+\
 empty
 -
 sig
 -
 2
+\
 complex
 -
 sig
 -
 1
+\
 complex
 -
 sig
 -
 3
+\
 empty
 -
 sig
 -
 1
+\
 complex
 -
 sig
 -
 4
+\
 complex
 -
 sig
@@ -7907,6 +7996,7 @@ reused
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -7920,6 +8010,7 @@ const
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -8168,6 +8259,7 @@ duplicate
 call_indirect
 (
 type
+\
 empty
 -
 sig
@@ -8198,6 +8290,7 @@ duplicate
 call_indirect
 (
 type
+\
 complex
 -
 sig
@@ -8263,6 +8356,7 @@ const
 call_indirect
 (
 type
+\
 complex
 -
 sig
@@ -8487,6 +8581,7 @@ instantiate
 (
 (
 type
+\
 sig
 (
 func
@@ -8504,6 +8599,7 @@ i32
 func
 (
 type
+\
 sig
 )
 (
@@ -8549,6 +8645,7 @@ instantiate
 (
 (
 type
+\
 sig
 (
 func
@@ -8570,6 +8667,7 @@ i32
 )
 (
 type
+\
 sig
 )
 (
@@ -8611,6 +8709,7 @@ instantiate
 (
 (
 type
+\
 sig
 (
 func
@@ -8636,6 +8735,7 @@ i32
 )
 (
 type
+\
 sig
 )
 (
@@ -8673,6 +8773,7 @@ instantiate
 (
 (
 type
+\
 sig
 (
 func
@@ -8694,6 +8795,7 @@ i32
 )
 (
 type
+\
 sig
 )
 (
@@ -8735,6 +8837,7 @@ instantiate
 (
 (
 type
+\
 sig
 (
 func
@@ -8760,6 +8863,7 @@ i32
 )
 (
 type
+\
 sig
 )
 (
@@ -8840,6 +8944,7 @@ instantiate
 (
 (
 type
+\
 sig
 (
 func
@@ -8849,6 +8954,7 @@ func
 func
 (
 type
+\
 sig
 )
 (
@@ -8891,6 +8997,7 @@ instantiate
 (
 (
 type
+\
 sig
 (
 func
@@ -8908,6 +9015,7 @@ i32
 func
 (
 type
+\
 sig
 )
 (
@@ -8950,6 +9058,7 @@ instantiate
 (
 (
 type
+\
 sig
 (
 func
@@ -8967,6 +9076,7 @@ i32
 func
 (
 type
+\
 sig
 )
 (
@@ -9009,6 +9119,7 @@ instantiate
 (
 (
 type
+\
 sig
 (
 func
@@ -9027,6 +9138,7 @@ i32
 func
 (
 type
+\
 sig
 )
 (
@@ -9072,6 +9184,7 @@ instantiate
 module
 (
 func
+\
 g
 (
 type
@@ -9109,6 +9222,7 @@ instantiate
 module
 (
 func
+\
 f
 (
 drop
@@ -9116,12 +9230,14 @@ drop
 ref
 .
 func
+\
 g
 )
 )
 )
 (
 func
+\
 g
 (
 type
@@ -9132,6 +9248,7 @@ type
 elem
 declare
 func
+\
 g
 )
 )
@@ -9165,6 +9282,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 local
@@ -9220,6 +9338,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 local
@@ -9276,6 +9395,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 local
@@ -9333,6 +9453,7 @@ instantiate
 module
 (
 type
+\
 t
 (
 func
@@ -9340,6 +9461,7 @@ func
 )
 (
 func
+\
 type
 -
 local
@@ -9347,9 +9469,11 @@ local
 uninitialized
 (
 local
+\
 x
 (
 ref
+\
 t
 )
 )
@@ -9359,6 +9483,7 @@ drop
 local
 .
 get
+\
 x
 )
 )
@@ -9394,6 +9519,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -9449,6 +9575,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -9505,6 +9632,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -9562,6 +9690,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 empty
@@ -9603,6 +9732,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 empty
@@ -9644,6 +9774,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 empty
@@ -9685,6 +9816,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 empty
@@ -9726,6 +9858,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 empty
@@ -9770,6 +9903,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 value
@@ -9818,6 +9952,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 value
@@ -9867,6 +10002,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 value
@@ -9914,6 +10050,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 value
@@ -9967,6 +10104,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 value
@@ -10018,6 +10156,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 value
@@ -10070,6 +10209,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 value
@@ -10127,6 +10267,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 return
@@ -10177,6 +10318,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 return
@@ -10228,6 +10370,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 return
@@ -10281,6 +10424,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 return
@@ -10335,6 +10479,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 return
@@ -10391,6 +10536,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 return
@@ -10448,6 +10594,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 return
@@ -10502,6 +10649,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 return
@@ -10563,6 +10711,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 return
@@ -10624,6 +10773,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 return
@@ -10681,6 +10831,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 return
@@ -10739,6 +10890,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 return
@@ -10799,6 +10951,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 return
@@ -10866,6 +11019,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 return
@@ -10931,6 +11085,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 return
@@ -11003,6 +11158,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 break
@@ -11054,6 +11210,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 break
@@ -11106,6 +11263,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 break
@@ -11163,6 +11321,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 break
@@ -11221,6 +11380,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 break
@@ -11276,6 +11436,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 break
@@ -11338,6 +11499,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 break
@@ -11399,6 +11561,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 break
@@ -11467,6 +11630,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 break
@@ -11534,6 +11698,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 break
@@ -11598,6 +11763,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 break
@@ -11669,6 +11835,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 break
@@ -11736,6 +11903,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 break
@@ -11810,6 +11978,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 break
@@ -11880,6 +12049,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 break
@@ -12190,10 +12360,12 @@ instantiate
 (
 (
 func
+\
 foo
 )
 (
 func
+\
 foo
 )
 )
@@ -12230,11 +12402,13 @@ import
 "
 (
 func
+\
 foo
 )
 )
 (
 func
+\
 foo
 )
 )
@@ -12271,6 +12445,7 @@ import
 "
 (
 func
+\
 foo
 )
 )
@@ -12282,6 +12457,7 @@ import
 "
 (
 func
+\
 foo
 )
 )
@@ -12315,11 +12491,13 @@ instantiate
 func
 (
 param
+\
 foo
 i32
 )
 (
 param
+\
 foo
 i32
 )
@@ -12354,11 +12532,13 @@ instantiate
 func
 (
 param
+\
 foo
 i32
 )
 (
 local
+\
 foo
 i32
 )
@@ -12393,11 +12573,13 @@ instantiate
 func
 (
 local
+\
 foo
 i32
 )
 (
 local
+\
 foo
 i32
 )

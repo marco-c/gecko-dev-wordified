@@ -161,6 +161,7 @@ memory
 )
 (
 func
+\
 dummy
 )
 (
@@ -176,6 +177,7 @@ loop
 )
 (
 loop
+\
 l
 )
 )
@@ -227,18 +229,22 @@ i32
 loop
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 )
@@ -250,10 +256,12 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 (
@@ -264,6 +272,7 @@ const
 )
 (
 call
+\
 dummy
 )
 )
@@ -280,14 +289,17 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 (
@@ -298,18 +310,22 @@ const
 )
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 (
@@ -320,18 +336,22 @@ const
 )
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 (
@@ -342,6 +362,7 @@ const
 )
 (
 call
+\
 dummy
 )
 )
@@ -374,6 +395,7 @@ i32
 loop
 (
 call
+\
 dummy
 )
 (
@@ -391,6 +413,7 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
@@ -656,6 +679,7 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
@@ -871,6 +895,7 @@ if
 then
 (
 call
+\
 dummy
 )
 )
@@ -1178,6 +1203,7 @@ br_table
 )
 (
 func
+\
 func
 (
 param
@@ -1197,6 +1223,7 @@ get
 )
 (
 type
+\
 check
 (
 func
@@ -1216,6 +1243,7 @@ table
 funcref
 (
 elem
+\
 func
 )
 )
@@ -1245,6 +1273,7 @@ i32
 call_indirect
 (
 type
+\
 check
 )
 (
@@ -1301,6 +1330,7 @@ i32
 call_indirect
 (
 type
+\
 check
 )
 (
@@ -1357,6 +1387,7 @@ i32
 call_indirect
 (
 type
+\
 check
 )
 (
@@ -1500,6 +1531,7 @@ const
 )
 (
 func
+\
 f
 (
 param
@@ -1534,6 +1566,7 @@ i32
 )
 (
 call
+\
 f
 (
 loop
@@ -1745,6 +1778,7 @@ const
 )
 (
 global
+\
 a
 (
 mut
@@ -1779,6 +1813,7 @@ i32
 global
 .
 set
+\
 a
 (
 loop
@@ -1798,6 +1833,7 @@ const
 global
 .
 get
+\
 a
 )
 )
@@ -1864,6 +1900,7 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
@@ -1903,6 +1940,7 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
@@ -1920,6 +1958,7 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
@@ -1959,6 +1998,7 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
@@ -1998,6 +2038,7 @@ f32
 )
 (
 call
+\
 dummy
 )
 (
@@ -2015,6 +2056,7 @@ f32
 )
 (
 call
+\
 dummy
 )
 (
@@ -2055,6 +2097,7 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
@@ -2065,6 +2108,7 @@ const
 )
 (
 call
+\
 dummy
 )
 (
@@ -2105,6 +2149,7 @@ f32
 )
 (
 call
+\
 dummy
 )
 (
@@ -2115,6 +2160,7 @@ const
 )
 (
 call
+\
 dummy
 )
 (
@@ -2151,6 +2197,7 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
@@ -2161,6 +2208,7 @@ const
 )
 (
 call
+\
 dummy
 )
 (
@@ -3184,6 +3232,7 @@ i32
 )
 (
 local
+\
 x
 i32
 )
@@ -3218,12 +3267,14 @@ add
 local
 .
 tee
+\
 x
 )
 (
 local
 .
 get
+\
 x
 )
 (
@@ -3259,6 +3310,7 @@ i32
 )
 (
 local
+\
 x
 i32
 )
@@ -3294,6 +3346,7 @@ add
 local
 .
 tee
+\
 x
 )
 (
@@ -3306,6 +3359,7 @@ const
 local
 .
 get
+\
 x
 )
 (
@@ -3346,6 +3400,7 @@ i32
 )
 (
 local
+\
 x
 i32
 )
@@ -3353,6 +3408,7 @@ i32
 local
 .
 set
+\
 x
 (
 i32
@@ -3389,6 +3445,7 @@ i32
 local
 .
 set
+\
 x
 (
 i32
@@ -3398,6 +3455,7 @@ add
 local
 .
 get
+\
 x
 )
 (
@@ -3419,6 +3477,7 @@ lt_u
 local
 .
 get
+\
 x
 )
 (
@@ -3438,6 +3497,7 @@ add
 )
 (
 func
+\
 fx
 (
 export
@@ -4043,6 +4103,7 @@ get
 )
 (
 type
+\
 block
 -
 sig
@@ -4054,6 +4115,7 @@ func
 )
 (
 type
+\
 block
 -
 sig
@@ -4069,6 +4131,7 @@ i32
 )
 (
 type
+\
 block
 -
 sig
@@ -4078,6 +4141,7 @@ sig
 func
 (
 param
+\
 x
 i32
 )
@@ -4085,6 +4149,7 @@ i32
 )
 (
 type
+\
 block
 -
 sig
@@ -4120,6 +4185,7 @@ use
 loop
 (
 type
+\
 block
 -
 sig
@@ -4131,6 +4197,7 @@ sig
 loop
 (
 type
+\
 block
 -
 sig
@@ -4148,6 +4215,7 @@ const
 loop
 (
 type
+\
 block
 -
 sig
@@ -4180,6 +4248,7 @@ const
 loop
 (
 type
+\
 block
 -
 sig
@@ -4200,6 +4269,7 @@ drop
 loop
 (
 type
+\
 block
 -
 sig
@@ -4221,6 +4291,7 @@ const
 loop
 (
 type
+\
 block
 -
 sig
@@ -4257,6 +4328,7 @@ const
 loop
 (
 type
+\
 block
 -
 sig
@@ -7536,6 +7608,7 @@ instantiate
 (
 (
 type
+\
 sig
 (
 func
@@ -7561,6 +7634,7 @@ const
 loop
 (
 type
+\
 sig
 )
 (
@@ -7601,6 +7675,7 @@ instantiate
 (
 (
 type
+\
 sig
 (
 func
@@ -7630,6 +7705,7 @@ i32
 )
 (
 type
+\
 sig
 )
 (
@@ -7666,6 +7742,7 @@ instantiate
 (
 (
 type
+\
 sig
 (
 func
@@ -7699,6 +7776,7 @@ i32
 )
 (
 type
+\
 sig
 )
 )
@@ -7731,6 +7809,7 @@ instantiate
 (
 (
 type
+\
 sig
 (
 func
@@ -7760,6 +7839,7 @@ i32
 )
 (
 type
+\
 sig
 )
 (
@@ -7796,6 +7876,7 @@ instantiate
 (
 (
 type
+\
 sig
 (
 func
@@ -7829,6 +7910,7 @@ i32
 )
 (
 type
+\
 sig
 )
 )
@@ -7917,6 +7999,7 @@ const
 loop
 (
 param
+\
 x
 i32
 )
@@ -7953,6 +8036,7 @@ instantiate
 (
 (
 type
+\
 sig
 (
 func
@@ -7964,6 +8048,7 @@ func
 loop
 (
 type
+\
 sig
 )
 (
@@ -8010,6 +8095,7 @@ instantiate
 (
 (
 type
+\
 sig
 (
 func
@@ -8029,6 +8115,7 @@ func
 loop
 (
 type
+\
 sig
 )
 (
@@ -8075,6 +8162,7 @@ instantiate
 (
 (
 type
+\
 sig
 (
 func
@@ -8100,6 +8188,7 @@ const
 loop
 (
 type
+\
 sig
 )
 (
@@ -8143,6 +8232,7 @@ instantiate
 (
 (
 type
+\
 sig
 (
 func
@@ -8169,6 +8259,7 @@ const
 loop
 (
 type
+\
 sig
 )
 (
@@ -8215,6 +8306,7 @@ instantiate
 module
 (
 type
+\
 sig
 (
 func
@@ -8226,6 +8318,7 @@ func
 loop
 (
 type
+\
 sig
 )
 (
@@ -8267,6 +8360,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 empty
@@ -8311,6 +8405,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 empty
@@ -8355,6 +8450,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 empty
@@ -8399,6 +8495,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 empty
@@ -8443,6 +8540,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 value
@@ -8493,6 +8591,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 value
@@ -8549,6 +8648,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 value
@@ -8601,6 +8701,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 value
@@ -8655,6 +8756,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 value
@@ -8710,6 +8812,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 value
@@ -8767,6 +8870,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 value
@@ -8825,6 +8929,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 value
@@ -8885,6 +8990,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 value
@@ -8951,6 +9057,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 value
@@ -9015,6 +9122,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 value
@@ -9077,6 +9185,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 value
@@ -9137,6 +9246,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 value
@@ -9197,6 +9307,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 value
@@ -9266,6 +9377,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -9317,6 +9429,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -9372,6 +9485,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -9429,6 +9543,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -9490,6 +9605,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -9546,6 +9662,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -9604,6 +9721,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -9664,6 +9782,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 param
@@ -9737,6 +9856,7 @@ i32
 loop
 (
 param
+\
 x
 i32
 )
@@ -9782,6 +9902,7 @@ i32
 loop
 (
 param
+\
 x
 i32
 )
@@ -9817,6 +9938,7 @@ instantiate
 func
 loop
 end
+\
 l
 )
 )
@@ -9848,8 +9970,10 @@ instantiate
 (
 func
 loop
+\
 a
 end
+\
 l
 )
 )

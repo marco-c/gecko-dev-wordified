@@ -161,10 +161,12 @@ Auxiliary
 definitions
 (
 func
+\
 dummy
 )
 (
 func
+\
 dummy3
 (
 param
@@ -290,6 +292,7 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
@@ -317,6 +320,7 @@ last
 )
 (
 call
+\
 dummy
 )
 (
@@ -341,6 +345,7 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
@@ -404,6 +409,7 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
@@ -436,6 +442,7 @@ nop
 )
 (
 call
+\
 dummy
 )
 (
@@ -470,6 +477,7 @@ nop
 )
 (
 call
+\
 dummy
 )
 (
@@ -501,6 +509,7 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
@@ -575,6 +584,7 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
@@ -607,6 +617,7 @@ nop
 )
 (
 call
+\
 dummy
 )
 (
@@ -644,6 +655,7 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
@@ -1359,6 +1371,7 @@ first
 )
 (
 call
+\
 dummy3
 (
 unreachable
@@ -1391,6 +1404,7 @@ mid
 )
 (
 call
+\
 dummy3
 (
 i32
@@ -1423,6 +1437,7 @@ last
 )
 (
 call
+\
 dummy3
 (
 i32
@@ -1443,6 +1458,7 @@ unreachable
 )
 (
 type
+\
 sig
 (
 func
@@ -1459,6 +1475,7 @@ table
 funcref
 (
 elem
+\
 dummy3
 )
 )
@@ -1478,6 +1495,7 @@ func
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -1519,6 +1537,7 @@ first
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -1560,6 +1579,7 @@ mid
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -1601,6 +1621,7 @@ last
 call_indirect
 (
 type
+\
 sig
 )
 (
@@ -1688,6 +1709,7 @@ unreachable
 )
 (
 global
+\
 a
 (
 mut
@@ -1722,6 +1744,7 @@ f32
 global
 .
 set
+\
 a
 (
 unreachable

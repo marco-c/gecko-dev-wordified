@@ -165,6 +165,7 @@ print_i32_f32
 "
 (
 func
+\
 print_i32_f32
 (
 param
@@ -179,6 +180,7 @@ Auxiliary
 definitions
 (
 type
+\
 proc
 (
 func
@@ -186,6 +188,7 @@ func
 )
 (
 type
+\
 out
 -
 i32
@@ -199,6 +202,7 @@ i32
 )
 (
 type
+\
 out
 -
 i64
@@ -212,6 +216,7 @@ i64
 )
 (
 type
+\
 out
 -
 f32
@@ -225,6 +230,7 @@ f32
 )
 (
 type
+\
 out
 -
 f64
@@ -238,6 +244,7 @@ f64
 )
 (
 type
+\
 over
 -
 i32
@@ -255,6 +262,7 @@ i32
 )
 (
 type
+\
 over
 -
 i64
@@ -272,6 +280,7 @@ i64
 )
 (
 type
+\
 over
 -
 f32
@@ -289,6 +298,7 @@ f32
 )
 (
 type
+\
 over
 -
 f64
@@ -306,6 +316,7 @@ f64
 )
 (
 type
+\
 f32
 -
 i32
@@ -324,6 +335,7 @@ i32
 )
 (
 type
+\
 i32
 -
 i64
@@ -342,6 +354,7 @@ i64
 )
 (
 type
+\
 f64
 -
 f32
@@ -360,6 +373,7 @@ f32
 )
 (
 type
+\
 i64
 -
 f64
@@ -378,6 +392,7 @@ f64
 )
 (
 type
+\
 over
 -
 i32
@@ -397,6 +412,7 @@ i32
 )
 (
 type
+\
 over
 -
 i64
@@ -416,6 +432,7 @@ i64
 )
 (
 type
+\
 over
 -
 f32
@@ -435,6 +452,7 @@ f32
 )
 (
 type
+\
 over
 -
 f64
@@ -454,11 +472,13 @@ f64
 )
 (
 func
+\
 const
 -
 i32
 (
 type
+\
 out
 -
 i32
@@ -472,11 +492,13 @@ const
 )
 (
 func
+\
 const
 -
 i64
 (
 type
+\
 out
 -
 i64
@@ -490,11 +512,13 @@ const
 )
 (
 func
+\
 const
 -
 f32
 (
 type
+\
 out
 -
 f32
@@ -508,11 +532,13 @@ const
 )
 (
 func
+\
 const
 -
 f64
 (
 type
+\
 out
 -
 f64
@@ -526,11 +552,13 @@ const
 )
 (
 func
+\
 id
 -
 i32
 (
 type
+\
 over
 -
 i32
@@ -544,11 +572,13 @@ get
 )
 (
 func
+\
 id
 -
 i64
 (
 type
+\
 over
 -
 i64
@@ -562,11 +592,13 @@ get
 )
 (
 func
+\
 id
 -
 f32
 (
 type
+\
 over
 -
 f32
@@ -580,11 +612,13 @@ get
 )
 (
 func
+\
 id
 -
 f64
 (
 type
+\
 over
 -
 f64
@@ -598,11 +632,13 @@ get
 )
 (
 func
+\
 i32
 -
 i64
 (
 type
+\
 i32
 -
 i64
@@ -616,11 +652,13 @@ get
 )
 (
 func
+\
 i64
 -
 f64
 (
 type
+\
 i64
 -
 f64
@@ -634,11 +672,13 @@ get
 )
 (
 func
+\
 f32
 -
 i32
 (
 type
+\
 f32
 -
 i32
@@ -652,11 +692,13 @@ get
 )
 (
 func
+\
 f64
 -
 f32
 (
 type
+\
 f64
 -
 f32
@@ -670,6 +712,7 @@ get
 )
 (
 func
+\
 over
 -
 i32
@@ -677,6 +720,7 @@ i32
 duplicate
 (
 type
+\
 over
 -
 i32
@@ -692,6 +736,7 @@ get
 )
 (
 func
+\
 over
 -
 i64
@@ -699,6 +744,7 @@ i64
 duplicate
 (
 type
+\
 over
 -
 i64
@@ -714,6 +760,7 @@ get
 )
 (
 func
+\
 over
 -
 f32
@@ -721,6 +768,7 @@ f32
 duplicate
 (
 type
+\
 over
 -
 f32
@@ -736,6 +784,7 @@ get
 )
 (
 func
+\
 over
 -
 f64
@@ -743,6 +792,7 @@ f64
 duplicate
 (
 type
+\
 over
 -
 f64
@@ -758,6 +808,7 @@ get
 )
 (
 func
+\
 tailprint_i32_f32
 (
 export
@@ -772,6 +823,7 @@ f32
 )
 (
 return_call
+\
 print_i32_f32
 (
 local
@@ -789,6 +841,7 @@ get
 )
 (
 func
+\
 swizzle
 (
 param
@@ -825,6 +878,7 @@ get
 )
 (
 func
+\
 type
 -
 f64
@@ -864,6 +918,7 @@ f32
 )
 (
 return_call
+\
 swizzle
 (
 local
@@ -884,63 +939,83 @@ table
 funcref
 (
 elem
+\
 const
 -
 i32
+\
 const
 -
 i64
+\
 const
 -
 f32
+\
 const
 -
 f64
+\
 id
 -
 i32
+\
 id
 -
 i64
+\
 id
 -
 f32
+\
 id
 -
 f64
+\
 f32
 -
 i32
+\
 i32
 -
 i64
+\
 f64
 -
 f32
+\
 i64
 -
 f64
+\
 fac
+\
 fac
 -
 acc
+\
 even
+\
 odd
+\
 over
 -
 i32
 -
 duplicate
+\
 over
 -
 i64
 -
 duplicate
+\
 over
 -
 f32
 -
 duplicate
+\
 over
 -
 f64
@@ -1177,6 +1252,7 @@ i64
 return_call_indirect
 (
 type
+\
 over
 -
 i64
@@ -1224,6 +1300,7 @@ i32
 return_call_indirect
 (
 type
+\
 out
 -
 i32
@@ -1254,6 +1331,7 @@ i64
 return_call_indirect
 (
 type
+\
 out
 -
 i64
@@ -1284,6 +1362,7 @@ f32
 return_call_indirect
 (
 type
+\
 out
 -
 f32
@@ -1314,6 +1393,7 @@ f64
 return_call_indirect
 (
 type
+\
 out
 -
 f64
@@ -1344,6 +1424,7 @@ i64
 return_call_indirect
 (
 type
+\
 over
 -
 i64
@@ -1382,6 +1463,7 @@ i32
 return_call_indirect
 (
 type
+\
 over
 -
 i32
@@ -1420,6 +1502,7 @@ i64
 return_call_indirect
 (
 type
+\
 over
 -
 i64
@@ -1458,6 +1541,7 @@ f32
 return_call_indirect
 (
 type
+\
 over
 -
 f32
@@ -1498,6 +1582,7 @@ f64
 return_call_indirect
 (
 type
+\
 over
 -
 f64
@@ -1538,6 +1623,7 @@ i32
 return_call_indirect
 (
 type
+\
 f32
 -
 i32
@@ -1584,6 +1670,7 @@ i64
 return_call_indirect
 (
 type
+\
 i32
 -
 i64
@@ -1628,6 +1715,7 @@ f32
 return_call_indirect
 (
 type
+\
 f64
 -
 f32
@@ -1672,6 +1760,7 @@ f64
 return_call_indirect
 (
 type
+\
 i64
 -
 f64
@@ -1722,6 +1811,7 @@ i64
 return_call_indirect
 (
 type
+\
 over
 -
 i64
@@ -1762,6 +1852,7 @@ i64
 return_call_indirect
 (
 type
+\
 over
 -
 i64
@@ -1788,10 +1879,12 @@ Multiple
 tables
 (
 table
+\
 tab2
 funcref
 (
 elem
+\
 tab
 -
 f1
@@ -1799,10 +1892,12 @@ f1
 )
 (
 table
+\
 tab3
 funcref
 (
 elem
+\
 tab
 -
 f2
@@ -1810,6 +1905,7 @@ f2
 )
 (
 func
+\
 tab
 -
 f1
@@ -1826,6 +1922,7 @@ const
 )
 (
 func
+\
 tab
 -
 f2
@@ -1852,6 +1949,7 @@ tab
 )
 (
 param
+\
 i
 i32
 )
@@ -1869,6 +1967,7 @@ eq
 local
 .
 get
+\
 i
 )
 (
@@ -1884,6 +1983,7 @@ then
 return_call_indirect
 (
 type
+\
 out
 -
 i32
@@ -1907,6 +2007,7 @@ eq
 local
 .
 get
+\
 i
 )
 (
@@ -1923,6 +2024,7 @@ return_call_indirect
 1
 (
 type
+\
 out
 -
 i32
@@ -1946,6 +2048,7 @@ eq
 local
 .
 get
+\
 i
 )
 (
@@ -1959,9 +2062,11 @@ const
 then
 (
 return_call_indirect
+\
 tab3
 (
 type
+\
 out
 -
 i32
@@ -1987,6 +2092,7 @@ const
 Recursion
 (
 func
+\
 fac
 (
 export
@@ -1996,6 +2102,7 @@ fac
 )
 (
 type
+\
 over
 -
 i64
@@ -2033,6 +2140,7 @@ const
 )
 (
 func
+\
 fac
 -
 acc
@@ -2130,6 +2238,7 @@ const
 )
 (
 func
+\
 even
 (
 export
@@ -2177,6 +2286,7 @@ else
 return_call_indirect
 (
 type
+\
 over
 -
 i32
@@ -2210,6 +2320,7 @@ const
 )
 (
 func
+\
 odd
 (
 export
@@ -2257,6 +2368,7 @@ else
 return_call_indirect
 (
 type
+\
 over
 -
 i32
@@ -2297,11 +2409,14 @@ multiple
 results
 (
 table
+\
 tab4
 funcref
 (
 elem
+\
 tailprint_i32_f32
+\
 type
 -
 f64
@@ -2330,6 +2445,7 @@ f32
 )
 (
 return_call_indirect
+\
 tab4
 (
 param
@@ -2376,6 +2492,7 @@ f32
 )
 (
 return_call_indirect
+\
 tab4
 (
 param
@@ -4335,6 +4452,7 @@ instantiate
 (
 (
 type
+\
 sig
 (
 func
@@ -4363,6 +4481,7 @@ i32
 return_call_indirect
 (
 type
+\
 sig
 )
 (
@@ -4415,6 +4534,7 @@ instantiate
 (
 (
 type
+\
 sig
 (
 func
@@ -4447,6 +4567,7 @@ i32
 )
 (
 type
+\
 sig
 )
 (
@@ -4495,6 +4616,7 @@ instantiate
 (
 (
 type
+\
 sig
 (
 func
@@ -4531,6 +4653,7 @@ i32
 )
 (
 type
+\
 sig
 )
 (
@@ -4575,6 +4698,7 @@ instantiate
 (
 (
 type
+\
 sig
 (
 func
@@ -4607,6 +4731,7 @@ i32
 )
 (
 type
+\
 sig
 )
 (
@@ -4655,6 +4780,7 @@ instantiate
 (
 (
 type
+\
 sig
 (
 func
@@ -4691,6 +4817,7 @@ i32
 )
 (
 type
+\
 sig
 )
 (
@@ -4805,6 +4932,7 @@ func
 return_call_indirect
 (
 param
+\
 x
 i32
 )
@@ -4850,6 +4978,7 @@ instantiate
 (
 (
 type
+\
 sig
 (
 func
@@ -4870,6 +4999,7 @@ i32
 return_call_indirect
 (
 type
+\
 sig
 )
 (
@@ -4913,6 +5043,7 @@ instantiate
 (
 (
 type
+\
 sig
 (
 func
@@ -4941,6 +5072,7 @@ i32
 return_call_indirect
 (
 type
+\
 sig
 )
 (
@@ -4984,6 +5116,7 @@ instantiate
 (
 (
 type
+\
 sig
 (
 func
@@ -5008,6 +5141,7 @@ func
 return_call_indirect
 (
 type
+\
 sig
 )
 (
@@ -5057,6 +5191,7 @@ instantiate
 (
 (
 type
+\
 sig
 (
 func
@@ -5086,6 +5221,7 @@ i32
 return_call_indirect
 (
 type
+\
 sig
 )
 (
@@ -5147,6 +5283,7 @@ func
 )
 (
 func
+\
 no
 -
 table
@@ -5206,6 +5343,7 @@ funcref
 )
 (
 func
+\
 type
 -
 void
@@ -5278,6 +5416,7 @@ funcref
 )
 (
 func
+\
 type
 -
 num
@@ -5350,6 +5489,7 @@ funcref
 )
 (
 func
+\
 arity
 -
 0
@@ -5418,6 +5558,7 @@ funcref
 )
 (
 func
+\
 arity
 -
 0
@@ -5478,6 +5619,7 @@ funcref
 )
 (
 func
+\
 arity
 -
 1
@@ -5541,6 +5683,7 @@ funcref
 )
 (
 func
+\
 arity
 -
 2
@@ -5617,6 +5760,7 @@ funcref
 )
 (
 func
+\
 type
 -
 func
@@ -5689,6 +5833,7 @@ funcref
 )
 (
 func
+\
 type
 -
 func
@@ -5765,6 +5910,7 @@ funcref
 )
 (
 func
+\
 type
 -
 first
@@ -5844,6 +5990,7 @@ funcref
 )
 (
 func
+\
 type
 -
 second
@@ -5923,6 +6070,7 @@ funcref
 )
 (
 func
+\
 type
 -
 first
@@ -6005,6 +6153,7 @@ funcref
 )
 (
 func
+\
 type
 -
 second
@@ -6071,6 +6220,7 @@ instantiate
 module
 (
 type
+\
 ty
 (
 func
@@ -6091,6 +6241,7 @@ table
 "
 (
 table
+\
 table
 0
 funcref
@@ -6111,9 +6262,11 @@ local
 get
 0
 return_call_indirect
+\
 table
 (
 type
+\
 ty
 )
 )
@@ -6159,6 +6312,7 @@ externref
 )
 (
 func
+\
 return
 -
 call
@@ -6214,6 +6368,7 @@ funcref
 )
 (
 func
+\
 unbound
 -
 type
@@ -6267,6 +6422,7 @@ funcref
 )
 (
 func
+\
 large
 -
 type

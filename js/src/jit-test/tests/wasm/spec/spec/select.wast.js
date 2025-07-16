@@ -160,14 +160,17 @@ module
 Auxiliary
 (
 func
+\
 dummy
 )
 (
 table
+\
 tab
 funcref
 (
 elem
+\
 dummy
 )
 )
@@ -629,6 +632,7 @@ get
 )
 (
 type
+\
 t
 (
 func
@@ -636,12 +640,14 @@ func
 )
 (
 func
+\
 tf
 )
 (
 elem
 declare
 func
+\
 tf
 )
 (
@@ -680,6 +686,7 @@ func
 ref
 .
 func
+\
 tf
 )
 (
@@ -721,6 +728,7 @@ left
 )
 (
 param
+\
 cond
 i32
 )
@@ -743,6 +751,7 @@ const
 local
 .
 get
+\
 cond
 )
 )
@@ -761,6 +770,7 @@ right
 )
 (
 param
+\
 cond
 i32
 )
@@ -783,6 +793,7 @@ unreachable
 local
 .
 get
+\
 cond
 )
 )
@@ -1169,10 +1180,12 @@ get
 )
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 )
@@ -1205,6 +1218,7 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
@@ -1230,6 +1244,7 @@ get
 )
 (
 call
+\
 dummy
 )
 )
@@ -1262,10 +1277,12 @@ i32
 )
 (
 call
+\
 dummy
 )
 (
 call
+\
 dummy
 )
 (
@@ -1334,6 +1351,7 @@ if
 then
 (
 call
+\
 dummy
 )
 )
@@ -1713,6 +1731,7 @@ br_table
 )
 (
 func
+\
 func
 (
 param
@@ -1732,6 +1751,7 @@ get
 )
 (
 type
+\
 check
 (
 func
@@ -1748,10 +1768,12 @@ i32
 )
 (
 table
+\
 t
 funcref
 (
 elem
+\
 func
 )
 )
@@ -1783,9 +1805,11 @@ i32
 )
 (
 call_indirect
+\
 t
 (
 type
+\
 check
 )
 (
@@ -1852,9 +1876,11 @@ i32
 )
 (
 call_indirect
+\
 t
 (
 type
+\
 check
 )
 (
@@ -1921,9 +1947,11 @@ i32
 )
 (
 call_indirect
+\
 t
 (
 type
+\
 check
 )
 (
@@ -2111,6 +2139,7 @@ get
 )
 (
 func
+\
 f
 (
 param
@@ -2149,6 +2178,7 @@ i32
 )
 (
 call
+\
 f
 (
 select
@@ -2424,6 +2454,7 @@ get
 )
 (
 global
+\
 a
 (
 mut
@@ -2462,6 +2493,7 @@ i32
 global
 .
 set
+\
 a
 (
 select
@@ -2489,6 +2521,7 @@ get
 global
 .
 get
+\
 a
 )
 )
@@ -8854,6 +8887,7 @@ instantiate
 module
 (
 func
+\
 arity
 -
 0
@@ -8906,6 +8940,7 @@ instantiate
 module
 (
 func
+\
 arity
 -
 0
@@ -8960,6 +8995,7 @@ instantiate
 module
 (
 func
+\
 arity
 -
 2
@@ -9039,6 +9075,7 @@ instantiate
 module
 (
 type
+\
 t
 (
 func
@@ -9046,6 +9083,7 @@ func
 )
 (
 func
+\
 type
 -
 ref
@@ -9053,9 +9091,11 @@ ref
 implicit
 (
 param
+\
 r
 (
 ref
+\
 t
 )
 )
@@ -9067,12 +9107,14 @@ select
 local
 .
 get
+\
 r
 )
 (
 local
 .
 get
+\
 r
 )
 (
@@ -9115,6 +9157,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 funcref
@@ -9122,6 +9165,7 @@ funcref
 implicit
 (
 param
+\
 r
 funcref
 )
@@ -9133,12 +9177,14 @@ select
 local
 .
 get
+\
 r
 )
 (
 local
 .
 get
+\
 r
 )
 (
@@ -9181,6 +9227,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 externref
@@ -9188,6 +9235,7 @@ externref
 implicit
 (
 param
+\
 r
 externref
 )
@@ -9199,12 +9247,14 @@ select
 local
 .
 get
+\
 r
 )
 (
 local
 .
 get
+\
 r
 )
 (
@@ -9244,6 +9294,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 unreachable
@@ -9300,6 +9351,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 num
@@ -9363,6 +9415,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 num
@@ -9428,6 +9481,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 num
@@ -9493,6 +9547,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 num
@@ -9556,6 +9611,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 num
@@ -9621,6 +9677,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 num
@@ -9684,6 +9741,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 num
@@ -9749,6 +9807,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 num
@@ -9814,6 +9873,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 1st
@@ -9859,6 +9919,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 2nd
@@ -9910,6 +9971,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 3rd
@@ -9967,6 +10029,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 1st
@@ -10037,6 +10100,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 2nd
@@ -10107,6 +10171,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 3rd
@@ -10177,6 +10242,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 1st
@@ -10247,6 +10313,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 2nd
@@ -10317,6 +10384,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 3rd
@@ -10387,6 +10455,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 1st
@@ -10460,6 +10529,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 2nd
@@ -10533,6 +10603,7 @@ instantiate
 module
 (
 func
+\
 type
 -
 3rd

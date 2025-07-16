@@ -14259,6 +14259,7 @@ instantiate
 module
 (
 func
+\
 i8x16
 .
 min_s
@@ -14333,6 +14334,7 @@ instantiate
 module
 (
 func
+\
 i8x16
 .
 min_s
@@ -14383,6 +14385,7 @@ instantiate
 module
 (
 func
+\
 i8x16
 .
 min_u
@@ -14457,6 +14460,7 @@ instantiate
 module
 (
 func
+\
 i8x16
 .
 min_u
@@ -14507,6 +14511,7 @@ instantiate
 module
 (
 func
+\
 i8x16
 .
 max_s
@@ -14581,6 +14586,7 @@ instantiate
 module
 (
 func
+\
 i8x16
 .
 max_s
@@ -14631,6 +14637,7 @@ instantiate
 module
 (
 func
+\
 i8x16
 .
 max_u
@@ -14705,6 +14712,7 @@ instantiate
 module
 (
 func
+\
 i8x16
 .
 max_u
@@ -14755,6 +14763,7 @@ instantiate
 module
 (
 func
+\
 i8x16
 .
 avgr_u
@@ -14829,6 +14838,7 @@ instantiate
 module
 (
 func
+\
 i8x16
 .
 avgr_u
@@ -14879,6 +14889,7 @@ instantiate
 module
 (
 func
+\
 i8x16
 .
 abs
@@ -14929,6 +14940,7 @@ instantiate
 module
 (
 func
+\
 i8x16
 .
 popcnt

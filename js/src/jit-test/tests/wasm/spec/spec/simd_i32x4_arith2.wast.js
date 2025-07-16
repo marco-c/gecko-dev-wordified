@@ -7563,6 +7563,7 @@ instantiate
 module
 (
 func
+\
 i32x4
 .
 min_s
@@ -7625,6 +7626,7 @@ instantiate
 module
 (
 func
+\
 i32x4
 .
 min_s
@@ -7675,6 +7677,7 @@ instantiate
 module
 (
 func
+\
 i32x4
 .
 min_u
@@ -7737,6 +7740,7 @@ instantiate
 module
 (
 func
+\
 i32x4
 .
 min_u
@@ -7787,6 +7791,7 @@ instantiate
 module
 (
 func
+\
 i32x4
 .
 max_s
@@ -7849,6 +7854,7 @@ instantiate
 module
 (
 func
+\
 i32x4
 .
 max_s
@@ -7899,6 +7905,7 @@ instantiate
 module
 (
 func
+\
 i32x4
 .
 max_u
@@ -7961,6 +7968,7 @@ instantiate
 module
 (
 func
+\
 i32x4
 .
 max_u
@@ -8011,6 +8019,7 @@ instantiate
 module
 (
 func
+\
 i32x4
 .
 abs

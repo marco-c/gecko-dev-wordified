@@ -9617,6 +9617,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 min_s
@@ -9683,6 +9684,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 min_s
@@ -9733,6 +9735,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 min_u
@@ -9799,6 +9802,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 min_u
@@ -9849,6 +9853,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 max_s
@@ -9915,6 +9920,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 max_s
@@ -9965,6 +9971,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 max_u
@@ -10031,6 +10038,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 max_u
@@ -10081,6 +10089,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 avgr_u
@@ -10147,6 +10156,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 avgr_u
@@ -10197,6 +10207,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 abs

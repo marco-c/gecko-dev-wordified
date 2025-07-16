@@ -157,6 +157,7 @@ instantiate
 module
 (
 func
+\
 even
 (
 export
@@ -166,6 +167,7 @@ even
 )
 (
 param
+\
 n
 i32
 )
@@ -187,6 +189,7 @@ eq
 local
 .
 get
+\
 n
 )
 (
@@ -209,6 +212,7 @@ const
 else
 (
 call
+\
 odd
 (
 i32
@@ -218,6 +222,7 @@ sub
 local
 .
 get
+\
 n
 )
 (
@@ -233,6 +238,7 @@ const
 )
 (
 func
+\
 odd
 (
 export
@@ -242,6 +248,7 @@ odd
 )
 (
 param
+\
 n
 i32
 )
@@ -263,6 +270,7 @@ eq
 local
 .
 get
+\
 n
 )
 (
@@ -285,6 +293,7 @@ const
 else
 (
 call
+\
 even
 (
 i32
@@ -294,6 +303,7 @@ sub
 local
 .
 get
+\
 n
 )
 (

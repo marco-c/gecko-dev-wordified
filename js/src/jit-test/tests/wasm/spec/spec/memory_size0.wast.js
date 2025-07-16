@@ -181,6 +181,7 @@ memory
 )
 (
 memory
+\
 m
 0
 )
@@ -200,6 +201,7 @@ i32
 memory
 .
 size
+\
 m
 )
 )
@@ -213,6 +215,7 @@ grow
 )
 (
 param
+\
 sz
 i32
 )
@@ -222,11 +225,13 @@ drop
 memory
 .
 grow
+\
 m
 (
 local
 .
 get
+\
 sz
 )
 )

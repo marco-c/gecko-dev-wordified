@@ -157,6 +157,7 @@ instantiate
 module
 (
 type
+\
 t
 (
 func
@@ -182,6 +183,7 @@ ref
 )
 (
 ref
+\
 t
 )
 (
@@ -190,6 +192,7 @@ ref
 )
 (
 ref
+\
 t
 )
 (
@@ -210,6 +213,7 @@ null
 (
 ref
 null
+\
 t
 )
 )
@@ -242,6 +246,7 @@ instantiate
 module
 (
 type
+\
 type
 -
 func
@@ -291,6 +296,7 @@ instantiate
 module
 (
 type
+\
 type
 -
 func
@@ -340,6 +346,7 @@ instantiate
 module
 (
 global
+\
 global
 -
 invalid
@@ -386,6 +393,7 @@ instantiate
 module
 (
 table
+\
 table
 -
 invalid
@@ -427,6 +435,7 @@ instantiate
 module
 (
 elem
+\
 elem
 -
 invalid
@@ -466,6 +475,7 @@ instantiate
 module
 (
 func
+\
 func
 -
 param
@@ -510,6 +520,7 @@ instantiate
 module
 (
 func
+\
 func
 -
 result
@@ -554,6 +565,7 @@ instantiate
 module
 (
 func
+\
 func
 -
 local
@@ -599,6 +611,7 @@ instantiate
 module
 (
 func
+\
 block
 -
 result
@@ -652,6 +665,7 @@ instantiate
 module
 (
 func
+\
 loop
 -
 result
@@ -705,6 +719,7 @@ instantiate
 module
 (
 func
+\
 if
 -
 invalid
@@ -759,6 +774,7 @@ instantiate
 module
 (
 func
+\
 select
 -
 result

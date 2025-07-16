@@ -157,6 +157,7 @@ instantiate
 module
 (
 type
+\
 t
 (
 func
@@ -251,6 +252,7 @@ result
 (
 ref
 null
+\
 t
 )
 )
@@ -258,6 +260,7 @@ t
 ref
 .
 null
+\
 t
 )
 )
@@ -306,12 +309,14 @@ global
 (
 ref
 null
+\
 t
 )
 (
 ref
 .
 null
+\
 t
 )
 )
@@ -532,6 +537,7 @@ instantiate
 module
 (
 type
+\
 t
 (
 func
@@ -539,6 +545,7 @@ func
 )
 (
 global
+\
 null
 nullref
 (
@@ -550,6 +557,7 @@ none
 )
 (
 global
+\
 nullfunc
 nullfuncref
 (
@@ -561,6 +569,7 @@ nofunc
 )
 (
 global
+\
 nullexn
 nullexnref
 (
@@ -572,6 +581,7 @@ noexn
 )
 (
 global
+\
 nullextern
 nullexternref
 (
@@ -597,6 +607,7 @@ anyref
 global
 .
 get
+\
 null
 )
 )
@@ -616,6 +627,7 @@ nullref
 global
 .
 get
+\
 null
 )
 )
@@ -635,6 +647,7 @@ funcref
 global
 .
 get
+\
 nullfunc
 )
 )
@@ -654,6 +667,7 @@ nullfuncref
 global
 .
 get
+\
 nullfunc
 )
 )
@@ -673,6 +687,7 @@ exnref
 global
 .
 get
+\
 nullexn
 )
 )
@@ -692,6 +707,7 @@ nullexnref
 global
 .
 get
+\
 nullexn
 )
 )
@@ -711,6 +727,7 @@ externref
 global
 .
 get
+\
 nullextern
 )
 )
@@ -730,6 +747,7 @@ nullexternref
 global
 .
 get
+\
 nullextern
 )
 )
@@ -746,6 +764,7 @@ result
 (
 ref
 null
+\
 t
 )
 )
@@ -753,6 +772,7 @@ t
 global
 .
 get
+\
 nullfunc
 )
 )
@@ -881,12 +901,14 @@ global
 (
 ref
 null
+\
 t
 )
 (
 ref
 .
 null
+\
 t
 )
 )
@@ -895,6 +917,7 @@ global
 (
 ref
 null
+\
 t
 )
 (

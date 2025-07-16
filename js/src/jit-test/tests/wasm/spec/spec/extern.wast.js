@@ -161,6 +161,7 @@ instantiate
 module
 (
 type
+\
 ft
 (
 func
@@ -168,6 +169,7 @@ func
 )
 (
 type
+\
 st
 (
 struct
@@ -175,6 +177,7 @@ struct
 )
 (
 type
+\
 at
 (
 array
@@ -220,10 +223,12 @@ anyref
 elem
 declare
 func
+\
 f
 )
 (
 func
+\
 f
 )
 (
@@ -236,6 +241,7 @@ init
 )
 (
 param
+\
 x
 externref
 )
@@ -292,6 +298,7 @@ const
 struct
 .
 new_default
+\
 st
 )
 )
@@ -309,6 +316,7 @@ const
 array
 .
 new_default
+\
 at
 (
 i32
@@ -336,6 +344,7 @@ convert_extern
 local
 .
 get
+\
 x
 )
 )

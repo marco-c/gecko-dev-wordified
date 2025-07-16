@@ -161,6 +161,7 @@ instantiate
 module
 (
 type
+\
 ft
 (
 func
@@ -168,6 +169,7 @@ func
 )
 (
 type
+\
 st
 (
 struct
@@ -175,6 +177,7 @@ struct
 )
 (
 type
+\
 at
 (
 array
@@ -183,18 +186,21 @@ i8
 )
 (
 table
+\
 ta
 10
 anyref
 )
 (
 table
+\
 tf
 10
 funcref
 )
 (
 table
+\
 te
 10
 externref
@@ -203,10 +209,12 @@ externref
 elem
 declare
 func
+\
 f
 )
 (
 func
+\
 f
 )
 (
@@ -219,6 +227,7 @@ init
 )
 (
 param
+\
 x
 externref
 )
@@ -226,6 +235,7 @@ externref
 table
 .
 set
+\
 ta
 (
 i32
@@ -244,6 +254,7 @@ any
 table
 .
 set
+\
 ta
 (
 i32
@@ -262,6 +273,7 @@ struct
 table
 .
 set
+\
 ta
 (
 i32
@@ -280,6 +292,7 @@ none
 table
 .
 set
+\
 ta
 (
 i32
@@ -303,6 +316,7 @@ const
 table
 .
 set
+\
 ta
 (
 i32
@@ -314,6 +328,7 @@ const
 struct
 .
 new_default
+\
 st
 )
 )
@@ -321,6 +336,7 @@ st
 table
 .
 set
+\
 ta
 (
 i32
@@ -332,6 +348,7 @@ const
 array
 .
 new_default
+\
 at
 (
 i32
@@ -345,6 +362,7 @@ const
 table
 .
 set
+\
 ta
 (
 i32
@@ -360,6 +378,7 @@ convert_extern
 local
 .
 get
+\
 x
 )
 )
@@ -368,6 +387,7 @@ x
 table
 .
 set
+\
 ta
 (
 i32
@@ -391,6 +411,7 @@ extern
 table
 .
 set
+\
 tf
 (
 i32
@@ -409,6 +430,7 @@ nofunc
 table
 .
 set
+\
 tf
 (
 i32
@@ -427,6 +449,7 @@ func
 table
 .
 set
+\
 tf
 (
 i32
@@ -438,6 +461,7 @@ const
 ref
 .
 func
+\
 f
 )
 )
@@ -445,6 +469,7 @@ f
 table
 .
 set
+\
 te
 (
 i32
@@ -463,6 +488,7 @@ noextern
 table
 .
 set
+\
 te
 (
 i32
@@ -481,6 +507,7 @@ extern
 table
 .
 set
+\
 te
 (
 i32
@@ -492,6 +519,7 @@ const
 local
 .
 get
+\
 x
 )
 )
@@ -499,6 +527,7 @@ x
 table
 .
 set
+\
 te
 (
 i32
@@ -527,6 +556,7 @@ const
 table
 .
 set
+\
 te
 (
 i32
@@ -542,6 +572,7 @@ convert_any
 struct
 .
 new_default
+\
 st
 )
 )
@@ -550,6 +581,7 @@ st
 table
 .
 set
+\
 te
 (
 i32
@@ -580,6 +612,7 @@ ref_test_null_data
 )
 (
 param
+\
 i
 i32
 )
@@ -599,11 +632,13 @@ is_null
 table
 .
 get
+\
 ta
 (
 local
 .
 get
+\
 i
 )
 )
@@ -617,11 +652,13 @@ nullref
 table
 .
 get
+\
 ta
 (
 local
 .
 get
+\
 i
 )
 )
@@ -638,6 +675,7 @@ ref_test_any
 )
 (
 param
+\
 i
 i32
 )
@@ -661,11 +699,13 @@ any
 table
 .
 get
+\
 ta
 (
 local
 .
 get
+\
 i
 )
 )
@@ -679,11 +719,13 @@ anyref
 table
 .
 get
+\
 ta
 (
 local
 .
 get
+\
 i
 )
 )
@@ -700,6 +742,7 @@ ref_test_eq
 )
 (
 param
+\
 i
 i32
 )
@@ -723,11 +766,13 @@ eq
 table
 .
 get
+\
 ta
 (
 local
 .
 get
+\
 i
 )
 )
@@ -741,11 +786,13 @@ eqref
 table
 .
 get
+\
 ta
 (
 local
 .
 get
+\
 i
 )
 )
@@ -762,6 +809,7 @@ ref_test_i31
 )
 (
 param
+\
 i
 i32
 )
@@ -785,11 +833,13 @@ i31
 table
 .
 get
+\
 ta
 (
 local
 .
 get
+\
 i
 )
 )
@@ -803,11 +853,13 @@ i31ref
 table
 .
 get
+\
 ta
 (
 local
 .
 get
+\
 i
 )
 )
@@ -824,6 +876,7 @@ ref_test_struct
 )
 (
 param
+\
 i
 i32
 )
@@ -847,11 +900,13 @@ struct
 table
 .
 get
+\
 ta
 (
 local
 .
 get
+\
 i
 )
 )
@@ -865,11 +920,13 @@ structref
 table
 .
 get
+\
 ta
 (
 local
 .
 get
+\
 i
 )
 )
@@ -886,6 +943,7 @@ ref_test_array
 )
 (
 param
+\
 i
 i32
 )
@@ -909,11 +967,13 @@ array
 table
 .
 get
+\
 ta
 (
 local
 .
 get
+\
 i
 )
 )
@@ -927,11 +987,13 @@ arrayref
 table
 .
 get
+\
 ta
 (
 local
 .
 get
+\
 i
 )
 )
@@ -948,6 +1010,7 @@ ref_test_null_func
 )
 (
 param
+\
 i
 i32
 )
@@ -967,11 +1030,13 @@ is_null
 table
 .
 get
+\
 tf
 (
 local
 .
 get
+\
 i
 )
 )
@@ -989,11 +1054,13 @@ nofunc
 table
 .
 get
+\
 tf
 (
 local
 .
 get
+\
 i
 )
 )
@@ -1010,6 +1077,7 @@ ref_test_func
 )
 (
 param
+\
 i
 i32
 )
@@ -1033,11 +1101,13 @@ func
 table
 .
 get
+\
 tf
 (
 local
 .
 get
+\
 i
 )
 )
@@ -1051,11 +1121,13 @@ funcref
 table
 .
 get
+\
 tf
 (
 local
 .
 get
+\
 i
 )
 )
@@ -1072,6 +1144,7 @@ ref_test_null_extern
 )
 (
 param
+\
 i
 i32
 )
@@ -1091,11 +1164,13 @@ is_null
 table
 .
 get
+\
 te
 (
 local
 .
 get
+\
 i
 )
 )
@@ -1113,11 +1188,13 @@ noextern
 table
 .
 get
+\
 te
 (
 local
 .
 get
+\
 i
 )
 )
@@ -1134,6 +1211,7 @@ ref_test_extern
 )
 (
 param
+\
 i
 i32
 )
@@ -1157,11 +1235,13 @@ extern
 table
 .
 get
+\
 te
 (
 local
 .
 get
+\
 i
 )
 )
@@ -1175,11 +1255,13 @@ externref
 table
 .
 get
+\
 te
 (
 local
 .
 get
+\
 i
 )
 )
@@ -3880,6 +3962,7 @@ instantiate
 module
 (
 type
+\
 t0
 (
 sub
@@ -3890,9 +3973,11 @@ struct
 )
 (
 type
+\
 t1
 (
 sub
+\
 t0
 (
 struct
@@ -3905,10 +3990,12 @@ i32
 )
 (
 type
+\
 t1
 '
 (
 sub
+\
 t0
 (
 struct
@@ -3921,9 +4008,11 @@ i32
 )
 (
 type
+\
 t2
 (
 sub
+\
 t1
 (
 struct
@@ -3937,10 +4026,12 @@ i32
 )
 (
 type
+\
 t2
 '
 (
 sub
+\
 t1
 '
 (
@@ -3955,9 +4046,11 @@ i32
 )
 (
 type
+\
 t3
 (
 sub
+\
 t0
 (
 struct
@@ -3971,10 +4064,12 @@ i32
 )
 (
 type
+\
 t0
 '
 (
 sub
+\
 t0
 (
 struct
@@ -3983,9 +4078,11 @@ struct
 )
 (
 type
+\
 t4
 (
 sub
+\
 t0
 '
 (
@@ -4009,6 +4106,7 @@ struct
 )
 (
 func
+\
 init
 (
 table
@@ -4024,6 +4122,7 @@ const
 struct
 .
 new_default
+\
 t0
 )
 )
@@ -4041,6 +4140,7 @@ const
 struct
 .
 new_default
+\
 t0
 )
 )
@@ -4058,6 +4158,7 @@ const
 struct
 .
 new_default
+\
 t1
 )
 )
@@ -4075,6 +4176,7 @@ const
 struct
 .
 new_default
+\
 t1
 '
 )
@@ -4093,6 +4195,7 @@ const
 struct
 .
 new_default
+\
 t2
 )
 )
@@ -4110,6 +4213,7 @@ const
 struct
 .
 new_default
+\
 t2
 '
 )
@@ -4128,6 +4232,7 @@ const
 struct
 .
 new_default
+\
 t3
 )
 )
@@ -4145,6 +4250,7 @@ const
 struct
 .
 new_default
+\
 t4
 )
 )
@@ -4161,10 +4267,12 @@ sub
 )
 (
 call
+\
 init
 )
 (
 block
+\
 l
 ;
 ;
@@ -4172,6 +4280,7 @@ must
 hold
 (
 br_if
+\
 l
 (
 i32
@@ -4184,6 +4293,7 @@ test
 (
 ref
 null
+\
 t0
 )
 (
@@ -4197,6 +4307,7 @@ struct
 )
 (
 br_if
+\
 l
 (
 i32
@@ -4209,12 +4320,14 @@ test
 (
 ref
 null
+\
 t0
 )
 (
 ref
 .
 null
+\
 t0
 )
 )
@@ -4222,6 +4335,7 @@ t0
 )
 (
 br_if
+\
 l
 (
 i32
@@ -4234,12 +4348,14 @@ test
 (
 ref
 null
+\
 t0
 )
 (
 ref
 .
 null
+\
 t1
 )
 )
@@ -4247,6 +4363,7 @@ t1
 )
 (
 br_if
+\
 l
 (
 i32
@@ -4259,12 +4376,14 @@ test
 (
 ref
 null
+\
 t0
 )
 (
 ref
 .
 null
+\
 t2
 )
 )
@@ -4272,6 +4391,7 @@ t2
 )
 (
 br_if
+\
 l
 (
 i32
@@ -4284,12 +4404,14 @@ test
 (
 ref
 null
+\
 t0
 )
 (
 ref
 .
 null
+\
 t3
 )
 )
@@ -4297,6 +4419,7 @@ t3
 )
 (
 br_if
+\
 l
 (
 i32
@@ -4309,12 +4432,14 @@ test
 (
 ref
 null
+\
 t0
 )
 (
 ref
 .
 null
+\
 t4
 )
 )
@@ -4322,6 +4447,7 @@ t4
 )
 (
 br_if
+\
 l
 (
 i32
@@ -4334,6 +4460,7 @@ test
 (
 ref
 null
+\
 t0
 )
 (
@@ -4352,6 +4479,7 @@ const
 )
 (
 br_if
+\
 l
 (
 i32
@@ -4364,6 +4492,7 @@ test
 (
 ref
 null
+\
 t0
 )
 (
@@ -4382,6 +4511,7 @@ const
 )
 (
 br_if
+\
 l
 (
 i32
@@ -4394,6 +4524,7 @@ test
 (
 ref
 null
+\
 t0
 )
 (
@@ -4412,6 +4543,7 @@ const
 )
 (
 br_if
+\
 l
 (
 i32
@@ -4424,6 +4556,7 @@ test
 (
 ref
 null
+\
 t0
 )
 (
@@ -4442,6 +4575,7 @@ const
 )
 (
 br_if
+\
 l
 (
 i32
@@ -4454,6 +4588,7 @@ test
 (
 ref
 null
+\
 t0
 )
 (
@@ -4472,6 +4607,7 @@ const
 )
 (
 br_if
+\
 l
 (
 i32
@@ -4484,6 +4620,7 @@ test
 (
 ref
 null
+\
 t1
 )
 (
@@ -4497,6 +4634,7 @@ struct
 )
 (
 br_if
+\
 l
 (
 i32
@@ -4509,12 +4647,14 @@ test
 (
 ref
 null
+\
 t1
 )
 (
 ref
 .
 null
+\
 t0
 )
 )
@@ -4522,6 +4662,7 @@ t0
 )
 (
 br_if
+\
 l
 (
 i32
@@ -4534,12 +4675,14 @@ test
 (
 ref
 null
+\
 t1
 )
 (
 ref
 .
 null
+\
 t1
 )
 )
@@ -4547,6 +4690,7 @@ t1
 )
 (
 br_if
+\
 l
 (
 i32
@@ -4559,12 +4703,14 @@ test
 (
 ref
 null
+\
 t1
 )
 (
 ref
 .
 null
+\
 t2
 )
 )
@@ -4572,6 +4718,7 @@ t2
 )
 (
 br_if
+\
 l
 (
 i32
@@ -4584,12 +4731,14 @@ test
 (
 ref
 null
+\
 t1
 )
 (
 ref
 .
 null
+\
 t3
 )
 )
@@ -4597,6 +4746,7 @@ t3
 )
 (
 br_if
+\
 l
 (
 i32
@@ -4609,12 +4759,14 @@ test
 (
 ref
 null
+\
 t1
 )
 (
 ref
 .
 null
+\
 t4
 )
 )
@@ -4622,6 +4774,7 @@ t4
 )
 (
 br_if
+\
 l
 (
 i32
@@ -4634,6 +4787,7 @@ test
 (
 ref
 null
+\
 t1
 )
 (
@@ -4652,6 +4806,7 @@ const
 )
 (
 br_if
+\
 l
 (
 i32
@@ -4664,6 +4819,7 @@ test
 (
 ref
 null
+\
 t1
 )
 (
@@ -4682,6 +4838,7 @@ const
 )
 (
 br_if
+\
 l
 (
 i32
@@ -4694,6 +4851,7 @@ test
 (
 ref
 null
+\
 t2
 )
 (
@@ -4707,6 +4865,7 @@ struct
 )
 (
 br_if
+\
 l
 (
 i32
@@ -4719,12 +4878,14 @@ test
 (
 ref
 null
+\
 t2
 )
 (
 ref
 .
 null
+\
 t0
 )
 )
@@ -4732,6 +4893,7 @@ t0
 )
 (
 br_if
+\
 l
 (
 i32
@@ -4744,12 +4906,14 @@ test
 (
 ref
 null
+\
 t2
 )
 (
 ref
 .
 null
+\
 t1
 )
 )
@@ -4757,6 +4921,7 @@ t1
 )
 (
 br_if
+\
 l
 (
 i32
@@ -4769,12 +4934,14 @@ test
 (
 ref
 null
+\
 t2
 )
 (
 ref
 .
 null
+\
 t2
 )
 )
@@ -4782,6 +4949,7 @@ t2
 )
 (
 br_if
+\
 l
 (
 i32
@@ -4794,12 +4962,14 @@ test
 (
 ref
 null
+\
 t2
 )
 (
 ref
 .
 null
+\
 t3
 )
 )
@@ -4807,6 +4977,7 @@ t3
 )
 (
 br_if
+\
 l
 (
 i32
@@ -4819,12 +4990,14 @@ test
 (
 ref
 null
+\
 t2
 )
 (
 ref
 .
 null
+\
 t4
 )
 )
@@ -4832,6 +5005,7 @@ t4
 )
 (
 br_if
+\
 l
 (
 i32
@@ -4844,6 +5018,7 @@ test
 (
 ref
 null
+\
 t2
 )
 (
@@ -4862,6 +5037,7 @@ const
 )
 (
 br_if
+\
 l
 (
 i32
@@ -4874,6 +5050,7 @@ test
 (
 ref
 null
+\
 t3
 )
 (
@@ -4887,6 +5064,7 @@ struct
 )
 (
 br_if
+\
 l
 (
 i32
@@ -4899,12 +5077,14 @@ test
 (
 ref
 null
+\
 t3
 )
 (
 ref
 .
 null
+\
 t0
 )
 )
@@ -4912,6 +5092,7 @@ t0
 )
 (
 br_if
+\
 l
 (
 i32
@@ -4924,12 +5105,14 @@ test
 (
 ref
 null
+\
 t3
 )
 (
 ref
 .
 null
+\
 t1
 )
 )
@@ -4937,6 +5120,7 @@ t1
 )
 (
 br_if
+\
 l
 (
 i32
@@ -4949,12 +5133,14 @@ test
 (
 ref
 null
+\
 t3
 )
 (
 ref
 .
 null
+\
 t2
 )
 )
@@ -4962,6 +5148,7 @@ t2
 )
 (
 br_if
+\
 l
 (
 i32
@@ -4974,12 +5161,14 @@ test
 (
 ref
 null
+\
 t3
 )
 (
 ref
 .
 null
+\
 t3
 )
 )
@@ -4987,6 +5176,7 @@ t3
 )
 (
 br_if
+\
 l
 (
 i32
@@ -4999,12 +5189,14 @@ test
 (
 ref
 null
+\
 t3
 )
 (
 ref
 .
 null
+\
 t4
 )
 )
@@ -5012,6 +5204,7 @@ t4
 )
 (
 br_if
+\
 l
 (
 i32
@@ -5024,6 +5217,7 @@ test
 (
 ref
 null
+\
 t3
 )
 (
@@ -5042,6 +5236,7 @@ const
 )
 (
 br_if
+\
 l
 (
 i32
@@ -5054,6 +5249,7 @@ test
 (
 ref
 null
+\
 t4
 )
 (
@@ -5067,6 +5263,7 @@ struct
 )
 (
 br_if
+\
 l
 (
 i32
@@ -5079,12 +5276,14 @@ test
 (
 ref
 null
+\
 t4
 )
 (
 ref
 .
 null
+\
 t0
 )
 )
@@ -5092,6 +5291,7 @@ t0
 )
 (
 br_if
+\
 l
 (
 i32
@@ -5104,12 +5304,14 @@ test
 (
 ref
 null
+\
 t4
 )
 (
 ref
 .
 null
+\
 t1
 )
 )
@@ -5117,6 +5319,7 @@ t1
 )
 (
 br_if
+\
 l
 (
 i32
@@ -5129,12 +5332,14 @@ test
 (
 ref
 null
+\
 t4
 )
 (
 ref
 .
 null
+\
 t2
 )
 )
@@ -5142,6 +5347,7 @@ t2
 )
 (
 br_if
+\
 l
 (
 i32
@@ -5154,12 +5360,14 @@ test
 (
 ref
 null
+\
 t4
 )
 (
 ref
 .
 null
+\
 t3
 )
 )
@@ -5167,6 +5375,7 @@ t3
 )
 (
 br_if
+\
 l
 (
 i32
@@ -5179,12 +5388,14 @@ test
 (
 ref
 null
+\
 t4
 )
 (
 ref
 .
 null
+\
 t4
 )
 )
@@ -5192,6 +5403,7 @@ t4
 )
 (
 br_if
+\
 l
 (
 i32
@@ -5204,6 +5416,7 @@ test
 (
 ref
 null
+\
 t4
 )
 (
@@ -5222,6 +5435,7 @@ const
 )
 (
 br_if
+\
 l
 (
 i32
@@ -5233,6 +5447,7 @@ ref
 test
 (
 ref
+\
 t0
 )
 (
@@ -5251,6 +5466,7 @@ const
 )
 (
 br_if
+\
 l
 (
 i32
@@ -5262,6 +5478,7 @@ ref
 test
 (
 ref
+\
 t0
 )
 (
@@ -5280,6 +5497,7 @@ const
 )
 (
 br_if
+\
 l
 (
 i32
@@ -5291,6 +5509,7 @@ ref
 test
 (
 ref
+\
 t0
 )
 (
@@ -5309,6 +5528,7 @@ const
 )
 (
 br_if
+\
 l
 (
 i32
@@ -5320,6 +5540,7 @@ ref
 test
 (
 ref
+\
 t0
 )
 (
@@ -5338,6 +5559,7 @@ const
 )
 (
 br_if
+\
 l
 (
 i32
@@ -5349,6 +5571,7 @@ ref
 test
 (
 ref
+\
 t0
 )
 (
@@ -5367,6 +5590,7 @@ const
 )
 (
 br_if
+\
 l
 (
 i32
@@ -5378,6 +5602,7 @@ ref
 test
 (
 ref
+\
 t1
 )
 (
@@ -5396,6 +5621,7 @@ const
 )
 (
 br_if
+\
 l
 (
 i32
@@ -5407,6 +5633,7 @@ ref
 test
 (
 ref
+\
 t1
 )
 (
@@ -5425,6 +5652,7 @@ const
 )
 (
 br_if
+\
 l
 (
 i32
@@ -5436,6 +5664,7 @@ ref
 test
 (
 ref
+\
 t2
 )
 (
@@ -5454,6 +5683,7 @@ const
 )
 (
 br_if
+\
 l
 (
 i32
@@ -5465,6 +5695,7 @@ ref
 test
 (
 ref
+\
 t3
 )
 (
@@ -5483,6 +5714,7 @@ const
 )
 (
 br_if
+\
 l
 (
 i32
@@ -5494,6 +5726,7 @@ ref
 test
 (
 ref
+\
 t4
 )
 (
@@ -5517,6 +5750,7 @@ not
 hold
 (
 br_if
+\
 l
 (
 ref
@@ -5524,6 +5758,7 @@ ref
 test
 (
 ref
+\
 t0
 )
 (
@@ -5536,6 +5771,7 @@ struct
 )
 (
 br_if
+\
 l
 (
 ref
@@ -5543,6 +5779,7 @@ ref
 test
 (
 ref
+\
 t1
 )
 (
@@ -5555,6 +5792,7 @@ struct
 )
 (
 br_if
+\
 l
 (
 ref
@@ -5562,6 +5800,7 @@ ref
 test
 (
 ref
+\
 t2
 )
 (
@@ -5574,6 +5813,7 @@ struct
 )
 (
 br_if
+\
 l
 (
 ref
@@ -5581,6 +5821,7 @@ ref
 test
 (
 ref
+\
 t3
 )
 (
@@ -5593,6 +5834,7 @@ struct
 )
 (
 br_if
+\
 l
 (
 ref
@@ -5600,6 +5842,7 @@ ref
 test
 (
 ref
+\
 t4
 )
 (
@@ -5612,6 +5855,7 @@ struct
 )
 (
 br_if
+\
 l
 (
 ref
@@ -5619,6 +5863,7 @@ ref
 test
 (
 ref
+\
 t1
 )
 (
@@ -5636,6 +5881,7 @@ const
 )
 (
 br_if
+\
 l
 (
 ref
@@ -5643,6 +5889,7 @@ ref
 test
 (
 ref
+\
 t1
 )
 (
@@ -5660,6 +5907,7 @@ const
 )
 (
 br_if
+\
 l
 (
 ref
@@ -5667,6 +5915,7 @@ ref
 test
 (
 ref
+\
 t1
 )
 (
@@ -5684,6 +5933,7 @@ const
 )
 (
 br_if
+\
 l
 (
 ref
@@ -5691,6 +5941,7 @@ ref
 test
 (
 ref
+\
 t2
 )
 (
@@ -5708,6 +5959,7 @@ const
 )
 (
 br_if
+\
 l
 (
 ref
@@ -5715,6 +5967,7 @@ ref
 test
 (
 ref
+\
 t2
 )
 (
@@ -5732,6 +5985,7 @@ const
 )
 (
 br_if
+\
 l
 (
 ref
@@ -5739,6 +5993,7 @@ ref
 test
 (
 ref
+\
 t2
 )
 (
@@ -5756,6 +6011,7 @@ const
 )
 (
 br_if
+\
 l
 (
 ref
@@ -5763,6 +6019,7 @@ ref
 test
 (
 ref
+\
 t2
 )
 (
@@ -5780,6 +6037,7 @@ const
 )
 (
 br_if
+\
 l
 (
 ref
@@ -5787,6 +6045,7 @@ ref
 test
 (
 ref
+\
 t3
 )
 (
@@ -5804,6 +6063,7 @@ const
 )
 (
 br_if
+\
 l
 (
 ref
@@ -5811,6 +6071,7 @@ ref
 test
 (
 ref
+\
 t3
 )
 (
@@ -5828,6 +6089,7 @@ const
 )
 (
 br_if
+\
 l
 (
 ref
@@ -5835,6 +6097,7 @@ ref
 test
 (
 ref
+\
 t3
 )
 (
@@ -5852,6 +6115,7 @@ const
 )
 (
 br_if
+\
 l
 (
 ref
@@ -5859,6 +6123,7 @@ ref
 test
 (
 ref
+\
 t3
 )
 (
@@ -5876,6 +6141,7 @@ const
 )
 (
 br_if
+\
 l
 (
 ref
@@ -5883,6 +6149,7 @@ ref
 test
 (
 ref
+\
 t4
 )
 (
@@ -5900,6 +6167,7 @@ const
 )
 (
 br_if
+\
 l
 (
 ref
@@ -5907,6 +6175,7 @@ ref
 test
 (
 ref
+\
 t4
 )
 (
@@ -5924,6 +6193,7 @@ const
 )
 (
 br_if
+\
 l
 (
 ref
@@ -5931,6 +6201,7 @@ ref
 test
 (
 ref
+\
 t4
 )
 (
@@ -5948,6 +6219,7 @@ const
 )
 (
 br_if
+\
 l
 (
 ref
@@ -5955,6 +6227,7 @@ ref
 test
 (
 ref
+\
 t4
 )
 (
@@ -5990,13 +6263,16 @@ canon
 )
 (
 call
+\
 init
 )
 (
 block
+\
 l
 (
 br_if
+\
 l
 (
 i32
@@ -6008,6 +6284,7 @@ ref
 test
 (
 ref
+\
 t0
 )
 (
@@ -6026,6 +6303,7 @@ const
 )
 (
 br_if
+\
 l
 (
 i32
@@ -6037,6 +6315,7 @@ ref
 test
 (
 ref
+\
 t0
 )
 (
@@ -6055,6 +6334,7 @@ const
 )
 (
 br_if
+\
 l
 (
 i32
@@ -6066,6 +6346,7 @@ ref
 test
 (
 ref
+\
 t0
 )
 (
@@ -6084,6 +6365,7 @@ const
 )
 (
 br_if
+\
 l
 (
 i32
@@ -6095,6 +6377,7 @@ ref
 test
 (
 ref
+\
 t0
 )
 (
@@ -6113,6 +6396,7 @@ const
 )
 (
 br_if
+\
 l
 (
 i32
@@ -6124,6 +6408,7 @@ ref
 test
 (
 ref
+\
 t0
 )
 (
@@ -6142,6 +6427,7 @@ const
 )
 (
 br_if
+\
 l
 (
 i32
@@ -6153,6 +6439,7 @@ ref
 test
 (
 ref
+\
 t0
 )
 (
@@ -6171,6 +6458,7 @@ const
 )
 (
 br_if
+\
 l
 (
 i32
@@ -6182,6 +6470,7 @@ ref
 test
 (
 ref
+\
 t0
 )
 (
@@ -6200,6 +6489,7 @@ const
 )
 (
 br_if
+\
 l
 (
 i32
@@ -6211,6 +6501,7 @@ ref
 test
 (
 ref
+\
 t0
 )
 (
@@ -6229,6 +6520,7 @@ const
 )
 (
 br_if
+\
 l
 (
 i32
@@ -6240,6 +6532,7 @@ ref
 test
 (
 ref
+\
 t1
 '
 )
@@ -6259,6 +6552,7 @@ const
 )
 (
 br_if
+\
 l
 (
 i32
@@ -6270,6 +6564,7 @@ ref
 test
 (
 ref
+\
 t1
 '
 )
@@ -6289,6 +6584,7 @@ const
 )
 (
 br_if
+\
 l
 (
 i32
@@ -6300,6 +6596,7 @@ ref
 test
 (
 ref
+\
 t1
 )
 (
@@ -6318,6 +6615,7 @@ const
 )
 (
 br_if
+\
 l
 (
 i32
@@ -6329,6 +6627,7 @@ ref
 test
 (
 ref
+\
 t1
 )
 (
@@ -6347,6 +6646,7 @@ const
 )
 (
 br_if
+\
 l
 (
 i32
@@ -6358,6 +6658,7 @@ ref
 test
 (
 ref
+\
 t2
 '
 )
@@ -6377,6 +6678,7 @@ const
 )
 (
 br_if
+\
 l
 (
 i32
@@ -6388,6 +6690,7 @@ ref
 test
 (
 ref
+\
 t2
 )
 (

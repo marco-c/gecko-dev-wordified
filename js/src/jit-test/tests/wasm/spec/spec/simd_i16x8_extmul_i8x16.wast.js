@@ -9836,6 +9836,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 extmul_low_i8x16_s
@@ -9902,6 +9903,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 extmul_low_i8x16_s
@@ -9952,6 +9954,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 extmul_high_i8x16_s
@@ -10018,6 +10021,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 extmul_high_i8x16_s
@@ -10068,6 +10072,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 extmul_low_i8x16_u
@@ -10134,6 +10139,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 extmul_low_i8x16_u
@@ -10184,6 +10190,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 extmul_high_i8x16_u
@@ -10250,6 +10257,7 @@ instantiate
 module
 (
 func
+\
 i16x8
 .
 extmul_high_i8x16_u
