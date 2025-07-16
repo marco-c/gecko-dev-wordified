@@ -3723,6 +3723,13 @@ RecvUpdateVar
 (
 )
 {
+WMFDecoderModule
+:
+:
+Init
+(
+)
+;
 NS_DispatchToMainThread
 (
 NS_NewRunnableFunction
