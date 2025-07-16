@@ -808,7 +808,7 @@ aRv
 void
 GetValue
 (
-DOMString
+nsAString
 &
 aValue
 )
