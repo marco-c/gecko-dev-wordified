@@ -314,6 +314,14 @@ mQueued
 (
 0
 )
+mInWriteQueue
+(
+0
+)
+mInReadQueue
+(
+0
+)
 mSocketTransport
 (
 session
