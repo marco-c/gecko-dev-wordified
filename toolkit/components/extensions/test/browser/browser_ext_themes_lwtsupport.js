@@ -190,7 +190,7 @@ ok
 !
 docEl
 .
-getAttribute
+hasAttribute
 (
 "
 lwtheme
