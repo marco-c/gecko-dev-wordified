@@ -126,6 +126,16 @@ true
 name
 :
 "
+gpu
+"
+windows
+:
+true
+}
+{
+name
+:
+"
 platform
 "
 insecureContext
