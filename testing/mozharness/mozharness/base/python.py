@@ -111,10 +111,6 @@ urllib
 parse
 as
 urlparse
-from
-six
-import
-string_types
 import
 mozharness
 from
@@ -1417,7 +1413,7 @@ not
 isinstance
 (
 pip_freeze_output
-string_types
+str
 )
 :
                 
@@ -1426,6 +1422,7 @@ self
 fatal
 (
                     
+f
 "
 package_versions
 :
@@ -1435,10 +1432,10 @@ running
 pip
 freeze
 :
-"
-                    
-+
+{
 pip_freeze_output
+}
+"
                 
 )
         
