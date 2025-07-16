@@ -7734,10 +7734,9 @@ userBuf
 nsDependentSubstring
 domain
 (
-u
-"
-"
-_ns
+EmptyString
+(
+)
 0
 )
 ;
