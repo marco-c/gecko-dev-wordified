@@ -147,6 +147,13 @@ h
 #
 include
 "
+nsFind
+.
+h
+"
+#
+include
+"
 nsRange
 .
 h
@@ -1092,6 +1099,26 @@ nsContentUtils
 NodeIndexCache
 nodeIndexCache
 ;
+RefPtr
+<
+nsFind
+>
+finder
+=
+new
+nsFind
+(
+)
+;
+finder
+-
+>
+SetNodeIndexCache
+(
+&
+nodeIndexCache
+)
+;
 /
 /
 2
@@ -1207,6 +1234,7 @@ TextDirectiveUtil
 :
 FindStringInRange
 (
+finder
 searchRange
 -
 >
@@ -1224,8 +1252,6 @@ aTextDirective
 prefix
 true
 false
-&
-nodeIndexCache
 )
 ;
 /
@@ -1847,6 +1873,7 @@ TextDirectiveUtil
 :
 FindStringInRange
 (
+finder
 matchRange
 -
 >
@@ -2202,6 +2229,7 @@ TextDirectiveUtil
 :
 FindStringInRange
 (
+finder
 searchRange
 -
 >
@@ -2219,8 +2247,6 @@ aTextDirective
 start
 true
 mustEndAtWordBoundary
-&
-nodeIndexCache
 )
 ;
 /
@@ -2627,6 +2653,7 @@ TextDirectiveUtil
 :
 FindStringInRange
 (
+finder
 rangeEndSearchRange
 -
 >
@@ -2644,8 +2671,6 @@ aTextDirective
 end
 true
 mustEndAtWordBoundary
-&
-nodeIndexCache
 )
 ;
 /
@@ -3061,6 +3086,7 @@ TextDirectiveUtil
 :
 FindStringInRange
 (
+finder
 suffixRange
 -
 >
