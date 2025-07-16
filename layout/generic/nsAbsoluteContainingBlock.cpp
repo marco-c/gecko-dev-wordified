@@ -2414,8 +2414,6 @@ MaxISize
 (
 wm
 anchorResolutionParams
-.
-mPosition
 )
 )
 |
@@ -2793,8 +2791,6 @@ MaxBSize
 (
 wm
 anchorResolutionParams
-.
-mPosition
 )
 )
 |

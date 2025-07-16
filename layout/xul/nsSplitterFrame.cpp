@@ -3743,8 +3743,6 @@ pos
 GetMaxWidth
 (
 anchorResolutionParams
-.
-mPosition
 )
 *
 pos
@@ -3752,8 +3750,6 @@ pos
 GetMaxHeight
 (
 anchorResolutionParams
-.
-mPosition
 )
 NS_UNCONSTRAINEDSIZE
 )
