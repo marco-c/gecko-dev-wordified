@@ -3838,11 +3838,6 @@ max_shared_surface_size
 options
 .
 max_shared_surface_size
-enable_dithering
-:
-options
-.
-enable_dithering
 }
 ;
 info
