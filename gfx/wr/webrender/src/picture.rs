@@ -30570,6 +30570,9 @@ const
 ISOLATE
 =
 1
+<
+<
+0
 ;
 /
 /
@@ -30585,7 +30588,10 @@ surface
 const
 CLIP
 =
-2
+1
+<
+<
+1
 ;
 /
 /
@@ -30604,7 +30610,10 @@ splitting
 const
 PRESERVE3D
 =
-4
+1
+<
+<
+2
 ;
 /
 /
@@ -30622,7 +30631,10 @@ surface
 const
 BACKDROP
 =
-8
+1
+<
+<
+3
 ;
 /
 /
@@ -30644,7 +30656,10 @@ it
 const
 SNAPSHOT
 =
-16
+1
+<
+<
+4
 ;
 }
 }
