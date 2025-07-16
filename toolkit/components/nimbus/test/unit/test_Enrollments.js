@@ -33,12 +33,6 @@ use
 strict
 "
 ;
-/
-/
-todo
-:
-add
-tests
 add_task
 (
 async
