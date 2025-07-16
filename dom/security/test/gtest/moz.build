@@ -105,6 +105,11 @@ TestIntegrityPolicy
 cpp
 "
 "
+TestPolicyContainer
+.
+cpp
+"
+"
 TestSecureContext
 .
 cpp
