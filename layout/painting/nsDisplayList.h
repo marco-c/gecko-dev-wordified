@@ -30008,6 +30008,8 @@ bool
 aNeedsActiveLayer
 bool
 aWrapsBackdropFilter
+bool
+aForceBackdropRoot
 )
 ;
 nsDisplayOpacity
@@ -30056,6 +30058,12 @@ mWrapsBackdropFilter
 aOther
 .
 mWrapsBackdropFilter
+)
+mForceBackdropRoot
+(
+aOther
+.
+mForceBackdropRoot
 )
 {
 MOZ_COUNT_CTOR
@@ -30626,6 +30634,9 @@ mChildOpacityState
 endif
 bool
 mWrapsBackdropFilter
+;
+bool
+mForceBackdropRoot
 ;
 }
 ;
