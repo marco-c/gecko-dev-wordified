@@ -7516,7 +7516,7 @@ wc
 wc
 -
 >
-NeedsBeforeUnload
+HasBeforeUnload
 (
 )
 )

@@ -1202,17 +1202,6 @@ LoadEntryResult
 >
 &
 aLoadResults
-mozilla
-:
-:
-dom
-:
-:
-BrowsingContext
-*
-aTraversable
-=
-nullptr
 )
 ;
 MOZ_CAN_RUN_SCRIPT

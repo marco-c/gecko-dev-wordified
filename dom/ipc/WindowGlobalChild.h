@@ -513,16 +513,6 @@ BeforeUnloadRemoved
 (
 )
 ;
-void
-NavigateAdded
-(
-)
-;
-void
-NavigateRemoved
-(
-)
-;
 bool
 IsCurrentGlobal
 (
