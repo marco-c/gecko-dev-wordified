@@ -1549,7 +1549,7 @@ target_cpu
     
 if
 "
-use_x11
+ozone_platform_x11
 "
 in
 input_vars
@@ -1569,7 +1569,7 @@ if
 input_vars
 [
 "
-use_x11
+ozone_platform_x11
 "
 ]
 else
@@ -6541,7 +6541,7 @@ linux
 :
                     
 for
-use_x11
+enable_x11
 in
 (
 True
@@ -6552,11 +6552,11 @@ False
 vars
 [
 "
-use_x11
+ozone_platform_x11
 "
 ]
 =
-use_x11
+enable_x11
                         
 vars_set
 .
@@ -6584,7 +6584,7 @@ openbsd
 vars
 [
 "
-use_x11
+ozone_platform_x11
 "
 ]
 =
