@@ -155,6 +155,9 @@ context
 ]
 cookie1_name
 value_1
+secure
+=
+True
 )
     
 cookie2_name
@@ -174,6 +177,9 @@ context
 ]
 cookie2_name
 value_1
+secure
+=
+True
 )
     
 cookie3_name
@@ -195,6 +201,9 @@ cookie3_name
 "
 bar_3
 "
+secure
+=
+True
 )
     
 cookies
@@ -324,7 +333,7 @@ none
 secure
 "
 :
-False
+True
             
 "
 size
@@ -407,7 +416,7 @@ none
 secure
 "
 :
-False
+True
             
 "
 size
@@ -537,6 +546,9 @@ context
 ]
 cookie1_name
 cookie1_value
+secure
+=
+True
 )
     
 cookie2_name
@@ -562,6 +574,9 @@ context
 ]
 cookie2_name
 cookie2_value
+secure
+=
+True
 )
     
 cookie3_name
@@ -587,6 +602,9 @@ context
 ]
 cookie3_name
 cookie3_value
+secure
+=
+True
 )
     
 domain
@@ -727,7 +745,7 @@ none
 secure
 "
 :
-False
+True
             
 "
 size
@@ -810,7 +828,7 @@ none
 secure
 "
 :
-False
+True
             
 "
 size
@@ -977,6 +995,10 @@ cookie1_value
 expiry
 =
 cookie1_date_string
+        
+secure
+=
+True
     
 )
     
@@ -1016,6 +1038,10 @@ cookie2_value
 expiry
 =
 cookie1_date_string
+        
+secure
+=
+True
     
 )
     
@@ -1069,6 +1095,9 @@ bar_3
 expiry
 =
 cookie2_date_string
+secure
+=
+True
     
 )
     
@@ -1210,7 +1239,7 @@ none
 secure
 "
 :
-False
+True
             
 "
 size
@@ -1299,7 +1328,7 @@ none
 secure
 "
 :
-False
+True
             
 "
 size
@@ -1393,6 +1422,9 @@ context
 ]
 cookie1_name
 cookie1_value
+secure
+=
+True
 )
     
 cookie2_name
@@ -1414,6 +1446,9 @@ cookie2_name
 "
 bar_2
 "
+secure
+=
+True
 )
     
 cookies
@@ -1498,7 +1533,7 @@ none
 secure
 "
 :
-False
+True
                     
 "
 size
@@ -1599,6 +1634,33 @@ strict
 lax
 "
 )
+        
+(
+"
+none
+"
+"
+default
+"
+)
+        
+(
+"
+default
+"
+"
+lax
+"
+)
+        
+(
+"
+default
+"
+"
+strict
+"
+)
     
 ]
 )
@@ -1674,6 +1736,10 @@ cookie1_value
 same_site
 =
 same_site_1
+        
+secure
+=
+True
     
 )
     
@@ -1707,6 +1773,10 @@ cookie2_value
 same_site
 =
 same_site_1
+        
+secure
+=
+True
     
 )
     
@@ -1732,6 +1802,9 @@ bar_3
 same_site
 =
 same_site_2
+secure
+=
+True
 )
     
 cookies
@@ -1864,7 +1937,7 @@ same_site_1
 secure
 "
 :
-False
+True
             
 "
 size
@@ -1945,7 +2018,7 @@ same_site_1
 secure
 "
 :
-False
+True
             
 "
 size
@@ -2069,6 +2142,12 @@ cookie1_name
         
 cookie1_value
         
+same_site
+=
+"
+strict
+"
+        
 secure
 =
 secure_1
@@ -2102,6 +2181,12 @@ cookie2_name
         
 cookie2_value
         
+same_site
+=
+"
+strict
+"
+        
 secure
 =
 secure_1
@@ -2126,6 +2211,11 @@ context
 cookie3_name
 "
 bar_3
+"
+same_site
+=
+"
+strict
 "
 secure
 =
@@ -2257,7 +2347,7 @@ sameSite
 "
 :
 "
-none
+strict
 "
             
 "
@@ -2340,7 +2430,7 @@ sameSite
 "
 :
 "
-none
+strict
 "
             
 "
@@ -2507,6 +2597,10 @@ cookie1_value
 path
 =
 path_1
+        
+secure
+=
+True
     
 )
     
@@ -2540,6 +2634,10 @@ cookie2_value
 path
 =
 path_1
+        
+secure
+=
+True
     
 )
     
@@ -2565,6 +2663,9 @@ bar_3
 path
 =
 path_2
+secure
+=
+True
 )
     
 cookies
@@ -2685,7 +2786,7 @@ none
 secure
 "
 :
-False
+True
             
 "
 size
@@ -2761,7 +2862,7 @@ none
 secure
 "
 :
-False
+True
             
 "
 size

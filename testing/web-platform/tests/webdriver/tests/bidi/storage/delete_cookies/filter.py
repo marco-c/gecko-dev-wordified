@@ -242,6 +242,9 @@ context
 ]
 cookie1_name
 cookie_value_matching_filter
+secure
+=
+True
 )
     
 cookie2_name
@@ -261,6 +264,9 @@ context
 ]
 cookie2_name
 cookie_value_matching_filter
+secure
+=
+True
 )
     
 cookie3_name
@@ -286,6 +292,9 @@ context
 ]
 cookie3_name
 cookie3_value
+secure
+=
+True
 )
     
 result
@@ -394,7 +403,7 @@ support
         
 secure
 =
-False
+True
     
 )
 async
@@ -495,6 +504,9 @@ context
 ]
 cookie1_name
 cookie1_value
+secure
+=
+True
 )
     
 cookie2_name
@@ -520,6 +532,9 @@ context
 ]
 cookie2_name
 cookie2_value
+secure
+=
+True
 )
     
 cookie3_name
@@ -556,6 +571,9 @@ context
 ]
 cookie3_name
 cookie3_value
+secure
+=
+True
 )
     
 filter
@@ -673,7 +691,7 @@ support
         
 secure
 =
-False
+True
     
 )
 pytest
@@ -811,6 +829,10 @@ cookie1_value
 expiry
 =
 date_string_to_delete
+        
+secure
+=
+True
     
 )
     
@@ -850,6 +872,10 @@ cookie2_value
 expiry
 =
 date_string_to_delete
+        
+secure
+=
+True
     
 )
     
@@ -902,11 +928,18 @@ new_tab
 context
 "
 ]
+        
 cookie3_name
+        
 cookie3_value
+        
 expiry
 =
 date_string_to_remain
+        
+secure
+=
+True
     
 )
     
@@ -1030,7 +1063,7 @@ support
         
 secure
 =
-False
+True
     
 )
 async
@@ -1105,6 +1138,9 @@ cookie1_value
 path
 =
 cookie1_path
+secure
+=
+True
     
 )
     
@@ -1137,6 +1173,9 @@ cookie2_value
 path
 =
 cookie2_path
+secure
+=
+True
     
 )
     
@@ -1172,6 +1211,9 @@ cookie3_value
 path
 =
 cookie3_path
+secure
+=
+True
 )
     
 filter
@@ -1282,7 +1324,7 @@ cookie3_path
         
 secure
 =
-False
+True
     
 )
 pytest
@@ -1424,6 +1466,10 @@ cookie1_value
 same_site
 =
 same_site_to_delete
+        
+secure
+=
+True
     
 )
     
@@ -1457,6 +1503,10 @@ cookie2_value
 same_site
 =
 same_site_to_delete
+        
+secure
+=
+True
     
 )
     
@@ -1487,6 +1537,9 @@ cookie3_value
 same_site
 =
 same_site_to_remain
+secure
+=
+True
     
 )
     
@@ -1608,7 +1661,7 @@ same_site_to_remain
         
 secure
 =
-False
+True
     
 )
 pytest
@@ -1709,6 +1762,12 @@ cookie1_name
         
 cookie1_value
         
+same_site
+=
+"
+strict
+"
+        
 secure
 =
 secure_to_delete
@@ -1742,6 +1801,12 @@ cookie2_name
         
 cookie2_value
         
+same_site
+=
+"
+strict
+"
+        
 secure
 =
 secure_to_delete
@@ -1772,6 +1837,11 @@ context
 ]
 cookie3_name
 cookie3_value
+same_site
+=
+"
+strict
+"
 secure
 =
 secure_to_remain
@@ -1889,6 +1959,12 @@ webdriver
 tests
 /
 support
+"
+        
+same_site
+=
+"
+strict
 "
         
 secure
@@ -2024,6 +2100,10 @@ cookie1_value
 path
 =
 path_to_delete
+        
+secure
+=
+True
     
 )
     
@@ -2057,6 +2137,10 @@ cookie2_value
 path
 =
 path_to_delete
+        
+secure
+=
+True
     
 )
     
@@ -2087,6 +2171,9 @@ cookie3_value
 path
 =
 path_to_remain
+secure
+=
+True
     
 )
     
@@ -2211,7 +2298,7 @@ path_to_remain
         
 secure
 =
-False
+True
     
 )
 pytest

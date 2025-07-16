@@ -358,6 +358,12 @@ bbb
 Path
 =
 /
+;
+SameSite
+=
+None
+;
+Secure
 "
 )
     
@@ -484,7 +490,7 @@ none
 secure
 "
 :
-False
+True
         
 "
 size
@@ -635,6 +641,13 @@ bar
 Path
 =
 /
+;
+SameSite
+=
+None
+;
+Secure
+;
 "
 )
     
@@ -663,6 +676,14 @@ path
 "
 /
 "
+same_site
+=
+"
+none
+"
+secure
+=
+True
     
 )
     
@@ -854,7 +875,7 @@ none
 secure
 "
 :
-False
+True
         
 "
 size
@@ -929,7 +950,7 @@ none
 secure
 "
 :
-False
+True
         
 "
 size

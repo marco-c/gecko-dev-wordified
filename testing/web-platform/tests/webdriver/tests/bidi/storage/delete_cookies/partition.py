@@ -194,6 +194,9 @@ context
 ]
 cookie1_name
 cookie1_value
+secure
+=
+True
 )
         
 await
@@ -207,6 +210,9 @@ context
 ]
 cookie2_name
 cookie2_value
+secure
+=
+True
 )
     
 else
@@ -423,6 +429,9 @@ context
 ]
 cookie_name
 cookie_value
+secure
+=
+True
 )
     
 else
@@ -1375,6 +1384,9 @@ path
 "
 /
 "
+secure
+=
+True
         
 )
         
@@ -1395,6 +1407,9 @@ path
 "
 /
 "
+secure
+=
+True
         
 )
     
@@ -1424,6 +1439,16 @@ NetworkStringValue
 (
 cookie1_value
 )
+                
+same_site
+=
+"
+none
+"
+                
+secure
+=
+True
             
 )
             
@@ -1456,6 +1481,16 @@ NetworkStringValue
 (
 cookie2_value
 )
+                
+same_site
+=
+"
+none
+"
+                
+secure
+=
+True
             
 )
             
@@ -1584,6 +1619,6 @@ cookie2_partition
         
 secure
 =
-False
+True
     
 )

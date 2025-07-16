@@ -142,6 +142,9 @@ context
 ]
 cookie1_name
 cookie1_value
+secure
+=
+True
 )
     
 cookie2_name
@@ -167,6 +170,9 @@ context
 ]
 cookie2_name
 cookie2_value
+secure
+=
+True
 )
     
 cookies
@@ -291,7 +297,7 @@ none
 secure
 "
 :
-False
+True
             
 "
 size
@@ -377,7 +383,7 @@ none
 secure
 "
 :
-False
+True
             
 "
 size
@@ -547,6 +553,9 @@ context
 ]
 cookie_name
 cookie_value
+secure
+=
+True
 )
     
 #
@@ -685,7 +694,7 @@ none
 secure
 "
 :
-False
+True
             
 "
 size
@@ -1852,6 +1861,9 @@ context
 ]
 cookie_name
 cookie_value
+secure
+=
+True
 )
     
 #
@@ -1942,7 +1954,7 @@ none
 secure
 "
 :
-False
+True
             
 "
 size
@@ -2155,6 +2167,9 @@ context
 ]
 cookie_name
 cookie_value
+secure
+=
+True
 )
     
 #
@@ -2243,7 +2258,7 @@ none
 secure
 "
 :
-False
+True
             
 "
 size

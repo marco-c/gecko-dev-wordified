@@ -39,7 +39,9 @@ lax
 none
 "
         
-None
+"
+default
+"
     
 ]
 )
@@ -90,28 +92,6 @@ partitionKey
 ]
 )
     
-#
-same_site
-defaults
-to
-"
-none
-"
-.
-    
-expected_same_site
-=
-same_site
-if
-same_site
-is
-not
-None
-else
-'
-none
-'
-    
 await
 assert_cookie_is_set
 (
@@ -123,5 +103,5 @@ domain_value
 )
 same_site
 =
-expected_same_site
+same_site
 )
