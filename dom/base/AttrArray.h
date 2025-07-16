@@ -157,7 +157,7 @@ include
 "
 mozilla
 /
-UniquePtr
+BindgenUniquePtr
 .
 h
 "
@@ -1364,8 +1364,10 @@ Clear
 )
 {
 mImpl
-=
-nullptr
+.
+reset
+(
+)
 ;
 }
 private
@@ -1742,7 +1744,7 @@ InternalAttr
 mozilla
 :
 :
-UniquePtr
+BindgenUniquePtr
 <
 Impl
 >

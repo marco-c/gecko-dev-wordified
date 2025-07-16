@@ -366,6 +366,15 @@ include
 "
 mozilla
 /
+ServoBindings
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ServoStyleRuleMap
 .
 h

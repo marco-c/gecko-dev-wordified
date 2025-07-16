@@ -521,6 +521,11 @@ AttributeStyles
 h
 "
 "
+BindgenUniquePtr
+.
+h
+"
+"
 BuiltInStyleSheetList
 .
 h
