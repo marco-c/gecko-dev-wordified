@@ -24479,9 +24479,6 @@ bool
 aChannelExpired
 uint32_t
 aCacheKey
-nsIPrincipal
-*
-aPartitionedPrincipal
 )
 {
 nsID
@@ -24756,7 +24753,6 @@ aLoadType
 aCloneEntryChildren
 aChannelExpired
 aCacheKey
-aPartitionedPrincipal
 )
 ;
 }
@@ -24777,7 +24773,6 @@ aLoadType
 aCloneEntryChildren
 aChannelExpired
 aCacheKey
-aPartitionedPrincipal
 )
 ;
 }

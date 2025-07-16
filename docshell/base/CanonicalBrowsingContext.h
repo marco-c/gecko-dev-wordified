@@ -1061,9 +1061,6 @@ bool
 aChannelExpired
 uint32_t
 aCacheKey
-nsIPrincipal
-*
-aPartitionedPrincipal
 )
 ;
 /
