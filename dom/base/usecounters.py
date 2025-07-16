@@ -909,6 +909,9 @@ send_in_pings
 use
 -
 counters
+      
+-
+metrics
   
 dedicated_workers_destroyed
 :
