@@ -696,9 +696,9 @@ TextTrackCue
 *
 aCue
 )
+const
 {
-if
-(
+return
 aCue
 &
 &
@@ -708,14 +708,6 @@ Contains
 (
 aCue
 )
-)
-{
-return
-true
-;
-}
-return
-false
 ;
 }
 nsTArray
