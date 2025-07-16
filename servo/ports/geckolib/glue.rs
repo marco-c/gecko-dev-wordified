@@ -1047,7 +1047,7 @@ invalidation_map
 :
 :
 {
-RelativeSelectorInvalidationMap
+InvalidationMap
 TSStateForInvalidation
 }
 ;
@@ -43786,7 +43786,7 @@ invalidation_map
 &
 '
 a
-RelativeSelectorInvalidationMap
+InvalidationMap
 attribute
 :
 &
@@ -43809,8 +43809,6 @@ a
 {
 match
 invalidation_map
-.
-map
 .
 other_attribute_affecting_selectors
 .
@@ -44575,8 +44573,6 @@ relative_selector_invalidation_map
 ;
 invalidation_map
 .
-map
-.
 state_affecting_selectors
 .
 lookup_with_additional
@@ -44971,15 +44967,15 @@ collector
 |
 {
 let
-invalidation_map
+invalidation_map_attributes
 =
 data
 .
-relative_selector_invalidation_map
+relative_invalidation_map_attributes
 (
 )
 ;
-invalidation_map
+invalidation_map_attributes
 .
 ts_state_to_selector
 .
@@ -47182,7 +47178,7 @@ invalidation_map
 &
 '
 a
-RelativeSelectorInvalidationMap
+InvalidationMap
 collector
 :
 &
@@ -47241,8 +47237,6 @@ atom
 {
 match
 invalidation_map
-.
-map
 .
 id_to_selector
 .
@@ -47329,7 +47323,7 @@ invalidation_map
 &
 '
 a
-RelativeSelectorInvalidationMap
+InvalidationMap
 collector
 :
 &
@@ -47360,8 +47354,6 @@ atom
 {
 match
 invalidation_map
-.
-map
 .
 class_to_selector
 .
@@ -47436,7 +47428,7 @@ invalidation_map
 &
 '
 a
-RelativeSelectorInvalidationMap
+InvalidationMap
 collector
 :
 &
@@ -47467,8 +47459,6 @@ atom
 {
 match
 invalidation_map
-.
-map
 .
 custom_state_affecting_selectors
 .
@@ -47794,8 +47784,6 @@ collector
 )
 ;
 invalidation_map
-.
-map
 .
 state_affecting_selectors
 .
