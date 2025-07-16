@@ -7783,7 +7783,7 @@ the
 *
 explicit_done
 or
-single_page
+single_test
 properties
 have
 been
