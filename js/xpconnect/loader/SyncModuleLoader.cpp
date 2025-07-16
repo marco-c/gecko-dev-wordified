@@ -192,6 +192,13 @@ mozJSModuleLoader
 .
 h
 "
+#
+include
+"
+nsContentSecurityUtils
+.
+h
+"
 using
 namespace
 JS
@@ -1120,7 +1127,7 @@ aRvOut
 )
 {
 return
-mozJSModuleLoader
+nsContentSecurityUtils
 :
 :
 IsTrustedScheme
