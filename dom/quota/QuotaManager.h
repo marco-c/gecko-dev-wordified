@@ -3528,6 +3528,14 @@ GetGroupLimit
 )
 const
 ;
+static
+uint64_t
+GetGroupLimitForLimit
+(
+uint64_t
+aLimit
+)
+;
 Maybe
 <
 OriginStateMetadata
