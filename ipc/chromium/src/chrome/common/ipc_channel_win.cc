@@ -4693,6 +4693,9 @@ ipc_handle
 GetCurrentProcess
 (
 )
+mozilla
+:
+:
 getter_Transfers
 (
 local_handle
