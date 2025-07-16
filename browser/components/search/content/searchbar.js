@@ -2430,9 +2430,6 @@ getSubmission
 (
 aData
 null
-"
-searchbar
-"
 )
 ;
 /

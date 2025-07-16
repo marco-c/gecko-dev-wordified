@@ -78,8 +78,5 @@ parentNode
 "
 test
 "
-"
-test
-"
 )
 ;
