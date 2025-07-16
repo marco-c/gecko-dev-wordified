@@ -4537,17 +4537,11 @@ do_AddRef
 (
 channel
 )
-NS_ConvertUTF8toUTF16
-(
 label
-)
 ordered
 maxLifeTime
 maxRetransmits
-NS_ConvertUTF8toUTF16
-(
 protocol
-)
 false
 )
 ;

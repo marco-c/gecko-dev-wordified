@@ -514,7 +514,7 @@ RTCDataChannel
 RTCDataChannel
 (
 const
-nsAString
+nsACString
 &
 aLabel
 bool
@@ -530,7 +530,7 @@ uint16_t
 >
 aMaxRetransmits
 const
-nsAString
+nsACString
 &
 aProtocol
 bool
@@ -821,7 +821,7 @@ RTCDataChannel
 :
 GetLabel
 (
-nsAString
+nsACString
 &
 aLabel
 )
@@ -838,7 +838,7 @@ RTCDataChannel
 :
 GetProtocol
 (
-nsAString
+nsACString
 &
 aProtocol
 )
@@ -3058,7 +3058,7 @@ DataChannel
 &
 aDataChannel
 const
-nsAString
+nsACString
 &
 aLabel
 bool
@@ -3074,7 +3074,7 @@ uint16_t
 >
 aMaxRetransmits
 const
-nsAString
+nsACString
 &
 aProtocol
 bool

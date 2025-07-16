@@ -208,7 +208,7 @@ public
 RTCDataChannel
 (
 const
-nsAString
+nsACString
 &
 aLabel
 bool
@@ -224,7 +224,7 @@ uint16_t
 >
 aMaxRetransmits
 const
-nsAString
+nsACString
 &
 aProtocol
 bool
@@ -324,7 +324,7 @@ WebIDL
 void
 GetLabel
 (
-nsAString
+nsACString
 &
 aLabel
 )
@@ -333,7 +333,7 @@ const
 void
 GetProtocol
 (
-nsAString
+nsACString
 &
 aProtocol
 )
@@ -748,7 +748,7 @@ bool
 mSentClose
 ;
 const
-nsString
+nsCString
 mLabel
 ;
 const
@@ -770,7 +770,7 @@ uint16_t
 mMaxRetransmits
 ;
 const
-nsString
+nsCString
 mProtocol
 ;
 const
