@@ -2518,8 +2518,6 @@ LogicalSide
 IStart
 wm
 anchorResolutionParams
-.
-mPosition
 )
 )
 |
@@ -2538,8 +2536,6 @@ LogicalSide
 IEnd
 wm
 anchorResolutionParams
-.
-mPosition
 )
 )
 )
@@ -2873,8 +2869,6 @@ LogicalSide
 BStart
 wm
 anchorResolutionParams
-.
-mPosition
 )
 )
 |
@@ -2893,8 +2887,6 @@ LogicalSide
 BEnd
 wm
 anchorResolutionParams
-.
-mPosition
 )
 )
 )
@@ -6377,8 +6369,6 @@ LogicalSide
 IStart
 outerWM
 anchorResolutionParams
-.
-mPosition
 )
 -
 >
@@ -6396,8 +6386,6 @@ LogicalSide
 IEnd
 outerWM
 anchorResolutionParams
-.
-mPosition
 )
 -
 >
@@ -6429,8 +6417,6 @@ LogicalSide
 BStart
 outerWM
 anchorResolutionParams
-.
-mPosition
 )
 -
 >
@@ -6448,8 +6434,6 @@ LogicalSide
 BEnd
 outerWM
 anchorResolutionParams
-.
-mPosition
 )
 -
 >
@@ -6524,8 +6508,6 @@ HasInlineAxisAuto
 (
 outerWM
 anchorResolutionParams
-.
-mPosition
 )
 |
 |
@@ -6536,8 +6518,6 @@ HasBlockAxisAuto
 (
 outerWM
 anchorResolutionParams
-.
-mPosition
 )
 propValue
 )
