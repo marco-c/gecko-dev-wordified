@@ -1575,7 +1575,7 @@ MOZ_ASSERT
 (
 rd
 .
-code
+encoding
 (
 )
 &
@@ -1898,7 +1898,7 @@ MOZ_ASSERT
 (
 rs2
 .
-code
+encoding
 (
 )
 &

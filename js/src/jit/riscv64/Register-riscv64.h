@@ -919,6 +919,10 @@ FloatRegisters
 :
 :
 fa0
+FloatRegisters
+:
+:
+Single
 }
 ;
 static
@@ -975,6 +979,10 @@ FloatRegisters
 :
 :
 ft10
+FloatRegisters
+:
+:
+Single
 }
 ;
 static
