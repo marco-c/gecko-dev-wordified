@@ -969,10 +969,6 @@ uint64_t
 &
 aChannelId
 const
-nsString
-&
-aIntegrityMetadata
-const
 uint64_t
 &
 aContentWindowId
