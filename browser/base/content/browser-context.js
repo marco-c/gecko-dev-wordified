@@ -1817,9 +1817,7 @@ context
 -
 remove
 -
-all
--
-highlights
+highlight
 "
 :
 gContextMenu

@@ -854,8 +854,7 @@ Tests
 the
 "
 Remove
-all
-Highlights
+Highlight
 "
 context
 menu
@@ -1136,9 +1135,7 @@ context
 -
 remove
 -
-all
--
-highlights
+highlight
 "
 )
 ;
@@ -1148,8 +1145,7 @@ removeAllHighlights
 '
 "
 Remove
-all
-Highlights
+Highlight
 "
 menu
 item
@@ -1169,8 +1165,7 @@ removeAllHighlights
 '
 "
 Remove
-all
-Highlights
+Highlight
 "
 menu
 item
@@ -1271,8 +1266,7 @@ Tests
 the
 "
 Remove
-all
-Highlights
+Highlight
 "
 context
 menu
@@ -1502,9 +1496,7 @@ context
 -
 remove
 -
-all
--
-highlights
+highlight
 "
 )
 ;
@@ -1514,8 +1506,7 @@ removeAllHighlights
 '
 "
 Remove
-all
-Highlights
+Highlight
 "
 menu
 item
@@ -1535,8 +1526,7 @@ removeAllHighlights
 '
 "
 Remove
-all
-Highlights
+Highlight
 "
 menu
 item
