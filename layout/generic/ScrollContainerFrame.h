@@ -7316,6 +7316,8 @@ nsDisplayListCollection
 &
 bool
 aCreateAsyncZoom
+bool
+aCapturedByViewTransition
 AutoContainsBlendModeCapturer
 *
 aAsyncZoomBlendCapture
