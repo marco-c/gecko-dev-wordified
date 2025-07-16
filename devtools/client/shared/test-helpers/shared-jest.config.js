@@ -189,6 +189,16 @@ fixturesDir
 ChromeUtils
 "
 ^
+Glean
+"
+:
+{
+fixturesDir
+}
+/
+Glean
+"
+^
 promise
 "
 :
