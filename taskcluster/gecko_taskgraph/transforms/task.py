@@ -18403,13 +18403,16 @@ tasks
         
 if
 task
-[
+.
+get
+(
 "
 priority
 "
-]
+)
 in
 (
+None
 "
 lowest
 "
