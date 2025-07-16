@@ -3879,12 +3879,11 @@ if
 policyContainer
 )
 {
-NS_IF_ADDREF
-(
-*
-aPolicyContainer
-=
 policyContainer
+.
+forget
+(
+aPolicyContainer
 )
 ;
 }

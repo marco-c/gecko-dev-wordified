@@ -4578,7 +4578,7 @@ arguments
 [
 9
 ]
-csp
+policyContainer
 :
 window
 .
@@ -4712,9 +4712,9 @@ bool
 10
 ]
 :
-csp
+policyContainer
 (
-nsIContentSecurityPolicy
+nsIPolicyContainer
 )
 /
 /
@@ -5149,7 +5149,7 @@ arguments
 =
 =
 false
-csp
+policyContainer
 :
 window
 .

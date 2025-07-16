@@ -1487,9 +1487,6 @@ scriptSecurityManager
 getSystemPrincipal
 (
 )
-csp
-:
-null
 }
 )
 ;

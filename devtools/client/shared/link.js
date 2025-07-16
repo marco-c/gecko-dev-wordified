@@ -460,13 +460,13 @@ contentPrincipal
 ;
 options
 .
-csp
+policyContainer
 =
 tab
 .
 linkedBrowser
 .
-csp
+policyContainer
 ;
 }
 }

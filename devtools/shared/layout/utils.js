@@ -5560,6 +5560,8 @@ node
 .
 ownerDocument
 .
+policyContainer
+.
 csp
 .
 shouldLoad

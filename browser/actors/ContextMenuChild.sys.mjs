@@ -5481,13 +5481,13 @@ node
 ;
 context
 .
-csp
+policyContainer
 =
 lazy
 .
 E10SUtils
 .
-serializeCSP
+serializePolicyContainer
 (
 context
 .
@@ -5495,7 +5495,7 @@ target
 .
 ownerDocument
 .
-csp
+policyContainer
 )
 ;
 /

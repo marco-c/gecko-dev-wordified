@@ -2496,7 +2496,7 @@ gBrowser
 .
 selectedBrowser
 .
-csp
+policyContainer
 )
 ;
 await
