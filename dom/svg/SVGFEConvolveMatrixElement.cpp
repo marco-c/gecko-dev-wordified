@@ -1183,12 +1183,12 @@ if
 (
 orderX
 >
-NS_SVG_OFFSCREEN_MAX_DIMENSION
+kReasonableSurfaceSize
 |
 |
 orderY
 >
-NS_SVG_OFFSCREEN_MAX_DIMENSION
+kReasonableSurfaceSize
 )
 return
 failureDescription

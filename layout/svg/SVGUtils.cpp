@@ -5103,7 +5103,7 @@ std
 :
 min
 (
-NS_SVG_OFFSCREEN_MAX_DIMENSION
+kReasonableSurfaceSize
 surfaceSize
 .
 width
@@ -5118,7 +5118,7 @@ std
 :
 min
 (
-NS_SVG_OFFSCREEN_MAX_DIMENSION
+kReasonableSurfaceSize
 surfaceSize
 .
 height
