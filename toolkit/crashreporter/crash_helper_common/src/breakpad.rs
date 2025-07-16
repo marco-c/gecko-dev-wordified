@@ -73,7 +73,6 @@ windows
 :
 :
 {
-AncillaryData
 BreakpadChar
 BreakpadData
 BreakpadRawData
@@ -123,7 +122,6 @@ linux
 :
 :
 {
-AncillaryData
 BreakpadChar
 BreakpadData
 BreakpadRawData
@@ -173,7 +171,6 @@ macos
 :
 :
 {
-AncillaryData
 BreakpadChar
 BreakpadData
 BreakpadRawData
