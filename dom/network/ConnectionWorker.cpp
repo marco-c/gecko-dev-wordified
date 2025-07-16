@@ -832,7 +832,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-NavigatorConnection
+NetworkConnection
 )
 ;
 RefPtr
