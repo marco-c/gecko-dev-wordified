@@ -2458,6 +2458,9 @@ newtab
 pocketNewtab
 "
 "
+newtabSmartShortcuts
+"
+"
 cookieBannerHandling
 "
 ]
