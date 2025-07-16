@@ -1078,7 +1078,7 @@ c
 .
 4f
 )
-extern
+static
 const
 float
 gsRGBToLinearRGBMap
@@ -2238,7 +2238,6 @@ return
 nullptr
 ;
 }
-static
 sRGBColor
 SRGBToLinearRGB
 (
