@@ -6377,7 +6377,7 @@ PresShell
 )
 -
 >
-RemoveAnchorPosAnchor
+RemoveAnchorPosAnchorNow
 (
 name
 .
