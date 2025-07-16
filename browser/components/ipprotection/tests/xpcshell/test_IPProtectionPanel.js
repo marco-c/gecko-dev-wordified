@@ -80,6 +80,16 @@ isConnected
 false
 ;
 }
+requestUpdate
+(
+)
+{
+/
+*
+NOOP
+*
+/
+}
 closest
 (
 )
