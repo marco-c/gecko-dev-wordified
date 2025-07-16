@@ -220,6 +220,10 @@ static
 void
 RequestRefreshScreens
 (
+bool
+aInitialRefresh
+=
+false
 )
 ;
 static
