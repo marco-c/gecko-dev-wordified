@@ -824,6 +824,9 @@ reason
 "
 inspectorsearch
 "
+searchQuery
+:
+query
 }
 )
 ;
