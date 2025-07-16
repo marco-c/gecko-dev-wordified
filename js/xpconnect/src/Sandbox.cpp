@@ -1062,6 +1062,17 @@ include
 "
 mozilla
 /
+dom
+/
+PolicyContainer
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ipc
 /
 BackgroundUtils

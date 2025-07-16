@@ -347,6 +347,14 @@ IntegrityPolicy
 aPolicy
 )
 ;
+void
+InitFromOther
+(
+IntegrityPolicy
+*
+aOther
+)
+;
 static
 IntegrityPolicy
 *

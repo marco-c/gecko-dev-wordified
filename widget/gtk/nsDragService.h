@@ -1650,9 +1650,9 @@ aDOMNode
 nsIPrincipal
 *
 aPrincipal
-nsIContentSecurityPolicy
+nsIPolicyContainer
 *
-aCsp
+aPolicyContainer
 nsICookieJarSettings
 *
 aCookieJarSettings

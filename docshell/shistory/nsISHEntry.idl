@@ -140,7 +140,7 @@ nsISupports
 idl
 "
 interface
-nsIContentSecurityPolicy
+nsIPolicyContainer
 ;
 interface
 nsIMutableArray
@@ -1157,7 +1157,7 @@ partitionedPrincipalToInherit
 *
 Get
 the
-csp
+policyContainer
 if
 any
 that
@@ -1173,7 +1173,7 @@ That
 is
 not
 the
-CSP
+policyContainer
 that
 was
 applied
@@ -1186,7 +1186,7 @@ the
 document
 but
 the
-CSP
+policyContainer
 that
 was
 applied
@@ -1201,8 +1201,8 @@ load
 infallible
 ]
 attribute
-nsIContentSecurityPolicy
-csp
+nsIPolicyContainer
+policyContainer
 ;
 /
 *
@@ -2019,8 +2019,8 @@ in
 nsIPrincipal
 partitionedPrincipalToInherit
 in
-nsIContentSecurityPolicy
-aCsp
+nsIPolicyContainer
+policyContainer
 in
 nsIDRef
 docshellID

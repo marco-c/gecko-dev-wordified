@@ -415,6 +415,9 @@ class
 nsINodeList
 ;
 class
+nsIPolicyContainer
+;
+class
 nsIPrincipal
 ;
 class
@@ -8019,7 +8022,8 @@ DocumentPrincipal
 *
 Return
 the
-CSP
+Policy
+Container
 of
 this
 node
@@ -8031,9 +8035,9 @@ any
 .
 *
 /
-nsIContentSecurityPolicy
+nsIPolicyContainer
 *
-GetCsp
+GetPolicyContainer
 (
 )
 const

@@ -178,9 +178,9 @@ aRect
 nsIPrincipal
 *
 aPrincipal
-nsIContentSecurityPolicy
+nsIPolicyContainer
 *
-aCsp
+aPolicyContainer
 nsICookieJarSettings
 *
 aCookieJarSettings
@@ -269,10 +269,10 @@ nsIPrincipal
 *
 *
 aPrincipal
-nsIContentSecurityPolicy
+nsIPolicyContainer
 *
 *
-aCsp
+aPolicyContainer
 nsICookieJarSettings
 *
 *
@@ -331,9 +331,9 @@ mPrincipal
 ;
 nsCOMPtr
 <
-nsIContentSecurityPolicy
+nsIPolicyContainer
 >
-mCsp
+mPolicyContainer
 ;
 nsCOMPtr
 <

@@ -5481,9 +5481,9 @@ aDOMNode
 nsIPrincipal
 *
 aPrincipal
-nsIContentSecurityPolicy
+nsIPolicyContainer
 *
-aCsp
+aPolicyContainer
 nsICookieJarSettings
 *
 aCookieJarSettings
@@ -5583,7 +5583,7 @@ InvokeDragSession
 aWidget
 aDOMNode
 aPrincipal
-aCsp
+aPolicyContainer
 aCookieJarSettings
 aArrayTransferables
 aActionType

@@ -14922,9 +14922,9 @@ principal
 ;
 nsCOMPtr
 <
-nsIContentSecurityPolicy
+nsIPolicyContainer
 >
-csp
+policyContainer
 ;
 if
 (
@@ -14961,11 +14961,11 @@ principal
 dragSession
 -
 >
-GetCsp
+GetPolicyContainer
 (
 getter_AddRefs
 (
-csp
+policyContainer
 )
 )
 ;
@@ -15013,7 +15013,7 @@ AsDragEvent
 action
 dropEffect
 principal
-csp
+policyContainer
 )
 ;
 return
@@ -18580,9 +18580,9 @@ principal
 ;
 nsCOMPtr
 <
-nsIContentSecurityPolicy
+nsIPolicyContainer
 >
-csp
+policyContainer
 ;
 nsCOMPtr
 <
@@ -18817,7 +18817,7 @@ principal
 )
 getter_AddRefs
 (
-csp
+policyContainer
 )
 getter_AddRefs
 (
@@ -19262,7 +19262,7 @@ targetContent
 selection
 remoteDragStartData
 principal
-csp
+policyContainer
 cookieJarSettings
 )
 ;
@@ -19401,10 +19401,10 @@ nsIPrincipal
 *
 *
 aPrincipal
-nsIContentSecurityPolicy
+nsIPolicyContainer
 *
 *
-aCsp
+aPolicyContainer
 nsICookieJarSettings
 *
 *
@@ -19516,7 +19516,7 @@ AddInitialDnDDataTo
 (
 aDataTransfer
 aPrincipal
-aCsp
+aPolicyContainer
 aCookieJarSettings
 )
 ;
@@ -19638,7 +19638,7 @@ getter_AddRefs
 (
 dragDataNode
 )
-aCsp
+aPolicyContainer
 aCookieJarSettings
 )
 ;
@@ -20117,9 +20117,9 @@ aDragStartData
 nsIPrincipal
 *
 aPrincipal
-nsIContentSecurityPolicy
+nsIPolicyContainer
 *
-aCsp
+aPolicyContainer
 nsICookieJarSettings
 *
 aCookieJarSettings
@@ -20884,7 +20884,7 @@ InvokeDragSessionWithSelection
 (
 aSelection
 aPrincipal
-aCsp
+aPolicyContainer
 aCookieJarSettings
 transArray
 action
@@ -20914,7 +20914,7 @@ InvokeDragSessionWithRemoteImage
 (
 dragTarget
 aPrincipal
-aCsp
+aPolicyContainer
 aCookieJarSettings
 transArray
 action
@@ -20933,7 +20933,7 @@ InvokeDragSessionWithImage
 (
 dragTarget
 aPrincipal
-aCsp
+aPolicyContainer
 aCookieJarSettings
 transArray
 action

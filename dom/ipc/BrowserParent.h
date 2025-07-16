@@ -345,9 +345,6 @@ class
 nsIContent
 ;
 class
-nsIContentSecurityPolicy
-;
-class
 nsIDocShell
 ;
 class
@@ -3207,9 +3204,9 @@ aDropEffect
 nsIPrincipal
 *
 aPrincipal
-nsIContentSecurityPolicy
+nsIPolicyContainer
 *
-aCsp
+aPolicyContainer
 )
 ;
 void
@@ -3903,9 +3900,9 @@ aDragRect
 nsIPrincipal
 *
 aPrincipal
-nsIContentSecurityPolicy
+nsIPolicyContainer
 *
-aCsp
+aPolicyContainer
 const
 CookieJarSettingsArgs
 &

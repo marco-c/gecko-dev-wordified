@@ -10549,9 +10549,9 @@ aDropEffect
 nsIPrincipal
 *
 aPrincipal
-nsIContentSecurityPolicy
+nsIPolicyContainer
 *
-aCsp
+aPolicyContainer
 )
 {
 if
@@ -10627,7 +10627,7 @@ aEvent
 aDragAction
 aDropEffect
 aPrincipal
-aCsp
+aPolicyContainer
 )
 ;
 NS_WARNING_ASSERTION
@@ -19147,7 +19147,7 @@ contentPartitionedPrincipal
 aLocationChangeData
 -
 >
-csp
+policyContainer
 (
 )
 aLocationChangeData
@@ -24665,9 +24665,9 @@ aDragRect
 nsIPrincipal
 *
 aPrincipal
-nsIContentSecurityPolicy
+nsIPolicyContainer
 *
-aCsp
+aPolicyContainer
 const
 CookieJarSettingsArgs
 &
@@ -24800,7 +24800,7 @@ aTransferables
 )
 aDragRect
 aPrincipal
-aCsp
+aPolicyContainer
 cookieJarSettings
 aSourceWindowContext
 .

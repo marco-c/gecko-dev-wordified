@@ -135,7 +135,7 @@ nsITransferable
 h
 "
 class
-nsIContentSecurityPolicy
+nsIPolicyContainer
 ;
 class
 nsICookieJarSettings
@@ -360,7 +360,7 @@ another
 element
 .
 *
-aCSP
+aPolicyContainer
 -
 [
 out
@@ -368,7 +368,7 @@ out
 set
 to
 the
-CSP
+policyContainer
 of
 the
 Drag
@@ -452,10 +452,10 @@ nsIContent
 *
 *
 aDragNode
-nsIContentSecurityPolicy
+nsIPolicyContainer
 *
 *
-aCsp
+aPolicyContainer
 nsICookieJarSettings
 *
 *
