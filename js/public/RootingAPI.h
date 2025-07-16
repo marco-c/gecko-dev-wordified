@@ -12269,7 +12269,7 @@ D
 >
 :
 :
-pointer
+Pointer
 release
 (
 )

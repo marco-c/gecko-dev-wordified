@@ -1682,7 +1682,7 @@ is_same_v
 SourceData
 :
 :
-deleter_type
+DeleterType
 typename
 EntryUnits
 <
@@ -1690,7 +1690,7 @@ Unit
 >
 :
 :
-deleter_type
+DeleterType
 >
 "
 EntryUnits
