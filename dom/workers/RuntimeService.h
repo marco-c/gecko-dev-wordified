@@ -526,6 +526,17 @@ aIsBackground
 )
 ;
 void
+UpdateWorkersPeerConnections
+(
+const
+nsPIDOMWindowInner
+&
+aWindow
+bool
+aHasPeerConnections
+)
+;
+void
 FreezeWorkersForWindow
 (
 const
