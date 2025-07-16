@@ -62,6 +62,13 @@ fake
 devices
 .
 js
+/
+/
+META
+:
+timeout
+=
+long
 const
 test_desc
 =
