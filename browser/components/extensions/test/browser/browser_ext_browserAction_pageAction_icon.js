@@ -2704,7 +2704,7 @@ test
 log
 (
 Setting
-browerAction
+browserAction
 /
 pageAction
 to
