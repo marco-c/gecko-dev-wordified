@@ -2874,8 +2874,6 @@ MaxSize
 aAxis
 aWM
 anchorResolutionParams
-.
-mPosition
 )
 ;
 if
@@ -2980,8 +2978,6 @@ aAxis
 )
 aWM
 anchorResolutionParams
-.
-mPosition
 )
 ;
 if
@@ -8124,8 +8120,6 @@ MaxBSize
 (
 aContainerWM
 anchorResolutionParams
-.
-mPosition
 )
 )
 ;
