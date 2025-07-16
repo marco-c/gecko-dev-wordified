@@ -21295,6 +21295,11 @@ mNoDelayedKeyEvents
 1
 ;
 bool
+mNoDelayedSingleTap
+:
+1
+;
+bool
 mApproximateFrameVisibilityVisited
 :
 1
