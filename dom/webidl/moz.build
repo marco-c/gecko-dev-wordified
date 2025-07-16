@@ -5371,6 +5371,11 @@ StructuredCloneTester
 webidl
 "
 "
+StylePropertyMap
+.
+webidl
+"
+"
 StylePropertyMapReadOnly
 .
 webidl
