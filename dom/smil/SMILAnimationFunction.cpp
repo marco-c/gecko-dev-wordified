@@ -1757,7 +1757,7 @@ result
 ;
 }
 }
-int8_t
+int32_t
 SMILAnimationFunction
 :
 :
