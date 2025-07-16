@@ -5668,11 +5668,13 @@ disabled
 !
 SessionStore
 .
-shouldSaveTabGroup
+shouldSaveTabsToGroup
 (
 this
 .
 activeGroup
+.
+tabs
 )
 ;
 }
