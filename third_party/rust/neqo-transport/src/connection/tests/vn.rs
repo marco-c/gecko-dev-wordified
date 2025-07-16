@@ -101,8 +101,8 @@ Provider
 as
 _
 Decoder
+Dscp
 Encoder
-IpTosDscp
 }
 ;
 use
@@ -245,7 +245,7 @@ stats
 .
 dscp_rx
 [
-IpTosDscp
+Dscp
 :
 :
 Cs0
@@ -2398,7 +2398,7 @@ stats
 .
 dscp_rx
 [
-IpTosDscp
+Dscp
 :
 :
 Cs0
@@ -2422,7 +2422,7 @@ stats
 .
 dscp_rx
 [
-IpTosDscp
+Dscp
 :
 :
 Cs0
@@ -2448,7 +2448,7 @@ stats
 .
 dscp_rx
 [
-IpTosDscp
+Dscp
 :
 :
 Cs0
@@ -2467,7 +2467,7 @@ packets_rx
 "
 dscp_rx
 [
-IpTosDscp
+Dscp
 :
 :
 Cs0
@@ -2495,7 +2495,7 @@ stats
 .
 dscp_rx
 [
-IpTosDscp
+Dscp
 :
 :
 Cs0
@@ -3026,7 +3026,7 @@ VersionNegotiation
 Error
 :
 :
-PeerError
+Peer
 (
 Error
 :
@@ -3433,7 +3433,7 @@ server
 Error
 :
 :
-PeerError
+Peer
 (
 Error
 :
@@ -3651,7 +3651,7 @@ CryptoAlert
 Error
 :
 :
-PeerError
+Peer
 (
 Error
 :
@@ -3765,7 +3765,7 @@ server
 Error
 :
 :
-PeerError
+Peer
 (
 Error
 :

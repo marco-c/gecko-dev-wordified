@@ -343,7 +343,7 @@ server
 Error
 :
 :
-PeerApplicationError
+PeerApplication
 (
 42
 )
@@ -520,7 +520,7 @@ server
 Error
 :
 :
-PeerApplicationError
+PeerApplication
 (
 42
 )
@@ -701,7 +701,7 @@ client
 Error
 :
 :
-PeerError
+Peer
 (
 ERROR_APPLICATION_CLOSE
 )
@@ -904,7 +904,7 @@ client
 Error
 :
 :
-PeerError
+Peer
 (
 Error
 :
@@ -1671,7 +1671,7 @@ Transport
 Error
 :
 :
-PeerApplicationError
+PeerApplication
 (
 APP_ERROR
 )

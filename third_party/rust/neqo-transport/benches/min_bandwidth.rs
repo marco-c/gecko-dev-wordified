@@ -214,7 +214,7 @@ connection
 :
 :
 {
-ConnectionNode
+Node
 ReachState
 ReceiveData
 SendData
@@ -385,7 +385,7 @@ bandwidth
 boxed
 !
 [
-ConnectionNode
+Node
 :
 :
 new_client
@@ -449,7 +449,7 @@ u64
 2
 )
 )
-ConnectionNode
+Node
 :
 :
 new_server

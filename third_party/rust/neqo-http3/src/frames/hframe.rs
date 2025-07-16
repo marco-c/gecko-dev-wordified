@@ -99,6 +99,7 @@ neqo_common
 :
 :
 {
+Buffer
 Decoder
 Encoder
 }
@@ -595,6 +596,11 @@ r
 pub
 fn
 encode
+<
+B
+:
+Buffer
+>
 (
 &
 self
@@ -603,6 +609,9 @@ enc
 &
 mut
 Encoder
+<
+B
+>
 )
 {
 enc

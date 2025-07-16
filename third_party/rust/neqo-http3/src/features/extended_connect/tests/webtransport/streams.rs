@@ -1639,7 +1639,7 @@ wt_stream
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -1852,7 +1852,7 @@ stream_id
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -1981,7 +1981,7 @@ stream_id
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -2213,7 +2213,7 @@ stream_id
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -2323,7 +2323,7 @@ stream_id
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -2456,7 +2456,7 @@ stream_id
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -2873,7 +2873,7 @@ Error
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -3056,7 +3056,7 @@ Error
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -3224,7 +3224,7 @@ Error
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -3382,7 +3382,7 @@ Error
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -3409,7 +3409,7 @@ Some
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -3534,7 +3534,7 @@ Some
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -3561,7 +3561,7 @@ Error
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -3741,7 +3741,7 @@ Error
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -3936,7 +3936,7 @@ Error
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -4109,7 +4109,7 @@ Error
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -4248,7 +4248,7 @@ Some
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -4271,7 +4271,7 @@ Error
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -4415,7 +4415,7 @@ Error
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -4607,7 +4607,7 @@ Error
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -4759,7 +4759,7 @@ Error
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -4805,7 +4805,7 @@ Some
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -5002,7 +5002,7 @@ Error
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -5381,7 +5381,7 @@ Error
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -5561,7 +5561,7 @@ Error
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -5734,7 +5734,7 @@ Error
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -5876,7 +5876,7 @@ Some
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -5900,7 +5900,7 @@ Error
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -6077,7 +6077,7 @@ Error
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -6269,7 +6269,7 @@ Error
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -6451,7 +6451,7 @@ Error
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -6627,7 +6627,7 @@ Error
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -6813,7 +6813,7 @@ Error
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -6968,7 +6968,7 @@ Some
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -6992,7 +6992,7 @@ Error
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (
@@ -7202,7 +7202,7 @@ Error
 Error
 :
 :
-HttpNoError
+HttpNone
 .
 code
 (

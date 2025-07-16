@@ -97,9 +97,8 @@ Rc
 ;
 use
 neqo_qpack
-:
-:
-QPackEncoder
+as
+qpack
 ;
 use
 neqo_transport
@@ -144,7 +143,10 @@ Rc
 <
 RefCell
 <
-QPackEncoder
+qpack
+:
+:
+Encoder
 >
 >
 }
@@ -165,7 +167,10 @@ Rc
 <
 RefCell
 <
-QPackEncoder
+qpack
+:
+:
+Encoder
 >
 >
 )

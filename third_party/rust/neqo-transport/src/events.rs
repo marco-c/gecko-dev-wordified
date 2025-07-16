@@ -2153,7 +2153,7 @@ Transport
 Error
 :
 :
-StreamStateError
+StreamState
 )
 )
 )

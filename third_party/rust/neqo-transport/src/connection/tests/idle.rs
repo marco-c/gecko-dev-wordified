@@ -149,7 +149,11 @@ crate
 packet
 :
 :
-PacketBuilder
+{
+self
+PACKET_LIMIT
+}
+recovery
 stats
 :
 :
@@ -2313,7 +2317,10 @@ let
 mut
 builder
 =
-PacketBuilder
+packet
+:
+:
+Builder
 :
 :
 short
@@ -2334,6 +2341,7 @@ None
 u8
 ]
 >
+PACKET_LIMIT
 )
 ;
 /
@@ -2594,7 +2602,10 @@ let
 mut
 tokens
 =
-Vec
+recovery
+:
+:
+Tokens
 :
 :
 new

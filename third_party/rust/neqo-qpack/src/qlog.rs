@@ -98,7 +98,7 @@ hex
 qlog
 :
 :
-NeqoQlog
+Qlog
 }
 ;
 use
@@ -126,7 +126,7 @@ RawInfo
 /
 Uses
 [
-NeqoQlog
+Qlog
 :
 :
 add_event_data_now
@@ -137,7 +137,7 @@ of
 /
 /
 [
-NeqoQlog
+Qlog
 :
 :
 add_event_data_with_instant
@@ -160,7 +160,7 @@ See
 docs
 on
 [
-NeqoQlog
+Qlog
 :
 :
 add_event_data_now
@@ -175,7 +175,7 @@ qpack_read_insert_count_increment_instruction
 qlog
 :
 &
-NeqoQlog
+Qlog
 increment
 :
 u64

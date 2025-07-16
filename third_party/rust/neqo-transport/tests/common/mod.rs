@@ -124,7 +124,7 @@ event
 Provider
 as
 _
-IpTosDscp
+Dscp
 }
 ;
 use
@@ -220,7 +220,7 @@ stats
 .
 dscp_rx
 [
-IpTosDscp
+Dscp
 :
 :
 Cs0

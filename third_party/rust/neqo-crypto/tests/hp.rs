@@ -97,9 +97,6 @@ TLS_VERSION_1_3
 }
 hkdf
 hp
-:
-:
-HpKey
 }
 ;
 use
@@ -117,7 +114,10 @@ Cipher
 )
 -
 >
-HpKey
+hp
+:
+:
+Key
 {
 fixture_init
 (
@@ -171,7 +171,10 @@ works
 "
 )
 ;
-HpKey
+hp
+:
+:
+Key
 :
 :
 extract

@@ -613,7 +613,6 @@ const
 fn
 index
 (
-&
 self
 )
 -

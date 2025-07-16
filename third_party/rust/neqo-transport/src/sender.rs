@@ -114,7 +114,7 @@ qdebug
 qlog
 :
 :
-NeqoQlog
+Qlog
 }
 ;
 use
@@ -143,7 +143,7 @@ Pmtud
 recovery
 :
 :
-SentPacket
+sent
 rtt
 :
 :
@@ -372,7 +372,7 @@ mut
 self
 qlog
 :
-NeqoQlog
+Qlog
 )
 {
 self
@@ -583,7 +583,10 @@ acked_pkts
 :
 &
 [
-SentPacket
+sent
+:
+:
+Packet
 ]
 rtt_est
 :
@@ -674,7 +677,10 @@ lost_packets
 :
 &
 [
-SentPacket
+sent
+:
+:
+Packet
 ]
 stats
 :
@@ -788,7 +794,10 @@ self
 largest_acked_pkt
 :
 &
-SentPacket
+sent
+:
+:
+Packet
 now
 :
 Instant
@@ -817,7 +826,10 @@ self
 pkt
 :
 &
-SentPacket
+sent
+:
+:
+Packet
 now
 :
 Instant
@@ -889,7 +901,10 @@ self
 pkt
 :
 &
-SentPacket
+sent
+:
+:
+Packet
 rtt
 :
 Duration

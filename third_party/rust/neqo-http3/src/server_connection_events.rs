@@ -325,6 +325,7 @@ send_closed
 self
 stream_info
 :
+&
 Http3StreamInfo
 close_type
 :
@@ -363,6 +364,9 @@ Http3ServerConnEvent
 StreamStopSending
 {
 stream_info
+:
+*
+stream_info
 error
 }
 )
@@ -377,6 +381,7 @@ data_writable
 self
 stream_info
 :
+&
 Http3StreamInfo
 )
 {
@@ -389,6 +394,9 @@ Http3ServerConnEvent
 :
 DataWritable
 {
+stream_info
+:
+*
 stream_info
 }
 )
@@ -415,6 +423,7 @@ data_readable
 self
 stream_info
 :
+&
 Http3StreamInfo
 )
 {
@@ -428,6 +437,9 @@ Http3ServerConnEvent
 DataReadable
 {
 stream_info
+:
+*
+stream_info
 }
 )
 ;
@@ -439,6 +451,7 @@ recv_closed
 self
 stream_info
 :
+&
 Http3StreamInfo
 close_type
 :
@@ -484,6 +497,9 @@ Http3ServerConnEvent
 StreamReset
 {
 stream_info
+:
+*
+stream_info
 error
 }
 )
@@ -513,6 +529,7 @@ header_ready
 self
 stream_info
 :
+&
 Http3StreamInfo
 headers
 :
@@ -537,6 +554,9 @@ Http3ServerConnEvent
 :
 Headers
 {
+stream_info
+:
+*
 stream_info
 headers
 fin
@@ -897,6 +917,7 @@ remove_events_for_stream_id
 self
 stream_info
 :
+&
 Http3StreamInfo
 )
 {
@@ -936,7 +957,6 @@ x
 .
 }
 if
-*
 x
 =
 =

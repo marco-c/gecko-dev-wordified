@@ -120,7 +120,7 @@ connection
 :
 :
 {
-ConnectionNode
+Node
 ReachState
 ReceiveData
 SendData
@@ -265,7 +265,7 @@ simulate
 (
 connect_direct
 [
-ConnectionNode
+Node
 :
 :
 new_client
@@ -298,7 +298,7 @@ Confirmed
 )
 ]
 )
-ConnectionNode
+Node
 :
 :
 new_server
@@ -339,7 +339,7 @@ simulate
 (
 idle_timeout
 [
-ConnectionNode
+Node
 :
 :
 default_client
@@ -371,7 +371,7 @@ IdleTimeout
 )
 ]
 )
-ConnectionNode
+Node
 :
 :
 default_server
@@ -411,7 +411,7 @@ simulate
 (
 idle_timeout_crazy_rtt
 [
-ConnectionNode
+Node
 :
 :
 new_client
@@ -499,7 +499,7 @@ percentage
 (
 10
 )
-ConnectionNode
+Node
 :
 :
 new_server
@@ -595,7 +595,7 @@ simulate
 (
 transfer
 [
-ConnectionNode
+Node
 :
 :
 default_client
@@ -612,7 +612,7 @@ TRANSFER_AMOUNT
 )
 ]
 )
-ConnectionNode
+Node
 :
 :
 default_server
@@ -637,7 +637,7 @@ simulate
 (
 connect_fixed_rtt
 [
-ConnectionNode
+Node
 :
 :
 new_client
@@ -680,7 +680,7 @@ DELAY
 .
 DELAY
 )
-ConnectionNode
+Node
 :
 :
 new_server
@@ -731,7 +731,7 @@ simulate
 (
 connect_taildrop_jitter
 [
-ConnectionNode
+Node
 :
 :
 new_client
@@ -780,7 +780,7 @@ ZERO
 .
 JITTER
 )
-ConnectionNode
+Node
 :
 :
 new_server
@@ -837,7 +837,7 @@ simulate
 (
 connect_taildrop
 [
-ConnectionNode
+Node
 :
 :
 new_client
@@ -876,7 +876,7 @@ TailDrop
 dsl_downlink
 (
 )
-ConnectionNode
+Node
 :
 :
 new_server
@@ -923,7 +923,7 @@ simulate
 (
 transfer_delay_drop
 [
-ConnectionNode
+Node
 :
 :
 default_client
@@ -954,7 +954,7 @@ percentage
 (
 1
 )
-ConnectionNode
+Node
 :
 :
 default_server
@@ -993,7 +993,7 @@ simulate
 (
 transfer_taildrop
 [
-ConnectionNode
+Node
 :
 :
 default_client
@@ -1016,7 +1016,7 @@ TailDrop
 dsl_downlink
 (
 )
-ConnectionNode
+Node
 :
 :
 default_server
@@ -1047,7 +1047,7 @@ simulate
 (
 transfer_taildrop_jitter
 [
-ConnectionNode
+Node
 :
 :
 default_client
@@ -1080,7 +1080,7 @@ ZERO
 .
 JITTER
 )
-ConnectionNode
+Node
 :
 :
 default_server
@@ -1170,7 +1170,7 @@ transfer_fixed_seed
 boxed
 !
 [
-ConnectionNode
+Node
 :
 :
 default_client
@@ -1204,7 +1204,7 @@ percentage
 (
 1
 )
-ConnectionNode
+Node
 :
 :
 default_server

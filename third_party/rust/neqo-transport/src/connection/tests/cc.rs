@@ -97,7 +97,7 @@ neqo_common
 qdebug
 qinfo
 Datagram
-IpTosEcn
+Ecn
 }
 ;
 use
@@ -143,9 +143,6 @@ new_server
 now
 }
 packet
-:
-:
-PacketNumber
 recovery
 :
 :
@@ -592,7 +589,10 @@ factor
 let
 flight1_largest
 =
-PacketNumber
+packet
+:
+:
+Number
 :
 :
 try_from
@@ -819,7 +819,7 @@ unwrap
 .
 set_tos
 (
-IpTosEcn
+Ecn
 :
 :
 Ce

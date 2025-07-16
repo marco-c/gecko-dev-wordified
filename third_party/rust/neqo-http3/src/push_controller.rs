@@ -3093,6 +3093,7 @@ data_readable
 self
 _stream_info
 :
+&
 Http3StreamInfo
 )
 {
@@ -3130,6 +3131,7 @@ recv_closed
 self
 _stream_info
 :
+&
 Http3StreamInfo
 close_type
 :
@@ -3217,6 +3219,7 @@ header_ready
 self
 _stream_info
 :
+&
 Http3StreamInfo
 headers
 :

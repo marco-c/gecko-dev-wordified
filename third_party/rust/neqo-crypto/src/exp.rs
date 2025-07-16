@@ -384,7 +384,7 @@ err
 Error
 :
 :
-InternalError
+Internal
 )
 ;
 }

@@ -125,9 +125,6 @@ cid
 MAX_CONNECTION_ID_LEN
 ecn
 packet
-:
-:
-PacketType
 stream_id
 :
 :
@@ -589,7 +586,7 @@ Err
 Error
 :
 :
-FrameEncodingError
+FrameEncoding
 )
 }
 }
@@ -759,7 +756,7 @@ Self
 Self
 :
 :
-FrameEncodingError
+FrameEncoding
 }
 }
 #
@@ -2061,7 +2058,7 @@ Err
 Error
 :
 :
-FrameEncodingError
+FrameEncoding
 )
 ;
 }
@@ -2101,7 +2098,7 @@ Err
 Error
 :
 :
-FrameEncodingError
+FrameEncoding
 )
 ;
 }
@@ -2147,7 +2144,7 @@ Err
 Error
 :
 :
-FrameEncodingError
+FrameEncoding
 )
 ;
 }
@@ -2174,7 +2171,7 @@ Err
 Error
 :
 :
-FrameEncodingError
+FrameEncoding
 )
 ;
 }
@@ -2437,7 +2434,10 @@ is_allowed
 self
 pt
 :
-PacketType
+packet
+:
+:
+Type
 )
 -
 >
@@ -2502,7 +2502,10 @@ _
 pt
 !
 =
-PacketType
+packet
+:
+:
+Type
 :
 :
 ZeroRtt
@@ -2528,7 +2531,10 @@ ConnectionClose
 pt
 =
 =
-PacketType
+packet
+:
+:
+Type
 :
 :
 Short
@@ -2538,7 +2544,10 @@ _
 pt
 =
 =
-PacketType
+packet
+:
+:
+Type
 :
 :
 ZeroRtt
@@ -2547,7 +2556,10 @@ ZeroRtt
 pt
 =
 =
-PacketType
+packet
+:
+:
+Type
 :
 :
 Short
@@ -3416,7 +3428,7 @@ Err
 Error
 :
 :
-FrameEncodingError
+FrameEncoding
 )
 ;
 }
@@ -3465,7 +3477,7 @@ Err
 Error
 :
 :
-FrameEncodingError
+FrameEncoding
 )
 ;
 }
@@ -3638,7 +3650,7 @@ Err
 Error
 :
 :
-FrameEncodingError
+FrameEncoding
 )
 ;
 }
@@ -3767,7 +3779,7 @@ Err
 Error
 :
 :
-StreamLimitError
+StreamLimit
 )
 ;
 }
@@ -3938,7 +3950,7 @@ Err
 Error
 :
 :
-FrameEncodingError
+FrameEncoding
 )
 ;
 }
@@ -4285,7 +4297,7 @@ Err
 Error
 :
 :
-FrameEncodingError
+FrameEncoding
 )
 ;
 }
@@ -4334,7 +4346,7 @@ Err
 Error
 :
 :
-FrameEncodingError
+FrameEncoding
 )
 }
 ;
@@ -5054,7 +5066,7 @@ unwrap_err
 Error
 :
 :
-FrameEncodingError
+FrameEncoding
 )
 ;
 }
@@ -5640,7 +5652,7 @@ unwrap_err
 Error
 :
 :
-FrameEncodingError
+FrameEncoding
 )
 ;
 }
@@ -6172,7 +6184,7 @@ unwrap_err
 Error
 :
 :
-FrameEncodingError
+FrameEncoding
 )
 ;
 }
@@ -6236,7 +6248,7 @@ unwrap_err
 Error
 :
 :
-FrameEncodingError
+FrameEncoding
 )
 ;
 }

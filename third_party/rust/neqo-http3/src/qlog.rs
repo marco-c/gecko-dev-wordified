@@ -96,7 +96,7 @@ neqo_common
 qlog
 :
 :
-NeqoQlog
+Qlog
 ;
 use
 neqo_transport
@@ -121,7 +121,7 @@ EventData
 /
 Uses
 [
-NeqoQlog
+Qlog
 :
 :
 add_event_data_now
@@ -132,7 +132,7 @@ of
 /
 /
 [
-NeqoQlog
+Qlog
 :
 :
 add_event_data_with_instant
@@ -155,7 +155,7 @@ See
 docs
 on
 [
-NeqoQlog
+Qlog
 :
 :
 add_event_data_now
@@ -170,7 +170,7 @@ h3_data_moved_up
 qlog
 :
 &
-NeqoQlog
+Qlog
 stream_id
 :
 StreamId
@@ -277,7 +277,7 @@ ev_data
 /
 Uses
 [
-NeqoQlog
+Qlog
 :
 :
 add_event_data_now
@@ -288,7 +288,7 @@ of
 /
 /
 [
-NeqoQlog
+Qlog
 :
 :
 add_event_data_with_instant
@@ -311,7 +311,7 @@ See
 docs
 on
 [
-NeqoQlog
+Qlog
 :
 :
 add_event_data_now
@@ -326,7 +326,7 @@ h3_data_moved_down
 qlog
 :
 &
-NeqoQlog
+Qlog
 stream_id
 :
 StreamId

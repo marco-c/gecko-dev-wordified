@@ -91,9 +91,8 @@ min
 ;
 use
 neqo_qpack
-:
-:
-QpackSettings
+as
+qpack
 ;
 use
 neqo_transport
@@ -167,7 +166,10 @@ conn_params
 ConnectionParameters
 qpack_settings
 :
-QpackSettings
+qpack
+:
+:
+Settings
 max_concurrent_push_streams
 :
 u64
@@ -203,7 +205,10 @@ default
 )
 qpack_settings
 :
-QpackSettings
+qpack
+:
+:
+Settings
 {
 max_table_size_encoder
 :
@@ -532,7 +537,10 @@ self
 -
 >
 &
-QpackSettings
+qpack
+:
+:
+Settings
 {
 &
 self

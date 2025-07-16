@@ -310,7 +310,7 @@ Err
 Error
 :
 :
-HttpMessageError
+HttpMessage
 )
 ;
 }
@@ -328,7 +328,7 @@ ok_or
 Error
 :
 :
-HttpMessageError
+HttpMessage
 )
 ?
 ;
@@ -361,7 +361,7 @@ Err
 Error
 :
 :
-HttpMessageError
+HttpMessage
 )
 ;
 }
