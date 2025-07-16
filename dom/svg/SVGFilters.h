@@ -1273,7 +1273,7 @@ mozilla
 gfx
 :
 :
-DiffuseLightingAttributes
+LightingAttributes
 *
 aAttributes
 SVGFilterInstance

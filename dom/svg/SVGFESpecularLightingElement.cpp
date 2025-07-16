@@ -622,15 +622,8 @@ if
 !
 AddLightingAttributes
 (
-static_cast
-<
-DiffuseLightingAttributes
-*
->
-(
 &
 atts
-)
 aInstance
 )
 )
