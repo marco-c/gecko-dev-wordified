@@ -354,6 +354,14 @@ StylePropertyMapReadOnly
 Web
 IDL
 declarations
+size_t
+SizeOfIncludingThis
+(
+MallocSizeOf
+aMallocSizeOf
+)
+const
+;
 protected
 :
 virtual
