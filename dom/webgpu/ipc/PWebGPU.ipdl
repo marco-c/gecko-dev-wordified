@@ -513,7 +513,6 @@ DeviceLost
 RawId
 aDeviceId
 uint8_t
-?
 reason
 nsCString
 message
