@@ -2920,8 +2920,6 @@ cmd
 "
 -
 -
-no
--
 install
 -
 fonts
