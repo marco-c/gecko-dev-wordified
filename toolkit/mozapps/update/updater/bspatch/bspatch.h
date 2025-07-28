@@ -589,7 +589,6 @@ header
 FILE
 *
 patchFile
-const
 unsigned
 char
 *
