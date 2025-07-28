@@ -358,14 +358,6 @@ task_t
 override
 {
 }
-void
-StartAcceptingMachPorts
-(
-Mode
-)
-override
-{
-}
 /
 /
 Create
