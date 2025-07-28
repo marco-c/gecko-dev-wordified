@@ -3790,6 +3790,9 @@ nsAString
 &
 nsIPrincipal
 *
+nsIURI
+*
+aBaseURI
 )
 ;
 /
