@@ -711,13 +711,13 @@ bool
 aSuccess
 )
 ;
-private
-:
 void
 LoadFinished
 (
 )
 ;
+private
+:
 void
 CancelImports
 (
