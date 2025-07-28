@@ -2300,7 +2300,7 @@ l10nKeys
 title
 :
 "
-fingerprinter
+fingerprinters
 "
 content
 :
