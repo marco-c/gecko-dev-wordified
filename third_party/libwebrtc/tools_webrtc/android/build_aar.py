@@ -1372,6 +1372,14 @@ use_remoteexec
 '
 :
 use_remoteexec
+        
+'
+android_static_analysis
+'
+:
+"
+off
+"
     
 }
     
