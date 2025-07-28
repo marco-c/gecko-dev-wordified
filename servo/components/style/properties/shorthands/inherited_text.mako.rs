@@ -689,16 +689,11 @@ matches
 self
 .
 text_wrap_style
-None
-|
-Some
-(
 &
 Style
 :
 :
 Auto
-)
 )
 {
 return
