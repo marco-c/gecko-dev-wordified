@@ -882,10 +882,6 @@ PlatformFocusEvent
 Accessible
 *
 aTarget
-const
-LayoutDeviceIntRect
-&
-aCaretRect
 )
 {
 if
@@ -1064,10 +1060,6 @@ bool
 aIsSelectionCollapsed
 int32_t
 aGranularity
-const
-LayoutDeviceIntRect
-&
-aCaretRect
 bool
 aFromUser
 )

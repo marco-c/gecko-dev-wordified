@@ -5962,10 +5962,6 @@ PlatformFocusEvent
 Accessible
 *
 aTarget
-const
-LayoutDeviceIntRect
-&
-aCaretRect
 )
 {
 AtkObject
@@ -6075,10 +6071,6 @@ bool
 aIsSelectionCollapsed
 int32_t
 aGranularity
-const
-LayoutDeviceIntRect
-&
-aCaretRect
 bool
 aFromUser
 )
