@@ -1247,16 +1247,6 @@ bitmaps
 for
 boolean
 flags
-plus
-a
-byte
-array
-to
-record
-(
-encoded
-)
-sizes
 .
 /
 /
