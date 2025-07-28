@@ -270,17 +270,6 @@ GetClient
 mId
 )
 ;
-wgpu_client_free_shader_module_id
-(
-bridge
--
->
-GetClient
-(
-)
-mId
-)
-;
 }
 already_AddRefed
 <

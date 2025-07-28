@@ -423,17 +423,6 @@ GetClient
 mId
 )
 ;
-wgpu_client_free_texture_id
-(
-bridge
--
->
-GetClient
-(
-)
-mId
-)
-;
 }
 Texture
 :

@@ -237,17 +237,6 @@ GetClient
 mId
 )
 ;
-wgpu_client_free_pipeline_layout_id
-(
-bridge
--
->
-GetClient
-(
-)
-mId
-)
-;
 }
 }
 /
