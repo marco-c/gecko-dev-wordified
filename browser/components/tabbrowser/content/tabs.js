@@ -10979,12 +10979,7 @@ verticalMode
 &
 tab
 .
-hasAttribute
-(
-"
 pinned
-"
-)
 &
 &
 this
@@ -14742,12 +14737,7 @@ tabIsPinned
 =
 t
 .
-hasAttribute
-(
-"
 pinned
-"
-)
 ;
 if
 (
