@@ -186,6 +186,11 @@ clearHistoryAndBookmarks
 (
 )
 ;
+await
+clearHighlightsBookmarks
+(
+)
+;
 }
 }
 )
