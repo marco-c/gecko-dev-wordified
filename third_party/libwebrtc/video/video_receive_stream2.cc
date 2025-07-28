@@ -4225,6 +4225,15 @@ rtcp_sr_stats
 {
 stats
 .
+last_sender_report_timestamp
+=
+rtcp_sr_stats
+-
+>
+last_arrival_timestamp
+;
+stats
+.
 last_sender_report_utc_timestamp
 =
 Clock
