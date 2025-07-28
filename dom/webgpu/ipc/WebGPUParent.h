@@ -972,6 +972,12 @@ WebGPUParent
 >
 mParent
 ;
+ffi
+:
+:
+WGPUDeviceId
+mQueueId
+;
 }
 ;
 static

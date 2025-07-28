@@ -1821,6 +1821,8 @@ wgpu_parent_build_submitted_work_done_closure
 (
 WGPUWebGPUParentPtr
 aParent
+WGPUQueueId
+aQueueId
 )
 {
 auto
@@ -1855,6 +1857,7 @@ WebGPUParent
 OnSubmittedWorkDoneRequest
 {
 parent
+aQueueId
 }
 )
 ;
@@ -5269,6 +5272,10 @@ ToFFI
 &
 bb
 )
+req
+-
+>
+mQueueId
 )
 ;
 if
