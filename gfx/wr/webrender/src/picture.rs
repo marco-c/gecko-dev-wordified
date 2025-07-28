@@ -2478,7 +2478,7 @@ MAX_SURFACE_SIZE
 :
 usize
 =
-8192
+4096
 ;
 /
 /
