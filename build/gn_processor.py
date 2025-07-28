@@ -5856,12 +5856,6 @@ mac_sdk_path
 "
 /
 "
-                
-"
-enable_wmax_tokens
-"
-:
-False
             
 }
         
