@@ -408,7 +408,7 @@ override
 void
 DeRegisterCaptureDataCallback
 (
-rtc
+webrtc
 :
 :
 VideoSinkInterface
