@@ -9664,7 +9664,6 @@ True
 )
         
 all_tasks
-dep_cache
 cache_dir
 =
 setup_tasks_for_fzf
@@ -9691,14 +9690,6 @@ build_base_cmd
 (
             
 fzf
-            
-dep_cache
-            
-cache_dir
-            
-show_estimates
-=
-False
             
 preview_script
 =
