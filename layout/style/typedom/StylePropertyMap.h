@@ -306,6 +306,14 @@ StylePropertyMap
 Web
 IDL
 declarations
+size_t
+SizeOfIncludingThis
+(
+MallocSizeOf
+aMallocSizeOf
+)
+const
+;
 private
 :
 virtual
