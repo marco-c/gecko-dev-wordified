@@ -4127,6 +4127,9 @@ null
 searchForm
 :
 null
+visualSearch
+:
+null
 .
 .
 .

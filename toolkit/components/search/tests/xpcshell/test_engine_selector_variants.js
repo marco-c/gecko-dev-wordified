@@ -89,6 +89,9 @@ searchTermParamName
 "
 q
 "
+displayName
+:
+null
 }
 ;
 const

@@ -81,6 +81,9 @@ searchTermParamName
 "
 q
 "
+displayName
+:
+null
 }
 }
 }
