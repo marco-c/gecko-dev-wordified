@@ -20305,6 +20305,13 @@ domProp
 "
 MozAppearance
 "
+domPropDisabled
+:
+true
+/
+/
+Bug
+1977489
 inherited
 :
 false
