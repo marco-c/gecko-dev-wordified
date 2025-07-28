@@ -124,6 +124,9 @@ wait
 "
 none
 "
+timeout
+=
+10
 )
         
 client
@@ -131,9 +134,6 @@ client
 await_css
 (
 whichCSS
-timeout
-=
-10
 is_displayed
 =
 True
