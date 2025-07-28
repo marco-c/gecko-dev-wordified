@@ -324,7 +324,7 @@ public
 explicit
 CreateOfferObserver
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -363,7 +363,7 @@ override
 private
 :
 const
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -636,7 +636,7 @@ CreatePeerConnectionFactory
 {
 network_thread_
 =
-rtc
+webrtc
 :
 :
 Thread
@@ -677,7 +677,7 @@ thread
 ;
 worker_thread_
 =
-rtc
+webrtc
 :
 :
 Thread
@@ -718,7 +718,7 @@ thread
 ;
 signaling_thread_
 =
-rtc
+webrtc
 :
 :
 Thread
@@ -1073,7 +1073,7 @@ get
 (
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1129,7 +1129,7 @@ get
 for
 (
 const
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1150,7 +1150,7 @@ GetTransceivers
 )
 )
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1220,7 +1220,7 @@ remote_sink_
 get
 (
 )
-rtc
+webrtc
 :
 :
 VideoSinkWants
@@ -1278,7 +1278,7 @@ pc_
 >
 CreateOffer
 (
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -1366,7 +1366,7 @@ PCObserver
 :
 OnDataChannel
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1558,7 +1558,7 @@ CreateOfferObserver
 :
 CreateOfferObserver
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1648,7 +1648,7 @@ WrapUnique
 (
 desc
 )
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -1706,7 +1706,7 @@ move
 (
 answer
 )
-rtc
+webrtc
 :
 :
 make_ref_counted

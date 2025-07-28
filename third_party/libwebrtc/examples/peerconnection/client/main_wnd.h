@@ -609,7 +609,7 @@ class
 VideoRenderer
 :
 public
-rtc
+webrtc
 :
 :
 VideoSinkInterface
@@ -754,7 +754,7 @@ image_
 CRITICAL_SECTION
 buffer_lock_
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr

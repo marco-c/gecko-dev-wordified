@@ -408,7 +408,7 @@ ConnectControlSocket
 void
 OnConnect
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -419,7 +419,7 @@ socket
 void
 OnHangingGetConnect
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -513,7 +513,7 @@ read
 bool
 ReadIntoBuffer
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -533,7 +533,7 @@ content_length
 void
 OnRead
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -544,7 +544,7 @@ socket
 void
 OnHangingGetRead
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -632,7 +632,7 @@ eoh
 void
 OnClose
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -658,7 +658,7 @@ PeerConnectionClientObserver
 *
 callback_
 ;
-rtc
+webrtc
 :
 :
 SocketAddress
@@ -681,7 +681,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 Socket
@@ -693,7 +693,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 Socket

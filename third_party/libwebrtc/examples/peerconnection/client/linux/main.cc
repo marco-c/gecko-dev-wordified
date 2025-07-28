@@ -230,7 +230,7 @@ class
 CustomSocketServer
 :
 public
-rtc
+webrtc
 :
 :
 PhysicalSocketServer
@@ -269,7 +269,7 @@ CustomSocketServer
 void
 SetMessageQueue
 (
-rtc
+webrtc
 :
 :
 Thread
@@ -454,7 +454,7 @@ Quit
 ;
 }
 return
-rtc
+webrtc
 :
 :
 PhysicalSocketServer
@@ -477,7 +477,7 @@ process_io
 }
 protected
 :
-rtc
+webrtc
 :
 :
 Thread
@@ -834,7 +834,7 @@ socket_server
 wnd
 )
 ;
-rtc
+webrtc
 :
 :
 AutoSocketServerThread
@@ -844,7 +844,7 @@ thread
 socket_server
 )
 ;
-rtc
+webrtc
 :
 :
 InitializeSSL
@@ -868,7 +868,7 @@ client
 auto
 conductor
 =
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -953,7 +953,7 @@ gtk_main_iteration
 }
 *
 /
-rtc
+webrtc
 :
 :
 CleanupSSL
