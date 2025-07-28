@@ -78,7 +78,6 @@ reselect
 import
 {
 getPrettySourceURL
-isPretty
 isJavaScript
 }
 from
@@ -1477,10 +1476,9 @@ if
 source
 |
 |
-isPretty
-(
 source
-)
+.
+isPrettyPrinted
 |
 |
 source
@@ -1598,10 +1596,9 @@ prettyPrint
 }
 if
 (
-isPretty
-(
 source
-)
+.
+isPrettyPrinted
 )
 {
 return

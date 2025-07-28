@@ -184,7 +184,6 @@ import
 getDisplayPath
 getFileURL
 getTruncatedFileName
-isPretty
 }
 from
 "
@@ -411,14 +410,6 @@ source
 .
 id
 ;
-const
-isPrettyCode
-=
-isPretty
-(
-source
-)
-;
 function
 onClickClose
 (
@@ -479,7 +470,9 @@ active
 isActive
 pretty
 :
-isPrettyCode
+source
+.
+isPrettyPrinted
 blackboxed
 :
 this
