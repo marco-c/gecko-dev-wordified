@@ -203,7 +203,7 @@ public
 :
 CacheStorageChild
 (
-CacheStorage
+CacheStorageChildListener
 *
 aListener
 SafeRefPtr
@@ -227,7 +227,7 @@ in
 its
 /
 /
-DestroyInternal
+OnActorDestroy
 (
 )
 method
@@ -440,7 +440,7 @@ its
 /
 destroyed
 .
-CacheStorage
+CacheStorageChildListener
 *
 MOZ_NON_OWNING_REF
 mListener

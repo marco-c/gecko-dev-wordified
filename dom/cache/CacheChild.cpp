@@ -303,7 +303,7 @@ CacheChild
 :
 SetListener
 (
-Cache
+CacheChildListener
 *
 aListener
 )
@@ -479,10 +479,8 @@ DestroyInternal
 (
 )
 {
-RefPtr
-<
-Cache
->
+CacheChildListener
+*
 listener
 =
 mListener
@@ -542,7 +540,7 @@ return
 listener
 -
 >
-DestroyInternal
+OnActorDestroy
 (
 this
 )
@@ -557,7 +555,7 @@ ClearListener
 (
 )
 in
-DestroyInternal
+OnActorDestroy
 (
 )
 MOZ_DIAGNOSTIC_ASSERT
@@ -638,10 +636,8 @@ NS_ASSERT_OWNINGTHREAD
 CacheChild
 )
 ;
-RefPtr
-<
-Cache
->
+CacheChildListener
+*
 listener
 =
 mListener
@@ -654,7 +650,7 @@ listener
 listener
 -
 >
-DestroyInternal
+OnActorDestroy
 (
 this
 )
@@ -669,7 +665,7 @@ ClearListener
 (
 )
 in
-DestroyInternal
+OnActorDestroy
 (
 )
 MOZ_DIAGNOSTIC_ASSERT

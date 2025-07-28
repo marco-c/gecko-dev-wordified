@@ -3154,7 +3154,7 @@ void
 Cache
 :
 :
-DestroyInternal
+OnActorDestroy
 (
 CacheChild
 *
@@ -3275,7 +3275,7 @@ StartDestroyFromListener
 ;
 /
 /
-DestroyInternal
+OnActorDestroy
 (
 )
 is

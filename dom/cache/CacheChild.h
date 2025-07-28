@@ -221,7 +221,7 @@ CacheChild
 void
 SetListener
 (
-Cache
+CacheChildListener
 *
 aListener
 )
@@ -238,7 +238,7 @@ Cache
 listener
 in
 its
-DestroyInternal
+OnActorDestroy
 (
 )
 /
@@ -474,7 +474,7 @@ its
 /
 destroyed
 .
-Cache
+CacheChildListener
 *
 MOZ_NON_OWNING_REF
 mListener

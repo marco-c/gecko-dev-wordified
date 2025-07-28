@@ -221,7 +221,7 @@ CacheStorageChild
 :
 CacheStorageChild
 (
-CacheStorage
+CacheStorageChildListener
 *
 aListener
 SafeRefPtr
@@ -387,10 +387,8 @@ DestroyInternal
 (
 )
 {
-RefPtr
-<
-CacheStorage
->
+CacheStorageChildListener
+*
 listener
 =
 mListener
@@ -452,7 +450,7 @@ return
 listener
 -
 >
-DestroyInternal
+OnActorDestroy
 (
 this
 )
@@ -467,7 +465,7 @@ ClearListener
 (
 )
 in
-DestroyInternal
+OnActorDestroy
 (
 )
 MOZ_DIAGNOSTIC_ASSERT
@@ -619,10 +617,8 @@ NS_ASSERT_OWNINGTHREAD
 CacheStorageChild
 )
 ;
-RefPtr
-<
-CacheStorage
->
+CacheStorageChildListener
+*
 listener
 =
 mListener
@@ -635,7 +631,7 @@ listener
 listener
 -
 >
-DestroyInternal
+OnActorDestroy
 (
 this
 )
@@ -650,7 +646,7 @@ ClearListener
 (
 )
 in
-DestroyInternal
+OnActorDestroy
 (
 )
 MOZ_DIAGNOSTIC_ASSERT
