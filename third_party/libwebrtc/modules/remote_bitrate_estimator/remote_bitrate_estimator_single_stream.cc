@@ -382,14 +382,9 @@ const
 Environment
 &
 env
-absl
-:
-:
-Nonnull
-<
 RemoteBitrateObserver
 *
->
+absl_nonnull
 observer
 )
 :

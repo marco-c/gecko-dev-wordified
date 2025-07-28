@@ -2977,14 +2977,9 @@ for
 PeerConnection
 .
 virtual
-absl
-:
-:
-Nonnull
-<
 EmulatedNetworkManagerInterface
 *
->
+absl_nonnull
 CreateEmulatedNetworkManagerInterface
 (
 const

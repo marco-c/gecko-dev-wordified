@@ -2294,14 +2294,9 @@ it
 )
 ;
 }
-absl
-:
-:
-Nonnull
-<
 EmulatedNetworkManagerInterface
 *
->
+absl_nonnull
 NetworkEmulationManagerImpl
 :
 :

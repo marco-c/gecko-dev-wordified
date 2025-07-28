@@ -419,15 +419,10 @@ const
 SimulationSettings
 &
 settings
-absl
-:
-:
-Nonnull
-<
+absl_nonnull
 scoped_refptr
 <
 AudioProcessing
->
 >
 audio_processing
 )
