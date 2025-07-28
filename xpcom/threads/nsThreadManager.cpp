@@ -3981,11 +3981,6 @@ called
 from
 arbitrary
 threads
-[
-[
-maybe_unused
-]
-]
 TimeStamp
 startTime
 =

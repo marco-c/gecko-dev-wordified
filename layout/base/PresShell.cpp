@@ -8046,11 +8046,6 @@ blocked
 "
 )
 ;
-[
-[
-maybe_unused
-]
-]
 nsIURI
 *
 uri
@@ -71942,11 +71937,6 @@ OverflowChangedTracker
 aOverflowTracker
 )
 {
-[
-[
-maybe_unused
-]
-]
 nsIURI
 *
 uri
