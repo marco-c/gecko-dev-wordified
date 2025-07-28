@@ -187,7 +187,7 @@ PCacheStreamControlChild
 public
 StreamControl
 public
-ActorChild
+CacheActorChild
 {
 friend
 class
