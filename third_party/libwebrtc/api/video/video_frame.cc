@@ -1088,9 +1088,6 @@ Builder
 set_video_frame_buffer
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -1545,9 +1542,6 @@ VideoFrame
 VideoFrame
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -1591,9 +1585,6 @@ VideoFrame
 VideoFrame
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -1645,9 +1636,6 @@ VideoFrame
 uint16_t
 id
 const
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -1949,9 +1937,6 @@ height
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -1975,9 +1960,6 @@ VideoFrame
 set_video_frame_buffer
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer

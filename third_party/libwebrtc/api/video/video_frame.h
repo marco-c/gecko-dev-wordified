@@ -652,9 +652,6 @@ Builder
 set_video_frame_buffer
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -858,9 +855,6 @@ id_
 =
 kNotSetId
 ;
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -949,9 +943,6 @@ Builder
 VideoFrame
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -970,9 +961,6 @@ timestamp_us
 VideoFrame
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -1190,7 +1178,7 @@ clock
 same
 timebase
 as
-rtc
+webrtc
 :
 :
 TimeMicros
@@ -1666,9 +1654,6 @@ properly
 initialized
 VideoFrame
 .
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -1685,9 +1670,6 @@ void
 set_video_frame_buffer
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -1977,9 +1959,6 @@ VideoFrame
 uint16_t
 id
 const
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -2058,9 +2037,6 @@ the
 pixel
 data
 .
-rtc
-:
-:
 scoped_refptr
 <
 webrtc

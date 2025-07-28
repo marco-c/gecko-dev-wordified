@@ -724,9 +724,6 @@ string
 test_case_name
 *
 /
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1365,9 +1362,6 @@ pc_label
 *
 /
 const
-rtc
-:
-:
 scoped_refptr
 <
 const

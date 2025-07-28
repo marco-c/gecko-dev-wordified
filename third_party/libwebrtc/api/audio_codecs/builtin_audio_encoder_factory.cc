@@ -424,9 +424,6 @@ field_trials
 /
 /
 namespace
-rtc
-:
-:
 scoped_refptr
 <
 AudioEncoderFactory

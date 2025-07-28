@@ -208,9 +208,6 @@ EncodedImageBuffer
 :
 EncodedImageBuffer
 (
-rtc
-:
-:
 Buffer
 buffer
 )
@@ -296,9 +293,6 @@ EncodedImageBuffer
 :
 Create
 (
-rtc
-:
-:
 Buffer
 buffer
 )

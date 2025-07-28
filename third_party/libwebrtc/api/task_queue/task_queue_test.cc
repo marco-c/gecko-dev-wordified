@@ -409,7 +409,7 @@ current
 Note
 that
 because
-rtc
+webrtc
 :
 :
 Thread
@@ -1105,9 +1105,6 @@ i
 }
 for
 (
-rtc
-:
-:
 Event
 &
 e

@@ -163,9 +163,6 @@ namespace
 int
 GetY
 (
-rtc
-:
-:
 scoped_refptr
 <
 I444BufferInterface
@@ -201,9 +198,6 @@ col
 int
 GetU
 (
-rtc
-:
-:
 scoped_refptr
 <
 I444BufferInterface
@@ -239,9 +233,6 @@ col
 int
 GetV
 (
-rtc
-:
-:
 scoped_refptr
 <
 I444BufferInterface
@@ -277,9 +268,6 @@ col
 void
 FillI444Buffer
 (
-rtc
-:
-:
 scoped_refptr
 <
 I444Buffer
@@ -441,9 +429,6 @@ height
 =
 3
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I444Buffer
@@ -556,9 +541,6 @@ height
 =
 3
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I444Buffer
@@ -726,9 +708,6 @@ height
 /
 2
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -781,9 +760,6 @@ MutableDataV
 size_v
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I444Buffer
@@ -921,9 +897,6 @@ row
 ;
 }
 }
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface

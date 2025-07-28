@@ -767,9 +767,6 @@ Environment
 scoped_refptr
 <
 const
-rtc
-:
-:
 RefCountedBase
 >
 storage
@@ -892,9 +889,6 @@ alive
 scoped_refptr
 <
 const
-rtc
-:
-:
 RefCountedBase
 >
 storage_

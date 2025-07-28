@@ -213,9 +213,6 @@ NV12BufferInterface
 public
 :
 static
-rtc
-:
-:
 scoped_refptr
 <
 NV12Buffer
@@ -229,9 +226,6 @@ height
 )
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 NV12Buffer
@@ -249,9 +243,6 @@ stride_uv
 )
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 NV12Buffer
@@ -264,9 +255,6 @@ I420BufferInterface
 i420_buffer
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface

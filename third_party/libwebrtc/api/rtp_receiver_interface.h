@@ -340,9 +340,6 @@ FrameTransformerHost
 public
 :
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamTrackInterface
@@ -419,9 +416,6 @@ remove
 default
 implementation
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransportInterface
@@ -568,9 +562,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -966,9 +957,6 @@ virtual
 void
 SetFrameDecryptor
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameDecryptorInterface
@@ -1021,9 +1009,6 @@ org
 Remove
 .
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 FrameDecryptorInterface
@@ -1100,9 +1085,6 @@ virtual
 void
 SetDepacketizerToDecoderFrameTransformer
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface
@@ -1148,9 +1130,6 @@ virtual
 void
 SetFrameTransformer
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface

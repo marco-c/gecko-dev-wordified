@@ -292,9 +292,6 @@ FrameOutput
 default
 ;
 virtual
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -428,9 +425,6 @@ virtual
 void
 Encode
 (
-rtc
-:
-:
 scoped_refptr
 <
 webrtc

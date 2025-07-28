@@ -148,9 +148,6 @@ webrtc
 /
 /
 static
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -174,9 +171,6 @@ private
 constructor
 .
 return
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -193,9 +187,6 @@ alive
 /
 /
 static
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -214,9 +205,6 @@ true
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -228,9 +216,6 @@ CreateDetached
 (
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -281,9 +266,6 @@ alive
 flag
 specified
 .
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -314,9 +296,6 @@ provided
 "
 ;
 return
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -331,9 +310,6 @@ attached_queue
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -345,9 +321,6 @@ CreateDetachedInactive
 (
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag

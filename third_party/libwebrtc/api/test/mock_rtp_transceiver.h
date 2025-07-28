@@ -220,9 +220,6 @@ MockRtpTransceiver
 default
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 MockRtpTransceiver
@@ -232,9 +229,6 @@ Create
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 MockRtpTransceiver
@@ -281,9 +275,6 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderInterface
@@ -299,9 +290,6 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverInterface
@@ -451,7 +439,7 @@ MOCK_METHOD
 RTCError
 SetCodecPreferences
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -527,7 +515,7 @@ webrtc
 RTCError
 SetHeaderExtensionsToNegotiate
 (
-rtc
+webrtc
 :
 :
 ArrayView

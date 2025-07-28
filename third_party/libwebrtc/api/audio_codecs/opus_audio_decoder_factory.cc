@@ -338,9 +338,6 @@ codec_pair_id
 /
 /
 namespace
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderFactory

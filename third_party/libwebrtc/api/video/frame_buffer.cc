@@ -352,9 +352,6 @@ template
 typename
 FrameIteratorT
 >
-rtc
-:
-:
 ArrayView
 <
 const

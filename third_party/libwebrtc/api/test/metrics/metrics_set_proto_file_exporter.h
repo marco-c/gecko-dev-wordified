@@ -338,9 +338,6 @@ delete
 bool
 Export
 (
-rtc
-:
-:
 ArrayView
 <
 const

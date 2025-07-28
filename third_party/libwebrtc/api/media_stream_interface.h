@@ -715,7 +715,7 @@ thread
 /
 except
 for
-rtc
+webrtc
 :
 :
 VideoSourceInterface
@@ -726,9 +726,9 @@ methods
 that
 will
 be
+/
+/
 invoked
-/
-/
 on
 the
 worker
@@ -742,9 +742,9 @@ custom
 implementation
 of
 a
+/
+/
 source
-/
-/
 can
 inherit
 AdaptedVideoTrackSource
@@ -752,9 +752,9 @@ instead
 of
 directly
 implementing
+/
+/
 this
-/
-/
 interface
 .
 class
@@ -1219,7 +1219,7 @@ except
 /
 /
 for
-rtc
+webrtc
 :
 :
 VideoSourceInterface
@@ -1556,7 +1556,7 @@ clock
 as
 /
 /
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -2281,9 +2281,6 @@ pure
 virtual
 .
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 AudioProcessorInterface
@@ -2310,9 +2307,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 AudioTrackInterface
@@ -2326,9 +2320,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackInterface
@@ -2476,9 +2467,6 @@ GetVideoTracks
 0
 ;
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 AudioTrackInterface
@@ -2497,9 +2485,6 @@ track_id
 0
 ;
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackInterface
@@ -2567,9 +2552,6 @@ virtual
 bool
 AddTrack
 (
-rtc
-:
-:
 scoped_refptr
 <
 AudioTrackInterface
@@ -2590,9 +2572,6 @@ virtual
 bool
 AddTrack
 (
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackInterface
@@ -2613,9 +2592,6 @@ virtual
 bool
 RemoveTrack
 (
-rtc
-:
-:
 scoped_refptr
 <
 AudioTrackInterface
@@ -2636,9 +2612,6 @@ virtual
 bool
 RemoveTrack
 (
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackInterface

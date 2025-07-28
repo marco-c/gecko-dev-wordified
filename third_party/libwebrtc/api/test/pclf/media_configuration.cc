@@ -1577,9 +1577,6 @@ VideoSubscription
 :
 GetMaxResolution
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1638,9 +1635,6 @@ VideoSubscription
 :
 GetMaxResolution
 (
-rtc
-:
-:
 ArrayView
 <
 const

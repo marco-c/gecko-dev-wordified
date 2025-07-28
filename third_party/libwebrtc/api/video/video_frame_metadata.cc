@@ -430,9 +430,6 @@ temporal_index_
 temporal_index
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -456,9 +453,6 @@ VideoFrameMetadata
 :
 SetFrameDependencies
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -484,9 +478,6 @@ end
 )
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -510,9 +501,6 @@ VideoFrameMetadata
 :
 SetDecodeTargetIndications
 (
-rtc
-:
-:
 ArrayView
 <
 const

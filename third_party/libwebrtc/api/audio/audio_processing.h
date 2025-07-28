@@ -4554,9 +4554,6 @@ virtual
 bool
 GetLinearAecOutput
 (
-rtc
-:
-:
 ArrayView
 <
 std
@@ -6655,9 +6652,6 @@ virtual
 void
 AnalyzeRenderAudio
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -6684,9 +6678,6 @@ virtual
 void
 AnalyzeCaptureAudio
 (
-rtc
-:
-:
 ArrayView
 <
 const

@@ -309,7 +309,7 @@ struct
 MyInt
 :
 public
-rtc
+webrtc
 :
 :
 RefCountedNonVirtual
@@ -332,7 +332,7 @@ foo_
 /
 /
 /
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -513,7 +513,7 @@ alternatively
 /
 /
 use
-rtc
+webrtc
 :
 :
 RefCountedObject

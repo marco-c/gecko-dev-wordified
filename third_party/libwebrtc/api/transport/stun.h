@@ -1724,9 +1724,6 @@ static
 bool
 IsStunMethod
 (
-rtc
-:
-:
 ArrayView
 <
 int
@@ -3396,9 +3393,6 @@ are
 not
 text
 .
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -3409,9 +3403,6 @@ array_view
 const
 {
 return
-rtc
-:
-:
 MakeArrayView
 (
 bytes_

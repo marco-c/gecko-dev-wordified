@@ -162,9 +162,6 @@ worker_thread
 and
 signaling_thread
 .
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackSourceInterface

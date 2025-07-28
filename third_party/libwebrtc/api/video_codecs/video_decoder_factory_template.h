@@ -393,9 +393,6 @@ const
 SdpVideoFormat
 &
 format
-rtc
-:
-:
 ArrayView
 <
 const

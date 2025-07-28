@@ -236,9 +236,6 @@ config
 .
 encoder_factory
 =
-rtc
-:
-:
 make_ref_counted
 <
 MockAudioEncoderFactory
@@ -250,9 +247,6 @@ config
 .
 decoder_factory
 =
-rtc
-:
-:
 make_ref_counted
 <
 MockAudioDecoderFactory
@@ -354,9 +348,6 @@ config
 .
 encoder_factory
 =
-rtc
-:
-:
 make_ref_counted
 <
 MockAudioEncoderFactory
@@ -368,9 +359,6 @@ config
 .
 decoder_factory
 =
-rtc
-:
-:
 make_ref_counted
 <
 MockAudioDecoderFactory

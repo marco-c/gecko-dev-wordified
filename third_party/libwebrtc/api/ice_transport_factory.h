@@ -203,9 +203,6 @@ takes
 IceTransportInit
 .
 RTC_EXPORT
-rtc
-:
-:
 scoped_refptr
 <
 IceTransportInterface
@@ -305,9 +302,6 @@ IceTransportInterface
 object
 .
 RTC_EXPORT
-rtc
-:
-:
 scoped_refptr
 <
 IceTransportInterface

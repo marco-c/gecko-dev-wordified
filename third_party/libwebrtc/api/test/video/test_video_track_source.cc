@@ -293,9 +293,6 @@ TestVideoTrackSource
 :
 AddOrUpdateSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -335,9 +332,6 @@ TestVideoTrackSource
 :
 RemoveSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

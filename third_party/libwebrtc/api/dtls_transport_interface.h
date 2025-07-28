@@ -794,9 +794,6 @@ DTLS
 transport
 .
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 IceTransportInterface

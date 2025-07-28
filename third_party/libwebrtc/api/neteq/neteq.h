@@ -1128,9 +1128,6 @@ const
 RTPHeader
 &
 rtp_header
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1179,9 +1176,6 @@ const
 RTPHeader
 &
 rtp_header
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1247,9 +1241,6 @@ const
 RTPHeader
 &
 rtp_header
-rtc
-:
-:
 ArrayView
 <
 const

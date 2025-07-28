@@ -197,9 +197,6 @@ const
 SocketAddress
 &
 to
-rtc
-:
-:
 CopyOnWriteBuffer
 data
 Timestamp

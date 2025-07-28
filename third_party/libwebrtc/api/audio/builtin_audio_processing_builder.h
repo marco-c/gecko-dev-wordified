@@ -413,9 +413,6 @@ BuiltinAudioProcessingBuilder
 &
 SetEchoDetector
 (
-rtc
-:
-:
 scoped_refptr
 <
 EchoDetector

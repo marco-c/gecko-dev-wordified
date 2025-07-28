@@ -394,9 +394,6 @@ track
 0
 ;
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamTrackInterface
@@ -454,9 +451,6 @@ rtcrtpsender
 -
 transport
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransportInterface
@@ -912,9 +906,6 @@ video
 sender
 .
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 DtmfSenderInterface
@@ -979,9 +970,6 @@ virtual
 void
 SetFrameEncryptor
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameEncryptorInterface
@@ -1021,9 +1009,6 @@ the
 object
 .
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 FrameEncryptorInterface
@@ -1071,9 +1056,6 @@ virtual
 void
 SetEncoderToPacketizerFrameTransformer
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface
@@ -1162,9 +1144,6 @@ good
 void
 SetFrameTransformer
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface

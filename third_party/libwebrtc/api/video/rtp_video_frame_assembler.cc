@@ -1153,9 +1153,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1223,9 +1220,6 @@ is_last_packet_in_frame
 )
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 EncodedImageBuffer

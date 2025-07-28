@@ -144,9 +144,6 @@ SctpTransportInformation
 (
 SctpTransportState
 state
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransportInterface

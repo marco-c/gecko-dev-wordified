@@ -163,9 +163,6 @@ namespace
 int
 GetY
 (
-rtc
-:
-:
 scoped_refptr
 <
 NV12BufferInterface
@@ -201,9 +198,6 @@ col
 int
 GetU
 (
-rtc
-:
-:
 scoped_refptr
 <
 NV12BufferInterface
@@ -249,9 +243,6 @@ col
 int
 GetV
 (
-rtc
-:
-:
 scoped_refptr
 <
 NV12BufferInterface
@@ -299,9 +290,6 @@ col
 void
 FillNV12Buffer
 (
-rtc
-:
-:
 scoped_refptr
 <
 NV12Buffer
@@ -519,9 +507,6 @@ height
 =
 3
 ;
-rtc
-:
-:
 scoped_refptr
 <
 NV12Buffer
@@ -623,9 +608,6 @@ height
 =
 3
 ;
-rtc
-:
-:
 scoped_refptr
 <
 NV12Buffer
@@ -793,9 +775,6 @@ height
 /
 2
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -848,9 +827,6 @@ MutableDataV
 size_v
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 NV12Buffer
@@ -1018,9 +994,6 @@ row
 ;
 }
 }
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface

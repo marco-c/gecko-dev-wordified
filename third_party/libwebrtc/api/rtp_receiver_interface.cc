@@ -192,9 +192,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -239,9 +236,6 @@ RtpReceiverInterface
 :
 SetFrameDecryptor
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameDecryptorInterface
@@ -254,9 +248,6 @@ frame_decryptor
 )
 {
 }
-rtc
-:
-:
 scoped_refptr
 <
 FrameDecryptorInterface
@@ -273,9 +264,6 @@ return
 nullptr
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransportInterface
@@ -298,9 +286,6 @@ RtpReceiverInterface
 :
 SetFrameTransformer
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface

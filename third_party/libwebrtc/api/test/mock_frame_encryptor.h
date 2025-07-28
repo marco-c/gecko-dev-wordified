@@ -157,7 +157,7 @@ webrtc
 :
 MediaType
 uint32_t
-rtc
+webrtc
 :
 :
 ArrayView
@@ -165,7 +165,7 @@ ArrayView
 const
 uint8_t
 >
-rtc
+webrtc
 :
 :
 ArrayView
@@ -173,7 +173,7 @@ ArrayView
 const
 uint8_t
 >
-rtc
+webrtc
 :
 :
 ArrayView

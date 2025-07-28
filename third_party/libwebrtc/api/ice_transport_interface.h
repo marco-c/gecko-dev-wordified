@@ -250,7 +250,7 @@ to
 the
 /
 /
-cricket
+webrtc
 :
 :
 IceTransportInternal
@@ -848,9 +848,6 @@ these
 assumptions
 .
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 IceTransportInterface

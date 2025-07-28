@@ -108,7 +108,7 @@ candidates
 The
 inner
 "
-cricket
+webrtc
 :
 :
 "
@@ -176,7 +176,7 @@ structure
 more
 friendly
 than
-cricket
+webrtc
 :
 :
 SessionDescription

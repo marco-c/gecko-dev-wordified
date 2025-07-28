@@ -184,9 +184,6 @@ CreateOpusAudioDecoderFactory
 )
 instead
 .
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderFactory

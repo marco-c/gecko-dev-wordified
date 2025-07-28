@@ -173,9 +173,6 @@ new
 buffer
 .
 static
-rtc
-:
-:
 scoped_refptr
 <
 I010Buffer
@@ -201,9 +198,6 @@ pixel
 data
 .
 static
-rtc
-:
-:
 scoped_refptr
 <
 I010Buffer
@@ -229,9 +223,6 @@ new
 buffer
 .
 static
-rtc
-:
-:
 scoped_refptr
 <
 I010Buffer
@@ -254,9 +245,6 @@ of
 src
 .
 static
-rtc
-:
-:
 scoped_refptr
 <
 I010Buffer
@@ -276,9 +264,6 @@ rotation
 VideoFrameBuffer
 implementation
 .
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface

@@ -328,9 +328,6 @@ thread_checker_
 /
 /
 namespace
-rtc
-:
-:
 scoped_refptr
 <
 IceTransportInterface
@@ -365,9 +362,6 @@ init
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 IceTransportInterface
@@ -379,9 +373,6 @@ init
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 IceTransportWithTransportChannel

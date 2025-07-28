@@ -824,9 +824,6 @@ encoder_specific_settings
 void
 Encode
 (
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -4751,9 +4748,6 @@ LibaomAv1Encoder
 :
 Encode
 (
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -5869,9 +5863,6 @@ FrameType
 :
 kDeltaFrame
 ;
-rtc
-:
-:
 ArrayView
 <
 uint8_t

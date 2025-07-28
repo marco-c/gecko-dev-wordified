@@ -255,9 +255,6 @@ RtpSenderInterface
 public
 :
 static
-rtc
-:
-:
 scoped_refptr
 <
 MockRtpSender
@@ -267,9 +264,6 @@ Create
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 MockRtpSender
@@ -293,9 +287,6 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamTrackInterface
@@ -311,9 +302,6 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransportInterface
@@ -474,9 +462,6 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 scoped_refptr
 <
 DtmfSenderInterface
@@ -495,7 +480,7 @@ MOCK_METHOD
 void
 SetFrameEncryptor
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -510,9 +495,6 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameEncryptorInterface
@@ -531,7 +513,7 @@ MOCK_METHOD
 void
 SetFrameTransformer
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -588,7 +570,7 @@ std
 :
 is_abstract_v
 <
-rtc
+webrtc
 :
 :
 RefCountedObject

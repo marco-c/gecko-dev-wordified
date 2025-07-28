@@ -308,9 +308,6 @@ production
 code
 .
 static
-rtc
-:
-:
 scoped_refptr
 <
 AudioDeviceModule
@@ -349,9 +346,6 @@ production
 code
 .
 static
-rtc
-:
-:
 scoped_refptr
 <
 AudioDeviceModuleForTest

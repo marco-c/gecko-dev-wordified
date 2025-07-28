@@ -938,7 +938,7 @@ internally
 /
 /
 uses
-rtc
+webrtc
 :
 :
 ArrayView
@@ -952,9 +952,9 @@ behavior
 in
 InterleavedView
 when
+/
+/
 the
-/
-/
 view
 size
 is
@@ -974,9 +974,9 @@ nullptr
 So
 even
 when
+/
+/
 an
-/
-/
 AudioFrame
 is
 muted
@@ -1506,9 +1506,6 @@ sample_rate_hz_
 /
 /
 static
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1535,9 +1532,6 @@ kMaxDataSizeSamples
 )
 ;
 return
-rtc
-:
-:
 ArrayView
 <
 const

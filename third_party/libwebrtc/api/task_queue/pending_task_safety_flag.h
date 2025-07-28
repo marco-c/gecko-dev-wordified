@@ -337,7 +337,7 @@ ExampleClass
 .
 /
 /
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -495,9 +495,6 @@ PendingTaskSafetyFlag
 final
 :
 public
-rtc
-:
-:
 RefCountedNonVirtual
 <
 PendingTaskSafetyFlag
@@ -506,9 +503,6 @@ PendingTaskSafetyFlag
 public
 :
 static
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -549,9 +543,6 @@ used
 on
 .
 static
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -587,9 +578,6 @@ flag
 specified
 .
 static
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -629,9 +617,6 @@ alive
 )
 .
 static
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -882,9 +867,6 @@ attached_queue
 private
 :
 static
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -1041,9 +1023,6 @@ default
 explicit
 ScopedTaskSafety
 (
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -1087,9 +1066,6 @@ the
 safety
 flag
 .
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -1123,9 +1099,6 @@ one
 void
 reset
 (
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -1159,9 +1132,6 @@ new_flag
 ;
 }
 private
-:
-rtc
-:
 :
 scoped_refptr
 <
@@ -1236,9 +1206,6 @@ the
 safety
 flag
 .
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -1253,9 +1220,6 @@ flag_
 ;
 }
 private
-:
-rtc
-:
 :
 scoped_refptr
 <
@@ -1286,9 +1250,6 @@ void
 >
 SafeTask
 (
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag

@@ -619,9 +619,6 @@ DataBuffer
 DataBuffer
 (
 const
-rtc
-:
-:
 CopyOnWriteBuffer
 &
 data
@@ -692,9 +689,6 @@ size
 )
 ;
 }
-rtc
-:
-:
 CopyOnWriteBuffer
 data
 ;

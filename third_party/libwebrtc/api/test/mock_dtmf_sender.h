@@ -219,9 +219,6 @@ DtmfSenderInterface
 public
 :
 static
-rtc
-:
-:
 scoped_refptr
 <
 MockDtmfSender
@@ -231,9 +228,6 @@ Create
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 MockDtmfSender
@@ -335,7 +329,7 @@ std
 :
 is_abstract_v
 <
-rtc
+webrtc
 :
 :
 RefCountedObject

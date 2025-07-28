@@ -210,9 +210,6 @@ RTCStatsReport
 final
 :
 public
-rtc
-:
-:
 RefCountedNonVirtual
 <
 RTCStatsReport
@@ -329,9 +326,6 @@ RTCStatsReport
 ConstIterator
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 const
@@ -358,9 +352,6 @@ is
 kept
 alive
 .
-rtc
-:
-:
 scoped_refptr
 <
 const
@@ -377,9 +368,6 @@ it_
 }
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 RTCStatsReport
@@ -407,9 +395,6 @@ other
 =
 delete
 ;
-rtc
-:
-:
 scoped_refptr
 <
 RTCStatsReport
@@ -751,9 +736,6 @@ empty
 void
 TakeMembersFrom
 (
-rtc
-:
-:
 scoped_refptr
 <
 RTCStatsReport

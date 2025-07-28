@@ -234,9 +234,6 @@ const
 SocketAddress
 &
 to
-rtc
-:
-:
 CopyOnWriteBuffer
 data
 Timestamp
@@ -378,9 +375,6 @@ the
 UDP
 payload
 .
-rtc
-:
-:
 CopyOnWriteBuffer
 data
 ;
@@ -1570,9 +1564,6 @@ const
 SocketAddress
 &
 to
-rtc
-:
-:
 CopyOnWriteBuffer
 packet_data
 uint16_t

@@ -188,9 +188,6 @@ virtual
 void
 OnResourceUsageStateMeasured
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource

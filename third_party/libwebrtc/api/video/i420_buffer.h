@@ -178,9 +178,6 @@ I420BufferInterface
 public
 :
 static
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -194,9 +191,6 @@ height
 )
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -228,9 +222,6 @@ pixel
 data
 .
 static
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -248,9 +239,6 @@ buffer
 Deprecated
 .
 static
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -276,9 +264,6 @@ GetI420
 ;
 }
 static
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -319,9 +304,6 @@ of
 src
 .
 static
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -341,9 +323,6 @@ rotation
 Deprecated
 .
 static
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer

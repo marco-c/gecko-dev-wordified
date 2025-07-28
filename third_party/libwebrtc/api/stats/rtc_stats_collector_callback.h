@@ -141,9 +141,6 @@ void
 OnStatsDelivered
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 const

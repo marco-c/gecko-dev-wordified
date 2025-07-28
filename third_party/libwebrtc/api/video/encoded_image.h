@@ -467,9 +467,6 @@ EncodedImageBuffer
 >
 Create
 (
-rtc
-:
-:
 Buffer
 buffer
 )
@@ -526,16 +523,10 @@ size
 explicit
 EncodedImageBuffer
 (
-rtc
-:
-:
 Buffer
 buffer
 )
 ;
-rtc
-:
-:
 Buffer
 buffer_
 ;
@@ -1290,9 +1281,6 @@ new_size
 void
 SetEncodedData
 (
-rtc
-:
-:
 scoped_refptr
 <
 EncodedImageBufferInterface
@@ -1328,9 +1316,6 @@ size_
 0
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 EncodedImageBufferInterface
@@ -1808,9 +1793,6 @@ VideoPlayoutDelay
 >
 playout_delay_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 EncodedImageBufferInterface

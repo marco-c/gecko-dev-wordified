@@ -1049,9 +1049,6 @@ SimpleEncoderWrapper
 :
 Encode
 (
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -1346,9 +1343,6 @@ VideoEncoderInterface
 :
 FrameOutput
 {
-rtc
-:
-:
 ArrayView
 <
 uint8_t

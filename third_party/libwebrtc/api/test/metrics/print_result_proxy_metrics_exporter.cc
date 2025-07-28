@@ -525,9 +525,6 @@ PrintResultProxyMetricsExporter
 :
 Export
 (
-rtc
-:
-:
 ArrayView
 <
 const

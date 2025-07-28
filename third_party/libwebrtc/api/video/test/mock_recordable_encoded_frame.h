@@ -193,9 +193,6 @@ public
 :
 MOCK_METHOD
 (
-rtc
-:
-:
 scoped_refptr
 <
 const

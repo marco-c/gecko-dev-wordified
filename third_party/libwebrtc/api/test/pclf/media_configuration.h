@@ -3386,9 +3386,6 @@ VideoResolution
 >
 GetMaxResolution
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3407,9 +3404,6 @@ VideoResolution
 >
 GetMaxResolution
 (
-rtc
-:
-:
 ArrayView
 <
 const

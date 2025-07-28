@@ -492,9 +492,6 @@ CreateWithDefaults
 scoped_refptr
 <
 const
-rtc
-:
-:
 RefCountedBase
 >
 leaf_

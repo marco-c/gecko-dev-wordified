@@ -1726,9 +1726,6 @@ inline
 function
 .
 static
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1812,7 +1809,7 @@ the
 same
 clock
 as
-rtc
+webrtc
 :
 :
 TimeMillis

@@ -214,9 +214,6 @@ I444BufferInterface
 public
 :
 static
-rtc
-:
-:
 scoped_refptr
 <
 I444Buffer
@@ -230,9 +227,6 @@ height
 )
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 I444Buffer
@@ -264,9 +258,6 @@ pixel
 data
 .
 static
-rtc
-:
-:
 scoped_refptr
 <
 I444Buffer
@@ -280,9 +271,6 @@ buffer
 )
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 I444Buffer
@@ -325,9 +313,6 @@ src
 |
 .
 static
-rtc
-:
-:
 scoped_refptr
 <
 I444Buffer
@@ -342,9 +327,6 @@ VideoRotation
 rotation
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface

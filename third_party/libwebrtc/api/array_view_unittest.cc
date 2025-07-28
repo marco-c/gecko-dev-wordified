@@ -3619,9 +3619,6 @@ ArrayViewTest
 TestRtcBuffer
 )
 {
-rtc
-:
-:
 Buffer
 b
 =
@@ -3759,9 +3756,6 @@ incompatible
 types
 .
 const
-rtc
-:
-:
 Buffer
 cb
 =

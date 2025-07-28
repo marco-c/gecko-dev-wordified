@@ -496,9 +496,6 @@ I420Buffer
 /
 /
 static
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -515,9 +512,6 @@ height
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 I420Buffer
@@ -531,9 +525,6 @@ height
 /
 /
 static
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -556,9 +547,6 @@ stride_v
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 I420Buffer
@@ -575,9 +563,6 @@ stride_v
 /
 /
 static
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -642,9 +627,6 @@ StrideV
 /
 /
 static
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -691,9 +673,6 @@ the
 input
 data
 .
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -768,9 +747,6 @@ buffer
 /
 /
 static
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -863,9 +839,6 @@ rotated_height
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 webrtc

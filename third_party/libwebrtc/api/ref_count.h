@@ -220,7 +220,7 @@ g
 by
 constructing
 an
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -457,7 +457,7 @@ to
 /
 /
 use
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -468,13 +468,13 @@ pointers
 to
 reference
 counted
+/
+/
 objects
 .
-/
-/
 Note
 that
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -487,9 +487,9 @@ duck
 -
 typing
 ;
+/
+/
 formally
-/
-/
 implementing
 the
 below

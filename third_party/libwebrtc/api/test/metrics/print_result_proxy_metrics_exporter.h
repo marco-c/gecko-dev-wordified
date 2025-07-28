@@ -168,9 +168,6 @@ default
 bool
 Export
 (
-rtc
-:
-:
 ArrayView
 <
 const

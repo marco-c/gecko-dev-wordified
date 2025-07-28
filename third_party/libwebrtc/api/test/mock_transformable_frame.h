@@ -184,9 +184,6 @@ Passkey
 }
 MOCK_METHOD
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -206,7 +203,7 @@ MOCK_METHOD
 void
 SetData
 (
-rtc
+webrtc
 :
 :
 ArrayView

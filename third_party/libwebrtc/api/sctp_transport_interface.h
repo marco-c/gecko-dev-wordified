@@ -302,9 +302,6 @@ SctpTransportInformation
 (
 SctpTransportState
 state
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransportInterface
@@ -344,9 +341,6 @@ this
 SCTP
 transport
 .
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransportInterface
@@ -412,9 +406,6 @@ SctpTransportState
 :
 kNew
 ;
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransportInterface
@@ -592,9 +583,6 @@ other
 threads
 .
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransportInterface

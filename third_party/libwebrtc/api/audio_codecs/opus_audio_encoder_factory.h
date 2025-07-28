@@ -157,9 +157,6 @@ t
 a
 template
 .
-rtc
-:
-:
 scoped_refptr
 <
 AudioEncoderFactory

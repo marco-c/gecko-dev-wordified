@@ -202,9 +202,6 @@ class
 MockPeerConnectionFactoryInterface
 :
 public
-rtc
-:
-:
 RefCountedObject
 <
 webrtc
@@ -216,9 +213,6 @@ PeerConnectionFactoryInterface
 public
 :
 static
-rtc
-:
-:
 scoped_refptr
 <
 MockPeerConnectionFactoryInterface
@@ -228,9 +222,6 @@ Create
 )
 {
 return
-rtc
-:
-:
 scoped_refptr
 <
 MockPeerConnectionFactoryInterface
@@ -261,9 +252,6 @@ MOCK_METHOD
 (
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 PeerConnectionInterface
@@ -318,9 +306,6 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -341,9 +326,6 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 scoped_refptr
 <
 AudioSourceInterface
@@ -364,9 +346,6 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackInterface
@@ -389,16 +368,13 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackInterface
 >
 CreateVideoTrack
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -417,9 +393,6 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 scoped_refptr
 <
 AudioTrackInterface

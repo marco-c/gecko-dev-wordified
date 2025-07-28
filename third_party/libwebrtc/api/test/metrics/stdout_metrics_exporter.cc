@@ -531,9 +531,6 @@ StdoutMetricsExporter
 :
 Export
 (
-rtc
-:
-:
 ArrayView
 <
 const

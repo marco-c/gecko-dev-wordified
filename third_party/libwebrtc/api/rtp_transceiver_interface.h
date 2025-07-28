@@ -687,9 +687,6 @@ rtcrtptransceiver
 -
 sender
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderInterface
@@ -764,9 +761,6 @@ rtcrtptransceiver
 -
 receiver
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverInterface
@@ -1511,9 +1505,6 @@ virtual
 RTCError
 SetCodecPreferences
 (
-rtc
-:
-:
 ArrayView
 <
 RtpCodecCapability
@@ -1712,9 +1703,6 @@ webrtc
 RTCError
 SetHeaderExtensionsToNegotiate
 (
-rtc
-:
-:
 ArrayView
 <
 const

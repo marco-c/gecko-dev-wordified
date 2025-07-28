@@ -455,9 +455,6 @@ I010Buffer
 /
 /
 static
-rtc
-:
-:
 scoped_refptr
 <
 I010Buffer
@@ -474,9 +471,6 @@ height
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 I010Buffer
@@ -505,9 +499,6 @@ width
 /
 /
 static
-rtc
-:
-:
 scoped_refptr
 <
 I010Buffer
@@ -543,9 +534,6 @@ height
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I010Buffer
@@ -649,9 +637,6 @@ buffer
 /
 /
 static
-rtc
-:
-:
 scoped_refptr
 <
 I010Buffer
@@ -687,9 +672,6 @@ height
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I010Buffer
@@ -793,9 +775,6 @@ buffer
 /
 /
 static
-rtc
-:
-:
 scoped_refptr
 <
 I010Buffer
@@ -904,9 +883,6 @@ rotated_height
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -1028,9 +1004,6 @@ return
 buffer
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -1042,9 +1015,6 @@ ToI420
 (
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer

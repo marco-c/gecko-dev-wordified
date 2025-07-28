@@ -256,7 +256,7 @@ use
 void
 SomeFunction
 (
-rtc
+webrtc
 :
 :
 FunctionView

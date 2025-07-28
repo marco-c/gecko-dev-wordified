@@ -408,7 +408,7 @@ ReceivedRTPPacket
 (
 ChannelId
 channel_id
-rtc
+webrtc
 :
 :
 ArrayView
@@ -430,7 +430,7 @@ ReceivedRTCPPacket
 (
 ChannelId
 channel_id
-rtc
+webrtc
 :
 :
 ArrayView
