@@ -3490,9 +3490,6 @@ _empty
 state
 .
 hand
-mDisplayInfo
-.
-mDisplayID
 state
 .
 numButtons

@@ -1556,9 +1556,6 @@ Xr_standard
 controllerState
 .
 hand
-displayInfo
-.
-mDisplayID
 controllerState
 .
 numButtons
