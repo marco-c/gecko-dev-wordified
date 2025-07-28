@@ -999,7 +999,7 @@ nanoseconds
 (
 self
 as
-i64
+_
 )
 }
 fn
@@ -1030,7 +1030,7 @@ as
 Self
 )
 as
-i64
+_
 )
 }
 fn
@@ -1061,7 +1061,7 @@ as
 Self
 )
 as
-i64
+_
 )
 }
 fn
@@ -1092,7 +1092,7 @@ as
 Self
 )
 as
-i64
+_
 )
 }
 fn
@@ -1123,7 +1123,7 @@ as
 Self
 )
 as
-i64
+_
 )
 }
 fn
@@ -1154,7 +1154,7 @@ as
 Self
 )
 as
-i64
+_
 )
 }
 fn
@@ -1185,7 +1185,7 @@ as
 Self
 )
 as
-i64
+_
 )
 }
 fn
@@ -1216,7 +1216,7 @@ as
 Self
 )
 as
-i64
+_
 )
 }
 }

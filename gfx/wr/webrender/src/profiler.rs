@@ -295,12 +295,6 @@ use
 crate
 :
 :
-precise_time_ns
-;
-use
-crate
-:
-:
 renderer
 :
 :
@@ -411,6 +405,12 @@ time
 :
 :
 Duration
+;
+use
+time
+:
+:
+precise_time_ns
 ;
 macro_rules
 !
