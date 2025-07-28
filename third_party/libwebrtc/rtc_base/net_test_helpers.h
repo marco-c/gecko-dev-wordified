@@ -102,6 +102,7 @@ h
 namespace
 webrtc
 {
+RTC_EXPORT
 bool
 HasIPv4Enabled
 (
@@ -121,6 +122,12 @@ webrtc
 namespace
 rtc
 {
+using
+webrtc
+:
+:
+HasIPv4Enabled
+;
 using
 webrtc
 :
