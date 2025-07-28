@@ -481,7 +481,7 @@ pcf_deps
 .
 signaling_thread
 =
-rtc
+webrtc
 :
 :
 Thread
@@ -495,7 +495,7 @@ pcf_deps
 .
 network_thread
 =
-rtc
+webrtc
 :
 :
 Thread
@@ -509,7 +509,7 @@ pcf_deps
 .
 worker_thread
 =
-rtc
+webrtc
 :
 :
 Thread
@@ -737,7 +737,7 @@ webrtc
 :
 CreatePeerConnectionFactory
 (
-rtc
+webrtc
 :
 :
 Thread
@@ -746,7 +746,7 @@ Thread
 Current
 (
 )
-rtc
+webrtc
 :
 :
 Thread
@@ -755,7 +755,7 @@ Thread
 Current
 (
 )
-rtc
+webrtc
 :
 :
 Thread
