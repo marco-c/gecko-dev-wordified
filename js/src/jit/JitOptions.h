@@ -330,9 +330,6 @@ bool
 disableEaa
 ;
 bool
-disableEdgeCaseAnalysis
-;
-bool
 disableGvn
 ;
 bool
