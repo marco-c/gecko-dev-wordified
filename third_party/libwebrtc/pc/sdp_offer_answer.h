@@ -5000,6 +5000,12 @@ disable_sdp_munging_checks_
 =
 false
 ;
+CodecLookupHelper
+*
+codec_lookup_helper_
+=
+nullptr
+;
 WeakPtrFactory
 <
 SdpOfferAnswerHandler
