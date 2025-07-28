@@ -3161,6 +3161,12 @@ jstests
 :
 [
 ]
+"
+gdb
+"
+:
+[
+]
 }
 extra_args
 .
@@ -4642,16 +4648,24 @@ universally
 .
     
 for
-extra
+suite
 in
-extra_args
-.
-values
 (
+"
+jstests
+"
+"
+jit
+-
+test
+"
 )
 :
         
-extra
+extra_args
+[
+suite
+]
 .
 append
 (
@@ -4678,16 +4692,24 @@ in
 automation
 .
 for
-extra
+suite
 in
-extra_args
-.
-values
 (
+"
+jstests
+"
+"
+jit
+-
+test
+"
 )
 :
     
-extra
+extra_args
+[
+suite
+]
 .
 append
 (
@@ -5054,25 +5076,6 @@ else
 [
 ]
     
-extra_args
-=
-env
-.
-get
-(
-"
-GDBTEST_EXTRA_ARGS
-"
-"
-"
-)
-.
-split
-(
-"
-"
-)
-    
 results
 .
 append
@@ -5086,6 +5089,7 @@ gdb
             
 run_test_command
 (
+                
 [
 PYTHON
 test_script
@@ -5093,8 +5097,14 @@ test_script
 auto_args
 *
 extra_args
+[
+"
+gdb
+"
+]
 OBJDIR
 ]
+            
 )
         
 )
