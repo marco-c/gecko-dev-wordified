@@ -378,6 +378,9 @@ uitour
 "
 urlbar
 "
+"
+webrtc
+"
 ]
 DIRS
 +
