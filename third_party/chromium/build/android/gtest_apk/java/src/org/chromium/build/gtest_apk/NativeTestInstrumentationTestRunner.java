@@ -201,7 +201,6 @@ AtomicBoolean
 /
 *
 *
-*
 An
 Instrumentation
 that
@@ -448,13 +447,6 @@ Bundle
 arguments
 )
 {
-Context
-context
-=
-getContext
-(
-)
-;
 mTransparentArguments
 =
 new
@@ -1518,7 +1510,6 @@ i
 ;
 }
 /
-*
 *
 *
 Starts

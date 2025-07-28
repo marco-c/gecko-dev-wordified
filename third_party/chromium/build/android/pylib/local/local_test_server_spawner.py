@@ -33,20 +33,6 @@ json
 import
 time
 from
-six
-.
-moves
-import
-range
-#
-pylint
-:
-disable
-=
-redefined
--
-builtin
-from
 devil
 .
 android
@@ -77,10 +63,14 @@ SysPath
 (
 host_paths
 .
-BUILD_COMMON_PATH
+BUILD_UTIL_PATH
 )
 :
   
+from
+lib
+.
+common
 import
 chrome_test_server_spawner
 #
@@ -213,7 +203,6 @@ __init__
 (
 self
 device
-tool
 )
 :
     
@@ -222,12 +211,6 @@ self
 device
 =
 device
-    
-self
-.
-tool
-=
-tool
   
 def
 Map
@@ -247,9 +230,6 @@ port_pairs
 self
 .
 device
-self
-.
-tool
 )
   
 def
@@ -371,7 +351,6 @@ __init__
 self
 port
 device
-tool
 )
 :
     
@@ -402,16 +381,9 @@ port
 PortForwarderAndroid
 (
 device
-tool
 )
 MAX_TEST_SERVER_INSTANCES
 )
-    
-self
-.
-_tool
-=
-tool
   
 property
   
@@ -549,7 +521,6 @@ Forwarder
 .
 Map
 (
-        
 [
 (
 self
@@ -563,9 +534,6 @@ port
 self
 .
 _device
-self
-.
-_tool
 )
     
 self

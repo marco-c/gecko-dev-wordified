@@ -43,7 +43,6 @@ gtest_apk
 /
 *
 *
-*
 Extras
 for
 intent

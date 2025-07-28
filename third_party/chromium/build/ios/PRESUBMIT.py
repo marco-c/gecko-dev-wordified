@@ -37,9 +37,6 @@ PRESUBMIT_VERSION
 .
 0
 '
-USE_PYTHON3
-=
-True
 TEST_PATTERNS
 =
 [
@@ -82,22 +79,11 @@ RunUnitTestsInDirectory
 (
       
 input_api
-      
 output_api
-      
 '
 .
 '
-      
 files_to_check
 =
 TEST_PATTERNS
-      
-run_on_python2
-=
-False
-      
-skip_shebang_check
-=
-True
 )

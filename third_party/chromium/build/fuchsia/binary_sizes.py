@@ -58,11 +58,7 @@ argparse
 import
 collections
 import
-copy
-import
 json
-import
-logging
 import
 math
 import
@@ -83,16 +79,45 @@ import
 traceback
 import
 uuid
+sys
+.
+path
+.
+append
+(
+os
+.
+path
+.
+abspath
+(
+os
+.
+path
+.
+join
+(
+os
+.
+path
+.
+dirname
+(
+__file__
+)
+                                             
+'
+test
+'
+)
+)
+)
 from
 common
 import
-GetHostToolPathFromPlatform
-GetHostArchFromPlatform
-from
-common
-import
+DIR_SRC_ROOT
 SDK_ROOT
-DIR_SOURCE_ROOT
+get_host_tool_path
 PACKAGES_BLOBS_FILE
 =
 '
@@ -594,12 +619,23 @@ interrupted
 False
       
 '
-path_delimiter
+metadata
+'
+:
+{
+          
+'
+test_name_prefix
 '
 :
 '
-.
+build
+/
+fuchsia
+/
 '
+      
+}
       
 '
 version
@@ -1835,7 +1871,7 @@ compression
   
 compressor_path
 =
-GetHostToolPathFromPlatform
+get_host_tool_path
 (
 '
 blobfs
@@ -2170,7 +2206,7 @@ directory
   
 far_tool
 =
-GetHostToolPathFromPlatform
+get_host_tool_path
 (
 '
 far
@@ -2684,7 +2720,7 @@ output
   
 merkle_tool
 =
-GetHostToolPathFromPlatform
+get_host_tool_path
 (
 '
 merkleroot
@@ -3376,7 +3412,7 @@ crbug
 .
 com
 /
-1126177
+40718363
 )
 :
 Use
@@ -4173,7 +4209,7 @@ path
 .
 join
 (
-DIR_SOURCE_ROOT
+DIR_SRC_ROOT
 args
 .
 sizes_path

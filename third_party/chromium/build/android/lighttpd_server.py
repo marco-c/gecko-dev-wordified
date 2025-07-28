@@ -65,6 +65,10 @@ codecs
 import
 contextlib
 import
+http
+.
+client
+import
 os
 import
 random
@@ -80,26 +84,6 @@ import
 tempfile
 import
 time
-from
-six
-.
-moves
-import
-http_client
-from
-six
-.
-moves
-import
-input
-#
-pylint
-:
-disable
-=
-redefined
--
-builtin
 from
 pylib
 import
@@ -1004,7 +988,9 @@ contextlib
 closing
 (
             
-http_client
+http
+.
+client
 .
 HTTPConnection
 (
@@ -1027,10 +1013,10 @@ timeout
 )
 )
 as
-http
+http_client
 :
           
-http
+http_client
 .
 set_debuglevel
 (
@@ -1039,7 +1025,7 @@ timeout
 3
 )
           
-http
+http_client
 .
 request
 (
@@ -1053,7 +1039,7 @@ HEAD
           
 r
 =
-http
+http_client
 .
 getresponse
 (
@@ -1168,7 +1154,9 @@ getheaders
       
 except
 (
-http_client
+http
+.
+client
 .
 HTTPException
 socket

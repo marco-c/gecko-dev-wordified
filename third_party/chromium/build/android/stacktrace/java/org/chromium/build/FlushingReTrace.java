@@ -407,9 +407,9 @@ in
 file
 :
 line
+/
+/
 parentheses
-/
-/
 and
 "
 at
@@ -656,12 +656,12 @@ to
 read
 from
 field
+/
+/
 '
 int
 bLA
 '
-/
-/
 on
 a
 null
@@ -788,6 +788,8 @@ L
 ;
 in
 class
+/
+/
 LbxK
 ;
 +
@@ -817,6 +819,9 @@ type
 ?
 in
 class
+"
++
+"
 L
 %
 C
@@ -890,6 +895,8 @@ Class
 ;
 )
 in
+/
+/
 Lfoo
 /
 Bar
@@ -969,6 +976,8 @@ SomeFrameworkClass
 in
 isTestClass
 for
+/
+/
 Foo
 +
 "
@@ -1089,6 +1098,8 @@ SomeFrameworkClass
 referenced
 from
 method
+/
+/
 Foo
 .
 bar
@@ -1107,6 +1118,8 @@ SomeFrameworkMethod
 referenced
 from
 method
+/
+/
 Foo
 .
 bar
@@ -1153,6 +1166,8 @@ tags
 look
 like
 class
+/
+/
 names
 .
 +

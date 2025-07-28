@@ -5,11 +5,6 @@ Copyright
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 /
 /
 Use
@@ -82,7 +77,6 @@ annotation
 Target
 ;
 /
-*
 *
 *
 Tells

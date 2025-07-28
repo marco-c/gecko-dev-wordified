@@ -44,7 +44,6 @@ Application
 /
 *
 *
-*
 Class
 which
 fails
@@ -58,7 +57,7 @@ check
 /
 public
 class
-NewApiTest
+NewApiLintTest
 extends
 Application
 {

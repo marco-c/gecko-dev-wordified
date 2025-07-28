@@ -58,6 +58,19 @@ from
 util
 import
 build_utils
+import
+action_helpers
+#
+build_utils
+adds
+/
+/
+build
+to
+sys
+.
+path
+.
 def
 main
 (
@@ -86,9 +99,9 @@ ArgumentParser
 (
 )
   
-build_utils
+action_helpers
 .
-AddDepfileOption
+add_depfile_arg
 (
 parser
 )
@@ -185,18 +198,18 @@ argv
   
 classpath
 =
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
 args
 .
 classpath
 )
   
-build_utils
+action_helpers
 .
-WriteDepfile
+write_depfile
 (
 args
 .

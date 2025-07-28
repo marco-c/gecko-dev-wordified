@@ -44,8 +44,6 @@ os
 import
 unittest
 import
-six
-import
 pylib
 .
 constants
@@ -383,11 +381,10 @@ for
 cpu_arch
 binprefix
 in
-six
-.
-iteritems
-(
 _EXPECTED_NDK_TOOL_SUBDIR_MAP
+.
+items
+(
 )
 :
       

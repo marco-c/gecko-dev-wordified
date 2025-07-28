@@ -81,7 +81,7 @@ argparse
 import
 os
 import
-pipes
+shlex
 import
 sys
 #
@@ -579,7 +579,7 @@ return
 .
 join
 (
-pipes
+shlex
 .
 quote
 (

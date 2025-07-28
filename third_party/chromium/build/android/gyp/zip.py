@@ -64,6 +64,21 @@ from
 util
 import
 build_utils
+import
+action_helpers
+#
+build_utils
+adds
+/
+/
+build
+to
+sys
+.
+path
+.
+import
+zip_helpers
 def
 main
 (
@@ -351,9 +366,9 @@ comment
 '
 )
   
-build_utils
+action_helpers
 .
-AddDepfileOption
+add_depfile_arg
 (
 parser
 )
@@ -368,9 +383,9 @@ args
 )
   
 with
-build_utils
+action_helpers
 .
-AtomicOutput
+atomic_output
 (
 options
 .
@@ -408,35 +423,31 @@ input_files
         
 files
 =
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
 options
 .
 input_files
 )
         
-build_utils
+zip_helpers
 .
-DoZip
+add_files_to_zip
 (
-            
 files
-            
+                                     
 out_zip
-            
+                                     
 base_dir
 =
 options
 .
 input_files_base_dir
-            
-compress_fn
+                                     
+compress
 =
-lambda
-_
-:
 options
 .
 compress
@@ -450,9 +461,9 @@ input_zips
         
 files
 =
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
 options
 .
@@ -475,10 +486,11 @@ input_zips_excluded_globs
           
 globs
 =
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
+              
 options
 .
 input_zips_excluded_globs
@@ -504,19 +516,18 @@ else
 p
 )
         
-build_utils
+zip_helpers
 .
-MergeZips
+merge_zips
 (
-            
 out_zip
-            
+                               
 files
-            
+                               
 path_transform
 =
 path_transform
-            
+                               
 compress
 =
 options
@@ -575,18 +586,18 @@ options
 depfile
 :
     
-build_utils
+action_helpers
 .
-WriteDepfile
+write_depfile
 (
 options
 .
 depfile
-                             
+                                 
 options
 .
 output
-                             
+                                 
 inputs
 =
 depfile_deps

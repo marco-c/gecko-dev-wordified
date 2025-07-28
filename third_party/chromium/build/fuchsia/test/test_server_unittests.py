@@ -583,7 +583,7 @@ patch
 '
 test_server
 .
-run_ffx_command
+get_ssh_address
 '
 )
 :

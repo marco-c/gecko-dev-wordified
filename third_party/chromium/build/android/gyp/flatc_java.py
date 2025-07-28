@@ -69,6 +69,10 @@ from
 util
 import
 build_utils
+import
+action_helpers
+import
+zip_helpers
 def
 main
 (
@@ -260,13 +264,24 @@ options
 flatbuffers
 )
     
-build_utils
+with
+action_helpers
 .
-ZipDir
+atomic_output
 (
 options
 .
 srcjar
+)
+as
+f
+:
+      
+zip_helpers
+.
+zip_directory
+(
+f
 temp_dir
 )
 if

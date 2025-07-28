@@ -799,6 +799,11 @@ with
 open
 (
 cur_file
+encoding
+=
+'
+latin1
+'
 )
 as
 f

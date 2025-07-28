@@ -902,7 +902,7 @@ true
 '
       
 #
-GOMA
+reclient
 does
 not
 work
@@ -915,7 +915,7 @@ directories
 .
       
 '
-use_goma
+use_remoteexec
 =
 false
 '

@@ -74,9 +74,6 @@ depot_tools
 "
 "
 "
-USE_PYTHON3
-=
-True
 def
 CommonChecks
 (
@@ -181,9 +178,7 @@ GetUnitTestsInDirectory
 (
         
 input_api
-        
 output_api
-        
 '
 .
 '
@@ -199,18 +194,6 @@ _test
 py
 '
 ]
-        
-run_on_python2
-=
-False
-        
-run_on_python3
-=
-True
-        
-skip_shebang_check
-=
-True
 )
     
 results

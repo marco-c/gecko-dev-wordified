@@ -31,7 +31,11 @@ file
 #
 TODO
 (
-1262303
+crbug
+.
+com
+/
+40799394
 )
 :
 After
@@ -42,8 +46,8 @@ by
 python3
 we
 can
-remove
 #
+remove
 object
 inheritance
 from

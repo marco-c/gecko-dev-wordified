@@ -1180,6 +1180,12 @@ False
     
 self
 .
+_replaced
+=
+False
+    
+self
+.
 _lock
 =
 threading
@@ -1549,6 +1555,9 @@ def
 terminate
 (
 self
+replaced
+=
+False
 )
 :
     
@@ -1593,6 +1602,12 @@ self
 _terminated
 =
 True
+      
+self
+.
+_replaced
+=
+replaced
     
 #
 It
@@ -1875,7 +1890,7 @@ complete_task
 (
 )
     
-failed
+delete_stamp
 =
 False
     
@@ -1899,16 +1914,40 @@ name
 )
       
 #
-Ignore
-stdout
-as
-it
-is
-now
-outdated
+When
+tasks
+are
+replaced
+avoid
+deleting
+the
+stamp
+file
+context
+:
+      
+#
+https
+:
+/
+/
+issuetracker
+.
+google
+.
+com
+/
+301961827
 .
       
-failed
+if
+not
+self
+.
+_replaced
+:
+        
+delete_stamp
 =
 True
     
@@ -1939,7 +1978,7 @@ _return_code
 0
 :
         
-failed
+delete_stamp
 =
 True
         
@@ -2072,7 +2111,7 @@ stdout
 )
     
 if
-failed
+delete_stamp
 :
       
 #
@@ -2397,6 +2436,9 @@ existing_task
 .
 terminate
 (
+replaced
+=
+True
 )
       
 tasks

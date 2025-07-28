@@ -132,11 +132,62 @@ runner_filter
     
 self
 .
+_json_config
+=
+args
+.
+json_config
+    
+self
+.
+_shadows_allowlist
+=
+args
+.
+shadows_allowlist
+    
+self
+.
 _shards
 =
 args
 .
 shards
+    
+self
+.
+_shard_filter
+=
+None
+    
+if
+args
+.
+shard_filter
+:
+      
+self
+.
+_shard_filter
+=
+{
+int
+(
+x
+)
+for
+x
+in
+args
+.
+shard_filter
+.
+split
+(
+'
+'
+)
+}
     
 self
 .
@@ -147,21 +198,6 @@ test_filter
 InitializeFiltersFromArgs
 (
 args
-)
-    
-self
-.
-_has_literal_filters
-=
-(
-args
-.
-isolated_script_test_filters
-                                 
-or
-args
-.
-test_filters
 )
     
 self
@@ -326,6 +362,20 @@ _runner_filter
 property
   
 def
+shadows_allowlist
+(
+self
+)
+:
+    
+return
+self
+.
+_shadows_allowlist
+  
+property
+  
+def
 test_filters
 (
 self
@@ -340,7 +390,7 @@ _test_filters
 property
   
 def
-has_literal_filters
+json_config
 (
 self
 )
@@ -349,7 +399,7 @@ self
 return
 self
 .
-_has_literal_filters
+_json_config
   
 property
   
@@ -364,6 +414,20 @@ return
 self
 .
 _shards
+  
+property
+  
+def
+shard_filter
+(
+self
+)
+:
+    
+return
+self
+.
+_shard_filter
   
 property
   

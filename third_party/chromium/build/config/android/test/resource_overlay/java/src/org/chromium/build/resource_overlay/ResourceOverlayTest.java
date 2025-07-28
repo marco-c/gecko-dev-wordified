@@ -60,9 +60,7 @@ res
 Resources
 ;
 import
-android
-.
-support
+androidx
 .
 test
 .
@@ -118,7 +116,6 @@ util
 Batch
 ;
 /
-*
 *
 *
 Test

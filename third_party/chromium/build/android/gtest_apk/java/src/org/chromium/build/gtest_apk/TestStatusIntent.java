@@ -43,7 +43,6 @@ gtest_apk
 /
 *
 *
-*
 Intent
 action
 and

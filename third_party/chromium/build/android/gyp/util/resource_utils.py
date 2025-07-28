@@ -312,7 +312,7 @@ com
 /
 920960
 }
-_ALL_RESOURCE_TYPES
+ALL_RESOURCE_TYPES
 =
 {
     
@@ -370,6 +370,9 @@ menu
 mipmap
 '
 '
+overlayable
+'
+'
 plurals
 '
 '
@@ -381,10 +384,10 @@ string
 '
 style
 '
+    
 '
 styleable
 '
-    
 '
 transition
 '
@@ -5006,7 +5009,7 @@ entry
 .
 resource_type
 in
-_ALL_RESOURCE_TYPES
+ALL_RESOURCE_TYPES
 (
             
 '
@@ -5018,7 +5021,7 @@ type
 s
 add
 to
-_ALL_RESOURCE_TYPES
+ALL_RESOURCE_TYPES
 !
 '
 %
@@ -5086,6 +5089,7 @@ re
 .
 sub
 (
+r
 '
 [
 ^
@@ -5615,7 +5619,7 @@ resource_types
 =
 sorted
 (
-_ALL_RESOURCE_TYPES
+ALL_RESOURCE_TYPES
 )
       
 root_package
@@ -6566,7 +6570,7 @@ resource_types
 =
 sorted
 (
-_ALL_RESOURCE_TYPES
+ALL_RESOURCE_TYPES
 )
       
 has_on_resources_loaded
@@ -8320,6 +8324,7 @@ re
 .
 search
 (
+r
 '
 <
 resources
@@ -8386,6 +8391,7 @@ re
 .
 compile
 (
+r
 '
 \
 s
@@ -8481,6 +8487,8 @@ re
 .
 compile
 (
+      
+r
 '
 <
 string
@@ -8519,6 +8527,7 @@ re
 .
 compile
 (
+r
 '
 <
 /

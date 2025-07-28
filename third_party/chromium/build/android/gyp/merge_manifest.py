@@ -80,6 +80,19 @@ from
 util
 import
 manifest_utils
+import
+action_helpers
+#
+build_utils
+adds
+/
+/
+build
+to
+sys
+.
+path
+.
 _MANIFEST_MERGER_MAIN_CLASS
 =
 '
@@ -463,9 +476,9 @@ description
 __doc__
 )
   
-build_utils
+action_helpers
 .
-AddDepfileOption
+add_depfile_arg
 (
 parser
 )
@@ -734,9 +747,9 @@ argv
 )
   
 with
-build_utils
+action_helpers
 .
-AtomicOutput
+atomic_output
 (
 args
 .
@@ -839,9 +852,9 @@ max_sdk_version
     
 extras
 =
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
 args
 .
@@ -1060,9 +1073,9 @@ args
 depfile
 :
     
-build_utils
+action_helpers
 .
-WriteDepfile
+write_depfile
 (
 args
 .

@@ -169,13 +169,54 @@ self
 .
 value
 def
+_normalize_path
+(
+path
+)
+:
+  
+#
+Always
+use
+posix
+-
+style
+directory
+separators
+as
+GN
+does
+it
+.
+  
+return
+os
+.
+path
+.
+normpath
+(
+path
+)
+.
+replace
+(
+"
+\
+\
+"
+"
+/
+"
+)
+def
 _process_build_metadata_json
 (
 bm_file
 input_roots
 output_root
-re_outputs
                                  
+output_files
 processed_inputs
 )
 :
@@ -308,11 +349,7 @@ sources
     
 src
 =
-os
-.
-path
-.
-normpath
+_normalize_path
 (
 os
 .
@@ -350,15 +387,18 @@ src
     
 src_module
 =
+_normalize_path
+(
+        
 os
 .
 path
 .
 join
 (
-        
+            
 output_root
-        
+            
 RebaseAbsolutePath
 (
 os
@@ -377,11 +417,12 @@ input_roots
 module
 "
 )
+)
     
 if
 src_module
 in
-re_outputs
+output_files
 :
       
 continue
@@ -429,11 +470,7 @@ deps
     
 dep
 =
-os
-.
-path
-.
-normpath
+_normalize_path
 (
 os
 .
@@ -451,7 +488,7 @@ _process_build_metadata_json
 dep
 input_roots
 output_root
-re_outputs
+output_files
                                  
 processed_inputs
 )
@@ -679,11 +716,7 @@ map
 lambda
 dep
 :
-os
-.
-path
-.
-normpath
+_normalize_path
 (
 os
 .
@@ -859,10 +892,29 @@ in
 file
 :
       
-output_files
+#
+Output
+files
+are
+relative
+to
+exec_root
 .
-add
+      
+output_file
+=
+_normalize_path
 (
+          
+os
+.
+path
+.
+join
+(
+parsed_args
+.
+exec_root
 line
 .
 rstrip
@@ -872,6 +924,14 @@ rstrip
 n
 '
 )
+)
+)
+      
+output_files
+.
+add
+(
+output_file
 )
   
 #

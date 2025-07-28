@@ -48,6 +48,21 @@ from
 util
 import
 build_utils
+import
+action_helpers
+#
+build_utils
+adds
+/
+/
+build
+to
+sys
+.
+path
+.
+import
+zip_helpers
 def
 CreatePathTransform
 (
@@ -352,9 +367,9 @@ args
 .
 exclude_globs
 =
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
 args
 .
@@ -365,9 +380,9 @@ args
 .
 include_globs
 =
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
 args
 .
@@ -387,9 +402,9 @@ include_globs
 )
   
 with
-build_utils
+action_helpers
 .
-AtomicOutput
+atomic_output
 (
 args
 .
@@ -403,9 +418,9 @@ if
 path_transform
 :
       
-build_utils
+zip_helpers
 .
-MergeZips
+merge_zips
 (
 f
 .
@@ -415,6 +430,7 @@ args
 .
 input
 ]
+                             
 path_transform
 =
 path_transform

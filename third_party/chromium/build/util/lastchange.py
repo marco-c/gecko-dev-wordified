@@ -594,6 +594,14 @@ strip
 (
 )
     
+stderr
+=
+stderr
+.
+strip
+(
+)
+    
 logging
 .
 debug
@@ -2307,6 +2315,10 @@ __file__
 )
 )
   
+git_top_dir
+=
+None
+  
 try
 :
     
@@ -2325,7 +2337,7 @@ e
     
 logging
 .
-error
+warning
 (
 "
 Failed
@@ -2343,15 +2355,20 @@ s
 %
 s
 "
-                  
 source_dir
+                    
 e
 )
-    
-return
-2
+  
+merge_base_sha
+=
+'
+HEAD
+'
   
 if
+git_top_dir
+and
 args
 .
 merge_base_ref
@@ -2430,33 +2447,33 @@ e
 return
 3
   
-else
+version_info
+=
+None
+  
+if
+git_top_dir
 :
     
-merge_base_sha
-=
-'
-HEAD
-'
-  
 try
 :
-    
+      
 version_info
 =
 FetchGitRevision
 (
 git_top_dir
 commit_filter
+                                      
 merge_base_sha
 )
-  
+    
 except
 GitError
 as
 e
 :
-    
+      
 logging
 .
 error
@@ -2473,12 +2490,17 @@ s
 "
 e
 )
+  
+if
+not
+version_info
+:
     
 logging
 .
-info
+warning
 (
-(
+        
 "
 Falling
 back
@@ -2539,7 +2561,38 @@ error
 .
 "
 )
-)
+    
+#
+Use
+a
+dummy
+revision
+that
+has
+the
+same
+length
+as
+a
+Git
+commit
+hash
+    
+#
+same
+as
+what
+we
+use
+in
+build
+/
+util
+/
+LASTCHANGE
+.
+dummy
+.
     
 version_info
 =
@@ -2548,9 +2601,13 @@ VersionInfo
 '
 0
 '
+*
+40
 '
 0
 '
+*
+40
 0
 )
   
@@ -2606,12 +2663,17 @@ datetime
 .
 datetime
 .
-utcfromtimestamp
+fromtimestamp
 (
         
 version_info
 .
 timestamp
+datetime
+.
+timezone
+.
+utc
 )
 .
 year

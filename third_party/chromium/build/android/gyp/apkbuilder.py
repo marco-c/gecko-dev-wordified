@@ -81,10 +81,21 @@ from
 util
 import
 diff_utils
-from
-util
 import
-zipalign
+action_helpers
+#
+build_utils
+adds
+/
+/
+build
+to
+sys
+.
+path
+.
+import
+zip_helpers
 #
 Taken
 from
@@ -238,9 +249,9 @@ ArgumentParser
 (
 )
   
-build_utils
+action_helpers
 .
-AddDepfileOption
+add_depfile_arg
 (
 parser
 )
@@ -249,13 +260,18 @@ parser
 .
 add_argument
 (
-      
 '
 -
 -
 assets
 '
-      
+                      
+action
+=
+'
+append
+'
+                      
 help
 =
 '
@@ -272,7 +288,7 @@ in
 the
 form
 '
-      
+                      
 '
 "
 srcPath
@@ -1160,9 +1176,9 @@ options
 .
 assets
 =
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
 options
 .
@@ -1173,9 +1189,9 @@ options
 .
 uncompressed_assets
 =
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
       
 options
@@ -1187,9 +1203,9 @@ options
 .
 native_lib_placeholders
 =
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
       
 options
@@ -1201,9 +1217,9 @@ options
 .
 secondary_native_lib_placeholders
 =
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
       
 options
@@ -1215,9 +1231,9 @@ options
 .
 java_resources
 =
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
 options
 .
@@ -1228,9 +1244,9 @@ options
 .
 native_libs
 =
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
 options
 .
@@ -1241,9 +1257,9 @@ options
 .
 secondary_native_libs
 =
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
       
 options
@@ -1255,9 +1271,9 @@ options
 .
 library_always_compress
 =
-build_utils
+action_helpers
 .
-ParseGnList
+parse_gn_list
 (
       
 options
@@ -1867,7 +1883,7 @@ compress
 :
         
 #
-AddToZipHermetic
+add_to_zip_hermetic
 (
 )
 uses
@@ -2138,27 +2154,52 @@ except
 KeyError
 :
       
-zipalign
+zip_helpers
 .
-AddToZipHermetic
+add_to_zip_hermetic
 (
-          
 apk
-          
+                                      
 apk_path
-          
+                                      
 src_path
 =
 src_path
-          
+                                      
 compress
 =
 compress
-          
+                                      
 alignment
 =
 alignment
 )
+def
+_GetAbiAlignment
+(
+android_abi
+)
+:
+  
+if
+'
+64
+'
+in
+android_abi
+:
+    
+return
+0x4000
+#
+16k
+alignment
+  
+return
+0x1000
+#
+4k
+alignment
 def
 _GetNativeLibrariesToAdd
 (
@@ -2292,16 +2333,26 @@ lib_android_abi
 basename
 )
     
-alignment
-=
-0
 if
 compress
 and
 not
 fast_align
+:
+      
+alignment
+=
+0
+    
 else
-0x1000
+:
+      
+alignment
+=
+_GetAbiAlignment
+(
+android_abi
+)
     
 libraries_to_add
 .
@@ -2545,6 +2596,31 @@ format
 apk
 '
   
+#
+TODO
+(
+crbug
+.
+com
+/
+40286668
+)
+:
+Re
+-
+enable
+zipalign
+once
+we
+are
+using
+Android
+V
+  
+#
+SDK
+.
+  
 run_zipalign
 =
 requires_alignment
@@ -2552,6 +2628,8 @@ and
 options
 .
 best_compression
+and
+False
   
 fast_align
 =
@@ -3172,18 +3250,18 @@ options
 depfile
 :
         
-build_utils
+action_helpers
 .
-WriteDepfile
+write_depfile
 (
 options
 .
 depfile
-                                 
+                                     
 options
 .
 actual_file
-                                 
+                                     
 inputs
 =
 depfile_deps
@@ -3263,13 +3341,14 @@ only_if_changed
 .
   
 with
-build_utils
+action_helpers
 .
-AtomicOutput
+atomic_output
 (
 options
 .
 output_apk
+                                    
 only_if_changed
 =
 False
@@ -3318,9 +3397,9 @@ alignment
 )
 :
         
-zipalign
+zip_helpers
 .
-AddToZipHermetic
+add_to_zip_hermetic
 (
             
 out_apk
@@ -3843,6 +3922,15 @@ android_abi
 name
 )
         
+alignment
+=
+_GetAbiAlignment
+(
+options
+.
+android_abi
+)
+        
 add_to_zip
 (
 apk_path
@@ -3850,7 +3938,7 @@ apk_path
 '
 alignment
 =
-0x1000
+alignment
 )
       
 for
@@ -3914,6 +4002,15 @@ secondary_android_abi
 name
 )
         
+alignment
+=
+_GetAbiAlignment
+(
+options
+.
+secondary_android_abi
+)
+        
 add_to_zip
 (
 apk_path
@@ -3921,7 +4018,7 @@ apk_path
 '
 alignment
 =
-0x1000
+alignment
 )
       
 #
@@ -4213,18 +4310,18 @@ options
 depfile
 :
       
-build_utils
+action_helpers
 .
-WriteDepfile
+write_depfile
 (
 options
 .
 depfile
-                               
+                                   
 options
 .
 output_apk
-                               
+                                   
 inputs
 =
 depfile_deps

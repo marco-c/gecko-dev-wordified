@@ -74,7 +74,7 @@ optparse
 import
 os
 import
-pipes
+shlex
 import
 subprocess
 import
@@ -266,7 +266,7 @@ join
 (
 map
 (
-pipes
+shlex
 .
 quote
 args
