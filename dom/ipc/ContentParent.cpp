@@ -49620,6 +49620,12 @@ IsNullOrDiscarded
 )
 )
 {
+aResolver
+(
+{
+}
+)
+;
 return
 IPC_OK
 (
