@@ -2158,9 +2158,6 @@ prefableOptions
 ScopeBindingCache
 *
 scopeCache
-CompilationStencil
-&
-context
 ScriptIndex
 scriptIndex
 InitialStencilAndDelazifications
