@@ -2703,13 +2703,6 @@ completionKind
 (
 )
 ;
-generator
--
->
-setSuspendedYield
-(
-)
-;
 /
 /
 Step
