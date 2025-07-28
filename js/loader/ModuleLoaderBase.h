@@ -3623,14 +3623,6 @@ ModuleLoadRequest
 aRequest
 )
 ;
-bool
-IsFetchingAndHasWaitingRequest
-(
-ModuleLoadRequest
-*
-aRequest
-)
-;
 void
 OnFetchSucceeded
 (
