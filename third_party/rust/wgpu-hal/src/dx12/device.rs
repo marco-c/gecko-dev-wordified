@@ -8445,8 +8445,14 @@ data
 resolve_size
 (
 )
-as
-u32
+.
+try_into
+(
+)
+.
+unwrap
+(
+)
 ;
 if
 has_dynamic_offset
