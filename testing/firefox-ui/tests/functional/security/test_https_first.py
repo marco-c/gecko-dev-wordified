@@ -217,23 +217,6 @@ badssl
 com
 /
 "
-        
-self
-.
-bad_ssl_certificate
-=
-"
-http
-:
-/
-/
-expired
-.
-badssl
-.
-com
-/
-"
     
 def
 tearDown
@@ -284,7 +267,7 @@ tearDown
 )
     
 def
-test_upgrade_with_schemeless_url
+test_no_upgrade_with_http_only_site
 (
 self
 )
@@ -296,7 +279,7 @@ navigate_in_urlbar
 (
 self
 .
-schemeless_url
+http_only_url
 )
         
 self
@@ -306,20 +289,19 @@ wait_for_page_navigated
             
 self
 .
-https_url
-f
+http_only_url
 "
 Expected
+no
 HTTPS
 -
 First
 upgrade
-to
-{
-self
-.
-https_url
-}
+for
+HTTP
+-
+only
+site
 "
         
 )
@@ -367,7 +349,7 @@ http_url
 )
     
 def
-test_no_upgrade_with_http_only_site
+test_upgrade_with_schemeless_url
 (
 self
 )
@@ -379,7 +361,7 @@ navigate_in_urlbar
 (
 self
 .
-http_only_url
+schemeless_url
 )
         
 self
@@ -389,19 +371,20 @@ wait_for_page_navigated
             
 self
 .
-http_only_url
+https_url
+f
 "
 Expected
-no
 HTTPS
 -
 First
 upgrade
-for
-HTTP
--
-only
-site
+to
+{
+self
+.
+https_url
+}
 "
         
 )
@@ -483,7 +466,7 @@ self
 .
 marionette
 .
-execute_async_script
+execute_script
 (
                 
 "
@@ -493,15 +476,12 @@ execute_async_script
 const
 [
 url
-resolve
 ]
 =
 arguments
 ;
                 
-if
-(
-                  
+return
 [
 "
 interactive
@@ -528,56 +508,7 @@ href
 =
 =
 url
-                
-)
-{
-                  
-resolve
-(
-window
-.
-location
-.
-href
-)
 ;
-                
-}
-else
-{
-                  
-window
-.
-addEventListener
-(
-"
-DOMContentLoaded
-"
-(
-)
-=
->
-{
-                    
-resolve
-(
-window
-.
-location
-.
-href
-)
-                  
-}
-{
-once
-:
-true
-}
-)
-;
-                
-}
             
 "
 "
@@ -593,22 +524,41 @@ target_url
         
 Wait
 (
+            
 self
 .
 marionette
+            
 ignored_exceptions
 =
 [
 JavascriptException
 ]
+            
+timeout
+=
+self
+.
+marionette
+.
+session_capabilities
+[
+"
+timeouts
+"
+]
+[
+"
+pageLoad
+"
+]
+        
 )
 .
 until
 (
-            
 navigated
 message
 =
 message
-        
 )
