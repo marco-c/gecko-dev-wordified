@@ -1519,6 +1519,16 @@ ContextWrapper
 .
 attachBaseContext
 '
+        
+'
+androidx
+.
+preference
+.
+PreferenceFragmentCompat
+.
+onCreatePreferences
+'
     
 ]
     
