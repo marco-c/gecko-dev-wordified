@@ -3530,6 +3530,9 @@ references
 are
 updated
 .
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -3542,6 +3545,11 @@ webrtc
 VirtualSocketServer
 ;
 }
+#
+endif
+/
+/
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 #
 endif
 /

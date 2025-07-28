@@ -556,6 +556,9 @@ references
 are
 updated
 .
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -572,6 +575,11 @@ AsyncUDPSocket
 /
 namespace
 rtc
+#
+endif
+/
+/
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 #
 endif
 /

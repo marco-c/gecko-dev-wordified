@@ -639,6 +639,9 @@ references
 are
 updated
 .
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -743,6 +746,11 @@ SetRandomTestMode
 /
 namespace
 rtc
+#
+endif
+/
+/
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 #
 endif
 /

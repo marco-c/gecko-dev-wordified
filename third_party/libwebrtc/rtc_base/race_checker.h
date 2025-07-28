@@ -361,6 +361,9 @@ references
 are
 updated
 .
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -377,6 +380,11 @@ RaceChecker
 /
 namespace
 rtc
+#
+endif
+/
+/
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 #
 define
 RTC_CHECK_RUNS_SERIALIZED

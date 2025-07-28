@@ -991,6 +991,9 @@ args
 /
 namespace
 webrtc
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -1029,6 +1032,11 @@ make_ref_counted
 /
 namespace
 rtc
+#
+endif
+/
+/
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 #
 endif
 /

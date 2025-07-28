@@ -1252,6 +1252,9 @@ references
 are
 updated
 .
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 cricket
 {
@@ -1284,6 +1287,11 @@ UsedRtpHeaderExtensionIds
 /
 namespace
 cricket
+#
+endif
+/
+/
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 #
 endif
 /

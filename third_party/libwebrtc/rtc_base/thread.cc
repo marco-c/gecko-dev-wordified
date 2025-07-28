@@ -4476,10 +4476,6 @@ nullptr
 #
 endif
 }
-/
-/
-namespace
-rtc
 void
 Thread
 :

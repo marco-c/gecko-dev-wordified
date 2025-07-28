@@ -1575,6 +1575,9 @@ get
 /
 namespace
 webrtc
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -1613,6 +1616,11 @@ scoped_refptr
 /
 namespace
 rtc
+#
+endif
+/
+/
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 #
 endif
 /

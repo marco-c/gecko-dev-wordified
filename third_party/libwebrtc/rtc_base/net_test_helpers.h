@@ -119,6 +119,9 @@ HasIPv6Enabled
 /
 namespace
 webrtc
+#
+ifdef
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 namespace
 rtc
 {
@@ -135,6 +138,11 @@ webrtc
 HasIPv6Enabled
 ;
 }
+#
+endif
+/
+/
+WEBRTC_ALLOW_DEPRECATED_NAMESPACES
 #
 endif
 /
