@@ -8650,7 +8650,7 @@ markAndTraversePrivateGCThing
 JSObject
 *
 source
-TenuredCell
+Cell
 *
 target
 )
@@ -11448,15 +11448,9 @@ opts
 >
 (
 obj
-&
 v
 .
 toGCThing
-(
-)
--
->
-asTenured
 (
 )
 )

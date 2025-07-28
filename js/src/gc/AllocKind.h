@@ -715,7 +715,7 @@ js
 :
 GetterSetter
 None
-false
+true
 true
 )
 \

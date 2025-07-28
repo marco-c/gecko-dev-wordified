@@ -1446,7 +1446,7 @@ trc
 gc
 :
 :
-TenuredCellWithGCPointer
+CellWithGCPointer
 <
 T
 >

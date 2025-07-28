@@ -3528,6 +3528,9 @@ allocStringsOut
 bool
 *
 allocBigIntsOut
+bool
+*
+allocGetterSettersOut
 )
 {
 *
@@ -3575,6 +3578,13 @@ zone
 >
 nurseryBigIntsDisabled
 ;
+*
+allocGetterSettersOut
+=
+isEnabled
+(
+)
+;
 }
 void
 js
@@ -3602,6 +3612,9 @@ allocStrings
 bool
 allocBigInts
 ;
+bool
+allocGetterSetters
+;
 getAllocFlagsForZone
 (
 zone
@@ -3611,6 +3624,8 @@ allocObjects
 allocStrings
 &
 allocBigInts
+&
+allocGetterSetters
 )
 ;
 zone
@@ -3621,6 +3636,7 @@ setNurseryAllocFlags
 allocObjects
 allocStrings
 allocBigInts
+allocGetterSetters
 )
 ;
 }
@@ -3650,6 +3666,9 @@ allocStrings
 bool
 allocBigInts
 ;
+bool
+allocGetterSetters
+;
 getAllocFlagsForZone
 (
 zone
@@ -3659,6 +3678,8 @@ allocObjects
 allocStrings
 &
 allocBigInts
+&
+allocGetterSetters
 )
 ;
 if
@@ -3694,6 +3715,17 @@ zone
 allocNurseryBigInts
 (
 )
+|
+|
+allocGetterSetters
+!
+=
+zone
+-
+>
+allocNurseryGetterSetters
+(
+)
 )
 {
 CancelOffThreadIonCompile
@@ -3709,6 +3741,7 @@ setNurseryAllocFlags
 allocObjects
 allocStrings
 allocBigInts
+allocGetterSetters
 )
 ;
 discardCodeAndSetJitFlagsForZone
