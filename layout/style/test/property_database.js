@@ -20300,17 +20300,6 @@ appearance
 "
 :
 {
-/
-/
-Hidden
-from
-CSSProperties
-see
-bug
-1977489
-.
-/
-/
 domProp
 :
 "
