@@ -5123,6 +5123,7 @@ cache
 AllocPCacheStorageParent
 (
 this
+nullptr
 aNamespace
 aPrincipalInfo
 )

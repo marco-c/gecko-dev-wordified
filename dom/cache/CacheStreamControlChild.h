@@ -195,8 +195,14 @@ PCacheStreamControlChild
 ;
 public
 :
+explicit
 CacheStreamControlChild
 (
+ActorChild
+*
+aParentActor
+=
+nullptr
 )
 ;
 /
@@ -326,6 +332,10 @@ IPCResult
 RecvCloseAll
 (
 )
+;
+ActorChild
+*
+mParentActor
 ;
 bool
 mDestroyStarted

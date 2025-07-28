@@ -180,6 +180,10 @@ CacheParent
 :
 CacheParent
 (
+const
+WeakRefParentType
+&
+aManagingActor
 SafeRefPtr
 <
 cache
@@ -192,6 +196,10 @@ CacheId
 aCacheId
 )
 :
+mManagingActor
+(
+aManagingActor
+)
 mManager
 (
 std
@@ -382,11 +390,9 @@ MakeAndAddRef
 CacheOpParent
 >
 (
-Manager
-(
-)
-mCacheId
+mManagingActor
 aOpArgs
+mCacheId
 )
 ;
 }
@@ -412,6 +418,7 @@ aOpArgs
 )
 {
 auto
+*
 actor
 =
 static_cast

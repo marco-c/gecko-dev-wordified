@@ -659,8 +659,6 @@ mRequest
 ;
 }
 ;
-namespace
-{
 bool
 IsTrusted
 (
@@ -1067,10 +1065,6 @@ hostLen
 )
 ;
 }
-}
-/
-/
-namespace
 /
 /
 static

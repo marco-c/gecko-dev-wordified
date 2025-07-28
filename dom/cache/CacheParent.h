@@ -184,6 +184,10 @@ public
 :
 CacheParent
 (
+const
+WeakRefParentType
+&
+aManagingActor
 SafeRefPtr
 <
 cache
@@ -259,6 +263,10 @@ IPCResult
 RecvTeardown
 (
 )
+;
+const
+WeakRefParentType
+mManagingActor
 ;
 SafeRefPtr
 <
