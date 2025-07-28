@@ -374,16 +374,6 @@ ipc
 :
 PBackgroundChild
 ;
-namespace
-{
-enum
-class
-PutStatusPolicy
-{
-Default
-RequireOK
-}
-;
 bool
 IsValidPutRequestURL
 (
@@ -484,7 +474,6 @@ return
 true
 ;
 }
-static
 bool
 IsValidPutRequestMethod
 (
@@ -538,7 +527,6 @@ return
 true
 ;
 }
-static
 bool
 IsValidPutRequestMethod
 (
@@ -600,7 +588,6 @@ aRv
 )
 ;
 }
-static
 bool
 IsValidPutResponseStatus
 (
@@ -689,10 +676,6 @@ return
 true
 ;
 }
-}
-/
-/
-namespace
 /
 /
 Helper
