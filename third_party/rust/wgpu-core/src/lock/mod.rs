@@ -461,6 +461,7 @@ chosen
 {
 Mutex
 MutexGuard
+RankData
 RwLock
 RwLockReadGuard
 RwLockWriteGuard
