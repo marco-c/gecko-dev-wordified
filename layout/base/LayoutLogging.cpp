@@ -114,16 +114,6 @@ MPL
 .
 *
 /
-/
-/
-Chromium
-headers
-must
-come
-before
-Mozilla
-headers
-.
 #
 include
 "
