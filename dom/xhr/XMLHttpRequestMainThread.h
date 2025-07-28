@@ -2696,12 +2696,6 @@ mPendingEvents
 ;
 nsCOMPtr
 <
-nsISupports
->
-mContext
-;
-nsCOMPtr
-<
 nsIPrincipal
 >
 mPrincipal

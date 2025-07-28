@@ -2536,10 +2536,6 @@ XMLHttpRequestEventTarget
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
-mContext
-)
-NS_IMPL_CYCLE_COLLECTION_TRAVERSE
-(
 mChannel
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
@@ -2606,10 +2602,6 @@ mResponseBlobImpl
 =
 nullptr
 ;
-NS_IMPL_CYCLE_COLLECTION_UNLINK
-(
-mContext
-)
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mChannel
@@ -13274,10 +13266,6 @@ status
 ;
 }
 mXMLParserStreamListener
-=
-nullptr
-;
-mContext
 =
 nullptr
 ;
