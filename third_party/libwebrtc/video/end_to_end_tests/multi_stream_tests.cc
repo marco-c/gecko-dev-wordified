@@ -244,9 +244,6 @@ class
 VideoOutputObserver
 :
 public
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

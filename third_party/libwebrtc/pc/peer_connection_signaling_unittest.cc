@@ -3624,9 +3624,6 @@ session_id
 ;
 EXPECT_LT
 (
-rtc
-:
-:
 FromString
 <
 uint64_t
@@ -3634,9 +3631,6 @@ uint64_t
 (
 original_version
 )
-rtc
-:
-:
 FromString
 <
 uint64_t
@@ -3769,9 +3763,6 @@ session_id
 ;
 EXPECT_LT
 (
-rtc
-:
-:
 FromString
 <
 uint64_t
@@ -3779,9 +3770,6 @@ uint64_t
 (
 original_version
 )
-rtc
-:
-:
 FromString
 <
 uint64_t

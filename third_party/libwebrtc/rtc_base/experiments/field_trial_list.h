@@ -555,9 +555,6 @@ absl
 string_view
 token
 :
-rtc
-:
-:
 split
 (
 str_value

@@ -4535,7 +4535,7 @@ std
 map
 <
 uint32_t
-rtc
+webrtc
 :
 :
 VideoSinkInterface
@@ -4574,7 +4574,7 @@ SetSink
 (
 uint32_t
 ssrc
-rtc
+webrtc
 :
 :
 VideoSinkInterface
@@ -4592,7 +4592,7 @@ override
 void
 SetDefaultSink
 (
-rtc
+webrtc
 :
 :
 VideoSinkInterface
@@ -4871,7 +4871,7 @@ std
 map
 <
 uint32_t
-rtc
+webrtc
 :
 :
 VideoSinkInterface
@@ -4891,7 +4891,7 @@ std
 map
 <
 uint32_t
-rtc
+webrtc
 :
 :
 VideoSourceInterface
@@ -5039,7 +5039,7 @@ std
 map
 <
 uint32_t
-rtc
+webrtc
 :
 :
 VideoSinkInterface
@@ -5103,7 +5103,7 @@ const
 VideoOptions
 *
 options
-rtc
+webrtc
 :
 :
 VideoSourceInterface
@@ -5326,7 +5326,7 @@ std
 map
 <
 uint32_t
-rtc
+webrtc
 :
 :
 VideoSourceInterface

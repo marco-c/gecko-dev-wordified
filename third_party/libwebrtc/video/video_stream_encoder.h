@@ -715,9 +715,6 @@ override
 void
 SetSource
 (
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame

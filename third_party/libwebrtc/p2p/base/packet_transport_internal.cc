@@ -162,7 +162,7 @@ socket
 h
 "
 namespace
-rtc
+webrtc
 {
 PacketTransportInternal
 :
@@ -189,9 +189,6 @@ PacketTransportInternal
 :
 GetOption
 (
-webrtc
-:
-:
 Socket
 :
 :
@@ -219,9 +216,6 @@ std
 :
 optional
 <
-webrtc
-:
-:
 NetworkRoute
 >
 PacketTransportInternal
@@ -238,9 +232,6 @@ std
 :
 optional
 <
-webrtc
-:
-:
 NetworkRoute
 >
 (
@@ -263,6 +254,9 @@ AnyInvocable
 <
 void
 (
+webrtc
+:
+:
 PacketTransportInternal
 *
 const
@@ -438,4 +432,4 @@ nullptr
 /
 /
 namespace
-rtc
+webrtc

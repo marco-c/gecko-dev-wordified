@@ -1133,15 +1133,9 @@ OnCertificateRequestFailed
 }
 }
 ;
-rtc
-:
-:
 KeyParams
 key_params
 =
-rtc
-:
-:
 KeyParams
 (
 )

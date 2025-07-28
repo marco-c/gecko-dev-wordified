@@ -329,9 +329,6 @@ false
 void
 AddOrUpdateSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -339,9 +336,6 @@ VideoFrame
 *
 sink
 const
-rtc
-:
-:
 VideoSinkWants
 &
 wants
@@ -351,9 +345,6 @@ override
 void
 RemoveSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -588,9 +579,6 @@ stream_label_
 protected
 :
 virtual
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame

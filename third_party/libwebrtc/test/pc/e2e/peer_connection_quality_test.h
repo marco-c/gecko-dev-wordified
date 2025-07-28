@@ -960,9 +960,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

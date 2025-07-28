@@ -426,9 +426,6 @@ RtpTransport
 :
 SetRtpPacketTransport
 (
-rtc
-:
-:
 PacketTransportInternal
 *
 new_packet_transport
@@ -669,9 +666,6 @@ RtpTransport
 :
 SetRtcpPacketTransport
 (
-rtc
-:
-:
 PacketTransportInternal
 *
 new_packet_transport
@@ -931,9 +925,6 @@ rtcp
 )
 const
 {
-rtc
-:
-:
 PacketTransportInternal
 *
 transport
@@ -1051,9 +1042,6 @@ int
 flags
 )
 {
-rtc
-:
-:
 PacketTransportInternal
 *
 transport
@@ -1518,9 +1506,6 @@ RtpTransport
 :
 OnReadyToSend
 (
-rtc
-:
-:
 PacketTransportInternal
 *
 transport
@@ -1564,9 +1549,6 @@ RtpTransport
 :
 OnWritableState
 (
-rtc
-:
-:
 PacketTransportInternal
 *
 packet_transport
@@ -1600,9 +1582,6 @@ RtpTransport
 :
 OnSentPacket
 (
-rtc
-:
-:
 PacketTransportInternal
 *
 packet_transport
@@ -1819,9 +1798,6 @@ RtpTransport
 :
 OnReadPacket
 (
-rtc
-:
-:
 PacketTransportInternal
 *
 transport

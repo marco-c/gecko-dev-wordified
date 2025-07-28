@@ -645,9 +645,6 @@ virtual
 void
 SetSource
 (
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame

@@ -151,9 +151,6 @@ VcmCapturer
 public
 TestVideoCapturer
 public
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

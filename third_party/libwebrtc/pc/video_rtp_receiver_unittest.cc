@@ -415,9 +415,6 @@ class
 MockVideoSink
 :
 public
-rtc
-:
-:
 VideoSinkInterface
 <
 RecordableEncodedFrame

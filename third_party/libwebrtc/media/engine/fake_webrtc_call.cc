@@ -2123,9 +2123,6 @@ FakeVideoSendStream
 :
 SetSource
 (
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame
@@ -2238,9 +2235,6 @@ resolution_scaling_enabled_
 ?
 sink_wants_
 :
-rtc
-:
-:
 VideoSinkWants
 (
 )
@@ -2280,9 +2274,6 @@ FakeVideoSendStream
 InjectVideoSinkWants
 (
 const
-rtc
-:
-:
 VideoSinkWants
 &
 wants

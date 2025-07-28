@@ -549,13 +549,6 @@ string_builder
 h
 "
 namespace
-rtc
-{
-class
-Timing
-;
-}
-namespace
 webrtc
 {
 class
@@ -7856,7 +7849,7 @@ const
 VideoOptions
 *
 options
-rtc
+webrtc
 :
 :
 VideoSourceInterface
@@ -8210,7 +8203,7 @@ SetSink
 (
 uint32_t
 ssrc
-rtc
+webrtc
 :
 :
 VideoSinkInterface
@@ -8243,7 +8236,7 @@ virtual
 void
 SetDefaultSink
 (
-rtc
+webrtc
 :
 :
 VideoSinkInterface

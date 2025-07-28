@@ -489,9 +489,6 @@ class
 CapturedFrameTap
 :
 public
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -567,17 +564,11 @@ class
 ForwardingCapturedFrameTap
 :
 public
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
 >
 public
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame
@@ -593,9 +584,6 @@ clock
 VideoFrameMatcher
 *
 matcher
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame
@@ -657,9 +645,6 @@ VideoFrame
 *
 sink
 const
-rtc
-:
-:
 VideoSinkWants
 &
 wants
@@ -690,9 +675,6 @@ VideoFrameMatcher
 const
 matcher_
 ;
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame
@@ -721,9 +703,6 @@ class
 DecodedFrameTap
 :
 public
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

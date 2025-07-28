@@ -1820,9 +1820,6 @@ video
 AddOrUpdateSink
 (
 sink
-rtc
-:
-:
 VideoSinkWants
 (
 )
@@ -2603,9 +2600,6 @@ std
 :
 string
 track_id
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

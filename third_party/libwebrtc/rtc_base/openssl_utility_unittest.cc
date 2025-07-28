@@ -285,7 +285,7 @@ gmock
 h
 "
 namespace
-rtc
+webrtc
 {
 namespace
 {
@@ -2767,4 +2767,4 @@ ssl
 /
 /
 namespace
-rtc
+webrtc

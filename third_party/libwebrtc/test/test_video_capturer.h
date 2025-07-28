@@ -168,9 +168,6 @@ class
 TestVideoCapturer
 :
 public
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame
@@ -214,9 +211,6 @@ override
 void
 AddOrUpdateSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -224,9 +218,6 @@ VideoFrame
 *
 sink
 const
-rtc
-:
-:
 VideoSinkWants
 &
 wants
@@ -236,9 +227,6 @@ override
 void
 RemoveSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -404,9 +392,6 @@ VideoFrame
 frame
 )
 ;
-rtc
-:
-:
 VideoSinkWants
 GetSinkWants
 (
@@ -453,9 +438,6 @@ lock_
 =
 true
 ;
-rtc
-:
-:
 VideoBroadcaster
 broadcaster_
 ;

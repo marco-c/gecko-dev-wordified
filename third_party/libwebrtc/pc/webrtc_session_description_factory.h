@@ -793,9 +793,6 @@ TaskQueueBase
 const
 signaling_thread_
 ;
-cricket
-:
-:
 TransportDescriptionFactory
 transport_desc_factory_
 ;

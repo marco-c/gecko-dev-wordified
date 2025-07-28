@@ -1349,9 +1349,6 @@ class
 NullRenderer
 :
 public
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -1376,9 +1373,6 @@ class
 FileRenderPassthrough
 :
 public
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -1395,9 +1389,6 @@ std
 string
 &
 basename
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -1540,9 +1531,6 @@ std
 string
 basename_
 ;
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -1968,9 +1956,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -2620,9 +2605,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

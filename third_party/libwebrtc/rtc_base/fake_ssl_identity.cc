@@ -294,17 +294,11 @@ der_string
 ;
 RTC_CHECK
 (
-rtc
-:
-:
 SSLIdentity
 :
 :
 PemToDer
 (
-rtc
-:
-:
 kPemTypeCertificate
 pem_string_
 &
@@ -650,9 +644,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLIdentity
 >
 FakeSSLIdentity
@@ -779,9 +770,6 @@ operator
 =
 (
 const
-rtc
-:
-:
 SSLIdentity
 &
 other

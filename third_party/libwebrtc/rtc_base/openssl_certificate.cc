@@ -227,7 +227,7 @@ openssl_utility
 h
 "
 namespace
-rtc
+webrtc
 {
 namespace
 {
@@ -1873,4 +1873,4 @@ long_format
 /
 /
 namespace
-rtc
+webrtc

@@ -172,9 +172,6 @@ class
 MockVideoSinkInterfaceVideoFrame
 :
 public
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -297,9 +294,6 @@ AddOrUpdateSink
 (
 &
 mock_sink
-rtc
-:
-:
 VideoSinkWants
 (
 )
@@ -434,9 +428,6 @@ AddOrUpdateSink
 (
 &
 mock_sink
-rtc
-:
-:
 VideoSinkWants
 (
 )
@@ -828,9 +819,6 @@ AddOrUpdateSink
 (
 &
 mock_sink
-rtc
-:
-:
 VideoSinkWants
 (
 )
@@ -982,9 +970,6 @@ AddOrUpdateSink
 (
 &
 mock_sink
-rtc
-:
-:
 VideoSinkWants
 (
 )

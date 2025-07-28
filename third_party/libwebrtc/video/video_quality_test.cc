@@ -12436,9 +12436,6 @@ local_preview
 get
 (
 )
-rtc
-:
-:
 VideoSinkWants
 (
 )

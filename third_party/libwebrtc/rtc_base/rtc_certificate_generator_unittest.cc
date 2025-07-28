@@ -481,9 +481,6 @@ RTCCertificateGenerator
 :
 GenerateCertificate
 (
-rtc
-:
-:
 KeyParams
 :
 :
@@ -511,9 +508,6 @@ RTCCertificateGenerator
 :
 GenerateCertificate
 (
-rtc
-:
-:
 KeyParams
 :
 :
@@ -552,9 +546,6 @@ generator
 >
 GenerateCertificateAsync
 (
-rtc
-:
-:
 KeyParams
 :
 :
@@ -784,9 +775,6 @@ RTCCertificateGenerator
 :
 GenerateCertificate
 (
-rtc
-:
-:
 KeyParams
 :
 :
@@ -829,9 +817,6 @@ RTCCertificateGenerator
 :
 GenerateCertificate
 (
-rtc
-:
-:
 KeyParams
 :
 :
@@ -935,15 +920,9 @@ RTCCertificateGeneratorTest
 GenerateWithInvalidParamsShouldFail
 )
 {
-rtc
-:
-:
 KeyParams
 invalid_params
 =
-rtc
-:
-:
 KeyParams
 :
 :

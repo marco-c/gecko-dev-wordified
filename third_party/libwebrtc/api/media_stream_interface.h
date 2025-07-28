@@ -763,9 +763,6 @@ VideoTrackSourceInterface
 public
 MediaSourceInterface
 public
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame
@@ -1083,9 +1080,6 @@ virtual
 void
 AddEncodedSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 RecordableEncodedFrame
@@ -1111,9 +1105,6 @@ virtual
 void
 RemoveEncodedSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 RecordableEncodedFrame
@@ -1286,9 +1277,6 @@ VideoTrackInterface
 public
 MediaStreamTrackInterface
 public
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame
@@ -1377,9 +1365,6 @@ engine
 void
 AddOrUpdateSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -1391,9 +1376,6 @@ sink
 *
 /
 const
-rtc
-:
-:
 VideoSinkWants
 &
 /
@@ -1408,9 +1390,6 @@ override
 void
 RemoveSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

@@ -1650,9 +1650,6 @@ test
 :
 EndToEndTest
 public
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -2152,9 +2149,6 @@ test
 :
 EndToEndTest
 public
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -3097,9 +3091,6 @@ kFakeVideoSendPayloadType
 Mutex
 mutex_
 ;
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

@@ -522,9 +522,6 @@ RTCCertificate
 :
 Create
 (
-rtc
-:
-:
 SSLIdentity
 :
 :
@@ -533,9 +530,6 @@ Create
 "
 session1
 "
-rtc
-:
-:
 KT_DEFAULT
 )
 )
@@ -556,9 +550,6 @@ RTCCertificate
 :
 Create
 (
-rtc
-:
-:
 SSLIdentity
 :
 :
@@ -567,9 +558,6 @@ Create
 "
 session1
 "
-rtc
-:
-:
 KT_DEFAULT
 )
 )

@@ -162,9 +162,6 @@ callback_
 nullptr
 ;
 }
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame
@@ -182,9 +179,6 @@ return
 broadcaster_
 ;
 }
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -294,9 +288,6 @@ VideoRtpTrackSource
 :
 AddEncodedSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 RecordableEncodedFrame
@@ -400,9 +391,6 @@ VideoRtpTrackSource
 :
 RemoveEncodedSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 RecordableEncodedFrame

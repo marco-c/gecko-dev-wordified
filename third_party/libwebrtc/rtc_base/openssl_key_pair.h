@@ -207,9 +207,6 @@ OpenSSLKeyPair
 Generate
 (
 const
-rtc
-:
-:
 KeyParams
 &
 key_params

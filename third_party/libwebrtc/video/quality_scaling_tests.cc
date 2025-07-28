@@ -1267,9 +1267,6 @@ kInitialHeight
 void
 OnSinkWantsChanged
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -1277,9 +1274,6 @@ VideoFrame
 *
 sink
 const
-rtc
-:
-:
 VideoSinkWants
 &
 wants
@@ -1405,9 +1399,6 @@ kInitialHeight
 void
 OnSinkWantsChanged
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -1415,9 +1406,6 @@ VideoFrame
 *
 sink
 const
-rtc
-:
-:
 VideoSinkWants
 &
 wants
@@ -1467,9 +1455,6 @@ last_wants_
 wants
 ;
 }
-rtc
-:
-:
 VideoSinkWants
 last_wants_
 ;

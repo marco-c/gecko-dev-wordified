@@ -557,9 +557,6 @@ IsAcceptableCipher
 (
 int
 cipher
-rtc
-:
-:
 KeyType
 key_type
 )
@@ -586,9 +583,6 @@ absl
 :
 string_view
 cipher
-rtc
-:
-:
 KeyType
 key_type
 )

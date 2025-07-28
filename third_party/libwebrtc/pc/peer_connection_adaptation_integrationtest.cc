@@ -593,9 +593,6 @@ is
 observed
 "
 .
-rtc
-:
-:
 VideoSinkWants
 TriggerOveruseAndGetSinkWants
 (

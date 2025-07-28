@@ -1481,9 +1481,6 @@ rates
 in
 microseconds
 .
-rtc
-:
-:
 RollingAccumulator
 <
 uint64_t

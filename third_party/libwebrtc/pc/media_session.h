@@ -400,9 +400,6 @@ UniqueRandomIdGenerator
 *
 ssrc_generator
 const
-cricket
-:
-:
 TransportDescriptionFactory
 *
 factory
@@ -571,9 +568,6 @@ string
 &
 content_name
 const
-cricket
-:
-:
 TransportOptions
 &
 transport_options
@@ -617,9 +611,6 @@ SessionDescription
 *
 offer_desc
 const
-cricket
-:
-:
 TransportOptions
 &
 transport_options
@@ -1038,9 +1029,6 @@ enable_encrypted_rtp_header_extensions_
 true
 ;
 const
-cricket
-:
-:
 TransportDescriptionFactory
 *
 transport_desc_factory_

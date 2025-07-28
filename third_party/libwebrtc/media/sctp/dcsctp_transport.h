@@ -855,9 +855,6 @@ DisconnectTransportSignals
 void
 OnTransportWritableState
 (
-rtc
-:
-:
 PacketTransportInternal
 *
 transport
@@ -866,9 +863,6 @@ transport
 void
 OnTransportReadPacket
 (
-rtc
-:
-:
 PacketTransportInternal
 *
 transport

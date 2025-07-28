@@ -5104,9 +5104,6 @@ DcSctpTransport
 :
 OnTransportWritableState
 (
-rtc
-:
-:
 PacketTransportInternal
 *
 transport
@@ -5356,9 +5353,6 @@ DcSctpTransport
 :
 OnTransportReadPacket
 (
-rtc
-:
-:
 PacketTransportInternal
 *
 /

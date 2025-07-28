@@ -11479,7 +11479,7 @@ const
 VideoOptions
 *
 options
-rtc
+webrtc
 :
 :
 VideoSourceInterface
@@ -14029,7 +14029,7 @@ const
 VideoOptions
 *
 options
-rtc
+webrtc
 :
 :
 VideoSourceInterface
@@ -23225,7 +23225,7 @@ SetSink
 (
 uint32_t
 ssrc
-rtc
+webrtc
 :
 :
 VideoSinkInterface
@@ -23327,7 +23327,7 @@ WebRtcVideoReceiveChannel
 :
 SetDefaultSink
 (
-rtc
+webrtc
 :
 :
 VideoSinkInterface
@@ -27163,7 +27163,7 @@ WebRtcVideoReceiveStream
 :
 SetSink
 (
-rtc
+webrtc
 :
 :
 VideoSinkInterface

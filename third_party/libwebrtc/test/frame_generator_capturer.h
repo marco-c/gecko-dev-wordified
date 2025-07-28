@@ -303,9 +303,6 @@ virtual
 void
 OnSinkWantsChanged
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -313,9 +310,6 @@ VideoFrame
 *
 sink
 const
-rtc
-:
-:
 VideoSinkWants
 &
 wants
@@ -459,9 +453,6 @@ observer
 void
 AddOrUpdateSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -469,9 +460,6 @@ VideoFrame
 *
 sink
 const
-rtc
-:
-:
 VideoSinkWants
 &
 wants
@@ -481,9 +469,6 @@ override
 void
 RemoveSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

@@ -276,9 +276,6 @@ PacketReceiver
 public
 Transport
 public
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -361,9 +358,6 @@ receiver
 void
 SetSource
 (
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame
@@ -406,9 +400,6 @@ AudioReceiveStreamInterface
 recv_stream
 )
 ;
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -418,9 +409,6 @@ InputInterface
 (
 )
 ;
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame
@@ -765,17 +753,11 @@ class
 CapturedFrameForwarder
 :
 public
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
 >
 public
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame
@@ -800,9 +782,6 @@ test_duration
 void
 SetSource
 (
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame
@@ -842,9 +821,6 @@ called
 void
 AddOrUpdateSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -852,9 +828,6 @@ VideoFrame
 *
 sink
 const
-rtc
-:
-:
 VideoSinkWants
 &
 wants
@@ -882,9 +855,6 @@ called
 void
 RemoveSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -906,9 +876,6 @@ analyzer_
 Mutex
 lock_
 ;
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

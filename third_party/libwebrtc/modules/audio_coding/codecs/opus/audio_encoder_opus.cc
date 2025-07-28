@@ -1243,9 +1243,6 @@ string
 >
 pieces
 ;
-rtc
-:
-:
 tokenize
 (
 field_trial_string
@@ -1355,9 +1352,6 @@ i
 if
 (
 !
-rtc
-:
-:
 FromString
 (
 pieces

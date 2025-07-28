@@ -122,9 +122,6 @@ class
 VideoRenderer
 :
 public
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

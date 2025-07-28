@@ -1260,7 +1260,7 @@ void
 GenerateCertificateAsync
 (
 const
-rtc
+webrtc
 :
 :
 KeyParams
@@ -1335,7 +1335,7 @@ type
 )
 =
 =
-rtc
+webrtc
 :
 :
 KT_RSA
@@ -1375,7 +1375,7 @@ key_params
 type
 (
 )
-rtc
+webrtc
 :
 :
 KT_ECDSA
@@ -1388,14 +1388,14 @@ key_params
 ec_curve
 (
 )
-rtc
+webrtc
 :
 :
 EC_NIST_P256
 )
 ;
 }
-rtc
+webrtc
 :
 :
 KeyType
@@ -1470,14 +1470,14 @@ GenerateCertificate
 {
 switch
 (
-rtc
+webrtc
 :
 :
 KT_DEFAULT
 )
 {
 case
-rtc
+webrtc
 :
 :
 KT_RSA
@@ -1498,7 +1498,7 @@ kRsaPems
 )
 ;
 case
-rtc
+webrtc
 :
 :
 KT_ECDSA
@@ -1540,7 +1540,7 @@ RTCCertificatePEM
 get_pem
 (
 const
-rtc
+webrtc
 :
 :
 KeyType
@@ -1555,7 +1555,7 @@ key_type
 )
 {
 case
-rtc
+webrtc
 :
 :
 KT_RSA
@@ -1567,7 +1567,7 @@ key_index_
 ]
 ;
 case
-rtc
+webrtc
 :
 :
 KT_ECDSA
@@ -1601,7 +1601,7 @@ string
 get_key
 (
 const
-rtc
+webrtc
 :
 :
 KeyType
@@ -1630,7 +1630,7 @@ string
 get_cert
 (
 const
-rtc
+webrtc
 :
 :
 KeyType
@@ -1653,7 +1653,7 @@ certificate
 void
 GenerateCertificate
 (
-rtc
+webrtc
 :
 :
 KeyType

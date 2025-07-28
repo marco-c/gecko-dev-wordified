@@ -352,7 +352,7 @@ class
 DtlsTransportInternal
 :
 public
-rtc
+webrtc
 :
 :
 PacketTransportInternal

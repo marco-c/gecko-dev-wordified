@@ -1516,7 +1516,7 @@ const
 VideoOptions
 *
 options
-rtc
+webrtc
 :
 :
 VideoSourceInterface
@@ -2469,7 +2469,7 @@ const
 VideoOptions
 *
 options
-rtc
+webrtc
 :
 :
 VideoSourceInterface
@@ -2973,7 +2973,7 @@ const
 bool
 enable_cpu_overuse_detection_
 ;
-rtc
+webrtc
 :
 :
 VideoSourceInterface
@@ -3413,7 +3413,7 @@ Call
 const
 call_
 ;
-rtc
+webrtc
 :
 :
 VideoSinkInterface
@@ -4460,7 +4460,7 @@ SetSink
 (
 uint32_t
 ssrc
-rtc
+webrtc
 :
 :
 VideoSinkInterface
@@ -4478,7 +4478,7 @@ override
 void
 SetDefaultSink
 (
-rtc
+webrtc
 :
 :
 VideoSinkInterface
@@ -5079,7 +5079,7 @@ class
 WebRtcVideoReceiveStream
 :
 public
-rtc
+webrtc
 :
 :
 VideoSinkInterface
@@ -5321,7 +5321,7 @@ const
 void
 SetSink
 (
-rtc
+webrtc
 :
 :
 VideoSinkInterface
@@ -5594,7 +5594,7 @@ webrtc
 Mutex
 sink_lock_
 ;
-rtc
+webrtc
 :
 :
 VideoSinkInterface
@@ -5811,7 +5811,7 @@ Call
 const
 call_
 ;
-rtc
+webrtc
 :
 :
 VideoSinkInterface

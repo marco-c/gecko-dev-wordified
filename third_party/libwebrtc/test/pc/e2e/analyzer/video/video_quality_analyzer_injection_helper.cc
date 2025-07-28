@@ -396,9 +396,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -542,9 +539,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -791,9 +785,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

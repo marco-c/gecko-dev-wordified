@@ -351,9 +351,6 @@ class
 FakeSSLIdentity
 :
 public
-rtc
-:
-:
 SSLIdentity
 {
 public
@@ -482,9 +479,6 @@ operator
 =
 (
 const
-rtc
-:
-:
 SSLIdentity
 &
 other
@@ -498,9 +492,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLIdentity
 >
 CloneInternal

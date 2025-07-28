@@ -392,9 +392,6 @@ backs
 void
 RegisterCaptureDataCallback
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -731,9 +728,6 @@ std
 :
 set
 <
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

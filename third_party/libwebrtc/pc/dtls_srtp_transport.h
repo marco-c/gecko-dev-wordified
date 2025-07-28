@@ -499,9 +499,6 @@ OnWritableState
 void
 OnWritableState
 (
-rtc
-:
-:
 PacketTransportInternal
 *
 packet_transport

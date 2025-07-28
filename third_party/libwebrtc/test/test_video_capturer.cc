@@ -572,9 +572,6 @@ frame
 ;
 }
 }
-rtc
-:
-:
 VideoSinkWants
 TestVideoCapturer
 :
@@ -597,9 +594,6 @@ TestVideoCapturer
 :
 AddOrUpdateSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -607,9 +601,6 @@ VideoFrame
 *
 sink
 const
-rtc
-:
-:
 VideoSinkWants
 &
 wants
@@ -634,9 +625,6 @@ TestVideoCapturer
 :
 RemoveSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

@@ -955,9 +955,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLIdentity
 >
 identity
@@ -966,9 +963,6 @@ identity
 0
 ;
 virtual
-rtc
-:
-:
 SSLIdentity
 *
 GetIdentityForTesting
@@ -1971,9 +1965,6 @@ IsAcceptableCipher
 (
 int
 cipher
-rtc
-:
-:
 KeyType
 key_type
 )
@@ -1987,9 +1978,6 @@ absl
 :
 string_view
 cipher
-rtc
-:
-:
 KeyType
 key_type
 )

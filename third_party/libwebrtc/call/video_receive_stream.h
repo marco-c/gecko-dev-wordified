@@ -2040,9 +2040,6 @@ always
 be
 set
 .
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

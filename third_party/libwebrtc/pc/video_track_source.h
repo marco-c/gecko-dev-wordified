@@ -334,9 +334,6 @@ false
 void
 AddOrUpdateSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -344,9 +341,6 @@ VideoFrame
 *
 sink
 const
-rtc
-:
-:
 VideoSinkWants
 &
 wants
@@ -356,9 +350,6 @@ override
 void
 RemoveSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -389,9 +380,6 @@ override
 void
 AddEncodedSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 RecordableEncodedFrame
@@ -405,9 +393,6 @@ override
 void
 RemoveEncodedSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 RecordableEncodedFrame
@@ -421,9 +406,6 @@ override
 protected
 :
 virtual
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame

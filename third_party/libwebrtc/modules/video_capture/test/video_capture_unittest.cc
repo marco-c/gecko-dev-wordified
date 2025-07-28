@@ -347,7 +347,7 @@ class
 TestVideoCaptureCallback
 :
 public
-rtc
+webrtc
 :
 :
 VideoSinkInterface
@@ -942,7 +942,7 @@ OpenVideoCaptureDevice
 unsigned
 int
 device
-rtc
+webrtc
 :
 :
 VideoSinkInterface

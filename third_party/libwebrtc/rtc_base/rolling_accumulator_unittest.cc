@@ -106,7 +106,7 @@ gtest
 h
 "
 namespace
-rtc
+webrtc
 {
 namespace
 {
@@ -1128,4 +1128,4 @@ ComputeVariance
 /
 /
 namespace
-rtc
+webrtc

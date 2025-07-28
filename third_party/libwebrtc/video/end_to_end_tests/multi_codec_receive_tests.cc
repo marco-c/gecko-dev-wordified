@@ -466,9 +466,6 @@ test
 :
 RtpRtcpObserver
 public
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

@@ -1164,7 +1164,7 @@ explicit
 SSLAdapterTestDummyServer
 (
 const
-rtc
+webrtc
 :
 :
 KeyParams
@@ -1177,7 +1177,7 @@ SSLAdapterTestDummy
 )
 ssl_identity_
 (
-rtc
+webrtc
 :
 :
 SSLIdentity
@@ -1380,7 +1380,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 SSLIdentity
@@ -1413,7 +1413,7 @@ explicit
 SSLAdapterTestBase
 (
 const
-rtc
+webrtc
 :
 :
 KeyParams
@@ -2179,7 +2179,7 @@ SSLAdapterTestTLS_RSA
 :
 SSLAdapterTestBase
 (
-rtc
+webrtc
 :
 :
 KeyParams
@@ -2207,7 +2207,7 @@ SSLAdapterTestTLS_ECDSA
 :
 SSLAdapterTestBase
 (
-rtc
+webrtc
 :
 :
 KeyParams

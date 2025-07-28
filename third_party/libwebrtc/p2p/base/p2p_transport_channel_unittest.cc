@@ -3359,7 +3359,7 @@ bool
 HasTransport
 (
 const
-rtc
+webrtc
 :
 :
 PacketTransportInternal
@@ -3398,7 +3398,7 @@ ChannelData
 *
 GetChannelData
 (
-rtc
+webrtc
 :
 :
 PacketTransportInternal
@@ -3629,7 +3629,7 @@ ChannelData
 *
 GetChannelData
 (
-rtc
+webrtc
 :
 :
 PacketTransportInternal
@@ -6980,7 +6980,7 @@ has_value
 void
 OnReadyToSend
 (
-rtc
+webrtc
 :
 :
 PacketTransportInternal
@@ -7720,7 +7720,7 @@ candidate
 void
 OnReadPacket
 (
-rtc
+webrtc
 :
 :
 PacketTransportInternal
@@ -7846,7 +7846,7 @@ new_role
 void
 OnSentPacket
 (
-rtc
+webrtc
 :
 :
 PacketTransportInternal
@@ -8026,7 +8026,7 @@ Endpoint
 *
 GetEndpoint
 (
-rtc
+webrtc
 :
 :
 PacketTransportInternal
@@ -8161,7 +8161,7 @@ string
 &
 GetPacketList
 (
-rtc
+webrtc
 :
 :
 PacketTransportInternal
@@ -31830,7 +31830,7 @@ nullopt
 void
 OnReadyToSend
 (
-rtc
+webrtc
 :
 :
 PacketTransportInternal

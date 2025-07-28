@@ -379,13 +379,6 @@ separate
 cl
 .
 namespace
-rtc
-{
-class
-TimestampWrapAroundHandler
-;
-}
-namespace
 webrtc
 {
 class

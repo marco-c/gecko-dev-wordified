@@ -238,9 +238,6 @@ string_view
 >
 fields
 =
-rtc
-:
-:
 split
 (
 line

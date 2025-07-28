@@ -706,9 +706,6 @@ std
 string
 result
 =
-rtc
-:
-:
 hex_encode
 (
 buffer

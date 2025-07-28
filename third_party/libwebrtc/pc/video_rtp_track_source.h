@@ -396,9 +396,6 @@ const
 /
 /
 VideoTrackSource
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame
@@ -409,9 +406,6 @@ source
 )
 override
 ;
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -481,9 +475,6 @@ thread
 void
 AddEncodedSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 RecordableEncodedFrame
@@ -511,9 +502,6 @@ thread
 void
 RemoveEncodedSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 RecordableEncodedFrame
@@ -569,9 +557,6 @@ consider
 the
 VideoSinkWants
 .
-rtc
-:
-:
 VideoBroadcaster
 broadcaster_
 ;
@@ -584,9 +569,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 VideoSinkInterface
 <
 RecordableEncodedFrame

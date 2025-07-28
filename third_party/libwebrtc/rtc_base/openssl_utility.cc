@@ -248,7 +248,7 @@ endif
 /
 WEBRTC_EXCLUDE_BUILT_IN_SSL_ROOT_CERTS
 namespace
-rtc
+webrtc
 {
 namespace
 openssl
@@ -916,6 +916,9 @@ expiration_time
 *
 expiration_time
 =
+webrtc
+:
+:
 ASN1TimeToSec
 (
 CBS_data
@@ -1656,4 +1659,4 @@ openssl
 /
 /
 namespace
-rtc
+webrtc

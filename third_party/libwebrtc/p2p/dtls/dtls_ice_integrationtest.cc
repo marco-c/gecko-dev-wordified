@@ -1632,7 +1632,7 @@ RTCCertificate
 :
 Create
 (
-rtc
+webrtc
 :
 :
 SSLIdentity
@@ -1643,7 +1643,7 @@ Create
 "
 test
 "
-rtc
+webrtc
 :
 :
 KT_DEFAULT
@@ -1661,7 +1661,7 @@ RTCCertificate
 :
 Create
 (
-rtc
+webrtc
 :
 :
 SSLIdentity
@@ -1672,7 +1672,7 @@ Create
 "
 test
 "
-rtc
+webrtc
 :
 :
 KT_DEFAULT

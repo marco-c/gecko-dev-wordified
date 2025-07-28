@@ -4330,7 +4330,7 @@ DtlsTransport
 :
 OnWritableState
 (
-rtc
+webrtc
 :
 :
 PacketTransportInternal
@@ -4762,7 +4762,7 @@ DtlsTransport
 :
 OnReceivingState
 (
-rtc
+webrtc
 :
 :
 PacketTransportInternal
@@ -4861,7 +4861,7 @@ DtlsTransport
 :
 OnReadPacket
 (
-rtc
+webrtc
 :
 :
 PacketTransportInternal
@@ -5467,7 +5467,7 @@ DtlsTransport
 :
 OnSentPacket
 (
-rtc
+webrtc
 :
 :
 PacketTransportInternal
@@ -5505,7 +5505,7 @@ DtlsTransport
 :
 OnReadyToSend
 (
-rtc
+webrtc
 :
 :
 PacketTransportInternal
@@ -7209,7 +7209,7 @@ AnyInvocable
 <
 void
 (
-rtc
+webrtc
 :
 :
 PacketTransportInternal

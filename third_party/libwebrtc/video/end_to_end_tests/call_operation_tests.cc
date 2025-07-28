@@ -489,9 +489,6 @@ class
 Renderer
 :
 public
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -817,9 +814,6 @@ class
 Renderer
 :
 public
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

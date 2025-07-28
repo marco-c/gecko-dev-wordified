@@ -262,9 +262,6 @@ class
 FrameCadenceAdapterInterface
 :
 public
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

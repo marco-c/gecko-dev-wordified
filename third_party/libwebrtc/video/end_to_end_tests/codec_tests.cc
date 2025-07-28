@@ -368,9 +368,6 @@ test
 :
 EndToEndTest
 public
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

@@ -636,9 +636,6 @@ string_view
 >
 tokens
 =
-rtc
-:
-:
 split
 (
 trials_string

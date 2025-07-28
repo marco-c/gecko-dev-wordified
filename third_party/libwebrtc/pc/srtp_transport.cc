@@ -1282,9 +1282,6 @@ SrtpTransport
 :
 OnWritableState
 (
-rtc
-:
-:
 PacketTransportInternal
 *
 packet_transport

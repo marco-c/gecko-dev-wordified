@@ -13902,9 +13902,6 @@ OldGetStats
 DtlsCipher
 (
 )
-rtc
-:
-:
 KT_DEFAULT
 )
 ;
@@ -14096,9 +14093,6 @@ OldGetStats
 DtlsCipher
 (
 )
-rtc
-:
-:
 KT_DEFAULT
 )
 ;
@@ -36783,9 +36777,6 @@ sdp
 auto
 identity
 =
-rtc
-:
-:
 SSLIdentity
 :
 :
@@ -36794,9 +36785,6 @@ Create
 "
 NewIdentity
 "
-rtc
-:
-:
 KT_DEFAULT
 )
 ;
@@ -40005,9 +39993,6 @@ apt_value
 ;
 ASSERT_TRUE
 (
-rtc
-:
-:
 FromString
 (
 apt_it

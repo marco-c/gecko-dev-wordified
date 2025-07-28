@@ -1966,9 +1966,6 @@ RTC_EXPORT
 IceTransportInternal
 :
 public
-rtc
-:
-:
 PacketTransportInternal
 {
 public

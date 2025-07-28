@@ -2520,7 +2520,7 @@ const
 VideoOptions
 *
 options
-rtc
+webrtc
 :
 :
 VideoSourceInterface
@@ -2854,7 +2854,7 @@ std
 map
 <
 uint32_t
-rtc
+webrtc
 :
 :
 VideoSinkInterface
@@ -2938,7 +2938,7 @@ SetSink
 (
 uint32_t
 ssrc
-rtc
+webrtc
 :
 :
 VideoSinkInterface
@@ -2995,7 +2995,7 @@ FakeVideoMediaReceiveChannel
 :
 SetDefaultSink
 (
-rtc
+webrtc
 :
 :
 VideoSinkInterface

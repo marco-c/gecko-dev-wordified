@@ -758,7 +758,7 @@ name
 void
 CreateCertificate
 (
-rtc
+webrtc
 :
 :
 KeyType
@@ -775,7 +775,7 @@ RTCCertificate
 :
 Create
 (
-rtc
+webrtc
 :
 :
 SSLIdentity
@@ -1489,7 +1489,7 @@ SSLStreamAdapter
 IsAcceptableCipher
 (
 cipher
-rtc
+webrtc
 :
 :
 KT_DEFAULT
@@ -2123,7 +2123,7 @@ func
 void
 OnTransportWritableState
 (
-rtc
+webrtc
 :
 :
 PacketTransportInternal
@@ -2175,7 +2175,7 @@ writable_func_
 void
 OnTransportReadPacket
 (
-rtc
+webrtc
 :
 :
 PacketTransportInternal
@@ -2309,7 +2309,7 @@ break
 void
 OnTransportSentPacket
 (
-rtc
+webrtc
 :
 :
 PacketTransportInternal
@@ -2365,7 +2365,7 @@ encrypted
 void
 OnFakeIceTransportReadPacket
 (
-rtc
+webrtc
 :
 :
 PacketTransportInternal
@@ -2840,7 +2840,7 @@ mode
 void
 PrepareDtls
 (
-rtc
+webrtc
 :
 :
 KeyType
@@ -4177,7 +4177,7 @@ TestTransferDtls
 {
 PrepareDtls
 (
-rtc
+webrtc
 :
 :
 KT_DEFAULT
@@ -4278,7 +4278,7 @@ TestTransferDtlsCombineRecords
 {
 PrepareDtls
 (
-rtc
+webrtc
 :
 :
 KT_DEFAULT
@@ -4376,7 +4376,7 @@ KeyingMaterialExporter
 {
 PrepareDtls
 (
-rtc
+webrtc
 :
 :
 KT_DEFAULT
@@ -4889,7 +4889,7 @@ true
 {
 PrepareDtls
 (
-rtc
+webrtc
 :
 :
 KT_DEFAULT
@@ -6647,7 +6647,7 @@ TestTransferDtlsSrtp
 {
 PrepareDtls
 (
-rtc
+webrtc
 :
 :
 KT_DEFAULT
@@ -6702,7 +6702,7 @@ TestTransferDtlsInvalidSrtpPacket
 {
 PrepareDtls
 (
-rtc
+webrtc
 :
 :
 KT_DEFAULT
@@ -6756,7 +6756,7 @@ TestTransferDtlsSrtpDemux
 {
 PrepareDtls
 (
-rtc
+webrtc
 :
 :
 KT_DEFAULT
@@ -6818,7 +6818,7 @@ TestTransferDtlsSrtpAnswererIsPassive
 {
 PrepareDtls
 (
-rtc
+webrtc
 :
 :
 KT_DEFAULT
@@ -6888,7 +6888,7 @@ TestRenegotiateBeforeConnect
 {
 PrepareDtls
 (
-rtc
+webrtc
 :
 :
 KT_DEFAULT
@@ -7002,7 +7002,7 @@ TestCertificatesBeforeConnect
 {
 PrepareDtls
 (
-rtc
+webrtc
 :
 :
 KT_DEFAULT
@@ -7134,7 +7134,7 @@ TestCertificatesAfterConnect
 {
 PrepareDtls
 (
-rtc
+webrtc
 :
 :
 KT_DEFAULT
@@ -7450,7 +7450,7 @@ IsBoringSsl
 ;
 PrepareDtls
 (
-rtc
+webrtc
 :
 :
 KT_DEFAULT
@@ -8043,7 +8043,7 @@ fingerprint
 .
 PrepareDtls
 (
-rtc
+webrtc
 :
 :
 KT_DEFAULT

@@ -3069,9 +3069,6 @@ test
 :
 BaseTest
 public
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

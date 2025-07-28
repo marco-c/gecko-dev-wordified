@@ -123,9 +123,6 @@ class
 FakeVideoRenderer
 :
 public
-rtc
-:
-:
 VideoSinkInterface
 <
 webrtc

@@ -164,9 +164,6 @@ TaskQueueFactory
 task_queue_factory
 int32_t
 delay_ms
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

@@ -331,9 +331,6 @@ string_view
 >
 string_views
 =
-rtc
-:
-:
 split
 (
 main_string

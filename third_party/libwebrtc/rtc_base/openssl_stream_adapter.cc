@@ -2212,9 +2212,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLIdentity
 >
 identity
@@ -2273,9 +2270,6 @@ release
 #
 endif
 }
-rtc
-:
-:
 SSLIdentity
 *
 OpenSSLStreamAdapter
@@ -7073,9 +7067,6 @@ Expected
 "
 <
 <
-rtc
-:
-:
 hex_encode_with_delimiter
 (
 peer_certificate_digest_value_
@@ -7090,9 +7081,6 @@ got
 "
 <
 <
-rtc
-:
-:
 hex_encode_with_delimiter
 (
 computed_digest
@@ -7910,9 +7898,6 @@ IsAcceptableCipher
 (
 int
 cipher
-rtc
-:
-:
 KeyType
 key_type
 )
@@ -7922,9 +7907,6 @@ if
 key_type
 =
 =
-rtc
-:
-:
 KT_RSA
 )
 {
@@ -7959,9 +7941,6 @@ if
 key_type
 =
 =
-rtc
-:
-:
 KT_ECDSA
 )
 {
@@ -8031,9 +8010,6 @@ absl
 :
 string_view
 cipher
-rtc
-:
-:
 KeyType
 key_type
 )
@@ -8043,9 +8019,6 @@ if
 key_type
 =
 =
-rtc
-:
-:
 KT_RSA
 )
 {
@@ -8080,9 +8053,6 @@ if
 key_type
 =
 =
-rtc
-:
-:
 KT_ECDSA
 )
 {

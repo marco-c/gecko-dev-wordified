@@ -722,9 +722,6 @@ associated_pt_str
 )
 &
 &
-rtc
-:
-:
 FromString
 (
 associated_pt_str

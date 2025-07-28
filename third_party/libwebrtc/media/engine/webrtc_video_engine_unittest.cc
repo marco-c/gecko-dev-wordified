@@ -2470,7 +2470,7 @@ class
 MockVideoSource
 :
 public
-rtc
+webrtc
 :
 :
 VideoSourceInterface
@@ -2501,7 +2501,7 @@ VideoFrame
 *
 sink
 const
-rtc
+webrtc
 :
 :
 VideoSinkWants
@@ -4652,7 +4652,7 @@ _
 Field
 (
 &
-rtc
+webrtc
 :
 :
 VideoSinkWants
@@ -4735,7 +4735,7 @@ _
 Field
 (
 &
-rtc
+webrtc
 :
 :
 VideoSinkWants
@@ -4900,7 +4900,7 @@ _
 Field
 (
 &
-rtc
+webrtc
 :
 :
 VideoSinkWants
@@ -4996,7 +4996,7 @@ _
 Field
 (
 &
-rtc
+webrtc
 :
 :
 VideoSinkWants
@@ -5147,7 +5147,7 @@ _
 Field
 (
 &
-rtc
+webrtc
 :
 :
 VideoSinkWants
@@ -5222,7 +5222,7 @@ _
 Field
 (
 &
-rtc
+webrtc
 :
 :
 VideoSinkWants

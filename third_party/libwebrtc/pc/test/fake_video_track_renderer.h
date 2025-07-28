@@ -161,9 +161,6 @@ video_track_
 AddOrUpdateSink
 (
 this
-rtc
-:
-:
 VideoSinkWants
 (
 )

@@ -1390,9 +1390,6 @@ VideoAnalyzer
 :
 SetSource
 (
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame
@@ -1414,9 +1411,6 @@ SetSource
 video_source
 )
 ;
-rtc
-:
-:
 VideoSinkWants
 wants
 ;
@@ -1548,9 +1542,6 @@ audio_receive_stream_
 recv_stream
 ;
 }
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -1568,9 +1559,6 @@ return
 captured_frame_forwarder_
 ;
 }
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame
@@ -6635,9 +6623,6 @@ CapturedFrameForwarder
 :
 AddOrUpdateSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -6645,9 +6630,6 @@ VideoFrame
 *
 sink
 const
-rtc
-:
-:
 VideoSinkWants
 &
 wants
@@ -6703,9 +6685,6 @@ CapturedFrameForwarder
 :
 RemoveSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

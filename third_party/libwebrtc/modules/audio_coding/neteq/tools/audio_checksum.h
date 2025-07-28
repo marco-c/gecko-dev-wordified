@@ -329,9 +329,6 @@ size
 ;
 }
 return
-rtc
-:
-:
 hex_encode
 (
 checksum_result_

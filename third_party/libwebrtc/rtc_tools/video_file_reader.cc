@@ -1097,9 +1097,6 @@ string
 >
 fields
 ;
-rtc
-:
-:
 tokenize
 (
 header_line
@@ -1260,9 +1257,6 @@ string
 >
 fraction
 ;
-rtc
-:
-:
 tokenize
 (
 suffix

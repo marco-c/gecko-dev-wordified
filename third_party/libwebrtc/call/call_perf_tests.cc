@@ -1002,9 +1002,6 @@ test
 :
 RtpRtcpObserver
 public
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -3212,9 +3209,6 @@ mode
 void
 OnSinkWantsChanged
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -3226,9 +3220,6 @@ sink
 *
 /
 const
-rtc
-:
-:
 VideoSinkWants
 &
 wants
@@ -3862,9 +3853,6 @@ kAdaptedUp
 test_phase_
 ;
 private
-:
-rtc
-:
 :
 VideoSinkWants
 last_wants_
@@ -6230,9 +6218,6 @@ ChangeResolution
 void
 OnSinkWantsChanged
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -6244,9 +6229,6 @@ sink
 *
 /
 const
-rtc
-:
-:
 VideoSinkWants
 &
 /

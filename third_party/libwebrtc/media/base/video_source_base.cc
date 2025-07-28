@@ -169,7 +169,7 @@ checks
 h
 "
 namespace
-rtc
+webrtc
 {
 VideoSourceBase
 :
@@ -198,9 +198,6 @@ AddOrUpdateSink
 (
 VideoSinkInterface
 <
-webrtc
-:
-:
 VideoFrame
 >
 *
@@ -265,9 +262,6 @@ RemoveSink
 (
 VideoSinkInterface
 <
-webrtc
-:
-:
 VideoFrame
 >
 *
@@ -350,9 +344,6 @@ FindSinkPair
 const
 VideoSinkInterface
 <
-webrtc
-:
-:
 VideoFrame
 >
 *
@@ -438,9 +429,6 @@ AddOrUpdateSink
 (
 VideoSinkInterface
 <
-webrtc
-:
-:
 VideoFrame
 >
 *
@@ -511,9 +499,6 @@ RemoveSink
 (
 VideoSinkInterface
 <
-webrtc
-:
-:
 VideoFrame
 >
 *
@@ -602,9 +587,6 @@ FindSinkPair
 const
 VideoSinkInterface
 <
-webrtc
-:
-:
 VideoFrame
 >
 *
@@ -703,4 +685,4 @@ sinks_
 /
 /
 namespace
-rtc
+webrtc

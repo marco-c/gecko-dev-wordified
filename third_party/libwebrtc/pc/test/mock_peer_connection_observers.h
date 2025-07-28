@@ -3252,9 +3252,6 @@ here
 *
 value
 =
-rtc
-:
-:
 FromString
 <
 int
@@ -3336,9 +3333,6 @@ here
 *
 value
 =
-rtc
-:
-:
 FromString
 <
 int64_t
