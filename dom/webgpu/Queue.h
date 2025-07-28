@@ -398,7 +398,8 @@ void
 Cleanup
 (
 )
-;
+{
+}
 RefPtr
 <
 WebGPUChild

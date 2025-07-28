@@ -268,6 +268,17 @@ GetClient
 mId
 )
 ;
+wgpu_client_free_render_bundle_id
+(
+bridge
+-
+>
+GetClient
+(
+)
+mId
+)
+;
 }
 }
 /

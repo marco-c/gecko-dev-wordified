@@ -237,6 +237,17 @@ GetClient
 mId
 )
 ;
+wgpu_client_free_sampler_id
+(
+bridge
+-
+>
+GetClient
+(
+)
+mId
+)
+;
 }
 }
 /
