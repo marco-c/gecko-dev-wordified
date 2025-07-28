@@ -54,6 +54,8 @@ MPL
 /
 .
 import
+json
+import
 os
 import
 requests
@@ -1784,11 +1786,6 @@ release_promotion_flavor
     
 ]
     
-partial_versions
-=
-[
-]
-    
 release_history
 =
 {
@@ -1965,40 +1962,24 @@ title
 (
 )
         
-partial_versions
+os
+.
+environ
+[
+"
+PARTIAL_UPDATES
+"
+]
 =
-[
-            
-"
-{
-}
-build
-{
-}
-"
+json
 .
-format
+dumps
 (
-v
-info
-[
-"
-buildNumber
-"
-]
-)
-            
-for
-v
-info
-in
 partial_updates
-.
-items
-(
+sort_keys
+=
+True
 )
-        
-]
         
 release_history
 =
@@ -2512,15 +2493,6 @@ next_version
 ]
 =
 next_version
-    
-parameters
-[
-"
-partial_versions
-"
-]
-=
-partial_versions
     
 parameters
 [
