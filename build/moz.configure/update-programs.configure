@@ -2230,14 +2230,14 @@ option
 "
 -
 -
-enable
+disable
 -
 zucchini
 "
 help
 =
 "
-Enable
+Disable
 zucchini
 support
 "
