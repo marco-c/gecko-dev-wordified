@@ -55586,7 +55586,7 @@ bc
 mLoadInfo
 -
 >
-GetBrowsingContext
+GetTargetBrowsingContext
 (
 getter_AddRefs
 (
