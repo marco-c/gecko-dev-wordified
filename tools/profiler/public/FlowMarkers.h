@@ -1954,6 +1954,11 @@ categoryName
 flow
 )
 \
+:
+:
+mozilla
+:
+:
 AutoProfilerFlowMarker
 PROFILER_RAII
 (
@@ -1982,6 +1987,11 @@ categoryName
 flow
 )
 \
+:
+:
+mozilla
+:
+:
 AutoProfilerTerminatingFlowMarker
 PROFILER_RAII
 (
@@ -2011,6 +2021,11 @@ categoryName
 flow
 )
 \
+:
+:
+mozilla
+:
+:
 AutoProfilerTerminatingFlowMarkerFlowOnly
 PROFILER_RAII
 (
