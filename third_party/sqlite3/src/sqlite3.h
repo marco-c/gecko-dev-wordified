@@ -1272,12 +1272,12 @@ SQLITE_VERSION
 .
 50
 .
-1
+2
 "
 #
 define
 SQLITE_VERSION_NUMBER
-3050001
+3050002
 #
 define
 SQLITE_SOURCE_ID
@@ -1286,13 +1286,13 @@ SQLITE_SOURCE_ID
 -
 06
 -
-06
+28
 14
 :
-52
+00
 :
-32
-b77dc5e0f596d2140d9ac682b2893ff65d3a4140aa86067a3efebe29dc914c95
+48
+2af157d77fb1304a74176eaee7fbc7c7e932d946bf25325e9c26c91db19e3079
 "
 /
 *
@@ -44686,18 +44686,16 @@ W
 and
 *
 *
-with
-N
-URI
-parameters
-key
-/
-values
-pairs
-in
-the
+an
 array
 P
+of
+N
+URI
+Key
+/
+Value
+pairs
 .
 The
 result
@@ -51910,6 +51908,7 @@ that
 matches
 one
 of
+the
 following
 *
 *
@@ -52403,6 +52402,7 @@ FEFF
 *
 found
 in
+the
 first
 character
 which
@@ -52658,7 +52658,7 @@ If
 any
 NUL
 characters
-occurs
+occur
 at
 byte
 offsets
@@ -54986,6 +54986,7 @@ particular
 result
 column
 in
+a
 *
 *
 [
@@ -61583,7 +61584,7 @@ used
 inside
 of
 triggers
-view
+views
 CHECK
 constraints
 or
@@ -61597,7 +61598,7 @@ database
 schema
 .
 This
-flags
+flag
 is
 especially
 recommended
@@ -61973,6 +61974,7 @@ NULL
 then
 it
 is
+the
 destructor
 for
 *
@@ -66289,7 +66291,7 @@ sqlite3_value
 *
 *
 object
-D
+V
 and
 returns
 a
@@ -66703,6 +66705,7 @@ the
 N
 parameter
 on
+the
 first
 successful
 call
@@ -68383,7 +68386,6 @@ for
 an
 *
 *
-an
 attacker
 to
 invoke
@@ -69625,7 +69627,7 @@ appear
 if
 the
 string
-where
+were
 NUL
 terminated
 .
@@ -70360,7 +70362,7 @@ are
 called
 from
 within
-the
+a
 different
 thread
 *
@@ -74306,7 +74308,7 @@ or
 a
 NULL
 pointer
-of
+if
 N
 is
 *
@@ -75253,6 +75255,7 @@ state
 *
 *
 will
+be
 advanced
 to
 SQLITE_TXN_WRITE
@@ -75359,7 +75362,6 @@ change
 to
 *
 *
-to
 SQLITE_TXN_NONE
 at
 the
@@ -78154,6 +78156,7 @@ will
 be
 *
 *
+used
 by
 all
 database
@@ -78817,7 +78820,7 @@ limits
 may
 *
 *
-changes
+change
 in
 future
 releases
@@ -80004,11 +80007,9 @@ name
 sqlite3_X_init
 "
 where
-the
 *
 *
 X
-is
 consists
 of
 the
@@ -80748,7 +80749,7 @@ the
 *
 entry
 point
-where
+were
 as
 follows
 :
@@ -82481,7 +82482,7 @@ the
 omit
 flag
 is
-change
+changed
 to
 true
 then
@@ -82781,7 +82782,7 @@ to
 show
 the
 idxNum
-has
+as
 hex
 instead
 of
@@ -84159,7 +84160,6 @@ new
 virtual
 table
 is
-be
 being
 created
 or
@@ -85742,7 +85742,6 @@ ppBlob
 after
 this
 function
-it
 returns
 .
 *
@@ -87059,7 +87058,7 @@ can
 only
 read
 or
-overwriting
+overwrite
 existing
 *
 *
@@ -88592,6 +88591,7 @@ sqlite3_mutex_alloc
 (
 )
 must
+be
 one
 of
 these
@@ -90803,6 +90803,7 @@ interface
 returns
 a
 pointer
+to
 the
 [
 sqlite3_mutex
@@ -91809,7 +91810,7 @@ SQLite
 .
 Applications
 can
-uses
+use
 these
 routines
 to
@@ -93620,10 +93621,11 @@ object
 Applications
 must
 not
-used
+use
 the
 pointer
 returned
+by
 *
 *
 [
@@ -94504,7 +94506,7 @@ because
 they
 *
 *
-where
+were
 too
 large
 (
@@ -95327,6 +95329,10 @@ is
 always
 zero
 .
+<
+/
+dd
+>
 )
 ^
 *
@@ -95360,6 +95366,7 @@ parameter
 returns
 the
 number
+of
 malloc
 attempts
 that
@@ -95411,6 +95418,10 @@ is
 always
 zero
 .
+<
+/
+dd
+>
 )
 ^
 *
@@ -95444,6 +95455,7 @@ parameter
 returns
 the
 number
+of
 malloc
 attempts
 that
@@ -95490,6 +95502,10 @@ is
 always
 zero
 .
+<
+/
+dd
+>
 )
 ^
 *
@@ -95555,6 +95571,12 @@ is
 always
 0
 .
+*
+*
+<
+/
+dd
+>
 *
 *
 *
@@ -95660,7 +95682,7 @@ if
 one
 or
 more
-or
+of
 the
 pager
 caches
@@ -95698,6 +95720,10 @@ is
 always
 0
 .
+<
+/
+dd
+>
 *
 *
 *
@@ -95815,6 +95841,12 @@ is
 always
 0
 .
+*
+*
+<
+/
+dd
+>
 *
 *
 *
@@ -96238,6 +96270,7 @@ parameter
 can
 be
 used
+to
 help
 identify
 *
@@ -101249,7 +101282,6 @@ database
 is
 modified
 by
-the
 using
 the
 same
@@ -101441,7 +101473,7 @@ sqlite3_backup_step
 errors
 occurred
 regardless
-or
+of
 whether
 or
 not
@@ -113042,6 +113074,7 @@ D
 )
 ]
 interface
+is
 invoked
 any
 dirty
