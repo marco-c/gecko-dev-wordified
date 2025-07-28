@@ -6418,10 +6418,6 @@ ServiceWorkerPrivate
 SendNotificationClickEvent
 (
 const
-nsAString
-&
-aScope
-const
 IPCNotification
 &
 aNotification
@@ -6519,10 +6515,6 @@ ServiceWorkerPrivate
 :
 SendNotificationCloseEvent
 (
-const
-nsAString
-&
-aScope
 const
 IPCNotification
 &
