@@ -129,6 +129,17 @@ video_codec
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+system
+/
+rtc_export
+.
+h
+"
 namespace
 webrtc
 {

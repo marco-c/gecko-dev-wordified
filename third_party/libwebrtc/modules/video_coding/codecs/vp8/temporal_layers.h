@@ -119,6 +119,12 @@ vp8_temporal_layers
 .
 h
 "
+/
+/
+IWYU
+pragma
+:
+keep
 #
 endif
 /

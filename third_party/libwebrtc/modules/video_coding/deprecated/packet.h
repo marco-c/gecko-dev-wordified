@@ -146,7 +146,7 @@ api
 /
 video
 /
-video_frame_type
+video_codec_type
 .
 h
 "

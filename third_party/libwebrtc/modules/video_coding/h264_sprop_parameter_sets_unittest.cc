@@ -99,6 +99,11 @@ h
 #
 include
 <
+cstdint
+>
+#
+include
+<
 vector
 >
 #

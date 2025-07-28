@@ -110,6 +110,11 @@ include
 <
 cstdint
 >
+#
+include
+<
+optional
+>
 namespace
 webrtc
 {

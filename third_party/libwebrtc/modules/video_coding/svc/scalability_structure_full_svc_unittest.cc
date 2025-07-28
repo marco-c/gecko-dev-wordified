@@ -106,6 +106,17 @@ vector
 #
 include
 "
+common_video
+/
+generic_frame_descriptor
+/
+generic_frame_info
+.
+h
+"
+#
+include
+"
 modules
 /
 video_coding

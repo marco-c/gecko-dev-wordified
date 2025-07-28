@@ -94,6 +94,11 @@ MODULES_VIDEO_CODING_SVC_SCALABILITY_STRUCTURE_SIMULCAST_H_
 #
 include
 <
+bitset
+>
+#
+include
+<
 vector
 >
 #
