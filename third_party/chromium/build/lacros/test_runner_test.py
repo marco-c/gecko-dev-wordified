@@ -1211,6 +1211,22 @@ lacros
 .
 sock
 '
+            
+'
+-
+-
+ash
+-
+chrome
+-
+path
+=
+'
++
+ash_chrome_args
+[
+0
+]
         
 ]
 test_args

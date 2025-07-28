@@ -4768,6 +4768,24 @@ append
 lacros_mojo_socket_arg
 )
     
+forward_args
+.
+append
+(
+'
+-
+-
+ash
+-
+chrome
+-
+path
+=
+'
++
+ash_chrome_file
+)
+    
 test_env
 =
 os

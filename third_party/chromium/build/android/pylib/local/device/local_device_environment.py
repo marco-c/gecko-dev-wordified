@@ -912,6 +912,14 @@ args
 .
 use_persistent_shell
     
+self
+.
+_disable_test_server
+=
+args
+.
+disable_test_server
+    
 devil_chromium
 .
 Initialize
@@ -1741,6 +1749,20 @@ return
 self
 .
 _trace_output
+  
+property
+  
+def
+disable_test_server
+(
+self
+)
+:
+    
+return
+self
+.
+_disable_test_server
   
 #
 override
