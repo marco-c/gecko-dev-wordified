@@ -8078,9 +8078,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -8124,9 +8121,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -8196,9 +8190,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -10668,9 +10659,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -10681,9 +10669,6 @@ LibvpxVp8Encoder
 :
 PrepareBuffers
 (
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -10753,9 +10738,6 @@ Type
 kNV12
 }
 ;
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -11117,9 +11099,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer

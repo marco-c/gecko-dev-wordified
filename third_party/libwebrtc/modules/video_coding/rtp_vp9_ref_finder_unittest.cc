@@ -1173,9 +1173,6 @@ return
 false
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 int64_t

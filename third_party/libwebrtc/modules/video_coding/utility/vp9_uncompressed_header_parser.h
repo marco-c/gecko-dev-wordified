@@ -1034,9 +1034,6 @@ Vp9UncompressedHeader
 >
 ParseUncompressedVp9Header
 (
-rtc
-:
-:
 ArrayView
 <
 const

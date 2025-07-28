@@ -321,9 +321,6 @@ with
 bool
 FrameReferencesAreValid
 (
-rtc
-:
-:
 ArrayView
 <
 const

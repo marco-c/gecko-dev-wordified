@@ -7078,9 +7078,6 @@ per
 simulcast
 layer
 .
-rtc
-:
-:
 scoped_refptr
 <
 test
@@ -7103,9 +7100,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer

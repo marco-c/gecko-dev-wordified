@@ -1689,9 +1689,6 @@ to
 have
 happened
 .
-rtc
-:
-:
 scoped_refptr
 <
 test
@@ -1714,9 +1711,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -16440,9 +16434,6 @@ else
 {
 EXPECT_THAT
 (
-rtc
-:
-:
 MakeArrayView
 (
 vp9

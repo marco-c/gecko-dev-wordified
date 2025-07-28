@@ -498,9 +498,6 @@ return
 ret
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const

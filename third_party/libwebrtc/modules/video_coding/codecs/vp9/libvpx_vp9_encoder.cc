@@ -1731,9 +1731,6 @@ scalability_structure_controller
 vpx_svc_ref_frame_config_t
 Vp9References
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -8316,9 +8313,6 @@ encoding
 has
 finished
 .
-rtc
-:
-:
 scoped_refptr
 <
 const
@@ -8331,9 +8325,6 @@ I010BufferInterface
 *
 i010_buffer
 ;
-rtc
-:
-:
 scoped_refptr
 <
 const
@@ -15212,9 +15203,6 @@ VPX_IMG_FMT_I42016
 8
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -15224,9 +15212,6 @@ LibvpxVp9Encoder
 :
 PrepareBufferForProfile0
 (
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -15264,9 +15249,6 @@ Type
 kNV12
 }
 ;
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer

@@ -594,9 +594,6 @@ Vp9FrameBuffer
 final
 :
 public
-rtc
-:
-:
 RefCountedNonVirtual
 <
 Vp9FrameBuffer
@@ -624,9 +621,6 @@ size
 )
 ;
 using
-rtc
-:
-:
 RefCountedNonVirtual
 <
 Vp9FrameBuffer
@@ -646,9 +640,6 @@ easily
 resizable
 buffer
 .
-rtc
-:
-:
 Buffer
 data_
 ;
@@ -727,9 +718,6 @@ buffer
 becomes
 recyclable
 .
-rtc
-:
-:
 scoped_refptr
 <
 Vp9FrameBuffer
@@ -1065,9 +1053,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 Vp9FrameBuffer

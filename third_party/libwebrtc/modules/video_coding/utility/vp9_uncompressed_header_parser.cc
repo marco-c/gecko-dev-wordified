@@ -3437,9 +3437,6 @@ Vp9UncompressedHeader
 >
 ParseUncompressedVp9Header
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3518,9 +3515,6 @@ qp
 BitstreamReader
 reader
 (
-rtc
-:
-:
 MakeArrayView
 (
 buf

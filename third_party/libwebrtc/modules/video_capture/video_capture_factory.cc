@@ -110,9 +110,6 @@ h
 namespace
 webrtc
 {
-rtc
-:
-:
 scoped_refptr
 <
 VideoCaptureModule
@@ -146,9 +143,6 @@ deviceUniqueIdUTF8
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 VideoCaptureModule

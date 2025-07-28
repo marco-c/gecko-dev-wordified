@@ -176,9 +176,6 @@ FixedBitstream
 PacketAction
 action
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 bitstream
 ;
@@ -232,9 +229,6 @@ video_header
 FixedBitstream
 CopyAndFixBitstream
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -282,9 +276,6 @@ sps_id
 -
 1
 ;
-rtc
-:
-:
 Buffer
 data
 ;
@@ -305,9 +296,6 @@ height
 -
 1
 ;
-rtc
-:
-:
 Buffer
 data
 ;

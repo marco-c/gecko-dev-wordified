@@ -893,9 +893,6 @@ Downscale
 reference
 frame
 .
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -1982,9 +1979,6 @@ maxFramerate
 }
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -2189,9 +2183,6 @@ reference_height
 )
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -2476,9 +2467,6 @@ codec_settings
 height
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -4015,9 +4003,6 @@ codec_settings
 .
 height
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -4538,9 +4523,6 @@ possible
 future
 drops
 .
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface

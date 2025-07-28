@@ -1344,9 +1344,6 @@ frame_info
 =
 ParseUncompressedVp9Header
 (
-rtc
-:
-:
 MakeArrayView
 (
 input_image
@@ -1802,9 +1799,6 @@ or
 vpx_codec_destroy
 )
 .
-rtc
-:
-:
 scoped_refptr
 <
 Vp9FrameBufferPool
@@ -1854,9 +1848,6 @@ Wrapped
 *
 Buffer
 .
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer

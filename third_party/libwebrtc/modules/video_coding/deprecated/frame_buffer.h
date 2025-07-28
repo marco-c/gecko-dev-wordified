@@ -505,9 +505,6 @@ reallocation
 and
 mutation
 .
-rtc
-:
-:
 scoped_refptr
 <
 EncodedImageBuffer

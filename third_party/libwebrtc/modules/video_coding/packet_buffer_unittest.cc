@@ -361,9 +361,6 @@ uint16_t
 >
 StartSeqNums
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -874,9 +871,6 @@ last
 packet
 of
 frame
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3037,9 +3031,6 @@ timestamp
 /
 rtp
 timestamp
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3349,9 +3340,6 @@ timestamp
 /
 rtp
 timestamp
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3885,9 +3873,6 @@ Rand
 (
 )
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 data
 =

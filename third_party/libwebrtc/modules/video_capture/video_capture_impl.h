@@ -291,9 +291,6 @@ GetDeviceName
 *
 /
 static
-rtc
-:
-:
 scoped_refptr
 <
 VideoCaptureModule
@@ -307,9 +304,6 @@ deviceUniqueIdUTF8
 )
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 VideoCaptureModule

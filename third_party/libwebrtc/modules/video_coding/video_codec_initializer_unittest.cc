@@ -623,9 +623,6 @@ config_
 .
 encoder_specific_settings
 =
-rtc
-:
-:
 make_ref_counted
 <
 webrtc
@@ -692,9 +689,6 @@ config_
 .
 encoder_specific_settings
 =
-rtc
-:
-:
 make_ref_counted
 <
 webrtc

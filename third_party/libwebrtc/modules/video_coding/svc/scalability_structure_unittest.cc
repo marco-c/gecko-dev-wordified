@@ -800,9 +800,6 @@ num_temporal_layers
 ;
 EXPECT_THAT
 (
-rtc
-:
-:
 MakeArrayView
 (
 config
@@ -827,9 +824,6 @@ num_spatial_layers
 ;
 EXPECT_THAT
 (
-rtc
-:
-:
 MakeArrayView
 (
 config

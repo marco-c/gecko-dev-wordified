@@ -282,7 +282,7 @@ little
 less
 awkward
 .
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -364,7 +364,7 @@ GetComInterface
 IUnknown
 *
 object
-rtc
+webrtc
 :
 :
 scoped_refptr

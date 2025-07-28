@@ -1079,9 +1079,6 @@ within
 LibYuv
 )
 .
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer

@@ -605,9 +605,6 @@ decoder_callback_
 VideoCodec
 settings_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer

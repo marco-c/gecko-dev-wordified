@@ -765,9 +765,6 @@ int64_t
 frame_id
 bool
 discardable
-rtc
-:
-:
 ArrayView
 <
 const
@@ -881,9 +878,6 @@ LossNotificationController
 :
 AllDependenciesDecodable
 (
-rtc
-:
-:
 ArrayView
 <
 const

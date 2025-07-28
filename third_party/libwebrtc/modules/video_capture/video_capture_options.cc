@@ -219,7 +219,7 @@ allow_pipewire_
 {
 pipewire_session_
 =
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -289,7 +289,7 @@ defined
 (
 WEBRTC_USE_PIPEWIRE
 )
-rtc
+webrtc
 :
 :
 scoped_refptr
