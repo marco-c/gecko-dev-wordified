@@ -1885,7 +1885,7 @@ Maybe
 <
 nsSize
 >
-GetViewTransitionBorderBoxSize
+GetViewTransitionSnapshotSize
 (
 )
 const
@@ -2687,12 +2687,6 @@ bounds
 /
 nsRect
 GetDestRect
-(
-)
-const
-;
-nsRect
-GetDestRectViewTransition
 (
 )
 const
