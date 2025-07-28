@@ -9945,6 +9945,8 @@ cached
 ScriptStencilRef
 script
 {
+*
+stencils
 context
 scriptIndex
 }
@@ -10206,6 +10208,8 @@ input
 .
 initFromStencil
 (
+*
+stencils
 context
 scriptIndex
 ss
