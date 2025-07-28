@@ -1161,7 +1161,7 @@ std
 :
 string
 &
-name
+key
 )
 ;
 bool

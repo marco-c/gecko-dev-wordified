@@ -643,7 +643,7 @@ vector
 <
 uint8_t
 >
-data
+packet
 StunMessageType
 type
 )
@@ -651,7 +651,7 @@ type
 if
 (
 !
-data
+packet
 .
 empty
 (
@@ -662,7 +662,7 @@ client_
 .
 CapturePacket
 (
-data
+packet
 )
 ;
 client_
@@ -725,7 +725,7 @@ attr_ack
 if
 (
 auto
-data
+ack
 =
 client_
 .
@@ -741,7 +741,7 @@ WrapInStun
 (
 STUN_ATTR_META_DTLS_IN_STUN_ACK
 *
-data
+ack
 )
 ;
 }
@@ -773,7 +773,7 @@ vector
 <
 uint8_t
 >
-data
+packet
 StunMessageType
 type
 )
@@ -781,7 +781,7 @@ type
 if
 (
 !
-data
+packet
 .
 empty
 (
@@ -792,7 +792,7 @@ server_
 .
 CapturePacket
 (
-data
+packet
 )
 ;
 server_
@@ -855,7 +855,7 @@ attr_ack
 if
 (
 auto
-data
+ack
 =
 server_
 .
@@ -871,7 +871,7 @@ WrapInStun
 (
 STUN_ATTR_META_DTLS_IN_STUN_ACK
 *
-data
+ack
 )
 ;
 }
@@ -893,7 +893,7 @@ get
 ;
 if
 (
-data
+packet
 =
 =
 dtls_flight4
