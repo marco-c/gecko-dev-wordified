@@ -283,7 +283,10 @@ public
 :
 ChannelPosix
 (
-ChannelHandle
+mozilla
+:
+:
+UniqueFileHandle
 pipe
 Mode
 mode

@@ -241,7 +241,10 @@ public
 :
 ChannelWin
 (
-ChannelHandle
+mozilla
+:
+:
+UniqueFileHandle
 pipe
 Mode
 mode
@@ -341,6 +344,18 @@ ProcessId
 other_pid
 )
 override
+;
+static
+bool
+CreateRawPipe
+(
+ChannelHandle
+*
+server
+ChannelHandle
+*
+client
+)
 ;
 private
 :
@@ -592,7 +607,7 @@ State
 explicit
 State
 (
-ChannelImpl
+ChannelWin
 *
 channel
 )
@@ -626,7 +641,7 @@ to
 the
 /
 /
-ChannelImpl
+ChannelWin
 to
 prevent
 it
@@ -636,7 +651,7 @@ away
 .
 RefPtr
 <
-ChannelImpl
+ChannelWin
 >
 is_pending
 ;
