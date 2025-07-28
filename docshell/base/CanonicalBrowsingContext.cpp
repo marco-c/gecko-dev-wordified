@@ -1154,6 +1154,12 @@ nullptr
 )
 ;
 }
+mActiveEntryList
+.
+clear
+(
+)
+;
 }
 /
 *
@@ -22324,7 +22330,6 @@ mSessionHistory
 mCurrentBrowserParent
 mWebProgress
 mSessionStoreSessionStorageUpdateTimer
-mActiveEntryList
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
@@ -22338,7 +22343,6 @@ mSessionHistory
 mCurrentBrowserParent
 mWebProgress
 mSessionStoreSessionStorageUpdateTimer
-mActiveEntryList
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_TRACE_BEGIN_INHERITED

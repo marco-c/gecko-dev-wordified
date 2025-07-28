@@ -3624,12 +3624,9 @@ LoadingSessionHistoryEntry
 >
 mLoadingEntries
 ;
-AutoCleanLinkedList
-<
-RefPtr
+LinkedList
 <
 SessionHistoryEntry
->
 >
 mActiveEntryList
 ;
