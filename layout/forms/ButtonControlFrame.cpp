@@ -398,7 +398,7 @@ nsPresContext
 aPc
 ReflowOutput
 &
-aDesiredSize
+aReflowOutput
 const
 ReflowInput
 &
@@ -414,7 +414,7 @@ nsBlockFrame
 Reflow
 (
 aPc
-aDesiredSize
+aReflowOutput
 aReflowInput
 aStatus
 )
