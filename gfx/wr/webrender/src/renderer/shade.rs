@@ -120,6 +120,12 @@ use
 crate
 :
 :
+precise_time_ns
+;
+use
+crate
+:
+:
 telemetry
 :
 :
@@ -179,12 +185,6 @@ gl
 :
 :
 GlType
-;
-use
-time
-:
-:
-precise_time_ns
 ;
 use
 std
