@@ -152,6 +152,13 @@ nsTArray
 h
 "
 #
+include
+"
+nsRect
+.
+h
+"
+#
 endif
 #
 ifdef
@@ -525,6 +532,10 @@ PlatformFocusEvent
 Accessible
 *
 aTarget
+const
+LayoutDeviceIntRect
+&
+aCaretRect
 )
 ;
 void
@@ -539,6 +550,10 @@ bool
 aIsSelectionCollapsed
 int32_t
 aGranularity
+const
+LayoutDeviceIntRect
+&
+aCaretRect
 bool
 aFromUser
 )
