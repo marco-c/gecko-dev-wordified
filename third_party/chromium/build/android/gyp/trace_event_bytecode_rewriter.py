@@ -52,6 +52,8 @@ script
 import
 argparse
 import
+logging
+import
 sys
 import
 tempfile
@@ -106,6 +108,15 @@ main
 argv
 )
 :
+  
+build_utils
+.
+InitLogging
+(
+'
+TRACE_EVENT_REWRITER_DEBUG
+'
+)
   
 argv
 =
@@ -422,6 +433,30 @@ the
 wrapper
 script
 .
+Keep
+the
+args
+file
+on
+disk
+when
+debugging
+.
+    
+is_debug
+=
+logging
+.
+getLogger
+(
+)
+.
+isEnabledFor
+(
+logging
+.
+DEBUG
+)
     
 args_file
 =
@@ -434,6 +469,10 @@ mode
 '
 w
 '
+delete
+=
+not
+is_debug
 )
     
 args_file
@@ -475,6 +514,19 @@ args_file
 .
 name
 ]
+  
+logging
+.
+debug
+(
+'
+'
+.
+join
+(
+cmd
+)
+)
   
 build_utils
 .

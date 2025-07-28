@@ -1250,14 +1250,25 @@ choices
 [
                           
 '
+appletvos
+'
+                          
+'
+appletvsimulator
+'
+                          
+'
 iphoneos
 '
+                          
 '
 iphonesimulator
 '
+                          
 '
 macosx
 '
+                          
 '
 watchos
 '

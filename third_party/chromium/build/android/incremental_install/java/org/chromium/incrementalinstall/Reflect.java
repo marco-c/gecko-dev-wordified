@@ -52,7 +52,7 @@ lsposed
 .
 hiddenapibypass
 .
-HiddenApiBypass
+LSPass
 ;
 import
 java
@@ -697,14 +697,14 @@ fields
 =
 isStatic
 ?
-HiddenApiBypass
+LSPass
 .
 getStaticFields
 (
 clazz
 )
 :
-HiddenApiBypass
+LSPass
 .
 getInstanceFields
 (

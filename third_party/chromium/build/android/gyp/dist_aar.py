@@ -108,6 +108,7 @@ _MergeRTxt
 (
 r_paths
 include_globs
+exclude_globs
 )
 :
   
@@ -154,6 +155,18 @@ MatchesGlob
 (
 r_path
 include_globs
+)
+or
+\
+       
+exclude_globs
+and
+build_utils
+.
+MatchesGlob
+(
+r_path
+exclude_globs
 )
 :
       
@@ -282,6 +295,7 @@ _AddResources
 aar_zip
 resource_zips
 include_globs
+exclude_globs
 )
 :
   
@@ -338,6 +352,18 @@ MatchesGlob
 (
 path
 include_globs
+)
+or
+\
+       
+exclude_globs
+and
+build_utils
+.
+MatchesGlob
+(
+path
+exclude_globs
 )
 :
       
@@ -845,6 +871,44 @@ zips
 '
 )
   
+parser
+.
+add_argument
+(
+      
+'
+-
+-
+resource
+-
+excluded
+-
+globs
+'
+      
+help
+=
+'
+GN
+-
+list
+of
+globs
+for
+paths
+to
+exclude
+in
+R
+.
+txt
+and
+resources
+zips
+.
+'
+)
+  
 options
 =
 parser
@@ -994,6 +1058,20 @@ options
 resource_included_globs
 )
   
+options
+.
+resource_excluded_globs
+=
+action_helpers
+.
+parse_gn_list
+(
+      
+options
+.
+resource_excluded_globs
+)
+  
 with
 tempfile
 .
@@ -1130,6 +1208,10 @@ r_text_files
 options
 .
 resource_included_globs
+                                            
+options
+.
+resource_excluded_globs
 )
 )
         
@@ -1188,6 +1270,10 @@ dependencies_res_zips
 options
 .
 resource_included_globs
+                      
+options
+.
+resource_excluded_globs
 )
         
 for

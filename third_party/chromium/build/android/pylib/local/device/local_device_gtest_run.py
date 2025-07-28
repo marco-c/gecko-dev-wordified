@@ -3917,15 +3917,17 @@ dev
 GetApplicationPaths
 (
               
-self
+'
+org
 .
-_test_instance
+chromium
 .
-apk_helper
+device
 .
-GetPackageName
-(
-)
+vr
+.
+openxr_test_support
+'
 )
           
 apk_dir
@@ -4196,16 +4198,7 @@ have
 changed
 .
           
-if
-dev
-.
-PathExists
-(
-device_json_path
-as_root
-=
-True
-)
+try
 :
             
 device_json_contents
@@ -4229,7 +4222,10 @@ device_json_contents
 openxr_json_contents
 )
           
-else
+except
+device_errors
+.
+CommandFailedError
 :
             
 replace_openxr_json

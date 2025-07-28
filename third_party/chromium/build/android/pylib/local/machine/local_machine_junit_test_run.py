@@ -671,6 +671,27 @@ jvm_args
 =
 [
         
+#
+Disable
+warning
+about
+mockito
+/
+bytebuddy
+dynamically
+adding
+an
+agent
+.
+        
+'
+-
+XX
+:
++
+EnableDynamicAgentLoading
+'
+        
 '
 -
 Drobolectric

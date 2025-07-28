@@ -918,6 +918,20 @@ gn
 '
     
 '
+simdutf
+'
+:
+'
+third_party
+/
+simdutf
+/
+BUILD
+.
+gn
+'
+    
+'
 snappy
 '
 :

@@ -1361,7 +1361,8 @@ __init__
 (
 self
 chromium_code
-excluded_globs
+exclude_globs
+include_globs
 )
 :
     
@@ -1373,9 +1374,15 @@ chromium_code
     
 self
 .
-_excluded_globs
+_exclude_globs
 =
-excluded_globs
+exclude_globs
+    
+self
+.
+_include_globs
+=
+include_globs
     
 #
 Map
@@ -1777,6 +1784,27 @@ replace
 class
 '
     
+if
+self
+.
+_include_globs
+and
+not
+build_utils
+.
+MatchesGlob
+(
+        
+name_as_class_glob
+self
+.
+_include_globs
+)
+:
+      
+return
+False
+    
 return
 not
 build_utils
@@ -1786,7 +1814,7 @@ MatchesGlob
 name_as_class_glob
 self
 .
-_excluded_globs
+_exclude_globs
 )
   
 def
@@ -2947,6 +2975,10 @@ chromium_code
 options
 .
 jar_info_exclude_globs
+                                    
+options
+.
+jar_info_include_globs
 )
   
 try
@@ -4209,6 +4241,42 @@ add_argument
 '
 -
 -
+jar
+-
+info
+-
+include
+-
+globs
+'
+      
+help
+=
+'
+GN
+list
+of
+inlclude
+globs
+to
+filter
+from
+generated
+.
+info
+files
+.
+'
+)
+  
+parser
+.
+add_argument
+(
+      
+'
+-
+-
 chromium
 -
 code
@@ -4595,6 +4663,20 @@ parse_gn_list
 options
 .
 jar_info_exclude_globs
+)
+  
+options
+.
+jar_info_include_globs
+=
+action_helpers
+.
+parse_gn_list
+(
+      
+options
+.
+jar_info_include_globs
 )
   
 additional_jar_files
@@ -5445,14 +5527,19 @@ java_files
 +
 kt_files
 +
-        
 [
+            
 options
 .
 warnings_as_errors
 options
 .
 jar_info_exclude_globs
+            
+options
+.
+jar_info_include_globs
+        
 ]
 )
     

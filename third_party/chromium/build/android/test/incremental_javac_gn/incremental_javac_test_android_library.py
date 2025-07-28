@@ -946,6 +946,23 @@ use_remoteexec
 =
 false
 '
+      
+#
+Do
+not
+use
+fast_local_dev_server
+.
+py
+.
+      
+'
+android_static_analysis
+=
+"
+on
+"
+'
   
 ]
   

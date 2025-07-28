@@ -1204,7 +1204,7 @@ devil
 .
 android
 .
-md5sum_test
+devil_util_test
 '
             
 '

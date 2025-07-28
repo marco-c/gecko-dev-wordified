@@ -278,6 +278,22 @@ class
       
 '
 -
+filter
+:
+none
+'
+#
+Necessary
+to
+include
+intra
+-
+package
+deps
+.
+      
+'
+-
 -
 multi
 -
