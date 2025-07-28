@@ -130,6 +130,11 @@ UNIFIED_SOURCES
 =
 [
 "
+ExecutionTracerIntegration
+.
+cpp
+"
+"
 ExportHelpers
 .
 cpp
