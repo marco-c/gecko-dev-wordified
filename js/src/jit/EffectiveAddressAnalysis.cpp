@@ -774,11 +774,11 @@ isRecoveredOnBailout
 return
 ;
 }
-MEffectiveAddress
+MEffectiveAddress3
 *
 eaddr
 =
-MEffectiveAddress
+MEffectiveAddress3
 :
 :
 New
