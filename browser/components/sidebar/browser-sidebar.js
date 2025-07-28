@@ -1167,6 +1167,11 @@ Glean
 sidebar
 .
 chatbotIconClick
+toolContextMenuId
+:
+"
+aichat
+"
 }
 )
 ;
@@ -11344,6 +11349,11 @@ attention
 false
 ;
 }
+contextMenu
+:
+sidebar
+.
+toolContextMenuId
 }
 ;
 }
