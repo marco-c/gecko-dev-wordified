@@ -6848,8 +6848,11 @@ create
 JSContext
 *
 cx
+Handle
+<
 WasmInstanceObject
 *
+>
 instance
 )
 ;
