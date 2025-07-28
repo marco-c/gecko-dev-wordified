@@ -226,6 +226,7 @@ JSContext
 *
 cx
 )
+const
 =
 0
 ;
