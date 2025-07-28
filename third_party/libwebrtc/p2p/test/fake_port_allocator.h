@@ -939,9 +939,6 @@ port_config_count_
 ;
 }
 const
-cricket
-:
-:
 ServerAddresses
 &
 stun_servers
@@ -1268,9 +1265,6 @@ is_cleared
 =
 false
 ;
-cricket
-:
-:
 ServerAddresses
 stun_servers_
 ;

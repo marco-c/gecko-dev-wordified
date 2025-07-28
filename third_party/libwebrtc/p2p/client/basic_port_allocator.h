@@ -927,7 +927,7 @@ gathered
 by
 the
 respective
-cricket
+webrtc
 :
 :
 Port
@@ -984,7 +984,7 @@ These
 will
 all
 be
-cricket
+webrtc
 :
 :
 Ports
@@ -1032,9 +1032,6 @@ override
 void
 GetCandidateStatsFromReadyPorts
 (
-cricket
-:
-:
 CandidateStatsList
 *
 candidate_stats_list
@@ -2068,9 +2065,6 @@ updated
 SocketAddress
 stun_address
 ;
-cricket
-:
-:
 ServerAddresses
 stun_servers
 ;
@@ -2107,9 +2101,6 @@ relays
 PortConfiguration
 (
 const
-cricket
-:
-:
 ServerAddresses
 &
 stun_servers
@@ -2155,9 +2146,6 @@ as
 STUN
 servers
 .
-cricket
-:
-:
 ServerAddresses
 StunServers
 (
@@ -2239,9 +2227,6 @@ and
 Protocol
 type
 .
-cricket
-:
-:
 ServerAddresses
 GetRelayServerAddresses
 (
@@ -2654,10 +2639,7 @@ AsyncPacketSocket
 *
 socket
 const
-rtc
-:
-:
-ReceivedPacket
+ReceivedIpPacket
 &
 packet
 )

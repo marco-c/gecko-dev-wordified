@@ -1652,7 +1652,7 @@ send_stream_
 .
 Write
 (
-rtc
+webrtc
 :
 :
 MakeArrayView
@@ -2205,7 +2205,7 @@ recv_stream_
 .
 Write
 (
-rtc
+webrtc
 :
 :
 MakeArrayView
@@ -2296,7 +2296,7 @@ send_stream_
 .
 Read
 (
-rtc
+webrtc
 :
 :
 MakeArrayView
@@ -2316,7 +2316,7 @@ error
 )
 !
 =
-rtc
+webrtc
 :
 :
 SR_EOS
@@ -2565,7 +2565,7 @@ send_stream_
 .
 Write
 (
-rtc
+webrtc
 :
 :
 MakeArrayView
@@ -3062,7 +3062,7 @@ recv_stream_
 .
 Write
 (
-rtc
+webrtc
 :
 :
 MakeArrayView
@@ -3162,7 +3162,7 @@ send_stream_
 .
 Read
 (
-rtc
+webrtc
 :
 :
 MakeArrayView
@@ -3182,7 +3182,7 @@ error
 )
 !
 =
-rtc
+webrtc
 :
 :
 SR_EOS
@@ -3432,7 +3432,7 @@ send_stream_
 .
 Write
 (
-rtc
+webrtc
 :
 :
 MakeArrayView
@@ -3823,7 +3823,7 @@ recv_stream_
 .
 Write
 (
-rtc
+webrtc
 :
 :
 MakeArrayView
@@ -3967,7 +3967,7 @@ send_stream_
 .
 Read
 (
-rtc
+webrtc
 :
 :
 MakeArrayView
@@ -3990,7 +3990,7 @@ error
 )
 !
 =
-rtc
+webrtc
 :
 :
 SR_EOS

@@ -254,10 +254,7 @@ pv
 size_t
 cb
 const
-rtc
-:
-:
-PacketOptions
+AsyncSocketPacketOptions
 &
 options
 )
@@ -266,9 +263,6 @@ override
 size_t
 ProcessInput
 (
-rtc
-:
-:
 ArrayView
 <
 const

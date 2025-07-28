@@ -541,9 +541,6 @@ InitializeAndGatherOnce
 (
 )
 {
-cricket
-:
-:
 ServerAddresses
 stun_servers
 ;
@@ -572,9 +569,6 @@ push_back
 ProtocolAddress
 (
 kTurnUdpIntAddr
-cricket
-:
-:
 PROTO_UDP
 )
 )

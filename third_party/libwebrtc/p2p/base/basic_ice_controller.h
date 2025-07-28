@@ -293,9 +293,6 @@ connection
 )
 override
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -313,9 +310,6 @@ return
 connections_
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -329,9 +323,6 @@ const
 override
 {
 return
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1055,10 +1046,7 @@ std
 :
 function
 <
-cricket
-:
-:
-IceTransportState
+IceTransportStateInternal
 (
 )
 >

@@ -774,9 +774,6 @@ not
 destroyed
 .
 virtual
-rtc
-:
-:
 ArrayView
 <
 const
@@ -829,9 +826,6 @@ cleaned
 up
 .
 virtual
-rtc
-:
-:
 ArrayView
 <
 const

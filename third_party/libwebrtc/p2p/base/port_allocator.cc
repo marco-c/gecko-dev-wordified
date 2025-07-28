@@ -685,9 +685,6 @@ PortAllocator
 SetConfiguration
 (
 const
-cricket
-:
-:
 ServerAddresses
 &
 stun_servers
@@ -754,9 +751,6 @@ PortAllocator
 SetConfiguration
 (
 const
-cricket
-:
-:
 ServerAddresses
 &
 stun_servers
@@ -1692,9 +1686,6 @@ PortAllocator
 :
 GetCandidateStatsFromPooledSessions
 (
-cricket
-:
-:
 CandidateStatsList
 *
 candidate_stats_list

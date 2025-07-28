@@ -1763,9 +1763,6 @@ is_final
 ]
 (
 const
-rtc
-:
-:
 IPAddress
 &
 addr
@@ -2193,10 +2190,7 @@ Port
 OnReadPacket
 (
 const
-rtc
-:
-:
-ReceivedPacket
+ReceivedIpPacket
 &
 packet
 ProtocolType
@@ -3046,9 +3040,6 @@ IceMessage
 ByteBufferReader
 buf
 (
-rtc
-:
-:
 MakeArrayView
 (
 reinterpret_cast
@@ -5204,10 +5195,7 @@ socket
 *
 /
 const
-rtc
-:
-:
-ReceivedPacket
+ReceivedIpPacket
 &
 /
 *
@@ -5520,10 +5508,7 @@ Write
 buf
 )
 ;
-rtc
-:
-:
-PacketOptions
+AsyncSocketPacketOptions
 options
 (
 StunDscpValue
@@ -5788,10 +5773,7 @@ Write
 buf
 )
 ;
-rtc
-:
-:
-PacketOptions
+AsyncSocketPacketOptions
 options
 (
 StunDscpValue
@@ -6437,9 +6419,6 @@ new_cost
 ;
 for
 (
-cricket
-:
-:
 Candidate
 &
 candidate

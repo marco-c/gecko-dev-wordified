@@ -245,10 +245,10 @@ data
 size_t
 len
 const
-rtc
+webrtc
 :
 :
-PacketOptions
+AsyncSocketPacketOptions
 &
 options
 int
@@ -264,7 +264,7 @@ MOCK_METHOD
 int
 SetOption
 (
-rtc
+webrtc
 :
 :
 Socket
@@ -293,9 +293,6 @@ override
 ;
 MOCK_METHOD
 (
-cricket
-:
-:
 IceRole
 GetIceRole
 (
@@ -323,10 +320,7 @@ override
 )
 )
 ;
-cricket
-:
-:
-IceTransportState
+IceTransportStateInternal
 GetState
 (
 )
@@ -334,10 +328,7 @@ const
 override
 {
 return
-cricket
-:
-:
-IceTransportState
+IceTransportStateInternal
 :
 :
 STATE_INIT
@@ -387,9 +378,6 @@ return
 void
 SetIceRole
 (
-cricket
-:
-:
 IceRole
 /
 *
@@ -423,9 +411,6 @@ void
 SetIceParameters
 (
 const
-cricket
-:
-:
 IceParameters
 &
 /
@@ -441,9 +426,6 @@ void
 SetRemoteIceParameters
 (
 const
-cricket
-:
-:
 IceParameters
 &
 /
@@ -458,9 +440,6 @@ override
 void
 SetRemoteIceMode
 (
-cricket
-:
-:
 IceMode
 /
 *
@@ -519,9 +498,6 @@ nullopt
 ;
 }
 const
-cricket
-:
-:
 Connection
 *
 selected_connection
@@ -540,9 +516,6 @@ std
 optional
 <
 const
-cricket
-:
-:
 CandidatePair
 >
 GetSelectedCandidatePair
@@ -569,9 +542,6 @@ void
 AddRemoteCandidate
 (
 const
-cricket
-:
-:
 Candidate
 &
 /
@@ -587,9 +557,6 @@ void
 RemoveRemoteCandidate
 (
 const
-cricket
-:
-:
 Candidate
 &
 /

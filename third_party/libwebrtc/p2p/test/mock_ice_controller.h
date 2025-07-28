@@ -290,9 +290,6 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -311,9 +308,6 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 ArrayView
 <
 const

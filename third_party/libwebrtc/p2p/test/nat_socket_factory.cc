@@ -564,9 +564,6 @@ starts
 size_t
 UnpackAddressFromNAT
 (
-rtc
-:
-:
 ArrayView
 <
 const

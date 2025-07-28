@@ -1853,9 +1853,6 @@ virtual
 void
 GetCandidateStatsFromReadyPorts
 (
-cricket
-:
-:
 CandidateStatsList
 *
 /
@@ -2791,9 +2788,6 @@ bool
 SetConfiguration
 (
 const
-cricket
-:
-:
 ServerAddresses
 &
 stun_servers
@@ -2837,9 +2831,6 @@ bool
 SetConfiguration
 (
 const
-cricket
-:
-:
 ServerAddresses
 &
 stun_servers
@@ -2880,9 +2871,6 @@ nullopt
 )
 ;
 const
-cricket
-:
-:
 ServerAddresses
 &
 stun_servers
@@ -4032,9 +4020,6 @@ virtual
 void
 GetCandidateStatsFromPooledSessions
 (
-cricket
-:
-:
 CandidateStatsList
 *
 candidate_stats_list
@@ -4301,9 +4286,6 @@ VpnPreference
 kDefault
 ;
 private
-:
-cricket
-:
 :
 ServerAddresses
 stun_servers_

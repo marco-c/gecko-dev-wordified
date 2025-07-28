@@ -1186,9 +1186,6 @@ remote_addr
 size_t
 UnpackAddressFromNAT
 (
-rtc
-:
-:
 ArrayView
 <
 const

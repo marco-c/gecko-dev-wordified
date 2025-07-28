@@ -290,9 +290,6 @@ thread_checker_
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 IceTransportInterface
@@ -327,9 +324,6 @@ factory
 )
 ;
 return
-rtc
-:
-:
 make_ref_counted
 <
 DefaultIceTransport

@@ -696,9 +696,6 @@ virtual
 bool
 ExportSrtpKeyingMaterial
 (
-rtc
-:
-:
 ZeroOnFreeBuffer
 <
 uint8_t
@@ -982,7 +979,7 @@ F
 :
 void
 (
-rtc
+webrtc
 :
 :
 SSLHandshakeError

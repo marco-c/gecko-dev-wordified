@@ -274,7 +274,7 @@ AnyInvocable
 <
 void
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -462,9 +462,6 @@ handshake
 void
 CapturePacket
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -637,9 +634,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Buffer
 >
 >
@@ -657,7 +651,7 @@ AnyInvocable
 <
 void
 (
-rtc
+webrtc
 :
 :
 ArrayView

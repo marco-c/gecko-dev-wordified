@@ -258,7 +258,7 @@ AnyInvocable
 <
 void
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -470,9 +470,6 @@ DtlsStunPiggybackController
 :
 CapturePacket
 (
-rtc
-:
-:
 ArrayView
 <
 const

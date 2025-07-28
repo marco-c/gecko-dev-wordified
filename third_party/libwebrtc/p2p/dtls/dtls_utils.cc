@@ -238,9 +238,6 @@ webrtc
 bool
 IsDtlsPacket
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -294,9 +291,6 @@ u
 bool
 IsDtlsClientHelloPacket
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -360,9 +354,6 @@ u
 bool
 IsDtlsHandshakePacket
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -501,9 +492,6 @@ uint16_t
 >
 GetDtlsHandshakeAcks
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1168,9 +1156,6 @@ acks
 uint32_t
 ComputeDtlsPacketHash
 (
-rtc
-:
-:
 ArrayView
 <
 const

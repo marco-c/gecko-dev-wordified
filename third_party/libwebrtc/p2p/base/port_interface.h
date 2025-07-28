@@ -677,10 +677,7 @@ SocketAddress
 &
 addr
 const
-rtc
-:
-:
-PacketOptions
+AsyncSocketPacketOptions
 &
 options
 bool
@@ -958,10 +955,7 @@ sigslot
 signal1
 <
 const
-rtc
-:
-:
-SentPacket
+SentPacketInfo
 &
 >
 SignalSentPacket

@@ -2606,7 +2606,7 @@ static_cast
 uint32_t
 >
 (
-rtc
+webrtc
 :
 :
 TimeSince
@@ -5273,7 +5273,7 @@ int32_t
 >
 (
 nTimeout
-rtc
+webrtc
 :
 :
 TimeDiff32
@@ -9215,9 +9215,6 @@ list
 ByteBufferReader
 buf
 (
-rtc
-:
-:
 MakeArrayView
 (
 reinterpret_cast

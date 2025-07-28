@@ -175,9 +175,6 @@ class
 MockActiveIceController
 :
 public
-cricket
-:
-:
 ActiveIceControllerInterface
 {
 public
@@ -186,9 +183,6 @@ explicit
 MockActiveIceController
 (
 const
-cricket
-:
-:
 ActiveIceControllerFactoryArgs
 &
 /
@@ -405,9 +399,6 @@ class
 MockActiveIceControllerFactory
 :
 public
-cricket
-:
-:
 ActiveIceControllerFactoryInterface
 {
 public
@@ -425,17 +416,11 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 ActiveIceControllerInterface
 >
 Create
 (
 const
-cricket
-:
-:
 ActiveIceControllerFactoryArgs
 &
 args

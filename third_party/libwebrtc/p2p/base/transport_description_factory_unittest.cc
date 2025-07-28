@@ -1382,7 +1382,7 @@ f1_
 TransportDescriptionFactory
 f2_
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1394,7 +1394,7 @@ RTCCertificate
 >
 cert1_
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr

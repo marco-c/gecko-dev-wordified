@@ -1802,9 +1802,6 @@ usual
 ByteBufferReader
 buf
 (
-rtc
-:
-:
 MakeArrayView
 (
 reinterpret_cast

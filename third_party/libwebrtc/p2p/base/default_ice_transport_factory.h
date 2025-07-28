@@ -300,9 +300,6 @@ returns
 a
 DefaultIceTransport
 .
-rtc
-:
-:
 scoped_refptr
 <
 IceTransportInterface

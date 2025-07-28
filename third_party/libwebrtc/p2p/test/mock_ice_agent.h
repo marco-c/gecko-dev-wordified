@@ -162,9 +162,6 @@ class
 MockIceAgent
 :
 public
-cricket
-:
-:
 IceAgentInterface
 {
 public
@@ -239,7 +236,7 @@ MOCK_METHOD
 void
 ForgetLearnedStateForConnections
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -301,7 +298,7 @@ MOCK_METHOD
 bool
 PruneConnections
 (
-rtc
+webrtc
 :
 :
 ArrayView

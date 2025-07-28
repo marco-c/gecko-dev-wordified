@@ -605,9 +605,6 @@ client_
 [
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -623,9 +620,6 @@ server_
 [
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -979,9 +973,6 @@ StunByteStringAttribute
 >
 WrapInStun
 (
-cricket
-:
-:
 IceAttributeType
 type
 absl
@@ -1014,9 +1005,6 @@ StunByteStringAttribute
 >
 WrapInStun
 (
-cricket
-:
-:
 IceAttributeType
 type
 const

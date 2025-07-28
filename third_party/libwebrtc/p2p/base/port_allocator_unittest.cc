@@ -406,7 +406,7 @@ allocator_
 >
 SetConfiguration
 (
-cricket
+webrtc
 :
 :
 ServerAddresses
@@ -447,7 +447,7 @@ allocator_
 >
 SetConfiguration
 (
-cricket
+webrtc
 :
 :
 ServerAddresses
@@ -741,7 +741,7 @@ turn_server_1
 3478
 kTurnUsername
 kTurnPassword
-cricket
+webrtc
 :
 :
 PROTO_UDP
@@ -766,7 +766,7 @@ turn_server_2
 3478
 kTurnUsername
 kTurnPassword
-cricket
+webrtc
 :
 :
 PROTO_UDP
@@ -952,7 +952,7 @@ PortAllocatorTest
 SetConfigurationUpdatesIceServers
 )
 {
-cricket
+webrtc
 :
 :
 ServerAddresses
@@ -1027,7 +1027,7 @@ set
 of
 servers
 .
-cricket
+webrtc
 :
 :
 ServerAddresses
@@ -1381,7 +1381,7 @@ PortAllocatorTest
 SetConfigurationRecreatesPooledSessionsWhenIceServersChange
 )
 {
-cricket
+webrtc
 :
 :
 ServerAddresses
@@ -1460,7 +1460,7 @@ pool
 size
 )
 .
-cricket
+webrtc
 :
 :
 ServerAddresses

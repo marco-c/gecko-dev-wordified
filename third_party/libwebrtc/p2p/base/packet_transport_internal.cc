@@ -260,10 +260,10 @@ webrtc
 PacketTransportInternal
 *
 const
-rtc
+webrtc
 :
 :
-ReceivedPacket
+ReceivedIpPacket
 &
 )
 >
@@ -370,10 +370,7 @@ PacketTransportInternal
 NotifyPacketReceived
 (
 const
-rtc
-:
-:
-ReceivedPacket
+ReceivedIpPacket
 &
 packet
 )

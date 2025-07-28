@@ -135,9 +135,6 @@ kMaxDtlsPacketLen
 bool
 IsDtlsPacket
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -149,9 +146,6 @@ payload
 bool
 IsDtlsClientHelloPacket
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -163,9 +157,6 @@ payload
 bool
 IsDtlsHandshakePacket
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -189,9 +180,6 @@ uint16_t
 >
 GetDtlsHandshakeAcks
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -203,9 +191,6 @@ dtls_packet
 uint32_t
 ComputeDtlsPacketHash
 (
-rtc
-:
-:
 ArrayView
 <
 const

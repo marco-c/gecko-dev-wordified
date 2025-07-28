@@ -608,9 +608,6 @@ candidates
 for
 (
 const
-cricket
-:
-:
 Candidate
 &
 candidate
