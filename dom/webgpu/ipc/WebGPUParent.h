@@ -883,6 +883,12 @@ RawId
 aDeviceId
 )
 ;
+#
+if
+defined
+(
+XP_WIN
+)
 static
 Maybe
 <
@@ -895,6 +901,8 @@ GetCompositorDeviceLuid
 (
 )
 ;
+#
+endif
 struct
 MapRequest
 {
