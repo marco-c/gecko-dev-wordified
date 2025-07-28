@@ -682,6 +682,7 @@ header
 FILE
 *
 patchFile
+const
 unsigned
 char
 *
@@ -691,6 +692,7 @@ FILE
 file
 )
 {
+const
 unsigned
 char
 *
@@ -698,6 +700,7 @@ fbufstart
 =
 fbuffer
 ;
+const
 unsigned
 char
 *
