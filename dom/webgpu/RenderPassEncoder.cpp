@@ -1776,8 +1776,10 @@ get
 )
 aSlot
 bindGroup
+{
 aDynamicOffsets
 aDynamicOffsetsLength
+}
 )
 ;
 }
@@ -2671,6 +2673,7 @@ mPass
 get
 (
 )
+{
 renderBundles
 .
 Elements
@@ -2681,6 +2684,7 @@ renderBundles
 Length
 (
 )
+}
 )
 ;
 }
