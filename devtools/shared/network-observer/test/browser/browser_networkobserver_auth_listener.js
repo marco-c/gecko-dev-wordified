@@ -391,6 +391,9 @@ new
 NetworkObserver
 (
 {
+decodeResponseBodies
+:
+true
 ignoreChannelFunction
 :
 channel
@@ -654,6 +657,9 @@ new
 NetworkObserver
 (
 {
+decodeResponseBodies
+:
+true
 ignoreChannelFunction
 :
 channel
@@ -978,6 +984,9 @@ new
 NetworkObserver
 (
 {
+decodeResponseBodies
+:
+true
 ignoreChannelFunction
 :
 channel
@@ -1274,6 +1283,9 @@ new
 NetworkObserver
 (
 {
+decodeResponseBodies
+:
+true
 ignoreChannelFunction
 :
 channel
@@ -1604,6 +1616,9 @@ new
 NetworkObserver
 (
 {
+decodeResponseBodies
+:
+true
 ignoreChannelFunction
 :
 channel
