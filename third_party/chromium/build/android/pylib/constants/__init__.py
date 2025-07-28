@@ -919,7 +919,7 @@ out_screenshots
 ANDROID_SDK_BUILD_TOOLS_VERSION
 =
 '
-35
+36
 .
 0
 .

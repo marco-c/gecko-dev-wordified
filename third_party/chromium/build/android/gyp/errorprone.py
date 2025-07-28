@@ -173,6 +173,18 @@ DirectInvocationOnMock
 MockNotUsedInProduction
 '
     
+'
+PatternMatchingInstanceof
+'
+    
+'
+AssignmentExpression
+'
+    
+'
+RuleNotRun
+'
+    
 #
 High
 priority
@@ -730,6 +742,16 @@ have
 .
     
 '
+StringConcatToTextBlock
+'
+    
+#
+Nice
+to
+have
+.
+    
+'
 StringCaseLocaleUsage
 '
     
@@ -740,6 +762,15 @@ priority
     
 '
 RedundantControlFlow
+'
+    
+#
+Low
+priority
+.
+    
+'
+StatementSwitchToExpressionSwitch
 '
 ]
 #

@@ -126,10 +126,6 @@ com
 348423879
     
 '
-third_party
-/
-android_deps
-/
 cipd
 /
 libs
