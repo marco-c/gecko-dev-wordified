@@ -98,6 +98,11 @@ fec_private_tables_bursty
 .
 h
 "
+#
+include
+<
+cstdint
+>
 namespace
 {
 /

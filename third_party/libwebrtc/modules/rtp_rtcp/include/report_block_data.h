@@ -90,6 +90,16 @@ define
 MODULES_RTP_RTCP_INCLUDE_REPORT_BLOCK_DATA_H_
 #
 include
+<
+cstddef
+>
+#
+include
+<
+cstdint
+>
+#
+include
 "
 api
 /

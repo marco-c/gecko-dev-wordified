@@ -102,6 +102,11 @@ h
 "
 #
 include
+<
+cstdint
+>
+#
+include
 "
 modules
 /

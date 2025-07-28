@@ -93,6 +93,11 @@ define
 MODULES_RTP_RTCP_MOCKS_MOCK_RTCP_RTT_STATS_H_
 #
 include
+<
+cstdint
+>
+#
+include
 "
 modules
 /

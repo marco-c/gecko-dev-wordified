@@ -104,15 +104,6 @@ rtp_packet_received
 .
 h
 "
-#
-include
-"
-rtc_base
-/
-checks
-.
-h
-"
 namespace
 webrtc
 {

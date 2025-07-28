@@ -114,6 +114,17 @@ checks
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+synchronization
+/
+mutex
+.
+h
+"
 namespace
 {
 constexpr

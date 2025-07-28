@@ -116,11 +116,6 @@ optional
 #
 include
 <
-variant
->
-#
-include
-<
 vector
 >
 #

@@ -100,10 +100,15 @@ h
 "
 #
 include
+<
+cstdint
+>
+#
+include
 "
 test
 /
-gmock
+gtest
 .
 h
 "
