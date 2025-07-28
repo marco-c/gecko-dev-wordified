@@ -4418,11 +4418,11 @@ i
 =
 0
 ;
+RefPtr
+<
 IMFMediaType
-*
+>
 inputType
-=
-nullptr
 ;
 GUID
 preferred
@@ -4444,8 +4444,10 @@ GetInputAvailableType
 (
 mInputStreamID
 i
-&
+getter_AddRefs
+(
 inputType
+)
 )
 ;
 if
