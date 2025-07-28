@@ -375,8 +375,8 @@ EncodePromise
 >
 Encode
 (
-const
 InputSample
+&
 &
 aInput
 )
@@ -1042,8 +1042,8 @@ aData
 HRESULT
 PushInput
 (
-const
 InputSample
+&
 &
 aInput
 )
