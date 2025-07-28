@@ -1988,7 +1988,11 @@ bytes
 20
 )
 .
-ABSL_MUST_USE_RESULT
+[
+[
+nodiscard
+]
+]
 absl
 :
 :

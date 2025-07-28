@@ -12197,6 +12197,11 @@ i
 len
 +
 =
+static_cast
+<
+int
+>
+(
 strlen
 (
 &
@@ -12204,6 +12209,7 @@ buf
 [
 len
 ]
+)
 )
 ;
 }

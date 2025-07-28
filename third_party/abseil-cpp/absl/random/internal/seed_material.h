@@ -174,7 +174,7 @@ absl
 /
 base
 /
-attributes
+config
 .
 h
 "
@@ -442,7 +442,11 @@ behavior
 is
 undefined
 .
-ABSL_MUST_USE_RESULT
+[
+[
+nodiscard
+]
+]
 bool
 ReadSeedMaterialFromOSEntropy
 (
@@ -568,7 +572,11 @@ template
 typename
 URBG
 >
-ABSL_MUST_USE_RESULT
+[
+[
+nodiscard
+]
+]
 bool
 ReadSeedMaterialFromURBG
 (
@@ -782,7 +790,7 @@ return
 empty
 value
 if
-optaining
+obtaining
 the
 salt
 was

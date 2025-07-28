@@ -4613,6 +4613,7 @@ OkStatus
 (
 )
 .
+ABSL_MUST_USE_RESULT
 const
 Status
 &

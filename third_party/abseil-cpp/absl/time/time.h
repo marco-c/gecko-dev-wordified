@@ -5287,7 +5287,7 @@ isec
 =
 1
 ABSL_ATTRIBUTE_CONST_FUNCTION
-inline
+constexpr
 int64_t
 ToInt64Nanoseconds
 (
@@ -5296,7 +5296,7 @@ d
 )
 ;
 ABSL_ATTRIBUTE_CONST_FUNCTION
-inline
+constexpr
 int64_t
 ToInt64Microseconds
 (
@@ -5305,7 +5305,7 @@ d
 )
 ;
 ABSL_ATTRIBUTE_CONST_FUNCTION
-inline
+constexpr
 int64_t
 ToInt64Milliseconds
 (
@@ -5314,7 +5314,7 @@ d
 )
 ;
 ABSL_ATTRIBUTE_CONST_FUNCTION
-inline
+constexpr
 int64_t
 ToInt64Seconds
 (
@@ -5323,7 +5323,7 @@ d
 )
 ;
 ABSL_ATTRIBUTE_CONST_FUNCTION
-inline
+constexpr
 int64_t
 ToInt64Minutes
 (
@@ -5332,7 +5332,7 @@ d
 )
 ;
 ABSL_ATTRIBUTE_CONST_FUNCTION
-inline
+constexpr
 int64_t
 ToInt64Hours
 (
@@ -17074,7 +17074,7 @@ t
 ;
 }
 ABSL_ATTRIBUTE_CONST_FUNCTION
-inline
+constexpr
 int64_t
 ToInt64Nanoseconds
 (
@@ -17154,7 +17154,7 @@ Nanoseconds
 ;
 }
 ABSL_ATTRIBUTE_CONST_FUNCTION
-inline
+constexpr
 int64_t
 ToInt64Microseconds
 (
@@ -17236,7 +17236,7 @@ Microseconds
 ;
 }
 ABSL_ATTRIBUTE_CONST_FUNCTION
-inline
+constexpr
 int64_t
 ToInt64Milliseconds
 (
@@ -17318,7 +17318,7 @@ Milliseconds
 ;
 }
 ABSL_ATTRIBUTE_CONST_FUNCTION
-inline
+constexpr
 int64_t
 ToInt64Seconds
 (
@@ -17377,7 +17377,7 @@ hi
 ;
 }
 ABSL_ATTRIBUTE_CONST_FUNCTION
-inline
+constexpr
 int64_t
 ToInt64Minutes
 (
@@ -17438,7 +17438,7 @@ hi
 ;
 }
 ABSL_ATTRIBUTE_CONST_FUNCTION
-inline
+constexpr
 int64_t
 ToInt64Hours
 (

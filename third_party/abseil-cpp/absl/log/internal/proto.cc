@@ -1064,7 +1064,11 @@ return
 true
 ;
 }
-ABSL_MUST_USE_RESULT
+[
+[
+nodiscard
+]
+]
 absl
 :
 :

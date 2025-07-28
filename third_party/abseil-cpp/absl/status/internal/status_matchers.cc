@@ -444,7 +444,7 @@ os
 <
 <
 "
-or
+either
 has
 a
 status
@@ -546,6 +546,18 @@ empty
 (
 )
 ?
+status
+.
+ok
+(
+)
+?
+"
+which
+is
+OK
+"
+:
 "
 whose
 status

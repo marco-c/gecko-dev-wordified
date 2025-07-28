@@ -479,6 +479,17 @@ absl
 /
 base
 /
+nullability
+.
+h
+"
+#
+include
+"
+absl
+/
+base
+/
 optimization
 .
 h
@@ -1007,7 +1018,11 @@ template
 typename
 T
 >
-ABSL_MUST_USE_RESULT
+[
+[
+nodiscard
+]
+]
 T
 GetFlag
 (
@@ -1147,6 +1162,7 @@ Flag
 T
 >
 *
+absl_nonnull
 flag
 const
 T
@@ -1234,6 +1250,7 @@ Flag
 T
 >
 *
+absl_nonnull
 flag
 const
 V

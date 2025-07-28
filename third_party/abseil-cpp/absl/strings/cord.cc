@@ -8324,6 +8324,10 @@ compared_size
 int
 memcmp_res
 =
+compared_size
+>
+0
+?
 :
 :
 memcmp
@@ -8340,6 +8344,8 @@ data
 )
 compared_size
 )
+:
+0
 ;
 if
 (
@@ -9032,6 +9038,14 @@ tree
 )
 &
 fragment
+)
+&
+&
+!
+fragment
+.
+empty
+(
 )
 )
 {

@@ -11063,7 +11063,6 @@ WeakMix
 Seed
 (
 )
-^
 static_cast
 <
 std
@@ -11490,7 +11489,6 @@ WeakMix
 hash_state
 .
 state_
-^
 value
 )
 )
@@ -11673,7 +11671,6 @@ return
 WeakMix
 (
 state
-^
 v
 )
 ;
@@ -12691,9 +12688,19 @@ uint64_t
 WeakMix
 (
 uint64_t
-n
+lhs
+uint64_t
+rhs
 )
 {
+const
+uint64_t
+n
+=
+lhs
+^
+rhs
+;
 /
 /
 WeakMix

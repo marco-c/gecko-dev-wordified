@@ -11155,7 +11155,11 @@ and
 returns
 false
 .
-ABSL_MUST_USE_RESULT
+[
+[
+nodiscard
+]
+]
 static
 bool
 DelayIsWithinBounds
@@ -13842,6 +13846,7 @@ absl
 :
 Mutex
 )
+unsigned
 char
 storage
 [

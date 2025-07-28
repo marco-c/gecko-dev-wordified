@@ -1829,7 +1829,11 @@ true
 on
 success
 .
-ABSL_MUST_USE_RESULT
+[
+[
+nodiscard
+]
+]
 bool
 HexStringToBytes
 (

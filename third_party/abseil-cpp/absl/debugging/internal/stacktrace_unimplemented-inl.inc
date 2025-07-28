@@ -23,6 +23,13 @@ void
 result
 *
 /
+uintptr_t
+*
+/
+*
+frames
+*
+/
 int
 *
 /

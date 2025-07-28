@@ -412,7 +412,7 @@ len
 )
 {
 return
-LowLevelHashLenGt16
+LowLevelHashLenGt32
 (
 data
 len

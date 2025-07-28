@@ -754,7 +754,11 @@ original
 string
 instead
 .
-ABSL_MUST_USE_RESULT
+[
+[
+nodiscard
+]
+]
 inline
 constexpr
 absl
@@ -853,7 +857,11 @@ original
 string
 instead
 .
-ABSL_MUST_USE_RESULT
+[
+[
+nodiscard
+]
+]
 inline
 constexpr
 absl

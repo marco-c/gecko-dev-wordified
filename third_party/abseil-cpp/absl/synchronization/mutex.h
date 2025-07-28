@@ -768,6 +768,17 @@ absl
 /
 base
 /
+nullability
+.
+h
+"
+#
+include
+"
+absl
+/
+base
+/
 port
 .
 h
@@ -2088,7 +2099,11 @@ Mutex
 was
 free
 .
-ABSL_MUST_USE_RESULT
+[
+[
+nodiscard
+]
+]
 bool
 TryLock
 (
@@ -3135,7 +3150,11 @@ free
 or
 shared
 .
-ABSL_MUST_USE_RESULT
+[
+[
+nodiscard
+]
+]
 bool
 ReaderTryLock
 (
@@ -3372,7 +3391,11 @@ Unlock
 )
 ;
 }
-ABSL_MUST_USE_RESULT
+[
+[
+nodiscard
+]
+]
 bool
 WriterTryLock
 (
@@ -5171,14 +5194,17 @@ EnableInvariantDebugging
 void
 (
 *
+absl_nullable
 invariant
 )
 (
 void
 *
+absl_nullability_unknown
 )
 void
 *
+absl_nullability_unknown
 arg
 )
 ;
@@ -5255,6 +5281,7 @@ EnableDebugLog
 const
 char
 *
+absl_nullable
 name
 )
 ;
@@ -5656,12 +5683,14 @@ IncrementSynchSem
 (
 Mutex
 *
+absl_nonnull
 mu
 base_internal
 :
 :
 PerThreadSynch
 *
+absl_nonnull
 w
 )
 ;
@@ -5671,12 +5700,14 @@ DecrementSynchSem
 (
 Mutex
 *
+absl_nonnull
 mu
 base_internal
 :
 :
 PerThreadSynch
 *
+absl_nonnull
 w
 synchronization_internal
 :
@@ -5695,6 +5726,7 @@ LockSlowLoop
 (
 SynchWaitParams
 *
+absl_nonnull
 waitp
 int
 flags
@@ -5711,10 +5743,12 @@ bool
 LockSlowWithDeadline
 (
 MuHow
+absl_nonnull
 how
 const
 Condition
 *
+absl_nullable
 cond
 synchronization_internal
 :
@@ -5729,10 +5763,12 @@ void
 LockSlow
 (
 MuHow
+absl_nonnull
 how
 const
 Condition
 *
+absl_nullable
 cond
 int
 flags
@@ -5749,6 +5785,7 @@ UnlockSlow
 (
 SynchWaitParams
 *
+absl_nullable
 waitp
 )
 ABSL_ATTRIBUTE_COLD
@@ -5837,6 +5874,7 @@ base_internal
 :
 PerThreadSynch
 *
+absl_nonnull
 s
 )
 ;
@@ -5856,6 +5894,7 @@ base_internal
 :
 PerThreadSynch
 *
+absl_nonnull
 s
 )
 ;
@@ -5873,6 +5912,7 @@ base_internal
 :
 PerThreadSynch
 *
+absl_nullable
 Wakeup
 (
 base_internal
@@ -5880,6 +5920,7 @@ base_internal
 :
 PerThreadSynch
 *
+absl_nonnull
 w
 )
 ;
@@ -5909,6 +5950,7 @@ void
 Trans
 (
 MuHow
+absl_nonnull
 how
 )
 ;
@@ -5929,6 +5971,7 @@ base_internal
 :
 PerThreadSynch
 *
+absl_nonnull
 w
 )
 ;
@@ -5960,6 +6003,7 @@ const
 volatile
 Mutex
 *
+absl_nullable
 /
 *
 ignored
@@ -6297,6 +6341,7 @@ MutexLock
 (
 Mutex
 *
+absl_nonnull
 mu
 )
 ABSL_EXCLUSIVE_LOCK_FUNCTION
@@ -6367,6 +6412,7 @@ MutexLock
 (
 Mutex
 *
+absl_nonnull
 mu
 const
 Condition
@@ -6476,6 +6522,7 @@ private
 :
 Mutex
 *
+absl_nonnull
 const
 mu_
 ;
@@ -6522,6 +6569,7 @@ ReaderMutexLock
 (
 Mutex
 *
+absl_nonnull
 mu
 )
 ABSL_SHARED_LOCK_FUNCTION
@@ -6547,6 +6595,7 @@ ReaderMutexLock
 (
 Mutex
 *
+absl_nonnull
 mu
 const
 Condition
@@ -6637,6 +6686,7 @@ private
 :
 Mutex
 *
+absl_nonnull
 const
 mu_
 ;
@@ -6686,6 +6736,7 @@ WriterMutexLock
 (
 Mutex
 *
+absl_nonnull
 mu
 )
 ABSL_EXCLUSIVE_LOCK_FUNCTION
@@ -6711,6 +6762,7 @@ WriterMutexLock
 (
 Mutex
 *
+absl_nonnull
 mu
 const
 Condition
@@ -6801,6 +6853,7 @@ private
 :
 Mutex
 *
+absl_nonnull
 const
 mu_
 ;
@@ -7507,14 +7560,17 @@ Condition
 bool
 (
 *
+absl_nonnull
 func
 )
 (
 void
 *
+absl_nullability_unknown
 )
 void
 *
+absl_nullability_unknown
 arg
 )
 ;
@@ -7613,14 +7669,17 @@ Condition
 bool
 (
 *
+absl_nonnull
 func
 )
 (
 T
 *
+absl_nullability_unknown
 )
 T
 *
+absl_nullability_unknown
 arg
 )
 ;
@@ -7782,11 +7841,13 @@ Condition
 bool
 (
 *
+absl_nonnull
 func
 )
 (
 T
 *
+absl_nullability_unknown
 )
 typename
 absl
@@ -7803,6 +7864,7 @@ T
 :
 type
 *
+absl_nullability_unknown
 arg
 )
 ;
@@ -7906,6 +7968,7 @@ Condition
 (
 T
 *
+absl_nonnull
 object
 bool
 (
@@ -7925,6 +7988,7 @@ type
 :
 :
 *
+absl_nonnull
 method
 )
 (
@@ -7949,6 +8013,7 @@ Condition
 const
 T
 *
+absl_nonnull
 object
 bool
 (
@@ -7968,6 +8033,7 @@ type
 :
 :
 *
+absl_nonnull
 method
 )
 (
@@ -7992,6 +8058,7 @@ Condition
 const
 bool
 *
+absl_nonnull
 cond
 )
 ;
@@ -8289,6 +8356,7 @@ Condition
 const
 T
 *
+absl_nonnull
 obj
 )
 :
@@ -8536,10 +8604,12 @@ GuaranteedEqual
 const
 Condition
 *
+absl_nullable
 a
 const
 Condition
 *
+absl_nullable
 b
 )
 ;
@@ -8790,12 +8860,14 @@ arguments
 bool
 (
 *
+absl_nullable
 eval_
 )
 (
 const
 Condition
 *
+absl_nonnull
 )
 =
 nullptr
@@ -8819,6 +8891,7 @@ call
 .
 void
 *
+absl_nullable
 arg_
 =
 nullptr
@@ -8839,6 +8912,8 @@ CallVoidPtrFunction
 const
 Condition
 *
+absl_nonnull
+c
 )
 ;
 template
@@ -8853,6 +8928,7 @@ CastAndCallFunction
 const
 Condition
 *
+absl_nonnull
 c
 )
 ;
@@ -8870,6 +8946,7 @@ CastAndCallMethod
 const
 Condition
 *
+absl_nonnull
 c
 )
 ;
@@ -8951,6 +9028,7 @@ ReadCallback
 (
 T
 *
+absl_nonnull
 callback
 )
 const
@@ -8977,6 +9055,7 @@ AlwaysTrue
 const
 Condition
 *
+absl_nullable
 )
 {
 return
@@ -9584,6 +9663,7 @@ Wait
 (
 Mutex
 *
+absl_nonnull
 mu
 )
 {
@@ -9732,6 +9812,7 @@ WaitWithTimeout
 (
 Mutex
 *
+absl_nonnull
 mu
 absl
 :
@@ -9899,6 +9980,7 @@ WaitWithDeadline
 (
 Mutex
 *
+absl_nonnull
 mu
 absl
 :
@@ -10035,6 +10117,7 @@ EnableDebugLog
 const
 char
 *
+absl_nullable
 name
 )
 ;
@@ -10045,6 +10128,7 @@ WaitCommon
 (
 Mutex
 *
+absl_nonnull
 mutex
 synchronization_internal
 :
@@ -10061,6 +10145,7 @@ base_internal
 :
 PerThreadSynch
 *
+absl_nonnull
 s
 )
 ;
@@ -10173,6 +10258,7 @@ MutexLockMaybe
 (
 Mutex
 *
+absl_nullable
 mu
 )
 ABSL_EXCLUSIVE_LOCK_FUNCTION
@@ -10213,6 +10299,7 @@ MutexLockMaybe
 (
 Mutex
 *
+absl_nullable
 mu
 const
 Condition
@@ -10288,6 +10375,7 @@ private
 :
 Mutex
 *
+absl_nullable
 const
 mu_
 ;
@@ -10380,6 +10468,7 @@ ReleasableMutexLock
 (
 Mutex
 *
+absl_nonnull
 mu
 )
 ABSL_EXCLUSIVE_LOCK_FUNCTION
@@ -10408,6 +10497,7 @@ ReleasableMutexLock
 (
 Mutex
 *
+absl_nonnull
 mu
 const
 Condition
@@ -10479,6 +10569,7 @@ private
 :
 Mutex
 *
+absl_nonnull
 mu_
 ;
 ReleasableMutexLock
@@ -10730,6 +10821,7 @@ CastAndCallMethod
 const
 Condition
 *
+absl_nonnull
 c
 )
 {
@@ -10790,6 +10882,7 @@ CastAndCallFunction
 const
 Condition
 *
+absl_nonnull
 c
 )
 {
@@ -10852,14 +10945,17 @@ Condition
 bool
 (
 *
+absl_nonnull
 func
 )
 (
 T
 *
+absl_nullability_unknown
 )
 T
 *
+absl_nullability_unknown
 arg
 )
 :
@@ -10938,11 +11034,13 @@ Condition
 bool
 (
 *
+absl_nonnull
 func
 )
 (
 T
 *
+absl_nullability_unknown
 )
 typename
 absl
@@ -10959,6 +11057,7 @@ T
 :
 type
 *
+absl_nullability_unknown
 arg
 )
 /
@@ -10991,6 +11090,7 @@ Condition
 (
 T
 *
+absl_nonnull
 object
 bool
 (
@@ -11010,6 +11110,7 @@ type
 :
 :
 *
+absl_nonnull
 method
 )
 (
@@ -11079,6 +11180,7 @@ Condition
 const
 T
 *
+absl_nonnull
 object
 bool
 (
@@ -11098,6 +11200,7 @@ type
 :
 :
 *
+absl_nonnull
 method
 )
 (
@@ -11288,6 +11391,7 @@ RegisterMutexProfiler
 void
 (
 *
+absl_nonnull
 fn
 )
 (
@@ -11422,16 +11526,19 @@ RegisterMutexTracer
 void
 (
 *
+absl_nonnull
 fn
 )
 (
 const
 char
 *
+absl_nonnull
 msg
 const
 void
 *
+absl_nonnull
 obj
 int64_t
 wait_cycles
@@ -11559,16 +11666,19 @@ RegisterCondVarTracer
 void
 (
 *
+absl_nonnull
 fn
 )
 (
 const
 char
 *
+absl_nonnull
 msg
 const
 void
 *
+absl_nonnull
 cv
 )
 )

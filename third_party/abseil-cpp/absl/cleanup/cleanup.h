@@ -816,7 +816,11 @@ void
 )
 >
 class
-ABSL_MUST_USE_RESULT
+[
+[
+nodiscard
+]
+]
 Cleanup
 final
 {

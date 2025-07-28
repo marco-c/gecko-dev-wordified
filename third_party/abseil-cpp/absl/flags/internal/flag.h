@@ -505,7 +505,11 @@ template
 typename
 T
 >
-ABSL_MUST_USE_RESULT
+[
+[
+nodiscard
+]
+]
 T
 GetFlag
 (
@@ -6698,6 +6702,7 @@ absl
 Mutex
 )
 mutable
+unsigned
 char
 data_guard_
 [
@@ -7548,6 +7553,7 @@ alignas
 (
 T
 )
+unsigned
 char
 buf
 [

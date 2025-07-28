@@ -395,6 +395,13 @@ declarations
     
 "
 -
+Wnullability
+-
+completeness
+"
+    
+"
+-
 Woverlength
 -
 strings
@@ -464,6 +471,13 @@ unsigned
 zero
 -
 compare
+"
+    
+"
+-
+Wthread
+-
+safety
 "
     
 "
@@ -887,46 +901,6 @@ wd4180
 "
     
 #
-conversion
-from
-'
-type1
-'
-to
-'
-type2
-'
-possible
-loss
-of
-data
-    
-"
-/
-wd4244
-"
-    
-#
-conversion
-from
-'
-size_t
-'
-to
-'
-type
-'
-possible
-loss
-of
-data
-    
-"
-/
-wd4267
-"
-    
-#
 The
 decorated
 name
@@ -1204,6 +1178,7 @@ GccStyleFilterAndCombine
         
 ABSL_GCC_FLAGS
 ABSL_GCC_TEST_ADDITIONAL_FLAGS
+    
 )
     
 "
@@ -1221,13 +1196,13 @@ GccStyleFilterAndCombine
         
 ABSL_LLVM_FLAGS
 ABSL_LLVM_TEST_ADDITIONAL_FLAGS
+    
 )
     
 "
 ABSL_CLANG_CL_FLAGS
 "
 :
-        
 MSVC_BIG_WARNING_FLAGS
 +
 MSVC_DEFINES
@@ -1236,6 +1211,7 @@ MSVC_DEFINES
 ABSL_CLANG_CL_TEST_FLAGS
 "
 :
+(
         
 MSVC_BIG_WARNING_FLAGS
 +
@@ -1243,10 +1219,13 @@ MSVC_DEFINES
 +
 ABSL_LLVM_TEST_ADDITIONAL_FLAGS
     
+)
+    
 "
 ABSL_MSVC_FLAGS
 "
 :
+(
         
 MSVC_BIG_WARNING_FLAGS
 +
@@ -1254,16 +1233,22 @@ MSVC_WARNING_FLAGS
 +
 MSVC_DEFINES
     
+)
+    
 "
 ABSL_MSVC_TEST_FLAGS
 "
 :
+(
         
 MSVC_BIG_WARNING_FLAGS
+        
 +
 MSVC_WARNING_FLAGS
+        
 +
 MSVC_DEFINES
+        
 +
 [
             
@@ -1285,6 +1270,22 @@ wd4101
 unreferenced
 local
 variable
+            
+"
+/
+wd4244
+"
+#
+shortening
+conversion
+            
+"
+/
+wd4267
+"
+#
+shortening
+conversion
             
 "
 /
@@ -1332,6 +1333,8 @@ h
 >
         
 ]
+    
+)
     
 "
 ABSL_MSVC_LINKOPTS

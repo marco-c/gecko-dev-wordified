@@ -1031,13 +1031,10 @@ matching
 bool
 InvokeMock
 (
-base_internal
-:
-:
-FastTypeIdType
-void
+key_id
+args_tuple
 *
-void
+result
 *
 )
 .
@@ -1659,7 +1656,7 @@ base_internal
 :
 :
 FastTypeIdType
-type
+key_id
 void
 *
 result
@@ -1681,7 +1678,7 @@ gen_ptr
 >
 InvokeMock
 (
-type
+key_id
 result
 arg_tuple
 )
@@ -1714,7 +1711,7 @@ base_internal
 :
 :
 FastTypeIdType
-type
+key_id
 void
 *
 args_tuple
@@ -1744,7 +1741,7 @@ return
 mock_call_
 (
 t_erased_gen_ptr_
-type
+key_id
 args_tuple
 result
 )
