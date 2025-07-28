@@ -531,20 +531,6 @@ writeWeakShapeField
 )
     
 "
-WeakGetterSetterField
-"
-:
-(
-"
-GetterSetter
-*
-"
-"
-writeWeakGetterSetterField
-"
-)
-    
-"
 ObjectField
 "
 :
@@ -698,6 +684,21 @@ Value
 "
 "
 writeValueField
+"
+)
+    
+"
+WeakValueField
+"
+:
+(
+"
+const
+Value
+&
+"
+"
+writeWeakValueField
 "
 )
     
@@ -1760,26 +1761,6 @@ stubOffset
 )
     
 "
-WeakGetterSetterField
-"
-:
-(
-"
-uint32_t
-"
-"
-Offset
-"
-"
-reader
-.
-stubOffset
-(
-)
-"
-)
-    
-"
 ObjectField
 "
 :
@@ -1981,6 +1962,26 @@ stubOffset
     
 "
 ValueField
+"
+:
+(
+"
+uint32_t
+"
+"
+Offset
+"
+"
+reader
+.
+stubOffset
+(
+)
+"
+)
+    
+"
+WeakValueField
 "
 :
 (
@@ -3357,14 +3358,6 @@ spewField
 "
     
 "
-WeakGetterSetterField
-"
-:
-"
-spewField
-"
-    
-"
 ObjectField
 "
 :
@@ -3446,6 +3439,14 @@ spewField
     
 "
 ValueField
+"
+:
+"
+spewField
+"
+    
+"
+WeakValueField
 "
 :
 "
@@ -4463,12 +4464,6 @@ WeakShapeField
 1
     
 "
-WeakGetterSetterField
-"
-:
-1
-    
-"
 ObjectField
 "
 :
@@ -4542,6 +4537,12 @@ IdField
     
 "
 ValueField
+"
+:
+1
+    
+"
+WeakValueField
 "
 :
 1
