@@ -211,6 +211,7 @@ get_crc32c_value_func
 void
 *
 calculator
+const
 uint8_t
 *
 p

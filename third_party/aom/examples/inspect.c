@@ -5020,7 +5020,7 @@ char
 *
 buffer
 =
-aom_malloc
+malloc
 (
 MAX_BUFFER
 )
@@ -5929,7 +5929,7 @@ on_frame_decoded_dump
 buffer
 )
 ;
-aom_free
+free
 (
 buffer
 )

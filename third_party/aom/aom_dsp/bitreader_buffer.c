@@ -128,6 +128,13 @@ h
 >
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
 config
 /
@@ -530,6 +537,10 @@ leading_zeros
 return
 UINT32_MAX
 ;
+/
+/
+Error
+.
 const
 uint32_t
 base
