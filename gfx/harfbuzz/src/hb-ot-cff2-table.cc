@@ -1351,7 +1351,14 @@ coords
 font
 -
 >
+has_nonzero_coords
+?
+font
+-
+>
 num_coords
+:
+0
 )
 )
 ;

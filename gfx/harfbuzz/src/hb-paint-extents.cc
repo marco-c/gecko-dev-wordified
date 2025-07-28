@@ -315,6 +315,8 @@ c
 push_transform
 (
 hb_transform_t
+<
+>
 {
 xx
 yx
@@ -394,6 +396,8 @@ hb_paint_extents_context_t
 paint_data
 ;
 hb_extents_t
+<
+>
 extents
 ;
 hb_draw_funcs_t
@@ -457,6 +461,8 @@ hb_paint_extents_context_t
 paint_data
 ;
 hb_extents_t
+<
+>
 extents
 =
 {
@@ -647,6 +653,8 @@ SVG
 images
 .
 hb_extents_t
+<
+>
 extents
 =
 {

@@ -1111,11 +1111,27 @@ link
 char
 *
 head
+unsigned
+size
 hb_serialize_context_t
 *
 c
 )
 {
+assert
+(
+link
+.
+position
++
+link
+.
+width
+<
+=
+size
+)
+;
 OT
 :
 :
@@ -1228,6 +1244,8 @@ link
 char
 *
 head
+unsigned
+size
 hb_serialize_context_t
 *
 c
@@ -1274,6 +1292,7 @@ HBINT32
 (
 link
 head
+size
 c
 )
 ;
@@ -1290,6 +1309,7 @@ HBUINT32
 (
 link
 head
+size
 c
 )
 ;
@@ -1316,6 +1336,7 @@ HBINT16
 (
 link
 head
+size
 c
 )
 ;
@@ -1332,6 +1353,7 @@ HBUINT16
 (
 link
 head
+size
 c
 )
 ;
@@ -1351,6 +1373,7 @@ HBUINT24
 (
 link
 head
+size
 c
 )
 ;
@@ -1604,6 +1627,7 @@ serialize_link
 (
 link
 start
+size
 &
 c
 )

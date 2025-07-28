@@ -4536,6 +4536,7 @@ tr53
 *
 /
 static
+const
 hb_codepoint_t
 modifier_combining_marks
 [

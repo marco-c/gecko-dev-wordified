@@ -525,6 +525,7 @@ class_def_prime_vertex
 add_parent
 (
 parent_id
+false
 )
 ;
 return

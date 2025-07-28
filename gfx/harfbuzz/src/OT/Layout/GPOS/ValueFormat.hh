@@ -442,7 +442,7 @@ NULL
 /
 #
 endif
-IntType
+NumType
 &
 operator
 =
@@ -860,7 +860,7 @@ x_ppem
 font
 -
 >
-num_coords
+has_nonzero_coords
 ;
 bool
 use_y_device
@@ -874,7 +874,7 @@ y_ppem
 font
 -
 >
-num_coords
+has_nonzero_coords
 ;
 if
 (

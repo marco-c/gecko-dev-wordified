@@ -35,7 +35,7 @@ Types
 struct
 LigatureSet
 {
-protected
+public
 :
 Array16OfOffset16To
 <
@@ -57,8 +57,6 @@ by
 preference
 *
 /
-public
-:
 DEFINE_SIZE_ARRAY
 (
 2

@@ -978,6 +978,7 @@ u
 ;
 }
 static
+const
 enum
 thai_above_state_t
 {

@@ -3953,12 +3953,6 @@ code
 .
 print_c
 (
-linkage
-=
-'
-static
-inline
-'
 )
     
 print

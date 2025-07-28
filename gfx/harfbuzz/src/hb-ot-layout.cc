@@ -2772,7 +2772,7 @@ point_count
 inout
 )
 (
-optional
+nullable
 )
 :
 Input
@@ -2993,7 +2993,7 @@ caret_count
 inout
 )
 (
-optional
+nullable
 )
 :
 Input
@@ -3398,7 +3398,7 @@ script_count
 inout
 )
 (
-optional
+nullable
 )
 :
 Input
@@ -4037,7 +4037,7 @@ script_index
 out
 )
 (
-optional
+nullable
 )
 :
 The
@@ -4053,7 +4053,7 @@ chosen_script
 out
 )
 (
-optional
+nullable
 )
 :
 #
@@ -4483,7 +4483,7 @@ feature_count
 inout
 )
 (
-optional
+nullable
 )
 :
 Input
@@ -4923,7 +4923,7 @@ language_count
 inout
 )
 (
-optional
+nullable
 )
 :
 Input
@@ -6225,7 +6225,7 @@ feature_count
 inout
 )
 (
-optional
+nullable
 )
 :
 Input
@@ -6482,7 +6482,7 @@ feature_count
 inout
 )
 (
-optional
+nullable
 )
 :
 Input
@@ -7084,7 +7084,7 @@ lookup_count
 inout
 )
 (
-optional
+nullable
 )
 :
 Input
@@ -9103,6 +9103,9 @@ glyphs_before
 (
 out
 )
+(
+nullable
+)
 :
 Array
 of
@@ -9116,6 +9119,9 @@ glyphs_input
 :
 (
 out
+)
+(
+nullable
 )
 :
 Array
@@ -9135,6 +9141,9 @@ glyphs_after
 (
 out
 )
+(
+nullable
+)
 :
 Array
 of
@@ -9148,6 +9157,9 @@ glyphs_output
 :
 (
 out
+)
+(
+nullable
 )
 :
 Array
@@ -9628,7 +9640,7 @@ lookup_count
 inout
 )
 (
-optional
+nullable
 )
 :
 Input
@@ -11474,7 +11486,7 @@ label_id
 out
 )
 (
-optional
+nullable
 )
 :
 The
@@ -11497,12 +11509,6 @@ for
 this
 feature
 .
-(
-May
-be
-NULL
-.
-)
 *
 tooltip_id
 :
@@ -11510,7 +11516,7 @@ tooltip_id
 out
 )
 (
-optional
+nullable
 )
 :
 The
@@ -11536,12 +11542,6 @@ this
 *
 feature
 .
-(
-May
-be
-NULL
-.
-)
 *
 sample_id
 :
@@ -11549,7 +11549,7 @@ sample_id
 out
 )
 (
-optional
+nullable
 )
 :
 The
@@ -11570,12 +11570,6 @@ of
 this
 feature
 .
-(
-May
-be
-NULL
-.
-)
 *
 num_named_parameters
 :
@@ -11583,7 +11577,7 @@ num_named_parameters
 out
 )
 (
-optional
+nullable
 )
 :
 Number
@@ -11591,12 +11585,6 @@ of
 named
 parameters
 .
-(
-May
-be
-zero
-.
-)
 *
 first_param_id
 :
@@ -11604,7 +11592,7 @@ first_param_id
 out
 )
 (
-optional
+nullable
 )
 :
 The
@@ -12133,7 +12121,7 @@ char_count
 inout
 )
 (
-optional
+nullable
 )
 :
 Input
@@ -13058,21 +13046,11 @@ auto
 *
 var_store_cache
 =
-font_data
-=
-=
-HB_SHAPER_DATA_SUCCEEDED
-?
-nullptr
-:
 (
 OT
 :
 :
-ItemVariationStore
-:
-:
-cache_t
+hb_scalar_cache_t
 *
 )
 font_data
@@ -16417,7 +16395,7 @@ alternate_count
 inout
 )
 (
-optional
+nullable
 )
 :
 Input

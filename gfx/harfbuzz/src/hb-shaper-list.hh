@@ -334,10 +334,10 @@ coretext
 endif
 #
 ifdef
-HAVE_HARFRUZZ
+HAVE_HARFRUST
 HB_SHAPER_IMPLEMENT
 (
-harfruzz
+harfrust
 )
 #
 endif
