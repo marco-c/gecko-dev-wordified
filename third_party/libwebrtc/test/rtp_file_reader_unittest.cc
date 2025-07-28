@@ -532,9 +532,6 @@ packet
 )
 )
 {
-rtc
-:
-:
 ArrayView
 <
 const

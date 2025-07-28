@@ -3056,9 +3056,6 @@ AudioSendStream
 Config
 &
 send_config
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderFactory

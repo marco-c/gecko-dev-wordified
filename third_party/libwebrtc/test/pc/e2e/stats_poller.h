@@ -286,9 +286,6 @@ void
 OnStatsDelivered
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 const
@@ -492,9 +489,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 InternalStatsObserver

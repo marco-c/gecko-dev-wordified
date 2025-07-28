@@ -138,7 +138,7 @@ h264_bitstream_parser
 .
 ParseBitstream
 (
-rtc
+webrtc
 :
 :
 ArrayView

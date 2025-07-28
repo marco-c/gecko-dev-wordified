@@ -332,9 +332,6 @@ read_bytes
 )
 )
 {
-rtc
-:
-:
 ArrayView
 <
 const
@@ -533,9 +530,6 @@ test
 FuzzDataHelper
 *
 fuzz_data
-rtc
-:
-:
 scoped_refptr
 <
 AudioProcessing

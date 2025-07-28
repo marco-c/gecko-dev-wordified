@@ -153,9 +153,6 @@ InternalStatsObserver
 OnStatsDelivered
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 const
@@ -248,9 +245,6 @@ pollers_
 .
 push_back
 (
-rtc
-:
-:
 make_ref_counted
 <
 InternalStatsObserver
@@ -331,9 +325,6 @@ pollers_
 .
 push_back
 (
-rtc
-:
-:
 make_ref_counted
 <
 InternalStatsObserver
@@ -417,9 +408,6 @@ pollers_
 .
 push_back
 (
-rtc
-:
-:
 make_ref_counted
 <
 InternalStatsObserver

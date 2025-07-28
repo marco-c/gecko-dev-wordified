@@ -230,9 +230,6 @@ CopyToFileAudioCapturer
 :
 Capture
 (
-rtc
-:
-:
 BufferT
 <
 int16_t

@@ -202,9 +202,6 @@ available
 void
 FuzzAudioEncoder
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -318,9 +315,6 @@ out
 return
 ;
 }
-rtc
-:
-:
 BufferT
 <
 int16_t
@@ -330,9 +324,6 @@ input_aligned
 block_size_samples
 )
 ;
-rtc
-:
-:
 Buffer
 encoded
 ;

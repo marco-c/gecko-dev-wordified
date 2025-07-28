@@ -122,9 +122,6 @@ webrtc
 void
 FuzzAudioEncoder
 (
-rtc
-:
-:
 ArrayView
 <
 const

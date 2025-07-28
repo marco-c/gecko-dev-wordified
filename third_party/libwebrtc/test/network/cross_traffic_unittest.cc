@@ -394,9 +394,6 @@ id
 *
 /
 1
-rtc
-:
-:
 IPAddress
 (
 kTestIpAddress

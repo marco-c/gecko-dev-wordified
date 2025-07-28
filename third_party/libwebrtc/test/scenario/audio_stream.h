@@ -248,9 +248,6 @@ CallClient
 sender
 AudioStreamConfig
 config
-rtc
-:
-:
 scoped_refptr
 <
 AudioEncoderFactory
@@ -367,9 +364,6 @@ config
 SendAudioStream
 *
 send_stream
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderFactory
@@ -498,9 +492,6 @@ AudioStreamPair
 CallClient
 *
 sender
-rtc
-:
-:
 scoped_refptr
 <
 AudioEncoderFactory
@@ -509,9 +500,6 @@ encoder_factory
 CallClient
 *
 receiver
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderFactory

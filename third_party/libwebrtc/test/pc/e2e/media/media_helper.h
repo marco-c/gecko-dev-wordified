@@ -234,9 +234,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 TestVideoCapturerVideoTrackSource

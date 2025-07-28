@@ -202,7 +202,7 @@ std
 :
 unique_ptr
 <
-cricket
+webrtc
 :
 :
 IceMessage
@@ -210,7 +210,7 @@ IceMessage
 stun_msg
 (
 new
-cricket
+webrtc
 :
 :
 IceMessage
@@ -218,13 +218,13 @@ IceMessage
 )
 )
 ;
-rtc
+webrtc
 :
 :
 ByteBufferReader
 buf
 (
-rtc
+webrtc
 :
 :
 MakeArrayView

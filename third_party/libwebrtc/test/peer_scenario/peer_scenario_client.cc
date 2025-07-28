@@ -823,9 +823,6 @@ new_state
 void
 OnDataChannel
 (
-rtc
-:
-:
 scoped_refptr
 <
 DataChannelInterface
@@ -1080,9 +1077,6 @@ candidates
 void
 OnAddTrack
 (
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverInterface
@@ -1094,9 +1088,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -1129,9 +1120,6 @@ streams
 void
 OnTrack
 (
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -1161,9 +1149,6 @@ transceiver
 void
 OnRemoveTrack
 (
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverInterface
@@ -1731,9 +1716,6 @@ push_back
 this
 ]
 (
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -2268,9 +2250,6 @@ port_allocator_config
 flags
 |
 =
-cricket
-:
-:
 PORTALLOCATOR_DISABLE_TCP
 ;
 peer_connection_
@@ -2503,9 +2482,6 @@ res
 .
 source
 =
-rtc
-:
-:
 make_ref_counted
 <
 FrameGeneratorCapturerVideoTrackSource
@@ -2662,9 +2638,6 @@ peer_connection_
 >
 CreateOffer
 (
-rtc
-:
-:
 make_ref_counted
 <
 LambdaCreateSessionDescriptionObserver
@@ -2736,9 +2709,6 @@ move
 (
 offer
 )
-rtc
-:
-:
 make_ref_counted
 <
 LambdaSetLocalDescriptionObserver
@@ -2867,9 +2837,6 @@ SdpType
 kOffer
 remote_offer
 )
-rtc
-:
-:
 make_ref_counted
 <
 LambdaSetRemoteDescriptionObserver
@@ -2919,9 +2886,6 @@ peer_connection_
 >
 CreateAnswer
 (
-rtc
-:
-:
 make_ref_counted
 <
 LambdaCreateSessionDescriptionObserver
@@ -2982,9 +2946,6 @@ move
 (
 answer
 )
-rtc
-:
-:
 make_ref_counted
 <
 LambdaSetLocalDescriptionObserver
@@ -3104,9 +3065,6 @@ SdpType
 kAnswer
 remote_answer
 )
-rtc
-:
-:
 make_ref_counted
 <
 LambdaSetRemoteDescriptionObserver

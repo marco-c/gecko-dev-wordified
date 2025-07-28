@@ -1324,9 +1324,6 @@ modified
 .
 for
 (
-cricket
-:
-:
 ContentInfo
 &
 content_info
@@ -1860,9 +1857,6 @@ the
 modified
 packet
 .
-rtc
-:
-:
 CopyOnWriteBuffer
 updated_buffer
 =

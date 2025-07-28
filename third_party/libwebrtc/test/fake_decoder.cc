@@ -311,9 +311,6 @@ input
 _encodedHeight
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer

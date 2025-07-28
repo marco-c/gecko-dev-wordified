@@ -414,9 +414,6 @@ absl
 string_view
 trace_name
 const
-rtc
-:
-:
 ArrayView
 <
 const

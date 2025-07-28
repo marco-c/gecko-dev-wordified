@@ -155,7 +155,7 @@ namespace
 void
 FuzzOneInputTest
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -316,7 +316,7 @@ uint8_t
 )
 )
 ;
-rtc
+webrtc
 :
 :
 BufferT
@@ -390,7 +390,7 @@ test
 :
 FuzzOneInputTest
 (
-rtc
+webrtc
 :
 :
 ArrayView

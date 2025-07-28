@@ -541,9 +541,6 @@ SetVideoCodecs
 {
 VideoCodecConfig
 (
-cricket
-:
-:
 kVp8CodecName
 )
 }
@@ -577,9 +574,6 @@ absl
 :
 string_view
 name
-rtc
-:
-:
 ArrayView
 <
 const

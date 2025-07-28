@@ -204,9 +204,6 @@ override
 ;
 private
 :
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface

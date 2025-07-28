@@ -158,9 +158,6 @@ Dummy
 /
 /
 namespace
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -187,9 +184,6 @@ by
 all
 codecs
 .
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -314,9 +308,6 @@ return
 false
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 webrtc

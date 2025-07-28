@@ -144,9 +144,6 @@ webrtc_pc_e2e
 {
 namespace
 {
-rtc
-:
-:
 scoped_refptr
 <
 EncodedImageBuffer
@@ -1544,9 +1541,6 @@ size
 (
 )
 ;
-rtc
-:
-:
 Buffer
 concatenated_buffer
 ;
@@ -2028,9 +2022,6 @@ size
 (
 )
 ;
-rtc
-:
-:
 Buffer
 concatenated_buffer
 ;

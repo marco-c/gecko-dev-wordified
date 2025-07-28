@@ -230,9 +230,6 @@ is
 reached
 .
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -287,9 +284,6 @@ is
 reached
 .
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -322,9 +316,6 @@ reading
 failed
 .
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -401,9 +392,6 @@ repeating
 frames
 .
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -442,9 +430,6 @@ reading
 failed
 .
 virtual
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -595,9 +580,6 @@ Init
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -607,9 +589,6 @@ PullFrame
 )
 override
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -622,9 +601,6 @@ frame_num
 )
 override
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -641,9 +617,6 @@ framerate_scale
 )
 override
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -655,9 +628,6 @@ frame_num
 )
 override
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer

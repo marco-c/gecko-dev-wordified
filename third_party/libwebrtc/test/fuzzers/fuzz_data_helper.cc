@@ -121,9 +121,6 @@ FuzzDataHelper
 :
 FuzzDataHelper
 (
-rtc
-:
-:
 ArrayView
 <
 const

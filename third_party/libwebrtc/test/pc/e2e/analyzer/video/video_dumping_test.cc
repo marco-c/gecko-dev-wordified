@@ -290,9 +290,6 @@ Random
 random
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -473,9 +470,6 @@ out
 void
 AssertFramesEqual
 (
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -484,9 +478,6 @@ webrtc
 I420BufferInterface
 >
 actual
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -532,9 +523,6 @@ height
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 webrtc

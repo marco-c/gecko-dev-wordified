@@ -413,7 +413,7 @@ const
 int
 analog_level_min
 =
-rtc
+webrtc
 :
 :
 SafeClamp
@@ -439,7 +439,7 @@ const
 int
 analog_level_max
 =
-rtc
+webrtc
 :
 :
 SafeClamp
@@ -467,7 +467,7 @@ const
 int
 stream_analog_level
 =
-rtc
+webrtc
 :
 :
 SafeClamp
@@ -493,7 +493,7 @@ const
 int
 gain
 =
-rtc
+webrtc
 :
 :
 SafeClamp
@@ -520,7 +520,7 @@ const
 int
 target_level_dbfs
 =
-rtc
+webrtc
 :
 :
 SafeClamp
@@ -961,7 +961,7 @@ test
 FuzzDataHelper
 fuzz_data
 (
-rtc
+webrtc
 :
 :
 ArrayView

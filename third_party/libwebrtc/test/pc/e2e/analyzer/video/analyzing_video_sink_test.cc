@@ -1290,9 +1290,6 @@ Eq
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -1306,9 +1303,6 @@ PullFrame
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -1607,9 +1601,6 @@ Eq
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -1623,9 +1614,6 @@ PullFrame
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -1937,9 +1925,6 @@ Eq
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -1953,9 +1938,6 @@ PullFrame
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -2362,9 +2344,6 @@ Eq
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -2378,9 +2357,6 @@ PullFrame
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -2479,9 +2455,6 @@ Eq
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -2495,9 +2468,6 @@ PullFrame
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -3417,9 +3387,6 @@ the
 first
 frame
 .
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -3433,9 +3400,6 @@ PullFrame
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -3838,9 +3802,6 @@ the
 first
 frame
 .
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -3854,9 +3815,6 @@ PullFrame
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -4633,9 +4591,6 @@ i
 i
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -4649,9 +4604,6 @@ PullFrame
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -4713,9 +4665,6 @@ psnr
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -4729,9 +4678,6 @@ PullFrame
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface

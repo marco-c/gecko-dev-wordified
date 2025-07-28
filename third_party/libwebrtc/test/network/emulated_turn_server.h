@@ -209,7 +209,7 @@ test
 /
 EmulatedTURNServer
 wraps
-cricket
+webrtc
 :
 :
 TurnServer
@@ -255,7 +255,7 @@ and
 delivers
 them
 into
-cricket
+webrtc
 :
 :
 TurnServer
@@ -272,7 +272,7 @@ SignalReadPacket
 /
 Packets
 from
-cricket
+webrtc
 :
 :
 TurnServer
@@ -340,7 +340,7 @@ be
 used
 to
 run
-cricket
+webrtc
 :
 :
 TurnServer
@@ -434,7 +434,7 @@ peer_
 }
 /
 /
-cricket
+webrtc
 :
 :
 TurnAuthInterface
@@ -639,7 +639,7 @@ interaction
 with
 TurnServer
 .
-cricket
+webrtc
 :
 :
 TurnServer

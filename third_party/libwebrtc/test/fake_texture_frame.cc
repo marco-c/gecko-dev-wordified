@@ -139,9 +139,6 @@ Builder
 .
 set_video_frame_buffer
 (
-rtc
-:
-:
 make_ref_counted
 <
 FakeNativeBuffer
@@ -217,9 +214,6 @@ return
 height_
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -231,9 +225,6 @@ ToI420
 (
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer

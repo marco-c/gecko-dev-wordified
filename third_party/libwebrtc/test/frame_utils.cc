@@ -301,9 +301,6 @@ bool
 FrameBufsEqual
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -314,9 +311,6 @@ VideoFrameBuffer
 &
 f1
 const
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -421,9 +415,6 @@ return
 false
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -440,9 +431,6 @@ ToI420
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -583,9 +571,6 @@ ChromaHeight
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -612,9 +597,6 @@ width
 /
 2
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -741,9 +723,6 @@ return
 buffer
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 NV12Buffer
@@ -759,9 +738,6 @@ FILE
 f
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 NV12Buffer

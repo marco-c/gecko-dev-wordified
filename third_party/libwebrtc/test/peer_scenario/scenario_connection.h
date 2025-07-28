@@ -228,9 +228,6 @@ virtual
 void
 OnPacketReceived
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 packet
 )
@@ -328,9 +325,6 @@ virtual
 void
 SendRtpPacket
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -345,9 +339,6 @@ virtual
 void
 SendRtcpPacket
 (
-rtc
-:
-:
 ArrayView
 <
 const

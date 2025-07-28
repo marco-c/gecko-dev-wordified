@@ -1737,9 +1737,6 @@ const
 SocketAddress
 &
 to
-rtc
-:
-:
 CopyOnWriteBuffer
 packet_data
 uint16_t
@@ -2181,7 +2178,7 @@ of
 /
 /
 returned
-rtc
+webrtc
 :
 :
 Network
@@ -2375,9 +2372,6 @@ next_packet_id_
 packet
 )
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 buf
 (

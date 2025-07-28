@@ -267,9 +267,6 @@ get
 )
 ;
 }
-rtc
-:
-:
 SocketFactory
 *
 absl_nonnull
@@ -364,9 +361,6 @@ by
 the
 network_thread_
 '
-rtc
-:
-:
 SocketServer
 *
 absl_nonnull

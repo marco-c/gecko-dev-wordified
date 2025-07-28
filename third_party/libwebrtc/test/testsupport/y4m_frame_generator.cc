@@ -450,9 +450,6 @@ height_
 )
 }
 ;
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -530,9 +527,6 @@ return
 scaled
 version
 .
-rtc
-:
-:
 scoped_refptr
 <
 webrtc

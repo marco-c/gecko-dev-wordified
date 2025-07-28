@@ -219,9 +219,6 @@ config
 void
 OnAudioRendered
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -265,9 +262,6 @@ NumChannels
 bool
 Capture
 (
-rtc
-:
-:
 BufferT
 <
 int16_t
@@ -440,9 +434,6 @@ NumChannels
 bool
 Render
 (
-rtc
-:
-:
 ArrayView
 <
 const

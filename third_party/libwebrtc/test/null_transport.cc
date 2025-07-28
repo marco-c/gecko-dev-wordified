@@ -106,9 +106,6 @@ NullTransport
 :
 SendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -131,9 +128,6 @@ NullTransport
 :
 SendRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const

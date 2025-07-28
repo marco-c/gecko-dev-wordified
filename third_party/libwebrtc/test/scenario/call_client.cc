@@ -520,9 +520,6 @@ config
 LoggingNetworkControllerFactory
 *
 network_controller_factory
-rtc
-:
-:
 scoped_refptr
 <
 AudioState
@@ -1570,9 +1567,6 @@ call_send_bw
 this
 ]
 (
-rtc
-:
-:
 SimpleStringBuilder
 &
 sb
@@ -1836,9 +1830,6 @@ CallClient
 :
 SetAudioReceiveRtpHeaderExtensions
 (
-rtc
-:
-:
 ArrayView
 <
 RtpExtension
@@ -1873,9 +1864,6 @@ CallClient
 :
 SetVideoReceiveRtpHeaderExtensions
 (
-rtc
-:
-:
 ArrayView
 <
 RtpExtension

@@ -2887,9 +2887,6 @@ uint32_t
 >
 &
 ssrc_filter
-rtc
-:
-:
 ArrayView
 <
 const

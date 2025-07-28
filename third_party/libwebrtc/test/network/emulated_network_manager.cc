@@ -251,7 +251,7 @@ test
 Framework
 assumes
 that
-rtc
+webrtc
 :
 :
 NetworkManager
@@ -786,9 +786,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Network
 >
 &

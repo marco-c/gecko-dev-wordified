@@ -381,9 +381,6 @@ absl
 :
 string_view
 prefix
-rtc
-:
-:
 ArrayView
 <
 const
@@ -554,9 +551,6 @@ string
 prefix_
 ;
 const
-rtc
-:
-:
 ArrayView
 <
 const

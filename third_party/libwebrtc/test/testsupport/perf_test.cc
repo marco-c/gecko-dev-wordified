@@ -328,9 +328,6 @@ SamplesStatsCounter
 counter
 )
 {
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1245,9 +1242,6 @@ absl
 string_view
 trace_name
 const
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2292,9 +2286,6 @@ absl
 string_view
 trace
 const
-rtc
-:
-:
 ArrayView
 <
 const

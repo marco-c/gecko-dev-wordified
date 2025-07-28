@@ -698,9 +698,6 @@ SamplesStatsCounter
 counter
 )
 {
-rtc
-:
-:
 ArrayView
 <
 const
@@ -794,9 +791,6 @@ SamplesStatsCounter
 counter
 )
 {
-rtc
-:
-:
 ArrayView
 <
 const
@@ -4581,9 +4575,6 @@ crop_region
 0
 }
 ;
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer

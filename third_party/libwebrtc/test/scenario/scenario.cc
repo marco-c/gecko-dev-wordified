@@ -692,9 +692,6 @@ time
 this
 ]
 (
-rtc
-:
-:
 SimpleStringBuilder
 &
 sb

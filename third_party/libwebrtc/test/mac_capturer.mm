@@ -217,12 +217,12 @@ frame
 .
 timeStampNs
 /
-rtc
+webrtc
 :
 :
 kNumNanosecsPerMicrosec
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -234,7 +234,7 @@ VideoFrameBuffer
 >
 buffer
 =
-rtc
+webrtc
 :
 :
 make_ref_counted

@@ -219,7 +219,7 @@ test
 FuzzDataHelper
 fuzz_data
 (
-rtc
+webrtc
 :
 :
 MakeArrayView
@@ -445,7 +445,7 @@ value_size
 256
 )
 ;
-rtc
+webrtc
 :
 :
 ArrayView

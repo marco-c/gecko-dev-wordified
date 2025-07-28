@@ -1640,9 +1640,6 @@ builder
 for
 (
 const
-rtc
-:
-:
 IPAddress
 &
 addr
@@ -3897,9 +3894,6 @@ const
 SocketAddress
 &
 to
-rtc
-:
-:
 CopyOnWriteBuffer
 packet_data
 uint16_t

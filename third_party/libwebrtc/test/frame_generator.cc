@@ -354,9 +354,6 @@ height_
 }
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -372,9 +369,6 @@ int
 height
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -480,9 +474,6 @@ lock
 mutex_
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -533,9 +524,6 @@ OutputType
 kI420A
 :
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -548,9 +536,6 @@ width_
 height_
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -859,9 +844,6 @@ Square
 Draw
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -906,9 +888,6 @@ Type
 kI420A
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -3156,9 +3135,6 @@ scroll_factor
 5
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface

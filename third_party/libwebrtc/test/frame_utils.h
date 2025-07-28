@@ -210,9 +210,6 @@ bool
 FrameBufsEqual
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -223,9 +220,6 @@ VideoFrameBuffer
 &
 f1
 const
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -237,9 +231,6 @@ VideoFrameBuffer
 f2
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -254,9 +245,6 @@ FILE
 *
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 NV12Buffer

@@ -2478,9 +2478,6 @@ NetworkEmulationManagerImpl
 :
 GetStats
 (
-rtc
-:
-:
 ArrayView
 <
 EmulatedEndpoint
@@ -2605,9 +2602,6 @@ NetworkEmulationManagerImpl
 :
 GetStats
 (
-rtc
-:
-:
 ArrayView
 <
 EmulatedNetworkNode

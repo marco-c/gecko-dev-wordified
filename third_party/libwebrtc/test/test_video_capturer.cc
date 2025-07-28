@@ -403,9 +403,6 @@ here
 without
 cropping
 .
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer

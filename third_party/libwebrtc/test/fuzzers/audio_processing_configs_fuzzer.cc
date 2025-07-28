@@ -361,7 +361,7 @@ return
 env
 ;
 }
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1057,7 +1057,7 @@ test
 FuzzDataHelper
 fuzz_data
 (
-rtc
+webrtc
 :
 :
 ArrayView

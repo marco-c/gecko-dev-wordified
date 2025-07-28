@@ -197,9 +197,6 @@ Random
 random
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer

@@ -488,9 +488,6 @@ adapter_id
 return
 RouteEndpoint
 (
-rtc
-:
-:
 ADAPTER_TYPE_UNKNOWN
 adapter_id
 network_id
@@ -670,9 +667,6 @@ loss_rate
 this
 ]
 (
-rtc
-:
-:
 SimpleStringBuilder
 &
 sb
@@ -768,9 +762,6 @@ NetworkNodeTransport
 :
 SendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -793,10 +784,7 @@ TimeInMilliseconds
 (
 )
 ;
-rtc
-:
-:
-SentPacket
+SentPacketInfo
 sent_packet
 ;
 sent_packet
@@ -879,9 +867,6 @@ endpoint_
 return
 false
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 buffer
 (
@@ -913,9 +898,6 @@ NetworkNodeTransport
 :
 SendRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -924,9 +906,6 @@ uint8_t
 packet
 )
 {
-rtc
-:
-:
 CopyOnWriteBuffer
 buffer
 (

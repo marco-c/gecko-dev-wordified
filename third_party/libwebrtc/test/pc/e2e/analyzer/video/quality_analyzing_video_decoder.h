@@ -613,9 +613,6 @@ timestamp_ms
 ;
 private
 :
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -632,9 +629,6 @@ QualityAnalyzingVideoDecoder
 const
 decoder_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 webrtc

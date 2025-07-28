@@ -156,7 +156,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 ArrayView
@@ -186,7 +186,7 @@ test
 FuzzDataHelper
 fuzz_input
 (
-rtc
+webrtc
 :
 :
 MakeArrayView

@@ -339,7 +339,7 @@ test
 FuzzDataHelper
 fuzz_data
 (
-rtc
+webrtc
 :
 :
 MakeArrayView

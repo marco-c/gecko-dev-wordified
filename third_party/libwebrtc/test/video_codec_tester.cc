@@ -1110,18 +1110,12 @@ ScalabilityMode
 kL3T3_KEY
 }
 ;
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
 >
 ScaleFrame
 (
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -1408,9 +1402,6 @@ last_frame_
 nullptr
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -1481,9 +1472,6 @@ last_frame_
 buffer
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -1560,9 +1548,6 @@ FrameGeneratorInterface
 >
 ivf_reader_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -3863,9 +3848,6 @@ in
 hardware
 decoders
 .
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -3903,9 +3885,6 @@ spatial_idx
 (
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -4276,7 +4255,7 @@ Frame
 &
 frame
 :
-rtc
+webrtc
 :
 :
 ArrayView
@@ -7678,9 +7657,6 @@ Superframe
 EncodedImage
 encoded_frame
 ;
-rtc
-:
-:
 scoped_refptr
 <
 EncodedImageBuffer
@@ -9543,9 +9519,6 @@ encoder_info
 auto
 stream_factory
 =
-rtc
-:
-:
 make_ref_counted
 <
 EncoderStreamFactory

@@ -214,9 +214,6 @@ return
 did_convert_to_i420_
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -278,9 +275,6 @@ Builder
 .
 set_video_frame_buffer
 (
-rtc
-:
-:
 make_ref_counted
 <
 MappableNativeBuffer
@@ -322,9 +316,6 @@ return
 frame
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 MappableNativeBuffer
@@ -338,9 +329,6 @@ frame
 )
 {
 return
-rtc
-:
-:
 scoped_refptr
 <
 MappableNativeBuffer
@@ -373,9 +361,6 @@ ScaledBuffer
 :
 ScaledBuffer
 (
-rtc
-:
-:
 scoped_refptr
 <
 MappableNativeBuffer
@@ -419,9 +404,6 @@ ScaledBuffer
 )
 {
 }
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -449,9 +431,6 @@ scaled_height
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 ScaledBuffer
@@ -463,9 +442,6 @@ scaled_height
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -496,9 +472,6 @@ ToI420
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -511,9 +484,6 @@ ScaledBuffer
 :
 GetMappedFrameBuffer
 (
-rtc
-:
-:
 ArrayView
 <
 VideoFrameBuffer
@@ -624,9 +594,6 @@ MappableNativeBuffer
 )
 {
 }
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -667,9 +634,6 @@ scaled_height
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -692,9 +656,6 @@ ToI420
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -704,9 +665,6 @@ MappableNativeBuffer
 :
 GetMappedFrameBuffer
 (
-rtc
-:
-:
 ArrayView
 <
 VideoFrameBuffer
@@ -734,9 +692,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -832,9 +787,6 @@ return
 false
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 MappableNativeBuffer
@@ -850,17 +802,11 @@ FullSizeBuffer
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 ScaledBuffer
 >
 (
-rtc
-:
-:
 scoped_refptr
 <
 MappableNativeBuffer
@@ -873,9 +819,6 @@ height_
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -936,9 +879,6 @@ mapped_buffer
 ;
 }
 }
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -960,9 +900,6 @@ Type
 kI420
 :
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -1010,9 +947,6 @@ kNV12
 auto
 nv12_buffer
 =
-rtc
-:
-:
 make_ref_counted
 <
 NV12BufferWithDidConvertToI420

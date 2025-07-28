@@ -315,9 +315,6 @@ width_
 size_t
 height_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 VideoCaptureModule

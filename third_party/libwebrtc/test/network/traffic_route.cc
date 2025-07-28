@@ -544,9 +544,6 @@ uint16_t
 dest_port
 )
 {
-rtc
-:
-:
 CopyOnWriteBuffer
 data
 (

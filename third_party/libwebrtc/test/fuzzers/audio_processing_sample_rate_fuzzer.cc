@@ -625,7 +625,7 @@ test
 FuzzDataHelper
 fuzz_data
 (
-rtc
+webrtc
 :
 :
 ArrayView

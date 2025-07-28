@@ -129,12 +129,12 @@ size_t
 size
 )
 {
-cricket
+webrtc
 :
 :
 GetDtlsHandshakeAcks
 (
-rtc
+webrtc
 :
 :
 MakeArrayView

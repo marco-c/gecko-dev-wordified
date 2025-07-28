@@ -162,9 +162,6 @@ public
 explicit
 FuzzDataHelper
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -577,9 +574,6 @@ index
 ]
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -601,9 +595,6 @@ bytes
 )
 {
 return
-rtc
-:
-:
 ArrayView
 <
 const
@@ -751,9 +742,6 @@ data_ix_
 ;
 }
 private
-:
-rtc
-:
 :
 ArrayView
 <

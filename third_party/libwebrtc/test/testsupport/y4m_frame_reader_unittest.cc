@@ -504,9 +504,6 @@ Y4mFrameReaderTest
 PullFrame_frameResolution
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -553,9 +550,6 @@ Y4mFrameReaderTest
 PullFrame_frameContent
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -662,9 +656,6 @@ frame_num
 expected_frames
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -706,9 +697,6 @@ Y4mFrameReaderTest
 PullFrame_scale
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -881,9 +869,6 @@ size
 i
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -1114,9 +1099,6 @@ i
 int
 pulled_frame
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface

@@ -824,9 +824,6 @@ return
 send_config
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 VideoEncoderConfig
@@ -1045,9 +1042,6 @@ denoising
 ;
 }
 return
-rtc
-:
-:
 make_ref_counted
 <
 VideoEncoderConfig
@@ -1060,9 +1054,6 @@ vp9
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 VideoEncoderConfig
@@ -1208,9 +1199,6 @@ denoising
 ;
 }
 return
-rtc
-:
-:
 make_ref_counted
 <
 VideoEncoderConfig
@@ -1223,9 +1211,6 @@ vp8_settings
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 VideoEncoderConfig
@@ -1320,9 +1305,6 @@ return
 nullptr
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 VideoEncoderConfig
@@ -3585,9 +3567,6 @@ height
 this
 ]
 (
-rtc
-:
-:
 SimpleStringBuilder
 &
 sb

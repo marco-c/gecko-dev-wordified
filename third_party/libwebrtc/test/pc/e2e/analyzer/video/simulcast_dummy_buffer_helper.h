@@ -189,9 +189,6 @@ of
 incoming
 frames
 .
-rtc
-:
-:
 scoped_refptr
 <
 webrtc

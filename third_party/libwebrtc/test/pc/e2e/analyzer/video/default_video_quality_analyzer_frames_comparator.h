@@ -716,9 +716,6 @@ time
 void
 RegisterParticipantInCall
 (
-rtc
-:
-:
 ArrayView
 <
 std
@@ -1095,9 +1092,6 @@ PlatformThread
 >
 thread_pool_
 ;
-rtc
-:
-:
 Event
 comparison_available_event_
 ;

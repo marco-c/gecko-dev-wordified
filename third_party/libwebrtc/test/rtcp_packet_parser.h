@@ -481,9 +481,6 @@ Packet
 bool
 ParseSinglePacket
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -672,9 +669,6 @@ RtcpPacketParser
 bool
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const

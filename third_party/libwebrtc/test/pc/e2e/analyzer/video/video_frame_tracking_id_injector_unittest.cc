@@ -149,9 +149,6 @@ n
 EncodedImage
 image
 ;
-rtc
-:
-:
 scoped_refptr
 <
 EncodedImageBuffer

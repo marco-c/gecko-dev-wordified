@@ -275,7 +275,7 @@ discarded
 auto
 srd_observer
 =
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -410,7 +410,7 @@ answer
 auto
 sld_observer
 =
-rtc
+webrtc
 :
 :
 make_ref_counted

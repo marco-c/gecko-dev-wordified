@@ -1112,7 +1112,7 @@ function
 <
 void
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1159,9 +1159,6 @@ on_connected_callback
 void
 OnTrack
 (
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -1223,7 +1220,7 @@ function
 <
 void
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -2585,9 +2582,6 @@ alice_subscription
 bob_video_configs
 ]
 (
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -2651,9 +2645,6 @@ bob_subscription
 alice_video_configs
 ]
 (
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -3823,9 +3814,6 @@ string_view
 peer_name
 VideoSubscription
 peer_subscription
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -3842,9 +3830,6 @@ remote_video_configs
 )
 {
 const
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamTrackInterface
@@ -4058,9 +4043,6 @@ video_sink
 get
 (
 )
-rtc
-:
-:
 VideoSinkWants
 (
 )
@@ -4209,9 +4191,6 @@ stream
 .
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -4520,9 +4499,6 @@ alice_video_transceivers_non_simulcast_counter
 }
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -4605,9 +4581,6 @@ i
 {
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -5932,9 +5905,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 TestVideoCapturerVideoTrackSource

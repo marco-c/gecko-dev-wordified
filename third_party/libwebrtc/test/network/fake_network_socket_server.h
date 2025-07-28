@@ -197,9 +197,6 @@ class
 FakeNetworkSocketServer
 :
 public
-rtc
-:
-:
 SocketServer
 {
 public
@@ -220,7 +217,7 @@ override
 ;
 /
 /
-rtc
+webrtc
 :
 :
 SocketFactory
@@ -239,7 +236,7 @@ override
 ;
 /
 /
-rtc
+webrtc
 :
 :
 SocketServer

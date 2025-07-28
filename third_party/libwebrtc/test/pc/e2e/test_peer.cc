@@ -668,9 +668,6 @@ closed
 auto
 observer
 =
-rtc
-:
-:
 make_ref_counted
 <
 SetRemoteDescriptionCallback
@@ -1003,17 +1000,11 @@ TestPeer
 :
 TestPeer
 (
-rtc
-:
-:
 scoped_refptr
 <
 PeerConnectionFactoryInterface
 >
 pc_factory
-rtc
-:
-:
 scoped_refptr
 <
 PeerConnectionInterface

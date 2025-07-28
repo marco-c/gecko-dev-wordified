@@ -131,9 +131,6 @@ NamesCollection
 :
 NamesCollection
 (
-rtc
-:
-:
 ArrayView
 <
 const

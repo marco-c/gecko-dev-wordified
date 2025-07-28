@@ -854,9 +854,6 @@ frame_lock
 frame_decode_lock_
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -971,9 +968,6 @@ return
 scaled
 version
 .
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer

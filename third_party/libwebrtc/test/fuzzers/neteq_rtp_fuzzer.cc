@@ -327,7 +327,7 @@ sample_rate_hz
 )
 {
 }
-rtc
+webrtc
 :
 :
 ArrayView
@@ -361,7 +361,7 @@ num_samples
 )
 ;
 }
-rtc
+webrtc
 :
 :
 ArrayView
@@ -484,7 +484,7 @@ public
 explicit
 FuzzRtpInput
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -1145,7 +1145,7 @@ ended_
 =
 false
 ;
-rtc
+webrtc
 :
 :
 ArrayView
@@ -1207,7 +1207,7 @@ input
 new
 FuzzRtpInput
 (
-rtc
+webrtc
 :
 :
 ArrayView

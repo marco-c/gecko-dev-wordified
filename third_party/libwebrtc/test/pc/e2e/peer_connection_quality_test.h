@@ -655,9 +655,6 @@ string_view
 peer_name
 VideoSubscription
 peer_subscription
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -762,9 +759,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 TestVideoCapturerVideoTrackSource
@@ -925,9 +919,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 TestVideoCapturerVideoTrackSource
@@ -940,9 +931,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 TestVideoCapturerVideoTrackSource
