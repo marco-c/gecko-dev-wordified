@@ -20081,6 +20081,8 @@ GCReason
 :
 LAST_FIREFOX_REASON
 )
++
+1
 =
 =
 static_cast
@@ -20374,6 +20376,8 @@ GCReason
 :
 LAST_FIREFOX_REASON
 )
++
+1
 =
 =
 static_cast
@@ -20519,6 +20523,8 @@ GCReason
 :
 LAST_FIREFOX_REASON
 )
++
+1
 =
 =
 static_cast
