@@ -583,6 +583,10 @@ aMode
 void
 InitTRRConnectionInfo
 (
+bool
+aForceReinit
+=
+false
 )
 override
 ;
@@ -603,6 +607,10 @@ virtual
 TRRService
 (
 )
+;
+friend
+class
+TRR
 ;
 friend
 class

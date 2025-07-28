@@ -1536,6 +1536,8 @@ TRRServiceBase
 :
 InitTRRConnectionInfo
 (
+bool
+aForceReinit
 )
 {
 if
@@ -1552,6 +1554,10 @@ return
 if
 (
 mTRRConnectionInfoInited
+&
+&
+!
+aForceReinit
 )
 {
 return
