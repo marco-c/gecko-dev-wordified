@@ -8092,7 +8092,7 @@ f32
 let
 now
 =
-crate
+time
 :
 :
 precise_time_ns
@@ -8663,7 +8663,7 @@ DebugMessage
 msg
 timestamp
 :
-crate
+time
 :
 :
 precise_time_ns

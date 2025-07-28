@@ -5187,10 +5187,10 @@ from_secs
 let
 stop_time
 =
-zeitstempel
+time
 :
 :
-now
+precise_time_ns
 (
 )
 ;
@@ -5836,10 +5836,10 @@ timeout
 let
 stop_time
 =
-zeitstempel
+time
 :
 :
-now
+precise_time_ns
 (
 )
 ;
