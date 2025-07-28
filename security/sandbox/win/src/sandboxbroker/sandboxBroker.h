@@ -217,6 +217,7 @@ GMPSandboxKind
 Default
 Widevine
 Clearkey
+Fake
 }
 ;
 class
