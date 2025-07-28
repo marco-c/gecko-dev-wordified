@@ -9442,12 +9442,6 @@ NS_IsMainThread
 )
 )
 ;
-mReceivingSize
-.
-DisconnectAll
-(
-)
-;
 mSendPluginCreated
 .
 DisconnectIfExists
