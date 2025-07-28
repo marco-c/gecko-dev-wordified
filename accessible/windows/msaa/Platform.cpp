@@ -744,7 +744,6 @@ AccessibleWrap
 UpdateSystemCaretFor
 (
 aTarget
-aCaretRect
 )
 ;
 MsaaAccessible
@@ -801,7 +800,6 @@ AccessibleWrap
 UpdateSystemCaretFor
 (
 aTarget
-aCaretRect
 )
 ;
 MsaaAccessible
