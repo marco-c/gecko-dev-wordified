@@ -307,7 +307,7 @@ TEST_URL_ONE_LINE
 )
 ;
 await
-prettyPrint
+togglePrettyPrint
 (
 dbg
 )

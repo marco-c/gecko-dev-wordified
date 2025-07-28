@@ -371,7 +371,7 @@ lines
 )
 ;
 await
-prettyPrint
+togglePrettyPrint
 (
 dbg
 )
@@ -748,7 +748,7 @@ lines
 )
 ;
 await
-prettyPrint
+togglePrettyPrint
 (
 dbg
 )
@@ -1036,7 +1036,7 @@ lines
 )
 ;
 await
-prettyPrint
+togglePrettyPrint
 (
 dbg
 )
@@ -1241,7 +1241,7 @@ lines
 )
 ;
 await
-prettyPrint
+togglePrettyPrint
 (
 dbg
 )

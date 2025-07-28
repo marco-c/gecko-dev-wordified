@@ -201,7 +201,7 @@ expression
 )
 ;
 await
-prettyPrint
+togglePrettyPrint
 (
 dbg
 )
@@ -507,7 +507,7 @@ expression
 )
 ;
 await
-prettyPrint
+togglePrettyPrint
 (
 dbg
 )
@@ -769,7 +769,7 @@ Function
 )
 ;
 await
-prettyPrint
+togglePrettyPrint
 (
 dbg
 )

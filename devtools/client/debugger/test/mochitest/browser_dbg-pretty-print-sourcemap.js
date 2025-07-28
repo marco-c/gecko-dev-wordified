@@ -1087,14 +1087,12 @@ DEBUGGER_L10N
 getStr
 (
 "
-sourceFooter
+sourceTabs
 .
-prettyPrint
-.
-isPrettyPrintedMessage
+removePrettyPrint
 "
 )
-true
+false
 )
 ;
 }

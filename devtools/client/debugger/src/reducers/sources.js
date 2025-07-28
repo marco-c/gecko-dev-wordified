@@ -2076,6 +2076,11 @@ sourceId
 ;
 if
 (
+action
+.
+resetSelectedLocation
+&
+&
 newState
 .
 selectedLocation
@@ -2244,6 +2249,11 @@ sourceId
 }
 if
 (
+action
+.
+resetSelectedLocation
+&
+&
 newState
 .
 selectedLocation
