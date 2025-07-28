@@ -2658,10 +2658,6 @@ address
 port
 (
 )
-&
-field_trials
-(
-)
 )
 )
 {
@@ -7147,13 +7143,6 @@ AllowedTurnPort
 (
 int
 port
-const
-webrtc
-:
-:
-FieldTrialsView
-*
-field_trials
 )
 {
 /
