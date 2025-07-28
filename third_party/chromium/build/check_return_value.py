@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 Copyright
 2014
@@ -60,10 +60,6 @@ successfully
 "
 "
 "
-from
-__future__
-import
-print_function
 import
 os
 import

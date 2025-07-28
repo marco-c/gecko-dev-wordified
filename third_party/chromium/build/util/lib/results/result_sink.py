@@ -486,6 +486,10 @@ test_log
            
 test_file
            
+variant
+=
+None
+           
 artifacts
 =
 None
@@ -595,6 +599,41 @@ location
 of
 the
 test
+.
+      
+variant
+:
+An
+optional
+dict
+of
+variant
+key
+value
+pairs
+as
+the
+          
+additional
+variant
+sent
+from
+test
+runners
+which
+can
+override
+          
+or
+add
+to
+the
+variants
+passed
+to
+rdb
+stream
+command
 .
       
 artifacts
@@ -808,6 +847,25 @@ test_id
         
 }
     
+}
+    
+if
+variant
+:
+      
+tr
+[
+'
+variant
+'
+]
+=
+{
+'
+def
+'
+:
+variant
 }
     
 artifacts

@@ -56,10 +56,6 @@ library
 "
 "
 "
-from
-__future__
-import
-print_function
 import
 argparse
 import
@@ -293,27 +289,6 @@ tool_prefix
 )
 :
   
-lib_name
-=
-os
-.
-path
-.
-basename
-(
-apk_so_name
-)
-.
-replace
-(
-'
-crazy
-.
-'
-'
-'
-)
-  
 so_with_symbols_path
 =
 os
@@ -328,7 +303,15 @@ lib
 .
 unstripped
 '
-lib_name
+                                      
+os
+.
+path
+.
+basename
+(
+apk_so_name
+)
 )
   
 if

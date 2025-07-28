@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 Copyright
 2011
@@ -91,10 +91,6 @@ location
 "
 "
 "
-from
-__future__
-import
-print_function
 import
 os
 import

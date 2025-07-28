@@ -257,6 +257,14 @@ emulator_window
     
 self
 .
+_emulator_debug_tags
+=
+args
+.
+emulator_debug_tags
+    
+self
+.
 _writable_system
 =
 (
@@ -350,7 +358,13 @@ _avd_config
 .
 CreateInstance
 (
+output_manager
+=
+self
+.
+output_manager
 )
+        
 for
 _
 in
@@ -418,6 +432,12 @@ writable_system
 self
 .
 _writable_system
+                     
+debug_tags
+=
+self
+.
+_emulator_debug_tags
                      
 require_fast_start
 =

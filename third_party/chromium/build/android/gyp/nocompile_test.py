@@ -116,7 +116,7 @@ _CHROMIUM_SRC
 third_party
 '
 '
-depot_tools
+ninja
 '
 '
 ninja
@@ -135,10 +135,10 @@ path
 join
 (
 '
-third_party
+buildtools
 '
 '
-depot_tools
+linux64
 '
 '
 gn

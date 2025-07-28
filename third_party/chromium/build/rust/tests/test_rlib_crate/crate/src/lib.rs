@@ -267,11 +267,11 @@ correctly
 This
 test
 is
+/
+/
+/
 the
 target1
-/
-/
-/
 configuration
 .
 #

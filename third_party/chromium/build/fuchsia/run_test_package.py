@@ -49,10 +49,6 @@ Target
 "
 "
 "
-from
-__future__
-import
-print_function
 import
 common
 import

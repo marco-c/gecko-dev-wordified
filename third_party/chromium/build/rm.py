@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 Copyright
 2016
@@ -57,10 +57,6 @@ command
 "
 "
 "
-from
-__future__
-import
-print_function
 import
 argparse
 import

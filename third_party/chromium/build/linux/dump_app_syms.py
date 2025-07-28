@@ -45,10 +45,6 @@ them
 if
 needed
 .
-from
-__future__
-import
-print_function
 import
 os
 import
@@ -196,6 +192,10 @@ check_call
 (
 [
 dumpsyms
+'
+-
+m
+'
 '
 -
 d

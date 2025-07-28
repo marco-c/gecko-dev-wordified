@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 Copyright
 2012
@@ -52,10 +52,6 @@ archive
 "
 "
 "
-from
-__future__
-import
-print_function
 import
 os
 import

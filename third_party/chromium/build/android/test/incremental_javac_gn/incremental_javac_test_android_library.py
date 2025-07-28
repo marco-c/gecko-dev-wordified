@@ -116,7 +116,7 @@ third_party
 '
 /
 '
-depot_tools
+ninja
 '
 /
 '
@@ -129,9 +129,9 @@ _CHROMIUM_SRC
 _GN_SRC_REL_PATH
 =
 '
-third_party
+buildtools
 /
-depot_tools
+linux64
 /
 gn
 '

@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 Copyright
 2013
@@ -721,6 +721,25 @@ options
 .
 touch
 :
+    
+os
+.
+makedirs
+(
+os
+.
+path
+.
+dirname
+(
+options
+.
+touch
+)
+exist_ok
+=
+True
+)
     
 with
 open

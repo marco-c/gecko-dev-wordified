@@ -28,10 +28,6 @@ the
 LICENSE
 file
 .
-from
-__future__
-import
-print_function
 import
 argparse
 import
@@ -291,19 +287,25 @@ Look
 for
 something
 like
-"
-2
+  
+#
+1
 )
-XYZ
+123ABC123ABC123ABC
+*
+*
+*
+*
+*
+*
 "
 iPhone
 Developer
 :
-Name
+DeveloperName
 (
-ABC
+Team
 )
-"
 "
   
 regex
@@ -384,6 +386,16 @@ None
       
 continue
     
+identifier
+developer_name
+team
+=
+res
+.
+groups
+(
+)
+    
 if
 pattern
 is
@@ -391,11 +403,18 @@ None
 or
 pattern
 in
-res
-.
-group
+'
+%
+s
 (
-2
+%
+s
+)
+'
+%
+(
+developer_name
+team
 )
 :
       
@@ -405,12 +424,9 @@ append
 (
 Identity
 (
-*
-res
-.
-groups
-(
-)
+identifier
+developer_name
+team
 )
 )
   

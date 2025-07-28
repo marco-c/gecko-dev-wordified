@@ -454,6 +454,12 @@ TRICHROME_BETA
 40
     
 '
+TRICHROME_AUTO
+'
+:
+50
+    
+'
 WEBVIEW_STABLE
 '
 :
@@ -883,6 +889,18 @@ TRICHROME
         
 (
 '
+TRICHROME_64_32_HIGH
+'
+'
+TRICHROME
+'
+'
+64_32_high
+'
+)
+        
+(
+'
 TRICHROME_64
 '
 '
@@ -901,7 +919,22 @@ TRICHROME_64_HIGH
 TRICHROME
 '
 '
-64_high
+64_32_high
+'
+)
+#
+Deprecated
+.
+        
+(
+'
+TRICHROME_AUTO_64_32
+'
+'
+TRICHROME_AUTO
+'
+'
+64_32
 '
 )
         
@@ -955,6 +988,18 @@ TRICHROME_BETA
         
 (
 '
+TRICHROME_64_32_HIGH_BETA
+'
+'
+TRICHROME_BETA
+'
+'
+64_32_high
+'
+)
+        
+(
+'
 TRICHROME_64_BETA
 '
 '
@@ -965,6 +1010,9 @@ TRICHROME_BETA
 '
 )
         
+#
+Deprecated
+        
 (
 '
 TRICHROME_64_HIGH_BETA
@@ -973,7 +1021,7 @@ TRICHROME_64_HIGH_BETA
 TRICHROME_BETA
 '
 '
-64_high
+64_32_high
 '
 )
         
@@ -1651,7 +1699,7 @@ arm
 5
         
 '
-64_high
+64_32_high
 '
 :
 9
@@ -2486,7 +2534,7 @@ abis
 =
 =
 '
-64_high
+64_32_high
 '
 and
 arch

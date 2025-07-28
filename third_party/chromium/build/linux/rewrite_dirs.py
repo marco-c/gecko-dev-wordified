@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 Copyright
 2011
@@ -60,10 +60,6 @@ sysroot
 "
 "
 "
-from
-__future__
-import
-print_function
 import
 sys
 import

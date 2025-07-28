@@ -1841,6 +1841,13 @@ output
 lto_objects
 '
             
+_remove_path
+(
+self
+.
+_object_path_lto
+)
+            
 os
 .
 mkdir

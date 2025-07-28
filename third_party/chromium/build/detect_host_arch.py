@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 Copyright
 2014
@@ -53,10 +53,6 @@ gyp
 "
 "
 "
-from
-__future__
-import
-print_function
 import
 platform
 import

@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 Copyright
 2012
@@ -55,10 +55,6 @@ directory
 "
 "
 "
-from
-__future__
-import
-print_function
 import
 optparse
 import

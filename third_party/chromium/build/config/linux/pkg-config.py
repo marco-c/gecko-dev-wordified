@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 Copyright
 2013
@@ -37,10 +37,6 @@ the
 LICENSE
 file
 .
-from
-__future__
-import
-print_function
 import
 json
 import

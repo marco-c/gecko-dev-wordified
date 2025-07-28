@@ -113,10 +113,6 @@ the
 current
 directory
 .
-from
-__future__
-import
-print_function
 import
 errno
 import
@@ -169,6 +165,17 @@ dirname
 (
 __file__
 )
+SDK_VERSION
+=
+'
+10
+.
+0
+.
+22621
+.
+0
+'
 def
 _ExtractImportantEnvironment
 (
@@ -2009,15 +2016,7 @@ args
 .
 append
 (
-'
-10
-.
-0
-.
-20348
-.
-0
-'
+SDK_VERSION
 )
     
 variables

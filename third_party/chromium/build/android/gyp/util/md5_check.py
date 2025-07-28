@@ -28,10 +28,6 @@ the
 LICENSE
 file
 .
-from
-__future__
-import
-print_function
 import
 difflib
 import

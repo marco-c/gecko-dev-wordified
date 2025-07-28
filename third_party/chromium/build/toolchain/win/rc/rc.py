@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 Copyright
 2017
@@ -165,10 +165,6 @@ files
 "
 "
 "
-from
-__future__
-import
-print_function
 from
 collections
 import

@@ -104,6 +104,28 @@ test
 pkg
 "
     
+android
+:
+versionCode
+=
+"
+1234
+"
+    
+android
+:
+versionName
+=
+"
+1
+.
+2
+.
+33
+.
+4
+"
+    
 tools
 :
 ignore
@@ -516,6 +538,30 @@ package
 test
 .
 pkg
+"
+    
+android
+:
+versionCode
+=
+"
+OFFSET
+=
+4
+"
+    
+android
+:
+versionName
+=
+"
+#
+.
+#
+.
+#
+.
+#
 "
     
 tools
@@ -947,6 +993,8 @@ manifest_utils
 NormalizeManifest
 (
 test_manifest
+1230
+None
 )
     
 self
@@ -987,6 +1035,8 @@ manifest_utils
 NormalizeManifest
 (
 test_manifest
+1230
+None
 )
     
 #
@@ -1048,6 +1098,8 @@ manifest_utils
 NormalizeManifest
 (
 test_manifest
+1230
+None
 )
     
 #

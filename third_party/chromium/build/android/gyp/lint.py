@@ -51,10 +51,6 @@ tool
 "
 "
 "
-from
-__future__
-import
-print_function
 import
 argparse
 import
@@ -222,6 +218,22 @@ baseline
 xml
 files
 .
+    
+"
+MissingInflatedId
+"
+#
+False
+positives
+https
+:
+/
+/
+crbug
+.
+com
+/
+1394222
     
 "
 MissingApplicationIcon
@@ -3558,21 +3570,24 @@ add_argument
 '
 -
 -
-java
--
 sources
 '
                       
 help
 =
 '
-File
-containing
-a
+A
 list
 of
+files
+containing
 java
-sources
+and
+kotlin
+source
+'
+                      
+'
 files
 .
 '
@@ -3853,7 +3868,7 @@ argv
   
 args
 .
-java_sources
+sources
 =
 build_utils
 .
@@ -3861,7 +3876,7 @@ ParseGnList
 (
 args
 .
-java_sources
+sources
 )
   
 args
@@ -4143,11 +4158,11 @@ sources
 ]
   
 for
-java_sources_file
+sources_file
 in
 args
 .
-java_sources
+sources
 :
     
 sources
@@ -4158,7 +4173,7 @@ build_utils
 .
 ReadSourcesList
 (
-java_sources_file
+sources_file
 )
 )
   

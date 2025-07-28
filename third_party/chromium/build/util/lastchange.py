@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 Copyright
 2012
@@ -53,10 +53,6 @@ utility
 "
 "
 "
-from
-__future__
-import
-print_function
 import
 argparse
 import
