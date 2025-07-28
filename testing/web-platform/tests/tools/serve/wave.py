@@ -570,9 +570,9 @@ wave
 if
 kwargs
 [
-'
+"
 report
-'
+"
 ]
 is
 True

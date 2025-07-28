@@ -1567,16 +1567,16 @@ headers
 =
 [
 (
-'
+"
 Content
 -
 Type
-'
-'
+"
+"
 text
 /
 html
-'
+"
 )
 ]
     
@@ -1747,7 +1747,7 @@ lt
 )
             
 return
-'
+"
 <
 title
 >
@@ -1757,7 +1757,7 @@ s
 /
 title
 >
-'
+"
 %
 value
         
@@ -4641,16 +4641,16 @@ headers
 =
 [
 (
-'
+"
 Content
 -
 Type
-'
-'
+"
+"
 text
 /
 javascript
-'
+"
 )
 ]
     
@@ -6070,9 +6070,9 @@ with
 open
 (
 inject_script
-'
+"
 rb
-'
+"
 )
 as
 f
@@ -7363,14 +7363,14 @@ environ
                                             
 name
 =
-'
+"
 %
 s
 on
 port
 %
 s
-'
+"
 %
 (
 self
@@ -11852,8 +11852,8 @@ line
 .
 split
 (
-'
-'
+"
+"
 )
 )
                     
@@ -11868,19 +11868,19 @@ append
 (
 {
                         
-'
+"
 url
 -
 path
-'
+"
 :
 alias
                         
-'
+"
 local
 -
 dir
-'
+"
 :
 doc_root
                     
