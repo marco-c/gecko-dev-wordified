@@ -202,9 +202,6 @@ bool
 pps_scaling_list_data_present_flag
 bool
 scaling_list_pred_mode_flag
-rtc
-:
-:
 Buffer
 *
 out_buffer
@@ -1129,9 +1126,6 @@ H265
 :
 WriteRbsp
 (
-rtc
-:
-:
 MakeArrayView
 (
 data
@@ -1470,9 +1464,6 @@ H265PpsParser
 PpsState
 generated_pps_
 ;
-rtc
-:
-:
 Buffer
 buffer_
 ;

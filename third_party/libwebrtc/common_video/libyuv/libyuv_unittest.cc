@@ -717,9 +717,6 @@ input_file_name
 n
 "
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -888,9 +885,6 @@ psnr
 .
 0
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -2442,9 +2436,6 @@ stride_y
 stride_uv
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -3114,9 +3105,6 @@ ref_uv
 0
 }
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -3189,9 +3177,6 @@ test_uv
 2
 }
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer

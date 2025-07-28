@@ -459,9 +459,6 @@ TestVideoFrameBufferPool
 FrameValidAfterPoolDestruction
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer

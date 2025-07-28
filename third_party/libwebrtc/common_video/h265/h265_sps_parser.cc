@@ -866,9 +866,6 @@ H265SpsParser
 :
 ParseSps
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2837,9 +2834,6 @@ H265SpsParser
 :
 ParseSpsInternal
 (
-rtc
-:
-:
 ArrayView
 <
 const

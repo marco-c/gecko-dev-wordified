@@ -289,9 +289,6 @@ PpsState
 >
 ParsePps
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -350,9 +347,6 @@ sps
 return
 ParsePps
 (
-rtc
-:
-:
 MakeArrayView
 (
 data
@@ -366,9 +360,6 @@ static
 bool
 ParsePpsIds
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -419,9 +410,6 @@ sps_id
 return
 ParsePpsIds
 (
-rtc
-:
-:
 MakeArrayView
 (
 data
@@ -464,9 +452,6 @@ PpsState
 >
 ParseInternal
 (
-rtc
-:
-:
 ArrayView
 <
 const

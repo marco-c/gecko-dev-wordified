@@ -1518,9 +1518,6 @@ H265BitstreamParserTest
 ReportsFirstSliceSegmentInPicParseInvalidSlice
 )
 {
-rtc
-:
-:
 ArrayView
 <
 const

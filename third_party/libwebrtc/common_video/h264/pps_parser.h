@@ -277,9 +277,6 @@ PpsState
 >
 ParsePps
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -324,9 +321,6 @@ length
 return
 ParsePps
 (
-rtc
-:
-:
 MakeArrayView
 (
 data
@@ -339,9 +333,6 @@ static
 bool
 ParsePpsIds
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -366,9 +357,6 @@ SliceHeader
 >
 ParseSliceHeader
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -408,9 +396,6 @@ PpsState
 >
 ParseInternal
 (
-rtc
-:
-:
 ArrayView
 <
 const

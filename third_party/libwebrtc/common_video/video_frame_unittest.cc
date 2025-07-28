@@ -435,9 +435,6 @@ template
 class
 T
 >
-rtc
-:
-:
 scoped_refptr
 <
 T
@@ -450,9 +447,6 @@ int
 height
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 T
@@ -685,9 +679,6 @@ with
 a
 gradient
 .
-rtc
-:
-:
 scoped_refptr
 <
 NV12BufferInterface
@@ -700,9 +691,6 @@ int
 height
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 NV12Buffer
@@ -2462,9 +2450,6 @@ template
 class
 T
 >
-rtc
-:
-:
 scoped_refptr
 <
 T
@@ -2657,9 +2642,6 @@ TestPlanarYuvBuffer
 Copy
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 TypeParam
@@ -2673,9 +2655,6 @@ TypeParam
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 TypeParam
@@ -2710,9 +2689,6 @@ TestPlanarYuvBuffer
 CropXCenter
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 TypeParam
@@ -2736,9 +2712,6 @@ cropping
 no
 scaling
 .
-rtc
-:
-:
 scoped_refptr
 <
 TypeParam
@@ -2795,9 +2768,6 @@ TestPlanarYuvBuffer
 CropXNotCenter
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 TypeParam
@@ -2822,9 +2792,6 @@ cropping
 no
 scaling
 .
-rtc
-:
-:
 scoped_refptr
 <
 TypeParam
@@ -2881,9 +2848,6 @@ TestPlanarYuvBuffer
 CropYCenter
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 TypeParam
@@ -2907,9 +2871,6 @@ cropping
 no
 scaling
 .
-rtc
-:
-:
 scoped_refptr
 <
 TypeParam
@@ -2966,9 +2927,6 @@ TestPlanarYuvBuffer
 CropYNotCenter
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 TypeParam
@@ -2992,9 +2950,6 @@ cropping
 no
 scaling
 .
-rtc
-:
-:
 scoped_refptr
 <
 TypeParam
@@ -3075,9 +3030,6 @@ crop_height
 =
 180
 ;
-rtc
-:
-:
 scoped_refptr
 <
 TypeParam
@@ -3135,9 +3087,6 @@ buffer_width
 crop_width
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 TypeParam
@@ -3265,9 +3214,6 @@ TestPlanarYuvBufferScale
 Scale
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 TypeParam
@@ -3290,9 +3236,6 @@ scaling
 no
 cropping
 .
-rtc
-:
-:
 scoped_refptr
 <
 TypeParam
@@ -3434,9 +3377,6 @@ this
 RotationParams
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 TypeParam
@@ -3452,9 +3392,6 @@ TypeParam
 480
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 TypeParam
@@ -3566,9 +3503,6 @@ kCropBottom
 =
 30
 ;
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -3581,9 +3515,6 @@ kSourceWidth
 kSourceHeight
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer

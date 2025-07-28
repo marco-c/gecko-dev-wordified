@@ -255,9 +255,6 @@ int
 num_slice_groups
 int
 pic_size_in_map_units
-rtc
-:
-:
 Buffer
 *
 out_buffer
@@ -905,9 +902,6 @@ H264
 :
 WriteRbsp
 (
-rtc
-:
-:
 MakeArrayView
 (
 data
@@ -1311,9 +1305,6 @@ PpsParser
 PpsState
 generated_pps_
 ;
-rtc
-:
-:
 Buffer
 buffer_
 ;
@@ -1437,9 +1428,6 @@ PpsParserTest
 ParseSliceHeader
 )
 {
-rtc
-:
-:
 ArrayView
 <
 const

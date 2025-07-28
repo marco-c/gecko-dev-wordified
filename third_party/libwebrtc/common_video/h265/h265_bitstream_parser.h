@@ -239,9 +239,6 @@ interface
 void
 ParseBitstream
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -286,9 +283,6 @@ uint32_t
 >
 ParsePpsIdFromSliceSegmentLayerRbsp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -336,9 +330,6 @@ bool
 >
 IsFirstSliceSegmentInPic
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -360,9 +351,6 @@ kUnsupportedStream
 void
 ParseSlice
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -374,9 +362,6 @@ slice
 Result
 ParseNonParameterSetNalu
 (
-rtc
-:
-:
 ArrayView
 <
 const

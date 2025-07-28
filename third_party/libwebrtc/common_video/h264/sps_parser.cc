@@ -268,9 +268,6 @@ SpsParser
 :
 ParseSps
 (
-rtc
-:
-:
 ArrayView
 <
 const

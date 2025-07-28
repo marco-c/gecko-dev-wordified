@@ -229,9 +229,6 @@ H265VpsParser
 :
 ParseVps
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -268,9 +265,6 @@ H265VpsParser
 :
 ParseInternal
 (
-rtc
-:
-:
 ArrayView
 <
 const

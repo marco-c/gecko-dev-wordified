@@ -360,9 +360,6 @@ static
 ParseResult
 ParseAndRewriteSps
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -385,9 +382,6 @@ const
 ColorSpace
 *
 color_space
-rtc
-:
-:
 Buffer
 *
 destination
@@ -417,15 +411,9 @@ if
 necessary
 .
 static
-rtc
-:
-:
 Buffer
 ParseOutgoingBitstreamAndRewrite
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -444,9 +432,6 @@ static
 ParseResult
 ParseAndRewriteSps
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -469,9 +454,6 @@ const
 ColorSpace
 *
 color_space
-rtc
-:
-:
 Buffer
 *
 destination

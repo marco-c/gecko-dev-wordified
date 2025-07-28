@@ -618,9 +618,6 @@ SpsState
 >
 ParseSps
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -665,9 +662,6 @@ length
 return
 ParseSps
 (
-rtc
-:
-:
 MakeArrayView
 (
 data
@@ -770,9 +764,6 @@ SpsState
 >
 ParseSpsInternal
 (
-rtc
-:
-:
 ArrayView
 <
 const

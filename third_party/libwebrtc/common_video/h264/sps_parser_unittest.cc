@@ -417,9 +417,6 @@ uint32_t
 log2_max_frame_num_minus4
 uint32_t
 log2_max_pic_order_cnt_lsb_minus4
-rtc
-:
-:
 Buffer
 *
 out_buffer
@@ -983,9 +980,6 @@ H264
 :
 WriteRbsp
 (
-rtc
-:
-:
 MakeArrayView
 (
 rbsp
@@ -1340,9 +1334,6 @@ H264SpsParserTest
 TestSyntheticSPSQvgaLandscape
 )
 {
-rtc
-:
-:
 Buffer
 buffer
 ;
@@ -1420,9 +1411,6 @@ H264SpsParserTest
 TestSyntheticSPSWeirdResolution
 )
 {
-rtc
-:
-:
 Buffer
 buffer
 ;
@@ -1620,9 +1608,6 @@ H264SpsParserTest
 TestLog2MaxFrameNumMinus4
 )
 {
-rtc
-:
-:
 Buffer
 buffer
 ;
@@ -1797,9 +1782,6 @@ H264SpsParserTest
 TestLog2MaxPicOrderCntMinus4
 )
 {
-rtc
-:
-:
 Buffer
 buffer
 ;

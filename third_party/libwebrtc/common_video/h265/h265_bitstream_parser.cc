@@ -742,9 +742,6 @@ H265BitstreamParser
 :
 ParseNonParameterSetNalu
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3740,9 +3737,6 @@ H265BitstreamParser
 :
 ParseSlice
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -4286,9 +4280,6 @@ H265BitstreamParser
 :
 ParsePpsIdFromSliceSegmentLayerRbsp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -4453,9 +4444,6 @@ H265BitstreamParser
 :
 IsFirstSliceSegmentInPic
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -4534,9 +4522,6 @@ H265BitstreamParser
 :
 ParseBitstream
 (
-rtc
-:
-:
 ArrayView
 <
 const
