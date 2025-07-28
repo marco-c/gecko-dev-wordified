@@ -8233,6 +8233,17 @@ mModuleScript
 HasParseError
 (
 )
+|
+|
+request
+-
+>
+mModuleScript
+-
+>
+HasErrorToRethrow
+(
+)
 )
 {
 /
