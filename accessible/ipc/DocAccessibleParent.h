@@ -1688,15 +1688,10 @@ mozilla
 :
 :
 LayoutDeviceIntRect
-&
 GetCachedCaretRect
 (
 )
-{
-return
-mCaretRect
 ;
-}
 virtual
 void
 SelectionRanges
