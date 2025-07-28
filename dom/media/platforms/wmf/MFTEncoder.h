@@ -710,6 +710,15 @@ ProcessOutput
 ;
 Result
 <
+ProcessedResult
+HRESULT
+>
+ProcessDrainComplete
+(
+)
+;
+Result
+<
 MediaEventType
 HRESULT
 >
