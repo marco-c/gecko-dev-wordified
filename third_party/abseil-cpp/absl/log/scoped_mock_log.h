@@ -438,11 +438,13 @@ LOG
 )
 messages
 issued
-during
-its
+by
+all
 /
 /
-lifespan
+threads
+when
+active
 .
 /
 /

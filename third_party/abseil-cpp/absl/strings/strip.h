@@ -344,6 +344,17 @@ absl
 /
 base
 /
+attributes
+.
+h
+"
+#
+include
+"
+absl
+/
+base
+/
 macros
 .
 h
@@ -757,6 +768,7 @@ absl
 :
 string_view
 str
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 absl
 :
 :
@@ -855,6 +867,7 @@ absl
 :
 string_view
 str
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 absl
 :
 :

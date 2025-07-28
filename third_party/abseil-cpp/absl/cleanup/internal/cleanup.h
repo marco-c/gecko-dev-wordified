@@ -489,7 +489,6 @@ void
 *
 >
 (
-+
 callback_buffer_
 )
 ;
