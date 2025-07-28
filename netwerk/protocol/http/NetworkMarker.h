@@ -137,13 +137,6 @@ h
 #
 include
 "
-nsICacheInfoChannel
-.
-h
-"
-#
-include
-"
 nsIClassOfService
 .
 h
@@ -156,6 +149,11 @@ net
 {
 struct
 TimingStruct
+;
+enum
+CacheDisposition
+:
+uint8_t
 ;
 enum
 class
@@ -195,7 +193,10 @@ TimeStamp
 aEnd
 int64_t
 aCount
-nsICacheInfoChannel
+mozilla
+:
+:
+net
 :
 :
 CacheDisposition
