@@ -571,6 +571,12 @@ error
 )
 override
 ;
+bool
+Flush
+(
+)
+override
+;
 private
 :
 webrtc
