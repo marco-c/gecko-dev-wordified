@@ -26962,9 +26962,8 @@ window
 .
 region
 .
-And
+AndWith
 (
-region
 LayoutDeviceIntRect
 (
 LayoutDeviceIntPoint

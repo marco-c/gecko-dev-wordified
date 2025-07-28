@@ -5297,9 +5297,8 @@ PrepareStaticVertexBuffer
 ;
 mBackBufferInvalid
 .
-Or
+OrWith
 (
-mBackBufferInvalid
 invalidRegionSafe
 )
 ;
@@ -5310,9 +5309,8 @@ mIsDoubleBuffered
 {
 mFrontBufferInvalid
 .
-Or
+OrWith
 (
-mFrontBufferInvalid
 invalidRegionSafe
 )
 ;
