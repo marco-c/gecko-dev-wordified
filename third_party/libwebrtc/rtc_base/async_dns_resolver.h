@@ -367,9 +367,6 @@ for
 client
 going
 away
-rtc
-:
-:
 scoped_refptr
 <
 State

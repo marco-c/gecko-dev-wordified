@@ -204,9 +204,6 @@ nullptr
 )
 valid_thread_
 (
-rtc
-:
-:
 PlatformThreadRef
 (
 )
@@ -240,9 +237,6 @@ Current
 )
 ;
 const
-rtc
-:
-:
 PlatformThreadRef
 current_thread
 =
@@ -381,13 +375,13 @@ Current
 )
 ;
 const
-rtc
+webrtc
 :
 :
 PlatformThreadRef
 current_thread
 =
-rtc
+webrtc
 :
 :
 CurrentThreadRef
@@ -482,7 +476,7 @@ doesn
 '
 t
 match
-rtc
+webrtc
 :
 :
 StringBuilder
@@ -578,7 +572,7 @@ else
 if
 (
 !
-rtc
+webrtc
 :
 :
 IsThreadRefEqual

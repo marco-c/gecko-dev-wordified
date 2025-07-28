@@ -288,9 +288,6 @@ capacity
 )
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -302,9 +299,6 @@ DataView
 const
 {
 return
-rtc
-:
-:
 MakeArrayView
 (
 Data
@@ -837,9 +831,6 @@ len
 void
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1099,9 +1090,6 @@ ByteBufferWriter
 public
 ByteBufferWriterT
 <
-rtc
-:
-:
 BufferT
 <
 uint8_t
@@ -1181,9 +1169,6 @@ public
 explicit
 ByteBufferReader
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1273,9 +1258,6 @@ move
 current
 position
 .
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1287,9 +1269,6 @@ DataView
 const
 {
 return
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1401,9 +1380,6 @@ data
 bool
 ReadBytes
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t

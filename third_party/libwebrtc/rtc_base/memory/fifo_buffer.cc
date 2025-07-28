@@ -334,9 +334,6 @@ FifoBuffer
 :
 Read
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -485,9 +482,6 @@ FifoBuffer
 :
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 const

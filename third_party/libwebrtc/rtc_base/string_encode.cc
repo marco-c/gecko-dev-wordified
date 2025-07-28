@@ -788,9 +788,6 @@ s
 size_t
 hex_decode_with_delimiter
 (
-rtc
-:
-:
 ArrayView
 <
 char
@@ -1029,9 +1026,6 @@ bufpos
 size_t
 hex_decode
 (
-rtc
-:
-:
 ArrayView
 <
 char

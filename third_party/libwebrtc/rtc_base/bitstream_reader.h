@@ -252,9 +252,6 @@ public
 explicit
 BitstreamReader
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -541,9 +538,6 @@ Read
 )
 {
 return
-rtc
-:
-:
 dchecked_cast
 <
 T
@@ -1035,9 +1029,6 @@ BitstreamReader
 :
 BitstreamReader
 (
-rtc
-:
-:
 ArrayView
 <
 const

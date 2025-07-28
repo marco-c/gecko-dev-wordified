@@ -738,10 +738,7 @@ SocketAddress
 &
 addr
 const
-rtc
-:
-:
-PacketOptions
+AsyncSocketPacketOptions
 &
 options
 )
@@ -825,9 +822,6 @@ size
 0
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -1683,10 +1677,7 @@ pv
 size_t
 cb
 const
-rtc
-:
-:
-PacketOptions
+AsyncSocketPacketOptions
 &
 options
 )
@@ -1799,10 +1790,7 @@ return
 res
 ;
 }
-rtc
-:
-:
-SentPacket
+SentPacketInfo
 sent_packet
 (
 options
@@ -1865,9 +1853,6 @@ AsyncTCPSocket
 :
 ProcessInput
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1942,10 +1927,7 @@ pkt_len
 return
 processed_bytes
 ;
-rtc
-:
-:
-ReceivedPacket
+ReceivedIpPacket
 received_packet
 (
 data

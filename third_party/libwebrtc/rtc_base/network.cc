@@ -3985,9 +3985,6 @@ NetworkManagerBase
 :
 IsVpnMacAddress
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -4088,9 +4085,6 @@ SocketFactory
 *
 absl_nonnull
 socket_factory
-rtc
-:
-:
 NetworkMonitorFactory
 *
 absl_nullable
@@ -4388,9 +4382,6 @@ struct
 ifaddrs
 *
 interfaces
-rtc
-:
-:
 IfAddrsConverter
 *
 ifaddrs_converter
@@ -4547,7 +4538,7 @@ Convert
 ConvertIfAddrs
 to
 use
-rtc
+webrtc
 :
 :
 Netmask
@@ -6164,7 +6155,7 @@ ADAPTER_TYPE_VPN
 &
 IsVpnMacAddress
 (
-rtc
+webrtc
 :
 :
 ArrayView

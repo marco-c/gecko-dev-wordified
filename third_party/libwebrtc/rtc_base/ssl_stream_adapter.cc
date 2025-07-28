@@ -650,9 +650,6 @@ ret
 SetPeerCertificateDigest
 (
 digest_alg
-rtc
-:
-:
 ArrayView
 <
 uint8_t

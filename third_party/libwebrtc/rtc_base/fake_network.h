@@ -246,9 +246,6 @@ Iface
 SocketAddress
 socket_address
 ;
-rtc
-:
-:
 AdapterType
 adapter_type
 ;
@@ -257,9 +254,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 AdapterType
 >
 underlying_vpn_adapter_type
@@ -338,9 +332,6 @@ AddInterface
 (
 iface
 if_name
-rtc
-:
-:
 ADAPTER_TYPE_UNKNOWN
 )
 ;
@@ -357,9 +348,6 @@ absl
 :
 string_view
 if_name
-rtc
-:
-:
 AdapterType
 type
 std
@@ -367,9 +355,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 AdapterType
 >
 underlying_vpn_adapter_type
@@ -578,7 +563,7 @@ set_enumeration_permission
 ;
 /
 /
-rtc
+webrtc
 :
 :
 NetworkManager

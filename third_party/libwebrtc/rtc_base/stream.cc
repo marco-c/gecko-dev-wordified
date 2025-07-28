@@ -318,9 +318,6 @@ size
 )
 )
 {
-rtc
-:
-:
 ArrayView
 <
 const

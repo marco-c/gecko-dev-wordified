@@ -352,10 +352,7 @@ pv
 size_t
 cb
 const
-rtc
-:
-:
-PacketOptions
+AsyncSocketPacketOptions
 &
 options
 )
@@ -375,10 +372,7 @@ SocketAddress
 &
 addr
 const
-rtc
-:
-:
-PacketOptions
+AsyncSocketPacketOptions
 &
 options
 )

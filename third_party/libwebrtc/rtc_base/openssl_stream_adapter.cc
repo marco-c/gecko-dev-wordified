@@ -1459,9 +1459,6 @@ stream
 >
 Read
 (
-rtc
-:
-:
 MakeArrayView
 (
 reinterpret_cast
@@ -1586,9 +1583,6 @@ stream
 >
 Write
 (
-rtc
-:
-:
 MakeArrayView
 (
 reinterpret_cast
@@ -2290,7 +2284,7 @@ reset
 (
 static_cast
 <
-rtc
+webrtc
 :
 :
 OpenSSLIdentity
@@ -2352,9 +2346,6 @@ absl
 :
 string_view
 digest_alg
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2949,9 +2940,6 @@ OpenSSLStreamAdapter
 :
 ExportSrtpKeyingMaterial
 (
-rtc
-:
-:
 ZeroOnFreeBuffer
 <
 uint8_t
@@ -3623,9 +3611,6 @@ OpenSSLStreamAdapter
 :
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3960,9 +3945,6 @@ OpenSSLStreamAdapter
 :
 Read
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -6660,9 +6642,6 @@ TimeCallbackForTesting
 SSL_CTX_set0_buffer_pool
 (
 ctx
-rtc
-:
-:
 openssl
 :
 :
@@ -7581,7 +7560,7 @@ std
 :
 make_unique
 <
-rtc
+webrtc
 :
 :
 OpenSSLCertificate

@@ -725,9 +725,6 @@ absl
 :
 string_view
 digest_alg
-rtc
-:
-:
 ArrayView
 <
 const
@@ -821,9 +818,6 @@ override
 StreamResult
 Read
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -841,9 +835,6 @@ override
 StreamResult
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -934,9 +925,6 @@ interface
 bool
 ExportSrtpKeyingMaterial
 (
-rtc
-:
-:
 ZeroOnFreeBuffer
 <
 uint8_t
@@ -1707,7 +1695,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 OpenSSLIdentity

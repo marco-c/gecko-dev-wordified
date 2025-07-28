@@ -509,7 +509,7 @@ WM_USER
 PM_NOREMOVE
 )
 ;
-rtc
+webrtc
 :
 :
 Event
@@ -518,7 +518,7 @@ data
 =
 reinterpret_cast
 <
-rtc
+webrtc
 :
 :
 Event
@@ -1447,7 +1447,7 @@ in_queue_
 ;
 thread_
 =
-rtc
+webrtc
 :
 :
 PlatformThread
@@ -1465,7 +1465,7 @@ RunThreadMain
 ;
 }
 queue_name
-rtc
+webrtc
 :
 :
 ThreadAttributes

@@ -739,7 +739,7 @@ tv
 .
 tv_usec
 *
-rtc
+webrtc
 :
 :
 kNumNanosecsPerMicrosec

@@ -1924,9 +1924,6 @@ if
 cert_buffer
 )
 {
-rtc
-:
-:
 openssl
 :
 :
@@ -2057,9 +2054,6 @@ der
 length
 (
 )
-rtc
-:
-:
 openssl
 :
 :
@@ -2159,9 +2153,6 @@ oid
 if
 (
 !
-rtc
-:
-:
 openssl
 :
 :
@@ -2789,9 +2780,6 @@ ret
 if
 (
 !
-rtc
-:
-:
 openssl
 :
 :

@@ -594,9 +594,6 @@ mutex_
 #
 endif
 mutable
-rtc
-:
-:
 PlatformThreadRef
 thread_
 ;

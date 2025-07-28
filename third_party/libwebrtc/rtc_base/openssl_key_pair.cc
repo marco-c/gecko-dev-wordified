@@ -735,9 +735,6 @@ if
 pkey
 )
 {
-rtc
-:
-:
 openssl
 :
 :

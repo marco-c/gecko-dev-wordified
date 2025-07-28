@@ -511,9 +511,6 @@ BufferedReadAdapter
 public
 :
 static
-rtc
-:
-:
 ArrayView
 <
 const
@@ -524,9 +521,6 @@ SslClientHello
 )
 ;
 static
-rtc
-:
-:
 ArrayView
 <
 const

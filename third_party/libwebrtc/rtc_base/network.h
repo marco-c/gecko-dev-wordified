@@ -1497,7 +1497,7 @@ const
 Network
 passed
 to
-cricket
+webrtc
 :
 :
 Port
@@ -3094,9 +3094,6 @@ static
 bool
 IsVpnMacAddress
 (
-rtc
-:
-:
 ArrayView
 <
 const

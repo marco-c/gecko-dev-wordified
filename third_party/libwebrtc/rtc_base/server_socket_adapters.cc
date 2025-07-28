@@ -183,9 +183,6 @@ hello
 messages
 .
 const
-rtc
-:
-:
 ArrayView
 <
 const
@@ -283,9 +280,6 @@ len
 )
 ;
 const
-rtc
-:
-:
 ArrayView
 <
 const

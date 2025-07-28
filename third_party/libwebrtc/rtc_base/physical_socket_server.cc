@@ -798,7 +798,7 @@ defined
 (
 WEBRTC_POSIX
 )
-rtc
+webrtc
 :
 :
 EcnMarking
@@ -851,7 +851,7 @@ ECN_ECT1
 )
 {
 return
-rtc
+webrtc
 :
 :
 EcnMarking
@@ -869,7 +869,7 @@ ECN_ECT0
 )
 {
 return
-rtc
+webrtc
 :
 :
 EcnMarking
@@ -887,7 +887,7 @@ ECN_CE
 )
 {
 return
-rtc
+webrtc
 :
 :
 EcnMarking
@@ -897,7 +897,7 @@ kCe
 ;
 }
 return
-rtc
+webrtc
 :
 :
 EcnMarking
@@ -11381,7 +11381,7 @@ cmsWait
 ;
 msStop
 =
-rtc
+webrtc
 :
 :
 TimeAfter
@@ -11409,7 +11409,7 @@ fWait_
 )
 {
 {
-rtc
+webrtc
 :
 :
 CritScope
@@ -11654,7 +11654,7 @@ We
 have
 signaled
 descriptors
-rtc
+webrtc
 :
 :
 CritScope
@@ -11771,13 +11771,13 @@ kForeverMs
 {
 msWait
 =
-rtc
+webrtc
 :
 :
 TimeDiff
 (
 msStop
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -11885,7 +11885,7 @@ cmsElapsed
 int64_t
 msStart
 =
-rtc
+webrtc
 :
 :
 Time
@@ -11927,7 +11927,7 @@ socket_ev_
 )
 ;
 {
-rtc
+webrtc
 :
 :
 CritScope
@@ -12310,7 +12310,7 @@ is
 and
 call
 it
-rtc
+webrtc
 :
 :
 CritScope
@@ -12917,7 +12917,7 @@ break
 ;
 cmsElapsed
 =
-rtc
+webrtc
 :
 :
 TimeSince

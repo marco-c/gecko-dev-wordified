@@ -332,9 +332,6 @@ AddLogToStream
 (
 &
 stream
-rtc
-:
-:
 LS_VERBOSE
 )
 ;

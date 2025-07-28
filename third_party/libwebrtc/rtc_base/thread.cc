@@ -1368,9 +1368,6 @@ Thread
 *
 current
 =
-rtc
-:
-:
 Thread
 :
 :
@@ -1791,9 +1788,6 @@ thread
 ;
 }
 void
-rtc
-:
-:
 ThreadManager
 :
 :
@@ -5553,7 +5547,7 @@ to
 /
 /
 be
-rtc
+webrtc
 :
 :
 Thread
@@ -5564,9 +5558,9 @@ Current
 )
 otherwise
 ProcessAllMessageQueuesInternal
+/
+/
 will
-/
-/
 post
 a
 message
@@ -5712,9 +5706,6 @@ unintentional
 pointer
 overwrites
 .
-rtc
-:
-:
 ThreadManager
 :
 :
@@ -5728,9 +5719,6 @@ SetCurrentThread
 nullptr
 )
 ;
-rtc
-:
-:
 ThreadManager
 :
 :
@@ -5852,9 +5840,6 @@ DoDestroy
 (
 )
 ;
-rtc
-:
-:
 ThreadManager
 :
 :
@@ -5868,9 +5853,6 @@ SetCurrentThread
 nullptr
 )
 ;
-rtc
-:
-:
 ThreadManager
 :
 :

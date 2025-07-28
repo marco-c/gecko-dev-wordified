@@ -352,10 +352,10 @@ webrtc
 AsyncPacketSocket
 *
 const
-rtc
+webrtc
 :
 :
-ReceivedPacket
+ReceivedIpPacket
 &
 )
 >
@@ -411,10 +411,7 @@ AsyncPacketSocket
 NotifyPacketReceived
 (
 const
-rtc
-:
-:
-ReceivedPacket
+ReceivedIpPacket
 &
 packet
 )

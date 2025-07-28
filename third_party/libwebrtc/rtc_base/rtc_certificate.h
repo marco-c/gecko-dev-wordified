@@ -368,9 +368,6 @@ RTCCertificate
 final
 :
 public
-rtc
-:
-:
 RefCountedNonVirtual
 <
 RTCCertificate
@@ -467,9 +464,6 @@ now
 const
 ;
 const
-rtc
-:
-:
 SSLCertificate
 &
 GetSSLCertificate
@@ -478,9 +472,6 @@ GetSSLCertificate
 const
 ;
 const
-rtc
-:
-:
 SSLCertChain
 &
 GetSSLCertificateChain

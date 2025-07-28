@@ -223,10 +223,7 @@ Packet
 Packet
 (
 const
-rtc
-:
-:
-ReceivedPacket
+ReceivedIpPacket
 &
 received_packet
 )
@@ -724,10 +721,7 @@ AsyncPacketSocket
 *
 socket
 const
-rtc
-:
-:
-ReceivedPacket
+ReceivedIpPacket
 &
 received_packet
 )

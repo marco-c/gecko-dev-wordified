@@ -252,9 +252,6 @@ binary
 size_t
 hex_decode
 (
-rtc
-:
-:
 ArrayView
 <
 char
@@ -312,9 +309,6 @@ return
 size_t
 hex_decode_with_delimiter
 (
-rtc
-:
-:
 ArrayView
 <
 char

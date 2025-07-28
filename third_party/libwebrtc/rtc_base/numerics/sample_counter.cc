@@ -447,9 +447,6 @@ std
 nullopt
 ;
 return
-rtc
-:
-:
 dchecked_cast
 <
 int

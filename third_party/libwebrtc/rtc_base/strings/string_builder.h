@@ -225,9 +225,6 @@ public
 explicit
 SimpleStringBuilder
 (
-rtc
-:
-:
 ArrayView
 <
 char
@@ -598,9 +595,6 @@ building
 it
 .
 const
-rtc
-:
-:
 ArrayView
 <
 char

@@ -711,9 +711,6 @@ int
 pid
 *
 /
-rtc
-:
-:
 PlatformThreadId
 thread_id
 )
@@ -1808,9 +1805,6 @@ timestamp
 int
 pid
 ;
-rtc
-:
-:
 PlatformThreadId
 tid
 ;

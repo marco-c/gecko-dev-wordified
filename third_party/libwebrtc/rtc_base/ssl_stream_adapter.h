@@ -1514,9 +1514,6 @@ absl
 :
 string_view
 digest_alg
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1782,9 +1779,6 @@ virtual
 bool
 ExportSrtpKeyingMaterial
 (
-rtc
-:
-:
 ZeroOnFreeBuffer
 <
 uint8_t

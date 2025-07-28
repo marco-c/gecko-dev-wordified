@@ -174,7 +174,7 @@ that
 disallows
 use
 of
-rtc
+webrtc
 :
 :
 Event
@@ -193,7 +193,7 @@ when
 a
 call
 to
-rtc
+webrtc
 :
 :
 Event
@@ -670,7 +670,7 @@ Chromium
 /
 /
 The
-rtc
+webrtc
 :
 :
 Event
@@ -835,7 +835,7 @@ RTC_DCHECK_NOTREACHED
 }
 handler_
 ;
-rtc
+webrtc
 :
 :
 ScopedYieldPolicy

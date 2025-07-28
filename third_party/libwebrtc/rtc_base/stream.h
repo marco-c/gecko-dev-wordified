@@ -787,9 +787,6 @@ virtual
 StreamResult
 Read
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -809,9 +806,6 @@ virtual
 StreamResult
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 const

@@ -259,10 +259,7 @@ buffer
 hello
 "
 ;
-rtc
-:
-:
-PacketOptions
+AsyncSocketPacketOptions
 packet_options
 ;
 packet_options

@@ -209,9 +209,6 @@ converted
 .
 ByteBufferWriterT
 <
-rtc
-:
-:
 BufferT
 <
 uint8_t
@@ -831,9 +828,6 @@ buffer
 ByteBufferReader
 read_buf
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1915,9 +1909,6 @@ Write
 and
 read
 arrayview
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2082,9 +2073,6 @@ buffer
 =
 test
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2545,9 +2533,6 @@ c
 '
 }
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2661,9 +2646,6 @@ c
 '
 }
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2704,9 +2686,6 @@ read_buffer
 .
 ReadBytes
 (
-rtc
-:
-:
 MakeArrayView
 (
 result
@@ -2754,9 +2733,6 @@ read_buffer
 .
 ReadBytes
 (
-rtc
-:
-:
 MakeArrayView
 (
 &
@@ -2786,9 +2762,6 @@ read_buffer
 .
 ReadBytes
 (
-rtc
-:
-:
 MakeArrayView
 (
 result

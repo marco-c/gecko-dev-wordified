@@ -167,9 +167,6 @@ MemoryStream
 :
 Read
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -277,9 +274,6 @@ MemoryStream
 :
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 const

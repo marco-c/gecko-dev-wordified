@@ -149,7 +149,7 @@ AsyncTCPSocketTest
 vss_
 (
 new
-rtc
+webrtc
 :
 :
 VirtualSocketServer
@@ -199,7 +199,7 @@ OnReadyToSend
 void
 OnReadyToSend
 (
-rtc
+webrtc
 :
 :
 AsyncPacketSocket

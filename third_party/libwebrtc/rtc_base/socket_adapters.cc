@@ -901,9 +901,6 @@ challenge
 /
 /
 static
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1109,9 +1106,6 @@ compression
 /
 /
 static
-rtc
-:
-:
 ArrayView
 <
 const

@@ -503,9 +503,6 @@ run_task
 TimeDelta
 sleep_time
 =
-rtc
-:
-:
 Event
 :
 :

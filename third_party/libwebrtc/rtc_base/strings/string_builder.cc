@@ -149,9 +149,6 @@ SimpleStringBuilder
 :
 SimpleStringBuilder
 (
-rtc
-:
-:
 ArrayView
 <
 char
