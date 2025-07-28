@@ -2149,9 +2149,6 @@ parameters
 .
 virtual
 const
-cricket
-:
-:
 IceParameters
 *
 local_ice_parameters
@@ -2187,9 +2184,6 @@ yet
 .
 virtual
 const
-cricket
-:
-:
 IceParameters
 *
 remote_ice_parameters

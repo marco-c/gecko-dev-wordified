@@ -9508,9 +9508,6 @@ kConnecting
 .
 (
 !
-rtc
-:
-:
 SSLStreamAdapter
 :
 :

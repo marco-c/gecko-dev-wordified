@@ -237,9 +237,6 @@ PacketStash
 void
 Add
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -251,9 +248,6 @@ packet
 bool
 AddIfUnique
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -284,9 +278,6 @@ uint32_t
 max_size
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -344,9 +335,6 @@ static
 uint32_t
 Hash
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -375,9 +363,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Buffer
 >
 buffer

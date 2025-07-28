@@ -1219,9 +1219,6 @@ PacketStash
 :
 AddIfUnique
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1311,9 +1308,6 @@ PacketStash
 :
 Add
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1558,9 +1552,6 @@ removed
 ;
 }
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1615,9 +1606,6 @@ pos
 buffer
 ;
 return
-rtc
-:
-:
 ArrayView
 <
 const
