@@ -691,7 +691,7 @@ MOCK_METHOD1
 SetMediaChannel
 void
 (
-cricket
+webrtc
 :
 :
 MediaSendChannelInterface

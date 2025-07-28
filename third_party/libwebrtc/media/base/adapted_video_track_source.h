@@ -521,9 +521,6 @@ apply_rotation
 (
 )
 ;
-cricket
-:
-:
 VideoAdapter
 *
 video_adapter
@@ -668,9 +665,6 @@ constraints
 )
 override
 ;
-cricket
-:
-:
 VideoAdapter
 video_adapter_
 ;

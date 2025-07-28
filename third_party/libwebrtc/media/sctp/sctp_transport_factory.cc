@@ -171,16 +171,13 @@ nogncheck
 #
 endif
 namespace
-cricket
+webrtc
 {
 SctpTransportFactory
 :
 :
 SctpTransportFactory
 (
-webrtc
-:
-:
 Thread
 *
 network_thread
@@ -210,9 +207,6 @@ SctpTransportFactory
 CreateSctpTransport
 (
 const
-webrtc
-:
-:
 Environment
 &
 env
@@ -244,9 +238,6 @@ SctpTransportInternal
 >
 (
 new
-webrtc
-:
-:
 DcSctpTransport
 (
 env
@@ -265,4 +256,4 @@ result
 /
 /
 namespace
-cricket
+webrtc

@@ -250,12 +250,6 @@ scoped_key_value_config
 h
 "
 using
-cricket
-:
-:
-TransportDescription
-;
-using
 :
 :
 testing
@@ -278,6 +272,14 @@ testing
 :
 :
 NotNull
+;
+using
+:
+:
+webrtc
+:
+:
+TransportDescription
 ;
 using
 :
@@ -494,7 +496,7 @@ static_cast
 size_t
 >
 (
-cricket
+webrtc
 :
 :
 ICE_UFRAG_LENGTH
@@ -516,7 +518,7 @@ static_cast
 size_t
 >
 (
-cricket
+webrtc
 :
 :
 ICE_PWD_LENGTH
@@ -975,7 +977,7 @@ static_cast
 size_t
 >
 (
-cricket
+webrtc
 :
 :
 ICE_UFRAG_LENGTH
@@ -997,7 +999,7 @@ static_cast
 size_t
 >
 (
-cricket
+webrtc
 :
 :
 ICE_PWD_LENGTH
@@ -1368,7 +1370,7 @@ test
 ScopedKeyValueConfig
 field_trials_
 ;
-cricket
+webrtc
 :
 :
 IceCredentialsIterator
@@ -2750,7 +2752,7 @@ std
 :
 vector
 <
-cricket
+webrtc
 :
 :
 IceParameters
@@ -2758,7 +2760,7 @@ IceParameters
 credentials
 =
 {
-cricket
+webrtc
 :
 :
 IceParameters
@@ -2773,7 +2775,7 @@ false
 )
 }
 ;
-cricket
+webrtc
 :
 :
 IceCredentialsIterator
@@ -2887,7 +2889,7 @@ std
 :
 vector
 <
-cricket
+webrtc
 :
 :
 IceParameters
@@ -2895,7 +2897,7 @@ IceParameters
 credentials
 =
 {
-cricket
+webrtc
 :
 :
 IceParameters
@@ -2910,7 +2912,7 @@ false
 )
 }
 ;
-cricket
+webrtc
 :
 :
 IceCredentialsIterator
@@ -3043,7 +3045,7 @@ answer
 -
 >
 connection_role
-cricket
+webrtc
 :
 :
 CONNECTIONROLE_ACTIVE
@@ -3086,7 +3088,7 @@ offer
 >
 connection_role
 =
-cricket
+webrtc
 :
 :
 CONNECTIONROLE_ACTIVE
@@ -3122,7 +3124,7 @@ answer
 -
 >
 connection_role
-cricket
+webrtc
 :
 :
 CONNECTIONROLE_PASSIVE
@@ -3165,7 +3167,7 @@ offer
 >
 connection_role
 =
-cricket
+webrtc
 :
 :
 CONNECTIONROLE_PASSIVE
@@ -3201,7 +3203,7 @@ answer
 -
 >
 connection_role
-cricket
+webrtc
 :
 :
 CONNECTIONROLE_ACTIVE

@@ -3034,9 +3034,6 @@ options
 to
 use
 .
-cricket
-:
-:
 AudioOptions
 audio_options
 ;

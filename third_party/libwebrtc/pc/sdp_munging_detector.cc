@@ -595,9 +595,6 @@ i
 description
 .
 transport_options
-cricket
-:
-:
 ICE_OPTION_RENOMINATION
 )
 !
@@ -631,9 +628,6 @@ i
 description
 .
 transport_options
-cricket
-:
-:
 ICE_OPTION_RENOMINATION
 )
 !
@@ -834,9 +828,6 @@ codec
 name
 =
 =
-cricket
-:
-:
 kOpusCodecName
 &
 &
@@ -844,9 +835,6 @@ codec
 .
 GetParam
 (
-cricket
-:
-:
 kCodecParamStereo
 &
 value
@@ -856,9 +844,6 @@ value
 value
 =
 =
-cricket
-:
-:
 kParamValueTrue
 ;
 }
@@ -910,9 +895,6 @@ codec
 name
 =
 =
-cricket
-:
-:
 kOpusCodecName
 &
 &
@@ -920,9 +902,6 @@ codec
 .
 GetParam
 (
-cricket
-:
-:
 kCodecParamStereo
 &
 value
@@ -932,9 +911,6 @@ value
 value
 =
 =
-cricket
-:
-:
 kParamValueTrue
 ;
 }
@@ -1154,9 +1130,6 @@ codec
 name
 =
 =
-cricket
-:
-:
 kL16CodecName
 ;
 }
@@ -1202,9 +1175,6 @@ codec
 name
 =
 =
-cricket
-:
-:
 kL16CodecName
 ;
 }
@@ -1340,9 +1310,6 @@ HasFeedbackParam
 (
 FeedbackParam
 (
-cricket
-:
-:
 kRtcpFbParamNack
 )
 )
@@ -1391,9 +1358,6 @@ HasFeedbackParam
 (
 FeedbackParam
 (
-cricket
-:
-:
 kRtcpFbParamNack
 )
 )
@@ -1483,9 +1447,6 @@ HasFeedbackParam
 (
 FeedbackParam
 (
-cricket
-:
-:
 kRtcpFbParamRrtr
 )
 )
@@ -1534,9 +1495,6 @@ HasFeedbackParam
 (
 FeedbackParam
 (
-cricket
-:
-:
 kRtcpFbParamRrtr
 )
 )
@@ -1645,9 +1603,6 @@ codec
 name
 =
 =
-cricket
-:
-:
 kOpusCodecName
 &
 &
@@ -1655,9 +1610,6 @@ codec
 .
 GetParam
 (
-cricket
-:
-:
 kCodecParamUseInbandFec
 &
 value
@@ -1667,9 +1619,6 @@ value
 value
 =
 =
-cricket
-:
-:
 kParamValueTrue
 ;
 }
@@ -1721,9 +1670,6 @@ codec
 name
 =
 =
-cricket
-:
-:
 kOpusCodecName
 &
 &
@@ -1731,9 +1677,6 @@ codec
 .
 GetParam
 (
-cricket
-:
-:
 kCodecParamUseInbandFec
 &
 value
@@ -1743,9 +1686,6 @@ value
 value
 =
 =
-cricket
-:
-:
 kParamValueTrue
 ;
 }
@@ -1852,9 +1792,6 @@ codec
 name
 =
 =
-cricket
-:
-:
 kOpusCodecName
 &
 &
@@ -1862,9 +1799,6 @@ codec
 .
 GetParam
 (
-cricket
-:
-:
 kCodecParamUseDtx
 &
 value
@@ -1874,9 +1808,6 @@ value
 value
 =
 =
-cricket
-:
-:
 kParamValueTrue
 ;
 }
@@ -1928,9 +1859,6 @@ codec
 name
 =
 =
-cricket
-:
-:
 kOpusCodecName
 &
 &
@@ -1938,9 +1866,6 @@ codec
 .
 GetParam
 (
-cricket
-:
-:
 kCodecParamUseDtx
 &
 value
@@ -1950,9 +1875,6 @@ value
 value
 =
 =
-cricket
-:
-:
 kParamValueTrue
 ;
 }
@@ -2059,9 +1981,6 @@ codec
 name
 =
 =
-cricket
-:
-:
 kOpusCodecName
 &
 &
@@ -2069,9 +1988,6 @@ codec
 .
 GetParam
 (
-cricket
-:
-:
 kCodecParamCbr
 &
 value
@@ -2081,9 +1997,6 @@ value
 value
 =
 =
-cricket
-:
-:
 kParamValueTrue
 ;
 }
@@ -2135,9 +2048,6 @@ codec
 name
 =
 =
-cricket
-:
-:
 kOpusCodecName
 &
 &
@@ -2145,9 +2055,6 @@ codec
 .
 GetParam
 (
-cricket
-:
-:
 kCodecParamCbr
 &
 value
@@ -2157,9 +2064,6 @@ value
 value
 =
 =
-cricket
-:
-:
 kParamValueTrue
 ;
 }
@@ -2424,9 +2328,6 @@ group
 semantics
 =
 =
-cricket
-:
-:
 kSimSsrcGroupSemantics
 ;
 }
@@ -2485,9 +2386,6 @@ group
 semantics
 =
 =
-cricket
-:
-:
 kSimSsrcGroupSemantics
 ;
 }
@@ -2590,9 +2488,6 @@ codec
 name
 =
 =
-cricket
-:
-:
 kH264CodecName
 &
 &
@@ -2600,9 +2495,6 @@ codec
 .
 GetParam
 (
-cricket
-:
-:
 kH264FmtpSpsPpsIdrInKeyframe
 &
 value
@@ -2612,9 +2504,6 @@ value
 value
 =
 =
-cricket
-:
-:
 kParamValueTrue
 ;
 }
@@ -2666,9 +2555,6 @@ codec
 name
 =
 =
-cricket
-:
-:
 kH264CodecName
 &
 &
@@ -2676,9 +2562,6 @@ codec
 .
 GetParam
 (
-cricket
-:
-:
 kH264FmtpSpsPpsIdrInKeyframe
 &
 value
@@ -2688,9 +2571,6 @@ value
 value
 =
 =
-cricket
-:
-:
 kParamValueTrue
 ;
 }

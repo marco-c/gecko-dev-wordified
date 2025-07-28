@@ -1328,9 +1328,6 @@ channel_id
 channel_id
 <
 =
-cricket
-:
-:
 kMaxSctpStreams
 ;
 +
@@ -1361,9 +1358,6 @@ if
 channel_id
 =
 =
-cricket
-:
-:
 kMaxSctpStreams
 )
 {

@@ -461,9 +461,6 @@ key
 override
 {
 return
-cricket
-:
-:
 ComputeStunCredentialHash
 (
 std

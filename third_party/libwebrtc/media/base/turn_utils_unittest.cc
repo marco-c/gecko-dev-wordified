@@ -116,7 +116,7 @@ gtest
 h
 "
 namespace
-cricket
+webrtc
 {
 /
 /
@@ -879,4 +879,4 @@ content_size
 /
 /
 namespace
-cricket
+webrtc

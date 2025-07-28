@@ -2005,9 +2005,6 @@ H264
 Params
 {
 {
-cricket
-:
-:
 kH264FmtpPacketizationMode
 "
 0
@@ -2037,9 +2034,6 @@ H264
 Params
 {
 {
-cricket
-:
-:
 kH264FmtpPacketizationMode
 "
 1
@@ -2069,9 +2063,6 @@ H264
 Params
 {
 {
-cricket
-:
-:
 kH264FmtpPacketizationMode
 "
 1
@@ -2090,9 +2081,6 @@ H264
 Params
 {
 {
-cricket
-:
-:
 kH264FmtpPacketizationMode
 "
 1

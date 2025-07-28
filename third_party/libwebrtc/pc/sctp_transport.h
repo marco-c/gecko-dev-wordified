@@ -291,9 +291,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 SctpTransportInternal
 >
 internal
@@ -511,9 +508,6 @@ internal
 function
 private
 .
-cricket
-:
-:
 SctpTransportInternal
 *
 internal
@@ -534,9 +528,6 @@ get
 ;
 }
 const
-cricket
-:
-:
 SctpTransportInternal
 *
 internal
@@ -601,9 +592,6 @@ sid
 void
 OnDtlsStateChange
 (
-cricket
-:
-:
 DtlsTransportInternal
 *
 transport
@@ -658,9 +646,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 SctpTransportInternal
 >
 internal_sctp_transport_

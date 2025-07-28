@@ -735,9 +735,6 @@ config
 .
 SetCodecSettings
 (
-cricket
-:
-:
 kVp9CodecName
 1
 1
@@ -883,9 +880,6 @@ config
 .
 SetCodecSettings
 (
-cricket
-:
-:
 kVp9CodecName
 1
 1
@@ -1088,9 +1082,6 @@ config
 .
 SetCodecSettings
 (
-cricket
-:
-:
 kVp9CodecName
 1
 1
@@ -1324,9 +1315,6 @@ config
 .
 SetCodecSettings
 (
-cricket
-:
-:
 kVp9CodecName
 1
 1
@@ -1474,9 +1462,6 @@ config
 .
 SetCodecSettings
 (
-cricket
-:
-:
 kVp9CodecName
 1
 1
@@ -1648,9 +1633,6 @@ config
 .
 SetCodecSettings
 (
-cricket
-:
-:
 kVp8CodecName
 1
 1
@@ -1834,9 +1816,6 @@ config
 .
 SetCodecSettings
 (
-cricket
-:
-:
 kVp8CodecName
 1
 1
@@ -2105,9 +2084,6 @@ config
 .
 SetCodecSettings
 (
-cricket
-:
-:
 kVp8CodecName
 1
 1
@@ -2464,9 +2440,6 @@ config
 .
 SetCodecSettings
 (
-cricket
-:
-:
 kVp8CodecName
 1
 1
@@ -2804,9 +2777,6 @@ config
 .
 SetCodecSettings
 (
-cricket
-:
-:
 kVp8CodecName
 3
 1
@@ -3040,9 +3010,6 @@ config
 .
 SetCodecSettings
 (
-cricket
-:
-:
 kVp8CodecName
 3
 1
@@ -3311,9 +3278,6 @@ config
 .
 SetCodecSettings
 (
-cricket
-:
-:
 kVp9CodecName
 1
 3
@@ -3487,9 +3451,6 @@ config
 .
 SetCodecSettings
 (
-cricket
-:
-:
 kVp8CodecName
 3
 1
@@ -3665,9 +3626,6 @@ config
 .
 SetCodecSettings
 (
-cricket
-:
-:
 kVp9CodecName
 1
 3

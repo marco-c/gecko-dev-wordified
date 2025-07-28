@@ -1214,9 +1214,6 @@ SessionDescription
 AddTransportInfo
 (
 const
-cricket
-:
-:
 TransportInfo
 &
 transport_info
@@ -1304,9 +1301,6 @@ false
 ;
 }
 const
-cricket
-:
-:
 TransportInfo
 *
 SessionDescription
@@ -1379,9 +1373,6 @@ return
 NULL
 ;
 }
-cricket
-:
-:
 TransportInfo
 *
 SessionDescription

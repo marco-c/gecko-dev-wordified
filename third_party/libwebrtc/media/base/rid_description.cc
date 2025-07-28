@@ -99,7 +99,7 @@ include
 string
 >
 namespace
-cricket
+webrtc
 {
 RidDescription
 :
@@ -227,4 +227,4 @@ restrictions
 /
 /
 namespace
-cricket
+webrtc

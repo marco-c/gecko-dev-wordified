@@ -94,7 +94,7 @@ connection_info
 h
 "
 namespace
-cricket
+webrtc
 {
 ConnectionInfo
 :
@@ -226,4 +226,4 @@ default
 /
 /
 namespace
-cricket
+webrtc

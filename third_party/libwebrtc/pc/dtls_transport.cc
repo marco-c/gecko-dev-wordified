@@ -236,9 +236,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 DtlsTransportInternal
 >
 internal
@@ -644,9 +641,6 @@ DtlsTransport
 :
 OnInternalDtlsState
 (
-cricket
-:
-:
 DtlsTransportInternal
 *
 transport

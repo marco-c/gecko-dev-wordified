@@ -444,9 +444,6 @@ MediaContentDescription
 &
 media_desc
 const
-cricket
-:
-:
 RidDescription
 &
 rid_description
@@ -490,9 +487,6 @@ section
 10
 RTCErrorOr
 <
-cricket
-:
-:
 RidDescription
 >
 DeserializeRidDescription

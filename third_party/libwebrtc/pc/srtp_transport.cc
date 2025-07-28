@@ -758,9 +758,6 @@ type
 -
 1
 ;
-cricket
-:
-:
 GetRtcpType
 (
 packet
@@ -1136,9 +1133,6 @@ type
 -
 1
 ;
-cricket
-:
-:
 GetRtcpType
 (
 payload

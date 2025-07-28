@@ -474,9 +474,6 @@ size
 )
 )
 ;
-cricket
-:
-:
 StreamParams
 &
 new_stream_params

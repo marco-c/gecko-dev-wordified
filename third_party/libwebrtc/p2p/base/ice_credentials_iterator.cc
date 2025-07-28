@@ -130,7 +130,7 @@ crypto_random
 h
 "
 namespace
-cricket
+webrtc
 {
 IceCredentialsIterator
 :
@@ -181,6 +181,9 @@ webrtc
 :
 CreateRandomString
 (
+webrtc
+:
+:
 ICE_UFRAG_LENGTH
 )
 webrtc
@@ -188,6 +191,9 @@ webrtc
 :
 CreateRandomString
 (
+webrtc
+:
+:
 ICE_PWD_LENGTH
 )
 false
@@ -240,4 +246,4 @@ credentials
 /
 /
 namespace
-cricket
+webrtc

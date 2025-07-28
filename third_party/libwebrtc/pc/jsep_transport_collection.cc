@@ -385,9 +385,6 @@ description
 >
 GetGroupsByName
 (
-cricket
-:
-:
 GROUP_TYPE_BUNDLE
 )
 )
@@ -541,9 +538,6 @@ description
 >
 GetGroupsByName
 (
-cricket
-:
-:
 GROUP_TYPE_BUNDLE
 )
 )

@@ -424,9 +424,6 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
-:
-:
 ICE_CANDIDATE_COMPONENT_RTP
 )
 ;
@@ -508,9 +505,6 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
-:
-:
 ICE_CANDIDATE_COMPONENT_RTP
 )
 ;
@@ -620,9 +614,6 @@ FakeDtlsTransport
 "
 audio
 "
-cricket
-:
-:
 ICE_CANDIDATE_COMPONENT_RTP
 )
 ;

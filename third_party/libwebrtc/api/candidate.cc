@@ -302,9 +302,6 @@ CreateRandomString
 )
 component_
 (
-cricket
-:
-:
 ICE_CANDIDATE_COMPONENT_DEFAULT
 )
 priority_

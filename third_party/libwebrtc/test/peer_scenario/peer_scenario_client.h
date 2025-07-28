@@ -945,9 +945,6 @@ std
 :
 string
 track_id
-cricket
-:
-:
 AudioOptions
 options
 )

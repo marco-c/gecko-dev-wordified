@@ -301,9 +301,6 @@ config
 .
 SetCodecSettings
 (
-cricket
-:
-:
 kAv1CodecName
 1
 1
@@ -440,9 +437,6 @@ config
 .
 SetCodecSettings
 (
-cricket
-:
-:
 kAv1CodecName
 1
 1
@@ -590,9 +584,6 @@ config
 .
 SetCodecSettings
 (
-cricket
-:
-:
 kAv1CodecName
 1
 1

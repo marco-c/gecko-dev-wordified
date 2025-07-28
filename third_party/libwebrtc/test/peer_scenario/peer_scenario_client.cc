@@ -1501,9 +1501,6 @@ return
 {
 SdpVideoFormat
 (
-cricket
-:
-:
 kVp8CodecName
 {
 }
@@ -2376,9 +2373,6 @@ std
 :
 string
 track_id
-cricket
-:
-:
 AudioOptions
 options
 )

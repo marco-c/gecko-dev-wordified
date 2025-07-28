@@ -368,13 +368,7 @@ AddFeedbackParam
 (
 FeedbackParam
 (
-cricket
-:
-:
 kRtcpFbParamTransportCc
-cricket
-:
-:
 kParamValueEmpty
 )
 )
@@ -530,9 +524,6 @@ codec
 name
 =
 =
-cricket
-:
-:
 kOpusCodecName
 )
 {
@@ -566,9 +557,6 @@ red_codec
 CreateAudioCodec
 (
 {
-cricket
-:
-:
 kRedCodecName
 48000
 2
@@ -619,9 +607,6 @@ cn_codec
 CreateAudioCodec
 (
 {
-cricket
-:
-:
 kCnCodecName
 cn
 .
@@ -671,9 +656,6 @@ dtmf_codec
 CreateAudioCodec
 (
 {
-cricket
-:
-:
 kDtmfCodecName
 dtmf
 .
@@ -704,9 +686,6 @@ TypedCodecVendor
 :
 TypedCodecVendor
 (
-cricket
-:
-:
 MediaEngineInterface
 *
 media_engine

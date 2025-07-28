@@ -1157,9 +1157,6 @@ AudioTrackInterface
 CreateLocalAudioTrack
 (
 const
-cricket
-:
-:
 AudioOptions
 options
 )
@@ -1708,9 +1705,6 @@ test
 audio
 frames
 .
-cricket
-:
-:
 AudioOptions
 options
 ;

@@ -496,9 +496,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 SctpTransportFactory
 >
 (

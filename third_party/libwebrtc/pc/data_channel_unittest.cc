@@ -4667,9 +4667,6 @@ static_cast
 uint16_t
 >
 (
-cricket
-:
-:
 SctpErrorCauseCode
 :
 :
@@ -4790,9 +4787,6 @@ static_cast
 uint16_t
 >
 (
-cricket
-:
-:
 SctpErrorCauseCode
 :
 :

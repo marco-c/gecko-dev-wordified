@@ -280,9 +280,6 @@ kBufSize
 =
 kMaxPacketSize
 +
-cricket
-:
-:
 kStunHeaderSize
 ;
 static
@@ -1173,9 +1170,6 @@ message
 .
 expected_pkt_len
 =
-cricket
-:
-:
 kStunHeaderSize
 +
 pkt_len

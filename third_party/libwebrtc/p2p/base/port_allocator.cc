@@ -274,9 +274,6 @@ ports
 .
 push_back
 (
-cricket
-:
-:
 ProtocolAddress
 (
 address
@@ -1092,15 +1089,9 @@ size
 candidate_pool_size_
 )
 {
-cricket
-:
-:
 IceParameters
 iceCredentials
 =
-cricket
-:
-:
 IceCredentialsIterator
 :
 :
@@ -1298,9 +1289,6 @@ return
 nullptr
 ;
 }
-cricket
-:
-:
 IceParameters
 credentials
 (
@@ -1482,9 +1470,6 @@ PortAllocator
 GetPooledSession
 (
 const
-cricket
-:
-:
 IceParameters
 *
 ice_credentials
@@ -1553,9 +1538,6 @@ PortAllocator
 FindPooledSession
 (
 const
-cricket
-:
-:
 IceParameters
 *
 ice_credentials
@@ -1749,9 +1731,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 IceParameters
 >
 PortAllocator
@@ -1770,9 +1749,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 IceParameters
 >
 list
@@ -1791,9 +1767,6 @@ list
 .
 push_back
 (
-cricket
-:
-:
 IceParameters
 (
 session

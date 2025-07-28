@@ -104,7 +104,7 @@ include
 cstdint
 >
 namespace
-cricket
+webrtc
 {
 const
 char
@@ -635,4 +635,4 @@ seconds
 /
 /
 namespace
-cricket
+webrtc

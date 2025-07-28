@@ -267,9 +267,6 @@ virtual
 void
 OnBindingRequest
 (
-cricket
-:
-:
 StunMessage
 *
 msg
@@ -282,9 +279,6 @@ addr
 void
 OnAllocateRequest
 (
-cricket
-:
-:
 StunMessage
 *
 msg
@@ -297,9 +291,6 @@ addr
 void
 OnSharedSecretRequest
 (
-cricket
-:
-:
 StunMessage
 *
 msg
@@ -312,9 +303,6 @@ addr
 void
 OnSendRequest
 (
-cricket
-:
-:
 StunMessage
 *
 msg
@@ -343,9 +331,6 @@ void
 SendErrorResponse
 (
 const
-cricket
-:
-:
 StunMessage
 &
 msg
@@ -377,9 +362,6 @@ void
 SendResponse
 (
 const
-cricket
-:
-:
 StunMessage
 &
 msg
@@ -404,9 +386,6 @@ response
 void
 GetStunBindResponse
 (
-cricket
-:
-:
 StunMessage
 *
 message
@@ -414,9 +393,6 @@ const
 SocketAddress
 &
 remote_addr
-cricket
-:
-:
 StunMessage
 *
 response

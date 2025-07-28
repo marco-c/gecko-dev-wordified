@@ -416,9 +416,6 @@ string
 stream_ids
 bool
 is_unified_plan
-cricket
-:
-:
 VoiceMediaReceiveChannelInterface
 *
 voice_channel
@@ -482,9 +479,6 @@ MediaStreamInterface
 streams
 bool
 is_unified_plan
-cricket
-:
-:
 VoiceMediaReceiveChannelInterface
 *
 media_channel
@@ -799,9 +793,6 @@ override
 void
 SetMediaChannel
 (
-cricket
-:
-:
 MediaReceiveChannelInterface
 *
 media_channel
@@ -951,9 +942,6 @@ AudioTrack
 >
 track_
 ;
-cricket
-:
-:
 VoiceMediaReceiveChannelInterface
 *
 media_channel_

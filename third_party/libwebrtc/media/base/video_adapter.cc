@@ -989,7 +989,7 @@ first
 /
 namespace
 namespace
-cricket
+webrtc
 {
 VideoAdapter
 :
@@ -1178,9 +1178,6 @@ int
 out_height
 )
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -1815,9 +1812,6 @@ have
 matching
 orientation
 .
-webrtc
-:
-:
 Resolution
 scale_resolution_down_to
 =
@@ -2566,9 +2560,6 @@ int
 max_fps
 )
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -2705,17 +2696,11 @@ VideoAdapter
 OnSinkWants
 (
 const
-webrtc
-:
-:
 VideoSinkWants
 &
 sink_wants
 )
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -3173,9 +3158,6 @@ GetTargetPixels
 )
 const
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -3196,9 +3178,6 @@ GetMaxFramerate
 )
 const
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -3300,9 +3279,6 @@ ToString
 )
 const
 {
-rtc
-:
-:
 StringBuilder
 oss
 ;
@@ -3560,4 +3536,4 @@ Release
 /
 /
 namespace
-cricket
+webrtc

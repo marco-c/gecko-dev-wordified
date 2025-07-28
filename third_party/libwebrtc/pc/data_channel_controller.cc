@@ -2520,9 +2520,6 @@ config
 .
 id
 >
-cricket
-:
-:
 kMaxSctpSid
 )
 {

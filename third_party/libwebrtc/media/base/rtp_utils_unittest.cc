@@ -152,7 +152,7 @@ gtest
 h
 "
 namespace
-cricket
+webrtc
 {
 static
 const
@@ -1351,9 +1351,6 @@ RtpUtilsTest
 ApplyPacketOptionsWithDefaultValues
 )
 {
-webrtc
-:
-:
 PacketTimeUpdateParams
 packet_time_params
 ;
@@ -1490,9 +1487,6 @@ RtpUtilsTest
 ApplyPacketOptionsWithAuthParams
 )
 {
-webrtc
-:
-:
 PacketTimeUpdateParams
 packet_time_params
 ;
@@ -1846,9 +1840,6 @@ RtpUtilsTest
 ApplyPacketOptionsWithAuthParamsAndAbsSendTime
 )
 {
-webrtc
-:
-:
 PacketTimeUpdateParams
 packet_time_params
 ;
@@ -2067,4 +2058,4 @@ kInvalidPacketArrayView
 /
 /
 namespace
-cricket
+webrtc

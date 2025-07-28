@@ -127,7 +127,7 @@ byte_order
 h
 "
 namespace
-cricket
+webrtc
 {
 namespace
 {
@@ -1165,4 +1165,4 @@ true
 /
 /
 namespace
-cricket
+webrtc

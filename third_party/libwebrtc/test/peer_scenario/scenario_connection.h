@@ -414,9 +414,6 @@ endpoint
 ;
 virtual
 const
-cricket
-:
-:
 TransportDescription
 &
 transport_description

@@ -242,7 +242,7 @@ webrtc
 ContentInfo
 *
 const
-cricket
+webrtc
 :
 :
 TransportInfo
@@ -355,7 +355,7 @@ webrtc
 :
 ContentInfo
 *
-cricket
+webrtc
 :
 :
 TransportInfo

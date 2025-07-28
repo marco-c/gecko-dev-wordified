@@ -1691,9 +1691,6 @@ ProtocolType
 >
 proto
 =
-cricket
-:
-:
 StringToProto
 (
 transport_tokens

@@ -323,9 +323,6 @@ class
 MockVideoMediaSendChannel
 :
 public
-cricket
-:
-:
 FakeVideoMediaSendChannel
 {
 public
@@ -333,9 +330,6 @@ public
 MockVideoMediaSendChannel
 (
 const
-cricket
-:
-:
 VideoOptions
 &
 options
@@ -388,9 +382,6 @@ class
 MockVideoMediaReceiveChannel
 :
 public
-cricket
-:
-:
 FakeVideoMediaReceiveChannel
 {
 public
@@ -398,9 +389,6 @@ public
 MockVideoMediaReceiveChannel
 (
 const
-cricket
-:
-:
 VideoOptions
 &
 options
@@ -515,9 +503,6 @@ Create
 )
 channel_
 (
-cricket
-:
-:
 VideoOptions
 (
 )
@@ -630,9 +615,6 @@ nullptr
 void
 SetMediaChannel
 (
-cricket
-:
-:
 MediaReceiveChannelInterface
 *
 media_channel
@@ -801,9 +783,6 @@ channel
 MockVideoMediaReceiveChannel
 channel2
 {
-cricket
-:
-:
 VideoOptions
 (
 )
@@ -903,9 +882,6 @@ GenerateKeyFrame
 MockVideoMediaReceiveChannel
 channel3
 {
-cricket
-:
-:
 VideoOptions
 (
 )
@@ -944,9 +920,6 @@ MockVideoMediaReceiveChannel
 >
 channel4
 {
-cricket
-:
-:
 VideoOptions
 (
 )
@@ -1128,9 +1101,6 @@ sink
 MockVideoMediaReceiveChannel
 channel2
 {
-cricket
-:
-:
 VideoOptions
 (
 )
@@ -1201,9 +1171,6 @@ MockVideoMediaReceiveChannel
 >
 channel3
 {
-cricket
-:
-:
 VideoOptions
 (
 )

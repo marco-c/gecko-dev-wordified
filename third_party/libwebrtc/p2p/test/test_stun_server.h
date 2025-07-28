@@ -280,9 +280,6 @@ network_thread
 void
 OnBindingRequest
 (
-cricket
-:
-:
 StunMessage
 *
 msg

@@ -1739,9 +1739,6 @@ audio
 *
 /
 false
-cricket
-:
-:
 AudioOptions
 (
 )

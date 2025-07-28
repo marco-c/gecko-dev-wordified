@@ -282,9 +282,6 @@ ssrcs
 and
 cname
 .
-cricket
-:
-:
 StreamParams
 CreateSimStreamParams
 (
@@ -330,9 +327,6 @@ number
 of
 ssrcs
 .
-cricket
-:
-:
 StreamParams
 CreateSimWithRtxStreamParams
 (
@@ -378,9 +372,6 @@ corresponding
 FlexFEC
 SSRC
 .
-cricket
-:
-:
 StreamParams
 CreatePrimaryWithFecFrStreamParams
 (

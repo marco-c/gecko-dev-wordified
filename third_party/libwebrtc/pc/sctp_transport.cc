@@ -261,9 +261,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 SctpTransportInternal
 >
 internal
@@ -1256,9 +1253,6 @@ SctpTransport
 :
 OnDtlsStateChange
 (
-cricket
-:
-:
 DtlsTransportInternal
 *
 transport

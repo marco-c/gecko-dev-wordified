@@ -5767,9 +5767,6 @@ codec_params
 insert
 (
 {
-cricket
-:
-:
 kH264FmtpSpropParameterSets
 "
 Z0IACpZTBYmI
@@ -6133,9 +6130,6 @@ codec_params
 insert
 (
 {
-cricket
-:
-:
 kH264FmtpSpsPpsIdrInKeyframe
 "
 "

@@ -1465,9 +1465,6 @@ EqualsIgnoreCase
 format
 .
 name
-cricket
-:
-:
 kVp8CodecName
 )
 &

@@ -631,14 +631,6 @@ break
 ;
 }
 }
-}
-/
-/
-namespace
-webrtc
-namespace
-cricket
-{
 /
 /
 We
@@ -885,6 +877,9 @@ SS_OPEN
 packets_
 (
 kMaxPendingPackets
+webrtc
+:
+:
 kMaxDtlsPacketLen
 )
 {
@@ -895,6 +890,9 @@ StreamInterfaceChannel
 :
 SetDtlsStunPiggybackController
 (
+webrtc
+:
+:
 DtlsStunPiggybackController
 *
 dtls_stun_piggyback_controller
@@ -1361,10 +1359,10 @@ webrtc
 SS_CLOSED
 ;
 }
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
-DtlsTransport
+DtlsTransportInternalImpl
 (
 webrtc
 :
@@ -1553,11 +1551,11 @@ false
 ;
 }
 }
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 ~
-DtlsTransport
+DtlsTransportInternalImpl
 (
 )
 {
@@ -1587,7 +1585,7 @@ webrtc
 :
 :
 DtlsTransportState
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 dtls_state
@@ -1605,7 +1603,7 @@ std
 :
 string
 &
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 transport_name
@@ -1623,7 +1621,7 @@ transport_name
 ;
 }
 int
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 component
@@ -1636,7 +1634,7 @@ component_
 ;
 }
 bool
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 IsDtlsActive
@@ -1649,7 +1647,7 @@ dtls_active_
 ;
 }
 bool
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 SetLocalCertificate
@@ -1799,7 +1797,7 @@ webrtc
 :
 RTCCertificate
 >
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 GetLocalCertificate
@@ -1812,7 +1810,7 @@ local_certificate_
 ;
 }
 bool
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 SetDtlsRole
@@ -1882,7 +1880,7 @@ true
 ;
 }
 bool
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 GetDtlsRole
@@ -1917,7 +1915,7 @@ true
 ;
 }
 bool
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 GetSslCipherSuite
@@ -1968,7 +1966,7 @@ absl
 :
 string_view
 >
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 GetTlsCipherSuiteName
@@ -2012,7 +2010,7 @@ webrtc
 :
 :
 RTCError
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 SetRemoteParameters
@@ -2194,7 +2192,7 @@ OK
 ;
 }
 bool
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 SetRemoteFingerprint
@@ -2789,7 +2787,7 @@ webrtc
 :
 SSLCertChain
 >
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 GetRemoteSSLCertChain
@@ -2817,7 +2815,7 @@ GetPeerSSLCertChain
 ;
 }
 bool
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 ExportSrtpKeyingMaterial
@@ -2848,7 +2846,7 @@ false
 ;
 }
 bool
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 SetupDtls
@@ -3248,7 +3246,7 @@ true
 ;
 }
 bool
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 GetSrtpCryptoSuite
@@ -3290,7 +3288,7 @@ cipher
 ;
 }
 bool
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 GetSslVersionBytes
@@ -3332,7 +3330,7 @@ version
 ;
 }
 uint16_t
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 GetSslPeerSignatureAlgorithm
@@ -3391,7 +3389,7 @@ media
 packet
 .
 int
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 SendPacket
@@ -3526,6 +3524,9 @@ if
 (
 flags
 &
+webrtc
+:
+:
 PF_SRTP_BYPASS
 )
 {
@@ -3767,7 +3768,7 @@ webrtc
 :
 IceTransportInternal
 *
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 ice_transport
@@ -3779,7 +3780,7 @@ ice_transport_
 ;
 }
 bool
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 IsDtlsConnected
@@ -3799,7 +3800,7 @@ IsTlsConnected
 ;
 }
 bool
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 receiving
@@ -3812,7 +3813,7 @@ receiving_
 ;
 }
 bool
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 writable
@@ -3825,7 +3826,7 @@ writable_
 ;
 }
 int
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 GetError
@@ -3851,7 +3852,7 @@ webrtc
 :
 NetworkRoute
 >
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 network_route
@@ -3869,7 +3870,7 @@ network_route
 ;
 }
 bool
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 GetOption
@@ -3899,7 +3900,7 @@ value
 ;
 }
 int
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 SetOption
@@ -3928,7 +3929,7 @@ value
 ;
 }
 void
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 ConnectToIceTransport
@@ -3949,7 +3950,7 @@ connect
 (
 this
 &
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 OnWritableState
@@ -4005,7 +4006,7 @@ connect
 (
 this
 &
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 OnSentPacket
@@ -4020,7 +4021,7 @@ connect
 (
 this
 &
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 OnReadyToSend
@@ -4035,7 +4036,7 @@ connect
 (
 this
 &
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 OnReceivingState
@@ -4050,7 +4051,7 @@ connect
 (
 this
 &
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 OnNetworkRouteChanged
@@ -4061,6 +4062,9 @@ ice_transport_
 >
 SetDtlsStunPiggybackCallbacks
 (
+webrtc
+:
+:
 DtlsStunPiggybackCallbacks
 (
 [
@@ -4189,6 +4193,9 @@ dtls_active_
 ;
 RTC_DCHECK
 (
+webrtc
+:
+:
 IsDtlsPacket
 (
 packet
@@ -4217,6 +4224,9 @@ return
 if
 (
 !
+webrtc
+:
+:
 IsDtlsPacket
 (
 packet
@@ -4356,7 +4366,7 @@ the
 impl
 again
 void
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 OnWritableState
@@ -4788,7 +4798,7 @@ break
 }
 }
 void
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 OnReceivingState
@@ -4887,7 +4897,7 @@ receiving
 }
 }
 void
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 OnReadPacket
@@ -5035,6 +5045,9 @@ started
 .
 if
 (
+webrtc
+:
+:
 IsDtlsClientHelloPacket
 (
 packet
@@ -5245,6 +5258,9 @@ packet
 ?
 if
 (
+webrtc
+:
+:
 IsDtlsPacket
 (
 packet
@@ -5493,7 +5509,7 @@ break
 }
 }
 void
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 OnSentPacket
@@ -5531,7 +5547,7 @@ sent_packet
 ;
 }
 void
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 OnReadyToSend
@@ -5569,7 +5585,7 @@ this
 }
 }
 void
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 OnDtlsEvent
@@ -5756,6 +5772,9 @@ SE_READ
 uint8_t
 buf
 [
+webrtc
+:
+:
 kMaxDtlsPacketLen
 ]
 ;
@@ -6169,7 +6188,7 @@ kFailed
 }
 }
 void
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 OnNetworkRouteChanged
@@ -6200,7 +6219,7 @@ network_route
 ;
 }
 void
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 MaybeStartDtls
@@ -6393,7 +6412,7 @@ ToString
 <
 "
 :
-DtlsTransport
+DtlsTransportInternalImpl
 :
 Started
 DTLS
@@ -6597,7 +6616,7 @@ is
 received
 .
 bool
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 HandleDtlsPacket
@@ -6659,7 +6678,7 @@ size
 ;
 }
 void
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 set_receiving
@@ -6690,7 +6709,7 @@ this
 ;
 }
 void
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 set_writable
@@ -6851,7 +6870,7 @@ this
 ;
 }
 void
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 set_dtls_state
@@ -6953,7 +6972,7 @@ state
 ;
 }
 void
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 OnDtlsHandshakeError
@@ -7001,7 +7020,7 @@ rtt_ms
 ;
 }
 void
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 ConfigureHandshakeTimeout
@@ -7228,7 +7247,7 @@ timeout
 }
 }
 void
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 SetPiggybackDtlsDataCallback
@@ -7282,7 +7301,7 @@ callback
 ;
 }
 bool
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 IsDtlsPiggybackSupportedByPeer
@@ -7312,6 +7331,9 @@ state
 )
 !
 =
+webrtc
+:
+:
 DtlsStunPiggybackController
 :
 :
@@ -7323,7 +7345,7 @@ OFF
 ;
 }
 bool
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 WasDtlsCompletedByPiggybacking
@@ -7353,6 +7375,9 @@ state
 )
 =
 =
+webrtc
+:
+:
 DtlsStunPiggybackController
 :
 :
@@ -7369,6 +7394,9 @@ state
 )
 =
 =
+webrtc
+:
+:
 DtlsStunPiggybackController
 :
 :
@@ -7432,7 +7460,7 @@ timeout
 )
 .
 void
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 PeriodicRetransmitDtlsPacketUntilDtlsConnected
@@ -7513,6 +7541,9 @@ dtls_stun_piggyback_controller_
 .
 GetDataToPiggyback
 (
+webrtc
+:
+:
 STUN_BINDING_INDICATION
 )
 ;
@@ -7699,7 +7730,7 @@ delay_ms
 ;
 }
 int
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 GetRetransmissionCount
@@ -7727,7 +7758,7 @@ GetRetransmissionCount
 ;
 }
 int
-DtlsTransport
+DtlsTransportInternalImpl
 :
 :
 GetStunDataCount
@@ -7757,4 +7788,4 @@ GetCountOfReceivedData
 /
 /
 namespace
-cricket
+webrtc

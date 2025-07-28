@@ -370,9 +370,6 @@ class
 FakeDtlsTransport
 :
 public
-cricket
-:
-:
 DtlsTransportInternal
 {
 public
@@ -380,9 +377,6 @@ public
 explicit
 FakeDtlsTransport
 (
-cricket
-:
-:
 FakeIceTransport
 *
 ice_transport
@@ -480,9 +474,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 FakeIceTransport
 >
 ice
@@ -635,9 +626,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 FakeIceTransport
 >
 (
@@ -670,9 +658,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 FakeIceTransport
 >
 (
@@ -728,9 +713,6 @@ fake
 ICE
 transport
 .
-cricket
-:
-:
 FakeIceTransport
 *
 fake_ice_transport
@@ -1109,9 +1091,6 @@ SetDestination
 (
 static_cast
 <
-cricket
-:
-:
 FakeIceTransport
 *
 >
@@ -1765,9 +1744,6 @@ if
 flags
 !
 =
-cricket
-:
-:
 PF_SRTP_BYPASS
 &
 &
@@ -1994,9 +1970,6 @@ network_route
 )
 ;
 }
-cricket
-:
-:
 FakeIceTransport
 *
 ice_transport_
@@ -2006,9 +1979,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 FakeIceTransport
 >
 owned_ice_transport_

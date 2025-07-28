@@ -1294,7 +1294,7 @@ represent
 .
 static_assert
 (
-cricket
+webrtc
 :
 :
 kMinSctpSid
@@ -1313,13 +1313,13 @@ be
 ;
 static_assert
 (
-cricket
+webrtc
 :
 :
 kMaxSctpSid
 <
 =
-cricket
+webrtc
 :
 :
 kSpecMaxSctpSid
@@ -1329,7 +1329,7 @@ kSpecMaxSctpSid
 ;
 static_assert
 (
-cricket
+webrtc
 :
 :
 kSpecMaxSctpSid

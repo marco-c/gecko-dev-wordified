@@ -525,12 +525,6 @@ h
 namespace
 {
 using
-cricket
-:
-:
-ServerAddresses
-;
-using
 :
 :
 testing
@@ -601,6 +595,14 @@ webrtc
 :
 :
 IceCandidateType
+;
+using
+:
+:
+webrtc
+:
+:
+ServerAddresses
 ;
 using
 :
@@ -878,7 +880,7 @@ const
 int
 kTimeoutMs
 =
-cricket
+webrtc
 :
 :
 STUN_TOTAL_TIMEOUT
@@ -1447,7 +1449,7 @@ get
 )
 ;
 }
-cricket
+webrtc
 :
 :
 UDPPort
@@ -1601,7 +1603,7 @@ nullptr
 {
 stun_port_
 =
-cricket
+webrtc
 :
 :
 StunPort
@@ -1885,7 +1887,7 @@ server_addr
 ;
 stun_port_
 =
-cricket
+webrtc
 :
 :
 UDPPort
@@ -2150,7 +2152,7 @@ NULL
 void
 OnPortComplete
 (
-cricket
+webrtc
 :
 :
 Port
@@ -2179,7 +2181,7 @@ false
 void
 OnPortError
 (
-cricket
+webrtc
 :
 :
 Port
@@ -2203,7 +2205,7 @@ true
 void
 OnCandidateError
 (
-cricket
+webrtc
 :
 :
 Port
@@ -2214,7 +2216,7 @@ port
 *
 /
 const
-cricket
+webrtc
 :
 :
 IceCandidateErrorEvent
@@ -2424,7 +2426,7 @@ std
 :
 unique_ptr
 <
-cricket
+webrtc
 :
 :
 UDPPort
@@ -2496,7 +2498,7 @@ stun_keepalive_lifetime_
 ;
 protected
 :
-cricket
+webrtc
 :
 :
 IceCandidateErrorEvent
@@ -2929,7 +2931,7 @@ error_code
 }
 Eq
 (
-cricket
+webrtc
 :
 :
 STUN_ERROR_SERVER_NOT_REACHABLE
@@ -3925,7 +3927,7 @@ error_code
 }
 Eq
 (
-cricket
+webrtc
 :
 :
 STUN_ERROR_SERVER_NOT_REACHABLE
@@ -5864,7 +5866,7 @@ return
 !
 HasPendingRequest
 (
-cricket
+webrtc
 :
 :
 STUN_BINDING_REQUEST
@@ -5991,7 +5993,7 @@ WaitUntil
 return
 HasPendingRequest
 (
-cricket
+webrtc
 :
 :
 STUN_BINDING_REQUEST
@@ -6821,7 +6823,7 @@ error_code
 }
 Eq
 (
-cricket
+webrtc
 :
 :
 STUN_ERROR_SERVER_NOT_REACHABLE
@@ -7173,7 +7175,7 @@ error_code
 }
 Eq
 (
-cricket
+webrtc
 :
 :
 STUN_ERROR_SERVER_NOT_REACHABLE

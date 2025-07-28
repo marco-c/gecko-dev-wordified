@@ -99,7 +99,7 @@ include
 string
 >
 namespace
-cricket
+webrtc
 {
 std
 :
@@ -305,4 +305,4 @@ unknown
 /
 /
 namespace
-cricket
+webrtc

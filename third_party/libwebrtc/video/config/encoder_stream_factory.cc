@@ -718,9 +718,6 @@ webrtc
 kVideoCodecH265
 :
 return
-cricket
-:
-:
 kDefaultVideoMaxQpH26x
 ;
 case
@@ -742,9 +739,6 @@ webrtc
 kVideoCodecGeneric
 :
 return
-cricket
-:
-:
 kDefaultVideoMaxQpVpx
 ;
 case
@@ -754,9 +748,6 @@ webrtc
 kVideoCodecAV1
 :
 return
-cricket
-:
-:
 kDefaultVideoMaxQpAv1
 ;
 }
@@ -2602,9 +2593,6 @@ simulcast_layers
 .
 max_framerate
 :
-cricket
-:
-:
 kDefaultVideoMaxFramerate
 ;
 VideoStream
@@ -3639,9 +3627,6 @@ and
 encoder
 alignment
 .
-cricket
-:
-:
 VideoAdapter
 adapter
 (

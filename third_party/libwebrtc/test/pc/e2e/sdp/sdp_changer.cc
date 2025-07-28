@@ -807,9 +807,6 @@ codec
 name
 =
 =
-cricket
-:
-:
 kRtxCodecName
 &
 &
@@ -832,9 +829,6 @@ codec
 name
 =
 =
-cricket
-:
-:
 kFlexfecCodecName
 &
 &
@@ -858,9 +852,6 @@ codec
 name
 =
 =
-cricket
-:
-:
 kRedCodecName
 |
 |
@@ -869,9 +860,6 @@ codec
 name
 =
 =
-cricket
-:
-:
 kUlpfecCodecName
 )
 &
@@ -1107,9 +1095,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 RidDescription
 >
 rids
@@ -1136,9 +1121,6 @@ rids
 emplace_back
 (
 rid
-cricket
-:
-:
 RidDirection
 :
 :
@@ -1544,9 +1526,6 @@ first_codec
 name
 =
 =
-cricket
-:
-:
 kVp8CodecName
 )
 {
@@ -1570,9 +1549,6 @@ first_codec
 name
 =
 =
-cricket
-:
-:
 kVp9CodecName
 )
 {
@@ -2238,9 +2214,6 @@ together
 ContentGroup
 bundle_group
 (
-cricket
-:
-:
 GROUP_TYPE_BUNDLE
 )
 ;
@@ -2277,9 +2250,6 @@ desc
 >
 HasGroup
 (
-cricket
-:
-:
 GROUP_TYPE_BUNDLE
 )
 )
@@ -2289,9 +2259,6 @@ desc
 >
 RemoveGroupByName
 (
-cricket
-:
-:
 GROUP_TYPE_BUNDLE
 )
 ;
@@ -2322,9 +2289,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 TransportInfo
 >
 transport_infos
@@ -2721,9 +2685,6 @@ size
 1
 )
 ;
-cricket
-:
-:
 StreamParams
 &
 stream
@@ -2958,14 +2919,8 @@ ssrc_groups
 .
 push_back
 (
-cricket
-:
-:
 SsrcGroup
 (
-cricket
-:
-:
 kSimSsrcGroupSemantics
 primary_ssrcs
 )
@@ -3141,9 +3096,6 @@ first_codec
 name
 =
 =
-cricket
-:
-:
 kVp8CodecName
 )
 {
@@ -3167,9 +3119,6 @@ first_codec
 name
 =
 =
-cricket
-:
-:
 kVp9CodecName
 )
 {
@@ -3622,9 +3571,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 RidDescription
 >
 rids
@@ -3645,9 +3591,6 @@ rids
 emplace_back
 (
 rid
-cricket
-:
-:
 RidDirection
 :
 :
@@ -3655,9 +3598,6 @@ kReceive
 )
 ;
 }
-cricket
-:
-:
 StreamParams
 stream_params
 ;
@@ -3821,9 +3761,6 @@ together
 ContentGroup
 bundle_group
 (
-cricket
-:
-:
 GROUP_TYPE_BUNDLE
 )
 ;
@@ -3860,9 +3797,6 @@ desc
 >
 HasGroup
 (
-cricket
-:
-:
 GROUP_TYPE_BUNDLE
 )
 )
@@ -3872,9 +3806,6 @@ desc
 >
 RemoveGroupByName
 (
-cricket
-:
-:
 GROUP_TYPE_BUNDLE
 )
 ;
@@ -3907,9 +3838,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 TransportInfo
 >
 transport_infos
@@ -3930,9 +3858,6 @@ std
 :
 :
 string
-cricket
-:
-:
 TransportDescription
 >
 mid_to_transport_description
@@ -4780,9 +4705,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 RidDescription
 >
 &

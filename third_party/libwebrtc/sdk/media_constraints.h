@@ -850,9 +850,6 @@ const
 MediaConstraints
 *
 constraints
-cricket
-:
-:
 AudioOptions
 *
 options

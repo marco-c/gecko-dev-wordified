@@ -687,9 +687,6 @@ codec_capability
 name
 =
 =
-cricket
-:
-:
 kVp8CodecName
 )
 vp8_codec
@@ -921,9 +918,6 @@ EXPECT_TRUE
 SetCodecPreferences
 (
 transceiver
-cricket
-:
-:
 kVp8CodecName
 )
 .
@@ -1116,9 +1110,6 @@ EXPECT_TRUE
 SetCodecPreferences
 (
 transceiver
-cricket
-:
-:
 kVp9CodecName
 )
 .
@@ -1311,9 +1302,6 @@ EXPECT_TRUE
 SetCodecPreferences
 (
 transceiver
-cricket
-:
-:
 kVp8CodecName
 )
 .
@@ -1519,9 +1507,6 @@ EXPECT_TRUE
 SetCodecPreferences
 (
 transceiver
-cricket
-:
-:
 kVp9CodecName
 )
 .
@@ -1804,9 +1789,6 @@ codec
 name
 =
 =
-cricket
-:
-:
 kVp9CodecName
 ;
 }
@@ -2048,9 +2030,6 @@ codec
 name
 =
 =
-cricket
-:
-:
 kVp8CodecName
 ;
 }

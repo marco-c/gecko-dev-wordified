@@ -1965,9 +1965,6 @@ abstraction
 .
 virtual
 const
-cricket
-:
-:
 AudioOptions
 options
 (

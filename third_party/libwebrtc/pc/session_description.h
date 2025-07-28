@@ -1199,9 +1199,6 @@ void
 AddStream
 (
 const
-cricket
-:
-:
 StreamParams
 &
 stream
@@ -1235,9 +1232,6 @@ ssrc
 {
 AddStream
 (
-cricket
-:
-:
 StreamParams
 :
 :
@@ -1257,15 +1251,9 @@ uint32_t
 fid_ssrc
 )
 {
-cricket
-:
-:
 StreamParams
 sp
 =
-cricket
-:
-:
 StreamParams
 :
 :
@@ -1611,9 +1599,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 RidDescription
 >
 &
@@ -1635,9 +1620,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 RidDescription
 >
 &
@@ -1946,9 +1928,6 @@ std
 string
 bandwidth_type_
 =
-cricket
-:
-:
 kApplicationSpecificBandwidth
 ;
 std
@@ -2000,9 +1979,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 RidDescription
 >
 receive_rids_
@@ -3815,9 +3791,6 @@ transport_infos_
 ;
 }
 const
-cricket
-:
-:
 TransportInfo
 *
 GetTransportInfoByName
@@ -3832,9 +3805,6 @@ name
 )
 const
 ;
-cricket
-:
-:
 TransportInfo
 *
 GetTransportInfoByName
@@ -3849,9 +3819,6 @@ name
 )
 ;
 const
-cricket
-:
-:
 TransportDescription
 *
 GetTransportDescriptionByName
@@ -3867,9 +3834,6 @@ name
 const
 {
 const
-cricket
-:
-:
 TransportInfo
 *
 tinfo
@@ -3926,9 +3890,6 @@ void
 AddTransportInfo
 (
 const
-cricket
-:
-:
 TransportInfo
 &
 transport_info

@@ -391,9 +391,6 @@ params
 .
 find
 (
-cricket
-:
-:
 kCodecParamAssociatedPayloadType
 )
 ;

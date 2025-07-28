@@ -332,9 +332,6 @@ params
 .
 find
 (
-cricket
-:
-:
 kAv1FmtpProfile
 )
 ;

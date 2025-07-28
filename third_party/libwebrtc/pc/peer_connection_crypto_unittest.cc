@@ -780,9 +780,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 FakePortAllocator
 >
 (
@@ -1019,9 +1016,6 @@ return
 wrapper
 ;
 }
-cricket
-:
-:
 ConnectionRole
 &
 AudioConnectionRole
@@ -1042,9 +1036,6 @@ desc
 )
 ;
 }
-cricket
-:
-:
 ConnectionRole
 &
 VideoConnectionRole
@@ -1065,9 +1056,6 @@ desc
 )
 ;
 }
-cricket
-:
-:
 ConnectionRole
 &
 ConnectionRoleFromContent
@@ -1157,9 +1145,6 @@ ContentInfo
 *
 content
 const
-cricket
-:
-:
 TransportInfo
 *
 transport
@@ -1275,9 +1260,6 @@ return
 ContentInfo
 *
 content
-cricket
-:
-:
 TransportInfo
 *
 transport
@@ -3014,9 +2996,6 @@ description
 )
 )
 =
-cricket
-:
-:
 CONNECTIONROLE_ACTIVE
 ;
 VideoConnectionRole
@@ -3029,9 +3008,6 @@ description
 )
 )
 =
-cricket
-:
-:
 CONNECTIONROLE_PASSIVE
 ;
 ASSERT_TRUE
@@ -3124,9 +3100,6 @@ options_no_bundle
 ;
 EXPECT_EQ
 (
-cricket
-:
-:
 CONNECTIONROLE_PASSIVE
 AudioConnectionRole
 (
@@ -3141,9 +3114,6 @@ description
 ;
 EXPECT_EQ
 (
-cricket
-:
-:
 CONNECTIONROLE_ACTIVE
 VideoConnectionRole
 (
@@ -3266,9 +3236,6 @@ options_bundle
 ;
 EXPECT_EQ
 (
-cricket
-:
-:
 CONNECTIONROLE_PASSIVE
 AudioConnectionRole
 (
@@ -3283,9 +3250,6 @@ description
 ;
 EXPECT_EQ
 (
-cricket
-:
-:
 CONNECTIONROLE_PASSIVE
 VideoConnectionRole
 (

@@ -94,7 +94,7 @@ dtls_transport_internal
 h
 "
 namespace
-cricket
+webrtc
 {
 DtlsTransportInternal
 :
@@ -119,4 +119,4 @@ default
 /
 /
 namespace
-cricket
+webrtc

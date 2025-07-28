@@ -201,7 +201,7 @@ unit
 tests
 to
 avoid
-dependecy
+dependency
 on
 a
 specific
@@ -260,9 +260,6 @@ override
 ;
 MOCK_METHOD
 (
-cricket
-:
-:
 MediaSendChannelInterface
 *
 media_send_channel
@@ -275,9 +272,6 @@ override
 ;
 MOCK_METHOD
 (
-cricket
-:
-:
 VoiceMediaSendChannelInterface
 *
 voice_media_send_channel
@@ -290,9 +284,6 @@ override
 ;
 MOCK_METHOD
 (
-cricket
-:
-:
 VideoMediaSendChannelInterface
 *
 video_media_send_channel
@@ -305,9 +296,6 @@ override
 ;
 MOCK_METHOD
 (
-cricket
-:
-:
 MediaReceiveChannelInterface
 *
 media_receive_channel
@@ -320,9 +308,6 @@ override
 ;
 MOCK_METHOD
 (
-cricket
-:
-:
 VoiceMediaReceiveChannelInterface
 *
 voice_media_receive_channel
@@ -335,9 +320,6 @@ override
 ;
 MOCK_METHOD
 (
-cricket
-:
-:
 VideoMediaReceiveChannelInterface
 *
 video_media_receive_channel

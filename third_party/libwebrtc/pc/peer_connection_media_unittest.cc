@@ -553,12 +553,6 @@ namespace
 webrtc
 {
 using
-cricket
-:
-:
-FakeMediaEngine
-;
-using
 RTCConfiguration
 =
 PeerConnectionInterface
@@ -687,9 +681,6 @@ return
 transceiver_internal
 ;
 }
-cricket
-:
-:
 MediaSendChannelInterface
 *
 SendChannelInternal
@@ -726,9 +717,6 @@ media_send_channel
 )
 ;
 }
-cricket
-:
-:
 MediaReceiveChannelInterface
 *
 ReceiveChannelInternal
@@ -765,9 +753,6 @@ media_receive_channel
 )
 ;
 }
-cricket
-:
-:
 FakeVideoMediaSendChannel
 *
 VideoMediaSendChannel
@@ -785,9 +770,6 @@ transceiver
 return
 static_cast
 <
-cricket
-:
-:
 FakeVideoMediaSendChannel
 *
 >
@@ -799,9 +781,6 @@ transceiver
 )
 ;
 }
-cricket
-:
-:
 FakeVideoMediaReceiveChannel
 *
 VideoMediaReceiveChannel
@@ -819,9 +798,6 @@ transceiver
 return
 static_cast
 <
-cricket
-:
-:
 FakeVideoMediaReceiveChannel
 *
 >
@@ -833,9 +809,6 @@ transceiver
 )
 ;
 }
-cricket
-:
-:
 FakeVoiceMediaSendChannel
 *
 VoiceMediaSendChannel
@@ -853,9 +826,6 @@ transceiver
 return
 static_cast
 <
-cricket
-:
-:
 FakeVoiceMediaSendChannel
 *
 >
@@ -867,9 +837,6 @@ transceiver
 )
 ;
 }
-cricket
-:
-:
 FakeVoiceMediaReceiveChannel
 *
 VoiceMediaReceiveChannel
@@ -887,9 +854,6 @@ transceiver
 return
 static_cast
 <
-cricket
-:
-:
 FakeVoiceMediaReceiveChannel
 *
 >
@@ -1203,9 +1167,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 FakePortAllocator
 >
 (
@@ -1792,9 +1753,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 StreamParams
 >
 &
@@ -4290,9 +4248,6 @@ push_back
 CreateVideoCodec
 (
 111
-cricket
-:
-:
 kVp8CodecName
 )
 )
@@ -4315,9 +4270,6 @@ push_back
 CreateVideoCodec
 (
 113
-cricket
-:
-:
 kVp9CodecName
 )
 )
@@ -4329,9 +4281,6 @@ push_back
 CreateVideoCodec
 (
 114
-cricket
-:
-:
 kH264CodecName
 )
 )
@@ -4482,9 +4431,6 @@ push_back
 CreateVideoCodec
 (
 111
-cricket
-:
-:
 kVp8CodecName
 )
 )
@@ -4507,9 +4453,6 @@ push_back
 CreateVideoCodec
 (
 113
-cricket
-:
-:
 kVp9CodecName
 )
 )
@@ -4521,9 +4464,6 @@ push_back
 CreateVideoCodec
 (
 114
-cricket
-:
-:
 kH264CodecName
 )
 )
@@ -4660,9 +4600,6 @@ EXPECT_EQ
 codec
 .
 packetization
-cricket
-:
-:
 kPacketizationParamRaw
 )
 ;
@@ -4753,9 +4690,6 @@ EXPECT_EQ
 codec
 .
 packetization
-cricket
-:
-:
 kPacketizationParamRaw
 )
 ;
@@ -4828,9 +4762,6 @@ push_back
 CreateVideoCodec
 (
 111
-cricket
-:
-:
 kVp8CodecName
 )
 )
@@ -4853,9 +4784,6 @@ push_back
 CreateVideoCodec
 (
 113
-cricket
-:
-:
 kVp9CodecName
 )
 )
@@ -4867,9 +4795,6 @@ push_back
 CreateVideoCodec
 (
 114
-cricket
-:
-:
 kH264CodecName
 )
 )
@@ -6513,9 +6438,6 @@ VIDEO
 void
 AddComfortNoiseCodecsToSend
 (
-cricket
-:
-:
 FakeMediaEngine
 *
 media_engine
@@ -6528,9 +6450,6 @@ kComfortNoiseCodec8k
 CreateAudioCodec
 (
 102
-cricket
-:
-:
 kCnCodecName
 8000
 1
@@ -6543,9 +6462,6 @@ kComfortNoiseCodec16k
 CreateAudioCodec
 (
 103
-cricket
-:
-:
 kCnCodecName
 16000
 1
@@ -6629,9 +6545,6 @@ codec
 name
 =
 =
-cricket
-:
-:
 kCnCodecName
 )
 {
@@ -8306,9 +8219,6 @@ desc
 >
 GetGroupByName
 (
-cricket
-:
-:
 GROUP_TYPE_BUNDLE
 )
 ;
@@ -8331,9 +8241,6 @@ desc
 >
 RemoveGroupByName
 (
-cricket
-:
-:
 GROUP_TYPE_BUNDLE
 )
 ;
@@ -9011,9 +8918,6 @@ push_back
 CreateAudioCodec
 (
 121
-cricket
-:
-:
 kRedCodecName
 0
 1
@@ -9028,9 +8932,6 @@ back
 .
 SetParam
 (
-cricket
-:
-:
 kCodecParamNotInNameValueFormat
 "
 120
@@ -9262,9 +9163,6 @@ codec
 name
 =
 =
-cricket
-:
-:
 kRedCodecName
 )
 {
@@ -9350,9 +9248,6 @@ push_back
 CreateAudioCodec
 (
 101
-cricket
-:
-:
 kRedCodecName
 0
 1
@@ -9425,9 +9320,6 @@ push_back
 CreateAudioCodec
 (
 121
-cricket
-:
-:
 kRedCodecName
 0
 1
@@ -9659,9 +9551,6 @@ codec
 name
 =
 =
-cricket
-:
-:
 kRedCodecName
 )
 {
@@ -9727,9 +9616,6 @@ push_back
 CreateAudioCodec
 (
 101
-cricket
-:
-:
 kRedCodecName
 0
 1
@@ -9802,9 +9688,6 @@ push_back
 CreateAudioCodec
 (
 121
-cricket
-:
-:
 kRedCodecName
 0
 1
@@ -9819,9 +9702,6 @@ back
 .
 SetParam
 (
-cricket
-:
-:
 kCodecParamNotInNameValueFormat
 "
 120
@@ -10061,9 +9941,6 @@ codec
 name
 =
 =
-cricket
-:
-:
 kRedCodecName
 )
 {
@@ -10079,9 +9956,6 @@ codec
 .
 GetParam
 (
-cricket
-:
-:
 kCodecParamNotInNameValueFormat
 &
 fmtp
@@ -10150,9 +10024,6 @@ push_back
 CreateAudioCodec
 (
 101
-cricket
-:
-:
 kRedCodecName
 0
 1
@@ -10167,9 +10038,6 @@ back
 .
 SetParam
 (
-cricket
-:
-:
 kCodecParamNotInNameValueFormat
 "
 100
@@ -10244,9 +10112,6 @@ push_back
 CreateAudioCodec
 (
 121
-cricket
-:
-:
 kRedCodecName
 0
 1
@@ -10276,9 +10141,6 @@ back
 .
 SetParam
 (
-cricket
-:
-:
 kCodecParamNotInNameValueFormat
 "
 122
@@ -10489,9 +10351,6 @@ push_back
 CreateAudioCodec
 (
 101
-cricket
-:
-:
 kRedCodecName
 0
 1
@@ -10506,9 +10365,6 @@ back
 .
 SetParam
 (
-cricket
-:
-:
 kCodecParamNotInNameValueFormat
 "
 100
@@ -10583,9 +10439,6 @@ push_back
 CreateAudioCodec
 (
 121
-cricket
-:
-:
 kRedCodecName
 0
 1
@@ -10600,9 +10453,6 @@ back
 .
 SetParam
 (
-cricket
-:
-:
 kCodecParamNotInNameValueFormat
 "
 120
@@ -10787,9 +10637,6 @@ push_back
 CreateAudioCodec
 (
 101
-cricket
-:
-:
 kRedCodecName
 0
 1
@@ -10804,9 +10651,6 @@ back
 .
 SetParam
 (
-cricket
-:
-:
 kCodecParamNotInNameValueFormat
 "
 100
@@ -10881,9 +10725,6 @@ push_back
 CreateAudioCodec
 (
 121
-cricket
-:
-:
 kRedCodecName
 0
 1
@@ -10898,9 +10739,6 @@ back
 .
 SetParam
 (
-cricket
-:
-:
 kCodecParamNotInNameValueFormat
 "
 120
@@ -11140,9 +10978,6 @@ codec
 name
 =
 =
-cricket
-:
-:
 kRedCodecName
 )
 {
@@ -11158,9 +10993,6 @@ codec
 .
 GetParam
 (
-cricket
-:
-:
 kCodecParamNotInNameValueFormat
 &
 fmtp
@@ -11234,9 +11066,6 @@ codec
 name
 =
 =
-cricket
-:
-:
 kRtxCodecName
 ;
 }
@@ -11266,9 +11095,6 @@ codec
 name
 =
 =
-cricket
-:
-:
 kRtxCodecName
 ;
 }
@@ -11311,9 +11137,6 @@ codec
 name
 !
 =
-cricket
-:
-:
 kRtxCodecName
 ;
 }
@@ -11356,9 +11179,6 @@ codec
 name
 !
 =
-cricket
-:
-:
 kRtxCodecName
 ;
 }
@@ -11824,9 +11644,6 @@ back
 id
 +
 1
-cricket
-:
-:
 kRedCodecName
 0
 1
@@ -11848,9 +11665,6 @@ back
 id
 +
 1
-cricket
-:
-:
 kUlpfecCodecName
 0
 1
@@ -11965,9 +11779,6 @@ codec
 name
 =
 =
-cricket
-:
-:
 kRtxCodecName
 |
 |
@@ -11976,9 +11787,6 @@ codec
 name
 =
 =
-cricket
-:
-:
 kRedCodecName
 |
 |
@@ -11987,9 +11795,6 @@ codec
 name
 =
 =
-cricket
-:
-:
 kUlpfecCodecName
 )
 ;
@@ -12509,9 +12314,6 @@ back
 id
 +
 1
-cricket
-:
-:
 kRedCodecName
 )
 )
@@ -12531,9 +12333,6 @@ back
 id
 +
 1
-cricket
-:
-:
 kUlpfecCodecName
 )
 )
@@ -12643,9 +12442,6 @@ codec
 name
 =
 =
-cricket
-:
-:
 kRtxCodecName
 |
 |
@@ -12654,9 +12450,6 @@ codec
 name
 =
 =
-cricket
-:
-:
 kRedCodecName
 |
 |
@@ -12665,9 +12458,6 @@ codec
 name
 =
 =
-cricket
-:
-:
 kUlpfecCodecName
 )
 ;
@@ -13201,9 +12991,6 @@ back
 id
 +
 1
-cricket
-:
-:
 kVp8CodecName
 )
 )
@@ -13248,9 +13035,6 @@ back
 id
 +
 1
-cricket
-:
-:
 kVp9CodecName
 )
 )
@@ -13392,9 +13176,6 @@ codec
 name
 !
 =
-cricket
-:
-:
 kRtxCodecName
 &
 &
@@ -13403,9 +13184,6 @@ codec
 name
 !
 =
-cricket
-:
-:
 kVp8CodecName
 &
 &
@@ -13414,9 +13192,6 @@ codec
 name
 !
 =
-cricket
-:
-:
 kVp9CodecName
 ;
 }
@@ -13577,9 +13352,6 @@ back
 id
 +
 1
-cricket
-:
-:
 kVp8CodecName
 )
 )
@@ -13624,9 +13396,6 @@ back
 id
 +
 1
-cricket
-:
-:
 kVp9CodecName
 )
 )
@@ -13794,9 +13563,6 @@ codec
 name
 !
 =
-cricket
-:
-:
 kVp8CodecName
 &
 &
@@ -13805,9 +13571,6 @@ codec
 name
 !
 =
-cricket
-:
-:
 kVp9CodecName
 ;
 }
@@ -13986,9 +13749,6 @@ codec
 name
 !
 =
-cricket
-:
-:
 kVp8CodecName
 &
 &
@@ -13997,9 +13757,6 @@ codec
 name
 !
 =
-cricket
-:
-:
 kRtxCodecName
 ;
 return
@@ -14141,9 +13898,6 @@ back
 id
 +
 1
-cricket
-:
-:
 kVp8CodecName
 )
 )
@@ -14188,9 +13942,6 @@ back
 id
 +
 1
-cricket
-:
-:
 kVp9CodecName
 )
 )
@@ -14358,9 +14109,6 @@ codec
 name
 !
 =
-cricket
-:
-:
 kVp8CodecName
 &
 &
@@ -14369,9 +14117,6 @@ codec
 name
 !
 =
-cricket
-:
-:
 kVp9CodecName
 ;
 }
@@ -14800,9 +14545,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 FakeMediaEngine
 >
 (
@@ -15157,9 +14899,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 FakeMediaEngine
 >
 (
@@ -15529,9 +15268,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 FakeMediaEngine
 >
 (
@@ -15910,9 +15646,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 FakeMediaEngine
 >
 (
@@ -16156,9 +15889,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 FakeMediaEngine
 >
 (
@@ -16204,9 +15934,6 @@ emplace_back
 CreateVideoCodec
 (
 102
-cricket
-:
-:
 kRedCodecName
 )
 )
@@ -16353,9 +16080,6 @@ codec
 name
 =
 =
-cricket
-:
-:
 kRtxCodecName
 ;
 }
@@ -16486,9 +16210,6 @@ codecs
 ]
 .
 name
-cricket
-:
-:
 kRedCodecName
 )
 ;

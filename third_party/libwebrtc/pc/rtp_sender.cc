@@ -1402,9 +1402,6 @@ RtpSenderBase
 :
 SetMediaChannel
 (
-cricket
-:
-:
 MediaSendChannelInterface
 *
 media_channel
@@ -1734,9 +1731,6 @@ ssrc_
 auto
 result
 =
-cricket
-:
-:
 CheckRtpParametersInvalidModificationAndValues
 (
 init_parameters_
@@ -1854,9 +1848,6 @@ encodings
 RTCError
 result
 =
-cricket
-:
-:
 CheckRtpParametersInvalidModificationAndValues
 (
 old_parameters
@@ -2023,9 +2014,6 @@ ssrc_
 auto
 result
 =
-cricket
-:
-:
 CheckRtpParametersInvalidModificationAndValues
 (
 init_parameters_
@@ -2368,9 +2356,6 @@ codec_match
 }
 }
 return
-cricket
-:
-:
 CheckScalabilityModeValues
 (
 parameters
@@ -4140,9 +4125,6 @@ LocalAudioSinkAdapter
 :
 SetSink
 (
-cricket
-:
-:
 AudioSource
 :
 :
@@ -4903,9 +4885,6 @@ exists
 return
 ;
 }
-cricket
-:
-:
 AudioOptions
 options
 ;
@@ -5180,9 +5159,6 @@ exists
 return
 ;
 }
-cricket
-:
-:
 AudioOptions
 options
 ;
@@ -5726,9 +5702,6 @@ exists
 return
 ;
 }
-cricket
-:
-:
 VideoOptions
 options
 ;

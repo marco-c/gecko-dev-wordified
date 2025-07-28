@@ -390,9 +390,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 MediaEngineInterface
 >
 CreateMediaEngine

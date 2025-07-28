@@ -115,7 +115,7 @@ gtest
 h
 "
 namespace
-cricket
+webrtc
 {
 TEST
 (
@@ -652,4 +652,4 @@ format2
 /
 /
 namespace
-cricket
+webrtc

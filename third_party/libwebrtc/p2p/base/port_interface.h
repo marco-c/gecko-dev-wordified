@@ -255,7 +255,7 @@ PacketOptions
 namespace
 rtc
 namespace
-cricket
+webrtc
 {
 class
 Connection
@@ -269,14 +269,6 @@ StunMessage
 class
 StunStats
 ;
-}
-/
-/
-namespace
-cricket
-namespace
-webrtc
-{
 enum
 ProtocolType
 {
@@ -385,9 +377,6 @@ virtual
 void
 SetIceRole
 (
-cricket
-:
-:
 IceRole
 role
 )
@@ -395,9 +384,6 @@ role
 0
 ;
 virtual
-cricket
-:
-:
 IceRole
 GetIceRole
 (
@@ -534,9 +520,6 @@ none
 exists
 .
 virtual
-cricket
-:
-:
 Connection
 *
 GetConnection
@@ -569,9 +552,6 @@ ORIGIN_MESSAGE
 }
 ;
 virtual
-cricket
-:
-:
 Connection
 *
 CreateConnection
@@ -769,9 +749,6 @@ const
 SocketAddress
 &
 ProtocolType
-cricket
-:
-:
 IceMessage
 *
 const
@@ -819,9 +796,6 @@ virtual
 void
 SendBindingErrorResponse
 (
-cricket
-:
-:
 StunMessage
 *
 message
@@ -1024,9 +998,6 @@ std
 :
 optional
 <
-cricket
-:
-:
 StunStats
 >
 *
@@ -1092,9 +1063,6 @@ virtual
 void
 DestroyConnection
 (
-cricket
-:
-:
 Connection
 *
 conn
@@ -1106,9 +1074,6 @@ virtual
 void
 DestroyConnectionAsync
 (
-cricket
-:
-:
 Connection
 *
 conn
@@ -1373,9 +1338,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 IceMessage
 >
 *
@@ -1416,9 +1378,6 @@ bool
 ParseStunUsername
 (
 const
-cricket
-:
-:
 StunMessage
 *
 stun_msg
@@ -1464,9 +1423,6 @@ const
 SocketAddress
 &
 addr
-cricket
-:
-:
 IceMessage
 *
 stun_msg
@@ -1510,9 +1466,6 @@ public
 .
 friend
 class
-cricket
-:
-:
 Connection
 ;
 }

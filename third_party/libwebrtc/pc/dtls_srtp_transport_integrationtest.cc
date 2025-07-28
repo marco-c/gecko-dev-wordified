@@ -443,7 +443,7 @@ client_ice_transport_
 (
 MakeIceTransport
 (
-cricket
+webrtc
 :
 :
 ICEROLE_CONTROLLING
@@ -453,7 +453,7 @@ server_ice_transport_
 (
 MakeIceTransport
 (
-cricket
+webrtc
 :
 :
 ICEROLE_CONTROLLED
@@ -631,14 +631,14 @@ std
 :
 unique_ptr
 <
-cricket
+webrtc
 :
 :
 FakeIceTransport
 >
 MakeIceTransport
 (
-cricket
+webrtc
 :
 :
 IceRole
@@ -653,7 +653,7 @@ std
 :
 make_unique
 <
-cricket
+webrtc
 :
 :
 FakeIceTransport
@@ -719,7 +719,7 @@ DtlsTransport
 >
 MakeDtlsTransport
 (
-cricket
+webrtc
 :
 :
 FakeIceTransport
@@ -1612,7 +1612,7 @@ std
 :
 unique_ptr
 <
-cricket
+webrtc
 :
 :
 FakeIceTransport
@@ -1624,7 +1624,7 @@ std
 :
 unique_ptr
 <
-cricket
+webrtc
 :
 :
 FakeIceTransport

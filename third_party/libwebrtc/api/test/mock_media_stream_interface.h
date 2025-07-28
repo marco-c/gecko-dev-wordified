@@ -312,9 +312,6 @@ override
 MOCK_METHOD
 (
 const
-cricket
-:
-:
 AudioOptions
 options
 (

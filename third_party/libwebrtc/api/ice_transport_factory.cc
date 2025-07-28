@@ -387,9 +387,6 @@ make_ref_counted
 IceTransportWithTransportChannel
 >
 (
-cricket
-:
-:
 P2PTransportChannel
 :
 :
@@ -397,9 +394,6 @@ Create
 (
 "
 "
-cricket
-:
-:
 ICE_CANDIDATE_COMPONENT_RTP
 std
 :

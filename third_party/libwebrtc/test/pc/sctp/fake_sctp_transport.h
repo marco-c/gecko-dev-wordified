@@ -235,7 +235,7 @@ class
 FakeSctpTransport
 :
 public
-cricket
+webrtc
 :
 :
 SctpTransportInternal
@@ -275,7 +275,7 @@ override
 void
 SetDtlsTransport
 (
-cricket
+webrtc
 :
 :
 DtlsTransportInternal
@@ -574,7 +574,7 @@ std
 :
 unique_ptr
 <
-cricket
+webrtc
 :
 :
 SctpTransportInternal
@@ -588,7 +588,7 @@ webrtc
 Environment
 &
 env
-cricket
+webrtc
 :
 :
 DtlsTransportInternal
@@ -609,7 +609,7 @@ std
 :
 unique_ptr
 <
-cricket
+webrtc
 :
 :
 SctpTransportInternal

@@ -303,9 +303,6 @@ std
 :
 optional
 <
-cricket
-:
-:
 VoiceMediaInfo
 >
 voice_media_info
@@ -314,9 +311,6 @@ std
 :
 optional
 <
-cricket
-:
-:
 VideoMediaInfo
 >
 video_media_info
@@ -356,9 +350,6 @@ std
 :
 optional
 <
-cricket
-:
-:
 VoiceMediaInfo
 >
 &
@@ -382,9 +373,6 @@ std
 :
 optional
 <
-cricket
-:
-:
 VideoMediaInfo
 >
 &
@@ -403,9 +391,6 @@ video_media_info_
 ;
 }
 const
-cricket
-:
-:
 VoiceSenderInfo
 *
 GetVoiceSenderInfoBySsrc
@@ -416,9 +401,6 @@ ssrc
 const
 ;
 const
-cricket
-:
-:
 VoiceReceiverInfo
 *
 GetVoiceReceiverInfoBySsrc
@@ -429,9 +411,6 @@ ssrc
 const
 ;
 const
-cricket
-:
-:
 VideoSenderInfo
 *
 GetVideoSenderInfoBySsrc
@@ -442,9 +421,6 @@ ssrc
 const
 ;
 const
-cricket
-:
-:
 VideoReceiverInfo
 *
 GetVideoReceiverInfoBySsrc
@@ -464,9 +440,6 @@ AudioTrackInterface
 GetAudioTrack
 (
 const
-cricket
-:
-:
 VoiceSenderInfo
 &
 voice_sender_info
@@ -483,9 +456,6 @@ AudioTrackInterface
 GetAudioTrack
 (
 const
-cricket
-:
-:
 VoiceReceiverInfo
 &
 voice_receiver_info
@@ -502,9 +472,6 @@ VideoTrackInterface
 GetVideoTrack
 (
 const
-cricket
-:
-:
 VideoSenderInfo
 &
 video_sender_info
@@ -521,9 +488,6 @@ VideoTrackInterface
 GetVideoTrack
 (
 const
-cricket
-:
-:
 VideoReceiverInfo
 &
 video_receiver_info
@@ -617,9 +581,6 @@ std
 :
 optional
 <
-cricket
-:
-:
 VoiceMediaInfo
 >
 voice_media_info_
@@ -629,9 +590,6 @@ std
 :
 optional
 <
-cricket
-:
-:
 VideoMediaInfo
 >
 video_media_info_
@@ -693,9 +651,6 @@ std
 map
 <
 const
-cricket
-:
-:
 VoiceSenderInfo
 *
 rtc
@@ -714,9 +669,6 @@ std
 map
 <
 const
-cricket
-:
-:
 VoiceReceiverInfo
 *
 rtc
@@ -735,9 +687,6 @@ std
 map
 <
 const
-cricket
-:
-:
 VideoSenderInfo
 *
 rtc
@@ -756,9 +705,6 @@ std
 map
 <
 const
-cricket
-:
-:
 VideoReceiverInfo
 *
 rtc
@@ -861,9 +807,6 @@ std
 map
 <
 uint32_t
-cricket
-:
-:
 VoiceSenderInfo
 *
 >
@@ -875,9 +818,6 @@ std
 map
 <
 uint32_t
-cricket
-:
-:
 VoiceReceiverInfo
 *
 >
@@ -889,9 +829,6 @@ std
 map
 <
 uint32_t
-cricket
-:
-:
 VideoSenderInfo
 *
 >
@@ -903,9 +840,6 @@ std
 map
 <
 uint32_t
-cricket
-:
-:
 VideoReceiverInfo
 *
 >

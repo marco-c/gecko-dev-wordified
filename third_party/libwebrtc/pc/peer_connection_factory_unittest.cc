@@ -1381,9 +1381,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 FakePortAllocator
 >
 (
@@ -2047,9 +2044,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 FakePortAllocator
 >
 port_allocator_
@@ -2082,9 +2076,6 @@ to
 be
 safe
 .
-cricket
-:
-:
 FakePortAllocator
 *
 raw_port_allocator_
@@ -2774,9 +2765,6 @@ c
 name
 =
 =
-cricket
-:
-:
 kRtxCodecName
 ;
 }
@@ -2865,9 +2853,6 @@ c
 name
 =
 =
-cricket
-:
-:
 kRtxCodecName
 ;
 }
@@ -3172,9 +3157,6 @@ c
 name
 =
 =
-cricket
-:
-:
 kRtxCodecName
 ;
 }
@@ -3263,9 +3245,6 @@ c
 name
 =
 =
-cricket
-:
-:
 kRtxCodecName
 ;
 }

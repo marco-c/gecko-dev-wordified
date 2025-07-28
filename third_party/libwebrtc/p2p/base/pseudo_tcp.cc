@@ -252,7 +252,7 @@ define
 _DEBUGMSG
 _DBG_NONE
 namespace
-cricket
+webrtc
 {
 /
 /
@@ -9078,9 +9078,6 @@ queueConnectMessage
 (
 )
 {
-webrtc
-:
-:
 ByteBufferWriter
 buf
 ;
@@ -9215,9 +9212,6 @@ the
 options
 list
 .
-webrtc
-:
-:
 ByteBufferReader
 buf
 (
@@ -9858,9 +9852,6 @@ GetBuffered
 )
 const
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -9885,9 +9876,6 @@ size_t
 size
 )
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -10010,9 +9998,6 @@ size_t
 bytes_read
 )
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -10052,9 +10037,6 @@ size_t
 bytes_written
 )
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -10091,9 +10073,6 @@ size_t
 bytes_read
 )
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -10188,9 +10167,6 @@ size_t
 bytes_written
 )
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -10265,9 +10241,6 @@ size_t
 size
 )
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -10312,9 +10285,6 @@ size_t
 size
 )
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -10353,9 +10323,6 @@ size
 )
 const
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -10651,4 +10618,4 @@ true
 /
 /
 namespace
-cricket
+webrtc

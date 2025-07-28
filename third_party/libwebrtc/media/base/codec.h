@@ -275,9 +275,6 @@ id
 )
 param_
 (
-cricket
-:
-:
 kParamValueEmpty
 )
 {

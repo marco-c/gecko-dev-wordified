@@ -6209,15 +6209,9 @@ a
 STUN
 BINDING
 .
-cricket
-:
-:
 StunMessage
 ping
 (
-cricket
-:
-:
 STUN_BINDING_REQUEST
 )
 ;

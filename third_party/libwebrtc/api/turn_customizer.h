@@ -159,9 +159,6 @@ MaybeModifyOutgoingStunMessage
 PortInterface
 *
 port
-cricket
-:
-:
 StunMessage
 *
 message

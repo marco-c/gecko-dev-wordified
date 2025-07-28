@@ -900,9 +900,6 @@ std
 :
 optional
 <
-cricket
-:
-:
 VoiceMediaInfo
 >
 voice_media_info
@@ -911,9 +908,6 @@ std
 :
 optional
 <
-cricket
-:
-:
 VideoMediaInfo
 >
 video_media_info
@@ -1753,9 +1747,6 @@ receiver_info
 }
 }
 const
-cricket
-:
-:
 VoiceSenderInfo
 *
 TrackMediaInfoMap
@@ -1782,9 +1773,6 @@ ssrc
 ;
 }
 const
-cricket
-:
-:
 VoiceReceiverInfo
 *
 TrackMediaInfoMap
@@ -1811,9 +1799,6 @@ ssrc
 ;
 }
 const
-cricket
-:
-:
 VideoSenderInfo
 *
 TrackMediaInfoMap
@@ -1840,9 +1825,6 @@ ssrc
 ;
 }
 const
-cricket
-:
-:
 VideoReceiverInfo
 *
 TrackMediaInfoMap
@@ -1881,9 +1863,6 @@ TrackMediaInfoMap
 GetAudioTrack
 (
 const
-cricket
-:
-:
 VoiceSenderInfo
 &
 voice_sender_info
@@ -1917,9 +1896,6 @@ TrackMediaInfoMap
 GetAudioTrack
 (
 const
-cricket
-:
-:
 VoiceReceiverInfo
 &
 voice_receiver_info
@@ -1953,9 +1929,6 @@ TrackMediaInfoMap
 GetVideoTrack
 (
 const
-cricket
-:
-:
 VideoSenderInfo
 &
 video_sender_info
@@ -1989,9 +1962,6 @@ TrackMediaInfoMap
 GetVideoTrack
 (
 const
-cricket
-:
-:
 VideoReceiverInfo
 &
 video_receiver_info

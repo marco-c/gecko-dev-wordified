@@ -977,9 +977,6 @@ MediaStreamTrackInterface
 kAudioKind
 )
 {
-cricket
-:
-:
 VoiceSenderInfo
 voice_sender_info
 ;
@@ -1002,9 +999,6 @@ local_stats
 .
 push_back
 (
-cricket
-:
-:
 SsrcSenderInfo
 (
 )
@@ -1036,9 +1030,6 @@ voice_sender_info
 }
 else
 {
-cricket
-:
-:
 VideoSenderInfo
 video_sender_info
 ;
@@ -1061,9 +1052,6 @@ local_stats
 .
 push_back
 (
-cricket
-:
-:
 SsrcSenderInfo
 (
 )
@@ -1188,9 +1176,6 @@ MediaStreamTrackInterface
 kAudioKind
 )
 {
-cricket
-:
-:
 VoiceReceiverInfo
 voice_receiver_info
 ;
@@ -1213,9 +1198,6 @@ local_stats
 .
 push_back
 (
-cricket
-:
-:
 SsrcReceiverInfo
 (
 )
@@ -1247,9 +1229,6 @@ voice_receiver_info
 }
 else
 {
-cricket
-:
-:
 VideoReceiverInfo
 video_receiver_info
 ;
@@ -1272,9 +1251,6 @@ local_stats
 .
 push_back
 (
-cricket
-:
-:
 SsrcReceiverInfo
 (
 )
@@ -1342,15 +1318,9 @@ private
 AutoThread
 main_thread_
 ;
-cricket
-:
-:
 VoiceMediaInfo
 voice_media_info_
 ;
-cricket
-:
-:
 VideoMediaInfo
 video_media_info_
 ;

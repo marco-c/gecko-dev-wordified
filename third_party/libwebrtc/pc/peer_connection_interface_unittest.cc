@@ -5800,14 +5800,6 @@ true
 using
 :
 :
-cricket
-:
-:
-StreamParams
-;
-using
-:
-:
 testing
 :
 :
@@ -6157,9 +6149,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 StreamParams
 >
 &
@@ -7683,9 +7672,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 FakePortAllocator
 >
 (
@@ -11692,9 +11678,6 @@ FakeAudioCaptureModule
 >
 fake_audio_capture_module_
 ;
-cricket
-:
-:
 FakePortAllocator
 *
 port_allocator_
@@ -12148,9 +12131,6 @@ config
 )
 ;
 const
-cricket
-:
-:
 FakePortAllocatorSession
 *
 session
@@ -12158,9 +12138,6 @@ session
 static_cast
 <
 const
-cricket
-:
-:
 FakePortAllocatorSession
 *
 >
@@ -12307,9 +12284,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 FakePortAllocator
 >
 (
@@ -12321,9 +12295,6 @@ socket_server
 )
 )
 ;
-cricket
-:
-:
 FakePortAllocator
 *
 raw_port_allocator
@@ -17639,9 +17610,6 @@ config
 .
 id
 =
-cricket
-:
-:
 kMaxSctpSid
 ;
 config
@@ -17694,9 +17662,6 @@ config
 .
 id
 =
-cricket
-:
-:
 kMaxSctpSid
 +
 1
@@ -19324,9 +19289,6 @@ ok
 )
 ;
 const
-cricket
-:
-:
 FakePortAllocatorSession
 *
 session
@@ -19334,9 +19296,6 @@ session
 static_cast
 <
 const
-cricket
-:
-:
 FakePortAllocatorSession
 *
 >
@@ -30069,9 +30028,6 @@ description
 >
 HasGroup
 (
-cricket
-:
-:
 GROUP_TYPE_BUNDLE
 )
 )
@@ -30134,9 +30090,6 @@ description
 >
 HasGroup
 (
-cricket
-:
-:
 GROUP_TYPE_BUNDLE
 )
 )
@@ -31176,9 +31129,6 @@ CreatePeerConnectionFactoryForTest
 )
 ;
 }
-cricket
-:
-:
 MediaConfig
 TestCreatePeerConnection
 (
@@ -31411,9 +31361,6 @@ SdpSemantics
 kUnifiedPlan
 ;
 const
-cricket
-:
-:
 MediaConfig
 &
 media_config
@@ -31515,9 +31462,6 @@ false
 )
 ;
 const
-cricket
-:
-:
 MediaConfig
 &
 media_config
@@ -31585,9 +31529,6 @@ true
 )
 ;
 const
-cricket
-:
-:
 MediaConfig
 &
 media_config

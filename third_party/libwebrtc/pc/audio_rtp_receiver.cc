@@ -315,9 +315,6 @@ string
 stream_ids
 bool
 is_unified_plan
-cricket
-:
-:
 VoiceMediaReceiveChannelInterface
 *
 voice_channel
@@ -381,9 +378,6 @@ MediaStreamInterface
 streams
 bool
 is_unified_plan
-cricket
-:
-:
 VoiceMediaReceiveChannelInterface
 *
 voice_channel
@@ -2133,9 +2127,6 @@ AudioRtpReceiver
 :
 SetMediaChannel
 (
-cricket
-:
-:
 MediaReceiveChannelInterface
 *
 media_channel
@@ -2202,9 +2193,6 @@ media_channel_
 =
 static_cast
 <
-cricket
-:
-:
 VoiceMediaReceiveChannelInterface
 *
 >

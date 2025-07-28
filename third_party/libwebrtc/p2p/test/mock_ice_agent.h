@@ -191,9 +191,6 @@ const
 ;
 MOCK_METHOD
 (
-cricket
-:
-:
 IceRole
 GetIceRole
 (
@@ -248,7 +245,7 @@ rtc
 ArrayView
 <
 const
-cricket
+webrtc
 :
 :
 Connection
@@ -267,7 +264,7 @@ void
 SendPingRequest
 (
 const
-cricket
+webrtc
 :
 :
 Connection
@@ -284,12 +281,12 @@ void
 SwitchSelectedConnection
 (
 const
-cricket
+webrtc
 :
 :
 Connection
 *
-cricket
+webrtc
 :
 :
 IceSwitchReason
@@ -310,7 +307,7 @@ rtc
 ArrayView
 <
 const
-cricket
+webrtc
 :
 :
 Connection

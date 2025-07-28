@@ -3751,9 +3751,6 @@ void
 OnSelectedCandidatePairChanged
 (
 const
-cricket
-:
-:
 CandidatePairChangeEvent
 &
 event
@@ -3987,9 +3984,6 @@ std
 string
 &
 content_name
-cricket
-:
-:
 TransportDescription
 *
 info
@@ -4124,9 +4118,6 @@ void
 OnTransportControllerCandidateError
 (
 const
-cricket
-:
-:
 IceCandidateErrorEvent
 &
 event
@@ -4163,9 +4154,6 @@ void
 OnTransportControllerCandidateChanged
 (
 const
-cricket
-:
-:
 CandidatePairChangeEvent
 &
 event

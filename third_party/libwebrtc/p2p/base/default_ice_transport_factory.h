@@ -211,9 +211,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 P2PTransportChannel
 >
 internal
@@ -258,9 +255,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 P2PTransportChannel
 >
 internal_

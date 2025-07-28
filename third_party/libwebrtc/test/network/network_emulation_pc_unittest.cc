@@ -1199,9 +1199,6 @@ alice_pcf
 >
 CreateAudioSource
 (
-cricket
-:
-:
 AudioOptions
 (
 )
@@ -2059,9 +2056,6 @@ alice_pcf
 >
 CreateAudioSource
 (
-cricket
-:
-:
 AudioOptions
 (
 )

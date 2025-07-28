@@ -256,7 +256,7 @@ h
 For
 TimeMillis
 namespace
-cricket
+webrtc
 {
 using
 :
@@ -436,9 +436,6 @@ StunRequestManager
 :
 StunRequestManager
 (
-webrtc
-:
-:
 TaskQueueBase
 *
 thread
@@ -453,6 +450,9 @@ const
 void
 *
 size_t
+webrtc
+:
+:
 StunRequest
 *
 )
@@ -612,9 +612,6 @@ request
 >
 Send
 (
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -766,9 +763,6 @@ request
 >
 Send
 (
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -1805,9 +1799,6 @@ processing
 as
 usual
 .
-webrtc
-:
-:
 ByteBufferReader
 buf
 (
@@ -2208,9 +2199,6 @@ TimeMillis
 (
 )
 ;
-webrtc
-:
-:
 ByteBufferWriter
 buf
 ;
@@ -2246,9 +2234,6 @@ OnSent
 ;
 SendDelayed
 (
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -2267,9 +2252,6 @@ StunRequest
 :
 SendDelayed
 (
-webrtc
-:
-:
 TimeDelta
 delay
 )
@@ -2310,9 +2292,6 @@ StunRequest
 :
 Send
 (
-webrtc
-:
-:
 TimeDelta
 delay
 )
@@ -2403,9 +2382,6 @@ task_safety_
 .
 reset
 (
-webrtc
-:
-:
 PendingTaskSafetyFlag
 :
 :
@@ -2575,4 +2551,4 @@ true
 /
 /
 namespace
-cricket
+webrtc

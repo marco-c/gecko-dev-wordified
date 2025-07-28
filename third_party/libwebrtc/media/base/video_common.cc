@@ -150,7 +150,7 @@ string_builder
 h
 "
 namespace
-cricket
+webrtc
 {
 struct
 FourCCAliasEntry
@@ -513,9 +513,6 @@ buf
 256
 ]
 ;
-rtc
-:
-:
 SimpleStringBuilder
 sb
 (
@@ -625,4 +622,4 @@ b
 /
 /
 namespace
-cricket
+webrtc

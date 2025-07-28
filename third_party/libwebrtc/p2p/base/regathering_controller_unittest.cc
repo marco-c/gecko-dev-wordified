@@ -475,9 +475,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 FakePortAllocator
 >
 (
@@ -572,9 +569,6 @@ ports
 .
 push_back
 (
-cricket
-:
-:
 ProtocolAddress
 (
 kTurnUdpIntAddr
@@ -636,9 +630,6 @@ CreateSession
 "
 test
 "
-cricket
-:
-:
 ICE_CANDIDATE_COMPONENT_RTP
 kIceUfrag
 kIcePwd

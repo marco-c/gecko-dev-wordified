@@ -530,15 +530,9 @@ packets_received
 =
 0
 ;
-cricket
-:
-:
 IceRole
 ice_role
 =
-cricket
-:
-:
 ICEROLE_UNKNOWN
 ;
 std
@@ -2037,9 +2031,6 @@ const
 0
 ;
 virtual
-cricket
-:
-:
 IceRole
 GetIceRole
 (
@@ -2052,9 +2043,6 @@ virtual
 void
 SetIceRole
 (
-cricket
-:
-:
 IceRole
 role
 )
@@ -2168,9 +2156,6 @@ void
 SetIceParameters
 (
 const
-cricket
-:
-:
 IceParameters
 &
 ice_params
@@ -2183,9 +2168,6 @@ void
 SetRemoteIceParameters
 (
 const
-cricket
-:
-:
 IceParameters
 &
 ice_params
@@ -2197,9 +2179,6 @@ virtual
 void
 SetRemoteIceMode
 (
-cricket
-:
-:
 IceMode
 mode
 )
@@ -2414,9 +2393,6 @@ anymore
 .
 virtual
 const
-cricket
-:
-:
 Connection
 *
 selected_connection
@@ -2454,9 +2430,6 @@ std
 optional
 <
 const
-cricket
-:
-:
 CandidatePair
 >
 GetSelectedCandidatePair
@@ -2477,9 +2450,6 @@ std
 :
 reference_wrapper
 <
-cricket
-:
-:
 StunDictionaryWriter
 >
 >
@@ -2565,7 +2535,7 @@ webrtc
 IceTransportInternal
 *
 const
-cricket
+webrtc
 :
 :
 IceCandidateErrorEvent
@@ -2728,7 +2698,7 @@ AnyInvocable
 void
 (
 const
-cricket
+webrtc
 :
 :
 CandidatePairChangeEvent
@@ -3057,9 +3027,6 @@ virtual
 void
 SetDtlsStunPiggybackCallbacks
 (
-cricket
-:
-:
 DtlsStunPiggybackCallbacks
 &
 &
@@ -3087,9 +3054,6 @@ CallbackList
 IceTransportInternal
 *
 const
-cricket
-:
-:
 StunDictionaryView
 &
 rtc
@@ -3107,9 +3071,6 @@ CallbackList
 IceTransportInternal
 *
 const
-cricket
-:
-:
 StunDictionaryWriter
 &
 >
@@ -3135,7 +3096,7 @@ webrtc
 IceTransportInternal
 *
 const
-cricket
+webrtc
 :
 :
 IceCandidateErrorEvent
@@ -3171,7 +3132,7 @@ AnyInvocable
 void
 (
 const
-cricket
+webrtc
 :
 :
 CandidatePairChangeEvent

@@ -230,7 +230,7 @@ void
 OnConnectionAdded
 (
 const
-cricket
+webrtc
 :
 :
 Connection
@@ -247,7 +247,7 @@ void
 OnConnectionSwitched
 (
 const
-cricket
+webrtc
 :
 :
 Connection
@@ -264,7 +264,7 @@ void
 OnConnectionDestroyed
 (
 const
-cricket
+webrtc
 :
 :
 Connection
@@ -281,7 +281,7 @@ void
 OnConnectionPinged
 (
 const
-cricket
+webrtc
 :
 :
 Connection
@@ -298,7 +298,7 @@ void
 OnConnectionUpdated
 (
 const
-cricket
+webrtc
 :
 :
 Connection
@@ -315,7 +315,7 @@ bool
 GetUseCandidateAttribute
 (
 const
-cricket
+webrtc
 :
 :
 Connection
@@ -324,7 +324,7 @@ webrtc
 :
 :
 NominationMode
-cricket
+webrtc
 :
 :
 IceMode
@@ -340,7 +340,7 @@ MOCK_METHOD
 void
 OnSortAndSwitchRequest
 (
-cricket
+webrtc
 :
 :
 IceSwitchReason
@@ -355,7 +355,7 @@ MOCK_METHOD
 void
 OnImmediateSortAndSwitchRequest
 (
-cricket
+webrtc
 :
 :
 IceSwitchReason
@@ -370,12 +370,12 @@ MOCK_METHOD
 bool
 OnImmediateSwitchRequest
 (
-cricket
+webrtc
 :
 :
 IceSwitchReason
 const
-cricket
+webrtc
 :
 :
 Connection
@@ -389,9 +389,6 @@ override
 MOCK_METHOD
 (
 const
-cricket
-:
-:
 Connection
 *
 FindNextPingableConnection

@@ -4665,9 +4665,6 @@ stream
 .
 max_qp
 =
-cricket
-:
-:
 kDefaultVideoMaxQpVpx
 ;
 stream
@@ -4748,9 +4745,6 @@ stream
 .
 max_qp
 =
-cricket
-:
-:
 kDefaultVideoMaxQpVpx
 ;
 return
@@ -7263,9 +7257,6 @@ video_idx
 codec
 =
 =
-cricket
-:
-:
 kAv1CodecName
 )
 {

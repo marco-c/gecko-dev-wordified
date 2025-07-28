@@ -1708,9 +1708,6 @@ VideoRtpReceiver
 :
 SetMediaChannel
 (
-cricket
-:
-:
 MediaReceiveChannelInterface
 *
 media_channel
@@ -1754,9 +1751,6 @@ VideoRtpReceiver
 :
 SetMediaChannel_w
 (
-cricket
-:
-:
 MediaReceiveChannelInterface
 *
 media_channel
@@ -2041,9 +2035,6 @@ optional
 uint32_t
 >
 ssrc
-cricket
-:
-:
 MediaReceiveChannelInterface
 *
 media_channel

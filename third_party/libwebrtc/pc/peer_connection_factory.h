@@ -513,9 +513,6 @@ AudioSourceInterface
 CreateAudioSource
 (
 const
-cricket
-:
-:
 AudioOptions
 &
 options
@@ -696,9 +693,6 @@ field_trials
 )
 ;
 }
-cricket
-:
-:
 MediaEngineInterface
 *
 media_engine

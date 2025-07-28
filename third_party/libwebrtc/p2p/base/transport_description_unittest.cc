@@ -123,7 +123,7 @@ webrtc
 RTCErrorType
 ;
 namespace
-cricket
+webrtc
 {
 TEST
 (
@@ -500,4 +500,4 @@ type
 /
 /
 namespace
-cricket
+webrtc

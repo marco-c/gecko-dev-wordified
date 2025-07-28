@@ -183,9 +183,6 @@ MaybeModifyOutgoingStunMessage
 PortInterface
 *
 port
-cricket
-:
-:
 StunMessage
 *
 message
@@ -222,9 +219,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 StunUInt32Attribute
 >
 (

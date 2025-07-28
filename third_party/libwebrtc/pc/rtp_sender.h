@@ -432,9 +432,6 @@ virtual
 void
 SetMediaChannel
 (
-cricket
-:
-:
 MediaSendChannelInterface
 *
 media_channel
@@ -958,9 +955,6 @@ destroyed
 void
 SetMediaChannel
 (
-cricket
-:
-:
 MediaSendChannelInterface
 *
 media_channel
@@ -2008,9 +2002,6 @@ the
 worker
 thread
 .
-cricket
-:
-:
 MediaSendChannelInterface
 *
 media_channel_
@@ -2221,9 +2212,6 @@ LocalAudioSinkAdapter
 public
 AudioTrackSinkInterface
 public
-cricket
-:
-:
 AudioSource
 {
 public
@@ -2341,9 +2329,6 @@ implementation
 void
 SetSink
 (
-cricket
-:
-:
 AudioSource
 :
 :
@@ -2353,9 +2338,6 @@ sink
 )
 override
 ;
-cricket
-:
-:
 AudioSource
 :
 :
@@ -2699,9 +2681,6 @@ RemoveTrackFromStats
 override
 ;
 private
-:
-cricket
-:
 :
 VoiceMediaSendChannelInterface
 *
@@ -3066,9 +3045,6 @@ AttachTrack
 override
 ;
 private
-:
-cricket
-:
 :
 VideoMediaSendChannelInterface
 *
