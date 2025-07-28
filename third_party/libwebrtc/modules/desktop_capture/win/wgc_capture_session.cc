@@ -1398,7 +1398,11 @@ session3
 >
 put_IsBorderRequired
 (
-false
+options
+.
+wgc_require_border
+(
+)
 )
 ;
 }
