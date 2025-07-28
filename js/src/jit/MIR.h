@@ -3234,6 +3234,7 @@ Any
 )
 ;
 explicit
+constexpr
 AliasSet
 (
 uint32_t
@@ -3249,6 +3250,7 @@ flags
 public
 :
 inline
+constexpr
 bool
 isNone
 (
@@ -3262,6 +3264,7 @@ flags_
 None_
 ;
 }
+constexpr
 uint32_t
 flags
 (
@@ -3275,6 +3278,7 @@ Any
 ;
 }
 inline
+constexpr
 bool
 isStore
 (
@@ -3292,6 +3296,7 @@ Store_
 ;
 }
 inline
+constexpr
 bool
 isLoad
 (
@@ -3312,6 +3317,7 @@ isNone
 ;
 }
 inline
+constexpr
 AliasSet
 operator
 |
@@ -3335,6 +3341,7 @@ flags_
 ;
 }
 inline
+constexpr
 AliasSet
 operator
 &
@@ -3358,6 +3365,7 @@ flags_
 ;
 }
 inline
+constexpr
 AliasSet
 operator
 ~
@@ -3374,6 +3382,7 @@ flags_
 ;
 }
 static
+constexpr
 AliasSet
 None
 (
@@ -3387,6 +3396,7 @@ None_
 ;
 }
 static
+constexpr
 AliasSet
 Load
 (
@@ -3415,6 +3425,7 @@ flags
 ;
 }
 static
+constexpr
 AliasSet
 Store
 (
