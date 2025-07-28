@@ -20103,7 +20103,7 @@ uint32_t
 aTracks
 TrackPlan
 &
-aPlan
+aTrackPlan
 ItemPlan
 &
 aItemPlan
@@ -20863,7 +20863,7 @@ TrackSizingPhase
 aPhase
 TrackPlan
 &
-aPlan
+aTrackPlan
 )
 const
 {
@@ -20875,7 +20875,7 @@ i
 0
 len
 =
-aPlan
+aTrackPlan
 .
 Length
 (
@@ -20894,7 +20894,7 @@ auto
 &
 plan
 =
-aPlan
+aTrackPlan
 [
 i
 ]
@@ -20970,7 +20970,7 @@ aPhase
 const
 TrackPlan
 &
-aPlan
+aTrackPlan
 bool
 aNeedInfinitelyGrowableFlag
 )
@@ -21003,7 +21003,7 @@ auto
 &
 plan
 =
-aPlan
+aTrackPlan
 [
 i
 ]
@@ -21207,7 +21207,7 @@ nscoord
 aAvailableSpace
 ItemPlan
 &
-aPlan
+aItemPlan
 const
 nsTArray
 <
@@ -21286,7 +21286,7 @@ TrackSize
 &
 sz
 =
-aPlan
+aItemPlan
 [
 track
 ]
@@ -21555,7 +21555,7 @@ is
 *
 assumed
 that
-aPlan
+aItemPlan
 have
 no
 aSkipFlag
@@ -21579,7 +21579,7 @@ MarkExcludedTracks
 (
 ItemPlan
 &
-aPlan
+aItemPlan
 uint32_t
 aNumGrowable
 const
@@ -21633,7 +21633,7 @@ TrackSize
 &
 sz
 =
-aPlan
+aItemPlan
 [
 track
 ]
@@ -21726,7 +21726,7 @@ track
 aGrowableTracks
 )
 {
-aPlan
+aItemPlan
 [
 track
 ]
@@ -21829,7 +21829,7 @@ TrackSizingPhase
 aPhase
 ItemPlan
 &
-aPlan
+aItemPlan
 const
 nsTArray
 <
@@ -21904,7 +21904,7 @@ numGrowable
 =
 MarkExcludedTracks
 (
-aPlan
+aItemPlan
 numGrowable
 aGrowableTracks
 TrackSize
@@ -21953,7 +21953,7 @@ numGrowable
 =
 MarkExcludedTracks
 (
-aPlan
+aItemPlan
 numGrowable
 aGrowableTracks
 selector
@@ -22043,7 +22043,7 @@ nscoord
 aAvailableSpace
 ItemPlan
 &
-aPlan
+aItemPlan
 const
 nsTArray
 <
@@ -22133,7 +22133,7 @@ TrackSize
 &
 sz
 =
-aPlan
+aItemPlan
 [
 track
 ]
@@ -22378,7 +22378,7 @@ nscoord
 aAvailableSpace
 TrackPlan
 &
-aPlan
+aTrackPlan
 const
 nsTArray
 <
@@ -22555,7 +22555,7 @@ TrackSize
 &
 sz
 =
-aPlan
+aTrackPlan
 [
 track
 ]
@@ -22726,7 +22726,7 @@ nscoord
 aAvailableSpace
 TrackPlan
 &
-aPlan
+aTrackPlan
 ItemPlan
 &
 aItemPlan
@@ -22776,7 +22776,7 @@ space
 DistributeToFlexTrackSizes
 (
 space
-aPlan
+aTrackPlan
 aGrowableTracks
 aFunctions
 )
@@ -22835,7 +22835,7 @@ nscoord
 &
 plannedSize
 =
-aPlan
+aTrackPlan
 [
 track
 ]
@@ -56837,7 +56837,7 @@ uint32_t
 aTracks
 TrackPlan
 &
-aPlan
+aTrackPlan
 ItemPlan
 &
 aItemPlan
@@ -56886,7 +56886,7 @@ false
 InitializePlan
 (
 aPhase
-aPlan
+aTrackPlan
 )
 ;
 for
@@ -56948,7 +56948,7 @@ Range
 )
 )
 {
-aPlan
+aTrackPlan
 [
 i
 ]
@@ -57063,7 +57063,7 @@ DistributeToTrackSizes
 aStep
 aPhase
 space
-aPlan
+aTrackPlan
 aItemPlan
 aTracks
 aConstraint
@@ -57095,7 +57095,7 @@ needToUpdateSizes
 CopyPlanToSize
 (
 aPhase
-aPlan
+aTrackPlan
 aNeedInfinitelyGrowableFlag
 )
 ;
