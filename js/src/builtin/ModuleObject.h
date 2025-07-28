@@ -3684,14 +3684,10 @@ FinishDynamicModuleImport
 JSContext
 *
 cx
+HandleValue
+contextValue
 HandleObject
 evaluationPromise
-HandleValue
-referencingPrivate
-HandleObject
-moduleRequest
-HandleObject
-promise
 )
 ;
 }
