@@ -1049,8 +1049,6 @@ The
 HTTP
 /
 2
-.
-0
 server
 requires
 OpenSSL
@@ -1122,8 +1120,6 @@ Skipping
 HTTP
 /
 2
-.
-0
 compatibility
 check
 as
