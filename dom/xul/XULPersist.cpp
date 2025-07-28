@@ -725,7 +725,7 @@ non
 -
 chrome
 documents
-persistance
+persistence
 is
 simply
 broken
