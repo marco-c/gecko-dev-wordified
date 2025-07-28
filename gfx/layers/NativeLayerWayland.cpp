@@ -6712,6 +6712,17 @@ FenceWait
 )
 ;
 }
+MOZ_DIAGNOSTIC_ASSERT
+(
+!
+mFrontBuffer
+-
+>
+IsAttached
+(
+)
+)
+;
 mSurface
 -
 >
