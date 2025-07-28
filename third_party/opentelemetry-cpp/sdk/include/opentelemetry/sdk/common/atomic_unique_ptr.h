@@ -324,8 +324,8 @@ another
 .
 *
 param
-ptr
-the
+other
+The
 pointer
 to
 swap

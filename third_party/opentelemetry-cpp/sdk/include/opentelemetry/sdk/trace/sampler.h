@@ -484,7 +484,7 @@ Span
 .
 *
 param
-spanKind
+span_kind
 the
 opentelemetry
 :

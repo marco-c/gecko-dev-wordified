@@ -302,7 +302,7 @@ span
 .
 *
 param
-name
+key
 the
 name
 of
@@ -844,13 +844,6 @@ the
 span
 .
 *
-param
-flags
-the
-flags
-to
-set
-*
 /
 virtual
 void
@@ -920,7 +913,7 @@ the
 span
 *
 param
-Resource
+resource
 the
 resource
 to

@@ -91,6 +91,17 @@ include
 "
 opentelemetry
 /
+trace
+/
+trace_flags
+.
+h
+"
+#
+include
+"
+opentelemetry
+/
 version
 .
 h
@@ -976,6 +987,7 @@ ForEachKeyValue
 &
 ]
 (
+const
 opentelemetry
 :
 :
@@ -983,6 +995,7 @@ trace
 :
 :
 SpanContext
+&
 span_context
 const
 common
