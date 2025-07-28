@@ -1703,6 +1703,15 @@ rect
 height
 /
 2
++
+(
+afterTab
+?
+1
+:
+-
+1
+)
 }
 ;
 if
