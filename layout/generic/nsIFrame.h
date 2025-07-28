@@ -42539,6 +42539,9 @@ const
 nsIFrame
 *
 aFrame
+AnchorPosReferencedAnchors
+*
+aReferencedAnchors
 )
 {
 return
@@ -42553,6 +42556,7 @@ StyleDisplay
 -
 >
 mPosition
+aReferencedAnchors
 }
 ;
 }
