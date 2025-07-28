@@ -436,9 +436,6 @@ rtp_rtcp
 ReceiveStatistics
 *
 receive_statistics
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderFactory
@@ -564,9 +561,6 @@ caller
 void
 ReceivedRTPPacket
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -578,9 +572,6 @@ rtp_packet
 void
 ReceivedRTCPPacket
 (
-rtc
-:
-:
 ArrayView
 <
 const

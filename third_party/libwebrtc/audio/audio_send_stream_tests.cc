@@ -313,9 +313,6 @@ private
 Action
 OnSendRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -504,9 +501,6 @@ private
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -680,9 +674,6 @@ kAudioLevelExtensionId
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -932,9 +923,6 @@ private
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1189,9 +1177,6 @@ private
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const

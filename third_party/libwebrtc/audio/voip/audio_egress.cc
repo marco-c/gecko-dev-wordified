@@ -720,9 +720,6 @@ RTC_DCHECK_RUN_ON
 encoder_queue_checker_
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const

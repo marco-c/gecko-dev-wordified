@@ -1320,9 +1320,6 @@ Stop
 /
 namespace
 internal
-rtc
-:
-:
 scoped_refptr
 <
 AudioState
@@ -1342,9 +1339,6 @@ config
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 internal

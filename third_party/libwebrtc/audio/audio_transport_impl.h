@@ -507,9 +507,6 @@ capture_resampler_
 Render
 side
 .
-rtc
-:
-:
 scoped_refptr
 <
 AudioMixer

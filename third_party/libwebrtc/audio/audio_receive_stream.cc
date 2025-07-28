@@ -799,9 +799,6 @@ Config
 &
 config
 const
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -860,9 +857,6 @@ Config
 &
 config
 const
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -1523,9 +1517,6 @@ AudioReceiveStreamImpl
 :
 SetDepacketizerToDecoderFrameTransformer
 (
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -1781,9 +1772,6 @@ AudioReceiveStreamImpl
 :
 SetFrameDecryptor
 (
-rtc
-:
-:
 scoped_refptr
 <
 webrtc

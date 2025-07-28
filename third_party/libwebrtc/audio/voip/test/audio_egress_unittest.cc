@@ -840,9 +840,6 @@ ModuleRtpRtcpImpl2
 >
 rtp_rtcp_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioEncoderFactory
@@ -924,9 +921,6 @@ rtp_sent
 &
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1189,9 +1183,6 @@ rtp_sent
 &
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1445,9 +1436,6 @@ rtp_sent
 &
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2033,9 +2021,6 @@ rtp_sent
 &
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2227,9 +2212,6 @@ rtp_sent
 &
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 const

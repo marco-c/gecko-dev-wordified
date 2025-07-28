@@ -431,9 +431,6 @@ Config
 &
 config
 const
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -494,9 +491,6 @@ Config
 &
 config
 const
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -1033,9 +1027,6 @@ RTC_GUARDED_BY
 worker_thread_checker_
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 webrtc

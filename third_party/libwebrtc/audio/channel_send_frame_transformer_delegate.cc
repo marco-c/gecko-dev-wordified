@@ -393,9 +393,6 @@ override
 =
 default
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -414,9 +411,6 @@ payload_
 void
 SetData
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -518,9 +512,6 @@ return
 codec_mime_type_
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -672,9 +663,6 @@ payload_type_
 uint32_t
 rtp_timestamp_with_offset_
 ;
-rtc
-:
-:
 Buffer
 payload_
 ;
@@ -732,9 +720,6 @@ ChannelSendFrameTransformerDelegate
 (
 SendFrameCallback
 send_frame_callback
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface
@@ -778,9 +763,6 @@ frame_transformer_
 >
 RegisterTransformedFrameCallback
 (
-rtc
-:
-:
 scoped_refptr
 <
 TransformedFrameCallback
@@ -881,9 +863,6 @@ send_frame_callback_
 frame_type
 payload_type
 rtp_timestamp
-rtc
-:
-:
 ArrayView
 <
 const
@@ -990,9 +969,6 @@ send_frame_callback_
 )
 return
 ;
-rtc
-:
-:
 scoped_refptr
 <
 ChannelSendFrameTransformerDelegate

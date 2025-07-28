@@ -195,9 +195,6 @@ local_ssrc
 AudioMixer
 *
 audio_mixer
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderFactory

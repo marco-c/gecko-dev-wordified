@@ -239,9 +239,6 @@ public
 :
 TransformableIncomingAudioFrame
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -310,9 +307,6 @@ override
 =
 default
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -331,9 +325,6 @@ payload_
 void
 SetData
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -412,9 +403,6 @@ header_
 timestamp
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -427,9 +415,6 @@ const
 override
 {
 return
-rtc
-:
-:
 ArrayView
 <
 const
@@ -811,9 +796,6 @@ nullopt
 }
 private
 :
-rtc
-:
-:
 Buffer
 payload_
 ;
@@ -841,9 +823,6 @@ ChannelReceiveFrameTransformerDelegate
 (
 ReceiveFrameCallback
 receive_frame_callback
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface
@@ -893,9 +872,6 @@ frame_transformer_
 >
 RegisterTransformedFrameCallback
 (
-rtc
-:
-:
 scoped_refptr
 <
 TransformedFrameCallback
@@ -944,9 +920,6 @@ ChannelReceiveFrameTransformerDelegate
 :
 Transform
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1030,9 +1003,6 @@ TransformableFrameInterface
 frame
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 ChannelReceiveFrameTransformerDelegate
@@ -1097,9 +1067,6 @@ StartShortCircuiting
 (
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 ChannelReceiveFrameTransformerDelegate
@@ -1407,9 +1374,6 @@ receive_time
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface
