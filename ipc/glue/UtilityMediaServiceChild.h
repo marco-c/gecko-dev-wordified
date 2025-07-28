@@ -509,6 +509,17 @@ Promise
 aPromise
 )
 ;
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
+RecvDisableHardwareDRM
+(
+)
+;
 #
 endif
 private
