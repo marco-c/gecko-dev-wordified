@@ -666,6 +666,12 @@ return
 this
 ;
 }
+void
+Flush
+(
+)
+{
+}
 }
 ;
 template

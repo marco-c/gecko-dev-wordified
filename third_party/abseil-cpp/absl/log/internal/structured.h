@@ -1001,9 +1001,6 @@ m
 }
 }
 ;
-#
-ifdef
-ABSL_HAVE_CLASS_TEMPLATE_ARGUMENT_DEDUCTION
 /
 /
 Template
@@ -1092,11 +1089,6 @@ AsStructuredValueImpl
 T
 >
 ;
-#
-endif
-/
-/
-ABSL_HAVE_CLASS_TEMPLATE_ARGUMENT_DEDUCTION
 }
 /
 /

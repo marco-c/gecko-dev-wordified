@@ -1001,10 +1001,7 @@ F
 typename
 FR
 =
-absl
-:
-:
-base_internal
+std
 :
 :
 invoke_result_t

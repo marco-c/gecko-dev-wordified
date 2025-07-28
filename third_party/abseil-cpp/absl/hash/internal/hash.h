@@ -3059,6 +3059,7 @@ uint64_t
 v
 ;
 if
+constexpr
 (
 sizeof
 (
@@ -3077,6 +3078,7 @@ start
 }
 else
 if
+constexpr
 (
 sizeof
 (
@@ -3103,6 +3105,7 @@ start
 }
 else
 if
+constexpr
 (
 sizeof
 (
@@ -3129,7 +3132,7 @@ start
 }
 else
 {
-assert
+static_assert
 (
 sizeof
 (
@@ -4575,6 +4578,7 @@ for
 hashing
 .
 if
+constexpr
 (
 alignof
 (
@@ -12709,6 +12713,7 @@ use
 Mix
 .
 if
+constexpr
 (
 sizeof
 (

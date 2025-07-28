@@ -1989,9 +1989,6 @@ impl_
 ;
 }
 ;
-#
-ifdef
-ABSL_HAVE_CLASS_TEMPLATE_ARGUMENT_DEDUCTION
 /
 /
 Provide
@@ -2042,11 +2039,6 @@ NoDestructor
 T
 >
 ;
-#
-endif
-/
-/
-ABSL_HAVE_CLASS_TEMPLATE_ARGUMENT_DEDUCTION
 ABSL_NAMESPACE_END
 }
 /

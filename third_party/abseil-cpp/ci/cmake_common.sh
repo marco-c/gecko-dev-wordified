@@ -149,7 +149,9 @@ the
 commit
 in
 the
-WORKSPACE
+MODULE
+.
+bazel
 file
 .
 readonly

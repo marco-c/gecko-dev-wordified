@@ -383,7 +383,7 @@ ios
 deployment_target
 =
 '
-9
+12
 .
 0
 '
@@ -397,7 +397,7 @@ deployment_target
 '
 10
 .
-11
+13
 '
   
 s
@@ -407,7 +407,7 @@ tvos
 deployment_target
 =
 '
-9
+12
 .
 0
 '
@@ -419,7 +419,19 @@ watchos
 deployment_target
 =
 '
-2
+4
+.
+0
+'
+  
+s
+.
+visionos
+.
+deployment_target
+=
+'
+1
 .
 0
 '

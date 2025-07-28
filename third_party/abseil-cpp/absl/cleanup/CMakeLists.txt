@@ -154,10 +154,6 @@ DEPS
 absl
 :
 :
-base_internal
-absl
-:
-:
 core_headers
 absl
 :

@@ -1025,12 +1025,6 @@ absl
 :
 :
 Cleanup
-#
-if
-defined
-(
-ABSL_HAVE_CLASS_TEMPLATE_ARGUMENT_DEDUCTION
-)
 template
 <
 typename
@@ -1052,14 +1046,6 @@ Tag
 Callback
 >
 ;
-#
-endif
-/
-/
-defined
-(
-ABSL_HAVE_CLASS_TEMPLATE_ARGUMENT_DEDUCTION
-)
 /
 /
 auto
