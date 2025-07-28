@@ -107,7 +107,7 @@ is
 *
 used
 by
-rtc
+webrtc
 :
 :
 TimeNanos
@@ -147,7 +147,7 @@ in
 webrtc
 should
 use
-rtc
+webrtc
 :
 :
 TimeNanos
@@ -168,7 +168,7 @@ lets
 us
 use
 the
-rtc
+webrtc
 :
 :
 TimeNanos
@@ -197,7 +197,7 @@ wrapper
 on
 top
 of
-rtc
+webrtc
 :
 :
 TimestampAligner
@@ -214,7 +214,7 @@ TimestampAligner
 *
 Wrapper
 around
-rtc
+webrtc
 :
 :
 TimeNanos
@@ -279,7 +279,7 @@ as
 is
 used
 by
-rtc
+webrtc
 :
 :
 TimeNanos

@@ -477,7 +477,7 @@ will
 be
 aligned
 to
-rtc
+webrtc
 :
 :
 TimeNanos
@@ -491,7 +491,7 @@ are
 aligned
 to
 *
-rtc
+webrtc
 :
 :
 TimeNanos

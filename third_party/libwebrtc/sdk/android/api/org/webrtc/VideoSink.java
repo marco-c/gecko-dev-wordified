@@ -94,7 +94,7 @@ webrtc
 Java
 version
 of
-rtc
+webrtc
 :
 :
 VideoSinkInterface

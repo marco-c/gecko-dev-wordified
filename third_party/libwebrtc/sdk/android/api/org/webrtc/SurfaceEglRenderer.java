@@ -161,7 +161,7 @@ from
 C
 +
 +
-rtc
+webrtc
 :
 :
 VideoSinkInterface
