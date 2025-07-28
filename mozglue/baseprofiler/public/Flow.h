@@ -245,7 +245,7 @@ globally
 unique
 but
 makes
-colluisions
+collisions
 unlikely
 enough
 that
