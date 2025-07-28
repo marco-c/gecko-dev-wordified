@@ -347,6 +347,8 @@ it
 '
 s
 actor
+/
+/
 CacheStorageChild
 .
 class
@@ -383,6 +385,8 @@ it
 '
 s
 actor
+/
+/
 BoundStorageKeyChild
 .
 class

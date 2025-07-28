@@ -248,6 +248,7 @@ as
 BoundStorageKeyCacheStorage
 is
 to
+*
 CacheStorage
 i
 .
@@ -270,8 +271,8 @@ it
 s
 return
 value
-rather
 *
+rather
 than
 JS
 Promise
@@ -292,9 +293,9 @@ it
 '
 s
 protocol
+*
 gets
 created
-*
 on
 a
 top
