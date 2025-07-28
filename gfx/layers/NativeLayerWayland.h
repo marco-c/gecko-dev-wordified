@@ -295,6 +295,19 @@ mMutatedFrontBuffer
 ;
 /
 /
+Was
+rendered
+in
+last
+cycle
+.
+bool
+mRendered
+:
+1
+;
+/
+/
 For
 debugging
 purposse
@@ -334,6 +347,10 @@ true
 mMutatedFrontBuffer
 =
 true
+;
+mRendered
+=
+false
 ;
 }
 }
@@ -1163,7 +1180,7 @@ SurfaceIsFlipped
 override
 ;
 void
-UpdateLayer
+RenderLayer
 (
 int
 aScale
@@ -1494,7 +1511,7 @@ aProofOfLock
 )
 ;
 virtual
-void
+bool
 CommitFrontBufferToScreenLocked
 (
 const
@@ -2006,7 +2023,7 @@ WaylandSurfaceLock
 aProofOfLock
 )
 ;
-void
+bool
 CommitFrontBufferToScreenLocked
 (
 const
@@ -2189,7 +2206,7 @@ FreeUnusedBackBuffers
 (
 )
 ;
-void
+bool
 CommitFrontBufferToScreenLocked
 (
 const
