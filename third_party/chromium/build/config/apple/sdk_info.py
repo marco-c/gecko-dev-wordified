@@ -1248,6 +1248,7 @@ platform
 choices
 =
 [
+                          
 '
 iphoneos
 '
@@ -1257,6 +1258,14 @@ iphonesimulator
 '
 macosx
 '
+'
+watchos
+'
+                          
+'
+watchsimulator
+'
+                      
 ]
 )
   

@@ -174,11 +174,9 @@ args
 {
 try
 {
-(
 new
 Unzip
 (
-)
 )
 .
 run
@@ -446,11 +444,6 @@ actual_bytes
 =
 0
 ;
-int
-total_bytes
-=
-0
-;
 while
 (
 (
@@ -477,11 +470,6 @@ bytes
 0
 actual_bytes
 )
-;
-total_bytes
-+
-=
-actual_bytes
 ;
 }
 out

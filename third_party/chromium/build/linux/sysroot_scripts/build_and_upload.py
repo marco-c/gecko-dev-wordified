@@ -496,6 +496,11 @@ obj
 =
 objects
 [
+"
+objects
+"
+]
+[
 0
 ]
         
@@ -510,25 +515,25 @@ join
             
 obj
 [
-'
+"
 object_name
-'
+"
 ]
             
 obj
 [
-'
+"
 sha256sum
-'
+"
 ]
             
 str
 (
 obj
 [
-'
+"
 size_bytes
-'
+"
 ]
 )
             
@@ -536,9 +541,9 @@ str
 (
 obj
 [
-'
+"
 generation
-'
+"
 ]
 )
         

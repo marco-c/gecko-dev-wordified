@@ -2684,7 +2684,6 @@ GenerateVersionCodes
 build_number
 patch_number
 arch
-is_next_build
 )
 :
   
@@ -2929,15 +2928,6 @@ patch_number
 )
 *
 100
-  
-if
-is_next_build
-:
-    
-base_version_code
-+
-=
-_NEXT_BUILD_VERSION_CODE_DIFF
   
 mfg
 bitness
@@ -3203,51 +3193,6 @@ for
 '
 )
   
-g2
-.
-add_argument
-(
-'
--
--
-next
-'
-                  
-action
-=
-'
-store_true
-'
-                  
-help
-=
-'
-Whether
-the
-current
-build
-should
-be
-a
-"
-next
-"
-'
-                  
-'
-build
-which
-targets
-pre
--
-release
-versions
-of
-Android
-.
-'
-)
-  
 args
 =
 parser
@@ -3333,9 +3278,6 @@ patch
 args
 .
 arch
-args
-.
-next
 )
     
 for

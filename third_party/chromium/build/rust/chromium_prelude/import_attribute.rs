@@ -323,14 +323,10 @@ gn_name
 {
 if
 path
-[
-0
 .
-.
-2
-]
-=
-=
+starts_with
+(
+&
 [
 "
 third_party
@@ -339,6 +335,7 @@ third_party
 rust
 "
 ]
+)
 {
 return
 Err

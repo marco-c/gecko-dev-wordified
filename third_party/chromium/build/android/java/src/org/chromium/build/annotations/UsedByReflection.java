@@ -75,10 +75,10 @@ called
 by
 reflection
 .
-*
 Useful
 for
 keeping
+*
 components
 that
 would
@@ -88,7 +88,6 @@ removed
 by
 Proguard
 .
-*
 Use
 the
 value
@@ -97,6 +96,7 @@ to
 mention
 a
 file
+*
 that
 calls
 this
@@ -104,6 +104,9 @@ method
 .
 *
 *
+<
+p
+>
 Note
 that
 adding
@@ -118,11 +121,11 @@ enough
 to
 guarantee
 that
-*
 it
 is
 kept
 -
+*
 either
 its
 class
@@ -134,13 +137,13 @@ in
 the
 program
 or
-*
 the
 class
 must
 be
 annotated
 with
+*
 this
 as
 well
@@ -164,6 +167,7 @@ ElementType
 CONSTRUCTOR
 }
 )
+UsedReflectively
 public
 interface
 UsedByReflection

@@ -173,15 +173,14 @@ s
 src
 /
 .
-The
+  
+Returns
+:
+    
+List
+of
+absolute
 paths
-will
-be
-relative
-to
-the
-current
-directory
 .
   
 "
@@ -219,6 +218,16 @@ and
 m
 .
 __file__
+                  
+and
+m
+.
+__name__
+!
+=
+'
+__main__
+'
 )
   
 src_paths
@@ -233,15 +242,6 @@ in
 module_paths
 :
     
-if
-path
-=
-=
-__file__
-:
-      
-continue
-    
 path
 =
 os
@@ -252,6 +252,17 @@ abspath
 (
 path
 )
+#
+paths
+can
+be
+relative
+before
+python
+3
+.
+9
+.
     
 if
 not

@@ -336,6 +336,10 @@ mipsel
 "
 mips64el
 "
+               
+"
+ppc64el
+"
 )
 ARCH_TRANSLATIONS
 =
@@ -379,6 +383,14 @@ mips64
 :
 "
 mips64el
+"
+    
+"
+ppc64le
+"
+:
+"
+ppc64el
 "
 }
 DEFAULT_SYSROOTS_PATH

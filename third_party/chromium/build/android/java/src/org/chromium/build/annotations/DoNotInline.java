@@ -92,6 +92,9 @@ inlined
 .
 *
 *
+<
+p
+>
 The
 annotated
 method
@@ -144,6 +147,7 @@ RetentionPolicy
 .
 CLASS
 )
+UsedReflectively
 public
 interface
 DoNotInline

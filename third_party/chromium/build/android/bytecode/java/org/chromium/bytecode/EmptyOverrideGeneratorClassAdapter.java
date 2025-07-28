@@ -84,7 +84,7 @@ asm
 .
 Opcodes
 .
-ASM7
+ASM9
 ;
 import
 static
@@ -195,7 +195,7 @@ methodsToGenerate
 {
 super
 (
-ASM7
+ASM9
 cv
 )
 ;

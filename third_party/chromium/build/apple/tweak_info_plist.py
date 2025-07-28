@@ -2532,6 +2532,9 @@ ios
 '
 mac
 '
+'
+watchos
+'
 )
                     
 default

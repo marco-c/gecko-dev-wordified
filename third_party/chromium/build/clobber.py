@@ -990,7 +990,8 @@ Clobber
 contents
 of
 build
-directory
+sub
+directories
 .
   
 Don
@@ -1038,24 +1039,6 @@ f
 )
     
 if
-os
-.
-path
-.
-isfile
-(
-path
-)
-:
-      
-os
-.
-unlink
-(
-path
-)
-    
-elif
 os
 .
 path

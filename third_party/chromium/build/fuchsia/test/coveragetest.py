@@ -116,11 +116,6 @@ serve_repo
 .
 py
 '
-'
-test_server
-.
-py
-'
 ]
 #
 The
@@ -137,6 +132,11 @@ TESTED_FILES
 [
     
 '
+bundled_test_runner
+.
+py
+'
+'
 common
 .
 py
@@ -146,6 +146,7 @@ ffx_emulator
 .
 py
 '
+    
 '
 modification_waiter
 .
@@ -156,9 +157,24 @@ monitors
 .
 py
 '
-    
 '
 serial_boot_device
+.
+py
+'
+    
+'
+test_env_setup
+.
+py
+'
+'
+test_server
+.
+py
+'
+'
+version
 .
 py
 '

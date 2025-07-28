@@ -88,6 +88,8 @@ test
 )
 import
 common
+import
+compatible_utils
 class
 TestUpdateProductBundles
 (
@@ -113,16 +115,10 @@ attended
 mode
 .
     
-os
+compatible_utils
 .
-environ
-.
-pop
+force_running_attended
 (
-'
-SWARMING_SERVER
-'
-None
 )
     
 ffx_mock
@@ -449,9 +445,6 @@ remove
 foo
 '
 )
-check
-=
-True
 )
         
 mock
@@ -471,9 +464,6 @@ remove
 bar
 '
 )
-check
-=
-True
 )
         
 mock
@@ -493,9 +483,6 @@ remove
 fizz
 '
 )
-check
-=
-True
 )
         
 mock
@@ -515,9 +502,6 @@ remove
 buzz
 '
 )
-check
-=
-True
 )
     
 ]
@@ -795,10 +779,6 @@ list
 capture_output
 =
 True
-                    
-check
-=
-True
 )
           
 mock
@@ -825,13 +805,20 @@ chromebook
 x64
 '
 )
-                    
-check
-=
-True
 )
       
 ]
+)
+  
+mock
+.
+patch
+(
+'
+common
+.
+make_clean_directory
+'
 )
   
 mock
@@ -1136,10 +1123,6 @@ auth_file
         
 ]
                   
-check
-=
-True
-                  
 capture_output
 =
 True
@@ -1194,13 +1177,20 @@ auth
 auth_file
         
 ]
-                  
-check
-=
-True
 )
     
 ]
+)
+  
+mock
+.
+patch
+(
+'
+common
+.
+make_clean_directory
+'
 )
   
 mock
@@ -1342,6 +1332,17 @@ self
 _ffx_mock
 .
 called
+)
+  
+mock
+.
+patch
+(
+'
+common
+.
+make_clean_directory
+'
 )
   
 mock
@@ -1598,10 +1599,6 @@ development
         
 ]
                   
-check
-=
-True
-                  
 capture_output
 =
 True
@@ -1649,13 +1646,20 @@ x64
 )
         
 ]
-                  
-check
-=
-True
 )
     
 ]
+)
+  
+mock
+.
+patch
+(
+'
+common
+.
+make_clean_directory
+'
 )
   
 mock
@@ -1898,10 +1902,6 @@ bucket
         
 ]
                   
-check
-=
-True
-                  
 capture_output
 =
 True
@@ -1949,13 +1949,20 @@ x64
 )
         
 ]
-                  
-check
-=
-True
 )
     
 ]
+)
+  
+mock
+.
+patch
+(
+'
+common
+.
+make_clean_directory
+'
 )
   
 mock
@@ -2090,6 +2097,17 @@ self
 _ffx_mock
 .
 called
+)
+  
+mock
+.
+patch
+(
+'
+common
+.
+make_clean_directory
+'
 )
   
 mock
@@ -2341,10 +2359,6 @@ development
         
 ]
                   
-check
-=
-True
-                  
 capture_output
 =
 True
@@ -2392,13 +2406,20 @@ x64
 )
         
 ]
-                  
-check
-=
-True
 )
     
 ]
+)
+  
+mock
+.
+patch
+(
+'
+common
+.
+make_clean_directory
+'
 )
   
 mock
@@ -2656,10 +2677,6 @@ development
         
 ]
                   
-check
-=
-True
-                  
 capture_output
 =
 True
@@ -2707,10 +2724,6 @@ x64
 )
         
 ]
-                  
-check
-=
-True
 )
     
 ]

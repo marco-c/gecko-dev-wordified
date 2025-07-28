@@ -161,6 +161,9 @@ android_build_tools
 '
 bundletool
 '
+'
+cipd
+'
 )
 )
 BUNDLETOOL_JAR_PATH
