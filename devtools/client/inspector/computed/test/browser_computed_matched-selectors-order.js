@@ -491,9 +491,7 @@ wins
 selector
 :
 "
-this
-.
-style
+element
 "
 value
 :
@@ -2081,9 +2079,7 @@ important
 selector
 :
 "
-this
-.
-style
+element
 "
 value
 :
@@ -2247,9 +2243,7 @@ wins
 selector
 :
 "
-this
-.
-style
+element
 "
 value
 :
@@ -4172,9 +4166,7 @@ wins
 selector
 :
 "
-this
-.
-style
+element
 "
 value
 :

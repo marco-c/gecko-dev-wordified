@@ -3524,7 +3524,7 @@ relativeTo
 result
 =
 "
-this
+element
 "
 ;
 }
@@ -3540,14 +3540,6 @@ source
 )
 ;
 }
-result
-+
-=
-"
-.
-style
-"
-;
 }
 return
 result
