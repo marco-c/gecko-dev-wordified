@@ -2734,14 +2734,14 @@ mozilla
 HardwarePreference
 :
 :
-RequireHardware
+None
 mozilla
 :
 :
 HardwarePreference
 :
 :
-None
+RequireSoftware
 >
 {
 }
