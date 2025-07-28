@@ -3463,7 +3463,6 @@ i
 const
 noexcept
 {
-return
 ABSL_HARDENING_ASSERT
 (
 i
@@ -3472,6 +3471,8 @@ size
 (
 )
 )
+;
+return
 ptr_
 [
 i
@@ -3600,7 +3601,6 @@ front
 const
 noexcept
 {
-return
 ABSL_HARDENING_ASSERT
 (
 size
@@ -3609,6 +3609,8 @@ size
 >
 0
 )
+;
+return
 *
 data
 (
@@ -3655,7 +3657,6 @@ back
 const
 noexcept
 {
-return
 ABSL_HARDENING_ASSERT
 (
 size
@@ -3664,6 +3665,8 @@ size
 >
 0
 )
+;
+return
 *
 (
 data
@@ -6871,7 +6874,6 @@ end
 )
 noexcept
 {
-return
 ABSL_HARDENING_ASSERT
 (
 begin
@@ -6879,6 +6881,8 @@ begin
 =
 end
 )
+;
+return
 Span
 <
 T
@@ -7324,7 +7328,6 @@ end
 )
 noexcept
 {
-return
 ABSL_HARDENING_ASSERT
 (
 begin
@@ -7332,6 +7335,8 @@ begin
 =
 end
 )
+;
+return
 Span
 <
 const

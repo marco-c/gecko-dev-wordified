@@ -489,6 +489,7 @@ bc
 )
 ;
 inline
+constexpr
 bool
 ConsumePrefix
 (
@@ -636,6 +637,7 @@ abc
 )
 ;
 inline
+constexpr
 bool
 ConsumeSuffix
 (
@@ -743,6 +745,7 @@ instead
 .
 ABSL_MUST_USE_RESULT
 inline
+constexpr
 absl
 :
 :
@@ -840,6 +843,7 @@ instead
 .
 ABSL_MUST_USE_RESULT
 inline
+constexpr
 absl
 :
 :

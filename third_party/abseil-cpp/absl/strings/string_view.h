@@ -2047,8 +2047,7 @@ str
 }
 /
 /
-Implicit
-constructor
+Constructor
 of
 a
 string_view
@@ -2090,20 +2089,6 @@ len
 )
 {
 }
-/
-/
-NOTE
-:
-Harmlessly
-omitted
-to
-work
-around
-gdb
-bug
-.
-/
-/
 constexpr
 string_view
 (
@@ -2115,8 +2100,6 @@ noexcept
 =
 default
 ;
-/
-/
 string_view
 &
 operator
@@ -2801,7 +2784,6 @@ i
 )
 const
 {
-return
 ABSL_HARDENING_ASSERT
 (
 i
@@ -2810,6 +2792,8 @@ size
 (
 )
 )
+;
+return
 ptr_
 [
 i
@@ -2933,7 +2917,6 @@ front
 )
 const
 {
-return
 ABSL_HARDENING_ASSERT
 (
 !
@@ -2941,6 +2924,8 @@ empty
 (
 )
 )
+;
+return
 ptr_
 [
 0
@@ -2974,7 +2959,6 @@ back
 )
 const
 {
-return
 ABSL_HARDENING_ASSERT
 (
 !
@@ -2982,6 +2966,8 @@ empty
 (
 )
 )
+;
+return
 ptr_
 [
 size
@@ -5834,7 +5820,6 @@ size_type
 len
 )
 {
-return
 ABSL_HARDENING_ASSERT
 (
 len
@@ -5842,6 +5827,8 @@ len
 =
 kMaxSize
 )
+;
+return
 len
 ;
 }

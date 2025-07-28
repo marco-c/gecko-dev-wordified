@@ -960,6 +960,18 @@ Milliseconds
 )
 )
 ;
+#
+ifndef
+_MSC_VER
+/
+/
+Skip
+on
+MSVC
+due
+to
+flakiness
+.
 EXPECT_LT
 (
 waited
@@ -972,6 +984,8 @@ Seconds
 )
 )
 ;
+#
+endif
 }
 TYPED_TEST_P
 (

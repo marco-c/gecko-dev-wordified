@@ -3015,7 +3015,7 @@ string
 out
 ;
 #
-if
+ifdef
 ABSL_INTERNAL_HAS_RTTI
 absl
 :
