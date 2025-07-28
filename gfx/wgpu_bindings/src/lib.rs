@@ -2174,6 +2174,10 @@ String
 )
 PopErrorScopeResponse
 (
+id
+:
+:
+DeviceId
 u8
 /
 *
@@ -2239,6 +2243,10 @@ PipelineError
 }
 CreateShaderModuleResponse
 (
+id
+:
+:
+ShaderModuleId
 Vec
 <
 ShaderModuleCompilationMessage
@@ -2257,6 +2265,12 @@ a
 >
 )
 QueueOnSubmittedWorkDoneResponse
+(
+id
+:
+:
+QueueId
+)
 }
 #
 [
