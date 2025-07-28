@@ -122,9 +122,6 @@ import
 pexpect
 class
 LighttpdServer
-(
-object
-)
 :
   
 "

@@ -382,8 +382,6 @@ tool
     
 super
 (
-LocalTestServerSpawner
-self
 )
 .
 __init__

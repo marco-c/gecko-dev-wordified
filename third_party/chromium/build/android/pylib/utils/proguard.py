@@ -755,6 +755,10 @@ tempfile
 .
 NamedTemporaryFile
 (
+'
+w
++
+'
 )
 as
 proguard_output
@@ -818,9 +822,6 @@ proguard_output
 )
 class
 _AnnotationElement
-(
-object
-)
 :
   
 def
@@ -858,9 +859,6 @@ depth
 depth
 class
 _ParseState
-(
-object
-)
 :
   
 _INITIAL_VALUES

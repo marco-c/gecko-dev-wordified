@@ -129,17 +129,29 @@ subprocess
 .
 check_output
 (
+      
 [
 tool_prefix
 +
 '
-readelf
+readobj
+'
+'
+-
+-
+elf
+-
+output
+-
+style
+=
+GNU
 '
 ]
 +
 options
 +
-                                 
+      
 [
 so_path
 ]
@@ -436,6 +448,7 @@ here
 %
 s
 '
+%
                     
 so_with_symbols_path
 )
@@ -574,13 +587,10 @@ found
 so_path
 )
     
-else
-:
-      
 return
 0
   
-elif
+if
 not
 match
 :

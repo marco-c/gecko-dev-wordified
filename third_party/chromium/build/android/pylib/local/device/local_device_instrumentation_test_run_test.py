@@ -106,8 +106,6 @@ self
     
 super
 (
-LocalDeviceInstrumentationTestRunTest
-self
 )
 .
 setUp

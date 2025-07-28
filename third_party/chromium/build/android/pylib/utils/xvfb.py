@@ -87,9 +87,6 @@ linux
 )
 class
 Xvfb
-(
-object
-)
 :
   
 "

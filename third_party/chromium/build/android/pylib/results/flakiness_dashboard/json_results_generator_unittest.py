@@ -260,13 +260,11 @@ DISABLED_tests
 =
 set
 (
-[
 t
 for
 t
 in
 tests_set
-                          
 if
 t
 .
@@ -276,20 +274,17 @@ startswith
 DISABLED_
 '
 )
-]
 )
     
 FLAKY_tests
 =
 set
 (
-[
 t
 for
 t
 in
 tests_set
-                       
 if
 t
 .
@@ -299,20 +294,17 @@ startswith
 FLAKY_
 '
 )
-]
 )
     
 FAILS_tests
 =
 set
 (
-[
 t
 for
 t
 in
 tests_set
-                       
 if
 t
 .
@@ -322,7 +314,6 @@ startswith
 FAILS_
 '
 )
-]
 )
     
 PASS_tests
@@ -350,7 +341,6 @@ failed_count_map
 =
 dict
 (
-[
 (
 t
 1
@@ -359,7 +349,6 @@ for
 t
 in
 failed_tests
-]
 )
     
 test_timings
@@ -400,9 +389,8 @@ i
     
 test_results_map
 =
-dict
-(
-)
+{
+}
     
 for
 test
@@ -475,7 +463,6 @@ failed_count_map
 =
 dict
 (
-[
 (
 t
 1
@@ -484,7 +471,6 @@ for
 t
 in
 failed_tests
-]
 )
     
 #

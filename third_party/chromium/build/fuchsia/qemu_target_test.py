@@ -5,7 +5,8 @@ usr
 /
 bin
 /
-python2
+env
+python
 #
 Copyright
 2018

@@ -354,7 +354,7 @@ _Discover
       
 self
 .
-_WaitUntilReady
+_ConnectToTarget
 (
 )
       
@@ -602,9 +602,6 @@ boot_data
 .
 GetKernelArgs
 (
-self
-.
-_out_dir
 )
     
 logging

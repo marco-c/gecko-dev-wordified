@@ -48,9 +48,9 @@ __future__
 import
 print_function
 import
-collections
+argparse
 import
-optparse
+collections
 import
 os
 import
@@ -412,11 +412,6 @@ pos
                         
 rel_address
 =
-'
-%
-08x
-'
-%
 int
 (
 m
@@ -762,7 +757,6 @@ lib_relative_addrs
 =
 set
 (
-[
 i
 .
 rel_address
@@ -770,7 +764,6 @@ for
 i
 in
 items
-]
 )
     
 #
@@ -782,25 +775,25 @@ no
 -
 member
     
-info_dict
+symbols_by_library
 =
 symbol
 .
 SymbolInformationForSet
 (
 libname
-                                               
+                                                        
 lib_relative_addrs
-                                               
+                                                        
 True
-                                               
+                                                        
 cpu_arch
 =
 arch
 )
     
 if
-info_dict
+symbols_by_library
 :
       
 all_symbols
@@ -808,7 +801,7 @@ all_symbols
 library
 ]
 =
-info_dict
+symbols_by_library
   
 for
 log_line
@@ -925,6 +918,20 @@ rel_address
 0
 ]
       
+symbol_name
+=
+s
+[
+0
+]
+      
+symbol_location
+=
+s
+[
+1
+]
+      
 print
 (
 '
@@ -936,8 +943,15 @@ s
 s
 %
 s
+\
 '
 %
+s
+\
+'
+'
+%
+            
 (
 m
 .
@@ -945,14 +959,14 @@ prefix
 m
 .
 pos
-s
-[
-0
-]
-s
-[
-1
-]
+hex
+(
+m
+.
+rel_address
+)
+symbol_name
+symbol_location
 )
 )
     
@@ -973,26 +987,27 @@ main
   
 parser
 =
-optparse
+argparse
 .
-OptionParser
+ArgumentParser
 (
 )
   
 parser
 .
-add_option
+add_argument
 (
 '
 -
 l
 '
+                      
 '
 -
 -
 logcat
 '
-                    
+                      
 help
 =
 '
@@ -1003,11 +1018,11 @@ logcat
 output
 with
 ASan
+'
+                      
+'
 stacks
 .
-'
-                         
-'
 Use
 stdin
 if
@@ -1019,7 +1034,7 @@ specified
   
 parser
 .
-add_option
+add_argument
 (
 '
 -
@@ -1028,7 +1043,7 @@ output
 -
 directory
 '
-                    
+                      
 help
 =
 '
@@ -1044,7 +1059,7 @@ directory
   
 parser
 .
-add_option
+add_argument
 (
 '
 -
@@ -1056,7 +1071,6 @@ default
 '
 arm
 '
-                    
 help
 =
 '
@@ -1066,8 +1080,7 @@ name
 '
 )
   
-options
-_
+args
 =
 parser
 .
@@ -1076,7 +1089,7 @@ parse_args
 )
   
 if
-options
+args
 .
 output_directory
 :
@@ -1085,7 +1098,7 @@ constants
 .
 SetOutputDirectory
 (
-options
+args
 .
 output_directory
 )
@@ -1112,7 +1125,7 @@ CheckOutputDirectory
 )
   
 if
-options
+args
 .
 logcat
 :
@@ -1121,7 +1134,7 @@ asan_input
 =
 open
 (
-options
+args
 .
 logcat
 '
@@ -1145,7 +1158,7 @@ asan_input
 readlines
 (
 )
-options
+args
 .
 arch
 )

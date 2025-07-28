@@ -354,6 +354,9 @@ len
 (
 data
 )
+!
+=
+0
 and
 not
 '
@@ -573,9 +576,6 @@ return
 trie
 class
 TestResult
-(
-object
-)
 :
   
 "
@@ -675,7 +675,7 @@ IndexError
       
 _log
 .
-warn
+warning
 (
 '
 Invalid
@@ -779,9 +779,6 @@ self
 DISABLED
 class
 JSONResultsGeneratorBase
-(
-object
-)
 :
   
 "
@@ -1550,6 +1547,7 @@ _log
 .
 error
 (
+            
 '
 Archive
 directory
@@ -1558,7 +1556,7 @@ inaccessible
 .
 Not
 '
-                   
+            
 '
 modifying
 or
@@ -1568,16 +1566,14 @@ results
 .
 json
 '
-                   
+            
 '
 file
 :
+%
+s
 '
-+
-str
-(
 error
-)
 )
         
 return
@@ -2164,7 +2160,6 @@ names
 return
 set
 (
-[
 r
 .
 test_name
@@ -2178,7 +2173,6 @@ if
 r
 .
 failed
-]
 )
   
 def
@@ -2587,17 +2581,6 @@ _master_name
 )
 )
     
-#
-pylint
-:
-disable
-=
-redefined
--
-variable
--
-type
-    
 try
 :
       
@@ -2698,17 +2681,6 @@ url_error
 error
 =
 url_error
-    
-#
-pylint
-:
-enable
-=
-redefined
--
-variable
--
-type
     
 if
 old_results
@@ -3261,6 +3233,9 @@ len
 (
 encoded_results
 )
+!
+=
+0
 and
 item
 =
@@ -3620,11 +3595,13 @@ segment
 ]
     
 if
-not
 len
 (
 this_test
 )
+=
+=
+0
 :
       
 self
@@ -4379,9 +4356,6 @@ results
 result_type
 class
 _FileUploader
-(
-object
-)
 :
   
 def
@@ -4427,7 +4401,7 @@ files
 :
       
 with
-file
+open
 (
 path
 '
@@ -4564,24 +4538,23 @@ e
         
 _log
 .
-warn
+warning
 (
-"
+            
+'
 Received
 HTTP
 status
 %
 s
 loading
-\
 "
 %
 s
-\
 "
 .
-"
-                  
+'
+            
 '
 Retrying
 in

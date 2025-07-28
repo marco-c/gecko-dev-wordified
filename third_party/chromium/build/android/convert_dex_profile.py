@@ -696,9 +696,6 @@ functools
 total_ordering
 class
 Method
-(
-object
-)
 :
   
 def
@@ -945,9 +942,6 @@ class_name
 )
 class
 Class
-(
-object
-)
 :
   
 def
@@ -1415,13 +1409,11 @@ name
 return
 found_methods
     
-else
-:
-      
 logging
 .
 warning
 (
+        
 '
 No
 method
@@ -1438,7 +1430,7 @@ s
 "
 is
 '
-                      
+        
 '
 mapped
 to
@@ -1452,14 +1444,11 @@ self
 name
 hint_lines
 )
-      
+    
 return
 None
 class
 Profile
-(
-object
-)
 :
   
 def
@@ -1641,9 +1630,6 @@ line
 )
 class
 ProguardMapping
-(
-object
-)
 :
   
 def
@@ -1895,14 +1881,18 @@ line_number
     
 super
 (
-MalformedLineException
-self
 )
 .
 __init__
 (
 message
 )
+    
+self
+.
+message
+=
+message
     
 self
 .

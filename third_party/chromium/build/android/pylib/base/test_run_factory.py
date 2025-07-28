@@ -250,3 +250,16 @@ env
 )
 )
 )
+  
+raise
+RuntimeError
+(
+'
+error_func
+must
+call
+exit
+inside
+.
+'
+)

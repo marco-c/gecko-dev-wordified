@@ -161,14 +161,6 @@ pylint
 :
 disable
 =
-relative
--
-import
-#
-pylint
-:
-disable
-=
 line
 -
 too

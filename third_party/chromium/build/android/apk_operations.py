@@ -3779,6 +3779,8 @@ group
     
 except
 AttributeError
+as
+e
 :
       
 raise
@@ -3794,6 +3796,8 @@ output
 +
 package_output
 )
+from
+e
     
 if
 code_path
@@ -4786,9 +4790,6 @@ total
 )
 class
 _LogcatProcessor
-(
-object
-)
 :
   
 ParsedLine
@@ -4829,9 +4830,6 @@ message
   
 class
 NativeStackSymbolizer
-(
-object
-)
 :
     
 "
@@ -5515,6 +5513,10 @@ None
 verbose
 =
 False
+               
+exit_on_match
+=
+None
 )
 :
     
@@ -5541,6 +5543,39 @@ self
 _deobfuscator
 =
 deobfuscate
+    
+if
+exit_on_match
+is
+not
+None
+:
+      
+self
+.
+_exit_on_match
+=
+re
+.
+compile
+(
+exit_on_match
+)
+    
+else
+:
+      
+self
+.
+_exit_on_match
+=
+None
+    
+self
+.
+_found_exit_match
+=
+False
     
 self
 .
@@ -5830,8 +5865,8 @@ _found_initial_pid
 self
 .
 _primary_pid
-!
-=
+is
+not
 None
     
 #
@@ -6070,7 +6105,7 @@ Fore
 .
 WHITE
     
-elif
+if
 pid
 in
 self
@@ -6101,7 +6136,7 @@ Fore
 .
 YELLOW
     
-elif
+if
 dim
 :
       
@@ -6156,18 +6191,15 @@ BLACK
     
 if
 priority
-=
-=
+in
+(
 '
 E
 '
-or
-priority
-=
-=
 '
 F
 '
+)
 :
       
 style
@@ -6526,6 +6558,29 @@ dim
 False
 )
 :
+    
+if
+self
+.
+_exit_on_match
+and
+self
+.
+_exit_on_match
+.
+search
+(
+parsed_line
+.
+message
+)
+:
+      
+self
+.
+_found_exit_match
+=
+True
     
 tid_style
 =
@@ -6901,6 +6956,18 @@ self
 nonce
 =
 None
+  
+def
+FoundExitMatch
+(
+self
+)
+:
+    
+return
+self
+.
+_found_exit_match
   
 def
 ProcessLine
@@ -7327,11 +7394,18 @@ def
 _RunLogcat
 (
 device
+               
 package_name
+               
 stack_script_context
+               
 deobfuscate
                
 verbose
+               
+exit_on_match
+=
+None
 )
 :
   
@@ -7339,12 +7413,19 @@ logcat_processor
 =
 _LogcatProcessor
 (
-      
 device
+                                      
 package_name
+                                      
 stack_script_context
+                                      
 deobfuscate
+                                      
 verbose
+                                      
+exit_on_match
+=
+exit_on_match
 )
   
 device
@@ -7387,6 +7468,16 @@ ProcessLine
 (
 line
 )
+      
+if
+logcat_processor
+.
+FoundExitMatch
+(
+)
+:
+        
+return
     
 except
 :
@@ -8089,9 +8180,6 @@ pprof_out_path
 )
 class
 _StackScriptContext
-(
-object
-)
 :
   
 "
@@ -9065,9 +9153,6 @@ cache_path
 )
 class
 _Command
-(
-object
-)
 :
   
 name
@@ -9227,7 +9312,7 @@ def
 _RegisterExtraArgs
 (
 self
-subp
+group
 )
 :
     
@@ -12597,14 +12682,15 @@ devices
 [
 0
 ]
+                 
 self
 .
 args
 .
 package_name
 stack_script_context
-                 
 deobfuscate
+                 
 bool
 (
 self
@@ -12613,6 +12699,11 @@ args
 .
 verbose_count
 )
+self
+.
+args
+.
+exit_on_match
 )
     
 except
@@ -12731,6 +12822,35 @@ map
 enables
 deobfuscation
 )
+'
+)
+    
+group
+.
+add_argument
+(
+'
+-
+-
+exit
+-
+on
+-
+match
+'
+                       
+help
+=
+'
+Exits
+logcat
+when
+a
+message
+matches
+this
+regex
+.
 '
 )
 class
@@ -13777,6 +13897,9 @@ cmd
 env
 =
 env
+universal_newlines
+=
+True
 )
       
 print
@@ -13876,11 +13999,16 @@ subprocess
 check_output
 (
 cmd
+                                              
 stderr
 =
 subprocess
 .
 STDOUT
+                                              
+universal_newlines
+=
+True
 )
     
 if

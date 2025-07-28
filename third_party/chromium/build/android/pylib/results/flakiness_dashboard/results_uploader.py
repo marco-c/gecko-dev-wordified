@@ -56,7 +56,6 @@ pylint
 :
 disable
 =
-E1002
 R0201
 import
 logging
@@ -148,37 +147,34 @@ master_name
     
 super
 (
-JSONResultsGenerator
-self
 )
 .
 __init__
 (
-        
 builder_name
 =
 builder_name
-        
+                     
 build_name
 =
 build_name
-        
+                     
 build_number
 =
 build_number
-        
+                     
 results_file_base_path
 =
 tmp_folder
-        
+                     
 builder_base_url
 =
 None
-        
+                     
 test_results_map
 =
 test_results_map
-        
+                     
 svn_repositories
 =
 (
@@ -192,7 +188,7 @@ third_party
 WebKit
 '
 )
-                          
+                                       
 (
 '
 chrome
@@ -202,15 +198,15 @@ chrome
 '
 )
 )
-        
+                     
 test_results_server
 =
 test_results_server
-        
+                     
 test_type
 =
 test_type
-        
+                     
 master_name
 =
 master_name
@@ -373,16 +369,13 @@ in_directory
       
 if
 parent
-=
-=
+in
+(
 host_paths
 .
 DIR_SOURCE_ROOT
-or
-parent
-=
-=
 in_directory
+)
 :
         
 return
@@ -446,9 +439,6 @@ GetGitHeadSHA1
 in_directory
 )
       
-else
-:
-        
 return
 '
 '
@@ -532,9 +522,6 @@ return
 '
 class
 ResultsUploader
-(
-object
-)
 :
   
 "

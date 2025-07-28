@@ -211,9 +211,6 @@ fractional_line_coverage
 )
 class
 _EmmaHtmlParser
-(
-object
-)
 :
   
 "
@@ -1714,9 +1711,6 @@ xpath_selector
 )
 class
 _EmmaCoverageStats
-(
-object
-)
 :
   
 "
@@ -3073,9 +3067,6 @@ file_path
 return
 True
     
-else
-:
-      
 logging
 .
 info
@@ -3093,7 +3084,7 @@ coverage
 '
 file_path
 )
-      
+    
 return
 False
   
@@ -3242,9 +3233,6 @@ package
 file_name
 )
       
-else
-:
-        
 return
 None
 def

@@ -281,9 +281,6 @@ tombstone
 )
 class
 _DEFAULT_TIMEOUTS
-(
-object
-)
 :
   
 #
@@ -331,9 +328,6 @@ PRE_LOLLIPOP
 )
 class
 _PHASES
-(
-object
-)
 :
   
 WIPE
@@ -412,8 +406,6 @@ args
 emulators
 or
 d
-.
-adb
 .
 is_emulator
   
@@ -3099,9 +3091,6 @@ device
 return
 True
     
-else
-:
-      
 logging
 .
 error
@@ -3119,7 +3108,7 @@ Correct
 %
 s
 '
-                    
+                  
 device_time
 .
 isoformat
@@ -3131,7 +3120,7 @@ isoformat
 (
 )
 )
-      
+    
 return
 False
   

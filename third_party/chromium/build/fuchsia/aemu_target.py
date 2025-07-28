@@ -93,13 +93,13 @@ __init__
 self
 out_dir
 target_cpu
-system_log_file
 cpu_cores
-               
 require_kvm
 ram_size_mb
+               
 enable_graphics
 hardware_gpu
+logs_dir
 )
 :
     
@@ -113,11 +113,11 @@ __init__
 (
 out_dir
 target_cpu
-system_log_file
-                                     
 cpu_cores
+                                     
 require_kvm
 ram_size_mb
+logs_dir
 )
     
 self
@@ -152,24 +152,24 @@ args
 target_cpu
 args
 .
-system_log_file
-                      
-args
-.
 cpu_cores
+                      
 args
 .
 require_kvm
 args
 .
 ram_size_mb
-                      
 args
 .
 enable_graphics
+                      
 args
 .
 hardware_gpu
+args
+.
+logs_dir
 )
   
 staticmethod

@@ -145,7 +145,7 @@ items
     
 }
   
-elif
+if
 isinstance
 (
 data
@@ -656,16 +656,11 @@ if
 not
 is_set
 and
-(
 isinstance
 (
 value
+(
 long
-)
-or
-isinstance
-(
-value
 int
 )
 )

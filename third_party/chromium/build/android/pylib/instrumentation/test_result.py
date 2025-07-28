@@ -140,13 +140,10 @@ errors
     
 super
 (
-InstrumentationTestResult
-self
 )
 .
 __init__
 (
-        
 full_name
 test_type
 dur

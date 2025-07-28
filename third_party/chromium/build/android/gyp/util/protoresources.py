@@ -1470,9 +1470,6 @@ process_func
 )
 class
 _ResourceStripper
-(
-object
-)
 :
   
 def
@@ -1604,7 +1601,7 @@ new_entries
 ]
       
 for
-entry
+e
 in
 entries
 :
@@ -1622,7 +1619,7 @@ full_name
 format
 (
 type_and_name
-entry
+e
 .
 key
 .
@@ -1664,7 +1661,7 @@ new_entries
 .
 append
 (
-entry
+e
 )
       
 if

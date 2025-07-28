@@ -563,9 +563,6 @@ return
 ret
 class
 _TargetEntry
-(
-object
-)
 :
   
 def

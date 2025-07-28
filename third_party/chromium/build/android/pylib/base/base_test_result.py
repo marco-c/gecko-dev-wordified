@@ -52,6 +52,8 @@ classes
 import
 functools
 import
+sys
+import
 threading
 from
 lib
@@ -69,9 +71,6 @@ import
 error
 class
 ResultType
-(
-object
-)
 :
   
 "
@@ -200,9 +199,6 @@ functools
 total_ordering
 class
 BaseTestResult
-(
-object
-)
 :
   
 "
@@ -799,9 +795,6 @@ self
 _links
 class
 TestRunResults
-(
-object
-)
 :
   
 "
@@ -1017,6 +1010,54 @@ s
 append
 (
 log
+)
+      
+if
+sys
+.
+version_info
+.
+major
+=
+=
+2
+:
+        
+decoded
+=
+[
+u
+.
+decode
+(
+encoding
+=
+'
+utf
+-
+8
+'
+errors
+=
+'
+ignore
+'
+)
+for
+u
+in
+s
+]
+        
+return
+'
+\
+n
+'
+.
+join
+(
+decoded
 )
       
 return

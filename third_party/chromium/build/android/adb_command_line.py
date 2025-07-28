@@ -175,7 +175,7 @@ build
 device
 )
   
-elif
+if
 device
 .
 IsUserBuild

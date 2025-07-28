@@ -180,9 +180,6 @@ py_trace_event
 ]
 class
 _TraceArguments
-(
-object
-)
 :
   
 def
@@ -487,7 +484,6 @@ includes
 =
 any
 (
-[
 pattern
 .
 match
@@ -498,7 +494,6 @@ for
 pattern
 in
 to_include
-]
 )
   
 else
@@ -1088,6 +1083,9 @@ trace_end
 function_name
 )
         
+return
+None
+    
 return
 None
   

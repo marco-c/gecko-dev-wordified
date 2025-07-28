@@ -186,6 +186,10 @@ py
 env
 =
 skia_gold_env
+          
+skip_shebang_check
+=
+True
 )
 )
   

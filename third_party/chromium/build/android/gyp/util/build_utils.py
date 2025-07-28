@@ -1404,8 +1404,6 @@ output
     
 super
 (
-CalledProcessError
-self
 )
 .
 __init__
@@ -2926,10 +2924,29 @@ none
 was
 provided
 .
+Note
+that
+even
+if
+date_time
+is
+set
+it
+can
+be
+None
+.
   
 date_time
 =
-None
+kwargs
+.
+get
+(
+'
+date_time
+'
+)
   
 if
 len
@@ -2946,23 +2963,6 @@ date_time
 args
 [
 1
-]
-  
-elif
-'
-date_time
-'
-in
-kwargs
-:
-    
-date_time
-=
-kwargs
-[
-'
-date_time
-'
 ]
   
 if

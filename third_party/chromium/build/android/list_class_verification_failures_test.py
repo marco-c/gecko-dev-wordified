@@ -554,7 +554,7 @@ cm
       
 list_verification
 .
-PathToDexForPlatformVersion
+FindOdexFiles
 (
 device
 package_name
@@ -654,48 +654,66 @@ return_value
 paths_to_apk
 )
     
-with
-self
-.
-assertRaises
-(
+odex_files
+=
 list_verification
 .
-DeviceOSError
-)
-as
-cm
-:
-      
-list_verification
-.
-PathToDexForPlatformVersion
+FindOdexFiles
 (
 device
 package_name
 )
     
-message
-=
-str
-(
-cm
-.
-exception
-)
-    
 self
 .
-assertIn
+assertEqual
 (
+odex_files
+[
+        
 '
-Expected
-exactly
-one
-path
-for
+/
+data
+/
+dalvik
+-
+cache
+/
+arm64
+/
+data
+app
+first
+base
+.
+apk
+classes
+.
+dex
 '
-message
+        
+'
+/
+data
+/
+dalvik
+-
+cache
+/
+arm64
+/
+data
+app
+second
+base
+.
+apk
+classes
+.
+dex
+'
+    
+]
 )
   
 def
@@ -778,7 +796,7 @@ _
       
 list_verification
 .
-PathToDexForPlatformVersion
+FindOdexFiles
 (
 device
 package_name
@@ -876,14 +894,13 @@ return_value
 True
 )
     
-odex_file
+odex_files
 =
 list_verification
 .
-PathToDexForPlatformVersion
+FindOdexFiles
 (
 device
-                                                              
 package_name
 )
     
@@ -891,9 +908,10 @@ self
 .
 assertEqual
 (
-odex_file
-                     
-(
+        
+odex_files
+        
+[
 '
 /
 data
@@ -906,9 +924,6 @@ arm
 /
 data
 app
-'
-                      
-'
 package
 .
 name
@@ -921,7 +936,7 @@ classes
 .
 dex
 '
-)
+]
 )
   
 def
@@ -1016,14 +1031,13 @@ return_value
 True
 )
     
-odex_file
+odex_files
 =
 list_verification
 .
-PathToDexForPlatformVersion
+FindOdexFiles
 (
 device
-                                                              
 package_name
 )
     
@@ -1031,8 +1045,9 @@ self
 .
 assertEqual
 (
-odex_file
+odex_files
                      
+[
 '
 /
 some
@@ -1053,6 +1068,7 @@ base
 .
 odex
 '
+]
 )
   
 def
@@ -1147,14 +1163,13 @@ return_value
 True
 )
     
-odex_file
+odex_files
 =
 list_verification
 .
-PathToDexForPlatformVersion
+FindOdexFiles
 (
 device
-                                                              
 package_name
 )
     
@@ -1162,8 +1177,9 @@ self
 .
 assertEqual
 (
-odex_file
+odex_files
                      
+[
 '
 /
 some
@@ -1184,6 +1200,7 @@ base
 .
 odex
 '
+]
 )
   
 def
@@ -1293,7 +1310,7 @@ cm
       
 list_verification
 .
-PathToDexForPlatformVersion
+FindOdexFiles
 (
 device
 package_name
@@ -1435,7 +1452,7 @@ _
       
 list_verification
 .
-PathToDexForPlatformVersion
+FindOdexFiles
 (
 device
 package_name
@@ -1489,10 +1506,9 @@ classes
 =
 list_verification
 .
-ListClassesAndVerificationStatus
+ParseOatdump
 (
 oatdump_output
-                                                                 
 None
 )
     
@@ -1646,10 +1662,9 @@ classes
 =
 list_verification
 .
-ListClassesAndVerificationStatus
+ParseOatdump
 (
 oatdump_output
-                                                                 
 mapping
 )
     
@@ -1764,10 +1779,9 @@ classes
 =
 list_verification
 .
-ListClassesAndVerificationStatus
+ParseOatdump
 (
 oatdump_output
-                                                                 
 None
 )
     

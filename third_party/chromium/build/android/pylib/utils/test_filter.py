@@ -157,7 +157,7 @@ googletest
 /
 blob
 /
-master
+main
 /
 docs
 /
@@ -1051,7 +1051,7 @@ and
 separated
   
 for
-test_filter_file
+test_filter_files
 in
 args
 .
@@ -1074,7 +1074,7 @@ separated
 for
 test_filter_file
 in
-test_filter_file
+test_filter_files
 .
 split
 (

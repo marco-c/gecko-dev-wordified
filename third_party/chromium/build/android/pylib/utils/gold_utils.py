@@ -511,7 +511,7 @@ SkiaGoldProperties
 staticmethod
   
 def
-_GetGitOriginMasterHeadSha1
+_GetGitOriginMainHeadSha1
 (
 )
 :
@@ -519,7 +519,7 @@ _GetGitOriginMasterHeadSha1
 return
 repo_utils
 .
-GetGitOriginMasterHeadSHA1
+GetGitOriginMainHeadSHA1
 (
 host_paths
 .

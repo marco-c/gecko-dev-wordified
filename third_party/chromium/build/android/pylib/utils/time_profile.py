@@ -42,9 +42,6 @@ import
 time
 class
 TimeProfile
-(
-object
-)
 :
   
 "

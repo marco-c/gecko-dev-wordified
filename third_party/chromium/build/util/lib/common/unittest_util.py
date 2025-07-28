@@ -761,7 +761,7 @@ googletest
 /
 blob
 /
-master
+main
 /
 docs
 /
@@ -930,7 +930,7 @@ googletest
 /
 blob
 /
-master
+main
 /
 docs
 /

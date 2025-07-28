@@ -35,9 +35,6 @@ file
 .
 class
 TestServer
-(
-object
-)
 :
   
 "

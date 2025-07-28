@@ -160,9 +160,6 @@ uint16_t
 ]
 class
 EnumDefinition
-(
-object
-)
 :
   
 def
@@ -563,6 +560,8 @@ value
           
 except
 ValueError
+as
+e
 :
             
 raise
@@ -595,6 +594,8 @@ value
 key
 )
 )
+from
+e
         
 prev_enum_value
 =
@@ -696,7 +697,6 @@ prefixes
 if
 all
 (
-[
 w
 .
 startswith
@@ -713,7 +713,6 @@ entries
 keys
 (
 )
-]
 )
 :
           
@@ -1042,9 +1041,6 @@ return
 ret
 class
 DirectiveSet
-(
-object
-)
 :
   
 class_name_override_key
@@ -1205,9 +1201,6 @@ prefix_to_strip_key
 )
 class
 HeaderParser
-(
-object
-)
 :
   
 single_line_comment_re
@@ -2462,7 +2455,7 @@ package
 '
 )
     
-elif
+if
 generator_directive
 :
       

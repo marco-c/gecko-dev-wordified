@@ -98,9 +98,6 @@ up
 .
 class
 Deobfuscator
-(
-object
-)
 :
   
 def
@@ -971,9 +968,6 @@ Close
 )
 class
 DeobfuscatorPool
-(
-object
-)
 :
   
 #

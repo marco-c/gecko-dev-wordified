@@ -566,7 +566,7 @@ val
 in
 result
 .
-iteritems
+items
 (
 )
 :

@@ -137,9 +137,9 @@ volume
 .
 EXTENDED_BLOBSTORE_SIZE
 =
-1073741824
+2147483648
 #
-1GB
+2GB
 def
 GetTargetType
 (
@@ -169,11 +169,11 @@ __init__
 self
 out_dir
 target_cpu
-system_log_file
 cpu_cores
-               
 require_kvm
 ram_size_mb
+               
+logs_dir
 )
 :
     
@@ -187,7 +187,7 @@ __init__
 (
 out_dir
 target_cpu
-system_log_file
+logs_dir
 )
     
 self
@@ -228,17 +228,17 @@ args
 target_cpu
 args
 .
-system_log_file
-                      
-args
-.
 cpu_cores
+                      
 args
 .
 require_kvm
 args
 .
 ram_size_mb
+args
+.
+logs_dir
 )
   
 def
@@ -662,6 +662,18 @@ _GetTargetSdkArch
         
 '
 -
+object
+'
+        
+'
+iothread
+id
+=
+iothread0
+'
+        
+'
+-
 device
 '
         
@@ -674,6 +686,9 @@ pci
 drive
 =
 blobstore
+iothread
+=
+iothread0
 '
         
 #
@@ -753,7 +768,9 @@ machine
 '
 '
 virt
-gic_version
+gic
+-
+version
 =
 3
 '
@@ -1064,9 +1081,6 @@ boot_data
 .
 GetKernelArgs
 (
-self
-.
-_out_dir
 )
     
 #

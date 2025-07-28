@@ -112,9 +112,6 @@ DEFAULT_UPLOAD_BANDWIDTH_KBPS
 72000
 class
 WPRServer
-(
-object
-)
 :
   
 "
@@ -481,9 +478,6 @@ self
 _archive_path
 class
 ChromeProxySession
-(
-object
-)
 :
   
 "

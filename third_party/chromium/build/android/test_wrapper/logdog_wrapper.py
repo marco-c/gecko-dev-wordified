@@ -72,6 +72,8 @@ import
 subprocess
 import
 sys
+import
+six
 _SRC_PATH
 =
 os
@@ -242,6 +244,26 @@ being
 passed
 in
   
+if
+six
+.
+PY3
+:
+    
+parser
+=
+argparse
+.
+ArgumentParser
+(
+allow_abbrev
+=
+False
+)
+  
+else
+:
+    
 parser
 =
 argparse

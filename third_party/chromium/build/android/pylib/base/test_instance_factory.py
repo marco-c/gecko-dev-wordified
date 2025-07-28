@@ -95,7 +95,7 @@ GetDataDependencies
 error_func
 )
   
-elif
+if
 args
 .
 command
@@ -119,7 +119,7 @@ GetDataDependencies
 error_func
 )
   
-elif
+if
 args
 .
 command
@@ -139,7 +139,7 @@ args
 error_func
 )
   
-elif
+if
 args
 .
 command
@@ -175,4 +175,17 @@ instance
 args
 .
 command
+)
+  
+raise
+RuntimeError
+(
+'
+error_func
+must
+call
+exit
+inside
+.
+'
 )
