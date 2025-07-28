@@ -675,6 +675,9 @@ aNotify
 ErrorResult
 &
 aRv
+nsINode
+*
+aOldParent
 )
 {
 SVGSwitchElementBase
@@ -686,6 +689,7 @@ aKid
 aBeforeThis
 aNotify
 aRv
+aOldParent
 )
 ;
 if
@@ -720,6 +724,9 @@ const
 BatchRemovalState
 *
 aState
+nsINode
+*
+aNewParent
 )
 {
 SVGSwitchElementBase
@@ -730,6 +737,7 @@ RemoveChildNode
 aKid
 aNotify
 aState
+aNewParent
 )
 ;
 MaybeInvalidate

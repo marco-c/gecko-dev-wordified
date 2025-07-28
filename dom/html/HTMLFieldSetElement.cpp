@@ -661,6 +661,9 @@ aNotify
 ErrorResult
 &
 aRv
+nsINode
+*
+aOldParent
 )
 {
 bool
@@ -828,6 +831,7 @@ aChild
 aBeforeThis
 aNotify
 aRv
+aOldParent
 )
 ;
 if
@@ -869,6 +873,9 @@ const
 BatchRemovalState
 *
 aState
+nsINode
+*
+aNewParent
 )
 {
 bool
@@ -968,6 +975,7 @@ RemoveChildNode
 aKid
 aNotify
 aState
+aNewParent
 )
 ;
 if
