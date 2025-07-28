@@ -224,11 +224,6 @@ nsIHTMLCollection
 .
 h
 "
-"
-nsIRadioVisitor
-.
-h
-"
 ]
 EXPORTS
 .
@@ -1022,11 +1017,6 @@ cpp
 "
 "
 nsIConstraintValidation
-.
-cpp
-"
-"
-nsRadioVisitor
 .
 cpp
 "
