@@ -612,7 +612,7 @@ async_wrappers
 IndexMap
 <
 String
-ConcrrencyMode
+ConcurrencyMode
 >
 #
 [
@@ -655,7 +655,7 @@ PascalCase
 ]
 pub
 enum
-ConcrrencyMode
+ConcurrencyMode
 {
 /
 /
