@@ -275,7 +275,6 @@ const
 getSourceMap
 getSourceMapWithMetadata
 setSourceMap
-clearSourceMapForSources
 clearSourceMaps
 :
 clearSourceMapsRequests
@@ -3593,18 +3592,6 @@ sourceMapConsumer
 }
 }
 function
-clearSourceMapForGeneratedSources
-(
-generatedSourceIds
-)
-{
-clearSourceMapForSources
-(
-generatedSourceIds
-)
-;
-}
-function
 clearSourceMaps
 (
 )
@@ -3639,7 +3626,6 @@ getOriginalSourceText
 getGeneratedRangesForOriginal
 getFileGeneratedRange
 setSourceMapForGeneratedSources
-clearSourceMapForGeneratedSources
 clearSourceMaps
 }
 ;

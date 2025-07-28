@@ -162,9 +162,9 @@ AccessibleImage
 ;
 import
 {
+getGeneratedSourceByURL
 getHideIgnoredSources
 isSourceOverridden
-getGeneratedSourceByURL
 }
 from
 "

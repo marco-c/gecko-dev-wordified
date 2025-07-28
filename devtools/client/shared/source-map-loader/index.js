@@ -760,17 +760,6 @@ return
 rv
 ;
 }
-clearSourceMapForGeneratedSources
-=
-this
-.
-task
-(
-"
-clearSourceMapForGeneratedSources
-"
-)
-;
 destroy
 (
 )

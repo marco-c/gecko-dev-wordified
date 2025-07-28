@@ -306,11 +306,6 @@ getOriginalLocation
 (
 frame
 .
-generatedLocation
-|
-|
-frame
-.
 location
 thunkArgs
 {

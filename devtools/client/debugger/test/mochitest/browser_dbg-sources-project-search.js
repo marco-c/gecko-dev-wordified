@@ -362,7 +362,7 @@ source
 )
 ;
 await
-togglePrettyPrint
+prettyPrint
 (
 dbg
 )

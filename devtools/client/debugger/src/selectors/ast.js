@@ -88,14 +88,12 @@ state
 ast
 .
 mutableInScopeLines
-.
-get
-(
+[
 makeBreakpointId
 (
 location
 )
-)
+]
 ?
 .
 lines
