@@ -7086,7 +7086,7 @@ endif
 XP_MACOSX
 }
 void
-RunTestsUtilityAudioDecoder
+RunTestsUtilityMediaService
 (
 SandboxTestingChild
 *

@@ -518,7 +518,7 @@ SANDBOX_LITERAL
 static
 const
 char
-SandboxPolicyUtilityAudioDecoderAppleMediaAddend
+SandboxPolicyUtilityMediaServiceAppleMediaAddend
 [
 ]
 =

@@ -149,7 +149,7 @@ mozilla
 /
 ipc
 /
-UtilityAudioDecoderParent
+UtilityMediaServiceParent
 .
 h
 "
@@ -474,11 +474,11 @@ ipc
 :
 :
 IPCResult
-RecvStartUtilityAudioDecoderService
+RecvStartUtilityMediaService
 (
 Endpoint
 <
-PUtilityAudioDecoderParent
+PUtilityMediaServiceParent
 >
 &
 &
@@ -672,9 +672,9 @@ mProfilerController
 ;
 RefPtr
 <
-UtilityAudioDecoderParent
+UtilityMediaServiceParent
 >
-mUtilityAudioDecoderInstance
+mUtilityMediaServiceInstance
 {
 }
 ;

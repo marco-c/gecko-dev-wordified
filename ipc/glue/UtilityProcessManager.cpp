@@ -206,7 +206,7 @@ mozilla
 /
 ipc
 /
-UtilityAudioDecoderChild
+UtilityMediaServiceChild
 .
 h
 "
@@ -217,7 +217,7 @@ mozilla
 /
 ipc
 /
-UtilityAudioDecoderParent
+UtilityMediaServiceParent
 .
 h
 "
@@ -2381,11 +2381,11 @@ this
 ;
 RefPtr
 <
-UtilityAudioDecoderChild
+UtilityMediaServiceChild
 >
-uadc
+umsc
 =
-UtilityAudioDecoderChild
+UtilityMediaServiceChild
 :
 :
 GetSingleton
@@ -2395,7 +2395,7 @@ aSandbox
 ;
 MOZ_ASSERT
 (
-uadc
+umsc
 "
 Unable
 to
@@ -2403,14 +2403,14 @@ get
 a
 singleton
 for
-UtilityAudioDecoderChild
+UtilityMediaServiceChild
 "
 )
 ;
 return
 StartUtility
 (
-uadc
+umsc
 aSandbox
 )
 -
@@ -2423,7 +2423,7 @@ GetMainThreadSerialEventTarget
 __func__
 [
 self
-uadc
+umsc
 aOtherProcess
 aChildId
 aSandbox
@@ -2455,7 +2455,7 @@ parent
 NS_WARNING
 (
 "
-UtilityAudioDecoderParent
+UtilityMediaServiceParent
 lost
 in
 the
@@ -2489,7 +2489,7 @@ __func__
 if
 (
 !
-uadc
+umsc
 -
 >
 CanSend
@@ -2500,7 +2500,7 @@ CanSend
 NS_WARNING
 (
 "
-UtilityAudioDecoderChild
+UtilityMediaServiceChild
 lost
 in
 the
@@ -2614,7 +2614,7 @@ __func__
 if
 (
 !
-uadc
+umsc
 -
 >
 SendNewContentRemoteMediaManager
@@ -2648,7 +2648,7 @@ CreateAndReject
 LaunchError
 (
 "
-UADC
+UMSC
 :
 :
 SendNewCRDM
@@ -2673,7 +2673,7 @@ MF_MEDIA_ENGINE_CDM
 &
 &
 !
-uadc
+umsc
 -
 >
 CreateVideoBridge
@@ -2702,7 +2702,7 @@ CreateAndReject
 LaunchError
 (
 "
-UADC
+UMSC
 :
 :
 CreateVideoBridge

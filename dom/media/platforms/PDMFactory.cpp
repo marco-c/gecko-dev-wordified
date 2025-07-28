@@ -332,7 +332,7 @@ mozilla
 /
 ipc
 /
-UtilityAudioDecoderParent
+UtilityMediaServiceParent
 .
 h
 "

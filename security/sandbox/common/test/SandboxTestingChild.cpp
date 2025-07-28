@@ -600,7 +600,7 @@ RunTestsGenericUtility
 this
 )
 ;
-RunTestsUtilityAudioDecoder
+RunTestsUtilityMediaService
 (
 this
 s
@@ -623,7 +623,7 @@ SandboxingKind
 :
 UTILITY_AUDIO_DECODING_APPLE_MEDIA
 :
-RunTestsUtilityAudioDecoder
+RunTestsUtilityMediaService
 (
 this
 s
@@ -648,7 +648,7 @@ SandboxingKind
 :
 UTILITY_AUDIO_DECODING_WMF
 :
-RunTestsUtilityAudioDecoder
+RunTestsUtilityMediaService
 (
 this
 s

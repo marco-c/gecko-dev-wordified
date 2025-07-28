@@ -108,7 +108,7 @@ PProfiler
 ;
 include
 protocol
-PUtilityAudioDecoder
+PUtilityMediaService
 ;
 include
 protocol
@@ -762,11 +762,11 @@ TestTelemetryProbes
 )
 ;
 async
-StartUtilityAudioDecoderService
+StartUtilityMediaService
 (
 Endpoint
 <
-PUtilityAudioDecoderParent
+PUtilityMediaServiceParent
 >
 aEndpoint
 GfxVarUpdate

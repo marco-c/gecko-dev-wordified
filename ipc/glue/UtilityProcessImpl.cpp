@@ -693,7 +693,7 @@ required
 for
 ffmpeg
 only
-UtilityAudioDecoderParent
+UtilityMediaServiceParent
 :
 :
 GenericPreloadForSandbox
@@ -728,7 +728,7 @@ MF_MEDIA_ENGINE_CDM
 endif
 )
 {
-UtilityAudioDecoderParent
+UtilityMediaServiceParent
 :
 :
 WMFPreloadForSandbox
