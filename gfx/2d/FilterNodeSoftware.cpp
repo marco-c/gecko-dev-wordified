@@ -248,7 +248,7 @@ works
 *
 by
 caching
-129
+257
 (
 (
 1
@@ -756,7 +756,7 @@ const
 int
 sCacheIndexPrecisionBits
 =
-7
+8
 ;
 inline
 bool
