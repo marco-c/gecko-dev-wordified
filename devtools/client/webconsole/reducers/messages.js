@@ -1162,6 +1162,24 @@ size
 {
 if
 (
+/
+/
+only
+repeat
+messages
+if
+the
+group
+similar
+messages
+pref
+is
+enabled
+prefsState
+.
+groupSimilar
+&
+&
 lastMessage
 .
 groupId
@@ -1336,7 +1354,6 @@ If
 the
 preference
 for
-warning
 grouping
 is
 true
@@ -1348,8 +1365,6 @@ could
 be
 in
 a
-/
-/
 warning
 group
 .
@@ -1357,7 +1372,7 @@ if
 (
 prefsState
 .
-groupWarnings
+groupSimilar
 &
 &
 warningGroupType
@@ -4180,7 +4195,7 @@ frontsToRelease
 case
 constants
 .
-WARNING_GROUPS_TOGGLE
+GROUP_SIMILAR_MESSAGES_TOGGLE
 :
 /
 /
@@ -4212,7 +4227,7 @@ if
 !
 prefsState
 .
-groupWarnings
+groupSimilar
 &
 &
 state
@@ -4465,7 +4480,7 @@ forceTimestampSort
 !
 prefsState
 .
-groupWarnings
+groupSimilar
 }
 )
 ;
@@ -5018,7 +5033,7 @@ is
 enabled
 prefsState
 .
-groupWarnings
+groupSimilar
 forceTimestampSort
 )
 ;
@@ -9980,7 +9995,7 @@ if
 !
 prefsState
 .
-groupWarnings
+groupSimilar
 )
 {
 return

@@ -151,7 +151,7 @@ SIDEBAR_CLOSE
 SPLIT_CONSOLE_CLOSE_BUTTON_TOGGLE
 SHOW_EVALUATION_NOTIFICATION
 TIMESTAMPS_TOGGLE
-WARNING_GROUPS_TOGGLE
+GROUP_SIMILAR_MESSAGES_TOGGLE
 FILTERBAR_DISPLAY_MODE_SET
 EDITOR_TOGGLE
 EDITOR_SET_WIDTH
@@ -441,7 +441,7 @@ autocomplete
 ;
 }
 function
-warningGroupsToggle
+groupSimilarMessagesToggle
 (
 )
 {
@@ -461,7 +461,7 @@ dispatch
 {
 type
 :
-WARNING_GROUPS_TOGGLE
+GROUP_SIMILAR_MESSAGES_TOGGLE
 }
 )
 ;
@@ -483,10 +483,10 @@ PREFS
 .
 FEATURES
 .
-GROUP_WARNINGS
+GROUP_SIMILAR_MESSAGES
 prefsState
 .
-groupWarnings
+groupSimilar
 )
 ;
 }
@@ -993,7 +993,7 @@ sidebarClose
 splitConsoleCloseButtonToggle
 timestampsToggle
 networkMonitoringToggle
-warningGroupsToggle
+groupSimilarMessagesToggle
 openLink
 openSidebar
 autocompleteToggle

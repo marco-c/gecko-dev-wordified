@@ -247,7 +247,7 @@ devtools
 .
 webconsole
 .
-groupWarningMessages
+groupSimilarMessages
 "
 true
 )

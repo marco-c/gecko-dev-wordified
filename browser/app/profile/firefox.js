@@ -37360,8 +37360,11 @@ true
 /
 /
 Enable
-message
 grouping
+/
+repeating
+similar
+messages
 in
 the
 console
@@ -37375,7 +37378,7 @@ devtools
 .
 webconsole
 .
-groupWarningMessages
+groupSimilarMessages
 "
 true
 )

@@ -370,7 +370,7 @@ devtools
 .
 webconsole
 .
-groupWarningMessages
+groupSimilarMessages
 "
 false
 )

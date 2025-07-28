@@ -340,7 +340,7 @@ PropTypes
 bool
 .
 isRequired
-groupWarnings
+groupSimilar
 :
 PropTypes
 .
@@ -393,7 +393,7 @@ const
 {
 dispatch
 eagerEvaluation
-groupWarnings
+groupSimilar
 persistLogs
 timestampsVisible
 autocomplete
@@ -786,7 +786,7 @@ groups
 "
 checked
 :
-groupWarnings
+groupSimilar
 className
 :
 "
@@ -861,7 +861,7 @@ dispatch
 (
 actions
 .
-warningGroupsToggle
+groupSimilarMessagesToggle
 (
 )
 )

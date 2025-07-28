@@ -64,7 +64,7 @@ strict
 const
 {
 EAGER_EVALUATION_TOGGLE
-WARNING_GROUPS_TOGGLE
+GROUP_SIMILAR_MESSAGES_TOGGLE
 AUTOCOMPLETE_TOGGLE
 }
 =
@@ -108,7 +108,7 @@ logLimit
 sidebarToggle
 :
 false
-groupWarnings
+groupSimilar
 :
 false
 autocomplete
@@ -137,11 +137,11 @@ EAGER_EVALUATION_TOGGLE
 eagerEvaluation
 "
 [
-WARNING_GROUPS_TOGGLE
+GROUP_SIMILAR_MESSAGES_TOGGLE
 ]
 :
 "
-groupWarnings
+groupSimilar
 "
 [
 AUTOCOMPLETE_TOGGLE
