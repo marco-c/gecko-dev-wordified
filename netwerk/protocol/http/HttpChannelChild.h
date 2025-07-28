@@ -1947,6 +1947,12 @@ mCacheEntryId
 0
 }
 ;
+CacheDisposition
+mCacheDisposition
+{
+kCacheUnknown
+}
+;
 uint32_t
 mCacheKey
 {
