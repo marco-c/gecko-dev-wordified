@@ -1020,7 +1020,7 @@ WhenProcessHandleReady
 (
 )
 ;
-bool
+void
 InitializeChannel
 (
 IPC
@@ -1030,8 +1030,9 @@ Channel
 :
 :
 ChannelHandle
-*
-aClientHandle
+&
+&
+aServerHandle
 )
 ;
 virtual
