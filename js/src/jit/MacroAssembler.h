@@ -40281,17 +40281,6 @@ scratch
 ;
 }
 void
-loadResizableTypedArrayByteOffsetMaybeOutOfBoundsIntPtr
-(
-Register
-obj
-Register
-output
-Register
-scratch
-)
-;
-void
 dateFillLocalTimeSlots
 (
 Register
