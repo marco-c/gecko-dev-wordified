@@ -1734,6 +1734,9 @@ AtomicBitmap
 other
 )
 ;
+class
+Iter
+;
 }
 ;
 /
