@@ -424,7 +424,7 @@ input
 >
 input
 .
-name
+id
 =
 =
 =
@@ -757,7 +757,7 @@ input
 >
 input
 .
-name
+id
 =
 =
 =
@@ -812,7 +812,7 @@ input
 >
 input
 .
-name
+id
 =
 =
 =
