@@ -154,6 +154,9 @@ RunTests
 (
 self
 results
+raw_logs_fh
+=
+None
 )
 :
     
@@ -188,6 +191,19 @@ base_test_result
 TestRunResults
 |
 objects
+.
+      
+raw_logs_fh
+:
+An
+optional
+file
+handle
+to
+write
+raw
+logs
+to
 .
     
 "

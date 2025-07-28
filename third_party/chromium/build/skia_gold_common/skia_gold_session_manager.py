@@ -45,6 +45,16 @@ SkiaGoldSessions
 "
 "
 "
+#
+pylint
+:
+disable
+=
+useless
+-
+object
+-
+inheritance
 import
 json
 import

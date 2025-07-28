@@ -2439,9 +2439,21 @@ expand
       
 [
 True
+True
 ]
       
 [
+False
+True
+]
+      
+[
+True
+False
+]
+      
+[
+False
 False
 ]
   
@@ -2453,6 +2465,7 @@ test_host_cmd
 (
 self
 is_lacros
+strip_chrome
 )
 :
     
@@ -2538,6 +2551,23 @@ args
 -
 -
 deploy
+-
+chrome
+'
+]
+      
+if
+strip_chrome
+:
+        
+args
++
+=
+[
+'
+-
+-
+strip
 -
 chrome
 '
@@ -2735,12 +2765,23 @@ mount
 '
 -
 -
-nostrip
-'
-'
--
--
 deploy
+'
+]
+        
+if
+not
+strip_chrome
+:
+          
+expected_cmd
++
+=
+[
+'
+-
+-
+nostrip
 '
 ]
       

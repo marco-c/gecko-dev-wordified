@@ -584,6 +584,13 @@ S
 tdevice
 '
 out
+.
+decode
+(
+'
+latin1
+'
+)
 re
 .
 MULTILINE
@@ -1101,6 +1108,17 @@ __main__
 '
 :
   
+logging
+.
+basicConfig
+(
+level
+=
+logging
+.
+INFO
+)
+  
 if
 2
 <
@@ -1151,7 +1169,7 @@ argv
 ]
 )
 )
-  
+    
 sys
 .
 exit

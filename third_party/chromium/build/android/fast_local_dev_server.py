@@ -835,6 +835,9 @@ proc
 /
 stat
 '
+    
+return
+0
   
 def
 _maybe_start_tasks
@@ -1432,6 +1435,35 @@ name
 }
 '
 )
+      
+#
+This
+use
+of
+preexec_fn
+is
+sufficiently
+simple
+just
+one
+os
+.
+nice
+call
+.
+      
+#
+pylint
+:
+disable
+=
+subprocess
+-
+popen
+-
+preexec
+-
+fn
       
 self
 .
@@ -2662,6 +2694,9 @@ _process_requests
 (
 sock
 )
+  
+return
+0
 if
 __name__
 =

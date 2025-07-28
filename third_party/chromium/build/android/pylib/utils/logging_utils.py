@@ -143,6 +143,18 @@ CYAN
     
 logging
 .
+INFO
+:
+(
+)
+#
+Use
+default
+style
+.
+    
+logging
+.
 WARNING
 :
 (

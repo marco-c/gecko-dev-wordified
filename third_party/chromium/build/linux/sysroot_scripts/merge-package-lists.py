@@ -66,11 +66,11 @@ packages
 in
 eg
 .
-sid
+bullseye
 with
 those
 in
-experimental
+bookworm
 .
 #
 The

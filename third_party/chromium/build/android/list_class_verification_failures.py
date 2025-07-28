@@ -88,6 +88,16 @@ import
 argparse
 import
 dataclasses
+#
+pylint
+:
+disable
+=
+wrong
+-
+import
+-
+order
 import
 logging
 import
@@ -390,8 +400,6 @@ similar
 "
 "
 "
-  
-pass
 class
 UnsupportedDeviceError
 (
@@ -416,8 +424,6 @@ script
 "
 "
 "
-  
-pass
 def
 _GetFormattedArch
 (
@@ -1137,9 +1143,6 @@ obfuscated_name
 proguard_mappings
 )
   
-else
-:
-    
 return
 obfuscated_name
 def
@@ -1425,9 +1428,6 @@ verification_status
 )
 )
     
-else
-:
-      
 d
 [
 java_class

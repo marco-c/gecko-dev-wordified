@@ -167,6 +167,17 @@ truthy
 check
 .
     
+#
+pylint
+:
+disable
+=
+super
+-
+with
+-
+arguments
+    
 return
 super
 (
@@ -205,6 +216,17 @@ force_dryrun
 =
 force_dryrun
 )
+    
+#
+pylint
+:
+enable
+=
+super
+-
+with
+-
+arguments
   
 def
 _CreateDiffOutputDir

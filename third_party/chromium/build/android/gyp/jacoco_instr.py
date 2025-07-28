@@ -669,6 +669,15 @@ input_path
 [
 ]
   
+data
+[
+'
+output_dir
+'
+]
+=
+src_root
+  
 if
 input_path
 :

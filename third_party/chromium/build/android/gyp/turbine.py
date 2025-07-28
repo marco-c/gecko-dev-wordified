@@ -850,7 +850,6 @@ t
 contain
 all
 java
-8
 classes
 .
     

@@ -1216,7 +1216,10 @@ res_dir
 )
     
 return
+sorted
+(
 ret
+)
   
 def
 WriteRTxtFile

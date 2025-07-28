@@ -217,7 +217,7 @@ into_raw
 ;
 EXPECT_EQ
 (
-base
+partition_alloc
 :
 :
 IsManagedByPartitionAlloc
@@ -230,7 +230,7 @@ uintptr_t
 rust_allocated_ptr
 )
 )
-base
+partition_alloc
 :
 :
 IsManagedByPartitionAlloc

@@ -325,6 +325,9 @@ RunTests
 (
 self
 results
+raw_logs_fh
+=
+None
 )
 :
     

@@ -594,7 +594,7 @@ None
 )
     
 '
-android_system_webview_shell
+android_google_webview_cts_debug
 '
 :
     
@@ -603,21 +603,27 @@ chrome
 PackageInfo
 (
 '
-org
+com
 .
-chromium
+google
 .
-webview_shell
+android
+.
+webview
+.
+debug
 '
                        
 '
-org
+com
 .
-chromium
+android
 .
-webview_shell
+cts
 .
-WebViewBrowserActivity
+webkit
+.
+WebViewStartupCtsActivity
 '
                        
 '

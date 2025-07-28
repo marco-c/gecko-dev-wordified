@@ -2816,21 +2816,6 @@ communicate
 (
 )
     
-if
-popen
-.
-returncode
-!
-=
-0
-:
-      
-return
-popen
-.
-returncode
-midl_output_dir
-    
 #
 Filter
 junk
@@ -2960,6 +2945,21 @@ print
 (
 line
 )
+    
+if
+popen
+.
+returncode
+!
+=
+0
+:
+      
+return
+popen
+.
+returncode
+midl_output_dir
     
 for
 f

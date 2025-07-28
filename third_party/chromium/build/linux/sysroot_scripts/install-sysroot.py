@@ -255,7 +255,7 @@ build
 /
 linux
 /
-debian_sid_amd64
+debian_bullseye_amd64
 -
 sysroot
 /
@@ -420,7 +420,7 @@ mips64el
 DEFAULT_TARGET_PLATFORM
 =
 '
-sid
+bullseye
 '
 class
 Error

@@ -50,7 +50,7 @@ main
 assert_eq
 !
 (
-test_mixed_static_library_rs
+test_mixed_static_library
 :
 :
 add_two_ints_via_rust_then_cpp
@@ -207,7 +207,7 @@ test_call_to_rust_then_cpp
 assert_eq
 !
 (
-test_mixed_static_library_rs
+test_mixed_static_library
 :
 :
 add_two_ints_via_rust_then_cpp

@@ -186,8 +186,6 @@ libevent
 '
 :
 '
-base
-/
 third_party
 /
 libevent
