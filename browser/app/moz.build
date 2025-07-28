@@ -599,6 +599,11 @@ DIRS
 installation_dir_layout
 "
 "
+desktop
+-
+launcher
+"
+"
 pbproxy
 "
 "
