@@ -616,11 +616,6 @@ HTMLTitleElement
 h
 "
 "
-HTMLTrackElement
-.
-h
-"
-"
 HTMLUnknownElement
 .
 h
@@ -652,11 +647,6 @@ h
 "
 "
 RadioNodeList
-.
-h
-"
-"
-TextTrackManager
 .
 h
 "
@@ -1031,11 +1021,6 @@ HTMLTitleElement
 cpp
 "
 "
-HTMLTrackElement
-.
-cpp
-"
-"
 HTMLUnknownElement
 .
 cpp
@@ -1107,11 +1092,6 @@ cpp
 "
 "
 TextControlState
-.
-cpp
-"
-"
-TextTrackManager
 .
 cpp
 "

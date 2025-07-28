@@ -2675,3 +2675,9 @@ mozilla
 :
 :
 dom
+#
+undef
+WEBVTT_LOG
+#
+undef
+WEBVTT_LOGV
