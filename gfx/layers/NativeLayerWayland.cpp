@@ -5195,6 +5195,12 @@ mMutatedVisibility
 =
 true
 ;
+mState
+.
+mMutatedPlacement
+=
+true
+;
 return
 true
 ;
