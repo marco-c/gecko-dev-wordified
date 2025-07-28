@@ -19212,6 +19212,7 @@ gUnifiedExtensions
 _initialized
 &
 &
+!
 gUnifiedExtensions
 .
 buttonAlwaysVisible
