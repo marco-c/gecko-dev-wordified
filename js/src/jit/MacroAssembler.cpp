@@ -49680,6 +49680,13 @@ scratchFloat
 scratchInt
 &
 fallthrough
+/
+*
+negativeZeroCheck
+=
+*
+/
+false
 )
 ;
 branch32
@@ -49856,6 +49863,13 @@ convertDoubleToInt32
 scratchFloat
 dest
 oolConvert
+/
+*
+negativeZeroCheck
+=
+*
+/
+false
 )
 ;
 branch32
