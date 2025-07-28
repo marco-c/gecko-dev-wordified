@@ -1061,7 +1061,7 @@ alignment
 Date
 And
 Time
-Arithmetics
+Arithmetic
 /
 /
 /
