@@ -4930,9 +4930,6 @@ EncodeRtcpPacket
 int64_t
 timestamp_us
 const
-rtc
-:
-:
 Buffer
 &
 packet
@@ -5275,9 +5272,6 @@ EncodeRtpPacket
 (
 int64_t
 timestamp_us
-rtc
-:
-:
 ArrayView
 <
 const

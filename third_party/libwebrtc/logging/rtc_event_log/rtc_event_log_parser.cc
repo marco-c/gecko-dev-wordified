@@ -2812,9 +2812,6 @@ header
 ;
 RTC_PARSE_CHECK_OR_RETURN
 (
-rtc
-:
-:
 IsValueInRangeForNumericType
 <
 bool
@@ -2846,9 +2843,6 @@ marker
 ;
 RTC_PARSE_CHECK_OR_RETURN
 (
-rtc
-:
-:
 IsValueInRangeForNumericType
 <
 uint8_t
@@ -2880,9 +2874,6 @@ payload_type
 ;
 RTC_PARSE_CHECK_OR_RETURN
 (
-rtc
-:
-:
 IsValueInRangeForNumericType
 <
 uint16_t
@@ -2914,9 +2905,6 @@ sequence_number
 ;
 RTC_PARSE_CHECK_OR_RETURN
 (
-rtc
-:
-:
 IsValueInRangeForNumericType
 <
 uint32_t
@@ -2948,9 +2936,6 @@ rtp_timestamp
 ;
 RTC_PARSE_CHECK_OR_RETURN
 (
-rtc
-:
-:
 IsValueInRangeForNumericType
 <
 uint32_t
@@ -2998,9 +2983,6 @@ CSRC
 .
 RTC_PARSE_CHECK_OR_RETURN
 (
-rtc
-:
-:
 IsValueInRangeForNumericType
 <
 size_t
@@ -3032,9 +3014,6 @@ padding_size
 ;
 RTC_PARSE_CHECK_OR_RETURN
 (
-rtc
-:
-:
 IsValueInRangeForNumericType
 <
 size_t
@@ -3095,9 +3074,6 @@ true
 ;
 RTC_PARSE_CHECK_OR_RETURN
 (
-rtc
-:
-:
 IsValueInRangeForNumericType
 <
 uint16_t
@@ -3149,9 +3125,6 @@ true
 ;
 RTC_PARSE_CHECK_OR_RETURN
 (
-rtc
-:
-:
 IsValueInRangeForNumericType
 <
 int32_t
@@ -3203,9 +3176,6 @@ true
 ;
 RTC_PARSE_CHECK_OR_RETURN
 (
-rtc
-:
-:
 IsValueInRangeForNumericType
 <
 uint32_t
@@ -3257,9 +3227,6 @@ true
 ;
 RTC_PARSE_CHECK_OR_RETURN
 (
-rtc
-:
-:
 IsValueInRangeForNumericType
 <
 uint8_t
@@ -3315,9 +3282,6 @@ has_voice_activity
 ;
 RTC_PARSE_CHECK_OR_RETURN
 (
-rtc
-:
-:
 IsValueInRangeForNumericType
 <
 bool
@@ -3348,9 +3312,6 @@ voice_activity
 ;
 RTC_PARSE_CHECK_OR_RETURN
 (
-rtc
-:
-:
 IsValueInRangeForNumericType
 <
 int
@@ -12874,9 +12835,6 @@ rtp_header
 .
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 rtp_packet

@@ -237,9 +237,6 @@ EncodeImpl
 (
 EventEncoder
 &
-rtc
-:
-:
 ArrayView
 <
 const
@@ -255,9 +252,6 @@ ParseImpl
 (
 EventParser
 &
-rtc
-:
-:
 ArrayView
 <
 LoggedType
@@ -349,9 +343,6 @@ EncodeImpl
 EventEncoder
 &
 encoder
-rtc
-:
-:
 ArrayView
 <
 const
@@ -398,9 +389,6 @@ ParseImpl
 EventParser
 &
 parser
-rtc
-:
-:
 ArrayView
 <
 LoggedType
@@ -411,9 +399,6 @@ const
 {
 RtcEventLogParseStatusOr
 <
-rtc
-:
-:
 ArrayView
 <
 uint64_t
@@ -845,9 +830,6 @@ std
 string
 EncodeBatch
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -929,9 +911,6 @@ ok
 return
 status
 ;
-rtc
-:
-:
 ArrayView
 <
 LoggedType
@@ -968,9 +947,6 @@ kVarInt
 ;
 RtcEventLogParseStatusOr
 <
-rtc
-:
-:
 ArrayView
 <
 uint64_t

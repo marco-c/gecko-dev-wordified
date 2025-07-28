@@ -2703,9 +2703,6 @@ c_str
 (
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 uint64_t
@@ -2720,9 +2717,6 @@ value
 .
 values
 ;
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -2986,9 +2980,6 @@ c_str
 (
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 uint64_t
@@ -3003,9 +2994,6 @@ value
 .
 values
 ;
-rtc
-:
-:
 ArrayView
 <
 uint8_t

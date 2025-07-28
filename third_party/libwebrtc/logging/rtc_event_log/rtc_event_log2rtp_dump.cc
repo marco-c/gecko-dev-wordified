@@ -572,7 +572,7 @@ is
 used
 .
 return
-rtc
+webrtc
 :
 :
 StringToNumber
@@ -854,7 +854,7 @@ reconstructed_packet
 .
 SetCsrcs
 (
-rtc
+webrtc
 :
 :
 ArrayView

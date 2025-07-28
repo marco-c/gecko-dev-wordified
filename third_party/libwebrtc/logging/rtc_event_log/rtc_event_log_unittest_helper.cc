@@ -1196,9 +1196,6 @@ ShuffleInPlace
 Random
 *
 prng
-rtc
-:
-:
 ArrayView
 <
 T
@@ -4018,9 +4015,6 @@ NewSenderReport
 (
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 =
@@ -4060,9 +4054,6 @@ NewReceiverReport
 (
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 =
@@ -4102,9 +4093,6 @@ NewExtendedReports
 (
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 =
@@ -4144,9 +4132,6 @@ NewFir
 (
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 =
@@ -4186,9 +4171,6 @@ NewPli
 (
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 =
@@ -4228,9 +4210,6 @@ NewNack
 (
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 =
@@ -4270,9 +4249,6 @@ NewRemb
 (
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 =
@@ -4312,9 +4288,6 @@ NewBye
 (
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 =
@@ -4354,9 +4327,6 @@ NewTransportFeedback
 (
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 =
@@ -4385,9 +4355,6 @@ RTC_DCHECK_NOTREACHED
 (
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 ;
@@ -4487,9 +4454,6 @@ NewSenderReport
 (
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 =
@@ -4529,9 +4493,6 @@ NewReceiverReport
 (
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 =
@@ -4571,9 +4532,6 @@ NewExtendedReports
 (
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 =
@@ -4613,9 +4571,6 @@ NewFir
 (
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 =
@@ -4655,9 +4610,6 @@ NewPli
 (
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 =
@@ -4697,9 +4649,6 @@ NewNack
 (
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 =
@@ -4739,9 +4688,6 @@ NewRemb
 (
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 =
@@ -4781,9 +4727,6 @@ NewBye
 (
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 =
@@ -4823,9 +4766,6 @@ NewTransportFeedback
 (
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 =
@@ -4854,9 +4794,6 @@ RTC_DCHECK_NOTREACHED
 (
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 ;
@@ -6113,9 +6050,6 @@ ShuffleInPlace
 (
 &
 prng_
-rtc
-:
-:
 ArrayView
 <
 int
@@ -8632,9 +8566,6 @@ if
 expect_dependency_descriptor_rtp_header_extension_is_set_
 )
 {
-rtc
-:
-:
 ArrayView
 <
 const

@@ -271,9 +271,6 @@ RtcEventEndLog
 :
 Encode
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -348,9 +345,6 @@ ok
 return
 status
 ;
-rtc
-:
-:
 ArrayView
 <
 LoggedStopEvent
@@ -387,9 +381,6 @@ kVarInt
 ;
 RtcEventLogParseStatusOr
 <
-rtc
-:
-:
 ArrayView
 <
 uint64_t

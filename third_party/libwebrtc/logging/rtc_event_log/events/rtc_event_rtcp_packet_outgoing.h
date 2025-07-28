@@ -204,9 +204,6 @@ RtcpPacketOutgoing
 explicit
 RtcEventRtcpPacketOutgoing
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -256,9 +253,6 @@ Copy
 const
 ;
 const
-rtc
-:
-:
 Buffer
 &
 packet
@@ -277,9 +271,6 @@ std
 string
 Encode
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -373,9 +364,6 @@ RtcEventRtcpPacketOutgoing
 other
 )
 ;
-rtc
-:
-:
 Buffer
 packet_
 ;

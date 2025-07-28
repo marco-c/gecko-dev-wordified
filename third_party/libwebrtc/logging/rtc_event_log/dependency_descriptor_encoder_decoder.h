@@ -171,9 +171,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 ArrayView
 <
 const

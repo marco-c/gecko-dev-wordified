@@ -8218,9 +8218,6 @@ NewReceiverReport
 (
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 =
@@ -8514,9 +8511,6 @@ NewSenderReport
 (
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 =
@@ -8810,9 +8804,6 @@ NewExtendedReports
 (
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 =
@@ -9106,9 +9097,6 @@ NewFir
 (
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 =
@@ -9402,9 +9390,6 @@ NewPli
 (
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 =
@@ -9698,9 +9683,6 @@ NewBye
 (
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 =
@@ -9994,9 +9976,6 @@ NewNack
 (
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 =
@@ -10290,9 +10269,6 @@ NewRemb
 (
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 =
@@ -10590,9 +10566,6 @@ NewTransportFeedback
 )
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 =
@@ -10890,9 +10863,6 @@ NewLossNotification
 )
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 =
@@ -11822,9 +11792,6 @@ multiple
 Bye
 messages
 .
-rtc
-:
-:
 Buffer
 packet
 ;

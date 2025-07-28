@@ -789,9 +789,6 @@ FixedLengthEncodingParametersV3
 params
 uint64_t
 base
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1031,9 +1028,6 @@ EventEncoder
 (
 EventParameters
 params
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1540,9 +1534,6 @@ batch_size_
 Compute
 delta
 parameters
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1561,9 +1552,6 @@ values
 0
 ]
 ;
-rtc
-:
-:
 ArrayView
 <
 const

@@ -2297,9 +2297,6 @@ size_t
 RemoveNonAllowlistedRtcpBlocks
 (
 const
-rtc
-:
-:
 Buffer
 &
 packet
@@ -2610,9 +2607,6 @@ ProtoType
 void
 EncodeRtcpPacket
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3548,9 +3542,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 ArrayView
 <
 const
@@ -7152,9 +7143,6 @@ RtcEventLogEncoderNewFormat
 :
 EncodeAlrState
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -7244,9 +7232,6 @@ RtcEventLogEncoderNewFormat
 :
 EncodeAudioNetworkAdaptation
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -8639,9 +8624,6 @@ RtcEventLogEncoderNewFormat
 :
 EncodeAudioPlayout
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -8956,9 +8938,6 @@ RtcEventLogEncoderNewFormat
 :
 EncodeNetEqSetMinimumDelay
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -9377,9 +9356,6 @@ RtcEventLogEncoderNewFormat
 :
 EncodeAudioRecvStreamConfig
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -9512,9 +9488,6 @@ RtcEventLogEncoderNewFormat
 :
 EncodeAudioSendStreamConfig
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -9632,9 +9605,6 @@ RtcEventLogEncoderNewFormat
 :
 EncodeBweUpdateDelayBased
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -10063,9 +10033,6 @@ RtcEventLogEncoderNewFormat
 :
 EncodeBweUpdateLossBased
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -10566,9 +10533,6 @@ RtcEventLogEncoderNewFormat
 :
 EncodeDtlsTransportState
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -10645,9 +10609,6 @@ RtcEventLogEncoderNewFormat
 :
 EncodeDtlsWritableState
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -10721,9 +10682,6 @@ RtcEventLogEncoderNewFormat
 :
 EncodeProbeClusterCreated
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -10836,9 +10794,6 @@ RtcEventLogEncoderNewFormat
 :
 EncodeProbeResultFailure
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -10944,9 +10899,6 @@ RtcEventLogEncoderNewFormat
 :
 EncodeProbeResultSuccess
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -11049,9 +11001,6 @@ RtcEventLogEncoderNewFormat
 :
 EncodeRouteChange
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -11154,9 +11103,6 @@ RtcEventLogEncoderNewFormat
 :
 EncodeRemoteEstimate
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -11678,9 +11624,6 @@ RtcEventLogEncoderNewFormat
 :
 EncodeRtcpPacketIncoming
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -11726,9 +11669,6 @@ RtcEventLogEncoderNewFormat
 :
 EncodeRtcpPacketOutgoing
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -11844,9 +11784,6 @@ RtcEventLogEncoderNewFormat
 :
 EncodeFramesDecoded
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -12666,9 +12603,6 @@ RtcEventLogEncoderNewFormat
 :
 EncodeGenericPacketsSent
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -13268,9 +13202,6 @@ RtcEventLogEncoderNewFormat
 :
 EncodeGenericPacketsReceived
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -13684,9 +13615,6 @@ RtcEventLogEncoderNewFormat
 :
 EncodeGenericAcksReceived
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -14334,9 +14262,6 @@ RtcEventLogEncoderNewFormat
 :
 EncodeVideoRecvStreamConfig
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -14484,9 +14409,6 @@ RtcEventLogEncoderNewFormat
 :
 EncodeVideoSendStreamConfig
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -14619,9 +14541,6 @@ RtcEventLogEncoderNewFormat
 :
 EncodeIceCandidatePairConfig
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -14830,9 +14749,6 @@ RtcEventLogEncoderNewFormat
 :
 EncodeIceCandidatePairEvent
 (
-rtc
-:
-:
 ArrayView
 <
 const
