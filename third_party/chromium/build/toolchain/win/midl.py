@@ -4,11 +4,6 @@ Copyright
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 #
 Use
 of
@@ -45,10 +40,6 @@ import
 array
 import
 difflib
-import
-distutils
-.
-dir_util
 import
 filecmp
 import

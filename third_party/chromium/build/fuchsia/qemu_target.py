@@ -4,11 +4,6 @@ Copyright
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 #
 Use
 of
@@ -77,12 +72,11 @@ tempfile
 from
 common
 import
-GetHostArchFromPlatform
-GetEmuRootForPlatform
-from
-common
-import
 EnsurePathExists
+GetHostArchFromPlatform
+\
+                   
+GetEmuRootForPlatform
 from
 qemu_image
 import
@@ -188,6 +182,7 @@ __init__
 out_dir
 target_cpu
 logs_dir
+None
 )
     
 self
@@ -509,12 +504,7 @@ AssertBootImagesExist
 (
 self
 .
-_GetTargetSdkArch
-(
-)
-'
-qemu
-'
+_pb_path
 )
     
 emu_command
@@ -528,28 +518,16 @@ kernel
         
 EnsurePathExists
 (
-            
 boot_data
 .
 GetTargetFile
 (
-'
-qemu
--
-kernel
-.
-kernel
-'
-                                    
 self
 .
-_GetTargetSdkArch
-(
-)
-                                    
-boot_data
+_kernel
+self
 .
-TARGET_TYPE_QEMU
+_pb_path
 )
 )
         
@@ -570,13 +548,11 @@ self
 _out_dir
 self
 .
-_GetTargetSdkArch
-(
-)
+_pb_path
                                    
-boot_data
+self
 .
-TARGET_TYPE_QEMU
+_ramdisk
 )
 )
         
@@ -650,6 +626,9 @@ blobstore
 snapshot
 =
 on
+cache
+=
+unsafe
 '
 %
         
@@ -658,12 +637,13 @@ _EnsureBlobstoreQcowAndReturnPath
 self
 .
 _out_dir
+self
+.
+_disk_image
                                           
 self
 .
-_GetTargetSdkArch
-(
-)
+_pb_path
 )
         
 '
@@ -772,13 +752,18 @@ extend
 -
 machine
 '
+          
 '
 virt
+-
+2
+.
+12
 gic
 -
 version
 =
-3
+host
 '
       
 ]
@@ -1643,7 +1628,8 @@ def
 _EnsureBlobstoreQcowAndReturnPath
 (
 out_dir
-target_arch
+kernel
+image_path
 )
 :
   
@@ -1718,18 +1704,8 @@ boot_data
 .
 GetTargetFile
 (
-'
-storage
--
-full
-.
-blk
-'
-target_arch
-                                           
-'
-qemu
-'
+kernel
+image_path
 )
   
 qcow_path

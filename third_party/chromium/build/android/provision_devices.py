@@ -10,18 +10,10 @@ vpython3
 #
 #
 Copyright
-(
-c
-)
 2013
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 #
 Use
 of
@@ -3056,6 +3048,7 @@ date_format
     
 tdelta
 =
+abs
 (
 correct_time
 -

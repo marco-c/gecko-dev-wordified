@@ -1,17 +1,9 @@
 #
 Copyright
-(
-c
-)
 2012
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 #
 Use
 of
@@ -1339,6 +1331,17 @@ link
 stdout
 :
       
+line
+=
+line
+.
+decode
+(
+'
+utf8
+'
+)
+      
 if
 (
 not
@@ -1346,7 +1349,6 @@ line
 .
 startswith
 (
-b
 '
 Creating
 library
@@ -1359,7 +1361,6 @@ line
 .
 startswith
 (
-b
 '
 Generating
 code
@@ -1372,7 +1373,6 @@ line
 .
 startswith
 (
-b
 '
 Finished
 generating
@@ -1385,6 +1385,10 @@ code
 print
 (
 line
+.
+rstrip
+(
+)
 )
     
 return

@@ -6,18 +6,13 @@ usr
 bin
 /
 env
-python
+python3
 #
 Copyright
 2017
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 #
 Use
 of
@@ -577,7 +572,7 @@ o
     
 self
 .
-assertEquals
+assertEqual
 (
 headers
 expected
@@ -663,7 +658,7 @@ h
     
 self
 .
-assertEquals
+assertEqual
 (
 headers
 expected
@@ -736,7 +731,7 @@ c
     
 self
 .
-assertEquals
+assertEqual
 (
 output
 expected

@@ -4,11 +4,6 @@ Copyright
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 #
 Use
 of
@@ -1674,7 +1669,6 @@ format
 rule
 )
 ]
-silent
 )
     
 if

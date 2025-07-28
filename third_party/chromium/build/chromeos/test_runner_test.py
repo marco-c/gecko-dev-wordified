@@ -13,11 +13,6 @@ Copyright
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 #
 Use
 of
@@ -2439,21 +2434,25 @@ expand
       
 [
 True
+False
 True
 ]
       
 [
 False
 True
+True
 ]
       
 [
+True
 True
 False
 ]
       
 [
 False
+True
 False
 ]
   
@@ -2465,6 +2464,7 @@ test_host_cmd
 (
 self
 is_lacros
+is_ash
 strip_chrome
 )
 :
@@ -2540,7 +2540,8 @@ lacros
 '
 ]
     
-else
+if
+is_ash
 :
       
 args
@@ -2555,11 +2556,11 @@ deploy
 chrome
 '
 ]
-      
+    
 if
 strip_chrome
 :
-        
+      
 args
 +
 =
@@ -2750,7 +2751,8 @@ LACROS_LAUNCHER_SCRIPT_PATH
         
 ]
       
-else
+if
+is_ash
 :
         
 expected_cmd
@@ -2768,12 +2770,12 @@ mount
 deploy
 '
 ]
-        
+      
 if
 not
 strip_chrome
 :
-          
+        
 expected_cmd
 +
 =

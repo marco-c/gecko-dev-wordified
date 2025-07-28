@@ -13,11 +13,6 @@ Copyright
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 #
 Use
 of
@@ -58,6 +53,10 @@ import
 sys
 import
 tempfile
+from
+typing
+import
+Any
 import
 unittest
 import
@@ -106,10 +105,24 @@ def
 assertArgWith
 (
 test
+:
+unittest
+.
+TestCase
 arg_list
+:
+list
 arg
+:
+Any
+                  
 value
+:
+Any
 )
+-
+>
+None
 :
   
 i
@@ -147,6 +160,9 @@ setUp
 (
 self
 )
+-
+>
+None
 :
     
 self
@@ -200,7 +216,14 @@ test_commandCommonArgs
 (
 self
 cmd_mock
+:
+mock
+.
+MagicMock
 )
+-
+>
+None
 :
     
 cmd_mock
@@ -564,8 +587,15 @@ test_explicitLocalPngDirectory
 (
 self
 cmd_mock
+:
+mock
+.
+MagicMock
 _
 )
+-
+>
+None
 :
     
 cmd_mock
@@ -652,9 +682,10 @@ sgp
 self
 .
 _json_keys
-None
-                                                     
-None
+'
+'
+'
+'
 )
     
 _
@@ -667,7 +698,8 @@ Diff
 '
 name
 '
-None
+'
+'
 None
 )
     
@@ -839,6 +871,9 @@ setUp
 (
 self
 )
+-
+>
+None
 :
     
 self
@@ -877,6 +912,9 @@ test_outputManagerNotNeeded
 (
 self
 )
+-
+>
+None
 :
     
 args
@@ -916,9 +954,10 @@ sgp
 self
 .
 _json_keys
-None
-                                                     
-None
+'
+'
+'
+'
 )
     
 input_filepath

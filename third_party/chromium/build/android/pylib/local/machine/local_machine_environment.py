@@ -4,11 +4,6 @@ Copyright
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 #
 Use
 of
@@ -33,12 +28,6 @@ the
 LICENSE
 file
 .
-import
-devil_chromium
-from
-pylib
-import
-constants
 from
 pylib
 .
@@ -71,20 +60,6 @@ super
 __init__
 (
 output_manager
-)
-    
-devil_chromium
-.
-Initialize
-(
-        
-output_directory
-=
-constants
-.
-GetOutDirectory
-(
-)
 )
   
 #

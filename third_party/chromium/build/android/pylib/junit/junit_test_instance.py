@@ -4,11 +4,6 @@ Copyright
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 #
 Use
 of
@@ -97,6 +92,14 @@ coverage_on_the_fly
     
 self
 .
+_native_libs_dir
+=
+args
+.
+native_libs_dir
+    
+self
+.
 _package_filter
 =
 args
@@ -137,11 +140,11 @@ shards
     
 self
 .
-_test_filter
+_test_filters
 =
 test_filter
 .
-InitializeFilterFromArgs
+InitializeFiltersFromArgs
 (
 args
 )
@@ -238,6 +241,20 @@ _debug_socket
 property
   
 def
+native_libs_dir
+(
+self
+)
+:
+    
+return
+self
+.
+_native_libs_dir
+  
+property
+  
+def
 package_filter
 (
 self
@@ -294,7 +311,7 @@ _runner_filter
 property
   
 def
-test_filter
+test_filters
 (
 self
 )
@@ -303,7 +320,7 @@ self
 return
 self
 .
-_test_filter
+_test_filters
   
 property
   

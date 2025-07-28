@@ -4,11 +4,6 @@ Copyright
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 #
 Use
 of
@@ -73,24 +68,32 @@ is
 "
 "
 "
-#
-pylint
-:
-disable
-=
-useless
--
-object
--
-inheritance
+import
+argparse
 import
 logging
 import
+optparse
+import
 os
+from
+typing
+import
+Union
+ParsedCmdArgs
+=
+Union
+[
+argparse
+.
+Namespace
+optparse
+.
+Values
+]
 class
 SkiaGoldProperties
 (
-object
 )
 :
   
@@ -99,6 +102,8 @@ __init__
 (
 self
 args
+:
+ParsedCmdArgs
 )
 :
     
@@ -209,6 +214,9 @@ IsTryjobRun
 (
 self
 )
+-
+>
+bool
 :
     
 return
@@ -226,6 +234,9 @@ continuous_integration_system
 (
 self
 )
+-
+>
+str
 :
     
 return
@@ -244,6 +255,9 @@ code_review_system
 (
 self
 )
+-
+>
+str
 :
     
 return
@@ -262,6 +276,9 @@ git_revision
 (
 self
 )
+-
+>
+str
 :
     
 return
@@ -278,6 +295,9 @@ issue
 (
 self
 )
+-
+>
+int
 :
     
 return
@@ -292,6 +312,9 @@ job_id
 (
 self
 )
+-
+>
+str
 :
     
 return
@@ -306,6 +329,9 @@ local_pixel_tests
 (
 self
 )
+-
+>
+bool
 :
     
 return
@@ -322,6 +348,9 @@ local_png_directory
 (
 self
 )
+-
+>
+str
 :
     
 return
@@ -336,6 +365,9 @@ no_luci_auth
 (
 self
 )
+-
+>
+bool
 :
     
 return
@@ -350,6 +382,9 @@ patchset
 (
 self
 )
+-
+>
+int
 :
     
 return
@@ -364,6 +399,9 @@ bypass_skia_gold_functionality
 (
 self
 )
+-
+>
+bool
 :
     
 return
@@ -377,6 +415,9 @@ def
 _GetGitOriginMainHeadSha1
 (
 )
+-
+>
+str
 :
     
 raise
@@ -389,6 +430,9 @@ _GetGitRevision
 (
 self
 )
+-
+>
+str
 :
     
 if
@@ -516,6 +560,9 @@ _IsLocalRun
 (
 self
 )
+-
+>
+bool
 :
     
 if
@@ -647,7 +694,14 @@ def
 AddCommandLineArguments
 (
 parser
+:
+argparse
+.
+ArgumentParser
 )
+-
+>
+None
 :
     
 "
@@ -834,7 +888,12 @@ _InitializeProperties
 (
 self
 args
+:
+ParsedCmdArgs
 )
+-
+>
+None
 :
     
 if

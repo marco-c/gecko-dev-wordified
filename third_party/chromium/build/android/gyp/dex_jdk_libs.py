@@ -14,11 +14,6 @@ Copyright
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 #
 Use
 of
@@ -466,7 +461,7 @@ cmd
                             
 print_stdout
 =
-True
+False
                             
 fail_on_output
 =

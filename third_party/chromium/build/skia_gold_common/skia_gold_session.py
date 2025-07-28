@@ -4,11 +4,6 @@ Copyright
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 #
 Use
 of
@@ -50,16 +45,6 @@ service
 "
 "
 "
-#
-pylint
-:
-disable
-=
-useless
--
-object
--
-inheritance
 import
 logging
 import
@@ -74,6 +59,18 @@ import
 tempfile
 import
 time
+from
+typing
+import
+Any
+Dict
+List
+Optional
+Tuple
+from
+skia_gold_common
+import
+skia_gold_properties
 CHROMIUM_SRC
 =
 os
@@ -256,17 +253,25 @@ linux
 goldctl
 '
 )
+StepRetVal
+=
+Tuple
+[
+int
+Optional
+[
+str
+]
+]
 class
 SkiaGoldSession
 (
-object
 )
 :
   
 class
 StatusCodes
 (
-object
 )
 :
     
@@ -313,7 +318,6 @@ NO_OUTPUT_MANAGER
 class
 ComparisonResults
 (
-object
 )
 :
     
@@ -346,36 +350,66 @@ self
 self
 .
 public_triage_link
+:
+Optional
+[
+str
+]
 =
 None
       
 self
 .
 internal_triage_link
+:
+Optional
+[
+str
+]
 =
 None
       
 self
 .
 triage_link_omission_reason
+:
+Optional
+[
+str
+]
 =
 None
       
 self
 .
 local_diff_given_image
+:
+Optional
+[
+str
+]
 =
 None
       
 self
 .
 local_diff_closest_image
+:
+Optional
+[
+str
+]
 =
 None
       
 self
 .
 local_diff_diff_image
+:
+Optional
+[
+str
+]
 =
 None
   
@@ -385,16 +419,33 @@ __init__
 self
                
 working_dir
+:
+str
                
 gold_properties
+:
+skia_gold_properties
+.
+SkiaGoldProperties
                
 keys_file
+:
+str
                
 corpus
+:
+str
                
 instance
+:
+str
                
 bucket
+:
+Optional
+[
+str
+]
 =
 None
 )
@@ -721,27 +772,57 @@ RunComparison
 self
                     
 name
+:
+str
                     
 png_file
+:
+str
                     
 output_manager
+:
+Any
                     
 inexact_matching_args
+:
+Optional
+[
+List
+[
+str
+]
+]
 =
 None
                     
 use_luci
+:
+bool
 =
 True
                     
 optional_keys
+:
+Optional
+[
+Dict
+[
+str
+str
+]
+]
 =
 None
                     
 force_dryrun
+:
+bool
 =
 False
 )
+-
+>
+StepRetVal
 :
     
 "
@@ -1236,9 +1317,14 @@ Authenticate
 (
 self
 use_luci
+:
+bool
 =
 True
 )
+-
+>
+StepRetVal
 :
     
 "
@@ -1489,6 +1575,9 @@ Initialize
 (
 self
 )
+-
+>
+StepRetVal
 :
     
 "
@@ -1888,21 +1977,47 @@ Compare
 self
               
 name
+:
+str
               
 png_file
+:
+str
               
 inexact_matching_args
+:
+Optional
+[
+List
+[
+str
+]
+]
 =
 None
               
 optional_keys
+:
+Optional
+[
+Dict
+[
+str
+str
+]
+]
 =
 None
               
 force_dryrun
+:
+bool
 =
 False
 )
+-
+>
+StepRetVal
 :
     
 "
@@ -2619,9 +2734,18 @@ Diff
 (
 self
 name
+:
+str
 png_file
+:
+str
 output_manager
+:
+Any
 )
+-
+>
+StepRetVal
 :
     
 "
@@ -3106,7 +3230,16 @@ GetTriageLinks
 (
 self
 name
+:
+str
 )
+-
+>
+Tuple
+[
+str
+str
+]
 :
     
 "
@@ -3255,7 +3388,12 @@ GetTriageLinkOmissionReason
 (
 self
 name
+:
+str
 )
+-
+>
+str
 :
     
 "
@@ -3436,7 +3574,12 @@ GetGivenImageLink
 (
 self
 name
+:
+str
 )
+-
+>
+str
 :
     
 "
@@ -3520,7 +3663,12 @@ GetClosestImageLink
 (
 self
 name
+:
+str
 )
+-
+>
+str
 :
     
 "
@@ -3605,7 +3753,12 @@ GetDiffImageLink
 (
 self
 name
+:
+str
 )
+-
+>
+str
 :
     
 "
@@ -3690,7 +3843,12 @@ _GeneratePublicTriageLink
 (
 self
 internal_link
+:
+str
 )
+-
+>
+str
 :
     
 "
@@ -3792,6 +3950,9 @@ _ClearTriageLinkFile
 (
 self
 )
+-
+>
+None
 :
     
 "
@@ -3865,8 +4026,13 @@ def
 _CreateDiffOutputDir
 (
 self
-_
+_name
+:
+str
 )
+-
+>
+str
 :
     
 #
@@ -3928,6 +4094,9 @@ _GetDiffGoldInstance
 (
 self
 )
+-
+>
+str
 :
     
 "
@@ -4033,9 +4202,19 @@ _StoreDiffLinks
 (
 self
 image_name
+:
+str
 output_manager
+:
+Any
+                      
 output_dir
+:
+str
 )
+-
+>
+None
 :
     
 "
@@ -4162,7 +4341,19 @@ def
 _RunCmdForRcAndOutput
 (
 cmd
+:
+List
+[
+str
+]
 )
+-
+>
+Tuple
+[
+int
+str
+]
 :
     
 "

@@ -13,11 +13,6 @@ Copyright
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 #
 Use
 of
@@ -294,7 +289,7 @@ java_library
 '
     
 '
-junit_binary
+robolectric_binary
 '
     
 '
@@ -373,6 +368,9 @@ _run_ninja
 (
 output_dir
 args
+quiet
+=
+False
 )
 :
   
@@ -416,6 +414,26 @@ r
 cmd
 )
   
+if
+quiet
+:
+    
+subprocess
+.
+run
+(
+cmd
+check
+=
+True
+capture_output
+=
+True
+)
+  
+else
+:
+    
 subprocess
 .
 run
@@ -1363,6 +1381,29 @@ count
 '
 )
   
+parser
+.
+add_argument
+(
+'
+-
+q
+'
+'
+-
+-
+quiet
+'
+default
+=
+0
+action
+=
+'
+count
+'
+)
+  
 args
 =
 parser
@@ -1405,10 +1446,14 @@ level
 logging
 .
 WARNING
--
-(
++
 10
 *
+(
+args
+.
+quiet
+-
 args
 .
 verbose
@@ -1535,6 +1580,12 @@ e
 in
 entries
 ]
+               
+quiet
+=
+args
+.
+quiet
 )
   
 if

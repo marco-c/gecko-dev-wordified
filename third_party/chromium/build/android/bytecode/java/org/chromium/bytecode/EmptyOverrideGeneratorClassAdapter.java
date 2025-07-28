@@ -5,11 +5,6 @@ Copyright
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 /
 /
 Use
@@ -479,6 +474,12 @@ String
 descriptor
 )
 {
+assert
+access
+!
+=
+0
+;
 Type
 [
 ]

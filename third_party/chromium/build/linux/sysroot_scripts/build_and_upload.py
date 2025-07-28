@@ -13,11 +13,6 @@ Copyright
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 #
 Use
 of
@@ -207,6 +202,7 @@ build_and_upload
 script_path
 distro
 release
+key
 arch
 lock
 )
@@ -364,6 +360,12 @@ SysrootDir
 '
 :
 sysroot_dir
+      
+'
+Key
+'
+:
+key
   
 }
   
@@ -570,6 +572,18 @@ PrintRelease
 ]
 )
     
+key
+=
+get_proc_output
+(
+[
+script_path
+'
+PrintKey
+'
+]
+)
+    
 architectures
 =
 get_proc_output
@@ -602,17 +616,18 @@ multiprocessing
 .
 Process
 (
-          
 target
 =
 build_and_upload
-          
+                                     
 args
 =
 (
 script_path
 distro
 release
+key
+                                           
 arch
 lock
 )

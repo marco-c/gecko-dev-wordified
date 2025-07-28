@@ -9,18 +9,10 @@ env
 python3
 #
 Copyright
-(
-c
-)
 2013
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 #
 Use
 of
@@ -611,7 +603,7 @@ add_option
 -
 print
 -
-hash
+key
 '
                     
 help
@@ -644,21 +636,22 @@ args
 if
 options
 .
-print_hash
+print_key
 :
     
 arch
 =
 options
 .
-print_hash
+print_key
     
 print
 (
+        
 GetSysrootDict
 (
 DEFAULT_TARGET_PLATFORM
-                         
+                       
 ARCH_TRANSLATIONS
 .
 get
@@ -669,7 +662,7 @@ arch
 )
 [
 '
-Sha1Sum
+Key
 '
 ]
 )
@@ -1209,7 +1202,7 @@ check_call
 tar
 '
 '
-xf
+mxf
 '
 tarball
 '

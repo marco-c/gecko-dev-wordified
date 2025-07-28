@@ -14,11 +14,6 @@ Copyright
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 #
 Use
 of
@@ -1418,7 +1413,7 @@ open
 (
 output_json
 '
-wb
+w
 '
 )
 as

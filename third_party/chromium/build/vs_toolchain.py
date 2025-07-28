@@ -13,11 +13,6 @@ Copyright
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 #
 Use
 of
@@ -4720,18 +4715,11 @@ toolchain_dir
 )
 :
       
-import
-distutils
-.
-spawn
-      
 ciopfs
 =
-distutils
+shutil
 .
-spawn
-.
-find_executable
+which
 (
 '
 ciopfs

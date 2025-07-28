@@ -13,11 +13,6 @@ Copyright
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 #
 Use
 of
@@ -58,6 +53,8 @@ import
 sys
 import
 tempfile
+import
+typing
 import
 unittest
 if
@@ -137,6 +134,9 @@ setUp
 (
 self
 )
+-
+>
+None
 :
     
 self
@@ -212,6 +212,9 @@ test_ArgsForwardedToSession
 (
 self
 )
+-
+>
+None
 :
     
 args
@@ -345,6 +348,9 @@ test_corpusFromJson
 (
 self
 )
+-
+>
+None
 :
     
 args
@@ -442,6 +448,9 @@ test_corpusDefaultsToInstance
 (
 self
 )
+-
+>
+None
 :
     
 args
@@ -545,8 +554,16 @@ def
 test_getDefaultInstance
 (
 self
+                              
 default_instance_mock
+:
+mock
+.
+MagicMock
 )
+-
+>
+None
 :
     
 default_instance_mock
@@ -656,7 +673,14 @@ test_matchingSessionReused
 (
 self
 session_mock
+:
+mock
+.
+MagicMock
 )
+-
+>
+None
 :
     
 session_mock
@@ -783,7 +807,14 @@ test_separateSessionsFromKeys
 (
 self
 session_mock
+:
+mock
+.
+MagicMock
 )
+-
+>
+None
 :
     
 session_mock
@@ -894,8 +925,16 @@ def
 test_separateSessionsFromCorpus
 (
 self
+                                      
 session_mock
+:
+mock
+.
+MagicMock
 )
+-
+>
+None
 :
     
 session_mock
@@ -1000,8 +1039,16 @@ def
 test_separateSessionsFromInstance
 (
 self
+                                        
 session_mock
+:
+mock
+.
+MagicMock
 )
+-
+>
+None
 :
     
 session_mock
@@ -1112,6 +1159,9 @@ setUp
 (
 self
 )
+-
+>
+None
 :
     
 self
@@ -1135,6 +1185,9 @@ test_getKeysAsDict
 (
 self
 )
+-
+>
+None
 :
     
 keys_dict
@@ -1235,7 +1288,13 @@ skia_gold_session_manager
 .
 _GetKeysAsDict
 (
+typing
+.
+cast
+(
+dict
 1
+)
 )
   
 def
@@ -1243,6 +1302,9 @@ test_getKeysAsJson
 (
 self
 )
+-
+>
+None
 :
     
 keys_dict
@@ -1311,7 +1373,8 @@ skia_gold_session_manager
 _GetKeysAsJson
 (
 keys_file
-None
+'
+'
 )
                      
 keys_file
@@ -1379,8 +1442,15 @@ skia_gold_session_manager
 .
 _GetKeysAsJson
 (
+typing
+.
+cast
+(
+dict
 1
-None
+)
+'
+'
 )
 if
 __name__

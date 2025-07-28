@@ -13,11 +13,6 @@ Copyright
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 #
 Use
 of
@@ -124,10 +119,21 @@ expected
 def
 verifySkiaGoldProperties
 (
+      
 self
 instance
+:
+skia_gold_properties
+.
+SkiaGoldProperties
+      
 expected
+:
+dict
 )
+-
+>
+None
 :
     
 self
@@ -292,6 +298,9 @@ test_initializeSkiaGoldAttributes_unsetLocal
 (
 self
 )
+-
+>
+None
 :
     
 args
@@ -323,6 +332,9 @@ test_initializeSkiaGoldAttributes_explicitLocal
 (
 self
 )
+-
+>
+None
 :
     
 args
@@ -362,6 +374,9 @@ test_initializeSkiaGoldAttributes_explicitNonLocal
 (
 self
 )
+-
+>
+None
 :
     
 args
@@ -401,6 +416,9 @@ test_initializeSkiaGoldAttributes_explicitNoLuciAuth
 (
 self
 )
+-
+>
+None
 :
     
 args
@@ -440,6 +458,9 @@ test_initializeSkiaGoldAttributes_explicitCrs
 (
 self
 )
+-
+>
+None
 :
     
 args
@@ -483,6 +504,9 @@ test_initializeSkiaGoldAttributes_explicitCis
 (
 self
 )
+-
+>
+None
 :
     
 args
@@ -526,6 +550,9 @@ test_initializeSkiaGoldAttributes_bypassExplicitTrue
 (
 self
 )
+-
+>
+None
 :
     
 args
@@ -565,6 +592,9 @@ test_initializeSkiaGoldAttributes_explicitGitRevision
 (
 self
 )
+-
+>
+None
 :
     
 args
@@ -606,8 +636,12 @@ a
 def
 test_initializeSkiaGoldAttributes_tryjobArgsIgnoredWithoutRevision
 (
+      
 self
 )
+-
+>
+None
 :
     
 args
@@ -650,6 +684,9 @@ test_initializeSkiaGoldAttributes_tryjobArgs
 (
 self
 )
+-
+>
+None
 :
     
 args
@@ -726,6 +763,9 @@ test_initializeSkiaGoldAttributes_tryjobMissingPatchset
 (
 self
 )
+-
+>
+None
 :
     
 args
@@ -768,6 +808,9 @@ test_initializeSkiaGoldAttributes_tryjobMissingBuildbucket
 (
 self
 )
+-
+>
+None
 :
     
 args
@@ -833,6 +876,9 @@ testLocalPixelTests_determineTrue
 (
 self
 )
+-
+>
+None
 :
     
 args
@@ -882,6 +928,9 @@ testLocalPixelTests_determineFalse
 (
 self
 )
+-
+>
+None
 :
     
 args
@@ -937,6 +986,9 @@ testIsTryjobRun_noIssue
 (
 self
 )
+-
+>
+None
 :
     
 args
@@ -970,6 +1022,9 @@ testIsTryjobRun_issue
 (
 self
 )
+-
+>
+None
 :
     
 args
@@ -1020,6 +1075,9 @@ testGetGitRevision_revisionSet
 (
 self
 )
+-
+>
+None
 :
     
 args
@@ -1059,6 +1117,9 @@ testGetGitRevision_findValidRevision
 (
 self
 )
+-
+>
+None
 :
     
 args
@@ -1143,6 +1204,9 @@ testGetGitRevision_noExplicitOnBot
 (
 self
 )
+-
+>
+None
 :
     
 args
@@ -1183,6 +1247,9 @@ testGetGitRevision_findEmptyRevision
 (
 self
 )
+-
+>
+None
 :
     
 args
@@ -1249,6 +1316,9 @@ testGetGitRevision_findMalformedRevision
 (
 self
 )
+-
+>
+None
 :
     
 args

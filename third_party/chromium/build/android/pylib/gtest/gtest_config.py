@@ -1,17 +1,9 @@
 #
 Copyright
-(
-c
-)
 2013
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 #
 Use
 of
@@ -142,10 +134,6 @@ blink_unittests
 '
     
 '
-breakpad_unittests
-'
-    
-'
 cc_unittests
 '
     
@@ -252,10 +240,6 @@ com
 ASAN_EXCLUDED_TEST_SUITES
 =
 [
-    
-'
-breakpad_unittests
-'
     
 '
 sandbox_linux_unittests

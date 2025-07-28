@@ -13,11 +13,6 @@ Copyright
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 #
 Use
 of
@@ -761,6 +756,12 @@ buildflag
 .
 h
 "
+/
+/
+IWYU
+pragma
+:
+export
 \
 n
 \

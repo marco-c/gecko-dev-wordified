@@ -13,11 +13,6 @@ Copyright
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 #
 Use
 of
@@ -132,7 +127,7 @@ breakpad
 /
 blob
 /
-master
+main
 /
 docs
 /

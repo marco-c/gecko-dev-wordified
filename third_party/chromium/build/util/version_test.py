@@ -4,11 +4,6 @@ Copyright
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 #
 Use
 of
@@ -637,7 +632,7 @@ contents
     
 self
 .
-assertRegexpMatches
+assertRegex
 (
 contents
 r
@@ -657,10 +652,9 @@ s
     
 self
 .
-assertRegexpMatches
+assertRegex
 (
 contents
-                             
 r
 '
 \
@@ -678,7 +672,7 @@ s
     
 self
 .
-assertRegexpMatches
+assertRegex
 (
 contents
 r
@@ -698,7 +692,7 @@ s
     
 self
 .
-assertRegexpMatches
+assertRegex
 (
 contents
 r
@@ -718,10 +712,9 @@ s
     
 self
 .
-assertRegexpMatches
+assertRegex
 (
 contents
-                             
 r
 '
 \
@@ -739,7 +732,7 @@ s
     
 self
 .
-assertRegexpMatches
+assertRegex
 (
 contents
 r
@@ -759,7 +752,7 @@ s
     
 self
 .
-assertRegexpMatches
+assertRegex
 (
 contents
 r
@@ -907,10 +900,9 @@ contents
     
 self
 .
-assertRegexpMatches
+assertRegex
 (
 contents
-                             
 r
 '
 \
@@ -928,10 +920,9 @@ s
     
 self
 .
-assertRegexpMatches
+assertRegex
 (
 contents
-                             
 r
 '
 \
@@ -949,10 +940,9 @@ s
     
 self
 .
-assertRegexpMatches
+assertRegex
 (
 contents
-                             
 r
 '
 \
@@ -970,10 +960,9 @@ s
     
 self
 .
-assertRegexpMatches
+assertRegex
 (
 contents
-                             
 r
 '
 \
@@ -1119,10 +1108,9 @@ contents
     
 self
 .
-assertRegexpMatches
+assertRegex
 (
 contents
-                             
 r
 '
 \
@@ -1140,10 +1128,9 @@ s
     
 self
 .
-assertRegexpMatches
+assertRegex
 (
 contents
-                             
 r
 '
 \
@@ -1161,10 +1148,9 @@ s
     
 self
 .
-assertRegexpMatches
+assertRegex
 (
 contents
-                             
 r
 '
 \
@@ -1182,10 +1168,9 @@ s
     
 self
 .
-assertRegexpMatches
+assertRegex
 (
 contents
-                             
 r
 '
 \
@@ -1244,6 +1229,31 @@ foobar
 ]
 )
     
+#
+Mock
+sys
+.
+stderr
+because
+argparse
+will
+print
+to
+stderr
+when
+we
+pass
+    
+#
+the
+invalid
+'
+-
+a
+'
+value
+.
+    
 with
 self
 .
@@ -1253,6 +1263,16 @@ SystemExit
 )
 as
 cm
+mock
+.
+patch
+(
+'
+sys
+.
+stderr
+'
+)
 :
       
 self
