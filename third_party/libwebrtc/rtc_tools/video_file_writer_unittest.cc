@@ -653,9 +653,6 @@ fps
 =
 60
 ;
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -668,9 +665,6 @@ Video
 >
 video_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -866,9 +860,6 @@ cnt
 for
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -1009,9 +1000,6 @@ cnt
 for
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface

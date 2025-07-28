@@ -742,9 +742,6 @@ network
 bool
 SendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -773,9 +770,6 @@ now
 bool
 SendRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const

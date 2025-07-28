@@ -14566,10 +14566,7 @@ log_time_us
 )
 ;
 }
-rtc
-:
-:
-SentPacket
+SentPacketInfo
 sent_packet
 ;
 sent_packet

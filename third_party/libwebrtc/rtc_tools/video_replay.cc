@@ -2753,9 +2753,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -4566,9 +4563,6 @@ packet
 break
 ;
 }
-rtc
-:
-:
 CopyOnWriteBuffer
 packet_buffer
 (

@@ -3759,7 +3759,7 @@ FLAGS_verbose
 )
 )
 {
-rtc
+webrtc
 :
 :
 LogMessage
@@ -3767,7 +3767,7 @@ LogMessage
 :
 LogToDebug
 (
-rtc
+webrtc
 :
 :
 LS_VERBOSE
@@ -3776,7 +3776,7 @@ LS_VERBOSE
 }
 else
 {
-rtc
+webrtc
 :
 :
 LogMessage
@@ -3784,14 +3784,14 @@ LogMessage
 :
 LogToDebug
 (
-rtc
+webrtc
 :
 :
 LS_INFO
 )
 ;
 }
-rtc
+webrtc
 :
 :
 LogMessage

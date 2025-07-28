@@ -332,9 +332,6 @@ Disconnect
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -377,7 +374,7 @@ function
 <
 void
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -397,9 +394,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -426,9 +420,6 @@ PeerConnectionFactory
 object
 .
 static
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -544,9 +535,6 @@ new_state
 void
 OnDataChannel
 (
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -633,9 +621,6 @@ receiving
 receiving
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -652,7 +637,7 @@ function
 <
 void
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -671,9 +656,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 webrtc

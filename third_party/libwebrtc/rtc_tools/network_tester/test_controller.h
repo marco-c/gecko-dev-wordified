@@ -392,10 +392,7 @@ AsyncPacketSocket
 *
 socket
 const
-rtc
-:
-:
-ReceivedPacket
+ReceivedIpPacket
 &
 received_packet
 )
@@ -409,9 +406,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SocketServer
 >
 socket_server_
@@ -510,9 +504,6 @@ RTC_GUARDED_BY
 packet_sender_thread_
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 webrtc

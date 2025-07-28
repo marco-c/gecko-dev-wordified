@@ -228,9 +228,6 @@ ColorTransformationMatrix
 CalculateColorTransformationMatrix
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -238,9 +235,6 @@ Video
 &
 reference_video
 const
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -264,9 +258,6 @@ ColorTransformationMatrix
 CalculateColorTransformationMatrix
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -274,9 +265,6 @@ I420BufferInterface
 &
 reference_frame
 const
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -295,9 +283,6 @@ to
 a
 video
 .
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -309,9 +294,6 @@ ColorTransformationMatrix
 &
 color_matrix
 const
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -332,9 +314,6 @@ single
 I420
 frame
 .
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -346,9 +325,6 @@ ColorTransformationMatrix
 &
 color_matrix
 const
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface

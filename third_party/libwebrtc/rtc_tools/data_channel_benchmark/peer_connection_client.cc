@@ -448,7 +448,7 @@ RTCError
 >
 ;
 static
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -462,7 +462,7 @@ callback
 )
 {
 return
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -471,7 +471,7 @@ SetLocalDescriptionObserverAdapter
 >
 (
 new
-rtc
+webrtc
 :
 :
 RefCountedObject
@@ -576,7 +576,7 @@ RTCError
 >
 ;
 static
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -590,7 +590,7 @@ callback
 )
 {
 return
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -599,7 +599,7 @@ SetRemoteDescriptionObserverAdapter
 >
 (
 new
-rtc
+webrtc
 :
 :
 RefCountedObject
@@ -722,7 +722,7 @@ RTCError
 >
 ;
 static
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -738,7 +738,7 @@ failure
 )
 {
 return
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -747,7 +747,7 @@ CreateSessionDescriptionObserverAdapter
 >
 (
 new
-rtc
+webrtc
 :
 :
 RefCountedObject
@@ -984,9 +984,6 @@ Disconnect
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 PeerConnectionFactoryInterface
@@ -1640,9 +1637,6 @@ PeerConnectionClient
 :
 OnDataChannel
 (
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -1698,7 +1692,7 @@ function
 <
 void
 (
-rtc
+webrtc
 :
 :
 scoped_refptr

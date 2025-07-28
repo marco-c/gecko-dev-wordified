@@ -154,9 +154,6 @@ void
 WriteVideoToFile
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -319,9 +316,6 @@ output_file
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -591,9 +585,6 @@ void
 WriteVideoToFile
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -640,9 +631,6 @@ void
 WriteY4mVideoToFile
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -679,9 +667,6 @@ void
 WriteYuvVideoToFile
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 Video

@@ -188,9 +188,6 @@ reference_video
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -205,9 +202,6 @@ VideoTemporalAlignerTest
 FindMatchingFrameIndicesEmpty
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -354,9 +348,6 @@ on
 this
 sequence
 .
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -454,9 +445,6 @@ on
 this
 sequence
 .
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -719,9 +707,6 @@ on
 this
 sequence
 .
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -845,9 +830,6 @@ on
 this
 sequence
 .
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -860,9 +842,6 @@ reference_video
 indices
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 Video

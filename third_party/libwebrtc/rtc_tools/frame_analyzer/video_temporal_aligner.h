@@ -224,9 +224,6 @@ size_t
 FindMatchingFrameIndices
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -234,9 +231,6 @@ Video
 &
 reference_video
 const
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -302,9 +296,6 @@ the
 original
 video
 .
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -312,9 +303,6 @@ Video
 ReorderVideo
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -448,9 +436,6 @@ the
 test
 video
 .
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -458,9 +443,6 @@ Video
 GenerateAlignedReferenceVideo
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -468,9 +450,6 @@ Video
 &
 reference_video
 const
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -488,9 +467,6 @@ using
 precalculated
 indices
 .
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -498,9 +474,6 @@ Video
 GenerateAlignedReferenceVideo
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 Video

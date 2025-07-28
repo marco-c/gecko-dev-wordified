@@ -155,7 +155,7 @@ jni
 jclass
 )
 {
-rtc
+webrtc
 :
 :
 ThreadManager
@@ -317,7 +317,7 @@ it
 works
 well
 .
-rtc
+webrtc
 :
 :
 Thread
@@ -385,7 +385,7 @@ delete
 test_controller
 ;
 }
-rtc
+webrtc
 :
 :
 ThreadManager

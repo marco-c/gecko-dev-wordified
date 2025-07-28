@@ -530,7 +530,7 @@ details
 "
 leak
 :
-rtc
+webrtc
 :
 :
 unstarted_task_test_DoNotDeleteTask2_Test
@@ -543,7 +543,7 @@ n
 "
 leak
 :
-rtc
+webrtc
 :
 :
 HttpServer
@@ -556,7 +556,7 @@ n
 "
 leak
 :
-rtc
+webrtc
 :
 :
 HttpServer
@@ -572,7 +572,7 @@ n
 "
 leak
 :
-rtc
+webrtc
 :
 :
 HttpResponseData
@@ -585,7 +585,7 @@ n
 "
 leak
 :
-rtc
+webrtc
 :
 :
 HttpData
@@ -634,7 +634,7 @@ rtc_media_unittests
 "
 leak
 :
-cricket
+webrtc
 :
 :
 FakeNetworkInterface
@@ -749,7 +749,7 @@ id
 "
 leak
 :
-cricket
+webrtc
 :
 :
 FakeVideoMediaChannel

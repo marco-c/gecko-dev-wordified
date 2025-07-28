@@ -337,9 +337,6 @@ return
 height_
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -372,9 +369,6 @@ frame_index
 ]
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -527,9 +521,6 @@ Iterator
 Iterator
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 const
@@ -650,9 +641,6 @@ Iterator
 =
 default
 ;
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -815,9 +803,6 @@ const
 return
 Iterator
 (
-rtc
-:
-:
 scoped_refptr
 <
 const
@@ -845,9 +830,6 @@ const
 return
 Iterator
 (
-rtc
-:
-:
 scoped_refptr
 <
 const
@@ -862,9 +844,6 @@ number_of_frames
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -1706,9 +1685,6 @@ frames
 "
 ;
 return
-rtc
-:
-:
 make_ref_counted
 <
 VideoFile
@@ -1723,9 +1699,6 @@ file
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -2005,9 +1978,6 @@ frames
 "
 ;
 return
-rtc
-:
-:
 make_ref_counted
 <
 VideoFile
@@ -2020,9 +1990,6 @@ file
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 Video

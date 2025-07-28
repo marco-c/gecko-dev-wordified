@@ -895,7 +895,7 @@ test
 ResultsContainer
 results
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -923,7 +923,7 @@ width
 height
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1049,7 +1049,7 @@ test
 video
 .
 const
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1223,7 +1223,7 @@ color
 transformation
 .
 const
-rtc
+webrtc
 :
 :
 scoped_refptr

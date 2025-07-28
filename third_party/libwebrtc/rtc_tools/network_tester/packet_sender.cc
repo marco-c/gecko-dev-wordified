@@ -198,9 +198,6 @@ SendPacketTask
 PacketSender
 *
 packet_sender
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -351,9 +348,6 @@ unique_ptr
 ConfigReader
 >
 config_reader
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -513,9 +507,6 @@ webrtc
 TaskQueueBase
 *
 worker_queue
-rtc
-:
-:
 scoped_refptr
 <
 webrtc

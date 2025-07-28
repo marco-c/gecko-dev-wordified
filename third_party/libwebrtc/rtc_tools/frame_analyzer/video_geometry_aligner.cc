@@ -172,9 +172,6 @@ CropRegion
 &
 region
 const
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -252,9 +249,6 @@ height
 /
 /
 namespace
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -266,9 +260,6 @@ CropRegion
 &
 crop_region
 const
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -438,9 +429,6 @@ size
 using
 libyuv
 .
-rtc
-:
-:
 scoped_refptr
 <
 I420Buffer
@@ -556,9 +544,6 @@ CropRegion
 CalculateCropRegion
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -566,9 +551,6 @@ I420BufferInterface
 &
 reference_frame
 const
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -848,9 +830,6 @@ return
 best_region
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -858,9 +837,6 @@ I420BufferInterface
 AdjustCropping
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -868,9 +844,6 @@ I420BufferInterface
 &
 reference_frame
 const
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -891,9 +864,6 @@ reference_frame
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -901,9 +871,6 @@ Video
 AdjustCropping
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -911,9 +878,6 @@ Video
 &
 reference_video
 const
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -933,9 +897,6 @@ public
 CroppedVideo
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -943,9 +904,6 @@ Video
 &
 reference_video
 const
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -1060,9 +1018,6 @@ number_of_frames
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -1076,9 +1031,6 @@ const
 override
 {
 const
-rtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
@@ -1151,9 +1103,6 @@ reference_frame
 private
 :
 const
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -1161,9 +1110,6 @@ Video
 reference_video_
 ;
 const
-rtc
-:
-:
 scoped_refptr
 <
 Video
@@ -1202,9 +1148,6 @@ crop_regions_
 }
 ;
 return
-rtc
-:
-:
 make_ref_counted
 <
 CroppedVideo
