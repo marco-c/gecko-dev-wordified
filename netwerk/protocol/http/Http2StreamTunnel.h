@@ -187,6 +187,8 @@ public
 Http2StreamBase
 public
 nsISocketTransport
+public
+nsSupportsWeakReference
 {
 public
 :
@@ -194,7 +196,7 @@ NS_INLINE_DECL_STATIC_IID
 (
 NS_HTTP2STREAMTUNNEL_IID
 )
-NS_DECL_ISUPPORTS_INHERITED
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSITRANSPORT
 NS_DECL_NSISOCKETTRANSPORT
 Http2StreamTunnel
@@ -424,6 +426,11 @@ ClearTransactionsBlockedOnTunnel
 (
 )
 ;
+bool
+DispatchRelease
+(
+)
+;
 RefPtr
 <
 OutputStreamTunnel
@@ -569,10 +576,7 @@ Http2Session
 aSession
 )
 ;
-WeakPtr
-<
-Http2StreamTunnel
->
+nsWeakPtr
 mWeakStream
 ;
 nsCOMPtr
@@ -652,10 +656,7 @@ Http2Session
 aSession
 )
 ;
-WeakPtr
-<
-Http2StreamTunnel
->
+nsWeakPtr
 mWeakStream
 ;
 nsCOMPtr
