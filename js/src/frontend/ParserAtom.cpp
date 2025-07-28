@@ -4771,6 +4771,12 @@ WellKnownAtomId
 :
 dollar_SharedArrayBufferSpecies_
 :
+case
+WellKnownAtomId
+:
+:
+dollar_TypedArraySpecies_
+:
 {
 #
 ifdef

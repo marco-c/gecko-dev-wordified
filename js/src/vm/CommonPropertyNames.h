@@ -1121,6 +1121,14 @@ SharedArrayBufferSpecies
 \
 MACRO_
 (
+dollar_TypedArraySpecies_
+"
+TypedArraySpecies
+"
+)
+\
+MACRO_
+(
 domNode
 "
 domNode
