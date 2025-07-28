@@ -531,6 +531,12 @@ CapturePacket
 data
 )
 ;
+client_
+.
+Flush
+(
+)
+;
 }
 else
 {
@@ -669,6 +675,12 @@ server_
 CapturePacket
 (
 data
+)
+;
+server_
+.
+Flush
+(
 )
 ;
 }
