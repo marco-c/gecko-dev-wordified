@@ -3991,7 +3991,15 @@ const
 {
 if
 (
-mContent
+!
+Style
+(
+)
+-
+>
+IsAnonBox
+(
+)
 &
 &
 mContent
