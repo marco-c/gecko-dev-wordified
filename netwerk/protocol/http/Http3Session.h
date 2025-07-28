@@ -2498,6 +2498,11 @@ nsIUDPSocket
 *
 mSocket
 ;
+uint32_t
+mTrrStreams
+=
+0
+;
 }
 ;
 }
