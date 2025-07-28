@@ -1959,6 +1959,7 @@ ModuleStatus
 :
 int8_t
 {
+New
 Unlinked
 Linking
 Linked
