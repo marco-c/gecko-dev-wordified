@@ -1281,7 +1281,7 @@ reftest
 /
 testing
 /
-mach_commands
+*
 .
 py
 +
