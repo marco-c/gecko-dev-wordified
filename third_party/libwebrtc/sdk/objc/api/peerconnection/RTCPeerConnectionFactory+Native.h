@@ -286,7 +286,7 @@ instancetype
 initWithNativeAudioEncoderFactory
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -301,7 +301,7 @@ audioEncoderFactory
 nativeAudioDecoderFactory
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -357,7 +357,7 @@ audioDeviceModule
 audioProcessingModule
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -377,7 +377,7 @@ instancetype
 initWithNativeAudioEncoderFactory
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -392,7 +392,7 @@ audioEncoderFactory
 nativeAudioDecoderFactory
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -448,7 +448,7 @@ audioDeviceModule
 audioProcessingModule
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr

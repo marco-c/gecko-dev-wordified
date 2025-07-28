@@ -311,7 +311,7 @@ kCVPixelBufferLock_ReadOnly
 )
 ;
 }
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -329,7 +329,7 @@ int
 height
 )
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -558,7 +558,7 @@ buffer
 void
 CopyI420BufferToCVPixelBuffer
 (
-rtc
+webrtc
 :
 :
 scoped_refptr

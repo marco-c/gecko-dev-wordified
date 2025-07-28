@@ -141,7 +141,7 @@ EncodedImageBufferInterface
 public
 :
 static
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -156,7 +156,7 @@ data
 )
 {
 return
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -313,7 +313,7 @@ property
 (
 nonatomic
 )
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -332,7 +332,7 @@ instancetype
 initWithEncodedImageBuffer
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -360,7 +360,7 @@ instancetype
 initWithEncodedImageBuffer
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -405,7 +405,7 @@ Private
 )
 -
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -444,7 +444,7 @@ void
 setEncodedData
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -591,7 +591,7 @@ self
 .
 encodedWidth
 =
-rtc
+webrtc
 :
 :
 dchecked_cast
@@ -608,7 +608,7 @@ self
 .
 encodedHeight
 =
-rtc
+webrtc
 :
 :
 dchecked_cast
@@ -822,7 +822,7 @@ encodedImage
 .
 _encodedWidth
 =
-rtc
+webrtc
 :
 :
 dchecked_cast
@@ -839,7 +839,7 @@ encodedImage
 .
 _encodedHeight
 =
-rtc
+webrtc
 :
 :
 dchecked_cast

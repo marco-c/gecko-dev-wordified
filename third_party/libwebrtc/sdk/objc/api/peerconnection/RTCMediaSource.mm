@@ -139,7 +139,7 @@ factory
 nativeMediaSource
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr

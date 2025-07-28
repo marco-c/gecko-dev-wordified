@@ -154,7 +154,7 @@ class
 ObjCVideoRenderer
 :
 public
-rtc
+webrtc
 :
 :
 VideoSinkInterface

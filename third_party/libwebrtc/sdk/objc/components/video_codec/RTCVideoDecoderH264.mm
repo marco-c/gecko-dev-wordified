@@ -464,7 +464,7 @@ CMTimeGetSeconds
 timestamp
 )
 *
-rtc
+webrtc
 :
 :
 kNumNanosecsPerSec
@@ -683,7 +683,7 @@ return
 WEBRTC_VIDEO_CODEC_ERROR
 ;
 }
-rtc
+webrtc
 :
 :
 ScopedCFTypeRef
@@ -692,7 +692,7 @@ CMVideoFormatDescriptionRef
 >
 inputFormat
 =
-rtc
+webrtc
 :
 :
 ScopedCF

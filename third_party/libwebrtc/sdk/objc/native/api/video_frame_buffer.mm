@@ -124,7 +124,7 @@ h
 namespace
 webrtc
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -144,7 +144,7 @@ objc_video_frame_buffer
 )
 {
 return
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -166,7 +166,7 @@ RTCVideoFrameBuffer
 NativeToObjCVideoFrameBuffer
 (
 const
-rtc
+webrtc
 :
 :
 scoped_refptr

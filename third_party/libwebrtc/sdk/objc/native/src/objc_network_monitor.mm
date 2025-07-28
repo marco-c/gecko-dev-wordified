@@ -134,7 +134,7 @@ h
 namespace
 webrtc
 {
-rtc
+webrtc
 :
 :
 NetworkMonitorInterface
@@ -210,7 +210,7 @@ return
 }
 thread_
 =
-rtc
+webrtc
 :
 :
 Thread
@@ -321,7 +321,7 @@ started_
 false
 ;
 }
-rtc
+webrtc
 :
 :
 NetworkMonitorInterface
@@ -391,7 +391,7 @@ return
 .
 adapter_type
 =
-rtc
+webrtc
 :
 :
 ADAPTER_TYPE_UNKNOWN
@@ -429,7 +429,7 @@ return
 .
 adapter_type
 =
-rtc
+webrtc
 :
 :
 ADAPTER_TYPE_UNKNOWN
@@ -471,11 +471,11 @@ std
 :
 :
 string
-rtc
+webrtc
 :
 :
 AdapterType
-rtc
+webrtc
 :
 :
 AbslStringViewCmp

@@ -105,7 +105,7 @@ SSLCertificateVerifierAdapter
 final
 :
 public
-rtc
+webrtc
 :
 :
 SSLCertificateVerifier
@@ -142,7 +142,7 @@ bool
 Verify
 (
 const
-rtc
+webrtc
 :
 :
 SSLCertificate
@@ -153,7 +153,7 @@ override
 {
 autoreleasepool
 {
-rtc
+webrtc
 :
 :
 Buffer
@@ -227,7 +227,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 SSLCertificateVerifier

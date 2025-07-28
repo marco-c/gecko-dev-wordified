@@ -151,7 +151,7 @@ RTCPeerConnectionFactory
 *
 _factory
 ;
-rtc
+webrtc
 :
 :
 Thread
@@ -180,7 +180,7 @@ _signalingThread
 *
 /
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -240,7 +240,7 @@ stdStringForString
 streamId
 ]
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -840,7 +840,7 @@ mark
 Private
 -
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -874,7 +874,7 @@ factory
 nativeMediaStream
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr

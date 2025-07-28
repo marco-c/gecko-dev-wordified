@@ -355,7 +355,7 @@ int
 fps
 )
 {
-cricket
+webrtc
 :
 :
 VideoFormat
@@ -363,7 +363,7 @@ format
 (
 width
 height
-cricket
+webrtc
 :
 :
 VideoFormat
@@ -409,7 +409,7 @@ frame
 .
 timeStampNs
 /
-rtc
+webrtc
 :
 :
 kNumNanosecsPerMicrosec
@@ -423,7 +423,7 @@ timestamp_aligner_
 TranslateTimestamp
 (
 timestamp_us
-rtc
+webrtc
 :
 :
 TimeMicros
@@ -479,7 +479,7 @@ crop_y
 return
 ;
 }
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -516,7 +516,7 @@ path
 .
 buffer
 =
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -575,7 +575,7 @@ buffer
 ;
 buffer
 =
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -646,7 +646,7 @@ this
 I420
 path
 .
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -666,7 +666,7 @@ adapted_height
 ;
 buffer
 =
-rtc
+webrtc
 :
 :
 make_ref_counted

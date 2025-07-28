@@ -109,7 +109,7 @@ CVPixelBufferRef
 pixelBuffer
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -130,7 +130,7 @@ height
 void
 CopyI420BufferToCVPixelBuffer
 (
-rtc
+webrtc
 :
 :
 scoped_refptr

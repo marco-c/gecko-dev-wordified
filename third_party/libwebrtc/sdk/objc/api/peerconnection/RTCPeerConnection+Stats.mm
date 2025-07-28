@@ -183,7 +183,7 @@ void
 OnStatsDelivered
 (
 const
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -419,7 +419,7 @@ RTCStatisticsCompletionHandler
 )
 completionHandler
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -431,7 +431,7 @@ StatsCollectorCallbackAdapter
 >
 collector
 =
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -480,7 +480,7 @@ RTCStatisticsCompletionHandler
 )
 completionHandler
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -492,7 +492,7 @@ StatsCollectorCallbackAdapter
 >
 collector
 =
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -531,7 +531,7 @@ RTCStatisticsCompletionHandler
 )
 completionHandler
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -543,7 +543,7 @@ StatsCollectorCallbackAdapter
 >
 collector
 =
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -614,7 +614,7 @@ stats
 )
 completionHandler
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -626,7 +626,7 @@ StatsObserverAdapter
 >
 observer
 =
-rtc
+webrtc
 :
 :
 make_ref_counted

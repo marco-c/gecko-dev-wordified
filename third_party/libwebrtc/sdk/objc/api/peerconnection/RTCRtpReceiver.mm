@@ -248,7 +248,7 @@ RTCPeerConnectionFactory
 *
 _factory
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -340,7 +340,7 @@ RTCMediaStreamTrack
 )
 track
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -634,7 +634,7 @@ void
 setFrameDecryptor
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -663,7 +663,7 @@ mark
 Private
 -
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -697,7 +697,7 @@ factory
 nativeRtpReceiver
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr

@@ -125,7 +125,7 @@ h
 namespace
 webrtc
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -153,7 +153,7 @@ LS_INFO
 __FUNCTION__
 ;
 return
-rtc
+webrtc
 :
 :
 make_ref_counted

@@ -840,7 +840,7 @@ PeerConnectionDelegateAdapter
 :
 OnAddStream
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -936,7 +936,7 @@ PeerConnectionDelegateAdapter
 :
 OnRemoveStream
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1032,7 +1032,7 @@ PeerConnectionDelegateAdapter
 :
 OnTrack
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1145,7 +1145,7 @@ PeerConnectionDelegateAdapter
 :
 OnDataChannel
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1892,7 +1892,7 @@ std
 :
 vector
 <
-cricket
+webrtc
 :
 :
 Candidate
@@ -2030,7 +2030,7 @@ PeerConnectionDelegateAdapter
 OnIceSelectedCandidatePairChanged
 (
 const
-cricket
+webrtc
 :
 :
 CandidatePairChangeEvent
@@ -2239,7 +2239,7 @@ PeerConnectionDelegateAdapter
 :
 OnAddTrack
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -2253,7 +2253,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -2431,7 +2431,7 @@ PeerConnectionDelegateAdapter
 :
 OnRemoveTrack
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -2579,7 +2579,7 @@ PeerConnectionDelegateAdapter
 >
 _observer
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -3605,7 +3605,7 @@ std
 :
 vector
 <
-cricket
+webrtc
 :
 :
 Candidate
@@ -3871,7 +3871,7 @@ webrtc
 :
 RTCErrorOr
 <
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -4088,7 +4088,7 @@ webrtc
 :
 RTCErrorOr
 <
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -4244,7 +4244,7 @@ webrtc
 :
 RTCErrorOr
 <
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -4389,7 +4389,7 @@ completionHandler
 nil
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -4401,7 +4401,7 @@ CreateSessionDescriptionObserverAdapter
 >
 observer
 =
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -4480,7 +4480,7 @@ completionHandler
 nil
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -4492,7 +4492,7 @@ CreateSessionDescriptionObserverAdapter
 >
 observer
 =
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -4571,7 +4571,7 @@ completionHandler
 nil
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -4583,7 +4583,7 @@ SetLocalDescriptionObserverInterface
 >
 observer
 =
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -4627,7 +4627,7 @@ completionHandler
 nil
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -4639,7 +4639,7 @@ SetLocalDescriptionObserverInterface
 >
 observer
 =
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -4690,7 +4690,7 @@ completionHandler
 nil
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -4702,7 +4702,7 @@ SetRemoteDescriptionObserverInterface
 >
 observer
 =
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -4990,7 +4990,7 @@ RtcEventLog
 :
 kUnlimitedOutput
 :
-rtc
+webrtc
 :
 :
 saturated_cast
@@ -5095,7 +5095,7 @@ stdStringForString
 streamId
 ]
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -5160,7 +5160,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -5259,7 +5259,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -5358,7 +5358,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -6533,7 +6533,7 @@ kStatsOutputLevelDebug
 }
 -
 (
-rtc
+webrtc
 :
 :
 scoped_refptr

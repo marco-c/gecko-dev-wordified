@@ -217,7 +217,7 @@ class
 ObjCNetworkMonitorFactory
 :
 public
-rtc
+webrtc
 :
 :
 NetworkMonitorFactory
@@ -238,7 +238,7 @@ override
 =
 default
 ;
-rtc
+webrtc
 :
 :
 NetworkMonitorInterface
@@ -258,7 +258,7 @@ class
 ObjCNetworkMonitor
 :
 public
-rtc
+webrtc
 :
 :
 NetworkMonitorInterface
@@ -329,11 +329,11 @@ std
 :
 :
 string
-rtc
+webrtc
 :
 :
 AdapterType
-rtc
+webrtc
 :
 :
 AbslStringViewCmp
@@ -344,7 +344,7 @@ override
 ;
 private
 :
-rtc
+webrtc
 :
 :
 Thread
@@ -367,11 +367,11 @@ std
 :
 :
 string
-rtc
+webrtc
 :
 :
 AdapterType
-rtc
+webrtc
 :
 :
 AbslStringViewCmp
@@ -382,7 +382,7 @@ RTC_GUARDED_BY
 thread_
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr

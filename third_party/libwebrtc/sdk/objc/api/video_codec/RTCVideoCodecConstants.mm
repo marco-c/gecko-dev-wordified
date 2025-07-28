@@ -107,7 +107,7 @@ const
 kRTCVideoCodecVp8Name
 =
 (
-cricket
+webrtc
 :
 :
 kVp8CodecName
@@ -119,7 +119,7 @@ const
 kRTCVideoCodecVp9Name
 =
 (
-cricket
+webrtc
 :
 :
 kVp9CodecName
@@ -131,7 +131,7 @@ const
 kRTCVideoCodecAv1Name
 =
 (
-cricket
+webrtc
 :
 :
 kAv1CodecName

@@ -98,7 +98,7 @@ logging
 .
 h
 "
-rtc
+webrtc
 :
 :
 LoggingSeverity
@@ -117,7 +117,7 @@ case
 RTCLoggingSeverityVerbose
 :
 return
-rtc
+webrtc
 :
 :
 LS_VERBOSE
@@ -126,7 +126,7 @@ case
 RTCLoggingSeverityInfo
 :
 return
-rtc
+webrtc
 :
 :
 LS_INFO
@@ -135,7 +135,7 @@ case
 RTCLoggingSeverityWarning
 :
 return
-rtc
+webrtc
 :
 :
 LS_WARNING
@@ -144,7 +144,7 @@ case
 RTCLoggingSeverityError
 :
 return
-rtc
+webrtc
 :
 :
 LS_ERROR
@@ -153,7 +153,7 @@ case
 RTCLoggingSeverityNone
 :
 return
-rtc
+webrtc
 :
 :
 LS_NONE
@@ -206,7 +206,7 @@ RTCLoggingSeverity
 severity
 )
 {
-rtc
+webrtc
 :
 :
 LogMessage

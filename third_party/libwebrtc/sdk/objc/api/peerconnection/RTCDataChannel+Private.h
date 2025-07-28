@@ -230,7 +230,7 @@ factory
 nativeDataChannel
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr

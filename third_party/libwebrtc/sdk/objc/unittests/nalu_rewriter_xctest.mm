@@ -1896,7 +1896,7 @@ clang
 -
 format
 on
-rtc
+webrtc
 :
 :
 Buffer
@@ -2077,7 +2077,7 @@ clang
 -
 format
 on
-rtc
+webrtc
 :
 :
 Buffer

@@ -104,7 +104,7 @@ RTCSetupInternalTracer
 void
 )
 {
-rtc
+webrtc
 :
 :
 tracing
@@ -124,7 +124,7 @@ filePath
 )
 {
 return
-rtc
+webrtc
 :
 :
 tracing
@@ -144,7 +144,7 @@ RTCStopInternalCapture
 void
 )
 {
-rtc
+webrtc
 :
 :
 tracing
@@ -161,7 +161,7 @@ RTCShutdownInternalTracer
 void
 )
 {
-rtc
+webrtc
 :
 :
 tracing

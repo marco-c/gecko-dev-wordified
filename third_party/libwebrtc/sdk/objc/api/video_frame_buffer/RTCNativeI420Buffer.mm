@@ -358,7 +358,7 @@ instancetype
 initWithFrameBuffer
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -595,7 +595,7 @@ int
 )
 scaleHeight
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -653,7 +653,7 @@ do
 any
 conversions
 .
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -719,7 +719,7 @@ mark
 Private
 -
 (
-rtc
+webrtc
 :
 :
 scoped_refptr

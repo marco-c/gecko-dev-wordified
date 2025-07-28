@@ -328,7 +328,7 @@ void
 setAudioEncoderFactory
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -361,7 +361,7 @@ void
 setAudioDecoderFactory
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -394,7 +394,7 @@ void
 setAudioDeviceModule
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -427,7 +427,7 @@ void
 setAudioProcessingModule
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr

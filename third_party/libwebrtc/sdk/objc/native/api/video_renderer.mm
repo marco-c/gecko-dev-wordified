@@ -125,7 +125,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 VideoSinkInterface

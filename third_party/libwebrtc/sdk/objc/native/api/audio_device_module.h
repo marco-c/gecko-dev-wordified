@@ -173,7 +173,7 @@ in
 most
 scenarios
 .
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -205,7 +205,7 @@ activity
 while
 muted
 .
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -263,7 +263,7 @@ playout
 start
 failied
 .
-rtc
+webrtc
 :
 :
 scoped_refptr

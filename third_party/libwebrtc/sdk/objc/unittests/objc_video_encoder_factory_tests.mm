@@ -989,7 +989,7 @@ nil
 pixel_buffer
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1001,7 +1001,7 @@ VideoFrameBuffer
 >
 buffer
 =
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -1130,7 +1130,7 @@ nil
 pixel_buffer
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1142,7 +1142,7 @@ VideoFrameBuffer
 >
 buffer
 =
-rtc
+webrtc
 :
 :
 make_ref_counted

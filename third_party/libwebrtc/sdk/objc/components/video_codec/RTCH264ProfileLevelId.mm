@@ -164,7 +164,7 @@ const
 kRTCVideoCodecH264Name
 =
 (
-cricket
+webrtc
 :
 :
 kH264CodecName

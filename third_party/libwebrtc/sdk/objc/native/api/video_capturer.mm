@@ -135,7 +135,7 @@ h
 namespace
 webrtc
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -153,13 +153,13 @@ RTCVideoCapturer
 )
 *
 objc_video_capturer
-rtc
+webrtc
 :
 :
 Thread
 *
 signaling_thread
-rtc
+webrtc
 :
 :
 Thread
@@ -179,7 +179,7 @@ alloc
 init
 ]
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -191,7 +191,7 @@ ObjCVideoTrackSource
 >
 objc_video_track_source
 =
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -205,7 +205,7 @@ ObjCVideoTrackSource
 adapter
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr

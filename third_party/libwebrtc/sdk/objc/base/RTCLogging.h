@@ -108,7 +108,7 @@ h
 /
 Subset
 of
-rtc
+webrtc
 :
 :
 LoggingSeverity
@@ -170,7 +170,7 @@ log_string
 /
 Wrapper
 for
-rtc
+webrtc
 :
 :
 LogMessage

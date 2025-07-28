@@ -116,7 +116,7 @@ void
 BOOL
 initialized
 =
-rtc
+webrtc
 :
 :
 InitializeSSL
@@ -141,7 +141,7 @@ void
 BOOL
 cleanedUp
 =
-rtc
+webrtc
 :
 :
 CleanupSSL

@@ -131,7 +131,7 @@ h
 "
 namespace
 {
-rtc
+webrtc
 :
 :
 AdapterType
@@ -141,13 +141,13 @@ nw_interface_type_t
 interfaceType
 )
 {
-rtc
+webrtc
 :
 :
 AdapterType
 adapterType
 =
-rtc
+webrtc
 :
 :
 ADAPTER_TYPE_UNKNOWN
@@ -162,7 +162,7 @@ nw_interface_type_other
 :
 adapterType
 =
-rtc
+webrtc
 :
 :
 ADAPTER_TYPE_UNKNOWN
@@ -174,7 +174,7 @@ nw_interface_type_wifi
 :
 adapterType
 =
-rtc
+webrtc
 :
 :
 ADAPTER_TYPE_WIFI
@@ -186,7 +186,7 @@ nw_interface_type_cellular
 :
 adapterType
 =
-rtc
+webrtc
 :
 :
 ADAPTER_TYPE_CELLULAR
@@ -198,7 +198,7 @@ nw_interface_type_wired
 :
 adapterType
 =
-rtc
+webrtc
 :
 :
 ADAPTER_TYPE_ETHERNET
@@ -210,7 +210,7 @@ nw_interface_type_loopback
 :
 adapterType
 =
-rtc
+webrtc
 :
 :
 ADAPTER_TYPE_LOOPBACK
@@ -221,7 +221,7 @@ default
 :
 adapterType
 =
-rtc
+webrtc
 :
 :
 ADAPTER_TYPE_UNKNOWN
@@ -491,11 +491,11 @@ std
 :
 :
 string
-rtc
+webrtc
 :
 :
 AdapterType
-rtc
+webrtc
 :
 :
 AbslStringViewCmp
@@ -560,7 +560,7 @@ s
 name
 )
 ;
-rtc
+webrtc
 :
 :
 AdapterType

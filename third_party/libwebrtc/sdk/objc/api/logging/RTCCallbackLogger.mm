@@ -150,7 +150,7 @@ CallbackLogSink
 final
 :
 public
-rtc
+webrtc
 :
 :
 LogSink
@@ -234,7 +234,7 @@ CallbackWithSeverityLogSink
 final
 :
 public
-rtc
+webrtc
 :
 :
 LogSink
@@ -281,7 +281,7 @@ std
 string
 &
 message
-rtc
+webrtc
 :
 :
 LoggingSeverity
@@ -310,7 +310,7 @@ absl
 :
 string_view
 message
-rtc
+webrtc
 :
 :
 LoggingSeverity
@@ -350,7 +350,7 @@ static
 RTCLoggingSeverity
 NativeSeverityToObjcSeverity
 (
-rtc
+webrtc
 :
 :
 LoggingSeverity
@@ -363,7 +363,7 @@ severity
 )
 {
 case
-rtc
+webrtc
 :
 :
 LS_VERBOSE
@@ -372,7 +372,7 @@ return
 RTCLoggingSeverityVerbose
 ;
 case
-rtc
+webrtc
 :
 :
 LS_INFO
@@ -381,7 +381,7 @@ return
 RTCLoggingSeverityInfo
 ;
 case
-rtc
+webrtc
 :
 :
 LS_WARNING
@@ -390,7 +390,7 @@ return
 RTCLoggingSeverityWarning
 ;
 case
-rtc
+webrtc
 :
 :
 LS_ERROR
@@ -399,7 +399,7 @@ return
 RTCLoggingSeverityError
 ;
 case
-rtc
+webrtc
 :
 :
 LS_NONE
@@ -432,7 +432,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 LogSink
@@ -518,7 +518,7 @@ handler
 )
 )
 ;
-rtc
+webrtc
 :
 :
 LogMessage
@@ -573,7 +573,7 @@ handler
 )
 )
 ;
-rtc
+webrtc
 :
 :
 LogMessage
@@ -617,7 +617,7 @@ RTC_DCHECK
 _logSink
 )
 ;
-rtc
+webrtc
 :
 :
 LogMessage
@@ -650,7 +650,7 @@ mark
 Private
 -
 (
-rtc
+webrtc
 :
 :
 LoggingSeverity
@@ -666,7 +666,7 @@ case
 RTCLoggingSeverityVerbose
 :
 return
-rtc
+webrtc
 :
 :
 LS_VERBOSE
@@ -675,7 +675,7 @@ case
 RTCLoggingSeverityInfo
 :
 return
-rtc
+webrtc
 :
 :
 LS_INFO
@@ -684,7 +684,7 @@ case
 RTCLoggingSeverityWarning
 :
 return
-rtc
+webrtc
 :
 :
 LS_WARNING
@@ -693,7 +693,7 @@ case
 RTCLoggingSeverityError
 :
 return
-rtc
+webrtc
 :
 :
 LS_ERROR
@@ -702,7 +702,7 @@ case
 RTCLoggingSeverityNone
 :
 return
-rtc
+webrtc
 :
 :
 LS_NONE

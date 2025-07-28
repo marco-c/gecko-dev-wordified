@@ -124,7 +124,7 @@ property
 nonatomic
 readonly
 )
-rtc
+webrtc
 :
 :
 scoped_refptr

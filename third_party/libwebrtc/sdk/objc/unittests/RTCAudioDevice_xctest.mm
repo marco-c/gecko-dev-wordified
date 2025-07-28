@@ -166,7 +166,7 @@ XCTestCase
 bool
 _testEnabled
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -875,7 +875,7 @@ notification
 to
 propagate
 .
-rtc
+webrtc
 :
 :
 ThreadManager
@@ -926,7 +926,7 @@ notification
 to
 propagate
 .
-rtc
+webrtc
 :
 :
 ThreadManager

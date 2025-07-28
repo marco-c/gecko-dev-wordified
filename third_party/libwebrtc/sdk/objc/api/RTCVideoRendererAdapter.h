@@ -97,7 +97,7 @@ NS_ASSUME_NONNULL_BEGIN
 *
 Creates
 a
-rtc
+webrtc
 :
 :
 VideoSinkInterface
@@ -108,7 +108,7 @@ RTCVideoRenderer
 .
 The
 *
-rtc
+webrtc
 :
 :
 VideoSinkInterface

@@ -166,7 +166,7 @@ property
 nonatomic
 readonly
 )
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -208,7 +208,7 @@ factory
 nativeRtpReceiver
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr

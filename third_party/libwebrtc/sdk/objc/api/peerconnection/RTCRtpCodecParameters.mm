@@ -136,7 +136,7 @@ const
 kRTCRtxCodecName
 =
 (
-cricket
+webrtc
 :
 :
 kRtxCodecName
@@ -149,7 +149,7 @@ const
 kRTCRedCodecName
 =
 (
-cricket
+webrtc
 :
 :
 kRedCodecName
@@ -162,7 +162,7 @@ const
 kRTCUlpfecCodecName
 =
 (
-cricket
+webrtc
 :
 :
 kUlpfecCodecName
@@ -175,7 +175,7 @@ const
 kRTCFlexfecCodecName
 =
 (
-cricket
+webrtc
 :
 :
 kFlexfecCodecName
@@ -188,7 +188,7 @@ const
 kRTCOpusCodecName
 =
 (
-cricket
+webrtc
 :
 :
 kOpusCodecName
@@ -201,7 +201,7 @@ const
 kRTCL16CodecName
 =
 (
-cricket
+webrtc
 :
 :
 kL16CodecName
@@ -214,7 +214,7 @@ const
 kRTCG722CodecName
 =
 (
-cricket
+webrtc
 :
 :
 kG722CodecName
@@ -227,7 +227,7 @@ const
 kRTCPcmuCodecName
 =
 (
-cricket
+webrtc
 :
 :
 kPcmuCodecName
@@ -240,7 +240,7 @@ const
 kRTCPcmaCodecName
 =
 (
-cricket
+webrtc
 :
 :
 kPcmaCodecName
@@ -253,7 +253,7 @@ const
 kRTCDtmfCodecName
 =
 (
-cricket
+webrtc
 :
 :
 kDtmfCodecName
@@ -266,7 +266,7 @@ const
 kRTCComfortNoiseCodecName
 =
 (
-cricket
+webrtc
 :
 :
 kComfortNoiseCodecName
@@ -279,7 +279,7 @@ const
 kRTCVp8CodecName
 =
 (
-cricket
+webrtc
 :
 :
 kVp8CodecName
@@ -292,7 +292,7 @@ const
 kRTCVp9CodecName
 =
 (
-cricket
+webrtc
 :
 :
 kVp9CodecName
@@ -305,7 +305,7 @@ const
 kRTCH264CodecName
 =
 (
-cricket
+webrtc
 :
 :
 kH264CodecName

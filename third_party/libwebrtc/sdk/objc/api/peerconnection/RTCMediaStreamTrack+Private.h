@@ -157,7 +157,7 @@ property
 nonatomic
 readonly
 )
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -200,7 +200,7 @@ factory
 nativeTrack
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -237,7 +237,7 @@ factory
 nativeTrack
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -322,7 +322,7 @@ RTCMediaStreamTrack
 mediaTrackForNativeTrack
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr

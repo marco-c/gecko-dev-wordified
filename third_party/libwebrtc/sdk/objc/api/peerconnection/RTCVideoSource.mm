@@ -133,7 +133,7 @@ ObjCVideoTrackSource
 getObjCVideoSource
 (
 const
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -231,7 +231,7 @@ RTC_OBJC_TYPE
 RTCVideoSource
 )
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -261,7 +261,7 @@ factory
 nativeVideoSource
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -330,7 +330,7 @@ factory
 nativeMediaSource
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -451,7 +451,7 @@ BOOL
 )
 isScreenCast
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -463,7 +463,7 @@ ObjCVideoTrackSource
 >
 objCVideoTrackSource
 =
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -626,7 +626,7 @@ mark
 Private
 -
 (
-rtc
+webrtc
 :
 :
 scoped_refptr

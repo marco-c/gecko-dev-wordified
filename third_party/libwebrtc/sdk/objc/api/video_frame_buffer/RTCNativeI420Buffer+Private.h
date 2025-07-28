@@ -110,7 +110,7 @@ RTCI420Buffer
 )
 {
 protected
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -143,7 +143,7 @@ instancetype
 initWithFrameBuffer
 :
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -158,7 +158,7 @@ i420Buffer
 ;
 -
 (
-rtc
+webrtc
 :
 :
 scoped_refptr

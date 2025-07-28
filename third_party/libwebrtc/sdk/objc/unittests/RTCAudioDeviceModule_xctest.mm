@@ -627,7 +627,7 @@ XCTestCase
 bool
 _testEnabled
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1485,7 +1485,7 @@ the
 test
 harness
 .
-rtc
+webrtc
 :
 :
 scoped_refptr
