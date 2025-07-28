@@ -231,6 +231,8 @@ class
 Http2StreamBase
 :
 public
+nsISupports
+public
 nsAHttpSegmentReader
 public
 nsAHttpSegmentWriter
@@ -239,6 +241,7 @@ SupportsWeakPtr
 {
 public
 :
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSAHTTPSEGMENTREADER
 enum
 stateType
@@ -1163,6 +1166,15 @@ protected
 virtual
 ~
 Http2StreamBase
+(
+)
+;
+friend
+class
+DeleteHttp2StreamBase
+;
+void
+DeleteSelfOnSocketThread
 (
 )
 ;
