@@ -9568,10 +9568,8 @@ HTMLEditUtils
 :
 :
 kNewLine
-)
-{
-MOZ_ASSERT
-(
+&
+&
 EditorUtils
 :
 :
@@ -9580,7 +9578,7 @@ IsNewLinePreformatted
 aText
 )
 )
-;
+{
 for
 (
 const
@@ -9734,10 +9732,8 @@ HTMLEditUtils
 :
 :
 kNewLine
-)
-{
-MOZ_ASSERT
-(
+&
+&
 EditorUtils
 :
 :
@@ -9746,7 +9742,7 @@ IsNewLinePreformatted
 aText
 )
 )
-;
+{
 for
 (
 const
