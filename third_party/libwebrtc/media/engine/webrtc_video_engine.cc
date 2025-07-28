@@ -18501,6 +18501,12 @@ ssrc
 }
 common_info
 .
+encoding_index
+=
+0
+;
+common_info
+.
 active
 =
 IsActiveFromEncodings
