@@ -708,10 +708,6 @@ mEnabled
 =
 true
 ;
-mVisible
-=
-true
-;
 mNeedIMEStateInit
 =
 MightNeedIMEFocus
