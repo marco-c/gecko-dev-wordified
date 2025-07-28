@@ -450,6 +450,9 @@ len
 uint32_t
 hash
 =
+(
+uint32_t
+)
 len
 tmp
 ;
@@ -512,6 +515,9 @@ data
 ;
 tmp
 =
+(
+uint32_t
+)
 (
 get16bits
 (
@@ -591,6 +597,10 @@ hash
 ^
 =
 (
+uint32_t
+)
+(
+(
 (
 signed
 char
@@ -606,6 +616,7 @@ uint16_t
 <
 <
 18
+)
 ;
 hash
 +
@@ -653,11 +664,16 @@ hash
 +
 =
 (
+uint32_t
+)
+(
+(
 signed
 char
 )
 *
 data
+)
 ;
 hash
 ^

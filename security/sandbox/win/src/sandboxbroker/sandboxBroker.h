@@ -482,7 +482,7 @@ log
 calls
 .
 void
-ApplyLoggingPolicy
+ApplyLoggingConfig
 (
 )
 ;
@@ -492,11 +492,16 @@ static
 bool
 sRunningFromNetworkDrive
 ;
+std
+:
+:
+unique_ptr
+<
 sandbox
 :
 :
 TargetPolicy
-*
+>
 mPolicy
 ;
 }

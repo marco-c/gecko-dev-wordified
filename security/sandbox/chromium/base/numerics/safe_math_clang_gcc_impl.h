@@ -5,11 +5,6 @@ Copyright
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 /
 /
 Use
@@ -886,13 +881,10 @@ is_supported
 std
 :
 :
-is_signed
+is_signed_v
 <
 T
 >
-:
-:
-value
 ;
 __attribute__
 (

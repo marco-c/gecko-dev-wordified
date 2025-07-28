@@ -5,11 +5,6 @@ Copyright
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 /
 /
 Use
@@ -4100,11 +4095,11 @@ if
 !
 defined
 (
-__NR_quotactl_fd
+__NR_quotactl_path
 )
 #
 define
-__NR_quotactl_fd
+__NR_quotactl_path
 443
 #
 endif

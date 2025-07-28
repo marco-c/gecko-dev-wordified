@@ -5,11 +5,6 @@ Copyright
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 /
 /
 Use
@@ -89,7 +84,6 @@ template
 typename
 T
 >
-static
 inline
 uintptr_t
 get_uintptr

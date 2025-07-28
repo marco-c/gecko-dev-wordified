@@ -5,11 +5,6 @@ Copyright
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 /
 /
 Use
@@ -99,9 +94,9 @@ default
 .
 #
 if
-defined
+BUILDFLAG
 (
-OS_AIX
+IS_AIX
 )
 #
 if
@@ -207,9 +202,11 @@ geteuid
 =
 0
 )
+{
 return
 true
 ;
+}
 /
 /
 2
@@ -397,9 +394,11 @@ rlim
 =
 0
 )
+{
 return
 false
 ;
+}
 const
 int
 lowest_nice_allowed

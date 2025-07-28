@@ -1,18 +1,10 @@
 /
 /
 Copyright
-(
-c
-)
 2012
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 /
 /
 Use
@@ -62,7 +54,7 @@ include
 "
 base
 /
-logging
+check
 .
 h
 "
