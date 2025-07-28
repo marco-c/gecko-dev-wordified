@@ -674,8 +674,10 @@ edit
 .
 *
 /
-function
+class
 TextPropertyEditor
+{
+constructor
 (
 ruleEditor
 property
@@ -1074,11 +1076,6 @@ update
 )
 ;
 }
-TextPropertyEditor
-.
-prototype
-=
-{
 /
 *
 *
@@ -11587,7 +11584,6 @@ join
 ;
 }
 }
-;
 module
 .
 exports
