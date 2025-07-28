@@ -19,8 +19,6 @@ license
 .
 See
 LICENSE
-.
-txt
 or
 :
 *
