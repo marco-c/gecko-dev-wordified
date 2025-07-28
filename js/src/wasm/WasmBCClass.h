@@ -1337,6 +1337,13 @@ PostBarrierKind
 {
 /
 /
+No
+post
+barrier
+.
+None
+/
+/
 Add
 a
 store
@@ -12499,7 +12506,7 @@ function
 -
 temp
 is
-clobbered
+consumed
 by
 this
 function
@@ -16008,6 +16015,8 @@ AnyReg
 value
 PreBarrierKind
 preBarrierKind
+PostBarrierKind
+postBarrierKind
 )
 ;
 #
