@@ -10947,7 +10947,7 @@ of
 properties
 editor
 .
-_populateComputed
+populateComputed
 (
 )
 ;
