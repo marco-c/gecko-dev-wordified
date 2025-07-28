@@ -596,15 +596,6 @@ include
 "
 rtc_base
 /
-socket_adapters
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 socket_address
 .
 h
@@ -4235,7 +4226,7 @@ true
 )
 ;
 }
-rtc
+webrtc
 :
 :
 Network
@@ -4290,7 +4281,7 @@ back
 )
 ;
 }
-rtc
+webrtc
 :
 :
 Network
@@ -7082,7 +7073,7 @@ TestPort
 CreateTestPort
 (
 const
-rtc
+webrtc
 :
 :
 Network
@@ -7345,7 +7336,7 @@ std
 :
 list
 <
-rtc
+webrtc
 :
 :
 Network
@@ -19063,7 +19054,7 @@ PortTest
 TestNetworkCostChange
 )
 {
-rtc
+webrtc
 :
 :
 Network
@@ -19719,7 +19710,7 @@ PortTest
 TestNetworkInfoAttribute
 )
 {
-rtc
+webrtc
 :
 :
 Network
@@ -31891,7 +31882,7 @@ AddFingerprint
 )
 ;
 }
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -33564,7 +33555,7 @@ rpass
 "
 )
 ;
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -34780,6 +34771,9 @@ udp_port
 >
 SupportsProtocol
 (
+webrtc
+:
+:
 UDP_PROTOCOL_NAME
 )
 )
@@ -34791,6 +34785,9 @@ udp_port
 >
 SupportsProtocol
 (
+webrtc
+:
+:
 TCP_PROTOCOL_NAME
 )
 )
@@ -34813,6 +34810,9 @@ stun_port
 >
 SupportsProtocol
 (
+webrtc
+:
+:
 UDP_PROTOCOL_NAME
 )
 )
@@ -34824,6 +34824,9 @@ stun_port
 >
 SupportsProtocol
 (
+webrtc
+:
+:
 TCP_PROTOCOL_NAME
 )
 )
@@ -34843,6 +34846,9 @@ tcp_port
 >
 SupportsProtocol
 (
+webrtc
+:
+:
 TCP_PROTOCOL_NAME
 )
 )
@@ -34854,6 +34860,9 @@ tcp_port
 >
 SupportsProtocol
 (
+webrtc
+:
+:
 SSLTCP_PROTOCOL_NAME
 )
 )
@@ -34865,6 +34874,9 @@ tcp_port
 >
 SupportsProtocol
 (
+webrtc
+:
+:
 UDP_PROTOCOL_NAME
 )
 )
@@ -34895,6 +34907,9 @@ turn_port
 >
 SupportsProtocol
 (
+webrtc
+:
+:
 UDP_PROTOCOL_NAME
 )
 )
@@ -34906,6 +34921,9 @@ turn_port
 >
 SupportsProtocol
 (
+webrtc
+:
+:
 TCP_PROTOCOL_NAME
 )
 )

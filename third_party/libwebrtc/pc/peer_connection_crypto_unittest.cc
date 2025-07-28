@@ -3549,9 +3549,6 @@ description
 .
 identity_fingerprint
 =
-rtc
-:
-:
 SSLFingerprint
 :
 :

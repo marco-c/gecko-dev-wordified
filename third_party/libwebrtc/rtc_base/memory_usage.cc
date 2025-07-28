@@ -95,6 +95,11 @@ memory_usage
 h
 "
 #
+include
+<
+cstdint
+>
+#
 if
 defined
 (
@@ -214,7 +219,7 @@ logging
 h
 "
 namespace
-rtc
+webrtc
 {
 int64_t
 GetProcessResidentSizeBytes
@@ -572,4 +577,4 @@ endif
 /
 /
 namespace
-rtc
+webrtc

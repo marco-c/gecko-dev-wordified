@@ -94,11 +94,6 @@ h
 #
 include
 <
-memory
->
-#
-include
-<
 string
 >
 #
@@ -172,7 +167,7 @@ defined
 __native_client__
 )
 namespace
-rtc
+webrtc
 {
 const
 char
@@ -288,4 +283,4 @@ endif
 /
 /
 namespace
-rtc
+webrtc

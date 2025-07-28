@@ -854,6 +854,9 @@ if
 protocol
 =
 =
+webrtc
+:
+:
 UDP_PROTOCOL_NAME
 )
 {
@@ -873,6 +876,9 @@ if
 protocol
 =
 =
+webrtc
+:
+:
 TCP_PROTOCOL_NAME
 )
 {
@@ -892,6 +898,9 @@ if
 protocol
 =
 =
+webrtc
+:
+:
 SSLTCP_PROTOCOL_NAME
 )
 {
@@ -911,6 +920,9 @@ if
 protocol
 =
 =
+webrtc
+:
+:
 TLS_PROTOCOL_NAME
 )
 {
@@ -1885,7 +1897,7 @@ remote_candidate_
 ;
 }
 const
-rtc
+webrtc
 :
 :
 Network
@@ -2968,7 +2980,7 @@ info_signaled_after_sent
 .
 packet_type
 =
-rtc
+webrtc
 :
 :
 PacketType
@@ -5673,7 +5685,7 @@ Send
 the
 response
 .
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -5707,7 +5719,7 @@ info_signaled_after_sent
 .
 packet_type
 =
-rtc
+webrtc
 :
 :
 PacketType
@@ -9377,7 +9389,7 @@ ToDebugId
 const
 {
 return
-rtc
+webrtc
 :
 :
 ToHex
@@ -10144,7 +10156,7 @@ remote_candidate
 )
 ;
 const
-rtc
+webrtc
 :
 :
 Network
@@ -12076,6 +12088,9 @@ protocol
 )
 =
 =
+webrtc
+:
+:
 TCP_PROTOCOL_NAME
 )
 ?

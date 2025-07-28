@@ -2892,9 +2892,6 @@ send_timestamp
 ms
 (
 )
-rtc
-:
-:
 PacketInfo
 (
 )
@@ -2968,9 +2965,6 @@ send_timestamp
 ms
 (
 )
-rtc
-:
-:
 PacketInfo
 (
 )

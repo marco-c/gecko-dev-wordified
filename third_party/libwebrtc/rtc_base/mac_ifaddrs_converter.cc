@@ -1211,7 +1211,7 @@ endif
 /
 WEBRTC_IOS
 namespace
-rtc
+webrtc
 {
 namespace
 {
@@ -1748,4 +1748,4 @@ MacIfAddrsConverter
 /
 /
 namespace
-rtc
+webrtc

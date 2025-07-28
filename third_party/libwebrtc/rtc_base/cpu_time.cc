@@ -96,6 +96,11 @@ h
 "
 #
 include
+<
+cstdint
+>
+#
+include
 "
 rtc_base
 /
@@ -282,7 +287,7 @@ namespace
 #
 endif
 namespace
-rtc
+webrtc
 {
 int64_t
 GetProcessCpuTimeNanos
@@ -924,4 +929,4 @@ return
 /
 /
 namespace
-rtc
+webrtc

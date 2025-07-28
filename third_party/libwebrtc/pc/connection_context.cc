@@ -307,9 +307,6 @@ SocketServer
 >
 socket_server
 =
-rtc
-:
-:
 CreateDefaultSocketServer
 (
 )
@@ -1069,9 +1066,6 @@ std
 :
 make_unique
 <
-rtc
-:
-:
 BasicNetworkManager
 >
 (

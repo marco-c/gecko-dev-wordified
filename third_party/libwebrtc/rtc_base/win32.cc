@@ -147,7 +147,7 @@ string_utils
 h
 "
 namespace
-rtc
+webrtc
 {
 /
 /
@@ -2360,4 +2360,4 @@ return
 /
 /
 namespace
-rtc
+webrtc

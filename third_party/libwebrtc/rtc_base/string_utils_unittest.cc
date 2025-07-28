@@ -93,6 +93,11 @@ h
 "
 #
 include
+<
+string
+>
+#
+include
 "
 test
 /
@@ -101,7 +106,7 @@ gtest
 h
 "
 namespace
-rtc
+webrtc
 {
 TEST
 (
@@ -366,4 +371,4 @@ concatenate
 /
 /
 namespace
-rtc
+webrtc

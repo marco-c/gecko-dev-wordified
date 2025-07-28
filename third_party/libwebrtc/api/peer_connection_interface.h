@@ -5730,9 +5730,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 NetworkMask
 >
 vpn_list
@@ -12349,9 +12346,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLCertificateVerifier
 >
 tls_cert_verifier
@@ -12696,9 +12690,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 NetworkManager
 >
 network_manager
@@ -12733,9 +12724,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 NetworkMonitorFactory
 >
 network_monitor_factory
@@ -13310,9 +13298,6 @@ interfaces
 int
 network_ignore_mask
 =
-rtc
-:
-:
 kDefaultNetworkIgnoreMask
 ;
 /

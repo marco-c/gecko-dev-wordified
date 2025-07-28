@@ -92,7 +92,7 @@ network_route
 h
 "
 namespace
-rtc
+webrtc
 {
 bool
 RouteEndpoint
@@ -202,4 +202,4 @@ last_sent_packet_id
 /
 /
 namespace
-rtc
+webrtc

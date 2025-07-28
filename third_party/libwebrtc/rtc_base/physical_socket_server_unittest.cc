@@ -243,7 +243,7 @@ if
 !
 :
 :
-rtc
+webrtc
 :
 :
 HasIPv4Enabled
@@ -281,7 +281,7 @@ if
 !
 :
 :
-rtc
+webrtc
 :
 :
 HasIPv6Enabled

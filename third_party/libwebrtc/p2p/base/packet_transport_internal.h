@@ -554,6 +554,9 @@ std
 :
 optional
 <
+webrtc
+:
+:
 NetworkRoute
 >
 network_route
@@ -785,7 +788,7 @@ std
 :
 optional
 <
-rtc
+webrtc
 :
 :
 NetworkRoute

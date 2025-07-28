@@ -1333,9 +1333,6 @@ string
 >
 tls_elliptic_curves
 ;
-rtc
-:
-:
 SSLCertificateVerifier
 *
 tls_cert_verifier
@@ -3076,9 +3073,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 NetworkMask
 >
 &

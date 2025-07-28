@@ -108,9 +108,11 @@ utility
 #
 include
 "
-rtc_base
+absl
 /
-checks
+strings
+/
+string_view
 .
 h
 "
@@ -195,9 +197,6 @@ metrics
 :
 SampleInfo
 >
-rtc
-:
-:
 AbslStringViewCmp
 >
 &
@@ -290,9 +289,6 @@ metrics
 :
 SampleInfo
 >
-rtc
-:
-:
 AbslStringViewCmp
 >
 &
@@ -836,9 +832,6 @@ metrics
 :
 SampleInfo
 >
-rtc
-:
-:
 AbslStringViewCmp
 >
 histograms
@@ -1175,9 +1168,6 @@ metrics
 :
 SampleInfo
 >
-rtc
-:
-:
 AbslStringViewCmp
 >
 histograms

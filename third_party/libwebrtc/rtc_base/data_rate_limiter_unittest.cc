@@ -101,7 +101,7 @@ gtest
 h
 "
 namespace
-rtc
+webrtc
 {
 TEST
 (
@@ -410,4 +410,4 @@ tuesday
 /
 /
 namespace
-rtc
+webrtc

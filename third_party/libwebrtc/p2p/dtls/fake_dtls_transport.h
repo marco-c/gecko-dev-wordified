@@ -297,6 +297,15 @@ include
 "
 rtc_base
 /
+ssl_certificate
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 ssl_fingerprint
 .
 h
@@ -1196,9 +1205,6 @@ component_
 ;
 }
 const
-rtc
-:
-:
 SSLFingerprint
 &
 dtls_fingerprint
@@ -1280,9 +1286,6 @@ digest_len
 {
 dtls_fingerprint_
 =
-rtc
-:
-:
 SSLFingerprint
 (
 alg
@@ -1570,9 +1573,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLCertChain
 >
 GetRemoteSSLCertChain
@@ -1597,9 +1597,6 @@ std
 :
 make_unique
 <
-rtc
-:
-:
 SSLCertChain
 >
 (
@@ -1867,9 +1864,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 NetworkRoute
 >
 network_route
@@ -1989,9 +1983,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 NetworkRoute
 >
 network_route
@@ -2062,9 +2053,6 @@ webrtc
 :
 SSL_PROTOCOL_DTLS_12
 ;
-rtc
-:
-:
 SSLFingerprint
 dtls_fingerprint_
 ;

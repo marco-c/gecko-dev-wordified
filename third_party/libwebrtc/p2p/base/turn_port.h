@@ -315,6 +315,15 @@ include
 rtc_base
 /
 network
+.
+h
+"
+#
+include
+"
+rtc_base
+/
+network
 /
 received_packet
 .
@@ -1622,7 +1631,7 @@ webrtc
 TurnCustomizer
 *
 customizer
-rtc
+webrtc
 :
 :
 SSLCertificateVerifier
@@ -1687,7 +1696,7 @@ webrtc
 TurnCustomizer
 *
 customizer
-rtc
+webrtc
 :
 :
 SSLCertificateVerifier
@@ -1725,7 +1734,7 @@ PacketSocketFactory
 *
 factory
 const
-rtc
+webrtc
 :
 :
 Network
@@ -1792,7 +1801,7 @@ webrtc
 TurnCustomizer
 *
 customizer
-rtc
+webrtc
 :
 :
 SSLCertificateVerifier
@@ -1839,7 +1848,7 @@ PacketSocketFactory
 *
 factory
 const
-rtc
+webrtc
 :
 :
 Network
@@ -1904,7 +1913,7 @@ webrtc
 TurnCustomizer
 *
 customizer
-rtc
+webrtc
 :
 :
 SSLCertificateVerifier
@@ -1961,7 +1970,7 @@ int
 channel_number
 )
 ;
-rtc
+webrtc
 :
 :
 DiffServCodePoint
@@ -2519,7 +2528,7 @@ string
 >
 tls_elliptic_curves_
 ;
-rtc
+webrtc
 :
 :
 SSLCertificateVerifier
@@ -2560,7 +2569,7 @@ resolver_
 int
 error_
 ;
-rtc
+webrtc
 :
 :
 DiffServCodePoint

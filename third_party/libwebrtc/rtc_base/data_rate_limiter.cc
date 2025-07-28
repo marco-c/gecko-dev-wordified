@@ -91,8 +91,13 @@ data_rate_limiter
 .
 h
 "
+#
+include
+<
+cstddef
+>
 namespace
-rtc
+webrtc
 {
 bool
 DataRateLimiter
@@ -176,4 +181,4 @@ used
 /
 /
 namespace
-rtc
+webrtc

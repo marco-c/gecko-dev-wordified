@@ -315,6 +315,15 @@ include
 "
 rtc_base
 /
+net_helpers
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 network
 .
 h
@@ -3797,9 +3806,6 @@ std
 :
 make_unique
 <
-rtc
-:
-:
 Network
 >
 (
@@ -5319,9 +5325,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Network
 >
 >
@@ -5343,9 +5346,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Network
 >
 >
@@ -5379,9 +5379,6 @@ std
 :
 make_unique
 <
-rtc
-:
-:
 Network
 >
 (

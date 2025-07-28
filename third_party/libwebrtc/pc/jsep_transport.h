@@ -1462,7 +1462,7 @@ RTCCertificate
 *
 certificate
 const
-rtc
+webrtc
 :
 :
 SSLFingerprint
@@ -1811,7 +1811,7 @@ webrtc
 SSLRole
 >
 dtls_role
-rtc
+webrtc
 :
 :
 SSLFingerprint

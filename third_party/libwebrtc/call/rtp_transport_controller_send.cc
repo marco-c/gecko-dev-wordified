@@ -741,9 +741,6 @@ bool
 IsRelayed
 (
 const
-rtc
-:
-:
 NetworkRoute
 &
 route
@@ -2112,16 +2109,10 @@ RtpTransportControllerSend
 IsRelevantRouteChange
 (
 const
-rtc
-:
-:
 NetworkRoute
 &
 old_route
 const
-rtc
-:
-:
 NetworkRoute
 &
 new_route
@@ -2279,9 +2270,6 @@ absl
 string_view
 transport_name
 const
-rtc
-:
-:
 NetworkRoute
 &
 network_route
@@ -2562,9 +2550,6 @@ return
 ;
 }
 const
-rtc
-:
-:
 NetworkRoute
 old_route
 =

@@ -94,6 +94,12 @@ platform_thread_types
 .
 h
 "
+/
+/
+IWYU
+pragma
+:
+begin_keep
 #
 if
 defined
@@ -223,8 +229,14 @@ h
 "
 #
 endif
+/
+/
+IWYU
+pragma
+:
+end_keep
 namespace
-rtc
+webrtc
 {
 PlatformThreadId
 CurrentThreadId
@@ -874,4 +886,4 @@ endif
 /
 /
 namespace
-rtc
+webrtc

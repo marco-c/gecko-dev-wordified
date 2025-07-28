@@ -666,9 +666,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 NetworkRoute
 >
 )

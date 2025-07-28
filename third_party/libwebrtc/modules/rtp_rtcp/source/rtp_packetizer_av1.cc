@@ -578,9 +578,6 @@ Obu
 >
 result
 ;
-rtc
-:
-:
 ByteBufferReader
 payload_reader
 (

@@ -1826,7 +1826,7 @@ leaf
 certificate
 .
 const
-rtc
+webrtc
 :
 :
 SSLCertChain
@@ -1847,7 +1847,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 SSLFingerprint
@@ -1876,7 +1876,7 @@ i
 {
 fp
 =
-rtc
+webrtc
 :
 :
 SSLFingerprint
@@ -2044,7 +2044,7 @@ identity_ecdsa2_
 ;
 test_cert_
 =
-rtc
+webrtc
 :
 :
 SSLCertificate
@@ -2090,7 +2090,7 @@ digest_algorithm
 ;
 ASSERT_EQ
 (
-rtc
+webrtc
 :
 :
 DIGEST_SHA_256
@@ -2115,7 +2115,7 @@ digest_algorithm
 ;
 ASSERT_EQ
 (
-rtc
+webrtc
 :
 :
 DIGEST_SHA_256
@@ -2140,7 +2140,7 @@ digest_algorithm
 ;
 ASSERT_EQ
 (
-rtc
+webrtc
 :
 :
 DIGEST_SHA_256
@@ -2165,7 +2165,7 @@ digest_algorithm
 ;
 ASSERT_EQ
 (
-rtc
+webrtc
 :
 :
 DIGEST_SHA_256
@@ -2198,7 +2198,7 @@ digest_algorithm
 ;
 ASSERT_EQ
 (
-rtc
+webrtc
 :
 :
 DIGEST_MD5
@@ -2211,7 +2211,7 @@ unsigned
 char
 DigestType
 [
-rtc
+webrtc
 :
 :
 MessageDigest
@@ -2960,7 +2960,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 SSLCertificate
@@ -2977,7 +2977,7 @@ FixedDigestSHA1
 {
 TestDigestForFixedCert
 (
-rtc
+webrtc
 :
 :
 DIGEST_SHA_1
@@ -3006,7 +3006,7 @@ FixedDigestSHA224
 {
 TestDigestForFixedCert
 (
-rtc
+webrtc
 :
 :
 DIGEST_SHA_224
@@ -3023,7 +3023,7 @@ FixedDigestSHA256
 {
 TestDigestForFixedCert
 (
-rtc
+webrtc
 :
 :
 DIGEST_SHA_256
@@ -3040,7 +3040,7 @@ FixedDigestSHA384
 {
 TestDigestForFixedCert
 (
-rtc
+webrtc
 :
 :
 DIGEST_SHA_384
@@ -3057,7 +3057,7 @@ FixedDigestSHA512
 {
 TestDigestForFixedCert
 (
-rtc
+webrtc
 :
 :
 DIGEST_SHA_512
@@ -3086,7 +3086,7 @@ DigestSHA224
 {
 TestDigestForGeneratedCert
 (
-rtc
+webrtc
 :
 :
 DIGEST_SHA_224
@@ -3102,7 +3102,7 @@ DigestSHA256
 {
 TestDigestForGeneratedCert
 (
-rtc
+webrtc
 :
 :
 DIGEST_SHA_256
@@ -3118,7 +3118,7 @@ DigestSHA384
 {
 TestDigestForGeneratedCert
 (
-rtc
+webrtc
 :
 :
 DIGEST_SHA_384
@@ -3134,7 +3134,7 @@ DigestSHA512
 {
 TestDigestForGeneratedCert
 (
-rtc
+webrtc
 :
 :
 DIGEST_SHA_512
@@ -3665,7 +3665,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 SSLCertificateStats
@@ -3749,7 +3749,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 SSLCertificateStats
@@ -3921,7 +3921,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 SSLCertificateStats
@@ -3941,7 +3941,7 @@ GetStats
 (
 )
 ;
-rtc
+webrtc
 :
 :
 SSLCertificateStats

@@ -922,16 +922,10 @@ an
 SSL
 adapter
 .
-rtc
-:
-:
 SSLAdapter
 *
 ssl_adapter
 =
-rtc
-:
-:
 SSLAdapter
 :
 :

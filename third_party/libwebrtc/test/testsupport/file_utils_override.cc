@@ -799,7 +799,7 @@ std
 string
 exe_path
 =
-rtc
+webrtc
 :
 :
 ToUtf8

@@ -110,6 +110,12 @@ include
 <
 optional
 >
+/
+/
+IWYU
+pragma
+:
+begin_exports
 #
 if
 defined
@@ -140,6 +146,12 @@ SOCKET_EACCES
 EACCES
 #
 endif
+/
+/
+IWYU
+pragma
+:
+end_exports
 #
 include
 "

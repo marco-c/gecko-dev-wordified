@@ -512,7 +512,7 @@ uint16_t
 >
 acks
 ;
-rtc
+webrtc
 :
 :
 ByteBufferReader
@@ -967,7 +967,7 @@ section
 2
 .
 2
-rtc
+webrtc
 :
 :
 ByteBufferReader

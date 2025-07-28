@@ -1248,7 +1248,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 SSLFingerprint
@@ -1262,7 +1262,7 @@ cert
 {
 fingerprint
 =
-rtc
+webrtc
 :
 :
 SSLFingerprint
@@ -1357,6 +1357,9 @@ c
 .
 set_protocol
 (
+webrtc
+:
+:
 UDP_PROTOCOL_NAME
 )
 ;
@@ -3040,14 +3043,14 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 SSLFingerprint
 >
 good_fingerprint
 =
-rtc
+webrtc
 :
 :
 SSLFingerprint
@@ -3135,7 +3138,7 @@ ok
 )
 )
 ;
-rtc
+webrtc
 :
 :
 SSLFingerprint

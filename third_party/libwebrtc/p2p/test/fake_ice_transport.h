@@ -2210,7 +2210,7 @@ std
 :
 optional
 <
-rtc
+webrtc
 :
 :
 NetworkRoute
@@ -2238,7 +2238,7 @@ std
 :
 optional
 <
-rtc
+webrtc
 :
 :
 NetworkRoute
@@ -2586,7 +2586,7 @@ AddFingerprint
 (
 )
 ;
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -2613,7 +2613,7 @@ info_signaled_after_sent
 .
 packet_type
 =
-rtc
+webrtc
 :
 :
 PacketType
@@ -2850,7 +2850,7 @@ AddFingerprint
 (
 )
 ;
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -2877,7 +2877,7 @@ info_signaled_after_sent
 .
 packet_type
 =
-rtc
+webrtc
 :
 :
 PacketType
@@ -3714,7 +3714,7 @@ IceMessage
 )
 )
 ;
-rtc
+webrtc
 :
 :
 ByteBufferReader
@@ -3946,7 +3946,7 @@ std
 :
 optional
 <
-rtc
+webrtc
 :
 :
 NetworkRoute

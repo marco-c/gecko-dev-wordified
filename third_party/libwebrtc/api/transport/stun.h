@@ -1838,7 +1838,7 @@ successful
 bool
 Read
 (
-rtc
+webrtc
 :
 :
 ByteBufferReader
@@ -1870,7 +1870,7 @@ successful
 bool
 Write
 (
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -2373,7 +2373,7 @@ virtual
 bool
 Read
 (
-rtc
+webrtc
 :
 :
 ByteBufferReader
@@ -2413,7 +2413,7 @@ virtual
 bool
 Write
 (
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -2617,7 +2617,7 @@ length
 void
 WritePadding
 (
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -2629,7 +2629,7 @@ const
 void
 ConsumePadding
 (
-rtc
+webrtc
 :
 :
 ByteBufferReader
@@ -2863,7 +2863,7 @@ port
 bool
 Read
 (
-rtc
+webrtc
 :
 :
 ByteBufferReader
@@ -2875,7 +2875,7 @@ override
 bool
 Write
 (
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -3032,7 +3032,7 @@ override
 bool
 Read
 (
-rtc
+webrtc
 :
 :
 ByteBufferReader
@@ -3044,7 +3044,7 @@ override
 bool
 Write
 (
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -3163,7 +3163,7 @@ value
 bool
 Read
 (
-rtc
+webrtc
 :
 :
 ByteBufferReader
@@ -3175,7 +3175,7 @@ override
 bool
 Write
 (
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -3254,7 +3254,7 @@ bits
 bool
 Read
 (
-rtc
+webrtc
 :
 :
 ByteBufferReader
@@ -3266,7 +3266,7 @@ override
 bool
 Write
 (
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -3563,7 +3563,7 @@ value
 bool
 Read
 (
-rtc
+webrtc
 :
 :
 ByteBufferReader
@@ -3575,7 +3575,7 @@ override
 bool
 Write
 (
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -3770,7 +3770,7 @@ reason
 bool
 Read
 (
-rtc
+webrtc
 :
 :
 ByteBufferReader
@@ -3782,7 +3782,7 @@ override
 bool
 Write
 (
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -3892,7 +3892,7 @@ value
 bool
 Read
 (
-rtc
+webrtc
 :
 :
 ByteBufferReader
@@ -3904,7 +3904,7 @@ override
 bool
 Write
 (
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -4231,7 +4231,7 @@ const
 StunAttribute
 &
 attribute
-rtc
+webrtc
 :
 :
 ByteBufferWriter

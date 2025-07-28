@@ -194,7 +194,7 @@ h
 /
 /
 namespace
-rtc
+webrtc
 {
 std
 :
@@ -229,9 +229,6 @@ SSLAdapter
 :
 Create
 (
-webrtc
-:
-:
 Socket
 *
 socket
@@ -435,4 +432,4 @@ CleanupSSL
 /
 /
 namespace
-rtc
+webrtc

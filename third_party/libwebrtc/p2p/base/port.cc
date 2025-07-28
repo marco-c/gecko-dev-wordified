@@ -527,7 +527,7 @@ webrtc
 :
 TimeDelta
 ;
-rtc
+webrtc
 :
 :
 PacketInfoProtocolType
@@ -555,7 +555,7 @@ ProtocolType
 PROTO_UDP
 :
 return
-rtc
+webrtc
 :
 :
 PacketInfoProtocolType
@@ -573,7 +573,7 @@ ProtocolType
 PROTO_TCP
 :
 return
-rtc
+webrtc
 :
 :
 PacketInfoProtocolType
@@ -591,7 +591,7 @@ ProtocolType
 PROTO_SSLTCP
 :
 return
-rtc
+webrtc
 :
 :
 PacketInfoProtocolType
@@ -609,7 +609,7 @@ ProtocolType
 PROTO_TLS
 :
 return
-rtc
+webrtc
 :
 :
 PacketInfoProtocolType
@@ -620,7 +620,7 @@ kTls
 default
 :
 return
-rtc
+webrtc
 :
 :
 PacketInfoProtocolType
@@ -684,9 +684,21 @@ PROTO_NAMES
 ]
 =
 {
+webrtc
+:
+:
 UDP_PROTOCOL_NAME
+webrtc
+:
+:
 TCP_PROTOCOL_NAME
+webrtc
+:
+:
 SSLTCP_PROTOCOL_NAME
+webrtc
+:
+:
 TLS_PROTOCOL_NAME
 }
 ;
@@ -1158,7 +1170,7 @@ type_
 ;
 }
 const
-rtc
+webrtc
 :
 :
 Network
@@ -3163,7 +3175,7 @@ IceMessage
 )
 )
 ;
-rtc
+webrtc
 :
 :
 ByteBufferReader
@@ -4598,7 +4610,7 @@ return
 true
 ;
 }
-rtc
+webrtc
 :
 :
 DiffServCodePoint
@@ -4622,7 +4634,7 @@ MediaChannel
 sends
 .
 return
-rtc
+webrtc
 :
 :
 DSCP_NO_CHANGE
@@ -5629,7 +5641,7 @@ the
 response
 message
 .
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -5660,7 +5672,7 @@ info_signaled_after_sent
 .
 packet_type
 =
-rtc
+webrtc
 :
 :
 PacketType
@@ -5906,7 +5918,7 @@ the
 response
 message
 .
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -5937,7 +5949,7 @@ info_signaled_after_sent
 .
 packet_type
 =
-rtc
+webrtc
 :
 :
 PacketType
@@ -6336,7 +6348,7 @@ Port
 OnNetworkTypeChanged
 (
 const
-rtc
+webrtc
 :
 :
 Network
@@ -6384,7 +6396,7 @@ Port
 "
 <
 <
-rtc
+webrtc
 :
 :
 ToHex
@@ -7050,7 +7062,7 @@ Port
 :
 CopyPortInformationToPacketInfo
 (
-rtc
+webrtc
 :
 :
 PacketInfo

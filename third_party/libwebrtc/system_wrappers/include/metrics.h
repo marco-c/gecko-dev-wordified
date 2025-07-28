@@ -110,6 +110,12 @@ include
 <
 atomic
 >
+/
+/
+IWYU
+pragma
+:
+keep
 #
 include
 <
@@ -2963,9 +2969,6 @@ unique_ptr
 <
 SampleInfo
 >
-rtc
-:
-:
 AbslStringViewCmp
 >
 *

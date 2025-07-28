@@ -502,9 +502,6 @@ InFlightBytesTracker
 GetOutstandingData
 (
 const
-rtc
-:
-:
 NetworkRoute
 &
 network_route
@@ -575,16 +572,10 @@ operator
 )
 (
 const
-rtc
-:
-:
 NetworkRoute
 &
 a
 const
-rtc
-:
-:
 NetworkRoute
 &
 b
@@ -2604,9 +2595,6 @@ TransportFeedbackAdapter
 SetNetworkRoute
 (
 const
-rtc
-:
-:
 NetworkRoute
 &
 network_route

@@ -384,15 +384,6 @@ include
 "
 pc
 /
-peer_connection_internal
-.
-h
-"
-#
-include
-"
-pc
-/
 rtp_receiver
 .
 h
@@ -4576,9 +4567,6 @@ rtc
 :
 scoped_refptr
 <
-rtc
-:
-:
 OperationsChain
 >
 operations_chain_

@@ -146,6 +146,12 @@ openssl
 .
 h
 "
+/
+/
+IWYU
+pragma
+:
+begin_keep
 #
 ifdef
 OPENSSL_IS_BORINGSSL
@@ -171,6 +177,12 @@ h
 "
 #
 endif
+/
+/
+IWYU
+pragma
+:
+end_keep
 #
 include
 "
@@ -194,7 +206,7 @@ base64
 h
 "
 namespace
-rtc
+webrtc
 {
 /
 /
@@ -815,9 +827,6 @@ std
 string
 der_base64
 ;
-webrtc
-:
-:
 Base64
 :
 :
@@ -1443,6 +1452,9 @@ pem_string
 #
 else
 return
+rtc
+:
+:
 OpenSSLCertificate
 :
 :
@@ -1458,4 +1470,4 @@ endif
 /
 /
 namespace
-rtc
+webrtc

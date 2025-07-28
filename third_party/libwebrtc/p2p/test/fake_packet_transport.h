@@ -666,9 +666,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 NetworkRoute
 >
 network_route
@@ -689,9 +686,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 NetworkRoute
 >
 network_route
@@ -911,9 +905,6 @@ std
 :
 optional
 <
-rtc
-:
-:
 NetworkRoute
 >
 network_route_

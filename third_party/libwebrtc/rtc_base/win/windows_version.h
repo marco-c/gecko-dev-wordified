@@ -109,7 +109,7 @@ void
 HANDLE
 ;
 namespace
-rtc
+webrtc
 {
 namespace
 rtc_win
@@ -1099,7 +1099,7 @@ rtc_win
 /
 /
 namespace
-rtc
+webrtc
 #
 endif
 /

@@ -101,6 +101,11 @@ h
 #
 include
 <
+cstddef
+>
+#
+include
+<
 cstdint
 >
 #
@@ -199,7 +204,7 @@ string_encode
 h
 "
 namespace
-rtc
+webrtc
 {
 SSLFingerprint
 *
@@ -291,9 +296,6 @@ absl
 string_view
 algorithm
 const
-rtc
-:
-:
 SSLCertificate
 &
 cert
@@ -345,6 +347,9 @@ SSLFingerprint
 >
 (
 algorithm
+rtc
+:
+:
 ArrayView
 <
 const
@@ -422,7 +427,7 @@ empty
 |
 |
 !
-rtc
+webrtc
 :
 :
 IsFips180DigestAlgorithm
@@ -447,9 +452,6 @@ nullptr
 char
 value
 [
-rtc
-:
-:
 MessageDigest
 :
 :
@@ -464,6 +466,9 @@ rtc
 :
 hex_decode_with_delimiter
 (
+rtc
+:
+:
 ArrayView
 <
 char
@@ -495,6 +500,9 @@ SSLFingerprint
 >
 (
 algorithm
+rtc
+:
+:
 ArrayView
 <
 const
@@ -527,9 +535,6 @@ SSLFingerprint
 CreateFromCertificate
 (
 const
-webrtc
-:
-:
 RTCCertificate
 &
 cert
@@ -639,6 +644,9 @@ absl
 :
 string_view
 algorithm
+rtc
+:
+:
 ArrayView
 <
 const
@@ -839,4 +847,4 @@ fp_str
 /
 /
 namespace
-rtc
+webrtc

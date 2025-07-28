@@ -2951,9 +2951,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 NetworkMask
 >
 vpn_list
@@ -15457,9 +15454,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLCertChain
 >
 PeerConnection
@@ -18446,9 +18440,6 @@ protocol
 )
 =
 =
-cricket
-:
-:
 TCP_PROTOCOL_NAME
 |
 |
@@ -18467,9 +18458,6 @@ relay_protocol
 )
 =
 =
-cricket
-:
-:
 TCP_PROTOCOL_NAME
 )
 )
@@ -18502,9 +18490,6 @@ protocol
 )
 =
 =
-cricket
-:
-:
 UDP_PROTOCOL_NAME
 )
 {

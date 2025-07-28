@@ -110,6 +110,11 @@ memory
 >
 #
 include
+<
+string
+>
+#
+include
 "
 absl
 /
@@ -138,7 +143,7 @@ string_encode
 h
 "
 namespace
-rtc
+webrtc
 {
 /
 /
@@ -571,6 +576,9 @@ Size
 )
 ;
 return
+rtc
+:
+:
 hex_encode
 (
 absl
@@ -1296,6 +1304,9 @@ Size
 )
 ;
 return
+rtc
+:
+:
 hex_encode
 (
 absl
@@ -1436,4 +1447,4 @@ output
 /
 /
 namespace
-rtc
+webrtc

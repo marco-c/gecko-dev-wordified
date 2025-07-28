@@ -1805,7 +1805,7 @@ processing
 as
 usual
 .
-rtc
+webrtc
 :
 :
 ByteBufferReader
@@ -2208,7 +2208,7 @@ TimeMillis
 (
 )
 ;
-rtc
+webrtc
 :
 :
 ByteBufferWriter

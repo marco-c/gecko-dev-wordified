@@ -781,9 +781,6 @@ AsyncUDPSocket
 *
 udp_server_socket_
 ;
-rtc
-:
-:
 ProxyServer
 *
 tcp_proxy_server_

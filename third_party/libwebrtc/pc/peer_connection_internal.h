@@ -389,6 +389,15 @@ ssl_stream_adapter
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+thread
+.
+h
+"
 namespace
 webrtc
 {
@@ -1624,9 +1633,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLCertChain
 >
 GetRemoteSSLCertChain

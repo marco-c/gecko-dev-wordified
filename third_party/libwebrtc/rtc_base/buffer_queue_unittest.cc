@@ -108,7 +108,7 @@ gtest
 h
 "
 namespace
-rtc
+webrtc
 {
 TEST
 (
@@ -752,4 +752,4 @@ size
 /
 /
 namespace
-rtc
+webrtc

@@ -776,7 +776,7 @@ if
 :
 GetTempFileNameW
 (
-rtc
+webrtc
 :
 :
 ToUtf16
@@ -787,7 +787,7 @@ dir
 c_str
 (
 )
-rtc
+webrtc
 :
 :
 ToUtf16
@@ -806,7 +806,7 @@ filename
 0
 )
 return
-rtc
+webrtc
 :
 :
 ToUtf8
@@ -1059,7 +1059,7 @@ handle
 :
 FindFirstFileW
 (
-rtc
+webrtc
 :
 :
 ToUtf16
@@ -1131,7 +1131,7 @@ std
 string
 name
 =
-rtc
+webrtc
 :
 :
 ToUtf8

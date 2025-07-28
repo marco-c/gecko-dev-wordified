@@ -1080,7 +1080,7 @@ desc
 >
 identity_fingerprint
 =
-rtc
+webrtc
 :
 :
 SSLFingerprint

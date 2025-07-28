@@ -98,6 +98,16 @@ algorithm
 >
 #
 include
+<
+cstddef
+>
+#
+include
+<
+cstdint
+>
+#
+include
 "
 rtc_base
 /
@@ -115,7 +125,7 @@ time_utils
 h
 "
 namespace
-rtc
+webrtc
 {
 static
 const
@@ -974,4 +984,4 @@ bucket_count_
 /
 /
 namespace
-rtc
+webrtc

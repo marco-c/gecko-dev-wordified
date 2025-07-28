@@ -781,7 +781,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 NetworkManager
@@ -862,7 +862,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 SSLFingerprint
@@ -2256,7 +2256,7 @@ ep
 .
 remote_fingerprint
 =
-rtc
+webrtc
 :
 :
 SSLFingerprint

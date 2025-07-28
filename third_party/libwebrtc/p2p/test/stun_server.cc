@@ -317,9 +317,6 @@ fail
 to
 parse
 .
-rtc
-:
-:
 ByteBufferReader
 bbuf
 (
@@ -618,9 +615,6 @@ SocketAddress
 addr
 )
 {
-rtc
-:
-:
 ByteBufferWriter
 buf
 ;

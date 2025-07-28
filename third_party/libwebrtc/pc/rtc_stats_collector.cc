@@ -6269,9 +6269,6 @@ ProduceCertificateStatsFromSSLCertificateStats
 Timestamp
 timestamp
 const
-rtc
-:
-:
 SSLCertificateStats
 &
 certificate_stats
@@ -6289,9 +6286,6 @@ nullptr
 for
 (
 const
-rtc
-:
-:
 SSLCertificateStats
 *
 s

@@ -230,6 +230,12 @@ audio_device_config
 .
 h
 "
+/
+/
+IWYU
+pragma
+:
+keep
 #
 ifdef
 WEBRTC_WINDOWS_CORE_AUDIO_BUILD
@@ -35254,9 +35260,6 @@ LS_ERROR
 )
 <
 <
-rtc
-:
-:
 ToUtf8
 (
 buf

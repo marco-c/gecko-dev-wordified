@@ -95,13 +95,6 @@ h
 "
 #
 include
-<
-time
-.
-h
->
-#
-include
 "
 rtc_base
 /
@@ -123,9 +116,9 @@ include
 "
 rtc_base
 /
-synchronization
+system
 /
-yield
+unused
 .
 h
 "
@@ -134,9 +127,7 @@ include
 "
 rtc_base
 /
-system
-/
-unused
+thread_annotations
 .
 h
 "
@@ -169,7 +160,7 @@ endif
 !
 RTC_DCHECK_IS_ON
 namespace
-rtc
+webrtc
 {
 RecursiveCriticalSection
 :
@@ -1220,4 +1211,4 @@ Leave
 /
 /
 namespace
-rtc
+webrtc

@@ -757,9 +757,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLCertificateVerifier
 >
 tls_cert_verifier

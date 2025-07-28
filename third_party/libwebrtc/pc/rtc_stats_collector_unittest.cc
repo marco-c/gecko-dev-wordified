@@ -803,6 +803,15 @@ include
 "
 rtc_base
 /
+ssl_certificate
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 ssl_fingerprint
 .
 h
@@ -1434,9 +1443,6 @@ leaf
 certificate
 .
 const
-rtc
-:
-:
 SSLCertChain
 &
 chain
@@ -1456,9 +1462,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLFingerprint
 >
 fp
@@ -1485,9 +1488,6 @@ i
 {
 fp
 =
-rtc
-:
-:
 SSLFingerprint
 :
 :

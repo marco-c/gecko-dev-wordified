@@ -92,7 +92,7 @@ network_monitor_factory
 h
 "
 namespace
-rtc
+webrtc
 {
 NetworkMonitorFactory
 :
@@ -115,4 +115,4 @@ NetworkMonitorFactory
 /
 /
 namespace
-rtc
+webrtc

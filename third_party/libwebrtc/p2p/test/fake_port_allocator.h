@@ -718,7 +718,7 @@ if
 port_
 )
 {
-rtc
+webrtc
 :
 :
 Network
@@ -726,7 +726,7 @@ Network
 network
 =
 (
-rtc
+webrtc
 :
 :
 HasIPv6Enabled
@@ -1304,13 +1304,13 @@ PacketSocketFactory
 *
 factory_
 ;
-rtc
+webrtc
 :
 :
 Network
 ipv4_network_
 ;
-rtc
+webrtc
 :
 :
 Network

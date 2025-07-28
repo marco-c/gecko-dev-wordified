@@ -224,7 +224,7 @@ yet
 }
 ;
 namespace
-rtc
+webrtc
 {
 int
 getifaddrs
@@ -249,7 +249,7 @@ addrs
 /
 /
 namespace
-rtc
+webrtc
 #
 endif
 /

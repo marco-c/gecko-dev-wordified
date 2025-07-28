@@ -96,6 +96,11 @@ h
 "
 #
 include
+<
+cstdint
+>
+#
+include
 "
 test
 /
@@ -104,7 +109,7 @@ gtest
 h
 "
 namespace
-rtc
+webrtc
 {
 TEST
 (
@@ -130,4 +135,4 @@ used_bytes
 /
 /
 namespace
-rtc
+webrtc

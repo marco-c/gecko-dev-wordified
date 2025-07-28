@@ -110,6 +110,11 @@ optional
 >
 #
 include
+<
+string
+>
+#
+include
 "
 api
 /
@@ -397,9 +402,6 @@ data
 protocol
 -
 04
-rtc
-:
-:
 ByteBufferReader
 buffer
 (
@@ -1189,9 +1191,6 @@ DCOMCT_UNORDERED_RELIABLE
 ;
 }
 }
-rtc
-:
-:
 ByteBufferWriter
 buffer
 (

@@ -1905,7 +1905,7 @@ c
 .
 set_protocol
 (
-cricket
+webrtc
 :
 :
 UDP_PROTOCOL_NAME
@@ -1952,7 +1952,7 @@ const
 Environment
 &
 env
-rtc
+webrtc
 :
 :
 NetworkManager
@@ -6930,7 +6930,7 @@ generation
 void
 TestPacketInfoIsSet
 (
-rtc
+webrtc
 :
 :
 PacketInfo
@@ -6942,7 +6942,7 @@ EXPECT_NE
 info
 .
 packet_type
-rtc
+webrtc
 :
 :
 PacketType
@@ -6956,7 +6956,7 @@ EXPECT_NE
 info
 .
 protocol
-rtc
+webrtc
 :
 :
 PacketInfoProtocolType
@@ -7383,6 +7383,9 @@ candidate
 protocol
 (
 )
+webrtc
+:
+:
 TCP_PROTOCOL_NAME
 )
 ;
@@ -31737,7 +31740,7 @@ AddFingerprint
 (
 )
 ;
-rtc
+webrtc
 :
 :
 ByteBufferWriter
@@ -47122,6 +47125,9 @@ absl
 string_view
 relay_protocol_type
 =
+webrtc
+:
+:
 UDP_PROTOCOL_NAME
 )
 {
@@ -49474,6 +49480,9 @@ IceCandidateType
 :
 :
 kRelay
+webrtc
+:
+:
 TCP_PROTOCOL_NAME
 )
 ;
@@ -49566,7 +49575,7 @@ SocketServer
 >
 socket_server
 =
-rtc
+webrtc
 :
 :
 CreateDefaultSocketServer
@@ -59543,7 +59552,7 @@ SocketServer
 >
 socket_server
 =
-rtc
+webrtc
 :
 :
 CreateDefaultSocketServer
@@ -59681,7 +59690,7 @@ SocketServer
 >
 socket_server
 =
-rtc
+webrtc
 :
 :
 CreateDefaultSocketServer

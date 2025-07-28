@@ -423,9 +423,6 @@ PeerConnectionHeaderExtensionTest
 :
 socket_server_
 (
-rtc
-:
-:
 CreateDefaultSocketServer
 (
 )

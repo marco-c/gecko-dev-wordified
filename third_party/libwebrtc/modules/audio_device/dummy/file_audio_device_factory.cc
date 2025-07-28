@@ -152,6 +152,12 @@ string_utils
 .
 h
 "
+/
+/
+IWYU
+pragma
+:
+keep
 namespace
 webrtc
 {
@@ -342,9 +348,6 @@ the
 input
 pointers
 .
-rtc
-:
-:
 strcpyn
 (
 _inputAudioFilename
@@ -352,9 +355,6 @@ MAX_FILENAME_LEN
 inputAudioFilename
 )
 ;
-rtc
-:
-:
 strcpyn
 (
 _outputAudioFilename

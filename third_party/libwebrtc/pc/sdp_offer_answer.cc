@@ -10324,9 +10324,6 @@ Create
 )
 operations_chain_
 (
-rtc
-:
-:
 OperationsChain
 :
 :

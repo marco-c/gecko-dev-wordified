@@ -1906,9 +1906,6 @@ Enabled
 const
 ;
 const
-rtc
-:
-:
 Network
 &
 network
@@ -2018,9 +2015,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Network
 >
 network_
@@ -2238,9 +2232,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 Network
 >
 >

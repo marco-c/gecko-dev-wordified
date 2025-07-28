@@ -860,7 +860,7 @@ cricket
 WEAK_PING_INTERVAL
 ;
 }
-rtc
+webrtc
 :
 :
 RouteEndpoint
@@ -915,7 +915,7 @@ adapter_type
 vpn
 )
 =
-rtc
+webrtc
 :
 :
 Network
@@ -1004,7 +1004,7 @@ adapter_type
 )
 ;
 return
-rtc
+webrtc
 :
 :
 RouteEndpoint
@@ -2909,7 +2909,7 @@ std
 set
 <
 const
-rtc
+webrtc
 :
 :
 Network
@@ -2927,7 +2927,7 @@ active_connections
 )
 {
 const
-rtc
+webrtc
 :
 :
 Network
@@ -11187,7 +11187,7 @@ info_signaled_after_sent
 .
 packet_type
 =
-rtc
+webrtc
 :
 :
 PacketType
@@ -11472,7 +11472,7 @@ std
 :
 optional
 <
-rtc
+webrtc
 :
 :
 NetworkRoute
@@ -11494,7 +11494,7 @@ return
 network_route_
 ;
 }
-rtc
+webrtc
 :
 :
 DiffServCodePoint
@@ -11543,7 +11543,7 @@ end
 )
 {
 return
-rtc
+webrtc
 :
 :
 DSCP_NO_CHANGE
@@ -11552,7 +11552,7 @@ DSCP_NO_CHANGE
 return
 static_cast
 <
-rtc
+webrtc
 :
 :
 DiffServCodePoint
@@ -12218,7 +12218,7 @@ return
 true
 ;
 }
-rtc
+webrtc
 :
 :
 NetworkRoute
@@ -12350,6 +12350,9 @@ overhead
 (
 )
 +
+webrtc
+:
+:
 GetProtocolOverhead
 (
 conn

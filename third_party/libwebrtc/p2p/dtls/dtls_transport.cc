@@ -443,6 +443,15 @@ include
 "
 rtc_base
 /
+ssl_certificate
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 ssl_stream_adapter
 .
 h
@@ -2744,7 +2753,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 SSLCertChain
@@ -3806,7 +3815,7 @@ std
 :
 optional
 <
-rtc
+webrtc
 :
 :
 NetworkRoute
@@ -6139,7 +6148,7 @@ std
 :
 optional
 <
-rtc
+webrtc
 :
 :
 NetworkRoute

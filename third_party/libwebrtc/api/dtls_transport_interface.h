@@ -358,9 +358,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLCertChain
 >
 remote_ssl_certificates
@@ -409,9 +406,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLCertChain
 >
 remote_ssl_certificates
@@ -556,9 +550,6 @@ release
 ownership
 .
 const
-rtc
-:
-:
 SSLCertChain
 *
 remote_ssl_certificates
@@ -620,9 +611,6 @@ std
 :
 unique_ptr
 <
-rtc
-:
-:
 SSLCertChain
 >
 remote_ssl_certificates_

@@ -246,7 +246,7 @@ kMaxReadSize
 /
 namespace
 namespace
-rtc
+webrtc
 {
 int
 set_ifname
@@ -1461,7 +1461,7 @@ last
 /
 /
 namespace
-rtc
+webrtc
 #
 endif
 /

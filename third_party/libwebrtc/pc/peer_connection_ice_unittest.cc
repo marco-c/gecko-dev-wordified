@@ -1589,9 +1589,6 @@ candidate
 .
 set_protocol
 (
-cricket
-:
-:
 UDP_PROTOCOL_NAME
 )
 ;
@@ -11417,9 +11414,6 @@ PeerConnectionIceConfigTest
 :
 socket_server_
 (
-rtc
-:
-:
 CreateDefaultSocketServer
 (
 )

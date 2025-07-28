@@ -6221,9 +6221,6 @@ cricket
 STUN_BINDING_REQUEST
 )
 ;
-rtc
-:
-:
 ByteBufferWriter
 buf
 ;

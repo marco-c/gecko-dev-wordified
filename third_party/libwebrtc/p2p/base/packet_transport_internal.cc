@@ -219,6 +219,9 @@ std
 :
 optional
 <
+webrtc
+:
+:
 NetworkRoute
 >
 PacketTransportInternal
@@ -235,6 +238,9 @@ std
 :
 optional
 <
+webrtc
+:
+:
 NetworkRoute
 >
 (
