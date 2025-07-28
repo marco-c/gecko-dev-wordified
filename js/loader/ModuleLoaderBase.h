@@ -3664,6 +3664,14 @@ ModuleLoadRequest
 aRequest
 )
 ;
+void
+OnFetchSucceeded
+(
+ModuleLoadRequest
+*
+aRequest
+)
+;
 /
 /
 The
