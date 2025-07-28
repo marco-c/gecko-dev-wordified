@@ -275,9 +275,6 @@ public
 :
 ScreenCapturerMac
 (
-rtc
-:
-:
 scoped_refptr
 <
 DesktopConfigurationMonitor
@@ -616,9 +613,6 @@ Monitoring
 display
 reconfiguration
 .
-rtc
-:
-:
 scoped_refptr
 <
 DesktopConfigurationMonitor

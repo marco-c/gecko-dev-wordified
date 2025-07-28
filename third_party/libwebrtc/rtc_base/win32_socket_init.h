@@ -115,7 +115,7 @@ win32
 h
 "
 namespace
-rtc
+webrtc
 {
 class
 WinsockInitializer
@@ -183,7 +183,7 @@ err_
 /
 /
 namespace
-rtc
+webrtc
 #
 endif
 /

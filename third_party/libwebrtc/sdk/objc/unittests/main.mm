@@ -132,7 +132,7 @@ argv
 ]
 )
 {
-rtc
+webrtc
 :
 :
 test
@@ -142,7 +142,7 @@ ConfigureCoverageReportPath
 (
 )
 ;
-rtc
+webrtc
 :
 :
 AutoThread

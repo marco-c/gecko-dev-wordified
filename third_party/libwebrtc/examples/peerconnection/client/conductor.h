@@ -228,17 +228,6 @@ VideoCaptureModule
 /
 namespace
 webrtc
-namespace
-cricket
-{
-class
-VideoRenderer
-;
-}
-/
-/
-namespace
-cricket
 class
 Conductor
 :

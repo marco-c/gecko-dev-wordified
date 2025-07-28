@@ -4350,9 +4350,6 @@ IOSurfaceRef
 scoped_io_surface
 (
 io_surface
-rtc
-:
-:
 RetainPolicy
 :
 :

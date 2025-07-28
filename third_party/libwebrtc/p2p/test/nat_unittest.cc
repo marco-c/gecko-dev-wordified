@@ -360,18 +360,10 @@ wait_until
 h
 "
 namespace
-rtc
+webrtc
 {
 namespace
 {
-using
-:
-:
-webrtc
-:
-:
-CreateEnvironment
-;
 bool
 CheckReceive
 (
@@ -3472,4 +3464,4 @@ namespace
 /
 /
 namespace
-rtc
+webrtc

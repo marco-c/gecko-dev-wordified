@@ -129,7 +129,7 @@ Windows
 #
 endif
 namespace
-rtc
+webrtc
 {
 class
 Win32Test
@@ -856,4 +856,4 @@ ipv6
 /
 /
 namespace
-rtc
+webrtc

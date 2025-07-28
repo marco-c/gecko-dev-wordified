@@ -198,17 +198,6 @@ sigslot
 h
 "
 namespace
-rtc
-{
-struct
-PacketOptions
-;
-}
-/
-/
-namespace
-rtc
-namespace
 webrtc
 {
 class

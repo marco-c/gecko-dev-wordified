@@ -216,7 +216,7 @@ namespace
 using
 ScopedTestType
 =
-rtc
+webrtc
 :
 :
 internal
@@ -313,7 +313,7 @@ ref
 (
 &
 a
-rtc
+webrtc
 :
 :
 RetainPolicy
@@ -354,7 +354,7 @@ ref
 (
 &
 a
-rtc
+webrtc
 :
 :
 RetainPolicy
@@ -404,7 +404,7 @@ ref1
 (
 &
 a
-rtc
+webrtc
 :
 :
 RetainPolicy
@@ -467,7 +467,7 @@ ref
 (
 &
 a
-rtc
+webrtc
 :
 :
 RetainPolicy

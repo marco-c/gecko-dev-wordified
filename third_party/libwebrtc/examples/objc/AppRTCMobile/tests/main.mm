@@ -114,7 +114,7 @@ argv
 ]
 )
 {
-rtc
+webrtc
 :
 :
 test

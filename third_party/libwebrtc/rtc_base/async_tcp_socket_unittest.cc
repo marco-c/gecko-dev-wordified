@@ -120,7 +120,7 @@ virtual_socket_server
 h
 "
 namespace
-rtc
+webrtc
 {
 class
 AsyncTCPSocketTest
@@ -270,4 +270,4 @@ ready_to_send_
 /
 /
 namespace
-rtc
+webrtc

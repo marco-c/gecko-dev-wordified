@@ -280,9 +280,6 @@ InvalidateIOSurface
 (
 CGDirectDisplayID
 display_id
-rtc
-:
-:
 ScopedCFTypeRef
 <
 IOSurfaceRef
