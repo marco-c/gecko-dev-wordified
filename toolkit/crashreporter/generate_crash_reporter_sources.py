@@ -59,6 +59,10 @@ import
 sys
 import
 textwrap
+from
+os
+import
+path
 import
 yaml
 #
@@ -225,6 +229,24 @@ functionality
 #
 #
 #
+annotations_filename
+=
+path
+.
+join
+(
+path
+.
+dirname
+(
+__file__
+)
+"
+CrashAnnotations
+.
+yaml
+"
+)
 template_header
 =
 (
@@ -552,7 +574,6 @@ exit
 def
 read_annotations
 (
-annotations_filename
 )
 :
     
@@ -1275,6 +1296,26 @@ generation
 #
 #
 #
+header_template_filename
+=
+path
+.
+join
+(
+path
+.
+dirname
+(
+__file__
+)
+"
+CrashAnnotations
+.
+h
+.
+in
+"
+)
 def
 generate_strings
 (
@@ -1743,8 +1784,6 @@ def
 emit_header
 (
 output
-template_filename
-annotations_filename
 )
 :
     
@@ -1773,14 +1812,13 @@ annotations
 =
 read_annotations
 (
-annotations_filename
 )
     
 template
 =
 read_template
 (
-template_filename
+header_template_filename
 )
     
 generated_header
@@ -1839,6 +1877,12 @@ exit
 (
 1
 )
+    
+return
+{
+annotations_filename
+header_template_filename
+}
 #
 #
 #
@@ -2274,7 +2318,6 @@ def
 emit_java
 (
 output
-annotations_filename
 )
 :
     
@@ -2542,7 +2585,6 @@ annotations
 =
 read_annotations
 (
-annotations_filename
 )
     
 generated_class
@@ -2603,3 +2645,8 @@ exit
 (
 1
 )
+    
+return
+{
+annotations_filename
+}
