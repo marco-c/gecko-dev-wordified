@@ -2877,16 +2877,6 @@ URI
 change
 )
 :
-if
-(
-StaticPrefs
-:
-:
-dom_security_setdocumenturi
-(
-)
-)
-{
 nsAutoCString
 scheme
 ;
@@ -3012,6 +3002,8 @@ GetIsNullPrincipal
 )
 )
 {
+if
+(
 nsCOMPtr
 <
 nsIPrincipal
@@ -3024,10 +3016,6 @@ mDocumentPrincipal
 GetPrecursorPrincipal
 (
 )
-;
-if
-(
-precursor
 )
 {
 principalURI
@@ -3072,7 +3060,6 @@ URI
 "
 )
 ;
-}
 }
 mDocumentURI
 =
