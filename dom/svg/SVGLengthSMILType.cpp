@@ -697,7 +697,17 @@ metrics
 )
 ;
 return
+std
+:
+:
+isfinite
+(
+aDistance
+)
+?
 NS_OK
+:
+NS_ERROR_FAILURE
 ;
 }
 nsresult
