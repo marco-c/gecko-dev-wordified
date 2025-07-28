@@ -5965,6 +5965,13 @@ InitPlatformHardwareVideoConfig
 )
 {
 }
+virtual
+void
+InitPlatformHardwarDRMConfig
+(
+)
+{
+}
 /
 /
 Gather

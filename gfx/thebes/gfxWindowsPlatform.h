@@ -1059,6 +1059,17 @@ InitPlatformHardwareVideoConfig
 )
 override
 ;
+#
+ifdef
+MOZ_WMF_CDM
+void
+InitPlatformHardwarDRMConfig
+(
+)
+override
+;
+#
+endif
 void
 InitializeDevices
 (
