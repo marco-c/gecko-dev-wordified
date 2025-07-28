@@ -16220,7 +16220,17 @@ dropElement
 =
 tabs
 [
+Math
+.
+min
+(
 newIndex
+tabs
+.
+length
+-
+1
+)
 ]
 ;
 dragData
