@@ -1427,9 +1427,6 @@ network_thread_
 )
 ;
 const
-cricket
-:
-:
 JsepTransport
 *
 transport
@@ -1555,9 +1552,6 @@ network_thread_
 )
 ;
 const
-cricket
-:
-:
 JsepTransport
 *
 t
@@ -1699,9 +1693,6 @@ network_thread_
 )
 ;
 const
-cricket
-:
-:
 JsepTransport
 *
 transport
@@ -2055,9 +2046,6 @@ RTC_DCHECK_RUN_ON
 network_thread_
 )
 ;
-cricket
-:
-:
 JsepTransport
 *
 transport
@@ -2304,9 +2292,6 @@ network_thread_
 )
 ;
 const
-cricket
-:
-:
 JsepTransport
 *
 t
@@ -2818,9 +2803,6 @@ kv
 .
 second
 ;
-cricket
-:
-:
 JsepTransport
 *
 jsep_transport
@@ -2948,9 +2930,6 @@ std
 string
 &
 transport_name
-cricket
-:
-:
 TransportStats
 *
 stats
@@ -2963,9 +2942,6 @@ network_thread_
 )
 ;
 const
-cricket
-:
-:
 JsepTransport
 *
 transport
@@ -4830,9 +4806,6 @@ GetRtpAbsSendTimeHeaderExtensionId
 content_info
 )
 ;
-cricket
-:
-:
 JsepTransport
 *
 transport
@@ -4896,9 +4869,6 @@ local
 )
 )
 ;
-cricket
-:
-:
 JsepTransportDescription
 jsep_description
 =
@@ -6989,9 +6959,6 @@ jsep_transport
 )
 ;
 }
-cricket
-:
-:
 JsepTransportDescription
 JsepTransportController
 :
@@ -7075,9 +7042,6 @@ rtcp_mux
 )
 ;
 return
-cricket
-:
-:
 JsepTransportDescription
 (
 rtcp_mux_enabled
@@ -7500,9 +7464,6 @@ id
 ;
 }
 const
-cricket
-:
-:
 JsepTransport
 *
 JsepTransportController
@@ -7529,9 +7490,6 @@ mid
 )
 ;
 }
-cricket
-:
-:
 JsepTransport
 *
 JsepTransportController
@@ -7558,9 +7516,6 @@ mid
 ;
 }
 const
-cricket
-:
-:
 JsepTransport
 *
 JsepTransportController
@@ -7585,9 +7540,6 @@ mid
 )
 ;
 }
-cricket
-:
-:
 JsepTransport
 *
 JsepTransportController
@@ -7612,9 +7564,6 @@ mid
 ;
 }
 const
-cricket
-:
-:
 JsepTransport
 *
 JsepTransportController
@@ -7641,9 +7590,6 @@ transport_name
 )
 ;
 }
-cricket
-:
-:
 JsepTransport
 *
 JsepTransportController
@@ -7687,9 +7633,6 @@ SessionDescription
 description
 )
 {
-cricket
-:
-:
 JsepTransport
 *
 transport
@@ -7992,9 +7935,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 JsepTransport
 >
 jsep_transport
@@ -8004,9 +7944,6 @@ std
 :
 make_unique
 <
-cricket
-:
-:
 JsepTransport
 >
 (
@@ -8265,9 +8202,6 @@ JsepTransportController
 :
 DetermineIceRole
 (
-cricket
-:
-:
 JsepTransport
 *
 jsep_transport
@@ -10505,9 +10439,6 @@ std
 string
 &
 mid
-cricket
-:
-:
 JsepTransport
 *
 jsep_transport

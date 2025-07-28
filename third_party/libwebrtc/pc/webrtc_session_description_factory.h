@@ -433,9 +433,6 @@ RTCCertificate
 )
 >
 on_certificate_ready
-cricket
-:
-:
 CodecLookupHelper
 *
 codec_lookup_helper
@@ -505,9 +502,6 @@ RTCOfferAnswerOptions
 &
 options
 const
-cricket
-:
-:
 MediaSessionOptions
 &
 session_options
@@ -520,9 +514,6 @@ CreateSessionDescriptionObserver
 *
 observer
 const
-cricket
-:
-:
 MediaSessionOptions
 &
 session_options
@@ -617,9 +608,6 @@ CreateSessionDescriptionObserver
 *
 observer
 const
-cricket
-:
-:
 MediaSessionOptions
 &
 options
@@ -651,9 +639,6 @@ CreateSessionDescriptionObserver
 >
 observer
 ;
-cricket
-:
-:
 MediaSessionOptions
 options
 ;

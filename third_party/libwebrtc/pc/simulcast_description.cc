@@ -101,7 +101,7 @@ checks
 h
 "
 namespace
-cricket
+webrtc
 {
 SimulcastLayer
 :
@@ -379,4 +379,4 @@ result
 /
 /
 namespace
-cricket
+webrtc

@@ -707,7 +707,7 @@ std
 string
 &
 mid
-cricket
+webrtc
 :
 :
 JsepTransport
@@ -753,9 +753,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 JsepTransport
 >
 transport
@@ -793,9 +790,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 JsepTransport
 *
 >
@@ -819,9 +813,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 JsepTransport
 *
 >
@@ -849,9 +840,6 @@ to
 register
 it
 .
-cricket
-:
-:
 JsepTransport
 *
 GetTransportByName
@@ -866,9 +854,6 @@ mid
 )
 ;
 const
-cricket
-:
-:
 JsepTransport
 *
 GetTransportByName
@@ -896,9 +881,6 @@ refers
 to
 it
 .
-cricket
-:
-:
 JsepTransport
 *
 GetTransportForMid
@@ -913,9 +895,6 @@ mid
 )
 ;
 const
-cricket
-:
-:
 JsepTransport
 *
 GetTransportForMid
@@ -930,9 +909,6 @@ mid
 )
 const
 ;
-cricket
-:
-:
 JsepTransport
 *
 GetTransportForMid
@@ -945,9 +921,6 @@ mid
 )
 ;
 const
-cricket
-:
-:
 JsepTransport
 *
 GetTransportForMid
@@ -993,9 +966,6 @@ std
 string
 &
 mid
-cricket
-:
-:
 JsepTransport
 *
 jsep_transport
@@ -1114,9 +1084,6 @@ transport
 bool
 TransportInUse
 (
-cricket
-:
-:
 JsepTransport
 *
 jsep_transport
@@ -1155,9 +1122,6 @@ rollback
 bool
 TransportNeededForRollback
 (
-cricket
-:
-:
 JsepTransport
 *
 jsep_transport
@@ -1195,9 +1159,6 @@ rollback
 void
 MaybeDestroyJsepTransport
 (
-cricket
-:
-:
 JsepTransport
 *
 transport
@@ -1268,9 +1229,6 @@ std
 :
 unique_ptr
 <
-cricket
-:
-:
 JsepTransport
 >
 >
@@ -1312,9 +1270,6 @@ std
 :
 :
 string
-cricket
-:
-:
 JsepTransport
 *
 >
@@ -1351,9 +1306,6 @@ std
 :
 :
 string
-cricket
-:
-:
 JsepTransport
 *
 >
@@ -1389,7 +1341,7 @@ std
 string
 &
 mid
-cricket
+webrtc
 :
 :
 JsepTransport

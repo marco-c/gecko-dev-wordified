@@ -101,7 +101,7 @@ logging
 h
 "
 namespace
-cricket
+webrtc
 {
 RtcpMuxFilter
 :
@@ -199,9 +199,6 @@ SetOffer
 (
 bool
 offer_enable
-webrtc
-:
-:
 ContentSource
 src
 )
@@ -299,9 +296,6 @@ SetProvisionalAnswer
 (
 bool
 answer_enable
-webrtc
-:
-:
 ContentSource
 src
 )
@@ -518,9 +512,6 @@ SetAnswer
 (
 bool
 answer_enable
-webrtc
-:
-:
 ContentSource
 src
 )
@@ -672,9 +663,6 @@ ExpectOffer
 (
 bool
 offer_enable
-webrtc
-:
-:
 ContentSource
 source
 )
@@ -744,9 +732,6 @@ RtcpMuxFilter
 :
 ExpectAnswer
 (
-webrtc
-:
-:
 ContentSource
 source
 )
@@ -826,4 +811,4 @@ CS_REMOTE
 /
 /
 namespace
-cricket
+webrtc

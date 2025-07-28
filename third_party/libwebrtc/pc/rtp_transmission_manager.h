@@ -548,9 +548,6 @@ is_unified_plan
 ConnectionContext
 *
 context
-cricket
-:
-:
 CodecLookupHelper
 *
 codec_lookup_helper
@@ -2022,9 +2019,6 @@ ConnectionContext
 *
 context_
 ;
-cricket
-:
-:
 CodecLookupHelper
 *
 codec_lookup_helper_

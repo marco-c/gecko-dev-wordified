@@ -181,9 +181,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 SimulcastLayer
 >
 CreateLayers
@@ -232,9 +229,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 SimulcastLayer
 >
 result
@@ -268,9 +262,6 @@ is_active
 )
 {
 return
-cricket
-:
-:
 SimulcastLayer
 (
 rid
@@ -290,9 +281,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 SimulcastLayer
 >
 CreateLayers
@@ -345,9 +333,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 SimulcastLayer
 >
 &
@@ -404,9 +389,6 @@ return
 init
 ;
 }
-cricket
-:
-:
 SimulcastDescription
 RemoveSimulcast
 (
@@ -452,9 +434,6 @@ mcd
 >
 set_simulcast_description
 (
-cricket
-:
-:
 SimulcastDescription
 (
 )

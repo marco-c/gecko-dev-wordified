@@ -2029,9 +2029,6 @@ std
 string
 &
 mid
-cricket
-:
-:
 TransportStats
 *
 stats
@@ -2827,9 +2824,6 @@ RTC_RUN_ON
 network_thread_
 )
 ;
-cricket
-:
-:
 JsepTransportDescription
 CreateJsepTransportDescription
 (
@@ -2958,9 +2952,6 @@ group
 )
 .
 const
-cricket
-:
-:
 JsepTransport
 *
 GetJsepTransportForMid
@@ -2979,9 +2970,6 @@ RTC_RUN_ON
 network_thread_
 )
 ;
-cricket
-:
-:
 JsepTransport
 *
 GetJsepTransportForMid
@@ -3000,9 +2988,6 @@ network_thread_
 )
 ;
 const
-cricket
-:
-:
 JsepTransport
 *
 GetJsepTransportForMid
@@ -3019,9 +3004,6 @@ RTC_RUN_ON
 network_thread_
 )
 ;
-cricket
-:
-:
 JsepTransport
 *
 GetJsepTransportForMid
@@ -3059,9 +3041,6 @@ is
 destroyed
 .
 const
-cricket
-:
-:
 JsepTransport
 *
 GetJsepTransportByName
@@ -3080,9 +3059,6 @@ RTC_RUN_ON
 network_thread_
 )
 ;
-cricket
-:
-:
 JsepTransport
 *
 GetJsepTransportByName
@@ -3204,9 +3180,6 @@ cricket
 IceRole
 DetermineIceRole
 (
-cricket
-:
-:
 JsepTransport
 *
 jsep_transport
@@ -3637,9 +3610,6 @@ std
 string
 &
 mid
-cricket
-:
-:
 JsepTransport
 *
 transport

@@ -644,9 +644,6 @@ video_bitrate_allocator_factory
 ConnectionContext
 *
 context
-cricket
-:
-:
 CodecLookupHelper
 *
 codec_lookup_helper
@@ -1461,9 +1458,6 @@ video_bitrate_allocator_factory
 ConnectionContext
 *
 context
-cricket
-:
-:
 CodecLookupHelper
 *
 codec_lookup_helper
@@ -2604,9 +2598,6 @@ PeerConnectionInterface
 RTCOfferAnswerOptions
 &
 offer_answer_options
-cricket
-:
-:
 MediaSessionOptions
 *
 session_options
@@ -2622,9 +2613,6 @@ PeerConnectionInterface
 RTCOfferAnswerOptions
 &
 offer_answer_options
-cricket
-:
-:
 MediaSessionOptions
 *
 session_options
@@ -2646,9 +2634,6 @@ PeerConnectionInterface
 RTCOfferAnswerOptions
 &
 offer_answer_options
-cricket
-:
-:
 MediaSessionOptions
 *
 session_options
@@ -2689,9 +2674,6 @@ PeerConnectionInterface
 RTCOfferAnswerOptions
 &
 offer_answer_options
-cricket
-:
-:
 MediaSessionOptions
 *
 session_options
@@ -2707,9 +2689,6 @@ PeerConnectionInterface
 RTCOfferAnswerOptions
 &
 offer_answer_options
-cricket
-:
-:
 MediaSessionOptions
 *
 session_options
@@ -2731,9 +2710,6 @@ PeerConnectionInterface
 RTCOfferAnswerOptions
 &
 offer_answer_options
-cricket
-:
-:
 MediaSessionOptions
 *
 session_options
@@ -3754,9 +3730,6 @@ size_t
 >
 *
 data_index
-cricket
-:
-:
 MediaSessionOptions
 *
 session_options
@@ -3780,9 +3753,6 @@ the
 specified
 MID
 .
-cricket
-:
-:
 MediaDescriptionOptions
 GetMediaDescriptionOptionsForActiveData
 (
@@ -3814,9 +3784,6 @@ the
 specified
 MID
 .
-cricket
-:
-:
 MediaDescriptionOptions
 GetMediaDescriptionOptionsForRejectedData
 (

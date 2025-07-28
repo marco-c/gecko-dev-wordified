@@ -1114,9 +1114,6 @@ RidDescription
 >
 rids
 ;
-cricket
-:
-:
 SimulcastDescription
 simulcast_description
 ;
@@ -1156,9 +1153,6 @@ send_layers
 .
 AddLayer
 (
-cricket
-:
-:
 SimulcastLayer
 (
 rid
@@ -2177,9 +2171,6 @@ prototype_media_desc
 >
 set_simulcast_description
 (
-cricket
-:
-:
 SimulcastDescription
 (
 )
@@ -3731,9 +3722,6 @@ layers
 in
 answer
 .
-cricket
-:
-:
 SimulcastDescription
 simulcast_description
 ;

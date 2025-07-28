@@ -927,9 +927,6 @@ std
 :
 :
 string
-cricket
-:
-:
 TransportStats
 >
 &
@@ -1486,9 +1483,6 @@ std
 :
 :
 string
-cricket
-:
-:
 TransportStats
 >
 &
@@ -1673,9 +1667,6 @@ std
 :
 :
 string
-cricket
-:
-:
 TransportStats
 >
 &
@@ -1733,9 +1724,6 @@ std
 :
 :
 string
-cricket
-:
-:
 TransportStats
 >
 &

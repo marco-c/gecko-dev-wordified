@@ -92,7 +92,7 @@ transport_stats
 h
 "
 namespace
-cricket
+webrtc
 {
 TransportChannelStats
 :
@@ -129,4 +129,4 @@ default
 /
 /
 namespace
-cricket
+webrtc

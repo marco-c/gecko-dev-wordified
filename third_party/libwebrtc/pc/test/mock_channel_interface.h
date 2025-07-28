@@ -224,9 +224,6 @@ public
 :
 MOCK_METHOD
 (
-webrtc
-:
-:
 MediaType
 media_type
 (
@@ -239,9 +236,6 @@ override
 ;
 MOCK_METHOD
 (
-cricket
-:
-:
 VideoChannel
 *
 AsVideoChannel
@@ -254,9 +248,6 @@ override
 ;
 MOCK_METHOD
 (
-cricket
-:
-:
 VoiceChannel
 *
 AsVoiceChannel

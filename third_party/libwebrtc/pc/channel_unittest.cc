@@ -877,7 +877,7 @@ VoiceTraits
 public
 Traits
 <
-cricket
+webrtc
 :
 :
 VoiceChannel
@@ -919,7 +919,7 @@ VideoTraits
 public
 Traits
 <
-cricket
+webrtc
 :
 :
 VideoChannel
@@ -10286,7 +10286,7 @@ channel1_
 >
 SetOption
 (
-cricket
+webrtc
 :
 :
 BaseChannel
@@ -10311,7 +10311,7 @@ channel2_
 >
 SetOption
 (
-cricket
+webrtc
 :
 :
 BaseChannel
@@ -11775,7 +11775,7 @@ std
 :
 unique_ptr
 <
-cricket
+webrtc
 :
 :
 VoiceChannel
@@ -11857,7 +11857,7 @@ std
 :
 make_unique
 <
-cricket
+webrtc
 :
 :
 VoiceChannel
@@ -12221,7 +12221,7 @@ std
 :
 unique_ptr
 <
-cricket
+webrtc
 :
 :
 VideoChannel
@@ -12303,7 +12303,7 @@ std
 :
 make_unique
 <
-cricket
+webrtc
 :
 :
 VideoChannel

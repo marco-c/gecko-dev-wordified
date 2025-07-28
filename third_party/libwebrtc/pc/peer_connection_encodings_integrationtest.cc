@@ -1713,9 +1713,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 SimulcastLayer
 >
 init_layers
@@ -2387,9 +2384,6 @@ supports
 receiving
 singlecast
 .
-cricket
-:
-:
 SimulcastDescription
 simulcast_description
 =
@@ -2527,9 +2521,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 SimulcastLayer
 >
 simulcast_layers
@@ -2544,9 +2535,6 @@ GetAllLayers
 (
 )
 ;
-cricket
-:
-:
 SimulcastLayerList
 &
 receive_layers
@@ -3246,9 +3234,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 SimulcastLayer
 >
 layers
@@ -3539,9 +3524,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 SimulcastLayer
 >
 layers
@@ -4021,9 +4003,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 SimulcastLayer
 >
 layers
@@ -4510,9 +4489,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 SimulcastLayer
 >
 layers
@@ -5243,9 +5219,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 SimulcastLayer
 >
 layers
@@ -5670,9 +5643,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 SimulcastLayer
 >
 layers
@@ -6211,9 +6181,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 SimulcastLayer
 >
 layers
@@ -6681,9 +6648,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 SimulcastLayer
 >
 layers
@@ -7198,9 +7162,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 SimulcastLayer
 >
 layers
@@ -8011,9 +7972,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 SimulcastLayer
 >
 layers
@@ -8640,9 +8598,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 SimulcastLayer
 >
 layers
@@ -9405,9 +9360,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 SimulcastLayer
 >
 layers
@@ -9692,9 +9644,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 SimulcastLayer
 >
 layers
@@ -10000,9 +9949,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 SimulcastLayer
 >
 layers
@@ -10357,9 +10303,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 SimulcastLayer
 >
 layers
@@ -10799,9 +10742,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 SimulcastLayer
 >
 layers
@@ -11278,9 +11218,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 SimulcastLayer
 >
 layers
@@ -20055,9 +19992,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 SimulcastLayer
 >
 layers
@@ -20432,9 +20366,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 SimulcastLayer
 >
 layers
@@ -21066,9 +20997,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 SimulcastLayer
 >
 layers
@@ -21750,9 +21678,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 SimulcastLayer
 >
 layers
@@ -22506,9 +22431,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 SimulcastLayer
 >
 layers
@@ -23341,9 +23263,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 SimulcastLayer
 >
 layers
@@ -23798,9 +23717,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 SimulcastLayer
 >
 layers
@@ -24390,9 +24306,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 SimulcastLayer
 >
 layers
@@ -24863,9 +24776,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 SimulcastLayer
 >
 layers
@@ -25131,9 +25041,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 SimulcastLayer
 >
 layers
@@ -26287,9 +26194,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 SimulcastLayer
 >
 layers
@@ -26587,9 +26491,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 SimulcastLayer
 >
 layers

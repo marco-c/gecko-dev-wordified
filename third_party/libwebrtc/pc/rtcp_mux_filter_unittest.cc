@@ -106,7 +106,7 @@ RtcpMuxFilterTest
 IsActiveSender
 )
 {
-cricket
+webrtc
 :
 :
 RtcpMuxFilter
@@ -262,7 +262,7 @@ RtcpMuxFilterTest
 ReceivePrAnswer
 )
 {
-cricket
+webrtc
 :
 :
 RtcpMuxFilter
@@ -466,7 +466,7 @@ RtcpMuxFilterTest
 IsActiveReceiver
 )
 {
-cricket
+webrtc
 :
 :
 RtcpMuxFilter
@@ -621,7 +621,7 @@ RtcpMuxFilterTest
 SendPrAnswer
 )
 {
-cricket
+webrtc
 :
 :
 RtcpMuxFilter
@@ -832,7 +832,7 @@ RtcpMuxFilterTest
 EnableFilterDuringUpdate
 )
 {
-cricket
+webrtc
 :
 :
 RtcpMuxFilter
@@ -975,7 +975,7 @@ RtcpMuxFilterTest
 SetOfferTwice
 )
 {
-cricket
+webrtc
 :
 :
 RtcpMuxFilter
@@ -1032,7 +1032,7 @@ IsActive
 )
 )
 ;
-cricket
+webrtc
 :
 :
 RtcpMuxFilter
@@ -1107,7 +1107,7 @@ RtcpMuxFilterTest
 EnableFilterTwiceDuringUpdate
 )
 {
-cricket
+webrtc
 :
 :
 RtcpMuxFilter
@@ -1207,7 +1207,7 @@ RtcpMuxFilterTest
 KeepFilterDisabledDuringUpdate
 )
 {
-cricket
+webrtc
 :
 :
 RtcpMuxFilter
@@ -1308,7 +1308,7 @@ RtcpMuxFilterTest
 SetActiveCantDeactivate
 )
 {
-cricket
+webrtc
 :
 :
 RtcpMuxFilter

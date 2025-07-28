@@ -111,7 +111,7 @@ include
 string
 >
 namespace
-cricket
+webrtc
 {
 /
 /
@@ -607,9 +607,6 @@ protocol
 .
 find
 (
-cricket
-:
-:
 kMediaProtocolRtpPrefix
 )
 ;
@@ -813,4 +810,4 @@ kMediaProtocolAvp
 /
 /
 namespace
-cricket
+webrtc

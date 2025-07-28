@@ -537,12 +537,6 @@ using
 cricket
 :
 :
-TransportChannelStats
-;
-using
-cricket
-:
-:
 VideoMediaInfo
 ;
 using
@@ -606,6 +600,14 @@ testing
 :
 :
 UnorderedElementsAre
+;
+using
+:
+:
+webrtc
+:
+:
+TransportChannelStats
 ;
 namespace
 webrtc

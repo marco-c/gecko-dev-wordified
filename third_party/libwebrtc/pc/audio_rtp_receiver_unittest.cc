@@ -393,9 +393,6 @@ AudioRtpReceiver
 >
 receiver_
 ;
-cricket
-:
-:
 MockVoiceMediaReceiveChannelInterface
 receive_channel_
 ;
@@ -739,9 +736,6 @@ loop
 s
 thread
 .
-cricket
-:
-:
 MockVoiceMediaReceiveChannelInterface
 receive_channel
 ;

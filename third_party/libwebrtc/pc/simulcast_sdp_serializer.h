@@ -338,9 +338,6 @@ string
 SerializeSimulcastDescription
 (
 const
-cricket
-:
-:
 SimulcastDescription
 &
 simulcast
@@ -388,9 +385,6 @@ section
 1
 RTCErrorOr
 <
-cricket
-:
-:
 SimulcastDescription
 >
 DeserializeSimulcastDescription

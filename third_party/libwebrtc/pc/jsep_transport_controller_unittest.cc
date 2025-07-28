@@ -4947,9 +4947,6 @@ ok
 )
 )
 ;
-cricket
-:
-:
 TransportStats
 stats
 ;

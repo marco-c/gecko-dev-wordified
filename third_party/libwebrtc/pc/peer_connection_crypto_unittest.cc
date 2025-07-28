@@ -1386,9 +1386,6 @@ SdpContentsAll
 (
 HaveProtocol
 (
-cricket
-:
-:
 kMediaProtocolDtlsSavpf
 )
 offer
@@ -1495,9 +1492,6 @@ SdpContentsAll
 (
 HaveProtocol
 (
-cricket
-:
-:
 kMediaProtocolDtlsSavpf
 )
 answer
