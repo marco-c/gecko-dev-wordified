@@ -1238,9 +1238,6 @@ override
 void
 SetFrameDecryptor
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameDecryptorInterface
@@ -1252,9 +1249,6 @@ override
 void
 SetDepacketizerToDecoderFrameTransformer
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface
@@ -1266,7 +1260,7 @@ override
 /
 /
 Implements
-rtc
+webrtc
 :
 :
 VideoSinkInterface

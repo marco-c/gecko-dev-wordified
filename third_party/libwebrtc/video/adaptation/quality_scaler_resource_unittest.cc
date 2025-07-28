@@ -303,9 +303,6 @@ fake_resource_listener_
 FakeDegradationPreferenceProvider
 degradation_preference_provider_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 QualityScalerResource

@@ -1074,9 +1074,6 @@ VideoEncodedSinkInterface
 :
 :
 FrameBuffer
-rtc
-:
-:
 scoped_refptr
 <
 const
@@ -1183,9 +1180,6 @@ render_time_ms_
 ;
 }
 private
-:
-rtc
-:
 :
 scoped_refptr
 <
@@ -5060,9 +5054,6 @@ VideoReceiveStream2
 :
 SetFrameDecryptor
 (
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -5093,9 +5084,6 @@ VideoReceiveStream2
 :
 SetDepacketizerToDecoderFrameTransformer
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface

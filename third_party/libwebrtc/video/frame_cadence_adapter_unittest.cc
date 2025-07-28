@@ -423,9 +423,6 @@ Builder
 .
 set_video_frame_buffer
 (
-rtc
-:
-:
 make_ref_counted
 <
 NV12Buffer
@@ -471,9 +468,6 @@ Builder
 .
 set_video_frame_buffer
 (
-rtc
-:
-:
 make_ref_counted
 <
 NV12Buffer

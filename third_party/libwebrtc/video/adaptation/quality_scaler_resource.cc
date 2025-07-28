@@ -142,9 +142,6 @@ webrtc
 /
 /
 static
-rtc
-:
-:
 scoped_refptr
 <
 QualityScalerResource
@@ -157,9 +154,6 @@ Create
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 QualityScalerResource

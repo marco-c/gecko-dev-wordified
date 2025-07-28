@@ -1257,9 +1257,6 @@ max_expected_tl0_idx_gap_
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const

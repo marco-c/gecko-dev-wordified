@@ -574,9 +574,6 @@ enabled
 Action
 OnReceiveRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -724,9 +721,6 @@ enabled
 Action
 OnSendRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const

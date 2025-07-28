@@ -215,9 +215,6 @@ BandwidthQualityScalerUsageHandlerInterface
 public
 :
 static
-rtc
-:
-:
 scoped_refptr
 <
 BandwidthQualityScalerResource

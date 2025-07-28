@@ -291,9 +291,6 @@ kDefaultTimeout
 Action
 OnReceiveRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -513,9 +510,6 @@ handler
 void
 DeliverRtcpPacket
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 packet
 )
@@ -984,9 +978,6 @@ private
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1568,9 +1559,6 @@ private
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const

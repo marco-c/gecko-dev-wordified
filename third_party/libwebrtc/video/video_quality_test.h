@@ -633,9 +633,6 @@ for
 all
 platforms
 .
-rtc
-:
-:
 scoped_refptr
 <
 AudioDeviceModule

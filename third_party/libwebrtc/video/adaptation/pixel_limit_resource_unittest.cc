@@ -429,9 +429,6 @@ RunTaskOnTaskQueue
 (
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 PixelLimitResource
@@ -537,9 +534,6 @@ RunTaskOnTaskQueue
 (
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 PixelLimitResource
@@ -771,9 +765,6 @@ RunTaskOnTaskQueue
 (
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 PixelLimitResource

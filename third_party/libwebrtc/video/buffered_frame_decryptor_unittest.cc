@@ -500,9 +500,6 @@ seq_num_
 ;
 mock_frame_decryptor_
 =
-rtc
-:
-:
 make_ref_counted
 <
 MockFrameDecryptor
@@ -554,9 +551,6 @@ uint8_t
 >
 fake_packet_data_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 MockFrameDecryptor

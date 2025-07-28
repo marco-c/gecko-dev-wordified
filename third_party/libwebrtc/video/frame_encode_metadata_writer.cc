@@ -203,9 +203,6 @@ public
 explicit
 EncodedImageBufferWrapper
 (
-rtc
-:
-:
 Buffer
 &
 &
@@ -272,9 +269,6 @@ size
 ;
 }
 private
-:
-rtc
-:
 :
 Buffer
 buffer_
@@ -1266,7 +1260,7 @@ a
 drift
 relative
 to
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -1414,9 +1408,6 @@ buffer
 *
 encoded_image
 ;
-rtc
-:
-:
 Buffer
 modified_buffer
 =
@@ -1439,9 +1430,6 @@ encoded_image
 >
 SetEncodedData
 (
-rtc
-:
-:
 make_ref_counted
 <
 EncodedImageBufferWrapper

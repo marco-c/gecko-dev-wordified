@@ -269,9 +269,6 @@ BufferedFrameDecryptor
 :
 SetFrameDecryptor
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameDecryptorInterface
@@ -538,9 +535,6 @@ the
 existing
 frame
 .
-rtc
-:
-:
 ArrayView
 <
 uint8_t

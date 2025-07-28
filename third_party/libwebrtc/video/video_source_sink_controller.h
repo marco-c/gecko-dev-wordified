@@ -186,7 +186,7 @@ e
 performing
 /
 /
-rtc
+webrtc
 :
 :
 VideoSourceInterface
@@ -212,13 +212,13 @@ which
 are
 converted
 to
-rtc
+webrtc
 :
 :
 VideoSinkWants
+/
+/
 when
-/
-/
 PushSourceSinkSettings
 (
 )

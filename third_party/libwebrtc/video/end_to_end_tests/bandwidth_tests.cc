@@ -450,9 +450,6 @@ kAbsSendTimeExtensionId
 Action
 OnReceiveRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -910,9 +907,6 @@ thread
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const

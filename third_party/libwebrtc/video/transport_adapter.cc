@@ -153,9 +153,6 @@ TransportAdapter
 :
 SendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -197,9 +194,6 @@ TransportAdapter
 :
 SendRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const

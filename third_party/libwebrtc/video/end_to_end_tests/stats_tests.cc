@@ -424,9 +424,6 @@ private
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -516,9 +513,6 @@ SEND_PACKET
 Action
 OnSendRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -541,9 +535,6 @@ SEND_PACKET
 Action
 OnReceiveRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -566,9 +557,6 @@ SEND_PACKET
 Action
 OnReceiveRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2847,9 +2835,6 @@ SetNotAlive
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2987,9 +2972,6 @@ TaskQueueBase
 const
 task_queue_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -3199,9 +3181,6 @@ num_frames_received_
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3967,9 +3946,6 @@ private
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -4052,9 +4028,6 @@ SEND_PACKET
 Action
 OnReceiveRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -4536,9 +4509,6 @@ TaskQueueBase
 const
 task_queue_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag

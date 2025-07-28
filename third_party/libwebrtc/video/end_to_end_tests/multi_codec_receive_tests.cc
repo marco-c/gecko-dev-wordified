@@ -529,9 +529,6 @@ kFramesToObserve
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const

@@ -2526,9 +2526,6 @@ si
 ]
 .
 maxFramerate
-rtc
-:
-:
 saturated_cast
 <
 uint8_t
@@ -3066,9 +3063,6 @@ si
 ]
 .
 maxFramerate
-rtc
-:
-:
 saturated_cast
 <
 uint8_t
@@ -5711,9 +5705,6 @@ VideoStreamEncoder
 :
 AddAdaptationResource
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -5871,9 +5862,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -5956,9 +5944,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -7284,9 +7269,6 @@ else
 auto
 factory
 =
-rtc
-:
-:
 make_ref_counted
 <
 EncoderStreamFactory
@@ -14188,9 +14170,6 @@ height
 -
 crop_height_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 VideoFrameBuffer
@@ -17362,9 +17341,6 @@ const
 VideoAdaptationCounters
 &
 adaptation_counters
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -18007,9 +17983,6 @@ VideoStreamEncoder
 :
 InjectAdaptationResource
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource

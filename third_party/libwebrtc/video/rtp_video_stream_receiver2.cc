@@ -2583,9 +2583,6 @@ frame_transformer
 {
 frame_transformer_delegate_
 =
-rtc
-:
-:
 make_ref_counted
 <
 RtpVideoStreamReceiverFrameTransformerDelegate
@@ -3729,9 +3726,6 @@ RtpVideoStreamReceiver2
 :
 OnReceivedPayloadData
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 codec_payload
 const
@@ -4997,9 +4991,6 @@ tracker_
 .
 CopyAndFixBitstream
 (
-rtc
-:
-:
 MakeArrayView
 (
 codec_payload
@@ -5669,9 +5660,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 ArrayView
 <
 const
@@ -6087,9 +6075,6 @@ depacketizer_it
 second
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 EncodedImageBuffer
@@ -6955,9 +6940,6 @@ RtpVideoStreamReceiver2
 :
 SetFrameDecryptor
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameDecryptorInterface
@@ -7047,9 +7029,6 @@ RtpVideoStreamReceiver2
 :
 SetDepacketizerToDecoderFrameTransformer
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface
@@ -7065,9 +7044,6 @@ worker_task_checker_
 ;
 frame_transformer_delegate_
 =
-rtc
-:
-:
 make_ref_counted
 <
 RtpVideoStreamReceiverFrameTransformerDelegate
@@ -8731,9 +8707,6 @@ rtp_rtcp_
 >
 IncomingRtcpPacket
 (
-rtc
-:
-:
 MakeArrayView
 (
 rtcp_packet

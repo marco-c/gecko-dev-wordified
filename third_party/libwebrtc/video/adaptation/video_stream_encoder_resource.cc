@@ -311,9 +311,6 @@ listener_
 >
 OnResourceUsageStateMeasured
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource

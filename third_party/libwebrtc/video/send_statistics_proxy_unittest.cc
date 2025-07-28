@@ -3530,7 +3530,7 @@ This
 test
 relies
 on
-rtc
+webrtc
 :
 :
 ScopedFakeClock
@@ -3538,6 +3538,8 @@ to
 synchronize
 these
 two
+/
+/
 clocks
 .
 /
@@ -3571,7 +3573,7 @@ can
 stop
 relying
 on
-rtc
+webrtc
 :
 :
 ScopedFakeClock

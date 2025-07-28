@@ -1607,7 +1607,7 @@ SendsAndReceivesH264PacketizationMode0
 SdpVideoFormat
 codec
 (
-cricket
+webrtc
 :
 :
 kH264CodecName
@@ -1617,7 +1617,7 @@ codec
 .
 parameters
 [
-cricket
+webrtc
 :
 :
 kH264FmtpPacketizationMode
@@ -1719,7 +1719,7 @@ SendsAndReceivesH264PacketizationMode1
 SdpVideoFormat
 codec
 (
-cricket
+webrtc
 :
 :
 kH264CodecName
@@ -1729,7 +1729,7 @@ codec
 .
 parameters
 [
-cricket
+webrtc
 :
 :
 kH264FmtpPacketizationMode

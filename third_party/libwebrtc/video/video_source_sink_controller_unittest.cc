@@ -414,9 +414,6 @@ WillOnce
 [
 ]
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -594,9 +591,6 @@ WillOnce
 [
 ]
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -689,9 +683,6 @@ WillOnce
 [
 ]
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -782,9 +773,6 @@ WillOnce
 [
 ]
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -867,9 +855,6 @@ WillOnce
 [
 ]
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -1042,9 +1027,6 @@ WillOnce
 [
 ]
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -1132,9 +1114,6 @@ WillOnce
 [
 ]
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame

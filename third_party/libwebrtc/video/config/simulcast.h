@@ -288,9 +288,6 @@ VideoStream
 >
 GetSimulcastConfig
 (
-rtc
-:
-:
 ArrayView
 <
 const

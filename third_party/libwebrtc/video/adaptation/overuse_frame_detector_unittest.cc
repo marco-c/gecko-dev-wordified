@@ -712,9 +712,6 @@ One
 element
 per
 layer
-rtc
-:
-:
 ArrayView
 <
 const

@@ -145,9 +145,6 @@ VideoSourceSinkController
 :
 VideoSourceSinkController
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -804,9 +801,6 @@ wants
 .
 max_pixel_count
 =
-rtc
-:
-:
 dchecked_cast
 <
 int
@@ -857,9 +851,6 @@ optional
 int
 >
 (
-rtc
-:
-:
 dchecked_cast
 <
 int
@@ -943,9 +934,6 @@ min
 wants
 .
 max_pixel_count
-rtc
-:
-:
 dchecked_cast
 <
 int

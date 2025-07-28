@@ -145,9 +145,6 @@ webrtc
 /
 /
 static
-rtc
-:
-:
 scoped_refptr
 <
 BandwidthQualityScalerResource
@@ -160,9 +157,6 @@ Create
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 BandwidthQualityScalerResource

@@ -1062,9 +1062,6 @@ stage
 bool
 OnReceivedPayloadData
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 codec_payload
 const
@@ -1249,9 +1246,6 @@ state
 void
 SetFrameDecryptor
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameDecryptorInterface
@@ -1290,9 +1284,6 @@ state
 void
 SetDepacketizerToDecoderFrameTransformer
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface
@@ -3013,9 +3004,6 @@ last_completed_picture_id_
 =
 0
 ;
-rtc
-:
-:
 scoped_refptr
 <
 RtpVideoStreamReceiverFrameTransformerDelegate

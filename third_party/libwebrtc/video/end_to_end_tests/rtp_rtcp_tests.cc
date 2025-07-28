@@ -346,9 +346,6 @@ private
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -386,9 +383,6 @@ SEND_PACKET
 Action
 OnReceiveRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1383,9 +1377,6 @@ timestamp
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1771,9 +1762,6 @@ SEND_PACKET
 Action
 OnSendRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2062,9 +2050,6 @@ GetVideoEncoderConfig
 >
 video_stream_factory
 =
-rtc
-:
-:
 make_ref_counted
 <
 VideoStreamFactory
@@ -2317,9 +2302,6 @@ rtcp
 RapidResyncRequest
 force_send_sr_back_request
 ;
-rtc
-:
-:
 Buffer
 packet
 =
@@ -2766,9 +2748,6 @@ private
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const

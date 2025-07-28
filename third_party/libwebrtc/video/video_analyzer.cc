@@ -1582,9 +1582,6 @@ VideoAnalyzer
 :
 DeliverRtcpPacket
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 packet
 )
@@ -1955,9 +1952,6 @@ VideoAnalyzer
 :
 SendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2173,9 +2167,6 @@ VideoAnalyzer
 :
 SendRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2784,9 +2775,6 @@ GetProcessCpuTimeNanos
 wallclock_time_
 -
 =
-rtc
-:
-:
 SystemTimeNanos
 (
 )
@@ -2817,9 +2805,6 @@ GetProcessCpuTimeNanos
 wallclock_time_
 +
 =
-rtc
-:
-:
 SystemTimeNanos
 (
 )

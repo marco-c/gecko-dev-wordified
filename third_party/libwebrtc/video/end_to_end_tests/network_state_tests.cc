@@ -285,9 +285,6 @@ private
 bool
 SendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -320,9 +317,6 @@ false
 bool
 SendRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -427,9 +421,6 @@ private
 bool
 SendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -461,9 +452,6 @@ true
 bool
 SendRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1001,9 +989,6 @@ down_frames_
 Action
 OnSendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1065,9 +1050,6 @@ SEND_PACKET
 Action
 OnSendRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1101,9 +1083,6 @@ SEND_PACKET
 Action
 OnReceiveRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1136,9 +1115,6 @@ SEND_PACKET
 Action
 OnReceiveRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const

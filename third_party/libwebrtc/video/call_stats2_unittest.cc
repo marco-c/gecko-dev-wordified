@@ -404,7 +404,7 @@ NORMAL
 Note
 :
 Since
-rtc
+webrtc
 :
 :
 Thread
@@ -446,7 +446,7 @@ clock
 (
 used
 by
-rtc
+webrtc
 :
 :
 Thread

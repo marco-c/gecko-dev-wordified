@@ -683,9 +683,6 @@ delete
 void
 AddAdaptationResource
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -699,9 +696,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -932,9 +926,6 @@ const
 VideoAdaptationCounters
 &
 adaptation_counters
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -974,9 +965,6 @@ tests
 void
 InjectAdaptationResource
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -2608,9 +2596,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 Resource
