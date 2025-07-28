@@ -6714,6 +6714,13 @@ newHeight
 px
 "
 ;
+const
+offset
+=
+newHeight
+-
+DYNAMIC_TOOLBAR_MAX_HEIGHT
+;
 InspectorUtils
 .
 setVerticalClipping
@@ -6725,8 +6732,7 @@ tab
 linkedBrowser
 .
 browsingContext
--
-newHeight
+offset
 )
 ;
 }
