@@ -12990,9 +12990,8 @@ strokePaintNeededRegion
 ;
 sourceGraphicNeededRegion
 .
-And
+AndWith
 (
-sourceGraphicNeededRegion
 mTargetBounds
 )
 ;
@@ -14625,9 +14624,8 @@ Get
 ;
 result
 .
-Or
+OrWith
 (
-result
 FrameSpaceToFilterSpace
 (
 &
@@ -14692,9 +14690,8 @@ works
 .
 result
 .
-Or
+OrWith
 (
-result
 FilterSpaceToFrameSpace
 (
 iter
