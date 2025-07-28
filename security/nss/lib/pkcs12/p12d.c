@@ -4508,6 +4508,14 @@ p12dcx
 currentASafeP7Dcx
 )
 ;
+SEC_ASN1DecoderClearFilterProc
+(
+p12dcx
+-
+>
+aSafeA1Dcx
+)
+;
 p12dcx
 -
 >
