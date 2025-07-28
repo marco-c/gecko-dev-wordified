@@ -12138,7 +12138,7 @@ imageHashData
 mozilla
 :
 :
-HashString
+HashBytes
 (
 aImageData
 aSize
