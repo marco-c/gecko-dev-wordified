@@ -1387,7 +1387,7 @@ chunk
 .
 arena_t
 *
-arena
+mArena
 ;
 /
 /
@@ -1406,7 +1406,7 @@ RedBlackTreeNode
 <
 arena_chunk_t
 >
-link_dirty
+mLinkDirty
 ;
 #
 ifdef
@@ -1484,7 +1484,7 @@ DoublyLinkedListElement
 <
 arena_chunk_t
 >
-chunks_madvised_elem
+mChunksMavisedElim
 ;
 #
 endif
@@ -1508,7 +1508,7 @@ counted
 here
 .
 size_t
-ndirty
+mNumDirty
 =
 0
 ;
@@ -1540,7 +1540,7 @@ large
 small
 .
 arena_chunk_map_t
-map
+mPageMap
 [
 ]
 ;
@@ -1557,7 +1557,7 @@ arena_t
 aArena
 )
 :
-arena
+mArena
 (
 aArena
 )
