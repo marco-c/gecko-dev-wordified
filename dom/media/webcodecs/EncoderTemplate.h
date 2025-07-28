@@ -2002,9 +2002,6 @@ mPacketsOutput
 =
 0
 ;
-AsyncDurationTracker
-mAsyncDurationTracker
-;
 }
 ;
 }

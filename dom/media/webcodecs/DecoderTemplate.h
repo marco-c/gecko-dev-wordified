@@ -1785,9 +1785,6 @@ ThreadSafeWorkerRef
 >
 mWorkerRef
 ;
-AsyncDurationTracker
-mAsyncDurationTracker
-;
 }
 ;
 }
