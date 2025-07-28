@@ -176,9 +176,6 @@ RtpDependencyDescriptorReader
 :
 RtpDependencyDescriptorReader
 (
-rtc
-:
-:
 ArrayView
 <
 const

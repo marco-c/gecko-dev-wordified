@@ -1878,9 +1878,6 @@ byte
 picture
 id
 .
-rtc
-:
-:
 CopyOnWriteBuffer
 rtp_payload
 (
@@ -1974,9 +1971,6 @@ VideoRtpDepacketizerVp8Test
 FailsOnEmptyPayload
 )
 {
-rtc
-:
-:
 ArrayView
 <
 const

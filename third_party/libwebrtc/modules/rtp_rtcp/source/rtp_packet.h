@@ -367,9 +367,6 @@ size
 bool
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -391,9 +388,6 @@ Packet
 bool
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 packet
 )
@@ -555,9 +549,6 @@ return
 padding_size_
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -569,9 +560,6 @@ payload
 const
 {
 return
-rtc
-:
-:
 MakeArrayView
 (
 data
@@ -583,9 +571,6 @@ payload_size_
 )
 ;
 }
-rtc
-:
-:
 CopyOnWriteBuffer
 PayloadBuffer
 (
@@ -606,9 +591,6 @@ payload_size_
 /
 Buffer
 .
-rtc
-:
-:
 CopyOnWriteBuffer
 Buffer
 (
@@ -880,9 +862,6 @@ added
 void
 SetCsrcs
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1017,9 +996,6 @@ template
 typename
 Extension
 >
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1059,9 +1035,6 @@ Extension
 bool
 SetRawExtension
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1108,9 +1081,6 @@ view
 on
 failure
 .
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -1144,9 +1114,6 @@ view
 on
 failure
 .
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1438,9 +1405,6 @@ arrayview
 on
 failure
 .
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -1611,9 +1575,6 @@ extensions_size_
 /
 Unaligned
 .
-rtc
-:
-:
 CopyOnWriteBuffer
 buffer_
 ;
@@ -1844,9 +1805,6 @@ template
 typename
 Extension
 >
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1958,9 +1916,6 @@ RtpPacket
 :
 SetRawExtension
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1969,9 +1924,6 @@ uint8_t
 data
 )
 {
-rtc
-:
-:
 ArrayView
 <
 uint8_t

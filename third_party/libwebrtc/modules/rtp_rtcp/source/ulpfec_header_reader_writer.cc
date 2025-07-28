@@ -764,9 +764,6 @@ UlpfecHeaderWriter
 :
 FinalizeFecHeader
 (
-rtc
-:
-:
 ArrayView
 <
 const

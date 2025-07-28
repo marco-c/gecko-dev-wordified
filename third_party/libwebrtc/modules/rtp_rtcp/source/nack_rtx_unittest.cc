@@ -608,9 +608,6 @@ packet_loss_
 bool
 SendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -752,9 +749,6 @@ true
 bool
 SendRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const

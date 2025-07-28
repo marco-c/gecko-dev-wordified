@@ -135,9 +135,6 @@ webrtc
 int
 RtpHeaderExtensionSize
 (
-rtc
-:
-:
 ArrayView
 <
 const

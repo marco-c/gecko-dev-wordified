@@ -1842,9 +1842,6 @@ RtpPacketHistory
 :
 CullAcknowledgedPackets
 (
-rtc
-:
-:
 ArrayView
 <
 const

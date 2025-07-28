@@ -957,9 +957,6 @@ buffer
 ;
 EXPECT_THAT
 (
-rtc
-:
-:
 MakeArrayView
 (
 buffer
@@ -1010,9 +1007,6 @@ buffer
 ;
 EXPECT_THAT
 (
-rtc
-:
-:
 MakeArrayView
 (
 buffer

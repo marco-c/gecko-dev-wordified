@@ -2947,9 +2947,6 @@ VideoRtpDepacketizerVp9Test
 ParseFailsForNoPayloadLength
 )
 {
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3242,9 +3239,6 @@ V
 Z
 :
 0
-rtc
-:
-:
 CopyOnWriteBuffer
 rtp_payload
 (

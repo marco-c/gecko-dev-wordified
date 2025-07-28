@@ -243,9 +243,6 @@ header
 .
 RtpPacketizerGeneric
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -300,9 +297,6 @@ header
 .
 RtpPacketizerGeneric
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -412,9 +406,6 @@ header_
 size_t
 header_size_
 ;
-rtc
-:
-:
 ArrayView
 <
 const

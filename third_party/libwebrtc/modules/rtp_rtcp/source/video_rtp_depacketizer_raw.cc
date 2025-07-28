@@ -148,9 +148,6 @@ VideoRtpDepacketizerRaw
 :
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 rtp_payload
 )

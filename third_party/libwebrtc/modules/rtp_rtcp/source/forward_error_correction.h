@@ -403,9 +403,6 @@ Release
 (
 )
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 data
 ;
@@ -576,9 +573,6 @@ is_recovered
 RtpHeaderExtensionMap
 extensions
 ;
-rtc
-:
-:
 scoped_refptr
 <
 Packet
@@ -700,9 +694,6 @@ through
 the
 callback
 .
-rtc
-:
-:
 scoped_refptr
 <
 Packet
@@ -764,9 +755,6 @@ ProtectedPacket
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 ForwardErrorCorrection
@@ -983,9 +971,6 @@ protection_length
 Raw
 data
 .
-rtc
-:
-:
 scoped_refptr
 <
 ForwardErrorCorrection
@@ -2769,9 +2754,6 @@ seq_num_base
 =
 0
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2947,9 +2929,6 @@ virtual
 void
 FinalizeFecHeader
 (
-rtc
-:
-:
 ArrayView
 <
 const

@@ -169,9 +169,6 @@ virtual
 bool
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -187,9 +184,6 @@ const
 0
 ;
 virtual
-rtc
-:
-:
 Buffer
 Serialize
 (

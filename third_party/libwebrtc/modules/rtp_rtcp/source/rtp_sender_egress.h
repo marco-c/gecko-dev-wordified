@@ -700,9 +700,6 @@ Info
 >
 GetSentRtpPacketInfos
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -759,9 +756,6 @@ history
 void
 OnAbortedRetransmissions
 (
-rtc
-:
-:
 ArrayView
 <
 const

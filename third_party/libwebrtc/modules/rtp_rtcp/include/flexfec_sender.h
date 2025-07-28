@@ -366,9 +366,6 @@ RtpExtension
 >
 &
 rtp_header_extensions
-rtc
-:
-:
 ArrayView
 <
 const

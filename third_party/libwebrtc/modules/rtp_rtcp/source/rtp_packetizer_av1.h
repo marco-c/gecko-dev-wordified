@@ -156,9 +156,6 @@ public
 :
 RtpPacketizerAv1
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -230,9 +227,6 @@ kXbit
 =
 =
 0
-rtc
-:
-:
 ArrayView
 <
 const
@@ -344,9 +338,6 @@ Obu
 >
 ParseObus
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -403,9 +394,6 @@ Packet
 >
 PacketizeInternal
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -439,9 +427,6 @@ Packet
 >
 Packetize
 (
-rtc
-:
-:
 ArrayView
 <
 const

@@ -344,9 +344,6 @@ SetOctetCount
 kOctetCount
 )
 ;
-rtc
-:
-:
 Buffer
 raw
 =
@@ -500,9 +497,6 @@ rb
 )
 )
 ;
-rtc
-:
-:
 Buffer
 raw
 =
@@ -628,9 +622,6 @@ rb2
 )
 )
 ;
-rtc
-:
-:
 Buffer
 raw
 =

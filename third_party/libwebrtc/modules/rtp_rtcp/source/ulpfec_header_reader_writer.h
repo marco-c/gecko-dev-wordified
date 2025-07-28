@@ -812,9 +812,6 @@ override
 void
 FinalizeFecHeader
 (
-rtc
-:
-:
 ArrayView
 <
 const

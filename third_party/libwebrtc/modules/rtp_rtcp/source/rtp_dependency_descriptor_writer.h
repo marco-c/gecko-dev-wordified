@@ -168,9 +168,6 @@ structure
 .
 RtpDependencyDescriptorWriter
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t

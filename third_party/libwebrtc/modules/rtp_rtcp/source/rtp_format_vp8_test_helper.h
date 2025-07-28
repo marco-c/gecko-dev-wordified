@@ -256,9 +256,6 @@ GetAllPacketsAndCheck
 RtpPacketizerVp8
 *
 packetizer
-rtc
-:
-:
 ArrayView
 <
 const
@@ -267,9 +264,6 @@ size_t
 expected_sizes
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -315,9 +309,6 @@ offset
 int
 CheckHeader
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -331,9 +322,6 @@ first
 void
 CheckPictureID
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -348,9 +336,6 @@ offset
 void
 CheckTl0PicIdx
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -365,9 +350,6 @@ offset
 void
 CheckTIDAndKeyIdx
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -394,9 +376,6 @@ RTPVideoHeaderVP8
 const
 hdr_info_
 ;
-rtc
-:
-:
 Buffer
 payload_
 ;

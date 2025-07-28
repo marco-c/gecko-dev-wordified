@@ -446,9 +446,6 @@ kDecodabilityFlag
 )
 )
 ;
-rtc
-:
-:
 Buffer
 packet
 =

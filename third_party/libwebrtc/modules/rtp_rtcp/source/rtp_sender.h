@@ -727,9 +727,6 @@ FEC
 packets
 .
 static
-rtc
-:
-:
 ArrayView
 <
 const
@@ -756,9 +753,6 @@ video
 packets
 .
 static
-rtc
-:
-:
 ArrayView
 <
 const
@@ -785,9 +779,6 @@ audio
 packets
 .
 static
-rtc
-:
-:
 ArrayView
 <
 const
@@ -831,9 +822,6 @@ RtpPacketToSend
 >
 AllocatePacket
 (
-rtc
-:
-:
 ArrayView
 <
 const

@@ -946,9 +946,6 @@ end
 void
 CullAcknowledgedPackets
 (
-rtc
-:
-:
 ArrayView
 <
 const

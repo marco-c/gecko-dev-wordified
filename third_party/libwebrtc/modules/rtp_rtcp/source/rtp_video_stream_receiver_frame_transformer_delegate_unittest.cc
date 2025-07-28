@@ -723,9 +723,6 @@ receiver
 auto
 frame_transformer
 (
-rtc
-:
-:
 make_ref_counted
 <
 MockFrameTransformer
@@ -743,9 +740,6 @@ clock
 auto
 delegate
 (
-rtc
-:
-:
 make_ref_counted
 <
 RtpVideoStreamReceiverFrameTransformerDelegate
@@ -805,9 +799,6 @@ receiver
 auto
 frame_transformer
 (
-rtc
-:
-:
 make_ref_counted
 <
 MockFrameTransformer
@@ -825,9 +816,6 @@ clock
 auto
 delegate
 (
-rtc
-:
-:
 make_ref_counted
 <
 RtpVideoStreamReceiverFrameTransformerDelegate
@@ -883,9 +871,6 @@ receiver
 auto
 frame_transformer
 (
-rtc
-:
-:
 make_ref_counted
 <
 testing
@@ -909,9 +894,6 @@ clock
 auto
 delegate
 (
-rtc
-:
-:
 make_ref_counted
 <
 RtpVideoStreamReceiverFrameTransformerDelegate
@@ -981,9 +963,6 @@ receiver
 auto
 mock_frame_transformer
 (
-rtc
-:
-:
 make_ref_counted
 <
 NiceMock
@@ -1019,9 +998,6 @@ csrcs
 auto
 delegate
 =
-rtc
-:
-:
 make_ref_counted
 <
 RtpVideoStreamReceiverFrameTransformerDelegate
@@ -1046,9 +1022,6 @@ remote_ssrc
 1111
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 TransformedFrameCallback
@@ -1238,9 +1211,6 @@ receiver
 auto
 mock_frame_transformer
 =
-rtc
-:
-:
 make_ref_counted
 <
 NiceMock
@@ -1260,9 +1230,6 @@ clock
 auto
 delegate
 =
-rtc
-:
-:
 make_ref_counted
 <
 RtpVideoStreamReceiverFrameTransformerDelegate
@@ -1687,9 +1654,6 @@ receiver
 auto
 mock_frame_transformer
 =
-rtc
-:
-:
 make_ref_counted
 <
 NiceMock
@@ -1709,9 +1673,6 @@ clock
 auto
 delegate
 =
-rtc
-:
-:
 make_ref_counted
 <
 RtpVideoStreamReceiverFrameTransformerDelegate
@@ -1924,9 +1885,6 @@ receiver
 auto
 mock_frame_transformer
 =
-rtc
-:
-:
 make_ref_counted
 <
 NiceMock
@@ -1946,9 +1904,6 @@ clock
 auto
 delegate
 =
-rtc
-:
-:
 make_ref_counted
 <
 RtpVideoStreamReceiverFrameTransformerDelegate
@@ -1968,9 +1923,6 @@ Current
 1111
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 TransformedFrameCallback
@@ -2372,9 +2324,6 @@ receiver
 auto
 mock_frame_transformer
 =
-rtc
-:
-:
 make_ref_counted
 <
 NiceMock
@@ -2400,9 +2349,6 @@ initial_timestamp_us
 auto
 delegate
 =
-rtc
-:
-:
 make_ref_counted
 <
 RtpVideoStreamReceiverFrameTransformerDelegate
@@ -2498,9 +2444,6 @@ metadata
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 EncodedImageBufferInterface
@@ -2526,9 +2469,6 @@ WillByDefault
 (
 Return
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2541,9 +2481,6 @@ buffer
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 TransformedFrameCallback
@@ -2690,9 +2627,6 @@ receiver1
 auto
 mock_frame_transformer1
 (
-rtc
-:
-:
 make_ref_counted
 <
 NiceMock
@@ -2713,9 +2647,6 @@ clock
 auto
 delegate1
 =
-rtc
-:
-:
 make_ref_counted
 <
 RtpVideoStreamReceiverFrameTransformerDelegate
@@ -2746,9 +2677,6 @@ receiver2
 auto
 mock_frame_transformer2
 (
-rtc
-:
-:
 make_ref_counted
 <
 NiceMock
@@ -2763,9 +2691,6 @@ MockFrameTransformer
 auto
 delegate2
 =
-rtc
-:
-:
 make_ref_counted
 <
 RtpVideoStreamReceiverFrameTransformerDelegate
@@ -2797,9 +2722,6 @@ Init
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 TransformedFrameCallback
@@ -3047,9 +2969,6 @@ receiver
 auto
 mock_frame_transformer
 =
-rtc
-:
-:
 make_ref_counted
 <
 NiceMock
@@ -3069,9 +2988,6 @@ clock
 auto
 delegate
 =
-rtc
-:
-:
 make_ref_counted
 <
 RtpVideoStreamReceiverFrameTransformerDelegate

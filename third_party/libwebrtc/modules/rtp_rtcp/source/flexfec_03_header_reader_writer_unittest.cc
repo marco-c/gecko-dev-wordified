@@ -560,9 +560,6 @@ index
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 Packet
@@ -580,9 +577,6 @@ packet_mask_size
 Flexfec03HeaderWriter
 writer
 ;
-rtc
-:
-:
 scoped_refptr
 <
 Packet
@@ -745,9 +739,6 @@ read_packet
 >
 pkt
 =
-rtc
-:
-:
 scoped_refptr
 <
 Packet
@@ -1481,9 +1472,6 @@ read_packet
 .
 pkt
 =
-rtc
-:
-:
 scoped_refptr
 <
 Packet
@@ -1722,9 +1710,6 @@ read_packet
 .
 pkt
 =
-rtc
-:
-:
 scoped_refptr
 <
 Packet
@@ -2022,9 +2007,6 @@ read_packet
 .
 pkt
 =
-rtc
-:
-:
 scoped_refptr
 <
 Packet

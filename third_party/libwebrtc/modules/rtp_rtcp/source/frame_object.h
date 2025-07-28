@@ -327,9 +327,6 @@ FrameInstrumentationData
 frame_instrumentation_data
 RtpPacketInfos
 packet_infos
-rtc
-:
-:
 scoped_refptr
 <
 EncodedImageBuffer
@@ -477,9 +474,6 @@ for
 mutable
 access
 .
-rtc
-:
-:
 scoped_refptr
 <
 EncodedImageBuffer

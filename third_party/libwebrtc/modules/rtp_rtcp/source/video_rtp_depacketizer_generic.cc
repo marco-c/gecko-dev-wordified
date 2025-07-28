@@ -280,9 +280,6 @@ VideoRtpDepacketizerGeneric
 :
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 rtp_payload
 )

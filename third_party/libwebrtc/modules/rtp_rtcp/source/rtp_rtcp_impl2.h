@@ -522,9 +522,6 @@ packet
 void
 IncomingRtcpPacket
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1022,9 +1019,6 @@ override
 void
 OnAbortedRetransmissions
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1037,9 +1031,6 @@ override
 void
 OnPacketsAcknowledged
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1081,9 +1072,6 @@ Info
 >
 GetSentRtpPacketInfos
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1570,9 +1558,6 @@ override
 void
 OnReceivedRtcpReportBlocks
 (
-rtc
-:
-:
 ArrayView
 <
 const

@@ -262,9 +262,6 @@ frame
 .
 RtpPacketizerH264
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -464,9 +461,6 @@ PacketUnit
 {
 PacketUnit
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -505,9 +499,6 @@ header
 )
 {
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -585,9 +576,6 @@ std
 :
 deque
 <
-rtc
-:
-:
 ArrayView
 <
 const

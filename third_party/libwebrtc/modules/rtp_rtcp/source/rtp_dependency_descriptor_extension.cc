@@ -181,9 +181,6 @@ RtpDependencyDescriptorExtension
 :
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -273,9 +270,6 @@ RtpDependencyDescriptorExtension
 :
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -322,9 +316,6 @@ RtpDependencyDescriptorExtension
 :
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const

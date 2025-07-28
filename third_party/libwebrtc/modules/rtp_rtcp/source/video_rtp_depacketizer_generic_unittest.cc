@@ -209,9 +209,6 @@ kRtpPayloadSize
 0x01
 }
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 rtp_payload
 (
@@ -299,9 +296,6 @@ kRtpPayloadSize
 0x37
 }
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 rtp_payload
 (
@@ -404,9 +398,6 @@ kPayload
 0x52
 }
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 rtp_payload
 (

@@ -217,9 +217,6 @@ static
 int
 ParseRtpPayload
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -240,9 +237,6 @@ ParsedRtpPayload
 >
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 rtp_payload
 )

@@ -432,9 +432,6 @@ virtual
 void
 OnReceivedRtcpReportBlocks
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -721,9 +718,6 @@ RTCPReceiver
 void
 IncomingPacket
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1668,9 +1662,6 @@ num_rtts_
 bool
 ParseCompoundPacket
 (
-rtc
-:
-:
 ArrayView
 <
 const

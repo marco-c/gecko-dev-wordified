@@ -591,9 +591,6 @@ uint32_t
 sender_ssrc
 *
 /
-rtc
-:
-:
 ArrayView
 <
 const
@@ -863,9 +860,6 @@ function
 <
 void
 (
-rtc
-:
-:
 ArrayView
 <
 const

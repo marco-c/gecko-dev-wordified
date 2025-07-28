@@ -543,9 +543,6 @@ RtpGenericFrameDescriptorExtension00
 :
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1041,9 +1038,6 @@ RtpGenericFrameDescriptorExtension00
 :
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -1194,9 +1188,6 @@ frame_id
 >
 8
 ;
-rtc
-:
-:
 ArrayView
 <
 const

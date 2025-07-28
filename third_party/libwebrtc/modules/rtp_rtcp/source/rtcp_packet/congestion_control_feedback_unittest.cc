@@ -1114,9 +1114,6 @@ compact_ntp_timestamp
 1
 )
 ;
-rtc
-:
-:
 Buffer
 buf
 (
@@ -1136,9 +1133,6 @@ FunctionView
 <
 void
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1206,9 +1200,6 @@ kPackets
 kCompactNtp
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 =
@@ -1363,9 +1354,6 @@ kPackets
 kCompactNtp
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 =
@@ -1502,9 +1490,6 @@ Millis
 .
 ecn
 =
-rtc
-:
-:
 EcnMarking
 :
 :
@@ -1524,9 +1509,6 @@ kPackets
 kCompactNtp
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 =
@@ -1627,9 +1609,6 @@ Millis
 .
 ecn
 =
-rtc
-:
-:
 EcnMarking
 :
 :
@@ -1649,9 +1628,6 @@ kPackets
 kCompactNtp
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 =
@@ -1830,9 +1806,6 @@ kPackets
 kCompactNtp
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 =

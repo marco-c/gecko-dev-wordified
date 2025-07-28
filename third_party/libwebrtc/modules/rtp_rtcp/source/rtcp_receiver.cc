@@ -1914,9 +1914,6 @@ RTCPReceiver
 :
 IncomingPacket
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2980,9 +2977,6 @@ RTCPReceiver
 :
 ParseCompoundPacket
 (
-rtc
-:
-:
 ArrayView
 <
 const

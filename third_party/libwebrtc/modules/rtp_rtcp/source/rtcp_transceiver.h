@@ -539,9 +539,6 @@ packets
 void
 ReceivePacket
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 packet
 )

@@ -255,9 +255,6 @@ PacketMaskTable
 (
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -298,9 +295,6 @@ kFECPacketMaskMaxSize
 ;
 }
 ;
-rtc
-:
-:
 ArrayView
 <
 const

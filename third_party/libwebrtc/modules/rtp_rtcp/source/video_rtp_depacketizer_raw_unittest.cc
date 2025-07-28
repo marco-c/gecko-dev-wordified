@@ -173,9 +173,6 @@ kPayload
 0x52
 }
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 rtp_payload
 (
@@ -284,9 +281,6 @@ kPayload
 0x52
 }
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 rtp_payload
 (

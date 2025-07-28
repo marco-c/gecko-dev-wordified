@@ -498,9 +498,6 @@ RtpPacketizerAv1
 :
 RtpPacketizerAv1
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -558,9 +555,6 @@ RtpPacketizerAv1
 :
 ParseObus
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -714,9 +708,6 @@ obu
 .
 payload
 =
-rtc
-:
-:
 MakeArrayView
 (
 reinterpret_cast
@@ -823,9 +814,6 @@ obu
 .
 payload
 =
-rtc
-:
-:
 MakeArrayView
 (
 reinterpret_cast
@@ -1098,9 +1086,6 @@ RtpPacketizerAv1
 :
 PacketizeInternal
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2251,9 +2236,6 @@ RtpPacketizerAv1
 :
 Packetize
 (
-rtc
-:
-:
 ArrayView
 <
 const

@@ -216,9 +216,6 @@ SetSenderSsrc
 kSenderSsrc
 )
 ;
-rtc
-:
-:
 Buffer
 raw
 =
@@ -323,9 +320,6 @@ empty
 )
 )
 ;
-rtc
-:
-:
 Buffer
 raw
 =
@@ -437,9 +431,6 @@ SetReason
 kReason
 )
 ;
-rtc
-:
-:
 Buffer
 raw
 =
@@ -619,9 +610,6 @@ SetReason
 kReason
 )
 ;
-rtc
-:
-:
 Buffer
 raw
 =
@@ -764,9 +752,6 @@ SetReason
 kReason
 )
 ;
-rtc
-:
-:
 Buffer
 raw
 =
@@ -894,9 +879,6 @@ SetSenderSsrc
 kSenderSsrc
 )
 ;
-rtc
-:
-:
 Buffer
 raw
 =
@@ -969,9 +951,6 @@ long
 "
 )
 ;
-rtc
-:
-:
 Buffer
 raw
 =

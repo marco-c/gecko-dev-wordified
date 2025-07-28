@@ -444,9 +444,6 @@ ready
 void
 ReceivePacket
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -527,9 +524,6 @@ ssrc
 void
 SendFullIntraRequest
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -738,9 +732,6 @@ uint32_t
 sender_ssrc
 Timestamp
 now
-rtc
-:
-:
 ArrayView
 <
 const
@@ -921,9 +912,6 @@ ProcessReportBlocks
 (
 Timestamp
 now
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1131,9 +1119,6 @@ function
 <
 void
 (
-rtc
-:
-:
 ArrayView
 <
 const

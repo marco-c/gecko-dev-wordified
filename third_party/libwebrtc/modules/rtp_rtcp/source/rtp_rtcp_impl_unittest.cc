@@ -724,9 +724,6 @@ delay_ms
 bool
 SendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -776,9 +773,6 @@ true
 bool
 SendRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const

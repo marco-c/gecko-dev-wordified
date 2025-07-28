@@ -446,9 +446,6 @@ zeroed
 .
 EXPECT_THAT
 (
-rtc
-:
-:
 MakeArrayView
 (
 unused_bytes

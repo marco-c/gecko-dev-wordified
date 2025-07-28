@@ -932,9 +932,6 @@ void
 OnNack
 (
 uint32_t
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1096,9 +1093,6 @@ function
 <
 void
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1115,9 +1109,6 @@ return
 this
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1209,9 +1200,6 @@ function
 <
 void
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1232,9 +1220,6 @@ return
 parser
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2556,9 +2541,6 @@ MockFunction
 <
 void
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2679,9 +2661,6 @@ MockFunction
 <
 void
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3161,9 +3140,6 @@ MockFunction
 <
 void
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -12323,9 +12299,6 @@ MockFunction
 <
 void
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -12352,9 +12325,6 @@ WillRepeatedly
 &
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 const

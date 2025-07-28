@@ -1650,9 +1650,6 @@ ReturnsNulloptWhenChainsAreNotUsed
 )
 {
 const
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1661,9 +1658,6 @@ int
 kDecodeTargetProtectedByChain
 ;
 const
-rtc
-:
-:
 ArrayView
 <
 const

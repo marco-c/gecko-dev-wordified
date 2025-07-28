@@ -1150,9 +1150,6 @@ set_capture_time
 capture_time
 )
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 buffer
 =

@@ -205,9 +205,6 @@ FecTable
 TestBurstyLookup
 )
 {
-rtc
-:
-:
 ArrayView
 <
 const
@@ -401,9 +398,6 @@ FecTable
 TestRandomLookup
 )
 {
-rtc
-:
-:
 ArrayView
 <
 const
@@ -542,9 +536,6 @@ fec_mask_type
 num_media_packets
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const

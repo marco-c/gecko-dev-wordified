@@ -2223,9 +2223,6 @@ Flexfec03HeaderWriter
 :
 FinalizeFecHeader
 (
-rtc
-:
-:
 ArrayView
 <
 const

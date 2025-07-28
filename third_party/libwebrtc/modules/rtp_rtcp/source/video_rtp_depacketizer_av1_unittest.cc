@@ -270,9 +270,6 @@ kObuCountOne
 4
 }
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 rtp_payload
 (
@@ -409,9 +406,6 @@ depacketizer
 .
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 packet
@@ -480,9 +474,6 @@ depacketizer
 .
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 packet
@@ -532,9 +523,6 @@ kObuCountOne
 kObuHeaderFrame
 }
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 rtp_payload
 (
@@ -625,9 +613,6 @@ depacketizer
 .
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 packet
@@ -696,9 +681,6 @@ depacketizer
 .
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 packet
@@ -783,9 +765,6 @@ depacketizer
 .
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 packet
@@ -856,9 +835,6 @@ depacketizer
 .
 Parse
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 packet
@@ -907,9 +883,6 @@ Frame
 /
 \
 OBU
-rtc
-:
-:
 ArrayView
 <
 const
@@ -940,9 +913,6 @@ ASSERT_TRUE
 frame
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1020,9 +990,6 @@ obu_size
 /
 \
 obu_payload
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1053,9 +1020,6 @@ ASSERT_TRUE
 frame
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1136,9 +1100,6 @@ extension_header
 /
 \
 OBU
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1169,9 +1130,6 @@ ASSERT_TRUE
 frame
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1259,9 +1217,6 @@ obu_size
 /
 \
 obu_payload
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1292,9 +1247,6 @@ ASSERT_TRUE
 frame
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1364,9 +1316,6 @@ Frame
 /
 \
 OBU
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1399,9 +1348,6 @@ frame
 ;
 EXPECT_THAT
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1481,9 +1427,6 @@ Frame
 /
 \
 OBU
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1516,9 +1459,6 @@ frame
 ;
 EXPECT_THAT
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1607,9 +1547,6 @@ header
 40
 }
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1643,9 +1580,6 @@ frame
 ;
 EXPECT_THAT
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1745,9 +1679,6 @@ header
 ;
 /
 /
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1781,9 +1712,6 @@ frame
 ;
 EXPECT_THAT
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1983,9 +1911,6 @@ of
 the
 frame
 OBU
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2019,9 +1944,6 @@ frame
 ;
 EXPECT_THAT
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2195,9 +2117,6 @@ header
 18
 }
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2233,9 +2152,6 @@ frame
 ;
 EXPECT_THAT
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2429,9 +2345,6 @@ header
 36
 }
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2467,9 +2380,6 @@ frame
 ;
 EXPECT_THAT
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2630,9 +2540,6 @@ payload1
 =
 0x42
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2676,9 +2583,6 @@ size
 127u
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2909,9 +2813,6 @@ payload2
 =
 0x20
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2956,9 +2857,6 @@ size
 128u
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3111,9 +3009,6 @@ payload2
 30
 }
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3147,9 +3042,6 @@ frame
 ;
 EXPECT_THAT
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3216,9 +3108,6 @@ payload2
 0000
 }
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3252,9 +3141,6 @@ frame
 ;
 EXPECT_THAT
 (
-rtc
-:
-:
 ArrayView
 <
 const

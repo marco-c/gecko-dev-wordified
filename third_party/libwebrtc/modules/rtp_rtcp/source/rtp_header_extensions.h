@@ -405,9 +405,6 @@ static
 bool
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -439,9 +436,6 @@ static
 bool
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -656,9 +650,6 @@ static
 bool
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -684,9 +675,6 @@ static
 bool
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -745,9 +733,6 @@ static
 bool
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -781,9 +766,6 @@ static
 bool
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -844,9 +826,6 @@ static
 bool
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -868,9 +847,6 @@ static
 size_t
 ValueSize
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -883,17 +859,11 @@ static
 bool
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
 >
 data
-rtc
-:
-:
 ArrayView
 <
 const
@@ -951,9 +921,6 @@ static
 bool
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -985,9 +952,6 @@ static
 bool
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -1044,9 +1008,6 @@ static
 bool
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1078,9 +1039,6 @@ static
 bool
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -1139,9 +1097,6 @@ static
 bool
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1196,9 +1151,6 @@ static
 bool
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -1277,9 +1229,6 @@ static
 bool
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1306,9 +1255,6 @@ static
 bool
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -1322,9 +1268,6 @@ static
 bool
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1356,9 +1299,6 @@ static
 bool
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -1496,9 +1436,6 @@ static
 bool
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1527,9 +1464,6 @@ static
 bool
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -1588,9 +1522,6 @@ static
 bool
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1617,9 +1548,6 @@ static
 bool
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -1750,9 +1678,6 @@ static
 bool
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1781,9 +1706,6 @@ static
 bool
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -1832,9 +1754,6 @@ static
 bool
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -1900,9 +1819,6 @@ static
 bool
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1940,9 +1856,6 @@ static
 bool
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -2021,9 +1934,6 @@ static
 size_t
 ParseHdrMetadata
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2070,9 +1980,6 @@ static
 size_t
 WriteHdrMetadata
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -2304,9 +2211,6 @@ static
 bool
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2344,9 +2248,6 @@ static
 bool
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -2541,9 +2442,6 @@ static
 bool
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2587,9 +2485,6 @@ static
 bool
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -2652,9 +2547,6 @@ static
 bool
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2686,9 +2578,6 @@ static
 bool
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t

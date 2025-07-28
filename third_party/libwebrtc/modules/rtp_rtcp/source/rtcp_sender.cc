@@ -838,9 +838,6 @@ index_
 {
 callback_
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1710,9 +1707,6 @@ callback
 &
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3980,9 +3974,6 @@ callback
 &
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -5972,9 +5963,6 @@ callback
 &
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 const

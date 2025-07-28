@@ -320,9 +320,6 @@ uint32_t
 rtp_timestamp
 Timestamp
 capture_time
-rtc
-:
-:
 ArrayView
 <
 const
@@ -425,9 +422,6 @@ RTPSenderVideoFrameTransformerDelegate
 RTPVideoFrameSenderInterface
 *
 sender
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface
@@ -676,9 +670,6 @@ RTC_GUARDED_BY
 sender_lock_
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface

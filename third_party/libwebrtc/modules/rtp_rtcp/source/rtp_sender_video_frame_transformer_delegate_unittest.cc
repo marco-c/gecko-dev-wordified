@@ -416,9 +416,6 @@ uint32_t
 rtp_timestamp
 Timestamp
 capture_time
-rtc
-:
-:
 ArrayView
 <
 const
@@ -494,9 +491,6 @@ RtpSenderVideoFrameTransformerDelegateTest
 :
 frame_transformer_
 (
-rtc
-:
-:
 make_ref_counted
 <
 MockFrameTransformer
@@ -533,9 +527,6 @@ TransformableFrameInterface
 >
 GetTransformableFrame
 (
-rtc
-:
-:
 scoped_refptr
 <
 RTPSenderVideoFrameTransformerDelegate
@@ -704,9 +695,6 @@ frame
 MockRTPVideoFrameSenderInterface
 test_sender_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 MockFrameTransformer
@@ -727,9 +715,6 @@ RegisterTransformedFrameCallbackSinkOnInit
 auto
 delegate
 =
-rtc
-:
-:
 make_ref_counted
 <
 RTPSenderVideoFrameTransformerDelegate
@@ -784,9 +769,6 @@ UnregisterTransformedFrameSinkCallbackOnReset
 auto
 delegate
 =
-rtc
-:
-:
 make_ref_counted
 <
 RTPSenderVideoFrameTransformerDelegate
@@ -840,9 +822,6 @@ TransformFrameCallsTransform
 auto
 delegate
 =
-rtc
-:
-:
 make_ref_counted
 <
 RTPSenderVideoFrameTransformerDelegate
@@ -931,9 +910,6 @@ OnTransformedFrameCallsSenderSendVideo
 auto
 delegate
 =
-rtc
-:
-:
 make_ref_counted
 <
 RTPSenderVideoFrameTransformerDelegate
@@ -960,9 +936,6 @@ get
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 TransformedFrameCallback
@@ -1105,9 +1078,6 @@ CloneSenderVideoFrame
 auto
 delegate
 =
-rtc
-:
-:
 make_ref_counted
 <
 RTPSenderVideoFrameTransformerDelegate
@@ -1282,9 +1252,6 @@ CloneKeyFrame
 auto
 delegate
 =
-rtc
-:
-:
 make_ref_counted
 <
 RTPSenderVideoFrameTransformerDelegate
@@ -1466,9 +1433,6 @@ MetadataAfterSetMetadata
 auto
 delegate
 =
-rtc
-:
-:
 make_ref_counted
 <
 RTPSenderVideoFrameTransformerDelegate
@@ -1674,9 +1638,6 @@ ReceiverFrameConvertedToSenderFrame
 auto
 delegate
 =
-rtc
-:
-:
 make_ref_counted
 <
 RTPSenderVideoFrameTransformerDelegate
@@ -1809,9 +1770,6 @@ metadata
 )
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1820,9 +1778,6 @@ uint8_t
 buffer
 =
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1883,9 +1838,6 @@ timestamp
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 TransformedFrameCallback
@@ -2030,9 +1982,6 @@ SettingRTPTimestamp
 auto
 delegate
 =
-rtc
-:
-:
 make_ref_counted
 <
 RTPSenderVideoFrameTransformerDelegate
@@ -2136,9 +2085,6 @@ ShortCircuitingSkipsTransform
 auto
 delegate
 =
-rtc
-:
-:
 make_ref_counted
 <
 RTPSenderVideoFrameTransformerDelegate

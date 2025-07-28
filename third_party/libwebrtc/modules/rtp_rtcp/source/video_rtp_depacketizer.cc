@@ -158,9 +158,6 @@ h
 namespace
 webrtc
 {
-rtc
-:
-:
 scoped_refptr
 <
 EncodedImageBuffer
@@ -170,15 +167,9 @@ VideoRtpDepacketizer
 :
 AssembleFrame
 (
-rtc
-:
-:
 ArrayView
 <
 const
-rtc
-:
-:
 ArrayView
 <
 const
@@ -195,9 +186,6 @@ frame_size
 ;
 for
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -218,9 +206,6 @@ size
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 EncodedImageBuffer
@@ -248,9 +233,6 @@ data
 ;
 for
 (
-rtc
-:
-:
 ArrayView
 <
 const

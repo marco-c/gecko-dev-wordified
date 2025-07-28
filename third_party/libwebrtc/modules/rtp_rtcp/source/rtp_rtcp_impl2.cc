@@ -1092,9 +1092,6 @@ ModuleRtpRtcpImpl2
 :
 IncomingRtcpPacket
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2675,9 +2672,6 @@ ModuleRtpRtcpImpl2
 :
 OnAbortedRetransmissions
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2717,9 +2711,6 @@ ModuleRtpRtcpImpl2
 :
 OnPacketsAcknowledged
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2873,9 +2864,6 @@ ModuleRtpRtcpImpl2
 :
 GetSentRtpPacketInfos
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -4430,9 +4418,6 @@ ModuleRtpRtcpImpl2
 :
 OnReceivedRtcpReportBlocks
 (
-rtc
-:
-:
 ArrayView
 <
 const

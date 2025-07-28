@@ -312,9 +312,6 @@ AudioFrameType
 :
 kAudioFrameSpeech
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -439,9 +436,6 @@ Contributing
 sources
 list
 .
-rtc
-:
-:
 ArrayView
 <
 const

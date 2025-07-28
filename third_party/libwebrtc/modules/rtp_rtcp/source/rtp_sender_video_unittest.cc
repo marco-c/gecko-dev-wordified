@@ -1108,9 +1108,6 @@ kCorruptionDetectionExtensionId
 bool
 SendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1160,9 +1157,6 @@ true
 bool
 SendRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -4264,9 +4258,6 @@ SCOPED_TRACE
 frame_size
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -6498,9 +6489,6 @@ kDependencyDescriptorId
 auto
 encryptor
 =
-rtc
-:
-:
 make_ref_counted
 <
 NiceMock
@@ -6546,9 +6534,6 @@ WithArgs
 [
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -10087,9 +10072,6 @@ PlusInfinity
 )
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -10345,9 +10327,6 @@ PlusInfinity
 )
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -10466,9 +10445,6 @@ RTPSenderVideo
 >
 CreateSenderWithFrameTransformer
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface
@@ -10633,9 +10609,6 @@ CreateSenderRegistersFrameTransformer
 auto
 mock_frame_transformer
 =
-rtc
-:
-:
 make_ref_counted
 <
 NiceMock
@@ -10681,9 +10654,6 @@ DestroySenderUnregistersFrameTransformer
 auto
 mock_frame_transformer
 =
-rtc
-:
-:
 make_ref_counted
 <
 NiceMock
@@ -10732,9 +10702,6 @@ SendEncodedImageTransformsFrame
 auto
 mock_frame_transformer
 =
-rtc
-:
-:
 make_ref_counted
 <
 NiceMock
@@ -10813,9 +10780,6 @@ ValidPayloadTypes
 auto
 mock_frame_transformer
 =
-rtc
-:
-:
 make_ref_counted
 <
 NiceMock
@@ -10935,9 +10899,6 @@ OnTransformedFrameSendsVideo
 auto
 mock_frame_transformer
 =
-rtc
-:
-:
 make_ref_counted
 <
 NiceMock
@@ -10948,9 +10909,6 @@ MockFrameTransformer
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 TransformedFrameCallback
@@ -11185,9 +11143,6 @@ TransformOverheadCorrectlyAccountedFor
 auto
 mock_frame_transformer
 =
-rtc
-:
-:
 make_ref_counted
 <
 NiceMock
@@ -11198,9 +11153,6 @@ MockFrameTransformer
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 TransformedFrameCallback
@@ -11461,9 +11413,6 @@ TransformableFrameMetadataHasCorrectValue
 auto
 mock_frame_transformer
 =
-rtc
-:
-:
 make_ref_counted
 <
 NiceMock
@@ -11746,9 +11695,6 @@ TransformableFrameHasCorrectCaptureIdentifier
 auto
 mock_frame_transformer
 =
-rtc
-:
-:
 make_ref_counted
 <
 NiceMock
@@ -11886,9 +11832,6 @@ OnTransformedFrameSendsVideoWhenCloned
 auto
 mock_frame_transformer
 =
-rtc
-:
-:
 make_ref_counted
 <
 NiceMock
@@ -11899,9 +11842,6 @@ MockFrameTransformer
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 TransformedFrameCallback

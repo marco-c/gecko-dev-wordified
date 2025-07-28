@@ -237,9 +237,6 @@ data
 5
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -317,9 +314,6 @@ data
 5
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 uint8_t

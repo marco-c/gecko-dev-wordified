@@ -210,9 +210,6 @@ RtpPacketizerH265
 :
 RtpPacketizerH265
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -567,9 +564,6 @@ the
 FU
 header
 .
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1050,9 +1044,6 @@ fragment_headers_length
 =
 0
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1851,9 +1842,6 @@ unit
 length
 field
 .
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2557,9 +2545,6 @@ kFu
 |
 layer_id_h
 ;
-rtc
-:
-:
 ArrayView
 <
 const

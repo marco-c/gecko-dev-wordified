@@ -564,9 +564,6 @@ AbsoluteSendTime
 :
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -621,9 +618,6 @@ AbsoluteSendTime
 :
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -1574,9 +1568,6 @@ AbsoluteCaptureTimeExtension
 :
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1715,9 +1706,6 @@ AbsoluteCaptureTimeExtension
 :
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -2133,9 +2121,6 @@ AudioLevelExtension
 :
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2221,9 +2206,6 @@ AudioLevelExtension
 :
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -2871,9 +2853,6 @@ CsrcAudioLevel
 :
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2964,9 +2943,6 @@ CsrcAudioLevel
 :
 ValueSize
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2989,17 +2965,11 @@ CsrcAudioLevel
 :
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
 >
 data
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3378,9 +3348,6 @@ TransmissionOffset
 :
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3435,9 +3402,6 @@ TransmissionOffset
 :
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -3643,9 +3607,6 @@ TransportSequenceNumber
 :
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3699,9 +3660,6 @@ TransportSequenceNumber
 :
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -4060,9 +4018,6 @@ TransportSequenceNumberV2
 :
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -4224,9 +4179,6 @@ TransportSequenceNumberV2
 :
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -4505,9 +4457,6 @@ VideoOrientation
 :
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -4554,9 +4503,6 @@ VideoOrientation
 :
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -4596,9 +4542,6 @@ VideoOrientation
 :
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -4642,9 +4585,6 @@ VideoOrientation
 :
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -4870,9 +4810,6 @@ PlayoutDelayLimits
 :
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -4962,9 +4899,6 @@ PlayoutDelayLimits
 :
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -5711,9 +5645,6 @@ VideoContentTypeExtension
 :
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -5828,9 +5759,6 @@ VideoContentTypeExtension
 :
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -6381,9 +6309,6 @@ VideoTimingExtension
 :
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -6641,9 +6566,6 @@ VideoTimingExtension
 :
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -6819,9 +6741,6 @@ VideoTimingExtension
 :
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -7899,9 +7818,6 @@ ColorSpaceExtension
 :
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -8174,9 +8090,6 @@ ColorSpaceExtension
 :
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -8497,9 +8410,6 @@ ColorSpaceExtension
 :
 ParseHdrMetadata
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -8866,9 +8776,6 @@ ColorSpaceExtension
 :
 WriteHdrMetadata
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -9275,9 +9182,6 @@ BaseRtpStringExtension
 :
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -9416,9 +9320,6 @@ BaseRtpStringExtension
 :
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -9803,9 +9704,6 @@ InbandComfortNoiseExtension
 :
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -9884,9 +9782,6 @@ InbandComfortNoiseExtension
 :
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -10116,9 +10011,6 @@ VideoFrameTrackingIdExtension
 :
 Parse
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -10174,9 +10066,6 @@ VideoFrameTrackingIdExtension
 :
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t

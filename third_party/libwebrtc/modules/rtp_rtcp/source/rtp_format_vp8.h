@@ -331,9 +331,6 @@ frame
 .
 RtpPacketizerVp8
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -461,9 +458,6 @@ header
 RawHeader
 hdr_
 ;
-rtc
-:
-:
 ArrayView
 <
 const

@@ -1198,9 +1198,6 @@ PacketMaskTable
 =
 default
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1918,9 +1915,6 @@ num_fec_for_imp_packets
 num_fec_remaining
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1972,9 +1966,6 @@ kModeBiasFirstPacket
 /
 /
 sub_mask22
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2111,9 +2102,6 @@ Get
 sub_mask1
 from
 table
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3156,9 +3144,6 @@ index
 1
 based
 )
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3557,9 +3542,6 @@ k
 =
 num_fec_packets
 .
-rtc
-:
-:
 ArrayView
 <
 const

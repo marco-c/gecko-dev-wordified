@@ -286,9 +286,6 @@ OnReport
 (
 Timestamp
 receive_time
-rtc
-:
-:
 ArrayView
 <
 const

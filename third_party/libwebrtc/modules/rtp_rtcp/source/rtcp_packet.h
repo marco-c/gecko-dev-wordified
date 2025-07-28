@@ -274,9 +274,6 @@ kPacketSize
 /
 /
 /
-rtc
-:
-:
 Buffer
 packet
 =
@@ -351,9 +348,6 @@ message
 .
 /
 /
-rtc
-:
-:
 Buffer
 packet
 =
@@ -428,9 +422,6 @@ FunctionView
 <
 void
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -495,9 +486,6 @@ big
 enough
 buffer
 .
-rtc
-:
-:
 Buffer
 Build
 (

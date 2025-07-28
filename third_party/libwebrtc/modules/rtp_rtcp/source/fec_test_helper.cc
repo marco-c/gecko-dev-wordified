@@ -1367,9 +1367,6 @@ packet
 in
 RED
 .
-rtc
-:
-:
 CopyOnWriteBuffer
 red_buffer
 ;

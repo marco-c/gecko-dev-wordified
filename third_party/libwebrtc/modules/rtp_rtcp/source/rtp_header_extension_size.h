@@ -172,9 +172,6 @@ registered_extensions
 int
 RtpHeaderExtensionSize
 (
-rtc
-:
-:
 ArrayView
 <
 const

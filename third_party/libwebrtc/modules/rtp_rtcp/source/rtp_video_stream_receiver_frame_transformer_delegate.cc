@@ -422,9 +422,6 @@ default
 Implements
 TransformableVideoFrameInterface
 .
-rtc
-:
-:
 ArrayView
 <
 const
@@ -449,9 +446,6 @@ GetEncodedData
 void
 SetData
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -960,9 +954,6 @@ receiver
 Clock
 *
 clock
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface
@@ -1022,9 +1013,6 @@ frame_transformer_
 >
 RegisterTransformedFrameSinkCallback
 (
-rtc
-:
-:
 scoped_refptr
 <
 TransformedFrameCallback
@@ -1163,9 +1151,6 @@ TransformableFrameInterface
 frame
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 RtpVideoStreamReceiverFrameTransformerDelegate
@@ -1230,9 +1215,6 @@ StartShortCircuiting
 (
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 RtpVideoStreamReceiverFrameTransformerDelegate
@@ -1705,9 +1687,6 @@ metadata
 VideoSendTiming
 timing
 ;
-rtc
-:
-:
 ArrayView
 <
 const

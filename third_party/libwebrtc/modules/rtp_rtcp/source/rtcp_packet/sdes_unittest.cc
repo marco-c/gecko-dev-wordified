@@ -216,9 +216,6 @@ CreateAndParseWithoutChunks
 Sdes
 sdes
 ;
-rtc
-:
-:
 Buffer
 packet
 =
@@ -291,9 +288,6 @@ kCname
 )
 )
 ;
-rtc
-:
-:
 Buffer
 packet
 =
@@ -477,9 +471,6 @@ abcdef
 )
 )
 ;
-rtc
-:
-:
 Buffer
 packet
 =
@@ -665,9 +656,6 @@ kSenderSsrc
 )
 )
 ;
-rtc
-:
-:
 Buffer
 packet
 =
@@ -1799,9 +1787,6 @@ kSenderSsrc
 kAlice
 )
 ;
-rtc
-:
-:
 Buffer
 packet1
 =
@@ -1848,9 +1833,6 @@ kSenderSsrc
 kBob
 )
 ;
-rtc
-:
-:
 Buffer
 packet2
 =
