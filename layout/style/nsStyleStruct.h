@@ -9938,7 +9938,7 @@ mozilla
 StyleContainerType
 :
 :
-Normal
+NORMAL
 ;
 }
 /
