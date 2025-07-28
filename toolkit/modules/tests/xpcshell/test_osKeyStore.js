@@ -205,6 +205,9 @@ OSKeyStore
 decrypt
 (
 cipherText
+"
+testing
+"
 )
 ;
 Assert
@@ -302,6 +305,9 @@ OSKeyStore
 decrypt
 (
 cipherText
+"
+testing
+"
 "
 prompt
 message
@@ -448,6 +454,9 @@ decrypt
 (
 cipherText
 "
+testing
+"
+"
 prompt
 message
 text
@@ -541,6 +550,9 @@ decrypt
 Malformed
 cipher
 text
+"
+"
+testing
 "
 )
 ;
@@ -931,6 +943,9 @@ OSKeyStore
 decrypt
 (
 encryptedString
+"
+testing
+"
 )
 ;
 Assert
