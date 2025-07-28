@@ -25643,14 +25643,14 @@ Register
 boundsCheckLimit
 Label
 *
-ok
+label
 )
 {
 ma_b
 (
 index
 boundsCheckLimit
-ok
+label
 cond
 )
 ;
@@ -25669,7 +25669,7 @@ Address
 boundsCheckLimit
 Label
 *
-ok
+label
 )
 {
 UseScratchRegisterScope
@@ -25700,7 +25700,7 @@ Register
 (
 scratch2
 )
-ok
+label
 cond
 )
 ;
@@ -25719,7 +25719,7 @@ Register64
 boundsCheckLimit
 Label
 *
-ok
+label
 )
 {
 ma_b
@@ -25730,7 +25730,7 @@ reg
 boundsCheckLimit
 .
 reg
-ok
+label
 cond
 )
 ;
@@ -25749,7 +25749,7 @@ Address
 boundsCheckLimit
 Label
 *
-ok
+label
 )
 {
 UseScratchRegisterScope
@@ -25779,7 +25779,7 @@ index
 .
 reg
 scratch2
-ok
+label
 cond
 )
 ;
