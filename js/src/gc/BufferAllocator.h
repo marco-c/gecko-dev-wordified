@@ -2264,6 +2264,8 @@ getFirstAvailableSizeClass
 (
 size_t
 minSizeClass
+size_t
+maxSizeClass
 )
 const
 ;
@@ -3485,7 +3487,7 @@ inGC
 ;
 void
 *
-retryBumpAlloc
+retryMediumAlloc
 (
 size_t
 requestedBytes
@@ -3503,6 +3505,8 @@ size_t
 bytes
 size_t
 sizeClass
+size_t
+maxSizeClass
 )
 ;
 void
