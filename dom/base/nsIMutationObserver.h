@@ -628,6 +628,12 @@ MutationEffectOnScript
 :
 DropTrustWorthiness
 ;
+nsINode
+*
+mOldParent
+=
+nullptr
+;
 }
 ;
 /
@@ -702,6 +708,12 @@ MutationEffectOnScript
 :
 :
 DropTrustWorthiness
+;
+nsINode
+*
+mNewParent
+=
+nullptr
 ;
 }
 ;
