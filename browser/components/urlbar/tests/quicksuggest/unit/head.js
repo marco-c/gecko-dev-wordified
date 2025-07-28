@@ -2205,13 +2205,12 @@ type
 .
 Should
 be
-the
-same
-as
+included
+in
 *
 feature
 .
-primaryUserControlledPreference
+primaryUserControlledPreferences
 .
 *
 param
