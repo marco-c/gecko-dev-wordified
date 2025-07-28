@@ -451,9 +451,6 @@ kbit
 s
 deviation_kbps_
 =
-rtc
-:
-:
 SafeClamp
 (
 deviation_kbps_

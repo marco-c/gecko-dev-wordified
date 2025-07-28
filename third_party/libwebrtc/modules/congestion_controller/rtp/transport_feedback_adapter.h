@@ -510,10 +510,7 @@ SentPacket
 ProcessSentPacket
 (
 const
-rtc
-:
-:
-SentPacket
+SentPacketInfo
 &
 sent_packet
 )
