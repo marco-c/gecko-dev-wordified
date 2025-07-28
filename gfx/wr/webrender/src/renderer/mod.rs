@@ -742,6 +742,7 @@ crate
 :
 {
 debug_colors
+precise_time_ns
 CompositorInputConfig
 CompositorSurfaceUsage
 }
@@ -1256,12 +1257,6 @@ hash_map
 :
 :
 Entry
-;
-use
-time
-:
-:
-precise_time_ns
 ;
 mod
 debug
