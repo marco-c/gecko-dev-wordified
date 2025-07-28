@@ -232,9 +232,6 @@ estimate
 void
 Update
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -242,9 +239,6 @@ float
 kFftLengthBy2Plus1
 >
 X2
-rtc
-:
-:
 ArrayView
 <
 const
@@ -258,9 +252,6 @@ kFftLengthBy2Plus1
 >
 >
 Y2
-rtc
-:
-:
 ArrayView
 <
 const
@@ -293,9 +284,6 @@ the
 ERLE
 estimate
 .
-rtc
-:
-:
 ArrayView
 <
 const
@@ -336,9 +324,6 @@ capped
 ERLE
 estimate
 .
-rtc
-:
-:
 ArrayView
 <
 const
@@ -375,9 +360,6 @@ for
 testing
 )
 .
-rtc
-:
-:
 ArrayView
 <
 const
@@ -507,9 +489,6 @@ num_points
 void
 UpdateAccumulatedSpectra
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -517,9 +496,6 @@ float
 kFftLengthBy2Plus1
 >
 X2
-rtc
-:
-:
 ArrayView
 <
 const
@@ -533,9 +509,6 @@ kFftLengthBy2Plus1
 >
 >
 Y2
-rtc
-:
-:
 ArrayView
 <
 const

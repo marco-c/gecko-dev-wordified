@@ -216,9 +216,6 @@ lock
 void
 AnalyzeRenderAudio
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -244,9 +241,6 @@ lock
 void
 AnalyzeCaptureAudio
 (
-rtc
-:
-:
 ArrayView
 <
 const

@@ -448,9 +448,6 @@ return
 candidate_
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const

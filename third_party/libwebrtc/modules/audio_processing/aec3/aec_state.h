@@ -471,9 +471,6 @@ audibility
 void
 GetResidualEchoScaling
 (
-rtc
-:
-:
 ArrayView
 <
 float
@@ -520,9 +517,6 @@ Returns
 the
 ERLE
 .
-rtc
-:
-:
 ArrayView
 <
 const
@@ -560,9 +554,6 @@ non
 capped
 ERLE
 .
-rtc
-:
-:
 ArrayView
 <
 const
@@ -870,9 +861,6 @@ the
 reverberant
 echo
 .
-rtc
-:
-:
 ArrayView
 <
 const
@@ -963,9 +951,6 @@ DelayEstimate
 >
 &
 external_delay
-rtc
-:
-:
 ArrayView
 <
 const
@@ -985,9 +970,6 @@ kFftLengthBy2Plus1
 >
 >
 adaptive_filter_frequency_responses
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1004,9 +986,6 @@ const
 RenderBuffer
 &
 render_buffer
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1020,9 +999,6 @@ kFftLengthBy2Plus1
 >
 >
 E2_refined
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1036,9 +1012,6 @@ kFftLengthBy2Plus1
 >
 >
 Y2
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1387,9 +1360,6 @@ of
 the
 echo
 .
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1448,9 +1418,6 @@ data
 void
 Update
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1811,9 +1778,6 @@ bool
 saturated_capture
 bool
 usable_linear_estimate
-rtc
-:
-:
 ArrayView
 <
 const

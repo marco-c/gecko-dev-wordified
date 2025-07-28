@@ -727,9 +727,6 @@ int
 call_counter
 int
 delay
-rtc
-:
-:
 ArrayView
 <
 float

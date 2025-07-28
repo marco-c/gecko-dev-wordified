@@ -218,9 +218,6 @@ bool
 >
 &
 converged_filters
-rtc
-:
-:
 ArrayView
 <
 const
@@ -234,9 +231,6 @@ kFftLengthBy2Plus1
 >
 >
 render_spectra
-rtc
-:
-:
 ArrayView
 <
 const
@@ -538,9 +532,6 @@ kFftLengthBy2Plus1
 >
 max_render_spectrum_data
 ;
-rtc
-:
-:
 ArrayView
 <
 const

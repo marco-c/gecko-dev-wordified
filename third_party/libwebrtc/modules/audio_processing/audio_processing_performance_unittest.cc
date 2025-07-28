@@ -3013,9 +3013,6 @@ variables
 Random
 rand_gen_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioProcessing

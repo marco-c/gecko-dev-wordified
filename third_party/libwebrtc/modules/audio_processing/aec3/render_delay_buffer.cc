@@ -514,9 +514,6 @@ float
 render_linear_amplitude_gain_
 ;
 const
-rtc
-:
-:
 LoggingSeverity
 delay_log_level_
 ;
@@ -668,9 +665,6 @@ previous_write
 bool
 DetectActiveRender
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -795,13 +789,7 @@ delay
 .
 log_warning_on_delay_changes
 ?
-rtc
-:
-:
 LS_WARNING
-:
-rtc
-:
 :
 LS_VERBOSE
 )
@@ -2666,9 +2654,6 @@ num_render_channels
 ch
 )
 {
-rtc
-:
-:
 ArrayView
 <
 float
@@ -2913,9 +2898,6 @@ RenderDelayBufferImpl
 :
 DetectActiveRender
 (
-rtc
-:
-:
 ArrayView
 <
 const

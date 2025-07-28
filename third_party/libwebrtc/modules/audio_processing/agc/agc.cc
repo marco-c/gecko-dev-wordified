@@ -245,9 +245,6 @@ Agc
 :
 Process
 (
-rtc
-:
-:
 ArrayView
 <
 const

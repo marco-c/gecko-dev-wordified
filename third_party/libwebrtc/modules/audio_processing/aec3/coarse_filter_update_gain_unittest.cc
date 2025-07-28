@@ -1731,9 +1731,6 @@ info
 {
 return
 (
-rtc
-:
-:
 StringBuilder
 (
 )

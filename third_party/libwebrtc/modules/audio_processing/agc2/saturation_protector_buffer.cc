@@ -366,9 +366,6 @@ v
 ;
 if
 (
-rtc
-:
-:
 SafeEq
 (
 next_
@@ -387,9 +384,6 @@ next_
 }
 if
 (
-rtc
-:
-:
 SafeLt
 (
 size_
@@ -468,9 +462,6 @@ FrontIndex
 const
 {
 return
-rtc
-:
-:
 SafeEq
 (
 size_

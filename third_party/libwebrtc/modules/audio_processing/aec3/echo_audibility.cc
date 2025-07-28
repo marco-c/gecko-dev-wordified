@@ -208,9 +208,6 @@ const
 RenderBuffer
 &
 render_buffer
-rtc
-:
-:
 ArrayView
 <
 const
@@ -291,9 +288,6 @@ const
 RenderBuffer
 &
 render_buffer
-rtc
-:
-:
 ArrayView
 <
 const
@@ -584,9 +578,6 @@ num_render_channels
 ch
 )
 {
-rtc
-:
-:
 ArrayView
 <
 const

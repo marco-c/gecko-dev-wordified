@@ -698,9 +698,6 @@ enable_pre_amplifier_
 TaskQueueForTest
 worker_queue_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioProcessing

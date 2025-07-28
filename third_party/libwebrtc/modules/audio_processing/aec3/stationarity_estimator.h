@@ -215,9 +215,6 @@ known
 void
 UpdateNoiseEstimator
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -271,9 +268,6 @@ const
 SpectrumBuffer
 &
 spectrum_buffer
-rtc
-:
-:
 ArrayView
 <
 const
@@ -415,9 +409,6 @@ const
 SpectrumBuffer
 &
 spectrum_buffer
-rtc
-:
-:
 ArrayView
 <
 const
@@ -544,9 +535,6 @@ frame
 void
 Update
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -571,9 +559,6 @@ estimation
 power
 spectrum
 .
-rtc
-:
-:
 ArrayView
 <
 const

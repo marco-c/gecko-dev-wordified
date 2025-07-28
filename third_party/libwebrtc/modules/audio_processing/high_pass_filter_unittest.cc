@@ -915,9 +915,6 @@ float
 CreateVector
 (
 const
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2083,9 +2080,6 @@ RunBitexactnessTest
 use_audio_buffer_interface
 CreateVector
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2097,9 +2091,6 @@ kReferenceInput
 )
 CreateVector
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3884,9 +3875,6 @@ RunBitexactnessTest
 use_audio_buffer_interface
 CreateVector
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3898,9 +3886,6 @@ kReferenceInput
 )
 CreateVector
 (
-rtc
-:
-:
 ArrayView
 <
 const

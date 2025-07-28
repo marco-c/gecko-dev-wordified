@@ -269,9 +269,6 @@ new_values
 void
 Push
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -365,9 +362,6 @@ N
 /
 respectively
 .
-rtc
-:
-:
 ArrayView
 <
 const

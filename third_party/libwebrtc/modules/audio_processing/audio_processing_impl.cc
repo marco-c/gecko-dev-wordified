@@ -2652,9 +2652,6 @@ unique_ptr
 EchoControlFactory
 >
 echo_control_factory
-rtc
-:
-:
 scoped_refptr
 <
 EchoDetector
@@ -7578,9 +7575,6 @@ capture_input_rms_
 .
 Analyze
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -8584,9 +8578,6 @@ echo_detector
 >
 AnalyzeCaptureAudio
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -8717,9 +8708,6 @@ capture_output_rms_
 .
 Analyze
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -9126,9 +9114,6 @@ num_channels
 ch
 )
 {
-rtc
-:
-:
 ArrayView
 <
 float
@@ -9992,9 +9977,6 @@ AudioProcessingImpl
 :
 GetLinearAecOutput
 (
-rtc
-:
-:
 ArrayView
 <
 std
@@ -10104,9 +10086,6 @@ num_frames
 )
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -10114,9 +10093,6 @@ float
 >
 channel_view
 =
-rtc
-:
-:
 ArrayView
 <
 const

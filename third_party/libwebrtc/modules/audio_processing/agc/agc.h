@@ -167,9 +167,6 @@ virtual
 void
 Process
 (
-rtc
-:
-:
 ArrayView
 <
 const

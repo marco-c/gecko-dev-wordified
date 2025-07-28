@@ -198,9 +198,6 @@ RmsLevel
 >
 RunTest
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -274,9 +271,6 @@ RmsLevel
 >
 RunTest
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1053,9 +1047,6 @@ const
 size_t
 kBlocksPerSecond
 =
-rtc
-:
-:
 CheckedDivExact
 (
 static_cast

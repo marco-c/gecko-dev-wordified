@@ -301,9 +301,6 @@ signals
 void
 ComputeMetrics
 (
-rtc
-:
-:
 ArrayView
 <
 const

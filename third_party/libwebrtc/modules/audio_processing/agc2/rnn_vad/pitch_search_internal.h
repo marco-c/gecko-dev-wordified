@@ -166,9 +166,6 @@ filter
 void
 Decimate2x
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -176,9 +173,6 @@ float
 kBufSize24kHz
 >
 src
-rtc
-:
-:
 ArrayView
 <
 float
@@ -614,9 +608,6 @@ lags
 void
 ComputeSlidingFrameSquareEnergies24kHz
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -624,9 +615,6 @@ float
 kBufSize24kHz
 >
 pitch_buffer
-rtc
-:
-:
 ArrayView
 <
 float
@@ -710,9 +698,6 @@ indexes
 CandidatePitchPeriods
 ComputePitchPeriod12kHz
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -720,9 +705,6 @@ float
 kBufSize12kHz
 >
 pitch_buffer
-rtc
-:
-:
 ArrayView
 <
 const
@@ -784,9 +766,6 @@ lag
 int
 ComputePitchPeriod48kHz
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -794,9 +773,6 @@ float
 kBufSize24kHz
 >
 pitch_buffer
-rtc
-:
-:
 ArrayView
 <
 const
@@ -882,9 +858,6 @@ pitch
 PitchInfo
 ComputeExtendedPitchPeriod48kHz
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -892,9 +865,6 @@ float
 kBufSize24kHz
 >
 pitch_buffer
-rtc
-:
-:
 ArrayView
 <
 const

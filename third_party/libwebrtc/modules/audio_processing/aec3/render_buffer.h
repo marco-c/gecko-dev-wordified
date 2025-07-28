@@ -313,9 +313,6 @@ in
 the
 buffer
 .
-rtc
-:
-:
 ArrayView
 <
 const
@@ -368,9 +365,6 @@ circular
 fft
 buffer
 .
-rtc
-:
-:
 ArrayView
 <
 const

@@ -160,9 +160,6 @@ Update
 (
 int32_t
 num_analyzed_frames
-rtc
-:
-:
 ArrayView
 <
 const
@@ -170,9 +167,6 @@ float
 kFftSizeBy2Plus1
 >
 prior_snr
-rtc
-:
-:
 ArrayView
 <
 const
@@ -180,9 +174,6 @@ float
 kFftSizeBy2Plus1
 >
 post_snr
-rtc
-:
-:
 ArrayView
 <
 const
@@ -190,9 +181,6 @@ float
 kFftSizeBy2Plus1
 >
 conservative_noise_spectrum
-rtc
-:
-:
 ArrayView
 <
 const

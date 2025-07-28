@@ -568,9 +568,6 @@ use
 void
 AggregateWienerFilters
 (
-rtc
-:
-:
 ArrayView
 <
 float

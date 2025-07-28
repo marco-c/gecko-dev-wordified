@@ -210,9 +210,6 @@ estimates
 void
 Update
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -226,9 +223,6 @@ kFftLengthBy2Plus1
 >
 >
 nearend_spectrum
-rtc
-:
-:
 ArrayView
 <
 const
@@ -242,9 +236,6 @@ kFftLengthBy2Plus1
 >
 >
 residual_echo_spectrum
-rtc
-:
-:
 ArrayView
 <
 const

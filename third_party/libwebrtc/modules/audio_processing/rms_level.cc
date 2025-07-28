@@ -426,9 +426,6 @@ RmsLevel
 :
 Analyze
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -539,9 +536,6 @@ RmsLevel
 :
 Analyze
 (
-rtc
-:
-:
 ArrayView
 <
 const

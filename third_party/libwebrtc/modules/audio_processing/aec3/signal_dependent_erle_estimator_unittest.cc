@@ -491,9 +491,6 @@ return
 render_buffer_
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -508,9 +505,6 @@ return
 X2_
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -532,9 +526,6 @@ return
 Y2_
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -556,9 +547,6 @@ return
 E2_
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const

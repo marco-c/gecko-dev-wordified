@@ -151,9 +151,6 @@ output
 void
 Update
 (
-rtc
-:
-:
 ArrayView
 <
 const

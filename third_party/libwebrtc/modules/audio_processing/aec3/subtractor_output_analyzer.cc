@@ -141,9 +141,6 @@ SubtractorOutputAnalyzer
 :
 Update
 (
-rtc
-:
-:
 ArrayView
 <
 const

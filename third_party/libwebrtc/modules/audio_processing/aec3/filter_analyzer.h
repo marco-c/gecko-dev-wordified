@@ -250,9 +250,6 @@ data
 void
 Update
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -288,9 +285,6 @@ for
 each
 filter
 .
-rtc
-:
-:
 ArrayView
 <
 const
@@ -364,9 +358,6 @@ the
 preprocessed
 filter
 .
-rtc
-:
-:
 ArrayView
 <
 const
@@ -410,9 +401,6 @@ FilterAnalysisState
 void
 AnalyzeRegion
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -434,9 +422,6 @@ render_buffer
 void
 UpdateFilterGain
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -451,9 +436,6 @@ st
 void
 PreProcessFilters
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -526,9 +508,6 @@ Reset
 bool
 Detect
 (
-rtc
-:
-:
 ArrayView
 <
 const

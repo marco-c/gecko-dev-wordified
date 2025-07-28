@@ -1970,9 +1970,6 @@ ChannelBuffer
 float
 >
 (
-rtc
-:
-:
 CheckedDivExact
 (
 input_sample_rate_hz
@@ -2000,9 +1997,6 @@ ChannelBuffer
 float
 >
 (
-rtc
-:
-:
 CheckedDivExact
 (
 reverse_input_sample_rate_hz
@@ -2030,9 +2024,6 @@ ChannelBuffer
 float
 >
 (
-rtc
-:
-:
 CheckedDivExact
 (
 output_sample_rate_hz
@@ -2060,9 +2051,6 @@ ChannelBuffer
 float
 >
 (
-rtc
-:
-:
 CheckedDivExact
 (
 reverse_output_sample_rate_hz
@@ -2095,17 +2083,11 @@ settings_
 use_verbose_logging
 )
 {
-rtc
-:
-:
 LogMessage
 :
 :
 LogToDebug
 (
-rtc
-:
-:
 LS_VERBOSE
 )
 ;

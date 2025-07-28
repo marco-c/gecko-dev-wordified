@@ -218,9 +218,6 @@ for
 the
 reverb
 .
-rtc
-:
-:
 ArrayView
 <
 const

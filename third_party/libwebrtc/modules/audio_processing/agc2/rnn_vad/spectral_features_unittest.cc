@@ -212,9 +212,6 @@ values
 void
 WriteTestData
 (
-rtc
-:
-:
 ArrayView
 <
 float
@@ -229,9 +226,6 @@ i
 =
 0
 ;
-rtc
-:
-:
 SafeLt
 (
 i
@@ -258,9 +252,6 @@ i
 ;
 }
 }
-rtc
-:
-:
 ArrayView
 <
 float
@@ -298,9 +289,6 @@ kNumLowerBands
 }
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 float
@@ -332,9 +320,6 @@ kNumLowerBands
 }
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 float
@@ -368,9 +353,6 @@ kNumLowerBands
 }
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 float
@@ -406,9 +388,6 @@ kNumLowerBands
 }
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 float
@@ -542,9 +521,6 @@ kFrameSize20ms24kHz
 >
 samples
 ;
-rtc
-:
-:
 ArrayView
 <
 float
@@ -909,9 +885,6 @@ kFrameSize20ms24kHz
 >
 samples
 ;
-rtc
-:
-:
 ArrayView
 <
 float

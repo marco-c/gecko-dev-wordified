@@ -315,9 +315,6 @@ level
 void
 Analyze
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -329,9 +326,6 @@ data
 void
 Analyze
 (
-rtc
-:
-:
 ArrayView
 <
 const

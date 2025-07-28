@@ -628,9 +628,6 @@ R2_unbounded_
 )
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const

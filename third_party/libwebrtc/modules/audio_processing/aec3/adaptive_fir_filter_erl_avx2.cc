@@ -156,9 +156,6 @@ kFftLengthBy2Plus1
 >
 &
 H2
-rtc
-:
-:
 ArrayView
 <
 float

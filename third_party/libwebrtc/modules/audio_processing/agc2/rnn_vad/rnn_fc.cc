@@ -173,9 +173,6 @@ float
 >
 GetScaledParams
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -304,9 +301,6 @@ float
 >
 PreprocessWeights
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -343,9 +337,6 @@ const
 int
 input_size
 =
-rtc
-:
-:
 CheckedDivExact
 (
 dchecked_cast
@@ -509,9 +500,6 @@ const
 int
 output_size
 const
-rtc
-:
-:
 ArrayView
 <
 const
@@ -519,9 +507,6 @@ int8_t
 >
 bias
 const
-rtc
-:
-:
 ArrayView
 <
 const
@@ -687,9 +672,6 @@ FullyConnectedLayer
 :
 ComputeOutput
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -708,9 +690,6 @@ size
 input_size_
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const

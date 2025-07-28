@@ -325,9 +325,6 @@ num_channels
 channel
 )
 {
-rtc
-:
-:
 ArrayView
 <
 float
@@ -416,9 +413,6 @@ gain
 =
 previous_gain_
 ;
-rtc
-:
-:
 ArrayView
 <
 float
@@ -499,9 +493,6 @@ gain
 =
 previous_gain_
 ;
-rtc
-:
-:
 ArrayView
 <
 float
@@ -586,9 +577,6 @@ num_channels
 channel
 )
 {
-rtc
-:
-:
 ArrayView
 <
 float

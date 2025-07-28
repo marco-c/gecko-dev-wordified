@@ -304,9 +304,6 @@ data
 void
 SpectrumAVX2
 (
-rtc
-:
-:
 ArrayView
 <
 float
@@ -330,9 +327,6 @@ Spectrum
 (
 Aec3Optimization
 optimization
-rtc
-:
-:
 ArrayView
 <
 float

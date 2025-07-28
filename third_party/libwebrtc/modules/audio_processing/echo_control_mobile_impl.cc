@@ -492,9 +492,6 @@ EchoControlMobileImpl
 :
 ProcessRenderAudio
 (
-rtc
-:
-:
 ArrayView
 <
 const

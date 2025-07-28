@@ -156,9 +156,6 @@ FindFirstOfTwoLargestPeaks
 (
 float
 bin_size
-rtc
-:
-:
 ArrayView
 <
 const
@@ -418,9 +415,6 @@ secondary_peak_position
 void
 UpdateLrt
 (
-rtc
-:
-:
 ArrayView
 <
 const

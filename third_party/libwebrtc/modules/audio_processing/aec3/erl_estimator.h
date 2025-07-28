@@ -216,9 +216,6 @@ bool
 >
 &
 converged_filters
-rtc
-:
-:
 ArrayView
 <
 const
@@ -232,9 +229,6 @@ kFftLengthBy2Plus1
 >
 >
 render_spectra
-rtc
-:
-:
 ArrayView
 <
 const

@@ -450,9 +450,6 @@ RnnVad
 :
 ComputeVadProbability
 (
-rtc
-:
-:
 ArrayView
 <
 const

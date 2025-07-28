@@ -297,9 +297,6 @@ float
 last_factor
 float
 current_factor
-rtc
-:
-:
 ArrayView
 <
 float
@@ -414,9 +411,6 @@ const
 int
 subframe_size
 =
-rtc
-:
-:
 CheckedDivExact
 (
 SamplesPerChannel

@@ -454,9 +454,6 @@ sample_rate_hz
 :
 vad_reset_period_frames_
 (
-rtc
-:
-:
 CheckedDivExact
 (
 vad_reset_period_ms
@@ -465,9 +462,6 @@ kFrameDurationMs
 )
 frame_size_
 (
-rtc
-:
-:
 CheckedDivExact
 (
 sample_rate_hz
@@ -490,9 +484,6 @@ vad
 )
 resampled_buffer_
 (
-rtc
-:
-:
 CheckedDivExact
 (
 vad_

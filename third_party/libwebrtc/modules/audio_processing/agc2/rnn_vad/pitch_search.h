@@ -242,9 +242,6 @@ kHz
 int
 Estimate
 (
-rtc
-:
-:
 ArrayView
 <
 const

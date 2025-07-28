@@ -274,9 +274,6 @@ probability
 float
 ComputeVadProbability
 (
-rtc
-:
-:
 ArrayView
 <
 const

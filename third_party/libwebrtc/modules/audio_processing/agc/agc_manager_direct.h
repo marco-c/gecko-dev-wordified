@@ -1524,9 +1524,6 @@ it
 void
 Process
 (
-rtc
-:
-:
 ArrayView
 <
 const

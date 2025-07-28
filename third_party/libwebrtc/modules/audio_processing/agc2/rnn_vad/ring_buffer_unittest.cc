@@ -141,9 +141,6 @@ S
 void
 ExpectEq
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -151,9 +148,6 @@ T
 S
 >
 a
-rtc
-:
-:
 ArrayView
 <
 const
@@ -250,9 +244,6 @@ S
 >
 pushed_array
 ;
-rtc
-:
-:
 ArrayView
 <
 const

@@ -683,9 +683,6 @@ default
 void
 AnalyzeRenderAudio
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -710,9 +707,6 @@ true
 void
 AnalyzeCaptureAudio
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -936,9 +930,6 @@ num_channels
 k
 )
 {
-rtc
-:
-:
 ArrayView
 <
 float
@@ -4648,9 +4639,6 @@ analysis
 auto
 test_echo_detector
 =
-rtc
-:
-:
 make_ref_counted
 <
 TestEchoDetector

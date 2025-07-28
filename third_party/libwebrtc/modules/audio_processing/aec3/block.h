@@ -395,9 +395,6 @@ data
 via
 ArrayView
 .
-rtc
-:
-:
 ArrayView
 <
 float
@@ -412,9 +409,6 @@ channel
 )
 {
 return
-rtc
-:
-:
 ArrayView
 <
 float
@@ -434,9 +428,6 @@ kBlockSize
 )
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -453,9 +444,6 @@ channel
 const
 {
 return
-rtc
-:
-:
 ArrayView
 <
 const

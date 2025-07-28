@@ -155,9 +155,6 @@ MultiEndCall
 :
 MultiEndCall
 (
-rtc
-:
-:
 ArrayView
 <
 const

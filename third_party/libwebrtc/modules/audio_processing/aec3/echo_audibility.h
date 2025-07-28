@@ -224,9 +224,6 @@ const
 RenderBuffer
 &
 render_buffer
-rtc
-:
-:
 ArrayView
 <
 const
@@ -252,9 +249,6 @@ GetResidualEchoScaling
 (
 bool
 filter_has_had_time_to_converge
-rtc
-:
-:
 ArrayView
 <
 float
@@ -386,9 +380,6 @@ const
 RenderBuffer
 &
 render_buffer
-rtc
-:
-:
 ArrayView
 <
 const

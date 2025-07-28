@@ -283,9 +283,6 @@ StationarityEstimator
 :
 UpdateNoiseEstimator
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -347,9 +344,6 @@ const
 SpectrumBuffer
 &
 spectrum_buffer
-rtc
-:
-:
 ArrayView
 <
 const
@@ -703,9 +697,6 @@ const
 SpectrumBuffer
 &
 spectrum_buffer
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1146,9 +1137,6 @@ NoiseSpectrum
 :
 Update
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1203,9 +1191,6 @@ kFftLengthBy2Plus1
 >
 avg_spectrum_data
 ;
-rtc
-:
-:
 ArrayView
 <
 const

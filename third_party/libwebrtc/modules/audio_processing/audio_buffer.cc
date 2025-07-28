@@ -288,9 +288,6 @@ buffer_num_frames_
 )
 num_split_frames_
 (
-rtc
-:
-:
 CheckedDivExact
 (
 buffer_num_frames_

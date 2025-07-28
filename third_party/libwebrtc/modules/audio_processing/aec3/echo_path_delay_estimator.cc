@@ -359,9 +359,6 @@ kBlockSize
 >
 downsampled_capture_data
 ;
-rtc
-:
-:
 ArrayView
 <
 float

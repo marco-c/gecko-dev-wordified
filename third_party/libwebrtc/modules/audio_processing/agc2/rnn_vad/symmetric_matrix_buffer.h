@@ -439,9 +439,6 @@ buffer
 void
 Push
 (
-rtc
-:
-:
 ArrayView
 <
 T
@@ -539,9 +536,6 @@ i
 =
 0
 ;
-rtc
-:
-:
 SafeLt
 (
 i

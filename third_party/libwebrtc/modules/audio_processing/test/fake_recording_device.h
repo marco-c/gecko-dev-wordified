@@ -362,9 +362,6 @@ value
 void
 SimulateAnalogGain
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t

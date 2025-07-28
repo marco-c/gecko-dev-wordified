@@ -283,9 +283,6 @@ buffer_data_samples
 int
 samples_per_channel
 =
-rtc
-:
-:
 CheckedDivExact
 (
 sample_rate_hz

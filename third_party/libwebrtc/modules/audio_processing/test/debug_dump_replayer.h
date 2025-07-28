@@ -389,9 +389,6 @@ float
 >
 output_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioProcessing

@@ -249,9 +249,6 @@ const
 int
 samples_per_channel
 =
-rtc
-:
-:
 CheckedDivExact
 (
 sample_rate_hz

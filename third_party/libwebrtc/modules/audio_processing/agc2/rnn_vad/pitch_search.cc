@@ -173,9 +173,6 @@ PitchEstimator
 :
 Estimate
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -185,9 +182,6 @@ kBufSize24kHz
 pitch_buffer
 )
 {
-rtc
-:
-:
 ArrayView
 <
 float
@@ -217,9 +211,6 @@ size
 )
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 float
@@ -376,9 +367,6 @@ at
 24
 kHz
 .
-rtc
-:
-:
 ArrayView
 <
 float

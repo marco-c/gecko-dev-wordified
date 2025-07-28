@@ -461,9 +461,6 @@ headroom_
 )
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -917,9 +914,6 @@ size
 ;
 pre_echo_block_size
 =
-rtc
-:
-:
 SafeClamp
 (
 pre_echo_block_size

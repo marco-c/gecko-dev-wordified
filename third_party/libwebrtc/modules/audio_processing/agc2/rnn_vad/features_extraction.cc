@@ -316,9 +316,6 @@ FeaturesExtractor
 :
 CheckSilenceComputeFeatures
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -326,9 +323,6 @@ float
 kFrameSize10ms24kHz
 >
 samples
-rtc
-:
-:
 ArrayView
 <
 float

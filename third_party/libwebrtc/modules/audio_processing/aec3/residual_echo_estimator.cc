@@ -460,9 +460,6 @@ estimate
 void
 LinearEstimate
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -476,9 +473,6 @@ kFftLengthBy2Plus1
 >
 >
 S2_linear
-rtc
-:
-:
 ArrayView
 <
 const
@@ -492,9 +486,6 @@ kFftLengthBy2Plus1
 >
 >
 erle
-rtc
-:
-:
 ArrayView
 <
 std
@@ -655,9 +646,6 @@ kFftLengthBy2Plus1
 >
 &
 X2
-rtc
-:
-:
 ArrayView
 <
 std
@@ -755,9 +743,6 @@ EchoCanceller3Config
 EchoModel
 &
 config
-rtc
-:
-:
 ArrayView
 <
 float
@@ -868,9 +853,6 @@ EchoModel
 echo_model
 int
 filter_delay_blocks
-rtc
-:
-:
 ArrayView
 <
 float
@@ -1255,9 +1237,6 @@ const
 RenderBuffer
 &
 render_buffer
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1271,9 +1250,6 @@ kFftLengthBy2Plus1
 >
 >
 S2_linear
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1289,9 +1265,6 @@ kFftLengthBy2Plus1
 Y2
 bool
 dominant_nearend
-rtc
-:
-:
 ArrayView
 <
 std
@@ -1304,9 +1277,6 @@ kFftLengthBy2Plus1
 >
 >
 R2
-rtc
-:
-:
 ArrayView
 <
 std
@@ -2037,9 +2007,6 @@ kFftLengthBy2Plus1
 >
 render_power_data
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2061,9 +2028,6 @@ Spectrum
 0
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2385,9 +2349,6 @@ kFftLengthBy2Plus1
 >
 render_power_data
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2409,9 +2370,6 @@ Spectrum
 first_reverb_partition
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2605,9 +2563,6 @@ ResidualEchoEstimator
 :
 AddReverb
 (
-rtc
-:
-:
 ArrayView
 <
 std
@@ -2640,9 +2595,6 @@ the
 reverb
 power
 .
-rtc
-:
-:
 ArrayView
 <
 const

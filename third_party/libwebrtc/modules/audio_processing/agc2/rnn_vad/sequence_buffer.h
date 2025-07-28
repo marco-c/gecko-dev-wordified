@@ -427,9 +427,6 @@ the
 whole
 buffer
 .
-rtc
-:
-:
 ArrayView
 <
 const
@@ -467,9 +464,6 @@ of
 the
 buffer
 .
-rtc
-:
-:
 ArrayView
 <
 const
@@ -544,9 +538,6 @@ end
 void
 Push
 (
-rtc
-:
-:
 ArrayView
 <
 const

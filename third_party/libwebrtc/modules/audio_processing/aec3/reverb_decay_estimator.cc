@@ -222,9 +222,6 @@ kFftLengthBy2
 float
 BlockAverage
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -467,9 +464,6 @@ response
 float
 BlockEnergyPeak
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -575,9 +569,6 @@ block
 float
 BlockEnergyAverage
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -820,9 +811,6 @@ ReverbDecayEstimator
 :
 Update
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1085,9 +1073,6 @@ ReverbDecayEstimator
 :
 EstimateDecay
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1573,9 +1558,6 @@ ReverbDecayEstimator
 :
 AnalyzeFilter
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1587,9 +1569,6 @@ filter
 auto
 h
 =
-rtc
-:
-:
 ArrayView
 <
 const

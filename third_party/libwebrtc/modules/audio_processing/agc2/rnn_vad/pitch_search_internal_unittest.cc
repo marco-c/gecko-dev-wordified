@@ -687,9 +687,6 @@ y_energy
 kRefineNumLags24kHz
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 float
@@ -888,9 +885,6 @@ y_energy
 kRefineNumLags24kHz
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 float
@@ -1154,9 +1148,6 @@ y_energy
 kRefineNumLags24kHz
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 float

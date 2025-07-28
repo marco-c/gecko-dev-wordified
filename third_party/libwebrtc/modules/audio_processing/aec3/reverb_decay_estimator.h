@@ -184,9 +184,6 @@ estimate
 void
 Update
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -288,9 +285,6 @@ private
 void
 EstimateDecay
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -304,9 +298,6 @@ peak_block
 void
 AnalyzeFilter
 (
-rtc
-:
-:
 ArrayView
 <
 const

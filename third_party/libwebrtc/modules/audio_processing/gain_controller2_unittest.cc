@@ -362,9 +362,6 @@ const
 int
 num_samples
 =
-rtc
-:
-:
 CheckedDivExact
 (
 sample_rate_hz

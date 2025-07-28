@@ -212,9 +212,6 @@ FloatBuffer
 (
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -225,9 +222,6 @@ GetConstView
 )
 const
 ;
-rtc
-:
-:
 ArrayView
 <
 float
@@ -484,7 +478,7 @@ webrtc
 :
 Overload
 with
-rtc
+webrtc
 :
 :
 ArrayView
