@@ -372,14 +372,6 @@ SVGDeselectAll
 )
 DEPRECATED_OPERATION
 (
-SVGNearestViewportElement
-)
-DEPRECATED_OPERATION
-(
-SVGFarthestViewportElement
-)
-DEPRECATED_OPERATION
-(
 IDBObjectStoreCreateIndexLocale
 )
 DEPRECATED_OPERATION
