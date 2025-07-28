@@ -552,7 +552,7 @@ full
 ADM
 interface
 .
-rtc
+webrtc
 :
 :
 scoped_refptr

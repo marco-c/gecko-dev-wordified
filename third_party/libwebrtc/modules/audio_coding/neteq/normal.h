@@ -261,9 +261,6 @@ expand
 )
 samples_per_ms_
 (
-rtc
-:
-:
 CheckedDivExact
 (
 fs_hz_

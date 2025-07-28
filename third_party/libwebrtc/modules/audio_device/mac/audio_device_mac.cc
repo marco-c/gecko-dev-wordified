@@ -236,7 +236,7 @@ noErr
 \
 logCAMsg
 (
-rtc
+webrtc
 :
 :
 LS_ERROR
@@ -294,7 +294,7 @@ noErr
 \
 logCAMsg
 (
-rtc
+webrtc
 :
 :
 LS_ERROR
@@ -347,7 +347,7 @@ noErr
 \
 logCAMsg
 (
-rtc
+webrtc
 :
 :
 LS_WARNING
@@ -400,7 +400,7 @@ AudioDeviceMac
 logCAMsg
 (
 const
-rtc
+webrtc
 :
 :
 LoggingSeverity
@@ -440,7 +440,7 @@ sev
 )
 {
 case
-rtc
+webrtc
 :
 :
 LS_ERROR
@@ -485,7 +485,7 @@ err
 break
 ;
 case
-rtc
+webrtc
 :
 :
 LS_WARNING
@@ -530,7 +530,7 @@ err
 break
 ;
 case
-rtc
+webrtc
 :
 :
 LS_VERBOSE
@@ -599,7 +599,7 @@ sev
 )
 {
 case
-rtc
+webrtc
 :
 :
 LS_ERROR
@@ -644,7 +644,7 @@ err
 break
 ;
 case
-rtc
+webrtc
 :
 :
 LS_WARNING
@@ -689,7 +689,7 @@ err
 break
 ;
 case
-rtc
+webrtc
 :
 :
 LS_VERBOSE
@@ -2156,7 +2156,7 @@ noErr
 {
 logCAMsg
 (
-rtc
+webrtc
 :
 :
 LS_ERROR
@@ -4367,7 +4367,7 @@ GetDeviceName
 (
 kAudioDevicePropertyScopeOutput
 index
-rtc
+webrtc
 :
 :
 ArrayView
@@ -4464,7 +4464,7 @@ GetDeviceName
 (
 kAudioDevicePropertyScopeInput
 index
-rtc
+webrtc
 :
 :
 ArrayView
@@ -5313,7 +5313,7 @@ kAudioFormatLinearPCM
 {
 logCAMsg
 (
-rtc
+webrtc
 :
 :
 LS_ERROR
@@ -5538,7 +5538,7 @@ mFormatFlags
 ;
 logCAMsg
 (
-rtc
+webrtc
 :
 :
 LS_VERBOSE
@@ -5944,7 +5944,7 @@ kAudioFormatLinearPCM
 {
 logCAMsg
 (
-rtc
+webrtc
 :
 :
 LS_ERROR
@@ -6191,7 +6191,7 @@ mFormatFlags
 ;
 logCAMsg
 (
-rtc
+webrtc
 :
 :
 LS_VERBOSE
@@ -6975,7 +6975,7 @@ empty
 ;
 capture_worker_thread_
 =
-rtc
+webrtc
 :
 :
 PlatformThread
@@ -6999,7 +6999,7 @@ CaptureWorkerThread
 "
 CaptureWorkerThread
 "
-rtc
+webrtc
 :
 :
 ThreadAttributes
@@ -7008,7 +7008,7 @@ ThreadAttributes
 .
 SetPriority
 (
-rtc
+webrtc
 :
 :
 ThreadPriority
@@ -7796,7 +7796,7 @@ empty
 ;
 render_worker_thread_
 =
-rtc
+webrtc
 :
 :
 PlatformThread
@@ -7820,7 +7820,7 @@ RenderWorkerThread
 "
 RenderWorkerThread
 "
-rtc
+webrtc
 :
 :
 ThreadAttributes
@@ -7829,7 +7829,7 @@ ThreadAttributes
 .
 SetPriority
 (
-rtc
+webrtc
 :
 :
 ThreadPriority
@@ -9124,7 +9124,7 @@ scope
 const
 uint16_t
 index
-rtc
+webrtc
 :
 :
 ArrayView
@@ -9389,7 +9389,7 @@ data
 )
 )
 ;
-rtc
+webrtc
 :
 :
 SimpleStringBuilder
@@ -10823,7 +10823,7 @@ noErr
 {
 logCAMsg
 (
-rtc
+webrtc
 :
 :
 LS_ERROR
@@ -10947,7 +10947,7 @@ noErr
 {
 logCAMsg
 (
-rtc
+webrtc
 :
 :
 LS_ERROR
@@ -11072,7 +11072,7 @@ kAudioFormatLinearPCM
 {
 logCAMsg
 (
-rtc
+webrtc
 :
 :
 LS_ERROR
@@ -11297,7 +11297,7 @@ mFormatFlags
 ;
 logCAMsg
 (
-rtc
+webrtc
 :
 :
 LS_VERBOSE
@@ -12622,7 +12622,7 @@ else
 {
 logCAMsg
 (
-rtc
+webrtc
 :
 :
 LS_ERROR
@@ -13920,7 +13920,7 @@ else
 {
 logCAMsg
 (
-rtc
+webrtc
 :
 :
 LS_ERROR

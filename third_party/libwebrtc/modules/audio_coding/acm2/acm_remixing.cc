@@ -117,9 +117,6 @@ const
 AudioFrame
 &
 input
-rtc
-:
-:
 ArrayView
 <
 int16_t

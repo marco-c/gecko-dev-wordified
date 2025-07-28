@@ -447,9 +447,6 @@ make_unique
 Packet
 >
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 temp_packet

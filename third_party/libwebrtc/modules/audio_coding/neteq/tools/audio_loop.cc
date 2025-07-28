@@ -317,9 +317,6 @@ return
 true
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -349,9 +346,6 @@ block_length_samples_
 0
 )
 return
-rtc
-:
-:
 ArrayView
 <
 const
@@ -382,9 +376,6 @@ block_length_samples_
 loop_length_samples_
 ;
 return
-rtc
-:
-:
 ArrayView
 <
 const

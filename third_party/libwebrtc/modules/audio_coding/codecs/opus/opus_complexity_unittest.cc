@@ -367,9 +367,6 @@ AudioEncoder
 EncodedInfo
 info
 ;
-rtc
-:
-:
 Buffer
 encoded
 (

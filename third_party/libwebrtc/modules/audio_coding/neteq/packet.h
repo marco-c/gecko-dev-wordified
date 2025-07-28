@@ -536,9 +536,6 @@ and
 header
 extension
 .
-rtc
-:
-:
 Buffer
 payload
 ;

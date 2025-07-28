@@ -442,9 +442,6 @@ AudioMixerImpl
 )
 {
 }
-rtc
-:
-:
 scoped_refptr
 <
 AudioMixerImpl
@@ -482,9 +479,6 @@ true
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 AudioMixerImpl
@@ -507,9 +501,6 @@ use_limiter
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 AudioMixerImpl
@@ -636,9 +627,6 @@ output_rate_calculator_
 >
 CalculateOutputRateFromRange
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -815,9 +803,6 @@ iter
 )
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 AudioFrame
@@ -938,9 +923,6 @@ audio_frame
 }
 }
 return
-rtc
-:
-:
 ArrayView
 <
 AudioFrame

@@ -226,9 +226,6 @@ limiter
 void
 Combine
 (
-rtc
-:
-:
 ArrayView
 <
 AudioFrame

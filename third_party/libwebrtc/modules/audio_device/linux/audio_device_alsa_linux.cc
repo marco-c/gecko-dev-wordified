@@ -5450,7 +5450,7 @@ return
 RECORDING
 _ptrThreadRec
 =
-rtc
+webrtc
 :
 :
 PlatformThread
@@ -5474,7 +5474,7 @@ RecThreadProcess
 "
 webrtc_audio_module_capture_thread
 "
-rtc
+webrtc
 :
 :
 ThreadAttributes
@@ -5483,7 +5483,7 @@ ThreadAttributes
 .
 SetPriority
 (
-rtc
+webrtc
 :
 :
 ThreadPriority
@@ -6029,7 +6029,7 @@ return
 PLAYOUT
 _ptrThreadPlay
 =
-rtc
+webrtc
 :
 :
 PlatformThread
@@ -6053,7 +6053,7 @@ PlayThreadProcess
 "
 webrtc_audio_module_play_thread
 "
-rtc
+webrtc
 :
 :
 ThreadAttributes
@@ -6062,7 +6062,7 @@ ThreadAttributes
 .
 SetPriority
 (
-rtc
+webrtc
 :
 :
 ThreadPriority

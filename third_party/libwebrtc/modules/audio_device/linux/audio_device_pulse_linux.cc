@@ -1003,7 +1003,7 @@ const
 auto
 attributes
 =
-rtc
+webrtc
 :
 :
 ThreadAttributes
@@ -1012,7 +1012,7 @@ ThreadAttributes
 .
 SetPriority
 (
-rtc
+webrtc
 :
 :
 ThreadPriority
@@ -1023,7 +1023,7 @@ kRealtime
 ;
 _ptrThreadRec
 =
-rtc
+webrtc
 :
 :
 PlatformThread
@@ -1055,7 +1055,7 @@ attributes
 PLAYOUT
 _ptrThreadPlay
 =
-rtc
+webrtc
 :
 :
 PlatformThread

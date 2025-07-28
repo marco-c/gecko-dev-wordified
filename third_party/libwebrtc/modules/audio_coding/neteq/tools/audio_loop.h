@@ -307,9 +307,6 @@ Init
 )
 argument
 .
-rtc
-:
-:
 ArrayView
 <
 const

@@ -355,9 +355,6 @@ int16_t
 in_data
 size_t
 block_size_samples
-rtc
-:
-:
 Buffer
 *
 payload
@@ -959,9 +956,6 @@ int16_t
 in_data
 size_t
 block_size_samples
-rtc
-:
-:
 Buffer
 *
 payload
@@ -1017,9 +1011,6 @@ max_bytes
 &
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t

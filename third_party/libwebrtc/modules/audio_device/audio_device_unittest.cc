@@ -842,9 +842,6 @@ virtual
 void
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -859,9 +856,6 @@ virtual
 void
 Read
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t
@@ -1142,9 +1136,6 @@ public
 void
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1260,9 +1251,6 @@ size
 void
 Read
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t
@@ -1666,9 +1654,6 @@ write_count_
 using
 Buffer16
 =
-rtc
-:
-:
 BufferT
 <
 int16_t
@@ -1804,9 +1789,6 @@ destination
 void
 Read
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t
@@ -1963,9 +1945,6 @@ latencies
 void
 Write
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2157,7 +2136,7 @@ PRINTD
 d
 ]
 "
-rtc
+webrtc
 :
 :
 checked_cast
@@ -3131,9 +3110,6 @@ audio_stream_
 >
 Write
 (
-rtc
-:
-:
 MakeArrayView
 (
 static_cast
@@ -3403,9 +3379,6 @@ audio_stream_
 >
 Read
 (
-rtc
-:
-:
 MakeArrayView
 (
 static_cast
@@ -3857,17 +3830,11 @@ CreateDefaultTaskQueueFactory
 )
 )
 {
-rtc
-:
-:
 LogMessage
 :
 :
 LogToDebug
 (
-rtc
-:
-:
 LS_INFO
 )
 ;
@@ -3883,9 +3850,6 @@ needed
 for
 debugging
 .
-rtc
-:
-:
 LogMessage
 :
 :
@@ -3893,9 +3857,6 @@ LogTimestamps
 (
 )
 ;
-rtc
-:
-:
 LogMessage
 :
 :
@@ -4361,9 +4322,6 @@ for
 details
 .
 const
-rtc
-:
-:
 scoped_refptr
 <
 AudioDeviceModuleForTest
@@ -4378,9 +4336,6 @@ return
 audio_device_
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 AudioDeviceModuleForTest
@@ -4954,9 +4909,6 @@ true
 Event
 event_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioDeviceModuleForTest
@@ -5009,9 +4961,6 @@ CreateDefaultTaskQueueFactory
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioDeviceModule

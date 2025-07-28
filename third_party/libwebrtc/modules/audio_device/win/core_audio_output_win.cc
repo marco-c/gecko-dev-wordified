@@ -2198,7 +2198,7 @@ fine_audio_buffer_
 >
 GetPlayoutData
 (
-rtc
+webrtc
 :
 :
 MakeArrayView
@@ -2505,7 +2505,7 @@ Micros
 (
 delay_frames
 *
-rtc
+webrtc
 :
 :
 kNumMicrosecsPerSec

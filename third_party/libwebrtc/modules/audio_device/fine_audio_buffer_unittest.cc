@@ -1075,9 +1075,6 @@ fine_buffer
 .
 GetPlayoutData
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t
@@ -1128,9 +1125,6 @@ fine_buffer
 .
 DeliverRecordedData
 (
-rtc
-:
-:
 ArrayView
 <
 const

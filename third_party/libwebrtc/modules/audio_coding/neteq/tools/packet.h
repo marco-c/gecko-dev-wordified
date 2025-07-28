@@ -254,9 +254,6 @@ payload
 .
 Packet
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 packet
 size_t
@@ -273,9 +270,6 @@ nullptr
 ;
 Packet
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 packet
 double
@@ -630,15 +624,9 @@ RTPHeader
 header_
 ;
 const
-rtc
-:
-:
 CopyOnWriteBuffer
 packet_
 ;
-rtc
-:
-:
 ArrayView
 <
 const

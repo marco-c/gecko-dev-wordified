@@ -509,9 +509,6 @@ random_generator_
 void
 GenerateNextFrame
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t
@@ -575,9 +572,6 @@ random_generator_
 bool
 IsZeroedFrame
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -614,9 +608,6 @@ true
 bool
 IsTrivialStereo
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -629,9 +620,6 @@ const
 int
 num_samples
 =
-rtc
-:
-:
 CheckedDivExact
 (
 audio
@@ -850,9 +838,6 @@ Read10MsData
 audio_frame
 )
 ;
-rtc
-:
-:
 Buffer
 payload
 ;
@@ -1085,9 +1070,6 @@ GenerateNextFrame
 input_frame
 )
 ;
-rtc
-:
-:
 Buffer
 payload
 ;
@@ -1467,9 +1449,6 @@ Read10MsData
 audio_frame
 )
 ;
-rtc
-:
-:
 Buffer
 payload
 ;
@@ -1785,9 +1764,6 @@ GenerateNextFrame
 input_frame
 )
 ;
-rtc
-:
-:
 Buffer
 payload
 ;
@@ -2151,9 +2127,6 @@ size
 )
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2394,9 +2367,6 @@ packet
 loss
 concealment
 .
-rtc
-:
-:
 BufferT
 <
 int16_t
@@ -2434,9 +2404,6 @@ size
 0
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2785,9 +2752,6 @@ size
 )
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2978,9 +2942,6 @@ packet
 loss
 concealment
 .
-rtc
-:
-:
 BufferT
 <
 int16_t
@@ -3018,9 +2979,6 @@ size
 0
 )
 ;
-rtc
-:
-:
 ArrayView
 <
 const

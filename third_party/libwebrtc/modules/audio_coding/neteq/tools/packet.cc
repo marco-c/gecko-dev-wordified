@@ -151,9 +151,6 @@ Packet
 :
 Packet
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 packet
 size_t
@@ -933,9 +930,6 @@ payload
 is
 omited
 .
-rtc
-:
-:
 CopyOnWriteBuffer
 packet
 (
@@ -1043,9 +1037,6 @@ false
 }
 rtp_payload_
 =
-rtc
-:
-:
 MakeArrayView
 (
 packet_

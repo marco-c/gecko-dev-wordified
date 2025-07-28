@@ -1153,7 +1153,7 @@ TimeSinceStart
 const
 {
 return
-rtc
+webrtc
 :
 :
 TimeSince
@@ -2748,7 +2748,7 @@ format
 >
 nChannels
 =
-rtc
+webrtc
 :
 :
 dchecked_cast
@@ -2861,7 +2861,7 @@ format
 >
 wBitsPerSample
 =
-rtc
+webrtc
 :
 :
 dchecked_cast
@@ -2944,7 +2944,7 @@ Samples
 .
 wValidBitsPerSample
 =
-rtc
+webrtc
 :
 :
 dchecked_cast
@@ -3981,7 +3981,7 @@ wasapi_render_thread
 ;
 audio_thread_
 =
-rtc
+webrtc
 :
 :
 PlatformThread
@@ -3999,7 +3999,7 @@ ThreadRun
 ;
 }
 name
-rtc
+webrtc
 :
 :
 ThreadAttributes
@@ -4008,7 +4008,7 @@ ThreadAttributes
 .
 SetPriority
 (
-rtc
+webrtc
 :
 :
 ThreadPriority
@@ -4121,7 +4121,7 @@ false
 }
 start_time_
 =
-rtc
+webrtc
 :
 :
 TimeMillis

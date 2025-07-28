@@ -199,9 +199,6 @@ signal
 generator
 .
 virtual
-rtc
-:
-:
 ArrayView
 <
 const

@@ -737,9 +737,6 @@ const
 RTPHeader
 &
 rtp_header
-rtc
-:
-:
 ArrayView
 <
 const
@@ -798,9 +795,6 @@ const
 RTPHeader
 &
 rtp_header
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1250,9 +1244,6 @@ const
 RTPHeader
 &
 rtp_header
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2695,9 +2686,6 @@ used
 for
 test
 .
-rtc
-:
-:
 BufferT
 <
 int16_t

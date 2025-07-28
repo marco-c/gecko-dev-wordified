@@ -497,9 +497,6 @@ NetEq
 Config
 &
 config
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderFactory
@@ -939,9 +936,6 @@ packet_data
 -
 >
 header
-rtc
-:
-:
 ArrayView
 <
 const

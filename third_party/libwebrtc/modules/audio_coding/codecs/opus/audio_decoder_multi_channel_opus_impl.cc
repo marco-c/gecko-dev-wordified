@@ -534,9 +534,6 @@ AudioDecoderMultiChannelOpusImpl
 :
 ParsePayload
 (
-rtc
-:
-:
 Buffer
 &
 &
@@ -595,9 +592,6 @@ duration
 0
 )
 ;
-rtc
-:
-:
 Buffer
 payload_copy
 (

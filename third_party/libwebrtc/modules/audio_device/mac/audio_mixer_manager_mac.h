@@ -399,7 +399,7 @@ static
 void
 logCAMsg
 (
-rtc
+webrtc
 :
 :
 LoggingSeverity

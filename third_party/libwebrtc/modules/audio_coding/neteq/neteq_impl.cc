@@ -1434,9 +1434,6 @@ const
 RTPHeader
 &
 rtp_header
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2225,9 +2222,6 @@ ms
 return
 delay_samples
 /
-rtc
-:
-:
 CheckedDivExact
 (
 fs_hz_
@@ -3050,9 +3044,6 @@ FutureLength
 (
 )
 /
-rtc
-:
-:
 CheckedDivExact
 (
 fs_hz_
@@ -3129,9 +3120,6 @@ const
 RTPHeader
 &
 rtp_header
-rtc
-:
-:
 ArrayView
 <
 const
@@ -10077,9 +10065,6 @@ frame
 >
 Decode
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t

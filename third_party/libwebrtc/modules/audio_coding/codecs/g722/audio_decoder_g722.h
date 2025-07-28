@@ -172,9 +172,6 @@ ParseResult
 >
 ParsePayload
 (
-rtc
-:
-:
 Buffer
 &
 &
@@ -309,9 +306,6 @@ ParseResult
 >
 ParsePayload
 (
-rtc
-:
-:
 Buffer
 &
 &

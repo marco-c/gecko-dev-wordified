@@ -1330,9 +1330,6 @@ number
 of
 channels
 .
-rtc
-:
-:
 BufferT
 <
 int16_t
@@ -1357,9 +1354,6 @@ changed
 /
 dynamically
 .
-rtc
-:
-:
 BufferT
 <
 int16_t

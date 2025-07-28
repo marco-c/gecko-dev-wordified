@@ -434,9 +434,6 @@ speaker
 void
 GetPlayoutData
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t
@@ -583,9 +580,6 @@ above
 void
 DeliverRecordedData
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -610,9 +604,6 @@ nullopt
 void
 DeliverRecordedData
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -812,9 +803,6 @@ GetPlayoutData
 (
 )
 .
-rtc
-:
-:
 BufferT
 <
 int16_t
@@ -852,9 +840,6 @@ a
 audio
 buffer
 .
-rtc
-:
-:
 BufferT
 <
 int16_t

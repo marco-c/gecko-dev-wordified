@@ -915,9 +915,6 @@ int16_t
 input
 size_t
 input_len_samples
-rtc
-:
-:
 Buffer
 *
 output
@@ -1051,9 +1048,6 @@ audio_encoder_
 Encode
 (
 0
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1319,9 +1313,6 @@ processed_samples
 )
 )
 ;
-rtc
-:
-:
 Buffer
 encoded
 ;
@@ -1428,9 +1419,6 @@ frame
 >
 Decode
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t
@@ -1658,9 +1646,6 @@ std
 :
 array
 <
-rtc
-:
-:
 Buffer
 2
 >
@@ -1928,9 +1913,6 @@ get
 )
 )
 ;
-rtc
-:
-:
 Buffer
 encoded
 ;
@@ -2591,9 +2573,6 @@ opus_sample_rate_hz_
 ;
 frame_size_
 =
-rtc
-:
-:
 CheckedDivExact
 (
 opus_sample_rate_hz_

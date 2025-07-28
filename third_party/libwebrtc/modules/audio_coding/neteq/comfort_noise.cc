@@ -517,9 +517,6 @@ cng_decoder
 >
 Generate
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t

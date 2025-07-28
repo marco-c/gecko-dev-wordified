@@ -380,9 +380,6 @@ size_t
 block_size_samples
 *
 /
-rtc
-:
-:
 Buffer
 *
 payload
@@ -434,9 +431,6 @@ encoder_
 Encode
 (
 dummy_timestamp
-rtc
-:
-:
 ArrayView
 <
 const

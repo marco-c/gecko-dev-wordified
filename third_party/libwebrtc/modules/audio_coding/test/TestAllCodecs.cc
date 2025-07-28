@@ -570,9 +570,6 @@ neteq_
 InsertPacket
 (
 rtp_header
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2040,15 +2037,9 @@ absl
 :
 StrCat
 (
-rtc
-:
-:
 CheckedDivExact
 (
 packet_size
-rtc
-:
-:
 CheckedDivExact
 (
 sampling_freq_hz

@@ -270,9 +270,6 @@ OpusFrame
 AudioDecoder
 *
 decoder
-rtc
-:
-:
 Buffer
 &
 &
@@ -403,9 +400,6 @@ DecodeResult
 >
 Decode
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t
@@ -556,9 +550,6 @@ const
 decoder_
 ;
 const
-rtc
-:
-:
 Buffer
 payload_
 ;

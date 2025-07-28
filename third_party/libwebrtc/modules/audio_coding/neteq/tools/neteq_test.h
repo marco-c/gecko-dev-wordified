@@ -516,9 +516,6 @@ NetEq
 Config
 &
 config
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderFactory

@@ -223,7 +223,7 @@ public
 :
 /
 /
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -366,7 +366,7 @@ task_queue_factory_
 ;
 /
 /
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -384,7 +384,7 @@ automatic_restart
 true
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr

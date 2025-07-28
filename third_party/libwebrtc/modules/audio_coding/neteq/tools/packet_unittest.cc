@@ -304,9 +304,6 @@ kPacketLengthBytes
 =
 100
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 packet_memory
 (
@@ -519,9 +516,6 @@ kVirtualPacketLengthBytes
 =
 100
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 packet_memory
 (
@@ -735,9 +729,6 @@ kVirtualPacketLengthBytes
 =
 100
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 packet_memory
 (
@@ -1375,9 +1366,6 @@ kPacketLengthBytes
 =
 100
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 packet_memory
 (

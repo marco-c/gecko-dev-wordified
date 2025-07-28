@@ -1006,9 +1006,6 @@ mutable
 Mutex
 acm_mutex_
 ;
-rtc
-:
-:
 Buffer
 encode_buffer_
 RTC_GUARDED_BY
@@ -1505,9 +1502,6 @@ dchecked_cast
 uint32_t
 >
 (
-rtc
-:
-:
 CheckedDivExact
 (
 int64_t
@@ -1594,9 +1588,6 @@ encoder_stack_
 Encode
 (
 rtp_timestamp
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3266,9 +3257,6 @@ samples_per_channel_
 DownMixFrame
 (
 in_frame
-rtc
-:
-:
 ArrayView
 <
 int16_t

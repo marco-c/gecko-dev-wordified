@@ -953,13 +953,13 @@ _ptrAudioBuffer
 Mutex
 mutex_
 ;
-rtc
+webrtc
 :
 :
 PlatformThread
 _ptrThreadRec
 ;
-rtc
+webrtc
 :
 :
 PlatformThread

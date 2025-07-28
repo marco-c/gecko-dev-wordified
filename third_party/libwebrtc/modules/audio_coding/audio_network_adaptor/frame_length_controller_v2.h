@@ -143,9 +143,6 @@ public
 :
 FrameLengthControllerV2
 (
-rtc
-:
-:
 ArrayView
 <
 const

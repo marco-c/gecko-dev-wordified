@@ -282,9 +282,6 @@ AudioDecoderOpusImpl
 :
 ParsePayload
 (
-rtc
-:
-:
 Buffer
 &
 &
@@ -343,9 +340,6 @@ duration
 0
 )
 ;
-rtc
-:
-:
 Buffer
 payload_copy
 (
@@ -816,9 +810,6 @@ size_t
 requested_samples_per_channel
 *
 /
-rtc
-:
-:
 BufferT
 <
 int16_t
@@ -856,9 +847,6 @@ plc_size
 &
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t

@@ -583,9 +583,6 @@ const
 int
 samples_per_ms
 =
-rtc
-:
-:
 CheckedDivExact
 (
 sample_rate_hz
@@ -751,9 +748,6 @@ EncodeDecode
 WebRtcOpusEncInst
 *
 encoder
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1178,9 +1172,6 @@ const
 int
 sample_rate_khz
 =
-rtc
-:
-:
 CheckedDivExact
 (
 encoder_sample_rate_hz_
@@ -1348,9 +1339,6 @@ EncodeDecode
 WebRtcOpusEncInst
 *
 encoder
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1372,9 +1360,6 @@ const
 int
 input_samples_per_channel
 =
-rtc
-:
-:
 CheckedDivExact
 (
 input_audio
@@ -1578,9 +1563,6 @@ const
 size_t
 input_samples
 =
-rtc
-:
-:
 CheckedDivExact
 (
 encoder_sample_rate_hz_
@@ -1593,9 +1575,6 @@ const
 size_t
 output_samples
 =
-rtc
-:
-:
 CheckedDivExact
 (
 decoder_sample_rate_hz_
@@ -2724,9 +2703,6 @@ const
 size_t
 output_samples
 =
-rtc
-:
-:
 CheckedDivExact
 (
 decoder_sample_rate_hz_
@@ -5168,9 +5144,6 @@ speech_block
 data
 (
 )
-rtc
-:
-:
 CheckedDivExact
 (
 speech_block
@@ -5241,9 +5214,6 @@ speech_block
 data
 (
 )
-rtc
-:
-:
 CheckedDivExact
 (
 speech_block
@@ -5570,9 +5540,6 @@ speech_block
 data
 (
 )
-rtc
-:
-:
 CheckedDivExact
 (
 speech_block

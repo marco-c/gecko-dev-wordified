@@ -774,9 +774,6 @@ packet_
 header
 (
 )
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2280,9 +2277,6 @@ neteq_
 InsertPacket
 (
 rtp_info
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2616,9 +2610,6 @@ neteq_
 InsertPacket
 (
 rtp_info
-rtc
-:
-:
 ArrayView
 <
 const

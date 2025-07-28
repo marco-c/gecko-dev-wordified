@@ -321,9 +321,6 @@ void
 PushBackInterleaved
 (
 const
-rtc
-:
-:
 BufferT
 <
 int16_t

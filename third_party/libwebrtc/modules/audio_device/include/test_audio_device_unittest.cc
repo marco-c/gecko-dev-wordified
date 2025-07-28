@@ -437,9 +437,6 @@ writer
 >
 Render
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1071,9 +1068,6 @@ kInputSamples
 ;
 static
 const
-rtc
-:
-:
 BufferT
 <
 int16_t
@@ -1201,9 +1195,6 @@ writer
 >
 Render
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1257,9 +1248,6 @@ output_filename
 true
 )
 ;
-rtc
-:
-:
 BufferT
 <
 int16_t
@@ -1495,9 +1483,6 @@ writer
 >
 Render
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1571,9 +1556,6 @@ repeat
 false
 )
 ;
-rtc
-:
-:
 BufferT
 <
 int16_t
@@ -1587,9 +1569,6 @@ size
 )
 )
 ;
-rtc
-:
-:
 BufferT
 <
 int16_t
@@ -2189,9 +2168,6 @@ kInputSamples
 ;
 static
 const
-rtc
-:
-:
 BufferT
 <
 int16_t
@@ -2377,9 +2353,6 @@ writer
 >
 Render
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2453,9 +2426,6 @@ repeat
 true
 )
 ;
-rtc
-:
-:
 BufferT
 <
 int16_t
@@ -2555,9 +2525,6 @@ sampling_frequency_in_hz
 8000
 )
 ;
-rtc
-:
-:
 BufferT
 <
 int16_t
@@ -3430,9 +3397,6 @@ num_channels
 2
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioDeviceModule
@@ -3696,9 +3660,6 @@ num_channels
 2
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioDeviceModule

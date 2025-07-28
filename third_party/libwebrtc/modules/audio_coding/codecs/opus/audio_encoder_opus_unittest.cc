@@ -538,9 +538,6 @@ config
 .
 frame_size_ms
 =
-rtc
-:
-:
 CheckedDivExact
 (
 kDefaultOpusPacSize
@@ -886,9 +883,6 @@ AudioLoop
 int
 audio_samples_per_ms
 =
-rtc
-:
-:
 CheckedDivExact
 (
 encoder
@@ -1413,9 +1407,6 @@ kOverheadBps
 *
 kOverheadBytesPerPacket
 *
-rtc
-:
-:
 CheckedDivExact
 (
 48000
@@ -2936,9 +2927,6 @@ const
 size_t
 opus_rate_khz
 =
-rtc
-:
-:
 CheckedDivExact
 (
 sample_rate_hz_
@@ -3113,9 +3101,6 @@ silence
 data
 (
 )
-rtc
-:
-:
 CheckedDivExact
 (
 silence
@@ -3282,9 +3267,6 @@ silence
 data
 (
 )
-rtc
-:
-:
 CheckedDivExact
 (
 silence
@@ -3588,9 +3570,6 @@ const
 size_t
 opus_rate_khz
 =
-rtc
-:
-:
 CheckedDivExact
 (
 sample_rate_hz_
@@ -3615,9 +3594,6 @@ opus_rate_khz
 0
 )
 ;
-rtc
-:
-:
 Buffer
 encoded
 ;
@@ -3663,9 +3639,6 @@ encoder
 Encode
 (
 0
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3758,9 +3731,6 @@ encoder
 Encode
 (
 0
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3851,9 +3821,6 @@ encoder
 Encode
 (
 0
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3923,9 +3890,6 @@ Create10msAudioBlocks
 failed
 "
 ;
-rtc
-:
-:
 Buffer
 encoded
 ;
@@ -5937,9 +5901,6 @@ AudioEncoder
 EncodedInfo
 info
 ;
-rtc
-:
-:
 Buffer
 encoded
 (

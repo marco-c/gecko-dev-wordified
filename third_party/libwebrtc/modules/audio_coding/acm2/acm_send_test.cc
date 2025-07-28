@@ -520,15 +520,9 @@ absl
 :
 StrCat
 (
-rtc
-:
-:
 CheckedDivExact
 (
 frame_size_samples
-rtc
-:
-:
 CheckedDivExact
 (
 clockrate_hz
@@ -954,9 +948,6 @@ kRtpHeaderSize
 =
 12
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 packet_buffer
 (

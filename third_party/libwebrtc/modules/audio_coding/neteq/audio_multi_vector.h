@@ -396,9 +396,6 @@ channels
 void
 PushBackInterleaved
 (
-rtc
-:
-:
 ArrayView
 <
 const

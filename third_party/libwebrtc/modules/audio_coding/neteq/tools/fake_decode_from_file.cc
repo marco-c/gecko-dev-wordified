@@ -203,9 +203,6 @@ DecodeResult
 >
 Decode
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t
@@ -491,9 +488,6 @@ const
 int
 samples_to_decode
 =
-rtc
-:
-:
 CheckedDivExact
 (
 SampleRateHz
@@ -553,9 +547,6 @@ size_t
 samples
 size_t
 original_payload_size_bytes
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -649,9 +640,6 @@ FakeDecodeFromFile
 :
 ParsePayload
 (
-rtc
-:
-:
 Buffer
 &
 &

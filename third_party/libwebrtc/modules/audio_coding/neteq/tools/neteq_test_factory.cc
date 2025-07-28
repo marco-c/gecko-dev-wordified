@@ -2350,9 +2350,6 @@ StandardDecoderMap
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderFactory
@@ -2630,9 +2627,6 @@ side
 .
 decoder_factory
 =
-rtc
-:
-:
 make_ref_counted
 <
 FunctionAudioDecoderFactory

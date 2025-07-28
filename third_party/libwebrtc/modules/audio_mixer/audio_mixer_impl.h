@@ -230,9 +230,6 @@ kFrameDurationInMs
 10
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 AudioMixerImpl
@@ -242,9 +239,6 @@ Create
 )
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 AudioMixerImpl
@@ -367,9 +361,6 @@ mix
 from
 sources
 .
-rtc
-:
-:
 ArrayView
 <
 AudioFrame

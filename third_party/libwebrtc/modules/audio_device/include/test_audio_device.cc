@@ -541,9 +541,6 @@ num_channels_
 bool
 Capture
 (
-rtc
-:
-:
 BufferT
 <
 int16_t
@@ -592,9 +589,6 @@ num_channels_
 &
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t
@@ -794,9 +788,6 @@ num_channels_
 bool
 Capture
 (
-rtc
-:
-:
 BufferT
 <
 int16_t
@@ -824,9 +815,6 @@ num_channels_
 &
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t
@@ -1113,9 +1101,6 @@ num_channels_
 bool
 Render
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1288,9 +1273,6 @@ num_channels_
 bool
 Render
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1623,9 +1605,6 @@ num_channels_
 bool
 Render
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1785,9 +1764,6 @@ num_channels_
 bool
 Capture
 (
-rtc
-:
-:
 BufferT
 <
 int16_t
@@ -1819,9 +1795,6 @@ NumChannels
 &
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t
@@ -1829,9 +1802,6 @@ int16_t
 data
 )
 {
-rtc
-:
-:
 ArrayView
 <
 int8_t
@@ -1974,9 +1944,6 @@ size
 ;
 }
 private
-:
-rtc
-:
 :
 ArrayView
 <
@@ -2168,9 +2135,6 @@ num_channels_
 bool
 Render
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -2528,9 +2492,6 @@ sampling_frequency_in_hz
 )
 {
 return
-rtc
-:
-:
 CheckedDivExact
 (
 sampling_frequency_in_hz
@@ -2538,9 +2499,6 @@ kFramesPerSecond
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 AudioDeviceModule
@@ -2582,9 +2540,6 @@ speed
 auto
 audio_device
 =
-rtc
-:
-:
 make_ref_counted
 <
 TestAudioDeviceModuleImpl

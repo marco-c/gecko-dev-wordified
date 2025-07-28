@@ -475,9 +475,6 @@ const
 size_t
 num_samples
 =
-rtc
-:
-:
 CheckedDivExact
 (
 static_cast

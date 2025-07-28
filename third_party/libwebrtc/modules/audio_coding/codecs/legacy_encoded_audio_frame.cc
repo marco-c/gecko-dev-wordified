@@ -133,9 +133,6 @@ LegacyEncodedAudioFrame
 AudioDecoder
 *
 decoder
-rtc
-:
-:
 Buffer
 &
 &
@@ -234,9 +231,6 @@ LegacyEncodedAudioFrame
 :
 Decode
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t
@@ -344,9 +338,6 @@ SplitBySamples
 AudioDecoder
 *
 decoder
-rtc
-:
-:
 Buffer
 &
 &
@@ -591,9 +582,6 @@ size
 byte_offset
 )
 ;
-rtc
-:
-:
 Buffer
 new_payload
 (

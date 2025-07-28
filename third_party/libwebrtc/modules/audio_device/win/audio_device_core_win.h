@@ -1412,7 +1412,7 @@ built
 in
 AEC
 .
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1421,7 +1421,7 @@ IMediaObject
 >
 _dmo
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr

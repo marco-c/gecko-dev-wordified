@@ -1051,7 +1051,7 @@ static
 void
 logCAMsg
 (
-rtc
+webrtc
 :
 :
 LoggingSeverity
@@ -1086,7 +1086,7 @@ AudioObjectPropertyScope
 scope
 uint16_t
 index
-rtc
+webrtc
 :
 :
 ArrayView
@@ -1404,13 +1404,13 @@ _ptrAudioBuffer
 Mutex
 mutex_
 ;
-rtc
+webrtc
 :
 :
 Event
 _stopEventRec
 ;
-rtc
+webrtc
 :
 :
 Event
@@ -1429,7 +1429,7 @@ StartRecording
 and
 StopRecording
 .
-rtc
+webrtc
 :
 :
 PlatformThread
@@ -1448,7 +1448,7 @@ StartPlayout
 and
 StopPlayout
 .
-rtc
+webrtc
 :
 :
 PlatformThread

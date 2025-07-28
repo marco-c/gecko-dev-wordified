@@ -413,7 +413,7 @@ Succeeded
 Configure
 logging
 .
-rtc
+webrtc
 :
 :
 LogMessage
@@ -421,13 +421,13 @@ LogMessage
 :
 LogToDebug
 (
-rtc
+webrtc
 :
 :
 LS_INFO
 )
 ;
-rtc
+webrtc
 :
 :
 LogMessage
@@ -437,7 +437,7 @@ LogTimestamps
 (
 )
 ;
-rtc
+webrtc
 :
 :
 LogMessage

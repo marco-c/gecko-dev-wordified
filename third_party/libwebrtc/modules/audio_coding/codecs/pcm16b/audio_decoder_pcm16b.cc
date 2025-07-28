@@ -358,9 +358,6 @@ AudioDecoderPcm16B
 :
 ParsePayload
 (
-rtc
-:
-:
 Buffer
 &
 &
@@ -373,9 +370,6 @@ const
 int
 samples_per_ms
 =
-rtc
-:
-:
 CheckedDivExact
 (
 sample_rate_hz_

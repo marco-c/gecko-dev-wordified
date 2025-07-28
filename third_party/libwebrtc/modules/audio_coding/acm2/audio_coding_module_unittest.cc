@@ -1463,9 +1463,6 @@ neteq_
 InsertPacket
 (
 rtp_header_
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3350,9 +3347,6 @@ SetUp
 (
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 AudioEncoderFactory
@@ -4379,9 +4373,6 @@ AcmReceiveTestOldApi
 :
 NumOutputChannels
 expected_channels
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderFactory
@@ -4621,9 +4612,6 @@ the
 payload
 checksum
 .
-rtc
-:
-:
 Buffer
 checksum_result
 (
@@ -6565,18 +6553,12 @@ MakeAudioDecoder
 decoder_config
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderFactory
 >
 decoder_factory
 =
-rtc
-:
-:
 make_ref_counted
 <
 test
@@ -8368,7 +8350,7 @@ AudioEncoder
 )
 (
 uint32_t
-rtc
+webrtc
 :
 :
 ArrayView
@@ -8376,7 +8358,7 @@ ArrayView
 const
 int16_t
 >
-rtc
+webrtc
 :
 :
 Buffer

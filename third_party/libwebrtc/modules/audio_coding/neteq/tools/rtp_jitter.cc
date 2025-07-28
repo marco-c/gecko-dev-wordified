@@ -174,9 +174,6 @@ file
 was
 encountered
 .
-rtc
-:
-:
 Buffer
 ReadNextPacket
 (
@@ -196,9 +193,6 @@ the
 next
 packet
 .
-rtc
-:
-:
 Buffer
 buffer
 ;
@@ -211,9 +205,6 @@ kRtpDumpHeaderLength
 &
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -254,9 +245,6 @@ kRtpDumpHeaderLength
 )
 {
 return
-rtc
-:
-:
 Buffer
 (
 )
@@ -335,9 +323,6 @@ kRtpDumpHeaderLength
 &
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 uint8_t
@@ -391,9 +376,6 @@ buffer
 struct
 PacketAndTime
 {
-rtc
-:
-:
 Buffer
 packet
 ;

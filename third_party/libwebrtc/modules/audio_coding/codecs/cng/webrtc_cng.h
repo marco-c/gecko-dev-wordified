@@ -200,9 +200,6 @@ headers
 void
 UpdateSid
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -310,9 +307,6 @@ rate
 bool
 Generate
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t
@@ -586,9 +580,6 @@ Generate
 size_t
 Encode
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -597,9 +588,6 @@ int16_t
 speech
 bool
 force_sid
-rtc
-:
-:
 Buffer
 *
 output

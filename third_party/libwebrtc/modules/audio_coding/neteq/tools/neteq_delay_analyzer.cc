@@ -1130,9 +1130,6 @@ first
 )
 )
 /
-rtc
-:
-:
 CheckedDivExact
 (
 last_sample_rate_hz_

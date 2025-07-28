@@ -160,9 +160,6 @@ AudioDecoderPcmU
 :
 ParsePayload
 (
-rtc
-:
-:
 Buffer
 &
 &
@@ -422,9 +419,6 @@ AudioDecoderPcmA
 :
 ParsePayload
 (
-rtc
-:
-:
 Buffer
 &
 &

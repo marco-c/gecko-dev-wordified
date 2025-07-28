@@ -1543,9 +1543,6 @@ timestamp
 size_t
 waiting_time_samples
 =
-rtc
-:
-:
 dchecked_cast
 <
 size_t

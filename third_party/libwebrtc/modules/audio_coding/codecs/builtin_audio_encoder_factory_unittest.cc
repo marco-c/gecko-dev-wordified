@@ -176,9 +176,6 @@ testing
 :
 TestWithParam
 <
-rtc
-:
-:
 scoped_refptr
 <
 AudioEncoderFactory
@@ -567,15 +564,9 @@ NumChannels
 100
 )
 ;
-rtc
-:
-:
 Buffer
 out
 ;
-rtc
-:
-:
 BufferT
 <
 int16_t
@@ -590,9 +581,6 @@ num_samples
 [
 ]
 (
-rtc
-:
-:
 ArrayView
 <
 int16_t
@@ -1164,9 +1152,6 @@ CreateEnvironment
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioEncoderFactory

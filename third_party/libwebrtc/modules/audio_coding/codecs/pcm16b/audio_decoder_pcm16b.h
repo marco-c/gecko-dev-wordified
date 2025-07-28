@@ -186,9 +186,6 @@ ParseResult
 >
 ParsePayload
 (
-rtc
-:
-:
 Buffer
 &
 &
