@@ -431,7 +431,7 @@ get
 (
 toolInput
 .
-id
+name
 )
 ;
 return
@@ -560,7 +560,7 @@ get
 (
 toolInput
 .
-id
+name
 )
 ;
 return
@@ -694,7 +694,7 @@ view
 )
 toolInput
 .
-id
+name
 The
 button
 for
@@ -702,7 +702,7 @@ the
 {
 toolInput
 .
-id
+name
 }
 entrypoint
 has
