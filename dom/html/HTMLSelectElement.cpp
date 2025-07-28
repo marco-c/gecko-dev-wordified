@@ -1813,9 +1813,6 @@ aNotify
 ErrorResult
 &
 aRv
-nsINode
-*
-aOldParent
 )
 {
 const
@@ -1853,7 +1850,6 @@ aKid
 aBeforeThis
 aNotify
 aRv
-aOldParent
 )
 ;
 if
@@ -1888,9 +1884,6 @@ const
 BatchRemovalState
 *
 aState
-nsINode
-*
-aNewParent
 )
 {
 SafeOptionListMutation
@@ -1915,7 +1908,6 @@ RemoveChildNode
 aKid
 aNotify
 aState
-aNewParent
 )
 ;
 }

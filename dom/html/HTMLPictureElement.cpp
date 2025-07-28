@@ -311,9 +311,6 @@ const
 BatchRemovalState
 *
 aState
-nsINode
-*
-aNewParent
 )
 {
 MOZ_ASSERT
@@ -459,7 +456,6 @@ RemoveChildNode
 aKid
 aNotify
 aState
-aNewParent
 )
 ;
 }
@@ -480,9 +476,6 @@ aNotify
 ErrorResult
 &
 aRv
-nsINode
-*
-aOldParent
 )
 {
 nsGenericHTMLElement
@@ -494,7 +487,6 @@ aKid
 aBeforeThis
 aNotify
 aRv
-aOldParent
 )
 ;
 if
