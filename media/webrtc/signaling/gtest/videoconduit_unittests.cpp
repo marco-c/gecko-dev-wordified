@@ -184,7 +184,7 @@ class
 MockVideoSink
 :
 public
-rtc
+webrtc
 :
 :
 VideoSinkInterface
@@ -667,7 +667,7 @@ int64_t
 capture_time_ms
 )
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -6870,7 +6870,7 @@ Call
 mVideoSendEncoderConfig
 )
 ;
-rtc
+webrtc
 :
 :
 VideoSinkWants
@@ -7600,7 +7600,7 @@ Call
 mVideoSendEncoderConfig
 )
 ;
-rtc
+webrtc
 :
 :
 VideoSinkWants
@@ -14161,7 +14161,7 @@ request
 3500
 here
 .
-rtc
+webrtc
 :
 :
 VideoSinkWants
@@ -14671,7 +14671,7 @@ frame
 )
 ;
 }
-rtc
+webrtc
 :
 :
 VideoSinkWants
@@ -15264,7 +15264,7 @@ Call
 mVideoSendEncoderConfig
 )
 ;
-rtc
+webrtc
 :
 :
 VideoSinkWants
@@ -20810,7 +20810,7 @@ EXPECT_EQ
 (
 params
 [
-cricket
+webrtc
 :
 :
 kH264FmtpPacketizationMode
@@ -20824,7 +20824,7 @@ EXPECT_EQ
 (
 params
 [
-cricket
+webrtc
 :
 :
 kH264FmtpProfileLevelId
@@ -20838,7 +20838,7 @@ EXPECT_EQ
 (
 params
 [
-cricket
+webrtc
 :
 :
 kH264FmtpSpropParameterSets
@@ -20959,7 +20959,7 @@ EXPECT_EQ
 (
 params
 [
-cricket
+webrtc
 :
 :
 kH264FmtpPacketizationMode
@@ -20973,7 +20973,7 @@ EXPECT_EQ
 (
 params
 [
-cricket
+webrtc
 :
 :
 kH264FmtpProfileLevelId
@@ -20987,7 +20987,7 @@ EXPECT_EQ
 (
 params
 [
-cricket
+webrtc
 :
 :
 kH264FmtpSpropParameterSets
@@ -21155,7 +21155,7 @@ EXPECT_EQ
 (
 params
 [
-cricket
+webrtc
 :
 :
 kAv1FmtpProfile
@@ -21169,7 +21169,7 @@ EXPECT_EQ
 (
 params
 [
-cricket
+webrtc
 :
 :
 kAv1FmtpLevelIdx
@@ -21183,7 +21183,7 @@ EXPECT_EQ
 (
 params
 [
-cricket
+webrtc
 :
 :
 kAv1FmtpTier

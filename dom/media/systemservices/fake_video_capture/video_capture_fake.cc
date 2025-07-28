@@ -156,7 +156,7 @@ webrtc
 :
 videocapturemodule
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -177,7 +177,7 @@ aTarget
 )
 {
 return
-rtc
+webrtc
 :
 :
 make_ref_counted

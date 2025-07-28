@@ -141,7 +141,7 @@ ThreadSafety
 h
 "
 namespace
-rtc
+webrtc
 {
 /
 *
@@ -640,7 +640,7 @@ UNSTARTED
 /
 /
 namespace
-rtc
+webrtc
 #
 endif
 #

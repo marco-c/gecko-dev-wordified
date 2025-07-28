@@ -339,7 +339,7 @@ callback
 SendPacketStatus
 SendPacketWithStatus
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -1004,7 +1004,7 @@ callback
 void
 OnStreamsResetFailed
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -1053,7 +1053,7 @@ callback
 void
 OnStreamsResetPerformed
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -1115,7 +1115,7 @@ callback
 void
 OnIncomingStreamsReset
 (
-rtc
+webrtc
 :
 :
 ArrayView

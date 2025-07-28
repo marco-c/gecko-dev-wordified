@@ -248,7 +248,7 @@ class
 CallbackHelper
 :
 public
-rtc
+webrtc
 :
 :
 VideoSinkInterface

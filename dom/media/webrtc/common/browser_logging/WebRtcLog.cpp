@@ -182,7 +182,7 @@ WEBRTC_LOG_MODULE_NAME
 )
 ;
 static
-rtc
+webrtc
 :
 :
 LoggingSeverity
@@ -210,7 +210,7 @@ LogLevel
 Verbose
 :
 return
-rtc
+webrtc
 :
 :
 LoggingSeverity
@@ -237,7 +237,7 @@ LogLevel
 Info
 :
 return
-rtc
+webrtc
 :
 :
 LoggingSeverity
@@ -255,7 +255,7 @@ LogLevel
 Warning
 :
 return
-rtc
+webrtc
 :
 :
 LoggingSeverity
@@ -273,7 +273,7 @@ LogLevel
 Error
 :
 return
-rtc
+webrtc
 :
 :
 LoggingSeverity
@@ -291,7 +291,7 @@ LogLevel
 Disabled
 :
 return
-rtc
+webrtc
 :
 :
 LoggingSeverity
@@ -310,7 +310,7 @@ level
 )
 ;
 return
-rtc
+webrtc
 :
 :
 LoggingSeverity
@@ -323,7 +323,7 @@ static
 LogLevel
 SeverityToLevel
 (
-rtc
+webrtc
 :
 :
 LoggingSeverity
@@ -336,7 +336,7 @@ aSeverity
 )
 {
 case
-rtc
+webrtc
 :
 :
 LoggingSeverity
@@ -354,7 +354,7 @@ LogLevel
 Verbose
 ;
 case
-rtc
+webrtc
 :
 :
 LoggingSeverity
@@ -372,7 +372,7 @@ LogLevel
 Debug
 ;
 case
-rtc
+webrtc
 :
 :
 LoggingSeverity
@@ -390,7 +390,7 @@ LogLevel
 Warning
 ;
 case
-rtc
+webrtc
 :
 :
 LoggingSeverity
@@ -408,7 +408,7 @@ LogLevel
 Error
 ;
 case
-rtc
+webrtc
 :
 :
 LoggingSeverity
@@ -447,7 +447,7 @@ Disabled
 *
 Implementation
 of
-rtc
+webrtc
 :
 :
 LogSink
@@ -469,7 +469,7 @@ LogSinkImpl
 public
 WebrtcLogSinkHandle
 public
-rtc
+webrtc
 :
 :
 LogSink
@@ -619,7 +619,7 @@ MOZ_RELEASE_ASSERT
 sSingleton
 )
 ;
-rtc
+webrtc
 :
 :
 LogMessage
@@ -695,7 +695,7 @@ WEBRTC_LOG_PREF
 this
 )
 ;
-rtc
+webrtc
 :
 :
 LogMessage
@@ -760,7 +760,7 @@ mLevel
 =
 webrtcLevel
 ;
-rtc
+webrtc
 :
 :
 LogMessage
@@ -771,7 +771,7 @@ RemoveLogToStream
 this
 )
 ;
-rtc
+webrtc
 :
 :
 LogMessage
@@ -791,7 +791,7 @@ void
 OnLogMessage
 (
 const
-rtc
+webrtc
 :
 :
 LogLineRef
@@ -928,7 +928,7 @@ aecLogDir
 ;
 if
 (
-rtc
+webrtc
 :
 :
 LogMessage
@@ -1049,7 +1049,7 @@ endif
 }
 #
 endif
-rtc
+webrtc
 :
 :
 LogMessage
@@ -1078,7 +1078,7 @@ aecLogDir
 ;
 if
 (
-rtc
+webrtc
 :
 :
 LogMessage
@@ -1101,7 +1101,7 @@ ConfigAecLog
 (
 )
 ;
-rtc
+webrtc
 :
 :
 LogMessage
@@ -1121,7 +1121,7 @@ StopAecLog
 (
 )
 {
-rtc
+webrtc
 :
 :
 LogMessage

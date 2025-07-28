@@ -563,7 +563,7 @@ LOGTAG
 acLogTag
 using
 namespace
-cricket
+webrtc
 ;
 using
 LocalDirection
@@ -2563,7 +2563,7 @@ mSendStreamConfig
 frame_transformer
 =
 new
-rtc
+webrtc
 :
 :
 RefCountedObject
@@ -2652,7 +2652,7 @@ mRecvStreamConfig
 frame_transformer
 =
 new
-rtc
+webrtc
 :
 :
 RefCountedObject
@@ -4445,7 +4445,7 @@ WebrtcAudioConduit
 :
 OnRtcpReceived
 (
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -4494,7 +4494,7 @@ std
 :
 forward
 <
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -6669,7 +6669,7 @@ WebrtcAudioConduit
 :
 DeliverPacket
 (
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer

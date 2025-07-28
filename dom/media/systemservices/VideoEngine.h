@@ -529,7 +529,7 @@ CaptureEntry
 (
 int32_t
 aCapnum
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -554,7 +554,7 @@ Capnum
 )
 const
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -585,7 +585,7 @@ private
 int32_t
 mCapnum
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr

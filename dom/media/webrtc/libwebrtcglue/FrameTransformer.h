@@ -390,7 +390,7 @@ class
 void
 RegisterTransformedFrameCallback
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -443,7 +443,7 @@ class
 void
 RegisterTransformedFrameSinkCallback
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -499,7 +499,7 @@ the
 worker
 thread
 .
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -521,7 +521,7 @@ std
 map
 <
 uint32_t
-rtc
+webrtc
 :
 :
 scoped_refptr

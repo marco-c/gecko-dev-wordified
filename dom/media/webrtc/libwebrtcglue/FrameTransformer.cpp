@@ -309,7 +309,7 @@ FrameTransformer
 :
 RegisterTransformedFrameCallback
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -358,7 +358,7 @@ FrameTransformer
 :
 RegisterTransformedFrameSinkCallback
 (
-rtc
+webrtc
 :
 :
 scoped_refptr

@@ -139,7 +139,7 @@ VideoCaptureIos
 )
 ;
 static
-rtc
+webrtc
 :
 :
 scoped_refptr

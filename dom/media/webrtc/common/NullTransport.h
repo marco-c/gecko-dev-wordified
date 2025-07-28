@@ -106,7 +106,7 @@ virtual
 bool
 SendRtp
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -142,7 +142,7 @@ virtual
 bool
 SendRtcp
 (
-rtc
+webrtc
 :
 :
 ArrayView

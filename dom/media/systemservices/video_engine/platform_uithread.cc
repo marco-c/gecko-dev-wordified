@@ -99,7 +99,7 @@ platform_uithread
 h
 "
 namespace
-rtc
+webrtc
 {
 /
 /
@@ -1217,6 +1217,6 @@ lParam
 /
 /
 namespace
-rtc
+webrtc
 #
 endif

@@ -423,7 +423,7 @@ javaDataV
 )
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -864,7 +864,7 @@ return
 namespace
 videocapturemodule
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -882,7 +882,7 @@ char
 deviceUniqueIdUTF8
 )
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -892,7 +892,7 @@ VideoCaptureAndroid
 implementation
 (
 new
-rtc
+webrtc
 :
 :
 RefCountedObject
@@ -932,7 +932,7 @@ VideoCaptureAndroid
 :
 OnIncomingFrame
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1041,7 +1041,7 @@ buffer
 rotation
 )
 0
-rtc
+webrtc
 :
 :
 TimeMillis

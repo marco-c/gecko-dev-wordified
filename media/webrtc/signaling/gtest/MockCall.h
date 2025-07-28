@@ -467,7 +467,7 @@ virtual
 void
 SetDepacketizerToDecoderFrameTransformer
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -562,7 +562,7 @@ override
 void
 SetFrameDecryptor
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -708,7 +708,7 @@ false
 void
 SetSource
 (
-rtc
+webrtc
 :
 :
 VideoSourceInterface
@@ -770,7 +770,7 @@ mStats
 void
 AddAdaptationResource
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -790,7 +790,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -812,7 +812,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -987,7 +987,7 @@ return
 void
 SetFrameDecryptor
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1005,7 +1005,7 @@ override
 void
 SetDepacketizerToDecoderFrameTransformer
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1587,7 +1587,7 @@ override
 void
 AddAdaptationResource
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1734,10 +1734,10 @@ void
 OnSentPacket
 (
 const
-rtc
+webrtc
 :
 :
-SentPacket
+SentPacketInfo
 &
 sent_packet
 )

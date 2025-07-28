@@ -258,7 +258,7 @@ aType
 struct
 CreateVideoCaptureResult
 {
-rtc
+webrtc
 :
 :
 scoped_refptr

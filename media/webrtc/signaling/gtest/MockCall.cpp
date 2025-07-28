@@ -263,7 +263,7 @@ MockVideoSendStream
 :
 SetSource
 (
-rtc
+webrtc
 :
 :
 VideoSourceInterface

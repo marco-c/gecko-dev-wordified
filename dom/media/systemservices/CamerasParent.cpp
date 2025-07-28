@@ -6654,7 +6654,7 @@ RegisterCaptureDataCallback
 (
 static_cast
 <
-rtc
+webrtc
 :
 :
 VideoSinkInterface
@@ -7261,7 +7261,7 @@ DeRegisterCaptureDataCallback
 (
 static_cast
 <
-rtc
+webrtc
 :
 :
 VideoSinkInterface

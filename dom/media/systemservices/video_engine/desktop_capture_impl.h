@@ -355,7 +355,7 @@ only
 void
 RegisterCaptureDataCallback
 (
-rtc
+webrtc
 :
 :
 VideoSinkInterface
@@ -380,7 +380,7 @@ override
 void
 DeRegisterCaptureDataCallback
 (
-rtc
+webrtc
 :
 :
 VideoSinkInterface
@@ -881,7 +881,7 @@ std
 :
 set
 <
-rtc
+webrtc
 :
 :
 VideoSinkInterface

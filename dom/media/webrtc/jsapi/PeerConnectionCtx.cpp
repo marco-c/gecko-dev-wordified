@@ -787,7 +787,7 @@ kNoError
 bool
 GetLinearAecOutput
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -3207,7 +3207,7 @@ audioStateConfig
 audio_mixer
 =
 new
-rtc
+webrtc
 :
 :
 RefCountedObject
@@ -3222,7 +3222,7 @@ audioStateConfig
 audio_processing
 =
 new
-rtc
+webrtc
 :
 :
 RefCountedObject
@@ -3237,7 +3237,7 @@ audioStateConfig
 audio_device_module
 =
 new
-rtc
+webrtc
 :
 :
 RefCountedObject

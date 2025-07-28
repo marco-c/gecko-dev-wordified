@@ -365,7 +365,7 @@ Output
 is
 exposed
 through
-rtc
+webrtc
 :
 :
 AdaptedVideoTrackSource
@@ -373,7 +373,7 @@ which
 implements
 /
 /
-rtc
+webrtc
 :
 :
 VideoSourceInterface
@@ -398,7 +398,7 @@ class
 VideoFrameConverterImpl
 :
 public
-rtc
+webrtc
 :
 :
 AdaptedVideoTrackSource
@@ -687,7 +687,7 @@ mForceBlack
 public
 :
 using
-rtc
+webrtc
 :
 :
 VideoSourceInterface
@@ -702,7 +702,7 @@ VideoFrame
 AddOrUpdateSink
 ;
 using
-rtc
+webrtc
 :
 :
 VideoSourceInterface
@@ -2303,7 +2303,7 @@ aFrame
 )
 -
 >
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -2314,7 +2314,7 @@ webrtc
 I420Buffer
 >
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -2534,7 +2534,7 @@ aFrame
 ]
 (
 const
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -2561,7 +2561,7 @@ aOut_height
 )
 -
 >
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -2572,7 +2572,7 @@ webrtc
 I420BufferInterface
 >
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -3201,7 +3201,7 @@ a
 black
 image
 .
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -3423,7 +3423,7 @@ aFrame
 mSize
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -3752,7 +3752,7 @@ return
 }
 if
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -3766,7 +3766,7 @@ buffer
 =
 cropAndScale
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -3949,7 +3949,7 @@ class
 VideoFrameConverter
 :
 public
-rtc
+webrtc
 :
 :
 RefCountedObject
@@ -3983,7 +3983,7 @@ bool
 aLockScaling
 )
 :
-rtc
+webrtc
 :
 :
 RefCountedObject

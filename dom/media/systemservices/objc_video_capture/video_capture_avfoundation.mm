@@ -762,7 +762,7 @@ StopCapture
 static
 *
 /
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -822,7 +822,7 @@ uniqueID
 uniqueId
 )
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -832,7 +832,7 @@ VideoCaptureModule
 module
 (
 new
-rtc
+webrtc
 :
 :
 RefCountedObject
@@ -1693,7 +1693,7 @@ aFrame
 .
 timeStampNs
 /
-rtc
+webrtc
 :
 :
 kNumNanosecsPerMicrosec
@@ -1742,7 +1742,7 @@ us
 skip
 two
 copies
-rtc
+webrtc
 :
 :
 scoped_refptr

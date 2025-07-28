@@ -1223,7 +1223,7 @@ CaptureEntry
 (
 int32_t
 aCapnum
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1262,7 +1262,7 @@ aDesktopImpl
 )
 {
 }
-rtc
+webrtc
 :
 :
 scoped_refptr
