@@ -578,12 +578,12 @@ FieldTrialsView
 >
 trials
 ;
-scoped_refptr
+std
+:
+:
+unique_ptr
 <
-webrtc
-:
-:
-AudioProcessing
+AudioProcessingBuilderInterface
 >
 audio_processing
 ;
