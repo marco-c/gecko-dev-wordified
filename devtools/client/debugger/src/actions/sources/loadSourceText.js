@@ -78,7 +78,6 @@ import
 {
 getSourceTextContent
 getSettledSourceTextContent
-getGeneratedSource
 getSourcesEpoch
 getBreakpointsForSource
 getSourceActorsForSource
@@ -324,15 +323,11 @@ isPrettyPrinted
 )
 {
 const
+{
 generatedSource
+}
 =
-getGeneratedSource
-(
-getState
-(
-)
 source
-)
 ;
 if
 (
