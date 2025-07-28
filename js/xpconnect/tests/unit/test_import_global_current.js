@@ -5867,19 +5867,6 @@ true
 }
 )
 ;
-/
-/
-TODO
-:
-Bug
-1973663
-:
-Enable
-xpcshell
-test
-testSyncImportWhileAsyncImportTLA
-/
-*
 add_task
 (
 async
@@ -6101,5 +6088,3 @@ true
 }
 )
 ;
-*
-/
