@@ -378,9 +378,6 @@ RTCStatsReport
 AddAndGetStats
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 RTCStatsReport
@@ -880,9 +877,6 @@ RTCStatsReport
 StatsOrder
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 RTCStatsReport
@@ -1199,9 +1193,6 @@ RTCStatsReport
 Take
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 RTCStatsReport
@@ -1367,9 +1358,6 @@ RTCStatsReport
 TakeMembersFrom
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 RTCStatsReport
@@ -1497,9 +1485,6 @@ Micros
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 RTCStatsReport
