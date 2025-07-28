@@ -3388,8 +3388,11 @@ ModuleMapKey
 aRequestedModulesOut
 )
 ;
-void
-SetModuleFetchFinishedAndResumeWaitingRequests
+already_AddRefed
+<
+LoadingRequest
+>
+SetModuleFetchFinishedAndGetWaitingRequests
 (
 ModuleLoadRequest
 *
