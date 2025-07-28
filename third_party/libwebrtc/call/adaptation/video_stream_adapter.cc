@@ -4404,9 +4404,6 @@ const
 Adaptation
 &
 adaptation
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -4655,9 +4652,6 @@ input_state
 *
 /
 const
-rtc
-:
-:
 scoped_refptr
 <
 Resource

@@ -2190,9 +2190,6 @@ by
 /
 default
 .
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -2212,9 +2209,6 @@ options
 CryptoOptions
 crypto_options
 ;
-rtc
-:
-:
 scoped_refptr
 <
 webrtc

@@ -366,9 +366,6 @@ rtx_packet
 )
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const
@@ -536,9 +533,6 @@ the
 RTX
 header
 .
-rtc
-:
-:
 ArrayView
 <
 const

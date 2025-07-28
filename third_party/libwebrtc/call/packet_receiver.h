@@ -159,9 +159,6 @@ virtual
 void
 DeliverRtcpPacket
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 packet
 )

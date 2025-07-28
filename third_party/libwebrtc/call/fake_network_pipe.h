@@ -223,9 +223,6 @@ public
 :
 NetworkPacket
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 packet
 int64_t
@@ -374,9 +371,6 @@ size
 )
 ;
 }
-rtc
-:
-:
 CopyOnWriteBuffer
 *
 raw_packet
@@ -521,9 +515,6 @@ transport_
 ;
 }
 private
-:
-rtc
-:
 :
 CopyOnWriteBuffer
 packet_
@@ -927,9 +918,6 @@ transports
 bool
 SendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -948,9 +936,6 @@ transport
 bool
 SendRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1031,9 +1016,6 @@ override
 void
 DeliverRtcpPacket
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 packet
 )
@@ -1232,9 +1214,6 @@ instance
 bool
 EnqueuePacket
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 packet
 std
@@ -1291,9 +1270,6 @@ instance
 bool
 EnqueuePacket
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 packet
 std

@@ -402,9 +402,6 @@ LogObserver
 (
 )
 {
-rtc
-:
-:
 LogMessage
 :
 :
@@ -412,9 +409,6 @@ AddLogToStream
 (
 &
 callback_
-rtc
-:
-:
 LS_INFO
 )
 ;
@@ -424,9 +418,6 @@ LogObserver
 (
 )
 {
-rtc
-:
-:
 LogMessage
 :
 :
@@ -474,9 +465,6 @@ class
 Callback
 :
 public
-rtc
-:
-:
 LogSink
 {
 public

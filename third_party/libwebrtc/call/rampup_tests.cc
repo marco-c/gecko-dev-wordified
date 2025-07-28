@@ -1091,9 +1091,6 @@ encoder_config
 >
 video_stream_factory
 =
-rtc
-:
-:
 make_ref_counted
 <
 RampUpTester

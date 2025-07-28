@@ -305,9 +305,6 @@ MOCK_METHOD
 void
 DeliverRtcpPacket
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 packet
 )
@@ -3672,9 +3669,6 @@ receiver
 )
 )
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 buffer
 (
@@ -3735,9 +3729,6 @@ DeliverRtcpPacket
 Property
 (
 &
-rtc
-:
-:
 CopyOnWriteBuffer
 :
 :

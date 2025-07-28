@@ -269,9 +269,6 @@ NetworkPacket
 :
 NetworkPacket
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 packet
 int64_t
@@ -856,9 +853,6 @@ FakeNetworkPipe
 :
 SendRtp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -881,9 +875,6 @@ transport
 ;
 EnqueuePacket
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 packet
@@ -903,9 +894,6 @@ FakeNetworkPipe
 :
 SendRtcp
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -924,9 +912,6 @@ transport
 ;
 EnqueuePacket
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 (
 packet
@@ -1002,9 +987,6 @@ FakeNetworkPipe
 :
 DeliverRtcpPacket
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 packet
 )
@@ -1088,9 +1070,6 @@ FakeNetworkPipe
 :
 EnqueuePacket
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 packet
 std
@@ -1161,9 +1140,6 @@ FakeNetworkPipe
 :
 EnqueuePacket
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 packet
 std
@@ -1989,9 +1965,6 @@ transport
 >
 SendRtcp
 (
-rtc
-:
-:
 MakeArrayView
 (
 packet
@@ -2017,9 +1990,6 @@ transport
 >
 SendRtp
 (
-rtc
-:
-:
 MakeArrayView
 (
 packet

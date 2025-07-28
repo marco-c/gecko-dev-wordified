@@ -1212,9 +1212,6 @@ const
 RtpSenderFrameEncryptionConfig
 &
 frame_encryption_config
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface
@@ -3006,10 +3003,7 @@ RtpTransportControllerSend
 OnSentPacket
 (
 const
-rtc
-:
-:
-SentPacket
+SentPacketInfo
 &
 sent_packet
 )
@@ -3127,10 +3121,7 @@ RtpTransportControllerSend
 ProcessSentPacket
 (
 const
-rtc
-:
-:
-SentPacket
+SentPacketInfo
 &
 sent_packet
 )
@@ -5052,9 +5043,6 @@ OnReport
 (
 Timestamp
 receive_time
-rtc
-:
-:
 ArrayView
 <
 const

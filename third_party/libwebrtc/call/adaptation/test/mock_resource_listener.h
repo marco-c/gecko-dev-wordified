@@ -133,9 +133,6 @@ MOCK_METHOD
 void
 OnResourceUsageStateMeasured
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource

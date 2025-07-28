@@ -804,9 +804,6 @@ VideoAdaptationCounters
 adaptation_counters
 *
 /
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -994,9 +991,6 @@ field_trials_
 FakeVideoStreamInputStateProvider
 input_state_provider_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 Resource

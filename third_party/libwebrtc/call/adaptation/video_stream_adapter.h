@@ -337,9 +337,6 @@ const
 VideoAdaptationCounters
 &
 adaptation_counters
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -1079,9 +1076,6 @@ const
 Adaptation
 &
 adaptation
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -1126,9 +1120,6 @@ VideoStreamInputState
 &
 input_state
 const
-rtc
-:
-:
 scoped_refptr
 <
 Resource

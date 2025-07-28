@@ -1057,9 +1057,6 @@ SdpAudioFormat
 >
 decoder_map
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderFactory
@@ -1157,9 +1154,6 @@ through
 /
 variable
 .
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -1222,9 +1216,6 @@ through
 /
 variable
 .
-rtc
-:
-:
 scoped_refptr
 <
 webrtc

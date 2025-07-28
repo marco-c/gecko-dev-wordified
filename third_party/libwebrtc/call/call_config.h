@@ -374,9 +374,6 @@ between
 multiple
 calls
 .
-rtc
-:
-:
 scoped_refptr
 <
 AudioState

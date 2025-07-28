@@ -496,9 +496,6 @@ override
 void
 AddResource
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -512,9 +509,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -529,9 +523,6 @@ override
 void
 RemoveResource
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -559,9 +550,6 @@ OnResourceOveruse
 void
 OnResourceUsageStateMeasured
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -586,9 +574,6 @@ const
 VideoAdaptationCounters
 &
 adaptation_counters
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -670,9 +655,6 @@ implementation
 void
 OnResourceUsageStateMeasured
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -768,9 +750,6 @@ counters
 MitigationResultAndLogMessage
 OnResourceUnderuse
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -781,9 +760,6 @@ reason_resource
 MitigationResultAndLogMessage
 OnResourceOveruse
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -794,9 +770,6 @@ reason_resource
 void
 UpdateResourceLimitations
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -886,9 +859,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -911,9 +881,6 @@ task_queue_
 void
 RemoveLimitationsImposedByResource
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -925,9 +892,6 @@ TaskQueueBase
 *
 task_queue_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 ResourceListenerDelegate
@@ -949,9 +913,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -996,9 +957,6 @@ std
 :
 map
 <
-rtc
-:
-:
 scoped_refptr
 <
 Resource

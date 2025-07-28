@@ -170,9 +170,6 @@ virtual
 void
 OnResourceLimitationChanged
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -184,9 +181,6 @@ std
 :
 map
 <
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -367,9 +361,6 @@ virtual
 void
 AddResource
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -385,9 +376,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -404,9 +392,6 @@ virtual
 void
 RemoveResource
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource

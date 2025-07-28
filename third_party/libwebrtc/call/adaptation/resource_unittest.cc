@@ -198,9 +198,6 @@ FakeResource
 }
 protected
 :
-rtc
-:
-:
 scoped_refptr
 <
 FakeResource
@@ -250,9 +247,6 @@ WillOnce
 [
 ]
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource

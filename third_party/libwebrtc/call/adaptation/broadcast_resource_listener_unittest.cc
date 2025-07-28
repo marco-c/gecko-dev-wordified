@@ -187,9 +187,6 @@ BroadcastResourceListenerTest
 CreateAndRemoveAdapterResource
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 FakeResource
@@ -231,9 +228,6 @@ empty
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -268,9 +262,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -379,9 +370,6 @@ BroadcastResourceListenerTest
 AdapterNameIsBasedOnSourceResourceName
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 FakeResource
@@ -410,9 +398,6 @@ StartListening
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -458,9 +443,6 @@ BroadcastResourceListenerTest
 AdaptersForwardsUsageMeasurements
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 FakeResource
@@ -501,9 +483,6 @@ MockResourceListener
 >
 destination_listener2
 ;
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -525,9 +504,6 @@ SetResourceListener
 destination_listener1
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -578,9 +554,6 @@ WillOnce
 adapter1
 ]
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -629,9 +602,6 @@ WillOnce
 adapter2
 ]
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -699,9 +669,6 @@ WillOnce
 adapter1
 ]
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -750,9 +717,6 @@ WillOnce
 adapter2
 ]
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource

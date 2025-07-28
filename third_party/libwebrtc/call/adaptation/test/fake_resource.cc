@@ -146,9 +146,6 @@ webrtc
 /
 /
 static
-rtc
-:
-:
 scoped_refptr
 <
 FakeResource
@@ -166,9 +163,6 @@ name
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 FakeResource
@@ -232,9 +226,6 @@ listener_
 >
 OnResourceUsageStateMeasured
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource

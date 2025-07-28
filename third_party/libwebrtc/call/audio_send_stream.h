@@ -1089,9 +1089,6 @@ SendCodecSpec
 >
 send_codec_spec
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioEncoderFactory
@@ -1169,9 +1166,6 @@ by
 /
 default
 .
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -1198,9 +1192,6 @@ transform
 encoded
 frames
 .
-rtc
-:
-:
 scoped_refptr
 <
 webrtc

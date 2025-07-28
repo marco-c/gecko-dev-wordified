@@ -1774,9 +1774,6 @@ const
 CryptoOptions
 &
 crypto_options
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface
@@ -3026,9 +3023,6 @@ const
 CryptoOptions
 &
 crypto_options
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface
@@ -5264,9 +5258,6 @@ rtp_rtcp
 >
 IncomingRtcpPacket
 (
-rtc
-:
-:
 MakeArrayView
 (
 packet
@@ -6681,9 +6672,6 @@ GetSentRtpPacketInfos
 (
 uint32_t
 ssrc
-rtc
-:
-:
 ArrayView
 <
 const
@@ -7350,9 +7338,6 @@ anyway
 continue
 ;
 }
-rtc
-:
-:
 ArrayView
 <
 const

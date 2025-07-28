@@ -221,9 +221,6 @@ per
 /
 AudioState
 .
-rtc
-:
-:
 scoped_refptr
 <
 AudioMixer
@@ -237,9 +234,6 @@ audio
 processing
 module
 .
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -262,9 +256,6 @@ audio
 device
 module
 .
-rtc
-:
-:
 scoped_refptr
 <
 webrtc
@@ -274,9 +265,6 @@ AudioDeviceModule
 >
 audio_device_module
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AsyncAudioProcessing
@@ -430,9 +418,6 @@ enable
 0
 ;
 static
-rtc
-:
-:
 scoped_refptr
 <
 AudioState

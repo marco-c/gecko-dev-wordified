@@ -581,9 +581,6 @@ audio_state_config
 .
 audio_mixer
 =
-rtc
-:
-:
 make_ref_counted
 <
 MockAudioMixer
@@ -599,9 +596,6 @@ use_null_audio_processing
 ?
 nullptr
 :
-rtc
-:
-:
 make_ref_counted
 <
 NiceMock
@@ -616,9 +610,6 @@ audio_state_config
 .
 audio_device_module
 =
-rtc
-:
-:
 make_ref_counted
 <
 MockAudioDeviceModule
@@ -695,9 +686,6 @@ call_
 ;
 }
 ;
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -710,9 +698,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -926,9 +911,6 @@ config
 .
 decoder_factory
 =
-rtc
-:
-:
 make_ref_counted
 <
 webrtc
@@ -1167,9 +1149,6 @@ config
 .
 decoder_factory
 =
-rtc
-:
-:
 make_ref_counted
 <
 webrtc
@@ -2507,9 +2486,6 @@ WillOnce
 injected_resource1
 ]
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -2581,9 +2557,6 @@ WillOnce
 injected_resource2
 ]
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -2992,9 +2965,6 @@ WillOnce
 injected_resource1
 ]
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -3066,9 +3036,6 @@ WillOnce
 injected_resource2
 ]
 (
-rtc
-:
-:
 scoped_refptr
 <
 Resource
