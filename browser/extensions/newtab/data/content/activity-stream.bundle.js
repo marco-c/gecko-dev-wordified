@@ -66770,9 +66770,6 @@ link
 link
 .
 sponsored_tile_id
-title
-:
-title
 onFocus
 :
 this
@@ -66789,6 +66786,13 @@ isAddButton
 .
 .
 addButtonTitlel10n
+}
+!
+isAddButton
+&
+&
+{
+title
 }
 )
 shortcutsRefresh
