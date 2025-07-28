@@ -3789,6 +3789,14 @@ ModuleLoadRequest
 aRequest
 )
 ;
+void
+OnFetchFailed
+(
+ModuleLoadRequest
+*
+aRequest
+)
+;
 /
 /
 The
