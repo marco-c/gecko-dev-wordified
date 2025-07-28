@@ -5854,6 +5854,15 @@ codecs
 {
 if
 (
+std
+:
+:
+optional
+<
+Codec
+>
+found_codec
+=
 webrtc
 :
 :
@@ -5878,7 +5887,8 @@ filtered_codecs
 .
 push_back
 (
-codec
+*
+found_codec
 )
 ;
 }
