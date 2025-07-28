@@ -4099,6 +4099,20 @@ aPatternUnits
 SVG_UNIT_TYPE_OBJECTBOUNDINGBOX
 )
 {
+SVGElementMetrics
+metrics
+(
+SVGElement
+:
+:
+FromNode
+(
+GetContent
+(
+)
+)
+)
+;
 x
 =
 SVGUtils
@@ -4107,6 +4121,7 @@ SVGUtils
 ObjectSpace
 (
 aTargetBBox
+metrics
 tmpX
 )
 ;
@@ -4118,6 +4133,7 @@ SVGUtils
 ObjectSpace
 (
 aTargetBBox
+metrics
 tmpY
 )
 ;
@@ -4129,6 +4145,7 @@ SVGUtils
 ObjectSpace
 (
 aTargetBBox
+metrics
 tmpWidth
 )
 ;
@@ -4140,6 +4157,7 @@ SVGUtils
 ObjectSpace
 (
 aTargetBBox
+metrics
 tmpHeight
 )
 ;
