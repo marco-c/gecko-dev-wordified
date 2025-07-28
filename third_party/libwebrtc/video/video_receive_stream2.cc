@@ -5664,10 +5664,10 @@ timestamp
 (
 last_timestamp
 ?
-rtc
+absl
 :
 :
-ToString
+StrCat
 (
 *
 last_timestamp
@@ -5694,10 +5694,10 @@ timestamp
 (
 last_decoded_rtp_timestamp_
 ?
-rtc
+absl
 :
 :
-ToString
+StrCat
 (
 *
 last_decoded_rtp_timestamp_

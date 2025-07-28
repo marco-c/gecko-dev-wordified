@@ -3879,10 +3879,10 @@ LLONG_MAX
 .
 session_id_
 (
-rtc
+absl
 :
 :
-ToString
+StrCat
 (
 CreateRandomId64
 (

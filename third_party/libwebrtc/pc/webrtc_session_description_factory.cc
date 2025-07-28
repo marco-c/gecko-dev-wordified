@@ -2084,10 +2084,10 @@ move
 desc
 )
 session_id_
-rtc
+absl
 :
 :
-ToString
+StrCat
 (
 session_version_
 +
@@ -2585,10 +2585,10 @@ move
 desc
 )
 session_id_
-rtc
+absl
 :
 :
-ToString
+StrCat
 (
 session_version_
 +

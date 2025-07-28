@@ -661,10 +661,10 @@ FakeIceTransport
 fake_
 "
 +
-rtc
+absl
 :
 :
-ToString
+StrCat
 (
 static_cast
 <
