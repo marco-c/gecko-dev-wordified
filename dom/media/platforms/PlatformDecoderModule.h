@@ -2946,6 +2946,17 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 PlatformDecoderModule
 )
+virtual
+const
+char
+*
+Name
+(
+)
+const
+=
+0
+;
 /
 /
 Perform
