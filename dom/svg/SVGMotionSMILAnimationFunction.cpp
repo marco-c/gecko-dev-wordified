@@ -2511,6 +2511,8 @@ SetKeyPointsErrorFlag
 false
 )
 ;
+return
+;
 }
 if
 (
@@ -2597,6 +2599,11 @@ error
 case
 above
 .
+SetKeyPointsErrorFlag
+(
+false
+)
+;
 }
 nsresult
 SVGMotionSMILAnimationFunction
