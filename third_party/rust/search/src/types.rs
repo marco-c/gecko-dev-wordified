@@ -800,7 +800,6 @@ Record
 PartialEq
 Deserialize
 Clone
-Default
 )
 ]
 pub
@@ -998,6 +997,15 @@ s
 brand
 name
 .
+#
+[
+uniffi
+(
+default
+=
+None
+)
+]
 pub
 display_name
 :
