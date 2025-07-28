@@ -120,6 +120,13 @@ h
 #
 include
 "
+nsIPrefService
+.
+h
+"
+#
+include
+"
 nsServiceManagerUtils
 .
 h
@@ -157,6 +164,13 @@ mozilla
 jni
 /
 Utils
+.
+h
+"
+#
+include
+"
+nsXULAppAPI
 .
 h
 "
