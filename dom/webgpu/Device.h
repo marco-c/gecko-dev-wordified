@@ -382,8 +382,6 @@ final
 :
 public
 DOMEventTargetHelper
-public
-SupportsWeakPtr
 {
 public
 :
@@ -472,6 +470,14 @@ RefPtr
 AdapterInfo
 >
 aAdapterInfo
+RefPtr
+<
+dom
+:
+:
+Promise
+>
+aLostPromise
 )
 ;
 RefPtr
