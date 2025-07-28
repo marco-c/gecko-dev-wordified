@@ -4117,9 +4117,10 @@ StyleScrollSnapStop
 :
 :
 Normal
-range
-.
-mTargetId
+ScrollSnapTargetId
+:
+:
+None
 }
 )
 ;
@@ -4192,9 +4193,10 @@ StyleScrollSnapStop
 :
 :
 Normal
-range
-.
-mTargetId
+ScrollSnapTargetId
+:
+:
+None
 }
 )
 ;
