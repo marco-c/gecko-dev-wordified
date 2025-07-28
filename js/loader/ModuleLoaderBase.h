@@ -3773,6 +3773,14 @@ ModuleLoadRequest
 aRequest
 )
 ;
+void
+DispatchModuleErrored
+(
+ModuleLoadRequest
+*
+aRequest
+)
+;
 bool
 IsFetchingAndHasWaitingRequest
 (
