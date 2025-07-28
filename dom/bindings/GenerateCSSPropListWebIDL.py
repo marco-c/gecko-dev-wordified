@@ -399,12 +399,6 @@ rules
             
 continue
         
-pref
-=
-p
-.
-pref
-        
 if
 p
 .
@@ -419,53 +413,6 @@ alias
 :
             
 if
-p
-.
-method
-=
-=
-"
-MozAppearance
-"
-:
-                
-#
-Hide
-MozAppearance
-from
-CSSStyleProperties
-to
-prevent
-outdated
-                
-#
-special
-casing
-against
-Gecko
-.
-(
-Bug
-1977489
-)
-                
-pref
-=
-"
-layout
-.
-css
-.
-moz
--
-appearance
-.
-webidl
-.
-enabled
-"
-            
-elif
 p
 .
 pref
@@ -550,6 +497,8 @@ NonSystem
 ]
         
 if
+p
+.
 pref
 !
 =
@@ -618,7 +567,40 @@ IsBackdropFilterAvailable
 '
 )
             
-else
+#
+MozTransform
+accessor
+is
+generated
+regardless
+for
+compatibility
+            
+#
+see
+bug
+1861828
+1865332
+1860424
+1864970
+1865332
+1869119
+.
+            
+elif
+p
+.
+method
+not
+in
+[
+"
+MozTransform
+"
+"
+MozTransformOrigin
+"
+]
 :
                 
 extendedAttrs
@@ -634,6 +616,8 @@ s
 "
 '
 %
+p
+.
 pref
 )
         
