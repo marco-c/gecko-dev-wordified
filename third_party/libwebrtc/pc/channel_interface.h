@@ -146,6 +146,17 @@ h
 #
 include
 "
+media
+/
+base
+/
+stream_params
+.
+h
+"
+#
+include
+"
 pc
 /
 rtp_transport_internal

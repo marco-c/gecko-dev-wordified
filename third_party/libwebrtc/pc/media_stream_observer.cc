@@ -122,6 +122,15 @@ container
 .
 h
 "
+#
+include
+"
+api
+/
+media_stream_interface
+.
+h
+"
 namespace
 webrtc
 {

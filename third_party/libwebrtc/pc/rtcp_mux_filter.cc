@@ -94,6 +94,15 @@ h
 #
 include
 "
+pc
+/
+session_description
+.
+h
+"
+#
+include
+"
 rtc_base
 /
 logging

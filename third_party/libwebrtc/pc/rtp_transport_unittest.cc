@@ -142,6 +142,17 @@ include
 "
 p2p
 /
+base
+/
+packet_transport_internal
+.
+h
+"
+#
+include
+"
+p2p
+/
 test
 /
 fake_packet_transport
