@@ -492,7 +492,7 @@ namespace
 webrtc
 {
 using
-cricket
+webrtc
 :
 :
 MediaContentDescription
@@ -720,9 +720,6 @@ RTCConfiguration
 config
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 PeerConnectionFactoryInterface

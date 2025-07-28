@@ -594,9 +594,6 @@ h
 namespace
 webrtc
 {
-rtc
-:
-:
 scoped_refptr
 <
 PeerConnectionFactoryInterface
@@ -746,9 +743,6 @@ pc_factory
 /
 /
 Static
-rtc
-:
-:
 scoped_refptr
 <
 PeerConnectionFactory
@@ -806,9 +800,6 @@ nullptr
 ;
 }
 return
-rtc
-:
-:
 make_ref_counted
 <
 PeerConnectionFactory
@@ -825,9 +816,6 @@ PeerConnectionFactory
 :
 PeerConnectionFactory
 (
-rtc
-:
-:
 scoped_refptr
 <
 ConnectionContext
@@ -1402,9 +1390,6 @@ RTC_CHECK_NOTREACHED
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 AudioSourceInterface
@@ -1432,9 +1417,6 @@ IsCurrent
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 LocalAudioSource
@@ -1550,9 +1532,6 @@ media_engine
 }
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 PeerConnectionInterface
@@ -1679,9 +1658,6 @@ return
 err
 ;
 }
-cricket
-:
-:
 ServerAddresses
 stun_servers
 ;
@@ -2248,9 +2224,6 @@ expansion
 )
 .
 return
-rtc
-:
-:
 scoped_refptr
 <
 PeerConnectionInterface
@@ -2278,9 +2251,6 @@ pc
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -2330,9 +2300,6 @@ stream_id
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackInterface
@@ -2342,9 +2309,6 @@ PeerConnectionFactory
 :
 CreateVideoTrack
 (
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackSourceInterface
@@ -2369,9 +2333,6 @@ IsCurrent
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackInterface
@@ -2406,9 +2367,6 @@ track
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 AudioTrackInterface
@@ -2442,9 +2400,6 @@ IsCurrent
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioTrackInterface
@@ -2457,9 +2412,6 @@ AudioTrack
 Create
 (
 id
-rtc
-:
-:
 scoped_refptr
 <
 AudioSourceInterface

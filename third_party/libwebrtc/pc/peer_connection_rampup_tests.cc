@@ -969,17 +969,11 @@ PeerConnectionWrapper
 ;
 PeerConnectionWrapperForRampUpTest
 (
-rtc
-:
-:
 scoped_refptr
 <
 PeerConnectionFactoryInterface
 >
 pc_factory
-rtc
-:
-:
 scoped_refptr
 <
 PeerConnectionInterface
@@ -1065,9 +1059,6 @@ return
 success
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackInterface
@@ -1088,9 +1079,6 @@ video_track_sources_
 .
 emplace_back
 (
-rtc
-:
-:
 make_ref_counted
 <
 FrameGeneratorCapturerVideoTrackSource
@@ -1120,9 +1108,6 @@ Start
 )
 ;
 return
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackInterface
@@ -1147,9 +1132,6 @@ CreateRandomUuid
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 AudioTrackInterface
@@ -1161,9 +1143,6 @@ AudioOptions
 options
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 AudioSourceInterface
@@ -1206,9 +1185,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 FrameGeneratorCapturerVideoTrackSource

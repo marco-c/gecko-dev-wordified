@@ -403,9 +403,6 @@ unique_ptr
 RTCCertificateGeneratorInterface
 >
 cert_generator
-rtc
-:
-:
 scoped_refptr
 <
 RTCCertificate
@@ -419,7 +416,7 @@ function
 void
 (
 const
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -630,9 +627,6 @@ options
 Type
 type
 ;
-rtc
-:
-:
 scoped_refptr
 <
 CreateSessionDescriptionObserver
@@ -754,9 +748,6 @@ OnCertificateRequestFailed
 void
 SetCertificate
 (
-rtc
-:
-:
 scoped_refptr
 <
 RTCCertificate
@@ -839,7 +830,7 @@ function
 void
 (
 const
-rtc
+webrtc
 :
 :
 scoped_refptr

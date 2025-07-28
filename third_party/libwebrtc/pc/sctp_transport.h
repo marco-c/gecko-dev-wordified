@@ -230,7 +230,7 @@ This
 implementation
 wraps
 a
-cricket
+webrtc
 :
 :
 SctpTransport
@@ -264,7 +264,7 @@ as
 the
 one
 the
-cricket
+webrtc
 :
 :
 SctpTransportInternal
@@ -294,9 +294,6 @@ unique_ptr
 SctpTransportInternal
 >
 internal
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransport
@@ -307,9 +304,6 @@ dtls_transport
 /
 /
 SctpTransportInterface
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransportInterface
@@ -365,9 +359,6 @@ SendDataParams
 &
 params
 const
-rtc
-:
-:
 CopyOnWriteBuffer
 &
 buffer
@@ -439,7 +430,7 @@ Clear
 /
 Initialize
 the
-cricket
+webrtc
 :
 :
 SctpTransport
@@ -664,9 +655,6 @@ owner_thread_
 =
 nullptr
 ;
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransport

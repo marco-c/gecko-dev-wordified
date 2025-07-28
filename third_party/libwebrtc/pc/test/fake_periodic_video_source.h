@@ -466,9 +466,6 @@ wants_
 void
 RemoveSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -498,9 +495,6 @@ sink
 void
 AddOrUpdateSink
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -593,15 +587,9 @@ SequenceChecker
 kDetached
 }
 ;
-rtc
-:
-:
 VideoBroadcaster
 broadcaster_
 ;
-cricket
-:
-:
 FakeFrameSource
 frame_source_
 ;

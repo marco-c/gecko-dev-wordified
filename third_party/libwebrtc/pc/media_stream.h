@@ -146,9 +146,6 @@ MediaStreamInterface
 public
 :
 static
-rtc
-:
-:
 scoped_refptr
 <
 MediaStream
@@ -181,9 +178,6 @@ id_
 bool
 AddTrack
 (
-rtc
-:
-:
 scoped_refptr
 <
 AudioTrackInterface
@@ -195,9 +189,6 @@ override
 bool
 AddTrack
 (
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackInterface
@@ -209,9 +200,6 @@ override
 bool
 RemoveTrack
 (
-rtc
-:
-:
 scoped_refptr
 <
 AudioTrackInterface
@@ -223,9 +211,6 @@ override
 bool
 RemoveTrack
 (
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackInterface
@@ -234,9 +219,6 @@ track
 )
 override
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioTrackInterface
@@ -253,9 +235,6 @@ track_id
 )
 override
 ;
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackInterface
@@ -321,9 +300,6 @@ AddTrack
 TrackVector
 *
 Tracks
-rtc
-:
-:
 scoped_refptr
 <
 Track
@@ -342,9 +318,6 @@ RemoveTrack
 TrackVector
 *
 Tracks
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamTrackInterface

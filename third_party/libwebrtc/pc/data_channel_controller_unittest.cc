@@ -427,7 +427,7 @@ SendDataParams
 &
 params
 const
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -750,9 +750,6 @@ Start
 ;
 pc_
 =
-rtc
-:
-:
 make_ref_counted
 <
 NiceMock
@@ -831,9 +828,6 @@ run_loop_
 Thread
 network_thread_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 NiceMock

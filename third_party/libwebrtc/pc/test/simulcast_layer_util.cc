@@ -345,9 +345,6 @@ init
 for
 (
 const
-cricket
-:
-:
 SimulcastLayer
 &
 layer

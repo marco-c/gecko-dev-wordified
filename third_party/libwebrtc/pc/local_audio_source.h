@@ -166,9 +166,6 @@ of
 LocalAudioSource
 .
 static
-rtc
-:
-:
 scoped_refptr
 <
 LocalAudioSource

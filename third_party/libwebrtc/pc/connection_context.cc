@@ -417,7 +417,7 @@ already
 wrapped
 by
 an
-rtc
+webrtc
 :
 :
 Thread
@@ -517,9 +517,6 @@ namespace
 /
 /
 Static
-rtc
-:
-:
 scoped_refptr
 <
 ConnectionContext
@@ -539,9 +536,6 @@ dependencies
 )
 {
 return
-rtc
-:
-:
 scoped_refptr
 <
 ConnectionContext
@@ -1001,12 +995,12 @@ is
 injected
 an
 approprite
-rtc
+/
+/
+webrtc
 :
 :
 SocketServer
-/
-/
 should
 be
 injected

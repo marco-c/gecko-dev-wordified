@@ -169,9 +169,6 @@ GetVideoTracks
 )
 PROXY_METHOD1
 (
-rtc
-:
-:
 scoped_refptr
 <
 AudioTrackInterface
@@ -186,9 +183,6 @@ string
 )
 PROXY_METHOD1
 (
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackInterface
@@ -205,9 +199,6 @@ PROXY_METHOD1
 (
 bool
 AddTrack
-rtc
-:
-:
 scoped_refptr
 <
 AudioTrackInterface
@@ -217,9 +208,6 @@ PROXY_METHOD1
 (
 bool
 AddTrack
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackInterface
@@ -229,9 +217,6 @@ PROXY_METHOD1
 (
 bool
 RemoveTrack
-rtc
-:
-:
 scoped_refptr
 <
 AudioTrackInterface
@@ -241,9 +226,6 @@ PROXY_METHOD1
 (
 bool
 RemoveTrack
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackInterface

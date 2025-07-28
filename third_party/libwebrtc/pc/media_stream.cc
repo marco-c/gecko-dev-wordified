@@ -228,9 +228,6 @@ return
 it
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 MediaStream
@@ -250,9 +247,6 @@ id
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 MediaStream
@@ -288,9 +282,6 @@ MediaStream
 :
 AddTrack
 (
-rtc
-:
-:
 scoped_refptr
 <
 AudioTrackInterface
@@ -317,9 +308,6 @@ MediaStream
 :
 AddTrack
 (
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackInterface
@@ -346,9 +334,6 @@ MediaStream
 :
 RemoveTrack
 (
-rtc
-:
-:
 scoped_refptr
 <
 AudioTrackInterface
@@ -374,9 +359,6 @@ MediaStream
 :
 RemoveTrack
 (
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackInterface
@@ -396,9 +378,6 @@ track
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 AudioTrackInterface
@@ -449,9 +428,6 @@ return
 it
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackInterface
@@ -518,9 +494,6 @@ AddTrack
 TrackVector
 *
 tracks
-rtc
-:
-:
 scoped_refptr
 <
 Track
@@ -599,9 +572,6 @@ RemoveTrack
 TrackVector
 *
 tracks
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamTrackInterface

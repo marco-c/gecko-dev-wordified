@@ -322,7 +322,7 @@ jvm
 ;
 RTC_CHECK
 (
-rtc
+webrtc
 :
 :
 InitializeSSL

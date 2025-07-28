@@ -648,9 +648,6 @@ required
 .
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderInterface
@@ -658,9 +655,6 @@ RtpSenderInterface
 >
 AddTrack
 (
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamTrackInterface
@@ -706,9 +700,6 @@ with
 a
 transceiver
 .
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderProxyWithInternal
@@ -730,9 +721,6 @@ std
 string
 &
 id
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamTrackInterface
@@ -778,9 +766,6 @@ with
 a
 transceiver
 .
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverProxyWithInternal
@@ -826,9 +811,6 @@ of
 registered
 transceivers
 .
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverProxyWithInternal
@@ -838,9 +820,6 @@ RtpTransceiver
 >
 CreateAndAddTransceiver
 (
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderProxyWithInternal
@@ -849,9 +828,6 @@ RtpSenderInternal
 >
 >
 sender
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverProxyWithInternal
@@ -882,9 +858,6 @@ transceiver
 is
 available
 .
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverProxyWithInternal
@@ -894,9 +867,6 @@ RtpTransceiver
 >
 FindFirstTransceiverForAddedTrack
 (
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamTrackInterface
@@ -934,9 +904,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderProxyWithInternal
@@ -967,9 +934,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverProxyWithInternal
@@ -997,9 +961,6 @@ audio
 senders
 and
 receivers
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverProxyWithInternal
@@ -1026,9 +987,6 @@ video
 senders
 and
 receivers
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverProxyWithInternal
@@ -1456,9 +1414,6 @@ given
 track
 attached
 .
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderProxyWithInternal
@@ -1489,9 +1444,6 @@ if
 none
 exists
 .
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderProxyWithInternal
@@ -1526,9 +1478,6 @@ if
 none
 exists
 .
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverProxyWithInternal
@@ -1698,9 +1647,6 @@ specified
 .
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderInterface
@@ -1708,9 +1654,6 @@ RtpSenderInterface
 >
 AddTrackUnifiedPlan
 (
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamTrackInterface
@@ -1753,9 +1696,6 @@ specified
 .
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderInterface
@@ -1763,9 +1703,6 @@ RtpSenderInterface
 >
 AddTrackPlanB
 (
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamTrackInterface
@@ -1854,9 +1791,6 @@ signaling_thread
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverInterface

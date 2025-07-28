@@ -692,9 +692,6 @@ get_bwe
 auto
 callback
 =
-rtc
-:
-:
 make_ref_counted
 <
 webrtc

@@ -178,9 +178,6 @@ VideoTrackSource
 public
 :
 static
-rtc
-:
-:
 scoped_refptr
 <
 FakeVideoTrackSource
@@ -192,9 +189,6 @@ is_screencast
 )
 {
 return
-rtc
-:
-:
 make_ref_counted
 <
 FakeVideoTrackSource
@@ -205,9 +199,6 @@ is_screencast
 ;
 }
 static
-rtc
-:
-:
 scoped_refptr
 <
 FakeVideoTrackSource
@@ -283,9 +274,6 @@ override
 =
 default
 ;
-rtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame
@@ -307,9 +295,6 @@ const
 bool
 is_screencast_
 ;
-rtc
-:
-:
 VideoBroadcaster
 video_broadcaster_
 ;

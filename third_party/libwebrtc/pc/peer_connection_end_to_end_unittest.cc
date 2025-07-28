@@ -643,7 +643,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -712,7 +712,7 @@ Start
 ;
 caller_
 =
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -739,7 +739,7 @@ get
 ;
 callee_
 =
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -822,7 +822,7 @@ endif
 void
 CreatePcs
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -833,7 +833,7 @@ webrtc
 AudioEncoderFactory
 >
 audio_encoder_factory1
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -844,7 +844,7 @@ webrtc
 AudioDecoderFactory
 >
 audio_decoder_factory1
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -855,7 +855,7 @@ webrtc
 AudioEncoderFactory
 >
 audio_encoder_factory2
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -945,7 +945,7 @@ OnCalleeAddedDataChannel
 void
 CreatePcs
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -956,7 +956,7 @@ webrtc
 AudioEncoderFactory
 >
 audio_encoder_factory
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1108,7 +1108,7 @@ caller_signaled_data_channels_
 .
 push_back
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1133,7 +1133,7 @@ callee_signaled_data_channels_
 .
 push_back
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1319,7 +1319,7 @@ WaitUntil
 ]
 {
 return
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -1391,7 +1391,7 @@ WaitUntil
 ]
 {
 return
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -1869,7 +1869,7 @@ Thread
 >
 worker_thread_
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1878,7 +1878,7 @@ PeerConnectionTestWrapper
 >
 caller_
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -2303,7 +2303,7 @@ mock_decoder
 )
 ;
 }
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -2323,7 +2323,7 @@ AudioDecoderFactory
 real_decoder_factory
 )
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -2335,7 +2335,7 @@ MockAudioDecoderFactory
 >
 mock_decoder_factory
 =
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -3085,7 +3085,7 @@ PeerConnectionEndToEndTest
 Call
 )
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -3203,7 +3203,7 @@ public
 :
 IdLoggingAudioEncoderFactory
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -3357,7 +3357,7 @@ options
 private
 :
 const
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -3398,7 +3398,7 @@ public
 :
 IdLoggingAudioDecoderFactory
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -3548,7 +3548,7 @@ codec_pair_id
 private
 :
 const
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -3593,7 +3593,7 @@ decoder_id2
 ;
 CreatePcs
 (
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -3613,7 +3613,7 @@ AudioEncoderUnicornSparklesRainbow
 &
 encoder_id1
 )
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -3633,7 +3633,7 @@ AudioDecoderUnicornSparklesRainbow
 &
 decoder_id1
 )
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -3653,7 +3653,7 @@ AudioEncoderUnicornSparklesRainbow
 &
 encoder_id2
 )
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -3845,7 +3845,7 @@ webrtc
 DataChannelInit
 init
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -3866,7 +3866,7 @@ init
 )
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -4044,7 +4044,7 @@ in
 the
 negotiation
 .
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -4112,7 +4112,7 @@ verify
 their
 states
 .
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -4133,7 +4133,7 @@ init
 )
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -4293,7 +4293,7 @@ in
 the
 negotiation
 .
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -4361,7 +4361,7 @@ verify
 their
 states
 .
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -4382,7 +4382,7 @@ init
 )
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -4538,7 +4538,7 @@ webrtc
 DataChannelInit
 init
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -4559,7 +4559,7 @@ init
 )
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -4614,7 +4614,7 @@ id
 2
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -4635,7 +4635,7 @@ init
 )
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -4738,7 +4738,7 @@ webrtc
 DataChannelInit
 init
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -4759,7 +4759,7 @@ init
 )
 )
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -5142,7 +5142,7 @@ webrtc
 DataChannelInit
 init
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -5513,7 +5513,7 @@ webrtc
 DataChannelInit
 init
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -5726,7 +5726,7 @@ std
 :
 vector
 <
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -5758,7 +5758,7 @@ i
 +
 )
 {
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -5914,7 +5914,7 @@ PeerConnectionEndToEndTest
 CanRestartIce
 )
 {
-rtc
+webrtc
 :
 :
 scoped_refptr

@@ -233,9 +233,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -264,9 +261,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface

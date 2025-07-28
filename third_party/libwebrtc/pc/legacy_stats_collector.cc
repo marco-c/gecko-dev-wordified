@@ -6184,9 +6184,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverProxyWithInternal
@@ -6488,9 +6485,6 @@ Id
 local_cert_report_id
 remote_cert_report_id
 ;
-rtc
-:
-:
 scoped_refptr
 <
 RTCCertificate
@@ -6659,9 +6653,6 @@ initial_offerer
 for
 (
 const
-cricket
-:
-:
 CandidateStats
 &
 stats
@@ -7052,9 +7043,6 @@ StunStats
 for
 (
 const
-cricket
-:
-:
 CandidateStats
 &
 stats
@@ -7081,9 +7069,6 @@ connection_id
 for
 (
 const
-cricket
-:
-:
 ConnectionInfo
 &
 info
@@ -8674,9 +8659,6 @@ continue
 ;
 }
 const
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamTrackInterface

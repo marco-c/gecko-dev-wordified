@@ -302,9 +302,6 @@ nullptr
 auto
 ice_transport
 =
-rtc
-:
-:
 make_ref_counted
 <
 IceTransportWithPointer

@@ -195,10 +195,10 @@ This
 implementation
 wraps
 a
-cricket
+webrtc
 :
 :
-DtlsTransport
+DtlsTransportInternalImpl
 and
 takes
 /
@@ -237,7 +237,7 @@ as
 the
 one
 the
-cricket
+webrtc
 :
 :
 DtlsTransportInternal
@@ -282,9 +282,6 @@ DtlsTransportInternal
 internal
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 IceTransportInterface
@@ -497,9 +494,6 @@ owner_thread_
 )
 ;
 const
-rtc
-:
-:
 scoped_refptr
 <
 IceTransportWithPointer

@@ -1084,9 +1084,6 @@ SetSend
 int
 crypto_suite
 const
-rtc
-:
-:
 ZeroOnFreeBuffer
 <
 uint8_t
@@ -1124,9 +1121,6 @@ UpdateSend
 int
 crypto_suite
 const
-rtc
-:
-:
 ZeroOnFreeBuffer
 <
 uint8_t
@@ -1164,9 +1158,6 @@ SetReceive
 int
 crypto_suite
 const
-rtc
-:
-:
 ZeroOnFreeBuffer
 <
 uint8_t
@@ -1204,9 +1195,6 @@ UpdateReceive
 int
 crypto_suite
 const
-rtc
-:
-:
 ZeroOnFreeBuffer
 <
 uint8_t
@@ -1731,9 +1719,6 @@ webrtc
 :
 ParseRtpSequenceNumber
 (
-rtc
-:
-:
 MakeArrayView
 (
 reinterpret_cast
@@ -3526,9 +3511,6 @@ type
 int
 crypto_suite
 const
-rtc
-:
-:
 ZeroOnFreeBuffer
 <
 uint8_t
@@ -4078,9 +4060,6 @@ type
 int
 crypto_suite
 const
-rtc
-:
-:
 ZeroOnFreeBuffer
 <
 uint8_t
@@ -4211,9 +4190,6 @@ type
 int
 crypto_suite
 const
-rtc
-:
-:
 ZeroOnFreeBuffer
 <
 uint8_t

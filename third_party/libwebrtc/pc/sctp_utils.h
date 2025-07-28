@@ -460,9 +460,6 @@ bool
 IsOpenMessage
 (
 const
-rtc
-:
-:
 CopyOnWriteBuffer
 &
 payload
@@ -472,9 +469,6 @@ bool
 ParseDataChannelOpenMessage
 (
 const
-rtc
-:
-:
 CopyOnWriteBuffer
 &
 payload
@@ -493,9 +487,6 @@ bool
 ParseDataChannelOpenAckMessage
 (
 const
-rtc
-:
-:
 CopyOnWriteBuffer
 &
 payload
@@ -544,9 +535,6 @@ optional
 int
 >
 max_retransmit_time
-rtc
-:
-:
 CopyOnWriteBuffer
 *
 payload
@@ -566,9 +554,6 @@ const
 DataChannelInit
 &
 config
-rtc
-:
-:
 CopyOnWriteBuffer
 *
 payload
@@ -577,9 +562,6 @@ payload
 void
 WriteDataChannelOpenAckMessage
 (
-rtc
-:
-:
 CopyOnWriteBuffer
 *
 payload

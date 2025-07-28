@@ -291,9 +291,6 @@ mu_
 ;
 for
 (
-rtc
-:
-:
 VideoSinkInterface
 <
 RecordableEncodedFrame

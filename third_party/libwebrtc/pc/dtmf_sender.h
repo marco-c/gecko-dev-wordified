@@ -327,9 +327,6 @@ DtmfSenderInterface
 public
 :
 static
-rtc
-:
-:
 scoped_refptr
 <
 DtmfSender
@@ -577,9 +574,6 @@ at
 a
 time
 .
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag

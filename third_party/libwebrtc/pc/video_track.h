@@ -294,9 +294,6 @@ ObserverInterface
 public
 :
 static
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrack
@@ -308,9 +305,6 @@ absl
 :
 string_view
 label
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackSourceInterface
@@ -444,9 +438,6 @@ absl
 :
 string_view
 id
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackSourceProxyWithInternal
@@ -492,9 +483,6 @@ const
 worker_thread_
 ;
 const
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackSourceProxyWithInternal

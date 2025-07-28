@@ -744,9 +744,6 @@ rtp_dtls_transport_
 (
 rtp_dtls_transport
 ?
-rtc
-:
-:
 make_ref_counted
 <
 DtlsTransport
@@ -767,9 +764,6 @@ rtcp_dtls_transport_
 (
 rtcp_dtls_transport
 ?
-rtc
-:
-:
 make_ref_counted
 <
 DtlsTransport
@@ -790,9 +784,6 @@ sctp_transport_
 (
 sctp_transport
 ?
-rtc
-:
-:
 make_ref_counted
 <
 :
@@ -1869,9 +1860,6 @@ set
 for
 (
 const
-cricket
-:
-:
 Candidate
 &
 candidate
@@ -3256,9 +3244,6 @@ SSLFingerprint
 (
 "
 "
-rtc
-:
-:
 ArrayView
 <
 const

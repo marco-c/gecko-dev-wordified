@@ -466,9 +466,6 @@ ok
 }
 protected
 :
-cricket
-:
-:
 ServerAddresses
 stun_servers_
 ;
@@ -600,9 +597,6 @@ size
 ;
 EXPECT_EQ
 (
-cricket
-:
-:
 PROTO_UDP
 turn_servers_
 [
@@ -651,9 +645,6 @@ size
 ;
 EXPECT_EQ
 (
-cricket
-:
-:
 PROTO_TLS
 turn_servers_
 [
@@ -747,9 +738,6 @@ TLS_CERT_POLICY_INSECURE_NO_CHECK
 ;
 EXPECT_EQ
 (
-cricket
-:
-:
 PROTO_TLS
 turn_servers_
 [
@@ -865,9 +853,6 @@ port
 ;
 EXPECT_EQ
 (
-cricket
-:
-:
 PROTO_TLS
 turn_servers_
 [
@@ -930,9 +915,6 @@ port
 ;
 EXPECT_EQ
 (
-cricket
-:
-:
 PROTO_UDP
 turn_servers_
 [
@@ -1855,9 +1837,6 @@ size
 ;
 EXPECT_EQ
 (
-cricket
-:
-:
 PROTO_TCP
 turn_servers_
 [
@@ -1900,9 +1879,6 @@ size
 ;
 EXPECT_EQ
 (
-cricket
-:
-:
 PROTO_UDP
 turn_servers_
 [

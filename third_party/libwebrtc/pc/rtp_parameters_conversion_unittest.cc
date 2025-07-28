@@ -1455,9 +1455,6 @@ red2
 ulpfec
 rtx
 }
-cricket
-:
-:
 RtpHeaderExtensions
 (
 )
@@ -1502,9 +1499,6 @@ vp8
 red
 flexfec
 }
-cricket
-:
-:
 RtpHeaderExtensions
 (
 )

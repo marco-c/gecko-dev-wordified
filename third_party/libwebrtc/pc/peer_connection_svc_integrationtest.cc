@@ -284,9 +284,6 @@ kUnifiedPlan
 RTCError
 SetCodecPreferences
 (
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface

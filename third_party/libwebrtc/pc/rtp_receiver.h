@@ -108,12 +108,12 @@ transport
 (
 provided
 by
-cricket
+webrtc
 :
 :
 VoiceChannel
 /
-cricket
+webrtc
 :
 :
 VideoChannel
@@ -409,9 +409,6 @@ virtual
 void
 set_transport
 (
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransportInterface
@@ -600,9 +597,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -676,9 +670,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface

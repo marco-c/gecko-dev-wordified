@@ -147,7 +147,7 @@ highpass_filter
 =
 true
 ;
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -185,7 +185,7 @@ LocalAudioSourceTest
 InitWithNoOptions
 )
 {
-rtc
+webrtc
 :
 :
 scoped_refptr

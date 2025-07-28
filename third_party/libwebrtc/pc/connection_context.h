@@ -355,9 +355,6 @@ the
 ConnectionContext
 .
 static
-rtc
-:
-:
 scoped_refptr
 <
 ConnectionContext

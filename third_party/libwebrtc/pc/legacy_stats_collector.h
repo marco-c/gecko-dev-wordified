@@ -1012,9 +1012,6 @@ SessionStats
 =
 delete
 ;
-cricket
-:
-:
 CandidateStatsList
 candidate_stats
 ;
@@ -1374,9 +1371,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverProxyWithInternal

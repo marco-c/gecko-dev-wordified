@@ -235,7 +235,7 @@ PROXY_METHOD2
 (
 RTCErrorOr
 <
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -272,9 +272,6 @@ MediaType
 )
 PROXY_METHOD1
 (
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -289,9 +286,6 @@ string
 )
 PROXY_METHOD1
 (
-rtc
-:
-:
 scoped_refptr
 <
 AudioSourceInterface
@@ -303,17 +297,11 @@ AudioOptions
 )
 PROXY_METHOD2
 (
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackInterface
 >
 CreateVideoTrack
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackSourceInterface
@@ -325,9 +313,6 @@ string_view
 )
 PROXY_METHOD2
 (
-rtc
-:
-:
 scoped_refptr
 <
 AudioTrackInterface

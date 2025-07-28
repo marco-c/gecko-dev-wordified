@@ -352,7 +352,7 @@ on
 failure
 .
 static
-rtc
+webrtc
 :
 :
 scoped_refptr

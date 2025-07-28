@@ -510,9 +510,6 @@ ExtractSignatureStrings
 (
 )
 {
-rtc
-:
-:
 scoped_refptr
 <
 AudioDecoderFactory
@@ -538,9 +535,6 @@ GetSupportedDecoders
 )
 )
 {
-rtc
-:
-:
 StringBuilder
 sb
 ;
@@ -635,9 +629,6 @@ Release
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 AudioEncoderFactory
@@ -663,9 +654,6 @@ GetSupportedEncoders
 )
 )
 {
-rtc
-:
-:
 StringBuilder
 sb
 ;
@@ -788,9 +776,6 @@ GetSupportedFormats
 )
 )
 {
-rtc
-:
-:
 StringBuilder
 sb
 ;
@@ -885,9 +870,6 @@ GetSupportedFormats
 )
 )
 {
-rtc
-:
-:
 StringBuilder
 sb
 ;
@@ -2919,9 +2901,6 @@ a
 debug
 printout
 .
-rtc
-:
-:
 StringBuilder
 sb
 ;
@@ -3197,9 +3176,6 @@ codec
 codecs
 )
 {
-rtc
-:
-:
 StringBuilder
 str
 ;
@@ -3337,9 +3313,6 @@ string
 callee_remote
 )
 {
-rtc
-:
-:
 StringBuilder
 sb
 ;

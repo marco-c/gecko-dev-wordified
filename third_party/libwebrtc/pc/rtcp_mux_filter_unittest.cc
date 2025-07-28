@@ -171,7 +171,7 @@ filter
 SetOffer
 (
 true
-cricket
+webrtc
 :
 :
 CS_LOCAL
@@ -218,7 +218,7 @@ filter
 SetAnswer
 (
 true
-cricket
+webrtc
 :
 :
 CS_REMOTE
@@ -282,7 +282,7 @@ filter
 SetOffer
 (
 true
-cricket
+webrtc
 :
 :
 CS_LOCAL
@@ -304,7 +304,7 @@ filter
 SetProvisionalAnswer
 (
 true
-cricket
+webrtc
 :
 :
 CS_REMOTE
@@ -369,7 +369,7 @@ filter
 SetProvisionalAnswer
 (
 false
-cricket
+webrtc
 :
 :
 CS_REMOTE
@@ -434,7 +434,7 @@ filter
 SetAnswer
 (
 true
-cricket
+webrtc
 :
 :
 CS_REMOTE
@@ -531,7 +531,7 @@ filter
 SetOffer
 (
 true
-cricket
+webrtc
 :
 :
 CS_REMOTE
@@ -577,7 +577,7 @@ filter
 SetAnswer
 (
 true
-cricket
+webrtc
 :
 :
 CS_LOCAL
@@ -641,7 +641,7 @@ filter
 SetOffer
 (
 true
-cricket
+webrtc
 :
 :
 CS_REMOTE
@@ -663,7 +663,7 @@ filter
 SetProvisionalAnswer
 (
 true
-cricket
+webrtc
 :
 :
 CS_LOCAL
@@ -713,7 +713,7 @@ filter
 SetProvisionalAnswer
 (
 false
-cricket
+webrtc
 :
 :
 CS_LOCAL
@@ -763,7 +763,7 @@ filter
 SetAnswer
 (
 true
-cricket
+webrtc
 :
 :
 CS_LOCAL
@@ -863,7 +863,7 @@ filter
 SetOffer
 (
 false
-cricket
+webrtc
 :
 :
 CS_REMOTE
@@ -877,7 +877,7 @@ filter
 SetAnswer
 (
 false
-cricket
+webrtc
 :
 :
 CS_LOCAL
@@ -900,7 +900,7 @@ filter
 SetOffer
 (
 true
-cricket
+webrtc
 :
 :
 CS_REMOTE
@@ -914,7 +914,7 @@ filter
 SetAnswer
 (
 true
-cricket
+webrtc
 :
 :
 CS_LOCAL
@@ -937,7 +937,7 @@ filter
 SetOffer
 (
 false
-cricket
+webrtc
 :
 :
 CS_REMOTE
@@ -951,7 +951,7 @@ filter
 SetAnswer
 (
 false
-cricket
+webrtc
 :
 :
 CS_LOCAL
@@ -997,7 +997,7 @@ filter
 SetOffer
 (
 true
-cricket
+webrtc
 :
 :
 CS_REMOTE
@@ -1011,7 +1011,7 @@ filter
 SetOffer
 (
 true
-cricket
+webrtc
 :
 :
 CS_REMOTE
@@ -1025,7 +1025,7 @@ filter
 SetAnswer
 (
 true
-cricket
+webrtc
 :
 :
 CS_LOCAL
@@ -1054,7 +1054,7 @@ filter2
 SetOffer
 (
 false
-cricket
+webrtc
 :
 :
 CS_LOCAL
@@ -1068,7 +1068,7 @@ filter2
 SetOffer
 (
 false
-cricket
+webrtc
 :
 :
 CS_LOCAL
@@ -1082,7 +1082,7 @@ filter2
 SetAnswer
 (
 false
-cricket
+webrtc
 :
 :
 CS_REMOTE
@@ -1129,7 +1129,7 @@ filter
 SetOffer
 (
 true
-cricket
+webrtc
 :
 :
 CS_REMOTE
@@ -1143,7 +1143,7 @@ filter
 SetAnswer
 (
 true
-cricket
+webrtc
 :
 :
 CS_LOCAL
@@ -1166,7 +1166,7 @@ filter
 SetOffer
 (
 true
-cricket
+webrtc
 :
 :
 CS_REMOTE
@@ -1180,7 +1180,7 @@ filter
 SetAnswer
 (
 true
-cricket
+webrtc
 :
 :
 CS_LOCAL
@@ -1229,7 +1229,7 @@ filter
 SetOffer
 (
 false
-cricket
+webrtc
 :
 :
 CS_REMOTE
@@ -1243,7 +1243,7 @@ filter
 SetAnswer
 (
 false
-cricket
+webrtc
 :
 :
 CS_LOCAL
@@ -1266,7 +1266,7 @@ filter
 SetOffer
 (
 false
-cricket
+webrtc
 :
 :
 CS_REMOTE
@@ -1280,7 +1280,7 @@ filter
 SetAnswer
 (
 false
-cricket
+webrtc
 :
 :
 CS_LOCAL
@@ -1345,7 +1345,7 @@ filter
 SetOffer
 (
 false
-cricket
+webrtc
 :
 :
 CS_LOCAL
@@ -1368,7 +1368,7 @@ filter
 SetOffer
 (
 true
-cricket
+webrtc
 :
 :
 CS_LOCAL
@@ -1391,7 +1391,7 @@ filter
 SetProvisionalAnswer
 (
 false
-cricket
+webrtc
 :
 :
 CS_REMOTE
@@ -1414,7 +1414,7 @@ filter
 SetProvisionalAnswer
 (
 true
-cricket
+webrtc
 :
 :
 CS_REMOTE
@@ -1437,7 +1437,7 @@ filter
 SetAnswer
 (
 false
-cricket
+webrtc
 :
 :
 CS_REMOTE
@@ -1460,7 +1460,7 @@ filter
 SetAnswer
 (
 true
-cricket
+webrtc
 :
 :
 CS_REMOTE
@@ -1483,7 +1483,7 @@ filter
 SetOffer
 (
 false
-cricket
+webrtc
 :
 :
 CS_REMOTE
@@ -1506,7 +1506,7 @@ filter
 SetOffer
 (
 true
-cricket
+webrtc
 :
 :
 CS_REMOTE
@@ -1529,7 +1529,7 @@ filter
 SetProvisionalAnswer
 (
 false
-cricket
+webrtc
 :
 :
 CS_LOCAL
@@ -1552,7 +1552,7 @@ filter
 SetProvisionalAnswer
 (
 true
-cricket
+webrtc
 :
 :
 CS_LOCAL
@@ -1575,7 +1575,7 @@ filter
 SetAnswer
 (
 false
-cricket
+webrtc
 :
 :
 CS_LOCAL
@@ -1598,7 +1598,7 @@ filter
 SetAnswer
 (
 true
-cricket
+webrtc
 :
 :
 CS_LOCAL

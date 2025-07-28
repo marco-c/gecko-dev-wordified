@@ -795,9 +795,6 @@ void
 SetChannelSid
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 SctpDataChannel
@@ -971,9 +968,6 @@ network_thread_
 InternalDataChannelInit
 init_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 PendingTaskSafetyFlag
@@ -1005,18 +999,12 @@ FakeDataChannelObserver
 >
 observer_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 SctpDataChannel
 >
 inner_channel_
 ;
-rtc
-:
-:
 scoped_refptr
 <
 DataChannelInterface
@@ -1315,9 +1303,6 @@ set_transport_available
 true
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 SctpDataChannel
@@ -1879,9 +1864,6 @@ ordered
 =
 false
 ;
-rtc
-:
-:
 scoped_refptr
 <
 SctpDataChannel
@@ -1991,9 +1973,6 @@ an
 OPEN_ACK
 message
 .
-rtc
-:
-:
 CopyOnWriteBuffer
 payload
 ;
@@ -2108,9 +2087,6 @@ ordered
 =
 false
 ;
-rtc
-:
-:
 scoped_refptr
 <
 SctpDataChannel
@@ -2222,9 +2198,6 @@ an
 OPEN_ACK
 message
 .
-rtc
-:
-:
 CopyOnWriteBuffer
 payload
 ;
@@ -2337,9 +2310,6 @@ ordered
 =
 false
 ;
-rtc
-:
-:
 scoped_refptr
 <
 SctpDataChannel
@@ -2522,9 +2492,6 @@ ordered
 =
 false
 ;
-rtc
-:
-:
 scoped_refptr
 <
 SctpDataChannel
@@ -2939,9 +2906,6 @@ SetChannelReady
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 SctpDataChannel
@@ -3480,9 +3444,6 @@ SetChannelReady
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 SctpDataChannel
@@ -3892,9 +3853,6 @@ SetChannelReady
 (
 )
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 buffer
 (
@@ -4371,9 +4329,6 @@ SetChannelReady
 (
 )
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 buffer
 (
@@ -4856,9 +4811,6 @@ allocator_
 .
 AllocateSid
 (
-rtc
-:
-:
 SSL_SERVER
 )
 StreamId
@@ -4873,9 +4825,6 @@ allocator_
 .
 AllocateSid
 (
-rtc
-:
-:
 SSL_CLIENT
 )
 StreamId
@@ -4890,9 +4839,6 @@ allocator_
 .
 AllocateSid
 (
-rtc
-:
-:
 SSL_SERVER
 )
 StreamId
@@ -4907,9 +4853,6 @@ allocator_
 .
 AllocateSid
 (
-rtc
-:
-:
 SSL_CLIENT
 )
 StreamId
@@ -4967,9 +4910,6 @@ allocator_
 .
 AllocateSid
 (
-rtc
-:
-:
 SSL_SERVER
 )
 ;
@@ -5011,9 +4951,6 @@ allocator_
 .
 AllocateSid
 (
-rtc
-:
-:
 SSL_CLIENT
 )
 ;
@@ -5097,9 +5034,6 @@ allocator_
 .
 AllocateSid
 (
-rtc
-:
-:
 SSL_SERVER
 )
 ;
@@ -5126,9 +5060,6 @@ allocator_
 .
 AllocateSid
 (
-rtc
-:
-:
 SSL_CLIENT
 )
 ;
@@ -5155,9 +5086,6 @@ allocator_
 .
 AllocateSid
 (
-rtc
-:
-:
 SSL_SERVER
 )
 ;
@@ -5184,9 +5112,6 @@ allocator_
 .
 AllocateSid
 (
-rtc
-:
-:
 SSL_CLIENT
 )
 ;
@@ -5236,9 +5161,6 @@ allocator_
 .
 AllocateSid
 (
-rtc
-:
-:
 SSL_SERVER
 )
 ;
@@ -5254,9 +5176,6 @@ allocator_
 .
 AllocateSid
 (
-rtc
-:
-:
 SSL_CLIENT
 )
 ;
@@ -5283,9 +5202,6 @@ allocator_
 .
 AllocateSid
 (
-rtc
-:
-:
 SSL_SERVER
 )
 ;
@@ -5312,9 +5228,6 @@ allocator_
 .
 AllocateSid
 (
-rtc
-:
-:
 SSL_CLIENT
 )
 ;
@@ -5579,9 +5492,6 @@ Coverage
 auto
 channel
 =
-rtc
-:
-:
 make_ref_counted
 <
 NoImplDataChannel
@@ -5700,7 +5610,7 @@ SendDefaultImplDchecks
 auto
 channel
 =
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -5742,7 +5652,7 @@ SendAsyncDefaultImplDchecks
 auto
 channel
 =
-rtc
+webrtc
 :
 :
 make_ref_counted

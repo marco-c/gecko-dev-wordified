@@ -861,9 +861,6 @@ nullptr
 }
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderInterface
@@ -874,9 +871,6 @@ RtpTransmissionManager
 :
 AddTrack
 (
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamTrackInterface
@@ -938,9 +932,6 @@ init_send_encodings
 }
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderInterface
@@ -951,9 +942,6 @@ RtpTransmissionManager
 :
 AddTrackPlanB
 (
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamTrackInterface
@@ -1332,9 +1320,6 @@ first_ssrc
 }
 }
 return
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderInterface
@@ -1346,9 +1331,6 @@ new_sender
 }
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderInterface
@@ -1359,9 +1341,6 @@ RtpTransmissionManager
 :
 AddTrackUnifiedPlan
 (
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamTrackInterface
@@ -1807,9 +1786,6 @@ sender
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderProxyWithInternal
@@ -1834,9 +1810,6 @@ std
 string
 &
 id
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamTrackInterface
@@ -1874,9 +1847,6 @@ signaling_thread
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderProxyWithInternal
@@ -2081,9 +2051,6 @@ return
 sender
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverProxyWithInternal
@@ -2117,9 +2084,6 @@ signaling_thread
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverProxyWithInternal
@@ -2159,9 +2123,6 @@ signaling_thread
 worker_thread
 (
 )
-rtc
-:
-:
 make_ref_counted
 <
 AudioRtpReceiver
@@ -2230,9 +2191,6 @@ signaling_thread
 worker_thread
 (
 )
-rtc
-:
-:
 make_ref_counted
 <
 VideoRtpReceiver
@@ -2272,9 +2230,6 @@ return
 receiver
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverProxyWithInternal
@@ -2287,9 +2242,6 @@ RtpTransmissionManager
 :
 CreateAndAddTransceiver
 (
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderProxyWithInternal
@@ -2298,9 +2250,6 @@ RtpSenderInternal
 >
 >
 sender
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverProxyWithInternal
@@ -2397,9 +2346,6 @@ Create
 signaling_thread
 (
 )
-rtc
-:
-:
 make_ref_counted
 <
 RtpTransceiver
@@ -2493,9 +2439,6 @@ return
 transceiver
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverProxyWithInternal
@@ -2508,9 +2451,6 @@ RtpTransmissionManager
 :
 FindFirstTransceiverForAddedTrack
 (
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamTrackInterface
@@ -2642,9 +2582,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderProxyWithInternal
@@ -2673,9 +2610,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderProxyWithInternal
@@ -2767,9 +2701,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverProxyWithInternal
@@ -2798,9 +2729,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverProxyWithInternal
@@ -2887,9 +2815,6 @@ return
 all_receivers
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverProxyWithInternal
@@ -2986,9 +2911,6 @@ return
 nullptr
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverProxyWithInternal
@@ -3214,9 +3136,6 @@ track
 id
 (
 )
-rtc
-:
-:
 scoped_refptr
 <
 AudioTrackInterface
@@ -3651,9 +3570,6 @@ track
 id
 (
 )
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackInterface
@@ -3873,9 +3789,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -3887,9 +3800,6 @@ streams
 .
 push_back
 (
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -3935,9 +3845,6 @@ instead
 auto
 audio_receiver
 =
-rtc
-:
-:
 make_ref_counted
 <
 AudioRtpReceiver
@@ -4076,9 +3983,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -4090,9 +3994,6 @@ streams
 .
 push_back
 (
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -4138,9 +4039,6 @@ instead
 auto
 video_receiver
 =
-rtc
-:
-:
 make_ref_counted
 <
 VideoRtpReceiver
@@ -4271,9 +4169,6 @@ remote
 /
 description
 .
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverInterface
@@ -4602,9 +4497,6 @@ sender_info
 .
 stream_id
 ;
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverInterface
@@ -4659,9 +4551,6 @@ RemoveAndStopReceiver
 sender_info
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 AudioTrackInterface
@@ -4734,9 +4623,6 @@ RemoveAndStopReceiver
 sender_info
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 VideoTrackInterface
@@ -5367,9 +5253,6 @@ return
 nullptr
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderProxyWithInternal
@@ -5450,9 +5333,6 @@ return
 nullptr
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderProxyWithInternal
@@ -5537,9 +5417,6 @@ return
 nullptr
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverProxyWithInternal

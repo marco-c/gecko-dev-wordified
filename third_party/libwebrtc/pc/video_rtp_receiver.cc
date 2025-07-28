@@ -384,9 +384,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -406,9 +403,6 @@ receiver_id
 )
 source_
 (
-rtc
-:
-:
 make_ref_counted
 <
 VideoRtpTrackSource
@@ -580,9 +574,6 @@ return
 stream_ids
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransportInterface
@@ -610,9 +601,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -700,9 +688,6 @@ VideoRtpReceiver
 :
 SetFrameDecryptor
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameDecryptorInterface
@@ -762,9 +747,6 @@ frame_decryptor_
 ;
 }
 }
-rtc
-:
-:
 scoped_refptr
 <
 FrameDecryptorInterface
@@ -792,9 +774,6 @@ VideoRtpReceiver
 :
 SetFrameTransformer
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface
@@ -1345,9 +1324,6 @@ VideoRtpReceiver
 :
 set_transport
 (
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransportInterface
@@ -1384,9 +1360,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface

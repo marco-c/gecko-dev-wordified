@@ -357,9 +357,6 @@ TransceiverList
 :
 FindBySender
 (
-rtc
-:
-:
 scoped_refptr
 <
 RtpSenderInterface

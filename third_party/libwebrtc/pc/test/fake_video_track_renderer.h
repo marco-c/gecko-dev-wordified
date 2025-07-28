@@ -135,9 +135,6 @@ class
 FakeVideoTrackRenderer
 :
 public
-cricket
-:
-:
 FakeVideoRenderer
 {
 public
@@ -182,9 +179,6 @@ this
 ;
 }
 private
-:
-rtc
-:
 :
 scoped_refptr
 <

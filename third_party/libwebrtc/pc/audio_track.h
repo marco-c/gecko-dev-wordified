@@ -245,9 +245,6 @@ absl
 string_view
 label
 const
-rtc
-:
-:
 scoped_refptr
 <
 AudioSourceInterface
@@ -292,9 +289,6 @@ override
 public
 :
 static
-rtc
-:
-:
 scoped_refptr
 <
 AudioTrack
@@ -307,9 +301,6 @@ absl
 string_view
 id
 const
-rtc
-:
-:
 scoped_refptr
 <
 AudioSourceInterface
@@ -380,9 +371,6 @@ override
 private
 :
 const
-rtc
-:
-:
 scoped_refptr
 <
 AudioSourceInterface

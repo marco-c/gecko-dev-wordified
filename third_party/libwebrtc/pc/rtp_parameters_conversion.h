@@ -236,7 +236,7 @@ for
 converting
 from
 old
-cricket
+webrtc
 :
 :
 structures
@@ -431,9 +431,6 @@ Codec
 &
 cricket_codecs
 const
-cricket
-:
-:
 RtpHeaderExtensions
 &
 cricket_extensions

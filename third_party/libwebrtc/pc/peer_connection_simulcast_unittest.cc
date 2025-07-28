@@ -584,7 +584,7 @@ testing
 StartsWith
 ;
 using
-cricket
+webrtc
 :
 :
 MediaContentDescription
@@ -711,9 +711,6 @@ nullptr
 )
 {
 }
-rtc
-:
-:
 scoped_refptr
 <
 PeerConnectionInterface
@@ -1037,9 +1034,6 @@ err
 err
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -1176,9 +1170,6 @@ simulcast
 void
 ValidateTransceiverParameters
 (
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -1270,9 +1261,6 @@ layers
 ;
 }
 private
-:
-rtc
-:
 :
 scoped_refptr
 <
@@ -4477,9 +4465,6 @@ layer
 )
 ;
 }
-cricket
-:
-:
 RtpHeaderExtensions
 extensions
 ;

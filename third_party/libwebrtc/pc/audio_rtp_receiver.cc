@@ -366,9 +366,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -399,9 +396,6 @@ receiver_id
 )
 source_
 (
-rtc
-:
-:
 make_ref_counted
 <
 RemoteAudioSource
@@ -858,9 +852,6 @@ volume
 )
 ;
 }
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransportInterface
@@ -969,9 +960,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -1059,9 +1047,6 @@ AudioRtpReceiver
 :
 SetFrameDecryptor
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameDecryptorInterface
@@ -1121,9 +1106,6 @@ frame_decryptor_
 ;
 }
 }
-rtc
-:
-:
 scoped_refptr
 <
 FrameDecryptorInterface
@@ -1572,9 +1554,6 @@ AudioRtpReceiver
 :
 set_transport
 (
-rtc
-:
-:
 scoped_refptr
 <
 DtlsTransportInterface
@@ -1611,9 +1590,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -1889,9 +1865,6 @@ AudioRtpReceiver
 :
 SetFrameTransformer
 (
-rtc
-:
-:
 scoped_refptr
 <
 FrameTransformerInterface

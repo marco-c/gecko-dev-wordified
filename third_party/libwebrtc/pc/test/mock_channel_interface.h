@@ -215,9 +215,6 @@ class
 MockChannelInterface
 :
 public
-cricket
-:
-:
 ChannelInterface
 {
 public
@@ -480,9 +477,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 StreamParams
 >
 &
@@ -503,9 +497,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 StreamParams
 >
 &

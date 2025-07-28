@@ -688,9 +688,6 @@ get
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 PeerConnectionFactoryInterface
@@ -1106,9 +1103,6 @@ last_fake_sctp_transport
 )
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 SctpTransportInterface

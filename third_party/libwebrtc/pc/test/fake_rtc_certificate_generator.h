@@ -1454,7 +1454,7 @@ callback
 ;
 }
 static
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1789,7 +1789,7 @@ nullptr
 }
 else
 {
-rtc
+webrtc
 :
 :
 scoped_refptr

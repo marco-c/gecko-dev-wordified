@@ -610,7 +610,7 @@ srtp_auth_t
 a
 )
 {
-rtc
+webrtc
 :
 :
 ExplicitZeroMemory

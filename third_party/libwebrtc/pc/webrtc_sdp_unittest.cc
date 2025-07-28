@@ -458,12 +458,6 @@ webrtc_sdp
 h
 "
 using
-cricket
-:
-:
-Candidate
-;
-using
 :
 :
 testing
@@ -494,6 +488,12 @@ webrtc
 :
 :
 AudioContentDescription
+;
+using
+webrtc
+:
+:
+Candidate
 ;
 using
 :
@@ -15334,7 +15334,7 @@ simulcast_description
 /
 group
 const
-cricket
+webrtc
 :
 :
 ContentGroups
@@ -15347,7 +15347,7 @@ groups
 )
 ;
 const
-cricket
+webrtc
 :
 :
 ContentGroups
@@ -15459,7 +15459,7 @@ semantics
 )
 ;
 const
-cricket
+webrtc
 :
 :
 ContentNames
@@ -15472,7 +15472,7 @@ content_names
 )
 ;
 const
-cricket
+webrtc
 :
 :
 ContentNames
@@ -15521,7 +15521,7 @@ ADD_FAILURE
 return
 ;
 }
-cricket
+webrtc
 :
 :
 ContentNames
@@ -15536,7 +15536,7 @@ begin
 (
 )
 ;
-cricket
+webrtc
 :
 :
 ContentNames
@@ -15582,7 +15582,7 @@ iter2
 transport
 info
 const
-cricket
+webrtc
 :
 :
 TransportInfos
@@ -15595,7 +15595,7 @@ transport_infos
 )
 ;
 const
-cricket
+webrtc
 :
 :
 TransportInfos
@@ -16773,7 +16773,7 @@ RemoveSsrcSignalingFromStreamParams
 {
 for
 (
-cricket
+webrtc
 :
 :
 ContentInfo
@@ -25327,7 +25327,7 @@ jcandidate
 /
 Make
 a
-cricket
+webrtc
 :
 :
 Candidate
@@ -41115,7 +41115,7 @@ error
 )
 ;
 const
-cricket
+webrtc
 :
 :
 ContentInfos
@@ -41379,7 +41379,7 @@ error
 )
 ;
 const
-cricket
+webrtc
 :
 :
 ContentInfos
@@ -41763,7 +41763,7 @@ error
 )
 ;
 const
-cricket
+webrtc
 :
 :
 ContentInfos
@@ -42075,7 +42075,7 @@ error
 )
 ;
 const
-cricket
+webrtc
 :
 :
 ContentInfos
@@ -42415,7 +42415,7 @@ error
 )
 ;
 const
-cricket
+webrtc
 :
 :
 ContentInfos
@@ -42696,7 +42696,7 @@ error
 )
 ;
 const
-cricket
+webrtc
 :
 :
 ContentInfos
@@ -43088,7 +43088,7 @@ error
 )
 ;
 const
-cricket
+webrtc
 :
 :
 ContentInfos
@@ -43352,7 +43352,7 @@ error
 )
 ;
 const
-cricket
+webrtc
 :
 :
 ContentInfos
@@ -43488,7 +43488,7 @@ error
 )
 ;
 const
-cricket
+webrtc
 :
 :
 ContentInfos
@@ -43696,7 +43696,7 @@ error
 )
 ;
 const
-cricket
+webrtc
 :
 :
 ContentInfos

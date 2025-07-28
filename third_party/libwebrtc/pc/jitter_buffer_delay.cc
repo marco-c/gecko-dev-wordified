@@ -193,9 +193,6 @@ worker_thread_checker_
 return
 SafeClamp
 (
-rtc
-:
-:
 saturated_cast
 <
 int

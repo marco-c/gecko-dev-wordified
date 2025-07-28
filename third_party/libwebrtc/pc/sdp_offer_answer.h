@@ -901,9 +901,6 @@ unique_ptr
 SessionDescriptionInterface
 >
 desc
-rtc
-:
-:
 scoped_refptr
 <
 SetLocalDescriptionObserverInterface
@@ -914,9 +911,6 @@ observer
 void
 SetLocalDescription
 (
-rtc
-:
-:
 scoped_refptr
 <
 SetLocalDescriptionObserverInterface
@@ -954,9 +948,6 @@ unique_ptr
 SessionDescriptionInterface
 >
 desc
-rtc
-:
-:
 scoped_refptr
 <
 SetRemoteDescriptionObserverInterface
@@ -1199,9 +1190,6 @@ DestroyMediaChannels
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 StreamCollectionInterface
@@ -1210,9 +1198,6 @@ local_streams
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 StreamCollectionInterface
@@ -1767,9 +1752,6 @@ PeerConnectionInterface
 RTCOfferAnswerOptions
 &
 options
-rtc
-:
-:
 scoped_refptr
 <
 CreateSessionDescriptionObserver
@@ -1787,9 +1769,6 @@ PeerConnectionInterface
 RTCOfferAnswerOptions
 &
 options
-rtc
-:
-:
 scoped_refptr
 <
 CreateSessionDescriptionObserver
@@ -1808,9 +1787,6 @@ unique_ptr
 SessionDescriptionInterface
 >
 desc
-rtc
-:
-:
 scoped_refptr
 <
 SetLocalDescriptionObserverInterface
@@ -2053,9 +2029,6 @@ streams
 void
 SetAssociatedRemoteStreams
 (
-rtc
-:
-:
 scoped_refptr
 <
 RtpReceiverInternal
@@ -2079,9 +2052,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -2094,9 +2064,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -2231,9 +2198,6 @@ rules
 .
 RTCErrorOr
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverProxyWithInternal
@@ -2356,9 +2320,6 @@ section
 RTCError
 UpdateTransceiverChannel
 (
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverProxyWithInternal
@@ -2564,9 +2525,6 @@ to
 JSEP
 rules
 .
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverProxyWithInternal
@@ -2846,9 +2804,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverProxyWithInternal
@@ -2958,9 +2913,6 @@ void
 ProcessRemovalOfRemoteTrack
 (
 const
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverProxyWithInternal
@@ -2974,9 +2926,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 RtpTransceiverInterface
@@ -2989,9 +2938,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -3010,9 +2956,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -3025,9 +2968,6 @@ std
 :
 vector
 <
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
@@ -4394,9 +4334,6 @@ via
 AddStream
 .
 const
-rtc
-:
-:
 scoped_refptr
 <
 StreamCollection
@@ -4420,9 +4357,6 @@ of
 SetRemoteDescription
 .
 const
-rtc
-:
-:
 scoped_refptr
 <
 StreamCollection
@@ -4538,9 +4472,6 @@ operations
 -
 chain
 .
-rtc
-:
-:
 scoped_refptr
 <
 OperationsChain
@@ -4869,9 +4800,6 @@ msid
 "
 )
 .
-rtc
-:
-:
 scoped_refptr
 <
 MediaStreamInterface
