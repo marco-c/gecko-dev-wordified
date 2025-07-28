@@ -246,7 +246,7 @@ viewCertButton
 addEventListener
 (
 "
-click
+command
 "
 (
 )
