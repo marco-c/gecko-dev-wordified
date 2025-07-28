@@ -132,6 +132,7 @@ targetFront
 )
 {
 return
+async
 (
 {
 getState
@@ -336,6 +337,7 @@ pretty
 printed
 source
 .
+await
 dispatch
 (
 removeSources
