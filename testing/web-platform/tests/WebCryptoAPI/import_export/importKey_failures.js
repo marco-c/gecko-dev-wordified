@@ -2222,13 +2222,13 @@ test
 data
 .
 x
-d
+y
 :
 test
 .
 data
 .
-d
+y
 }
 ;
 data
