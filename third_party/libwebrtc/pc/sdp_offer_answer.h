@@ -1885,12 +1885,6 @@ IsUnifiedPlan
 (
 )
 const
-RTC_RUN_ON
-(
-signaling_thread
-(
-)
-)
 ;
 /
 /
