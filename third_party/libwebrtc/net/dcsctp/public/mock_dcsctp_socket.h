@@ -134,7 +134,7 @@ MOCK_METHOD
 void
 ReceivePacket
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -305,7 +305,7 @@ SendStatus
 >
 SendMany
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -328,7 +328,7 @@ MOCK_METHOD
 ResetStreamsStatus
 ResetStreams
 (
-rtc
+webrtc
 :
 :
 ArrayView

@@ -250,7 +250,7 @@ kType
 explicit
 StateCookieParameter
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -286,7 +286,7 @@ StateCookieParameter
 >
 Parse
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -323,7 +323,7 @@ ToString
 const
 override
 ;
-rtc
+webrtc
 :
 :
 ArrayView

@@ -518,7 +518,7 @@ descriptors
 )
 const
 {
-rtc
+webrtc
 :
 :
 ArrayView
@@ -645,7 +645,7 @@ Parameters
 :
 Parse
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -662,7 +662,7 @@ Validate
 the
 parameter
 descriptors
-rtc
+webrtc
 :
 :
 ArrayView

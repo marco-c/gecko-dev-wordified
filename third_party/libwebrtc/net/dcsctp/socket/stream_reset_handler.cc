@@ -2780,7 +2780,7 @@ StreamResetHandler
 :
 ResetStreams
 (
-rtc
+webrtc
 :
 :
 ArrayView

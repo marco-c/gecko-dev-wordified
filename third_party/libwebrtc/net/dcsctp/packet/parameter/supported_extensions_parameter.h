@@ -288,7 +288,7 @@ SupportedExtensionsParameter
 >
 Parse
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -360,7 +360,7 @@ end
 )
 ;
 }
-rtc
+webrtc
 :
 :
 ArrayView

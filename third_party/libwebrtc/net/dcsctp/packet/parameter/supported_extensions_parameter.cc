@@ -666,7 +666,7 @@ SupportedExtensionsParameter
 :
 Parse
 (
-rtc
+webrtc
 :
 :
 ArrayView

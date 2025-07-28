@@ -251,7 +251,7 @@ kType
 explicit
 UnresolvableAddressCause
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -287,7 +287,7 @@ UnresolvableAddressCause
 >
 Parse
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -324,7 +324,7 @@ ToString
 const
 override
 ;
-rtc
+webrtc
 :
 :
 ArrayView

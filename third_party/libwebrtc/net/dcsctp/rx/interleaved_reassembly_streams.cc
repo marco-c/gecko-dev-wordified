@@ -1632,7 +1632,7 @@ UnwrappedTSN
 new_cumulative_ack_tsn
 *
 /
-rtc
+webrtc
 :
 :
 ArrayView
@@ -1695,7 +1695,7 @@ InterleavedReassemblyStreams
 :
 ResetStreams
 (
-rtc
+webrtc
 :
 :
 ArrayView

@@ -530,7 +530,7 @@ WillByDefault
 this
 ]
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -743,7 +743,7 @@ MOCK_METHOD
 SendPacketStatus
 SendPacketWithStatus
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -924,7 +924,7 @@ MOCK_METHOD
 void
 OnStreamsResetFailed
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -949,7 +949,7 @@ MOCK_METHOD
 void
 OnStreamsResetPerformed
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -969,7 +969,7 @@ MOCK_METHOD
 void
 OnIncomingStreamsReset
 (
-rtc
+webrtc
 :
 :
 ArrayView

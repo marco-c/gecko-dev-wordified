@@ -1962,7 +1962,7 @@ virtual
 void
 SendPacket
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -2021,7 +2021,7 @@ virtual
 SendPacketStatus
 SendPacketWithStatus
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -3017,7 +3017,7 @@ virtual
 void
 OnStreamsResetFailed
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -3068,7 +3068,7 @@ virtual
 void
 OnStreamsResetPerformed
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -3132,7 +3132,7 @@ virtual
 void
 OnIncomingStreamsReset
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -4054,7 +4054,7 @@ virtual
 void
 ReceivePacket
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -4586,7 +4586,7 @@ SendStatus
 >
 SendMany
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -4771,7 +4771,7 @@ virtual
 ResetStreamsStatus
 ResetStreams
 (
-rtc
+webrtc
 :
 :
 ArrayView

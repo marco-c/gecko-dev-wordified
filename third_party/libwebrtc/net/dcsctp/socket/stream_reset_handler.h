@@ -930,7 +930,7 @@ completed
 void
 ResetStreams
 (
-rtc
+webrtc
 :
 :
 ArrayView

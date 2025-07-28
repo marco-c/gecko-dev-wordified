@@ -281,7 +281,7 @@ ParameterDescriptor
 (
 uint16_t
 type
-rtc
+webrtc
 :
 :
 ArrayView
@@ -305,7 +305,7 @@ data
 uint16_t
 type
 ;
-rtc
+webrtc
 :
 :
 ArrayView
@@ -383,7 +383,7 @@ Parameters
 >
 Parse
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -422,7 +422,7 @@ other
 =
 default
 ;
-rtc
+webrtc
 :
 :
 ArrayView

@@ -241,7 +241,7 @@ kType
 explicit
 HeartbeatInfoParameter
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -277,7 +277,7 @@ HeartbeatInfoParameter
 >
 Parse
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -314,7 +314,7 @@ ToString
 const
 override
 ;
-rtc
+webrtc
 :
 :
 ArrayView

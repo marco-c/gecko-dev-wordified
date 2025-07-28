@@ -250,7 +250,7 @@ HandleForwardTsn
 (
 UnwrappedTSN
 new_cumulative_ack_tsn
-rtc
+webrtc
 :
 :
 ArrayView
@@ -268,7 +268,7 @@ override
 void
 ResetStreams
 (
-rtc
+webrtc
 :
 :
 ArrayView

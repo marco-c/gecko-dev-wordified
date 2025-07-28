@@ -244,7 +244,7 @@ kType
 explicit
 RestartOfAnAssociationWithNewAddressesCause
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -280,7 +280,7 @@ RestartOfAnAssociationWithNewAddressesCause
 >
 Parse
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -317,7 +317,7 @@ ToString
 const
 override
 ;
-rtc
+webrtc
 :
 :
 ArrayView

@@ -900,7 +900,7 @@ function
 <
 void
 (
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -923,7 +923,7 @@ receiver
 void
 SendPacket
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -941,7 +941,7 @@ SendPacket
 (
 source_address_
 dest_address_
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -1003,7 +1003,7 @@ function
 <
 void
 (
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -1173,7 +1173,7 @@ SetReceiver
 this
 ]
 (
-rtc
+webrtc
 :
 :
 CopyOnWriteBuffer
@@ -1367,7 +1367,7 @@ kPrintBandwidthDuration
 void
 SendPacket
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -1603,7 +1603,7 @@ override
 void
 OnStreamsResetFailed
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -1632,7 +1632,7 @@ override
 void
 OnStreamsResetPerformed
 (
-rtc
+webrtc
 :
 :
 ArrayView
@@ -1652,7 +1652,7 @@ override
 void
 OnIncomingStreamsReset
 (
-rtc
+webrtc
 :
 :
 ArrayView
