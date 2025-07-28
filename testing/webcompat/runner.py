@@ -393,6 +393,24 @@ level
 "
                 
 log_level
+                
+"
+-
+-
+capture
+=
+no
+"
+                
+"
+-
+-
+show
+-
+capture
+=
+no
+"
             
 ]
             

@@ -2357,6 +2357,14 @@ webSocketUrl
 "
 :
 True
+            
+"
+unhandledPromptBehavior
+"
+:
+"
+dismiss
+"
         
 }
     
