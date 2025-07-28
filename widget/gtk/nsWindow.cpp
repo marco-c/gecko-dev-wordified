@@ -15270,6 +15270,12 @@ flag
 if
 (
 aMove
+|
+|
+!
+mPopupMoveToRectParams
+.
+mAnchorSet
 )
 {
 mPopupMoveToRectParams
