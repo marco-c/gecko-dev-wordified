@@ -612,6 +612,15 @@ sequence_checker_
 =
 false
 ;
+uint32_t
+pending_packet_pos_
+RTC_GUARDED_BY
+(
+sequence_checker_
+)
+=
+0
+;
 std
 :
 :
