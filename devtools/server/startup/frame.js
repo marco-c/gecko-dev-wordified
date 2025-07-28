@@ -767,6 +767,9 @@ WindowGlobalTargetActor
 conn
 {
 docShell
+ignoreSubFrames
+:
+false
 isTopLevelTarget
 :
 true

@@ -335,18 +335,6 @@ paused
 "
 )
 ;
-if
-(
-isFissionEnabled
-(
-)
-|
-|
-isEveryFrameTargetEnabled
-(
-)
-)
-{
 info
 (
 "
@@ -454,7 +442,6 @@ resume
 await
 onReloaded
 ;
-}
 }
 )
 ;

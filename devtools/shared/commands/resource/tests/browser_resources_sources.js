@@ -995,17 +995,11 @@ javascriptURL
 "
 sourceMapBaseURL
 :
-isEveryFrameTargetEnabled
-(
-)
-?
 "
 about
 :
 blank
 "
-:
-TEST_URL
 url
 :
 null

@@ -341,10 +341,6 @@ outerFrameHighlighterTestFront
 .
 assertHighlightedNode
 (
-isEveryFrameTargetEnabled
-(
-)
-?
 outerFrameMainSelector
 .
 at
@@ -352,8 +348,6 @@ at
 -
 1
 )
-:
-outerFrameMainSelector
 )
 "
 outerFrameDiv
@@ -387,10 +381,6 @@ innerFrameHighlighterTestFront
 .
 assertHighlightedNode
 (
-isEveryFrameTargetEnabled
-(
-)
-?
 innerFrameSectionSelector
 .
 at
@@ -398,8 +388,6 @@ at
 -
 1
 )
-:
-innerFrameSectionSelector
 )
 "
 innerFrameDiv

@@ -400,18 +400,6 @@ bodySelectorWithinHighlighterEnv
 =
 iframeBodySelector
 ;
-if
-(
-isFissionEnabled
-(
-)
-|
-|
-isEveryFrameTargetEnabled
-(
-)
-)
-{
 const
 target
 =
@@ -491,7 +479,6 @@ body
 "
 ]
 ;
-}
 info
 (
 "

@@ -1275,7 +1275,6 @@ _browserElement
 }
 getAllBrowsingContexts
 (
-options
 )
 {
 return
@@ -1284,7 +1283,6 @@ getAllBrowsingContextsForContext
 this
 .
 sessionContext
-options
 )
 ;
 }

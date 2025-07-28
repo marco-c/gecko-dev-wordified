@@ -532,18 +532,6 @@ related
 target
 is
 destroyed
-if
-(
-isFissionEnabled
-(
-)
-|
-|
-isEveryFrameTargetEnabled
-(
-)
-)
-{
 info
 (
 "
@@ -634,7 +622,6 @@ one
 "
 )
 ;
-}
 }
 )
 ;
