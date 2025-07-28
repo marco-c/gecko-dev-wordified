@@ -227,13 +227,17 @@ color
 "
 "
 import
-os
-re
-sys
-collections
-traceback
 argparse
+import
+collections
+import
 json
+import
+os
+import
+re
+import
+sys
 BLACK
 RED
 GREEN
@@ -292,7 +296,6 @@ long
 "
 float
 "
-                   
 "
 double
 "
@@ -345,6 +348,7 @@ if
 not
 USE_COLOR
 :
+        
 return
 "
 "
@@ -357,6 +361,7 @@ codes
 if
 reset
 :
+        
 codes
 .
 append
@@ -375,6 +380,7 @@ fg
 is
 None
 :
+            
 codes
 .
 append
@@ -401,6 +407,7 @@ if
 not
 bright
 :
+                
 codes
 .
 append
@@ -418,6 +425,7 @@ bg
             
 else
 :
+                
 codes
 .
 append
@@ -436,6 +444,7 @@ bg
 if
 bold
 :
+            
 codes
 .
 append
@@ -448,6 +457,7 @@ append
 elif
 dim
 :
+            
 codes
 .
 append
@@ -459,6 +469,7 @@ append
         
 else
 :
+            
 codes
 .
 append
@@ -606,8 +617,6 @@ return
 raw
 class
 Annotation
-(
-)
 :
     
 def
@@ -632,9 +641,9 @@ line
 .
 find
 (
-'
+"
 (
-'
+"
 )
         
 arg_end
@@ -643,9 +652,9 @@ line
 .
 find
 (
-'
+"
 )
-'
+"
 )
         
 if
@@ -760,9 +769,9 @@ argument
 .
 find
 (
-'
+"
 =
-'
+"
 )
             
 parsed
@@ -923,8 +932,6 @@ self
 raw
 class
 Field
-(
-)
 :
     
 def
@@ -1005,33 +1012,43 @@ for
 r
 in
 [
+            
 "
 field
 "
+            
 "
 enum_constant
 "
+            
 "
 volatile
 "
+            
 "
 transient
 "
+            
 "
 public
 "
+            
 "
 protected
 "
+            
 "
 static
 "
+            
 "
 final
 "
+            
 "
 deprecated
 "
+        
 ]
 :
             
@@ -1040,6 +1057,7 @@ r
 in
 raw
 :
+                
 raw
 .
 remove
@@ -1062,10 +1080,12 @@ a
 blame
 imports
 )
+            
 for
 a
 in
 raw
+            
 if
 a
 .
@@ -1074,6 +1094,7 @@ startswith
 "
 "
 )
+        
 ]
         
 raw
@@ -1234,8 +1255,6 @@ self
 raw
 class
 Argument
-(
-)
 :
     
 def
@@ -1278,10 +1297,12 @@ a
 blame
 imports
 )
+            
 for
 a
 in
 raw
+            
 if
 a
 .
@@ -1290,6 +1311,7 @@ startswith
 "
 "
 )
+        
 ]
         
 raw
@@ -1364,6 +1386,7 @@ self
         
 return
 (
+            
 "
 "
 .
@@ -1393,6 +1416,7 @@ self
 .
 typ
 )
+        
 )
 .
 strip
@@ -1562,9 +1586,9 @@ i
 ]
 =
 =
-'
+"
 <
-'
+"
 :
             
 caret
@@ -1581,9 +1605,9 @@ i
 ]
 =
 =
-'
+"
 >
-'
+"
 :
             
 caret
@@ -1600,9 +1624,9 @@ i
 ]
 =
 =
-'
+"
 (
-'
+"
 :
             
 parens
@@ -1619,9 +1643,9 @@ i
 ]
 =
 =
-'
+"
 )
-'
+"
 :
             
 parens
@@ -1631,12 +1655,13 @@ parens
         
 elif
 (
+            
 i
 >
 =
 separator_len
+            
 and
-                
 re
 .
 match
@@ -1651,17 +1676,19 @@ separator_len
 i
 ]
 )
+            
 and
-                
 caret
 =
 =
 0
+            
 and
 parens
 =
 =
 0
+        
 )
 :
             
@@ -1699,8 +1726,6 @@ unparsed
 )
 class
 Method
-(
-)
 :
     
 def
@@ -1727,9 +1752,9 @@ line
 .
 find
 (
-'
+"
 (
-'
+"
 )
         
 arg_end
@@ -1738,9 +1763,9 @@ line
 .
 find
 (
-'
+"
 )
-'
+"
 )
         
 arguments
@@ -1841,6 +1866,7 @@ r
 in
 raw
 :
+                
 raw
 .
 remove
@@ -1881,30 +1907,39 @@ for
 r
 in
 [
+            
 "
 public
 "
+            
 "
 protected
 "
+            
 "
 static
 "
+            
 "
 final
 "
+            
 "
 synchronized
 "
+            
 "
 deprecated
 "
+            
 "
 abstract
 "
+            
 "
 default
 "
+        
 ]
 :
             
@@ -1913,6 +1948,7 @@ r
 in
 raw
 :
+                
 raw
 .
 remove
@@ -1935,10 +1971,12 @@ a
 blame
 imports
 )
+            
 for
 a
 in
 raw
+            
 if
 a
 .
@@ -1947,6 +1985,7 @@ startswith
 "
 "
 )
+        
 ]
         
 raw
@@ -2128,6 +2167,7 @@ s
 "
 %
 (
+            
 self
 .
 typ
@@ -2135,10 +2175,11 @@ typ
 ident
 (
 )
+            
 self
 .
 name
-                                           
+            
 "
 "
 .
@@ -2158,6 +2199,7 @@ self
 .
 args
 )
+        
 )
     
 def
@@ -2188,8 +2230,6 @@ self
 raw
 class
 Type
-(
-)
 :
     
 def
@@ -2272,6 +2312,7 @@ self
 extends
 =
 [
+                
 Type
 (
 clazz
@@ -2285,6 +2326,7 @@ for
 e
 in
 extends
+            
 ]
         
 else
@@ -2342,6 +2384,7 @@ self
 generics
 =
 [
+                
 Type
 (
 clazz
@@ -2361,6 +2404,7 @@ generics_string
 "
 "
 )
+            
 ]
             
 raw
@@ -2675,8 +2719,6 @@ ident
 )
 class
 Location
-(
-)
 :
     
 def
@@ -2715,6 +2757,8 @@ self
 :
         
 return
+(
+            
 os
 .
 path
@@ -2725,10 +2769,12 @@ self
 .
 fileName
 )
+            
 +
 "
 :
 "
+            
 +
 str
 (
@@ -2736,10 +2782,12 @@ self
 .
 line
 )
+            
 +
 "
 :
 "
+            
 +
 str
 (
@@ -2747,10 +2795,10 @@ self
 .
 column
 )
+        
+)
 class
 Class
-(
-)
 :
     
 def
@@ -2972,6 +3020,7 @@ extends
 =
 Type
 (
+                
 self
 None
 raw
@@ -2988,9 +3037,9 @@ extends
 1
 ]
 location
-                                
 blame
 imports
+            
 )
             
 self
@@ -3040,6 +3089,7 @@ self
 implements
 =
 [
+                
 Type
 (
 self
@@ -3049,6 +3099,7 @@ location
 blame
 imports
 )
+                
 for
 r
 in
@@ -3066,6 +3117,7 @@ implements
 1
 :
 ]
+            
 ]
         
 else
@@ -3093,10 +3145,12 @@ a
 blame
 imports
 )
+            
 for
 a
 in
 raw
+            
 if
 a
 .
@@ -3105,6 +3159,7 @@ startswith
 "
 "
 )
+        
 ]
         
 if
@@ -3123,6 +3178,7 @@ generics
 =
 Type
 (
+                
 self
 None
 self
@@ -3130,8 +3186,8 @@ self
 fullname
 location
 blame
-                                 
 imports
+            
 )
 .
 generics
@@ -3234,6 +3290,7 @@ self
 return
 hash
 (
+            
 (
 self
 .
@@ -3257,6 +3314,7 @@ self
 methods
 )
 )
+        
 )
     
 def
@@ -3272,8 +3330,6 @@ self
 raw
 class
 Package
-(
-)
 :
     
 def
@@ -3795,8 +3851,6 @@ return
 api
 class
 Failure
-(
-)
 :
     
 def
@@ -3887,6 +3941,7 @@ s
 "
 %
 (
+                
 format
 (
 fg
@@ -3899,16 +3954,20 @@ bold
 =
 True
 )
+                
 self
 .
 head
+                
 format
 (
 reset
 =
 True
 )
+                
 msg
+            
 )
         
 else
@@ -3949,6 +4008,7 @@ s
 "
 %
 (
+                
 format
 (
 fg
@@ -3961,16 +4021,20 @@ bold
 =
 True
 )
+                
 self
 .
 head
+                
 format
 (
 reset
 =
 True
 )
+                
 msg
+            
 )
         
 self
@@ -4144,33 +4208,33 @@ self
 return
 {
             
-'
+"
 rule
-'
+"
 :
 self
 .
 rule
             
-'
+"
 msg
-'
+"
 :
 self
 .
 msg
             
-'
+"
 error
-'
+"
 :
 self
 .
 error
             
-'
+"
 detail
-'
+"
 :
 repr
 (
@@ -4179,9 +4243,9 @@ self
 detail
 )
             
-'
+"
 file
-'
+"
 :
 self
 .
@@ -4189,9 +4253,9 @@ location
 .
 fileName
             
-'
+"
 line
-'
+"
 :
 int
 (
@@ -4202,9 +4266,9 @@ location
 line
 )
             
-'
+"
 column
-'
+"
 :
 int
 (
@@ -4215,9 +4279,9 @@ location
 column
 )
             
-'
+"
 class
-'
+"
 :
 repr
 (
@@ -4226,9 +4290,9 @@ self
 clazz
 )
             
-'
+"
 pkg
-'
+"
 :
 repr
 (
@@ -4550,6 +4614,7 @@ clazz
 fullname
 )
 :
+        
 return
     
 if
@@ -4568,6 +4633,7 @@ Build
 "
 )
 :
+        
 return
     
 if
@@ -4584,11 +4650,13 @@ system
 OsConstants
 "
 :
+        
 return
     
 req
 =
 [
+        
 "
 java
 .
@@ -4596,30 +4664,39 @@ lang
 .
 String
 "
+        
 "
 byte
 "
+        
 "
 short
 "
+        
 "
 int
 "
+        
 "
 long
 "
+        
 "
 float
 "
+        
 "
 double
 "
+        
 "
 boolean
 "
+        
 "
 char
 "
+    
 ]
     
 for
@@ -4729,11 +4806,15 @@ MAX_
                     
 warn
 (
+                        
 clazz
+                        
 f
+                        
 "
 C8
 "
+                        
 "
 If
 min
@@ -4748,6 +4829,7 @@ them
 dynamic
 methods
 "
+                    
 )
             
 if
@@ -4866,6 +4948,7 @@ opengl
 "
 )
 :
+        
 return
     
 if
@@ -4882,6 +4965,7 @@ renderscript
 "
 )
 :
+        
 return
     
 if
@@ -4909,6 +4993,7 @@ clazz
 fullname
 )
 :
+        
 return
     
 if
@@ -5061,6 +5146,7 @@ opengl
 "
 )
 :
+        
 return
     
 if
@@ -5077,6 +5163,7 @@ renderscript
 "
 )
 :
+        
 return
     
 if
@@ -5093,6 +5180,7 @@ system
 OsConstants
 "
 :
+        
 return
     
 for
@@ -5129,11 +5217,15 @@ None
             
 warn
 (
+                
 clazz
+                
 m
+                
 "
 S1
 "
+                
 "
 Method
 names
@@ -5150,6 +5242,7 @@ getMTU
 (
 )
 "
+            
 )
         
 if
@@ -5241,6 +5334,7 @@ tts
 SynthesisCallback
 "
 :
+        
 return
     
 if
@@ -5327,11 +5421,15 @@ split
             
 error
 (
+                
 clazz
+                
 None
+                
 "
 CL3
 "
+                
 "
 Callbacks
 must
@@ -5346,6 +5444,7 @@ future
 API
 levels
 "
+            
 )
         
 for
@@ -5485,11 +5584,15 @@ raw
             
 error
 (
+                
 clazz
+                
 None
+                
 "
 L1
 "
+                
 "
 Listeners
 should
@@ -5501,6 +5604,7 @@ otherwise
 renamed
 Callback
 "
+            
 )
         
 for
@@ -5616,6 +5720,7 @@ lower
                 
 error
 (
+                    
 clazz
 m
 "
@@ -5631,6 +5736,7 @@ match
 class
 name
 "
+                
 )
 def
 verify_actions
@@ -5709,6 +5815,7 @@ value
 is
 None
 :
+            
 continue
         
 if
@@ -5723,6 +5830,7 @@ EXTRA_
 "
 )
 :
+            
 continue
         
 if
@@ -5744,6 +5852,7 @@ name
 PROVIDER_INTERFACE
 "
 :
+            
 continue
         
 if
@@ -5755,9 +5864,12 @@ f
 .
 name
 :
+            
 continue
         
 if
+(
+            
 "
 static
 "
@@ -5765,6 +5877,7 @@ in
 f
 .
 split
+            
 and
 "
 final
@@ -5773,6 +5886,7 @@ in
 f
 .
 split
+            
 and
 f
 .
@@ -5788,9 +5902,13 @@ lang
 .
 String
 "
+        
+)
 :
             
 if
+(
+                
 "
 _ACTION
 "
@@ -5798,6 +5916,7 @@ in
 f
 .
 name
+                
 or
 "
 ACTION_
@@ -5806,6 +5925,7 @@ in
 f
 .
 name
+                
 or
 "
 .
@@ -5819,6 +5939,8 @@ value
 .
 lower
 (
+)
+            
 )
 :
                 
@@ -5838,6 +5960,7 @@ ACTION_
                     
 error
 (
+                        
 clazz
 f
 "
@@ -5852,6 +5975,7 @@ must
 be
 ACTION_FOO
 "
+                    
 )
                 
 else
@@ -5906,6 +6030,8 @@ settings
 "
                     
 elif
+(
+                        
 clazz
 .
 fullname
@@ -5920,6 +6046,7 @@ admin
 .
 DevicePolicyManager
 "
+                        
 or
 clazz
 .
@@ -5935,6 +6062,8 @@ admin
 .
 DeviceAdminReceiver
 "
+                    
+)
 :
                         
 prefix
@@ -5990,11 +6119,15 @@ expected
                         
 error
 (
+                            
 clazz
+                            
 f
+                            
 "
 C4
 "
+                            
 "
 Inconsistent
 action
@@ -6010,6 +6143,7 @@ s
 (
 expected
 )
+                        
 )
 def
 verify_extras
@@ -6087,6 +6221,7 @@ app
 Notification
 "
 :
+        
 return
     
 if
@@ -6103,6 +6238,7 @@ appwidget
 AppWidgetManager
 "
 :
+        
 return
     
 for
@@ -6120,6 +6256,7 @@ value
 is
 None
 :
+            
 continue
         
 if
@@ -6134,9 +6271,12 @@ ACTION_
 "
 )
 :
+            
 continue
         
 if
+(
+            
 "
 static
 "
@@ -6144,6 +6284,7 @@ in
 f
 .
 split
+            
 and
 "
 final
@@ -6152,6 +6293,7 @@ in
 f
 .
 split
+            
 and
 f
 .
@@ -6167,6 +6309,8 @@ lang
 .
 String
 "
+        
+)
 :
             
 if
@@ -6337,11 +6481,15 @@ expected
                         
 error
 (
+                            
 clazz
+                            
 f
+                            
 "
 C4
 "
+                            
 "
 Inconsistent
 extra
@@ -6357,6 +6505,7 @@ s
 (
 expected
 )
+                        
 )
 def
 verify_equals
@@ -6411,6 +6560,7 @@ m
 .
 raw
 :
+            
 continue
         
 if
@@ -6430,6 +6580,7 @@ m
 .
 raw
 :
+            
 eq
 =
 True
@@ -6446,6 +6597,7 @@ m
 .
 raw
 :
+            
 hc
 =
 True
@@ -6607,11 +6759,15 @@ describe
             
 error
 (
+                
 clazz
+                
 None
+                
 "
 FW3
 "
+                
 "
 Parcelable
 requires
@@ -6623,10 +6779,10 @@ describeContents
 missing
 one
 "
+            
 )
         
 if
-(
 (
 "
 final
@@ -6639,8 +6795,8 @@ clazz
 raw
 )
 and
-            
 (
+            
 "
 final
 deprecated
@@ -6651,7 +6807,7 @@ in
 clazz
 .
 raw
-)
+        
 )
 :
             
@@ -6713,11 +6869,15 @@ Parcel
                 
 error
 (
+                    
 clazz
+                    
 c
+                    
 "
 FW3
 "
+                    
 "
 Parcelable
 inflation
@@ -6729,6 +6889,7 @@ not
 raw
 constructors
 "
+                
 )
 def
 verify_protected
@@ -6895,11 +7056,15 @@ ctors
         
 error
 (
+            
 clazz
+            
 None
+            
 "
 GV1
 "
+            
 "
 Field
 -
@@ -6914,6 +7079,7 @@ for
 mocking
 .
 "
+        
 )
     
 if
@@ -7134,11 +7300,15 @@ has_annotation
             
 error
 (
+                
 clazz
+                
 f
+                
 "
 GV3
 "
+                
 "
 Method
 missing
@@ -7162,6 +7332,7 @@ BinderThread
 AnyThread
 .
 "
+            
 )
 def
 verify_nullability_annotations
@@ -7265,6 +7436,7 @@ typ
 is_array
 and
 (
+            
 subject
 .
 typ
@@ -7276,7 +7448,6 @@ name
 void
 "
 or
-                
 subject
 .
 typ
@@ -7284,6 +7455,7 @@ typ
 name
 in
 PRIMITIVE_TYPES
+        
 )
 :
             
@@ -7314,11 +7486,6 @@ True
 return
 False
     
-methods
-=
-[
-]
-    
 for
 f
 in
@@ -7337,11 +7504,15 @@ f
             
 error
 (
+                
 clazz
+                
 f
+                
 "
 GV4
 "
+                
 "
 Missing
 return
@@ -7359,6 +7530,7 @@ Nullable
 NonNull
 .
 "
+            
 )
         
 for
@@ -7379,11 +7551,15 @@ a
                 
 error
 (
+                    
 clazz
+                    
 a
+                    
 "
 GV5
 "
+                    
 "
 Missing
 argument
@@ -7401,6 +7577,7 @@ Nullable
 NonNull
 .
 "
+                
 )
     
 for
@@ -7457,11 +7634,15 @@ f
             
 error
 (
+                
 clazz
+                
 f
+                
 "
 GV4
 "
+                
 "
 Missing
 field
@@ -7479,6 +7660,7 @@ Nullable
 NonNull
 .
 "
+            
 )
 def
 verify_default_impl
@@ -7563,11 +7745,15 @@ split
             
 error
 (
+                
 clazz
+                
 f
+                
 "
 GV6
 "
+                
 "
 All
 interface
@@ -7584,6 +7770,7 @@ for
 backwards
 compatibility
 "
+            
 )
 def
 verify_fields
@@ -7916,11 +8103,15 @@ remove
                 
 error
 (
+                    
 clazz
+                    
 m
+                    
 "
 L3
 "
+                    
 "
 Callback
 methods
@@ -7931,6 +8122,7 @@ register
 /
 unregister
 "
+                
 )
         
 if
@@ -8183,6 +8375,7 @@ name
 Intent
 "
 :
+        
 return
     
 for
@@ -8241,11 +8434,15 @@ else
                 
 warn
 (
+                    
 clazz
+                    
 m
+                    
 "
 FW1
 "
+                    
 "
 Methods
 creating
@@ -8258,6 +8455,7 @@ createFooIntent
 (
 )
 "
+                
 )
 def
 verify_helper_classes
@@ -8352,10 +8550,6 @@ FooService
 "
 )
         
-found
-=
-False
-        
 for
 f
 in
@@ -8375,10 +8569,6 @@ SERVICE_INTERFACE
 "
 :
                 
-found
-=
-True
-                
 if
 f
 .
@@ -8392,11 +8582,15 @@ fullname
                     
 error
 (
+                        
 clazz
+                        
 f
+                        
 "
 C4
 "
+                        
 "
 Inconsistent
 interface
@@ -8408,12 +8602,14 @@ expected
 s
 '
 "
+                        
 %
 (
 clazz
 .
 fullname
 )
+                    
 )
     
 if
@@ -8467,10 +8663,6 @@ FooProvider
 "
 )
         
-found
-=
-False
-        
 for
 f
 in
@@ -8490,10 +8682,6 @@ PROVIDER_INTERFACE
 "
 :
                 
-found
-=
-True
-                
 if
 f
 .
@@ -8507,11 +8695,15 @@ fullname
                     
 error
 (
+                        
 clazz
+                        
 f
+                        
 "
 C4
 "
+                        
 "
 Inconsistent
 interface
@@ -8523,12 +8715,14 @@ expected
 s
 '
 "
+                        
 %
 (
 clazz
 .
 fullname
 )
+                    
 )
     
 if
@@ -8654,6 +8848,7 @@ m
 .
 split
 :
+                
 continue
             
 if
@@ -8688,9 +8883,13 @@ split
                     
 warn
 (
+                        
 clazz
+                        
 m
+                        
 None
+                        
 "
 Methods
 implemented
@@ -8703,6 +8902,7 @@ onFoo
 (
 )
 "
+                    
 )
                 
 else
@@ -8710,9 +8910,13 @@ else
                     
 warn
 (
+                        
 clazz
+                        
 m
+                        
 None
+                        
 "
 If
 implemented
@@ -8730,6 +8934,7 @@ consider
 marking
 final
 "
+                    
 )
 def
 verify_builder
@@ -8768,6 +8973,7 @@ clazz
 .
 raw
 :
+        
 return
     
 if
@@ -8783,6 +8989,7 @@ Builder
 "
 )
 :
+        
 return
     
 if
@@ -8853,6 +9060,7 @@ get
 "
 )
 :
+            
 continue
         
 if
@@ -8867,6 +9075,7 @@ clear
 "
 )
 :
+            
 continue
         
 if
@@ -8985,6 +9194,8 @@ AIDL
 "
     
 if
+(
+        
 "
 extends
 android
@@ -8997,6 +9208,7 @@ in
 clazz
 .
 raw
+        
 or
 "
 implements
@@ -9010,6 +9222,8 @@ in
 clazz
 .
 raw
+    
+)
 :
         
 error
@@ -9116,51 +9330,61 @@ ranking
 [
         
 [
+            
 "
 android
 .
 service
 "
+            
 "
 android
 .
 accessibilityservice
 "
+            
 "
 android
 .
 inputmethodservice
 "
+            
 "
 android
 .
 printservice
 "
+            
 "
 android
 .
 appwidget
 "
+            
 "
 android
 .
 webkit
 "
+            
 "
 android
 .
 preference
 "
+            
 "
 android
 .
 gesture
 "
+            
 "
 android
 .
 print
 "
+        
 ]
         
 "
@@ -9287,6 +9511,7 @@ startswith
 j
 )
 :
+                        
 return
 i
             
@@ -9304,6 +9529,7 @@ i
 ]
 )
 :
+                    
 return
 i
     
@@ -9323,6 +9549,7 @@ cr
 is
 None
 :
+        
 return
     
 for
@@ -9488,6 +9715,7 @@ is_get
 m
 )
 :
+        
 return
 len
 (
@@ -9516,6 +9744,7 @@ is_set
 m
 )
 :
+        
 return
 len
 (
@@ -9542,23 +9771,6 @@ name
 "
 boolean
 "
-    
-gets
-=
-[
-m
-for
-m
-in
-clazz
-.
-methods
-if
-is_get
-(
-m
-)
-]
     
 sets
 =
@@ -9604,11 +9816,15 @@ actual
                 
 error
 (
+                    
 clazz
+                    
 m
+                    
 "
 M6
 "
+                    
 "
 Symmetric
 method
@@ -9626,6 +9842,7 @@ s
 trigger
 expected
 )
+                
 )
     
 for
@@ -9930,11 +10147,13 @@ os
 Bundle
 "
 :
+        
 return
     
 bad
 =
 [
+        
 "
 java
 .
@@ -9942,6 +10161,7 @@ util
 .
 Vector
 "
+        
 "
 java
 .
@@ -9949,6 +10169,7 @@ util
 .
 LinkedList
 "
+        
 "
 java
 .
@@ -9956,6 +10177,7 @@ util
 .
 ArrayList
 "
+        
 "
 java
 .
@@ -9963,7 +10185,7 @@ util
 .
 Stack
 "
-           
+        
 "
 java
 .
@@ -9971,6 +10193,7 @@ util
 .
 HashMap
 "
+        
 "
 java
 .
@@ -9978,6 +10201,7 @@ util
 .
 HashSet
 "
+        
 "
 android
 .
@@ -9985,6 +10209,7 @@ util
 .
 ArraySet
 "
+        
 "
 android
 .
@@ -9992,6 +10217,7 @@ util
 .
 ArrayMap
 "
+    
 ]
     
 for
@@ -10012,11 +10238,15 @@ bad
             
 error
 (
+                
 clazz
+                
 m
+                
 "
 CL2
 "
+                
 "
 Return
 type
@@ -10031,6 +10261,7 @@ higher
 level
 interface
 "
+            
 )
         
 for
@@ -10051,11 +10282,15 @@ bad
                 
 error
 (
+                    
 clazz
+                    
 m
+                    
 "
 CL2
 "
+                    
 "
 Argument
 is
@@ -10069,6 +10304,7 @@ higher
 level
 interface
 "
+                
 )
 def
 verify_flags
@@ -10132,6 +10368,7 @@ value
 )
             
 except
+ValueError
 :
                 
 continue
@@ -10301,6 +10538,7 @@ content
 ContentProviderClient
 "
 :
+                    
 continue
                 
 if
@@ -10317,6 +10555,7 @@ os
 Binder
 "
 :
+                    
 continue
                 
 if
@@ -10333,15 +10572,20 @@ os
 IBinder
 "
 :
+                    
 continue
                 
 error
 (
+                    
 clazz
+                    
 m
+                    
 "
 FW9
 "
+                    
 "
 Methods
 calling
@@ -10354,6 +10598,7 @@ RemoteException
 as
 RuntimeException
 "
+                
 )
             
 if
@@ -10370,6 +10615,7 @@ and
 t
 in
 [
+                
 "
 java
 .
@@ -10377,6 +10623,7 @@ lang
 .
 IllegalArgumentException
 "
+                
 "
 java
 .
@@ -10384,16 +10631,21 @@ lang
 .
 NullPointerException
 "
+            
 ]
 :
                 
 warn
 (
+                    
 clazz
+                    
 m
+                    
 "
 S1
 "
+                    
 "
 Methods
 taking
@@ -10403,6 +10655,7 @@ should
 throw
 IllegalStateException
 "
+                
 )
 def
 verify_google
@@ -10702,6 +10955,7 @@ Manager
 "
 )
 :
+        
 return
     
 for
@@ -10714,9 +10968,13 @@ ctors
         
 error
 (
+            
 clazz
+            
 c
+            
 None
+            
 "
 Managers
 must
@@ -10730,6 +10988,7 @@ no
 direct
 constructors
 "
+        
 )
     
 for
@@ -10792,6 +11051,7 @@ primitives
 boxed
 =
 [
+        
 "
 java
 .
@@ -10799,6 +11059,7 @@ lang
 .
 Number
 "
+        
 "
 java
 .
@@ -10806,6 +11067,7 @@ lang
 .
 Byte
 "
+        
 "
 java
 .
@@ -10813,6 +11075,7 @@ lang
 .
 Double
 "
+        
 "
 java
 .
@@ -10820,6 +11083,7 @@ lang
 .
 Float
 "
+        
 "
 java
 .
@@ -10827,6 +11091,7 @@ lang
 .
 Integer
 "
+        
 "
 java
 .
@@ -10834,6 +11099,7 @@ lang
 .
 Long
 "
+        
 "
 java
 .
@@ -10841,6 +11107,7 @@ lang
 .
 Short
 "
+    
 ]
     
 for
@@ -11012,6 +11279,7 @@ opengl
 "
 )
 :
+        
 return
     
 if
@@ -11028,6 +11296,7 @@ R
 "
 )
 :
+        
 return
     
 #
@@ -11098,6 +11367,7 @@ test
 =
 0
 :
+            
 return
         
 for
@@ -11121,6 +11391,7 @@ return
         
 error
 (
+            
 clazz
 None
 None
@@ -11135,6 +11406,7 @@ not
 have
 constructor
 "
+        
 )
 def
 verify_overload_args
@@ -11175,6 +11447,7 @@ opengl
 "
 )
 :
+        
 return
     
 overloads
@@ -11203,6 +11476,7 @@ m
 .
 split
 :
+            
 continue
         
 overloads
@@ -11237,6 +11511,7 @@ methods
 =
 1
 :
+            
 continue
         
 #
@@ -11365,6 +11640,7 @@ common_args
 =
 0
 :
+            
 continue
         
 #
@@ -11427,11 +11703,15 @@ sig
                 
 warn
 (
+                    
 clazz
+                    
 m
+                    
 "
 M2
 "
+                    
 "
 Expected
 common
@@ -11446,6 +11726,7 @@ of
 overloaded
 method
 "
+                    
 %
 (
 "
@@ -11456,6 +11737,7 @@ join
 common_args
 )
 )
+                
 )
             
 elif
@@ -11476,11 +11758,15 @@ sig
                 
 error
 (
+                    
 clazz
+                    
 m
+                    
 "
 M2
 "
+                    
 "
 Expected
 consistent
@@ -11495,6 +11781,7 @@ s
 .
 .
 "
+                    
 %
 (
 "
@@ -11505,6 +11792,7 @@ join
 locked_sig
 )
 )
+                
 )
 def
 verify_callback_handlers
@@ -11589,6 +11877,7 @@ pkg
 .
 name_path
 :
+            
 return
         
 if
@@ -11598,6 +11887,7 @@ clazz
 .
 extends_path
 :
+            
 return
     
 #
@@ -11633,24 +11923,31 @@ for
 s
 in
 [
+            
 "
 ActionBar
 "
+            
 "
 Dialog
 "
+            
 "
 Application
 "
+            
 "
 Activity
 "
+            
 "
 Fragment
 "
+            
 "
 Loader
 "
+        
 ]
 :
             
@@ -11661,6 +11958,7 @@ clazz
 .
 fullname
 :
+                
 return
     
 if
@@ -11700,6 +11998,7 @@ clazz
 .
 fullname
 :
+                
 return
     
 found
@@ -11744,6 +12043,7 @@ unregister
 "
 )
 :
+            
 continue
         
 if
@@ -11758,6 +12058,7 @@ remove
 "
 )
 :
+            
 continue
         
 if
@@ -11779,6 +12080,7 @@ m
 name
 )
 :
+            
 continue
         
 by_name
@@ -11802,6 +12104,8 @@ args
 :
             
 if
+(
+                
 a
 .
 typ
@@ -11814,6 +12118,7 @@ endswith
 Listener
 "
 )
+                
 or
 a
 .
@@ -11827,6 +12132,7 @@ endswith
 Callback
 "
 )
+                
 or
 a
 .
@@ -11839,6 +12145,8 @@ endswith
 "
 Callbacks
 "
+)
+            
 )
 :
                 
@@ -11861,10 +12169,6 @@ values
 )
 :
         
-takes_handler
-=
-False
-        
 takes_exec
 =
 False
@@ -11879,33 +12183,6 @@ f
 name
 ]
 :
-            
-for
-a
-in
-m
-.
-args
-:
-                
-if
-"
-android
-.
-os
-.
-Handler
-"
-=
-=
-a
-.
-typ
-:
-                    
-takes_handler
-=
-True
             
 for
 a
@@ -11943,11 +12220,15 @@ takes_exec
             
 warn
 (
+                
 clazz
+                
 f
+                
 "
 L1
 "
+                
 "
 Registration
 methods
@@ -11959,6 +12240,7 @@ accepts
 delivery
 Executor
 "
+            
 )
 def
 verify_context_first
@@ -12060,11 +12342,15 @@ typ
                     
 error
 (
+                        
 clazz
+                        
 m
+                        
 "
 M3
 "
+                        
 "
 Context
 is
@@ -12077,6 +12363,7 @@ the
 first
 argument
 "
+                    
 )
         
 if
@@ -12137,11 +12424,15 @@ typ
                     
 error
 (
+                        
 clazz
+                        
 m
+                        
 "
 M3
 "
+                        
 "
 ContentResolver
 is
@@ -12154,6 +12445,7 @@ the
 first
 argument
 "
+                    
 )
 def
 verify_listener_last
@@ -12216,6 +12508,7 @@ m
 .
 name
 :
+            
 continue
         
 found
@@ -12231,6 +12524,8 @@ args
 :
             
 if
+(
+                
 a
 .
 typ
@@ -12243,6 +12538,7 @@ endswith
 Callback
 "
 )
+                
 or
 a
 .
@@ -12256,6 +12552,7 @@ endswith
 Callbacks
 "
 )
+                
 or
 a
 .
@@ -12269,6 +12566,8 @@ endswith
 Listener
 "
 )
+            
+)
 :
                 
 found
@@ -12281,6 +12580,7 @@ found
                 
 warn
 (
+                    
 clazz
 m
 "
@@ -12297,6 +12597,7 @@ of
 argument
 list
 "
+                
 )
 def
 verify_resource_names
@@ -12346,6 +12647,7 @@ clazz
 fullname
 )
 :
+        
 return
     
 #
@@ -12362,48 +12664,63 @@ clazz
 name
 in
 [
+        
 "
 anim
 "
+        
 "
 animator
 "
+        
 "
 color
 "
+        
 "
 dimen
 "
+        
 "
 drawable
 "
+        
 "
 interpolator
 "
+        
 "
 layout
 "
+        
 "
 transition
 "
+        
 "
 menu
 "
+        
 "
 mipmap
 "
+        
 "
 string
 "
+        
 "
 plurals
 "
+        
 "
 raw
 "
+        
 "
 xml
 "
+    
 ]
 :
         
@@ -12435,13 +12752,18 @@ f
 name
 )
 :
+                
 continue
             
 error
 (
+                
 clazz
+                
 f
+                
 None
+                
 "
 Expected
 resource
@@ -12454,6 +12776,7 @@ be
 foo_bar_baz
 style
 "
+            
 )
     
 #
@@ -12527,6 +12850,7 @@ f
 name
 )
 :
+                
 continue
             
 if
@@ -12557,6 +12881,7 @@ f
 name
 )
 :
+                
 continue
             
 if
@@ -12578,6 +12903,7 @@ f
 name
 )
 :
+                
 continue
             
 if
@@ -12607,15 +12933,20 @@ f
 name
 )
 :
+                
 continue
             
 error
 (
+                
 clazz
+                
 f
+                
 "
 C7
 "
+                
 "
 Expected
 resource
@@ -12628,6 +12959,7 @@ be
 fooBarBaz
 style
 "
+            
 )
     
 #
@@ -12702,15 +13034,20 @@ f
 name
 )
 :
+                
 continue
             
 error
 (
+                
 clazz
+                
 f
+                
 "
 C7
 "
+                
 "
 Expected
 resource
@@ -12723,6 +13060,7 @@ be
 FooBar_Baz
 style
 "
+            
 )
 def
 verify_files
@@ -12819,6 +13157,8 @@ m
 )
             
 if
+(
+                
 "
 java
 .
@@ -12831,6 +13171,7 @@ FileDescriptor
 a
 .
 typ
+                
 or
 "
 android
@@ -12844,6 +13185,7 @@ ParcelFileDescriptor
 a
 .
 typ
+                
 or
 "
 java
@@ -12857,6 +13199,7 @@ InputStream
 a
 .
 typ
+                
 or
 "
 java
@@ -12870,6 +13213,8 @@ OutputStream
 a
 .
 typ
+            
+)
 :
                 
 has_stream
@@ -12898,11 +13243,15 @@ has_stream
             
 warn
 (
+                
 clazz
+                
 m
+                
 "
 M10
 "
+                
 "
 Methods
 accepting
@@ -12914,6 +13263,7 @@ FileDescriptor
 or
 streams
 "
+            
 )
 def
 verify_manager_list
@@ -12956,6 +13306,7 @@ Manager
 "
 )
 :
+        
 return
     
 for
@@ -12990,9 +13341,13 @@ is_array
             
 warn
 (
+                
 clazz
+                
 m
+                
 None
+                
 "
 Methods
 should
@@ -13015,6 +13370,7 @@ under
 the
 hood
 "
+            
 )
 def
 verify_abstract_inner
@@ -13096,9 +13452,13 @@ raw
             
 warn
 (
+                
 clazz
+                
 None
+                
 None
+                
 "
 Abstract
 inner
@@ -13110,6 +13470,7 @@ to
 improve
 testability
 "
+            
 )
 def
 verify_runtime_exceptions
@@ -13438,9 +13799,13 @@ banned
                 
 error
 (
+                    
 clazz
+                    
 m
+                    
 None
+                    
 "
 Methods
 must
@@ -13452,6 +13817,7 @@ in
 throws
 clauses
 "
+                
 )
 def
 verify_error
@@ -13483,6 +13849,7 @@ clazz
 .
 extends
 :
+        
 return
     
 if
@@ -13502,9 +13869,13 @@ Error
         
 error
 (
+            
 clazz
+            
 None
+            
 None
+            
 "
 Trouble
 must
@@ -13516,6 +13887,7 @@ Exception
 not
 Error
 "
+        
 )
     
 if
@@ -13539,9 +13911,11 @@ name
 .
 endswith
 (
+        
 "
 Exception
 "
+    
 )
 :
         
@@ -13620,6 +13994,7 @@ Sec
 "
 Seconds
 "
+        
 "
 Secs
 "
@@ -13635,6 +14010,7 @@ Hr
 "
 Hours
 "
+        
 "
 Hrs
 "
@@ -13650,6 +14026,7 @@ Mo
 "
 Months
 "
+        
 "
 Mos
 "
@@ -13665,6 +14042,7 @@ Yr
 "
 Years
 "
+        
 "
 Yrs
 "
@@ -13680,6 +14058,7 @@ Byte
 "
 Bytes
 "
+        
 "
 Space
 "
@@ -13716,6 +14095,7 @@ long
 "
 ]
 :
+            
 continue
         
 for
@@ -13783,9 +14163,13 @@ Micros
             
 warn
 (
+                
 clazz
+                
 m
+                
 None
+                
 "
 Returned
 time
@@ -13804,6 +14188,7 @@ the
 extra
 precision
 "
+            
 )
         
 if
@@ -13871,6 +14256,7 @@ args
 =
 1
 :
+                
 continue
             
 typ
@@ -13987,6 +14373,7 @@ clazz
 .
 raw
 :
+        
 return
     
 if
@@ -14003,6 +14390,7 @@ clazz
 .
 raw
 :
+        
 return
     
 for
@@ -14023,6 +14411,7 @@ args
 >
 0
 :
+            
 continue
         
 if
@@ -14031,44 +14420,59 @@ m
 name
 in
 [
+            
 "
 close
 "
+            
 "
 release
 "
+            
 "
 destroy
 "
+            
 "
 finish
 "
+            
 "
 finalize
 "
+            
 "
 disconnect
 "
+            
 "
 shutdown
 "
+            
 "
 stop
 "
+            
 "
 free
 "
+            
 "
 quit
 "
+        
 ]
 :
             
 warn
 (
+                
 clazz
+                
 m
+                
 None
+                
 "
 Classes
 that
@@ -14080,6 +14484,7 @@ AutoClosable
 and
 CloseGuard
 "
+            
 )
             
 return
@@ -14150,41 +14555,41 @@ keywords
 =
 [
         
-'
+"
 as
-'
+"
         
-'
+"
 fun
-'
+"
         
-'
+"
 in
-'
+"
         
-'
+"
 is
-'
+"
         
-'
+"
 object
-'
+"
         
-'
+"
 typealias
-'
+"
         
-'
+"
 val
-'
+"
         
-'
+"
 var
-'
+"
         
-'
+"
 when
-'
+"
     
 ]
     
@@ -14299,22 +14704,27 @@ binary
             
 error
 (
+                
 clazz
+                
 m
+                
 None
+                
+f
 "
 Only
 one
 of
 '
 {
-0
+op
 }
 '
 and
 '
 {
-0
+op
 }
 Assign
 '
@@ -14325,11 +14735,7 @@ present
 for
 Kotlin
 "
-.
-format
-(
-op
-)
+            
 )
         
 binary
@@ -14348,9 +14754,9 @@ methods
 :
         
 if
-'
+"
 static
-'
+"
 in
 m
 .
@@ -14390,15 +14796,15 @@ m
 name
 in
 [
-'
+"
 unaryPlus
-'
-'
+"
+"
 unaryMinus
-'
-'
+"
+"
 not
-'
+"
 ]
 and
 len
@@ -14414,6 +14820,7 @@ args
             
 warn
 (
+                
 clazz
 m
 None
@@ -14429,6 +14836,7 @@ operator
 from
 Kotlin
 "
+            
 )
         
 #
@@ -14462,12 +14870,12 @@ m
 name
 in
 [
-'
+"
 inc
-'
-'
+"
+"
 dec
-'
+"
 ]
 and
 len
@@ -14487,9 +14895,9 @@ typ
 name
 !
 =
-'
+"
 void
-'
+"
 :
             
 #
@@ -14527,9 +14935,13 @@ here
             
 warn
 (
+                
 clazz
+                
 m
+                
 None
+                
 "
 Method
 can
@@ -14547,6 +14959,7 @@ operator
 from
 Kotlin
 "
+            
 )
         
 #
@@ -14571,33 +14984,36 @@ html
 arithmetic
         
 if
+(
+            
 m
 .
 name
 in
 [
-'
+"
 plus
-'
-'
+"
+"
 minus
-'
-'
+"
+"
 times
-'
-'
+"
+"
 div
-'
-'
+"
+"
 rem
-'
-'
+"
+"
 mod
-'
-'
+"
+"
 rangeTo
-'
+"
 ]
+            
 and
 len
 (
@@ -14608,10 +15024,13 @@ args
 =
 =
 1
+        
+)
 :
             
 warn
 (
+                
 clazz
 m
 None
@@ -14627,6 +15046,7 @@ operator
 from
 Kotlin
 "
+            
 )
             
 unique_binary_op
@@ -14664,9 +15084,9 @@ m
 name
 =
 =
-'
+"
 contains
-'
+"
 and
 len
 (
@@ -14685,9 +15105,9 @@ typ
 name
 =
 =
-'
+"
 boolean
-'
+"
 :
             
 warn
@@ -14739,9 +15159,9 @@ m
 name
 =
 =
-'
+"
 get
-'
+"
 and
 len
 (
@@ -14754,14 +15174,15 @@ args
 )
 or
 (
+            
 m
 .
 name
 =
 =
-'
+"
 set
-'
+"
 and
 len
 (
@@ -14771,14 +15192,19 @@ args
 )
 >
 1
+        
 )
 :
             
 warn
 (
+                
 clazz
+                
 m
+                
 None
+                
 "
 Method
 can
@@ -14791,6 +15217,7 @@ operator
 from
 Kotlin
 "
+            
 )
         
 #
@@ -14820,16 +15247,20 @@ m
 name
 =
 =
-'
+"
 invoke
-'
+"
 :
             
 warn
 (
+                
 clazz
+                
 m
+                
 None
+                
 "
 Method
 can
@@ -14842,6 +15273,7 @@ syntax
 from
 Kotlin
 "
+            
 )
         
 #
@@ -14866,32 +15298,41 @@ html
 assignments
         
 if
+(
+            
 m
 .
 name
+            
 in
 [
-'
-plusAssign
-'
-'
-minusAssign
-'
-'
-timesAssign
-'
-'
-divAssign
-'
-'
-remAssign
-'
-'
-modAssign
-'
-]
-\
                 
+"
+plusAssign
+"
+                
+"
+minusAssign
+"
+                
+"
+timesAssign
+"
+                
+"
+divAssign
+"
+                
+"
+remAssign
+"
+                
+"
+modAssign
+"
+            
+]
+            
 and
 len
 (
@@ -14902,8 +15343,7 @@ args
 =
 =
 1
-\
-                
+            
 and
 m
 .
@@ -14912,16 +15352,22 @@ typ
 name
 =
 =
-'
+"
 void
-'
+"
+        
+)
 :
             
 warn
 (
+                
 clazz
+                
 m
+                
 None
+                
 "
 Method
 can
@@ -14935,6 +15381,7 @@ operator
 from
 Kotlin
 "
+            
 )
             
 unique_binary_op
@@ -14980,6 +15427,7 @@ Collections
 safe
 =
 [
+        
 "
 java
 .
@@ -14987,30 +15435,39 @@ lang
 .
 String
 "
+        
 "
 byte
 "
+        
 "
 short
 "
+        
 "
 int
 "
+        
 "
 long
 "
+        
 "
 float
 "
+        
 "
 double
 "
+        
 "
 boolean
 "
+        
 "
 char
 "
+    
 ]
     
 for
@@ -15040,9 +15497,13 @@ safe
             
 warn
 (
+                
 clazz
+                
 m
+                
 None
+                
 "
 Method
 should
@@ -15059,6 +15520,7 @@ of
 raw
 array
 "
+            
 )
         
 for
@@ -15088,9 +15550,13 @@ safe
                 
 warn
 (
+                    
 clazz
+                    
 m
+                    
 None
+                    
 "
 Method
 argument
@@ -15108,6 +15574,7 @@ of
 raw
 array
 "
+                
 )
 def
 verify_user_handle
@@ -15133,6 +15600,8 @@ AsUser
 "
     
 if
+(
+        
 clazz
 .
 name
@@ -15143,6 +15612,7 @@ endswith
 Listener
 "
 )
+        
 or
 clazz
 .
@@ -15154,6 +15624,7 @@ endswith
 Callback
 "
 )
+        
 or
 clazz
 .
@@ -15165,7 +15636,10 @@ endswith
 Callbacks
 "
 )
+    
+)
 :
+        
 return
     
 if
@@ -15184,6 +15658,7 @@ admin
 DeviceAdminReceiver
 "
 :
+        
 return
     
 if
@@ -15202,6 +15677,7 @@ pm
 LauncherApps
 "
 :
+        
 return
     
 if
@@ -15218,6 +15694,7 @@ os
 UserHandle
 "
 :
+        
 return
     
 if
@@ -15234,6 +15711,7 @@ os
 UserManager
 "
 :
+        
 return
     
 for
@@ -15267,6 +15745,7 @@ ForUser
 "
 )
 :
+            
 continue
         
 if
@@ -15288,6 +15767,7 @@ m
 name
 )
 :
+            
 continue
         
 for
@@ -15317,9 +15797,13 @@ name
                 
 warn
 (
+                    
 clazz
+                    
 m
+                    
 None
+                    
 "
 Method
 taking
@@ -15335,6 +15819,7 @@ or
 queryFooForUser
 '
 "
+                
 )
 def
 verify_params
@@ -15370,6 +15855,7 @@ Params
 "
 )
 :
+        
 return
     
 if
@@ -15386,6 +15872,7 @@ app
 ActivityOptions
 "
 :
+        
 return
     
 if
@@ -15402,6 +15889,7 @@ app
 BroadcastOptions
 "
 :
+        
 return
     
 if
@@ -15418,6 +15906,7 @@ os
 Bundle
 "
 :
+        
 return
     
 if
@@ -15434,6 +15923,7 @@ os
 BaseBundle
 "
 :
+        
 return
     
 if
@@ -15450,38 +15940,49 @@ os
 PersistableBundle
 "
 :
+        
 return
     
 bad
 =
 [
+        
 "
 Param
 "
+        
 "
 Parameter
 "
+        
 "
 Parameters
 "
+        
 "
 Args
 "
+        
 "
 Arg
 "
+        
 "
 Argument
 "
+        
 "
 Arguments
 "
+        
 "
 Options
 "
+        
 "
 Bundle
 "
+    
 ]
     
 for
@@ -15503,9 +16004,13 @@ b
             
 error
 (
+                
 clazz
+                
 None
+                
 None
+                
 "
 Classes
 holding
@@ -15520,6 +16025,7 @@ called
 FooParams
 '
 "
+            
 )
 def
 verify_services
@@ -15559,6 +16065,7 @@ content
 Context
 "
 :
+        
 return
     
 for
@@ -15585,6 +16092,7 @@ lang
 String
 "
 :
+            
 continue
         
 found
@@ -15638,11 +16146,15 @@ expected
                 
 error
 (
+                    
 clazz
+                    
 f
+                    
 "
 C4
 "
+                    
 "
 Inconsistent
 service
@@ -15658,6 +16170,7 @@ s
 (
 expected
 )
+                
 )
 def
 verify_tense
@@ -15693,6 +16206,7 @@ opengl
 "
 )
 :
+        
 return
     
 for
@@ -16127,9 +16641,13 @@ better
                 
 warn
 (
+                    
 clazz
+                    
 m
+                    
 None
+                    
 "
 Type
 %
@@ -16144,6 +16662,7 @@ type
 %
 s
 "
+                    
 %
 (
 arg
@@ -16152,6 +16671,7 @@ better
 arg
 ]
 )
+                
 )
 def
 verify_clone
@@ -16203,9 +16723,13 @@ clone
             
 error
 (
+                
 clazz
+                
 m
+                
 None
+                
 "
 Provide
 an
@@ -16219,6 +16743,7 @@ clone
 (
 )
 "
+            
 )
 def
 verify_enum_annotations
@@ -16307,11 +16832,15 @@ ENUM_ANNOTATIONS
             
 error
 (
+                
 clazz
+                
 a
+                
 "
 GV8
 "
+                
 "
 IntDef
 LongDef
@@ -16329,6 +16858,7 @@ package
 private
 .
 "
+            
 )
 def
 get_deprecated_annotation
@@ -16436,6 +16966,7 @@ annotations
             
 if
 (
+                
 a
 .
 typ
@@ -16444,7 +16975,7 @@ name
 =
 =
 DEPRECATED_ANNOTATION
-                    
+                
 or
 a
 .
@@ -16454,6 +16985,7 @@ name
 =
 =
 DEPRECATION_SCHEDULE_ANNOTATION
+            
 )
 :
                 
@@ -16491,7 +17023,9 @@ None
             
 error
 (
+                
 clazz
+                
 member
 if
 clazz
@@ -16504,12 +17038,14 @@ None
 "
 GV12
 "
+                
 "
 Missing
 Deprecated
 annotation
 .
 "
+            
 )
             
 return
@@ -16529,7 +17065,9 @@ None
             
 error
 (
+                
 clazz
+                
 member
 if
 clazz
@@ -16542,6 +17080,7 @@ None
 "
 GV9
 "
+                
 "
 Missing
 deprecation
@@ -16555,6 +17094,7 @@ Needs
 "
 +
 DEPRECATION_SCHEDULE_ANNOTATION
+            
 )
             
 return
@@ -16583,9 +17123,9 @@ annotation
 .
 arguments
 [
-'
+"
 version
-'
+"
 ]
 )
         
@@ -16595,10 +17135,12 @@ version
 =
 LIBRARY_VERSION
 :
-          
+            
 warn
 (
+                
 clazz
+                
 member
 if
 clazz
@@ -16607,10 +17149,11 @@ clazz
 member
 else
 None
-              
+                
 "
 GV11
 "
+                
 "
 Deprecated
 method
@@ -16621,6 +17164,7 @@ in
 this
 version
 "
+            
 )
         
 if
@@ -16628,10 +17172,12 @@ version
 <
 LIBRARY_VERSION
 :
-          
+            
 error
 (
+                
 clazz
+                
 member
 if
 clazz
@@ -16640,10 +17186,11 @@ clazz
 member
 else
 None
-              
+                
 "
 GV10
 "
+                
 "
 Deprecated
 method
@@ -16656,12 +17203,13 @@ removal
 version
 :
 "
-                  
+                
 +
 str
 (
 version
 )
+                
 +
 "
 <
@@ -16669,11 +17217,13 @@ current
 version
 :
 "
+                
 +
 str
 (
 LIBRARY_VERSION
 )
+            
 )
     
 check_member
@@ -16761,6 +17311,7 @@ java
 "
 )
 :
+        
 return
     
 if
@@ -16777,6 +17328,7 @@ junit
 "
 )
 :
+        
 return
     
 if
@@ -16795,6 +17347,7 @@ apache
 "
 )
 :
+        
 return
     
 if
@@ -16813,6 +17366,7 @@ xml
 "
 )
 :
+        
 return
     
 if
@@ -16831,6 +17385,7 @@ json
 "
 )
 :
+        
 return
     
 if
@@ -16849,6 +17404,7 @@ w3c
 "
 )
 :
+        
 return
     
 if
@@ -16868,6 +17424,7 @@ icu
 "
 )
 :
+        
 return
     
 verify_constants
@@ -16994,6 +17551,7 @@ if
 not
 ALLOW_GOOGLE
 :
+        
 verify_google
 (
 clazz
@@ -17391,11 +17949,15 @@ extra_types
             
 error
 (
+                
 clazz
+                
 m
+                
 "
 GV7
 "
+                
 "
 Class
 %
@@ -17411,8 +17973,8 @@ packages
 s
 .
 "
-%
                 
+%
 (
 typ
 "
@@ -17430,6 +17992,7 @@ allowed_packages
 *
 "
 )
+            
 )
     
 def
@@ -17554,11 +18117,15 @@ extra_types
             
 error
 (
+                
 clazz
+                
 None
+                
 "
 GV7
 "
+                
 "
 Class
 %
@@ -17574,8 +18141,8 @@ packages
 s
 .
 "
-%
                 
+%
 (
 clazz
 .
@@ -17595,6 +18162,7 @@ allowed_packages
 *
 "
 )
+            
 )
         
 if
@@ -17797,6 +18365,7 @@ test
 .
 ident
 :
+                
 return
 m
         
@@ -17891,6 +18460,7 @@ test
 .
 ident
 :
+                
 return
 m
         
@@ -17924,6 +18494,7 @@ test
 .
 ident
 :
+                
 return
 True
         
@@ -17957,6 +18528,7 @@ test
 .
 ident
 :
+                
 return
 True
         
@@ -17993,9 +18565,9 @@ annotation
 .
 arguments
 [
-'
+"
 version
-'
+"
 ]
 )
 =
@@ -18088,6 +18660,7 @@ test
                 
 error
 (
+                    
 prev_clazz
 test
 None
@@ -18098,6 +18671,7 @@ or
 incompatible
 change
 "
+                
 )
         
 for
@@ -18133,6 +18707,7 @@ break
                 
 error
 (
+                    
 prev_clazz
 test
 None
@@ -18143,6 +18718,7 @@ or
 incompatible
 change
 "
+                
 )
                 
 break
@@ -18167,9 +18743,13 @@ prev_annotation
                     
 error
 (
+                        
 prev_clazz
+                        
 prev_annotation
+                        
 None
+                        
 "
 Annotation
 removed
@@ -18177,6 +18757,7 @@ or
 incompatible
 change
 "
+                    
 )
         
 methods
@@ -18252,9 +18833,13 @@ prev_annotation
                     
 error
 (
+                        
 prev_clazz
+                        
 prev_annotation
+                        
 None
+                        
 "
 Annotation
 removed
@@ -18262,6 +18847,7 @@ or
 incompatible
 change
 "
+                    
 )
         
 for
@@ -18484,6 +19070,8 @@ nothing
 new
         
 if
+(
+            
 len
 (
 cur_clazz
@@ -18493,6 +19081,7 @@ ctors
 =
 =
 0
+            
 and
 len
 (
@@ -18503,6 +19092,7 @@ methods
 =
 =
 0
+            
 and
 len
 (
@@ -18513,6 +19103,8 @@ fields
 =
 =
 0
+        
+)
 :
             
 del
@@ -18606,6 +19198,7 @@ birth
     
 print
 (
+        
 "
 %
 s
@@ -18617,6 +19210,7 @@ s
 \
 n
 "
+        
 %
 (
 (
@@ -18632,7 +19226,6 @@ bold
 =
 True
 )
-                                            
 format
 (
 reset
@@ -18641,6 +19234,7 @@ True
 )
 )
 )
+    
 )
     
 for
@@ -18719,18 +19313,18 @@ api_map
     
 if
 not
-'
+"
 result_json
-'
+"
 in
 args
 or
 not
 args
 [
-'
+"
 result_json
-'
+"
 ]
 :
         
@@ -18739,27 +19333,27 @@ return
 if
 args
 [
-'
+"
 append_json
-'
+"
 ]
 :
-      
+        
 results
 =
 readResultsJson
 (
 args
 [
-'
+"
 result_json
-'
+"
 ]
 )
     
 else
 :
-      
+        
 results
 =
 {
@@ -18769,18 +19363,18 @@ for
 key
 in
 [
-'
+"
 failures
-'
-'
+"
+"
 compat_failures
-'
-'
+"
+"
 api_changes
-'
-'
+"
+"
 api_removed
-'
+"
 ]
 :
         
@@ -18805,9 +19399,9 @@ api_changes
         
 {
             
-'
+"
 file
-'
+"
 :
 api_changes
 [
@@ -18818,9 +19412,9 @@ location
 .
 fileName
             
-'
+"
 column
-'
+"
 :
 int
 (
@@ -18834,9 +19428,9 @@ location
 column
 )
             
-'
+"
 line
-'
+"
 :
 int
 (
@@ -18851,6 +19445,7 @@ line
 )
         
 }
+        
 for
 x
 in
@@ -18864,9 +19459,9 @@ api_removed
         
 {
             
-'
+"
 file
-'
+"
 :
 api_removed
 [
@@ -18877,9 +19472,9 @@ location
 .
 fileName
             
-'
+"
 column
-'
+"
 :
 int
 (
@@ -18893,9 +19488,9 @@ location
 column
 )
             
-'
+"
 line
-'
+"
 :
 int
 (
@@ -18910,6 +19505,7 @@ line
 )
         
 }
+        
 for
 x
 in
@@ -18919,9 +19515,9 @@ api_removed
     
 results
 [
-'
+"
 compat_failures
-'
+"
 ]
 +
 =
@@ -18942,9 +19538,9 @@ compat_fail
     
 results
 [
-'
+"
 api_changes
-'
+"
 ]
 +
 =
@@ -18952,9 +19548,9 @@ api_changes
     
 results
 [
-'
+"
 api_removed
-'
+"
 ]
 +
 =
@@ -18962,9 +19558,9 @@ api_removed
     
 results
 [
-'
+"
 failures
-'
+"
 ]
 +
 =
@@ -18997,9 +19593,9 @@ tests
     
 results
 [
-'
+"
 failures
-'
+"
 ]
 .
 sort
@@ -19011,95 +19607,97 @@ f
 :
 f
 [
-'
+"
 rule
-'
+"
 ]
 )
     
 results
 [
-'
+"
 failure
-'
+"
 ]
 =
 (
+        
 (
 len
 (
 results
 [
-'
+"
 compat_failures
-'
+"
 ]
 )
 !
 =
 0
 )
-            
+        
 or
 (
 len
 (
 results
 [
-'
+"
 api_changes
-'
+"
 ]
 )
 !
 =
 0
 )
-            
+        
 or
 (
 len
 (
 results
 [
-'
+"
 api_removed
-'
+"
 ]
 )
 !
 =
 0
 )
-            
+        
 or
 (
 any
 (
 f
 [
-'
+"
 error
-'
+"
 ]
 for
 f
 in
 results
 [
-'
+"
 failures
-'
+"
 ]
 )
 )
+    
 )
     
 args
 [
-'
+"
 result_json
-'
+"
 ]
 .
 seek
@@ -19109,9 +19707,9 @@ seek
     
 args
 [
-'
+"
 result_json
-'
+"
 ]
 .
 truncate
@@ -19126,9 +19724,9 @@ dump
 results
 args
 [
-'
+"
 result_json
-'
+"
 ]
 )
 def
@@ -19183,6 +19781,7 @@ argparse
 .
 ArgumentParser
 (
+        
 description
 =
 "
@@ -19209,12 +19808,14 @@ if
 provided
 .
 "
+    
 )
     
 parser
 .
 add_argument
 (
+        
 "
 current
 .
@@ -19226,16 +19827,16 @@ argparse
 .
 FileType
 (
-'
+"
 r
-'
+"
 encoding
 =
-'
+"
 UTF
 -
 8
-'
+"
 )
 help
 =
@@ -19244,43 +19845,48 @@ current
 .
 txt
 "
+    
 )
     
 parser
 .
 add_argument
 (
+        
 "
 previous
 .
 txt
 "
+        
 nargs
 =
-'
+"
 ?
-'
+"
+        
 type
 =
 argparse
 .
 FileType
 (
-'
+"
 r
-'
+"
 encoding
 =
-'
+"
 UTF
 -
 8
-'
+"
 )
+        
 default
 =
 None
-            
+        
 help
 =
 "
@@ -19288,12 +19894,14 @@ previous
 .
 txt
 "
+    
 )
     
 parser
 .
 add_argument
 (
+        
 "
 -
 -
@@ -19303,13 +19911,12 @@ color
 "
 action
 =
-'
+"
 store_const
-'
+"
 const
 =
 True
-            
 help
 =
 "
@@ -19317,12 +19924,14 @@ Disable
 terminal
 colors
 "
+    
 )
     
 parser
 .
 add_argument
 (
+        
 "
 -
 -
@@ -19330,15 +19939,17 @@ allow
 -
 google
 "
+        
 action
 =
-'
+"
 store_const
-'
+"
+        
 const
 =
 True
-            
+        
 help
 =
 "
@@ -19347,12 +19958,14 @@ references
 to
 Google
 "
+    
 )
     
 parser
 .
 add_argument
 (
+        
 "
 -
 -
@@ -19360,15 +19973,17 @@ show
 -
 noticed
 "
+        
 action
 =
-'
+"
 store_const
-'
+"
+        
 const
 =
 True
-            
+        
 help
 =
 "
@@ -19377,12 +19992,14 @@ API
 changes
 noticed
 "
+    
 )
     
 parser
 .
 add_argument
 (
+        
 "
 -
 -
@@ -19394,15 +20011,17 @@ at
 -
 birth
 "
+        
 action
 =
-'
+"
 store_const
-'
+"
+        
 const
 =
 True
-            
+        
 help
 =
 "
@@ -19412,12 +20031,14 @@ deprecations
 at
 birth
 "
+    
 )
     
 parser
 .
 add_argument
 (
+        
 "
 -
 -
@@ -19425,12 +20046,13 @@ filter
 -
 errors
 "
+        
 nargs
 =
-'
+"
 *
-'
-            
+"
+        
 help
 =
 "
@@ -19446,7 +20068,7 @@ consider
 Filter
 will
 "
-            
+        
 "
 select
 only
@@ -19460,12 +20082,14 @@ codes
 specified
 .
 "
+    
 )
     
 parser
 .
 add_argument
 (
+        
 "
 -
 -
@@ -19473,12 +20097,13 @@ allowed
 -
 packages
 "
+        
 nargs
 =
-'
+"
 *
-'
-            
+"
+        
 help
 =
 "
@@ -19493,12 +20118,14 @@ this
 argument
 .
 "
+    
 )
     
 parser
 .
 add_argument
 (
+        
 "
 -
 -
@@ -19506,12 +20133,13 @@ deprecation
 -
 annotation
 "
+        
 nargs
 =
-'
+"
 ?
-'
-            
+"
+        
 help
 =
 "
@@ -19528,12 +20156,14 @@ deprecated
 member
 .
 "
+    
 )
     
 parser
 .
 add_argument
 (
+        
 "
 -
 -
@@ -19541,12 +20171,13 @@ library
 -
 version
 "
+        
 nargs
 =
-'
+"
 ?
-'
-            
+"
+        
 help
 =
 "
@@ -19557,12 +20188,14 @@ current
 library
 version
 "
+    
 )
     
 parser
 .
 add_argument
 (
+        
 "
 -
 -
@@ -19570,6 +20203,7 @@ result
 -
 json
 "
+        
 help
 =
 "
@@ -19580,30 +20214,33 @@ JSON
 file
 .
 "
+        
 type
 =
 argparse
 .
 FileType
 (
-'
+"
 a
 +
-'
+"
 encoding
 =
-'
+"
 UTF
 -
 8
-'
+"
 )
+    
 )
     
 parser
 .
 add_argument
 (
+        
 "
 -
 -
@@ -19611,6 +20248,7 @@ append
 -
 json
 "
+        
 help
 =
 "
@@ -19626,20 +20264,24 @@ truncating
 it
 .
 "
+        
 action
 =
-'
+"
 store_const
-'
+"
+        
 const
 =
 True
+    
 )
     
 parser
 .
 add_argument
 (
+        
 "
 -
 -
@@ -19647,6 +20289,7 @@ api
 -
 map
 "
+        
 help
 =
 "
@@ -19666,16 +20309,18 @@ source
 files
 .
 "
+        
 type
 =
 argparse
 .
 FileType
 (
-'
+"
 r
-'
+"
 )
+    
 )
     
 args
@@ -19692,9 +20337,9 @@ parse_args
 if
 args
 [
-'
+"
 no_color
-'
+"
 ]
 :
         
@@ -19705,9 +20350,9 @@ False
 if
 args
 [
-'
+"
 deprecation_annotation
-'
+"
 ]
 :
         
@@ -19715,17 +20360,17 @@ DEPRECATION_SCHEDULE_ANNOTATION
 =
 args
 [
-'
+"
 deprecation_annotation
-'
+"
 ]
     
 if
 args
 [
-'
+"
 library_version
-'
+"
 ]
 :
         
@@ -19735,18 +20380,18 @@ int
 (
 args
 [
-'
+"
 library_version
-'
+"
 ]
 )
     
 if
 args
 [
-'
+"
 allow_google
-'
+"
 ]
 :
         
@@ -19758,22 +20403,22 @@ current_file
 =
 args
 [
-'
+"
 current
 .
 txt
-'
+"
 ]
     
 previous_file
 =
 args
 [
-'
+"
 previous
 .
 txt
-'
+"
 ]
     
 api_map
@@ -19783,9 +20428,9 @@ None
 if
 args
 [
-'
+"
 api_map
-'
+"
 ]
 :
         
@@ -19793,9 +20438,9 @@ api_map
 =
 args
 [
-'
+"
 api_map
-'
+"
 ]
 .
 readlines
@@ -19805,9 +20450,9 @@ readlines
 if
 args
 [
-'
+"
 show_deprecations_at_birth
-'
+"
 ]
 :
         
@@ -20030,9 +20675,9 @@ k
 if
 args
 [
-'
+"
 allowed_packages
-'
+"
 ]
 is
 not
@@ -20044,9 +20689,9 @@ verify_packages
 cur
 args
 [
-'
+"
 allowed_packages
-'
+"
 ]
 )
     
@@ -20061,9 +20706,9 @@ specified
 if
 args
 [
-'
+"
 filter_errors
-'
+"
 ]
 is
 not
@@ -20086,9 +20731,9 @@ matches_filter
 (
 args
 [
-'
+"
 filter_errors
-'
+"
 ]
 cur_fail
 [
@@ -20113,16 +20758,18 @@ filtered_fail
     
 dump_result_json
 (
+        
 args
+        
 compat_fail
         
 cur_noticed
 if
 args
 [
-'
+"
 show_noticed
-'
+"
 ]
 else
 [
@@ -20132,16 +20779,18 @@ removed
 if
 args
 [
-'
+"
 show_noticed
-'
+"
 ]
 else
 [
 ]
         
 cur_fail
+        
 api_map
+    
 )
     
 has_error
@@ -20174,6 +20823,7 @@ compat_fail
         
 print
 (
+            
 "
 %
 s
@@ -20185,6 +20835,7 @@ s
 \
 n
 "
+            
 %
 (
 (
@@ -20208,6 +20859,7 @@ True
 )
 )
 )
+        
 )
         
 failures
@@ -20257,6 +20909,7 @@ cur_fail
         
 print
 (
+            
 "
 %
 s
@@ -20268,6 +20921,7 @@ s
 \
 n
 "
+            
 %
 (
 (
@@ -20291,6 +20945,7 @@ True
 )
 )
 )
+        
 )
         
 for
@@ -20319,7 +20974,7 @@ print
 if
 has_error
 :
-          
+            
 sys
 .
 exit
@@ -20329,7 +20984,7 @@ exit
         
 else
 :
-          
+            
 sys
 .
 exit
@@ -20340,9 +20995,9 @@ exit
 if
 args
 [
-'
+"
 show_noticed
-'
+"
 ]
 and
 (
@@ -20366,6 +21021,7 @@ removed
         
 print
 (
+            
 "
 %
 s
@@ -20377,6 +21033,7 @@ s
 \
 n
 "
+            
 %
 (
 (
@@ -20400,6 +21057,7 @@ True
 )
 )
 )
+        
 )
         
 for
