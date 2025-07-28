@@ -633,7 +633,7 @@ Invalid
 =
 0
 TenuredArenas
-MediumBuffers
+Buffers
 NurseryToSpace
 NurseryFromSpace
 }
@@ -916,7 +916,7 @@ kind
 ChunkKind
 :
 :
-MediumBuffers
+Buffers
 ;
 }
 /
