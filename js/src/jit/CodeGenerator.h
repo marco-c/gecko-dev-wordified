@@ -2248,7 +2248,7 @@ NurseryObjectLabel
 0
 JitAllocPolicy
 >
-ionNurseryObjectLabels_
+nurseryObjectLabels_
 ;
 void
 branchIfInvalidated

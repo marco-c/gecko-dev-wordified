@@ -7383,7 +7383,7 @@ alloc
 (
 )
 )
-ionNurseryObjectLabels_
+nurseryObjectLabels_
 (
 gen
 -
@@ -29570,7 +29570,7 @@ mir
 )
 -
 >
-nurseryIndex
+nurseryObjectIndex
 (
 )
 ;
@@ -29612,7 +29612,7 @@ masm
 .
 propagateOOM
 (
-ionNurseryObjectLabels_
+nurseryObjectLabels_
 .
 emplaceBack
 (
@@ -123263,7 +123263,7 @@ for
 NurseryObjectLabel
 label
 :
-ionNurseryObjectLabels_
+nurseryObjectLabels_
 )
 {
 void
