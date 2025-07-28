@@ -208,6 +208,16 @@ aClientSize
 override
 ;
 void
+NotifyFullscreenChanged
+(
+bool
+aIsFullscreen
+)
+override
+{
+}
+;
+void
 CleanupResources
 (
 )
