@@ -2202,6 +2202,12 @@ mIsInEdgeTrack
 ;
 }
 ;
+class
+TrackPlan
+;
+class
+ItemPlan
+;
 /
 *
 *
