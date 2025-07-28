@@ -127,7 +127,6 @@ h
 "
 class
 GeckoViewContentChannel
-final
 :
 public
 nsBaseChannel
@@ -142,8 +141,9 @@ nsIURI
 aUri
 )
 ;
-private
+protected
 :
+virtual
 ~
 GeckoViewContentChannel
 (
