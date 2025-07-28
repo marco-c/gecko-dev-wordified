@@ -2615,6 +2615,8 @@ n
 /
 /
 READYUV422
+/
+/
 "
 subs
 %
@@ -2630,9 +2632,17 @@ width
 \
 n
 "
+/
+/
 YUVTORGB
+/
+/
 RGBTORGB8
+/
+/
 STORERGBA
+/
+/
 "
 bgt
 1b

@@ -1245,8 +1245,9 @@ defined
 (
 _M_X64
 )
-#
-ifdef
+/
+/
+if
 HAS_ARGBTOUVROW_SSSE3
 /
 /
@@ -1582,7 +1583,8 @@ kARGBToYJ
 0
 }
 ;
-#
+/
+/
 endif
 /
 /
@@ -7536,6 +7538,9 @@ convertloop
 ret
 }
 }
+#
+ifdef
+HAS_ARGBTOUVROW_SSSE3
 /
 /
 Convert
@@ -7728,6 +7733,8 @@ convertloop
 ret
 }
 }
+#
+endif
 #
 ifdef
 HAS_ARGBTOYROW_AVX2
@@ -8619,6 +8626,9 @@ convertloop
 ret
 }
 }
+#
+ifdef
+HAS_ARGBTOUVROW_SSSE3
 __declspec
 (
 naked
@@ -9407,6 +9417,8 @@ esi
 ret
 }
 }
+#
+endif
 #
 ifdef
 HAS_ARGBTOUVROW_AVX2

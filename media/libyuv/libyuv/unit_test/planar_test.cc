@@ -12986,6 +12986,9 @@ benchmark_cpu_info_
 )
 ;
 }
+#
+ifdef
+ENABLE_ROW_TESTS
 TEST_F
 (
 LibYUVPlanarTest
@@ -13251,6 +13254,11 @@ uv_step
 #
 endif
 }
+#
+endif
+/
+/
+ENABLE_ROW_TESTS
 static
 int
 TestCopyPlane

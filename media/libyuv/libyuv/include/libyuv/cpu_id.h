@@ -187,6 +187,13 @@ kCpuHasSME
 =
 0x2000
 ;
+static
+const
+int
+kCpuHasSME2
+=
+0x4000
+;
 /
 /
 These
