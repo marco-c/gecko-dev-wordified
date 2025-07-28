@@ -77,7 +77,7 @@ h
 #
 include
 "
-test_variable_source_set
+test_variable_static_library
 .
 h
 "

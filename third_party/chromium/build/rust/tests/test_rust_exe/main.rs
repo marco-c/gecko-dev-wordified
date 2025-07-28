@@ -50,7 +50,7 @@ main
 assert_eq
 !
 (
-test_mixed_source_set_rs
+test_mixed_static_library_rs
 :
 :
 add_two_ints_via_rust_then_cpp
@@ -77,7 +77,7 @@ calculate_using_proc_macro
 assert_eq
 !
 (
-test_rust_source_set
+test_rust_static_library
 :
 :
 add_two_ints_via_rust
@@ -91,7 +91,7 @@ add_two_ints_via_rust
 assert_eq
 !
 (
-test_rust_source_set_non_standard_arrangement
+test_rust_static_library_non_standard_arrangement
 :
 :
 do_subtract
@@ -131,7 +131,7 @@ g
 .
 calling
 into
-mixed_source_sets
+mixed_static_librarys
 crates
 proc
 macros
@@ -159,7 +159,7 @@ test_call_to_rust
 assert_eq
 !
 (
-test_rust_source_set
+test_rust_static_library
 :
 :
 add_two_ints_via_rust
@@ -183,7 +183,7 @@ test_call_to_rust_non_standard_arrangement
 assert_eq
 !
 (
-test_rust_source_set_non_standard_arrangement
+test_rust_static_library_non_standard_arrangement
 :
 :
 do_subtract
@@ -207,7 +207,7 @@ test_call_to_rust_then_cpp
 assert_eq
 !
 (
-test_mixed_source_set_rs
+test_mixed_static_library_rs
 :
 :
 add_two_ints_via_rust_then_cpp

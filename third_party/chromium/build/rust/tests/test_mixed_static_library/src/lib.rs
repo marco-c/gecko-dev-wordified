@@ -64,9 +64,9 @@ rust
 /
 tests
 /
-test_mixed_source_set
+test_mixed_static_library
 /
-test_mixed_source_set
+test_mixed_static_library
 .
 h
 "

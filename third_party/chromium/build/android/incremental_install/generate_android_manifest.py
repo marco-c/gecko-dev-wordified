@@ -597,6 +597,13 @@ manifest
 package
 .
   
+if
+arsc_package_name
+is
+not
+None
+:
+    
 manifest_node
 .
 set
@@ -898,23 +905,6 @@ options
 .
 in_apk
 )
-  
-assert
-arsc_package
-is
-not
-None
-'
-The
-apk
-does
-not
-have
-a
-valid
-package
-.
-'
   
 #
 Extract

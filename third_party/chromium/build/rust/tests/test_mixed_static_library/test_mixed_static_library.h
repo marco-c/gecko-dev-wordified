@@ -38,10 +38,10 @@ file
 .
 #
 ifndef
-BUILD_RUST_TESTS_TEST_MIXED_SOURCE_SET_TEST_MIXED_SOURCE_SET_H_
+BUILD_RUST_TESTS_TEST_MIXED_STATIC_LIBRARY_TEST_MIXED_STATIC_LIBRARY_H_
 #
 define
-BUILD_RUST_TESTS_TEST_MIXED_SOURCE_SET_TEST_MIXED_SOURCE_SET_H_
+BUILD_RUST_TESTS_TEST_MIXED_STATIC_LIBRARY_TEST_MIXED_STATIC_LIBRARY_H_
 #
 include
 <
@@ -58,7 +58,7 @@ rust
 /
 tests
 /
-test_mixed_source_set
+test_mixed_static_library
 /
 dependency_header
 .
@@ -73,7 +73,7 @@ rust
 /
 tests
 /
-test_mixed_source_set
+test_mixed_static_library
 /
 src
 /
@@ -96,4 +96,4 @@ b
 endif
 /
 /
-BUILD_RUST_TESTS_TEST_MIXED_SOURCE_SET_TEST_MIXED_SOURCE_SET_H_
+BUILD_RUST_TESTS_TEST_MIXED_STATIC_LIBRARY_TEST_MIXED_STATIC_LIBRARY_H_

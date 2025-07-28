@@ -55,7 +55,7 @@ test
 Bencher
 ;
 use
-test_mixed_source_set_rs
+test_mixed_static_library_rs
 :
 :
 add_two_ints_using_cpp
@@ -65,7 +65,7 @@ add_two_ints_using_cpp
 test
 ]
 fn
-test_call_into_mixed_source_set
+test_call_into_mixed_static_library
 (
 )
 {
