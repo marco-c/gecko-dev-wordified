@@ -909,7 +909,6 @@ resource
 {
 self
 Labeled
-RawResourceAccess
 ResourceErrorIdent
 }
 snatch
