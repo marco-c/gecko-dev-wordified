@@ -280,12 +280,6 @@ Nursery
 namespace
 gc
 {
-enum
-class
-AllocKind
-:
-uint8_t
-;
 struct
 BufferChunk
 ;
