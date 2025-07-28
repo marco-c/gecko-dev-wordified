@@ -1371,7 +1371,9 @@ SetSize
 (
 WritingMode
 aWM
+const
 LogicalSize
+&
 aSize
 )
 {

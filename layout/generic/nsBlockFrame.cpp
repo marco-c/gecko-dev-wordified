@@ -7789,7 +7789,9 @@ const
 ReflowInput
 &
 aReflowInput
+const
 LogicalSize
+&
 aFrameSize
 )
 {
