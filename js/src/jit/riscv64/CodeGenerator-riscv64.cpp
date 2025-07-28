@@ -15530,7 +15530,7 @@ displacement
 ;
 masm
 .
-computeEffectiveAddress
+computeEffectiveAddress32
 (
 address
 output
@@ -15607,7 +15607,7 @@ displacement
 ;
 masm
 .
-computeEffectiveAddress
+computeEffectiveAddress32
 (
 address
 output
