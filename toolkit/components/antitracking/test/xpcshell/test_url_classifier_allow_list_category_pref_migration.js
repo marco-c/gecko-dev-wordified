@@ -296,7 +296,7 @@ true
 ;
 exceptionListService
 .
-testRunCategoryPrefsMigration
+maybeMigrateCategoryPrefs
 (
 )
 ;
@@ -536,7 +536,7 @@ standard
 ;
 exceptionListService
 .
-testRunCategoryPrefsMigration
+maybeMigrateCategoryPrefs
 (
 )
 ;
@@ -790,7 +790,7 @@ Trigger
 migration
 exceptionListService
 .
-testRunCategoryPrefsMigration
+maybeMigrateCategoryPrefs
 (
 )
 ;
@@ -1051,7 +1051,7 @@ Trigger
 migration
 exceptionListService
 .
-testRunCategoryPrefsMigration
+maybeMigrateCategoryPrefs
 (
 )
 ;
@@ -1324,7 +1324,7 @@ Trigger
 migration
 exceptionListService
 .
-testRunCategoryPrefsMigration
+maybeMigrateCategoryPrefs
 (
 )
 ;
@@ -1507,7 +1507,7 @@ Trigger
 migration
 exceptionListService
 .
-testRunCategoryPrefsMigration
+maybeMigrateCategoryPrefs
 (
 )
 ;
@@ -1767,13 +1767,13 @@ multiple
 times
 exceptionListService
 .
-testRunCategoryPrefsMigration
+maybeMigrateCategoryPrefs
 (
 )
 ;
 exceptionListService
 .
-testRunCategoryPrefsMigration
+maybeMigrateCategoryPrefs
 (
 )
 ;
