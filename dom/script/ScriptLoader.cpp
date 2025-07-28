@@ -12971,6 +12971,13 @@ mModuleLoader
 mModuleLoader
 -
 >
+CancelFetchingModules
+(
+)
+;
+mModuleLoader
+-
+>
 CancelAndClearDynamicImports
 (
 )

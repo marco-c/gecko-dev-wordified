@@ -1901,6 +1901,11 @@ nsIGlobalObject
 aGlobalObject
 )
 ;
+void
+CancelFetchingModules
+(
+)
+;
 /
 /
 Called
