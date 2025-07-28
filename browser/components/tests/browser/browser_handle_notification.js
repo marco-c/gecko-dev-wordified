@@ -729,7 +729,7 @@ newTab
 await
 BrowserTestUtils
 .
-waitForNewTab
+waitForLocationChange
 (
 newWin
 .
