@@ -797,12 +797,6 @@ mozilla
 StyleStylesheetContents
 >
 sheet_contents
-mozilla
-:
-:
-StyleUseCounters
-*
-use_counters
 )
 ;
 mozilla

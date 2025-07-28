@@ -171,9 +171,6 @@ class
 StyleSheet
 ;
 struct
-StyleUseCounters
-;
-struct
 StyleStylesheetContents
 ;
 struct
@@ -548,12 +545,6 @@ const
 StyleStylesheetContents
 >
 mContents
-;
-UniquePtr
-<
-StyleUseCounters
->
-mUseCounters
 ;
 /
 /

@@ -7148,13 +7148,6 @@ reusable_sheets
 *
 /
 nullptr
-/
-*
-use_counters
-=
-*
-/
-nullptr
 StyleAllowImportRules
 :
 :

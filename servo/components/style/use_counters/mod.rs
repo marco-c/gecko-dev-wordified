@@ -142,7 +142,9 @@ property
 [
 derive
 (
+Debug
 Default
+Clone
 )
 ]
 pub
@@ -188,7 +190,9 @@ property
 [
 derive
 (
+Debug
 Default
+Clone
 )
 ]
 pub
@@ -544,7 +548,9 @@ store
 [
 derive
 (
+Debug
 Default
+Clone
 )
 ]
 pub
