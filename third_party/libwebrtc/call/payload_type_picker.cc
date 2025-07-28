@@ -329,9 +329,6 @@ parameters
 The
 use
 of
-cricket
-:
-:
 Codec
 which
 contains
@@ -395,9 +392,6 @@ bool
 CodecPrefersLowerRange
 (
 const
-cricket
-:
-:
 Codec
 &
 codec
@@ -419,9 +413,6 @@ codec
 type
 =
 =
-cricket
-:
-:
 Codec
 :
 :
@@ -753,9 +744,6 @@ PayloadType
 FindFreePayloadType
 (
 const
-cricket
-:
-:
 Codec
 &
 codec
@@ -1604,9 +1592,6 @@ entry
 .
 payload_type
 )
-cricket
-:
-:
 CreateAudioCodec
 (
 entry
@@ -1626,9 +1611,6 @@ PayloadTypePicker
 :
 SuggestMapping
 (
-cricket
-:
-:
 Codec
 codec
 const
@@ -1886,9 +1868,6 @@ AddMapping
 (
 PayloadType
 payload_type
-cricket
-:
-:
 Codec
 codec
 )
@@ -1994,9 +1973,6 @@ AddMapping
 (
 PayloadType
 payload_type
-cricket
-:
-:
 Codec
 codec
 )
@@ -2349,9 +2325,6 @@ std
 pair
 <
 PayloadType
-cricket
-:
-:
 Codec
 >
 >
@@ -2375,9 +2348,6 @@ std
 pair
 <
 PayloadType
-cricket
-:
-:
 Codec
 >
 >
@@ -2394,9 +2364,6 @@ PayloadTypeRecorder
 :
 LookupPayloadType
 (
-cricket
-:
-:
 Codec
 codec
 )
@@ -2513,9 +2480,6 @@ first
 }
 RTCErrorOr
 <
-cricket
-:
-:
 Codec
 >
 PayloadTypeRecorder

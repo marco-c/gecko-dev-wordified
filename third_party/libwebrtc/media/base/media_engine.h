@@ -364,7 +364,7 @@ rtc
 :
 ArrayView
 <
-cricket
+webrtc
 :
 :
 Codec
@@ -375,7 +375,7 @@ std
 :
 optional
 <
-cricket
+webrtc
 :
 :
 Codec
@@ -421,7 +421,7 @@ rtc
 :
 ArrayView
 <
-cricket
+webrtc
 :
 :
 Codec
@@ -432,7 +432,7 @@ std
 :
 optional
 <
-cricket
+webrtc
 :
 :
 Codec
@@ -495,7 +495,7 @@ rtc
 :
 ArrayView
 <
-cricket
+webrtc
 :
 :
 Codec
@@ -506,7 +506,7 @@ std
 :
 optional
 <
-cricket
+webrtc
 :
 :
 Codec
@@ -924,9 +924,6 @@ is
 being
 moved
 to
-cricket
-:
-:
 CodecVendor
 /
 /
@@ -1009,6 +1006,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 &
@@ -1026,6 +1026,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 &
@@ -1355,9 +1358,6 @@ being
 moved
 to
 the
-cricket
-:
-:
 CodecVendor
 class
 .
@@ -1435,6 +1435,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 LegacySendCodecs
@@ -1450,6 +1453,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 LegacyRecvCodecs
@@ -1508,6 +1514,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 LegacySendCodecs
@@ -1525,6 +1534,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 LegacyRecvCodecs

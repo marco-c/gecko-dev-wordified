@@ -572,9 +572,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 codecs_to_include

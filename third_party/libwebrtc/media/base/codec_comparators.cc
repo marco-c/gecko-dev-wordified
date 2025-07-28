@@ -283,12 +283,6 @@ webrtc
 {
 namespace
 {
-using
-cricket
-:
-:
-Codec
-;
 /
 /
 TODO

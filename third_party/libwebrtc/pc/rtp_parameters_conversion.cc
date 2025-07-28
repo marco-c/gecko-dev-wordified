@@ -177,9 +177,6 @@ RtcpFeedback
 ToRtcpFeedback
 (
 const
-cricket
-:
-:
 FeedbackParam
 &
 cricket_feedback
@@ -620,9 +617,6 @@ RtpCodecCapability
 ToRtpCodecCapability
 (
 const
-cricket
-:
-:
 Codec
 &
 cricket_codec
@@ -648,9 +642,6 @@ cricket_codec
 type
 =
 =
-cricket
-:
-:
 Codec
 :
 :
@@ -700,9 +691,6 @@ id
 for
 (
 const
-cricket
-:
-:
 FeedbackParam
 &
 cricket_feedback
@@ -758,9 +746,6 @@ type
 )
 {
 case
-cricket
-:
-:
 Codec
 :
 :
@@ -786,9 +771,6 @@ channels
 break
 ;
 case
-cricket
-:
-:
 Codec
 :
 :
@@ -843,9 +825,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 &
@@ -885,9 +864,6 @@ false
 for
 (
 const
-cricket
-:
-:
 Codec
 &
 cricket_codec

@@ -7179,9 +7179,6 @@ sdp
 )
 ;
 const
-cricket
-:
-:
 Codec
 *
 vp8_send_codec
@@ -7189,9 +7186,6 @@ vp8_send_codec
 nullptr
 ;
 const
-cricket
-:
-:
 Codec
 *
 vp9_send_codec
@@ -14613,9 +14607,6 @@ end
 ]
 (
 const
-cricket
-:
-:
 Codec
 &
 codec
@@ -17987,9 +17978,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 codecs
@@ -18025,9 +18013,6 @@ id
 auto
 av1
 =
-cricket
-:
-:
 CreateVideoCodec
 (
 SdpVideoFormat
@@ -21390,9 +21375,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 codecs
@@ -21594,9 +21576,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 codecs
@@ -21793,9 +21772,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 codecs
@@ -22004,9 +21980,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 codecs
@@ -22203,9 +22176,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 codecs
@@ -22402,9 +22372,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 codecs
@@ -22569,9 +22536,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 codecs
@@ -22586,9 +22550,6 @@ codecs
 auto
 codec
 =
-cricket
-:
-:
 CreateAudioCodec
 (
 SdpAudioFormat
@@ -22773,9 +22734,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 codecs
@@ -22940,9 +22898,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 codecs
@@ -22957,9 +22912,6 @@ codecs
 auto
 codec
 =
-cricket
-:
-:
 CreateVideoCodec
 (
 SdpVideoFormat
@@ -23142,9 +23094,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 codecs
@@ -23159,9 +23108,6 @@ codecs
 auto
 multiopus
 =
-cricket
-:
-:
 CreateAudioCodec
 (
 SdpAudioFormat
@@ -23373,9 +23319,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 codecs
@@ -23390,9 +23333,6 @@ codecs
 auto
 l16
 =
-cricket
-:
-:
 CreateAudioCodec
 (
 SdpAudioFormat
@@ -25348,9 +25288,6 @@ feedback_params
 .
 Add
 (
-cricket
-:
-:
 FeedbackParam
 (
 "
@@ -25530,9 +25467,6 @@ feedback_params
 .
 Add
 (
-cricket
-:
-:
 FeedbackParam
 (
 "

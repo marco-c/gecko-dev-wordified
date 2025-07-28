@@ -2334,9 +2334,6 @@ payload_types
 for
 (
 const
-cricket
-:
-:
 Codec
 &
 codec
@@ -2388,9 +2385,6 @@ rtp_codec
 ]
 (
 const
-cricket
-:
-:
 Codec
 &
 m_section_codec
@@ -2460,9 +2454,6 @@ it
 id
 =
 =
-cricket
-:
-:
 Codec
 :
 :
@@ -3566,9 +3557,6 @@ payload_type
 ]
 (
 const
-cricket
-:
-:
 Codec
 &
 m_section_codec

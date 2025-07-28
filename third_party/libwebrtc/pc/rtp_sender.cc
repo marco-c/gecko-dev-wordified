@@ -2259,9 +2259,6 @@ std
 :
 optional
 <
-cricket
-:
-:
 Codec
 >
 send_codec
@@ -2297,9 +2294,6 @@ std
 :
 optional
 <
-cricket
-:
-:
 Codec
 >
 send_codec_with_svc_info
@@ -2315,9 +2309,6 @@ send_codec
 type
 =
 =
-cricket
-:
-:
 Codec
 :
 :

@@ -620,9 +620,6 @@ UsedPayloadTypes
 public
 UsedIds
 <
-cricket
-:
-:
 Codec
 >
 {
@@ -634,9 +631,6 @@ UsedPayloadTypes
 :
 UsedIds
 <
-cricket
-:
-:
 Codec
 >
 (
@@ -677,9 +671,6 @@ static
 bool
 IsIdValid
 (
-cricket
-:
-:
 Codec
 codec
 bool
@@ -767,9 +758,6 @@ true
 return
 UsedIds
 <
-cricket
-:
-:
 Codec
 >
 :

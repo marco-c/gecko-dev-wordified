@@ -556,6 +556,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 &
@@ -575,6 +578,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 &

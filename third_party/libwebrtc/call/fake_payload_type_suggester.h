@@ -195,9 +195,6 @@ std
 string
 &
 mid
-cricket
-:
-:
 Codec
 codec
 )
@@ -238,9 +235,6 @@ webrtc
 PayloadType
 payload_type
 const
-cricket
-:
-:
 Codec
 &
 codec

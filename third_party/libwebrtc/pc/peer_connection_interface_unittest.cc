@@ -11558,9 +11558,6 @@ media_description
 for
 (
 const
-cricket
-:
-:
 Codec
 &
 codec

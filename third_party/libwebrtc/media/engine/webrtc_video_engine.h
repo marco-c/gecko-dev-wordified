@@ -986,6 +986,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 LegacySendCodecs
@@ -1006,6 +1009,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 LegacyRecvCodecs
@@ -1026,6 +1032,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 LegacySendCodecs
@@ -1041,6 +1050,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 LegacyRecvCodecs
@@ -1125,6 +1137,9 @@ explicit
 VideoCodecSettings
 (
 const
+webrtc
+:
+:
 Codec
 &
 codec
@@ -1211,6 +1226,9 @@ VideoCodecSettings
 b
 )
 ;
+webrtc
+:
+:
 Codec
 codec
 ;
@@ -1491,6 +1509,9 @@ std
 :
 optional
 <
+webrtc
+:
+:
 Codec
 >
 GetSendCodec
@@ -1979,6 +2000,9 @@ false
 ;
 }
 return
+webrtc
+:
+:
 HasLntf
 (
 send_codec
@@ -2016,6 +2040,9 @@ false
 ;
 }
 return
+webrtc
+:
+:
 HasNack
 (
 send_codec
@@ -2830,6 +2857,9 @@ EncoderSpecificSettings
 ConfigureVideoEncoderSettings
 (
 const
+webrtc
+:
+:
 Codec
 &
 codec
@@ -2866,6 +2896,9 @@ VideoEncoderConfig
 CreateVideoEncoderConfig
 (
 const
+webrtc
+:
+:
 Codec
 &
 codec

@@ -1352,15 +1352,9 @@ AudioSenderParameter
 params
 ;
 const
-cricket
-:
-:
 Codec
 kTelephoneEventCodec
 =
-cricket
-:
-:
 CreateAudioCodec
 (
 106

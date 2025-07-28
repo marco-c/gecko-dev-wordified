@@ -549,9 +549,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 )
@@ -567,9 +564,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 GetSendCodecs

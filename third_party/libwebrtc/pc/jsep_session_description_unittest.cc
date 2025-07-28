@@ -527,7 +527,7 @@ audio
 >
 AddCodec
 (
-cricket
+webrtc
 :
 :
 CreateAudioCodec
@@ -568,7 +568,7 @@ video
 >
 AddCodec
 (
-cricket
+webrtc
 :
 :
 CreateVideoCodec

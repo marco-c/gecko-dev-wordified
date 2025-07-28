@@ -1618,9 +1618,6 @@ std
 string
 &
 mid
-cricket
-:
-:
 Codec
 codec
 )
@@ -1772,9 +1769,6 @@ ok
 {
 RTCErrorOr
 <
-cricket
-:
-:
 Codec
 >
 local_result
@@ -1970,9 +1964,6 @@ mid
 PayloadType
 payload_type
 const
-cricket
-:
-:
 Codec
 &
 codec

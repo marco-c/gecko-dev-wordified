@@ -784,9 +784,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 &
@@ -804,9 +801,6 @@ codecs
 ]
 (
 const
-cricket
-:
-:
 Codec
 &
 c
@@ -820,9 +814,6 @@ GetResiliencyType
 )
 =
 =
-cricket
-:
-:
 Codec
 :
 :
@@ -851,9 +842,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 &
@@ -871,9 +859,6 @@ codecs
 ]
 (
 const
-cricket
-:
-:
 Codec
 &
 c
@@ -887,9 +872,6 @@ GetResiliencyType
 )
 =
 =
-cricket
-:
-:
 Codec
 :
 :
@@ -913,9 +895,6 @@ bool
 IsComfortNoiseCodec
 (
 const
-cricket
-:
-:
 Codec
 &
 codec
@@ -2814,9 +2793,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 &
@@ -3709,9 +3685,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 &
@@ -7923,9 +7896,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 codecs_to_include
@@ -7947,9 +7917,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 >
@@ -9047,9 +9014,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 codecs_to_include
@@ -9061,9 +9025,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 >
@@ -9161,9 +9122,6 @@ end
 ]
 (
 const
-cricket
-:
-:
 Codec
 &
 c
@@ -9336,9 +9294,6 @@ feedback_params
 .
 Remove
 (
-cricket
-:
-:
 FeedbackParam
 (
 cricket

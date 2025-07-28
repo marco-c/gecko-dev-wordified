@@ -1140,9 +1140,6 @@ MediaType
 AUDIO
 :
 {
-cricket
-:
-:
 Codecs
 cricket_codecs
 ;
@@ -1191,9 +1188,6 @@ MediaType
 VIDEO
 :
 {
-cricket
-:
-:
 Codecs
 cricket_codecs
 ;
@@ -1296,9 +1290,6 @@ MediaType
 AUDIO
 :
 {
-cricket
-:
-:
 Codecs
 cricket_codecs
 ;
@@ -1347,9 +1338,6 @@ MediaType
 VIDEO
 :
 {
-cricket
-:
-:
 Codecs
 cricket_codecs
 =

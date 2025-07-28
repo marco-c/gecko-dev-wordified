@@ -403,9 +403,6 @@ RtcpFeedback
 ToRtcpFeedback
 (
 const
-cricket
-:
-:
 FeedbackParam
 &
 cricket_feedback
@@ -415,9 +412,6 @@ RtpCodecCapability
 ToRtpCodecCapability
 (
 const
-cricket
-:
-:
 Codec
 &
 cricket_codec
@@ -432,9 +426,6 @@ std
 :
 vector
 <
-cricket
-:
-:
 Codec
 >
 &

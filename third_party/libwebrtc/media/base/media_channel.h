@@ -1395,6 +1395,9 @@ std
 :
 optional
 <
+webrtc
+:
+:
 Codec
 >
 GetSendCodec
@@ -6784,6 +6787,9 @@ std
 :
 vector
 <
+webrtc
+:
+:
 Codec
 >
 codecs

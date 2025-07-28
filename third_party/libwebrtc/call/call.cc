@@ -1003,9 +1003,6 @@ string
 mid
 *
 /
-cricket
-:
-:
 Codec
 codec
 )
@@ -1042,9 +1039,6 @@ payload_type
 *
 /
 const
-cricket
-:
-:
 Codec
 &
 /

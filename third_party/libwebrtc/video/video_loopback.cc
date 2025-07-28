@@ -1452,7 +1452,7 @@ std
 :
 :
 string
-Codec
+CodecName
 (
 )
 {
@@ -2185,7 +2185,7 @@ video
 .
 codec
 =
-Codec
+CodecName
 (
 )
 ;
