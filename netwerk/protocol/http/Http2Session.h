@@ -2660,7 +2660,7 @@ Http2StreamBase
 stream
 )
 ;
-uint32_t
+bool
 RoomForMoreConcurrent
 (
 )
