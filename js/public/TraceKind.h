@@ -379,9 +379,12 @@ BigInt
 String
 =
 0x02
-Symbol
+GetterSetter
 =
 0x03
+Symbol
+=
+0x04
 /
 /
 Shape
@@ -392,9 +395,6 @@ through
 JS_TraceShapeCycleCollectorChildren
 .
 Shape
-=
-0x04
-BaseShape
 =
 0x05
 /
@@ -424,11 +424,11 @@ C
 +
 idiom
 .
+BaseShape
 JitCode
 Script
 Scope
 RegExpShared
-GetterSetter
 PropMap
 }
 ;
