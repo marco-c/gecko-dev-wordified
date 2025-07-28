@@ -294,8 +294,8 @@ browser_cmd
 .
 extend
 (
-[
             
+[
 '
 -
 -
@@ -313,35 +313,6 @@ name
 =
 web_engine_with_webui
 '
-            
-'
--
--
-use
--
-web
--
-instance
-'
-'
--
--
-enable
--
-web
--
-instance
--
-tmp
-'
-'
--
--
-with
--
-webui
-'
-        
 ]
 )
         

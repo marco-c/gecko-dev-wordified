@@ -72,6 +72,10 @@ no_luci_auth
 '
     
 '
+disable_auth
+'
+    
+'
 service_account
 '
     
@@ -111,6 +115,7 @@ skia_gold_local_png_write_directory
 def
 createSkiaGoldArgs
 (
+    
 local_pixel_tests
 :
 Optional
@@ -119,7 +124,7 @@ bool
 ]
 =
 None
-                       
+    
 no_luci_auth
 :
 Optional
@@ -128,7 +133,16 @@ bool
 ]
 =
 None
-                       
+    
+disable_auth
+:
+Optional
+[
+bool
+]
+=
+None
+    
 service_account
 :
 Optional
@@ -137,7 +151,7 @@ str
 ]
 =
 None
-                       
+    
 code_review_system
 :
 Optional
@@ -146,7 +160,7 @@ str
 ]
 =
 None
-                       
+    
 continuous_integration_system
 :
 Optional
@@ -155,7 +169,7 @@ str
 ]
 =
 None
-                       
+    
 git_revision
 :
 Optional
@@ -164,7 +178,7 @@ str
 ]
 =
 None
-                       
+    
 gerrit_issue
 :
 Optional
@@ -173,7 +187,7 @@ int
 ]
 =
 None
-                       
+    
 gerrit_patchset
 :
 Optional
@@ -182,7 +196,7 @@ int
 ]
 =
 None
-                       
+    
 buildbucket_id
 :
 Optional
@@ -191,7 +205,7 @@ int
 ]
 =
 None
-                       
+    
 bypass_skia_gold_functionality
 :
 Optional
@@ -200,7 +214,7 @@ bool
 ]
 =
 None
-                       
+    
 skia_gold_local_png_write_directory
 :
 Optional
@@ -209,7 +223,6 @@ str
 ]
 =
 None
-                       
 )
 -
 >
@@ -232,13 +245,15 @@ _SkiaGoldArgs
 (
 local_pixel_tests
 no_luci_auth
+disable_auth
+                    
 service_account
-                    
 code_review_system
-continuous_integration_system
                     
+continuous_integration_system
 git_revision
 gerrit_issue
+                    
 gerrit_patchset
 buildbucket_id
                     

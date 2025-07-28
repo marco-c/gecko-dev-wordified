@@ -1498,6 +1498,8 @@ r
 ?
 =
 Warning
+|
+Error
 )
 '
 output
