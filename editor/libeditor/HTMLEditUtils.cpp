@@ -4350,6 +4350,7 @@ HTMLEditUtils
 :
 IsTable
 (
+const
 nsINode
 *
 aNode
@@ -22474,6 +22475,18 @@ RecognizeInvisibleWhiteSpaces
 "
 "
 StopAtComment
+"
+"
+StopAtListElement
+"
+"
+StopAtListItemElement
+"
+"
+StopAtTableElement
+"
+"
+StopAtAnyTableElement
 "
 }
 ;
