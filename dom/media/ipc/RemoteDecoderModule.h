@@ -182,6 +182,15 @@ Args
 ;
 public
 :
+const
+char
+*
+Name
+(
+)
+const
+override
+;
 static
 already_AddRefed
 <
