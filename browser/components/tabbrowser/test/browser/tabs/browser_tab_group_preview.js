@@ -258,6 +258,8 @@ browser
 .
 tabs
 .
+groups
+.
 hoverPreview
 .
 enabled
