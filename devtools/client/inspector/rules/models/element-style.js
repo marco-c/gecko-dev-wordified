@@ -121,6 +121,7 @@ style
 :
 {
 ELEMENT_STYLE
+PRES_HINTS
 }
 }
 =
@@ -4364,6 +4365,19 @@ type
 ELEMENT_STYLE
 ;
 const
+isElementAttributesStyle
+=
+rule
+.
+domRule
+.
+type
+=
+=
+=
+PRES_HINTS
+;
+const
 filterCondition
 =
 isNestedDeclarations
@@ -4391,6 +4405,9 @@ isStyleRule
 |
 |
 isElementStyle
+|
+|
+isElementAttributesStyle
 |
 |
 isInheritedPseudoElementRule

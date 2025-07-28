@@ -989,6 +989,11 @@ ELEMENT_STYLE
 =
 100
 ;
+const
+PRES_HINTS
+=
+200
+;
 /
 *
 WebConsole
@@ -1404,6 +1409,7 @@ style
 :
 {
 ELEMENT_STYLE
+PRES_HINTS
 }
 }
 ;
