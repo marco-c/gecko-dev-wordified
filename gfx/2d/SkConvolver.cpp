@@ -143,6 +143,15 @@ mozilla
 gfx
 :
 :
+BytesPerPixel
+;
+using
+mozilla
+:
+:
+gfx
+:
+:
 IsOpaque
 ;
 using
@@ -5124,7 +5133,10 @@ numValues
 (
 )
 *
-4
+BytesPerPixel
+(
+format
+)
 )
 ;
 int
