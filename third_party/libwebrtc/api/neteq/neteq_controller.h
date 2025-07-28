@@ -104,16 +104,6 @@ cstdint
 #
 include
 <
-functional
->
-#
-include
-<
-memory
->
-#
-include
-<
 optional
 >
 #

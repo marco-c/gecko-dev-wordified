@@ -111,6 +111,15 @@ include
 <
 vector
 >
+#
+include
+"
+api
+/
+candidate
+.
+h
+"
 namespace
 webrtc
 {

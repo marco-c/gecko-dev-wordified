@@ -275,6 +275,12 @@ videocodec_test_stats
 .
 h
 "
+/
+/
+IWYU
+pragma
+:
+begin_keep
 #
 include
 "
@@ -550,3 +556,9 @@ mock_video_track
 .
 h
 "
+/
+/
+IWYU
+pragma
+:
+end_keep

@@ -98,6 +98,16 @@ audio_encoder_multi_channel_opus_config
 .
 h
 "
+#
+include
+<
+cstddef
+>
+#
+include
+<
+vector
+>
 namespace
 webrtc
 {

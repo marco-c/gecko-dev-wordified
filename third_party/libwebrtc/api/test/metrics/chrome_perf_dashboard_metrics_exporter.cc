@@ -182,6 +182,17 @@ test
 /
 testsupport
 /
+perf_test
+.
+h
+"
+#
+include
+"
+test
+/
+testsupport
+/
 perf_test_histogram_writer
 .
 h
