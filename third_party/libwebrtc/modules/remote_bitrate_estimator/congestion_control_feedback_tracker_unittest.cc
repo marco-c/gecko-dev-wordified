@@ -231,15 +231,9 @@ uint16_t
 seq
 =
 1
-rtc
-:
-:
 EcnMarking
 ecn
 =
-rtc
-:
-:
 EcnMarking
 :
 :
@@ -535,9 +529,6 @@ seq
 *
 /
 1
-rtc
-:
-:
 EcnMarking
 :
 :
@@ -569,9 +560,6 @@ seq
 *
 /
 1
-rtc
-:
-:
 EcnMarking
 :
 :
@@ -603,9 +591,6 @@ seq
 *
 /
 1
-rtc
-:
-:
 EcnMarking
 :
 :
@@ -721,9 +706,6 @@ PacketInfo
 :
 :
 ecn
-rtc
-:
-:
 EcnMarking
 :
 :

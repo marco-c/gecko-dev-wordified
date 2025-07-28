@@ -951,7 +951,7 @@ void
 OnAbortedRetransmissions
 (
 uint32_t
-rtc
+webrtc
 :
 :
 ArrayView
@@ -1094,7 +1094,7 @@ void
 OnAbortedRetransmissions
 (
 uint32_t
-rtc
+webrtc
 :
 :
 ArrayView
@@ -1353,9 +1353,6 @@ void
 OnAbortedRetransmissions
 (
 uint32_t
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1736,9 +1733,6 @@ void
 OnAbortedRetransmissions
 (
 uint32_t
-rtc
-:
-:
 ArrayView
 <
 const

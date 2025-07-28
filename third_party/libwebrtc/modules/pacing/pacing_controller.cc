@@ -824,9 +824,6 @@ PacingController
 :
 CreateProbeClusters
 (
-rtc
-:
-:
 ArrayView
 <
 const

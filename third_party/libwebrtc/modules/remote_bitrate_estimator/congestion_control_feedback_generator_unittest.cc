@@ -331,9 +331,6 @@ uint16_t
 seq
 =
 1
-rtc
-:
-:
 EcnMarking
 /
 *
@@ -341,9 +338,6 @@ ecn
 *
 /
 =
-rtc
-:
-:
 EcnMarking
 :
 :
@@ -2017,9 +2011,6 @@ SizeIs
 )
 )
 ;
-rtc
-:
-:
 Buffer
 buffer
 =
@@ -2331,9 +2322,6 @@ seq
 *
 /
 2
-rtc
-:
-:
 EcnMarking
 :
 :
@@ -2369,9 +2357,6 @@ packet_2
 .
 set_ecn
 (
-rtc
-:
-:
 EcnMarking
 :
 :
@@ -2499,9 +2484,6 @@ packets
 ]
 .
 ecn
-rtc
-:
-:
 EcnMarking
 :
 :

@@ -498,9 +498,6 @@ uint32_t
 ssrc
 *
 /
-rtc
-:
-:
 ArrayView
 <
 const
@@ -1163,9 +1160,6 @@ packet
 void
 CreateProbeClusters
 (
-rtc
-:
-:
 ArrayView
 <
 const

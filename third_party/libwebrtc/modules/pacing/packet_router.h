@@ -546,9 +546,6 @@ OnAbortedRetransmissions
 (
 uint32_t
 ssrc
-rtc
-:
-:
 ArrayView
 <
 const

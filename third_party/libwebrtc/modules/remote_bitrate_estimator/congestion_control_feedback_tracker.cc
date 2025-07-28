@@ -647,15 +647,9 @@ packet_it
 ssrc
 )
 ;
-rtc
-:
-:
 EcnMarking
 ecn
 =
-rtc
-:
-:
 EcnMarking
 :
 :
@@ -812,9 +806,6 @@ packet_it
 ecn
 =
 =
-rtc
-:
-:
 EcnMarking
 :
 :
@@ -823,9 +814,6 @@ kCe
 {
 ecn
 =
-rtc
-:
-:
 EcnMarking
 :
 :
