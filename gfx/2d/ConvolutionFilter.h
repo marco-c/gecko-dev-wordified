@@ -129,13 +129,6 @@ UniquePtr
 .
 h
 "
-#
-include
-"
-Types
-.
-h
-"
 namespace
 skia
 {
@@ -199,8 +192,8 @@ aSrc
 uint8_t
 *
 aDst
-SurfaceFormat
-aFormat
+bool
+aHasAlpha
 )
 ;
 void
@@ -218,8 +211,8 @@ int32_t
 aRowIndex
 int32_t
 aRowSize
-SurfaceFormat
-aFormat
+bool
+aHasAlpha
 )
 ;
 enum
