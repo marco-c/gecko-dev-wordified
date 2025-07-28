@@ -207,7 +207,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 Thread
@@ -230,7 +230,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 Thread
@@ -239,7 +239,7 @@ window_thread
 ;
 window_thread
 =
-rtc
+webrtc
 :
 :
 Thread
@@ -464,7 +464,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 Thread
@@ -626,7 +626,7 @@ std
 :
 unique_ptr
 <
-rtc
+webrtc
 :
 :
 Thread

@@ -139,7 +139,7 @@ public
 explicit
 WindowFinderMac
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -171,7 +171,7 @@ override
 private
 :
 const
-rtc
+webrtc
 :
 :
 scoped_refptr

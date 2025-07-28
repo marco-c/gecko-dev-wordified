@@ -1928,7 +1928,7 @@ api_checker_
 int64_t
 capture_start_time_millis
 =
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -2135,7 +2135,7 @@ frame
 >
 set_capture_time_ms
 (
-rtc
+webrtc
 :
 :
 TimeSince
@@ -4340,7 +4340,7 @@ size
 height
 )
 ;
-rtc
+webrtc
 :
 :
 ScopedCFTypeRef
@@ -4350,7 +4350,7 @@ IOSurfaceRef
 scoped_io_surface
 (
 io_surface
-rtc
+webrtc
 :
 :
 RetainPolicy

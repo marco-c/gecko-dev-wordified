@@ -388,7 +388,7 @@ error
 /
 /
 static
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -439,7 +439,7 @@ DxgiDuplicatorController
 )
 ;
 return
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -3207,7 +3207,7 @@ const
 int64_t
 start_ms
 =
-rtc
+webrtc
 :
 :
 TimeMillis
@@ -3294,7 +3294,7 @@ break
 }
 if
 (
-rtc
+webrtc
 :
 :
 TimeMillis

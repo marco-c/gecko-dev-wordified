@@ -213,9 +213,6 @@ display_
 /
 /
 static
-rtc
-:
-:
 scoped_refptr
 <
 SharedXDisplay
@@ -283,9 +280,6 @@ nullptr
 ;
 }
 return
-rtc
-:
-:
 scoped_refptr
 <
 SharedXDisplay
@@ -302,9 +296,6 @@ display
 /
 /
 static
-rtc
-:
-:
 scoped_refptr
 <
 SharedXDisplay
@@ -516,9 +507,6 @@ while
 processing
 events
 .
-rtc
-:
-:
 scoped_refptr
 <
 SharedXDisplay

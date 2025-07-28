@@ -214,7 +214,7 @@ string_view
 >
 parsed_version
 =
-rtc
+webrtc
 :
 :
 split
@@ -251,7 +251,7 @@ int
 >
 major
 =
-rtc
+webrtc
 :
 :
 StringToNumber
@@ -276,7 +276,7 @@ int
 >
 minor
 =
-rtc
+webrtc
 :
 :
 StringToNumber
@@ -301,7 +301,7 @@ int
 >
 micro
 =
-rtc
+webrtc
 :
 :
 StringToNumber

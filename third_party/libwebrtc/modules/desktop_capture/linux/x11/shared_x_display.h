@@ -216,9 +216,6 @@ RTC_EXPORT
 SharedXDisplay
 :
 public
-rtc
-:
-:
 RefCountedNonVirtual
 <
 SharedXDisplay
@@ -300,9 +297,6 @@ is
 empty
 .
 static
-rtc
-:
-:
 scoped_refptr
 <
 SharedXDisplay
@@ -347,9 +341,6 @@ connection
 failed
 .
 static
-rtc
-:
-:
 scoped_refptr
 <
 SharedXDisplay

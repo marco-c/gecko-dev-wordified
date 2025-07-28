@@ -198,7 +198,7 @@ DesktopFrameIOSurface
 >
 Wrap
 (
-rtc
+webrtc
 :
 :
 ScopedCFTypeRef
@@ -311,7 +311,7 @@ data
 .
 DesktopFrameIOSurface
 (
-rtc
+webrtc
 :
 :
 ScopedCFTypeRef
@@ -331,7 +331,7 @@ stride
 )
 ;
 const
-rtc
+webrtc
 :
 :
 ScopedCFTypeRef

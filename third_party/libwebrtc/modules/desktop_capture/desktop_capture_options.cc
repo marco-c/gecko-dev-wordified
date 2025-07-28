@@ -324,7 +324,7 @@ result
 .
 set_configuration_monitor
 (
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -339,7 +339,7 @@ result
 .
 set_full_screen_window_detector
 (
-rtc
+webrtc
 :
 :
 make_ref_counted
@@ -361,7 +361,7 @@ result
 .
 set_full_screen_window_detector
 (
-rtc
+webrtc
 :
 :
 make_ref_counted

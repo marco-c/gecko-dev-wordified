@@ -182,7 +182,7 @@ RTC_EXPORT
 SharedScreenCastStream
 :
 public
-rtc
+webrtc
 :
 :
 RefCountedNonVirtual
@@ -290,7 +290,7 @@ default
 }
 ;
 static
-rtc
+webrtc
 :
 :
 scoped_refptr

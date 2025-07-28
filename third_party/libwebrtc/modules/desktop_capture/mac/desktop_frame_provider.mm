@@ -266,7 +266,7 @@ InvalidateIOSurface
 (
 CGDirectDisplayID
 display_id
-rtc
+webrtc
 :
 :
 ScopedCFTypeRef

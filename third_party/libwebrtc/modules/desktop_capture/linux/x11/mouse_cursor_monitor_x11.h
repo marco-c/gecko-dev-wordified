@@ -313,9 +313,6 @@ CaptureCursor
 (
 )
 ;
-rtc
-:
-:
 scoped_refptr
 <
 SharedXDisplay

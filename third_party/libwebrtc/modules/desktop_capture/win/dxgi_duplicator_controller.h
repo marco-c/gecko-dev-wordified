@@ -666,7 +666,7 @@ of
 DxgiDuplicatorController
 .
 static
-rtc
+webrtc
 :
 :
 scoped_refptr

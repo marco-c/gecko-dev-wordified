@@ -327,9 +327,6 @@ defined
 WEBRTC_USE_X11
 )
 const
-rtc
-:
-:
 scoped_refptr
 <
 SharedXDisplay
@@ -347,9 +344,6 @@ x_display_
 void
 set_x_display
 (
-rtc
-:
-:
 scoped_refptr
 <
 SharedXDisplay
@@ -412,7 +406,7 @@ two
 parameters
 .
 const
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -457,7 +451,7 @@ function
 void
 set_configuration_monitor
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -627,9 +621,6 @@ allow
 #
 endif
 const
-rtc
-:
-:
 scoped_refptr
 <
 FullScreenWindowDetector
@@ -647,9 +638,6 @@ full_screen_window_detector_
 void
 set_full_screen_window_detector
 (
-rtc
-:
-:
 scoped_refptr
 <
 FullScreenWindowDetector
@@ -1637,7 +1625,7 @@ allow
 ;
 }
 const
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1657,7 +1645,7 @@ screencast_stream_
 void
 set_screencast_stream
 (
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1748,9 +1736,6 @@ defined
 (
 WEBRTC_USE_X11
 )
-rtc
-:
-:
 scoped_refptr
 <
 SharedXDisplay
@@ -1794,7 +1779,7 @@ with
 screen
 content
 .
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1818,7 +1803,7 @@ defined
 (
 WEBRTC_IOS
 )
-rtc
+webrtc
 :
 :
 scoped_refptr
@@ -1844,9 +1829,6 @@ false
 ;
 #
 endif
-rtc
-:
-:
 scoped_refptr
 <
 FullScreenWindowDetector

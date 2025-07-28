@@ -362,9 +362,6 @@ IsShared
 private
 :
 typedef
-rtc
-:
-:
 FinalRefCountedObject
 <
 std
@@ -379,9 +376,6 @@ Core
 ;
 SharedDesktopFrame
 (
-rtc
-:
-:
 scoped_refptr
 <
 Core
@@ -390,9 +384,6 @@ core
 )
 ;
 const
-rtc
-:
-:
 scoped_refptr
 <
 Core

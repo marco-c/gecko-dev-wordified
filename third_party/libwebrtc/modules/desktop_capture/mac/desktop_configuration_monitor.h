@@ -176,7 +176,7 @@ DesktopConfigurationMonitor
 final
 :
 public
-rtc
+webrtc
 :
 :
 RefCountedNonVirtual

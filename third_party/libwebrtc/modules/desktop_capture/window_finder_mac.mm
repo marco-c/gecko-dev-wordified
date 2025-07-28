@@ -162,7 +162,7 @@ WindowFinderMac
 :
 WindowFinderMac
 (
-rtc
+webrtc
 :
 :
 scoped_refptr

@@ -160,9 +160,6 @@ SharedDesktopFrame
 new
 SharedDesktopFrame
 (
-rtc
-:
-:
 scoped_refptr
 <
 Core
@@ -332,9 +329,6 @@ SharedDesktopFrame
 :
 SharedDesktopFrame
 (
-rtc
-:
-:
 scoped_refptr
 <
 Core
