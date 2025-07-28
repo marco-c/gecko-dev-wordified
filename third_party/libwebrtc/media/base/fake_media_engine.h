@@ -818,9 +818,6 @@ uint8_t
 data
 )
 len
-cricket
-:
-:
 kMaxRtpPacketLen
 )
 ;
@@ -832,10 +829,7 @@ SendRtcp
 (
 &
 packet
-rtc
-:
-:
-PacketOptions
+AsyncSocketPacketOptions
 (
 )
 )
@@ -1266,7 +1260,7 @@ std
 :
 vector
 <
-cricket
+webrtc
 :
 :
 StreamParams
@@ -1301,7 +1295,7 @@ nullptr
 ;
 }
 const
-cricket
+MediaChannelParameters
 :
 :
 RtcpParameters
@@ -1511,7 +1505,7 @@ void
 set_recv_rtcp_parameters
 (
 const
-cricket
+MediaChannelParameters
 :
 :
 RtcpParameters
@@ -1621,7 +1615,7 @@ StreamParams
 >
 receive_streams_
 ;
-cricket
+MediaChannelParameters
 :
 :
 RtcpParameters
@@ -1819,10 +1813,7 @@ data
 size_t
 len
 const
-rtc
-:
-:
-PacketOptions
+AsyncSocketPacketOptions
 &
 options
 )
@@ -1850,9 +1841,6 @@ uint8_t
 data
 )
 len
-cricket
-:
-:
 kMaxRtpPacketLen
 )
 ;
@@ -1892,9 +1880,6 @@ uint8_t
 data
 )
 len
-cricket
-:
-:
 kMaxRtpPacketLen
 )
 ;
@@ -1906,10 +1891,7 @@ SendRtcp
 (
 &
 packet
-rtc
-:
-:
-PacketOptions
+AsyncSocketPacketOptions
 (
 )
 )
@@ -2584,7 +2566,7 @@ std
 :
 vector
 <
-cricket
+webrtc
 :
 :
 StreamParams
@@ -2670,7 +2652,7 @@ first_ssrc
 ;
 }
 const
-cricket
+MediaChannelParameters
 :
 :
 RtcpParameters
@@ -2973,7 +2955,7 @@ void
 set_send_rtcp_parameters
 (
 const
-cricket
+MediaChannelParameters
 :
 :
 RtcpParameters
@@ -2990,10 +2972,7 @@ void
 OnPacketSent
 (
 const
-rtc
-:
-:
-SentPacket
+SentPacketInfo
 &
 /
 *
@@ -3163,7 +3142,7 @@ StreamParams
 >
 send_streams_
 ;
-cricket
+MediaChannelParameters
 :
 :
 RtcpParameters

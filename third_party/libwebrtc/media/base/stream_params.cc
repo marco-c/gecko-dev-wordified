@@ -186,9 +186,6 @@ namespace
 void
 AppendSsrcs
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -253,9 +250,6 @@ sb
 void
 AppendSsrcGroups
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -317,9 +311,6 @@ delimiter
 void
 AppendStreamIds
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -383,9 +374,6 @@ delimiter
 void
 AppendRids
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -418,9 +406,6 @@ delimiter
 for
 (
 const
-cricket
-:
-:
 RidDescription
 &
 rid

@@ -1350,9 +1350,6 @@ RTC_CHECK_NOTREACHED
 RtpPacketType
 InferRtpPacketType
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -3626,9 +3623,6 @@ end
 auto
 packet
 =
-rtc
-:
-:
 MakeArrayView
 (
 data

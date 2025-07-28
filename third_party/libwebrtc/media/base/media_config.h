@@ -215,7 +215,7 @@ from
 system
 clock
 via
-rtc
+webrtc
 :
 :
 TimeUTCMicros
@@ -244,7 +244,7 @@ is
 /
 set
 to
-rtc
+webrtc
 :
 :
 TimeUTCMicros
@@ -257,9 +257,9 @@ and
 then
 procceeds
 to
+/
+/
 increase
-/
-/
 monotonically
 .
 /

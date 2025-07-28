@@ -760,7 +760,7 @@ SdpVideoFormat
 :
 :
 name
-cricket
+webrtc
 :
 :
 kAv1CodecName

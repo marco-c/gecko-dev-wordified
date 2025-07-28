@@ -552,9 +552,6 @@ kAstIndexInTwoByteRtpMsg
 ;
 static
 const
-rtc
-:
-:
 ArrayView
 <
 const
@@ -562,9 +559,6 @@ uint8_t
 >
 kPcmuFrameArrayView
 =
-rtc
-:
-:
 MakeArrayView
 (
 kPcmuFrame
@@ -576,9 +570,6 @@ kPcmuFrame
 ;
 static
 const
-rtc
-:
-:
 ArrayView
 <
 const
@@ -586,9 +577,6 @@ uint8_t
 >
 kRtcpReportArrayView
 =
-rtc
-:
-:
 MakeArrayView
 (
 kRtcpReport
@@ -600,9 +588,6 @@ kRtcpReport
 ;
 static
 const
-rtc
-:
-:
 ArrayView
 <
 const
@@ -610,9 +595,6 @@ uint8_t
 >
 kInvalidPacketArrayView
 =
-rtc
-:
-:
 MakeArrayView
 (
 kInvalidPacket

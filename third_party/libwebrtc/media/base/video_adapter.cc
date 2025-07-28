@@ -2753,7 +2753,7 @@ std
 :
 optional
 <
-rtc
+webrtc
 :
 :
 VideoSinkWants

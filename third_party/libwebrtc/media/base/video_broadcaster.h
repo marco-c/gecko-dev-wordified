@@ -214,14 +214,14 @@ does
 that
 by
 implementing
-rtc
+webrtc
 :
 :
 VideoSourceInterface
 and
 /
 /
-rtc
+webrtc
 :
 :
 VideoSinkInterface

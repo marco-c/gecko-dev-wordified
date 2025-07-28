@@ -1481,10 +1481,7 @@ void
 OnPacketSent
 (
 const
-rtc
-:
-:
-SentPacket
+SentPacketInfo
 &
 sent_packet
 )
@@ -2152,9 +2149,6 @@ static
 void
 ExtractCodecInformation
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -6096,7 +6090,7 @@ external
 customers
 are
 using
-cricket
+webrtc
 :
 :
 WebRtcVideoChannel

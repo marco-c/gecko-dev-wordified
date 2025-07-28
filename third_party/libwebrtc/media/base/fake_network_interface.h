@@ -349,9 +349,6 @@ recvbuf_size_
 )
 dscp_
 (
-rtc
-:
-:
 DSCP_NO_CHANGE
 )
 {
@@ -807,9 +804,6 @@ return
 recvbuf_size_
 ;
 }
-rtc
-:
-:
 DiffServCodePoint
 dscp
 (
@@ -820,10 +814,7 @@ return
 dscp_
 ;
 }
-rtc
-:
-:
-PacketOptions
+AsyncSocketPacketOptions
 options
 (
 )
@@ -843,10 +834,7 @@ CopyOnWriteBuffer
 *
 packet
 const
-rtc
-:
-:
-PacketOptions
+AsyncSocketPacketOptions
 &
 options
 )
@@ -969,10 +957,7 @@ CopyOnWriteBuffer
 *
 packet
 const
-rtc
-:
-:
-PacketOptions
+AsyncSocketPacketOptions
 &
 options
 )
@@ -1114,9 +1099,6 @@ dscp_
 =
 static_cast
 <
-rtc
-:
-:
 DiffServCodePoint
 >
 (
@@ -1501,9 +1483,6 @@ sendbuf_size_
 int
 recvbuf_size_
 ;
-rtc
-:
-:
 DiffServCodePoint
 dscp_
 ;
@@ -1517,10 +1496,7 @@ recently
 sent
 packet
 .
-rtc
-:
-:
-PacketOptions
+AsyncSocketPacketOptions
 options_
 ;
 ScopedTaskSafety

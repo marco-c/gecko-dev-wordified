@@ -462,7 +462,7 @@ override
 ;
 /
 /
-cricket
+webrtc
 :
 :
 SctpTransportInternal
@@ -538,9 +538,6 @@ SendDataParams
 &
 params
 const
-rtc
-:
-:
 CopyOnWriteBuffer
 &
 payload
@@ -638,9 +635,6 @@ dcsctp
 SendPacketStatus
 SendPacketWithStatus
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -770,9 +764,6 @@ override
 void
 OnStreamsResetFailed
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -793,9 +784,6 @@ override
 void
 OnStreamsResetPerformed
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -811,9 +799,6 @@ override
 void
 OnIncomingStreamsReset
 (
-rtc
-:
-:
 ArrayView
 <
 const
@@ -855,10 +840,7 @@ PacketTransportInternal
 *
 transport
 const
-rtc
-:
-:
-ReceivedPacket
+ReceivedIpPacket
 &
 packet
 )
@@ -934,9 +916,6 @@ debug_name_
 DcSctpTransport
 "
 ;
-rtc
-:
-:
 CopyOnWriteBuffer
 receive_buffer_
 ;

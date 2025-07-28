@@ -297,9 +297,6 @@ packet
 RtpPacketType
 InferRtpPacketType
 (
-rtc
-:
-:
 ArrayView
 <
 const

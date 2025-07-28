@@ -537,7 +537,7 @@ private
 /
 /
 Implements
-rtc
+webrtc
 :
 :
 VideoSourceInterface

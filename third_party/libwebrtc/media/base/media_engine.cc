@@ -615,9 +615,6 @@ const
 RtpParameters
 &
 rtp_parameters
-rtc
-:
-:
 ArrayView
 <
 Codec
@@ -1034,9 +1031,6 @@ const
 RtpParameters
 &
 rtp_parameters
-rtc
-:
-:
 ArrayView
 <
 Codec
@@ -1654,9 +1648,6 @@ const
 RtpParameters
 &
 rtp_parameters
-rtc
-:
-:
 ArrayView
 <
 Codec
