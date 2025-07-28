@@ -1151,6 +1151,9 @@ mSamplesDataWriter
 SpliceableChunkedJSONWriter
 mMarkersDataWriter
 ;
+SpliceableChunkedJSONWriter
+mShapesDataWriter
+;
 mozilla
 :
 :
