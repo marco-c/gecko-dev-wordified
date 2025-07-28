@@ -963,6 +963,7 @@ white
 -
 spaces
 .
+{
 AutoTrackDOMPoint
 trackAfterRightBlockChild
 (
@@ -1086,6 +1087,7 @@ propagateErr
 (
 )
 ;
+}
 }
 /
 /
