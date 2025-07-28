@@ -619,6 +619,12 @@ Helpers
 aHelpers
 )
 ;
+using
+DrawEventRecorderPrivate
+:
+:
+RecordEvent
+;
 /
 *
 *

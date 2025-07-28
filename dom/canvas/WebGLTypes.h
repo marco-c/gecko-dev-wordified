@@ -716,9 +716,6 @@ class
 TexUnpackBytes
 ;
 class
-TexUnpackImage
-;
-class
 TexUnpackSurface
 ;
 }
