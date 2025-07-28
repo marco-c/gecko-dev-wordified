@@ -97,7 +97,7 @@ requires
 rustc
 1
 .
-56
+63
 +
 ]
 [
@@ -379,7 +379,7 @@ version
 is
 1
 .
-56
+63
 .
 The
 current
@@ -604,7 +604,8 @@ no_mangle_generic_items
 overflowing_literals
 path_statements
 patterns_in_fns_without_body
-private_in_public
+private_interfaces
+private_bounds
 unconditional_recursion
 unused_allocation
 unused_comparisons
@@ -717,7 +718,7 @@ called
 /
 /
 Unless
-overriden
+overridden
 a
 span
 with
@@ -810,9 +811,6 @@ be
 recorded
 using
 [
-std
-:
-:
 fmt
 :
 :
@@ -884,7 +882,6 @@ trait
 Value
 .
 html
-.
 /
 /
 /

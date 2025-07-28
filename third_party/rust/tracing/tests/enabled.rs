@@ -105,7 +105,7 @@ INFO
 }
 )
 .
-done
+only
 (
 )
 .
@@ -307,7 +307,7 @@ INFO
 }
 )
 .
-done
+only
 (
 )
 .
@@ -339,7 +339,7 @@ and
 _span
 alternatives
 work
-corretly
+correctly
 assert
 !
 (

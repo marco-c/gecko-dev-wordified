@@ -29,13 +29,11 @@ data
 referred
 to
 as
-known
+_fields_
+.
 /
 /
 !
-as
-_fields_
-.
 These
 fields
 consist
@@ -118,6 +116,7 @@ a
 given
 span
 or
+event
 is
 defined
 on
