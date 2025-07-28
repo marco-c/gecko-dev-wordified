@@ -197,10 +197,7 @@ use
 crate
 :
 :
-{
 debug_colors
-precise_time_ns
-}
 ;
 use
 crate
@@ -8095,7 +8092,10 @@ f32
 let
 now
 =
-precise_time_ns
+zeitstempel
+:
+:
+now
 (
 )
 ;
@@ -8663,7 +8663,10 @@ DebugMessage
 msg
 timestamp
 :
-precise_time_ns
+zeitstempel
+:
+:
+now
 (
 )
 }
