@@ -183,6 +183,15 @@ Option
 boolean
 "
 )
+clearCache
+:
+Option
+(
+1
+"
+boolean
+"
+)
 filter
 :
 Option
