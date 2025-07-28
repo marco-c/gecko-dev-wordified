@@ -1123,6 +1123,14 @@ Close
 )
 )
 ;
+mClosedEvent
+.
+Notify
+(
+*
+mSessionId
+)
+;
 return
 S_OK
 ;

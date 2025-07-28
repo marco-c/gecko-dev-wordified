@@ -856,6 +856,12 @@ MFCDMKeyExpiration
 >
 mExpirationEvents
 ;
+MediaEventForwarder
+<
+nsString
+>
+mClosedEvents
+;
 MediaEventListener
 mKeyMessageListener
 ;
@@ -864,6 +870,9 @@ mKeyChangeListener
 ;
 MediaEventListener
 mExpirationListener
+;
+MediaEventListener
+mClosedListener
 ;
 /
 /

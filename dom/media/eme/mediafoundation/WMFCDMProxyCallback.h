@@ -161,6 +161,15 @@ aExpiration
 )
 ;
 void
+OnSessionClosed
+(
+const
+nsString
+&
+aSessionId
+)
+;
+void
 Shutdown
 (
 )

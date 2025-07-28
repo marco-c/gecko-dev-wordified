@@ -468,8 +468,7 @@ nsAString
 aSessionId
 )
 override
-{
-}
+;
 void
 OnSessionError
 (
