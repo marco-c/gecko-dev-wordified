@@ -139,7 +139,7 @@ variable
 NDK_VERSION
 =
 "
-r28b
+r28c
 "
 CMDLINE_TOOLS_VERSION_STRING
 =
