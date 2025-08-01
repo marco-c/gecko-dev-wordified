@@ -606,6 +606,11 @@ bool
 hasVerifier
 )
 ;
+[
+Priority
+=
+low
+]
 async
 PredLearn
 (

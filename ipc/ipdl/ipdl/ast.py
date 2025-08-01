@@ -122,6 +122,9 @@ mediumhigh
 "
 control
 "
+"
+low
+"
 ]
 priorityAttrMap
 =
