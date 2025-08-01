@@ -440,7 +440,13 @@ GetUseRestrictingSIDs
 final
 ;
 void
-SetForceKnownDllLoadingFallback
+SetAllowEveryoneForUserRestricted
+(
+)
+final
+;
+bool
+GetAllowEveryoneForUserRestricted
 (
 )
 final
@@ -1020,7 +1026,7 @@ use_restricting_sids_
 true
 ;
 bool
-force_known_dll_loading_fallback_
+allow_everyone_for_user_restricted_
 =
 false
 ;
