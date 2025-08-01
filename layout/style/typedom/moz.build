@@ -121,6 +121,11 @@ CSSKeywordValue
 h
 "
 "
+CSSNumericValue
+.
+h
+"
+"
 CSSStyleValue
 .
 h
@@ -152,6 +157,11 @@ UNIFIED_SOURCES
 [
 "
 CSSKeywordValue
+.
+cpp
+"
+"
+CSSNumericValue
 .
 cpp
 "

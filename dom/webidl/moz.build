@@ -3526,6 +3526,11 @@ CSSNestedDeclarations
 webidl
 "
 "
+CSSNumericValue
+.
+webidl
+"
+"
 CSSPageRule
 .
 webidl
