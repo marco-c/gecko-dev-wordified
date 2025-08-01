@@ -557,6 +557,8 @@ DispatchKeyStatusesChange
 void
 OnClosed
 (
+MediaKeySessionClosedReason
+aReason
 )
 ;
 bool

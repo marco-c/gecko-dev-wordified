@@ -563,6 +563,13 @@ mProxy
 OnSessionClosed
 (
 aSessionId
+dom
+:
+:
+MediaKeySessionClosedReason
+:
+:
+Closed_by_application
 )
 ;
 }
