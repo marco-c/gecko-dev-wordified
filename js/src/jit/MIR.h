@@ -10737,6 +10737,16 @@ Shape
 s
 )
 ;
+static
+MConstant
+*
+NewUndefined
+(
+TempAllocator
+&
+alloc
+)
+;
 /
 /
 Try
