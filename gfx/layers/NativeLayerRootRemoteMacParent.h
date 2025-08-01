@@ -274,8 +274,14 @@ uint64_t
 aID
 uint32_t
 aSurfaceID
+bool
+aIsDRM
+bool
+aIsHDR
 IntPoint
 aPosition
+IntSize
+aSize
 IntRect
 aDisplayRect
 Maybe
