@@ -348,11 +348,6 @@ RenderCompositorNative
 "
 )
 ;
-MOZ_ASSERT
-(
-mNativeLayerRoot
-)
-;
 #
 if
 defined

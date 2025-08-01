@@ -3963,12 +3963,6 @@ RectCornerRadii
 ;
 RoundedRect
 (
-)
-=
-default
-;
-RoundedRect
-(
 const
 Rect
 &

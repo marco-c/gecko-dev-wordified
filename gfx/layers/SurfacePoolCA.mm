@@ -1271,16 +1271,6 @@ kIOSurfaceBytesPerElement
 (
 4
 )
-(
-__bridge
-NSString
-*
-)
-kIOSurfaceIsGlobal
-:
-(
-YES
-)
 }
 )
 )

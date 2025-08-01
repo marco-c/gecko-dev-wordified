@@ -4125,9 +4125,6 @@ NativeLayerWayland
 :
 SetSamplingFilter
 (
-gfx
-:
-:
 SamplingFilter
 aSamplingFilter
 )
