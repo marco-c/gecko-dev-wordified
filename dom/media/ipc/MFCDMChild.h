@@ -453,9 +453,9 @@ IPCResult
 RecvOnSessionClosed
 (
 const
-nsString
+MFCDMSessionClosedResult
 &
-aSessionId
+aResult
 )
 ;
 uint64_t

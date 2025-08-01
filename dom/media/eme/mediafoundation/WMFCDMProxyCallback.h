@@ -164,9 +164,9 @@ void
 OnSessionClosed
 (
 const
-nsString
+MFCDMSessionClosedResult
 &
-aSessionId
+aResult
 )
 ;
 void
