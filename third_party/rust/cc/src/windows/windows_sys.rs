@@ -48,9 +48,9 @@ windows
 bindgen
 0
 .
-59
+62
 .
-0
+1
 #
 !
 [
@@ -66,7 +66,7 @@ clippy
 all
 )
 ]
-windows_targets
+windows_link
 :
 :
 link
@@ -126,7 +126,7 @@ c_void
 HRESULT
 )
 ;
-windows_targets
+windows_link
 :
 :
 link
@@ -163,7 +163,7 @@ u32
 HRESULT
 )
 ;
-windows_targets
+windows_link
 :
 :
 link
@@ -189,7 +189,7 @@ HMODULE
 BOOL
 )
 ;
-windows_targets
+windows_link
 :
 :
 link
@@ -220,7 +220,7 @@ MACHINE_ATTRIBUTES
 HRESULT
 )
 ;
-windows_targets
+windows_link
 :
 :
 link
@@ -249,7 +249,7 @@ PCSTR
 FARPROC
 )
 ;
-windows_targets
+windows_link
 :
 :
 link
@@ -275,7 +275,7 @@ PCSTR
 HMODULE
 )
 ;
-windows_targets
+windows_link
 :
 :
 link
@@ -307,7 +307,7 @@ PCSTR
 HANDLE
 )
 ;
-windows_targets
+windows_link
 :
 :
 link
@@ -362,7 +362,7 @@ u32
 BOOL
 )
 ;
-windows_targets
+windows_link
 :
 :
 link
@@ -388,7 +388,7 @@ HKEY
 WIN32_ERROR
 )
 ;
-windows_targets
+windows_link
 :
 :
 link
@@ -443,7 +443,7 @@ FILETIME
 WIN32_ERROR
 )
 ;
-windows_targets
+windows_link
 :
 :
 link
@@ -483,7 +483,7 @@ HKEY
 WIN32_ERROR
 )
 ;
-windows_targets
+windows_link
 :
 :
 link
@@ -532,7 +532,7 @@ u32
 WIN32_ERROR
 )
 ;
-windows_targets
+windows_link
 :
 :
 link
@@ -566,7 +566,7 @@ i32
 BOOL
 )
 ;
-windows_targets
+windows_link
 :
 :
 link
@@ -589,7 +589,7 @@ BSTR
 )
 )
 ;
-windows_targets
+windows_link
 :
 :
 link
@@ -615,7 +615,7 @@ BSTR
 u32
 )
 ;
-windows_targets
+windows_link
 :
 :
 link
@@ -748,6 +748,7 @@ derive
 (
 Clone
 Copy
+Default
 )
 ]
 pub
@@ -1211,6 +1212,33 @@ SAFEARRAYBOUND
 1
 ]
 }
+impl
+Default
+for
+SAFEARRAY
+{
+fn
+default
+(
+)
+-
+>
+Self
+{
+unsafe
+{
+core
+:
+:
+mem
+:
+:
+zeroed
+(
+)
+}
+}
+}
 #
 [
 repr
@@ -1224,6 +1252,7 @@ derive
 (
 Clone
 Copy
+Default
 )
 ]
 pub
@@ -1382,5 +1411,5 @@ use
 super
 :
 :
-windows_targets
+windows_link
 ;

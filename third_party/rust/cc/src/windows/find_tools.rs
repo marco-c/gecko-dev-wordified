@@ -762,10 +762,10 @@ or
 the
 Rust
 target
+name
 /
 /
 /
-triple
 that
 the
 tool
@@ -784,10 +784,10 @@ for
 )
 .
 The
-/
-/
-/
 supported
+/
+/
+/
 architecture
 names
 are
@@ -1692,6 +1692,7 @@ VisualStudio
 version
 :
 {
+vers
 }
 \
 n
@@ -1717,7 +1718,6 @@ crate
 n
 \
 "
-vers
 )
 )
 }
