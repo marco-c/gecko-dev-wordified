@@ -86,5 +86,12 @@ lookupFirefoxPath
 (
 )
 ;
+const
+wchar_t
+*
+getFirefoxRegistryBranding
+(
+)
+;
 #
 endif
