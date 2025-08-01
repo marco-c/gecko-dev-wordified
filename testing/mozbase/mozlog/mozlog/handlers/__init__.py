@@ -67,6 +67,11 @@ import
 BufferHandler
 from
 .
+resourcehandler
+import
+ResourceHandler
+from
+.
 statushandler
 import
 StatusHandler
@@ -94,6 +99,10 @@ StreamHandler
     
 "
 BaseHandler
+"
+    
+"
+ResourceHandler
 "
     
 "

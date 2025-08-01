@@ -2610,6 +2610,7 @@ mozlog
 .
 handlers
 import
+ResourceHandler
 StreamHandler
     
 from
@@ -2867,6 +2868,16 @@ inner
 summary_on_shutdown
 =
 True
+    
+log
+.
+add_handler
+(
+ResourceHandler
+(
+command_context
+)
+)
     
 if
 log_args
