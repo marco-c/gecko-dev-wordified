@@ -170,6 +170,11 @@ aSessionId
 )
 ;
 void
+OnRemoteProcessCrashed
+(
+)
+;
+void
 Shutdown
 (
 )
