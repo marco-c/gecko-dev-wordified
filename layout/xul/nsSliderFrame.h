@@ -977,8 +977,6 @@ nscoord
 aNewPos
 bool
 aIsSmooth
-bool
-aMaySnap
 )
 ;
 void
