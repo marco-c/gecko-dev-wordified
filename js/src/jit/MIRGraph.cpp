@@ -5037,13 +5037,10 @@ constant
 MConstant
 :
 :
-New
+NewMagic
 (
 alloc
-MagicValue
-(
 JS_OPTIMIZED_OUT
-)
 )
 ;
 insertBefore
