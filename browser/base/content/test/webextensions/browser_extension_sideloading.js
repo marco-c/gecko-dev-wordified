@@ -424,7 +424,7 @@ extensions
 .
 ui
 .
-showAddonIconForUnsigned
+disableUnsignedWarnings
 "
 true
 ]
