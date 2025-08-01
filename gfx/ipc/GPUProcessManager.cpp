@@ -8156,7 +8156,13 @@ child
 SendPCompositorWidgetConstructor
 (
 widget
+std
+:
+:
+move
+(
 initData
+)
 )
 )
 {
