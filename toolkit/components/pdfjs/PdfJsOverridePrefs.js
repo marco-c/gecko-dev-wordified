@@ -193,6 +193,16 @@ pref
 "
 pdfjs
 .
+enableComment
+"
+true
+)
+;
+pref
+(
+"
+pdfjs
+.
 enableHighlightFloatingButton
 "
 true

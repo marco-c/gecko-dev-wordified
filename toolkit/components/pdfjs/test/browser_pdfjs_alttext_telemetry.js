@@ -1931,7 +1931,7 @@ clickOn
 browser
 "
 .
-delete
+deleteButton
 "
 )
 ;
@@ -2487,7 +2487,7 @@ clickOn
 browser
 "
 .
-delete
+deleteButton
 "
 )
 ;
