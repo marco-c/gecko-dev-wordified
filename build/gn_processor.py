@@ -2017,11 +2017,18 @@ process_gn_config
 (
     
 gn_config
+    
 topsrcdir
+    
 srcdir
+    
 non_unified_sources
+    
 sandbox_vars
+    
 mozilla_flags
+    
+mozilla_add_override_dir
 )
 :
     
@@ -3476,6 +3483,26 @@ LOCAL_INCLUDES
 order
 matters
 .
+        
+if
+mozilla_add_override_dir
+!
+=
+"
+"
+:
+            
+context_attrs
+[
+"
+LOCAL_INCLUDES
+"
+]
++
+=
+[
+mozilla_add_override_dir
+]
         
 context_attrs
 [
@@ -5690,6 +5717,8 @@ moz_build_flag
 non_unified_sources
     
 mozilla_flags
+    
+mozilla_add_override_dir
 )
 :
     
@@ -6204,6 +6233,8 @@ sandbox_vars
 ]
                 
 mozilla_flags
+                
+mozilla_add_override_dir
             
 )
             
@@ -6691,6 +6722,13 @@ config
 [
 "
 mozilla_flags
+"
+]
+                
+config
+[
+"
+mozilla_add_override_dir
 "
 ]
             
