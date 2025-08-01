@@ -1,5 +1,7 @@
+add_task
+(
 function
-run_test
+test
 (
 )
 {
@@ -116,3 +118,5 @@ StopProfiler
 )
 ;
 }
+)
+;

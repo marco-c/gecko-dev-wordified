@@ -32,8 +32,11 @@ pushed
 as
 expected
 .
+add_task
+(
+async
 function
-run_test
+test
 (
 )
 {
@@ -94,6 +97,7 @@ ms
 =
 5
 ;
+await
 Services
 .
 profiler
@@ -393,6 +397,7 @@ timeout
 "
 )
 ;
+await
 Services
 .
 profiler
@@ -402,3 +407,5 @@ StopProfiler
 )
 ;
 }
+)
+;

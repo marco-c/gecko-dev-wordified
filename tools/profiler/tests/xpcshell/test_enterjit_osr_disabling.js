@@ -1,5 +1,8 @@
+add_task
+(
+async
 function
-run_test
+test
 (
 )
 {
@@ -17,6 +20,7 @@ IsActive
 )
 )
 ;
+await
 Services
 .
 profiler
@@ -115,3 +119,5 @@ misbalanced
 )
 ;
 }
+)
+;

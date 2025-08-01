@@ -186,6 +186,13 @@ spec
 this
 )
 ;
+add_setup
+(
+ProfilerTestUtils
+.
+assertProfilerInactive
+)
+;
 /
 *
 *
