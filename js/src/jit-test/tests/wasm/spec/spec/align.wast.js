@@ -11002,6 +11002,14 @@ get
 )
 )
 ;
+if
+(
+!
+partialOobWriteMayWritePartialData
+(
+)
+)
+{
 /
 /
 .
@@ -11076,6 +11084,7 @@ i32
 ]
 )
 ;
+}
 /
 /
 .
