@@ -3258,6 +3258,20 @@ parent
 marionette
     
 def
+run
+(
+self
+url
+script_resume
+test_window
+=
+None
+)
+:
+        
+pass
+    
+def
 send_message
 (
 self
@@ -3351,6 +3365,18 @@ dumps
 obj
 )
 )
+    
+def
+get_next_message
+(
+self
+url
+script_resume
+test_window
+)
+:
+        
+pass
     
 def
 _switch_to_frame
