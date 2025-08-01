@@ -204,6 +204,22 @@ py
 "
 pylintrc
 "
+        
+"
+api
+/
+location
+.
+h
+"
+        
+"
+rtc_base
+/
+trace_event
+.
+h
+"
     
 ]
 #
