@@ -5952,11 +5952,9 @@ return
 MConstant
 :
 :
-New
+NewDouble
 (
 alloc
-DoubleValue
-(
 uint32_t
 (
 input
@@ -5971,7 +5969,6 @@ toConstant
 >
 toInt32
 (
-)
 )
 )
 )
