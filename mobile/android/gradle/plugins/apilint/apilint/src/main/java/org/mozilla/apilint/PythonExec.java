@@ -165,6 +165,7 @@ resources
 .
 *
 /
+abstract
 public
 class
 PythonExec
