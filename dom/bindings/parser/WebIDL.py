@@ -33828,8 +33828,7 @@ self
 return
 "
 declared
-async
-iterable
+async_iterable
 with
 key
 '
@@ -48917,6 +48916,14 @@ ITERABLE
 "
         
 "
+async_iterable
+"
+:
+"
+ASYNC_ITERABLE
+"
+        
+"
 namespace
 "
 :
@@ -48938,14 +48945,6 @@ symbol
 :
 "
 SYMBOL
-"
-        
-"
-async
-"
-:
-"
-ASYNC
 "
     
 }
@@ -53867,16 +53866,14 @@ p
         
 AsyncIterable
 :
-ASYNC
-ITERABLE
+ASYNC_ITERABLE
 LT
 TypeWithExtendedAttributes
 GT
 SEMICOLON
                       
 |
-ASYNC
-ITERABLE
+ASYNC_ITERABLE
 LT
 TypeWithExtendedAttributes
 COMMA
@@ -53885,8 +53882,7 @@ GT
 SEMICOLON
                       
 |
-ASYNC
-ITERABLE
+ASYNC_ITERABLE
 LT
 TypeWithExtendedAttributes
 GT
@@ -53896,8 +53892,7 @@ RPAREN
 SEMICOLON
                       
 |
-ASYNC
-ITERABLE
+ASYNC_ITERABLE
 LT
 TypeWithExtendedAttributes
 COMMA
@@ -53919,7 +53914,7 @@ self
 getLocation
 (
 p
-2
+1
 )
         
 identifier
@@ -53929,7 +53924,7 @@ IDLUnresolvedIdentifier
             
 location
 "
-__iterable
+__async_iterable
 "
 allowDoubleUnderscore
 =
@@ -53944,28 +53939,28 @@ p
 )
 =
 =
-12
+11
 :
             
 keyType
 =
 p
 [
-4
+3
 ]
             
 valueType
 =
 p
 [
-6
+5
 ]
             
 argList
 =
 p
 [
-9
+8
 ]
         
 elif
@@ -53975,7 +53970,7 @@ p
 )
 =
 =
-10
+9
 :
             
 keyType
@@ -53986,14 +53981,14 @@ valueType
 =
 p
 [
-4
+3
 ]
             
 argList
 =
 p
 [
-7
+6
 ]
         
 elif
@@ -54003,21 +53998,21 @@ p
 )
 =
 =
-9
+8
 :
             
 keyType
 =
 p
 [
-4
+3
 ]
             
 valueType
 =
 p
 [
-6
+5
 ]
             
 argList
@@ -54036,7 +54031,7 @@ valueType
 =
 p
 [
-4
+3
 ]
             
 argList
@@ -56859,9 +56854,6 @@ p
         
 ArgumentNameKeyword
 :
-ASYNC
-                            
-|
 ATTRIBUTE
                             
 |
@@ -57003,9 +56995,6 @@ p
         
 AttributeNameKeyword
 :
-ASYNC
-                             
-|
 REQUIRED
         
 "
