@@ -71,7 +71,7 @@ suggestedIndex
 realtimeType
 :
 "
-stocks
+market
 "
 payload
 :
@@ -108,7 +108,7 @@ firefox
 -
 suggest
 -
-stocks
+market
 -
 opt
 -
@@ -127,7 +127,7 @@ firefox
 -
 suggest
 -
-stocks
+market
 -
 opt
 -
@@ -200,7 +200,7 @@ firefox
 -
 suggest
 -
-stocks
+market
 -
 opt
 -
@@ -219,7 +219,7 @@ firefox
 -
 suggest
 -
-stocks
+market
 -
 opt
 -
@@ -438,7 +438,7 @@ result
 .
 realtimeType
 "
-stocks
+market
 "
 )
 ;
@@ -584,7 +584,7 @@ payload
 .
 dynamicType
 "
-stocks
+market
 "
 )
 ;
@@ -831,7 +831,7 @@ notNowTypes
 has
 (
 "
-stocks
+market
 "
 )
 "
@@ -1208,7 +1208,7 @@ dismissTypes
 has
 (
 "
-stocks
+market
 "
 )
 "
@@ -1290,7 +1290,7 @@ notNowTypes
 has
 (
 "
-stocks
+market
 "
 )
 "
@@ -1582,7 +1582,7 @@ Not
 now
 '
 for
-stocks
+Market
 suggestion
 "
 )
@@ -1599,7 +1599,7 @@ realtimeOptIn
 notNowTypes
 "
 "
-stocks
+market
 "
 )
 ;
@@ -1607,7 +1607,7 @@ let
 {
 element
 :
-stockElement
+marketElement
 }
 =
 await
@@ -1623,9 +1623,9 @@ stock
 )
 ;
 let
-stocksDismissButton
+marketDismissButton
 =
-stockElement
+marketElement
 .
 row
 .
@@ -1645,7 +1645,7 @@ Assert
 .
 equal
 (
-stocksDismissButton
+marketDismissButton
 .
 dataset
 .
@@ -1659,7 +1659,7 @@ Assert
 .
 equal
 (
-stocksDismissButton
+marketDismissButton
 .
 dataset
 .
@@ -1783,7 +1783,7 @@ clicks
 Dismiss
 '
 for
-stocks
+Market
 suggestion
 "
 )
@@ -1800,7 +1800,7 @@ realtimeOptIn
 dismissTypes
 "
 "
-stocks
+market
 "
 )
 ;

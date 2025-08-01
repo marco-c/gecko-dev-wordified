@@ -109,7 +109,7 @@ suggestedIndex
 realtimeType
 :
 "
-stocks
+market
 "
 payload
 :
@@ -146,7 +146,7 @@ firefox
 -
 suggest
 -
-stocks
+market
 -
 opt
 -
@@ -165,7 +165,7 @@ firefox
 -
 suggest
 -
-stocks
+market
 -
 opt
 -
