@@ -66,9 +66,9 @@ shutil
 import
 sys
 import
-tarfile
-import
 time
+import
+zipfile
 import
 mozpack
 .
@@ -1023,37 +1023,12 @@ in
 size
 .
     
-#
-Even
-though
-the
-archive
-is
-not
-compressed
-use
-the
-.
-xz
-file
-extension
-    
-#
-so
-that
-the
-taskcluster
-worker
-also
-skips
-compression
-.
-    
 with
-tarfile
+zipfile
 .
-open
+ZipFile
 (
+        
 os
 .
 path
@@ -1066,17 +1041,16 @@ target
 .
 maven
 .
-tar
-.
-xz
+zip
 "
 )
 "
 w
 "
+    
 )
 as
-tar
+target_zip
 :
         
 for
@@ -1088,9 +1062,9 @@ maven_folder
 )
 :
             
-tar
+target_zip
 .
-add
+write
 (
                 
 abs_path
