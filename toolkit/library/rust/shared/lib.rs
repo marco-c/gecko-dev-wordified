@@ -64,10 +64,6 @@ extern
 crate
 abridged_certs
 ;
-extern
-crate
-app_services_logger
-;
 #
 [
 cfg
