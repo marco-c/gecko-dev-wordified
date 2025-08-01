@@ -2991,8 +2991,12 @@ table
 of
 a
 Map
-or
+/
 Set
+/
+WeakMap
+/
+WeakSet
 object
 .
 MapOrSetHashTable
