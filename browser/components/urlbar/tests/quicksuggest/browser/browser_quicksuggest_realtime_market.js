@@ -394,7 +394,7 @@ suggest
 .
 quicksuggest
 .
-sponsored
+nonsponsored
 "
 true
 ]
@@ -566,7 +566,7 @@ suggest
 .
 quicksuggest
 .
-sponsored
+nonsponsored
 "
 true
 ]
@@ -769,7 +769,7 @@ suggest
 .
 quicksuggest
 .
-sponsored
+nonsponsored
 "
 true
 ]
