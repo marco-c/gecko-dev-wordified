@@ -206,6 +206,9 @@ class
 NativeLayerRemoteMac
 ;
 class
+NativeLayerWayland
+;
+class
 NativeLayerRootCA
 ;
 class
