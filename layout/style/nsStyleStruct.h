@@ -5249,15 +5249,6 @@ aOldStyle
 )
 const
 ;
-already_AddRefed
-<
-nsIURI
->
-GetListStyleImageURI
-(
-)
-const
-;
 mozilla
 :
 :
