@@ -220,6 +220,15 @@ has
 -
 used
 "
+"
+sidebar
+.
+verticalTabs
+.
+dragToPinPromo
+.
+dismissed
+"
 ]
 )
 ;
