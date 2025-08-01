@@ -4740,7 +4740,7 @@ NS_NewRunnableFunction
 MFMediaEngineParent
 :
 :
-OnSesNotifyDisableHWDRMsionMessage
+NotifyDisableHWDRM
 "
 [
 umsp
