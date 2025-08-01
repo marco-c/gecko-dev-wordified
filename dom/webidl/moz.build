@@ -3506,6 +3506,11 @@ CSSMarginRule
 webidl
 "
 "
+CSSMathInvert
+.
+webidl
+"
+"
 CSSMathNegate
 .
 webidl
