@@ -1295,6 +1295,9 @@ temp
 temp
 (
 )
+temp
+(
+)
 )
 ;
 define
@@ -1349,7 +1352,7 @@ MIRType
 Int32
 )
 ;
-LNewTypedArrayDynamicLength
+auto
 *
 lir
 =
@@ -1364,6 +1367,9 @@ LNewTypedArrayDynamicLength
 useRegister
 (
 length
+)
+temp
+(
 )
 temp
 (

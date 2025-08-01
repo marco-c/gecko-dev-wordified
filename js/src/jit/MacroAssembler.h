@@ -39413,7 +39413,9 @@ obj
 Register
 length
 Register
-temp
+temp1
+Register
+temp2
 LiveRegisterSet
 liveRegs
 Label
