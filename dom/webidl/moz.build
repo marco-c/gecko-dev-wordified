@@ -3601,6 +3601,11 @@ CSSTransition
 webidl
 "
 "
+CSSUnitValue
+.
+webidl
+"
+"
 CSSUnparsedValue
 .
 webidl

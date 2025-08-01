@@ -131,6 +131,11 @@ CSSStyleValue
 h
 "
 "
+CSSUnitValue
+.
+h
+"
+"
 CSSUnparsedValue
 .
 h
@@ -167,6 +172,11 @@ cpp
 "
 "
 CSSStyleValue
+.
+cpp
+"
+"
+CSSUnitValue
 .
 cpp
 "
