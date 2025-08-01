@@ -44,7 +44,7 @@ noqa
 :
 F401
                                             
-MarionetteRefTestExecutor
+MarionetteRefTestExecutorAndroid
 #
 noqa
 :
@@ -165,7 +165,7 @@ reftest
 "
 :
 "
-MarionetteRefTestExecutor
+MarionetteRefTestExecutorAndroid
 "
                               
 "
@@ -2006,6 +2006,19 @@ url_base
 _mozilla
 /
 "
+                          
+"
+testdriver
+"
+:
+test
+.
+test_type
+=
+=
+"
+testharness
+"
 }
         
 return
@@ -2803,6 +2816,19 @@ supports_window_resize
 "
 :
 False
+                                 
+"
+testdriver
+"
+:
+self
+.
+_settings
+[
+"
+testdriver
+"
+]
 }
     
 def
