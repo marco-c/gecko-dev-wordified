@@ -612,9 +612,7 @@ checkEmptyState
 (
 "
 .
-no
--
-logins
+reauth
 -
 card
 -
