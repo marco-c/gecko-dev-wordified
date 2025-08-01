@@ -283,17 +283,40 @@ checkout
 bool
         
 #
-Prefix
+Prepend
+the
+specified
 ENV
 variables
+to
+the
+command
+.
+This
+can
+be
+useful
+        
+#
+if
+the
+value
+of
+the
+ENV
+needs
+to
+be
+interpolated
 with
-a
-string
+another
+ENV
+.
         
 Optional
 (
 "
-prefix
+prepend
 -
 env
 "
@@ -468,7 +491,7 @@ UTF
 ]
     
 if
-prefix_env
+prepend_env
 :
 =
 run
@@ -476,7 +499,7 @@ run
 pop
 (
 "
-prefix
+prepend
 -
 env
 "
@@ -486,9 +509,9 @@ None
         
 for
 name
-prefix
+value
 in
-prefix_env
+prepend_env
 .
 items
 (
@@ -506,10 +529,7 @@ name
 }
 =
 {
-prefix
-}
-{
-name
+value
 }
 "
 )
