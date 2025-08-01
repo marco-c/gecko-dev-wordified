@@ -121,6 +121,11 @@ CSSKeywordValue
 h
 "
 "
+CSSMathProduct
+.
+h
+"
+"
 CSSMathSum
 .
 h
@@ -172,6 +177,11 @@ UNIFIED_SOURCES
 [
 "
 CSSKeywordValue
+.
+cpp
+"
+"
+CSSMathProduct
 .
 cpp
 "

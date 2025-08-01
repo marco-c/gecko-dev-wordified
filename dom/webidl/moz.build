@@ -3506,6 +3506,11 @@ CSSMarginRule
 webidl
 "
 "
+CSSMathProduct
+.
+webidl
+"
+"
 CSSMathSum
 .
 webidl
