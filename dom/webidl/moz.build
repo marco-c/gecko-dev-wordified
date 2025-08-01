@@ -3596,6 +3596,11 @@ CSSUnparsedValue
 webidl
 "
 "
+CSSVariableReferenceValue
+.
+webidl
+"
+"
 CustomElementRegistry
 .
 webidl

@@ -126,6 +126,11 @@ CSSUnparsedValue
 h
 "
 "
+CSSVariableReferenceValue
+.
+h
+"
+"
 StylePropertyMap
 .
 h
@@ -147,6 +152,11 @@ cpp
 "
 "
 CSSUnparsedValue
+.
+cpp
+"
+"
+CSSVariableReferenceValue
 .
 cpp
 "
