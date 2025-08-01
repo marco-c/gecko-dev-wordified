@@ -1826,6 +1826,17 @@ ExecutableFile
 )
 :
                 
+fpath
+=
+f
+.
+inputs
+(
+)
+[
+0
+]
+                
 pdbname
 =
 os
@@ -1834,7 +1845,7 @@ path
 .
 splitext
 (
-p
+fpath
 )
 [
 0
