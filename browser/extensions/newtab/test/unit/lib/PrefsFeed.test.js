@@ -1490,6 +1490,9 @@ getAllVariables
 returns
 (
 {
+enabled
+:
+true
 listsEnabled
 :
 true
@@ -1535,6 +1538,9 @@ widgetsConfig
 value
 :
 {
+enabled
+:
+true
 listsEnabled
 :
 true
