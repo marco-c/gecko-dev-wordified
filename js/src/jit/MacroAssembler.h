@@ -6640,6 +6640,14 @@ inline
 void
 passABIArg
 (
+Register64
+reg
+)
+;
+inline
+void
+passABIArg
+(
 FloatRegister
 reg
 ABIType
