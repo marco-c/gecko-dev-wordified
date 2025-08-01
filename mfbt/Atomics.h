@@ -662,6 +662,8 @@ is
 /
 enum
 MemoryOrdering
+:
+uint8_t
 {
 /
 *
