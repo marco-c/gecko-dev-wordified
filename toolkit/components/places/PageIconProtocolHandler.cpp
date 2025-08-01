@@ -1571,7 +1571,7 @@ fragments
 because
 /
 /
-AsyncGetFaviconForPage
+GetFaviconDataForPage
 strips
 them
 when
@@ -1629,7 +1629,6 @@ AsyncGetFaviconForPage
 (
 pageURI
 preferredSize
-true
 )
 ;
 }
