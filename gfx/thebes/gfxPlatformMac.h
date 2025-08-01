@@ -514,12 +514,6 @@ GetBackendPrefs
 const
 override
 ;
-void
-InitPlatformGPUProcessPrefs
-(
-)
-override
-;
 private
 :
 nsTArray
