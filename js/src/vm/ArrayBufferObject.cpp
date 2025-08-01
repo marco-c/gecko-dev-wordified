@@ -11420,7 +11420,7 @@ runtime
 >
 gc
 .
-triggerGC
+triggerFullGC
 (
 JS
 :

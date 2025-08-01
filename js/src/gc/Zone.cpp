@@ -857,7 +857,7 @@ nbytes
 nbytes
 ;
 }
-maybeTriggerGCOnMalloc
+maybeTriggerGCAfterMalloc
 (
 )
 ;

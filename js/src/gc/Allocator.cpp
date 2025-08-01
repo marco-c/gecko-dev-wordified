@@ -3564,7 +3564,7 @@ ShouldCheckThresholds
 DontCheckThresholds
 )
 {
-maybeTriggerGCAfterAlloc
+maybeTriggerGCAfterCellAlloc
 (
 zone
 )
