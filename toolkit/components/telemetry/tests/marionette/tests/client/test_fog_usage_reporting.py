@@ -291,7 +291,6 @@ self
 "
         
 Test
-that
 the
 "
 usage
@@ -300,11 +299,16 @@ reporting
 "
 ping
 behaviour
-is
-independent
-from
-general
+and
+usage
+-
+id
+cycling
+when
+disabling
 telemetry
+in
+general
 .
         
 We
@@ -337,18 +341,6 @@ usage
 id
 .
         
-The
-usage
-.
-profile_id
-stays
-the
-same
-across
-telemetry
-toggling
-.
-        
 "
 "
 "
@@ -360,18 +352,9 @@ self
 wait_for_ping
 (
             
-lambda
-:
 self
 .
-marionette
-.
-restart
-(
-in_app
-=
-True
-)
+restart_browser
             
 FOG_USAGE_REPORTING
             
@@ -623,18 +606,9 @@ self
 wait_for_ping
 (
             
-lambda
-:
 self
 .
-marionette
-.
-restart
-(
-in_app
-=
-True
-)
+restart_browser
             
 FOG_USAGE_REPORTING
             
@@ -708,7 +682,7 @@ usage_id2
         
 self
 .
-assertEqual
+assertNotEqual
 (
 usage_id1
 usage_id2
@@ -860,18 +834,9 @@ self
 wait_for_ping
 (
             
-lambda
-:
 self
 .
-marionette
-.
-restart
-(
-in_app
-=
-True
-)
+restart_browser
             
 FOG_USAGE_REPORTING
             
@@ -1252,18 +1217,9 @@ self
 wait_for_ping
 (
             
-lambda
-:
 self
 .
-marionette
-.
-restart
-(
-in_app
-=
-True
-)
+restart_browser
             
 FOG_USAGE_REPORTING
             
@@ -1516,18 +1472,9 @@ self
 wait_for_ping
 (
             
-lambda
-:
 self
 .
-marionette
-.
-restart
-(
-in_app
-=
-True
-)
+restart_browser
             
 FOG_USAGE_REPORTING
             
@@ -1665,18 +1612,9 @@ self
 wait_for_ping
 (
             
-lambda
-:
 self
 .
-marionette
-.
-restart
-(
-in_app
-=
-True
-)
+restart_browser
             
 FOG_USAGE_REPORTING
             
@@ -2035,18 +1973,9 @@ self
 wait_for_ping
 (
             
-lambda
-:
 self
 .
-marionette
-.
-restart
-(
-in_app
-=
-True
-)
+restart_browser
             
 BASELINE
             
