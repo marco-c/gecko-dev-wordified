@@ -2851,13 +2851,11 @@ replacement
 MConstant
 :
 :
-New
+NewBoolean
 (
 alloc
 (
 )
-BooleanValue
-(
 as
 -
 >
@@ -2868,7 +2866,6 @@ toConstant
 >
 toInt32
 (
-)
 )
 )
 ;
