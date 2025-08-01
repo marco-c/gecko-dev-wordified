@@ -394,7 +394,7 @@ add_task
 (
 async
 function
-allow
+opt_in
 (
 )
 {
@@ -2108,7 +2108,7 @@ add_task
 (
 async
 function
-dismiss_all
+not_interested
 (
 )
 {
