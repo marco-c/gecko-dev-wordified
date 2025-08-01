@@ -3506,6 +3506,11 @@ CSSMarginRule
 webidl
 "
 "
+CSSMathValue
+.
+webidl
+"
+"
 CSSMediaRule
 .
 webidl
