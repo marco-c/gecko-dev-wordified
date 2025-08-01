@@ -471,15 +471,6 @@ LOCAL_INCLUDES
 =
 [
 "
-!
-/
-dist
-/
-include
-/
-libwebrtc_overrides
-"
-"
 /
 dom
 /
@@ -561,9 +552,6 @@ jsep
 "
 "
 libwebrtcglue
-"
-"
-libwebrtc_overrides
 "
 "
 sdp
