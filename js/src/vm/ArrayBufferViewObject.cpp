@@ -3292,14 +3292,6 @@ CHECK_THREAD
 cx
 )
 ;
-cx
--
->
-check
-(
-obj
-)
-;
 Rooted
 <
 ArrayBufferViewObject
