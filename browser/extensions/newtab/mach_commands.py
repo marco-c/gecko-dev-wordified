@@ -293,9 +293,7 @@ third_party
 python
 "
 "
-moz
-.
-l10n
+moz_l10n
 "
 "
 moz
