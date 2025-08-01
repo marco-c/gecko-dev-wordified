@@ -3511,6 +3511,11 @@ CSSMathInvert
 webidl
 "
 "
+CSSMathMin
+.
+webidl
+"
+"
 CSSMathNegate
 .
 webidl

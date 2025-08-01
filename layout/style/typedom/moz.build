@@ -126,6 +126,11 @@ CSSMathInvert
 h
 "
 "
+CSSMathMin
+.
+h
+"
+"
 CSSMathNegate
 .
 h
@@ -192,6 +197,11 @@ cpp
 "
 "
 CSSMathInvert
+.
+cpp
+"
+"
+CSSMathMin
 .
 cpp
 "
