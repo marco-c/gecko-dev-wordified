@@ -1614,6 +1614,8 @@ memory
 .
 int
 stackVar
+=
+0
 ;
 jemalloc_ptr_info
 (
