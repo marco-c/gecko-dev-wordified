@@ -4775,10 +4775,9 @@ InspectorRGBATuple
 aResult
 )
 {
-const
 auto
 *
-styleData
+styleSet
 =
 [
 &
@@ -4787,8 +4786,7 @@ styleData
 )
 -
 >
-const
-StylePerDocumentStyleData
+ServoStyleSet
 *
 {
 nsCOMPtr
@@ -4886,11 +4884,6 @@ ps
 StyleSet
 (
 )
--
->
-RawData
-(
-)
 ;
 }
 (
@@ -4914,7 +4907,7 @@ ServoCSSParser
 :
 ComputeColor
 (
-styleData
+styleSet
 NS_RGB
 (
 0
