@@ -7056,6 +7056,20 @@ testTimer
 start
 (
 )
+            
+self
+.
+env
+[
+"
+MOZ_TEST_TIMEOUT_INTERVAL
+"
+]
+=
+str
+(
+testTimeoutInterval
+)
         
 proc
 =
