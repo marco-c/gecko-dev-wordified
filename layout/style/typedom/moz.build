@@ -121,6 +121,11 @@ CSSKeywordValue
 h
 "
 "
+CSSMathNegate
+.
+h
+"
+"
 CSSMathProduct
 .
 h
@@ -177,6 +182,11 @@ UNIFIED_SOURCES
 [
 "
 CSSKeywordValue
+.
+cpp
+"
+"
+CSSMathNegate
 .
 cpp
 "
