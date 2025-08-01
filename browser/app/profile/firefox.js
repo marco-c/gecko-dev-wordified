@@ -33130,8 +33130,9 @@ are
 0
 1
 2
-and
 3
+and
+4
 .
 /
 /
@@ -33201,6 +33202,16 @@ location
 .
 /
 /
+4
+-
+Use
+browser
+.
+download
+.
+folderList
+/
+/
 Options
 2
 and
@@ -33229,7 +33240,7 @@ screenshots
 .
 folderList
 "
-1
+4
 )
 ;
 pref
