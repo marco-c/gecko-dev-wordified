@@ -5925,10 +5925,6 @@ Int32Value
 (
 i32Result
 )
-MIRType
-:
-:
-Int32
 )
 ;
 }
@@ -7259,10 +7255,6 @@ Int32Value
 (
 1
 )
-MIRType
-:
-:
-Int32
 )
 ;
 }
@@ -7311,10 +7303,6 @@ Int32Value
 (
 0
 )
-MIRType
-:
-:
-Int32
 )
 ;
 }
