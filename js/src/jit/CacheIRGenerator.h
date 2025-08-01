@@ -3943,6 +3943,11 @@ isMax
 )
 ;
 AttachDecision
+tryAttachTypedArrayFill
+(
+)
+;
+AttachDecision
 tryAttachTypedArraySet
 (
 )
