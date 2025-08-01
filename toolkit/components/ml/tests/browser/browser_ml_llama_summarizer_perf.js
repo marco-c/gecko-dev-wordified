@@ -460,7 +460,7 @@ win
 ;
 requestLongerTimeout
 (
-120
+20
 )
 ;
 /

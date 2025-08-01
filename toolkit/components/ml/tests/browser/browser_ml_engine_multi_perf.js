@@ -566,7 +566,7 @@ false
 }
 requestLongerTimeout
 (
-120
+10
 )
 ;
 async
