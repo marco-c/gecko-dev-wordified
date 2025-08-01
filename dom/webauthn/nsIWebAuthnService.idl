@@ -610,7 +610,7 @@ in
 uint64_t
 aTransactionId
 in
-ACString
+AUTF8String
 aPin
 )
 ;
