@@ -636,15 +636,12 @@ rhs
 MConstant
 :
 :
-New
+NewInt32
 (
 alloc
-Int32Value
-(
 sum
 .
 constant
-)
 )
 ;
 add
