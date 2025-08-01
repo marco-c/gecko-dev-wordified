@@ -1925,6 +1925,14 @@ d
                     
 and
 "
+CR_SYSROOT_KEY
+"
+not
+in
+d
+                    
+and
+"
 _FORTIFY_SOURCE
 "
 not
