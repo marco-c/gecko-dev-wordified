@@ -153,7 +153,7 @@ in
 f
 :
             
-line
+fixed_line
 =
 fixup_re
 .
@@ -168,9 +168,9 @@ r
 line
 )
             
-line
+fixed_line
 =
-line
+fixed_line
 .
 replace
 (
@@ -195,7 +195,7 @@ output
 .
 write
 (
-line
+fixed_line
 )
     
 if
