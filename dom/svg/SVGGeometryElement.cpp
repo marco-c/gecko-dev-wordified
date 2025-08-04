@@ -1911,6 +1911,15 @@ zoom
 ;
 if
 (
+std
+:
+:
+isfinite
+(
+authorsPathLengthEstimate
+)
+&
+&
 authorsPathLengthEstimate
 >
 =
