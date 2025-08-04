@@ -263,6 +263,9 @@ querySelector
 "
 #
 urlbar
+>
+.
+urlbar
 -
 background
 "
