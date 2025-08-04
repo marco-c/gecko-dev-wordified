@@ -639,7 +639,7 @@ if
 wants
 to
 load
-resoruce
+resource
 from
 cross
 origin
