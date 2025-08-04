@@ -212,11 +212,6 @@ aWindow
 gBrowser
 .
 selectedBrowser
-{
-wantLoad
-:
-testURI
-}
 )
 .
 then

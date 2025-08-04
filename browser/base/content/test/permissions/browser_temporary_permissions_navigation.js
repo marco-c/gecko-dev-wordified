@@ -909,15 +909,6 @@ getBrowserForTab
 (
 tab
 )
-{
-wantLoad
-:
-(
-)
-=
->
-true
-}
 )
 )
 )

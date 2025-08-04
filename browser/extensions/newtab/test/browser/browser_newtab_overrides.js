@@ -700,15 +700,6 @@ BrowserTestUtils
 browserLoaded
 (
 browser
-{
-wantLoad
-:
-"
-about
-:
-blank
-"
-}
 )
 ;
 await

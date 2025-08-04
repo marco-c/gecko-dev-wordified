@@ -801,11 +801,8 @@ browserLoaded
 newTab
 .
 linkedBrowser
-{
-wantLoad
-:
+null
 navigateUrl
-}
 )
 ;
 /

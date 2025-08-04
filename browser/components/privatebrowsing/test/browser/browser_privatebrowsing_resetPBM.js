@@ -3747,15 +3747,6 @@ browserLoaded
 tab
 .
 linkedBrowser
-{
-wantLoad
-:
-"
-about
-:
-blank
-"
-}
 )
 )
 ;
@@ -4633,7 +4624,6 @@ https
 example
 .
 com
-/
 "
 "
 https
@@ -4643,7 +4633,6 @@ https
 example
 .
 org
-/
 "
 "
 https
@@ -4653,7 +4642,6 @@ https
 example
 .
 net
-/
 "
 "
 about
@@ -4690,11 +4678,6 @@ browserLoaded
 tab
 .
 linkedBrowser
-{
-wantLoad
-:
-url
-}
 )
 ;
 return

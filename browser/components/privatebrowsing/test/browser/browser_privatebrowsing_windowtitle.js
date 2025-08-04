@@ -305,11 +305,6 @@ browserLoaded
 tab
 .
 linkedBrowser
-{
-wantLoad
-:
-url
-}
 )
 ;
 await

@@ -189,9 +189,7 @@ BrowserTestUtils
 browserLoaded
 (
 browser
-{
-wantLoad
-:
+null
 "
 https
 :
@@ -202,7 +200,6 @@ example
 com
 /
 "
-}
 )
 ;
 BrowserTestUtils
