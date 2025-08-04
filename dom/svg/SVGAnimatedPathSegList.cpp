@@ -866,7 +866,7 @@ mInit
 .
 mValues
 [
-3
+4
 ]
 ?
 StyleArcSweep
@@ -882,7 +882,7 @@ mInit
 .
 mValues
 [
-4
+3
 ]
 ?
 StyleArcSize
@@ -949,7 +949,7 @@ mInit
 .
 mValues
 [
-3
+4
 ]
 ?
 StyleArcSweep
@@ -965,7 +965,7 @@ mInit
 .
 mValues
 [
-4
+3
 ]
 ?
 StyleArcSize
