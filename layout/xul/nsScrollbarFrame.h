@@ -518,16 +518,6 @@ aFilter
 override
 ;
 void
-UpdateChildrenAttributeValue
-(
-nsAtom
-*
-aAttribute
-bool
-aNotify
-)
-;
-void
 ElementStateChanged
 (
 mozilla
