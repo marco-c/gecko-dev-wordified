@@ -1013,7 +1013,7 @@ translate
 .
 page
 :
-SPANISH_PAGE_MISMATCH_SHORT_URL
+SPANISH_PAGE_UNDECLARED_SHORT_URL
 buttonShown
 :
 true
