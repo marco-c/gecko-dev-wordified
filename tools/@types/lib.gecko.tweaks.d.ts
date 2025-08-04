@@ -608,6 +608,12 @@ currentURI
 :
 nsIURI
 ;
+documentURI
+:
+nsIURI
+|
+null
+;
 docShellIsActive
 :
 boolean
