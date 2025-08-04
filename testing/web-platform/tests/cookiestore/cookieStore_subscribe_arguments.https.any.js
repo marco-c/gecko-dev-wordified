@@ -85,9 +85,7 @@ js
 '
 '
 /
-cookie
--
-store
+cookiestore
 /
 resources
 /
@@ -352,9 +350,7 @@ js
 '
 '
 /
-cookie
--
-store
+cookiestore
 /
 resources
 /
@@ -572,9 +568,7 @@ js
 '
 '
 /
-cookie
--
-store
+cookiestore
 /
 resources
 /
@@ -888,9 +882,7 @@ js
 '
 '
 /
-cookie
--
-store
+cookiestore
 /
 resources
 /

@@ -35,9 +35,7 @@ kScope
 =
 '
 /
-cookie
--
-store
+cookiestore
 /
 does
 /

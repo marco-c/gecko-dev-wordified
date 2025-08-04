@@ -8,7 +8,7 @@ Cookie
 Store
 API
 :
-oncookiechange
+cookiechange
 event
 in
 ServiceWorker
@@ -32,9 +32,7 @@ kScope
 =
 '
 /
-cookie
--
-store
+cookiestore
 /
 does
 /
@@ -112,8 +110,11 @@ resolve
 {
 self
 .
-oncookiechange
-=
+addEventListener
+(
+'
+cookiechange
+'
 event
 =
 >
@@ -124,6 +125,7 @@ event
 )
 ;
 }
+)
 ;
 }
 )
