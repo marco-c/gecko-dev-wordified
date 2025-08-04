@@ -202,15 +202,6 @@ chrome
 .
 toml
 "
-"
-test
-/
-pointerevents
-/
-chrome
-.
-toml
-"
 ]
 TEST_DIRS
 +
