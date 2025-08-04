@@ -635,6 +635,7 @@ void
 OnSetCurrent
 (
 )
+override
 {
 if
 (

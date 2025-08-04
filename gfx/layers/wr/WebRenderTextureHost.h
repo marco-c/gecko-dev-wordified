@@ -231,6 +231,7 @@ RenderThread
 .
 class
 WebRenderTextureHost
+final
 :
 public
 TextureHost
@@ -401,6 +402,13 @@ gfx
 :
 ColorRange
 GetColorRange
+(
+)
+const
+override
+;
+bool
+NeedsYFlip
 (
 )
 const

@@ -372,6 +372,13 @@ SurfaceDescriptorGPUVideo
 sd
 )
 ;
+async
+OnSetCurrent
+(
+SurfaceDescriptorGPUVideo
+sd
+)
+;
 }
 ;
 }

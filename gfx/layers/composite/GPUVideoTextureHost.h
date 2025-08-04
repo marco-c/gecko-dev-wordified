@@ -139,6 +139,7 @@ layers
 {
 class
 GPUVideoTextureHost
+final
 :
 public
 TextureHost
@@ -245,6 +246,13 @@ gfx
 :
 ColorRange
 GetColorRange
+(
+)
+const
+override
+;
+bool
+NeedsYFlip
 (
 )
 const
