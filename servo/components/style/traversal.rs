@@ -193,17 +193,6 @@ matching
 SelectorCaches
 ;
 use
-selectors
-:
-:
-parser
-:
-:
-PseudoElement
-as
-PseudoElementTrait
-;
-use
 smallvec
 :
 :
