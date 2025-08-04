@@ -320,6 +320,8 @@ IPCResult
 RecvUpdateVar
 (
 const
+nsTArray
+<
 mozilla
 :
 :
@@ -327,6 +329,7 @@ gfx
 :
 :
 GfxVarUpdate
+>
 &
 aUpdate
 )

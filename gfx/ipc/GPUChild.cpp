@@ -726,7 +726,10 @@ GPUChild
 OnVarChanged
 (
 const
+nsTArray
+<
 GfxVarUpdate
+>
 &
 aVar
 )

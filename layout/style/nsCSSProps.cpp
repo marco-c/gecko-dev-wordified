@@ -1549,10 +1549,13 @@ void
 OnVarChanged
 (
 const
+nsTArray
+<
 gfx
 :
 :
 GfxVarUpdate
+>
 &
 )
 override

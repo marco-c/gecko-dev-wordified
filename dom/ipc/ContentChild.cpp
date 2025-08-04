@@ -14911,7 +14911,10 @@ ContentChild
 RecvVarUpdate
 (
 const
+nsTArray
+<
 GfxVarUpdate
+>
 &
 aVar
 )

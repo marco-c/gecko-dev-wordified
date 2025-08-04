@@ -120,6 +120,13 @@ mozilla_gfx_config_gfxVarReceiver_h
 #
 define
 mozilla_gfx_config_gfxVarReceiver_h
+#
+include
+"
+nsTArrayForwardDeclare
+.
+h
+"
 namespace
 mozilla
 {
@@ -160,7 +167,10 @@ void
 OnVarChanged
 (
 const
+nsTArray
+<
 GfxVarUpdate
+>
 &
 aVar
 )

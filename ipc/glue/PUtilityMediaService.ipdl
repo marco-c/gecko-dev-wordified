@@ -242,6 +242,8 @@ async
 UpdateVar
 (
 GfxVarUpdate
+[
+]
 var
 )
 ;
