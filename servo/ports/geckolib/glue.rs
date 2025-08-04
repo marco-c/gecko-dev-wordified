@@ -143,17 +143,6 @@ use
 selectors
 :
 :
-parser
-:
-:
-PseudoElement
-as
-PseudoElementTrait
-;
-use
-selectors
-:
-:
 {
 Element
 OpaqueElement
