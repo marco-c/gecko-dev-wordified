@@ -240,6 +240,16 @@ true
 #
 endif
 }
+#
+ifdef
+MOZ_WAYLAND
+void
+Commit
+(
+)
+;
+#
+endif
 private
 :
 #
