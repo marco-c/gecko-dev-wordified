@@ -1758,6 +1758,17 @@ against
 snapshot
 before
 element
+#
+[
+cfg
+(
+feature
+=
+"
+gecko
+"
+)
+]
 NonTSPseudoClass
 :
 :
