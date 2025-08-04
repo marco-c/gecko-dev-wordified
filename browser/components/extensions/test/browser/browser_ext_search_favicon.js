@@ -154,7 +154,7 @@ mjs
 ;
 const
 {
-AppProvidedSearchEngine
+AppProvidedConfigEngine
 }
 =
 ChromeUtils
@@ -175,7 +175,7 @@ components
 /
 search
 /
-AppProvidedSearchEngine
+ConfigSearchEngine
 .
 sys
 .
@@ -386,7 +386,7 @@ sinon
 .
 stub
 (
-AppProvidedSearchEngine
+AppProvidedConfigEngine
 .
 prototype
 "

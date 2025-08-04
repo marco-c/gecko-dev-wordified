@@ -58,7 +58,7 @@ https
 :
 /
 /
-example
+searchform
 .
 com
 /
@@ -106,7 +106,9 @@ https
 :
 /
 /
-example
+no
+.
+searchform
 .
 com
 /
@@ -170,7 +172,7 @@ https
 :
 /
 /
-example
+addon
 .
 com
 /
@@ -195,7 +197,7 @@ add_task
 (
 async
 function
-test_appProvidedEngineSearchform
+test_configEngineSearchform
 (
 )
 {
@@ -223,7 +225,7 @@ https
 :
 /
 /
-example
+searchform
 .
 com
 /
@@ -250,7 +252,7 @@ add_task
 (
 async
 function
-test_appProvidedEngineNoSearchform
+test_configEngineNoSearchform
 (
 )
 {
@@ -278,7 +280,9 @@ https
 :
 /
 /
-example
+no
+.
+searchform
 .
 com
 "
@@ -328,7 +332,7 @@ https
 :
 /
 /
-example
+addon
 .
 com
 "

@@ -1064,7 +1064,7 @@ equal
 (
 result
 .
-canChangeToAppProvided
+canChangeToConfigEngine
 test
 .
 expected

@@ -493,7 +493,7 @@ function
 getSettingsAttribute
 (
 setting
-isAppProvided
+engine
 )
 {
 return
@@ -508,7 +508,9 @@ _settings
 getVerifiedMetaDataAttribute
 (
 setting
-isAppProvided
+engine
+.
+isConfigEngine
 )
 ;
 }
@@ -641,8 +643,6 @@ Services
 search
 .
 defaultEngine
-.
-isAppProvided
 )
 "
 "
@@ -733,8 +733,6 @@ Services
 search
 .
 defaultEngine
-.
-isAppProvided
 )
 "
 engine2
@@ -774,8 +772,6 @@ Services
 search
 .
 defaultEngine
-.
-isAppProvided
 )
 "
 engine2
@@ -912,8 +908,6 @@ Services
 search
 .
 defaultEngine
-.
-isAppProvided
 )
 "
 engine2
@@ -1009,8 +1003,6 @@ Services
 search
 .
 defaultEngine
-.
-isAppProvided
 )
 "
 "
@@ -1078,8 +1070,6 @@ Services
 search
 .
 defaultEngine
-.
-isAppProvided
 )
 "
 "
@@ -1168,8 +1158,6 @@ Services
 search
 .
 defaultEngine
-.
-isAppProvided
 )
 "
 engine1
@@ -1266,8 +1254,6 @@ Services
 search
 .
 defaultEngine
-.
-isAppProvided
 )
 "
 "
@@ -1362,8 +1348,6 @@ Services
 search
 .
 defaultPrivateEngine
-.
-isAppProvided
 )
 "
 "
@@ -1431,8 +1415,6 @@ Services
 search
 .
 defaultEngine
-.
-isAppProvided
 )
 "
 "
@@ -1521,8 +1503,6 @@ Services
 search
 .
 defaultPrivateEngine
-.
-isAppProvided
 )
 "
 engine1
@@ -1609,8 +1589,6 @@ Services
 search
 .
 defaultPrivateEngine
-.
-isAppProvided
 )
 "
 "
@@ -1705,8 +1683,6 @@ Services
 search
 .
 defaultEngine
-.
-isAppProvided
 )
 "
 "
@@ -1774,8 +1750,6 @@ Services
 search
 .
 defaultEngine
-.
-isAppProvided
 )
 "
 "
@@ -1863,8 +1837,6 @@ Services
 search
 .
 defaultEngine
-.
-isAppProvided
 )
 "
 engine2
@@ -1977,8 +1949,6 @@ Services
 search
 .
 defaultEngine
-.
-isAppProvided
 )
 "
 engine2
@@ -2088,8 +2058,6 @@ Services
 search
 .
 defaultEngine
-.
-isAppProvided
 )
 "
 "
@@ -2157,8 +2125,6 @@ Services
 search
 .
 defaultEngine
-.
-isAppProvided
 )
 "
 "
@@ -2351,8 +2317,6 @@ Services
 search
 .
 defaultEngine
-.
-isAppProvided
 )
 "
 engine2

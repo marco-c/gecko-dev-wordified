@@ -76,7 +76,7 @@ defineESModuleGetters
 (
 this
 {
-AppProvidedSearchEngine
+AppProvidedConfigEngine
 :
 "
 moz
@@ -92,7 +92,7 @@ components
 /
 search
 /
-AppProvidedSearchEngine
+ConfigSearchEngine
 .
 sys
 .
@@ -962,7 +962,7 @@ something
 /
 stored
 in
-AppProvidedSearchEngine
+AppProvidedConfigEngine
 .
 #
 prevEngineInfo
@@ -2268,7 +2268,7 @@ sinon
 .
 spy
 (
-AppProvidedSearchEngine
+AppProvidedConfigEngine
 .
 prototype
 "
@@ -2289,7 +2289,7 @@ stored
 in
 /
 /
-AppProvidedSearchEngine
+AppProvidedConfigEngine
 .
 #
 prevEngineInfo
@@ -2404,7 +2404,7 @@ sinon
 .
 spy
 (
-AppProvidedSearchEngine
+AppProvidedConfigEngine
 .
 prototype
 "
@@ -2425,7 +2425,7 @@ stored
 in
 /
 /
-AppProvidedSearchEngine
+AppProvidedConfigEngine
 .
 #
 prevEngineInfo
@@ -2486,7 +2486,7 @@ stored
 in
 /
 /
-AppProvidedSearchEngine
+AppProvidedConfigEngine
 .
 #
 prevEngineInfo

@@ -364,8 +364,7 @@ the
 engines
 icon
 for
-app
-provided
+config
 engines
 otherwise
 show
@@ -399,7 +398,7 @@ if
 !
 engine
 .
-isAppProvided
+isConfigEngine
 )
 {
 this
@@ -650,7 +649,7 @@ if
 !
 engine
 .
-isAppProvided
+isConfigEngine
 )
 {
 document

@@ -123,9 +123,8 @@ false
 Persisted
 Search
 requires
-app
--
-provided
+config
+search
 engines
 .
 let

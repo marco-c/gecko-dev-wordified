@@ -4,7 +4,7 @@ defineESModuleGetters
 (
 this
 {
-AppProvidedSearchEngine
+AppProvidedConfigEngine
 :
 "
 moz
@@ -20,7 +20,7 @@ components
 /
 search
 /
-AppProvidedSearchEngine
+ConfigSearchEngine
 .
 sys
 .
@@ -1128,7 +1128,7 @@ persistSandbox
 .
 stub
 (
-AppProvidedSearchEngine
+AppProvidedConfigEngine
 .
 prototype
 "

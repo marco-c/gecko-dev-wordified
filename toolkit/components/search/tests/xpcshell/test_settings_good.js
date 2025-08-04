@@ -198,7 +198,7 @@ alias
 :
 null
 }
-_isAppProvided
+_isConfigEngine
 :
 true
 _name
@@ -220,7 +220,7 @@ alias
 :
 null
 }
-_isAppProvided
+_isConfigEngine
 :
 true
 _name

@@ -34,7 +34,7 @@ zero
 Tests
 that
 configuration
-provided
+search
 engines
 installed
 by

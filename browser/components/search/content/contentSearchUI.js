@@ -685,11 +685,11 @@ engine
 .
 name
 icon
-isAppProvided
+isConfigEngine
 :
 engine
 .
-isAppProvided
+isConfigEngine
 }
 ;
 this
@@ -4178,8 +4178,7 @@ s
 own
 icon
 for
-app
-provided
+config
 engines
 otherwise
 show
@@ -4215,7 +4214,7 @@ this
 .
 defaultEngine
 .
-isAppProvided
+isConfigEngine
 ?
 this
 .

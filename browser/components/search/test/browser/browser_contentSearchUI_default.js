@@ -854,8 +854,7 @@ s
 own
 icon
 for
-app
-provided
+config
 engines
 otherwise
 show
@@ -1222,8 +1221,7 @@ s
 own
 icon
 for
-app
-provided
+config
 engines
 otherwise
 show

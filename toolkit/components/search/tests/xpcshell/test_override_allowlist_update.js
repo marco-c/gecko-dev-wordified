@@ -370,7 +370,7 @@ equal
 (
 result
 .
-canChangeToAppProvided
+canChangeToConfigEngine
 true
 "
 Should

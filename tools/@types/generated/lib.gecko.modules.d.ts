@@ -7960,7 +7960,7 @@ components
 /
 search
 /
-AppProvidedSearchEngine
+ConfigSearchEngine
 .
 sys
 .
@@ -7984,7 +7984,7 @@ components
 /
 search
 /
-AppProvidedSearchEngine
+ConfigSearchEngine
 .
 sys
 .
