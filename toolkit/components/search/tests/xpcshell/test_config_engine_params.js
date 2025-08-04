@@ -329,7 +329,7 @@ engine
 .
 wrappedJSObject
 .
-_getURLOfType
+getURLOfType
 (
 SearchUtils
 .
@@ -583,7 +583,7 @@ engine
 .
 wrappedJSObject
 .
-_getURLOfType
+getURLOfType
 (
 SearchUtils
 .
@@ -804,7 +804,7 @@ engine
 .
 wrappedJSObject
 .
-_getURLOfType
+getURLOfType
 (
 SearchUtils
 .
