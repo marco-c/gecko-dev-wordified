@@ -63456,6 +63456,15 @@ PseudoStyleType
 NotPseudo
 |
 |
+PseudoStyle
+:
+:
+IsElementBackedPseudo
+(
+pseudo
+)
+|
+|
 (
 pseudo
 =
