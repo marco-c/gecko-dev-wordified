@@ -201,7 +201,7 @@ mozilla
 /
 dom
 /
-CSS2PropertiesBinding
+CSSStylePropertiesBinding
 .
 h
 "
@@ -285,7 +285,7 @@ aGivenProto
 )
 {
 return
-CSS2Properties_Binding
+CSSStyleProperties_Binding
 :
 :
 Wrap
