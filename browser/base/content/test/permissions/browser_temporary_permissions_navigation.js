@@ -909,6 +909,15 @@ getBrowserForTab
 (
 tab
 )
+{
+wantLoad
+:
+(
+)
+=
+>
+true
+}
 )
 )
 )

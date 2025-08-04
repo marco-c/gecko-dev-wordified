@@ -223,6 +223,15 @@ browserLoaded
 gBrowser
 .
 selectedBrowser
+{
+wantLoad
+:
+"
+about
+:
+blank
+"
+}
 )
 .
 then

@@ -208,6 +208,15 @@ browserLoaded
 gBrowser
 .
 selectedBrowser
+{
+wantLoad
+:
+"
+about
+:
+blank
+"
+}
 )
 ;
 let

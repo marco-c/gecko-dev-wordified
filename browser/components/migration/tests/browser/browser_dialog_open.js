@@ -172,6 +172,15 @@ BrowserTestUtils
 browserLoaded
 (
 prefsBrowser
+{
+wantLoad
+:
+"
+about
+:
+blank
+"
+}
 )
 ;
 }
