@@ -567,6 +567,16 @@ nsBaseDragService
 {
 public
 :
+MockDragService
+(
+)
+{
+SetNeverAllowSessionIsSynthesizedForTests
+(
+true
+)
+;
+}
 NS_IMETHOD
 GetIsMockService
 (
