@@ -890,6 +890,17 @@ MOZ_DIAGNOSTIC_ASSERT
 removed
 )
 ;
+MOZ_DIAGNOSTIC_ASSERT
+(
+!
+mBufferTransactions
+.
+Contains
+(
+aTransaction
+)
+)
+;
 }
 void
 WaylandBuffer
