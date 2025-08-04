@@ -1169,7 +1169,14 @@ to
 ;
 memcpy
 (
+static_cast
+<
+void
+*
+>
+(
 to
+)
 from_begin
 CheckSub
 (
