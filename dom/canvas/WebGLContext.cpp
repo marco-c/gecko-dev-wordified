@@ -3088,6 +3088,10 @@ mDefaultFB
 =
 nullptr
 ;
+mResolvedDefaultFB
+=
+nullptr
+;
 mResetLayer
 =
 true
