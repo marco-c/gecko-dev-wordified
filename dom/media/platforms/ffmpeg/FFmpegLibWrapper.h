@@ -1566,6 +1566,16 @@ AVMediaCodecBuffer
 int
 )
 ;
+int
+(
+*
+moz_avcodec_mediacodec_is_eos
+)
+(
+AVCodecContext
+*
+)
+;
 #
 endif
 /

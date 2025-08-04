@@ -1758,6 +1758,12 @@ av_mediacodec_release_buffer
 AV_FUNC_AVCODEC_ALL
 )
 ;
+AV_FUNC
+(
+moz_avcodec_mediacodec_is_eos
+AV_FUNC_AVCODEC_ALL
+)
+;
 #
 endif
 #
