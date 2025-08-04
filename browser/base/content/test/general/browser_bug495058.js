@@ -78,7 +78,7 @@ gBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .
@@ -94,6 +94,11 @@ browserLoaded
 tab
 .
 linkedBrowser
+{
+wantLoad
+:
+uri
+}
 )
 ;
 let

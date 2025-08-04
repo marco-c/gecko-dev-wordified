@@ -212,6 +212,11 @@ aWindow
 gBrowser
 .
 selectedBrowser
+{
+wantLoad
+:
+testURI
+}
 )
 .
 then
@@ -290,7 +295,7 @@ aCallback
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 aWindow
 .

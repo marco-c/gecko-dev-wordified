@@ -383,7 +383,7 @@ page
 .
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .
@@ -403,6 +403,15 @@ browserLoaded
 tab
 .
 linkedBrowser
+{
+wantLoad
+:
+"
+about
+:
+blank
+"
+}
 )
 ;
 /
@@ -415,7 +424,7 @@ page
 .
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .

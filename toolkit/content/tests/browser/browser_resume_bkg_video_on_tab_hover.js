@@ -701,6 +701,15 @@ BrowserTestUtils
 browserLoaded
 (
 browser
+{
+wantLoad
+:
+"
+about
+:
+blank
+"
+}
 )
 ;
 info
@@ -733,7 +742,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 PAGE

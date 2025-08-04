@@ -223,6 +223,15 @@ browserLoaded
 gBrowser
 .
 selectedBrowser
+{
+wantLoad
+:
+"
+about
+:
+blank
+"
+}
 )
 .
 then
@@ -234,7 +243,7 @@ then
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 xpipath

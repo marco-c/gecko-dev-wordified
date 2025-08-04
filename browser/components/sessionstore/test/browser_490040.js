@@ -385,6 +385,15 @@ win
 gBrowser
 .
 selectedBrowser
+{
+wantLoad
+:
+(
+)
+=
+>
+true
+}
 )
 ;
 }

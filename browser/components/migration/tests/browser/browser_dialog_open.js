@@ -156,7 +156,7 @@ dialogClosed
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 prefsBrowser
 "
@@ -172,6 +172,15 @@ BrowserTestUtils
 browserLoaded
 (
 prefsBrowser
+{
+wantLoad
+:
+"
+about
+:
+blank
+"
+}
 )
 ;
 }
