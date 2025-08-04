@@ -242,9 +242,6 @@ Child
 ChildMetricMeta
 )
 }
-crate
-:
-:
 define_metric_metadata_getter
 !
 (
@@ -252,9 +249,6 @@ RateMetric
 RATE_MAP
 )
 ;
-crate
-:
-:
 define_metric_namer
 !
 (

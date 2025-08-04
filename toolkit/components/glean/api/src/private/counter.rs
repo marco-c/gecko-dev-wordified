@@ -208,9 +208,6 @@ Child
 ChildMetricMeta
 )
 }
-crate
-:
-:
 define_metric_namer
 !
 (

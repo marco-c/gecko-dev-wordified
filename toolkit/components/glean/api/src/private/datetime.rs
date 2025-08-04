@@ -878,9 +878,6 @@ Child
 ChildMetricMeta
 )
 }
-crate
-:
-:
 define_metric_metadata_getter
 !
 (
@@ -888,9 +885,6 @@ DatetimeMetric
 DATETIME_MAP
 )
 ;
-crate
-:
-:
 define_metric_namer
 !
 (

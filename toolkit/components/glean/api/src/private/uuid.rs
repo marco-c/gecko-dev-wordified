@@ -195,9 +195,6 @@ pub
 struct
 UuidMetricIpc
 ;
-crate
-:
-:
 define_metric_metadata_getter
 !
 (
@@ -205,9 +202,6 @@ UuidMetric
 UUID_MAP
 )
 ;
-crate
-:
-:
 define_metric_namer
 !
 (

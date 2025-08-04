@@ -450,9 +450,6 @@ Child
 TextMetricIpc
 )
 }
-crate
-:
-:
 define_metric_metadata_getter
 !
 (
@@ -460,9 +457,6 @@ TextMetric
 TEXT_MAP
 )
 ;
-crate
-:
-:
 define_metric_namer
 !
 (

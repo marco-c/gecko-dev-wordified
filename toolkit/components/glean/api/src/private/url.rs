@@ -543,9 +543,6 @@ pub
 struct
 UrlMetricIpc
 ;
-crate
-:
-:
 define_metric_metadata_getter
 !
 (
@@ -553,9 +550,6 @@ UrlMetric
 URL_MAP
 )
 ;
-crate
-:
-:
 define_metric_namer
 !
 (

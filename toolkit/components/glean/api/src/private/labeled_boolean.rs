@@ -201,9 +201,6 @@ label
 String
 }
 }
-crate
-:
-:
 define_metric_metadata_getter
 !
 (
@@ -213,9 +210,6 @@ BOOLEAN_MAP
 LABELED_BOOLEAN_MAP
 )
 ;
-crate
-:
-:
 define_metric_namer
 !
 (

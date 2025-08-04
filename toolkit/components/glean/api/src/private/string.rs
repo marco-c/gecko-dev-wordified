@@ -405,9 +405,6 @@ pub
 struct
 StringMetricIpc
 ;
-crate
-:
-:
 define_metric_metadata_getter
 !
 (
@@ -416,9 +413,6 @@ STRING_MAP
 LABELED_STRING_MAP
 )
 ;
-crate
-:
-:
 define_metric_namer
 !
 (

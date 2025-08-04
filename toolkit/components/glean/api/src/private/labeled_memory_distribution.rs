@@ -214,9 +214,6 @@ label
 String
 }
 }
-crate
-:
-:
 define_metric_metadata_getter
 !
 (
@@ -226,9 +223,6 @@ MEMORY_DISTRIBUTION_MAP
 LABELED_MEMORY_DISTRIBUTION_MAP
 )
 ;
-crate
-:
-:
 define_metric_namer
 !
 (

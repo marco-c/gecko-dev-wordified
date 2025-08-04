@@ -1552,10 +1552,6 @@ of
 metric
 types
 .
-#
-[
-macro_export
-]
 macro_rules
 !
 define_metric_namer
@@ -2553,10 +2549,6 @@ metadata
 if
 found
 )
-#
-[
-macro_export
-]
 macro_rules
 !
 metadata_from_static_map
@@ -2732,10 +2724,6 @@ it
 if
 found
 )
-#
-[
-macro_export
-]
 macro_rules
 !
 metadata_from_dynamic_map
@@ -3162,10 +3150,6 @@ ANOTHER_MAP
 /
 LABELED_ANOTHER_MAP
 )
-#
-[
-macro_export
-]
 macro_rules
 !
 define_metric_metadata_getter
@@ -3259,9 +3243,6 @@ is_dynamic
 (
 )
 {
-crate
-:
-:
 metadata_from_dynamic_map
 !
 (
@@ -3271,9 +3252,6 @@ id
 }
 else
 {
-crate
-:
-:
 metadata_from_static_map
 !
 (
@@ -3455,9 +3433,6 @@ is_dynamic
 (
 )
 {
-crate
-:
-:
 metadata_from_dynamic_map
 !
 (
@@ -3467,9 +3442,6 @@ id
 }
 else
 {
-crate
-:
-:
 metadata_from_static_map
 !
 (
@@ -3862,9 +3834,6 @@ is_dynamic
 (
 )
 {
-crate
-:
-:
 metadata_from_dynamic_map
 !
 (
@@ -3874,9 +3843,6 @@ id
 }
 else
 {
-crate
-:
-:
 metadata_from_static_map
 !
 (
