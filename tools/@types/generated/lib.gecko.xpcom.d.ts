@@ -75950,6 +75950,16 @@ string
 :
 string
 ;
+isNewEngineOrURL
+(
+responseType
+?
+:
+string
+)
+:
+boolean
+;
 getIconURL
 (
 preferredWidth
