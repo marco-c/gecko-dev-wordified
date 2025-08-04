@@ -338,11 +338,8 @@ should
 be
 rejected
 .
-assert_throws_dom
+assert_throws_quotaexceedederror
 (
-'
-QuotaExceededError
-'
 (
 )
 =
@@ -393,6 +390,8 @@ referrer
 )
 ;
 }
+null
+null
 )
 ;
 /

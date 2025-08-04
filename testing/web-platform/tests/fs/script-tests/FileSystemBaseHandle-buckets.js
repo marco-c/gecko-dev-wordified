@@ -258,12 +258,9 @@ file
 fails
 .
 return
-promise_rejects_dom
+promise_rejects_quotaexceedederror
 (
 t
-'
-QuotaExceededError
-'
 createFileWithContents
 (
 '
@@ -347,6 +344,8 @@ laborum
 '
 inboxRootDir
 )
+null
+null
 )
 ;
 }
