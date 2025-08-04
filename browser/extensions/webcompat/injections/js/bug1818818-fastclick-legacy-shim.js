@@ -109,16 +109,7 @@ globals
 exportFunction
 *
 /
-(
-window
-.
-CSSStyleProperties
-?
-?
-window
-.
 CSS2Properties
-)
 .
 prototype
 .

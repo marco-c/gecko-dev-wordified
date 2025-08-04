@@ -469,7 +469,7 @@ nsACString
 aSelectorText
 )
 ;
-nsDOMCSSDeclaration
+nsICSSDeclaration
 *
 Style
 (

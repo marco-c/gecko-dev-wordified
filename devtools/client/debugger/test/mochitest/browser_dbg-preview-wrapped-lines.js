@@ -889,7 +889,7 @@ wrapped
 const
 EXPECTED_LINES_TO_WRAP_OVER
 =
-5
+6
 ;
 /
 /
@@ -924,7 +924,7 @@ line
 to
 wrap
 over
-5
+6
 lines
 (
 including
