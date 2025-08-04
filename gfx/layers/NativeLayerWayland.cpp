@@ -791,10 +791,10 @@ unmapped
 WaylandSurfaceLock
 lock
 (
-mSurface
+mRootSurface
 )
 ;
-mSurface
+mRootSurface
 -
 >
 SetUnmapCallbackLocked
@@ -827,7 +827,7 @@ callback
 WaylandSurfaceLock
 lock
 (
-mSurface
+mRootSurface
 )
 ;
 for
@@ -871,7 +871,7 @@ MainThreadUnmap
 }
 )
 ;
-mSurface
+mRootSurface
 -
 >
 SetGdkCommitCallbackLocked
@@ -942,7 +942,7 @@ to
 save
 resources
 .
-mSurface
+mRootSurface
 -
 >
 SetFrameCallbackStateHandlerLocked
@@ -974,7 +974,7 @@ FrameCallbackStateHandler
 "
 )
 ;
-mSurface
+mRootSurface
 -
 >
 AssertCurrentThreadOwnsMutex
@@ -1156,7 +1156,7 @@ widget_dmabuf_feedback_enabled_AtStartup
 )
 )
 {
-mSurface
+mRootSurface
 -
 >
 EnableDMABufFormatsLocked
@@ -1327,12 +1327,12 @@ UpdateLayersOnMainThread
 WaylandSurfaceLock
 lock
 (
-mSurface
+mRootSurface
 )
 ;
 if
 (
-mSurface
+mRootSurface
 -
 >
 IsMapped
@@ -1340,7 +1340,7 @@ IsMapped
 )
 )
 {
-mSurface
+mRootSurface
 -
 >
 RemoveAttachedBufferLocked
@@ -1349,7 +1349,7 @@ lock
 )
 ;
 }
-mSurface
+mRootSurface
 -
 >
 ClearUnmapCallbackLocked
@@ -1357,7 +1357,7 @@ ClearUnmapCallbackLocked
 lock
 )
 ;
-mSurface
+mRootSurface
 -
 >
 ClearGdkCommitCallbackLocked
@@ -1365,7 +1365,7 @@ ClearGdkCommitCallbackLocked
 lock
 )
 ;
-mSurface
+mRootSurface
 -
 >
 DisableDMABufFormatsLocked
@@ -1374,7 +1374,7 @@ lock
 )
 ;
 }
-mSurface
+mRootSurface
 =
 nullptr
 ;
@@ -1399,7 +1399,7 @@ WaylandSurface
 aWaylandSurface
 )
 :
-mSurface
+mRootSurface
 (
 aWaylandSurface
 )
@@ -1409,14 +1409,14 @@ ifdef
 MOZ_LOGGING
 mLoggingWidget
 =
-mSurface
+mRootSurface
 -
 >
 GetLoggingWidget
 (
 )
 ;
-mSurface
+mRootSurface
 -
 >
 SetLoggingWidget
@@ -1445,7 +1445,7 @@ mapped
 d
 "
 mLoggingWidget
-mSurface
+mRootSurface
 -
 >
 IsMapped
@@ -1507,7 +1507,7 @@ NativeLayerRootWayland
 MOZ_DIAGNOSTIC_ASSERT
 (
 !
-mSurface
+mRootSurface
 "
 NativeLayerRootWayland
 destroyed
@@ -1799,7 +1799,7 @@ this
 WaylandSurfaceLock
 lock
 (
-mSurface
+mRootSurface
 )
 ;
 /
@@ -2183,7 +2183,7 @@ RequestForceCommit
 ;
 if
 (
-mSurface
+mRootSurface
 -
 >
 IsMapped
@@ -2409,7 +2409,7 @@ nothing
 if
 (
 !
-mSurface
+mRootSurface
 )
 {
 return
@@ -2430,7 +2430,7 @@ UpdateLayersOnMainThread
 WaylandSurfaceLock
 lock
 (
-mSurface
+mRootSurface
 )
 ;
 for
@@ -2856,14 +2856,7 @@ CommitToScreen
 WaylandSurfaceLock
 lock
 (
-mSurface
-/
-*
-force
-commit
-*
-/
-true
+mRootSurface
 )
 ;
 mFrameInProcess
@@ -2873,7 +2866,7 @@ false
 if
 (
 !
-mSurface
+mRootSurface
 -
 >
 IsMapped
@@ -2960,7 +2953,7 @@ it
 if
 (
 !
-mSurface
+mRootSurface
 -
 >
 HasBufferAttached
@@ -2968,7 +2961,7 @@ HasBufferAttached
 )
 )
 {
-mSurface
+mRootSurface
 -
 >
 AttachLocked
@@ -2977,7 +2970,7 @@ lock
 mTmpBuffer
 )
 ;
-mSurface
+mRootSurface
 -
 >
 ClearOpaqueRegionLocked
@@ -3106,7 +3099,7 @@ int
 )
 roundf
 (
-mSurface
+mRootSurface
 -
 >
 GetScale
@@ -3335,14 +3328,7 @@ mode
 WaylandSurfaceLock
 lock
 (
-mSurface
-/
-*
-force
-commit
-*
-/
-true
+mRootSurface
 )
 ;
 }
@@ -3397,7 +3383,7 @@ d
 aTime
 )
 ;
-mSurface
+mRootSurface
 -
 >
 FrameCallbackHandler
@@ -3457,7 +3443,7 @@ AssertIsOnMainThread
 )
 ;
 return
-mSurface
+mRootSurface
 -
 >
 GetGdkWindow
@@ -3721,7 +3707,7 @@ WaylandSurface
 mRootLayer
 -
 >
-GetWaylandSurface
+GetRootWaylandSurface
 (
 )
 mSize
