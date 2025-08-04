@@ -405,7 +405,6 @@ kilobytes
 *
 and
 round
-up
 to
 the
 nearest
@@ -441,12 +440,13 @@ largeSize
 bytes
 is
 rounded
-up
 to
 the
 nearest
-tenth
-kilobyte
+mulitple
+of
+ten
+kilobytes
 1230
 "
 )
