@@ -6832,6 +6832,13 @@ const
 ;
 LocalAccessible
 *
+GetCommandForDetailsRelation
+(
+)
+const
+;
+LocalAccessible
+*
 GetPopoverTargetDetailsRelation
 (
 )
