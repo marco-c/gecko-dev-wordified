@@ -537,6 +537,7 @@ TaskbarTabsPin
 pinTaskbarTab
 (
 taskbarTab
+gRegistry
 )
 ;
 snapshot
@@ -598,6 +599,7 @@ TaskbarTabsPin
 unpinTaskbarTab
 (
 taskbarTab
+gRegistry
 )
 ;
 snapshot
@@ -710,6 +712,7 @@ TaskbarTabsPin
 pinTaskbarTab
 (
 taskbarTab
+gRegistry
 )
 ;
 snapshot
@@ -773,6 +776,7 @@ TaskbarTabsPin
 unpinTaskbarTab
 (
 taskbarTab
+gRegistry
 )
 ;
 snapshot
