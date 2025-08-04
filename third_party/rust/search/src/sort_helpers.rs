@@ -521,12 +521,6 @@ types
 :
 *
 ;
-use
-pretty_assertions
-:
-:
-assert_eq
-;
 fn
 create_engine
 (

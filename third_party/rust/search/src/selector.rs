@@ -1208,12 +1208,6 @@ mockito
 mock
 ;
 use
-pretty_assertions
-:
-:
-assert_eq
-;
-use
 remote_settings
 :
 :
