@@ -2092,9 +2092,9 @@ equal
 (
 titleL10nId
 "
-firefox
+urlbar
 -
-suggest
+result
 -
 dismissal
 -
