@@ -133,16 +133,7 @@ function
 const
 proto
 =
-(
-window
-.
-CSSStyleProperties
-?
-?
-window
-.
 CSS2Properties
-)
 .
 prototype
 .

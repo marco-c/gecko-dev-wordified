@@ -600,7 +600,7 @@ override
 WebIDL
 interface
 for
-CSSStyleProperties
+CSS2Properties
 virtual
 void
 IndexedGetter
