@@ -1096,7 +1096,7 @@ loadURI
 (
 url
 {
-flags
+loadFlags
 :
 reloadFlags
 triggeringPrincipal
