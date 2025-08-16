@@ -1892,7 +1892,7 @@ Ok
 {
 tx
 .
-execute
+execute_batch
 (
 "
 DROP
@@ -1912,8 +1912,6 @@ WITHOUT
 ROWID
 ;
 "
-(
-)
 )
 ?
 ;
@@ -5179,7 +5177,7 @@ assert_eq
 (
 conn
 .
-query_one
+conn_ext_query_one
 :
 :
 <

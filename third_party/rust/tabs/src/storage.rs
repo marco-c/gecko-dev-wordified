@@ -10219,7 +10219,7 @@ i64
 =
 db
 .
-query_one
+conn_ext_query_one
 (
 "
 SELECT
@@ -10376,7 +10376,7 @@ i64
 =
 reopen_db
 .
-query_one
+conn_ext_query_one
 (
 "
 SELECT
@@ -10407,7 +10407,7 @@ String
 =
 reopen_db
 .
-query_one
+conn_ext_query_one
 (
 "
 SELECT

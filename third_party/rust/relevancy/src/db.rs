@@ -1115,7 +1115,7 @@ self
 .
 conn
 .
-query_one
+conn_ext_query_one
 (
 "
 SELECT
