@@ -96,6 +96,9 @@ MPL
 gkrust_features
 =
 [
+"
+for_xul
+"
 ]
 if
 CONFIG
