@@ -405,7 +405,7 @@ waitForCondition
 >
 BrowserTestUtils
 .
-isHidden
+isVisible
 (
 switchTabLabel
 )
@@ -418,7 +418,7 @@ tab
 label
 will
 be
-hidden
+visible
 "
 )
 ;
