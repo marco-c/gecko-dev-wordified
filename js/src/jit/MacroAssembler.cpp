@@ -24200,7 +24200,7 @@ DEBUG
 Label
 ok
 ;
-branchPtr
+branchTestPtr
 (
 Assembler
 :
