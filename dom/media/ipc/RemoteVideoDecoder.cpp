@@ -1373,6 +1373,7 @@ wrapper
 )
 mMediaEngineId
 mTrackingId
+mCDM
 }
 ;
 mParent
