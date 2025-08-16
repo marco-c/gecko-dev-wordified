@@ -3309,7 +3309,7 @@ textProp
 .
 editor
 .
-updateUI
+updatePropertyState
 (
 )
 ;
