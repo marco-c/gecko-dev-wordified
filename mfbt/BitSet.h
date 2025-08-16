@@ -1119,8 +1119,7 @@ count
 for
 (
 const
-StorageType
-&
+Word
 word
 :
 mStorage
