@@ -3581,6 +3581,11 @@ CSSPageRule
 webidl
 "
 "
+CSSPerspective
+.
+webidl
+"
+"
 CSSPositionTryRule
 .
 webidl

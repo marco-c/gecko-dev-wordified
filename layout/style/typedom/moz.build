@@ -171,6 +171,11 @@ CSSNumericValue
 h
 "
 "
+CSSPerspective
+.
+h
+"
+"
 CSSRotate
 .
 h
@@ -292,6 +297,11 @@ cpp
 "
 "
 CSSNumericValue
+.
+cpp
+"
+"
+CSSPerspective
 .
 cpp
 "
