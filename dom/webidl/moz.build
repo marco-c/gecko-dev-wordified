@@ -3681,6 +3681,11 @@ CSSTransformComponent
 webidl
 "
 "
+CSSTransformValue
+.
+webidl
+"
+"
 CSSTransition
 .
 webidl
