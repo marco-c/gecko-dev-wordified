@@ -237,11 +237,9 @@ ruleView
 once
 (
 "
-scrolled
--
-to
--
 element
+-
+highlighted
 "
 )
 ;
