@@ -272,7 +272,7 @@ isUndefined
 ;
 MOZ_ASSERT
 (
-mStatePrivate
+mPayload
 .
 isUndefined
 (
@@ -914,7 +914,7 @@ Heap
 <
 Value
 >
-mStatePrivate
+mPayload
 ;
 }
 ;
