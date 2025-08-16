@@ -463,10 +463,11 @@ promise
 promise
 )
 ;
-delete
 engineSelector
 .
-_configuration
+clearCachedConfigurationForTests
+(
+)
 ;
 let
 firstResult
