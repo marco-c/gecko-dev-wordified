@@ -5271,6 +5271,13 @@ LiveTicks
 -
 -
 -
+#
+if
+!
+defined
+(
+MOZ_SANDBOX
+)
 namespace
 subtle
 {
@@ -5323,6 +5330,8 @@ unbiased_interrupt_time
 /
 namespace
 subtle
+#
+endif
 /
 /
 ThreadTicks

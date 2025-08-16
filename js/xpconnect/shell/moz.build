@@ -340,6 +340,11 @@ user32
 .
 dll
 "
+"
+userenv
+.
+dll
+"
 ]
 OS_LIBS
 +

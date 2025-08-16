@@ -214,6 +214,13 @@ subtle
 TimeTicksNowIgnoringOverride
 }
 ;
+#
+if
+!
+defined
+(
+MOZ_SANDBOX
+)
 std
 :
 :
@@ -230,6 +237,8 @@ subtle
 LiveTicksNowIgnoringOverride
 }
 ;
+#
+endif
 std
 :
 :
@@ -2131,6 +2140,13 @@ LiveTicks
 -
 -
 -
+#
+if
+!
+defined
+(
+MOZ_SANDBOX
+)
 /
 /
 static
@@ -2159,6 +2175,8 @@ memory_order_relaxed
 )
 ;
 }
+#
+endif
 #
 if
 !
