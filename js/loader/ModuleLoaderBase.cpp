@@ -2256,7 +2256,6 @@ FinishLoadingImportedModule
 (
 aCx
 referrer
-referencingPrivate
 moduleReqObj
 payload
 module
