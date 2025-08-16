@@ -3293,6 +3293,13 @@ cpp
 "
 vm
 /
+ObjectFuse
+.
+cpp
+"
+"
+vm
+/
 ObjectWithStashedPointer
 .
 cpp

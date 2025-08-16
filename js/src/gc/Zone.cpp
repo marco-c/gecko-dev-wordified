@@ -1229,6 +1229,10 @@ keptObjects
 (
 this
 )
+objectFuses
+(
+rt
+)
 {
 /
 *

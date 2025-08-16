@@ -519,6 +519,10 @@ ObjectFlag
 :
 :
 HasRealmFuseProperty
+ObjectFlag
+:
+:
+HasObjectFuse
 }
 )
 ;
@@ -579,6 +583,10 @@ ObjectFlag
 :
 :
 UseWatchtowerTestingLog
+ObjectFlag
+:
+:
+HasObjectFuse
 }
 )
 ;
@@ -677,6 +685,10 @@ ObjectFlag
 :
 :
 UseWatchtowerTestingLog
+ObjectFlag
+:
+:
+HasObjectFuse
 }
 )
 ;
