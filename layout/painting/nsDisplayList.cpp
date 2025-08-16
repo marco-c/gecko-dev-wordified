@@ -32485,7 +32485,7 @@ wr
 StackingContextFlags
 :
 :
-IS_BACKDROP_ROOT
+FORCED_ISOLATION
 ;
 }
 StackingContextHelper
@@ -44891,7 +44891,7 @@ wr
 StackingContextFlags
 :
 :
-IS_BACKDROP_ROOT
+FORCED_ISOLATION
 ;
 }
 wr
@@ -56377,7 +56377,7 @@ wr
 StackingContextFlags
 :
 :
-IS_BACKDROP_ROOT
+FORCED_ISOLATION
 ;
 StackingContextHelper
 sc
