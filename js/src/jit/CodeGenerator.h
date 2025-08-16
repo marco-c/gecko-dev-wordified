@@ -1015,9 +1015,7 @@ LiveRegisterSet
 liveVolatileRegs
 Register
 obj
-const
-LAllocation
-*
+Register
 index
 Register
 scratch
