@@ -1224,11 +1224,11 @@ debug
 build
 swapchain
 {
+config
 :
 ?
 }
 "
-config
 )
 ;
 let

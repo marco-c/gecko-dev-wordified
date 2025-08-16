@@ -371,6 +371,13 @@ RawId
 >
 &
 aCommandEncoderId
+const
+Maybe
+<
+RawId
+>
+&
+aCommandBufferId
 webgl
 :
 :

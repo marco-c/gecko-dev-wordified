@@ -560,9 +560,9 @@ f
 nShader
 validation
 {
+writer
 }
 "
-writer
 )
 }
 }

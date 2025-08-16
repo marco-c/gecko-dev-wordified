@@ -3451,6 +3451,11 @@ multi
 :
 false
 }
+|
+ImageClass
+:
+:
+External
 =
 >
 {

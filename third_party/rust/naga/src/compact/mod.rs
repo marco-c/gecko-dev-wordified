@@ -1480,11 +1480,11 @@ trace
 tracing
 function
 {
+function
 :
 ?
 }
 "
-function
 )
 ;
 let
@@ -3819,6 +3819,10 @@ types
 :
 :
 TypeTracer
+<
+'
+_
+>
 {
 types
 :
@@ -3869,6 +3873,10 @@ expressions
 :
 :
 ExpressionTracer
+<
+'
+_
+>
 {
 expressions
 :
@@ -5208,9 +5216,9 @@ format
 "
 type
 {
+type_name_counter
 }
 "
-type_name_counter
 )
 )
 ;
@@ -5303,9 +5311,9 @@ format
 "
 override
 {
+override_name_counter
 }
 "
-override_name_counter
 )
 )
 ;

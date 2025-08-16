@@ -597,6 +597,8 @@ self
 >
 UniqueArenaDrain
 <
+'
+_
 T
 >
 {

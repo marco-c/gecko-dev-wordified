@@ -1279,6 +1279,8 @@ TextureDescriptor
 {
 label
 :
+hal_label
+(
 Some
 (
 alloc
@@ -1299,6 +1301,10 @@ Texture
 >
 "
 )
+)
+device
+.
+instance_flags
 )
 size
 :
@@ -1795,9 +1801,9 @@ acquire
 error
 :
 {
+msg
 }
 "
-msg
 )
 ;
 Status
@@ -2143,9 +2149,9 @@ acquire
 error
 :
 {
+msg
 }
 "
-msg
 )
 ;
 Err

@@ -2232,16 +2232,9 @@ location
 )
 ;
 }
-core
-:
-:
-mem
-:
-:
-replace
-(
 held_lock
-Some
+.
+replace
 (
 HeldLock
 {
@@ -2250,7 +2243,6 @@ rank
 new_rank
 location
 }
-)
 )
 }
 }

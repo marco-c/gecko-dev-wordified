@@ -4664,6 +4664,10 @@ proc
 :
 :
 GlobalCtx
+<
+'
+_
+>
 {
 crate
 :
@@ -5670,11 +5674,11 @@ trace
 try_eval_and_append
 :
 {
+expr
 :
 ?
 }
 "
-expr
 )
 ;
 match
@@ -21578,9 +21582,13 @@ Since
 Naga
 '
 s
+[
 AbstractInt
+]
 and
+[
 AbstractFloat
+]
 exist
 to
 support
@@ -21621,7 +21629,9 @@ conversions
 /
 /
 from
+[
 AbstractInt
+]
 to
 an
 integer
@@ -21778,7 +21788,7 @@ AbstractInt
 /
 /
 [
-Float
+AbstractFloat
 ]
 :
 crate
@@ -21787,7 +21797,7 @@ crate
 Literal
 :
 :
-Float
+AbstractFloat
 fn
 try_from_abstract
 (

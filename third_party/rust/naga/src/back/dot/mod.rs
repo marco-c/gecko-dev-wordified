@@ -5503,10 +5503,10 @@ format
 "
 get
 {
+ty
 }
 HitVertexPositions
 "
-ty
 )
 .
 into

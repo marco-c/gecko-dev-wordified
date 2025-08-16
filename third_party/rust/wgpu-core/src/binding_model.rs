@@ -127,6 +127,7 @@ id
 {
 BindGroupLayoutId
 BufferId
+ExternalTextureId
 SamplerId
 TextureViewId
 TlasId
@@ -151,6 +152,7 @@ resource
 {
 Buffer
 DestroyedResourceError
+ExternalTexture
 InvalidResourceError
 Labeled
 MissingBufferUsageError
@@ -4054,6 +4056,9 @@ TextureViewId
 TLAS
 =
 TlasId
+ET
+=
+ExternalTextureId
 >
 where
 [
@@ -4179,6 +4184,7 @@ B
 S
 TV
 TLAS
+ET
 >
 :
 Deserialize
@@ -4211,6 +4217,7 @@ B
 S
 TV
 TLAS
+ET
 >
 }
 /
@@ -4246,6 +4253,10 @@ TextureView
 Arc
 <
 Tlas
+>
+Arc
+<
+ExternalTexture
 >
 >
 ;
@@ -4309,6 +4320,9 @@ TextureViewId
 TLAS
 =
 TlasId
+ET
+=
+ExternalTextureId
 >
 where
 [
@@ -4386,6 +4400,7 @@ B
 S
 TV
 TLAS
+ET
 >
 ]
 :
@@ -4400,6 +4415,7 @@ B
 S
 TV
 TLAS
+ET
 >
 ]
 as
@@ -4493,6 +4509,7 @@ B
 S
 TV
 TLAS
+ET
 >
 ]
 as
@@ -4524,6 +4541,16 @@ this
 bind
 group
 .
+#
+[
+allow
+(
+clippy
+:
+:
+type_complexity
+)
+]
 pub
 entries
 :
@@ -4540,6 +4567,7 @@ B
 S
 TV
 TLAS
+ET
 >
 ]
 >
@@ -4581,6 +4609,10 @@ TextureView
 Arc
 <
 Tlas
+>
+Arc
+<
+ExternalTexture
 >
 >
 ;
@@ -7431,6 +7463,9 @@ TextureViewId
 TLAS
 =
 TlasId
+ET
+=
+ExternalTextureId
 >
 where
 [
@@ -7669,6 +7704,10 @@ AccelerationStructure
 (
 TLAS
 )
+ExternalTexture
+(
+ET
+)
 }
 pub
 type
@@ -7697,6 +7736,10 @@ TextureView
 Arc
 <
 Tlas
+>
+Arc
+<
+ExternalTexture
 >
 >
 ;

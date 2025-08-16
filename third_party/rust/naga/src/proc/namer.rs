@@ -1615,12 +1615,10 @@ map
 |
 string
 |
-(
 AsciiUniCase
 (
 *
 string
-)
 )
 )
 )

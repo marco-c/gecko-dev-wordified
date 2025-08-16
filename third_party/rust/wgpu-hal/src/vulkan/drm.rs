@@ -361,9 +361,9 @@ error
 enumerate_adapters
 :
 {
+err
 }
 "
-err
 )
 ;
 Vec

@@ -951,9 +951,9 @@ Shader
 error
 :
 {
+msg
 }
 "
-msg
 )
 ;
 CreateShaderModuleError
@@ -1610,6 +1610,11 @@ acceleration_structures
 &
 [
 ]
+external_textures
+:
+&
+[
+]
 }
 ;
 let
@@ -1834,6 +1839,11 @@ textures
 [
 ]
 acceleration_structures
+:
+&
+[
+]
+external_textures
 :
 &
 [

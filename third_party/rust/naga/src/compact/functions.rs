@@ -473,6 +473,10 @@ expressions
 :
 :
 ExpressionTracer
+<
+'
+_
+>
 {
 super
 :

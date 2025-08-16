@@ -494,6 +494,8 @@ Span
 >
 Result
 <
+'
+_
 Self
 >
 {

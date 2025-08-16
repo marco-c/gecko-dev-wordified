@@ -1400,6 +1400,13 @@ RawId
 >
 &
 aCommandEncoderId
+const
+Maybe
+<
+RawId
+>
+&
+aCommandBufferId
 SurfaceFormat
 aFormat
 bool
@@ -1435,6 +1442,7 @@ aManagerId
 aProtocolId
 aOwnerId
 aCommandEncoderId
+aCommandBufferId
 &
 res
 )

@@ -397,6 +397,9 @@ ownerId
 RawId
 ?
 commandEncoderId
+RawId
+?
+commandBufferId
 )
 returns
 (

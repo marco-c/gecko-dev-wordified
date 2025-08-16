@@ -677,9 +677,9 @@ log
 level
 "
 {
+message
 }
 "
-message
 )
 ;
 }
