@@ -3056,6 +3056,25 @@ name
     
 #
 Use
+LANDO_TRY_CONFIG
+so
+select
+which
+configuration
+section
+from
+.
+lando
+.
+ini
+to
+use
+.
+    
+#
+Default
+to
+using
 Lando
 Prod
 unless
@@ -3069,6 +3088,15 @@ defined
     
 lando_config_section
 =
+os
+.
+getenv
+(
+"
+LANDO_TRY_CONFIG
+"
+)
+or
 (
         
 "
