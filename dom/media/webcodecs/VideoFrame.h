@@ -647,8 +647,6 @@ PrefEnabled
 JSContext
 *
 aCx
-=
-nullptr
 JSObject
 *
 aObj

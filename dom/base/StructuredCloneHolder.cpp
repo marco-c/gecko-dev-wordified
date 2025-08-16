@@ -6825,6 +6825,7 @@ VideoFrame
 :
 PrefEnabled
 (
+aCx
 )
 &
 &
@@ -7681,6 +7682,7 @@ VideoFrame
 :
 PrefEnabled
 (
+aCx
 )
 )
 {
@@ -8770,6 +8772,7 @@ VideoFrame
 :
 PrefEnabled
 (
+aCx
 )
 &
 &
@@ -9596,6 +9599,7 @@ VideoFrame
 :
 PrefEnabled
 (
+aCx
 )
 )
 {
@@ -10424,14 +10428,6 @@ return
 }
 if
 (
-VideoFrame
-:
-:
-PrefEnabled
-(
-)
-&
-&
 aTag
 =
 =
@@ -10482,14 +10478,6 @@ return
 }
 if
 (
-StaticPrefs
-:
-:
-dom_media_webcodecs_enabled
-(
-)
-&
-&
 aTag
 =
 =
@@ -10995,6 +10983,7 @@ VideoFrame
 :
 PrefEnabled
 (
+aCx
 )
 )
 {
