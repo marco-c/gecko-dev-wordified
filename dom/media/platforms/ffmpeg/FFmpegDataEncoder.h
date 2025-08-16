@@ -542,7 +542,7 @@ sMutex
 )
 ;
 void
-CloseCodecContext
+ReleaseCodecContext
 (
 )
 MOZ_EXCLUDES
