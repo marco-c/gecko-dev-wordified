@@ -238,7 +238,7 @@ bytes
 numBytes
 )
 ;
-PORT_SaveZero
+PORT_SafeZero
 (
 bytes
 sizeof

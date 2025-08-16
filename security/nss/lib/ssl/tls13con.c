@@ -3845,6 +3845,11 @@ SECFailure
 ;
 }
 }
+tls13_EchKeyLog
+(
+ss
+)
+;
 return
 SECSuccess
 ;

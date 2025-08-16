@@ -941,6 +941,9 @@ profileList
 int
 profileCount
 ;
+CK_FLAGS
+validationFIPSFlags
+;
 }
 ;
 /

@@ -826,6 +826,14 @@ sslEchConfig
 cfg
 )
 ;
+void
+tls13_EchKeyLog
+(
+sslSocket
+*
+ss
+)
+;
 SECStatus
 tls13_MaybeHandleEch
 (
