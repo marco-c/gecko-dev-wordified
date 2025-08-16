@@ -89,12 +89,6 @@ util
 templates
 import
 substitute
-#
-:
-Schema
-for
-chunking
-transforms
 CHUNK_SCHEMA
 =
 Schema

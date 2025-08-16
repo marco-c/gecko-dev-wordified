@@ -129,16 +129,6 @@ transforms
 TransformSequence
 (
 )
-#
-:
-Schema
-for
-run
-.
-using
-index
--
-search
 run_task_schema
 =
 Schema

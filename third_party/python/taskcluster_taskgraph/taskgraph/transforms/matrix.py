@@ -89,7 +89,6 @@ dedent
 from
 voluptuous
 import
-ALLOW_EXTRA
 Extra
 Optional
 Required
@@ -117,12 +116,6 @@ util
 templates
 import
 substitute_task_fields
-#
-:
-Schema
-for
-matrix
-transforms
 MATRIX_SCHEMA
 =
 Schema
@@ -361,13 +354,24 @@ str
 ]
         
 }
+        
+Extra
+:
+object
     
 }
-    
-extra
-=
-ALLOW_EXTRA
 )
+"
+"
+"
+Schema
+for
+matrix
+transforms
+.
+"
+"
+"
 transforms
 =
 TransformSequence
