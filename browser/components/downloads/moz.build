@@ -128,7 +128,7 @@ jar
 mn
 "
 ]
-EXTRA_JS_MODULES
+MOZ_SRC_FILES
 +
 =
 [
@@ -184,7 +184,7 @@ toolkit
 cocoa
 "
 :
-EXTRA_JS_MODULES
+MOZ_SRC_FILES
 +
 =
 [
