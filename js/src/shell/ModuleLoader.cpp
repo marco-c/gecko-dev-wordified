@@ -1474,6 +1474,7 @@ referencingPrivate
 moduleRequest
 statePrivate
 module
+false
 )
 ;
 }
@@ -2331,6 +2332,17 @@ promise
 )
 ;
 }
+RootedValue
+payload
+(
+cx
+ObjectValue
+(
+*
+promise
+)
+)
+;
 return
 JS
 :
@@ -2341,7 +2353,7 @@ cx
 nullptr
 referencingPrivate
 moduleRequest
-promise
+payload
 module
 false
 )
