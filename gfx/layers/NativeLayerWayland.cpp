@@ -3231,6 +3231,17 @@ true
 }
 if
 (
+layer
+-
+>
+State
+(
+)
+-
+>
+mIsVisible
+&
+&
 !
 layer
 -
@@ -3243,7 +3254,7 @@ State
 mIsRendered
 )
 {
-LOGVERBOSE
+LOG
 (
 "
 NativeLayerRootWayland
