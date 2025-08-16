@@ -1763,6 +1763,9 @@ mips64
 "
 loongarch64
 "
+"
+riscv64
+"
 )
 :
 return
