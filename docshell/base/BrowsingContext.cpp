@@ -24512,16 +24512,10 @@ runner
 forget
 (
 )
-StaticPrefs
-:
-:
-page_load_deprioritization_period
-(
-)
 EventQueuePriority
 :
 :
-Idle
+Low
 )
 ;
 }
