@@ -1972,7 +1972,7 @@ usize
 {
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -2718,7 +2718,7 @@ start
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -3097,7 +3097,7 @@ end
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -3636,7 +3636,7 @@ not
 empty
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -3685,7 +3685,7 @@ last_key0
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -3820,7 +3820,7 @@ _
 }
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -3877,7 +3877,7 @@ to
 append
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -4011,7 +4011,7 @@ debug_assertions
 ]
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -5139,7 +5139,7 @@ key0_index
 0
 #
 [
-allow
+expect
 (
 clippy
 :

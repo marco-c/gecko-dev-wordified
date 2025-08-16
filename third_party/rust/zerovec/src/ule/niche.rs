@@ -1664,6 +1664,8 @@ Clone
 PartialEq
 Eq
 Hash
+PartialOrd
+Ord
 )
 ]
 #

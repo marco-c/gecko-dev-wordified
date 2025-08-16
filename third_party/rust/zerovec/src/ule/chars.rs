@@ -853,7 +853,7 @@ when
 stabilized
 #
 [
-allow
+expect
 (
 clippy
 :

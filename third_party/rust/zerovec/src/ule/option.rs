@@ -795,7 +795,7 @@ size
 {
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -1801,7 +1801,7 @@ len
 }
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -2130,7 +2130,7 @@ slice
 }
 #
 [
-allow
+expect
 (
 clippy
 :

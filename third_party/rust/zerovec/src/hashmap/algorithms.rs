@@ -672,7 +672,7 @@ key
 values
 #
 [
-allow
+expect
 (
 clippy
 :

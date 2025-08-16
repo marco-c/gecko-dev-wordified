@@ -774,7 +774,7 @@ zvl_len
 {
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -2631,7 +2631,7 @@ T
 {
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -2878,7 +2878,7 @@ as_maybe_borrowed
 }
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -3746,7 +3746,7 @@ len
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -3825,7 +3825,7 @@ len
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -4065,7 +4065,7 @@ None
 }
 #
 [
-allow
+expect
 (
 clippy
 :

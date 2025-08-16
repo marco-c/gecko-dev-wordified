@@ -274,7 +274,7 @@ inline
 ]
 #
 [
-allow
+expect
 (
 clippy
 :

@@ -4861,7 +4861,7 @@ Output
 {
 #
 [
-allow
+expect
 (
 clippy
 :

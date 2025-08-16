@@ -2751,7 +2751,7 @@ idx
 (
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -2780,7 +2780,7 @@ unwrap
 )
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -2859,7 +2859,7 @@ GetType
 {
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -2957,7 +2957,7 @@ GetType
 {
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -4045,7 +4045,7 @@ index
 {
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -4683,7 +4683,7 @@ v
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -4857,7 +4857,7 @@ idx
 (
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -4891,7 +4891,7 @@ unwrap
 )
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -5037,24 +5037,6 @@ are
 fixed
 -
 size
-#
-[
-allow
-(
-clippy
-:
-:
-needless_lifetimes
-)
-]
-/
-/
-Lifetime
-is
-necessary
-in
-impl
-Trait
 pub
 fn
 iter_copied
@@ -5121,7 +5103,7 @@ idx
 (
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -5158,7 +5140,7 @@ unwrap
 )
 #
 [
-allow
+expect
 (
 clippy
 :

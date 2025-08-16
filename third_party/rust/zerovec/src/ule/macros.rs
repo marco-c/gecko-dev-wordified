@@ -241,7 +241,7 @@ length
 N
 #
 [
-allow
+expect
 (
 clippy
 :

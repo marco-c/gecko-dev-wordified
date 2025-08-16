@@ -2083,6 +2083,9 @@ VarULE
 +
 ?
 Sized
+F
+:
+VarZeroVecFormat
 >
 Default
 for
@@ -2091,6 +2094,7 @@ VarZeroVec
 '
 _
 T
+F
 >
 {
 #
@@ -3850,7 +3854,7 @@ else
 {
 #
 [
-allow
+expect
 (
 clippy
 :

@@ -684,7 +684,7 @@ Sized
 {
 #
 [
-allow
+expect
 (
 clippy
 :

@@ -666,7 +666,7 @@ t
 ;
 #
 [
-allow
+expect
 (
 clippy
 :

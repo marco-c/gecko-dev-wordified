@@ -1110,7 +1110,7 @@ slices
 {
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -2659,7 +2659,7 @@ unimplemented
 }
 #
 [
-allow
+expect
 (
 clippy
 :

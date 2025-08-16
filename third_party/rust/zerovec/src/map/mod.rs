@@ -79,7 +79,7 @@ kv
 ;
 #
 [
-allow
+expect
 (
 clippy
 :

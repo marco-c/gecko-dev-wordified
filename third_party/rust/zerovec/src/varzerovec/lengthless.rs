@@ -1053,7 +1053,7 @@ things
 slice
 #
 [
-allow
+expect
 (
 clippy
 :
