@@ -1939,6 +1939,11 @@ uint64_t
 aId
 )
 {
+if
+(
+sBrowsingContexts
+)
+{
 return
 do_AddRef
 (
@@ -1950,6 +1955,10 @@ Get
 aId
 )
 )
+;
+}
+return
+nullptr
 ;
 }
 /
@@ -8302,6 +8311,11 @@ HasOpener
 )
 const
 {
+if
+(
+sBrowsingContexts
+)
+{
 return
 sBrowsingContexts
 -
@@ -8312,6 +8326,10 @@ GetOpenerId
 (
 )
 )
+;
+}
+return
+false
 ;
 }
 bool
