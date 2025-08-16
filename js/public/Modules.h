@@ -1141,13 +1141,7 @@ Handle
 <
 Value
 >
-statePrivate
-Handle
-<
-JSObject
-*
->
-promise
+payload
 Handle
 <
 Value
@@ -1165,10 +1159,9 @@ JSContext
 cx
 Handle
 <
-JSObject
-*
+Value
 >
-promise
+payload
 )
 ;
 /
