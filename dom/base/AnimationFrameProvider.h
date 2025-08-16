@@ -197,6 +197,12 @@ FrameRequestManagerBase
 :
 Schedule
 ;
+using
+FrameRequestManagerBase
+:
+:
+Take
+;
 void
 Schedule
 (
