@@ -10457,8 +10457,6 @@ slliw
 dest
 lhs
 shift
-%
-32
 )
 ;
 }
@@ -10493,8 +10491,6 @@ sraiw
 dest
 lhs
 shift
-%
-32
 )
 ;
 }
@@ -10529,8 +10525,6 @@ srliw
 dest
 lhs
 shift
-%
-32
 )
 ;
 }
