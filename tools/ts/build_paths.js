@@ -836,7 +836,7 @@ push
 "
 export
 interface
-LazyModules
+Modules
 {
 "
 )
@@ -1031,6 +1031,8 @@ method
 match
 (
 /
+importESModule
+|
 ModuleGetter
 |
 Lazy

@@ -49,7 +49,7 @@ P
 ]
 extends
 keyof
-LazyModules
+Modules
 ?
 Exports
 <
@@ -162,11 +162,11 @@ P
 M
 extends
 keyof
-LazyModules
+Modules
 ?
 IfKey
 <
-LazyModules
+Modules
 [
 M
 ]
@@ -195,7 +195,7 @@ K
 never
 ;
 type
-LazyModules
+Modules
 =
 import
 (
@@ -212,7 +212,7 @@ modules
 "
 )
 .
-LazyModules
+Modules
 ;
 type
 Widen
