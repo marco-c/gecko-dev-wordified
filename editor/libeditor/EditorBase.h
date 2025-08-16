@@ -19124,6 +19124,15 @@ MoveNodeTransaction
 ;
 /
 /
+MarkElementDirty
+ToGenericNSResult
+friend
+class
+MoveSiblingsTransaction
+;
+/
+/
+MarkElementDirty
 ToGenericNSResult
 friend
 class

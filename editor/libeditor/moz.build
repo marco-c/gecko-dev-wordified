@@ -425,6 +425,11 @@ MoveNodeTransaction
 cpp
 "
 "
+MoveSiblingsTransaction
+.
+cpp
+"
+"
 PendingStyles
 .
 cpp
