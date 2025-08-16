@@ -2489,6 +2489,11 @@ opEnableEncodingMenu
 {
 }
 ;
+struct
+opMicrotaskCheckpoint
+{
+}
+;
 typedef
 mozilla
 :
@@ -2554,6 +2559,7 @@ opAddErrorType
 opAddLineNumberId
 opStartLayout
 opEnableEncodingMenu
+opMicrotaskCheckpoint
 opShallowCloneInto
 >
 treeOperation
