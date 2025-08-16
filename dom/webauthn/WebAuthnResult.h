@@ -98,6 +98,13 @@ MOZ_WIDGET_ANDROID
 #
 include
 "
+JavaBuiltins
+.
+h
+"
+#
+include
+"
 mozilla
 /
 java
