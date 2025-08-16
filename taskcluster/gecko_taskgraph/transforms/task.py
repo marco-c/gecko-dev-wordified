@@ -21468,6 +21468,19 @@ task
 label
 "
 ]
+            
+and
+"
+startup
+"
+not
+in
+task
+[
+"
+label
+"
+]
         
 )
 :
