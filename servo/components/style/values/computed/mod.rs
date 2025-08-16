@@ -1137,6 +1137,7 @@ text
 {
 TextDecorationLength
 TextDecorationSkipInk
+TextDecorationTrim
 TextJustify
 }
 ;

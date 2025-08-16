@@ -2029,6 +2029,13 @@ stroke
 dasharray
 "
 "
+text
+-
+decoration
+-
+trim
+"
+"
 transform
 "
 "

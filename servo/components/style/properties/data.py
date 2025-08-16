@@ -3937,6 +3937,10 @@ TextDecorationLength
 "
             
 "
+TextDecorationTrim
+"
+            
+"
 TextIndent
 "
             
