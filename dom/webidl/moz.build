@@ -3546,6 +3546,11 @@ CSSMathValue
 webidl
 "
 "
+CSSMatrixComponent
+.
+webidl
+"
+"
 CSSMediaRule
 .
 webidl
