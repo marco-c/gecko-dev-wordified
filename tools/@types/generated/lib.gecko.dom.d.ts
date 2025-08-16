@@ -28648,11 +28648,6 @@ string
 null
 ;
 readonly
-locale
-:
-string
-;
-readonly
 ranges
 :
 TextClause
@@ -28684,10 +28679,6 @@ dataArg
 string
 |
 null
-localeArg
-?
-:
-string
 )
 :
 void
