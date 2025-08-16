@@ -14322,16 +14322,6 @@ descLines
 readTime
 :
 true
-saveToPocketCard
-:
-false
-saveToPocketCardRegions
-:
-"
-US
-CA
-GB
-"
 }
 }
 }
@@ -14406,9 +14396,6 @@ recentSavesEnabled
 :
 true
 pocketButtonEnabled
-:
-true
-saveToPocketCard
 :
 true
 hideDescriptions
