@@ -3631,6 +3631,11 @@ CSSSkewX
 webidl
 "
 "
+CSSSkewY
+.
+webidl
+"
+"
 CSSStartingStyleRule
 .
 webidl
