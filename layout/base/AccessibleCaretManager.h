@@ -2031,6 +2031,14 @@ bool
 CompareTreePosition
 (
 const
+nsIFrame
+*
+aStartFrame
+const
+nsIFrame
+*
+aEndFrame
+const
 nsIContent
 *
 aStartContent
