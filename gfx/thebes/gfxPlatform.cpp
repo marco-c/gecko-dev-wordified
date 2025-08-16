@@ -20131,8 +20131,9 @@ are
 used
 on
 Linux
-and
 Android
+and
+Windows
 .
 #
 if
@@ -20145,6 +20146,12 @@ MOZ_WIDGET_GTK
 defined
 (
 MOZ_WIDGET_ANDROID
+)
+|
+|
+defined
+(
+XP_WIN
 )
 CODEC_HW_FEATURE_SETUP
 (
