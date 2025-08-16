@@ -3113,6 +3113,7 @@ template
 typename
 F
 >
+inline
 auto
 MapGCThingTyped
 (
