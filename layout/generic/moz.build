@@ -818,11 +818,6 @@ nsIntervalSet
 h
 "
 "
-nsIScrollPositionListener
-.
-h
-"
-"
 nsIStatefulFrame
 .
 h

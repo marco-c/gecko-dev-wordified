@@ -6534,14 +6534,14 @@ ComputeStickyOffsets
 firstContinuation
 )
 ;
-StickyScrollContainer
+auto
 *
 ssc
 =
 StickyScrollContainer
 :
 :
-GetStickyScrollContainerForFrame
+GetOrCreateForFrame
 (
 firstContinuation
 )
