@@ -7724,7 +7724,7 @@ types
 :
 [
 '
-length
+lengthPercentageOrCalc
 '
 ]
 }
