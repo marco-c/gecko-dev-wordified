@@ -424,6 +424,11 @@ icon
 "
 1234
 "
+serp_categories
+:
+[
+2
+]
 }
 {
 id
@@ -1058,6 +1063,11 @@ advertiser
 suggestion
 .
 advertiser
+categories
+:
+suggestion
+.
+serp_categories
 }
 )
 ;
