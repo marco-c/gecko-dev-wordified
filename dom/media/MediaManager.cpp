@@ -21706,6 +21706,7 @@ principalInfo
 aCallerType
 resistFingerprinting
 audioType
+forceFakes
 ]
 (
 RefPtr
@@ -22186,6 +22187,14 @@ pattern
 &
 ]
 {
+if
+(
+forceFakes
+)
+{
+return
+;
+}
 if
 (
 audioType
