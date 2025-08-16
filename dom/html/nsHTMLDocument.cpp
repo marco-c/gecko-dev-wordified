@@ -3989,7 +3989,7 @@ if
 HTMLDocument_Binding
 :
 :
-InterfaceHasNonEventHandlerProperty
+InterfaceHasProperty
 (
 aName
 )
@@ -4050,7 +4050,7 @@ Length
 HTMLDocument_Binding
 :
 :
-InterfaceHasNonEventHandlerProperty
+InterfaceHasProperty
 (
 aName
 )
