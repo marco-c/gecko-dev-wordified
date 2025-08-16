@@ -73,7 +73,8 @@ commands
 {
 this
 .
-_inspector
+#
+inspector
 =
 new
 iframeWindow
@@ -85,6 +86,9 @@ commands
 )
 ;
 }
+#
+inspector
+;
 /
 *
 *
@@ -122,7 +126,8 @@ options
 return
 this
 .
-_inspector
+#
+inspector
 .
 init
 (
@@ -136,7 +141,8 @@ destroy
 {
 this
 .
-_inspector
+#
+inspector
 .
 destroy
 (
