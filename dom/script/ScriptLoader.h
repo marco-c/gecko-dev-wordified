@@ -3650,6 +3650,16 @@ nsresult
 aResult
 )
 ;
+void
+HandleLoadErrorAndProcessPendingRequests
+(
+ScriptLoadRequest
+*
+aRequest
+nsresult
+aResult
+)
+;
 /
 *
 *
