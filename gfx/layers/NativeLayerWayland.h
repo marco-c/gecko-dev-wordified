@@ -1800,6 +1800,15 @@ WaylandSurface
 >
 mSurface
 ;
+/
+/
+Final
+buffer
+which
+we
+attach
+to
+WaylandSurface
 RefPtr
 <
 widget
@@ -2172,7 +2181,7 @@ aForce
 override
 ;
 void
-HandlePartialUpdateLocked
+ReadBackFrontBuffer
 (
 const
 widget
