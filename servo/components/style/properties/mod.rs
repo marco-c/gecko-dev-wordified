@@ -3520,6 +3520,7 @@ try
 None
 =
 >
+{
 return
 !
 context
@@ -3535,6 +3536,7 @@ CssRuleType
 :
 PositionTry
 )
+}
 Some
 (
 id

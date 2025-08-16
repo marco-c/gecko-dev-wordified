@@ -9353,12 +9353,6 @@ i
 >
 {
 use
-servo_arc
-:
-:
-Arc
-;
-use
 crate
 :
 :
@@ -9366,6 +9360,12 @@ custom_properties
 :
 :
 SpecifiedValue
+;
+use
+servo_arc
+:
+:
+Arc
 ;
 let
 name
@@ -9411,6 +9411,7 @@ parse_comma_separated
 |
 input
 |
+{
 SpecifiedValue
 :
 :
@@ -9430,6 +9431,7 @@ Arc
 :
 new
 )
+}
 )
 }
 )

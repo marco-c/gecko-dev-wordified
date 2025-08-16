@@ -218,8 +218,8 @@ cssparser
 :
 :
 {
-ToCss
 Parser
+ToCss
 }
 ;
 use
@@ -1511,6 +1511,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 /
 /
@@ -4097,6 +4098,7 @@ clone
 )
 )
 )
+;
 }
 /
 /

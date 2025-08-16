@@ -517,16 +517,6 @@ fxhash
 :
 FxHashMap
 ;
-use
-malloc_size_of
-:
-:
-{
-MallocSizeOf
-MallocShallowSizeOf
-MallocSizeOfOps
-}
-;
 #
 [
 cfg
@@ -543,6 +533,16 @@ malloc_size_of
 :
 :
 MallocUnconditionalShallowSizeOf
+;
+use
+malloc_size_of
+:
+:
+{
+MallocShallowSizeOf
+MallocSizeOf
+MallocSizeOfOps
+}
 ;
 use
 selectors
@@ -9137,6 +9137,7 @@ pseudo_element_originating_element
 else
 {
 break
+;
 }
 ;
 cur
@@ -15783,6 +15784,7 @@ default
 |
 bound
 |
+{
 scope_selector_list_is_trivial
 (
 &
@@ -15790,6 +15792,7 @@ bound
 .
 selectors
 )
+}
 )
 }
 /
@@ -17657,7 +17660,6 @@ any
 |
 s
 |
-{
 s
 .
 matches_featureless_host
@@ -17668,7 +17670,6 @@ true
 may_match
 (
 )
-}
 )
 }
 impl
@@ -19689,7 +19690,6 @@ r
 )
 =
 >
-{
 (
 ScopeTarget
 :
@@ -19715,7 +19715,6 @@ matches_shadow_host
 (
 )
 )
-}
 StylistImplicitScopeRoot
 :
 :
@@ -24139,12 +24138,14 @@ map
 |
 selector
 |
+{
 selector
 .
 replace_parent_selector
 (
 implicit_scope_selector
 )
+}
 )
 ;
 containing_rule_state

@@ -124,8 +124,8 @@ position
 :
 :
 {
-GenericAnchorSide
 GenericAnchorFunction
+GenericAnchorSide
 }
 ;
 use
@@ -3996,12 +3996,10 @@ AnchorSize
 )
 =
 >
-{
 CalcUnits
 :
 :
 LENGTH_PERCENTAGE
-}
 }
 )
 }
@@ -6297,6 +6295,7 @@ p
 )
 =
 >
+{
 GenericAnchorSide
 :
 :
@@ -6315,6 +6314,7 @@ map
 )
 )
 )
+}
 }
 fallback
 :

@@ -208,10 +208,10 @@ font
 :
 {
 AbsoluteFontWeight
+FontFeatureSettings
 FontStretch
 as
 SpecifiedFontStretch
-FontFeatureSettings
 FontVariationSettings
 MetricsOverride
 SpecifiedFontStyle

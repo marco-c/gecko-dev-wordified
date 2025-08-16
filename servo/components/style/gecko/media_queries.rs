@@ -239,9 +239,9 @@ font
 :
 :
 {
+QueryFontMetricsFlags
 FONT_MEDIUM_LINE_HEIGHT_PX
 FONT_MEDIUM_PX
-QueryFontMetricsFlags
 }
 ;
 use

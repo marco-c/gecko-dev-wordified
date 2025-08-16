@@ -246,10 +246,10 @@ position
 :
 :
 {
-GenericAnchorSide
 AspectRatio
 as
 GenericAspectRatio
+GenericAnchorSide
 }
 ;
 use

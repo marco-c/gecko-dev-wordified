@@ -1578,10 +1578,12 @@ PseudoElement
 DetailsSummary
 =
 >
+{
 PseudoElementCascadeType
 :
 :
 Lazy
+}
 PseudoElement
 :
 :
@@ -3003,12 +3005,14 @@ Self
 ServoNonZeroBorder
 =
 >
+{
 ElementState
 :
 :
 empty
 (
 )
+}
 }
 }
 /

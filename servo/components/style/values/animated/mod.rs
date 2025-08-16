@@ -126,8 +126,8 @@ properties
 :
 :
 {
-PropertyId
 ComputedValues
+PropertyId
 }
 ;
 use

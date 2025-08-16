@@ -139,12 +139,12 @@ invalidation_map
 :
 :
 {
+AdditionalRelativeSelectorInvalidationMap
 Dependency
 DependencyInvalidationKind
 InvalidationMap
 NormalDependencyInvalidationKind
 RelativeDependencyInvalidationKind
-AdditionalRelativeSelectorInvalidationMap
 TSStateForInvalidation
 }
 ;
@@ -3192,6 +3192,7 @@ else
 {
 return
 true
+;
 }
 ;
 if

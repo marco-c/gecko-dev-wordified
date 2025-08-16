@@ -323,15 +323,15 @@ MarginRule
 MarginRuleType
 MediaRule
 NamespaceRule
+NestedDeclarationsRule
 PageRule
 PageSelectors
+PositionTryRule
 RulesMutateError
+StartingStyleRule
 StyleRule
 StylesheetLoader
 SupportsRule
-StartingStyleRule
-NestedDeclarationsRule
-PositionTryRule
 }
 ;
 use
@@ -6332,7 +6332,6 @@ media_queries
 )
 =
 >
-{
 CssRule
 :
 :
@@ -6362,7 +6361,6 @@ source_location
 }
 )
 )
-}
 AtRulePrelude
 :
 :
@@ -7063,7 +7061,6 @@ bounds
 )
 =
 >
-{
 CssRule
 :
 :
@@ -7093,14 +7090,12 @@ source_location
 }
 )
 )
-}
 AtRulePrelude
 :
 :
 StartingStyle
 =
 >
-{
 CssRule
 :
 :
@@ -7129,7 +7124,6 @@ source_location
 }
 )
 )
-}
 AtRulePrelude
 :
 :
