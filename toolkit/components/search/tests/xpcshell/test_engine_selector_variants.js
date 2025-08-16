@@ -98,6 +98,9 @@ null
 excludePartnerCodeFromTelemetry
 :
 false
+acceptedContentTypes
+:
+null
 }
 ;
 const
