@@ -254,7 +254,6 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK
 mLoader
 mRootModule
 mModuleScript
-mDynamicReferencingScript
 )
 tmp
 -
@@ -274,7 +273,6 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 mLoader
 mRootModule
 mModuleScript
-mDynamicReferencingScript
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_TRACE_BEGIN_INHERITED
@@ -961,10 +959,6 @@ JSObject
 aPromise
 )
 {
-mDynamicReferencingScript
-=
-aReferencingScript
-;
 mModuleRequestObj
 =
 aModuleRequestObj
@@ -990,10 +984,6 @@ ClearDynamicImport
 (
 )
 {
-mDynamicReferencingScript
-=
-nullptr
-;
 mModuleRequestObj
 =
 nullptr
