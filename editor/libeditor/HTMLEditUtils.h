@@ -2498,6 +2498,7 @@ static
 bool
 IsAnyTableElementButNotTable
 (
+const
 nsINode
 *
 aNode
