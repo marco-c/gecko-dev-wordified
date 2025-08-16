@@ -147,13 +147,6 @@ in
 description
 "
 }
-descriptionLearnMoreTopic
-:
-"
-firefox
--
-suggest
-"
 }
 }
 }
@@ -257,11 +250,6 @@ in
 description
 "
 }
-descriptionLearnMoreTopic
-:
-"
-test
-"
 }
 }
 }
