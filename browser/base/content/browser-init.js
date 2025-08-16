@@ -2532,12 +2532,6 @@ init
 (
 )
 ;
-CanvasPermissionPromptHelper
-.
-init
-(
-)
-;
 WebAuthnPromptHelper
 .
 init
@@ -6977,12 +6971,6 @@ changed
 )
 ;
 BrowserOffline
-.
-uninit
-(
-)
-;
-CanvasPermissionPromptHelper
 .
 uninit
 (
