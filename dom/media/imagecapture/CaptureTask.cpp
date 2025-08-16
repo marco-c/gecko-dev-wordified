@@ -1006,7 +1006,13 @@ type
 options
 false
 image
-false
+CanvasUtils
+:
+:
+ImageExtraction
+:
+:
+Unrestricted
 new
 EncodeComplete
 (

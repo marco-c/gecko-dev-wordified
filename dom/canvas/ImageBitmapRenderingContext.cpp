@@ -1025,6 +1025,14 @@ ImageBitmapRenderingContext
 :
 GetImageBuffer
 (
+mozilla
+:
+:
+CanvasUtils
+:
+:
+ImageExtraction
+aExtractionBehavior
 int32_t
 *
 aFormat
@@ -1273,6 +1281,14 @@ const
 nsAString
 &
 aEncoderOptions
+mozilla
+:
+:
+CanvasUtils
+:
+:
+ImageExtraction
+aExtractionBehavior
 nsIInputStream
 *
 *
@@ -1352,6 +1368,7 @@ imageBuffer
 =
 GetImageBuffer
 (
+aExtractionBehavior
 &
 format
 &
