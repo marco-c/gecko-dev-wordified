@@ -151,9 +151,6 @@ class
 nsIURI
 ;
 class
-nsTextFragment
-;
-class
 nsIFrame
 ;
 namespace
@@ -179,6 +176,9 @@ dom
 {
 struct
 BindContext
+;
+class
+CharacterDataBuffer
 ;
 struct
 UnbindContext
@@ -1544,7 +1544,13 @@ null
 /
 virtual
 const
-nsTextFragment
+mozilla
+:
+:
+dom
+:
+:
+CharacterDataBuffer
 *
 GetText
 (

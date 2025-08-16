@@ -454,13 +454,6 @@ h
 #
 include
 "
-nsTextFragment
-.
-h
-"
-#
-include
-"
 nsTextNode
 .
 h

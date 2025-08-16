@@ -7288,7 +7288,7 @@ node
 unless
 empty
 const
-nsTextFragment
+CharacterDataBuffer
 *
 text
 =

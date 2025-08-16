@@ -603,7 +603,7 @@ d
 tmp
 -
 >
-mText
+mBuffer
 .
 GetLength
 (
@@ -755,7 +755,7 @@ aError
 SetTextInternal
 (
 0
-mText
+mBuffer
 .
 GetLength
 (
@@ -907,7 +907,7 @@ const
 {
 if
 (
-mText
+mBuffer
 .
 Is2b
 (
@@ -920,7 +920,7 @@ Truncate
 (
 )
 ;
-mText
+mBuffer
 .
 AppendTo
 (
@@ -953,7 +953,7 @@ char
 *
 data
 =
-mText
+mBuffer
 .
 Get1b
 (
@@ -971,7 +971,7 @@ Substring
 data
 data
 +
-mText
+mBuffer
 .
 GetLength
 (
@@ -1013,7 +1013,7 @@ rv
 SetTextInternal
 (
 0
-mText
+mBuffer
 .
 GetLength
 (
@@ -1075,7 +1075,7 @@ Truncate
 uint32_t
 textLength
 =
-mText
+mBuffer
 .
 GetLength
 (
@@ -1121,7 +1121,7 @@ aStart
 }
 if
 (
-mText
+mBuffer
 .
 Is2b
 (
@@ -1132,7 +1132,7 @@ aReturn
 .
 Assign
 (
-mText
+mBuffer
 .
 Get2b
 (
@@ -1168,7 +1168,7 @@ char
 *
 data
 =
-mText
+mBuffer
 .
 Get1b
 (
@@ -1279,7 +1279,7 @@ aRv
 {
 InsertData
 (
-mText
+mBuffer
 .
 GetLength
 (
@@ -1493,7 +1493,7 @@ arguments
 uint32_t
 textLength
 =
-mText
+mBuffer
 .
 GetLength
 (
@@ -1554,7 +1554,7 @@ aCount
 &
 &
 !
-mText
+mBuffer
 .
 CanGrowBy
 (
@@ -1736,7 +1736,7 @@ expensive
 bool
 ok
 =
-mText
+mBuffer
 .
 SetTo
 (
@@ -1774,14 +1774,14 @@ existing
 bool
 ok
 =
-mText
+mBuffer
 .
 Append
 (
 aBuffer
 aLength
 !
-mText
+mBuffer
 .
 IsBidi
 (
@@ -1810,7 +1810,7 @@ new
 bool
 bidi
 =
-mText
+mBuffer
 .
 IsBidi
 (
@@ -1852,7 +1852,7 @@ be
 just
 AddRefed
 in
-nsTextFragment
+CharacterDataBuffer
 .
 nsString
 to
@@ -1875,7 +1875,7 @@ if
 aOffset
 )
 {
-mText
+mBuffer
 .
 AppendTo
 (
@@ -1925,7 +1925,7 @@ endOffset
 textLength
 )
 {
-mText
+mBuffer
 .
 AppendTo
 (
@@ -1993,7 +1993,7 @@ bidi
 bool
 ok
 =
-mText
+mBuffer
 .
 SetTo
 (
@@ -2002,7 +2002,7 @@ false
 use2b
 )
 ;
-mText
+mBuffer
 .
 SetBidi
 (
@@ -2026,7 +2026,7 @@ if
 document
 &
 &
-mText
+mBuffer
 .
 IsBidi
 (
@@ -2041,7 +2041,7 @@ found
 bidi
 characters
 in
-mText
+mBuffer
 .
 SetTo
 (
@@ -2168,7 +2168,7 @@ aLength
 nsAutoString
 val
 ;
-mText
+mBuffer
 .
 AppendTo
 (
@@ -2308,7 +2308,7 @@ const
 {
 if
 (
-mText
+mBuffer
 .
 Is2b
 (
@@ -2320,7 +2320,7 @@ char16_t
 *
 cp
 =
-mText
+mBuffer
 .
 Get2b
 (
@@ -2478,7 +2478,7 @@ unsigned
 char
 *
 )
-mText
+mBuffer
 .
 Get1b
 (
@@ -3040,7 +3040,7 @@ IsInComposedDoc
 )
 &
 &
-mText
+mBuffer
 .
 IsBidi
 (
@@ -3592,7 +3592,7 @@ return
 SetTextInternal
 (
 0
-mText
+mBuffer
 .
 GetLength
 (
@@ -3622,7 +3622,7 @@ aNotify
 return
 SetTextInternal
 (
-mText
+mBuffer
 .
 GetLength
 (
@@ -3706,7 +3706,7 @@ account
 ?
 if
 (
-mText
+mBuffer
 .
 Is2b
 (
@@ -3800,7 +3800,7 @@ char
 *
 cp
 =
-mText
+mBuffer
 .
 Get1b
 (
@@ -3813,7 +3813,7 @@ end
 =
 cp
 +
-mText
+mBuffer
 .
 GetLength
 (
@@ -3943,7 +3943,7 @@ aNodeSize
 aNodeSize
 +
 =
-mText
+mBuffer
 .
 SizeOfExcludingThis
 (

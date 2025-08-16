@@ -390,9 +390,9 @@ aCloneText
 it
 -
 >
-mText
+mBuffer
 =
-mText
+mBuffer
 ;
 }
 return
@@ -687,9 +687,9 @@ aCloneText
 it
 -
 >
-mText
+mBuffer
 =
-mText
+mBuffer
 ;
 }
 return
@@ -739,7 +739,7 @@ aNextSibling
 return
 SetTextInternal
 (
-mText
+mBuffer
 .
 GetLength
 (
@@ -929,7 +929,7 @@ ToCString
 (
 tmp
 0
-mText
+mBuffer
 .
 GetLength
 (
@@ -1012,7 +1012,7 @@ ToCString
 (
 tmp
 0
-mText
+mBuffer
 .
 GetLength
 (

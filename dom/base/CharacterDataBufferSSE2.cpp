@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsTextFragmentGeneric
+CharacterDataBufferGeneric
 .
 h
 "

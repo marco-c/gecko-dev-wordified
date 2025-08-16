@@ -349,6 +349,17 @@ mozilla
 /
 dom
 /
+CharacterDataBuffer
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 PerformanceMainThread
 .
 h
@@ -618,13 +629,6 @@ h
 include
 "
 nsTArray
-.
-h
-"
-#
-include
-"
-nsTextFragment
 .
 h
 "
@@ -5038,9 +5042,9 @@ bool
 IsSpaceCombiningSequenceTail
 (
 const
-nsTextFragment
+CharacterDataBuffer
 *
-aFrag
+aBuffer
 uint32_t
 aPos
 )
@@ -5050,7 +5054,7 @@ NS_ASSERTION
 aPos
 <
 =
-aFrag
+aBuffer
 -
 >
 GetLength
@@ -5065,7 +5069,7 @@ offset
 if
 (
 !
-aFrag
+aBuffer
 -
 >
 Is2b
@@ -5083,7 +5087,7 @@ nsTextFrameUtils
 :
 IsSpaceCombiningSequenceTail
 (
-aFrag
+aBuffer
 -
 >
 Get2b
@@ -5091,7 +5095,7 @@ Get2b
 )
 +
 aPos
-aFrag
+aBuffer
 -
 >
 GetLength
@@ -5123,9 +5127,9 @@ bool
 IsCSSWordSpacingSpace
 (
 const
-nsTextFragment
+CharacterDataBuffer
 *
-aFrag
+aBuffer
 uint32_t
 aPos
 const
@@ -5142,7 +5146,7 @@ NS_ASSERTION
 (
 aPos
 <
-aFrag
+aBuffer
 -
 >
 GetLength
@@ -5160,7 +5164,7 @@ IsSpace
 char16_t
 ch
 =
-aFrag
+aBuffer
 -
 >
 CharAt
@@ -5184,7 +5188,7 @@ return
 !
 IsSpaceCombiningSequenceTail
 (
-aFrag
+aBuffer
 aPos
 +
 1
@@ -5451,9 +5455,9 @@ bool
 IsTrimmableSpace
 (
 const
-nsTextFragment
+CharacterDataBuffer
 *
-aFrag
+aBuffer
 uint32_t
 aPos
 const
@@ -5470,7 +5474,7 @@ NS_ASSERTION
 (
 aPos
 <
-aFrag
+aBuffer
 -
 >
 GetLength
@@ -5487,7 +5491,7 @@ IsSpace
 ;
 switch
 (
-aFrag
+aBuffer
 -
 >
 CharAt
@@ -5521,7 +5525,7 @@ aAllowHangingWS
 !
 IsSpaceCombiningSequenceTail
 (
-aFrag
+aBuffer
 aPos
 +
 1
@@ -5596,9 +5600,9 @@ bool
 IsSelectionInlineWhitespace
 (
 const
-nsTextFragment
+CharacterDataBuffer
 *
-aFrag
+aBuffer
 uint32_t
 aPos
 )
@@ -5607,7 +5611,7 @@ NS_ASSERTION
 (
 aPos
 <
-aFrag
+aBuffer
 -
 >
 GetLength
@@ -5625,7 +5629,7 @@ IsSelectionInlineWhitespace
 char16_t
 ch
 =
-aFrag
+aBuffer
 -
 >
 CharAt
@@ -5652,7 +5656,7 @@ return
 !
 IsSpaceCombiningSequenceTail
 (
-aFrag
+aBuffer
 aPos
 +
 1
@@ -5683,9 +5687,9 @@ bool
 IsSelectionNewline
 (
 const
-nsTextFragment
+CharacterDataBuffer
 *
-aFrag
+aBuffer
 uint32_t
 aPos
 )
@@ -5694,7 +5698,7 @@ NS_ASSERTION
 (
 aPos
 <
-aFrag
+aBuffer
 -
 >
 GetLength
@@ -5712,7 +5716,7 @@ IsSelectionNewline
 char16_t
 ch
 =
-aFrag
+aBuffer
 -
 >
 CharAt
@@ -5813,9 +5817,9 @@ uint32_t
 GetTrimmableWhitespaceCount
 (
 const
-nsTextFragment
+CharacterDataBuffer
 *
-aFrag
+aBuffer
 int32_t
 aStartOffset
 int32_t
@@ -5841,7 +5845,7 @@ count
 ;
 if
 (
-aFrag
+aBuffer
 -
 >
 Is2b
@@ -5854,7 +5858,7 @@ char16_t
 *
 str
 =
-aFrag
+aBuffer
 -
 >
 Get2b
@@ -5866,7 +5870,7 @@ aStartOffset
 int32_t
 fragLen
 =
-aFrag
+aBuffer
 -
 >
 GetLength
@@ -5919,7 +5923,7 @@ char
 *
 str
 =
-aFrag
+aBuffer
 -
 >
 Get1b
@@ -5969,16 +5973,16 @@ bool
 IsAllWhitespace
 (
 const
-nsTextFragment
+CharacterDataBuffer
 *
-aFrag
+aBuffer
 bool
 aAllowNewline
 )
 {
 if
 (
-aFrag
+aBuffer
 -
 >
 Is2b
@@ -5993,7 +5997,7 @@ false
 int32_t
 len
 =
-aFrag
+aBuffer
 -
 >
 GetLength
@@ -6005,7 +6009,7 @@ char
 *
 str
 =
-aFrag
+aBuffer
 -
 >
 Get1b
@@ -9069,7 +9073,7 @@ FB_CONTINUE
 ;
 }
 const
-nsTextFragment
+CharacterDataBuffer
 *
 frag
 =
@@ -12272,7 +12276,7 @@ false
 ;
 }
 const
-nsTextFragment
+CharacterDataBuffer
 *
 frag
 =
@@ -16729,7 +16733,7 @@ GetContent
 )
 ;
 const
-nsTextFragment
+CharacterDataBuffer
 *
 frag
 =
@@ -19030,7 +19034,7 @@ this
 flow
 .
 const
-nsTextFragment
+CharacterDataBuffer
 *
 frag
 =
@@ -19452,7 +19456,7 @@ GetContentOffset
 )
 ;
 const
-nsTextFragment
+CharacterDataBuffer
 *
 frag
 =
@@ -22541,9 +22545,9 @@ uint32_t
 GetEndOfTrimmedText
 (
 const
-nsTextFragment
+CharacterDataBuffer
 *
-aFrag
+aBuffer
 const
 nsStyleText
 *
@@ -22595,7 +22599,7 @@ if
 !
 IsTrimmableSpace
 (
-aFrag
+aBuffer
 aIterator
 -
 >
@@ -22633,9 +22637,9 @@ nsTextFrame
 GetTrimmedOffsets
 (
 const
-nsTextFragment
+CharacterDataBuffer
 *
-aFrag
+aBuffer
 TrimmedOffsetFlags
 aFlags
 )
@@ -22856,7 +22860,7 @@ whitespaceCount
 =
 GetTrimmableWhitespaceCount
 (
-aFrag
+aBuffer
 offsets
 .
 mStart
@@ -22957,7 +22961,7 @@ whitespaceCount
 =
 GetTrimmableWhitespaceCount
 (
-aFrag
+aBuffer
 offsets
 .
 GetEnd
@@ -22993,9 +22997,9 @@ nsStyleText
 *
 aTextStyle
 const
-nsTextFragment
+CharacterDataBuffer
 *
-aFrag
+aBuffer
 int32_t
 aPos
 bool
@@ -23043,7 +23047,7 @@ const
 char16_t
 ch
 =
-aFrag
+aBuffer
 -
 >
 CharAt
@@ -23126,7 +23130,7 @@ diacriticals
 if
 (
 !
-aFrag
+aBuffer
 -
 >
 Is2b
@@ -23145,7 +23149,7 @@ nsTextFrameUtils
 :
 IsSpaceCombiningSequenceTail
 (
-aFrag
+aBuffer
 -
 >
 Get2b
@@ -23155,7 +23159,7 @@ Get2b
 aPos
 +
 1
-aFrag
+aBuffer
 -
 >
 GetLength
@@ -23476,7 +23480,7 @@ if
 char32_t
 u
 =
-aFrag
+aBuffer
 -
 >
 ScalarValueAt
@@ -23582,7 +23586,7 @@ int32_t
 FindChar
 (
 const
-nsTextFragment
+CharacterDataBuffer
 *
 frag
 int32_t
@@ -23917,9 +23921,9 @@ nsStyleText
 *
 aTextStyle
 const
-nsTextFragment
+CharacterDataBuffer
 *
-aFrag
+aBuffer
 nsTextFrame
 *
 aFrame
@@ -23957,7 +23961,7 @@ aTextStyle
 )
 mFrag
 (
-aFrag
+aBuffer
 )
 mLineContainer
 (
@@ -53396,7 +53400,7 @@ IsEntirelyWhitespace
 const
 {
 const
-nsTextFragment
+CharacterDataBuffer
 &
 text
 =
@@ -54016,7 +54020,7 @@ GetOriginalOffset
 )
 ;
 const
-nsTextFragment
+CharacterDataBuffer
 *
 frag
 =
@@ -57884,7 +57888,7 @@ points
 mMaskedFrag
 .
 const
-nsTextFragment
+CharacterDataBuffer
 *
 mFrag
 ;
@@ -57905,7 +57909,7 @@ with
 mask
 characters
 .
-nsTextFragment
+CharacterDataBuffer
 mMaskedFrag
 ;
 nsTextFrame
@@ -58117,7 +58121,7 @@ GetOriginalOffset
 )
 ;
 const
-nsTextFragment
+CharacterDataBuffer
 *
 frag
 =
@@ -61124,9 +61128,9 @@ int32_t
 FindEndOfPrefixPunctuationRun
 (
 const
-nsTextFragment
+CharacterDataBuffer
 *
-aFrag
+aBuffer
 const
 gfxTextRun
 *
@@ -61166,7 +61170,7 @@ if
 (
 IsFirstLetterPrefixPunctuation
 (
-aFrag
+aBuffer
 -
 >
 ScalarValueAt
@@ -61228,9 +61232,9 @@ int32_t
 FindEndOfSuffixPunctuationRun
 (
 const
-nsTextFragment
+CharacterDataBuffer
 *
-aFrag
+aBuffer
 const
 gfxTextRun
 *
@@ -61270,7 +61274,7 @@ if
 (
 IsFirstLetterSuffixPunctuation
 (
-aFrag
+aBuffer
 -
 >
 ScalarValueAt
@@ -61448,9 +61452,9 @@ bool
 FindFirstLetterRange
 (
 const
-nsTextFragment
+CharacterDataBuffer
 *
-aFrag
+aBuffer
 const
 nsAtom
 *
@@ -61633,7 +61637,7 @@ i
 =
 GetTrimmableWhitespaceCount
 (
-aFrag
+aBuffer
 aOffset
 length
 1
@@ -61670,7 +61674,7 @@ j
 =
 FindEndOfPrefixPunctuationRun
 (
-aFrag
+aBuffer
 aTextRun
 &
 iter
@@ -61712,7 +61716,7 @@ length
 char16_t
 ch
 =
-aFrag
+aBuffer
 -
 >
 CharAt
@@ -61891,7 +61895,7 @@ const
 char32_t
 usv
 =
-aFrag
+aBuffer
 -
 >
 ScalarValueAt
@@ -62591,7 +62595,7 @@ GetSkippedOffset
 char32_t
 c
 =
-aFrag
+aBuffer
 -
 >
 ScalarValueAt
@@ -62715,7 +62719,7 @@ aLang
 char16_t
 ch1
 =
-aFrag
+aBuffer
 -
 >
 CharAt
@@ -62734,7 +62738,7 @@ i
 char16_t
 ch2
 =
-aFrag
+aBuffer
 -
 >
 CharAt
@@ -62942,7 +62946,7 @@ length
 char16_t
 ch
 =
-aFrag
+aBuffer
 -
 >
 CharAt
@@ -63078,7 +63082,7 @@ i
 =
 FindEndOfSuffixPunctuationRun
 (
-aFrag
+aBuffer
 aTextRun
 &
 iter
@@ -63797,7 +63801,7 @@ StyleText
 )
 ;
 const
-nsTextFragment
+CharacterDataBuffer
 *
 frag
 =
@@ -65140,7 +65144,7 @@ eInflated
 )
 ;
 const
-nsTextFragment
+CharacterDataBuffer
 *
 frag
 =
@@ -66142,7 +66146,7 @@ StyleText
 )
 ;
 const
-nsTextFragment
+CharacterDataBuffer
 *
 frag
 =
@@ -67790,9 +67794,9 @@ bool
 HasSoftHyphenBefore
 (
 const
-nsTextFragment
+CharacterDataBuffer
 *
-aFrag
+aBuffer
 const
 gfxTextRun
 *
@@ -67902,7 +67906,7 @@ break
 }
 if
 (
-aFrag
+aBuffer
 -
 >
 CharAt
@@ -70936,7 +70940,7 @@ LineContainerFrame
 )
 ;
 const
-nsTextFragment
+CharacterDataBuffer
 *
 frag
 =
@@ -76514,7 +76518,7 @@ GetSkippedOffset
 )
 ;
 const
-nsTextFragment
+CharacterDataBuffer
 *
 frag
 =
@@ -77298,13 +77302,13 @@ aTextRun
 uint32_t
 aSkippedOffset
 const
-nsTextFragment
+CharacterDataBuffer
 *
-aFrag
+aBuffer
 int32_t
-aFragOffset
+aBufferOffset
 int32_t
-aFragLen
+aBufferLen
 nsAString
 &
 aOut
@@ -77379,7 +77383,7 @@ Length
 (
 )
 +
-aFragLen
+aBufferLen
 )
 ;
 out
@@ -77390,7 +77394,7 @@ EndWriting
 (
 )
 -
-aFragLen
+aBufferLen
 ;
 }
 else
@@ -77411,7 +77415,7 @@ fragString
 .
 SetLength
 (
-aFragLen
+aBufferLen
 )
 ;
 out
@@ -77444,7 +77448,7 @@ appropriate
 .
 MOZ_ASSERT
 (
-aFragOffset
+aBufferOffset
 >
 =
 0
@@ -77464,7 +77468,7 @@ static_cast
 uint32_t
 >
 (
-aFragLen
+aBufferLen
 )
 ;
 +
@@ -77475,7 +77479,7 @@ i
 char16_t
 ch
 =
-aFrag
+aBuffer
 -
 >
 CharAt
@@ -77485,7 +77489,7 @@ static_cast
 uint32_t
 >
 (
-aFragOffset
+aBufferOffset
 )
 +
 i
@@ -79302,7 +79306,7 @@ frames
 text
 content
 const
-nsTextFragment
+CharacterDataBuffer
 *
 frag
 =
@@ -80771,7 +80775,7 @@ CountGraphemeClusters
 const
 {
 const
-nsTextFragment
+CharacterDataBuffer
 *
 frag
 =

@@ -570,7 +570,7 @@ nsIContent
 interface
 methods
 const
-nsTextFragment
+CharacterDataBuffer
 *
 GetText
 (

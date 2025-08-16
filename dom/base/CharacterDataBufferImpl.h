@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsTextFragmentImpl_h__
+mozilla_dom_CharacterDataBufferImpl_h
 #
 define
-nsTextFragmentImpl_h__
+mozilla_dom_CharacterDataBufferImpl_h
 #
 include
 <

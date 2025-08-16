@@ -608,11 +608,6 @@ nsStyledElement
 h
 "
 "
-nsTextFragment
-.
-h
-"
-"
 nsTextNode
 .
 h
@@ -852,6 +847,11 @@ h
 "
 "
 CharacterData
+.
+h
+"
+"
+CharacterDataBuffer
 .
 h
 "
@@ -1735,6 +1735,11 @@ CharacterData
 cpp
 "
 "
+CharacterDataBuffer
+.
+cpp
+"
+"
 ChildIterator
 .
 cpp
@@ -2236,11 +2241,6 @@ cpp
 "
 "
 nsSyncLoadService
-.
-cpp
-"
-"
-nsTextFragment
 .
 cpp
 "
@@ -2857,7 +2857,7 @@ SSE2
 code
 for
 #
-nsTextFragment
+CharacterDataBuffer
 .
 cpp
 if
@@ -2873,7 +2873,7 @@ SOURCES
 =
 [
 "
-nsTextFragmentSSE2
+CharacterDataBufferSSE2
 .
 cpp
 "
@@ -2881,7 +2881,7 @@ cpp
 SOURCES
 [
 "
-nsTextFragmentSSE2
+CharacterDataBufferSSE2
 .
 cpp
 "
@@ -2912,7 +2912,7 @@ SIMD
 version
 for
 #
-nsTextFragment
+CharacterDataBuffer
 .
 cpp
 as
@@ -2938,7 +2938,7 @@ SOURCES
 =
 [
 "
-nsTextFragmentVMX
+CharacterDataBufferVMX
 .
 cpp
 "
@@ -2946,7 +2946,7 @@ cpp
 SOURCES
 [
 "
-nsTextFragmentVMX
+CharacterDataBufferVMX
 .
 cpp
 "

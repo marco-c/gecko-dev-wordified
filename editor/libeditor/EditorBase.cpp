@@ -22738,7 +22738,7 @@ bool
 TextFragmentBeginsWithStringAtOffset
 (
 const
-nsTextFragment
+CharacterDataBuffer
 &
 aTextFragment
 const

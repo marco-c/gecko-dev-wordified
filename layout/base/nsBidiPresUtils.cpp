@@ -10530,7 +10530,10 @@ aCurrContent
 content
 ;
 const
-nsTextFragment
+dom
+:
+:
+CharacterDataBuffer
 *
 txt
 =

@@ -316,7 +316,7 @@ nsIContent
 overrides
 virtual
 const
-nsTextFragment
+CharacterDataBuffer
 *
 GetText
 (
