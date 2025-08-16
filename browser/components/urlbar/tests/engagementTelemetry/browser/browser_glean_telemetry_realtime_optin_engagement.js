@@ -103,9 +103,6 @@ result
 isBestMatch
 :
 true
-suggestedIndex
-:
-0
 realtimeType
 :
 "
