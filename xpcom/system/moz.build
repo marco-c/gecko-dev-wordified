@@ -115,6 +115,11 @@ nsIGIOService
 idl
 "
 "
+nsIGSettingsService
+.
+idl
+"
+"
 nsIHapticFeedback
 .
 idl

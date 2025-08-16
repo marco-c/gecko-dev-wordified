@@ -1102,11 +1102,6 @@ ui
 .
 nativeMenubar
 "
-"
-ui
-.
-hourCycle
-"
 }
 ;
 static_assert
