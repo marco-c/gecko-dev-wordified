@@ -1320,6 +1320,9 @@ pString
 dataUsingEncoding
 :
 NSASCIIStringEncoding
+allowLossyConversion
+:
+YES
 ]
 ;
 }
@@ -1332,6 +1335,9 @@ pString
 dataUsingEncoding
 :
 NSUnicodeStringEncoding
+allowLossyConversion
+:
+YES
 ]
 ;
 }
