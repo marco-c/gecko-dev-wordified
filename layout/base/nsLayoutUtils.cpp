@@ -7495,6 +7495,7 @@ const
 nsIFrame
 *
 aFrame2
+const
 nsTArray
 <
 const
