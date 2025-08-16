@@ -11558,10 +11558,10 @@ init_for_tests
 (
 )
 ;
-viaduct_reqwest
+viaduct_dev
 :
 :
-use_reqwest_backend
+use_dev_backend
 (
 )
 ;

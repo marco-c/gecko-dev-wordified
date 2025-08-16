@@ -297,6 +297,12 @@ String
 iab_category
 :
 String
+categories
+:
+Vec
+<
+i32
+>
 impression_url
 :
 String
