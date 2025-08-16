@@ -3843,6 +3843,9 @@ false
 IgnoreErrors
 (
 )
+aOptions
+.
+mHistory
 )
 ;
 /
