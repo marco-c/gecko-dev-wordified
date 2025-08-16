@@ -4633,7 +4633,7 @@ RenderTaskKind
 :
 Image
 (
-request
+info
 )
 =
 &
@@ -4645,11 +4645,15 @@ Some
 (
 resolve_image
 (
-*
+info
+.
 request
 resource_cache
 gpu_cache
 deferred_resolves
+info
+.
+is_composited
 )
 )
 }
