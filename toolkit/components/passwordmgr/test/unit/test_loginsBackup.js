@@ -1163,6 +1163,7 @@ load
 logins
 "
 "
+error_syntaxerror
 "
 ]
 [
