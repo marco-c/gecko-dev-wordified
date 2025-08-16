@@ -5,13 +5,6 @@ jit
 -
 test
 |
--
--
-enable
--
-import
--
-attributes
 /
 /
 Test
@@ -414,16 +407,6 @@ js
 ]
 )
 ;
-if
-(
-getRealmConfiguration
-(
-"
-importAttributes
-"
-)
-)
-{
 testRequestedModules
 (
 "
@@ -1194,4 +1177,3 @@ unknown
 ]
 )
 ;
-}

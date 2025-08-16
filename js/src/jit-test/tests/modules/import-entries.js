@@ -5,13 +5,6 @@ jit
 -
 test
 |
--
--
-enable
--
-import
--
-attributes
 /
 /
 Test
@@ -527,16 +520,6 @@ y
 ]
 )
 ;
-if
-(
-getRealmConfiguration
-(
-"
-importAttributes
-"
-)
-)
-{
 testImportEntries
 (
 '
@@ -734,4 +717,3 @@ v
 ]
 )
 ;
-}

@@ -5,14 +5,6 @@ jit
 -
 test
 |
--
--
-enable
--
-import
--
-attributes
-;
 module
 ;
 error

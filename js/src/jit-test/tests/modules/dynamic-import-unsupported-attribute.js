@@ -5,13 +5,6 @@ jit
 -
 test
 |
--
--
-enable
--
-import
--
-attributes
 async
 function
 test

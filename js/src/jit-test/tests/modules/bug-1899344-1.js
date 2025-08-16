@@ -7,14 +7,6 @@ test
 |
 module
 ;
--
--
-enable
--
-import
--
-attributes
-;
 load
 (
 libdir
