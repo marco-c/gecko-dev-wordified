@@ -2312,6 +2312,9 @@ mOptions
 params
 .
 mMediaEngineId
+params
+.
+mCDM
 )
 ;
 if
@@ -2811,6 +2814,9 @@ mMediaEngineId
 params
 .
 mTrackingId
+params
+.
+mCDM
 )
 ;
 if
@@ -5886,6 +5892,9 @@ TrackingId
 >
 &
 aTrackingId
+PRemoteCDMChild
+*
+aCDM
 )
 {
 /

@@ -131,6 +131,13 @@ h
 #
 include
 "
+RemoteCDMParent
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Unused
@@ -173,6 +180,9 @@ Maybe
 TrackingId
 >
 aTrackingId
+RemoteCDMParent
+*
+aCDM
 )
 :
 ShmemRecycleAllocator
@@ -190,6 +200,10 @@ aOptions
 mDecodeTaskQueue
 (
 aDecodeTaskQueue
+)
+mCDM
+(
+aCDM
 )
 mTrackingId
 (

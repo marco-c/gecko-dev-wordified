@@ -506,6 +506,9 @@ TrackingId
 >
 &
 aTrackingId
+PRemoteCDMParent
+*
+aCDM
 )
 ;
 bool

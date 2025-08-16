@@ -280,6 +280,9 @@ CreateSession
 (
 uint32_t
 aCreateSessionToken
+dom
+:
+:
 MediaKeySessionType
 aSessionType
 PromiseId
