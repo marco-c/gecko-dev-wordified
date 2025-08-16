@@ -6963,8 +6963,17 @@ true
 this
 stacking
 context
+forms
+a
+backdrop
+root
+so
+it
 must
 be
+/
+/
+/
 isolated
 from
 parent
@@ -6973,7 +6982,7 @@ a
 surface
 .
 const
-FORCED_ISOLATION
+IS_BACKDROP_ROOT
 =
 1
 <
