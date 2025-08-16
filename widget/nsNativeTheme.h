@@ -649,14 +649,6 @@ nsIFrame
 aFrame
 )
 ;
-bool
-IsHorizontal
-(
-nsIFrame
-*
-aFrame
-)
-;
 /
 /
 progressbar
