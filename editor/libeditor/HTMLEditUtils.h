@@ -2575,6 +2575,7 @@ static
 bool
 IsMozDiv
 (
+const
 nsINode
 *
 aNode
