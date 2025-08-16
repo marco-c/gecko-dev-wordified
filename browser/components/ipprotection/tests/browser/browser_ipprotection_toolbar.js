@@ -73,24 +73,6 @@ defineESModuleGetters
 (
 lazy
 {
-IPProtectionWidget
-:
-"
-resource
-:
-/
-/
-/
-modules
-/
-ipprotection
-/
-IPProtection
-.
-sys
-.
-mjs
-"
 IPProtectionService
 :
 "
@@ -150,8 +132,6 @@ document
 .
 getElementById
 (
-lazy
-.
 IPProtectionWidget
 .
 WIDGET_ID
@@ -187,8 +167,6 @@ CustomizableUI
 .
 getPlacementOfWidget
 (
-lazy
-.
 IPProtectionWidget
 .
 WIDGET_ID
@@ -240,8 +218,6 @@ document
 .
 getElementById
 (
-lazy
-.
 IPProtectionWidget
 .
 WIDGET_ID
@@ -289,8 +265,6 @@ document
 .
 getElementById
 (
-lazy
-.
 IPProtectionWidget
 .
 WIDGET_ID
@@ -356,8 +330,6 @@ document
 .
 getElementById
 (
-lazy
-.
 IPProtectionWidget
 .
 WIDGET_ID
@@ -683,8 +655,6 @@ document
 .
 getElementById
 (
-lazy
-.
 IPProtectionWidget
 .
 WIDGET_ID
@@ -717,8 +687,6 @@ CustomizableUI
 .
 getPlacementOfWidget
 (
-lazy
-.
 IPProtectionWidget
 .
 WIDGET_ID
@@ -747,8 +715,6 @@ CustomizableUI
 .
 removeWidgetFromArea
 (
-lazy
-.
 IPProtectionWidget
 .
 WIDGET_ID
