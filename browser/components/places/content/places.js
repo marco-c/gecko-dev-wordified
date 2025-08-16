@@ -2957,9 +2957,10 @@ searchFilter
 ;
 input
 .
-clear
-(
-)
+value
+=
+"
+"
 ;
 input
 .
