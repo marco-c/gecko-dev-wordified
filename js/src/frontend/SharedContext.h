@@ -2953,6 +2953,16 @@ nodiscard
 ]
 ]
 bool
+setUseAsm
+(
+)
+;
+[
+[
+nodiscard
+]
+]
+bool
 setAsmJSModule
 (
 const

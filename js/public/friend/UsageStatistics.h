@@ -523,6 +523,12 @@ AsmJS
 \
 _
 (
+USE_ASM
+UseAsm
+)
+\
+_
+(
 WASM
 Wasm
 )
