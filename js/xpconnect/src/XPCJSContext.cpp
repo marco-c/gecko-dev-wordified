@@ -5235,16 +5235,6 @@ javascript_options_source_pragmas
 )
 )
 .
-setImportAttributes
-(
-StaticPrefs
-:
-:
-javascript_options_experimental_import_attributes
-(
-)
-)
-.
 setAsmJS
 (
 StaticPrefs
