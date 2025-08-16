@@ -7668,6 +7668,17 @@ this
 IsAuto
 (
 )
+&
+&
+!
+mFrame
+-
+>
+GetContainSizeAxes
+(
+)
+.
+mBContained
 ;
 }
 bool
