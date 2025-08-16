@@ -344,6 +344,8 @@ NativeObject
 obj
 HandleId
 id
+PropertyInfo
+propInfo
 )
 ;
 static
@@ -750,6 +752,8 @@ NativeObject
 obj
 HandleId
 id
+PropertyInfo
+propInfo
 )
 {
 if
@@ -774,6 +778,7 @@ watchPropertyRemoveSlow
 cx
 obj
 id
+propInfo
 )
 ;
 }
