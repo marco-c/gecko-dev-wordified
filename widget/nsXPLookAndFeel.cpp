@@ -5142,13 +5142,11 @@ Window
 /
 -
 -
-in
--
-content
--
-page
--
 background
+-
+color
+-
+canvas
 case
 ColorID
 :
