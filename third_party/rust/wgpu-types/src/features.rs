@@ -8140,7 +8140,7 @@ platforms
 /
 /
 -
-None
+DX12
 const
 EXTERNAL_TEXTURE
 =

@@ -2222,6 +2222,14 @@ Features
 :
 :
 TEXTURE_ATOMIC
+|
+wgt
+:
+:
+Features
+:
+:
+EXTERNAL_TEXTURE
 ;
 /
 /
