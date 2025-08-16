@@ -2148,7 +2148,7 @@ MOZ_ASSERT
 endBit
 <
 =
-MaxAllocsPerChunk
+MaxAllocCount
 )
 ;
 MOZ_ASSERT
@@ -2171,7 +2171,7 @@ MOZ_ASSERT_IF
 endBit
 !
 =
-MaxAllocsPerChunk
+MaxAllocCount
 allocStartBitmap
 .
 ref
@@ -2198,7 +2198,7 @@ startBit
 +
 1
 <
-MaxAllocsPerChunk
+MaxAllocCount
 allocStartBitmap
 .
 ref
@@ -2243,7 +2243,7 @@ if
 endBit
 !
 =
-MaxAllocsPerChunk
+MaxAllocCount
 )
 {
 allocEndBitmap
@@ -2386,7 +2386,7 @@ MOZ_ASSERT
 oldEndBit
 <
 =
-MaxAllocsPerChunk
+MaxAllocCount
 )
 ;
 if
@@ -2394,7 +2394,7 @@ if
 oldEndBit
 !
 =
-MaxAllocsPerChunk
+MaxAllocCount
 )
 {
 MOZ_ASSERT
@@ -2435,7 +2435,7 @@ MOZ_ASSERT
 newEndBit
 <
 =
-MaxAllocsPerChunk
+MaxAllocCount
 )
 ;
 MOZ_ASSERT_IF
@@ -2444,7 +2444,7 @@ startBit
 +
 1
 <
-MaxAllocsPerChunk
+MaxAllocCount
 allocStartBitmap
 .
 ref
@@ -2478,7 +2478,7 @@ if
 newEndBit
 !
 =
-MaxAllocsPerChunk
+MaxAllocCount
 )
 {
 allocEndBitmap
@@ -2822,7 +2822,7 @@ MOZ_ASSERT
 endBit
 <
 =
-MaxAllocsPerChunk
+MaxAllocCount
 )
 ;
 return
@@ -3386,7 +3386,7 @@ MOZ_ASSERT
 endBit
 <
 =
-MaxAllocsPerRegion
+MaxAllocCount
 )
 ;
 MOZ_ASSERT
@@ -3409,7 +3409,7 @@ MOZ_ASSERT_IF
 endBit
 !
 =
-MaxAllocsPerRegion
+MaxAllocCount
 allocStartBitmap
 .
 ref
@@ -3436,7 +3436,7 @@ startBit
 +
 1
 <
-MaxAllocsPerRegion
+MaxAllocCount
 allocStartBitmap
 .
 ref
@@ -3481,7 +3481,7 @@ if
 endBit
 !
 =
-MaxAllocsPerRegion
+MaxAllocCount
 )
 {
 allocEndBitmap
@@ -3722,7 +3722,7 @@ MOZ_ASSERT
 endBit
 <
 =
-MaxAllocsPerRegion
+MaxAllocCount
 )
 ;
 return
