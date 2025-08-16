@@ -554,10 +554,6 @@ MTernaryInstruction
 "
 MQuaternaryInstruction
 "
-    
-"
-MQuinaryInstruction
-"
 ]
 gc_pointer_types
 =
@@ -1104,7 +1100,7 @@ len
 mir_operands
 )
 <
-6
+5
     
 base_class
 =

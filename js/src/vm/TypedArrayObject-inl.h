@@ -1958,8 +1958,6 @@ void
 data
 size_t
 count
-size_t
-offset
 )
 {
 SharedMem
@@ -1978,8 +1976,6 @@ From
 >
 (
 )
-+
-offset
 ;
 for
 (
@@ -2061,8 +2057,6 @@ void
 data
 size_t
 count
-size_t
-offset
 )
 {
 MOZ_ASSERT_UNREACHABLE
@@ -2136,8 +2130,6 @@ void
 data
 size_t
 count
-size_t
-offset
 )
 {
 static_assert
@@ -2184,7 +2176,6 @@ LoadOps
 dest
 data
 count
-offset
 )
 ;
 break
@@ -2212,7 +2203,6 @@ LoadOps
 dest
 data
 count
-offset
 )
 ;
 break
@@ -2234,7 +2224,6 @@ LoadOps
 dest
 data
 count
-offset
 )
 ;
 break
@@ -2256,7 +2245,6 @@ LoadOps
 dest
 data
 count
-offset
 )
 ;
 break
@@ -2278,7 +2266,6 @@ LoadOps
 dest
 data
 count
-offset
 )
 ;
 break
@@ -2300,7 +2287,6 @@ LoadOps
 dest
 data
 count
-offset
 )
 ;
 break
@@ -2322,7 +2308,6 @@ LoadOps
 dest
 data
 count
-offset
 )
 ;
 break
@@ -2344,7 +2329,6 @@ LoadOps
 dest
 data
 count
-offset
 )
 ;
 break
@@ -2366,7 +2350,6 @@ LoadOps
 dest
 data
 count
-offset
 )
 ;
 break
@@ -2472,8 +2455,6 @@ void
 data
 size_t
 count
-size_t
-offset
 )
 {
 static_assert
@@ -2538,16 +2519,7 @@ target
 offset
 ]
 |
-from
-*
-|
-source
-[
-sourceOffset
-]
-|
 .
-*
 *
 Act
 as
@@ -2590,10 +2562,6 @@ size_t
 sourceLength
 size_t
 offset
-size_t
-sourceOffset
-=
-0
 )
 {
 /
@@ -2776,8 +2744,6 @@ length
 )
 >
 =
-sourceOffset
-+
 sourceLength
 "
 source
@@ -2895,7 +2861,6 @@ targetLength
 source
 sourceLength
 offset
-sourceOffset
 )
 ;
 }
@@ -3031,8 +2996,6 @@ T
 >
 (
 )
-+
-sourceOffset
 sourceLength
 )
 ;
@@ -3050,7 +3013,6 @@ type
 )
 data
 sourceLength
-sourceOffset
 )
 ;
 }
@@ -4143,8 +4105,6 @@ size_t
 sourceLength
 size_t
 offset
-size_t
-sourceOffset
 )
 {
 /
@@ -4304,8 +4264,6 @@ length
 )
 >
 =
-sourceOffset
-+
 sourceLength
 "
 source
@@ -4434,8 +4392,6 @@ T
 >
 (
 )
-+
-sourceOffset
 ;
 Ops
 :
@@ -4467,21 +4423,16 @@ being
 set
 .
 size_t
-bytesPerElement
+sourceByteLen
 =
+len
+*
 source
 -
 >
 bytesPerElement
 (
 )
-;
-size_t
-sourceByteLen
-=
-len
-*
-bytesPerElement
 ;
 auto
 temp
@@ -4513,13 +4464,6 @@ return
 false
 ;
 }
-size_t
-sourceByteOffset
-=
-sourceOffset
-*
-bytesPerElement
-;
 auto
 data
 =
@@ -4552,11 +4496,6 @@ extract
 (
 source
 )
-.
-addBytes
-(
-sourceByteOffset
-)
 sourceByteLen
 )
 ;
@@ -4574,7 +4513,6 @@ type
 )
 data
 len
-0
 )
 ;
 return
