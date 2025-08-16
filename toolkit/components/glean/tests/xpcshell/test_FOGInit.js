@@ -528,7 +528,7 @@ safe
 tmp
 Assert
 .
-equal
+lessOrEqual
 (
 dir_info
 [
@@ -538,15 +538,12 @@ dir_info
 files
 .
 length
-<
-=
 2
-true
 )
 ;
 Assert
 .
-equal
+greater
 (
 dir_info
 [
@@ -559,9 +556,7 @@ files
 ]
 .
 file_size
->
 0
-true
 )
 ;
 Assert
@@ -706,7 +701,7 @@ ping
 ;
 Assert
 .
-equal
+greater
 (
 new_dir_info
 [
@@ -719,9 +714,7 @@ files
 ]
 .
 file_size
->
 0
-true
 )
 ;
 console
