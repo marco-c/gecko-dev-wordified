@@ -837,9 +837,9 @@ message
 {
 engineSelector
 .
-_configuration
-=
-null
+clearCachedConfigurationForTests
+(
+)
 ;
 SearchTestUtils
 .
