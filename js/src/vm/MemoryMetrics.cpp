@@ -1533,6 +1533,10 @@ cacheIRStubs
 &
 zStats
 .
+objectFuses
+&
+zStats
+.
 uniqueIdMap
 &
 zStats
