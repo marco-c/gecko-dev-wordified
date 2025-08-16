@@ -827,6 +827,9 @@ mut
 [
 GradientStopKey
 ]
+enable_dithering
+:
+bool
 /
 /
 Callback
@@ -1252,6 +1255,11 @@ decomposing
 it
 .
 if
+!
+enable_dithering
+&
+&
+(
 (
 horizontal
 &
@@ -1277,6 +1285,7 @@ height
 256
 .
 0
+)
 )
 {
 return

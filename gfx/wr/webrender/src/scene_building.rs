@@ -9865,6 +9865,11 @@ extend_mode
 &
 mut
 stops
+self
+.
+config
+.
+enable_dithering
 &
 mut
 |
