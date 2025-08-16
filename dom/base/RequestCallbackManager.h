@@ -640,7 +640,7 @@ mManager
 .
 mFiringCallbacksOnStack
 .
-PopLastElement
+RemoveLastElement
 (
 )
 ;
