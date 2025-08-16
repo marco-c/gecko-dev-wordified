@@ -102,6 +102,13 @@ GPU_DEVICE_H_
 #
 include
 "
+ExternalTexture
+.
+h
+"
+#
+include
+"
 ObjectModel
 .
 h
@@ -339,9 +346,6 @@ CommandEncoder
 ;
 class
 ComputePipeline
-;
-class
-ExternalTexture
 ;
 class
 Fence
@@ -671,6 +675,9 @@ Buffer
 *
 >
 mTrackedBuffers
+;
+ExternalTextureCache
+mExternalTextureCache
 ;
 /
 /
