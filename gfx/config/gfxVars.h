@@ -756,6 +756,13 @@ false
 \
 _
 (
+AllowWebGPUExternalTexture
+bool
+false
+)
+\
+_
+(
 UseVP8HwDecode
 bool
 false
