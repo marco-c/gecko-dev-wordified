@@ -347,6 +347,15 @@ RTCRtpReceiver
 >
 mReceiver
 ;
+Maybe
+<
+gfx
+:
+:
+IntSize
+>
+mReceivingSizeOnEnded
+;
 }
 ;
 }
