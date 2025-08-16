@@ -1019,6 +1019,9 @@ Output8BitPerChannel
 aParams
 .
 mTrackingId
+aParams
+.
+mCDM
 )
 ;
 /

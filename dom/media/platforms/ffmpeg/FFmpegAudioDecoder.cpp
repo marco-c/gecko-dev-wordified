@@ -274,6 +274,9 @@ AudioConfig
 (
 )
 )
+aDecoderParams
+.
+mCDM
 )
 mAudioInfo
 (

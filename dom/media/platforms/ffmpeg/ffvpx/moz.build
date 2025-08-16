@@ -202,12 +202,10 @@ LOCAL_INCLUDES
 .
 "
 "
-.
-.
 /
-ffmpeg61
+media
 /
-include
+ffvpx
 "
 "
 /
