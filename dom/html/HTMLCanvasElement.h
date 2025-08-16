@@ -2075,6 +2075,8 @@ HTMLCanvasElementObserver
 >
 mContextObserver
 ;
+public
+:
 /
 /
 Record
@@ -2128,8 +2130,6 @@ only
 bool
 mWriteOnly
 ;
-public
-:
 /
 /
 When
