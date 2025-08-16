@@ -539,6 +539,11 @@ testWin
 .
 screenY
 ;
+/
+/
+codespell
+:
+ignore
 let
 minWidth
 minHeight
@@ -579,6 +584,11 @@ originalWidth
 originalHeight
 originalX
 originalY
+/
+/
+codespell
+:
+ignore
 )
 ;
 await
