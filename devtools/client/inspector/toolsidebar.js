@@ -315,7 +315,7 @@ this
 .
 _toolPanel
 .
-_toolbox
+toolbox
 .
 doc
 showAllTabsMenu

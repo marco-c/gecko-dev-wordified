@@ -1618,7 +1618,7 @@ this
 .
 inspector
 .
-is3PaneModeEnabled
+isThreePaneModeEnabled
 )
 {
 /

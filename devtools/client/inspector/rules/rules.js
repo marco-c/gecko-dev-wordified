@@ -3034,7 +3034,7 @@ this
 .
 inspector
 .
-is3PaneModeEnabled
+isThreePaneModeEnabled
 )
 )
 ;
@@ -13165,7 +13165,7 @@ this
 .
 inspector
 .
-is3PaneModeEnabled
+isThreePaneModeEnabled
 )
 {
 this
@@ -13419,7 +13419,7 @@ this
 .
 inspector
 .
-is3PaneModeEnabled
+isThreePaneModeEnabled
 )
 {
 this
@@ -13620,7 +13620,7 @@ this
 .
 inspector
 .
-is3PaneModeEnabled
+isThreePaneModeEnabled
 )
 {
 this
