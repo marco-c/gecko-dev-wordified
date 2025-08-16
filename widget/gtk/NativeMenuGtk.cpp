@@ -4813,16 +4813,6 @@ surface
 )
 ;
 }
-/
-/
-Mostly
-for
-consistency
-with
-the
-X11
-path
-.
 mMenuModel
 -
 >
@@ -4836,7 +4826,7 @@ SetBoolAttr
 nsGkAtoms
 :
 :
-hidden
+native
 true
 )
 ;
@@ -4938,7 +4928,7 @@ SetBoolAttr
 nsGkAtoms
 :
 :
-hidden
+native
 true
 )
 ;
@@ -4997,7 +4987,7 @@ SetBoolAttr
 nsGkAtoms
 :
 :
-hidden
+native
 false
 )
 ;
