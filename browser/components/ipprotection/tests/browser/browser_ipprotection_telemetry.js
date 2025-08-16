@@ -962,13 +962,10 @@ Simulate
 closing
 the
 window
-lazy
-.
-IPProtectionService
+IPProtection
 .
 uninit
 (
-true
 )
 ;
 toggledEvents
@@ -1084,9 +1081,7 @@ breaking
 tests
 that
 follow
-lazy
-.
-IPProtectionService
+IPProtection
 .
 init
 (
