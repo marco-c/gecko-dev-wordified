@@ -61,8 +61,10 @@ use
 strict
 "
 ;
-function
+class
 InspectorPanel
+{
+constructor
 (
 iframeWindow
 toolbox
@@ -83,11 +85,6 @@ commands
 )
 ;
 }
-InspectorPanel
-.
-prototype
-=
-{
 /
 *
 *
@@ -147,7 +144,6 @@ destroy
 ;
 }
 }
-;
 exports
 .
 InspectorPanel
