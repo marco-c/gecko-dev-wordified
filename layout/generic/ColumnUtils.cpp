@@ -269,12 +269,8 @@ std
 :
 max
 (
-CSSPixel
-:
-:
-ToAppUnits
+AppUnitsPerCSSPixel
 (
-1
 )
 aColumnWidth
 .
