@@ -181,6 +181,11 @@ CSSTransformComponent
 h
 "
 "
+CSSTranslate
+.
+h
+"
+"
 CSSUnitValue
 .
 h
@@ -272,6 +277,11 @@ cpp
 "
 "
 CSSTransformComponent
+.
+cpp
+"
+"
+CSSTranslate
 .
 cpp
 "
