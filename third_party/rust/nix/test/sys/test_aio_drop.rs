@@ -81,6 +81,14 @@ target_env
 uclibc
 "
 )
+not
+(
+target_env
+=
+"
+ohos
+"
+)
 any
 (
 target_os

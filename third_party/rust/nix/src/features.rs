@@ -20,7 +20,15 @@ os
 [
 cfg
 (
+any
+(
 linux_android
+target_os
+=
+"
+emscripten
+"
+)
 )
 ]
 mod
@@ -515,7 +523,6 @@ false
 [
 test
 ]
-pub
 fn
 test_parsing_kernel_version
 (
@@ -605,6 +612,11 @@ Since
 july
 -
 2020
+target_os
+=
+"
+cygwin
+"
 )
 )
 ]
