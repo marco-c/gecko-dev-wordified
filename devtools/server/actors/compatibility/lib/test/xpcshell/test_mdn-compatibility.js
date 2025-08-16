@@ -978,7 +978,7 @@ moz
 -
 user
 -
-input
+focus
 "
 }
 ]
@@ -1006,7 +1006,7 @@ moz
 -
 user
 -
-input
+focus
 "
 url
 :
@@ -1032,7 +1032,7 @@ moz
 -
 user
 -
-input
+focus
 "
 specUrl
 :

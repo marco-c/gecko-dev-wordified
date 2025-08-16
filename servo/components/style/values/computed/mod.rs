@@ -752,8 +752,8 @@ length
 {
 LengthOrAuto
 LengthPercentageOrAuto
-MaxSize
 Margin
+MaxSize
 Size
 }
 ;
@@ -1065,10 +1065,7 @@ self
 text
 :
 :
-{
-HyphenateCharacter
-HyphenateLimitChars
-}
+TextUnderlinePosition
 ;
 pub
 use
@@ -1078,7 +1075,10 @@ self
 text
 :
 :
-TextUnderlinePosition
+{
+HyphenateCharacter
+HyphenateLimitChars
+}
 ;
 pub
 use
@@ -1217,7 +1217,6 @@ MozTheme
 PointerEvents
 ScrollbarColor
 UserFocus
-UserInput
 UserSelect
 }
 ;

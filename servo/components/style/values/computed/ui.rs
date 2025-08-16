@@ -141,7 +141,6 @@ Inert
 MozTheme
 PointerEvents
 UserFocus
-UserInput
 UserSelect
 }
 ;

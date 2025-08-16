@@ -92,7 +92,7 @@ are
 dynamically
 added
 const
-ISSUE_OUTLINE_RADIUS
+ISSUE_DEPRECATED
 =
 {
 type
@@ -108,7 +108,7 @@ moz
 -
 user
 -
-input
+focus
 "
 url
 :
@@ -134,7 +134,7 @@ moz
 -
 user
 -
-input
+focus
 "
 deprecated
 :
@@ -205,7 +205,7 @@ moz
 -
 user
 -
-input
+focus
 :
 none
 ;
@@ -350,7 +350,7 @@ checkPanelIssues
 selectedElementPane
 allElementsPane
 [
-ISSUE_OUTLINE_RADIUS
+ISSUE_DEPRECATED
 ]
 )
 ;
@@ -369,7 +369,7 @@ inspector
 selectedElementPane
 allElementsPane
 [
-ISSUE_OUTLINE_RADIUS
+ISSUE_DEPRECATED
 ISSUE_SCROLLBAR_COLOR
 ]
 )
@@ -413,7 +413,7 @@ checkPanelIssues
 selectedElementPane
 allElementsPane
 [
-ISSUE_OUTLINE_RADIUS
+ISSUE_DEPRECATED
 ]
 )
 ;

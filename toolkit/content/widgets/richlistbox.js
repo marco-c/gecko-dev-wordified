@@ -4673,7 +4673,6 @@ aItem
 )
 ;
 return
-(
 style
 .
 display
@@ -4692,17 +4691,6 @@ visibility
 "
 visible
 "
-&
-&
-style
-.
-MozUserInput
-!
-=
-"
-none
-"
-)
 ;
 }
 _selectTimeoutHandler
