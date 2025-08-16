@@ -98723,7 +98723,7 @@ initial_values
 :
 [
 "
-auto
+0
 "
 ]
 other_values
