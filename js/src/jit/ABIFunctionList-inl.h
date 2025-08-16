@@ -1993,6 +1993,14 @@ _
 js
 :
 :
+TypedArraySetFromSubarrayInfallible
+)
+\
+_
+(
+js
+:
+:
 TypedArraySetInfallible
 )
 \
