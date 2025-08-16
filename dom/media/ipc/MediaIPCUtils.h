@@ -221,7 +221,7 @@ mozilla
 /
 dom
 /
-MediaKeysBinding
+MFCDMSerializers
 .
 h
 "
@@ -232,7 +232,7 @@ mozilla
 /
 dom
 /
-MFCDMSerializers
+MediaKeysBinding
 .
 h
 "

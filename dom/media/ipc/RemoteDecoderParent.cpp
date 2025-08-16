@@ -124,14 +124,14 @@ h
 #
 include
 "
-RemoteMediaManagerParent
+RemoteCDMParent
 .
 h
 "
 #
 include
 "
-RemoteCDMParent
+RemoteMediaManagerParent
 .
 h
 "
