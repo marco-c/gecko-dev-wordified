@@ -173,10 +173,12 @@ Type
 {
 GetIterator
 ArraySpecies
+TypedArraySpecies
 RegExpPrototype
 StringPrototypeSymbols
 EmulatesUndefined
 ArrayExceedsInt32Length
+ObjectFuseProperty
 Limit
 }
 ;
