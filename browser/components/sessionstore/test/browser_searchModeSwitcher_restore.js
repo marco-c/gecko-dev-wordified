@@ -523,11 +523,12 @@ searchModeSwitcherButton
 =
 win
 .
-document
+gURLBar
 .
-getElementById
+querySelector
 (
 "
+.
 searchmode
 -
 switcher

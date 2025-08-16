@@ -3641,11 +3641,12 @@ let
 fallback
 =
 [
-document
+gURLBar
 .
-getElementById
+querySelector
 (
 "
+.
 searchmode
 -
 switcher

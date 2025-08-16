@@ -1699,9 +1699,10 @@ if
 (
 anchorNode
 .
-id
-=
-=
+classList
+.
+contains
+(
 "
 searchmode
 -
@@ -1709,6 +1710,7 @@ switcher
 -
 icon
 "
+)
 )
 {
 Assert
