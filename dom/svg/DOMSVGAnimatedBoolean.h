@@ -130,13 +130,6 @@ h
 #
 include
 "
-nsWrapperCache
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes
@@ -151,6 +144,13 @@ mozilla
 dom
 /
 SVGElement
+.
+h
+"
+#
+include
+"
+nsWrapperCache
 .
 h
 "

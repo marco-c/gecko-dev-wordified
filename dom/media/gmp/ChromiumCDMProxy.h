@@ -123,6 +123,13 @@ ChromiumCDMProxy_h_
 #
 include
 "
+ChromiumCDMParent
+.
+h
+"
+#
+include
+"
 mozilla
 /
 AbstractThread
@@ -135,13 +142,6 @@ include
 mozilla
 /
 CDMProxy
-.
-h
-"
-#
-include
-"
-ChromiumCDMParent
 .
 h
 "

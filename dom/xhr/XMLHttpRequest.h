@@ -160,7 +160,7 @@ mozilla
 /
 dom
 /
-XMLHttpRequestEventTarget
+XMLHttpRequestBinding
 .
 h
 "
@@ -171,7 +171,7 @@ mozilla
 /
 dom
 /
-XMLHttpRequestBinding
+XMLHttpRequestEventTarget
 .
 h
 "

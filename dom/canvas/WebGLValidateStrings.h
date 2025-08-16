@@ -259,6 +259,11 @@ define
 WEBGL_VALIDATE_STRINGS_H_
 #
 include
+<
+string
+>
+#
+include
 "
 WebGLTypes
 .
@@ -273,11 +278,6 @@ Maybe
 .
 h
 "
-#
-include
-<
-string
->
 namespace
 mozilla
 {

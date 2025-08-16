@@ -130,9 +130,7 @@ include
 "
 mozilla
 /
-dom
-/
-Navigator
+JSONStringWriteFuncs
 .
 h
 "
@@ -143,7 +141,7 @@ mozilla
 /
 dom
 /
-ReportingHeader
+Navigator
 .
 h
 "
@@ -163,7 +161,9 @@ include
 "
 mozilla
 /
-JSONStringWriteFuncs
+dom
+/
+ReportingHeader
 .
 h
 "

@@ -102,14 +102,14 @@ TrackMetadataBase_h_
 #
 include
 "
-nsTArray
+nsCOMPtr
 .
 h
 "
 #
 include
 "
-nsCOMPtr
+nsTArray
 .
 h
 "

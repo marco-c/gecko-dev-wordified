@@ -128,13 +128,6 @@ functional
 #
 include
 "
-nsISupportsImpl
-.
-h
-"
-#
-include
-"
 RemoteWorkerController
 .
 h
@@ -156,6 +149,13 @@ mozilla
 dom
 /
 PRemoteWorkerControllerParent
+.
+h
+"
+#
+include
+"
+nsISupportsImpl
 .
 h
 "

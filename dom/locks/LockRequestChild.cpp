@@ -117,14 +117,14 @@ MPL
 #
 include
 "
-LockManagerChild
+LockRequestChild
 .
 h
 "
 #
 include
 "
-LockRequestChild
+LockManagerChild
 .
 h
 "

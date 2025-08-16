@@ -96,6 +96,13 @@ MPL
 #
 include
 "
+MediaSystemResourceManagerParent
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Unused
@@ -110,13 +117,6 @@ mozilla
 layers
 /
 PImageBridgeParent
-.
-h
-"
-#
-include
-"
-MediaSystemResourceManagerParent
 .
 h
 "

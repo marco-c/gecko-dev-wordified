@@ -123,13 +123,6 @@ DOM_SVG_SVGPATHSEGMENT_H_
 #
 include
 "
-nsWrapperCache
-.
-h
-"
-#
-include
-"
 SVGPathSegUtils
 .
 h
@@ -142,6 +135,13 @@ mozilla
 dom
 /
 SVGPathElement
+.
+h
+"
+#
+include
+"
+nsWrapperCache
 .
 h
 "

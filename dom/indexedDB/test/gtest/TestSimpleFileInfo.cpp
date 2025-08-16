@@ -58,6 +58,11 @@ MPL
 /
 #
 include
+<
+array
+>
+#
+include
 "
 FileInfo
 .
@@ -111,11 +116,6 @@ nsTArray
 .
 h
 "
-#
-include
-<
-array
->
 using
 namespace
 mozilla

@@ -138,11 +138,7 @@ include
 "
 mozilla
 /
-dom
-/
-quota
-/
-DirectoryLockImpl
+RefPtr
 .
 h
 "
@@ -151,7 +147,11 @@ include
 "
 mozilla
 /
-RefPtr
+dom
+/
+quota
+/
+DirectoryLockImpl
 .
 h
 "

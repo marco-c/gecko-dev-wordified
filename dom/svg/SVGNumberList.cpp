@@ -124,6 +124,13 @@ h
 #
 include
 "
+SVGContentUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ArrayUtils
@@ -155,13 +162,6 @@ h
 include
 "
 nsTextFormatter
-.
-h
-"
-#
-include
-"
-SVGContentUtils
 .
 h
 "

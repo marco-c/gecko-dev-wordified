@@ -131,14 +131,14 @@ h
 #
 include
 "
-nsIGlobalObject
+WrapperFactory
 .
 h
 "
 #
 include
 "
-WrapperFactory
+nsIGlobalObject
 .
 h
 "

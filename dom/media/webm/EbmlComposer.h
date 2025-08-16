@@ -102,14 +102,14 @@ EbmlComposer_h_
 #
 include
 "
-nsTArray
+ContainerWriter
 .
 h
 "
 #
 include
 "
-ContainerWriter
+nsTArray
 .
 h
 "

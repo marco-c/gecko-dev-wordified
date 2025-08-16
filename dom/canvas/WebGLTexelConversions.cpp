@@ -59,13 +59,6 @@ MPL
 #
 include
 "
-WebGLContext
-.
-h
-"
-#
-include
-"
 WebGLTexelConversions
 .
 h
@@ -74,6 +67,13 @@ h
 include
 "
 GLBlitHelper
+.
+h
+"
+#
+include
+"
+WebGLContext
 .
 h
 "

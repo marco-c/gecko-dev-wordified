@@ -134,13 +134,6 @@ h
 #
 include
 "
-nsCycleCollectionParticipant
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -148,7 +141,7 @@ h
 #
 include
 "
-nsWrapperCache
+nsCycleCollectionParticipant
 .
 h
 "
@@ -156,6 +149,13 @@ h
 include
 "
 nsWeakReference
+.
+h
+"
+#
+include
+"
+nsWrapperCache
 .
 h
 "

@@ -145,6 +145,13 @@ h
 #
 include
 "
+nsIObserver
+.
+h
+"
+#
+include
+"
 nsIURI
 .
 h
@@ -160,13 +167,6 @@ h
 include
 "
 nsTArray
-.
-h
-"
-#
-include
-"
-nsIObserver
 .
 h
 "

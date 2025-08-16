@@ -130,9 +130,7 @@ include
 "
 mozilla
 /
-dom
-/
-SVGFEPointLightElementBinding
+SVGFilterInstance
 .
 h
 "
@@ -141,7 +139,9 @@ include
 "
 mozilla
 /
-SVGFilterInstance
+dom
+/
+SVGFEPointLightElementBinding
 .
 h
 "

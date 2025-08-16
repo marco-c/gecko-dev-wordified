@@ -123,6 +123,13 @@ WebrtcImageBuffer_h__
 #
 include
 "
+ImageContainer
+.
+h
+"
+#
+include
+"
 common_video
 /
 include
@@ -137,13 +144,6 @@ include
 mozilla
 /
 RefPtr
-.
-h
-"
-#
-include
-"
-ImageContainer
 .
 h
 "

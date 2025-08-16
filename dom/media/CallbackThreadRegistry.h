@@ -123,7 +123,9 @@ CALLBACKTHREADREGISTRY_H
 #
 include
 <
-cstdint
+GeckoProfiler
+.
+h
 >
 #
 include
@@ -144,14 +146,12 @@ h
 #
 include
 <
-thread
+cstdint
 >
 #
 include
 <
-GeckoProfiler
-.
-h
+thread
 >
 namespace
 mozilla

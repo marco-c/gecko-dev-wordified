@@ -147,9 +147,7 @@ include
 "
 mozilla
 /
-dom
-/
-SerializedStackHolder
+UniquePtr
 .
 h
 "
@@ -158,7 +156,9 @@ include
 "
 mozilla
 /
-UniquePtr
+dom
+/
+SerializedStackHolder
 .
 h
 "

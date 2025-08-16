@@ -121,6 +121,13 @@ mozilla_dom_ByteStreamHelpers_h
 #
 include
 "
+UnderlyingSourceCallbackHelpers
+.
+h
+"
+#
+include
+"
 js
 /
 TypeDecls
@@ -133,13 +140,6 @@ include
 mozilla
 /
 ErrorResult
-.
-h
-"
-#
-include
-"
-UnderlyingSourceCallbackHelpers
 .
 h
 "

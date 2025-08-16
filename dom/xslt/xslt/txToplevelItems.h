@@ -109,14 +109,14 @@ h
 #
 include
 "
-txOutputFormat
+txInstructions
 .
 h
 "
 #
 include
 "
-txXMLUtils
+txOutputFormat
 .
 h
 "
@@ -130,7 +130,7 @@ h
 #
 include
 "
-txInstructions
+txXMLUtils
 .
 h
 "

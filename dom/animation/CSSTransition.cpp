@@ -135,9 +135,7 @@ include
 "
 mozilla
 /
-dom
-/
-CSSTransitionBinding
+TimeStamp
 .
 h
 "
@@ -148,7 +146,7 @@ mozilla
 /
 dom
 /
-KeyframeEffectBinding
+CSSTransitionBinding
 .
 h
 "
@@ -168,7 +166,9 @@ include
 "
 mozilla
 /
-TimeStamp
+dom
+/
+KeyframeEffectBinding
 .
 h
 "

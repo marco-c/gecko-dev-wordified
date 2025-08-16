@@ -143,6 +143,13 @@ h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsCycleCollectionParticipant
 .
 h
@@ -151,13 +158,6 @@ h
 include
 "
 nsWrapperCache
-.
-h
-"
-#
-include
-"
-nsCOMPtr
 .
 h
 "

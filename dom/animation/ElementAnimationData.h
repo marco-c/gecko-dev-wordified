@@ -125,7 +125,7 @@ include
 "
 mozilla
 /
-UniquePtr
+PseudoStyleType
 .
 h
 "
@@ -134,7 +134,7 @@ include
 "
 mozilla
 /
-PseudoStyleType
+UniquePtr
 .
 h
 "

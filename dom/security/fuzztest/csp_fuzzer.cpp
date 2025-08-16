@@ -133,14 +133,14 @@ h
 #
 include
 "
-nsComponentManagerUtils
+nsCSPContext
 .
 h
 "
 #
 include
 "
-nsCSPContext
+nsComponentManagerUtils
 .
 h
 "

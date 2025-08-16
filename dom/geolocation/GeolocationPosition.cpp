@@ -130,9 +130,7 @@ include
 "
 mozilla
 /
-dom
-/
-GeolocationCoordinates
+FloatingPoint
 .
 h
 "
@@ -141,7 +139,9 @@ include
 "
 mozilla
 /
-FloatingPoint
+dom
+/
+GeolocationCoordinates
 .
 h
 "

@@ -130,6 +130,13 @@ h
 #
 include
 "
+CacheWorkerRef
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Unused
@@ -172,13 +179,6 @@ dom
 cache
 /
 CacheOpChild
-.
-h
-"
-#
-include
-"
-CacheWorkerRef
 .
 h
 "

@@ -123,14 +123,14 @@ com
 #
 include
 "
-logging
+transportlayerloopback
 .
 h
 "
 #
 include
 "
-prlock
+logging
 .
 h
 "
@@ -158,7 +158,7 @@ h
 #
 include
 "
-transportlayerloopback
+prlock
 .
 h
 "

@@ -121,7 +121,7 @@ mozilla
 /
 dom
 /
-WebTransport
+WebTransportChild
 .
 h
 "
@@ -132,7 +132,7 @@ mozilla
 /
 dom
 /
-WebTransportChild
+WebTransport
 .
 h
 "

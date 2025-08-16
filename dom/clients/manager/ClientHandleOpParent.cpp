@@ -142,9 +142,7 @@ mozilla
 /
 dom
 /
-ipc
-/
-StructuredCloneData
+PClientManagerParent
 .
 h
 "
@@ -155,7 +153,9 @@ mozilla
 /
 dom
 /
-PClientManagerParent
+ipc
+/
+StructuredCloneData
 .
 h
 "

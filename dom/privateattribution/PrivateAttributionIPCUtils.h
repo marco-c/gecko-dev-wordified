@@ -127,7 +127,7 @@ mozilla
 /
 dom
 /
-PrivateAttributionBinding
+BindingIPCUtils
 .
 h
 "
@@ -138,7 +138,7 @@ mozilla
 /
 dom
 /
-BindingIPCUtils
+PrivateAttributionBinding
 .
 h
 "

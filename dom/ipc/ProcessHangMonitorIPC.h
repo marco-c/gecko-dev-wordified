@@ -152,7 +152,7 @@ include
 "
 mozilla
 /
-PProcessHangMonitorParent
+PProcessHangMonitorChild
 .
 h
 "
@@ -161,7 +161,7 @@ include
 "
 mozilla
 /
-PProcessHangMonitorChild
+PProcessHangMonitorParent
 .
 h
 "

@@ -79,6 +79,13 @@ h
 #
 include
 "
+MediaSegment
+.
+h
+"
+#
+include
+"
 MediaTimer
 .
 h
@@ -87,13 +94,6 @@ h
 include
 "
 MediaTrackGraph
-.
-h
-"
-#
-include
-"
-MediaSegment
 .
 h
 "

@@ -122,13 +122,6 @@ h
 #
 include
 "
-OmxDataDecoder
-.
-h
-"
-#
-include
-"
 OMX_Component
 .
 h
@@ -145,6 +138,13 @@ h
 For
 VP8
 .
+#
+include
+"
+OmxDataDecoder
+.
+h
+"
 #
 ifdef
 MOZ_OMX

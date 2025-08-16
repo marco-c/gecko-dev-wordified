@@ -126,9 +126,7 @@ include
 "
 mozilla
 /
-dom
-/
-ContentParent
+StaticPrefs_browser
 .
 h
 "
@@ -137,7 +135,9 @@ include
 "
 mozilla
 /
-StaticPrefs_browser
+dom
+/
+ContentParent
 .
 h
 "

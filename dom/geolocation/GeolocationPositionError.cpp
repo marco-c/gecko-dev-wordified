@@ -128,11 +128,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-GeolocationPositionErrorBinding
+Geolocation
 .
 h
 "
@@ -152,7 +148,11 @@ nsAutoMicroTask
 #
 include
 "
-Geolocation
+mozilla
+/
+dom
+/
+GeolocationPositionErrorBinding
 .
 h
 "

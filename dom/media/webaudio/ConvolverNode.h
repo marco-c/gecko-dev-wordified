@@ -121,14 +121,14 @@ ConvolverNode_h_
 #
 include
 "
-AudioNode
+AudioBuffer
 .
 h
 "
 #
 include
 "
-AudioBuffer
+AudioNode
 .
 h
 "

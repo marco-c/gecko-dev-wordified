@@ -123,7 +123,9 @@ mozilla_dom_BaseBlobImpl_h
 #
 include
 "
-nsIGlobalObject
+mozilla
+/
+ErrorResult
 .
 h
 "
@@ -152,9 +154,7 @@ h
 #
 include
 "
-mozilla
-/
-ErrorResult
+nsIGlobalObject
 .
 h
 "

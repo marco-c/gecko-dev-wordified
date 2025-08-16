@@ -133,14 +133,14 @@ __clang__
 #
 include
 <
-avxintrin
+avx2intrin
 .
 h
 >
 #
 include
 <
-avx2intrin
+avxintrin
 .
 h
 >

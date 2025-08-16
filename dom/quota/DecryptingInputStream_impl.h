@@ -122,13 +122,6 @@ define
 mozilla_dom_quota_DecryptingInputStream_impl_h
 #
 include
-"
-DecryptingInputStream
-.
-h
-"
-#
-include
 <
 algorithm
 >
@@ -151,6 +144,13 @@ utility
 include
 "
 CipherStrategy
+.
+h
+"
+#
+include
+"
+DecryptingInputStream
 .
 h
 "

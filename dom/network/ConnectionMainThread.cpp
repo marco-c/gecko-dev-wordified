@@ -116,6 +116,13 @@ MPL
 /
 #
 include
+"
+ConnectionMainThread
+.
+h
+"
+#
+include
 <
 limits
 >
@@ -125,13 +132,6 @@ include
 mozilla
 /
 Hal
-.
-h
-"
-#
-include
-"
-ConnectionMainThread
 .
 h
 "

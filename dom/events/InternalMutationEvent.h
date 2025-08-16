@@ -132,14 +132,14 @@ h
 #
 include
 "
-nsCOMPtr
+nsAtom
 .
 h
 "
 #
 include
 "
-nsAtom
+nsCOMPtr
 .
 h
 "

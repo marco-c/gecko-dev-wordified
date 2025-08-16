@@ -124,6 +124,13 @@ h
 #
 include
 "
+nsCycleCollectionParticipant
+.
+h
+"
+#
+include
+"
 nsCycleCollector
 .
 h
@@ -132,13 +139,6 @@ h
 include
 "
 nsJSEnvironment
-.
-h
-"
-#
-include
-"
-nsCycleCollectionParticipant
 .
 h
 "

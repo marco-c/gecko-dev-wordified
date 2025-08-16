@@ -132,7 +132,7 @@ mozilla
 /
 dom
 /
-SVGPolylineElementBinding
+SVGAnimatedLength
 .
 h
 "
@@ -143,7 +143,7 @@ mozilla
 /
 dom
 /
-SVGAnimatedLength
+SVGPolylineElementBinding
 .
 h
 "

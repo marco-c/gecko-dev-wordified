@@ -123,13 +123,6 @@ mozilla_dom_DOMString_h
 #
 include
 "
-nsString
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Assertions
@@ -166,6 +159,13 @@ h
 #
 include
 "
+nsAtom
+.
+h
+"
+#
+include
+"
 nsDOMString
 .
 h
@@ -173,7 +173,7 @@ h
 #
 include
 "
-nsAtom
+nsString
 .
 h
 "

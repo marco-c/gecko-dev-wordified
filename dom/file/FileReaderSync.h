@@ -127,7 +127,7 @@ mozilla
 /
 dom
 /
-WorkerCommon
+NonRefcountedDOMObject
 .
 h
 "
@@ -138,7 +138,7 @@ mozilla
 /
 dom
 /
-NonRefcountedDOMObject
+WorkerCommon
 .
 h
 "

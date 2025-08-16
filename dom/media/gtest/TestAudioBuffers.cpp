@@ -102,6 +102,11 @@ h
 >
 #
 include
+<
+vector
+>
+#
+include
 "
 AudioBufferUtils
 .
@@ -116,11 +121,6 @@ gtest
 .
 h
 "
-#
-include
-<
-vector
->
 const
 uint32_t
 FRAMES

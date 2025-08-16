@@ -123,6 +123,13 @@ mozilla_dom_VREventObserver_h
 #
 include
 "
+VRManagerChild
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -142,13 +149,6 @@ h
 /
 for
 NS_INLINE_DECL_REFCOUNTING
-#
-include
-"
-VRManagerChild
-.
-h
-"
 class
 nsGlobalWindowInner
 ;

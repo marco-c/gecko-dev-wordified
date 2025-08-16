@@ -129,6 +129,13 @@ License
 /
 #
 include
+"
+ClearKeySession
+.
+h
+"
+#
+include
 <
 assert
 .
@@ -152,13 +159,6 @@ h
 include
 "
 ClearKeyDecryptionManager
-.
-h
-"
-#
-include
-"
-ClearKeySession
 .
 h
 "

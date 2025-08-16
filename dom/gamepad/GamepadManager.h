@@ -141,6 +141,11 @@ for
 GamepadMappingType
 #
 include
+<
+utility
+>
+#
+include
 "
 mozilla
 /
@@ -161,11 +166,6 @@ GamepadHandle
 .
 h
 "
-#
-include
-<
-utility
->
 class
 nsGlobalWindowInner
 ;

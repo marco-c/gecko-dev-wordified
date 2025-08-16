@@ -65,7 +65,7 @@ mozilla_dom_CanvasGradient_h
 #
 include
 "
-nsTArray
+gfxGradientCache
 .
 h
 "
@@ -103,14 +103,14 @@ h
 #
 include
 "
-nsWrapperCache
+nsTArray
 .
 h
 "
 #
 include
 "
-gfxGradientCache
+nsWrapperCache
 .
 h
 "

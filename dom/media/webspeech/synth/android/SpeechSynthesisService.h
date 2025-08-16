@@ -123,7 +123,9 @@ mozilla_dom_SpeechSynthesisService_h
 #
 include
 "
-nsISpeechService
+mozilla
+/
+StaticPtr
 .
 h
 "
@@ -141,9 +143,7 @@ h
 #
 include
 "
-mozilla
-/
-StaticPtr
+nsISpeechService
 .
 h
 "

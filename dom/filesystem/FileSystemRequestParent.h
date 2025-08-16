@@ -127,7 +127,7 @@ mozilla
 /
 dom
 /
-PFileSystemRequestParent
+FileSystemBase
 .
 h
 "
@@ -138,7 +138,7 @@ mozilla
 /
 dom
 /
-FileSystemBase
+PFileSystemRequestParent
 .
 h
 "

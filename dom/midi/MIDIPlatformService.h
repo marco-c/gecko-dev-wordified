@@ -121,13 +121,6 @@ mozilla_dom_MIDIPlatformService_h
 #
 include
 "
-nsClassHashtable
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Mutex
@@ -142,6 +135,13 @@ mozilla
 dom
 /
 MIDIPortBinding
+.
+h
+"
+#
+include
+"
+nsClassHashtable
 .
 h
 "

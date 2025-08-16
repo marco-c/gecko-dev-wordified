@@ -128,13 +128,6 @@ h
 #
 include
 "
-nsGkAtoms
-.
-h
-"
-#
-include
-"
 mozilla
 /
 AlreadyAddRefed
@@ -180,6 +173,13 @@ mozilla
 dom
 /
 SVGUnitTypesBinding
+.
+h
+"
+#
+include
+"
+nsGkAtoms
 .
 h
 "

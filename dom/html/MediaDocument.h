@@ -132,14 +132,14 @@ h
 #
 include
 "
-nsHTMLDocument
+nsGenericHTMLElement
 .
 h
 "
 #
 include
 "
-nsGenericHTMLElement
+nsHTMLDocument
 .
 h
 "

@@ -117,6 +117,13 @@ MPL
 #
 include
 "
+AndroidLocationProvider
+.
+h
+"
+#
+include
+"
 Geolocation
 .
 h
@@ -125,13 +132,6 @@ h
 include
 "
 GeolocationPosition
-.
-h
-"
-#
-include
-"
-AndroidLocationProvider
 .
 h
 "

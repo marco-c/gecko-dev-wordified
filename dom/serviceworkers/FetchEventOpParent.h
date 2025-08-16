@@ -123,13 +123,6 @@ mozilla_dom_fetcheventopparent_h__
 #
 include
 "
-nsISupports
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -146,6 +139,13 @@ mozilla
 dom
 /
 PFetchEventOpParent
+.
+h
+"
+#
+include
+"
+nsISupports
 .
 h
 "

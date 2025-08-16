@@ -139,7 +139,7 @@ mozilla
 /
 dom
 /
-SVGFEColorMatrixElementBinding
+BindContext
 .
 h
 "
@@ -161,7 +161,7 @@ mozilla
 /
 dom
 /
-BindContext
+SVGFEColorMatrixElementBinding
 .
 h
 "

@@ -65,6 +65,13 @@ MP3_DEMUXER_H_
 #
 include
 "
+MP3FrameParser
+.
+h
+"
+#
+include
+"
 MediaDataDemuxer
 .
 h
@@ -73,13 +80,6 @@ h
 include
 "
 MediaResource
-.
-h
-"
-#
-include
-"
-MP3FrameParser
 .
 h
 "

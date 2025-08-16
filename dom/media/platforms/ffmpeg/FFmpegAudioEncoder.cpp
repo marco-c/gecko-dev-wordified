@@ -122,7 +122,7 @@ h
 #
 include
 "
-FFmpegRuntimeLinker
+AudioSegment
 .
 h
 "
@@ -130,6 +130,13 @@ h
 include
 "
 FFmpegLog
+.
+h
+"
+#
+include
+"
+FFmpegRuntimeLinker
 .
 h
 "
@@ -144,13 +151,6 @@ h
 include
 "
 MediaData
-.
-h
-"
-#
-include
-"
-AudioSegment
 .
 h
 "

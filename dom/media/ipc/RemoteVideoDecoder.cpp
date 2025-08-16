@@ -207,14 +207,14 @@ h
 #
 include
 "
-RemoteMediaManagerParent
+RemoteImageHolder
 .
 h
 "
 #
 include
 "
-RemoteImageHolder
+RemoteMediaManagerParent
 .
 h
 "

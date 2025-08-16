@@ -123,14 +123,14 @@ mozilla_dom_GridDimension_h
 #
 include
 "
-nsWrapperCache
+nsTArray
 .
 h
 "
 #
 include
 "
-nsTArray
+nsWrapperCache
 .
 h
 "

@@ -123,13 +123,6 @@ mozilla_dom_StorageActivityService_h
 #
 include
 "
-nsTHashMap
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h
@@ -138,6 +131,13 @@ h
 include
 "
 nsIStorageActivityService
+.
+h
+"
+#
+include
+"
+nsTHashMap
 .
 h
 "

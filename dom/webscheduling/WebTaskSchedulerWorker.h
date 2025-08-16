@@ -138,7 +138,7 @@ mozilla
 /
 dom
 /
-WorkerRunnable
+WebTaskSchedulingBinding
 .
 h
 "
@@ -171,7 +171,7 @@ mozilla
 /
 dom
 /
-WebTaskSchedulingBinding
+WorkerRunnable
 .
 h
 "

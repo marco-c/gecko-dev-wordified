@@ -185,6 +185,8 @@ mozilla
 dom
 /
 Promise
+-
+inl
 .
 h
 "
@@ -196,8 +198,6 @@ mozilla
 dom
 /
 Promise
--
-inl
 .
 h
 "

@@ -130,14 +130,14 @@ h
 #
 include
 "
-RemoteMediaManagerChild
+RemoteDecoderParent
 .
 h
 "
 #
 include
 "
-RemoteDecoderParent
+RemoteMediaManagerChild
 .
 h
 "

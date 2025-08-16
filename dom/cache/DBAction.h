@@ -132,11 +132,7 @@ include
 "
 mozilla
 /
-dom
-/
-cache
-/
-Action
+RefPtr
 .
 h
 "
@@ -145,7 +141,11 @@ include
 "
 mozilla
 /
-RefPtr
+dom
+/
+cache
+/
+Action
 .
 h
 "

@@ -127,7 +127,7 @@ mozilla
 /
 dom
 /
-DataTransfer
+DOMString
 .
 h
 "
@@ -138,7 +138,7 @@ mozilla
 /
 dom
 /
-DOMString
+DataTransfer
 .
 h
 "

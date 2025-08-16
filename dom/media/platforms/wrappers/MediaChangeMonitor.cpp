@@ -136,6 +136,13 @@ h
 #
 include
 "
+GeckoProfiler
+.
+h
+"
+#
+include
+"
 H264
 .
 h
@@ -144,13 +151,6 @@ h
 include
 "
 H265
-.
-h
-"
-#
-include
-"
-GeckoProfiler
 .
 h
 "

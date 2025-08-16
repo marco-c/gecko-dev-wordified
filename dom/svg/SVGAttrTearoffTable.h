@@ -141,13 +141,6 @@ h
 #
 include
 "
-nsTHashMap
-.
-h
-"
-#
-include
-"
 nsDebug
 .
 h
@@ -156,6 +149,13 @@ h
 include
 "
 nsHashKeys
+.
+h
+"
+#
+include
+"
+nsTHashMap
 .
 h
 "

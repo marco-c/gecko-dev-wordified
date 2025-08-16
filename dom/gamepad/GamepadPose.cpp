@@ -117,7 +117,11 @@ MPL
 #
 include
 "
-nsWrapperCache
+mozilla
+/
+dom
+/
+GamepadPose
 .
 h
 "
@@ -144,11 +148,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-GamepadPose
+nsWrapperCache
 .
 h
 "

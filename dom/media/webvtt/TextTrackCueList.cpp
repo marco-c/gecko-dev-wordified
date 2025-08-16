@@ -111,7 +111,7 @@ mozilla
 /
 dom
 /
-TextTrackCueListBinding
+TextTrackCue
 .
 h
 "
@@ -122,7 +122,7 @@ mozilla
 /
 dom
 /
-TextTrackCue
+TextTrackCueListBinding
 .
 h
 "

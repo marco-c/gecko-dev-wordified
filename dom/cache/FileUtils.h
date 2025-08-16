@@ -123,6 +123,13 @@ mozilla_dom_cache_FileUtils_h
 #
 include
 "
+CacheCipherKeyManager
+.
+h
+"
+#
+include
+"
 CacheCommon
 .
 h
@@ -130,7 +137,7 @@ h
 #
 include
 "
-CacheCipherKeyManager
+mozIStorageConnection
 .
 h
 "
@@ -153,13 +160,6 @@ dom
 cache
 /
 Types
-.
-h
-"
-#
-include
-"
-mozIStorageConnection
 .
 h
 "

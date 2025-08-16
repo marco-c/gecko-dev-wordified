@@ -184,6 +184,13 @@ h
 #
 include
 "
+CallbackThreadRegistry
+.
+h
+"
+#
+include
+"
 api
 /
 scoped_refptr
@@ -198,13 +205,6 @@ api
 video
 /
 video_rotation
-.
-h
-"
-#
-include
-"
-CallbackThreadRegistry
 .
 h
 "

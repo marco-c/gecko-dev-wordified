@@ -132,6 +132,13 @@ h
 #
 include
 "
+PerformanceRecorder
+.
+h
+"
+#
+include
+"
 api
 /
 scoped_refptr
@@ -164,13 +171,6 @@ include
 mozilla
 /
 Maybe
-.
-h
-"
-#
-include
-"
-PerformanceRecorder
 .
 h
 "

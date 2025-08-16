@@ -132,6 +132,13 @@ h
 #
 include
 "
+nsDOMTokenList
+.
+h
+"
+#
+include
+"
 nsGenericHTMLElement
 .
 h
@@ -140,13 +147,6 @@ h
 include
 "
 nsGenericHTMLFrameElement
-.
-h
-"
-#
-include
-"
-nsDOMTokenList
 .
 h
 "

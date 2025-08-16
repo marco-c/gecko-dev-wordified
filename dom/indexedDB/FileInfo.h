@@ -123,7 +123,7 @@ DOM_INDEXEDDB_FILEINFO_H_
 #
 include
 "
-nsISupportsImpl
+SafeRefPtr
 .
 h
 "
@@ -137,7 +137,7 @@ h
 #
 include
 "
-SafeRefPtr
+nsISupportsImpl
 .
 h
 "

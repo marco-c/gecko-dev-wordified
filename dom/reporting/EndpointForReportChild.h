@@ -127,7 +127,7 @@ mozilla
 /
 dom
 /
-ReportDeliver
+PEndpointForReportChild
 .
 h
 "
@@ -138,7 +138,7 @@ mozilla
 /
 dom
 /
-PEndpointForReportChild
+ReportDeliver
 .
 h
 "

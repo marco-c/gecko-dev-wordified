@@ -132,9 +132,7 @@ include
 "
 mozilla
 /
-dom
-/
-DebuggerNotificationObserverBinding
+RefPtr
 .
 h
 "
@@ -143,7 +141,9 @@ include
 "
 mozilla
 /
-RefPtr
+dom
+/
+DebuggerNotificationObserverBinding
 .
 h
 "

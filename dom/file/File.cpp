@@ -200,14 +200,14 @@ h
 #
 include
 "
-nsIFile
+nsContentUtils
 .
 h
 "
 #
 include
 "
-nsContentUtils
+nsIFile
 .
 h
 "

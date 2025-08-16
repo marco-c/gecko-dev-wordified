@@ -121,6 +121,13 @@ mozilla_dom_ReadableStreamControllerBase_h
 #
 include
 "
+UnderlyingSourceCallbackHelpers
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ErrorResult
@@ -145,13 +152,6 @@ h
 include
 "
 nsISupports
-.
-h
-"
-#
-include
-"
-UnderlyingSourceCallbackHelpers
 .
 h
 "

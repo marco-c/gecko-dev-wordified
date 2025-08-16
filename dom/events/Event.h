@@ -182,7 +182,7 @@ include
 "
 mozilla
 /
-RefPtr
+Maybe
 .
 h
 "
@@ -191,7 +191,7 @@ include
 "
 mozilla
 /
-Maybe
+RefPtr
 .
 h
 "

@@ -215,14 +215,14 @@ nsAttrValueOrString_h___
 #
 include
 "
-nsString
+nsAttrValue
 .
 h
 "
 #
 include
 "
-nsAttrValue
+nsString
 .
 h
 "

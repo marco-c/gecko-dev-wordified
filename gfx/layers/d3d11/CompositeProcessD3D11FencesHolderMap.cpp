@@ -132,6 +132,13 @@ FenceD3D11
 .
 h
 "
+#
+include
+"
+nsXULAppAPI
+.
+h
+"
 namespace
 mozilla
 {

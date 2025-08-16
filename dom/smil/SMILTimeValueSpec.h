@@ -152,14 +152,14 @@ h
 #
 include
 "
-nsStringFwd
+nsIDOMEventListener
 .
 h
 "
 #
 include
 "
-nsIDOMEventListener
+nsStringFwd
 .
 h
 "

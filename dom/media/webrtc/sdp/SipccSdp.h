@@ -159,7 +159,7 @@ include
 "
 sdp
 /
-SipccSdpMediaSection
+SipccSdpAttributeList
 .
 h
 "
@@ -168,7 +168,7 @@ include
 "
 sdp
 /
-SipccSdpAttributeList
+SipccSdpMediaSection
 .
 h
 "

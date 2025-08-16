@@ -124,6 +124,13 @@ h
 #
 include
 "
+SVGAnimatedPreserveAspectRatio
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -143,13 +150,6 @@ h
 include
 "
 nsWhitespaceTokenizer
-.
-h
-"
-#
-include
-"
-SVGAnimatedPreserveAspectRatio
 .
 h
 "

@@ -125,14 +125,14 @@ OpusParser_h_
 #
 include
 "
-nsTArray
+nsString
 .
 h
 "
 #
 include
 "
-nsString
+nsTArray
 .
 h
 "

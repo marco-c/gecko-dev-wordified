@@ -114,7 +114,9 @@ MPL
 #
 include
 "
-nsError
+sdp
+/
+RsdparsaSdpParser
 .
 h
 "
@@ -130,9 +132,7 @@ h
 #
 include
 "
-sdp
-/
-Sdp
+nsError
 .
 h
 "
@@ -150,7 +150,7 @@ include
 "
 sdp
 /
-RsdparsaSdpParser
+RsdparsaSdpGlue
 .
 h
 "
@@ -168,7 +168,7 @@ include
 "
 sdp
 /
-RsdparsaSdpGlue
+Sdp
 .
 h
 "

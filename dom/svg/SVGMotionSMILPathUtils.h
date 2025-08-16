@@ -144,6 +144,13 @@ DOM_SVG_SVGMOTIONSMILPATHUTILS_H_
 #
 include
 "
+gfxPlatform
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -176,13 +183,6 @@ mozilla
 gfx
 /
 2D
-.
-h
-"
-#
-include
-"
-gfxPlatform
 .
 h
 "

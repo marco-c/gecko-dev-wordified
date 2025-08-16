@@ -128,7 +128,9 @@ h
 #
 include
 "
-nsNetCID
+mozilla
+/
+Unused
 .
 h
 "
@@ -223,9 +225,7 @@ h
 #
 include
 "
-mozilla
-/
-Unused
+nsNetCID
 .
 h
 "

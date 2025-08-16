@@ -67,9 +67,7 @@ include
 "
 mozilla
 /
-dom
-/
-SanitizerBinding
+Maybe
 .
 h
 "
@@ -78,7 +76,9 @@ include
 "
 mozilla
 /
-Maybe
+dom
+/
+SanitizerBinding
 .
 h
 "

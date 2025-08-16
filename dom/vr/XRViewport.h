@@ -123,6 +123,13 @@ mozilla_dom_XRViewport_h_
 #
 include
 "
+gfxVR
+.
+h
+"
+#
+include
+"
 mozilla
 /
 DOMEventTargetHelper
@@ -148,13 +155,6 @@ mozilla
 gfx
 /
 Rect
-.
-h
-"
-#
-include
-"
-gfxVR
 .
 h
 "

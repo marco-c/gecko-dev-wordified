@@ -128,6 +128,13 @@ h
 #
 include
 "
+SVGElement
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -161,7 +168,7 @@ h
 #
 include
 "
-SVGElement
+nsError
 .
 h
 "
@@ -169,13 +176,6 @@ h
 include
 "
 nsGkAtoms
-.
-h
-"
-#
-include
-"
-nsError
 .
 h
 "

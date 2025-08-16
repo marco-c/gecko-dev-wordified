@@ -125,7 +125,7 @@ include
 "
 mozilla
 /
-RDDProcessManager
+RddProcessTest
 .
 h
 "
@@ -143,7 +143,7 @@ include
 "
 mozilla
 /
-RddProcessTest
+RDDProcessManager
 .
 h
 "

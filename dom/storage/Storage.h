@@ -150,13 +150,6 @@ h
 #
 include
 "
-nsCycleCollectionParticipant
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -164,7 +157,7 @@ h
 #
 include
 "
-nsWrapperCache
+nsCycleCollectionParticipant
 .
 h
 "
@@ -178,6 +171,13 @@ h
 #
 include
 "
+nsString
+.
+h
+"
+#
+include
+"
 nsTArrayForwardDeclare
 .
 h
@@ -185,7 +185,7 @@ h
 #
 include
 "
-nsString
+nsWrapperCache
 .
 h
 "

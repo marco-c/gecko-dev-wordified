@@ -123,14 +123,14 @@ mozilla_dom_EffectsInfo_h
 #
 include
 "
-nsRect
+Units
 .
 h
 "
 #
 include
 "
-Units
+nsRect
 .
 h
 "

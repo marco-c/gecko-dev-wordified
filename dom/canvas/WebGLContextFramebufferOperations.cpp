@@ -96,13 +96,6 @@ MPL
 #
 include
 "
-WebGLContext
-.
-h
-"
-#
-include
-"
 GLContext
 .
 h
@@ -111,6 +104,13 @@ h
 include
 "
 GLScreenBuffer
+.
+h
+"
+#
+include
+"
+WebGLContext
 .
 h
 "

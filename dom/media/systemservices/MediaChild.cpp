@@ -130,9 +130,7 @@ include
 "
 mozilla
 /
-dom
-/
-ContentChild
+Logging
 .
 h
 "
@@ -150,7 +148,9 @@ include
 "
 mozilla
 /
-Logging
+dom
+/
+ContentChild
 .
 h
 "

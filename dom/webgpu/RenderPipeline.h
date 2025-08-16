@@ -102,13 +102,6 @@ GPU_RenderPipeline_H_
 #
 include
 "
-nsWrapperCache
-.
-h
-"
-#
-include
-"
 ObjectModel
 .
 h
@@ -128,6 +121,13 @@ h
 include
 "
 nsTArray
+.
+h
+"
+#
+include
+"
+nsWrapperCache
 .
 h
 "

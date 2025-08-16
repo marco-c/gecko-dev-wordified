@@ -163,14 +163,14 @@ h
 #
 include
 "
-VideoUtils
+VPXDecoder
 .
 h
 "
 #
 include
 "
-VPXDecoder
+VideoUtils
 .
 h
 "

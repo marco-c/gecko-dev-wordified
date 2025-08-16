@@ -141,13 +141,6 @@ h
 #
 include
 "
-nsGenericHTMLElement
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -164,6 +157,13 @@ mozilla
 dom
 /
 ShadowRootBinding
+.
+h
+"
+#
+include
+"
+nsGenericHTMLElement
 .
 h
 "

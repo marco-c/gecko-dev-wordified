@@ -159,7 +159,7 @@ mozilla
 /
 dom
 /
-ShadowRoot
+HTMLSlotElement
 .
 h
 "
@@ -170,7 +170,7 @@ mozilla
 /
 dom
 /
-HTMLSlotElement
+ShadowRoot
 .
 h
 "

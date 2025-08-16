@@ -102,6 +102,13 @@ WEBGLOBJECTMODEL_H_
 #
 include
 "
+WebGLTypes
+.
+h
+"
+#
+include
+"
 mozilla
 /
 RefCounted
@@ -114,13 +121,6 @@ include
 mozilla
 /
 WeakPtr
-.
-h
-"
-#
-include
-"
-WebGLTypes
 .
 h
 "

@@ -114,6 +114,13 @@ h
 #
 include
 "
+nsError
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h
@@ -122,13 +129,6 @@ h
 include
 "
 nsString
-.
-h
-"
-#
-include
-"
-nsError
 .
 h
 "

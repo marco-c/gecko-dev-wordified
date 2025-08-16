@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-nsContentUtils
+ViewportMetaData
 .
 h
 "
@@ -131,7 +131,7 @@ h
 #
 include
 "
-ViewportMetaData
+nsContentUtils
 .
 h
 "

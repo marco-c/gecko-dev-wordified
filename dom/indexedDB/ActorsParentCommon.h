@@ -215,13 +215,6 @@ h
 #
 include
 "
-nscore
-.
-h
-"
-#
-include
-"
 nsISupports
 .
 h
@@ -237,6 +230,13 @@ h
 include
 "
 nsTArray
+.
+h
+"
+#
+include
+"
+nscore
 .
 h
 "

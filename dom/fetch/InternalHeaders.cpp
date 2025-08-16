@@ -137,9 +137,7 @@ include
 "
 mozilla
 /
-dom
-/
-FetchTypes
+ErrorResult
 .
 h
 "
@@ -148,7 +146,9 @@ include
 "
 mozilla
 /
-ErrorResult
+dom
+/
+FetchTypes
 .
 h
 "

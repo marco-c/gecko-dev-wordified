@@ -121,6 +121,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 ByteStream
 .
@@ -144,11 +149,6 @@ Unused
 .
 h
 "
-#
-include
-<
-algorithm
->
 namespace
 mozilla
 {

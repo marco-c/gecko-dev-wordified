@@ -125,9 +125,11 @@ include
 "
 mozilla
 /
-net
+dom
 /
-PWebrtcTCPSocketChild
+ipc
+/
+IdType
 .
 h
 "
@@ -136,11 +138,9 @@ include
 "
 mozilla
 /
-dom
+net
 /
-ipc
-/
-IdType
+PWebrtcTCPSocketChild
 .
 h
 "

@@ -123,14 +123,14 @@ mozilla_dom_PerformanceInteractionMetrics_h__
 #
 include
 "
-nsHashtablesFwd
+PerformanceEventTiming
 .
 h
 "
 #
 include
 "
-PerformanceEventTiming
+nsHashtablesFwd
 .
 h
 "

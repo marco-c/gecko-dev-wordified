@@ -126,9 +126,7 @@ include
 "
 mozilla
 /
-dom
-/
-MouseEventBinding
+TouchEvents
 .
 h
 "
@@ -137,7 +135,9 @@ include
 "
 mozilla
 /
-TouchEvents
+dom
+/
+MouseEventBinding
 .
 h
 "

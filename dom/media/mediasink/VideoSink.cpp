@@ -129,6 +129,12 @@ high
 precision
 timers
 .
+/
+/
+clang
+-
+format
+off
 #
 include
 <
@@ -143,6 +149,12 @@ mmsystem
 .
 h
 >
+/
+/
+clang
+-
+format
+on
 #
 endif
 #

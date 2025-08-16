@@ -124,13 +124,6 @@ h
 #
 include
 "
-nsError
-.
-h
-"
-#
-include
-"
 SMILIntegerType
 .
 h
@@ -157,6 +150,13 @@ include
 mozilla
 /
 SVGContentUtils
+.
+h
+"
+#
+include
+"
+nsError
 .
 h
 "

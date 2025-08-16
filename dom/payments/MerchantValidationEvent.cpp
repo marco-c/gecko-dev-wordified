@@ -128,7 +128,9 @@ h
 #
 include
 "
-nsNetCID
+mozilla
+/
+ResultExtensions
 .
 h
 "
@@ -150,7 +152,7 @@ mozilla
 /
 dom
 /
-PaymentRequest
+Location
 .
 h
 "
@@ -161,7 +163,7 @@ mozilla
 /
 dom
 /
-Location
+PaymentRequest
 .
 h
 "
@@ -179,16 +181,14 @@ h
 #
 include
 "
-mozilla
-/
-ResultExtensions
+nsIURI
 .
 h
 "
 #
 include
 "
-nsIURI
+nsNetCID
 .
 h
 "

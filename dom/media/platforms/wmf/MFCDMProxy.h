@@ -65,11 +65,6 @@ DOM_MEDIA_PLATFORM_WMF_MFCDMPROXY_H
 #
 include
 <
-map
->
-#
-include
-<
 mfobjects
 .
 h
@@ -94,6 +89,11 @@ include
 wrl
 .
 h
+>
+#
+include
+<
+map
 >
 #
 include

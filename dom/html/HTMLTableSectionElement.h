@@ -132,13 +132,6 @@ h
 #
 include
 "
-nsGenericHTMLElement
-.
-h
-"
-#
-include
-"
 nsContentList
 .
 h
@@ -148,6 +141,13 @@ h
 For
 ctor
 .
+#
+include
+"
+nsGenericHTMLElement
+.
+h
+"
 namespace
 mozilla
 :

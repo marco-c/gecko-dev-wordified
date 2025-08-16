@@ -130,13 +130,6 @@ h
 #
 include
 "
-nsTArray
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -147,6 +140,13 @@ IWYU
 pragma
 :
 keep
+#
+include
+"
+nsTArray
+.
+h
+"
 namespace
 mozilla
 {

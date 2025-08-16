@@ -132,7 +132,7 @@ mozilla
 /
 dom
 /
-SVGTitleElementBinding
+Document
 .
 h
 "
@@ -143,7 +143,7 @@ mozilla
 /
 dom
 /
-Document
+SVGTitleElementBinding
 .
 h
 "

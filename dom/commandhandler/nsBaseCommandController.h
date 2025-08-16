@@ -123,6 +123,13 @@ nsBaseCommandController_h__
 #
 include
 "
+nsControllerCommandTable
+.
+h
+"
+#
+include
+"
 nsIController
 .
 h
@@ -145,13 +152,6 @@ h
 include
 "
 nsIWeakReferenceUtils
-.
-h
-"
-#
-include
-"
-nsControllerCommandTable
 .
 h
 "

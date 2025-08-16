@@ -125,9 +125,7 @@ include
 "
 mozilla
 /
-dom
-/
-FetchPriority
+Attributes
 .
 h
 "
@@ -136,7 +134,9 @@ include
 "
 mozilla
 /
-Attributes
+dom
+/
+FetchPriority
 .
 h
 "

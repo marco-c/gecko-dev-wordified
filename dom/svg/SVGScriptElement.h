@@ -143,7 +143,7 @@ mozilla
 /
 dom
 /
-ScriptElement
+SVGElement
 .
 h
 "
@@ -154,7 +154,7 @@ mozilla
 /
 dom
 /
-SVGElement
+ScriptElement
 .
 h
 "

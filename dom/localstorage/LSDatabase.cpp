@@ -233,13 +233,6 @@ h
 #
 include
 "
-nsTHashMap
-.
-h
-"
-#
-include
-"
 nsDebug
 .
 h
@@ -283,6 +276,13 @@ h
 include
 "
 nsTArray
+.
+h
+"
+#
+include
+"
+nsTHashMap
 .
 h
 "

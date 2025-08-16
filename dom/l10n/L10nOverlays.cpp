@@ -124,6 +124,13 @@ h
 #
 include
 "
+HTMLSplitOnSpacesTokenizer
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -157,13 +164,6 @@ h
 #
 include
 "
-HTMLSplitOnSpacesTokenizer
-.
-h
-"
-#
-include
-"
 nsHtml5StringParser
 .
 h
@@ -171,7 +171,7 @@ h
 #
 include
 "
-nsTextNode
+nsINodeList
 .
 h
 "
@@ -185,7 +185,7 @@ h
 #
 include
 "
-nsINodeList
+nsTextNode
 .
 h
 "

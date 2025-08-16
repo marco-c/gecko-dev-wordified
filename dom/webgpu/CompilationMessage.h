@@ -102,13 +102,6 @@ GPU_CompilationMessage_H_
 #
 include
 "
-nsWrapperCache
-.
-h
-"
-#
-include
-"
 ObjectModel
 .
 h
@@ -121,6 +114,13 @@ mozilla
 dom
 /
 WebGPUBinding
+.
+h
+"
+#
+include
+"
+nsWrapperCache
 .
 h
 "

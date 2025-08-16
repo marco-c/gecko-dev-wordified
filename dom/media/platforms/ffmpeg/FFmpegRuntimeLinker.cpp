@@ -115,6 +115,13 @@ MPL
 #
 include
 "
+FFmpegRuntimeLinker
+.
+h
+"
+#
+include
+"
 FFmpegLibWrapper
 .
 h
@@ -123,13 +130,6 @@ h
 include
 "
 FFmpegLog
-.
-h
-"
-#
-include
-"
-FFmpegRuntimeLinker
 .
 h
 "

@@ -130,14 +130,14 @@ h
 #
 include
 "
-txXSLTPatterns
+txXMLUtils
 .
 h
 "
 #
 include
 "
-txXMLUtils
+txXSLTPatterns
 .
 h
 "

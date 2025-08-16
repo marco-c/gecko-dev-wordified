@@ -118,14 +118,14 @@ h
 #
 include
 "
-txXMLUtils
+txNamespaceMap
 .
 h
 "
 #
 include
 "
-txNamespaceMap
+txXMLUtils
 .
 h
 "

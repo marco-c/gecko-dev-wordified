@@ -138,13 +138,6 @@ nsTraversal_h___
 #
 include
 "
-nsCOMPtr
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -161,6 +154,13 @@ mozilla
 dom
 /
 NodeFilterBinding
+.
+h
+"
+#
+include
+"
+nsCOMPtr
 .
 h
 "

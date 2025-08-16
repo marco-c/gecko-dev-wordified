@@ -128,6 +128,13 @@ h
 #
 include
 "
+OSFileSystem
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ErrorResult
@@ -160,13 +167,6 @@ h
 include
 "
 nsIFile
-.
-h
-"
-#
-include
-"
-OSFileSystem
 .
 h
 "

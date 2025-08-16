@@ -123,7 +123,7 @@ DOM_SVG_SVGCIRCLEELEMENT_H_
 #
 include
 "
-nsCSSPropertyID
+SVGAnimatedLength
 .
 h
 "
@@ -137,7 +137,7 @@ h
 #
 include
 "
-SVGAnimatedLength
+nsCSSPropertyID
 .
 h
 "

@@ -143,9 +143,7 @@ include
 "
 mozilla
 /
-dom
-/
-BindingDeclarations
+RefPtr
 .
 h
 "
@@ -154,7 +152,9 @@ include
 "
 mozilla
 /
-RefPtr
+dom
+/
+BindingDeclarations
 .
 h
 "

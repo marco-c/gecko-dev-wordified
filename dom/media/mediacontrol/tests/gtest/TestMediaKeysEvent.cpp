@@ -59,9 +59,7 @@ MPL
 #
 include
 "
-gtest
-/
-gtest
+MediaControlKeySource
 .
 h
 "
@@ -75,7 +73,9 @@ h
 #
 include
 "
-MediaControlKeySource
+gtest
+/
+gtest
 .
 h
 "

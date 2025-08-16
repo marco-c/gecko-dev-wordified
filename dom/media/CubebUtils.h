@@ -125,6 +125,13 @@ CubebUtils_h_
 #
 include
 "
+AudioSampleFormat
+.
+h
+"
+#
+include
+"
 cubeb
 /
 cubeb
@@ -134,7 +141,7 @@ h
 #
 include
 "
-AudioSampleFormat
+nsISupportsImpl
 .
 h
 "
@@ -142,13 +149,6 @@ h
 include
 "
 nsString
-.
-h
-"
-#
-include
-"
-nsISupportsImpl
 .
 h
 "

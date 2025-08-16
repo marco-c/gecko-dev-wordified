@@ -123,13 +123,6 @@ mozilla_dom_fetcheventopchild_h__
 #
 include
 "
-nsCOMPtr
-.
-h
-"
-#
-include
-"
 mozilla
 /
 MozPromise
@@ -175,6 +168,13 @@ mozilla
 dom
 /
 ServiceWorkerOpArgs
+.
+h
+"
+#
+include
+"
+nsCOMPtr
 .
 h
 "

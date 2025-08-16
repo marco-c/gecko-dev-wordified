@@ -111,7 +111,7 @@ h
 #
 include
 "
-MediaSegment
+AudioChannelFormat
 .
 h
 "
@@ -125,7 +125,7 @@ h
 #
 include
 "
-AudioChannelFormat
+MediaSegment
 .
 h
 "

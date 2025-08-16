@@ -132,14 +132,14 @@ h
 #
 include
 "
-nsGenericHTMLElement
+nsContentUtils
 .
 h
 "
 #
 include
 "
-nsContentUtils
+nsGenericHTMLElement
 .
 h
 "

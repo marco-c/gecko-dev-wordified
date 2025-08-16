@@ -121,13 +121,6 @@ DelayBuffer_h_
 #
 include
 "
-nsTArray
-.
-h
-"
-#
-include
-"
 AudioBlock
 .
 h
@@ -154,6 +147,13 @@ h
 /
 for
 ChannelInterpretation
+#
+include
+"
+nsTArray
+.
+h
+"
 namespace
 mozilla
 {

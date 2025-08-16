@@ -132,13 +132,6 @@ h
 #
 include
 "
-nsGenericHTMLElement
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -155,6 +148,13 @@ mozilla
 dom
 /
 HTMLTableSectionElement
+.
+h
+"
+#
+include
+"
+nsGenericHTMLElement
 .
 h
 "

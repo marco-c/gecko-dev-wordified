@@ -125,7 +125,7 @@ include
 "
 mozilla
 /
-RefPtr
+Mutex
 .
 h
 "
@@ -134,7 +134,7 @@ include
 "
 mozilla
 /
-Mutex
+RefPtr
 .
 h
 "

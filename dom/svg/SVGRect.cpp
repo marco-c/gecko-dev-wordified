@@ -128,6 +128,13 @@ h
 #
 include
 "
+SVGAnimatedViewBox
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -144,13 +151,6 @@ mozilla
 dom
 /
 SVGSVGElement
-.
-h
-"
-#
-include
-"
-SVGAnimatedViewBox
 .
 h
 "

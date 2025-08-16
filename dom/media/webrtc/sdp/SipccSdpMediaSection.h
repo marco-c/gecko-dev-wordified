@@ -119,6 +119,11 @@ define
 _SIPCCSDPMEDIASECTION_H_
 #
 include
+<
+map
+>
+#
+include
 "
 mozilla
 /
@@ -153,11 +158,6 @@ SipccSdpAttributeList
 .
 h
 "
-#
-include
-<
-map
->
 extern
 "
 C

@@ -125,9 +125,7 @@ include
 "
 mozilla
 /
-dom
-/
-MouseEvent
+EventForwards
 .
 h
 "
@@ -147,7 +145,9 @@ include
 "
 mozilla
 /
-EventForwards
+dom
+/
+MouseEvent
 .
 h
 "

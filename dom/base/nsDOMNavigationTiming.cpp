@@ -151,9 +151,9 @@ include
 "
 mozilla
 /
-glean
+dom
 /
-DomMetrics
+Document
 .
 h
 "
@@ -162,9 +162,9 @@ include
 "
 mozilla
 /
-dom
+glean
 /
-Document
+DomMetrics
 .
 h
 "

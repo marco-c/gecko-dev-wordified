@@ -102,7 +102,7 @@ GPU_CompilationInfo_H_
 #
 include
 "
-nsWrapperCache
+CompilationMessage
 .
 h
 "
@@ -116,7 +116,7 @@ h
 #
 include
 "
-CompilationMessage
+nsWrapperCache
 .
 h
 "

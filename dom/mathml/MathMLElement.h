@@ -123,6 +123,13 @@ mozilla_dom_MathMLElement_h_
 #
 include
 "
+Link
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -133,13 +140,6 @@ h
 include
 "
 nsStyledElement
-.
-h
-"
-#
-include
-"
-Link
 .
 h
 "

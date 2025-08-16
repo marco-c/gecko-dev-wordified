@@ -137,14 +137,14 @@ h
 #
 include
 "
-nsIMemoryReporter
+nsICloneableInputStream
 .
 h
 "
 #
 include
 "
-nsICloneableInputStream
+nsIMemoryReporter
 .
 h
 "

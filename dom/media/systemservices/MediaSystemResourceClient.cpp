@@ -115,6 +115,13 @@ MPL
 #
 include
 "
+MediaSystemResourceClient
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Monitor
@@ -127,13 +134,6 @@ include
 mozilla
 /
 ReentrantMonitor
-.
-h
-"
-#
-include
-"
-MediaSystemResourceClient
 .
 h
 "

@@ -128,13 +128,6 @@ h
 #
 include
 "
-nsPrintfCString
-.
-h
-"
-#
-include
-"
 mozilla
 /
 RefCounted
@@ -149,6 +142,13 @@ mozilla
 dom
 /
 StereoPannerNodeBinding
+.
+h
+"
+#
+include
+"
+nsPrintfCString
 .
 h
 "

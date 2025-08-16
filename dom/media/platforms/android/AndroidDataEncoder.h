@@ -65,6 +65,13 @@ DOM_MEDIA_PLATFORMS_ANDROID_ANDROIDDATAENCODER_H_
 #
 include
 "
+JavaCallbacksSupport
+.
+h
+"
+#
+include
+"
 MediaData
 .
 h
@@ -73,13 +80,6 @@ h
 include
 "
 PlatformEncoderModule
-.
-h
-"
-#
-include
-"
-JavaCallbacksSupport
 .
 h
 "

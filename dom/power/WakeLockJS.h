@@ -159,6 +159,13 @@ h
 #
 include
 "
+nsCycleCollectionParticipant
+.
+h
+"
+#
+include
+"
 nsIDOMEventListener
 .
 h
@@ -174,13 +181,6 @@ h
 include
 "
 nsIObserver
-.
-h
-"
-#
-include
-"
-nsCycleCollectionParticipant
 .
 h
 "

@@ -102,13 +102,6 @@ MOZILLA_AudioDeviceInfo_H
 #
 include
 "
-nsIAudioDeviceInfo
-.
-h
-"
-#
-include
-"
 CubebUtils
 .
 h
@@ -119,6 +112,13 @@ include
 mozilla
 /
 Maybe
+.
+h
+"
+#
+include
+"
+nsIAudioDeviceInfo
 .
 h
 "

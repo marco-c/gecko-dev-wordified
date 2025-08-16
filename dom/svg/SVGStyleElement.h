@@ -123,6 +123,13 @@ DOM_SVG_SVGSTYLEELEMENT_H_
 #
 include
 "
+SVGElement
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -137,13 +144,6 @@ mozilla
 dom
 /
 LinkStyle
-.
-h
-"
-#
-include
-"
-SVGElement
 .
 h
 "

@@ -161,13 +161,6 @@ h
 #
 include
 "
-nsIGlobalObject
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -183,6 +176,13 @@ h
 include
 "
 nsIFile
+.
+h
+"
+#
+include
+"
+nsIGlobalObject
 .
 h
 "

@@ -130,7 +130,7 @@ mozilla
 /
 dom
 /
-PerformanceTiming
+PerformanceStorage
 .
 h
 "
@@ -141,7 +141,7 @@ mozilla
 /
 dom
 /
-PerformanceStorage
+PerformanceTiming
 .
 h
 "

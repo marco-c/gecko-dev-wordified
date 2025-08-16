@@ -113,14 +113,14 @@ MITRE_XMLUTILS_H
 #
 include
 "
-txCore
+nsDependentSubstring
 .
 h
 "
 #
 include
 "
-nsDependentSubstring
+txCore
 .
 h
 "

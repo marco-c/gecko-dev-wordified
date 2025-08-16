@@ -318,7 +318,9 @@ mozilla_dom_PushManager_h
 #
 include
 "
-nsWrapperCache
+mozilla
+/
+AlreadyAddRefed
 .
 h
 "
@@ -327,7 +329,7 @@ include
 "
 mozilla
 /
-AlreadyAddRefed
+RefPtr
 .
 h
 "
@@ -363,9 +365,7 @@ h
 #
 include
 "
-mozilla
-/
-RefPtr
+nsWrapperCache
 .
 h
 "

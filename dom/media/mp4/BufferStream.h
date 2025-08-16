@@ -72,14 +72,14 @@ h
 #
 include
 "
-nsTArray
+MediaResource
 .
 h
 "
 #
 include
 "
-MediaResource
+nsTArray
 .
 h
 "

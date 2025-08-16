@@ -123,14 +123,14 @@ DirectionalityUtils_h___
 #
 include
 "
-nscore
+nsStringFwd
 .
 h
 "
 #
 include
 "
-nsStringFwd
+nscore
 .
 h
 "

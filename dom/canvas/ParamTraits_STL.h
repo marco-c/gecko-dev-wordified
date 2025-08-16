@@ -101,6 +101,11 @@ define
 MOZILLA_PARAMTRAITS_STL_H
 #
 include
+<
+memory
+>
+#
+include
 "
 ipc
 /
@@ -119,11 +124,6 @@ IPDLParamTraits
 .
 h
 "
-#
-include
-<
-memory
->
 namespace
 IPC
 {

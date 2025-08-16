@@ -83,7 +83,11 @@ h
 #
 include
 "
-nsWrapperCache
+mozilla
+/
+dom
+/
+BindingDeclarations
 .
 h
 "
@@ -101,11 +105,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-BindingDeclarations
+nsWrapperCache
 .
 h
 "

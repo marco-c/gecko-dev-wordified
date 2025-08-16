@@ -115,6 +115,13 @@ h
 #
 include
 "
+mp4parse
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -123,13 +130,6 @@ h
 include
 "
 nsTArray
-.
-h
-"
-#
-include
-"
-mp4parse
 .
 h
 "

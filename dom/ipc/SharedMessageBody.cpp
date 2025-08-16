@@ -150,7 +150,7 @@ mozilla
 /
 dom
 /
-RefMessageBodyService
+PMessagePort
 .
 h
 "
@@ -161,7 +161,7 @@ mozilla
 /
 dom
 /
-PMessagePort
+RefMessageBodyService
 .
 h
 "

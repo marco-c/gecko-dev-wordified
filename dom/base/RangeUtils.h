@@ -141,6 +141,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsIContent
 .
 h
@@ -149,13 +156,6 @@ h
 include
 "
 nsINode
-.
-h
-"
-#
-include
-"
-nsContentUtils
 .
 h
 "

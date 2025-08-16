@@ -248,7 +248,9 @@ DenormalDisabler_h
 #
 include
 <
-cmath
+float
+.
+h
 >
 #
 include
@@ -258,14 +260,12 @@ cinttypes
 #
 include
 <
-cstring
+cmath
 >
 #
 include
 <
-float
-.
-h
+cstring
 >
 namespace
 WebCore

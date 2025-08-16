@@ -335,6 +335,11 @@ LOG
 endif
 #
 include
+<
+atomic
+>
+#
+include
 "
 base
 /
@@ -342,11 +347,6 @@ thread
 .
 h
 "
-#
-include
-<
-atomic
->
 namespace
 WebCore
 {

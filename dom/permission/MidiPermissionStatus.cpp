@@ -130,9 +130,7 @@ include
 "
 mozilla
 /
-dom
-/
-PermissionStatus
+Permission
 .
 h
 "
@@ -141,7 +139,9 @@ include
 "
 mozilla
 /
-Permission
+dom
+/
+PermissionStatus
 .
 h
 "

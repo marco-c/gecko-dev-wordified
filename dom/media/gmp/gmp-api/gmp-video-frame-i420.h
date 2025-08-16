@@ -326,6 +326,13 @@ define
 GMP_VIDEO_FRAME_I420_h_
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
 gmp
 -
@@ -355,13 +362,6 @@ plane
 .
 h
 "
-#
-include
-<
-stdint
-.
-h
->
 enum
 GMPPlaneType
 {

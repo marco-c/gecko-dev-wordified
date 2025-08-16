@@ -143,6 +143,13 @@ h
 #
 include
 "
+Tracing
+.
+h
+"
+#
+include
+"
 VideoUtils
 .
 h
@@ -188,7 +195,7 @@ include
 "
 mozilla
 /
-StaticPrefs_media
+StaticPrefs_dom
 .
 h
 "
@@ -197,7 +204,7 @@ include
 "
 mozilla
 /
-StaticPrefs_dom
+StaticPrefs_media
 .
 h
 "
@@ -205,13 +212,6 @@ h
 include
 "
 nsPrintfCString
-.
-h
-"
-#
-include
-"
-Tracing
 .
 h
 "

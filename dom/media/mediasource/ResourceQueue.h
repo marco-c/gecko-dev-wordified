@@ -123,14 +123,14 @@ MOZILLA_RESOURCEQUEUE_H_
 #
 include
 "
-nsDeque
+MediaSpan
 .
 h
 "
 #
 include
 "
-MediaSpan
+nsDeque
 .
 h
 "

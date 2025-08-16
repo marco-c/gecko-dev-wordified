@@ -120,6 +120,13 @@ h
 #
 include
 "
+nsIDTD
+.
+h
+"
+#
+include
+"
 nsIExpatSink
 .
 h
@@ -149,13 +156,6 @@ h
 include
 "
 nsXULElement
-.
-h
-"
-#
-include
-"
-nsIDTD
 .
 h
 "

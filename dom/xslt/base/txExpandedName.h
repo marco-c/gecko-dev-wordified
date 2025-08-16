@@ -102,7 +102,11 @@ TRANSFRMX_EXPANDEDNAME_H
 #
 include
 "
-nsCOMPtr
+mozilla
+/
+dom
+/
+NameSpaceConstants
 .
 h
 "
@@ -116,11 +120,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-NameSpaceConstants
+nsCOMPtr
 .
 h
 "

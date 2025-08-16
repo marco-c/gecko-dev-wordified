@@ -155,14 +155,14 @@ h
 #
 include
 "
-nsTHashMap
+nsISupportsImpl
 .
 h
 "
 #
 include
 "
-nsISupportsImpl
+nsTHashMap
 .
 h
 "

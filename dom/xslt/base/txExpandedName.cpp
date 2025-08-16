@@ -103,13 +103,6 @@ h
 #
 include
 "
-nsString
-.
-h
-"
-#
-include
-"
 nsReadableUtils
 .
 h
@@ -117,7 +110,7 @@ h
 #
 include
 "
-txStringUtils
+nsString
 .
 h
 "
@@ -125,6 +118,13 @@ h
 include
 "
 txNamespaceMap
+.
+h
+"
+#
+include
+"
+txStringUtils
 .
 h
 "

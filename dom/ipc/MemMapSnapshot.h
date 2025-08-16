@@ -123,6 +123,13 @@ dom_ipc_MemMapSnapshot_h
 #
 include
 "
+ErrorList
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -143,7 +150,7 @@ include
 "
 mozilla
 /
-RefPtr
+RangedPtr
 .
 h
 "
@@ -152,7 +159,7 @@ include
 "
 mozilla
 /
-RangedPtr
+RefPtr
 .
 h
 "
@@ -173,13 +180,6 @@ mozilla
 ipc
 /
 SharedMemoryMapping
-.
-h
-"
-#
-include
-"
-ErrorList
 .
 h
 "

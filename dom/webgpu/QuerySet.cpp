@@ -96,14 +96,14 @@ MPL
 #
 include
 "
-Device
+QuerySet
 .
 h
 "
 #
 include
 "
-QuerySet
+Device
 .
 h
 "

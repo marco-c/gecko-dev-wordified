@@ -148,14 +148,14 @@ h
 #
 include
 "
-nsISupportsImpl
+nsIInputStream
 .
 h
 "
 #
 include
 "
-nsIInputStream
+nsISupportsImpl
 .
 h
 "

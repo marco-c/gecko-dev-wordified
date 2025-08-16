@@ -125,9 +125,7 @@ include
 "
 mozilla
 /
-dom
-/
-BindingDeclarations
+EventForwards
 .
 h
 "
@@ -138,7 +136,7 @@ mozilla
 /
 dom
 /
-UIEvent
+BindingDeclarations
 .
 h
 "
@@ -158,7 +156,9 @@ include
 "
 mozilla
 /
-EventForwards
+dom
+/
+UIEvent
 .
 h
 "

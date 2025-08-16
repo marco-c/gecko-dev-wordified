@@ -128,9 +128,7 @@ include
 "
 mozilla
 /
-dom
-/
-IntegrityPolicy
+Preferences
 .
 h
 "
@@ -139,7 +137,9 @@ include
 "
 mozilla
 /
-Preferences
+dom
+/
+IntegrityPolicy
 .
 h
 "

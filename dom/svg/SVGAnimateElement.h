@@ -134,9 +134,7 @@ include
 "
 mozilla
 /
-dom
-/
-SVGAnimationElement
+SMILAnimationFunction
 .
 h
 "
@@ -145,7 +143,9 @@ include
 "
 mozilla
 /
-SMILAnimationFunction
+dom
+/
+SVGAnimationElement
 .
 h
 "

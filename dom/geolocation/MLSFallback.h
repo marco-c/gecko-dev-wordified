@@ -124,14 +124,14 @@ h
 #
 include
 "
-nsITimer
+nsINamed
 .
 h
 "
 #
 include
 "
-nsINamed
+nsITimer
 .
 h
 "

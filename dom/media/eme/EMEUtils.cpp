@@ -126,7 +126,7 @@ h
 #
 include
 "
-jsfriendapi
+KeySystemConfig
 .
 h
 "
@@ -140,7 +140,7 @@ h
 #
 include
 "
-KeySystemConfig
+jsfriendapi
 .
 h
 "

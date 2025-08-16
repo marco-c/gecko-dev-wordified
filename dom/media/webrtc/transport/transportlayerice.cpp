@@ -425,14 +425,14 @@ C
 #
 include
 "
-nr_api
+ice_util
 .
 h
 "
 #
 include
 "
-ice_util
+nr_api
 .
 h
 "

@@ -142,14 +142,14 @@ h
 #
 include
 "
-nsVariant
+nsGkAtoms
 .
 h
 "
 #
 include
 "
-nsGkAtoms
+nsVariant
 .
 h
 "

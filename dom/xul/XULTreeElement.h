@@ -139,7 +139,7 @@ h
 #
 include
 "
-nsWrapperCache
+nsITreeView
 .
 h
 "
@@ -153,14 +153,14 @@ h
 #
 include
 "
-nsXULElement
+nsWrapperCache
 .
 h
 "
 #
 include
 "
-nsITreeView
+nsXULElement
 .
 h
 "

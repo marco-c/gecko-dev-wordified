@@ -213,7 +213,7 @@ mozilla
 /
 ipc
 /
-InputStreamUtils
+IPCStreamUtils
 .
 h
 "
@@ -224,7 +224,7 @@ mozilla
 /
 ipc
 /
-IPCStreamUtils
+InputStreamUtils
 .
 h
 "

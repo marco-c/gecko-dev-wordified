@@ -123,6 +123,13 @@ mozilla_EventListenerService_h_
 #
 include
 "
+EventListenerManager
+.
+h
+"
+#
+include
+"
 jsapi
 .
 h
@@ -146,7 +153,7 @@ h
 #
 include
 "
-EventListenerManager
+nsGkAtoms
 .
 h
 "
@@ -167,13 +174,6 @@ h
 #
 include
 "
-nsTObserverArray
-.
-h
-"
-#
-include
-"
 nsTHashMap
 .
 h
@@ -181,7 +181,7 @@ h
 #
 include
 "
-nsGkAtoms
+nsTObserverArray
 .
 h
 "

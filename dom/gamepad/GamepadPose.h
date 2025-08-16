@@ -136,7 +136,7 @@ mozilla
 /
 dom
 /
-Pose
+GamepadPoseState
 .
 h
 "
@@ -147,7 +147,7 @@ mozilla
 /
 dom
 /
-GamepadPoseState
+Pose
 .
 h
 "

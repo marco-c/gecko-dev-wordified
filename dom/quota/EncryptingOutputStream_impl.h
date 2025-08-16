@@ -122,13 +122,6 @@ define
 mozilla_dom_quota_EncryptingOutputStream_impl_h
 #
 include
-"
-EncryptingOutputStream
-.
-h
-"
-#
-include
 <
 algorithm
 >
@@ -141,6 +134,13 @@ utility
 include
 "
 CipherStrategy
+.
+h
+"
+#
+include
+"
+EncryptingOutputStream
 .
 h
 "

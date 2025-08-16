@@ -141,7 +141,7 @@ mozilla
 /
 dom
 /
-GeolocationPosition
+GeolocationCoordinatesBinding
 .
 h
 "
@@ -152,7 +152,7 @@ mozilla
 /
 dom
 /
-GeolocationCoordinatesBinding
+GeolocationPosition
 .
 h
 "

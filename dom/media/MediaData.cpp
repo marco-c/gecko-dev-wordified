@@ -124,6 +124,13 @@ h
 #
 include
 <
+stdint
+.
+h
+>
+#
+include
+<
 functional
 >
 #
@@ -219,13 +226,6 @@ SharedRGBImage
 .
 h
 "
-#
-include
-<
-stdint
-.
-h
->
 #
 ifdef
 XP_WIN

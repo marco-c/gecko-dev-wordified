@@ -287,6 +287,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 AudioNodeEngine
 .
@@ -301,11 +306,6 @@ PodOperations
 .
 h
 "
-#
-include
-<
-algorithm
->
 using
 namespace
 mozilla

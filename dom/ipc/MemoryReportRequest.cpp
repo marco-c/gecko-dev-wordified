@@ -117,13 +117,6 @@ MPL
 #
 include
 "
-nsMemoryReporterManager
-.
-h
-"
-#
-include
-"
 MemoryReportRequest
 .
 h
@@ -147,6 +140,13 @@ mozilla
 ipc
 /
 FileDescriptorUtils
+.
+h
+"
+#
+include
+"
+nsMemoryReporterManager
 .
 h
 "

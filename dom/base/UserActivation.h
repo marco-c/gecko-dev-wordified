@@ -157,14 +157,14 @@ h
 #
 include
 "
-nsWrapperCache
+nsPIDOMWindow
 .
 h
 "
 #
 include
 "
-nsPIDOMWindow
+nsWrapperCache
 .
 h
 "

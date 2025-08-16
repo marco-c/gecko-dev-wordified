@@ -166,13 +166,6 @@ map
 #
 include
 "
-content_decryption_module
-.
-h
-"
-#
-include
-"
 ClearKeyUtils
 .
 h
@@ -181,6 +174,13 @@ h
 include
 "
 RefCounted
+.
+h
+"
+#
+include
+"
+content_decryption_module
 .
 h
 "

@@ -123,6 +123,13 @@ DOM_QUOTA_QUOTADATABASEHELPER_H
 #
 include
 "
+mozIStorageConnection
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -130,13 +137,6 @@ dom
 quota
 /
 QuotaCommon
-.
-h
-"
-#
-include
-"
-mozIStorageConnection
 .
 h
 "

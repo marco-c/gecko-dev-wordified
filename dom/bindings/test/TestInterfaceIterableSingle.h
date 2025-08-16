@@ -130,14 +130,14 @@ h
 #
 include
 "
-nsWrapperCache
+nsTArray
 .
 h
 "
 #
 include
 "
-nsTArray
+nsWrapperCache
 .
 h
 "

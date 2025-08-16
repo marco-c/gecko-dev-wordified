@@ -123,6 +123,13 @@ ChannelMediaDecoder_h_
 #
 include
 "
+MediaChannelStatistics
+.
+h
+"
+#
+include
+"
 MediaDecoder
 .
 h
@@ -131,13 +138,6 @@ h
 include
 "
 MediaResourceCallback
-.
-h
-"
-#
-include
-"
-MediaChannelStatistics
 .
 h
 "

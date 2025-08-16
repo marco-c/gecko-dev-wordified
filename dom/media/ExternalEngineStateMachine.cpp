@@ -103,6 +103,13 @@ endif
 #
 include
 "
+VideoUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 AppShutdown
@@ -141,7 +148,7 @@ include
 "
 mozilla
 /
-UniquePtr
+StaticMutex
 .
 h
 "
@@ -150,7 +157,7 @@ include
 "
 mozilla
 /
-StaticMutex
+UniquePtr
 .
 h
 "
@@ -176,13 +183,6 @@ h
 include
 "
 nsThreadUtils
-.
-h
-"
-#
-include
-"
-VideoUtils
 .
 h
 "

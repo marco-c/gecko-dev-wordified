@@ -113,11 +113,6 @@ MPL
 /
 #
 include
-<
-type_traits
->
-#
-include
 "
 sdp
 /
@@ -125,6 +120,11 @@ SdpLog
 .
 h
 "
+#
+include
+<
+type_traits
+>
 #
 include
 "

@@ -125,7 +125,7 @@ include
 "
 mozilla
 /
-GlobalTeardownObserver
+GlobalFreezeObserver
 .
 h
 "
@@ -134,7 +134,7 @@ include
 "
 mozilla
 /
-GlobalFreezeObserver
+GlobalTeardownObserver
 .
 h
 "

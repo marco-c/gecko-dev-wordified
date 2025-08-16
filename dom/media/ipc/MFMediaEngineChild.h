@@ -97,7 +97,7 @@ include
 "
 mozilla
 /
-PMFMediaEngineChild
+NotNull
 .
 h
 "
@@ -106,7 +106,7 @@ include
 "
 mozilla
 /
-NotNull
+PMFMediaEngineChild
 .
 h
 "

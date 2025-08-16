@@ -199,14 +199,14 @@ h
 #
 include
 "
-nsWrapperCache
+nsIGlobalObject
 .
 h
 "
 #
 include
 "
-nsIGlobalObject
+nsWrapperCache
 .
 h
 "

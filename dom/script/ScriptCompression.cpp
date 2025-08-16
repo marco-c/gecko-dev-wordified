@@ -117,13 +117,6 @@ MPL
 #
 include
 "
-zlib
-.
-h
-"
-#
-include
-"
 ScriptLoadRequest
 .
 h
@@ -149,7 +142,7 @@ include
 "
 mozilla
 /
-ProfilerMarkers
+Preferences
 .
 h
 "
@@ -158,7 +151,7 @@ include
 "
 mozilla
 /
-Vector
+ProfilerMarkers
 .
 h
 "
@@ -176,7 +169,7 @@ include
 "
 mozilla
 /
-Preferences
+StaticPrefs_browser
 .
 h
 "
@@ -185,7 +178,14 @@ include
 "
 mozilla
 /
-StaticPrefs_browser
+Vector
+.
+h
+"
+#
+include
+"
+zlib
 .
 h
 "

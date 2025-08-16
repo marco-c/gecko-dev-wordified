@@ -102,14 +102,14 @@ ExternalTexture_H_
 #
 include
 "
-nsIGlobalObject
+ObjectModel
 .
 h
 "
 #
 include
 "
-ObjectModel
+nsIGlobalObject
 .
 h
 "

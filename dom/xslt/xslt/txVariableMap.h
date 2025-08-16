@@ -109,7 +109,7 @@ h
 #
 include
 "
-txXMLUtils
+txExpandedNameMap
 .
 h
 "
@@ -123,7 +123,7 @@ h
 #
 include
 "
-txExpandedNameMap
+txXMLUtils
 .
 h
 "

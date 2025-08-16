@@ -127,6 +127,17 @@ mozilla
 /
 dom
 /
+BindingDeclarations
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 JSActor
 .
 h
@@ -298,7 +309,6 @@ other
 side
 asynchronously
 .
-virtual
 void
 SendRawMessage
 (

@@ -67,9 +67,7 @@ include
 "
 mozilla
 /
-dom
-/
-CanvasRenderingContext2DBinding
+RefPtr
 .
 h
 "
@@ -78,7 +76,9 @@ include
 "
 mozilla
 /
-RefPtr
+dom
+/
+CanvasRenderingContext2DBinding
 .
 h
 "

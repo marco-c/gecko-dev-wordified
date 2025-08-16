@@ -123,7 +123,11 @@ nsIDocumentObserver_h___
 #
 include
 "
-nsISupports
+mozilla
+/
+dom
+/
+RustTypes
 .
 h
 "
@@ -137,11 +141,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-RustTypes
+nsISupports
 .
 h
 "

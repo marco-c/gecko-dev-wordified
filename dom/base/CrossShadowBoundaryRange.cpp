@@ -135,6 +135,13 @@ h
 #
 include
 "
+nsIContentInlines
+.
+h
+"
+#
+include
+"
 nsINode
 .
 h
@@ -143,13 +150,6 @@ h
 include
 "
 nsRange
-.
-h
-"
-#
-include
-"
-nsIContentInlines
 .
 h
 "

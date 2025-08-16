@@ -131,13 +131,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 Performance
 .
 h
@@ -172,6 +165,13 @@ mozilla
 dom
 /
 PerformanceMarkBinding
+.
+h
+"
+#
+include
+"
+nsContentUtils
 .
 h
 "

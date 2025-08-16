@@ -123,6 +123,13 @@ mozilla_dom_VisualViewport_h
 #
 include
 "
+Units
+.
+h
+"
+#
+include
+"
 mozilla
 /
 DOMEventTargetHelper
@@ -146,13 +153,6 @@ mozilla
 dom
 /
 VisualViewportBinding
-.
-h
-"
-#
-include
-"
-Units
 .
 h
 "

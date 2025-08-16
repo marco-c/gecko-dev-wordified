@@ -102,6 +102,13 @@ GPU_Error_H_
 #
 include
 "
+ObjectModel
+.
+h
+"
+#
+include
+"
 js
 /
 Value
@@ -128,13 +135,6 @@ h
 include
 "
 nsString
-.
-h
-"
-#
-include
-"
-ObjectModel
 .
 h
 "

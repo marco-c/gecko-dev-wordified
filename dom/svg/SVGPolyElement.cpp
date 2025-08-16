@@ -131,6 +131,13 @@ h
 #
 include
 "
+SVGContentUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -147,13 +154,6 @@ mozilla
 gfx
 /
 2D
-.
-h
-"
-#
-include
-"
-SVGContentUtils
 .
 h
 "

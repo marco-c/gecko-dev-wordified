@@ -70,6 +70,13 @@ vector
 #
 include
 "
+BufferReader
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Maybe
@@ -82,13 +89,6 @@ include
 mozilla
 /
 Result
-.
-h
-"
-#
-include
-"
-BufferReader
 .
 h
 "

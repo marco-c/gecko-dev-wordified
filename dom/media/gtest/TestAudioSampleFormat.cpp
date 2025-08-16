@@ -96,6 +96,11 @@ MPL
 /
 #
 include
+<
+type_traits
+>
+#
+include
 "
 AudioSampleFormat
 .
@@ -110,11 +115,6 @@ gtest
 .
 h
 "
-#
-include
-<
-type_traits
->
 using
 namespace
 mozilla

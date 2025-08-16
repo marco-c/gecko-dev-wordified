@@ -128,14 +128,14 @@ h
 #
 include
 "
-nsIDOMEventListener
+nsCycleCollectionParticipant
 .
 h
 "
 #
 include
 "
-nsCycleCollectionParticipant
+nsIDOMEventListener
 .
 h
 "

@@ -168,9 +168,7 @@ include
 "
 mozilla
 /
-dom
-/
-WorkerRef
+ProfilerMarkers
 .
 h
 "
@@ -179,7 +177,9 @@ include
 "
 mozilla
 /
-ProfilerMarkers
+dom
+/
+WorkerRef
 .
 h
 "

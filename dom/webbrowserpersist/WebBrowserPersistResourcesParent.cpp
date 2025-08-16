@@ -101,13 +101,6 @@ h
 #
 include
 "
-nsThreadUtils
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -146,6 +139,13 @@ mozilla
 dom
 /
 WindowGlobalParent
+.
+h
+"
+#
+include
+"
+nsThreadUtils
 .
 h
 "

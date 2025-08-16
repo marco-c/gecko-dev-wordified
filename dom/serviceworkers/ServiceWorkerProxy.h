@@ -123,14 +123,14 @@ moz_dom_ServiceWorkerProxy_h
 #
 include
 "
-nsProxyRelease
+ServiceWorkerDescriptor
 .
 h
 "
 #
 include
 "
-ServiceWorkerDescriptor
+nsProxyRelease
 .
 h
 "

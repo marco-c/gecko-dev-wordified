@@ -138,6 +138,13 @@ h
 #
 include
 "
+OriginInfo
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -168,7 +175,7 @@ dom
 /
 quota
 /
-OriginDirectoryLock
+NotifyUtils
 .
 h
 "
@@ -181,7 +188,7 @@ dom
 /
 quota
 /
-NotifyUtils
+OriginDirectoryLock
 .
 h
 "
@@ -206,13 +213,6 @@ mozilla
 ipc
 /
 BackgroundParent
-.
-h
-"
-#
-include
-"
-OriginInfo
 .
 h
 "

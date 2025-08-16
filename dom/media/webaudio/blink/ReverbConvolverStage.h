@@ -294,13 +294,6 @@ h
 #
 include
 "
-nsTArray
-.
-h
-"
-#
-include
-"
 mozilla
 /
 FFTBlock
@@ -322,6 +315,13 @@ include
 mozilla
 /
 UniquePtr
+.
+h
+"
+#
+include
+"
+nsTArray
 .
 h
 "

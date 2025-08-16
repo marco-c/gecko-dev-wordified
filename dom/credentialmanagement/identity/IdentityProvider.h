@@ -152,6 +152,13 @@ h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsIGlobalObject
 .
 h
@@ -167,13 +174,6 @@ h
 include
 "
 nsWrapperCache
-.
-h
-"
-#
-include
-"
-nsCOMPtr
 .
 h
 "

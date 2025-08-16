@@ -125,9 +125,7 @@ include
 "
 mozilla
 /
-dom
-/
-PerformanceEntry
+ProfilerMarkers
 .
 h
 "
@@ -136,7 +134,9 @@ include
 "
 mozilla
 /
-ProfilerMarkers
+dom
+/
+PerformanceEntry
 .
 h
 "

@@ -138,7 +138,7 @@ mozilla
 /
 dom
 /
-PURLClassifierLocalChild
+PURLClassifierLocalByNameChild
 .
 h
 "
@@ -149,7 +149,7 @@ mozilla
 /
 dom
 /
-PURLClassifierLocalByNameChild
+PURLClassifierLocalChild
 .
 h
 "

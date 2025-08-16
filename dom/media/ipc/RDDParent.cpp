@@ -189,14 +189,14 @@ endif
 #
 include
 "
-gfxConfig
+MediaCodecsSupport
 .
 h
 "
 #
 include
 "
-MediaCodecsSupport
+gfxConfig
 .
 h
 "

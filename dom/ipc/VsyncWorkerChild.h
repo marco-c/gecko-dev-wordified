@@ -125,9 +125,7 @@ include
 "
 mozilla
 /
-dom
-/
-VsyncChild
+RefPtr
 .
 h
 "
@@ -136,7 +134,9 @@ include
 "
 mozilla
 /
-RefPtr
+dom
+/
+VsyncChild
 .
 h
 "

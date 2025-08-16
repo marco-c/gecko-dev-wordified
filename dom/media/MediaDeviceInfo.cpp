@@ -72,9 +72,7 @@ include
 "
 mozilla
 /
-dom
-/
-MediaStreamBinding
+MediaManager
 .
 h
 "
@@ -83,7 +81,9 @@ include
 "
 mozilla
 /
-MediaManager
+dom
+/
+MediaStreamBinding
 .
 h
 "

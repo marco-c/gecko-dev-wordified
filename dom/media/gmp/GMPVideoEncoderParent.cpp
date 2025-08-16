@@ -147,9 +147,7 @@ include
 "
 mozilla
 /
-gmp
-/
-GMPTypes
+Unused
 .
 h
 "
@@ -158,7 +156,9 @@ include
 "
 mozilla
 /
-Unused
+gmp
+/
+GMPTypes
 .
 h
 "

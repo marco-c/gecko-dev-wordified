@@ -123,7 +123,7 @@ nsINodeList_h___
 #
 include
 "
-nsWrapperCache
+nsIContent
 .
 h
 "
@@ -137,7 +137,7 @@ h
 #
 include
 "
-nsIContent
+nsWrapperCache
 .
 h
 "

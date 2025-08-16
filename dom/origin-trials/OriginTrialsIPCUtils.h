@@ -123,9 +123,9 @@ mozilla_OriginTrialsIPCUtils_h
 #
 include
 "
-mozilla
+ipc
 /
-OriginTrials
+EnumSerializer
 .
 h
 "
@@ -141,9 +141,9 @@ h
 #
 include
 "
-ipc
+mozilla
 /
-EnumSerializer
+OriginTrials
 .
 h
 "

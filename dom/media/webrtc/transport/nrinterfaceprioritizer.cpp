@@ -58,6 +58,13 @@ MPL
 /
 #
 include
+"
+nrinterfaceprioritizer
+.
+h
+"
+#
+include
 <
 algorithm
 >
@@ -92,13 +99,6 @@ h
 include
 "
 nr_api
-.
-h
-"
-#
-include
-"
-nrinterfaceprioritizer
 .
 h
 "

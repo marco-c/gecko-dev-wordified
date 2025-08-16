@@ -102,14 +102,14 @@ TRANSFRMX_OUTPUTFORMAT_H
 #
 include
 "
-txList
+nsString
 .
 h
 "
 #
 include
 "
-nsString
+txList
 .
 h
 "

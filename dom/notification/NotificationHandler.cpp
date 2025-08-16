@@ -178,6 +178,8 @@ mozilla
 dom
 /
 Promise
+-
+inl
 .
 h
 "
@@ -189,8 +191,6 @@ mozilla
 dom
 /
 Promise
--
-inl
 .
 h
 "
@@ -1070,6 +1070,11 @@ nullptr
 )
 )
 ;
+if
+(
+aResult
+)
+{
 result
 .
 forget
@@ -1077,6 +1082,7 @@ forget
 aResult
 )
 ;
+}
 return
 NS_OK
 ;

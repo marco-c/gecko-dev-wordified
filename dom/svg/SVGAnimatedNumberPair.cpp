@@ -124,13 +124,6 @@ h
 #
 include
 "
-nsCharSeparatedTokenizer
-.
-h
-"
-#
-include
-"
 SVGAttrTearoffTable
 .
 h
@@ -157,6 +150,13 @@ include
 mozilla
 /
 SVGContentUtils
+.
+h
+"
+#
+include
+"
+nsCharSeparatedTokenizer
 .
 h
 "

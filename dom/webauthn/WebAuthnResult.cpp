@@ -59,13 +59,6 @@ MPL
 #
 include
 "
-AuthrsBridge_ffi
-.
-h
-"
-#
-include
-"
 WebAuthnResult
 .
 h
@@ -73,7 +66,7 @@ h
 #
 include
 "
-nsIWebAuthnAttObj
+AuthrsBridge_ffi
 .
 h
 "
@@ -81,6 +74,13 @@ h
 include
 "
 nsCOMPtr
+.
+h
+"
+#
+include
+"
+nsIWebAuthnAttObj
 .
 h
 "

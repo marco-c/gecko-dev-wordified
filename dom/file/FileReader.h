@@ -141,6 +141,13 @@ h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsIAsyncInputStream
 .
 h
@@ -163,13 +170,6 @@ h
 include
 "
 nsITimer
-.
-h
-"
-#
-include
-"
-nsCOMPtr
 .
 h
 "

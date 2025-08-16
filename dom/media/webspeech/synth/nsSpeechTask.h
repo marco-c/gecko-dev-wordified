@@ -121,14 +121,14 @@ mozilla_dom_nsSpeechTask_h
 #
 include
 "
-SpeechSynthesisUtterance
+AudioChannelAgent
 .
 h
 "
 #
 include
 "
-AudioChannelAgent
+SpeechSynthesisUtterance
 .
 h
 "

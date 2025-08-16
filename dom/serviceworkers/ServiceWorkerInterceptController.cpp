@@ -124,6 +124,13 @@ h
 #
 include
 "
+ServiceWorkerManager
+.
+h
+"
+#
+include
+"
 mozilla
 /
 BasePrincipal
@@ -224,13 +231,6 @@ h
 include
 "
 nsICookieJarSettings
-.
-h
-"
-#
-include
-"
-ServiceWorkerManager
 .
 h
 "

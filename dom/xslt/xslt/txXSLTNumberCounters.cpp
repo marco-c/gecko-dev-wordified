@@ -96,13 +96,6 @@ MPL
 #
 include
 "
-txXSLTNumber
-.
-h
-"
-#
-include
-"
 nsReadableUtils
 .
 h
@@ -111,6 +104,13 @@ h
 include
 "
 txCore
+.
+h
+"
+#
+include
+"
+txXSLTNumber
 .
 h
 "

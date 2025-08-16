@@ -144,13 +144,6 @@ h
 #
 include
 "
-nsIDocumentEncoder
-.
-h
-"
-#
-include
-"
 nsComponentManagerUtils
 .
 h
@@ -166,6 +159,13 @@ h
 include
 "
 nsError
+.
+h
+"
+#
+include
+"
+nsIDocumentEncoder
 .
 h
 "

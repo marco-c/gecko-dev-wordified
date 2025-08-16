@@ -130,13 +130,6 @@ h
 #
 include
 "
-nsAttrValue
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Atomics
@@ -169,6 +162,13 @@ mozilla
 dom
 /
 DOMString
+.
+h
+"
+#
+include
+"
+nsAttrValue
 .
 h
 "

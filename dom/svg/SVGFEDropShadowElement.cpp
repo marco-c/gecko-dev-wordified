@@ -130,9 +130,7 @@ include
 "
 mozilla
 /
-dom
-/
-SVGFEDropShadowElementBinding
+SVGFilterInstance
 .
 h
 "
@@ -141,7 +139,9 @@ include
 "
 mozilla
 /
-SVGFilterInstance
+dom
+/
+SVGFEDropShadowElementBinding
 .
 h
 "

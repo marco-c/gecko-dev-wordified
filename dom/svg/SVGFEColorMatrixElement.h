@@ -123,14 +123,14 @@ DOM_SVG_SVGFECOLORMATRIXELEMENT_H_
 #
 include
 "
-SVGAnimatedNumberList
+SVGAnimatedEnumeration
 .
 h
 "
 #
 include
 "
-SVGAnimatedEnumeration
+SVGAnimatedNumberList
 .
 h
 "

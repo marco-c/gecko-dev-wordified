@@ -123,13 +123,6 @@ mozilla_dom_WorkerEventTarget_h
 #
 include
 "
-nsISerialEventTarget
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Mutex
@@ -144,6 +137,13 @@ mozilla
 dom
 /
 WorkerPrivate
+.
+h
+"
+#
+include
+"
+nsISerialEventTarget
 .
 h
 "

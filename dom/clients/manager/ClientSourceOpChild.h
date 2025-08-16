@@ -123,6 +123,13 @@ _mozilla_dom_ClientSourceOpChild_h
 #
 include
 "
+ClientOpPromise
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -139,13 +146,6 @@ mozilla
 dom
 /
 PClientSourceOpChild
-.
-h
-"
-#
-include
-"
-ClientOpPromise
 .
 h
 "

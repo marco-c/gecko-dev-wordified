@@ -123,7 +123,9 @@ mozilla_dom_OsxSpeechSynthesizerService_h
 #
 include
 "
-nsISpeechService
+mozilla
+/
+StaticPtr
 .
 h
 "
@@ -137,9 +139,7 @@ h
 #
 include
 "
-mozilla
-/
-StaticPtr
+nsISpeechService
 .
 h
 "

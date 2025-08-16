@@ -134,7 +134,11 @@ h
 #
 include
 "
-nsTArray
+mozilla
+/
+dom
+/
+TimeoutBudgetManager
 .
 h
 "
@@ -148,11 +152,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-TimeoutBudgetManager
+nsTArray
 .
 h
 "

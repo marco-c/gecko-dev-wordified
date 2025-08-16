@@ -311,6 +311,13 @@ define
 GMP_PLATFORM_h_
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
 gmp
 -
@@ -327,13 +334,6 @@ storage
 .
 h
 "
-#
-include
-<
-stdint
-.
-h
->
 /
 *
 Platform

@@ -119,9 +119,7 @@ include
 "
 mozilla
 /
-gfx
-/
-Logging
+StaticMutex
 .
 h
 "
@@ -130,7 +128,9 @@ include
 "
 mozilla
 /
-StaticMutex
+gfx
+/
+Logging
 .
 h
 "

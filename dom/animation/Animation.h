@@ -130,13 +130,6 @@ h
 #
 include
 "
-nsCycleCollectionParticipant
-.
-h
-"
-#
-include
-"
 mozilla
 /
 AnimatedPropertyIDSet
@@ -268,6 +261,13 @@ mozilla
 dom
 /
 AnimationTimeline
+.
+h
+"
+#
+include
+"
+nsCycleCollectionParticipant
 .
 h
 "

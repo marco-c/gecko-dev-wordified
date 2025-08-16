@@ -137,13 +137,6 @@ h
 #
 include
 "
-nsAttrValueInlines
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -160,6 +153,13 @@ mozilla
 dom
 /
 HTMLTableSectionElementBinding
+.
+h
+"
+#
+include
+"
+nsAttrValueInlines
 .
 h
 "

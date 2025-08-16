@@ -117,14 +117,14 @@ MPL
 #
 include
 "
-WorkerPrivate
+ChromeWorkerScope
 .
 h
 "
 #
 include
 "
-ChromeWorkerScope
+WorkerPrivate
 .
 h
 "

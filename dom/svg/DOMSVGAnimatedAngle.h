@@ -123,13 +123,6 @@ DOM_SVG_DOMSVGANIMATEDANGLE_H_
 #
 include
 "
-nsWrapperCache
-.
-h
-"
-#
-include
-"
 SVGElement
 .
 h
@@ -140,6 +133,13 @@ include
 mozilla
 /
 Attributes
+.
+h
+"
+#
+include
+"
+nsWrapperCache
 .
 h
 "

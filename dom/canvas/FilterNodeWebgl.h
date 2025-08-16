@@ -122,6 +122,11 @@ define
 MOZILLA_GFX_FILTERNODEWEBGL_H_
 #
 include
+<
+vector
+>
+#
+include
 "
 mozilla
 /
@@ -142,11 +147,6 @@ PatternHelpers
 .
 h
 "
-#
-include
-<
-vector
->
 namespace
 mozilla
 :

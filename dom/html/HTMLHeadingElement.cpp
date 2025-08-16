@@ -130,9 +130,7 @@ include
 "
 mozilla
 /
-dom
-/
-HTMLHeadingElementBinding
+MappedDeclarationsBuilder
 .
 h
 "
@@ -141,7 +139,9 @@ include
 "
 mozilla
 /
-MappedDeclarationsBuilder
+dom
+/
+HTMLHeadingElementBinding
 .
 h
 "

@@ -143,14 +143,14 @@ h
 #
 include
 "
-RemoteMediaManagerChild
+RemoteMediaDataDecoder
 .
 h
 "
 #
 include
 "
-RemoteMediaDataDecoder
+RemoteMediaManagerChild
 .
 h
 "

@@ -116,13 +116,6 @@ h
 #
 include
 "
-nsUnicharUtils
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
@@ -134,6 +127,13 @@ ASCIIToLower
 (
 )
 .
+#
+include
+"
+nsUnicharUtils
+.
+h
+"
 /
 *
 *

@@ -123,13 +123,6 @@ mozilla_dom_WindowFeatures_h
 #
 include
 "
-nsString
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Assertions
@@ -154,6 +147,13 @@ mozilla
 :
 :
 HashMap
+#
+include
+"
+nsString
+.
+h
+"
 #
 include
 "

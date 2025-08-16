@@ -102,6 +102,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 txLog
 .
@@ -114,11 +119,6 @@ txXPathTreeWalker
 .
 h
 "
-#
-include
-<
-algorithm
->
 /
 *
 *

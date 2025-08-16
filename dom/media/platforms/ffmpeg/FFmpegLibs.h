@@ -180,7 +180,7 @@ include
 "
 libavutil
 /
-hwcontext_vaapi
+hwcontext_drm
 .
 h
 "
@@ -189,7 +189,7 @@ include
 "
 libavutil
 /
-hwcontext_drm
+hwcontext_vaapi
 .
 h
 "

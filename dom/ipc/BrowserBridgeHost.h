@@ -127,7 +127,7 @@ mozilla
 /
 dom
 /
-RemoteBrowser
+BrowserBridgeChild
 .
 h
 "
@@ -138,7 +138,7 @@ mozilla
 /
 dom
 /
-BrowserBridgeChild
+RemoteBrowser
 .
 h
 "

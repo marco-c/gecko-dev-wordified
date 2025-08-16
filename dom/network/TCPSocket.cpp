@@ -117,14 +117,14 @@ MPL
 #
 include
 "
-TCPServerSocket
+TCPSocket
 .
 h
 "
 #
 include
 "
-TCPSocket
+TCPServerSocket
 .
 h
 "

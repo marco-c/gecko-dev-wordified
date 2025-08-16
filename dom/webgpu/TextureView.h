@@ -102,13 +102,6 @@ GPU_TextureView_H_
 #
 include
 "
-nsWrapperCache
-.
-h
-"
-#
-include
-"
 CanvasContext
 .
 h
@@ -128,6 +121,13 @@ mozilla
 webgpu
 /
 WebGPUTypes
+.
+h
+"
+#
+include
+"
+nsWrapperCache
 .
 h
 "

@@ -123,7 +123,11 @@ nsMimeTypeArray_h___
 #
 include
 "
-nsWrapperCache
+mozilla
+/
+dom
+/
+BindingDeclarations
 .
 h
 "
@@ -151,11 +155,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-BindingDeclarations
+nsWrapperCache
 .
 h
 "

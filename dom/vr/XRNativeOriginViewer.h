@@ -123,14 +123,14 @@ mozilla_dom_XRNativeOriginViewer_h_
 #
 include
 "
-gfxVR
+XRNativeOrigin
 .
 h
 "
 #
 include
 "
-XRNativeOrigin
+gfxVR
 .
 h
 "

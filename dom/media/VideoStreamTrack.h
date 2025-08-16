@@ -102,14 +102,14 @@ VIDEOSTREAMTRACK_H_
 #
 include
 "
-MediaStreamTrack
+DOMMediaStream
 .
 h
 "
 #
 include
 "
-DOMMediaStream
+MediaStreamTrack
 .
 h
 "

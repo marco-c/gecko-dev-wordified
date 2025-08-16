@@ -128,13 +128,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 js
 /
 CallAndConstruct
@@ -169,6 +162,13 @@ h
 /
 JS_GetProperty
 JS_GetPropertyById
+#
+include
+"
+jsapi
+.
+h
+"
 #
 include
 "

@@ -135,6 +135,13 @@ define
 GMP_STORAGE_h_
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
 gmp
 -
@@ -142,13 +149,6 @@ errors
 .
 h
 "
-#
-include
-<
-stdint
-.
-h
->
 /
 /
 Maximum

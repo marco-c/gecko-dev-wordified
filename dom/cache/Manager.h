@@ -123,6 +123,13 @@ mozilla_dom_cache_Manager_h
 #
 include
 "
+CacheCommon
+.
+h
+"
+#
+include
+"
 mozilla
 /
 RefPtr
@@ -176,13 +183,6 @@ dom
 quota
 /
 StringifyUtils
-.
-h
-"
-#
-include
-"
-CacheCommon
 .
 h
 "

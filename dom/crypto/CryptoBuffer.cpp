@@ -124,13 +124,6 @@ h
 #
 include
 "
-secitem
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Base64
@@ -156,6 +149,13 @@ mozilla
 dom
 /
 UnionTypes
+.
+h
+"
+#
+include
+"
+secitem
 .
 h
 "

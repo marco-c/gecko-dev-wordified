@@ -145,14 +145,14 @@ h
 #
 include
 "
-nsThreadUtils
+nsTObserverArray
 .
 h
 "
 #
 include
 "
-nsTObserverArray
+nsThreadUtils
 .
 h
 "

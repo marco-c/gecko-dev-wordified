@@ -284,14 +284,14 @@ h
 #
 include
 "
-nsThreadUtils
+nsGlobalWindowInner
 .
 h
 "
 #
 include
 "
-nsGlobalWindowInner
+nsThreadUtils
 .
 h
 "

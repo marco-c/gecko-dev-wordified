@@ -65,9 +65,9 @@ _RTCDtlsTransport_h_
 #
 include
 "
-mozilla
+js
 /
-DOMEventTargetHelper
+RootingAPI
 .
 h
 "
@@ -76,9 +76,7 @@ include
 "
 mozilla
 /
-dom
-/
-RTCIceTransport
+DOMEventTargetHelper
 .
 h
 "
@@ -94,9 +92,11 @@ h
 #
 include
 "
-js
+mozilla
 /
-RootingAPI
+dom
+/
+RTCIceTransport
 .
 h
 "

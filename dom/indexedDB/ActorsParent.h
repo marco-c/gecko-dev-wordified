@@ -134,9 +134,7 @@ include
 "
 mozilla
 /
-dom
-/
-PBrowserParent
+RefPtr
 .
 h
 "
@@ -145,7 +143,9 @@ include
 "
 mozilla
 /
-RefPtr
+dom
+/
+PBrowserParent
 .
 h
 "

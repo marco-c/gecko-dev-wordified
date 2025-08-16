@@ -123,14 +123,14 @@ DOM_SVG_DOMSVGANIMATEDINTEGER_H_
 #
 include
 "
-nsWrapperCache
+SVGElement
 .
 h
 "
 #
 include
 "
-SVGElement
+nsWrapperCache
 .
 h
 "

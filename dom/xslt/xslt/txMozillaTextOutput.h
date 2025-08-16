@@ -102,13 +102,6 @@ TRANSFRMX_MOZILLA_TEXT_OUTPUT_H
 #
 include
 "
-txXMLEventHandler
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -124,6 +117,13 @@ h
 include
 "
 txOutputFormat
+.
+h
+"
+#
+include
+"
+txXMLEventHandler
 .
 h
 "

@@ -133,14 +133,14 @@ h
 #
 include
 "
-nsIBrowserDOMWindow
+nsFrameLoaderOwner
 .
 h
 "
 #
 include
 "
-nsFrameLoaderOwner
+nsIBrowserDOMWindow
 .
 h
 "

@@ -125,9 +125,7 @@ include
 "
 mozilla
 /
-dom
-/
-PWindowsUtilsParent
+ProcInfo
 .
 h
 "
@@ -136,7 +134,9 @@ include
 "
 mozilla
 /
-ProcInfo
+dom
+/
+PWindowsUtilsParent
 .
 h
 "

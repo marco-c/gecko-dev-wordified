@@ -123,14 +123,14 @@ mozilla_dom_TestInterfaceMaplikeObject_h
 #
 include
 "
-nsWrapperCache
+nsCOMPtr
 .
 h
 "
 #
 include
 "
-nsCOMPtr
+nsWrapperCache
 .
 h
 "

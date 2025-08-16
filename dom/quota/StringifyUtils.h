@@ -132,14 +132,14 @@ h
 #
 include
 "
-nsTHashSet
+nsLiteralString
 .
 h
 "
 #
 include
 "
-nsLiteralString
+nsTHashSet
 .
 h
 "

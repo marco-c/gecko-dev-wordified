@@ -126,9 +126,7 @@ include
 "
 mozilla
 /
-dom
-/
-GamepadHandle
+Tainting
 .
 h
 "
@@ -137,7 +135,9 @@ include
 "
 mozilla
 /
-Tainting
+dom
+/
+GamepadHandle
 .
 h
 "

@@ -117,6 +117,13 @@ MPL
 #
 include
 "
+QuotaManagerDependencyFixture
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -151,13 +158,6 @@ h
 include
 "
 nsITelemetry
-.
-h
-"
-#
-include
-"
-QuotaManagerDependencyFixture
 .
 h
 "

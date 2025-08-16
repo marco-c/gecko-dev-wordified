@@ -124,7 +124,9 @@ h
 #
 include
 "
-jsapi
+js
+/
+MemoryFunctions
 .
 h
 "
@@ -168,9 +170,7 @@ SetCTypesCallbacks
 #
 include
 "
-js
-/
-MemoryFunctions
+jsapi
 .
 h
 "

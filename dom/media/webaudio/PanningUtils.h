@@ -121,14 +121,14 @@ PANNING_UTILS_H
 #
 include
 "
-AudioSegment
+AudioNodeEngine
 .
 h
 "
 #
 include
 "
-AudioNodeEngine
+AudioSegment
 .
 h
 "

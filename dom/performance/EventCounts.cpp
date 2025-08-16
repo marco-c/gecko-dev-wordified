@@ -117,13 +117,6 @@ MPL
 #
 include
 "
-nsIGlobalObject
-.
-h
-"
-#
-include
-"
 EventCounts
 .
 h
@@ -167,6 +160,13 @@ mozilla
 dom
 /
 PerformanceEventTimingBinding
+.
+h
+"
+#
+include
+"
+nsIGlobalObject
 .
 h
 "

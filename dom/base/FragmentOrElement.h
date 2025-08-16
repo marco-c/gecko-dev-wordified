@@ -205,6 +205,13 @@ h
 #
 include
 "
+nsAtomHashKeys
+.
+h
+"
+#
+include
+"
 nsCycleCollectionParticipant
 .
 h
@@ -224,13 +231,6 @@ h
 /
 base
 class
-#
-include
-"
-nsAtomHashKeys
-.
-h
-"
 #
 include
 "

@@ -117,6 +117,13 @@ MPL
 #
 include
 "
+QuotaManagerTestHelpers
+.
+h
+"
+#
+include
+"
 gtest
 /
 gtest
@@ -140,13 +147,6 @@ h
 include
 "
 nsString
-.
-h
-"
-#
-include
-"
-QuotaManagerTestHelpers
 .
 h
 "

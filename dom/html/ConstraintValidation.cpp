@@ -140,14 +140,14 @@ h
 #
 include
 "
-nsIContent
+nsContentUtils
 .
 h
 "
 #
 include
 "
-nsContentUtils
+nsIContent
 .
 h
 "

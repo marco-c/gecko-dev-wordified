@@ -123,13 +123,6 @@ mozilla_dom_DOMImplementation_h
 #
 include
 "
-nsWrapperCache
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes
@@ -175,6 +168,13 @@ h
 include
 "
 nsString
+.
+h
+"
+#
+include
+"
+nsWrapperCache
 .
 h
 "

@@ -123,7 +123,11 @@ mozilla_dom_BrowserHost_h
 #
 include
 "
-nsIRemoteTab
+mozilla
+/
+dom
+/
+BrowserParent
 .
 h
 "
@@ -141,11 +145,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-BrowserParent
+nsIRemoteTab
 .
 h
 "

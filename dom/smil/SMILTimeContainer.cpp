@@ -123,6 +123,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 mozilla
 /
@@ -144,7 +149,7 @@ include
 "
 mozilla
 /
-SMILTimedElement
+SMILTimeValue
 .
 h
 "
@@ -153,15 +158,10 @@ include
 "
 mozilla
 /
-SMILTimeValue
+SMILTimedElement
 .
 h
 "
-#
-include
-<
-algorithm
->
 namespace
 mozilla
 {

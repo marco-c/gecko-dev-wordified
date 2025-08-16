@@ -101,6 +101,11 @@ define
 MOZILLA_SCRATCHBUFFER_H_
 #
 include
+<
+algorithm
+>
+#
+include
 "
 AudioSegment
 .
@@ -131,11 +136,6 @@ nsDebug
 .
 h
 "
-#
-include
-<
-algorithm
->
 namespace
 mozilla
 {

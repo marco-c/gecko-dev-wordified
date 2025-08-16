@@ -121,12 +121,12 @@ ThreeDPoint_h_
 #
 include
 <
-cmath
+algorithm
 >
 #
 include
 <
-algorithm
+cmath
 >
 namespace
 mozilla

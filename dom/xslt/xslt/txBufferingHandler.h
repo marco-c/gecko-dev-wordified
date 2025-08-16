@@ -111,13 +111,6 @@ h
 #
 include
 "
-txXMLEventHandler
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -126,6 +119,13 @@ h
 include
 "
 nsTArray
+.
+h
+"
+#
+include
+"
+txXMLEventHandler
 .
 h
 "

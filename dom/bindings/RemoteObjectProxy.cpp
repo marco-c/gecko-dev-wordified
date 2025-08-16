@@ -131,13 +131,6 @@ h
 #
 include
 "
-jsfriendapi
-.
-h
-"
-#
-include
-"
 js
 /
 Object
@@ -150,6 +143,13 @@ JS
 :
 :
 GetClass
+#
+include
+"
+jsfriendapi
+.
+h
+"
 #
 include
 "

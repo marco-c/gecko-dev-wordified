@@ -427,6 +427,12 @@ extern
 C
 "
 {
+/
+/
+clang
+-
+format
+off
 #
 include
 "
@@ -469,6 +475,12 @@ ice_handler
 .
 h
 "
+/
+/
+clang
+-
+format
+on
 }
 /
 /

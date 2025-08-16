@@ -137,14 +137,14 @@ h
 #
 include
 "
-nsNetUtil
+nsIURI
 .
 h
 "
 #
 include
 "
-nsIURI
+nsNetUtil
 .
 h
 "

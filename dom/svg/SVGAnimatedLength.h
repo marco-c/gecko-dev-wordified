@@ -163,7 +163,7 @@ mozilla
 /
 dom
 /
-SVGLengthBinding
+SVGElement
 .
 h
 "
@@ -174,7 +174,7 @@ mozilla
 /
 dom
 /
-SVGElement
+SVGLengthBinding
 .
 h
 "

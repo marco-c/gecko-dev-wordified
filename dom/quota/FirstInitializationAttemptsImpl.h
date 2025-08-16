@@ -141,9 +141,7 @@ include
 "
 mozilla
 /
-glean
-/
-DomQuotaMetrics
+TelemetryHistogramEnums
 .
 h
 "
@@ -152,7 +150,9 @@ include
 "
 mozilla
 /
-TelemetryHistogramEnums
+glean
+/
+DomQuotaMetrics
 .
 h
 "

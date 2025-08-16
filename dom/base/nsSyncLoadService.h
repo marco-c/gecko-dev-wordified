@@ -152,13 +152,6 @@ h
 #
 include
 "
-nscore
-.
-h
-"
-#
-include
-"
 nsIContentPolicy
 .
 h
@@ -174,6 +167,13 @@ h
 include
 "
 nsIReferrerInfo
+.
+h
+"
+#
+include
+"
+nscore
 .
 h
 "

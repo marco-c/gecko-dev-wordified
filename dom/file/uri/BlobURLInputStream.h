@@ -125,9 +125,7 @@ include
 "
 mozilla
 /
-dom
-/
-BlobImpl
+Mutex
 .
 h
 "
@@ -136,7 +134,9 @@ include
 "
 mozilla
 /
-Mutex
+dom
+/
+BlobImpl
 .
 h
 "

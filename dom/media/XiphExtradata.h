@@ -115,12 +115,8 @@ MPL
 *
 /
 #
-if
-!
-defined
-(
+ifndef
 XiphExtradata_h
-)
 #
 define
 XiphExtradata_h

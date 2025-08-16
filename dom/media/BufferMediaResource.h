@@ -87,6 +87,11 @@ define
 BufferMediaResource_h_
 #
 include
+<
+algorithm
+>
+#
+include
 "
 MediaResource
 .
@@ -99,11 +104,6 @@ nsISeekableStream
 .
 h
 "
-#
-include
-<
-algorithm
->
 namespace
 mozilla
 {

@@ -417,7 +417,7 @@ vector
 #
 include
 "
-sigslot
+m_cpp_utils
 .
 h
 "
@@ -449,7 +449,7 @@ h
 #
 include
 "
-m_cpp_utils
+sigslot
 .
 h
 "

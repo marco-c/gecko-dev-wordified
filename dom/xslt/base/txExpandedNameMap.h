@@ -127,14 +127,14 @@ h
 #
 include
 "
-txExpandedName
+nsTArray
 .
 h
 "
 #
 include
 "
-nsTArray
+txExpandedName
 .
 h
 "

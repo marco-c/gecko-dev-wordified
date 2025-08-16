@@ -148,7 +148,7 @@ include
 "
 mozilla
 /
-MemoryReporting
+BindgenUniquePtr
 .
 h
 "
@@ -157,7 +157,7 @@ include
 "
 mozilla
 /
-BindgenUniquePtr
+MemoryReporting
 .
 h
 "
@@ -184,13 +184,6 @@ h
 #
 include
 "
-nscore
-.
-h
-"
-#
-include
-"
 nsAttrName
 .
 h
@@ -206,6 +199,13 @@ h
 include
 "
 nsCaseTreatment
+.
+h
+"
+#
+include
+"
+nscore
 .
 h
 "

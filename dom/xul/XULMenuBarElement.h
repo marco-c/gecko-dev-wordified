@@ -123,6 +123,13 @@ XULMenuBarElement_h__
 #
 include
 "
+XULMenuParentElement
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -151,13 +158,6 @@ h
 include
 "
 nsISupports
-.
-h
-"
-#
-include
-"
-XULMenuParentElement
 .
 h
 "

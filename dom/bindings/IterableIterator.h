@@ -296,7 +296,9 @@ h
 #
 include
 "
-nsISupports
+mozilla
+/
+AlreadyAddRefed
 .
 h
 "
@@ -305,7 +307,7 @@ include
 "
 mozilla
 /
-AlreadyAddRefed
+WeakPtr
 .
 h
 "
@@ -356,9 +358,7 @@ h
 #
 include
 "
-mozilla
-/
-WeakPtr
+nsISupports
 .
 h
 "

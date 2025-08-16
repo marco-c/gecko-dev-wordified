@@ -122,6 +122,13 @@ h
 #
 include
 "
+AudioContext
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -138,13 +145,6 @@ mozilla
 dom
 /
 ScriptSettings
-.
-h
-"
-#
-include
-"
-AudioContext
 .
 h
 "

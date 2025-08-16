@@ -121,6 +121,13 @@ h
 #
 include
 "
+MockCubeb
+.
+h
+"
+#
+include
+"
 gmock
 /
 gmock
@@ -144,13 +151,6 @@ mozilla
 gtest
 /
 WaitFor
-.
-h
-"
-#
-include
-"
-MockCubeb
 .
 h
 "

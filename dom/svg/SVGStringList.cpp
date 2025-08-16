@@ -124,7 +124,7 @@ h
 #
 include
 "
-nsError
+SVGContentUtils
 .
 h
 "
@@ -139,6 +139,13 @@ h
 include
 "
 nsContentUtils
+.
+h
+"
+#
+include
+"
+nsError
 .
 h
 "
@@ -160,13 +167,6 @@ h
 include
 "
 nsWhitespaceTokenizer
-.
-h
-"
-#
-include
-"
-SVGContentUtils
 .
 h
 "

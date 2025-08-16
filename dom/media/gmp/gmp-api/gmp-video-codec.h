@@ -327,14 +327,14 @@ GMP_VIDEO_CODEC_h_
 #
 include
 <
-stdint
+stddef
 .
 h
 >
 #
 include
 <
-stddef
+stdint
 .
 h
 >

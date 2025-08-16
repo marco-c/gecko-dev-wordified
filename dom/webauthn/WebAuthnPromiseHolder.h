@@ -74,7 +74,7 @@ h
 #
 include
 "
-nsIWebAuthnResult
+nsIThread
 .
 h
 "
@@ -88,7 +88,7 @@ h
 #
 include
 "
-nsIThread
+nsIWebAuthnResult
 .
 h
 "

@@ -123,13 +123,6 @@ DOM_QUOTA_QMRESULTINLINES_H_
 #
 include
 "
-nsError
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Result
@@ -179,6 +172,13 @@ dom
 quota
 /
 RemoveParen
+.
+h
+"
+#
+include
+"
+nsError
 .
 h
 "

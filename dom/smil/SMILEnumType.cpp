@@ -123,6 +123,13 @@ h
 "
 #
 include
+<
+math
+.
+h
+>
+#
+include
 "
 mozilla
 /
@@ -137,13 +144,6 @@ nsDebug
 .
 h
 "
-#
-include
-<
-math
-.
-h
->
 namespace
 mozilla
 {

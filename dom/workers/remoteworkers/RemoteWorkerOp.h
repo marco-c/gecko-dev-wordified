@@ -76,9 +76,7 @@ include
 "
 mozilla
 /
-dom
-/
-WorkerPrivate
+Variant
 .
 h
 "
@@ -87,7 +85,9 @@ include
 "
 mozilla
 /
-Variant
+dom
+/
+WorkerPrivate
 .
 h
 "

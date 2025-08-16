@@ -123,6 +123,13 @@ mozilla_dom_Feature_h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -131,13 +138,6 @@ h
 include
 "
 nsTArray
-.
-h
-"
-#
-include
-"
-nsCOMPtr
 .
 h
 "

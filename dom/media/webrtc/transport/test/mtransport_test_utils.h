@@ -136,14 +136,14 @@ h
 #
 include
 "
-nsNetCID
+nsISerialEventTarget
 .
 h
 "
 #
 include
 "
-nsISerialEventTarget
+nsNetCID
 .
 h
 "

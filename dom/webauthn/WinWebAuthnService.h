@@ -125,9 +125,7 @@ include
 "
 mozilla
 /
-dom
-/
-PWebAuthnTransaction
+Tainting
 .
 h
 "
@@ -136,7 +134,9 @@ include
 "
 mozilla
 /
-Tainting
+dom
+/
+PWebAuthnTransaction
 .
 h
 "

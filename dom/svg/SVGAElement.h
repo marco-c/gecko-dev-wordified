@@ -130,13 +130,6 @@ h
 #
 include
 "
-nsDOMTokenList
-.
-h
-"
-#
-include
-"
 SVGAnimatedString
 .
 h
@@ -149,6 +142,13 @@ mozilla
 dom
 /
 SVGGraphicsElement
+.
+h
+"
+#
+include
+"
+nsDOMTokenList
 .
 h
 "

@@ -103,14 +103,14 @@ h
 #
 include
 "
-txNodeSet
+txIXPathContext
 .
 h
 "
 #
 include
 "
-txIXPathContext
+txNodeSet
 .
 h
 "

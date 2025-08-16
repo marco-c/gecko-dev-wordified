@@ -136,6 +136,11 @@ define
 mozilla_dom_UnionMember_h
 #
 include
+<
+utility
+>
+#
+include
 "
 mozilla
 /
@@ -152,11 +157,6 @@ Attributes
 .
 h
 "
-#
-include
-<
-utility
->
 namespace
 mozilla
 :

@@ -102,13 +102,6 @@ GPU_RenderBundle_H_
 #
 include
 "
-nsWrapperCache
-.
-h
-"
-#
-include
-"
 CanvasContext
 .
 h
@@ -117,6 +110,13 @@ h
 include
 "
 ObjectModel
+.
+h
+"
+#
+include
+"
+nsWrapperCache
 .
 h
 "

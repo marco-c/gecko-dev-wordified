@@ -121,6 +121,13 @@ AnalyserNode_h_
 #
 include
 "
+AlignedTArray
+.
+h
+"
+#
+include
+"
 AudioNode
 .
 h
@@ -129,13 +136,6 @@ h
 include
 "
 FFTBlock
-.
-h
-"
-#
-include
-"
-AlignedTArray
 .
 h
 "

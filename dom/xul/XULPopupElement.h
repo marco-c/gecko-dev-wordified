@@ -153,14 +153,14 @@ h
 #
 include
 "
-nsWrapperCache
+nsString
 .
 h
 "
 #
 include
 "
-nsString
+nsWrapperCache
 .
 h
 "

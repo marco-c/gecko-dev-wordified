@@ -131,13 +131,6 @@ h
 #
 include
 "
-ServiceWorkerUtils
-.
-h
-"
-#
-include
-"
 ServiceWorkerPrivate
 .
 h
@@ -146,6 +139,13 @@ h
 include
 "
 ServiceWorkerScriptCache
+.
+h
+"
+#
+include
+"
+ServiceWorkerUtils
 .
 h
 "

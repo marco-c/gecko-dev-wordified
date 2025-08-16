@@ -141,13 +141,6 @@ h
 #
 include
 "
-nsIEventSourceEventService
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -163,6 +156,13 @@ h
 include
 "
 nsHashKeys
+.
+h
+"
+#
+include
+"
+nsIEventSourceEventService
 .
 h
 "

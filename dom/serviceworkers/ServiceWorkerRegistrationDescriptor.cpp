@@ -128,6 +128,13 @@ h
 #
 include
 "
+ServiceWorkerInfo
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -144,13 +151,6 @@ mozilla
 ipc
 /
 PBackgroundSharedTypes
-.
-h
-"
-#
-include
-"
-ServiceWorkerInfo
 .
 h
 "

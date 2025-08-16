@@ -67,7 +67,7 @@ include
 "
 mozilla
 /
-StaticPrefs_accessibility
+LookAndFeel
 .
 h
 "
@@ -76,7 +76,7 @@ include
 "
 mozilla
 /
-LookAndFeel
+StaticPrefs_accessibility
 .
 h
 "

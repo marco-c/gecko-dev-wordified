@@ -123,6 +123,13 @@ DOM_SVG_SVGFOREIGNOBJECTELEMENT_H_
 #
 include
 "
+SVGAnimatedLength
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -135,13 +142,6 @@ h
 include
 "
 nsCSSPropertyID
-.
-h
-"
-#
-include
-"
-SVGAnimatedLength
 .
 h
 "

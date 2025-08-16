@@ -152,6 +152,13 @@ h
 #
 include
 "
+nsAtom
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -160,13 +167,6 @@ h
 include
 "
 nsCycleCollectionParticipant
-.
-h
-"
-#
-include
-"
-nsAtom
 .
 h
 "

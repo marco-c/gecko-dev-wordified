@@ -122,6 +122,13 @@ define
 mozilla_dom_HTMLAllCollection_h
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
 mozilla
 /
@@ -159,13 +166,6 @@ nsWrapperCache
 .
 h
 "
-#
-include
-<
-stdint
-.
-h
->
 class
 nsContentList
 ;

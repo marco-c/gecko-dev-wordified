@@ -103,6 +103,13 @@ h
 #
 include
 "
+txExecutionState
+.
+h
+"
+#
+include
+"
 txIXPathContext
 .
 h
@@ -125,13 +132,6 @@ h
 include
 "
 txXSLTFunctions
-.
-h
-"
-#
-include
-"
-txExecutionState
 .
 h
 "

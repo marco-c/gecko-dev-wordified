@@ -143,14 +143,14 @@ h
 #
 include
 "
-nsIPaymentAddress
+nsIPaymentActionResponse
 .
 h
 "
 #
 include
 "
-nsIPaymentActionResponse
+nsIPaymentAddress
 .
 h
 "

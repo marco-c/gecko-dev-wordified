@@ -165,13 +165,6 @@ h
 #
 include
 "
-content_decryption_module
-.
-h
-"
-#
-include
-"
 ClearKeyDecryptionManager
 .
 h
@@ -194,6 +187,13 @@ h
 include
 "
 ClearKeyUtils
+.
+h
+"
+#
+include
+"
+content_decryption_module
 .
 h
 "

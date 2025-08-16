@@ -136,7 +136,7 @@ mozilla
 /
 dom
 /
-MessageManagerGlobal
+MessageManagerCallback
 .
 h
 "
@@ -147,7 +147,7 @@ mozilla
 /
 dom
 /
-MessageManagerCallback
+MessageManagerGlobal
 .
 h
 "

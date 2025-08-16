@@ -132,7 +132,7 @@ mozilla
 /
 dom
 /
-NavigationHistoryEntryBinding
+Document
 .
 h
 "
@@ -143,7 +143,7 @@ mozilla
 /
 dom
 /
-Document
+NavigationHistoryEntryBinding
 .
 h
 "

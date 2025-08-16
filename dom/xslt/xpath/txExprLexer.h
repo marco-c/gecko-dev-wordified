@@ -102,14 +102,14 @@ MITREXSL_EXPRLEXER_H
 #
 include
 "
-txCore
+nsString
 .
 h
 "
 #
 include
 "
-nsString
+txCore
 .
 h
 "

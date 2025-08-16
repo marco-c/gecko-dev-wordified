@@ -123,6 +123,13 @@ mozilla_dom_cache_QuotaClient_h
 #
 include
 "
+mozIStorageConnection
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -152,13 +159,6 @@ dom
 quota
 /
 Client
-.
-h
-"
-#
-include
-"
-mozIStorageConnection
 .
 h
 "

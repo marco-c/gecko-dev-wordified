@@ -102,6 +102,13 @@ GPU_ShaderModule_H_
 #
 include
 "
+ObjectModel
+.
+h
+"
+#
+include
+"
 mozilla
 /
 webgpu
@@ -114,13 +121,6 @@ h
 include
 "
 nsWrapperCache
-.
-h
-"
-#
-include
-"
-ObjectModel
 .
 h
 "

@@ -129,14 +129,14 @@ h
 #
 include
 "
-nsNetUtil
+nsNetCID
 .
 h
 "
 #
 include
 "
-nsNetCID
+nsNetUtil
 .
 h
 "

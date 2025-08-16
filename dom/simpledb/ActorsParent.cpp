@@ -173,6 +173,13 @@ h
 #
 include
 "
+NotifyUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 AlreadyAddRefed
@@ -537,13 +544,6 @@ mozilla
 ipc
 /
 ProtocolUtils
-.
-h
-"
-#
-include
-"
-NotifyUtils
 .
 h
 "

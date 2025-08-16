@@ -179,14 +179,14 @@ h
 #
 include
 "
-nsISupports
+nsINode
 .
 h
 "
 #
 include
 "
-nsINode
+nsISupports
 .
 h
 "

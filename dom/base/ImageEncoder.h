@@ -130,7 +130,9 @@ h
 #
 include
 "
-nsError
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -159,9 +161,7 @@ h
 #
 include
 "
-mozilla
-/
-UniquePtr
+nsError
 .
 h
 "

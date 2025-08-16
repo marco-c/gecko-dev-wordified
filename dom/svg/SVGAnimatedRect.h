@@ -123,7 +123,9 @@ DOM_SVG_SVGANIMATEDRECT_H_
 #
 include
 "
-nsCycleCollectionParticipant
+mozilla
+/
+Attributes
 .
 h
 "
@@ -141,9 +143,7 @@ h
 #
 include
 "
-mozilla
-/
-Attributes
+nsCycleCollectionParticipant
 .
 h
 "

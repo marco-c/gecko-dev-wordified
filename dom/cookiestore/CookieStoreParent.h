@@ -125,9 +125,7 @@ include
 "
 mozilla
 /
-dom
-/
-PCookieStoreParent
+MozPromise
 .
 h
 "
@@ -147,7 +145,9 @@ include
 "
 mozilla
 /
-MozPromise
+dom
+/
+PCookieStoreParent
 .
 h
 "

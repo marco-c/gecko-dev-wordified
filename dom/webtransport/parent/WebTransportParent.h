@@ -185,14 +185,14 @@ h
 #
 include
 "
-nsISupports
+nsIPrincipal
 .
 h
 "
 #
 include
 "
-nsIPrincipal
+nsISupports
 .
 h
 "

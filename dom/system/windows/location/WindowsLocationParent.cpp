@@ -124,14 +124,14 @@ h
 #
 include
 "
-nsIDOMGeoPosition
+WindowsLocationProvider
 .
 h
 "
 #
 include
 "
-WindowsLocationProvider
+nsIDOMGeoPosition
 .
 h
 "

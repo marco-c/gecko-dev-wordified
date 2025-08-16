@@ -184,7 +184,7 @@ h
 #
 include
 "
-nsStreamUtils
+nsNetCID
 .
 h
 "
@@ -198,7 +198,7 @@ h
 #
 include
 "
-nsNetCID
+nsStreamUtils
 .
 h
 "

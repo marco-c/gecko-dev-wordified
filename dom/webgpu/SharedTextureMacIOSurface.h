@@ -104,9 +104,7 @@ include
 "
 mozilla
 /
-gfx
-/
-FileHandleWrapper
+WeakPtr
 .
 h
 "
@@ -115,7 +113,9 @@ include
 "
 mozilla
 /
-WeakPtr
+gfx
+/
+FileHandleWrapper
 .
 h
 "

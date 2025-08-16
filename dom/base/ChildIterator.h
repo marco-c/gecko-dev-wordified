@@ -122,6 +122,13 @@ define
 ChildIterator_h
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
 nsIContent
 .
@@ -134,13 +141,6 @@ nsIContentInlines
 .
 h
 "
-#
-include
-<
-stdint
-.
-h
->
 class
 nsIContent
 ;

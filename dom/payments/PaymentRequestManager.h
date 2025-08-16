@@ -123,13 +123,6 @@ mozilla_dom_PaymentRequestManager_h
 #
 include
 "
-nsISupports
-.
-h
-"
-#
-include
-"
 PaymentRequest
 .
 h
@@ -171,6 +164,13 @@ h
 include
 "
 nsCOMPtr
+.
+h
+"
+#
+include
+"
+nsISupports
 .
 h
 "

@@ -123,6 +123,13 @@ mozilla_dom_ipc_RemoteBrowser_h
 #
 include
 "
+Units
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -155,13 +162,6 @@ h
 include
 "
 nsRect
-.
-h
-"
-#
-include
-"
-Units
 .
 h
 "

@@ -124,7 +124,7 @@ h
 #
 include
 "
-nsTArray
+BufferReader
 .
 h
 "
@@ -152,13 +152,6 @@ h
 #
 include
 "
-BufferReader
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ResultExtensions
@@ -171,6 +164,13 @@ include
 mozilla
 /
 Try
+.
+h
+"
+#
+include
+"
+nsTArray
 .
 h
 "

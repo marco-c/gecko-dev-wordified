@@ -130,9 +130,7 @@ include
 "
 mozilla
 /
-dom
-/
-DOMPoint
+HoldDropJSObjects
 .
 h
 "
@@ -143,7 +141,7 @@ mozilla
 /
 dom
 /
-Pose
+DOMPoint
 .
 h
 "
@@ -163,7 +161,9 @@ include
 "
 mozilla
 /
-HoldDropJSObjects
+dom
+/
+Pose
 .
 h
 "

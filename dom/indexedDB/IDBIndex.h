@@ -143,9 +143,7 @@ include
 "
 mozilla
 /
-dom
-/
-IDBCursorBinding
+UniquePtr
 .
 h
 "
@@ -154,7 +152,9 @@ include
 "
 mozilla
 /
-UniquePtr
+dom
+/
+IDBCursorBinding
 .
 h
 "

@@ -108,11 +108,7 @@ algorithm
 #
 include
 "
-mozilla
-/
-gmp
-/
-GMPTypes
+GMPSharedMemManager
 .
 h
 "
@@ -126,7 +122,11 @@ h
 #
 include
 "
-GMPSharedMemManager
+mozilla
+/
+gmp
+/
+GMPTypes
 .
 h
 "

@@ -129,6 +129,13 @@ h
 #
 include
 "
+AOMDecoder
+.
+h
+"
+#
+include
+"
 AppleATDecoder
 .
 h
@@ -157,13 +164,6 @@ h
 #
 include
 "
-VideoUtils
-.
-h
-"
-#
-include
-"
 VPXDecoder
 .
 h
@@ -171,7 +171,7 @@ h
 #
 include
 "
-AOMDecoder
+VideoUtils
 .
 h
 "

@@ -123,12 +123,12 @@ DOM_SMIL_SMILTIMEDELEMENT_H_
 #
 include
 <
-utility
+limits
 >
 #
 include
 <
-limits
+utility
 >
 #
 include

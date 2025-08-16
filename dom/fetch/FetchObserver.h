@@ -136,7 +136,7 @@ mozilla
 /
 dom
 /
-FetchObserverBinding
+AbortSignal
 .
 h
 "
@@ -147,7 +147,7 @@ mozilla
 /
 dom
 /
-AbortSignal
+FetchObserverBinding
 .
 h
 "

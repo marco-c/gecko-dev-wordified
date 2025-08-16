@@ -130,9 +130,7 @@ include
 "
 mozilla
 /
-dom
-/
-SVGFEDiffuseLightingElementBinding
+SVGFilterInstance
 .
 h
 "
@@ -141,7 +139,9 @@ include
 "
 mozilla
 /
-SVGFilterInstance
+dom
+/
+BindContext
 .
 h
 "
@@ -163,7 +163,7 @@ mozilla
 /
 dom
 /
-BindContext
+SVGFEDiffuseLightingElementBinding
 .
 h
 "

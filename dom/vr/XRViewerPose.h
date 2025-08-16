@@ -123,6 +123,13 @@ mozilla_dom_XRViewerPose_h_
 #
 include
 "
+gfxVR
+.
+h
+"
+#
+include
+"
 mozilla
 /
 DOMEventTargetHelper
@@ -148,13 +155,6 @@ mozilla
 dom
 /
 XRPose
-.
-h
-"
-#
-include
-"
-gfxVR
 .
 h
 "

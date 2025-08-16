@@ -126,9 +126,7 @@ include
 "
 mozilla
 /
-ipc
-/
-PBackgroundSharedTypes
+StaticPrefs_security
 .
 h
 "
@@ -137,7 +135,9 @@ include
 "
 mozilla
 /
-StaticPrefs_security
+ipc
+/
+PBackgroundSharedTypes
 .
 h
 "

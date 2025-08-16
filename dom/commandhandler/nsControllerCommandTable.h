@@ -130,14 +130,14 @@ h
 #
 include
 "
-nsWeakReference
+nsInterfaceHashtable
 .
 h
 "
 #
 include
 "
-nsInterfaceHashtable
+nsWeakReference
 .
 h
 "

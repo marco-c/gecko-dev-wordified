@@ -190,6 +190,13 @@ h
 #
 include
 "
+IndexedDBCommon
+.
+h
+"
+#
+include
+"
 IndexedDatabase
 .
 h
@@ -205,13 +212,6 @@ h
 include
 "
 IndexedDatabaseManager
-.
-h
-"
-#
-include
-"
-IndexedDBCommon
 .
 h
 "

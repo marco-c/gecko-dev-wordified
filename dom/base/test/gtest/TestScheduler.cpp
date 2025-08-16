@@ -107,9 +107,7 @@ include
 "
 mozilla
 /
-dom
-/
-CCGCScheduler
+TimeStamp
 .
 h
 "
@@ -118,7 +116,9 @@ include
 "
 mozilla
 /
-TimeStamp
+dom
+/
+CCGCScheduler
 .
 h
 "
