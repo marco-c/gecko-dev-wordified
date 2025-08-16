@@ -382,6 +382,8 @@ UniqueContentParentKeepAlive
 UniqueContentParentKeepAliveFromThreadsafe
 (
 UniqueThreadsafeContentParentKeepAlive
+&
+&
 aKeepAlive
 )
 {
@@ -462,6 +464,8 @@ UniqueThreadsafeContentParentKeepAlive
 UniqueContentParentKeepAliveToThreadsafe
 (
 UniqueContentParentKeepAlive
+&
+&
 aKeepAlive
 )
 {
@@ -721,6 +725,8 @@ nsIContentParentKeepAlive
 WrapContentParentKeepAliveForJS
 (
 UniqueContentParentKeepAlive
+&
+&
 aKeepAlive
 )
 {

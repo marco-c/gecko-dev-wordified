@@ -193,6 +193,8 @@ RemoteWorkerParent
 RemoteWorkerParent
 (
 UniqueThreadsafeContentParentKeepAlive
+&
+&
 aKeepAlive
 )
 :

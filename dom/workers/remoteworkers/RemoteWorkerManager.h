@@ -431,6 +431,8 @@ RemoteWorkerServiceParent
 *
 aTargetActor
 UniqueThreadsafeContentParentKeepAlive
+&
+&
 aKeepAlive
 const
 RemoteWorkerData

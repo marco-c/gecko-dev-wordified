@@ -15568,6 +15568,8 @@ change
 ]
 (
 UniqueContentParentKeepAlive
+&
+&
 )
 MOZ_CAN_RUN_SCRIPT_BOUNDARY_LAMBDA
 {
