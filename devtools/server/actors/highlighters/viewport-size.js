@@ -350,6 +350,17 @@ bind
 this
 )
 {
+contentRootHostClassName
+:
+"
+devtools
+-
+highlighter
+-
+viewport
+-
+size
+"
 waitForDocumentToLoad
 :
 options
