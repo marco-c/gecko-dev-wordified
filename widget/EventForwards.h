@@ -2767,6 +2767,13 @@ eNoButtons
 ;
 }
 }
+nsCString
+InputSourceToString
+(
+uint16_t
+aInputSource
+)
+;
 enum
 class
 TextRangeType
