@@ -1531,6 +1531,17 @@ unmodifiedUnicodeChar
 :
 0
 ;
+final
+boolean
+waitingReply
+=
+GeckoInputConnection
+.
+isMediaKeyEvent
+(
+event
+)
+;
 /
 /
 If
@@ -1715,6 +1726,7 @@ getFlags
 (
 )
 isSynthesizedImeKey
+waitingReply
 event
 )
 ;
