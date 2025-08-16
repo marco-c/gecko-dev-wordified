@@ -356,8 +356,6 @@ JSContext
 cx
 HandleScript
 referrer
-HandleValue
-referencingPrivate
 HandleObject
 moduleRequest
 HandleValue
@@ -419,8 +417,8 @@ dynamicImport
 JSContext
 *
 cx
-HandleValue
-referencingPrivate
+HandleScript
+referrer
 HandleObject
 moduleRequest
 HandleValue
@@ -433,8 +431,8 @@ doDynamicImport
 JSContext
 *
 cx
-HandleValue
-referencingPrivate
+HandleScript
+referrer
 HandleObject
 moduleRequest
 HandleValue
@@ -497,8 +495,8 @@ JSContext
 cx
 HandleObject
 moduleRequestArg
-HandleValue
-referencingInfo
+HandleScript
+referrer
 )
 ;
 JSLinearString
