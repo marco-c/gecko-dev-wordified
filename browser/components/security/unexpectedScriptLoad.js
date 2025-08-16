@@ -878,8 +878,10 @@ if
 !
 hasEmail
 )
+{
 return
 ;
+}
 /
 /
 If
