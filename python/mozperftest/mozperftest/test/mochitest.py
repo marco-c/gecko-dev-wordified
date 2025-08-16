@@ -1752,12 +1752,12 @@ active_tests
 (
 paths
 =
-[
+(
 str
 (
 test
 )
-]
+)
 )
         
 subsuite
