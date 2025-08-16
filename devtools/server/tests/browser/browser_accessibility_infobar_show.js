@@ -255,6 +255,8 @@ infobar
 getElement
 (
 "
+accessible
+-
 infobar
 -
 container
@@ -323,6 +325,8 @@ infobar
 getTextContent
 (
 "
+accessible
+-
 infobar
 -
 name
@@ -384,6 +388,8 @@ infobar
 getTextContent
 (
 "
+accessible
+-
 infobar
 -
 role

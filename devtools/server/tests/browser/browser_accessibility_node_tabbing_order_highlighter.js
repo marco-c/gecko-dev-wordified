@@ -233,6 +233,10 @@ highlighter
 getElement
 (
 "
+tabbing
+-
+order
+-
 infobar
 -
 text
@@ -540,6 +544,10 @@ highlighter
 getElement
 (
 "
+tabbing
+-
+order
+-
 root
 "
 )

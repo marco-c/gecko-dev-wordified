@@ -160,7 +160,7 @@ super
 highlighterEnv
 parent
 {
-prefix
+extraCls
 :
 "
 viewport
@@ -172,7 +172,6 @@ on
 resize
 -
 highlighter
--
 "
 hideTimeout
 :
