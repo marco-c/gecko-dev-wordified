@@ -232,10 +232,6 @@ wchar_t
 argv
 [
 ]
-const
-StaticXREAppData
-&
-aAppData
 )
 ;
 enum
