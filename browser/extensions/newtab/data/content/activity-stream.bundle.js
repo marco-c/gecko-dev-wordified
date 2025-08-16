@@ -7021,7 +7021,7 @@ null
 "
 "
 Inferred
-Intrests
+Interests
 :
 "
 /
