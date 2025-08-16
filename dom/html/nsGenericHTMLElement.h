@@ -8279,6 +8279,14 @@ MOZ_CAN_RUN_SCRIPT
 void
 HandlePopoverTargetAction
 (
+mozilla
+:
+:
+dom
+:
+:
+Element
+*
 )
 ;
 /
