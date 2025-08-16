@@ -203,7 +203,7 @@ include
 "
 mozilla
 /
-RefPtr
+PRemoteCDMActor
 .
 h
 "
@@ -212,7 +212,7 @@ include
 "
 mozilla
 /
-PRemoteCDMActor
+RefPtr
 .
 h
 "
