@@ -995,9 +995,7 @@ void
 *
 alloc
 size_t
-oldBytes
-size_t
-newBytes
+bytes
 bool
 nurseryOwned
 )
