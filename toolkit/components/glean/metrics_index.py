@@ -367,6 +367,16 @@ yaml
 "
 dom
 /
+indexedDB
+/
+metrics
+.
+yaml
+"
+    
+"
+dom
+/
 localstorage
 /
 metrics
