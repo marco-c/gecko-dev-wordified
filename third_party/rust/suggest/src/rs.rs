@@ -2690,16 +2690,6 @@ iab_category
 :
 String
 pub
-serp_categories
-:
-Option
-<
-Vec
-<
-i32
->
->
-pub
 click_url
 :
 String
