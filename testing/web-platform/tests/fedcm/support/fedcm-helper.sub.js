@@ -889,6 +889,17 @@ tests
 .
 }
 await
+mark_signed_in
+(
+)
+;
+await
+mark_signed_in
+(
+alt_manifest_origin
+)
+;
+await
 set_fedcm_cookie
 (
 )
