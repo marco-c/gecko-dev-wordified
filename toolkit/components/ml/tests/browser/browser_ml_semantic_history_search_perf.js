@@ -170,9 +170,6 @@ try_platform
 :
 [
 "
-linux
-"
-"
 mac
 "
 "
@@ -238,6 +235,13 @@ timeoutMS
 :
 -
 1
+backend
+:
+"
+onnx
+-
+native
+"
 }
 ;
 const
@@ -1806,7 +1810,7 @@ concurrentInferenceFlag
 const
 rowLimit
 =
-10000
+500
 ;
 const
 numIterations
