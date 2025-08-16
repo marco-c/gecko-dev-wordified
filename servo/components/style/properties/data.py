@@ -4393,10 +4393,6 @@ UserFocus
 "
                 
 "
-UserInput
-"
-                
-"
 UserSelect
 "
                 
