@@ -843,6 +843,8 @@ localTab
 await
 ui
 .
+responsiveFront
+.
 setElementPickerState
 (
 true
@@ -868,6 +870,8 @@ async
 {
 await
 ui
+.
+responsiveFront
 .
 setElementPickerState
 (
@@ -899,6 +903,8 @@ async
 {
 await
 ui
+.
+responsiveFront
 .
 setElementPickerState
 (
