@@ -400,15 +400,9 @@ W1641
 return
 hash
 (
-"
-"
-.
-join
-(
 self
 .
 version
-)
 )
     
 #
