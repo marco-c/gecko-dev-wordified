@@ -324,9 +324,6 @@ const
 UTF8StringOrCSSVariableReferenceValue
 &
 aVal
-OwningUTF8StringOrCSSVariableReferenceValue
-&
-aRetVal
 ErrorResult
 &
 aRv
