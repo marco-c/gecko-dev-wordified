@@ -789,7 +789,7 @@ to_string_lossy
 (
 )
 .
-to_string
+into_owned
 (
 )
 flags

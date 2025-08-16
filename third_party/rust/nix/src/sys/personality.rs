@@ -213,6 +213,11 @@ target_env
 "
 uclibc
 "
+target_env
+=
+"
+ohos
+"
 )
 )
 )
@@ -510,6 +515,11 @@ target_env
 =
 "
 uclibc
+"
+target_env
+=
+"
+ohos
 "
 )
 )
