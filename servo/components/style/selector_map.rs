@@ -2196,7 +2196,6 @@ cascade_data
 find_scope_proximity_if_matching
 (
 rule
-stylist
 element
 matching_context
 )

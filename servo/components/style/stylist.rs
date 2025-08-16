@@ -10045,7 +10045,6 @@ data
 .
 revalidate_scopes
 (
-self
 element
 matching_context
 &
@@ -10092,7 +10091,6 @@ data
 .
 revalidate_scopes
 (
-self
 element
 &
 mut
@@ -19146,10 +19144,6 @@ rule
 :
 &
 Rule
-stylist
-:
-&
-Stylist
 element
 :
 E
@@ -19241,7 +19235,6 @@ scope_condition_matches
 rule
 .
 scope_condition_id
-stylist
 element
 rule
 .
@@ -19321,10 +19314,6 @@ self
 id
 :
 ScopeConditionId
-stylist
-:
-&
-Stylist
 element
 :
 E
@@ -19455,7 +19444,6 @@ scope_condition_matches
 condition_ref
 .
 parent
-stylist
 element
 override_matches_shadow_host_for_part
 context
@@ -25103,10 +25091,6 @@ TElement
 (
 &
 self
-stylist
-:
-&
-Stylist
 element
 :
 &
@@ -25308,7 +25292,6 @@ condition_id
 as
 u16
 )
-stylist
 *
 element
 /
