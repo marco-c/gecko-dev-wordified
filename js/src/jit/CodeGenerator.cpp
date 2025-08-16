@@ -81086,7 +81086,7 @@ ToRegister
 lir
 -
 >
-end
+length
 (
 )
 )
@@ -81144,7 +81144,7 @@ Fn
 js
 :
 :
-TypedArraySubarray
+TypedArraySubarrayWithLength
 >
 (
 lir
