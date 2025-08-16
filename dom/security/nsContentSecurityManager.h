@@ -580,15 +580,6 @@ CrossOriginEmbedderPolicy
 aPolicy
 )
 ;
-static
-bool
-ShouldAddCookies
-(
-nsIChannel
-*
-aChannel
-)
-;
 private
 :
 static
