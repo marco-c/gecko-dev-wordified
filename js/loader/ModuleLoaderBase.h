@@ -3161,16 +3161,7 @@ JS
 :
 Value
 >
-aStatePrivate
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
-aPromise
+aPayload
 )
 ;
 static
@@ -3478,7 +3469,7 @@ JS
 :
 Value
 >
-aStatePrivate
+aPayload
 )
 ;
 void
