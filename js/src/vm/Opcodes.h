@@ -1966,17 +1966,6 @@ Constants
 ]
 *
 [
-Compound
-primitives
-]
-*
-Record
-literals
-*
-Tuple
-literals
-*
-[
 Expressions
 ]
 *
