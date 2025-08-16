@@ -458,12 +458,12 @@ content
 .
 document
 .
-userHasInteracted
+hasBeenUserGestureActivated
 content
 .
 document
 .
-userHasInteracted
+hasBeenUserGestureActivated
 ]
 ;
 }
