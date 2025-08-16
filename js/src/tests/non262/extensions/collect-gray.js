@@ -157,6 +157,11 @@ gczeal
 0
 )
 ;
+function
+test
+(
+)
+{
 grayRoot
 (
 )
@@ -1485,6 +1490,11 @@ key
 gray
 value
 '
+)
+;
+}
+test
+(
 )
 ;
 if
