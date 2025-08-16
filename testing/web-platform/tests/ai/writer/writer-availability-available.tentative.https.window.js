@@ -189,7 +189,7 @@ expectedInputLanguages
 :
 [
 '
-es
+zu
 '
 ]
 /
@@ -206,7 +206,7 @@ en
 outputLanguage
 :
 '
-es
+zu
 '
 /
 /
