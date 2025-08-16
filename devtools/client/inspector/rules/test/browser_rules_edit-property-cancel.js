@@ -520,14 +520,12 @@ set
 "
 )
 ;
-is
+ok
 (
+!
 propEditor
 .
 warning
-.
-hidden
-true
 "
 warning
 icon
