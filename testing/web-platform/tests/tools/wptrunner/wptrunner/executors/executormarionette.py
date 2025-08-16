@@ -7395,6 +7395,10 @@ None
 debug_test
 =
 False
+                 
+cache_screenshots
+=
+True
 *
 *
 kwargs
@@ -7522,6 +7526,12 @@ self
 debug_test
 =
 debug_test
+        
+self
+.
+cache_screenshots
+=
+cache_screenshots
         
 self
 .
@@ -8631,6 +8641,7 @@ screenshot
 "
 :
 screenshot
+                
 "
 isPrint
 "
@@ -8640,6 +8651,16 @@ self
 executor
 .
 is_print
+                
+"
+cacheScreenshots
+"
+:
+self
+.
+executor
+.
+cache_screenshots
 }
         
 if
@@ -8756,6 +8777,24 @@ protocol
 marionette
 .
 CONTEXT_CHROME
+)
+        
+self
+.
+logger
+.
+debug
+(
+f
+"
+Starting
+internal
+reftests
+with
+{
+data
+}
+"
 )
         
 self
@@ -9676,6 +9715,9 @@ False
 reftest_internal
 =
 False
+cache_screenshots
+=
+True
 *
 *
 kwargs
@@ -9746,6 +9788,10 @@ capabilities
 debug
 =
 debug
+                                           
+cache_screenshots
+=
+cache_screenshots
                                            
 *
 *
