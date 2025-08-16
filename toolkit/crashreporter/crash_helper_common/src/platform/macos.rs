@@ -252,15 +252,6 @@ blocking
 mode
 .
 let
-fd
-=
-socket
-.
-as_raw_fd
-(
-)
-;
-let
 flags
 =
 OFlag
@@ -270,7 +261,7 @@ from_bits_retain
 (
 fcntl
 (
-fd
+socket
 F_GETFL
 )
 ?
@@ -278,7 +269,7 @@ F_GETFL
 ;
 fcntl
 (
-fd
+socket
 F_SETFL
 (
 flags
@@ -348,7 +339,11 @@ unsafe
 {
 setsockopt
 (
-fd
+socket
+.
+as_raw_fd
+(
+)
 SOL_SOCKET
 SO_NOSIGPIPE
 (
@@ -421,10 +416,6 @@ Result
 fcntl
 (
 socket
-.
-as_raw_fd
-(
-)
 F_SETFD
 (
 FdFlag
