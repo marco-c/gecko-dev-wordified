@@ -208,6 +208,7 @@ MozControlCharacterVisibility
 OverflowWrap
 RubyPosition
 TextAlignLast
+TextAutospace
 TextDecorationLine
 TextDecorationSkipInk
 TextEmphasisPosition

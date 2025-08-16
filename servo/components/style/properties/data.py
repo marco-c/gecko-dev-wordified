@@ -4365,6 +4365,10 @@ TextAlignLast
 "
                 
 "
+TextAutospace
+"
+                
+"
 TextDecorationLine
 "
                 
