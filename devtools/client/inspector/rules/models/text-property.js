@@ -236,8 +236,16 @@ TextProperty
 *
 param
 {
+Object
+}
+options
+*
+param
+{
 Rule
 }
+options
+.
 rule
 *
 The
@@ -252,6 +260,8 @@ param
 {
 String
 }
+options
+.
 name
 *
 The
@@ -277,6 +287,8 @@ param
 {
 String
 }
+options
+.
 value
 *
 The
@@ -295,6 +307,8 @@ param
 {
 String
 }
+options
+.
 priority
 *
 The
@@ -318,6 +332,8 @@ param
 {
 Boolean
 }
+options
+.
 enabled
 *
 Whether
@@ -331,6 +347,8 @@ param
 {
 Boolean
 }
+options
+.
 invisible
 *
 Whether
@@ -396,6 +414,7 @@ parseDeclarations
 /
 constructor
 (
+{
 rule
 name
 value
@@ -406,6 +425,7 @@ true
 invisible
 =
 false
+}
 )
 {
 this
