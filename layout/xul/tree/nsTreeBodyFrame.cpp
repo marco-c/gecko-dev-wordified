@@ -4367,11 +4367,9 @@ result
 mVScrollbar
 -
 >
-SetScrollbarMediatorContent
+SetOverrideScrollbarMediator
 (
-GetContent
-(
-)
+this
 )
 ;
 result
