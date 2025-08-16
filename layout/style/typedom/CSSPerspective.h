@@ -238,7 +238,7 @@ GlobalObject
 &
 aGlobal
 const
-CSSNumericValueOrUTF8StringOrCSSKeywordValue
+CSSPerspectiveValue
 &
 aLength
 ErrorResult
@@ -249,7 +249,7 @@ aRv
 void
 GetLength
 (
-OwningCSSNumericValueOrUTF8StringOrCSSKeywordValue
+OwningCSSPerspectiveValue
 &
 aRetVal
 )
@@ -259,7 +259,7 @@ void
 SetLength
 (
 const
-CSSNumericValueOrUTF8StringOrCSSKeywordValue
+CSSPerspectiveValue
 &
 aArg
 ErrorResult

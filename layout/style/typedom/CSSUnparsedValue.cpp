@@ -262,7 +262,7 @@ aGlobal
 const
 Sequence
 <
-OwningUTF8StringOrCSSVariableReferenceValue
+OwningCSSUnparsedSegment
 >
 &
 aMembers
@@ -306,7 +306,7 @@ aIndex
 bool
 &
 aFound
-OwningUTF8StringOrCSSVariableReferenceValue
+OwningCSSUnparsedSegment
 &
 aRetVal
 )
@@ -321,7 +321,7 @@ IndexedSetter
 uint32_t
 aIndex
 const
-UTF8StringOrCSSVariableReferenceValue
+CSSUnparsedSegment
 &
 aVal
 ErrorResult
