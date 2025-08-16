@@ -515,7 +515,7 @@ JS
 :
 Handle
 <
-JSObject
+JSScript
 *
 >
 referrer
@@ -1238,7 +1238,7 @@ JS
 :
 Handle
 <
-JSObject
+JSScript
 *
 >
 referrer

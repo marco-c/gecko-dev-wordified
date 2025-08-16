@@ -3082,7 +3082,7 @@ JSContext
 aCx
 Handle
 <
-JSObject
+JSScript
 *
 >
 aReferrer
@@ -3350,7 +3350,7 @@ ModuleMapKey
 aRequestedModule
 Handle
 <
-JSObject
+JSScript
 *
 >
 aReferrer

@@ -585,7 +585,7 @@ JSContext
 cx
 Handle
 <
-JSObject
+JSScript
 *
 >
 referrer
@@ -1073,7 +1073,7 @@ JSContext
 cx
 Handle
 <
-JSObject
+JSScript
 *
 >
 referrer

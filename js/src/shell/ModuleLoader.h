@@ -229,7 +229,7 @@ JS
 :
 Handle
 <
-JSObject
+JSScript
 *
 >
 referrer
@@ -354,7 +354,7 @@ loadImportedModule
 JSContext
 *
 cx
-HandleObject
+HandleScript
 referrer
 HandleValue
 referencingPrivate
