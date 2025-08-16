@@ -1538,7 +1538,7 @@ thing
 .
 MainThreadOrGCTaskData
 <
-PerAllocBitmap
+AtomicPerAllocBitmap
 >
 nurseryOwnedBitmap
 ;
