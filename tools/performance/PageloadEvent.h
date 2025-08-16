@@ -342,6 +342,12 @@ _
 cacheDisposition
 uint32_t
 )
+\
+_
+(
+networkType
+uint32_t
+)
 namespace
 mozilla
 :

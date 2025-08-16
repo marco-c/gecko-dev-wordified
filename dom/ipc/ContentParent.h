@@ -8699,7 +8699,7 @@ return
 mBrowsingContextFieldEpoch
 ;
 }
-void
+uint32_t
 UpdateNetworkLinkType
 (
 )
