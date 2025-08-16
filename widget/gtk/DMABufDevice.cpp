@@ -122,6 +122,13 @@ DMABufFormats
 h
 "
 #
+include
+"
+DMABufSurface
+.
+h
+"
+#
 ifdef
 MOZ_WAYLAND
 #
@@ -1814,6 +1821,13 @@ return
 false
 ;
 }
+DMABufSurface
+:
+:
+InitMemoryReporting
+(
+)
+;
 LOGDMABUF
 (
 (
