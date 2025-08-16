@@ -11914,16 +11914,12 @@ aContent
 *
 *
 *
-GetClosestAncestorListItemElement
-(
-)
-returns
+Return
 a
 list
 item
 element
 if
-*
 aContent
 or
 its
@@ -11932,6 +11928,7 @@ in
 editing
 host
 is
+*
 one
 .
 However
@@ -11939,7 +11936,6 @@ this
 won
 '
 t
-*
 cross
 table
 related
@@ -11950,7 +11946,7 @@ element
 static
 Element
 *
-GetClosestAncestorListItemElement
+GetClosestInclusiveAncestorListItemElement
 (
 const
 nsIContent

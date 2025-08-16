@@ -2436,7 +2436,7 @@ maybeNonEditableListItem
 HTMLEditUtils
 :
 :
-GetClosestAncestorListItemElement
+GetClosestInclusiveAncestorListItemElement
 (
 *
 editableBlockElement
