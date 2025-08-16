@@ -471,7 +471,7 @@ Ci
 checkService
 (
 "
-androidBridge
+geckoviewBridge
 "
 Ci
 .
