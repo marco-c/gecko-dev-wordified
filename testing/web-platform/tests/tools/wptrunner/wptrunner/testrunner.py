@@ -2354,6 +2354,9 @@ max_restarts
 max_restart_backoff
 =
 0
+update_status_on_crash
+=
+True
 )
 :
         
@@ -2637,6 +2640,12 @@ self
 max_restart_backoff
 =
 max_restart_backoff
+        
+self
+.
+update_status_on_crash
+=
+update_status_on_crash
         
 assert
 recording
@@ -5960,27 +5969,9 @@ CRASH
 :
             
 if
-test
+self
 .
-test_type
-in
-[
-"
-crashtest
-"
-"
-wdspec
-"
-]
-or
-status
-=
-=
-"
-EXTERNAL
--
-TIMEOUT
-"
+update_status_on_crash
 :
                 
 self
@@ -6025,19 +6016,12 @@ a
 crash
 dump
 ;
-should
-change
+but
+keeping
 status
-from
 {
 status
 }
-to
-CRASH
-but
-this
-causes
-instability
 "
 )
         
@@ -8201,6 +8185,10 @@ max_restarts
 max_restart_backoff
 =
 0
+                 
+update_status_on_crash
+=
+False
 )
 :
         
@@ -8293,6 +8281,12 @@ self
 max_restart_backoff
 =
 max_restart_backoff
+        
+self
+.
+update_status_on_crash
+=
+update_status_on_crash
         
 self
 .
@@ -8482,6 +8476,12 @@ max_restart_backoff
 self
 .
 max_restart_backoff
+                                        
+update_status_on_crash
+=
+self
+.
+update_status_on_crash
 )
             
 manager

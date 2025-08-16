@@ -2198,6 +2198,15 @@ max_restart_backoff
 "
 ]
                           
+update_status_on_crash
+=
+kwargs
+[
+"
+update_status_on_crash
+"
+]
+                          
 )
 as
 manager_group
