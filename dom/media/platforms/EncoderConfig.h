@@ -1413,6 +1413,14 @@ ToString
 )
 const
 ;
+const
+char
+*
+CodecString
+(
+)
+const
+;
 bool
 IsVideo
 (
