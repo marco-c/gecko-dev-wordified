@@ -468,7 +468,7 @@ append
 obj
 [
 "
-file_relpath
+path
 "
 ]
 )
