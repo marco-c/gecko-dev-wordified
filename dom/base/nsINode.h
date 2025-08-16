@@ -17370,16 +17370,11 @@ nullptr
 }
 MOZ_CAN_RUN_SCRIPT
 void
-RevealAncestorHiddenUntilFoundAndFireBeforematchEvent
+AncestorRevealingAlgorithm
 (
 ErrorResult
 &
 aRv
-)
-;
-void
-RevealAncestorClosedDetails
-(
 )
 ;
 protected
