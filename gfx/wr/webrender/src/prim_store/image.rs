@@ -1314,7 +1314,6 @@ new_image
 (
 size
 request
-false
 )
 )
 ;
@@ -2195,7 +2194,6 @@ new_image
 (
 size
 request
-false
 )
 )
 ;
@@ -4089,9 +4087,6 @@ common
 &
 mut
 PrimTemplateCommonData
-is_composited
-:
-bool
 frame_state
 :
 &
@@ -4195,7 +4190,6 @@ new_image
 (
 size
 request
-is_composited
 )
 )
 ;

@@ -4332,7 +4332,6 @@ YuvImage
 {
 data_handle
 segment_instance_index
-compositor_surface_kind
 .
 .
 }
@@ -4411,11 +4410,6 @@ yuv_image_data
 update
 (
 common_data
-compositor_surface_kind
-.
-is_composited
-(
-)
 frame_state
 )
 ;
