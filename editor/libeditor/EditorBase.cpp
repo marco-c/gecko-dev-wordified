@@ -23403,7 +23403,7 @@ DidInsertText
 this
 begin
 .
-To
+RefOrTo
 <
 EditorRawDOMPoint
 >
@@ -23411,7 +23411,7 @@ EditorRawDOMPoint
 )
 end
 .
-To
+RefOrTo
 <
 EditorRawDOMPoint
 >
