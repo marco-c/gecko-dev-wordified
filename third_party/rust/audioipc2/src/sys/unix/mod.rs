@@ -571,9 +571,9 @@ recv_msg_with_flags
 flags
 =
 {
+msg_flags
 }
 "
-msg_flags
 )
 ;
 buf

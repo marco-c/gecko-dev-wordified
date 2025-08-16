@@ -15,14 +15,6 @@ test
 ]
 extern
 crate
-num_integer
-;
-extern
-crate
-num_traits
-;
-extern
-crate
 test
 ;
 use
@@ -855,6 +847,7 @@ mut
 Bencher
 )
 {
+crate
 :
 :
 bench_rand_pos
@@ -882,6 +875,7 @@ mut
 Bencher
 )
 {
+crate
 :
 :
 bench_small_pos
@@ -909,6 +903,7 @@ mut
 Bencher
 )
 {
+crate
 :
 :
 bench_rand
@@ -936,6 +931,7 @@ mut
 Bencher
 )
 {
+crate
 :
 :
 bench_small
@@ -963,6 +959,7 @@ mut
 Bencher
 )
 {
+crate
 :
 :
 bench_rand_pos
@@ -998,6 +995,7 @@ mut
 Bencher
 )
 {
+crate
 :
 :
 bench_small_pos
@@ -1033,6 +1031,7 @@ mut
 Bencher
 )
 {
+crate
 :
 :
 bench_rand
@@ -1068,6 +1067,7 @@ mut
 Bencher
 )
 {
+crate
 :
 :
 bench_small

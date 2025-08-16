@@ -733,6 +733,10 @@ DeviceType
 Result
 <
 DeviceCollection
+<
+'
+_
+>
 >
 {
 let

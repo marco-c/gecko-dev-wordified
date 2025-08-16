@@ -96,9 +96,13 @@ e
 Error
 :
 :
-from_raw
+wrap
 (
 e
+)
+.
+unwrap_err
+(
 )
 None
 =
@@ -106,9 +110,7 @@ None
 Error
 :
 :
-error
-(
-)
+Error
 }
 }
 #

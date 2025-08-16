@@ -69,7 +69,6 @@ io
 {
 self
 Error
-ErrorKind
 Result
 }
 ;
@@ -1269,12 +1268,8 @@ Err
 Error
 :
 :
-new
+other
 (
-ErrorKind
-:
-:
-Other
 "
 proxy
 recv
@@ -1839,12 +1834,8 @@ Err
 Error
 :
 :
-new
+other
 (
-ErrorKind
-:
-:
-Other
 "
 request
 /
@@ -2284,6 +2275,7 @@ debug
 Proxy
 [
 {
+self
 :
 p
 }
@@ -2298,7 +2290,6 @@ CH
 requests
 full
 "
-self
 )
 ;
 return
@@ -2333,6 +2324,7 @@ debug
 Proxy
 [
 {
+self
 :
 p
 }
@@ -2347,7 +2339,6 @@ CH
 requests
 dropped
 "
-self
 )
 ;
 Err
@@ -2355,12 +2346,8 @@ Err
 Error
 :
 :
-new
+other
 (
-ErrorKind
-:
-:
-Other
 "
 proxy
 send

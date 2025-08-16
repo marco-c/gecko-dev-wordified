@@ -15,14 +15,6 @@ test
 ]
 extern
 crate
-num_integer
-;
-extern
-crate
-num_traits
-;
-extern
-crate
 test
 ;
 use
@@ -1149,7 +1141,6 @@ different
 sign
 }
 else
-{
 if
 (
 a
@@ -1223,7 +1214,6 @@ one
 )
 )
 )
-}
 }
 }
 bench_unchecked
@@ -1413,7 +1403,6 @@ different
 sign
 }
 else
-{
 if
 (
 a
@@ -1487,7 +1476,6 @@ one
 )
 )
 )
-}
 }
 }
 bench_unchecked
