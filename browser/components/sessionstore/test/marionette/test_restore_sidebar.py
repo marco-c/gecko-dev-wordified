@@ -1471,7 +1471,7 @@ open
         
 self
 .
-assertFalse
+assertTrue
 (
             
 self
@@ -1514,7 +1514,7 @@ hidden
 "
 Sidebar
 is
-visible
+hidden
 before
 window
 is
@@ -1534,7 +1534,7 @@ restart
         
 self
 .
-assertFalse
+assertTrue
 (
             
 self
