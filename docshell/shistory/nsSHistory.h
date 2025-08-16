@@ -1053,6 +1053,16 @@ their
 history
 order
 .
+/
+/
+Will
+stop
+walking
+when
+aCallback
+returns
+false
+.
 static
 void
 WalkContiguousEntriesInOrder
@@ -1066,7 +1076,7 @@ std
 :
 function
 <
-void
+bool
 (
 nsISHEntry
 *

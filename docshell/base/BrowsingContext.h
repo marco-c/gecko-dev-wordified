@@ -7179,17 +7179,6 @@ ClearCachedValuesOfLocations
 )
 ;
 void
-GetContiguousHistoryEntries
-(
-SessionHistoryInfo
-&
-aActiveEntry
-Navigation
-*
-aNavigation
-)
-;
-void
 ConsumeHistoryActivation
 (
 )
