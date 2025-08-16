@@ -3843,10 +3843,6 @@ mOCSPTimeoutSoft
 mOCSPTimeoutHard
 mCertShortLifetimeInDays
 MIN_RSA_BITS_WEAK
-ValidityCheckingMode
-:
-:
-CheckingOff
 mCRLiteMode
 originAttributes
 mThirdPartyRootInputs
@@ -4038,10 +4034,6 @@ mOCSPTimeoutSoft
 mOCSPTimeoutHard
 mCertShortLifetimeInDays
 MIN_RSA_BITS
-ValidityCheckingMode
-:
-:
-CheckForEV
 mCRLiteMode
 originAttributes
 mThirdPartyRootInputs
@@ -4363,10 +4355,6 @@ keySizeOptions
 [
 i
 ]
-ValidityCheckingMode
-:
-:
-CheckingOff
 mCRLiteMode
 originAttributes
 mThirdPartyRootInputs
@@ -4664,10 +4652,6 @@ mOCSPTimeoutSoft
 mOCSPTimeoutHard
 mCertShortLifetimeInDays
 MIN_RSA_BITS_WEAK
-ValidityCheckingMode
-:
-:
-CheckingOff
 mCRLiteMode
 originAttributes
 mThirdPartyRootInputs
@@ -4754,10 +4738,6 @@ mOCSPTimeoutSoft
 mOCSPTimeoutHard
 mCertShortLifetimeInDays
 MIN_RSA_BITS_WEAK
-ValidityCheckingMode
-:
-:
-CheckingOff
 mCRLiteMode
 originAttributes
 mThirdPartyRootInputs
@@ -4928,10 +4908,6 @@ mOCSPTimeoutSoft
 mOCSPTimeoutHard
 mCertShortLifetimeInDays
 MIN_RSA_BITS_WEAK
-ValidityCheckingMode
-:
-:
-CheckingOff
 mCRLiteMode
 originAttributes
 mThirdPartyRootInputs

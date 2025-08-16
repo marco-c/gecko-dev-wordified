@@ -197,18 +197,6 @@ psm
 {
 enum
 class
-ValidityCheckingMode
-{
-CheckingOff
-=
-0
-CheckForEV
-=
-1
-}
-;
-enum
-class
 NSSDBConfig
 {
 ReadWrite
@@ -804,8 +792,6 @@ certShortLifetimeInDays
 unsigned
 int
 minRSABits
-ValidityCheckingMode
-validityCheckingMode
 CRLiteMode
 crliteMode
 const
@@ -1919,9 +1905,6 @@ const
 unsigned
 int
 mMinRSABits
-;
-ValidityCheckingMode
-mValidityCheckingMode
 ;
 CRLiteMode
 mCRLiteMode
