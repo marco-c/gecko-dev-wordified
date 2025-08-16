@@ -144,6 +144,13 @@ h
 "
 #
 include
+"
+nsXULAppAPI
+.
+h
+"
+#
+include
 <
 glib
 .
@@ -1514,6 +1521,13 @@ Init
 (
 )
 {
+MOZ_DIAGNOSTIC_ASSERT
+(
+XRE_IsParentProcess
+(
+)
+)
+;
 #
 define
 FUNC
