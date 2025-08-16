@@ -270,16 +270,12 @@ nsCOMPtr
 nsIWidget
 >
 ppWidget
-;
+=
 ppBaseWindow
 -
 >
 GetMainWidget
 (
-getter_AddRefs
-(
-ppWidget
-)
 )
 ;
 return

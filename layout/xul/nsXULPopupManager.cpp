@@ -14754,16 +14754,12 @@ nsCOMPtr
 nsIWidget
 >
 mainWidget
-;
+=
 baseWin
 -
 >
 GetMainWidget
 (
-getter_AddRefs
-(
-mainWidget
-)
 )
 ;
 if

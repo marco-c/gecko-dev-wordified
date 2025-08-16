@@ -2534,16 +2534,12 @@ nsCOMPtr
 nsIWidget
 >
 widget
-;
+=
 baseWin
 -
 >
 GetMainWidget
 (
-getter_AddRefs
-(
-widget
-)
 )
 ;
 if

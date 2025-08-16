@@ -466,6 +466,8 @@ GetContainer
 (
 )
 ;
+if
+(
 nsCOMPtr
 <
 nsIBaseWindow
@@ -476,10 +478,6 @@ do_QueryInterface
 (
 container
 )
-;
-if
-(
-baseWindow
 )
 {
 nsCOMPtr
@@ -487,16 +485,12 @@ nsCOMPtr
 nsIWidget
 >
 mainWidget
-;
+=
 baseWindow
 -
 >
 GetMainWidget
 (
-getter_AddRefs
-(
-mainWidget
-)
 )
 ;
 return

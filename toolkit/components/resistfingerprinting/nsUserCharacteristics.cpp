@@ -2201,16 +2201,12 @@ nsCOMPtr
 nsIWidget
 >
 mainWidget
-;
+=
 treeOwnerAsWin
 -
 >
 GetMainWidget
 (
-getter_AddRefs
-(
-mainWidget
-)
 )
 ;
 if

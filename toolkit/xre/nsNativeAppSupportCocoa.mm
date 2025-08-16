@@ -670,17 +670,11 @@ nsIWidget
 >
 widget
 =
-nullptr
-;
 baseWindow
 -
 >
 GetMainWidget
 (
-getter_AddRefs
-(
-widget
-)
 )
 ;
 if
