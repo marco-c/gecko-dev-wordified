@@ -113,6 +113,7 @@ fd
 :
 :
 {
+AsRawFd
 BorrowedFd
 OwnedFd
 }
@@ -228,6 +229,15 @@ blocking
 mode
 .
 let
+fd
+=
+socket
+.
+as_raw_fd
+(
+)
+;
+let
 flags
 =
 OFlag
@@ -237,7 +247,7 @@ from_bits_retain
 (
 fcntl
 (
-socket
+fd
 F_GETFL
 )
 ?
@@ -245,7 +255,7 @@ F_GETFL
 ;
 fcntl
 (
-socket
+fd
 F_SETFL
 (
 flags
@@ -291,6 +301,10 @@ Result
 fcntl
 (
 socket
+.
+as_raw_fd
+(
+)
 F_SETFD
 (
 FdFlag

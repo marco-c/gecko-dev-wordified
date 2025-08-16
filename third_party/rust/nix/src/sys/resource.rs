@@ -155,11 +155,6 @@ gnu
 "
 )
 )
-target_os
-=
-"
-cygwin
-"
 )
 )
 ]
@@ -468,11 +463,6 @@ uclibc
 )
 )
 )
-target_os
-=
-"
-cygwin
-"
 )
 repr
 (
