@@ -2130,6 +2130,7 @@ value
 el
 .
 classList
+?
 .
 add
 (
@@ -2335,6 +2336,7 @@ className
 el
 .
 classList
+?
 .
 remove
 (
@@ -2856,6 +2858,7 @@ className
 el
 .
 classList
+?
 .
 remove
 (
@@ -2922,6 +2925,7 @@ issue
 el
 .
 classList
+?
 .
 add
 (
@@ -3422,6 +3426,7 @@ className
 el
 .
 classList
+?
 .
 remove
 (
@@ -3488,6 +3493,7 @@ issue
 el
 .
 classList
+?
 .
 add
 (

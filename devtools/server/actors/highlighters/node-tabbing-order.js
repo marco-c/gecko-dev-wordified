@@ -684,6 +684,7 @@ root
 root
 .
 classList
+?
 .
 toggle
 (

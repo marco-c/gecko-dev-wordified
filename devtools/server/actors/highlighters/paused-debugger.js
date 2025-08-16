@@ -1443,6 +1443,7 @@ wrapper
 )
 .
 classList
+?
 .
 remove
 (
@@ -1465,6 +1466,7 @@ wrapper
 )
 .
 classList
+?
 .
 remove
 (

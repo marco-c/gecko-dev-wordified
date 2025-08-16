@@ -3531,6 +3531,7 @@ handler
 topleft
 "
 )
+?
 .
 classList
 .
@@ -3590,6 +3591,7 @@ getElement
 (
 elementId
 )
+?
 .
 classList
 .
@@ -3775,6 +3777,7 @@ getElement
 tool
 "
 )
+?
 .
 classList
 .
@@ -3876,6 +3879,7 @@ originalTarget
 .
 id
 )
+?
 .
 classList
 .
@@ -4360,6 +4364,7 @@ handler
 handler
 }
 )
+?
 .
 classList
 .
@@ -4429,6 +4434,7 @@ handler
 topleft
 "
 )
+?
 .
 classList
 .

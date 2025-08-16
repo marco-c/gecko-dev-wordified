@@ -893,6 +893,7 @@ hideButtonId
 hideButton
 .
 classList
+?
 .
 add
 (
@@ -907,6 +908,7 @@ else
 hideButton
 .
 classList
+?
 .
 remove
 (

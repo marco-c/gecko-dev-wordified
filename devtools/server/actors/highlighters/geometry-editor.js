@@ -2771,6 +2771,7 @@ handler
 +
 side
 )
+?
 .
 classList
 .
@@ -2863,6 +2864,7 @@ handler
 +
 side
 )
+?
 .
 classList
 .

@@ -2066,6 +2066,7 @@ configuration
 root
 .
 classList
+?
 .
 toggle
 (
