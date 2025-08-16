@@ -614,7 +614,7 @@ cached
 }
 )
 ;
-add_task
+decorate_task
 (
 withStub
 (
