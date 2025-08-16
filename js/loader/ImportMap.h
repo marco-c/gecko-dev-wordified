@@ -649,9 +649,6 @@ ParseString
 JSContext
 *
 aCx
-JS
-:
-:
 SourceText
 <
 char16_t

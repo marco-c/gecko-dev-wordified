@@ -362,8 +362,8 @@ mozilla
 loader
 namespace
 JS
-{
-namespace
+:
+:
 loader
 {
 class
@@ -744,9 +744,6 @@ T
 typename
 D
 =
-JS
-:
-:
 DeletePolicy
 <
 T
@@ -1930,9 +1927,6 @@ used
 for
 ModuleLoadRequest
 .
-JS
-:
-:
 Heap
 <
 JSScript
@@ -2301,12 +2295,10 @@ aFlags
 /
 /
 namespace
-loader
-}
-/
-/
-namespace
 JS
+:
+:
+loader
 #
 endif
 /
