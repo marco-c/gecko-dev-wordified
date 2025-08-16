@@ -209,6 +209,11 @@ CompositorWidgetParent
 .
 h
 "
+"
+InProcessCocoaCompositorWidget
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
@@ -231,6 +236,11 @@ cpp
 "
 "
 GfxInfo
+.
+mm
+"
+"
+InProcessCocoaCompositorWidget
 .
 mm
 "
