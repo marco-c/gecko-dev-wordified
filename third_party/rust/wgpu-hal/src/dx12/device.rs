@@ -284,6 +284,12 @@ shader_compilation
 :
 CompilerContainer
 >
+backend_options
+:
+wgt
+:
+:
+Dx12BackendOptions
 )
 -
 >
@@ -1083,6 +1089,9 @@ Direct3D12
 D3D12_DESCRIPTOR_HEAP_TYPE_CBV_SRV_UAV
 )
 )
+options
+:
+backend_options
 library
 :
 Arc

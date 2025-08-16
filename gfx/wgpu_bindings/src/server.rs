@@ -1252,6 +1252,14 @@ Dx12BackendOptions
 shader_compiler
 :
 dx12_shader_compiler
+.
+.
+Default
+:
+:
+default
+(
+)
 }
 noop
 :

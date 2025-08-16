@@ -533,6 +533,13 @@ DXGI_FORMAT_NV12
 Tf
 :
 :
+P010
+=
+>
+DXGI_FORMAT_P010
+Tf
+:
+:
 Bc1RgbaUnorm
 =
 >
