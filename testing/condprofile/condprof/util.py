@@ -562,35 +562,24 @@ BridgeLogger
 new_logger
 )
     
+try
+:
+        
 #
 bridge
 for
 Arsenic
-    
-if
-sys
-.
-version_info
-.
-major
-=
-=
-3
-:
         
-try
-:
-            
 from
 arsenic
 import
 connection
-            
+        
 from
 structlog
 import
 wrap_logger
-            
+        
 connection
 .
 log
@@ -599,11 +588,11 @@ wrap_logger
 (
 new_logger
 )
-        
+    
 except
 ImportError
 :
-            
+        
 #
 Arsenic
 is
@@ -614,7 +603,7 @@ client
 -
 only
 usage
-            
+        
 pass
     
 logger

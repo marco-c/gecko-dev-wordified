@@ -364,10 +364,7 @@ error
 ]
         
 if
-len
-(
 errors
-)
 :
             
 results
@@ -486,10 +483,7 @@ happened
 if
 errors
 and
-len
-(
 errors
-)
 :
             
 return

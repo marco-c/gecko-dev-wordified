@@ -17221,10 +17221,7 @@ cfg_files
 )
         
 if
-len
-(
 cfg_files
-)
 :
             
 self

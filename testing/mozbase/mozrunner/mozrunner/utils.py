@@ -1394,10 +1394,7 @@ lsanOptions
 )
             
 if
-len
-(
 asanOptions
-)
 :
                 
 env

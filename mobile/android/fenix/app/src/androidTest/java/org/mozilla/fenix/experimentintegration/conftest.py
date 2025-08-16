@@ -731,7 +731,8 @@ features
 None
 )
     
-match
+experiment_feature
+=
 request
 .
 config
@@ -746,14 +747,16 @@ experiment
 feature
 "
 )
-:
-        
-case
+    
+if
+experiment_feature
+=
+=
 "
 messaging_survey
 "
 :
-            
+        
 if
 features
 .
@@ -771,7 +774,7 @@ messages
 "
 )
 :
-                
+            
 for
 item
 in
@@ -791,7 +794,7 @@ values
 (
 )
 :
-                    
+                
 if
 "
 USER_EN
@@ -810,7 +813,7 @@ all
 "
 ]
 :
-                        
+                    
 item
 [
 "

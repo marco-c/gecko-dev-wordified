@@ -1002,10 +1002,7 @@ path
 env_path
     
 elif
-len
-(
 existing
-)
 :
         
 assert
