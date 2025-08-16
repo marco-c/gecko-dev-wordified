@@ -786,6 +786,15 @@ char
 aFilename
 )
 ;
+static
+nsresult
+GetVeryFirstUnexpectedScriptFilename
+(
+nsACString
+&
+aFilename
+)
+;
 /
 /
 Helper

@@ -1177,6 +1177,13 @@ sys
 .
 mjs
 "
+"
+UnexpectedScriptObserver
+.
+sys
+.
+mjs
+"
 ]
 if
 CONFIG
