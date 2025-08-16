@@ -4001,13 +4001,6 @@ fetchEngineConfiguration
 userEnv
 )
 ;
-if
-(
-SearchUtils
-.
-rustSelectorFeatureGate
-)
-{
 /
 /
 Add
@@ -4268,7 +4261,6 @@ j
 ]
 }
 ;
-}
 }
 }
 Assert
