@@ -199,6 +199,9 @@ MediaRawData
 class
 ChromiumCDMProxy
 ;
+class
+RemoteCDMChild
+;
 #
 ifdef
 MOZ_WMF_CDM
@@ -1749,6 +1752,17 @@ nullptr
 }
 #
 endif
+virtual
+RemoteCDMChild
+*
+AsRemoteCDMChild
+(
+)
+{
+return
+nullptr
+;
+}
 virtual
 bool
 IsHardwareDecryptionSupported
