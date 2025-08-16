@@ -1286,9 +1286,9 @@ arguments
 )
 ;
             
-window
+utils
 .
-synthesizeMouseEvent
+sendMouseEventToWindow
 (
 '
 mouselongtap
@@ -1301,14 +1301,10 @@ arguments
 [
 1
 ]
-                                        
-{
-}
-{
-toWindow
-:
-true
-}
+                                          
+0
+1
+0
 )
 ;
             
