@@ -123,6 +123,13 @@ mozilla_widget_IOSView_h
 #
 include
 "
+CFTypeRefPtr
+.
+h
+"
+#
+include
+"
 mozilla
 /
 widget
@@ -149,6 +156,8 @@ virtual
 IOSView
 (
 )
+=
+default
 ;
 public
 :
@@ -180,8 +189,9 @@ EventDispatcher
 IOSView
 (
 )
-{
-}
+=
+default
+;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIGECKOVIEWVIEW
 NS_FORWARD_NSIGECKOVIEWEVENTDISPATCHER
@@ -190,7 +200,10 @@ mEventDispatcher
 -
 >
 )
-id
+CFTypeRefPtr
+<
+CFDictionaryRef
+>
 mInitData
 ;
 }
