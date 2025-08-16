@@ -2815,11 +2815,10 @@ SweepKind
 :
 uint8_t
 {
-SweepTenured
+Tenured
 =
 0
-SweepNursery
-RebuildFreeLists
+Nursery
 }
 ;
 /
