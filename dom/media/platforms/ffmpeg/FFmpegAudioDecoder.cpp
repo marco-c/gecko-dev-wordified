@@ -678,6 +678,17 @@ Init
 (
 )
 {
+AUTO_PROFILER_LABEL
+(
+"
+FFmpegAudioDecoder
+:
+:
+Init
+"
+MEDIA_PLAYBACK
+)
+;
 AVDictionary
 *
 options

@@ -3960,6 +3960,17 @@ Init
 (
 )
 {
+AUTO_PROFILER_LABEL
+(
+"
+FFmpegVideoDecoder
+:
+:
+Init
+"
+MEDIA_PLAYBACK
+)
+;
 FFMPEG_LOG
 (
 "

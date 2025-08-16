@@ -1334,6 +1334,17 @@ Init
 (
 )
 {
+AUTO_PROFILER_LABEL
+(
+"
+WMFVideoMFTManager
+:
+:
+Init
+"
+MEDIA_PLAYBACK
+)
+;
 MediaResult
 result
 =
