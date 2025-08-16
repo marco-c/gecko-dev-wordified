@@ -207,7 +207,7 @@ using
 Element
 :
 :
-GetText
+GetCharacterDataBuffer
 ;
 HTMLScriptElement
 (

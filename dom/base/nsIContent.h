@@ -1552,7 +1552,7 @@ dom
 :
 CharacterDataBuffer
 *
-GetText
+GetCharacterDataBuffer
 (
 )
 =

@@ -161,7 +161,7 @@ using
 Element
 :
 :
-GetText
+GetCharacterDataBuffer
 ;
 explicit
 HTMLBodyElement

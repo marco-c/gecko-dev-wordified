@@ -29136,7 +29136,7 @@ contentChar
 mContent
 -
 >
-GetText
+GetCharacterDataBuffer
 (
 )
 -

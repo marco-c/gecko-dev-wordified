@@ -318,7 +318,7 @@ virtual
 const
 CharacterDataBuffer
 *
-GetText
+GetCharacterDataBuffer
 (
 )
 override

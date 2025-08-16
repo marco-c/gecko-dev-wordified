@@ -12369,7 +12369,7 @@ CharacterDataBuffer
 FragmentOrElement
 :
 :
-GetText
+GetCharacterDataBuffer
 (
 )
 {

@@ -20414,7 +20414,7 @@ child
 const
 CharacterDataBuffer
 *
-text
+characterDataBuffer
 =
 previewDiv
 -
@@ -20424,7 +20424,7 @@ GetFirstChild
 )
 -
 >
-GetText
+GetCharacterDataBuffer
 (
 )
 ;
@@ -20434,7 +20434,7 @@ Truncate
 (
 )
 ;
-text
+characterDataBuffer
 -
 >
 AppendTo

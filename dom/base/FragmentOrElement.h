@@ -572,7 +572,7 @@ methods
 const
 CharacterDataBuffer
 *
-GetText
+GetCharacterDataBuffer
 (
 )
 override

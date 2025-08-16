@@ -2147,7 +2147,7 @@ Length
 node
 -
 >
-GetText
+GetCharacterDataBuffer
 (
 )
 -

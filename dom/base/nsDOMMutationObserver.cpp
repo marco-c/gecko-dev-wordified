@@ -1138,7 +1138,7 @@ IsVoid
 aContent
 -
 >
-GetText
+GetCharacterDataBuffer
 (
 )
 -

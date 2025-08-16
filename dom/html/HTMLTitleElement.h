@@ -167,7 +167,7 @@ using
 Element
 :
 :
-GetText
+GetCharacterDataBuffer
 ;
 explicit
 HTMLTitleElement

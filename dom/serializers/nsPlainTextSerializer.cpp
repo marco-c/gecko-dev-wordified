@@ -2585,7 +2585,7 @@ aText
 const
 CharacterDataBuffer
 *
-frag
+characterDataBuffer
 =
 nullptr
 ;
@@ -2597,12 +2597,12 @@ content
 |
 !
 (
-frag
+characterDataBuffer
 =
 content
 -
 >
-GetText
+GetCharacterDataBuffer
 (
 )
 )
@@ -2615,7 +2615,7 @@ NS_ERROR_FAILURE
 int32_t
 fragLength
 =
-frag
+characterDataBuffer
 -
 >
 GetLength
@@ -2690,7 +2690,7 @@ textstr
 ;
 if
 (
-frag
+characterDataBuffer
 -
 >
 Is2b
@@ -2702,7 +2702,7 @@ textstr
 .
 Assign
 (
-frag
+characterDataBuffer
 -
 >
 Get2b
@@ -2737,7 +2737,7 @@ char
 *
 data
 =
-frag
+characterDataBuffer
 -
 >
 Get1b
