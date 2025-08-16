@@ -3621,6 +3621,11 @@ CSSScopeRule
 webidl
 "
 "
+CSSSkew
+.
+webidl
+"
+"
 CSSStartingStyleRule
 .
 webidl
