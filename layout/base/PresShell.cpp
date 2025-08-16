@@ -39937,7 +39937,6 @@ isNothing
 )
 &
 &
-!
 mPointerIds
 .
 IsEmpty
