@@ -13064,7 +13064,7 @@ contains
 StackingContextFlags
 :
 :
-IS_BACKDROP_ROOT
+FORCED_ISOLATION
 )
 {
 blit_reason
@@ -13072,7 +13072,7 @@ blit_reason
 BlitReason
 :
 :
-BACKDROP
+FORCED_ISOLATION
 ;
 }
 /
@@ -13379,7 +13379,7 @@ blit_reason
 BlitReason
 :
 :
-ISOLATE
+BLEND_MODE
 ;
 is_redundant
 =
@@ -13536,7 +13536,7 @@ blit_reason
 BlitReason
 :
 :
-ISOLATE
+BLEND_MODE
 ;
 is_redundant
 =
