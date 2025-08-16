@@ -9048,11 +9048,6 @@ mNeedsFocus
 :
 1
 ;
-bool
-mHasFocus
-:
-1
-;
 /
 /
 true
