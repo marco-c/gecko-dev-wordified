@@ -337,7 +337,7 @@ testConfig
 .
 platforms
 .
-storybook
+tables
 .
 buildPath
 =
