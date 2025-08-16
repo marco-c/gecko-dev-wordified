@@ -537,6 +537,11 @@ JS
 :
 :
 HandleValue
+hostDefined
+JS
+:
+:
+HandleValue
 payload
 )
 {

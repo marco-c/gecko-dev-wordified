@@ -3389,6 +3389,10 @@ HostLoadImportedModule
 cx
 script
 moduleRequest
+JS
+:
+:
+UndefinedHandleValue
 payload
 )
 )
