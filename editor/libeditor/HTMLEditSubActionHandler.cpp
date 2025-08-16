@@ -11551,7 +11551,7 @@ const
 CharacterDataBuffer
 *
 const
-textFragment
+characterDataBuffer
 =
 textNode
 ?
@@ -11559,7 +11559,7 @@ textNode
 textNode
 -
 >
-TextFragment
+DataBuffer
 (
 )
 :
@@ -11773,7 +11773,7 @@ return
 }
 MOZ_ASSERT
 (
-textFragment
+characterDataBuffer
 )
 ;
 const
@@ -11809,7 +11809,7 @@ nonWhiteSpaceOffset
 .
 valueOr
 (
-textFragment
+characterDataBuffer
 -
 >
 GetLength
@@ -11830,7 +11830,7 @@ nonWhiteSpaceOffset
 .
 valueOr
 (
-textFragment
+characterDataBuffer
 -
 >
 GetLength
@@ -12224,7 +12224,7 @@ CharPointData
 InSameTextNode
 (
 !
-textFragment
+characterDataBuffer
 |
 |
 !
@@ -12242,7 +12242,7 @@ CharPointType
 TextEnd
 :
 (
-textFragment
+characterDataBuffer
 -
 >
 CharAt
@@ -12277,7 +12277,7 @@ CharPointData
 InSameTextNode
 (
 !
-textFragment
+characterDataBuffer
 |
 |
 result
@@ -12285,7 +12285,7 @@ result
 mReplaceEndOffset
 >
 =
-textFragment
+characterDataBuffer
 -
 >
 GetLength
@@ -12302,7 +12302,7 @@ CharPointType
 TextEnd
 :
 (
-textFragment
+characterDataBuffer
 -
 >
 CharAt
@@ -12433,11 +12433,11 @@ Text
 const
 CharacterDataBuffer
 &
-textFragment
+characterDataBuffer
 =
 textNode
 .
-TextFragment
+DataBuffer
 (
 )
 ;
@@ -12640,7 +12640,7 @@ nonWhiteSpaceOffset
 .
 valueOr
 (
-textFragment
+characterDataBuffer
 .
 GetLength
 (
@@ -12660,7 +12660,7 @@ nonWhiteSpaceOffset
 .
 valueOr
 (
-textFragment
+characterDataBuffer
 .
 GetLength
 (
@@ -12913,7 +12913,7 @@ CharPointType
 TextEnd
 :
 (
-textFragment
+characterDataBuffer
 .
 CharAt
 (
@@ -12951,7 +12951,7 @@ result
 mReplaceEndOffset
 >
 =
-textFragment
+characterDataBuffer
 .
 GetLength
 (
@@ -12963,7 +12963,7 @@ CharPointType
 TextEnd
 :
 (
-textFragment
+characterDataBuffer
 .
 CharAt
 (
@@ -13455,7 +13455,7 @@ IsEmpty
 const
 CharacterDataBuffer
 &
-textFragment
+characterDataBuffer
 =
 aPointToSplit
 .
@@ -13467,7 +13467,7 @@ Text
 )
 -
 >
-TextFragment
+DataBuffer
 (
 )
 ;
@@ -13499,7 +13499,7 @@ result
 mReplaceEndOffset
 >
 =
-textFragment
+characterDataBuffer
 .
 GetLength
 (
@@ -13511,7 +13511,7 @@ CharPointType
 TextEnd
 :
 (
-textFragment
+characterDataBuffer
 .
 CharAt
 (
@@ -13968,7 +13968,7 @@ IsEmpty
 const
 CharacterDataBuffer
 &
-textFragment
+characterDataBuffer
 =
 aPointToSplit
 .
@@ -13980,7 +13980,7 @@ Text
 )
 -
 >
-TextFragment
+DataBuffer
 (
 )
 ;
@@ -14008,7 +14008,7 @@ CharPointType
 TextEnd
 :
 (
-textFragment
+characterDataBuffer
 .
 CharAt
 (
@@ -14249,11 +14249,11 @@ aChar
 const
 CharacterDataBuffer
 &
-textFragment
+characterDataBuffer
 =
 aTextNode
 .
-TextFragment
+DataBuffer
 (
 )
 ;
@@ -14263,7 +14263,7 @@ precedingChar
 =
 aOffset
 ?
-textFragment
+characterDataBuffer
 .
 CharAt
 (
@@ -14288,13 +14288,13 @@ aOffset
 +
 aLength
 <
-textFragment
+characterDataBuffer
 .
 GetLength
 (
 )
 ?
-textFragment
+characterDataBuffer
 .
 CharAt
 (
@@ -14470,7 +14470,7 @@ nonWhiteSpaceOffset
 .
 valueOr
 (
-textFragment
+characterDataBuffer
 .
 GetLength
 (
@@ -14488,7 +14488,7 @@ nonWhiteSpaceOffset
 .
 valueOr
 (
-textFragment
+characterDataBuffer
 .
 GetLength
 (
@@ -15034,7 +15034,7 @@ CharPointType
 TextEnd
 :
 (
-textFragment
+characterDataBuffer
 .
 CharAt
 (
@@ -15072,7 +15072,7 @@ result
 mReplaceEndOffset
 >
 =
-textFragment
+characterDataBuffer
 .
 GetLength
 (
@@ -15084,7 +15084,7 @@ CharPointType
 TextEnd
 :
 (
-textFragment
+characterDataBuffer
 .
 CharAt
 (
@@ -18272,7 +18272,7 @@ lastLeftChar
 =
 aLeftText
 .
-TextFragment
+DataBuffer
 (
 )
 .
@@ -18285,7 +18285,7 @@ firstRightChar
 =
 aRightText
 .
-TextFragment
+DataBuffer
 (
 )
 .
@@ -18299,7 +18299,7 @@ secondRightChar
 =
 aRightText
 .
-TextFragment
+DataBuffer
 (
 )
 .
@@ -18312,7 +18312,7 @@ GetLength
 ?
 aRightText
 .
-TextFragment
+DataBuffer
 (
 )
 .
@@ -18627,7 +18627,7 @@ kSpace
 &
 aLeftText
 .
-TextFragment
+DataBuffer
 (
 )
 .
@@ -18678,7 +18678,7 @@ secondLastChar
 =
 aLeftText
 .
-TextFragment
+DataBuffer
 (
 )
 .
@@ -18686,7 +18686,7 @@ CharAt
 (
 aLeftText
 .
-TextFragment
+DataBuffer
 (
 )
 .
@@ -18725,7 +18725,7 @@ ReplaceTextWithTransaction
 aLeftText
 aLeftText
 .
-TextFragment
+DataBuffer
 (
 )
 .

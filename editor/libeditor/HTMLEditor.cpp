@@ -30937,7 +30937,7 @@ TextDataLength
 newTextNode
 -
 >
-TextFragment
+DataBuffer
 (
 )
 .
@@ -31536,7 +31536,7 @@ true
 const
 CharacterDataBuffer
 &
-textFragment
+characterDataBuffer
 =
 unnecessaryLineBreak
 -
@@ -31545,7 +31545,7 @@ TextRef
 (
 )
 .
-TextFragment
+DataBuffer
 (
 )
 ;
@@ -31553,7 +31553,7 @@ const
 uint32_t
 length
 =
-textFragment
+characterDataBuffer
 .
 GetLength
 (
@@ -31567,7 +31567,7 @@ char16_t
 >
 lastChar
 =
-textFragment
+characterDataBuffer
 .
 CharAt
 (
@@ -31630,7 +31630,7 @@ if
 (
 IsVisibleChar
 (
-textFragment
+characterDataBuffer
 .
 CharAt
 (

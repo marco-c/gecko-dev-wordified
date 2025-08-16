@@ -321,6 +321,7 @@ CharacterDataBuffer
 GetCharacterDataBuffer
 (
 )
+const
 override
 ;
 virtual

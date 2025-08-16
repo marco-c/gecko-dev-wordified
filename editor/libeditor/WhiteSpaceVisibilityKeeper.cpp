@@ -8999,7 +8999,7 @@ StopIfPrecedingWhiteSpacesEndsWithNBP
 textNode
 -
 >
-TextFragment
+DataBuffer
 (
 )
 .
@@ -9241,7 +9241,7 @@ StopIfFollowingWhiteSpacesStartsWithNBSP
 textNode
 -
 >
-TextFragment
+DataBuffer
 (
 )
 .
@@ -15346,7 +15346,7 @@ offset
 =
 textNode
 .
-TextFragment
+DataBuffer
 (
 )
 .
@@ -15394,7 +15394,7 @@ offset
 =
 textNode
 .
-TextFragment
+DataBuffer
 (
 )
 .
@@ -15456,7 +15456,7 @@ char16_t
 :
 textNode
 .
-TextFragment
+DataBuffer
 (
 )
 .
@@ -15490,7 +15490,7 @@ char16_t
 :
 textNode
 .
-TextFragment
+DataBuffer
 (
 )
 .

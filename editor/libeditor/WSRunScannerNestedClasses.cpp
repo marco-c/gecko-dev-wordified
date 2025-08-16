@@ -1088,7 +1088,7 @@ Text
 const
 CharacterDataBuffer
 &
-textFragment
+characterDataBuffer
 =
 aPoint
 .
@@ -1101,7 +1101,7 @@ Text
 )
 -
 >
-TextFragment
+DataBuffer
 (
 )
 ;
@@ -1120,7 +1120,7 @@ aPoint
 Offset
 (
 )
-textFragment
+characterDataBuffer
 .
 GetLength
 (
@@ -1139,7 +1139,7 @@ wsTypeOfNonCollapsibleChar
 ;
 switch
 (
-textFragment
+characterDataBuffer
 .
 CharAt
 (
@@ -1335,7 +1335,7 @@ nsCRT
 :
 IsAsciiSpace
 (
-textFragment
+characterDataBuffer
 .
 CharAt
 (
@@ -2130,7 +2130,7 @@ Text
 const
 CharacterDataBuffer
 &
-textFragment
+characterDataBuffer
 =
 aPoint
 .
@@ -2143,7 +2143,7 @@ Text
 )
 -
 >
-TextFragment
+DataBuffer
 (
 )
 ;
@@ -2160,7 +2160,7 @@ Offset
 ;
 i
 <
-textFragment
+characterDataBuffer
 .
 GetLength
 (
@@ -2176,7 +2176,7 @@ wsTypeOfNonCollapsibleChar
 ;
 switch
 (
-textFragment
+characterDataBuffer
 .
 CharAt
 (
@@ -2368,7 +2368,7 @@ nsCRT
 :
 IsAsciiSpace
 (
-textFragment
+characterDataBuffer
 .
 CharAt
 (
@@ -2897,7 +2897,7 @@ AsText
 )
 -
 >
-TextFragment
+DataBuffer
 (
 )
 .

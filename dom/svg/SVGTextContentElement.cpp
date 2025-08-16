@@ -685,7 +685,7 @@ Nothing
 const
 CharacterDataBuffer
 *
-text
+characterDataBuffer
 =
 &
 n
@@ -696,14 +696,14 @@ AsText
 )
 -
 >
-TextFragment
+DataBuffer
 (
 )
 ;
 uint32_t
 length
 =
-text
+characterDataBuffer
 -
 >
 GetLength
@@ -712,7 +712,7 @@ GetLength
 ;
 if
 (
-text
+characterDataBuffer
 -
 >
 Is2b
@@ -724,7 +724,7 @@ if
 (
 FragmentHasSkippableCharacter
 (
-text
+characterDataBuffer
 -
 >
 Get2b
@@ -743,7 +743,9 @@ Nothing
 }
 else
 {
+const
 auto
+*
 buffer
 =
 reinterpret_cast
@@ -753,7 +755,7 @@ uint8_t
 *
 >
 (
-text
+characterDataBuffer
 -
 >
 Get1b

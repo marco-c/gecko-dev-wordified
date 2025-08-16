@@ -575,6 +575,7 @@ CharacterDataBuffer
 GetCharacterDataBuffer
 (
 )
+const
 override
 ;
 uint32_t

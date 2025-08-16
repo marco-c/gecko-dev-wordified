@@ -1989,7 +1989,7 @@ AsText
 )
 -
 >
-TextFragment
+DataBuffer
 (
 )
 ;

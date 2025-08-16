@@ -781,9 +781,10 @@ override
 const
 CharacterDataBuffer
 *
-GetText
+GetCharacterDataBuffer
 (
 )
+const
 override
 {
 return
@@ -807,7 +808,7 @@ TextDataLength
 const
 CharacterDataBuffer
 &
-TextFragment
+DataBuffer
 (
 )
 const

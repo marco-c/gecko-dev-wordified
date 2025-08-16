@@ -11172,11 +11172,11 @@ dom
 :
 CharacterDataBuffer
 &
-textFragment
+characterDataBuffer
 =
 aText
 .
-TextFragment
+DataBuffer
 (
 )
 ;
@@ -11196,7 +11196,7 @@ firstDiffCharOffset
 =
 mNewLengthBefore
 ?
-textFragment
+characterDataBuffer
 .
 FindFirstDifferentCharOffset
 (
@@ -11300,7 +11300,7 @@ lastDiffCharOffset
 =
 mNewLengthAfter
 ?
-textFragment
+characterDataBuffer
 .
 RFindFirstDifferentCharOffset
 (
@@ -12408,11 +12408,11 @@ dom
 :
 CharacterDataBuffer
 &
-textFragment
+characterDataBuffer
 =
 aText
 .
-TextFragment
+DataBuffer
 (
 )
 ;
@@ -12446,7 +12446,7 @@ const
 uint32_t
 firstDiffCharOffset
 =
-textFragment
+characterDataBuffer
 .
 FindFirstDifferentCharOffset
 (
@@ -12633,7 +12633,7 @@ const
 auto
 lastDiffCharOffset
 =
-textFragment
+characterDataBuffer
 .
 RFindFirstDifferentCharOffset
 (

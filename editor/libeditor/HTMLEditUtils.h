@@ -3721,7 +3721,7 @@ TextDataLength
 &
 aText
 .
-TextFragment
+DataBuffer
 (
 )
 .
@@ -4516,7 +4516,7 @@ dom
 :
 CharacterDataBuffer
 &
-textFragment
+characterDataBuffer
 =
 aPoint
 .
@@ -4529,7 +4529,7 @@ Text
 )
 -
 >
-TextFragment
+DataBuffer
 (
 )
 ;
@@ -4537,7 +4537,7 @@ const
 uint32_t
 nextVisibleCharOffset
 =
-textFragment
+characterDataBuffer
 .
 FindNonWhitespaceChar
 (
@@ -14346,7 +14346,7 @@ offset
 textNode
 -
 >
-TextFragment
+DataBuffer
 (
 )
 .
@@ -14919,7 +14919,7 @@ prevVisibleCharOffset
 =
 aTextNode
 .
-TextFragment
+DataBuffer
 (
 )
 .
@@ -15309,7 +15309,7 @@ inclusiveNextVisibleCharOffset
 =
 aTextNode
 .
-TextFragment
+DataBuffer
 (
 )
 .
@@ -15792,7 +15792,7 @@ Offset
 =
 textNode
 .
-TextFragment
+DataBuffer
 (
 )
 .
@@ -15807,7 +15807,7 @@ previousLineBreakOffset
 =
 textNode
 .
-TextFragment
+DataBuffer
 (
 )
 .
@@ -15992,7 +15992,7 @@ Offset
 =
 textNode
 .
-TextFragment
+DataBuffer
 (
 )
 .
@@ -16007,7 +16007,7 @@ inclusiveNextVisibleCharOffset
 =
 textNode
 .
-TextFragment
+DataBuffer
 (
 )
 .
