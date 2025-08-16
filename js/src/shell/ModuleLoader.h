@@ -238,9 +238,7 @@ referencingPrivate
 HandleObject
 moduleRequest
 HandleValue
-statePrivate
-HandleObject
-promise
+payload
 )
 ;
 static
@@ -361,9 +359,7 @@ referencingPrivate
 HandleObject
 moduleRequest
 HandleValue
-state
-HandleObject
-promise
+payload
 )
 ;
 bool
@@ -425,8 +421,8 @@ HandleValue
 referencingPrivate
 HandleObject
 moduleRequest
-HandleObject
-promise
+HandleValue
+payload
 )
 ;
 bool
@@ -439,8 +435,8 @@ HandleValue
 referencingPrivate
 HandleObject
 moduleRequest
-HandleObject
-promise
+HandleValue
+payload
 )
 ;
 JSObject
