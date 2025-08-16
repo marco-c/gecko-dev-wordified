@@ -430,6 +430,12 @@ Value
 ;
 }
 }
+CDMKeyInfo
+(
+)
+=
+default
+;
 nsTArray
 <
 uint8_t
