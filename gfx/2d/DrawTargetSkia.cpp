@@ -427,7 +427,7 @@ cmath
 >
 #
 ifdef
-MOZ_WIDGET_COCOA
+XP_DARWIN
 #
 include
 "
@@ -438,9 +438,9 @@ h
 #
 include
 <
-ApplicationServices
+CoreGraphics
 /
-ApplicationServices
+CGBitmapContext
 .
 h
 >
@@ -7483,7 +7483,7 @@ mPaint
 }
 #
 ifdef
-MOZ_WIDGET_COCOA
+XP_DARWIN
 static
 inline
 CGAffineTransform
