@@ -952,7 +952,7 @@ PrefableCompileOptions
 :
 importAttributes_
 (
-false
+true
 )
 sourcePragmas_
 (
