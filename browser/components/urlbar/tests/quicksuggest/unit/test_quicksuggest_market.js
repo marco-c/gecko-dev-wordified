@@ -754,7 +754,10 @@ RESULT_SOURCE
 SEARCH
 isBestMatch
 :
-false
+true
+hideRowLabel
+:
+true
 rowIndex
 :
 -
