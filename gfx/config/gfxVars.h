@@ -952,6 +952,13 @@ AllowGLNorm16Textures
 bool
 false
 )
+\
+_
+(
+AllowWebGPUExternalTexture
+bool
+false
+)
 /
 *
 Add
