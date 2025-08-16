@@ -2901,7 +2901,7 @@ WeakMapObject
 properties
 GenericFinishInit
 <
-WhichHasFuseProperty
+WhichHasRealmFuseProperty
 :
 :
 Proto

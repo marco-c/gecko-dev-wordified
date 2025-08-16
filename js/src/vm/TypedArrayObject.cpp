@@ -33564,7 +33564,7 @@ TypedArrayObject
 protoAccessors
 GenericFinishInit
 <
-WhichHasFuseProperty
+WhichHasRealmFuseProperty
 :
 :
 ProtoAndCtor
@@ -35320,7 +35320,7 @@ Name
 \
 GenericFinishInit
 <
-WhichHasFuseProperty
+WhichHasRealmFuseProperty
 :
 :
 Proto

@@ -13581,7 +13581,7 @@ if
 JSObject
 :
 :
-setHasFuseProperty
+setHasRealmFuseProperty
 (
 cx
 proto

@@ -1121,7 +1121,7 @@ js
 regexp_properties
 GenericFinishInit
 <
-WhichHasFuseProperty
+WhichHasRealmFuseProperty
 :
 :
 Proto

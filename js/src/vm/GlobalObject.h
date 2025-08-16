@@ -7215,7 +7215,7 @@ marked
 as
 having
 a
-fuse
+RealmFuse
 property
 in
 /
@@ -7224,7 +7224,7 @@ GenericFinishInit
 .
 enum
 class
-WhichHasFuseProperty
+WhichHasRealmFuseProperty
 {
 Proto
 ProtoAndCtor
@@ -7232,7 +7232,7 @@ ProtoAndCtor
 ;
 template
 <
-WhichHasFuseProperty
+WhichHasRealmFuseProperty
 FuseProperty
 >
 inline
@@ -7254,7 +7254,7 @@ constexpr
 FuseProperty
 =
 =
-WhichHasFuseProperty
+WhichHasRealmFuseProperty
 :
 :
 ProtoAndCtor
@@ -7266,7 +7266,7 @@ if
 JSObject
 :
 :
-setHasFuseProperty
+setHasRealmFuseProperty
 (
 cx
 ctor
@@ -7282,7 +7282,7 @@ return
 JSObject
 :
 :
-setHasFuseProperty
+setHasRealmFuseProperty
 (
 cx
 proto

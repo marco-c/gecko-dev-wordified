@@ -35006,7 +35006,7 @@ if
 JSObject
 :
 :
-setHasFuseProperty
+setHasRealmFuseProperty
 (
 cx
 ctor
@@ -35480,11 +35480,14 @@ Array
 prototype
 as
 having
-fuse
+a
+RealmFuse
 property
 (
 iterator
 for
+/
+/
 example
 )
 .
@@ -35492,7 +35495,7 @@ return
 JSObject
 :
 :
-setHasFuseProperty
+setHasRealmFuseProperty
 (
 cx
 proto

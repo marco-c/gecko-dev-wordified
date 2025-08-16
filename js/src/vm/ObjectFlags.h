@@ -831,8 +831,16 @@ changes
 to
 said
 property
+and
+pop
+a
+/
+/
+RealmFuse
+if
+needed
 .
-HasFuseProperty
+HasRealmFuseProperty
 =
 1
 <
