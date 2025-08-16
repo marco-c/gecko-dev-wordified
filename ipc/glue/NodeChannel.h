@@ -387,15 +387,6 @@ Channel
 ChannelHandle
 mHandle
 ;
-IPC
-:
-:
-Channel
-:
-:
-Mode
-mMode
-;
 base
 :
 :
