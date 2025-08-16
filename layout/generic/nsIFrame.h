@@ -587,13 +587,6 @@ algorithm
 #
 include
 "
-DisplayListClipState
-.
-h
-"
-#
-include
-"
 FrameProperties
 .
 h
