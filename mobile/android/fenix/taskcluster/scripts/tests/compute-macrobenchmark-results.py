@@ -621,24 +621,25 @@ PartialWithBaselineProfiles
 )
         
 if
-base_name
-.
-endswith
-(
 "
 None
 "
-)
+in
+base_name
 :
             
 main_name
 =
 base_name
-[
-:
--
-4
-]
+.
+replace
+(
+"
+None
+"
+"
+"
+)
             
 table_data
 [
