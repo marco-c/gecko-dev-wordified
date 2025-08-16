@@ -14137,9 +14137,10 @@ StringBeginsWith
 (
 mName
 "
-Adw
+adw
 "
 _ns
+nsCaseInsensitiveCStringComparator
 )
 )
 {
@@ -14157,7 +14158,11 @@ dark
 "
 and
 "
-Adw
+{
+A
+a
+}
+dw
 -
 gtk3
 "
