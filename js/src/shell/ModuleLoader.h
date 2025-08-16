@@ -233,8 +233,6 @@ JSScript
 *
 >
 referrer
-HandleValue
-referencingPrivate
 HandleObject
 moduleRequest
 HandleValue

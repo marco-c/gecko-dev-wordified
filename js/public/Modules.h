@@ -591,11 +591,6 @@ JSScript
 referrer
 Handle
 <
-Value
->
-referencingPrivate
-Handle
-<
 JSObject
 *
 >
