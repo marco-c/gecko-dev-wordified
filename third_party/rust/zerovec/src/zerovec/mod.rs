@@ -1845,7 +1845,7 @@ core
 cmp
 :
 :
-max
+min
 (
 max
 self
