@@ -333,15 +333,7 @@ userenv
 uuid
 "
 ]
-if
-CONFIG
-[
-"
-ENABLE_TESTS
-"
-]
-:
-DIRS
+TEST_DIRS
 +
 =
 [

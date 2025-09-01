@@ -1825,14 +1825,6 @@ DIRS
 executable
 "
 ]
-if
-CONFIG
-[
-"
-ENABLE_TESTS
-"
-]
-:
 TEST_DIRS
 +
 =

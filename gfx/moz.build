@@ -206,15 +206,7 @@ wgpu_bindings
 skia
 "
 ]
-if
-CONFIG
-[
-"
-ENABLE_TESTS
-"
-]
-:
-DIRS
+TEST_DIRS
 +
 =
 [
@@ -232,7 +224,7 @@ FUZZING_INTERFACES
 "
 ]
 :
-DIRS
+TEST_DIRS
 +
 =
 [

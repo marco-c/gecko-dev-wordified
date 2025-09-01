@@ -218,15 +218,7 @@ OS_LIBS
 msi
 "
 ]
-if
-CONFIG
-[
-"
-ENABLE_TESTS
-"
-]
-:
-DIRS
+TEST_DIRS
 +
 =
 [

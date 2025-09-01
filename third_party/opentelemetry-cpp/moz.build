@@ -95,15 +95,7 @@ sdk
 src
 "
 ]
-if
-CONFIG
-[
-"
-ENABLE_TESTS
-"
-]
-:
-DIRS
+TEST_DIRS
 +
 =
 [

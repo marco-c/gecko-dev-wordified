@@ -270,15 +270,7 @@ OS_ARCH
 WINNT
 "
 :
-if
-CONFIG
-[
-"
-ENABLE_TESTS
-"
-]
-:
-DIRS
+TEST_DIRS
 +
 =
 [
