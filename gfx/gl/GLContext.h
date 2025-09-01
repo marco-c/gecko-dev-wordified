@@ -19931,8 +19931,6 @@ TexParams_SetClampNoMips
 (
 GLenum
 target
-=
-LOCAL_GL_TEXTURE_2D
 )
 {
 fTexParameteri
