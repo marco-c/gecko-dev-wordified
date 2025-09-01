@@ -415,7 +415,7 @@ events
 0
 ]
 .
-hasResponseContentComplete
+hasResponseContent
 )
 ;
 is
@@ -571,7 +571,7 @@ events
 1
 ]
 .
-hasResponseContentComplete
+hasResponseContent
 )
 ;
 is

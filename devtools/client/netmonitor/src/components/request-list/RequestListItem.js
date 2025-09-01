@@ -1277,12 +1277,6 @@ isEventStream
 "
 priority
 "
-"
-blockedReason
-"
-"
-blockingExtension
-"
 ]
 ;
 const

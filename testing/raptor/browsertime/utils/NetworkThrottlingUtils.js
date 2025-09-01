@@ -180,11 +180,6 @@ addResponseContent
 )
 {
 }
-addResponseContentComplete
-(
-)
-{
-}
 addServerTimings
 (
 )
