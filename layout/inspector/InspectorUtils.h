@@ -1541,6 +1541,16 @@ Element
 )
 ;
 static
+bool
+IsBlockContainer
+(
+GlobalObject
+&
+Element
+&
+)
+;
+static
 void
 GetBlockLineCounts
 (
