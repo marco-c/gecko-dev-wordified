@@ -9759,6 +9759,14 @@ op
 }
 else
 {
+Register
+shift
+=
+ToRegister
+(
+rhs
+)
+;
 switch
 (
 ins
@@ -9781,7 +9789,7 @@ as_sll_w
 (
 dest
 lhs
-dest
+shift
 )
 ;
 break
@@ -9798,7 +9806,7 @@ as_sra_w
 (
 dest
 lhs
-dest
+shift
 )
 ;
 break
@@ -9815,7 +9823,7 @@ as_srl_w
 (
 dest
 lhs
-dest
+shift
 )
 ;
 if

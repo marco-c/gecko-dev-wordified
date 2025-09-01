@@ -10628,7 +10628,10 @@ sllw
 (
 dest
 lhs
-dest
+ToRegister
+(
+rhs
+)
 )
 ;
 break
@@ -10645,7 +10648,10 @@ sraw
 (
 dest
 lhs
-dest
+ToRegister
+(
+rhs
+)
 )
 ;
 break
@@ -10662,7 +10668,10 @@ srlw
 (
 dest
 lhs
-dest
+ToRegister
+(
+rhs
+)
 )
 ;
 if

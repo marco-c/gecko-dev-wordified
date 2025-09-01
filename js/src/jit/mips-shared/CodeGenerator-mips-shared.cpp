@@ -6221,6 +6221,14 @@ op
 }
 else
 {
+Register
+shift
+=
+ToRegister
+(
+rhs
+)
+;
 switch
 (
 ins
@@ -6243,7 +6251,7 @@ ma_sll
 (
 dest
 lhs
-dest
+shift
 )
 ;
 break
@@ -6260,7 +6268,7 @@ ma_sra
 (
 dest
 lhs
-dest
+shift
 )
 ;
 break
@@ -6277,7 +6285,7 @@ ma_srl
 (
 dest
 lhs
-dest
+shift
 )
 ;
 if
