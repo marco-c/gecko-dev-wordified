@@ -1430,20 +1430,11 @@ by
 -
 Xclang
 .
-CLANG_CL_3_9
+CLANG_CL_14
 =
 (
     
-CLANG_BASE
-(
-"
-3
-.
-9
-.
-0
-"
-)
+CLANG_14
     
 +
 VS
@@ -1458,9 +1449,6 @@ VS
 )
     
 +
-DEFAULT_C11
-    
-+
 SUPPORTS_GNU99
     
 +
@@ -1468,6 +1456,9 @@ SUPPORTS_GNUXX11
     
 +
 SUPPORTS_CXX14
+    
++
+SUPPORTS_CXX17
 )
 +
 {
@@ -1488,24 +1479,15 @@ __cplusplus
 "
 :
 "
-201103L
+201703L
 "
 }
 }
-CLANG_CL_9_0
+CLANG_CL_19
 =
 (
     
-CLANG_BASE
-(
-"
-9
-.
-0
-.
-0
-"
-)
+CLANG_19
     
 +
 VS
@@ -1518,9 +1500,6 @@ VS
 00000
 "
 )
-    
-+
-DEFAULT_C11
     
 +
 SUPPORTS_GNU17
@@ -1553,7 +1532,7 @@ __cplusplus
 "
 :
 "
-201103L
+201703L
 "
 }
 }
@@ -6731,12 +6710,10 @@ clang
 -
 cl
 -
-3
-.
-9
+14
 "
 :
-CLANG_CL_3_9
+CLANG_CL_14
 +
 CLANG_CL_PLATFORM_X86
         
@@ -6751,7 +6728,7 @@ clang
 cl
 "
 :
-CLANG_CL_9_0
+CLANG_CL_19
 +
 CLANG_CL_PLATFORM_X86
         
@@ -6953,7 +6930,7 @@ CLANG_PLATFORM_X86_WIN
     
 }
     
-CLANG_CL_3_9_RESULT
+CLANG_CL_14_RESULT
 =
 (
         
@@ -6962,7 +6939,7 @@ Only
 clang
 -
 cl
-9
+17
 .
 0
 or
@@ -6972,17 +6949,18 @@ supported
 (
 found
 version
-3
+14
 .
-9
+0
 .
 0
 )
+.
 "
     
 )
     
-CLANG_CL_9_0_RESULT
+CLANG_CL_19_RESULT
 =
 CompilerResult
 (
@@ -6990,26 +6968,16 @@ CompilerResult
 version
 =
 "
-9
+19
 .
-0
+1
 .
-0
+7
 "
         
 flags
 =
 [
-"
--
-Xclang
-"
-"
--
-std
-=
-gnu17
-"
 ]
         
 type
@@ -7041,7 +7009,7 @@ C
     
 )
     
-CLANGXX_CL_3_9_RESULT
+CLANGXX_CL_14_RESULT
 =
 (
         
@@ -7050,7 +7018,7 @@ Only
 clang
 -
 cl
-9
+17
 .
 0
 or
@@ -7060,17 +7028,18 @@ supported
 (
 found
 version
-3
+14
 .
-9
+0
 .
 0
 )
+.
 "
     
 )
     
-CLANGXX_CL_9_0_RESULT
+CLANGXX_CL_19_RESULT
 =
 CompilerResult
 (
@@ -7078,25 +7047,16 @@ CompilerResult
 version
 =
 "
-9
+19
 .
-0
+1
 .
-0
+7
 "
         
 flags
 =
 [
-"
--
-std
-:
-c
-+
-+
-17
-"
 ]
         
 type
@@ -7240,7 +7200,7 @@ c_compiler
 :
 self
 .
-CLANG_CL_3_9_RESULT
+CLANG_CL_14_RESULT
 }
             
 environ
@@ -7260,9 +7220,7 @@ clang
 -
 cl
 -
-3
-.
-9
+14
 "
 }
         
@@ -7292,7 +7250,7 @@ c_compiler
 :
 self
 .
-CLANG_CL_9_0_RESULT
+CLANG_CL_19_RESULT
                 
 "
 cxx_compiler
@@ -7300,7 +7258,7 @@ cxx_compiler
 :
 self
 .
-CLANGXX_CL_9_0_RESULT
+CLANGXX_CL_19_RESULT
             
 }
         
@@ -7798,7 +7756,7 @@ clang
 cl
 "
 :
-CLANG_CL_9_0
+CLANG_CL_19
 +
 CLANG_CL_PLATFORM_X86_64
         
@@ -7812,12 +7770,10 @@ clang
 -
 cl
 -
-3
-.
-9
+14
 "
 :
-CLANG_CL_3_9
+CLANG_CL_14
 +
 CLANG_CL_PLATFORM_X86_64
         
@@ -8117,7 +8073,7 @@ c_compiler
 :
 MingwToolchainTest
 .
-CLANG_CL_3_9_RESULT
+CLANG_CL_14_RESULT
 }
             
 environ
@@ -8137,9 +8093,7 @@ clang
 -
 cl
 -
-3
-.
-9
+14
 "
 }
         
@@ -8169,7 +8123,7 @@ c_compiler
 :
 MingwToolchainTest
 .
-CLANG_CL_9_0_RESULT
+CLANG_CL_19_RESULT
                 
 "
 cxx_compiler
@@ -8177,7 +8131,7 @@ cxx_compiler
 :
 MingwToolchainTest
 .
-CLANGXX_CL_9_0_RESULT
+CLANGXX_CL_19_RESULT
             
 }
         
@@ -11851,7 +11805,7 @@ clang
 cl
 "
 :
-CLANG_CL_9_0
+CLANG_CL_19
 +
 CLANG_CL_PLATFORM_X86_64
 }
@@ -11880,7 +11834,7 @@ c_compiler
 :
 MingwToolchainTest
 .
-CLANG_CL_9_0_RESULT
+CLANG_CL_19_RESULT
                 
 "
 cxx_compiler
@@ -11888,7 +11842,7 @@ cxx_compiler
 :
 MingwToolchainTest
 .
-CLANGXX_CL_9_0_RESULT
+CLANGXX_CL_19_RESULT
                 
 "
 host_c_compiler
