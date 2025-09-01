@@ -2326,7 +2326,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 if

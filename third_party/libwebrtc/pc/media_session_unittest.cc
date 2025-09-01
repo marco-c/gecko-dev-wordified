@@ -6315,7 +6315,7 @@ ASSERT_TRUE
 ac
 !
 =
-NULL
+nullptr
 )
 ;
 ASSERT_TRUE
@@ -6323,7 +6323,7 @@ ASSERT_TRUE
 vc
 =
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -6622,7 +6622,7 @@ ASSERT_TRUE
 ac
 !
 =
-NULL
+nullptr
 )
 ;
 ASSERT_TRUE
@@ -6630,7 +6630,7 @@ ASSERT_TRUE
 vc
 =
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ

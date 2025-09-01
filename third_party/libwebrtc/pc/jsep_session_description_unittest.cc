@@ -643,7 +643,7 @@ webrtc
 :
 :
 CONNECTIONROLE_NONE
-NULL
+nullptr
 )
 )
 )
@@ -689,7 +689,7 @@ webrtc
 :
 :
 CONNECTIONROLE_NONE
-NULL
+nullptr
 )
 )
 )
@@ -1468,7 +1468,7 @@ ASSERT_TRUE
 ice_candidates
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -1500,7 +1500,7 @@ ASSERT_TRUE
 ice_candidate
 !
 =
-NULL
+nullptr
 )
 ;
 candidate_
@@ -1678,7 +1678,7 @@ ASSERT_TRUE
 ice_candidates
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -1710,7 +1710,7 @@ ASSERT_TRUE
 ice_candidate
 !
 =
-NULL
+nullptr
 )
 ;
 candidate_
@@ -1899,7 +1899,7 @@ ASSERT_TRUE
 ice_candidates
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -1931,7 +1931,7 @@ ASSERT_TRUE
 ice_candidate
 !
 =
-NULL
+nullptr
 )
 ;
 candidate_

@@ -303,7 +303,7 @@ content
 }
 }
 return
-NULL
+nullptr
 ;
 }
 const
@@ -471,7 +471,7 @@ begin
 )
 )
 :
-NULL
+nullptr
 ;
 }
 bool
@@ -822,11 +822,11 @@ if
 cinfo
 =
 =
-NULL
+nullptr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -868,11 +868,11 @@ if
 cinfo
 =
 =
-NULL
+nullptr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -925,7 +925,7 @@ empty
 )
 )
 ?
-NULL
+nullptr
 :
 &
 (
@@ -1364,7 +1364,7 @@ iter
 }
 }
 return
-NULL
+nullptr
 ;
 }
 TransportInfo
@@ -1432,7 +1432,7 @@ iter
 }
 }
 return
-NULL
+nullptr
 ;
 }
 void
@@ -1638,7 +1638,7 @@ iter
 }
 }
 return
-NULL
+nullptr
 ;
 }
 std

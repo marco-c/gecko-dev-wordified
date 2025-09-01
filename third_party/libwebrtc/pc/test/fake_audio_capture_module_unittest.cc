@@ -276,7 +276,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 }

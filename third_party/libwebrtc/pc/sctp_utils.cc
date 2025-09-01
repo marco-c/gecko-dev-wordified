@@ -1179,7 +1179,7 @@ DCOMCT_UNORDERED_RELIABLE
 ByteBufferWriter
 buffer
 (
-NULL
+nullptr
 20
 +
 label

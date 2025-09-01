@@ -6933,7 +6933,7 @@ RTC_DCHECK
 group
 !
 =
-NULL
+nullptr
 )
 ;
 for
@@ -7833,7 +7833,7 @@ RTC_DCHECK
 jcandidate
 !
 =
-NULL
+nullptr
 )
 ;
 Candidate
@@ -7948,7 +7948,7 @@ RTC_DCHECK
 candidate
 !
 =
-NULL
+nullptr
 )
 ;
 /
@@ -14175,7 +14175,7 @@ RTC_DCHECK
 message
 !
 =
-NULL
+nullptr
 )
 ;
 RTC_DCHECK
@@ -14183,7 +14183,7 @@ RTC_DCHECK
 media_desc
 !
 =
-NULL
+nullptr
 )
 ;
 StringBuilder
@@ -17048,7 +17048,7 @@ RTC_DCHECK
 desc
 !
 =
-NULL
+nullptr
 )
 ;
 /
@@ -20210,7 +20210,7 @@ RTC_DCHECK
 desc
 !
 =
-NULL
+nullptr
 )
 ;
 int
@@ -22558,7 +22558,7 @@ RTC_DCHECK
 media_desc
 !
 =
-NULL
+nullptr
 )
 ;
 RTC_DCHECK
@@ -22566,7 +22566,7 @@ RTC_DCHECK
 content_name
 !
 =
-NULL
+nullptr
 )
 ;
 RTC_DCHECK
@@ -22574,7 +22574,7 @@ RTC_DCHECK
 transport
 !
 =
-NULL
+nullptr
 )
 ;
 if
@@ -25734,7 +25734,7 @@ RTC_DCHECK
 ssrc_infos
 !
 =
-NULL
+nullptr
 )
 ;
 /
@@ -26273,7 +26273,7 @@ RTC_DCHECK
 ssrc_groups
 !
 =
-NULL
+nullptr
 )
 ;
 /

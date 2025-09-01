@@ -16606,7 +16606,7 @@ RTC_DCHECK
 content
 !
 =
-NULL
+nullptr
 )
 ;
 auto

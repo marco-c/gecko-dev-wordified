@@ -2042,7 +2042,7 @@ size
 )
 )
 return
-NULL
+nullptr
 ;
 return
 &

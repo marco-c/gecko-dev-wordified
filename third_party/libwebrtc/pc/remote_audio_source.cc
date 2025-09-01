@@ -806,7 +806,7 @@ RTC_DCHECK
 observer
 !
 =
-NULL
+nullptr
 )
 ;
 RTC_DCHECK
@@ -846,7 +846,7 @@ RTC_DCHECK
 observer
 !
 =
-NULL
+nullptr
 )
 ;
 audio_observers_

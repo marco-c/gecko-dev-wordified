@@ -1364,7 +1364,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 port_allocator_
@@ -4741,7 +4741,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 scoped_refptr
@@ -4771,7 +4771,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 FakeVideoTrackRenderer
