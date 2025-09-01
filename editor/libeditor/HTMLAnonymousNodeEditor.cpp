@@ -4054,8 +4054,6 @@ CSSEditUtils
 :
 SetCSSPropertyPixelsWithoutTransaction
 (
-*
-this
 aStyledElement
 *
 nsGkAtoms
@@ -4130,8 +4128,6 @@ CSSEditUtils
 :
 SetCSSPropertyPixelsWithoutTransaction
 (
-*
-this
 aStyledElement
 *
 nsGkAtoms

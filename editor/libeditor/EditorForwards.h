@@ -1335,14 +1335,6 @@ AutoClonedRangeArray
 .
 h
 class
-AutoDOMAPIWrapperBase
-;
-/
-/
-EditorDOMAPIWrapper
-.
-h
-class
 AutoSelectionRestorer
 ;
 /

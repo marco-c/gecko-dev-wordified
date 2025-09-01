@@ -365,11 +365,6 @@ HTMLEditorInsertParagraphHandler
 cpp
 "
 "
-HTMLEditorMutationObserver
-.
-cpp
-"
-"
 HTMLEditorObjectResizer
 .
 cpp
