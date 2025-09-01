@@ -161,6 +161,16 @@ aParent
 )
 {
 }
+SupportedFeatures
+:
+:
+~
+SupportedFeatures
+(
+)
+=
+default
+;
 void
 SupportedFeatures
 :

@@ -164,6 +164,8 @@ BindGroup
 final
 :
 public
+nsWrapperCache
+public
 ObjectBase
 public
 ChildOf
@@ -204,10 +206,6 @@ ExternalTexture
 &
 aExternalTextures
 )
-;
-const
-RawId
-mId
 ;
 mozilla
 :
@@ -251,13 +249,9 @@ mExternalTextures
 }
 private
 :
+virtual
 ~
 BindGroup
-(
-)
-;
-void
-Cleanup
 (
 )
 ;
