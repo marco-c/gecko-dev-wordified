@@ -237,8 +237,11 @@ using
 namespace
 mozilla
 ;
+namespace
+std
+{
 void
-DefaultDelete
+default_delete
 <
 const
 HyphDic
@@ -270,7 +273,7 @@ aHyph
 ;
 }
 void
-DefaultDelete
+default_delete
 <
 const
 CompiledData
@@ -301,6 +304,11 @@ aData
 )
 ;
 }
+}
+/
+/
+namespace
+std
 static
 const
 uint8_t

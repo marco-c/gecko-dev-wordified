@@ -1014,6 +1014,9 @@ pattern
 get
 (
 )
+mozilla
+:
+:
 getter_Transfers
 (
 find

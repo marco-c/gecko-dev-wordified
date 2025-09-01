@@ -864,7 +864,6 @@ class
 nsHttpAuthCache
 ;
 friend
-class
 mozilla
 :
 :
@@ -1212,7 +1211,6 @@ class
 nsHttpAuthCache
 ;
 friend
-class
 mozilla
 :
 :

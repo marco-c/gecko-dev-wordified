@@ -163,7 +163,6 @@ class
 ThreadLocal
 {
 friend
-class
 DefaultDelete
 <
 ThreadLocal
