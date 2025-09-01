@@ -208,17 +208,6 @@ builtin
 /
 temporal
 /
-Crash
-.
-h
-"
-#
-include
-"
-builtin
-/
-temporal
-/
 Era
 .
 h
@@ -1160,7 +1149,7 @@ timeZone
 "
 ;
 }
-JS_CONSTEXPR_CRASH
+MOZ_CRASH
 (
 "
 invalid

@@ -130,17 +130,6 @@ stdint
 .
 h
 >
-#
-include
-"
-builtin
-/
-temporal
-/
-Crash
-.
-h
-"
 namespace
 js
 :
@@ -301,7 +290,7 @@ Week
 break
 ;
 }
-JS_CONSTEXPR_CRASH
+MOZ_CRASH
 (
 "
 Unexpected
@@ -433,7 +422,7 @@ Nanosecond
 break
 ;
 }
-JS_CONSTEXPR_CRASH
+MOZ_CRASH
 (
 "
 Unexpected
@@ -552,7 +541,7 @@ Nanosecond
 break
 ;
 }
-JS_CONSTEXPR_CRASH
+MOZ_CRASH
 (
 "
 Unexpected
@@ -660,7 +649,7 @@ Nanosecond
 break
 ;
 }
-JS_CONSTEXPR_CRASH
+MOZ_CRASH
 (
 "
 Unexpected
@@ -793,7 +782,7 @@ Week
 break
 ;
 }
-JS_CONSTEXPR_CRASH
+MOZ_CRASH
 (
 "
 Unexpected
@@ -940,7 +929,7 @@ nanosecond
 "
 ;
 }
-JS_CONSTEXPR_CRASH
+MOZ_CRASH
 (
 "
 Unexpected
