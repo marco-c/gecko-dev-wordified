@@ -230,6 +230,15 @@ highway_export
 .
 h
 "
+#
+include
+<
+mozilla
+/
+Attributes
+.
+h
+>
 /
 /
 API
@@ -9717,6 +9726,7 @@ expects
 implicit
 conversions
 .
+MOZ_IMPLICIT
 constexpr
 float16_t
 (
@@ -9905,6 +9915,7 @@ Native
 =
 nullptr
 >
+MOZ_IMPLICIT
 constexpr
 float16_t
 (
@@ -13655,6 +13666,7 @@ HWY_HAVE_SCALAR_BF16_TYPE
 |
 |
 HWY_IDE
+MOZ_IMPLICIT
 constexpr
 bfloat16_t
 (
