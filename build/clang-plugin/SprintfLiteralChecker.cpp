@@ -183,9 +183,6 @@ constant
 )
 )
 )
-isFirstParty
-(
-)
 )
 .
 bind
