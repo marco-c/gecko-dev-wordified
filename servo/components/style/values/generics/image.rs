@@ -478,7 +478,10 @@ servo
 ]
 PaintWorklet
 (
+Box
+<
 PaintWorklet
+>
 )
 /
 /
