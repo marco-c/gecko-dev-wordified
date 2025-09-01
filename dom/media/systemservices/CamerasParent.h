@@ -739,6 +739,10 @@ const
 VideoCaptureCapability
 &
 aIpcCaps
+const
+NormalizedConstraints
+&
+aConstraints
 )
 override
 ;

@@ -1397,6 +1397,10 @@ webrtc
 VideoCaptureCapability
 &
 capability
+const
+NormalizedConstraints
+&
+constraints
 FrameRelay
 *
 func
