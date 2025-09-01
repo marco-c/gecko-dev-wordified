@@ -1069,7 +1069,7 @@ ASSERT_TRUE
 file
 !
 =
-NULL
+nullptr
 )
 <
 <
@@ -1587,7 +1587,7 @@ ASSERT_TRUE
 file
 !
 =
-NULL
+nullptr
 )
 <
 <

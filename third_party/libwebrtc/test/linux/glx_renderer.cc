@@ -148,11 +148,11 @@ height
 )
 display_
 (
-NULL
+nullptr
 )
 context_
 (
-NULL
+nullptr
 )
 {
 RTC_DCHECK_GT
@@ -200,12 +200,12 @@ display_
 =
 XOpenDisplay
 (
-NULL
+nullptr
 )
 )
 =
 =
-NULL
+nullptr
 )
 {
 Destroy
@@ -261,7 +261,7 @@ attr_list
 )
 =
 =
-NULL
+nullptr
 )
 {
 Destroy
@@ -278,7 +278,7 @@ glXCreateContext
 (
 display_
 vi
-0
+nullptr
 true
 )
 ;
@@ -287,7 +287,7 @@ if
 context_
 =
 =
-NULL
+nullptr
 )
 {
 Destroy
@@ -385,9 +385,9 @@ window_
 window_title
 window_title
 None
-NULL
+nullptr
 0
-NULL
+nullptr
 )
 ;
 Atom
@@ -459,7 +459,7 @@ glXMakeCurrent
 (
 display_
 None
-NULL
+nullptr
 )
 )
 {
@@ -494,7 +494,7 @@ if
 context_
 !
 =
-NULL
+nullptr
 )
 {
 glXMakeCurrent
@@ -515,7 +515,7 @@ glXMakeCurrent
 (
 display_
 None
-NULL
+nullptr
 )
 ;
 glXDestroyContext
@@ -526,7 +526,7 @@ context_
 ;
 context_
 =
-NULL
+nullptr
 ;
 }
 if
@@ -534,7 +534,7 @@ if
 display_
 !
 =
-NULL
+nullptr
 )
 {
 XCloseDisplay
@@ -544,7 +544,7 @@ display_
 ;
 display_
 =
-NULL
+nullptr
 ;
 }
 }
@@ -606,7 +606,7 @@ delete
 glx_renderer
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -665,7 +665,7 @@ glXMakeCurrent
 (
 display_
 None
-NULL
+nullptr
 )
 )
 {
@@ -687,7 +687,7 @@ if
 size_hints
 =
 =
-NULL
+nullptr
 )
 {
 abort
@@ -948,7 +948,7 @@ glXMakeCurrent
 (
 display_
 None
-NULL
+nullptr
 )
 )
 {

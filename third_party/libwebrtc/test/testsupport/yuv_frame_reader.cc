@@ -613,7 +613,7 @@ RTC_CHECK
 file_
 !
 =
-NULL
+nullptr
 )
 <
 <
