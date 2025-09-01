@@ -16698,7 +16698,7 @@ case
 ArraySortResult
 :
 :
-CallJSSameRealmNoUnderflow
+CallJSSameRealmNoRectifier
 :
 MOZ_ASSERT
 (
