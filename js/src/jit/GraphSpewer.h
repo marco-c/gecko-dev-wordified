@@ -286,6 +286,12 @@ nullptr
 JSONPrinter
 (
 out
+/
+*
+indent
+*
+/
+false
 )
 wasmCodeMeta_
 (
