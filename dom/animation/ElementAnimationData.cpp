@@ -550,7 +550,7 @@ UnregisterTarget
 )
 for
 more
-deatils
+details
 )
 .
 /
