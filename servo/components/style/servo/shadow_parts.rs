@@ -1274,15 +1274,6 @@ mod
 tests
 {
 use
-crate
-:
-:
-shadow_parts
-:
-:
-parse_mapping_list
-;
-use
 super
 :
 :
