@@ -446,7 +446,11 @@ public
 .
 .
 .
-typedef
+using
+List
+=
+:
+:
 std
 :
 :
@@ -454,7 +458,6 @@ list
 <
 T
 >
-List
 ;
 static
 T
@@ -491,7 +494,9 @@ the
 list
 .
 The
-typedef
+using
+-
+declaration
 is
 necessary
 for
@@ -503,7 +508,11 @@ to
 parse
 correctly
 .
-typedef
+using
+MyTypes
+=
+:
+:
 testing
 :
 :
@@ -514,7 +523,6 @@ int
 unsigned
 int
 >
-MyTypes
 ;
 TYPED_TEST_SUITE
 (
@@ -1375,7 +1383,11 @@ for
 different
 instances
 .
-typedef
+using
+MyTypes
+=
+:
+:
 testing
 :
 :
@@ -1386,7 +1398,6 @@ int
 unsigned
 int
 >
-MyTypes
 ;
 INSTANTIATE_TYPED_TEST_SUITE_P
 (
