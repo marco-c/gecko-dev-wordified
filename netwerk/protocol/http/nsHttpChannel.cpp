@@ -18762,6 +18762,16 @@ referrer
 from
 )
 .
+if
+(
+StaticPrefs
+:
+:
+network_predictor_enabled
+(
+)
+)
+{
 nsCOMPtr
 <
 nsIURI
@@ -18833,6 +18843,7 @@ IsThirdPartyTrackingResource
 )
 )
 ;
+}
 }
 /
 /
