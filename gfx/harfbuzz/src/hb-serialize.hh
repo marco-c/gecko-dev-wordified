@@ -4613,16 +4613,7 @@ it
 copy
 (
 _
-std
-:
-:
-forward
-<
-Ts
->
-(
 ds
-)
 .
 .
 .

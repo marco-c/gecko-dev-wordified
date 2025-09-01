@@ -8534,16 +8534,7 @@ dispatch
 (
 c
 lookup_type
-std
-:
-:
-forward
-<
-Ts
->
-(
 ds
-)
 .
 .
 .
@@ -13127,7 +13118,7 @@ get_class
 (
 hb_codepoint_t
 glyph_id
-hb_ot_lookup_cache_t
+hb_ot_layout_mapping_cache_t
 *
 cache
 )
@@ -21346,6 +21337,8 @@ push
 ;
 if
 (
+unlikely
+(
 !
 c
 -
@@ -21353,6 +21346,7 @@ c
 propagate_error
 (
 inner_maps
+)
 )
 )
 return_trace

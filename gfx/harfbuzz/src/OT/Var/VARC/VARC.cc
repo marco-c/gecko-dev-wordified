@@ -80,6 +80,9 @@ OT
 namespace
 Var
 {
+#
+ifndef
+HB_NO_DRAW
 struct
 hb_transforming_pen_context_t
 {
@@ -2487,6 +2490,8 @@ return
 true
 ;
 }
+#
+endif
 /
 /
 }

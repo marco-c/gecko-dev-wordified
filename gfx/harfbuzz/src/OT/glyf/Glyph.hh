@@ -3158,6 +3158,17 @@ type
 =
 EMPTY
 )
+{
+*
+extents
+=
+{
+0
+0
+0
+0
+}
+;
 return
 true
 ;
@@ -3171,6 +3182,7 @@ extents
 .
 *
 /
+}
 return
 header
 -

@@ -353,7 +353,7 @@ q
 /
 #
 define
-_S
+HB_STR
 (
 s
 )
@@ -375,7 +375,7 @@ include
 HB_STRING_ARRAY_LIST
 #
 undef
-_S
+HB_STR
 }
 st
 ;
@@ -392,7 +392,7 @@ HB_STRING_ARRAY_POOL_NAME
 {
 #
 define
-_S
+HB_STR
 (
 s
 )
@@ -402,7 +402,7 @@ include
 HB_STRING_ARRAY_LIST
 #
 undef
-_S
+HB_STR
 }
 }
 ;
@@ -417,7 +417,7 @@ HB_STRING_ARRAY_OFFS_NAME
 {
 #
 define
-_S
+HB_STR
 (
 s
 )
@@ -438,7 +438,7 @@ include
 HB_STRING_ARRAY_LIST
 #
 undef
-_S
+HB_STR
 sizeof
 (
 HB_STRING_ARRAY_TYPE_NAME

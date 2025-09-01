@@ -1326,7 +1326,7 @@ compression_level
     
 DEFAULT
 :
-5
+3
     
 COMPACT
 :
@@ -1585,6 +1585,14 @@ clippy
 :
 :
 unnecessary_cast
+clippy
+:
+:
+unreadable_literal
+clippy
+:
+:
+double_parens
 )
 ]
 "

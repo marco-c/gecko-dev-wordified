@@ -281,7 +281,7 @@ end_serialize
 (
 )
 ;
-assert
+hb_always_assert
 (
 !
 serializer
@@ -439,7 +439,7 @@ end_serialize
 (
 )
 ;
-assert
+hb_always_assert
 (
 !
 serializer
@@ -632,6 +632,7 @@ true
 ;
 }
 static
+HB_UNUSED
 bool
 check_add_class_def_size
 (
@@ -718,6 +719,7 @@ klasses
 ;
 }
 static
+HB_UNUSED
 bool
 check_add_class_def_size
 (
@@ -903,7 +905,7 @@ empty
 {
 }
 ;
-assert
+hb_always_assert
 (
 check_add_class_def_size
 (
@@ -912,7 +914,7 @@ empty
 )
 )
 ;
-assert
+hb_always_assert
 (
 check_add_class_def_size
 (
@@ -931,7 +933,7 @@ class_zero
 }
 }
 ;
-assert
+hb_always_assert
 (
 check_add_class_def_size
 (
@@ -978,7 +980,7 @@ consecutive
 }
 }
 ;
-assert
+hb_always_assert
 (
 check_add_class_def_size
 (
@@ -987,7 +989,7 @@ consecutive
 )
 )
 ;
-assert
+hb_always_assert
 (
 check_add_class_def_size
 (
@@ -996,7 +998,7 @@ consecutive
 )
 )
 ;
-assert
+hb_always_assert
 (
 check_add_class_def_size
 (
@@ -1043,7 +1045,7 @@ non_consecutive
 }
 }
 ;
-assert
+hb_always_assert
 (
 check_add_class_def_size
 (
@@ -1052,7 +1054,7 @@ non_consecutive
 )
 )
 ;
-assert
+hb_always_assert
 (
 check_add_class_def_size
 (
@@ -1061,7 +1063,7 @@ non_consecutive
 )
 )
 ;
-assert
+hb_always_assert
 (
 check_add_class_def_size
 (
@@ -1108,7 +1110,7 @@ multiple_ranges
 }
 }
 ;
-assert
+hb_always_assert
 (
 check_add_class_def_size
 (
@@ -1117,7 +1119,7 @@ multiple_ranges
 )
 )
 ;
-assert
+hb_always_assert
 (
 check_add_class_def_size
 (
@@ -1261,7 +1263,7 @@ iter
 )
 )
 ;
-assert
+hb_always_assert
 (
 check_add_class_def_size
 (
@@ -1274,7 +1276,7 @@ consecutive_map
 )
 )
 ;
-assert
+hb_always_assert
 (
 check_add_class_def_size
 (
@@ -1288,7 +1290,7 @@ consecutive_map
 )
 )
 ;
-assert
+hb_always_assert
 (
 check_add_class_def_size
 (
@@ -1312,7 +1314,7 @@ same
 class
 again
 works
-assert
+hb_always_assert
 (
 check_add_class_def_size
 (
@@ -1333,7 +1335,7 @@ reset
 (
 )
 ;
-assert
+hb_always_assert
 (
 check_add_class_def_size
 (
@@ -1346,7 +1348,7 @@ consecutive_map
 )
 )
 ;
-assert
+hb_always_assert
 (
 check_add_class_def_size
 (
@@ -1496,7 +1498,7 @@ iter
 )
 )
 ;
-assert
+hb_always_assert
 (
 check_add_class_def_size
 (
@@ -1509,7 +1511,7 @@ non_consecutive_map
 )
 )
 ;
-assert
+hb_always_assert
 (
 check_add_class_def_size
 (
@@ -1523,7 +1525,7 @@ non_consecutive_map
 )
 )
 ;
-assert
+hb_always_assert
 (
 check_add_class_def_size
 (
@@ -1544,7 +1546,7 @@ reset
 (
 )
 ;
-assert
+hb_always_assert
 (
 check_add_class_def_size
 (
@@ -1557,7 +1559,7 @@ non_consecutive_map
 )
 )
 ;
-assert
+hb_always_assert
 (
 check_add_class_def_size
 (
@@ -1609,7 +1611,7 @@ iter
 )
 )
 ;
-assert
+hb_always_assert
 (
 check_add_class_def_size
 (
@@ -1622,7 +1624,7 @@ map
 )
 )
 ;
-assert
+hb_always_assert
 (
 check_add_class_def_size
 (
@@ -1636,7 +1638,7 @@ map
 )
 )
 ;
-assert
+hb_always_assert
 (
 check_add_class_def_size
 (
@@ -1657,7 +1659,7 @@ reset
 (
 )
 ;
-assert
+hb_always_assert
 (
 check_add_class_def_size
 (
@@ -1670,7 +1672,7 @@ map
 )
 )
 ;
-assert
+hb_always_assert
 (
 check_add_class_def_size
 (

@@ -2329,6 +2329,11 @@ glyph
 )
 ;
 return
+hb_max
+(
+0
+.
+0f
 advance
 +
 roundf
@@ -2348,6 +2353,7 @@ font
 >
 num_coords
 store_cache
+)
 )
 )
 ;

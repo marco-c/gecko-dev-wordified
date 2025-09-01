@@ -615,7 +615,7 @@ codepoint
 &
 info
 .
-glyph_index
+normalizer_glyph_index
 (
 )
 )
@@ -652,7 +652,7 @@ cur
 (
 )
 .
-glyph_index
+normalizer_glyph_index
 (
 )
 =
@@ -701,7 +701,7 @@ cur
 (
 )
 .
-glyph_index
+normalizer_glyph_index
 (
 )
 =
@@ -1436,7 +1436,7 @@ cur
 (
 )
 .
-glyph_index
+normalizer_glyph_index
 (
 )
 )
@@ -2286,7 +2286,7 @@ cur
 (
 )
 .
-glyph_index
+normalizer_glyph_index
 (
 )
 sizeof
@@ -3233,7 +3233,7 @@ out_info
 starter
 ]
 .
-glyph_index
+normalizer_glyph_index
 (
 )
 =
