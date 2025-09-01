@@ -416,7 +416,7 @@ nsRect
 &
 aRect
 const
-nscoord
+nsRectCornerRadii
 *
 aRadii
 DisplayItemClipChain
@@ -435,7 +435,7 @@ nsRect
 &
 aRect
 const
-nscoord
+nsRectCornerRadii
 *
 aRadii
 DisplayItemClipChain
@@ -458,7 +458,7 @@ nsRect
 &
 aRoundedRect
 const
-nscoord
+nsRectCornerRadii
 *
 aRadii
 DisplayItemClipChain
@@ -943,7 +943,7 @@ nsRect
 &
 aRect
 const
-nscoord
+nsRectCornerRadii
 *
 aRadii
 =
@@ -1000,7 +1000,7 @@ nsRect
 &
 aRect
 const
-nscoord
+nsRectCornerRadii
 *
 aRadii
 =
@@ -1061,7 +1061,7 @@ nsRect
 &
 aRoundedRect
 const
-nscoord
+nsRectCornerRadii
 *
 aRadii
 =
@@ -1458,7 +1458,7 @@ nsRect
 &
 aRect
 const
-nscoord
+nsRectCornerRadii
 *
 aRadii
 )

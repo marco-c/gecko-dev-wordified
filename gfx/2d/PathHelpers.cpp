@@ -1298,9 +1298,11 @@ or
 (
 ccw
 )
-int
+auto
 c
 =
+Corner
+(
 aDrawClockwise
 ?
 (
@@ -1321,6 +1323,7 @@ i
 )
 %
 4
+)
 )
 ;
 /
