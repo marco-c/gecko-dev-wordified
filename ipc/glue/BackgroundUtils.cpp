@@ -3413,6 +3413,12 @@ GetAllowInsecureRedirectToDataURI
 aLoadInfo
 -
 >
+GetForceMediaDocument
+(
+)
+aLoadInfo
+-
+>
 GetSkipContentPolicyCheckForWebRequest
 (
 )
