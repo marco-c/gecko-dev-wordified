@@ -98,6 +98,16 @@ random_vector
 .
 h
 "
+#
+include
+<
+cstddef
+>
+#
+include
+<
+cstdint
+>
 namespace
 webrtc
 {

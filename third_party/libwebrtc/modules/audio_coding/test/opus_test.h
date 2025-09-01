@@ -101,6 +101,16 @@ h
 #
 include
 <
+cstddef
+>
+#
+include
+<
+cstdint
+>
+#
+include
+<
 memory
 >
 #
@@ -138,7 +148,7 @@ codecs
 /
 opus
 /
-opus_interface
+opus_inst
 .
 h
 "

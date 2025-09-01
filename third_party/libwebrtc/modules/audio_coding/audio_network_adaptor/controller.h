@@ -94,6 +94,11 @@ MODULES_AUDIO_CODING_AUDIO_NETWORK_ADAPTOR_CONTROLLER_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
 optional
 >
 #
@@ -107,7 +112,7 @@ audio_network_adaptor
 /
 include
 /
-audio_network_adaptor
+audio_network_adaptor_config
 .
 h
 "

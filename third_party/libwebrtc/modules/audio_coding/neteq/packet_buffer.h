@@ -94,6 +94,16 @@ MODULES_AUDIO_CODING_NETEQ_PACKET_BUFFER_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
+cstdint
+>
+#
+include
+<
 optional
 >
 #

@@ -104,6 +104,11 @@ size_t
 #
 include
 <
+cstdint
+>
+#
+include
+<
 memory
 >
 #

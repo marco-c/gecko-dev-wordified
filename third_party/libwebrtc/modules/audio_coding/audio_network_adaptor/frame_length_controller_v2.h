@@ -104,6 +104,15 @@ vector
 #
 include
 "
+api
+/
+array_view
+.
+h
+"
+#
+include
+"
 modules
 /
 audio_coding
@@ -125,7 +134,7 @@ audio_network_adaptor
 /
 include
 /
-audio_network_adaptor
+audio_network_adaptor_config
 .
 h
 "

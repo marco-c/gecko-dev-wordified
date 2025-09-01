@@ -94,7 +94,12 @@ MODULES_AUDIO_CODING_NETEQ_TOOLS_OUTPUT_WAV_FILE_H_
 #
 include
 <
-string
+cstddef
+>
+#
+include
+<
+cstdint
 >
 #
 include

@@ -105,12 +105,12 @@ size_t
 #
 include
 <
-memory
+cstdint
 >
 #
 include
 <
-string
+memory
 >
 #
 include

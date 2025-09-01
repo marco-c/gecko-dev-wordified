@@ -94,6 +94,11 @@ MODULES_AUDIO_CODING_NETEQ_TOOLS_NETEQ_RTP_DUMP_INPUT_H_
 #
 include
 <
+cstdint
+>
+#
+include
+<
 map
 >
 #

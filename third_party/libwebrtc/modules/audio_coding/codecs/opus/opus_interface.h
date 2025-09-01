@@ -120,6 +120,12 @@ opus_inst
 .
 h
 "
+/
+/
+IWYU
+pragma
+:
+export
 #
 ifdef
 __cplusplus

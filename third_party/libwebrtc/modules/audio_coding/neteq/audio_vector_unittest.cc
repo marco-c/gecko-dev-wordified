@@ -108,7 +108,7 @@ h
 #
 include
 <
-string
+cstdint
 >
 #
 include

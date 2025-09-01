@@ -105,6 +105,16 @@ cmath
 >
 #
 include
+<
+cstddef
+>
+#
+include
+<
+vector
+>
+#
+include
 "
 test
 /

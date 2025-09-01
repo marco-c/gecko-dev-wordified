@@ -100,6 +100,16 @@ audio_sink
 .
 h
 "
+#
+include
+<
+cstddef
+>
+#
+include
+<
+cstdint
+>
 namespace
 webrtc
 {
