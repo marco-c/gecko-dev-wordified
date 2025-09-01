@@ -12680,7 +12680,6 @@ MOZ_SRC_FILES
 ContextDerivedTypedList
 (
 SourcePath
-StrictOrderingOnAppendList
 )
         
 list
