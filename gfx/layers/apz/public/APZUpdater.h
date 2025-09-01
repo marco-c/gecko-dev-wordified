@@ -157,17 +157,6 @@ mozilla
 /
 layers
 /
-APZTestData
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 WebRenderScrollData
 .
 h
@@ -221,6 +210,9 @@ mozilla
 namespace
 layers
 {
+class
+APZTestData
+;
 class
 APZCTreeManager
 ;
