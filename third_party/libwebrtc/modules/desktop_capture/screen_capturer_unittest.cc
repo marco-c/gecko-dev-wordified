@@ -610,9 +610,6 @@ ScreenCapturerTest
 MAYBE_GetScreenListAndSelectScreen
 )
 {
-webrtc
-:
-:
 DesktopCapturer
 :
 :
