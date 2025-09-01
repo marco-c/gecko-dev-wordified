@@ -4669,9 +4669,9 @@ false
 uint64_t
 offset
 =
-mRange
+mTfhd
 .
-mStart
+mBaseDataOffset
 +
 saio
 -
