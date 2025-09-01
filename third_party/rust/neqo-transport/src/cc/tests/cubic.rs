@@ -385,7 +385,7 @@ acked
 RttEstimate
 :
 :
-from_duration
+new
 (
 RTT
 )

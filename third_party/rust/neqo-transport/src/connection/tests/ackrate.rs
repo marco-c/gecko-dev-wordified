@@ -106,10 +106,7 @@ super
 super
 :
 :
-{
 ConnectionParameters
-ACK_RATIO_SCALE
-}
 ack_bytes
 connect_rtt_idle
 default_client
@@ -785,6 +782,9 @@ default
 .
 ack_ratio
 (
+ConnectionParameters
+:
+:
 ACK_RATIO_SCALE
 )
 )
@@ -1083,6 +1083,9 @@ default
 .
 ack_ratio
 (
+ConnectionParameters
+:
+:
 ACK_RATIO_SCALE
 )
 )
@@ -1316,6 +1319,9 @@ default
 .
 ack_ratio
 (
+ConnectionParameters
+:
+:
 ACK_RATIO_SCALE
 *
 2
@@ -1540,6 +1546,9 @@ default
 .
 ack_ratio
 (
+ConnectionParameters
+:
+:
 ACK_RATIO_SCALE
 )
 )

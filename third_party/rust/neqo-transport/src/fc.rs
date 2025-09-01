@@ -259,6 +259,9 @@ connection
 params
 :
 :
+ConnectionParameters
+:
+:
 DEFAULT_ACK_RATIO
 ]
 .

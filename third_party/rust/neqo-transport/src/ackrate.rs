@@ -126,7 +126,7 @@ connection
 params
 :
 :
-ACK_RATIO_SCALE
+ConnectionParameters
 frame
 :
 :
@@ -227,6 +227,9 @@ PACKET_RATIO
 :
 usize
 =
+ConnectionParameters
+:
+:
 ACK_RATIO_SCALE
 as
 usize
@@ -274,6 +277,9 @@ RTT_RATIO
 :
 u32
 =
+ConnectionParameters
+:
+:
 ACK_RATIO_SCALE
 as
 u32
@@ -649,6 +655,9 @@ ratio
 =
 max
 (
+ConnectionParameters
+:
+:
 ACK_RATIO_SCALE
 ratio
 )

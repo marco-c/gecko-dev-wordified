@@ -132,7 +132,7 @@ neqo_common
 :
 :
 {
-qwarn
+qdebug
 Dscp
 Ecn
 }
@@ -2141,7 +2141,7 @@ dropped_rx
 =
 1
 ;
-qwarn
+qdebug
 !
 (
 "
