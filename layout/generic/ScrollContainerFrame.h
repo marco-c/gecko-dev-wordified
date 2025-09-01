@@ -8115,6 +8115,8 @@ UniquePtr
 ScrollSnapTargetIds
 >
 aSnapTargetIds
+ViewportType
+aViewportToScroll
 )
 ;
 /

@@ -17785,6 +17785,10 @@ move
 (
 snapTargetIds
 )
+ViewportType
+:
+:
+Layout
 )
 ;
 return
@@ -17955,6 +17959,10 @@ move
 (
 snapTargetIds
 )
+ViewportType
+:
+:
+Layout
 )
 ;
 return
@@ -54794,6 +54802,8 @@ UniquePtr
 ScrollSnapTargetIds
 >
 aSnapTargetIds
+ViewportType
+aViewportToScroll
 )
 {
 if
@@ -55016,10 +55026,7 @@ move
 (
 aSnapTargetIds
 )
-ViewportType
-:
-:
-Visual
+aViewportToScroll
 )
 )
 ;
@@ -55600,6 +55607,10 @@ move
 (
 snapTargetIds
 )
+ViewportType
+:
+:
+Visual
 )
 ;
 return
