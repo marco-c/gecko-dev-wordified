@@ -681,6 +681,10 @@ nsGkAtoms
 :
 :
 commandfor
+nsGkAtoms
+:
+:
+aria_activedescendant
 }
 ;
 static
@@ -6119,7 +6123,7 @@ if
 accessible
 -
 >
-IsActiveDescendantId
+IsActiveDescendant
 (
 )
 )
@@ -6821,8 +6825,6 @@ DocAccessible
 ARIAActiveDescendantChanged
 accessible
 )
-;
-return
 ;
 }
 /
@@ -21635,7 +21637,7 @@ if
 aAccessible
 -
 >
-IsActiveDescendantId
+IsActiveDescendant
 (
 &
 widget

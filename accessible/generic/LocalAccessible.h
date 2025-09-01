@@ -3887,7 +3887,7 @@ ariaActiveDescendantElement
 *
 /
 bool
-IsActiveDescendantId
+IsActiveDescendant
 (
 LocalAccessible
 *
