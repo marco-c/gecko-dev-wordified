@@ -904,6 +904,10 @@ const
 uint8_t
 >
 packet
+const
+PacketOptions
+&
+options
 )
 {
 CopyOnWriteBuffer

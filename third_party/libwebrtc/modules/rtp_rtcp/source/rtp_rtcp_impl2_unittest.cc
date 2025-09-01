@@ -1042,6 +1042,14 @@ const
 uint8_t
 >
 data
+const
+PacketOptions
+&
+/
+*
+options
+*
+/
 )
 override
 {

@@ -3434,6 +3434,13 @@ const
 uint8_t
 >
 packet
+const
+webrtc
+:
+:
+PacketOptions
+&
+options
 )
 {
 std

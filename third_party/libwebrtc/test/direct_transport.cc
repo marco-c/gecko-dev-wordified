@@ -881,6 +881,14 @@ const
 uint8_t
 >
 data
+const
+PacketOptions
+&
+/
+*
+options
+*
+/
 )
 {
 fake_network_

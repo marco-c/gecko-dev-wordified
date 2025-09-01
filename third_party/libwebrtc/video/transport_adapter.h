@@ -115,6 +115,15 @@ include
 "
 api
 /
+array_view
+.
+h
+"
+#
+include
+"
+api
+/
 call
 /
 transport
@@ -174,6 +183,10 @@ const
 uint8_t
 >
 packet
+const
+PacketOptions
+&
+options
 )
 override
 ;

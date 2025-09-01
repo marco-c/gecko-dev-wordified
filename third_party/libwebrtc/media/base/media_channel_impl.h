@@ -634,6 +634,10 @@ const
 uint8_t
 >
 packet
+const
+PacketOptions
+&
+options
 )
 override
 ;
@@ -669,6 +673,15 @@ Option
 opt
 int
 option
+)
+;
+AsyncSocketPacketOptions
+TranslatePacketOptions
+(
+const
+PacketOptions
+&
+options
 )
 ;
 bool
