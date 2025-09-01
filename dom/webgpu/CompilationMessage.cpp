@@ -197,16 +197,6 @@ aMessage
 )
 {
 }
-CompilationMessage
-:
-:
-~
-CompilationMessage
-(
-)
-=
-default
-;
 }
 /
 /

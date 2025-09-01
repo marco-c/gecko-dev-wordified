@@ -111,6 +111,15 @@ include
 "
 mozilla
 /
+Maybe
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 WebGPUBinding
@@ -183,7 +192,6 @@ aMessage
 }
 private
 :
-virtual
 ~
 DeviceLostInfo
 (
@@ -191,6 +199,12 @@ DeviceLostInfo
 =
 default
 ;
+void
+Cleanup
+(
+)
+{
+}
 nsCOMPtr
 <
 nsIGlobalObject
