@@ -253,10 +253,7 @@ nsIRunnable
 &
 &
 aRunnable
-nsIEventTarget
-:
-:
-DispatchFlags
+uint32_t
 aDispatchFlags
 =
 NS_DISPATCH_NORMAL

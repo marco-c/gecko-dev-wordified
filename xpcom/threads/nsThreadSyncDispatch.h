@@ -157,7 +157,7 @@ h
 #
 include
 "
-MaybeLeakRefPtr
+LeakRefPtr
 .
 h
 "
@@ -207,12 +207,6 @@ move
 (
 aTask
 )
-/
-*
-aAutoRelease
-*
-/
-false
 )
 mIsPending
 (
@@ -293,7 +287,7 @@ task
 =
 mSyncTask
 .
-forget
+take
 (
 )
 )
@@ -439,7 +433,7 @@ thread
 mozilla
 :
 :
-MaybeLeakRefPtr
+LeakRefPtr
 <
 nsIRunnable
 >

@@ -297,7 +297,7 @@ already_AddRefed
 nsIRunnable
 >
 aEvent
-DispatchFlags
+uint32_t
 aFlags
 )
 ;
