@@ -740,7 +740,7 @@ delete
 function
 ;
 return
-0
+nullptr
 ;
 }
 #

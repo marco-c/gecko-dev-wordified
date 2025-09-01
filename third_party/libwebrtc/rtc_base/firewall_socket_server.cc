@@ -804,7 +804,7 @@ denied
 ;
 }
 return
-0
+nullptr
 ;
 }
 private

@@ -188,7 +188,7 @@ get
 )
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -277,7 +277,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 const
