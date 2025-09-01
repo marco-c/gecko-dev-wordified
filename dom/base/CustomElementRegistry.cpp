@@ -192,15 +192,6 @@ include
 "
 mozilla
 /
-CycleCollectedUniquePtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
 HoldDropJSObjects
 .
 h

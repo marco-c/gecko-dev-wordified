@@ -662,9 +662,6 @@ start
 -
 avtStart
 aContext
-mozilla
-:
-:
 getter_Transfers
 (
 newExpr
@@ -1013,9 +1010,6 @@ createExpr
 (
 lexer
 aContext
-mozilla
-:
-:
 getter_Transfers
 (
 expr
@@ -1749,9 +1743,6 @@ createUnionExpr
 (
 lexer
 aContext
-mozilla
-:
-:
 getter_Transfers
 (
 expr
@@ -1968,9 +1959,6 @@ pop
 (
 )
 )
-mozilla
-:
-:
 getter_Transfers
 (
 expr
@@ -2089,9 +2077,6 @@ pop
 (
 )
 )
-mozilla
-:
-:
 getter_Transfers
 (
 expr
@@ -2213,9 +2198,6 @@ createFunctionCall
 (
 lexer
 aContext
-mozilla
-:
-:
 getter_Transfers
 (
 expr
@@ -2315,9 +2297,6 @@ createExpr
 (
 lexer
 aContext
-mozilla
-:
-:
 getter_Transfers
 (
 expr
@@ -2701,9 +2680,6 @@ resolveFunctionCall
 (
 lName
 namespaceID
-mozilla
-:
-:
 getter_Transfers
 (
 fnCall
@@ -3467,9 +3443,6 @@ rv
 createNodeTypeTest
 (
 lexer
-mozilla
-:
-:
 getter_Transfers
 (
 nodeTest
@@ -3989,9 +3962,6 @@ createFilterOrStep
 (
 lexer
 aContext
-mozilla
-:
-:
 getter_Transfers
 (
 expr
@@ -4219,9 +4189,6 @@ createLocationStep
 (
 lexer
 aContext
-mozilla
-:
-:
 getter_Transfers
 (
 expr
@@ -4319,9 +4286,6 @@ createPathExpr
 (
 lexer
 aContext
-mozilla
-:
-:
 getter_Transfers
 (
 expr
@@ -4425,9 +4389,6 @@ createPathExpr
 (
 lexer
 aContext
-mozilla
-:
-:
 getter_Transfers
 (
 expr
@@ -4737,9 +4698,6 @@ createExpr
 (
 lexer
 aContext
-mozilla
-:
-:
 getter_Transfers
 (
 expr
@@ -4932,9 +4890,6 @@ createExpr
 (
 lexer
 aContext
-mozilla
-:
-:
 getter_Transfers
 (
 expr

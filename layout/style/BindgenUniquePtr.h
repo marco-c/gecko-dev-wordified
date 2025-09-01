@@ -137,6 +137,14 @@ h
 namespace
 mozilla
 {
+template
+<
+typename
+T
+>
+class
+DefaultDelete
+;
 /
 /
 /
