@@ -4221,6 +4221,12 @@ void
 }
 perfSpewer_
 .
+startRecording
+(
+)
+;
+perfSpewer_
+.
 markStartOffset
 (
 masm
@@ -6026,6 +6032,12 @@ large
 )
 ;
 }
+perfSpewer_
+.
+endRecording
+(
+)
+;
 JitSpew
 (
 JitSpew_Codegen
