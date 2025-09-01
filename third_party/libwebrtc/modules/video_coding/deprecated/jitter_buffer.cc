@@ -474,7 +474,7 @@ end
 )
 )
 return
-NULL
+nullptr
 ;
 VCMFrameBuffer
 *
@@ -1684,7 +1684,7 @@ running_
 )
 {
 return
-NULL
+nullptr
 ;
 }
 /
@@ -1743,7 +1743,7 @@ frame
 ;
 else
 return
-NULL
+nullptr
 ;
 }
 /
@@ -2108,7 +2108,7 @@ if
 frame
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -2139,7 +2139,7 @@ if
 frame
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -2155,7 +2155,7 @@ kNoError
 *
 frame_list
 =
-NULL
+nullptr
 ;
 /
 /
@@ -2178,7 +2178,7 @@ if
 frame
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -3103,7 +3103,7 @@ if
 frame_list
 !
 =
-NULL
+nullptr
 )
 {
 frame_list
@@ -4234,7 +4234,7 @@ Front
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 bool
@@ -4764,7 +4764,7 @@ TryToIncreaseJitterBufferSize
 )
 {
 return
-NULL
+nullptr
 ;
 }
 }

@@ -6110,7 +6110,7 @@ Encode
 (
 *
 input_frame_
-NULL
+nullptr
 )
 )
 ;
@@ -6181,7 +6181,7 @@ Encode
 (
 *
 input_frame_
-NULL
+nullptr
 )
 )
 ;
@@ -6249,7 +6249,7 @@ Encode
 (
 *
 input_frame_
-NULL
+nullptr
 )
 )
 ;
@@ -6317,7 +6317,7 @@ Encode
 (
 *
 input_frame_
-NULL
+nullptr
 )
 )
 ;
@@ -6385,7 +6385,7 @@ Encode
 (
 *
 input_frame_
-NULL
+nullptr
 )
 )
 ;
@@ -6453,7 +6453,7 @@ Encode
 (
 *
 input_frame_
-NULL
+nullptr
 )
 )
 ;
@@ -6757,7 +6757,7 @@ Encode
 (
 *
 input_frame_
-NULL
+nullptr
 )
 )
 ;
@@ -6825,7 +6825,7 @@ Encode
 (
 *
 input_frame_
-NULL
+nullptr
 )
 )
 ;
@@ -6893,7 +6893,7 @@ Encode
 (
 *
 input_frame_
-NULL
+nullptr
 )
 )
 ;
@@ -6961,7 +6961,7 @@ Encode
 (
 *
 input_frame_
-NULL
+nullptr
 )
 )
 ;
@@ -7029,7 +7029,7 @@ Encode
 (
 *
 input_frame_
-NULL
+nullptr
 )
 )
 ;
@@ -7097,7 +7097,7 @@ Encode
 (
 *
 input_frame_
-NULL
+nullptr
 )
 )
 ;
@@ -7331,7 +7331,7 @@ Encode
 (
 *
 input_frame_
-NULL
+nullptr
 )
 )
 ;
@@ -7395,7 +7395,7 @@ Encode
 (
 *
 input_frame_
-NULL
+nullptr
 )
 )
 ;
@@ -7653,7 +7653,7 @@ Encode
 (
 *
 input_frame_
-NULL
+nullptr
 )
 )
 ;

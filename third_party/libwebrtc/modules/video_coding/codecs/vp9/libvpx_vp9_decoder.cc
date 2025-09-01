@@ -1609,7 +1609,7 @@ size
 (
 )
 )
-0
+nullptr
 VPX_DL_REALTIME
 )
 )

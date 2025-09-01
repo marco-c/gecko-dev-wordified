@@ -1448,7 +1448,7 @@ ret
 frame
 !
 =
-NULL
+nullptr
 )
 ;
 jitter_buffer_
@@ -1558,7 +1558,7 @@ Stop
 ;
 EXPECT_TRUE
 (
-NULL
+nullptr
 =
 =
 DecodeCompleteFrame
@@ -1581,7 +1581,7 @@ inserted
 .
 EXPECT_TRUE
 (
-NULL
+nullptr
 =
 =
 DecodeCompleteFrame
@@ -1794,7 +1794,7 @@ EXPECT_TRUE
 frame_out
 =
 =
-NULL
+nullptr
 )
 ;
 +
@@ -1952,7 +1952,7 @@ EXPECT_TRUE
 frame_out
 =
 =
-NULL
+nullptr
 )
 ;
 /
@@ -2185,7 +2185,7 @@ EXPECT_FALSE
 frame_out
 =
 =
-NULL
+nullptr
 )
 ;
 jitter_buffer_
@@ -2270,7 +2270,7 @@ EXPECT_TRUE
 frame_out
 =
 =
-NULL
+nullptr
 )
 ;
 packet_
@@ -2525,7 +2525,7 @@ EXPECT_TRUE
 frame_out
 =
 =
-NULL
+nullptr
 )
 ;
 /
@@ -2749,7 +2749,7 @@ EXPECT_TRUE
 frame_out
 =
 =
-NULL
+nullptr
 )
 ;
 seq_num_
@@ -2819,7 +2819,7 @@ EXPECT_TRUE
 frame_out
 =
 =
-NULL
+nullptr
 )
 ;
 seq_num_
@@ -2910,7 +2910,7 @@ EXPECT_TRUE
 frame_out
 =
 =
-NULL
+nullptr
 )
 ;
 seq_num_
@@ -3126,7 +3126,7 @@ EXPECT_TRUE
 frame_out
 !
 =
-NULL
+nullptr
 )
 ;
 jitter_buffer_
@@ -3274,7 +3274,7 @@ EXPECT_TRUE
 frame_out
 =
 =
-NULL
+nullptr
 )
 ;
 /
@@ -3376,7 +3376,7 @@ EXPECT_TRUE
 frame_out
 !
 =
-NULL
+nullptr
 )
 ;
 jitter_buffer_
@@ -3409,7 +3409,7 @@ EXPECT_TRUE
 frame_out
 =
 =
-NULL
+nullptr
 )
 ;
 /
@@ -3568,7 +3568,7 @@ EXPECT_TRUE
 frame_out
 !
 =
-NULL
+nullptr
 )
 ;
 jitter_buffer_
@@ -3683,7 +3683,7 @@ EXPECT_TRUE
 frame_out
 =
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -3807,7 +3807,7 @@ ASSERT_TRUE
 frame_out
 !
 =
-NULL
+nullptr
 )
 ;
 CheckOutFrame
@@ -3974,7 +3974,7 @@ ASSERT_TRUE
 frame_out
 !
 =
-NULL
+nullptr
 )
 ;
 CheckOutFrame
@@ -4212,7 +4212,7 @@ ASSERT_TRUE
 frame_out
 !
 =
-NULL
+nullptr
 )
 ;
 CheckOutFrame
@@ -6435,7 +6435,7 @@ EXPECT_TRUE
 frame_out
 =
 =
-NULL
+nullptr
 )
 ;
 seq_num_
@@ -7201,7 +7201,7 @@ EXPECT_TRUE
 frame_out
 =
 =
-NULL
+nullptr
 )
 ;
 int
@@ -7264,7 +7264,7 @@ EXPECT_TRUE
 frame_out
 =
 =
-NULL
+nullptr
 )
 ;
 loop
@@ -7454,7 +7454,7 @@ EXPECT_TRUE
 frame_out
 =
 =
-NULL
+nullptr
 )
 ;
 /
@@ -7523,7 +7523,7 @@ EXPECT_TRUE
 frame_out
 =
 =
-NULL
+nullptr
 )
 ;
 loop
@@ -8278,7 +8278,7 @@ EXPECT_TRUE
 frame_out
 =
 =
-NULL
+nullptr
 )
 ;
 seq_num_
@@ -8425,7 +8425,7 @@ EXPECT_TRUE
 frame_out
 =
 =
-NULL
+nullptr
 )
 ;
 seq_num_
@@ -9273,7 +9273,7 @@ retransmitted
 ;
 EXPECT_TRUE
 (
-NULL
+nullptr
 =
 =
 DecodeCompleteFrame
@@ -10083,7 +10083,7 @@ EXPECT_TRUE
 frame_out
 !
 =
-NULL
+nullptr
 )
 ;
 jitter_buffer_
@@ -11703,7 +11703,7 @@ stream_generator_
 >
 NextPacket
 (
-NULL
+nullptr
 )
 ;
 /
@@ -12600,7 +12600,7 @@ stream_generator_
 >
 NextPacket
 (
-NULL
+nullptr
 )
 ;
 /
@@ -13010,7 +13010,7 @@ stream_generator_
 >
 NextPacket
 (
-NULL
+nullptr
 )
 ;
 /
@@ -13347,7 +13347,7 @@ stream_generator_
 >
 NextPacket
 (
-NULL
+nullptr
 )
 ;
 /

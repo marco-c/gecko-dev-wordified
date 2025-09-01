@@ -1030,7 +1030,7 @@ Reset
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -1191,7 +1191,7 @@ new_max_wait_time
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 /
@@ -1245,11 +1245,11 @@ if
 frame
 =
 =
-NULL
+nullptr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 frame

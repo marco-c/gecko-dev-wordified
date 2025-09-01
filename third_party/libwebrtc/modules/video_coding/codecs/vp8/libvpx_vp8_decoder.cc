@@ -894,7 +894,7 @@ max_number_of_buffers
 )
 decode_complete_callback_
 (
-NULL
+nullptr
 )
 inited_
 (
@@ -902,7 +902,7 @@ false
 )
 decoder_
 (
-NULL
+nullptr
 )
 last_frame_width_
 (
@@ -1003,7 +1003,7 @@ if
 decoder_
 =
 =
-NULL
+nullptr
 )
 {
 decoder_
@@ -1219,7 +1219,7 @@ if
 decode_complete_callback_
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1235,7 +1235,7 @@ data
 )
 =
 =
-NULL
+nullptr
 &
 &
 input_image
@@ -1603,7 +1603,7 @@ size
 {
 buffer
 =
-NULL
+nullptr
 ;
 /
 /
@@ -1624,7 +1624,7 @@ input_image
 size
 (
 )
-0
+nullptr
 kDecodeDeadlineRealtime
 )
 )
@@ -1636,7 +1636,7 @@ WEBRTC_VIDEO_CODEC_ERROR
 vpx_codec_iter_t
 iter
 =
-NULL
+nullptr
 ;
 vpx_image_t
 *
@@ -1729,7 +1729,7 @@ if
 img
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -2077,7 +2077,7 @@ if
 decoder_
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -2104,7 +2104,7 @@ decoder_
 ;
 decoder_
 =
-NULL
+nullptr
 ;
 }
 buffer_pool_
