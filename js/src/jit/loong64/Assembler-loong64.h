@@ -5663,7 +5663,7 @@ inline
 bool
 is_intN
 (
-int32_t
+int64_t
 x
 unsigned
 n
@@ -5685,12 +5685,12 @@ n
 )
 )
 ;
-int32_t
+int64_t
 limit
 =
 static_cast
 <
-int32_t
+int64_t
 >
 (
 1
