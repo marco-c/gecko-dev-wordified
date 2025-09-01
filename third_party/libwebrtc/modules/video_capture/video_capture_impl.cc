@@ -486,7 +486,7 @@ VideoCaptureImpl
 :
 _deviceUniqueId
 (
-NULL
+nullptr
 )
 _requestedCapability
 (
@@ -505,7 +505,7 @@ TimeNanos
 )
 _rawDataCallBack
 (
-NULL
+nullptr
 )
 _lastProcessFrameTimeNanos
 (
@@ -707,7 +707,7 @@ it
 }
 _rawDataCallBack
 =
-NULL
+nullptr
 ;
 }
 int32_t

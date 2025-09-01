@@ -446,7 +446,7 @@ false
 )
 _pool
 (
-NULL
+nullptr
 )
 {
 }
@@ -2577,7 +2577,7 @@ start
 =
 mmap
 (
-NULL
+nullptr
 buffer
 .
 length
