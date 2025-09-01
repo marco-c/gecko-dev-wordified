@@ -1729,6 +1729,13 @@ const
 uint8_t
 >
 aPacket
+const
+webrtc
+:
+:
+PacketOptions
+&
+aOptions
 )
 {
 return
@@ -1831,6 +1838,13 @@ const
 uint8_t
 >
 aPacket
+const
+webrtc
+:
+:
+PacketOptions
+&
+aOptions
 )
 {
 return
