@@ -136,8 +136,7 @@ sftkdb_known_attributes
 ]
 ;
 extern
-unsigned
-int
+size_t
 sftkdb_known_attributes_size
 ;
 #
