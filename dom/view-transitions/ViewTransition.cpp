@@ -14752,10 +14752,10 @@ has
 some
 motion
 to
+/
+/
 it
 .
-/
-/
 But
 at
 the
@@ -14770,9 +14770,9 @@ margin
 pushing
 the
 snapshot
+/
+/
 size
-/
-/
 over
 4k
 pixels
@@ -14784,6 +14784,8 @@ WebRender
 to
 render
 it
+/
+/
 downscaled
 .
 float
