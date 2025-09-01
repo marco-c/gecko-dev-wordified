@@ -190,10 +190,7 @@ BiQuadCoefficients
 kHighPassFilterCoefficients16kHz
 =
 {
-CascadedBiQuadFilter
-:
-:
-BiQuadCoefficients
+{
 {
 {
 0
@@ -215,6 +212,7 @@ BiQuadCoefficients
 0
 .
 945977936f
+}
 }
 }
 }
@@ -251,10 +249,7 @@ BiQuadCoefficients
 kHighPassFilterCoefficients32kHz
 =
 {
-CascadedBiQuadFilter
-:
-:
-BiQuadCoefficients
+{
 {
 {
 0
@@ -276,6 +271,7 @@ BiQuadCoefficients
 0
 .
 972613969f
+}
 }
 }
 }
@@ -312,10 +308,7 @@ BiQuadCoefficients
 kHighPassFilterCoefficients48kHz
 =
 {
-CascadedBiQuadFilter
-:
-:
-BiQuadCoefficients
+{
 {
 {
 0
@@ -337,6 +330,7 @@ BiQuadCoefficients
 0
 .
 981658283f
+}
 }
 }
 }

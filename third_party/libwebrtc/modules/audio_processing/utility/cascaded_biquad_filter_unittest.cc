@@ -180,10 +180,7 @@ BiQuadCoefficients
 kHighPassFilterCoefficients
 =
 {
-CascadedBiQuadFilter
-:
-:
-BiQuadCoefficients
+{
 {
 {
 0
@@ -208,6 +205,7 @@ BiQuadCoefficients
 }
 }
 }
+}
 ;
 constexpr
 std
@@ -224,10 +222,7 @@ BiQuadCoefficients
 kTransparentCoefficients
 =
 {
-CascadedBiQuadFilter
-:
-:
-BiQuadCoefficients
+{
 {
 {
 1
@@ -247,6 +242,7 @@ f
 0
 .
 f
+}
 }
 }
 }
@@ -266,10 +262,7 @@ BiQuadCoefficients
 kBlockingCoefficients
 =
 {
-CascadedBiQuadFilter
-:
-:
-BiQuadCoefficients
+{
 {
 {
 0
@@ -289,6 +282,7 @@ f
 0
 .
 f
+}
 }
 }
 }
@@ -308,10 +302,7 @@ BiQuadCoefficients
 kCascadedCoefficients
 =
 {
-CascadedBiQuadFilter
-:
-:
-BiQuadCoefficients
+{
 {
 {
 -
@@ -334,10 +325,6 @@ f
 f
 }
 }
-CascadedBiQuadFilter
-:
-:
-BiQuadCoefficients
 {
 {
 0
@@ -358,6 +345,7 @@ f
 0
 .
 f
+}
 }
 }
 }
