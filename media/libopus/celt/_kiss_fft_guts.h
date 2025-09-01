@@ -1024,8 +1024,14 @@ endif
 if
 defined
 (
-MIPSr1_ASM
+__mips_dsp
 )
+&
+&
+__mips
+=
+=
+32
 #
 include
 "

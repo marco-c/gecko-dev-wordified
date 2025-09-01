@@ -1232,6 +1232,7 @@ silk_assert
 *
 Disable
 MIPS
+DSP
 version
 until
 it
@@ -1248,8 +1249,14 @@ if
 &
 defined
 (
-MIPSr1_ASM
+__mips_dsp
 )
+&
+&
+__mips
+=
+=
+32
 #
 include
 "
