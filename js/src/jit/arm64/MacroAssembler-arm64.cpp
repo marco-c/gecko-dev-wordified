@@ -21893,7 +21893,10 @@ rd
 vixl
 :
 :
-XRegister
+Register
+:
+:
+XRegFromCode
 (
 cur
 -
