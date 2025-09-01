@@ -228,6 +228,9 @@ status
 "
 statusText
 "
+"
+blockedReason
+"
 ]
 ;
 /
