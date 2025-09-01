@@ -3698,6 +3698,7 @@ TYPE_REPEATING_PRECISE_CAN_SKIP
 "
 EverySecondTelemetryCallback_m
 "
+_ns
 )
 ;
 }

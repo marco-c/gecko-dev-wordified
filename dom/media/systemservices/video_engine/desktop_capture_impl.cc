@@ -3745,6 +3745,7 @@ DesktopCaptureImpl
 :
 mCaptureTimer
 "
+_ns
 )
 ;
 }

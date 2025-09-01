@@ -774,6 +774,7 @@ TimerHelper
 :
 ClosureCallback
 "
+_ns
 )
 ;
 }
@@ -2316,6 +2317,7 @@ FindExpirationTimeState
 :
 InitTimers
 "
+_ns
 )
 ;
 }
@@ -2344,6 +2346,7 @@ FindExpirationTimeState
 :
 InitTimers
 "
+_ns
 )
 ;
 }
@@ -5798,6 +5801,7 @@ Timers
 .
 ClosureCallback
 "
+_ns
 testThread
 )
 ;
@@ -5974,6 +5978,7 @@ HighResFuncCallback
 :
 third
 "
+_ns
 )
 )
 ;
@@ -6008,6 +6013,7 @@ HighResFuncCallback
 :
 second
 "
+_ns
 )
 )
 ;
@@ -6042,6 +6048,7 @@ HighResFuncCallback
 :
 first
 "
+_ns
 )
 )
 ;

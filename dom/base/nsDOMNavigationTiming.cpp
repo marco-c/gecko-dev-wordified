@@ -1739,6 +1739,7 @@ nsDOMNavigationTiming
 :
 TTITimeout
 "
+_ns
 )
 ;
 return
@@ -2604,6 +2605,7 @@ nsDOMNavigationTiming
 :
 TTITimeout
 "
+_ns
 )
 ;
 if

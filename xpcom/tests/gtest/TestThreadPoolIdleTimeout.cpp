@@ -511,6 +511,7 @@ TYPE_ONE_SHOT
 "
 TimingChecker
 "
+_ns
 mTarget
 )
 ;
@@ -632,6 +633,7 @@ TYPE_ONE_SHOT
 "
 TimingChecker
 "
+_ns
 mTarget
 )
 ;
@@ -2225,6 +2227,7 @@ TYPE_REPEATING_PRECISE_CAN_SKIP
 Background
 Bursts
 "
+_ns
 helperTarget
 )
 ;
@@ -2790,6 +2793,7 @@ TYPE_REPEATING_PRECISE_CAN_SKIP
 Background
 Noise
 "
+_ns
 helperTarget
 )
 ;

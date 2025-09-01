@@ -1734,6 +1734,7 @@ TYPE_ONE_SHOT
 SpinEventLoop
 timer
 "
+_ns
 currentThread
 )
 )

@@ -287,6 +287,7 @@ GMPTimerParent
 :
 RecvSetTimer
 "
+_ns
 mGMPEventTarget
 )
 ;

@@ -591,6 +591,7 @@ TYPE_ONE_SHOT
 "
 DelayedAllowAutoGrantCallback
 "
+_ns
 )
 ;
 if

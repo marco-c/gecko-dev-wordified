@@ -6657,6 +6657,7 @@ ChromeTooltipListener
 :
 MouseMove
 "
+_ns
 GetMainThreadSerialEventTarget
 (
 )
