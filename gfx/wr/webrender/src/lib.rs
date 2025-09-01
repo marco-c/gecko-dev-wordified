@@ -1300,3 +1300,17 @@ compositor
 :
 sw_compositor
 ;
+#
+[
+cfg
+(
+feature
+=
+"
+debugger
+"
+)
+]
+mod
+debugger
+;
