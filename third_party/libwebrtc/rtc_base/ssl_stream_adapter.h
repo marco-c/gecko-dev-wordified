@@ -2014,7 +2014,12 @@ uint16_t
 GetSupportedEphemeralKeyExchangeCipherGroups
 (
 )
+{
+return
+{
+}
 ;
+}
 static
 std
 :
@@ -2046,7 +2051,12 @@ FieldTrialsView
 *
 field_trials
 )
+{
+return
+{
+}
 ;
+}
 /
 /
 /
