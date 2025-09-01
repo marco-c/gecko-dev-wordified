@@ -858,7 +858,10 @@ NS_DispatchToMainThread
 nsIRunnable
 *
 aEvent
-uint32_t
+nsIEventTarget
+:
+:
+DispatchFlags
 aDispatchFlags
 =
 NS_DISPATCH_NORMAL
@@ -875,7 +878,10 @@ nsIRunnable
 &
 &
 aEvent
-uint32_t
+nsIEventTarget
+:
+:
+DispatchFlags
 aDispatchFlags
 =
 NS_DISPATCH_NORMAL
@@ -11607,7 +11613,10 @@ already_AddRefed
 nsIRunnable
 >
 aEvent
-uint32_t
+nsIEventTarget
+:
+:
+DispatchFlags
 aDispatchFlags
 =
 NS_DISPATCH_NORMAL
@@ -11623,7 +11632,10 @@ NS_DispatchBackgroundTask
 nsIRunnable
 *
 aEvent
-uint32_t
+nsIEventTarget
+:
+:
+DispatchFlags
 aDispatchFlags
 =
 NS_DISPATCH_NORMAL

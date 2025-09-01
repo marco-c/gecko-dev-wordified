@@ -504,7 +504,7 @@ already_AddRefed
 nsIRunnable
 >
 event
-uint32_t
+DispatchFlags
 flags
 )
 override
@@ -515,7 +515,7 @@ DispatchFromScript
 nsIRunnable
 *
 event
-uint32_t
+DispatchFlags
 flags
 )
 override

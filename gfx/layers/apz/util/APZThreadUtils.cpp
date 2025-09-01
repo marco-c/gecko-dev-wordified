@@ -402,7 +402,10 @@ Runnable
 &
 &
 aTask
-uint32_t
+nsIEventTarget
+:
+:
+DispatchFlags
 flags
 )
 {

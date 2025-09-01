@@ -255,7 +255,10 @@ already_AddRefed
 nsIRunnable
 >
 event
-uint32_t
+nsIEventTarget
+:
+:
+DispatchFlags
 flags
 =
 nsIEventTarget
