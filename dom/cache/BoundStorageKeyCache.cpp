@@ -2029,8 +2029,6 @@ MOZ_DIAGNOSTIC_ASSERT
 mActor
 )
 ;
-/
-/
 mActor
 -
 >
