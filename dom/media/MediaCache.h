@@ -4366,13 +4366,7 @@ disk
 .
 /
 /
-If
-|
-aNotifyAll
-|
-is
-true
-this
+This
 function
 will
 wake
@@ -4403,8 +4397,6 @@ FlushPartialBlockInternal
 (
 AutoLock
 &
-bool
-aNotifyAll
 )
 ;
 void
