@@ -720,13 +720,15 @@ ssds
             
 hgstore
 =
+f
 "
-c
-:
+{
+checkoutdir
+}
 /
 hg
 -
-shared
+store
 "
         
 else
@@ -735,7 +737,7 @@ else
 hgstore
 =
 "
-d
+y
 :
 /
 hg
