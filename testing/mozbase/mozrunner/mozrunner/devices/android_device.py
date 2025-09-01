@@ -826,6 +826,8 @@ x86_64
 "
 mozemulator
 -
+android34
+-
 x86_64
 "
         
@@ -886,15 +888,6 @@ cores
             
 "
 -
-skin
-"
-            
-"
-800x1280
-"
-            
-"
--
 prop
 "
             
@@ -918,6 +911,15 @@ snapstorage
 no
 -
 snapshot
+"
+            
+"
+-
+skin
+"
+            
+"
+1080x1920
 "
         
 ]
