@@ -856,6 +856,11 @@ DefaultURI
 h
 "
 "
+ExecuteIfOnMainThreadEventTarget
+.
+h
+"
+"
 InterceptionInfo
 .
 h
@@ -957,6 +962,11 @@ cpp
 "
 "
 EventTokenBucket
+.
+cpp
+"
+"
+ExecuteIfOnMainThreadEventTarget
 .
 cpp
 "
