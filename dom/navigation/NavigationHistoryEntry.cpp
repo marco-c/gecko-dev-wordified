@@ -218,7 +218,6 @@ nsIGlobalObject
 *
 aGlobal
 const
-class
 SessionHistoryInfo
 *
 aSHInfo
@@ -234,7 +233,6 @@ mSHInfo
 (
 MakeUnique
 <
-class
 SessionHistoryInfo
 >
 (
@@ -881,7 +879,6 @@ NavigationHistoryEntry
 IsSameEntry
 (
 const
-class
 SessionHistoryInfo
 *
 aSHInfo
@@ -912,7 +909,6 @@ NavigationHistoryEntry
 SharesDocumentWith
 (
 const
-class
 SessionHistoryInfo
 &
 aSHInfo
@@ -1073,20 +1069,6 @@ mSHInfo
 GetNavigationState
 (
 )
-;
-}
-void
-NavigationHistoryEntry
-:
-:
-ResetIndexForDisposal
-(
-)
-{
-mIndex
-=
--
-1
 ;
 }
 }
