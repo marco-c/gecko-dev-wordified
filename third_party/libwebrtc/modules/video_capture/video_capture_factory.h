@@ -130,17 +130,6 @@ h
 #
 include
 "
-modules
-/
-video_capture
-/
-video_capture_defines
-.
-h
-"
-#
-include
-"
 rtc_base
 /
 system
