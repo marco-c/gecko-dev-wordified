@@ -968,7 +968,6 @@ IPProtectionService
 .
 uninit
 (
-true
 )
 ;
 toggledEvents
