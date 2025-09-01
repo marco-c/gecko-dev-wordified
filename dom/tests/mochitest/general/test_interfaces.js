@@ -18420,9 +18420,6 @@ ViewTransition
 insecureContext
 :
 true
-nightly
-:
-true
 }
 /
 /
