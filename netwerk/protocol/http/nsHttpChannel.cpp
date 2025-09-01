@@ -3472,8 +3472,6 @@ nsIURI
 proxyURI
 uint64_t
 channelId
-ExtContentPolicyType
-aContentPolicyType
 nsILoadInfo
 *
 aLoadInfo
@@ -3493,7 +3491,6 @@ proxyInfo
 proxyResolveFlags
 proxyURI
 channelId
-aContentPolicyType
 aLoadInfo
 )
 ;
@@ -78613,16 +78610,6 @@ mChannelCreationTimestamp
 mAsyncOpenTime
 )
 ;
-ExtContentPolicyType
-type
-=
-mLoadInfo
--
->
-GetExternalContentPolicyType
-(
-)
-;
 nsCOMPtr
 <
 nsILoadInfo
@@ -78663,7 +78650,6 @@ get
 mProxyResolveFlags
 mProxyURI
 mChannelId
-type
 redirectLoadInfo
 )
 ;

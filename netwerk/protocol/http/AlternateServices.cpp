@@ -5913,16 +5913,6 @@ loadInfo
 nsLoadFlags
 flags
 ;
-ExtContentPolicyType
-contentPolicyType
-=
-loadInfo
--
->
-GetExternalContentPolicyType
-(
-)
-;
 uint64_t
 channelId
 =
@@ -5948,7 +5938,6 @@ nullptr
 0
 nullptr
 channelId
-contentPolicyType
 loadInfo
 )
 )

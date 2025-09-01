@@ -15506,12 +15506,6 @@ proxyResolveFlags
 proxyURI
 channelId
 aLoadInfo
--
->
-GetExternalContentPolicyType
-(
-)
-aLoadInfo
 )
 ;
 if
