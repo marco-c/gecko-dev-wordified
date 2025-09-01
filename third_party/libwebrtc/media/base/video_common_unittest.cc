@@ -327,9 +327,6 @@ FpsToInterval
 ;
 EXPECT_EQ
 (
-webrtc
-:
-:
 kNumNanosecsPerSec
 /
 20
@@ -350,9 +347,6 @@ VideoFormat
 :
 IntervalToFps
 (
-webrtc
-:
-:
 kNumNanosecsPerSec
 /
 20

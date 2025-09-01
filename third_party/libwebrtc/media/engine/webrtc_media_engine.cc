@@ -299,9 +299,6 @@ uri
 ]
 (
 const
-webrtc
-:
-:
 RtpExtension
 &
 rhs

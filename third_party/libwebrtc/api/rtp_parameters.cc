@@ -1210,9 +1210,6 @@ return
 uri
 =
 =
-webrtc
-:
-:
 RtpExtension
 :
 :
@@ -1222,9 +1219,6 @@ kAudioLevelUri
 uri
 =
 =
-webrtc
-:
-:
 RtpExtension
 :
 :
@@ -1234,9 +1228,6 @@ kAbsSendTimeUri
 uri
 =
 =
-webrtc
-:
-:
 RtpExtension
 :
 :
@@ -1246,9 +1237,6 @@ kAbsoluteCaptureTimeUri
 uri
 =
 =
-webrtc
-:
-:
 RtpExtension
 :
 :
@@ -1258,9 +1246,6 @@ kTransportSequenceNumberUri
 uri
 =
 =
-webrtc
-:
-:
 RtpExtension
 :
 :
@@ -1270,9 +1255,6 @@ kTransportSequenceNumberV2Uri
 uri
 =
 =
-webrtc
-:
-:
 RtpExtension
 :
 :
@@ -1282,9 +1264,6 @@ kMidUri
 uri
 =
 =
-webrtc
-:
-:
 RtpExtension
 :
 :
@@ -1294,9 +1273,6 @@ kRidUri
 uri
 =
 =
-webrtc
-:
-:
 RtpExtension
 :
 :
@@ -1306,9 +1282,6 @@ kRepairedRidUri
 uri
 =
 =
-webrtc
-:
-:
 RtpExtension
 :
 :
@@ -1332,9 +1305,6 @@ return
 uri
 =
 =
-webrtc
-:
-:
 RtpExtension
 :
 :
@@ -1344,9 +1314,6 @@ kTimestampOffsetUri
 uri
 =
 =
-webrtc
-:
-:
 RtpExtension
 :
 :
@@ -1356,9 +1323,6 @@ kAbsSendTimeUri
 uri
 =
 =
-webrtc
-:
-:
 RtpExtension
 :
 :
@@ -1368,9 +1332,6 @@ kAbsoluteCaptureTimeUri
 uri
 =
 =
-webrtc
-:
-:
 RtpExtension
 :
 :
@@ -1380,9 +1341,6 @@ kVideoRotationUri
 uri
 =
 =
-webrtc
-:
-:
 RtpExtension
 :
 :
@@ -1392,9 +1350,6 @@ kTransportSequenceNumberUri
 uri
 =
 =
-webrtc
-:
-:
 RtpExtension
 :
 :
@@ -1404,9 +1359,6 @@ kTransportSequenceNumberV2Uri
 uri
 =
 =
-webrtc
-:
-:
 RtpExtension
 :
 :
@@ -1416,9 +1368,6 @@ kPlayoutDelayUri
 uri
 =
 =
-webrtc
-:
-:
 RtpExtension
 :
 :
@@ -1428,9 +1377,6 @@ kVideoContentTypeUri
 uri
 =
 =
-webrtc
-:
-:
 RtpExtension
 :
 :
@@ -1440,9 +1386,6 @@ kVideoTimingUri
 uri
 =
 =
-webrtc
-:
-:
 RtpExtension
 :
 :
@@ -1452,9 +1395,6 @@ kMidUri
 uri
 =
 =
-webrtc
-:
-:
 RtpExtension
 :
 :
@@ -1464,9 +1404,6 @@ kGenericFrameDescriptorUri00
 uri
 =
 =
-webrtc
-:
-:
 RtpExtension
 :
 :
@@ -1476,9 +1413,6 @@ kDependencyDescriptorUri
 uri
 =
 =
-webrtc
-:
-:
 RtpExtension
 :
 :
@@ -1488,9 +1422,6 @@ kColorSpaceUri
 uri
 =
 =
-webrtc
-:
-:
 RtpExtension
 :
 :
@@ -1500,9 +1431,6 @@ kRidUri
 uri
 =
 =
-webrtc
-:
-:
 RtpExtension
 :
 :
@@ -1512,9 +1440,6 @@ kRepairedRidUri
 uri
 =
 =
-webrtc
-:
-:
 RtpExtension
 :
 :
@@ -1524,9 +1449,6 @@ kVideoLayersAllocationUri
 uri
 =
 =
-webrtc
-:
-:
 RtpExtension
 :
 :
@@ -1536,9 +1458,6 @@ kVideoFrameTrackingIdUri
 uri
 =
 =
-webrtc
-:
-:
 RtpExtension
 :
 :
@@ -1654,9 +1573,6 @@ endif
 uri
 !
 =
-webrtc
-:
-:
 RtpExtension
 :
 :
@@ -1776,9 +1692,6 @@ filter
 )
 {
 const
-webrtc
-:
-:
 RtpExtension
 *
 fallback_extension

@@ -372,9 +372,6 @@ dependencies
 .
 env
 =
-webrtc
-:
-:
 CreateEnvironment
 (
 std

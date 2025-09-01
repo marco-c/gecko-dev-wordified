@@ -2294,9 +2294,6 @@ interval
 )
 max_fps
 =
-webrtc
-:
-:
 kNumNanosecsPerSec
 /
 format

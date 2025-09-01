@@ -3384,9 +3384,6 @@ opus_without_fec
 )
 )
 ;
-webrtc
-:
-:
 RtpCodecParameters
 rtp_opus_with_fec
 =
@@ -4122,9 +4119,6 @@ c_profile0
 .
 params
 [
-webrtc
-:
-:
 kVP9FmtpProfileId
 ]
 =
@@ -4154,9 +4148,6 @@ c_profile0_eq
 .
 params
 [
-webrtc
-:
-:
 kVP9FmtpProfileId
 ]
 =
@@ -4187,9 +4178,6 @@ c_profile2
 .
 params
 [
-webrtc
-:
-:
 kVP9FmtpProfileId
 ]
 =
