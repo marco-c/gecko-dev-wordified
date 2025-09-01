@@ -1839,9 +1839,6 @@ pc_factory
 >
 GetRtpReceiverCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -1940,9 +1937,6 @@ pc_factory
 >
 GetRtpReceiverCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -4425,9 +4419,6 @@ pc_factory
 >
 GetRtpSenderCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -11203,9 +11194,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -11285,9 +11273,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -11431,9 +11416,6 @@ local_pc_wrapper
 >
 FindFirstSendCodecWithName
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -11748,9 +11730,6 @@ local_pc_wrapper
 >
 FindFirstSendCodecWithName
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -12106,9 +12085,6 @@ local_pc_wrapper
 >
 FindFirstSendCodecWithName
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -12416,9 +12392,6 @@ local_pc_wrapper
 >
 FindFirstSendCodecWithName
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -12847,9 +12820,6 @@ local_pc_wrapper
 >
 FindFirstSendCodecWithName
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -13253,9 +13223,6 @@ local_pc_wrapper
 >
 FindFirstSendCodecWithName
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -13661,9 +13628,6 @@ dummy_codec
 .
 kind
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -13732,9 +13696,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -13792,9 +13753,6 @@ dummy_codec
 .
 kind
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -13857,9 +13815,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -13917,9 +13872,6 @@ dummy_codec
 .
 kind
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -13958,9 +13910,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -14067,9 +14016,6 @@ dummy_codec
 .
 kind
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -14102,9 +14048,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -14234,9 +14177,6 @@ local_pc_wrapper
 >
 FindFirstSendCodecWithName
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -14270,9 +14210,6 @@ pc_factory
 >
 GetRtpSenderCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -14347,9 +14284,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -14514,9 +14448,6 @@ local_pc_wrapper
 >
 FindFirstSendCodecWithName
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -14550,9 +14481,6 @@ pc_factory
 >
 GetRtpSenderCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -14627,9 +14555,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -15033,9 +14958,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -15607,9 +15529,6 @@ local_pc_wrapper
 >
 FindFirstSendCodecWithName
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -15643,9 +15562,6 @@ pc_factory
 >
 GetRtpSenderCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -15720,9 +15636,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -15887,9 +15800,6 @@ local_pc_wrapper
 >
 FindFirstSendCodecWithName
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -15923,9 +15833,6 @@ pc_factory
 >
 GetRtpSenderCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -16000,9 +15907,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -16336,9 +16240,6 @@ local_pc_wrapper
 >
 FindFirstSendCodecWithName
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -16372,9 +16273,6 @@ pc_factory
 >
 GetRtpSenderCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -16479,9 +16377,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -16657,9 +16552,6 @@ pc_factory
 >
 GetRtpSenderCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -16682,9 +16574,6 @@ local_pc_wrapper
 >
 FindFirstSendCodecWithName
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -16713,9 +16602,6 @@ local_pc_wrapper
 >
 FindFirstSendCodecWithName
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -16773,9 +16659,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -17051,9 +16934,6 @@ local_pc_wrapper
 >
 FindFirstSendCodecWithName
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -17119,9 +16999,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -17254,9 +17131,6 @@ local_pc_wrapper
 >
 FindFirstSendCodecWithName
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -17290,9 +17164,6 @@ pc_factory
 >
 GetRtpSenderCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -17434,9 +17305,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -17664,9 +17532,6 @@ local_pc_wrapper
 >
 FindFirstSendCodecWithName
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -17695,9 +17560,6 @@ local_pc_wrapper
 >
 FindFirstSendCodecWithName
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -17798,9 +17660,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -17918,9 +17777,6 @@ local_pc_wrapper
 >
 FindFirstSendCodecWithName
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -17949,9 +17805,6 @@ local_pc_wrapper
 >
 FindFirstSendCodecWithName
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -18052,9 +17905,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -18170,9 +18020,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -18270,9 +18117,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -18404,9 +18248,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -25262,9 +25103,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -25843,9 +25681,6 @@ pc_factory
 >
 GetRtpSenderCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -26190,9 +26025,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -26256,9 +26088,6 @@ pc_factory
 >
 GetRtpSenderCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -26333,9 +26162,6 @@ pc_factory
 >
 GetRtpReceiverCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :

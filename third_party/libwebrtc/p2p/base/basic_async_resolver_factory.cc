@@ -149,9 +149,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 AsyncDnsResolverInterface
 >
 BasicAsyncDnsResolverFactory
@@ -178,9 +175,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 AsyncDnsResolverInterface
 >
 BasicAsyncDnsResolverFactory
@@ -209,9 +203,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 AsyncDnsResolverInterface
 >
 resolver
@@ -244,9 +235,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 AsyncDnsResolverInterface
 >
 BasicAsyncDnsResolverFactory
@@ -277,9 +265,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 AsyncDnsResolverInterface
 >
 resolver

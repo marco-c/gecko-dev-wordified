@@ -1542,9 +1542,6 @@ const
 SessionDescriptionInterface
 *
 sdesc
-webrtc
-:
-:
 MediaType
 media_type
 )
@@ -2678,9 +2675,6 @@ offer
 description
 (
 )
-webrtc
-:
-:
 MediaType
 :
 :
@@ -2806,9 +2800,6 @@ size
 ;
 EXPECT_EQ
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -2966,9 +2957,6 @@ answer
 description
 (
 )
-webrtc
-:
-:
 MediaType
 :
 :
@@ -3094,9 +3082,6 @@ size
 ;
 EXPECT_EQ
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -5168,9 +5153,6 @@ offer
 description
 (
 )
-webrtc
-:
-:
 MediaType
 :
 :
@@ -5817,9 +5799,6 @@ answer
 get
 (
 )
-webrtc
-:
-:
 MediaType
 :
 :
@@ -6215,9 +6194,6 @@ offer
 get
 (
 )
-webrtc
-:
-:
 MediaType
 :
 :
@@ -6238,9 +6214,6 @@ offer
 get
 (
 )
-webrtc
-:
-:
 MediaType
 :
 :
@@ -6361,9 +6334,6 @@ answer
 get
 (
 )
-webrtc
-:
-:
 MediaType
 :
 :
@@ -6384,9 +6354,6 @@ answer
 get
 (
 )
-webrtc
-:
-:
 MediaType
 :
 :
@@ -7093,9 +7060,6 @@ function
 <
 void
 (
-webrtc
-:
-:
 SessionDescription
 *
 )
@@ -7180,9 +7144,6 @@ function
 <
 void
 (
-webrtc
-:
-:
 SessionDescription
 *
 )
@@ -8084,9 +8045,6 @@ RenameContent
 SessionDescription
 *
 desc
-webrtc
-:
-:
 MediaType
 media_type
 const
@@ -8288,9 +8246,6 @@ offer
 description
 (
 )
-webrtc
-:
-:
 MediaType
 :
 :
@@ -8306,9 +8261,6 @@ offer
 description
 (
 )
-webrtc
-:
-:
 MediaType
 :
 :
@@ -8466,9 +8418,6 @@ offer
 description
 (
 )
-webrtc
-:
-:
 MediaType
 :
 :
@@ -8484,9 +8433,6 @@ offer
 description
 (
 )
-webrtc
-:
-:
 MediaType
 :
 :
@@ -8637,9 +8583,6 @@ offer
 description
 (
 )
-webrtc
-:
-:
 MediaType
 :
 :
@@ -8657,9 +8600,6 @@ offer
 description
 (
 )
-webrtc
-:
-:
 MediaType
 :
 :
@@ -11293,9 +11233,6 @@ pc_factory
 >
 GetRtpSenderCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -11450,9 +11387,6 @@ pc_factory
 >
 GetRtpSenderCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -11474,9 +11408,6 @@ pc_factory
 >
 GetRtpSenderCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -11688,9 +11619,6 @@ pc_factory
 >
 GetRtpSenderCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -11837,9 +11765,6 @@ pc_factory
 >
 GetRtpSenderCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -11964,9 +11889,6 @@ pc_factory
 >
 GetRtpSenderCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -12120,9 +12042,6 @@ pc_factory
 >
 GetRtpSenderCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -12144,9 +12063,6 @@ pc_factory
 >
 GetRtpSenderCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -12351,9 +12267,6 @@ pc_factory
 >
 GetRtpSenderCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -12487,9 +12400,6 @@ pc_factory
 >
 GetRtpSenderCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -12614,9 +12524,6 @@ pc_factory
 >
 GetRtpSenderCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -12755,9 +12662,6 @@ pc_factory
 >
 GetRtpSenderCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -13059,9 +12963,6 @@ pc_factory
 >
 GetRtpSenderCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -13455,9 +13356,6 @@ pc_factory
 >
 GetRtpSenderCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -14001,9 +13899,6 @@ pc_factory
 >
 GetRtpSenderCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -14385,9 +14280,6 @@ pc_factory
 >
 GetRtpSenderCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -14664,9 +14556,6 @@ pc_factory
 >
 GetRtpSenderCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -14720,9 +14609,6 @@ pc_factory
 >
 GetRtpSenderCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -15035,9 +14921,6 @@ pc_factory
 >
 GetRtpSenderCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -15091,9 +14974,6 @@ pc_factory
 >
 GetRtpSenderCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -15418,9 +15298,6 @@ pc_factory
 >
 GetRtpSenderCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -15474,9 +15351,6 @@ pc_factory
 >
 GetRtpSenderCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -15736,9 +15610,6 @@ pc_factory
 >
 GetRtpReceiverCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -15994,9 +15865,6 @@ pc_factory
 >
 GetRtpSenderCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :

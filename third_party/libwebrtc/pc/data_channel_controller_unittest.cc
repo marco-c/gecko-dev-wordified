@@ -427,9 +427,6 @@ SendDataParams
 &
 params
 const
-webrtc
-:
-:
 CopyOnWriteBuffer
 &
 buffer

@@ -409,9 +409,6 @@ buf
 )
 )
 =
-webrtc
-:
-:
 HostToNetwork16
 (
 remote_addr
@@ -613,9 +610,6 @@ buf
 uint16_t
 port
 =
-webrtc
-:
-:
 NetworkToHost16
 (
 *
@@ -941,9 +935,6 @@ BindInternal
 (
 SocketAddress
 (
-webrtc
-:
-:
 GetAnyIP
 (
 family_

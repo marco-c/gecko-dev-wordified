@@ -3224,9 +3224,6 @@ and
 audio
 contents
 .
-webrtc
-:
-:
 MediaType
 media_type
 =
@@ -3242,9 +3239,6 @@ if
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -3281,9 +3275,6 @@ if
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -3453,9 +3444,6 @@ return
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -3544,9 +3532,6 @@ return
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -3585,9 +3570,6 @@ return
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :

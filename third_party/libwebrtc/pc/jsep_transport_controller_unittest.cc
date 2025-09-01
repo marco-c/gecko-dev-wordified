@@ -2721,9 +2721,6 @@ DtlsTransportInternal
 >
 changed_dtls_transport_by_mid_
 ;
-webrtc
-:
-:
 PayloadTypePicker
 payload_type_picker_
 ;
@@ -3924,9 +3921,6 @@ gathering_state_
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -4987,9 +4981,6 @@ connection_state_
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -5038,9 +5029,6 @@ ice_connection_state_
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -5092,9 +5080,6 @@ combined_connection_state_
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -5351,9 +5336,6 @@ connection_state_
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -5402,9 +5384,6 @@ ice_connection_state_
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -5456,9 +5435,6 @@ combined_connection_state_
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -5573,9 +5549,6 @@ connection_state_
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -5624,9 +5597,6 @@ ice_connection_state_
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -5678,9 +5648,6 @@ combined_connection_state_
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -5896,9 +5863,6 @@ ice_connection_state_
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -5950,9 +5914,6 @@ combined_connection_state_
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -6030,9 +5991,6 @@ connection_state_
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -6081,9 +6039,6 @@ ice_connection_state_
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -6135,9 +6090,6 @@ combined_connection_state_
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -6259,9 +6211,6 @@ connection_state_
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -6310,9 +6259,6 @@ ice_connection_state_
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -6364,9 +6310,6 @@ combined_connection_state_
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -6506,9 +6449,6 @@ gathering_state_
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -6650,9 +6590,6 @@ gathering_state_
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -6753,9 +6690,6 @@ gathering_state_
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -6813,9 +6747,6 @@ gathering_state_
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -7009,9 +6940,6 @@ WaitUntil
 ]
 {
 return
-webrtc
-:
-:
 kIceGatheringGathering
 ;
 }
@@ -7028,9 +6956,6 @@ gathering_state_
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -7219,9 +7144,6 @@ connection_state_
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -7282,9 +7204,6 @@ gathering_state_
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -7533,9 +7452,6 @@ ice_connection_state_
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -7587,9 +7503,6 @@ combined_connection_state_
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -7635,9 +7548,6 @@ gathering_state_
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -7749,9 +7659,6 @@ ice_connection_state_
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -7803,9 +7710,6 @@ combined_connection_state_
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -7851,9 +7755,6 @@ gathering_state_
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -7936,9 +7837,6 @@ ice_connection_state_
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -7990,9 +7888,6 @@ combined_connection_state_
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -8038,9 +7933,6 @@ gathering_state_
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -8182,9 +8074,6 @@ candidates_signal_count_
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -8303,9 +8192,6 @@ connection_state_
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -8362,9 +8248,6 @@ gathering_state_
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -8417,9 +8300,6 @@ Eq
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -8466,9 +8346,6 @@ Eq
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :

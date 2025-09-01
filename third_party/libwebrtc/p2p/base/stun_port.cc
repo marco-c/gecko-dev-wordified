@@ -663,9 +663,6 @@ if
 (
 WithinLifetime
 (
-webrtc
-:
-:
 TimeMillis
 (
 )
@@ -836,9 +833,6 @@ attribute
 int64_t
 now
 =
-webrtc
-:
-:
 TimeMillis
 (
 )
@@ -851,9 +845,6 @@ now
 )
 &
 &
-webrtc
-:
-:
 TimeDiff
 (
 now
@@ -1009,9 +1000,6 @@ lifetime
 0
 |
 |
-webrtc
-:
-:
 TimeDiff
 (
 now
@@ -1394,9 +1382,6 @@ STUN_KEEPALIVE_INTERVAL
 )
 dscp_
 (
-webrtc
-:
-:
 DSCP_NO_CHANGE
 )
 emit_local_for_anyaddress_
@@ -1478,9 +1463,6 @@ STUN_KEEPALIVE_INTERVAL
 )
 dscp_
 (
-webrtc
-:
-:
 DSCP_NO_CHANGE
 )
 emit_local_for_anyaddress_
@@ -2439,9 +2421,6 @@ return
 protocol
 =
 =
-webrtc
-:
-:
 UDP_PROTOCOL_NAME
 ;
 }
@@ -2455,9 +2434,6 @@ GetProtocol
 const
 {
 return
-webrtc
-:
-:
 PROTO_UDP
 ;
 }
@@ -2621,9 +2597,6 @@ addr
 SocketAddress
 (
 )
-webrtc
-:
-:
 UDP_PROTOCOL_NAME
 "
 "
@@ -2847,9 +2820,6 @@ Port
 OnReadPacket
 (
 packet
-webrtc
-:
-:
 PROTO_UDP
 )
 ;
@@ -3366,9 +3336,6 @@ StunBindingRequest
 (
 this
 stun_addr
-webrtc
-:
-:
 TimeMillis
 (
 )
@@ -3771,9 +3738,6 @@ related_address
 {
 related_address
 =
-webrtc
-:
-:
 EmptySocketAddressWithFamily
 (
 related_address
@@ -3824,9 +3788,6 @@ GetLocalAddress
 (
 )
 related_address
-webrtc
-:
-:
 UDP_PROTOCOL_NAME
 "
 "

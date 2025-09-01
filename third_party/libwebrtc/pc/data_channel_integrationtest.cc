@@ -2720,9 +2720,6 @@ state
 }
 Eq
 (
-webrtc
-:
-:
 DataChannelInterface
 :
 :
@@ -2760,9 +2757,6 @@ state
 }
 Eq
 (
-webrtc
-:
-:
 DataChannelInterface
 :
 :
@@ -3069,9 +3063,6 @@ queued_size
 ;
 queued_size
 <
-webrtc
-:
-:
 DataChannelInterface
 :
 :

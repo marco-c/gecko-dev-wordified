@@ -940,9 +940,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -1043,9 +1040,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -7841,9 +7835,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :

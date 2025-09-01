@@ -1978,9 +1978,6 @@ uint32_t
 buf
 )
 =
-webrtc
-:
-:
 HostToNetwork32
 (
 val
@@ -2008,9 +2005,6 @@ uint16_t
 buf
 )
 =
-webrtc
-:
-:
 HostToNetwork16
 (
 val
@@ -2028,9 +2022,6 @@ buf
 )
 {
 return
-webrtc
-:
-:
 NetworkToHost32
 (
 *
@@ -2057,9 +2048,6 @@ buf
 )
 {
 return
-webrtc
-:
-:
 NetworkToHost16
 (
 *
@@ -2620,9 +2608,6 @@ StartTime
 #
 else
 return
-webrtc
-:
-:
 Time32
 (
 )
@@ -2960,9 +2945,6 @@ m_rto_base
 &
 &
 (
-webrtc
-:
-:
 TimeDiff32
 (
 m_rto_base
@@ -3241,9 +3223,6 @@ m_snd_wnd
 &
 &
 (
-webrtc
-:
-:
 TimeDiff32
 (
 m_lastsend
@@ -3259,9 +3238,6 @@ now
 {
 if
 (
-webrtc
-:
-:
 TimeDiff32
 (
 now
@@ -3337,9 +3313,6 @@ m_t_ack
 &
 &
 (
-webrtc
-:
-:
 TimeDiff32
 (
 m_t_ack
@@ -5177,9 +5150,6 @@ int32_t
 >
 (
 nTimeout
-webrtc
-:
-:
 TimeDiff32
 (
 m_t_ack
@@ -5206,9 +5176,6 @@ int32_t
 >
 (
 nTimeout
-webrtc
-:
-:
 TimeDiff32
 (
 m_rto_base
@@ -5238,9 +5205,6 @@ int32_t
 >
 (
 nTimeout
-webrtc
-:
-:
 TimeDiff32
 (
 m_lastsend
@@ -5767,9 +5731,6 @@ tsecr
 int32_t
 rtt
 =
-webrtc
-:
-:
 TimeDiff32
 (
 now
@@ -5860,16 +5821,10 @@ rtt
 }
 m_rx_rto
 =
-webrtc
-:
-:
 SafeClamp
 (
 m_rx_srtt
 +
-webrtc
-:
-:
 SafeMax
 (
 1
@@ -8257,9 +8212,6 @@ Now
 ;
 if
 (
-webrtc
-:
-:
 TimeDiff32
 (
 now

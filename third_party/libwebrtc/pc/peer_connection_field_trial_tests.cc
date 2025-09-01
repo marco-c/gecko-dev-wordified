@@ -742,9 +742,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -802,9 +799,6 @@ media_description
 ;
 EXPECT_EQ
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -977,9 +971,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -1037,9 +1028,6 @@ media_description
 ;
 EXPECT_EQ
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -1310,9 +1298,6 @@ media_description
 ;
 EXPECT_EQ
 (
-webrtc
-:
-:
 MediaType
 :
 :

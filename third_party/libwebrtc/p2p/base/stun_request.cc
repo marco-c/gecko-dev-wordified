@@ -258,14 +258,6 @@ TimeMillis
 namespace
 webrtc
 {
-using
-:
-:
-webrtc
-:
-:
-SafeTask
-;
 /
 /
 RFC
@@ -450,9 +442,6 @@ const
 void
 *
 size_t
-webrtc
-:
-:
 StunRequest
 *
 )
@@ -1868,9 +1857,6 @@ response
 "
 <
 <
-webrtc
-:
-:
 hex_encode
 (
 id
@@ -2142,9 +2128,6 @@ static_cast
 int
 >
 (
-webrtc
-:
-:
 TimeMillis
 (
 )
@@ -2189,9 +2172,6 @@ return
 }
 tstamp_
 =
-webrtc
-:
-:
 TimeMillis
 (
 )

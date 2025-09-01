@@ -826,9 +826,6 @@ const
 Environment
 &
 env
-webrtc
-:
-:
 test
 :
 :
@@ -1105,9 +1102,6 @@ turn_servers
 {
 }
 0
-webrtc
-:
-:
 NO_PRUNE
 )
 )
@@ -1418,9 +1412,6 @@ signaling_thread_
 ;
 remote_description_
 =
-webrtc
-:
-:
 CreateSessionDescription
 (
 type
@@ -1631,9 +1622,6 @@ signaling_thread_
 ;
 local_description_
 =
-webrtc
-:
-:
 CreateSessionDescription
 (
 type

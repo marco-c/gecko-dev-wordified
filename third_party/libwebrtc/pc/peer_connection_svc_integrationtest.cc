@@ -311,9 +311,6 @@ pc_factory
 >
 GetRtpReceiverCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -647,9 +644,6 @@ pc_factory
 >
 GetRtpReceiverCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -1719,9 +1713,6 @@ pc_factory
 >
 GetRtpReceiverCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :

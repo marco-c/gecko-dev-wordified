@@ -1064,9 +1064,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -1078,9 +1075,6 @@ caller
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :

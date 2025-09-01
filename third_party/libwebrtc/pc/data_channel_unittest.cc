@@ -5610,9 +5610,6 @@ SendDefaultImplDchecks
 auto
 channel
 =
-webrtc
-:
-:
 make_ref_counted
 <
 NoImplDataChannel
@@ -5652,9 +5649,6 @@ SendAsyncDefaultImplDchecks
 auto
 channel
 =
-webrtc
-:
-:
 make_ref_counted
 <
 NoImplDataChannel

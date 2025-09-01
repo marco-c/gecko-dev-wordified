@@ -405,14 +405,6 @@ webrtc
 {
 namespace
 {
-using
-:
-:
-webrtc
-:
-:
-TimeDelta
-;
 /
 /
 TODO
@@ -1297,9 +1289,6 @@ socket
 uint16_t
 msg_type
 =
-webrtc
-:
-:
 GetBE16
 (
 packet
@@ -3449,9 +3438,6 @@ iter
 second
 !
 =
-webrtc
-:
-:
 PROTO_UDP
 )
 {
@@ -4754,9 +4740,6 @@ server_
 reject_private_addresses_
 &
 &
-webrtc
-:
-:
 IPIsPrivate
 (
 peer_attr
@@ -5291,9 +5274,6 @@ data
 uint16_t
 channel_id
 =
-webrtc
-:
-:
 GetBE16
 (
 payload

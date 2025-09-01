@@ -3787,9 +3787,6 @@ if
 type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -3799,9 +3796,6 @@ AUDIO
 type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -4761,9 +4755,6 @@ if
 type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -4773,9 +4764,6 @@ AUDIO
 type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -5764,9 +5752,6 @@ absl
 string_view
 GetDefaultMidForPlanB
 (
-webrtc
-:
-:
 MediaType
 media_type
 )
@@ -5777,9 +5762,6 @@ media_type
 )
 {
 case
-webrtc
-:
-:
 MediaType
 :
 :
@@ -5789,9 +5771,6 @@ return
 CN_AUDIO
 ;
 case
-webrtc
-:
-:
 MediaType
 :
 :
@@ -5801,9 +5780,6 @@ return
 CN_VIDEO
 ;
 case
-webrtc
-:
-:
 MediaType
 :
 :
@@ -5813,9 +5789,6 @@ return
 CN_DATA
 ;
 case
-webrtc
-:
-:
 MediaType
 :
 :
@@ -5912,9 +5885,6 @@ media_type
 )
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -5964,9 +5934,6 @@ media_type
 )
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -10498,9 +10465,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 VideoBitrateAllocatorFactory
 >
 video_bitrate_allocator_factory
@@ -10582,9 +10546,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 VideoBitrateAllocatorFactory
 >
 video_bitrate_allocator_factory
@@ -14338,9 +14299,6 @@ rejected
 {
 RemoveSenders
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -14412,9 +14370,6 @@ rejected
 {
 RemoveSenders
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -17464,9 +17419,6 @@ rejected
 {
 RemoveSenders
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -17547,9 +17499,6 @@ rejected
 {
 RemoveSenders
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -28533,9 +28482,6 @@ type
 )
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -28549,9 +28495,6 @@ type
 )
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -28893,9 +28836,6 @@ new_contents
 i
 ]
 ;
-webrtc
-:
-:
 MediaType
 media_type
 =
@@ -28961,9 +28901,6 @@ if
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -28973,9 +28910,6 @@ AUDIO
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -29548,9 +29482,6 @@ if
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -29654,9 +29585,6 @@ if
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -30151,9 +30079,6 @@ Adding
 "
 <
 <
-webrtc
-:
-:
 MediaTypeToString
 (
 media_desc
@@ -31752,9 +31677,6 @@ SdpOfferAnswerHandler
 :
 FindAvailableTransceiverToReceive
 (
-webrtc
-:
-:
 MediaType
 media_type
 )
@@ -32669,9 +32591,6 @@ offer_new_audio_description
 MediaDescriptionOptions
 options
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -32738,9 +32657,6 @@ offer_new_video_description
 MediaDescriptionOptions
 options
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -33244,9 +33160,6 @@ mid
 )
 )
 ;
-webrtc
-:
-:
 MediaType
 media_type
 =
@@ -33283,9 +33196,6 @@ if
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -33295,9 +33205,6 @@ AUDIO
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -33602,9 +33509,6 @@ if
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -33649,9 +33553,6 @@ else
 {
 RTC_CHECK_EQ
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -34124,9 +34025,6 @@ media_description
 type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -34775,9 +34673,6 @@ contents
 )
 )
 {
-webrtc
-:
-:
 MediaType
 media_type
 =
@@ -34797,9 +34692,6 @@ if
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -34809,9 +34701,6 @@ AUDIO
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -34927,9 +34816,6 @@ if
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -34977,9 +34863,6 @@ else
 {
 RTC_CHECK_EQ
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -35308,9 +35191,6 @@ offer_to_receive_audio
 {
 RemoveRecvDirectionFromReceivingTransceiversOfType
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -35331,9 +35211,6 @@ offer_to_receive_audio
 {
 AddUpToOneReceivingTransceiverOfType
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -35381,9 +35258,6 @@ offer_to_receive_video
 {
 RemoveRecvDirectionFromReceivingTransceiversOfType
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -35404,9 +35278,6 @@ offer_to_receive_video
 {
 AddUpToOneReceivingTransceiverOfType
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -35457,9 +35328,6 @@ SdpOfferAnswerHandler
 :
 RemoveRecvDirectionFromReceivingTransceiversOfType
 (
-webrtc
-:
-:
 MediaType
 media_type
 )
@@ -35515,9 +35383,6 @@ Changing
 "
 <
 <
-webrtc
-:
-:
 MediaTypeToString
 (
 media_type
@@ -35609,9 +35474,6 @@ SdpOfferAnswerHandler
 :
 AddUpToOneReceivingTransceiverOfType
 (
-webrtc
-:
-:
 MediaType
 media_type
 )
@@ -35648,9 +35510,6 @@ recvonly
 "
 <
 <
-webrtc
-:
-:
 MediaTypeToString
 (
 media_type
@@ -35716,9 +35575,6 @@ SdpOfferAnswerHandler
 :
 GetReceivingTransceiversOfType
 (
-webrtc
-:
-:
 MediaType
 media_type
 )
@@ -36106,9 +35962,6 @@ SdpOfferAnswerHandler
 :
 RemoveSenders
 (
-webrtc
-:
-:
 MediaType
 media_type
 )
@@ -36167,9 +36020,6 @@ StreamParams
 >
 &
 streams
-webrtc
-:
-:
 MediaType
 media_type
 )
@@ -36495,9 +36345,6 @@ StreamParamsVec
 streams
 bool
 default_sender_needed
-webrtc
-:
-:
 MediaType
 media_type
 StreamCollection
@@ -37190,9 +37037,6 @@ default_sender_id
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -40834,9 +40678,6 @@ media_type
 )
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -40877,9 +40718,6 @@ media_type
 )
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -41014,9 +40852,6 @@ push_back
 (
 MediaDescriptionOptions
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -41065,9 +40900,6 @@ push_back
 (
 MediaDescriptionOptions
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -41163,9 +40995,6 @@ push_back
 (
 MediaDescriptionOptions
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -41214,9 +41043,6 @@ push_back
 (
 MediaDescriptionOptions
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -41290,9 +41116,6 @@ push_back
 (
 MediaDescriptionOptions
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -41448,9 +41271,6 @@ sendrecv
 MediaDescriptionOptions
 options
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -41499,9 +41319,6 @@ signaling_thread
 MediaDescriptionOptions
 options
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -41987,9 +41804,6 @@ continue
 ;
 }
 const
-webrtc
-:
-:
 MediaType
 media_type
 =
@@ -42009,9 +41823,6 @@ if
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -42021,9 +41832,6 @@ AUDIO
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -42035,9 +41843,6 @@ if
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -42067,9 +41872,6 @@ if
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -42124,9 +41926,6 @@ if
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -42176,9 +41975,6 @@ if
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -42213,9 +42009,6 @@ if
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -42604,9 +42397,6 @@ continue
 ;
 }
 const
-webrtc
-:
-:
 MediaType
 media_type
 =
@@ -42622,9 +42412,6 @@ if
 media_type
 !
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -42634,9 +42421,6 @@ AUDIO
 media_type
 !
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -42726,9 +42510,6 @@ if
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -42770,9 +42551,6 @@ else
 RTC_DCHECK_EQ
 (
 media_type
-webrtc
-:
-:
 MediaType
 :
 :

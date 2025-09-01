@@ -345,9 +345,6 @@ measure
 struct
 MapTableEntry
 {
-webrtc
-:
-:
 SdpAudioFormat
 format
 ;

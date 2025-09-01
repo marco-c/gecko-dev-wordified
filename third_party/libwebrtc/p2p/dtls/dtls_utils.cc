@@ -439,9 +439,6 @@ dtls_packet
 )
 {
 return
-webrtc
-:
-:
 ComputeCrc32
 (
 dtls_packet
@@ -522,9 +519,6 @@ std
 :
 make_unique
 <
-webrtc
-:
-:
 Buffer
 >
 (
@@ -580,9 +574,6 @@ std
 :
 make_unique
 <
-webrtc
-:
-:
 Buffer
 >
 (

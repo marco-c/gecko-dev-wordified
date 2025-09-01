@@ -195,9 +195,6 @@ function
 <
 void
 (
-webrtc
-:
-:
 TestStunServer
 *
 )
@@ -323,9 +320,6 @@ function
 <
 void
 (
-webrtc
-:
-:
 TestStunServer
 *
 )

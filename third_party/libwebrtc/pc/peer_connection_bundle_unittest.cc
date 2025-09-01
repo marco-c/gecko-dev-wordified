@@ -865,9 +865,6 @@ AddIceCandidateToMedia
 Candidate
 *
 candidate
-webrtc
-:
-:
 MediaType
 media_type
 )
@@ -1068,9 +1065,6 @@ media_type
 )
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -1166,9 +1160,6 @@ media_type
 )
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -4683,9 +4674,6 @@ AddIceCandidateToMedia
 (
 &
 audio_candidate1
-webrtc
-:
-:
 MediaType
 :
 :
@@ -4710,9 +4698,6 @@ AddIceCandidateToMedia
 (
 &
 video_candidate
-webrtc
-:
-:
 MediaType
 :
 :
@@ -4737,9 +4722,6 @@ AddIceCandidateToMedia
 (
 &
 audio_candidate2
-webrtc
-:
-:
 MediaType
 :
 :

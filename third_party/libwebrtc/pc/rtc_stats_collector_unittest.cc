@@ -2351,9 +2351,6 @@ MediaStreamTrackInterface
 >
 CreateFakeTrack
 (
-webrtc
-:
-:
 MediaType
 media_type
 const
@@ -2379,9 +2376,6 @@ if
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -2405,9 +2399,6 @@ else
 RTC_DCHECK_EQ
 (
 media_type
-webrtc
-:
-:
 MediaType
 :
 :
@@ -2433,9 +2424,6 @@ MockRtpSenderInternal
 >
 CreateMockSender
 (
-webrtc
-:
-:
 MediaType
 media_type
 scoped_refptr
@@ -2484,9 +2472,6 @@ kAudioKind
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -2512,9 +2497,6 @@ kVideoKind
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -2846,16 +2828,10 @@ MediaStreamTrackInterface
 :
 kAudioKind
 ?
-webrtc
-:
-:
 MediaType
 :
 :
 AUDIO
-:
-webrtc
-:
 :
 MediaType
 :
@@ -3158,9 +3134,6 @@ MockRtpSenderInternal
 >
 SetupLocalTrackAndSender
 (
-webrtc
-:
-:
 MediaType
 media_type
 const
@@ -3226,9 +3199,6 @@ if
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -3388,9 +3358,6 @@ MockRtpReceiverInternal
 >
 SetupRemoteTrackAndReceiver
 (
-webrtc
-:
-:
 MediaType
 media_type
 const
@@ -3449,9 +3416,6 @@ if
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -3864,9 +3828,6 @@ rtp_sender
 =
 CreateMockSender
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -4155,9 +4116,6 @@ rtp_sender
 =
 CreateMockSender
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -4448,9 +4406,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -5308,9 +5263,6 @@ stats_
 >
 SetupLocalTrackAndSender
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -5340,9 +5292,6 @@ stats_
 >
 SetupRemoteTrackAndReceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -6174,9 +6123,6 @@ stats_
 >
 SetupLocalTrackAndSender
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -6206,9 +6152,6 @@ stats_
 >
 SetupRemoteTrackAndReceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -6762,9 +6705,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -6882,9 +6822,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -6926,9 +6863,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -6970,9 +6904,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -7304,9 +7235,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -7348,9 +7276,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -7392,9 +7317,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -8490,9 +8412,6 @@ inbound_audio_codec
 .
 kind
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -8572,9 +8491,6 @@ outbound_audio_codec
 .
 kind
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -8637,9 +8553,6 @@ inbound_video_codec
 .
 kind
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -8731,9 +8644,6 @@ outbound_video_codec
 .
 kind
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -9561,9 +9471,6 @@ outbound_codec_pt10
 .
 kind
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -9601,9 +9508,6 @@ outbound_codec_pt11
 .
 kind
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -10075,9 +9979,6 @@ inbound_codec_pt111_nofec
 .
 kind
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -10138,9 +10039,6 @@ inbound_codec_pt111_fec
 .
 kind
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -10580,9 +10478,6 @@ inbound_codec_pt112_fec
 .
 kind
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -17763,9 +17658,6 @@ codec_parameters
 .
 kind
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -17825,9 +17717,6 @@ stats_
 >
 SetupRemoteTrackAndReceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -18436,9 +18325,6 @@ stats_
 >
 SetupRemoteTrackAndReceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -19315,9 +19201,6 @@ codec_parameters
 .
 kind
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -19377,9 +19260,6 @@ stats_
 >
 SetupRemoteTrackAndReceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -20138,9 +20018,6 @@ stats_
 >
 SetupRemoteTrackAndReceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -20452,9 +20329,6 @@ stats_
 >
 SetupRemoteTrackAndReceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -20739,9 +20613,6 @@ codec_parameters
 .
 kind
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -20798,9 +20669,6 @@ stats_
 >
 SetupLocalTrackAndSender
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -21521,9 +21389,6 @@ codec_parameters
 .
 kind
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -21661,9 +21526,6 @@ stats_
 >
 SetupLocalTrackAndSender
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -24146,9 +24008,6 @@ codec_parameters
 .
 kind
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -24218,9 +24077,6 @@ stats_
 >
 SetupLocalTrackAndSender
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -24587,9 +24443,6 @@ stats_
 >
 SetupLocalTrackAndSender
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -24940,9 +24793,6 @@ sender
 =
 CreateMockSender
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -25318,9 +25168,6 @@ sender
 =
 CreateMockSender
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -25599,9 +25446,6 @@ sender
 =
 CreateMockSender
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -25807,9 +25651,6 @@ sender
 =
 CreateMockSender
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -25920,9 +25761,6 @@ testing
 :
 WithParamInterface
 <
-webrtc
-:
-:
 MediaType
 >
 {
@@ -25944,9 +25782,6 @@ RTC_DCHECK
 media_type_
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -25956,9 +25791,6 @@ AUDIO
 media_type_
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -25981,9 +25813,6 @@ media_type_
 )
 {
 case
-webrtc
-:
-:
 MediaType
 :
 :
@@ -25995,9 +25824,6 @@ A
 "
 ;
 case
-webrtc
-:
-:
 MediaType
 :
 :
@@ -26036,9 +25862,6 @@ media_type_
 )
 {
 case
-webrtc
-:
-:
 MediaType
 :
 :
@@ -26050,9 +25873,6 @@ audio
 "
 ;
 case
-webrtc
-:
-:
 MediaType
 :
 :
@@ -26138,9 +25958,6 @@ media_type_
 )
 {
 case
-webrtc
-:
-:
 MediaType
 :
 :
@@ -26263,9 +26080,6 @@ return
 ;
 }
 case
-webrtc
-:
-:
 MediaType
 :
 :
@@ -26397,9 +26211,6 @@ return
 ;
 }
 case
-webrtc
-:
-:
 MediaType
 :
 :
@@ -26414,9 +26225,6 @@ RTC_DCHECK_NOTREACHED
 }
 }
 protected
-:
-webrtc
-:
 :
 MediaType
 media_type_
@@ -27997,9 +27805,6 @@ testing
 :
 Values
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -28010,9 +27815,6 @@ AUDIO
 /
 0
 "
-webrtc
-:
-:
 MediaType
 :
 :
@@ -28408,9 +28210,6 @@ sender
 =
 CreateMockSender
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -28566,9 +28365,6 @@ local_audio_track
 =
 CreateFakeTrack
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -29365,9 +29161,6 @@ track
 =
 CreateFakeTrack
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -29389,9 +29182,6 @@ sender
 =
 CreateMockSender
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -29505,9 +29295,6 @@ track
 =
 CreateFakeTrack
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -29529,9 +29316,6 @@ sender
 =
 CreateMockSender
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -29825,9 +29609,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -29871,9 +29652,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -30202,9 +29980,6 @@ IsTrue
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :

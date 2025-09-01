@@ -1087,9 +1087,6 @@ std
 string
 &
 transport_id
-webrtc
-:
-:
 MediaType
 media_type
 uint32_t
@@ -1123,9 +1120,6 @@ transport_id
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -1164,9 +1158,6 @@ std
 string
 &
 transport_id
-webrtc
-:
-:
 MediaType
 media_type
 uint32_t
@@ -1200,9 +1191,6 @@ transport_id
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -1234,9 +1222,6 @@ std
 string
 RTCRemoteInboundRtpStreamStatsIdFromSourceSsrc
 (
-webrtc
-:
-:
 MediaType
 media_type
 uint32_t
@@ -1267,9 +1252,6 @@ RI
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -1301,9 +1283,6 @@ std
 string
 RTCRemoteOutboundRTPStreamStatsIDFromSSRC
 (
-webrtc
-:
-:
 MediaType
 media_type
 uint32_t
@@ -1334,9 +1313,6 @@ RO
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -1368,9 +1344,6 @@ std
 string
 RTCMediaSourceStatsIDFromKindAndAttachment
 (
-webrtc
-:
-:
 MediaType
 media_type
 int
@@ -1401,9 +1374,6 @@ S
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -2834,9 +2804,6 @@ id
 RTCInboundRtpStreamStatsIDFromSSRC
 (
 transport_id
-webrtc
-:
-:
 MediaType
 :
 :
@@ -3352,9 +3319,6 @@ std
 string
 &
 mid
-webrtc
-:
-:
 MediaType
 media_type
 const
@@ -3504,9 +3468,6 @@ stats
 >
 kind
 =
-webrtc
-:
-:
 MediaTypeToString
 (
 media_type
@@ -3738,9 +3699,6 @@ RTCInboundRtpStreamStats
 RTCInboundRtpStreamStatsIDFromSSRC
 (
 transport_id
-webrtc
-:
-:
 MediaType
 :
 :
@@ -4764,9 +4722,6 @@ RTCOutboundRtpStreamStats
 RTCOutboundRtpStreamStatsIDFromSSRC
 (
 transport_id
-webrtc
-:
-:
 MediaType
 :
 :
@@ -4993,9 +4948,6 @@ RTCOutboundRtpStreamStats
 RTCOutboundRtpStreamStatsIDFromSSRC
 (
 transport_id
-webrtc
-:
-:
 MediaType
 :
 :
@@ -5616,9 +5568,6 @@ const
 ReportBlockData
 &
 report_block
-webrtc
-:
-:
 MediaType
 media_type
 const
@@ -5747,9 +5696,6 @@ kind
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -10841,9 +10787,6 @@ RTCAudioSourceStats
 (
 RTCMediaSourceStatsIDFromKindAndAttachment
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -11172,9 +11115,6 @@ RTCVideoSourceStats
 (
 RTCMediaSourceStatsIDFromKindAndAttachment
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -11627,9 +11567,6 @@ stats
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -11652,9 +11589,6 @@ stats
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -11916,9 +11850,6 @@ stats
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -12029,9 +11960,6 @@ CreateRemoteOutboundMediaStreamStats
 (
 voice_receiver_info
 mid
-webrtc
-:
-:
 MediaType
 :
 :
@@ -12261,9 +12189,6 @@ media_source_id
 =
 RTCMediaSourceStatsIDFromKindAndAttachment
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -12445,9 +12370,6 @@ ProduceRemoteInboundRtpStreamStatsFromReportBlockData
 (
 transport_id
 report_block_data
-webrtc
-:
-:
 MediaType
 :
 :
@@ -12705,9 +12627,6 @@ CreateRemoteOutboundMediaStreamStats
 (
 video_receiver_info
 mid
-webrtc
-:
-:
 MediaType
 :
 :
@@ -12936,9 +12855,6 @@ media_source_id
 =
 RTCMediaSourceStatsIDFromKindAndAttachment
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -13119,9 +13035,6 @@ ProduceRemoteInboundRtpStreamStatsFromReportBlockData
 (
 transport_id
 report_block_data
-webrtc
-:
-:
 MediaType
 :
 :
@@ -14241,9 +14154,6 @@ internal
 (
 )
 ;
-webrtc
-:
-:
 MediaType
 media_type
 =
@@ -14369,9 +14279,6 @@ if
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -14471,9 +14378,6 @@ if
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -14910,9 +14814,6 @@ if
 channel
 )
 {
-webrtc
-:
-:
 MediaType
 media_type
 =
@@ -14928,9 +14829,6 @@ if
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -14990,9 +14888,6 @@ if
 media_type
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -15173,9 +15068,6 @@ media_type
 )
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :

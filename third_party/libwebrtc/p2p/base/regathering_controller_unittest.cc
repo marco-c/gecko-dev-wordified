@@ -608,9 +608,6 @@ pool
 size
 *
 /
-webrtc
-:
-:
 NO_PRUNE
 )
 ;

@@ -760,9 +760,6 @@ const
 int64_t
 now
 =
-webrtc
-:
-:
 TimeMillis
 (
 )
@@ -878,9 +875,6 @@ num_pings_sent
 (
 )
 <
-webrtc
-:
-:
 MIN_PINGS_AT_WEAK_PING_INTERVAL
 ;
 }
@@ -915,9 +909,6 @@ nullptr
 ;
 if
 (
-webrtc
-:
-:
 TimeMillis
 (
 )
@@ -1014,9 +1005,6 @@ FindNextPingableConnection
 int64_t
 now
 =
-webrtc
-:
-:
 TimeMillis
 (
 )
@@ -1933,9 +1921,6 @@ num_pings_sent
 (
 )
 <
-webrtc
-:
-:
 MIN_PINGS_AT_WEAK_PING_INTERVAL
 )
 {
@@ -1963,9 +1948,6 @@ std
 min
 (
 stable_interval
-webrtc
-:
-:
 WEAK_OR_STABILIZING_WRITABLE_CONNECTION_PING_INTERVAL
 )
 ;
@@ -3178,9 +3160,6 @@ nullopt
 int64_t
 now
 =
-webrtc
-:
-:
 TimeMillis
 (
 )
@@ -3649,9 +3628,6 @@ int64_t
 >
 receiving_unchanged_threshold
 (
-webrtc
-:
-:
 TimeMillis
 (
 )
@@ -4049,9 +4025,6 @@ to
 "
 <
 <
-webrtc
-:
-:
 IceSwitchReasonToString
 (
 reason
@@ -5419,9 +5392,6 @@ ice_role_func_
 )
 =
 =
-webrtc
-:
-:
 ICEROLE_CONTROLLED
 )
 {
@@ -6047,9 +6017,6 @@ selected_connection_
 if
 (
 !
-webrtc
-:
-:
 IPIsAny
 (
 conn
@@ -6259,9 +6226,6 @@ if
 remote_ice_mode
 =
 =
-webrtc
-:
-:
 ICEMODE_LITE
 )
 {
@@ -6394,9 +6358,6 @@ if
 remote_ice_mode
 =
 =
-webrtc
-:
-:
 ICEMODE_LITE
 )
 {

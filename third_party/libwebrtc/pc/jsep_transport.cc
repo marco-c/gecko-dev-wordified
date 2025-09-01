@@ -4028,9 +4028,6 @@ if
 current_dtls_role
 =
 =
-webrtc
-:
-:
 SSL_CLIENT
 &
 &
@@ -4046,9 +4043,6 @@ CONNECTIONROLE_ACTIVE
 current_dtls_role
 =
 =
-webrtc
-:
-:
 SSL_SERVER
 &
 &
@@ -4156,13 +4150,7 @@ negotiated_dtls_role
 (
 is_remote_server
 ?
-webrtc
-:
-:
 SSL_CLIENT
-:
-webrtc
-:
 :
 SSL_SERVER
 )

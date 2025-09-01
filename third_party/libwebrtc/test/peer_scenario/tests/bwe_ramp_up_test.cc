@@ -432,9 +432,6 @@ stats_collector
 =
 make_ref_counted
 <
-webrtc
-:
-:
 MockRTCStatsCollectorCallback
 >
 (
@@ -1650,9 +1647,6 @@ KilobitsPerSec
 .
 network_capacity
 =
-webrtc
-:
-:
 DataRate
 :
 :
@@ -1663,9 +1657,6 @@ KilobitsPerSec
 .
 expected_bwe_min
 =
-webrtc
-:
-:
 DataRate
 :
 :
@@ -1691,9 +1682,6 @@ MOCK_METHOD
 void
 OnFirstPacketSent
 (
-webrtc
-:
-:
 MediaType
 )
 )
@@ -1813,9 +1801,6 @@ pc
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -2678,9 +2663,6 @@ the
 link
 capacity
 .
-webrtc
-:
-:
 TcpMessageRoute
 *
 tcp_route

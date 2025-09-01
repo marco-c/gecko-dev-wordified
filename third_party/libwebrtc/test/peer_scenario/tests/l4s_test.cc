@@ -625,9 +625,6 @@ stats_collector
 =
 make_ref_counted
 <
-webrtc
-:
-:
 MockRTCStatsCollectorCallback
 >
 (

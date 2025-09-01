@@ -629,16 +629,10 @@ Type
 :
 kAudio
 ?
-webrtc
-:
-:
 MediaType
 :
 :
 AUDIO
-:
-webrtc
-:
 :
 MediaType
 :
