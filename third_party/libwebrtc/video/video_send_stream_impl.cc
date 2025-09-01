@@ -5094,9 +5094,6 @@ std
 :
 :
 optional
-<
-TrackRateElasticity
->
 (
 TrackRateElasticity
 :
