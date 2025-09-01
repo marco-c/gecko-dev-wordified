@@ -117,23 +117,6 @@ test
 "
         
 #
-Python
-version
-to
-use
-        
-Required
-(
-"
-python
--
-version
-"
-)
-:
-int
-        
-#
 The
 subsuite
 to
@@ -244,14 +227,6 @@ str
 defaults
 =
 {
-    
-"
-python
--
-version
-"
-:
-3
     
 "
 subsuite

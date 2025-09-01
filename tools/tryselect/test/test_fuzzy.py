@@ -922,8 +922,6 @@ python
 taskgraph
 -
 tests
--
-py3
 "
 ]
     
@@ -1047,8 +1045,6 @@ python
 taskgraph
 -
 tests
--
-py3
 "
 ]
 pytest
