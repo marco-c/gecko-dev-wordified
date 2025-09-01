@@ -141,6 +141,11 @@ CSSKeywordValue
 h
 "
 "
+CSSLab
+.
+h
+"
+"
 CSSMathClamp
 .
 h
@@ -302,6 +307,11 @@ cpp
 "
 "
 CSSKeywordValue
+.
+cpp
+"
+"
+CSSLab
 .
 cpp
 "
