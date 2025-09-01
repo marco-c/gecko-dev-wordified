@@ -132,7 +132,7 @@ mozilla
 /
 gfx
 /
-DrawEventRecorder
+DrawEventRecorderTypes
 .
 h
 "
@@ -1409,10 +1409,7 @@ PaintIntoImage
 gfx
 :
 :
-DrawEventRecorderPrivate
-:
-:
-ExternalSurfacesHolder
+DrawEventRecorderPrivate_ExternalSurfacesHolder
 mExternalSurfaces
 ;
 UniquePtr
@@ -1893,10 +1890,7 @@ mFonts
 gfx
 :
 :
-DrawEventRecorderPrivate
-:
-:
-ExternalSurfacesHolder
+DrawEventRecorderPrivate_ExternalSurfacesHolder
 mExternalSurfaces
 ;
 LayerIntRect

@@ -186,6 +186,11 @@ DrawEventRecorder
 h
 "
 "
+DrawEventRecorderTypes
+.
+h
+"
+"
 DrawTargetOffset
 .
 h
