@@ -180,11 +180,7 @@ h
 #
 include
 "
-mozilla
-/
-net
-/
-CookieCommons
+nsGlobalWindowInner
 .
 h
 "

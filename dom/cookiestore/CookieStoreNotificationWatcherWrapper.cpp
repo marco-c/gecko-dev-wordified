@@ -182,6 +182,13 @@ h
 #
 include
 "
+nsGlobalWindowInner
+.
+h
+"
+#
+include
+"
 nsProxyRelease
 .
 h

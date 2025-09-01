@@ -168,6 +168,13 @@ nsFocusManager
 .
 h
 "
+#
+include
+"
+nsGlobalWindowInner
+.
+h
+"
 namespace
 mozilla
 :
