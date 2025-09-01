@@ -24605,6 +24605,12 @@ HeapState
 :
 Tracing
 )
+JS
+:
+:
+AutoCheckCannotGC
+(
+)
 {
 }
 static
