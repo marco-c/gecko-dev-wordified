@@ -94,6 +94,16 @@ COMMON_VIDEO_H265_H265_VPS_PARSER_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
+cstdint
+>
+#
+include
+<
 optional
 >
 #

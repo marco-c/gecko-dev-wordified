@@ -94,7 +94,12 @@ COMMON_VIDEO_H265_H265_COMMON_H_
 #
 include
 <
-memory
+cstddef
+>
+#
+include
+<
+cstdint
 >
 #
 include
@@ -104,11 +109,9 @@ vector
 #
 include
 "
-common_video
+api
 /
-h265
-/
-h265_inline
+array_view
 .
 h
 "

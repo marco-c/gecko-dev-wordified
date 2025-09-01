@@ -94,7 +94,7 @@ COMMON_VIDEO_TEST_UTILITIES_H_
 #
 include
 <
-initializer_list
+cstddef
 >
 #
 include
@@ -113,6 +113,17 @@ api
 video
 /
 color_space
+.
+h
+"
+#
+include
+"
+api
+/
+video
+/
+hdr_metadata
 .
 h
 "

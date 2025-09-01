@@ -192,6 +192,17 @@ h
 #
 include
 "
+api
+/
+video
+/
+video_frame_buffer
+.
+h
+"
+#
+include
+"
 rtc_base
 /
 race_checker
