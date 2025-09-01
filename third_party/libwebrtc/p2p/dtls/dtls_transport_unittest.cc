@@ -9813,6 +9813,12 @@ HANDSHAKE_FINISHES
 CALLER_RECEIVES_FINGERPRINT
 }
 )
+/
+*
+valid_fingerprint
+=
+*
+/
 :
 :
 testing
@@ -9831,6 +9837,12 @@ Values
 SSL_PROTOCOL_DTLS_12
 SSL_PROTOCOL_DTLS_13
 )
+/
+*
+pqc
+=
+*
+/
 :
 :
 testing
