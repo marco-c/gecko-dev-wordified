@@ -1397,17 +1397,6 @@ webrtc
 VideoCaptureCapability
 &
 capability
-const
-NormalizedConstraints
-&
-constraints
-const
-dom
-:
-:
-VideoResizeModeEnum
-&
-resize_mode
 FrameRelay
 *
 func
