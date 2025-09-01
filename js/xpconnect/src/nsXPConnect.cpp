@@ -3559,7 +3559,7 @@ GetSpoofedJSTimeZone
 ;
 aOptions
 .
-creationOptions
+behaviors
 (
 )
 .
