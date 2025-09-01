@@ -636,9 +636,6 @@ uint8_t
 aData
 int32_t
 aLength
-int32_t
-*
-aBytes
 )
 =
 0

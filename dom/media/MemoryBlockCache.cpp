@@ -1456,9 +1456,6 @@ uint8_t
 aData
 int32_t
 aLength
-int32_t
-*
-aBytes
 )
 {
 MutexAutoLock
@@ -1521,11 +1518,6 @@ Elements
 aOffset
 aLength
 )
-;
-*
-aBytes
-=
-aLength
 ;
 return
 NS_OK

@@ -1404,9 +1404,6 @@ void
 aData
 int32_t
 aLength
-int32_t
-*
-aBytes
 )
 ;
 /
@@ -6382,9 +6379,6 @@ void
 aData
 int32_t
 aLength
-int32_t
-*
-aBytes
 )
 {
 if
@@ -6413,7 +6407,6 @@ uint8_t
 aData
 )
 aLength
-aBytes
 )
 ;
 }
@@ -18633,11 +18626,6 @@ Length
 )
 )
 ;
-int32_t
-bytesRead
-=
-0
-;
 nsresult
 rv
 =
@@ -18661,8 +18649,6 @@ Elements
 (
 )
 bytesToRead
-&
-bytesRead
 )
 ;
 /
@@ -18779,7 +18765,7 @@ Now
 ;
 }
 return
-bytesRead
+bytesToRead
 ;
 }
 nsresult
