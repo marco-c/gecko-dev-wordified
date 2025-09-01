@@ -743,26 +743,6 @@ tar
 gz
 "
 )
-        
-harness_requirements
-[
-harness
-]
-.
-append
-(
-"
-target
-.
-trainhop
-.
-tests
-.
-tar
-.
-gz
-"
-)
     
 return
 harness_requirements
