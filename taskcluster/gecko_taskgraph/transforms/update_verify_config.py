@@ -1297,11 +1297,13 @@ index
 .
 setdefault
 (
+                
 "
 job
 -
 name
 "
+                
 f
 "
 update
@@ -1318,7 +1320,22 @@ name
 '
 ]
 }
+-
+{
+task
+[
+'
+extra
+'
+]
+[
+'
+channel
+'
+]
+}
 "
+            
 )
         
 yield
