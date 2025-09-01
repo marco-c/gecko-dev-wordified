@@ -6265,6 +6265,14 @@ generator
 isSuspendedYield
 (
 )
+|
+|
+generator
+-
+>
+isCompleted
+(
+)
 )
 {
 /
