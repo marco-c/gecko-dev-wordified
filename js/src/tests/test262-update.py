@@ -386,19 +386,6 @@ escape
 "
     
 "
-promise
--
-try
-"
-:
-"
-!
-Promise
-.
-try
-"
-    
-"
 explicit
 -
 resource
@@ -706,22 +693,6 @@ enable
 regexp
 -
 modifiers
-"
-    
-"
-promise
--
-try
-"
-:
-"
--
--
-enable
--
-promise
--
-try
 "
     
 "
