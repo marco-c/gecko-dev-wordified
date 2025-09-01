@@ -5358,11 +5358,6 @@ aIsSameDocumentNavigation
 false
 loadInfoArgs
 .
-allowDeprecatedSystemRequests
-(
-)
-loadInfoArgs
-.
 isInDevToolsContext
 (
 )
