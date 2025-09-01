@@ -150,13 +150,3 @@ sys
 mjs
 "
 ]
-EXTRA_COMPONENTS
-+
-=
-[
-"
-cryptoComponents
-.
-manifest
-"
-]
