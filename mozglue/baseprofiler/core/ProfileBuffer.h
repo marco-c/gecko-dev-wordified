@@ -383,7 +383,7 @@ ll
 handle
 .
 static
-const
+constexpr
 size_t
 kMaxFrameKeyLength
 =

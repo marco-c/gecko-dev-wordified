@@ -2042,7 +2042,7 @@ power
 of
 two
 static
-const
+constexpr
 int64_t
 BLOCK_SIZE
 =

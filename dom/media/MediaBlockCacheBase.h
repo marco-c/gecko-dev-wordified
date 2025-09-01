@@ -432,7 +432,7 @@ bits
 )
 ;
 static
-const
+constexpr
 int32_t
 BLOCK_SIZE
 =
