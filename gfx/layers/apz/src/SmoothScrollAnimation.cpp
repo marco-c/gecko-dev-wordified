@@ -1819,15 +1819,6 @@ true
 if
 (
 finished
-&
-&
-mKind
-=
-=
-ScrollAnimationKind
-:
-:
-SmoothMsd
 )
 {
 /
