@@ -3019,7 +3019,10 @@ setAttribute
 "
 image
 "
+encodeURI
+(
 resolvedURL
+)
 )
 ;
 }

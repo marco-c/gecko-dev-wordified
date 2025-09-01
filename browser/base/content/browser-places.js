@@ -7519,9 +7519,12 @@ icon
 :
 "
 +
+encodeURI
+(
 preferredURI
 .
 spec
+)
 )
 ;
 menuitem
