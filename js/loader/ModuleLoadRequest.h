@@ -518,11 +518,11 @@ mRootModule
 ;
 }
 void
-MarkModuleForBytecodeEncoding
+MarkModuleForCache
 (
 )
 {
-MarkForBytecodeEncoding
+MarkForCache
 (
 )
 ;

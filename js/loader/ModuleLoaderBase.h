@@ -395,8 +395,7 @@ options
 *
 Optional
 :
-Bytecode
-Encoding
+Caching
 *
 *
 ScriptLoaderInterface
@@ -438,9 +437,8 @@ ModuleLoaders
 .
 For
 example
-Bytecode
+caching
 *
-Encoding
 does
 not
 apply
@@ -697,7 +695,7 @@ aIntroductionScript
 ;
 virtual
 void
-MaybePrepareModuleForBytecodeEncodingBeforeExecute
+MaybePrepareModuleForCacheBeforeExecute
 (
 JSContext
 *
@@ -710,7 +708,7 @@ aRequest
 }
 virtual
 nsresult
-MaybePrepareModuleForBytecodeEncodingAfterExecute
+MaybePrepareModuleForCacheAfterExecute
 (
 ModuleLoadRequest
 *
@@ -725,7 +723,7 @@ NS_OK
 }
 virtual
 void
-MaybeTriggerBytecodeEncoding
+MaybeUpdateCache
 (
 )
 {

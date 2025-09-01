@@ -2178,7 +2178,7 @@ if
 aRequest
 -
 >
-PassedConditionForBytecodeEncoding
+PassedConditionForCache
 (
 )
 )
@@ -2439,7 +2439,7 @@ if
 aRequest
 -
 >
-PassedConditionForBytecodeEncoding
+PassedConditionForCache
 (
 )
 )
