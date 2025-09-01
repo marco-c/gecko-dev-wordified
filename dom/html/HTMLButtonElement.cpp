@@ -2816,7 +2816,9 @@ its
 cancelable
 /
 /
-attribute
+and
+composed
+attributes
 initialized
 to
 true
@@ -2840,6 +2842,12 @@ this
 init
 .
 mCancelable
+=
+true
+;
+init
+.
+mComposed
 =
 true
 ;
