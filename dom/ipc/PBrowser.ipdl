@@ -1069,13 +1069,7 @@ MessagePort
 h
 "
 ;
-[
-MoveOnly
-=
-data
-]
 using
-class
 mozilla
 :
 :
@@ -2057,7 +2051,10 @@ aData
 )
 returns
 (
+UniquePtr
+<
 StructuredCloneData
+>
 [
 ]
 retval

@@ -940,7 +940,13 @@ StructuredCloneData
 aCloneData
 nsTArray
 <
+mozilla
+:
+:
+UniquePtr
+<
 StructuredCloneData
+>
 >
 *
 aRetVal
@@ -1285,7 +1291,13 @@ StructuredCloneData
 aCloneData
 nsTArray
 <
+mozilla
+:
+:
+UniquePtr
+<
 StructuredCloneData
+>
 >
 *
 aRetVal
