@@ -29,10 +29,6 @@ import
 mozhttpd
 import
 mozunit
-from
-conftest
-import
-fspath
 def
 test_symbols_path_not_present
 (
@@ -115,7 +111,7 @@ check_for_crashes
 (
 symbols_path
 =
-fspath
+str
 (
 symbols_path
 )
@@ -134,7 +130,7 @@ readouterr
 )
     
 assert
-fspath
+str
 (
 symbols_path
 )

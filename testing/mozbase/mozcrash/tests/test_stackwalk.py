@@ -17,10 +17,6 @@ import
 os
 import
 mozunit
-from
-conftest
-import
-fspath
 def
 test_stackwalk_not_found
 (
@@ -66,7 +62,7 @@ check_for_crashes
 (
 stackwalk_binary
 =
-fspath
+str
 (
 stackwalk
 )
@@ -127,7 +123,7 @@ MINIDUMP_STACKWALK
 "
 ]
 =
-fspath
+str
 (
 stackwalk
 )
@@ -226,7 +222,7 @@ check_for_crashes
 (
 stackwalk_binary
 =
-fspath
+str
 (
 stackwalk
 )
@@ -245,7 +241,7 @@ readouterr
 )
     
 assert
-fspath
+str
 (
 stackwalk
 )
