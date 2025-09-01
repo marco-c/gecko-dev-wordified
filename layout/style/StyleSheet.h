@@ -321,7 +321,7 @@ uint32_t
 ;
 enum
 class
-StyleLikelyBaseUriDependency
+StyleNonLocalUriDependency
 :
 uint8_t
 ;
@@ -1057,8 +1057,8 @@ using
 relative
 URIs
 .
-StyleLikelyBaseUriDependency
-OriginalContentsBaseUriDependency
+StyleNonLocalUriDependency
+OriginalContentsUriDependency
 (
 )
 const
