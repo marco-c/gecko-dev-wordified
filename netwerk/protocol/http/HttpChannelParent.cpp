@@ -795,7 +795,7 @@ url
 ;
 schema
 .
-AddKeyFormatSearchable
+AddKeyFormat
 (
 "
 url
@@ -810,7 +810,7 @@ Url
 MS
 :
 :
-Searchable
+PayloadFlags
 :
 :
 Searchable

@@ -1221,7 +1221,7 @@ aFormat
 endif
 }
 void
-gecko_profiler_marker_schema_add_key_format_searchable
+gecko_profiler_marker_schema_add_key_format_with_flags
 (
 mozilla
 :
@@ -1249,8 +1249,8 @@ mozilla
 MarkerSchema
 :
 :
-Searchable
-aSearchable
+PayloadFlags
+aPayloadFlags
 )
 {
 #
@@ -1259,7 +1259,7 @@ MOZ_GECKO_PROFILER
 aSchema
 -
 >
-AddKeyFormatSearchable
+AddKeyFormat
 (
 std
 :
@@ -1270,14 +1270,14 @@ aKey
 aKeyLength
 )
 aFormat
-aSearchable
+aPayloadFlags
 )
 ;
 #
 endif
 }
 void
-gecko_profiler_marker_schema_add_key_label_format_searchable
+gecko_profiler_marker_schema_add_key_label_format_with_flags
 (
 mozilla
 :
@@ -1311,8 +1311,8 @@ mozilla
 MarkerSchema
 :
 :
-Searchable
-aSearchable
+PayloadFlags
+aPayloadFlags
 )
 {
 #
@@ -1321,7 +1321,7 @@ MOZ_GECKO_PROFILER
 aSchema
 -
 >
-AddKeyLabelFormatSearchable
+AddKeyLabelFormat
 (
 std
 :
@@ -1340,7 +1340,7 @@ aLabel
 aLabelLength
 )
 aFormat
-aSearchable
+aPayloadFlags
 )
 ;
 #

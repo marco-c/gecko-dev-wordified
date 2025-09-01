@@ -664,7 +664,7 @@ rustified_enum
 mozilla
 :
 :
-MarkerSchema_Searchable
+MarkerSchema_PayloadFlags
 "
 )
 /

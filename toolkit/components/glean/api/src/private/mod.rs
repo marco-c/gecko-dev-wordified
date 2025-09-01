@@ -2224,7 +2224,7 @@ val
 ;
 schema
 .
-add_key_label_format_searchable
+add_key_label_format_with_flags
 (
 "
 cat
@@ -2236,7 +2236,7 @@ Format
 :
 :
 UniqueString
-Searchable
+PayloadFlags
 :
 :
 Searchable
@@ -2244,7 +2244,7 @@ Searchable
 ;
 schema
 .
-add_key_label_format_searchable
+add_key_label_format_with_flags
 (
 "
 id
@@ -2256,7 +2256,7 @@ Format
 :
 :
 UniqueString
-Searchable
+PayloadFlags
 :
 :
 Searchable
@@ -2264,7 +2264,7 @@ Searchable
 ;
 schema
 .
-add_key_label_format_searchable
+add_key_label_format_with_flags
 (
 "
 label
@@ -2276,7 +2276,7 @@ Format
 :
 :
 UniqueString
-Searchable
+PayloadFlags
 :
 :
 Searchable
@@ -2671,7 +2671,7 @@ val
 ;
 schema
 .
-add_key_label_format_searchable
+add_key_label_format_with_flags
 (
 "
 cat
@@ -2683,7 +2683,7 @@ Format
 :
 :
 UniqueString
-Searchable
+PayloadFlags
 :
 :
 Searchable
@@ -2691,7 +2691,7 @@ Searchable
 ;
 schema
 .
-add_key_label_format_searchable
+add_key_label_format_with_flags
 (
 "
 id
@@ -2703,7 +2703,7 @@ Format
 :
 :
 UniqueString
-Searchable
+PayloadFlags
 :
 :
 Searchable
@@ -2711,7 +2711,7 @@ Searchable
 ;
 schema
 .
-add_key_label_format_searchable
+add_key_label_format_with_flags
 (
 "
 label
@@ -2723,7 +2723,7 @@ Format
 :
 :
 UniqueString
-Searchable
+PayloadFlags
 :
 :
 Searchable
@@ -3270,7 +3270,7 @@ id
 ;
 schema
 .
-add_key_label_format_searchable
+add_key_label_format_with_flags
 (
 "
 cat
@@ -3282,7 +3282,7 @@ Format
 :
 :
 UniqueString
-Searchable
+PayloadFlags
 :
 :
 Searchable
@@ -3290,7 +3290,7 @@ Searchable
 ;
 schema
 .
-add_key_label_format_searchable
+add_key_label_format_with_flags
 (
 "
 id
@@ -3302,7 +3302,7 @@ Format
 :
 :
 UniqueString
-Searchable
+PayloadFlags
 :
 :
 Searchable
@@ -3310,7 +3310,7 @@ Searchable
 ;
 schema
 .
-add_key_label_format_searchable
+add_key_label_format_with_flags
 (
 "
 label
@@ -3322,7 +3322,7 @@ Format
 :
 :
 UniqueString
-Searchable
+PayloadFlags
 :
 :
 Searchable
@@ -3764,7 +3764,7 @@ val
 ;
 schema
 .
-add_key_label_format_searchable
+add_key_label_format_with_flags
 (
 "
 cat
@@ -3776,7 +3776,7 @@ Format
 :
 :
 UniqueString
-Searchable
+PayloadFlags
 :
 :
 Searchable
@@ -3784,7 +3784,7 @@ Searchable
 ;
 schema
 .
-add_key_label_format_searchable
+add_key_label_format_with_flags
 (
 "
 id
@@ -3796,7 +3796,7 @@ Format
 :
 :
 UniqueString
-Searchable
+PayloadFlags
 :
 :
 Searchable
@@ -3804,7 +3804,7 @@ Searchable
 ;
 schema
 .
-add_key_label_format_searchable
+add_key_label_format_with_flags
 (
 "
 label
@@ -3816,7 +3816,7 @@ Format
 :
 :
 UniqueString
-Searchable
+PayloadFlags
 :
 :
 Searchable
@@ -4070,7 +4070,7 @@ reason
 ;
 schema
 .
-add_key_label_format_searchable
+add_key_label_format_with_flags
 (
 "
 id
@@ -4083,7 +4083,7 @@ Format
 :
 :
 UniqueString
-Searchable
+PayloadFlags
 :
 :
 Searchable
@@ -4091,7 +4091,7 @@ Searchable
 ;
 schema
 .
-add_key_label_format_searchable
+add_key_label_format_with_flags
 (
 "
 reason
@@ -4104,7 +4104,7 @@ Format
 :
 :
 String
-Searchable
+PayloadFlags
 :
 :
 Searchable

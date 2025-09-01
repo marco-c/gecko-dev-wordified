@@ -984,7 +984,7 @@ host
 ;
 schema
 .
-AddKeyFormatSearchable
+AddKeyFormat
 (
 "
 host
@@ -999,7 +999,7 @@ SanitizedString
 MS
 :
 :
-Searchable
+PayloadFlags
 :
 :
 Searchable
@@ -1007,7 +1007,7 @@ Searchable
 ;
 schema
 .
-AddKeyFormatSearchable
+AddKeyFormat
 (
 "
 originSuffix
@@ -1022,7 +1022,7 @@ SanitizedString
 MS
 :
 :
-Searchable
+PayloadFlags
 :
 :
 Searchable
@@ -2335,6 +2335,8 @@ FlushCache
 (
 bool
 aTrrToo
+bool
+aFlushEvictionQueue
 )
 {
 MutexAutoLock
@@ -2343,6 +2345,11 @@ lock
 mLock
 )
 ;
+if
+(
+aFlushEvictionQueue
+)
+{
 mQueue
 .
 FlushEvictionQ
@@ -2351,6 +2358,7 @@ mRecordDB
 lock
 )
 ;
+}
 /
 /
 Refresh

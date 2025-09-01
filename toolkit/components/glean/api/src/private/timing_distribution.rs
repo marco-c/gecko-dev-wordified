@@ -719,7 +719,7 @@ label
 ;
 schema
 .
-add_key_label_format_searchable
+add_key_label_format_with_flags
 (
 "
 cat
@@ -731,7 +731,7 @@ Format
 :
 :
 UniqueString
-Searchable
+PayloadFlags
 :
 :
 Searchable
@@ -739,7 +739,7 @@ Searchable
 ;
 schema
 .
-add_key_label_format_searchable
+add_key_label_format_with_flags
 (
 "
 id
@@ -751,7 +751,7 @@ Format
 :
 :
 UniqueString
-Searchable
+PayloadFlags
 :
 :
 Searchable
@@ -759,7 +759,7 @@ Searchable
 ;
 schema
 .
-add_key_label_format_searchable
+add_key_label_format_with_flags
 (
 "
 label
@@ -771,7 +771,7 @@ Format
 :
 :
 UniqueString
-Searchable
+PayloadFlags
 :
 :
 Searchable
@@ -779,7 +779,7 @@ Searchable
 ;
 schema
 .
-add_key_label_format_searchable
+add_key_label_format_with_flags
 (
 "
 timer_id
@@ -791,7 +791,7 @@ Format
 :
 :
 Integer
-Searchable
+PayloadFlags
 :
 :
 Searchable

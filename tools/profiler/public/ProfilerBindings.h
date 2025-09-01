@@ -698,7 +698,7 @@ aFormat
 )
 ;
 void
-gecko_profiler_marker_schema_add_key_format_searchable
+gecko_profiler_marker_schema_add_key_format_with_flags
 (
 mozilla
 :
@@ -726,12 +726,12 @@ mozilla
 MarkerSchema
 :
 :
-Searchable
-aSearchable
+PayloadFlags
+aPayloadFlags
 )
 ;
 void
-gecko_profiler_marker_schema_add_key_label_format_searchable
+gecko_profiler_marker_schema_add_key_label_format_with_flags
 (
 mozilla
 :
@@ -765,8 +765,8 @@ mozilla
 MarkerSchema
 :
 :
-Searchable
-aSearchable
+PayloadFlags
+aPayloadFlags
 )
 ;
 void
