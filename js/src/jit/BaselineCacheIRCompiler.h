@@ -473,6 +473,11 @@ isJitCall
 )
 ;
 void
+pushNewTarget
+(
+)
+;
+void
 pushStandardArguments
 (
 Register
