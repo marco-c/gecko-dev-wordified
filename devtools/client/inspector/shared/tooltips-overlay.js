@@ -2275,7 +2275,9 @@ contains
 "
 ruleview
 -
-unused
+inactive
+-
+css
 -
 warning
 "

@@ -867,7 +867,9 @@ contains
 "
 ruleview
 -
-unused
+inactive
+-
+css
 -
 warning
 "
@@ -882,7 +884,7 @@ value
 =
 declaration
 .
-isUsed
+getInactiveCssData
 (
 )
 ;

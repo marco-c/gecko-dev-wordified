@@ -5003,7 +5003,7 @@ currProp
 .
 editor
 .
-unusedState
+inactiveCssState
 ;
 const
 unused
@@ -5019,7 +5019,9 @@ classList
 contains
 (
 "
-unused
+inactive
+-
+css
 "
 )
 ;
@@ -5083,7 +5085,7 @@ data
 :
 currProp
 .
-isUsed
+getInactiveCssData
 (
 )
 warning
@@ -6198,7 +6200,9 @@ contains
 "
 ruleview
 -
-unused
+inactive
+-
+css
 -
 warning
 "
