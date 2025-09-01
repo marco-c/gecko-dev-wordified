@@ -157,6 +157,10 @@ synonyms
 .
 h
 "
+#
+if
+!
+CONFIG_HIGHWAY
 DECLARE_ALIGNED
 (
 32
@@ -9900,3 +9904,9 @@ wt
 }
 }
 }
+#
+endif
+/
+/
+!
+CONFIG_HIGHWAY

@@ -5627,6 +5627,14 @@ deltaq
 mode
 =
 4
+and
+-
+-
+deltaq
+-
+mode
+=
+6
 (
 %
 )

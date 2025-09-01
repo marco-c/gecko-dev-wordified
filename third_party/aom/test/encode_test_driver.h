@@ -192,6 +192,7 @@ kRealTime
 kOnePassGood
 kTwoPassGood
 kAllIntra
+kLowComplexityDecode
 }
 ;
 #

@@ -4585,7 +4585,8 @@ sz
 *
 sizeof
 (
-metadata
+*
+metadata_array
 )
 )
 ;
@@ -4684,6 +4685,8 @@ uint8_t
 data
 size_t
 sz
+bool
+has_obu_extension_header
 )
 {
 if
@@ -4904,6 +4907,10 @@ pbi
 OBU_METADATA_TYPE_ITUT_T35
 data
 end_index
+has_obu_extension_header
+?
+AOM_MIF_ANY_FRAME_LAYER_SPECIFIC
+:
 AOM_MIF_ANY_FRAME
 )
 ;
@@ -5821,6 +5828,8 @@ uint8_t
 data
 size_t
 sz
+bool
+has_obu_extension_header
 )
 {
 size_t
@@ -5965,6 +5974,7 @@ type_length
 sz
 -
 type_length
+has_obu_extension_header
 )
 ;
 return
@@ -7689,6 +7699,7 @@ break
 case
 OBU_METADATA
 :
+{
 decoded_payload_size
 =
 read_metadata
@@ -7696,6 +7707,9 @@ read_metadata
 pbi
 data
 payload_size
+obu_header
+.
+has_extension
 )
 ;
 if
@@ -7716,6 +7730,7 @@ return
 ;
 break
 ;
+}
 case
 OBU_TILE_LIST
 :

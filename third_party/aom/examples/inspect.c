@@ -1121,7 +1121,6 @@ ENUM
 (
 name
 )
-\
 {
 #
 name
@@ -1130,7 +1129,6 @@ name
 #
 define
 LAST_ENUM
-\
 {
 NULL
 0

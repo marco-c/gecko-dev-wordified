@@ -2802,6 +2802,10 @@ format
 on
 *
 /
+#
+if
+!
+CONFIG_HIGHWAY
 /
 /
 Shuffle
@@ -9008,3 +9012,9 @@ offset_bits
 }
 }
 }
+#
+endif
+/
+/
+!
+CONFIG_HIGHWAY
