@@ -712,7 +712,7 @@ if
 output
 =
 =
-NULL
+nullptr
 )
 {
 RTC_LOG
