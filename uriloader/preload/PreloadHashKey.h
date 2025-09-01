@@ -112,6 +112,8 @@ loader
 enum
 class
 ScriptKind
+:
+uint8_t
 ;
 }
 namespace

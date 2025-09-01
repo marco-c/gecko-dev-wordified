@@ -129,6 +129,8 @@ loader
 enum
 class
 ScriptKind
+:
+uint8_t
 {
 eClassic
 eModule
