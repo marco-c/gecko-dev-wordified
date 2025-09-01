@@ -379,7 +379,7 @@ nsILoadInfo
 StoragePermissionState
 :
 :
-StoragePermissionAllowListed
+InactiveStoragePermission
 >
 {
 }
