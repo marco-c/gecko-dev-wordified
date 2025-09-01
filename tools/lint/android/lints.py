@@ -2782,6 +2782,7 @@ issues
 #
 We
 want
+all
 warnings
 to
 be
@@ -2792,15 +2793,16 @@ purposes
 .
                 
 #
-TODO
-:
-Bug
-1316188
--
-resolve
-missing
+This
+ensures
 javadoc
-comments
+warnings
+can
+no
+longer
+be
+ignored
+.
                 
 issue
 [
@@ -2809,31 +2811,9 @@ level
 "
 ]
 =
-(
-                    
 "
 error
 "
-if
-issue
-[
-"
-message
-"
-]
-!
-=
-"
-:
-no
-comment
-"
-else
-"
-warning
-"
-                
-)
                 
 results
 .
