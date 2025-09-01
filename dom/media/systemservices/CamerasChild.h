@@ -1283,10 +1283,6 @@ const
 bool
 &
 scary
-const
-bool
-&
-device_is_placeholder
 )
 override
 ;
@@ -1500,9 +1496,6 @@ unique_idUTF8Length
 bool
 *
 scary
-bool
-*
-device_is_placeholder
 )
 ;
 int
@@ -1974,9 +1967,6 @@ mReplyDeviceID
 ;
 bool
 mReplyScary
-;
-bool
-mReplyDeviceIsPlaceholder
 ;
 MediaEventProducer
 <
