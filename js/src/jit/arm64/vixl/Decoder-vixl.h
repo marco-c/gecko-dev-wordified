@@ -372,11 +372,6 @@ AddSubImmediate
 \
 V
 (
-MaxMinImmediate
-)
-\
-V
-(
 LogicalImmediate
 )
 \
