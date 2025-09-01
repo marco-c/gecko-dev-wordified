@@ -2167,6 +2167,10 @@ by
 applying
 any
 keyTimes
+and
+number
+of
+values
 .
 *
 /
@@ -2177,6 +2181,8 @@ double
 aProgress
 SMILCalcMode
 aCalcMode
+double
+aValueMultiplier
 )
 ;
 /
