@@ -7513,7 +7513,7 @@ value
 .
 Note
 that
-LMDB
+Rkv
 doesn
 '
 t

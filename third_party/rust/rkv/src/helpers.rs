@@ -344,15 +344,8 @@ io
 Error
 :
 :
-new
+other
 (
-io
-:
-:
-ErrorKind
-:
-:
-Other
 "
 path
 canonicalization

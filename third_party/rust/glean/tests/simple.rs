@@ -129,7 +129,10 @@ use
 glean
 :
 :
+{
 ConfigurationBuilder
+TestGetValue
+}
 ;
 /
 /
