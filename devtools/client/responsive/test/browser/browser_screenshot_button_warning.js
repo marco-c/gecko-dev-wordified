@@ -188,7 +188,7 @@ button
 const
 onScreenshotDownloaded
 =
-waitUntilScreenshot
+waitUntilDownload
 (
 )
 ;
