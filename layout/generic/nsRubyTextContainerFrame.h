@@ -317,6 +317,16 @@ NS_RUBY_TEXT_CONTAINER_IS_SPAN
 )
 ;
 }
+mozilla
+:
+:
+RubyMetrics
+RubyMetrics
+(
+)
+const
+override
+;
 protected
 :
 friend
