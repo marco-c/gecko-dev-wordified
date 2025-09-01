@@ -136,6 +136,17 @@ NavigationActivationBinding
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+NavigationHistoryEntry
+.
+h
+"
 namespace
 mozilla
 :
