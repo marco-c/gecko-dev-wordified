@@ -25279,7 +25279,7 @@ isForbiddenInBranchDelay
 MOZ_CRASH
 (
 "
-Eror
+Error
 :
 Unexpected
 opcode
