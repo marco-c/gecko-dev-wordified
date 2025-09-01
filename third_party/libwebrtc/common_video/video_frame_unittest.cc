@@ -1268,9 +1268,6 @@ int
 width
 int
 height
-webrtc
-:
-:
 VideoRotation
 rotation
 const
@@ -1774,9 +1771,6 @@ Create
 .
 set_rotation
 (
-webrtc
-:
-:
 kVideoRotation_0
 )
 .
@@ -2053,9 +2047,6 @@ video_frame_buffer
 )
 ;
 const
-webrtc
-:
-:
 I420BufferInterface
 *
 yuv1
@@ -2072,9 +2063,6 @@ GetI420
 )
 ;
 const
-webrtc
-:
-:
 I420BufferInterface
 *
 yuv2
@@ -2306,9 +2294,6 @@ CreateFrame
 480
 100
 10
-webrtc
-:
-:
 kVideoRotation_0
 )
 ;
@@ -3364,9 +3349,6 @@ Rotates
 for
 (
 const
-webrtc
-:
-:
 VideoRotation
 &
 rotation

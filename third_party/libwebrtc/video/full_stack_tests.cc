@@ -6374,9 +6374,6 @@ FullStackTest
 Vp9ksvc_3sl_High
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -6493,9 +6490,6 @@ FullStackTest
 Vp9ksvc_3sl_Low
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -6612,9 +6606,6 @@ FullStackTest
 Vp9ksvc_3sl_Low_Bw_Limited
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -6746,9 +6737,6 @@ FullStackTest
 Vp9ksvc_3sl_Medium_Network_Restricted
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -6906,9 +6894,6 @@ FullStackTest
 Vp9ksvc_3sl_Medium_Network_Restricted_Trusted_Rate
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -7272,9 +7257,6 @@ SpatialLayer
 true
 }
 ;
-webrtc
-:
-:
 test
 :
 :

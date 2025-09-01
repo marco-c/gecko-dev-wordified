@@ -2541,9 +2541,6 @@ Build
 ;
 static_cast
 <
-webrtc
-:
-:
 Transport
 *
 >

@@ -1660,9 +1660,6 @@ ResolutionBitrateLimitsTest
 LimitsApplied
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -1940,9 +1937,6 @@ ResolutionBitrateLimitsWithScalabilityModeTest
 OneStreamLimitsAppliedForOneSpatialLayer
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -2050,9 +2044,6 @@ ResolutionBitrateLimitsWithScalabilityModeTest
 OneStreamLimitsNotAppliedForMultipleSpatialLayers
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -2277,9 +2268,6 @@ ResolutionBitrateLimitsTest
 IntersectionApplied
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -2397,9 +2385,6 @@ ResolutionBitrateLimitsTest
 LimitsAppliedMiddleActive
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -2518,9 +2503,6 @@ ResolutionBitrateLimitsTest
 EncodingMinMaxBitrateAppliedMiddleActive
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -2677,9 +2659,6 @@ ResolutionBitrateLimitsTest
 MinBitrateNotAboveEncodingMax
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -2814,9 +2793,6 @@ ResolutionBitrateLimitsTest
 MaxBitrateNotBelowEncodingMin
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -3188,9 +3164,6 @@ ResolutionBitrateLimitsTest
 LimitsAppliedHighestActive
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -3309,9 +3282,6 @@ ResolutionBitrateLimitsTest
 EncodingMinMaxBitrateAppliedHighestActive
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -3487,9 +3457,6 @@ ResolutionBitrateLimitsTest
 LimitsNotAppliedLowestActive
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -3629,9 +3596,6 @@ ResolutionBitrateLimitsWithScalabilityModeTest
 LimitsAppliedForVp9OneSpatialLayer
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -3753,9 +3717,6 @@ ResolutionBitrateLimitsWithScalabilityModeTest
 LimitsNotAppliedForVp9MultipleSpatialLayers
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -3904,9 +3865,6 @@ ResolutionBitrateLimitsWithScalabilityModeTest
 OneStreamLimitsAppliedForAv1OneSpatialLayer
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -4014,9 +3972,6 @@ ResolutionBitrateLimitsWithScalabilityModeTest
 LimitsAppliedForAv1SingleSpatialLayer
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -4138,9 +4093,6 @@ ResolutionBitrateLimitsWithScalabilityModeTest
 EncodingMinMaxBitrateAppliedForAv1SingleSpatialLayer
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -4273,9 +4225,6 @@ ResolutionBitrateLimitsWithScalabilityModeTest
 LimitsNotAppliedForAv1MultipleSpatialLayers
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -4424,9 +4373,6 @@ ResolutionBitrateLimitsTest
 LimitsNotAppliedSimulcast
 )
 {
-webrtc
-:
-:
 test
 :
 :

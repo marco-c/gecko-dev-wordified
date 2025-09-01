@@ -2410,9 +2410,6 @@ receiver
 for
 VP9
 .
-webrtc
-:
-:
 CodecParameterMap
 codec_params
 ;
@@ -3227,9 +3224,6 @@ receiver
 for
 VP9
 .
-webrtc
-:
-:
 CodecParameterMap
 codec_params
 ;
@@ -3786,9 +3780,6 @@ receiver
 for
 VP9
 .
-webrtc
-:
-:
 CodecParameterMap
 codec_params
 ;
@@ -5370,9 +5361,6 @@ kH264PayloadType
 =
 98
 ;
-webrtc
-:
-:
 CodecParameterMap
 codec_params
 ;
@@ -5715,9 +5703,6 @@ kH264PayloadType
 =
 99
 ;
-webrtc
-:
-:
 CodecParameterMap
 codec_params
 ;
@@ -6071,9 +6056,6 @@ RtpVideoStreamReceiver2TestH264
 ForceSpsPpsIdrIsKeyframe
 )
 {
-webrtc
-:
-:
 CodecParameterMap
 codec_params
 ;
@@ -7205,9 +7187,6 @@ receiver
 for
 H264
 .
-webrtc
-:
-:
 CodecParameterMap
 codec_params
 ;
@@ -11866,9 +11845,6 @@ kH265PayloadType
 =
 98
 ;
-webrtc
-:
-:
 CodecParameterMap
 codec_params
 ;

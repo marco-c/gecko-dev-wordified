@@ -497,9 +497,6 @@ frame_decryptor_
 >
 GetMaxPlaintextByteSize
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -613,9 +610,6 @@ frame_decryptor_
 >
 Decrypt
 (
-webrtc
-:
-:
 MediaType
 :
 :

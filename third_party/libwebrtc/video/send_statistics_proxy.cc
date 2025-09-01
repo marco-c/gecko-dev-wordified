@@ -1001,9 +1001,6 @@ int
 GetFallbackMaxPixelsIfFieldTrialEnabled
 (
 const
-webrtc
-:
-:
 FieldTrialsView
 &
 field_trials
@@ -1067,9 +1064,6 @@ int
 GetFallbackMaxPixelsIfFieldTrialDisabled
 (
 const
-webrtc
-:
-:
 FieldTrialsView
 &
 field_trials

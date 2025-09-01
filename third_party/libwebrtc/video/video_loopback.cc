@@ -2681,9 +2681,6 @@ GetFlag
 FLAGS_force_fieldtrials
 )
 ;
-webrtc
-:
-:
 field_trial
 :
 :
@@ -2696,17 +2693,11 @@ c_str
 )
 )
 ;
-webrtc
-:
-:
 test
 :
 :
 RunTest
 (
-webrtc
-:
-:
 Loopback
 )
 ;

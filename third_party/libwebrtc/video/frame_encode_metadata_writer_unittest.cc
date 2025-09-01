@@ -2696,9 +2696,6 @@ bitrate_allocation
 30
 )
 ;
-webrtc
-:
-:
 ColorSpace
 color_space
 =

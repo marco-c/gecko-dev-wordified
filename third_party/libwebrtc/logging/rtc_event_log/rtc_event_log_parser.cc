@@ -8357,9 +8357,6 @@ bug
 webrtc
 :
 6399
-webrtc
-:
-:
 RtpHeaderExtensionMap
 ParsedRtcEventLog
 :
@@ -8436,9 +8433,6 @@ kDependencyDescriptorDefaultId
 =
 9
 ;
-webrtc
-:
-:
 RtpHeaderExtensionMap
 default_map
 (

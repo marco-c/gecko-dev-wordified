@@ -945,9 +945,6 @@ GetSentRtpPacketInfos
 (
 uint32_t
 ssrc
-webrtc
-:
-:
 ArrayView
 <
 const
@@ -1512,9 +1509,6 @@ protected
 GlobalSimulatedTimeController
 time_controller_
 ;
-webrtc
-:
-:
 test
 :
 :

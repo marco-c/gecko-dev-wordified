@@ -179,9 +179,6 @@ FrameDecodeTiming
 Clock
 *
 clock
-webrtc
-:
-:
 VCMTiming
 const
 *

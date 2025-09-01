@@ -662,9 +662,6 @@ std
 string
 input_file_name
 =
-webrtc
-:
-:
 test
 :
 :
@@ -758,9 +755,6 @@ buffer
 .
 set_rotation
 (
-webrtc
-:
-:
 kVideoRotation_0
 )
 .
@@ -838,9 +832,6 @@ std
 string
 output_file_name
 =
-webrtc
-:
-:
 test
 :
 :
@@ -2370,9 +2361,6 @@ std
 string
 output_file_name
 =
-webrtc
-:
-:
 test
 :
 :
