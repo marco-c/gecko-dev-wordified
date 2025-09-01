@@ -543,9 +543,15 @@ domain
 "
 ]
 =
+f
+"
+.
+{
 domain_value
 (
 )
+}
+"
     
 elif
 with_domain
@@ -584,12 +590,18 @@ domain
 "
 ]
 =
+f
+"
+.
+{
 domain_value
 (
 '
 alt
 '
 )
+}
+"
     
 else
 :
