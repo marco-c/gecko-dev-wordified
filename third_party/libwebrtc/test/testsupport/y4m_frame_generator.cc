@@ -396,9 +396,6 @@ Y4mReader
 .
 frame_reader_
 =
-webrtc
-:
-:
 test
 :
 :
@@ -423,9 +420,6 @@ NextFrame
 (
 )
 {
-webrtc
-:
-:
 VideoFrame
 :
 :
@@ -452,9 +446,6 @@ height_
 ;
 scoped_refptr
 <
-webrtc
-:
-:
 I420Buffer
 >
 next_frame_buffer
@@ -529,9 +520,6 @@ version
 .
 scoped_refptr
 <
-webrtc
-:
-:
 I420Buffer
 >
 scaled_buffer
@@ -546,9 +534,6 @@ height_
 )
 )
 ;
-webrtc
-:
-:
 I420Buffer
 :
 :

@@ -866,17 +866,11 @@ std
 string
 path
 =
-webrtc
-:
-:
 test
 :
 :
 TempFilename
 (
-webrtc
-:
-:
 test
 :
 :

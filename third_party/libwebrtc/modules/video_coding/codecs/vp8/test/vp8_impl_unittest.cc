@@ -638,9 +638,6 @@ WithParamInterface
 using
 EncoderInfo
 =
-webrtc
-:
-:
 VideoEncoder
 :
 :
@@ -655,9 +652,6 @@ absl
 InlinedVector
 <
 uint8_t
-webrtc
-:
-:
 kMaxTemporalStreams
 >
 ;
@@ -804,9 +798,6 @@ codec_settings
 )
 override
 {
-webrtc
-:
-:
 test
 :
 :

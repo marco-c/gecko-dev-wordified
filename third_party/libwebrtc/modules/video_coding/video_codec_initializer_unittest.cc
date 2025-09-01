@@ -625,9 +625,6 @@ encoder_specific_settings
 =
 make_ref_counted
 <
-webrtc
-:
-:
 VideoEncoderConfig
 :
 :
@@ -691,9 +688,6 @@ encoder_specific_settings
 =
 make_ref_counted
 <
-webrtc
-:
-:
 VideoEncoderConfig
 :
 :

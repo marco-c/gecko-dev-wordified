@@ -278,11 +278,6 @@ webrtc
 namespace
 {
 using
-:
-:
-webrtc
-:
-:
 webrtc_pc_e2e
 :
 :

@@ -218,16 +218,10 @@ bool
 FramesEqual
 (
 const
-webrtc
-:
-:
 VideoFrame
 &
 f1
 const
-webrtc
-:
-:
 VideoFrame
 &
 f2
@@ -303,9 +297,6 @@ FrameBufsEqual
 const
 scoped_refptr
 <
-webrtc
-:
-:
 VideoFrameBuffer
 >
 &
@@ -313,9 +304,6 @@ f1
 const
 scoped_refptr
 <
-webrtc
-:
-:
 VideoFrameBuffer
 >
 &
@@ -417,9 +405,6 @@ false
 }
 scoped_refptr
 <
-webrtc
-:
-:
 I420BufferInterface
 >
 f1_i420
@@ -433,9 +418,6 @@ ToI420
 ;
 scoped_refptr
 <
-webrtc
-:
-:
 I420BufferInterface
 >
 f2_i420

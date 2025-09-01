@@ -510,9 +510,6 @@ bool
 WriteFrame
 (
 const
-webrtc
-:
-:
 VideoFrame
 &
 frame

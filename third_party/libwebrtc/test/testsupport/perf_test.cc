@@ -222,9 +222,6 @@ absl
 :
 string_view
 units
-webrtc
-:
-:
 test
 :
 :
@@ -238,9 +235,6 @@ improve_direction
 )
 {
 case
-webrtc
-:
-:
 test
 :
 :
@@ -259,9 +253,6 @@ units
 )
 ;
 case
-webrtc
-:
-:
 test
 :
 :
@@ -284,9 +275,6 @@ _smallerIsBetter
 "
 ;
 case
-webrtc
-:
-:
 test
 :
 :
@@ -489,9 +477,6 @@ std
 string
 trace_name
 ;
-webrtc
-:
-:
 SamplesStatsCounter
 counter
 ;
@@ -552,9 +537,6 @@ absl
 string_view
 trace_name
 const
-webrtc
-:
-:
 SamplesStatsCounter
 &
 counter
@@ -1256,9 +1238,6 @@ units
 const
 bool
 important
-webrtc
-:
-:
 test
 :
 :

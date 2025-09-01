@@ -250,9 +250,6 @@ false
 }
 vcm_
 =
-webrtc
-:
-:
 VideoCaptureFactory
 :
 :

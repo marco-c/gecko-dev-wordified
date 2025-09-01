@@ -154,9 +154,6 @@ config
 )
 previous_field_trials_
 (
-webrtc
-:
-:
 field_trial
 :
 :
@@ -167,9 +164,6 @@ GetFieldTrialString
 {
 RTC_CHECK
 (
-webrtc
-:
-:
 field_trial
 :
 :
@@ -195,9 +189,6 @@ string
 <
 current_field_trials_
 ;
-webrtc
-:
-:
 field_trial
 :
 :
@@ -221,9 +212,6 @@ ScopedFieldTrials
 {
 RTC_CHECK
 (
-webrtc
-:
-:
 field_trial
 :
 :
@@ -245,9 +233,6 @@ string
 <
 previous_field_trials_
 ;
-webrtc
-:
-:
 field_trial
 :
 :

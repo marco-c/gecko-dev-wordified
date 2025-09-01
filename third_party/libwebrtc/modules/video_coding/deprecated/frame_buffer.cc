@@ -293,9 +293,6 @@ VCMFrameBuffer
 )
 {
 }
-webrtc
-:
-:
 VideoFrameType
 VCMFrameBuffer
 :

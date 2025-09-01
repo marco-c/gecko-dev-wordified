@@ -447,11 +447,6 @@ namespace
 using
 EmulatedSFUConfigMap
 =
-:
-:
-webrtc
-:
-:
 webrtc_pc_e2e
 :
 :

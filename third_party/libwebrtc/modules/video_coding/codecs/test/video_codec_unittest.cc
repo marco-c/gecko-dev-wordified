@@ -622,9 +622,6 @@ SetUp
 (
 )
 {
-webrtc
-:
-:
 test
 :
 :

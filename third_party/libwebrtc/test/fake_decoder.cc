@@ -355,9 +355,6 @@ buffer
 .
 set_rotation
 (
-webrtc
-:
-:
 kVideoRotation_0
 )
 .

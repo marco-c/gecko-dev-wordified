@@ -1184,9 +1184,6 @@ if
 given
 .
 const
-webrtc
-:
-:
 I420ABufferInterface
 *
 yuva_buffer

@@ -514,9 +514,6 @@ FrameInFlight
 :
 OnFrameEncoded
 (
-webrtc
-:
-:
 Timestamp
 time
 std
@@ -736,14 +733,8 @@ OnFramePreDecode
 (
 size_t
 peer
-webrtc
-:
-:
 Timestamp
 received_time
-webrtc
-:
-:
 Timestamp
 decode_start_time
 VideoFrameType
@@ -847,9 +838,6 @@ OnFrameDecoded
 (
 size_t
 peer
-webrtc
-:
-:
 Timestamp
 time
 int
@@ -1008,9 +996,6 @@ OnFrameRendered
 (
 size_t
 peer
-webrtc
-:
-:
 Timestamp
 time
 )

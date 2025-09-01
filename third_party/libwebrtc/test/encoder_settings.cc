@@ -197,9 +197,6 @@ width
 int
 height
 const
-webrtc
-:
-:
 VideoEncoderConfig
 &
 encoder_config
@@ -710,9 +707,6 @@ frame_width
 int
 frame_height
 const
-webrtc
-:
-:
 VideoEncoderConfig
 &
 encoder_config

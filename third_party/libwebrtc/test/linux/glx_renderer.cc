@@ -792,9 +792,6 @@ GlxRenderer
 OnFrame
 (
 const
-webrtc
-:
-:
 VideoFrame
 &
 frame

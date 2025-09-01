@@ -533,9 +533,6 @@ Y4mVideoFrameWriterImpl
 WriteFrame
 (
 const
-webrtc
-:
-:
 VideoFrame
 &
 frame
@@ -721,9 +718,6 @@ YuvVideoFrameWriterImpl
 WriteFrame
 (
 const
-webrtc
-:
-:
 VideoFrame
 &
 frame

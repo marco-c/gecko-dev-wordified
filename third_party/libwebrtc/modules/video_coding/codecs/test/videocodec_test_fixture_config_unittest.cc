@@ -247,9 +247,6 @@ NumberOfTemporalLayersIsOne
 Config
 config
 ;
-webrtc
-:
-:
 test
 :
 :
@@ -282,9 +279,6 @@ NumberOfTemporalLayers_Vp8
 Config
 config
 ;
-webrtc
-:
-:
 test
 :
 :
@@ -330,9 +324,6 @@ NumberOfTemporalLayers_Vp9
 Config
 config
 ;
-webrtc
-:
-:
 test
 :
 :

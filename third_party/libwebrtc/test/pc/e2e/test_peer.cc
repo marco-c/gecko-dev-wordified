@@ -314,9 +314,6 @@ class
 SetRemoteDescriptionCallback
 :
 public
-webrtc
-:
-:
 SetRemoteDescriptionObserverInterface
 {
 public
@@ -324,9 +321,6 @@ public
 void
 OnSetRemoteDescriptionComplete
 (
-webrtc
-:
-:
 RTCError
 error
 )
@@ -351,9 +345,6 @@ return
 is_called_
 ;
 }
-webrtc
-:
-:
 RTCError
 error
 (
@@ -371,9 +362,6 @@ is_called_
 =
 false
 ;
-webrtc
-:
-:
 RTCError
 error_
 ;

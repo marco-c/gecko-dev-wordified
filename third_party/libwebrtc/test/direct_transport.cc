@@ -732,9 +732,6 @@ size
 )
 {
 case
-webrtc
-:
-:
 MediaType
 :
 :
@@ -748,9 +745,6 @@ audio_extensions_
 break
 ;
 case
-webrtc
-:
-:
 MediaType
 :
 :

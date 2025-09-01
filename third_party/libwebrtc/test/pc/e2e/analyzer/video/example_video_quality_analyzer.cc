@@ -186,9 +186,6 @@ string
 &
 stream_label
 const
-webrtc
-:
-:
 VideoFrame
 &
 frame
@@ -383,9 +380,6 @@ absl
 string_view
 peer_name
 const
-webrtc
-:
-:
 VideoFrame
 &
 frame
@@ -417,9 +411,6 @@ peer_name
 uint16_t
 frame_id
 const
-webrtc
-:
-:
 EncodedImage
 &
 encoded_image
@@ -454,9 +445,6 @@ absl
 :
 string_view
 peer_name
-webrtc
-:
-:
 EncodedImageCallback
 :
 :
@@ -503,9 +491,6 @@ peer_name
 uint16_t
 frame_id
 const
-webrtc
-:
-:
 EncodedImage
 &
 encoded_image
@@ -535,9 +520,6 @@ absl
 string_view
 peer_name
 const
-webrtc
-:
-:
 VideoFrame
 &
 frame
@@ -571,9 +553,6 @@ absl
 string_view
 peer_name
 const
-webrtc
-:
-:
 VideoFrame
 &
 frame
@@ -614,9 +593,6 @@ absl
 string_view
 peer_name
 const
-webrtc
-:
-:
 VideoFrame
 &
 frame

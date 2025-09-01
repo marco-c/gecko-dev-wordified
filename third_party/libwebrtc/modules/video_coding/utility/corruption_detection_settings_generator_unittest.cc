@@ -210,9 +210,6 @@ CorruptionDetectionSettingsGenerator
 ErrorThresholds
 {
 }
-webrtc
-:
-:
 CorruptionDetectionSettingsGenerator
 :
 :
@@ -395,9 +392,6 @@ chroma
 =
 6
 }
-webrtc
-:
-:
 CorruptionDetectionSettingsGenerator
 :
 :
@@ -484,9 +478,6 @@ CorruptionDetectionSettingsGenerator
 ErrorThresholds
 {
 }
-webrtc
-:
-:
 CorruptionDetectionSettingsGenerator
 :
 :
@@ -665,9 +656,6 @@ chroma
 =
 6
 }
-webrtc
-:
-:
 CorruptionDetectionSettingsGenerator
 :
 :
@@ -792,9 +780,6 @@ std_dev
 by
 2
 .
-webrtc
-:
-:
 CorruptionDetectionSettingsGenerator
 :
 :
@@ -1069,9 +1054,6 @@ thresholds
 by
 2
 .
-webrtc
-:
-:
 CorruptionDetectionSettingsGenerator
 :
 :
@@ -1358,9 +1340,6 @@ CorruptionDetectionSettingsGenerator
 ErrorThresholds
 {
 }
-webrtc
-:
-:
 CorruptionDetectionSettingsGenerator
 :
 :
@@ -1480,9 +1459,6 @@ CorruptionDetectionSettingsGenerator
 ErrorThresholds
 {
 }
-webrtc
-:
-:
 CorruptionDetectionSettingsGenerator
 :
 :
@@ -1608,9 +1584,6 @@ thresholds
 by
 2
 .
-webrtc
-:
-:
 CorruptionDetectionSettingsGenerator
 :
 :

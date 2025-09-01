@@ -222,9 +222,6 @@ observers
 )
 )
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -302,9 +299,6 @@ observers
 )
 )
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -350,9 +344,6 @@ PollStatsAndNotifyObservers
 (
 )
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -394,9 +385,6 @@ StatsProvider
 peer
 )
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -433,9 +421,6 @@ string_view
 peer_name
 )
 {
-webrtc
-:
-:
 MutexLock
 lock
 (

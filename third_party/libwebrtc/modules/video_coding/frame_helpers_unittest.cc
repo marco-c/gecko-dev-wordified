@@ -225,9 +225,6 @@ kRtpTimestamp
 =
 123456710
 ;
-webrtc
-:
-:
 scoped_refptr
 <
 EncodedImageBuffer
@@ -240,9 +237,6 @@ uint8_t
 x
 )
 {
-webrtc
-:
-:
 scoped_refptr
 <
 EncodedImageBuffer

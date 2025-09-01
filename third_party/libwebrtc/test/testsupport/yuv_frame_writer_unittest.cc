@@ -222,17 +222,11 @@ override
 {
 temp_filename_
 =
-webrtc
-:
-:
 test
 :
 :
 TempFilename
 (
-webrtc
-:
-:
 test
 :
 :

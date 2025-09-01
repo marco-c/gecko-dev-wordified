@@ -881,9 +881,6 @@ WithArg
 using
 EncoderInfo
 =
-webrtc
-:
-:
 VideoEncoder
 :
 :
@@ -898,9 +895,6 @@ absl
 InlinedVector
 <
 uint8_t
-webrtc
-:
-:
 kMaxTemporalStreams
 >
 ;
@@ -964,9 +958,6 @@ DefaultCodecSettings
 VideoCodec
 codec_settings
 ;
-webrtc
-:
-:
 test
 :
 :
@@ -1192,9 +1183,6 @@ codec_settings
 )
 override
 {
-webrtc
-:
-:
 test
 :
 :
@@ -16524,9 +16512,6 @@ codec_settings
 )
 override
 {
-webrtc
-:
-:
 test
 :
 :

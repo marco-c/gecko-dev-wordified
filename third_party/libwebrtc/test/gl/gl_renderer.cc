@@ -416,9 +416,6 @@ GlRenderer
 OnFrame
 (
 const
-webrtc
-:
-:
 VideoFrame
 &
 frame
@@ -478,9 +475,6 @@ height
 )
 ;
 }
-webrtc
-:
-:
 ConvertFromI420
 (
 frame
