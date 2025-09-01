@@ -395,10 +395,7 @@ StructuredCloneData
 aData
 nsTArray
 <
-UniquePtr
-<
 StructuredCloneData
->
 >
 *
 aRetVal
