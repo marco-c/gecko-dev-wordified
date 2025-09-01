@@ -380,7 +380,7 @@ SidebarController
 .
 sidebarMain
 .
-buttonsWrapper
+buttonGroup
 .
 clientHeight
 ;
@@ -435,7 +435,7 @@ SidebarController
 .
 sidebarMain
 .
-buttonsWrapper
+buttonGroup
 {
 attributes
 :
@@ -589,7 +589,7 @@ SidebarController
 .
 sidebarMain
 .
-buttonsWrapper
+buttonGroup
 {
 attributes
 :
@@ -846,7 +846,7 @@ SidebarController
 .
 sidebarMain
 .
-buttonsWrapper
+buttonGroup
 {
 attributes
 :
@@ -1234,7 +1234,7 @@ SidebarController
 .
 sidebarMain
 .
-buttonsWrapper
+buttonGroup
 {
 attributes
 :
@@ -1740,7 +1740,19 @@ toolsAndExtensionsButtonGroup
 =
 sidebar
 .
-buttonGroup
+shadowRoot
+.
+querySelector
+(
+"
+.
+tools
+-
+and
+-
+extensions
+"
+)
 ;
 Assert
 .
