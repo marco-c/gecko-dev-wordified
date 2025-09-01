@@ -4199,7 +4199,7 @@ get
 )
 !
 =
-NULL
+nullptr
 ;
 }
 /
@@ -4823,7 +4823,7 @@ if
 packet
 )
 return
-NULL
+nullptr
 ;
 VerifyPacket
 (
@@ -8857,7 +8857,7 @@ has_toggled_
 )
 ;
 return
-NULL
+nullptr
 ;
 /
 /

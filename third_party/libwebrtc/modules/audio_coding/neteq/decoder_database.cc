@@ -1352,7 +1352,7 @@ not
 found
 .
 return
-NULL
+nullptr
 ;
 }
 return
@@ -1539,7 +1539,7 @@ active
 decoder
 .
 return
-NULL
+nullptr
 ;
 }
 return
@@ -1670,7 +1670,7 @@ CNG
 decoder
 .
 return
-NULL
+nullptr
 ;
 }
 if

@@ -898,7 +898,7 @@ payload_type_
 )
 decoder_
 (
-NULL
+nullptr
 )
 {
 }
@@ -962,7 +962,7 @@ decoder_
 ;
 decoder_
 =
-NULL
+nullptr
 ;
 }
 virtual

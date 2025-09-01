@@ -465,7 +465,7 @@ TestPack
 :
 neteq_
 (
-NULL
+nullptr
 )
 sequence_number_
 (
@@ -751,7 +751,7 @@ CreateBuiltinAudioDecoderFactory
 )
 channel_a_to_b_
 (
-NULL
+nullptr
 )
 test_count_
 (
@@ -780,7 +780,7 @@ if
 channel_a_to_b_
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -788,7 +788,7 @@ channel_a_to_b_
 ;
 channel_a_to_b_
 =
-NULL
+nullptr
 ;
 }
 }

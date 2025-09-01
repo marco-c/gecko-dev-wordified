@@ -248,7 +248,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 <
 <
@@ -332,7 +332,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 <
 <

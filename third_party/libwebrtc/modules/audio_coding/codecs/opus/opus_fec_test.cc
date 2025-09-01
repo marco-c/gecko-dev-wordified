@@ -456,7 +456,7 @@ ASSERT_FALSE
 fp
 =
 =
-NULL
+nullptr
 )
 ;
 /
@@ -838,11 +838,11 @@ encoded_bytes_
 )
 opus_encoder_
 (
-NULL
+nullptr
 )
 opus_decoder_
 (
-NULL
+nullptr
 )
 {
 }
@@ -993,7 +993,7 @@ ret
 WebRtcOpus_Decode
 (
 opus_decoder_
-NULL
+nullptr
 0
 &
 out_data_

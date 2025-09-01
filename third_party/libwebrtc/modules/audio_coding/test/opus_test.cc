@@ -295,7 +295,7 @@ CreateBuiltinAudioDecoderFactory
 )
 channel_a2b_
 (
-NULL
+nullptr
 )
 counter_
 (
@@ -324,7 +324,7 @@ if
 channel_a2b_
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -332,7 +332,7 @@ channel_a2b_
 ;
 channel_a2b_
 =
-NULL
+nullptr
 ;
 }
 if
@@ -340,7 +340,7 @@ if
 opus_mono_encoder_
 !
 =
-NULL
+nullptr
 )
 {
 WebRtcOpus_EncoderFree
@@ -350,7 +350,7 @@ opus_mono_encoder_
 ;
 opus_mono_encoder_
 =
-NULL
+nullptr
 ;
 }
 if
@@ -358,7 +358,7 @@ if
 opus_stereo_encoder_
 !
 =
-NULL
+nullptr
 )
 {
 WebRtcOpus_EncoderFree
@@ -368,7 +368,7 @@ opus_stereo_encoder_
 ;
 opus_stereo_encoder_
 =
-NULL
+nullptr
 ;
 }
 if
@@ -376,7 +376,7 @@ if
 opus_mono_decoder_
 !
 =
-NULL
+nullptr
 )
 {
 WebRtcOpus_DecoderFree
@@ -386,7 +386,7 @@ opus_mono_decoder_
 ;
 opus_mono_decoder_
 =
-NULL
+nullptr
 ;
 }
 if
@@ -394,7 +394,7 @@ if
 opus_stereo_decoder_
 !
 =
-NULL
+nullptr
 )
 {
 WebRtcOpus_DecoderFree
@@ -404,7 +404,7 @@ opus_stereo_decoder_
 ;
 opus_stereo_decoder_
 =
-NULL
+nullptr
 ;
 }
 }
@@ -640,7 +640,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 neteq_
@@ -1981,7 +1981,7 @@ ret
 WebRtcOpus_Decode
 (
 opus_mono_decoder_
-NULL
+nullptr
 0
 &
 out_audio
@@ -2087,7 +2087,7 @@ ret
 WebRtcOpus_Decode
 (
 opus_stereo_decoder_
-NULL
+nullptr
 0
 &
 out_audio

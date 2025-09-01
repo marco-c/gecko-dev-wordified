@@ -507,7 +507,7 @@ decoder_factory_
 )
 _channelA2B
 (
-NULL
+nullptr
 )
 _testCntr
 (
@@ -528,7 +528,7 @@ if
 _channelA2B
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -536,7 +536,7 @@ _channelA2B
 ;
 _channelA2B
 =
-NULL
+nullptr
 ;
 }
 }

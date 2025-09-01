@@ -363,7 +363,7 @@ TestPackStereo
 :
 neteq_
 (
-NULL
+nullptr
 )
 seq_no_
 (
@@ -715,7 +715,7 @@ CreateBuiltinAudioDecoderFactory
 )
 channel_a2b_
 (
-NULL
+nullptr
 )
 test_cntr_
 (
@@ -748,7 +748,7 @@ if
 channel_a2b_
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -756,7 +756,7 @@ channel_a2b_
 ;
 channel_a2b_
 =
-NULL
+nullptr
 ;
 }
 }
@@ -922,7 +922,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 &
 &
@@ -934,7 +934,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 )
 ;
@@ -3271,7 +3271,7 @@ AudioCodingModule
 *
 my_acm
 =
-NULL
+nullptr
 ;
 switch
 (
@@ -3345,7 +3345,7 @@ ASSERT_TRUE
 my_acm
 !
 =
-NULL
+nullptr
 )
 ;
 auto

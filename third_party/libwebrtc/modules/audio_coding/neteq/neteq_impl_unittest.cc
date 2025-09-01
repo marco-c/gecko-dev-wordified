@@ -1293,7 +1293,7 @@ ASSERT_TRUE
 neteq_
 !
 =
-NULL
+nullptr
 )
 ;
 }
@@ -1320,7 +1320,7 @@ ASSERT_TRUE
 neteq_
 =
 =
-NULL
+nullptr
 )
 <
 <
@@ -4099,7 +4099,7 @@ ASSERT_TRUE
 sync_buffer
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ

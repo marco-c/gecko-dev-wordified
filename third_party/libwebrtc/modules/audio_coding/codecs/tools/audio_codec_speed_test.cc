@@ -244,7 +244,7 @@ decoding_time_ms_
 )
 out_file_
 (
-NULL
+nullptr
 )
 {
 }

@@ -509,7 +509,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 encoded_
@@ -5328,7 +5328,7 @@ AudioEncoderCopyRed
 *
 red
 =
-NULL
+nullptr
 ;
 AudioEncoderCopyRed
 :
@@ -5340,7 +5340,7 @@ config
 .
 speech_encoder
 =
-NULL
+nullptr
 ;
 RTC_EXPECT_DEATH
 (

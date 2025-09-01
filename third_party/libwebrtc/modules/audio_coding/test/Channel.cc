@@ -672,7 +672,7 @@ ACMTestPayloadStats
 *
 currentPayloadStr
 =
-NULL
+nullptr
 ;
 for
 (
@@ -1215,7 +1215,7 @@ chID
 :
 _neteq
 (
-NULL
+nullptr
 )
 _seqNo
 (
@@ -1223,7 +1223,7 @@ _seqNo
 )
 _bitStreamFile
 (
-NULL
+nullptr
 )
 _saveBitStream
 (

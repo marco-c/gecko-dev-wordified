@@ -260,11 +260,11 @@ kOpusSamplingKhz
 )
 opus_encoder_
 (
-NULL
+nullptr
 )
 opus_decoder_
 (
-NULL
+nullptr
 )
 {
 }

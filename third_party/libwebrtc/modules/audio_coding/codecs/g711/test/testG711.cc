@@ -276,7 +276,7 @@ FILE
 *
 bitp
 =
-NULL
+nullptr
 ;
 int
 framecnt
@@ -755,7 +755,7 @@ wb
 )
 =
 =
-NULL
+nullptr
 )
 {
 printf
@@ -799,7 +799,7 @@ rb
 )
 =
 =
-NULL
+nullptr
 )
 {
 printf
@@ -842,7 +842,7 @@ wb
 )
 =
 =
-NULL
+nullptr
 )
 {
 printf

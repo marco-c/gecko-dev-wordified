@@ -1328,7 +1328,7 @@ tone_gen
 Generate
 (
 kNumSamples
-NULL
+nullptr
 )
 )
 ;

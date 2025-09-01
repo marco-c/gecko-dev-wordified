@@ -978,7 +978,7 @@ AudioMultiVector
 *
 vec_copy
 =
-NULL
+nullptr
 ;
 vec
 .
