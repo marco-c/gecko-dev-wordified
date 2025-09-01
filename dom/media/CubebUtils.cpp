@@ -5524,6 +5524,12 @@ GetDefaultStreamPrefs
 CUBEB_DEVICE_TYPE_OUTPUT
 )
 ;
+output_params
+.
+input_params
+=
+CUBEB_INPUT_PROCESSING_PARAM_NONE
+;
 latencyFrames
 =
 GetCubebMTGLatencyInFrames
@@ -5567,6 +5573,12 @@ GetDefaultStreamPrefs
 (
 CUBEB_DEVICE_TYPE_INPUT
 )
+;
+input_params
+.
+input_params
+=
+CUBEB_INPUT_PROCESSING_PARAM_NONE
 ;
 cubeb_stream
 *
