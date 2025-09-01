@@ -22,6 +22,7 @@ test
 (
 locale
 timeZone
+timeZoneName
 )
 {
 let
@@ -31,9 +32,7 @@ newGlobal
 (
 {
 locale
-forceUTC
-:
-true
+timeZone
 }
 )
 ;
@@ -135,7 +134,7 @@ date
 [
 1
 ]
-timeZone
+timeZoneName
 )
 }
 test
@@ -144,6 +143,11 @@ test
 de
 -
 CH
+"
+"
+Atlantic
+/
+Reykjavik
 "
 "
 Mittlere
@@ -157,6 +161,11 @@ test
 (
 "
 en
+"
+"
+Atlantic
+/
+Reykjavik
 "
 "
 Greenwich
