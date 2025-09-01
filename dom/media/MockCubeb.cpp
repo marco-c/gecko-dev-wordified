@@ -100,15 +100,6 @@ MockCubeb
 .
 h
 "
-#
-include
-"
-gtest
-/
-gtest
-.
-h
-"
 namespace
 mozilla
 {
