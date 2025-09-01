@@ -260,7 +260,7 @@ selectedTab
 const
 onScreenshotDownloaded
 =
-waitUntilScreenshot
+waitUntilDownload
 (
 )
 ;
@@ -696,7 +696,7 @@ selectedTab
 const
 onPrivateScreenshotDownloaded
 =
-waitUntilScreenshot
+waitUntilDownload
 (
 {
 isWindowPrivate
