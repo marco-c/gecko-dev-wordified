@@ -3243,10 +3243,11 @@ Cache_Control
 {
 ParseCacheControl
 (
-val
+mHeaders
 .
-get
+PeekHeader
 (
+hdr
 )
 )
 ;
