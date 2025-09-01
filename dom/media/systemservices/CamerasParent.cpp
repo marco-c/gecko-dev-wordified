@@ -4612,7 +4612,6 @@ tuple
 nsCString
 nsCString
 pid_t
-bool
 int
 >
 ;
@@ -4671,11 +4670,6 @@ devicePid
 =
 0
 ;
-bool
-placeholder
-=
-false
-;
 int
 error
 =
@@ -4715,8 +4709,6 @@ nullptr
 0
 &
 devicePid
-&
-placeholder
 )
 ;
 }
@@ -4769,7 +4761,6 @@ move
 uniqueId
 )
 devicePid
-placeholder
 error
 )
 "
@@ -4814,7 +4805,6 @@ auto
 name
 uniqueId
 devicePid
-placeholder
 error
 ]
 =
@@ -4926,7 +4916,6 @@ SendReplyGetCaptureDevice
 name
 uniqueId
 scary
-placeholder
 )
 ;
 }
