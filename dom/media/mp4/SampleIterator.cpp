@@ -2990,7 +2990,8 @@ Length
 {
 if
 (
-!
+NS_FAILED
+(
 mIndex
 -
 >
@@ -2999,6 +3000,7 @@ mMoofParser
 >
 BlockingReadNextMoof
 (
+)
 )
 )
 {
