@@ -25461,7 +25461,7 @@ chat
 .
 page
 "
-false
+true
 )
 ;
 pref
