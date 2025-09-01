@@ -3319,7 +3319,7 @@ Namespace
 type
 BorrowedLocalName
 =
-markup5ever
+web_atoms
 :
 :
 LocalName
@@ -3327,7 +3327,7 @@ LocalName
 type
 BorrowedNamespaceUrl
 =
-markup5ever
+web_atoms
 :
 :
 Namespace
