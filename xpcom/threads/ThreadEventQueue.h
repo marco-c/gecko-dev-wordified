@@ -270,11 +270,10 @@ false
 bool
 PutEvent
 (
-already_AddRefed
+RefPtr
 <
 nsIRunnable
 >
-&
 &
 aEvent
 EventQueuePriority
@@ -428,11 +427,10 @@ ThreadEventQueue
 bool
 PutEventInternal
 (
-already_AddRefed
+RefPtr
 <
 nsIRunnable
 >
-&
 &
 aEvent
 EventQueuePriority

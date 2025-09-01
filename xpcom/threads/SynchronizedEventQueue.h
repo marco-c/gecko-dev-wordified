@@ -340,11 +340,10 @@ virtual
 bool
 PutEvent
 (
-already_AddRefed
+RefPtr
 <
 nsIRunnable
 >
-&
 &
 aEvent
 EventQueuePriority

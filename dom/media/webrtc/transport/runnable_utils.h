@@ -196,7 +196,10 @@ thread
 nsIRunnable
 *
 runnable
-uint32_t
+nsIEventTarget
+:
+:
+DispatchFlags
 flags
 )
 {
@@ -1315,7 +1318,10 @@ NoResult
 >
 *
 runnable
-uint32_t
+nsIEventTarget
+:
+:
+DispatchFlags
 flags
 )
 {

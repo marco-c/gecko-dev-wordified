@@ -782,7 +782,7 @@ RegisterEvent
 (
 this
 )
-0
+NS_DISPATCH_NORMAL
 )
 ;
 ASSERT_TRUE
@@ -862,7 +862,7 @@ EventReceived
 (
 this
 )
-0
+NS_DISPATCH_NORMAL
 )
 ;
 ASSERT_TRUE
