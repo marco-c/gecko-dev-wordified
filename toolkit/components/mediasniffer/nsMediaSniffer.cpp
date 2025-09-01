@@ -1573,7 +1573,7 @@ aLength
 )
 {
 return
-nestegg_sniff
+nestegg_sniff_webm
 (
 (
 uint8_t
