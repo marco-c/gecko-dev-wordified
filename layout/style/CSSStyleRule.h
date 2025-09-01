@@ -488,7 +488,7 @@ nsACString
 aSelectorText
 )
 ;
-nsICSSDeclaration
+nsDOMCSSDeclaration
 *
 Style
 (

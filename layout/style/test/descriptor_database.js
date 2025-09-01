@@ -124,11 +124,7 @@ the
 relevant
 member
 of
-nsIDOM
-[
-NS
-]
-CSS2Properties
+CSSStyleProperties
 /
 /
 values

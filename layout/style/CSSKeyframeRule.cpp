@@ -1119,7 +1119,7 @@ aCssText
 )
 ;
 }
-nsICSSDeclaration
+nsDOMCSSDeclaration
 *
 CSSKeyframeRule
 :

@@ -5728,7 +5728,7 @@ className
 !
 =
 "
-CSS2Properties
+CSSStyleProperties
 "
 )
 |
