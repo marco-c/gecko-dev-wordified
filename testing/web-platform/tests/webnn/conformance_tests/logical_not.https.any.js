@@ -194,7 +194,7 @@ arguments
 [
 {
 '
-input
+a
 '
 :
 '
@@ -347,7 +347,7 @@ arguments
 [
 {
 '
-input
+a
 '
 :
 '
@@ -518,7 +518,7 @@ arguments
 [
 {
 '
-input
+a
 '
 :
 '
@@ -690,7 +690,7 @@ arguments
 [
 {
 '
-input
+a
 '
 :
 '
@@ -864,7 +864,7 @@ arguments
 [
 {
 '
-input
+a
 '
 :
 '
@@ -1040,7 +1040,7 @@ arguments
 [
 {
 '
-input
+a
 '
 :
 '
@@ -1218,7 +1218,7 @@ arguments
 [
 {
 '
-input
+a
 '
 :
 '
@@ -1310,6 +1310,11 @@ ml
 {
 logicalNotTests
 .
+filter
+(
+isTargetTest
+)
+.
 forEach
 (
 (
@@ -1323,13 +1328,6 @@ webnn_conformance_test
 buildAndExecuteGraph
 getZeroULPTolerance
 test
-/
-*
-cast_to_supported_type
-=
-*
-/
-true
 )
 ;
 }

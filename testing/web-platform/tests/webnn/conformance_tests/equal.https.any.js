@@ -7522,6 +7522,11 @@ ml
 {
 equalTests
 .
+filter
+(
+isTargetTest
+)
+.
 forEach
 (
 (
@@ -7535,13 +7540,6 @@ webnn_conformance_test
 buildAndExecuteGraph
 getZeroULPTolerance
 test
-/
-*
-cast_to_supported_type
-=
-*
-/
-true
 )
 ;
 }
