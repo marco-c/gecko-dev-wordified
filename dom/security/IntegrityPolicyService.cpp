@@ -1285,7 +1285,7 @@ policyContainer
 )
 -
 >
-IntegrityPolicy
+GetIntegrityPolicy
 (
 )
 )

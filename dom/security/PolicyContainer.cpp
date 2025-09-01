@@ -1134,7 +1134,7 @@ nsIContentSecurityPolicy
 PolicyContainer
 :
 :
-CSP
+GetCSP
 (
 )
 const
@@ -1176,7 +1176,7 @@ aPolicyContainer
 )
 -
 >
-CSP
+GetCSP
 (
 )
 ;
@@ -1210,7 +1210,7 @@ nsIIntegrityPolicy
 PolicyContainer
 :
 :
-IntegrityPolicy
+GetIntegrityPolicy
 (
 )
 const
@@ -1252,7 +1252,7 @@ aPolicyContainer
 )
 -
 >
-IntegrityPolicy
+GetIntegrityPolicy
 (
 )
 ;

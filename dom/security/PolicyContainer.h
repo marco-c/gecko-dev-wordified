@@ -378,7 +378,7 @@ CSP
 =
 nsIContentSecurityPolicy
 *
-CSP
+GetCSP
 (
 )
 const
@@ -412,7 +412,7 @@ Policy
 =
 nsIIntegrityPolicy
 *
-IntegrityPolicy
+GetIntegrityPolicy
 (
 )
 const
