@@ -3768,7 +3768,7 @@ y
 apzc
 -
 >
-AssertStateIsSmoothScroll
+AssertInSmoothScroll
 (
 )
 ;
@@ -3931,7 +3931,7 @@ y
 apzc
 -
 >
-AssertStateIsSmoothScroll
+AssertInSmoothScroll
 (
 )
 ;
@@ -4310,7 +4310,7 @@ Time
 apzc
 -
 >
-AssertStateIsWheelScroll
+AssertInWheelScroll
 (
 )
 ;
@@ -4511,7 +4511,7 @@ y
 apzc
 -
 >
-AssertStateIsWheelScroll
+AssertInWheelScroll
 (
 )
 ;
@@ -4861,7 +4861,7 @@ Time
 apzc
 -
 >
-AssertStateIsWheelScroll
+AssertInWheelScroll
 (
 )
 ;
@@ -5038,7 +5038,7 @@ y
 apzc
 -
 >
-AssertStateIsWheelScroll
+AssertInWheelScroll
 (
 )
 ;
@@ -5556,7 +5556,7 @@ futureTimeStamp
 apzc
 -
 >
-AssertStateIsWheelScroll
+AssertInWheelScroll
 (
 )
 ;

@@ -1160,7 +1160,7 @@ ScreenIntPoint
 apzc
 -
 >
-AssertStateIsSmoothMsdScroll
+AssertInSmoothMsdScroll
 (
 )
 ;
@@ -1743,7 +1743,7 @@ to
 apzc
 -
 >
-AssertStateIsSmoothMsdScroll
+AssertInSmoothMsdScroll
 (
 )
 ;
@@ -2434,7 +2434,7 @@ above
 apzc
 -
 >
-AssertStateIsSmoothMsdScroll
+AssertInSmoothMsdScroll
 (
 )
 ;

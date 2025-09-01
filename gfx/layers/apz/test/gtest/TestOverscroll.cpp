@@ -18451,7 +18451,7 @@ true
 apzc
 -
 >
-AssertStateIsSmoothMsdScroll
+AssertInSmoothMsdScroll
 (
 )
 ;
