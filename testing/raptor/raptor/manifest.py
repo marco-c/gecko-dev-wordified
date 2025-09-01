@@ -5774,6 +5774,10 @@ host_from_parent
 "
 expose_browser_profiler
 "
+            
+"
+sparse_checkout
+"
         
 ]
         
