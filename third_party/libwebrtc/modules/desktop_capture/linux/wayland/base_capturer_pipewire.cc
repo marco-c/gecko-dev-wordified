@@ -496,6 +496,14 @@ options_
 screencast_stream
 (
 )
+|
+|
+!
+options_
+.
+screencast_stream
+(
+)
 -
 >
 StartScreenCastStream
