@@ -514,17 +514,6 @@ mDeferredTasks
 ;
 }
 virtual
-SmoothMsdScrollAnimation
-*
-AsSmoothMsdScrollAnimation
-(
-)
-{
-return
-nullptr
-;
-}
-virtual
 SmoothScrollAnimation
 *
 AsSmoothScrollAnimation
