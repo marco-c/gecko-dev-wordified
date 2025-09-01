@@ -1202,6 +1202,7 @@ LayoutDeviceIntRect
 CharBounds
 (
 )
+const
 ;
 /
 *
@@ -1686,6 +1687,16 @@ ComputeBoundsFromFrame
 (
 )
 const
+;
+LayoutDeviceIntRect
+InsertionPointBounds
+(
+)
+const
+;
+friend
+class
+TextLeafRange
 ;
 }
 ;
