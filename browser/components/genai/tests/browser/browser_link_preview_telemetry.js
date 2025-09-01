@@ -436,7 +436,6 @@ testGetValue
 (
 )
 "
-shift
 shift_alt
 long_press
 "
@@ -3574,10 +3573,10 @@ extra
 .
 type
 "
-shiftKey
+longPress
 "
 "
-shiftKey
+longPress
 type
 recorded
 for
@@ -3684,10 +3683,10 @@ extra
 .
 type
 "
-shiftKey
+longPress
 "
 "
-shiftKey
+longPress
 type
 recorded
 for
