@@ -104,12 +104,6 @@ servo_arc
 Arc
 ;
 use
-stylo_atoms
-:
-:
-Atom
-;
-use
 servo_config
 :
 :
@@ -342,6 +336,12 @@ values
 CustomIdent
 KeyframesName
 }
+;
+use
+stylo_atoms
+:
+:
+Atom
 ;
 pub
 fn

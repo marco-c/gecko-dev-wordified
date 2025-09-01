@@ -93,12 +93,6 @@ servo_arc
 Arc
 ;
 use
-stylo_atoms
-:
-:
-Atom
-;
-use
 style
 :
 :
@@ -214,6 +208,12 @@ thread_state
 self
 ThreadState
 }
+;
+use
+stylo_atoms
+:
+:
+Atom
 ;
 /
 /
