@@ -5358,11 +5358,6 @@ aIsSameDocumentNavigation
 false
 loadInfoArgs
 .
-requestMode
-(
-)
-loadInfoArgs
-.
 storagePermission
 (
 )
