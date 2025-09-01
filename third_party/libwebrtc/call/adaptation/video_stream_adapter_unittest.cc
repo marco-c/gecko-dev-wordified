@@ -979,9 +979,6 @@ field_trials_
 }
 protected
 :
-webrtc
-:
-:
 test
 :
 :
@@ -7281,9 +7278,6 @@ VideoStreamAdapterDeathTest
 SetDegradationPreferenceInvalidatesAdaptations
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -7372,9 +7366,6 @@ VideoStreamAdapterDeathTest
 AdaptDownInvalidatesAdaptations
 )
 {
-webrtc
-:
-:
 test
 :
 :

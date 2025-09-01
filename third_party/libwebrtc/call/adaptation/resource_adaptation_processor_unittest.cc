@@ -834,9 +834,6 @@ protected
 AutoThread
 main_thread_
 ;
-webrtc
-:
-:
 test
 :
 :
