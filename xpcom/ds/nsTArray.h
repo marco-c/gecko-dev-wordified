@@ -26962,13 +26962,6 @@ pointers
 .
 if
 (
-(
-!
-UsesAutoArrayBuffer
-(
-)
-|
-|
 Capacity
 (
 )
@@ -26977,7 +26970,6 @@ aOther
 .
 Length
 (
-)
 )
 &
 &
