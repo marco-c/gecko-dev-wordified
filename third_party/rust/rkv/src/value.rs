@@ -194,7 +194,8 @@ stored
 /
 /
 in
-LMDB
+the
+database
 .
 This
 is
