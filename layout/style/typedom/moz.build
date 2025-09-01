@@ -126,6 +126,11 @@ CSSHSL
 h
 "
 "
+CSSHWB
+.
+h
+"
+"
 CSSImageValue
 .
 h
@@ -282,6 +287,11 @@ cpp
 "
 "
 CSSHSL
+.
+cpp
+"
+"
+CSSHWB
 .
 cpp
 "

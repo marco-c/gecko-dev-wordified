@@ -3481,6 +3481,11 @@ CSSHSL
 webidl
 "
 "
+CSSHWB
+.
+webidl
+"
+"
 CSSImageValue
 .
 webidl
