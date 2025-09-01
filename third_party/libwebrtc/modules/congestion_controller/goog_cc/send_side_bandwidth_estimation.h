@@ -732,12 +732,6 @@ bool
 in_alr
 )
 ;
-bool
-PaceAtLossBasedEstimate
-(
-)
-const
-;
 private
 :
 friend

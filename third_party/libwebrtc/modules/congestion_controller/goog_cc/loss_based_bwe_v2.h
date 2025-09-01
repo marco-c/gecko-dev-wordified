@@ -522,12 +522,6 @@ bool
 in_alr
 )
 ;
-bool
-PaceAtLossBasedEstimate
-(
-)
-const
-;
 /
 /
 For
