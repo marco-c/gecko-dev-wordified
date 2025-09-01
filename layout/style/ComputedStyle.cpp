@@ -3411,7 +3411,7 @@ HasAnchorPositioningFunction
 pos
 -
 >
-mMinHeight
+mMinWidth
 .
 HasAnchorPositioningFunction
 (
@@ -3431,7 +3431,7 @@ HasAnchorPositioningFunction
 pos
 -
 >
-mMaxHeight
+mMaxWidth
 .
 HasAnchorPositioningFunction
 (
