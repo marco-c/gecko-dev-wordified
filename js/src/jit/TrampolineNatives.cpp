@@ -1666,7 +1666,7 @@ int32_t
 ArraySortResult
 :
 :
-CallJSSameRealmNoRectifier
+CallJSSameRealmNoUnderflow
 )
 )
 &
