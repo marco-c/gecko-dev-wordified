@@ -208,6 +208,7 @@ mFeatures
 }
 private
 :
+virtual
 ~
 SupportedFeatures
 (
@@ -215,12 +216,6 @@ SupportedFeatures
 =
 default
 ;
-void
-Cleanup
-(
-)
-{
-}
 std
 :
 :

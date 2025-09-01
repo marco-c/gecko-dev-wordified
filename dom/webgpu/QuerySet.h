@@ -148,6 +148,8 @@ QuerySet
 final
 :
 public
+nsWrapperCache
+public
 ObjectBase
 public
 ChildOf
@@ -208,10 +210,6 @@ Count
 )
 const
 ;
-const
-RawId
-mId
-;
 private
 :
 virtual
@@ -219,11 +217,8 @@ virtual
 QuerySet
 (
 )
-;
-void
-Cleanup
-(
-)
+=
+default
 ;
 dom
 :

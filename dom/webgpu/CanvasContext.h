@@ -205,11 +205,6 @@ CanvasContext
 (
 )
 ;
-void
-Cleanup
-(
-)
-;
 public
 :
 /
@@ -650,7 +645,7 @@ RefPtr
 <
 WebGPUChild
 >
-mBridge
+mChild
 ;
 RefPtr
 <
