@@ -122,6 +122,7 @@ webrtc
 {
 class
 AudioVector
+final
 {
 public
 :
@@ -153,7 +154,6 @@ size_t
 initial_size
 )
 ;
-virtual
 ~
 AudioVector
 (
@@ -191,7 +191,6 @@ the
 vector
 empty
 .
-virtual
 void
 Clear
 (
@@ -238,7 +237,6 @@ of
 this
 object
 .
-virtual
 void
 CopyTo
 (
@@ -261,7 +259,6 @@ vector
 to
 copy_to
 .
-virtual
 void
 CopyTo
 (
@@ -302,7 +299,6 @@ length
 of
 prepend_this
 .
-virtual
 void
 PushFront
 (
@@ -330,7 +326,6 @@ as
 /
 source
 .
-virtual
 void
 PushFront
 (
@@ -357,7 +352,6 @@ of
 this
 object
 .
-virtual
 void
 PushBack
 (
@@ -393,7 +387,6 @@ has
 length
 samples
 .
-virtual
 void
 PushBack
 (
@@ -422,7 +415,6 @@ of
 this
 object
 .
-virtual
 void
 PushBack
 (
@@ -446,7 +438,6 @@ of
 this
 object
 .
-virtual
 void
 PopFront
 (
@@ -466,7 +457,6 @@ of
 this
 object
 .
-virtual
 void
 PopBack
 (
@@ -496,7 +486,6 @@ initialized
 to
 zero
 .
-virtual
 void
 Extend
 (
@@ -566,7 +555,6 @@ to
 the
 vector
 .
-virtual
 void
 InsertAt
 (
@@ -592,7 +580,6 @@ elements
 at
 position
 .
-virtual
 void
 InsertZerosAt
 (
@@ -669,7 +656,6 @@ the
 new
 data
 .
-virtual
 void
 OverwriteAt
 (
@@ -752,7 +738,6 @@ the
 new
 data
 .
-virtual
 void
 OverwriteAt
 (
@@ -799,7 +784,6 @@ this
 /
 region
 .
-virtual
 void
 CrossFade
 (
@@ -822,7 +806,6 @@ in
 this
 AudioVector
 .
-virtual
 size_t
 Size
 (
@@ -839,7 +822,6 @@ AudioVector
 is
 empty
 .
-virtual
 bool
 Empty
 (

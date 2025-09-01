@@ -619,9 +619,6 @@ Size
 position
 )
 ;
-AudioMultiVector
-:
-:
 OverwriteAt
 (
 insert_this

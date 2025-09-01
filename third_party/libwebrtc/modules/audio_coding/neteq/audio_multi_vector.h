@@ -108,6 +108,11 @@ h
 #
 include
 <
+memory
+>
+#
+include
+<
 vector
 >
 #
@@ -238,7 +243,6 @@ the
 vector
 empty
 .
-virtual
 void
 Clear
 (
@@ -257,7 +261,6 @@ into
 each
 channel
 .
-virtual
 void
 Zeros
 (
@@ -317,7 +320,6 @@ number
 of
 channels
 .
-virtual
 void
 CopyTo
 (
@@ -474,7 +476,6 @@ object
 is
 increased
 .
-virtual
 void
 PushBackFromIndex
 (
@@ -503,7 +504,6 @@ each
 /
 channel
 .
-virtual
 void
 PopFront
 (
@@ -528,7 +528,6 @@ each
 /
 channel
 .
-virtual
 void
 PopBack
 (
@@ -597,7 +596,6 @@ the
 return
 value
 .
-virtual
 size_t
 ReadInterleaved
 (
@@ -628,7 +626,6 @@ from
 the
 beginning
 .
-virtual
 size_t
 ReadInterleavedFromIndex
 (
@@ -662,7 +659,6 @@ from
 the
 beginning
 .
-virtual
 size_t
 ReadInterleavedFromEnd
 (
@@ -762,7 +758,6 @@ of
 /
 insert_this
 .
-virtual
 void
 OverwriteAt
 (
@@ -813,7 +808,6 @@ in
 this
 region
 .
-virtual
 void
 CrossFade
 (
@@ -833,7 +827,6 @@ number
 of
 channels
 .
-virtual
 size_t
 Channels
 (
@@ -853,7 +846,6 @@ in
 this
 AudioMultiVector
 .
-virtual
 size_t
 Size
 (
@@ -880,7 +872,6 @@ not
 extend
 accordingly
 .
-virtual
 void
 AssertSize
 (
@@ -888,7 +879,6 @@ size_t
 required_size
 )
 ;
-virtual
 bool
 Empty
 (
@@ -931,7 +921,6 @@ valid
 channel
 numbers
 .
-virtual
 void
 CopyChannel
 (
@@ -992,13 +981,15 @@ std
 :
 vector
 <
+std
+:
+:
+unique_ptr
+<
 AudioVector
-*
+>
 >
 channels_
-;
-size_t
-num_channels_
 ;
 }
 ;

@@ -161,6 +161,7 @@ webrtc
 {
 class
 SyncBuffer
+final
 :
 public
 AudioMultiVector
@@ -214,6 +215,14 @@ SyncBuffer
 )
 =
 delete
+;
+~
+SyncBuffer
+(
+)
+override
+=
+default
 ;
 /
 /
@@ -447,7 +456,6 @@ will
 be
 purged
 .
-virtual
 void
 InsertZerosAtIndex
 (
@@ -550,7 +558,6 @@ is
 not
 updated
 .
-virtual
 void
 ReplaceAtIndex
 (
@@ -595,7 +602,6 @@ not
 extended
 )
 .
-virtual
 void
 ReplaceAtIndex
 (
