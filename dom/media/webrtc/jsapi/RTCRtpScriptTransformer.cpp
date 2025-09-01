@@ -2347,10 +2347,9 @@ one
 .
 if
 (
-!
 mProxy
-|
-|
+&
+&
 !
 mProxy
 -
@@ -2619,10 +2618,9 @@ Length
 {
 if
 (
-!
 mProxy
-|
-|
+&
+&
 !
 mProxy
 -

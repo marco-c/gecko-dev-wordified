@@ -16426,10 +16426,6 @@ mTransform
 |
 !
 mPipeline
-|
-|
-!
-mSenderTrack
 )
 {
 return
