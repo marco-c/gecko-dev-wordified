@@ -1766,6 +1766,16 @@ SelectType
 Combobox
 )
 ;
+mDisplayedIndex
+=
+Select
+(
+)
+.
+SelectedIndex
+(
+)
+;
 }
 nsresult
 nsComboboxControlFrame
