@@ -154,7 +154,6 @@ val
 #
 define
 ARG_ENUM_LIST_END
-\
 {
 0
 }
@@ -198,7 +197,6 @@ l
 v
 d
 )
-\
 {
 s
 l
@@ -216,7 +214,6 @@ v
 d
 e
 )
-\
 {
 s
 l
@@ -227,7 +224,6 @@ e
 #
 define
 ARG_DEF_LIST_END
-\
 {
 0
 }

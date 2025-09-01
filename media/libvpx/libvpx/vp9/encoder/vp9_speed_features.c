@@ -8138,13 +8138,6 @@ BLOCK_16X16
 sf
 -
 >
-search_type_check_frequency
-=
-50
-;
-sf
--
->
 encode_breakout_thresh
 =
 0

@@ -3971,6 +3971,7 @@ out0
 out1
 )
 \
+do
 {
 \
 out0
@@ -4010,6 +4011,10 @@ in3
 ;
 \
 }
+while
+(
+0
+)
 #
 define
 AVER_UB2_UB
@@ -4055,6 +4060,7 @@ in3
 out0
 out1
 )
+;
 \
 AVER_UB2
 (
@@ -4066,6 +4072,7 @@ in7
 out2
 out3
 )
+;
 \
 }
 #
@@ -12152,6 +12159,7 @@ in1
 shift
 )
 \
+do
 {
 \
 in0
@@ -12191,6 +12199,10 @@ shift
 ;
 \
 }
+while
+(
+0
+)
 #
 define
 SRAR_W4
@@ -12212,6 +12224,7 @@ in0
 in1
 shift
 )
+;
 \
 SRAR_W2
 (
@@ -12220,6 +12233,7 @@ in2
 in3
 shift
 )
+;
 \
 }
 #
