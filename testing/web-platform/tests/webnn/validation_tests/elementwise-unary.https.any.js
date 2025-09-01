@@ -99,6 +99,9 @@ neg
 reciprocal
 '
 '
+roundEven
+'
+'
 sign
 '
 '
