@@ -202,6 +202,11 @@ BloomFilter
 h
 "
 "
+BoundedMPSCQueue
+.
+h
+"
+"
 Buffer
 .
 h
@@ -423,11 +428,6 @@ h
 "
 "
 MoveOnlyFunction
-.
-h
-"
-"
-MPSCQueue
 .
 h
 "
