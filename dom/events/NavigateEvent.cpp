@@ -1093,8 +1093,8 @@ Step
 .
 2
 mFocusResetBehavior
-.
-emplace
+=
+Some
 (
 aOptions
 .
