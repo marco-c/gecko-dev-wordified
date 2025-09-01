@@ -3792,6 +3792,8 @@ primitive_count
 triangles
 .
 vertex_count
+/
+3
 )
 .
 first_vertex

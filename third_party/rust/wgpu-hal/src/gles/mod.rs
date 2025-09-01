@@ -3632,7 +3632,7 @@ pub
 struct
 ShaderModule
 {
-naga
+source
 :
 crate
 :
