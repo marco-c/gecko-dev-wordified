@@ -54,11 +54,6 @@ MOZ_SRC_FILES
 =
 [
 "
-file
-.
-txt
-"
-"
 dir
 /
 file1
@@ -78,6 +73,11 @@ dir
 subdir
 /
 otherfile
+.
+txt
+"
+"
+file
 .
 txt
 "
