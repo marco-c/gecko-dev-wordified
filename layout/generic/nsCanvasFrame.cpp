@@ -2625,6 +2625,13 @@ i
 .
 mBlendMode
 thisItemASR
+nsDisplayItem
+:
+:
+ContainerASRType
+:
+:
+Constant
 true
 )
 ;
@@ -2682,6 +2689,13 @@ nullptr
 &
 list
 containerASR
+nsDisplayItem
+:
+:
+ContainerASRType
+:
+:
+AncestorOfContained
 )
 )
 ;

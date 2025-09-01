@@ -2491,6 +2491,13 @@ aBuilder
 CurrentActiveScrolledRoot
 (
 )
+nsDisplayItem
+:
+:
+ContainerASRType
+:
+:
+Constant
 nsDisplayOwnLayerFlags
 :
 :

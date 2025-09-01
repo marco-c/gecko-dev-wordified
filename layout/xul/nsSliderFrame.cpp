@@ -2962,6 +2962,13 @@ OwnLayerForScrollThumb
 &
 masterList
 ownLayerASR
+nsDisplayItem
+:
+:
+ContainerASRType
+:
+:
+AncestorOfContained
 nsDisplayOwnLayerFlags
 :
 :
