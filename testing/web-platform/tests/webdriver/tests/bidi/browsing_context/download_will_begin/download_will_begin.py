@@ -1,4 +1,6 @@
 import
+random
+import
 pytest
 from
 webdriver
@@ -58,8 +60,16 @@ new_tab
     
 filename
 =
+f
 '
 some_file_name
+{
+random
+.
+random
+(
+)
+}
 .
 txt
 '
@@ -298,8 +308,16 @@ wait_for_future_safe
     
 filename
 =
+f
 '
 some_file_name
+{
+random
+.
+random
+(
+)
+}
 .
 txt
 '
