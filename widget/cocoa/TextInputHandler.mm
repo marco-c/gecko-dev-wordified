@@ -23613,7 +23613,6 @@ IMEInputHandler
 :
 FlushPendingMethods
 "
-_ns
 )
 ;
 }

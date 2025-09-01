@@ -3898,7 +3898,6 @@ WebrtcGlobalInformation
 :
 GatherHistory
 "
-_ns
 )
 ;
 }

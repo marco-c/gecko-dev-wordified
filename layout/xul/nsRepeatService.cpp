@@ -552,6 +552,10 @@ nsITimer
 :
 TYPE_ONE_SHOT
 mCallbackName
+.
+Data
+(
+)
 )
 ;
 }

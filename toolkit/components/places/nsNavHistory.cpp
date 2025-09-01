@@ -3891,7 +3891,6 @@ nsNavHistory
 :
 GetNow
 "
-_ns
 )
 ;
 }

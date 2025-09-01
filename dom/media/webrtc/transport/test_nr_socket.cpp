@@ -2569,7 +2569,6 @@ TestNrSocket
 :
 sendto
 "
-_ns
 )
 ;
 if

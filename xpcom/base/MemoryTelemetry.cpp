@@ -1367,7 +1367,6 @@ MemoryTelemetry
 :
 GatherReports
 "
-_ns
 )
 ;
 if

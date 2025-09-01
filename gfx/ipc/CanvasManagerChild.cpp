@@ -1359,7 +1359,6 @@ ActiveResourceTracker
 "
 CanvasManagerChild
 "
-_ns
 GetCurrentSerialEventTarget
 (
 )

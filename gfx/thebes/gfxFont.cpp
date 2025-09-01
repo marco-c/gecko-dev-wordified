@@ -1182,7 +1182,6 @@ FONT_TIMEOUT_SECONDS
 "
 gfxFontCache
 "
-_ns
 aEventTarget
 )
 {

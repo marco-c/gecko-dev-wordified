@@ -152,13 +152,6 @@ h
 "
 #
 include
-"
-nsString
-.
-h
-"
-#
-include
 <
 functional
 >
@@ -506,8 +499,8 @@ CallbackType
 &
 aCallback
 const
-nsACString
-&
+char
+*
 aRunnableName
 TimeDuration
 aStartDelay
@@ -641,8 +634,8 @@ aAllowIdleDispatch
 )
 ;
 const
-nsACString
-&
+char
+*
 GetName
 (
 )
@@ -661,8 +654,8 @@ CallbackType
 &
 aCallback
 const
-nsACString
-&
+char
+*
 aRunnableName
 TimeDuration
 aStartDelay
@@ -818,7 +811,9 @@ mMayStopProcessing
 RequestInterruptCallbackType
 mRequestInterrupt
 ;
-nsCString
+const
+char
+*
 mName
 ;
 RefPtr

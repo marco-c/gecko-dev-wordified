@@ -1795,7 +1795,6 @@ DcSctpTimeout
 :
 Start
 "
-_ns
 )
 ;
 if

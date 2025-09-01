@@ -1827,7 +1827,6 @@ nsTreeSelection
 :
 SelectCallback
 "
-_ns
 target
 )
 ;

@@ -4154,7 +4154,6 @@ nsThreadPool
 :
 ShutdownWithTimeout
 "
-_ns
 )
 ;
 }

@@ -2004,7 +2004,6 @@ IdleRunnableWrapper
 :
 SetTimer
 "
-_ns
 aTarget
 )
 ;

@@ -1344,7 +1344,7 @@ unsigned
 long
 aType
 in
-ACString
+string
 aName
 )
 ;
@@ -1442,7 +1442,7 @@ unsigned
 long
 aType
 in
-ACString
+string
 aName
 )
 ;
@@ -1915,8 +1915,8 @@ aDelay
 uint32_t
 aType
 const
-nsACString
-&
+char
+*
 aNameString
 nsIEventTarget
 *
@@ -1957,8 +1957,8 @@ aDelay
 uint32_t
 aType
 const
-nsACString
-&
+char
+*
 aNameString
 nsIEventTarget
 *
@@ -1998,8 +1998,8 @@ aDelay
 uint32_t
 aType
 const
-nsACString
-&
+char
+*
 aNameString
 nsIEventTarget
 *
@@ -2045,8 +2045,8 @@ aDelay
 uint32_t
 aType
 const
-nsACString
-&
+char
+*
 aNameString
 nsIEventTarget
 *
@@ -2072,8 +2072,8 @@ aDelay
 uint32_t
 aType
 const
-nsACString
-&
+char
+*
 aNameString
 nsIEventTarget
 *
@@ -2105,8 +2105,8 @@ aDelay
 uint32_t
 aType
 const
-nsACString
-&
+char
+*
 aNameString
 nsIEventTarget
 *
@@ -2137,8 +2137,8 @@ aDelay
 uint32_t
 aType
 const
-nsACString
-&
+char
+*
 aNameString
 nsIEventTarget
 *
@@ -2175,8 +2175,8 @@ aDelay
 uint32_t
 aType
 const
-nsACString
-&
+char
+*
 aNameString
 nsIEventTarget
 *

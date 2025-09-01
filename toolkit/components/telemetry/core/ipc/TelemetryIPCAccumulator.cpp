@@ -780,7 +780,6 @@ TelemetryIPCAccumulator
 :
 IPCTimerFired
 "
-_ns
 )
 ;
 gIPCTimerArmed

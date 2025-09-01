@@ -6715,8 +6715,8 @@ CreateTimer
 nsTimerCallbackFunc
 aCallback
 const
-nsACString
-&
+char
+*
 aName
 uint32_t
 aDelay

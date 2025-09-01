@@ -1708,7 +1708,6 @@ TYPE_ONE_SHOT
 "
 IdentityCredentialTimeoutCallback
 "
-_ns
 )
 ;
 if

@@ -881,12 +881,7 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
-"
-Spinner
-:
-WaitForNotification
-"
-_ns
+__func__
 )
 ;
 SpinEventLoopUntil

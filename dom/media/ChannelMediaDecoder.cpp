@@ -749,7 +749,6 @@ ResourceCallback
 :
 TimerCallback
 "
-_ns
 )
 ;
 }

@@ -2381,7 +2381,6 @@ DirectoryLockImpl
 :
 AcquireInternal
 "
-_ns
 )
 )
 ;

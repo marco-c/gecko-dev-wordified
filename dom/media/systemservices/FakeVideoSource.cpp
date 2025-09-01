@@ -380,7 +380,6 @@ FakeVideoSource
 :
 GenerateFrame
 "
-_ns
 )
 ;
 return

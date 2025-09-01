@@ -979,7 +979,6 @@ ScrollbarActivity
 :
 FadeBeginTimerFired
 "
-_ns
 )
 ;
 }

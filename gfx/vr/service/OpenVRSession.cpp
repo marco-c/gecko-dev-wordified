@@ -9577,7 +9577,6 @@ OpenVRSession
 :
 HapticTimerCallback
 "
-_ns
 )
 ;
 }

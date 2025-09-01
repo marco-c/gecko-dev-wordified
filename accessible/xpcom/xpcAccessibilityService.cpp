@@ -594,7 +594,6 @@ xpcAccessibilityService
 :
 Release
 "
-_ns
 )
 ;
 }

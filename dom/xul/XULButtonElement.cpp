@@ -2000,7 +2000,6 @@ XULButtonElement
 :
 ContinueBlinking
 "
-_ns
 )
 ;
 }
@@ -2016,7 +2015,6 @@ XULButtonElement
 :
 StartBlinking
 "
-_ns
 GetMainThreadSerialEventTarget
 (
 )
@@ -3649,7 +3647,6 @@ XULButtonElement
 :
 OpenMenu
 "
-_ns
 GetMainThreadSerialEventTarget
 (
 )
