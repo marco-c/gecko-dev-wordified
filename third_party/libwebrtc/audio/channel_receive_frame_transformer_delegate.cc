@@ -702,7 +702,7 @@ voice_activity
 =
 *
 /
-false
+true
 std
 :
 :
@@ -1418,7 +1418,7 @@ voice_activity
 =
 *
 /
-false
+true
 *
 transformed_frame
 -
