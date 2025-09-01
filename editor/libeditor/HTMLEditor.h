@@ -13673,6 +13673,7 @@ node
 nodiscard
 ]
 ]
+MOZ_CAN_RUN_SCRIPT
 nsresult
 MoveAllChildren
 (
@@ -13827,6 +13828,7 @@ node
 nodiscard
 ]
 ]
+MOZ_CAN_RUN_SCRIPT
 nsresult
 MoveChildrenBetween
 (
@@ -13936,6 +13938,7 @@ node
 nodiscard
 ]
 ]
+MOZ_CAN_RUN_SCRIPT
 nsresult
 MovePreviousSiblings
 (
@@ -14027,6 +14030,7 @@ node
 nodiscard
 ]
 ]
+MOZ_CAN_RUN_SCRIPT
 nsresult
 MoveInclusiveNextSiblings
 (
@@ -29158,7 +29162,27 @@ UI
 )
 .
 *
+*
+XXX
+This
+method
+is
+called
+by
+the
+CC
+therefore
+needs
+to
+be
+a
+boundary
+*
+method
+.
+*
 /
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 HideAnonymousEditingUIs
 (
@@ -29187,6 +29211,7 @@ unnecessary
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 HideAnonymousEditingUIsIfUnnecessary
 (
@@ -29397,6 +29422,7 @@ shown
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 HideGrabberInternal
 (
