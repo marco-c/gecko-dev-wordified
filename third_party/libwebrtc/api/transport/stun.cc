@@ -4781,7 +4781,7 @@ this
 else
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -4831,7 +4831,7 @@ get
 }
 }
 return
-NULL
+nullptr
 ;
 }
 bool
@@ -5331,7 +5331,7 @@ length
 default
 :
 return
-NULL
+nullptr
 ;
 }
 }
@@ -6055,7 +6055,7 @@ addr
 )
 owner_
 (
-NULL
+nullptr
 )
 {
 }
@@ -6984,7 +6984,7 @@ type
 )
 bytes_
 (
-NULL
+nullptr
 )
 {
 }
@@ -7009,7 +7009,7 @@ type
 )
 bytes_
 (
-NULL
+nullptr
 )
 {
 CopyBytes
@@ -7040,7 +7040,7 @@ type
 )
 bytes_
 (
-NULL
+nullptr
 )
 {
 CopyBytes
@@ -7068,7 +7068,7 @@ length
 )
 bytes_
 (
-NULL
+nullptr
 )
 {
 }
@@ -7206,7 +7206,7 @@ RTC_DCHECK
 bytes_
 !
 =
-NULL
+nullptr
 )
 ;
 RTC_DCHECK
@@ -7242,7 +7242,7 @@ RTC_DCHECK
 bytes_
 !
 =
-NULL
+nullptr
 )
 ;
 RTC_DCHECK
