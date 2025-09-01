@@ -3599,14 +3599,6 @@ msg
 =
 {
 .
-msg_name
-=
-nullptr
-.
-msg_namelen
-=
-0
-.
 msg_iov
 =
 &
