@@ -2385,7 +2385,7 @@ groupOne
 role
 =
 "
-grouping
+group
 "
 >
 <
@@ -2427,7 +2427,7 @@ groupTwo
 role
 =
 "
-grouping
+group
 "
 >
 <
@@ -2469,7 +2469,7 @@ groupThree
 role
 =
 "
-grouping
+group
 "
 >
 <
