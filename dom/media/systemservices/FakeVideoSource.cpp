@@ -866,17 +866,6 @@ AssertOnCurrentThread
 (
 )
 ;
-const
-TimeStamp
-now
-=
-TimeStamp
-:
-:
-Now
-(
-)
-;
 if
 (
 mTrackingId
@@ -1144,7 +1133,6 @@ mGeneratedImageEvent
 Notify
 (
 ycbcr_image
-now
 )
 ;
 mCaptureRecorder

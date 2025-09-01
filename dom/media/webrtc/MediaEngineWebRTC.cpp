@@ -838,6 +838,11 @@ scarySource
 =
 false
 ;
+bool
+placeholder
+=
+false
+;
 /
 /
 paranoia
@@ -887,6 +892,8 @@ uniqueId
 )
 &
 scarySource
+&
+placeholder
 )
 ;
 if
@@ -1139,6 +1146,13 @@ OsPromptable
 :
 :
 No
+MediaDevice
+:
+:
+IsPlaceholder
+(
+placeholder
+)
 )
 )
 ;
