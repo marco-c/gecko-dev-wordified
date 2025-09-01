@@ -122568,8 +122568,6 @@ self
 IsInPrivateBrowsing
 (
 )
-nullptr
-0
 )
 )
 {
@@ -124692,8 +124690,6 @@ self
 IsInPrivateBrowsing
 (
 )
-nullptr
-0
 )
 )
 {
