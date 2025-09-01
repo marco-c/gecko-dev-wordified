@@ -6230,6 +6230,15 @@ instr
 \
 VIXL_ASSERT
 (
+A
+#
+#
+FMask
+=
+=
+0
+|
+|
 instr
 -
 >
