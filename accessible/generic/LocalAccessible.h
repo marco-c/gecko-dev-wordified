@@ -836,7 +836,7 @@ accessible
 *
 /
 virtual
-EDescriptionValueFlag
+void
 Description
 (
 nsString
@@ -5702,7 +5702,7 @@ ARIA
 .
 *
 /
-bool
+void
 ARIADescription
 (
 nsString

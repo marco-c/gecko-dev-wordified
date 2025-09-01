@@ -1594,17 +1594,6 @@ moxKeyShortcutsValue
 ;
 /
 /
-AXCustomContent
--
-(
-NSArray
-*
-_Nullable
-)
-moxCustomContent
-;
-/
-/
 AXMozDebugDescription
 -
 (

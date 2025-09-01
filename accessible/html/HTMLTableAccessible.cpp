@@ -5796,7 +5796,7 @@ HTMLTableAccessible
 :
 protected
 implementation
-EDescriptionValueFlag
+void
 HTMLTableAccessible
 :
 :
@@ -5824,9 +5824,6 @@ Truncate
 (
 )
 ;
-EDescriptionValueFlag
-descFlag
-=
 LocalAccessible
 :
 :
@@ -5846,7 +5843,6 @@ IsEmpty
 )
 {
 return
-descFlag
 ;
 }
 /
@@ -6009,9 +6005,6 @@ get
 ;
 #
 endif
-return
-eDescriptionOK
-;
 }
 nsTableWrapperFrame
 *

@@ -1725,7 +1725,7 @@ Fall
 back
 ;
 }
-EDescriptionValueFlag
+void
 DocAccessible
 :
 :
@@ -1777,9 +1777,6 @@ aDescription
 )
 ;
 }
-return
-eDescriptionFromARIA
-;
 }
 /
 /

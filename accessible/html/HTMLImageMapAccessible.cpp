@@ -1397,7 +1397,7 @@ return
 eNameOK
 ;
 }
-EDescriptionValueFlag
+void
 HTMLAreaAccessible
 :
 :
@@ -1458,9 +1458,6 @@ GetShape
 (
 aDescription
 )
-;
-return
-eDescriptionOK
 ;
 }
 /

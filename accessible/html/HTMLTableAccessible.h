@@ -592,7 +592,7 @@ nullptr
 /
 LocalAccessible
 virtual
-EDescriptionValueFlag
+void
 Description
 (
 nsString

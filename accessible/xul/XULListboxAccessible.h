@@ -619,7 +619,7 @@ aDoc
 /
 LocalAccessible
 virtual
-EDescriptionValueFlag
+void
 Description
 (
 nsString

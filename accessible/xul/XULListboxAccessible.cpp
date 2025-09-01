@@ -3152,7 +3152,7 @@ listElement
 /
 XULListitemAccessible
 LocalAccessible
-EDescriptionValueFlag
+void
 XULListitemAccessible
 :
 :
@@ -3164,7 +3164,6 @@ aDesc
 )
 const
 {
-return
 AccessibleWrap
 :
 :

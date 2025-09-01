@@ -158,7 +158,7 @@ aDoc
 /
 /
 LocalAccessible
-EDescriptionValueFlag
+void
 Description
 (
 nsString
