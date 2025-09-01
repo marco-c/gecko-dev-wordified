@@ -985,6 +985,14 @@ selected
 /
 Done
 .
+await
+UrlbarTestUtils
+.
+promisePopupClose
+(
+window
+)
+;
 UrlbarProvidersManager
 .
 unregisterProvider
