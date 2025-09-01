@@ -25927,7 +25927,7 @@ linkPreview
 .
 shift
 "
-false
+true
 )
 ;
 pref
