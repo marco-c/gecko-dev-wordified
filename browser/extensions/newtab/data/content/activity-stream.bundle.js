@@ -22646,6 +22646,11 @@ is_section_followed
 link
 .
 is_section_followed
+layout_name
+:
+link
+.
+sectionLayoutName
 }
 :
 {
@@ -28100,6 +28105,13 @@ this
 props
 .
 sectionFollowed
+layout_name
+:
+this
+.
+props
+.
+sectionLayoutName
 }
 :
 {
@@ -31475,6 +31487,13 @@ this
 props
 .
 sectionFollowed
+sectionLayoutName
+:
+this
+.
+props
+.
+sectionLayoutName
 }
 :
 {
@@ -84017,6 +84036,9 @@ section
 const
 {
 responsiveLayouts
+name
+:
+layoutName
 }
 =
 section
@@ -84073,6 +84095,9 @@ sectionPosition
 is_section_followed
 :
 following
+layout_name
+:
+layoutName
 }
 }
 )
@@ -84084,6 +84109,7 @@ dispatch
 sectionKey
 sectionPosition
 following
+layoutName
 ]
 )
 ;
@@ -85321,6 +85347,9 @@ sectionPosition
 sectionFollowed
 :
 following
+sectionLayoutName
+:
+layoutName
 isTimeSensitive
 :
 rec
