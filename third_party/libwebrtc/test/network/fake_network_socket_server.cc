@@ -2018,9 +2018,6 @@ FakeNetworkSocketServer
 :
 Wait
 (
-webrtc
-:
-:
 TimeDelta
 max_wait_duration
 bool

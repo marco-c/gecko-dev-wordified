@@ -792,9 +792,6 @@ CreateNetworkEmulationManager
 .
 time_mode
 =
-webrtc
-:
-:
 TimeMode
 :
 :

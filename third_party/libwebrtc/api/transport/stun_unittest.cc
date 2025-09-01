@@ -8434,9 +8434,6 @@ kStunMessageWithZeroLength
 )
 kStunHeaderSize
 +
-webrtc
-:
-:
 GetBE16
 (
 &
@@ -8467,9 +8464,6 @@ kStunMessageWithExcessLength
 )
 kStunHeaderSize
 +
-webrtc
-:
-:
 GetBE16
 (
 &
@@ -8500,9 +8494,6 @@ kStunMessageWithSmallLength
 )
 kStunHeaderSize
 +
-webrtc
-:
-:
 GetBE16
 (
 &
@@ -9154,9 +9145,6 @@ kStunMessageWithZeroLength
 )
 kStunHeaderSize
 +
-webrtc
-:
-:
 GetBE16
 (
 &
@@ -9187,9 +9175,6 @@ kStunMessageWithExcessLength
 )
 kStunHeaderSize
 +
-webrtc
-:
-:
 GetBE16
 (
 &
@@ -9220,9 +9205,6 @@ kStunMessageWithSmallLength
 )
 kStunHeaderSize
 +
-webrtc
-:
-:
 GetBE16
 (
 &
@@ -12340,9 +12322,6 @@ StunTest
 ValidateMessageIntegrityWithParser
 )
 {
-webrtc
-:
-:
 metrics
 :
 :
@@ -12406,9 +12385,6 @@ kIntegrityOk
 ;
 EXPECT_EQ
 (
-webrtc
-:
-:
 metrics
 :
 :
@@ -12462,9 +12438,6 @@ kIntegrityBad
 ;
 EXPECT_EQ
 (
-webrtc
-:
-:
 metrics
 :
 :
@@ -12498,9 +12471,6 @@ kIntegrityBad
 ;
 EXPECT_EQ
 (
-webrtc
-:
-:
 metrics
 :
 :

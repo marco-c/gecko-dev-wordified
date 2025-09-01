@@ -206,9 +206,6 @@ class
 SessionData
 :
 public
-webrtc
-:
-:
 SignalingInterface
 {
 public
@@ -687,9 +684,6 @@ ContentCase
 kCandidate
 :
 {
-webrtc
-:
-:
 SdpParseError
 error
 ;
@@ -701,9 +695,6 @@ std
 :
 make_unique
 <
-webrtc
-:
-:
 JsepIceCandidate
 >
 (
@@ -859,9 +850,6 @@ content
 auto
 sdp
 =
-webrtc
-:
-:
 CreateSessionDescription
 (
 description
@@ -876,16 +864,10 @@ SessionDescription
 :
 OFFER
 ?
-webrtc
-:
-:
 SdpType
 :
 :
 kOffer
-:
-webrtc
-:
 :
 SdpType
 :
@@ -946,9 +928,6 @@ function
 <
 void
 (
-webrtc
-:
-:
 SignalingInterface
 *
 )
@@ -1273,9 +1252,6 @@ function
 <
 void
 (
-webrtc
-:
-:
 SignalingInterface
 *
 )
@@ -1494,9 +1470,6 @@ return
 true
 ;
 }
-webrtc
-:
-:
 SignalingInterface
 *
 signaling_client
@@ -1596,9 +1569,6 @@ function
 <
 void
 (
-webrtc
-:
-:
 SignalingInterface
 *
 )

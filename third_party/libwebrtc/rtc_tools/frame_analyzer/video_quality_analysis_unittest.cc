@@ -888,9 +888,6 @@ log_filename
 =
 TempFilename
 (
-webrtc
-:
-:
 test
 :
 :

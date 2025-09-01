@@ -663,9 +663,6 @@ turn_server
 nullptr
 )
 {
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -1146,9 +1143,6 @@ get
 {
 scoped_refptr
 <
-webrtc
-:
-:
 AudioSourceInterface
 >
 source
@@ -1985,9 +1979,6 @@ get
 {
 scoped_refptr
 <
-webrtc
-:
-:
 AudioSourceInterface
 >
 source

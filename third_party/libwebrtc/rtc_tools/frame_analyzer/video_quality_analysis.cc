@@ -460,9 +460,6 @@ RunAnalysis
 const
 scoped_refptr
 <
-webrtc
-:
-:
 test
 :
 :
@@ -473,9 +470,6 @@ reference_video
 const
 scoped_refptr
 <
-webrtc
-:
-:
 test
 :
 :

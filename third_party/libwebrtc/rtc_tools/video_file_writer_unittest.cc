@@ -180,9 +180,6 @@ video_filename_
 =
 TempFilename
 (
-webrtc
-:
-:
 test
 :
 :
@@ -360,9 +357,6 @@ file
 .
 video_
 =
-webrtc
-:
-:
 test
 :
 :
@@ -482,9 +476,6 @@ written_video_filename_
 =
 TempFilename
 (
-webrtc
-:
-:
 test
 :
 :
@@ -498,9 +489,6 @@ y4m
 "
 )
 ;
-webrtc
-:
-:
 test
 :
 :
@@ -513,9 +501,6 @@ fps
 ;
 written_video_
 =
-webrtc
-:
-:
 test
 :
 :
@@ -585,9 +570,6 @@ written_video_filename_
 =
 TempFilename
 (
-webrtc
-:
-:
 test
 :
 :
@@ -601,9 +583,6 @@ yuv
 "
 )
 ;
-webrtc
-:
-:
 test
 :
 :
@@ -616,9 +595,6 @@ fps
 ;
 written_video_
 =
-webrtc
-:
-:
 test
 :
 :
@@ -655,9 +631,6 @@ fps
 ;
 scoped_refptr
 <
-webrtc
-:
-:
 test
 :
 :
@@ -667,9 +640,6 @@ video_
 ;
 scoped_refptr
 <
-webrtc
-:
-:
 test
 :
 :

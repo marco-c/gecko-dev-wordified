@@ -200,9 +200,6 @@ PacketSender
 packet_sender
 scoped_refptr
 <
-webrtc
-:
-:
 PendingTaskSafetyFlag
 >
 task_safety_flag
@@ -350,9 +347,6 @@ ConfigReader
 config_reader
 scoped_refptr
 <
-webrtc
-:
-:
 PendingTaskSafetyFlag
 >
 task_safety_flag
@@ -501,17 +495,11 @@ PacketSender
 TestController
 *
 test_controller
-webrtc
-:
-:
 TaskQueueBase
 *
 worker_queue
 scoped_refptr
 <
-webrtc
-:
-:
 PendingTaskSafetyFlag
 >
 task_safety_flag
