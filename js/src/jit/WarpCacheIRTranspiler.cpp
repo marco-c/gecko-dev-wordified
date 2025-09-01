@@ -1868,6 +1868,8 @@ ValOperandId
 rhsId
 uint32_t
 newShapeOffset
+bool
+preserveWrapper
 )
 ;
 MInstruction
@@ -16695,6 +16697,8 @@ ValOperandId
 rhsId
 uint32_t
 newShapeOffset
+bool
+preserveWrapper
 )
 {
 int32_t
@@ -16770,6 +16774,7 @@ rhs
 kind
 offset
 shape
+preserveWrapper
 )
 ;
 addEffectful
@@ -16798,6 +16803,8 @@ ValOperandId
 rhsId
 uint32_t
 newShapeOffset
+bool
+preserveWrapper
 )
 {
 return
@@ -16814,6 +16821,7 @@ objId
 offsetOffset
 rhsId
 newShapeOffset
+preserveWrapper
 )
 ;
 }
@@ -16831,6 +16839,8 @@ ValOperandId
 rhsId
 uint32_t
 newShapeOffset
+bool
+preserveWrapper
 )
 {
 return
@@ -16847,6 +16857,7 @@ objId
 offsetOffset
 rhsId
 newShapeOffset
+preserveWrapper
 )
 ;
 }
@@ -16866,6 +16877,8 @@ uint32_t
 newShapeOffset
 uint32_t
 numNewSlotsOffset
+bool
+preserveWrapper
 )
 {
 int32_t
@@ -16949,6 +16962,7 @@ rhs
 offset
 shape
 numNewSlots
+preserveWrapper
 )
 ;
 addEffectful
