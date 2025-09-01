@@ -3654,10 +3654,6 @@ updateCurrentChunkAfterAlloc
 gc
 )
 ;
-verify
-(
-)
-;
 return
 arena
 ;
