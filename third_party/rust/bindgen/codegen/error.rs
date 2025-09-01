@@ -240,6 +240,7 @@ write
 f
 "
 {
+abi
 }
 ABI
 is
@@ -252,7 +253,6 @@ Rust
 target
 .
 "
-abi
 )
 }
 Error
@@ -274,12 +274,14 @@ f
 "
 The
 {
+ty_name
 }
 pointer
 type
 has
 size
 {
+ty_size
 }
 but
 the
@@ -291,12 +293,10 @@ pointer
 size
 is
 {
+ptr_size
 }
 .
 "
-ty_name
-ty_size
-ptr_size
 )
 }
 }

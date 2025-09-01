@@ -129,6 +129,7 @@ TokenStream
 /
 /
 Objective
+-
 C
 interface
 as
@@ -262,7 +263,7 @@ methods
 defined
 in
 this
-interfae
+interface
 methods
 :
 Vec
@@ -329,7 +330,8 @@ rust
 /
 /
 like
-dataWithBytes_length_
+dataWithBytes_length
+_
 rust_name
 :
 String
@@ -511,6 +513,7 @@ format
 }
 _
 {
+cat
 }
 "
 self
@@ -518,7 +521,6 @@ self
 name
 (
 )
-cat
 )
 }
 else
@@ -850,7 +852,7 @@ so
 name
 this
 interface
-approriately
+appropriately
 interface
 .
 name
@@ -925,6 +927,7 @@ Interface
 conforms
 to
 {
+needle
 }
 find
 the
@@ -933,7 +936,6 @@ item
 interface
 .
 name
-needle
 )
 ;
 for
@@ -1031,11 +1033,11 @@ Found
 conforming
 protocol
 {
+item
 :
 ?
 }
 "
-item
 )
 ;
 interface
@@ -1328,7 +1330,8 @@ rust
 /
 /
 like
-dataWithBytes_length_
+dataWithBytes_length
+_
 pub
 (
 crate
@@ -1564,10 +1567,10 @@ format
 (
 "
 {
+name
 }
 _
 "
-name
 )
 Span
 :
@@ -1720,9 +1723,9 @@ format
 r
 #
 {
+name
 }
 "
-name
 )
 )
 .
@@ -1758,10 +1761,10 @@ format
 (
 "
 {
+name
 }
 _
 "
-name
 )
 )
 .
@@ -1837,7 +1840,7 @@ right
 amount
 of
 arguments
-assert
+assert_eq
 !
 (
 args
@@ -1845,8 +1848,6 @@ args
 len
 (
 )
-=
-=
 split_name
 .
 len
@@ -1864,17 +1865,17 @@ for
 objc
 method
 {
+args
 :
 ?
 }
 vs
 {
+split_name
 :
 ?
 }
 "
-args
-split_name
 )
 ;
 /
@@ -1902,10 +1903,6 @@ for
 arg
 in
 args
-.
-iter
-(
-)
 {
 let
 arg
@@ -1963,6 +1960,7 @@ call_site
 )
 )
 )
+;
 }
 let
 args

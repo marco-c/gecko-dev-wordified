@@ -186,7 +186,7 @@ this
 ItemKind
 '
 s
-underying
+underlying
 Module
 or
 None
@@ -370,7 +370,7 @@ this
 ItemKind
 '
 s
-underying
+underlying
 Function
 or
 None
@@ -469,7 +469,7 @@ this
 ItemKind
 '
 s
-underying
+underlying
 Function
 or
 panic
@@ -524,7 +524,7 @@ this
 ItemKind
 '
 s
-underying
+underlying
 Type
 or
 None
@@ -592,7 +592,7 @@ this
 ItemKind
 '
 s
-underying
+underlying
 Type
 or
 None
@@ -694,7 +694,7 @@ this
 ItemKind
 '
 s
-underying
+underlying
 Type
 or
 panic
@@ -749,7 +749,7 @@ this
 ItemKind
 '
 s
-underying
+underlying
 Var
 or
 None
