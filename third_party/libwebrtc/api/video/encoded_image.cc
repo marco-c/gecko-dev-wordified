@@ -482,9 +482,6 @@ encode_finish_ms
 encode_finish_ms
 ;
 }
-webrtc
-:
-:
 Timestamp
 EncodedImage
 :

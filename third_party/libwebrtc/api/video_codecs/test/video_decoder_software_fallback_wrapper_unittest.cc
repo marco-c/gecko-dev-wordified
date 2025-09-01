@@ -1161,9 +1161,6 @@ return
 int32_t
 Decoded
 (
-webrtc
-:
-:
 VideoFrame
 &
 /
@@ -1192,9 +1189,6 @@ return
 void
 Decoded
 (
-webrtc
-:
-:
 VideoFrame
 &
 /

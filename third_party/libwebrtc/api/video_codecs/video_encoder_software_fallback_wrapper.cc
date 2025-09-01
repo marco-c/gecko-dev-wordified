@@ -929,9 +929,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 VideoEncoder
 >
 sw_encoder
@@ -940,9 +937,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 VideoEncoder
 >
 hw_encoder
@@ -1304,9 +1298,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 VideoEncoder
 >
 encoder_
@@ -1317,9 +1308,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 VideoEncoder
 >
 fallback_encoder_
@@ -1373,9 +1361,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 VideoEncoder
 >
 sw_encoder
@@ -1384,9 +1369,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 VideoEncoder
 >
 hw_encoder

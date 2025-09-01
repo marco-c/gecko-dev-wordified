@@ -1325,9 +1325,6 @@ IsCodecInList
 ArrayView
 <
 const
-webrtc
-:
-:
 SdpVideoFormat
 >
 formats
