@@ -3434,7 +3434,7 @@ SequentialTask
 :
 *
 ;
-debug_assert_eq
+debug_assert
 !
 (
 thread_state
@@ -3443,10 +3443,14 @@ thread_state
 get
 (
 )
+.
+contains
+(
 ThreadState
 :
 :
 LAYOUT
+)
 )
 ;
 match
@@ -3727,7 +3731,7 @@ mut
 self
 )
 {
-debug_assert_eq
+debug_assert
 !
 (
 thread_state
@@ -3736,10 +3740,14 @@ thread_state
 get
 (
 )
+.
+contains
+(
 ThreadState
 :
 :
 LAYOUT
+)
 )
 ;
 for
