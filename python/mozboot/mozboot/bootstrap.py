@@ -1728,6 +1728,9 @@ in
 "
 arch
 "
+"
+kaos
+"
 )
 or
 Path
