@@ -116,6 +116,11 @@ dom
 =
 [
 "
+CSSImageValue
+.
+h
+"
+"
 CSSKeywordValue
 .
 h
@@ -255,6 +260,11 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+CSSImageValue
+.
+cpp
+"
 "
 CSSKeywordValue
 .
