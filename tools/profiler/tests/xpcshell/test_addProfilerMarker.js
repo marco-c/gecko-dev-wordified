@@ -788,7 +788,7 @@ startProfilerForMarkerTests
 ;
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -796,7 +796,7 @@ now
 ;
 while
 (
-Cu
+ChromeUtils
 .
 now
 (

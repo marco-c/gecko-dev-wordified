@@ -699,7 +699,7 @@ path
 let
 startTime
 =
-performance
+ChromeUtils
 .
 now
 (

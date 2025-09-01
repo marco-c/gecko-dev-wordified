@@ -10156,7 +10156,7 @@ number
 startTime
 ?
 :
-DOMHighResTimeStamp
+number
 ;
 }
 interface
@@ -153299,7 +153299,7 @@ options
 :
 ProfilerMarkerOptions
 |
-DOMHighResTimeStamp
+number
 text
 ?
 :
@@ -153892,6 +153892,13 @@ notifyDevToolsOpened
 )
 :
 void
+;
+function
+now
+(
+)
+:
+number
 ;
 function
 originAttributesMatchPattern

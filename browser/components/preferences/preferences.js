@@ -1233,7 +1233,7 @@ init
 let
 startTime
 =
-performance
+ChromeUtils
 .
 now
 (

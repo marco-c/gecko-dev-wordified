@@ -267,7 +267,7 @@ n
 let
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -1025,7 +1025,7 @@ flushAllocations
 let
 start
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -1043,7 +1043,7 @@ done
 let
 end
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -1292,7 +1292,7 @@ windowUtils
 let
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (

@@ -398,7 +398,7 @@ promiseIndicatorWindow
 let
 startTime
 =
-performance
+ChromeUtils
 .
 now
 (
@@ -1894,7 +1894,7 @@ selectedBrowser
 let
 startTime
 =
-performance
+ChromeUtils
 .
 now
 (
@@ -2049,7 +2049,7 @@ window
 let
 startTime
 =
-performance
+ChromeUtils
 .
 now
 (
@@ -2440,7 +2440,7 @@ getMediaCaptureState
 let
 startTime
 =
-performance
+ChromeUtils
 .
 now
 (
@@ -6838,7 +6838,7 @@ tests
 let
 startTime
 =
-performance
+ChromeUtils
 .
 now
 (

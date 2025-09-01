@@ -309,7 +309,7 @@ data
 const
 s
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -334,7 +334,7 @@ logs
 -
 done
 '
-Cu
+ChromeUtils
 .
 now
 (

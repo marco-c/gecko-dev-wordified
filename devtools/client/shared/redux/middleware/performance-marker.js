@@ -407,7 +407,7 @@ startTime
 =
 shouldAddProfileMarker
 ?
-Cu
+ChromeUtils
 .
 now
 (

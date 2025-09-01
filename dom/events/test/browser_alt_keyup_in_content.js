@@ -685,7 +685,7 @@ activated
 let
 startTime
 =
-performance
+ChromeUtils
 .
 now
 (

@@ -1164,7 +1164,7 @@ explicit
 {
 profilerSubtestStartTime
 =
-Cu
+ChromeUtils
 .
 now
 (

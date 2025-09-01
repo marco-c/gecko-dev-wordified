@@ -752,7 +752,7 @@ dispatchToMainThread
 let
 startTime
 =
-performance
+ChromeUtils
 .
 now
 (
@@ -3080,7 +3080,7 @@ updateElements
 let
 startTime
 =
-performance
+ChromeUtils
 .
 now
 (

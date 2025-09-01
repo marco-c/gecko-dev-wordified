@@ -870,7 +870,7 @@ explicit
 {
 profilerSubtestStartTime
 =
-performance
+ChromeUtils
 .
 now
 (

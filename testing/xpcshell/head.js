@@ -4294,7 +4294,7 @@ _JSCOV_DIR
 let
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -5014,7 +5014,7 @@ complete
 ?
 0
 :
-Cu
+ChromeUtils
 .
 now
 (
@@ -5608,7 +5608,7 @@ try
 let
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -11634,7 +11634,7 @@ true
 let
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -11971,7 +11971,7 @@ out
 let
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -12385,7 +12385,7 @@ default
 let
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (

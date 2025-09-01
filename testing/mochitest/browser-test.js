@@ -7687,7 +7687,7 @@ name
 let
 startTimestamp
 =
-performance
+ChromeUtils
 .
 now
 (
@@ -9189,7 +9189,7 @@ this
 .
 lastStartTimestamp
 =
-performance
+ChromeUtils
 .
 now
 (

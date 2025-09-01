@@ -1112,7 +1112,7 @@ null
 {
 profilerSubtestStartTime
 =
-Cu
+ChromeUtils
 .
 now
 (

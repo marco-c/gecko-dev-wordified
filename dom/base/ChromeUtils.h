@@ -1851,6 +1851,14 @@ GlobalObject
 )
 ;
 static
+double
+Now
+(
+GlobalObject
+&
+)
+;
+static
 void
 EnsureJSOracleStarted
 (
