@@ -466,7 +466,7 @@ AudioDeviceLinuxALSA
 :
 _ptrAudioBuffer
 (
-NULL
+nullptr
 )
 _inputDeviceIndex
 (
@@ -486,11 +486,11 @@ false
 )
 _handleRecord
 (
-NULL
+nullptr
 )
 _handlePlayout
 (
-NULL
+nullptr
 )
 _recordingBuffersizeInFrame
 (
@@ -542,11 +542,11 @@ ALSA_PLAYOUT_CH
 )
 _recordingBuffer
 (
-NULL
+nullptr
 )
 _playoutBuffer
 (
-NULL
+nullptr
 )
 _recordingFramesLeft
 (
@@ -818,7 +818,7 @@ _recordingBuffer
 ;
 _recordingBuffer
 =
-NULL
+nullptr
 ;
 }
 if
@@ -833,7 +833,7 @@ _playoutBuffer
 ;
 _playoutBuffer
 =
-NULL
+nullptr
 ;
 }
 }
@@ -1049,7 +1049,7 @@ _XDisplay
 =
 XOpenDisplay
 (
-NULL
+nullptr
 )
 ;
 if
@@ -1170,7 +1170,7 @@ _XDisplay
 ;
 _XDisplay
 =
-NULL
+nullptr
 ;
 }
 #
@@ -3240,7 +3240,7 @@ nDevices
 name
 =
 =
-NULL
+nullptr
 )
 )
 {
@@ -3261,7 +3261,7 @@ if
 guid
 !
 =
-NULL
+nullptr
 )
 {
 memset
@@ -3329,7 +3329,7 @@ nDevices
 name
 =
 =
-NULL
+nullptr
 )
 )
 {
@@ -3350,7 +3350,7 @@ if
 guid
 !
 =
-NULL
+nullptr
 )
 {
 memset
@@ -4053,7 +4053,7 @@ if
 _handlePlayout
 !
 =
-NULL
+nullptr
 )
 {
 LATE
@@ -4066,7 +4066,7 @@ _handlePlayout
 ;
 _handlePlayout
 =
-NULL
+nullptr
 ;
 _playIsInitialized
 =
@@ -4279,7 +4279,7 @@ errVal
 ;
 _handlePlayout
 =
-NULL
+nullptr
 ;
 return
 -
@@ -4422,7 +4422,7 @@ _handlePlayout
 ;
 _handlePlayout
 =
-NULL
+nullptr
 ;
 return
 -
@@ -4581,7 +4581,7 @@ if
 _handlePlayout
 !
 =
-NULL
+nullptr
 )
 {
 _playIsInitialized
@@ -4721,7 +4721,7 @@ if
 _handleRecord
 !
 =
-NULL
+nullptr
 )
 {
 errVal
@@ -4736,7 +4736,7 @@ _handleRecord
 ;
 _handleRecord
 =
-NULL
+nullptr
 ;
 _recIsInitialized
 =
@@ -4959,7 +4959,7 @@ errVal
 ;
 _handleRecord
 =
-NULL
+nullptr
 ;
 return
 -
@@ -5170,7 +5170,7 @@ _handleRecord
 ;
 _handleRecord
 =
-NULL
+nullptr
 ;
 return
 -
@@ -5325,7 +5325,7 @@ if
 _handleRecord
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -5692,7 +5692,7 @@ if
 _handleRecord
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -5747,7 +5747,7 @@ _recordingBuffer
 ;
 _recordingBuffer
 =
-NULL
+nullptr
 ;
 }
 /
@@ -5895,7 +5895,7 @@ to
 NULL
 _handleRecord
 =
-NULL
+nullptr
 ;
 return
 0
@@ -6182,7 +6182,7 @@ if
 _handlePlayout
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -6217,7 +6217,7 @@ _playoutBuffer
 ;
 _playoutBuffer
 =
-NULL
+nullptr
 ;
 /
 /
@@ -6324,7 +6324,7 @@ false
 ;
 _handlePlayout
 =
-NULL
+nullptr
 ;
 RTC_LOG
 (
@@ -6942,7 +6942,7 @@ hints
 list
 !
 =
-NULL
+nullptr
 ;
 +
 +
@@ -7570,7 +7570,7 @@ if
 _handleRecord
 =
 =
-NULL
+nullptr
 )
 {
 RTC_LOG
@@ -7613,7 +7613,7 @@ if
 _handlePlayout
 =
 =
-NULL
+nullptr
 )
 {
 RTC_LOG

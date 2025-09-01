@@ -302,19 +302,19 @@ _paInputDeviceIndex
 )
 _paPlayStream
 (
-NULL
+nullptr
 )
 _paRecStream
 (
-NULL
+nullptr
 )
 _paMainloop
 (
-NULL
+nullptr
 )
 _paContext
 (
-NULL
+nullptr
 )
 _paVolume
 (
@@ -683,11 +683,11 @@ CloseMicrophone
 ;
 _paMainloop
 =
-NULL
+nullptr
 ;
 _paContext
 =
-NULL
+nullptr
 ;
 _paObjectsSet
 =
@@ -737,7 +737,7 @@ _paOutputDeviceIndex
 ;
 _paPlayStream
 =
-NULL
+nullptr
 ;
 return
 0
@@ -783,7 +783,7 @@ _paInputDeviceIndex
 ;
 _paRecStream
 =
-NULL
+nullptr
 ;
 return
 0
@@ -1395,7 +1395,7 @@ pa_operation
 *
 paOperation
 =
-NULL
+nullptr
 ;
 paOperation
 =
@@ -1415,7 +1415,7 @@ _paPlayStream
 &
 cVolumes
 PaSetVolumeCallback
-NULL
+nullptr
 )
 ;
 if
@@ -2047,7 +2047,7 @@ pa_operation
 *
 paOperation
 =
-NULL
+nullptr
 ;
 paOperation
 =
@@ -2069,7 +2069,7 @@ int
 )
 enable
 PaSetVolumeCallback
-NULL
+nullptr
 )
 ;
 if
@@ -2590,7 +2590,7 @@ pa_operation
 *
 paOperation
 =
-NULL
+nullptr
 ;
 /
 /
@@ -2824,7 +2824,7 @@ pa_operation
 *
 paOperation
 =
-NULL
+nullptr
 ;
 uint32_t
 deviceIndex
@@ -2919,7 +2919,7 @@ _paContext
 deviceIndex
 enable
 PaSetVolumeCallback
-NULL
+nullptr
 )
 ;
 if
@@ -3528,7 +3528,7 @@ pa_operation
 *
 paOperation
 =
-NULL
+nullptr
 ;
 /
 /
@@ -3601,7 +3601,7 @@ deviceIndex
 &
 cVolumes
 PaSetVolumeCallback
-NULL
+nullptr
 )
 ;
 if
@@ -4862,7 +4862,7 @@ pa_operation
 *
 paOperation
 =
-NULL
+nullptr
 ;
 AutoPulseLock
 auto_lock
@@ -4929,7 +4929,7 @@ pa_operation
 *
 paOperation
 =
-NULL
+nullptr
 ;
 AutoPulseLock
 auto_lock
@@ -4978,7 +4978,7 @@ pa_operation
 *
 paOperation
 =
-NULL
+nullptr
 ;
 AutoPulseLock
 auto_lock

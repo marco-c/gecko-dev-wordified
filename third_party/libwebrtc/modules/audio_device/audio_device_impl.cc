@@ -4194,7 +4194,7 @@ if
 name
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -4229,7 +4229,7 @@ if
 name
 !
 =
-NULL
+nullptr
 )
 {
 RTC_LOG
@@ -4254,7 +4254,7 @@ if
 guid
 !
 =
-NULL
+nullptr
 )
 {
 RTC_LOG
@@ -4331,7 +4331,7 @@ if
 name
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -4366,7 +4366,7 @@ if
 name
 !
 =
-NULL
+nullptr
 )
 {
 RTC_LOG
@@ -4391,7 +4391,7 @@ if
 guid
 !
 =
-NULL
+nullptr
 )
 {
 RTC_LOG
