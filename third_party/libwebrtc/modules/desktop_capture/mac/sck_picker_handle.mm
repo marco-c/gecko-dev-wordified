@@ -177,13 +177,11 @@ AtCapacityLocked
 (
 )
 const
-{
-mutex_
-.
-AssertHeld
+RTC_EXCLUSIVE_LOCKS_REQUIRED
 (
+mutex_
 )
-;
+{
 return
 handle_count_
 =
