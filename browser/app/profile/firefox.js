@@ -20222,7 +20222,7 @@ refinedCardsLayout
 .
 enabled
 "
-false
+true
 )
 ;
 /
@@ -23982,7 +23982,7 @@ publisherFavicon
 .
 enabled
 "
-false
+true
 )
 ;
 /
