@@ -68,7 +68,7 @@ win
 let
 SPOOFED_HW_CONCURRENCY
 =
-4
+2
 ;
 /
 /
@@ -526,7 +526,7 @@ win
 let
 SPOOFED_HW_CONCURRENCY
 =
-4
+2
 ;
 /
 /

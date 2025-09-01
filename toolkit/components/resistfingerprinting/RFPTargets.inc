@@ -687,11 +687,6 @@ ITEM_VALUE
 MaxTouchPointsCollapse
 73
 )
-ITEM_VALUE
-(
-NavigatorHWConcurrencyTiered
-74
-)
 /
 /
 !
