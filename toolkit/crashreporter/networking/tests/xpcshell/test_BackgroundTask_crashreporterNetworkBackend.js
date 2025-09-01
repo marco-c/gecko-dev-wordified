@@ -316,6 +316,10 @@ path
 testUserAgent
 /
 1
+(
+foo
+bar
+)
 "
 request
 ]
@@ -407,6 +411,10 @@ Agent
 testUserAgent
 /
 1
+(
+foo
+bar
+)
 "
 )
 ;
@@ -842,6 +850,10 @@ Agent
 testUserAgent
 /
 1
+(
+foo
+bar
+)
 "
 )
 ;

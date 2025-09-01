@@ -879,6 +879,18 @@ MOZ_APP_VENDOR
 )
 )
     
+output
+.
+write
+(
+generate_string
+(
+"
+MOZ_APP_VERSION
+"
+)
+)
+    
 #
 Write
 out

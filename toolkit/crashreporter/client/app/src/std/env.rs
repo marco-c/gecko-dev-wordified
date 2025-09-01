@@ -76,6 +76,16 @@ std
 env
 :
 :
+consts
+;
+pub
+use
+std
+:
+:
+env
+:
+:
 VarError
 ;
 use
