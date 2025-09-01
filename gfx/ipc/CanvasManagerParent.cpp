@@ -1032,7 +1032,6 @@ webgpu
 WebGPUParent
 >
 (
-mContentId
 )
 ;
 }
