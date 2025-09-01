@@ -576,7 +576,6 @@ com
 expectedAlpn
 :
 "
-h2
 "
 }
 )
@@ -676,7 +675,6 @@ com
 expectedAlpn
 :
 "
-h2
 "
 }
 )
@@ -702,7 +700,6 @@ com
 expectedAlpn
 :
 "
-h2
 "
 }
 )
@@ -830,7 +827,6 @@ com
 expectedAlpn
 :
 "
-h2
 "
 }
 )
@@ -856,7 +852,6 @@ com
 expectedAlpn
 :
 "
-h2
 "
 }
 )
@@ -992,7 +987,6 @@ com
 expectedAlpn
 :
 "
-h2
 "
 }
 )
@@ -1259,7 +1253,6 @@ com
 expectedAlpn
 :
 "
-h2
 "
 }
 )
@@ -1285,7 +1278,6 @@ com
 expectedAlpn
 :
 "
-h2
 "
 }
 )
