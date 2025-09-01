@@ -221,6 +221,17 @@ has
 used
 "
 "
+browser
+.
+toolbarbuttons
+.
+introduced
+.
+sidebar
+-
+button
+"
+"
 sidebar
 .
 verticalTabs
