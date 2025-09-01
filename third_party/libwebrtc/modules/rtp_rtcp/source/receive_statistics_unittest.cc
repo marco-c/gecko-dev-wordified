@@ -788,7 +788,7 @@ ASSERT_TRUE
 statistician
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_GT
@@ -867,7 +867,7 @@ ASSERT_TRUE
 statistician
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_GT
@@ -1609,7 +1609,7 @@ ASSERT_TRUE
 statistician
 !
 =
-NULL
+nullptr
 )
 ;
 StreamDataCounters
@@ -1779,7 +1779,7 @@ ASSERT_TRUE
 statistician
 !
 =
-NULL
+nullptr
 )
 ;
 StreamDataCounters
