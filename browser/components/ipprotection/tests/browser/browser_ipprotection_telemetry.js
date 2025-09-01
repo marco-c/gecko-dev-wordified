@@ -193,6 +193,11 @@ isSignedIn
 =
 true
 ;
+await
+putServerInRemoteSettings
+(
+)
+;
 let
 panelShownPromise
 =
@@ -863,6 +868,11 @@ isSignedIn
 =
 true
 ;
+await
+putServerInRemoteSettings
+(
+)
+;
 let
 toggle
 =
@@ -1267,6 +1277,11 @@ IPProtectionService
 isSignedIn
 =
 true
+;
+await
+putServerInRemoteSettings
+(
+)
 ;
 let
 panelShownPromise
