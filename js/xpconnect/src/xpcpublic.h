@@ -4560,6 +4560,10 @@ const
 nsACString
 &
 aLanguageOverride
+const
+nsAString
+&
+aTimezoneOverride
 )
 ;
 class
