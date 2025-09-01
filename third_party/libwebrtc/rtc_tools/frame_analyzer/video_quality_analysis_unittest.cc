@@ -922,7 +922,7 @@ ASSERT_TRUE
 logfile
 !
 =
-NULL
+nullptr
 )
 ;
 result
