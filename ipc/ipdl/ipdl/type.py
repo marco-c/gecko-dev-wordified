@@ -6561,11 +6561,12 @@ symtab
 .
 lookup
 (
-str
-(
 f
 .
 typespec
+.
+basename
+(
 )
 )
             
@@ -6610,11 +6611,12 @@ sd
 .
 name
                     
-str
-(
 f
 .
 typespec
+.
+basename
+(
 )
                 
 )
@@ -6759,9 +6761,10 @@ symtab
 .
 lookup
 (
-str
-(
 c
+.
+basename
+(
 )
 )
             
@@ -6779,6 +6782,7 @@ error
 c
 .
 loc
+                    
 "
 unknown
 component
@@ -6792,10 +6796,13 @@ union
 s
 '
 "
-str
-(
+                    
 c
+.
+basename
+(
 )
+                    
 ud
 .
 name
@@ -8833,25 +8840,6 @@ typespec
 )
 :
         
-loc
-=
-typespec
-.
-loc
-        
-if
-typespec
-.
-uniqueptr
-:
-            
-itype
-=
-UniquePtrType
-(
-itype
-)
-        
 if
 itype
 .
@@ -8906,7 +8894,10 @@ self
 error
 (
                 
+typespec
+.
 loc
+                
 "
 nullable
 '
@@ -8919,6 +8910,7 @@ s
 is
 unsupported
 "
+                
 itype
 .
 name
@@ -8927,25 +8919,57 @@ name
             
 )
         
-if
+for
+modifier
+in
 typespec
 .
-array
+modifiers
 :
             
+if
+modifier
+=
+=
+"
+uniqueptr
+"
+:
+                
+itype
+=
+UniquePtrType
+(
+itype
+)
+            
+elif
+modifier
+=
+=
+"
+array
+"
+:
+                
 itype
 =
 ArrayType
 (
 itype
 )
-        
-if
-typespec
-.
-maybe
-:
             
+else
+:
+                
+assert
+modifier
+=
+=
+"
+maybe
+"
+                
 itype
 =
 MaybeType
