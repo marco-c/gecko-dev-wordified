@@ -939,8 +939,8 @@ select
 FD_SETSIZE
 &
 socket_set
-NULL
-NULL
+nullptr
+nullptr
 &
 timeout
 )

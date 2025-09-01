@@ -245,7 +245,7 @@ RTC_DCHECK
 thread
 !
 =
-NULL
+nullptr
 )
 ;
 return
@@ -277,7 +277,7 @@ PeerConnectionClient
 :
 callback_
 (
-NULL
+nullptr
 )
 resolver_
 (
@@ -321,7 +321,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 RTC_DCHECK
@@ -333,7 +333,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 control_socket_
@@ -1644,7 +1644,7 @@ RTC_DCHECK
 value
 !
 =
-NULL
+nullptr
 )
 ;
 size_t
@@ -1733,7 +1733,7 @@ RTC_DCHECK
 value
 !
 =
-NULL
+nullptr
 )
 ;
 size_t
@@ -2757,7 +2757,7 @@ RTC_DCHECK
 name
 !
 =
-NULL
+nullptr
 )
 ;
 RTC_DCHECK
@@ -2765,7 +2765,7 @@ RTC_DCHECK
 id
 !
 =
-NULL
+nullptr
 )
 ;
 RTC_DCHECK
@@ -2773,7 +2773,7 @@ RTC_DCHECK
 connected
 !
 =
-NULL
+nullptr
 )
 ;
 RTC_DCHECK

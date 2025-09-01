@@ -251,11 +251,11 @@ wnd
 )
 conductor_
 (
-NULL
+nullptr
 )
 client_
 (
-NULL
+nullptr
 )
 {
 }
@@ -433,7 +433,7 @@ connection_active
 client_
 !
 =
-NULL
+nullptr
 &
 &
 !
