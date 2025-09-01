@@ -149,6 +149,7 @@ const
 IntSize
 &
 size
+const
 uint8_t
 *
 sourceData
@@ -268,6 +269,7 @@ static
 void
 ApplyMorphologyHorizontal_Scalar
 (
+const
 uint8_t
 *
 aSourceData
@@ -572,6 +574,7 @@ FilterProcessing
 :
 ApplyMorphologyHorizontal_Scalar
 (
+const
 uint8_t
 *
 aSourceData
@@ -646,6 +649,7 @@ static
 void
 ApplyMorphologyVertical_Scalar
 (
+const
 uint8_t
 *
 aSourceData
@@ -950,6 +954,7 @@ FilterProcessing
 :
 ApplyMorphologyVertical_Scalar
 (
+const
 uint8_t
 *
 aSourceData
@@ -1104,6 +1109,7 @@ const
 IntSize
 &
 size
+const
 uint8_t
 *
 sourceData
@@ -1381,6 +1387,7 @@ uint8_t
 aTargetData
 int32_t
 aTargetStride
+const
 uint8_t
 *
 aSourceData
@@ -1549,6 +1556,7 @@ uint8_t
 aTargetData
 int32_t
 aTargetStride
+const
 uint8_t
 *
 aSourceData
@@ -1803,6 +1811,7 @@ uint8_t
 aTargetData
 int32_t
 aTargetStride
+const
 uint8_t
 *
 aSourceData
@@ -1987,6 +1996,7 @@ uint8_t
 aTargetData
 int32_t
 aTargetStride
+const
 uint8_t
 *
 aSourceData

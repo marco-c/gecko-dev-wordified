@@ -419,6 +419,7 @@ FilterProcessing
 :
 ApplyMorphologyHorizontal
 (
+const
 uint8_t
 *
 aSourceData
@@ -487,6 +488,7 @@ FilterProcessing
 :
 ApplyMorphologyVertical
 (
+const
 uint8_t
 *
 aSourceData
@@ -1305,6 +1307,7 @@ uint8_t
 aTargetData
 int32_t
 aTargetStride
+const
 uint8_t
 *
 aSourceData
@@ -1365,6 +1368,7 @@ uint8_t
 aTargetData
 int32_t
 aTargetStride
+const
 uint8_t
 *
 aSourceData
@@ -1425,6 +1429,7 @@ uint8_t
 aTargetData
 int32_t
 aTargetStride
+const
 uint8_t
 *
 aSourceData
@@ -1489,6 +1494,7 @@ uint8_t
 aTargetData
 int32_t
 aTargetStride
+const
 uint8_t
 *
 aSourceData
