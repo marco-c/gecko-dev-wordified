@@ -2671,6 +2671,13 @@ const
 NormalizedConstraints
 &
 constraints
+const
+dom
+:
+:
+VideoResizeModeEnum
+&
+resize_mode
 FrameRelay
 *
 cb
@@ -2734,6 +2741,10 @@ CaptureEngine
 int
 VideoCaptureCapability
 NormalizedConstraints
+dom
+:
+:
+VideoResizeModeEnum
 >
 (
 "
@@ -2755,6 +2766,7 @@ aCapEngine
 capture_id
 capCap
 constraints
+resize_mode
 )
 ;
 LockAndDispatch
