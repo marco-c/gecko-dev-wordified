@@ -5326,16 +5326,6 @@ integrityMetadata
 )
 loadInfoArgs
 .
-httpsOnlyStatus
-(
-)
-loadInfoArgs
-.
-hstsStatus
-(
-)
-loadInfoArgs
-.
 hasValidUserGestureActivation
 (
 )
