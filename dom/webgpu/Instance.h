@@ -353,7 +353,7 @@ aObj
 ;
 static
 bool
-ExternalTextureEnabled
+ExternalTexturePrefEnabled
 (
 JSContext
 *
