@@ -106,6 +106,14 @@ CpuInfo
 {
 public
 :
+/
+/
+Wrapper
+kept
+while
+updating
+dependencies
+.
 static
 uint32_t
 DetectNumberOfCores
