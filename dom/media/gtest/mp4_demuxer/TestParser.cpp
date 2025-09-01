@@ -1273,7 +1273,7 @@ for
 crypto
 .
 uint64_t
-mMoofReachedOffset
+mParsedOffset
 ;
 /
 /
@@ -2083,7 +2083,7 @@ false
 0
 0
 false
-955100
+0
 false
 false
 2
@@ -4127,7 +4127,7 @@ tests
 test
 ]
 .
-mMoofReachedOffset
+mParsedOffset
 =
 =
 0
@@ -4180,7 +4180,7 @@ tests
 test
 ]
 .
-mMoofReachedOffset
+mParsedOffset
 parser
 .
 mOffset
