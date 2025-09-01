@@ -57320,6 +57320,10 @@ newURI
 )
 )
 {
+aSameDocument
+=
+false
+;
 MOZ_LOG
 (
 gSHLog
@@ -57371,6 +57375,14 @@ doc
 GetInnerWindow
 (
 )
+;
+window
+&
+&
+!
+aState
+.
+mHistoryNavBetweenSameDoc
 )
 {
 /
