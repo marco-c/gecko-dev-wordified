@@ -887,7 +887,7 @@ if
 handle
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -906,7 +906,7 @@ self
 >
 mean_far_spectrum
 =
-NULL
+nullptr
 ;
 WebRtc_FreeBinaryDelayEstimatorFarend
 (
@@ -921,7 +921,7 @@ self
 >
 binary_farend
 =
-NULL
+nullptr
 ;
 free
 (
@@ -943,7 +943,7 @@ DelayEstimatorFarend
 *
 self
 =
-NULL
+nullptr
 ;
 /
 /
@@ -1013,7 +1013,7 @@ if
 self
 !
 =
-NULL
+nullptr
 )
 {
 int
@@ -1054,7 +1054,7 @@ self
 binary_farend
 =
 =
-NULL
+nullptr
 )
 ;
 /
@@ -1097,7 +1097,7 @@ self
 mean_far_spectrum
 =
 =
-NULL
+nullptr
 )
 ;
 self
@@ -1119,7 +1119,7 @@ self
 ;
 self
 =
-NULL
+nullptr
 ;
 }
 }
@@ -1150,7 +1150,7 @@ if
 self
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1296,7 +1296,7 @@ if
 self
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1309,7 +1309,7 @@ if
 far_spectrum
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -1448,7 +1448,7 @@ if
 self
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1461,7 +1461,7 @@ if
 far_spectrum
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -1561,7 +1561,7 @@ if
 handle
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1580,7 +1580,7 @@ self
 >
 mean_near_spectrum
 =
-NULL
+nullptr
 ;
 WebRtc_FreeBinaryDelayEstimator
 (
@@ -1595,7 +1595,7 @@ self
 >
 binary_handle
 =
-NULL
+nullptr
 ;
 free
 (
@@ -1618,7 +1618,7 @@ DelayEstimator
 *
 self
 =
-NULL
+nullptr
 ;
 DelayEstimatorFarend
 *
@@ -1635,7 +1635,7 @@ if
 farend_handle
 !
 =
-NULL
+nullptr
 )
 {
 self
@@ -1661,7 +1661,7 @@ if
 self
 !
 =
-NULL
+nullptr
 )
 {
 int
@@ -1703,7 +1703,7 @@ self
 binary_handle
 =
 =
-NULL
+nullptr
 )
 ;
 /
@@ -1749,7 +1749,7 @@ self
 mean_near_spectrum
 =
 =
-NULL
+nullptr
 )
 ;
 self
@@ -1774,7 +1774,7 @@ self
 ;
 self
 =
-NULL
+nullptr
 ;
 }
 }
@@ -1805,7 +1805,7 @@ if
 self
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1940,7 +1940,7 @@ if
 self
 =
 =
-NULL
+nullptr
 )
 |
 |
@@ -1997,7 +1997,7 @@ if
 self
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2199,7 +2199,7 @@ if
 self
 =
 =
-NULL
+nullptr
 )
 |
 |
@@ -2255,7 +2255,7 @@ if
 self
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2298,7 +2298,7 @@ if
 self
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2375,7 +2375,7 @@ if
 self
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2429,7 +2429,7 @@ if
 self
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2442,7 +2442,7 @@ if
 near_spectrum
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -2579,7 +2579,7 @@ if
 self
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2592,7 +2592,7 @@ if
 near_spectrum
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -2690,7 +2690,7 @@ if
 self
 =
 =
-NULL
+nullptr
 )
 {
 return

@@ -379,27 +379,27 @@ DelayEstimatorTest
 :
 handle_
 (
-NULL
+nullptr
 )
 self_
 (
-NULL
+nullptr
 )
 farend_handle_
 (
-NULL
+nullptr
 )
 farend_self_
 (
-NULL
+nullptr
 )
 binary_
 (
-NULL
+nullptr
 )
 binary_farend_
 (
-NULL
+nullptr
 )
 spectrum_size_
 (
@@ -562,7 +562,7 @@ ASSERT_TRUE
 farend_handle_
 !
 =
-NULL
+nullptr
 )
 ;
 farend_self_
@@ -589,7 +589,7 @@ ASSERT_TRUE
 handle_
 !
 =
-NULL
+nullptr
 )
 ;
 self_
@@ -615,7 +615,7 @@ ASSERT_TRUE
 binary_farend_
 !
 =
-NULL
+nullptr
 )
 ;
 binary_
@@ -631,7 +631,7 @@ ASSERT_TRUE
 binary_
 !
 =
-NULL
+nullptr
 )
 ;
 }
@@ -650,11 +650,11 @@ handle_
 ;
 handle_
 =
-NULL
+nullptr
 ;
 self_
 =
-NULL
+nullptr
 ;
 WebRtc_FreeDelayEstimatorFarend
 (
@@ -663,11 +663,11 @@ farend_handle_
 ;
 farend_handle_
 =
-NULL
+nullptr
 ;
 farend_self_
 =
-NULL
+nullptr
 ;
 WebRtc_FreeBinaryDelayEstimator
 (
@@ -676,7 +676,7 @@ binary_
 ;
 binary_
 =
-NULL
+nullptr
 ;
 WebRtc_FreeBinaryDelayEstimatorFarend
 (
@@ -685,7 +685,7 @@ binary_farend_
 ;
 binary_farend_
 =
-NULL
+nullptr
 ;
 }
 void
@@ -1451,7 +1451,7 @@ binary2
 ;
 binary2
 =
-NULL
+nullptr
 ;
 binary_
 -
@@ -1551,7 +1551,7 @@ EXPECT_TRUE
 handle
 =
 =
-NULL
+nullptr
 )
 ;
 handle
@@ -1567,7 +1567,7 @@ EXPECT_TRUE
 handle
 =
 =
-NULL
+nullptr
 )
 ;
 handle
@@ -1578,7 +1578,7 @@ handle
 =
 WebRtc_CreateDelayEstimator
 (
-NULL
+nullptr
 kLookahead
 )
 ;
@@ -1587,7 +1587,7 @@ EXPECT_TRUE
 handle
 =
 =
-NULL
+nullptr
 )
 ;
 handle
@@ -1604,7 +1604,7 @@ EXPECT_TRUE
 handle
 =
 =
-NULL
+nullptr
 )
 ;
 /
@@ -1637,7 +1637,7 @@ EXPECT_EQ
 1
 WebRtc_InitDelayEstimatorFarend
 (
-NULL
+nullptr
 )
 )
 ;
@@ -1647,7 +1647,7 @@ EXPECT_EQ
 1
 WebRtc_InitDelayEstimator
 (
-NULL
+nullptr
 )
 )
 ;
@@ -1699,7 +1699,7 @@ EXPECT_EQ
 1
 WebRtc_AddFarSpectrumFloat
 (
-NULL
+nullptr
 far_f_
 spectrum_size_
 )
@@ -1725,7 +1725,7 @@ EXPECT_EQ
 WebRtc_AddFarSpectrumFloat
 (
 farend_handle_
-NULL
+nullptr
 spectrum_size_
 )
 )
@@ -1812,7 +1812,7 @@ EXPECT_EQ
 1
 WebRtc_AddFarSpectrumFix
 (
-NULL
+nullptr
 far_u16_
 spectrum_size_
 0
@@ -1826,7 +1826,7 @@ EXPECT_EQ
 WebRtc_AddFarSpectrumFix
 (
 farend_handle_
-NULL
+nullptr
 spectrum_size_
 0
 )
@@ -1895,7 +1895,7 @@ EXPECT_EQ
 1
 WebRtc_set_history_size
 (
-NULL
+nullptr
 1
 )
 )
@@ -1936,7 +1936,7 @@ EXPECT_EQ
 1
 WebRtc_history_size
 (
-NULL
+nullptr
 )
 )
 ;
@@ -2092,7 +2092,7 @@ EXPECT_EQ
 1
 WebRtc_set_allowed_offset
 (
-NULL
+nullptr
 0
 )
 )
@@ -2115,7 +2115,7 @@ EXPECT_EQ
 1
 WebRtc_get_allowed_offset
 (
-NULL
+nullptr
 )
 )
 ;
@@ -2161,7 +2161,7 @@ EXPECT_EQ
 1
 WebRtc_enable_robust_validation
 (
-NULL
+nullptr
 kEnable
 [
 0
@@ -2217,7 +2217,7 @@ EXPECT_EQ
 1
 WebRtc_is_robust_validation_enabled
 (
-NULL
+nullptr
 )
 )
 ;
@@ -2291,7 +2291,7 @@ EXPECT_EQ
 1
 WebRtc_DelayEstimatorProcessFloat
 (
-NULL
+nullptr
 near_f_
 spectrum_size_
 )
@@ -2317,7 +2317,7 @@ EXPECT_EQ
 WebRtc_DelayEstimatorProcessFloat
 (
 handle_
-NULL
+nullptr
 spectrum_size_
 )
 )
@@ -2450,7 +2450,7 @@ EXPECT_EQ
 1
 WebRtc_DelayEstimatorProcessFix
 (
-NULL
+nullptr
 near_u16_
 spectrum_size_
 0
@@ -2464,7 +2464,7 @@ EXPECT_EQ
 WebRtc_DelayEstimatorProcessFix
 (
 handle_
-NULL
+nullptr
 spectrum_size_
 0
 )
@@ -2552,7 +2552,7 @@ EXPECT_EQ
 1
 WebRtc_last_delay
 (
-NULL
+nullptr
 )
 )
 ;
@@ -3460,7 +3460,7 @@ EXPECT_TRUE
 binary
 =
 =
-NULL
+nullptr
 )
 ;
 }
@@ -3559,7 +3559,7 @@ binary_handle
 =
 WebRtc_CreateBinaryDelayEstimator
 (
-NULL
+nullptr
 kLookahead
 )
 ;
@@ -3568,7 +3568,7 @@ EXPECT_TRUE
 binary_handle
 =
 =
-NULL
+nullptr
 )
 ;
 binary_handle
@@ -3585,7 +3585,7 @@ EXPECT_TRUE
 binary_handle
 =
 =
-NULL
+nullptr
 )
 ;
 }
@@ -4197,7 +4197,7 @@ ASSERT_TRUE
 farend_handle
 !
 =
-NULL
+nullptr
 )
 ;
 void
@@ -4215,7 +4215,7 @@ ASSERT_TRUE
 handle
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ

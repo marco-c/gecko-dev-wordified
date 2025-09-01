@@ -190,7 +190,7 @@ ASSERT_TRUE
 spectral_peak_file
 !
 =
-NULL
+nullptr
 )
 ;
 std
@@ -237,7 +237,7 @@ ASSERT_TRUE
 pitch_gain_file
 !
 =
-NULL
+nullptr
 )
 ;
 std
@@ -284,7 +284,7 @@ ASSERT_TRUE
 pitch_lag_file
 !
 =
-NULL
+nullptr
 )
 ;
 std
@@ -331,7 +331,7 @@ ASSERT_TRUE
 voicing_prob_file
 !
 =
-NULL
+nullptr
 )
 ;
 PitchBasedVad

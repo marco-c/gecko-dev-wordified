@@ -1059,7 +1059,7 @@ if
 noisy
 =
 =
-NULL
+nullptr
 )
 {
 noisy
@@ -1068,7 +1068,7 @@ clean
 ;
 clean
 =
-NULL
+nullptr
 ;
 }
 for

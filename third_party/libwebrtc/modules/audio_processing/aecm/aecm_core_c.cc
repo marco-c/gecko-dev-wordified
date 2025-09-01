@@ -1935,7 +1935,7 @@ if
 nearendClean
 !
 =
-NULL
+nullptr
 )
 {
 memcpy
@@ -2918,7 +2918,7 @@ uint16_t
 *
 far_spectrum_ptr
 =
-NULL
+nullptr
 ;
 /
 /
@@ -3269,7 +3269,7 @@ if
 nearendClean
 !
 =
-NULL
+nullptr
 )
 {
 memcpy
@@ -3372,7 +3372,7 @@ if
 nearendClean
 =
 =
-NULL
+nullptr
 )
 {
 ptrDfaClean
@@ -3623,7 +3623,7 @@ if
 far_spectrum_ptr
 =
 =
-NULL
+nullptr
 )
 {
 return

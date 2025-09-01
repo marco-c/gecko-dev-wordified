@@ -509,7 +509,7 @@ ASSERT_TRUE
 fid
 !
 =
-NULL
+nullptr
 )
 ;
 /

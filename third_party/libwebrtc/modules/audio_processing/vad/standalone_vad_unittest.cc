@@ -513,7 +513,7 @@ ASSERT_TRUE
 pcm_file
 !
 =
-NULL
+nullptr
 )
 ;
 FILE
@@ -552,7 +552,7 @@ ASSERT_TRUE
 reference_file
 !
 =
-NULL
+nullptr
 )
 ;
 /
