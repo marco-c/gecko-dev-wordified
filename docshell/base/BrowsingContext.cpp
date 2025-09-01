@@ -14952,8 +14952,6 @@ ErrorResult
 aRv
 NavigationHistoryBehavior
 aHistoryHandling
-bool
-aShouldNotForceReplaceInOnLoad
 )
 {
 CallerType
@@ -15026,14 +15024,6 @@ Failed
 return
 ;
 }
-loadState
--
->
-SetShouldNotForceReplaceInOnLoad
-(
-aShouldNotForceReplaceInOnLoad
-)
-;
 /
 /
 The
