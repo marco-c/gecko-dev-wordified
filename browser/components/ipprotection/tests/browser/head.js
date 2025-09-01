@@ -792,11 +792,17 @@ IPProtectionPanel
 CONTENT_TAGNAME
 )
 ;
+if
+(
+content
+)
+{
 await
 content
 .
 updateComplete
 ;
+}
 }
 /
 *
