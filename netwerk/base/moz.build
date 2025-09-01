@@ -1560,6 +1560,9 @@ sfv
 idna_glue
 "
 "
+uritemplate_glue
+"
+"
 urlpattern_glue
 "
 ]
