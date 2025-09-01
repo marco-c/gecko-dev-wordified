@@ -537,13 +537,6 @@ item_
 ;
 }
 ;
-static
-constexpr
-size_t
-MaxParallelWorkers
-=
-8
-;
 /
 /
 An
