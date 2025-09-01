@@ -648,12 +648,6 @@ wasm
 Decoder
 *
 decoder
-jit
-:
-:
-IonPerfSpewer
-*
-spewer
 )
 ;
 [
@@ -2444,9 +2438,6 @@ generation
 IonScriptCounts
 *
 scriptCounts_
-;
-IonPerfSpewer
-perfSpewer_
 ;
 /
 /
