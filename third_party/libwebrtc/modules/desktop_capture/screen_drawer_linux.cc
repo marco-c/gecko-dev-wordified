@@ -206,11 +206,9 @@ h
 #
 include
 "
-system_wrappers
+rtc_base
 /
-include
-/
-sleep
+thread
 .
 h
 "
@@ -717,6 +715,9 @@ for
 window
 animations
 .
+Thread
+:
+:
 SleepMs
 (
 200
@@ -1039,6 +1040,9 @@ WaitForPendingDraws
 (
 )
 {
+Thread
+:
+:
 SleepMs
 (
 50

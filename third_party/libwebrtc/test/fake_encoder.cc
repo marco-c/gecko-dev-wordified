@@ -209,11 +209,9 @@ h
 #
 include
 "
-system_wrappers
+rtc_base
 /
-include
-/
-sleep
+thread
 .
 h
 "
@@ -2468,6 +2466,9 @@ RTC_DCHECK_RUN_ON
 sequence_checker_
 )
 ;
+Thread
+:
+:
 SleepMs
 (
 delay_ms_
