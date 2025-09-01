@@ -1476,6 +1476,10 @@ storage
 to_utf8
 (
 )
+.
+into_owned
+(
+)
 )
 }
 ;
@@ -1484,10 +1488,6 @@ metric
 test_get_value
 (
 storage
-.
-as_deref
-(
-)
 )
 .
 is_some
@@ -1582,6 +1582,10 @@ storage
 to_utf8
 (
 )
+.
+into_owned
+(
+)
 )
 }
 ;
@@ -1590,10 +1594,6 @@ metric
 test_get_value
 (
 storage
-.
-as_deref
-(
-)
 )
 .
 unwrap
