@@ -137,9 +137,6 @@ function
 <
 void
 (
-webrtc
-:
-:
 SimpleStringBuilder
 &
 )
@@ -224,9 +221,6 @@ function
 <
 void
 (
-webrtc
-:
-:
 SimpleStringBuilder
 &
 )
