@@ -280,7 +280,7 @@ True
 )
     
 def
-test_usage_reporting_independent_from_telemetry
+test_deletion_request
 (
 self
 )
@@ -321,7 +321,6 @@ request
 "
 ping
 .
-        
 The
 "
 deletion
@@ -611,27 +610,11 @@ fog_ping_server
         
 )
         
-#
-Other
-telemetry
-stays
-disabled
+self
 .
-        
-#
-We
-should
-still
-get
-the
-usage
--
-reporting
-ping
-on
-a
-restart
-.
+enable_telemetry
+(
+)
         
 ping3
 =

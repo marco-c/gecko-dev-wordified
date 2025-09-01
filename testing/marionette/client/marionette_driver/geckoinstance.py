@@ -628,16 +628,6 @@ uploadEnabled
 :
 False
         
-"
-datareporting
-.
-usage
-.
-uploadEnabled
-"
-:
-False
-        
 #
 Do
 not
