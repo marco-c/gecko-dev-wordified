@@ -11549,6 +11549,8 @@ ScrollTriggeredByScript
 aTriggeredByScript
 ScrollAnimationKind
 aAnimationKind
+ViewportType
+aViewportToScroll
 ScrollOrigin
 aOrigin
 )

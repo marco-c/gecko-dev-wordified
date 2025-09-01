@@ -16034,6 +16034,10 @@ ScrollAnimationKind
 :
 :
 SmoothMsd
+ViewportType
+:
+:
+Visual
 ScrollOrigin
 :
 :
@@ -19244,6 +19248,10 @@ ScrollAnimationKind
 :
 :
 SmoothMsd
+ViewportType
+:
+:
+Visual
 ScrollOrigin
 :
 :
@@ -29193,6 +29201,8 @@ ScrollTriggeredByScript
 aTriggeredByScript
 ScrollAnimationKind
 aAnimationKind
+ViewportType
+aViewportToScroll
 ScrollOrigin
 aOrigin
 )
@@ -29357,6 +29367,7 @@ animation
 >
 CanExtend
 (
+aViewportToScroll
 aOrigin
 )
 )
@@ -29472,10 +29483,7 @@ Create
 *
 this
 aAnimationKind
-ViewportType
-:
-:
-Visual
+aViewportToScroll
 aOrigin
 )
 ;
@@ -41130,6 +41138,11 @@ GetScrollTriggeredByScript
 animationKind
 scrollUpdate
 .
+GetViewportType
+(
+)
+scrollUpdate
+.
 GetOrigin
 (
 )
@@ -48922,6 +48935,10 @@ ScrollAnimationKind
 :
 :
 SmoothMsd
+ViewportType
+:
+:
+Visual
 ScrollOrigin
 :
 :
@@ -49411,6 +49428,10 @@ ScrollAnimationKind
 :
 :
 SmoothMsd
+ViewportType
+:
+:
+Visual
 ScrollOrigin
 :
 :

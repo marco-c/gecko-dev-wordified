@@ -361,6 +361,16 @@ return
 mKind
 ;
 }
+ViewportType
+ViewportToScroll
+(
+)
+const
+{
+return
+mViewportToScroll
+;
+}
 ScrollSnapTargetIds
 TakeSnapTargetIds
 (
@@ -483,7 +493,7 @@ the
 specified
 /
 /
-origin
+parameters
 can
 we
 extend
@@ -494,6 +504,8 @@ animation
 bool
 CanExtend
 (
+ViewportType
+aViewportToScroll
 ScrollOrigin
 aOrigin
 )
