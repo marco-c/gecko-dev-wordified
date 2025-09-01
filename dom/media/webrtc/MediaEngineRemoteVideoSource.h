@@ -700,6 +700,15 @@ Stop
 )
 override
 ;
+nsresult
+StartCapture
+(
+const
+NormalizedConstraints
+&
+aConstraints
+)
+;
 uint32_t
 GetBestFitnessDistance
 (
