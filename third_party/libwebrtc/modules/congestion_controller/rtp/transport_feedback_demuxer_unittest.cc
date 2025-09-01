@@ -213,9 +213,6 @@ class
 MockStreamFeedbackObserver
 :
 public
-webrtc
-:
-:
 StreamFeedbackObserver
 {
 public
