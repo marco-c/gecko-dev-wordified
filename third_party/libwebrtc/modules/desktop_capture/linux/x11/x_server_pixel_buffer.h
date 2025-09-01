@@ -559,6 +559,11 @@ shm_gc_
 nullptr
 ;
 bool
+xshm_attached_
+=
+false
+;
+bool
 xshm_get_image_succeeded_
 =
 false
