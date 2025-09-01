@@ -983,9 +983,9 @@ gfxFontEntry
 *
 LookupLocalFont
 (
-nsPresContext
+FontVisibilityProvider
 *
-aPresContext
+aFontVisibilityProvider
 const
 nsACString
 &
@@ -1465,9 +1465,9 @@ mLock
 FontFamily
 GetDefaultFontForPlatform
 (
-nsPresContext
+FontVisibilityProvider
 *
-aPresContext
+aFontVisibilityProvider
 const
 gfxFontStyle
 *

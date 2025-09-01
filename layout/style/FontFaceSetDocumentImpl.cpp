@@ -1066,12 +1066,12 @@ InnerWindowID
 )
 ;
 }
-nsPresContext
+FontVisibilityProvider
 *
 FontFaceSetDocumentImpl
 :
 :
-GetPresContext
+GetFontVisibilityProvider
 (
 )
 const

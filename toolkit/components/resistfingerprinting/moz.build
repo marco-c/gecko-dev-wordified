@@ -131,6 +131,11 @@ UNIFIED_SOURCES
 =
 [
 "
+FontVisibilityProvider
+.
+cpp
+"
+"
 nsRFPService
 .
 cpp
@@ -250,6 +255,11 @@ EXPORTS
 +
 =
 [
+"
+FontVisibilityProvider
+.
+h
+"
 "
 nsRFPService
 .

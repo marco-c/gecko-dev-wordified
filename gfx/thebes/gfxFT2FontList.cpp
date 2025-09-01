@@ -13086,9 +13086,9 @@ gfxFT2FontList
 :
 LookupLocalFont
 (
-nsPresContext
+FontVisibilityProvider
 *
-aPresContext
+aFontVisibilityProvider
 const
 nsACString
 &
@@ -13117,7 +13117,7 @@ SharedFontList
 return
 LookupInSharedFaceNameList
 (
-aPresContext
+aFontVisibilityProvider
 aFontName
 aWeightForEntry
 aStretchForEntry
@@ -13141,9 +13141,9 @@ nullptr
 FontVisibility
 level
 =
-aPresContext
+aFontVisibilityProvider
 ?
-aPresContext
+aFontVisibilityProvider
 -
 >
 GetFontVisibility
@@ -13463,9 +13463,9 @@ gfxFT2FontList
 :
 GetDefaultFontForPlatform
 (
-nsPresContext
+FontVisibilityProvider
 *
-aPresContext
+aFontVisibilityProvider
 const
 gfxFontStyle
 *
@@ -13488,7 +13488,7 @@ ff
 =
 FindFamily
 (
-aPresContext
+aFontVisibilityProvider
 "
 Roboto
 "
@@ -13508,7 +13508,7 @@ ff
 =
 FindFamily
 (
-aPresContext
+aFontVisibilityProvider
 "
 Droid
 Sans

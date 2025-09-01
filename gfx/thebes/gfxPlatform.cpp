@@ -13040,9 +13040,9 @@ gfxPlatform
 :
 LookupLocalFont
 (
-nsPresContext
+FontVisibilityProvider
 *
-aPresContext
+aFontVisibilityProvider
 const
 nsACString
 &
@@ -13066,7 +13066,7 @@ PlatformFontList
 >
 LookupLocalFont
 (
-aPresContext
+aFontVisibilityProvider
 aFontName
 aWeightForEntry
 aStretchForEntry

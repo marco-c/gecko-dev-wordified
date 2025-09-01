@@ -266,9 +266,9 @@ gfxFontFaceSrc
 )
 override
 ;
-nsPresContext
+FontVisibilityProvider
 *
-GetPresContext
+GetFontVisibilityProvider
 (
 )
 const

@@ -28787,10 +28787,10 @@ fontGroup
 new
 gfxFontGroup
 (
-nullptr
+mOffscreenCanvas
 /
 /
-aPresContext
+aFontVisibilityProvider
 list
 /
 /
@@ -34243,7 +34243,7 @@ if
 fontGroup
 -
 >
-GetPresContext
+GetFontVisibilityProvider
 (
 )
 !

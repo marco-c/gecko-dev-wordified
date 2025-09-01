@@ -2207,12 +2207,12 @@ TYPE_FONT
 )
 ;
 }
-nsPresContext
+FontVisibilityProvider
 *
 FontFaceSetWorkerImpl
 :
 :
-GetPresContext
+GetFontVisibilityProvider
 (
 )
 const
