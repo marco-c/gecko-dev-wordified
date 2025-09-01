@@ -202,7 +202,7 @@ int16_t
 out_audio
 )
 ;
-int
+void
 Resample10Msec
 (
 InterleavedView
