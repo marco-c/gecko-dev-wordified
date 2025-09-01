@@ -780,17 +780,6 @@ namespace
 mozilla
 ;
 #
-ifdef
-XP_MACOSX
-#
-define
-kOSXResourcesFolder
-"
-Resources
-"
-#
-endif
-#
 define
 kDesktopFolder
 "
