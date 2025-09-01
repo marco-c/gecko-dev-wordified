@@ -676,6 +676,7 @@ Debug
 Deserialize
 Eq
 Hash
+MallocSizeOf
 Ord
 PartialEq
 PartialOrd

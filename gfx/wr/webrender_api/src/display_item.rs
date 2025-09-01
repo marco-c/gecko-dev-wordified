@@ -1929,6 +1929,7 @@ Copy
 Debug
 Default
 Deserialize
+MallocSizeOf
 PartialEq
 Serialize
 PeekPoke
@@ -5412,6 +5413,7 @@ Clone
 Copy
 Debug
 Deserialize
+MallocSizeOf
 PartialEq
 Serialize
 PeekPoke
@@ -6477,6 +6479,7 @@ Debug
 Deserialize
 Eq
 Hash
+MallocSizeOf
 PartialEq
 Serialize
 PeekPoke
@@ -17134,6 +17137,7 @@ Default
 Deserialize
 Eq
 Hash
+MallocSizeOf
 PartialEq
 Serialize
 PeekPoke
@@ -17353,6 +17357,7 @@ Default
 Deserialize
 Eq
 Hash
+MallocSizeOf
 PartialEq
 Serialize
 PeekPoke
