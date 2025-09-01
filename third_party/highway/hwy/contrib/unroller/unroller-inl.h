@@ -475,6 +475,7 @@ Load
 const
 ptrdiff_t
 idx
+const
 IN_T
 *
 from
@@ -499,6 +500,7 @@ LoadImpl
 const
 ptrdiff_t
 idx
+const
 IN_T
 *
 from
@@ -619,6 +621,7 @@ MaskLoad
 const
 ptrdiff_t
 idx
+const
 IN_T
 *
 from
@@ -647,6 +650,7 @@ MaskLoadImpl
 const
 ptrdiff_t
 idx
+const
 IN_T
 *
 from
@@ -1405,6 +1409,7 @@ Load0
 const
 ptrdiff_t
 idx
+const
 IN0_T
 *
 from
@@ -1429,6 +1434,7 @@ Load0Impl
 const
 ptrdiff_t
 idx
+const
 IN0_T
 *
 from
@@ -1453,6 +1459,7 @@ Load1
 const
 ptrdiff_t
 idx
+const
 IN1_T
 *
 from
@@ -1477,6 +1484,7 @@ Load1Impl
 const
 ptrdiff_t
 idx
+const
 IN1_T
 *
 from
@@ -1597,6 +1605,7 @@ MaskLoad0
 const
 ptrdiff_t
 idx
+const
 IN0_T
 *
 from
@@ -1625,6 +1634,7 @@ MaskLoad0Impl
 const
 ptrdiff_t
 idx
+const
 IN0_T
 *
 from
@@ -1721,6 +1731,7 @@ MaskLoad1
 const
 ptrdiff_t
 idx
+const
 IN1_T
 *
 from
@@ -1755,6 +1766,7 @@ MaskLoad1Impl
 const
 ptrdiff_t
 idx
+const
 IN1_T
 *
 from
@@ -2187,6 +2199,7 @@ Unroller
 FUNC
 &
 f
+const
 IN_T
 *
 HWY_RESTRICT

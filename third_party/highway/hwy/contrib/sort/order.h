@@ -212,12 +212,12 @@ hwy
 struct
 SortAscending
 {
+static
 constexpr
 bool
 IsAscending
 (
 )
-const
 {
 return
 true
@@ -228,12 +228,12 @@ true
 struct
 SortDescending
 {
+static
 constexpr
 bool
 IsAscending
 (
 )
-const
 {
 return
 false

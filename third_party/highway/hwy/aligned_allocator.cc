@@ -206,7 +206,7 @@ namespace
 {
 #
 if
-HWY_ARCH_RVV
+HWY_ARCH_RISCV
 &
 &
 defined
@@ -215,6 +215,7 @@ __riscv_v_intrinsic
 )
 &
 &
+\
 __riscv_v_intrinsic
 >
 =

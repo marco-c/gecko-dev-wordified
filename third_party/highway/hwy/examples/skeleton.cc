@@ -361,6 +361,8 @@ optional
 namespace
 HWY_NAMESPACE
 {
+namespace
+{
 /
 /
 Highway
@@ -757,6 +759,10 @@ i
 ;
 }
 }
+}
+/
+/
+namespace
 /
 /
 NOLINTNEXTLINE

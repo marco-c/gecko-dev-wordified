@@ -159,7 +159,7 @@ h
 #
 include
 <
-stdint
+stddef
 .
 h
 >
@@ -170,6 +170,17 @@ stdio
 .
 h
 >
+#
+include
+"
+hwy
+/
+tests
+/
+hwy_gtest
+.
+h
+"
 #
 include
 "
@@ -566,7 +577,7 @@ num_results
 i
 )
 {
-NANOBENCHMARK_CHECK
+HWY_ASSERT
 (
 results
 [
@@ -585,7 +596,7 @@ variability
 TEST
 (
 NanobenchmarkTest
-RunAll
+RunTest
 )
 {
 const
@@ -653,3 +664,7 @@ namespace
 /
 namespace
 hwy
+HWY_TEST_MAIN
+(
+)
+;

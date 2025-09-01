@@ -191,6 +191,7 @@ by
 Mark
 Blacher
 .
+static
 void
 PrintMergeNetwork
 (
