@@ -292,6 +292,10 @@ taskgraph
 util
 import
 json
+#
+noqa
+:
+PLC0415
     
 return
 json
@@ -372,6 +376,10 @@ taskgraph
 graph
 import
 Graph
+#
+noqa
+:
+PLC0415
     
 from
 taskgraph
@@ -379,6 +387,10 @@ taskgraph
 task
 import
 Task
+#
+noqa
+:
+PLC0415
     
 from
 taskgraph
@@ -386,6 +398,10 @@ taskgraph
 taskgraph
 import
 TaskGraph
+#
+noqa
+:
+PLC0415
     
 if
 tasksregex
@@ -678,6 +694,10 @@ taskgraph
 generator
 import
 TaskGraphGenerator
+#
+noqa
+:
+PLC0415
     
 return
 TaskGraphGenerator
@@ -703,6 +723,10 @@ None
     
 import
 taskgraph
+#
+noqa
+:
+PLC0415
     
 from
 taskgraph
@@ -710,6 +734,10 @@ taskgraph
 parameters
 import
 parameters_loader
+#
+noqa
+:
+PLC0415
     
 if
 logfile
@@ -903,6 +931,10 @@ taskgraph
 parameters
 import
 Parameters
+#
+noqa
+:
+PLC0415
     
 params_name
 =
@@ -1048,6 +1080,10 @@ taskgraph
 parameters
 import
 Parameters
+#
+noqa
+:
+PLC0415
     
 def
 logfile
@@ -2581,6 +2617,10 @@ parameters
 import
 Parameters
 parameters_loader
+#
+noqa
+:
+PLC0415
     
 from
 taskgraph
@@ -2590,6 +2630,10 @@ util
 vcs
 import
 get_repository
+#
+noqa
+:
+PLC0415
     
 if
 options
@@ -4138,6 +4182,40 @@ argument
     
 "
 -
+-
+root
+"
+    
+"
+-
+r
+"
+    
+default
+=
+"
+taskcluster
+"
+    
+help
+=
+"
+relative
+path
+for
+the
+root
+of
+the
+taskgraph
+definition
+"
+)
+argument
+(
+    
+"
+-
 t
 "
 "
@@ -4225,13 +4303,44 @@ args
 from
 taskgraph
 .
+config
+import
+load_graph_config
+#
+noqa
+:
+PLC0415
+    
+from
+taskgraph
+.
 docker
 import
 build_context
 build_image
+#
+noqa
+:
+PLC0415
     
 validate_docker
 (
+)
+    
+root
+=
+args
+[
+"
+root
+"
+]
+    
+graph_config
+=
+load_graph_config
+(
+root
 )
     
 if
@@ -4262,6 +4371,7 @@ tag
 os
 .
 environ
+graph_config
 )
     
 else
@@ -4269,6 +4379,7 @@ else
         
 build_context
 (
+            
 args
 [
 "
@@ -4284,6 +4395,8 @@ context_only
 os
 .
 environ
+graph_config
+        
 )
 command
 (
@@ -4475,8 +4588,17 @@ taskgraph
 .
 docker
 import
+(
+#
+noqa
+:
+PLC0415
+        
 load_image_by_name
+        
 load_image_by_task_id
+    
+)
     
 if
 not
@@ -4729,6 +4851,10 @@ taskgraph
 docker
 import
 get_image_digest
+#
+noqa
+:
+PLC0415
     
 try
 :
@@ -4937,6 +5063,10 @@ taskgraph
 docker
 import
 load_task
+#
+noqa
+:
+PLC0415
     
 validate_docker
 (
@@ -5472,6 +5602,41 @@ argument
 "
 -
 -
+no
+-
+verify
+"
+    
+dest
+=
+"
+verify
+"
+    
+default
+=
+True
+    
+action
+=
+"
+store_false
+"
+    
+help
+=
+"
+Skip
+graph
+verifications
+"
+)
+argument
+(
+    
+"
+-
+-
 verbose
 "
 "
@@ -5507,6 +5672,10 @@ taskgraph
 decision
 import
 taskgraph_decision
+#
+noqa
+:
+PLC0415
     
 taskgraph_decision
 (
@@ -5647,6 +5816,10 @@ taskgraph
 actions
 import
 render_actions_json
+#
+noqa
+:
+PLC0415
     
 from
 taskgraph
@@ -5654,6 +5827,10 @@ taskgraph
 generator
 import
 TaskGraphGenerator
+#
+noqa
+:
+PLC0415
     
 from
 taskgraph
@@ -5661,6 +5838,10 @@ taskgraph
 parameters
 import
 parameters_loader
+#
+noqa
+:
+PLC0415
     
 from
 taskgraph
@@ -5668,6 +5849,10 @@ taskgraph
 util
 import
 json
+#
+noqa
+:
+PLC0415
     
 if
 args
@@ -5846,6 +6031,10 @@ taskgraph
 actions
 import
 trigger_action_callback
+#
+noqa
+:
+PLC0415
     
 from
 taskgraph
@@ -5855,6 +6044,10 @@ actions
 util
 import
 get_parameters
+#
+noqa
+:
+PLC0415
     
 from
 taskgraph
@@ -5862,6 +6055,10 @@ taskgraph
 util
 import
 json
+#
+noqa
+:
+PLC0415
     
 try
 :
@@ -6232,11 +6429,19 @@ import
 taskgraph
 .
 actions
+#
+noqa
+:
+PLC0415
     
 import
 taskgraph
 .
 parameters
+#
+noqa
+:
+PLC0415
     
 from
 taskgraph
@@ -6244,6 +6449,10 @@ taskgraph
 config
 import
 load_graph_config
+#
+noqa
+:
+PLC0415
     
 from
 taskgraph
@@ -6252,6 +6461,10 @@ util
 import
 json
 yaml
+#
+noqa
+:
+PLC0415
     
 def
 load_data
@@ -6632,9 +6845,17 @@ cookiecutter
 main
 import
 cookiecutter
+#
+noqa
+:
+PLC0415
     
 import
 taskgraph
+#
+noqa
+:
+PLC0415
     
 from
 taskgraph
@@ -6644,6 +6865,10 @@ util
 vcs
 import
 get_repository
+#
+noqa
+:
+PLC0415
     
 repo
 =
