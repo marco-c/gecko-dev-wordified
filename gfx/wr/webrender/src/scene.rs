@@ -2002,7 +2002,10 @@ max_shared_surface_size
 enable_dithering
 :
 false
-precise_gradients
+precise_radial_gradients
+:
+false
+precise_conic_gradients
 :
 false
 }
