@@ -197,6 +197,16 @@ aMessage
 )
 {
 }
+CompilationMessage
+:
+:
+~
+CompilationMessage
+(
+)
+=
+default
+;
 }
 /
 /

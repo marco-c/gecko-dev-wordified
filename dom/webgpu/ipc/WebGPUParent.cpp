@@ -1548,8 +1548,8 @@ parent
 >
 QueueSubmit
 (
-aDeviceId
 aQueueId
+aDeviceId
 command_buffers
 textures
 externalTextureSources
@@ -2898,8 +2898,9 @@ WebGPUParent
 WebGPUParent
 (
 )
-{
-}
+=
+default
+;
 void
 WebGPUParent
 :

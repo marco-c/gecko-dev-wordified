@@ -158,6 +158,16 @@ aParent
 )
 {
 }
+CompilationInfo
+:
+:
+~
+CompilationInfo
+(
+)
+=
+default
+;
 void
 CompilationInfo
 :
