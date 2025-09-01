@@ -199,12 +199,6 @@ glean
 :
 ConfigurationBuilder
 ;
-use
-glean_core
-:
-:
-TestGetValue
-;
 pub
 mod
 metrics
