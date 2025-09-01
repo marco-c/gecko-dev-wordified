@@ -112,15 +112,6 @@ JSON
 stringify
 (
 {
-api_key_pref
-:
-"
-extensions
-.
-pocket
-.
-oAuthConsumerKey
-"
 collapsible
 :
 true
