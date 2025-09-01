@@ -135,6 +135,15 @@ rtp_parameters
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+arraysize
+.
+h
+"
 namespace
 webrtc
 {
@@ -1239,10 +1248,7 @@ for
 int
 i
 =
-std
-:
-:
-ssize
+arraysize
 (
 kLevelConstraints
 )
