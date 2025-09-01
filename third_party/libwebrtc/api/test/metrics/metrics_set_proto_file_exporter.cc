@@ -206,9 +206,6 @@ namespace
 #
 if
 WEBRTC_ENABLE_PROTOBUF
-webrtc
-:
-:
 test_metrics
 :
 :
@@ -231,9 +228,6 @@ Unit
 kMilliseconds
 :
 return
-webrtc
-:
-:
 test_metrics
 :
 :
@@ -249,9 +243,6 @@ Unit
 kPercent
 :
 return
-webrtc
-:
-:
 test_metrics
 :
 :
@@ -267,9 +258,6 @@ Unit
 kBytes
 :
 return
-webrtc
-:
-:
 test_metrics
 :
 :
@@ -285,9 +273,6 @@ Unit
 kKilobitsPerSecond
 :
 return
-webrtc
-:
-:
 test_metrics
 :
 :
@@ -303,9 +288,6 @@ Unit
 kHertz
 :
 return
-webrtc
-:
-:
 test_metrics
 :
 :
@@ -321,9 +303,6 @@ Unit
 kUnitless
 :
 return
-webrtc
-:
-:
 test_metrics
 :
 :
@@ -339,9 +318,6 @@ Unit
 kCount
 :
 return
-webrtc
-:
-:
 test_metrics
 :
 :
@@ -352,9 +328,6 @@ COUNT
 ;
 }
 }
-webrtc
-:
-:
 test_metrics
 :
 :
@@ -377,9 +350,6 @@ ImprovementDirection
 kBiggerIsBetter
 :
 return
-webrtc
-:
-:
 test_metrics
 :
 :
@@ -395,9 +365,6 @@ ImprovementDirection
 kNeitherIsBetter
 :
 return
-webrtc
-:
-:
 test_metrics
 :
 :
@@ -413,9 +380,6 @@ ImprovementDirection
 kSmallerIsBetter
 :
 return
-webrtc
-:
-:
 test_metrics
 :
 :
@@ -436,9 +400,6 @@ Metric
 TimeSeries
 &
 time_series
-webrtc
-:
-:
 test_metrics
 :
 :
@@ -468,9 +429,6 @@ time_series
 samples
 )
 {
-webrtc
-:
-:
 test_metrics
 :
 :
@@ -559,9 +517,6 @@ Metric
 Stats
 &
 stats
-webrtc
-:
-:
 test_metrics
 :
 :
@@ -677,9 +632,6 @@ string
 &
 path
 const
-webrtc
-:
-:
 test_metrics
 :
 :
@@ -982,9 +934,6 @@ metrics
 #
 if
 WEBRTC_ENABLE_PROTOBUF
-webrtc
-:
-:
 test_metrics
 :
 :
@@ -1032,9 +981,6 @@ metric
 metrics
 )
 {
-webrtc
-:
-:
 test_metrics
 :
 :

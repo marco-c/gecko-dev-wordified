@@ -164,9 +164,6 @@ FakeFrameEncryptor
 :
 Encrypt
 (
-webrtc
-:
-:
 MediaType
 /
 *
@@ -311,9 +308,6 @@ FakeFrameEncryptor
 :
 GetMaxCiphertextByteSize
 (
-webrtc
-:
-:
 MediaType
 /
 *

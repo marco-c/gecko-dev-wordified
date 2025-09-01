@@ -694,9 +694,6 @@ SetAudioEncoderFactory
 (
 scoped_refptr
 <
-webrtc
-:
-:
 AudioEncoderFactory
 >
 audio_encoder_factory
@@ -725,9 +722,6 @@ SetAudioDecoderFactory
 (
 scoped_refptr
 <
-webrtc
-:
-:
 AudioDecoderFactory
 >
 audio_decoder_factory
@@ -759,9 +753,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 AsyncDnsResolverFactoryInterface
 >
 async_dns_resolver_factory
@@ -1320,9 +1311,6 @@ SetAudioMixer
 (
 scoped_refptr
 <
-webrtc
-:
-:
 AudioMixer
 >
 audio_mixer

@@ -168,9 +168,6 @@ FakeFrameDecryptor
 :
 Decrypt
 (
-webrtc
-:
-:
 MediaType
 /
 *
@@ -326,9 +323,6 @@ FakeFrameDecryptor
 :
 GetMaxPlaintextByteSize
 (
-webrtc
-:
-:
 MediaType
 /
 *
