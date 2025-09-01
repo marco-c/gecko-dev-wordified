@@ -2701,6 +2701,7 @@ gfxFontCache
 :
 WordCacheExpiration
 "
+_ns
 )
 ;
 mTimerRunning

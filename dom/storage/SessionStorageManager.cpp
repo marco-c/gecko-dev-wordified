@@ -4742,6 +4742,7 @@ BackgroundSessionStorageManager
 :
 DispatchSessionStoreUpdate
 "
+_ns
 )
 ;
 if

@@ -2900,6 +2900,7 @@ SimpleTimerBasedRefreshDriverTimer
 :
 StartTimer
 "
+_ns
 )
 ;
 }
@@ -6821,6 +6822,7 @@ StartupRefreshDriverTimer
 :
 ScheduleNextTick
 "
+_ns
 )
 ;
 mTargetTime
@@ -7265,6 +7267,7 @@ InactiveRefreshDriverTimer
 :
 StartTimer
 "
+_ns
 )
 ;
 mIsTicking
@@ -7432,6 +7435,7 @@ InactiveRefreshDriverTimer
 :
 ScheduleNextTick
 "
+_ns
 )
 ;
 LOG

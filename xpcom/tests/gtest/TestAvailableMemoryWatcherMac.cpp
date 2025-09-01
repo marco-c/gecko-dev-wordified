@@ -304,7 +304,10 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
-__func__
+"
+TestAvailableMemoryWatcherMac
+"
+_ns
 )
 ;
 SpinEventLoopUntil

@@ -6779,6 +6779,7 @@ TYPE_ONE_SHOT_LOW_PRIORITY
 "
 nsProfilerGatheringTimer
 "
+_ns
 )
 )
 )
@@ -8483,6 +8484,7 @@ TYPE_ONE_SHOT_LOW_PRIORITY
 "
 nsProfilerGatheringTimer
 "
+_ns
 GetMainThreadSerialEventTarget
 (
 )

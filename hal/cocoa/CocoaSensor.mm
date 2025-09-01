@@ -824,6 +824,7 @@ hal_impl
 :
 UpdateHandler
 "
+_ns
 )
 ;
 }

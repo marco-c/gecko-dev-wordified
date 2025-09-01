@@ -2307,6 +2307,7 @@ nsPingListener
 :
 StartTimeout
 "
+_ns
 GetMainThreadSerialEventTarget
 (
 )

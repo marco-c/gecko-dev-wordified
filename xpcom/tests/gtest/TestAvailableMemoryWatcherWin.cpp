@@ -404,7 +404,14 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
-__func__
+"
+xpcom
+-
+tests
+:
+WaitUntil
+"
+_ns
 )
 ;
 SpinEventLoopUntil

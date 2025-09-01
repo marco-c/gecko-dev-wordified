@@ -19633,6 +19633,7 @@ ContentChild
 :
 StartForceKillTimer
 "
+_ns
 )
 ;
 MOZ_ASSERT

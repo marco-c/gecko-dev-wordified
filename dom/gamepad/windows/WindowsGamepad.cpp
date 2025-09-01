@@ -1818,6 +1818,7 @@ TYPE_ONE_SHOT
 "
 DirectInputMessageLoopOnceCallback
 "
+_ns
 )
 ;
 }
@@ -1893,6 +1894,7 @@ TYPE_ONE_SHOT
 "
 DirectInputMessageLoopOnceCallback
 "
+_ns
 )
 ;
 }
@@ -2316,6 +2318,7 @@ TYPE_ONE_SHOT
 "
 XInputMessageLoopOnceCallback
 "
+_ns
 )
 ;
 }
@@ -2757,6 +2760,7 @@ TYPE_ONE_SHOT
 "
 XInputMessageLoopOnceCallback
 "
+_ns
 )
 ;
 }
@@ -6358,6 +6362,7 @@ TYPE_ONE_SHOT
 "
 DevicesChangeCallback
 "
+_ns
 )
 ;
 }

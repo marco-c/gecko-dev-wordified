@@ -37995,6 +37995,7 @@ HTMLMediaElement
 :
 ProgressTimerCallback
 "
+_ns
 GetMainThreadSerialEventTarget
 (
 )

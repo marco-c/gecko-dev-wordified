@@ -2705,8 +2705,8 @@ nsITimer
 *
 aTimer
 const
-char
-*
+nsACString
+&
 aName
 )
 ;

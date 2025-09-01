@@ -2417,6 +2417,7 @@ nsBrowserStatusFilter
 :
 TimeoutHandler
 "
+_ns
 mTarget
 )
 ;
