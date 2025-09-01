@@ -1450,13 +1450,6 @@ kQueueReserved
 =
 1024
 ;
-const
-static
-uint32_t
-kMaxStreamID
-=
-0x7800000
-;
 /
 /
 This
@@ -2854,6 +2847,10 @@ mSegmentReader
 nsAHttpSegmentWriter
 *
 mSegmentWriter
+;
+const
+uint32_t
+kMaxStreamID
 ;
 uint32_t
 mSendingChunkSize

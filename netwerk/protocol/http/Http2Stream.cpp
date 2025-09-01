@@ -310,6 +310,10 @@ mSession
 =
 nullptr
 ;
+mClosed
+=
+true
+;
 }
 uint32_t
 Http2Stream

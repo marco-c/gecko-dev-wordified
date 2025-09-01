@@ -2974,6 +2974,7 @@ startServer
 (
 port
 auth
+maxConcurrentStreams
 )
 {
 const
@@ -3024,6 +3025,11 @@ cert
 pem
 "
 )
+settings
+:
+{
+maxConcurrentStreams
+}
 }
 ;
 const
@@ -4026,6 +4032,9 @@ port
 =
 0
 auth
+maxConcurrentStreams
+=
+100
 )
 {
 this
@@ -4095,6 +4104,9 @@ port
 {
 auth
 }
+{
+maxConcurrentStreams
+}
 )
 )
 ;
@@ -4114,6 +4126,7 @@ port
 let
 count
 =
+await
 this
 .
 execute
