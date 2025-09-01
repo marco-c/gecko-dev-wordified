@@ -886,6 +886,10 @@ utf
 -
 8
 "
+newline
+=
+"
+"
 )
 .
 write
