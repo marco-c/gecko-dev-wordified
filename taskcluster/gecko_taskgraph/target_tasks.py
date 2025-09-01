@@ -4791,19 +4791,6 @@ raptor_try_name
 "
 )
         
-if
-"
-network
--
-bench
-"
-in
-try_name
-:
-            
-return
-False
-        
 #
 Desktop
 and
