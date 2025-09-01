@@ -4572,7 +4572,7 @@ mLineOrPageDeltaX
 wheelEvent
 .
 mLineOrPageDeltaY
-TrueOrFalse
+GetBoolName
 (
 wheelEvent
 .
@@ -4580,7 +4580,7 @@ IsShift
 (
 )
 )
-TrueOrFalse
+GetBoolName
 (
 wheelEvent
 .
@@ -4588,7 +4588,7 @@ IsControl
 (
 )
 )
-TrueOrFalse
+GetBoolName
 (
 wheelEvent
 .
@@ -4596,7 +4596,7 @@ IsAlt
 (
 )
 )
-TrueOrFalse
+GetBoolName
 (
 wheelEvent
 .
@@ -5850,7 +5850,7 @@ mLineOrPageDeltaX
 aWheelEvent
 .
 mLineOrPageDeltaY
-TrueOrFalse
+GetBoolName
 (
 aWheelEvent
 .
@@ -5858,7 +5858,7 @@ IsShift
 (
 )
 )
-TrueOrFalse
+GetBoolName
 (
 aWheelEvent
 .
@@ -5866,7 +5866,7 @@ IsControl
 (
 )
 )
-TrueOrFalse
+GetBoolName
 (
 aWheelEvent
 .
@@ -5874,7 +5874,7 @@ IsAlt
 (
 )
 )
-TrueOrFalse
+GetBoolName
 (
 aWheelEvent
 .
@@ -5882,7 +5882,7 @@ IsMeta
 (
 )
 )
-TrueOrFalse
+GetBoolName
 (
 aWheelEvent
 .
@@ -7506,19 +7506,19 @@ mMouseScrollTransactionTimeout
 %
 d
 "
-TrueOrFalse
+GetBoolName
 (
 mScrollMessageHandledAsWheelMessage
 )
-TrueOrFalse
+GetBoolName
 (
 mEnableSystemSettingCache
 )
-TrueOrFalse
+GetBoolName
 (
 mForceEnableSystemSettingCache
 )
-TrueOrFalse
+GetBoolName
 (
 mEmulateToMakeWindowUnderCursorForeground
 )
@@ -7929,7 +7929,7 @@ aValueIfAutomatic
 s
 "
 aPrefName
-TrueOrFalse
+GetBoolName
 (
 aValueIfAutomatic
 )
@@ -7980,7 +7980,7 @@ lHackValue
 d
 "
 aPrefName
-TrueOrFalse
+GetBoolName
 (
 aValueIfAutomatic
 )
@@ -8153,7 +8153,7 @@ sFakeScrollableWindowNeeded
 %
 s
 "
-TrueOrFalse
+GetBoolName
 (
 sFakeScrollableWindowNeeded
 )
@@ -8797,11 +8797,11 @@ sUsePinchHack
 s
 "
 version
-TrueOrFalse
+GetBoolName
 (
 sUseSwipeHack
 )
-TrueOrFalse
+GetBoolName
 (
 sUsePinchHack
 )
@@ -12380,7 +12380,7 @@ aWnd
 aMessage
 aWParam
 aLParam
-TrueOrFalse
+GetBoolName
 (
 !
 !

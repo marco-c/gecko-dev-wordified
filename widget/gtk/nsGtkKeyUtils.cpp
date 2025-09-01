@@ -7408,7 +7408,7 @@ mMessage
 aInputEvent
 .
 mModifiers
-TrueOrFalse
+GetBoolName
 (
 aInputEvent
 .
@@ -7416,7 +7416,7 @@ mModifiers
 &
 MODIFIER_SHIFT
 )
-TrueOrFalse
+GetBoolName
 (
 aInputEvent
 .
@@ -7424,7 +7424,7 @@ mModifiers
 &
 MODIFIER_CONTROL
 )
-TrueOrFalse
+GetBoolName
 (
 aInputEvent
 .
@@ -7432,7 +7432,7 @@ mModifiers
 &
 MODIFIER_ALT
 )
-TrueOrFalse
+GetBoolName
 (
 aInputEvent
 .
@@ -7440,7 +7440,7 @@ mModifiers
 &
 MODIFIER_META
 )
-TrueOrFalse
+GetBoolName
 (
 aInputEvent
 .
@@ -7448,7 +7448,7 @@ mModifiers
 &
 MODIFIER_ALTGRAPH
 )
-TrueOrFalse
+GetBoolName
 (
 aInputEvent
 .
@@ -7456,7 +7456,7 @@ mModifiers
 &
 MODIFIER_CAPSLOCK
 )
-TrueOrFalse
+GetBoolName
 (
 aInputEvent
 .
@@ -7464,7 +7464,7 @@ mModifiers
 &
 MODIFIER_NUMLOCK
 )
-TrueOrFalse
+GetBoolName
 (
 aInputEvent
 .
@@ -7662,7 +7662,7 @@ keymapWrapper
 mouseEvent
 .
 mButtons
-TrueOrFalse
+GetBoolName
 (
 mouseEvent
 .
@@ -7673,7 +7673,7 @@ MouseButtonsFlag
 :
 ePrimaryFlag
 )
-TrueOrFalse
+GetBoolName
 (
 mouseEvent
 .
@@ -7684,7 +7684,7 @@ MouseButtonsFlag
 :
 eSecondaryFlag
 )
-TrueOrFalse
+GetBoolName
 (
 mouseEvent
 .
@@ -7695,7 +7695,7 @@ MouseButtonsFlag
 :
 eMiddleFlag
 )
-TrueOrFalse
+GetBoolName
 (
 mouseEvent
 .
@@ -7706,7 +7706,7 @@ MouseButtonsFlag
 :
 e4thFlag
 )
-TrueOrFalse
+GetBoolName
 (
 mouseEvent
 .
@@ -10252,7 +10252,7 @@ aGdkKeyEvent
 -
 >
 time
-TrueOrFalse
+GetBoolName
 (
 aGdkKeyEvent
 -
@@ -11799,7 +11799,7 @@ aGdkKeyEvent
 -
 >
 time
-TrueOrFalse
+GetBoolName
 (
 aGdkKeyEvent
 -
@@ -11950,7 +11950,7 @@ isCancelled
 s
 )
 "
-TrueOrFalse
+GetBoolName
 (
 isCancelled
 )
@@ -13034,7 +13034,7 @@ aKeyEvent
 .
 mMessage
 )
-TrueOrFalse
+GetBoolName
 (
 aKeyEvent
 .
@@ -13042,7 +13042,7 @@ IsShift
 (
 )
 )
-TrueOrFalse
+GetBoolName
 (
 aKeyEvent
 .
@@ -13050,7 +13050,7 @@ IsControl
 (
 )
 )
-TrueOrFalse
+GetBoolName
 (
 aKeyEvent
 .
@@ -13058,7 +13058,7 @@ IsAlt
 (
 )
 )
-TrueOrFalse
+GetBoolName
 (
 aKeyEvent
 .
@@ -13066,7 +13066,7 @@ IsMeta
 (
 )
 )
-TrueOrFalse
+GetBoolName
 (
 aKeyEvent
 .
@@ -13143,7 +13143,7 @@ mLocation
 get
 (
 )
-TrueOrFalse
+GetBoolName
 (
 aKeyEvent
 .
