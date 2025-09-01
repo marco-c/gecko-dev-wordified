@@ -885,15 +885,6 @@ JS
 UndefinedHandleValue
 )
 ;
-MOZ_CAN_RUN_SCRIPT
-void
-InformAboutChildNavigableDestruction
-(
-JSContext
-*
-aCx
-)
-;
 void
 CreateNavigationActivationFrom
 (
