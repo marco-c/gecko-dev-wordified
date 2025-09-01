@@ -82,6 +82,17 @@ values
 :
 computed
 ;
+#
+[
+cfg
+(
+feature
+=
+"
+gecko
+"
+)
+]
 use
 selectors
 :
