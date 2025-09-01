@@ -17603,7 +17603,7 @@ LOG
 (
 (
 "
-nsHttpConection
+nsHttpConnection
 :
 :
 HandshakeDone
