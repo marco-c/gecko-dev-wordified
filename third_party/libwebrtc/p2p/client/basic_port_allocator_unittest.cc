@@ -1444,6 +1444,11 @@ get
 kTurnUdpIntAddr
 kTurnUdpExtAddr
 )
+network_manager_
+(
+&
+thread_
+)
 candidate_allocation_done_
 (
 false

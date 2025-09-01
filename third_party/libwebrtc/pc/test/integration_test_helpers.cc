@@ -1761,6 +1761,7 @@ make_unique
 FakeNetworkManager
 >
 (
+network_thread
 )
 ;
 fake_network_manager_
