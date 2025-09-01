@@ -432,6 +432,17 @@ the
 denominator
 is
 compressed
+if
+(
+!
+StaticPrefs
+:
+:
+mathml_math_shift_enabled
+(
+)
+)
+{
 UpdatePresentationDataFromChildAt
 (
 1
@@ -440,6 +451,7 @@ NS_MATHML_COMPRESSED
 NS_MATHML_COMPRESSED
 )
 ;
+}
 /
 /
 If
