@@ -364,7 +364,10 @@ and32
 (
 Imm32
 (
-FRAMETYPE_MASK
+FrameDescriptor
+:
+:
+TypeMask
 )
 scratch
 )
@@ -1095,7 +1098,10 @@ and32
 (
 Imm32
 (
-FRAMETYPE_MASK
+FrameDescriptor
+:
+:
+TypeMask
 )
 scratch
 )

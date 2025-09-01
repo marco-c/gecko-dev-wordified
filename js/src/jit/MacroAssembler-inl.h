@@ -1842,7 +1842,10 @@ lshift32
 (
 Imm32
 (
-NUMACTUALARGS_SHIFT
+FrameDescriptor
+:
+:
+NumActualArgsShift
 )
 argc
 scratch
@@ -1927,7 +1930,10 @@ rshift32
 (
 Imm32
 (
-NUMACTUALARGS_SHIFT
+FrameDescriptor
+:
+:
+NumActualArgsShift
 )
 dest
 )
