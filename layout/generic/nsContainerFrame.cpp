@@ -21850,6 +21850,8 @@ nsContainerFrame
 :
 RubyMetricsIncludingChildren
 (
+float
+aRubyMetricsFactor
 )
 const
 {
@@ -21923,6 +21925,7 @@ f
 >
 RubyMetrics
 (
+aRubyMetricsFactor
 )
 ;
 result
@@ -21950,6 +21953,7 @@ nsIFrame
 :
 RubyMetrics
 (
+aRubyMetricsFactor
 )
 ;
 }

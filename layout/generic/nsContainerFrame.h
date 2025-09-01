@@ -7171,6 +7171,8 @@ mozilla
 RubyMetrics
 RubyMetricsIncludingChildren
 (
+float
+aRubyMetricsFactor
 )
 const
 ;
