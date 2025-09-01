@@ -199,6 +199,14 @@ prefs
 [
 [
 "
+market
+.
+featureGate
+"
+true
+]
+[
+"
 suggest
 .
 market
@@ -394,10 +402,10 @@ UrlbarTestUtils
 initNimbusFeature
 (
 {
-marketMinKeywordLength
+realtimeMinKeywordLength
 :
 0
-marketShowLessFrequentlyCap
+realtimeShowLessFrequentlyCap
 :
 3
 }

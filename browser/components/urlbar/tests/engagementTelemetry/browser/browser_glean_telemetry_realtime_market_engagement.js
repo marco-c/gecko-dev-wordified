@@ -137,6 +137,14 @@ prefs
 [
 [
 "
+market
+.
+featureGate
+"
+true
+]
+[
+"
 suggest
 .
 market
