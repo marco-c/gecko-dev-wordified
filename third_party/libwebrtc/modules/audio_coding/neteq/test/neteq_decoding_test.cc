@@ -354,9 +354,6 @@ namespace
 void
 LoadDecoders
 (
-webrtc
-:
-:
 NetEq
 *
 neteq
@@ -1055,9 +1052,6 @@ ref_out_file
 =
 gen_ref
 ?
-webrtc
-:
-:
 test
 :
 :
@@ -1088,9 +1082,6 @@ stat_out_file
 =
 gen_ref
 ?
-webrtc
-:
-:
 test
 :
 :

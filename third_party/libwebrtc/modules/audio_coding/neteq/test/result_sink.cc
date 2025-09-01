@@ -227,15 +227,9 @@ void
 Convert
 (
 const
-webrtc
-:
-:
 NetEqNetworkStatistics
 &
 stats_raw
-webrtc
-:
-:
 neteq_unittest
 :
 :

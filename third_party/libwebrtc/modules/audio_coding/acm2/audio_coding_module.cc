@@ -1236,9 +1236,6 @@ static_cast
 int
 >
 (
-webrtc
-:
-:
 AudioEncoder
 :
 :

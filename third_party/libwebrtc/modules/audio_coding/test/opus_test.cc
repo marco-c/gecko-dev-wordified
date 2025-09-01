@@ -452,9 +452,6 @@ std
 string
 file_name_stereo
 =
-webrtc
-:
-:
 test
 :
 :
@@ -477,9 +474,6 @@ std
 string
 file_name_mono
 =
-webrtc
-:
-:
 test
 :
 :
@@ -2406,9 +2400,6 @@ file_stream
 file_stream
 <
 <
-webrtc
-:
-:
 test
 :
 :
@@ -2468,9 +2459,6 @@ str
 file_stream
 <
 <
-webrtc
-:
-:
 test
 :
 :

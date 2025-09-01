@@ -807,9 +807,6 @@ std
 string
 file_name
 =
-webrtc
-:
-:
 test
 :
 :
@@ -2500,9 +2497,6 @@ std
 string
 filename
 =
-webrtc
-:
-:
 test
 :
 :

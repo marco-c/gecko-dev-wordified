@@ -1516,9 +1516,6 @@ AudioEncoderCopyRedTest
 CheckPayloadSizes0
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -1762,9 +1759,6 @@ AudioEncoderCopyRedTest
 CheckPayloadSizes2
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -2150,9 +2144,6 @@ AudioEncoderCopyRedTest
 CheckPayloadSizes3
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -3929,9 +3920,6 @@ AudioEncoderCopyRedTest
 CheckRFC2198Header0
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -4185,9 +4173,6 @@ AudioEncoderCopyRedTest
 CheckRFC2198Header2
 )
 {
-webrtc
-:
-:
 test
 :
 :

@@ -4427,9 +4427,6 @@ std
 string
 output_file_name
 =
-webrtc
-:
-:
 test
 :
 :
@@ -5180,9 +5177,6 @@ std
 string
 kTestFileMono32kHz
 =
-webrtc
-:
-:
 test
 :
 :
@@ -5205,9 +5199,6 @@ std
 string
 kTestFileFakeStereo32kHz
 =
-webrtc
-:
-:
 test
 :
 :
@@ -5230,9 +5221,6 @@ std
 string
 kTestFileQuad48kHz
 =
-webrtc
-:
-:
 test
 :
 :
@@ -6877,9 +6865,6 @@ std
 string
 input_file_name
 =
-webrtc
-:
-:
 test
 :
 :
@@ -8350,17 +8335,11 @@ AudioEncoder
 )
 (
 uint32_t
-webrtc
-:
-:
 ArrayView
 <
 const
 int16_t
 >
-webrtc
-:
-:
 Buffer
 *
 )
@@ -8634,9 +8613,6 @@ std
 string
 output_file_name
 =
-webrtc
-:
-:
 test
 :
 :

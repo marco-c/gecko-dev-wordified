@@ -555,9 +555,6 @@ std
 string
 file_name
 =
-webrtc
-:
-:
 test
 :
 :
@@ -1575,9 +1572,6 @@ file_stream
 file_stream
 <
 <
-webrtc
-:
-:
 test
 :
 :

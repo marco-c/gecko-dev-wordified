@@ -587,9 +587,6 @@ CodecSampleRate
 (
 uint8_t
 payload_type
-webrtc
-:
-:
 test
 :
 :

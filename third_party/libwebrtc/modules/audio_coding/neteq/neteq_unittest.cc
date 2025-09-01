@@ -453,9 +453,6 @@ std
 string
 input_rtp_file
 =
-webrtc
-:
-:
 test
 :
 :
@@ -579,9 +576,6 @@ std
 string
 input_rtp_file
 =
-webrtc
-:
-:
 test
 :
 :
@@ -717,9 +711,6 @@ std
 string
 input_rtp_file
 =
-webrtc
-:
-:
 test
 :
 :
@@ -2393,9 +2384,6 @@ input
 .
 Init
 (
-webrtc
-:
-:
 test
 :
 :
@@ -7456,9 +7444,6 @@ input
 =
 CreateNetEqRtpDumpInput
 (
-webrtc
-:
-:
 test
 :
 :

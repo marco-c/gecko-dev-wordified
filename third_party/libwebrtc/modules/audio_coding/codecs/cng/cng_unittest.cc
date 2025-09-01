@@ -281,9 +281,6 @@ std
 string
 file_name
 =
-webrtc
-:
-:
 test
 :
 :

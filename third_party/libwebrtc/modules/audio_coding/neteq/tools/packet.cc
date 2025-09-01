@@ -872,9 +872,6 @@ into
 legacy
 RTPHeader
 .
-webrtc
-:
-:
 RtpPacketReceived
 rtp_packet
 (
