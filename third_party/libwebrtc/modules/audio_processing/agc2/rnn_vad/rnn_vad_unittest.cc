@@ -1137,11 +1137,6 @@ number_of_tests
 =
 100
 ;
-:
-:
-webrtc
-:
-:
 test
 :
 :

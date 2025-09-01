@@ -296,9 +296,6 @@ MOCK_METHOD
 float
 Analyze
 (
-webrtc
-:
-:
 ArrayView
 <
 const

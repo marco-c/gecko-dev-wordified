@@ -642,11 +642,6 @@ kNumTests
 =
 10000
 ;
-:
-:
-webrtc
-:
-:
 test
 :
 :

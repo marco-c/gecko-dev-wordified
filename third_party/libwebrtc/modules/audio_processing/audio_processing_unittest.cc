@@ -17873,9 +17873,6 @@ int
 capture_channel_counts
 )
 {
-webrtc
-:
-:
 AudioProcessing
 :
 :

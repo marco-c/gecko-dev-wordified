@@ -2153,9 +2153,6 @@ testing
 :
 StrictMock
 <
-webrtc
-:
-:
 test
 :
 :
@@ -2167,9 +2164,6 @@ block_processor_mock
 new
 StrictMock
 <
-webrtc
-:
-:
 test
 :
 :
@@ -2614,9 +2608,6 @@ testing
 :
 StrictMock
 <
-webrtc
-:
-:
 test
 :
 :
@@ -2628,9 +2619,6 @@ block_processor_mock
 new
 StrictMock
 <
-webrtc
-:
-:
 test
 :
 :
@@ -3176,9 +3164,6 @@ testing
 :
 StrictMock
 <
-webrtc
-:
-:
 test
 :
 :
@@ -3190,9 +3175,6 @@ block_processor_mock
 new
 StrictMock
 <
-webrtc
-:
-:
 test
 :
 :

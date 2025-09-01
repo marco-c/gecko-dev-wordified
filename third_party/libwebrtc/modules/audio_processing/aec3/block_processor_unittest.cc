@@ -907,9 +907,6 @@ testing
 :
 StrictMock
 <
-webrtc
-:
-:
 test
 :
 :
@@ -921,9 +918,6 @@ render_delay_buffer_mock
 new
 StrictMock
 <
-webrtc
-:
-:
 test
 :
 :
@@ -1263,9 +1257,6 @@ testing
 :
 StrictMock
 <
-webrtc
-:
-:
 test
 :
 :
@@ -1277,9 +1268,6 @@ render_delay_buffer_mock
 new
 StrictMock
 <
-webrtc
-:
-:
 test
 :
 :
@@ -1303,9 +1291,6 @@ testing
 :
 StrictMock
 <
-webrtc
-:
-:
 test
 :
 :
@@ -1317,9 +1302,6 @@ render_delay_controller_mock
 new
 StrictMock
 <
-webrtc
-:
-:
 test
 :
 :
@@ -1339,9 +1321,6 @@ testing
 :
 StrictMock
 <
-webrtc
-:
-:
 test
 :
 :
@@ -1353,9 +1332,6 @@ echo_remover_mock
 new
 StrictMock
 <
-webrtc
-:
-:
 test
 :
 :
@@ -2151,9 +2127,6 @@ testing
 :
 NiceMock
 <
-webrtc
-:
-:
 test
 :
 :
@@ -2165,9 +2138,6 @@ echo_remover_mock
 new
 NiceMock
 <
-webrtc
-:
-:
 test
 :
 :
@@ -2177,9 +2147,6 @@ MockEchoRemover
 )
 )
 ;
-webrtc
-:
-:
 test
 :
 :

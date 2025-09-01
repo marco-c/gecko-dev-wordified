@@ -1591,9 +1591,6 @@ std
 :
 vector
 <
-webrtc
-:
-:
 ArrayView
 <
 float
@@ -1612,9 +1609,6 @@ std
 :
 vector
 <
-webrtc
-:
-:
 ArrayView
 <
 float
@@ -1783,9 +1777,6 @@ std
 :
 vector
 <
-webrtc
-:
-:
 ArrayView
 <
 float
@@ -1804,9 +1795,6 @@ std
 :
 vector
 <
-webrtc
-:
-:
 ArrayView
 <
 float
@@ -2004,9 +1992,6 @@ std
 :
 vector
 <
-webrtc
-:
-:
 ArrayView
 <
 float
@@ -2025,9 +2010,6 @@ std
 :
 vector
 <
-webrtc
-:
-:
 ArrayView
 <
 float
@@ -2706,9 +2688,6 @@ num_calls
 num_calls
 )
 {
-webrtc
-:
-:
 StringBuilder
 ss
 ;
@@ -2913,9 +2892,6 @@ std
 :
 vector
 <
-webrtc
-:
-:
 ArrayView
 <
 float

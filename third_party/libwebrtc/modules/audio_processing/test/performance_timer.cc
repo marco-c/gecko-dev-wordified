@@ -136,9 +136,6 @@ num_frames_to_process
 :
 clock_
 (
-webrtc
-:
-:
 Clock
 :
 :

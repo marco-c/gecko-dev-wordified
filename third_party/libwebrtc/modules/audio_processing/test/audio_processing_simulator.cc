@@ -3170,9 +3170,6 @@ mode
 =
 static_cast
 <
-webrtc
-:
-:
 AudioProcessing
 :
 :

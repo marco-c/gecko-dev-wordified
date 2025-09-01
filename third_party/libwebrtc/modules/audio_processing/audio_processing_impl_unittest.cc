@@ -1603,9 +1603,6 @@ CreateEnvironment
 )
 )
 ;
-webrtc
-:
-:
 AudioProcessing
 :
 :
@@ -1852,9 +1849,6 @@ CreateEnvironment
 )
 )
 ;
-webrtc
-:
-:
 AudioProcessing
 :
 :
@@ -2101,9 +2095,6 @@ CreateEnvironment
 )
 )
 ;
-webrtc
-:
-:
 AudioProcessing
 :
 :
@@ -3071,9 +3062,6 @@ CreateEnvironment
 Disable
 AGC
 .
-webrtc
-:
-:
 AudioProcessing
 :
 :
@@ -3417,9 +3405,6 @@ CreateEnvironment
 Disable
 AGC
 .
-webrtc
-:
-:
 AudioProcessing
 :
 :
@@ -3759,9 +3744,6 @@ CreateEnvironment
 )
 )
 ;
-webrtc
-:
-:
 AudioProcessing
 :
 :
@@ -4201,9 +4183,6 @@ CreateEnvironment
 Disable
 AGC
 .
-webrtc
-:
-:
 AudioProcessing
 :
 :
@@ -4709,9 +4688,6 @@ CreateEnvironment
 )
 )
 ;
-webrtc
-:
-:
 AudioProcessing
 :
 :
@@ -5088,9 +5064,6 @@ StartupInputVolumeParameterizedTest
 WithNoInputVolumeControllerStartupVolumeNotModified
 )
 {
-webrtc
-:
-:
 AudioProcessing
 :
 :
@@ -5213,9 +5186,6 @@ AudioProcessingImplTest
 WithNoInputVolumeControllerAppliedAndRecommendedVolumesMatch
 )
 {
-webrtc
-:
-:
 AudioProcessing
 :
 :
