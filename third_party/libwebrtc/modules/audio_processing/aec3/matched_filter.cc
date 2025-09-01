@@ -126,6 +126,12 @@ arch
 .
 h
 "
+/
+/
+IWYU
+pragma
+:
+keep
 #
 if
 defined
@@ -862,7 +868,7 @@ x_start_index
 const
 float
 *
-h_p
+h_cp
 =
 &
 h
@@ -939,7 +945,7 @@ k
 -
 -
 k
-h_p
+h_cp
 +
 =
 4
@@ -977,7 +983,7 @@ h_k
 =
 vld1q_f32
 (
-h_p
+h_cp
 )
 ;
 /
@@ -1224,15 +1230,6 @@ bit
 vector
 operations
 .
-const
-int
-limit_by_4
-=
-h_size
->
->
-2
-;
 for
 (
 int
@@ -1529,7 +1526,7 @@ x_start_index
 const
 float
 *
-h_p
+h_cp
 =
 &
 h
@@ -1673,7 +1670,7 @@ k
 -
 -
 k
-h_p
+h_cp
 +
 =
 4
@@ -1708,7 +1705,7 @@ h_k
 =
 vld1q_f32
 (
-h_p
+h_cp
 )
 ;
 /
@@ -1775,7 +1772,7 @@ k
 k
 +
 +
-h_p
+h_cp
 +
 +
 x_p
@@ -1799,7 +1796,7 @@ s
 +
 =
 *
-h_p
+h_cp
 *
 x_k
 ;
