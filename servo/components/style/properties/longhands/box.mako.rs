@@ -155,7 +155,7 @@ display
 servo_restyle_damage
 =
 "
-rebuild_and_reflow
+rebuild_box
 "
 affects
 =
@@ -372,7 +372,7 @@ property
 servo_restyle_damage
 =
 "
-rebuild_and_reflow
+rebuild_box
 "
 affects
 =
@@ -642,7 +642,7 @@ float
 servo_restyle_damage
 =
 "
-rebuild_and_reflow
+rebuild_box
 "
 affects
 =
@@ -705,7 +705,7 @@ clear
 servo_restyle_damage
 =
 "
-rebuild_and_reflow
+rebuild_box
 "
 affects
 =
@@ -774,7 +774,7 @@ align
 servo_restyle_damage
 =
 "
-reflow
+rebuild_box
 "
 affects
 =
@@ -843,7 +843,7 @@ source
 servo_restyle_damage
 =
 "
-reflow
+rebuild_box
 "
 affects
 =
@@ -1164,7 +1164,7 @@ full_name
 servo_restyle_damage
 =
 "
-reflow
+rebuild_box
 "
 affects
 =
@@ -1343,7 +1343,7 @@ transform
 servo_restyle_damage
 =
 "
-reflow_out_of_flow
+recalculate_overflow
 "
 affects
 =
@@ -1416,7 +1416,7 @@ transforms
 servo_restyle_damage
 =
 "
-reflow_out_of_flow
+recalculate_overflow
 "
 affects
 =
@@ -1489,7 +1489,7 @@ transforms
 servo_restyle_damage
 =
 "
-reflow_out_of_flow
+recalculate_overflow
 "
 affects
 =
@@ -1562,7 +1562,7 @@ transforms
 servo_restyle_damage
 =
 "
-reflow_out_of_flow
+recalculate_overflow
 "
 affects
 =
@@ -1647,7 +1647,7 @@ property
 servo_restyle_damage
 =
 "
-reflow_out_of_flow
+rebuild_box
 "
 affects
 =
@@ -1724,7 +1724,7 @@ property
 servo_restyle_damage
 =
 "
-reflow_out_of_flow
+rebuild_box
 "
 affects
 =
@@ -1801,7 +1801,7 @@ property
 servo_restyle_damage
 =
 "
-reflow_out_of_flow
+rebuild_box
 "
 affects
 =
@@ -1878,7 +1878,7 @@ property
 servo_restyle_damage
 =
 "
-reflow_out_of_flow
+rebuild_box
 "
 boxed
 =
@@ -1958,7 +1958,7 @@ property
 servo_restyle_damage
 =
 "
-reflow_out_of_flow
+rebuild_box
 "
 boxed
 =
@@ -2428,6 +2428,11 @@ affects
 "
 paint
 "
+servo_restyle_damage
+=
+"
+repaint
+"
 )
 }
 {
@@ -2768,7 +2773,7 @@ transform_extra_prefixes
 servo_restyle_damage
 =
 "
-reflow_out_of_flow
+recalculate_overflow
 "
 affects
 =
@@ -2845,7 +2850,7 @@ property
 servo_restyle_damage
 =
 "
-reflow_out_of_flow
+recalculate_overflow
 "
 affects
 =
@@ -2910,6 +2915,11 @@ animation_type
 =
 "
 discrete
+"
+servo_restyle_damage
+=
+"
+repaint
 "
 affects
 =
@@ -3044,7 +3054,7 @@ discrete
 servo_restyle_damage
 =
 "
-reflow_out_of_flow
+recalculate_overflow
 "
 affects
 =
@@ -3121,7 +3131,7 @@ property
 servo_restyle_damage
 =
 "
-reflow_out_of_flow
+recalculate_overflow
 "
 affects
 =

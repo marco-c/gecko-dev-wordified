@@ -146,6 +146,11 @@ outline
 -
 color
 "
+servo_restyle_damage
+=
+"
+repaint
+"
 affects
 =
 "
@@ -225,6 +230,11 @@ outline
 -
 style
 "
+servo_restyle_damage
+=
+"
+repaint
+"
 affects
 =
 "
@@ -300,6 +310,11 @@ outline
 -
 width
 "
+servo_restyle_damage
+=
+"
+repaint
+"
 affects
 =
 "
@@ -368,6 +383,11 @@ propdef
 outline
 -
 offset
+"
+servo_restyle_damage
+=
+"
+repaint
 "
 affects
 =

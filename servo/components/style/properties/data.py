@@ -2653,7 +2653,7 @@ False
 servo_restyle_damage
 =
 "
-repaint
+rebuild_box
 "
         
 affects

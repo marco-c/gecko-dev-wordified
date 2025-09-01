@@ -126,7 +126,7 @@ transparency
 servo_restyle_damage
 =
 "
-reflow_out_of_flow
+repaint
 "
 affects
 =
@@ -337,6 +337,11 @@ affects
 "
 overflow
 "
+servo_restyle_damage
+=
+"
+repaint
+"
 )
 }
 {
@@ -522,6 +527,11 @@ affects
 =
 "
 paint
+"
+servo_restyle_damage
+=
+"
+repaint
 "
 )
 }

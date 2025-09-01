@@ -280,7 +280,7 @@ POSITION_TRY_RULE
 servo_restyle_damage
 =
 "
-reflow
+rebuild_box
 "
 affects
 =

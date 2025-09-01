@@ -192,7 +192,7 @@ index
 servo_restyle_damage
 =
 "
-reflow_out_of_flow
+rebuild_box
 "
 logical_group
 =
@@ -380,6 +380,11 @@ affects
 "
 paint
 "
+servo_restyle_damage
+=
+"
+rebuild_stacking_context
+"
 )
 }
 /
@@ -477,7 +482,7 @@ discrete
 servo_restyle_damage
 =
 "
-reflow
+rebuild_box
 "
 gecko_enum_prefix
 =
@@ -551,7 +556,7 @@ discrete
 servo_restyle_damage
 =
 "
-reflow
+rebuild_box
 "
 gecko_enum_prefix
 =
@@ -638,7 +643,7 @@ discrete
 servo_restyle_damage
 =
 "
-reflow
+rebuild_box
 "
 affects
 =
@@ -720,7 +725,7 @@ discrete
 servo_restyle_damage
 =
 "
-reflow
+rebuild_box
 "
 affects
 =
@@ -796,7 +801,7 @@ discrete
 servo_restyle_damage
 =
 "
-reflow
+rebuild_box
 "
 affects
 =
@@ -938,7 +943,7 @@ webkit
 servo_restyle_damage
 =
 "
-reflow
+rebuild_box
 "
 affects
 =
@@ -1009,7 +1014,7 @@ webkit
 servo_restyle_damage
 =
 "
-reflow
+rebuild_box
 "
 affects
 =
@@ -1265,7 +1270,7 @@ property
 servo_restyle_damage
 =
 "
-reflow
+rebuild_box
 "
 affects
 =
@@ -1336,7 +1341,7 @@ webkit
 servo_restyle_damage
 =
 "
-reflow
+rebuild_box
 "
 boxed
 =
@@ -1478,7 +1483,7 @@ DEFAULT_RULES_AND_POSITION_TRY
 servo_restyle_damage
 =
 "
-reflow
+rebuild_box
 "
 affects
 =
@@ -1570,7 +1575,7 @@ DEFAULT_RULES_AND_POSITION_TRY
 servo_restyle_damage
 =
 "
-reflow
+rebuild_box
 "
 affects
 =
@@ -1644,7 +1649,7 @@ DEFAULT_RULES_AND_POSITION_TRY
 servo_restyle_damage
 =
 "
-reflow
+rebuild_box
 "
 affects
 =
@@ -2224,7 +2229,7 @@ discrete
 servo_restyle_damage
 =
 "
-reflow
+rebuild_box
 "
 affects
 =
@@ -2956,7 +2961,7 @@ gap
 servo_restyle_damage
 =
 "
-reflow
+rebuild_box
 "
 affects
 =
@@ -3052,7 +3057,7 @@ gap
 servo_restyle_damage
 =
 "
-reflow
+rebuild_box
 "
 affects
 =
@@ -3118,7 +3123,7 @@ ratio
 servo_restyle_damage
 =
 "
-reflow
+rebuild_box
 "
 affects
 =
