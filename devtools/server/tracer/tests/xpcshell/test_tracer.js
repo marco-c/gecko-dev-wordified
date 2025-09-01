@@ -3232,7 +3232,7 @@ execution
 const
 startTimestamp
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -3430,7 +3430,7 @@ Assert
 .
 greater
 (
-Cu
+ChromeUtils
 .
 now
 (

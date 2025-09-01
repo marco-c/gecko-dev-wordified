@@ -310,7 +310,7 @@ longTimeMs
 let
 start
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -430,7 +430,7 @@ Assert
 greater
 (
 longTimeMs
-Cu
+ChromeUtils
 .
 now
 (
@@ -530,7 +530,7 @@ timeMs
 let
 start
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -675,7 +675,7 @@ Assert
 .
 greater
 (
-Cu
+ChromeUtils
 .
 now
 (

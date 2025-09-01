@@ -326,7 +326,7 @@ databases
 const
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -402,7 +402,7 @@ close
 const
 endTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -439,7 +439,7 @@ database
 const
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -467,7 +467,7 @@ request
 const
 endTime
 =
-Cu
+ChromeUtils
 .
 now
 (

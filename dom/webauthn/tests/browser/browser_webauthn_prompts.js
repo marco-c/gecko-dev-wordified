@@ -178,7 +178,7 @@ waitForCondition
 let
 timeSinceShown
 =
-Cu
+ChromeUtils
 .
 now
 (

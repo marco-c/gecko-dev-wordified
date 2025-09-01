@@ -516,7 +516,7 @@ IPProtectionService
 .
 activatedAt
 =
-Cu
+ChromeUtils
 .
 now
 (

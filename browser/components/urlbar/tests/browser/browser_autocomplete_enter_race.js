@@ -1142,7 +1142,7 @@ resolve
 let
 start
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -1173,7 +1173,7 @@ Assert
 .
 less
 (
-Cu
+ChromeUtils
 .
 now
 (

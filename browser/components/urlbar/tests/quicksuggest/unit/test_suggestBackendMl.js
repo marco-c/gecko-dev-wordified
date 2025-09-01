@@ -422,7 +422,7 @@ of
 let
 startMs
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -460,7 +460,7 @@ called
 let
 elapsedMs
 =
-Cu
+ChromeUtils
 .
 now
 (

@@ -680,7 +680,7 @@ popupShownPromise
 let
 timeNow
 =
-Cu
+ChromeUtils
 .
 now
 (

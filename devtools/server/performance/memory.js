@@ -2896,11 +2896,11 @@ docShell
 so
 fallback
 to
-Cu
+ChromeUtils
 .
 now
 return
-Cu
+ChromeUtils
 .
 now
 (

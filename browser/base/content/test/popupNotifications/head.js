@@ -2259,7 +2259,7 @@ monotonically
 increasing
 value
 of
-Cu
+ChromeUtils
 .
 now
 .
@@ -2285,7 +2285,7 @@ wait
 for
 the
 value
-Cu
+ChromeUtils
 .
 now
 (
@@ -2387,7 +2387,7 @@ a
 larger
 test
 suite
-Cu
+ChromeUtils
 .
 now
 (
@@ -2445,7 +2445,7 @@ waitForCondition
 )
 =
 >
-Cu
+ChromeUtils
 .
 now
 (

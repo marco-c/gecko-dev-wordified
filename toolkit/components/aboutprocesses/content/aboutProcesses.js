@@ -893,7 +893,7 @@ _promiseSnapshot
 let
 date
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -1003,7 +1003,7 @@ this
 _latest
 |
 |
-Cu
+ChromeUtils
 .
 now
 (

@@ -673,7 +673,7 @@ Open
 let
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (

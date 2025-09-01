@@ -574,7 +574,7 @@ resolve
 const
 startTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -667,7 +667,7 @@ else
 const
 endTime
 =
-Cu
+ChromeUtils
 .
 now
 (

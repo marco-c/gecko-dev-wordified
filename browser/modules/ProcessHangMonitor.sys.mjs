@@ -499,7 +499,7 @@ notificationTime
 :
 when
 (
-Cu
+ChromeUtils
 .
 now
 (
@@ -532,7 +532,7 @@ lastReportFromChild
 :
 when
 (
-Cu
+ChromeUtils
 .
 now
 (
@@ -2316,7 +2316,7 @@ notificationTime
 {
 uptime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -2427,7 +2427,7 @@ report
 .
 hangDuration
 +
-Cu
+ChromeUtils
 .
 now
 (
@@ -2865,7 +2865,7 @@ info
 .
 notificationTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -3960,7 +3960,7 @@ report
 let
 now
 =
-Cu
+ChromeUtils
 .
 now
 (

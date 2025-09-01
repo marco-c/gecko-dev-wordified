@@ -1607,7 +1607,7 @@ Math
 .
 round
 (
-Cu
+ChromeUtils
 .
 now
 (
@@ -1767,7 +1767,7 @@ this
 .
 _startTime
 =
-Cu
+ChromeUtils
 .
 now
 (

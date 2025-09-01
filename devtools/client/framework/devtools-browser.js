@@ -1658,7 +1658,7 @@ This
 is
 a
 *
-Cu
+ChromeUtils
 .
 now
 (

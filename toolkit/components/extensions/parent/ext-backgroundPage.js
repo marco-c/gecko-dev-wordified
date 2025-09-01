@@ -7005,7 +7005,7 @@ resolve
 let
 start
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -7075,7 +7075,7 @@ resetTimer
 }
 if
 (
-Cu
+ChromeUtils
 .
 now
 (
@@ -7094,7 +7094,7 @@ Math
 round
 (
 (
-Cu
+ChromeUtils
 .
 now
 (
@@ -7249,7 +7249,7 @@ this
 .
 sleepTime
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -7284,7 +7284,7 @@ this
 .
 sleepTime
 -
-Cu
+ChromeUtils
 .
 now
 (
@@ -7360,7 +7360,7 @@ size
 {
 if
 (
-Cu
+ChromeUtils
 .
 now
 (

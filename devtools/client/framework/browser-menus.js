@@ -686,7 +686,7 @@ selectToolCommand
 (
 window
 id
-Cu
+ChromeUtils
 .
 now
 (

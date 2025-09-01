@@ -3255,7 +3255,7 @@ started
 This
 is
 a
-Cu
+ChromeUtils
 .
 now
 (
@@ -4291,7 +4291,7 @@ started
 This
 is
 a
-Cu
+ChromeUtils
 .
 now
 (
@@ -4321,7 +4321,7 @@ defaultToolId
 const
 delay
 =
-Cu
+ChromeUtils
 .
 now
 (
@@ -5338,7 +5338,7 @@ started
 This
 is
 a
-Cu
+ChromeUtils
 .
 now
 (
@@ -5706,7 +5706,7 @@ started
 This
 is
 a
-Cu
+ChromeUtils
 .
 now
 (

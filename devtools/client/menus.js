@@ -456,7 +456,7 @@ toggleToolboxCommand
 window
 .
 gBrowser
-Cu
+ChromeUtils
 .
 now
 (
