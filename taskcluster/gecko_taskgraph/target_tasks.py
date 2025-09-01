@@ -4791,6 +4791,26 @@ raptor_try_name
 "
 )
         
+if
+"
+network
+-
+bench
+"
+in
+try_name
+and
+"
+linux
+"
+not
+in
+platform
+:
+            
+return
+False
+        
 #
 Desktop
 and
