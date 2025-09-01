@@ -2350,6 +2350,20 @@ Werror
 Wall
 "
 ]
+                
+"
+HOST_LDFLAGS
+"
+:
+[
+"
+-
+Wl
+-
+-
+nostdlib
+"
+]
             
 }
         
@@ -2357,10 +2371,13 @@ Wall
         
 sources
 ldflags
-flags
+host_flags
+host_ldflags
 lib
 target_flags
 =
+(
+            
 self
 .
 read_topsrcdir
@@ -2368,11 +2385,13 @@ read_topsrcdir
 reader
 )
         
+)
+        
 self
 .
 assertIsInstance
 (
-flags
+host_flags
 ComputedFlags
 )
         
@@ -2381,7 +2400,7 @@ self
 assertEqual
 (
             
-flags
+host_flags
 .
 flags
 [
@@ -2407,7 +2426,7 @@ self
 assertEqual
 (
             
-flags
+host_flags
 .
 flags
 [
@@ -2423,6 +2442,32 @@ substs
 [
 "
 HOST_CFLAGS
+"
+]
+        
+)
+        
+self
+.
+assertEqual
+(
+            
+host_ldflags
+.
+flags
+[
+"
+HOST_LDFLAGS
+"
+]
+reader
+.
+config
+.
+substs
+[
+"
+HOST_LDFLAGS
 "
 ]
         
@@ -2435,7 +2480,7 @@ assertEqual
             
 set
 (
-flags
+host_flags
 .
 flags
 [
@@ -2486,7 +2531,7 @@ self
 assertEqual
 (
             
-flags
+host_flags
 .
 flags
 [
@@ -2515,7 +2560,7 @@ self
 .
 assertEqual
 (
-flags
+host_flags
 .
 flags
 [
@@ -2524,6 +2569,31 @@ MOZBUILD_HOST_CXXFLAGS
 "
 ]
 [
+]
+)
+        
+self
+.
+assertEqual
+(
+host_ldflags
+.
+flags
+[
+"
+MOZBUILD
+"
+]
+[
+"
+-
+Wl
+-
+-
+gc
+-
+sections
+"
 ]
 )
     
@@ -2575,10 +2645,13 @@ O2
         
 sources
 ldflags
-flags
+host_flags
+host_ldflags
 lib
 target_flags
 =
+(
+            
 self
 .
 read_topsrcdir
@@ -2586,11 +2659,13 @@ read_topsrcdir
 reader
 )
         
+)
+        
 self
 .
 assertIsInstance
 (
-flags
+host_flags
 ComputedFlags
 )
         
@@ -2598,7 +2673,7 @@ self
 .
 assertEqual
 (
-flags
+host_flags
 .
 flags
 [
@@ -2651,10 +2726,13 @@ O2
         
 sources
 ldflags
-flags
+host_flags
+host_ldflags
 lib
 target_flags
 =
+(
+            
 self
 .
 read_topsrcdir
@@ -2662,11 +2740,13 @@ read_topsrcdir
 reader
 )
         
+)
+        
 self
 .
 assertIsInstance
 (
-flags
+host_flags
 ComputedFlags
 )
         
@@ -2674,7 +2754,7 @@ self
 .
 assertEqual
 (
-flags
+host_flags
 .
 flags
 [
@@ -2760,10 +2840,13 @@ CROSS_COMPILE
         
 sources
 ldflags
-flags
+host_flags
+host_ldflags
 lib
 target_flags
 =
+(
+            
 self
 .
 read_topsrcdir
@@ -2771,11 +2854,13 @@ read_topsrcdir
 reader
 )
         
+)
+        
 self
 .
 assertIsInstance
 (
-flags
+host_flags
 ComputedFlags
 )
         
@@ -2783,7 +2868,7 @@ self
 .
 assertEqual
 (
-flags
+host_flags
 .
 flags
 [
@@ -2857,10 +2942,13 @@ cl
         
 sources
 ldflags
-flags
+host_flags
+host_ldflags
 lib
 target_flags
 =
+(
+            
 self
 .
 read_topsrcdir
@@ -2868,11 +2956,13 @@ read_topsrcdir
 reader
 )
         
+)
+        
 self
 .
 assertIsInstance
 (
-flags
+host_flags
 ComputedFlags
 )
         
@@ -2880,7 +2970,7 @@ self
 .
 assertEqual
 (
-flags
+host_flags
 .
 flags
 [
@@ -11100,6 +11190,27 @@ ComputedFlags
 )
         
 #
+and
+host
+ldflags
+        
+host_ldflags
+=
+objs
+.
+pop
+(
+)
+        
+self
+.
+assertIsInstance
+(
+host_ldflags
+ComputedFlags
+)
+        
+#
 .
 .
 .
@@ -13704,11 +13815,12 @@ len
 (
 objs
 )
-4
+5
 )
         
 ldflags
 host_cflags
+host_ldflags
 lib
 cflags
 =
@@ -13735,6 +13847,14 @@ self
 assertIsInstance
 (
 host_cflags
+ComputedFlags
+)
+        
+self
+.
+assertIsInstance
+(
+host_ldflags
 ComputedFlags
 )
         
@@ -13940,11 +14060,12 @@ len
 (
 objs
 )
-4
+5
 )
         
 ldflags
 host_cflags
+host_ldflags
 lib
 cflags
 =
@@ -13971,6 +14092,14 @@ self
 assertIsInstance
 (
 host_cflags
+ComputedFlags
+)
+        
+self
+.
+assertIsInstance
+(
+host_ldflags
 ComputedFlags
 )
         
@@ -14433,11 +14562,12 @@ len
 (
 objs
 )
-4
+5
 )
         
 ldflags
 host_cflags
+host_ldflags
 cflags
 prog
 =
@@ -14464,6 +14594,14 @@ self
 assertIsInstance
 (
 host_cflags
+ComputedFlags
+)
+        
+self
+.
+assertIsInstance
+(
+host_ldflags
 ComputedFlags
 )
         
@@ -14564,7 +14702,7 @@ len
 (
 objs
 )
-4
+5
 )
         
 print
@@ -14574,7 +14712,8 @@ objs
         
 ldflags
 cflags
-hostflags
+host_cflags
+host_ldflags
 prog
 =
 objs
@@ -14599,7 +14738,15 @@ self
 .
 assertIsInstance
 (
-hostflags
+host_cflags
+ComputedFlags
+)
+        
+self
+.
+assertIsInstance
+(
+host_ldflags
 ComputedFlags
 )
         
@@ -14700,11 +14847,12 @@ len
 (
 objs
 )
-4
+5
 )
         
 ldflags
 host_cflags
+host_ldflags
 lib
 cflags
 =
@@ -14731,6 +14879,14 @@ self
 assertIsInstance
 (
 host_cflags
+ComputedFlags
+)
+        
+self
+.
+assertIsInstance
+(
+host_ldflags
 ComputedFlags
 )
         
@@ -14842,11 +14998,12 @@ len
 (
 objs
 )
-4
+5
 )
         
 ldflags
 host_cflags
+host_ldflags
 lib
 cflags
 =
@@ -14865,6 +15022,14 @@ self
 assertIsInstance
 (
 cflags
+ComputedFlags
+)
+        
+self
+.
+assertIsInstance
+(
+host_ldflags
 ComputedFlags
 )
         

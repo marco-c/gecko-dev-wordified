@@ -8740,6 +8740,19 @@ HOST_COMPILE_FLAGS
 ]
 )
         
+computed_host_link_flags
+=
+ComputedFlags
+(
+context
+context
+[
+"
+HOST_LINK_FLAGS
+"
+]
+)
+        
 computed_as_flags
 =
 ComputedFlags
@@ -9215,6 +9228,36 @@ context
 [
 "
 LDFLAGS
+"
+]
+)
+        
+if
+"
+HOST_LDFLAGS
+"
+in
+context
+and
+context
+[
+"
+HOST_LDFLAGS
+"
+]
+:
+            
+computed_host_link_flags
+.
+resolve_flags
+(
+"
+MOZBUILD
+"
+context
+[
+"
+HOST_LDFLAGS
 "
 ]
 )
@@ -11899,6 +11942,9 @@ _host_compile_dirs
             
 yield
 computed_host_flags
+            
+yield
+computed_host_link_flags
         
 if
 context
