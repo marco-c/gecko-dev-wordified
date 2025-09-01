@@ -55016,6 +55016,10 @@ move
 (
 aSnapTargetIds
 )
+ViewportType
+:
+:
+Visual
 )
 )
 ;
