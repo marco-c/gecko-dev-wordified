@@ -2816,9 +2816,7 @@ its
 cancelable
 /
 /
-and
-composed
-attributes
+attribute
 initialized
 to
 true
@@ -2842,12 +2840,6 @@ this
 init
 .
 mCancelable
-=
-true
-;
-init
-.
-mComposed
 =
 true
 ;
