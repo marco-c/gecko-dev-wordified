@@ -312,6 +312,8 @@ Clone
 Copy
 Debug
 From
+PartialEq
+PartialOrd
 )
 ]
 pub
