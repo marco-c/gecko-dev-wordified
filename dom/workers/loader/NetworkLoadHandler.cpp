@@ -1088,9 +1088,7 @@ loadContext
 mRequest
 -
 >
-mSourceMapURL
-=
-Some
+SetSourceMapURL
 (
 NS_ConvertUTF8toUTF16
 (

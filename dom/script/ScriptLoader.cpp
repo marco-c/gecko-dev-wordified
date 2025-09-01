@@ -17864,7 +17864,9 @@ if
 aRequest
 -
 >
-mSourceMapURL
+HasSourceMapURL
+(
+)
 )
 {
 aOptions
@@ -17875,9 +17877,10 @@ setSourceMapURL
 aRequest
 -
 >
-mSourceMapURL
--
->
+GetSourceMapURL
+(
+)
+.
 get
 (
 )
@@ -29405,9 +29408,7 @@ sourceMapURL
 aRequest
 -
 >
-mSourceMapURL
-=
-Some
+SetSourceMapURL
 (
 NS_ConvertUTF8toUTF16
 (
