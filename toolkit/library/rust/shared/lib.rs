@@ -658,10 +658,6 @@ extern
 crate
 urlpattern_glue
 ;
-extern
-crate
-uritemplate_glue
-;
 #
 [
 cfg
