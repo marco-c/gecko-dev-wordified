@@ -321,7 +321,10 @@ length
 Contains17
 (
 arr
-arraysize
+std
+:
+:
+size
 (
 arr
 )

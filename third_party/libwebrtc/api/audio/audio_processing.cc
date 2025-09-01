@@ -373,15 +373,6 @@ RTC_CHECK_NOTREACHED
 /
 /
 namespace
-constexpr
-int
-AudioProcessing
-:
-:
-kNativeSampleRatesHz
-[
-]
-;
 void
 CustomProcessing
 :
