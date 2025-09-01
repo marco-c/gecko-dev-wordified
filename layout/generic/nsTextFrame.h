@@ -1125,9 +1125,6 @@ nsTextFrame
 *
 mFrame
 ;
-gfxSkipCharsIterator
-mStart
-;
 /
 /
 Offset
@@ -1136,6 +1133,9 @@ original
 and
 transformed
 string
+gfxSkipCharsIterator
+mStart
+;
 const
 gfxSkipCharsIterator
 mTempIterator
@@ -1216,9 +1216,6 @@ mutable
 uint32_t
 mTabWidthsAnalyzedLimit
 ;
-int32_t
-mLength
-;
 /
 /
 DOM
@@ -1227,9 +1224,8 @@ length
 may
 be
 INT32_MAX
-const
-gfxFloat
-mWordSpacing
+int32_t
+mLength
 ;
 /
 /
@@ -1240,7 +1236,7 @@ whitespace
 char
 const
 gfxFloat
-mLetterSpacing
+mWordSpacing
 ;
 /
 /
@@ -1248,9 +1244,9 @@ space
 for
 each
 letter
-mutable
+const
 gfxFloat
-mMinTabAdvance
+mLetterSpacing
 ;
 /
 /
@@ -1261,6 +1257,10 @@ for
 tab
 >
 char
+mutable
+gfxFloat
+mMinTabAdvance
+;
 mutable
 gfxFloat
 mHyphenWidth
