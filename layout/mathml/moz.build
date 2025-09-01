@@ -324,11 +324,6 @@ mathfont
 properties
 "
 "
-mathfontSTIXGeneral
-.
-properties
-"
-"
 mathfontUnicode
 .
 properties
