@@ -70,6 +70,8 @@ import
 logging
 import
 os
+import
+traceback
 from
 abc
 import
@@ -106,6 +108,12 @@ import
 TEST_SUITES
 TestManifestLoader
 TestResolver
+from
+requests
+.
+exceptions
+import
+RetryError
 from
 taskgraph
 .
@@ -2025,13 +2033,8 @@ x
 ]
 ]
             
-for
-t
-in
-tests
-:
-                
-if
+mozinfo_tags
+=
 json
 .
 loads
@@ -2043,6 +2046,15 @@ tag
 "
 ]
 )
+            
+for
+t
+in
+tests
+:
+                
+if
+mozinfo_tags
 and
 not
 any
@@ -2063,17 +2075,7 @@ tags
 for
 x
 in
-json
-.
-loads
-(
-mozinfo
-[
-"
-tag
-"
-]
-)
+mozinfo_tags
                 
 )
 :
@@ -2769,8 +2771,17 @@ head_rev
 )
         
 except
+(
 BugbugTimeoutException
+RetryError
+)
 :
+            
+traceback
+.
+print_exc
+(
+)
             
 logger
 .
