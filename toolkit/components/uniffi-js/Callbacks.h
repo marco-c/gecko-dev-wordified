@@ -430,7 +430,7 @@ create
 a
 new
 *
-UniffiCallbackMethodHandlerBase
+AsyncCallbackMethodHandlerBase
 subclass
 instance
 for
