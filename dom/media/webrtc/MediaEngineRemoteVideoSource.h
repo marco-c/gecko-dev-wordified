@@ -707,6 +707,13 @@ const
 NormalizedConstraints
 &
 aConstraints
+const
+dom
+:
+:
+VideoResizeModeEnum
+&
+aResizeMode
 )
 ;
 uint32_t
