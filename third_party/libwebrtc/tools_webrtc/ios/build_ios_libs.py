@@ -965,23 +965,38 @@ files
 )
         
 for
-arch
+(
+env
+archs
+)
 in
 architectures
+.
+items
+(
+)
 :
             
+for
+arch
+in
+archs
+:
+                
 arch_lib_path
 =
-os
-.
-path
-.
-join
+'
+%
+s_
+%
+s_libs
+'
+%
 (
-output_dir
+env
 arch
 )
-            
+                
 if
 os
 .
@@ -992,7 +1007,7 @@ isdir
 arch_lib_path
 )
 :
-                
+                    
 shutil
 .
 rmtree
@@ -1675,14 +1690,7 @@ _CleanTemporary
 args
 .
 output_dir
-list
-(
 architectures
-.
-keys
-(
-)
-)
 )
         
 return
@@ -1796,18 +1804,16 @@ archs
             
 lib_path
 =
-os
-.
-path
-.
-join
+'
+%
+s_
+%
+s_libs
+'
+%
 (
 framework_path
 arch
-+
-'
-_libs
-'
 )
             
 lib_paths
