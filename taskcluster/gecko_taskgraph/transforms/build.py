@@ -2247,15 +2247,10 @@ xml
 if
 not
 prod
-/
-shippable
         
 if
 not
 is_prod_project
-or
-not
-is_shippable
 :
             
 job
