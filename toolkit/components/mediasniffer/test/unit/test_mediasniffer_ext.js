@@ -215,11 +215,11 @@ mkv
 expected
 :
 "
-application
+video
 /
-octet
+x
 -
-stream
+matroska
 "
 }
 /
