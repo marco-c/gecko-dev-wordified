@@ -5258,6 +5258,11 @@ purgeSourceURLsForShrinkingGC
 )
 ;
 void
+purgePendingWrapperPreservationBuffersForShrinkingGC
+(
+)
+;
+void
 traceRuntimeForMajorGC
 (
 JSTracer
