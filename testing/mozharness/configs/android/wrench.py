@@ -59,7 +59,7 @@ configuration
 for
 Android
 x86
-7
+14
 .
 0
 wrench
@@ -96,6 +96,8 @@ emulator_avd_name
 :
 "
 mozemulator
+-
+android34
 -
 x86_64
 "
