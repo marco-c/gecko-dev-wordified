@@ -8747,7 +8747,7 @@ CreateAudioCodec
 "
 foo
 "
-0
+kDefaultAudioClockRateHz
 1
 )
 )
@@ -8806,7 +8806,7 @@ CreateAudioCodec
 "
 foo
 "
-0
+kDefaultAudioClockRateHz
 1
 )
 )
@@ -8819,7 +8819,7 @@ CreateAudioCodec
 (
 121
 kRedCodecName
-0
+kDefaultAudioClockRateHz
 1
 )
 )
@@ -9136,7 +9136,7 @@ CreateAudioCodec
 "
 foo
 "
-0
+kDefaultAudioClockRateHz
 1
 )
 )
@@ -9149,7 +9149,7 @@ CreateAudioCodec
 (
 101
 kRedCodecName
-0
+kDefaultAudioClockRateHz
 1
 )
 )
@@ -9208,7 +9208,7 @@ CreateAudioCodec
 "
 foo
 "
-0
+kDefaultAudioClockRateHz
 1
 )
 )
@@ -9221,7 +9221,7 @@ CreateAudioCodec
 (
 121
 kRedCodecName
-0
+kDefaultAudioClockRateHz
 1
 )
 )
@@ -9504,7 +9504,7 @@ CreateAudioCodec
 "
 foo
 "
-0
+kDefaultAudioClockRateHz
 1
 )
 )
@@ -9517,7 +9517,7 @@ CreateAudioCodec
 (
 101
 kRedCodecName
-0
+kDefaultAudioClockRateHz
 1
 )
 )
@@ -9576,7 +9576,7 @@ CreateAudioCodec
 "
 foo
 "
-0
+kDefaultAudioClockRateHz
 1
 )
 )
@@ -9589,7 +9589,7 @@ CreateAudioCodec
 (
 121
 kRedCodecName
-0
+kDefaultAudioClockRateHz
 1
 )
 )
@@ -9912,7 +9912,7 @@ CreateAudioCodec
 "
 foo
 "
-0
+kDefaultAudioClockRateHz
 1
 )
 )
@@ -9925,7 +9925,7 @@ CreateAudioCodec
 (
 101
 kRedCodecName
-0
+kDefaultAudioClockRateHz
 1
 )
 )
@@ -10000,7 +10000,7 @@ CreateAudioCodec
 "
 foo
 "
-0
+kDefaultAudioClockRateHz
 1
 )
 )
@@ -10013,7 +10013,7 @@ CreateAudioCodec
 (
 121
 kRedCodecName
-0
+kDefaultAudioClockRateHz
 1
 )
 )
@@ -10028,7 +10028,7 @@ CreateAudioCodec
 "
 bar
 "
-0
+kDefaultAudioClockRateHz
 1
 )
 )
@@ -10224,7 +10224,7 @@ CreateAudioCodec
 "
 foo
 "
-0
+kDefaultAudioClockRateHz
 1
 )
 )
@@ -10239,7 +10239,7 @@ CreateAudioCodec
 "
 bar
 "
-0
+kDefaultAudioClockRateHz
 1
 )
 )
@@ -10252,7 +10252,7 @@ CreateAudioCodec
 (
 101
 kRedCodecName
-0
+kDefaultAudioClockRateHz
 1
 )
 )
@@ -10327,7 +10327,7 @@ CreateAudioCodec
 "
 foo
 "
-0
+kDefaultAudioClockRateHz
 1
 )
 )
@@ -10340,7 +10340,7 @@ CreateAudioCodec
 (
 121
 kRedCodecName
-0
+kDefaultAudioClockRateHz
 1
 )
 )
@@ -10525,7 +10525,7 @@ CreateAudioCodec
 "
 foo
 "
-0
+kDefaultAudioClockRateHz
 1
 )
 )
@@ -10538,7 +10538,7 @@ CreateAudioCodec
 (
 101
 kRedCodecName
-0
+kDefaultAudioClockRateHz
 1
 )
 )
@@ -10613,7 +10613,7 @@ CreateAudioCodec
 "
 foo
 "
-0
+kDefaultAudioClockRateHz
 1
 )
 )
@@ -10626,7 +10626,7 @@ CreateAudioCodec
 (
 121
 kRedCodecName
-0
+kDefaultAudioClockRateHz
 1
 )
 )
@@ -11536,7 +11536,7 @@ id
 +
 1
 kRedCodecName
-0
+kDefaultAudioClockRateHz
 1
 )
 )
@@ -11557,7 +11557,7 @@ id
 +
 1
 kUlpfecCodecName
-0
+kDefaultAudioClockRateHz
 1
 )
 )
@@ -14421,7 +14421,7 @@ CreateAudioCodec
 "
 foo
 "
-0
+kDefaultAudioClockRateHz
 1
 )
 )
@@ -15132,7 +15132,7 @@ CreateAudioCodec
 "
 foo
 "
-0
+kDefaultAudioClockRateHz
 1
 )
 )
@@ -15504,7 +15504,7 @@ CreateAudioCodec
 "
 foo
 "
-0
+kDefaultAudioClockRateHz
 1
 )
 )
