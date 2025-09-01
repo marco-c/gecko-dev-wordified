@@ -460,7 +460,7 @@ completionHandler
 {
 NSError
 *
-error
+err
 =
 [
 [
@@ -473,7 +473,7 @@ badResponseError
 completionHandler
 (
 nil
-error
+err
 )
 ;
 }
@@ -560,7 +560,7 @@ length
 ;
 NSData
 *
-data
+messageData
 =
 [
 message
@@ -628,7 +628,7 @@ request
 .
 HTTPBody
 =
-data
+messageData
 ;
 [
 NSURLConnection
@@ -648,12 +648,12 @@ NSData
 data
 NSError
 *
-error
+responseError
 )
 {
 if
 (
-error
+responseError
 )
 {
 if
@@ -664,7 +664,7 @@ completionHandler
 completionHandler
 (
 nil
-error
+responseError
 )
 ;
 }
@@ -695,7 +695,7 @@ completionHandler
 {
 NSError
 *
-error
+err
 =
 [
 [
@@ -708,7 +708,7 @@ badResponseError
 completionHandler
 (
 nil
-error
+err
 )
 ;
 }

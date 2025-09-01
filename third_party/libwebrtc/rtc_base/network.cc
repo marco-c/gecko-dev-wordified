@@ -6212,7 +6212,7 @@ ADAPTER_TYPE_VPN
 ;
 }
 auto
-network
+new_network
 =
 CreateNetwork
 (
@@ -6223,7 +6223,7 @@ prefix_length
 adapter_type
 )
 ;
-network
+new_network
 -
 >
 set_underlying_type_for_vpn
@@ -6231,7 +6231,7 @@ set_underlying_type_for_vpn
 underlying_type_for_vpn
 )
 ;
-network
+new_network
 -
 >
 set_default_local_address_provider
@@ -6239,7 +6239,7 @@ set_default_local_address_provider
 this
 )
 ;
-network
+new_network
 -
 >
 set_mdns_responder_provider
@@ -6247,7 +6247,7 @@ set_mdns_responder_provider
 this
 )
 ;
-network
+new_network
 -
 >
 set_scope_id
@@ -6255,7 +6255,7 @@ set_scope_id
 scope_id
 )
 ;
-network
+new_network
 -
 >
 AddIP
@@ -6269,10 +6269,10 @@ ignored
 IsIgnoredNetwork
 (
 *
-network
+new_network
 )
 ;
-network
+new_network
 -
 >
 set_ignored
@@ -6286,7 +6286,7 @@ include_ignored
 |
 |
 !
-network
+new_network
 -
 >
 ignored
@@ -6299,7 +6299,7 @@ current_networks
 key
 ]
 =
-network
+new_network
 .
 get
 (
@@ -6315,7 +6315,7 @@ std
 :
 move
 (
-network
+new_network
 )
 )
 ;

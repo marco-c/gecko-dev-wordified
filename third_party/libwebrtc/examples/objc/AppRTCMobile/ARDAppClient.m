@@ -1311,17 +1311,17 @@ dispatch_get_main_queue
 {
 ARDAppClient
 *
-strongSelf
+strongerSelf
 =
 weakSelf
 ;
 [
-strongSelf
+strongerSelf
 .
 delegate
 appClient
 :
-strongSelf
+strongerSelf
 didGetStats
 :
 stats
@@ -3080,7 +3080,7 @@ completionHandler
 (
 NSError
 *
-error
+sldError
 )
 {
 ARDAppClient
@@ -3098,7 +3098,7 @@ strongSelf
 peerConnection
 didSetSessionDescriptionWithError
 :
-error
+sldError
 ]
 ;
 }
@@ -3325,7 +3325,7 @@ RTCSessionDescription
 sdp
 NSError
 *
-error
+answerError
 )
 {
 ARDAppClient
@@ -3346,7 +3346,7 @@ didCreateSessionDescription
 sdp
 error
 :
-error
+answerError
 ]
 ;
 }
@@ -4609,7 +4609,7 @@ RTC_OBJC_TYPE
 RTCAudioTrack
 )
 *
-track
+audioTrack
 =
 [
 _factory
@@ -4625,7 +4625,7 @@ kARDAudioTrackId
 _peerConnection
 addTrack
 :
-track
+audioTrack
 streamIds
 :
 [
@@ -4719,7 +4719,7 @@ RTC_OBJC_TYPE
 RTCVideoTrack
 )
 *
-track
+videoTrack
 =
 (
 RTC_OBJC_TYPE
@@ -4746,7 +4746,7 @@ appClient
 self
 didReceiveRemoteVideoTrack
 :
-track
+videoTrack
 ]
 ;
 }

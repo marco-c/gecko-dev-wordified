@@ -685,6 +685,7 @@ break
 case
 kRtpExtensionTransmissionTimeOffset
 :
+{
 int32_t
 offset
 ;
@@ -701,6 +702,7 @@ offset
 ;
 break
 ;
+}
 case
 kRtpExtensionAudioLevel
 :
@@ -801,6 +803,7 @@ break
 case
 kRtpExtensionVideoRotation
 :
+{
 uint8_t
 rotation
 ;
@@ -817,9 +820,11 @@ rotation
 ;
 break
 ;
+}
 case
 kRtpExtensionTransportSequenceNumber
 :
+{
 uint16_t
 seqnum
 ;
@@ -836,6 +841,7 @@ seqnum
 ;
 break
 ;
+}
 case
 kRtpExtensionTransportSequenceNumber02
 :
@@ -892,6 +898,7 @@ break
 case
 kRtpExtensionVideoContentType
 :
+{
 VideoContentType
 content_type
 ;
@@ -908,6 +915,7 @@ content_type
 ;
 break
 ;
+}
 case
 kRtpExtensionVideoTiming
 :

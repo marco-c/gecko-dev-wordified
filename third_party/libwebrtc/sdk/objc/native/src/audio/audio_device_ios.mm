@@ -4682,7 +4682,7 @@ RTC_OBJC_TYPE
 RTCAudioSession
 )
 *
-session
+new_session
 =
 [
 RTC_OBJC_TYPE
@@ -4693,7 +4693,7 @@ sharedInstance
 ]
 ;
 [
-session
+new_session
 notifyAudioUnitStartFailedWithError
 :
 result
