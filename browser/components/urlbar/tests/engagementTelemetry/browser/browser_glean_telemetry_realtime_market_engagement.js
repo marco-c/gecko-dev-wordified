@@ -220,8 +220,6 @@ querySelector
 .
 urlbarView
 -
-dynamic
--
 market
 -
 item
