@@ -374,10 +374,6 @@ metric
 test_get_value
 (
 storage
-.
-as_deref
-(
-)
 )
 .
 is_some
@@ -553,10 +549,6 @@ metric
 test_get_value_as_str
 (
 storage
-.
-as_deref
-(
-)
 )
 {
 value
