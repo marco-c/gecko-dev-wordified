@@ -155,6 +155,9 @@ in
 -
 title
 "
+cacheable
+:
+true
 }
 descriptionL10n
 :
@@ -174,6 +177,12 @@ in
 -
 description
 "
+cacheable
+:
+true
+parseMarkup
+:
+true
 }
 }
 }
