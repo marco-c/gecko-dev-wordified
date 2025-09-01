@@ -1609,56 +1609,56 @@ recoveryPath
         
 print
 (
+f
 "
 Recovery
 name
 :
-%
-s
-"
-%
+{
 newProfileName
+}
+"
 )
         
 print
 (
+f
 "
 Recovery
 path
 :
-%
-s
-"
-%
+{
 newProfilePath
+}
+"
 )
         
 print
 (
+f
 "
 Expected
 clientID
 :
-%
-s
-"
-%
+{
 expectedClientID
+}
+"
 )
         
 print
 (
+f
 "
 Persisting
 fake
 OSKeyStore
 label
 :
-%
-s
-"
-%
+{
 osKeyStoreLabel
+}
+"
 )
         
 self
@@ -2554,12 +2554,23 @@ outerResolve
         
 )
         
+#
+Expect
+cookies
+to
+be
+removed
+from
+the
+backup
+.
+        
 self
 .
 assertEqual
 (
 cookiesLength
-1
+0
 )
     
 def
