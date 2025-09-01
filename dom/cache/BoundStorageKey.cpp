@@ -1342,6 +1342,8 @@ MOZ_ASSERT
 mCacheStorageChild
 )
 ;
+/
+/
 AutoChildOpArgs
 args
 (
@@ -1352,6 +1354,8 @@ mArgs
 1
 )
 ;
+/
+/
 RefPtr
 <
 CacheStoragePromise
@@ -1367,6 +1371,8 @@ forget
 )
 }
 ;
+/
+/
 mCacheStorageChild
 -
 >
