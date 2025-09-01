@@ -3526,6 +3526,11 @@ CSSLayerStatementRule
 webidl
 "
 "
+CSSLCH
+.
+webidl
+"
+"
 CSSMarginRule
 .
 webidl
