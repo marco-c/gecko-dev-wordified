@@ -362,6 +362,10 @@ CheckPlatform
 int32_t
 CreatePlatformSpecificObjects
 (
+const
+Environment
+&
+env
 )
 ;
 int32_t
