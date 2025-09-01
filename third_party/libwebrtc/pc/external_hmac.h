@@ -354,8 +354,8 @@ a
 template
 context
 .
-typedef
 struct
+ExternalHmacContext
 {
 uint8_t
 key
@@ -367,7 +367,6 @@ int
 key_length
 ;
 }
-ExternalHmacContext
 ;
 srtp_err_status_t
 external_hmac_alloc
