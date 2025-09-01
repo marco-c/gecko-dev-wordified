@@ -88,8 +88,6 @@ context
 "
 ]
         
-page_beforeunload
-=
 await
 setup_beforeunload_page
 (
@@ -203,6 +201,7 @@ execute_as_async
 sync_navigate
 )
 )
+        
 )
         
 #
