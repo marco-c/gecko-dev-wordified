@@ -4614,6 +4614,15 @@ prefix
 >
 "
 ;
+gc
+:
+:
+AutoPrepareForTracing
+session
+(
+cx
+)
+;
 IterateHeapUnbarriered
 (
 cx
@@ -4623,6 +4632,7 @@ DumpHeapVisitZone
 DumpHeapVisitRealm
 DumpHeapVisitArena
 DumpHeapVisitCell
+session
 )
 ;
 fflush
