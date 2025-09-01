@@ -754,7 +754,7 @@ undef
 DEFINE_METRIC
 #
 undef
-ASSIGN_METRIC
+DEFINE_SETTER
 }
 /
 /
