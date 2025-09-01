@@ -863,6 +863,9 @@ CFArrayGetCount
 ct_font_desc_array
 )
 >
+(
+CFIndex
+)
 named_instance_index
 )
 ?
@@ -872,6 +875,9 @@ CTFontDescriptorRef
 CFArrayGetValueAtIndex
 (
 ct_font_desc_array
+(
+CFIndex
+)
 named_instance_index
 )
 :
