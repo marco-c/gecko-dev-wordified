@@ -2111,7 +2111,7 @@ LocalMediaDeviceSetRefCnt
 aDevices
 )
 ;
-void
+nsresult
 GetPref
 (
 nsIPrefBranch
@@ -2130,7 +2130,7 @@ int32_t
 aVal
 )
 ;
-void
+nsresult
 GetPrefBool
 (
 nsIPrefBranch
