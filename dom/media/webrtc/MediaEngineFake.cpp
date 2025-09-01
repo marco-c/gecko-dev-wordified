@@ -626,6 +626,8 @@ layers
 Image
 >
 aImage
+TimeStamp
+aTime
 )
 ;
 /
@@ -1790,6 +1792,8 @@ layers
 Image
 >
 aImage
+TimeStamp
+aTime
 )
 {
 VideoSegment
@@ -1817,6 +1821,14 @@ mOpts
 mHeight
 )
 mPrincipalHandle
+/
+*
+aForceBlack
+=
+*
+/
+false
+aTime
 )
 ;
 mTrack
