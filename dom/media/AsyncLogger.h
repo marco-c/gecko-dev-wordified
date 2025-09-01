@@ -159,7 +159,7 @@ mozilla
 /
 dom
 /
-MPSCQueue
+UnboundedMPSCQueue
 .
 h
 "
@@ -892,7 +892,7 @@ static_assert
 (
 sizeof
 (
-MPSCQueue
+UnboundedMPSCQueue
 <
 TracePayload
 >
@@ -904,7 +904,7 @@ Message
 =
 PAYLOAD_TOTAL_SIZE
 "
-MPSCQueue
+UnboundedMPSCQueue
 internal
 allocations
 has
@@ -1021,7 +1021,7 @@ auto
 msg
 =
 new
-MPSCQueue
+UnboundedMPSCQueue
 <
 TracePayload
 >
@@ -1237,7 +1237,7 @@ auto
 msg
 =
 new
-MPSCQueue
+UnboundedMPSCQueue
 <
 TracePayload
 >
@@ -1977,7 +1977,7 @@ thread
 >
 mThread
 ;
-MPSCQueue
+UnboundedMPSCQueue
 <
 TracePayload
 >
