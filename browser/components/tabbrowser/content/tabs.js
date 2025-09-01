@@ -1360,7 +1360,9 @@ aria
 -
 label
 "
-GetDynamicShortcutTooltipText
+DynamicShortcutTooltip
+.
+getText
 (
 "
 tabs
@@ -12695,6 +12697,8 @@ menu
 Update
 tooltip
 text
+DynamicShortcutTooltip
+.
 nodeToTooltipMap
 [
 parent
@@ -12719,6 +12723,8 @@ tooltip
 }
 else
 {
+DynamicShortcutTooltip
+.
 nodeToTooltipMap
 [
 parent
@@ -12757,7 +12763,9 @@ evict
 from
 tooltip
 cache
-gDynamicTooltipCache
+DynamicShortcutTooltip
+.
+cache
 .
 delete
 (
