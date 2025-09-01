@@ -105,6 +105,14 @@ mozbuild
 DEFINES
 [
 "
+ENABLE_SET_CUBEB_BACKEND
+"
+]
+=
+True
+DEFINES
+[
+"
 VISIBLE_TIMEUNIT_INTERNALS
 "
 ]
@@ -184,6 +192,11 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+MockCubeb
+.
+cpp
+"
 "
 MockMediaResource
 .
