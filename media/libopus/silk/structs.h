@@ -2174,7 +2174,7 @@ LTP_ORDER
 /
 *
 LTP
-coeficients
+coefficients
 to
 use
 for

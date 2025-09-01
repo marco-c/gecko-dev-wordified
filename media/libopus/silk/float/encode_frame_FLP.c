@@ -3802,7 +3802,7 @@ nBits_lower
 *
 New
 gain
-multplier
+multiplier
 must
 be
 between

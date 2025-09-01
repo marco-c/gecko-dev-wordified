@@ -985,7 +985,7 @@ silk_TargetRate_WB_21
 Control
 SNR
 of
-redidual
+residual
 quantizer
 *
 /

@@ -1317,7 +1317,7 @@ structure
 Control
 SNR
 of
-redidual
+residual
 quantizer
 *
 /

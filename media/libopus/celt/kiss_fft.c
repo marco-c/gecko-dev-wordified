@@ -353,7 +353,7 @@ numbers
 .
 It
 also
-delares
+declares
 the
 kf_
 internal

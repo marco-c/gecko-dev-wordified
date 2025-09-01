@@ -8231,7 +8231,7 @@ frame_size_ms_Q1
 *
 number
 of
-miliseconds
+milliseconds
 in
 this
 update

@@ -660,7 +660,7 @@ encoder
 the
 number
 of
-oustanding
+outstanding
 carry
 propagating
 symbols

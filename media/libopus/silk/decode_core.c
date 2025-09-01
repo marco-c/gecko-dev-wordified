@@ -1111,7 +1111,7 @@ k
 *
 Preload
 LPC
-coeficients
+coefficients
 to
 array
 on

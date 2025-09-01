@@ -734,7 +734,7 @@ ltp_mem_length
 Estimate
 LPC
 AR
-coeficients
+coefficients
 *
 /
 /

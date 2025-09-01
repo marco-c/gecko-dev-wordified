@@ -1631,7 +1631,7 @@ opus_int16
 *
 Save
 LPC
-coeficients
+coefficients
 *
 /
 silk_memcpy
@@ -2458,7 +2458,7 @@ BWE_COEF
 *
 Preload
 LPC
-coeficients
+coefficients
 to
 array
 on

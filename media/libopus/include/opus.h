@@ -4572,6 +4572,8 @@ Number
 of
 decoded
 samples
+per
+channel
 or
 ref
 opus_errorcodes
@@ -5241,6 +5243,8 @@ Number
 of
 decoded
 samples
+per
+channel
 or
 ref
 opus_errorcodes
@@ -8086,7 +8090,7 @@ streams
 It
 will
 not
-manipualte
+manipulate
 multistream
 packets
 successfully

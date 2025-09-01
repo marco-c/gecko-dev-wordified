@@ -312,7 +312,7 @@ frequency
 information
 must
 be
-discernable
+discernible
 by
 the
 decoder
@@ -1153,7 +1153,7 @@ to
 encode
 .
 All
-reamining
+remaining
 output
 bytes
 are

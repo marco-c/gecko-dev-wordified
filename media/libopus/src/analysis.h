@@ -550,7 +550,7 @@ Fs
 Reset
 a
 TonalityAnalysisState
-stuct
+struct
 .
 *
 *

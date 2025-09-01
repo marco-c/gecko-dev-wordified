@@ -1586,7 +1586,7 @@ lagIndex
 ;
 /
 *
-Countour
+Contour
 index
 *
 /
