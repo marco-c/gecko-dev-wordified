@@ -191,6 +191,11 @@ CSSPerspective
 h
 "
 "
+CSSRGB
+.
+h
+"
+"
 CSSRotate
 .
 h
@@ -337,6 +342,11 @@ cpp
 "
 "
 CSSPerspective
+.
+cpp
+"
+"
+CSSRGB
 .
 cpp
 "
