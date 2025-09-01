@@ -724,17 +724,6 @@ mozilla
 /
 dom
 /
-TimeoutHandler
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 TimeoutManager
 .
 h

@@ -475,13 +475,6 @@ h
 #
 include
 "
-nsGlobalWindowInner
-.
-h
-"
-#
-include
-"
 nsIAuthPrompt
 .
 h
