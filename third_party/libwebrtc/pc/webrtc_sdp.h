@@ -228,11 +228,9 @@ h
 #
 include
 "
-media
+api
 /
-base
-/
-codec
+rtp_parameters
 .
 h
 "
@@ -833,9 +831,6 @@ bool
 WriteFmtpParameters
 (
 const
-webrtc
-:
-:
 CodecParameterMap
 &
 parameters
@@ -868,9 +863,6 @@ absl
 :
 string_view
 line_params
-webrtc
-:
-:
 CodecParameterMap
 &
 codec_params
