@@ -27356,12 +27356,15 @@ the
 FinishBailoutToBaseline
 call
 .
-pushFrameDescriptor
+push
+(
+FrameDescriptor
 (
 FrameType
 :
 :
 BaselineJS
+)
 )
 ;
 push

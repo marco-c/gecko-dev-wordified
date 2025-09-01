@@ -968,12 +968,15 @@ FrameSize
 ;
 masm
 .
-PushFrameDescriptor
+Push
+(
+FrameDescriptor
 (
 FrameType
 :
 :
 TrampolineNative
+)
 )
 ;
 masm
