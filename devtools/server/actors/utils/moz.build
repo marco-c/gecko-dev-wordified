@@ -153,6 +153,13 @@ loop
 js
 "
 "
+HTMLSourcesCache
+.
+sys
+.
+mjs
+"
+"
 inactive
 -
 property
