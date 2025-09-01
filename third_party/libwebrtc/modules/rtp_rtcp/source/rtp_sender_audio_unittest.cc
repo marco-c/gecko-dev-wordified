@@ -345,9 +345,6 @@ class
 LoopbackTransportTest
 :
 public
-webrtc
-:
-:
 Transport
 {
 public

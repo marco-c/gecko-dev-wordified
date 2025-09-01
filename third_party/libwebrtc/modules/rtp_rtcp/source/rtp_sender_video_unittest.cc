@@ -983,9 +983,6 @@ class
 LoopbackTransportTest
 :
 public
-webrtc
-:
-:
 Transport
 {
 public
@@ -10588,9 +10585,6 @@ encoded_image
 >
 SetEncodedData
 (
-webrtc
-:
-:
 EncodedImageBuffer
 :
 :

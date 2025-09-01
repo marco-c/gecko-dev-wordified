@@ -512,9 +512,6 @@ class
 RtxLoopBackTransport
 :
 public
-webrtc
-:
-:
 Transport
 {
 public
