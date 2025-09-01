@@ -753,14 +753,9 @@ formSubmittedPromise
 =
 listenForTestNotification
 (
-[
-"
-FormProcessed
-"
 "
 ShowDoorhanger
 "
-]
 )
 ;
 let

@@ -514,14 +514,9 @@ processedPromise
 =
 listenForTestNotification
 (
-[
-"
-FormProcessed
-"
 "
 ShowDoorhanger
 "
-]
 )
 ;
 SpecialPowers

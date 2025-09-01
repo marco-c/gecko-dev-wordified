@@ -765,14 +765,9 @@ formSubmittedPromise
 =
 listenForTestNotification
 (
-[
-"
-FormProcessed
-"
 "
 ShowDoorhanger
 "
-]
 )
 ;
 await
