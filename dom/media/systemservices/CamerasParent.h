@@ -1006,8 +1006,10 @@ OnShutdown
 ;
 nsTArray
 <
+UniquePtr
+<
 CallbackHelper
-*
+>
 >
 mCallbacks
 ;
