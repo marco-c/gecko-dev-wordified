@@ -412,6 +412,12 @@ QuickSuggestTestUtils
 .
 ampResult
 (
+{
+suggestedIndex
+:
+-
+1
+}
 )
 makeExpectedExposureResult
 (

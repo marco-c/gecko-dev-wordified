@@ -166,6 +166,10 @@ ampResult
 keyword
 :
 SEARCH_STRING
+suggestedIndex
+:
+-
+1
 }
 )
 ;
@@ -192,6 +196,10 @@ requestId
 "
 request_id
 "
+suggestedIndex
+:
+-
+1
 }
 )
 ;
@@ -1410,6 +1418,10 @@ provider
 "
 adm
 "
+suggestedIndex
+:
+-
+1
 }
 )
 ]
@@ -2043,6 +2055,10 @@ requestId
 "
 request_id
 "
+suggestedIndex
+:
+-
+1
 }
 )
 ;
