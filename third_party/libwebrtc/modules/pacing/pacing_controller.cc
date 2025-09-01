@@ -1567,7 +1567,7 @@ Bytes
 packet
 -
 >
-payload_size
+size
 (
 )
 )
