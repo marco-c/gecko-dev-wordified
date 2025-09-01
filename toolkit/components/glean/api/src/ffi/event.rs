@@ -668,10 +668,6 @@ m
 test_get_value
 (
 storage
-.
-as_deref
-(
-)
 )
 .
 is_some
@@ -1061,10 +1057,6 @@ m
 test_get_value
 (
 storage
-.
-as_deref
-(
-)
 )
 None
 =
