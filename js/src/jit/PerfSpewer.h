@@ -180,6 +180,10 @@ struct
 CodeMetadata
 ;
 }
+/
+/
+namespace
+wasm
 namespace
 jit
 {
