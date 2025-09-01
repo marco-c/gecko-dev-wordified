@@ -121,6 +121,11 @@ CSSColorValue
 h
 "
 "
+CSSHSL
+.
+h
+"
+"
 CSSImageValue
 .
 h
@@ -272,6 +277,11 @@ UNIFIED_SOURCES
 [
 "
 CSSColorValue
+.
+cpp
+"
+"
+CSSHSL
 .
 cpp
 "
