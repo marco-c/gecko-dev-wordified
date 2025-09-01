@@ -2520,6 +2520,11 @@ ISOLATED
 persistAcrossSessions
 :
 true
+cssOrigin
+:
+"
+author
+"
 js
 :
 [

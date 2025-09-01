@@ -533,6 +533,11 @@ MAIN
 persistAcrossSessions
 :
 false
+cssOrigin
+:
+"
+author
+"
 css
 :
 [
