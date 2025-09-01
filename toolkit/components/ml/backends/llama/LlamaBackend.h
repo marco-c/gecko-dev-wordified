@@ -591,6 +591,16 @@ const
 LlamaModelOptions
 &
 aOptions
+const
+mozilla
+:
+:
+Span
+<
+const
+uint8_t
+>
+aModelBuffer
 )
 ;
 /
