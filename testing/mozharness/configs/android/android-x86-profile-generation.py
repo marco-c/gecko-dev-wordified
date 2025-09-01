@@ -59,8 +59,6 @@ configuration
 for
 Android
 x86
-/
-arm
 unit
 tests
 #
