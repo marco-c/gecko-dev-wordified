@@ -854,6 +854,10 @@ universal_newlines
 True
         
 )
+.
+rstrip
+(
+)
         
 git_path
 =
