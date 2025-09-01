@@ -357,9 +357,6 @@ by
 default
 .
 const
-webrtc
-:
-:
 SdpAudioFormat
 kDefaultFormat
 (

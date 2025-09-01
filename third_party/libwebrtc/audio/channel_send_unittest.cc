@@ -937,9 +937,6 @@ CreateAudioFrame
 GlobalSimulatedTimeController
 time_controller_
 ;
-webrtc
-:
-:
 test
 :
 :

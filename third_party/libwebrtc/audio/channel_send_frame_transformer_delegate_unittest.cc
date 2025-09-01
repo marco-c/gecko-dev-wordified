@@ -331,9 +331,6 @@ uint8_t
 payloadType
 uint32_t
 rtp_timestamp
-webrtc
-:
-:
 ArrayView
 <
 const
@@ -342,9 +339,6 @@ uint8_t
 payload
 int64_t
 absolute_capture_timestamp_ms
-webrtc
-:
-:
 ArrayView
 <
 const
@@ -743,9 +737,6 @@ WrapUnique
 (
 static_cast
 <
-webrtc
-:
-:
 TransformableAudioFrameInterface
 *
 >
