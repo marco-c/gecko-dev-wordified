@@ -388,7 +388,10 @@ test_startQuery_adds_results
 const
 provider
 =
+new
 UrlbarProviderSemanticHistorySearch
+(
+)
 ;
 const
 queryContext
@@ -785,7 +788,10 @@ test_isActive_conditions
 const
 provider
 =
+new
 UrlbarProviderSemanticHistorySearch
+(
+)
 ;
 /
 /
@@ -1250,7 +1256,10 @@ url2
 const
 provider
 =
+new
 UrlbarProviderSemanticHistorySearch
+(
+)
 ;
 /
 /

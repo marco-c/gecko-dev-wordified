@@ -4733,6 +4733,14 @@ enabled
 }
 )
 ;
+let
+provider
+=
+new
+UrlbarProviderUnitConversion
+(
+)
+;
 for
 (
 const
@@ -4809,7 +4817,7 @@ const
 isActive
 =
 await
-UrlbarProviderUnitConversion
+provider
 .
 isActive
 (
@@ -4836,7 +4844,7 @@ if
 isActive
 )
 {
-UrlbarProviderUnitConversion
+provider
 .
 startQuery
 (

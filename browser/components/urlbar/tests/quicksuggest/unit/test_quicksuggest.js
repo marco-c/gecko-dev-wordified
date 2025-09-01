@@ -2871,7 +2871,14 @@ ok
 !
 (
 await
+UrlbarProvidersManager
+.
+getProvider
+(
 UrlbarProviderQuickSuggest
+.
+name
+)
 .
 isActive
 (

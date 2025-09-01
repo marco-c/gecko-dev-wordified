@@ -952,6 +952,18 @@ payload
 }
 }
 ;
+let
+quickSuggestProviderInstance
+=
+UrlbarProvidersManager
+.
+getProvider
+(
+UrlbarProviderQuickSuggest
+.
+name
+)
+;
 switch
 (
 state
@@ -962,7 +974,7 @@ case
 engagement
 "
 :
-UrlbarProviderQuickSuggest
+quickSuggestProviderInstance
 .
 onEngagement
 (
@@ -971,7 +983,7 @@ controller
 details
 )
 ;
-UrlbarProviderQuickSuggest
+quickSuggestProviderInstance
 .
 onSearchSessionEnd
 (
@@ -987,7 +999,7 @@ case
 abandonment
 "
 :
-UrlbarProviderQuickSuggest
+quickSuggestProviderInstance
 .
 onSearchSessionEnd
 (

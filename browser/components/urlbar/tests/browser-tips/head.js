@@ -4807,7 +4807,14 @@ REDIRECT
 }
 )
 ;
+UrlbarProvidersManager
+.
+getProvider
+(
+"
 UrlbarProviderSearchTips
+"
+)
 .
 disableTipsForCurrentSession
 =

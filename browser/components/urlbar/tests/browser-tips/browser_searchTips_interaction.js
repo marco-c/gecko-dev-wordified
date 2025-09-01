@@ -309,6 +309,18 @@ nz
 "
 ]
 ;
+let
+tipsProviderInstance
+=
+UrlbarProvidersManager
+.
+getProvider
+(
+"
+UrlbarProviderSearchTips
+"
+)
+;
 add_setup
 (
 async
@@ -645,7 +657,7 @@ pickButton_onboard
 (
 )
 {
-UrlbarProviderSearchTips
+tipsProviderInstance
 .
 disableTipsForCurrentSession
 =
@@ -857,7 +869,7 @@ pickButton_redirect
 (
 )
 {
-UrlbarProviderSearchTips
+tipsProviderInstance
 .
 disableTipsForCurrentSession
 =
@@ -1100,7 +1112,7 @@ clickInInput_onboard
 (
 )
 {
-UrlbarProviderSearchTips
+tipsProviderInstance
 .
 disableTipsForCurrentSession
 =
@@ -1293,7 +1305,7 @@ openLocation_onboard
 (
 )
 {
-UrlbarProviderSearchTips
+tipsProviderInstance
 .
 disableTipsForCurrentSession
 =
@@ -1483,7 +1495,7 @@ clickInInput_redirect
 (
 )
 {
-UrlbarProviderSearchTips
+tipsProviderInstance
 .
 disableTipsForCurrentSession
 =
@@ -1706,7 +1718,7 @@ openLocation_redirect
 (
 )
 {
-UrlbarProviderSearchTips
+tipsProviderInstance
 .
 disableTipsForCurrentSession
 =
@@ -1902,7 +1914,7 @@ pickingTipDoesNotDisableOtherKinds
 (
 )
 {
-UrlbarProviderSearchTips
+tipsProviderInstance
 .
 disableTipsForCurrentSession
 =
@@ -2064,7 +2076,7 @@ a
 new
 session
 .
-UrlbarProviderSearchTips
+tipsProviderInstance
 .
 disableTipsForCurrentSession
 =
@@ -2382,7 +2394,7 @@ newtab
 "
 )
 ;
-UrlbarProviderSearchTips
+tipsProviderInstance
 .
 disableTipsForCurrentSession
 =
@@ -2670,7 +2682,7 @@ Assert
 .
 equal
 (
-UrlbarProviderSearchTips
+tipsProviderInstance
 .
 showedTipTypeInCurrentEngagement
 UrlbarProviderSearchTips
@@ -2799,7 +2811,7 @@ searchString
 expectedURL
 )
 {
-UrlbarProviderSearchTips
+tipsProviderInstance
 .
 disableTipsForCurrentSession
 =
