@@ -18295,8 +18295,11 @@ isEmpty
 nsRect
 clipRect
 ;
-nsRectCornerRadii
+nscoord
 radii
+[
+8
+]
 ;
 bool
 haveRadii
@@ -18323,7 +18326,6 @@ this
 )
 haveRadii
 ?
-&
 radii
 :
 nullptr
