@@ -57409,11 +57409,6 @@ nsIChannelEventSink
 :
 :
 REDIRECT_INTERNAL
-|
-nsIChannelEventSink
-:
-:
-REDIRECT_TRANSPARENT
 passDomainCategory
 )
 ;
