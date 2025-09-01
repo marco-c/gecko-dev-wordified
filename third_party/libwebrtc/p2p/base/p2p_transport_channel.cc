@@ -8885,7 +8885,7 @@ candidate
 CreateConnections
 (
 new_remote_candidate
-NULL
+nullptr
 )
 ;
 /
@@ -9388,7 +9388,7 @@ if
 origin_port
 !
 =
-NULL
+nullptr
 )
 &
 &

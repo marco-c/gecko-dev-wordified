@@ -1172,7 +1172,7 @@ WriteBack
 (
 data
 size
-NULL
+nullptr
 )
 ;
 if

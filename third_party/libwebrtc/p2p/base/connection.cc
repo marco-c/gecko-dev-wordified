@@ -4971,7 +4971,7 @@ RTC_DCHECK
 username_attr
 !
 =
-NULL
+nullptr
 )
 ;
 if
@@ -4979,7 +4979,7 @@ if
 username_attr
 =
 =
-NULL
+nullptr
 )
 {
 /

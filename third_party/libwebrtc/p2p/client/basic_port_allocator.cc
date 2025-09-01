@@ -6610,7 +6610,7 @@ RTC_DCHECK
 data
 !
 =
-NULL
+nullptr
 )
 ;
 RTC_LOG
@@ -7778,7 +7778,7 @@ RTC_DCHECK
 data
 !
 =
-NULL
+nullptr
 )
 ;
 /
@@ -7894,7 +7894,7 @@ RTC_DCHECK
 data
 !
 =
-NULL
+nullptr
 )
 ;
 /
@@ -8527,7 +8527,7 @@ it
 }
 }
 return
-NULL
+nullptr
 ;
 }
 std
@@ -8903,7 +8903,7 @@ udp_socket_
 )
 udp_port_
 (
-NULL
+nullptr
 )
 phase_
 (
@@ -9070,7 +9070,7 @@ Clear
 ;
 udp_port_
 =
-NULL
+nullptr
 ;
 relay_ports_
 .
@@ -11924,7 +11924,7 @@ RTC_DCHECK
 port
 !
 =
-NULL
+nullptr
 )
 ;
 port
@@ -12244,7 +12244,7 @@ port
 {
 udp_port_
 =
-NULL
+nullptr
 ;
 return
 ;

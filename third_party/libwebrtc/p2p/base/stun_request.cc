@@ -2075,7 +2075,7 @@ RTC_DCHECK
 msg_
 !
 =
-NULL
+nullptr
 )
 ;
 return

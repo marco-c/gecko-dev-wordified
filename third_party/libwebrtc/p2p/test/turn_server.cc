@@ -681,11 +681,11 @@ kNonceKeySize
 )
 auth_hook_
 (
-NULL
+nullptr
 )
 redirect_hook_
 (
-NULL
+nullptr
 )
 enable_otu_nonce_
 (
@@ -1059,7 +1059,7 @@ if
 accepted_socket
 !
 =
-NULL
+nullptr
 )
 {
 const
@@ -1527,7 +1527,7 @@ if
 redirect_hook_
 !
 =
-NULL
+nullptr
 &
 &
 msg
@@ -1894,7 +1894,7 @@ return
 auth_hook_
 !
 =
-NULL
+nullptr
 &
 &
 auth_hook_
@@ -2853,7 +2853,7 @@ external_addr_
 0
 )
 :
-NULL
+nullptr
 ;
 if
 (
@@ -2862,7 +2862,7 @@ external_socket
 )
 {
 return
-NULL
+nullptr
 ;
 }
 /
@@ -3991,7 +3991,7 @@ RTC_DCHECK
 msg
 !
 =
-NULL
+nullptr
 )
 ;
 switch
@@ -4150,7 +4150,7 @@ RTC_DCHECK
 username_attr
 !
 =
-NULL
+nullptr
 )
 ;
 username_

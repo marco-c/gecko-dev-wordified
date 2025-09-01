@@ -1521,7 +1521,7 @@ dir
 )
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -2603,7 +2603,7 @@ ASSERT_TRUE
 socket_
 !
 =
-NULL
+nullptr
 )
 ;
 socket_
@@ -4902,7 +4902,7 @@ ASSERT_TRUE
 conn1
 !
 =
-NULL
+nullptr
 )
 ;
 conn1
@@ -4990,7 +4990,7 @@ ASSERT_TRUE
 conn2
 !
 =
-NULL
+nullptr
 )
 ;
 ASSERT_THAT
@@ -5319,7 +5319,7 @@ ASSERT_TRUE
 conn2
 !
 =
-NULL
+nullptr
 )
 ;
 ASSERT_THAT
@@ -6016,7 +6016,7 @@ ASSERT_TRUE
 conn1
 !
 =
-NULL
+nullptr
 )
 ;
 ASSERT_TRUE
@@ -6024,7 +6024,7 @@ ASSERT_TRUE
 conn2
 !
 =
-NULL
+nullptr
 )
 ;
 conn1
@@ -6641,7 +6641,7 @@ ASSERT_TRUE
 conn1
 !
 =
-NULL
+nullptr
 )
 ;
 ASSERT_TRUE
@@ -6649,7 +6649,7 @@ ASSERT_TRUE
 conn2
 !
 =
-NULL
+nullptr
 )
 ;
 conn1
@@ -11540,7 +11540,7 @@ ASSERT_TRUE
 conn1
 !
 =
-NULL
+nullptr
 )
 ;
 ASSERT_TRUE
@@ -11548,7 +11548,7 @@ ASSERT_TRUE
 conn2
 !
 =
-NULL
+nullptr
 )
 ;
 /
@@ -11748,7 +11748,7 @@ ASSERT_TRUE
 conn1
 !
 =
-NULL
+nullptr
 )
 ;
 /
@@ -11803,7 +11803,7 @@ ASSERT_TRUE
 conn1
 =
 =
-NULL
+nullptr
 )
 ;
 }
@@ -12690,7 +12690,7 @@ ASSERT_TRUE
 conn
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_THAT

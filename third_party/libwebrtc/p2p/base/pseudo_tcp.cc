@@ -7316,7 +7316,7 @@ seg
 .
 len
 nOffset
-NULL
+nullptr
 )
 )
 {

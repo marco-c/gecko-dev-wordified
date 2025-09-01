@@ -1839,7 +1839,7 @@ ASSERT_TRUE
 socket_
 !
 =
-NULL
+nullptr
 )
 ;
 socket_
@@ -1964,7 +1964,7 @@ ASSERT_TRUE
 stun_port_
 !
 =
-NULL
+nullptr
 )
 ;
 stun_port_
@@ -2144,7 +2144,7 @@ webrtc
 :
 InitRandom
 (
-NULL
+nullptr
 0
 )
 ;

@@ -805,7 +805,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 vss_

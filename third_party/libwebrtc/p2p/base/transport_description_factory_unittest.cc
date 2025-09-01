@@ -453,7 +453,7 @@ ASSERT_TRUE
 desc
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -576,7 +576,7 @@ get
 )
 =
 =
-NULL
+nullptr
 )
 ;
 }
@@ -594,7 +594,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ
@@ -748,7 +748,7 @@ f1_
 CreateOffer
 (
 options
-NULL
+nullptr
 &
 ice_credentials_
 )
@@ -773,7 +773,7 @@ get
 )
 options
 true
-NULL
+nullptr
 &
 ice_credentials_
 )
@@ -896,7 +896,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 VerifyUfragAndPasswordChanged
@@ -1452,7 +1452,7 @@ CreateOffer
 TransportOptions
 (
 )
-NULL
+nullptr
 &
 ice_credentials_
 )
@@ -1516,7 +1516,7 @@ CreateOffer
 TransportOptions
 (
 )
-NULL
+nullptr
 &
 ice_credentials_
 )
@@ -1530,7 +1530,7 @@ get
 )
 =
 =
-NULL
+nullptr
 )
 ;
 }
@@ -1604,7 +1604,7 @@ CreateOffer
 TransportOptions
 (
 )
-NULL
+nullptr
 &
 ice_credentials_
 )
@@ -1618,7 +1618,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 std
@@ -1711,7 +1711,7 @@ CreateOffer
 TransportOptions
 (
 )
-NULL
+nullptr
 &
 ice_credentials_
 )
@@ -1725,7 +1725,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 std
@@ -1750,7 +1750,7 @@ TransportOptions
 (
 )
 true
-NULL
+nullptr
 &
 ice_credentials_
 )
@@ -1786,7 +1786,7 @@ TransportOptions
 (
 )
 true
-NULL
+nullptr
 &
 ice_credentials_
 )
@@ -1870,7 +1870,7 @@ CreateOffer
 TransportOptions
 (
 )
-NULL
+nullptr
 &
 ice_credentials_
 )
@@ -1884,7 +1884,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 std
@@ -1909,7 +1909,7 @@ TransportOptions
 (
 )
 true
-NULL
+nullptr
 &
 ice_credentials_
 )
@@ -1923,7 +1923,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 std
@@ -1966,7 +1966,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 CheckDesc
@@ -2040,7 +2040,7 @@ CreateOffer
 TransportOptions
 (
 )
-NULL
+nullptr
 &
 ice_credentials_
 )
@@ -2054,7 +2054,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 std
@@ -2079,7 +2079,7 @@ TransportOptions
 (
 )
 true
-NULL
+nullptr
 &
 ice_credentials_
 )
@@ -2162,7 +2162,7 @@ CreateOffer
 TransportOptions
 (
 )
-NULL
+nullptr
 &
 ice_credentials_
 )
@@ -2176,7 +2176,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 /
@@ -2206,7 +2206,7 @@ TransportOptions
 (
 )
 true
-NULL
+nullptr
 &
 ice_credentials_
 )
@@ -2220,7 +2220,7 @@ get
 )
 =
 =
-NULL
+nullptr
 )
 ;
 /
@@ -2249,7 +2249,7 @@ TransportOptions
 (
 )
 true
-NULL
+nullptr
 &
 ice_credentials_
 )
@@ -2368,7 +2368,7 @@ CreateOffer
 TransportOptions
 (
 )
-NULL
+nullptr
 &
 ice_credentials_
 )
@@ -2382,7 +2382,7 @@ get
 )
 !
 =
-NULL
+nullptr
 )
 ;
 std
@@ -2407,7 +2407,7 @@ TransportOptions
 (
 )
 true
-NULL
+nullptr
 &
 ice_credentials_
 )
@@ -2449,7 +2449,7 @@ TransportOptions
 (
 )
 true
-NULL
+nullptr
 &
 ice_credentials_
 )

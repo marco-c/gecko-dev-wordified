@@ -1322,7 +1322,7 @@ second
 ;
 else
 return
-NULL
+nullptr
 ;
 }
 void
@@ -2865,7 +2865,7 @@ RTC_DCHECK
 out_msg
 !
 =
-NULL
+nullptr
 )
 ;
 RTC_DCHECK
@@ -2873,7 +2873,7 @@ RTC_DCHECK
 out_username
 !
 =
-NULL
+nullptr
 )
 ;
 out_username
@@ -4675,7 +4675,7 @@ if
 username_attr
 =
 =
-NULL
+nullptr
 )
 return
 false

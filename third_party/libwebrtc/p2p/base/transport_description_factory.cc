@@ -414,7 +414,7 @@ CONNECTIONROLE_ACTPASS
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -499,7 +499,7 @@ NULL
 "
 ;
 return
-NULL
+nullptr
 ;
 }
 auto
@@ -743,7 +743,7 @@ settings
 "
 ;
 return
-NULL
+nullptr
 ;
 }
 /
@@ -961,7 +961,7 @@ RTC_DCHECK_NOTREACHED
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -979,7 +979,7 @@ role
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
