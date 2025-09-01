@@ -94,6 +94,11 @@ VIDEO_RATE_UTILIZATION_TRACKER_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
 deque
 >
 #

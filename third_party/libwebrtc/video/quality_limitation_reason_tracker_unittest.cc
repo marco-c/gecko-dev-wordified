@@ -93,6 +93,11 @@ h
 "
 #
 include
+<
+cstdint
+>
+#
+include
 "
 common_video
 /

@@ -155,15 +155,6 @@ include
 "
 test
 /
-gmock
-.
-h
-"
-#
-include
-"
-test
-/
 gtest
 .
 h

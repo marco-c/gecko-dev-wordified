@@ -91,6 +91,11 @@ VIDEO_ADAPTATION_BITRATE_CONSTRAINT_H_
 #
 include
 <
+cstdint
+>
+#
+include
+<
 optional
 >
 #
@@ -159,6 +164,15 @@ rtc_base
 system
 /
 no_unique_address
+.
+h
+"
+#
+include
+"
+rtc_base
+/
+thread_annotations
 .
 h
 "

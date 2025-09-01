@@ -102,6 +102,17 @@ optional
 #
 include
 "
+api
+/
+video
+/
+video_codec_type
+.
+h
+"
+#
+include
+"
 test
 /
 gtest

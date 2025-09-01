@@ -91,6 +91,11 @@ VIDEO_QUALITY_LIMITATION_REASON_TRACKER_H_
 #
 include
 <
+cstdint
+>
+#
+include
+<
 map
 >
 #

@@ -96,6 +96,11 @@ h
 "
 #
 include
+<
+cstdint
+>
+#
+include
 "
 test
 /
