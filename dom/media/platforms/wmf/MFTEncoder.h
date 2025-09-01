@@ -390,6 +390,12 @@ UINT32
 aBitsPerSec
 )
 ;
+bool
+IsHardwareAccelerated
+(
+)
+const
+;
 RefPtr
 <
 EncodePromise
