@@ -2804,7 +2804,7 @@ resize_mode
 .
 enabled
 "
-false
+true
 )
 ;
 pref
@@ -2818,7 +2818,7 @@ video
 .
 default_resize_mode
 "
-0
+1
 )
 ;
 /
