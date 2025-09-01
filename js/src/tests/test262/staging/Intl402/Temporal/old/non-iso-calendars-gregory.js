@@ -324,7 +324,7 @@ year2000
 era
 :
 "
-gregory
+ce
 "
 eraYear
 :
@@ -350,7 +350,7 @@ year1
 era
 :
 "
-gregory
+ce
 "
 eraYear
 :
@@ -965,7 +965,7 @@ result
 era
 :
 "
-gregory
+ce
 "
 eraYear
 :
@@ -1015,7 +1015,7 @@ result
 era
 :
 "
-gregory
+ce
 "
 eraYear
 :
@@ -1065,7 +1065,7 @@ result
 era
 :
 "
-gregory
+ce
 "
 eraYear
 :
@@ -1121,7 +1121,7 @@ result
 era
 :
 "
-gregory
+ce
 "
 eraYear
 :

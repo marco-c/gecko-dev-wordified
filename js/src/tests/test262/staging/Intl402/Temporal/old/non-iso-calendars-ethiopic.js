@@ -305,7 +305,7 @@ year2000
 era
 :
 "
-ethiopic
+am
 "
 eraYear
 :
@@ -904,7 +904,7 @@ result
 era
 :
 "
-ethiopic
+am
 "
 eraYear
 :
@@ -954,7 +954,7 @@ result
 era
 :
 "
-ethiopic
+am
 "
 eraYear
 :
@@ -1004,7 +1004,7 @@ result
 era
 :
 "
-ethiopic
+am
 "
 eraYear
 :
@@ -1060,7 +1060,7 @@ result
 era
 :
 "
-ethiopic
+am
 "
 eraYear
 :

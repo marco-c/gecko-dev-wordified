@@ -182,7 +182,7 @@ iso8601
 )
 ;
 const
-resultHebrew
+resultChinese
 =
 Temporal
 .
@@ -210,7 +210,7 @@ day
 calendar
 :
 "
-hebrew
+chinese
 "
 }
 )
@@ -219,7 +219,7 @@ TemporalHelpers
 .
 assertPlainMonthDay
 (
-resultHebrew
+resultChinese
 "
 M01
 "
@@ -236,7 +236,7 @@ not
 using
 eras
 (
-Hebrew
+Chinese
 )
 "
 )
@@ -245,11 +245,11 @@ assert
 .
 sameValue
 (
-resultHebrew
+resultChinese
 .
 calendarId
 "
-hebrew
+chinese
 "
 )
 ;
