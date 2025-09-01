@@ -1275,6 +1275,14 @@ const
 override
 ;
 virtual
+WritingMode
+GetWritingMode
+(
+)
+const
+override
+;
+virtual
 void
 LiveRegionAttributes
 (
