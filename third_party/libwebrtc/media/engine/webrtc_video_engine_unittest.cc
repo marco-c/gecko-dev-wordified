@@ -17143,7 +17143,7 @@ receive_channel_
 >
 SetDefaultSink
 (
-NULL
+nullptr
 )
 ;
 EXPECT_TRUE
