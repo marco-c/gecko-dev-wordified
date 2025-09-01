@@ -165,13 +165,6 @@ setIcon
 (
 tabToDetach
 iconURLSpec
-Services
-.
-scriptSecurityManager
-.
-getSystemPrincipal
-(
-)
 )
 ;
 tabToDetach
