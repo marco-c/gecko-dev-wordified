@@ -96805,6 +96805,10 @@ timerType
 isRunning
 &
 &
+!
+progressVisible
+&
+&
 /
 *
 #
