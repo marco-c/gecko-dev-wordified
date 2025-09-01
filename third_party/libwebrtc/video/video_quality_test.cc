@@ -11062,12 +11062,7 @@ TestAudioDeviceModule
 :
 Create
 (
-&
 env_
-.
-task_queue_factory
-(
-)
 TestAudioDeviceModule
 :
 :
