@@ -328,7 +328,6 @@ config_dir
 join
 (
 "
-.
 mozilla
 "
 )
