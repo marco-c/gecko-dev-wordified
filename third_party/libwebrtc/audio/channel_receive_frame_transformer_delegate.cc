@@ -795,9 +795,9 @@ return
 Timestamp
 :
 :
-Micros
+Millis
 (
-UQ32x32ToInt64Us
+UQ32x32ToInt64Ms
 (
 header_
 .
@@ -854,9 +854,9 @@ return
 TimeDelta
 :
 :
-Micros
+Millis
 (
-Q32x32ToInt64Us
+Q32x32ToInt64Ms
 (
 *
 header_
