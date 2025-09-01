@@ -57,6 +57,12 @@ MPL
 *
 /
 use
+crate
+:
+:
+cg
+;
+use
 darling
 :
 :
@@ -64,12 +70,6 @@ util
 :
 :
 Override
-;
-use
-crate
-:
-:
-cg
 ;
 use
 proc_macro2

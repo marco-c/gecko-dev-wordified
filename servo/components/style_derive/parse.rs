@@ -60,6 +60,12 @@ use
 crate
 :
 :
+cg
+;
+use
+crate
+:
+:
 to_css
 :
 :
@@ -67,12 +73,6 @@ to_css
 CssBitflagAttrs
 CssVariantAttrs
 }
-;
-use
-crate
-:
-:
-cg
 ;
 use
 proc_macro2

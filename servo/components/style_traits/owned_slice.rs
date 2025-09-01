@@ -151,9 +151,6 @@ std
 :
 {
 fmt
-iter
-mem
-slice
 hash
 :
 :
@@ -161,6 +158,9 @@ hash
 Hash
 Hasher
 }
+iter
+mem
+slice
 }
 ;
 use

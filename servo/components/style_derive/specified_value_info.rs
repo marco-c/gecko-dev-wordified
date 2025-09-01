@@ -60,6 +60,12 @@ use
 crate
 :
 :
+cg
+;
+use
+crate
+:
+:
 parse
 :
 :
@@ -77,12 +83,6 @@ CssFieldAttrs
 CssInputAttrs
 CssVariantAttrs
 }
-;
-use
-crate
-:
-:
-cg
 ;
 use
 proc_macro2
