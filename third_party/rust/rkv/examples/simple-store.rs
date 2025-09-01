@@ -509,6 +509,7 @@ process
 opens
 the
 same
+lmdb
 environment
 at
 most

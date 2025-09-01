@@ -129,10 +129,7 @@ use
 glean
 :
 :
-{
 ConfigurationBuilder
-TestGetValue
-}
 ;
 mod
 metrics
