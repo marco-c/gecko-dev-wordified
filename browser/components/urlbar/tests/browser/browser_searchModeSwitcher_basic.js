@@ -3060,7 +3060,7 @@ result
 .
 providerName
 "
-RestrictKeywordsAutofill
+UrlbarProviderRestrictKeywordsAutofill
 "
 )
 ;
@@ -3516,7 +3516,7 @@ providerName
 =
 =
 "
-RestrictKeywords
+UrlbarProviderRestrictKeywords
 "
 &
 &

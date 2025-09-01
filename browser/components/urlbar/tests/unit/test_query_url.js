@@ -60,7 +60,7 @@ const
 PLACES_PROVIDERNAME
 =
 "
-Places
+UrlbarProviderPlaces
 "
 ;
 testEngine_setup

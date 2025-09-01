@@ -704,7 +704,7 @@ query
 providerName
 :
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 }
 )

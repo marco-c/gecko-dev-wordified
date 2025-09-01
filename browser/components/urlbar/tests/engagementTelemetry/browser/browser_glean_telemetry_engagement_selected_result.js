@@ -177,7 +177,7 @@ selected_position
 provider
 :
 "
-Autofill
+UrlbarProviderAutofill
 "
 results
 :
@@ -305,7 +305,7 @@ selected_position
 provider
 :
 "
-Autofill
+UrlbarProviderAutofill
 "
 results
 :
@@ -399,7 +399,7 @@ selected_position
 provider
 :
 "
-Autofill
+UrlbarProviderAutofill
 "
 results
 :
@@ -495,7 +495,7 @@ selected_position
 provider
 :
 "
-Autofill
+UrlbarProviderAutofill
 "
 results
 :
@@ -634,7 +634,7 @@ selected_position
 provider
 :
 "
-Places
+UrlbarProviderPlaces
 "
 results
 :
@@ -754,7 +754,7 @@ selected_position
 provider
 :
 "
-Places
+UrlbarProviderPlaces
 "
 results
 :
@@ -858,7 +858,7 @@ selected_position
 provider
 :
 "
-BookmarkKeywords
+UrlbarProviderBookmarkKeywords
 "
 results
 :
@@ -932,7 +932,7 @@ selected_position
 provider
 :
 "
-HeuristicFallback
+UrlbarProviderHeuristicFallback
 "
 results
 :
@@ -1050,7 +1050,7 @@ selected_position
 provider
 :
 "
-SearchSuggestions
+UrlbarProviderSearchSuggestions
 "
 results
 :
@@ -1194,7 +1194,7 @@ selected_position
 provider
 :
 "
-SearchSuggestions
+UrlbarProviderSearchSuggestions
 "
 results
 :
@@ -1272,7 +1272,7 @@ selected_position
 provider
 :
 "
-HeuristicFallback
+UrlbarProviderHeuristicFallback
 "
 results
 :
@@ -1338,7 +1338,7 @@ await
 selectRowByProvider
 (
 "
-Places
+UrlbarProviderPlaces
 "
 )
 ;
@@ -1384,7 +1384,7 @@ selected_position
 provider
 :
 "
-Places
+UrlbarProviderPlaces
 "
 results
 :
@@ -1464,7 +1464,7 @@ await
 selectRowByProvider
 (
 "
-RemoteTabs
+UrlbarProviderRemoteTabs
 "
 )
 ;
@@ -1488,7 +1488,7 @@ selected_position
 provider
 :
 "
-RemoteTabs
+UrlbarProviderRemoteTabs
 "
 results
 :
@@ -1580,7 +1580,7 @@ selected_position
 provider
 :
 "
-Omnibox
+UrlbarProviderOmnibox
 "
 results
 :
@@ -1718,7 +1718,7 @@ await
 selectRowByProvider
 (
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 )
 ;
@@ -1759,7 +1759,7 @@ selected_position
 provider
 :
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 results
 :
@@ -1930,7 +1930,7 @@ await
 selectRowByProvider
 (
 "
-calculator
+UrlbarProviderCalculator
 "
 )
 ;
@@ -1974,7 +1974,7 @@ selected_position
 provider
 :
 "
-calculator
+UrlbarProviderCalculator
 "
 results
 :
@@ -2208,7 +2208,7 @@ await
 selectRowByProvider
 (
 "
-UnitConversion
+UrlbarProviderUnitConversion
 "
 )
 ;
@@ -2253,7 +2253,7 @@ selected_position
 provider
 :
 "
-UnitConversion
+UrlbarProviderUnitConversion
 "
 results
 :
@@ -3225,7 +3225,7 @@ await
 selectRowByProvider
 (
 "
-SearchSuggestions
+UrlbarProviderSearchSuggestions
 "
 )
 ;
@@ -3249,7 +3249,7 @@ selected_position
 provider
 :
 "
-SearchSuggestions
+UrlbarProviderSearchSuggestions
 "
 results
 :
@@ -3638,7 +3638,7 @@ await
 selectRowByProvider
 (
 "
-SearchSuggestions
+UrlbarProviderSearchSuggestions
 "
 )
 ;
@@ -3662,7 +3662,7 @@ selected_position
 provider
 :
 "
-SearchSuggestions
+UrlbarProviderSearchSuggestions
 "
 results
 :
@@ -4447,7 +4447,7 @@ selected_position
 provider
 :
 "
-SemanticHistorySearch
+UrlbarProviderSemanticHistorySearch
 "
 results
 :

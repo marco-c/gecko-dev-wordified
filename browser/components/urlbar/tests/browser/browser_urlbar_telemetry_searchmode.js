@@ -3342,7 +3342,7 @@ tabToSearchResult
 .
 providerName
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 "
 The
@@ -3679,7 +3679,7 @@ tabToSearchResult
 .
 providerName
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 "
 The

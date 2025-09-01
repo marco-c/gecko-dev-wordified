@@ -461,7 +461,7 @@ name
 providerName
 :
 "
-HeuristicFallback
+UrlbarProviderHeuristicFallback
 "
 heuristic
 :
@@ -502,7 +502,7 @@ query
 providerName
 :
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 satisfiesAutofillThreshold
 :
@@ -688,7 +688,7 @@ name
 providerName
 :
 "
-HeuristicFallback
+UrlbarProviderHeuristicFallback
 "
 heuristic
 :
@@ -731,7 +731,7 @@ query
 providerName
 :
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 satisfiesAutofillThreshold
 :
@@ -948,7 +948,7 @@ true
 providerName
 :
 "
-Autofill
+UrlbarProviderAutofill
 "
 }
 )
@@ -986,7 +986,7 @@ query
 providerName
 :
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 satisfiesAutofillThreshold
 :
@@ -1133,7 +1133,7 @@ results
 .
 providerName
 "
-Autofill
+UrlbarProviderAutofill
 "
 )
 ;
@@ -1410,7 +1410,7 @@ true
 providerName
 :
 "
-Autofill
+UrlbarProviderAutofill
 "
 }
 )
@@ -1546,7 +1546,7 @@ results
 .
 providerName
 "
-Autofill
+UrlbarProviderAutofill
 "
 )
 ;

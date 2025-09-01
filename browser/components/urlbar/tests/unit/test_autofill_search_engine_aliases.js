@@ -286,7 +286,7 @@ false
 providerName
 :
 "
-TokenAliasEngines
+UrlbarProviderTokenAliasEngines
 "
 }
 )
@@ -486,7 +486,7 @@ false
 providerName
 :
 "
-TokenAliasEngines
+UrlbarProviderTokenAliasEngines
 "
 }
 )

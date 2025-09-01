@@ -1551,7 +1551,7 @@ PROVIDER_TYPE
 .
 PROFILE
 "
-UnitConversion
+UrlbarProviderUnitConversion
 "
 )
 ;

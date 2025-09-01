@@ -391,7 +391,7 @@ providerName
 =
 =
 "
-InputHistory
+UrlbarProviderInputHistory
 "
 )
 {
@@ -2457,7 +2457,7 @@ result
 .
 providerName
 "
-InputHistory
+UrlbarProviderInputHistory
 "
 "
 The
@@ -2615,7 +2615,7 @@ result
 .
 providerName
 "
-InputHistory
+UrlbarProviderInputHistory
 "
 "
 The
@@ -2962,7 +2962,7 @@ result
 .
 providerName
 "
-InputHistory
+UrlbarProviderInputHistory
 "
 "
 The
@@ -4344,7 +4344,7 @@ result
 .
 providerName
 "
-InputHistory
+UrlbarProviderInputHistory
 "
 "
 Check
@@ -4394,7 +4394,7 @@ result
 .
 providerName
 "
-InputHistory
+UrlbarProviderInputHistory
 "
 "
 Check
@@ -4758,7 +4758,7 @@ result
 .
 providerName
 "
-InputHistory
+UrlbarProviderInputHistory
 "
 "
 Check

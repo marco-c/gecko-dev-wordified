@@ -60,14 +60,14 @@ const
 AUTOFILL_PROVIDERNAME
 =
 "
-Autofill
+UrlbarProviderAutofill
 "
 ;
 const
 PLACES_PROVIDERNAME
 =
 "
-Places
+UrlbarProviderPlaces
 "
 ;
 testEngine_setup

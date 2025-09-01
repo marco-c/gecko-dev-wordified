@@ -1059,7 +1059,7 @@ result
 .
 providerName
 "
-SearchSuggestions
+UrlbarProviderSearchSuggestions
 "
 )
 ;

@@ -572,7 +572,7 @@ providerName
 =
 =
 "
-HeuristicFallback
+UrlbarProviderHeuristicFallback
 "
 )
 &
@@ -891,7 +891,7 @@ search_engine
 provider
 :
 "
-HeuristicFallback
+UrlbarProviderHeuristicFallback
 "
 results
 :
@@ -1027,7 +1027,7 @@ url
 provider
 :
 "
-HeuristicFallback
+UrlbarProviderHeuristicFallback
 "
 results
 :

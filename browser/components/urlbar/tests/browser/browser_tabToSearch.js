@@ -412,7 +412,7 @@ tabToSearchResult
 .
 providerName
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 "
 The
@@ -840,7 +840,7 @@ result
 .
 providerName
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 "
 The
@@ -1163,7 +1163,7 @@ result
 .
 providerName
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 "
 The
@@ -1355,7 +1355,7 @@ result
 .
 providerName
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 "
 The
@@ -3162,7 +3162,7 @@ tabToSearchResult
 .
 providerName
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 "
 The
@@ -3346,7 +3346,7 @@ tabToSearchResult
 .
 providerName
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 "
 The
@@ -3502,7 +3502,7 @@ tabToSearchResult
 .
 providerName
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 "
 The
@@ -3781,7 +3781,7 @@ firstResult
 .
 providerName
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 "
 The
@@ -3819,7 +3819,7 @@ secondResult
 .
 providerName
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 "
 The

@@ -275,7 +275,7 @@ enter
 provider
 :
 "
-HeuristicFallback
+UrlbarProviderHeuristicFallback
 "
 threshold
 :

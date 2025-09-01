@@ -1157,7 +1157,7 @@ test
 providerName
 :
 "
-Places
+UrlbarProviderPlaces
 "
 }
 )

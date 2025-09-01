@@ -550,7 +550,7 @@ result
 .
 providerName
 "
-HeuristicFallback
+UrlbarProviderHeuristicFallback
 "
 )
 ;

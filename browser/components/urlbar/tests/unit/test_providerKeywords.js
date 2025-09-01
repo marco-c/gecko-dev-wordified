@@ -2707,7 +2707,7 @@ true
 providerName
 :
 "
-HeuristicFallback
+UrlbarProviderHeuristicFallback
 "
 }
 )

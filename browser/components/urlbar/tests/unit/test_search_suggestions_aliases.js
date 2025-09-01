@@ -1138,7 +1138,7 @@ false
 providerName
 :
 "
-TokenAliasEngines
+UrlbarProviderTokenAliasEngines
 "
 }
 )

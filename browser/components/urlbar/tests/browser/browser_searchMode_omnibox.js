@@ -395,7 +395,7 @@ result
 .
 providerName
 "
-Omnibox
+UrlbarProviderOmnibox
 "
 "
 First

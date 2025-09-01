@@ -405,7 +405,7 @@ true
 providerName
 :
 "
-Autofill
+UrlbarProviderAutofill
 "
 }
 )
@@ -445,7 +445,7 @@ query
 providerName
 :
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 }
 )
@@ -556,7 +556,7 @@ true
 providerName
 :
 "
-Autofill
+UrlbarProviderAutofill
 "
 }
 )
@@ -691,7 +691,7 @@ true
 providerName
 :
 "
-HeuristicFallback
+UrlbarProviderHeuristicFallback
 "
 }
 )
@@ -731,7 +731,7 @@ query
 providerName
 :
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 }
 )
@@ -889,7 +889,7 @@ true
 providerName
 :
 "
-Autofill
+UrlbarProviderAutofill
 "
 }
 )
@@ -1060,7 +1060,7 @@ true
 providerName
 :
 "
-Autofill
+UrlbarProviderAutofill
 "
 }
 )
@@ -1100,7 +1100,7 @@ query
 providerName
 :
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 }
 )
@@ -1274,7 +1274,7 @@ true
 providerName
 :
 "
-Autofill
+UrlbarProviderAutofill
 "
 }
 )
@@ -1314,7 +1314,7 @@ query
 providerName
 :
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 }
 )
@@ -1445,7 +1445,7 @@ true
 providerName
 :
 "
-Autofill
+UrlbarProviderAutofill
 "
 }
 )
@@ -1485,7 +1485,7 @@ query
 providerName
 :
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 }
 )
@@ -1827,7 +1827,7 @@ true
 providerName
 :
 "
-Autofill
+UrlbarProviderAutofill
 "
 }
 )
@@ -1867,7 +1867,7 @@ query
 providerName
 :
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 }
 )
@@ -1905,7 +1905,7 @@ com
 providerName
 :
 "
-Places
+UrlbarProviderPlaces
 "
 }
 )
@@ -2032,7 +2032,7 @@ true
 providerName
 :
 "
-Autofill
+UrlbarProviderAutofill
 "
 }
 )
@@ -2072,7 +2072,7 @@ query
 providerName
 :
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 }
 )
@@ -2401,7 +2401,7 @@ true
 providerName
 :
 "
-Autofill
+UrlbarProviderAutofill
 "
 }
 )
@@ -2441,7 +2441,7 @@ query
 providerName
 :
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 }
 )
@@ -2666,7 +2666,7 @@ true
 providerName
 :
 "
-Autofill
+UrlbarProviderAutofill
 "
 }
 )
@@ -2706,7 +2706,7 @@ query
 providerName
 :
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 }
 )
@@ -2876,7 +2876,7 @@ true
 providerName
 :
 "
-HeuristicFallback
+UrlbarProviderHeuristicFallback
 "
 }
 )
@@ -2916,7 +2916,7 @@ query
 providerName
 :
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 satisfiesAutofillThreshold
 :
@@ -2961,7 +2961,7 @@ it
 providerName
 :
 "
-Places
+UrlbarProviderPlaces
 "
 }
 )
@@ -3163,7 +3163,7 @@ true
 providerName
 :
 "
-Autofill
+UrlbarProviderAutofill
 "
 }
 )
@@ -3377,7 +3377,7 @@ true
 providerName
 :
 "
-Autofill
+UrlbarProviderAutofill
 "
 }
 )
@@ -3417,7 +3417,7 @@ query
 providerName
 :
 "
-TabToSearch
+UrlbarProviderTabToSearch
 "
 }
 )
@@ -3507,7 +3507,7 @@ true
 providerName
 :
 "
-Autofill
+UrlbarProviderAutofill
 "
 }
 )
