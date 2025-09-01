@@ -138,8 +138,6 @@ Sampler
 final
 :
 public
-nsWrapperCache
-public
 ObjectBase
 public
 ChildOf
@@ -167,6 +165,10 @@ RawId
 aId
 )
 ;
+const
+RawId
+mId
+;
 private
 :
 virtual
@@ -174,8 +176,11 @@ virtual
 Sampler
 (
 )
-=
-default
+;
+void
+Cleanup
+(
+)
 ;
 }
 ;

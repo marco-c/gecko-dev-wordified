@@ -173,6 +173,16 @@ aLimits
 )
 {
 }
+SupportedLimits
+:
+:
+~
+SupportedLimits
+(
+)
+=
+default
+;
 uint64_t
 GetLimit
 (

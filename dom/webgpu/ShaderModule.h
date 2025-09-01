@@ -141,8 +141,6 @@ ShaderModule
 final
 :
 public
-nsWrapperCache
-public
 ObjectBase
 public
 ChildOf
@@ -194,6 +192,10 @@ ErrorResult
 aRv
 )
 ;
+const
+RawId
+mId
+;
 private
 :
 virtual
@@ -201,8 +203,11 @@ virtual
 ShaderModule
 (
 )
-=
-default
+;
+void
+Cleanup
+(
+)
 ;
 RefPtr
 <

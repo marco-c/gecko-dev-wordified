@@ -299,7 +299,6 @@ mLength
 }
 private
 :
-virtual
 ~
 CompilationMessage
 (
@@ -307,6 +306,12 @@ CompilationMessage
 =
 default
 ;
+void
+Cleanup
+(
+)
+{
+}
 }
 ;
 }

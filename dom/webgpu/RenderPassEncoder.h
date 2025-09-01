@@ -228,8 +228,6 @@ RenderPassEncoder
 final
 :
 public
-nsWrapperCache
-public
 ObjectBase
 public
 ChildOf
@@ -253,8 +251,6 @@ CommandEncoder
 *
 const
 aParent
-RawId
-aId
 const
 dom
 :
@@ -269,6 +265,11 @@ protected
 virtual
 ~
 RenderPassEncoder
+(
+)
+;
+void
+Cleanup
 (
 )
 ;
@@ -378,11 +379,6 @@ pass
 encoder
 private
 :
-bool
-mValid
-=
-true
-;
 void
 SetBindGroup
 (
