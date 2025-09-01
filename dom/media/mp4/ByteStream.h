@@ -101,7 +101,7 @@ ByteStream
 )
 ;
 virtual
-bool
+nsresult
 ReadAt
 (
 int64_t
@@ -119,7 +119,7 @@ bytes_read
 0
 ;
 virtual
-bool
+nsresult
 CachedReadAt
 (
 int64_t

@@ -2264,7 +2264,7 @@ MP4Stream
 (
 )
 ;
-bool
+nsresult
 ReadAt
 (
 int64_t
@@ -2280,7 +2280,7 @@ aBytesRead
 )
 override
 ;
-bool
+nsresult
 CachedReadAt
 (
 int64_t
@@ -2375,7 +2375,7 @@ MP4Stream
 )
 ;
 }
-bool
+nsresult
 MP4Stream
 :
 :
@@ -2403,7 +2403,7 @@ aBytesRead
 )
 ;
 }
-bool
+nsresult
 MP4Stream
 :
 :
@@ -2455,7 +2455,7 @@ aBytesRead
 0
 ;
 return
-false
+rv
 ;
 }
 *
@@ -2464,7 +2464,7 @@ aBytesRead
 aCount
 ;
 return
-true
+rv
 ;
 }
 const

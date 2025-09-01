@@ -407,7 +407,7 @@ unknown
 ;
 }
 }
-bool
+nsresult
 StreamAdaptor
 :
 :
@@ -452,10 +452,10 @@ offset
 )
 ;
 return
-false
+NS_ERROR_DOM_MEDIA_OVERFLOW_ERR
 ;
 }
-bool
+nsresult
 rv
 =
 mSource
@@ -475,7 +475,10 @@ bytes_read
 ;
 if
 (
+NS_SUCCEEDED
+(
 rv
+)
 )
 {
 mOffset
@@ -542,7 +545,7 @@ bytes_read
 =
 0
 ;
-bool
+nsresult
 rv
 =
 source
@@ -558,8 +561,10 @@ bytes_read
 ;
 if
 (
-!
+NS_FAILED
+(
 rv
+)
 )
 {
 MOZ_LOG

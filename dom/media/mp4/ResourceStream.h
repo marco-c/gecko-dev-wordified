@@ -119,7 +119,7 @@ aResource
 )
 ;
 virtual
-bool
+nsresult
 ReadAt
 (
 int64_t
@@ -136,7 +136,7 @@ aBytesRead
 override
 ;
 virtual
-bool
+nsresult
 CachedReadAt
 (
 int64_t

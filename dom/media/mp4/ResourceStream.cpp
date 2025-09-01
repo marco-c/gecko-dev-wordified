@@ -176,7 +176,7 @@ mPinCount
 )
 ;
 }
-bool
+nsresult
 ResourceStream
 :
 :
@@ -258,7 +258,7 @@ rv
 )
 {
 return
-false
+rv
 ;
 }
 sum
@@ -285,10 +285,10 @@ aBytesRead
 sum
 ;
 return
-true
+NS_OK
 ;
 }
-bool
+nsresult
 ResourceStream
 :
 :
@@ -344,7 +344,7 @@ aBytesRead
 0
 ;
 return
-false
+rv
 ;
 }
 *
@@ -353,7 +353,7 @@ aBytesRead
 aCount
 ;
 return
-true
+rv
 ;
 }
 bool

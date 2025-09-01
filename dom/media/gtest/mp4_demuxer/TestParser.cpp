@@ -254,7 +254,7 @@ aSize
 )
 {
 }
-bool
+nsresult
 ReadAt
 (
 int64_t
@@ -289,7 +289,7 @@ mSize
 )
 {
 return
-false
+NS_ERROR_DOM_MEDIA_RANGE_ERR
 ;
 }
 /
@@ -417,10 +417,10 @@ aLength
 ;
 }
 return
-true
+NS_OK
 ;
 }
-bool
+nsresult
 CachedReadAt
 (
 int64_t
