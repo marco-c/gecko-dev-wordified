@@ -426,6 +426,12 @@ isEnrolled
 =
 true
 ;
+IPProtectionService
+.
+isEntitled
+=
+true
+;
 content
 .
 state
@@ -616,6 +622,12 @@ cleanupService
 IPProtectionService
 .
 isEnrolled
+=
+false
+;
+IPProtectionService
+.
+isEntitled
 =
 false
 ;
