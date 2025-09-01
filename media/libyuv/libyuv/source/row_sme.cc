@@ -4017,6 +4017,7 @@ saturating
 narrow
 instructions
 .
+const
 int
 shift
 =
@@ -7569,6 +7570,7 @@ saturating
 narrow
 instructions
 .
+const
 int
 shift
 =
@@ -8200,11 +8202,13 @@ int
 source_y_fraction
 )
 {
+const
 int
 y1_fraction
 =
 source_y_fraction
 ;
+const
 int
 y0_fraction
 =
@@ -8314,6 +8318,7 @@ saturating
 narrow
 instructions
 .
+const
 int
 shift
 =
@@ -9359,6 +9364,7 @@ widen
 to
 int32
 .
+const
 int
 shift
 =

@@ -42725,11 +42725,13 @@ int
 source_y_fraction
 )
 {
+const
 int
 y1_fraction
 =
 source_y_fraction
 ;
+const
 int
 y0_fraction
 =
@@ -43245,8 +43247,8 @@ dst_width
 /
 %
 3
+:
 "
-+
 r
 "
 (
@@ -43257,7 +43259,6 @@ y1_fraction
 %
 4
 "
-+
 r
 "
 (
@@ -43267,7 +43268,6 @@ y0_fraction
 /
 %
 5
-:
 :
 "
 cc
@@ -43957,11 +43957,13 @@ int
 source_y_fraction
 )
 {
+const
 int
 y1_fraction
 =
 source_y_fraction
 ;
+const
 int
 y0_fraction
 =
@@ -43978,6 +43980,7 @@ src_ptr
 +
 src_stride
 ;
+const
 int
 shift
 =
@@ -60874,6 +60877,7 @@ saturating
 narrow
 instructions
 .
+const
 int
 shift
 =
@@ -61518,6 +61522,7 @@ widen
 to
 int32
 .
+const
 int
 shift
 =

@@ -1247,7 +1247,7 @@ _M_X64
 )
 /
 /
-if
+ifdef
 HAS_ARGBTOUVROW_SSSE3
 /
 /
