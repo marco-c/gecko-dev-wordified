@@ -157,6 +157,15 @@ audio_util
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+gtest_prod_util
+.
+h
+"
 namespace
 webrtc
 {
@@ -409,9 +418,6 @@ buffer_num_frames_
 channels
 (
 )
-[
-0
-]
 :
 nullptr
 buffer_num_frames_

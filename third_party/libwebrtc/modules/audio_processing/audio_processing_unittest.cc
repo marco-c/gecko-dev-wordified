@@ -15039,9 +15039,6 @@ out_cb
 channels
 (
 )
-[
-0
-]
 out_cb
 .
 num_frames
@@ -15151,9 +15148,6 @@ rev_out_cb
 channels
 (
 )
-[
-0
-]
 rev_out_cb
 .
 num_frames
