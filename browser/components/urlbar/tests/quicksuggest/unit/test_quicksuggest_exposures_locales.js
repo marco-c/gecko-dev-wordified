@@ -1353,6 +1353,9 @@ provider
 "
 Dynamic
 "
+suggestionType
+:
+rsSuggestionType
 telemetryType
 :
 "
