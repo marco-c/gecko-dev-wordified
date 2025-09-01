@@ -23857,6 +23857,24 @@ nl
 )
     
 #
+TODO
+(
+1788937
+)
+:
+Remove
+with
+mathml
+.
+font
+-
+family
+-
+math
+.
+enabled
+    
+#
 mathematical
 language
 used
@@ -26195,6 +26213,20 @@ mathml
 legacy_mathvariant_attribute
 .
 disabled
+"
+)
+    
+Atom
+(
+"
+mathml_font_family_math_enabled
+"
+"
+mathml
+.
+font_family_math
+.
+enabled
 "
 )
     
