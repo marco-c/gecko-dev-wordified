@@ -113,6 +113,13 @@ class
 #
 include
 "
+EditorForwards
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -219,6 +226,9 @@ protected
 :
 ChangeAttributeTransaction
 (
+EditorBase
+&
+aEditorBase
 dom
 :
 :
@@ -300,6 +310,9 @@ ChangeAttributeTransaction
 >
 Create
 (
+EditorBase
+&
+aEditorBase
 dom
 :
 :
@@ -368,6 +381,9 @@ ChangeAttributeTransaction
 >
 CreateToRemove
 (
+EditorBase
+&
+aEditorBase
 dom
 :
 :
@@ -428,6 +444,12 @@ ChangeAttributeTransaction
 )
 =
 default
+;
+RefPtr
+<
+EditorBase
+>
+mEditorBase
 ;
 /
 /

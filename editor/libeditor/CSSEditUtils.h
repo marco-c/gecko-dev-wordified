@@ -169,9 +169,6 @@ class
 nsIContent
 ;
 class
-nsICSSDeclaration
-;
-class
 nsINode
 ;
 class
@@ -461,6 +458,9 @@ static
 nsresult
 SetCSSPropertyPixelsWithoutTransaction
 (
+HTMLEditor
+&
+aHTMLEditor
 nsStyledElement
 &
 aStyledElement

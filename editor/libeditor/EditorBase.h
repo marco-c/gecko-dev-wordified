@@ -12650,7 +12650,6 @@ Element
 &
 aElement
 )
-const
 ;
 MOZ_CAN_RUN_SCRIPT
 nsresult
@@ -17755,6 +17754,7 @@ them
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetTextDirectionTo
 (
