@@ -7051,7 +7051,7 @@ graph
 (
 )
 ;
-GraphSpewer
+JitSpewGraphSpewer
 &
 gs
 =
@@ -10449,7 +10449,7 @@ graph
 (
 )
 ;
-GraphSpewer
+JitSpewGraphSpewer
 &
 gs
 =

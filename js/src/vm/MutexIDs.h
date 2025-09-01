@@ -310,7 +310,7 @@ Arm64SimulatorLock
 \
 _
 (
-IonSpewer
+JitSpewGraphOutput
 500
 )
 \

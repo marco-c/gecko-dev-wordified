@@ -4619,7 +4619,7 @@ private
 :
 friend
 class
-JSONSpewer
+GraphSpewer
 ;
 /
 /

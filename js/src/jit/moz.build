@@ -293,6 +293,11 @@ FoldLinearArithConstants
 cpp
 "
 "
+GraphSpewer
+.
+cpp
+"
+"
 InlinableNatives
 .
 cpp
@@ -379,11 +384,6 @@ cpp
 "
 "
 JSJitFrameIter
-.
-cpp
-"
-"
-JSONSpewer
 .
 cpp
 "
