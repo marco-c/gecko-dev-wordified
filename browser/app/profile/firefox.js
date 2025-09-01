@@ -8937,7 +8937,7 @@ manager
 .
 enabled
 "
-false
+true
 )
 ;
 /
