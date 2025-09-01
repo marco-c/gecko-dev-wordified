@@ -224,15 +224,6 @@ default
     
 }
 }
-#
-:
-Schema
-for
-try_task_config
-.
-json
-version
-2
 try_task_config_schema_v2
 =
 Schema
@@ -774,18 +765,6 @@ decision_task_id
 write_artifacts
 =
 True
-        
-enable_verifications
-=
-options
-.
-get
-(
-"
-verify
-"
-True
-)
     
 )
     
@@ -2769,10 +2748,6 @@ gz
         
 import
 gzip
-#
-noqa
-:
-PLC0415
         
 with
 gzip
@@ -2900,10 +2875,6 @@ gz
         
 import
 gzip
-#
-noqa
-:
-PLC0415
         
 with
 gzip

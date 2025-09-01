@@ -342,10 +342,6 @@ optimize
 strategies
 import
 IndexSearch
-#
-noqa
-:
-PLC0415
     
 label_to_taskid
 =
@@ -1893,10 +1889,6 @@ optimize
 strategies
 import
 IndexSearch
-#
-noqa
-:
-PLC0415
     
 opt_counts
 =

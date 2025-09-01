@@ -42,13 +42,6 @@ util
 yaml
 import
 load_yaml
-#
-:
-Schema
-for
-the
-task_context
-transforms
 SCHEMA
 =
 Schema
