@@ -3973,6 +3973,12 @@ buttonUrl
 helpUrl
 =
 undefined
+descriptionL10n
+=
+undefined
+descriptionLearnMoreTopic
+=
+undefined
 }
 )
 {
@@ -3992,6 +3998,8 @@ RESULT_SOURCE
 OTHER_LOCAL
 {
 helpUrl
+descriptionL10n
+descriptionLearnMoreTopic
 type
 :
 "
