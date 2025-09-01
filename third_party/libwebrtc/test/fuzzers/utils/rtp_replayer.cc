@@ -418,9 +418,6 @@ fake_clock
 .
 SetTime
 (
-webrtc
-:
-:
 Timestamp
 :
 :
@@ -1299,9 +1296,6 @@ clock
 >
 AdvanceTime
 (
-webrtc
-:
-:
 TimeDelta
 :
 :
