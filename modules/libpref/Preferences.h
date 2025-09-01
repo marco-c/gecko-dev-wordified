@@ -274,6 +274,9 @@ functional
 class
 nsIFile
 ;
+class
+nsIPrefOverrideMap
+;
 /
 /
 The
@@ -3060,6 +3063,12 @@ WritePrefFilePromise
 >
 >
 aPromise
+=
+nullptr
+const
+nsIPrefOverrideMap
+*
+aPrefOverrideMap
 =
 nullptr
 )
