@@ -860,7 +860,7 @@ shared_memory
 )
 =
 =
-NULL
+nullptr
 )
 ;
 /

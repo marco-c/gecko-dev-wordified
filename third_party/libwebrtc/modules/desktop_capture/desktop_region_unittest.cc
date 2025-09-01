@@ -379,7 +379,7 @@ r
 CompareRegion
 (
 r
-NULL
+nullptr
 0
 )
 ;
@@ -426,7 +426,7 @@ rect
 CompareRegion
 (
 r
-NULL
+nullptr
 0
 )
 ;
