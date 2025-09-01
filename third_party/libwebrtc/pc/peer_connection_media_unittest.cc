@@ -11174,7 +11174,7 @@ id
 "
 send_only_codec
 "
-0
+kDefaultAudioClockRateHz
 1
 )
 )
@@ -14769,7 +14769,7 @@ CreateAudioCodec
 "
 foo
 "
-0
+kDefaultAudioClockRateHz
 1
 )
 )
