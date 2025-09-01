@@ -5311,16 +5311,6 @@ corsUnsafeHeaders
 )
 loadInfoArgs
 .
-forcePreflight
-(
-)
-loadInfoArgs
-.
-isPreflight
-(
-)
-loadInfoArgs
-.
 loadTriggeredFromExternal
 (
 )
