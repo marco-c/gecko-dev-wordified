@@ -332,6 +332,16 @@ util
 .
 ThreadUtils
 ;
+/
+*
+*
+Accessibility
+support
+for
+GeckoSession
+.
+*
+/
 UiThread
 public
 class
