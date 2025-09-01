@@ -3611,6 +3611,11 @@ CSSNumericValue
 webidl
 "
 "
+CSSOKLab
+.
+webidl
+"
+"
 CSSPageRule
 .
 webidl
