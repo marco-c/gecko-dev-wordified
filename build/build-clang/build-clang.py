@@ -6044,26 +6044,6 @@ Qunused
 -
 arguments
 "
-            
-#
-Align
-with
-the
-Firefox
-build
-system
-for
-the
-clang
-plugin
-.
-            
-"
--
-D_GLIBCXX_USE_CXX11_ABI
-=
-0
-"
         
 ]
         
