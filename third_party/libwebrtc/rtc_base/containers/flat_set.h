@@ -127,17 +127,6 @@ IWYU
 pragma
 :
 export
-#
-include
-"
-rtc_base
-/
-containers
-/
-identity
-.
-h
-"
 namespace
 webrtc
 {
@@ -1363,7 +1352,7 @@ flat_containers_internal
 flat_tree
 <
 Key
-webrtc
+std
 :
 :
 identity
