@@ -7873,6 +7873,17 @@ MayHaveDOMMutationObservers
 &
 &
 !
+OwnerDoc
+(
+)
+-
+>
+DevToolsWatchingDOMMutations
+(
+)
+&
+&
+!
 nsContentUtils
 :
 :
