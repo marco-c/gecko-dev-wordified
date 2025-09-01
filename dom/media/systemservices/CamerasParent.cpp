@@ -6249,6 +6249,10 @@ const
 VideoCaptureCapability
 &
 aIpcCaps
+const
+NormalizedConstraints
+&
+aConstraints
 )
 {
 MOZ_ASSERT
