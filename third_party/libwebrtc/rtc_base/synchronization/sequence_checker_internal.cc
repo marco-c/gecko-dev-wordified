@@ -375,15 +375,9 @@ Current
 )
 ;
 const
-webrtc
-:
-:
 PlatformThreadRef
 current_thread
 =
-webrtc
-:
-:
 CurrentThreadRef
 (
 )
@@ -476,9 +470,6 @@ doesn
 '
 t
 match
-webrtc
-:
-:
 StringBuilder
 message
 ;
@@ -572,9 +563,6 @@ else
 if
 (
 !
-webrtc
-:
-:
 IsThreadRefEqual
 (
 valid_thread_

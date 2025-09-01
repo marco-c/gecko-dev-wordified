@@ -1443,14 +1443,6 @@ OpenSSLAdapter
 namespace
 webrtc
 {
-using
-:
-:
-webrtc
-:
-:
-TimeDelta
-;
 bool
 OpenSSLAdapter
 :
@@ -1608,9 +1600,6 @@ SSL_NONE
 )
 role_
 (
-webrtc
-:
-:
 SSL_CLIENT
 )
 ssl_read_needs_write_
@@ -1631,9 +1620,6 @@ nullptr
 )
 ssl_mode_
 (
-webrtc
-:
-:
 SSL_MODE_TLS
 )
 ignore_bad_cert_
@@ -2601,9 +2587,6 @@ data
 (
 )
 )
-webrtc
-:
-:
 dchecked_cast
 <
 unsigned
@@ -2632,9 +2615,6 @@ empty
 SSL_set1_curves_list
 (
 ssl_
-webrtc
-:
-:
 StrJoin
 (
 elliptic_curves_
@@ -2775,9 +2755,6 @@ code
 role_
 =
 =
-webrtc
-:
-:
 SSL_CLIENT
 )
 ?
@@ -3334,9 +3311,6 @@ SSL_write
 (
 ssl_
 pv
-webrtc
-:
-:
 checked_cast
 <
 int
@@ -4136,9 +4110,6 @@ it
 sent
 .
 return
-webrtc
-:
-:
 dchecked_cast
 <
 int
@@ -4315,9 +4286,6 @@ SSL_read
 (
 ssl_
 pv
-webrtc
-:
-:
 checked_cast
 <
 int
@@ -6369,9 +6337,6 @@ SSL_CTX_new
 mode
 =
 =
-webrtc
-:
-:
 SSL_MODE_DTLS
 ?
 DTLS_method

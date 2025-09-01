@@ -204,15 +204,9 @@ testing
 IsTrue
 ;
 const
-webrtc
-:
-:
 TimeDelta
 kDefaultTimeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :

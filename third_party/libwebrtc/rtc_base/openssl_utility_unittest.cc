@@ -1927,9 +1927,6 @@ EVP_PKEY_EC
 nullptr
 &
 key_ptr
-webrtc
-:
-:
 checked_cast
 <
 long

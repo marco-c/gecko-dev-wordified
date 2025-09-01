@@ -514,9 +514,6 @@ const
 {
 RTC_CHECK
 (
-webrtc
-:
-:
 IsValueInRangeForNumericType
 <
 time_t

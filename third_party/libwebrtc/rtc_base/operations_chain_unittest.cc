@@ -2613,9 +2613,6 @@ kForever
 ;
 EXPECT_THAT
 (
-webrtc
-:
-:
 WaitUntil
 (
 [
@@ -2644,9 +2641,6 @@ timeout
 kDefaultTimeout
 }
 )
-webrtc
-:
-:
 IsRtcOk
 (
 )
@@ -2702,9 +2696,6 @@ completed
 .
 EXPECT_THAT
 (
-webrtc
-:
-:
 WaitUntil
 (
 [
@@ -2733,9 +2724,6 @@ timeout
 kDefaultTimeout
 }
 )
-webrtc
-:
-:
 IsRtcOk
 (
 )
@@ -2784,9 +2772,6 @@ kForever
 ;
 EXPECT_THAT
 (
-webrtc
-:
-:
 WaitUntil
 (
 [
@@ -2815,9 +2800,6 @@ timeout
 kDefaultTimeout
 }
 )
-webrtc
-:
-:
 IsRtcOk
 (
 )
@@ -2855,9 +2837,6 @@ kForever
 ;
 EXPECT_THAT
 (
-webrtc
-:
-:
 WaitUntil
 (
 [
@@ -2886,9 +2865,6 @@ timeout
 kDefaultTimeout
 }
 )
-webrtc
-:
-:
 IsRtcOk
 (
 )

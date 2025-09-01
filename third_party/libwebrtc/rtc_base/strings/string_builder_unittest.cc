@@ -142,9 +142,6 @@ sb_buf
 10
 ]
 ;
-webrtc
-:
-:
 SimpleStringBuilder
 sb
 (
@@ -234,9 +231,6 @@ sb_buf
 100
 ]
 ;
-webrtc
-:
-:
 SimpleStringBuilder
 sb
 (
@@ -325,9 +319,6 @@ sb_buf
 100
 ]
 ;
-webrtc
-:
-:
 SimpleStringBuilder
 sb
 (
@@ -403,9 +394,6 @@ sb_buf
 100
 ]
 ;
-webrtc
-:
-:
 SimpleStringBuilder
 sb
 (
@@ -491,9 +479,6 @@ sb_buf
 4
 ]
 ;
-webrtc
-:
-:
 SimpleStringBuilder
 sb
 (
@@ -569,9 +554,6 @@ sb_buf
 4
 ]
 ;
-webrtc
-:
-:
 SimpleStringBuilder
 sb
 (
@@ -652,9 +634,6 @@ sb_buf
 4
 ]
 ;
-webrtc
-:
-:
 SimpleStringBuilder
 sb
 (
@@ -781,9 +760,6 @@ sb_buf
 5
 ]
 ;
-webrtc
-:
-:
 SimpleStringBuilder
 sb
 (
@@ -872,9 +848,6 @@ sb_buf
 4
 ]
 ;
-webrtc
-:
-:
 SimpleStringBuilder
 sb
 (
@@ -955,9 +928,6 @@ sb_buf
 4
 ]
 ;
-webrtc
-:
-:
 SimpleStringBuilder
 sb
 (
@@ -1113,9 +1083,6 @@ StringBuilder
 Limit
 )
 {
-webrtc
-:
-:
 StringBuilder
 sb
 ;
@@ -1159,9 +1126,6 @@ StringBuilder
 NumbersAndChars
 )
 {
-webrtc
-:
-:
 StringBuilder
 sb
 ;
@@ -1247,9 +1211,6 @@ StringBuilder
 Format
 )
 {
-webrtc
-:
-:
 StringBuilder
 sb
 ;
@@ -1312,9 +1273,6 @@ StringBuilder
 StdString
 )
 {
-webrtc
-:
-:
 StringBuilder
 sb
 ;
@@ -1353,9 +1311,6 @@ StringBuilder
 Release
 )
 {
-webrtc
-:
-:
 StringBuilder
 sb
 ;
@@ -1481,9 +1436,6 @@ StringBuilder
 Reset
 )
 {
-webrtc
-:
-:
 StringBuilder
 sb
 (

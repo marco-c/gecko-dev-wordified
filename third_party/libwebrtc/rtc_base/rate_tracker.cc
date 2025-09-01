@@ -402,9 +402,6 @@ milliseconds_to_skip
 ;
 available_interval_milliseconds
 =
-webrtc
-:
-:
 TimeDiff
 (
 current_time
@@ -683,9 +680,6 @@ static_cast
 double
 >
 (
-webrtc
-:
-:
 TimeDiff
 (
 current_time
@@ -888,9 +882,6 @@ Time
 const
 {
 return
-webrtc
-:
-:
 TimeMillis
 (
 )

@@ -216,9 +216,6 @@ expected
 to
 exist
 .
-webrtc
-:
-:
 test
 :
 :
@@ -333,9 +330,6 @@ true
 {
 dir_path_
 =
-webrtc
-:
-:
 test
 :
 :
@@ -389,9 +383,6 @@ std
 :
 string
 (
-webrtc
-:
-:
 test
 :
 :
@@ -402,9 +393,6 @@ kPathDelimiter
 }
 ASSERT_TRUE
 (
-webrtc
-:
-:
 test
 :
 :
@@ -462,9 +450,6 @@ stream_
 ;
 EXPECT_TRUE
 (
-webrtc
-:
-:
 test
 :
 :
@@ -1205,9 +1190,6 @@ i
 {
 EXPECT_TRUE
 (
-webrtc
-:
-:
 test
 :
 :
@@ -1270,9 +1252,6 @@ i
 {
 EXPECT_TRUE
 (
-webrtc
-:
-:
 test
 :
 :
@@ -1536,9 +1515,6 @@ std
 :
 string
 (
-webrtc
-:
-:
 test
 :
 :
@@ -2065,9 +2041,6 @@ max_total_log_size
 {
 dir_path_
 =
-webrtc
-:
-:
 test
 :
 :
@@ -2116,9 +2089,6 @@ std
 :
 string
 (
-webrtc
-:
-:
 test
 :
 :
@@ -2128,9 +2098,6 @@ kPathDelimiter
 ;
 ASSERT_TRUE
 (
-webrtc
-:
-:
 test
 :
 :
@@ -2186,9 +2153,6 @@ stream_
 ;
 EXPECT_TRUE
 (
-webrtc
-:
-:
 test
 :
 :

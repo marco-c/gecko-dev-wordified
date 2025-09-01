@@ -363,9 +363,6 @@ if
 algorithm
 =
 =
-webrtc
-:
-:
 DIGEST_MD5
 )
 {
@@ -382,9 +379,6 @@ if
 algorithm
 =
 =
-webrtc
-:
-:
 DIGEST_SHA_1
 )
 {
@@ -401,9 +395,6 @@ if
 algorithm
 =
 =
-webrtc
-:
-:
 DIGEST_SHA_224
 )
 {
@@ -420,9 +411,6 @@ if
 algorithm
 =
 =
-webrtc
-:
-:
 DIGEST_SHA_256
 )
 {
@@ -439,9 +427,6 @@ if
 algorithm
 =
 =
-webrtc
-:
-:
 DIGEST_SHA_384
 )
 {
@@ -458,9 +443,6 @@ if
 algorithm
 =
 =
-webrtc
-:
-:
 DIGEST_SHA_512
 )
 {
@@ -556,9 +538,6 @@ NID_md5
 *
 algorithm
 =
-webrtc
-:
-:
 DIGEST_MD5
 ;
 }
@@ -574,9 +553,6 @@ NID_sha1
 *
 algorithm
 =
-webrtc
-:
-:
 DIGEST_SHA_1
 ;
 }
@@ -592,9 +568,6 @@ NID_sha224
 *
 algorithm
 =
-webrtc
-:
-:
 DIGEST_SHA_224
 ;
 }
@@ -610,9 +583,6 @@ NID_sha256
 *
 algorithm
 =
-webrtc
-:
-:
 DIGEST_SHA_256
 ;
 }
@@ -628,9 +598,6 @@ NID_sha384
 *
 algorithm
 =
-webrtc
-:
-:
 DIGEST_SHA_384
 ;
 }
@@ -646,9 +613,6 @@ NID_sha512
 *
 algorithm
 =
-webrtc
-:
-:
 DIGEST_SHA_512
 ;
 }

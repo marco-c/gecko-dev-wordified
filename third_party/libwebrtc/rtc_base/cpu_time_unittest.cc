@@ -531,9 +531,6 @@ kProcessingTimeMillisecs
 kAllowedErrorMillisecs
 )
 *
-webrtc
-:
-:
 kNumNanosecsPerMillisec
 )
 ;
@@ -574,9 +571,6 @@ kProcessingTimeMillisecs
 kAllowedErrorMillisecs
 )
 *
-webrtc
-:
-:
 kNumNanosecsPerMillisec
 )
 ;
@@ -597,9 +591,6 @@ GetProcessCpuTimeNanos
 (
 )
 ;
-webrtc
-:
-:
 SleepMs
 (
 kProcessingTimeMillisecs
@@ -644,9 +635,6 @@ kProcessingTimeMillisecs
 kAllowedErrorMillisecs
 )
 *
-webrtc
-:
-:
 kNumNanosecsPerMillisec
 )
 ;

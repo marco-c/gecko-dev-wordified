@@ -1151,9 +1151,6 @@ GetState
 ;
 EXPECT_TRUE
 (
-webrtc
-:
-:
 IsUnspecOrEmptyIP
 (
 client1
@@ -1218,9 +1215,6 @@ GetState
 ;
 EXPECT_TRUE
 (
-webrtc
-:
-:
 IsUnspecOrEmptyIP
 (
 client2
@@ -1345,9 +1339,6 @@ server
 get
 (
 )
-webrtc
-:
-:
 testing
 :
 :
@@ -1470,9 +1461,6 @@ client1
 get
 (
 )
-webrtc
-:
-:
 testing
 :
 :
@@ -1491,9 +1479,6 @@ client1
 get
 (
 )
-webrtc
-:
-:
 testing
 :
 :
@@ -1518,9 +1503,6 @@ fail
 .
 EXPECT_THAT
 (
-webrtc
-:
-:
 WaitUntil
 (
 [
@@ -1538,9 +1520,6 @@ server
 get
 (
 )
-webrtc
-:
-:
 testing
 :
 :
@@ -1558,9 +1537,6 @@ IsTrue
 (
 )
 )
-webrtc
-:
-:
 IsRtcOk
 (
 )
@@ -1636,9 +1612,6 @@ server
 get
 (
 )
-webrtc
-:
-:
 testing
 :
 :
@@ -1761,9 +1734,6 @@ client2
 get
 (
 )
-webrtc
-:
-:
 testing
 :
 :
@@ -1782,9 +1752,6 @@ client2
 get
 (
 )
-webrtc
-:
-:
 testing
 :
 :
@@ -1809,9 +1776,6 @@ succeed
 .
 EXPECT_THAT
 (
-webrtc
-:
-:
 WaitUntil
 (
 [
@@ -1829,9 +1793,6 @@ server
 get
 (
 )
-webrtc
-:
-:
 testing
 :
 :
@@ -1849,9 +1810,6 @@ IsTrue
 (
 )
 )
-webrtc
-:
-:
 IsRtcOk
 (
 )

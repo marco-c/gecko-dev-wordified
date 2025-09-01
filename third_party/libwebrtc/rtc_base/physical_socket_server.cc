@@ -1207,9 +1207,6 @@ result
 0
 )
 {
-webrtc
-:
-:
 SocketAddressFromSockAddrStorage
 (
 addr_storage
@@ -1307,9 +1304,6 @@ result
 0
 )
 {
-webrtc
-:
-:
 SocketAddressFromSockAddrStorage
 (
 addr_storage
@@ -1508,9 +1502,6 @@ copied_bind_addr
 .
 SetIP
 (
-webrtc
-:
-:
 GetAnyIP
 (
 copied_bind_addr
@@ -2081,9 +2072,6 @@ CS_CONNECTED
 else
 if
 (
-webrtc
-:
-:
 IsBlockingError
 (
 GetError
@@ -2847,9 +2835,6 @@ sent
 0
 &
 &
-webrtc
-:
-:
 IsBlockingError
 (
 GetError
@@ -3030,9 +3015,6 @@ sent
 0
 &
 &
-webrtc
-:
-:
 IsBlockingError
 (
 GetError
@@ -3221,9 +3203,6 @@ received
 )
 |
 |
-webrtc
-:
-:
 IsBlockingError
 (
 error
@@ -3321,9 +3300,6 @@ received
 )
 |
 |
-webrtc
-:
-:
 IsBlockingError
 (
 error
@@ -3502,9 +3478,6 @@ received
 )
 |
 |
-webrtc
-:
-:
 IsBlockingError
 (
 error
@@ -3975,9 +3948,6 @@ if
 out_addr
 )
 {
-webrtc
-:
-:
 SocketAddressFromSockAddrStorage
 (
 addr_storage
@@ -4257,9 +4227,6 @@ out_addr
 =
 nullptr
 )
-webrtc
-:
-:
 SocketAddressFromSockAddrStorage
 (
 addr_storage

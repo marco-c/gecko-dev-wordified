@@ -975,9 +975,6 @@ fake_clock_
 >
 AdvanceTime
 (
-webrtc
-:
-:
 TimeDelta
 :
 :

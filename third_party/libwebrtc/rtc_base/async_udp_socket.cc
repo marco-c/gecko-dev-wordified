@@ -486,9 +486,6 @@ options
 info_signaled_after_sent
 )
 ;
-webrtc
-:
-:
 CopySocketInformationToPacketInfo
 (
 cb
@@ -558,9 +555,6 @@ options
 info_signaled_after_sent
 )
 ;
-webrtc
-:
-:
 CopySocketInformationToPacketInfo
 (
 cb

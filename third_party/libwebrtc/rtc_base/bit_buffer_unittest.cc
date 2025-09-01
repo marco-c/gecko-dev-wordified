@@ -161,14 +161,6 @@ testing
 :
 ElementsAre
 ;
-using
-:
-:
-webrtc
-:
-:
-BitstreamReader
-;
 TEST
 (
 BitBufferWriterTest

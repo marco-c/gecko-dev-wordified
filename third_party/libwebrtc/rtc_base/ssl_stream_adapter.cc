@@ -507,9 +507,6 @@ AnyInvocable
 <
 void
 (
-webrtc
-:
-:
 SSLHandshakeError
 )
 >

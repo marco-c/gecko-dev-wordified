@@ -210,9 +210,6 @@ AF_INET6
 int
 ip_attributes
 =
-webrtc
-:
-:
 IPV6_ADDRESS_FLAG_NONE
 ;
 if
@@ -309,9 +306,6 @@ ip_attributes
 *
 ip_attributes
 =
-webrtc
-:
-:
 IPV6_ADDRESS_FLAG_NONE
 ;
 return

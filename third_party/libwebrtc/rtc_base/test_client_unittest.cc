@@ -416,9 +416,6 @@ main_thread
 socket_server
 )
 ;
-webrtc
-:
-:
 TestEchoServer
 server
 (

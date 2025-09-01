@@ -1119,9 +1119,6 @@ auto
 *
 current_tq
 =
-webrtc
-:
-:
 TaskQueueBase
 :
 :
@@ -1185,9 +1182,6 @@ environment
 ASSERT_NE
 (
 current_tq
-webrtc
-:
-:
 TaskQueueBase
 :
 :

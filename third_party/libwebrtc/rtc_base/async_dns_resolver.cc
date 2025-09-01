@@ -889,9 +889,6 @@ void
 function
 )
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -930,9 +927,6 @@ Kill
 (
 )
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -949,9 +943,6 @@ kDead
 ;
 }
 private
-:
-webrtc
-:
 :
 Mutex
 mutex_
@@ -1121,9 +1112,6 @@ flag
 )
 caller_task_queue
 =
-webrtc
-:
-:
 TaskQueueBase
 :
 :

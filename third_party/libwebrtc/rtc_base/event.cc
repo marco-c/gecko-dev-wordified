@@ -203,14 +203,6 @@ h
 namespace
 webrtc
 {
-using
-:
-:
-webrtc
-:
-:
-TimeDelta
-;
 Event
 :
 :
@@ -1151,9 +1143,6 @@ error
 ETIMEDOUT
 )
 {
-webrtc
-:
-:
 WarnThatTheCurrentThreadIsProbablyDeadlocked
 (
 )

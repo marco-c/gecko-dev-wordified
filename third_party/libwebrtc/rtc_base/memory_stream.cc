@@ -155,9 +155,6 @@ GetState
 const
 {
 return
-webrtc
-:
-:
 SS_OPEN
 ;
 }
@@ -189,9 +186,6 @@ data_length_
 )
 {
 return
-webrtc
-:
-:
 SR_EOS
 ;
 }
@@ -262,9 +256,6 @@ bytes_read
 bytes
 ;
 return
-webrtc
-:
-:
 SR_SUCCESS
 ;
 }
@@ -373,9 +364,6 @@ error
 ;
 if
 (
-webrtc
-:
-:
 SR_SUCCESS
 !
 =
@@ -459,9 +447,6 @@ bytes_written
 bytes
 ;
 return
-webrtc
-:
-:
 SR_SUCCESS
 ;
 }
@@ -581,9 +566,6 @@ size
 {
 return
 (
-webrtc
-:
-:
 SR_SUCCESS
 =
 =
@@ -762,9 +744,6 @@ buffer_length_
 size
 )
 return
-webrtc
-:
-:
 SR_SUCCESS
 ;
 if
@@ -815,9 +794,6 @@ buffer_length_
 size
 ;
 return
-webrtc
-:
-:
 SR_SUCCESS
 ;
 }
@@ -833,9 +809,6 @@ ENOMEM
 ;
 }
 return
-webrtc
-:
-:
 SR_ERROR
 ;
 }
