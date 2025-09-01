@@ -264,6 +264,7 @@ layers
 :
 Image
 >
+TimeStamp
 >
 &
 GeneratedImageEvent
@@ -346,6 +347,7 @@ layers
 :
 Image
 >
+TimeStamp
 >
 mGeneratedImageEvent
 ;
