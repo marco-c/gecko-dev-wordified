@@ -5348,7 +5348,7 @@ end
 "
 this
 __FUNCTION__
-GetBoolName
+TrueOrFalse
 (
 aDoneDrag
 )
@@ -5402,7 +5402,7 @@ now
 "
 this
 __FUNCTION__
-GetBoolName
+TrueOrFalse
 (
 aDoneDrag
 )
@@ -5455,12 +5455,12 @@ s
 "
 this
 __FUNCTION__
-GetBoolName
+TrueOrFalse
 (
 aDoneDrag
 )
 aKeyModifiers
-GetBoolName
+TrueOrFalse
 (
 mDoingDrag
 )
@@ -9619,7 +9619,7 @@ mDelayedDropBrowserParent
 get
 (
 )
-GetBoolName
+TrueOrFalse
 (
 aShouldDrop
 )
@@ -9794,7 +9794,7 @@ aPt
 .
 y
 )
-GetBoolName
+TrueOrFalse
 (
 aShouldDrop
 )
@@ -10283,7 +10283,7 @@ EndDragSession
 "
 this
 __FUNCTION__
-GetBoolName
+TrueOrFalse
 (
 edsData
 -

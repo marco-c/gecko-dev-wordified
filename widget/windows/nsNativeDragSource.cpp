@@ -440,12 +440,12 @@ button
 s
 "
 __FUNCTION__
-GetBoolName
+TrueOrFalse
 (
 fEsc
 )
 grfKeyState
-GetBoolName
+TrueOrFalse
 (
 (
 grfKeyState
