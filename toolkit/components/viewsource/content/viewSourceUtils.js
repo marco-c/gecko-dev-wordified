@@ -1062,7 +1062,8 @@ of
 param
 aGetBrowserFn
 *
-A
+An
+async
 function
 that
 will
@@ -1123,8 +1124,11 @@ this
 .
 getViewSourceActor
 (
+(
+await
 aGetBrowserFn
 (
+)
 )
 .
 browsingContext

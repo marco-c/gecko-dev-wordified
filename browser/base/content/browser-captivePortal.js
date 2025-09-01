@@ -1270,6 +1270,7 @@ windows
 if
 (
 win
+?
 .
 document
 .

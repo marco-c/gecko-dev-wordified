@@ -6425,6 +6425,12 @@ nsAString
 workspaceID
 )
 ;
+bool
+IsCloaked
+(
+)
+const
+;
 void
 NotifyDefaultButtonLoaded
 (
@@ -7771,6 +7777,7 @@ nsIWidget
 GetMainWidget
 (
 )
+const
 ;
 nsIWidget
 *
