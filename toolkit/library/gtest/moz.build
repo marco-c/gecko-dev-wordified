@@ -94,6 +94,14 @@ bin
 /
 gtest
 "
+if
+CONFIG
+[
+"
+ENABLE_TESTS
+"
+]
+:
 USE_LIBS
 +
 =
