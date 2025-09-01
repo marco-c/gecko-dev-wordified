@@ -3074,7 +3074,7 @@ return
 state
 ;
 }
-void
+EDescriptionValueFlag
 HTMLComboboxAccessible
 :
 :
@@ -3119,6 +3119,9 @@ via
 aria
 -
 describedby
+EDescriptionValueFlag
+descFlag
+=
 LocalAccessible
 :
 :
@@ -3136,8 +3139,11 @@ IsEmpty
 (
 )
 )
+{
 return
+descFlag
 ;
+}
 /
 /
 Otherwise
@@ -3159,6 +3165,8 @@ if
 (
 option
 )
+{
+return
 option
 -
 >
@@ -3166,6 +3174,10 @@ Description
 (
 aDescription
 )
+;
+}
+return
+eDescriptionOK
 ;
 }
 void

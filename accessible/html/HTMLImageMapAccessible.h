@@ -273,7 +273,7 @@ aDoc
 /
 LocalAccessible
 virtual
-void
+EDescriptionValueFlag
 Description
 (
 nsString

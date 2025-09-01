@@ -989,7 +989,7 @@ Shutdown
 override
 ;
 virtual
-void
+EDescriptionValueFlag
 Description
 (
 nsString

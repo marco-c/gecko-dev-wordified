@@ -1205,7 +1205,7 @@ return
 flag
 ;
 }
-void
+EDescriptionValueFlag
 XULMenuitemAccessible
 :
 :
@@ -1233,6 +1233,9 @@ nsGkAtoms
 description
 aDescription
 )
+;
+return
+eDescriptionOK
 ;
 }
 KeyBinding
