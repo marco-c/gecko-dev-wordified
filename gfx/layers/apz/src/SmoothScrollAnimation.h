@@ -281,10 +281,6 @@ Create
 AsyncPanZoomController
 &
 aApzc
-const
-nsPoint
-&
-aInitialPosition
 ScrollOrigin
 aOrigin
 )
@@ -308,10 +304,6 @@ CreateForKeyboard
 AsyncPanZoomController
 &
 aApzc
-const
-nsPoint
-&
-aInitialPosition
 ScrollOrigin
 aOrigin
 )
@@ -335,10 +327,6 @@ CreateForWheel
 AsyncPanZoomController
 &
 aApzc
-const
-nsPoint
-&
-aInitialPosition
 ScrollWheelInput
 :
 :
@@ -514,10 +502,6 @@ aKind
 AsyncPanZoomController
 &
 aApzc
-const
-nsPoint
-&
-aInitialPosition
 ScrollOrigin
 aOrigin
 )
