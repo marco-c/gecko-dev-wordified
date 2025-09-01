@@ -1949,12 +1949,6 @@ FastHashMap
 default
 (
 )
-FastHashMap
-:
-:
-default
-(
-)
 ]
 prim_instances_with_scissor
 :
