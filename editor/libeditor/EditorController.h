@@ -154,7 +154,7 @@ final
 public
 :
 static
-nsresult
+void
 RegisterEditorCommands
 (
 nsControllerCommandTable
@@ -163,7 +163,7 @@ aCommandTable
 )
 ;
 static
-nsresult
+void
 RegisterEditingCommands
 (
 nsControllerCommandTable

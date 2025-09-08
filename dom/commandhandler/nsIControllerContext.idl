@@ -100,13 +100,6 @@ nsISupports
 .
 idl
 "
-#
-include
-"
-nsIControllerCommandTable
-.
-idl
-"
 [
 scriptable
 builtinclass

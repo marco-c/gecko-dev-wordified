@@ -123,7 +123,7 @@ final
 public
 :
 static
-nsresult
+void
 RegisterEditorDocStateCommands
 (
 nsControllerCommandTable
@@ -132,7 +132,7 @@ aCommandTable
 )
 ;
 static
-nsresult
+void
 RegisterHTMLEditorCommands
 (
 nsControllerCommandTable

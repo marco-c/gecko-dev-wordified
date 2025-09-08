@@ -144,13 +144,6 @@ h
 #
 include
 "
-nsIInterfaceRequestor
-.
-h
-"
-#
-include
-"
 nsIWeakReferenceUtils
 .
 h
@@ -184,8 +177,6 @@ public
 nsIController
 public
 nsIControllerContext
-public
-nsIInterfaceRequestor
 public
 nsICommandController
 {
@@ -236,7 +227,6 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSICONTROLLER
 NS_DECL_NSICOMMANDCONTROLLER
 NS_DECL_NSICONTROLLERCONTEXT
-NS_DECL_NSIINTERFACEREQUESTOR
 static
 already_AddRefed
 <

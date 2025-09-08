@@ -123,6 +123,13 @@ nsGlobalWindowCommands_h__
 #
 include
 "
+nsStringFwd
+.
+h
+"
+#
+include
+"
 nscore
 .
 h
@@ -153,7 +160,7 @@ nsWindowCommandRegistration
 public
 :
 static
-nsresult
+void
 RegisterWindowCommands
 (
 nsControllerCommandTable
@@ -244,8 +251,8 @@ bool
 FindScrollCommand
 (
 const
-char
-*
+nsACString
+&
 aCommandName
 KeyboardScrollAction
 *
