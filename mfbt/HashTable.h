@@ -1513,6 +1513,7 @@ AllocPolicy
 MallocAllocPolicy
 >
 class
+MOZ_STANDALONE_DEBUG
 HashMap
 {
 /
@@ -11786,6 +11787,7 @@ class
 AllocPolicy
 >
 class
+MOZ_STANDALONE_DEBUG
 HashTable
 :
 private
