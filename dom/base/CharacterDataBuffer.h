@@ -1747,7 +1747,7 @@ you
 *
 should
 use
-GetFirstChar
+SafeFirstChar
 (
 )
 instead
@@ -1834,7 +1834,7 @@ you
 *
 should
 use
-GetLastChar
+SafeLastChar
 (
 )
 instead
