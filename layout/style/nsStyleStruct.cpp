@@ -2255,7 +2255,7 @@ Invalid
 (
 )
 ;
-Servo_ResolveAnchorSizeFunction
+Servo_ResolveAnchorSizeFunctionForMargin
 (
 &
 *
@@ -10115,7 +10115,7 @@ Invalid
 (
 )
 ;
-Servo_ResolveAnchorSizeFunction
+Servo_ResolveAnchorSizeFunctionForInset
 (
 &
 *
@@ -10126,8 +10126,6 @@ AsAnchorSizeFunction
 )
 &
 aParams
-.
-mBaseParams
 ToStylePhysicalAxis
 (
 aSide
@@ -10267,7 +10265,7 @@ Invalid
 (
 )
 ;
-Servo_ResolveAnchorSizeFunction
+Servo_ResolveAnchorSizeFunctionForSize
 (
 &
 *
@@ -10504,7 +10502,7 @@ Invalid
 (
 )
 ;
-Servo_ResolveAnchorSizeFunction
+Servo_ResolveAnchorSizeFunctionForMaxSize
 (
 &
 *
