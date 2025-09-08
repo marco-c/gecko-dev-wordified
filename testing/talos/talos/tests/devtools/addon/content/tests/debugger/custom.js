@@ -1524,7 +1524,7 @@ dbg
 .
 actions
 .
-closeTabs
+closeTabsForSources
 (
 [
 findSource
@@ -1843,7 +1843,7 @@ dbg
 .
 actions
 .
-closeTabs
+closeTabsForSources
 (
 [
 findSource
@@ -1940,8 +1940,6 @@ source
 footer
 .
 prettyPrint
-.
-active
 "
 )
 ;
@@ -2457,7 +2455,7 @@ dbg
 .
 actions
 .
-closeTabs
+closeTabsForSources
 (
 sources
 )
@@ -2761,7 +2759,7 @@ dbg
 .
 actions
 .
-closeTabs
+closeTabsForSources
 (
 sources
 )

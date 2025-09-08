@@ -210,7 +210,7 @@ dbg
 .
 store
 "
-CLOSE_TABS
+CLOSE_TABS_FOR_SOURCES
 "
 )
 ;

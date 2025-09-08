@@ -1912,7 +1912,7 @@ pendingBreakpoints
 ;
 asyncStore
 .
-tabs
+openedURLs
 =
 [
 ]
