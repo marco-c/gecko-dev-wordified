@@ -324,8 +324,12 @@ color
 )
 ;
 }
+[
+[
+maybe_unused
+]
+]
 static
-MOZ_MAYBE_UNUSED
 bool
 IsInsideNursery
 (
@@ -347,8 +351,12 @@ isTenured
 )
 ;
 }
+[
+[
+maybe_unused
+]
+]
 static
-MOZ_MAYBE_UNUSED
 bool
 IsInsideNursery
 (

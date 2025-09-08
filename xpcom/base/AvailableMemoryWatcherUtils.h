@@ -179,7 +179,11 @@ proc
 /
 meminfo
 .
-MOZ_MAYBE_UNUSED
+[
+[
+maybe_unused
+]
+]
 static
 nsresult
 ReadMemoryFile

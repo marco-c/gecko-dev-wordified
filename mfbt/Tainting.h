@@ -845,7 +845,11 @@ do
 not
 mark
 it
-MOZ_MAYBE_UNUSED
+[
+[
+maybe_unused
+]
+]
 because
 the
 condition
