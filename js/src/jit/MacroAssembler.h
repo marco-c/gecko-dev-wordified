@@ -11227,7 +11227,7 @@ rhs
 Register
 result
 )
-PER_SHARED_ARCH
+PER_ARCH
 ;
 inline
 void
@@ -11240,7 +11240,7 @@ rhs
 Register
 result
 )
-PER_SHARED_ARCH
+PER_ARCH
 ;
 inline
 void
@@ -11253,7 +11253,7 @@ rhs
 Register
 result
 )
-PER_SHARED_ARCH
+PER_ARCH
 ;
 inline
 void
@@ -11266,7 +11266,7 @@ rhs
 Register
 result
 )
-PER_SHARED_ARCH
+PER_ARCH
 ;
 inline
 void
@@ -11279,7 +11279,7 @@ rhs
 Register
 result
 )
-PER_SHARED_ARCH
+PER_ARCH
 ;
 inline
 void
@@ -11292,7 +11292,7 @@ rhs
 Register
 result
 )
-PER_SHARED_ARCH
+PER_ARCH
 ;
 inline
 void
@@ -11305,7 +11305,7 @@ rhs
 Register
 result
 )
-PER_SHARED_ARCH
+PER_ARCH
 ;
 inline
 void
@@ -11318,7 +11318,7 @@ rhs
 Register
 result
 )
-PER_SHARED_ARCH
+PER_ARCH
 ;
 /
 /
