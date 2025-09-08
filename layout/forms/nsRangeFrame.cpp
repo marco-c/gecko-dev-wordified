@@ -275,6 +275,13 @@ h
 #
 include
 "
+nsIMutationObserver
+.
+h
+"
+#
+include
+"
 nsLayoutUtils
 .
 h
@@ -4263,7 +4270,7 @@ aNameSpaceID
 nsAtom
 *
 aAttribute
-int32_t
+AttrModType
 aModType
 )
 {
@@ -4626,10 +4633,10 @@ isRemoval
 aModType
 =
 =
-MutationEvent_Binding
+AttrModType
 :
 :
-REMOVAL
+Removal
 ;
 if
 (

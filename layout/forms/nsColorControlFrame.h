@@ -274,7 +274,7 @@ aNameSpaceID
 nsAtom
 *
 aAttribute
-int32_t
+AttrModType
 aModType
 )
 override

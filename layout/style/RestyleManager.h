@@ -226,6 +226,19 @@ nsStyleChangeList
 class
 nsStyleChangeList
 ;
+enum
+class
+AttrModType
+:
+uint8_t
+;
+/
+/
+Defined
+in
+nsIMutationObserver
+.
+h
 namespace
 mozilla
 {
@@ -2743,7 +2756,7 @@ aNameSpaceID
 nsAtom
 *
 aAttribute
-int32_t
+AttrModType
 aModType
 )
 ;
@@ -2772,7 +2785,7 @@ aNameSpaceID
 nsAtom
 *
 aAttribute
-int32_t
+AttrModType
 aModType
 const
 nsAttrValue

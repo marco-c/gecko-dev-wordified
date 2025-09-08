@@ -580,6 +580,13 @@ h
 #
 include
 "
+nsIMutationObserver
+.
+h
+"
+#
+include
+"
 nsLayoutUtils
 .
 h
@@ -14375,10 +14382,10 @@ AttributeChanged
 (
 aNameSpaceID
 aAttribute
-MutationEvent_Binding
+AttrModType
 :
 :
-MODIFICATION
+Modification
 )
 ;
 SVGObserverUtils

@@ -348,7 +348,7 @@ aNameSpaceID
 nsAtom
 *
 aAttribute
-int32_t
+AttrModType
 aModType
 )
 override
@@ -952,7 +952,7 @@ aNameSpaceID
 nsAtom
 *
 aAttribute
-int32_t
+AttrModType
 aModType
 )
 override
@@ -1283,7 +1283,7 @@ aNameSpaceID
 nsAtom
 *
 aAttribute
-int32_t
+AttrModType
 aModType
 )
 override

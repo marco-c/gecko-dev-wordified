@@ -1277,7 +1277,7 @@ aNameSpaceID
 nsAtom
 *
 aAttribute
-int32_t
+AttrModType
 aModType
 )
 {
@@ -3473,10 +3473,6 @@ with
 /
 the
 hidden
-=
-"
-true
-"
 attribute
 are
 not
@@ -3501,7 +3497,7 @@ fixed
 element
 -
 >
-GetXULBoolAttr
+GetBoolAttr
 (
 nsGkAtoms
 :
