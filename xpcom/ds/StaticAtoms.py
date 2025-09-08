@@ -8786,16 +8786,6 @@ onDOMMouseScroll
 Atom
 (
 "
-onDOMNodeInserted
-"
-"
-onDOMNodeInserted
-"
-)
-    
-Atom
-(
-"
 onDOMNodeInsertedIntoDocument
 "
 "
