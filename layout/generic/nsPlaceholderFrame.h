@@ -1109,6 +1109,7 @@ nsIFrame
 *
 GetRealFrameForPlaceholder
 (
+const
 nsIFrame
 *
 aFrame
@@ -1138,6 +1139,7 @@ outOfFlow
 =
 static_cast
 <
+const
 nsPlaceholderFrame
 *
 >
