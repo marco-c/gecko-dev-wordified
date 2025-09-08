@@ -920,6 +920,13 @@ hidden
 "
 )
 ;
+await
+SpecialPowers
+.
+popPrefEnv
+(
+)
+;
 sandbox
 .
 restore
