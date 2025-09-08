@@ -3363,7 +3363,7 @@ nsINode
 IgnoreOwnIndependentSelection
 :
 :
-No
+Yes
 nsINode
 :
 :

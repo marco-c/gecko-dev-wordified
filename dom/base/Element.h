@@ -12566,6 +12566,7 @@ GetPresContext
 PresContextFor
 aFor
 )
+const
 ;
 /
 *

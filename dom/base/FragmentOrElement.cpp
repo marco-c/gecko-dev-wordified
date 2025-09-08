@@ -1619,6 +1619,7 @@ nsIContent
 GetEditingHost
 (
 )
+const
 {
 /
 /
@@ -1787,7 +1788,14 @@ Element
 :
 FromNode
 (
+const_cast
+<
+nsIContent
+*
+>
+(
 this
+)
 )
 ;
 }
