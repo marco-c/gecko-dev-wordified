@@ -1184,6 +1184,13 @@ sys
 .
 mjs
 "
+"
+WebAuthnPromptHelper
+.
+sys
+.
+mjs
+"
 ]
 if
 CONFIG

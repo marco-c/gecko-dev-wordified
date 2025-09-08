@@ -2578,12 +2578,6 @@ init
 (
 )
 ;
-WebAuthnPromptHelper
-.
-init
-(
-)
-;
 BrowserUtils
 .
 callModulesFromCategory
@@ -7073,12 +7067,6 @@ changed
 )
 ;
 BrowserOffline
-.
-uninit
-(
-)
-;
-WebAuthnPromptHelper
 .
 uninit
 (
