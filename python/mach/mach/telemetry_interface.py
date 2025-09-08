@@ -379,6 +379,10 @@ bool
 data_dir
 :
 Path
+        
+configuration
+=
+None
     
 )
 :
@@ -471,6 +475,10 @@ upload_enabled
 data_dir
 =
 data_dir
+            
+configuration
+=
+configuration
         
 )
     
