@@ -135,7 +135,7 @@ target_kind
 "
 :
 "
-test
+mochitest
 "
         
 #
@@ -316,7 +316,7 @@ kind
 =
 =
 "
-test
+mochitest
 "
 )
 :
@@ -436,7 +436,7 @@ kind
 =
 =
 "
-test
+mochitest
 "
                 
 and
