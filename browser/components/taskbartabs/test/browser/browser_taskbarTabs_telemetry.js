@@ -239,7 +239,7 @@ proxyNativeShellService
 ShellService
 .
 shellService
-createIcon
+createWindowsIcon
 :
 sinon
 .
