@@ -1629,7 +1629,7 @@ componentProps
 text
 :
 postData
-mode
+mimeType
 :
 mimeType
 ?
