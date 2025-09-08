@@ -300,6 +300,11 @@ wasmCodeMeta
 {
 }
 void
+begin
+(
+)
+;
+void
 beginFunction
 (
 JSScript
@@ -338,6 +343,11 @@ nullptr
 ;
 void
 endFunction
+(
+)
+;
+void
+end
 (
 )
 ;
