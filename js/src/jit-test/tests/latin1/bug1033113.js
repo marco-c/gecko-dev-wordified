@@ -1,3 +1,8 @@
+function
+test
+(
+)
+{
 var
 s
 =
@@ -139,5 +144,10 @@ latin1Rope2
 "
 barfooaaaaaaaaaaaaaaaaaa111aaaa
 "
+)
+;
+}
+test
+(
 )
 ;
