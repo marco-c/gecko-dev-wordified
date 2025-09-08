@@ -102,17 +102,6 @@ nsJARChannel_h__
 #
 include
 "
-mozilla
-/
-net
-/
-MemoryDownloader
-.
-h
-"
-#
-include
-"
 nsIJARChannel
 .
 h
