@@ -600,11 +600,6 @@ arch
     
 version
     
-depends
-=
-"
-"
-    
 package_name_suffix
 =
 "
@@ -817,12 +812,6 @@ ARCH_NAME
 "
 :
 arch
-        
-"
-DEPENDS
-"
-:
-depends
         
 "
 Icon
