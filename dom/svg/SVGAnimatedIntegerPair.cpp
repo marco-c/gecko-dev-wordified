@@ -361,8 +361,6 @@ GetComposedDoc
 true
 )
 ;
-mEmptyOrOldValue
-=
 mSVGElement
 -
 >
@@ -400,7 +398,6 @@ mIntegerPair
 -
 >
 mAttrEnum
-mEmptyOrOldValue
 mUpdateBatch
 .
 ref
@@ -443,9 +440,6 @@ Maybe
 mozAutoDocUpdate
 >
 mUpdateBatch
-;
-nsAttrValue
-mEmptyOrOldValue
 ;
 bool
 mDoSetAttr

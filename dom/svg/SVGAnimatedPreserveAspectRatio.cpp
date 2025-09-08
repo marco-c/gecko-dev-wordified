@@ -488,8 +488,6 @@ GetComposedDoc
 true
 )
 ;
-mEmptyOrOldValue
-=
 mSVGElement
 -
 >
@@ -519,7 +517,6 @@ mSVGElement
 >
 DidChangePreserveAspectRatio
 (
-mEmptyOrOldValue
 mUpdateBatch
 .
 ref
@@ -562,9 +559,6 @@ Maybe
 mozAutoDocUpdate
 >
 mUpdateBatch
-;
-nsAttrValue
-mEmptyOrOldValue
 ;
 bool
 mDoSetAttr

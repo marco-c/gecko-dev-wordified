@@ -1076,7 +1076,7 @@ aAnimateMotionTransform
 ValToUse
 )
 ;
-nsAttrValue
+void
 WillChangeLength
 (
 uint8_t
@@ -1087,14 +1087,14 @@ mozAutoDocUpdate
 aProofOfUpdate
 )
 ;
-nsAttrValue
+void
 WillChangeNumberPair
 (
 uint8_t
 aAttrEnum
 )
 ;
-nsAttrValue
+void
 WillChangeIntegerPair
 (
 uint8_t
@@ -1105,7 +1105,7 @@ mozAutoDocUpdate
 aProofOfUpdate
 )
 ;
-nsAttrValue
+void
 WillChangeOrient
 (
 const
@@ -1114,7 +1114,7 @@ mozAutoDocUpdate
 aProofOfUpdate
 )
 ;
-nsAttrValue
+void
 WillChangeViewBox
 (
 const
@@ -1123,7 +1123,7 @@ mozAutoDocUpdate
 aProofOfUpdate
 )
 ;
-nsAttrValue
+void
 WillChangePreserveAspectRatio
 (
 const
@@ -1132,7 +1132,7 @@ mozAutoDocUpdate
 aProofOfUpdate
 )
 ;
-nsAttrValue
+void
 WillChangeNumberList
 (
 uint8_t
@@ -1143,7 +1143,7 @@ mozAutoDocUpdate
 aProofOfUpdate
 )
 ;
-nsAttrValue
+void
 WillChangeLengthList
 (
 uint8_t
@@ -1154,7 +1154,7 @@ mozAutoDocUpdate
 aProofOfUpdate
 )
 ;
-nsAttrValue
+void
 WillChangePointList
 (
 const
@@ -1163,7 +1163,7 @@ mozAutoDocUpdate
 aProofOfUpdate
 )
 ;
-nsAttrValue
+void
 WillChangePathSegList
 (
 const
@@ -1172,7 +1172,7 @@ mozAutoDocUpdate
 aProofOfUpdate
 )
 ;
-nsAttrValue
+void
 WillChangeTransformList
 (
 const
@@ -1181,7 +1181,7 @@ mozAutoDocUpdate
 aProofOfUpdate
 )
 ;
-nsAttrValue
+void
 WillChangeStringList
 (
 bool
@@ -1200,10 +1200,6 @@ DidChangeLength
 uint8_t
 aAttrEnum
 const
-nsAttrValue
-&
-aEmptyOrOldValue
-const
 mozAutoDocUpdate
 &
 aProofOfUpdate
@@ -1221,10 +1217,6 @@ DidChangeNumberPair
 (
 uint8_t
 aAttrEnum
-const
-nsAttrValue
-&
-aEmptyOrOldValue
 )
 ;
 void
@@ -1239,10 +1231,6 @@ DidChangeIntegerPair
 (
 uint8_t
 aAttrEnum
-const
-nsAttrValue
-&
-aEmptyOrOldValue
 const
 mozAutoDocUpdate
 &
@@ -1267,10 +1255,6 @@ void
 DidChangeOrient
 (
 const
-nsAttrValue
-&
-aEmptyOrOldValue
-const
 mozAutoDocUpdate
 &
 aProofOfUpdate
@@ -1280,10 +1264,6 @@ void
 DidChangeViewBox
 (
 const
-nsAttrValue
-&
-aEmptyOrOldValue
-const
 mozAutoDocUpdate
 &
 aProofOfUpdate
@@ -1292,10 +1272,6 @@ aProofOfUpdate
 void
 DidChangePreserveAspectRatio
 (
-const
-nsAttrValue
-&
-aEmptyOrOldValue
 const
 mozAutoDocUpdate
 &
@@ -1308,10 +1284,6 @@ DidChangeNumberList
 uint8_t
 aAttrEnum
 const
-nsAttrValue
-&
-aEmptyOrOldValue
-const
 mozAutoDocUpdate
 &
 aProofOfUpdate
@@ -1323,10 +1295,6 @@ DidChangeLengthList
 uint8_t
 aAttrEnum
 const
-nsAttrValue
-&
-aEmptyOrOldValue
-const
 mozAutoDocUpdate
 &
 aProofOfUpdate
@@ -1335,10 +1303,6 @@ aProofOfUpdate
 void
 DidChangePointList
 (
-const
-nsAttrValue
-&
-aEmptyOrOldValue
 const
 mozAutoDocUpdate
 &
@@ -1349,10 +1313,6 @@ void
 DidChangePathSegList
 (
 const
-nsAttrValue
-&
-aEmptyOrOldValue
-const
 mozAutoDocUpdate
 &
 aProofOfUpdate
@@ -1361,10 +1321,6 @@ aProofOfUpdate
 void
 DidChangeTransformList
 (
-const
-nsAttrValue
-&
-aEmptyOrOldValue
 const
 mozAutoDocUpdate
 &
@@ -1386,10 +1342,6 @@ bool
 aIsConditionalProcessingAttribute
 uint8_t
 aAttrEnum
-const
-nsAttrValue
-&
-aEmptyOrOldValue
 const
 mozAutoDocUpdate
 &
@@ -1685,8 +1637,6 @@ DidAnimatePathSegList
 void
 DidAnimateTransformList
 (
-int32_t
-aModType
 )
 ;
 void
@@ -2449,7 +2399,7 @@ nsAString
 aValue
 )
 ;
-nsAttrValue
+void
 WillChangeValue
 (
 nsAtom
@@ -2488,10 +2438,6 @@ DidChangeValue
 nsAtom
 *
 aName
-const
-nsAttrValue
-&
-aEmptyOrOldValue
 nsAttrValue
 &
 aNewValue

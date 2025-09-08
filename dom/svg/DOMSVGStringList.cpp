@@ -455,8 +455,6 @@ stringList
 "
 )
 ;
-mEmptyOrOldValue
-=
 mStringList
 -
 >
@@ -499,7 +497,6 @@ mStringList
 -
 >
 mAttrEnum
-mEmptyOrOldValue
 *
 this
 )
@@ -511,9 +508,6 @@ DOMSVGStringList
 *
 const
 mStringList
-;
-nsAttrValue
-mEmptyOrOldValue
 ;
 }
 ;

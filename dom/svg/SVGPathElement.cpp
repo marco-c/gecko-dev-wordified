@@ -414,8 +414,6 @@ value
 "
 )
 ;
-mEmptyOrOldValue
-=
 mSVGElement
 -
 >
@@ -436,7 +434,6 @@ mSVGElement
 >
 DidChangePathSegList
 (
-mEmptyOrOldValue
 *
 this
 )
@@ -471,9 +468,6 @@ SVGPathElement
 *
 const
 mSVGElement
-;
-nsAttrValue
-mEmptyOrOldValue
 ;
 }
 ;

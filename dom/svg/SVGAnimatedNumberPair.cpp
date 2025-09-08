@@ -334,8 +334,6 @@ if
 mDoSetAttr
 )
 {
-mEmptyOrOldValue
-=
 mSVGElement
 -
 >
@@ -368,7 +366,6 @@ mNumberPair
 -
 >
 mAttrEnum
-mEmptyOrOldValue
 )
 ;
 }
@@ -400,9 +397,6 @@ SVGElement
 *
 const
 mSVGElement
-;
-nsAttrValue
-mEmptyOrOldValue
 ;
 bool
 mDoSetAttr
