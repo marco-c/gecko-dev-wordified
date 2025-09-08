@@ -2188,11 +2188,6 @@ allvals
 [
 ]
         
-alert_thresholds
-=
-[
-]
-        
 for
 subtest_res
 in
@@ -2273,6 +2268,10 @@ a
 metric
 specification
             
+subtest_alert_threshold
+=
+alert_threshold
+            
 subtest_lower_is_better
 =
 lower_is_better
@@ -2315,11 +2314,8 @@ extraOptions
 )
 )
                 
-alert_thresholds
-.
-append
-(
-                    
+subtest_alert_threshold
+=
 metrics_info
 [
 met
@@ -2327,11 +2323,11 @@ met
 .
 get
 (
+                    
 "
 alertThreshold
 "
 alert_threshold
-)
                 
 )
                 
@@ -2496,6 +2492,22 @@ unit
 )
 or
 subtest_unit
+                
+"
+alertThreshold
+"
+:
+extra_info
+.
+get
+(
+"
+alert_threshold
+"
+)
+                
+or
+subtest_alert_threshold
             
 }
             
@@ -2735,66 +2747,6 @@ accepted
             
 )
         
-alert_thresholds
-=
-list
-(
-set
-(
-alert_thresholds
-)
-)
-        
-if
-len
-(
-alert_thresholds
-)
->
-1
-:
-            
-raise
-PerfherderValidDataError
-(
-                
-"
-Too
-many
-alertThreshold
-'
-s
-were
-specified
-expecting
-1
-but
-found
-"
-                
-+
-f
-"
-{
-len
-(
-alert_thresholds
-)
-}
-"
-            
-)
-        
-elif
-len
-(
-alert_thresholds
-)
-=
-=
-1
-:
-            
 suite
 [
 "
@@ -2802,10 +2754,7 @@ alertThreshold
 "
 ]
 =
-alert_thresholds
-[
-0
-]
+alert_threshold
         
 suite
 [
