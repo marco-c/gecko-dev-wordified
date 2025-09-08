@@ -2538,10 +2538,6 @@ tasks
 values
 (
 )
-#
-type
-:
-ignore
                 
 if
 t
@@ -2663,10 +2659,6 @@ nodes
 }
             
 target_graph
-#
-type
-:
-ignore
         
 )
         
@@ -2984,10 +2976,10 @@ args
 0
 ]
 def
-load_tasks_for_kind
+load_tasks_for_kinds
 (
 parameters
-kind
+kinds
 root_dir
 =
 None
@@ -3003,9 +2995,9 @@ all
 the
 tasks
 of
-a
+the
 given
-kind
+kinds
 .
     
 This
@@ -3048,9 +3040,7 @@ kinds
 "
 ]
 =
-[
-kind
-]
+kinds
     
 parameters
 =
@@ -3109,8 +3099,58 @@ if
 task
 .
 kind
-=
-=
-kind
+in
+kinds
     
 }
+def
+load_tasks_for_kind
+(
+parameters
+kind
+root_dir
+=
+None
+)
+:
+    
+"
+"
+"
+    
+Get
+all
+the
+tasks
+of
+a
+given
+kind
+.
+    
+This
+function
+is
+designed
+to
+be
+called
+from
+outside
+of
+taskgraph
+.
+    
+"
+"
+"
+    
+return
+load_tasks_for_kinds
+(
+parameters
+[
+kind
+]
+root_dir
+)

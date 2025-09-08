@@ -295,10 +295,6 @@ values
 (
 )
 )
-#
-type
-:
-ignore
     
 def
 to_json

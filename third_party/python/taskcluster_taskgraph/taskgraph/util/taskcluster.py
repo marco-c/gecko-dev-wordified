@@ -1320,10 +1320,6 @@ status_code
 =
 404
 :
-#
-type
-:
-ignore
             
 raise
 KeyError
@@ -2165,6 +2161,11 @@ would
 have
 retrieved
 status
+and
+return
+an
+empty
+dict
 .
     
 Args
@@ -2257,6 +2258,10 @@ task_id
 .
 "
 )
+        
+return
+{
+}
     
 else
 :
@@ -2772,10 +2777,6 @@ or
 "
 unknown
 "
-#
-type
-:
-ignore
         
 return
 status
