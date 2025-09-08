@@ -570,6 +570,16 @@ nsString
 aOperator
 )
 ;
+static
+nsString
+GetMirroredOperator
+(
+const
+nsString
+&
+aOperator
+)
+;
 /
 /
 Helper
