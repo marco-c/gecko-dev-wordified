@@ -175,6 +175,20 @@ nsILoadGroup
 class
 nsIFrame
 ;
+#
+define
+OBSERVER_SVC_CID
+"
+mozilla
+.
+org
+/
+observer
+-
+service
+;
+1
+"
 namespace
 mozilla
 {
@@ -260,7 +274,6 @@ SVGDocument
 GetDocument
 (
 )
-const
 ;
 /
 *
@@ -296,7 +309,6 @@ SVGSVGElement
 GetRootSVGElem
 (
 )
-const
 ;
 /
 *
@@ -339,7 +351,6 @@ nsIFrame
 GetRootLayoutFrame
 (
 )
-const
 ;
 /
 *
@@ -358,6 +369,7 @@ document
 .
 *
 /
+inline
 mozilla
 :
 :
@@ -366,7 +378,6 @@ PresShell
 GetPresShell
 (
 )
-const
 {
 return
 mViewer
@@ -557,7 +568,6 @@ bool
 IsAnimated
 (
 )
-const
 ;
 /
 *
@@ -675,7 +685,6 @@ float
 GetCurrentTimeAsFloat
 (
 )
-const
 ;
 void
 SetCurrentTime
