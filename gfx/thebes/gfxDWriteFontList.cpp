@@ -10847,7 +10847,7 @@ factory
 Factory
 :
 :
-GetDWriteFactory
+EnsureDWriteFactory
 (
 )
 ;
