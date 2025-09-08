@@ -591,6 +591,9 @@ const
 LlamaModelOptions
 &
 aOptions
+FILE
+*
+aFp
 )
 ;
 /
