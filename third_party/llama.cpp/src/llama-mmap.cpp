@@ -3181,6 +3181,12 @@ defined
 (
 _AIX
 )
+|
+|
+defined
+(
+__sun__
+)
 /
 /
 visionOS
