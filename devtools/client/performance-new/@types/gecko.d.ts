@@ -1865,6 +1865,14 @@ void
 wm
 :
 {
+getMostRecentBrowserWindow
+:
+(
+)
+=
+>
+BrowserWindow
+;
 getMostRecentWindow
 :
 (
@@ -1966,6 +1974,10 @@ AppConstantsSYSMJS
 AppConstants
 :
 {
+MOZ_APP_NAME
+:
+string
+;
 platform
 :
 string
