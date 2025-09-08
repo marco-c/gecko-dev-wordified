@@ -211,12 +211,15 @@ _get_loader
 (
 self
 )
+-
+>
+Callable
 :
         
 try
 :
             
-loader
+loader_path
 =
 self
 .
@@ -231,7 +234,7 @@ except
 KeyError
 :
             
-loader
+loader_path
 =
 "
 taskgraph
@@ -243,11 +246,21 @@ default
 loader
 "
         
-return
+loader
+=
 find_object
+(
+loader_path
+)
+        
+assert
+callable
 (
 loader
 )
+        
+return
+loader
     
 def
 load_tasks
