@@ -166,6 +166,9 @@ mMaxFrameSizeMs
 uint32_t
 mMinFrameSizeMs
 ;
+AudioEncodingConstraints
+mEncodingConstraints
+;
 /
 /
 OPUS
@@ -343,6 +346,14 @@ mMinFrameSizeMs
 aOther
 .
 mMinFrameSizeMs
+&
+&
+mEncodingConstraints
+=
+=
+aOther
+.
+mEncodingConstraints
 &
 &
 mDTXEnabled
