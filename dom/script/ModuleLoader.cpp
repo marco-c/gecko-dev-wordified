@@ -2854,7 +2854,7 @@ aSriMetadata
 aReferrerScript
 -
 >
-GetURI
+BaseURL
 (
 )
 newContext

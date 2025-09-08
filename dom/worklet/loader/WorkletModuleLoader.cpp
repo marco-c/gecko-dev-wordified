@@ -806,7 +806,7 @@ referrer
 aReferrerScript
 -
 >
-GetURI
+BaseURL
 (
 )
 ;
