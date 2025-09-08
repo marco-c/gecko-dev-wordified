@@ -2919,7 +2919,7 @@ inner
 aWorkerPrivate
 -
 >
-GetWindow
+GetAncestorWindow
 (
 )
 ;
