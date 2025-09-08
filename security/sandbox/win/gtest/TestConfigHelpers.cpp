@@ -140,7 +140,7 @@ string
 #
 include
 <
-winreg
+windows
 .
 h
 >
