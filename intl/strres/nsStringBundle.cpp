@@ -4787,6 +4787,12 @@ ignoreShared
 false
 )
 ;
+mBundleMap
+.
+Clear
+(
+)
+;
 }
 else
 if
