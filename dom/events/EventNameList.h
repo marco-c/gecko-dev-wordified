@@ -2110,13 +2110,6 @@ eMutationEventClass
 )
 NON_IDL_EVENT
 (
-DOMSubtreeModified
-eLegacySubtreeModified
-EventNameType_HTMLXUL
-eMutationEventClass
-)
-NON_IDL_EVENT
-(
 DOMActivate
 eLegacyDOMActivate
 EventNameType_HTMLXUL

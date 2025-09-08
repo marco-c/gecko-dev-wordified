@@ -1003,17 +1003,6 @@ mutation
 DOMNodeRemoved
 "
 )
-nodeEvent
-(
-"
-dom
--
-mutation
-"
-"
-DOMSubtreeModified
-"
-)
 /
 /
 DOM
