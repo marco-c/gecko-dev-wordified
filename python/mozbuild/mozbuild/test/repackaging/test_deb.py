@@ -1000,7 +1000,7 @@ StartupWMClass
 =
 firefox
 -
-aurora
+dev
 Categories
 =
 GNOME
@@ -2021,6 +2021,16 @@ firefox
 -
 nightly
 "
+        
+"
+REMOTING_NAME
+"
+:
+"
+firefox
+-
+nightly
+"
     
 }
     
@@ -2492,6 +2502,16 @@ Icon
 firefox
 -
 devedition
+"
+        
+"
+REMOTING_NAME
+"
+:
+"
+firefox
+-
+dev
 "
     
 }

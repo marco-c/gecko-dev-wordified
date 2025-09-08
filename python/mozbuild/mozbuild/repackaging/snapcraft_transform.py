@@ -1096,7 +1096,7 @@ png
 "
             
 "
-StartupWMClass
+REMOTING_NAME
 "
 :
 wmclass
