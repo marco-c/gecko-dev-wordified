@@ -1372,7 +1372,7 @@ and
 try
 again
 in
-100ms
+10ms
 .
 Other
 exceptions
@@ -1432,7 +1432,7 @@ t
 step_timeout
 (
 helper
-100
+10
 )
 ;
 }
@@ -1443,7 +1443,7 @@ window
 setTimeout
 (
 helper
-100
+10
 )
 ;
 }
@@ -1654,7 +1654,7 @@ and
 try
 again
 in
-100ms
+10ms
 .
 try
 {
@@ -1686,7 +1686,7 @@ t
 step_timeout
 (
 helper
-100
+10
 )
 ;
 }
@@ -1862,7 +1862,7 @@ and
 try
 again
 in
-100ms
+10ms
 .
 try
 {
@@ -1907,7 +1907,7 @@ t
 step_timeout
 (
 helper
-100
+10
 )
 ;
 }
@@ -1969,7 +1969,7 @@ and
 try
 again
 in
-100ms
+10ms
 .
 try
 {
@@ -2015,7 +2015,7 @@ t
 step_timeout
 (
 helper
-100
+10
 )
 ;
 }
