@@ -122,7 +122,7 @@ class
 which
 represents
 a
-fragment
+buffer
 of
 text
 (
@@ -249,11 +249,6 @@ at
 the
 end
 ?
-/
-/
-XXX
-nsTextFragmentPool
-?
 namespace
 mozilla
 :
@@ -265,7 +260,7 @@ dom
 *
 *
 A
-fragment
+buffer
 of
 text
 .
@@ -422,7 +417,7 @@ constructor
 .
 Initialize
 the
-fragment
+buffer
 to
 be
 empty
@@ -479,7 +474,7 @@ the
 contents
 of
 this
-fragment
+buffer
 to
 be
 a
@@ -489,7 +484,7 @@ the
 *
 the
 argument
-fragment
+buffer
 or
 to
 "
@@ -522,7 +517,7 @@ Return
 true
 if
 this
-fragment
+buffer
 is
 represented
 by
@@ -550,7 +545,7 @@ Return
 true
 if
 this
-fragment
+buffer
 contains
 Bidi
 text
@@ -784,7 +779,7 @@ the
 length
 of
 the
-fragment
+buffer
 .
 The
 length
@@ -873,7 +868,7 @@ the
 contents
 of
 this
-fragment
+buffer
 to
 be
 a
@@ -891,7 +886,7 @@ true
 contents
 of
 the
-fragment
+buffer
 will
 be
 scanned
@@ -1088,7 +1083,7 @@ the
 end
 of
 this
-fragment
+buffer
 .
 If
 aUpdateBidi
@@ -1098,7 +1093,7 @@ contents
 *
 of
 the
-fragment
+buffer
 will
 be
 scanned
@@ -1182,8 +1177,8 @@ the
 contents
 of
 this
-string
-fragment
+data
+buffer
 to
 aString
 *
@@ -1236,8 +1231,8 @@ the
 contents
 of
 this
-string
-fragment
+data
+buffer
 to
 aString
 *
@@ -1348,8 +1343,8 @@ the
 contents
 of
 this
-string
-fragment
+data
+buffer
 to
 aString
 .
@@ -1363,8 +1358,8 @@ the
 substring
 in
 this
-text
-fragment
+data
+buffer
 *
 param
 aLength
@@ -1430,8 +1425,8 @@ the
 contents
 of
 this
-string
-fragment
+data
+buffer
 to
 aString
 .
@@ -1454,8 +1449,8 @@ the
 substring
 in
 this
-text
-fragment
+data
+buffer
 *
 param
 aLength
@@ -1625,9 +1620,8 @@ the
 character
 in
 the
-text
--
-fragment
+data
+buffer
 at
 the
 given
@@ -2381,7 +2375,7 @@ the
 text
 in
 this
-fragment
+buffer
 is
 the
 same
@@ -2392,7 +2386,7 @@ in
 the
 *
 other
-fragment
+buffer
 .
 *
 /
@@ -3665,7 +3659,7 @@ char
 offset
 in
 this
-fragment
+buffer
 after
 *
 aOffsetInFragment
@@ -3791,7 +3785,7 @@ char
 offset
 in
 this
-fragment
+buffer
 before
 *
 aOffsetInFragment
@@ -3845,7 +3839,7 @@ Y
 )
 in
 this
-fragment
+buffer
 *
 i
 .
@@ -4019,7 +4013,7 @@ the
 contents
 of
 the
-fragment
+buffer
 and
 turn
 on
