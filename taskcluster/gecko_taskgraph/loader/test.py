@@ -81,6 +81,10 @@ util
 yaml
 import
 load_yaml
+from
+gecko_taskgraph
+import
+TEST_CONFIGS
 logger
 =
 logging
@@ -163,7 +167,7 @@ test_platforms_cfg
 =
 load_yaml
 (
-path
+TEST_CONFIGS
 "
 test
 -
@@ -199,7 +203,7 @@ test_sets_cfg
 =
 load_yaml
 (
-path
+TEST_CONFIGS
 "
 test
 -
