@@ -228,10 +228,6 @@ InstallTriggerDeprecated
 )
 DEPRECATED_OPERATION
 (
-InstallTriggerInstallDeprecated
-)
-DEPRECATED_OPERATION
-(
 NavigatorGetUserMedia
 )
 DEPRECATED_OPERATION
