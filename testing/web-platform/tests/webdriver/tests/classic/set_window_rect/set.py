@@ -1220,7 +1220,7 @@ session
 width
 "
 :
-650
+550
 .
 5
 "
@@ -1252,7 +1252,7 @@ width
 ]
 =
 =
-650
+550
     
 assert
 value
@@ -1275,7 +1275,7 @@ session
 width
 "
 :
-650
+550
 "
 height
 "
@@ -1307,7 +1307,7 @@ width
 ]
 =
 =
-650
+550
     
 assert
 value
