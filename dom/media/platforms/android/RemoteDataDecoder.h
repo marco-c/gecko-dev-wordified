@@ -367,16 +367,7 @@ SetState
 State
 aState
 )
-{
-AssertOnThread
-(
-)
 ;
-mState
-=
-aState
-;
-}
 State
 GetState
 (
