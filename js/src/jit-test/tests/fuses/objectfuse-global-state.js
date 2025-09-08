@@ -101,6 +101,11 @@ false
 }
 )
 ;
+addObjectFuse
+(
+g
+)
+;
 assertEq
 (
 getObjectFuseState
