@@ -2252,6 +2252,12 @@ api_url
 :
 str
     
+verify_tls
+:
+bool
+=
+True
+    
 property
     
 def
@@ -2619,6 +2625,21 @@ token
 access_token
 "
 ]
+            
+verify_tls
+=
+parser
+.
+getboolean
+(
+section
+"
+verify_tls
+"
+fallback
+=
+True
+)
         
 )
     
@@ -2658,6 +2679,7 @@ requests
 .
 post
 (
+            
 url
 headers
 =
@@ -2667,6 +2689,12 @@ api_headers
 json
 =
 body
+verify
+=
+self
+.
+verify_tls
+        
 )
         
 try
@@ -3306,8 +3334,6 @@ id
     
 success_msg
 =
-(
-        
 f
 "
 Lando
@@ -3323,10 +3349,6 @@ duration
 }
 seconds
 .
-"
-        
-f
-"
 Landing
 job
 id
@@ -3336,8 +3358,6 @@ job_id
 }
 .
 "
-    
-)
     
 print
 (
