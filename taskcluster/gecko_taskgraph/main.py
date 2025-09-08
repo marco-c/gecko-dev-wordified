@@ -2291,6 +2291,7 @@ path
 .
 join
 (
+                
 diffdir
 f
 "
@@ -2304,9 +2305,10 @@ graph_attr
 }
 _
 {
-base_ref
+base_ref_file
 }
 "
+            
 )
             
 cur_path
@@ -2330,7 +2332,7 @@ graph_attr
 }
 _
 {
-cur_ref
+cur_ref_file
 }
 "
 )
