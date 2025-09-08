@@ -27,7 +27,7 @@ party
 [
 allow
 (
-dangerous_implicit_autorefs
+warnings
 )
 ]
 /
