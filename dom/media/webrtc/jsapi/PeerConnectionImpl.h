@@ -3813,6 +3813,9 @@ nsPIDOMWindowInner
 >
 mWindow
 ;
+nsString
+mOrigin
+;
 /
 /
 The
