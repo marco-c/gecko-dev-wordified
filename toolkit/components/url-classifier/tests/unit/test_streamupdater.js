@@ -1734,7 +1734,12 @@ downloadUpdates
 mozTables
 "
 "
+"
+"
 true
+"
+test
+"
 dataUpdate
 (
 )
