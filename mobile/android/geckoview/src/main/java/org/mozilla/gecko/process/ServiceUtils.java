@@ -371,6 +371,10 @@ of
 "
 tab0
 "
+or
+"
+isolatedTab0
+"
 the
 "
 0
@@ -404,6 +408,14 @@ type
 GeckoProcessType
 .
 CONTENT
+|
+|
+type
+=
+=
+GeckoProcessType
+.
+CONTENT_ISOLATED
 )
 {
 return
