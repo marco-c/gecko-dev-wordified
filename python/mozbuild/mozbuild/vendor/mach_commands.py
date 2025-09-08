@@ -1691,7 +1691,7 @@ control
 virtualenv_name
 =
 "
-vendor
+uv
 "
 )
 CommandArgument
