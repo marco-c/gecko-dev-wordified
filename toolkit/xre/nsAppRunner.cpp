@@ -1762,10 +1762,6 @@ h
 #
 endif
 extern
-uint32_t
-gRestartMode
-;
-extern
 void
 InstallSignalHandlers
 (
