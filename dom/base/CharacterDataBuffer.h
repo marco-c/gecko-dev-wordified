@@ -1703,11 +1703,11 @@ const
 return
 MOZ_LIKELY
 (
+aIndex
+<
 mState
 .
 mLength
-<
-aIndex
 )
 ?
 CharAt
