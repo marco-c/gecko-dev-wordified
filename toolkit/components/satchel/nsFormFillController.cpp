@@ -911,8 +911,7 @@ aNameSpaceID
 nsAtom
 *
 aAttribute
-int32_t
-aModType
+AttrModType
 const
 nsAttrValue
 *
@@ -1323,7 +1322,6 @@ CharacterDataWillChange
 (
 nsIContent
 *
-aContent
 const
 CharacterDataChangeInfo
 &
@@ -1338,7 +1336,6 @@ CharacterDataChanged
 (
 nsIContent
 *
-aContent
 const
 CharacterDataChangeInfo
 &
@@ -1359,14 +1356,10 @@ dom
 :
 Element
 *
-aElement
 int32_t
-aNameSpaceID
 nsAtom
 *
-aAttribute
-int32_t
-aModType
+AttrModType
 )
 {
 }
@@ -1378,7 +1371,6 @@ ParentChainChanged
 (
 nsIContent
 *
-aContent
 )
 {
 }
@@ -1396,12 +1388,9 @@ dom
 :
 Element
 *
-aElement
 nsAtom
 *
-aAttribute
-int32_t
-aModType
+AttrModType
 )
 {
 }
@@ -1419,12 +1408,9 @@ dom
 :
 Element
 *
-aElement
 nsAtom
 *
-aAttribute
-int32_t
-aModType
+AttrModType
 )
 {
 }

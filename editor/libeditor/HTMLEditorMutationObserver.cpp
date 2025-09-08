@@ -887,7 +887,7 @@ aNameSpaceID
 nsAtom
 *
 aAttribute
-int32_t
+AttrModType
 aModType
 const
 nsAttrValue
@@ -1599,7 +1599,7 @@ aNameSpaceID
 nsAtom
 *
 aAttribute
-int32_t
+AttrModType
 aModType
 const
 nsAttrValue
@@ -1702,13 +1702,10 @@ get
 aModType
 =
 =
-dom
+AttrModType
 :
 :
-MutationEvent_Binding
-:
-:
-REMOVAL
+Removal
 ?
 "
 Removed
@@ -3992,7 +3989,7 @@ aNameSpaceID
 nsAtom
 *
 aAttribute
-int32_t
+AttrModType
 aModType
 const
 nsAttrValue

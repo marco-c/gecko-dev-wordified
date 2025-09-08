@@ -31456,7 +31456,7 @@ aNameSpaceID
 nsAtom
 *
 aAttribute
-int32_t
+AttrModType
 aModType
 )
 {
@@ -31557,13 +31557,7 @@ AttributeWillChange
 aElement
 aNameSpaceID
 aAttribute
-static_cast
-<
-AttrModType
->
-(
 aModType
-)
 )
 ;
 }
@@ -31583,7 +31577,7 @@ aNameSpaceID
 nsAtom
 *
 aAttribute
-int32_t
+AttrModType
 aModType
 const
 nsAttrValue
@@ -31688,13 +31682,7 @@ AttributeChanged
 aElement
 aNameSpaceID
 aAttribute
-static_cast
-<
-AttrModType
->
-(
 aModType
-)
 aOldValue
 )
 ;
