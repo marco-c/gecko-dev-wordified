@@ -2137,6 +2137,12 @@ aRefreshScreen
 *
 /
 true
+/
+*
+aForceRefresh
+*
+/
+true
 )
 ;
 }
