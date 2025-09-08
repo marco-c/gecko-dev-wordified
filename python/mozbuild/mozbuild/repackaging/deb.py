@@ -1346,7 +1346,7 @@ we
 stop
 supporting
 Debian
-Jesse
+Jessie
 .
 They
 '
