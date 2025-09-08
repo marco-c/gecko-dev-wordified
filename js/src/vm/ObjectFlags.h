@@ -905,6 +905,10 @@ global
 /
 /
 objects
+and
+global
+lexical
+environments
 .
 HasObjectFuse
 =
