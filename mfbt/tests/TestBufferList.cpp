@@ -143,6 +143,15 @@ BufferList
 .
 h
 "
+#
+include
+"
+mozilla
+/
+MulOverflowMask
+.
+h
+"
 /
 /
 It
@@ -190,9 +199,6 @@ aNumElems
 mozilla
 :
 :
-tl
-:
-:
 MulOverflowMask
 <
 sizeof
@@ -200,9 +206,8 @@ sizeof
 T
 )
 >
-:
-:
-value
+(
+)
 )
 {
 MOZ_CRASH
