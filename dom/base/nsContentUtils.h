@@ -2802,6 +2802,7 @@ Retarget
 nsINode
 *
 aTargetA
+const
 nsINode
 *
 aTargetB
