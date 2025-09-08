@@ -4627,7 +4627,6 @@ UntypedTArray
 public
 nsTArray_base
 <
-nsTArrayFallibleAllocator
 nsTArray_RelocateUsingMemutils
 >
 {
