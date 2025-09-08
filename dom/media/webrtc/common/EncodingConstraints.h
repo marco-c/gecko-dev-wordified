@@ -130,11 +130,11 @@ namespace
 mozilla
 {
 class
-EncodingConstraints
+VideoEncodingConstraints
 {
 public
 :
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 :
@@ -184,7 +184,7 @@ operator
 =
 (
 const
-EncodingConstraints
+VideoEncodingConstraints
 &
 constraints
 )
@@ -292,7 +292,7 @@ bool
 ResolutionEquals
 (
 const
-EncodingConstraints
+VideoEncodingConstraints
 &
 constraints
 )

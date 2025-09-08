@@ -2116,7 +2116,7 @@ both
 fmtp
 and
 rid
-EncodingConstraints
+VideoEncodingConstraints
 mConstraints
 ;
 }

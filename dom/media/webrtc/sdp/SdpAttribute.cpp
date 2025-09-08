@@ -6933,7 +6933,7 @@ uint16_t
 &
 formats
 const
-EncodingConstraints
+VideoEncodingConstraints
 &
 constraints
 const

@@ -1154,7 +1154,7 @@ codec
 120
 "
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -1221,7 +1221,7 @@ codec
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -1531,7 +1531,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -1554,7 +1554,7 @@ VideoCodecConfig
 "
 ulpfec
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -1564,7 +1564,7 @@ VideoCodecConfig
 "
 red
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -1881,7 +1881,7 @@ VideoCodecConfig
 "
 H264
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -2206,7 +2206,7 @@ h264_b
 "
 H264
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -2236,7 +2236,7 @@ h264_h
 "
 H264
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -2618,7 +2618,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -2755,7 +2755,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -2863,7 +2863,7 @@ pliCodec
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -2886,7 +2886,7 @@ firCodec
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -2997,7 +2997,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -3323,7 +3323,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -3645,7 +3645,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -3975,7 +3975,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -4198,7 +4198,7 @@ VideoCodecConfig
 120
 "
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -4257,7 +4257,7 @@ mTransmitting
 =
 true
 ;
-EncodingConstraints
+VideoEncodingConstraints
 constraints
 ;
 VideoCodecConfig
@@ -4381,7 +4381,7 @@ auto
 aControl
 )
 {
-EncodingConstraints
+VideoEncodingConstraints
 constraints
 ;
 constraints
@@ -4493,7 +4493,7 @@ mTransmitting
 =
 true
 ;
-EncodingConstraints
+VideoEncodingConstraints
 constraints
 ;
 constraints
@@ -4630,7 +4630,7 @@ auto
 aControl
 )
 {
-EncodingConstraints
+VideoEncodingConstraints
 constraints
 ;
 constraints
@@ -4753,7 +4753,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -4998,7 +4998,7 @@ codecConfigTias
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -5175,7 +5175,7 @@ codecConfigTiasLow
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -5339,7 +5339,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -5512,7 +5512,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -5752,7 +5752,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -5877,7 +5877,7 @@ codecConfig
 "
 H264
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -6038,7 +6038,7 @@ codecConfig
 "
 H264
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -6193,7 +6193,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -6350,7 +6350,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -6530,7 +6530,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -6624,7 +6624,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -6808,7 +6808,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -7538,7 +7538,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -7920,7 +7920,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -8361,7 +8361,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -9119,7 +9119,7 @@ VideoCodecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -9418,7 +9418,7 @@ codecConfigFecFb
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -9436,7 +9436,7 @@ codecConfigFEC
 "
 ulpfec
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -9448,7 +9448,7 @@ codecConfigRED
 "
 red
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -9739,7 +9739,7 @@ VideoCodecConfig
 "
 H264
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -10019,7 +10019,7 @@ codecConfigNack
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -10316,7 +10316,7 @@ codecConfigRemb
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -10609,7 +10609,7 @@ codecConfigTmmbr
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -10911,7 +10911,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -11220,7 +11220,7 @@ codecConfigFEC
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -11394,7 +11394,7 @@ codecConfigH264
 "
 H264
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -11514,7 +11514,7 @@ codecConfigTias
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -11696,7 +11696,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -11878,7 +11878,7 @@ codecConfigMaxFs
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -12236,7 +12236,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -12536,7 +12536,7 @@ codecConfigTias
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -12690,7 +12690,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -12838,7 +12838,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -13191,7 +13191,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -13527,7 +13527,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -13787,7 +13787,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -14496,7 +14496,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -14832,7 +14832,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -15027,7 +15027,7 @@ codecConfig
 "
 VP9
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -15202,7 +15202,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -15416,7 +15416,7 @@ codecConfig
 "
 VP9
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -15583,7 +15583,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -16040,7 +16040,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -16352,7 +16352,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -16643,7 +16643,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -17069,7 +17069,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -17924,7 +17924,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -18671,7 +18671,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -18987,7 +18987,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -19168,7 +19168,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -19359,7 +19359,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -19549,7 +19549,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -19741,7 +19741,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -19943,7 +19943,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -20155,7 +20155,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -20735,7 +20735,7 @@ VideoCodecConfig
 CreateH264Config
 (
 97
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 h264
@@ -20903,7 +20903,7 @@ VideoCodecConfig
 CreateH264Config
 (
 126
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 h264
@@ -21080,7 +21080,7 @@ VideoCodecConfig
 CreateAv1Config
 (
 99
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 av1Config
@@ -21271,7 +21271,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -22199,7 +22199,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -22364,7 +22364,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -22376,7 +22376,7 @@ codecConfig264
 "
 H264
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -22545,7 +22545,7 @@ codecConfig
 "
 VP8
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
@@ -22557,7 +22557,7 @@ codecConfig264
 "
 H264
 "
-EncodingConstraints
+VideoEncodingConstraints
 (
 )
 )
