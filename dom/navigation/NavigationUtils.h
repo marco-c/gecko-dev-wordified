@@ -165,7 +165,10 @@ aNavigationType
 )
 ;
 static
+Maybe
+<
 NavigationType
+>
 NavigationTypeFromLoadType
 (
 uint32_t
