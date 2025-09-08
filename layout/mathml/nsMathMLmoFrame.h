@@ -360,8 +360,6 @@ override
 nsresult
 ChildListChanged
 (
-int32_t
-aModType
 )
 override
 {
@@ -375,7 +373,6 @@ nsMathMLContainerFrame
 :
 ChildListChanged
 (
-aModType
 )
 ;
 }
