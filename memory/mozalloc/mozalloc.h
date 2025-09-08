@@ -427,7 +427,7 @@ include
 "
 mozilla
 /
-MulOverflowMask
+TemplateLib
 .
 h
 "
@@ -1086,6 +1086,9 @@ aNumElems
 mozilla
 :
 :
+tl
+:
+:
 MulOverflowMask
 <
 sizeof
@@ -1093,8 +1096,9 @@ sizeof
 T
 )
 >
-(
-)
+:
+:
+value
 )
 {
 reportAllocOverflow
@@ -1177,6 +1181,9 @@ aNewSize
 mozilla
 :
 :
+tl
+:
+:
 MulOverflowMask
 <
 sizeof
@@ -1184,8 +1191,9 @@ sizeof
 T
 )
 >
-(
-)
+:
+:
+value
 )
 {
 reportAllocOverflow

@@ -161,15 +161,6 @@ Assertions
 .
 h
 "
-#
-include
-"
-mozilla
-/
-MulOverflowMask
-.
-h
-"
 using
 mozilla
 :
@@ -223,6 +214,9 @@ aNumElems
 mozilla
 :
 :
+tl
+:
+:
 MulOverflowMask
 <
 sizeof
@@ -230,8 +224,9 @@ sizeof
 T
 )
 >
-(
-)
+:
+:
+value
 )
 {
 MOZ_CRASH

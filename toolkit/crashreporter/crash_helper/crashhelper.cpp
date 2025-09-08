@@ -62,11 +62,6 @@ include
 cstdlib
 >
 #
-include
-<
-climits
->
-#
 if
 defined
 (

@@ -151,7 +151,7 @@ include
 "
 mozilla
 /
-MemoryReporting
+MathAlgorithms
 .
 h
 "
@@ -160,7 +160,7 @@ include
 "
 mozilla
 /
-MulOverflowMask
+MemoryReporting
 .
 h
 "
@@ -12626,6 +12626,9 @@ MAX_LENGTH
 mozilla
 :
 :
+tl
+:
+:
 MulOverflowMask
 <
 sizeof
@@ -12633,8 +12636,9 @@ sizeof
 T
 )
 >
-(
-)
+:
+:
+value
 )
 =
 =
