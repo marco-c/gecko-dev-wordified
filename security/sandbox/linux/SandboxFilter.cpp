@@ -397,15 +397,6 @@ include
 "
 mozilla
 /
-TemplateLib
-.
-h
-"
-#
-include
-"
-mozilla
-/
 UniquePtr
 .
 h

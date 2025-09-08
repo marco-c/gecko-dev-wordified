@@ -155,7 +155,7 @@ include
 "
 mozilla
 /
-TemplateLib
+MulOverflowMask
 .
 h
 "
@@ -3555,9 +3555,6 @@ numElems
 mozilla
 :
 :
-tl
-:
-:
 MulOverflowMask
 <
 sizeof
@@ -3565,9 +3562,8 @@ sizeof
 T
 )
 >
-:
-:
-value
+(
+)
 )
 =
 =
@@ -3662,9 +3658,6 @@ numExtra
 mozilla
 :
 :
-tl
-:
-:
 MulOverflowMask
 <
 sizeof
@@ -3672,9 +3665,8 @@ sizeof
 Extra
 )
 >
-:
-:
-value
+(
+)
 )
 =
 =
@@ -4016,9 +4008,6 @@ oldSize
 mozilla
 :
 :
-tl
-:
-:
 MulOverflowMask
 <
 sizeof
@@ -4026,9 +4015,8 @@ sizeof
 T
 )
 >
-:
-:
-value
+(
+)
 )
 )
 ;
