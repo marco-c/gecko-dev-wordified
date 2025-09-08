@@ -1032,6 +1032,8 @@ test
 "
 lib
 /
+Wallpapers
+/
 WallpaperFeed
 .
 sys
