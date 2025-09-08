@@ -127,6 +127,13 @@ algorithm
 #
 include
 "
+MediaDataDemuxer
+.
+h
+"
+#
+include
+"
 mozilla
 /
 CheckedInt
@@ -140,13 +147,6 @@ nsThreadUtils
 .
 h
 "
-extern
-mozilla
-:
-:
-LazyLogModule
-gMediaDemuxerLog
-;
 #
 define
 WEBM_DEBUG

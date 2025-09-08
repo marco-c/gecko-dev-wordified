@@ -134,6 +134,13 @@ algorithm
 #
 include
 "
+MediaDataDemuxer
+.
+h
+"
+#
+include
+"
 TimeUnits
 .
 h
@@ -190,13 +197,6 @@ Try
 .
 h
 "
-extern
-mozilla
-:
-:
-LazyLogModule
-gMediaDemuxerLog
-;
 #
 define
 MP3LOG

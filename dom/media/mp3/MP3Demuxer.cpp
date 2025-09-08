@@ -166,13 +166,6 @@ Assertions
 .
 h
 "
-extern
-mozilla
-:
-:
-LazyLogModule
-gMediaDemuxerLog
-;
 #
 define
 MP3LOG

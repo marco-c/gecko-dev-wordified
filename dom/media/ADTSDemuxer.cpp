@@ -167,13 +167,6 @@ UniquePtr
 .
 h
 "
-extern
-mozilla
-:
-:
-LazyLogModule
-gMediaDemuxerLog
-;
 #
 define
 LOG

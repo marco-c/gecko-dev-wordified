@@ -97,6 +97,13 @@ h
 #
 include
 "
+MediaDataDemuxer
+.
+h
+"
+#
+include
+"
 SinfParser
 .
 h
@@ -110,13 +117,6 @@ RefPtr
 .
 h
 "
-extern
-mozilla
-:
-:
-LazyLogModule
-gMediaDemuxerLog
-;
 using
 namespace
 mozilla
