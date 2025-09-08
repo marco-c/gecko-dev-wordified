@@ -153,7 +153,7 @@ requires
 rustc
 1
 .
-63
+65
 +
 ]
 [
