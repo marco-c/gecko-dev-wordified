@@ -30459,17 +30459,6 @@ isCurrentTokenType
 TokenKind
 :
 :
-Assert
-)
-|
-|
-anyChars
-.
-isCurrentTokenType
-(
-TokenKind
-:
-:
 With
 )
 )
@@ -30512,7 +30501,7 @@ form
 .
 .
 .
-assert
+with
 {
 }
 |
