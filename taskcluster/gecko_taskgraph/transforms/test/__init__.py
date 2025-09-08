@@ -4485,8 +4485,7 @@ name
 label
 =
 "
-{
-}
+test
 -
 {
 }
@@ -4501,9 +4500,6 @@ label
 format
 (
                 
-config
-.
-kind
 task
 [
 "
@@ -4530,8 +4526,7 @@ else
 label
 =
 "
-{
-}
+test
 -
 {
 }
@@ -4542,10 +4537,6 @@ label
 .
 format
 (
-                
-config
-.
-kind
 task
 [
 "
@@ -4562,7 +4553,6 @@ test
 name
 "
 ]
-            
 )
         
 try_name
