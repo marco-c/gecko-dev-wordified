@@ -1105,6 +1105,14 @@ nsIScriptElement
 aScriptElement
 =
 nullptr
+const
+nsAString
+&
+aSourceText
+=
+VoidString
+(
+)
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
@@ -2105,6 +2113,9 @@ nsCOMPtr
 nsIScriptElement
 >
 mScriptElement
+;
+nsString
+mSourceText
 ;
 /
 /
