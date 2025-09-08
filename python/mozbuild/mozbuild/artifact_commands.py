@@ -2554,7 +2554,19 @@ user_value
 =
 b
             
+task
+=
+tasks
+.
+get
+(
+b
+)
+            
 if
+not
+task
+and
 not
 b
 .
@@ -2567,8 +2579,12 @@ toolchain
 )
 :
                 
-b
+task
 =
+tasks
+.
+get
+(
 f
 "
 toolchain
@@ -2577,14 +2593,6 @@ toolchain
 b
 }
 "
-            
-task
-=
-tasks
-.
-get
-(
-b
 )
             
 if
@@ -2741,8 +2749,13 @@ attributes
 .
 get
 (
+f
 "
-toolchain
+{
+task
+.
+kind
+}
 -
 artifact
 "
