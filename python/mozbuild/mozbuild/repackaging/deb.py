@@ -96,6 +96,8 @@ utils
 import
 (
     
+application_ini_data_from_tar
+    
 copy_plain_config
     
 get_build_variables
@@ -105,8 +107,6 @@ inject_desktop_entry_file
 inject_distribution_folder
     
 inject_prefs_file
-    
-load_application_ini_data
     
 mv_manpage_files
     
@@ -537,11 +537,25 @@ source_dir
         
 application_ini_data
 =
-_load_application_ini_data
+application_ini_data_from_tar
 (
 infile
+)
+        
+pkg_version
+=
+_get_deb_pkg_version
+(
+            
 version
+application_ini_data
+[
+"
+build_id
+"
+]
 build_number
+        
 )
         
 build_variables
@@ -556,12 +570,7 @@ _DEB_ARCH
 arch
 ]
             
-application_ini_data
-[
-"
 pkg_version
-"
-]
             
 release_product
 =
@@ -850,11 +859,23 @@ extensions
         
 application_ini_data
 =
-_load_application_ini_data
+application_ini_data_from_tar
+(
+input_tar_file
+)
+        
+pkg_version
+=
+_get_deb_pkg_version
 (
             
-input_tar_file
 version
+application_ini_data
+[
+"
+build_id
+"
+]
 build_number
         
 )
@@ -880,12 +901,7 @@ _DEB_ARCH
 arch
 ]
             
-application_ini_data
-[
-"
 pkg_version
-"
-]
             
 #
 Debian
@@ -951,10 +967,10 @@ devedition
 (
 =
 {
-application_ini_data
+build_variables
 [
 '
-pkg_version
+PKG_VERSION
 '
 ]
 }
@@ -979,10 +995,10 @@ remoting_name
 (
 =
 {
-application_ini_data
+build_variables
 [
 '
-pkg_version
+PKG_VERSION
 '
 ]
 }
@@ -1126,57 +1142,6 @@ rmtree
 (
 tmpdir
 )
-def
-_load_application_ini_data
-(
-infile
-version
-build_number
-)
-:
-    
-application_ini_data
-=
-load_application_ini_data
-(
-infile
-version
-build_number
-)
-    
-#
-Replace
-the
-pkg_version
-with
-the
-Debian
-version
-format
-    
-application_ini_data
-[
-"
-pkg_version
-"
-]
-=
-_get_deb_pkg_version
-(
-        
-version
-application_ini_data
-[
-"
-build_id
-"
-]
-build_number
-    
-)
-    
-return
-application_ini_data
 def
 _get_deb_pkg_version
 (

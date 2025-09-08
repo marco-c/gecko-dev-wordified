@@ -82,6 +82,8 @@ utils
 import
 (
     
+application_ini_data_from_tar
+    
 copy_plain_config
     
 get_build_variables
@@ -91,8 +93,6 @@ inject_desktop_entry_file
 inject_distribution_folder
     
 inject_prefs_file
-    
-load_application_ini_data
     
 mv_manpage_files
     
@@ -362,16 +362,14 @@ source_dir
         
 application_ini_data
 =
-load_application_ini_data
+application_ini_data_from_tar
 (
 infile
-version
-build_number
 )
         
 build_variables
 =
-_get_build_variables
+get_build_variables
 (
             
 application_ini_data
