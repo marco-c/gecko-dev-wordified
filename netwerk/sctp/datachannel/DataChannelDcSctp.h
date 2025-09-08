@@ -1206,14 +1206,6 @@ LifecycleId
 aLifecycleId
 )
 ;
-bool
-HasPreChannelData
-(
-uint16_t
-aStream
-)
-const
-;
 std
 :
 :
