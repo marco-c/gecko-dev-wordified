@@ -464,7 +464,7 @@ version
     
 build_number
     
-release_product
+product
     
 release_type
     
@@ -572,9 +572,9 @@ arch
             
 pkg_version
             
-release_product
+product
 =
-release_product
+product
         
 )
         
@@ -727,7 +727,7 @@ deb_dir
             
 build_variables
             
-release_product
+product
             
 release_type
             
@@ -798,7 +798,7 @@ version
     
 build_number
     
-release_product
+product
 )
 :
     
@@ -942,14 +942,14 @@ description
 }
 "
             
-release_product
+product
 =
-release_product
+product
         
 )
         
 if
-release_product
+product
 =
 =
 "

@@ -2105,14 +2105,12 @@ build_number
 "
 -
 -
-release
--
 product
 "
             
 "
 {
-release_product
+shipping_product
 }
 "
             
@@ -2228,14 +2226,12 @@ templates
 "
 -
 -
-release
--
 product
 "
             
 "
 {
-release_product
+shipping_product
 }
 "
         
@@ -2365,14 +2361,12 @@ build_number
 "
 -
 -
-release
--
 product
 "
             
 "
 {
-release_product
+shipping_product
 }
 "
             
@@ -4536,15 +4530,15 @@ build_number
 ]
                 
 "
-release_product
+shipping_product
 "
 :
-config
-.
-params
+job
 [
 "
-release_product
+shipping
+-
+product
 "
 ]
                 

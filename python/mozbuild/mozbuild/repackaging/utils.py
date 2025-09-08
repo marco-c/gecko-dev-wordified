@@ -516,7 +516,7 @@ description_suffix
 "
 "
     
-release_product
+product
 =
 "
 "
@@ -557,7 +557,7 @@ templates
 "
     
 if
-release_product
+product
 =
 =
 "
@@ -860,7 +860,7 @@ source_dir
     
 build_variables
     
-release_product
+product
     
 release_type
     
@@ -982,7 +982,7 @@ log
         
 build_variables
         
-release_product
+product
         
 release_type
         

@@ -261,7 +261,7 @@ version
     
 build_number
     
-release_product
+product
     
 release_type
     
@@ -378,9 +378,9 @@ arch
             
 version
             
-release_product
+product
 =
-release_product
+product
             
 build_number
 =
@@ -516,7 +516,7 @@ rpm_dir
             
 build_variables
             
-release_product
+product
             
 release_type
             
@@ -868,7 +868,7 @@ arch
     
 version
     
-release_product
+product
 =
 "
 "
@@ -902,9 +902,9 @@ arch
         
 version
         
-release_product
+product
 =
-release_product
+product
         
 package_name_suffix
 =
