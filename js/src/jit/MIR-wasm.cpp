@@ -2416,7 +2416,7 @@ here
 HashNumber
 hash
 =
-MDefinition
+MUnaryInstruction
 :
 :
 valueHash
