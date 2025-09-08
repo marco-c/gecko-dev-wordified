@@ -1250,6 +1250,9 @@ ProtocolParser
 >
 mProtocolParser
 ;
+nsCString
+mProvider
+;
 /
 /
 Directory

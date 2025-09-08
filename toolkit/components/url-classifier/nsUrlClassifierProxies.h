@@ -365,6 +365,10 @@ const
 nsACString
 &
 aTables
+const
+nsACString
+&
+aProvider
 )
 :
 mozilla
@@ -391,6 +395,10 @@ mTables
 (
 aTables
 )
+mProvider
+(
+aProvider
+)
 {
 }
 NS_DECL_NSIRUNNABLE
@@ -413,6 +421,10 @@ mUpdater
 const
 nsCString
 mTables
+;
+const
+nsCString
+mProvider
 ;
 }
 ;

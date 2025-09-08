@@ -349,6 +349,10 @@ const
 nsACString
 &
 aTables
+const
+nsACString
+&
+aProvider
 )
 {
 nsCOMPtr
@@ -363,6 +367,7 @@ BeginUpdateRunnable
 mTarget
 aUpdater
 aTables
+aProvider
 )
 ;
 return
@@ -390,6 +395,7 @@ BeginUpdate
 (
 mUpdater
 mTables
+mProvider
 )
 ;
 return
