@@ -161,11 +161,6 @@ nsICommandParams
 .
 idl
 "
-"
-nsIControllerContext
-.
-idl
-"
 ]
 XPIDL_MODULE
 =
