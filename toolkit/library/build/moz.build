@@ -366,15 +366,3 @@ gdb
 py
 "
 ]
-DUMP_SYMBOLS_FLAGS
-+
-=
-[
-"
--
--
-count
--
-ctors
-"
-]
