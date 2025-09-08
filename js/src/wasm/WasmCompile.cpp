@@ -8169,9 +8169,6 @@ codeMeta_
 uint32_t
 targetFuncIndex_
 ;
-IonDumpContents
-contents_
-;
 GenericPrinter
 &
 out_
@@ -8193,8 +8190,6 @@ CodeMetadata
 codeMeta
 uint32_t
 targetFuncIndex
-IonDumpContents
-contents
 GenericPrinter
 &
 out
@@ -8214,10 +8209,6 @@ codeMeta
 targetFuncIndex_
 (
 targetFuncIndex
-)
-contents_
-(
-contents
 )
 out_
 (
@@ -8285,7 +8276,6 @@ IonDumpFunction
 compilerEnv_
 codeMeta_
 input
-contents_
 out_
 error_
 )
@@ -8305,8 +8295,6 @@ ShareableBytes
 bytecode
 uint32_t
 targetFuncIndex
-IonDumpContents
-contents
 GenericPrinter
 &
 out
@@ -8440,7 +8428,6 @@ moduleMeta
 >
 codeMeta
 targetFuncIndex
-contents
 out
 error
 )

@@ -11935,11 +11935,7 @@ compilation
 mirGen
 -
 >
-graphSpewer
-(
-)
-.
-endFunction
+spewEndFunction
 (
 )
 ;
