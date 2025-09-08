@@ -1321,7 +1321,12 @@ def
 rmtree
 (
 path
+:
+str
 )
+-
+>
+None
 :
     
 #
