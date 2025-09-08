@@ -3200,10 +3200,9 @@ removeView
 (
 view
 )
-.
-then
-(
+;
 resolve
+(
 )
 ;
 }
@@ -3216,13 +3215,7 @@ addView
 (
 view
 )
-.
-then
-(
-function
-(
-)
-{
+;
 EventUtils
 .
 synthesizeDrop
@@ -3234,9 +3227,6 @@ dragData
 link
 "
 win
-)
-;
-}
 )
 ;
 }

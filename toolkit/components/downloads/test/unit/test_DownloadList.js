@@ -1262,7 +1262,6 @@ addNotifications
 }
 }
 ;
-await
 list
 .
 addView
@@ -1347,7 +1346,6 @@ removeNotifications
 }
 }
 ;
-await
 list
 .
 addView
@@ -1385,7 +1383,6 @@ view
 is
 removed
 .
-await
 list
 .
 removeView
@@ -1423,7 +1420,6 @@ view
 is
 removed
 .
-await
 list
 .
 removeView
@@ -1613,7 +1609,6 @@ receivedOnDownloadChanged
 =
 false
 ;
-await
 list
 .
 addView
@@ -1832,7 +1827,6 @@ true
 }
 }
 ;
-await
 list
 .
 addView
@@ -2064,7 +2058,6 @@ resolve
 }
 }
 ;
-await
 list
 .
 addView
@@ -2375,7 +2368,6 @@ resolve
 }
 }
 ;
-await
 list
 .
 addView
@@ -2600,7 +2592,6 @@ resolve
 }
 }
 ;
-await
 list
 .
 addView
@@ -2877,7 +2868,6 @@ resolve
 }
 }
 ;
-await
 list
 .
 addView

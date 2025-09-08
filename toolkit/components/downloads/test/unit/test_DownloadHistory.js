@@ -1259,7 +1259,6 @@ TestView
 testDownloads
 )
 ;
-await
 historyList
 .
 addView
@@ -1585,7 +1584,6 @@ view
 expected
 )
 ;
-await
 allHistoryList
 .
 addView
@@ -1730,7 +1728,6 @@ slice
 )
 )
 ;
-await
 allHistoryList2
 .
 addView
@@ -1810,7 +1807,6 @@ TestView
 ]
 )
 ;
-await
 dummyList
 .
 addView
@@ -1818,7 +1814,6 @@ addView
 dummyView
 )
 ;
-await
 dummyList
 .
 removeView

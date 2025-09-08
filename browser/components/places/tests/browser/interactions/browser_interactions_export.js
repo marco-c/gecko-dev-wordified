@@ -620,7 +620,6 @@ aDownload
 }
 )
 ;
-await
 downloadList
 .
 addView
@@ -776,7 +775,6 @@ downloading
 "
 )
 ;
-await
 downloadList
 .
 removeView

@@ -1996,11 +1996,6 @@ removeView
 (
 this
 )
-.
-catch
-(
-do_report_unexpected_exception
-)
 ;
 /
 /
@@ -2075,11 +2070,6 @@ do_report_unexpected_exception
 ;
 }
 }
-)
-.
-catch
-(
-do_report_unexpected_exception
 )
 ;
 let
@@ -2435,11 +2425,6 @@ removeView
 (
 this
 )
-.
-catch
-(
-do_report_unexpected_exception
-)
 ;
 /
 /
@@ -2514,11 +2499,6 @@ do_report_unexpected_exception
 ;
 }
 }
-)
-.
-catch
-(
-do_report_unexpected_exception
 )
 ;
 let
