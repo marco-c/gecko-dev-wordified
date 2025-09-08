@@ -172,15 +172,6 @@ include
 "
 mozilla
 /
-InternalMutationEvent
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Maybe
 .
 h

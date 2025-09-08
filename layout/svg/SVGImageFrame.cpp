@@ -255,17 +255,6 @@ mozilla
 /
 dom
 /
-MutationEventBinding
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 SVGImageElement
 .
 h

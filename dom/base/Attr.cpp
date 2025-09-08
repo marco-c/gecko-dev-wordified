@@ -167,15 +167,6 @@ include
 "
 mozilla
 /
-InternalMutationEvent
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPrefs_dom
 .
 h

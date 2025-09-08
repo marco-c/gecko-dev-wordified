@@ -346,15 +346,6 @@ include
 "
 mozilla
 /
-InternalMutationEvent
-.
-h
-"
-#
-include
-"
-mozilla
-/
 mozInlineSpellChecker
 .
 h

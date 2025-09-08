@@ -231,17 +231,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-MutationEventBinding
-.
-h
-"
-#
-include
-"
 nsAttrValueInlines
 .
 h

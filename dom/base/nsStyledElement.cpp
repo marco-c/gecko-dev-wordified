@@ -142,15 +142,6 @@ include
 "
 mozilla
 /
-InternalMutationEvent
-.
-h
-"
-#
-include
-"
-mozilla
-/
 RefPtr
 .
 h

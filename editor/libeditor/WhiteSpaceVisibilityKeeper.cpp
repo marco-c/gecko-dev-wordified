@@ -214,15 +214,6 @@ include
 "
 mozilla
 /
-InternalMutationEvent
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 AncestorIterator

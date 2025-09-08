@@ -142,17 +142,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-MutationEventBinding
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
