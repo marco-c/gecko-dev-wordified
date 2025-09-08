@@ -2110,13 +2110,6 @@ eMutationEventClass
 )
 NON_IDL_EVENT
 (
-DOMCharacterDataModified
-eLegacyCharacterDataModified
-EventNameType_HTMLXUL
-eMutationEventClass
-)
-NON_IDL_EVENT
-(
 DOMNodeInserted
 eLegacyNodeInserted
 EventNameType_HTMLXUL
