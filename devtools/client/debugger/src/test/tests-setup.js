@@ -58,17 +58,6 @@ MPL
 .
 *
 /
-global
-.
-Worker
-=
-require
-(
-"
-workerjs
-"
-)
-;
 import
 path
 from
