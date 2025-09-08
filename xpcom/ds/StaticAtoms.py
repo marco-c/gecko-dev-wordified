@@ -4541,16 +4541,6 @@ dragSession
 Atom
 (
 "
-drawtitle
-"
-"
-drawtitle
-"
-)
-    
-Atom
-(
-"
 dropAfter
 "
 "
@@ -5725,6 +5715,16 @@ hidecolumnpicker
 "
 "
 hidecolumnpicker
+"
+)
+    
+Atom
+(
+"
+hidetitlebarseparator
+"
+"
+hidetitlebarseparator
 "
 )
     
@@ -8540,6 +8540,16 @@ onclose
 "
 "
 onclose
+"
+)
+    
+Atom
+(
+"
+onclosing
+"
+"
+onclosing
 "
 )
     
