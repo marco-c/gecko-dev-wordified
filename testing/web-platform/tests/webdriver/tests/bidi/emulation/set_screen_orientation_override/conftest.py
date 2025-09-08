@@ -38,6 +38,9 @@ def
 get_screen_orientation
 (
 context
+top_context
+=
+None
 )
 :
         
@@ -65,14 +68,25 @@ browsing_context
 .
 activate
 (
+            
 context
 =
+top_context
+[
+"
+context
+"
+]
+if
+top_context
+else
 context
 [
 "
 context
 "
 ]
+        
 )
         
 result
