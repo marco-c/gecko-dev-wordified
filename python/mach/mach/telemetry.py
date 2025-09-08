@@ -1141,10 +1141,19 @@ groups
     
 except
 (
+        
+FileNotFoundError
+        
 json
 .
 JSONDecodeError
-FileNotFoundError
+        
+requests
+.
+exceptions
+.
+RequestException
+    
 )
 :
         
@@ -1936,25 +1945,12 @@ DISABLE_TELEMETRY
         
 return
     
-try
-:
-        
 is_employee
 =
 resolve_is_employee
 (
 topsrcdir
 )
-    
-except
-requests
-.
-exceptions
-.
-RequestException
-:
-        
-return
     
 if
 is_employee
