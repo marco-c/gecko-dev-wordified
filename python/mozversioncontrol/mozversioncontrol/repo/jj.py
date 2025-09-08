@@ -297,9 +297,8 @@ description
     
 HEAD_REVSET
 =
-"
-latest
-(
+'
+coalesce
 (
 ~
 (
@@ -311,19 +310,17 @@ description
 (
 exact
 :
-'
-'
+"
+"
 )
 )
 ~
 bookmarks
 (
 )
-)
-|
 -
 )
-"
+'
     
 def
 __init__
