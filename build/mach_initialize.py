@@ -2971,7 +2971,7 @@ mach
 telemetry
 import
 MACH_METRICS_PATH
-resolve_is_employee_by_credentials
+resolve_is_employee
     
 from
 mozbuild
@@ -3159,7 +3159,7 @@ Mozilla
 employees
     
 if
-resolve_is_employee_by_credentials
+resolve_is_employee
 (
 topsrcdir
 )
