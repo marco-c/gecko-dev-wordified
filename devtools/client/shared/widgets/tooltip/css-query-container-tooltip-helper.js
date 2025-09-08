@@ -184,9 +184,6 @@ setContentSize
 width
 :
 267
-height
-:
-Infinity
 }
 )
 ;
