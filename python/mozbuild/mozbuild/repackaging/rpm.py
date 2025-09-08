@@ -934,7 +934,7 @@ the
 same
 format
 as
-Wen
+Wed
 Jan
 22
 2024
@@ -946,10 +946,10 @@ CHANGELOG_DATE
 "
 ]
 =
-application_ini_data
+build_variables
 [
 "
-timestamp
+TIMESTAMP
 "
 ]
 .
