@@ -1879,23 +1879,6 @@ c
 rev
 ]
         
-else
-:
-            
-args
-+
-=
-[
-"
--
-r
-"
-"
-.
-^
-"
-]
-        
 for
 dot_extension
 in
@@ -1923,6 +1906,13 @@ dot_extension
 "
 ]
         
+if
+exclude_file
+is
+not
+None
+:
+            
 args
 +
 =
