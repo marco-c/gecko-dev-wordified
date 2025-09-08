@@ -253,6 +253,16 @@ src
 sandboxtarget
 "
 ]
+TEST_DIRS
++
+=
+[
+"
+win
+/
+gtest
+"
+]
 EXPORTS
 .
 mozilla
