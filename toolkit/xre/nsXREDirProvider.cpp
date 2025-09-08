@@ -7630,7 +7630,6 @@ rv
 rv
 )
 ;
-}
 rv
 =
 AppendProfilePath
@@ -7645,6 +7644,7 @@ rv
 rv
 )
 ;
+}
 rv
 =
 EnsureDirectoryExists
