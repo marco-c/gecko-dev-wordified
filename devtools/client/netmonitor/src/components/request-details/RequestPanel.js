@@ -1477,6 +1477,11 @@ postData
 &
 &
 limit
+>
+0
+&
+&
+limit
 <
 =
 postData
