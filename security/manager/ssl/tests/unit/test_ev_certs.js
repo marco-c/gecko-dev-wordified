@@ -790,8 +790,6 @@ example
 com
 "
 now
-[
-]
 result
 )
 ;
@@ -1155,8 +1153,6 @@ example
 com
 "
 now
-[
-]
 result
 )
 ;
