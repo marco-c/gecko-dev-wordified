@@ -16702,7 +16702,7 @@ NS_ERROR_EDITOR_DESTROYED
 }
 if
 (
-MayHaveMutationEventListeners
+MaybeNodeRemovalsObservedByDevTools
 (
 )
 &

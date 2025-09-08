@@ -17121,9 +17121,8 @@ delete
 }
 if
 (
-MayHaveMutationEventListeners
+MaybeNodeRemovalsObservedByDevTools
 (
-NS_EVENT_BITS_MUTATION_NODEREMOVED
 )
 &
 &
