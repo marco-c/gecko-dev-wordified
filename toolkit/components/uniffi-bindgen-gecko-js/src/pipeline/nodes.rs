@@ -344,6 +344,19 @@ pub
 field_name
 :
 String
+/
+/
+/
+C
++
++
+function
+variable
+name
+pub
+var_name
+:
+String
 pub
 ffi_value_class
 :
@@ -855,6 +868,7 @@ pub
 enum
 CallbackMethodKind
 {
+Sync
 FireAndForget
 Async
 (
@@ -932,7 +946,7 @@ handler
 This
 derives
 from
-UniffiCallbackMethodHandlerBase
+AsyncCallbackMethodHandlerBase
 and
 adds
 support
