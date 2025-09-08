@@ -2075,14 +2075,6 @@ wgt
 Features
 :
 :
-MULTI_DRAW_INDIRECT
-|
-wgt
-:
-:
-Features
-:
-:
 MULTI_DRAW_INDIRECT_COUNT
 |
 wgt

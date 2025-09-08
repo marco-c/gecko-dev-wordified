@@ -352,7 +352,7 @@ new
 with_title
 (
 "
-WGPU
+wgpu
 raw
 GLES
 example
@@ -659,7 +659,7 @@ new
 )
 /
 /
-WGPU
+wgpu
 expects
 GLES
 3
@@ -899,7 +899,7 @@ new
 with_title
 (
 "
-WGPU
+wgpu
 raw
 GLES
 example

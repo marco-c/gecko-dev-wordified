@@ -4252,6 +4252,9 @@ wgt
 :
 :
 BufferAddress
+multi_draw_indirect
+:
+bool
 /
 /
 /
