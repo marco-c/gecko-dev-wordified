@@ -491,6 +491,14 @@ true
 "
 suggest
 .
+quickactions
+"
+false
+]
+[
+"
+suggest
+.
 quicksuggest
 .
 nonsponsored
