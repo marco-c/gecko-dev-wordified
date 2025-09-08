@@ -8419,8 +8419,15 @@ Promise
 >
 &
 aPromiseList
+const
+RefPtr
+<
+NavigationWaitForAllScope
+>
+&
+aScope
 )
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT_BOUNDARY_LAMBDA
 {
 Promise
 :
@@ -8431,6 +8438,7 @@ aGlobalObject
 aPromiseList
 successSteps
 failureSteps
+aScope
 )
 ;
 }
@@ -8462,6 +8470,12 @@ Promise
 >
 >
 &
+const
+RefPtr
+<
+NavigationWaitForAllScope
+>
+&
 )
 {
 }
@@ -8485,6 +8499,7 @@ move
 promiseList
 )
 )
+scope
 )
 ;
 }
@@ -8535,6 +8550,7 @@ globalObject
 promiseList
 successSteps
 failureSteps
+scope
 )
 ;
 }
