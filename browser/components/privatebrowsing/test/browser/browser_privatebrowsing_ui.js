@@ -64,8 +64,8 @@ makes
 sure
 that
 the
-gPrivateBrowsingUI
-object
+PrivateBrowsingUI
+module
 the
 Private
 Browsing
@@ -169,13 +169,11 @@ function
 {
 ok
 (
-aWindow
-.
-gPrivateBrowsingUI
+PrivateBrowsingUI
 "
 The
-gPrivateBrowsingUI
-object
+PrivateBrowsingUI
+module
 exists
 "
 )

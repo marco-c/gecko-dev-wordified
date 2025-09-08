@@ -1178,6 +1178,13 @@ sys
 mjs
 "
 "
+PrivateBrowsingUI
+.
+sys
+.
+mjs
+"
+"
 UnexpectedScriptObserver
 .
 sys
