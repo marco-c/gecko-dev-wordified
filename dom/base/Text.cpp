@@ -387,6 +387,10 @@ cutLength
 nullptr
 0
 true
+MutationEffectOnScript
+:
+:
+KeepTrustWorthiness
 &
 details
 )
@@ -446,6 +450,11 @@ true
 IgnoreErrors
 (
 )
+nullptr
+MutationEffectOnScript
+:
+:
+KeepTrustWorthiness
 )
 ;
 }

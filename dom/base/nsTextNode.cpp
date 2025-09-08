@@ -748,6 +748,10 @@ GetLength
 aBuffer
 aLength
 aNotify
+MutationEffectOnScript
+:
+:
+KeepTrustWorthiness
 &
 details
 )

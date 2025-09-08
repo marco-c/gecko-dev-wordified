@@ -9621,11 +9621,15 @@ node
 parent
 -
 >
-InsertBefore
+InsertBeforeInternal
 (
 *
 child
 refNode
+MutationEffectOnScript
+:
+:
+KeepTrustWorthiness
 rv
 )
 ;

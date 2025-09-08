@@ -561,6 +561,8 @@ mozilla
 ErrorResult
 &
 aError
+MutationEffectOnScript
+aMutationEffectOnScript
 )
 override
 ;

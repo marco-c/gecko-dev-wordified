@@ -7792,6 +7792,8 @@ aSubjectPrincipal
 ErrorResult
 &
 aError
+MutationEffectOnScript
+aMutationEffectOnScript
 )
 {
 bool
@@ -7907,6 +7909,7 @@ SetNodeTextContent
 this
 aTextContent
 tryReuse
+aMutationEffectOnScript
 )
 ;
 }

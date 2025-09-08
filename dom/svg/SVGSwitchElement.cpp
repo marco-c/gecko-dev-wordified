@@ -678,6 +678,8 @@ aRv
 nsINode
 *
 aOldParent
+MutationEffectOnScript
+aMutationEffectOnScript
 )
 {
 SVGSwitchElementBase
@@ -690,6 +692,7 @@ aBeforeThis
 aNotify
 aRv
 aOldParent
+aMutationEffectOnScript
 )
 ;
 if
@@ -727,6 +730,8 @@ aState
 nsINode
 *
 aNewParent
+MutationEffectOnScript
+aMutationEffectOnScript
 )
 {
 SVGSwitchElementBase
@@ -738,6 +743,7 @@ aKid
 aNotify
 aState
 aNewParent
+aMutationEffectOnScript
 )
 ;
 MaybeInvalidate

@@ -1308,6 +1308,7 @@ aNodeValue
 ErrorResult
 &
 aError
+MutationEffectOnScript
 )
 {
 SetValueInternal
@@ -1490,6 +1491,7 @@ aSubjectPrincipal
 ErrorResult
 &
 aError
+MutationEffectOnScript
 )
 {
 SetValueInternal

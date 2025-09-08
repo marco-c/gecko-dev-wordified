@@ -210,6 +210,13 @@ nsINode
 aOldParent
 =
 nullptr
+MutationEffectOnScript
+aMutationEffectOnScript
+=
+MutationEffectOnScript
+:
+:
+DropTrustWorthiness
 )
 override
 ;
@@ -230,6 +237,13 @@ nsINode
 aNewParent
 =
 nullptr
+MutationEffectOnScript
+aMutationEffectOnScript
+=
+MutationEffectOnScript
+:
+:
+DropTrustWorthiness
 )
 override
 ;

@@ -278,6 +278,8 @@ mozilla
 ErrorResult
 &
 aError
+MutationEffectOnScript
+aMutationEffectOnScript
 )
 override
 ;
@@ -385,12 +387,14 @@ override
 ;
 virtual
 void
-SetData
+SetDataInternal
 (
 const
 nsAString
 &
 aData
+MutationEffectOnScript
+aMutationEffectOnScript
 mozilla
 :
 :
@@ -403,9 +407,10 @@ override
 CharacterData
 :
 :
-SetData
+SetDataInternal
 (
 aData
+aMutationEffectOnScript
 rv
 )
 ;

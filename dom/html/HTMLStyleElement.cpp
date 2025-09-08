@@ -930,6 +930,7 @@ aScriptedPrincipal
 ErrorResult
 &
 aError
+MutationEffectOnScript
 )
 {
 /
