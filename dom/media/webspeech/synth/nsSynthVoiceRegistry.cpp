@@ -251,6 +251,13 @@ h
 #
 include
 "
+nsGlobalWindowInner
+.
+h
+"
+#
+include
+"
 nsISpeechService
 .
 h

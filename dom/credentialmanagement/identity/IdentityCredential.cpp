@@ -172,6 +172,13 @@ h
 #
 include
 "
+nsGlobalWindowInner
+.
+h
+"
+#
+include
+"
 nsIGlobalObject
 .
 h

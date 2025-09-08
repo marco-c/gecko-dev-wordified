@@ -201,6 +201,13 @@ h
 #
 include
 "
+nsGlobalWindowInner
+.
+h
+"
+#
+include
+"
 nsHashPropertyBag
 .
 h

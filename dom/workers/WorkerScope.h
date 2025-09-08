@@ -470,6 +470,9 @@ struct
 StructuredSerializeOptions
 ;
 class
+TimeoutManager
+;
+class
 WorkerDocumentListener
 ;
 class
