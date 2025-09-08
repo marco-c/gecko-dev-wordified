@@ -3822,7 +3822,7 @@ start
 with
 "
 /
-rust
+rustc
 /
 <
 sha
