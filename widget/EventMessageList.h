@@ -1237,15 +1237,11 @@ NS_EVENT_MESSAGE
 (
 eLegacyNodeInsertedIntoDocument
 )
-NS_EVENT_MESSAGE
-(
-eLegacyAttrModified
-)
 NS_EVENT_MESSAGE_FIRST_LAST
 (
 eLegacyMutationEvent
 eLegacySubtreeModified
-eLegacyAttrModified
+eLegacyNodeInsertedIntoDocument
 )
 NS_EVENT_MESSAGE
 (

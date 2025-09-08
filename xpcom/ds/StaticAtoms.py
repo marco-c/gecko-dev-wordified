@@ -8756,16 +8756,6 @@ onDOMActivate
 Atom
 (
 "
-onDOMAttrModified
-"
-"
-onDOMAttrModified
-"
-)
-    
-Atom
-(
-"
 onDOMFocusIn
 "
 "

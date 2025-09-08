@@ -1000,17 +1000,6 @@ dom
 mutation
 "
 "
-DOMAttrModified
-"
-)
-nodeEvent
-(
-"
-dom
--
-mutation
-"
-"
 DOMNodeInserted
 "
 )

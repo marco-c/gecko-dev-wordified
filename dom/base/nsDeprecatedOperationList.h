@@ -184,10 +184,6 @@ DOMNodeInsertedIntoDocument
 )
 DEPRECATED_OPERATION
 (
-DOMAttrModified
-)
-DEPRECATED_OPERATION
-(
 Components
 )
 DEPRECATED_OPERATION
