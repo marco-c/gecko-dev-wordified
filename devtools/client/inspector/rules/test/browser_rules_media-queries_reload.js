@@ -77,7 +77,7 @@ max
 -
 width
 :
-550px
+500px
 )
 {
 div
@@ -96,7 +96,7 @@ min
 -
 width
 :
-550px
+500px
 )
 {
 div
@@ -215,7 +215,7 @@ hostWindow
 .
 resizeTo
 (
-500
+400
 400
 )
 ;
