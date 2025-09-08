@@ -431,7 +431,10 @@ JS_BITS_PER_WORD
 )
 &
 (
+uintptr_t
+(
 1
+)
 <
 <
 (
