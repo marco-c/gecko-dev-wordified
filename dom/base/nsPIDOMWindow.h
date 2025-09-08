@@ -268,6 +268,12 @@ class
 nsIURI
 ;
 class
+nsIPrompt
+;
+class
+nsIControllers
+;
+class
 nsIWebBrowserChrome
 ;
 class

@@ -153,6 +153,13 @@ File
 .
 h
 "
+#
+include
+"
+nsVariant
+.
+h
+"
 namespace
 mozilla
 {
