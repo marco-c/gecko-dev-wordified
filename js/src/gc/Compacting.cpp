@@ -3278,6 +3278,16 @@ sweepObjectsWithWeakPointers
 trc
 )
 ;
+/
+/
+Must
+happen
+after
+tracing
+weak
+maps
+above
+.
 traceWeakFinalizationObserverEdges
 (
 trc
