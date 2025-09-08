@@ -153,7 +153,7 @@ Editor
 .
 modes
 .
-javascript
+js
 )
 ;
 ed
