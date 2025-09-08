@@ -181,16 +181,14 @@ WEB_AUDIO_API_LOG
 .
 )
 \
-MOZ_LOG
+MOZ_LOG_FMT
 (
 gWebAudioAPILog
 LogLevel
 :
 :
 Debug
-(
 __VA_ARGS__
-)
 )
 #
 define
