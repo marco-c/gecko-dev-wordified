@@ -546,6 +546,16 @@ aPromise
 override
 ;
 bool
+IsDynamicImportSupported
+(
+)
+override
+{
+return
+false
+;
+}
+bool
 CanStartLoad
 (
 JS
