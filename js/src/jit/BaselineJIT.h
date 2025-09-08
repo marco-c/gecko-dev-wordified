@@ -2992,6 +2992,14 @@ BaselineOption
 >
 ;
 bool
+DispatchOffThreadBaselineBatchEager
+(
+JSContext
+*
+cx
+)
+;
+bool
 DispatchOffThreadBaselineBatch
 (
 JSContext
