@@ -4335,6 +4335,14 @@ UpdateAnchorPosLayout
 (
 )
 ;
+void
+UpdateAnchorPosLayoutForScroll
+(
+ScrollContainerFrame
+*
+aScrollContainer
+)
+;
 inline
 void
 AddAnchorPosPositioned
