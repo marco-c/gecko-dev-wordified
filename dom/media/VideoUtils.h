@@ -2378,6 +2378,15 @@ aCodec
 )
 ;
 bool
+IsAllowedH264Codec
+(
+const
+nsAString
+&
+aCodec
+)
+;
+bool
 IsH265CodecString
 (
 const
