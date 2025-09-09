@@ -710,11 +710,6 @@ ScriptPrivateData
 \
 _
 (
-ScopeData
-)
-\
-_
-(
 WeakMapObject
 )
 \
