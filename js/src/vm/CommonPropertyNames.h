@@ -881,14 +881,6 @@ currencySign
 \
 MACRO_
 (
-css
-"
-css
-"
-)
-\
-MACRO_
-(
 date
 "
 date
