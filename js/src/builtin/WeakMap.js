@@ -195,6 +195,9 @@ nextItem
 ;
 }
 }
+#
+ifdef
+NIGHTLY_BUILD
 /
 *
 *
@@ -626,3 +629,10 @@ return
 value
 ;
 }
+#
+endif
+/
+/
+#
+ifdef
+NIGHTLY_BUILD

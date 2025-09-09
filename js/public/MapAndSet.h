@@ -211,6 +211,9 @@ HandleValue
 val
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
 extern
 JS_PUBLIC_API
 bool
@@ -229,6 +232,13 @@ MutableHandleValue
 rval
 )
 ;
+#
+endif
+/
+/
+#
+ifdef
+NIGHTLY_BUILD
 extern
 JS_PUBLIC_API
 bool
