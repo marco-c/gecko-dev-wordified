@@ -219,6 +219,10 @@ const
 nsACString
 &
 aLabel
+const
+nsAString
+&
+aOrigin
 bool
 aOrdered
 Nullable
@@ -251,9 +255,6 @@ aWindow
 nsresult
 Init
 (
-nsPIDOMWindowInner
-*
-aDOMWindow
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
@@ -722,6 +723,10 @@ Probably
 overkill
 .
 const
+nsString
+mOrigin
+;
+const
 nsCString
 mLabel
 ;
@@ -776,9 +781,6 @@ RefPtr
 DataChannel
 >
 mDataChannel
-;
-nsString
-mOrigin
 ;
 bool
 mCheckMustKeepAlive
