@@ -27215,6 +27215,15 @@ SynthesizeMouseEventData
 {
 }
 options
+Optional
+<
+OwningNonNull
+<
+VoidFunction
+>
+>
+{
+}
 )
 ;
 return
