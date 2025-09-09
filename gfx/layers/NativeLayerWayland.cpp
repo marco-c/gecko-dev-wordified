@@ -3245,7 +3245,7 @@ scale
 mRootSurface
 -
 >
-GetScaleSafe
+GetScale
 (
 )
 ;
