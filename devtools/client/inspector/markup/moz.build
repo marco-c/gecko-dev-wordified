@@ -132,4 +132,13 @@ browser
 .
 toml
 "
+"
+test
+/
+shadowdom
+/
+browser
+.
+toml
+"
 ]
