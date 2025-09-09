@@ -202,6 +202,16 @@ aMonitorNum
 )
 ;
 static
+float
+GetGTKMonitorFractionalScaleFactor
+(
+gint
+aMonitorNum
+=
+0
+)
+;
+static
 RefPtr
 <
 widget
