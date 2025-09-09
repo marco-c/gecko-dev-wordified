@@ -573,6 +573,13 @@ ftl
 "
 browser
 /
+profiles
+.
+ftl
+"
+"
+browser
+/
 termsofuse
 .
 ftl
@@ -766,6 +773,13 @@ browser
 newtab
 /
 asrouter
+.
+ftl
+"
+"
+browser
+/
+profiles
 .
 ftl
 "
