@@ -4901,7 +4901,6 @@ uint8_t
 >
 (
 )
-const
 {
 return
 Span
