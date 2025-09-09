@@ -56,6 +56,9 @@ MPL
 .
 *
 /
+#
+ifdef
+StandardFonts
 /
 /
 List
@@ -1134,3 +1137,16 @@ VF
 "
 }
 ;
+static
+const
+char
+*
+kLangPackFonts
+[
+]
+=
+{
+}
+;
+#
+endif

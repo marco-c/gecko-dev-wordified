@@ -212,6 +212,17 @@ nsUserCharacteristics
 cpp
 "
 ]
+LOCAL_INCLUDES
++
+=
+[
+"
+/
+gfx
+/
+thebes
+"
+]
 if
 CONFIG
 [

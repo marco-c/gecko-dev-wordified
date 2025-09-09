@@ -56,6 +56,9 @@ MPL
 .
 *
 /
+#
+ifdef
+StandardFonts
 /
 /
 List
@@ -1378,3 +1381,16 @@ Math
 "
 }
 ;
+static
+const
+char
+*
+kLangPackFonts
+[
+]
+=
+{
+}
+;
+#
+endif

@@ -56,6 +56,9 @@ MPL
 .
 *
 /
+#
+ifdef
+StandardFonts
 /
 /
 List
@@ -5139,3 +5142,16 @@ Vazirmatn
 "
 }
 ;
+static
+const
+char
+*
+kLangPackFonts
+[
+]
+=
+{
+}
+;
+#
+endif
