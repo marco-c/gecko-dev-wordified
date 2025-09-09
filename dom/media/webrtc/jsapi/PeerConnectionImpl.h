@@ -3453,13 +3453,6 @@ RTCStatsPromise
 GetDataChannelStats
 (
 const
-RefPtr
-<
-DataChannelConnection
->
-&
-aDataChannelConnection
-const
 DOMHighResTimeStamp
 aTimestamp
 )
