@@ -140,6 +140,9 @@ struct
 AnchorPosResolutionData
 ;
 class
+nsAtom
+;
+class
 nsIFrame
 ;
 template
@@ -278,6 +281,10 @@ nsIFrame
 *
 FindFirstAcceptableAnchor
 (
+const
+nsAtom
+*
+aName
 const
 nsIFrame
 *
