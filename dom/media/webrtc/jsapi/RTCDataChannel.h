@@ -776,6 +776,7 @@ mSelfRef
 /
 Owning
 reference
+const
 RefPtr
 <
 DataChannel
