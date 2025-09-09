@@ -2828,6 +2828,11 @@ AnnounceClosed
 (
 )
 ;
+void
+GracefulClose
+(
+)
+;
 Maybe
 <
 uint16_t
