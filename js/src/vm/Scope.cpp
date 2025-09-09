@@ -1533,8 +1533,6 @@ template
 <
 typename
 ConcreteScope
-typename
-AtomT
 >
 static
 UniquePtr
@@ -1542,7 +1540,7 @@ UniquePtr
 AbstractScopeData
 <
 ConcreteScope
-AtomT
+JSAtom
 >
 >
 NewEmptyScopeData
@@ -1562,7 +1560,7 @@ Data
 AbstractScopeData
 <
 ConcreteScope
-AtomT
+JSAtom
 >
 ;
 size_t
@@ -1834,7 +1832,6 @@ scopeData
 NewEmptyScopeData
 <
 ConcreteScope
-JSAtom
 >
 (
 cx
@@ -4202,7 +4199,6 @@ cx
 NewEmptyScopeData
 <
 GlobalScope
-JSAtom
 >
 (
 cx
@@ -4964,7 +4960,6 @@ cx
 NewEmptyScopeData
 <
 WasmInstanceScope
-JSAtom
 >
 (
 cx
@@ -5296,7 +5291,6 @@ cx
 NewEmptyScopeData
 <
 WasmFunctionScope
-JSAtom
 >
 (
 cx
