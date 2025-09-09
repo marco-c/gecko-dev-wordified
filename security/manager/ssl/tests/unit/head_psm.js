@@ -8550,6 +8550,11 @@ certificate_transparency
 mode
 .
 const
+CT_MODE_DISABLE
+=
+0
+;
+const
 CT_MODE_COLLECT_TELEMETRY
 =
 1
