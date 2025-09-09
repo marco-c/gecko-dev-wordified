@@ -15397,8 +15397,7 @@ mFrameForTrimCheck
 CharacterDataBuffer
 (
 )
--
->
+.
 CharAt
 (
 index

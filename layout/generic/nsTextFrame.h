@@ -346,7 +346,7 @@ dom
 :
 :
 CharacterDataBuffer
-*
+&
 aBuffer
 )
 ;
@@ -799,7 +799,7 @@ dom
 :
 :
 CharacterDataBuffer
-*
+&
 aBuffer
 nsTextFrame
 *
@@ -1216,7 +1216,7 @@ dom
 :
 :
 CharacterDataBuffer
-*
+&
 GetCharacterDataBuffer
 (
 )
@@ -1412,7 +1412,7 @@ dom
 :
 :
 CharacterDataBuffer
-*
+&
 mCharacterDataBuffer
 ;
 const
@@ -2285,14 +2285,13 @@ dom
 :
 :
 CharacterDataBuffer
-*
+&
 CharacterDataBuffer
 (
 )
 const
 {
 return
-&
 mContent
 -
 >
@@ -5198,7 +5197,7 @@ dom
 :
 :
 CharacterDataBuffer
-*
+&
 aBuffer
 TrimmedOffsetFlags
 aFlags
@@ -7591,11 +7590,8 @@ dom
 :
 :
 CharacterDataBuffer
-*
-const
+&
 mCharacterDataBuffer
-=
-nullptr
 ;
 /
 /

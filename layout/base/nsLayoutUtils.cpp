@@ -62563,8 +62563,7 @@ textFrame
 CharacterDataBuffer
 (
 )
--
->
+.
 AppendTo
 (
 aResult
