@@ -285,6 +285,11 @@ TestDataMutex
 cpp
 "
 "
+TestDecodedStream
+.
+cpp
+"
+"
 TestDeviceInputTrack
 .
 cpp
