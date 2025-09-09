@@ -1710,6 +1710,8 @@ desktop
 entry
 -
 comment
+-
+1
 "
 "
 l10n
@@ -1802,6 +1804,8 @@ gnome
 full
 -
 name
+-
+1
 "
                 
 "

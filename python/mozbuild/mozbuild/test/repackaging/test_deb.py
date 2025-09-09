@@ -324,6 +324,8 @@ desktop
 entry
 -
 comment
+-
+1
 =
 desktop
 -
@@ -682,6 +684,8 @@ desktop
 entry
 -
 comment
+-
+1
 Comment
 [
 zh_TW
@@ -696,6 +700,8 @@ desktop
 entry
 -
 comment
+-
+1
 GenericName
 =
 en
@@ -771,6 +777,8 @@ gnome
 full
 -
 name
+-
+1
 X
 -
 GNOME
@@ -795,6 +803,8 @@ gnome
 full
 -
 name
+-
+1
 [
 Desktop
 Action
@@ -1192,6 +1202,8 @@ desktop
 entry
 -
 comment
+-
+1
 Comment
 [
 zh_TW
@@ -1206,6 +1218,8 @@ desktop
 entry
 -
 comment
+-
+1
 GenericName
 =
 en
@@ -1281,6 +1295,8 @@ gnome
 full
 -
 name
+-
+1
 X
 -
 GNOME
@@ -1305,6 +1321,8 @@ gnome
 full
 -
 name
+-
+1
 [
 Desktop
 Action
