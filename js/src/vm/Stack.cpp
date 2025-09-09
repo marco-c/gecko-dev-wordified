@@ -5111,7 +5111,7 @@ entry
 )
 -
 >
-isSelfHostedShared
+isRealmIndependentShared
 (
 )
 )
