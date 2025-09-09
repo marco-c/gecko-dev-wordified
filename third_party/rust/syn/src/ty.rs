@@ -3120,7 +3120,7 @@ allow_precise_capture
 false
 ;
 let
-allow_tilde_const
+allow_const
 =
 false
 ;
@@ -3131,7 +3131,7 @@ parse_single
 (
 input
 allow_precise_capture
-allow_tilde_const
+allow_const
 )
 ?
 }
@@ -3526,7 +3526,7 @@ allow_precise_capture
 false
 ;
 let
-allow_tilde_const
+allow_const
 =
 false
 ;
@@ -3537,7 +3537,7 @@ parse_single
 (
 input
 allow_precise_capture
-allow_tilde_const
+allow_const
 )
 ?
 }
@@ -4014,7 +4014,7 @@ allow_precise_capture
 false
 ;
 let
-allow_tilde_const
+allow_const
 =
 false
 ;
@@ -4025,7 +4025,7 @@ parse_single
 (
 input
 allow_precise_capture
-allow_tilde_const
+allow_const
 )
 ?
 }
@@ -4132,7 +4132,6 @@ allow_plus
 )
 ?
 ;
-return
 Ok
 (
 if
@@ -4178,7 +4177,6 @@ bounds
 )
 }
 )
-;
 }
 else
 if
@@ -6020,7 +6018,7 @@ allow_precise_capture
 false
 ;
 let
-allow_tilde_const
+allow_const
 =
 false
 ;
@@ -6035,7 +6033,7 @@ parse_multiple
 input
 allow_plus
 allow_precise_capture
-allow_tilde_const
+allow_const
 )
 ?
 ;
@@ -6331,9 +6329,9 @@ allow_precise_capture
 true
 ;
 let
-allow_tilde_const
+allow_const
 =
-false
+true
 ;
 let
 bounds
@@ -6346,7 +6344,7 @@ parse_multiple
 input
 allow_plus
 allow_precise_capture
-allow_tilde_const
+allow_const
 )
 ?
 ;
@@ -6484,8 +6482,9 @@ _
 {
 /
 /
-~
+[
 const
+]
 Trait
 at_least_one_trait
 =

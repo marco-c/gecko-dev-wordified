@@ -1885,7 +1885,7 @@ don
 t
 /
 /
-bubble
+propagate
 up
 the
 chain
@@ -1909,7 +1909,7 @@ group
 /
 parsers
 should
-bubble
+propagate
 .
 fork
 .

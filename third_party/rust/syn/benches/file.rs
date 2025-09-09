@@ -37,6 +37,10 @@ allow
 clippy
 :
 :
+elidable_lifetime_names
+clippy
+:
+:
 items_after_statements
 clippy
 :
