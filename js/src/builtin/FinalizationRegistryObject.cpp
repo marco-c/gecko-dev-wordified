@@ -3859,9 +3859,11 @@ unregisterToken
 (
 cx
 args
-[
+.
+get
+(
 0
-]
+)
 )
 ;
 if
