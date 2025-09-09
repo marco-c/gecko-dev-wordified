@@ -12501,7 +12501,7 @@ patchSub32FromStackPtr
 at
 offset
 %
-lu
+zu
 with
 immediate
 %
