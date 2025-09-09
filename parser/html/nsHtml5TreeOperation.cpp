@@ -6113,6 +6113,9 @@ mShadowRootIsSerializable
 aOperation
 .
 mShadowRootDelegatesFocus
+aOperation
+.
+mShadowRootReferenceTarget
 )
 ;
 if

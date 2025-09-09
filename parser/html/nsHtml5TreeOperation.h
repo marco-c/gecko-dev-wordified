@@ -1382,6 +1382,9 @@ nsIContent
 *
 mTemplateNode
 ;
+nsString
+mShadowRootReferenceTarget
+;
 mozilla
 :
 :
@@ -1426,6 +1429,9 @@ bool
 aShadowRootIsSerializable
 bool
 aShadowRootDelegatesFocus
+nsAString
+&
+aShadowRootReferenceTarget
 )
 {
 mHost
@@ -1479,6 +1485,10 @@ aShadowRootIsSerializable
 mShadowRootDelegatesFocus
 =
 aShadowRootDelegatesFocus
+;
+mShadowRootReferenceTarget
+=
+aShadowRootReferenceTarget
 ;
 }
 }

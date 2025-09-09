@@ -624,6 +624,8 @@ bool
 aShadowRootIsSerializable
 bool
 aShadowRootDelegatesFocus
+nsHtml5String
+aShadowRootReferenceTarget
 )
 ;
 nsIContentHandle

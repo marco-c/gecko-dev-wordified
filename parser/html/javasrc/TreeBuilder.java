@@ -14811,6 +14811,18 @@ AttributeName
 SHADOWROOTDELEGATESFOCUS
 )
 ;
+String
+shadowRootReferenceTarget
+=
+attributes
+.
+getValue
+(
+AttributeName
+.
+SHADOWROOTREFERENCETARGET
+)
+;
 return
 getShadowRootFromHost
 (
@@ -14820,6 +14832,7 @@ shadowRootMode
 shadowRootIsClonable
 shadowRootIsSerializable
 shadowRootDelegatesFocus
+shadowRootReferenceTarget
 )
 ;
 }
@@ -28426,6 +28439,8 @@ boolean
 shadowRootIsSerializable
 boolean
 shadowRootDelegatesFocus
+String
+shadowRootReferenceTarget
 )
 {
 return

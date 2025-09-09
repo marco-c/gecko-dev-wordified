@@ -11757,6 +11757,8 @@ bool
 aShadowRootIsSerializable
 bool
 aShadowRootDelegatesFocus
+nsHtml5String
+aShadowRootReferenceTarget
 )
 {
 mozilla
@@ -11827,6 +11829,16 @@ return
 nullptr
 ;
 }
+nsString
+shadowRootReferenceTarget
+;
+aShadowRootReferenceTarget
+.
+ToString
+(
+shadowRootReferenceTarget
+)
+;
 if
 (
 mBuilder
@@ -11853,6 +11865,7 @@ mode
 aShadowRootIsClonable
 aShadowRootIsSerializable
 aShadowRootDelegatesFocus
+shadowRootReferenceTarget
 )
 ;
 if
@@ -11960,6 +11973,7 @@ mode
 aShadowRootIsClonable
 aShadowRootIsSerializable
 aShadowRootDelegatesFocus
+shadowRootReferenceTarget
 )
 ;
 treeOp

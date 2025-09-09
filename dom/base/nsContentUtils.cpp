@@ -79708,6 +79708,10 @@ bool
 aIsSerializable
 bool
 aDelegatesFocus
+const
+nsAString
+&
+aReferenceTarget
 )
 {
 RefPtr
@@ -79874,6 +79878,14 @@ shadowRoot
 >
 SetAvailableToElementInternals
 (
+)
+;
+shadowRoot
+-
+>
+SetReferenceTarget
+(
+aReferenceTarget
 )
 ;
 }

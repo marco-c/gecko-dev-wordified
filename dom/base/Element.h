@@ -9189,6 +9189,14 @@ ShadowRootSerializable
 :
 :
 No
+const
+nsAString
+&
+aReferenceTarget
+=
+EmptyString
+(
+)
 )
 ;
 /
