@@ -5218,6 +5218,13 @@ Clock
 WIN_ROLLOVER_PROTECTED_TIME_GET_TIME
 ;
 }
+#
+if
+!
+defined
+(
+MOZ_ZUCCHINI
+)
 /
 /
 LiveTicks
@@ -5406,13 +5413,6 @@ ThreadTicks
 -
 -
 -
-#
-if
-!
-defined
-(
-MOZ_ZUCCHINI
-)
 namespace
 subtle
 {
