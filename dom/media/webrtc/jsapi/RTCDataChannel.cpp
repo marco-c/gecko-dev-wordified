@@ -3489,7 +3489,10 @@ aBinary
 mBinaryType
 =
 =
-DC_BINARY_TYPE_BLOB
+RTCDataChannelType
+:
+:
+Blob
 )
 ?
 "
@@ -3587,7 +3590,10 @@ if
 mBinaryType
 =
 =
-DC_BINARY_TYPE_BLOB
+RTCDataChannelType
+:
+:
+Blob
 )
 {
 RefPtr
@@ -3647,7 +3653,10 @@ if
 mBinaryType
 =
 =
-DC_BINARY_TYPE_ARRAYBUFFER
+RTCDataChannelType
+:
+:
+Arraybuffer
 )
 {
 ErrorResult
