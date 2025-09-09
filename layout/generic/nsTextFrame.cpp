@@ -28767,6 +28767,10 @@ CombiningMark
 {
 if
 (
+!
+atStart
+&
+&
 mTextAutospace
 -
 >
