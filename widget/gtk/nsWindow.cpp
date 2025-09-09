@@ -58073,7 +58073,10 @@ scale
 #
 endif
 return
-GdkCeiledScaleFactor
+ScreenHelperGTK
+:
+:
+GetGTKMonitorFractionalScaleFactor
 (
 )
 ;
