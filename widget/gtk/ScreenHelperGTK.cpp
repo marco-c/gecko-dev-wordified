@@ -608,6 +608,9 @@ scale
 =
 geometryScaleFactor
 ;
+#
+ifdef
+MOZ_WAYLAND
 if
 (
 StaticPrefs
@@ -773,6 +776,8 @@ fractionalScale
 ;
 }
 }
+#
+endif
 /
 /
 Don
