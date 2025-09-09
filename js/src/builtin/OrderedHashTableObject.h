@@ -5081,9 +5081,6 @@ return
 true
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 /
 *
 *
@@ -5321,13 +5318,6 @@ entry
 element
 ;
 }
-#
-endif
-/
-/
-#
-ifdef
-NIGHTLY_BUILD
 /
 *
 *
@@ -9487,9 +9477,6 @@ value
 )
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 template
 <
 typename
@@ -9551,13 +9538,6 @@ value
 )
 ;
 }
-#
-endif
-/
-/
-#
-ifdef
-NIGHTLY_BUILD
 #
 ifdef
 DEBUG

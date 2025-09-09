@@ -1071,9 +1071,6 @@ bool
 rval
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 [
 [
 nodiscard
@@ -1097,13 +1094,6 @@ MutableHandleValue
 rval
 )
 ;
-#
-endif
-/
-/
-#
-ifdef
-NIGHTLY_BUILD
 [
 [
 nodiscard
@@ -1658,9 +1648,6 @@ CallArgs
 args
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 [
 [
 nodiscard
@@ -1698,8 +1685,6 @@ CallArgs
 args
 )
 ;
-#
-endif
 [
 [
 nodiscard

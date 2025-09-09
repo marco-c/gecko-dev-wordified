@@ -500,9 +500,6 @@ CallArgs
 args
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 [
 [
 nodiscard
@@ -541,13 +538,6 @@ Value
 vp
 )
 ;
-#
-endif
-/
-/
-#
-ifdef
-NIGHTLY_BUILD
 }
 ;
 }
