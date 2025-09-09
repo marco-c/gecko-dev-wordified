@@ -2482,7 +2482,12 @@ Label
 L
 )
 ;
-void
+[
+[
+nodiscard
+]
+]
+bool
 BranchShort
 (
 int32_t
@@ -2497,7 +2502,12 @@ Operand
 rt
 )
 ;
-void
+[
+[
+nodiscard
+]
+]
+bool
 BranchShort
 (
 Label
