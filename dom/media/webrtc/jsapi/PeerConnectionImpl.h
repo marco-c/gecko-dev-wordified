@@ -3453,6 +3453,13 @@ RTCStatsPromise
 GetDataChannelStats
 (
 const
+RefPtr
+<
+DataChannelConnection
+>
+&
+aDataChannelConnection
+const
 DOMHighResTimeStamp
 aTimestamp
 )
@@ -3812,9 +3819,6 @@ nsCOMPtr
 nsPIDOMWindowInner
 >
 mWindow
-;
-nsString
-mOrigin
 ;
 /
 /
