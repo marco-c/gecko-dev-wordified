@@ -16415,16 +16415,6 @@ const
 SynthesizeMouseEventOptions
 &
 aOptions
-const
-Optional
-<
-OwningNonNull
-<
-VoidFunction
->
->
-&
-aCallback
 ErrorResult
 &
 aError
@@ -16544,7 +16534,6 @@ aType
 refPoint
 aMouseEventData
 aOptions
-aCallback
 )
 ;
 if
