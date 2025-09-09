@@ -1618,9 +1618,11 @@ browser
 /
 extensions
 /
-search
+data
 -
-detection
+leak
+-
+blocker
 /
 metrics
 .
@@ -1632,11 +1634,9 @@ browser
 /
 extensions
 /
-data
+search
 -
-leak
--
-blocker
+detection
 /
 metrics
 .
