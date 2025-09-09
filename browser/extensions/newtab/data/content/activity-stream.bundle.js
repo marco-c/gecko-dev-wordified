@@ -21684,6 +21684,17 @@ const
 placementPref
 =
 prefs
+.
+trainhopConfig
+?
+.
+dailyBriefing
+?
+.
+placement
+|
+|
+prefs
 [
 PREF_WEATHER_PLACEMENT
 ]
@@ -21851,7 +21862,7 @@ dailyBriefEnabled
 =
 prefs
 .
-trainHopConfig
+trainhopConfig
 ?
 .
 dailyBriefing
@@ -21870,7 +21881,7 @@ sectionId
 =
 prefs
 .
-trainHopConfig
+trainhopConfig
 ?
 .
 dailyBriefing
@@ -89137,7 +89148,7 @@ dailyBriefSectionId
 =
 prefs
 .
-trainHopConfig
+trainhopConfig
 ?
 .
 dailyBriefing
