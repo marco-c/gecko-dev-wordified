@@ -10821,6 +10821,9 @@ newtab
 position
 :
 0
+isPinned
+:
+false
 }
 ;
 const
@@ -10900,6 +10903,12 @@ impressions
 .
 extra
 {
+is_pinned
+:
+String
+(
+false
+)
 newtab_visit_id
 :
 SESSION_ID
@@ -11001,6 +11010,9 @@ newtab
 position
 :
 0
+isPinned
+:
+false
 }
 ;
 const
@@ -11094,6 +11106,12 @@ position
 String
 (
 0
+)
+is_pinned
+:
+String
+(
+false
 )
 }
 )
