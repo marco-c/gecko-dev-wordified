@@ -517,7 +517,7 @@ dom
 :
 CharacterDataBuffer
 *
-aFrag
+aBuffer
 nsTextFrame
 *
 aFrame
@@ -4880,7 +4880,7 @@ dom
 :
 CharacterDataBuffer
 *
-aFrag
+aBuffer
 TrimmedOffsetFlags
 aFlags
 =
