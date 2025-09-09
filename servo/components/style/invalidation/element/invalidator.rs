@@ -5709,6 +5709,8 @@ cur_dependency
 self
 .
 element
+invalidation
+.
 scope
 )
 {
@@ -5825,16 +5827,9 @@ invalidation
 host
 scope
 :
-Some
-(
-self
+invalidation
 .
-element
-.
-opaque
-(
-)
-)
+scope
 offset
 :
 next_combinator_offset
