@@ -315,9 +315,6 @@ impl
 h
 "
 #
-define
-StandardFonts
-#
 include
 "
 StandardFonts
@@ -326,9 +323,6 @@ linux
 .
 inc
 "
-#
-undef
-StandardFonts
 #
 include
 "
