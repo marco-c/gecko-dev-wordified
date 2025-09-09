@@ -266,13 +266,6 @@ h
 #
 include
 "
-nsIDocumentViewer
-.
-h
-"
-#
-include
-"
 nsIInterfaceRequestor
 .
 h
@@ -7029,10 +7022,7 @@ the
 navigation
 .
 MOZ_CAN_RUN_SCRIPT
-nsIDocumentViewer
-:
-:
-PermitUnloadResult
+bool
 MaybeFireTraversableTraverseHistory
 (
 const
