@@ -23,9 +23,6 @@ skip
 -
 if
 (
-release_or_beta
-|
-|
 !
 xulRuntime
 .
@@ -33,17 +30,6 @@ shell
 )
 -
 -
-symbols
--
-as
--
-weakmap
--
-keys
-is
-not
-released
-yet
 requires
 shell
 -

@@ -528,16 +528,6 @@ regexp
 -
 modifiers
 "
-        
-"
-symbols
--
-as
--
-weakmap
--
-keys
-"
     
 ]
 )

@@ -23,9 +23,6 @@ skip
 -
 if
 (
-release_or_beta
-|
-|
 !
 this
 .
@@ -44,17 +41,6 @@ shell
 )
 -
 -
-symbols
--
-as
--
-weakmap
--
-keys
-is
-not
-released
-yet
 FinalizationRegistry
 is
 not
