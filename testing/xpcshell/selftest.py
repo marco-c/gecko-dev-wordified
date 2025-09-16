@@ -3413,9 +3413,17 @@ headless
 kwargs
 [
 "
-sequential
+selfTest
 "
 ]
+=
+True
+#
+Prevent
+singleFile
+from
+forcing
+sequential
 =
 True
         
