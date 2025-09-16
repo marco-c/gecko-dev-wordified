@@ -14987,7 +14987,7 @@ shortcut
 =
 KeyShortcuts
 .
-stringify
+stringifyShortcut
 (
 shortcut
 )
