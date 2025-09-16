@@ -28,14 +28,6 @@ helperThreadCount
 =
 =
 0
-|
-|
-getBuildConfiguration
-(
-"
-release_or_beta
-"
-)
 evalInWorker
 (
 a
