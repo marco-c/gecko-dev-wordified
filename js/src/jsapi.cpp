@@ -20334,7 +20334,8 @@ AutoSetAsyncStackForNewCalls
 JSContext
 *
 cx
-HandleObject
+JSObject
+*
 stack
 const
 char
