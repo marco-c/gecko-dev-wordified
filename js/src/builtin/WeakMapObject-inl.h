@@ -589,9 +589,6 @@ bool
 isWeakMap
 )
 {
-#
-ifdef
-NIGHTLY_BUILD
 bool
 symbolsAsWeakMapKeysEnabled
 =
@@ -618,8 +615,6 @@ JSMSG_WEAKMAP_KEY_CANT_BE_HELD_WEAKLY
 JSMSG_WEAKSET_VAL_CANT_BE_HELD_WEAKLY
 ;
 }
-#
-endif
 return
 isWeakMap
 ?
