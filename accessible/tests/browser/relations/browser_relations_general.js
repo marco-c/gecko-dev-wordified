@@ -1531,7 +1531,8 @@ testCachedRelation
 (
 link
 RELATION_LINKS_TO
-null
+[
+]
 )
 ;
 await
@@ -1539,7 +1540,8 @@ testCachedRelation
 (
 link2
 RELATION_LINKS_TO
-null
+[
+]
 )
 ;
 await
