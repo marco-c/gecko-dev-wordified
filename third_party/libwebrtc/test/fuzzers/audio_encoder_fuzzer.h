@@ -94,6 +94,11 @@ TEST_FUZZERS_AUDIO_ENCODER_FUZZER_H_
 #
 include
 <
+cstdint
+>
+#
+include
+<
 memory
 >
 #

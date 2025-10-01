@@ -191,9 +191,7 @@ h
 #
 include
 <
-stdio
-.
-h
+cstdio
 >
 #
 include

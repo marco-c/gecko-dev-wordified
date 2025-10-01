@@ -194,6 +194,15 @@ include
 "
 test
 /
+frame_generator_capturer
+.
+h
+"
+#
+include
+"
+test
+/
 testsupport
 /
 file_utils

@@ -117,6 +117,11 @@ cstdint
 #
 include
 <
+cstdio
+>
+#
+include
+<
 cstring
 >
 #

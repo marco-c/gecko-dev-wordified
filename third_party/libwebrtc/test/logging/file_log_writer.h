@@ -122,6 +122,15 @@ h
 #
 include
 "
+api
+/
+rtc_event_log_output
+.
+h
+"
+#
+include
+"
 test
 /
 logging

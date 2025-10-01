@@ -94,6 +94,11 @@ TEST_VIDEO_TEST_CONSTANTS_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
 cstdint
 >
 #

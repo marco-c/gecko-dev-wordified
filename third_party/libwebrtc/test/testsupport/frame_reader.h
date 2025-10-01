@@ -94,9 +94,7 @@ TEST_TESTSUPPORT_FRAME_READER_H_
 #
 include
 <
-stdio
-.
-h
+cstdio
 >
 #
 include

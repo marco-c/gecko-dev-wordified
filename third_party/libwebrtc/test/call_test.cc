@@ -599,17 +599,6 @@ include
 "
 test
 /
-testsupport
-/
-file_utils
-.
-h
-"
-#
-include
-"
-test
-/
 video_test_constants
 .
 h

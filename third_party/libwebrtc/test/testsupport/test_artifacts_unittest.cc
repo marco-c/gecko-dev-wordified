@@ -99,9 +99,12 @@ h
 #
 include
 <
-string
-.
-h
+cstdint
+>
+#
+include
+<
+cstring
 >
 #
 include
