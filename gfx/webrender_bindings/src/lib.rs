@@ -87,10 +87,6 @@ euclid
 ;
 extern
 crate
-rustc_hash
-;
-extern
-crate
 gecko_profiler
 ;
 extern
@@ -108,6 +104,10 @@ num_cpus
 extern
 crate
 rayon
+;
+extern
+crate
+rustc_hash
 ;
 extern
 crate

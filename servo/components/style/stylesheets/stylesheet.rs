@@ -221,12 +221,6 @@ ParserInput
 StyleSheetParser
 }
 ;
-use
-fxhash
-:
-:
-FxHashMap
-;
 #
 [
 cfg
@@ -252,6 +246,12 @@ parking_lot
 :
 :
 RwLock
+;
+use
+rustc_hash
+:
+:
+FxHashMap
 ;
 use
 servo_arc

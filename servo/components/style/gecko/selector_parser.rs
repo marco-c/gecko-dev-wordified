@@ -155,10 +155,9 @@ cssparser
 :
 :
 {
-CowRcStr
-SourceLocation
-ToCss
-Token
+BasicParseError
+BasicParseErrorKind
+Parser
 }
 ;
 use
@@ -166,9 +165,10 @@ cssparser
 :
 :
 {
-BasicParseError
-BasicParseErrorKind
-Parser
+CowRcStr
+SourceLocation
+ToCss
+Token
 }
 ;
 use

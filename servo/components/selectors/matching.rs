@@ -8064,7 +8064,6 @@ Component
 ParentSelector
 =
 >
-{
 match
 context
 .
@@ -8096,7 +8095,6 @@ element
 is_root
 (
 )
-}
 }
 Component
 :

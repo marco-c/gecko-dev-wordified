@@ -3573,6 +3573,7 @@ InvalidationAddOverride
 Sibling
 =
 >
+{
 self
 .
 sibling_invalidations
@@ -3581,6 +3582,7 @@ push
 (
 invalidation
 )
+}
 }
 }
 self
@@ -3836,10 +3838,12 @@ _
 )
 =
 >
+{
 unreachable
 !
 (
 )
+}
 DependencyInvalidationKind
 :
 :
@@ -3859,7 +3863,6 @@ kind
 )
 =
 >
-{
 match
 kind
 {
@@ -3922,7 +3925,6 @@ Descendants
 =
 >
 true
-}
 }
 }
 }
@@ -4027,7 +4029,6 @@ kind
 )
 =
 >
-{
 match
 kind
 {
@@ -4132,7 +4133,6 @@ false
 }
 }
 }
-}
 pub
 (
 crate
@@ -4210,7 +4210,6 @@ kind
 )
 =
 >
-{
 match
 kind
 {
@@ -4265,7 +4264,6 @@ Descendants
 =
 >
 true
-}
 }
 }
 }

@@ -170,8 +170,8 @@ smallvec
 :
 :
 {
-SmallVec
 smallvec
+SmallVec
 }
 ;
 use
@@ -5673,6 +5673,7 @@ InvalidationAddOverride
 Descendant
 =
 >
+{
 descendant_invalidations
 .
 dom_descendants
@@ -5681,18 +5682,21 @@ push
 (
 invalidation
 )
+}
 InvalidationAddOverride
 :
 :
 Sibling
 =
 >
+{
 sibling_invalidations
 .
 push
 (
 invalidation
 )
+}
 }
 }
 continue
@@ -6286,7 +6290,6 @@ CompoundSelectorMatchingResult
 FullyMatched
 =
 >
-{
 self
 .
 handle_fully_matched
@@ -6295,7 +6298,6 @@ invalidation
 descendant_invalidations
 sibling_invalidations
 )
-}
 CompoundSelectorMatchingResult
 :
 :

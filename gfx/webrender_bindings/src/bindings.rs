@@ -8957,7 +8957,6 @@ external_image_id
 }
 =
 >
-{
 unsafe
 {
 wr_compositor_attach_external_image
@@ -8971,7 +8970,6 @@ id
 external_image_id
 )
 ;
-}
 }
 }
 }
@@ -9014,9 +9012,7 @@ CompositorSurfaceUsage
 DebugOverlay
 =
 >
-{
 true
-}
 CompositorSurfaceUsage
 :
 :
@@ -9032,9 +9028,7 @@ External
 }
 =
 >
-{
 false
-}
 }
 }
 ;
