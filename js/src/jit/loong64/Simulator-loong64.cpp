@@ -364,6 +364,11 @@ h
 #
 include
 <
+cinttypes
+>
+#
+include
+<
 float
 .
 h
@@ -14077,7 +14082,10 @@ instruction
 n
 0x
 %
-016lx
+016
+"
+PRIxPTR
+"
 :
 %
 s
