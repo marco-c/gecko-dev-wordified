@@ -1805,7 +1805,7 @@ propertyAddress
 {
 kAudioHardwarePropertyRunLoop
 kAudioObjectPropertyScopeGlobal
-kAudioObjectPropertyElementMaster
+kAudioObjectPropertyElementMain
 }
 ;
 CFRunLoopRef
@@ -2124,7 +2124,7 @@ propertyAddress
 {
 kAudioHardwarePropertyDevices
 kAudioObjectPropertyScopeGlobal
-kAudioObjectPropertyElementMaster
+kAudioObjectPropertyElementMain
 }
 ;
 WEBRTC_CA_LOG_WARN
@@ -8628,7 +8628,7 @@ propertyAddress
 {
 kAudioHardwarePropertyDevices
 kAudioObjectPropertyScopeGlobal
-kAudioObjectPropertyElementMaster
+kAudioObjectPropertyElementMain
 }
 ;
 UInt32
@@ -8755,7 +8755,7 @@ propertyAddressDefault
 {
 hardwareProperty
 kAudioObjectPropertyScopeGlobal
-kAudioObjectPropertyElementMaster
+kAudioObjectPropertyElementMain
 }
 ;
 AudioDeviceID
@@ -9277,7 +9277,7 @@ propertyAddress
 {
 hardwareProperty
 kAudioObjectPropertyScopeGlobal
-kAudioObjectPropertyElementMaster
+kAudioObjectPropertyElementMain
 }
 ;
 UInt32
@@ -9544,7 +9544,7 @@ propertyAddress
 {
 defaultDeviceSelector
 kAudioObjectPropertyScopeGlobal
-kAudioObjectPropertyElementMaster
+kAudioObjectPropertyElementMain
 }
 ;
 /
