@@ -4690,8 +4690,6 @@ dst
 .
 desc
 data_layout
-.
-offset
 false
 /
 /
@@ -4701,6 +4699,10 @@ required
 for
 buffer
 offset
+or
+bytes
+per
+row
 )
 ?
 ;
@@ -4731,6 +4733,7 @@ let
 (
 required_bytes_in_copy
 _source_bytes_per_array_layer
+_
 )
 =
 validate_linear_texture_data
@@ -4759,7 +4762,6 @@ CopySide
 :
 Source
 size
-false
 )
 ?
 ;

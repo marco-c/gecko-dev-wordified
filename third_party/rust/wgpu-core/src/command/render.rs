@@ -11703,6 +11703,8 @@ let
 (
 scope
 pending_discard_init_fixups
+mut
+pending_query_resets
 )
 =
 {
@@ -11741,15 +11743,6 @@ mut
 cmd_buf_data
 .
 texture_memory_actions
-;
-let
-pending_query_resets
-=
-&
-mut
-cmd_buf_data
-.
-pending_query_resets
 ;
 let
 indirect_draw_validation_resources
@@ -11832,6 +11825,17 @@ map_pass_err
 pass_scope
 )
 ?
+;
+let
+mut
+pending_query_resets
+=
+QueryResetMap
+:
+:
+new
+(
+)
 ;
 let
 mut
@@ -11927,6 +11931,8 @@ clone
 encoder
 tracker
 texture_memory_actions
+&
+mut
 pending_query_resets
 &
 mut
@@ -12880,8 +12886,6 @@ Some
 (
 &
 mut
-cmd_buf_data
-.
 pending_query_resets
 )
 query_set
@@ -12974,8 +12978,6 @@ Some
 (
 &
 mut
-cmd_buf_data
-.
 pending_query_resets
 )
 &
@@ -13106,8 +13108,6 @@ Some
 (
 &
 mut
-cmd_buf_data
-.
 pending_query_resets
 )
 &
@@ -13312,6 +13312,7 @@ pass_scope
 (
 trackers
 pending_discard_init_fixups
+pending_query_resets
 )
 }
 ;
@@ -13388,8 +13389,6 @@ device
 snatch_guard
 )
 ;
-cmd_buf_data
-.
 pending_query_resets
 .
 reset_queries
