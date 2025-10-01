@@ -1358,6 +1358,16 @@ allocator_
 nullptr
 )
 ;
+RTC_DCHECK
+(
+!
+transport_name_
+.
+empty
+(
+)
+)
+;
 /
 /
 Validate
