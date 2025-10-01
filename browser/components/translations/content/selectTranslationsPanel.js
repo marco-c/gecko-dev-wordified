@@ -12902,6 +12902,9 @@ requestTranslationsPort
 allowSameLanguage
 :
 true
+activeRequestCapacity
+:
+1
 }
 )
 ;
