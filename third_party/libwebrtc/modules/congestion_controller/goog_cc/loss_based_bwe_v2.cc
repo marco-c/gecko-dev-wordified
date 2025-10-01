@@ -2225,6 +2225,17 @@ duration
 ms
 (
 )
+<
+<
+"
+avg
+loss
+rate
+:
+"
+<
+<
+average_reported_loss_ratio_
 ;
 last_hold_info_
 =
