@@ -235,7 +235,7 @@ inputSizeChecked
 =
 aInputSize
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 inputSizeChecked
 .
@@ -292,7 +292,7 @@ inputSizeChecked
 =
 aInputSize
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 inputSizeChecked
 .
@@ -309,7 +309,7 @@ maxOutputSizeChecked
 =
 aMaxOutputSize
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 maxOutputSizeChecked
 .
@@ -366,7 +366,7 @@ maxOutputSizeChecked
 =
 aMaxOutputSize
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 maxOutputSizeChecked
 .
@@ -383,7 +383,7 @@ inputSizeChecked
 =
 aInputSize
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 inputSizeChecked
 .
@@ -467,7 +467,7 @@ maxOutputSizeChecked
 =
 aMaxOutputSize
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 maxOutputSizeChecked
 .
@@ -484,7 +484,7 @@ inputSizeChecked
 =
 aInputSize
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 inputSizeChecked
 .
