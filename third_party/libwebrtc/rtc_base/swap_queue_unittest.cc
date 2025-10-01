@@ -97,6 +97,11 @@ h
 #
 include
 <
+cstddef
+>
+#
+include
+<
 cstdint
 >
 #
@@ -104,6 +109,15 @@ include
 <
 vector
 >
+#
+include
+"
+rtc_base
+/
+checks
+.
+h
+"
 #
 include
 "

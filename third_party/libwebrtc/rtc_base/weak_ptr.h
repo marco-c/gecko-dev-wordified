@@ -91,7 +91,7 @@ RTC_BASE_WEAK_PTR_H_
 #
 include
 <
-memory
+cstddef
 >
 #
 include
@@ -122,15 +122,6 @@ include
 rtc_base
 /
 checks
-.
-h
-"
-#
-include
-"
-rtc_base
-/
-ref_count
 .
 h
 "

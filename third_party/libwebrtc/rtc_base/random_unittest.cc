@@ -104,6 +104,11 @@ h
 #
 include
 <
+cstdint
+>
+#
+include
+<
 limits
 >
 #
@@ -116,6 +121,15 @@ include
 <
 vector
 >
+#
+include
+"
+rtc_base
+/
+checks
+.
+h
+"
 #
 include
 "

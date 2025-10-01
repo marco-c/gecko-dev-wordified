@@ -96,12 +96,12 @@ cstddef
 #
 include
 <
-cstring
+cstdint
 >
 #
 include
 <
-memory
+cstring
 >
 #
 include

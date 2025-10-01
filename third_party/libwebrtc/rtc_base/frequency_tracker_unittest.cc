@@ -97,6 +97,11 @@ h
 #
 include
 <
+cstdint
+>
+#
+include
+<
 cstdlib
 >
 #

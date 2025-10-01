@@ -124,6 +124,15 @@ h
 #
 include
 "
+api
+/
+array_view
+.
+h
+"
+#
+include
+"
 rtc_base
 /
 checks

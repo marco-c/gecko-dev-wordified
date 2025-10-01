@@ -134,15 +134,6 @@ array_view
 .
 h
 "
-#
-include
-"
-rtc_base
-/
-string_encode
-.
-h
-"
 namespace
 webrtc
 {

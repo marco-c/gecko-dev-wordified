@@ -103,6 +103,11 @@ h
 #
 include
 <
+cstddef
+>
+#
+include
+<
 cstdint
 >
 #
@@ -114,6 +119,11 @@ limits
 include
 <
 memory
+>
+#
+include
+<
+string
 >
 #
 include

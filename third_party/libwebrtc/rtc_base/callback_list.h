@@ -123,17 +123,6 @@ rtc_base
 /
 system
 /
-assume
-.
-h
-"
-#
-include
-"
-rtc_base
-/
-system
-/
 inline
 .
 h

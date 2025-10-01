@@ -105,11 +105,6 @@ RTC_BASE_STRONG_ALIAS_H_
 #
 include
 <
-type_traits
->
-#
-include
-<
 utility
 >
 namespace
