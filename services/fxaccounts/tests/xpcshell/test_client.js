@@ -3602,6 +3602,7 @@ break
 case
 3
 :
+{
 /
 /
 Return
@@ -3670,6 +3671,7 @@ length
 ;
 break
 ;
+}
 case
 4
 :
