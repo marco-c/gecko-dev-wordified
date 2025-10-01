@@ -86,6 +86,7 @@ mjs
 const
 {
 IPProtectionService
+IPProtectionStates
 }
 =
 ChromeUtils
