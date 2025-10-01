@@ -1985,6 +1985,16 @@ ScreenIntCoord
 aHeight
 )
 ;
+static
+uint16_t
+GetGridContainerType
+(
+GlobalObject
+&
+Element
+&
+)
+;
 }
 ;
 }
