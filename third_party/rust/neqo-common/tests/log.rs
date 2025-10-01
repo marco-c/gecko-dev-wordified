@@ -159,13 +159,7 @@ num
 let
 obj
 =
-std
-:
-:
-time
-:
-:
-Instant
+test_fixture
 :
 :
 now

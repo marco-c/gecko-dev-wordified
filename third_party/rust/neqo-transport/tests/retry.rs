@@ -187,6 +187,7 @@ decode_initial_header
 initial_aead_and_hp
 }
 now
+CountingConnectionIdGenerator
 }
 ;
 #
@@ -4724,6 +4725,12 @@ not
 work
 with
 MLKEM
+and
+packet
+number
+randomization
+/
+/
 enabled
 .
 let
@@ -4734,6 +4741,11 @@ test_fixture
 :
 :
 new_client
+:
+:
+<
+CountingConnectionIdGenerator
+>
 (
 ConnectionParameters
 :
@@ -4984,13 +4996,6 @@ len
 /
 Decrypt
 .
-assert_eq
-!
-(
-pn
-1
-)
-;
 let
 mut
 plaintext_buf

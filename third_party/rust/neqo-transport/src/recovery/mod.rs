@@ -3891,7 +3891,7 @@ sent_packet
 }
 else
 {
-qwarn
+qinfo
 !
 (
 "
@@ -8182,9 +8182,6 @@ new
 )
 ON_SENT_SIZE
 )
-Instant
-:
-:
 now
 (
 )
@@ -9275,9 +9272,6 @@ new
 )
 ON_SENT_SIZE
 )
-Instant
-:
-:
 now
 (
 )
@@ -9323,9 +9317,6 @@ new
 )
 ON_SENT_SIZE
 )
-Instant
-:
-:
 now
 (
 )
@@ -9971,9 +9962,6 @@ new
 )
 ON_SENT_SIZE
 )
-Instant
-:
-:
 now
 (
 )
@@ -10015,9 +10003,6 @@ new
 )
 ON_SENT_SIZE
 )
-Instant
-:
-:
 now
 (
 )
@@ -10059,9 +10044,6 @@ new
 )
 ON_SENT_SIZE
 )
-Instant
-:
-:
 now
 (
 )
@@ -10162,9 +10144,6 @@ lr
 on_packet_sent
 (
 sent_pkt
-Instant
-:
-:
 now
 (
 )
@@ -10375,9 +10354,6 @@ new
 )
 ON_SENT_SIZE
 )
-Instant
-:
-:
 now
 (
 )
@@ -10454,9 +10430,6 @@ new
 )
 ON_SENT_SIZE
 )
-Instant
-:
-:
 now
 (
 )
@@ -10570,9 +10543,6 @@ new
 )
 ON_SENT_SIZE
 )
-Instant
-:
-:
 now
 (
 )
@@ -10613,9 +10583,6 @@ new
 )
 ON_SENT_SIZE
 )
-Instant
-:
-:
 now
 (
 )

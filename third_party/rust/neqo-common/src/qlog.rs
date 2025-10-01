@@ -1338,15 +1338,6 @@ mod
 test
 {
 use
-std
-:
-:
-time
-:
-:
-Instant
-;
-use
 qlog
 :
 :
@@ -1537,7 +1528,7 @@ with_time
 EV_DATA
 )
 )
-Instant
+test_fixture
 :
 :
 now

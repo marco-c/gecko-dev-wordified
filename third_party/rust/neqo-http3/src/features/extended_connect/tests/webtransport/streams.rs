@@ -105,7 +105,7 @@ webtransport
 :
 :
 WtTest
-SessionCloseReason
+CloseReason
 }
 Error
 }
@@ -2865,7 +2865,7 @@ wt_session
 stream_id
 (
 )
-SessionCloseReason
+CloseReason
 :
 :
 Error
@@ -3048,7 +3048,7 @@ wt_session
 stream_id
 (
 )
-SessionCloseReason
+CloseReason
 :
 :
 Error
@@ -3216,7 +3216,7 @@ wt_session
 stream_id
 (
 )
-SessionCloseReason
+CloseReason
 :
 :
 Error
@@ -3374,7 +3374,7 @@ wt_session
 stream_id
 (
 )
-SessionCloseReason
+CloseReason
 :
 :
 Error
@@ -3553,7 +3553,7 @@ wt_session
 stream_id
 (
 )
-SessionCloseReason
+CloseReason
 :
 :
 Error
@@ -3733,7 +3733,7 @@ wt_session
 stream_id
 (
 )
-SessionCloseReason
+CloseReason
 :
 :
 Error
@@ -3928,7 +3928,7 @@ wt_session
 stream_id
 (
 )
-SessionCloseReason
+CloseReason
 :
 :
 Error
@@ -4101,7 +4101,7 @@ wt_session
 stream_id
 (
 )
-SessionCloseReason
+CloseReason
 :
 :
 Error
@@ -4263,7 +4263,7 @@ wt_session
 stream_id
 (
 )
-SessionCloseReason
+CloseReason
 :
 :
 Error
@@ -4407,7 +4407,7 @@ wt_session
 stream_id
 (
 )
-SessionCloseReason
+CloseReason
 :
 :
 Error
@@ -4599,7 +4599,7 @@ wt_session
 stream_id
 (
 )
-SessionCloseReason
+CloseReason
 :
 :
 Error
@@ -4751,7 +4751,7 @@ wt_session
 stream_id
 (
 )
-SessionCloseReason
+CloseReason
 :
 :
 Error
@@ -4994,7 +4994,7 @@ wt_session
 stream_id
 (
 )
-SessionCloseReason
+CloseReason
 :
 :
 Error
@@ -5373,7 +5373,7 @@ wt_session
 stream_id
 (
 )
-SessionCloseReason
+CloseReason
 :
 :
 Error
@@ -5553,7 +5553,7 @@ wt_session
 stream_id
 (
 )
-SessionCloseReason
+CloseReason
 :
 :
 Error
@@ -5726,7 +5726,7 @@ wt_session
 stream_id
 (
 )
-SessionCloseReason
+CloseReason
 :
 :
 Error
@@ -5892,7 +5892,7 @@ wt_session
 stream_id
 (
 )
-SessionCloseReason
+CloseReason
 :
 :
 Error
@@ -6069,7 +6069,7 @@ wt_session
 stream_id
 (
 )
-SessionCloseReason
+CloseReason
 :
 :
 Error
@@ -6261,7 +6261,7 @@ wt_session
 stream_id
 (
 )
-SessionCloseReason
+CloseReason
 :
 :
 Error
@@ -6443,7 +6443,7 @@ wt_session
 stream_id
 (
 )
-SessionCloseReason
+CloseReason
 :
 :
 Error
@@ -6619,7 +6619,7 @@ wt_session
 stream_id
 (
 )
-SessionCloseReason
+CloseReason
 :
 :
 Error
@@ -6805,7 +6805,7 @@ wt_session
 stream_id
 (
 )
-SessionCloseReason
+CloseReason
 :
 :
 Error
@@ -6984,7 +6984,7 @@ wt_session
 stream_id
 (
 )
-SessionCloseReason
+CloseReason
 :
 :
 Error
@@ -7194,7 +7194,7 @@ wt_session
 stream_id
 (
 )
-SessionCloseReason
+CloseReason
 :
 :
 Error
@@ -7432,7 +7432,7 @@ wt_session
 stream_id
 (
 )
-SessionCloseReason
+CloseReason
 :
 :
 Clean

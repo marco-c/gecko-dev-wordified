@@ -154,7 +154,6 @@ neqo_common
 :
 {
 qdebug
-qinfo
 qtrace
 qwarn
 Buffer
@@ -918,7 +917,7 @@ other
 Self
 )
 {
-qinfo
+qdebug
 !
 (
 "

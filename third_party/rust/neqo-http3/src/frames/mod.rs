@@ -82,6 +82,10 @@ terms
 .
 pub
 mod
+connect_udp_frame
+;
+pub
+mod
 hframe
 ;
 pub
@@ -91,6 +95,15 @@ reader
 pub
 mod
 wtframe
+;
+pub
+use
+connect_udp_frame
+:
+:
+Frame
+as
+ConnectUdpFrame
 ;
 #
 [
