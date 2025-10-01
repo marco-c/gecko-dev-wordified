@@ -1125,6 +1125,16 @@ PREFIX_BY_KIND
 {
     
 "
+browsertime
+"
+:
+{
+"
+browsertime
+"
+}
+    
+"
 mochitest
 "
 :

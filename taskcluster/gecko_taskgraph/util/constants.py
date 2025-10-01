@@ -57,6 +57,9 @@ TEST_KINDS
 =
 (
 "
+browsertime
+"
+"
 mochitest
 "
 "

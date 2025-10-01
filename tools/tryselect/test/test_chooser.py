@@ -433,6 +433,7 @@ name
 test
 mochitest
 reftest
+browsertime
 "
 value
 =
@@ -504,6 +505,7 @@ name
 test
 mochitest
 reftest
+browsertime
 "
 value
 =
