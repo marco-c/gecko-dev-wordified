@@ -164,9 +164,12 @@ RadialGradient
 ConicGradient
 =
 2
-Mask
+Gradient
 =
 3
+Mask
+=
+4
 /
 /
 When
@@ -189,7 +192,7 @@ NUM_PATTERNS
 :
 u32
 =
-4
+5
 ;
 impl
 PatternKind
