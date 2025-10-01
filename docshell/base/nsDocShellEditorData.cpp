@@ -192,7 +192,7 @@ nsDocShellEditorData
 :
 nsDocShellEditorData
 (
-nsIDocShell
+nsDocShell
 *
 aOwningDocShell
 )
@@ -731,7 +731,7 @@ nsDocShellEditorData
 :
 ReattachToWindow
 (
-nsIDocShell
+nsDocShell
 *
 aDocShell
 )

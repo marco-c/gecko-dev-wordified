@@ -787,6 +787,10 @@ nsDocShell
 docShell
 =
 mDocShell
+.
+get
+(
+)
 ;
 *
 aAbortProcess
