@@ -831,10 +831,6 @@ nsCString
 kPathTemplate
 )
 "
-h3
-"
-_ns
-"
 "
 _ns
 "
