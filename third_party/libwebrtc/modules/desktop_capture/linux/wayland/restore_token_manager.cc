@@ -129,9 +129,6 @@ GetInstance
 )
 {
 static
-webrtc
-:
-:
 RestoreTokenManager
 *
 manager

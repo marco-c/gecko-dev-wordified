@@ -388,9 +388,6 @@ GetWindowRef
 (
 CGWindowID
 id
-webrtc
-:
-:
 FunctionView
 <
 void
@@ -581,9 +578,6 @@ namespace
 bool
 GetWindowList
 (
-webrtc
-:
-:
 FunctionView
 <
 bool

@@ -161,9 +161,6 @@ public
 explicit
 WindowFinderMac
 (
-webrtc
-:
-:
 scoped_refptr
 <
 DesktopConfigurationMonitor
@@ -193,9 +190,6 @@ override
 private
 :
 const
-webrtc
-:
-:
 scoped_refptr
 <
 DesktopConfigurationMonitor

@@ -3019,9 +3019,6 @@ string_view
 >
 client_extensions
 =
-webrtc
-:
-:
 split
 (
 client_extensions_cstring

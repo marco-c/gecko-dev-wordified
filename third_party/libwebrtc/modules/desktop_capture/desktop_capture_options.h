@@ -411,9 +411,6 @@ two
 parameters
 .
 const
-webrtc
-:
-:
 scoped_refptr
 <
 DesktopConfigurationMonitor
@@ -456,9 +453,6 @@ function
 void
 set_configuration_monitor
 (
-webrtc
-:
-:
 scoped_refptr
 <
 DesktopConfigurationMonitor
@@ -1690,9 +1684,6 @@ allow
 ;
 }
 const
-webrtc
-:
-:
 scoped_refptr
 <
 SharedScreenCastStream
@@ -1710,9 +1701,6 @@ screencast_stream_
 void
 set_screencast_stream
 (
-webrtc
-:
-:
 scoped_refptr
 <
 SharedScreenCastStream
@@ -1844,9 +1832,6 @@ with
 screen
 content
 .
-webrtc
-:
-:
 scoped_refptr
 <
 SharedScreenCastStream
@@ -1868,9 +1853,6 @@ defined
 (
 WEBRTC_IOS
 )
-webrtc
-:
-:
 scoped_refptr
 <
 DesktopConfigurationMonitor

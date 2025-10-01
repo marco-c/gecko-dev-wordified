@@ -704,9 +704,6 @@ stream_size_
 DesktopSize
 frame_size_
 ;
-webrtc
-:
-:
 Mutex
 queue_lock_
 ;
@@ -721,9 +718,6 @@ RTC_GUARDED_BY
 queue_lock_
 )
 ;
-webrtc
-:
-:
 Mutex
 latest_frame_lock_
 RTC_ACQUIRED_AFTER
@@ -3630,9 +3624,6 @@ pw_stream_
 nullptr
 ;
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -3648,9 +3639,6 @@ Reset
 ;
 }
 {
-webrtc
-:
-:
 MutexLock
 latest_frame_lock
 (
@@ -3718,9 +3706,6 @@ CaptureFrame
 (
 )
 {
-webrtc
-:
-:
 MutexLock
 latest_frame_lock
 (
@@ -4065,9 +4050,6 @@ buffer
 int64_t
 capture_start_time_nanos
 =
-webrtc
-:
-:
 TimeNanos
 (
 )
@@ -5082,9 +5064,6 @@ x_offset
 y_offset
 )
 ;
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -5311,9 +5290,6 @@ OnFailedToProcessBuffer
 )
 ;
 }
-webrtc
-:
-:
 MutexLock
 latest_frame_lock
 (
@@ -5464,9 +5440,6 @@ SharedDesktopFrame
 frame
 ;
 {
-webrtc
-:
-:
 MutexLock
 latest_frame_lock
 (
@@ -5540,9 +5513,6 @@ frame
 set_capture_time_ms
 (
 (
-webrtc
-:
-:
 TimeNanos
 (
 )
@@ -5550,9 +5520,6 @@ TimeNanos
 capture_start_time_nanos
 )
 /
-webrtc
-:
-:
 kNumNanosecsPerMillisec
 )
 ;
@@ -6282,9 +6249,6 @@ public
 constructor
 .
 return
-webrtc
-:
-:
 scoped_refptr
 <
 SharedScreenCastStream

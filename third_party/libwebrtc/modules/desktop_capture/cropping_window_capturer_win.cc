@@ -1119,9 +1119,6 @@ window_capture_helper_
 bool
 enumerate_current_process_windows_
 ;
-webrtc
-:
-:
 scoped_refptr
 <
 FullScreenWindowDetector
@@ -1288,9 +1285,6 @@ kIgnoreCurrentProcessWindows
 if
 (
 !
-webrtc
-:
-:
 GetWindowList
 (
 window_list_flags
@@ -1420,9 +1414,6 @@ ShouldUseScreenCapturer
 {
 if
 (
-webrtc
-:
-:
 rtc_win
 :
 :
@@ -1430,9 +1421,6 @@ GetVersion
 (
 )
 <
-webrtc
-:
-:
 rtc_win
 :
 :

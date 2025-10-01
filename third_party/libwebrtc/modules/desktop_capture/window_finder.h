@@ -337,9 +337,6 @@ defined
 (
 WEBRTC_IOS
 )
-webrtc
-:
-:
 scoped_refptr
 <
 DesktopConfigurationMonitor
