@@ -451,6 +451,14 @@ uint32_t
 aResolveFlags
 )
 ;
+already_AddRefed
+<
+nsProxyInfo
+>
+CreateFallbackProxyInfo
+(
+)
+;
 private
 :
 friend
