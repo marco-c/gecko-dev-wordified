@@ -3431,7 +3431,7 @@ timeZone
 =
 behaviors_
 .
-timeZone
+timeZoneOverride
 (
 )
 )
@@ -3526,7 +3526,7 @@ void
 Realm
 :
 :
-setTimeZone
+setTimeZoneOverride
 (
 const
 char
@@ -3573,7 +3573,7 @@ gcContext
 ;
 behaviors_
 .
-setTimeZoneCopyZ
+setTimeZoneOverride
 (
 timeZone
 )

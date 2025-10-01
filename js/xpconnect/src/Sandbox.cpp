@@ -9409,7 +9409,7 @@ behaviors
 (
 )
 .
-setTimeZoneCopyZ
+setTimeZoneOverride
 (
 NS_ConvertUTF16toUTF8
 (
