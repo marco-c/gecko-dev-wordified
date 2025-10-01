@@ -4740,6 +4740,8 @@ increaseHeapSize
 size_t
 bytes
 bool
+nurseryOwned
+bool
 checkThresholds
 bool
 updateRetainedSize
@@ -4750,6 +4752,8 @@ decreaseHeapSize
 (
 size_t
 bytes
+bool
+nurseryOwned
 bool
 updateRetainedSize
 )
