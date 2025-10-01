@@ -21918,6 +21918,9 @@ bool
 aFocusPreviousElement
 bool
 aFireEvents
+Element
+*
+aSource
 ErrorResult
 &
 aRv
@@ -23694,6 +23697,7 @@ bool
 UserHasInteracted
 (
 )
+const
 {
 return
 mUserHasInteracted
