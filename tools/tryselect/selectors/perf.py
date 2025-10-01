@@ -1344,10 +1344,8 @@ taskcluster
 /
 kinds
 /
-test
-/
 browsertime
--
+/
 mobile
 .
 yml
