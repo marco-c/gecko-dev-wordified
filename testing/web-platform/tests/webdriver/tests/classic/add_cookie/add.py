@@ -21,14 +21,63 @@ asserts
 import
 assert_error
 assert_success
-from
-tests
+pytest
 .
-support
+fixture
+(
+autouse
+=
+True
+)
+def
+clean_up_cookies
+(
+session
+)
+:
+    
+#
+Ensure
+that
+any
+test
+in
+the
+file
+does
+not
+navigate
+away
+once
+done
+with
+checking
+the
+cookies
 .
-helpers
-import
-clear_all_cookies
+    
+session
+.
+transport
+.
+send
+(
+"
+DELETE
+"
+"
+session
+/
+%
+s
+/
+cookie
+"
+%
+session
+.
+session_id
+)
 def
 add_cookie
 (
@@ -176,11 +225,6 @@ blank
 .
 html
 "
-)
-    
-clear_all_cookies
-(
-session
 )
     
 response
@@ -584,11 +628,6 @@ html
 "
 )
     
-clear_all_cookies
-(
-session
-)
-    
 result
 =
 add_cookie
@@ -844,11 +883,6 @@ blank
 html
 "
     
-clear_all_cookies
-(
-session
-)
-    
 result
 =
 add_cookie
@@ -1064,11 +1098,6 @@ html
 "
 )
     
-clear_all_cookies
-(
-session
-)
-    
 result
 =
 add_cookie
@@ -1230,11 +1259,6 @@ blank
 .
 html
 "
-)
-    
-clear_all_cookies
-(
-session
 )
     
 result
@@ -1406,11 +1430,6 @@ blank
 .
 html
 "
-)
-    
-clear_all_cookies
-(
-session
 )
     
 result
@@ -1650,11 +1669,6 @@ html
 "
 )
     
-clear_all_cookies
-(
-session
-)
-    
 result
 =
 add_cookie
@@ -1817,11 +1831,6 @@ blank
 .
 html
 "
-)
-    
-clear_all_cookies
-(
-session
 )
     
 result
@@ -1995,11 +2004,6 @@ html
 "
 )
     
-clear_all_cookies
-(
-session
-)
-    
 response
 =
 add_cookie
@@ -2084,11 +2088,6 @@ blank
 .
 html
 "
-)
-    
-clear_all_cookies
-(
-session
 )
     
 response
