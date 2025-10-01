@@ -1968,7 +1968,7 @@ IsSystemPrincipal
 StaticPrefs
 :
 :
-dom_script_loader_navigation_cache
+dom_script_loader_experimental_navigation_cache
 (
 )
 )

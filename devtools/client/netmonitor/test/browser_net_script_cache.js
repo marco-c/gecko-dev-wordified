@@ -65,6 +65,8 @@ dom
 .
 script_loader
 .
+experimental
+.
 navigation_cache
 "
 enableCache
@@ -766,6 +768,8 @@ set
 dom
 .
 script_loader
+.
+experimental
 .
 navigation_cache
 "

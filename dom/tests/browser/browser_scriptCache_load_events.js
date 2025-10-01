@@ -215,6 +215,8 @@ dom
 .
 script_loader
 .
+experimental
+.
 navigation_cache
 "
 false
@@ -266,6 +268,8 @@ set
 dom
 .
 script_loader
+.
+experimental
 .
 navigation_cache
 "

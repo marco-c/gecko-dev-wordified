@@ -339,6 +339,8 @@ dom
 .
 script_loader
 .
+experimental
+.
 navigation_cache
 "
 )
