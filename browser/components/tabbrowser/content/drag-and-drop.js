@@ -16497,6 +16497,15 @@ top
 ;
 label
 .
+style
+.
+maxWidth
+=
+"
+"
+;
+label
+.
 removeAttribute
 (
 "
