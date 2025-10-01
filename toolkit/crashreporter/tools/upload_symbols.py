@@ -1190,6 +1190,11 @@ def
 iter_files_from_tar
 (
 reader
+desc
+=
+"
+reader
+"
 )
 :
         
@@ -1282,6 +1287,35 @@ info
 name
 data
 )
+                
+else
+:
+                    
+log
+.
+warning
+(
+                        
+"
+Tarball
+entry
+from
+%
+s
+is
+not
+a
+file
+:
+%
+s
+"
+desc
+info
+.
+name
+                    
+)
     
 def
 prepare_from
@@ -1290,6 +1324,10 @@ archive
 tmpdir
 )
 :
+        
+reader_desc
+=
+None
         
 if
 archive
@@ -1374,6 +1412,16 @@ fileobj
 =
 reader
 )
+            
+reader_desc
+=
+f
+"
+stream
+{
+archive
+}
+"
         
 else
 :
@@ -1387,6 +1435,16 @@ archive
 rb
 "
 )
+            
+reader_desc
+=
+f
+"
+file
+{
+archive
+}
+"
         
 def
 handle_file
@@ -1869,11 +1927,16 @@ executor
 .
 map
 (
+                
 handle_file
 iter_files_from_tar
 (
 reader
+desc
+=
+reader_desc
 )
+            
 )
         
 reader
