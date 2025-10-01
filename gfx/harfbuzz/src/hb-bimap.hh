@@ -1016,10 +1016,9 @@ unlikely
 !
 work
 .
-resize
+resize_dirty
 (
 count
-false
 )
 )
 )

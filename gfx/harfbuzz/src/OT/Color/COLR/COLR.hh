@@ -14142,10 +14142,9 @@ unlikely
 !
 output_map
 .
-resize
+resize_dirty
 (
 map_count
-false
 )
 )
 )

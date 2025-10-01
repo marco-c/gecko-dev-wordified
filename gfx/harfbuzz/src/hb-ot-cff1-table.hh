@@ -2021,10 +2021,9 @@ const
 mapping
 -
 >
-resize
+resize_dirty
 (
 num_glyphs
-false
 )
 ;
 for
@@ -2522,10 +2521,9 @@ const
 mapping
 -
 >
-resize
+resize_dirty
 (
 num_glyphs
-false
 )
 ;
 hb_codepoint_t

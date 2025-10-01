@@ -194,10 +194,10 @@ Esfahbod
 /
 #
 ifndef
-HB_POOL_HH
+HB_FREE_POOL_HH
 #
 define
-HB_POOL_HH
+HB_FREE_POOL_HH
 #
 include
 "
@@ -211,7 +211,9 @@ Memory
 pool
 for
 persistent
-allocation
+alloc
+/
+free
 of
 small
 objects
@@ -337,9 +339,9 @@ ChunkLen
 32
 >
 struct
-hb_pool_t
+hb_free_pool_t
 {
-hb_pool_t
+hb_free_pool_t
 (
 )
 :
@@ -350,7 +352,7 @@ nullptr
 {
 }
 ~
-hb_pool_t
+hb_free_pool_t
 (
 )
 {
@@ -648,6 +650,6 @@ chunks
 endif
 /
 *
-HB_POOL_HH
+HB_FREE_POOL_HH
 *
 /

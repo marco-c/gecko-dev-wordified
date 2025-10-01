@@ -7504,12 +7504,11 @@ c
 >
 match_positions
 .
-resize
+resize_dirty
 (
 i
 +
 1
-false
 )
 )
 )
@@ -10708,12 +10707,11 @@ c
 >
 match_positions
 .
-resize
+resize_dirty
 (
 count
 +
 delta
-false
 )
 )
 )
