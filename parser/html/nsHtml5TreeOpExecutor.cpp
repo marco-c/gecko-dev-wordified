@@ -5234,10 +5234,6 @@ nullptr
 false
 )
 ;
-ContinueInterruptedParsingAsync
-(
-)
-;
 }
 [
 [
