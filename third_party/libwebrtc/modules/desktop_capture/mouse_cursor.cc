@@ -110,6 +110,17 @@ h
 #
 include
 "
+modules
+/
+desktop_capture
+/
+desktop_geometry
+.
+h
+"
+#
+include
+"
 rtc_base
 /
 checks

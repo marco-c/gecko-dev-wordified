@@ -105,6 +105,17 @@ modules
 /
 desktop_capture
 /
+desktop_capturer
+.
+h
+"
+#
+include
+"
+modules
+/
+desktop_capture
+/
 mouse_cursor_monitor
 .
 h

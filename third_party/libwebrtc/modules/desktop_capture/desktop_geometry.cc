@@ -106,6 +106,11 @@ include
 <
 cmath
 >
+#
+include
+<
+cstdint
+>
 namespace
 webrtc
 {

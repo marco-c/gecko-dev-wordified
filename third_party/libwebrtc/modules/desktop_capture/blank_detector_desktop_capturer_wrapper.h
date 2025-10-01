@@ -136,6 +136,17 @@ modules
 /
 desktop_capture
 /
+desktop_geometry
+.
+h
+"
+#
+include
+"
+modules
+/
+desktop_capture
+/
 rgba_color
 .
 h

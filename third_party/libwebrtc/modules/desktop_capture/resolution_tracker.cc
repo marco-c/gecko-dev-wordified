@@ -96,6 +96,17 @@ resolution_tracker
 .
 h
 "
+#
+include
+"
+modules
+/
+desktop_capture
+/
+desktop_geometry
+.
+h
+"
 namespace
 webrtc
 {

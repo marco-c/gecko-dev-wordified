@@ -94,7 +94,7 @@ MODULES_DESKTOP_CAPTURE_FULL_SCREEN_APPLICATION_HANDLER_H_
 #
 include
 <
-memory
+cstdint
 >
 #
 include

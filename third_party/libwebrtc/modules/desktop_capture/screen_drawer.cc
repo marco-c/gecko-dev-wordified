@@ -96,6 +96,11 @@ screen_drawer
 .
 h
 "
+#
+include
+<
+memory
+>
 namespace
 webrtc
 {
