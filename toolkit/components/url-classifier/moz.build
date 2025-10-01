@@ -153,6 +153,11 @@ nsIUrlClassifierStreamUpdater
 idl
 "
 "
+nsIUrlClassifierTestUtils
+.
+idl
+"
+"
 nsIUrlClassifierUtils
 .
 idl
@@ -245,6 +250,11 @@ cpp
 "
 "
 nsUrlClassifierProxies
+.
+cpp
+"
+"
+nsUrlClassifierTestUtils
 .
 cpp
 "
