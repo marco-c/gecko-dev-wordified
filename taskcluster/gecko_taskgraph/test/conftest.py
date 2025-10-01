@@ -308,6 +308,7 @@ path
 config
 parameters
 loaded_tasks
+write_artifacts
 )
 :
     

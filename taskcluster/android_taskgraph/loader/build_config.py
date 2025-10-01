@@ -86,6 +86,7 @@ path
 config
 params
 loaded_tasks
+write_artifacts
 )
 :
     
@@ -142,15 +143,18 @@ path
 config
 params
 loaded_tasks
+write_artifacts
 )
 def
 components_and_apks_loader
 (
+    
 kind
 path
 config
 params
 loaded_tasks
+write_artifacts
 )
 :
     
@@ -262,6 +266,7 @@ path
 config
 params
 loaded_tasks
+write_artifacts
 )
 def
 get_component_name
