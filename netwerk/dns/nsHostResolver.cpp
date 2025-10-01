@@ -969,12 +969,6 @@ SetTableLabel
 {
 marker
 .
-name
-}
--
-{
-marker
-.
 data
 .
 host

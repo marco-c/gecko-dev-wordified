@@ -836,12 +836,6 @@ SetTableLabel
 {
 marker
 .
-name
-}
--
-{
-marker
-.
 data
 .
 cat

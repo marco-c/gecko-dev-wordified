@@ -583,12 +583,6 @@ SetTableLabel
 {
 marker
 .
-name
-}
--
-{
-marker
-.
 data
 .
 url

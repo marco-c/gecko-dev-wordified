@@ -3085,12 +3085,6 @@ SetTableLabel
 {
 marker
 .
-name
-}
--
-{
-marker
-.
 data
 .
 prefix
@@ -3358,12 +3352,6 @@ schema
 SetTableLabel
 (
 "
-{
-marker
-.
-name
-}
--
 {
 marker
 .

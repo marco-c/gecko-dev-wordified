@@ -637,12 +637,6 @@ set_table_label
 {
 marker
 .
-name
-}
--
-{
-marker
-.
 data
 .
 cat

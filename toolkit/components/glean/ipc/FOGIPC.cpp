@@ -715,12 +715,6 @@ SetTableLabel
 {
 marker
 .
-name
-}
--
-{
-marker
-.
 data
 .
 label
@@ -885,12 +879,6 @@ schema
 SetTableLabel
 (
 "
-{
-marker
-.
-name
-}
--
 {
 marker
 .

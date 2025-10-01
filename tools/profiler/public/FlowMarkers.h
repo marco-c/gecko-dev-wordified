@@ -1045,12 +1045,6 @@ TableLabel
 {
 marker
 .
-name
-}
--
-{
-marker
-.
 data
 .
 name
@@ -1293,12 +1287,6 @@ char
 TableLabel
 =
 "
-{
-marker
-.
-name
-}
--
 "
 "
 {
