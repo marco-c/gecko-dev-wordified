@@ -282,12 +282,6 @@ using
 webrtc
 :
 :
-JsepIceCandidate
-;
-using
-webrtc
-:
-:
 JsepSessionDescription
 ;
 using
@@ -1203,7 +1197,7 @@ kCandidateGeneration
 kCandidateFoundation
 )
 ;
-JsepIceCandidate
+IceCandidate
 jice_v4
 (
 "
@@ -1213,7 +1207,7 @@ audio
 candidate_v4
 )
 ;
-JsepIceCandidate
+IceCandidate
 jice_v6
 (
 "
@@ -1223,7 +1217,7 @@ audio
 candidate_v6
 )
 ;
-JsepIceCandidate
+IceCandidate
 jice_v4_video
 (
 "
@@ -1233,7 +1227,7 @@ video
 candidate_v4
 )
 ;
-JsepIceCandidate
+IceCandidate
 jice_v6_video
 (
 "
@@ -1420,7 +1414,7 @@ JsepSessionDescriptionTest
 AddCandidateWithoutMid
 )
 {
-JsepIceCandidate
+IceCandidate
 jsep_candidate
 (
 "
@@ -1627,7 +1621,7 @@ mid
 video
 "
 ;
-JsepIceCandidate
+IceCandidate
 jsep_candidate
 (
 mid
@@ -1863,7 +1857,7 @@ set_password
 kCandidatePwd
 )
 ;
-JsepIceCandidate
+IceCandidate
 jsep_candidate
 (
 "
@@ -2015,7 +2009,7 @@ JsepSessionDescriptionTest
 AddBadCandidate
 )
 {
-JsepIceCandidate
+IceCandidate
 bad_candidate1
 (
 "
@@ -2036,7 +2030,7 @@ bad_candidate1
 )
 )
 ;
-JsepIceCandidate
+IceCandidate
 bad_candidate2
 (
 "
@@ -2093,7 +2087,7 @@ JsepSessionDescriptionTest
 AddCandidateDuplicates
 )
 {
-JsepIceCandidate
+IceCandidate
 jsep_candidate
 (
 "
@@ -2206,7 +2200,7 @@ set_password
 kCandidatePwdVoice
 )
 ;
-JsepIceCandidate
+IceCandidate
 jsep_candidate_with_credentials
 (
 "
@@ -2344,7 +2338,7 @@ audio_index
 =
 0
 ;
-JsepIceCandidate
+IceCandidate
 hostname_candidate
 (
 "
@@ -2643,7 +2637,7 @@ video_index
 =
 1
 ;
-JsepIceCandidate
+IceCandidate
 hostname_candidate_audio
 (
 "
@@ -2653,7 +2647,7 @@ audio_index
 c
 )
 ;
-JsepIceCandidate
+IceCandidate
 hostname_candidate_video
 (
 "
@@ -2902,7 +2896,7 @@ result
 is
 different
 .
-JsepIceCandidate
+IceCandidate
 jsep_candidate
 (
 "
@@ -3141,7 +3135,7 @@ kCandidateGeneration
 kCandidateFoundation
 )
 ;
-JsepIceCandidate
+IceCandidate
 jice1
 (
 "
@@ -3151,7 +3145,7 @@ audio
 candidate1
 )
 ;
-JsepIceCandidate
+IceCandidate
 jice2
 (
 "
@@ -3161,7 +3155,7 @@ audio
 candidate2
 )
 ;
-JsepIceCandidate
+IceCandidate
 jice3
 (
 "
@@ -3171,7 +3165,7 @@ video
 candidate1
 )
 ;
-JsepIceCandidate
+IceCandidate
 jice4
 (
 "
@@ -3437,7 +3431,7 @@ kCandidateGeneration
 kCandidateFoundation
 )
 ;
-JsepIceCandidate
+IceCandidate
 jice_v4
 (
 "
@@ -3447,7 +3441,7 @@ audio
 candidate_v4
 )
 ;
-JsepIceCandidate
+IceCandidate
 jice_v6
 (
 "
@@ -3457,7 +3451,7 @@ audio
 candidate_v6
 )
 ;
-JsepIceCandidate
+IceCandidate
 jice_v4_video
 (
 "
@@ -3467,7 +3461,7 @@ video
 candidate_v4
 )
 ;
-JsepIceCandidate
+IceCandidate
 jice_v6_video
 (
 "
@@ -3751,7 +3745,7 @@ kCandidateGeneration
 kCandidateFoundation
 )
 ;
-JsepIceCandidate
+IceCandidate
 jice1
 (
 "
@@ -3761,7 +3755,7 @@ audio
 candidate1
 )
 ;
-JsepIceCandidate
+IceCandidate
 jice2
 (
 "
@@ -3771,7 +3765,7 @@ audio
 candidate2
 )
 ;
-JsepIceCandidate
+IceCandidate
 jice3
 (
 "
@@ -3781,7 +3775,7 @@ video
 candidate1
 )
 ;
-JsepIceCandidate
+IceCandidate
 jice4
 (
 "
@@ -4050,7 +4044,7 @@ kCandidateGeneration
 kCandidateFoundation
 )
 ;
-JsepIceCandidate
+IceCandidate
 jice1
 (
 "
@@ -4060,7 +4054,7 @@ audio
 candidate1
 )
 ;
-JsepIceCandidate
+IceCandidate
 jice2
 (
 "
@@ -4070,7 +4064,7 @@ audio
 candidate2
 )
 ;
-JsepIceCandidate
+IceCandidate
 jice3
 (
 "
@@ -4080,7 +4074,7 @@ video
 candidate1
 )
 ;
-JsepIceCandidate
+IceCandidate
 jice4
 (
 "
@@ -4394,7 +4388,7 @@ audio
 "
 )
 ;
-JsepIceCandidate
+IceCandidate
 jice1
 (
 "
@@ -4404,7 +4398,7 @@ audio
 candidate1
 )
 ;
-JsepIceCandidate
+IceCandidate
 jice2
 (
 "
@@ -4414,7 +4408,7 @@ audio
 candidate2
 )
 ;
-JsepIceCandidate
+IceCandidate
 jice3
 (
 "

@@ -753,7 +753,12 @@ error
 auto
 jsep_candidate
 =
-JsepIceCandidate
+:
+:
+webrtc
+:
+:
+IceCandidate
 :
 :
 Create
