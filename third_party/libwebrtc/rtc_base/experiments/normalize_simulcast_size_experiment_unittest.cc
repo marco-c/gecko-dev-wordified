@@ -96,9 +96,9 @@ h
 #
 include
 "
-test
+api
 /
-explicit_key_value_config
+field_trials
 .
 h
 "
@@ -114,19 +114,13 @@ h
 namespace
 webrtc
 {
-using
-test
-:
-:
-ExplicitKeyValueConfig
-;
 TEST
 (
 NormalizeSimulcastSizeExperimentTest
 GetExponent
 )
 {
-ExplicitKeyValueConfig
+FieldTrials
 field_trials
 (
 "
@@ -160,7 +154,7 @@ NormalizeSimulcastSizeExperimentTest
 GetExponentWithTwoParameters
 )
 {
-ExplicitKeyValueConfig
+FieldTrials
 field_trials
 (
 "
@@ -196,7 +190,7 @@ NormalizeSimulcastSizeExperimentTest
 GetExponentFailsIfNotEnabled
 )
 {
-ExplicitKeyValueConfig
+FieldTrials
 field_trials
 (
 "
@@ -227,7 +221,7 @@ NormalizeSimulcastSizeExperimentTest
 GetExponentFailsForInvalidFieldTrial
 )
 {
-ExplicitKeyValueConfig
+FieldTrials
 field_trials
 (
 "
@@ -270,7 +264,7 @@ range
 5
 ]
 .
-ExplicitKeyValueConfig
+FieldTrials
 field_trials
 (
 "
@@ -314,7 +308,7 @@ range
 5
 ]
 .
-ExplicitKeyValueConfig
+FieldTrials
 field_trials
 (
 "
