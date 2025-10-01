@@ -2069,7 +2069,7 @@ componentProps
 =
 {
 text
-mode
+mimeType
 :
 json
 ?

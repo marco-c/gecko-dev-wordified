@@ -170,7 +170,7 @@ Editor
 .
 modes
 .
-js
+javascript
 )
 ;
 ed
@@ -278,7 +278,7 @@ Editor
 .
 modes
 .
-js
+javascript
 )
 ;
 ed

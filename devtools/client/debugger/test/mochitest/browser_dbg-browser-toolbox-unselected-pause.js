@@ -201,6 +201,9 @@ waitForPaused
 isPaused
 waitForState
 waitForSelectedSource
+/
+/
+waitForElementWithSelector
 waitForLoadedScopes
 waitForInlinePreviews
 waitForElement

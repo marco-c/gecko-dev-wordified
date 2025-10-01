@@ -709,6 +709,9 @@ waitForLoadedScopes
 waitForPaused
 waitForResumed
 waitForSelectedSource
+/
+/
+waitForElementWithSelector
 waitForInlinePreviews
 waitForState
 waitUntil
