@@ -317,7 +317,9 @@ restriction
 let
 searchMode
 =
-UrlbarUtils
+targetWin
+.
+gURLBar
 .
 searchModeForToken
 (

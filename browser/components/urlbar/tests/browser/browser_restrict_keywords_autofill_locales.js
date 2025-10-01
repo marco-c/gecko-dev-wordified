@@ -513,7 +513,7 @@ keywordsToToken
 let
 searchMode
 =
-UrlbarUtils
+gURLBar
 .
 searchModeForToken
 (
