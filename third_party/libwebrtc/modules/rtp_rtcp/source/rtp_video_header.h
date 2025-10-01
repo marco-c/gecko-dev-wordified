@@ -607,9 +607,6 @@ it
 /
 carries
 the
-webrtc
-:
-:
 VideoFrame
 id
 field

@@ -3700,9 +3700,6 @@ This
 test
 relies
 on
-webrtc
-:
-:
 ScopedFakeClock
 to
 synchronize
@@ -3743,9 +3740,6 @@ can
 stop
 relying
 on
-webrtc
-:
-:
 ScopedFakeClock
 .
 ScopedFakeClock

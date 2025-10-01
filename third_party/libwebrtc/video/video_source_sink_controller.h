@@ -195,9 +195,6 @@ e
 performing
 /
 /
-webrtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame
@@ -221,9 +218,6 @@ which
 are
 converted
 to
-webrtc
-:
-:
 VideoSinkWants
 /
 /

@@ -234,9 +234,6 @@ webrtc
 Timestamp
 arrival_time
 =
-webrtc
-:
-:
 Timestamp
 :
 :

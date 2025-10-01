@@ -250,9 +250,6 @@ MOCK_METHOD
 void
 AddAdaptationResource
 (
-webrtc
-:
-:
 scoped_refptr
 <
 Resource
@@ -288,9 +285,6 @@ MOCK_METHOD
 void
 SetSource
 (
-webrtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame

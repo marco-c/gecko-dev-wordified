@@ -301,9 +301,7 @@ std
 :
 optional
 <
-webrtc
-:
-:
+class
 ColorSpace
 >
 &

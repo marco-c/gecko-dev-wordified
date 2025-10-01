@@ -3951,9 +3951,6 @@ SetVideoCodecs
 {
 VideoCodecConfig
 (
-webrtc
-:
-:
 kH264CodecName
 )
 }
@@ -3976,9 +3973,6 @@ SetVideoCodecs
 {
 VideoCodecConfig
 (
-webrtc
-:
-:
 kH264CodecName
 )
 }
@@ -4147,9 +4141,6 @@ SetVideoCodecs
 {
 VideoCodecConfig
 (
-webrtc
-:
-:
 kH264CodecName
 )
 }
@@ -4172,9 +4163,6 @@ SetVideoCodecs
 {
 VideoCodecConfig
 (
-webrtc
-:
-:
 kH264CodecName
 )
 }
@@ -4326,9 +4314,6 @@ SetVideoCodecs
 {
 VideoCodecConfig
 (
-webrtc
-:
-:
 kH264CodecName
 )
 }
@@ -4351,9 +4336,6 @@ SetVideoCodecs
 {
 VideoCodecConfig
 (
-webrtc
-:
-:
 kH264CodecName
 )
 }
@@ -4524,9 +4506,6 @@ SetVideoCodecs
 {
 VideoCodecConfig
 (
-webrtc
-:
-:
 kH264CodecName
 )
 }
@@ -4549,9 +4528,6 @@ SetVideoCodecs
 {
 VideoCodecConfig
 (
-webrtc
-:
-:
 kH264CodecName
 )
 }
@@ -4703,9 +4679,6 @@ SetVideoCodecs
 {
 VideoCodecConfig
 (
-webrtc
-:
-:
 kH264CodecName
 )
 }
@@ -4736,9 +4709,6 @@ SetVideoCodecs
 {
 VideoCodecConfig
 (
-webrtc
-:
-:
 kH264CodecName
 )
 }
@@ -4934,9 +4904,6 @@ SetVideoCodecs
 {
 VideoCodecConfig
 (
-webrtc
-:
-:
 kH264CodecName
 )
 }
@@ -4967,9 +4934,6 @@ SetVideoCodecs
 {
 VideoCodecConfig
 (
-webrtc
-:
-:
 kH264CodecName
 )
 }
@@ -9727,9 +9691,6 @@ PCFullStackTest
 VP9KSVC_3SL_High
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -9866,9 +9827,6 @@ PCFullStackTest
 VP9KSVC_3SL_Medium
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -10005,9 +9963,6 @@ PCFullStackTest
 VP9KSVC_3SL_Low
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -10144,9 +10099,6 @@ PCFullStackTest
 VP9KSVC_3SL_Medium_Network_Restricted
 )
 {
-webrtc
-:
-:
 test
 :
 :
@@ -10324,9 +10276,6 @@ PCFullStackTest
 VP9KSVC_3SL_Medium_Network_Restricted_Trusted_Rate
 )
 {
-webrtc
-:
-:
 test
 :
 :

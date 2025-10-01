@@ -2330,9 +2330,6 @@ respectively
 See
 eg
 .
-webrtc
-:
-:
 LibvpxVp8Encoder
 :
 :

@@ -172,9 +172,6 @@ class
 EncoderStreamFactory
 :
 public
-webrtc
-:
-:
 VideoEncoderConfig
 :
 :
@@ -185,9 +182,6 @@ public
 EncoderStreamFactory
 (
 const
-webrtc
-:
-:
 VideoEncoder
 :
 :

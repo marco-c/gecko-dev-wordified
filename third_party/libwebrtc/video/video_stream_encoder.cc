@@ -7483,16 +7483,10 @@ streams
 ]
 (
 const
-webrtc
-:
-:
 VideoStream
 &
 a
 const
-webrtc
-:
-:
 VideoStream
 &
 b
@@ -14725,9 +14719,6 @@ TRACE_EVENT2
 webrtc
 "
 "
-webrtc
-:
-:
 VideoEncoder
 :
 :
