@@ -1273,7 +1273,7 @@ pwdata
 >
 data
 =
-PL_strdup
+strdup
 (
 pw
 )
@@ -1364,7 +1364,7 @@ case
 PW_PLAINTEXT
 :
 return
-PL_strdup
+strdup
 (
 pwdata
 -
