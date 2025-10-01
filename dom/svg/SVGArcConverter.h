@@ -191,7 +191,11 @@ protected
 :
 int32_t
 mNumSegs
+;
+int32_t
 mSegIndex
+=
+0
 ;
 double
 mTheta
@@ -208,7 +212,13 @@ mRy
 ;
 Point
 mFrom
+mTo
 mC
+;
+bool
+mFallBackToSingleLine
+=
+false
 ;
 }
 ;
