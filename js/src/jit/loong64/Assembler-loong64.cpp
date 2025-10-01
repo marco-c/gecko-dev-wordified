@@ -1454,7 +1454,7 @@ Condition
 AssemblerLOONG64
 :
 :
-SwapCmdOperandsCondition
+InvertCmpCondition
 (
 Condition
 cond
@@ -1490,13 +1490,13 @@ case
 GreaterThan
 :
 return
-LessThan
+LessThanOrEqual
 ;
 case
 GreaterThanOrEqual
 :
 return
-LessThanOrEqual
+LessThan
 ;
 case
 Above
