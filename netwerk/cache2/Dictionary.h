@@ -400,6 +400,7 @@ NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSICACHEENTRYOPENCALLBACK
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
+explicit
 DictionaryCacheEntry
 (
 const
@@ -2050,6 +2051,12 @@ Init
 (
 )
 ;
+static
+void
+Shutdown
+(
+)
+;
 nsresult
 AddEntry
 (
@@ -2234,7 +2241,7 @@ this
 private
 :
 static
-nsCOMPtr
+StaticRefPtr
 <
 nsICacheStorage
 >
