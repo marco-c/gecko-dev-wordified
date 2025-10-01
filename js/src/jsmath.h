@@ -806,14 +806,6 @@ x
 )
 ;
 extern
-float
-math_truncf_impl
-(
-float
-x
-)
-;
-extern
 bool
 math_sign
 (
