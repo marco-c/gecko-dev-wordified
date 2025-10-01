@@ -69,6 +69,9 @@ testServer
 createVersionizedHttpTestServer
 (
 "
+.
+.
+/
 examples
 /
 sourcemaps
