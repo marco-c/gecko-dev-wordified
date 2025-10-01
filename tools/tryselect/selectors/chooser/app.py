@@ -509,6 +509,7 @@ kind
 =
 "
 test
+mochitest
 "
     
 title
