@@ -184,19 +184,7 @@ this
 #
 code
 block
-and
-also
-make
-sure
-this
-is
-synced
-with
-    
-#
-releng_base_linux_32_builds
 .
-py
     
 #
 note

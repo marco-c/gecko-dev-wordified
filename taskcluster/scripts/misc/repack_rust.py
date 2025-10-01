@@ -4445,20 +4445,6 @@ gnu
 "
         
 "
-linux32
-"
-:
-"
-i686
--
-unknown
--
-linux
--
-gnu
-"
-        
-"
 mac
 "
 :
@@ -5097,7 +5083,7 @@ e
 .
 g
 .
-linux32
+linux64
 or
 i686
 -

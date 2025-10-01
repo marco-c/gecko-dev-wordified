@@ -133,10 +133,6 @@ PLATFORMS
 (
     
 "
-linux32
-"
-    
-"
 linux64
 "
     
