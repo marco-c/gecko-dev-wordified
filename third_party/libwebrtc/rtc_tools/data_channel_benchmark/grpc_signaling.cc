@@ -586,8 +586,6 @@ std
 :
 unique_ptr
 <
-:
-:
 webrtc
 :
 :
@@ -652,9 +650,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 SessionDescriptionInterface
 >
 )

@@ -293,9 +293,6 @@ function
 <
 void
 (
-webrtc
-:
-:
 SignalingInterface
 *
 )
@@ -365,9 +362,6 @@ Start
 0
 ;
 virtual
-webrtc
-:
-:
 SignalingInterface
 *
 signaling_client

@@ -219,14 +219,8 @@ MAX_PORT
 int
 port
 =
-webrtc
-:
-:
 Random
 (
-webrtc
-:
-:
 TimeMicros
 (
 )
@@ -238,9 +232,6 @@ MIN_PORT
 MAX_PORT
 )
 ;
-webrtc
-:
-:
 AutoThread
 main_thread
 ;
@@ -249,9 +240,6 @@ client
 (
 0
 0
-webrtc
-:
-:
 test
 :
 :
@@ -266,9 +254,6 @@ client_config
 dat
 "
 )
-webrtc
-:
-:
 test
 :
 :
@@ -288,9 +273,6 @@ server
 (
 port
 port
-webrtc
-:
-:
 test
 :
 :
@@ -305,9 +287,6 @@ server_config
 dat
 "
 )
-webrtc
-:
-:
 test
 :
 :

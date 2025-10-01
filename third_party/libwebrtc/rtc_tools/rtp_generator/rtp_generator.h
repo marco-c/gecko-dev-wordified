@@ -626,9 +626,6 @@ RtpGenerator
 final
 :
 public
-webrtc
-:
-:
 Transport
 {
 public
@@ -719,9 +716,6 @@ private
 :
 /
 /
-webrtc
-:
-:
 Transport
 implementation
 /
