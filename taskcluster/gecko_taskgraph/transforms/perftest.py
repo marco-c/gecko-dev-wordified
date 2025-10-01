@@ -2103,9 +2103,11 @@ toolchain
 "
 ]
 .
-append
+extend
 (
                 
+[
+                    
 "
 linux64
 -
@@ -2117,28 +2119,21 @@ linux
 -
 repack
 "
-            
-)
-            
-new_job
-[
-"
-fetches
-"
-]
-[
-"
-toolchain
-"
-]
-.
-append
-(
+                    
 "
 linux64
 -
 samply
 "
+                    
+"
+symbolicator
+-
+cli
+"
+                
+]
+            
 )
             
 new_job
@@ -2179,7 +2174,7 @@ zip
 extract
 "
 :
-True
+False
                 
 }
             
