@@ -1518,6 +1518,14 @@ lr
 vertical
 -
 rl
+|
+sideways
+-
+lr
+|
+sideways
+-
+rl
 .
 *
 /
