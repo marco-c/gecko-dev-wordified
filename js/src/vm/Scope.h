@@ -4650,6 +4650,7 @@ RuntimeData
 =
 delete
 ;
+inline
 void
 trace
 (
@@ -6417,6 +6418,7 @@ RuntimeData
 =
 delete
 ;
+inline
 void
 trace
 (
@@ -6768,6 +6770,7 @@ RuntimeData
 =
 delete
 ;
+inline
 void
 trace
 (

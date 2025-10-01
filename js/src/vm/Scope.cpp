@@ -277,6 +277,17 @@ h
 #
 include
 "
+gc
+/
+TraceMethods
+-
+inl
+.
+h
+"
+#
+include
+"
 vm
 /
 JSContext
