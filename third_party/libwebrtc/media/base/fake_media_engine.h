@@ -640,7 +640,7 @@ include
 "
 test
 /
-explicit_key_value_config
+create_test_field_trials
 .
 h
 "
@@ -2381,13 +2381,8 @@ parameters_iterator
 >
 second
 parameters
-test
-:
-:
-ExplicitKeyValueConfig
+CreateTestFieldTrials
 (
-"
-"
 )
 )
 ;
