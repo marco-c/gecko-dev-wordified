@@ -2080,6 +2080,7 @@ case
 rtl
 "
 :
+{
 let
 rowLength
 =
@@ -2126,6 +2127,7 @@ reflectAboutY
 ;
 break
 ;
+}
 default
 :
 console

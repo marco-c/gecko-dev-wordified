@@ -291,6 +291,7 @@ case
 start
 "
 :
+{
 const
 req
 =
@@ -322,6 +323,7 @@ version
 ;
 break
 ;
+}
 case
 "
 wait
@@ -329,6 +331,7 @@ wait
 version
 "
 :
+{
 /
 /
 TODO
@@ -434,6 +437,7 @@ false
 }
 break
 ;
+}
 default
 :
 dumpn

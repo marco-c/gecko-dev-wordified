@@ -252,6 +252,7 @@ case
 stylesheet
 "
 :
+{
 const
 url
 =
@@ -287,6 +288,7 @@ lastIndexOf
 ;
 break
 ;
+}
 }
 return
 href

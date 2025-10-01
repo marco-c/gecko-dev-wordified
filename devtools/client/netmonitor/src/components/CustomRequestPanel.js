@@ -972,6 +972,7 @@ postdata
 value
 "
 :
+{
 /
 /
 Update
@@ -1076,6 +1077,7 @@ newHeaders
 ;
 break
 ;
+}
 case
 "
 custom
@@ -1085,6 +1087,7 @@ query
 value
 "
 :
+{
 let
 customQueryValue
 =
@@ -1267,6 +1270,7 @@ url
 ;
 break
 ;
+}
 case
 "
 custom

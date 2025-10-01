@@ -1464,6 +1464,7 @@ case
 countReset
 "
 :
+{
 /
 /
 Chrome
@@ -1597,6 +1598,7 @@ null
 }
 break
 ;
+}
 case
 "
 timeStamp

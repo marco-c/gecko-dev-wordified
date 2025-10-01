@@ -2602,6 +2602,7 @@ case
 mousedown
 "
 :
+{
 /
 /
 The
@@ -2846,6 +2847,7 @@ true
 ;
 break
 ;
+}
 case
 "
 mouseup
@@ -2940,6 +2942,7 @@ case
 mousemove
 "
 :
+{
 if
 (
 !
@@ -3091,6 +3094,7 @@ important
 ;
 break
 ;
+}
 }
 }
 getElement

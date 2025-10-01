@@ -3372,6 +3372,7 @@ case
 mousedown
 "
 :
+{
 if
 (
 event
@@ -3428,6 +3429,7 @@ event
 }
 break
 ;
+}
 case
 "
 mousemove
