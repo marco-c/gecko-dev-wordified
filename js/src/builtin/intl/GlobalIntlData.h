@@ -284,7 +284,7 @@ GCPtr
 JSLinearString
 *
 >
-runtimeDefaultLocale_
+realmLocale_
 ;
 /
 *
@@ -314,6 +314,9 @@ information
 provided
 by
 ICU
+or
+the
+embedding
 .
 See
 *
@@ -352,7 +355,7 @@ GCPtr
 JSLinearString
 *
 >
-runtimeDefaultTimeZone_
+realmTimeZone_
 ;
 /
 *
@@ -831,8 +834,7 @@ language
 tag
 for
 the
-host
-environment
+global
 '
 s
 current
@@ -861,13 +863,11 @@ zone
 name
 for
 the
-host
-environment
+global
 '
 s
 current
 time
-*
 zone
 .
 *
@@ -894,13 +894,11 @@ zone
 object
 for
 the
-host
-environment
+global
 '
 s
 current
 time
-*
 zone
 .
 *
@@ -1174,7 +1172,7 @@ trc
 private
 :
 bool
-ensureRuntimeDefaultLocale
+ensureRealmLocale
 (
 JSContext
 *
@@ -1182,7 +1180,7 @@ cx
 )
 ;
 bool
-ensureRuntimeDefaultTimeZone
+ensureRealmTimeZone
 (
 JSContext
 *
