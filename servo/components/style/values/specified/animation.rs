@@ -1143,6 +1143,7 @@ Parse
 SpecifiedValueInfo
 ToCss
 ToShmem
+ToTyped
 )
 ]
 pub
@@ -1280,6 +1281,7 @@ ToComputedValue
 ToCss
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 #
@@ -1557,6 +1559,7 @@ ToComputedValue
 ToCss
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 #
@@ -1728,6 +1731,7 @@ ToComputedValue
 ToCss
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 #
@@ -1901,6 +1905,7 @@ ToComputedValue
 ToCss
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 #
@@ -2099,6 +2104,7 @@ ToComputedValue
 ToCss
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 #
@@ -4009,6 +4015,7 @@ SpecifiedValueInfo
 ToComputedValue
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 #
@@ -4447,6 +4454,7 @@ ToComputedValue
 ToCss
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 #

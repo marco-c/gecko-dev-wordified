@@ -3882,6 +3882,7 @@ PartialOrd
 SpecifiedValueInfo
 ToCss
 ToShmem
+ToTyped
 )
 ]
 pub
@@ -4209,6 +4210,7 @@ MallocSizeOf
 PartialEq
 PartialOrd
 ToShmem
+ToTyped
 )
 ]
 pub

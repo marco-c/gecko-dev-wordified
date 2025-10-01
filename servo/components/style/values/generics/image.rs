@@ -230,6 +230,7 @@ PartialEq
 SpecifiedValueInfo
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 #

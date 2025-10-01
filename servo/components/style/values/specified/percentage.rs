@@ -220,6 +220,7 @@ Default
 MallocSizeOf
 PartialEq
 ToShmem
+ToTyped
 )
 ]
 pub

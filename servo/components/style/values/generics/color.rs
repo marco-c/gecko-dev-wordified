@@ -1067,6 +1067,7 @@ ToComputedValue
 ToResolvedValue
 ToCss
 ToShmem
+ToTyped
 )
 ]
 #
@@ -1146,6 +1147,7 @@ ToAnimatedZero
 ToComputedValue
 ToCss
 ToShmem
+ToTyped
 )
 ]
 #
