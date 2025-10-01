@@ -1,6 +1,8 @@
 import
 pytest
 import
+random
+import
 asyncio
 from
 .
@@ -138,6 +140,7 @@ auth_url
 =
 url
 (
+f
 "
 /
 webdriver
@@ -151,6 +154,16 @@ http_handlers
 authentication
 .
 py
+?
+nocache
+=
+{
+random
+.
+random
+(
+)
+}
 "
 )
     
@@ -430,10 +443,25 @@ RESPONSE_COMPLETED_EVENT
     
 text_url
 =
+f
+"
+{
 url
 (
 PAGE_EMPTY_TEXT
 )
+}
+?
+nocache
+=
+{
+random
+.
+random
+(
+)
+}
+"
     
 intercept
 =

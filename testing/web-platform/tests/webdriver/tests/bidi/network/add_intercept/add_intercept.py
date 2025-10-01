@@ -1,6 +1,8 @@
 import
 asyncio
 import
+random
+import
 uuid
 import
 pytest
@@ -100,10 +102,25 @@ intercept
     
 text_url
 =
+f
+"
+{
 url
 (
 PAGE_EMPTY_TEXT
 )
+}
+?
+nocache
+=
+{
+random
+.
+random
+(
+)
+}
+"
     
 await
 add_intercept
@@ -291,10 +308,25 @@ PAGE_EMPTY_TEXT
     
 text_url
 =
+f
+"
+{
 url
 (
 PAGE_EMPTY_TEXT
 )
+}
+?
+nocache
+=
+{
+random
+.
+random
+(
+)
+}
+"
     
 string_intercept
 =
@@ -431,10 +463,25 @@ intercept
     
 other_url
 =
+f
+"
+{
 url
 (
 PAGE_OTHER_TEXT
 )
+}
+?
+nocache
+=
+{
+random
+.
+random
+(
+)
+}
+"
     
 on_network_event
 =
