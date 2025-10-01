@@ -137,15 +137,6 @@ include
 "
 mozilla
 /
-BinarySearch
-.
-h
-"
-#
-include
-"
-mozilla
-/
 NativeNt
 .
 h

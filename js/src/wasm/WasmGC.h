@@ -186,15 +186,6 @@ wasm_gc_h
 #
 include
 "
-mozilla
-/
-BinarySearch
-.
-h
-"
-#
-include
-"
 jit
 /
 ABIArgGenerator

@@ -105,15 +105,6 @@ include
 "
 mozilla
 /
-BinarySearch
-.
-h
-"
-#
-include
-"
-mozilla
-/
 DebugOnly
 .
 h

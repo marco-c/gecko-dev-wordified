@@ -144,15 +144,6 @@ include
 "
 mozilla
 /
-BinarySearch
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ImportDir
 .
 h
