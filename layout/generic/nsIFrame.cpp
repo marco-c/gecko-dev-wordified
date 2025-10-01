@@ -19991,7 +19991,7 @@ instead
 nsRect
 o
 =
-InkOverflowRect
+InkOverflowRectRelativeToSelf
 (
 )
 ;
@@ -20039,7 +20039,7 @@ above
 nsRect
 o
 =
-InkOverflowRect
+InkOverflowRectRelativeToSelf
 (
 )
 ;
