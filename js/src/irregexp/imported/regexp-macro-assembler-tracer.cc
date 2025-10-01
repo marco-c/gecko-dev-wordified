@@ -65,9 +65,6 @@ RegExpMacroAssemblerTracer
 :
 RegExpMacroAssemblerTracer
 (
-Isolate
-*
-isolate
 RegExpMacroAssembler
 *
 assembler
@@ -75,13 +72,8 @@ assembler
 :
 RegExpMacroAssembler
 (
-isolate
+*
 assembler
--
->
-zone
-(
-)
 )
 assembler_
 (
@@ -281,7 +273,7 @@ void
 RegExpMacroAssemblerTracer
 :
 :
-CheckGreedyLoop
+CheckFixedLengthLoop
 (
 Label
 *
@@ -291,7 +283,7 @@ label
 PrintF
 (
 "
-CheckGreedyLoop
+CheckFixedLengthLoop
 (
 label
 [
@@ -314,7 +306,7 @@ label
 assembler_
 -
 >
-CheckGreedyLoop
+CheckFixedLengthLoop
 (
 label
 )
