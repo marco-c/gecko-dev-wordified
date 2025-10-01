@@ -103,9 +103,7 @@ h
 #
 include
 <
-stdint
-.
-h
+cstdint
 >
 #
 include
@@ -116,11 +114,6 @@ optional
 include
 <
 string
->
-#
-include
-<
-type_traits
 >
 #
 include
@@ -169,9 +162,9 @@ net
 /
 dcsctp
 /
-packet
+public
 /
-tlv_trait
+types
 .
 h
 "
