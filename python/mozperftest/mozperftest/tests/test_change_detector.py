@@ -87,6 +87,12 @@ tools
 import
 PerformanceChangeDetected
 run_change_detector
+pytest
+.
+mark
+.
+asyncio
+async
 def
 test_change_detector_basic
 (
@@ -280,12 +286,19 @@ assert_called
     
 return
 mocked_detector_module
+pytest
+.
+mark
+.
+asyncio
+async
 def
 test_change_detector_with_task_name
 (
 )
 :
     
+await
 test_change_detector_basic
 (
         
@@ -362,6 +375,12 @@ new_revision
 }
     
 )
+pytest
+.
+mark
+.
+asyncio
+async
 def
 test_change_detector_option_failure
 (
@@ -377,6 +396,7 @@ Exception
 )
 :
         
+await
 test_change_detector_basic
 (
             
@@ -457,6 +477,7 @@ Exception
 )
 :
         
+await
 test_change_detector_basic
 (
             
@@ -525,6 +546,12 @@ new_revision
 }
         
 )
+pytest
+.
+mark
+.
+asyncio
+async
 def
 test_change_detector_with_detection
 (
@@ -540,6 +567,7 @@ PerformanceChangeDetected
 )
 :
         
+await
 test_change_detector_basic
 (
             
