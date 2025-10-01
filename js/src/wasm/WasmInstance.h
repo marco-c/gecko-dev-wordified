@@ -1787,12 +1787,12 @@ SIMD
 /
 data
 .
-MOZ_ALIGNED_DECL
+alignas
 (
 16
+)
 char
 data_
-)
 ;
 /
 /

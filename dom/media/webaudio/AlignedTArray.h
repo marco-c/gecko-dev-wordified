@@ -121,15 +121,6 @@ AlignedTArray_h__
 #
 include
 "
-mozilla
-/
-Alignment
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h

@@ -115,15 +115,6 @@ include
 "
 mozilla
 /
-Alignment
-.
-h
-"
-#
-include
-"
-mozilla
-/
 gfx
 /
 2D
