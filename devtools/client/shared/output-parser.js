@@ -4810,7 +4810,6 @@ case
 Dimension
 "
 :
-{
 const
 value
 =
@@ -4857,7 +4856,6 @@ value
 }
 break
 ;
-}
 case
 "
 UnquotedUrl

@@ -14441,7 +14441,6 @@ release
 notes
 "
 :
-{
 let
 releaseNotes
 =
@@ -14480,7 +14479,6 @@ uri
 }
 break
 ;
-}
 case
 "
 preferences

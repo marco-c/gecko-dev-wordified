@@ -581,7 +581,6 @@ case
 hasentries
 "
 :
-{
 const
 hasEntry
 =
@@ -648,13 +647,11 @@ entry
 }
 break
 ;
-}
 case
 "
 scalar
 "
 :
-{
 const
 scalars
 =
@@ -687,13 +684,11 @@ correct
 ;
 break
 ;
-}
 case
 "
 keyedscalar
 "
 :
-{
 const
 keyedScalars
 =
@@ -754,7 +749,6 @@ msg
 ;
 break
 ;
-}
 }
 }
 /
@@ -1342,7 +1336,6 @@ telemetry
 .
 HISTOGRAM_LINEAR
 :
-{
 let
 total
 =
@@ -1446,7 +1439,6 @@ n
 ;
 break
 ;
-}
 case
 Services
 .

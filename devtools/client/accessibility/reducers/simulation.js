@@ -186,7 +186,6 @@ type
 case
 SIMULATE
 :
-{
 if
 (
 action
@@ -264,7 +263,6 @@ true
 return
 updatedState
 ;
-}
 default
 :
 return

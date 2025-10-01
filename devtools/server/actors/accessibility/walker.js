@@ -3518,7 +3518,6 @@ eventType
 case
 EVENT_STATE_CHANGE
 :
-{
 const
 {
 state
@@ -3614,7 +3613,6 @@ states
 }
 break
 ;
-}
 case
 EVENT_NAME_CHANGE
 :

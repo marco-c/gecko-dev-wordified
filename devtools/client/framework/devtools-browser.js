@@ -1857,7 +1857,6 @@ case
 browserConsole
 "
 :
-{
 const
 {
 BrowserConsoleManager
@@ -1894,7 +1893,6 @@ openBrowserConsoleOrFocus
 ;
 break
 ;
-}
 case
 "
 responsiveDesignMode
@@ -1926,7 +1924,6 @@ case
 javascriptTracingToggle
 "
 :
-{
 const
 toolbox
 =
@@ -1963,7 +1960,6 @@ toggle
 ;
 break
 ;
-}
 }
 }
 /

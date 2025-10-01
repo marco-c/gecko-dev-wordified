@@ -2256,7 +2256,6 @@ ShortcutUtils
 .
 IS_VALID
 :
-{
 /
 /
 Show
@@ -2366,7 +2365,6 @@ shortcutString
 }
 break
 ;
-}
 case
 ShortcutUtils
 .

@@ -1616,7 +1616,6 @@ case
 popupshowing
 "
 :
-{
 const
 menu
 =
@@ -1908,7 +1907,6 @@ menu
 }
 break
 ;
-}
 }
 }
 /

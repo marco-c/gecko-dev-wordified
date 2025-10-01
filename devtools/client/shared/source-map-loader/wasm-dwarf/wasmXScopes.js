@@ -635,7 +635,6 @@ case
 lexical_block
 "
 :
-{
 /
 /
 FIXME
@@ -673,7 +672,6 @@ result
 ;
 break
 ;
-}
 }
 return
 result

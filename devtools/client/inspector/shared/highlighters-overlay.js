@@ -1892,7 +1892,6 @@ TYPES
 .
 GRID
 :
-{
 const
 toolID
 =
@@ -1953,7 +1952,6 @@ add
 }
 break
 ;
-}
 }
 /
 /
@@ -2563,7 +2561,6 @@ TYPES
 .
 GRID
 :
-{
 const
 toolID
 =
@@ -2678,7 +2675,6 @@ this
 }
 break
 ;
-}
 }
 }
 /
@@ -9320,7 +9316,6 @@ case
 shapesEditor
 "
 :
-{
 const
 highlighter
 =
@@ -9410,7 +9405,6 @@ onShapesHighlighterHidden
 ;
 break
 ;
-}
 default
 :
 throw

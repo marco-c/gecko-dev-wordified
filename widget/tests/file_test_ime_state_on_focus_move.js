@@ -841,7 +841,6 @@ notify
 blur
 "
 :
-{
 info
 (
 aNotificationType
@@ -1011,7 +1010,6 @@ changed
 }
 break
 ;
-}
 }
 }
 ;

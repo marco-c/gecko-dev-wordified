@@ -3076,7 +3076,6 @@ case
 FullZoomChange
 "
 :
-{
 /
 /
 Get
@@ -3122,7 +3121,6 @@ height
 ;
 break
 ;
-}
 case
 "
 TabClose

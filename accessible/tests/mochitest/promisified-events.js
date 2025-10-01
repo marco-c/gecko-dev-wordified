@@ -583,7 +583,6 @@ case
 string
 "
 :
-{
 let
 id
 =
@@ -621,7 +620,6 @@ true
 }
 break
 ;
-}
 case
 "
 function

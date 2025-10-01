@@ -1006,7 +1006,6 @@ case
 setStatus
 "
 :
-{
 const
 {
 statusMsg
@@ -1025,7 +1024,6 @@ customMsg
 ;
 break
 ;
-}
 case
 "
 done

@@ -547,7 +547,6 @@ array
 buffer
 "
 :
-{
 let
 arrayBuffer
 =
@@ -718,7 +717,6 @@ buffer
 ;
 break
 ;
-}
 case
 "
 remove

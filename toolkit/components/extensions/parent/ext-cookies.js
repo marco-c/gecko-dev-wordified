@@ -4096,7 +4096,6 @@ break
 case
 COOKIES_BATCH_DELETED
 :
-{
 let
 cookieArray
 =
@@ -4187,7 +4186,6 @@ evicted
 }
 break
 ;
-}
 }
 }
 ;

@@ -3171,7 +3171,6 @@ case
 vmax
 "
 :
-{
 const
 dim
 =
@@ -3213,13 +3212,11 @@ innerHeight
 }
 break
 ;
-}
 case
 "
 %
 "
 :
-{
 const
 style
 =
@@ -3268,7 +3265,6 @@ value
 }
 break
 ;
-}
 }
 return
 box

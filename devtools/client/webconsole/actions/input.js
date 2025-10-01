@@ -1177,7 +1177,6 @@ case
 historyOutput
 "
 :
-{
 const
 history
 =
@@ -1264,7 +1263,6 @@ expression
 ;
 break
 ;
-}
 case
 "
 inspectObject
@@ -1385,7 +1383,6 @@ case
 screenshotOutput
 "
 :
-{
 const
 {
 args
@@ -1612,13 +1609,11 @@ CONSOLE_MESSAGE
 }
 break
 ;
-}
 case
 "
 blockURL
 "
 :
-{
 const
 blockURL
 =
@@ -1771,13 +1766,11 @@ blockURL
 ;
 break
 ;
-}
 case
 "
 unblockURL
 "
 :
-{
 const
 unblockURL
 =
@@ -1875,7 +1868,6 @@ messages
 .
 return
 ;
-}
 /
 /
 Sent

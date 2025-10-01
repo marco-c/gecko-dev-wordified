@@ -641,7 +641,6 @@ register
 menu
 "
 :
-{
 let
 menuId
 ;
@@ -720,7 +719,6 @@ menuId
 ;
 break
 ;
-}
 case
 "
 assert

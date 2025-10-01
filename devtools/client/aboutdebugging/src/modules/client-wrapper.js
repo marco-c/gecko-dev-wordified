@@ -781,7 +781,6 @@ PREF_TYPES
 .
 BOOL
 :
-{
 /
 /
 TODO
@@ -836,7 +835,6 @@ defaultValue
 return
 prefValue
 ;
-}
 default
 :
 throw
