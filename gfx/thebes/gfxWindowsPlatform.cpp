@@ -2931,7 +2931,7 @@ Nothing
 )
 )
 ;
-gfxAlphaBoxBlur
+gfxGaussianBlur
 :
 :
 ShutdownBlurCache

@@ -12616,7 +12616,7 @@ s
 a
 blur
 radius
-gfxAlphaBoxBlur
+gfxGaussianBlur
 leaves
 the
 skiprect
@@ -34258,7 +34258,7 @@ aScaleY
 )
 ;
 return
-gfxAlphaBoxBlur
+gfxGaussianBlur
 :
 :
 CalculateBlurRadius
@@ -34503,16 +34503,6 @@ TransformBounds
 dirtyRect
 )
 ;
-bool
-useHardwareAccel
-=
-!
-(
-aFlags
-&
-DISABLE_HARDWARE_ACCELERATION_BLUR
-)
-;
 if
 (
 aSkipRect
@@ -34531,7 +34521,7 @@ aSkipRect
 ;
 mOwnedContext
 =
-mAlphaBoxBlur
+mGaussianBlur
 .
 Init
 (
@@ -34543,7 +34533,6 @@ blurRadius
 dirtyRect
 &
 skipRect
-useHardwareAccel
 )
 ;
 }
@@ -34551,7 +34540,7 @@ else
 {
 mOwnedContext
 =
-mAlphaBoxBlur
+mGaussianBlur
 .
 Init
 (
@@ -34562,7 +34551,6 @@ blurRadius
 &
 dirtyRect
 nullptr
-useHardwareAccel
 )
 ;
 }
@@ -34655,7 +34643,7 @@ Matrix
 )
 ;
 }
-mAlphaBoxBlur
+mGaussianBlur
 .
 Paint
 (
@@ -35084,7 +35072,7 @@ scaleY
 )
 ;
 }
-gfxAlphaBoxBlur
+gfxGaussianBlur
 :
 :
 BlurRectangle
@@ -35729,7 +35717,7 @@ height
 )
 ;
 }
-mAlphaBoxBlur
+mGaussianBlur
 .
 BlurInsetBox
 (
