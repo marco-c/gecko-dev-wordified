@@ -425,17 +425,6 @@ override
 ;
 virtual
 void
-Blur
-(
-const
-GaussianBlur
-&
-aBlur
-)
-override
-;
-virtual
-void
 ClearRect
 (
 const

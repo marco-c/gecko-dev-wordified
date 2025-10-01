@@ -4995,7 +4995,7 @@ existing
 context
 .
 Uses
-gfxGaussianBlur
+gfxAlphaBoxBlur
 as
 its
 back
@@ -5120,6 +5120,9 @@ enum
 FORCE_MASK
 =
 0x01
+DISABLE_HARDWARE_ACCELERATION_BLUR
+=
+0x02
 }
 ;
 /
@@ -6225,8 +6228,8 @@ aConstrainSpreadRadius
 true
 )
 ;
-gfxGaussianBlur
-mGaussianBlur
+gfxAlphaBoxBlur
+mAlphaBoxBlur
 ;
 mozilla
 :

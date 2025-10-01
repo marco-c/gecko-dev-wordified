@@ -1756,7 +1756,7 @@ DrawTarget
 Blur
 (
 const
-GaussianBlur
+AlphaBoxBlur
 &
 aBlur
 )
@@ -1825,18 +1825,6 @@ the
 draw
 target
 .
-MOZ_ASSERT
-(
-format
-=
-=
-aBlur
-.
-GetFormat
-(
-)
-)
-;
 MOZ_ASSERT
 (
 size
@@ -1985,7 +1973,7 @@ BlurRadius
 const
 {
 return
-GaussianBlur
+AlphaBoxBlur
 :
 :
 CalculateBlurRadius
