@@ -38898,7 +38898,7 @@ XRE_GetProcessType
 if
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 |
 |
@@ -39027,7 +39027,7 @@ endif
 /
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 |
 |
