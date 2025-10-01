@@ -4769,7 +4769,7 @@ here
 .
 inline
 bool
-IsException
+IsExceptionHole
 (
 Object
 obj

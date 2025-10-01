@@ -4228,10 +4228,6 @@ MakeUnique
 RegExpMacroAssemblerTracer
 >
 (
-cx
--
->
-isolate
 masm_ptr
 )
 ;
