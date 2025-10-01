@@ -7325,6 +7325,16 @@ aBuilder
 aLists
 )
 ;
+if
+(
+HidesContent
+(
+)
+)
+{
+return
+;
+}
 /
 /
 Redirect

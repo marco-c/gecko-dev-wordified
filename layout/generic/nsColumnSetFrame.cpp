@@ -10295,6 +10295,16 @@ this
 )
 ;
 }
+if
+(
+HidesContent
+(
+)
+)
+{
+return
+;
+}
 /
 /
 Our

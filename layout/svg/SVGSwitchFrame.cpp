@@ -628,6 +628,16 @@ aLists
 {
 if
 (
+HidesContent
+(
+)
+)
+{
+return
+;
+}
+if
+(
 auto
 *
 kid
