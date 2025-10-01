@@ -46508,7 +46508,7 @@ reader
 .
 character_spacing
 "
-0
+1
 )
 ;
 /
@@ -46532,7 +46532,7 @@ reader
 .
 word_spacing
 "
-0
+1
 )
 ;
 /
