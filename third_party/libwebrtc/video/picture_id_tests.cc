@@ -1746,11 +1746,11 @@ GetParam
 )
 {
 }
-virtual
 ~
 PictureIdTest
 (
 )
+override
 {
 SendTask
 (

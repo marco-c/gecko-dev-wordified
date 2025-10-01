@@ -1822,6 +1822,7 @@ void
 TearDown
 (
 )
+override
 {
 client_thread
 (
@@ -1908,6 +1909,7 @@ reset
 DtlsIceIntegrationTest
 (
 )
+override
 =
 default
 ;

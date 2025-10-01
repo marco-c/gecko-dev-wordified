@@ -199,11 +199,11 @@ Test
 {
 protected
 :
-virtual
 void
 SetUp
 (
 )
+override
 {
 inter_arrival_
 .

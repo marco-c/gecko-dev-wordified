@@ -308,11 +308,11 @@ Reset
 }
 protected
 :
-virtual
 void
 SetUp
 (
 )
+override
 {
 rtp_len_
 =

@@ -185,11 +185,11 @@ NetEqDecoder
 {
 protected
 :
-virtual
 void
 SetUp
 (
 )
+override
 {
 decoder_type_
 =

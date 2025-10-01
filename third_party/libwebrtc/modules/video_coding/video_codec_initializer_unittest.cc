@@ -491,11 +491,11 @@ VideoCodecInitializerTest
 )
 {
 }
-virtual
 ~
 VideoCodecInitializerTest
 (
 )
+override
 {
 }
 protected

@@ -790,6 +790,7 @@ kDefaultProbingIntervalMs
 BitrateAllocatorTest
 (
 )
+override
 {
 }
 void
@@ -1951,6 +1952,7 @@ kDefaultProbingIntervalMs
 BitrateAllocatorTestNoEnforceMin
 (
 )
+override
 {
 }
 void

@@ -505,11 +505,11 @@ CreateAllocator
 )
 ;
 }
-virtual
 ~
 SimulcastRateAllocatorTest
 (
 )
+override
 {
 }
 template

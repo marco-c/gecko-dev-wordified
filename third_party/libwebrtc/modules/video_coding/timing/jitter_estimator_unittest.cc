@@ -382,11 +382,11 @@ JitterEstimatorTest
 )
 {
 }
-virtual
 ~
 JitterEstimatorTest
 (
 )
+override
 {
 }
 void
@@ -1477,6 +1477,7 @@ nack_count_timeout
 FieldTrialsOverriddenJitterEstimatorTest
 (
 )
+override
 {
 }
 }
@@ -2539,6 +2540,7 @@ nack_count_timeout
 MisconfiguredFieldTrialsJitterEstimatorTest
 (
 )
+override
 {
 }
 }

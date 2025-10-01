@@ -1368,11 +1368,11 @@ use_mock_payload_splitter_
 false
 ;
 }
-virtual
 ~
 NetEqImplTest
 (
 )
+override
 {
 if
 (
@@ -13153,11 +13153,11 @@ NetEqImplTest
 )
 {
 }
-virtual
 ~
 NetEqImplTest120ms
 (
 )
+override
 {
 }
 void

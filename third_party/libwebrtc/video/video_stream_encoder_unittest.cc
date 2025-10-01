@@ -2222,11 +2222,11 @@ initially_signaled
 )
 {
 }
-virtual
 ~
 CpuOveruseDetectorProxy
 (
 )
+override
 {
 }
 void
@@ -4830,6 +4830,7 @@ VideoStreamEncoder
 AdaptedVideoStreamEncoder
 (
 )
+override
 {
 Stop
 (
@@ -8155,6 +8156,7 @@ RateControlParameters
 &
 parameters
 )
+override
 {
 MutexLock
 lock
@@ -69997,6 +69999,7 @@ encoder_queue_
 VideoStreamEncoderFrameCadenceRestrictionTest
 (
 )
+override
 {
 factory_
 .

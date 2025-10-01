@@ -528,6 +528,7 @@ ReportEncodeInfo
 BandwidthQualityScalerTest
 (
 )
+override
 {
 task_queue_
 .

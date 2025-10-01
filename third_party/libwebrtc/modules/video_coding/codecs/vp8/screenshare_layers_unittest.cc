@@ -476,11 +476,11 @@ false
 )
 {
 }
-virtual
 ~
 ScreenshareLayerTest
 (
 )
+override
 {
 }
 void

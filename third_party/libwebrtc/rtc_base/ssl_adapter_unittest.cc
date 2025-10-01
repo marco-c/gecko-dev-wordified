@@ -402,11 +402,11 @@ SSLCertificateVerifier
 {
 public
 :
-virtual
 ~
 MockCertVerifier
 (
 )
+override
 =
 default
 ;
@@ -479,11 +479,11 @@ CreateSocket
 )
 {
 }
-virtual
 ~
 SSLAdapterTestDummy
 (
 )
+override
 =
 default
 ;

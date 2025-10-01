@@ -352,6 +352,7 @@ seed
 EmulatedMonotoneousClock
 (
 )
+override
 =
 default
 ;
@@ -616,6 +617,7 @@ duration_us
 EmulatedNonMonotoneousClock
 (
 )
+override
 =
 default
 ;

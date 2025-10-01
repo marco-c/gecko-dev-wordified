@@ -5399,6 +5399,7 @@ GetSendTransportConfig
 (
 )
 const
+override
 {
 /
 /
@@ -5455,6 +5456,7 @@ GetReceiveTransportConfig
 (
 )
 const
+override
 {
 /
 /
@@ -10307,6 +10309,7 @@ kExtensionId
 ChangingNetworkRouteTest
 (
 )
+override
 {
 /
 /
@@ -11045,6 +11048,7 @@ Detach
 RelayToDirectRouteTest
 (
 )
+override
 {
 /
 /
@@ -11956,6 +11960,7 @@ Detach
 MaxPaddingSetTest
 (
 )
+override
 {
 /
 /

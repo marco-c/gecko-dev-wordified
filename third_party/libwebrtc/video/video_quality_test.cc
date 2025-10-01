@@ -1412,6 +1412,7 @@ FecControllerOverride
 *
 fec_controller_override
 )
+override
 {
 /
 /
@@ -1504,6 +1505,7 @@ VideoFrameType
 *
 frame_types
 )
+override
 {
 if
 (

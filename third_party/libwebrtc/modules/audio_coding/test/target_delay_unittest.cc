@@ -301,12 +301,14 @@ CreateBuiltinAudioDecoderFactory
 TargetDelayTest
 (
 )
+override
 {
 }
 void
 SetUp
 (
 )
+override
 {
 constexpr
 int

@@ -264,6 +264,7 @@ this
 MockObserver
 (
 )
+override
 {
 Unregister
 (
@@ -326,11 +327,11 @@ Test
 {
 protected
 :
-virtual
 void
 SetUp
 (
 )
+override
 {
 stream_
 =

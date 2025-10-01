@@ -527,6 +527,7 @@ OnDroppedFrames
 uint32_t
 frames_dropped
 )
+override
 {
 frames_dropped_
 +

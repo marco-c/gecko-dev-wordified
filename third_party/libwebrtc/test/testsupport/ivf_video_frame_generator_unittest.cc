@@ -608,6 +608,7 @@ get
 IvfFileWriterEncodedCallback
 (
 )
+override
 {
 EXPECT_TRUE
 (

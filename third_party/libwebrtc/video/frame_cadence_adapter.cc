@@ -735,6 +735,7 @@ zero_hertz_queue_overload
 ZeroHertzAdapterMode
 (
 )
+override
 {
 refresh_frame_requester_
 .
@@ -2340,6 +2341,7 @@ field_trials
 FrameCadenceAdapterImpl
 (
 )
+override
 ;
 /
 /

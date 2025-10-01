@@ -330,11 +330,11 @@ override
 )
 )
 ;
-virtual
 ~
 MockReceiver
 (
 )
+override
 =
 default
 ;

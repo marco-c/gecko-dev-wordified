@@ -502,6 +502,7 @@ true
 PseudoTcpTestBase
 (
 )
+override
 {
 /
 /
@@ -899,7 +900,6 @@ UpdateLocalClock
 )
 ;
 }
-virtual
 void
 OnTcpOpen
 (
@@ -907,6 +907,7 @@ PseudoTcp
 *
 tcp
 )
+override
 {
 /
 /
@@ -997,7 +998,6 @@ PseudoTcp
 *
 tcp
 )
-virtual
 void
 OnTcpClosed
 (
@@ -1007,6 +1007,7 @@ tcp
 uint32_t
 error
 )
+override
 {
 /
 /
@@ -1083,7 +1084,6 @@ true
 ;
 }
 }
-virtual
 WriteResult
 TcpWritePacket
 (
@@ -1097,6 +1097,7 @@ buffer
 size_t
 len
 )
+override
 {
 /
 /
@@ -1963,7 +1964,6 @@ private
 /
 IPseudoTcpNotify
 interface
-virtual
 void
 OnTcpReadable
 (
@@ -1971,6 +1971,7 @@ PseudoTcp
 *
 tcp
 )
+override
 {
 /
 /
@@ -2080,7 +2081,6 @@ remote_
 ;
 }
 }
-virtual
 void
 OnTcpWriteable
 (
@@ -2088,6 +2088,7 @@ PseudoTcp
 *
 tcp
 )
+override
 {
 /
 /
@@ -2772,7 +2773,6 @@ private
 /
 IPseudoTcpNotify
 interface
-virtual
 void
 OnTcpReadable
 (
@@ -2780,6 +2780,7 @@ PseudoTcp
 *
 tcp
 )
+override
 {
 if
 (
@@ -2952,7 +2953,6 @@ sender_
 ;
 }
 }
-virtual
 void
 OnTcpWriteable
 (
@@ -2960,6 +2960,7 @@ PseudoTcp
 *
 tcp
 )
+override
 {
 if
 (
@@ -3744,7 +3745,6 @@ private
 /
 IPseudoTcpNotify
 interface
-virtual
 void
 OnTcpReadable
 (
@@ -3756,9 +3756,9 @@ tcp
 *
 /
 )
+override
 {
 }
-virtual
 void
 OnTcpWriteable
 (
@@ -3770,6 +3770,7 @@ tcp
 *
 /
 )
+override
 {
 }
 void

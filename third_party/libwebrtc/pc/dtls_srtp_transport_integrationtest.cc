@@ -575,6 +575,7 @@ srtp_transport_observer_
 DtlsSrtpTransportIntegrationTest
 (
 )
+override
 {
 dtls_srtp_transport_
 .

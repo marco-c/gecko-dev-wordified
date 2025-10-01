@@ -28895,11 +28895,11 @@ VP9
 )
 ;
 }
-virtual
 ~
 Vp9SettingsTest
 (
 )
+override
 {
 }
 protected

@@ -649,11 +649,11 @@ kTransportSequenceNumberExtensionId
 )
 ;
 }
-virtual
 ~
 RtpExtensionHeaderObserver
 (
 )
+override
 {
 }
 bool

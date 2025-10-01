@@ -1682,6 +1682,7 @@ OnConnectionDestroyed
 TestConnectionWrapper
 (
 )
+override
 {
 if
 (
@@ -7729,6 +7730,7 @@ expect_val
 TurnLoggingIdValidator
 (
 )
+override
 {
 }
 void
@@ -14849,11 +14851,11 @@ attr_counter
 )
 {
 }
-virtual
 ~
 MessageObserver
 (
 )
+override
 {
 }
 void

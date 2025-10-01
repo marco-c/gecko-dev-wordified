@@ -1013,11 +1013,11 @@ PeerConnectionObserver
 {
 public
 :
-virtual
 ~
 NullPeerConnectionObserver
 (
 )
+override
 =
 default
 ;
@@ -1223,6 +1223,7 @@ void
 SetUp
 (
 )
+override
 {
 #
 ifdef

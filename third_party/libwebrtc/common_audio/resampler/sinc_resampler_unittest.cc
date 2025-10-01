@@ -1804,11 +1804,11 @@ GetParam
 )
 {
 }
-virtual
 ~
 SincResamplerTest
 (
 )
+override
 {
 }
 protected

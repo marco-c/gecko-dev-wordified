@@ -1618,6 +1618,7 @@ RateControlParameters
 &
 parameters
 )
+override
 {
 last_set_rates_
 =
@@ -1707,11 +1708,11 @@ return
 info
 ;
 }
-virtual
 ~
 MockVideoEncoder
 (
 )
+override
 {
 factory_
 -
@@ -2630,11 +2631,11 @@ false
 )
 {
 }
-virtual
 ~
 TestSimulcastEncoderAdapterFake
 (
 )
+override
 {
 if
 (

@@ -1223,18 +1223,21 @@ kPayloadType
 AudioCodingModuleTestOldApi
 (
 )
+override
 {
 }
 void
 TearDown
 (
 )
+override
 {
 }
 void
 SetUp
 (
 )
+override
 {
 acm_
 =
@@ -2565,6 +2568,7 @@ void
 SetUp
 (
 )
+override
 {
 AudioCodingModuleTestOldApi
 :
@@ -2725,6 +2729,7 @@ void
 TearDown
 (
 )
+override
 {
 AudioCodingModuleTestOldApi
 :
@@ -3353,6 +3358,7 @@ void
 SetUp
 (
 )
+override
 {
 scoped_refptr
 <
