@@ -1023,7 +1023,7 @@ DataRate
 :
 KilobitsPerSec
 (
-200
+220
 )
 ;
 /
