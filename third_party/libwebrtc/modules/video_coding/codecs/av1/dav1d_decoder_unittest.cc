@@ -156,6 +156,15 @@ include
 "
 api
 /
+field_trials
+.
+h
+"
+#
+include
+"
+api
+/
 video
 /
 encoded_image
@@ -202,7 +211,7 @@ include
 "
 test
 /
-explicit_key_value_config
+create_test_field_trials
 .
 h
 "
@@ -680,8 +689,10 @@ std
 :
 make_unique
 <
-ExplicitKeyValueConfig
+FieldTrials
 >
+(
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -693,6 +704,7 @@ CropToRenderResolution
 Enabled
 /
 "
+)
 )
 )
 )
@@ -752,8 +764,10 @@ std
 :
 make_unique
 <
-ExplicitKeyValueConfig
+FieldTrials
 >
+(
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -765,6 +779,7 @@ CropToRenderResolution
 Disabled
 /
 "
+)
 )
 )
 )
