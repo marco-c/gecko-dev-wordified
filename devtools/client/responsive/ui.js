@@ -1293,7 +1293,8 @@ tab
 linkedBrowser
 .
 browsingContext
-0
+-
+DYNAMIC_TOOLBAR_MAX_HEIGHT
 )
 ;
 }

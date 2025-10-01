@@ -1965,7 +1965,7 @@ aContext
 mozilla
 :
 :
-CSSCoord
+ScreenIntCoord
 aOffset
 )
 ;
@@ -1981,7 +1981,7 @@ aContext
 mozilla
 :
 :
-CSSCoord
+ScreenIntCoord
 aHeight
 )
 ;
