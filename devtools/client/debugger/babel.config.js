@@ -246,7 +246,7 @@ babel
 /
 plugin
 -
-proposal
+transform
 -
 class
 -
@@ -259,7 +259,7 @@ babel
 /
 plugin
 -
-proposal
+transform
 -
 class
 -
@@ -270,7 +270,7 @@ babel
 /
 plugin
 -
-proposal
+transform
 -
 explicit
 -
@@ -283,7 +283,7 @@ babel
 /
 plugin
 -
-proposal
+transform
 -
 optional
 -
@@ -294,7 +294,7 @@ babel
 /
 plugin
 -
-proposal
+transform
 -
 nullish
 -
@@ -307,7 +307,7 @@ babel
 /
 plugin
 -
-proposal
+transform
 -
 private
 -
@@ -318,7 +318,7 @@ babel
 /
 plugin
 -
-proposal
+transform
 -
 private
 -
@@ -333,7 +333,7 @@ babel
 /
 plugin
 -
-proposal
+transform
 -
 unicode
 -
@@ -573,7 +573,7 @@ babel
 /
 plugin
 -
-proposal
+transform
 -
 class
 -
@@ -586,7 +586,7 @@ babel
 /
 plugin
 -
-proposal
+transform
 -
 class
 -
@@ -597,7 +597,7 @@ babel
 /
 plugin
 -
-proposal
+transform
 -
 optional
 -
@@ -608,7 +608,7 @@ babel
 /
 plugin
 -
-proposal
+transform
 -
 nullish
 -
@@ -621,7 +621,7 @@ babel
 /
 plugin
 -
-proposal
+transform
 -
 private
 -
@@ -632,7 +632,7 @@ babel
 /
 plugin
 -
-proposal
+transform
 -
 private
 -
