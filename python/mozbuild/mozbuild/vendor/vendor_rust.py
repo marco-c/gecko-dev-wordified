@@ -131,18 +131,14 @@ Union
     
 str
     
-typing
-.
-List
+list
 [
 "
 TomlItem
 "
 ]
     
-typing
-.
-Dict
+dict
 [
 str
 "
@@ -3804,9 +3800,7 @@ fh
             
 package_entry
 :
-typing
-.
-Dict
+dict
 [
 str
 TomlItem
@@ -4893,6 +4887,7 @@ subprocess
 .
 run
 (
+            
 [
 cargo
 "
@@ -4911,6 +4906,10 @@ cwd
 self
 .
 topsrcdir
+check
+=
+False
+        
 )
         
 if
@@ -6206,16 +6205,22 @@ vendor
 "
 vendor_dir
 ]
+            
 cwd
 =
 self
 .
 topsrcdir
+            
 stdout
 =
 subprocess
 .
 PIPE
+            
+check
+=
+False
         
 )
         
@@ -6468,8 +6473,12 @@ ERROR
 vendor_failed
 "
                 
-{
-}
+dict
+(
+replaces
+=
+replaces
+)
                 
 "
 "
@@ -6488,15 +6497,13 @@ with
 .
 Found
 :
-%
-s
+{
+replaces
+}
 .
 "
 "
 "
-                
-%
-replaces
             
 )
             
@@ -7048,7 +7055,7 @@ is_dir
 :
                         
 for
-root
+root_path
 dirs
 files
 in
@@ -7067,7 +7074,7 @@ root
 =
 Path
 (
-root
+root_path
 )
                             
 for
