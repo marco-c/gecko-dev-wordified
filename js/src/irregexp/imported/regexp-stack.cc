@@ -151,6 +151,9 @@ FreeAndInvalidate
 )
 ;
 }
+#
+ifndef
+COMPILING_IRREGEXP_FOR_EXTERNAL_EMBEDDER
 /
 /
 static
@@ -404,6 +407,12 @@ instance
 #
 endif
 }
+#
+endif
+/
+/
+!
+COMPILING_IRREGEXP_FOR_EXTERNAL_EMBEDDER
 char
 *
 RegExpStack
