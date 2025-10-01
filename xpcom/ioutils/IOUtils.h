@@ -152,15 +152,6 @@ include
 "
 mozilla
 /
-Buffer
-.
-h
-"
-#
-include
-"
-mozilla
-/
 DataMutex
 .
 h

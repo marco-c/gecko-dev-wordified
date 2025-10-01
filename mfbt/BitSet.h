@@ -155,7 +155,7 @@ array
 #
 include
 <
-climit
+climits
 >
 #
 include
