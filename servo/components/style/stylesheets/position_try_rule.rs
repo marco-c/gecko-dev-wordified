@@ -146,15 +146,6 @@ use
 crate
 :
 :
-str
-:
-:
-CssStringWriter
-;
-use
-crate
-:
-:
 values
 :
 :
@@ -198,6 +189,7 @@ style_traits
 :
 :
 {
+CssStringWriter
 CssWriter
 ToCss
 }

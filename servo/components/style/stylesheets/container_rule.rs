@@ -206,15 +206,6 @@ use
 crate
 :
 :
-str
-:
-:
-CssStringWriter
-;
-use
-crate
-:
-:
 stylesheets
 :
 :
@@ -334,6 +325,7 @@ style_traits
 :
 :
 {
+CssStringWriter
 CssWriter
 ParseError
 ToCss

@@ -253,15 +253,6 @@ ToCssWithGuard
 }
 ;
 use
-crate
-:
-:
-str
-:
-:
-CssStringWriter
-;
-use
 cssparser
 :
 :
@@ -345,7 +336,10 @@ use
 style_traits
 :
 :
+{
+CssStringWriter
 ParsingMode
+}
 ;
 use
 to_shmem

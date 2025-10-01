@@ -5685,10 +5685,7 @@ dest
 :
 &
 mut
-crate
-:
-:
-str
+style_traits
 :
 :
 CssStringWriter

@@ -187,18 +187,6 @@ use
 crate
 :
 :
-str
-:
-:
-{
-CssString
-CssStringWriter
-}
-;
-use
-crate
-:
-:
 stylesheets
 :
 :
@@ -326,6 +314,8 @@ style_traits
 :
 :
 {
+CssString
+CssStringWriter
 CssWriter
 ParseError
 ParsingMode
