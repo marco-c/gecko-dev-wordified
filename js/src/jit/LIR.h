@@ -158,6 +158,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Casting
 .
 h
@@ -8431,6 +8440,7 @@ Defs
 Temps
 >
 {
+MOZ_NO_UNIQUE_ADDRESS
 mozilla
 :
 :
@@ -9009,6 +9019,7 @@ Operands
 Temps
 >
 {
+MOZ_NO_UNIQUE_ADDRESS
 mozilla
 :
 :
