@@ -128,6 +128,11 @@ pragma
 :
 export
 #
+if
+__cplusplus
+<
+202002
+#
 include
 "
 rtc_base
@@ -147,6 +152,8 @@ when
 fixing
 Bug
 1980501
+#
+endif
 namespace
 webrtc
 {
