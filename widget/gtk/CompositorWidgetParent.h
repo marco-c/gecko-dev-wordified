@@ -143,6 +143,11 @@ GtkCompositorWidget
 {
 public
 :
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+CompositorWidgetParent
+CompositorWidget
+)
 explicit
 CompositorWidgetParent
 (
@@ -158,12 +163,6 @@ CompositorOptions
 &
 aOptions
 )
-;
-~
-CompositorWidgetParent
-(
-)
-override
 ;
 void
 ActorDestroy
@@ -239,6 +238,12 @@ override
 ;
 private
 :
+~
+CompositorWidgetParent
+(
+)
+override
+;
 RefPtr
 <
 VsyncObserver

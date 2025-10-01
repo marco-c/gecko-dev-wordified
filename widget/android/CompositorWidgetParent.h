@@ -143,6 +143,11 @@ AndroidCompositorWidget
 {
 public
 :
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+CompositorWidgetParent
+CompositorWidget
+)
 explicit
 CompositorWidgetParent
 (
@@ -158,12 +163,6 @@ CompositorOptions
 &
 aOptions
 )
-;
-~
-CompositorWidgetParent
-(
-)
-override
 ;
 /
 /
@@ -213,6 +212,12 @@ override
 ;
 private
 :
+~
+CompositorWidgetParent
+(
+)
+override
+;
 /
 /
 AndroidCompositorWidget

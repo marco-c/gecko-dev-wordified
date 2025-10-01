@@ -145,6 +145,11 @@ PlatformCompositorWidgetDelegate
 {
 public
 :
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+CompositorWidgetChild
+override
+)
 CompositorWidgetChild
 (
 RefPtr
@@ -161,12 +166,6 @@ const
 CompositorWidgetInitData
 &
 )
-;
-~
-CompositorWidgetChild
-(
-)
-override
 ;
 bool
 Initialize
@@ -213,6 +212,12 @@ override
 ;
 private
 :
+~
+CompositorWidgetChild
+(
+)
+override
+;
 RefPtr
 <
 CompositorVsyncDispatcher
