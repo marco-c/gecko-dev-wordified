@@ -623,7 +623,14 @@ this
 .
 _innerWindowId
 =
-null
+lazy
+.
+NetworkUtils
+.
+getChannelInnerWindowId
+(
+channel
+)
 ;
 this
 .
