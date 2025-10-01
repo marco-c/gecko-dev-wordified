@@ -221,11 +221,12 @@ libaom_test
 :
 ACMRandom
 ;
-typedef
+using
+MinMaxFunc
+=
 void
 (
 *
-MinMaxFunc
 )
 (
 const

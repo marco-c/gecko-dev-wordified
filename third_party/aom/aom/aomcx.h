@@ -1492,7 +1492,7 @@ automatic
 set
 and
 use
-alf
+arf
 frames
 *
 unsigned

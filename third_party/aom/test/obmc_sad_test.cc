@@ -203,12 +203,13 @@ kMaskMax
 =
 64
 ;
-typedef
+using
+ObmcSadF
+=
 unsigned
 int
 (
 *
-ObmcSadF
 )
 (
 const
@@ -227,7 +228,9 @@ int32_t
 mask
 )
 ;
-typedef
+using
+TestFuncs
+=
 libaom_test
 :
 :
@@ -235,7 +238,6 @@ FuncParam
 <
 ObmcSadF
 >
-TestFuncs
 ;
 /
 /

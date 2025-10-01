@@ -721,7 +721,6 @@ the
 aom_codec_alg_priv_t
 points
 to
-the
 /
 /
 the

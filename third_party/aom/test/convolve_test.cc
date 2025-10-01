@@ -324,11 +324,12 @@ kNumFilters
 =
 16
 ;
-typedef
+using
+ConvolveFunc
+=
 void
 (
 *
-ConvolveFunc
 )
 (
 const
@@ -412,7 +413,9 @@ depth
 .
 }
 ;
-typedef
+using
+ConvolveParam
+=
 std
 :
 :
@@ -424,7 +427,6 @@ const
 ConvolveFunctions
 *
 >
-ConvolveParam
 ;
 #
 define
@@ -6197,11 +6199,12 @@ endif
 /
 /
 HAVE_SVE
-typedef
+using
+ConvolveScale2DFunc
+=
 void
 (
 *
-ConvolveScale2DFunc
 )
 (
 const
@@ -6233,7 +6236,9 @@ int
 h
 )
 ;
-typedef
+using
+ConvolveScale2DParam
+=
 std
 :
 :
@@ -6243,7 +6248,6 @@ int
 int
 ConvolveScale2DFunc
 >
-ConvolveScale2DParam
 ;
 class
 ConvolveScale2DTest

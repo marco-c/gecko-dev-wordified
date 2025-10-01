@@ -212,11 +212,12 @@ mem
 .
 h
 "
-typedef
+using
+SubtractFunc
+=
 void
 (
 *
-SubtractFunc
 )
 (
 int

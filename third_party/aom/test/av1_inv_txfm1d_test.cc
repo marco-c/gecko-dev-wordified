@@ -166,10 +166,6 @@ av1_fwd_txfm1d
 .
 h
 "
-typedef
-TX_SIZE
-TxSize
-;
 using
 libaom_test
 :
@@ -630,12 +626,12 @@ transform
 to
 test
 const
-TxSize
+TX_SIZE
 tx_size
 =
 static_cast
 <
-TxSize
+TX_SIZE
 >
 (
 rnd

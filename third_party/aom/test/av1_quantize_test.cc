@@ -195,11 +195,12 @@ h
 "
 namespace
 {
-typedef
+using
+QuantizeFpFunc
+=
 void
 (
 *
-QuantizeFpFunc
 )
 (
 const

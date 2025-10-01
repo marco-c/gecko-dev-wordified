@@ -848,8 +848,8 @@ kf_max_dist
 }
 }
 }
-typedef
 struct
+kfIntervalParam
 {
 const
 unsigned
@@ -862,7 +862,6 @@ int
 max_kf_dist
 ;
 }
-kfIntervalParam
 ;
 const
 kfIntervalParam

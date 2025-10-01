@@ -204,11 +204,12 @@ h
 "
 namespace
 {
-typedef
+using
+tform_fun_t
+=
 void
 (
 *
-tform_fun_t
 )
 (
 const

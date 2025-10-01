@@ -19317,11 +19317,12 @@ output_
 }
 namespace
 {
-typedef
+using
+CNNConvolveNoMaxpoolPaddingValidFunc
+=
 void
 (
 *
-CNNConvolveNoMaxpoolPaddingValidFunc
 )
 (
 const
@@ -19353,7 +19354,9 @@ int
 channel_step
 )
 ;
-typedef
+using
+CNNConvolveTestFuncs
+=
 libaom_test
 :
 :
@@ -19361,7 +19364,6 @@ FuncParam
 <
 CNNConvolveNoMaxpoolPaddingValidFunc
 >
-CNNConvolveTestFuncs
 ;
 class
 CNNConvolveTest

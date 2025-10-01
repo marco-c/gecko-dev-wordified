@@ -248,11 +248,12 @@ kNumPixels
 *
 128
 ;
-typedef
+using
+Av1DenoiserFilterFunc
+=
 int
 (
 *
-Av1DenoiserFilterFunc
 )
 (
 const
@@ -280,7 +281,9 @@ int
 motion_magnitude
 )
 ;
-typedef
+using
+AV1DenoiserTestParam
+=
 std
 :
 :
@@ -289,7 +292,6 @@ tuple
 Av1DenoiserFilterFunc
 BLOCK_SIZE
 >
-AV1DenoiserTestParam
 ;
 class
 AV1DenoiserTest

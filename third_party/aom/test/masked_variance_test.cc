@@ -249,12 +249,13 @@ number_of_iterations
 =
 200
 ;
-typedef
+using
+MaskedSubPixelVarianceFunc
+=
 unsigned
 int
 (
 *
-MaskedSubPixelVarianceFunc
 )
 (
 const
@@ -291,7 +292,9 @@ int
 sse
 )
 ;
-typedef
+using
+MaskedSubPixelVarianceParam
+=
 std
 :
 :
@@ -300,7 +303,6 @@ tuple
 MaskedSubPixelVarianceFunc
 MaskedSubPixelVarianceFunc
 >
-MaskedSubPixelVarianceParam
 ;
 class
 MaskedSubPixelVarianceTest
@@ -1305,7 +1307,9 @@ first_failure_y
 #
 if
 CONFIG_AV1_HIGHBITDEPTH
-typedef
+using
+HighbdMaskedSubPixelVarianceParam
+=
 std
 :
 :
@@ -1315,7 +1319,6 @@ MaskedSubPixelVarianceFunc
 MaskedSubPixelVarianceFunc
 aom_bit_depth_t
 >
-HighbdMaskedSubPixelVarianceParam
 ;
 class
 HighbdMaskedSubPixelVarianceTest

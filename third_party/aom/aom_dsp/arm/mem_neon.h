@@ -1504,7 +1504,7 @@ const
 uint8_t
 *
 p
-int
+ptrdiff_t
 stride
 )
 {
@@ -1574,7 +1574,7 @@ const
 uint16_t
 *
 p
-int
+ptrdiff_t
 stride
 )
 {
@@ -7856,7 +7856,7 @@ const
 uint8_t
 *
 buf
-int
+ptrdiff_t
 stride
 )
 {
@@ -7931,7 +7931,7 @@ const
 uint8_t
 *
 buf
-int
+ptrdiff_t
 stride
 )
 {
@@ -8051,7 +8051,7 @@ const
 uint8_t
 *
 buf
-int
+ptrdiff_t
 stride
 )
 {
@@ -8240,7 +8240,7 @@ const
 uint8_t
 *
 buf
-int
+ptrdiff_t
 stride
 )
 {
@@ -8303,7 +8303,7 @@ const
 uint8_t
 *
 buf
-int
+ptrdiff_t
 stride
 uint8x8_t
 *
@@ -8348,7 +8348,7 @@ const
 uint8_t
 *
 buf
-int
+ptrdiff_t
 stride
 uint8x8_t
 *
@@ -8395,7 +8395,7 @@ const
 uint8_t
 *
 buf
-int
+ptrdiff_t
 stride
 uint8x8_t
 *
@@ -9091,7 +9091,7 @@ const
 uint16_t
 *
 buf
-int
+ptrdiff_t
 stride
 )
 {
@@ -9200,7 +9200,7 @@ const
 uint16_t
 *
 buf
-uint32_t
+ptrdiff_t
 stride
 )
 {
@@ -9277,7 +9277,7 @@ const
 int16_t
 *
 buf
-uint32_t
+ptrdiff_t
 stride
 )
 {
@@ -9354,7 +9354,7 @@ const
 uint16_t
 *
 buf
-uint32_t
+ptrdiff_t
 stride
 uint16x8_t
 *
@@ -9398,7 +9398,7 @@ load_s32_4x4
 int32_t
 *
 s
-int32_t
+ptrdiff_t
 p
 int32x4_t
 *
@@ -9470,7 +9470,7 @@ store_s32_4x4
 int32_t
 *
 s
-int32_t
+ptrdiff_t
 p
 int32x4_t
 s1
@@ -9530,7 +9530,7 @@ load_u32_4x4
 uint32_t
 *
 s
-int32_t
+ptrdiff_t
 p
 uint32x4_t
 *
@@ -9602,7 +9602,7 @@ store_u32_4x4
 uint32_t
 *
 s
-int32_t
+ptrdiff_t
 p
 uint32x4_t
 s1
@@ -10312,7 +10312,7 @@ store_u8x2_strided_x2
 uint8_t
 *
 dst
-uint32_t
+ptrdiff_t
 dst_stride
 uint8x8_t
 src
@@ -10346,7 +10346,7 @@ store_u8x2_strided_x4
 uint8_t
 *
 dst
-uint32_t
+ptrdiff_t
 dst_stride
 uint8x8_t
 src
@@ -10584,7 +10584,7 @@ store_u16x2_strided_x2
 uint16_t
 *
 dst
-uint32_t
+ptrdiff_t
 dst_stride
 uint16x4_t
 src
@@ -10632,7 +10632,7 @@ store_u16x4_strided_x2
 uint16_t
 *
 dst
-uint32_t
+ptrdiff_t
 dst_stride
 uint16x8_t
 src
@@ -10680,7 +10680,7 @@ store_s16x4_strided_x2
 int16_t
 *
 dst
-int32_t
+ptrdiff_t
 dst_stride
 int16x8_t
 src

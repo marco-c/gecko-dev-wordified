@@ -204,11 +204,12 @@ ACMRandom
 ;
 namespace
 {
-typedef
+using
+HorverFunc
+=
 void
 (
 *
-HorverFunc
 )
 (
 const
@@ -229,7 +230,9 @@ float
 vcorr
 )
 ;
-typedef
+using
+HorverTestParam
+=
 std
 :
 :
@@ -238,7 +241,6 @@ tuple
 const
 HorverFunc
 >
-HorverTestParam
 ;
 class
 HorverTest

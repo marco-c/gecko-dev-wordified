@@ -12565,9 +12565,8 @@ sb_me_block
 /
 /
 !
-Flag
-to
-indicate
+Counter
+for
 superblock
 selected
 column
@@ -12579,9 +12578,8 @@ sb_col_scroll
 /
 /
 !
-Flag
-to
-indicate
+Counter
+for
 superblock
 selected
 row

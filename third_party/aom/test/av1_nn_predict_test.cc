@@ -218,11 +218,12 @@ h
 "
 namespace
 {
-typedef
+using
+NnPredict_Func
+=
 void
 (
 *
-NnPredict_Func
 )
 (
 const
@@ -243,7 +244,9 @@ const
 output
 )
 ;
-typedef
+using
+NnPredictTestParam
+=
 std
 :
 :
@@ -252,7 +255,6 @@ tuple
 const
 NnPredict_Func
 >
-NnPredictTestParam
 ;
 const
 float

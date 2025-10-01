@@ -486,8 +486,8 @@ y4m
 }
 }
 ;
-typedef
 struct
+TestVideoParam
 {
 const
 char
@@ -509,7 +509,6 @@ int
 profile
 ;
 }
-TestVideoParam
 ;
 std
 :

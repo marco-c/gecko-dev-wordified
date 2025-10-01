@@ -637,8 +637,8 @@ Range
 if
 !
 CONFIG_REALTIME_ONLY
-typedef
 struct
+QuantParam
 {
 const
 unsigned
@@ -651,7 +651,6 @@ int
 max_q
 ;
 }
-QuantParam
 ;
 const
 QuantParam

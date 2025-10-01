@@ -4179,7 +4179,7 @@ s3456
 2
 ]
 ;
-transpose_concat_4x4
+transpose_concat_elems_s16_4x4
 (
 s0
 s1
@@ -4188,7 +4188,7 @@ s3
 s0123
 )
 ;
-transpose_concat_4x4
+transpose_concat_elems_s16_4x4
 (
 s1
 s2
@@ -4197,7 +4197,7 @@ s4
 s1234
 )
 ;
-transpose_concat_4x4
+transpose_concat_elems_s16_4x4
 (
 s2
 s3
@@ -4206,7 +4206,7 @@ s5
 s2345
 )
 ;
-transpose_concat_4x4
+transpose_concat_elems_s16_4x4
 (
 s3
 s4
@@ -4267,7 +4267,7 @@ that
 were
 loaded
 .
-transpose_concat_4x4
+transpose_concat_elems_s16_4x4
 (
 s7
 s8
@@ -4613,7 +4613,7 @@ s3456
 4
 ]
 ;
-transpose_concat_8x4
+transpose_concat_elems_s16_8x4
 (
 s0
 s1
@@ -4622,7 +4622,7 @@ s3
 s0123
 )
 ;
-transpose_concat_8x4
+transpose_concat_elems_s16_8x4
 (
 s1
 s2
@@ -4631,7 +4631,7 @@ s4
 s1234
 )
 ;
-transpose_concat_8x4
+transpose_concat_elems_s16_8x4
 (
 s2
 s3
@@ -4640,7 +4640,7 @@ s5
 s2345
 )
 ;
-transpose_concat_8x4
+transpose_concat_elems_s16_8x4
 (
 s3
 s4
@@ -4701,7 +4701,7 @@ that
 were
 loaded
 .
-transpose_concat_8x4
+transpose_concat_elems_s16_8x4
 (
 s7
 s8
@@ -5630,7 +5630,7 @@ s3456
 2
 ]
 ;
-transpose_concat_4x4
+transpose_concat_elems_s16_4x4
 (
 s0
 s1
@@ -5639,7 +5639,7 @@ s3
 s0123
 )
 ;
-transpose_concat_4x4
+transpose_concat_elems_s16_4x4
 (
 s1
 s2
@@ -5648,7 +5648,7 @@ s4
 s1234
 )
 ;
-transpose_concat_4x4
+transpose_concat_elems_s16_4x4
 (
 s2
 s3
@@ -5657,7 +5657,7 @@ s5
 s2345
 )
 ;
-transpose_concat_4x4
+transpose_concat_elems_s16_4x4
 (
 s3
 s4
@@ -5718,7 +5718,7 @@ that
 were
 loaded
 .
-transpose_concat_4x4
+transpose_concat_elems_s16_4x4
 (
 s7
 s8
@@ -6064,7 +6064,7 @@ s3456
 4
 ]
 ;
-transpose_concat_8x4
+transpose_concat_elems_s16_8x4
 (
 s0
 s1
@@ -6073,7 +6073,7 @@ s3
 s0123
 )
 ;
-transpose_concat_8x4
+transpose_concat_elems_s16_8x4
 (
 s1
 s2
@@ -6082,7 +6082,7 @@ s4
 s1234
 )
 ;
-transpose_concat_8x4
+transpose_concat_elems_s16_8x4
 (
 s2
 s3
@@ -6091,7 +6091,7 @@ s5
 s2345
 )
 ;
-transpose_concat_8x4
+transpose_concat_elems_s16_8x4
 (
 s3
 s4
@@ -6152,7 +6152,7 @@ that
 were
 loaded
 .
-transpose_concat_8x4
+transpose_concat_elems_s16_8x4
 (
 s7
 s8
@@ -10358,7 +10358,7 @@ s3456
 2
 ]
 ;
-transpose_concat_4x4
+transpose_concat_elems_s16_4x4
 (
 s0
 s1
@@ -10367,7 +10367,7 @@ s3
 s0123
 )
 ;
-transpose_concat_4x4
+transpose_concat_elems_s16_4x4
 (
 s1
 s2
@@ -10376,7 +10376,7 @@ s4
 s1234
 )
 ;
-transpose_concat_4x4
+transpose_concat_elems_s16_4x4
 (
 s2
 s3
@@ -10385,7 +10385,7 @@ s5
 s2345
 )
 ;
-transpose_concat_4x4
+transpose_concat_elems_s16_4x4
 (
 s3
 s4
@@ -10446,7 +10446,7 @@ that
 were
 loaded
 .
-transpose_concat_4x4
+transpose_concat_elems_s16_4x4
 (
 s7
 s8
@@ -10792,7 +10792,7 @@ s3456
 4
 ]
 ;
-transpose_concat_8x4
+transpose_concat_elems_s16_8x4
 (
 s0
 s1
@@ -10801,7 +10801,7 @@ s3
 s0123
 )
 ;
-transpose_concat_8x4
+transpose_concat_elems_s16_8x4
 (
 s1
 s2
@@ -10810,7 +10810,7 @@ s4
 s1234
 )
 ;
-transpose_concat_8x4
+transpose_concat_elems_s16_8x4
 (
 s2
 s3
@@ -10819,7 +10819,7 @@ s5
 s2345
 )
 ;
-transpose_concat_8x4
+transpose_concat_elems_s16_8x4
 (
 s3
 s4
@@ -10880,7 +10880,7 @@ that
 were
 loaded
 .
-transpose_concat_8x4
+transpose_concat_elems_s16_8x4
 (
 s7
 s8
