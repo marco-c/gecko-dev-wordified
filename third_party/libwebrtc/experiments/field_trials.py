@@ -3325,26 +3325,6 @@ WebRTC
 -
 Bwe
 -
-LossBasedControl
-'
-               
-NO_BUG
-               
-date
-(
-2024
-4
-1
-)
-)
-    
-FieldTrial
-(
-'
-WebRTC
--
-Bwe
--
 MaxRttLimit
 '
                
@@ -5281,7 +5261,7 @@ str
 \
     
 '
-8e2640561e5ff33824da8ecf4f37b34eeaad92f3
+6c73fd457a392cb370b8b8f5ec6f6215779fba01
 '
 REGISTERED_FIELD_TRIALS
 :
