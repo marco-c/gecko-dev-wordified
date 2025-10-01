@@ -223,9 +223,6 @@ public
 :
 /
 /
-webrtc
-:
-:
 scoped_refptr
 <
 AudioDeviceModule
