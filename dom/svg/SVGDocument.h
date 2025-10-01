@@ -161,8 +161,11 @@ XMLDocument
 {
 public
 :
+explicit
 SVGDocument
 (
+LoadedAsData
+aLoadedAsData
 )
 :
 XMLDocument
@@ -174,6 +177,7 @@ svg
 +
 xml
 "
+aLoadedAsData
 )
 {
 mType

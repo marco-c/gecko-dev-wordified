@@ -2601,7 +2601,16 @@ aDoctype
 uri
 uri
 principal
-false
+mozilla
+:
+:
+dom
+:
+:
+LoadedAsData
+:
+:
+No
 /
 /
 aLoadedAsData

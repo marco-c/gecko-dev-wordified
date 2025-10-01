@@ -1328,7 +1328,7 @@ GetCompatibilityMode
 document
 -
 >
-CSSLoader
+GetCSSLoader
 (
 )
 aRuleType

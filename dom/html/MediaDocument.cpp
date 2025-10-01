@@ -661,6 +661,13 @@ MediaDocument
 (
 )
 :
+nsHTMLDocument
+(
+LoadedAsData
+:
+:
+No
+)
 mDidInitialDocumentSetup
 (
 false
