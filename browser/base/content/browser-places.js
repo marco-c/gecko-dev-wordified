@@ -7519,7 +7519,9 @@ icon
 :
 "
 +
-encodeURI
+ChromeUtils
+.
+encodeURIForSrcset
 (
 preferredURI
 .
