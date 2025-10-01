@@ -462,9 +462,6 @@ override
 ;
 /
 /
-webrtc
-:
-:
 SctpTransportInternal
 void
 SetOnConnectedCallback
@@ -851,9 +848,6 @@ OnDtlsTransportState
 DtlsTransportInternal
 *
 transport
-webrtc
-:
-:
 DtlsTransportState
 )
 ;
@@ -1055,9 +1049,6 @@ StreamPriority
 (
 PriorityValue
 (
-webrtc
-:
-:
 Priority
 :
 :
