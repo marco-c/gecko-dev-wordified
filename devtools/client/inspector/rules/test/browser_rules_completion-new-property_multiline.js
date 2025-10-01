@@ -1014,11 +1014,9 @@ synthesizeMouseAtCenter
 node
 {
 }
-editor
+node
 .
-popup
-.
-_window
+ownerGlobal
 )
 ;
 view
