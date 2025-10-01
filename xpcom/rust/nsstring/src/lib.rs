@@ -1551,6 +1551,15 @@ code
 [
 allow
 (
+unknown_lints
+mismatched_lifetime_syntaxes
+)
+]
+#
+!
+[
+allow
+(
 non_camel_case_types
 )
 ]
