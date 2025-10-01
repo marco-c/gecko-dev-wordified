@@ -102,6 +102,7 @@ path
 config
 params
 loaded_tasks
+write_artifacts
 )
 :
     
@@ -243,4 +244,5 @@ path
 config
 params
 loaded_tasks
+write_artifacts
 )

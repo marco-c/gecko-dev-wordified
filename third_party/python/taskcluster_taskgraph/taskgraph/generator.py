@@ -56,6 +56,8 @@ MPL
 import
 copy
 import
+inspect
+import
 logging
 import
 multiprocessing
@@ -335,6 +337,35 @@ self
 config
 )
         
+if
+"
+write_artifacts
+"
+in
+inspect
+.
+signature
+(
+loader
+)
+.
+parameters
+:
+            
+extra_args
+=
+(
+write_artifacts
+)
+        
+else
+:
+            
+extra_args
+=
+(
+)
+        
 inputs
 =
 loader
@@ -360,6 +391,9 @@ values
 (
 )
 )
+            
+*
+extra_args
         
 )
         
