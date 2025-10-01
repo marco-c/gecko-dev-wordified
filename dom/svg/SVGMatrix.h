@@ -524,6 +524,9 @@ mozilla
 :
 dom
 {
+struct
+DOMMatrix2DInit
+;
 /
 *
 *
@@ -847,9 +850,13 @@ SVGMatrix
 >
 Multiply
 (
-SVGMatrix
+const
+DOMMatrix2DInit
 &
 aMatrix
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
