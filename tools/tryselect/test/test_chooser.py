@@ -432,6 +432,7 @@ name
 "
 test
 mochitest
+reftest
 "
 value
 =
@@ -502,6 +503,7 @@ name
 "
 test
 mochitest
+reftest
 "
 value
 =
