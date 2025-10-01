@@ -1618,16 +1618,6 @@ k
 =
 1024
 )
-{
-double
-const_0x1p1023
-=
-pow
-(
-2
-1023
-)
-;
 return
 y
 *
@@ -1635,9 +1625,8 @@ y
 .
 0
 *
-const_0x1p1023
+0x1p1023
 ;
-}
 return
 y
 *
