@@ -764,7 +764,7 @@ Check
 DnsLength
 :
 :
-VerifyAllowRootDot
+Verify
 )
 ;
 check
@@ -886,7 +886,7 @@ verify_dns_length
 (
 &
 source
-true
+false
 )
 {
 Ok
@@ -942,7 +942,7 @@ verify_dns_length
 (
 &
 to_unicode_simultaneous
-true
+false
 )
 {
 Ok
@@ -976,7 +976,7 @@ verify_dns_length
 (
 &
 to_ascii_simultaneous
-true
+false
 )
 {
 Ok

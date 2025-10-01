@@ -60,6 +60,9 @@ flags
 :
 &
 str
+force_eval
+:
+bool
 )
 -
 >
@@ -229,6 +232,9 @@ flags
 :
 &
 str
+_force_eval
+:
+bool
 )
 -
 >

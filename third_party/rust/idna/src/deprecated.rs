@@ -1126,7 +1126,7 @@ default
 >
 Self
 {
-Config
+Self
 {
 use_std3_ascii_rules
 :
