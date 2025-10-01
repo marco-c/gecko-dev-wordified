@@ -237,13 +237,9 @@ require
 |
 \
 .
+(
 importESModule
-\
-(
 |
-\
-.
-(
 defineESModuleGetters
 ?
 |
