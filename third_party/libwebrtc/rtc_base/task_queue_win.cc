@@ -404,15 +404,6 @@ include
 "
 rtc_base
 /
-arraysize
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 checks
 .
 h
@@ -1937,7 +1928,10 @@ result
 :
 MsgWaitForMultipleObjectsEx
 (
-arraysize
+std
+:
+:
+size
 (
 handles
 )
