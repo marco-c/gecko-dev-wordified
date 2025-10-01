@@ -308,6 +308,8 @@ netmonitor
 /
 test
 /
+websockets
+/
 html_ws
 -
 sse
