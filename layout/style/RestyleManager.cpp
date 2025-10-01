@@ -6007,7 +6007,7 @@ size
 See
 /
 /
-nsAbsoluteContainingBlock
+AbsoluteContainingBlock
 :
 :
 ResolveAutoMarginsAfterLayout
@@ -25049,7 +25049,7 @@ LAYOUT_StyleComputation
 ;
 #
 ifdef
-EARLY_BETA_OR_EARLIER
+NIGHTLY_BUILD
 if
 (
 MOZ_UNLIKELY
@@ -25084,6 +25084,9 @@ GetInternalValue
 }
 #
 endif
+/
+/
+NIGHTLY_BUILD
 const
 ElementState
 kVisitedAndUnvisited

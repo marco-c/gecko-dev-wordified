@@ -12689,7 +12689,7 @@ HasAbsolutelyPositionedChildren
 )
 )
 {
-nsAbsoluteContainingBlock
+AbsoluteContainingBlock
 *
 absoluteContainer
 =
@@ -12896,7 +12896,7 @@ TODO
 emilio
 )
 :
-nsAbsoluteContainingBlock
+AbsoluteContainingBlock
 :
 :
 Reflow
@@ -13104,7 +13104,7 @@ BSize
 /
 /
 when
-nsAbsoluteContainingBlock
+AbsoluteContainingBlock
 is
 logicalized
 bool

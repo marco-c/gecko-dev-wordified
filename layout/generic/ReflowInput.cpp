@@ -12389,7 +12389,7 @@ passed
 into
 /
 /
-nsAbsoluteContainingBlock
+AbsoluteContainingBlock
 :
 :
 ReflowAbsoluteFrame
@@ -15059,7 +15059,7 @@ code
 in
 /
 /
-nsAbsoluteContainingBlock
+AbsoluteContainingBlock
 .
 cpp
 could
@@ -15184,7 +15184,7 @@ code
 in
 /
 /
-nsAbsoluteContainingBlock
+AbsoluteContainingBlock
 .
 cpp
 could

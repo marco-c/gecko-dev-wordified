@@ -3839,7 +3839,7 @@ them
 into
 account
 in
-nsAbsoluteContainingBlock
+AbsoluteContainingBlock
 :
 :
 Reflow

@@ -66113,7 +66113,7 @@ wm
 /
 /
 else
-nsAbsoluteContainingBlock
+AbsoluteContainingBlock
 .
 cpp
 will
@@ -74951,7 +74951,7 @@ gridCB
 ;
 /
 /
-nsAbsoluteContainingBlock
+AbsoluteContainingBlock
 :
 :
 Reflow
@@ -75036,7 +75036,7 @@ The
 IsGridContainerCB
 flag
 tells
-nsAbsoluteContainingBlock
+AbsoluteContainingBlock
 :
 :
 Reflow

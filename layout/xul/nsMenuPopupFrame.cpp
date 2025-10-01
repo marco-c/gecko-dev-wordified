@@ -4499,7 +4499,7 @@ Set
 our
 size
 since
-nsAbsoluteContainingBlock
+AbsoluteContainingBlock
 won
 '
 t
