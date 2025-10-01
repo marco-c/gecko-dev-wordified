@@ -84,8 +84,6 @@ t
 linux
 -
 docker
--
-amd
 "
     
 "
@@ -102,8 +100,6 @@ linux
 docker
 -
 noscratch
--
-amd
 "
     
 "
@@ -116,8 +112,6 @@ t
 linux
 -
 docker
--
-amd
 "
     
 "
@@ -134,8 +128,6 @@ linux
 docker
 -
 noscratch
--
-amd
 "
     
 "
@@ -150,8 +142,6 @@ linux
 docker
 -
 noscratch
--
-amd
 "
 }
 #

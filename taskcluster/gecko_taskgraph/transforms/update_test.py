@@ -124,8 +124,6 @@ t
 linux
 -
 docker
--
-amd
 "
     
 "
@@ -140,8 +138,6 @@ t
 linux
 -
 docker
--
-amd
 "
 }
 DOCKER_TO_PLATFORM
