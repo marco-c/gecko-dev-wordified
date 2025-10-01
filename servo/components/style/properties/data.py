@@ -7362,14 +7362,12 @@ org
 /
 css
 -
-lists
--
-3
+pseudo
 /
 #
 marker
 -
-properties
+pseudo
     
 staticmethod
     
@@ -7396,30 +7394,6 @@ text
 combine
 -
 upright
-"
-                
-"
-text
--
-emphasis
--
-color
-"
-                
-"
-text
--
-emphasis
--
-position
-"
-                
-"
-text
--
-emphasis
--
-style
 "
                 
 "
