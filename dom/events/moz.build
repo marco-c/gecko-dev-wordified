@@ -514,6 +514,11 @@ TextEvent
 h
 "
 "
+ToggleEvent
+.
+h
+"
+"
 Touch
 .
 h
@@ -807,6 +812,11 @@ cpp
 "
 "
 TextEvent
+.
+cpp
+"
+"
+ToggleEvent
 .
 cpp
 "
