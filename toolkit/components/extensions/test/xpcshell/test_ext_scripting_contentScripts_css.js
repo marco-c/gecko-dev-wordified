@@ -333,6 +333,7 @@ test
 case
 "
 :
+{
 const
 {
 title
@@ -504,6 +505,7 @@ done
 ;
 break
 ;
+}
 default
 :
 browser
@@ -3092,6 +3094,7 @@ css
 origin
 "
 :
+{
 const
 {
 title
@@ -3268,6 +3271,7 @@ done
 ;
 break
 ;
+}
 default
 :
 browser
