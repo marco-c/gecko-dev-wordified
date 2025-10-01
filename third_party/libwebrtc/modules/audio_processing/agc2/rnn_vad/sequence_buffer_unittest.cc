@@ -112,6 +112,11 @@ array
 >
 #
 include
+<
+cstdint
+>
+#
+include
 "
 test
 /

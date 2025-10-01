@@ -103,6 +103,11 @@ include
 <
 algorithm
 >
+#
+include
+<
+cstddef
+>
 namespace
 webrtc
 {

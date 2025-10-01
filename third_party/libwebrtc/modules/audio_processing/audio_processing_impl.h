@@ -94,13 +94,6 @@ MODULES_AUDIO_PROCESSING_AUDIO_PROCESSING_IMPL_H_
 #
 include
 <
-stdio
-.
-h
->
-#
-include
-<
 array
 >
 #
@@ -112,6 +105,11 @@ atomic
 include
 <
 cstdint
+>
+#
+include
+<
+cstdio
 >
 #
 include

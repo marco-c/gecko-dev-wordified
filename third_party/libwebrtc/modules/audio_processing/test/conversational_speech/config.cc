@@ -100,6 +100,11 @@ config
 .
 h
 "
+#
+include
+<
+string
+>
 namespace
 webrtc
 {

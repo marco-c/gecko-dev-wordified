@@ -100,6 +100,11 @@ h
 "
 #
 include
+<
+cstddef
+>
+#
+include
 "
 api
 /
@@ -119,6 +124,15 @@ audio_processing
 agc2
 /
 agc2_common
+.
+h
+"
+#
+include
+"
+rtc_base
+/
+checks
 .
 h
 "

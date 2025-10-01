@@ -94,6 +94,16 @@ MODULES_AUDIO_PROCESSING_AEC3_SIGNAL_DEPENDENT_ERLE_ESTIMATOR_H_
 #
 include
 <
+array
+>
+#
+include
+<
+cstddef
+>
+#
+include
+<
 memory
 >
 #

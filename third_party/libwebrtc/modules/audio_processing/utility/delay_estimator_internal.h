@@ -106,6 +106,11 @@ define
 MODULES_AUDIO_PROCESSING_UTILITY_DELAY_ESTIMATOR_INTERNAL_H_
 #
 include
+<
+cstdint
+>
+#
+include
 "
 modules
 /

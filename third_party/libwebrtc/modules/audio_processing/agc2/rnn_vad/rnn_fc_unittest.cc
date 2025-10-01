@@ -172,17 +172,6 @@ h
 #
 include
 "
-rtc_base
-/
-system
-/
-arch
-.
-h
-"
-#
-include
-"
 test
 /
 gtest

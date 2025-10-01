@@ -93,6 +93,11 @@ define
 MODULES_AUDIO_PROCESSING_AGC_LEGACY_ANALOG_AGC_H_
 #
 include
+<
+cstdint
+>
+#
+include
 "
 modules
 /

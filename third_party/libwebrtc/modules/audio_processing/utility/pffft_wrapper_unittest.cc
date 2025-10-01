@@ -116,6 +116,15 @@ memory
 #
 include
 "
+api
+/
+array_view
+.
+h
+"
+#
+include
+"
 test
 /
 gtest

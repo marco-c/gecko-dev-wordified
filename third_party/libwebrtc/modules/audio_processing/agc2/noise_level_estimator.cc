@@ -118,6 +118,11 @@ cmath
 #
 include
 <
+memory
+>
+#
+include
+<
 numeric
 >
 #

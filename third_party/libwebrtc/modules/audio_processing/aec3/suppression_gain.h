@@ -104,6 +104,11 @@ atomic
 #
 include
 <
+cstddef
+>
+#
+include
+<
 memory
 >
 #
@@ -171,7 +176,7 @@ audio_processing
 /
 aec3
 /
-fft_data
+block
 .
 h
 "

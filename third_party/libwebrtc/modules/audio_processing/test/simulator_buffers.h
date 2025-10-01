@@ -94,6 +94,11 @@ MODULES_AUDIO_PROCESSING_TEST_SIMULATOR_BUFFERS_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
 memory
 >
 #

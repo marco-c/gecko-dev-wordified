@@ -99,7 +99,7 @@ cstddef
 #
 include
 <
-string
+cstdint
 >
 #
 include

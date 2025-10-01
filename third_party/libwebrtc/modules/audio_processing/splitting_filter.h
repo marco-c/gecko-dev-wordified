@@ -99,11 +99,6 @@ cstring
 #
 include
 <
-memory
->
-#
-include
-<
 vector
 >
 #
