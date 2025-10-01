@@ -136,7 +136,7 @@ h
 #
 include
 "
-ActiveElementManager
+ElementStateManager
 .
 h
 "
@@ -485,10 +485,10 @@ initialized
 in
 constructor
 body
-mActiveElementManager
+mElementStateManager
 (
 new
-ActiveElementManager
+ElementStateManager
 (
 )
 )
@@ -700,7 +700,7 @@ mLastTouchSynthesizedForTests
 )
 ;
 }
-mActiveElementManager
+mElementStateManager
 -
 >
 ProcessSingleTap
@@ -956,7 +956,7 @@ should
 remove
 any
 activation
-mActiveElementManager
+mElementStateManager
 -
 >
 ClearActivation
@@ -1795,7 +1795,7 @@ Length
 0
 )
 {
-mActiveElementManager
+mElementStateManager
 -
 >
 SetTargetElement
@@ -2303,7 +2303,7 @@ eTouchCancel
 :
 if
 (
-mActiveElementManager
+mElementStateManager
 -
 >
 HandleTouchEndEvent
@@ -3550,7 +3550,7 @@ canBePanOrZoom
 =
 aArg
 ;
-mActiveElementManager
+mElementStateManager
 -
 >
 HandleTouchStart
@@ -3662,7 +3662,7 @@ be
 :
 active
 .
-mActiveElementManager
+mElementStateManager
 -
 >
 ClearActivation
@@ -3694,7 +3694,7 @@ aArg
 ;
 if
 (
-mActiveElementManager
+mElementStateManager
 -
 >
 HandleTouchEnd
@@ -3727,7 +3727,7 @@ Destroy
 (
 )
 {
-mActiveElementManager
+mElementStateManager
 -
 >
 Destroy
