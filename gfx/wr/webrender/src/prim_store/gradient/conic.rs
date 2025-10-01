@@ -165,7 +165,7 @@ gradient
 :
 {
 gpu_gradient_stops_blocks
-write_gpu_gradient_stops
+write_gpu_gradient_stops_tree
 GradientKind
 }
 ;
@@ -2973,6 +2973,7 @@ stops
 len
 (
 )
+true
 )
 ;
 let
@@ -3031,7 +3032,7 @@ angle
 let
 is_opaque
 =
-write_gpu_gradient_stops
+write_gpu_gradient_stops_tree
 (
 stops
 GradientKind
