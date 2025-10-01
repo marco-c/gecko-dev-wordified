@@ -736,12 +736,14 @@ shown
 #
 include
 <
-cmath
+float
+.
+h
 >
 #
 include
 <
-float
+math
 .
 h
 >
@@ -1847,9 +1849,6 @@ x
 *
 /
 return
-std
-:
-:
 sqrt
 (
 x

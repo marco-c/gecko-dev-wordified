@@ -210,6 +210,13 @@ FreeBSD
 ;
 #
 include
+<
+math
+.
+h
+>
+#
+include
 "
 math_private
 .
