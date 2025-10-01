@@ -534,6 +534,11 @@ GetLastTouchIdentifier
 )
 const
 ;
+void
+Destroy
+(
+)
+;
 /
 *
 *
