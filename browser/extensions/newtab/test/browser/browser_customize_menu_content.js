@@ -1160,6 +1160,12 @@ after
 (
 )
 {
+sinon
+.
+restore
+(
+)
+;
 Services
 .
 prefs
