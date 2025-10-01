@@ -300,9 +300,6 @@ class
 for
 mocking
 out
-webrtc
-:
-:
 VideoDecoder
 class
 FakeWebRtcVideoDecoder
@@ -383,9 +380,6 @@ class
 for
 mocking
 out
-webrtc
-:
-:
 VideoDecoderFactory
 .
 class
@@ -514,9 +508,6 @@ class
 for
 mocking
 out
-webrtc
-:
-:
 VideoEnoder
 class
 FakeWebRtcVideoEncoder
@@ -670,9 +661,6 @@ class
 for
 mocking
 out
-webrtc
-:
-:
 VideoEncoderFactory
 .
 class

@@ -2750,9 +2750,6 @@ std
 :
 optional
 <
-webrtc
-:
-:
 VideoSinkWants
 :
 :
@@ -2766,9 +2763,6 @@ std
 :
 optional
 <
-webrtc
-:
-:
 Resolution
 >
 .

@@ -1376,9 +1376,6 @@ std
 :
 vector
 <
-webrtc
-:
-:
 SdpVideoFormat
 >
 GetDefaultSupportedFormats
@@ -1883,9 +1880,6 @@ std
 :
 vector
 <
-webrtc
-:
-:
 Codec
 >
 GetPayloadTypesAndDefaultCodecs
@@ -3994,9 +3988,6 @@ encodings
 ]
 (
 const
-webrtc
-:
-:
 RtpEncodingParameters
 &
 encoding
@@ -16920,9 +16911,6 @@ stream_
 /
 /
 The
-webrtc
-:
-:
 VideoSendStream
 stream_
 has

@@ -707,9 +707,6 @@ private
 :
 /
 /
-webrtc
-:
-:
 AudioSendStream
 implementation
 .
@@ -1533,9 +1530,6 @@ private
 :
 /
 /
-webrtc
-:
-:
 VideoSinkInterface
 <
 VideoFrame
@@ -1554,9 +1548,6 @@ override
 ;
 /
 /
-webrtc
-:
-:
 VideoSendStream
 implementation
 .

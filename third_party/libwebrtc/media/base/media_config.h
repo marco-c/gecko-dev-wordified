@@ -215,9 +215,6 @@ from
 system
 clock
 via
-webrtc
-:
-:
 TimeUTCMicros
 (
 )
@@ -244,9 +241,6 @@ is
 /
 set
 to
-webrtc
-:
-:
 TimeUTCMicros
 (
 )

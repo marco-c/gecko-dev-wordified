@@ -301,9 +301,6 @@ height_
 VideoRotation
 rotation_
 =
-webrtc
-:
-:
 kVideoRotation_0
 ;
 int64_t

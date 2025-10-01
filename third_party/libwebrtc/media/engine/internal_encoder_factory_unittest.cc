@@ -787,9 +787,6 @@ SdpVideoFormat
 :
 :
 name
-webrtc
-:
-:
 kAv1CodecName
 )
 )

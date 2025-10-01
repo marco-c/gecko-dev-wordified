@@ -134,9 +134,6 @@ and
 rename
 /
 /
-webrtc
-:
-:
 AudioSourceInterface
 to
 AudioTrackSourceInterface

@@ -537,9 +537,6 @@ private
 /
 /
 Implements
-webrtc
-:
-:
 VideoSourceInterface
 .
 void

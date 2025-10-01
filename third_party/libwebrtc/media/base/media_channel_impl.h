@@ -565,9 +565,6 @@ private
 Implementation
 of
 the
-webrtc
-:
-:
 Transport
 interface
 required
@@ -605,9 +602,6 @@ TransportForMediaChannels
 /
 Implementation
 of
-webrtc
-:
-:
 Transport
 bool
 SendRtp
@@ -646,9 +640,6 @@ override
 Not
 implementation
 of
-webrtc
-:
-:
 Transport
 void
 SetInterface
@@ -880,9 +871,6 @@ RTC_GUARDED_BY
 network_thread_
 )
 =
-webrtc
-:
-:
 DSCP_DEFAULT
 ;
 }

@@ -1260,9 +1260,6 @@ std
 :
 vector
 <
-webrtc
-:
-:
 StreamParams
 >
 &
@@ -1403,9 +1400,6 @@ ssrc
 /
 scoped_refptr
 <
-webrtc
-:
-:
 FrameDecryptorInterface
 >
 /
@@ -1428,9 +1422,6 @@ ssrc
 /
 scoped_refptr
 <
-webrtc
-:
-:
 FrameTransformerInterface
 >
 /
@@ -2419,9 +2410,6 @@ ok
 )
 {
 return
-webrtc
-:
-:
 InvokeSetParametersCallback
 (
 callback
@@ -2437,9 +2425,6 @@ second
 parameters
 ;
 return
-webrtc
-:
-:
 InvokeSetParametersCallback
 (
 callback
@@ -2583,9 +2568,6 @@ std
 :
 vector
 <
-webrtc
-:
-:
 StreamParams
 >
 &
@@ -2798,9 +2780,6 @@ ssrc
 /
 scoped_refptr
 <
-webrtc
-:
-:
 FrameEncryptorInterface
 >
 /
@@ -2823,9 +2802,6 @@ ssrc
 /
 scoped_refptr
 <
-webrtc
-:
-:
 FrameTransformerInterface
 >
 /

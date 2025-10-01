@@ -1723,9 +1723,6 @@ ADAPTREASON_BANDWIDTH
 /
 /
 Implements
-webrtc
-:
-:
 EncoderSwitchRequestCallback
 .
 void
@@ -1844,9 +1841,6 @@ false
 ;
 }
 return
-webrtc
-:
-:
 HasLntf
 (
 send_codec
@@ -1884,9 +1878,6 @@ false
 ;
 }
 return
-webrtc
-:
-:
 HasNack
 (
 send_codec
@@ -2401,9 +2392,6 @@ stream
 .
 /
 /
-webrtc
-:
-:
 VideoSendStream
 doesn
 '
@@ -5960,9 +5948,6 @@ external
 customers
 are
 using
-webrtc
-:
-:
 WebRtcVideoChannel
 :
 :
