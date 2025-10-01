@@ -139,6 +139,9 @@ visualstudio
 "
 vscode
 "
+"
+vscodium
+"
 ]
 )
 CommandArgument
@@ -553,6 +556,13 @@ ide
 "
 vscode
 "
+or
+ide
+=
+=
+"
+vscodium
+"
 :
         
 if
@@ -694,11 +704,19 @@ ide
 "
 vscode
 "
+or
+ide
+=
+=
+"
+vscodium
+"
 :
         
 return
-setup_vscode
+setup_vscode_or_vscodium
 (
+ide
 command_context
 interactive
 )
@@ -768,8 +786,9 @@ sln
     
 )
 def
-setup_vscode
+setup_vscode_or_vscodium
 (
+ide
 command_context
 interactive
 )
@@ -782,7 +801,7 @@ backend
 .
 clangd
 import
-find_vscode_cmd
+find_vscode_or_vscodium_cmd
     
 #
 Check
@@ -798,8 +817,9 @@ interactive
         
 vscode_cmd
 =
-find_vscode_cmd
+find_vscode_or_vscodium_cmd
 (
+ide
 )
         
 if
