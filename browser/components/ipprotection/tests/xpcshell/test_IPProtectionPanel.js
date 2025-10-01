@@ -195,7 +195,6 @@ putServerInRemoteSettings
 (
 )
 ;
-await
 IPProtectionService
 .
 init

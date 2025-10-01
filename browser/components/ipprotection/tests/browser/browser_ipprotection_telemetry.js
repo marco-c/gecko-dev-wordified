@@ -1213,7 +1213,6 @@ cleanupService
 (
 )
 ;
-await
 lazy
 .
 IPProtectionService
