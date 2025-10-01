@@ -252,7 +252,7 @@ originalWidth
 =
 popup
 .
-_tooltip
+tooltip
 .
 container
 .
@@ -373,7 +373,7 @@ newPopupWidth
 =
 popup
 .
-_tooltip
+tooltip
 .
 container
 .
@@ -484,7 +484,7 @@ is
 (
 popup
 .
-_tooltip
+tooltip
 .
 container
 .

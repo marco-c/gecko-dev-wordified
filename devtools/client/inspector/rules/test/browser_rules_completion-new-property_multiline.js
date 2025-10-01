@@ -996,7 +996,7 @@ editor
 .
 popup
 .
-_list
+list
 .
 childNodes
 [

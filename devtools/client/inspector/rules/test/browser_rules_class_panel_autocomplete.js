@@ -2018,7 +2018,9 @@ from
 (
 autocompletePopup
 .
-_panel
+tooltip
+.
+panel
 .
 querySelectorAll
 (

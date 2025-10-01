@@ -856,7 +856,7 @@ popupItem
 =
 popup
 .
-_tooltip
+tooltip
 .
 panel
 .
