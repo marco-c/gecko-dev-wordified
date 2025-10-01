@@ -10082,6 +10082,7 @@ this
 .
 COLUMN_TYPE_DATE
 :
+{
 let
 nodeTime
 =
@@ -10185,6 +10186,7 @@ _convertPRTimeToString
 nodeTime
 )
 ;
+}
 case
 this
 .

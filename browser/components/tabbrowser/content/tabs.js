@@ -1594,6 +1594,7 @@ case
 mouseout
 "
 :
+{
 /
 /
 If
@@ -1650,6 +1651,7 @@ document
 {
 break
 ;
+}
 }
 /
 /
@@ -1715,6 +1717,7 @@ break
 ;
 default
 :
+{
 let
 methodName
 =
@@ -1756,6 +1759,7 @@ type
 }
 )
 ;
+}
 }
 }
 }
@@ -6474,6 +6478,7 @@ nsPref
 changed
 "
 :
+{
 /
 /
 This
@@ -6943,6 +6948,7 @@ parent
 }
 break
 ;
+}
 }
 }
 _updateCloseButtons
