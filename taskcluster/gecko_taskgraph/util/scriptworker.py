@@ -524,6 +524,18 @@ D184833
 "
 maple
 "
+            
+#
+bug
+1988213
+:
+cypress
+project
+branch
+            
+"
+cypress
+"
         
 }
     
@@ -787,6 +799,18 @@ nightlies
             
 "
 larch
+"
+            
+#
+bug
+1988213
+:
+cypress
+project
+branch
+            
+"
+cypress
 "
         
 }
@@ -1120,6 +1144,32 @@ to
 nightly
 "
     
+#
+bug
+1988213
+:
+cypress
+project
+branch
+    
+"
+nightly
+-
+cypress
+"
+:
+"
+beetmover
+:
+action
+:
+push
+-
+to
+-
+nightly
+"
+    
 "
 default
 "
@@ -1320,6 +1370,18 @@ nightlies
             
 "
 larch
+"
+            
+#
+bug
+1988213
+:
+cypress
+project
+branch
+            
+"
+cypress
 "
         
 }
