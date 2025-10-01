@@ -1876,9 +1876,6 @@ the
 same
 clock
 as
-webrtc
-:
-:
 TimeMillis
 (
 )

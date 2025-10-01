@@ -4852,9 +4852,6 @@ Creates
 and
 attaches
 an
-webrtc
-:
-:
 AecDump
 for
 recording
@@ -5002,9 +4999,6 @@ variant
 /
 Attaches
 provided
-webrtc
-:
-:
 AecDump
 for
 recording

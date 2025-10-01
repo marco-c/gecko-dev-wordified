@@ -131,9 +131,6 @@ class
 AudioDeviceModule
 :
 public
-webrtc
-:
-:
 RefCountInterface
 {
 public
