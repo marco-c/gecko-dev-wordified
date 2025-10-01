@@ -3202,9 +3202,9 @@ rv
 mRequest
 -
 >
-mCacheInfo
-=
-nullptr
+DropDiskCacheReference
+(
+)
 ;
 }
 return

@@ -5042,9 +5042,9 @@ constant
 aRequest
 -
 >
-mCacheInfo
-=
-nullptr
+DropDiskCacheReference
+(
+)
 ;
 nsCOMPtr
 <
@@ -18486,7 +18486,9 @@ if
 aRequest
 -
 >
-mCacheInfo
+HasDiskCacheReference
+(
+)
 )
 {
 LOG
@@ -20590,7 +20592,9 @@ MOZ_ASSERT
 aRequest
 -
 >
-mCacheInfo
+HasDiskCacheReference
+(
+)
 )
 ;
 return
@@ -22055,9 +22059,9 @@ scriptloader_no_encode
 aRequest
 -
 >
-mCacheInfo
-=
-nullptr
+DropDiskCacheReference
+(
+)
 ;
 MOZ_ASSERT
 (
@@ -22111,7 +22115,9 @@ isInList
 aRequest
 -
 >
-mCacheInfo
+HasDiskCacheReference
+(
+)
 ;
 }
 void
@@ -23205,7 +23211,9 @@ IsStencil
 aRequest
 -
 >
-mCacheInfo
+HasDiskCacheReference
+(
+)
 )
 ;
 MOZ_ASSERT
@@ -23975,7 +23983,7 @@ DropBytecode
 request
 -
 >
-DropCacheReferences
+DropDiskCacheReference
 (
 )
 ;
@@ -25080,7 +25088,7 @@ script
 request
 -
 >
-DropCacheReferences
+DropDiskCacheReference
 (
 )
 ;
