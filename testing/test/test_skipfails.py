@@ -1884,7 +1884,6 @@ assert
 (
         
 skip_if
-        
 =
 =
 "
@@ -1906,7 +1905,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -2202,7 +2201,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -3055,7 +3054,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -3305,7 +3304,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -3569,7 +3568,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -3767,8 +3766,6 @@ False
 )
     
 assert
-(
-        
 skip_if
 =
 =
@@ -3791,7 +3788,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -3801,8 +3798,6 @@ x86
 &
 opt
 "
-    
-)
     
 sf
 =
@@ -4007,7 +4002,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -4304,7 +4299,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -4484,8 +4479,6 @@ False
 )
     
 assert
-(
-        
 skip_if
 =
 =
@@ -4508,7 +4501,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -4518,8 +4511,6 @@ x86
 &
 opt
 "
-    
-)
     
 task_id
 =
@@ -4705,7 +4696,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -4995,7 +4986,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -5171,10 +5162,7 @@ False
 )
     
 assert
-(
-        
 skip_if
-        
 =
 =
 "
@@ -5196,7 +5184,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -5206,8 +5194,6 @@ x86
 &
 debug
 "
-    
-)
     
 task_id
 =
@@ -5391,7 +5377,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -5713,7 +5699,6 @@ assert
 (
         
 skip_if
-        
 =
 =
 "
@@ -5735,7 +5720,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -5984,7 +5969,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -6327,7 +6312,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -6547,7 +6532,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -6590,7 +6575,6 @@ assert
 (
         
 skip_if
-        
 =
 =
 "
@@ -6612,7 +6596,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -6884,7 +6868,6 @@ assert
 (
         
 skip_if
-        
 =
 =
 '
@@ -6904,7 +6887,7 @@ os_version
 04
 "
 and
-processor
+arch
 =
 =
 "
@@ -7782,7 +7765,7 @@ os
 linux
 "
 and
-processor
+arch
 =
 =
 "
@@ -8166,7 +8149,7 @@ os_version
 '
 &
 &
-processor
+arch
 =
 =
 '
@@ -8505,7 +8488,7 @@ os_version
 04
 "
 and
-processor
+arch
 =
 =
 "
@@ -8607,7 +8590,7 @@ os_version
 04
 "
 and
-processor
+arch
 =
 =
 "
@@ -8703,7 +8686,7 @@ os_version
 04
 "
 and
-processor
+arch
 =
 =
 "
@@ -8780,7 +8763,7 @@ os_version
 04
 "
 and
-processor
+arch
 =
 =
 "
@@ -8850,7 +8833,7 @@ os_version
 04
 "
 and
-processor
+arch
 =
 =
 "
@@ -8940,7 +8923,7 @@ os_version
 04
 "
 and
-processor
+arch
 =
 =
 "
@@ -12832,7 +12815,7 @@ implicit_vars
 True
 dry_run
 =
-True
+False
 )
     
 manifest
@@ -13055,7 +13038,7 @@ try
     
 meta_bug_id
 =
-None
+1971610
     
 task_details
 =
