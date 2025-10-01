@@ -898,5 +898,3 @@ bitrate
 /
 namespace
 webrtc
-*
-/

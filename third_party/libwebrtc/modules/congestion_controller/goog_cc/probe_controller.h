@@ -1064,9 +1064,6 @@ at_time
 void
 SetNetworkStateEstimate
 (
-webrtc
-:
-:
 NetworkStateEstimate
 estimate
 )
@@ -1306,9 +1303,6 @@ std
 :
 optional
 <
-webrtc
-:
-:
 NetworkStateEstimate
 >
 network_estimate_
