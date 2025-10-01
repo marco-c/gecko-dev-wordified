@@ -863,6 +863,8 @@ dom
 EventTarget
 *
 aTarget
+PreventDefault
+aTouchStartPreventDefault
 )
 {
 if
@@ -949,6 +951,13 @@ TriggerElementActivation
 if
 (
 mTarget
+&
+&
+!
+bool
+(
+aTouchStartPreventDefault
+)
 )
 {
 ScheduleSetHoverTask

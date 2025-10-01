@@ -230,6 +230,16 @@ ElementStateManager
 (
 )
 ;
+enum
+class
+PreventDefault
+:
+bool
+{
+No
+Yes
+}
+;
 /
 *
 *
@@ -303,6 +313,8 @@ dom
 EventTarget
 *
 aTarget
+PreventDefault
+aTouchStartPreventDefault
 )
 ;
 /
