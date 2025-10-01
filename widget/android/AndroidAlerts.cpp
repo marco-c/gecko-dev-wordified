@@ -850,7 +850,10 @@ nullptr
 "
 alertfinished
 "
-nullptr
+u
+"
+close
+"
 )
 ;
 }
@@ -1083,7 +1086,10 @@ nullptr
 "
 alertfinished
 "
-nullptr
+u
+"
+close
+"
 )
 ;
 }
