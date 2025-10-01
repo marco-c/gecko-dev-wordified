@@ -125,15 +125,6 @@ h
 #
 include
 "
-rtc_base
-/
-arraysize
-.
-h
-"
-#
-include
-"
 test
 /
 gtest
@@ -1651,7 +1642,10 @@ v1
 size
 (
 )
-arraysize
+std
+:
+:
+size
 (
 channel_array
 )
