@@ -294,7 +294,7 @@ to
 aResult
 .
 '
-quoteChar
+aQuoteChar
 '
 must
 be
@@ -307,14 +307,14 @@ void
 AppendEscapedCSSString
 (
 const
-nsAString
+nsACString
 &
 aString
-nsAString
+nsACString
 &
 aResult
-char16_t
-quoteChar
+char
+aQuoteChar
 =
 '
 "
