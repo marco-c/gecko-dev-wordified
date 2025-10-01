@@ -1103,8 +1103,6 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-else
-{
 /
 /
 The
@@ -1169,7 +1167,6 @@ rv
 rv
 )
 ;
-}
 }
 }
 return
