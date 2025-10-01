@@ -3119,12 +3119,17 @@ provider
 new
 UrlbarResult
 (
+{
+type
+:
 UrlbarUtils
 .
 RESULT_TYPE
 .
 URL
 source
+payload
+:
 {
 url
 :
@@ -3138,6 +3143,7 @@ example
 com
 /
 "
+}
 }
 )
 )
