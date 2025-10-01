@@ -366,7 +366,7 @@ include
 "
 test
 /
-explicit_key_value_config
+create_test_field_trials
 .
 h
 "
@@ -395,12 +395,6 @@ webrtc
 {
 namespace
 {
-using
-test
-:
-:
-ExplicitKeyValueConfig
-;
 constexpr
 int
 kOverheadBytesPerPacket
@@ -2681,10 +2675,8 @@ decoder_
 new
 AudioDecoderOpusImpl
 (
-ExplicitKeyValueConfig
+CreateTestFieldTrials
 (
-"
-"
 )
 opus_num_channels_
 opus_sample_rate_hz_
