@@ -351,7 +351,7 @@ analyzer
 /
 video
 /
-encoded_image_data_injector
+single_process_encoded_image_data_injector
 .
 h
 "
@@ -851,13 +851,7 @@ MediaHelper
 >
 media_helper_
 ;
-std
-:
-:
-unique_ptr
-<
-EncodedImageDataPropagator
->
+SingleProcessEncodedImageDataInjector
 encoded_image_data_propagator_
 ;
 std
