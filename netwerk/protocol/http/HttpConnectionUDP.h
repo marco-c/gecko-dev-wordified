@@ -903,6 +903,11 @@ mIsInTunnel
 =
 false
 ;
+bool
+mProxyConnectFailed
+=
+false
+;
 nsTArray
 <
 RefPtr
