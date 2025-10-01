@@ -581,17 +581,6 @@ browser
 /
 components
 /
-taskbartabs
-"
-    
-"
-.
-.
-/
-browser
-/
-components
-/
 uitour
 "
     
