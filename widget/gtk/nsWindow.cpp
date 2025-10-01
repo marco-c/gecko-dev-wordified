@@ -27845,6 +27845,13 @@ coordinates
 #
 ifdef
 MOZ_LOGGING
+if
+(
+LOG_ENABLED
+(
+)
+)
+{
 auto
 scale
 =
@@ -27927,6 +27934,7 @@ height
 scale
 )
 ;
+}
 #
 endif
 if
