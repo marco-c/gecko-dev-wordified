@@ -4678,6 +4678,8 @@ the
 tests
 .
         
+subscribe_result
+=
 await
 bidi_session
 .
@@ -4752,19 +4754,15 @@ session
 unsubscribe
 (
             
-events
+subscriptions
 =
 [
+subscribe_result
+[
 "
-network
-.
-responseCompleted
+subscription
 "
 ]
-contexts
-=
-[
-context
 ]
         
 )
