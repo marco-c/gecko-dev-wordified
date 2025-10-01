@@ -104,11 +104,6 @@ h
 #
 include
 <
-memory
->
-#
-include
-<
 optional
 >
 #
@@ -2545,9 +2540,6 @@ SL2
 ;
 VideoQualityTest
 fixture
-(
-nullptr
-)
 ;
 fixture
 .

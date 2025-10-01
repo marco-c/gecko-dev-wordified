@@ -249,17 +249,6 @@ api
 /
 test
 /
-test_dependency_factory
-.
-h
-"
-/
-/
-"
-api
-/
-test
-/
 videocodec_test_fixture
 .
 h

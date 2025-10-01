@@ -95,11 +95,6 @@ h
 #
 include
 <
-memory
->
-#
-include
-<
 optional
 >
 #
@@ -3690,9 +3685,6 @@ true
 }
 VideoQualityTest
 fixture
-(
-nullptr
-)
 ;
 std
 :
