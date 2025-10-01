@@ -3541,9 +3541,6 @@ last_data_received
 )
 that
 uses
-webrtc
-:
-:
 TimeMillis
 (
 )

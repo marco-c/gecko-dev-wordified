@@ -12315,9 +12315,6 @@ timeout
 which
 /
 /
-webrtc
-:
-:
 STUN_TOTAL_TIMEOUT
 seconds
 .
@@ -19626,9 +19623,6 @@ a
 shared
 socket
 and
-webrtc
-:
-:
 UDPPort
 handles
 the

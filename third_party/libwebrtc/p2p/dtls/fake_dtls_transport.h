@@ -1054,9 +1054,6 @@ std
 :
 move
 (
-webrtc
-:
-:
 SSL_CLIENT
 )
 ;
@@ -2002,9 +1999,6 @@ false
 SSLProtocolVersion
 ssl_max_version_
 =
-webrtc
-:
-:
 SSL_PROTOCOL_DTLS_12
 ;
 SSLFingerprint
@@ -2022,9 +2016,6 @@ dtls_role_
 int
 crypto_suite_
 =
-webrtc
-:
-:
 kSrtpAes128CmSha1_80
 ;
 std

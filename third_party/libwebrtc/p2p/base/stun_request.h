@@ -290,9 +290,6 @@ const
 void
 *
 size_t
-webrtc
-:
-:
 StunRequest
 *
 )
@@ -607,9 +604,6 @@ const
 void
 *
 size_t
-webrtc
-:
-:
 StunRequest
 *
 )

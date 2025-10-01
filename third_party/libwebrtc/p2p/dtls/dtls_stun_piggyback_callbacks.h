@@ -247,9 +247,6 @@ request
 type
 *
 /
-webrtc
-:
-:
 StunMessageType
 )
 >
@@ -289,9 +286,6 @@ AnyInvocable
 void
 (
 const
-webrtc
-:
-:
 StunByteStringAttribute
 *
 /
@@ -300,9 +294,6 @@ DTLS_IN_STUN
 *
 /
 const
-webrtc
-:
-:
 StunByteStringAttribute
 *
 /
@@ -517,9 +508,6 @@ request
 type
 *
 /
-webrtc
-:
-:
 StunMessageType
 )
 >
@@ -533,9 +521,6 @@ AnyInvocable
 void
 (
 const
-webrtc
-:
-:
 StunByteStringAttribute
 *
 /
@@ -544,9 +529,6 @@ DTLS_IN_STUN
 *
 /
 const
-webrtc
-:
-:
 StunByteStringAttribute
 *
 /

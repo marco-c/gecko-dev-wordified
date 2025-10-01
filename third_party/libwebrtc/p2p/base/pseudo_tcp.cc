@@ -2597,9 +2597,6 @@ static_cast
 uint32_t
 >
 (
-webrtc
-:
-:
 TimeSince
 (
 StartTime
@@ -5240,9 +5237,6 @@ int32_t
 >
 (
 nTimeout
-webrtc
-:
-:
 TimeDiff32
 (
 m_lasttraffic

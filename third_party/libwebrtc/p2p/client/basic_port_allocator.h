@@ -660,9 +660,6 @@ socket_factory_
 int
 network_ignore_mask_
 =
-webrtc
-:
-:
 kDefaultNetworkIgnoreMask
 ;
 AlwaysValidPointer
@@ -927,9 +924,6 @@ gathered
 by
 the
 respective
-webrtc
-:
-:
 Port
 .
 void
@@ -984,9 +978,6 @@ These
 will
 all
 be
-webrtc
-:
-:
 Ports
 .
 std
@@ -1966,9 +1957,6 @@ candidate_error_events_
 uint32_t
 candidate_filter_
 =
-webrtc
-:
-:
 CF_ALL
 ;
 /

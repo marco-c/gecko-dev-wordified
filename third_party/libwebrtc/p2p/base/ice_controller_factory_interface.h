@@ -193,9 +193,6 @@ function
 bool
 (
 const
-webrtc
-:
-:
 Connection
 *
 )

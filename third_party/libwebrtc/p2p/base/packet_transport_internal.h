@@ -699,15 +699,9 @@ AnyInvocable
 <
 void
 (
-webrtc
-:
-:
 PacketTransportInternal
 *
 const
-webrtc
-:
-:
 ReceivedIpPacket
 &
 )

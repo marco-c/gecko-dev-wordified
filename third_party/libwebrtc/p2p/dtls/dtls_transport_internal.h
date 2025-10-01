@@ -886,9 +886,6 @@ void
 DtlsTransportInternal
 *
 const
-webrtc
-:
-:
 DtlsTransportState
 )
 template
@@ -1022,9 +1019,6 @@ F
 :
 void
 (
-webrtc
-:
-:
 SSLHandshakeError
 )
 template
