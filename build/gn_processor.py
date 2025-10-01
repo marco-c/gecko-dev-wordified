@@ -6754,6 +6754,10 @@ as
 they
 finish
         
+error_generating_configs
+=
+False
+        
 for
 future
 in
@@ -6801,6 +6805,36 @@ e
 "
 )
                 
+error_generating_configs
+=
+True
+        
+if
+error_generating_configs
+:
+            
+print
+(
+"
+\
+nGenerating
+configs
+failed
+.
+See
+errors
+above
+.
+\
+n
+"
+file
+=
+sys
+.
+stderr
+)
+            
 sys
 .
 exit
