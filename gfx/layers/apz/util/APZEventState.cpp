@@ -3665,7 +3665,7 @@ active
 mElementStateManager
 -
 >
-ClearActivation
+HandleStartPanning
 (
 )
 ;
