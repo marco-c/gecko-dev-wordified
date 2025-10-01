@@ -596,8 +596,6 @@ bool
 aRequireUserInteraction
 bool
 aUserActivation
-bool
-aCheckForCancelation
 std
 :
 :
@@ -662,8 +660,6 @@ bool
 aRequireUserInteraction
 bool
 aUserActivation
-bool
-aCheckForCancelation
 const
 std
 :
@@ -832,8 +828,6 @@ bool
 aRequireUserInteraction
 bool
 aUserActivation
-bool
-aCheckForCancelation
 std
 :
 :
@@ -870,9 +864,6 @@ mRequireUserInteraction
 ;
 bool
 mUserActivation
-;
-bool
-mCheckForCancelation
 ;
 int32_t
 mOffset
