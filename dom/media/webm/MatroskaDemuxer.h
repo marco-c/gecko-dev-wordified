@@ -249,6 +249,16 @@ aSample
 )
 override
 ;
+nsresult
+SetCodecPrivateToVideoExtraData
+(
+nestegg
+*
+aContext
+int
+aTrackId
+)
+;
 }
 ;
 }
