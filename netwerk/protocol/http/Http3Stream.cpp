@@ -232,7 +232,7 @@ Http3StreamBase
 nsAHttpTransaction
 *
 trans
-Http3Session
+Http3SessionBase
 *
 session
 )

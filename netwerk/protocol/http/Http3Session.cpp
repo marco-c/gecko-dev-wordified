@@ -154,6 +154,13 @@ h
 #
 include
 "
+Http3ConnectUDPStream
+.
+h
+"
+#
+include
+"
 Http3WebTransportStream
 .
 h

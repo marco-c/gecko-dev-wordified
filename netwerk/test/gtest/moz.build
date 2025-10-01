@@ -158,6 +158,11 @@ TestHttp2WebTransport
 cpp
 "
 "
+TestHttp3ConnectUDPStream
+.
+cpp
+"
+"
 TestHttpAtom
 .
 cpp

@@ -136,7 +136,7 @@ mozilla
 net
 {
 class
-Http3Session
+Http3SessionBase
 ;
 class
 Http3Stream
@@ -146,6 +146,9 @@ Http3WebTransportSession
 ;
 class
 Http3WebTransportStream
+;
+class
+Http3ConnectUDPStream
 ;
 class
 Http3StreamBase
@@ -162,7 +165,7 @@ Http3StreamBase
 nsAHttpTransaction
 *
 trans
-Http3Session
+Http3SessionBase
 *
 session
 )
@@ -189,6 +192,15 @@ virtual
 Http3Stream
 *
 GetHttp3Stream
+(
+)
+=
+0
+;
+virtual
+Http3ConnectUDPStream
+*
+GetHttp3ConnectUDPStream
 (
 )
 =
@@ -426,7 +438,7 @@ mTransaction
 ;
 RefPtr
 <
-Http3Session
+Http3SessionBase
 >
 mSession
 ;
