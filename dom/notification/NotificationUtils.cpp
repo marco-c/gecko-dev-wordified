@@ -605,12 +605,7 @@ aPurpose
 )
 ;
 return
-StaticPrefs
-:
-:
-dom_webnotifications_forbid_nested_first_party_enabled
-(
-)
+false
 ;
 }
 /
