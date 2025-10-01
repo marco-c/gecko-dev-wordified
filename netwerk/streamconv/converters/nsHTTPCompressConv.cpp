@@ -2581,10 +2581,14 @@ a
 byte
 header
 (
-4bit
+4
+byte
 fixed
 +
-32bit
+32
+byte
+/
+/
 SHA
 -
 256
@@ -3044,7 +3048,7 @@ LOG
 (
 (
 "
-nsHttpCompresssConv
+nsHttpCompressConv
 %
 p
 brotlihandler
