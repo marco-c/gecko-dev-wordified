@@ -403,12 +403,7 @@ IsSOCKS
 )
 ;
 bool
-IsConnectTCP
-(
-)
-;
-bool
-IsConnectUDP
+IsHttp3Proxy
 (
 )
 ;

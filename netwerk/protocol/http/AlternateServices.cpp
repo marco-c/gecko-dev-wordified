@@ -547,7 +547,7 @@ IsSOCKS
 proxyInfo
 -
 >
-IsConnectUDP
+IsHttp3Proxy
 (
 )
 ;

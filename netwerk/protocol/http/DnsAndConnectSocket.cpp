@@ -4206,7 +4206,7 @@ GetWebTransport
 mConnInfo
 -
 >
-UsingConnectUDP
+IsHttp3ProxyConnection
 (
 )
 )

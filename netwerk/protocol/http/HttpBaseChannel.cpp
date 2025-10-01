@@ -40092,7 +40092,7 @@ get
 )
 -
 >
-IsConnectUDP
+IsHttp3Proxy
 (
 )
 )
