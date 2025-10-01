@@ -81,7 +81,7 @@ reset_registration_sends_challenge
         
 return
 (
-401
+403
 [
 (
 '
