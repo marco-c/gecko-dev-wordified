@@ -2222,6 +2222,14 @@ port
 -
 1
 ;
+bool
+isHTTPS
+=
+isSecureOrTrustworthyURL
+(
+mURI
+)
+;
 nsresult
 rv
 =
@@ -2529,6 +2537,7 @@ AddStandardRequestHeaders
 &
 mRequestHead
 aURI
+isHTTPS
 contentPolicyType
 nsContentUtils
 :
