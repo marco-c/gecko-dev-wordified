@@ -117,7 +117,7 @@ RTCIceCandidate
 *
 The
 native
-IceCandidateInterface
+IceCandidate
 representation
 of
 this
@@ -153,7 +153,7 @@ unique_ptr
 webrtc
 :
 :
-IceCandidateInterface
+IceCandidate
 >
 nativeCandidate
 ;
@@ -167,7 +167,7 @@ RTCIceCandidate
 from
 a
 native
-IceCandidateInterface
+IceCandidate
 .
 No
 *
@@ -192,7 +192,7 @@ const
 webrtc
 :
 :
-IceCandidateInterface
+IceCandidate
 *
 )
 candidate

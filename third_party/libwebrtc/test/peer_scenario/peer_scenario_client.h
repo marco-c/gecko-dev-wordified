@@ -577,7 +577,7 @@ function
 void
 (
 const
-IceCandidateInterface
+IceCandidate
 *
 )
 >
@@ -1330,7 +1330,7 @@ std
 :
 unique_ptr
 <
-IceCandidateInterface
+IceCandidate
 >
 candidate
 )
@@ -1432,7 +1432,7 @@ std
 :
 unique_ptr
 <
-IceCandidateInterface
+IceCandidate
 >
 >
 pending_ice_candidates_

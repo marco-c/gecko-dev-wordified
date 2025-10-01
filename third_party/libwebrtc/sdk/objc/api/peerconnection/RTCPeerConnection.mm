@@ -1663,7 +1663,7 @@ PeerConnectionDelegateAdapter
 OnIceCandidate
 (
 const
-IceCandidateInterface
+IceCandidate
 *
 candidate
 )
@@ -3430,7 +3430,7 @@ const
 webrtc
 :
 :
-IceCandidateInterface
+IceCandidate
 >
 iceCandidate
 (
@@ -3633,7 +3633,7 @@ const
 webrtc
 :
 :
-IceCandidateInterface
+IceCandidate
 >
 candidate
 (

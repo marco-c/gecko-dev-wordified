@@ -21159,7 +21159,7 @@ SdpOfferAnswerHandler
 AddIceCandidate
 (
 const
-IceCandidateInterface
+IceCandidate
 *
 ice_candidate
 )
@@ -21225,7 +21225,7 @@ SdpOfferAnswerHandler
 AddIceCandidateInternal
 (
 const
-IceCandidateInterface
+IceCandidate
 *
 ice_candidate
 )
@@ -21479,7 +21479,7 @@ std
 :
 unique_ptr
 <
-IceCandidateInterface
+IceCandidate
 >
 candidate
 std
@@ -39135,7 +39135,7 @@ n
 )
 {
 const
-IceCandidateInterface
+IceCandidate
 *
 candidate
 =
@@ -39221,7 +39221,7 @@ SdpOfferAnswerHandler
 UseCandidate
 (
 const
-IceCandidateInterface
+IceCandidate
 *
 candidate
 )
@@ -39418,7 +39418,7 @@ SdpOfferAnswerHandler
 ReadyToUseRemoteCandidate
 (
 const
-IceCandidateInterface
+IceCandidate
 *
 candidate
 const
@@ -39894,7 +39894,7 @@ SessionDescriptionInterface
 *
 description
 const
-IceCandidateInterface
+IceCandidate
 *
 candidate
 )

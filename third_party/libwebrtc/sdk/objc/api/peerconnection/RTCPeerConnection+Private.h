@@ -274,7 +274,7 @@ void
 OnIceCandidate
 (
 const
-IceCandidateInterface
+IceCandidate
 *
 candidate
 )

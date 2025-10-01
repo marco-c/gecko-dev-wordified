@@ -559,7 +559,7 @@ void
 OnIceCandidate
 (
 const
-IceCandidateInterface
+IceCandidate
 *
 candidate
 )
@@ -817,7 +817,7 @@ void
 BufferIceCandidate
 (
 const
-IceCandidateInterface
+IceCandidate
 *
 candidate
 )
@@ -840,7 +840,7 @@ std
 :
 unique_ptr
 <
-IceCandidateInterface
+IceCandidate
 >
 candidate_copy
 (
@@ -1278,7 +1278,7 @@ std
 :
 unique_ptr
 <
-IceCandidateInterface
+IceCandidate
 >
 >
 buffered_candidates_
@@ -1303,7 +1303,7 @@ ObserverForUsageHistogramTest
 OnIceCandidate
 (
 const
-IceCandidateInterface
+IceCandidate
 *
 candidate
 )

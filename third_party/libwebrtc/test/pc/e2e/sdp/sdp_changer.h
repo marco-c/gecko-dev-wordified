@@ -578,7 +578,7 @@ std
 :
 unique_ptr
 <
-IceCandidateInterface
+IceCandidate
 >
 >
 PatchOffererIceCandidates
@@ -586,7 +586,7 @@ PatchOffererIceCandidates
 ArrayView
 <
 const
-IceCandidateInterface
+IceCandidate
 *
 const
 >
@@ -603,7 +603,7 @@ std
 :
 unique_ptr
 <
-IceCandidateInterface
+IceCandidate
 >
 >
 PatchAnswererIceCandidates
@@ -611,7 +611,7 @@ PatchAnswererIceCandidates
 ArrayView
 <
 const
-IceCandidateInterface
+IceCandidate
 *
 const
 >

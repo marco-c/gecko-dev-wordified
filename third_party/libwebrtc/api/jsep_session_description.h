@@ -433,7 +433,7 @@ bool
 AddCandidate
 (
 const
-IceCandidateInterface
+IceCandidate
 *
 candidate
 )
@@ -524,7 +524,7 @@ bool
 GetMediasectionIndex
 (
 const
-IceCandidateInterface
+IceCandidate
 *
 candidate
 size_t

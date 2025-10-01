@@ -9714,7 +9714,7 @@ bool
 AddIceCandidate
 (
 const
-IceCandidateInterface
+IceCandidate
 *
 candidate
 )
@@ -9748,7 +9748,7 @@ std
 :
 unique_ptr
 <
-IceCandidateInterface
+IceCandidate
 >
 /
 *
@@ -9848,7 +9848,7 @@ org
 )
 :
 Use
-IceCandidateInterface
+IceCandidate
 instead
 of
 /
@@ -11344,7 +11344,7 @@ void
 OnIceCandidate
 (
 const
-IceCandidateInterface
+IceCandidate
 *
 candidate
 )

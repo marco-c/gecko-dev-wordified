@@ -976,7 +976,7 @@ std
 :
 unique_ptr
 <
-IceCandidateInterface
+IceCandidate
 >
 jsep_candidate
 =
@@ -2043,7 +2043,7 @@ std
 :
 vector
 <
-IceCandidateInterface
+IceCandidate
 *
 >
 candidates

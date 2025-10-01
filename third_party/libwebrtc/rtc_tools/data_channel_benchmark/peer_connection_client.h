@@ -447,7 +447,7 @@ unique_ptr
 webrtc
 :
 :
-IceCandidateInterface
+IceCandidate
 >
 candidate
 )
@@ -589,7 +589,7 @@ const
 webrtc
 :
 :
-IceCandidateInterface
+IceCandidate
 *
 candidate
 )

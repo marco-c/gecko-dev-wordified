@@ -1112,7 +1112,7 @@ std
 :
 unique_ptr
 <
-IceCandidateInterface
+IceCandidate
 >
 >
 candidates
@@ -1322,7 +1322,7 @@ std
 :
 unique_ptr
 <
-IceCandidateInterface
+IceCandidate
 >
 >
 remote_ice_candidates_

@@ -410,7 +410,7 @@ std
 vector
 <
 const
-IceCandidateInterface
+IceCandidate
 *
 >
 candidates

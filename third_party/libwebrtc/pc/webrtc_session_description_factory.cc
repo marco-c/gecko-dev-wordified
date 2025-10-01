@@ -687,7 +687,7 @@ n
 )
 {
 const
-IceCandidateInterface
+IceCandidate
 *
 new_candidate
 =

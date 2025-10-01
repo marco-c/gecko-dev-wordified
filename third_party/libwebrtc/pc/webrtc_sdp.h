@@ -317,7 +317,7 @@ Serializes
 the
 passed
 in
-IceCandidateInterface
+IceCandidate
 to
 a
 SDP
@@ -340,7 +340,7 @@ string
 SdpSerializeCandidate
 (
 const
-IceCandidateInterface
+IceCandidate
 &
 candidate
 )

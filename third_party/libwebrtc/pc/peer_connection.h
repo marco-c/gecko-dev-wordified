@@ -1786,7 +1786,7 @@ bool
 AddIceCandidate
 (
 const
-IceCandidateInterface
+IceCandidate
 *
 candidate
 )
@@ -1800,7 +1800,7 @@ std
 :
 unique_ptr
 <
-IceCandidateInterface
+IceCandidate
 >
 candidate
 std
@@ -3584,7 +3584,7 @@ std
 :
 unique_ptr
 <
-IceCandidateInterface
+IceCandidate
 >
 candidate
 )

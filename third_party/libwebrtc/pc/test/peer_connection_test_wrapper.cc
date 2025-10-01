@@ -698,7 +698,7 @@ using
 webrtc
 :
 :
-IceCandidateInterface
+IceCandidate
 ;
 using
 :
@@ -2082,7 +2082,7 @@ PeerConnectionTestWrapper
 OnIceCandidate
 (
 const
-IceCandidateInterface
+IceCandidate
 *
 candidate
 )
@@ -2637,7 +2637,7 @@ unique_ptr
 webrtc
 :
 :
-IceCandidateInterface
+IceCandidate
 >
 owned_candidate
 (

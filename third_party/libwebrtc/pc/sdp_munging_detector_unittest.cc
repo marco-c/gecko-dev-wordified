@@ -3616,7 +3616,7 @@ std
 :
 unique_ptr
 <
-IceCandidateInterface
+IceCandidate
 >
 (
 CreateIceCandidate

@@ -841,8 +841,8 @@ IceCandidate
 /
 /
 Creates
-a
-IceCandidateInterface
+an
+IceCandidate
 based
 on
 SDP
