@@ -1603,7 +1603,7 @@ userContextId
 "
 AND
 groupId
-IS
+=
 NEW
 .
 groupId
