@@ -13228,7 +13228,7 @@ flags
 AbsPosReflowFlag
 :
 :
-ConstrainHeight
+AllowFragmentation
 }
 ;
 if

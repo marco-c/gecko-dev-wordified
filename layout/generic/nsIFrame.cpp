@@ -54664,7 +54664,7 @@ flags
 AbsPosReflowFlag
 :
 :
-ConstrainHeight
+AllowFragmentation
 AbsPosReflowFlag
 :
 :
