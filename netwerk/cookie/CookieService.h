@@ -158,6 +158,13 @@ h
 #
 include
 "
+nsICookieValidation
+.
+h
+"
+#
+include
+"
 nsIMemoryReporter
 .
 h
@@ -641,7 +648,10 @@ nsID
 aOperationID
 )
 ;
-bool
+nsICookieValidation
+:
+:
+ValidationError
 SetCookiesFromIPC
 (
 const
