@@ -1460,9 +1460,8 @@ href
 HTMLEditUtils
 :
 :
-IsLink
+IsHyperlinkElement
 (
-&
 element
 )
 )
@@ -1481,9 +1480,8 @@ name
 HTMLEditUtils
 :
 :
-IsNamedAnchor
+IsNamedAnchorElement
 (
-&
 element
 )
 )

@@ -1997,11 +1997,15 @@ related
 elements
 if
 (
+eventTargetElement
+&
+&
 HTMLEditUtils
 :
 :
-IsImage
+IsImageElement
 (
+*
 eventTargetElement
 )
 )

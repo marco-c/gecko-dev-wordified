@@ -4902,8 +4902,9 @@ if
 HTMLEditUtils
 :
 :
-IsImage
+IsImageElement
 (
+*
 styledElement
 )
 )
