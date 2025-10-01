@@ -548,7 +548,7 @@ namespace
 gfx
 {
 class
-AlphaBoxBlur
+GaussianBlur
 ;
 class
 ScaledFont
@@ -12404,7 +12404,7 @@ void
 Blur
 (
 const
-AlphaBoxBlur
+GaussianBlur
 &
 aBlur
 )
