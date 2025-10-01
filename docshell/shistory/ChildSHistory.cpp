@@ -289,6 +289,8 @@ bool
 aRequireUserInteraction
 bool
 aUserActivation
+bool
+aCheckForCancelation
 std
 :
 :
@@ -321,6 +323,10 @@ aRequireUserInteraction
 mUserActivation
 (
 aUserActivation
+)
+mCheckForCancelation
+(
+aCheckForCancelation
 )
 mOffset
 (
@@ -399,6 +405,7 @@ mKey
 browsingContext
 mRequireUserInteraction
 mUserActivation
+mCheckForCancelation
 *
 mResolver
 IgnoreErrors
@@ -1441,6 +1448,8 @@ bool
 aRequireUserInteraction
 bool
 aUserActivation
+bool
+aCheckForCancelation
 std
 :
 :
@@ -1518,6 +1527,7 @@ aKey
 aNavigable
 aRequireUserInteraction
 aUserActivation
+aCheckForCancelation
 std
 :
 :
@@ -1771,6 +1781,8 @@ bool
 aRequireUserInteraction
 bool
 aUserActivation
+bool
+aCheckForCancelation
 const
 std
 :
@@ -1864,6 +1876,12 @@ NavigationTraverse
 aKey
 mHistoryEpoch
 aUserActivation
+/
+*
+aCheckForCancelation
+*
+/
+aCheckForCancelation
 [
 shistory
 aResolver
