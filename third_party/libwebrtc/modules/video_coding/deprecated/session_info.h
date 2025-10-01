@@ -352,9 +352,6 @@ HaveLastPacket
 )
 const
 ;
-webrtc
-:
-:
 VideoFrameType
 FrameType
 (
@@ -695,9 +692,6 @@ UpdateCompleteSession
 bool
 complete_
 ;
-webrtc
-:
-:
 VideoFrameType
 frame_type_
 ;

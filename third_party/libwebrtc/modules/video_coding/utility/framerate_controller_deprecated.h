@@ -119,9 +119,6 @@ webrtc
 /
 Please
 use
-webrtc
-:
-:
 FramerateController
 instead
 .
