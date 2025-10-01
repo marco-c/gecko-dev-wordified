@@ -94,6 +94,16 @@ MODULES_DESKTOP_CAPTURE_FULL_SCREEN_WINDOW_DETECTOR_H_
 #
 include
 <
+cstdint
+>
+#
+include
+<
+functional
+>
+#
+include
+<
 memory
 >
 #

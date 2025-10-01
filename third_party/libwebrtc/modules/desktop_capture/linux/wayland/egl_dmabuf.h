@@ -100,6 +100,15 @@ h
 #
 include
 <
+EGL
+/
+eglplatform
+.
+h
+>
+#
+include
+<
 GL
 /
 gl
@@ -116,7 +125,7 @@ h
 #
 include
 <
-memory
+cstdint
 >
 #
 include

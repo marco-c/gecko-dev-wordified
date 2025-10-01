@@ -99,15 +99,6 @@ memory
 #
 include
 "
-api
-/
-scoped_refptr
-.
-h
-"
-#
-include
-"
 modules
 /
 desktop_capture
