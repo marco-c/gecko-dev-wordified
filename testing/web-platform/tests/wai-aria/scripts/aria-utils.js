@@ -200,6 +200,10 @@ assert_equals
 (
 computedRole
 role
+.
+toLowerCase
+(
+)
 el
 .
 outerHTML
