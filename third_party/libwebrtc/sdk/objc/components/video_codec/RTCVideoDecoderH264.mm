@@ -169,6 +169,15 @@ endif
 #
 include
 "
+api
+/
+array_view
+.
+h
+"
+#
+include
+"
 modules
 /
 video_coding
@@ -702,6 +711,11 @@ webrtc
 :
 CreateVideoFormatDescription
 (
+webrtc
+:
+:
+MakeArrayView
+(
 (
 uint8_t
 *
@@ -716,6 +730,7 @@ inputImage
 buffer
 .
 length
+)
 )
 )
 ;
@@ -891,6 +906,11 @@ webrtc
 :
 H264AnnexBBufferToCMSampleBuffer
 (
+webrtc
+:
+:
+MakeArrayView
+(
 (
 uint8_t
 *
@@ -905,6 +925,7 @@ inputImage
 buffer
 .
 length
+)
 _videoFormat
 &
 sampleBuffer
