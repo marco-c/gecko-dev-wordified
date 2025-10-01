@@ -203,17 +203,6 @@ modules
 /
 desktop_capture
 /
-desktop_frame
-.
-h
-"
-#
-include
-"
-modules
-/
-desktop_capture
-/
 shared_memory
 .
 h
@@ -243,6 +232,9 @@ DesktopCaptureOptions
 ;
 class
 DesktopFrame
+;
+class
+DesktopVector
 ;
 /
 /
