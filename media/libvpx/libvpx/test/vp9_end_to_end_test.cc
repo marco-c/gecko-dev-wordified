@@ -360,8 +360,8 @@ kPsnrThreshold
 }
 }
 ;
-typedef
 struct
+TestVideoParam
 {
 const
 char
@@ -383,7 +383,6 @@ int
 profile
 ;
 }
-TestVideoParam
 ;
 const
 TestVideoParam

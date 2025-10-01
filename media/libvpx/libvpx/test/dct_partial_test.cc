@@ -239,11 +239,12 @@ tuple
 ;
 namespace
 {
-typedef
+using
+PartialFdctFunc
+=
 void
 (
 *
-PartialFdctFunc
 )
 (
 const
@@ -257,7 +258,9 @@ int
 stride
 )
 ;
-typedef
+using
+PartialFdctParam
+=
 tuple
 <
 PartialFdctFunc
@@ -269,7 +272,6 @@ size
 /
 vpx_bit_depth_t
 >
-PartialFdctParam
 ;
 tran_low_t
 partial_fdct_ref

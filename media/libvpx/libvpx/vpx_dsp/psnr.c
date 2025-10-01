@@ -1204,6 +1204,8 @@ uint32_t
 bit_depth
 uint32_t
 in_bit_depth
+int
+spatial_layer_id
 )
 {
 const
@@ -1616,6 +1618,13 @@ double
 total_sse
 )
 ;
+psnr
+-
+>
+spatial_layer_id
+=
+spatial_layer_id
+;
 }
 #
 endif
@@ -1637,6 +1646,8 @@ b
 PSNR_STATS
 *
 psnr
+int
+spatial_layer_id
 )
 {
 static
@@ -1957,5 +1968,12 @@ double
 )
 total_sse
 )
+;
+psnr
+-
+>
+spatial_layer_id
+=
+spatial_layer_id
 ;
 }

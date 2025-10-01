@@ -191,8 +191,8 @@ svc_test
 {
 namespace
 {
-typedef
 enum
+INTER_LAYER_PRED
 {
 /
 /
@@ -283,7 +283,6 @@ superframe
 .
 INTER_LAYER_PRED_ON_CONSTRAINED
 }
-INTER_LAYER_PRED
 ;
 class
 ScalePartitionOnePassCbrSvc

@@ -230,11 +230,12 @@ kNumPixels
 *
 64
 ;
-typedef
+using
+Vp9DenoiserFilterFunc
+=
 int
 (
 *
-Vp9DenoiserFilterFunc
 )
 (
 const
@@ -262,7 +263,9 @@ int
 motion_magnitude
 )
 ;
-typedef
+using
+VP9DenoiserTestParam
+=
 std
 :
 :
@@ -271,7 +274,6 @@ tuple
 Vp9DenoiserFilterFunc
 BLOCK_SIZE
 >
-VP9DenoiserTestParam
 ;
 class
 VP9DenoiserTest

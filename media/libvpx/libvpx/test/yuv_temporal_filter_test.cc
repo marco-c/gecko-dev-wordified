@@ -164,11 +164,12 @@ libvpx_test
 :
 Buffer
 ;
-typedef
+using
+YUVTemporalFilterFunc
+=
 void
 (
 *
-YUVTemporalFilterFunc
 )
 (
 const

@@ -238,11 +238,12 @@ kNumIterations
 =
 10000
 ;
-typedef
+using
+SSI16Func
+=
 uint64_t
 (
 *
-SSI16Func
 )
 (
 const
@@ -255,7 +256,9 @@ int
 size
 )
 ;
-typedef
+using
+SumSquaresParam
+=
 std
 :
 :
@@ -264,7 +267,6 @@ tuple
 SSI16Func
 SSI16Func
 >
-SumSquaresParam
 ;
 class
 SumSquaresTest
@@ -958,11 +960,12 @@ endif
 /
 /
 HAVE_MSA
-typedef
+using
+SSEFunc
+=
 int64_t
 (
 *
-SSEFunc
 )
 (
 const
@@ -1039,7 +1042,9 @@ bit_depth
 ;
 }
 ;
-typedef
+using
+SSETestParam
+=
 std
 :
 :
@@ -1048,7 +1053,6 @@ tuple
 TestSSEFuncs
 int
 >
-SSETestParam
 ;
 class
 SSETest

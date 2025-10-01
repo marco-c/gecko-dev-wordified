@@ -4231,7 +4231,8 @@ control
 function
 to
 enable
-postencode
+post
+encode
 frame
 drop
 .

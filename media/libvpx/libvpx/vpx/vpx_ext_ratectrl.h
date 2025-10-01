@@ -742,7 +742,7 @@ parameters
 Store
 the
 superblock
-quantiztaion
+quantization
 parameters
 *
 /

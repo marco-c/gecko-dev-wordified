@@ -185,11 +185,12 @@ h
 "
 namespace
 {
-typedef
+using
+FdctFunc
+=
 void
 (
 *
-FdctFunc
 )
 (
 int16_t

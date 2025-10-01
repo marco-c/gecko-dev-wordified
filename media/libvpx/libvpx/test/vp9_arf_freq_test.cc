@@ -185,8 +185,8 @@ ARF_NOT_SEEN
 define
 ARF_SEEN_ONCE
 1000000
-typedef
 struct
+TestVideoParam
 {
 const
 char
@@ -224,10 +224,9 @@ int
 profile
 ;
 }
-TestVideoParam
 ;
-typedef
 struct
+TestEncodeParam
 {
 libvpx_test
 :
@@ -239,7 +238,6 @@ int
 cpu_used
 ;
 }
-TestEncodeParam
 ;
 const
 TestVideoParam

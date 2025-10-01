@@ -902,7 +902,9 @@ rnd_
 #
 if
 CONFIG_VP9_ENCODER
-typedef
+using
+ConsistencyParam
+=
 std
 :
 :
@@ -911,7 +913,6 @@ tuple
 int
 int
 >
-ConsistencyParam
 ;
 class
 ConsistencyVP9Test

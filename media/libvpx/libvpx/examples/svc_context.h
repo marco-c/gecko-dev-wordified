@@ -236,6 +236,9 @@ off
 =
 on
 .
+int
+use_psnr
+;
 /
 /
 private
@@ -343,6 +346,12 @@ bytes_sum
 VPX_SS_MAX_LAYERS
 ]
 ;
+int
+number_of_frames
+[
+VPX_SS_MAX_LAYERS
+]
+;
 /
 /
 codec
@@ -378,9 +387,6 @@ keyframes
 /
 state
 variables
-int
-psnr_pkt_received
-;
 int
 layer
 ;

@@ -148,7 +148,9 @@ kTestMode
 =
 0
 ;
-typedef
+using
+SuperframeTestParam
+=
 std
 :
 :
@@ -160,7 +162,6 @@ libvpx_test
 TestMode
 int
 >
-SuperframeTestParam
 ;
 class
 SuperframeTest
