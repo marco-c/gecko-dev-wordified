@@ -663,7 +663,7 @@ GetCompatibilityMode
 aDocument
 -
 >
-CSSLoader
+GetCSSLoader
 (
 )
 }

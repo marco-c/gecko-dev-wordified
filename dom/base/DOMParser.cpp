@@ -2098,7 +2098,10 @@ nullptr
 mDocumentURI
 mDocumentURI
 mPrincipal
-true
+LoadedAsData
+:
+:
+AsData
 scriptHandlingObject
 aFlavor
 )
