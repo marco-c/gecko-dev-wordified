@@ -248,6 +248,16 @@ class
 AllocPolicy
 =
 TempAllocPolicy
+template
+<
+typename
+size_t
+class
+>
+class
+VectorType
+=
+Vector
 >
 class
 Fifo
@@ -379,7 +389,7 @@ is
 not
 empty
 .
-Vector
+VectorType
 <
 T
 MinInlineCapacity
@@ -389,7 +399,7 @@ AllocPolicy
 >
 front_
 ;
-Vector
+VectorType
 <
 T
 MinInlineCapacity
