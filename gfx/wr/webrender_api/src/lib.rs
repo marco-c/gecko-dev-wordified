@@ -197,6 +197,8 @@ clippy
 :
 :
 manual_range_contains
+unknown_lints
+mismatched_lifetime_syntaxes
 )
 ]
 pub

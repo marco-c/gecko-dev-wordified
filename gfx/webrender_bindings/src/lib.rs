@@ -59,6 +59,15 @@ MPL
 #
 !
 [
+allow
+(
+unknown_lints
+mismatched_lifetime_syntaxes
+)
+]
+#
+!
+[
 deny
 (
 warnings

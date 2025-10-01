@@ -65,6 +65,8 @@ clippy
 :
 :
 new_without_default
+unknown_lints
+mismatched_lifetime_syntaxes
 )
 ]
 #
