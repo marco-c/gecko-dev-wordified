@@ -447,6 +447,8 @@ self
 >
 Ref
 <
+'
+_
 Option
 <
 T
@@ -502,6 +504,8 @@ self
 >
 RefMut
 <
+'
+_
 Option
 <
 T
@@ -663,6 +667,8 @@ F
 >
 RefMut
 <
+'
+_
 T
 >
 {

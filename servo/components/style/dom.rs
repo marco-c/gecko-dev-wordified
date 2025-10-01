@@ -3498,6 +3498,8 @@ Option
 <
 ArcBorrow
 <
+'
+_
 Locked
 <
 PropertyDeclarationBlock
@@ -3565,6 +3567,8 @@ Option
 <
 ArcBorrow
 <
+'
+_
 Locked
 <
 PropertyDeclarationBlock
@@ -5120,6 +5124,8 @@ self
 >
 AtomicRefMut
 <
+'
+_
 ElementData
 >
 ;
@@ -5196,6 +5202,8 @@ Option
 <
 AtomicRef
 <
+'
+_
 ElementData
 >
 >
@@ -5220,6 +5228,8 @@ Option
 <
 AtomicRefMut
 <
+'
+_
 ElementData
 >
 >

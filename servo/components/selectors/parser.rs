@@ -816,6 +816,8 @@ str
 >
 Cow
 <
+'
+_
 str
 >
 {
@@ -7220,6 +7222,8 @@ self
 >
 SelectorIter
 <
+'
+_
 Impl
 >
 {
@@ -7268,6 +7272,8 @@ self
 >
 SelectorIter
 <
+'
+_
 Impl
 >
 {
@@ -7425,6 +7431,8 @@ usize
 >
 SelectorIter
 <
+'
+_
 Impl
 >
 {
@@ -7603,6 +7611,8 @@ slice
 :
 Iter
 <
+'
+_
 Component
 <
 Impl
@@ -7786,6 +7796,8 @@ slice
 :
 Iter
 <
+'
+_
 Component
 <
 Impl

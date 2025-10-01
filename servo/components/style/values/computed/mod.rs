@@ -3067,6 +3067,10 @@ self
 >
 &
 StyleBuilder
+<
+'
+a
+>
 {
 &
 self

@@ -190,7 +190,7 @@ std
 mem
 ;
 use
-fxhash
+rustc_hash
 :
 :
 FxHashMap
@@ -1329,6 +1329,10 @@ self
 -
 >
 PropertyDeclarationId
+<
+'
+_
+>
 {
 if
 let

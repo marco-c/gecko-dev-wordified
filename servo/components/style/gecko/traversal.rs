@@ -382,6 +382,10 @@ self
 >
 &
 SharedStyleContext
+<
+'
+recalc
+>
 {
 &
 self

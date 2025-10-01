@@ -787,7 +787,7 @@ default
 Size2D
 ;
 use
-fxhash
+rustc_hash
 :
 :
 FxHashMap
@@ -3284,6 +3284,10 @@ self
 Option
 <
 GeckoElement
+<
+'
+ln
+>
 >
 {
 let
@@ -3367,6 +3371,10 @@ self
 Option
 <
 GeckoElement
+<
+'
+ln
+>
 >
 {
 let
@@ -8733,6 +8741,8 @@ Option
 <
 ArcBorrow
 <
+'
+_
 Locked
 <
 PropertyDeclarationBlock
@@ -8822,6 +8832,8 @@ Option
 <
 ArcBorrow
 <
+'
+_
 Locked
 <
 PropertyDeclarationBlock
@@ -9895,6 +9907,8 @@ self
 >
 AtomicRefMut
 <
+'
+_
 ElementData
 >
 {
@@ -10900,6 +10914,8 @@ Option
 <
 AtomicRef
 <
+'
+_
 ElementData
 >
 >
@@ -10942,6 +10958,8 @@ Option
 <
 AtomicRefMut
 <
+'
+_
 ElementData
 >
 >

@@ -303,7 +303,7 @@ ParserInput
 }
 ;
 use
-fxhash
+rustc_hash
 :
 :
 FxHashMap
@@ -3147,6 +3147,10 @@ Result
 <
 ShorthandId
 PropertyDeclarationId
+<
+'
+_
+>
 >
 {
 match
@@ -6582,6 +6586,10 @@ self
 -
 >
 PropertyDeclarationId
+<
+'
+_
+>
 {
 match
 self
@@ -8168,6 +8176,10 @@ self
 -
 >
 LonghandIdSetIterator
+<
+'
+_
+>
 {
 LonghandIdSetIterator
 {
@@ -9223,6 +9235,10 @@ self
 -
 >
 SourcePropertyDeclarationDrain
+<
+'
+_
+>
 {
 SourcePropertyDeclarationDrain
 {
@@ -10612,6 +10628,10 @@ self
 -
 >
 AllShorthandDeclarationIterator
+<
+'
+_
+>
 {
 AllShorthandDeclarationIterator
 {

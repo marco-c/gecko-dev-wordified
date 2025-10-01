@@ -513,12 +513,6 @@ DocumentState
 ElementState
 }
 ;
-use
-fxhash
-:
-:
-FxHashMap
-;
 #
 [
 cfg
@@ -545,6 +539,12 @@ MallocShallowSizeOf
 MallocSizeOf
 MallocSizeOfOps
 }
+;
+use
+rustc_hash
+:
+:
+FxHashMap
 ;
 use
 selectors
@@ -2703,6 +2703,10 @@ self
 -
 >
 DocumentCascadeDataIter
+<
+'
+_
+>
 {
 DocumentCascadeDataIter
 {
@@ -2729,6 +2733,10 @@ self
 -
 >
 DocumentCascadeDataIter
+<
+'
+_
+>
 {
 DocumentCascadeDataIter
 {
@@ -4826,6 +4834,10 @@ self
 -
 >
 DocumentCascadeDataIter
+<
+'
+_
+>
 {
 self
 .
@@ -5487,6 +5499,10 @@ self
 -
 >
 ExtraStyleDataIterator
+<
+'
+_
+>
 {
 ExtraStyleDataIterator
 (
@@ -5526,6 +5542,10 @@ self
 -
 >
 ExtraStyleDataIterator
+<
+'
+_
+>
 {
 ExtraStyleDataIterator
 (
@@ -13288,6 +13308,8 @@ self
 >
 SelectorIter
 <
+'
+_
 SelectorImpl
 >
 {
@@ -22006,7 +22028,6 @@ map
 |
 dep_vec
 |
-{
 ThinArc
 :
 :
@@ -22020,7 +22041,6 @@ into_iter
 (
 )
 )
-}
 )
 ;
 while
@@ -26964,6 +26984,8 @@ self
 >
 SelectorIter
 <
+'
+_
 SelectorImpl
 >
 {

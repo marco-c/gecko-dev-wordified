@@ -1421,6 +1421,8 @@ self
 >
 AtomicRef
 <
+'
+_
 PerDocumentStyleDataImpl
 >
 {
@@ -1455,6 +1457,8 @@ self
 >
 AtomicRefMut
 <
+'
+_
 PerDocumentStyleDataImpl
 >
 {

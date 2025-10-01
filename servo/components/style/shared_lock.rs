@@ -924,6 +924,10 @@ self
 -
 >
 SharedRwLockReadGuard
+<
+'
+_
+>
 {
 mem
 :
@@ -977,6 +981,10 @@ self
 -
 >
 SharedRwLockReadGuard
+<
+'
+_
+>
 {
 SharedRwLockReadGuard
 (
@@ -1034,6 +1042,10 @@ self
 -
 >
 SharedRwLockWriteGuard
+<
+'
+_
+>
 {
 mem
 :
@@ -1087,6 +1099,10 @@ self
 -
 >
 SharedRwLockWriteGuard
+<
+'
+_
+>
 {
 SharedRwLockWriteGuard
 (

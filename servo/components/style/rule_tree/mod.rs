@@ -2489,6 +2489,10 @@ self
 -
 >
 SelfAndAncestors
+<
+'
+_
+>
 {
 SelfAndAncestors
 {

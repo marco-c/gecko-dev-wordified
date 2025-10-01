@@ -1286,6 +1286,10 @@ self
 -
 >
 PropertyDeclarationIdSetIterator
+<
+'
+_
+>
 {
 PropertyDeclarationIdSetIterator
 {
@@ -2513,6 +2517,10 @@ self
 -
 >
 DeclarationImportanceIterator
+<
+'
+_
+>
 {
 DeclarationImportanceIterator
 :

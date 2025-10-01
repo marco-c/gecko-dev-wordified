@@ -713,6 +713,8 @@ self
 >
 SelectorIter
 <
+'
+_
 SelectorImpl
 >
 ;
@@ -5207,6 +5209,8 @@ hash_map
 :
 Entry
 <
+'
+_
 Atom
 V
 >
@@ -5303,6 +5307,8 @@ hash_map
 :
 Iter
 <
+'
+_
 Atom
 V
 >

@@ -1049,6 +1049,8 @@ self
 >
 Iter
 <
+'
+_
 PiecewiseLinearFunctionEntry
 >
 {
