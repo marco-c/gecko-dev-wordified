@@ -330,15 +330,6 @@ gzip
 "
                 
 "
-libxml2
-"
-#
-used
-by
-bootstrapped
-clang
-                
-"
 make
 "
                 

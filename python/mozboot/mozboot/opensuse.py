@@ -128,22 +128,6 @@ packages
 )
 :
         
-ALTERNATIVE_NAMES
-=
-{
-            
-"
-libxml2
-"
-:
-"
-libxml2
--
-2
-"
-        
-}
-        
 #
 watchman
 is
@@ -153,13 +137,7 @@ available
 packages
 =
 [
-ALTERNATIVE_NAMES
-.
-get
-(
 p
-p
-)
 for
 p
 in
