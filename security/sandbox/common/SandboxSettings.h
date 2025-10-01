@@ -273,6 +273,11 @@ IsContentSandboxEnabled
 (
 )
 ;
+bool
+IsGPUSandboxEnabled
+(
+)
+;
 const
 char
 *
