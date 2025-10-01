@@ -513,9 +513,9 @@ for
 this
 computation
 .
-AnchorPosReferenceData
+AnchorPosReferencedAnchors
 *
-mAnchorPosReferenceData
+mReferencedAnchors
 =
 nullptr
 ;
@@ -823,9 +823,9 @@ aFrame
 gfxContext
 *
 aRenderingContext
-AnchorPosReferenceData
+AnchorPosReferencedAnchors
 *
-aAnchorPosReferenceData
+aReferencedAnchors
 =
 nullptr
 )
@@ -4630,7 +4630,7 @@ internally
 .
 *
 param
-aAnchorPosReferenceData
+aReferencedAnchors
 A
 cache
 of
@@ -4638,10 +4638,10 @@ referenced
 anchors
 to
 be
-*
 populated
 (
 If
+*
 specified
 )
 for
@@ -4653,9 +4653,9 @@ Should
 live
 for
 the
-*
 lifetime
 of
+*
 this
 ReflowInput
 .
@@ -4705,9 +4705,9 @@ aComputeSizeFlags
 =
 {
 }
-AnchorPosReferenceData
+AnchorPosReferencedAnchors
 *
-aAnchorPosReferenceData
+aReferencedAnchors
 =
 nullptr
 )
@@ -7337,7 +7337,7 @@ mPosition
 aRI
 -
 >
-mAnchorPosReferenceData
+mReferencedAnchors
 }
 ;
 }

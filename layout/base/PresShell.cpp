@@ -84474,7 +84474,7 @@ positioned
 const
 auto
 *
-anchorPosReferenceData
+referencedAnchors
 =
 positioned
 -
@@ -84541,10 +84541,10 @@ used
 if
 (
 !
-anchorPosReferenceData
+referencedAnchors
 |
 |
-anchorPosReferenceData
+referencedAnchors
 -
 >
 IsEmpty
@@ -84584,7 +84584,7 @@ auto
 kv
 :
 *
-anchorPosReferenceData
+referencedAnchors
 )
 {
 const
@@ -85305,7 +85305,7 @@ continue
 const
 auto
 *
-anchorPosReferenceData
+referencedAnchors
 =
 positioned
 -
@@ -85323,10 +85323,10 @@ AnchorPosReferences
 if
 (
 !
-anchorPosReferenceData
+referencedAnchors
 |
 |
-anchorPosReferenceData
+referencedAnchors
 -
 >
 IsEmpty
@@ -85533,7 +85533,7 @@ auto
 *
 data
 =
-anchorPosReferenceData
+referencedAnchors
 -
 >
 Lookup

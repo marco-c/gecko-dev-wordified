@@ -1213,9 +1213,9 @@ GetNextSibling
 )
 )
 {
-AnchorPosReferenceData
+AnchorPosReferencedAnchors
 *
-anchorPosReferenceData
+referencedAnchors
 =
 nullptr
 ;
@@ -1229,7 +1229,7 @@ HasAnchorPosReference
 )
 )
 {
-anchorPosReferenceData
+referencedAnchors
 =
 kidFrame
 -
@@ -1298,7 +1298,7 @@ AbsPosReflowFlags
 :
 CBHeightChanged
 )
-anchorPosReferenceData
+referencedAnchors
 )
 ;
 if
@@ -1700,7 +1700,7 @@ aFlags
 kidFrame
 kidStatus
 aOverflowAreas
-anchorPosReferenceData
+referencedAnchors
 )
 ;
 MOZ_ASSERT
@@ -2315,9 +2315,9 @@ bool
 aCBWidthChanged
 bool
 aCBHeightChanged
-AnchorPosReferenceData
+AnchorPosReferencedAnchors
 *
-anchorPosReferenceData
+aReferencedAnchors
 )
 {
 const
@@ -2433,7 +2433,7 @@ AnchorPosResolutionParams
 From
 (
 f
-anchorPosReferenceData
+aReferencedAnchors
 )
 ;
 if
@@ -6805,9 +6805,9 @@ aStatus
 OverflowAreas
 *
 aOverflowAreas
-AnchorPosReferenceData
+AnchorPosReferencedAnchors
 *
-aAnchorPosReferenceData
+aReferencedAnchors
 )
 {
 MOZ_ASSERT
@@ -7652,7 +7652,7 @@ initFlags
 }
 {
 }
-aAnchorPosReferenceData
+aReferencedAnchors
 )
 ;
 if
@@ -8088,7 +8088,7 @@ AnchorPosResolutionParams
 From
 (
 aKidFrame
-aAnchorPosReferenceData
+aReferencedAnchors
 )
 )
 ;
