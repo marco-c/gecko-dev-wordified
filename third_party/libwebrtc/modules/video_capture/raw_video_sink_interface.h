@@ -165,9 +165,6 @@ videoFrame
 size_t
 videoFrameLength
 const
-webrtc
-:
-:
 VideoCaptureCapability
 &
 frameInfo
