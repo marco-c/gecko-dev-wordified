@@ -59,6 +59,14 @@ MPL
 #
 !
 [
+allow
+(
+mismatched_lifetime_syntaxes
+)
+]
+#
+!
+[
 deny
 (
 warnings
@@ -78,7 +86,7 @@ euclid
 ;
 extern
 crate
-fxhash
+rustc_hash
 ;
 extern
 crate

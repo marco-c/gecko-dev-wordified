@@ -495,6 +495,7 @@ clippy
 :
 :
 too_many_arguments
+mismatched_lifetime_syntaxes
 )
 ]
 /
@@ -878,7 +879,7 @@ euclid
 ;
 extern
 crate
-fxhash
+rustc_hash
 ;
 extern
 crate
