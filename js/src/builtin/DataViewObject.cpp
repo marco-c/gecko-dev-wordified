@@ -122,15 +122,6 @@ include
 "
 mozilla
 /
-Casting
-.
-h
-"
-#
-include
-"
-mozilla
-/
 EndianUtils
 .
 h
