@@ -420,7 +420,7 @@ from
 viaduct
 :
 :
-Error
+ViaductError
 )
 /
 /
@@ -814,7 +814,7 @@ RequestError
 viaduct
 :
 :
-Error
+ViaductError
 :
 :
 NetworkError

@@ -315,7 +315,7 @@ test_delete
 viaduct_dev
 :
 :
-use_dev_backend
+init_backend_dev
 (
 )
 ;

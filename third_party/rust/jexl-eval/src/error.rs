@@ -65,6 +65,7 @@ ast
 :
 :
 OpCode
+LexError
 ParseError
 Token
 }
@@ -148,10 +149,7 @@ Token
 '
 a
 >
-&
-'
-a
-str
+LexError
 >
 >
 )
@@ -351,10 +349,7 @@ Token
 '
 a
 >
-&
-'
-a
-str
+LexError
 >
 >
 for
@@ -377,10 +372,7 @@ Token
 '
 a
 >
-&
-'
-a
-str
+LexError
 >
 )
 -

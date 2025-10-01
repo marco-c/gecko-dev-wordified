@@ -10216,7 +10216,7 @@ test_attachment_can_be_downloaded
 viaduct_dev
 :
 :
-use_dev_backend
+init_backend_dev
 (
 )
 ;
@@ -10497,7 +10497,7 @@ test_attachment_errors_if_server_not_configured_for_attachments
 viaduct_dev
 :
 :
-use_dev_backend
+init_backend_dev
 (
 )
 ;
@@ -10750,7 +10750,7 @@ test_backoff
 viaduct_dev
 :
 :
-use_dev_backend
+init_backend_dev
 (
 )
 ;
@@ -10976,7 +10976,7 @@ test_500_retry_after
 viaduct_dev
 :
 :
-use_dev_backend
+init_backend_dev
 (
 )
 ;
@@ -11177,7 +11177,7 @@ test_options
 viaduct_dev
 :
 :
-use_dev_backend
+init_backend_dev
 (
 )
 ;
@@ -12155,7 +12155,7 @@ test_backoff_recovery
 viaduct_dev
 :
 :
-use_dev_backend
+init_backend_dev
 (
 )
 ;
@@ -12485,7 +12485,7 @@ test_record_fields
 viaduct_dev
 :
 :
-use_dev_backend
+init_backend_dev
 (
 )
 ;
@@ -13009,7 +13009,7 @@ test_missing_etag
 viaduct_dev
 :
 :
-use_dev_backend
+init_backend_dev
 (
 )
 ;
@@ -13211,7 +13211,7 @@ test_invalid_etag
 viaduct_dev
 :
 :
-use_dev_backend
+init_backend_dev
 (
 )
 ;

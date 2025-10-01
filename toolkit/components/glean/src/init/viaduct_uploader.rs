@@ -99,7 +99,7 @@ viaduct
 :
 :
 {
-Error
+ViaductError
 :
 :
 *
@@ -559,6 +559,8 @@ UrlError
 (
 _
 )
+|
+BackendAlreadyInitialized
 =
 >
 UploadResult
@@ -1502,7 +1504,7 @@ error
 viaduct
 :
 :
-Error
+ViaductError
 {
 0
 }
@@ -1518,7 +1520,7 @@ from
 viaduct
 :
 :
-Error
+ViaductError
 )
 #
 [
@@ -1566,7 +1568,7 @@ Viaduct
 viaduct
 :
 :
-Error
+ViaductError
 :
 :
 from

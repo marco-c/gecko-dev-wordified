@@ -2113,7 +2113,7 @@ test_get_records
 viaduct_dev
 :
 :
-use_dev_backend
+init_backend_dev
 (
 )
 ;
@@ -2324,7 +2324,7 @@ test_get_records_since
 viaduct_dev
 :
 :
-use_dev_backend
+init_backend_dev
 (
 )
 ;
@@ -2636,7 +2636,7 @@ test_download
 viaduct_dev
 :
 :
-use_dev_backend
+init_backend_dev
 (
 )
 ;

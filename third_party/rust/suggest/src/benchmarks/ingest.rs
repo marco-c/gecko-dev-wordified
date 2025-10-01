@@ -954,13 +954,6 @@ print_debug_ingestion_sizes
 (
 )
 {
-viaduct_dev
-:
-:
-use_dev_backend
-(
-)
-;
 let
 store
 =
