@@ -3106,12 +3106,6 @@ will
 be
 returned
 .
-Also
-returns
-nullptr
-on
-OOM
-.
 hb_blob_t
 *
 ShareFontTableAndGetBlob
@@ -4606,6 +4600,10 @@ NUM_SCRIPT_CODES
 /
 32
 ]
+MOZ_GUARDED_BY
+(
+mFeatureInfoLock
+)
 ;
 uint32_t
 mNonDefaultSubSpaceFeatures
@@ -4624,6 +4622,10 @@ NUM_SCRIPT_CODES
 /
 32
 ]
+MOZ_GUARDED_BY
+(
+mFeatureInfoLock
+)
 ;
 mozilla
 :
