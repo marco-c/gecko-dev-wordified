@@ -2632,6 +2632,7 @@ case
 mousemove
 "
 :
+{
 /
 /
 We
@@ -2775,6 +2776,7 @@ y
 ;
 break
 ;
+}
 /
 /
 Note
@@ -4091,6 +4093,7 @@ case
 hsl
 "
 :
+{
 const
 [
 h
@@ -4127,14 +4130,13 @@ l
 )
 "
 ;
+}
 case
 "
 name
 "
 :
-const
-str
-=
+return
 InspectorUtils
 .
 rgbToColorName
@@ -4149,9 +4151,6 @@ hexString
 (
 rgb
 )
-;
-return
-str
 ;
 default
 :

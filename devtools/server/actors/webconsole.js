@@ -2833,6 +2833,7 @@ case
 NetworkActivity
 "
 :
+{
 /
 /
 Workers
@@ -2910,6 +2911,7 @@ Error
 errorMessage
 )
 ;
+}
 case
 "
 FileActivity

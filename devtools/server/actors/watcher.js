@@ -4166,6 +4166,7 @@ case
 all
 "
 :
+{
 const
 parentProcessTargetActor
 =
@@ -4208,6 +4209,7 @@ Set
 (
 )
 ;
+}
 case
 "
 browser

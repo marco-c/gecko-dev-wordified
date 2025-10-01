@@ -1817,6 +1817,7 @@ case
 TabClose
 "
 :
+{
 /
 /
 Always
@@ -1894,6 +1895,7 @@ destroy
 }
 break
 ;
+}
 case
 "
 TabRemotenessChange
