@@ -1738,11 +1738,6 @@ mMP4
 ContainerSupport
 mWebM
 ;
-bool
-mIsHDCP22Compatible
-=
-false
-;
 private
 :
 static
