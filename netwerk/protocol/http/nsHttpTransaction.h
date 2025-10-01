@@ -1965,6 +1965,11 @@ OnFastFallbackTimer
 )
 ;
 void
+OnHttp3TunnelFallbackTimer
+(
+)
+;
+void
 HandleFallback
 (
 nsHttpConnectionInfo
@@ -3873,6 +3878,11 @@ mHttp3BackupTimerCreated
 =
 false
 ;
+bool
+mHttp3TunnelFallbackTimerCreated
+=
+false
+;
 nsCOMPtr
 <
 nsITimer
@@ -3884,6 +3894,12 @@ nsCOMPtr
 nsITimer
 >
 mHttp3BackupTimer
+;
+nsCOMPtr
+<
+nsITimer
+>
+mHttp3TunnelFallbackTimer
 ;
 RefPtr
 <
