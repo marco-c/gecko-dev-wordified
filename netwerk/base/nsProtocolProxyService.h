@@ -1068,6 +1068,13 @@ number
 .
 *
 param
+pathTemplate
+*
+The
+PathTemplate
+.
+*
+param
 username
 *
 The
@@ -1185,6 +1192,10 @@ nsACString
 host
 int32_t
 port
+const
+nsACString
+&
+pathTemplate
 const
 nsACString
 &

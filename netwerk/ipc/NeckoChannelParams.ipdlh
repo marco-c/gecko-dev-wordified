@@ -2899,6 +2899,9 @@ int32_t
 port
 ;
 nsCString
+pathTemplate
+;
+nsCString
 username
 ;
 nsCString
