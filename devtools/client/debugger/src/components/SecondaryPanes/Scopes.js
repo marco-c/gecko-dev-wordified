@@ -1392,7 +1392,7 @@ generatedScopes
 ;
 }
 function
-initiallyExpanded
+getInitiallyExpanded
 (
 item
 )
@@ -1540,7 +1540,7 @@ selectedFrame
 path
 expand
 )
-initiallyExpanded
+getInitiallyExpanded
 renderItemActions
 :
 this

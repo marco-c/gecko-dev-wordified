@@ -3301,7 +3301,7 @@ preventBlur
 PropTypes
 .
 bool
-initiallyExpanded
+getInitiallyExpanded
 :
 PropTypes
 .
@@ -3760,7 +3760,7 @@ const
 {
 autoExpandDepth
 autoExpandNodeChildrenLimit
-initiallyExpanded
+getInitiallyExpanded
 }
 =
 this
@@ -3774,7 +3774,7 @@ autoExpandDepth
 &
 &
 !
-initiallyExpanded
+getInitiallyExpanded
 )
 {
 return
@@ -3843,10 +3843,10 @@ currentDepth
 const
 initial
 =
-initiallyExpanded
+getInitiallyExpanded
 &
 &
-initiallyExpanded
+getInitiallyExpanded
 (
 item
 )
@@ -4044,7 +4044,7 @@ roots
 ;
 if
 (
-initiallyExpanded
+getInitiallyExpanded
 )
 {
 for
@@ -4065,7 +4065,7 @@ i
 {
 if
 (
-initiallyExpanded
+getInitiallyExpanded
 (
 roots
 [
