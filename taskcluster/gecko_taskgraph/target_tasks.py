@@ -148,6 +148,14 @@ gecko_taskgraph
 .
 util
 .
+constants
+import
+TEST_KINDS
+from
+gecko_taskgraph
+.
+util
+.
 hg
 import
 find_hg_revision_push_info
@@ -1819,11 +1827,8 @@ if
 task
 .
 kind
-=
-=
-"
-test
-"
+in
+TEST_KINDS
         
 and
 "
@@ -2774,11 +2779,9 @@ if
 task
 .
 kind
-!
-=
-"
-test
-"
+not
+in
+TEST_KINDS
 :
             
 return
@@ -2927,11 +2930,9 @@ if
 task
 .
 kind
-!
-=
-"
-test
-"
+not
+in
+TEST_KINDS
 :
             
 return
@@ -4575,11 +4576,9 @@ if
 task
 .
 kind
-!
-=
-"
-test
-"
+not
+in
+TEST_KINDS
 :
             
 return
@@ -11921,32 +11920,22 @@ task
 kind
 not
 in
+TEST_KINDS
++
 (
-            
-"
-test
-"
-            
 "
 source
 -
 test
 "
-            
 "
 perftest
 "
-            
 "
 startup
 -
 test
 "
-            
-"
-mochitest
-"
-        
 )
 :
             

@@ -65,6 +65,14 @@ import
 get_artifact
 from
 .
+.
+util
+.
+constants
+import
+TEST_KINDS
+from
+.
 registry
 import
 register_callback_action
@@ -289,11 +297,9 @@ if
 task
 .
 kind
-!
-=
-"
-test
-"
+not
+in
+TEST_KINDS
 :
             
 continue

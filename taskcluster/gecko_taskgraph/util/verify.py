@@ -100,6 +100,14 @@ RELEASE_PROJECTS
     
 RUN_ON_PROJECT_ALIASES
 )
+from
+gecko_taskgraph
+.
+util
+.
+constants
+import
+TEST_KINDS
 logger
 =
 logging
@@ -3113,11 +3121,8 @@ if
 task
 .
 kind
-=
-=
-"
-test
-"
+in
+TEST_KINDS
 :
         
 build_task
