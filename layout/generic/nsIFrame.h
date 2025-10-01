@@ -10538,7 +10538,7 @@ nsMargin
 NS_DECLARE_FRAME_PROPERTY_DELETABLE
 (
 AnchorPosReferences
-AnchorPosReferencedAnchors
+AnchorPosReferenceData
 )
 ;
 /
@@ -42543,9 +42543,9 @@ const
 nsIFrame
 *
 aFrame
-AnchorPosReferencedAnchors
+AnchorPosReferenceData
 *
-aReferencedAnchors
+aAnchorPosReferenceData
 )
 {
 return
@@ -42560,7 +42560,7 @@ StyleDisplay
 -
 >
 mPosition
-aReferencedAnchors
+aAnchorPosReferenceData
 }
 ;
 }

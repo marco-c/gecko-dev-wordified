@@ -11918,9 +11918,9 @@ nsAtom
 aAnchorName
 bool
 aCBRectIsvalid
-AnchorPosReferencedAnchors
+AnchorPosReferenceData
 *
-aReferencedAnchors
+aReferenceData
 )
 {
 if
@@ -12002,14 +12002,14 @@ nullptr
 ;
 if
 (
-aReferencedAnchors
+aReferenceData
 )
 {
 const
 auto
 result
 =
-aReferencedAnchors
+aReferenceData
 -
 >
 InsertOrModify
@@ -12234,7 +12234,7 @@ aParams
 >
 mBaseParams
 .
-mReferencedAnchors
+mAnchorPosReferenceData
 )
 ;
 if
@@ -12888,7 +12888,7 @@ if
 aParams
 -
 >
-mReferencedAnchors
+mAnchorPosReferenceData
 )
 {
 const
@@ -12898,7 +12898,7 @@ result
 aParams
 -
 >
-mReferencedAnchors
+mAnchorPosReferenceData
 -
 >
 InsertOrModify
