@@ -143,6 +143,11 @@ TestDNSPacket
 cpp
 "
 "
+TestEtcHostsParsing
+.
+cpp
+"
+"
 TestHeaders
 .
 cpp
