@@ -2042,7 +2042,7 @@ Rg11b10Ufloat
 =
 >
 "
-rg11b10float
+rg11b10ufloat
 "
 Sf
 :

@@ -1068,7 +1068,7 @@ Sf
 :
 Rgb10a2Unorm
 "
-rg11b10float
+rg11b10ufloat
 "
 =
 >
