@@ -6165,6 +6165,17 @@ if
 isHardwareDecryption
 &
 &
+gfx
+:
+:
+gfxVars
+:
+:
+IsInitialized
+(
+)
+&
+&
 !
 gfx
 :
