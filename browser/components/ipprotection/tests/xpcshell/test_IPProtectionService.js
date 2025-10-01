@@ -417,7 +417,7 @@ ok
 (
 IPProtectionService
 .
-connection
+proxyManager
 .
 active
 "
