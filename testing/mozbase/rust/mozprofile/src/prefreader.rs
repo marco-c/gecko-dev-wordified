@@ -4726,6 +4726,10 @@ u8
 -
 >
 PrefTokenizer
+<
+'
+_
+>
 {
 PrefTokenizer
 :
@@ -5267,6 +5271,8 @@ str
 >
 Cow
 <
+'
+_
 str
 >
 {
