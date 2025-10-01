@@ -172,6 +172,11 @@ EXPORTS
 =
 [
 "
+AnchorPositioningUtils
+.
+h
+"
+"
 FrameProperties
 .
 h

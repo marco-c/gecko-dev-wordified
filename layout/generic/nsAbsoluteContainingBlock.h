@@ -808,6 +808,9 @@ bool
 aCBWidthChanged
 bool
 aCBHeightChanged
+mozilla
+:
+:
 AnchorPosReferenceData
 *
 aAnchorPosReferenceData
@@ -1082,6 +1085,9 @@ mozilla
 OverflowAreas
 *
 aOverflowAreas
+mozilla
+:
+:
 AnchorPosReferenceData
 *
 aAnchorPosReferenceData
