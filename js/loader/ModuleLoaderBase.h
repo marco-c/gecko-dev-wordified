@@ -3598,6 +3598,9 @@ static
 bool
 OnLoadRequestedModulesRejected
 (
+JSContext
+*
+aCx
 ModuleLoadRequest
 *
 aRequest
