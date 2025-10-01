@@ -159,11 +159,6 @@ network_state_predictor_factory
 =
 nullptr
 ;
-bool
-feedback_only
-=
-false
-;
 }
 ;
 class
