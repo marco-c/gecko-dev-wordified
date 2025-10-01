@@ -450,7 +450,7 @@ are
 kept
 in
 a
-map
+WeakMap
 indexed
 by
 swatch
@@ -461,7 +461,7 @@ this
 swatches
 =
 new
-Map
+WeakMap
 (
 )
 ;
@@ -1564,14 +1564,6 @@ destroy
 (
 )
 {
-this
-.
-swatches
-.
-clear
-(
-)
-;
 this
 .
 activeSwatch
