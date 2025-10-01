@@ -1751,10 +1751,11 @@ aRequest
 {
 if
 (
+!
 aRequest
 -
 >
-IsStaticImport
+IsTopLevel
 (
 )
 )

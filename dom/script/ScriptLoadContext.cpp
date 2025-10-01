@@ -914,15 +914,11 @@ IsModuleRequest
 )
 &
 &
+!
 mRequest
 -
 >
-AsModuleRequest
-(
-)
--
->
-IsStaticImport
+IsTopLevel
 (
 )
 )
