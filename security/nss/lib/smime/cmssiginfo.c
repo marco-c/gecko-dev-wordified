@@ -1099,12 +1099,10 @@ PR_FALSE
 }
 signAlgTag
 =
-SEC_GetSignatureAlgorithmOidTag
-(
-SECKEY_GetPrivateKeyType
+SEC_GetSignatureAlgorithmOidTagByKey
 (
 privkey
-)
+NULL
 digestalgtag
 )
 ;

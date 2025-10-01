@@ -3408,7 +3408,7 @@ isKey
 CK_RV
 crv
 ;
-int
+size_t
 i
 ;
 CK_ATTRIBUTE
