@@ -164,7 +164,7 @@ addMockPasswords
 )
 ;
 await
-checkAllLoginsUpdated
+checkAllLoginsRendered
 (
 megalist
 )
