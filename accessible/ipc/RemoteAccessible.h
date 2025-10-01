@@ -2355,6 +2355,14 @@ aY
 )
 override
 ;
+virtual
+bool
+IsScrollable
+(
+)
+const
+override
+;
 #
 if
 !

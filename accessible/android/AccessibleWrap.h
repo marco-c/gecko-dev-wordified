@@ -219,12 +219,9 @@ static
 uint32_t
 GetFlags
 (
-role
-aRole
-uint64_t
-aState
-uint8_t
-aActionCount
+Accessible
+*
+aAccessible
 )
 ;
 static
