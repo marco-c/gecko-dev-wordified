@@ -534,11 +534,6 @@ GetLastTouchIdentifier
 )
 const
 ;
-void
-Destroy
-(
-)
-;
 /
 *
 *
