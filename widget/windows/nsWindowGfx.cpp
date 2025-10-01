@@ -2993,9 +2993,7 @@ isFullyOccluded
 &
 &
 !
-HasTaskbarIconBeenCreated
-(
-)
+mHasBeenShown
 )
 {
 /
