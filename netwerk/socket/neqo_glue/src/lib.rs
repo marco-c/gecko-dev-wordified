@@ -2179,6 +2179,9 @@ u32
 idle_timeout
 :
 u32
+pmtud_enabled
+:
+bool
 socket
 :
 Option
@@ -2816,6 +2819,11 @@ false
 datagram_size
 (
 1500
+)
+.
+pmtud
+(
+pmtud_enabled
 )
 ;
 /
@@ -5121,6 +5129,9 @@ u32
 socket
 :
 i64
+pmtud_enabled
+:
+bool
 result
 :
 &
@@ -5162,6 +5173,7 @@ webtransport
 qlog_dir
 provider_flags
 idle_timeout
+pmtud_enabled
 Some
 (
 socket
@@ -5304,6 +5316,7 @@ webtransport
 qlog_dir
 provider_flags
 idle_timeout
+false
 None
 )
 {

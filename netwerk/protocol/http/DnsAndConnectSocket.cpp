@@ -4175,6 +4175,15 @@ mConnInfo
 GetWebTransport
 (
 )
+&
+&
+!
+mConnInfo
+-
+>
+UsingConnectUDP
+(
+)
 )
 {
 trans

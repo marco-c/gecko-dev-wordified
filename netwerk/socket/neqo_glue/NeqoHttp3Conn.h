@@ -215,6 +215,8 @@ uint32_t
 aIdleTimeout
 int64_t
 socket
+bool
+aPMTUDEnabled
 NeqoHttp3Conn
 *
 *
@@ -243,6 +245,7 @@ aQlogDir
 aProviderFlags
 aIdleTimeout
 socket
+aPMTUDEnabled
 (
 const
 mozilla
