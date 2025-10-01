@@ -155,8 +155,7 @@ default
 *
 *
 Iterate
-over
-all
+overall
 key
 -
 value
