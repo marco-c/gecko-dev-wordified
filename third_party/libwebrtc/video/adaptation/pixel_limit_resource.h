@@ -374,9 +374,6 @@ RTC_GUARDED_BY
 task_queue_
 )
 ;
-webrtc
-:
-:
 ResourceListener
 *
 listener_

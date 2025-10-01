@@ -397,9 +397,6 @@ device_names
 >
 push_back
 (
-webrtc
-:
-:
 ToUtf8
 (
 device

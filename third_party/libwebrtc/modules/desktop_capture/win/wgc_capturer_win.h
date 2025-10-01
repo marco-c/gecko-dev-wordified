@@ -476,9 +476,6 @@ sources
 override
 {
 return
-webrtc
-:
-:
 GetScreenList
 (
 sources

@@ -522,9 +522,6 @@ DxgiDuplicatorController
 )
 ;
 return
-webrtc
-:
-:
 scoped_refptr
 <
 DxgiDuplicatorController
@@ -3290,9 +3287,6 @@ const
 int64_t
 start_ms
 =
-webrtc
-:
-:
 TimeMillis
 (
 )
@@ -3377,9 +3371,6 @@ break
 }
 if
 (
-webrtc
-:
-:
 TimeMillis
 (
 )

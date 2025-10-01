@@ -842,9 +842,6 @@ window
 .
 title
 =
-webrtc
-:
-:
 ToUtf8
 (
 window_title
@@ -1317,9 +1314,6 @@ bit
 .
 if
 (
-webrtc
-:
-:
 rtc_win
 :
 :
@@ -1328,9 +1322,6 @@ GetVersion
 )
 >
 =
-webrtc
-:
-:
 rtc_win
 :
 :
@@ -2378,9 +2369,6 @@ DwmGetWindowAttribute
 }
 if
 (
-webrtc
-:
-:
 rtc_win
 :
 :
@@ -2389,9 +2377,6 @@ GetVersion
 )
 >
 =
-webrtc
-:
-:
 rtc_win
 :
 :
@@ -3370,9 +3355,6 @@ kIgnoreCurrentProcessWindows
 if
 (
 !
-webrtc
-:
-:
 GetWindowList
 (
 flags

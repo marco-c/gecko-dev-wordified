@@ -661,9 +661,6 @@ DoesWgcSkipStaticFrames
 {
 return
 (
-webrtc
-:
-:
 rtc_win
 :
 :
@@ -672,9 +669,6 @@ GetVersion
 )
 >
 =
-webrtc
-:
-:
 rtc_win
 :
 :

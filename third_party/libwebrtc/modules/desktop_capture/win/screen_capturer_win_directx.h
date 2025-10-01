@@ -712,9 +712,6 @@ override
 private
 :
 const
-webrtc
-:
-:
 scoped_refptr
 <
 DxgiDuplicatorController

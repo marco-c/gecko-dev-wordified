@@ -672,9 +672,6 @@ of
 DxgiDuplicatorController
 .
 static
-webrtc
-:
-:
 scoped_refptr
 <
 DxgiDuplicatorController
@@ -1137,9 +1134,6 @@ functions
 .
 friend
 class
-webrtc
-:
-:
 scoped_refptr
 <
 DxgiDuplicatorController
