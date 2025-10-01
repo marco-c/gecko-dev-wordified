@@ -268,6 +268,10 @@ pipeline
 :
 :
 ProgrammableStageDescriptor
+<
+'
+_
+>
 {
 let
 constants
@@ -501,6 +505,10 @@ pipeline
 :
 :
 VertexState
+<
+'
+_
+>
 {
 let
 buffer_layouts
@@ -694,6 +702,10 @@ pipeline
 :
 :
 FragmentState
+<
+'
+_
+>
 {
 let
 color_targets
