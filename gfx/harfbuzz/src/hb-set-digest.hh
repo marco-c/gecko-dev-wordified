@@ -452,7 +452,6 @@ it
 *
 *
 The
-main
 filter
 we
 use
@@ -460,7 +459,7 @@ is
 a
 combination
 of
-four
+three
 bits
 -
 pattern
@@ -492,8 +491,8 @@ glyph
 -
 id
 in
-this
-case
+most
+cases
 )
 and
 checks
@@ -525,7 +524,7 @@ long
 "
 integer
 .
-The
+Each
 *
 check
 is
