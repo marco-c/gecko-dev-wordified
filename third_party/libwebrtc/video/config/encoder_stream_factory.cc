@@ -686,7 +686,6 @@ the
 selected
 bitrates
 .
-static
 int
 GetMaxDefaultVideoBitrateKbps
 (

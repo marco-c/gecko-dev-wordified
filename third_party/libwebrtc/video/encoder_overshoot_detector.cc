@@ -193,7 +193,6 @@ target_framerate_fps_
 *
 target_bitrate_
 .
-static
 constexpr
 double
 kMaxMediaUnderrunFrames

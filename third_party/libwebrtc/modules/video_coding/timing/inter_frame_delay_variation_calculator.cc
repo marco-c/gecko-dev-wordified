@@ -170,6 +170,9 @@ KiloHertz
 )
 ;
 }
+/
+/
+namespace
 InterFrameDelayVariationCalculator
 :
 :

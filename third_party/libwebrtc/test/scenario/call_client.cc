@@ -513,7 +513,6 @@ test
 {
 namespace
 {
-static
 constexpr
 size_t
 kNumSsrcs

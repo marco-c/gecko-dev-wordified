@@ -161,7 +161,6 @@ end
 binary
 spectrum
 .
-static
 const
 int
 kShiftsAtZero
@@ -177,14 +176,12 @@ zero
 binary
 spectrum
 .
-static
 const
 int
 kShiftsLinearSlope
 =
 3
 ;
-static
 const
 int32_t
 kProbabilityOffset
@@ -197,7 +194,6 @@ kProbabilityOffset
 in
 Q9
 .
-static
 const
 int32_t
 kProbabilityLowerLimit
@@ -210,7 +206,6 @@ kProbabilityLowerLimit
 in
 Q9
 .
-static
 const
 int32_t
 kProbabilityMinSpread
@@ -230,7 +225,6 @@ Q9
 Robust
 validation
 settings
-static
 const
 float
 kHistogramMax
@@ -239,7 +233,6 @@ kHistogramMax
 .
 f
 ;
-static
 const
 float
 kLastHistogramMax
@@ -248,7 +241,6 @@ kLastHistogramMax
 .
 f
 ;
-static
 const
 float
 kMinHistogramThreshold
@@ -257,28 +249,24 @@ kMinHistogramThreshold
 .
 5f
 ;
-static
 const
 int
 kMinRequiredHits
 =
 10
 ;
-static
 const
 int
 kMaxHitsWhenPossiblyNonCausal
 =
 10
 ;
-static
 const
 int
 kMaxHitsWhenPossiblyCausal
 =
 1000
 ;
-static
 const
 float
 kQ14Scaling
@@ -305,7 +293,6 @@ to
 get
 Q0
 .
-static
 const
 float
 kFractionSlope
@@ -314,7 +301,6 @@ kFractionSlope
 .
 05f
 ;
-static
 const
 float
 kMinFractionWhenPossiblyCausal
@@ -323,7 +309,6 @@ kMinFractionWhenPossiblyCausal
 .
 5f
 ;
-static
 const
 float
 kMinFractionWhenPossiblyNonCausal

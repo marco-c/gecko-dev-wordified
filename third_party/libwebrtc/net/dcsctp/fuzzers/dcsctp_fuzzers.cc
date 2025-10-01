@@ -360,7 +360,6 @@ dcsctp_fuzzers
 {
 namespace
 {
-static
 constexpr
 int
 kRandomValue
@@ -370,14 +369,12 @@ FuzzerCallbacks
 :
 kRandomValue
 ;
-static
 constexpr
 size_t
 kMinInputLength
 =
 5
 ;
-static
 constexpr
 size_t
 kMaxInputLength

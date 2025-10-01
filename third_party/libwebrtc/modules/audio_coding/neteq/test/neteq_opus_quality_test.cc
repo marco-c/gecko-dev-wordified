@@ -376,14 +376,12 @@ test
 {
 namespace
 {
-static
 const
 int
 kOpusBlockDurationMs
 =
 20
 ;
-static
 const
 int
 kOpusSamplingKhz

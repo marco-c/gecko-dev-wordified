@@ -190,6 +190,9 @@ kMaskRandom15_6
 }
 ;
 }
+/
+/
+namespace
 namespace
 fec_private_tables
 {

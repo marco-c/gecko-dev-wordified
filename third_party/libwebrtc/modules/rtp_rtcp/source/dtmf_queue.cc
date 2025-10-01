@@ -134,6 +134,9 @@ kDtmfOutbandMax
 20
 ;
 }
+/
+/
+namespace
 namespace
 webrtc
 {

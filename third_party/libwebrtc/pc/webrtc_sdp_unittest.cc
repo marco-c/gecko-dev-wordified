@@ -486,21 +486,18 @@ testing
 :
 Property
 ;
-static
 const
 uint32_t
 kDefaultSctpPort
 =
 5000
 ;
-static
 const
 uint16_t
 kUnusualSctpPort
 =
 9556
 ;
-static
 const
 char
 kSessionTime
@@ -518,7 +515,6 @@ r
 n
 "
 ;
-static
 const
 uint32_t
 kCandidatePriority
@@ -532,7 +528,6 @@ pref
 1
 .
 0
-static
 const
 char
 kAttributeIceUfragVoice
@@ -553,7 +548,6 @@ r
 n
 "
 ;
-static
 const
 char
 kAttributeIcePwdVoice
@@ -574,7 +568,6 @@ r
 n
 "
 ;
-static
 const
 char
 kAttributeIceUfragVideo
@@ -595,7 +588,6 @@ r
 n
 "
 ;
-static
 const
 char
 kAttributeIcePwdVideo
@@ -616,14 +608,12 @@ r
 n
 "
 ;
-static
 const
 uint32_t
 kCandidateGeneration
 =
 2
 ;
-static
 const
 char
 kCandidateFoundation1
@@ -638,7 +628,6 @@ B
 1
 "
 ;
-static
 const
 char
 kCandidateFoundation2
@@ -653,7 +642,6 @@ B
 2
 "
 ;
-static
 const
 char
 kCandidateFoundation3
@@ -668,7 +656,6 @@ B
 3
 "
 ;
-static
 const
 char
 kCandidateFoundation4
@@ -683,7 +670,6 @@ B
 4
 "
 ;
-static
 const
 char
 kFingerprint
@@ -745,7 +731,6 @@ r
 n
 "
 ;
-static
 const
 char
 kExtmapAllowMixed
@@ -766,14 +751,12 @@ r
 n
 "
 ;
-static
 const
 int
 kExtmapId
 =
 1
 ;
-static
 const
 char
 kExtmapUri
@@ -798,7 +781,6 @@ htm
 ttime
 "
 ;
-static
 const
 char
 kExtmap
@@ -832,7 +814,6 @@ r
 n
 "
 ;
-static
 const
 char
 kExtmapWithDirectionAndAttribute
@@ -870,7 +851,6 @@ r
 n
 "
 ;
-static
 const
 char
 kExtmapWithDirectionAndAttributeEncrypted
@@ -921,7 +901,6 @@ r
 n
 "
 ;
-static
 const
 uint8_t
 kIdentityDigest
@@ -951,7 +930,6 @@ kIdentityDigest
 0xAB
 }
 ;
-static
 const
 char
 kDtlsSctp
@@ -964,7 +942,6 @@ DTLS
 SCTP
 "
 ;
-static
 const
 char
 kUdpDtlsSctp
@@ -979,7 +956,6 @@ DTLS
 SCTP
 "
 ;
-static
 const
 char
 kTcpDtlsSctp
@@ -1025,7 +1001,6 @@ maxaveragebitrate
 Reference
 sdp
 string
-static
 const
 char
 kSdpFullString
@@ -1968,7 +1943,6 @@ without
 the
 candidates
 .
-static
 const
 char
 kSdpString
@@ -2523,7 +2497,6 @@ sctp
 sdp
 -
 03
-static
 const
 char
 kSdpSctpDataChannelString
@@ -2719,7 +2692,6 @@ be
 a
 colon
 .
-static
 const
 char
 kSdpSctpDataChannelStringWithSctpPort
@@ -2878,7 +2850,6 @@ sctp
 sdp
 -
 26
-static
 const
 char
 kSdpSctpDataChannelStringWithSctpColonPort
@@ -3025,7 +2996,6 @@ r
 n
 "
 ;
-static
 const
 char
 kSdpSctpDataChannelWithCandidatesString
@@ -3276,7 +3246,6 @@ r
 n
 "
 ;
-static
 const
 char
 kSdpConferenceString
@@ -3439,7 +3408,6 @@ r
 n
 "
 ;
-static
 const
 char
 kSdpSessionString
@@ -3509,7 +3477,6 @@ r
 n
 "
 ;
-static
 const
 char
 kSdpAudioString
@@ -3710,7 +3677,6 @@ r
 n
 "
 ;
-static
 const
 char
 kSdpVideoString
@@ -3919,7 +3885,6 @@ bundle
 -
 only
 .
-static
 const
 char
 kBundleOnlySdpFullString
@@ -4690,7 +4655,6 @@ video
 /
 tracks
 .
-static
 const
 char
 kPlanBSdpFullString
@@ -5753,7 +5717,6 @@ video
 /
 tracks
 .
-static
 const
 char
 kUnifiedPlanSdpFullString
@@ -7442,7 +7405,6 @@ ssrc
 msid
 semantics
 .
-static
 const
 char
 kUnifiedPlanSdpFullStringWithSpecialMsid
@@ -8577,7 +8539,6 @@ unified
 plan
 without
 SSRCs
-static
 const
 char
 kUnifiedPlanSdpFullStringNoSsrc
@@ -9930,7 +9891,6 @@ candidate
 blah
 >
 CRLF
-static
 const
 char
 kRawCandidate
@@ -9969,7 +9929,6 @@ candidate
 reference
 string
 .
-static
 const
 char
 kSdpOneCandidate
@@ -10009,7 +9968,6 @@ r
 n
 "
 ;
-static
 const
 char
 kSdpTcpActiveCandidate
@@ -10045,7 +10003,6 @@ generation
 2
 "
 ;
-static
 const
 char
 kSdpTcpPassiveCandidate
@@ -10081,7 +10038,6 @@ generation
 2
 "
 ;
-static
 const
 char
 kSdpTcpSOCandidate
@@ -10117,7 +10073,6 @@ generation
 2
 "
 ;
-static
 const
 char
 kSdpTcpInvalidCandidate
@@ -10163,7 +10118,6 @@ with
 IPV6
 address
 .
-static
 const
 char
 kRawIPV6Candidate
@@ -10212,7 +10166,6 @@ candidate
 reference
 string
 .
-static
 const
 char
 kSdpOneCandidateWithUfragPwd
@@ -10258,7 +10211,6 @@ r
 n
 "
 ;
-static
 const
 char
 kRawHostnameCandidate
@@ -10292,7 +10244,6 @@ Session
 id
 and
 version
-static
 const
 char
 kSessionId
@@ -10303,7 +10254,6 @@ kSessionId
 18446744069414584320
 "
 ;
-static
 const
 char
 kSessionVersion
@@ -10319,7 +10269,6 @@ kSessionVersion
 ICE
 options
 .
-static
 const
 char
 kIceOption1
@@ -10330,7 +10279,6 @@ kIceOption1
 iceoption1
 "
 ;
-static
 const
 char
 kIceOption2
@@ -10341,7 +10289,6 @@ kIceOption2
 iceoption2
 "
 ;
-static
 const
 char
 kIceOption3
@@ -10359,7 +10306,6 @@ ufrags
 /
 passwords
 .
-static
 const
 char
 kUfragVoice
@@ -10370,7 +10316,6 @@ kUfragVoice
 ufrag_voice
 "
 ;
-static
 const
 char
 kPwdVoice
@@ -10381,7 +10326,6 @@ kPwdVoice
 pwd_voice
 "
 ;
-static
 const
 char
 kUfragVideo
@@ -10392,7 +10336,6 @@ kUfragVideo
 ufrag_video
 "
 ;
-static
 const
 char
 kPwdVideo
@@ -10403,7 +10346,6 @@ kPwdVideo
 pwd_video
 "
 ;
-static
 const
 char
 kUfragData
@@ -10414,7 +10356,6 @@ kUfragData
 ufrag_data
 "
 ;
-static
 const
 char
 kPwdData
@@ -10439,7 +10380,6 @@ m
 =
 sections
 .
-static
 const
 char
 kUfragVoice2
@@ -10450,7 +10390,6 @@ kUfragVoice2
 ufrag_voice_2
 "
 ;
-static
 const
 char
 kPwdVoice2
@@ -10461,7 +10400,6 @@ kPwdVoice2
 pwd_voice_2
 "
 ;
-static
 const
 char
 kUfragVoice3
@@ -10472,7 +10410,6 @@ kUfragVoice3
 ufrag_voice_3
 "
 ;
-static
 const
 char
 kPwdVoice3
@@ -10483,7 +10420,6 @@ kPwdVoice3
 pwd_voice_3
 "
 ;
-static
 const
 char
 kUfragVideo2
@@ -10494,7 +10430,6 @@ kUfragVideo2
 ufrag_video_2
 "
 ;
-static
 const
 char
 kPwdVideo2
@@ -10505,7 +10440,6 @@ kPwdVideo2
 pwd_video_2
 "
 ;
-static
 const
 char
 kUfragVideo3
@@ -10516,7 +10450,6 @@ kUfragVideo3
 ufrag_video_3
 "
 ;
-static
 const
 char
 kPwdVideo3
@@ -10531,7 +10464,6 @@ pwd_video_3
 /
 Content
 name
-static
 const
 char
 kAudioContentName
@@ -10542,7 +10474,6 @@ kAudioContentName
 audio_content_name
 "
 ;
-static
 const
 char
 kVideoContentName
@@ -10553,7 +10484,6 @@ kVideoContentName
 video_content_name
 "
 ;
-static
 const
 char
 kDataContentName
@@ -10577,7 +10507,6 @@ m
 =
 sections
 .
-static
 const
 char
 kAudioContentName2
@@ -10588,7 +10517,6 @@ kAudioContentName2
 audio_content_name_2
 "
 ;
-static
 const
 char
 kAudioContentName3
@@ -10599,7 +10527,6 @@ kAudioContentName3
 audio_content_name_3
 "
 ;
-static
 const
 char
 kVideoContentName2
@@ -10610,7 +10537,6 @@ kVideoContentName2
 video_content_name_2
 "
 ;
-static
 const
 char
 kVideoContentName3
@@ -10625,7 +10551,6 @@ video_content_name_3
 /
 MediaStream
 1
-static
 const
 char
 kStreamId1
@@ -10636,7 +10561,6 @@ kStreamId1
 local_stream_1
 "
 ;
-static
 const
 char
 kStream1Cname
@@ -10647,7 +10571,6 @@ kStream1Cname
 stream_1_cname
 "
 ;
-static
 const
 char
 kAudioTrackId1
@@ -10658,14 +10581,12 @@ kAudioTrackId1
 audio_track_id_1
 "
 ;
-static
 const
 uint32_t
 kAudioTrack1Ssrc
 =
 1
 ;
-static
 const
 char
 kVideoTrackId1
@@ -10676,14 +10597,12 @@ kVideoTrackId1
 video_track_id_1
 "
 ;
-static
 const
 uint32_t
 kVideoTrack1Ssrc1
 =
 2
 ;
-static
 const
 uint32_t
 kVideoTrack1Ssrc2
@@ -10694,7 +10613,6 @@ kVideoTrack1Ssrc2
 /
 MediaStream
 2
-static
 const
 char
 kStreamId2
@@ -10705,7 +10623,6 @@ kStreamId2
 local_stream_2
 "
 ;
-static
 const
 char
 kStream2Cname
@@ -10716,7 +10633,6 @@ kStream2Cname
 stream_2_cname
 "
 ;
-static
 const
 char
 kAudioTrackId2
@@ -10727,14 +10643,12 @@ kAudioTrackId2
 audio_track_id_2
 "
 ;
-static
 const
 uint32_t
 kAudioTrack2Ssrc
 =
 4
 ;
-static
 const
 char
 kVideoTrackId2
@@ -10745,14 +10659,12 @@ kVideoTrackId2
 video_track_id_2
 "
 ;
-static
 const
 uint32_t
 kVideoTrack2Ssrc
 =
 5
 ;
-static
 const
 char
 kVideoTrackId3
@@ -10763,14 +10675,12 @@ kVideoTrackId3
 video_track_id_3
 "
 ;
-static
 const
 uint32_t
 kVideoTrack3Ssrc
 =
 6
 ;
-static
 const
 char
 kAudioTrackId3
@@ -10781,7 +10691,6 @@ kAudioTrackId3
 audio_track_id_3
 "
 ;
-static
 const
 uint32_t
 kAudioTrack3Ssrc
@@ -10791,7 +10700,6 @@ kAudioTrack3Ssrc
 /
 /
 Candidate
-static
 const
 char
 kDummyMid
@@ -10802,7 +10710,6 @@ kDummyMid
 dummy_mid
 "
 ;
-static
 const
 int
 kDummyIndex
@@ -10812,7 +10719,6 @@ kDummyIndex
 /
 /
 Misc
-static
 SdpType
 kDummyType
 =
@@ -10825,7 +10731,6 @@ kOffer
 /
 Helper
 functions
-static
 bool
 SdpDeserialize
 (
@@ -10862,7 +10767,6 @@ message
 after
 line
 .
-static
 void
 InjectAfter
 (
@@ -10905,7 +10809,6 @@ message
 )
 ;
 }
-static
 void
 Replace
 (
@@ -10965,7 +10868,6 @@ to
 parse
 bad_sdp
 .
-static
 void
 ExpectParseFailure
 (
@@ -11068,7 +10970,6 @@ good_part
 with
 bad_part
 .
-static
 void
 ExpectParseFailure
 (
@@ -11118,7 +11019,6 @@ newlines
 after
 injectpoint
 .
-static
 void
 ExpectParseFailureWithNewLines
 (
@@ -11168,7 +11068,6 @@ bad_part
 )
 ;
 }
-static
 void
 ReplaceDirection
 (
@@ -11292,7 +11191,6 @@ message
 )
 ;
 }
-static
 void
 ReplaceRejected
 (
@@ -11387,7 +11285,6 @@ message
 ;
 }
 }
-static
 TransportDescription
 MakeTransportDescription
 (
@@ -11434,7 +11331,6 @@ fingerprint
 )
 ;
 }
-static
 std
 :
 :

@@ -785,7 +785,6 @@ least
 significant
 bits
 .
-static
 constexpr
 uint8_t
 kEcnMask

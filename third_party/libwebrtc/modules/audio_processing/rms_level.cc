@@ -149,7 +149,6 @@ webrtc
 {
 namespace
 {
-static
 constexpr
 float
 kMaxSquaredLevel
@@ -178,7 +177,6 @@ is
 10
 )
 .
-static
 constexpr
 float
 kMinLevel

@@ -212,6 +212,9 @@ kDefaultSampleFraction
 5
 ;
 }
+/
+/
+namespace
 FramePairCorruptionScorer
 :
 :

@@ -223,6 +223,9 @@ kNumChannels
 1
 ;
 }
+/
+/
+namespace
 TEST
 (
 TimeStretch

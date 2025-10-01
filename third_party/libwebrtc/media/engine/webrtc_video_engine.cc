@@ -2226,7 +2226,6 @@ return
 output_codecs
 ;
 }
-static
 std
 :
 :
@@ -2324,7 +2323,6 @@ Release
 )
 ;
 }
-static
 bool
 ValidateCodecFormats
 (
@@ -2438,7 +2436,6 @@ return
 true
 ;
 }
-static
 bool
 ValidateStreamParams
 (

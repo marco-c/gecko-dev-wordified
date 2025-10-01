@@ -117,7 +117,6 @@ webrtc
 {
 namespace
 {
-static
 constexpr
 int
 kMaxDimensions

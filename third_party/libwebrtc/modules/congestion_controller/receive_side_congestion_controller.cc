@@ -297,7 +297,6 @@ webrtc
 {
 namespace
 {
-static
 const
 uint32_t
 kTimeOffsetSwitchThreshold

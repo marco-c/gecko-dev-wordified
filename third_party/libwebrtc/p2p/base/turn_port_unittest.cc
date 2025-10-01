@@ -729,7 +729,6 @@ webrtc
 :
 SocketAddress
 ;
-static
 const
 SocketAddress
 kLocalAddr1
@@ -746,7 +745,6 @@ kLocalAddr1
 0
 )
 ;
-static
 const
 SocketAddress
 kLocalAddr2
@@ -763,7 +761,6 @@ kLocalAddr2
 0
 )
 ;
-static
 const
 SocketAddress
 kLocalIPv6Addr
@@ -788,7 +785,6 @@ c3
 0
 )
 ;
-static
 const
 SocketAddress
 kLocalIPv6Addr2
@@ -813,7 +809,6 @@ d4
 0
 )
 ;
-static
 const
 SocketAddress
 kTurnUdpIntAddr
@@ -833,7 +828,6 @@ webrtc
 TURN_SERVER_PORT
 )
 ;
-static
 const
 SocketAddress
 kTurnTcpIntAddr
@@ -853,7 +847,6 @@ webrtc
 TURN_SERVER_PORT
 )
 ;
-static
 const
 SocketAddress
 kTurnUdpExtAddr
@@ -870,7 +863,6 @@ kTurnUdpExtAddr
 0
 )
 ;
-static
 const
 SocketAddress
 kTurnAlternateIntAddr
@@ -905,7 +897,6 @@ Should
 not
 work
 .
-static
 const
 SocketAddress
 kTurnDangerousAddr
@@ -935,7 +926,6 @@ port
 should
 work
 .
-static
 const
 SocketAddress
 kTurnPort53Addr
@@ -965,7 +955,6 @@ port
 should
 work
 .
-static
 const
 SocketAddress
 kTurnPort80Addr
@@ -995,7 +984,6 @@ port
 should
 work
 .
-static
 const
 SocketAddress
 kTurnPort443Addr
@@ -1020,7 +1008,6 @@ TURN
 server
 port
 .
-static
 const
 SocketAddress
 kTurnIntAddr
@@ -1040,7 +1027,6 @@ webrtc
 TURN_SERVER_PORT
 )
 ;
-static
 const
 SocketAddress
 kTurnIPv6IntAddr
@@ -1068,7 +1054,6 @@ webrtc
 TURN_SERVER_PORT
 )
 ;
-static
 const
 SocketAddress
 kTurnUdpIPv6IntAddr
@@ -1096,7 +1081,6 @@ webrtc
 TURN_SERVER_PORT
 )
 ;
-static
 const
 SocketAddress
 kTurnInvalidAddr
@@ -1112,7 +1096,6 @@ invalid
 3478
 )
 ;
-static
 const
 SocketAddress
 kTurnValidAddr
@@ -1128,7 +1111,6 @@ valid
 3478
 )
 ;
-static
 const
 char
 kCandidateFoundation
@@ -1139,7 +1121,6 @@ kCandidateFoundation
 foundation
 "
 ;
-static
 const
 char
 kIceUfrag1
@@ -1150,7 +1131,6 @@ kIceUfrag1
 TESTICEUFRAG0001
 "
 ;
-static
 const
 char
 kIceUfrag2
@@ -1161,7 +1141,6 @@ kIceUfrag2
 TESTICEUFRAG0002
 "
 ;
-static
 const
 char
 kIcePwd1
@@ -1172,7 +1151,6 @@ kIcePwd1
 TESTICEPWD00000000000001
 "
 ;
-static
 const
 char
 kIcePwd2
@@ -1183,7 +1161,6 @@ kIcePwd2
 TESTICEPWD00000000000002
 "
 ;
-static
 const
 char
 kTurnUsername
@@ -1194,7 +1171,6 @@ kTurnUsername
 test
 "
 ;
-static
 const
 char
 kTurnPassword
@@ -1236,7 +1212,6 @@ of
 round
 trips
 .
-static
 constexpr
 unsigned
 int
@@ -1263,7 +1238,6 @@ simulated
 clock
 tick
 .
-static
 constexpr
 unsigned
 int
@@ -1316,7 +1290,6 @@ detail
 id
 =
 5191
-static
 constexpr
 unsigned
 int
@@ -1330,7 +1303,6 @@ kTiebreakerDefault
 =
 44444
 ;
-static
 const
 webrtc
 :
@@ -1345,7 +1317,6 @@ webrtc
 PROTO_UDP
 )
 ;
-static
 const
 webrtc
 :
@@ -1360,7 +1331,6 @@ webrtc
 PROTO_TCP
 )
 ;
-static
 const
 webrtc
 :
@@ -1375,7 +1345,6 @@ webrtc
 PROTO_TLS
 )
 ;
-static
 const
 webrtc
 :
@@ -1390,7 +1359,6 @@ webrtc
 PROTO_UDP
 )
 ;
-static
 const
 webrtc
 :
@@ -1405,7 +1373,6 @@ webrtc
 PROTO_TCP
 )
 ;
-static
 const
 webrtc
 :
@@ -1420,7 +1387,6 @@ webrtc
 PROTO_TCP
 )
 ;
-static
 const
 webrtc
 :
@@ -1435,7 +1401,6 @@ webrtc
 PROTO_TCP
 )
 ;
-static
 const
 webrtc
 :
@@ -1450,7 +1415,6 @@ webrtc
 PROTO_TCP
 )
 ;
-static
 const
 webrtc
 :
@@ -1465,7 +1429,6 @@ webrtc
 PROTO_UDP
 )
 ;
-static
 const
 webrtc
 :
@@ -1493,7 +1456,6 @@ defined
 (
 WEBRTC_ANDROID
 )
-static
 int
 GetFDCount
 (

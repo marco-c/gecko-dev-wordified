@@ -198,7 +198,6 @@ StreamFeedbackObserver
 :
 StreamPacketInfo
 ;
-static
 constexpr
 uint32_t
 kSsrc

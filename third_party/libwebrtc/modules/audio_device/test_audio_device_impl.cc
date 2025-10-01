@@ -198,6 +198,9 @@ kFrameLengthUs
 10000
 ;
 }
+/
+/
+namespace
 TestAudioDevice
 :
 :

@@ -223,7 +223,6 @@ testing
 :
 ValuesIn
 ;
-static
 std
 :
 :

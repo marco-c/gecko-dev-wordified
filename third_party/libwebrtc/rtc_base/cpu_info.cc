@@ -902,7 +902,6 @@ info_type
 }
 #
 else
-static
 inline
 void
 __cpuid

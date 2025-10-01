@@ -264,7 +264,6 @@ codec
 accumulating
 )
 .
-static
 const
 float
 kLayerRateAllocation
@@ -374,7 +373,6 @@ layers
 }
 }
 ;
-static
 const
 float
 kBaseHeavy3TlRateAllocation

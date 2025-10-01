@@ -134,6 +134,9 @@ kWindowMs
 500
 ;
 }
+/
+/
+namespace
 IntervalBudget
 :
 :

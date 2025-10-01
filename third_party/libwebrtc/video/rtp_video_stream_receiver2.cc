@@ -1481,7 +1481,6 @@ clock
 )
 ;
 }
-static
 const
 int
 kPacketLogIntervalMs

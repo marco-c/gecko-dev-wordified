@@ -272,7 +272,6 @@ in
 Q13
 *
 /
-static
 const
 int16_t
 kSlope1
@@ -299,7 +298,6 @@ in
 Q14
 *
 /
-static
 const
 int16_t
 kOffset1
@@ -327,7 +325,6 @@ in
 Q13
 *
 /
-static
 const
 int16_t
 kSlope2
@@ -354,7 +351,6 @@ in
 Q14
 *
 /
-static
 const
 int16_t
 kOffset2
@@ -373,21 +369,18 @@ kOffset2
 17286
 }
 ;
-static
 const
 int16_t
 kMuteGuardTimeMs
 =
 8000
 ;
-static
 const
 int16_t
 kInitCheck
 =
 42
 ;
-static
 const
 size_t
 kNumSubframes
@@ -636,7 +629,6 @@ linspace
 Q12
 *
 /
-static
 const
 uint16_t
 kGainTableAnalog
@@ -694,7 +686,6 @@ Q10
 )
 *
 /
-static
 const
 uint16_t
 kGainTableVirtualMic
@@ -833,7 +824,6 @@ kGainTableVirtualMic
 32382
 }
 ;
-static
 const
 uint16_t
 kSuppressionTableVirtualMic
@@ -1046,7 +1036,6 @@ round
 )
 *
 /
-static
 const
 int32_t
 kTargetLevelTable

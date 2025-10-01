@@ -347,7 +347,6 @@ webrtc
 {
 namespace
 {
-static
 constexpr
 TimeDelta
 kEventTimeout

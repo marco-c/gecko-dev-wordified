@@ -158,7 +158,6 @@ kMaxValidSizeCheck
 =
 1024
 ;
-static
 constexpr
 int
 kFftSizes

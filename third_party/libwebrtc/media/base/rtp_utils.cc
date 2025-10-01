@@ -293,7 +293,6 @@ actual
 HMAC
 value
 .
-static
 const
 uint8_t
 kFakeAuthTag

@@ -276,7 +276,6 @@ defined
 WEBRTC_HAS_NEON
 )
 )
-static
 void
 cft1st_128_C
 (
@@ -1412,7 +1411,6 @@ x0r
 ;
 }
 }
-static
 void
 cftmdl_128_C
 (
@@ -2777,7 +2775,6 @@ x0r
 }
 }
 }
-static
 void
 rftfsub_128_C
 (
@@ -2956,7 +2953,6 @@ yi
 ;
 }
 }
-static
 void
 rftbsub_128_C
 (

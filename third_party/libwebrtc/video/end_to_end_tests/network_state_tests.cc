@@ -407,6 +407,9 @@ kSilenceTimeoutMs
 2000
 ;
 }
+/
+/
+namespace
 class
 NetworkStateEndToEndTest
 :

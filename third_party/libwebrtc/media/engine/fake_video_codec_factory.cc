@@ -192,7 +192,6 @@ h
 "
 namespace
 {
-static
 const
 char
 kFakeCodecFactoryCodecName

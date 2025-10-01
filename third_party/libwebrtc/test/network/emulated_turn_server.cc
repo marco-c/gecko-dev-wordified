@@ -281,7 +281,6 @@ h
 "
 namespace
 {
-static
 const
 char
 kTestRealm
@@ -294,7 +293,6 @@ example
 org
 "
 ;
-static
 const
 char
 kTestSoftware

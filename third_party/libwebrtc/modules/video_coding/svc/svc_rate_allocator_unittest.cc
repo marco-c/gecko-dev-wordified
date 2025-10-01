@@ -307,7 +307,6 @@ testing
 :
 TestWithParam
 ;
-static
 VideoCodec
 Configure
 (

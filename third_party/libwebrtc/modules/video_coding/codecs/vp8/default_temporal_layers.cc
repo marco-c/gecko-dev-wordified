@@ -417,7 +417,6 @@ FreezeEntropy
 :
 kFreezeEntropy
 ;
-static
 constexpr
 uint8_t
 kUninitializedPatternIndex
@@ -435,7 +434,6 @@ max
 (
 )
 ;
-static
 constexpr
 std
 :

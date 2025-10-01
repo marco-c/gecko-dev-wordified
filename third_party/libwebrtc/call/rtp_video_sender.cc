@@ -770,7 +770,6 @@ namespace
 webrtc_internal_rtp_video_sender
 namespace
 {
-static
 const
 int
 kMinSendSidePacketHistorySize
@@ -796,7 +795,6 @@ standard
 ethernet
 MTU
 .
-static
 const
 size_t
 kPathMTU

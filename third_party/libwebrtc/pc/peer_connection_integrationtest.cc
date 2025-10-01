@@ -11600,7 +11600,6 @@ media_expectations
 )
 ;
 }
-static
 void
 MakeSpecCompliantMaxBundleOffer
 (

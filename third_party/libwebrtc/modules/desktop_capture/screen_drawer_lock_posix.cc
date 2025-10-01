@@ -168,7 +168,6 @@ name
 of
 semaphore
 .
-static
 constexpr
 char
 kSemaphoreName

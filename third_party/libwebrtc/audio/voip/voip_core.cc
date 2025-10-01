@@ -230,7 +230,6 @@ for
 /
 logging
 .
-static
 constexpr
 int
 kMaxChannelId

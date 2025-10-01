@@ -242,7 +242,6 @@ umax
 "
 )
 ;
-static
 const
 std
 :
@@ -258,7 +257,6 @@ p1
 1
 )
 ;
-static
 const
 std
 :

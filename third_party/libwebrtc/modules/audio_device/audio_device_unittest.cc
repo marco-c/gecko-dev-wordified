@@ -657,7 +657,6 @@ test
 was
 OK
 .
-static
 constexpr
 size_t
 kNumCallbacks
@@ -682,7 +681,6 @@ while
 counting
 callbacks
 .
-static
 constexpr
 TimeDelta
 kTestTimeOut
@@ -709,7 +707,6 @@ assuming
 packet
 size
 .
-static
 constexpr
 size_t
 kNumCallbacksPerSecond
@@ -734,7 +731,6 @@ in
 seconds
 )
 .
-static
 constexpr
 TimeDelta
 kFullDuplexTime
@@ -781,7 +777,6 @@ is
 not
 used
 .
-static
 constexpr
 TimeDelta
 kMeasureLatencyTime
@@ -808,7 +803,6 @@ the
 latency
 test
 .
-static
 constexpr
 size_t
 kImpulseFrequencyInHz
@@ -830,7 +824,6 @@ capturing
 noise
 samples
 .
-static
 constexpr
 int
 kImpulseThreshold

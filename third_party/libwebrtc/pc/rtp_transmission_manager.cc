@@ -393,7 +393,6 @@ webrtc
 {
 namespace
 {
-static
 const
 char
 kDefaultAudioSenderId
@@ -404,7 +403,6 @@ kDefaultAudioSenderId
 defaulta0
 "
 ;
-static
 const
 char
 kDefaultVideoSenderId

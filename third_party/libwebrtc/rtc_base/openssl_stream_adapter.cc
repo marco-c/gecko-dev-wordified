@@ -504,7 +504,6 @@ in
 RFC
 5764
 .
-static
 constexpr
 absl
 :

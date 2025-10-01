@@ -212,6 +212,9 @@ Millis
 )
 ;
 }
+/
+/
+namespace
 bool
 FrameHasBadRenderTiming
 (

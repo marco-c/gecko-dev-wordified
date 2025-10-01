@@ -314,7 +314,6 @@ webrtc
 {
 namespace
 {
-static
 const
 size_t
 kMaxNumSamples
@@ -333,14 +332,12 @@ ms
 kHz
 stereo
 .
-static
 const
 size_t
 kMockReturnEncodedBytes
 =
 17
 ;
-static
 const
 int
 kCngPayloadType

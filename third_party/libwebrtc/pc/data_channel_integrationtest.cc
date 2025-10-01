@@ -8727,7 +8727,6 @@ media_expectations
 )
 ;
 }
-static
 void
 MakeSpecCompliantSctpOffer
 (
@@ -14702,7 +14701,6 @@ nullptr
 }
 }
 ;
-static
 const
 char
 *

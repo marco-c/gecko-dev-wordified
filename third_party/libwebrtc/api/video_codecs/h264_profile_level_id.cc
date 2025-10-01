@@ -703,7 +703,6 @@ A
 Level
 limits
 .
-static
 constexpr
 LevelConstraint
 kLevelConstraints

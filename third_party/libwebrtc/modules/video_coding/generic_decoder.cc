@@ -410,6 +410,9 @@ kDecoderFrameMemoryLength
 10
 ;
 }
+/
+/
+namespace
 VCMDecodedFrameCallback
 :
 :

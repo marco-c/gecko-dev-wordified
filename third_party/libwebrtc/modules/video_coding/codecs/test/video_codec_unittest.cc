@@ -412,6 +412,9 @@ false
 )
 ;
 }
+/
+/
+namespace
 EncodedImageCallback
 :
 :

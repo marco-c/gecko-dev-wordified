@@ -396,7 +396,6 @@ buffer
 will
 hold
 .
-static
 constexpr
 size_t
 kMaxFramesBuffered
@@ -416,7 +415,6 @@ will
 be
 saved
 .
-static
 constexpr
 int
 kMaxFramesHistory
@@ -450,7 +448,6 @@ renderer
 is
 used
 .
-static
 constexpr
 size_t
 kZeroPlayoutDelayDefaultMaxDecodeQueueSize

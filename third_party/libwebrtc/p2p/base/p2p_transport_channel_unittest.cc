@@ -1144,28 +1144,24 @@ the
 tests
 reliably
 .
-static
 const
 int
 kDefaultTimeout
 =
 10000
 ;
-static
 const
 int
 kMediumTimeout
 =
 3000
 ;
-static
 const
 int
 kShortTimeout
 =
 1000
 ;
-static
 const
 int
 kOnlyLocalPorts
@@ -1185,7 +1181,6 @@ webrtc
 :
 PORTALLOCATOR_DISABLE_TCP
 ;
-static
 const
 int
 LOW_RTT
@@ -1200,7 +1195,6 @@ the
 public
 internet
 .
-static
 const
 SocketAddress
 kPublicAddrs
@@ -1246,7 +1240,6 @@ the
 public
 internet
 .
-static
 const
 SocketAddress
 kIPv6PublicAddrs
@@ -1306,7 +1299,6 @@ configuring
 multihomed
 clients
 .
-static
 const
 SocketAddress
 kAlternateAddrs
@@ -1343,7 +1335,6 @@ SocketAddress
 )
 }
 ;
-static
 const
 SocketAddress
 kIPv6AlternateAddrs
@@ -1404,7 +1395,6 @@ for
 NAT
 boxes
 .
-static
 const
 SocketAddress
 kNatAddrs
@@ -1451,7 +1441,6 @@ NAT
 private
 networks
 .
-static
 const
 SocketAddress
 kPrivateAddrs
@@ -1502,7 +1491,6 @@ inner
 NAT
 boxes
 .
-static
 const
 SocketAddress
 kCascadedNatAddrs
@@ -1552,7 +1540,6 @@ inner
 private
 networks
 .
-static
 const
 SocketAddress
 kCascadedPrivateAddrs
@@ -1599,7 +1586,6 @@ public
 STUN
 server
 .
-static
 const
 SocketAddress
 kStunAddr
@@ -1629,7 +1615,6 @@ public
 turn
 server
 .
-static
 const
 SocketAddress
 kTurnUdpIntAddr
@@ -1649,7 +1634,6 @@ webrtc
 STUN_SERVER_PORT
 )
 ;
-static
 const
 SocketAddress
 kTurnTcpIntAddr
@@ -1671,7 +1655,6 @@ STUN_SERVER_PORT
 1
 )
 ;
-static
 const
 SocketAddress
 kTurnUdpExtAddr
@@ -1688,7 +1671,6 @@ kTurnUdpExtAddr
 0
 )
 ;
-static
 const
 webrtc
 :

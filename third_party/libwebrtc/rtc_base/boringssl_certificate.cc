@@ -321,7 +321,6 @@ nid
 .
 h
 .
-static
 const
 uint8_t
 kMD5WithRSA
@@ -336,7 +335,6 @@ kMD5WithRSA
 0x03
 }
 ;
-static
 const
 uint8_t
 kMD5WithRSAEncryption
@@ -355,7 +353,6 @@ kMD5WithRSAEncryption
 0x04
 }
 ;
-static
 const
 uint8_t
 kECDSAWithSHA1
@@ -372,7 +369,6 @@ kECDSAWithSHA1
 0x01
 }
 ;
-static
 const
 uint8_t
 kDSAWithSHA1
@@ -389,7 +385,6 @@ kDSAWithSHA1
 0x03
 }
 ;
-static
 const
 uint8_t
 kDSAWithSHA1_2
@@ -404,7 +399,6 @@ kDSAWithSHA1_2
 0x1b
 }
 ;
-static
 const
 uint8_t
 kSHA1WithRSA
@@ -419,7 +413,6 @@ kSHA1WithRSA
 0x1d
 }
 ;
-static
 const
 uint8_t
 kSHA1WithRSAEncryption
@@ -438,7 +431,6 @@ kSHA1WithRSAEncryption
 0x05
 }
 ;
-static
 const
 uint8_t
 kECDSAWithSHA224
@@ -456,7 +448,6 @@ kECDSAWithSHA224
 0x01
 }
 ;
-static
 const
 uint8_t
 kSHA224WithRSAEncryption
@@ -475,7 +466,6 @@ kSHA224WithRSAEncryption
 0x0e
 }
 ;
-static
 const
 uint8_t
 kDSAWithSHA224
@@ -494,7 +484,6 @@ kDSAWithSHA224
 0x01
 }
 ;
-static
 const
 uint8_t
 kECDSAWithSHA256
@@ -512,7 +501,6 @@ kECDSAWithSHA256
 0x02
 }
 ;
-static
 const
 uint8_t
 kSHA256WithRSAEncryption
@@ -531,7 +519,6 @@ kSHA256WithRSAEncryption
 0x0b
 }
 ;
-static
 const
 uint8_t
 kDSAWithSHA256
@@ -550,7 +537,6 @@ kDSAWithSHA256
 0x02
 }
 ;
-static
 const
 uint8_t
 kECDSAWithSHA384
@@ -568,7 +554,6 @@ kECDSAWithSHA384
 0x03
 }
 ;
-static
 const
 uint8_t
 kSHA384WithRSAEncryption
@@ -587,7 +572,6 @@ kSHA384WithRSAEncryption
 0x0c
 }
 ;
-static
 const
 uint8_t
 kECDSAWithSHA512
@@ -605,7 +589,6 @@ kECDSAWithSHA512
 0x04
 }
 ;
-static
 const
 uint8_t
 kSHA512WithRSAEncryption
@@ -642,7 +625,6 @@ log
 for
 debugging
 .
-static
 void
 PrintCert
 (
@@ -1227,7 +1209,6 @@ the
 returned
 object
 .
-static
 bssl
 :
 :

@@ -634,7 +634,6 @@ webrtc
 :
 SocketAddress
 ;
-static
 const
 SocketAddress
 kPrivateIP
@@ -651,7 +650,6 @@ kPrivateIP
 0
 )
 ;
-static
 const
 SocketAddress
 kMsdnAddress
@@ -670,7 +668,6 @@ local
 0
 )
 ;
-static
 const
 SocketAddress
 kPublicIP
@@ -687,7 +684,6 @@ kPublicIP
 0
 )
 ;
-static
 const
 SocketAddress
 kNatAddr
@@ -703,7 +699,6 @@ webrtc
 NAT_SERVER_UDP_PORT
 )
 ;
-static
 const
 SocketAddress
 kStunServerAddr1
@@ -720,7 +715,6 @@ kStunServerAddr1
 5000
 )
 ;
-static
 const
 SocketAddress
 kStunServerAddr2
@@ -737,7 +731,6 @@ kStunServerAddr2
 4000
 )
 ;
-static
 const
 SocketAddress
 kPrivateIPv6
@@ -755,7 +748,6 @@ kPrivateIPv6
 0
 )
 ;
-static
 const
 SocketAddress
 kPublicIPv6
@@ -773,7 +765,6 @@ kPublicIPv6
 5000
 )
 ;
-static
 const
 SocketAddress
 kNatAddrIPv6
@@ -789,7 +780,6 @@ webrtc
 NAT_SERVER_UDP_PORT
 )
 ;
-static
 const
 SocketAddress
 kStunServerAddrIPv6Addr
@@ -807,7 +797,6 @@ kStunServerAddrIPv6Addr
 5000
 )
 ;
-static
 const
 SocketAddress
 kBadAddr
@@ -824,7 +813,6 @@ kBadAddr
 5000
 )
 ;
-static
 const
 SocketAddress
 kIPv6BadAddr
@@ -841,7 +829,6 @@ ffff
 5000
 )
 ;
-static
 const
 SocketAddress
 kValidHostnameAddr
@@ -854,7 +841,6 @@ hostname
 5000
 )
 ;
-static
 const
 SocketAddress
 kBadHostnameAddr
@@ -897,7 +883,6 @@ for
 slow
 bots
 .
-static
 const
 int
 kTimeoutMs
@@ -934,7 +919,6 @@ IPv4
 (
 component
 )
-static
 const
 uint32_t
 kStunCandidatePriority
@@ -986,7 +970,6 @@ IPv6
 (
 component
 )
-static
 const
 uint32_t
 kIPv6StunCandidatePriority
@@ -1011,7 +994,6 @@ kIPv6StunCandidatePriority
 1
 )
 ;
-static
 const
 int
 kInfiniteLifetime
@@ -1019,7 +1001,6 @@ kInfiniteLifetime
 -
 1
 ;
-static
 const
 int
 kHighCostPortKeepaliveLifetimeMs
@@ -6408,7 +6389,6 @@ address_type
 )
 ;
 }
-static
 const
 IPAddressTypeTestConfig
 kAllIPAddressTypeTestConfigs
@@ -8485,7 +8465,6 @@ address_type
 )
 ;
 }
-static
 const
 IPAddressTypeTestConfig
 kAllIPv6AddressTypeTestConfigs

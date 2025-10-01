@@ -445,6 +445,9 @@ max
 )
 ;
 }
+/
+/
+namespace
 namespace
 webrtc
 {

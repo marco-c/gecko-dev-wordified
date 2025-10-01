@@ -511,7 +511,6 @@ key
 .
 pem
 2048
-static
 const
 char
 kRSA_PRIVATE_KEY_PEM
@@ -844,7 +843,6 @@ certificate
 is
 expired
 .
-static
 const
 char
 kCERT_PEM
@@ -1035,7 +1033,6 @@ www
 webrtc
 .
 org
-static
 const
 char
 kIntCert1
@@ -1337,7 +1334,6 @@ www
 webrtc
 .
 org
-static
 const
 char
 kCACert
@@ -2824,14 +2820,12 @@ buffer_
 ;
 }
 ;
-static
 const
 int
 kBufferCapacity
 =
 1
 ;
-static
 const
 size_t
 kDefaultBufferSize

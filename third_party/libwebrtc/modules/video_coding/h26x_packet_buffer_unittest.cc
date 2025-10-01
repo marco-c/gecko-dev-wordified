@@ -411,7 +411,6 @@ aMljiA
 =
 "
 ;
-static
 const
 std
 :
@@ -433,7 +432,6 @@ kExampleSpropRawSps
 0x88
 }
 ;
-static
 const
 std
 :

@@ -253,7 +253,6 @@ MAX_RESAMP_LEN
 *
 FRAME_LEN
 )
-static
 const
 size_t
 kBufSizeSamp
@@ -269,7 +268,6 @@ size
 (
 samples
 )
-static
 const
 int
 kSampMsNb
@@ -305,7 +303,6 @@ log
 .
 00000001
 }
-static
 const
 int
 kInitCheck

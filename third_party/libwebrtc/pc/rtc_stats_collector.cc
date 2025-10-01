@@ -747,7 +747,6 @@ kDirectionOutbound
 O
 '
 ;
-static
 constexpr
 char
 kAudioPlayoutSingletonId

@@ -728,7 +728,6 @@ endif
 namespace
 variable_framerate_screenshare
 {
-static
 constexpr
 double
 kMinFps
@@ -737,7 +736,6 @@ kMinFps
 .
 0
 ;
-static
 constexpr
 int
 kUndershootPct

@@ -491,7 +491,6 @@ webrtc
 {
 namespace
 {
-static
 const
 char
 kIceUfrag1
@@ -502,7 +501,6 @@ kIceUfrag1
 U001
 "
 ;
-static
 const
 char
 kIcePwd1
@@ -513,7 +511,6 @@ kIcePwd1
 TESTICEPWD00000000000001
 "
 ;
-static
 const
 char
 kIceUfrag2
@@ -524,7 +521,6 @@ kIceUfrag2
 U002
 "
 ;
-static
 const
 char
 kIcePwd2
@@ -535,7 +531,6 @@ kIcePwd2
 TESTIEPWD00000000000002
 "
 ;
-static
 const
 char
 kTransportName

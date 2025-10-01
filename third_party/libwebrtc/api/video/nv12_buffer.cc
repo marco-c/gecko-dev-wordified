@@ -232,7 +232,6 @@ webrtc
 {
 namespace
 {
-static
 const
 int
 kBufferAlignment

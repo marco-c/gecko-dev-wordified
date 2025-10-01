@@ -1222,7 +1222,6 @@ of
 RTCP
 CNAMEs
 .
-static
 const
 int
 kRtcpCnameLength
@@ -1239,7 +1238,6 @@ the
 MID
 attribute
 .
-static
 constexpr
 size_t
 kMidMaxSize
@@ -1266,7 +1264,6 @@ peer_connection
 .
 cc
 :
-static
 const
 char
 kDefaultAudioSenderId
@@ -1277,7 +1274,6 @@ kDefaultAudioSenderId
 defaulta0
 "
 ;
-static
 const
 char
 kDefaultVideoSenderId

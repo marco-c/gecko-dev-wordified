@@ -118,14 +118,12 @@ videocontenttypehelpers
 {
 namespace
 {
-static
 constexpr
 uint8_t
 kScreenshareBitsSize
 =
 1
 ;
-static
 constexpr
 uint8_t
 kScreenshareBitsMask

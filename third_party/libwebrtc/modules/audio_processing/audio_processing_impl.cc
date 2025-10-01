@@ -977,14 +977,12 @@ to
 AEC3
 )
 .
-static
 const
 size_t
 kMaxAllowedValuesOfSamplesPerBand
 =
 160
 ;
-static
 const
 size_t
 kMaxAllowedValuesOfSamplesPerFrame
@@ -1027,7 +1025,6 @@ forward
 call
 numbers
 .
-static
 const
 size_t
 kMaxNumFramesToBuffer

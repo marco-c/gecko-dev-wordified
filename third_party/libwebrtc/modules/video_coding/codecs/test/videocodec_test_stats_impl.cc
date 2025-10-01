@@ -243,6 +243,9 @@ kMaxBitrateMismatchPercent
 20
 ;
 }
+/
+/
+namespace
 VideoCodecTestStatsImpl
 :
 :

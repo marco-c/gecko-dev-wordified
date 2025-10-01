@@ -214,7 +214,6 @@ for
 given
 resolution
 .
-static
 constexpr
 int
 kMinCbSizeYMax
@@ -381,7 +380,6 @@ than
 is
 536
 .
-static
 constexpr
 LevelConstraint
 kLevelConstraints

@@ -1427,7 +1427,6 @@ the
 OS
 )
 .
-static
 std
 :
 :
@@ -1521,7 +1520,6 @@ thereafter
 #
 if
 RTC_DCHECK_IS_ON
-static
 std
 :
 :

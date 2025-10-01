@@ -217,28 +217,24 @@ kRewriteRequired_NoBitstreamRestriction
 kRewriteRequired_VuiSuboptimal
 }
 ;
-static
 const
 size_t
 kSpsBufferMaxSize
 =
 256
 ;
-static
 const
 size_t
 kWidth
 =
 640
 ;
-static
 const
 size_t
 kHeight
 =
 480
 ;
-static
 const
 uint8_t
 kStartSequence
@@ -252,7 +248,6 @@ kStartSequence
 0x01
 }
 ;
-static
 const
 uint8_t
 kAud
@@ -271,7 +266,6 @@ kAud
 0x10
 }
 ;
-static
 const
 uint8_t
 kSpsNaluType
@@ -288,7 +282,6 @@ NaluType
 kSps
 }
 ;
-static
 const
 uint8_t
 kIdr1
@@ -309,7 +302,6 @@ kIdr
 0x04
 }
 ;
-static
 const
 uint8_t
 kIdr2
@@ -364,7 +356,6 @@ matrix_coefficients
 ;
 }
 ;
-static
 const
 VuiHeader
 kVuiNotPresent
@@ -442,7 +433,6 @@ matrix_coefficients
 0
 }
 ;
-static
 const
 VuiHeader
 kVuiNoBitstreamRestriction
@@ -520,7 +510,6 @@ matrix_coefficients
 0
 }
 ;
-static
 const
 VuiHeader
 kVuiNoFrameBuffering
@@ -598,7 +587,6 @@ matrix_coefficients
 0
 }
 ;
-static
 const
 VuiHeader
 kVuiFrameBuffering
@@ -676,7 +664,6 @@ matrix_coefficients
 0
 }
 ;
-static
 const
 VuiHeader
 kVuiNoVideoSignalType
@@ -754,7 +741,6 @@ matrix_coefficients
 0
 }
 ;
-static
 const
 VuiHeader
 kVuiLimitedRangeNoColourDescription
@@ -832,7 +818,6 @@ matrix_coefficients
 0
 }
 ;
-static
 const
 VuiHeader
 kVuiFullRangeNoColourDescription
@@ -910,7 +895,6 @@ matrix_coefficients
 0
 }
 ;
-static
 const
 VuiHeader
 kVuiLimitedRangeBt709Color
@@ -988,7 +972,6 @@ matrix_coefficients
 1
 }
 ;
-static
 const
 ColorSpace
 kColorSpaceH264Default
@@ -1023,7 +1006,6 @@ RangeID
 kLimited
 )
 ;
-static
 const
 ColorSpace
 kColorSpacePrimariesBt709
@@ -1058,7 +1040,6 @@ RangeID
 kLimited
 )
 ;
-static
 const
 ColorSpace
 kColorSpaceTransferBt709
@@ -1093,7 +1074,6 @@ RangeID
 kLimited
 )
 ;
-static
 const
 ColorSpace
 kColorSpaceMatrixBt709
@@ -1128,7 +1108,6 @@ RangeID
 kLimited
 )
 ;
-static
 const
 ColorSpace
 kColorSpaceFullRange
@@ -1163,7 +1142,6 @@ RangeID
 kFull
 )
 ;
-static
 const
 ColorSpace
 kColorSpaceBt709LimitedRange

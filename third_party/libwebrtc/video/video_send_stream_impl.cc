@@ -779,7 +779,6 @@ as
 similar
 "
 .
-static
 constexpr
 int
 kMaxVbaSizeDifferencePercent
@@ -798,7 +797,6 @@ video
 bitrate
 allocations
 .
-static
 constexpr
 int64_t
 kMaxVbaThrottleTimeMs
@@ -934,7 +932,6 @@ slow
 initial
 rampup
 .
-static
 constexpr
 double
 kStrictPacingMultiplier

@@ -259,7 +259,6 @@ channel
 in
 8
 kHz
-static
 const
 int16_t
 kChannelStored8kHz
@@ -345,7 +344,6 @@ channel
 in
 16
 kHz
-static
 const
 int16_t
 kChannelStored16kHz

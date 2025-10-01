@@ -154,6 +154,9 @@ Millis
 )
 ;
 }
+/
+/
+namespace
 class
 FrameRateEstimatorTest
 :

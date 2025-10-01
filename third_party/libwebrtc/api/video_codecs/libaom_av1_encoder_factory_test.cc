@@ -1661,7 +1661,6 @@ ToI420
 )
 ;
 }
-static
 constexpr
 VideoEncoderFactoryInterface
 :
@@ -1739,7 +1738,6 @@ max_number_of_threads
 1
 }
 ;
-static
 constexpr
 VideoEncoderFactoryInterface
 :
@@ -1797,7 +1795,6 @@ max_number_of_threads
 1
 }
 ;
-static
 constexpr
 Cbr
 kCbr

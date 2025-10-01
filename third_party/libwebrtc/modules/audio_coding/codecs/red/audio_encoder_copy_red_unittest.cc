@@ -319,7 +319,6 @@ webrtc
 {
 namespace
 {
-static
 const
 size_t
 kMaxNumSamples
@@ -338,7 +337,6 @@ ms
 kHz
 stereo
 .
-static
 const
 size_t
 kRedLastHeaderLength
