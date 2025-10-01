@@ -143,8 +143,6 @@ withNewTab
 about
 :
 preferences
-#
-sync
 "
 async
 browser
