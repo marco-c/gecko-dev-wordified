@@ -876,14 +876,6 @@ ports
 ]
 +
 )
-(
-[
-0
--
-9
-]
-+
-)
 and
 (
 [
@@ -1003,29 +995,13 @@ group
                     
 self
 .
-_ports
-[
-"
-MOZHTTP3_PORT_MASQUE
-"
-]
-=
-searchObj
-.
-group
-(
-6
-)
-                    
-self
-.
 _echConfig
 =
 searchObj
 .
 group
 (
-7
+6
 )
             
 else
