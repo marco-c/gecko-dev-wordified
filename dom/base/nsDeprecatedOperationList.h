@@ -312,10 +312,6 @@ MathML_DeprecatedMathVariant
 )
 DEPRECATED_OPERATION
 (
-MathML_DeprecatedStixgeneralOperatorStretching
-)
-DEPRECATED_OPERATION
-(
 FormSubmissionUntrustedEvent
 )
 DEPRECATED_OPERATION
