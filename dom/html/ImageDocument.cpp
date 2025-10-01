@@ -307,6 +307,13 @@ h
 #
 include
 "
+nsDOMCSSDeclaration
+.
+h
+"
+#
+include
+"
 nsDOMTokenList
 .
 h
@@ -336,13 +343,6 @@ h
 include
 "
 nsGkAtoms
-.
-h
-"
-#
-include
-"
-nsICSSDeclaration
 .
 h
 "
@@ -3401,7 +3401,7 @@ aImageRendering
 }
 nsCOMPtr
 <
-nsICSSDeclaration
+nsDOMCSSDeclaration
 >
 style
 =

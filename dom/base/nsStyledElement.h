@@ -390,7 +390,7 @@ aParent
 )
 override
 ;
-nsICSSDeclaration
+nsDOMCSSDeclaration
 *
 Style
 (
@@ -433,7 +433,7 @@ true
 }
 protected
 :
-nsICSSDeclaration
+nsDOMCSSDeclaration
 *
 GetExistingStyle
 (

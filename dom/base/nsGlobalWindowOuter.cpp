@@ -44159,7 +44159,7 @@ aIsEnteringBFCacheInParent
 }
 already_AddRefed
 <
-nsICSSDeclaration
+nsDOMCSSDeclaration
 >
 nsGlobalWindowOuter
 :
@@ -44192,7 +44192,7 @@ nullptr
 }
 RefPtr
 <
-nsICSSDeclaration
+nsDOMCSSDeclaration
 >
 compStyle
 =

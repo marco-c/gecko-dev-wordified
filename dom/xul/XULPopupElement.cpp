@@ -237,14 +237,14 @@ h
 #
 include
 "
-nsGkAtoms
+nsDOMCSSDeclaration
 .
 h
 "
 #
 include
 "
-nsICSSDeclaration
+nsGkAtoms
 .
 h
 "
@@ -1474,7 +1474,7 @@ px
 ;
 nsCOMPtr
 <
-nsICSSDeclaration
+nsDOMCSSDeclaration
 >
 style
 =

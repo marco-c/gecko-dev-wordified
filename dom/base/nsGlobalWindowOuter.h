@@ -5548,7 +5548,7 @@ and
 getDefaultComputedStyle
 already_AddRefed
 <
-nsICSSDeclaration
+nsDOMCSSDeclaration
 >
 GetComputedStyleHelperOuter
 (

@@ -1014,7 +1014,7 @@ mStyledElement
 const
 nsCOMPtr
 <
-nsICSSDeclaration
+nsDOMCSSDeclaration
 >
 cssDecl
 =
@@ -1558,7 +1558,7 @@ propertyNameString
 const
 nsCOMPtr
 <
-nsICSSDeclaration
+nsDOMCSSDeclaration
 >
 cssDecl
 =

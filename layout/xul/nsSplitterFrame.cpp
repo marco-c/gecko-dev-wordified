@@ -279,6 +279,13 @@ h
 #
 include
 "
+nsDOMCSSDeclaration
+.
+h
+"
+#
+include
+"
 nsDisplayList
 .
 h
@@ -308,13 +315,6 @@ h
 include
 "
 nsHTMLParts
-.
-h
-"
-#
-include
-"
-nsICSSDeclaration
 .
 h
 "
@@ -5370,7 +5370,7 @@ IgnoreErrors
 ;
 nsCOMPtr
 <
-nsICSSDeclaration
+nsDOMCSSDeclaration
 >
 decl
 =

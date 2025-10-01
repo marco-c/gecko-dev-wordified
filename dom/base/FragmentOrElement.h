@@ -264,10 +264,10 @@ class
 nsIControllers
 ;
 class
-nsICSSDeclaration
+nsDOMCSSAttributeDeclaration
 ;
 class
-nsDOMCSSAttributeDeclaration
+nsDOMCSSDeclaration
 ;
 class
 nsDOMStringMap
@@ -1675,7 +1675,7 @@ GetStyle
 /
 nsCOMPtr
 <
-nsICSSDeclaration
+nsDOMCSSDeclaration
 >
 mStyle
 ;
