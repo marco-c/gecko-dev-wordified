@@ -4387,6 +4387,17 @@ const
 OriginInfosNestedTraversable
 &
 aDoomedOriginInfos
+const
+Maybe
+<
+size_t
+>
+&
+aMaxOriginsToClear
+=
+Nothing
+(
+)
 )
 ;
 void
