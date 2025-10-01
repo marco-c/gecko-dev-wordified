@@ -7524,7 +7524,16 @@ Continue
 DebugQueryKind
 :
 :
-Compositor
+CompositorView
+{
+.
+.
+}
+|
+DebugQueryKind
+:
+:
+CompositorConfig
 {
 .
 .
