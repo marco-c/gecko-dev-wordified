@@ -7824,6 +7824,9 @@ taskId
 ]
 )
             
+try
+:
+                
 task_graph
 =
 get_artifact
@@ -7844,6 +7847,33 @@ graph
 json
 "
 )
+            
+except
+requests
+.
+exceptions
+.
+HTTPError
+as
+e
+:
+                
+if
+e
+.
+response
+.
+status_code
+!
+=
+404
+:
+                    
+raise
+                
+task_graph
+=
+None
             
 if
 task_graph
