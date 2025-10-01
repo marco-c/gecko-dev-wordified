@@ -3994,7 +3994,7 @@ nurseryOwned
 markNurseryOwnedAlloc
 (
 result
-false
+true
 )
 ;
 }
@@ -5051,7 +5051,7 @@ void
 *
 alloc
 bool
-ownerWasTenured
+nurseryOwned
 )
 {
 MOZ_ASSERT
@@ -5111,7 +5111,7 @@ zone
 markLargeNurseryOwnedBuffer
 (
 buffer
-ownerWasTenured
+nurseryOwned
 )
 ;
 return
@@ -5128,7 +5128,7 @@ alloc
 markSmallNurseryOwnedBuffer
 (
 alloc
-ownerWasTenured
+nurseryOwned
 )
 ;
 return
@@ -5145,7 +5145,7 @@ alloc
 markMediumNurseryOwnedBuffer
 (
 alloc
-ownerWasTenured
+nurseryOwned
 )
 ;
 }
@@ -5159,7 +5159,7 @@ void
 *
 alloc
 bool
-ownerWasTenured
+nurseryOwned
 )
 {
 #
@@ -5233,7 +5233,8 @@ alloc
 ;
 if
 (
-ownerWasTenured
+!
+nurseryOwned
 )
 {
 region
@@ -5306,7 +5307,7 @@ void
 *
 alloc
 bool
-ownerWasTenured
+nurseryOwned
 )
 {
 BufferChunk
@@ -5388,15 +5389,15 @@ alloc
 increaseHeapSize
 (
 size
-!
-ownerWasTenured
+nurseryOwned
 false
 false
 )
 ;
 if
 (
-ownerWasTenured
+!
+nurseryOwned
 )
 {
 /
@@ -5451,7 +5452,7 @@ LargeBuffer
 *
 buffer
 bool
-ownerWasTenured
+nurseryOwned
 )
 {
 MOZ_ASSERT
@@ -5520,8 +5521,7 @@ buffer
 {
 MOZ_ASSERT
 (
-!
-ownerWasTenured
+nurseryOwned
 )
 ;
 return
@@ -5530,7 +5530,7 @@ return
 markSmallNurseryOwnedBuffer
 (
 buffer
-ownerWasTenured
+nurseryOwned
 )
 ;
 largeNurseryAllocsToSweep
@@ -5557,15 +5557,15 @@ allocBytes
 increaseHeapSize
 (
 usableSize
-!
-ownerWasTenured
+nurseryOwned
 false
 false
 )
 ;
 if
 (
-ownerWasTenured
+!
+nurseryOwned
 )
 {
 buffer
@@ -6035,6 +6035,7 @@ alloc
 markSmallNurseryOwnedBuffer
 (
 alloc
+!
 owner
 -
 >
@@ -6144,6 +6145,7 @@ alloc
 markMediumNurseryOwnedBuffer
 (
 alloc
+!
 owner
 -
 >
@@ -6247,6 +6249,7 @@ isNurseryOwned
 markLargeNurseryOwnedBuffer
 (
 buffer
+!
 owner
 -
 >
