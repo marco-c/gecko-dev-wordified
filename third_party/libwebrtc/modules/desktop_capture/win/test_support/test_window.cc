@@ -100,6 +100,11 @@ test_window
 .
 h
 "
+#
+include
+<
+cstring
+>
 namespace
 webrtc
 {
