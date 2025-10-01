@@ -11167,6 +11167,9 @@ aPort
 "
 "
 _ns
+"
+"
+_ns
 aUsername
 aPassword
 aProxyAuthorizationHeader
@@ -11199,6 +11202,10 @@ const
 nsACString
 &
 aPathTemplate
+const
+nsACString
+&
+aAlpn
 const
 nsACString
 &
@@ -11271,6 +11278,7 @@ type
 aHost
 aPort
 aPathTemplate
+aAlpn
 "
 "
 _ns
@@ -13689,6 +13697,10 @@ aPathTemplate
 const
 nsACString
 &
+aAlpn
+const
+nsACString
+&
 aUsername
 const
 nsACString
@@ -13791,6 +13803,13 @@ proxyInfo
 mPathTemplate
 =
 aPathTemplate
+;
+proxyInfo
+-
+>
+mAlpn
+=
+aAlpn
 ;
 proxyInfo
 -
@@ -15105,6 +15124,9 @@ type
 *
 host
 port
+"
+"
+_ns
 "
 "
 _ns
