@@ -10644,12 +10644,12 @@ Mutex
 )
 ;
 void
-Lock
+lock
 (
 )
 ;
 void
-Unlock
+unlock
 (
 )
 ;
@@ -10938,7 +10938,7 @@ mutex
 mutex_
 -
 >
-Lock
+lock
 (
 )
 ;
@@ -10951,7 +10951,7 @@ GTestMutexLock
 mutex_
 -
 >
-Unlock
+unlock
 (
 )
 ;
@@ -12303,7 +12303,7 @@ this
 mutex
 .
 void
-Lock
+lock
 (
 )
 {
@@ -12334,7 +12334,7 @@ this
 mutex
 .
 void
-Unlock
+unlock
 (
 )
 {
@@ -12982,7 +12982,7 @@ mutex
 mutex_
 -
 >
-Lock
+lock
 (
 )
 ;
@@ -12995,7 +12995,7 @@ GTestMutexLock
 mutex_
 -
 >
-Unlock
+unlock
 (
 )
 ;
@@ -13838,13 +13838,13 @@ Mutex
 {
 }
 void
-Lock
+lock
 (
 )
 {
 }
 void
-Unlock
+unlock
 (
 )
 {

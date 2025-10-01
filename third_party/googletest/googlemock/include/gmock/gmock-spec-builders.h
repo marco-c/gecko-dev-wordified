@@ -11577,7 +11577,7 @@ specs_to_delete
 ;
 g_gmock_mutex
 .
-Unlock
+unlock
 (
 )
 ;
@@ -11647,7 +11647,7 @@ return
 .
 g_gmock_mutex
 .
-Lock
+lock
 (
 )
 ;

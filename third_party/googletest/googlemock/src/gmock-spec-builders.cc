@@ -3322,7 +3322,7 @@ expectations_to_delete
 ;
 g_gmock_mutex
 .
-Unlock
+unlock
 (
 )
 ;
@@ -3334,7 +3334,7 @@ clear
 ;
 g_gmock_mutex
 .
-Lock
+lock
 (
 )
 ;
