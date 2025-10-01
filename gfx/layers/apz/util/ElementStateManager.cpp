@@ -897,7 +897,7 @@ n
 "
 )
 ;
-CancelTask
+CancelActiveTask
 (
 )
 ;
@@ -1009,7 +1009,7 @@ n
 "
 )
 ;
-CancelTask
+CancelActiveTask
 (
 )
 ;
@@ -1367,7 +1367,7 @@ StartTimer
 }
 else
 {
-CancelTask
+CancelActiveTask
 (
 )
 ;
@@ -1383,9 +1383,9 @@ bug
 1169802
 .
 Fixing
+/
+/
 that
-/
-/
 bug
 properly
 should
@@ -1445,7 +1445,7 @@ n
 "
 )
 ;
-CancelTask
+CancelActiveTask
 (
 )
 ;
@@ -1577,7 +1577,7 @@ return
 false
 ;
 }
-CancelTask
+CancelActiveTask
 (
 )
 ;
@@ -2419,7 +2419,7 @@ void
 ElementStateManager
 :
 :
-CancelTask
+CancelActiveTask
 (
 )
 {
@@ -2427,6 +2427,7 @@ ESM_LOG
 (
 "
 Cancelling
+active
 task
 %
 p
