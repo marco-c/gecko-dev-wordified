@@ -3083,9 +3083,6 @@ return
 WEBRTC_VIDEO_CODEC_UNINITIALIZED
 ;
 }
-webrtc
-:
-:
 scoped_refptr
 <
 I420BufferInterface
