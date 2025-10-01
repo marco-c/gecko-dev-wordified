@@ -4431,6 +4431,14 @@ com
 )
 )
 ;
+await
+TabGroupTestUtils
+.
+ensureTabsLoaded
+(
+moreTabs
+)
+;
 info
 (
 "
