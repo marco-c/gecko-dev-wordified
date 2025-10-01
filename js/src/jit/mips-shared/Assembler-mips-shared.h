@@ -666,6 +666,14 @@ AssemblerMIPSShared
 assembler
 )
 ;
+explicit
+UseScratchRegisterScope
+(
+AssemblerMIPSShared
+*
+assembler
+)
+;
 ~
 UseScratchRegisterScope
 (
