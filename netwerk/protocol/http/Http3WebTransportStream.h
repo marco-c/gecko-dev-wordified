@@ -287,6 +287,17 @@ return
 nullptr
 ;
 }
+Http3StreamTunnel
+*
+GetHttp3StreamTunnel
+(
+)
+override
+{
+return
+nullptr
+;
+}
 void
 SetSendOrder
 (

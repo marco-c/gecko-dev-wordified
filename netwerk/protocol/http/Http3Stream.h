@@ -147,7 +147,6 @@ Http3Session
 ;
 class
 Http3Stream
-final
 :
 public
 nsAHttpSegmentReader
@@ -225,6 +224,18 @@ return
 nullptr
 ;
 }
+Http3StreamTunnel
+*
+GetHttp3StreamTunnel
+(
+)
+override
+{
+return
+nullptr
+;
+}
+virtual
 nsresult
 TryActivating
 (
@@ -340,7 +351,7 @@ PriorityIncremental
 (
 )
 ;
-private
+protected
 :
 ~
 Http3Stream

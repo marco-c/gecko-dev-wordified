@@ -699,12 +699,10 @@ mSendState
 PROCESSING_DATAGRAM
 )
 {
+return
 OnProcessDatagram
 (
 )
-;
-return
-NS_OK
 ;
 }
 if

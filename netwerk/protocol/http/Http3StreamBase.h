@@ -151,6 +151,9 @@ class
 Http3ConnectUDPStream
 ;
 class
+Http3StreamTunnel
+;
+class
 Http3StreamBase
 :
 public
@@ -201,6 +204,15 @@ virtual
 Http3ConnectUDPStream
 *
 GetHttp3ConnectUDPStream
+(
+)
+=
+0
+;
+virtual
+Http3StreamTunnel
+*
+GetHttp3StreamTunnel
 (
 )
 =
