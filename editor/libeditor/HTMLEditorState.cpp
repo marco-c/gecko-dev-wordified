@@ -3235,7 +3235,7 @@ if
 HTMLEditUtils
 :
 :
-IsAlignAttrSupported
+SupportsAlignAttr
 (
 *
 containerElement
@@ -5049,7 +5049,6 @@ Length
 )
 )
 {
-const
 OwningNonNull
 <
 nsIContent
@@ -5142,7 +5141,7 @@ if
 HTMLEditUtils
 :
 :
-IsAnyTableElementExceptColumnElement
+IsAnyTableElement
 (
 content
 )
@@ -5151,9 +5150,8 @@ content
 HTMLEditUtils
 :
 :
-IsListElement
+IsAnyListElement
 (
-*
 content
 )
 |
@@ -5161,9 +5159,8 @@ content
 HTMLEditUtils
 :
 :
-IsListItemElement
+IsListItem
 (
-*
 content
 )
 )

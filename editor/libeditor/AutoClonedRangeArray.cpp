@@ -7272,7 +7272,6 @@ Length
 )
 )
 {
-const
 OwningNonNull
 <
 nsIContent
@@ -7289,9 +7288,8 @@ if
 HTMLEditUtils
 :
 :
-IsListItemElement
+IsListItem
 (
-*
 content
 )
 )
@@ -7404,7 +7402,6 @@ Length
 )
 )
 {
-const
 OwningNonNull
 <
 nsIContent
@@ -7421,9 +7418,8 @@ MOZ_ASSERT_IF
 HTMLEditUtils
 :
 :
-IsListItemElement
+IsListItem
 (
-*
 content
 )
 content
@@ -7688,7 +7684,6 @@ table
 -
 cells
 .
-const
 OwningNonNull
 <
 nsIContent
@@ -7705,7 +7700,7 @@ if
 HTMLEditUtils
 :
 :
-IsAnyTableElementExceptTableElementAndColumElement
+IsAnyTableElementButNotTable
 (
 content
 )
@@ -8031,7 +8026,6 @@ Length
 )
 )
 {
-const
 OwningNonNull
 <
 nsIContent
@@ -8048,7 +8042,7 @@ if
 HTMLEditUtils
 :
 :
-IsAnyTableElementExceptTableElementAndColumElement
+IsAnyTableElementButNotTable
 (
 content
 )
@@ -8276,9 +8270,8 @@ if
 HTMLEditUtils
 :
 :
-IsListElement
+IsAnyListElement
 (
-*
 element
 )
 )
