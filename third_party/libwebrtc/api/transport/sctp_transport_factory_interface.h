@@ -163,9 +163,6 @@ nor
 /
 /
 '
-webrtc
-:
-:
 SctpTransportInternal
 '
 because
