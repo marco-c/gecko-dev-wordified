@@ -129,6 +129,7 @@ tombstone
 entries
 .
 *
+*
 returns
 {
 integer
@@ -1252,6 +1253,7 @@ fail
 over
 it
 .
+*
 *
 param
 {

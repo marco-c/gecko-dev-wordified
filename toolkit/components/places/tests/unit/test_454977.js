@@ -378,7 +378,11 @@ visit_count
 as
 constraint
 *
+*
 param
+{
+number
+}
 aExpectedCount
 *
 Number
@@ -393,8 +397,12 @@ excluded
 hidden
 ones
 )
+.
 *
 param
+{
+number
+}
 aExpectedCountWithHidden
 *
 Number
@@ -409,6 +417,7 @@ included
 hidden
 ones
 )
+.
 *
 /
 function

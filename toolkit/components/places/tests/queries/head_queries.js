@@ -2229,6 +2229,7 @@ result
 set
 .
 *
+*
 returns
 {
 nsINavHistoryResultNode

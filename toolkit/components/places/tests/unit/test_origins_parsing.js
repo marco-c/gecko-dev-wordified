@@ -572,6 +572,14 @@ correct
 *
 *
 param
+{
+[
+string
+string
+]
+[
+]
+}
 expectedOrigins
 *
 An
@@ -588,8 +596,8 @@ array
 is
 itself
 an
-*
 array
+*
 that
 looks
 like

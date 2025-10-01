@@ -102,7 +102,6 @@ to
 0
 .
 *
-*
 /
 const
 TEST_URL

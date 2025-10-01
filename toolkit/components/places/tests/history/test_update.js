@@ -2504,7 +2504,7 @@ name
 *
 param
 {
-String
+string
 }
 pageUrl
 The
@@ -2516,7 +2516,7 @@ for
 *
 param
 {
-String
+string
 }
 annoName
 The
@@ -2529,7 +2529,7 @@ search
 for
 .
 *
-return
+returns
 {
 Array
 }

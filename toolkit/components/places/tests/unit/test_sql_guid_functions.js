@@ -72,6 +72,9 @@ result
 *
 *
 param
+{
+string
+}
 aGuid
 *
 The

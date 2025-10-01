@@ -90,7 +90,6 @@ new
 URI
 .
 *
-*
 /
 add_task
 (

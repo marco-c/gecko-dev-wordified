@@ -149,6 +149,9 @@ database
 *
 *
 param
+{
+string
+}
 aTerms
 *
 The
@@ -159,6 +162,10 @@ for
 .
 *
 returns
+{
+boolean
+}
+*
 true
 if
 the

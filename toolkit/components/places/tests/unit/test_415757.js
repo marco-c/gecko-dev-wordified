@@ -117,6 +117,9 @@ database
 *
 *
 param
+{
+nsIURI
+}
 aURI
 *
 The
@@ -126,6 +129,10 @@ check
 .
 *
 returns
+{
+boolean
+}
+*
 true
 if
 the
