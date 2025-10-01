@@ -92,4 +92,16 @@ trace
 .
 yaml
 "
+    
+"
+dom
+/
+quota
+/
+gecko
+-
+trace
+.
+yaml
+"
 ]
