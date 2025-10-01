@@ -11440,7 +11440,7 @@ std
 :
 unique_ptr
 <
-JsepIceCandidate
+IceCandidate
 >
 NewCandidate
 (
@@ -11463,7 +11463,7 @@ kDummyIndex
 )
 {
 return
-JsepIceCandidate
+IceCandidate
 :
 :
 Create
@@ -12311,7 +12311,7 @@ jcandidate_
 reset
 (
 new
-JsepIceCandidate
+IceCandidate
 (
 std
 :
@@ -12430,7 +12430,7 @@ is_video
 :
 0
 ;
-JsepIceCandidate
+IceCandidate
 jice
 (
 mline_id
@@ -15618,7 +15618,7 @@ j
 )
 {
 const
-IceCandidateInterface
+IceCandidate
 *
 c1
 =
@@ -15631,7 +15631,7 @@ j
 )
 ;
 const
-IceCandidateInterface
+IceCandidate
 *
 c2
 =
@@ -19397,7 +19397,7 @@ std
 :
 unique_ptr
 <
-IceCandidateInterface
+IceCandidate
 >
 jcandidate_
 ;
@@ -20921,7 +20921,7 @@ jcandidate_
 reset
 (
 new
-JsepIceCandidate
+IceCandidate
 (
 std
 :
@@ -20984,7 +20984,7 @@ jcandidate_
 reset
 (
 new
-JsepIceCandidate
+IceCandidate
 (
 std
 :
@@ -21039,7 +21039,7 @@ jcandidate_
 reset
 (
 new
-JsepIceCandidate
+IceCandidate
 (
 std
 :
@@ -21125,7 +21125,7 @@ kCandidateGeneration
 kCandidateFoundation1
 )
 ;
-JsepIceCandidate
+IceCandidate
 jcandidate
 (
 std
@@ -21216,12 +21216,12 @@ std
 :
 unique_ptr
 <
-IceCandidateInterface
+IceCandidate
 >
 jcandidate
 (
 new
-JsepIceCandidate
+IceCandidate
 (
 std
 :
@@ -21379,7 +21379,7 @@ std
 :
 unique_ptr
 <
-JsepIceCandidate
+IceCandidate
 >
 jcandidate
 =
@@ -21463,7 +21463,7 @@ std
 :
 unique_ptr
 <
-JsepIceCandidate
+IceCandidate
 >
 jcandidate
 =
@@ -24258,7 +24258,7 @@ std
 :
 unique_ptr
 <
-JsepIceCandidate
+IceCandidate
 >
 jcandidate
 =
@@ -24685,12 +24685,12 @@ std
 :
 unique_ptr
 <
-IceCandidateInterface
+IceCandidate
 >
 jcandidate_template
 (
 new
-JsepIceCandidate
+IceCandidate
 (
 std
 :
