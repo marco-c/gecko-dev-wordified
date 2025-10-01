@@ -527,6 +527,7 @@ during
 handshake
 .
 class
+RTC_EXPORT
 EphemeralKeyExchangeCipherGroups
 {
 public
