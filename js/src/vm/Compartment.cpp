@@ -2346,11 +2346,13 @@ runtime
 )
 -
 >
-hasSeenObjectEmulateUndefinedFuse
+runtimeFuses
 .
 ref
 (
 )
+.
+hasSeenObjectEmulateUndefinedFuse
 .
 intact
 (
