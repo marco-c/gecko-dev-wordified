@@ -145,15 +145,6 @@ include
 "
 mozilla
 /
-Array
-.
-h
-"
-#
-include
-"
-mozilla
-/
 HashFunctions
 .
 h

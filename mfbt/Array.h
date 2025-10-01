@@ -141,9 +141,7 @@ mozilla_Array_h
 #
 include
 <
-stddef
-.
-h
+cstddef
 >
 #
 include
