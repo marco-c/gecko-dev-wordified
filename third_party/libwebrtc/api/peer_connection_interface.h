@@ -1376,9 +1376,6 @@ class
 StreamCollectionInterface
 :
 public
-webrtc
-:
-:
 RefCountInterface
 {
 public
@@ -1506,9 +1503,6 @@ class
 StatsObserver
 :
 public
-webrtc
-:
-:
 RefCountInterface
 {
 public
@@ -1580,9 +1574,6 @@ RTC_EXPORT
 PeerConnectionInterface
 :
 public
-webrtc
-:
-:
 RefCountInterface
 {
 public
@@ -5007,9 +4998,6 @@ is
 /
 called
 .
-webrtc
-:
-:
 TurnCustomizer
 *
 turn_customizer
@@ -7176,17 +7164,11 @@ either
 be
 /
 /
-webrtc
-:
-:
 MediaType
 :
 :
 AUDIO
 or
-webrtc
-:
-:
 MediaType
 :
 :
@@ -7202,9 +7184,6 @@ INVALID_PARAMETER
 media_type
 is
 not
-webrtc
-:
-:
 MediaType
 :
 :
@@ -7212,9 +7191,6 @@ AUDIO
 or
 /
 /
-webrtc
-:
-:
 MediaType
 :
 :
@@ -7230,9 +7206,6 @@ RtpTransceiverInterface
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 media_type
 )
@@ -7249,9 +7222,6 @@ RtpTransceiverInterface
 >
 AddTransceiver
 (
-webrtc
-:
-:
 MediaType
 media_type
 const
@@ -7968,9 +7938,6 @@ Takes
 shared
 ownership
 use
-webrtc
-:
-:
 scoped_refptr
 <
 >
@@ -9853,9 +9820,6 @@ instead
 of
 /
 /
-webrtc
-:
-:
 Candidate
 which
 would
@@ -12232,9 +12196,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 AsyncDnsResolverFactoryInterface
 >
 async_dns_resolver_factory
@@ -12244,9 +12205,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 IceTransportFactory
 >
 ice_transport_factory
@@ -12274,9 +12232,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 VideoBitrateAllocatorFactory
 >
 video_bitrate_allocator_factory
@@ -13104,9 +13059,6 @@ RTC_EXPORT
 PeerConnectionFactoryInterface
 :
 public
-webrtc
-:
-:
 RefCountInterface
 {
 public
@@ -13421,9 +13373,6 @@ reason
 you
 pass
 in
-webrtc
-:
-:
 MediaType
 :
 :
@@ -13439,9 +13388,6 @@ virtual
 RtpCapabilities
 GetRtpSenderCapabilities
 (
-webrtc
-:
-:
 MediaType
 kind
 )
@@ -13471,9 +13417,6 @@ reason
 you
 pass
 in
-webrtc
-:
-:
 MediaType
 :
 :
@@ -13489,9 +13432,6 @@ virtual
 RtpCapabilities
 GetRtpReceiverCapabilities
 (
-webrtc
-:
-:
 MediaType
 kind
 )
@@ -14030,9 +13970,6 @@ wrapping
 it
 in
 an
-webrtc
-:
-:
 Thread
 object
 if

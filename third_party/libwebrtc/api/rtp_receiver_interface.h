@@ -305,9 +305,6 @@ virtual
 void
 OnFirstPacketReceived
 (
-webrtc
-:
-:
 MediaType
 media_type
 )
@@ -330,9 +327,6 @@ RTC_EXPORT
 RtpReceiverInterface
 :
 public
-webrtc
-:
-:
 RefCountInterface
 public
 FrameTransformerHost
@@ -580,9 +574,6 @@ video
 receiver
 ?
 virtual
-webrtc
-:
-:
 MediaType
 media_type
 (

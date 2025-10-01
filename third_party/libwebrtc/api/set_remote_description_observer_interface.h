@@ -156,9 +156,6 @@ class
 SetRemoteDescriptionObserverInterface
 :
 public
-webrtc
-:
-:
 RefCountInterface
 {
 public

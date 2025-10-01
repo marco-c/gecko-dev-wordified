@@ -148,9 +148,6 @@ created
 without
 using
 a
-webrtc
-:
-:
 PeerConnection
 .
 /
@@ -231,9 +228,6 @@ created
 without
 using
 a
-webrtc
-:
-:
 PeerConnection
 .
 /

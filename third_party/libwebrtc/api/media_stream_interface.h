@@ -393,9 +393,6 @@ RTC_EXPORT
 MediaSourceInterface
 :
 public
-webrtc
-:
-:
 RefCountInterface
 public
 NotifierInterface
@@ -477,9 +474,6 @@ RTC_EXPORT
 MediaStreamTrackInterface
 :
 public
-webrtc
-:
-:
 RefCountInterface
 public
 NotifierInterface
@@ -715,9 +709,6 @@ thread
 /
 except
 for
-webrtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame
@@ -1178,9 +1169,6 @@ void
 ProcessConstraints
 (
 const
-webrtc
-:
-:
 VideoTrackSourceConstraints
 &
 /
@@ -1219,9 +1207,6 @@ except
 /
 /
 for
-webrtc
-:
-:
 VideoSourceInterface
 <
 VideoFrame
@@ -1556,9 +1541,6 @@ clock
 as
 /
 /
-webrtc
-:
-:
 TimeMillis
 (
 )
@@ -1995,9 +1977,6 @@ class
 AudioProcessorInterface
 :
 public
-webrtc
-:
-:
 RefCountInterface
 {
 public
@@ -2429,9 +2408,6 @@ class
 MediaStreamInterface
 :
 public
-webrtc
-:
-:
 RefCountInterface
 public
 NotifierInterface

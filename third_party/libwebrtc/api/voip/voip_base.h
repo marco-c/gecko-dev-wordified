@@ -422,9 +422,6 @@ Caller
 must
 set
 transport
-webrtc
-:
-:
 Transport
 callback
 pointer

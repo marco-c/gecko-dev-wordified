@@ -250,9 +250,6 @@ to
 the
 /
 /
-webrtc
-:
-:
 IceTransportInternal
 API
 .

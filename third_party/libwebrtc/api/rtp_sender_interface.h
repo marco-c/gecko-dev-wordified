@@ -319,9 +319,6 @@ virtual
 void
 OnFirstPacketSent
 (
-webrtc
-:
-:
 MediaType
 media_type
 )
@@ -344,9 +341,6 @@ RTC_EXPORT
 RtpSenderInterface
 :
 public
-webrtc
-:
-:
 RefCountInterface
 public
 FrameTransformerHost
@@ -531,9 +525,6 @@ video
 sender
 ?
 virtual
-webrtc
-:
-:
 MediaType
 media_type
 (

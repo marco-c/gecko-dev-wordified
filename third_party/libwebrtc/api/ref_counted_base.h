@@ -249,9 +249,6 @@ default
 private
 :
 mutable
-webrtc
-:
-:
 webrtc_impl
 :
 :
@@ -309,9 +306,6 @@ struct
 MyInt
 :
 public
-webrtc
-:
-:
 RefCountedNonVirtual
 <
 MyInt
@@ -332,9 +326,6 @@ foo_
 /
 /
 /
-webrtc
-:
-:
 scoped_refptr
 <
 MyInt
@@ -513,9 +504,6 @@ alternatively
 /
 /
 use
-webrtc
-:
-:
 RefCountedObject
 .
 static_assert
@@ -637,9 +625,6 @@ default
 private
 :
 mutable
-webrtc
-:
-:
 webrtc_impl
 :
 :

@@ -1559,9 +1559,6 @@ Chromium
 uri
 !
 =
-webrtc
-:
-:
 RtpExtension
 :
 :

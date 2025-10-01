@@ -1001,15 +1001,9 @@ top
 level
 type
 .
-webrtc
-:
-:
 MediaType
 kind
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -1525,9 +1519,6 @@ cap
 kind
 =
 =
-webrtc
-:
-:
 MediaType
 :
 :
@@ -1705,9 +1696,6 @@ RtpReceiver
 :
 GetCapabilities
 (
-webrtc
-:
-:
 MediaType
 :
 :
@@ -3386,9 +3374,6 @@ Header
 extension
 to
 propagate
-webrtc
-:
-:
 VideoFrame
 id
 field

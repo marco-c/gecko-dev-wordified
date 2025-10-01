@@ -443,9 +443,6 @@ T
 is
 convertible
 to
-webrtc
-:
-:
 scoped_refptr
 )
 /

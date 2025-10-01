@@ -133,9 +133,6 @@ Backwards
 compatibility
 values
 for
-webrtc
-:
-:
 MediaType
 users
 /

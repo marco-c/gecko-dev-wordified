@@ -664,9 +664,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 AsyncDnsResolverInterface
 >
 CreateAndResolve
@@ -743,9 +740,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 AsyncDnsResolverInterface
 >
 CreateAndResolve
@@ -820,9 +814,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 AsyncDnsResolverInterface
 >
 Create

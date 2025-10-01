@@ -220,9 +220,6 @@ g
 by
 constructing
 an
-webrtc
-:
-:
 scoped_refptr
 )
 .
@@ -457,9 +454,6 @@ to
 /
 /
 use
-webrtc
-:
-:
 scoped_refptr
 to
 manage
@@ -474,9 +468,6 @@ objects
 .
 Note
 that
-webrtc
-:
-:
 scoped_refptr
 depends
 on

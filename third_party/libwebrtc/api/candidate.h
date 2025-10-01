@@ -776,9 +776,6 @@ g
 .
 /
 /
-webrtc
-:
-:
 LOCAL_PORT_TYPE
 )
 .
@@ -1229,9 +1226,6 @@ value
 of
 /
 /
-webrtc
-:
-:
 kNetworkCostMax
 indicates
 it
@@ -1256,9 +1250,6 @@ network_cost
 RTC_DCHECK_LE
 (
 network_cost
-webrtc
-:
-:
 kNetworkCostMax
 )
 ;

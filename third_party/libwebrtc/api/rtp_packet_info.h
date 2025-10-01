@@ -563,9 +563,6 @@ rtp_timestamp_
 /
 /
 Local
-webrtc
-:
-:
 Clock
 -
 based

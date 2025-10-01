@@ -802,9 +802,6 @@ class
 DtlsTransportInterface
 :
 public
-webrtc
-:
-:
 RefCountInterface
 {
 public

@@ -400,9 +400,6 @@ current
 Note
 that
 because
-webrtc
-:
-:
 Thread
 also
 supports

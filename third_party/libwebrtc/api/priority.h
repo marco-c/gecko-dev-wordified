@@ -140,9 +140,6 @@ RTC_EXPORT
 PriorityValue
 :
 public
-webrtc
-:
-:
 StrongAlias
 <
 class

@@ -408,9 +408,6 @@ ReceivedRTPPacket
 (
 ChannelId
 channel_id
-webrtc
-:
-:
 ArrayView
 <
 const
@@ -430,9 +427,6 @@ ReceivedRTCPPacket
 (
 ChannelId
 channel_id
-webrtc
-:
-:
 ArrayView
 <
 const

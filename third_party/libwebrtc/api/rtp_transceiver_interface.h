@@ -490,9 +490,6 @@ RTC_EXPORT
 RtpTransceiverInterface
 :
 public
-webrtc
-:
-:
 RefCountInterface
 {
 public
@@ -525,9 +522,6 @@ as
 well
 .
 virtual
-webrtc
-:
-:
 MediaType
 media_type
 (
@@ -1697,9 +1691,6 @@ rtcrtptransceiver
 -
 interface
 virtual
-webrtc
-:
-:
 RTCError
 SetHeaderExtensionsToNegotiate
 (

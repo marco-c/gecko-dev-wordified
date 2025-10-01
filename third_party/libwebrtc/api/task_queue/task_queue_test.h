@@ -183,9 +183,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 TaskQueueFactory
 >
 CreateMyFactory
