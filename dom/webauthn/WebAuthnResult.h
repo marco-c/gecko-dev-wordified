@@ -237,6 +237,10 @@ uint8_t
 aPrfSecond
 )
 :
+mAttestationConsentPromptShown
+(
+false
+)
 mClientDataJSON
 (
 aClientDataJSON
@@ -409,6 +413,10 @@ Length
 (
 )
 )
+;
+mAttestationConsentPromptShown
+=
+false
 ;
 if
 (
@@ -672,6 +680,10 @@ aResponse
 >
 cbAttestationObject
 )
+;
+mAttestationConsentPromptShown
+=
+true
 ;
 nsTArray
 <
@@ -1097,6 +1109,9 @@ nsTArray
 uint8_t
 >
 mAttestationObject
+;
+bool
+mAttestationConsentPromptShown
 ;
 nsTArray
 <

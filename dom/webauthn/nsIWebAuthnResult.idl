@@ -178,6 +178,11 @@ octet
 >
 attestationObject
 ;
+readonly
+attribute
+boolean
+attestationConsentPromptShown
+;
 /
 /
 The
