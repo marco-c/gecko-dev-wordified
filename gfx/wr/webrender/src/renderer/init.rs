@@ -1885,6 +1885,10 @@ sampling
 gradients
 .
 pub
+precise_linear_gradients
+:
+bool
+pub
 precise_radial_gradients
 :
 bool
@@ -2284,6 +2288,9 @@ max_shared_surface_size
 enable_debugger
 :
 true
+precise_linear_gradients
+:
+false
 precise_radial_gradients
 :
 false
@@ -3922,6 +3929,11 @@ enable_dithering
 options
 .
 enable_dithering
+precise_linear_gradients
+:
+options
+.
+precise_linear_gradients
 precise_radial_gradients
 :
 options

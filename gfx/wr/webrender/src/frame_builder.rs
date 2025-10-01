@@ -679,6 +679,10 @@ enable_dithering
 :
 bool
 pub
+precise_linear_gradients
+:
+bool
+pub
 precise_radial_gradients
 :
 bool

@@ -2038,7 +2038,7 @@ GradientTileRange
 empty
 (
 )
-cached
+use_legacy_path
 :
 true
 }
