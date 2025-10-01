@@ -2258,7 +2258,7 @@ if
 mKeyboard
 )
 {
-wl_keyboard_destroy
+wl_keyboard_release
 (
 mKeyboard
 )
