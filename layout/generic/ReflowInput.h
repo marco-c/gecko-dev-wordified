@@ -7337,13 +7337,6 @@ mPosition
 aRI
 -
 >
-mStylePosition
--
->
-mPositionArea
-aRI
--
->
 mAnchorPosReferenceData
 }
 ;
