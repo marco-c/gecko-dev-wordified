@@ -1189,7 +1189,7 @@ ago
 let
 fiveSecondsAgo
 =
-Date
+ChromeUtils
 .
 now
 (
