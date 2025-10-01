@@ -56,14 +56,6 @@ MPL
 .
 *
 /
-#
-!
-[
-allow
-(
-mismatched_lifetime_syntaxes
-)
-]
 use
 crate
 :
