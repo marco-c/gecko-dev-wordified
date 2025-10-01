@@ -243,6 +243,17 @@ mTarget
 MaybeReject
 (
 mResult
+.
+extract
+(
+)
+std
+:
+:
+move
+(
+mMessage
+)
 )
 ;
 break
