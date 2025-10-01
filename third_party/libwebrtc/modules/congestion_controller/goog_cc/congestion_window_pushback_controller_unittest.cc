@@ -119,7 +119,7 @@ include
 "
 test
 /
-explicit_key_value_config
+create_test_field_trials
 .
 h
 "
@@ -147,10 +147,8 @@ FullCongestionWindow
 CongestionWindowPushbackController
 cwnd_controller
 (
-ExplicitKeyValueConfig
+CreateTestFieldTrials
 (
-"
-"
 )
 )
 ;
@@ -246,10 +244,8 @@ NormalCongestionWindow
 CongestionWindowPushbackController
 cwnd_controller
 (
-ExplicitKeyValueConfig
+CreateTestFieldTrials
 (
-"
-"
 )
 )
 ;
@@ -303,10 +299,8 @@ LowBitrate
 CongestionWindowPushbackController
 cwnd_controller
 (
-ExplicitKeyValueConfig
+CreateTestFieldTrials
 (
-"
-"
 )
 )
 ;
@@ -398,10 +392,8 @@ NoPushbackOnDataWindowUnset
 CongestionWindowPushbackController
 cwnd_controller
 (
-ExplicitKeyValueConfig
+CreateTestFieldTrials
 (
-"
-"
 )
 )
 ;
@@ -446,7 +438,7 @@ PushbackOnInititialDataWindow
 CongestionWindowPushbackController
 cwnd_controller
 (
-ExplicitKeyValueConfig
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -502,7 +494,7 @@ PushbackDropFrame
 CongestionWindowPushbackController
 cwnd_controller
 (
-ExplicitKeyValueConfig
+CreateTestFieldTrials
 (
 "
 WebRTC

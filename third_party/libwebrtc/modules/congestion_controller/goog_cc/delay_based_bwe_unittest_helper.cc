@@ -236,7 +236,7 @@ include
 "
 test
 /
-field_trial
+create_test_field_trials
 .
 h
 "
@@ -1144,18 +1144,9 @@ DelayBasedBweTest
 (
 )
 :
-field_trial
+field_trials_
 (
-std
-:
-:
-make_unique
-<
-test
-:
-:
-ScopedFieldTrials
->
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -1183,7 +1174,7 @@ AcknowledgedBitrateEstimatorInterface
 Create
 (
 &
-field_trial_config_
+field_trials_
 )
 )
 probe_bitrate_estimator_
@@ -1200,7 +1191,7 @@ new
 DelayBasedBwe
 (
 &
-field_trial_config_
+field_trials_
 nullptr
 nullptr
 )
