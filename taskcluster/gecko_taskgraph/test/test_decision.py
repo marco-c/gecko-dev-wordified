@@ -64,6 +64,7 @@ unittest
 .
 mock
 import
+MagicMock
 patch
 import
 pytest
@@ -558,7 +559,7 @@ gecko_taskgraph
 .
 decision
 .
-get_hg_commit_message
+get_repository
 "
 )
 patch
@@ -895,7 +896,7 @@ mock_get_changed_files
     
 mock_determine_more_accurate_base_rev
     
-mock_get_hg_commit_message
+mock_get_repository
     
 mock_get_hg_revision_branch
     
@@ -929,7 +930,23 @@ return_value
 default
 "
     
-mock_get_hg_commit_message
+mock_repo
+=
+MagicMock
+(
+)
+    
+mock_repo
+.
+default_branch
+=
+"
+baseref
+"
+    
+mock_repo
+.
+get_commit_message
 .
 return_value
 =
@@ -939,6 +956,12 @@ or
 commit
 message
 "
+    
+mock_get_repository
+.
+return_value
+=
+mock_repo
     
 mock_determine_more_accurate_base_rev
 .
