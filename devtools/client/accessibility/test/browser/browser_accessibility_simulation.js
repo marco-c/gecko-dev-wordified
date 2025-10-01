@@ -268,6 +268,7 @@ async
 (
 {
 doc
+toolbox
 }
 )
 =
@@ -276,6 +277,9 @@ doc
 await
 openSimulationMenu
 (
+doc
+toolbox
+.
 doc
 )
 ;
@@ -320,7 +324,7 @@ setup
 async
 (
 {
-doc
+toolbox
 }
 )
 =
@@ -329,6 +333,8 @@ doc
 await
 toggleSimulationOption
 (
+toolbox
+.
 doc
 2
 )
@@ -371,6 +377,7 @@ async
 (
 {
 doc
+toolbox
 }
 )
 =
@@ -379,6 +386,9 @@ doc
 await
 openSimulationMenu
 (
+doc
+toolbox
+.
 doc
 )
 ;
@@ -422,7 +432,7 @@ setup
 async
 (
 {
-doc
+toolbox
 }
 )
 =
@@ -431,6 +441,8 @@ doc
 await
 toggleSimulationOption
 (
+toolbox
+.
 doc
 2
 )
