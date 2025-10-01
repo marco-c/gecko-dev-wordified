@@ -794,8 +794,6 @@ nsIURI
 aDestinationURL
 bool
 aIsSameDocument
-bool
-aIsSync
 Maybe
 <
 UserNavigationInvolvement
@@ -856,6 +854,15 @@ HasOngoingNavigateEvent
 (
 )
 const
+;
+MOZ_CAN_RUN_SCRIPT
+void
+InnerInformAboutAbortingNavigation
+(
+JSContext
+*
+aCx
+)
 ;
 MOZ_CAN_RUN_SCRIPT
 void
