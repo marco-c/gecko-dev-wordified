@@ -512,6 +512,11 @@ HasDataToWrite
 (
 )
 ;
+void
+HasDataToRead
+(
+)
+;
 [
 [
 nodiscard
