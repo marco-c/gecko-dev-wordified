@@ -623,12 +623,12 @@ decoders_
 Helper
 objects
 .
+Config
+config_
+;
 const
 Environment
 env_
-;
-Config
-config_
 ;
 VideoCodecTestStatsImpl
 stats_
