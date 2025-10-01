@@ -294,7 +294,22 @@ print
 '
 Namespace
 mismatch
+:
 '
+match
+.
+group
+(
+1
+)
+"
+vs
+"
+                          
+namespaces
+[
+0
+]
 )
                     
 raise
