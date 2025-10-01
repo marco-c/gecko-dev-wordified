@@ -134,6 +134,15 @@ allow
 non_camel_case_types
 )
 ]
+#
+!
+[
+allow
+(
+unknown_lints
+mismatched_lifetime_syntaxes
+)
+]
 /
 /
 re
