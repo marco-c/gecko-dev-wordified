@@ -149,6 +149,11 @@ path
 0
 ;
 }
+const
+{
+AppConstants
+}
+=
 ChromeUtils
 .
 importESModule
