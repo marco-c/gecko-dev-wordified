@@ -213,21 +213,6 @@ index
 ;
 import
 {
-markerTypes
-}
-from
-"
-.
-.
-/
-.
-.
-/
-constants
-"
-;
-import
-{
 getClosestBreakpoint
 getConditionalPanelLocation
 getLogPointStatus
@@ -1284,6 +1269,8 @@ editor
 .
 removeLineContentMarker
 (
+editor
+.
 markerTypes
 .
 CONDITIONAL_BP_MARKER
@@ -1317,6 +1304,8 @@ editor
 .
 removeLineContentMarker
 (
+editor
+.
 markerTypes
 .
 CONDITIONAL_BP_MARKER
@@ -1354,6 +1343,8 @@ setLineContentMarker
 {
 id
 :
+editor
+.
 markerTypes
 .
 CONDITIONAL_BP_MARKER
@@ -1641,6 +1632,8 @@ editor
 .
 removeLineContentMarker
 (
+editor
+.
 markerTypes
 .
 CONDITIONAL_BP_MARKER

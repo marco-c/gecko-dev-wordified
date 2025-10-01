@@ -153,21 +153,6 @@ redux
 ;
 import
 {
-markerTypes
-}
-from
-"
-.
-.
-/
-.
-.
-/
-constants
-"
-;
-import
-{
 getVisibleSelectedFrame
 getPauseReason
 getSourceTextContent
@@ -460,6 +445,8 @@ setPositionContentMarker
 {
 id
 :
+editor
+.
 markerTypes
 .
 PAUSED_LOCATION_MARKER
@@ -566,6 +553,8 @@ setLineContentMarker
 {
 id
 :
+editor
+.
 markerTypes
 .
 DEBUG_LINE_MARKER
@@ -593,6 +582,8 @@ setPositionContentMarker
 {
 id
 :
+editor
+.
 markerTypes
 .
 DEBUG_POSITION_MARKER
@@ -702,6 +693,8 @@ editor
 .
 removeLineContentMarker
 (
+editor
+.
 markerTypes
 .
 DEBUG_LINE_MARKER
@@ -711,6 +704,8 @@ editor
 .
 removePositionContentMarker
 (
+editor
+.
 markerTypes
 .
 DEBUG_POSITION_MARKER
@@ -720,6 +715,8 @@ editor
 .
 removePositionContentMarker
 (
+editor
+.
 markerTypes
 .
 PAUSED_LOCATION_MARKER
