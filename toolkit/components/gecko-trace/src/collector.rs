@@ -810,7 +810,7 @@ metrics
 gecko_trace
 :
 :
-traces
+traces_data
 .
 set
 (
@@ -827,7 +827,7 @@ firefox_on_glean
 pings
 :
 :
-traces
+gecko_trace
 .
 submit
 (
