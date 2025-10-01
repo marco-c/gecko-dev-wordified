@@ -98,6 +98,15 @@ here
 "
 )
 ]
+#
+!
+[
+allow
+(
+unknown_lints
+mismatched_lifetime_syntaxes
+)
+]
 extern
 crate
 url
