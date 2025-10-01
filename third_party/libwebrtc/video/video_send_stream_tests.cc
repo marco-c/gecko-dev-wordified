@@ -6847,15 +6847,6 @@ SendRTCP
 feedback_state
 kRtcpNack
 sequence_numbers
-.
-size
-(
-)
-sequence_numbers
-.
-data
-(
-)
 )
 )
 ;
