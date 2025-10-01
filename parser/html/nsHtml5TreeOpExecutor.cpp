@@ -5234,6 +5234,10 @@ nullptr
 false
 )
 ;
+ContinueInterruptedParsingAsync
+(
+)
+;
 }
 [
 [
