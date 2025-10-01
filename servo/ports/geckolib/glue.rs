@@ -62908,6 +62908,11 @@ mPosition
 params
 .
 mPosition
+mPositionArea
+:
+params
+.
+mPositionArea
 mAnchorPosReferenceData
 :
 params
