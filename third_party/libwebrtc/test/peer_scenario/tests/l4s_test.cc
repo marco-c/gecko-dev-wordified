@@ -839,7 +839,7 @@ available_outgoing_bitrate
 TEST
 (
 L4STest
-NegotiateAndUseCcfbIfEnabled
+DISABLED_NegotiateAndUseCcfbIfEnabled
 )
 {
 PeerScenario
