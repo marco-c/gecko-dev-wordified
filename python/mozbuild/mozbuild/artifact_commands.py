@@ -689,6 +689,30 @@ GIT
 "
 ]
     
+jj
+=
+None
+    
+if
+conditions
+.
+is_jj
+(
+command_context
+)
+:
+        
+jj
+=
+command_context
+.
+substs
+[
+"
+JJ
+"
+]
+    
 #
 If
 we
@@ -838,6 +862,10 @@ hg
 git
 =
 git
+        
+jj
+=
+jj
         
 topsrcdir
 =
