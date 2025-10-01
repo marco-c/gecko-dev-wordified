@@ -1410,16 +1410,6 @@ HasAnchorPosReference
 )
 const
 ;
-bool
-MaybeAnchorPosReferencesDiffer
-(
-const
-ComputedStyle
-*
-aOther
-)
-const
-;
 ComputedStyle
 *
 GetCachedInheritingAnonBoxStyle

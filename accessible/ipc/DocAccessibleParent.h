@@ -1792,8 +1792,9 @@ form
 {
 accID
 {
-pointerToRelationDataAddress
+relationType
 [
+targetAccID
 targetAccID
 .
 .
@@ -1806,9 +1807,7 @@ nsTHashMap
 uint64_t
 nsTHashMap
 <
-const
-RelationData
-*
+RelationType
 nsTArray
 <
 uint64_t
