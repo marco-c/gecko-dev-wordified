@@ -5281,7 +5281,7 @@ URL
 startsWith
 (
 "
-http
+https
 :
 /
 /
