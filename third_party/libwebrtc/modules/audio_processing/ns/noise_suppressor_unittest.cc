@@ -545,9 +545,6 @@ const
 int
 frame_length
 =
-webrtc
-:
-:
 CheckedDivExact
 (
 rate

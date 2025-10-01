@@ -550,9 +550,6 @@ size
 kOutputDirMaxLength
 )
 ;
-webrtc
-:
-:
 strcpyn
 (
 output_dir_
