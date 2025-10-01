@@ -284,6 +284,7 @@ SandboxProfilerQueue
 BoundedMPSCQueue
 <
 SandboxProfilerPayload
+15
 >
 ;
 extern
