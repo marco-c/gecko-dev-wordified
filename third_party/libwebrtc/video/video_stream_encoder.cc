@@ -9756,6 +9756,10 @@ was_encode_called_since_last_initialization_
 =
 false
 ;
+encoder_fallback_requested_
+=
+false
+;
 }
 /
 /
