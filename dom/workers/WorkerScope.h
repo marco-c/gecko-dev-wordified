@@ -1696,6 +1696,9 @@ OwningTrustedScriptURLOrString
 >
 &
 aScriptURLs
+nsIPrincipal
+*
+aSubjectPrincipal
 ErrorResult
 &
 aRv

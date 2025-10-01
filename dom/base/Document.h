@@ -21360,6 +21360,9 @@ OwningTrustedHTMLOrString
 >
 &
 aText
+nsIPrincipal
+*
+aSubjectPrincipal
 mozilla
 :
 :
@@ -21385,6 +21388,9 @@ OwningTrustedHTMLOrString
 >
 &
 aText
+nsIPrincipal
+*
+aSubjectPrincipal
 mozilla
 :
 :
@@ -27675,6 +27681,9 @@ bool
 aNewlineTerminate
 bool
 aIsTrusted
+nsIPrincipal
+*
+aSubjectPrincipal
 mozilla
 :
 :
@@ -27712,6 +27721,9 @@ OwningTrustedHTMLOrString
 aText
 bool
 aNewlineTerminate
+nsIPrincipal
+*
+aSubjectPrincipal
 mozilla
 :
 :
