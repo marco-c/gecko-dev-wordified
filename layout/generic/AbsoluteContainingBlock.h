@@ -139,10 +139,10 @@ them
 /
 #
 ifndef
-nsAbsoluteContainingBlock_h___
+LAYOUT_GENERIC_ABSOLUTE_CONTAINING_BLOCK_H_
 #
 define
-nsAbsoluteContainingBlock_h___
+LAYOUT_GENERIC_ABSOLUTE_CONTAINING_BLOCK_H_
 #
 include
 "
@@ -1099,6 +1099,6 @@ mozilla
 endif
 /
 *
-nsnsAbsoluteContainingBlock_h___
+LAYOUT_GENERIC_ABSOLUTE_CONTAINING_BLOCK_H_
 *
 /

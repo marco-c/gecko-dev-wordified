@@ -578,7 +578,7 @@ with
 Files
 (
 "
-nsAbsoluteContainingBlock
+AbsoluteContainingBlock
 .
 *
 "
@@ -962,6 +962,11 @@ FrameTypeList
 h
 "
 "
+AbsoluteContainingBlock
+.
+h
+"
+"
 AnonymousContentKey
 .
 h
@@ -1091,6 +1096,11 @@ UNIFIED_SOURCES
 =
 [
 "
+AbsoluteContainingBlock
+.
+cpp
+"
+"
 AspectRatio
 .
 cpp
@@ -1132,11 +1142,6 @@ cpp
 "
 "
 MiddleCroppingBlockFrame
-.
-cpp
-"
-"
-nsAbsoluteContainingBlock
 .
 cpp
 "

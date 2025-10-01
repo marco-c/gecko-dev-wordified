@@ -140,7 +140,9 @@ them
 #
 include
 "
-nsAbsoluteContainingBlock
+mozilla
+/
+AbsoluteContainingBlock
 .
 h
 "
