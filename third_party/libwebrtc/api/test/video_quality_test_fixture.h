@@ -953,9 +953,6 @@ std
 map
 <
 uint8_t
-webrtc
-:
-:
 MediaType
 >
 &

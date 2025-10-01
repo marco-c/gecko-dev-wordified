@@ -269,9 +269,6 @@ true
 int
 Encrypt
 (
-webrtc
-:
-:
 MediaType
 media_type
 uint32_t
@@ -315,9 +312,6 @@ frame
 size_t
 GetMaxCiphertextByteSize
 (
-webrtc
-:
-:
 MediaType
 media_type
 size_t

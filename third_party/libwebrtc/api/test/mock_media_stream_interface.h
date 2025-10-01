@@ -622,9 +622,6 @@ MOCK_METHOD
 bool
 AddTrack
 (
-webrtc
-:
-:
 scoped_refptr
 <
 AudioTrackInterface
@@ -641,9 +638,6 @@ MOCK_METHOD
 bool
 AddTrack
 (
-webrtc
-:
-:
 scoped_refptr
 <
 VideoTrackInterface
@@ -660,9 +654,6 @@ MOCK_METHOD
 bool
 RemoveTrack
 (
-webrtc
-:
-:
 scoped_refptr
 <
 AudioTrackInterface
@@ -679,9 +670,6 @@ MOCK_METHOD
 bool
 RemoveTrack
 (
-webrtc
-:
-:
 scoped_refptr
 <
 VideoTrackInterface
@@ -731,9 +719,6 @@ std
 :
 is_abstract_v
 <
-webrtc
-:
-:
 RefCountedObject
 <
 MockMediaStream

@@ -204,9 +204,6 @@ MockPeerConnectionFactoryInterface
 public
 RefCountedObject
 <
-webrtc
-:
-:
 PeerConnectionFactoryInterface
 >
 {
@@ -277,9 +274,6 @@ MOCK_METHOD
 RtpCapabilities
 GetRtpSenderCapabilities
 (
-webrtc
-:
-:
 MediaType
 )
 (
@@ -293,9 +287,6 @@ MOCK_METHOD
 RtpCapabilities
 GetRtpReceiverCapabilities
 (
-webrtc
-:
-:
 MediaType
 )
 (
@@ -333,9 +324,6 @@ AudioSourceInterface
 CreateAudioSource
 (
 const
-webrtc
-:
-:
 AudioOptions
 &
 )
@@ -374,9 +362,6 @@ VideoTrackInterface
 >
 CreateVideoTrack
 (
-webrtc
-:
-:
 scoped_refptr
 <
 VideoTrackSourceInterface

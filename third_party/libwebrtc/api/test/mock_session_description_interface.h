@@ -277,9 +277,6 @@ std
 :
 vector
 <
-webrtc
-:
-:
 Candidate
 >
 &

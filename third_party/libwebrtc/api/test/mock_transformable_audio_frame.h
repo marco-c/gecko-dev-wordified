@@ -199,9 +199,6 @@ MOCK_METHOD
 void
 SetData
 (
-webrtc
-:
-:
 ArrayView
 <
 const

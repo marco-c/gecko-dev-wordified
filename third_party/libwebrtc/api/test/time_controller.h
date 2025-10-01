@@ -318,9 +318,6 @@ CreateTaskQueueFactory
 /
 Creates
 an
-webrtc
-:
-:
 Thread
 instance
 .
@@ -383,9 +380,6 @@ nullptr
 /
 Creates
 an
-webrtc
-:
-:
 Thread
 instance
 that

@@ -159,9 +159,6 @@ public
 :
 SchedulableNetworkNodeBuilder
 (
-webrtc
-:
-:
 NetworkEmulationManager
 &
 net
@@ -246,9 +243,6 @@ AnyInvocable
 <
 bool
 (
-webrtc
-:
-:
 Timestamp
 )
 >
@@ -284,9 +278,6 @@ delay
 standard
 deviation
 .
-webrtc
-:
-:
 EmulatedNetworkNode
 *
 Build
@@ -308,9 +299,6 @@ nullopt
 ;
 private
 :
-webrtc
-:
-:
 NetworkEmulationManager
 &
 net_
@@ -328,9 +316,6 @@ AnyInvocable
 <
 bool
 (
-webrtc
-:
-:
 Timestamp
 )
 >

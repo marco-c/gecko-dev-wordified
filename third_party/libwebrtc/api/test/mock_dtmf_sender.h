@@ -329,9 +329,6 @@ std
 :
 is_abstract_v
 <
-webrtc
-:
-:
 RefCountedObject
 <
 MockDtmfSender

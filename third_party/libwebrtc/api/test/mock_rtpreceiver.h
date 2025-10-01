@@ -242,9 +242,6 @@ override
 ;
 MOCK_METHOD
 (
-webrtc
-:
-:
 MediaType
 media_type
 (
@@ -288,9 +285,6 @@ bool
 SetParameters
 (
 const
-webrtc
-:
-:
 RtpParameters
 &
 parameters
@@ -354,14 +348,8 @@ MOCK_METHOD
 void
 SetFrameDecryptor
 (
-webrtc
-:
-:
 scoped_refptr
 <
-webrtc
-:
-:
 FrameDecryptorInterface
 >
 )
@@ -374,9 +362,6 @@ MOCK_METHOD
 (
 scoped_refptr
 <
-webrtc
-:
-:
 FrameDecryptorInterface
 >
 GetFrameDecryptor

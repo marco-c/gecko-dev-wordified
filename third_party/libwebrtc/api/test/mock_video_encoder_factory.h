@@ -161,9 +161,6 @@ class
 MockVideoEncoderFactory
 :
 public
-webrtc
-:
-:
 VideoEncoderFactory
 {
 public

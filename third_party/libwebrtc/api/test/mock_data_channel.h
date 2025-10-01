@@ -177,9 +177,6 @@ MockDataChannelInterface
 public
 RefCountedObject
 <
-webrtc
-:
-:
 DataChannelInterface
 >
 {

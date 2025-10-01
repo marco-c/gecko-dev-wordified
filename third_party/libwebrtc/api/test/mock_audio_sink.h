@@ -128,9 +128,6 @@ class
 MockAudioSink
 :
 public
-webrtc
-:
-:
 AudioTrackSinkInterface
 {
 public
