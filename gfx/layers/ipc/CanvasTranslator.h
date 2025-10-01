@@ -3380,6 +3380,15 @@ DrawTarget
 >
 mDrawTarget
 ;
+RefPtr
+<
+gfx
+:
+:
+DrawTarget
+>
+mFallbackDrawTarget
+;
 bool
 mNotifiedRequiresRefresh
 =
