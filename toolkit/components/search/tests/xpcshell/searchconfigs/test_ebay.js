@@ -190,7 +190,7 @@ new
 SearchConfigTest
 (
 {
-identifier
+identifierStartsWith
 :
 "
 ebay

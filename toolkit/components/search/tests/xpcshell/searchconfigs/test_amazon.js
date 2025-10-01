@@ -42,7 +42,9 @@ SearchConfigTest
 identifier
 :
 "
-amazon
+amazondotcom
+-
+us
 "
 default
 :

@@ -496,10 +496,10 @@ search
 .
 defaultPrivateEngine
 .
-identifier
+id
 appPrivateDefault
 .
-identifier
+id
 "
 Should
 have
@@ -525,10 +525,10 @@ search
 .
 defaultEngine
 .
-identifier
+id
 appDefault
 .
-identifier
+id
 "
 Should
 have
