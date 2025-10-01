@@ -690,6 +690,21 @@ kind_name
 cfg
 graph_config
 )
+class
+FakeGraphConfig
+(
+GraphConfig
+)
+:
+    
+def
+register
+(
+self
+)
+:
+        
+pass
 def
 fake_load_graph_config
 (
@@ -699,7 +714,7 @@ root_dir
     
 graph_config
 =
-GraphConfig
+FakeGraphConfig
 (
         
 {
@@ -724,19 +739,6 @@ taskgraph
 root_dir
     
 )
-    
-graph_config
-.
-__dict__
-[
-"
-register
-"
-]
-=
-lambda
-:
-None
     
 return
 graph_config
