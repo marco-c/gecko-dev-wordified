@@ -6441,12 +6441,6 @@ network_constrained_rate
 ;
 update
 .
-stable_target_bitrate
-=
-network_constrained_rate
-;
-update
-.
 round_trip_time
 =
 TimeDelta
@@ -6493,7 +6487,6 @@ EXPECT_CALL
 video_stream_encoder_
 OnBitrateUpdated
 (
-network_constrained_rate
 network_constrained_rate
 network_constrained_rate
 0
@@ -6585,12 +6578,6 @@ target_bitrate
 =
 rate_with_headroom
 ;
-update
-.
-stable_target_bitrate
-=
-rate_with_headroom
-;
 EXPECT_CALL
 (
 rtp_video_sender_
@@ -6627,7 +6614,6 @@ EXPECT_CALL
 video_stream_encoder_
 OnBitrateUpdated
 (
-qvga_max_bitrate
 qvga_max_bitrate
 rate_with_headroom
 0
@@ -6746,7 +6732,6 @@ video_stream_encoder_
 OnBitrateUpdated
 (
 qvga_max_bitrate
-qvga_max_bitrate
 headroom_minus_protection
 0
 _
@@ -6851,7 +6836,6 @@ OnBitrateUpdated
 (
 qvga_max_bitrate
 qvga_max_bitrate
-qvga_max_bitrate
 0
 _
 0
@@ -6892,12 +6876,6 @@ EXPECT_CALL
 video_stream_encoder_
 OnBitrateUpdated
 (
-DataRate
-:
-:
-Zero
-(
-)
 DataRate
 :
 :

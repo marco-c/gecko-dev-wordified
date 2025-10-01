@@ -961,9 +961,7 @@ OnBitrateUpdated
 DataRate
 target_bitrate
 DataRate
-stable_target_bitrate
-DataRate
-target_headroom
+link_allocation
 uint8_t
 fraction_lost
 int64_t
@@ -1266,8 +1264,6 @@ DataRate
 bandwidth_allocation
 DataRate
 encoder_target
-DataRate
-stable_encoder_target
 )
 ;
 bool
@@ -1388,9 +1384,6 @@ call
 .
 DataRate
 encoder_target
-;
-DataRate
-stable_encoder_target
 ;
 }
 ;
