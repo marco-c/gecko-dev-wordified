@@ -76,6 +76,20 @@ LINUX_WORKER_TYPES
     
 "
 large
+-
+legacy
+"
+:
+"
+t
+-
+linux
+-
+docker
+"
+    
+"
+large
 "
 :
 "
