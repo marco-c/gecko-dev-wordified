@@ -674,14 +674,6 @@ target_bitrate_bps
 ;
 msg
 .
-stable_target_rate
-=
-msg
-.
-target_rate
-;
-msg
-.
 network_estimate
 .
 bandwidth

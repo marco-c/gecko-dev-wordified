@@ -962,7 +962,7 @@ fraction
 )
 ;
 void
-OnReceivedUplinkBandwidth
+OnReceivedUplinkBandwidthImpl
 (
 int
 target_audio_bitrate_bps
@@ -974,14 +974,6 @@ optional
 int64_t
 >
 bwe_period_ms
-std
-:
-:
-optional
-<
-int64_t
->
-link_capacity_allocation
 )
 ;
 /
@@ -1050,10 +1042,6 @@ config_
 const
 int
 payload_type_
-;
-const
-bool
-use_stable_target_for_adaptation_
 ;
 const
 bool
