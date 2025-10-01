@@ -1092,9 +1092,7 @@ AssertedCast
 double
 >
 (
-aInput
-.
-mInputWidth
+inputWidth
 )
 )
 ;
@@ -1129,9 +1127,7 @@ AssertedCast
 double
 >
 (
-aInput
-.
-mInputHeight
+inputHeight
 )
 )
 ;
@@ -1285,9 +1281,7 @@ AssertedCast
 double
 >
 (
-aInput
-.
-mInputWidth
+inputWidth
 )
 )
 )
@@ -1311,9 +1305,7 @@ AssertedCast
 double
 >
 (
-aInput
-.
-mInputHeight
+inputHeight
 )
 )
 )
