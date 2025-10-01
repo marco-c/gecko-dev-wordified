@@ -2537,6 +2537,7 @@ AddStandardRequestHeaders
 &
 mRequestHead
 isHTTPS
+aURI
 contentPolicyType
 nsContentUtils
 :
