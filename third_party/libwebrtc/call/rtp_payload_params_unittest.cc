@@ -140,9 +140,7 @@ include
 "
 api
 /
-transport
-/
-field_trial_based_config
+field_trials
 .
 h
 "
@@ -349,6 +347,15 @@ include
 "
 test
 /
+create_test_field_trials
+.
+h
+"
+#
+include
+"
+test
+/
 gmock
 .
 h
@@ -359,15 +366,6 @@ include
 test
 /
 gtest
-.
-h
-"
-#
-include
-"
-test
-/
-scoped_key_value_config
 .
 h
 "
@@ -548,7 +546,7 @@ params
 kSsrc2
 &
 state2
-FieldTrialBasedConfig
+CreateTestFieldTrials
 (
 )
 )
@@ -809,7 +807,7 @@ params
 kSsrc1
 &
 state
-FieldTrialBasedConfig
+CreateTestFieldTrials
 (
 )
 )
@@ -1247,7 +1245,7 @@ params
 kSsrc1
 &
 state
-FieldTrialBasedConfig
+CreateTestFieldTrials
 (
 )
 )
@@ -1384,7 +1382,7 @@ params
 kSsrc1
 &
 state
-FieldTrialBasedConfig
+CreateTestFieldTrials
 (
 )
 )
@@ -1503,7 +1501,7 @@ params
 kSsrc1
 &
 state
-FieldTrialBasedConfig
+CreateTestFieldTrials
 (
 )
 )
@@ -2050,7 +2048,7 @@ params
 kSsrc1
 &
 state
-FieldTrialBasedConfig
+CreateTestFieldTrials
 (
 )
 )
@@ -2285,7 +2283,7 @@ params
 kSsrc1
 &
 state
-FieldTrialBasedConfig
+CreateTestFieldTrials
 (
 )
 )
@@ -2543,7 +2541,7 @@ params
 kSsrc1
 &
 state
-FieldTrialBasedConfig
+CreateTestFieldTrials
 (
 )
 )
@@ -2648,11 +2646,10 @@ RtpPayloadParamsTest
 PictureIdForOldGenericFormat
 )
 {
-test
-:
-:
-ScopedKeyValueConfig
+FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -2841,7 +2838,7 @@ params
 kSsrc1
 &
 state
-FieldTrialBasedConfig
+CreateTestFieldTrials
 (
 )
 )
@@ -3100,7 +3097,7 @@ params
 kSsrc1
 &
 state
-FieldTrialBasedConfig
+CreateTestFieldTrials
 (
 )
 )
@@ -3517,7 +3514,9 @@ params_
 123
 &
 state_
-trials_config_
+CreateTestFieldTrials
+(
+)
 )
 {
 }
@@ -3714,9 +3713,6 @@ height
 }
 protected
 :
-FieldTrialBasedConfig
-trials_config_
-;
 RtpPayloadState
 state_
 ;
@@ -4115,7 +4111,7 @@ ssrc
 123
 &
 state
-FieldTrialBasedConfig
+CreateTestFieldTrials
 (
 )
 )
@@ -4564,7 +4560,7 @@ ssrc
 123
 &
 state
-FieldTrialBasedConfig
+CreateTestFieldTrials
 (
 )
 )
@@ -5010,7 +5006,7 @@ ssrc
 123
 &
 state
-FieldTrialBasedConfig
+CreateTestFieldTrials
 (
 )
 )
@@ -6142,7 +6138,7 @@ ssrc
 123
 &
 state
-FieldTrialBasedConfig
+CreateTestFieldTrials
 (
 )
 )
@@ -7777,7 +7773,7 @@ ssrc
 123
 &
 state
-FieldTrialBasedConfig
+CreateTestFieldTrials
 (
 )
 )
@@ -8849,7 +8845,7 @@ ssrc
 123
 &
 state
-FieldTrialBasedConfig
+CreateTestFieldTrials
 (
 )
 )
@@ -9754,7 +9750,7 @@ ssrc
 123
 &
 state
-FieldTrialBasedConfig
+CreateTestFieldTrials
 (
 )
 )
@@ -11300,7 +11296,9 @@ params_
 123
 &
 state_
-trials_config_
+CreateTestFieldTrials
+(
+)
 )
 {
 }
@@ -11540,9 +11538,6 @@ expected_decode_target_indication
 }
 protected
 :
-FieldTrialBasedConfig
-trials_config_
-;
 RtpPayloadState
 state_
 ;
