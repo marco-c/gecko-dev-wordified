@@ -692,7 +692,7 @@ logins
 )
 ;
 await
-checkAllLoginsRendered
+checkAllLoginsUpdated
 (
 megalist
 )
