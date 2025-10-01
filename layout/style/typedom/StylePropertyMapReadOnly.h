@@ -228,7 +228,6 @@ nsWrapperCache
 {
 public
 :
-explicit
 StylePropertyMapReadOnly
 (
 nsCOMPtr
@@ -236,6 +235,8 @@ nsCOMPtr
 nsISupports
 >
 aParent
+bool
+aComputed
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
@@ -402,6 +403,10 @@ nsCOMPtr
 nsISupports
 >
 mParent
+;
+const
+bool
+mComputed
 ;
 }
 ;
