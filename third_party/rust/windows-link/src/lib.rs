@@ -210,7 +210,9 @@ verbatim
 )
 ]
 extern
-abi
+"
+C
+"
 {
 (
 #

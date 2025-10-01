@@ -7928,9 +7928,10 @@ datetime
 DateTime
 :
 :
-from_timestamp_secs
+from_timestamp
 (
 ts
+0
 )
 .
 ok_or
