@@ -173,6 +173,8 @@ withNewTab
 about
 :
 preferences
+#
+sync
 "
 async
 browser
@@ -535,6 +537,8 @@ withNewTab
 about
 :
 preferences
+#
+sync
 "
 async
 browser
@@ -727,6 +731,12 @@ should
 be
 found
 "
+)
+;
+turnOnButton
+.
+click
+(
 )
 ;
 await
@@ -1343,6 +1353,8 @@ withNewTab
 about
 :
 preferences
+#
+sync
 "
 async
 browser
@@ -1868,6 +1880,8 @@ withNewTab
 about
 :
 preferences
+#
+sync
 "
 async
 browser
