@@ -177,9 +177,6 @@ SocketServer
 >
 (
 new
-webrtc
-:
-:
 NullSocketServer
 )
 ;

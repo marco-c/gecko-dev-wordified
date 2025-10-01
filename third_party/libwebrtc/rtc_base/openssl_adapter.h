@@ -1076,9 +1076,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 OpenSSLIdentity
 >
 identity_
@@ -1620,17 +1617,11 @@ cache
 SSLMode
 ssl_mode_
 =
-webrtc
-:
-:
 SSL_MODE_TLS
 ;
 SSLRole
 ssl_role_
 =
-webrtc
-:
-:
 SSL_CLIENT
 ;
 bool

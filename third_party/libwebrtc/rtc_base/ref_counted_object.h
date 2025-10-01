@@ -416,9 +416,6 @@ override
 {
 }
 mutable
-webrtc
-:
-:
 webrtc_impl
 :
 :
@@ -594,9 +591,6 @@ FinalRefCountedObject
 default
 ;
 mutable
-webrtc
-:
-:
 webrtc_impl
 :
 :

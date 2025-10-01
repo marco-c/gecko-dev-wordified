@@ -273,9 +273,6 @@ network_id
 return
 RouteEndpoint
 (
-webrtc
-:
-:
 ADAPTER_TYPE_UNKNOWN
 /
 *
@@ -370,9 +367,6 @@ private
 AdapterType
 adapter_type_
 =
-webrtc
-:
-:
 ADAPTER_TYPE_UNKNOWN
 ;
 uint16_t
@@ -510,9 +504,6 @@ network_id
 "
 <
 <
-webrtc
-:
-:
 AdapterTypeToString
 (
 local
@@ -567,9 +558,6 @@ network_id
 "
 <
 <
-webrtc
-:
-:
 AdapterTypeToString
 (
 remote

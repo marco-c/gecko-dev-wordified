@@ -184,9 +184,6 @@ std
 :
 vector
 <
-webrtc
-:
-:
 IPAddress
 >
 *

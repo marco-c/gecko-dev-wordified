@@ -230,9 +230,6 @@ std
 :
 string
 int
-webrtc
-:
-:
 AbslStringViewCmp
 >
 my_map

@@ -194,9 +194,6 @@ constexpr
 DataSize
 kMaxLeb128Length
 =
-webrtc
-:
-:
 DataSize
 :
 :

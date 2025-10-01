@@ -296,9 +296,6 @@ deprecated
 .
 Please
 use
-webrtc
-:
-:
 Mutex
 instead
 !

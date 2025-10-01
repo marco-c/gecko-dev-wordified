@@ -1025,9 +1025,6 @@ settimeofday
 .
 Always
 use
-webrtc
-:
-:
 TimeMicros
 (
 )

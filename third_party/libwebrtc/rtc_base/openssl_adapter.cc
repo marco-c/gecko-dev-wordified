@@ -1912,9 +1912,6 @@ WrapUnique
 (
 static_cast
 <
-webrtc
-:
-:
 OpenSSLIdentity
 *
 >
@@ -6093,9 +6090,6 @@ crypto_buffer
 #
 else
 const
-webrtc
-:
-:
 OpenSSLCertificate
 cert
 (

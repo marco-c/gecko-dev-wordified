@@ -1051,9 +1051,6 @@ dst
 %
 x
 "
-webrtc
-:
-:
 NetworkToHost16
 (
 as_shorts
@@ -2265,9 +2262,6 @@ else
 *
 addr_cursor
 =
-webrtc
-:
-:
 HostToNetwork16
 (
 word

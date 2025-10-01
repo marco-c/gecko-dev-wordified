@@ -2850,9 +2850,6 @@ like
 derived
 implementation
 of
-webrtc
-:
-:
 Thread
 and
 it

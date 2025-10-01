@@ -416,9 +416,6 @@ overflows
 "
 ;
 return
-webrtc
-:
-:
 dchecked_cast
 <
 int64_t
@@ -728,9 +725,6 @@ ticks
 =
 ticks
 *
-webrtc
-:
-:
 kNumNanosecsPerMillisec
 ;
 #

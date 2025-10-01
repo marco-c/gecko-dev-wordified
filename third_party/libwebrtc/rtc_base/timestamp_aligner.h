@@ -143,9 +143,6 @@ as
 is
 used
 by
-webrtc
-:
-:
 TimeMicros
 (
 )
@@ -216,9 +213,6 @@ should
 /
 /
 use
-webrtc
-:
-:
 TimeMicros
 (
 system
@@ -238,9 +232,6 @@ lets
 us
 use
 the
-webrtc
-:
-:
 TimeMicros
 timescale
 and
@@ -382,9 +373,6 @@ used
 /
 /
 by
-webrtc
-:
-:
 TimeMicros
 (
 )
@@ -413,9 +401,6 @@ is
 time
 according
 to
-webrtc
-:
-:
 TimeMicros
 (
 )

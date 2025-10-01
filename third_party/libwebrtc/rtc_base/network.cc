@@ -1360,9 +1360,6 @@ bool
 IpAddressAttributesEnabled
 (
 const
-webrtc
-:
-:
 FieldTrialsView
 *
 field_trials
@@ -1400,9 +1397,6 @@ IPv6NetworkResolutionFixes
 )
 )
 {
-webrtc
-:
-:
 FieldTrialParameter
 <
 bool
@@ -1415,9 +1409,6 @@ IpAddressAttributesEnabled
 false
 )
 ;
-webrtc
-:
-:
 ParseFieldTrial
 (
 {
@@ -4377,9 +4368,6 @@ Convert
 ConvertIfAddrs
 to
 use
-webrtc
-:
-:
 Netmask
 .
 if
@@ -5982,9 +5970,6 @@ ADAPTER_TYPE_VPN
 &
 IsVpnMacAddress
 (
-webrtc
-:
-:
 ArrayView
 <
 const

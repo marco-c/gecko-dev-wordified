@@ -11340,9 +11340,6 @@ cmsWait
 ;
 msStop
 =
-webrtc
-:
-:
 TimeAfter
 (
 cmsWait
@@ -11368,9 +11365,6 @@ fWait_
 )
 {
 {
-webrtc
-:
-:
 CritScope
 cr
 (
@@ -11613,9 +11607,6 @@ We
 have
 signaled
 descriptors
-webrtc
-:
-:
 CritScope
 cr
 (
@@ -11730,15 +11721,9 @@ kForeverMs
 {
 msWait
 =
-webrtc
-:
-:
 TimeDiff
 (
 msStop
-webrtc
-:
-:
 TimeMillis
 (
 )
@@ -11791,9 +11776,6 @@ PhysicalSocketServer
 :
 Wait
 (
-webrtc
-:
-:
 TimeDelta
 max_wait_duration
 bool
@@ -11844,9 +11826,6 @@ cmsElapsed
 int64_t
 msStart
 =
-webrtc
-:
-:
 Time
 (
 )
@@ -11886,9 +11865,6 @@ socket_ev_
 )
 ;
 {
-webrtc
-:
-:
 CritScope
 cr
 (
@@ -12269,9 +12245,6 @@ is
 and
 call
 it
-webrtc
-:
-:
 CritScope
 cr
 (
@@ -12876,9 +12849,6 @@ break
 ;
 cmsElapsed
 =
-webrtc
-:
-:
 TimeSince
 (
 msStart

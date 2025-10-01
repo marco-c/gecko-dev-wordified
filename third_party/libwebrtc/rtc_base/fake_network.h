@@ -666,9 +666,6 @@ set_enumeration_permission
 ;
 /
 /
-webrtc
-:
-:
 NetworkManager
 override
 .
@@ -828,9 +825,6 @@ kFakeIPv6NetworkPrefixLength
 IPAddress
 prefix
 =
-webrtc
-:
-:
 TruncateIP
 (
 it
