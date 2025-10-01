@@ -4305,6 +4305,10 @@ Clear
 (
 )
 ;
+mProxyConnectSucceeded
+=
+true
+;
 Unused
 <
 <
@@ -4346,10 +4350,6 @@ mQueuedTransaction
 Clear
 (
 )
-;
-mProxyConnectFailed
-=
-true
 ;
 }
 }
@@ -5769,7 +5769,13 @@ SetCleanShutdown
 aIsShutdown
 |
 |
-mProxyConnectFailed
+(
+mIsInTunnel
+&
+&
+!
+mProxyConnectSucceeded
+)
 )
 ;
 mHttp3Session
