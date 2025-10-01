@@ -893,16 +893,7 @@ aDoctype
 uri
 uri
 principal
-mozilla
-:
-:
-dom
-:
-:
-LoadedAsData
-:
-:
-No
+false
 /
 /
 aLoadedAsData

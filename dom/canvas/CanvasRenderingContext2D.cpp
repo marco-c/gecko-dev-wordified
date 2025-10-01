@@ -8215,7 +8215,7 @@ document
 document
 -
 >
-GetCSSLoader
+CSSLoader
 (
 )
 :
@@ -17225,7 +17225,7 @@ GetCompatibilityMode
 aDocument
 -
 >
-GetCSSLoader
+CSSLoader
 (
 )
 }

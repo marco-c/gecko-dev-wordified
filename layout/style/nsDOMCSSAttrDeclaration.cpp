@@ -890,7 +890,7 @@ OwnerDoc
 )
 -
 >
-GetCSSLoader
+CSSLoader
 (
 )
 }

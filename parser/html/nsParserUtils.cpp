@@ -627,11 +627,6 @@ OwnerDoc
 nsAutoScriptBlockerSuppressNodeRemoved
 autoBlocker
 ;
-bool
-scripts_enabled
-=
-false
-;
 /
 /
 stop
@@ -645,15 +640,11 @@ loader
 document
 -
 >
-GetScriptLoader
+ScriptLoader
 (
 )
 ;
-if
-(
-loader
-)
-{
+bool
 scripts_enabled
 =
 loader
@@ -676,7 +667,6 @@ SetEnabled
 false
 )
 ;
-}
 }
 /
 /

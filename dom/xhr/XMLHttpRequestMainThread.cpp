@@ -12657,10 +12657,7 @@ nullptr
 docURI
 baseURI
 requestingPrincipal
-LoadedAsData
-:
-:
-AsData
+true
 global
 mIsHtml
 ?

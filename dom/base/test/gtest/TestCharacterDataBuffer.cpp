@@ -292,10 +292,7 @@ aDoctype
 uri
 uri
 principal
-LoadedAsData
-:
-:
-No
+false
 /
 /
 aLoadedAsData
