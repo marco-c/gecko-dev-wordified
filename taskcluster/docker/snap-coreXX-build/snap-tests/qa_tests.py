@@ -5920,7 +5920,7 @@ prefs
 setStringPref
 (
 '
-browser
+toolkit
 .
 download
 .

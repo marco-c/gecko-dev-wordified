@@ -454,7 +454,7 @@ prefs
 setCharPref
 (
 "
-browser
+toolkit
 .
 download
 .
