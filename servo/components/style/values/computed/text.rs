@@ -437,6 +437,7 @@ PartialEq
 ToAnimatedValue
 ToAnimatedZero
 ToResolvedValue
+ToTyped
 )
 ]
 pub
@@ -717,6 +718,7 @@ MallocSizeOf
 PartialEq
 ToCss
 ToResolvedValue
+ToTyped
 )
 ]
 #

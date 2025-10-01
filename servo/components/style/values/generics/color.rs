@@ -161,6 +161,7 @@ MallocSizeOf
 PartialEq
 ToAnimatedValue
 ToShmem
+ToTyped
 )
 ]
 #

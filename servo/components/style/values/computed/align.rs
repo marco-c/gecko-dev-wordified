@@ -394,6 +394,7 @@ MallocSizeOf
 PartialEq
 ToCss
 ToResolvedValue
+ToTyped
 )
 ]
 #

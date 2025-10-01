@@ -286,6 +286,7 @@ ToAnimatedValue
 ToAnimatedZero
 ToCss
 ToResolvedValue
+ToTyped
 )
 ]
 #

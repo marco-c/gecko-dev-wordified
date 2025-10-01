@@ -1796,6 +1796,7 @@ Debug
 MallocSizeOf
 PartialEq
 ToShmem
+ToTyped
 )
 ]
 #

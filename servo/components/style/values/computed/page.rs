@@ -256,6 +256,7 @@ PartialEq
 ToCss
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 #

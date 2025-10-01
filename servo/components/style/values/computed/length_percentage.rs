@@ -1053,6 +1053,13 @@ otherwise
 .
 #
 [
+derive
+(
+ToTyped
+)
+]
+#
+[
 repr
 (
 transparent
