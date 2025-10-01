@@ -93,11 +93,6 @@ define
 MODULES_AUDIO_MIXER_DEFAULT_OUTPUT_RATE_CALCULATOR_H_
 #
 include
-<
-vector
->
-#
-include
 "
 api
 /
