@@ -525,6 +525,7 @@ case
 linux
 "
 :
+{
 let
 dirProvider
 =
@@ -638,11 +639,13 @@ path
 }
 break
 ;
+}
 case
 "
 win
 "
 :
+{
 const
 REGKEY
 =
@@ -821,6 +824,7 @@ manifestPath
 }
 break
 ;
+}
 default
 :
 ok

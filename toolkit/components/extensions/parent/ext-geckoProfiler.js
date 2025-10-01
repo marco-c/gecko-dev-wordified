@@ -230,6 +230,7 @@ profiler
 stopped
 "
 :
+{
 /
 /
 Call
@@ -329,6 +330,7 @@ observer
 }
 break
 ;
+}
 }
 }
 _startListening
