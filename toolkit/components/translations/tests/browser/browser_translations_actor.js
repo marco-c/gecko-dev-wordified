@@ -1425,8 +1425,8 @@ for
 (
 const
 {
-fromLang
-toLang
+sourceLanguage
+targetLanguage
 variant
 }
 of
@@ -1441,8 +1441,8 @@ TranslationsParent
 .
 nonPivotKey
 (
-fromLang
-toLang
+sourceLanguage
+targetLanguage
 variant
 )
 )
