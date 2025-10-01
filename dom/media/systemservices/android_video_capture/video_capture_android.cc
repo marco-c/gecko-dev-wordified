@@ -95,6 +95,13 @@ h
 #
 include
 "
+AndroidBridge
+.
+h
+"
+#
+include
+"
 device_info_android
 .
 h
@@ -136,13 +143,6 @@ include
 rtc_base
 /
 time_utils
-.
-h
-"
-#
-include
-"
-AndroidBridge
 .
 h
 "
