@@ -1106,7 +1106,7 @@ self
 .
 options
 .
-extra_prefs
+extraPrefs
 .
 append
 (
@@ -1133,7 +1133,7 @@ self
 .
 options
 .
-extra_prefs
+extraPrefs
 .
 append
 (
@@ -1158,7 +1158,7 @@ self
 .
 options
 .
-extra_prefs
+extraPrefs
 .
 pop
 (
@@ -1168,7 +1168,7 @@ self
 .
 options
 .
-extra_prefs
+extraPrefs
 .
 append
 (
@@ -1189,7 +1189,7 @@ self
 .
 options
 .
-extra_prefs
+extraPrefs
 )
         
 self
@@ -4686,7 +4686,7 @@ append
 dest
 =
 "
-extra_prefs
+extraPrefs
 "
             
 default

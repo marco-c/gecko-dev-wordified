@@ -288,6 +288,9 @@ xul
 nss3
 "
 "
+nssutil3
+"
+"
 gkcodecs
 "
 "
