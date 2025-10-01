@@ -85,7 +85,7 @@ return
 [
 (
 '
-Sec
+Secure
 -
 Session
 -
@@ -117,7 +117,7 @@ headers
 get
 (
 "
-Sec
+Secure
 -
 Session
 -
