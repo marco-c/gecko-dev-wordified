@@ -389,7 +389,7 @@ QuickSuggest
 .
 SETTINGS_UI
 .
-FULL
+OFFLINE_ONLY
 "
 suggest
 .
