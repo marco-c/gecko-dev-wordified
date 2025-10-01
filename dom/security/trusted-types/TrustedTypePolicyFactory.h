@@ -226,14 +226,6 @@ nsWrapperCache
 .
 h
 "
-template
-<
-typename
-T
->
-struct
-already_AddRefed
-;
 class
 DOMString
 ;
