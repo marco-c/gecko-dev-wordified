@@ -3634,8 +3634,12 @@ return
 0
 ;
 }
+[
+[
+noreturn
+]
+]
 static
-MOZ_NORETURN
 void
 __fastcall
 patched_BaseThreadInitThunk
