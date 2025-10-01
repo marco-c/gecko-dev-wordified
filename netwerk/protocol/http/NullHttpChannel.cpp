@@ -3603,7 +3603,7 @@ NS_IMETHODIMP
 NullHttpChannel
 :
 :
-GetDictionary
+GetDecompressDictionary
 (
 mozilla
 :
@@ -3630,7 +3630,7 @@ NS_IMETHODIMP
 NullHttpChannel
 :
 :
-SetDictionary
+SetDecompressDictionary
 (
 mozilla
 :
