@@ -1886,6 +1886,8 @@ YUVColorSpace
 aColorSpace
 bool
 aFullRange
+uint32_t
+aWPChromaLocation
 )
 ;
 static
