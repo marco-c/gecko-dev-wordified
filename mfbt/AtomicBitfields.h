@@ -150,14 +150,7 @@ h
 #
 include
 <
-limits
->
-#
-include
-<
-stdint
-.
-h
+cstdint
 >
 #
 include
