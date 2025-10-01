@@ -383,9 +383,6 @@ stored
 in
 /
 /
-webrtc
-:
-:
 VideoFrame
 and
 not
@@ -396,9 +393,6 @@ RTC_EXPORT
 VideoFrameBuffer
 :
 public
-webrtc
-:
-:
 RefCountInterface
 {
 public

@@ -414,9 +414,6 @@ Encode
 (
 scoped_refptr
 <
-webrtc
-:
-:
 VideoFrameBuffer
 >
 frame_buffer

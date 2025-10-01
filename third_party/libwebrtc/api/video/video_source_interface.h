@@ -548,9 +548,6 @@ of
 the
 /
 /
-webrtc
-:
-:
 VideoFrame
 '
 s
@@ -567,9 +564,6 @@ encode
 /
 /
 at
-webrtc
-:
-:
 VideoFrame
 '
 s
@@ -622,9 +616,6 @@ max_pixel_count
 constraints
 )
 create
-webrtc
-:
-:
 VideoFrames
 of
 size
@@ -659,9 +650,6 @@ still
 need
 to
 provide
-webrtc
-:
-:
 VideoFrames
 /
 /
@@ -713,9 +701,6 @@ hint
 when
 constructing
 the
-webrtc
-:
-:
 VideoFrame
 .
 std

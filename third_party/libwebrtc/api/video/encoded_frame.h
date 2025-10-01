@@ -316,9 +316,6 @@ std
 :
 optional
 <
-webrtc
-:
-:
 Timestamp
 >
 ReceivedTimestamp
@@ -415,9 +412,6 @@ std
 :
 optional
 <
-webrtc
-:
-:
 Timestamp
 >
 RenderTimestamp

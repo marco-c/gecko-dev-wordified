@@ -214,9 +214,6 @@ std
 :
 optional
 <
-webrtc
-:
-:
 ColorSpace
 >
 color_space
@@ -235,9 +232,6 @@ std
 :
 optional
 <
-webrtc
-:
-:
 VideoRotation
 >
 video_rotation

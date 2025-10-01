@@ -1501,9 +1501,6 @@ is_steady_state_refresh_frame_
 refresh_frame
 ;
 }
-webrtc
-:
-:
 VideoFrameType
 FrameType
 (
@@ -1517,9 +1514,6 @@ _frameType
 void
 SetFrameType
 (
-webrtc
-:
-:
 VideoFrameType
 frame_type
 )
@@ -1895,9 +1889,6 @@ it
 /
 carries
 the
-webrtc
-:
-:
 VideoFrame
 id
 field
