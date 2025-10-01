@@ -267,9 +267,12 @@ DeclarationBlock
 aDeclarations
 )
 ;
-nsCString
+void
 GetValue
 (
+nsACString
+&
+aRetVal
 )
 const
 ;
