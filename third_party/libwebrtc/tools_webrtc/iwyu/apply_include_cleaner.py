@@ -534,6 +534,8 @@ source
 /
 libaom
 /
+aom
+/
 '
     
 '
@@ -551,6 +553,8 @@ libvpx
 source
 /
 libvpx
+/
+vpx
 /
 '
 }
