@@ -208,6 +208,16 @@ UNKNOWN
 )
 )
 ;
+/
+/
+let
+prefObserver
+=
+promisePrefChangeObserved
+(
+BACKUP_ERROR_CODE_PREF_NAME
+)
+;
 settings
 .
 triggerBackupButtonEl

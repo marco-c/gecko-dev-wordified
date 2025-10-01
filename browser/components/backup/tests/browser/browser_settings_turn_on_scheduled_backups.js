@@ -733,12 +733,6 @@ found
 "
 )
 ;
-turnOnButton
-.
-click
-(
-)
-;
 await
 settings
 .
