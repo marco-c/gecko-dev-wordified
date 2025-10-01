@@ -38246,6 +38246,8 @@ aTab
 .
 container
 .
+tabDragAndDrop
+.
 finishAnimateTabMove
 (
 )
