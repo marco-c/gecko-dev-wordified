@@ -8914,8 +8914,10 @@ media_description
 media_description
 -
 >
-ClearRtpHeaderExtensions
+set_rtp_header_extensions
 (
+{
+}
 )
 ;
 RTCError

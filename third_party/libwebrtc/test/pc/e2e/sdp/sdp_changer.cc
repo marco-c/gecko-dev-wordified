@@ -2033,13 +2033,6 @@ ext_it
 prototype_media_desc
 -
 >
-ClearRtpHeaderExtensions
-(
-)
-;
-prototype_media_desc
--
->
 set_rtp_header_extensions
 (
 extensions
@@ -3495,13 +3488,6 @@ push_back
 info
 .
 rrid_extension
-)
-;
-media_desc
--
->
-ClearRtpHeaderExtensions
-(
 )
 ;
 media_desc
