@@ -12439,6 +12439,14 @@ is
 -
 log
 "
+tracePanel
+:
+"
+.
+trace
+-
+panel
+"
 searchField
 :
 "

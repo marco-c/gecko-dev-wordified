@@ -1267,6 +1267,15 @@ panel
 -
 marker
 "
+TRACE_MARKER
+:
+"
+trace
+-
+panel
+-
+marker
+"
 DEBUG_LINE_MARKER
 :
 "
