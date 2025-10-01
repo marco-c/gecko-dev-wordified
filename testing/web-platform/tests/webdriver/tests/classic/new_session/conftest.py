@@ -1,3 +1,7 @@
+from
+copy
+import
+deepcopy
 import
 pytest
 from
@@ -195,7 +199,7 @@ capabilities
         
 configuration
 =
-dict
+deepcopy
 (
 configuration
 )
