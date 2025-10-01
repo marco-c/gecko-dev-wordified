@@ -611,8 +611,6 @@ DelayedClearElementActivation
 clearing
 active
 content
-\
-n
 "
 )
 ;
@@ -892,8 +890,6 @@ screen
 clearing
 target
 element
-\
-n
 "
 )
 ;
@@ -934,8 +930,6 @@ element
 to
 %
 p
-\
-n
 "
 mTarget
 .
@@ -968,8 +962,6 @@ aCanBePanOrZoom
 :
 %
 d
-\
-n
 "
 aCanBePanOrZoom
 )
@@ -1004,8 +996,6 @@ clearing
 touch
 block
 state
-\
-n
 "
 )
 ;
@@ -1416,8 +1406,6 @@ pan
 "
 "
 state
-\
-n
 "
 )
 ;
@@ -1440,8 +1428,6 @@ ESM_LOG
 Clearing
 element
 activation
-\
-n
 "
 )
 ;
@@ -1477,8 +1463,6 @@ state
 :
 %
 hhu
-\
-n
 "
 static_cast
 <
@@ -1522,8 +1506,6 @@ ESM_LOG
 "
 Touch
 end
-\
-n
 "
 )
 ;
@@ -2004,8 +1986,6 @@ Setting
 active
 %
 p
-\
-n
 "
 aTarget
 )
@@ -2060,8 +2040,6 @@ active
 from
 %
 p
-\
-n
 "
 mTarget
 .
@@ -2125,8 +2103,6 @@ root
 p
 making
 active
-\
-n
 "
 root
 )
@@ -2347,8 +2323,6 @@ mSetActiveTask
 %
 p
 running
-\
-n
 "
 mSetActiveTask
 .
@@ -2431,8 +2405,6 @@ active
 task
 %
 p
-\
-n
 "
 mSetActiveTask
 .
