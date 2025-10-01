@@ -2295,7 +2295,7 @@ receives
 the
 /
 /
-noticiation
+notification
 that
 this
 window
