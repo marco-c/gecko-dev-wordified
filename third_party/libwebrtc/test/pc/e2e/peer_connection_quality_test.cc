@@ -835,17 +835,6 @@ test_flags
 .
 h
 "
-#
-include
-"
-test
-/
-testsupport
-/
-file_utils
-.
-h
-"
 namespace
 webrtc
 {

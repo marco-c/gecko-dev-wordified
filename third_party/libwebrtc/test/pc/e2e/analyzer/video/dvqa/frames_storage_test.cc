@@ -112,7 +112,17 @@ cstdint
 #
 include
 <
+cstring
+>
+#
+include
+<
 memory
+>
+#
+include
+<
+optional
 >
 #
 include
