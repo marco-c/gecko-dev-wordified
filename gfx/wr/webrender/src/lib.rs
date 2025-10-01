@@ -495,7 +495,6 @@ clippy
 :
 :
 too_many_arguments
-mismatched_lifetime_syntaxes
 )
 ]
 /
