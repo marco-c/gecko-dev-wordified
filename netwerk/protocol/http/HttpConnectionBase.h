@@ -1186,6 +1186,16 @@ ConnectionState
 aState
 )
 ;
+ConnectionCloseReason
+CloseReason
+(
+)
+const
+{
+return
+mCloseReason
+;
+}
 void
 SetCloseReason
 (
