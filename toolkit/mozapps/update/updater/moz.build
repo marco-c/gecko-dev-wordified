@@ -471,6 +471,11 @@ pine
 "
 nightly
 -
+cypress
+"
+"
+nightly
+-
 profiling
 "
 "
