@@ -3658,6 +3658,10 @@ None
 file_mapping
 =
 None
+        
+include_moz_extra_info
+=
+True
     
 )
 :
@@ -3803,6 +3807,12 @@ file_mapping
 or
 {
 }
+        
+self
+.
+include_moz_extra_info
+=
+include_moz_extra_info
         
 #
 Add
@@ -4281,6 +4291,12 @@ inlines
         
 ]
         
+if
+self
+.
+include_moz_extra_info
+:
+            
 cmdline
 .
 extend
@@ -7522,6 +7538,12 @@ j
             
 )
             
+if
+self
+.
+include_moz_extra_info
+:
+                
 cmdline
 .
 extend
@@ -8930,6 +8952,83 @@ variables
     
 )
     
+parser
+.
+add_option
+(
+        
+"
+-
+-
+no
+-
+moz
+-
+extra
+-
+info
+"
+        
+action
+=
+"
+store_true
+"
+        
+dest
+=
+"
+no_moz_extra_info
+"
+        
+default
+=
+True
+        
+help
+=
+"
+Whether
+to
+include
+Mozilla
+-
+specific
+application
+build
+metadata
+.
+"
+        
++
+"
+If
+unset
+require
+MOZ_UPDATE_CHANNEL
+and
+MOZ_APP_VERSION
+to
+be
+set
+"
+        
++
+"
+either
+through
+build
+config
+.
+or
+through
+environment
+variables
+.
+"
+    
+)
+    
 (
 options
 args
@@ -9137,6 +9236,13 @@ platform
 options
 .
 platform
+        
+include_moz_extra_info
+=
+not
+options
+.
+no_moz_extra_info
     
 )
     
