@@ -798,14 +798,6 @@ Param
 ]
 [
 "
-permission
-"
-"
-Permission
-"
-]
-[
-"
 picture
 "
 "
