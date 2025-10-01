@@ -88,5 +88,13 @@ sendData
 *
 /
 largeArrayBuffer
+/
+*
+dataChannelOptions
+=
+*
+/
+{
+}
 )
 ;

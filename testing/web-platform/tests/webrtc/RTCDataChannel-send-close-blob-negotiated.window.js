@@ -83,6 +83,12 @@ dataChannelOptions
 *
 /
 {
+negotiated
+:
+true
+id
+:
+0
 }
 )
 ;

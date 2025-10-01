@@ -70,5 +70,13 @@ sendData
 *
 /
 largeString
+/
+*
+dataChannelOptions
+=
+*
+/
+{
+}
 )
 ;
