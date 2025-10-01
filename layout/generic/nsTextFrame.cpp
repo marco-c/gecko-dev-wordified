@@ -1196,7 +1196,6 @@ IsIdeograph
 char32_t
 aChar
 )
-const
 {
 /
 /
@@ -1376,7 +1375,6 @@ GetCharClass
 char32_t
 aChar
 )
-const
 {
 if
 (
@@ -28262,9 +28260,9 @@ GetOriginalOffset
 ;
 prevClass
 =
-mTextAutospace
--
->
+TextAutospace
+:
+:
 GetCharClass
 (
 prevScalar
@@ -28611,9 +28609,9 @@ const
 auto
 currClass
 =
-mTextAutospace
--
->
+TextAutospace
+:
+:
 GetCharClass
 (
 currScalar
