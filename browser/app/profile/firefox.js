@@ -9033,7 +9033,7 @@ visualSearch
 .
 featureGate
 "
-false
+true
 )
 ;
 /
