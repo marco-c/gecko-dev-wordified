@@ -3738,6 +3738,14 @@ ModuleLoadRequest
 aRequest
 )
 ;
+void
+Cancel
+(
+ModuleLoadRequest
+*
+aRequest
+)
+;
 /
 /
 The
