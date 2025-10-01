@@ -180,19 +180,6 @@ _architectures
     
 r
 "
-linux
-\
-b
-.
-*
-"
-:
-"
-x86
-"
-    
-r
-"
 linux64
 \
 b

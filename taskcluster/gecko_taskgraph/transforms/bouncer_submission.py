@@ -128,16 +128,6 @@ FTP_PLATFORMS_PER_BOUNCER_PLATFORM
 {
     
 "
-linux
-"
-:
-"
-linux
--
-i686
-"
-    
-"
 linux64
 "
 :
@@ -398,24 +388,6 @@ file_names
 "
 :
 {
-            
-"
-linux
-"
-:
-"
-{
-product
-}
--
-{
-version
-}
-.
-tar
-.
-xz
-"
             
 "
 linux64
