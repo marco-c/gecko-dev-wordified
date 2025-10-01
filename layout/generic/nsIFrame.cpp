@@ -65699,7 +65699,7 @@ CachedIsEmpty
 (
 )
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 !
 HasAnyStateBits
