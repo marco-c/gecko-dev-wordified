@@ -632,7 +632,7 @@ other
 )
 ;
 void
-init
+setSize
 (
 size_t
 entryCount
@@ -951,6 +951,11 @@ nodiscard
 bool
 init
 (
+)
+;
+void
+setSize
+(
 size_t
 entryCount
 )
@@ -1131,6 +1136,11 @@ nodiscard
 ]
 bool
 init
+(
+)
+;
+void
+setSize
 (
 size_t
 entryCount
@@ -2781,6 +2791,9 @@ nursery_
 size_t
 entryCount_
 ;
+double
+entryScaling_
+;
 bool
 aboutToOverflow_
 ;
@@ -2882,6 +2895,11 @@ return
 enabled_
 ;
 }
+void
+updateSize
+(
+)
+;
 bool
 isEmpty
 (

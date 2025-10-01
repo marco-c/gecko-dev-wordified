@@ -693,6 +693,15 @@ storeBufferEntries
 JSGC_STORE_BUFFER_ENTRIES
 true
 )
+\
+_
+(
+"
+storeBufferScaling
+"
+JSGC_STORE_BUFFER_SCALING
+true
+)
 /
 /
 Get
