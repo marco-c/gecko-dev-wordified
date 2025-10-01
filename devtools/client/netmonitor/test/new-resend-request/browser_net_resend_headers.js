@@ -206,7 +206,7 @@ Referer
 value
 :
 "
-http
+https
 :
 /
 /
@@ -303,7 +303,7 @@ cause
 loadingDocumentUri
 :
 "
-http
+https
 :
 /
 /
