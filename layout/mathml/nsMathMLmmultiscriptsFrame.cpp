@@ -683,7 +683,7 @@ NS_OK
 virtual
 *
 /
-nsresult
+void
 nsMathMLmmultiscriptsFrame
 :
 :
@@ -759,7 +759,7 @@ movablelimits
 is
 set
 .
-nsresult
+void
 nsMathMLmmultiscriptsFrame
 :
 :
@@ -5153,7 +5153,4 @@ childFrame
 )
 ;
 }
-return
-NS_OK
-;
 }

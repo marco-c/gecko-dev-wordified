@@ -243,7 +243,7 @@ TransmitAutomaticData
 )
 override
 ;
-nsresult
+void
 Place
 (
 DrawTarget
@@ -260,7 +260,7 @@ aDesiredSize
 override
 ;
 static
-nsresult
+void
 PlaceMultiScript
 (
 nsPresContext

@@ -205,7 +205,7 @@ ComputedStyle
 aStyle
 )
 ;
-nsresult
+void
 Place
 (
 DrawTarget

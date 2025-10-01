@@ -493,7 +493,7 @@ GetMathMLFrameType
 )
 override
 ;
-nsresult
+void
 Place
 (
 DrawTarget

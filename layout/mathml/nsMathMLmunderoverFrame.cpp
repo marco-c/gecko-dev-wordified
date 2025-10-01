@@ -2537,7 +2537,7 @@ pair
 virtual
 *
 /
-nsresult
+void
 nsMathMLmunderoverFrame
 :
 :
@@ -5488,9 +5488,6 @@ Default
 ;
 }
 }
-return
-NS_OK
-;
 }
 bool
 nsMathMLmunderoverFrame

@@ -219,7 +219,7 @@ TransmitAutomaticDataForMrowLikeElement
 )
 ;
 }
-nsresult
+void
 Place
 (
 DrawTarget

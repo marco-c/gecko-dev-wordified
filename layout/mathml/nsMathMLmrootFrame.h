@@ -337,7 +337,7 @@ IsMrowLike
 )
 final
 ;
-nsresult
+void
 Place
 (
 DrawTarget
