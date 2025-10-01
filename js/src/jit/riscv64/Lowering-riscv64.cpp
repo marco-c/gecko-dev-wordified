@@ -3808,7 +3808,7 @@ alloc
 )
 LBox
 (
-useRegister
+useRegisterAtStart
 (
 opd
 )

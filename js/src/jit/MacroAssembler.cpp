@@ -5914,6 +5914,15 @@ addressOfPreservedWrappersCount
 )
 )
 ;
+move32
+(
+Imm32
+(
+1
+)
+scratchSuccess
+)
+;
 jump
 (
 &
@@ -31773,7 +31782,7 @@ type
 )
 )
 {
-boxNonDouble
+tagValue
 (
 ValueTypeFromMIRType
 (
