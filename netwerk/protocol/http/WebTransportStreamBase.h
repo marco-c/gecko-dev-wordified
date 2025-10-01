@@ -379,8 +379,10 @@ operator
 =
 =
 (
-uint64_t
-aVal
+const
+StreamId
+&
+aRhs
 )
 const
 {
@@ -388,7 +390,9 @@ return
 mId
 =
 =
-aVal
+aRhs
+.
+mId
 ;
 }
 static
