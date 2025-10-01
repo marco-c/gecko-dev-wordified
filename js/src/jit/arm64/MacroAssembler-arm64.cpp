@@ -15667,7 +15667,7 @@ label
 {
 branchPtr
 (
-InvertCondition
+SwapCmdOperandsCondition
 (
 cond
 )
