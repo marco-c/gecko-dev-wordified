@@ -77,6 +77,10 @@ clip
 :
 :
 ClipStore
+frame_builder
+:
+:
+FrameBuilderConfig
 render_task_graph
 :
 :
@@ -453,6 +457,13 @@ spatial_tree
 '
 a
 SpatialTree
+pub
+fb_config
+:
+&
+'
+a
+FrameBuilderConfig
 }
 pub
 struct

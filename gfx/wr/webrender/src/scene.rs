@@ -2002,6 +2002,9 @@ max_shared_surface_size
 enable_dithering
 :
 false
+precise_gradients
+:
+false
 }
 }
 }

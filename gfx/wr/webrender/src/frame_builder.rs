@@ -678,6 +678,10 @@ pub
 enable_dithering
 :
 bool
+pub
+precise_gradients
+:
+bool
 }
 /
 /
