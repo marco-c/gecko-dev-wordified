@@ -215,6 +215,15 @@ toml
 "
 test
 /
+browser
+/
+_webconsole_object_inspector
+.
+toml
+"
+"
+test
+/
 node
 /
 fixtures
