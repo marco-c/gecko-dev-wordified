@@ -61,7 +61,7 @@ MPL
 import
 {
 hasInScopeLines
-getSourceTextContentForLocation
+getSourceTextContent
 getVisibleSelectedFrame
 }
 from
@@ -190,7 +190,7 @@ visibleFrame
 const
 sourceTextContent
 =
-getSourceTextContentForLocation
+getSourceTextContent
 (
 getState
 (
