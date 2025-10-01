@@ -1722,7 +1722,6 @@ example
 com
 "
 :
-{
 let
 numEntries
 =
@@ -1781,7 +1780,6 @@ originLog
 }
 break
 ;
-}
 case
 "
 https

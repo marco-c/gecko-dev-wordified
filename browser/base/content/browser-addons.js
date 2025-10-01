@@ -6602,7 +6602,6 @@ case
 shown
 "
 :
-{
 let
 addonList
 =
@@ -6795,7 +6794,6 @@ container
 }
 break
 ;
-}
 }
 }
 ;
