@@ -24222,6 +24222,14 @@ mCaps
 NS_HTTP_DISALLOW_HTTP3
 ;
 }
+}
+/
+/
+always
+set
+sticky
+connection
+flag
 httpChannelImpl
 -
 >
@@ -24230,7 +24238,6 @@ mCaps
 =
 NS_HTTP_STICKY_CONNECTION
 ;
-}
 if
 (
 LoadAuthConnectionRestartable
