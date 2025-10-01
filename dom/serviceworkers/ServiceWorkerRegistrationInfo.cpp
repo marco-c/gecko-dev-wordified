@@ -1760,6 +1760,10 @@ NS_IsMainThread
 )
 )
 ;
++
++
+mNumberOfAttemptedActivations
+;
 bool
 controlling
 =
