@@ -394,10 +394,10 @@ tempReg
 {
 spilledReg_
 =
-SecondScratchReg
+ScratchRegister
 ;
 return
-SecondScratchReg
+ScratchRegister
 ;
 }
 void

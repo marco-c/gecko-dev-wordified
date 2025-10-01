@@ -905,7 +905,7 @@ regs
 .
 has
 (
-BaselineSecondScratchReg
+CallReg
 )
 )
 ;
