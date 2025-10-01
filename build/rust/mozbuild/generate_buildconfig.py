@@ -481,7 +481,7 @@ objdir_path
 (
 path
 :
-literal
+expr
 )
 =
 >
@@ -546,7 +546,7 @@ srcdir_path
 (
 path
 :
-literal
+expr
 )
 =
 >
