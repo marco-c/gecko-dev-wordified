@@ -204,6 +204,7 @@ async
 =
 >
 {
+await
 IPProtectionService
 .
 init
@@ -493,6 +494,7 @@ test_IPProtectionService_stop
 (
 )
 {
+await
 IPProtectionService
 .
 init
@@ -644,6 +646,7 @@ test_IPProtectionService_updateSignInStatus_signedIn
 (
 )
 {
+await
 IPProtectionService
 .
 init
@@ -775,6 +778,7 @@ test_IPProtectionService_updateSignInStatus_signedOut
 (
 )
 {
+await
 IPProtectionService
 .
 init
@@ -921,6 +925,7 @@ test_IPProtectionService_updateHasUpgradedStatus_has_vpn_linked
 (
 )
 {
+await
 IPProtectionService
 .
 init
@@ -1093,6 +1098,7 @@ test_IPProtectionService_updateHasUpgradedStatus_no_vpn_linked
 (
 )
 {
+await
 IPProtectionService
 .
 init
@@ -1242,6 +1248,7 @@ test_IPProtectionService_updateHasUpgradedStatus_signed_out
 (
 )
 {
+await
 IPProtectionService
 .
 init
