@@ -72038,6 +72038,12 @@ out
 codeMeta
 )
 ;
+graphSpewer
+.
+begin
+(
+)
+;
 mirGen
 .
 setGraphSpewer
@@ -72088,6 +72094,12 @@ false
 mirGen
 .
 spewEndFunction
+(
+)
+;
+graphSpewer
+.
+end
 (
 )
 ;
