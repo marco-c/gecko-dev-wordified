@@ -2721,6 +2721,16 @@ click
 Atom
 (
 "
+clickToPlay
+"
+"
+clickToPlay
+"
+)
+    
+Atom
+(
+"
 clickcount
 "
 "
@@ -3167,6 +3177,16 @@ control
 "
 "
 control
+"
+)
+    
+Atom
+(
+"
+controlBar
+"
+"
+controlBar
 "
 )
     
