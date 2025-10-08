@@ -1739,6 +1739,7 @@ bool
 IsVisible
 (
 )
+const
 {
 return
 mPopupState
@@ -1757,6 +1758,7 @@ bool
 IsVisibleOrShowing
 (
 )
+const
 {
 return
 IsOpen
@@ -1786,6 +1788,12 @@ return
 mIsNativeMenu
 ;
 }
+bool
+CanSkipLayout
+(
+)
+const
+;
 bool
 IsMouseTransparent
 (
