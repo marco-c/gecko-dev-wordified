@@ -155,15 +155,6 @@ include
 "
 mozilla
 /
-ChaosMode
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPrefs_network
 .
 h

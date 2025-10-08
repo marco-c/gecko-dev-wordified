@@ -864,11 +864,6 @@ Assertions
 cpp
 "
 "
-ChaosMode
-.
-cpp
-"
-"
 double
 -
 conversion
