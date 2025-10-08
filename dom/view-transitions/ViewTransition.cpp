@@ -4224,7 +4224,7 @@ eCompatibility_FullStandards
 aDoc
 -
 >
-GetCSSLoader
+CSSLoader
 (
 )
 StyleCssRuleType

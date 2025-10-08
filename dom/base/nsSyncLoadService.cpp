@@ -858,10 +858,6 @@ document
 )
 nullptr
 nullptr
-LoadedAsData
-:
-:
-AsData
 )
 ;
 NS_ENSURE_SUCCESS

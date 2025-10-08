@@ -41807,10 +41807,7 @@ aTemplate
 NodePrincipal
 (
 )
-LoadedAsData
-:
-:
-AsData
+true
 sgo
 aFlavor
 )
@@ -41915,10 +41912,7 @@ nullptr
 uri
 uri
 nullPrincipal
-LoadedAsData
-:
-:
-AsData
+true
 nullptr
 aFlavor
 )
