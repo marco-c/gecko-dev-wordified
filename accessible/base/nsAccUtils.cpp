@@ -1605,6 +1605,7 @@ nsAccUtils
 :
 TableFor
 (
+const
 Accessible
 *
 aAcc
@@ -1653,7 +1654,14 @@ Accessible
 *
 table
 =
+const_cast
+<
+Accessible
+*
+>
+(
 aAcc
+)
 ;
 for
 (
