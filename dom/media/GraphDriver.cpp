@@ -1206,15 +1206,6 @@ Now
 (
 )
 )
-mLastTimeStamp
-(
-TimeStamp
-:
-:
-Now
-(
-)
-)
 {
 }
 SystemClockDriver

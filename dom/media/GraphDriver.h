@@ -3543,9 +3543,6 @@ mInitialTimeStamp
 TimeStamp
 mCurrentTimeStamp
 ;
-TimeStamp
-mLastTimeStamp
-;
 }
 ;
 /
