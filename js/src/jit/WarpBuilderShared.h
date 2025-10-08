@@ -2205,14 +2205,6 @@ with
 undefined
 |
 .
-/
-/
-This
-permits
-skipping
-the
-argumentsRectifier
-.
 MOZ_ASSERT_IF
 (
 target
