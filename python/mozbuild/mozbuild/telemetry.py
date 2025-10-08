@@ -912,22 +912,17 @@ linux
 )
 :
         
-dist
-version
-_
-=
+return
 distro
 .
-linux_distribution
+id
 (
-full_distribution_name
-=
-False
 )
-        
-return
-dist
+distro
+.
 version
+(
+)
     
 elif
 sys

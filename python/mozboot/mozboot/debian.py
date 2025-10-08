@@ -85,7 +85,6 @@ self
 distro
 version
 dist_id
-codename
 *
 *
 kwargs
@@ -119,12 +118,6 @@ self
 dist_id
 =
 dist_id
-        
-self
-.
-codename
-=
-codename
     
 def
 suggest_install_pip3
