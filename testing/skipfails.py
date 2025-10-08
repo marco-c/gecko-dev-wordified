@@ -12386,11 +12386,7 @@ _get_list_skip_if
 extra
 )
             
-elif
-os_version
-is
-not
-None
+else
 :
                 
 skip_if
@@ -12408,32 +12404,10 @@ os
 qq
                 
 if
-os
-=
-=
-"
-android
-"
-:
-                    
-skip_if
-+
-=
-aa
-+
-"
-android_version
-"
-+
-eq
-+
-qq
-+
 os_version
-+
-qq
-                
-else
+is
+not
+None
 :
                     
 skip_if

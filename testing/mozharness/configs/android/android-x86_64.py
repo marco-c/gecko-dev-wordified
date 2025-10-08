@@ -340,6 +340,16 @@ android_version
 24
     
 "
+os_version
+"
+:
+"
+7
+.
+0
+"
+    
+"
 is_emulator
 "
 :

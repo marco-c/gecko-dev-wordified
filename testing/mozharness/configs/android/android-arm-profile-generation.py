@@ -341,6 +341,16 @@ android_version
 30
     
 "
+os_version
+"
+:
+"
+11
+.
+0
+"
+    
+"
 is_emulator
 "
 :

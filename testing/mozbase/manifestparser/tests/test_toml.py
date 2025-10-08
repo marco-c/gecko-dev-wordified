@@ -129,14 +129,6 @@ android
 '
 &
 &
-android_version
-=
-=
-'
-24
-'
-&
-&
 processor
 =
 =
@@ -154,11 +146,11 @@ android
 '
 &
 &
-android_version
+os_version
 =
 =
 '
-34
+14
 '
 &
 &
@@ -290,14 +282,6 @@ android
 '
 &
 &
-android_version
-=
-=
-'
-24
-'
-&
-&
 debug
 "
             
@@ -310,11 +294,11 @@ android
 '
 &
 &
-android_version
+os_version
 =
 =
 '
-34
+14
 '
 &
 &
@@ -338,14 +322,6 @@ android
 '
 &
 &
-android_version
-=
-=
-'
-24
-'
-&
-&
 !
 debug
 "
@@ -359,11 +335,11 @@ android
 '
 &
 &
-android_version
+os_version
 =
 =
 '
-34
+14
 '
 &
 &
@@ -387,14 +363,6 @@ android
 '
 &
 &
-android_version
-=
-=
-'
-24
-'
-&
-&
 debug
 "
             
@@ -407,11 +375,11 @@ android
 '
 &
 &
-android_version
+os_version
 =
 =
 '
-34
+14
 '
 &
 &
@@ -434,14 +402,6 @@ os
 '
 android
 '
-&
-&
-android_version
-=
-=
-'
-24
-'
 "
             
 "
@@ -453,11 +413,11 @@ android
 '
 &
 &
-android_version
+os_version
 =
 =
 '
-34
+14
 '
 &
 &
@@ -479,14 +439,6 @@ os
 '
 android
 '
-&
-&
-android_version
-=
-=
-'
-24
-'
 "
             
 "
@@ -498,11 +450,11 @@ android
 '
 &
 &
-android_version
+os_version
 =
 =
 '
-34
+14
 '
 &
 &
@@ -527,14 +479,6 @@ android
 '
 &
 &
-android_version
-=
-=
-'
-24
-'
-&
-&
 debug
 "
             
@@ -547,11 +491,11 @@ android
 '
 &
 &
-android_version
+os_version
 =
 =
 '
-34
+14
 '
 "
             
@@ -572,14 +516,6 @@ android
 '
 &
 &
-android_version
-=
-=
-'
-24
-'
-&
-&
 !
 debug
 "
@@ -593,11 +529,11 @@ android
 '
 &
 &
-android_version
+os_version
 =
 =
 '
-34
+14
 '
 "
             
@@ -618,14 +554,6 @@ android
 '
 &
 &
-android_version
-=
-=
-'
-24
-'
-&
-&
 asan
 "
             
@@ -638,11 +566,11 @@ android
 '
 &
 &
-android_version
+os_version
 =
 =
 '
-34
+14
 '
 &
 &
@@ -664,14 +592,6 @@ os
 '
 android
 '
-&
-&
-android_version
-=
-=
-'
-24
-'
 "
             
 "
@@ -683,11 +603,11 @@ android
 '
 &
 &
-android_version
+os_version
 =
 =
 '
-34
+14
 '
 &
 &
@@ -711,14 +631,6 @@ android
 '
 &
 &
-android_version
-=
-=
-'
-24
-'
-&
-&
 tsan
 "
             
@@ -731,11 +643,11 @@ android
 '
 &
 &
-android_version
+os_version
 =
 =
 '
-34
+14
 '
 "
             
@@ -952,14 +864,6 @@ android
 '
 &
 &
-android_version
-=
-=
-'
-24
-'
-&
-&
 opt
 "
             
@@ -972,11 +876,11 @@ android
 '
 &
 &
-android_version
+os_version
 =
 =
 '
-34
+14
 '
 &
 &
@@ -1001,14 +905,6 @@ android
 '
 &
 &
-android_version
-=
-=
-'
-24
-'
-&
-&
 !
 debug
 "
@@ -1022,11 +918,11 @@ android
 '
 &
 &
-android_version
+os_version
 =
 =
 '
-34
+14
 '
 &
 &

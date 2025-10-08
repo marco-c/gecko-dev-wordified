@@ -28010,23 +28010,6 @@ options
 app
                 
 "
-android_version
-"
-:
-mozinfo
-.
-info
-.
-get
-(
-"
-android_version
-"
--
-1
-)
-                
-"
 android
 "
 :
