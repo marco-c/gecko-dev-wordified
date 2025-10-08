@@ -75,6 +75,10 @@ shouldDelay
 =
 >
 shouldCrashNow
+&
+&
+!
+shouldWaitSetup
 )
 ;
 }
