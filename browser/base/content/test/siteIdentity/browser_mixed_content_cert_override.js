@@ -136,18 +136,12 @@ icon
 listStyleImage
 ;
 }
-async
 function
 checkIdentityPopup
 (
 icon
 )
 {
-await
-openIdentityPopup
-(
-)
-;
 gIdentityHandler
 .
 refreshIdentityPopup
@@ -282,7 +276,6 @@ loadBadCertPage
 MIXED_CONTENT_URL
 )
 ;
-await
 checkIdentityPopup
 (
 "
@@ -338,7 +331,6 @@ gBrowser
 selectedBrowser
 )
 ;
-await
 checkIdentityPopup
 (
 "
