@@ -3272,6 +3272,14 @@ aSet
 length
 .
 *
+param
+{
+number
+[
+]
+}
+aCallback
+*
 returns
 {
 number

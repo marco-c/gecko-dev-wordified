@@ -101,6 +101,13 @@ observer
 callback
 .
 *
+*
+param
+{
+string
+}
+name
+*
 /
 function
 promiseObserve
