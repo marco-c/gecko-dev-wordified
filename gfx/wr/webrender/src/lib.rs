@@ -767,6 +767,7 @@ renderer
 mod
 resource_cache
 ;
+pub
 mod
 scene
 ;
