@@ -2879,6 +2879,7 @@ case
 allDownloads
 "
 :
+{
 /
 /
 we
@@ -3015,11 +3016,13 @@ downloadsContextMenu
 ;
 break
 ;
+}
 case
 "
 aboutDownloads
 "
 :
+{
 info
 (
 "
@@ -3372,6 +3375,7 @@ items
 ;
 break
 ;
+}
 }
 if
 (

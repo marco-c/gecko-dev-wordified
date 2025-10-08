@@ -104,6 +104,7 @@ aTopic
 case
 REQ_LOC_CHANGE_EVENT
 :
+{
 let
 reqLocs
 =
@@ -136,6 +137,7 @@ resolve
 (
 )
 ;
+}
 }
 }
 }
