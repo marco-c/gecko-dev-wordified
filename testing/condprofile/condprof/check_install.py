@@ -199,7 +199,7 @@ tests
 .
 tar
 .
-zst
+gz
         
 run_in_ci
 =
