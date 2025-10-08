@@ -11347,7 +11347,7 @@ sandbox
 Desktop
 :
 :
-kAlternateDesktop
+kDefault
 ;
 mInitialIntegrityLevel
 =
