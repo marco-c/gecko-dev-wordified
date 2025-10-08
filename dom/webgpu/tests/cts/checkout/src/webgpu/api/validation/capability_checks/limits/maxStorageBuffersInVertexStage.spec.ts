@@ -90,7 +90,7 @@ limit
 {
 /
 /
-MAINTAINANCE_TODO
+MAINTENANCE_TODO
 :
 remove
 once

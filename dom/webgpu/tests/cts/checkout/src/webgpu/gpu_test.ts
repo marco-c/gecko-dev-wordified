@@ -104,7 +104,7 @@ js
 ;
 import
 {
-kLimits
+kPossibleLimits
 kQueryTypeInfo
 WGSLLanguageFeature
 }
@@ -2220,7 +2220,7 @@ limit
 :
 (
 typeof
-kLimits
+kPossibleLimits
 )
 [
 number
