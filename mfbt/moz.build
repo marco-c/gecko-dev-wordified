@@ -232,6 +232,11 @@ Char16
 h
 "
 "
+CheckedArithmetic
+.
+h
+"
+"
 CheckedInt
 .
 h
