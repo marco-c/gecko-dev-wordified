@@ -1849,7 +1849,7 @@ sBrowserParentCount
 =
 0
 ;
-MOZ_CONSTINIT
+MOZ_RUNINIT
 Maybe
 <
 RequestingAccessKeyEventData
