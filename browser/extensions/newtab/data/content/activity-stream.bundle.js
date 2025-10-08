@@ -95612,6 +95612,14 @@ dragSelector
 checkbox
 -
 wrapper
+:
+has
+(
+.
+task
+-
+label
+)
 "
 }
 /
@@ -96664,6 +96672,9 @@ checkbox
 -
 wrapper
 "
+key
+:
+isEditing
 }
 /
 *
