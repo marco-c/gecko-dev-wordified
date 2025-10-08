@@ -448,6 +448,16 @@ Cancel
 (
 )
 override
+{
+mLoader
+-
+>
+Cancel
+(
+this
+)
+;
+}
 ;
 void
 SetImport
