@@ -1769,7 +1769,7 @@ GetWidth
 aSurface
 -
 >
-GetWidth
+GetHeight
 (
 )
 )
