@@ -802,6 +802,10 @@ aAs
 const
 nsAString
 &
+aRel
+const
+nsAString
+&
 aType
 const
 nsAString
