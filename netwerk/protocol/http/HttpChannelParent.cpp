@@ -4661,7 +4661,7 @@ IsEmpty
 /
 Wait
 for
-HttpBackgrounChannel
+HttpBackgroundChannel
 to
 continue
 the
