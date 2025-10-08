@@ -6873,6 +6873,13 @@ GetPopoverTargetDetailsRelation
 )
 const
 ;
+LocalAccessible
+*
+GetAnchorPositionTargetDetailsRelation
+(
+)
+const
+;
 }
 ;
 /
