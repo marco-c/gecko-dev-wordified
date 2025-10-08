@@ -75963,6 +75963,10 @@ string
 iconURL
 :
 string
+originAttributes
+?
+:
+any
 )
 :
 Promise
