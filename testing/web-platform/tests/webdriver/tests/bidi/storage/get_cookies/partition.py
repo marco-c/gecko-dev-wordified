@@ -61,7 +61,7 @@ test_page_cross_origin
     
 domain_value
     
-add_cookie
+add_document_cookie
 )
 :
     
@@ -132,7 +132,7 @@ bar
 "
     
 await
-add_cookie
+add_document_cookie
 (
 new_tab
 [
@@ -160,7 +160,7 @@ bar_2
 "
     
 await
-add_cookie
+add_document_cookie
 (
 top_context
 [
@@ -428,7 +428,7 @@ test_page
     
 domain_value
     
-add_cookie
+add_document_cookie
     
 create_user_context
     
@@ -543,7 +543,7 @@ bar
 "
     
 await
-add_cookie
+add_document_cookie
 (
 new_tab
 [
@@ -1791,7 +1791,7 @@ test_page
     
 domain_value
     
-add_cookie
+add_document_cookie
 )
 :
     
@@ -1851,7 +1851,7 @@ bar
 "
     
 await
-add_cookie
+add_document_cookie
 (
 new_context
 [
@@ -2030,7 +2030,7 @@ create_user_context
     
 test_page_cross_origin
     
-add_cookie
+add_document_cookie
 )
 :
     
@@ -2157,7 +2157,7 @@ bar_1
 "
     
 await
-add_cookie
+add_document_cookie
 (
 new_context_1
 [

@@ -100,7 +100,7 @@ bidi_session
 new_tab
 test_page
 domain_value
-add_cookie
+add_document_cookie
 filter
 )
 :
@@ -145,7 +145,7 @@ baz
 "
     
 await
-add_cookie
+add_document_cookie
 (
 new_tab
 [
@@ -167,7 +167,7 @@ foo
 "
     
 await
-add_cookie
+add_document_cookie
 (
 new_tab
 [
@@ -189,7 +189,7 @@ foo_3
 "
     
 await
-add_cookie
+add_document_cookie
 (
 new_tab
 [
@@ -465,7 +465,7 @@ test_page_cross_origin
     
 domain_value
     
-add_cookie
+add_document_cookie
 )
 :
     
@@ -536,7 +536,7 @@ foo
 "
     
 await
-add_cookie
+add_document_cookie
 (
 top_context
 [
@@ -564,7 +564,7 @@ bar
 "
     
 await
-add_cookie
+add_document_cookie
 (
 top_context
 [
@@ -592,7 +592,7 @@ bar_2
 "
     
 await
-add_cookie
+add_document_cookie
 (
 new_tab
 [
@@ -899,7 +899,7 @@ test_page
     
 domain_value
     
-add_cookie
+add_document_cookie
     
 expiry_diff_1
     
@@ -972,7 +972,7 @@ foo
 "
     
 await
-add_cookie
+add_document_cookie
 (
         
 context
@@ -1015,7 +1015,7 @@ bar
 "
     
 await
-add_cookie
+add_document_cookie
 (
         
 context
@@ -1079,7 +1079,7 @@ cookie2_expiry_date
 )
     
 await
-add_cookie
+add_document_cookie
 (
         
 new_tab
@@ -1368,7 +1368,7 @@ bidi_session
 new_tab
 test_page
 domain_value
-add_cookie
+add_document_cookie
 )
 :
     
@@ -1412,7 +1412,7 @@ bar
 "
     
 await
-add_cookie
+add_document_cookie
 (
 new_tab
 [
@@ -1434,7 +1434,7 @@ foo_2
 "
     
 await
-add_cookie
+add_document_cookie
 (
 new_tab
 [
@@ -1675,7 +1675,7 @@ test_page
 domain_value
 same_site_1
 same_site_2
-add_cookie
+add_document_cookie
 )
 :
     
@@ -1719,7 +1719,7 @@ foo
 "
     
 await
-add_cookie
+add_document_cookie
 (
         
 new_tab
@@ -1756,7 +1756,7 @@ bar
 "
     
 await
-add_cookie
+add_document_cookie
 (
         
 new_tab
@@ -1787,7 +1787,7 @@ foo_3
 "
     
 await
-add_cookie
+add_document_cookie
 (
 new_tab
 [
@@ -2082,7 +2082,7 @@ bidi_session
 new_tab
 test_page
 domain_value
-add_cookie
+add_document_cookie
 secure_1
 secure_2
 )
@@ -2128,7 +2128,7 @@ foo
 "
     
 await
-add_cookie
+add_document_cookie
 (
         
 new_tab
@@ -2167,7 +2167,7 @@ bar
 "
     
 await
-add_cookie
+add_document_cookie
 (
         
 new_tab
@@ -2200,7 +2200,7 @@ foo_3
 "
     
 await
-add_cookie
+add_document_cookie
 (
 new_tab
 [
@@ -2532,7 +2532,7 @@ test_page
     
 domain_value
     
-add_cookie
+add_document_cookie
     
 path_1
     
@@ -2580,7 +2580,7 @@ foo
 "
     
 await
-add_cookie
+add_document_cookie
 (
         
 new_tab
@@ -2617,7 +2617,7 @@ bar
 "
     
 await
-add_cookie
+add_document_cookie
 (
         
 new_tab
@@ -2648,7 +2648,7 @@ foo_3
 "
     
 await
-add_cookie
+add_document_cookie
 (
 new_tab
 [
