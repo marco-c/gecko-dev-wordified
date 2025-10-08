@@ -2807,10 +2807,6 @@ actual
 =
 0
 ;
-int32_t
-i
-j
-;
 /
 /
 get
@@ -2819,6 +2815,7 @@ actual
 total
 for
 (
+int32_t
 i
 =
 0
@@ -2832,6 +2829,7 @@ i
 +
 )
 {
+int32_t
 j
 =
 aIndicies
@@ -2882,6 +2880,7 @@ or
 down
 for
 (
+int32_t
 i
 =
 0
@@ -2895,6 +2894,7 @@ i
 +
 )
 {
+int32_t
 j
 =
 aIndicies
@@ -2986,6 +2986,7 @@ aNumIndicies
 ;
 for
 (
+int32_t
 i
 =
 0
@@ -3040,6 +3041,7 @@ actual
 ;
 for
 (
+int32_t
 i
 =
 0
@@ -3063,6 +3065,7 @@ i
 +
 )
 {
+int32_t
 j
 =
 aIndicies
@@ -3281,10 +3284,6 @@ return
 /
 NS_ERROR_OUT_OF_MEMORY
 }
-int32_t
-i
-j
-;
 /
 /
 initialize
@@ -3305,6 +3304,7 @@ the
 others
 for
 (
+int32_t
 i
 =
 0
@@ -3529,6 +3529,7 @@ fixed
 allocation
 for
 (
+int32_t
 i
 =
 0
@@ -3542,6 +3543,7 @@ i
 +
 )
 {
+int32_t
 j
 =
 percent
@@ -3683,6 +3685,7 @@ percent
 allocation
 for
 (
+int32_t
 i
 =
 0
@@ -3696,6 +3699,7 @@ i
 +
 )
 {
+int32_t
 j
 =
 relative
@@ -3849,11 +3853,9 @@ nsString
 aNewAttr
 )
 {
-int32_t
-i
-;
 for
 (
+int32_t
 i
 =
 0
