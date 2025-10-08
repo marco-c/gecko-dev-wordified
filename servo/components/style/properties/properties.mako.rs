@@ -14928,6 +14928,13 @@ Context
 style
 :
 self
+for_property
+:
+id
+.
+into
+(
+)
 }
 ;
 let
