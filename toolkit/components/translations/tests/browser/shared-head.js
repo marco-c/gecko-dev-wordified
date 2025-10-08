@@ -16132,7 +16132,7 @@ static
 DetectedLanguageUpdated
 =
 "
-AboutTranslations
+AboutTranslationsTest
 :
 DetectedLanguageUpdated
 "
@@ -16164,7 +16164,7 @@ static
 SwapLanguagesButtonDisabled
 =
 "
-AboutTranslations
+AboutTranslationsTest
 :
 SwapLanguagesButtonDisabled
 "
@@ -16196,7 +16196,7 @@ static
 SwapLanguagesButtonEnabled
 =
 "
-AboutTranslations
+AboutTranslationsTest
 :
 SwapLanguagesButtonEnabled
 "
@@ -16227,7 +16227,7 @@ static
 ShowTranslatingPlaceholder
 =
 "
-AboutTranslations
+AboutTranslationsTest
 :
 ShowTranslatingPlaceholder
 "
@@ -16260,7 +16260,7 @@ static
 URLUpdatedFromUI
 =
 "
-AboutTranslations
+AboutTranslationsTest
 :
 URLUpdatedFromUI
 "
@@ -16289,7 +16289,7 @@ static
 TranslationRequested
 =
 "
-AboutTranslations
+AboutTranslationsTest
 :
 TranslationRequested
 "
@@ -16317,7 +16317,7 @@ static
 TranslationComplete
 =
 "
-AboutTranslations
+AboutTranslationsTest
 :
 TranslationComplete
 "
@@ -16346,7 +16346,7 @@ static
 PageOrientationChanged
 =
 "
-AboutTranslations
+AboutTranslationsTest
 :
 PageOrientationChanged
 "
@@ -16378,7 +16378,7 @@ static
 TextAreaHeightsChanged
 =
 "
-AboutTranslations
+AboutTranslationsTest
 :
 TextAreaHeightsChanged
 "
@@ -16409,7 +16409,7 @@ static
 ClearTargetText
 =
 "
-AboutTranslations
+AboutTranslationsTest
 :
 ClearTargetText
 "
