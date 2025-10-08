@@ -462,7 +462,7 @@ NS_SUCCEEDED
 httpchannel
 -
 >
-GetDictionary
+GetDecompressDictionary
 (
 getter_AddRefs
 (
@@ -779,7 +779,7 @@ NS_FAILED
 httpchannel
 -
 >
-GetDictionary
+GetDecompressDictionary
 (
 getter_AddRefs
 (
@@ -2396,7 +2396,7 @@ httpchannel
 httpchannel
 -
 >
-SetDictionary
+SetDecompressDictionary
 (
 nullptr
 )
