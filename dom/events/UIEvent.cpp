@@ -989,7 +989,7 @@ issues
 RelativeTo
 root
 {
-mPresContext
+targetFrame
 -
 >
 PresShell
