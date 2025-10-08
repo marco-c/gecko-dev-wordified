@@ -27,7 +27,7 @@ rand
 :
 :
 {
-distributions
+distr
 :
 :
 Alphanumeric
