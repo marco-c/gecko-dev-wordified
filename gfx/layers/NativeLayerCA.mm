@@ -2167,7 +2167,6 @@ CommitToScreen
 (
 )
 {
-{
 MutexAutoLock
 lock
 (
@@ -2415,7 +2414,6 @@ EmitTelemetryForVideoLowPower
 videoLowPower
 )
 ;
-}
 }
 return
 true
