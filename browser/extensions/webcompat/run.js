@@ -67,6 +67,7 @@ globals
 AboutCompatBroker
 AVAILABLE_SHIMS
 CUSTOM_FUNCTIONS
+listenForRemoteSettingsUpdates
 Interventions
 Shims
 *
@@ -203,3 +204,9 @@ e
 )
 ;
 }
+listenForRemoteSettingsUpdates
+(
+interventions
+shims
+)
+;
