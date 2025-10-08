@@ -1593,6 +1593,15 @@ nullptr
 /
 /
 strong
+CALayer
+*
+mOffscreenRootCALayer
+=
+nullptr
+;
+/
+/
+strong
 NativeLayerRootSnapshotterCA
 *
 mWeakSnapshotter
