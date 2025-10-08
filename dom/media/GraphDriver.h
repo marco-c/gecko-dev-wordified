@@ -3431,6 +3431,7 @@ iteration
 /
 class
 SystemClockDriver
+final
 :
 public
 ThreadedDriver
@@ -3568,6 +3569,7 @@ iteration
 /
 class
 OfflineClockDriver
+final
 :
 public
 ThreadedDriver
@@ -3933,6 +3935,7 @@ frames
 /
 class
 AudioCallbackDriver
+final
 :
 public
 GraphDriver
