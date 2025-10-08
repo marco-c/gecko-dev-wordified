@@ -346,3 +346,7 @@ DEPRECATED_OPERATION
 (
 AfterScriptExecuteEvent
 )
+DEPRECATED_OPERATION
+(
+FullscreenAttribute
+)
