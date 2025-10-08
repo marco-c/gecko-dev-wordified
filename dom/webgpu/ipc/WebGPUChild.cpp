@@ -221,15 +221,6 @@ include
 "
 mozilla
 /
-EnumTypeTraits
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ProfilerMarkers
 .
 h
