@@ -23959,6 +23959,17 @@ invertedEnt
 )
 )
 ;
+if
+(
+aAvailableForDispatchNow
+)
+{
+*
+aAvailableForDispatchNow
+=
+true
+;
+}
 return
 invertedEnt
 ;
