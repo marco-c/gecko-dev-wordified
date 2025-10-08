@@ -159,6 +159,9 @@ TrampolineNativeFrameLayout
 class
 ArrayObject
 ;
+class
+IteratorProperty
+;
 MOZ_ALWAYS_INLINE
 bool
 IdIsIndex
@@ -567,10 +570,7 @@ array
 from
 the
 given
-(
-linear
-)
-string
+IteratorProperty
 values
 which
 must
@@ -578,6 +578,7 @@ be
 /
 /
 rooted
+.
 extern
 ArrayObject
 *
@@ -588,10 +589,9 @@ JSContext
 cx
 uint32_t
 length
-JSLinearString
+IteratorProperty
 *
-*
-values
+props
 NewObjectKind
 newKind
 =
