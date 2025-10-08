@@ -190,9 +190,7 @@ or
 excessively
 long
 .
-return
 None
-;
 }
 else
 {
