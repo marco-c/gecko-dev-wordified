@@ -37520,7 +37520,7 @@ aTab
 >
 aSplitViewWrapper
 .
-container
+wrapper
 .
 appendChild
 (
@@ -42491,6 +42491,16 @@ e
 g
 .
 container
+/
+/
+membership
+tab
+group
+membership
+)
+when
+applicable
+.
 let
 containerName
 =
