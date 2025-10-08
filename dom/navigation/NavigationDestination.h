@@ -322,7 +322,7 @@ const
 ;
 nsIURI
 *
-GetURI
+GetURL
 (
 )
 const

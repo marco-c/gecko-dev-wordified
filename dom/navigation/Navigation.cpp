@@ -7719,7 +7719,7 @@ AppendElement
 destination
 -
 >
-GetURI
+GetURL
 (
 )
 -
@@ -8532,7 +8532,7 @@ CanRewriteURL
 aDestination
 -
 >
-GetURI
+GetURL
 (
 )
 )
@@ -8769,7 +8769,7 @@ EqualsExceptRef
 aDestination
 -
 >
-GetURI
+GetURL
 (
 )
 currentURL
@@ -8782,7 +8782,7 @@ HasIdenticalFragment
 aDestination
 -
 >
-GetURI
+GetURL
 (
 )
 currentURL
@@ -9489,7 +9489,7 @@ document
 aDestination
 -
 >
-GetURI
+GetURL
 (
 )
 event
@@ -9517,7 +9517,7 @@ Equals
 aDestination
 -
 >
-GetURI
+GetURL
 (
 )
 document

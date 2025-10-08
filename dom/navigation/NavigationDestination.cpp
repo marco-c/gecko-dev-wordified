@@ -707,7 +707,7 @@ nsIURI
 NavigationDestination
 :
 :
-GetURI
+GetURL
 (
 )
 const
