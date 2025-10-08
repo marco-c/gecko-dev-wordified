@@ -1516,7 +1516,7 @@ searchResult
 /
 Preselect
 the
-right
+required
 side
 panel
 .
