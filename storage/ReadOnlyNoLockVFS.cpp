@@ -244,6 +244,15 @@ sqlite3
 h
 "
 #
+include
+"
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
 define
 ORIGVFS
 (
