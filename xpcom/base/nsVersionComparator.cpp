@@ -195,6 +195,15 @@ nsAlgorithm
 h
 "
 #
+include
+"
+mozilla
+/
+Char16
+.
+h
+"
+#
 endif
 struct
 VersionPart

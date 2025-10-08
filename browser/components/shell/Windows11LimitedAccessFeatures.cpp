@@ -259,15 +259,6 @@ include
 "
 mozilla
 /
-Char16
-.
-h
-"
-#
-include
-"
-mozilla
-/
 WinHeaderOnlyUtils
 .
 h
