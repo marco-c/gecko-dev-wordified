@@ -2005,7 +2005,6 @@ LONG
 useBaseTreeViewExpand
 :
 true
-url
 }
 ;
 hasFormattedDisplay
@@ -2093,7 +2092,6 @@ replace
 "
 )
 targetSearchResult
-url
 }
 ;
 }
@@ -2106,7 +2104,6 @@ hasFormattedDisplay
 json
 responsePayloadLabel
 xssiStrippedCharsInfoBox
-url
 }
 ;
 }

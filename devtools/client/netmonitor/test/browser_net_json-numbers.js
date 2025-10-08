@@ -1084,9 +1084,9 @@ response
 -
 panel
 .
-cm
+CodeMirror
 -
-content
+code
 "
 )
 ;
@@ -1124,10 +1124,12 @@ codeMirrorCodeEl
 querySelector
 (
 "
+pre
 .
-cm
+CodeMirror
 -
 line
+span
 "
 )
 .

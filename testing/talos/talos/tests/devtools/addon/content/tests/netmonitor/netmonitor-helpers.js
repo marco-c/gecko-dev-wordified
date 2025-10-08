@@ -1432,9 +1432,13 @@ response
 -
 panel
 .
+CodeMirror
+.
 cm
 -
-editor
+s
+-
+mozilla
 "
 )
 ;

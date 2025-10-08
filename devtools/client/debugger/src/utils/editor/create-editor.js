@@ -176,12 +176,6 @@ foldGutter
 features
 .
 codeFolding
-disableSearchAddon
-:
-false
-useSearchAddonPanel
-:
-false
 enableCodeFolding
 :
 features

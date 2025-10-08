@@ -2016,9 +2016,7 @@ closest
 (
 "
 .
-cm
--
-editor
+CodeMirror
 "
 )
 ;

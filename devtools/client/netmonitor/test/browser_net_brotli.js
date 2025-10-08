@@ -388,9 +388,9 @@ waitForDOM
 document
 "
 .
-cm
+CodeMirror
 -
-content
+code
 "
 )
 ;
