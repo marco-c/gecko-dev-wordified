@@ -1316,7 +1316,7 @@ IOSurface
 was
 created
 .
-auto
+IOSurfaceRef
 surfaceRef
 =
 surfaceWithInvalidRegion
