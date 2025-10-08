@@ -1218,7 +1218,9 @@ panel
 -
 container
 .
-CodeMirror
+cm
+-
+content
 "
 )
 ;
@@ -1473,7 +1475,9 @@ row
 -
 container
 .
-CodeMirror
+cm
+-
+content
 "
 )
 ;
@@ -1969,7 +1973,9 @@ querySelector
 (
 "
 .
-CodeMirror
+cm
+-
+content
 "
 )
 ;
