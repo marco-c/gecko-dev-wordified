@@ -787,8 +787,6 @@ int32_t
 >
 &
 aIndicies
-int32_t
-aNumItems
 nsTArray
 <
 int32_t
