@@ -780,8 +780,12 @@ nscoord
 aDesired
 int32_t
 aNumIndicies
+const
+nsTArray
+<
 int32_t
-*
+>
+&
 aIndicies
 int32_t
 aNumItems
