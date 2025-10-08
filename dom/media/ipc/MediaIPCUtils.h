@@ -190,15 +190,6 @@ include
 "
 mozilla
 /
-EnumSet
-.
-h
-"
-#
-include
-"
-mozilla
-/
 GfxMessageUtils
 .
 h

@@ -217,6 +217,15 @@ include
 "
 mozilla
 /
+EnumSet
+.
+h
+"
+#
+include
+"
+mozilla
+/
 FStream
 .
 h
