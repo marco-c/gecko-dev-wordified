@@ -162,6 +162,11 @@ stringify
 (
 {
 version
+defaultDevice
+:
+this
+.
+defaultDeviceDescription
 results
 :
 Array
