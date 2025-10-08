@@ -1460,8 +1460,6 @@ IsMarkedForMemoryCache
 )
 ;
 }
-protected
-:
 void
 MarkForCache
 (
@@ -1528,14 +1526,6 @@ MarkedForCache
 }
 public
 :
-void
-MarkScriptForCache
-(
-JSScript
-*
-aScript
-)
-;
 mozilla
 :
 :

@@ -506,16 +506,6 @@ return
 mRootModule
 ;
 }
-void
-MarkModuleForCache
-(
-)
-{
-MarkForCache
-(
-)
-;
-}
 /
 /
 Convenience
