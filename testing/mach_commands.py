@@ -8453,6 +8453,50 @@ CommandArgument
     
 "
 -
+C
+"
+    
+"
+-
+-
+clear
+-
+cache
+"
+    
+nargs
+=
+"
+?
+"
+    
+const
+=
+"
+all
+"
+    
+default
+=
+None
+    
+help
+=
+"
+clear
+cache
+REVISION
+(
+or
+all
+)
+"
+)
+CommandArgument
+(
+    
+"
+-
 c
 "
     
@@ -8892,12 +8936,6 @@ user
 agent
 "
     
-dest
-=
-"
-user_agent
-"
-    
 default
 =
 None
@@ -9017,6 +9055,10 @@ failure_ratio
 0
 .
 4
+    
+clear_cache
+=
+None
 )
 :
     
@@ -9047,6 +9089,8 @@ new_version
 task_id
         
 user_agent
+        
+clear_cache
     
 )
 .
