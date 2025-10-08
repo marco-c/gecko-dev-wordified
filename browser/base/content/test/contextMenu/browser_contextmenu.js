@@ -444,6 +444,18 @@ true
 ]
 [
 "
+privacy
+.
+query_stripping
+.
+strip_on_share
+.
+canDisable
+"
+false
+]
+[
+"
 dom
 .
 text_fragments
@@ -632,7 +644,7 @@ context
 -
 stripOnShareLink
 "
-false
+true
 ]
 :
 [
@@ -1159,7 +1171,7 @@ context
 -
 stripOnShareLink
 "
-false
+true
 ]
 :
 [
@@ -1511,7 +1523,7 @@ context
 -
 stripOnShareLink
 "
-false
+true
 ]
 :
 [
@@ -1750,7 +1762,7 @@ context
 -
 stripOnShareLink
 "
-false
+true
 ]
 :
 [
@@ -7911,7 +7923,7 @@ context
 -
 stripOnShareLink
 "
-false
+true
 ]
 :
 [
@@ -8254,7 +8266,7 @@ context
 -
 stripOnShareLink
 "
-false
+true
 ]
 :
 [
@@ -9487,7 +9499,7 @@ context
 -
 stripOnShareLink
 "
-false
+true
 ]
 :
 [
@@ -9659,7 +9671,7 @@ context
 -
 stripOnShareLink
 "
-false
+true
 ]
 :
 [
@@ -9831,7 +9843,7 @@ context
 -
 stripOnShareLink
 "
-false
+true
 ]
 :
 [
@@ -10016,7 +10028,7 @@ context
 -
 stripOnShareLink
 "
-false
+true
 ]
 :
 [
@@ -10190,7 +10202,7 @@ context
 -
 stripOnShareLink
 "
-false
+true
 ]
 :
 [
@@ -10364,7 +10376,7 @@ context
 -
 stripOnShareLink
 "
-false
+true
 ]
 :
 [
@@ -10777,7 +10789,7 @@ context
 -
 stripOnShareLink
 "
-false
+true
 ]
 :
 [
