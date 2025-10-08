@@ -15,6 +15,11 @@ quit
 ;
 }
 const
+VALUE_SUMMARY_VERSION
+=
+2
+;
+const
 JSVAL_TYPE_DOUBLE
 =
 0x00
@@ -1008,7 +1013,7 @@ versionReader
 readUint32
 (
 )
-1
+VALUE_SUMMARY_VERSION
 )
 ;
 function
