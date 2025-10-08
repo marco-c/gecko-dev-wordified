@@ -1004,10 +1004,6 @@ CanvasUtils
 :
 ImageExtraction
 aExtractionBehavior
-const
-nsCString
-&
-aRandomizationKey
 bool
 aUsingCustomOptions
 )
@@ -1060,10 +1056,6 @@ mExtractionBehavior
 (
 aExtractionBehavior
 )
-mRandomizationKey
-(
-aRandomizationKey
-)
 mUsingCustomOptions
 (
 aUsingCustomOptions
@@ -1106,7 +1098,6 @@ get
 mFormat
 mSize
 mExtractionBehavior
-mRandomizationKey
 mImage
 nullptr
 nullptr
@@ -1176,7 +1167,6 @@ get
 mFormat
 mSize
 mExtractionBehavior
-mRandomizationKey
 mImage
 nullptr
 nullptr
@@ -1385,9 +1375,6 @@ CanvasUtils
 ImageExtraction
 mExtractionBehavior
 ;
-nsCString
-mRandomizationKey
-;
 bool
 mUsingCustomOptions
 ;
@@ -1419,10 +1406,6 @@ CanvasUtils
 :
 ImageExtraction
 aExtractionBehavior
-const
-nsCString
-&
-aRandomizationKey
 nsICanvasRenderingContextInternal
 *
 aContext
@@ -1468,7 +1451,6 @@ nullptr
 0
 aSize
 aExtractionBehavior
-aRandomizationKey
 nullptr
 aContext
 aOffscreenDisplay
@@ -1508,10 +1490,6 @@ CanvasUtils
 :
 ImageExtraction
 aExtractionBehavior
-const
-nsCString
-&
-aRandomizationKey
 EncodeCompleteCallback
 *
 aEncodeCallback
@@ -1590,9 +1568,6 @@ imgIEncoder
 INPUT_FORMAT_HOSTARGB
 size
 aExtractionBehavior
-VoidCString
-(
-)
 aUsingCustomOptions
 )
 ;
@@ -1644,10 +1619,6 @@ CanvasUtils
 :
 ImageExtraction
 aExtractionBehavior
-const
-nsCString
-&
-aRandomizationKey
 EncodeCompleteCallback
 *
 aEncodeCallback
@@ -1713,7 +1684,6 @@ completeEvent
 aFormat
 aSize
 aExtractionBehavior
-aRandomizationKey
 aUsingCustomOptions
 )
 ;
@@ -1755,10 +1725,6 @@ const
 nsAString
 &
 aEncoderOptions
-const
-nsACString
-&
-aRandomizationKey
 nsIInputStream
 *
 *
@@ -1786,7 +1752,6 @@ aWidth
 4
 aFormat
 aEncoderOptions
-aRandomizationKey
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1847,10 +1812,6 @@ CanvasUtils
 :
 ImageExtraction
 aExtractionBehavior
-const
-nsCString
-&
-aRandomizationKey
 layers
 :
 :
@@ -2149,9 +2110,6 @@ imgIEncoder
 :
 INPUT_FORMAT_HOSTARGB
 aOptions
-VoidCString
-(
-)
 )
 ;
 emptyCanvas
@@ -2219,7 +2177,6 @@ aImageBuffer
 aFormat
 aEncoder
 aOptions
-aRandomizationKey
 getter_AddRefs
 (
 imgStream
@@ -2253,7 +2210,6 @@ get
 )
 aOptions
 aExtractionBehavior
-aRandomizationKey
 getter_AddRefs
 (
 imgStream
@@ -2422,9 +2378,6 @@ imgIEncoder
 :
 INPUT_FORMAT_HOSTARGB
 aOptions
-VoidCString
-(
-)
 )
 ;
 data
@@ -2692,9 +2645,6 @@ imgIEncoder
 :
 INPUT_FORMAT_HOSTARGB
 aOptions
-VoidCString
-(
-)
 )
 ;
 }
@@ -2831,9 +2781,6 @@ imgIEncoder
 :
 INPUT_FORMAT_HOSTARGB
 aOptions
-VoidCString
-(
-)
 )
 ;
 dataSurface

@@ -361,10 +361,6 @@ const
 nsAString
 &
 aOutputOptions
-const
-nsACString
-&
-aRandomizationKey
 )
 {
 /

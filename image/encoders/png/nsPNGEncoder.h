@@ -342,15 +342,6 @@ NotifyListener
 (
 )
 ;
-nsresult
-MaybeAddCustomMetadata
-(
-const
-nsACString
-&
-aRandomizationKey
-)
-;
 png_struct
 *
 mPNG
@@ -358,9 +349,6 @@ mPNG
 png_info
 *
 mPNGinfo
-;
-bool
-mAddCustomMetadata
 ;
 bool
 mIsAnimation
@@ -381,9 +369,6 @@ mImageBufferSize
 ;
 uint32_t
 mImageBufferUsed
-;
-uint32_t
-mImageBufferHash
 ;
 uint32_t
 mImageBufferReadPoint

@@ -3050,7 +3050,7 @@ CanvasUtils
 :
 :
 ImageExtraction
-extractionBehaviour
+spoofing
 =
 CanvasUtils
 :
@@ -3090,7 +3090,7 @@ aUsingCustomOptions
 *
 /
 false
-extractionBehaviour
+spoofing
 aRv
 )
 ;
@@ -3308,7 +3308,7 @@ CanvasUtils
 :
 :
 ImageExtraction
-extractionBehaviour
+spoofing
 =
 CanvasUtils
 :
@@ -3338,7 +3338,7 @@ aCx
 callback
 aType
 aParams
-extractionBehaviour
+spoofing
 aRv
 )
 ;

@@ -152,9 +152,6 @@ class
 nsICanvasRenderingContextInternal
 ;
 class
-nsICookieJarSettings
-;
-class
 nsIGlobalObject
 ;
 namespace
@@ -376,13 +373,6 @@ IntSize
 *
 aOutImageSize
 )
-;
-nsICookieJarSettings
-*
-GetCookieJarSettings
-(
-)
-const
 ;
 already_AddRefed
 <

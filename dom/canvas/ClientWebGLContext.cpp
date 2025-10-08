@@ -8715,11 +8715,7 @@ CanvasUtils
 :
 :
 ImageExtraction
-extractionBehavior
-const
-nsACString
-&
-randomizationKey
+spoofing
 nsIInputStream
 *
 *
