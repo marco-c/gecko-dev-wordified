@@ -70,6 +70,17 @@ rememberSignons
 "
 true
 ]
+[
+"
+toolkit
+.
+osKeyStore
+.
+unofficialBuildOnlyLogin
+"
+"
+"
+]
 ]
 }
 )

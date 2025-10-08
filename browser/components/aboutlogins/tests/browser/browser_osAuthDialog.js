@@ -104,6 +104,17 @@ wait300msAfterTabSwitch
 "
 true
 ]
+[
+"
+toolkit
+.
+osKeyStore
+.
+unofficialBuildOnlyLogin
+"
+"
+"
+]
 ]
 }
 )
