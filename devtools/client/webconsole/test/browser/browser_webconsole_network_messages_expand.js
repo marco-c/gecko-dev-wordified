@@ -1101,7 +1101,9 @@ panel
 -
 container
 .
-CodeMirror
+cm
+-
+editor
 "
 )
 ;
@@ -1246,7 +1248,9 @@ row
 -
 container
 .
-CodeMirror
+cm
+-
+editor
 "
 )
 ;
@@ -1634,7 +1638,9 @@ querySelector
 (
 "
 .
-CodeMirror
+cm
+-
+editor
 "
 )
 ;

@@ -979,7 +979,9 @@ response
 -
 panel
 .
-CodeMirror
+cm
+-
+editor
 "
 )
 ;

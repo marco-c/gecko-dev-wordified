@@ -1236,7 +1236,9 @@ querySelector
 (
 "
 .
-CodeMirror
+cm
+-
+editor
 "
 )
 )

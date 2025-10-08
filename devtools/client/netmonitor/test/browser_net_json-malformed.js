@@ -341,9 +341,9 @@ response
 -
 panel
 .
-CodeMirror
+cm
 -
-code
+content
 "
 )
 ;
@@ -611,9 +611,9 @@ querySelector
 (
 "
 .
-CodeMirror
+cm
 -
-code
+content
 "
 )
 =
