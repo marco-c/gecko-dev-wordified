@@ -890,6 +890,8 @@ nsHttpRequestHead
 nsIURI
 *
 aURI
+bool
+aIsHTTPS
 ExtContentPolicyType
 aContentPolicyType
 bool
