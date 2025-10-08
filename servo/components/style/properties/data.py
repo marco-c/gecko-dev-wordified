@@ -7399,10 +7399,6 @@ direction
 "
                 
 "
-hyphens
-"
-                
-"
 line
 -
 height
