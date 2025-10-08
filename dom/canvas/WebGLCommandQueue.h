@@ -123,15 +123,6 @@ include
 "
 mozilla
 /
-FunctionTypeTraits
-.
-h
-"
-#
-include
-"
-mozilla
-/
 gfx
 /
 Logging
