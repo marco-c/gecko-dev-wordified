@@ -30,14 +30,6 @@ zero
 /
 *
 eslint
--
-env
-browser
-*
-/
-/
-*
-eslint
 no
 -
 unused

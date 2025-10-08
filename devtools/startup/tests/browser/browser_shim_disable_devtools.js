@@ -32,14 +32,6 @@ use
 strict
 "
 ;
-/
-*
-eslint
--
-env
-browser
-*
-/
 const
 {
 require

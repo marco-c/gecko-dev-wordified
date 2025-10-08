@@ -51,14 +51,6 @@ DevTools
 .
 *
 /
-/
-*
-eslint
--
-env
-browser
-*
-/
 const
 {
 DevToolsStartup

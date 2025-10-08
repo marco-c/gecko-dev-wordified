@@ -56,14 +56,6 @@ MPL
 .
 *
 /
-/
-*
-eslint
--
-env
-browser
-*
-/
 "
 use
 strict
