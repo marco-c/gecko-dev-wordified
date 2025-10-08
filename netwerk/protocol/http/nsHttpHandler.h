@@ -850,6 +850,8 @@ AddAcceptAndDictionaryHeaders
 nsIURI
 *
 aURI
+ExtContentPolicyType
+aType
 nsHttpRequestHead
 *
 aRequest
