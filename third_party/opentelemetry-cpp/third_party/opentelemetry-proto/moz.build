@@ -197,6 +197,14 @@ pb
 h
 "
 ]
+DEFINES
+[
+"
+GOOGLE_PROTOBUF_NO_RTTI
+"
+]
+=
+True
 SOURCES
 +
 =
