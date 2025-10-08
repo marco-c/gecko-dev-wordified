@@ -10191,14 +10191,13 @@ up
 so
 soon
 that
-IterationEnd
-(
-)
-barely
-advances
+mStateComputedTime
+does
+not
+advance
+/
+/
 or
-/
-/
 if
 an
 offline
@@ -11730,7 +11729,6 @@ mGraphRunner
 OneIteration
 (
 aStateTime
-aIterationEnd
 aMixerReceiver
 )
 ;
@@ -11739,7 +11737,6 @@ return
 OneIterationImpl
 (
 aStateTime
-aIterationEnd
 aMixerReceiver
 )
 ;
@@ -11752,8 +11749,6 @@ OneIterationImpl
 (
 GraphTime
 aStateTime
-GraphTime
-aIterationEnd
 MixerCallbackReceiver
 *
 aMixerReceiver
