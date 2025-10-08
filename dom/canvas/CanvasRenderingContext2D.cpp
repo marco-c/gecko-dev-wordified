@@ -42422,7 +42422,7 @@ CanvasUtils
 :
 :
 ImageExtraction
-permission
+extractionBehavior
 =
 CanvasUtils
 :
@@ -42437,7 +42437,7 @@ if
 mCanvasElement
 )
 {
-permission
+extractionBehavior
 =
 CanvasUtils
 :
@@ -42457,7 +42457,7 @@ if
 mOffscreenCanvas
 )
 {
-permission
+extractionBehavior
 =
 CanvasUtils
 :
@@ -42553,7 +42553,7 @@ data
 .
 if
 (
-permission
+extractionBehavior
 =
 =
 CanvasUtils
@@ -42618,7 +42618,7 @@ randomData
 ;
 if
 (
-permission
+extractionBehavior
 =
 =
 CanvasUtils
@@ -42677,7 +42677,7 @@ TryToGenerateRandomDataForPlaceholderCanvasData
 else
 if
 (
-permission
+extractionBehavior
 =
 =
 CanvasUtils
@@ -42809,7 +42809,7 @@ created
 above
 if
 (
-permission
+extractionBehavior
 =
 =
 CanvasUtils
