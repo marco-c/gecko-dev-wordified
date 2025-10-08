@@ -365,10 +365,7 @@ tests
 with
 -
 -
-env
-MOZ_PROFILER_STARTUP
-=
-1
+profiler
 .
 ignoredTimers
 .
