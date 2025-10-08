@@ -3544,9 +3544,9 @@ dirtyRect
 lineSize
 ascent
 offset
-trimStart
+trimLeft
 and
-trimEnd
+trimRight
 in
 /
 /
