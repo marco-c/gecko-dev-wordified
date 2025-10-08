@@ -7207,9 +7207,6 @@ message
 -
 bar
 "
-controlAttrs
-:
-{
 l10nId
 :
 "
@@ -7227,7 +7224,6 @@ profile
 -
 disabled
 "
-}
 }
 {
 id
