@@ -1325,6 +1325,13 @@ handlers
 )
 .
 *
+*
+param
+{
+boolean
+}
+userDismissed
+*
 /
 close
 (
