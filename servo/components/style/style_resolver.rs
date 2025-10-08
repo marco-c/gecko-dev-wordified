@@ -807,6 +807,10 @@ pseudos
 }
 }
 }
+pub
+(
+crate
+)
 fn
 with_default_parent_styles
 <
