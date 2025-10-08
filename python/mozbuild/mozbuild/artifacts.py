@@ -1372,7 +1372,7 @@ tests
 .
 tar
 .
-gz
+zst
 "
     
 #
@@ -1731,7 +1731,7 @@ zip
 tar
 \
 .
-gz
+zst
 )
 "
             
