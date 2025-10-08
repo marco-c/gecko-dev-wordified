@@ -584,11 +584,10 @@ close
 "
 )
 ;
-EventEmitter
+connection
 .
 off
 (
-connection
 "
 closed
 "
@@ -749,11 +748,10 @@ close
 "
 )
 ;
-EventEmitter
+connection
 .
 on
 (
-connection
 "
 closed
 "

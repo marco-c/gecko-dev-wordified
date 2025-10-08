@@ -600,11 +600,10 @@ function
 (
 )
 {
-EventEmitter
+connection
 .
 off
 (
-connection
 "
 closed
 "
@@ -1012,11 +1011,10 @@ the
 connection
 somehow
 .
-EventEmitter
+connection
 .
 on
 (
-connection
 "
 closed
 "
