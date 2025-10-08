@@ -924,7 +924,13 @@ mRemoteChild
 >
 SendCommitNativeLayerCommands
 (
+std
+:
+:
+move
+(
 commands
+)
 )
 ;
 }
