@@ -238,14 +238,6 @@ map
 :
 l4_umword_t
 }
-}
-#
-[
-allow
-(
-missing_debug_implementations
-)
-]
 pub
 struct
 pthread_attr_t
@@ -311,6 +303,7 @@ pub
 create_flags
 :
 c_uint
+}
 }
 /
 /
