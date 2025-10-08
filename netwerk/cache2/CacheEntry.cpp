@@ -3196,7 +3196,7 @@ from
 doom
 /
 /
-prematurly
+prematurely
 mPreventCallbacks
 =
 true
