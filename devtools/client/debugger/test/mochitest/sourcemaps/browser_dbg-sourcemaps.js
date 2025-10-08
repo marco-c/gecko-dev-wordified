@@ -1125,10 +1125,11 @@ source
 "
 )
 ;
+await
 setEditorCursorAt
 (
 dbg
-70
+71
 0
 )
 ;

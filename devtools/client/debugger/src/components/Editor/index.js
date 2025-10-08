@@ -3455,8 +3455,6 @@ editor
 setCursorAt
 (
 line
--
-1
 column
 )
 ;

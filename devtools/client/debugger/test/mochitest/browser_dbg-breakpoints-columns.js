@@ -355,13 +355,6 @@ enableFirstBreakpoint
 dbg
 )
 {
-setEditorCursorAt
-(
-dbg
-32
-0
-)
-;
 await
 addBreakpoint
 (

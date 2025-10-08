@@ -698,14 +698,15 @@ conditional
 breakpoint
 to
 line
-4
+5
 "
 )
 ;
+await
 setEditorCursorAt
 (
 dbg
-4
+5
 2
 )
 ;
