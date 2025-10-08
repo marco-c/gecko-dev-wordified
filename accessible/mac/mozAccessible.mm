@@ -2311,14 +2311,13 @@ NSString
 role
 ;
 const
-nsString
+nsLiteralString
 description
 ;
 }
 ;
-MOZ_RUNINIT
 static
-const
+constexpr
 RoleDescrMap
 sRoleDescrMap
 [
