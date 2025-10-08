@@ -72,7 +72,6 @@ BreakpadChar
 BreakpadData
 IPCChannel
 IPCConnector
-IPCListener
 }
 ;
 use
@@ -166,7 +165,7 @@ new
 ;
 let
 (
-listener
+_listener
 server_endpoint
 client_endpoint
 )
@@ -185,7 +184,6 @@ spawn_crash_helper
 program
 breakpad_data
 minidump_path
-listener
 server_endpoint
 )
 ?
@@ -200,13 +198,6 @@ client_endpoint
 spawner_thread
 :
 None
-helper_process
-:
-Some
-(
-(
-)
-)
 }
 )
 }
@@ -226,9 +217,6 @@ minidump_path
 *
 const
 BreakpadChar
-listener
-:
-IPCListener
 endpoint
 :
 IPCConnector
@@ -319,15 +307,6 @@ from_ptr
 minidump_path
 )
 }
-;
-let
-listener_arg
-=
-listener
-.
-serialize
-(
-)
 ;
 let
 endpoint_arg
@@ -438,8 +417,6 @@ parent_pid_arg
 &
 breakpad_data_arg
 minidump_path
-&
-listener_arg
 &
 endpoint_arg
 ]

@@ -261,6 +261,7 @@ windows
 {
 AncillaryData
 IPCConnector
+RawAncillaryData
 INVALID_ANCILLARY_DATA
 }
 ;
@@ -476,6 +477,7 @@ unix
 {
 AncillaryData
 IPCConnector
+RawAncillaryData
 INVALID_ANCILLARY_DATA
 }
 ;
