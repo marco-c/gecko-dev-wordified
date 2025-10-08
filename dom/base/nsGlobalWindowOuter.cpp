@@ -45793,6 +45793,7 @@ CreateLoadState
 (
 uri
 this
+aDoJSFixups
 )
 ;
 }
