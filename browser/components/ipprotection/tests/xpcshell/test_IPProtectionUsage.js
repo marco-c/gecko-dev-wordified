@@ -498,6 +498,17 @@ reject
 )
 ;
 }
+/
+*
+*
+*
+Mocks
+a
+channel
+listener
+.
+*
+/
 class
 ChannelListener
 {
