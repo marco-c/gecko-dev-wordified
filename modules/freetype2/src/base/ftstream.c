@@ -99,7 +99,7 @@ C
 )
 2000
 -
-2024
+2025
 by
 *
 David
@@ -1163,7 +1163,7 @@ FT_TRACE7
 FT_Stream_EnterFrame
 :
 %
-ld
+lu
 bytes
 \
 n

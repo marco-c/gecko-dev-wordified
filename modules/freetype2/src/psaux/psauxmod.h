@@ -99,7 +99,7 @@ C
 )
 2000
 -
-2024
+2025
 by
 *
 David
@@ -227,13 +227,6 @@ FT_CALLBACK_TABLE
 const
 CFF_Decoder_FuncsRec
 cff_decoder_funcs
-;
-FT_EXPORT_VAR
-(
-const
-FT_Module_Class
-)
-psaux_driver_class
 ;
 FT_DECLARE_MODULE
 (

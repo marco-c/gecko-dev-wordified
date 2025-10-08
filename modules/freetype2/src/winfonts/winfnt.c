@@ -99,7 +99,7 @@ C
 )
 1996
 -
-2024
+2025
 by
 *
 David
@@ -5012,7 +5012,7 @@ FNT_Load_Glyph
 glyph
 index
 %
-d
+u
 \
 n
 "

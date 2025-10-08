@@ -101,7 +101,7 @@ C
 )
 2017
 -
-2024
+2025
 by
 *
 David
@@ -2502,7 +2502,7 @@ https
 :
 /
 /
-www
+learn
 .
 microsoft
 .
@@ -2513,8 +2513,6 @@ typography
 cleartype
 /
 truetypecleartype
-.
-aspx
 .
 *
 This
@@ -6867,7 +6865,7 @@ https
 :
 /
 /
-www
+learn
 .
 microsoft
 .
@@ -6878,8 +6876,6 @@ typography
 cleartype
 /
 truetypecleartype
-.
-aspx
 '
 .
 *

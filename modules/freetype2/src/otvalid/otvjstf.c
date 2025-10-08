@@ -98,7 +98,7 @@ C
 )
 2004
 -
-2024
+2025
 by
 *
 David
@@ -863,7 +863,7 @@ OTV_TRACE
 JstfLangSysCount
 =
 %
-d
+u
 )
 \
 n
@@ -1126,7 +1126,7 @@ FT_TRACE3
 JstfScriptCount
 =
 %
-d
+u
 )
 \
 n

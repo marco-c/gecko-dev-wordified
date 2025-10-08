@@ -101,7 +101,7 @@ C
 )
 2018
 -
-2024
+2025
 by
 *
 David
@@ -437,15 +437,11 @@ https
 :
 /
 /
-docs
+learn
 .
 microsoft
 .
 com
-/
-en
--
-us
 /
 typography
 /

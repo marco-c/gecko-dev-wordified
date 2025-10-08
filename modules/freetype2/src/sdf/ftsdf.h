@@ -98,7 +98,7 @@ C
 )
 2020
 -
-2024
+2025
 by
 *
 David
@@ -457,7 +457,7 @@ this
 parameter
 to
 true
-maked
+makes
 the
 output
 image

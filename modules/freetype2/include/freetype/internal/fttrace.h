@@ -97,7 +97,7 @@ C
 )
 2002
 -
-2024
+2025
 by
 *
 David
@@ -204,7 +204,7 @@ string
 )
 plus
 one
-charachter
+character
 for
 '
 :
@@ -1248,6 +1248,10 @@ autofit
 components
 *
 /
+FT_TRACE_DEF
+(
+afadjust
+)
 FT_TRACE_DEF
 (
 afcjk

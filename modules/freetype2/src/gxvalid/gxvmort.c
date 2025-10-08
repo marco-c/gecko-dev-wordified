@@ -100,7 +100,7 @@ C
 )
 2005
 -
-2024
+2025
 by
 *
 suzuki
@@ -1267,7 +1267,7 @@ GXV_TRACE
 morx
 type
 %
-d
+u
 is
 reserved
 \

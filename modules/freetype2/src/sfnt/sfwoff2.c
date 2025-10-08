@@ -97,7 +97,7 @@ C
 )
 2019
 -
-2024
+2025
 by
 *
 Nikhil
@@ -4383,7 +4383,7 @@ FT_TRACE5
 "
 Substream
 %
-d
+u
 :
 offset
 =
@@ -7728,12 +7728,12 @@ FT_TRACE3
 Seeking
 to
 %
-ld
+lu
 with
 table
 size
 %
-ld
+lu
 .
 \
 n
@@ -9743,11 +9743,11 @@ c
 %
 08d
 %
-08ld
+08lu
 %
-08ld
+08lu
 %
-08ld
+08lu
 \
 n
 "

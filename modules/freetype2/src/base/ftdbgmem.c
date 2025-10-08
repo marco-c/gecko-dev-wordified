@@ -96,7 +96,7 @@ C
 )
 2001
 -
-2024
+2025
 by
 *
 David
@@ -699,10 +699,6 @@ realloc
 }
 FT_MemTableRec
 ;
-#
-define
-FT_MEM_SIZE_MIN
-7
 #
 define
 FT_MEM_SIZE_MAX

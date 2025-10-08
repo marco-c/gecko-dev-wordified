@@ -102,7 +102,7 @@ C
 )
 1996
 -
-2024
+2025
 by
 *
 David
@@ -4087,7 +4087,7 @@ or
 an
 *
 error
-occured
+occurred
 value
 ~
 0
@@ -4736,7 +4736,7 @@ or
 any
 other
 error
-occured
+occurred
 .
 *
 /
@@ -5433,7 +5433,7 @@ or
 both
 )
 0
-otheriwse
+otherwise
 .
 *
 /

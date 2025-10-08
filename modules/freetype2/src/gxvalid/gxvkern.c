@@ -100,7 +100,7 @@ C
 )
 2004
 -
-2024
+2025
 by
 *
 suzuki
@@ -5529,7 +5529,7 @@ GXV_TRACE
 validating
 subtable
 %
-d
+u
 /
 %
 lu

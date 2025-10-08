@@ -101,7 +101,7 @@ C
 )
 2020
 -
-2024
+2025
 by
 *
 David
@@ -8552,7 +8552,7 @@ FT_TRACE5
 "
 Contour
 %
-d
+u
 \
 n
 "
@@ -8583,7 +8583,7 @@ FT_TRACE5
 (
 "
 %
-3d
+3u
 :
 "
 num_edges
@@ -8890,7 +8890,7 @@ of
 contours
 =
 %
-d
+u
 \
 n
 "
@@ -8908,7 +8908,7 @@ of
 edges
 =
 %
-d
+u
 \
 n
 "
@@ -8924,7 +8924,7 @@ FT_TRACE5
 __lines
 =
 %
-d
+u
 \
 n
 "
@@ -8940,7 +8940,7 @@ FT_TRACE5
 __conic
 =
 %
-d
+u
 \
 n
 "
@@ -8956,7 +8956,7 @@ FT_TRACE5
 __cubic
 =
 %
-d
+u
 \
 n
 "
@@ -21903,7 +21903,8 @@ distances
 to
 be
 allowed
-inthe
+in
+the
 output
 bitmap
 .

@@ -102,7 +102,7 @@ C
 )
 2002
 -
-2024
+2025
 by
 *
 David
@@ -1362,9 +1362,6 @@ cmap_info
 >
 language
 =
-(
-FT_ULong
-)
 TT_PEEK_USHORT
 (
 p
@@ -4295,9 +4292,6 @@ cmap_info
 >
 language
 =
-(
-FT_ULong
-)
 TT_PEEK_USHORT
 (
 p
@@ -9347,9 +9341,6 @@ cmap_info
 >
 language
 =
-(
-FT_ULong
-)
 TT_PEEK_USHORT
 (
 p
@@ -10448,9 +10439,6 @@ cmap_info
 >
 language
 =
-(
-FT_ULong
-)
 TT_PEEK_USHORT
 (
 p
@@ -12656,9 +12644,6 @@ cmap_info
 >
 language
 =
-(
-FT_ULong
-)
 TT_PEEK_ULONG
 (
 p
@@ -13762,9 +13747,6 @@ cmap_info
 >
 language
 =
-(
-FT_ULong
-)
 TT_PEEK_ULONG
 (
 p
@@ -15630,9 +15612,6 @@ cmap_info
 >
 language
 =
-(
-FT_ULong
-)
 TT_PEEK_ULONG
 (
 p
@@ -17333,9 +17312,6 @@ cmap_info
 >
 language
 =
-(
-FT_ULong
-)
 TT_PEEK_ULONG
 (
 p
@@ -22244,15 +22220,11 @@ https
 :
 /
 /
-docs
+learn
 .
 microsoft
 .
 com
-/
-en
--
-us
 /
 typography
 /
@@ -22342,7 +22314,7 @@ FT_TRACE4
 tt_face_build_cmaps
 :
 %
-d
+u
 cmaps
 \
 n

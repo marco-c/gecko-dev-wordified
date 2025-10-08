@@ -101,7 +101,7 @@ C
 )
 2000
 -
-2024
+2025
 by
 *
 David
@@ -1421,9 +1421,9 @@ FreeType
 unfortunately
 this
 function
-return
+returns
 no
-informations
+information
 *
 about
 the

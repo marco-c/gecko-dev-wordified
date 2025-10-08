@@ -100,7 +100,7 @@ C
 )
 1996
 -
-2024
+2025
 by
 *
 David
@@ -4664,7 +4664,7 @@ FT_TRACE0
 "
 to
 %
-d
+u
 characters
 \
 n

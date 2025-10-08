@@ -98,7 +98,7 @@ C
 )
 2004
 -
-2024
+2025
 by
 *
 David
@@ -689,7 +689,7 @@ OTV_TRACE
 (
 format
 %
-d
+u
 )
 \
 n
@@ -733,7 +733,7 @@ OTV_TRACE
 GlyphCount
 =
 %
-d
+u
 )
 \
 n
@@ -835,7 +835,7 @@ OTV_TRACE
 RangeCount
 =
 %
-d
+u
 )
 \
 n
@@ -1682,7 +1682,7 @@ OTV_TRACE
 (
 format
 %
-d
+u
 )
 \
 n
@@ -1738,7 +1738,7 @@ OTV_TRACE
 GlyphCount
 =
 %
-d
+u
 )
 \
 n
@@ -1813,7 +1813,7 @@ OTV_TRACE
 ClassRangeCount
 =
 %
-d
+u
 )
 \
 n
@@ -2838,7 +2838,7 @@ OTV_TRACE
 (
 type
 %
-d
+u
 )
 \
 n
@@ -2884,7 +2884,7 @@ OTV_TRACE
 SubTableCount
 =
 %
-d
+u
 )
 \
 n
@@ -3002,7 +3002,7 @@ OTV_TRACE
 LookupCount
 =
 %
-d
+u
 )
 \
 n
@@ -3477,7 +3477,7 @@ OTV_TRACE
 LookupCount
 =
 %
-d
+u
 )
 \
 n
@@ -3600,7 +3600,7 @@ OTV_TRACE
 FeatureCount
 =
 %
-d
+u
 )
 \
 n
@@ -4097,7 +4097,7 @@ OTV_TRACE
 ReqFeatureIndex
 =
 %
-d
+u
 )
 \
 n
@@ -4114,7 +4114,7 @@ OTV_TRACE
 FeatureCount
 =
 %
-d
+u
 )
 \
 n
@@ -4574,7 +4574,7 @@ OTV_TRACE
 LangSysCount
 =
 %
-d
+u
 )
 \
 n
@@ -4716,7 +4716,7 @@ OTV_TRACE
 ScriptCount
 =
 %
-d
+u
 )
 \
 n
@@ -5236,7 +5236,7 @@ OTV_TRACE
 Count
 =
 %
-d
+u
 )
 \
 n
@@ -5368,7 +5368,7 @@ OTV_TRACE
 Count
 =
 %
-d
+u
 )
 \
 n
@@ -5508,7 +5508,7 @@ OTV_TRACE
 Count
 =
 %
-d
+u
 )
 \
 n
@@ -5654,7 +5654,7 @@ OTV_TRACE
 Count1
 =
 %
-d
+u
 )
 \
 n
@@ -5671,7 +5671,7 @@ OTV_TRACE
 Count2
 =
 %
-d
+u
 )
 \
 n
@@ -5847,7 +5847,7 @@ OTV_TRACE
 BacktrackCount
 =
 %
-d
+u
 )
 \
 n
@@ -5896,7 +5896,7 @@ OTV_TRACE
 InputCount
 =
 %
-d
+u
 )
 \
 n
@@ -5938,7 +5938,7 @@ OTV_TRACE
 LookaheadCount
 =
 %
-d
+u
 )
 \
 n
@@ -5978,7 +5978,7 @@ OTV_TRACE
 Count
 =
 %
-d
+u
 )
 \
 n
@@ -6124,7 +6124,7 @@ OTV_TRACE
 ClassSetCount
 =
 %
-d
+u
 )
 \
 n
@@ -6302,7 +6302,7 @@ OTV_TRACE
 GlyphCount
 =
 %
-d
+u
 )
 \
 n
@@ -6319,7 +6319,7 @@ OTV_TRACE
 Count
 =
 %
-d
+u
 )
 \
 n
@@ -6516,7 +6516,7 @@ OTV_TRACE
 ChainClassSetCount
 =
 %
-d
+u
 )
 \
 n
@@ -6707,7 +6707,7 @@ OTV_TRACE
 BacktrackGlyphCount
 =
 %
-d
+u
 )
 \
 n
@@ -6764,7 +6764,7 @@ OTV_TRACE
 InputGlyphCount
 =
 %
-d
+u
 )
 \
 n
@@ -6824,7 +6824,7 @@ OTV_TRACE
 LookaheadGlyphCount
 =
 %
-d
+u
 )
 \
 n
@@ -6881,7 +6881,7 @@ OTV_TRACE
 Count
 =
 %
-d
+u
 )
 \
 n

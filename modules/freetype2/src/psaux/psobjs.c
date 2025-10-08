@@ -99,7 +99,7 @@ C
 )
 1996
 -
-2024
+2025
 by
 *
 David
@@ -3044,6 +3044,10 @@ cur
 limit
 )
 ;
+break
+;
+default
+:
 break
 ;
 }
@@ -6645,7 +6649,7 @@ token
 of
 type
 %
-d
+u
 instead
 \
 n
@@ -7080,7 +7084,7 @@ ps_parser_load_field
 "
 expected
 %
-d
+u
 integer
 %
 s

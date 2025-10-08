@@ -98,7 +98,7 @@ C
 )
 2004
 -
-2024
+2025
 by
 *
 David
@@ -718,7 +718,7 @@ OTV_TRACE
 GlyphCount
 =
 %
-d
+u
 )
 \
 n
@@ -1197,7 +1197,7 @@ OTV_TRACE
 format
 =
 %
-d
+u
 )
 \
 n
@@ -1692,7 +1692,7 @@ OTV_TRACE
 MarkGlyphSetCount
 =
 %
-d
+u
 )
 \
 n

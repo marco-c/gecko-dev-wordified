@@ -100,7 +100,7 @@ C
 )
 2016
 -
-2024
+2025
 by
 *
 David
@@ -357,7 +357,7 @@ face
 )
 ;
 typedef
-FT_Error
+void
 (
 *
 FT_Size_Reset_Func

@@ -104,7 +104,7 @@ C
 )
 2020
 -
-2024
+2025
 by
 *
 David
@@ -920,7 +920,8 @@ declaration
 *
 Visual
 C
-mingw
+MinGW
+Cygwin
 *
 /
 #
@@ -928,6 +929,12 @@ if
 defined
 (
 _WIN32
+)
+|
+|
+defined
+(
+__CYGWIN__
 )
 #
 define

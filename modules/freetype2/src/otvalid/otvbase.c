@@ -98,7 +98,7 @@ C
 )
 2004
 -
-2024
+2025
 by
 *
 David
@@ -360,7 +360,7 @@ OTV_TRACE
 (
 format
 %
-d
+u
 )
 \
 n
@@ -489,7 +489,7 @@ OTV_TRACE
 BaseTagCount
 =
 %
-d
+u
 )
 \
 n
@@ -569,7 +569,7 @@ OTV_TRACE
 BaseCoordCount
 =
 %
-d
+u
 )
 \
 n
@@ -683,7 +683,7 @@ OTV_TRACE
 FeatMinMaxCount
 =
 %
-d
+u
 )
 \
 n
@@ -885,7 +885,7 @@ OTV_TRACE
 BaseLangSysCount
 =
 %
-d
+u
 )
 \
 n
@@ -1031,7 +1031,7 @@ OTV_TRACE
 BaseScriptCount
 =
 %
-d
+u
 )
 \
 n

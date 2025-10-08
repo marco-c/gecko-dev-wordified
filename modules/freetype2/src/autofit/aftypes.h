@@ -99,7 +99,7 @@ C
 )
 2003
 -
-2024
+2025
 by
 *
 David
@@ -406,6 +406,17 @@ include
 freetype
 /
 ftoutln
+.
+h
+>
+#
+include
+<
+freetype
+/
+internal
+/
+fthash
 .
 h
 >
@@ -4719,6 +4730,9 @@ access
 properties
 *
 /
+FT_Hash
+reverse_charmap
+;
 }
 AF_StyleMetricsRec
 ;
