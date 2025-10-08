@@ -1038,12 +1038,10 @@ nsHTMLFramesetFrame
 *
 mTopLevelFrameset
 ;
-UniquePtr
+nsTArray
 <
 nsHTMLFramesetBorderFrame
 *
-[
-]
 >
 mVerBorders
 ;
@@ -1051,12 +1049,10 @@ mVerBorders
 /
 vertical
 borders
-UniquePtr
+nsTArray
 <
 nsHTMLFramesetBorderFrame
 *
-[
-]
 >
 mHorBorders
 ;
