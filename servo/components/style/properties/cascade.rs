@@ -6639,17 +6639,6 @@ HAS_AUTHOR_SPECIFIED_WORD_SPACING
 )
 ;
 }
-#
-[
-cfg
-(
-feature
-=
-"
-gecko
-"
-)
-]
 if
 self
 .
