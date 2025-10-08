@@ -295,7 +295,7 @@ specified
 }
 ;
 use
-fxhash
+rustc_hash
 :
 :
 FxHashMap
@@ -6639,17 +6639,6 @@ HAS_AUTHOR_SPECIFIED_WORD_SPACING
 )
 ;
 }
-#
-[
-cfg
-(
-feature
-=
-"
-gecko
-"
-)
-]
 if
 self
 .
