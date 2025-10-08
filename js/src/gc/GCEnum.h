@@ -955,11 +955,6 @@ ProxyExternalValueArray
 \
 _
 (
-WasmTrailerBlock
-)
-\
-_
-(
 GraphLoadingStateRecord
 )
 #
