@@ -116,7 +116,7 @@ IndexMap
 !
 #
 use
-serde_derive
+serde
 :
 :
 {
@@ -187,7 +187,7 @@ u64
 /
 !
 use
-serde
+serde_core
 :
 :
 de
@@ -201,7 +201,7 @@ Visitor
 }
 ;
 use
-serde
+serde_core
 :
 :
 ser
@@ -529,7 +529,7 @@ IndexMap
 /
 #
 use
-serde_derive
+serde
 :
 :
 Serialize
@@ -926,7 +926,7 @@ IndexMap
 /
 #
 use
-serde_derive
+serde
 :
 :
 Deserialize

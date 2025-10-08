@@ -16,7 +16,6 @@ super
 :
 {
 Bucket
-Entries
 Entry
 Equivalent
 IndexMap
@@ -94,6 +93,7 @@ not
 change
 the
 key
+'
 s
 hash
 and
@@ -847,6 +847,7 @@ not
 change
 the
 key
+'
 s
 hash
 and
