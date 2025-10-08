@@ -79,10 +79,6 @@ test
 /
 browser
 /
-stub
--
-generators
-/
 test
 -
 network
