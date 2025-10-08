@@ -8084,6 +8084,9 @@ Microsoft
 /
 namespace
 winrt
+#
+ifndef
+__MINGW32__
 static
 StaticRefPtr
 <
@@ -8819,6 +8822,8 @@ return
 true
 ;
 }
+#
+endif
 void
 WindowsUIUtils
 :
@@ -8831,6 +8836,9 @@ bool
 aIsCollapsed
 )
 {
+#
+ifndef
+__MINGW32__
 /
 /
 Used
@@ -9915,4 +9923,6 @@ return
 ;
 }
 }
+#
+endif
 }
