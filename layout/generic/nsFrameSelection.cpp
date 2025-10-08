@@ -11309,11 +11309,16 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-NS_ENSURE_STATE
+if
 (
+!
 mPresShell
 )
+{
+return
+NS_ERROR_UNEXPECTED
 ;
+}
 /
 /
 On
