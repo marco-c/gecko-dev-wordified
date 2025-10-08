@@ -220,7 +220,7 @@ aURI
 NavigationHistoryEntry
 *
 aEntry
-nsStructuredCloneContainer
+nsIStructuredCloneContainer
 *
 aState
 bool
