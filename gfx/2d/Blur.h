@@ -153,15 +153,6 @@ Types
 .
 h
 "
-#
-include
-"
-mozilla
-/
-CheckedInt
-.
-h
-"
 class
 SkSurface
 ;

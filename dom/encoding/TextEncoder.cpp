@@ -130,15 +130,6 @@ include
 "
 mozilla
 /
-CheckedInt
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ErrorResult
 .
 h

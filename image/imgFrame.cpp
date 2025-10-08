@@ -179,15 +179,6 @@ include
 "
 mozilla
 /
-CheckedInt
-.
-h
-"
-#
-include
-"
-mozilla
-/
 gfx
 /
 Tools

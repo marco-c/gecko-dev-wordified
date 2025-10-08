@@ -161,15 +161,6 @@ include
 "
 mozilla
 /
-CheckedInt
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 TypedArray

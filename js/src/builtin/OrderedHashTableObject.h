@@ -418,15 +418,6 @@ include
 "
 mozilla
 /
-CheckedInt
-.
-h
-"
-#
-include
-"
-mozilla
-/
 HashFunctions
 .
 h

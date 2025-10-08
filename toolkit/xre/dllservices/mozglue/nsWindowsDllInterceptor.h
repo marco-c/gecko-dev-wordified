@@ -187,15 +187,6 @@ include
 "
 mozilla
 /
-CheckedInt
-.
-h
-"
-#
-include
-"
-mozilla
-/
 DebugOnly
 .
 h

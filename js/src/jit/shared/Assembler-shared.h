@@ -115,6 +115,12 @@ jit_shared_Assembler_shared_h
 define
 jit_shared_Assembler_shared_h
 #
+if
+JS_BITS_PER_WORD
+=
+=
+32
+#
 include
 "
 mozilla
@@ -123,6 +129,8 @@ CheckedInt
 .
 h
 "
+#
+endif
 #
 include
 "
