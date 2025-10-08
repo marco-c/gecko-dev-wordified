@@ -116,7 +116,7 @@ translations
 -
 bencher
 -
-en
+es
 .
 html
 "
@@ -132,7 +132,15 @@ model_path
 /
 Downloads
 /
-vocab
+cab5e093
+-
+7b55
+-
+47ea
+-
+a247
+-
+9747cc0109e3
 .
 spm
 "
