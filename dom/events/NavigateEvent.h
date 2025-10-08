@@ -658,6 +658,9 @@ Element
 >
 mSourceElement
 ;
+uint32_t
+mLastScrollGeneration
+;
 /
 /
 https
