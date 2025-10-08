@@ -1715,6 +1715,9 @@ support_vcs_checkout
 config
 job
 taskdesc
+config
+.
+repo_configs
 )
     
 #
