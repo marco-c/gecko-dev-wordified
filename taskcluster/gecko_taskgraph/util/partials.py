@@ -2237,6 +2237,20 @@ platforms
 :
             
 if
+platform
+not
+in
+FTP_PLATFORM_MAP
+:
+                
+#
+skip
+EOL
+platforms
+                
+continue
+            
+if
 "
 alias
 "
