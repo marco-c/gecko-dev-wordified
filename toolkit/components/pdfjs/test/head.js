@@ -1884,6 +1884,7 @@ split
 )
 )
 {
+await
 hitKey
 (
 browser
