@@ -64865,11 +64865,6 @@ true
 #
 endif
 #
-endif
-/
-/
-ENABLE_WASM_SIMD
-#
 ifdef
 ENABLE_WASM_RELAXED_SIMD
 bool
@@ -65043,6 +65038,11 @@ endif
 /
 /
 ENABLE_WASM_RELAXED_SIMD
+#
+endif
+/
+/
+ENABLE_WASM_SIMD
 /
 /
 /

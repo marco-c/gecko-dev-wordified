@@ -5,14 +5,6 @@ jit
 -
 test
 |
--
--
-setpref
-=
-wasm_relaxed_simd
-=
-true
-;
 skip
 -
 if
