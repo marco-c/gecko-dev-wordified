@@ -1402,10 +1402,6 @@ UpdateValueDisplay
 (
 bool
 aNotify
-bool
-aBeforeEditorInit
-=
-false
 const
 nsAString
 *

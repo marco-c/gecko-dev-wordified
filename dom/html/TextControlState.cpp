@@ -11161,7 +11161,6 @@ mBoundFrame
 UpdateValueDisplay
 (
 true
-true
 )
 ;
 if
@@ -11220,8 +11219,6 @@ mBoundFrame
 UpdateValueDisplay
 (
 true
-!
-mEditorInitialized
 aValue
 )
 ;
