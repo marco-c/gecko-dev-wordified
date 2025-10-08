@@ -354,7 +354,6 @@ case
 scroll
 "
 :
-{
 let
 browser
 =
@@ -384,7 +383,6 @@ browser
 }
 break
 ;
-}
 case
 "
 TabSelect

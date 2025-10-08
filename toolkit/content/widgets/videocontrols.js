@@ -5620,7 +5620,6 @@ this
 .
 textTrackList
 :
-{
 const
 index
 =
@@ -5653,7 +5652,6 @@ focus
 ;
 break
 ;
-}
 case
 this
 .
@@ -5703,7 +5701,6 @@ case
 resizevideocontrols
 "
 :
-{
 /
 /
 Since
@@ -5892,7 +5889,6 @@ updatePictureInPictureToggleDisplay
 ;
 break
 ;
-}
 case
 "
 fullscreenchange

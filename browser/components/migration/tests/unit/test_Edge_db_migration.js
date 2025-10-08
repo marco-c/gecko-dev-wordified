@@ -1048,7 +1048,6 @@ COLUMN_TYPES
 .
 JET_coltypLongText
 :
-{
 let
 wchar_tArray
 =
@@ -1092,7 +1091,6 @@ length
 2
 ]
 ;
-}
 case
 COLUMN_TYPES
 .
@@ -1136,7 +1134,6 @@ COLUMN_TYPES
 .
 JET_coltypGUID
 :
-{
 let
 byteArray
 =
@@ -1241,7 +1238,6 @@ buffer
 16
 ]
 ;
-}
 }
 throw
 new
