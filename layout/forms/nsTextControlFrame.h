@@ -1402,12 +1402,6 @@ UpdateValueDisplay
 (
 bool
 aNotify
-const
-nsAString
-*
-aValue
-=
-nullptr
 )
 ;
 /
