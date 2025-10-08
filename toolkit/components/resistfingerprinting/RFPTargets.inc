@@ -228,6 +228,14 @@ ITEM_VALUE
 CanvasExtractionBeforeUserInputIsBlocked
 12
 )
+/
+/
+See
+also
+EfficientCanvasRandomization
+=
+76
+below
 ITEM_VALUE
 (
 JSLocale
@@ -696,6 +704,11 @@ ITEM_VALUE
 (
 WebGLRandomization
 75
+)
+ITEM_VALUE
+(
+EfficientCanvasRandomization
+76
 )
 /
 *
