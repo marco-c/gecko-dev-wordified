@@ -2728,6 +2728,17 @@ UpdateInhibitPersistentCachingFlag
 (
 )
 ;
+bool
+ParseDictionary
+(
+nsICacheEntry
+*
+aEntry
+nsHttpResponseHead
+*
+aResponseHead
+)
+;
 [
 [
 nodiscard

@@ -19573,6 +19573,15 @@ aLoadContextInfo
 )
 )
 ;
+/
+/
+XXX
+evict
+dictionary
+data
+from
+memory
+cache
 nsresult
 rv
 ;
