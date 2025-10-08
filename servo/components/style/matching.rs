@@ -4043,7 +4043,6 @@ animation
 :
 :
 {
-self
 AnimationSetKey
 AnimationState
 }
