@@ -137,15 +137,6 @@ include
 "
 mozilla
 /
-DoublyLinkedList
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Maybe
 .
 h

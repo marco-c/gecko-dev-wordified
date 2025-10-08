@@ -128,15 +128,6 @@ include
 "
 mozilla
 /
-DoublyLinkedList
-.
-h
-"
-#
-include
-"
-mozilla
-/
 EnumSet
 .
 h
