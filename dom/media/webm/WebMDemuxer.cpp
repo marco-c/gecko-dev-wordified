@@ -232,15 +232,6 @@ include
 "
 mozilla
 /
-EndianUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 IntegerPrintfMacros
 .
 h

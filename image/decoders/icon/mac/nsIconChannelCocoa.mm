@@ -117,15 +117,6 @@ h
 #
 include
 "
-mozilla
-/
-EndianUtils
-.
-h
-"
-#
-include
-"
 nsComponentManagerUtils
 .
 h

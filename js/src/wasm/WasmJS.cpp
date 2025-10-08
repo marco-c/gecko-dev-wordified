@@ -191,15 +191,6 @@ include
 "
 mozilla
 /
-EndianUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Maybe
 .
 h

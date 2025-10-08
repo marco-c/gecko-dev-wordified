@@ -177,15 +177,6 @@ include
 <
 type_traits
 >
-#
-include
-"
-mozilla
-/
-EndianUtils
-.
-h
-"
 namespace
 mozilla
 {

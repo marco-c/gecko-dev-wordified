@@ -154,6 +154,15 @@ include
 <
 mozilla
 /
+EndianUtils
+.
+h
+>
+#
+include
+<
+mozilla
+/
 Sprintf
 .
 h
