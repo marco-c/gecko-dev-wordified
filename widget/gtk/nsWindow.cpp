@@ -63308,6 +63308,10 @@ mIsMapped
 =
 false
 ;
+mHasReceivedSizeAllocate
+=
+false
+;
 if
 (
 mSourceDragContext
