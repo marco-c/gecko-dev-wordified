@@ -290,7 +290,7 @@ fmt
 :
 &
 mut
-std
+core
 :
 :
 fmt
@@ -300,7 +300,7 @@ Formatter
 )
 -
 >
-std
+core
 :
 :
 fmt
@@ -673,7 +673,7 @@ fmt
 :
 &
 mut
-std
+core
 :
 :
 fmt
@@ -683,7 +683,7 @@ Formatter
 )
 -
 >
-std
+core
 :
 :
 fmt

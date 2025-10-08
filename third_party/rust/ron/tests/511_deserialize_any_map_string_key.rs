@@ -145,7 +145,7 @@ formatter
 :
 &
 mut
-std
+core
 :
 :
 fmt
@@ -155,7 +155,7 @@ Formatter
 )
 -
 >
-std
+core
 :
 :
 fmt

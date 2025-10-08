@@ -45516,6 +45516,7 @@ transition_resources
 [
 derive
 (
+Clone
 Debug
 )
 ]
@@ -48642,6 +48643,7 @@ transition_resources
 [
 derive
 (
+Clone
 Debug
 )
 ]
