@@ -781,6 +781,17 @@ called_from_lib
 :
 libnvidia
 -
+egl
+-
+wayland
+\
+n
+"
+"
+called_from_lib
+:
+libnvidia
+-
 eglcore
 \
 n
