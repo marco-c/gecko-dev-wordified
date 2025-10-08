@@ -22349,15 +22349,6 @@ MaybePrepareForCacheBeforeExecute
 ScriptLoadRequest
 *
 aRequest
-JS
-:
-:
-Handle
-<
-JSScript
-*
->
-aScript
 )
 {
 if
@@ -22377,9 +22368,8 @@ return
 aRequest
 -
 >
-MarkScriptForCache
+MarkForCache
 (
-aScript
 )
 ;
 }
@@ -22647,7 +22637,7 @@ PassedConditionForEitherCache
 aRequest
 -
 >
-MarkModuleForCache
+MarkForCache
 (
 )
 ;
@@ -22727,7 +22717,7 @@ IsMarkedForEitherCache
 dep
 -
 >
-MarkModuleForCache
+MarkForCache
 (
 )
 ;
@@ -23479,7 +23469,6 @@ Failed
 MaybePrepareForCacheBeforeExecute
 (
 aRequest
-script
 )
 ;
 {
