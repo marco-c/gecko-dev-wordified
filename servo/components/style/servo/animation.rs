@@ -10262,7 +10262,7 @@ context
 .
 stylist
 .
-get_animation
+lookup_keyframes
 (
 name
 element
