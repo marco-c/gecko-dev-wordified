@@ -23924,6 +23924,13 @@ ProcessStableStateQueue
 (
 )
 ;
+ccJSContext
+-
+>
+ClearUncaughtRejectionObservers
+(
+)
+;
 }
 /
 /
