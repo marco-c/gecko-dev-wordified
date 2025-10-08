@@ -1128,8 +1128,7 @@ fence
 self
 .
 fence_value
-!
-0
+None
 )
 .
 unwrap
@@ -4695,8 +4694,7 @@ wait
 &
 fence
 init_fence_value
-!
-0
+None
 )
 .
 unwrap

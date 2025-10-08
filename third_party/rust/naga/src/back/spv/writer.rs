@@ -97,10 +97,6 @@ spv
 BindingInfo
 WrappedFunction
 }
-path_like
-:
-:
-PathLike
 proc
 :
 :
@@ -17341,14 +17337,9 @@ Instruction
 :
 string
 (
-&
 debug_info
 .
 file_name
-.
-to_string_lossy
-(
-)
 source_file_id
 )
 )

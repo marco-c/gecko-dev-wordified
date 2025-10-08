@@ -582,7 +582,7 @@ crate
 FenceValue
 timeout_ns
 :
-u64
+u32
 )
 -
 >
@@ -788,6 +788,16 @@ glow
 :
 SYNC_FLUSH_COMMANDS_BIT
 timeout_ns
+.
+min
+(
+i32
+:
+:
+MAX
+as
+u32
+)
 as
 i32
 )
