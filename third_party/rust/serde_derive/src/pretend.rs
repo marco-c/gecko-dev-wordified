@@ -17,6 +17,12 @@ Variant
 }
 ;
 use
+crate
+:
+:
+private
+;
+use
 proc_macro2
 :
 :
@@ -678,7 +684,8 @@ match
 _serde
 :
 :
-__private
+#
+private
 :
 :
 None
@@ -695,7 +702,8 @@ ty_generics
 _serde
 :
 :
-__private
+#
+private
 :
 :
 Some
@@ -799,6 +807,11 @@ _
 (
 )
 ;
+let
+private2
+=
+private
+;
 quote
 !
 {
@@ -806,7 +819,8 @@ match
 _serde
 :
 :
-__private
+#
+private
 :
 :
 None
@@ -823,7 +837,8 @@ ty_generics
 _serde
 :
 :
-__private
+#
+private
 :
 :
 Some
@@ -853,7 +868,8 @@ _
 _serde
 :
 :
-__private
+#
+private2
 :
 :
 ptr
@@ -1059,6 +1075,11 @@ _
 (
 )
 ;
+let
+private2
+=
+private
+;
 quote
 !
 {
@@ -1066,7 +1087,8 @@ match
 _serde
 :
 :
-__private
+#
+private
 :
 :
 None
@@ -1085,7 +1107,8 @@ ty_generics
 _serde
 :
 :
-__private
+#
+private2
 :
 :
 Some
@@ -1417,7 +1440,8 @@ match
 _serde
 :
 :
-__private
+#
+private
 :
 :
 None
@@ -1425,7 +1449,8 @@ None
 _serde
 :
 :
-__private
+#
+private
 :
 :
 Some
