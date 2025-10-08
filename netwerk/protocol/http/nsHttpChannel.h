@@ -5082,7 +5082,14 @@ NetworkWonRace
 Valid
 values
 are
-CachedContentValid
+CachedContentValidity
+:
+:
+Unset
+/
+Invalid
+/
+Valid
 (
 uint32_t
 CachedContentIsValid
