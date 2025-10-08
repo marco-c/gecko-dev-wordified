@@ -31,12 +31,6 @@ Derive
 }
 ;
 use
-proc_macro2
-:
-:
-Ident
-;
-use
 syn
 :
 :
@@ -446,10 +440,6 @@ DeriveInput
 derive
 :
 Derive
-private
-:
-&
-Ident
 )
 -
 >
@@ -499,7 +489,6 @@ data
 )
 =
 >
-{
 Data
 :
 :
@@ -517,10 +506,8 @@ attrs
 default
 (
 )
-private
 )
 )
-}
 syn
 :
 :
@@ -553,7 +540,6 @@ attrs
 default
 (
 )
-private
 )
 ;
 Data
@@ -922,10 +908,6 @@ attr
 :
 :
 Default
-private
-:
-&
-Ident
 )
 -
 >
@@ -992,7 +974,6 @@ Some
 attrs
 )
 container_default
-private
 )
 ;
 Variant
@@ -1148,10 +1129,6 @@ attr
 :
 :
 Default
-private
-:
-&
-Ident
 )
 -
 >
@@ -1196,7 +1173,6 @@ fields
 named
 attrs
 container_default
-private
 )
 )
 syn
@@ -1236,7 +1212,6 @@ fields
 unnamed
 attrs
 container_default
-private
 )
 )
 syn
@@ -1265,7 +1240,6 @@ fields
 unnamed
 attrs
 container_default
-private
 )
 )
 syn
@@ -1335,10 +1309,6 @@ attr
 :
 :
 Default
-private
-:
-&
-Ident
 )
 -
 >
@@ -1432,7 +1402,6 @@ i
 field
 attrs
 container_default
-private
 )
 ty
 :
