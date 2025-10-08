@@ -6026,7 +6026,7 @@ obs
 .
 notifyObservers
 (
-null
+gNavToolbox
 "
 fullscreen
 -
