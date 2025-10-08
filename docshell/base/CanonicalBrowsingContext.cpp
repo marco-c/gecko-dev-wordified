@@ -660,7 +660,7 @@ mozilla
 :
 :
 LazyLogModule
-gNavigationLog
+gNavigationAPILog
 ;
 extern
 mozilla
@@ -4246,7 +4246,7 @@ mLoadIsFromSessionHistory
 ;
 MOZ_LOG_FMT
 (
-gNavigationLog
+gNavigationAPILog
 LogLevel
 :
 :
@@ -4296,7 +4296,7 @@ navigationType
 {
 MOZ_LOG_FMT
 (
-gNavigationLog
+gNavigationAPILog
 LogLevel
 :
 :
@@ -4721,7 +4721,7 @@ if
 (
 MOZ_LOG_TEST
 (
-gNavigationLog
+gNavigationAPILog
 LogLevel
 :
 :
@@ -4736,7 +4736,7 @@ index
 ;
 MOZ_LOG_FMT
 (
-gNavigationLog
+gNavigationAPILog
 LogLevel
 :
 :
@@ -4794,7 +4794,7 @@ mContiguousEntries
 {
 MOZ_LOG_FMT
 (
-gNavigationLog
+gNavigationAPILog
 LogLevel
 :
 :
@@ -4905,7 +4905,7 @@ Nothing
 ;
 MOZ_LOG_FMT
 (
-gNavigationLog
+gNavigationAPILog
 LogLevel
 :
 :
@@ -4961,7 +4961,7 @@ navigationType
 ;
 MOZ_LOG_FMT
 (
-gNavigationLog
+gNavigationAPILog
 LogLevel
 :
 :
@@ -10866,7 +10866,7 @@ aResolver
 {
 MOZ_LOG_FMT
 (
-gNavigationLog
+gNavigationAPILog
 LogLevel
 :
 :
@@ -11117,7 +11117,7 @@ activeIndex
 ;
 MOZ_LOG_FMT
 (
-gNavigationLog
+gNavigationAPILog
 LogLevel
 :
 :

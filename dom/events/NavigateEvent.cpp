@@ -215,7 +215,7 @@ mozilla
 :
 :
 LazyLogModule
-gNavigationLog
+gNavigationAPILog
 ;
 #
 define
@@ -229,7 +229,7 @@ format
 \
 MOZ_LOG_FMT
 (
-gNavigationLog
+gNavigationAPILog
 LogLevel
 :
 :

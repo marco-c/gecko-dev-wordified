@@ -2243,7 +2243,7 @@ mozilla
 :
 :
 LazyLogModule
-gNavigationLog
+gNavigationAPILog
 ;
 mozilla
 :
@@ -60579,7 +60579,7 @@ Navigation
 {
 MOZ_LOG
 (
-gNavigationLog
+gNavigationAPILog
 LogLevel
 :
 :
@@ -80467,7 +80467,7 @@ Navigation
 {
 MOZ_LOG
 (
-gNavigationLog
+gNavigationAPILog
 LogLevel
 :
 :
@@ -94279,7 +94279,7 @@ get
 ;
 MOZ_LOG_FMT
 (
-gNavigationLog
+gNavigationAPILog
 LogLevel
 :
 :
