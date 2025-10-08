@@ -4404,11 +4404,12 @@ addon
 events
 onEnabled
 .
+await
 AMTelemetry
 .
-telemetrySetupDone
-=
-false
+uninit
+(
+)
 ;
 AMTelemetry
 .
