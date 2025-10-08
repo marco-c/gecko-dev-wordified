@@ -230,6 +230,16 @@ AutoProfilerMessageMarker
 (
 )
 ;
+WPARAM
+WParam
+(
+)
+const
+{
+return
+mWParam
+;
+}
 protected
 :
 Maybe
