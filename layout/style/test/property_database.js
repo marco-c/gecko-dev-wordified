@@ -65110,6 +65110,9 @@ true
 type
 :
 CSS_TYPE_LONGHAND
+applies_to_marker
+:
+true
 initial_values
 :
 [
@@ -73325,6 +73328,9 @@ true
 type
 :
 CSS_TYPE_SHORTHAND_AND_LONGHAND
+applies_to_marker
+:
+true
 alias_for
 :
 "
