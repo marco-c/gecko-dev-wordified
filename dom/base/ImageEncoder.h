@@ -326,6 +326,10 @@ CanvasUtils
 :
 ImageExtraction
 aExtractionBehavior
+const
+nsCString
+&
+aRandomizationKey
 nsICanvasRenderingContextInternal
 *
 aContext
@@ -521,6 +525,10 @@ CanvasUtils
 :
 ImageExtraction
 aExtractionBehavior
+const
+nsCString
+&
+aRandomizationKey
 EncodeCompleteCallback
 *
 aEncodeCallback
@@ -613,6 +621,10 @@ CanvasUtils
 :
 ImageExtraction
 aExtractionBehavior
+const
+nsCString
+&
+aRandomizationKey
 EncodeCompleteCallback
 *
 aEncodeCallback
@@ -668,6 +680,10 @@ const
 nsAString
 &
 aEncoderOptions
+const
+nsACString
+&
+aRandomizationKey
 nsIInputStream
 *
 *
@@ -712,6 +728,10 @@ CanvasUtils
 :
 ImageExtraction
 aExtractionBehavior
+const
+nsCString
+&
+aRandomizationKey
 layers
 :
 :

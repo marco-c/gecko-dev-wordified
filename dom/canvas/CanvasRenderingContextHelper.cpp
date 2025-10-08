@@ -507,6 +507,13 @@ return
 ;
 }
 }
+nsCString
+randomizationKeyStr
+=
+VoidCString
+(
+)
+;
 int32_t
 format
 =
@@ -579,6 +586,7 @@ FromUnknownSize
 imageSize
 )
 aExtractionBehavior
+randomizationKeyStr
 callback
 )
 ;
