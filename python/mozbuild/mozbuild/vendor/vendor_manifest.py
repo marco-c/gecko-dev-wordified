@@ -1007,6 +1007,20 @@ directory
             
 )
             
+self
+.
+run_vendoring_actions
+(
+revision
+"
+post
+-
+patch
+-
+actions
+"
+)
+            
 return
         
 #
@@ -2262,9 +2276,14 @@ actions
         
 self
 .
-update_files
+run_vendoring_actions
 (
 new_revision
+"
+update
+-
+actions
+"
 )
         
 if
@@ -5823,19 +5842,22 @@ files
 )
     
 def
-update_files
+run_vendoring_actions
 (
 self
 revision
-)
-:
-        
-if
+actions_type
+=
 "
 update
 -
 actions
 "
+)
+:
+        
+if
+actions_type
 not
 in
 self
@@ -5851,7 +5873,7 @@ vendoring
 return
         
 for
-update
+action
 in
 self
 .
@@ -5862,16 +5884,12 @@ vendoring
 "
 ]
 [
-"
-update
--
-actions
-"
+actions_type
 ]
 :
             
 if
-update
+action
 [
 "
 action
@@ -5892,7 +5910,7 @@ self
 .
 get_full_path
 (
-update
+action
 [
 "
 from
@@ -5906,7 +5924,7 @@ self
 .
 get_full_path
 (
-update
+action
 [
 "
 to
@@ -5988,7 +6006,7 @@ contents
 )
             
 elif
-update
+action
 [
 "
 action
@@ -6013,7 +6031,7 @@ self
 .
 get_full_path
 (
-update
+action
 [
 "
 path
@@ -6060,7 +6078,7 @@ directory
 )
             
 elif
-update
+action
 [
 "
 action
@@ -6081,7 +6099,7 @@ self
 .
 get_full_path
 (
-update
+action
 [
 "
 from
@@ -6095,7 +6113,7 @@ self
 .
 get_full_path
 (
-update
+action
 [
 "
 to
@@ -6149,7 +6167,7 @@ dst
 )
             
 elif
-update
+action
 [
 "
 action
@@ -6170,7 +6188,7 @@ self
 .
 get_full_path
 (
-update
+action
 [
 "
 from
@@ -6184,7 +6202,7 @@ self
 .
 get_full_path
 (
-update
+action
 [
 "
 to
@@ -6375,7 +6393,7 @@ src
 )
             
 elif
-update
+action
 [
 "
 action
@@ -6408,7 +6426,7 @@ self
 .
 get_full_path
 (
-update
+action
 [
 "
 file
@@ -6445,7 +6463,7 @@ file
                 
 replacement
 =
-update
+action
 [
 "
 with
@@ -6467,7 +6485,7 @@ _replace_in_file
                     
 file
                     
-update
+action
 [
 "
 pattern
@@ -6478,7 +6496,7 @@ replacement
                     
 regex
 =
-update
+action
 [
 "
 action
@@ -6499,7 +6517,7 @@ regex
 )
             
 elif
-update
+action
 [
 "
 action
@@ -6520,7 +6538,7 @@ self
 .
 get_full_path
 (
-update
+action
 [
 "
 path
@@ -6561,7 +6579,7 @@ path
 )
             
 elif
-update
+action
 [
 "
 action
@@ -6583,7 +6601,7 @@ command
 :
                 
 if
-update
+action
 [
 "
 action
@@ -6604,7 +6622,7 @@ self
 .
 get_full_path
 (
-update
+action
 [
 "
 script
@@ -6620,7 +6638,7 @@ else
                     
 command
 =
-update
+action
 [
 "
 command
@@ -6633,7 +6651,7 @@ self
 .
 get_full_path
 (
-update
+action
 [
 "
 cwd
@@ -6652,7 +6670,7 @@ args
 for
 a
 in
-update
+action
 .
 get
 (
@@ -6784,7 +6802,7 @@ args
 type
 "
 :
-update
+action
 [
 "
 action
