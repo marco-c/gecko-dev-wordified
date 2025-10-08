@@ -1422,6 +1422,12 @@ type
 )
 ;
 }
+bool
+has_any_attachments
+(
+)
+const
+;
 uint32_t
 num_handles
 (
