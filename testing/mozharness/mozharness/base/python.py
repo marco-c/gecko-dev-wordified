@@ -6230,42 +6230,12 @@ _resource_monitor
             
 return
         
-#
-Get
-upload
-directory
-to
-pass
-to
-stop
-(
-)
-for
-artifact
-markers
-        
-upload_dir
-=
-self
-.
-query_abs_dirs
-(
-)
-[
-"
-abs_blob_upload_dir
-"
-]
-        
 self
 .
 _resource_monitor
 .
 stop
 (
-upload_dir
-=
-upload_dir
 )
         
 self
@@ -6288,6 +6258,19 @@ data
         
 try
 :
+            
+upload_dir
+=
+self
+.
+query_abs_dirs
+(
+)
+[
+"
+abs_blob_upload_dir
+"
+]
             
 if
 not
