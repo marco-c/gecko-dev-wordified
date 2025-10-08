@@ -10646,4 +10646,15 @@ onTimezoneChanged
 (
 )
 ;
+WrapForJNI
+public
+static
+native
+void
+logGpuProcessLaunchFailure
+(
+String
+aMessage
+)
+;
 }
