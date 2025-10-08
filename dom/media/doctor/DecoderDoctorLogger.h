@@ -153,15 +153,6 @@ include
 "
 mozilla
 /
-DefineEnum
-.
-h
-"
-#
-include
-"
-mozilla
-/
 MozPromise
 .
 h

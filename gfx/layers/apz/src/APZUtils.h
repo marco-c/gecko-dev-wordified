@@ -276,15 +276,6 @@ include
 "
 mozilla
 /
-DefineEnum
-.
-h
-"
-#
-include
-"
-mozilla
-/
 EnumSet
 .
 h
