@@ -763,7 +763,11 @@ mozalloc_abort
 (
 )
 is
-MOZ_NORETURN
+[
+[
+noreturn
+]
+]
 .
 But
 that
