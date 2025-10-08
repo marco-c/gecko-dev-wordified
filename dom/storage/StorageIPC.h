@@ -3028,10 +3028,6 @@ const
 nsACString
 &
 aOriginScope
-const
-uint32_t
-&
-aMode
 )
 override
 ;
