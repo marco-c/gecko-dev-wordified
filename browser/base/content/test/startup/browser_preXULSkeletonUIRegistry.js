@@ -260,6 +260,7 @@ type
 case
 kRegMultiSz
 :
+{
 /
 /
 nsIWindowsRegKey
@@ -303,6 +304,7 @@ v
 v
 )
 ;
+}
 case
 Ci
 .
