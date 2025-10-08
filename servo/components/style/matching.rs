@@ -4043,6 +4043,7 @@ animation
 :
 :
 {
+self
 AnimationSetKey
 AnimationState
 }
