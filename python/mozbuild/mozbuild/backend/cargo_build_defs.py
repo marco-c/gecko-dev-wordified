@@ -77,6 +77,18 @@ txt
 ]
     
 "
+crash_helper_server
+"
+:
+[
+"
+crash_annotations
+.
+rs
+"
+]
+    
+"
 cssparser
 "
 :
