@@ -4051,6 +4051,7 @@ prefs
 getIntPref
 (
 TOU_CURRENT_VERSION_PREF
+4
 )
 )
 ;
