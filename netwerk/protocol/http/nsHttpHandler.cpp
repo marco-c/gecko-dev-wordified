@@ -4917,6 +4917,9 @@ nsHttpRequestHead
 aRequest
 bool
 aSecure
+bool
+&
+aAsync
 const
 std
 :
@@ -4925,6 +4928,7 @@ function
 <
 bool
 (
+bool
 DictionaryCacheEntry
 *
 )
@@ -4998,6 +5002,7 @@ GetDictionaryFor
 (
 aURI
 aType
+aAsync
 [
 self
 =
@@ -5009,6 +5014,8 @@ aRequest
 aCallback
 ]
 (
+bool
+aNeedsResume
 DictionaryCacheEntry
 *
 aDict
@@ -5239,6 +5246,7 @@ if
 aCallback
 )
 (
+aNeedsResume
 aDict
 )
 )
@@ -5424,6 +5432,7 @@ eVarietyRequestOverride
 aCallback
 )
 (
+false
 nullptr
 )
 ;
@@ -5455,10 +5464,15 @@ nsHttpHeaderArray
 eVarietyRequestOverride
 )
 ;
+aAsync
+=
+false
+;
 (
 aCallback
 )
 (
+false
 nullptr
 )
 ;
@@ -5538,10 +5552,15 @@ eVarietyRequestOverride
 )
 ;
 }
+aAsync
+=
+false
+;
 (
 aCallback
 )
 (
+false
 nullptr
 )
 ;
