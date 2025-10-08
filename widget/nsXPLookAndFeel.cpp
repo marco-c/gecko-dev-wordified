@@ -885,12 +885,7 @@ macBigSurTheme
 "
 ui
 .
-macRTL
-"
-"
-ui
-.
-macTitlebarHeight
+macTahoeTheme
 "
 "
 ui

@@ -222,6 +222,12 @@ OnSonomaOrLater
 ;
 static
 bool
+OnTahoeOrLater
+(
+)
+;
+static
+bool
 IsAtLeastVersion
 (
 int32_t
