@@ -2614,6 +2614,10 @@ void
 bytes
 size_t
 aLength
+HashNumber
+startingHash
+=
+0
 )
 ;
 /
