@@ -2245,7 +2245,7 @@ every
 *
 /
 virtual
-uint32_t
+TimeDuration
 IterationDuration
 (
 )
@@ -3197,16 +3197,12 @@ friend
 class
 MediaTrackGraphInitThreadRunnable
 ;
-uint32_t
+TimeDuration
 IterationDuration
 (
 )
 override
-{
-return
-MEDIA_GRAPH_TARGET_PERIOD_MS
 ;
-}
 nsIThread
 *
 Thread
@@ -4237,7 +4233,7 @@ graph
 .
 *
 /
-uint32_t
+TimeDuration
 IterationDuration
 (
 )

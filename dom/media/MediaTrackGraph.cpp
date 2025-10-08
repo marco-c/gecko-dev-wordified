@@ -8560,15 +8560,9 @@ end
 .
 if
 (
-(
 now
 -
 mLastMainThreadUpdate
-)
-.
-ToMilliseconds
-(
-)
 >
 CurrentDriver
 (
