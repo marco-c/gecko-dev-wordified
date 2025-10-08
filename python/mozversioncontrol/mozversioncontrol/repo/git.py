@@ -413,10 +413,12 @@ cat
 -
 file
 "
+                
 "
 -
 e
 "
+                
 "
 2ca566cd74d5d0863ba7ef0529a4f88b2823eb43
 ^
@@ -424,6 +426,12 @@ e
 commit
 }
 "
+                
+stderr
+=
+subprocess
+.
+DEVNULL
             
 )
         
@@ -688,15 +696,32 @@ in
 remotes
 :
             
-name
-url
-action
+parts
 =
 line
 .
 split
 (
 )
+            
+if
+len
+(
+parts
+)
+<
+3
+:
+                
+continue
+            
+name
+url
+action
+*
+_
+=
+parts
             
 #
 Only
