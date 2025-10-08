@@ -7541,8 +7541,6 @@ GenerateJitExitPrologue
 MacroAssembler
 &
 masm
-unsigned
-framePushed
 uint32_t
 fallbackOffset
 ImportOffsets
@@ -7712,13 +7710,6 @@ framePushed
 0
 )
 ;
-masm
-.
-reserveStack
-(
-framePushed
-)
-;
 }
 void
 wasm
@@ -7729,8 +7720,6 @@ GenerateJitExitEpilogue
 MacroAssembler
 &
 masm
-unsigned
-framePushed
 CallableOffsets
 *
 offsets
@@ -7751,7 +7740,7 @@ framePushed
 )
 =
 =
-framePushed
+0
 )
 ;
 AssertNoWasmExitFPInJitExit
@@ -7762,7 +7751,12 @@ masm
 GenerateCallableEpilogue
 (
 masm
+/
+*
 framePushed
+*
+/
+0
 ExitReason
 :
 :
