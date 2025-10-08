@@ -333,6 +333,12 @@ NativeLayerRootCA
 >
 mRealNativeLayerRoot
 ;
+UniquePtr
+<
+NativeLayerRootSnapshotter
+>
+mSnapshotter
+;
 nsTHashMap
 <
 uint64_t

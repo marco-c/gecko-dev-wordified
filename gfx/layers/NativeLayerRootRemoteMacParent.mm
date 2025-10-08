@@ -632,8 +632,13 @@ shmem
 )
 ;
 }
-auto
-snapshotter
+if
+(
+!
+mSnapshotter
+)
+{
+mSnapshotter
 =
 mRealNativeLayerRoot
 -
@@ -645,7 +650,7 @@ CreateSnapshotter
 if
 (
 !
-snapshotter
+mSnapshotter
 )
 {
 return
@@ -666,10 +671,11 @@ snapshotter
 )
 ;
 }
+}
 if
 (
 !
-snapshotter
+mSnapshotter
 -
 >
 ReadbackPixels
