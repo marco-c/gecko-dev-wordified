@@ -7111,6 +7111,17 @@ AddPendingDiscard
 (
 )
 ;
+Canonical
+(
+)
+-
+>
+mActiveEntryList
+.
+clear
+(
+)
+;
 }
 auto
 callListeners
