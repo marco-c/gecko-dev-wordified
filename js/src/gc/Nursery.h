@@ -1114,6 +1114,8 @@ Cell
 owner
 size_t
 nbytes
+size_t
+maxNurserySize
 )
 ;
 /
@@ -1322,6 +1324,8 @@ size_t
 oldBytes
 size_t
 newBytes
+size_t
+maxNurserySize
 )
 ;
 /
