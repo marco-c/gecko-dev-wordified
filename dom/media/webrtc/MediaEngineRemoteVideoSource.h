@@ -492,6 +492,11 @@ aCapability
 const
 DistanceCalculation
 aCalculate
+const
+char
+*
+*
+aOutBadConstraint
 )
 ;
 uint32_t
