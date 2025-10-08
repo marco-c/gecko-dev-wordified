@@ -153,11 +153,7 @@ possible
 *
 Note
 :
-[
-[
-noreturn
-]
-]
+MOZ_NORETURN
 seems
 to
 break
@@ -182,6 +178,7 @@ extern
 "
 C
 "
+MFBT_API
 #
 if
 !
@@ -189,14 +186,9 @@ defined
 (
 __arm__
 )
-[
-[
-noreturn
-]
-]
+MOZ_NORETURN
 #
 endif
-MFBT_API
 void
 mozalloc_abort
 (
