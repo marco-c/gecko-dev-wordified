@@ -34,8 +34,6 @@ documentation
 /
 /
 /
-/
-/
 Helper
 macro
 when

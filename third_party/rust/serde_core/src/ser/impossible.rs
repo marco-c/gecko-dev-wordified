@@ -148,7 +148,7 @@ Impossible
 /
 #
 use
-serde
+serde_core
 :
 :
 __private
@@ -353,7 +353,7 @@ methods
 /
 /
 #
-serde
+serde_core
 :
 :
 __serialize_unimplemented
