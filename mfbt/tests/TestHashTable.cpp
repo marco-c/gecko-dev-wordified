@@ -119,6 +119,15 @@ include
 "
 mozilla
 /
+CompactPair
+.
+h
+"
+#
+include
+"
+mozilla
+/
 HashTable
 .
 h

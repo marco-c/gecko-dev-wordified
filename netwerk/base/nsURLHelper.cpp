@@ -133,6 +133,15 @@ include
 "
 mozilla
 /
+CompactPair
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Encoding
 .
 h

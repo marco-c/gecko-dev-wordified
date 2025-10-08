@@ -125,6 +125,15 @@ include
 "
 mozilla
 /
+CompactPair
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MozPromise
 .
 h
