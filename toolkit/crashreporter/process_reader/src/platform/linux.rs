@@ -382,6 +382,7 @@ name
 ?
 ;
 if
+&
 name
 =
 =

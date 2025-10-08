@@ -20046,7 +20046,7 @@ if
 gCrashHelperClient
 )
 {
-RawAncillaryData
+AncillaryData
 ipc_endpoint
 =
 register_child_ipc_channel

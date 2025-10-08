@@ -329,6 +329,9 @@ Some
 (
 spawner_thread
 )
+helper_process
+:
+None
 }
 )
 }
