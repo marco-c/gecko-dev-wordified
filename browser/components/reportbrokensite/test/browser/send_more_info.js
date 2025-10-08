@@ -256,6 +256,10 @@ blockedOrigins
 antitracking
 .
 blockedOrigins
+?
+?
+[
+]
 ;
 const
 hasMixedActiveContentBlocked
