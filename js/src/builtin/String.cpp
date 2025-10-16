@@ -24841,7 +24841,7 @@ str_trimEnd
 0
 StringTrimEnd
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 toLocaleLowerCase
@@ -24849,8 +24849,9 @@ toLocaleLowerCase
 str_toLocaleLowerCase
 0
 0
+StringToLocaleLowerCase
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 toLocaleUpperCase
@@ -24858,6 +24859,7 @@ toLocaleUpperCase
 str_toLocaleUpperCase
 0
 0
+StringToLocaleUpperCase
 )
 JS_FN
 (

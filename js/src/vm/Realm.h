@@ -5248,15 +5248,7 @@ char
 *
 locale
 )
-{
-behaviors_
-.
-setLocaleOverride
-(
-locale
-)
 ;
-}
 /
 /
 Returns
