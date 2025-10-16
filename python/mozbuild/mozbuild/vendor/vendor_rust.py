@@ -7574,6 +7574,11 @@ CARGO_LOCK_NOTICE
             
 )
             
+if
+not
+force
+:
+                
 self
 .
 repository
@@ -7582,7 +7587,7 @@ forget_add_remove_files
 (
 vendor_dir
 )
-            
+                
 self
 .
 repository
@@ -7591,11 +7596,6 @@ clean_directory
 (
 vendor_dir
 )
-            
-if
-not
-force
-:
                 
 return
 False
