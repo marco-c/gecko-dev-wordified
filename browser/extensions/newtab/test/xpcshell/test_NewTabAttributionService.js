@@ -2511,8 +2511,6 @@ privateAttribution
 new
 NewTabAttributionService
 (
-{
-}
 )
 ;
 const
