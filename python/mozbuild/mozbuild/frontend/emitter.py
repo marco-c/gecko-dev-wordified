@@ -176,6 +176,8 @@ IPDLCollection
     
 JARManifest
     
+LegacyRunTests
+    
 Library
     
 Linkable
@@ -11566,6 +11568,29 @@ c
 )
 )
                 
+)
+        
+if
+run_tests
+:
+=
+context
+.
+get
+(
+"
+LEGACY_RUN_TESTS
+"
+[
+]
+)
+:
+            
+yield
+LegacyRunTests
+(
+context
+run_tests
 )
         
 rust_tests
