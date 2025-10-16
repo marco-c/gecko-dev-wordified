@@ -303,6 +303,9 @@ StyleRelativeSelectorNthEdgeInvalidateFor
 uint8_t
 ;
 struct
+StyleDashedIdentAndOrTryTactic
+;
+struct
 StyleRuleChange
 ;
 class
@@ -1764,9 +1767,9 @@ aElement
 ComputedStyle
 &
 aStyle
-nsAtom
-*
-aName
+const
+StyleDashedIdentAndOrTryTactic
+&
 )
 ;
 size_t
