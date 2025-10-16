@@ -2194,6 +2194,13 @@ return
 mShell
 ;
 }
+nsIFrame
+*
+GetFrame
+(
+)
+const
+;
 nsWindow
 *
 GetEffectiveParent
