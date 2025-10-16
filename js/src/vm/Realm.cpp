@@ -1004,7 +1004,7 @@ cx
 >
 make_unique
 <
-ObjectWeakMap
+NonSyntacticLexialEnvironmentsMap
 >
 (
 cx
@@ -2734,7 +2734,10 @@ cx
 >
 make_unique
 <
-ObjectWeakMap
+ObjectRealm
+:
+:
+ObjectMetadataTable
 >
 (
 cx
