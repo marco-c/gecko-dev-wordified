@@ -554,6 +554,8 @@ AsChar
 const
 ;
 TDependentSubstring
+const
+&
 AsString
 (
 )
@@ -566,6 +568,8 @@ AsInteger
 const
 ;
 TDependentSubstring
+const
+&
 Fragment
 (
 )
