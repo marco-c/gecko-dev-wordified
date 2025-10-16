@@ -163,6 +163,11 @@ nsIScrollbarMediator
 h
 "
 "
+nsMenuPopupFrame
+.
+h
+"
+"
 nsXULPopupManager
 .
 h
