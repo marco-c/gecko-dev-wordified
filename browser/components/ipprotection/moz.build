@@ -129,6 +129,13 @@ sys
 mjs
 "
 "
+IPPAutoStart
+.
+sys
+.
+mjs
+"
+"
 IPPChannelFilter
 .
 sys
