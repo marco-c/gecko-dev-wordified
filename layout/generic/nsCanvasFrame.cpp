@@ -2980,17 +2980,6 @@ child
 "
 )
 ;
-nsContainerFrame
-:
-:
-ReparentFrameViewList
-(
-*
-overflow
-prevCanvasFrame
-this
-)
-;
 /
 /
 Prepend

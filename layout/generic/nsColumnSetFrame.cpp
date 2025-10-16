@@ -7632,17 +7632,6 @@ if
 overflows
 )
 {
-nsContainerFrame
-:
-:
-ReparentFrameViewList
-(
-*
-overflows
-prev
-this
-)
-;
 mFrames
 .
 InsertFrames
