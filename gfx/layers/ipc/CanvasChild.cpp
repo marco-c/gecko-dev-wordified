@@ -3741,9 +3741,10 @@ forget
 }
 RecordEvent
 (
-RecordedPrepareDataForSurface
+RecordedCacheDataSurface
 (
 aSurface
+true
 )
 )
 ;
