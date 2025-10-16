@@ -3888,12 +3888,6 @@ IgnoreErrors
 aOptions
 .
 mHistory
-/
-*
-aShouldNotForceReplaceInOnLoad
-*
-/
-true
 )
 ;
 /
