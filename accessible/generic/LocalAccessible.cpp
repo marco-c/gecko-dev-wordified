@@ -17525,6 +17525,7 @@ TOOLTIP
 {
 if
 (
+const
 nsIFrame
 *
 anchorFrame

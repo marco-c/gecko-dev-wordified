@@ -3547,6 +3547,7 @@ Relations
 }
 if
 (
+const
 nsIFrame
 *
 anchorFrame

@@ -4350,6 +4350,7 @@ IsEmpty
 )
 ;
 }
+const
 nsIFrame
 *
 nsCoreUtils
@@ -4427,6 +4428,7 @@ nullptr
 }
 for
 (
+const
 auto
 &
 entry

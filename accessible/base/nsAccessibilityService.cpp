@@ -5860,6 +5860,7 @@ document
 return
 ;
 }
+const
 nsIFrame
 *
 anchorFrame

@@ -2282,6 +2282,7 @@ only
 *
 /
 static
+const
 nsIFrame
 *
 GetAnchorForPositionedFrame
