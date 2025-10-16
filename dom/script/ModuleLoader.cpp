@@ -954,7 +954,7 @@ if
 aRequest
 -
 >
-IsStencil
+IsCachedStencil
 (
 )
 )
@@ -2040,7 +2040,7 @@ if
 aRequest
 -
 >
-IsStencil
+IsCachedStencil
 (
 )
 )
