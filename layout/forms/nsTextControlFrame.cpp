@@ -2746,11 +2746,6 @@ content
 "
 )
 ;
-AddStateBits
-(
-NS_FRAME_INDEPENDENT_SELECTION
-)
-;
 RefPtr
 <
 TextControlElement
