@@ -5952,7 +5952,7 @@ void
 Performance
 :
 :
-BufferEvent
+ResourceTimingBufferFullEvent
 (
 )
 {
@@ -6647,14 +6647,14 @@ NewCancelableRunnableMethod
 Performance
 :
 :
-BufferEvent
+ResourceTimingBufferFullEvent
 "
 this
 &
 Performance
 :
 :
-BufferEvent
+ResourceTimingBufferFullEvent
 )
 )
 ;

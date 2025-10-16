@@ -1080,7 +1080,7 @@ CanAddResourceTimingEntry
 )
 ;
 void
-BufferEvent
+ResourceTimingBufferFullEvent
 (
 )
 ;
