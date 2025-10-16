@@ -1879,6 +1879,23 @@ c
 rev
 ]
         
+else
+:
+            
+args
++
+=
+[
+"
+-
+r
+"
+"
+.
+^
+"
+]
+        
 for
 dot_extension
 in
