@@ -7177,7 +7177,7 @@ nullptr
 aState
 *
 /
-nullptr
+aNavigationAPIState
 aIsSameDocument
 )
 ;
