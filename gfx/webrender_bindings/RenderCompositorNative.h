@@ -411,6 +411,12 @@ MaybeProcessScreenshotQueue
 )
 override
 ;
+void
+WaitUntilPresentationFlushed
+(
+)
+override
+;
 /
 /
 Interface

@@ -10950,7 +10950,7 @@ frame
 mApi
 -
 >
-WaitFlushed
+WaitUntilPresentationFlushed
 (
 )
 ;
