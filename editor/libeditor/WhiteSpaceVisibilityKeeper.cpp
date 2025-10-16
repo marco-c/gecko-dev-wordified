@@ -12518,7 +12518,7 @@ const
 Element
 *
 const
-closestBlockElement
+maybeNonEditableClosestBlockElement
 =
 HTMLEditUtils
 :
@@ -12549,7 +12549,7 @@ if
 MOZ_UNLIKELY
 (
 !
-closestBlockElement
+maybeNonEditableClosestBlockElement
 )
 )
 {
@@ -12583,6 +12583,7 @@ IsStartOfContainer
 )
 &
 &
+(
 aPoint
 .
 GetContainer
@@ -12590,7 +12591,20 @@ GetContainer
 )
 =
 =
-closestBlockElement
+maybeNonEditableClosestBlockElement
+|
+|
+aPoint
+.
+GetContainer
+(
+)
+-
+>
+IsEditingHost
+(
+)
+)
 ?
 aPoint
 :
@@ -12606,7 +12620,7 @@ BlockInlineCheck
 :
 :
 UseComputedDisplayStyle
-closestBlockElement
+maybeNonEditableClosestBlockElement
 )
 ;
 if
@@ -12984,7 +12998,7 @@ BlockInlineCheck
 :
 :
 UseComputedDisplayStyle
-closestBlockElement
+maybeNonEditableClosestBlockElement
 )
 ;
 const
