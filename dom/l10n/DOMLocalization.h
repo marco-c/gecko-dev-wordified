@@ -822,6 +822,10 @@ void
 ConvertStringToL10nArgs
 (
 const
+nsCString
+&
+aL10nId
+const
 nsString
 &
 aInput
