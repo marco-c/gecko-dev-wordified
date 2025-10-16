@@ -300,15 +300,6 @@ include
 "
 mozilla
 /
-Span
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPrefs_layout
 .
 h
