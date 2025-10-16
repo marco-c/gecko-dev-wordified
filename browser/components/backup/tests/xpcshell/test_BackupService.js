@@ -5059,6 +5059,15 @@ IS_ENCRYPTED
 =
 true
 ;
+const
+DEVICE_NAME
+=
+"
+test
+-
+device
+"
+;
 let
 fakeSampleArchiveResult
 =
@@ -5088,6 +5097,9 @@ meta
 date
 :
 DATE
+deviceName
+:
+DEVICE_NAME
 }
 encConfig
 :
@@ -5170,6 +5182,9 @@ IS_ENCRYPTED
 date
 :
 DATE
+deviceName
+:
+DEVICE_NAME
 }
 "
 State
