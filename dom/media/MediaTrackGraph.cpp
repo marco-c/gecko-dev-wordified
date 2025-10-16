@@ -11701,8 +11701,6 @@ OneIteration
 (
 GraphTime
 aStateTime
-GraphTime
-aIterationEnd
 MixerCallbackReceiver
 *
 aMixerReceiver
