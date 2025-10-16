@@ -904,7 +904,7 @@ Suggest
 await
 QuickSuggest
 .
-_test_reinit
+_test_reset
 (
 )
 ;
@@ -1184,7 +1184,7 @@ locale
 await
 QuickSuggest
 .
-_test_reinit
+_test_reset
 (
 )
 ;
