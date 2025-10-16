@@ -53974,13 +53974,12 @@ JS
 :
 IsJSMicroTask
 (
-Handle
-<
+const
 JS
 :
 :
 Value
->
+&
 hv
 )
 {
