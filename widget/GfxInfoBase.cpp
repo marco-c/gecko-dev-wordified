@@ -9034,9 +9034,6 @@ nsIGfxInfo
 :
 FEATURE_GPU_PROCESS
 :
-return
-kIsAndroid
-;
 /
 /
 We
