@@ -49,16 +49,13 @@ prologue
 var
 arm64_prefix
 =
-910003fd
 mov
 x29
 sp
-910003fc
 mov
 x28
 sp
 (
-f9000bb7
 str
 x23
 \
@@ -81,7 +78,6 @@ epilogue
 var
 arm64_suffix
 =
-f94007fe
 ldr
 x30
 \
@@ -93,7 +89,6 @@ sp
 \
 \
 ]
-f94003fd
 ldr
 x29
 \
@@ -269,6 +264,12 @@ expected
 fixlines
 (
 expected
+{
+HEX
+}
+{
+8
+}
 )
 ;
 const

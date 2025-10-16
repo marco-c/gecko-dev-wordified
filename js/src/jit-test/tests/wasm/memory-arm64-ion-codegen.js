@@ -93,7 +93,6 @@ const
 f
 '
 '
-b94fa2a0
 ldr
 w0
 \
@@ -148,7 +147,6 @@ const
 f
 '
 '
-b94fa2a0
 ldr
 w0
 \
@@ -206,7 +204,6 @@ get
 f
 '
 '
-b90fa2a0
 str
 w0
 \
@@ -267,7 +264,6 @@ get
 f
 '
 '
-b90fa2a0
 str
 w0
 \
@@ -329,12 +325,10 @@ const
 '
 f
 '
-d281f430
 mov
 x16
 #
 0xfa1
-b8706aa0
 ldr
 w0
 \
@@ -389,12 +383,10 @@ get
 '
 f
 '
-d281f430
 mov
 x16
 #
 0xfa1
-b8306aa0
 str
 w0
 \
