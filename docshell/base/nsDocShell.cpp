@@ -326,15 +326,6 @@ include
 "
 mozilla
 /
-ResultExtensions
-.
-h
-"
-#
-include
-"
-mozilla
-/
 SchedulerGroup
 .
 h
