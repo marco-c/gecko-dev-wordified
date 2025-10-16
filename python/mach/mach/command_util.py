@@ -3343,17 +3343,11 @@ keyword
 arg
 ]
 =
-getattr
-(
 keyword
 .
 value
-"
-s
-"
-"
-"
-)
+.
+value
             
 command
 =
