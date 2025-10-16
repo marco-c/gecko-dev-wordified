@@ -123,15 +123,6 @@ mozilla_dom_MimeType_h
 #
 include
 "
-mozilla
-/
-TextUtils
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
