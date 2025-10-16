@@ -1414,7 +1414,7 @@ JS
 :
 Result
 <
-JSString
+JSLinearString
 *
 >
 js
@@ -1679,7 +1679,7 @@ their
 preferred
 values
 .
-JSString
+JSLinearString
 *
 result
 ;
