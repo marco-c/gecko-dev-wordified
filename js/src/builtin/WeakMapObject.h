@@ -166,7 +166,7 @@ WeakMap
 <
 Value
 Value
-ZoneAllocPolicy
+CellAllocPolicy
 >
 ;
 Map
