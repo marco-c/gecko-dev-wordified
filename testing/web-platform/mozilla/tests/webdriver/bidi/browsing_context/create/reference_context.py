@@ -72,12 +72,33 @@ execute_script
 "
             
 const
-contextId
+{
+NavigableManager
+}
 =
-arguments
-[
-0
-]
+                
+ChromeUtils
+.
+importESModule
+(
+"
+chrome
+:
+/
+/
+remote
+/
+content
+/
+shared
+/
+NavigableManager
+.
+sys
+.
+mjs
+"
+)
 ;
             
 const
@@ -111,9 +132,18 @@ mjs
 ;
             
 const
+contextId
+=
+arguments
+[
+0
+]
+;
+            
+const
 browsingContext
 =
-TabManager
+NavigableManager
 .
 getBrowsingContextById
 (
@@ -126,9 +156,13 @@ chromeWindow
 =
 browsingContext
 .
-embedderElement
+top
 .
-ownerGlobal
+embedderWindowGlobal
+.
+browsingContext
+.
+window
 ;
             
 const
@@ -152,7 +186,7 @@ map
 browser
 =
 >
-TabManager
+NavigableManager
 .
 getIdForBrowser
 (
