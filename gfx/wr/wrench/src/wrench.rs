@@ -1788,6 +1788,14 @@ true
 precise_radial_gradients
 :
 true
+precise_conic_gradients
+:
+!
+window
+.
+is_software
+(
+)
 .
 .
 Default
