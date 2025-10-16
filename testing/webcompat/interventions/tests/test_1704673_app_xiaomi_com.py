@@ -166,6 +166,9 @@ wait
 "
 none
 "
+no_skip
+=
+True
 )
         
 desktop
