@@ -2212,6 +2212,14 @@ SynchronizeLayoutHistoryState
 )
 ;
 void
+SynchronizeNavigationAPIState
+(
+nsIStructuredCloneContainer
+*
+aState
+)
+;
+void
 ResetScalingZoom
 (
 )
