@@ -5002,6 +5002,9 @@ arm64
 arm
 "
 "
+loong64
+"
+"
 riscv64
 "
 )
@@ -5152,6 +5155,9 @@ arm64
 arm
 "
 "
+loong64
+"
+"
 riscv64
 "
 )
@@ -5173,6 +5179,8 @@ for
 arm64
 /
 arm
+/
+loong64
 /
 riscv64
 simulators
