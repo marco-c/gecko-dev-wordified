@@ -1244,6 +1244,14 @@ mIsCaretPositionChanged
 =
 false
 ;
+mDesiredAsyncPanZoomState
+.
+Update
+(
+*
+this
+)
+;
 DispatchCaretStateChangedEvent
 (
 CaretChangedReason
