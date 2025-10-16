@@ -1643,6 +1643,7 @@ JSObject
 *
 JSObject
 *
+ZoneAllocPolicy
 >
 ;
 js
@@ -1737,6 +1738,7 @@ JSObject
 *
 JSObject
 *
+ZoneAllocPolicy
 >
 ;
 js

@@ -988,6 +988,7 @@ JSScript
 *
 DebugScriptObject
 *
+ZoneAllocPolicy
 >
 {
 public

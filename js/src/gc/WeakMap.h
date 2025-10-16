@@ -1698,6 +1698,8 @@ class
 Key
 class
 Value
+class
+AllocPolicy
 >
 class
 WeakMap
@@ -1738,7 +1740,7 @@ WeakMapKeyHasher
 <
 Key
 >
-ZoneAllocPolicy
+AllocPolicy
 >
 ;
 using
@@ -1752,7 +1754,7 @@ StableCellHasher
 <
 Key
 >
-ZoneAllocPolicy
+AllocPolicy
 >
 ;
 UnbarrieredMap
