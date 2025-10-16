@@ -1170,7 +1170,7 @@ void
 PerformanceMainThread
 :
 :
-DispatchBufferFullEvent
+DispatchResourceTimingBufferFullEvent
 (
 )
 {

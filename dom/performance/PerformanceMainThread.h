@@ -812,7 +812,7 @@ aTimingName
 override
 ;
 void
-DispatchBufferFullEvent
+DispatchResourceTimingBufferFullEvent
 (
 )
 override

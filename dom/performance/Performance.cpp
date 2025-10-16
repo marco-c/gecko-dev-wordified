@@ -6057,7 +6057,7 @@ CanAddResourceTimingEntry
 )
 )
 {
-DispatchBufferFullEvent
+DispatchResourceTimingBufferFullEvent
 (
 )
 ;

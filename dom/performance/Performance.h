@@ -909,7 +909,7 @@ aEntryType
 ;
 virtual
 void
-DispatchBufferFullEvent
+DispatchResourceTimingBufferFullEvent
 (
 )
 =
