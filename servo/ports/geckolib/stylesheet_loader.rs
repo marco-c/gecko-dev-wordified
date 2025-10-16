@@ -186,15 +186,6 @@ use
 style
 :
 :
-parser
-:
-:
-ParserContext
-;
-use
-style
-:
-:
 shared_lock
 :
 :
@@ -339,10 +330,6 @@ CssUrl
 source_location
 :
 SourceLocation
-_context
-:
-&
-ParserContext
 lock
 :
 &
@@ -818,10 +805,6 @@ CssUrl
 source_location
 :
 SourceLocation
-_context
-:
-&
-ParserContext
 lock
 :
 &
