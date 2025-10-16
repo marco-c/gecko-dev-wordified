@@ -215,15 +215,6 @@ include
 "
 rtc_base
 /
-arraysize
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 checks
 .
 h
@@ -438,7 +429,10 @@ extensions
 .
 static_assert
 (
-arraysize
+std
+:
+:
+ssize
 (
 kExtensions
 )
