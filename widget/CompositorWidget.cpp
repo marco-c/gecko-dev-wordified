@@ -73,7 +73,7 @@ h
 #
 include
 "
-nsBaseWidget
+nsIWidget
 .
 h
 "

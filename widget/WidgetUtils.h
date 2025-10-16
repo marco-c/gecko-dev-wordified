@@ -165,6 +165,8 @@ idl
 .
 enum
 ScreenRotation
+:
+uint8_t
 {
 ROTATION_0
 =

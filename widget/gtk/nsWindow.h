@@ -251,7 +251,7 @@ h
 #
 include
 "
-nsBaseWidget
+nsIWidget
 .
 h
 "
@@ -968,7 +968,7 @@ nsWindow
 final
 :
 public
-nsBaseWidget
+nsIWidget
 {
 public
 :
@@ -1019,7 +1019,7 @@ ReleaseGlobals
 NS_INLINE_DECL_REFCOUNTING_INHERITED
 (
 nsWindow
-nsBaseWidget
+nsIWidget
 )
 nsresult
 DispatchEvent
@@ -1073,7 +1073,7 @@ AreBoundsSane
 /
 nsIWidget
 using
-nsBaseWidget
+nsIWidget
 :
 :
 Create
@@ -5056,7 +5056,7 @@ const
 ;
 /
 /
-nsBaseWidget
+nsIWidget
 WindowRenderer
 *
 GetWindowRenderer

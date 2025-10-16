@@ -19194,7 +19194,7 @@ directly
 from
 /
 /
-nsBaseWidget
+nsIWidget
 or
 from
 a

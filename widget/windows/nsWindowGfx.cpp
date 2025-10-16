@@ -3488,7 +3488,7 @@ CreateCompositor
 (
 )
 {
-nsBaseWidget
+nsIWidget
 :
 :
 CreateCompositor
@@ -3539,7 +3539,7 @@ aEnable
 false
 )
 ;
-nsBaseWidget
+nsIWidget
 :
 :
 DestroyCompositor

@@ -120,6 +120,11 @@ widget_WindowOcclusionState_h
 #
 define
 widget_WindowOcclusionState_h
+#
+include
+<
+cstdint
+>
 namespace
 mozilla
 {
@@ -148,6 +153,8 @@ WinWindowOcclusionTracker
 enum
 class
 OcclusionState
+:
+uint8_t
 {
 /
 /

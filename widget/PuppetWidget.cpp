@@ -586,7 +586,7 @@ endif
 NS_IMPL_ISUPPORTS_INHERITED
 (
 PuppetWidget
-nsBaseWidget
+nsIWidget
 TextEventDispatcherListener
 )
 PuppetWidget

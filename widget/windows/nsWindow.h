@@ -125,7 +125,7 @@ h
 #
 include
 "
-nsBaseWidget
+nsIWidget
 .
 h
 "
@@ -428,6 +428,9 @@ mozilla
 {
 class
 WidgetMouseEvent
+;
+class
+InputData
 ;
 namespace
 widget
@@ -878,7 +881,7 @@ nsWindow
 final
 :
 public
-nsBaseWidget
+nsIWidget
 {
 public
 :
@@ -926,7 +929,7 @@ WidgetEventTime
 NS_INLINE_DECL_REFCOUNTING_INHERITED
 (
 nsWindow
-nsBaseWidget
+nsIWidget
 )
 nsWindow
 (
@@ -1184,7 +1187,7 @@ aIncludeOwner
 nsIWidget
 interface
 using
-nsBaseWidget
+nsIWidget
 :
 :
 Create
@@ -1604,17 +1607,6 @@ void
 *
 GetNativeData
 (
-uint32_t
-aDataType
-)
-override
-;
-void
-FreeNativeData
-(
-void
-*
-data
 uint32_t
 aDataType
 )

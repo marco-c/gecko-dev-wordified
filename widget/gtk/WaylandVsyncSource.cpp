@@ -191,6 +191,17 @@ h
 #
 include
 "
+mozilla
+/
+widget
+/
+WindowOcclusionState
+.
+h
+"
+#
+include
+"
 nsWindow
 .
 h

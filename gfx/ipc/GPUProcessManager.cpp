@@ -507,7 +507,7 @@ endif
 #
 include
 "
-nsBaseWidget
+nsIWidget
 .
 h
 "
@@ -3538,7 +3538,7 @@ GPUProcessManager
 :
 CreateUiCompositorController
 (
-nsBaseWidget
+nsIWidget
 *
 aWidget
 const
@@ -8039,7 +8039,7 @@ GPUProcessManager
 :
 CreateTopLevelCompositor
 (
-nsBaseWidget
+nsIWidget
 *
 aWidget
 WebRenderLayerManager
@@ -8387,7 +8387,7 @@ GPUProcessManager
 :
 CreateRemoteSession
 (
-nsBaseWidget
+nsIWidget
 *
 aWidget
 WebRenderLayerManager

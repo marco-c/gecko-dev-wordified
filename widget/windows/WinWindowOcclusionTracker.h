@@ -193,7 +193,7 @@ nsThreadUtils
 h
 "
 class
-nsBaseWidget
+nsIWidget
 ;
 struct
 IVirtualDesktopManager
@@ -374,7 +374,7 @@ computed
 void
 Enable
 (
-nsBaseWidget
+nsIWidget
 *
 aWindow
 HWND
@@ -404,7 +404,7 @@ computed
 void
 Disable
 (
-nsBaseWidget
+nsIWidget
 *
 aWindow
 HWND
@@ -424,7 +424,7 @@ changed
 void
 OnWindowVisibilityChanged
 (
-nsBaseWidget
+nsIWidget
 *
 aWindow
 bool

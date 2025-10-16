@@ -3451,7 +3451,7 @@ FYI
 :
 Implemented
 in
-nsBaseWidget
+nsIWidget
 .
 cpp
 const
@@ -4431,7 +4431,7 @@ FYI
 :
 Implemented
 in
-nsBaseWidget
+nsIWidget
 .
 cpp
 const

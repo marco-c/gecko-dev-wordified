@@ -130,7 +130,7 @@ h
 #
 include
 "
-nsBaseWidget
+nsIWidget
 .
 h
 "
@@ -247,6 +247,9 @@ mozilla
 class
 WidgetTouchEvent
 ;
+class
+MouseInput
+;
 namespace
 layers
 {
@@ -325,7 +328,7 @@ nsWindow
 final
 :
 public
-nsBaseWidget
+nsIWidget
 {
 private
 :
@@ -338,7 +341,7 @@ nsWindow
 public
 :
 using
-nsBaseWidget
+nsIWidget
 :
 :
 GetWindowRenderer
@@ -350,7 +353,7 @@ nsWindow
 NS_INLINE_DECL_REFCOUNTING_INHERITED
 (
 nsWindow
-nsBaseWidget
+nsIWidget
 )
 static
 void
@@ -939,7 +942,7 @@ nsIWidget
 /
 /
 using
-nsBaseWidget
+nsIWidget
 :
 :
 Create

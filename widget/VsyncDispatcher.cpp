@@ -475,7 +475,7 @@ remove
 CompositorVsyncDispatcher
 when
 the
-nsBaseWidget
+nsIWidget
 /
 /
 shuts
@@ -493,7 +493,7 @@ when
 /
 /
 the
-nsBaseWidget
+nsIWidget
 shuts
 down
 and

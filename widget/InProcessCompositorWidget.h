@@ -87,7 +87,7 @@ wrapper
 around
 /
 /
-nsBaseWidget
+nsIWidget
 .
 class
 InProcessCompositorWidget
@@ -106,7 +106,7 @@ layers
 CompositorOptions
 &
 aOptions
-nsBaseWidget
+nsIWidget
 *
 aWidget
 )
@@ -264,7 +264,7 @@ override
 ;
 protected
 :
-nsBaseWidget
+nsIWidget
 *
 mWidget
 ;
@@ -303,7 +303,7 @@ char
 *
 mCanary
 ;
-nsBaseWidget
+nsIWidget
 *
 mWidgetSanity
 ;

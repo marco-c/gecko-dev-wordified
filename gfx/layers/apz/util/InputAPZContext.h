@@ -223,7 +223,7 @@ process
 entry
 point
 like
-nsBaseWidget
+nsIWidget
 /
 /
 or

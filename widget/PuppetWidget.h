@@ -193,7 +193,7 @@ h
 #
 include
 "
-nsBaseWidget
+nsIWidget
 .
 h
 "
@@ -258,6 +258,9 @@ MemoryPressureObserver
 .
 h
 "
+class
+nsRefreshDriver
+;
 namespace
 mozilla
 {
@@ -300,7 +303,7 @@ PuppetWidget
 final
 :
 public
-nsBaseWidget
+nsIWidget
 public
 TextEventDispatcherListener
 public
@@ -382,7 +385,7 @@ TextEventDispatcherListener
 TextEventDispatcherListener
 ;
 typedef
-nsBaseWidget
+nsIWidget
 Base
 ;
 /
@@ -441,7 +444,7 @@ Create
 calls
 .
 using
-nsBaseWidget
+nsIWidget
 :
 :
 Create
@@ -916,7 +919,7 @@ AutoCacheNativeKeyCommands
 /
 /
 /
-nsBaseWidget
+nsIWidget
 methods
 we
 override
@@ -1637,7 +1640,7 @@ override
 /
 TextEventDispatcherListener
 using
-nsBaseWidget
+nsIWidget
 :
 :
 NotifyIME

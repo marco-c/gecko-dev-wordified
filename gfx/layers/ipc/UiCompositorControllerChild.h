@@ -213,7 +213,7 @@ h
 #
 endif
 class
-nsBaseWidget
+nsIWidget
 ;
 namespace
 mozilla
@@ -250,7 +250,7 @@ const
 LayersId
 &
 aRootLayerTreeId
-nsBaseWidget
+nsIWidget
 *
 aWidget
 )
@@ -273,7 +273,7 @@ PUiCompositorControllerChild
 &
 &
 aEndpoint
-nsBaseWidget
+nsIWidget
 *
 aWidget
 )
@@ -636,7 +636,7 @@ const
 uint64_t
 &
 aProcessToken
-nsBaseWidget
+nsIWidget
 *
 aWidget
 )
@@ -715,7 +715,7 @@ mLayerUpdateEnabled
 ;
 RefPtr
 <
-nsBaseWidget
+nsIWidget
 >
 mWidget
 ;

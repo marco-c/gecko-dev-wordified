@@ -563,7 +563,7 @@ Linux
 before
 *
 the
-nsBaseWidget
+nsIWidget
 associated
 with
 our
@@ -600,7 +600,7 @@ middle
 of
 *
 the
-nsBaseWidget
+nsIWidget
 '
 s
 destructor

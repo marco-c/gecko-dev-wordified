@@ -223,7 +223,7 @@ h
 #
 include
 "
-nsBaseWidget
+nsIWidget
 .
 h
 "
@@ -338,7 +338,7 @@ const
 LayersId
 &
 aRootLayerTreeId
-nsBaseWidget
+nsIWidget
 *
 aWidget
 )
@@ -427,7 +427,7 @@ PUiCompositorControllerChild
 &
 &
 aEndpoint
-nsBaseWidget
+nsIWidget
 *
 aWidget
 )
@@ -1411,7 +1411,7 @@ const
 uint64_t
 &
 aProcessToken
-nsBaseWidget
+nsIWidget
 *
 aWidget
 )

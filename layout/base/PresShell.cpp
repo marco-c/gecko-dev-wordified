@@ -42250,7 +42250,7 @@ the
 stack
 from
 the
-nsBaseWidget
+nsIWidget
 .
 We
 need

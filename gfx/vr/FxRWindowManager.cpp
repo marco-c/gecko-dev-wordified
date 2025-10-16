@@ -128,6 +128,15 @@ h
 #
 include
 "
+mozilla
+/
+WidgetUtils
+.
+h
+"
+#
+include
+"
 nsWindow
 .
 h

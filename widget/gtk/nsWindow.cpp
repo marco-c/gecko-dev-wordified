@@ -464,6 +464,17 @@ include
 "
 mozilla
 /
+widget
+/
+WindowOcclusionState
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Likely
 .
 h
@@ -3938,7 +3949,7 @@ toolkit
 +
 app
 shell
-nsBaseWidget
+nsIWidget
 :
 :
 OnDestroy
@@ -3958,7 +3969,7 @@ parent
 and
 siblings
 .
-nsBaseWidget
+nsIWidget
 :
 :
 Destroy
@@ -4179,7 +4190,7 @@ nsIRollupListener
 *
 rollupListener
 =
-nsBaseWidget
+nsIWidget
 :
 :
 GetActiveRollupListener
@@ -5632,7 +5643,7 @@ TopBottom
 (
 )
 ;
-nsBaseWidget
+nsIWidget
 :
 :
 ConstrainSize
@@ -26134,7 +26145,7 @@ missing
 create
 "
 "
-nsBaseWidget
+nsIWidget
 :
 :
 CompositorVsyncDispatcher
@@ -26143,7 +26154,7 @@ CompositorVsyncDispatcher
 "
 )
 ;
-nsBaseWidget
+nsIWidget
 :
 :
 CreateCompositorVsyncDispatcher
@@ -56852,7 +56863,7 @@ mWindowRenderer
 ;
 }
 return
-nsBaseWidget
+nsIWidget
 :
 :
 GetWindowRenderer
@@ -56970,7 +56981,7 @@ is
 called
 from
 *
-nsBaseWidget
+nsIWidget
 :
 :
 CreateCompositor
@@ -56997,7 +57008,7 @@ is
 called
 from
 *
-nsBaseWidget
+nsIWidget
 :
 :
 DestroyCompositor

@@ -976,7 +976,7 @@ parent
 process
 (
 via
-nsBaseWidget
+nsIWidget
 :
 :
 mAPZC
@@ -1033,7 +1033,7 @@ s
 layers
 id
 while
-nsBaseWidget
+nsIWidget
 is
 /
 /

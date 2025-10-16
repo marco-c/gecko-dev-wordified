@@ -247,7 +247,7 @@ h
 #
 include
 "
-nsBaseWidget
+nsIWidget
 .
 h
 "
@@ -2676,7 +2676,7 @@ WinWindowOcclusionTracker
 :
 Enable
 (
-nsBaseWidget
+nsIWidget
 *
 aWindow
 HWND
@@ -2802,7 +2802,7 @@ WinWindowOcclusionTracker
 :
 Disable
 (
-nsBaseWidget
+nsIWidget
 *
 aWindow
 HWND
@@ -2919,7 +2919,7 @@ WinWindowOcclusionTracker
 :
 OnWindowVisibilityChanged
 (
-nsBaseWidget
+nsIWidget
 *
 aWindow
 bool
@@ -4418,7 +4418,7 @@ baseWidget
 =
 static_cast
 <
-nsBaseWidget
+nsIWidget
 *
 >
 (
@@ -4821,7 +4821,7 @@ baseWidget
 =
 static_cast
 <
-nsBaseWidget
+nsIWidget
 *
 >
 (

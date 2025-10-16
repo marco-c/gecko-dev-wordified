@@ -204,7 +204,7 @@ h
 #
 include
 "
-nsBaseWidget
+nsIWidget
 .
 h
 "
@@ -252,7 +252,7 @@ RemoteCompositorSession
 :
 RemoteCompositorSession
 (
-nsBaseWidget
+nsIWidget
 *
 aWidget
 CompositorBridgeChild
@@ -395,7 +395,7 @@ execution
 .
 RefPtr
 <
-nsBaseWidget
+nsIWidget
 >
 widget
 (
