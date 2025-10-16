@@ -176,7 +176,8 @@ with
 Files
 (
 "
-PageInfoChild
+PageInfo
+*
 .
 sys
 .
@@ -200,7 +201,8 @@ with
 Files
 (
 "
-PageStyleChild
+PageStyle
+*
 .
 sys
 .
@@ -514,6 +516,13 @@ mjs
 "
 "
 PageInfoChild
+.
+sys
+.
+mjs
+"
+"
+PageInfoPreviewChild
 .
 sys
 .
