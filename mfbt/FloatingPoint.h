@@ -198,7 +198,7 @@ algorithm
 #
 include
 <
-climits
+cstdint
 >
 #
 include
@@ -208,9 +208,7 @@ limits
 #
 include
 <
-stdint
-.
-h
+type_traits
 >
 namespace
 mozilla
@@ -372,9 +370,6 @@ bustage
 .
 *
 /
-namespace
-detail
-{
 /
 *
 *
@@ -514,11 +509,6 @@ kSignificandWidth
 ;
 }
 ;
-}
-/
-/
-namespace
-detail
 /
 *
 *
@@ -768,9 +758,6 @@ FloatingPoint
 final
 :
 private
-detail
-:
-:
 FloatingPointTrait
 <
 T
@@ -781,9 +768,6 @@ private
 using
 Base
 =
-detail
-:
-:
 FloatingPointTrait
 <
 T

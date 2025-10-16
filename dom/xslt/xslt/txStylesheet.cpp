@@ -108,15 +108,6 @@ utility
 #
 include
 "
-mozilla
-/
-FloatingPoint
-.
-h
-"
-#
-include
-"
 txExpr
 .
 h

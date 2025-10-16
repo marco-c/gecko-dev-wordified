@@ -145,15 +145,6 @@ h
 #
 include
 "
-mozilla
-/
-FloatingPoint
-.
-h
-"
-#
-include
-"
 AsyncPanZoomController
 .
 h
@@ -1517,6 +1508,10 @@ i
 >
 CanOverscrollUpwards
 (
+HandoffConsumer
+:
+:
+PullToRefresh
 )
 ;
 }
@@ -1531,6 +1526,10 @@ i
 >
 CanOverscrollUpwards
 (
+HandoffConsumer
+:
+:
+PullToRefresh
 )
 )
 {

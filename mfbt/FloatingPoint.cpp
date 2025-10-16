@@ -140,6 +140,11 @@ cfloat
 /
 for
 FLT_MAX
+#
+include
+<
+cmath
+>
 namespace
 mozilla
 {

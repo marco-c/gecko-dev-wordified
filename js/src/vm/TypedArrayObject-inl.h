@@ -154,15 +154,6 @@ h
 "
 #
 include
-"
-mozilla
-/
-FloatingPoint
-.
-h
-"
-#
-include
 <
 algorithm
 >

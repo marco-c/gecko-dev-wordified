@@ -82,15 +82,6 @@ include
 "
 mozilla
 /
-FloatingPoint
-.
-h
-"
-#
-include
-"
-mozilla
-/
 intl
 /
 ICU4CGlue

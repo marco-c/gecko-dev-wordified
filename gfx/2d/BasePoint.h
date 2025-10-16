@@ -147,15 +147,6 @@ h
 #
 include
 "
-mozilla
-/
-FloatingPoint
-.
-h
-"
-#
-include
-"
 Coord
 .
 h

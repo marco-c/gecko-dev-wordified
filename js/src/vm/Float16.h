@@ -2896,9 +2896,6 @@ struct
 mozilla
 :
 :
-detail
-:
-:
 FloatingPointTrait
 <
 js
