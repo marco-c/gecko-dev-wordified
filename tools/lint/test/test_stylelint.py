@@ -291,18 +291,18 @@ contents
 foo
 {
     
-font
+text
 -
-size
+transform
 :
-12px
+uppercase
 ;
     
-font
+text
 -
-size
+transform
 :
-12px
+uppercase
 ;
 }
 "
@@ -364,18 +364,18 @@ contents
 foo
 {
     
-font
+text
 -
-size
+transform
 :
-12px
+uppercase
 ;
     
-font
+text
 -
-size
+transform
 :
-12px
+uppercase
 ;
 }
 "
