@@ -499,7 +499,7 @@ overrides
 heuristics
 "
 systemScheme
-kSystem
+systemScheme
 {
 theme
 :
