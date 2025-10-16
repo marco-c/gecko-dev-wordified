@@ -81,6 +81,18 @@ build
 "
     
 "
+js
+/
+src
+/
+build
+/
+moz
+.
+build
+"
+    
+"
 toolkit
 /
 xre
