@@ -180,6 +180,15 @@ include
 "
 mozilla
 /
+Compiler
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EventForwards
 .
 h
@@ -439,7 +448,7 @@ GetNativeLayerRoot
 surprisingly
 .
 #
-ifdef
+if
 MOZ_IS_GCC
 #
 include
