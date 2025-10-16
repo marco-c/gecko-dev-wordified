@@ -1652,6 +1652,12 @@ defined
 (
 JS_SIMULATOR_RISCV64
 )
+|
+|
+defined
+(
+JS_SIMULATOR_LOONG64
+)
 void
 switchSimulatorToMain
 (
