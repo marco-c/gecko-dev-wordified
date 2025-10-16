@@ -218,15 +218,6 @@ include
 "
 mozilla
 /
-RangedArray
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ServoBindingTypes
 .
 h
