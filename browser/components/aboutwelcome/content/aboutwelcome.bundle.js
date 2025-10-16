@@ -31455,6 +31455,14 @@ AWFindBackupsInWellKnownLocations
 ?
 .
 (
+{
+validateFile
+:
+true
+multipleFiles
+:
+true
+}
 )
 ;
 }
