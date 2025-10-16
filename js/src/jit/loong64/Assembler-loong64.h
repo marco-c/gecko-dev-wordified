@@ -6450,7 +6450,7 @@ a
 .
 static
 Condition
-InvertCmpCondition
+SwapCmpOperandsCondition
 (
 Condition
 cond
