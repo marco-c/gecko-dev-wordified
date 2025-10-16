@@ -90,6 +90,15 @@ use
 crate
 :
 :
+parser
+:
+:
+ParserContext
+;
+use
+crate
+:
+:
 shared_lock
 :
 :
@@ -193,6 +202,10 @@ CssUrl
 location
 :
 SourceLocation
+context
+:
+&
+ParserContext
 lock
 :
 &
