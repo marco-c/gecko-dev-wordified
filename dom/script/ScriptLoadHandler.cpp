@@ -3109,6 +3109,11 @@ dom_script_loader_bytecode_cache_enabled
 mRequest
 -
 >
+getLoadedScript
+(
+)
+-
+>
 mCacheInfo
 =
 do_QueryInterface
@@ -3137,6 +3142,11 @@ get
 (
 )
 mRequest
+-
+>
+getLoadedScript
+(
+)
 -
 >
 mCacheInfo
@@ -3200,6 +3210,11 @@ rv
 )
 {
 mRequest
+-
+>
+getLoadedScript
+(
+)
 -
 >
 DropDiskCacheReference
