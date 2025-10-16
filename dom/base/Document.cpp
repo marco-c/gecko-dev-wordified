@@ -1142,15 +1142,6 @@ include
 "
 mozilla
 /
-TypedEnumBits
-.
-h
-"
-#
-include
-"
-mozilla
-/
 URLDecorationStripper
 .
 h
