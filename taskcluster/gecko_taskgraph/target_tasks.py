@@ -12011,36 +12011,6 @@ parameters
 :
         
 #
-bug
-1899553
-:
-don
-'
-t
-automatically
-schedule
-uploads
-to
-google
-play
-        
-if
-task
-.
-kind
-=
-=
-"
-push
--
-bundle
-"
-:
-            
-return
-False
-        
-#
 geckoview
         
 if
