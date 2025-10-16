@@ -4080,24 +4080,6 @@ UTF
 8
 "
         
-#
-This
-should
-help
-with
-consistency
-        
-browserEnv
-[
-"
-GTK_THEME
-"
-]
-=
-"
-Adwaita
-"
-        
 for
 v
 in
