@@ -638,11 +638,6 @@ nsIAboutModule
 :
 :
 IS_SECURE_CHROME_UI
-|
-nsIAboutModule
-:
-:
-HIDE_FROM_ABOUTABOUT
 }
 {
 "
@@ -1250,6 +1245,11 @@ nsIAboutModule
 :
 :
 URI_CAN_LOAD_IN_PRIVILEGEDABOUT_PROCESS
+|
+nsIAboutModule
+:
+:
+HIDE_FROM_ABOUTABOUT
 }
 {
 "
@@ -1296,6 +1296,11 @@ nsIAboutModule
 :
 :
 URI_CAN_LOAD_IN_PRIVILEGEDABOUT_PROCESS
+|
+nsIAboutModule
+:
+:
+HIDE_FROM_ABOUTABOUT
 }
 {
 "
@@ -1342,6 +1347,11 @@ nsIAboutModule
 :
 :
 URI_CAN_LOAD_IN_PRIVILEGEDABOUT_PROCESS
+|
+nsIAboutModule
+:
+:
+HIDE_FROM_ABOUTABOUT
 }
 #
 endif
