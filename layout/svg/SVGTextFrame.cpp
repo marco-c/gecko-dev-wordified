@@ -24187,6 +24187,13 @@ UpdateGlyphPositioning
 (
 )
 ;
+RefPtr
+<
+nsIContent
+>
+content
+;
+{
 /
 /
 Convert
@@ -24267,11 +24274,6 @@ TextElementCharIndex
 (
 )
 ;
-const
-RefPtr
-<
-nsIContent
->
 content
 =
 chit
@@ -24302,6 +24304,7 @@ TextElementCharIndex
 -
 charnum
 ;
+}
 RefPtr
 <
 nsFrameSelection
