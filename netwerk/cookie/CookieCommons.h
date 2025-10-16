@@ -1147,7 +1147,7 @@ the
 current
 time
 in
-msecs
+USecs
 using
 a
 nsIChannel
@@ -1163,7 +1163,7 @@ time
 .
 static
 int64_t
-GetCurrentTimeFromChannel
+GetCurrentTimeInUSecFromChannel
 (
 nsIChannel
 *

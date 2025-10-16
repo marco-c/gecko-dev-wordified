@@ -358,11 +358,6 @@ aAcceptedByParser
 ;
 /
 /
-aCurrentTime
-is
-in
-milliseconds
-and
 expiry
 will
 be
@@ -384,8 +379,6 @@ const
 nsACString
 &
 aMaxage
-int64_t
-aCurrentTime
 const
 nsACString
 &
