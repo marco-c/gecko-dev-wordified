@@ -2179,6 +2179,14 @@ return
 NS_ERROR_FAILURE
 ;
 }
+aRequest
+-
+>
+SetStencil
+(
+stencil
+)
+;
 JS
 :
 :
@@ -2262,7 +2270,6 @@ GetScriptLoader
 TryCacheRequest
 (
 aRequest
-stencil
 )
 ;
 return
@@ -2442,6 +2449,14 @@ return
 NS_ERROR_FAILURE
 ;
 }
+aRequest
+-
+>
+SetStencil
+(
+stencil
+)
+;
 JS
 :
 :
@@ -2523,7 +2538,6 @@ GetScriptLoader
 TryCacheRequest
 (
 aRequest
-stencil
 )
 ;
 return
