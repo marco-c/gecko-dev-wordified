@@ -13734,6 +13734,17 @@ region
 sizeClass
 )
 ;
+DebugOnlyPoison
+(
+ptr
+JS_ALLOCATED_BUFFER_PATTERN
+bytes
+MemCheckKind
+:
+:
+MakeUndefined
+)
+;
 return
 ptr
 ;
