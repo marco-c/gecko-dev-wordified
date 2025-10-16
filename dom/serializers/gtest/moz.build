@@ -94,6 +94,11 @@ TestPlainTextSerializer
 .
 cpp
 "
+"
+TestPlainTextSerializerBlockQuoteCite
+.
+cpp
+"
 ]
 include
 (
