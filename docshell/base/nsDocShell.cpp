@@ -24205,7 +24205,7 @@ mActiveEntry
 mActiveEntry
 -
 >
-GetNavigationState
+GetNavigationAPIState
 (
 )
 :
@@ -57604,7 +57604,7 @@ mActiveEntry
 mActiveEntry
 -
 >
-GetNavigationState
+GetNavigationAPIState
 (
 )
 :
@@ -60209,7 +60209,7 @@ destinationNavigationAPIState
 mActiveEntry
 -
 >
-SetNavigationState
+SetNavigationAPIState
 (
 destinationNavigationAPIState
 )

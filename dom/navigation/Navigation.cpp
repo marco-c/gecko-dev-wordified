@@ -747,20 +747,9 @@ Step
 aNHE
 -
 >
-SetState
-(
-static_cast
-<
-nsStructuredCloneContainer
-*
->
+SetNavigationAPIState
 (
 mSerializedState
-.
-get
-(
-)
-)
 )
 ;
 /
@@ -1597,7 +1586,7 @@ return
 currentEntry
 -
 >
-SetState
+SetNavigationAPIState
 (
 serializedState
 )
@@ -5309,7 +5298,7 @@ serializedState
 current
 -
 >
-GetNavigationState
+GetNavigationAPIState
 (
 )
 ;
@@ -6835,7 +6824,7 @@ step
 2
 RefPtr
 <
-nsStructuredCloneContainer
+nsIStructuredCloneContainer
 >
 state
 =
@@ -6844,7 +6833,7 @@ destinationNHE
 destinationNHE
 -
 >
-GetNavigationState
+GetNavigationAPIState
 (
 )
 :
