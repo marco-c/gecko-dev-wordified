@@ -681,13 +681,6 @@ aEntry
 >
 mLastTouched
 ;
-mNavigationState
-=
-aEntry
--
->
-mNavigationState
-;
 }
 void
 dom

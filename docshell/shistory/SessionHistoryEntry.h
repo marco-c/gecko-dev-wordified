@@ -1080,6 +1080,12 @@ GenerateUUID
 (
 )
 ;
+RefPtr
+<
+nsStructuredCloneContainer
+>
+mNavigationState
+;
 bool
 mLoadReplace
 =

@@ -584,12 +584,6 @@ mSaveLayoutState
 =
 true
 ;
-RefPtr
-<
-nsStructuredCloneContainer
->
-mNavigationState
-;
 protected
 :
 static
