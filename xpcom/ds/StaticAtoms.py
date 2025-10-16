@@ -27182,6 +27182,23 @@ lighter
     
 #
 CSS
+anchor
+positioning
+implicit
+anchor
+    
+Atom
+(
+"
+AnchorPosImplicitAnchor
+"
+"
+AnchorPosImplicitAnchor
+"
+)
+    
+#
+CSS
 pseudo
 -
 elements
