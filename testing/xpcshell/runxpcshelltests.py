@@ -2791,17 +2791,13 @@ function
         
 quiet
 =
-False
-        
-if
 self
 .
 crashAsPass
-:
-            
-quiet
-=
-True
+or
+self
+.
+retry
         
 return
 mozcrash

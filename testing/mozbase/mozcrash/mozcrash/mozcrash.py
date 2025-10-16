@@ -1026,11 +1026,6 @@ crash_count
 =
 1
         
-if
-not
-quiet
-:
-            
 kwargs
 =
 info
@@ -1038,7 +1033,7 @@ info
 _asdict
 (
 )
-            
+        
 kwargs
 .
 pop
@@ -1047,7 +1042,16 @@ pop
 extra
 "
 )
-            
+        
+kwargs
+[
+"
+quiet
+"
+]
+=
+quiet
+        
 logger
 .
 crash
