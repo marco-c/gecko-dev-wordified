@@ -87,15 +87,11 @@ pkcs11_bindings
 ;
 pub
 mod
-error
+cryptoki
 ;
 pub
 mod
 manager
-;
-pub
-mod
-util
 ;
 /
 /
