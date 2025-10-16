@@ -4162,6 +4162,8 @@ check_stability
 *
 kwargs
 )
+or
+0
         
 else
 :
