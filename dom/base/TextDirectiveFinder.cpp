@@ -154,15 +154,6 @@ include
 "
 mozilla
 /
-ResultVariant
-.
-h
-"
-#
-include
-"
-mozilla
-/
 glean
 /
 DomMetrics
