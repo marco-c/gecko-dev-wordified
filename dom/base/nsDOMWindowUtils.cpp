@@ -689,6 +689,13 @@ h
 #
 include
 "
+nsMenuPopupFrame
+.
+h
+"
+#
+include
+"
 nsPresContext
 .
 h

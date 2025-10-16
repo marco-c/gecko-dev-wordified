@@ -6523,15 +6523,6 @@ mUnderHiddenEmbedderElement
 aUnderHiddenEmbedderElement
 ;
 }
-MOZ_CAN_RUN_SCRIPT
-void
-DispatchSynthMouseOrPointerMove
-(
-WidgetMouseEvent
-*
-aMouseOrPointerMoveEvent
-)
-;
 /
 *
 Temporarily

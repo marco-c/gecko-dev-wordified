@@ -1490,15 +1490,6 @@ DesktopToLayoutDeviceScale
 )
 ;
 }
-mozilla
-:
-:
-DesktopToLayoutDeviceScale
-GetDesktopToDeviceScaleByScreen
-(
-)
-override
-;
 void
 ConstrainPosition
 (

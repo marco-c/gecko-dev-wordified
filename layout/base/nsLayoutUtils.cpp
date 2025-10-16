@@ -10306,7 +10306,7 @@ mRefPoint
 )
 ;
 }
-nsIFrame
+nsMenuPopupFrame
 *
 nsLayoutUtils
 :

@@ -795,6 +795,9 @@ gfxPattern
 class
 nsIFrame
 ;
+class
+nsMenuPopupFrame
+;
 #
 if
 !
@@ -1127,15 +1130,6 @@ mozilla
 :
 DesktopToLayoutDeviceScale
 GetDesktopToDeviceScale
-(
-)
-override
-;
-mozilla
-:
-:
-DesktopToLayoutDeviceScale
-GetDesktopToDeviceScaleByScreen
 (
 )
 override
