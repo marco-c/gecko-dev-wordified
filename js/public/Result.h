@@ -511,7 +511,7 @@ value
 on
 success
 use
-MOZ_TRY_VAR
+MOZ_TRY
 to
 get
 it
@@ -525,9 +525,10 @@ cx
 )
 ;
 *
-MOZ_TRY_VAR
-(
 thrug
+=
+MOZ_TRY
+(
 GetObjectThrug
 (
 cx
@@ -615,9 +616,10 @@ cx
 )
 ;
 *
-MOZ_TRY_VAR
-(
 wrapper
+=
+MOZ_TRY
+(
 Enwrapify
 (
 cx

@@ -839,10 +839,9 @@ aDependentLib
 endif
 LibHandleType
 libHandle
-;
-MOZ_TRY_VAR
+=
+MOZ_TRY
 (
-libHandle
 GetLibHandle
 (
 aDependentLib

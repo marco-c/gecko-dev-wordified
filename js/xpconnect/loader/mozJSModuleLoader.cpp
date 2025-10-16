@@ -4951,10 +4951,9 @@ else
 {
 nsCString
 str
-;
-MOZ_TRY_VAR
+=
+MOZ_TRY
 (
-str
 ReadScript
 (
 aInfo

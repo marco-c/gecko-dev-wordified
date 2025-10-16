@@ -7037,10 +7037,9 @@ Shutdown
 ;
 IPCInternalRequest
 request
-;
-MOZ_TRY_VAR
+=
+MOZ_TRY
 (
-request
 GetIPCInternalRequest
 (
 aChannel

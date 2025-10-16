@@ -3605,10 +3605,9 @@ aPhase
 {
 ShutdownPhase
 nativePhase
-;
-MOZ_TRY_VAR
+=
+MOZ_TRY
 (
-nativePhase
 IDLShutdownPhaseToNative
 (
 aPhase
@@ -3642,10 +3641,9 @@ aIsInOrBeyond
 {
 ShutdownPhase
 nativePhase
-;
-MOZ_TRY_VAR
+=
+MOZ_TRY
 (
-nativePhase
 IDLShutdownPhaseToNative
 (
 aPhase

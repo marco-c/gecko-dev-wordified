@@ -273,10 +273,9 @@ nsCOMPtr
 nsIInputStream
 >
 stream
-;
-MOZ_TRY_VAR
+=
+MOZ_TRY
 (
-stream
 mCallbacks
 -
 >

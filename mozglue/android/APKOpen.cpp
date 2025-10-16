@@ -1333,9 +1333,10 @@ MOZ_ANDROID_LIBDIR_OVERRIDE
 "
 )
 ;
-MOZ_TRY_VAR
-(
 gBootstrap
+=
+MOZ_TRY
+(
 GetBootstrap
 (
 libxul

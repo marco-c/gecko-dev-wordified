@@ -9554,9 +9554,10 @@ delay
 0
 )
 {
-MOZ_TRY_VAR
-(
 timer
+=
+MOZ_TRY
+(
 NS_NewTimerWithFuncCallback
 (
 aFunc

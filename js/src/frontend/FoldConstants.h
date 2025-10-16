@@ -249,9 +249,10 @@ Usage
 :
 /
 /
-MOZ_TRY_VAR
-(
 pn
+=
+MOZ_TRY
+(
 parser
 -
 >

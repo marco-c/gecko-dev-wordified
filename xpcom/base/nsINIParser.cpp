@@ -193,10 +193,9 @@ aFile
 {
 nsCString
 result
-;
-MOZ_TRY_VAR
+=
+MOZ_TRY
 (
-result
 URLPreloader
 :
 :

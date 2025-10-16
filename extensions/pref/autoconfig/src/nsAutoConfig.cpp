@@ -1977,9 +1977,10 @@ a
 timer
 callback
 .
-MOZ_TRY_VAR
-(
 mTimer
+=
+MOZ_TRY
+(
 NS_NewTimerWithCallback
 (
 this

@@ -1400,9 +1400,7 @@ NS_OK
 .
 Using
 MOZ_TRY
-/
-MOZ_TRY_VAR
-macros
+macro
 *
 *
 Typical
@@ -2510,8 +2508,6 @@ QM_TRY_INSPECT
 is
 like
 MOZ_TRY
-/
-MOZ_TRY_VAR
 but
 if
 an
@@ -9036,10 +9032,9 @@ true
 {
 StepResultType
 element
-;
-MOZ_TRY_VAR
+=
+MOZ_TRY
 (
-element
 aStep
 (
 )
@@ -9250,9 +9245,10 @@ InputGenerator
 err_type
 >
 {
-MOZ_TRY_VAR
-(
 res
+=
+MOZ_TRY
+(
 aBinaryOp
 (
 std

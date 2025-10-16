@@ -61257,7 +61257,7 @@ Can
 '
 t
 use
-MOZ_TRY_VAR
+MOZ_TRY
 because
 it
 confuses
@@ -61744,7 +61744,7 @@ Can
 '
 t
 use
-MOZ_TRY_VAR
+MOZ_TRY
 because
 it
 confuses

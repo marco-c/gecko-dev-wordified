@@ -3178,10 +3178,9 @@ nsCOMPtr
 nsIFile
 >
 cacheFile
-;
-MOZ_TRY_VAR
+=
+MOZ_TRY
 (
-cacheFile
 GetCacheFile
 (
 u
@@ -5015,10 +5014,9 @@ nsCOMPtr
 nsIFile
 >
 cacheFile
-;
-MOZ_TRY_VAR
+=
+MOZ_TRY
 (
-cacheFile
 GetCacheFile
 (
 u

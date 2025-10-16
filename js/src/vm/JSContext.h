@@ -8201,8 +8201,6 @@ defines
 alternatives
 to
 MOZ_TRY
-and
-MOZ_TRY_VAR
 for
 when
 you

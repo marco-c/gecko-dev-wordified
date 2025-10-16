@@ -265,9 +265,10 @@ Loader
 (
 )
 ;
-MOZ_TRY_VAR
-(
 mSheet
+=
+MOZ_TRY
+(
 loader
 -
 >

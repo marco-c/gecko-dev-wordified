@@ -28365,10 +28365,9 @@ IsInactive
 }
 ProfileGenerationAdditionalInformation
 additionalInfo
-;
-MOZ_TRY_VAR
+=
+MOZ_TRY
 (
-additionalInfo
 locked_profiler_stream_json_for_this_process
 (
 lock
@@ -28479,10 +28478,9 @@ incomplete
 ;
 ProfileGenerationAdditionalInformation
 additionalInfo
-;
-MOZ_TRY_VAR
+=
+MOZ_TRY
 (
-additionalInfo
 do_profiler_stream_json_for_this_process
 (
 aWriter

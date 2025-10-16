@@ -3555,10 +3555,9 @@ RefPtr
 IFileDialog
 >
 dialog
-;
-MOZ_TRY_VAR
+=
+MOZ_TRY
 (
-dialog
 MakeFileDialog
 (
 type
@@ -3635,10 +3634,9 @@ rv
 }
 RetT
 res
-;
-MOZ_TRY_VAR
+=
+MOZ_TRY
 (
-res
 extractor
 (
 dialog
