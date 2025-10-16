@@ -290,6 +290,11 @@ SetAndroidObjects
 ;
 #
 endif
+int32_t
+GenerateId
+(
+)
+;
 /
 *
 *
@@ -766,11 +771,6 @@ Timestamp
 Micros
 (
 0
-)
-;
-int32_t
-GenerateId
-(
 )
 ;
 }
