@@ -44320,6 +44320,9 @@ true
 type
 :
 CSS_TYPE_LONGHAND
+applies_to_marker
+:
+true
 initial_values
 :
 [
