@@ -528,7 +528,7 @@ void
 CommonSocketControl
 :
 :
-SetHandshakeCertificates
+SetFailedCertChain
 (
 nsTArray
 <
@@ -549,7 +549,7 @@ COMMON_SOCKET_CONTROL_ASSERT_ON_OWNING_THREAD
 return
 CreateCertChain
 (
-mHandshakeCertificates
+mFailedCertChain
 std
 :
 :
@@ -1866,10 +1866,10 @@ if
 (
 info
 .
-mHandshakeCertificatesBytes
+mFailedCertChainBytes
 )
 {
-SetHandshakeCertificates
+SetFailedCertChain
 (
 std
 :
@@ -1879,7 +1879,7 @@ move
 *
 info
 .
-mHandshakeCertificatesBytes
+mFailedCertChainBytes
 )
 )
 ;
@@ -2387,7 +2387,7 @@ TransportSecurityInfo
 (
 mSecurityState
 mErrorCode
-mHandshakeCertificates
+mFailedCertChain
 .
 Clone
 (

@@ -232,7 +232,7 @@ NS_IMETHODIMP
 FuzzySecurityInfo
 :
 :
-GetHandshakeCertificates
+GetFailedCertChain
 (
 nsTArray
 <
@@ -242,7 +242,7 @@ nsIX509Cert
 >
 >
 &
-aHandshakeCertificates
+aFailedCertChain
 )
 {
 MOZ_CRASH
