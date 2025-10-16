@@ -113,7 +113,7 @@ tests
 .
 tar
 .
-gz
+zst
 build
 artifacts
 are
@@ -139,7 +139,7 @@ tests
 .
 tar
 .
-gz
+zst
 at
 build
 time
