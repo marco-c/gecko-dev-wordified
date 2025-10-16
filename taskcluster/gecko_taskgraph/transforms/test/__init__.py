@@ -1075,6 +1075,14 @@ loader
 "
 )
 :
+optionally_keyed_by
+(
+            
+"
+test
+-
+platform
+"
 Any
 (
 None
@@ -1083,6 +1091,8 @@ list
 (
 manifest_loaders
 )
+)
+        
 )
         
 #
@@ -3995,6 +4005,14 @@ suite
 suite
 .
 name
+"
+        
+"
+test
+-
+manifest
+-
+loader
 "
         
 "
