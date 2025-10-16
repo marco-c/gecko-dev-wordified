@@ -744,6 +744,11 @@ MOZ_ASSERT
 IsFetching
 (
 )
+|
+|
+IsCompiling
+(
+)
 )
 ;
 mErroredLoadingImports
