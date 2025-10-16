@@ -4282,6 +4282,7 @@ position
 /
 #
 target
+const
 nsIFrame
 *
 GetAnchorPosAnchor

@@ -83241,6 +83241,7 @@ ABS_POS
 )
 ;
 }
+const
 nsIFrame
 *
 PresShell
@@ -84472,6 +84473,7 @@ ScrollContainerFrame
 *
 FindScrollContainerFrameOf
 (
+const
 nsIFrame
 *
 aFrame
@@ -84527,6 +84529,7 @@ UnderScrollContainer
 nsIFrame
 *
 aFrame
+const
 ScrollContainerFrame
 *
 aScrollContainer
