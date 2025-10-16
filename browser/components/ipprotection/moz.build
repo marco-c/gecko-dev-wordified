@@ -205,6 +205,13 @@ sys
 .
 mjs
 "
+"
+IPPStartupCache
+.
+sys
+.
+mjs
+"
 ]
 BROWSER_CHROME_MANIFESTS
 +
