@@ -39543,8 +39543,6 @@ Register
 temp1
 Register
 temp2
-LiveRegisterSet
-liveRegs
 Label
 *
 fail
