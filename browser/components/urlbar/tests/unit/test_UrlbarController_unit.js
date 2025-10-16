@@ -282,10 +282,9 @@ UrlbarController
 (
 )
 /
-Missing
 options
-:
-input
+is
+undefined
 /
 "
 Should
