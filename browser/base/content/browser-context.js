@@ -1983,7 +1983,12 @@ if
 (
 gContextMenu
 .
-textDirectiveTarget
+isContentSelected
+|
+|
+gContextMenu
+.
+hasTextFragments
 )
 {
 gContextMenu
