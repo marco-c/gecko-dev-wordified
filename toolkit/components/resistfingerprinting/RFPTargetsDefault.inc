@@ -99,10 +99,6 @@ CanvasRandomization
 )
 DESKTOP_DEFAULT
 (
-EfficientCanvasRandomization
-)
-DESKTOP_DEFAULT
-(
 FontVisibilityLangPack
 )
 DESKTOP_DEFAULT
@@ -124,10 +120,6 @@ MaxTouchPointsCollapse
 ANDROID_DEFAULT
 (
 CanvasRandomization
-)
-ANDROID_DEFAULT
-(
-EfficientCanvasRandomization
 )
 ANDROID_DEFAULT
 (
