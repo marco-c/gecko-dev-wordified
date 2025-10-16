@@ -95,6 +95,7 @@ string
 "
 &
 &
+(
 e
 .
 match
@@ -104,6 +105,19 @@ set_permission
 not
 implemented
 /
+)
+|
+|
+e
+.
+match
+(
+/
+Unknown
+permission
+name
+/
+)
 )
 ;
 if
