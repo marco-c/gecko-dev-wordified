@@ -9182,7 +9182,7 @@ manager
 .
 enabled
 "
-false
+true
 )
 ;
 /
