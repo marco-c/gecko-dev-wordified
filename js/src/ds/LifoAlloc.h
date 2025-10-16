@@ -7287,8 +7287,6 @@ Mark
 mark
 )
 ;
-private
-:
 void
 cancelMark
 (
@@ -7301,8 +7299,6 @@ markCount
 -
 ;
 }
-public
-:
 void
 releaseAll
 (

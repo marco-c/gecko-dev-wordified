@@ -426,6 +426,12 @@ nInboundStackArgBytes
 wasm
 :
 :
+StackMaps
+&
+stackMaps
+wasm
+:
+:
 StackMap
 *
 *
@@ -671,12 +677,8 @@ StackMap
 *
 stackMap
 =
-wasm
-:
-:
-StackMap
-:
-:
+stackMaps
+.
 create
 (
 nTotalBytes
@@ -2570,7 +2572,7 @@ for
 auto
 iter
 =
-mapping_
+codeOffsetToStackMap_
 .
 iter
 (
