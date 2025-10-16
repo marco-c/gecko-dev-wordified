@@ -1091,11 +1091,6 @@ InitDWriteSupport
 )
 ;
 void
-InitGPUProcessSupport
-(
-)
-;
-void
 InitializeConfig
 (
 )
