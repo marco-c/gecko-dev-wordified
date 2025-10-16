@@ -665,15 +665,6 @@ include
 "
 mozilla
 /
-MacroForEach
-.
-h
-"
-#
-include
-"
-mozilla
-/
 MappedDeclarationsBuilder
 .
 h

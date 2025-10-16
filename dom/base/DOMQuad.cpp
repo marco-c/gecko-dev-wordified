@@ -144,15 +144,6 @@ include
 "
 mozilla
 /
-MacroForEach
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 BindingDeclarations
