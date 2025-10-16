@@ -1392,6 +1392,15 @@ nsIContent
 aMenuContent
 )
 ;
+static
+bool
+IsXULEditMenu
+(
+nsIContent
+*
+aMenuContent
+)
+;
 /
 /
 Set
