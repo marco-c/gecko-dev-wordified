@@ -47,7 +47,7 @@ tools
 "
 ;
 var
-toolbox
+gToolbox
 ;
 function
 test
@@ -85,12 +85,12 @@ testRegister
 function
 testRegister
 (
-aToolbox
+toolbox
 )
 {
-toolbox
+gToolbox
 =
-aToolbox
+toolbox
 ;
 gDevTools
 .
@@ -195,7 +195,7 @@ UI
 const
 doc
 =
-toolbox
+gToolbox
 .
 doc
 ;
@@ -420,7 +420,7 @@ UI
 const
 doc
 =
-toolbox
+gToolbox
 .
 doc
 ;
@@ -537,7 +537,7 @@ cleanup
 (
 )
 {
-toolbox
+gToolbox
 .
 destroy
 (
@@ -550,7 +550,7 @@ then
 =
 >
 {
-toolbox
+gToolbox
 =
 null
 ;

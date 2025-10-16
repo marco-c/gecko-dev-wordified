@@ -423,14 +423,14 @@ mainProcessTargetFront
 function
 getSourceActor
 (
-aSources
-aURL
+sources
+url
 )
 {
 const
 item
 =
-aSources
+sources
 .
 getItemForAttachment
 (
@@ -445,7 +445,7 @@ url
 =
 =
 =
-aURL
+url
 )
 ;
 return
