@@ -87341,7 +87341,7 @@ true
 bool
 symbolsAsWeakMapKeys
 =
-false
+true
 ;
 if
 (
