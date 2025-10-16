@@ -6258,14 +6258,10 @@ in
 the
 settings
 UI
-when
-Suggest
-is
-enabled
 .
-/
-/
 See
+/
+/
 QuickSuggest
 .
 SETTINGS_UI
@@ -6283,7 +6279,7 @@ quicksuggest
 .
 settingsUi
 "
-1
+0
 )
 ;
 /
