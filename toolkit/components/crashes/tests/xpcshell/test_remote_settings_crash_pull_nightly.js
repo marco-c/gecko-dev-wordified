@@ -33,8 +33,6 @@ use
 strict
 "
 ;
-/
-*
 const
 {
 AppConstants
@@ -61,8 +59,6 @@ mjs
 "
 )
 ;
-*
-/
 const
 {
 RemoteSettingsCrashPull
@@ -129,16 +125,6 @@ crashPull
 "
 )
 ;
-/
-/
-Disabled
-by
-default
-until
-further
-notice
-/
-*
 if
 (
 AppConstants
@@ -163,8 +149,6 @@ nightly
 }
 else
 {
-*
-/
 Assert
 .
 ok
@@ -180,11 +164,7 @@ nightly
 "
 )
 ;
-/
-*
 }
-*
-/
 }
 )
 ;
