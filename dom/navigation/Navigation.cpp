@@ -3888,6 +3888,13 @@ IgnoreErrors
 aOptions
 .
 mHistory
+/
+*
+aNeedsCompletelyLoadedDocument
+*
+/
+false
+serializedState
 )
 ;
 /
