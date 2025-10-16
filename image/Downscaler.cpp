@@ -119,6 +119,15 @@ gfx
 .
 h
 "
+#
+include
+"
+mozilla
+/
+fallible
+.
+h
+"
 using
 std
 :

@@ -128,6 +128,15 @@ UnscaledFontFreeType
 .
 h
 "
+#
+include
+"
+mozilla
+/
+fallible
+.
+h
+"
 namespace
 mozilla
 :
