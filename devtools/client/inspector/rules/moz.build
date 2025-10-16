@@ -111,11 +111,6 @@ rules
 .
 js
 "
-"
-types
-.
-js
-"
 )
 BROWSER_CHROME_MANIFESTS
 +
