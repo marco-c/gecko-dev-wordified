@@ -152,15 +152,6 @@ include
 "
 mozilla
 /
-Assertions
-.
-h
-"
-#
-include
-"
-mozilla
-/
 BasicEvents
 .
 h
