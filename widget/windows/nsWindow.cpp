@@ -770,6 +770,13 @@ h
 #
 include
 "
+nsMenuPopupFrame
+.
+h
+"
+#
+include
+"
 nsWindow
 .
 h
