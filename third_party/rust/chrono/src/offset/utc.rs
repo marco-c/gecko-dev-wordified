@@ -78,6 +78,11 @@ target_os
 "
 wasi
 "
+target_os
+=
+"
+linux
+"
 )
 )
 )
@@ -857,6 +862,11 @@ target_os
 "
 wasi
 "
+target_os
+=
+"
+linux
+"
 )
 )
 )
@@ -972,6 +982,11 @@ target_os
 =
 "
 wasi
+"
+target_os
+=
+"
+linux
 "
 )
 )

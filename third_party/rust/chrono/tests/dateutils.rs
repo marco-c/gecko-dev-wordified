@@ -452,6 +452,7 @@ b
 )
 =
 >
+{
 assert
 !
 (
@@ -460,11 +461,11 @@ format
 (
 "
 {
+a
 }
 \
 n
 "
-a
 )
 =
 =
@@ -476,16 +477,17 @@ format
 (
 "
 {
+b
 }
 \
 n
 "
-b
 )
 =
 =
 date_command_str
 )
+}
 chrono
 :
 :
@@ -507,11 +509,11 @@ format
 (
 "
 {
+a
 }
 \
 n
 "
-a
 )
 date_command_str
 )
@@ -737,11 +739,11 @@ eprintln
 LANG
 :
 {
+lang
 :
 ?
 }
 "
-lang
 )
 None
 =
@@ -835,6 +837,7 @@ eprintln
 command
 :
 {
+DATE_PATH
 :
 ?
 }
@@ -845,6 +848,7 @@ version
 nstdout
 :
 {
+stdout
 :
 ?
 }
@@ -852,13 +856,11 @@ nstdout
 nstderr
 :
 {
+stderr
 :
 ?
 }
 "
-DATE_PATH
-stdout
-stderr
 )
 ;
 assert
@@ -876,6 +878,7 @@ command
 failed
 :
 {
+DATE_PATH
 :
 ?
 }
@@ -883,7 +886,6 @@ failed
 -
 version
 "
-DATE_PATH
 )
 ;
 }
@@ -920,6 +922,7 @@ eprintln
 date
 command
 {
+DATE_PATH
 :
 ?
 }
@@ -927,7 +930,6 @@ not
 found
 skipping
 "
-DATE_PATH
 )
 ;
 return
@@ -944,6 +946,7 @@ eprintln
 Run
 command
 {
+DATE_PATH
 :
 ?
 }
@@ -961,7 +964,6 @@ years
 .
 .
 "
-DATE_PATH
 )
 ;
 let
@@ -1450,9 +1452,9 @@ format
 "
 +
 {
+required_format
 }
 "
-required_format
 )
 )
 .
@@ -1620,6 +1622,7 @@ eprintln
 date
 command
 {
+DATE_PATH
 :
 ?
 }
@@ -1627,7 +1630,6 @@ not
 found
 skipping
 "
-DATE_PATH
 )
 ;
 return
