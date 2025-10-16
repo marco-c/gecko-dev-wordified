@@ -519,8 +519,6 @@ defined
 (
 MOZ_WAYLAND
 )
-RefPtr
-<
 mozilla
 :
 :
@@ -528,7 +526,7 @@ layers
 :
 :
 NativeLayerRoot
->
+*
 GetNativeLayerRoot
 (
 )

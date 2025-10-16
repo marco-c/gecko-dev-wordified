@@ -770,7 +770,6 @@ mY
 struct
 Surface
 {
-explicit
 Surface
 (
 wr
@@ -781,17 +780,12 @@ aTileSize
 bool
 aIsOpaque
 )
-:
-mTileSize
+;
+~
+Surface
 (
-aTileSize
 )
-mIsOpaque
-(
-aIsOpaque
-)
-{
-}
+;
 gfx
 :
 :
@@ -799,6 +793,7 @@ IntSize
 TileSize
 (
 )
+const
 {
 return
 gfx

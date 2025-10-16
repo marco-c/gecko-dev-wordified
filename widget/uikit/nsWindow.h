@@ -633,8 +633,6 @@ override
 ;
 *
 /
-RefPtr
-<
 mozilla
 :
 :
@@ -642,7 +640,7 @@ layers
 :
 :
 NativeLayerRoot
->
+*
 GetNativeLayerRoot
 (
 )
