@@ -248,3 +248,16 @@ xpcshell
 toml
 "
 ]
+SPHINX_TREES
+[
+"
+/
+browser
+/
+ipprotection
+"
+]
+=
+"
+docs
+"
