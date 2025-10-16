@@ -4444,6 +4444,9 @@ response
 uint32_t
 mTrrStreams
 ;
+nsCString
+mTrrHost
+;
 /
 /
 Whether
