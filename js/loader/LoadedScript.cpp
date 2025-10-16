@@ -467,7 +467,7 @@ mDataType
 DataType
 :
 :
-eCachedStencil
+eStencil
 )
 mKind
 (
@@ -558,7 +558,7 @@ mDataType
 DataType
 :
 :
-eCachedStencil
+eStencil
 )
 ;
 MOZ_DIAGNOSTIC_ASSERT
@@ -574,7 +574,7 @@ mScriptData
 ;
 MOZ_ASSERT
 (
-mSRIAndBytecode
+mScriptBytecode
 .
 empty
 (
@@ -879,7 +879,7 @@ aMallocSizeOf
 bytes
 +
 =
-mSRIAndBytecode
+mScriptBytecode
 .
 sizeOfExcludingThis
 (
@@ -2114,13 +2114,6 @@ setUndefined
 (
 )
 ;
-tmp
--
->
-DropDiskCacheReference
-(
-)
-;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
@@ -2277,7 +2270,7 @@ MOZ_DIAGNOSTIC_ASSERT
 (
 aScript
 .
-IsCachedStencil
+IsStencil
 (
 )
 )
@@ -2312,7 +2305,7 @@ ToCache
 {
 MOZ_DIAGNOSTIC_ASSERT
 (
-IsCachedStencil
+IsStencil
 (
 )
 )
