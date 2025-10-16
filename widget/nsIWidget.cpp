@@ -11136,15 +11136,7 @@ is
 also
 disabled
 .
-gfx
-:
-:
-GPUProcessManager
-:
-:
-Get
-(
-)
+gpm
 -
 >
 DisableWebRender
