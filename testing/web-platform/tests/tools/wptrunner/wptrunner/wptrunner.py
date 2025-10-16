@@ -4023,7 +4023,12 @@ start
 *
 *
 kwargs
+:
+Any
 )
+-
+>
+int
 :
     
 assert
@@ -4064,7 +4069,7 @@ handler
     
 rv
 =
-False
+0
     
 try
 :
@@ -4157,10 +4162,6 @@ check_stability
 *
 kwargs
 )
-or
-logged_critical
-.
-has_log
         
 else
 :
@@ -4177,10 +4178,6 @@ kwargs
 [
 0
 ]
-or
-logged_critical
-.
-has_log
     
 finally
 :
@@ -4197,6 +4194,52 @@ remove_handler
 (
 handler
 )
+    
+#
+Reserve
+everything
+above
+64
+for
+our
+global
+usage
+.
+    
+assert
+0
+<
+=
+rv
+<
+64
+"
+Exit
+codes
+above
+64
+are
+reserved
+"
+    
+if
+logged_critical
+.
+has_log
+:
+        
+print
+(
+"
+Did
+log
+critical
+"
+)
+        
+rv
+=
+64
     
 return
 rv
