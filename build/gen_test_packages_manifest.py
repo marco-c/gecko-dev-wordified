@@ -685,7 +685,7 @@ tests
 .
 tar
 .
-gz
+zst
 "
 )
     
@@ -740,7 +740,7 @@ tests
 .
 tar
 .
-gz
+zst
 "
 )
         
@@ -760,7 +760,7 @@ tests
 .
 tar
 .
-gz
+zst
 "
 )
     
