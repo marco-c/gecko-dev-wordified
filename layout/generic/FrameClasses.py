@@ -129,6 +129,13 @@ LINE_PARTICIPANT
 LineParticipant
 "
 }
+MAY_HAVE_VIEW
+=
+{
+"
+MayHaveView
+"
+}
 BLOCK
 =
 COMMON
@@ -973,6 +980,8 @@ nsMenuPopupFrame
 MenuPopup
 "
 BLOCK
+|
+MAY_HAVE_VIEW
 )
     
 Frame
@@ -1241,6 +1250,8 @@ SubDocument
 REPLACED_SIZING
 |
 LEAF
+|
+MAY_HAVE_VIEW
 )
     
 Frame
@@ -1804,6 +1815,8 @@ ViewportFrame
 Viewport
 "
 COMMON
+|
+MAY_HAVE_VIEW
 )
     
 Frame

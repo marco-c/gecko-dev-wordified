@@ -5940,7 +5940,7 @@ if
 aFrame
 -
 >
-HasView
+GetView
 (
 )
 |
