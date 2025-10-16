@@ -69,6 +69,16 @@ moz
 .
 build
 "
+    
+"
+js
+/
+src
+/
+moz
+.
+build
+"
 }
 def
 test_extra_legacy_tests
