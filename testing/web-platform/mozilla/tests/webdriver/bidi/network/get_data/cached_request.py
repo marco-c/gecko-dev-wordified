@@ -33,6 +33,22 @@ pytest
 .
 mark
 .
+parametrize
+(
+    
+"
+use_collector
+"
+    
+[
+True
+False
+]
+)
+pytest
+.
+mark
+.
 asyncio
 async
 def
@@ -50,6 +66,8 @@ setup_network_test
 top_context
     
 add_data_collector
+    
+use_collector
 )
 :
     
@@ -381,6 +399,10 @@ NoSuchNetworkDataException
 )
 :
         
+if
+use_collector
+:
+            
 await
 bidi_session
 .
@@ -388,7 +410,7 @@ network
 .
 get_data
 (
-            
+                
 request
 =
 cached_css_event
@@ -402,15 +424,47 @@ request
 request
 "
 ]
+                
+data_type
+=
+"
+response
+"
+                
+collector
+=
+collector
             
+)
+        
+else
+:
+            
+await
+bidi_session
+.
+network
+.
+get_data
+(
+                
+request
+=
+cached_css_event
+[
+"
+request
+"
+]
+[
+"
+request
+"
+]
 data_type
 =
 "
 response
 "
             
-collector
-=
-collector
-        
 )
