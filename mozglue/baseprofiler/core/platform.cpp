@@ -481,6 +481,15 @@ include
 "
 mozilla
 /
+PodOperations
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ProfilerBufferSize
 .
 h
