@@ -14209,13 +14209,6 @@ s
 /
 widget
 .
-MOZ_ASSERT_IF
-(
-!
-aContainerView
-mParentWidget
-)
-;
 if
 (
 !
