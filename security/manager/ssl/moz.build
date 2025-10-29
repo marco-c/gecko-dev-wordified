@@ -652,6 +652,11 @@ OSKeyStore
 cpp
 "
 "
+PDFSignatureVerification
+.
+cpp
+"
+"
 PKCS11ModuleDB
 .
 cpp
