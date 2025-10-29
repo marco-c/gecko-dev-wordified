@@ -284,7 +284,7 @@ ProfilingCategoryPair
 )
 -
 >
-AutoProfilerLabel
+Self
 {
 bindings
 :

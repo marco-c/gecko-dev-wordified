@@ -954,6 +954,8 @@ self
 >
 Ref
 <
+'
+_
 Vec
 <
 TestTokenCredential
