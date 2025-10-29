@@ -714,7 +714,7 @@ StyleHyphens
 None
 ;
 }
-gfxFloat
+nscoord
 GetHyphenWidth
 (
 )
@@ -2914,12 +2914,9 @@ m
 .
 width
 =
-NSToCoordRound
-(
 theMetrics
 .
 mAdvanceWidth
-)
 ;
 }
 return

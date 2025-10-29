@@ -1572,7 +1572,7 @@ given
 textrun
 .
 virtual
-gfxFloat
+nscoord
 GetHyphenWidth
 (
 )
