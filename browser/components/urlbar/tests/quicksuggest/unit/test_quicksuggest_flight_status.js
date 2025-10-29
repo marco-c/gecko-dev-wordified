@@ -305,7 +305,7 @@ getSuggestionTelemetryType
 }
 )
 "
-flightStatus
+flights
 "
 "
 Telemetry
@@ -313,7 +313,7 @@ type
 should
 be
 '
-flightStatus
+flights
 '
 "
 )
@@ -966,7 +966,7 @@ flightStatus
 telemetryType
 :
 "
-flightStatus
+flights
 "
 isSponsored
 :

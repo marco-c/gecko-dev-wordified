@@ -307,7 +307,7 @@ click
 selected_result
 :
 "
-merino_flightStatus
+merino_flights
 "
 selected_position
 :
@@ -321,7 +321,7 @@ results
 :
 "
 search_engine
-merino_flightStatus
+merino_flights
 "
 }
 ]
@@ -419,7 +419,7 @@ enter
 selected_result
 :
 "
-merino_flightStatus
+merino_flights
 "
 selected_position
 :
@@ -433,7 +433,7 @@ results
 :
 "
 search_engine
-merino_flightStatus
+merino_flights
 "
 }
 ]
