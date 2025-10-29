@@ -3277,6 +3277,12 @@ aNonce
 ScriptLoadRequest
 *
 aRequest
+ScriptFetchOptions
+*
+aFetchOptions
+nsIURI
+*
+aURI
 )
 ;
 /
