@@ -340,9 +340,6 @@ DynamicImport
 ;
 ModuleLoadRequest
 (
-nsIURI
-*
-aURI
 ModuleType
 aModuleType
 const

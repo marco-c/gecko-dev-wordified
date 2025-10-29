@@ -949,7 +949,6 @@ request
 new
 ModuleLoadRequest
 (
-aURI
 moduleType
 SRIMetadata
 (
@@ -966,10 +965,7 @@ request
 >
 mURL
 =
-request
--
->
-mURI
+aURI
 -
 >
 GetSpecOrDefault

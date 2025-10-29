@@ -266,9 +266,6 @@ ModuleLoadRequest
 :
 ModuleLoadRequest
 (
-nsIURI
-*
-aURI
 ModuleType
 aModuleType
 const
@@ -303,7 +300,6 @@ ScriptKind
 :
 :
 eModule
-aURI
 aIntegrity
 aReferrer
 aContext
@@ -545,7 +541,9 @@ GetFetchedModule
 (
 ModuleMapKey
 (
-mURI
+URI
+(
+)
 mModuleType
 )
 )

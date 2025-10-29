@@ -822,7 +822,9 @@ if
 aRequest
 -
 >
-mURI
+URI
+(
+)
 -
 >
 SchemeIs
@@ -902,7 +904,9 @@ url
 aRequest
 -
 >
-mURI
+URI
+(
+)
 -
 >
 GetAsciiSpec
@@ -3432,7 +3436,6 @@ request
 new
 ModuleLoadRequest
 (
-aURI
 JS
 :
 :
@@ -3690,7 +3693,6 @@ request
 new
 ModuleLoadRequest
 (
-aURI
 moduleType
 aSriMetadata
 aBaseURL
