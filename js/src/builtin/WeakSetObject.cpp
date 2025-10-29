@@ -628,7 +628,7 @@ Steps
 .
 if
 (
-Map
+ValueValueWeakMap
 *
 map
 =
@@ -664,7 +664,7 @@ args
 ;
 if
 (
-Map
+ValueValueWeakMap
 :
 :
 Ptr
@@ -876,7 +876,7 @@ Steps
 .
 if
 (
-Map
+ValueValueWeakMap
 *
 map
 =
@@ -1032,7 +1032,7 @@ obj
 AutoUnsafeCallWithABI
 unsafe
 ;
-Map
+ValueValueWeakMap
 *
 map
 =

@@ -258,7 +258,6 @@ WeakMap
 <
 KeyType
 ValueType
-ZoneAllocPolicy
 >
 ;
 using
