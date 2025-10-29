@@ -1589,6 +1589,17 @@ reset
 (
 )
 ;
+Services
+.
+prefs
+.
+clearUserPref
+(
+IPProtectionWidget
+.
+ADDED_PREF
+)
+;
 }
 )
 ;
