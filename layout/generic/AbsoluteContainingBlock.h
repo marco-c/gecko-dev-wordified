@@ -210,6 +210,9 @@ EnumSet
 AbsPosReflowFlag
 >
 ;
+struct
+StylePositionArea
+;
 /
 *
 *
@@ -822,6 +825,10 @@ const
 LogicalMargin
 &
 aMargin
+const
+StylePositionArea
+&
+aResolvedPositionArea
 LogicalMargin
 &
 aOffsets
