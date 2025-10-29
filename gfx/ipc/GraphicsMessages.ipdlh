@@ -294,9 +294,6 @@ FeatureStatus
 oglCompositing
 ;
 FeatureStatus
-useD2D1
-;
-FeatureStatus
 d3d11HwAngle
 ;
 }

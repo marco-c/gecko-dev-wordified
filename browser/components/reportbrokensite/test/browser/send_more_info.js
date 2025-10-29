@@ -779,9 +779,6 @@ optional
 of
 [
 "
-direct2DEnabled
-"
-"
 directWriteEnabled
 "
 "

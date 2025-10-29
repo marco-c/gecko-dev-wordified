@@ -1072,13 +1072,6 @@ Feature
 :
 :
 OPENGL_COMPOSITING
-gfx
-:
-:
-Feature
-:
-:
-DIRECT2D
 }
 aContentDeviceData
 .
