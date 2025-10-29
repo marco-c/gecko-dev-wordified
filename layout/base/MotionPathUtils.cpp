@@ -4267,14 +4267,14 @@ StylePathCommand
 :
 Move
 (
-StyleByTo
-:
-:
-By
-StyleCoordinatePair
+StyleCommandEndPoint
 <
 StyleCSSFloat
 >
+:
+:
+ByCoordinate
+(
 {
 0
 .
@@ -4283,6 +4283,7 @@ StyleCSSFloat
 .
 0
 }
+)
 )
 )
 ;
