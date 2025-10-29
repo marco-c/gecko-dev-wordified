@@ -54,9 +54,11 @@ MPL
 /
 .
 from
-requests
+taskcluster
+.
+exceptions
 import
-HTTPError
+TaskclusterRestFailure
 from
 taskgraph
 .
@@ -427,7 +429,7 @@ index
 )
     
 except
-KeyError
+TaskclusterRestFailure
 :
         
 #
@@ -503,7 +505,7 @@ yml
 )
     
 except
-HTTPError
+TaskclusterRestFailure
 as
 e
 :
@@ -570,8 +572,6 @@ False
         
 if
 e
-.
-response
 .
 status_code
 =

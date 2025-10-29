@@ -1488,7 +1488,9 @@ ui
                     
 get_root_url
 (
-False
+block_proxy
+=
+True
 )
 "
 tasks
