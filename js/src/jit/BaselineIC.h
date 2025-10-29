@@ -2805,7 +2805,7 @@ frame
 ICFallbackStub
 *
 stub
-MutableHandleValue
+HandleValue
 val
 MutableHandleValue
 res
@@ -2826,7 +2826,7 @@ ICFallbackStub
 stub
 HandleValue
 receiver
-MutableHandleValue
+HandleValue
 val
 MutableHandleValue
 res
