@@ -4200,15 +4200,6 @@ dest
 )
 ;
 void
-movq
-(
-Register
-rj
-Register
-rd
-)
-;
-void
 computeEffectiveAddress
 (
 const

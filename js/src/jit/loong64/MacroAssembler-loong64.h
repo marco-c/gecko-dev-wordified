@@ -3028,15 +3028,6 @@ target
 ;
 }
 void
-movq
-(
-Register
-rj
-Register
-rd
-)
-;
-void
 computeScaledAddress
 (
 const
