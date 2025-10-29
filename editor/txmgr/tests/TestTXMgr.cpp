@@ -132,15 +132,6 @@ include
 "
 mozilla
 /
-Likely
-.
-h
-"
-#
-include
-"
-mozilla
-/
 EditTransactionBase
 .
 h
