@@ -7,9 +7,6 @@ skip
 -
 if
 (
-true
-|
-|
 !
 this
 .
@@ -269,6 +266,8 @@ initialTimeZone
 )
 .
 offsetNanoseconds
++
+0
 )
 ;
 /
@@ -387,6 +386,8 @@ Tokyo
 )
 .
 offsetNanoseconds
++
+0
 )
 ;
 /
@@ -477,6 +478,8 @@ defaultTimeZone
 )
 .
 offsetNanoseconds
++
+0
 )
 ;
 }
