@@ -161,7 +161,7 @@ base_pages
 )
 {
 return
-true
+false
 ;
 }
 base_next_addr
@@ -256,7 +256,7 @@ committed
 pminsize
 ;
 return
-false
+true
 ;
 }
 void
@@ -333,6 +333,7 @@ base_past_addr
 {
 if
 (
+!
 pages_alloc
 (
 csize
