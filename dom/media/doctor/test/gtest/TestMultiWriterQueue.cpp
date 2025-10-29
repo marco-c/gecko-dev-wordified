@@ -147,15 +147,6 @@ include
 "
 mozilla
 /
-Assertions
-.
-h
-"
-#
-include
-"
-mozilla
-/
 gtest
 /
 MozAssertions

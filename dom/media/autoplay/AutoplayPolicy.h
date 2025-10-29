@@ -124,13 +124,9 @@ define
 AutoplayPolicy_h_
 #
 include
-"
-mozilla
-/
-NotNull
-.
-h
-"
+<
+cstdint
+>
 class
 nsIPrincipal
 ;

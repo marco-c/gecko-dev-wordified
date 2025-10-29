@@ -81,15 +81,6 @@ include
 "
 mozilla
 /
-Assertions
-.
-h
-"
-#
-include
-"
-mozilla
-/
 UniquePtr
 .
 h

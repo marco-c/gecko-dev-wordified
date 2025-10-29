@@ -289,15 +289,6 @@ include
 "
 mozilla
 /
-ResultExtensions
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 DOMException

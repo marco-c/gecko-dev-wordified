@@ -191,15 +191,6 @@ h
 #
 include
 "
-mozilla
-/
-MathAlgorithms
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h

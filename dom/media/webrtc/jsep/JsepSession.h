@@ -118,15 +118,6 @@ include
 "
 mozilla
 /
-RefPtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
 UniquePtr
 .
 h

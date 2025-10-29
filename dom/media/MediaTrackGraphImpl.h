@@ -194,15 +194,6 @@ h
 #
 include
 "
-mozilla
-/
-WeakPtr
-.
-h
-"
-#
-include
-"
 nsClassHashtable
 .
 h

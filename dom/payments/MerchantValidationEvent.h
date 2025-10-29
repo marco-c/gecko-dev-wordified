@@ -125,15 +125,6 @@ include
 "
 mozilla
 /
-Result
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 Event

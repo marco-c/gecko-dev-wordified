@@ -125,15 +125,6 @@ include
 "
 mozilla
 /
-Tainting
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 PWebAuthnTransaction

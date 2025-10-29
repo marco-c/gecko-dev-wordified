@@ -203,15 +203,6 @@ include
 "
 mozilla
 /
-MathAlgorithms
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Range
 .
 h

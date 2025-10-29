@@ -138,15 +138,6 @@ h
 #
 include
 "
-mozilla
-/
-MacroForEach
-.
-h
-"
-#
-include
-"
 nsIWeakReference
 .
 h

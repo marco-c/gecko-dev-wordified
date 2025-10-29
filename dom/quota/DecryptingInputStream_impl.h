@@ -186,15 +186,6 @@ include
 "
 mozilla
 /
-ResultExtensions
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Span
 .
 h

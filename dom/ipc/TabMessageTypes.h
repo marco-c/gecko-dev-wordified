@@ -120,15 +120,6 @@ mozilla_dom_TabMessageTypes_h
 #
 define
 mozilla_dom_TabMessageTypes_h
-#
-include
-"
-mozilla
-/
-RefPtr
-.
-h
-"
 namespace
 mozilla
 :

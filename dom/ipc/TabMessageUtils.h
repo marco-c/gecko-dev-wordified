@@ -148,15 +148,6 @@ include
 "
 mozilla
 /
-RefPtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 EffectsInfo

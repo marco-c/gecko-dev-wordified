@@ -141,15 +141,6 @@ include
 "
 mozilla
 /
-Assertions
-.
-h
-"
-#
-include
-"
-mozilla
-/
 DOMEventTargetHelper
 .
 h

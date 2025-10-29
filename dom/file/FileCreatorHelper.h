@@ -123,15 +123,6 @@ mozilla_dom_FileCreatorHelper_h
 #
 include
 "
-mozilla
-/
-RefPtr
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h

@@ -144,15 +144,6 @@ include
 "
 mozilla
 /
-ResultVariant
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPrefs_dom
 .
 h

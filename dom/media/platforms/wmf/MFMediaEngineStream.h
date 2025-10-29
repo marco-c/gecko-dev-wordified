@@ -120,15 +120,6 @@ Mutex
 .
 h
 "
-#
-include
-"
-mozilla
-/
-SPSCQueue
-.
-h
-"
 namespace
 mozilla
 {

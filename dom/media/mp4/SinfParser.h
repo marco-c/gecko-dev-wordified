@@ -79,15 +79,6 @@ h
 #
 include
 "
-mozilla
-/
-ResultExtensions
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h

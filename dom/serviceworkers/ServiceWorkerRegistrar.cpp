@@ -176,15 +176,6 @@ include
 "
 mozilla
 /
-Result
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ResultExtensions
 .
 h

@@ -141,15 +141,6 @@ PlatformDecoderModule
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Vector
-.
-h
-"
 namespace
 mozilla
 {

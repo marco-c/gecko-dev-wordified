@@ -199,15 +199,6 @@ include
 "
 mozilla
 /
-ResultExtensions
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 BindingDeclarations

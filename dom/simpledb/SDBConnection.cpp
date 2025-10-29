@@ -243,15 +243,6 @@ include
 "
 mozilla
 /
-Variant
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 PBackgroundSDBConnection

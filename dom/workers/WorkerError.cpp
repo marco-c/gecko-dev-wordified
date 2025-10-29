@@ -288,15 +288,6 @@ include
 "
 mozilla
 /
-ThreadSafeWeakPtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 BindingDeclarations

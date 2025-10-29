@@ -148,15 +148,6 @@ include
 "
 mozilla
 /
-FunctionRef
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ProfilerMarkers
 .
 h

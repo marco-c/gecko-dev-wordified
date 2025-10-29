@@ -122,13 +122,9 @@ define
 DOM_SMIL_SMILKEYSPLINE_H_
 #
 include
-"
-mozilla
-/
-PodOperations
-.
-h
-"
+<
+cstdint
+>
 namespace
 mozilla
 {

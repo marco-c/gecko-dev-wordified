@@ -169,15 +169,6 @@ include
 "
 mozilla
 /
-Span
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 MLSGroupView
