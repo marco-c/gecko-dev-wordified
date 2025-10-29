@@ -1557,6 +1557,8 @@ continue
             
 if
 mozinfo
+.
+info
 [
 "
 fission
