@@ -380,7 +380,7 @@ dom
 :
 Element
 *
-aElement
+aInput
 )
 ;
 void
@@ -618,7 +618,7 @@ dom
 :
 Element
 *
-mControlledElement
+mFocusedElement
 ;
 RefPtr
 <
