@@ -300,6 +300,15 @@ include
 "
 mozilla
 /
+HelperMacros
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Logging
 .
 h

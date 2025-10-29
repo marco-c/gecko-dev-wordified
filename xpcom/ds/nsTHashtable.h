@@ -224,15 +224,6 @@ include
 "
 mozilla
 /
-PodOperations
-.
-h
-"
-#
-include
-"
-mozilla
-/
 fallible
 .
 h
@@ -5434,6 +5425,7 @@ aKey
 bool
 Contains
 (
+const
 T
 *
 aKey

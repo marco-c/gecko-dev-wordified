@@ -126,15 +126,6 @@ include
 "
 mozilla
 /
-MemoryReporting
-.
-h
-"
-#
-include
-"
-mozilla
-/
 OperatorNewExtensions
 .
 h

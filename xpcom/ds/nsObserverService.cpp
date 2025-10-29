@@ -250,15 +250,6 @@ include
 "
 mozilla
 /
-ResultExtensions
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TimeStamp
 .
 h

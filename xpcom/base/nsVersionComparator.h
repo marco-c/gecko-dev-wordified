@@ -145,15 +145,6 @@ define
 nsVersionComparator_h__
 #
 include
-"
-mozilla
-/
-Char16
-.
-h
-"
-#
-include
 <
 stdlib
 .

@@ -115,6 +115,15 @@ include
 "
 mozilla
 /
+PodOperations
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 gfxVars

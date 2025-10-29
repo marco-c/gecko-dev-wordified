@@ -178,15 +178,6 @@ include
 "
 mozilla
 /
-Poison
-.
-h
-"
-#
-include
-"
-mozilla
-/
 SharedThreadPool
 .
 h

@@ -149,6 +149,15 @@ include
 "
 mozilla
 /
+HelperMacros
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ipc
 /
 ProcessChild

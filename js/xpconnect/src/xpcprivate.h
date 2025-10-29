@@ -884,6 +884,15 @@ include
 "
 mozilla
 /
+PodOperations
+.
+h
+"
+#
+include
+"
+mozilla
+/
 mozalloc
 .
 h

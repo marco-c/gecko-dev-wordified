@@ -175,6 +175,15 @@ include
 "
 mozilla
 /
+PodOperations
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 KeySystemNames

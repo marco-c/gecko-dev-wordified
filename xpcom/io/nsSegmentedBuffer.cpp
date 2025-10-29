@@ -142,15 +142,6 @@ nsThreadUtils
 .
 h
 "
-#
-include
-"
-mozilla
-/
-ScopeExit
-.
-h
-"
 static
 constexpr
 uint32_t

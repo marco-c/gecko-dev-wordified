@@ -119,6 +119,15 @@ include
 "
 mozilla
 /
+HelperMacros
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Tokenizer
 .
 h

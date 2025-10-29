@@ -126,15 +126,6 @@ include
 "
 mozilla
 /
-BinarySearch
-.
-h
-"
-#
-include
-"
-mozilla
-/
 CheckedInt
 .
 h

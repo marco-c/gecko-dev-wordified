@@ -128,6 +128,15 @@ h
 #
 include
 "
+mozilla
+/
+HelperMacros
+.
+h
+"
+#
+include
+"
 nsAppDirectoryServiceDefs
 .
 h
