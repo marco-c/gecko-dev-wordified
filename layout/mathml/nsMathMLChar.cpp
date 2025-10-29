@@ -7259,12 +7259,9 @@ bm
 .
 width
 =
-NSToCoordRound
-(
 metrics
 .
 mAdvanceWidth
-)
 ;
 return
 bm

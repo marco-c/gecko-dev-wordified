@@ -714,7 +714,7 @@ StyleHyphens
 None
 ;
 }
-gfxFloat
+nscoord
 GetHyphenWidth
 (
 )
@@ -807,7 +807,7 @@ return
 60
 ;
 }
-void
+bool
 GetSpacing
 (
 gfxTextRun
@@ -838,6 +838,9 @@ enable
 spacing
 "
 )
+;
+return
+false
 ;
 }
 gfx
@@ -2911,12 +2914,9 @@ m
 .
 width
 =
-NSToCoordRound
-(
 theMetrics
 .
 mAdvanceWidth
-)
 ;
 }
 return
