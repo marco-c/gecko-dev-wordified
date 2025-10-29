@@ -2305,11 +2305,6 @@ command
 help
 =
 description
-action
-=
-"
-store_true
-"
 )
         
 if
@@ -2361,7 +2356,6 @@ group
 .
 add_argument
 (
-                        
 c
 [
 "
@@ -2376,12 +2370,6 @@ c
 description
 "
 ]
-action
-=
-"
-store_true
-"
-                    
 )
         
 parser
@@ -3182,19 +3170,12 @@ group
 .
 add_argument
 (
-                
 subcommand
 help
 =
 subhandler
 .
 description
-action
-=
-"
-store_true
-"
-            
 )
         
 if
