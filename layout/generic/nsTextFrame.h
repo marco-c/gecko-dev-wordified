@@ -1027,7 +1027,7 @@ InitializeForMeasure
 (
 )
 ;
-void
+bool
 GetSpacing
 (
 Range
@@ -1114,7 +1114,7 @@ GetAppUnitsPerDevUnit
 )
 ;
 }
-void
+bool
 GetSpacingInternal
 (
 Range
@@ -1597,7 +1597,7 @@ each
 whitespace
 char
 const
-gfxFloat
+nscoord
 mWordSpacing
 ;
 /
@@ -1607,7 +1607,7 @@ for
 each
 letter
 const
-gfxFloat
+nscoord
 mLetterSpacing
 ;
 /
