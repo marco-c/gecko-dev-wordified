@@ -249,7 +249,7 @@ CallbackHelper
 (
 CaptureEngine
 aCapEng
-uint32_t
+int
 aStreamId
 CamerasParent
 *
@@ -287,7 +287,6 @@ mConfiguration
 )
 {
 }
-;
 void
 SetConfiguration
 (
@@ -384,7 +383,7 @@ CaptureEngine
 mCapEngine
 ;
 const
-uint32_t
+int
 mStreamId
 ;
 const
@@ -940,7 +939,7 @@ DeliverFrameOverIPC
 (
 CaptureEngine
 aCapEngine
-uint32_t
+int
 aStreamId
 const
 TrackingId
@@ -1074,20 +1073,6 @@ EnsureInitialized
 (
 int
 aEngine
-)
-;
-bool
-IsWindowCapturing
-(
-VideoEngine
-*
-aEngine
-uint64_t
-aWindowID
-const
-nsACString
-&
-aUniqueIdUTF8
 )
 ;
 /
@@ -1289,7 +1274,7 @@ std
 :
 map
 <
-uint32_t
+int
 webrtc
 :
 :
