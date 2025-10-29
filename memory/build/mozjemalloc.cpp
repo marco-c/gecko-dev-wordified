@@ -31115,7 +31115,7 @@ non_arena_mapped
 =
 base_stats
 .
-mapped
+mMapped
 ;
 aStats
 -
@@ -31125,7 +31125,7 @@ bookkeeping
 =
 base_stats
 .
-committed
+mCommitted
 ;
 gArenas
 .
@@ -34677,7 +34677,7 @@ Lock
 ;
 sBaseAlloc
 .
-base_mtx
+mMutex
 .
 Lock
 (
@@ -34719,7 +34719,7 @@ Unlock
 ;
 sBaseAlloc
 .
-base_mtx
+mMutex
 .
 Unlock
 (
@@ -34821,7 +34821,7 @@ Init
 ;
 sBaseAlloc
 .
-base_mtx
+mMutex
 .
 Init
 (
