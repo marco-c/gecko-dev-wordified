@@ -18538,7 +18538,7 @@ userContentSheetURL
 ucs
 -
 >
-GetSheetURI
+GetOriginalURI
 (
 )
 ;
@@ -19767,7 +19767,7 @@ SendLoadAndRegisterSheet
 sheet
 -
 >
-GetSheetURI
+GetOriginalURI
 (
 )
 nsIStyleSheetService
@@ -19800,7 +19800,7 @@ SendLoadAndRegisterSheet
 sheet
 -
 >
-GetSheetURI
+GetOriginalURI
 (
 )
 nsIStyleSheetService
@@ -19833,7 +19833,7 @@ SendLoadAndRegisterSheet
 sheet
 -
 >
-GetSheetURI
+GetOriginalURI
 (
 )
 nsIStyleSheetService

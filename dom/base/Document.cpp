@@ -49205,7 +49205,7 @@ i
 ]
 -
 >
-GetSheetURI
+GetOriginalURI
 (
 )
 ;
@@ -49230,9 +49230,11 @@ bEqual
 &
 bEqual
 )
+{
 return
 i
 ;
+}
 }
 return
 -
@@ -49286,9 +49288,11 @@ aSheetURI
 =
 0
 )
+{
 return
 NS_ERROR_INVALID_ARG
 ;
+}
 /
 /
 Loading

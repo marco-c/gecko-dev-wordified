@@ -2079,7 +2079,7 @@ oldURI
 mStyleSheet
 -
 >
-GetSheetURI
+GetOriginalURI
 (
 )
 )
