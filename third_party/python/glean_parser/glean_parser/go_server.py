@@ -1109,11 +1109,9 @@ render
 parser_version
 =
 __version__
-                
 pings
 =
 ping_to_metrics
-                
 events
 =
 event_metrics
