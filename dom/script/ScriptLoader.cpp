@@ -7766,7 +7766,6 @@ ScriptLoadRequest
 (
 aKind
 aURI
-aReferrerPolicy
 fetchOptions
 aIntegrity
 referrer
