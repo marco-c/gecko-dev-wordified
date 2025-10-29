@@ -102,15 +102,6 @@ TX_XSLT_PATTERNS_H
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 txExpandedName
 .
 h

@@ -267,15 +267,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 BasePrincipal
 .
 h

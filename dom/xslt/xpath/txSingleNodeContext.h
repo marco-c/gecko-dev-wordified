@@ -102,15 +102,6 @@ __TX_XPATH_SINGLENODE_CONTEXT
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 txIXPathContext
 .
 h

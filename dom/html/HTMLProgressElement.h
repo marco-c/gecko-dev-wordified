@@ -128,15 +128,6 @@ algorithm
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsAttrValue
 .
 h

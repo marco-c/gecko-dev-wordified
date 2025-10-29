@@ -127,15 +127,6 @@ SVGElement
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 nsresult
 NS_NewSVGMetadataElement
 (

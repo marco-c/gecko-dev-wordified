@@ -130,15 +130,6 @@ h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsWrapperCache
 .
 h

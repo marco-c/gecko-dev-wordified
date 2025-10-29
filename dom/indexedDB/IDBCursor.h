@@ -148,15 +148,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 InitializedOnce
 .
 h

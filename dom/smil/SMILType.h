@@ -123,15 +123,6 @@ DOM_SMIL_SMILTYPE_H_
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nscore
 .
 h

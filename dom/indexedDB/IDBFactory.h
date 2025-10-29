@@ -125,15 +125,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 GlobalTeardownObserver
 .
 h

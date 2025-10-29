@@ -123,15 +123,6 @@ mozilla_dom_HTMLParagraphElement_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsGenericHTMLElement
 .
 h

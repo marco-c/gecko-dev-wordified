@@ -123,15 +123,6 @@ mozilla_dom_HTMLEmbedElement_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsError
 .
 h
