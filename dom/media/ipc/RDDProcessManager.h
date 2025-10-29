@@ -577,9 +577,10 @@ bool
 IsRDDProcessLaunching
 (
 )
+const
 ;
 bool
-IsRDDProcessDestroyed
+IsRDDProcessAlive
 (
 )
 const
