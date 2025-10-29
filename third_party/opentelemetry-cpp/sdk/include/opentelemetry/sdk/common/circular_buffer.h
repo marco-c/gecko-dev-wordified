@@ -1037,7 +1037,11 @@ return
 }
 ;
 }
-auto
+AtomicUniquePtr
+<
+T
+>
+*
 data
 =
 data_
