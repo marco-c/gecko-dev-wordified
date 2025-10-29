@@ -190,7 +190,7 @@ suggest
 .
 quicksuggest
 .
-nonsponsored
+all
 "
 :
 false
@@ -308,7 +308,7 @@ suggest
 .
 quicksuggest
 .
-nonsponsored
+all
 "
 :
 true
@@ -463,7 +463,7 @@ suggest
 .
 quicksuggest
 .
-nonsponsored
+all
 "
 :
 true
