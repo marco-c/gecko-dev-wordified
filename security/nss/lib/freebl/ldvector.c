@@ -862,17 +862,6 @@ version
 031
 *
 /
-EC_DecompressPublicKey
-/
-*
-End
-of
-version
-3
-.
-032
-*
-/
 }
 ;
 const
