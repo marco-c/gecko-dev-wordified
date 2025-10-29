@@ -432,6 +432,16 @@ _
 DataViewSetBigUint64
 )
 \
+_
+(
+DataViewByteLength
+)
+\
+_
+(
+DataViewByteOffset
+)
+\
 \
 _
 (
