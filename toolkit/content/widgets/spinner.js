@@ -263,9 +263,9 @@ optional
 ]
 :
 Hide
-up
+Prev
 &
-down
+Next
 buttons
 *
 {
@@ -498,7 +498,7 @@ querySelector
 spinner
 "
 )
-up
+prev
 :
 spinnerElement
 .
@@ -506,10 +506,10 @@ querySelector
 (
 "
 .
-up
+prev
 "
 )
-down
+next
 :
 spinnerElement
 .
@@ -517,7 +517,7 @@ querySelector
 (
 "
 .
-down
+next
 "
 )
 itemsViewElements
@@ -599,9 +599,9 @@ tabindex
 /
 /
 Remove
-up
+Prev
 /
-down
+Next
 buttons
 from
 the
@@ -644,7 +644,7 @@ this
 .
 elements
 .
-up
+prev
 .
 setAttribute
 (
@@ -661,7 +661,7 @@ this
 .
 elements
 .
-down
+next
 .
 setAttribute
 (
@@ -2354,8 +2354,8 @@ props
 const
 {
 spinner
-up
-down
+prev
+next
 }
 =
 this
@@ -2434,7 +2434,7 @@ event
 target
 =
 =
-up
+prev
 )
 {
 /
@@ -2491,7 +2491,7 @@ event
 target
 =
 =
-down
+next
 )
 {
 event
@@ -2592,7 +2592,7 @@ event
 target
 =
 =
-up
+prev
 |
 |
 event
@@ -2600,7 +2600,7 @@ event
 target
 =
 =
-down
+next
 )
 {
 event
