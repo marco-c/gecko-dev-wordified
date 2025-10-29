@@ -494,14 +494,6 @@ cdm
 bool
 CreateVideoBridge
 (
-mozilla
-:
-:
-ipc
-:
-:
-EndpointProcInfo
-aOtherProcess
 )
 ;
 #
