@@ -226,9 +226,7 @@ build
 None
 HARNESS_TIMEOUT
 =
-5
-*
-60
+30
 TBPL_RETRY
 =
 4
