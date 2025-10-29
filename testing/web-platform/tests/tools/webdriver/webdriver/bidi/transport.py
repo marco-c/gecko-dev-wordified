@@ -157,11 +157,12 @@ self
 url
 :
 str
-                 
+            
 msg_handler
 :
 Callable
 [
+                
 [
 Mapping
 [
@@ -176,7 +177,7 @@ Any
 None
 ]
 ]
-                 
+            
 loop
 :
 Optional
@@ -184,6 +185,20 @@ Optional
 asyncio
 .
 AbstractEventLoop
+]
+=
+None
+            
+on_closed
+:
+Optional
+[
+Callable
+[
+[
+]
+None
+]
 ]
 =
 None
@@ -230,6 +245,12 @@ Any
 =
 [
 ]
+        
+self
+.
+on_closed
+=
+on_closed
         
 if
 loop
@@ -607,6 +628,18 @@ while
 reading
 messages
 "
+)
+            
+if
+self
+.
+on_closed
+:
+                
+self
+.
+on_closed
+(
 )
     
 async
