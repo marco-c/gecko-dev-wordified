@@ -246,6 +246,12 @@ ArraySlice
 \
 _
 (
+ArrayBufferByteLength
+)
+\
+\
+_
+(
 AtomicsCompareExchange
 )
 \
@@ -849,6 +855,12 @@ SetAdd
 _
 (
 SetSize
+)
+\
+\
+_
+(
+SharedArrayBufferByteLength
 )
 \
 \

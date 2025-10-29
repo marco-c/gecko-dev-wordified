@@ -314,6 +314,15 @@ h
 #
 include
 "
+jit
+/
+InlinableNatives
+.
+h
+"
+#
+include
+"
 js
 /
 ArrayBuffer
@@ -2443,7 +2452,7 @@ arraybuffer_proto_properties
 ]
 =
 {
-JS_PSG
+JS_INLINABLE_PSG
 (
 "
 byteLength
@@ -2453,6 +2462,7 @@ ArrayBufferObject
 :
 byteLengthGetter
 0
+ArrayBufferByteLength
 )
 JS_PSG
 (

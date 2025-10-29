@@ -1717,6 +1717,12 @@ case
 InlinableNative
 :
 :
+ArrayBufferByteLength
+:
+case
+InlinableNative
+:
+:
 AtomicsCompareExchange
 :
 case
@@ -2084,6 +2090,12 @@ InlinableNative
 :
 :
 SetSize
+:
+case
+InlinableNative
+:
+:
+SharedArrayBufferByteLength
 :
 case
 InlinableNative
