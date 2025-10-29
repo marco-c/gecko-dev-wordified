@@ -243,15 +243,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 BinarySearch
 .
 h

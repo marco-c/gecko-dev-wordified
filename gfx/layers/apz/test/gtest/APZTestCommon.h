@@ -166,15 +166,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 layers
 /
 GeckoContentController

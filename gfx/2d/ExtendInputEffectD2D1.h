@@ -148,15 +148,6 @@ include
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 /
 /
 {
