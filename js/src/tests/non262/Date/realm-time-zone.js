@@ -4,12 +4,12 @@
 reftest
 |
 skip
-|
-|
-skip
 -
 if
 (
+true
+|
+|
 !
 this
 .
