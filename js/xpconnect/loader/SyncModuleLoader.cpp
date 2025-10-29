@@ -1116,13 +1116,14 @@ HasLoadContext
 aRequest
 -
 >
-mBaseURL
-=
+SetBaseURL
+(
 aRequest
 -
 >
 URI
 (
+)
 )
 ;
 /
