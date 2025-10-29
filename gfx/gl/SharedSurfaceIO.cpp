@@ -120,15 +120,6 @@ include
 "
 mozilla
 /
-DebugOnly
-.
-h
-"
-#
-include
-"
-mozilla
-/
 gfx
 /
 MacIOSurface

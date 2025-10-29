@@ -59,15 +59,6 @@ MPL
 #
 include
 "
-mozilla
-/
-DebugOnly
-.
-h
-"
-#
-include
-"
 jsapi
 -
 tests

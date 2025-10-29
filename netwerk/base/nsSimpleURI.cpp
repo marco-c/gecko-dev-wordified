@@ -94,15 +94,6 @@ MPL
 *
 /
 #
-include
-"
-mozilla
-/
-DebugOnly
-.
-h
-"
-#
 undef
 LOG
 #

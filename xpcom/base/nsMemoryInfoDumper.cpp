@@ -144,15 +144,6 @@ h
 #
 include
 "
-mozilla
-/
-DebugOnly
-.
-h
-"
-#
-include
-"
 nsDumpUtils
 .
 h
