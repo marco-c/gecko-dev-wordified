@@ -65,7 +65,7 @@ prefs
 migration
 from
 version
-2
+3
 to
 4
 .
@@ -78,7 +78,7 @@ strict
 /
 Expected
 version
-2
+3
 default
 -
 branch
@@ -130,7 +130,7 @@ QuickSuggest
 .
 SETTINGS_UI
 .
-OFFLINE_ONLY
+FULL
 "
 suggest
 .
@@ -157,7 +157,7 @@ TEST_OVERRIDES
 {
 migrationVersion
 :
-3
+4
 defaultPrefs
 :
 DEFAULT_PREFS
@@ -189,7 +189,7 @@ tasks
 test
 OFFLINE
 version
-2
+3
 to
 version
 4
@@ -239,14 +239,12 @@ Expected
 quicksuggest
 .
 settingsUi
-is
 not
 set
 on
 the
-user
-branch
-.
+User
+Branch
 add_task
 (
 async
