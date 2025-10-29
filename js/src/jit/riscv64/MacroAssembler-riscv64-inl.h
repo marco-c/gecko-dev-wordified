@@ -4258,10 +4258,10 @@ ma_b
 scratch
 Imm32
 (
-1
+0
 )
 L
-Equal
+NotEqual
 )
 ;
 }
@@ -4310,10 +4310,10 @@ ma_b
 scratch
 Imm32
 (
-1
+0
 )
 L
-Equal
+NotEqual
 )
 ;
 }
