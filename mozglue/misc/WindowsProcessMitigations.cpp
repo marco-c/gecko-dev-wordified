@@ -135,15 +135,6 @@ include
 "
 mozilla
 /
-Assertions
-.
-h
-"
-#
-include
-"
-mozilla
-/
 DynamicallyLinkedFunctionPtr
 .
 h
