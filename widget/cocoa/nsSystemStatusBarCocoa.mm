@@ -307,12 +307,6 @@ NativeNSMenu
 (
 )
 ;
-mStatusItem
-.
-highlightMode
-=
-YES
-;
 /
 /
 We
