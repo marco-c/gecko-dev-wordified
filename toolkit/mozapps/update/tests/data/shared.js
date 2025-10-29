@@ -1408,9 +1408,9 @@ manager
 ;
 1
 "
-"
+Ci
+.
 nsIUpdateManager
-"
 )
 ;
 XPCOMUtils
@@ -1434,9 +1434,9 @@ checker
 ;
 1
 "
-"
+Ci
+.
 nsIUpdateChecker
-"
 )
 ;
 ChromeUtils

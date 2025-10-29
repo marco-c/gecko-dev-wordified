@@ -221,9 +221,9 @@ manager
 ;
 1
 "
-"
+Ci
+.
 nsIServiceWorkerManager
-"
 )
 ;
 XPCOMUtils
@@ -245,9 +245,9 @@ Service
 ;
 1
 "
-"
+Ci
+.
 nsIPushService
-"
 )
 ;
 class

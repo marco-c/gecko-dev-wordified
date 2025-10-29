@@ -69,9 +69,9 @@ clipboardhelper
 ;
 1
 "
-"
+Ci
+.
 nsIClipboardHelper
-"
 )
 ;
 add_setup

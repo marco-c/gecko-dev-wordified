@@ -231,9 +231,9 @@ service
 ;
 1
 "
-"
+Ci
+.
 nsIApplicationUpdateService
-"
 )
 ;
 add_setup

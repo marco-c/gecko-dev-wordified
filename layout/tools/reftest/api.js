@@ -109,9 +109,9 @@ name
 =
 resource
 "
-"
+Ci
+.
 nsISubstitutingProtocolHandler
-"
 )
 ;
 XPCOMUtils
@@ -137,9 +137,9 @@ startup
 ;
 1
 "
-"
+Ci
+.
 amIAddonManagerStartup
-"
 )
 ;
 function

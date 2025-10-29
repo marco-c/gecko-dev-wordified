@@ -79,9 +79,9 @@ protection
 ;
 1
 "
-"
+Ci
+.
 nsIBounceTrackingProtection
-"
 )
 ;
 const

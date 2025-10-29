@@ -253,9 +253,9 @@ service
 ;
 1
 "
-"
+Ci
+.
 nsIHandlerService
-"
 )
 ;
 do_get_profile

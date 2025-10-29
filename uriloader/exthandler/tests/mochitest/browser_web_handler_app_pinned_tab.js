@@ -113,9 +113,9 @@ service
 ;
 1
 "
-"
+Ci
+.
 nsIExternalProtocolService
-"
 )
 ;
 XPCOMUtils
@@ -139,9 +139,9 @@ service
 ;
 1
 "
-"
+Ci
+.
 nsIHandlerService
-"
 )
 ;
 let
