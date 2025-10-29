@@ -190,6 +190,15 @@ aKeyValue
 ;
 static
 void
+KillGPUProcess
+(
+const
+GlobalObject
+&
+)
+;
+static
+void
 CycleCollect
 (
 const
