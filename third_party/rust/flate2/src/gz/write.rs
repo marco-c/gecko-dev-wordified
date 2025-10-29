@@ -807,12 +807,7 @@ let
 buf
 =
 [
-(
 sum
->
->
-0
-)
 as
 u8
 (
@@ -839,12 +834,7 @@ sum
 )
 as
 u8
-(
 amt
->
->
-0
-)
 as
 u8
 (
@@ -2627,7 +2617,6 @@ let
 crc
 =
 (
-(
 self
 .
 crc_bytes
@@ -2636,10 +2625,6 @@ crc_bytes
 ]
 as
 u32
-)
-<
-<
-0
 )
 |
 (
@@ -2694,7 +2679,6 @@ let
 amt
 =
 (
-(
 self
 .
 crc_bytes
@@ -2703,10 +2687,6 @@ crc_bytes
 ]
 as
 u32
-)
-<
-<
-0
 )
 |
 (
@@ -4208,7 +4188,7 @@ default
 ;
 e
 .
-write
+write_all
 (
 STR
 .
@@ -4278,7 +4258,7 @@ unwrap
 ;
 decoder
 .
-write
+write_all
 (
 &
 bytes
@@ -4377,7 +4357,7 @@ default
 ;
 e
 .
-write
+write_all
 (
 STR
 .
@@ -4481,7 +4461,7 @@ len
 {
 decoder
 .
-write
+write_all
 (
 &
 bytes
@@ -4690,7 +4670,7 @@ len
 {
 decoder
 .
-write
+write_all
 (
 &
 bytes
@@ -4925,7 +4905,7 @@ len
 {
 decoder
 .
-write
+write_all
 (
 &
 bytes
@@ -5044,7 +5024,7 @@ default
 ;
 e
 .
-write
+write_all
 (
 STR
 .
@@ -5117,7 +5097,7 @@ unwrap
 ;
 decoder
 .
-write
+write_all
 (
 &
 bytes
@@ -5206,7 +5186,7 @@ default
 ;
 e
 .
-write
+write_all
 (
 STR
 .
@@ -5288,7 +5268,7 @@ unwrap
 ;
 decoder
 .
-write
+write_all
 (
 &
 bytes
@@ -5405,7 +5385,7 @@ default
 ;
 e
 .
-write
+write_all
 (
 STR
 .
@@ -5624,7 +5604,7 @@ default
 ;
 e
 .
-write
+write_all
 (
 STR
 .

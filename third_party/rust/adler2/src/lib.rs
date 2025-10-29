@@ -98,13 +98,13 @@ docs
 .
 rs
 /
-adler
+adler2
 /
-1
+2
 .
 0
 .
-2
+0
 "
 )
 ]
@@ -417,7 +417,7 @@ calculation
 /
 /
 use
-adler
+adler2
 :
 :
 Adler32
@@ -526,7 +526,7 @@ Hash
 /
 /
 use
-adler
+adler2
 :
 :
 Adler32
@@ -858,7 +858,7 @@ Example
 /
 #
 use
-adler
+adler2
 :
 :
 Adler32
@@ -893,7 +893,7 @@ acean
 let
 whole
 =
-adler
+adler2
 :
 :
 adler32_slice
@@ -1019,6 +1019,7 @@ whole
 inline
 ]
 pub
+const
 fn
 from_checksum
 (
@@ -1483,7 +1484,7 @@ Error
 /
 /
 use
-adler
+adler2
 :
 :
 adler32

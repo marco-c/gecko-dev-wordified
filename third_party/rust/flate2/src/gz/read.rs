@@ -2785,7 +2785,6 @@ pos
 u64
 )
 {
-return
 self
 .
 cursor
@@ -2794,7 +2793,6 @@ set_position
 (
 pos
 )
-;
 }
 }
 impl
@@ -2822,7 +2820,6 @@ Result
 usize
 >
 {
-return
 self
 .
 cursor
@@ -2831,7 +2828,6 @@ write
 (
 buf
 )
-;
 }
 fn
 flush
@@ -2848,7 +2844,6 @@ Result
 )
 >
 {
-return
 self
 .
 cursor
@@ -2856,7 +2851,6 @@ cursor
 flush
 (
 )
-;
 }
 }
 impl
@@ -2986,9 +2980,7 @@ _n
 {
 }
 }
-return
 r
-;
 }
 }
 #

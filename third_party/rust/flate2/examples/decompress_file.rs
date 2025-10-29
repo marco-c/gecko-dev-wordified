@@ -232,11 +232,11 @@ Source
 len
 :
 {
+source_len
 :
 ?
 }
 "
-source_len
 )
 ;
 println
