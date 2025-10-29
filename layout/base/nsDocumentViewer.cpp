@@ -14109,8 +14109,6 @@ tbounds
 (
 nsPoint
 (
-0
-0
 )
 aSize
 )
@@ -14218,8 +14216,17 @@ mDocument
 IsResourceDoc
 (
 )
-&
-&
+)
+{
+MOZ_ASSERT_IF
+(
+!
+aContainerView
+mParentWidget
+)
+;
+if
+(
 mParentWidget
 )
 {
@@ -14244,6 +14251,7 @@ mAttachedToParent
 =
 true
 ;
+}
 }
 /
 /
