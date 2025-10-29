@@ -149,6 +149,7 @@ ios
 /
 *
 *
+*
 Example
 local
 IP
@@ -498,6 +499,7 @@ localIPv6Literals
 /
 *
 *
+*
 Test
 function
 list
@@ -572,6 +574,7 @@ hostIdx
 0
 ;
 /
+*
 *
 *
 TestServer
@@ -670,6 +673,7 @@ onStopListening
 }
 ;
 /
+*
 *
 *
 TestFailedStreamCallback
@@ -985,6 +989,7 @@ next
 /
 *
 *
+*
 test_localhost_http_speculative_connect
 *
 *
@@ -1089,6 +1094,7 @@ false
 ;
 }
 /
+*
 *
 *
 test_localhost_https_speculative_connect
@@ -1275,6 +1281,7 @@ layer
 *
 /
 /
+*
 *
 *
 test_hostnames_resolving_to_addresses
@@ -1797,6 +1804,7 @@ next
 ;
 }
 /
+*
 *
 *
 test_speculative_connect_with_host_list
@@ -2657,6 +2665,7 @@ next_test
 /
 *
 *
+*
 next_test
 *
 *
@@ -2754,6 +2763,7 @@ testIdx
 ;
 }
 /
+*
 *
 *
 run_test

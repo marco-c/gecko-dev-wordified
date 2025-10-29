@@ -1,6 +1,7 @@
 /
 *
 *
+*
 This
 tests
 that
@@ -157,7 +158,6 @@ Bug
 for
 details
 .
-*
 *
 /
 add_task

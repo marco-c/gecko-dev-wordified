@@ -2215,6 +2215,7 @@ nsISupportsWeakReference
 /
 *
 *
+*
 Determine
 the
 base
@@ -2225,9 +2226,10 @@ tab
 without
 accounting
 for
-*
 resource
 use
+.
+*
 *
 param
 tab

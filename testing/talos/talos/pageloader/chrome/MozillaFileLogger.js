@@ -360,6 +360,7 @@ PR_EXCL
 /
 *
 *
+*
 Init
 the
 file
@@ -372,6 +373,7 @@ to
 the
 file
 .
+*
 It
 will
 create
@@ -382,7 +384,7 @@ the
 file
 already
 exists
-*
+.
 *
 /
 var

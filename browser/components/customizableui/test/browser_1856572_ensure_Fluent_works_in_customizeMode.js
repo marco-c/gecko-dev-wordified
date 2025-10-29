@@ -89,8 +89,6 @@ opening
 Customize
 Mode
 *
-*
-*
 /
 add_task
 (

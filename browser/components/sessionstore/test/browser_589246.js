@@ -727,6 +727,7 @@ test
 /
 *
 *
+*
 Test
 for
 Bug
@@ -739,6 +740,7 @@ getting
 corrupted
 when
 closing
+*
 and
 reopening
 last
@@ -747,7 +749,6 @@ window
 without
 exiting
 browser
-*
 *
 /
 waitForExplicitFinish
