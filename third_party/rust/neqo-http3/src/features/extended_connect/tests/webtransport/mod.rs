@@ -1165,6 +1165,9 @@ session
 response
 (
 accept
+now
+(
+)
 )
 .
 unwrap
@@ -1859,6 +1862,9 @@ send_data
 (
 wt_stream_id
 data
+now
+(
+)
 )
 .
 unwrap
@@ -2148,6 +2154,9 @@ client
 stream_close_send
 (
 wt_stream_id
+now
+(
+)
 )
 .
 unwrap
@@ -2711,6 +2720,9 @@ wt_stream
 send_data
 (
 data
+now
+(
+)
 )
 .
 unwrap
@@ -2946,6 +2958,9 @@ wt_stream
 .
 stream_close_send
 (
+now
+(
+)
 )
 .
 unwrap
@@ -3474,6 +3489,9 @@ webtransport_close_session
 session_id
 error
 message
+now
+(
+)
 )
 .
 unwrap
@@ -3504,6 +3522,9 @@ close_session
 (
 error
 message
+now
+(
+)
 )
 .
 unwrap
@@ -3623,6 +3644,10 @@ expected_stream_id
 &
 &
 datagram
+.
+as_ref
+(
+)
 =
 =
 expected_dgram
@@ -3705,6 +3730,10 @@ stream_id
 &
 &
 datagram
+.
+as_ref
+(
+)
 =
 =
 expected_dgram

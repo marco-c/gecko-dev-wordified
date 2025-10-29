@@ -638,6 +638,16 @@ _now
 Instant
 )
 {
+let
+now
+=
+Instant
+:
+:
+now
+(
+)
+;
 while
 let
 Some
@@ -853,6 +863,7 @@ stream
 .
 stream_close_send
 (
+now
 )
 .
 unwrap
@@ -984,6 +995,7 @@ stream
 send_data
 (
 chunk
+now
 )
 .
 unwrap
@@ -998,6 +1010,7 @@ stream
 .
 stream_close_send
 (
+now
 )
 .
 unwrap
@@ -1084,6 +1097,7 @@ stream
 send_data
 (
 chunk
+now
 )
 .
 unwrap
@@ -1112,6 +1126,7 @@ stream
 .
 stream_close_send
 (
+now
 )
 .
 unwrap
@@ -1231,6 +1246,7 @@ send_data
 (
 &
 msg
+now
 )
 .
 unwrap
@@ -1241,6 +1257,7 @@ stream
 .
 stream_close_send
 (
+now
 )
 .
 unwrap

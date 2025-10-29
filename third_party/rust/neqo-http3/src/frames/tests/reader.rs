@@ -336,6 +336,9 @@ self
 .
 stream_id
 )
+now
+(
+)
 )
 .
 ok
@@ -1885,6 +1888,9 @@ conn_c
 fr
 .
 stream_id
+)
+now
+(
 )
 )
 ;
@@ -3643,6 +3649,9 @@ fr
 .
 stream_id
 )
+now
+(
+)
 )
 )
 ;
@@ -3838,6 +3847,9 @@ conn_s
 fr
 .
 stream_id
+)
+now
+(
 )
 )
 )
