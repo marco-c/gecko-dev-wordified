@@ -413,7 +413,7 @@ setupService
 isSignedIn
 :
 true
-isEnrolled
+isEnrolledAndEntitled
 :
 true
 }
@@ -444,9 +444,7 @@ true
 ;
 /
 /
-hasEnrolled
-/
-isEnrolled
+isEnrolledAndEntitled
 is
 async
 so
@@ -540,7 +538,7 @@ test_IPProtectionService_enroll
 setupService
 (
 {
-isEnrolled
+isEnrolledAndEntitled
 :
 false
 canEnroll
@@ -581,7 +579,6 @@ true
 }
 )
 ;
-await
 IPProtectionService
 .
 updateState
@@ -610,7 +607,7 @@ enrolling
 setupService
 (
 {
-isEnrolled
+isEnrolledAndEntitled
 :
 true
 }
@@ -700,7 +697,7 @@ test_IPProtectionService_enroll_when_enrolled_in_experiment
 setupService
 (
 {
-isEnrolled
+isEnrolledAndEntitled
 :
 false
 isSignedIn
@@ -738,7 +735,7 @@ waitForWidgetAdded
 setupService
 (
 {
-isEnrolled
+isEnrolledAndEntitled
 :
 true
 }
@@ -846,7 +843,7 @@ test_IPProtectionService_updateEntitlement_in_experiment
 setupService
 (
 {
-isEnrolled
+isEnrolledAndEntitled
 :
 false
 isSignedIn
@@ -884,7 +881,7 @@ waitForWidgetAdded
 setupService
 (
 {
-isEnrolled
+isEnrolledAndEntitled
 :
 true
 }
@@ -962,7 +959,7 @@ setupService
 isSignedIn
 :
 true
-isEnrolled
+isEnrolledAndEntitled
 :
 true
 }
@@ -1044,7 +1041,7 @@ setupService
 isSignedIn
 :
 true
-isEnrolled
+isEnrolledAndEntitled
 :
 true
 }
@@ -1225,7 +1222,6 @@ alpha
 }
 )
 ;
-await
 IPProtectionService
 .
 updateState
@@ -1496,7 +1492,7 @@ setupService
 isSignedIn
 :
 true
-isEnrolled
+isEnrolledAndEntitled
 :
 true
 canEnroll
@@ -1523,7 +1519,6 @@ alpha
 }
 )
 ;
-await
 IPProtectionService
 .
 updateState
@@ -1543,9 +1538,9 @@ openPanel
 Mock
 a
 failure
-IPProtectionService
+IPPEnrollAndEntitleManager
 .
-resetAccount
+resetEntitlement
 (
 )
 ;
@@ -1689,7 +1684,6 @@ alpha
 }
 )
 ;
-await
 IPProtectionService
 .
 updateState
@@ -1828,9 +1822,6 @@ false
 }
 )
 ;
-let
-signedOut
-=
 IPProtectionService
 .
 updateState
@@ -1838,15 +1829,7 @@ updateState
 )
 ;
 await
-Promise
-.
-all
-(
-[
-signedOut
 vpnOffPromise
-]
-)
 ;
 Assert
 .
@@ -2004,7 +1987,7 @@ alpha
 setupService
 (
 {
-isEnrolled
+isEnrolledAndEntitled
 :
 true
 }
@@ -2259,7 +2242,7 @@ enabled
 setupService
 (
 {
-isEnrolled
+isEnrolledAndEntitled
 :
 true
 isSignedIn
@@ -2309,7 +2292,7 @@ created_at
 )
 ;
 await
-IPProtectionService
+IPPEnrollAndEntitleManager
 .
 refetchEntitlement
 (
@@ -2464,9 +2447,9 @@ hasUpgraded
 =
 false
 await
-IPProtectionService
+IPPEnrollAndEntitleManager
 .
-updateState
+refetchEntitlement
 (
 )
 ;

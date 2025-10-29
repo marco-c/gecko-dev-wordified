@@ -1237,7 +1237,6 @@ cleanupService
 (
 )
 ;
-await
 IPProtectionService
 .
 updateState
@@ -1318,16 +1317,16 @@ setupService
 isSignedIn
 :
 true
-isEnrolled
+isEnrolledAndEntitled
 :
 true
 }
 )
 ;
 await
-IPProtectionService
+IPPEnrollAndEntitleManager
 .
-updateState
+refetchEntitlement
 (
 )
 ;

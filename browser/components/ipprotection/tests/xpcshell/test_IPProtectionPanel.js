@@ -116,7 +116,7 @@ mjs
 ;
 const
 {
-IPPEnrollHelper
+IPPEnrollAndEntitleManager
 }
 =
 ChromeUtils
@@ -133,7 +133,7 @@ modules
 /
 ipprotection
 /
-IPPEnrollHelper
+IPPEnrollAndEntitleManager
 .
 sys
 .
@@ -681,9 +681,9 @@ sandbox
 .
 stub
 (
-IPPEnrollHelper
+IPPEnrollAndEntitleManager
 "
-isEnrolled
+isEnrolledAndEntitled
 "
 )
 .
@@ -816,7 +816,6 @@ IPProtectionStates
 READY
 )
 ;
-await
 IPProtectionService
 .
 updateState
@@ -995,7 +994,6 @@ IPProtectionStates
 UNAVAILABLE
 )
 ;
-await
 IPProtectionService
 .
 updateState
@@ -1144,9 +1142,9 @@ sandbox
 .
 stub
 (
-IPPEnrollHelper
+IPPEnrollAndEntitleManager
 "
-isEnrolled
+isEnrolledAndEntitled
 "
 )
 .
@@ -1270,7 +1268,6 @@ helloworld
 }
 )
 ;
-await
 IPProtectionService
 .
 updateState
