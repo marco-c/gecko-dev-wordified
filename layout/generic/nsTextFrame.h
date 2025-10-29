@@ -1039,7 +1039,7 @@ aSpacing
 const
 final
 ;
-nscoord
+gfxFloat
 GetHyphenWidth
 (
 )
@@ -1597,7 +1597,7 @@ each
 whitespace
 char
 const
-nscoord
+gfxFloat
 mWordSpacing
 ;
 /
@@ -1607,7 +1607,7 @@ for
 each
 letter
 const
-nscoord
+gfxFloat
 mLetterSpacing
 ;
 /
@@ -1644,11 +1644,11 @@ gfxFloat
 mMinTabAdvance
 ;
 mutable
-nscoord
+gfxFloat
 mHyphenWidth
 ;
 mutable
-nscoord
+gfxFloat
 mOffsetFromBlockOriginForTabs
 ;
 /
@@ -6070,7 +6070,6 @@ mozilla
 StyleSimpleShadow
 &
 aShadowDetails
-const
 gfxRect
 &
 aBoundingBox
