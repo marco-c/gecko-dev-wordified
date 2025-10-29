@@ -3094,6 +3094,9 @@ coseAlgos
 extensions
 authSelection
 attestation
+aOptions
+.
+mHints
 )
 ;
 /
@@ -5044,6 +5047,9 @@ aOptions
 .
 mUserVerification
 aConditionallyMediated
+aOptions
+.
+mHints
 )
 ;
 /
