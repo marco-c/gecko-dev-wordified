@@ -808,7 +808,7 @@ GetActiveSessionHistoryEntry
 )
 ;
 void
-SetActiveSessionHistoryEntry
+SetActiveSessionHistoryEntryFromBFCache
 (
 SessionHistoryEntry
 *

@@ -8519,7 +8519,7 @@ back
 aBrowsingContext
 -
 >
-SetActiveSessionHistoryEntry
+SetActiveSessionHistoryEntryFromBFCache
 (
 aEntry
 )
@@ -8527,7 +8527,7 @@ aEntry
 loadingBC
 -
 >
-SetActiveSessionHistoryEntry
+SetActiveSessionHistoryEntryFromBFCache
 (
 nullptr
 )
