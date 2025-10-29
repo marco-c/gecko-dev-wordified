@@ -354,9 +354,9 @@ true
 (
 )
 ;
-Unused
-<
-<
+(
+void
+)
 clearOnShutdownSetup
 ;
 }

@@ -424,9 +424,9 @@ if
 m3PCBExceptionService
 )
 {
-Unused
-<
-<
+(
+void
+)
 m3PCBExceptionService
 -
 >

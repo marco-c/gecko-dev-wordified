@@ -167,15 +167,6 @@ nsNetUtil
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Unused
-.
-h
-"
 namespace
 mozilla
 {

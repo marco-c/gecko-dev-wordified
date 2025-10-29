@@ -233,9 +233,9 @@ response
 mResultCode
 ;
 }
-Unused
-<
-<
+(
+void
+)
 PQuotaRequestParent
 :
 :

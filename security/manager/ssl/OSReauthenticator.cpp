@@ -594,12 +594,9 @@ nf
 securitybaseapi
 -
 gettokeninformation
-mozilla
-:
-:
-Unused
-<
-<
+(
+void
+)
 GetTokenInformation
 (
 token

@@ -8465,9 +8465,9 @@ childTimeoutS
 *
 PR_MSEC_PER_SEC
 ;
-Unused
-<
-<
+(
+void
+)
 NS_NewTimerWithFuncCallback
 (
 getter_AddRefs

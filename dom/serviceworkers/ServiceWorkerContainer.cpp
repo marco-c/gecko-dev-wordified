@@ -1876,9 +1876,9 @@ any
 error
 message
 .
-Unused
-<
-<
+(
+void
+)
 GetGlobalIfValid
 (
 aRv
@@ -3184,9 +3184,9 @@ find
 a
 registration
 .
-Unused
-<
-<
+(
+void
+)
 self
 -
 >

@@ -698,9 +698,9 @@ warn
 if
 not
 .
-Unused
-<
-<
+(
+void
+)
 NS_WARN_IF
 (
 aImages

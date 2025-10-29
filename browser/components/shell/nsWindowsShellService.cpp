@@ -8809,9 +8809,9 @@ hFindFile
 INVALID_HANDLE_VALUE
 )
 {
-Unused
-<
-<
+(
+void
+)
 NS_WARN_IF
 (
 GetLastError
@@ -10366,9 +10366,9 @@ hFindFile
 INVALID_HANDLE_VALUE
 )
 {
-Unused
-<
-<
+(
+void
+)
 NS_WARN_IF
 (
 GetLastError

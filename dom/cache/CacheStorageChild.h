@@ -321,9 +321,9 @@ CacheOpArgs
 aArgs
 )
 {
-Unused
-<
-<
+(
+void
+)
 SendPCacheOpConstructor
 (
 new

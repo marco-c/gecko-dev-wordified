@@ -7927,9 +7927,9 @@ if
 innerWindow
 )
 {
-Unused
-<
-<
+(
+void
+)
 innerWindow
 -
 >

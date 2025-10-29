@@ -157,12 +157,6 @@ mozilla
 :
 UniquePtr
 ;
-using
-mozilla
-:
-:
-Unused
-;
 class
 txEarlyEvalContext
 :
@@ -1686,9 +1680,9 @@ setNodeTest
 unionTest
 )
 ;
-Unused
-<
-<
+(
+void
+)
 owner
 .
 release

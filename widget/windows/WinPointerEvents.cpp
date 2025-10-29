@@ -577,9 +577,9 @@ pointerType
 =
 PT_POINTER
 ;
-Unused
-<
-<
+(
+void
+)
 GetPointerType
 (
 aPointerId

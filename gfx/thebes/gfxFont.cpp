@@ -6962,9 +6962,9 @@ risk
 of
 races
 .
-Unused
-<
-<
+(
+void
+)
 mFontEntry
 -
 >
@@ -19988,9 +19988,9 @@ caching
 it
 .
 )
-Unused
-<
-<
+(
+void
+)
 mColorGlyphCache
 -
 >

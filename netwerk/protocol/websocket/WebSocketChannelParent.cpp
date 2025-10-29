@@ -2369,9 +2369,9 @@ if
 mChannel
 )
 {
-Unused
-<
-<
+(
+void
+)
 mChannel
 -
 >

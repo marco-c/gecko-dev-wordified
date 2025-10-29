@@ -1157,9 +1157,9 @@ back
 to
 the
 child
-Unused
-<
-<
+(
+void
+)
 SendOnStunAddrsAvailable
 (
 addrs
@@ -1218,9 +1218,9 @@ back
 to
 the
 child
-Unused
-<
-<
+(
+void
+)
 SendOnMDNSQueryComplete
 (
 hostname

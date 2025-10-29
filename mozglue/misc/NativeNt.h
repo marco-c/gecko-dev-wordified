@@ -8508,9 +8508,9 @@ operaion
 will
 fail
 .
-Unused
-<
-<
+(
+void
+)
 EnsureRemoteImagebase
 (
 )

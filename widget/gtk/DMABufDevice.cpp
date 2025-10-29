@@ -1092,9 +1092,9 @@ else
 nsCString
 failureId
 ;
-Unused
-<
-<
+(
+void
+)
 sDMABufDevice
 -
 >

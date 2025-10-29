@@ -517,9 +517,9 @@ if
 mMemoryDatabaseConnection
 )
 {
-Unused
-<
-<
+(
+void
+)
 mMemoryDatabaseConnection
 -
 >
@@ -587,9 +587,9 @@ self
 mDiskDatabaseConnection
 )
 {
-Unused
-<
-<
+(
+void
+)
 self
 -
 >

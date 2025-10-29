@@ -2721,9 +2721,9 @@ nsIEventTarget
 >
 target
 ;
-Unused
-<
-<
+(
+void
+)
 gHttpHandler
 -
 >

@@ -408,9 +408,9 @@ mTeardownStarted
 =
 true
 ;
-Unused
-<
-<
+(
+void
+)
 SendTeardown
 (
 )

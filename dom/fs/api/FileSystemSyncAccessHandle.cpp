@@ -992,9 +992,9 @@ closing
 /
 process
 .
-Unused
-<
-<
+(
+void
+)
 result
 -
 >
@@ -1121,9 +1121,9 @@ closing
 /
 process
 .
-Unused
-<
-<
+(
+void
+)
 tmp
 -
 >

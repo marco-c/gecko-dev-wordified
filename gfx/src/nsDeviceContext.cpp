@@ -1811,9 +1811,9 @@ if
 mDeviceContextSpec
 )
 {
-Unused
-<
-<
+(
+void
+)
 mDeviceContextSpec
 -
 >

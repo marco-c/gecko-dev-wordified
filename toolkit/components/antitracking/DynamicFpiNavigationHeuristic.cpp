@@ -1139,9 +1139,9 @@ OriginAttributesRef
 )
 )
 ;
-Unused
-<
-<
+(
+void
+)
 StorageAccessAPIHelper
 :
 :

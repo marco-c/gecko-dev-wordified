@@ -621,9 +621,9 @@ if
 mChannel
 )
 {
-Unused
-<
-<
+(
+void
+)
 SendOnClose
 (
 aReason

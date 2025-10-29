@@ -320,9 +320,6 @@ Release
 (
 )
 .
-(
-void
-)
 RefPtr
 <
 T
@@ -333,7 +330,7 @@ forget
 (
 )
 .
-take
+leak
 (
 )
 ;
