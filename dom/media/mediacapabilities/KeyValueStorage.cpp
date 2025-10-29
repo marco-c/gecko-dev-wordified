@@ -925,9 +925,9 @@ value
 =
 0
 ;
-(
-void
-)
+Unused
+<
+<
 aResult
 -
 >

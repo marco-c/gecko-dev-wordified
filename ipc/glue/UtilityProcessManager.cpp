@@ -856,9 +856,9 @@ p
 mProcessParent
 )
 {
-(
-void
-)
+Unused
+<
+<
 p
 -
 >
@@ -1502,9 +1502,9 @@ p
 mQueuedPrefs
 )
 {
-(
-void
-)
+Unused
+<
+<
 NS_WARN_IF
 (
 !

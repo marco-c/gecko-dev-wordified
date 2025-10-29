@@ -5119,9 +5119,9 @@ clone
 =
 nullptr
 ;
-(
-void
-)
+Unused
+<
+<
 Clone
 (
 &
@@ -5954,9 +5954,9 @@ clone
 =
 nullptr
 ;
-(
-void
-)
+Unused
+<
+<
 Clone
 (
 &

@@ -414,9 +414,9 @@ Debug
 nsAutoCString
 entryString
 ;
-(
-void
-)
+Unused
+<
+<
 aEntry
 -
 >
@@ -1159,9 +1159,9 @@ Debug
 nsAutoCString
 entryString
 ;
-(
-void
-)
+Unused
+<
+<
 entry
 -
 >

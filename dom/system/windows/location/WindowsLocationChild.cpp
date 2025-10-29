@@ -1436,9 +1436,9 @@ created
 in
 RecvRegisterForReport
 .
-(
-void
-)
+Unused
+<
+<
 NS_WARN_IF
 (
 FAILED

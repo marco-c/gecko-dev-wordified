@@ -126,9 +126,9 @@ CanSend
 )
 )
 {
-(
-void
-)
+Unused
+<
+<
 SendShutdown
 (
 )

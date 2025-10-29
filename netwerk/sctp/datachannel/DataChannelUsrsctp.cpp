@@ -886,9 +886,12 @@ erase
 aId
 )
 ;
-(
-void
-)
+mozilla
+:
+:
+Unused
+<
+<
 removed
 ;
 MOZ_DIAGNOSTIC_ASSERT

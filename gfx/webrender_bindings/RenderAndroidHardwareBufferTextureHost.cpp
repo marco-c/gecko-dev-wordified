@@ -396,9 +396,9 @@ is
 owned
 by
 EGLSync
-(
-void
-)
+Unused
+<
+<
 fenceFd
 .
 release

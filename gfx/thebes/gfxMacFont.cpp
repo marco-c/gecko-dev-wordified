@@ -4260,13 +4260,12 @@ get
 )
 )
 {
+Unused
+<
+<
 newScaledFont
 .
 forget
-(
-)
-.
-leak
 (
 )
 ;

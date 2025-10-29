@@ -1391,9 +1391,9 @@ building
 the
 path
 .
-(
-void
-)
+Unused
+<
+<
 GetPrimaryFrame
 (
 FlushType
@@ -2139,9 +2139,9 @@ FlushType
 :
 Style
 ;
-(
-void
-)
+Unused
+<
+<
 GetPrimaryFrame
 (
 flushType

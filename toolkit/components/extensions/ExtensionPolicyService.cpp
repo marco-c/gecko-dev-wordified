@@ -2737,9 +2737,9 @@ IgnoreErrors
 )
 )
 ;
-(
-void
-)
+Unused
+<
+<
 NS_WARN_IF
 (
 !
@@ -4616,9 +4616,9 @@ UpdateRestrictedDomains
 nsAutoCString
 eltsString
 ;
-(
-void
-)
+Unused
+<
+<
 Preferences
 :
 :

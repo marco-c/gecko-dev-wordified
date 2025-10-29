@@ -4029,9 +4029,9 @@ DictionaryCacheEntry
 aClosure
 )
 ;
-(
-void
-)
+Unused
+<
+<
 self
 -
 >
@@ -6724,9 +6724,9 @@ DictionaryCacheEntry
 >
 newEntry
 ;
-(
-void
-)
+Unused
+<
+<
 mDictionaryCache
 .
 WithEntryHandle

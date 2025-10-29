@@ -368,9 +368,9 @@ mEmbedderAccessibleID
 =
 aID
 ;
-(
-void
-)
+Unused
+<
+<
 SendSetEmbedderAccessible
 (
 aDoc

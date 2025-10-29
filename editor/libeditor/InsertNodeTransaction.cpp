@@ -416,9 +416,9 @@ child
 at
 offset
 .
-(
-void
-)
+Unused
+<
+<
 mPointToInsert
 .
 GetChild

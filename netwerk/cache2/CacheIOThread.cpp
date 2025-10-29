@@ -879,13 +879,16 @@ ThreadFunc
 (
 )
 .
+Unused
+<
+<
 self
 .
 forget
 (
 )
 .
-leak
+take
 (
 )
 ;

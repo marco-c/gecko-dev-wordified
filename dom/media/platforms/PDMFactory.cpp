@@ -1816,9 +1816,9 @@ the
 main
 thread
 .
-(
-void
-)
+Unused
+<
+<
 BrowserTabsRemoteAutostart
 (
 )

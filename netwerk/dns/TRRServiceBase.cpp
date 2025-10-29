@@ -1897,9 +1897,9 @@ in
 TRRServiceChannel
 again
 .
-(
-void
-)
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -2351,9 +2351,9 @@ aCallback
 ;
 }
 ;
-(
-void
-)
+Unused
+<
+<
 NS_DispatchBackgroundTask
 (
 NS_NewRunnableFunction

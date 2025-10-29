@@ -10517,9 +10517,9 @@ nsIURI
 >
 newURI
 ;
-(
-void
-)
+Unused
+<
+<
 NS_GetFinalChannelURI
 (
 aNewChannel

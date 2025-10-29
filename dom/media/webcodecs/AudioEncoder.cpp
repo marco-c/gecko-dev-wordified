@@ -2748,9 +2748,9 @@ dtor
 this
 )
 ;
-(
-void
-)
+Unused
+<
+<
 ResetInternal
 (
 NS_ERROR_DOM_ABORT_ERR

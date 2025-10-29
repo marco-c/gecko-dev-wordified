@@ -5144,9 +5144,9 @@ mess
 nsAutoCString
 contentTypeHdr
 ;
-(
-void
-)
+Unused
+<
+<
 httpChannel
 -
 >
@@ -5432,9 +5432,9 @@ sure
 nsAutoCString
 contentEncoding
 ;
-(
-void
-)
+Unused
+<
+<
 httpChannel
 -
 >

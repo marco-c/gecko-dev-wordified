@@ -1245,9 +1245,9 @@ and
 pass
 NonSystem
 .
-(
-void
-)
+Unused
+<
+<
 DispatchEvent
 (
 aEvent
@@ -1307,9 +1307,9 @@ and
 pass
 NonSystem
 .
-(
-void
-)
+Unused
+<
+<
 DispatchEvent
 (
 aEvent

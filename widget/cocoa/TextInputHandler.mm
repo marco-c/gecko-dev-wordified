@@ -12734,9 +12734,12 @@ kungFuDeathGrip
 mWidget
 )
 ;
-(
-void
-)
+mozilla
+:
+:
+Unused
+<
+<
 kungFuDeathGrip
 ;
 /

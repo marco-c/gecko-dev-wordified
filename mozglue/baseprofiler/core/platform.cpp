@@ -17061,9 +17061,9 @@ Create
 lock
 )
 ;
-(
-void
-)
+Unused
+<
+<
 locked_register_thread
 (
 lock

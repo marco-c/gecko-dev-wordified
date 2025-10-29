@@ -13576,9 +13576,9 @@ XPCOMShutdownFinal
 )
 )
 {
-(
-void
-)
+Unused
+<
+<
 aImage
 ;
 return
