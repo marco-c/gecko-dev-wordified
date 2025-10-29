@@ -4928,13 +4928,6 @@ uint64_t
 static
 const
 unsigned
-MaxStringBytes
-=
-100000
-;
-static
-const
-unsigned
 MaxModuleBytes
 =
 1024
