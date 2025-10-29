@@ -941,11 +941,11 @@ enabled
 regardless
 of
 the
-sponsored
+all
 and
 /
 /
-nonsponsored
+sponsored
 Suggest
 prefs
 .
@@ -1026,7 +1026,7 @@ daysUntilStart
 for
 (
 let
-sponsored
+all
 of
 [
 true
@@ -1037,7 +1037,7 @@ false
 for
 (
 let
-nonsponsored
+sponsored
 of
 [
 true
@@ -1049,9 +1049,10 @@ info
 (
 "
 Doing
-sponsored
+all
 /
-nonsponsored
+sponsored
+pref
 test
 :
 "
@@ -1061,8 +1062,8 @@ JSON
 stringify
 (
 {
+all
 sponsored
-nonsponsored
 }
 )
 )
@@ -1076,9 +1077,9 @@ suggest
 .
 quicksuggest
 .
-sponsored
+all
 "
-sponsored
+all
 )
 ;
 UrlbarPrefs
@@ -1090,9 +1091,9 @@ suggest
 .
 quicksuggest
 .
-nonsponsored
+sponsored
 "
-nonsponsored
+sponsored
 )
 ;
 await
@@ -1120,7 +1121,7 @@ suggest
 .
 quicksuggest
 .
-sponsored
+all
 "
 )
 ;
@@ -1133,7 +1134,7 @@ suggest
 .
 quicksuggest
 .
-nonsponsored
+sponsored
 "
 )
 ;
@@ -1741,7 +1742,7 @@ it
 depends
 on
 the
-nonsponsored
+all
 pref
 .
 UrlbarPrefs
@@ -1753,7 +1754,7 @@ suggest
 .
 quicksuggest
 .
-nonsponsored
+all
 "
 true
 )
@@ -1988,7 +1989,7 @@ suggest
 .
 quicksuggest
 .
-nonsponsored
+all
 "
 )
 ;
