@@ -222,8 +222,12 @@ NS_INLINE_DECL_REFCOUNTING
 (
 nsViewManager
 )
+explicit
 nsViewManager
 (
+nsDeviceContext
+*
+aContext
 )
 ;
 /
