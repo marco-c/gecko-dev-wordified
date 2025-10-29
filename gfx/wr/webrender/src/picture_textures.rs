@@ -76,6 +76,7 @@ api
 ImageFormat
 ImageBufferKind
 DebugFlags
+TextureCacheCategory
 }
 ;
 use
@@ -108,7 +109,6 @@ CacheTextureId
 TextureUpdateList
 Swizzle
 TextureCacheAllocInfo
-TextureCacheCategory
 TextureSource
 FrameStamp
 FrameId
