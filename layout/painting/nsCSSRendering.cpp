@@ -33927,14 +33927,6 @@ x
 =
 aParams
 .
-sidewaysLeft
-?
-aParams
-.
-trimRight
-:
-aParams
-.
 trimLeft
 ;
 r
