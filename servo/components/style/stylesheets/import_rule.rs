@@ -676,6 +676,11 @@ s
 >
 s
 .
+contents
+(
+guard
+)
+.
 rules
 (
 guard

@@ -983,6 +983,11 @@ rule
 in
 stylesheet
 .
+contents
+(
+guard
+)
+.
 effective_rules
 (
 device

@@ -555,10 +555,7 @@ self
 rule_list
 :
 :
-{
 CssRules
-CssRulesHelpers
-}
 ;
 pub
 use
