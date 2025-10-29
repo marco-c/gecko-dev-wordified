@@ -2023,6 +2023,8 @@ to
 detect
 that
 .
+if
+(
 RefPtr
 <
 nsPresContext
@@ -2035,12 +2037,10 @@ aDocShell
 GetPresContext
 (
 )
-;
-if
-(
-pc
 )
 {
+if
+(
 nsCOMPtr
 <
 nsIWidget
@@ -2053,10 +2053,6 @@ pc
 GetRootWidget
 (
 )
-;
-if
-(
-widget
 )
 {
 enabled

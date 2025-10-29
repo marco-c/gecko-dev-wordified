@@ -9706,6 +9706,8 @@ NS_UNCONSTRAINEDSIZE
 )
 ;
 }
+if
+(
 nsView
 *
 view
@@ -9716,10 +9718,6 @@ frame
 GetView
 (
 )
-;
-if
-(
-view
 )
 {
 nsIWidget
@@ -9735,9 +9733,6 @@ GetWidget
 ;
 if
 (
-frameWidget
-&
-&
 frameWidget
 =
 =

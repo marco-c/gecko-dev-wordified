@@ -2924,11 +2924,6 @@ do_AddRef
 presShell
 -
 >
-GetViewManager
-(
-)
--
->
 GetRootWidget
 (
 )
