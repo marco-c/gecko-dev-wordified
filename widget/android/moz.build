@@ -289,9 +289,6 @@ ImageDecoder
 MediaDrmProxy
 "
 "
-MozLog
-"
-"
 PanZoomController
 "
 "
@@ -653,11 +650,6 @@ cpp
 "
 "
 InProcessAndroidCompositorWidget
-.
-cpp
-"
-"
-MozLogSupport
 .
 cpp
 "
