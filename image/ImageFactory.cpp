@@ -106,15 +106,6 @@ algorithm
 #
 include
 "
-mozilla
-/
-Likely
-.
-h
-"
-#
-include
-"
 nsIChannel
 .
 h

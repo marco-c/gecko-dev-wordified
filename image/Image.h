@@ -149,15 +149,6 @@ include
 "
 mozilla
 /
-ThreadSafeWeakPtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TimeStamp
 .
 h
