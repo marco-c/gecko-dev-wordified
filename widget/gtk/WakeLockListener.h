@@ -229,7 +229,14 @@ nsRefPtrHashtable
 nsStringHashKey
 WakeLockTopic
 >
-mTopics
+mForegroundTopics
+;
+nsRefPtrHashtable
+<
+nsStringHashKey
+WakeLockTopic
+>
+mBackgroundTopics
 ;
 }
 ;
