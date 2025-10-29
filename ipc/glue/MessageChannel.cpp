@@ -166,6 +166,15 @@ include
 "
 mozilla
 /
+DebugOnly
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Fuzzing
 .
 h

@@ -128,6 +128,15 @@ include
 "
 mozilla
 /
+DebugOnly
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PlatformMutex
 .
 h

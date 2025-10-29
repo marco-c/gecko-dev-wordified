@@ -272,6 +272,15 @@ include
 "
 mozilla
 /
+DebugOnly
+.
+h
+"
+#
+include
+"
+mozilla
+/
 DeclarationBlock
 .
 h

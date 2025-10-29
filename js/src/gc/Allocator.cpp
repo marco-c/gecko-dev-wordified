@@ -122,6 +122,15 @@ include
 "
 mozilla
 /
+DebugOnly
+.
+h
+"
+#
+include
+"
+mozilla
+/
 OperatorNewExtensions
 .
 h

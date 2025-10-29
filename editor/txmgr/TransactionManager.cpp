@@ -114,6 +114,15 @@ include
 "
 mozilla
 /
+DebugOnly
+.
+h
+"
+#
+include
+"
+mozilla
+/
 HTMLEditor
 .
 h

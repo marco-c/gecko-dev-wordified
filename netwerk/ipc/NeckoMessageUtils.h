@@ -102,6 +102,15 @@ mozilla_net_NeckoMessageUtils_h
 #
 include
 "
+mozilla
+/
+DebugOnly
+.
+h
+"
+#
+include
+"
 ipc
 /
 EnumSerializer

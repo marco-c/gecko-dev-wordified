@@ -119,6 +119,15 @@ OggCodecStore
 .
 h
 "
+#
+include
+"
+mozilla
+/
+DebugOnly
+.
+h
+"
 namespace
 mozilla
 {
