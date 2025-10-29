@@ -52,9 +52,9 @@ engine
 ;
 1
 "
-"
+Ci
+.
 mozISpellCheckingEngine
-"
 )
 ;
 add_setup

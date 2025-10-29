@@ -107,9 +107,9 @@ history
 ;
 1
 "
-"
+Ci
+.
 mozIAsyncHistory
-"
 )
 ;
 async

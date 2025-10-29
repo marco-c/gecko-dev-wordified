@@ -270,9 +270,9 @@ Service
 ;
 1
 "
-"
+Ci
+.
 nsIPushService
-"
 )
 ;
 const

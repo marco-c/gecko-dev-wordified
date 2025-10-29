@@ -127,9 +127,9 @@ service
 ;
 1
 "
-"
+Ci
+.
 nsIHandlerService
-"
 )
 ;
 XPCOMUtils
@@ -155,9 +155,9 @@ service
 ;
 1
 "
-"
+Ci
+.
 nsIExternalProtocolService
-"
 )
 ;
 const

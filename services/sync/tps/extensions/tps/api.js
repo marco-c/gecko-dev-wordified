@@ -113,9 +113,9 @@ name
 =
 resource
 "
-"
+Ci
+.
 nsISubstitutingProtocolHandler
-"
 )
 ;
 async

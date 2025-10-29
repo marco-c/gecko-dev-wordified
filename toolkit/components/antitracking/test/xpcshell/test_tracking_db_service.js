@@ -123,9 +123,9 @@ service
 ;
 1
 "
-"
+Ci
+.
 nsITrackingDBService
-"
 )
 ;
 ChromeUtils

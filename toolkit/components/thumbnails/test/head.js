@@ -177,9 +177,9 @@ service
 ;
 1
 "
-"
+Ci
+.
 nsIPageThumbsStorageService
-"
 )
 ;
 var
