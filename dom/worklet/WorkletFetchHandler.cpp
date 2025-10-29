@@ -984,6 +984,7 @@ ReferrerPolicy
 :
 :
 _empty
+fetchOptions
 )
 ;
 return
