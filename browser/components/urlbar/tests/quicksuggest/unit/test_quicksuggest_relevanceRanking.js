@@ -1866,7 +1866,7 @@ set
 "
 quicksuggest
 .
-dataCollection
+online
 .
 enabled
 "
@@ -2208,16 +2208,15 @@ PREF_RANKING_MODE
 ;
 UrlbarPrefs
 .
-set
+clear
 (
 "
 quicksuggest
 .
-dataCollection
+online
 .
 enabled
 "
-true
 )
 ;
 sandbox
