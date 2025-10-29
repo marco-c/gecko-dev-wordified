@@ -2121,6 +2121,7 @@ subtree
 .
 if
 (
+(
 roleMapEntry
 &
 &
@@ -2133,6 +2134,19 @@ nsGkAtoms
 :
 :
 textbox
+)
+)
+|
+|
+(
+IsGeneric
+(
+)
+&
+&
+IsEditableRoot
+(
+)
 )
 )
 {
