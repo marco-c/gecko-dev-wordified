@@ -1852,7 +1852,7 @@ AssertEmpty
 )
 const
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 mEntries
 .
