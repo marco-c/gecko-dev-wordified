@@ -232,15 +232,6 @@ include
 "
 mozilla
 /
-DebugOnly
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TextEditor
 .
 h

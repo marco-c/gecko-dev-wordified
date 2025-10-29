@@ -135,6 +135,15 @@ include
 "
 mozilla
 /
+DebugOnly
+.
+h
+"
+#
+include
+"
+mozilla
+/
 NativeNt
 .
 h

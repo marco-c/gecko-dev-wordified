@@ -133,15 +133,6 @@ include
 "
 mozilla
 /
-DebugOnly
-.
-h
-"
-#
-include
-"
-mozilla
-/
 PresShell
 .
 h
