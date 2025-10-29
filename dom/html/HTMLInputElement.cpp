@@ -24857,6 +24857,12 @@ aVisitor
 mPresContext
 )
 {
+aVisitor
+.
+mEventStatus
+=
+nsEventStatus_eConsumeNoDefault
+;
 MaybeSubmitForm
 (
 aVisitor
