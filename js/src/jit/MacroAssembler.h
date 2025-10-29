@@ -11180,6 +11180,7 @@ DEFINED_ON
 arm
 arm64
 loong64
+mips64
 riscv64
 x86_shared
 )
