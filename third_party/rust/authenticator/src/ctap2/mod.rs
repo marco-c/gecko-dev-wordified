@@ -2217,7 +2217,6 @@ stuff
 /
 /
 We
-may
 need
 the
 shared
@@ -2226,6 +2225,10 @@ for
 HMAC
 -
 extension
+if
+it
+was
+requested
 so
 we
 /
@@ -2235,6 +2238,13 @@ to
 establish
 one
 if
+cmd
+.
+hmac_requested
+(
+)
+&
+&
 info
 .
 supports_hmac_secret

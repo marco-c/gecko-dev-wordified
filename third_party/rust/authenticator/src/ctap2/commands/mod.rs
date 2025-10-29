@@ -992,6 +992,16 @@ String
 >
 ;
 fn
+hmac_requested
+(
+&
+self
+)
+-
+>
+bool
+;
+fn
 can_skip_user_verification
 (
 &
