@@ -6404,7 +6404,7 @@ JS_CODEGEN_MIPS64
 Register
 base
 =
-t1
+t5
 ;
 regs
 .
