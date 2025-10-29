@@ -275,7 +275,7 @@ OverflowContainers
 ExcessOverflowContainers
 OverflowOutOfFlow
 Float
-Bullet
+Marker
 PushedFloats
 Backdrop
 /
@@ -1881,6 +1881,7 @@ const
 int32_t
 IndexOf
 (
+const
 nsIFrame
 *
 aFrame

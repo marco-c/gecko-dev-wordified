@@ -1155,6 +1155,7 @@ nsFrameList
 :
 IndexOf
 (
+const
 nsIFrame
 *
 aFrame
@@ -2969,11 +2970,11 @@ case
 FrameChildListID
 :
 :
-Bullet
+Marker
 :
 return
 "
-BulletList
+MarkerList
 "
 ;
 case

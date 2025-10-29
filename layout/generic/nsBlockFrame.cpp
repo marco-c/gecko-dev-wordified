@@ -4936,7 +4936,7 @@ case
 FrameChildListID
 :
 :
-Bullet
+Marker
 :
 {
 const
@@ -5072,7 +5072,7 @@ aLists
 FrameChildListID
 :
 :
-Bullet
+Marker
 )
 ;
 }
