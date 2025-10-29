@@ -124,12 +124,6 @@ MOZ_REQUIRES
 mMutex
 )
 {
-size_t
-csize
-;
-size_t
-pminsize
-;
 MOZ_ASSERT
 (
 minsize
@@ -138,6 +132,7 @@ minsize
 0
 )
 ;
+size_t
 csize
 =
 CHUNK_CEILING
@@ -205,6 +200,7 @@ be
 immediately
 recommitted
 .
+size_t
 pminsize
 =
 PAGE_CEILING
@@ -272,13 +268,6 @@ size_t
 aSize
 )
 {
-void
-*
-ret
-;
-size_t
-csize
-;
 /
 /
 Round
@@ -292,6 +281,7 @@ the
 cacheline
 size
 .
+size_t
 csize
 =
 CACHELINE_CEILING
@@ -351,6 +341,8 @@ nullptr
 /
 Allocate
 .
+void
+*
 ret
 =
 mNextAddr
