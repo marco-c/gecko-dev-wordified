@@ -767,6 +767,17 @@ Register
 maskTemp
 )
 ;
+void
+emitMulI64
+(
+Register
+lhs
+int64_t
+rhs
+Register
+dest
+)
+;
 public
 :
 /

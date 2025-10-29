@@ -854,6 +854,17 @@ Register
 output
 )
 ;
+void
+emitMulI64
+(
+Register
+lhs
+int64_t
+rhs
+Register
+dest
+)
+;
 template
 <
 typename
