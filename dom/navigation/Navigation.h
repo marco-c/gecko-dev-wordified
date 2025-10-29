@@ -1196,6 +1196,10 @@ friend
 struct
 NavigationAPIMethodTracker
 ;
+friend
+struct
+NavigationWaitForAllScope
+;
 using
 UpcomingTraverseAPIMethodTrackers
 =
