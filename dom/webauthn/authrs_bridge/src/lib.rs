@@ -5025,7 +5025,7 @@ self
 .
 test_token_manager
 .
-has_platform_authenticator
+has_user_verifying_platform_authenticator
 (
 )
 )
