@@ -131,6 +131,9 @@ List
 [
 str
 ]
+#
+noqa
+UP006
 OptArray
 =
 Optional
@@ -161,13 +164,20 @@ str
 OptStr
 ]
 ]
-TupleStrBool
+#
+noqa
+UP006
+TupleStrBoolStr
 =
 Tuple
 [
 str
 bool
+str
 ]
+#
+noqa
+UP006
 FILENAME_REGEX
 =
 r
@@ -2097,6 +2107,46 @@ existing_condition
 in
 new_condition
 class
+Mode
+:
+    
+"
+Skipfails
+mode
+of
+operation
+"
+    
+NORMAL
+:
+int
+=
+0
+    
+CARRYOVER
+:
+int
+=
+1
+    
+KNOWN_INTERMITTENTS
+:
+int
+=
+2
+    
+NEW_FAILURES
+:
+int
+=
+3
+    
+REPLACE_TBD
+:
+int
+=
+4
+class
 Carry
 :
     
@@ -3268,15 +3318,17 @@ CreateBug
 =
 None
     
-carryover_mode
+mode
 :
-bool
+Mode
 =
-False
+Mode
+.
+NORMAL
 )
 -
 >
-TupleStrBool
+TupleStrBoolStr
 :
     
 "
@@ -3371,7 +3423,8 @@ Bug
 )
     
 In
-carryover_mode
+carryover
+mode
 only
 consider
 carryover
@@ -3387,7 +3440,8 @@ Else
 when
 not
 in
-carryover_mode
+carryover
+mode
 and
 create_bug_lambda
 is
@@ -3436,6 +3490,19 @@ from
 an
 existing
 condition
+    
+bug_reference
+is
+returned
+as
+None
+if
+the
+skip
+-
+if
+was
+ignored
     
 "
 "
@@ -3687,8 +3754,12 @@ the
 table
         
 if
-not
-carryover_mode
+mode
+!
+=
+Mode
+.
+CARRYOVER
 :
             
 mp_array
@@ -3862,7 +3933,12 @@ not
 ignore_condition
                     
 and
-carryover_mode
+mode
+=
+=
+Mode
+.
+CARRYOVER
                     
 and
 carry
@@ -3965,7 +4041,12 @@ not
 ignore_condition
                                 
 and
-carryover_mode
+mode
+=
+=
+Mode
+.
+CARRYOVER
                                 
 and
 carry
@@ -4096,7 +4177,12 @@ not
 ignore_condition
                         
 and
-carryover_mode
+mode
+=
+=
+Mode
+.
+CARRYOVER
                         
 and
 carry
@@ -4133,13 +4219,27 @@ bug_reference
 e_comment
         
 if
-not
 ignore_condition
 :
             
+carryover
+=
+False
+            
+bug_reference
+=
+None
+        
+else
+:
+            
 if
-not
-carryover_mode
+mode
+=
+=
+Mode
+.
+NORMAL
 and
 create_bug_lambda
 is
@@ -4263,6 +4363,7 @@ return
 (
 additional_comment
 carryover
+bug_reference
 )
 def
 _should_remove_condition

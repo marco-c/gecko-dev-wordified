@@ -523,6 +523,7 @@ assert
 anyjs
 =
 =
+{
 "
 testing
 /
@@ -540,6 +541,9 @@ any
 .
 html
 "
+:
+False
+}
     
 #
 Test
@@ -623,6 +627,7 @@ assert
 anyjs
 =
 =
+{
 "
 testing
 /
@@ -640,6 +645,9 @@ window
 .
 html
 "
+:
+False
+}
     
 #
 Test
@@ -723,6 +731,7 @@ assert
 anyjs
 =
 =
+{
 "
 testing
 /
@@ -740,6 +749,9 @@ worker
 .
 html
 "
+:
+False
+}
     
 #
 Test
@@ -835,6 +847,7 @@ assert
 anyjs
 =
 =
+{
 "
 testing
 /
@@ -852,6 +865,9 @@ any
 .
 html
 "
+:
+False
+}
     
 #
 Test
