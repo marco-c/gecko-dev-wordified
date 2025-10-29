@@ -192,14 +192,6 @@ task_id
         
 try
 :
-            
-cancel_task
-(
-task_id
-use_proxy
-=
-True
-)
         
 except
 requests
@@ -219,6 +211,11 @@ status_code
 =
 409
 :
+            
+cancel_task
+(
+task_id
+)
                 
 #
 A

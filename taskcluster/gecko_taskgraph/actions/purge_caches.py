@@ -208,7 +208,6 @@ cache
             
 purge_cache
 (
-                
 task
 [
 "
@@ -222,10 +221,6 @@ workerType
 "
 ]
 cache
-use_proxy
-=
-True
-            
 )
     
 else
