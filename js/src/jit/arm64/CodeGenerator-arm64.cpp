@@ -2014,14 +2014,6 @@ if
 onOverflow
 )
 {
-MOZ_ASSERT
-(
-lhsreg
-!
-=
-destreg
-)
-;
 bailoutFrom
 (
 &
