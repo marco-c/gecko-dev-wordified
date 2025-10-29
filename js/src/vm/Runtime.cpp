@@ -957,6 +957,10 @@ moduleAsyncEvaluatingPostOrder
 (
 0
 )
+pendingAsyncModuleEvaluations
+(
+0
+)
 {
 JS_COUNT_CTOR
 (
