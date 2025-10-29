@@ -1192,6 +1192,14 @@ ScriptLoadRequest
 void
 NoCacheEntryFound
 (
+mozilla
+:
+:
+dom
+:
+:
+ReferrerPolicy
+aReferrerPolicy
 )
 ;
 bool

@@ -7775,6 +7775,7 @@ context
 ;
 TryUseCache
 (
+aReferrerPolicy
 request
 aElement
 aNonce
@@ -7795,6 +7796,8 @@ ScriptLoader
 :
 TryUseCache
 (
+ReferrerPolicy
+aReferrerPolicy
 ScriptLoadRequest
 *
 aRequest
@@ -7825,6 +7828,7 @@ aRequest
 >
 NoCacheEntryFound
 (
+aReferrerPolicy
 )
 ;
 LOG
@@ -7893,6 +7897,7 @@ aRequest
 >
 NoCacheEntryFound
 (
+aReferrerPolicy
 )
 ;
 LOG
@@ -8003,6 +8008,7 @@ aRequest
 >
 NoCacheEntryFound
 (
+aReferrerPolicy
 )
 ;
 LOG
@@ -8114,6 +8120,7 @@ aRequest
 >
 NoCacheEntryFound
 (
+aReferrerPolicy
 )
 ;
 LOG
@@ -8180,6 +8187,21 @@ mNetworkMetadata
 cacheResult
 .
 mNetworkMetadata
+;
+MOZ_ASSERT
+(
+cacheResult
+.
+mCompleteValue
+-
+>
+ReferrerPolicy
+(
+)
+=
+=
+aReferrerPolicy
+)
 ;
 aRequest
 -

@@ -2989,6 +2989,8 @@ any
 void
 TryUseCache
 (
+ReferrerPolicy
+aReferrerPolicy
 ScriptLoadRequest
 *
 aRequest
