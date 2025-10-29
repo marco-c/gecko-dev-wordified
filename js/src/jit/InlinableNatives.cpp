@@ -2017,6 +2017,12 @@ case
 InlinableNative
 :
 :
+MapSize
+:
+case
+InlinableNative
+:
+:
 Number
 :
 case
