@@ -123,15 +123,6 @@ include
 "
 mozilla
 /
-RefPtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 CanvasRenderingContext2D

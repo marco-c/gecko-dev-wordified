@@ -155,15 +155,6 @@ include
 "
 mozilla
 /
-RefPtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ShellHeaderOnlyUtils
 .
 h
