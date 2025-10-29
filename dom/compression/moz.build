@@ -149,6 +149,11 @@ FormatZlib
 .
 cpp
 "
+"
+FormatZstd
+.
+cpp
+"
 ]
 FINAL_LIBRARY
 =
