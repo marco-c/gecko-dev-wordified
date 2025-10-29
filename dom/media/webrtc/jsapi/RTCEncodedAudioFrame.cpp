@@ -373,6 +373,7 @@ aOwner
 :
 RTCEncodedAudioFrameData
 {
+RTCEncodedFrameState
 {
 std
 :
@@ -568,6 +569,7 @@ aData
 :
 RTCEncodedAudioFrameData
 {
+RTCEncodedFrameState
 {
 std
 :
@@ -996,6 +998,7 @@ const
 return
 RTCEncodedAudioFrameData
 {
+RTCEncodedFrameState
 {
 webrtc
 :
