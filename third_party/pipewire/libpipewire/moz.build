@@ -107,6 +107,16 @@ CONFIG
 MOZ_GTK3_CFLAGS
 '
 ]
+SOURCES
++
+=
+[
+'
+mozgio
+.
+cpp
+'
+]
 if
 CONFIG
 [
