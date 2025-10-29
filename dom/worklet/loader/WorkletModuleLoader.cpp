@@ -838,7 +838,10 @@ request
 new
 ModuleLoadRequest
 (
+aURI
 moduleType
+aReferrerPolicy
+aOptions
 SRIMetadata
 (
 )
@@ -860,7 +863,10 @@ request
 >
 mURL
 =
-aURI
+request
+-
+>
+mURI
 -
 >
 GetSpecOrDefault
@@ -872,9 +878,6 @@ request
 >
 NoCacheEntryFound
 (
-aReferrerPolicy
-aOptions
-aURI
 )
 ;
 return
@@ -919,9 +922,7 @@ InsertRequest
 aRequest
 -
 >
-URI
-(
-)
+mURI
 aRequest
 )
 ;
@@ -948,9 +949,7 @@ GetHandlerRef
 aRequest
 -
 >
-URI
-(
-)
+mURI
 aRequest
 -
 >
