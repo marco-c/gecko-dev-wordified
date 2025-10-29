@@ -1539,7 +1539,9 @@ if
 error
 )
 {
-gfxCriticalNote
+gfxWarning
+(
+)
 <
 <
 "
@@ -1717,7 +1719,9 @@ if
 logString
 )
 {
-gfxCriticalNote
+gfxWarning
+(
+)
 <
 <
 "
@@ -3452,7 +3456,9 @@ IsEmpty
 )
 )
 {
-gfxCriticalNote
+gfxWarning
+(
+)
 <
 <
 "
@@ -3517,7 +3523,9 @@ i
 ]
 )
 {
-gfxCriticalNote
+gfxWarning
+(
+)
 <
 <
 "
@@ -3652,7 +3660,9 @@ i
 ]
 )
 {
-gfxCriticalNote
+gfxWarning
+(
+)
 <
 <
 "
@@ -3719,7 +3729,9 @@ pciLen
 2
 )
 {
-gfxCriticalNote
+gfxWarning
+(
+)
 <
 <
 "
@@ -3846,7 +3858,9 @@ pciLen
 i
 )
 {
-gfxCriticalNote
+gfxWarning
+(
+)
 <
 <
 "
