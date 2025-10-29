@@ -730,11 +730,11 @@ network_cookie_maxageCap
 )
 ;
 int64_t
-currentTimeInMSec
+creationTimeInMSec
 =
 mCookieData
 .
-creationTimeInUSec
+updateTimeInUSec
 (
 )
 /
@@ -756,7 +756,7 @@ maxageCap
 &
 expiryInMSec
 >
-currentTimeInMSec
+creationTimeInMSec
 +
 maxageCap
 *

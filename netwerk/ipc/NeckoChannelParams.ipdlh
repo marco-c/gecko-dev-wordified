@@ -3085,6 +3085,9 @@ lastAccessedInUSec
 int64_t
 creationTimeInUSec
 ;
+int64_t
+updateTimeInUSec
+;
 bool
 isHttpOnly
 ;

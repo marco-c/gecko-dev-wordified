@@ -201,6 +201,7 @@ aPath
 0
 0
 0
+0
 aIsHttpOnly
 aIsSession
 aIsSecure
