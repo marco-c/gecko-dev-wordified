@@ -951,7 +951,6 @@ ModuleLoadRequest
 (
 aURI
 moduleType
-aOptions
 SRIMetadata
 (
 )

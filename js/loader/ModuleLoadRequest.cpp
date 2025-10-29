@@ -271,9 +271,6 @@ nsIURI
 aURI
 ModuleType
 aModuleType
-ScriptFetchOptions
-*
-aFetchOptions
 const
 mozilla
 :
@@ -307,7 +304,6 @@ ScriptKind
 :
 eModule
 aURI
-aFetchOptions
 aIntegrity
 aReferrer
 aContext

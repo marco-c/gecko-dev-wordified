@@ -694,9 +694,6 @@ aKind
 nsIURI
 *
 aURI
-ScriptFetchOptions
-*
-aFetchOptions
 const
 SRIMetadata
 &
@@ -1056,7 +1053,9 @@ FetchPriority
 const
 {
 return
-mFetchOptions
+FetchOptions
+(
+)
 -
 >
 mFetchPriority
@@ -1070,7 +1069,9 @@ ParserMetadata
 const
 {
 return
-mFetchOptions
+FetchOptions
+(
+)
 -
 >
 mParserMetadata
@@ -1085,7 +1086,9 @@ Nonce
 const
 {
 return
-mFetchOptions
+FetchOptions
+(
+)
 -
 >
 mNonce
@@ -1099,7 +1102,9 @@ TriggeringPrincipal
 const
 {
 return
-mFetchOptions
+FetchOptions
+(
+)
 -
 >
 mTriggeringPrincipal
@@ -1369,7 +1374,9 @@ CORSMode
 const
 {
 return
-mFetchOptions
+FetchOptions
+(
+)
 -
 >
 mCORSMode
@@ -1684,12 +1691,6 @@ CacheExpirationTime
 Never
 (
 )
-;
-RefPtr
-<
-ScriptFetchOptions
->
-mFetchOptions
 ;
 RefPtr
 <
