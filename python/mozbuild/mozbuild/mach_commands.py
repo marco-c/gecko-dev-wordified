@@ -19698,6 +19698,9 @@ official
 beta
 "
 "
+esr
+"
+"
 aurora
 "
 "
