@@ -104,15 +104,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 WritingModes
 .
 h
@@ -1225,6 +1216,7 @@ found
 int32_t
 FindLineContaining
 (
+const
 nsIFrame
 *
 aFrame

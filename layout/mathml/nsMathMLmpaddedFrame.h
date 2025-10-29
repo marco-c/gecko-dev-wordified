@@ -123,15 +123,6 @@ nsMathMLmpaddedFrame_h___
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsCSSValue
 .
 h

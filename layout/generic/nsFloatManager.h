@@ -136,15 +136,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TypedEnumBits
 .
 h

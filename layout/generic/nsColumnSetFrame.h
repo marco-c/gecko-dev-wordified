@@ -135,15 +135,6 @@ layout
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsContainerFrame
 .
 h

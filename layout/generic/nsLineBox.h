@@ -146,15 +146,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Likely
 .
 h
@@ -3080,6 +3071,7 @@ const
 bool
 Contains
 (
+const
 nsIFrame
 *
 aFrame
@@ -6810,6 +6802,7 @@ final
 int32_t
 FindLineContaining
 (
+const
 nsIFrame
 *
 aFrame
