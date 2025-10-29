@@ -380,7 +380,7 @@ dom
 :
 Element
 *
-aInput
+aElement
 )
 ;
 void
