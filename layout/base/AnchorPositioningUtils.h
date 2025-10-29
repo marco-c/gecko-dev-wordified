@@ -803,9 +803,6 @@ const
 StylePositionArea
 &
 aPosArea
-StylePositionArea
-*
-aOutResolvedArea
 )
 ;
 /

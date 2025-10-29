@@ -2756,10 +2756,6 @@ mozilla
 ReflowInput
 *
 aRI
-bool
-aIgnorePositionArea
-=
-false
 )
 ;
 static
