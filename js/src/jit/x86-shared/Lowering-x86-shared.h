@@ -315,17 +315,6 @@ rhs
 )
 ;
 void
-lowerNegI64
-(
-MInstruction
-*
-ins
-MDefinition
-*
-input
-)
-;
-void
 lowerMulI
 (
 MMul
