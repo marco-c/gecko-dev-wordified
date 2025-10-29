@@ -1223,6 +1223,13 @@ Handle
 Value
 >
 aPayload
+uint32_t
+aLineNumber
+JS
+:
+:
+ColumnNumberOneOrigin
+aColumnNumber
 )
 {
 Rooted
@@ -1528,10 +1535,8 @@ result
 unwrapErr
 (
 )
-0
-ColumnNumberOneOrigin
-(
-)
+aLineNumber
+aColumnNumber
 &
 error
 )
