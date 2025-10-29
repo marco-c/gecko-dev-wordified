@@ -17694,6 +17694,11 @@ mWeakReference
 nullptr
 ;
 }
+void
+QueueAncestorRevealingAlgorithm
+(
+)
+;
 MOZ_CAN_RUN_SCRIPT
 void
 AncestorRevealingAlgorithm
