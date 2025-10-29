@@ -1345,6 +1345,18 @@ aspect
 all
 '
 ;
+const
+swizzle
+=
+view
+.
+swizzle
+?
+?
+'
+rgba
+'
+;
 /
 /
 Spec
@@ -1501,6 +1513,7 @@ baseMipLevel
 mipLevelCount
 baseArrayLayer
 arrayLayerCount
+swizzle
 }
 ;
 }

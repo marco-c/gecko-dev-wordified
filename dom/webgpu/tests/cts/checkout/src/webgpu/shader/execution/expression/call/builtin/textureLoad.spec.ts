@@ -2307,6 +2307,10 @@ COPY_DST
 GPUTextureUsage
 .
 TEXTURE_BINDING
+|
+GPUTextureUsage
+.
+RENDER_ATTACHMENT
 sampleCount
 }
 ;

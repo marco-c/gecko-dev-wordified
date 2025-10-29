@@ -923,6 +923,9 @@ attemptGarbageCollection
 ;
 }
 }
+throw
+ex
+;
 }
 finally
 {

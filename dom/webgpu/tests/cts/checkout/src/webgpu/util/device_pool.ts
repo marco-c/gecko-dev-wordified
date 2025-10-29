@@ -1004,6 +1004,9 @@ attemptGarbageCollection
 ;
 }
 }
+throw
+ex
+;
 }
 finally
 {
