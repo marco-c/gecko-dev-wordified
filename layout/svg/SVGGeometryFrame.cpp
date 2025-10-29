@@ -2269,7 +2269,7 @@ SVGUtils
 eBBoxIncludeStrokeGeometry
 ;
 }
-gfxRect
+SVGBBox
 extent
 =
 GetBBoxContribution
@@ -2290,6 +2290,11 @@ nsLayoutUtils
 :
 RoundGfxRectToAppRect
 (
+(
+const
+Rect
+&
+)
 extent
 AppUnitsPerCSSPixel
 (

@@ -49795,10 +49795,7 @@ nsLayoutUtils
 :
 RoundGfxRectToAppRect
 (
-ThebesRect
-(
 result
-)
 aAppUnitsPerPixel
 )
 ;
@@ -49974,10 +49971,7 @@ nsLayoutUtils
 :
 RoundGfxRectToAppRect
 (
-ThebesRect
-(
 result
-)
 factor
 )
 ;
