@@ -124,6 +124,10 @@ drainJobQueue
 )
 ;
 }
+ignoreUnhandledRejections
+(
+)
+;
 oomTest
 (
 test
