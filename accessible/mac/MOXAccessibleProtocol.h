@@ -552,12 +552,6 @@ BOOL
 )
 moxIsLiveRegion
 ;
--
-(
-BOOL
-)
-moxIsTextField
-;
 /
 /
 Find

@@ -3713,7 +3713,7 @@ TreeColumn_Binding
 TYPE_CHECKBOX
 &
 &
-IsEditableCell
+IsEditable
 (
 )
 )
@@ -3792,7 +3792,7 @@ TreeColumn_Binding
 TYPE_CHECKBOX
 &
 &
-IsEditableCell
+IsEditable
 (
 )
 )
@@ -5159,7 +5159,7 @@ bool
 XULTreeGridCellAccessible
 :
 :
-IsEditableCell
+IsEditable
 (
 )
 const

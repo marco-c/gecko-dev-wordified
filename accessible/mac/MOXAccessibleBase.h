@@ -701,15 +701,6 @@ moxIsLiveRegion
 override
 -
 (
-BOOL
-)
-moxIsTextField
-;
-/
-/
-override
--
-(
 id
 <
 MOXAccessible

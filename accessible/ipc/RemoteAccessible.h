@@ -2411,14 +2411,6 @@ HasPrimaryAction
 const
 override
 ;
-virtual
-bool
-IsEditable
-(
-)
-const
-override
-;
 #
 if
 !
