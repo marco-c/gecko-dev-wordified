@@ -4944,6 +4944,7 @@ chromeScript
 /
 *
 *
+*
 Manage
 logins
 in
@@ -4951,7 +4952,6 @@ parent
 chrome
 process
 .
-*
 *
 /
 function
@@ -5180,6 +5180,7 @@ e
 /
 *
 *
+*
 Initialize
 with
 a
@@ -5266,6 +5267,7 @@ script
 ;
 }
 /
+*
 *
 *
 Initialize
@@ -5683,6 +5685,7 @@ loginsBefore
 ;
 }
 /
+*
 *
 *
 Returns
