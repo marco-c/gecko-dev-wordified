@@ -58,11 +58,11 @@ logging
 import
 requests
 from
-requests
+taskcluster
 .
 exceptions
 import
-HTTPError
+TaskclusterRestFailure
 from
 taskgraph
 .
@@ -747,7 +747,7 @@ graph_config
 )
         
 except
-HTTPError
+TaskclusterRestFailure
 as
 e
 :

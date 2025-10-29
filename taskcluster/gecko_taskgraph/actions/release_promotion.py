@@ -57,8 +57,12 @@ import
 json
 import
 os
+from
+taskcluster
+.
+exceptions
 import
-requests
+TaskclusterRestFailure
 from
 taskgraph
 .
@@ -2155,11 +2159,7 @@ t
 )
     
 except
-requests
-.
-exceptions
-.
-HTTPError
+TaskclusterRestFailure
 as
 e
 :
@@ -2183,8 +2183,6 @@ fine
         
 if
 e
-.
-response
 .
 status_code
 !
