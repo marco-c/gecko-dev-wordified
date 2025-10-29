@@ -2247,12 +2247,14 @@ glean
 :
 :
 TestGetValue
-<
-DistributionData
->
 for
 LabeledTimingDistributionMetric
 {
+type
+Output
+=
+DistributionData
+;
 pub
 fn
 test_get_value

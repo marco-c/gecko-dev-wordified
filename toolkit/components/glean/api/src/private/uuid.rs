@@ -1108,12 +1108,14 @@ glean
 :
 :
 TestGetValue
-<
-Uuid
->
 for
 UuidMetric
 {
+type
+Output
+=
+Uuid
+;
 /
 /
 /

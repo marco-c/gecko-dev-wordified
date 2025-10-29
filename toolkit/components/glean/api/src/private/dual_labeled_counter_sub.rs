@@ -764,12 +764,14 @@ glean
 :
 :
 TestGetValue
-<
-i32
->
 for
 DualLabeledCounterSubMetric
 {
+type
+Output
+=
+i32
+;
 /
 /
 /

@@ -5572,12 +5572,14 @@ glean
 :
 :
 TestGetValue
-<
-DistributionData
->
 for
 TimingDistributionMetric
 {
+type
+Output
+=
+DistributionData
+;
 /
 /
 /

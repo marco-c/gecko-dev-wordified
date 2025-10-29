@@ -1293,12 +1293,14 @@ glean
 :
 :
 TestGetValue
-<
-i32
->
 for
 CounterMetric
 {
+type
+Output
+=
+i32
+;
 /
 /
 /

@@ -865,12 +865,14 @@ glean
 :
 :
 TestGetValue
-<
-i64
->
 for
 QuantityMetric
 {
+type
+Output
+=
+i64
+;
 /
 /
 /

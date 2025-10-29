@@ -829,12 +829,14 @@ glean
 :
 :
 TestGetValue
-<
-i32
->
 for
 LabeledCounterMetric
 {
+type
+Output
+=
+i32
+;
 /
 /
 /

@@ -1121,12 +1121,14 @@ glean
 :
 :
 TestGetValue
-<
-bool
->
 for
 BooleanMetric
 {
+type
+Output
+=
+bool
+;
 /
 /
 /

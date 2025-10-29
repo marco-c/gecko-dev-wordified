@@ -1209,12 +1209,14 @@ glean
 :
 :
 TestGetValue
-<
-DistributionData
->
 for
 CustomDistributionMetric
 {
+type
+Output
+=
+DistributionData
+;
 pub
 fn
 test_get_value
