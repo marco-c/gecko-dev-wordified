@@ -7284,6 +7284,7 @@ mut
 self
 tactic
 :
+&
 PositionTryFallbacksTryTactic
 )
 {
@@ -7350,7 +7351,7 @@ tactic
 in
 tactic
 .
-into_iter
+iter
 (
 )
 {
@@ -7363,10 +7364,6 @@ PositionTryFallbacksTryTacticKeyword
 match
 tactic
 {
-None
-=
->
-break
 FlipBlock
 =
 >
@@ -8249,6 +8246,7 @@ E
 >
 try_tactic
 :
+&
 PositionTryFallbacksTryTactic
 )
 where
