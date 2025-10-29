@@ -320,6 +320,8 @@ makeSubset
 (
 nullptr
 subset
+{
+}
 )
 ;
 if

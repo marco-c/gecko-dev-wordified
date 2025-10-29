@@ -139,10 +139,6 @@ addToKey
 const
 KeyContext
 &
-PaintParamsKeyBuilder
-*
-PipelineDataGatherer
-*
 int
 desiredCombination
 )
@@ -156,8 +152,6 @@ createPipelines
 const
 KeyContext
 &
-PipelineDataGatherer
-*
 const
 PaintOptions
 &

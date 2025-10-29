@@ -2190,6 +2190,10 @@ M
 (
 HLGinvish
 )
+M
+(
+ootf
+)
 \
 M
 (
@@ -2254,6 +2258,11 @@ repeat_y
 M
 (
 negate_x
+)
+\
+M
+(
+bilerp_clamp_8888_force_highp
 )
 \
 M

@@ -3967,6 +3967,11 @@ data
 id
 )
 ;
+if
+(
+result
+)
+{
 fTypefaceCache
 .
 add
@@ -3974,6 +3979,7 @@ add
 result
 )
 ;
+}
 return
 result
 ;

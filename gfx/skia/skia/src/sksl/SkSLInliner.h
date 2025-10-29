@@ -725,6 +725,12 @@ ProgramUsage
 usage
 )
 ;
+bool
+overInlineStatementLimit
+(
+)
+const
+;
 const
 Context
 *

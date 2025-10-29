@@ -126,6 +126,9 @@ cstdint
 class
 SkPath
 ;
+class
+SkPathBuilder
+;
 struct
 SkRect
 ;
@@ -476,7 +479,7 @@ const
 SkRect
 &
 rect
-SkPath
+SkPathBuilder
 *
 result
 SkPathDirection
@@ -495,7 +498,7 @@ const
 SkPath
 &
 path
-SkPath
+SkPathBuilder
 *
 )
 const

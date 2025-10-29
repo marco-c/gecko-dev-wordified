@@ -175,14 +175,14 @@ want
 to
 look
 at
-SkRecorder
+SkRecordCanvas
 which
 presents
 an
 SkCanvas
+/
+/
 interface
-/
-/
 for
 creating
 an
@@ -196,6 +196,8 @@ SkRecord
 back
 into
 another
+/
+/
 SkCanvas
 .
 /

@@ -1723,6 +1723,15 @@ has
 gid
 )
 )
+&
+&
+!
+glyphToUnicodeEx
+.
+find
+(
+gid
+)
 ;
 if
 (
@@ -1926,8 +1935,6 @@ must
 come
 before
 bfrange
-/
-/
 entries
 .
 append_bfchar_section

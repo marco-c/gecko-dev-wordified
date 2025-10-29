@@ -1062,9 +1062,13 @@ fVertices
 -
 >
 fBounds
-.
-setBounds
+=
+SkRect
+:
+:
+BoundsOrEmpty
 (
+{
 fVertices
 -
 >
@@ -1073,6 +1077,7 @@ fVertices
 -
 >
 fVertexCount
+}
 )
 ;
 if

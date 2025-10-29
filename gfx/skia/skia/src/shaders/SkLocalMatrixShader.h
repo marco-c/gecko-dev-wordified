@@ -292,6 +292,11 @@ isOpaque
 bool
 isConstant
 (
+SkColor4f
+*
+color
+=
+nullptr
 )
 const
 override
@@ -555,6 +560,11 @@ isOpaque
 bool
 isConstant
 (
+SkColor4f
+*
+color
+=
+nullptr
 )
 const
 override

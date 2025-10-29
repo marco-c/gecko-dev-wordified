@@ -465,7 +465,7 @@ skbug
 .
 com
 /
-7813
+40039068
 /
 /
 To
@@ -2188,12 +2188,6 @@ not
 virtual
 just
 helpers
-#
-if
-defined
-(
-SK_SUPPORT_LEGACY_ALPHA_BITMAP_AS_COVERAGE
-)
 void
 SkBlitter
 :
@@ -2275,8 +2269,6 @@ next
 ;
 }
 }
-#
-endif
 void
 SkBlitter
 :
@@ -5094,6 +5086,10 @@ const
 SkSurfaceProps
 &
 props
+const
+SkRect
+&
+devBounds
 )
 {
 SkASSERT
@@ -5512,6 +5508,7 @@ ctm
 alloc
 clipShader
 props
+devBounds
 )
 ;
 return
