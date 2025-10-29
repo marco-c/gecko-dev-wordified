@@ -1147,12 +1147,9 @@ GetStreamParser
 )
 )
 ;
-mozilla
-:
-:
-Unused
-<
-<
+(
+void
+)
 streamKungFuDeathGrip
 ;
 /

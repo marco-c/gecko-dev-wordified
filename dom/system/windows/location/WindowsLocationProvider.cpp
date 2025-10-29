@@ -994,9 +994,9 @@ WindowsLocationParent
 actor
 )
 {
-Unused
-<
-<
+(
+void
+)
 fn
 (
 actor

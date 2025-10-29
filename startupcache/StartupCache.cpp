@@ -4585,9 +4585,9 @@ WriteToDisk
 (
 )
 ;
-Unused
-<
-<
+(
+void
+)
 NS_WARN_IF
 (
 writeResult
@@ -5186,9 +5186,9 @@ WriteToDisk
 (
 )
 ;
-Unused
-<
-<
+(
+void
+)
 NS_WARN_IF
 (
 result

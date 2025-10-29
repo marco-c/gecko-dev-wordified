@@ -982,9 +982,9 @@ if
 httpChannel
 )
 {
-Unused
-<
-<
+(
+void
+)
 httpChannel
 -
 >
@@ -996,9 +996,9 @@ NS_ERROR_CRYPTOMINING_URI
 }
 else
 {
-Unused
-<
-<
+(
+void
+)
 aChannel
 -
 >

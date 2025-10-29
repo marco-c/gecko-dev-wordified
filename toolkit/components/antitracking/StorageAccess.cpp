@@ -2568,9 +2568,9 @@ nsIPrincipal
 >
 principal
 ;
-Unused
-<
-<
+(
+void
+)
 nsContentUtils
 :
 :

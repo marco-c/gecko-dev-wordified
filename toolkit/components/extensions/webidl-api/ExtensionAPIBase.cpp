@@ -1744,9 +1744,9 @@ GetIncumbentGlobal
 )
 )
 ;
-Unused
-<
-<
+(
+void
+)
 callArgs
 .
 PopLastElement

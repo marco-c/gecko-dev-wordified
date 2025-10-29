@@ -4608,9 +4608,9 @@ is
 owned
 by
 EGLSync
-Unused
-<
-<
+(
+void
+)
 fenceFd
 .
 release

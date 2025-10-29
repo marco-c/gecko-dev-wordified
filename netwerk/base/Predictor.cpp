@@ -13886,9 +13886,9 @@ method
 nsAutoCString
 vary
 ;
-Unused
-<
-<
+(
+void
+)
 responseHead
 -
 >
@@ -13904,9 +13904,9 @@ vary
 nsAutoCString
 cacheControlHeader
 ;
-Unused
-<
-<
+(
+void
+)
 responseHead
 -
 >

@@ -729,9 +729,9 @@ if
 docShell
 )
 {
-Unused
-<
-<
+(
+void
+)
 docShell
 -
 >

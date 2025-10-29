@@ -1977,12 +1977,9 @@ aFileExtension
 type
 )
 ;
-mozilla
-:
-:
-Unused
-<
-<
+(
+void
+)
 NS_WARN_IF
 (
 NS_FAILED

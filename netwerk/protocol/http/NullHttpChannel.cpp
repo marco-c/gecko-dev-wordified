@@ -180,9 +180,9 @@ mResourcePrincipal
 )
 )
 ;
-Unused
-<
-<
+(
+void
+)
 chan
 -
 >

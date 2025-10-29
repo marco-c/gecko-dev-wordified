@@ -12934,9 +12934,9 @@ GetSingleton
 )
 )
 {
-Unused
-<
-<
+(
+void
+)
 cc
 -
 >

@@ -404,12 +404,6 @@ using
 mozilla
 :
 :
-Unused
-;
-using
-mozilla
-:
-:
 dom
 :
 :
@@ -7593,9 +7587,9 @@ a
 parse
 error
 .
-Unused
-<
-<
+(
+void
+)
 CopyUTF8toUTF16
 (
 baseURI

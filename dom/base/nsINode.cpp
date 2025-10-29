@@ -24552,9 +24552,9 @@ error
 handling
 needed
 .
-Unused
-<
-<
+(
+void
+)
 oldDoc
 -
 >
@@ -25196,9 +25196,9 @@ error
 handling
 needed
 .
-Unused
-<
-<
+(
+void
+)
 newDoc
 -
 >

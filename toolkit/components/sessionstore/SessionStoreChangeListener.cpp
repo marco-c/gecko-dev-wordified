@@ -1738,9 +1738,9 @@ EnsureTimer
 (
 )
 ;
-Unused
-<
-<
+(
+void
+)
 mSessionStoreChanges
 .
 WithEntryHandle

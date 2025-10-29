@@ -31658,9 +31658,9 @@ aRhs
 mFill
 )
 {
-Unused
-<
-<
+(
+void
+)
 mImageRenderer
 .
 PrepareResult
@@ -31742,9 +31742,9 @@ aRhs
 .
 mFill
 ;
-Unused
-<
-<
+(
+void
+)
 mImageRenderer
 .
 PrepareResult

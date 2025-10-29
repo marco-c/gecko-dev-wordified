@@ -3239,9 +3239,9 @@ PlaybackStatus
 "
 )
 ;
-Unused
-<
-<
+(
+void
+)
 EmitPropertiesChangedSignal
 (
 parameters

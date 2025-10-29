@@ -1073,9 +1073,9 @@ See
 bug
 1656492
 .
-Unused
-<
-<
+(
+void
+)
 GetDocShell
 (
 )

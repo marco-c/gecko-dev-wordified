@@ -395,9 +395,9 @@ if
 mSyncListener
 )
 {
-Unused
-<
-<
+(
+void
+)
 mSyncListener
 -
 >

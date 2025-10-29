@@ -3514,9 +3514,9 @@ self
 =
 this
 ;
-Unused
-<
-<
+(
+void
+)
 NS_DispatchToCurrentThread
 (
 NS_NewRunnableFunction
@@ -3599,9 +3599,9 @@ the
 /
 transaction
 .
-Unused
-<
-<
+(
+void
+)
 inputCallback
 -
 >

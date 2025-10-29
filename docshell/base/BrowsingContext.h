@@ -5122,9 +5122,9 @@ IPAddressSpace
 aIPAddressSpace
 )
 {
-Unused
-<
-<
+(
+void
+)
 SetIPAddressSpace
 (
 aIPAddressSpace
@@ -5451,9 +5451,9 @@ IsTop
 )
 )
 ;
-Unused
-<
-<
+(
+void
+)
 SetHasOrientationOverride
 (
 false

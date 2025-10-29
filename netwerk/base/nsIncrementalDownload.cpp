@@ -3723,9 +3723,9 @@ rv
 return
 rv
 ;
-Unused
-<
-<
+(
+void
+)
 http
 -
 >
@@ -5157,9 +5157,9 @@ download
 nsAutoCString
 rangeVal
 ;
-Unused
-<
-<
+(
+void
+)
 http
 -
 >

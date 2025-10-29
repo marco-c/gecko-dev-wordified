@@ -3486,10 +3486,11 @@ OnChannelClose
 or
 OnChannelError
 .
-Unused
-<
-<
 ActorConnected
+(
+)
+.
+leak
 (
 )
 ;

@@ -253,9 +253,9 @@ NS_ENSURE_TRUE_VOID
 window
 )
 ;
-Unused
-<
-<
+(
+void
+)
 window
 -
 >

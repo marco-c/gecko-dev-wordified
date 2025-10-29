@@ -6735,9 +6735,9 @@ i
 offset
 |
 .
-Unused
-<
-<
+(
+void
+)
 HandleMissingInitialKeyframe
 (
 aResult
