@@ -516,7 +516,7 @@ nsresult
 >
 algorithms
 =
-CompressionStreamAlgorithms
+ZLibCompressionStreamAlgorithms
 :
 :
 Create
