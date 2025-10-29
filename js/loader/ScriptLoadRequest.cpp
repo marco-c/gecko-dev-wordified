@@ -1481,6 +1481,9 @@ aReferrerPolicy
 ScriptFetchOptions
 *
 aFetchOptions
+nsIURI
+*
+aURI
 )
 {
 MOZ_ASSERT

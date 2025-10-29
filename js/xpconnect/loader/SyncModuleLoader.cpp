@@ -835,6 +835,7 @@ NoCacheEntryFound
 (
 aReferrerPolicy
 aOptions
+aURI
 )
 ;
 return
