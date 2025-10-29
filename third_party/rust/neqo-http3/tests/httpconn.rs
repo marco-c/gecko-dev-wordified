@@ -302,6 +302,9 @@ request
 :
 &
 Http3OrWebTransportStream
+now
+:
+Instant
 )
 {
 request
@@ -349,6 +352,7 @@ request
 send_data
 (
 RESPONSE_DATA
+now
 )
 .
 unwrap
@@ -359,6 +363,7 @@ request
 .
 stream_close_send
 (
+now
 )
 .
 unwrap
@@ -373,6 +378,9 @@ server
 :
 &
 Http3Server
+now
+:
+Instant
 )
 {
 let
@@ -391,6 +399,7 @@ set_response
 (
 &
 request
+now
 )
 ;
 }
@@ -1172,6 +1181,9 @@ hconn_c
 stream_close_send
 (
 req
+now
+(
+)
 )
 .
 unwrap
@@ -1242,6 +1254,9 @@ process_server_events
 (
 &
 hconn_s
+now
+(
+)
 )
 ;
 let
@@ -1410,6 +1425,9 @@ hconn_c
 stream_close_send
 (
 req
+now
+(
+)
 )
 .
 unwrap
@@ -1631,6 +1649,9 @@ set_response
 (
 &
 request
+now
+(
+)
 )
 ;
 let
@@ -1879,6 +1900,9 @@ hconn_c
 stream_close_send
 (
 stream_id
+now
+(
+)
 )
 ?
 ;
@@ -2065,6 +2089,9 @@ send_data
 (
 &
 buf
+now
+(
+)
 )
 ?
 ;
@@ -2192,6 +2219,9 @@ send_data
 (
 &
 buf
+now
+(
+)
 )
 ?
 0
@@ -2481,6 +2511,9 @@ hconn_c
 stream_close_send
 (
 req
+now
+(
+)
 )
 .
 unwrap
@@ -2580,6 +2613,9 @@ request
 send_data
 (
 buf
+now
+(
+)
 )
 .
 unwrap
@@ -2758,6 +2794,9 @@ sent
 .
 .
 ]
+now
+(
+)
 )
 .
 unwrap
@@ -2896,6 +2935,9 @@ sent
 .
 .
 ]
+now
+(
+)
 )
 .
 unwrap
@@ -3192,6 +3234,9 @@ hconn_c
 stream_close_send
 (
 req
+now
+(
+)
 )
 .
 unwrap
@@ -3466,6 +3511,9 @@ set_response
 (
 &
 request_stream
+now
+(
+)
 )
 ;
 /
@@ -3634,6 +3682,7 @@ hconn_c
 stream_close_send
 (
 req
+now
 )
 .
 unwrap

@@ -113,7 +113,12 @@ use
 neqo_crypto
 :
 :
+{
+AeadTrait
+as
+_
 AuthenticationStatus
+}
 ;
 use
 test_fixture

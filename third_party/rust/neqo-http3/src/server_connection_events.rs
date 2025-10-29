@@ -110,6 +110,7 @@ header
 HeadersExt
 as
 _
+Bytes
 Header
 }
 ;
@@ -325,10 +326,7 @@ session_id
 StreamId
 datagram
 :
-Vec
-<
-u8
->
+Bytes
 }
 }
 #
@@ -388,10 +386,7 @@ session_id
 StreamId
 datagram
 :
-Vec
-<
-u8
->
+Bytes
 }
 }
 #
@@ -1000,10 +995,7 @@ session_id
 StreamId
 datagram
 :
-Vec
-<
-u8
->
+Bytes
 connect_type
 :
 ExtendedConnectType
