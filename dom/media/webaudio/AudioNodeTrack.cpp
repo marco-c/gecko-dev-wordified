@@ -2897,6 +2897,10 @@ size
 if
 (
 finished
+&
+&
+!
+mMarkAsEndedAfterThisBlock
 )
 {
 mMarkAsEndedAfterThisBlock
