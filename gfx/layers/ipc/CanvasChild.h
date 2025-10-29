@@ -297,14 +297,6 @@ ipc
 :
 :
 IPCResult
-RecvNotifyDeviceChanged
-(
-)
-;
-ipc
-:
-:
-IPCResult
 RecvNotifyDeviceReset
 (
 const

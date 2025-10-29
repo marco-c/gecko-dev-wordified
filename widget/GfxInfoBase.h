@@ -575,15 +575,6 @@ aOutValue
 override
 ;
 NS_IMETHOD
-GetUsingRemoteCanvas
-(
-bool
-*
-aOutValue
-)
-override
-;
-NS_IMETHOD
 GetUsingAcceleratedCanvas
 (
 bool

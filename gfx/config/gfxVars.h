@@ -639,13 +639,6 @@ nsCString
 \
 _
 (
-RemoteCanvasEnabled
-bool
-false
-)
-\
-_
-(
 UseDoubleBufferingWithCompositor
 bool
 false
