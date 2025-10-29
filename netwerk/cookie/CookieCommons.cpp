@@ -2970,7 +2970,7 @@ cookie
 cookie
 -
 >
-SetLastAccessed
+SetLastAccessedInUSec
 (
 currentTimeInUsec
 )
@@ -2978,12 +2978,12 @@ currentTimeInUsec
 cookie
 -
 >
-SetCreationTime
+SetCreationTimeInUSec
 (
 Cookie
 :
 :
-GenerateUniqueCreationTime
+GenerateUniqueCreationTimeInUSec
 (
 currentTimeInUsec
 )
