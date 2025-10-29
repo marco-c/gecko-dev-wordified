@@ -12250,11 +12250,11 @@ output
 ;
 masm
 .
-fsgnj_s
+copySignFloat32
 (
-output
 lhs
 rhs
+output
 )
 ;
 }
@@ -12310,11 +12310,11 @@ output
 ;
 masm
 .
-fsgnj_d
+copySignDouble
 (
-output
 lhs
 rhs
+output
 )
 ;
 }
