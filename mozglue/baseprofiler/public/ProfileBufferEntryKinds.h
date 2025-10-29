@@ -302,16 +302,6 @@ uint64_t
 \
 MACRO
 (
-SourceId
-uint32_t
-sizeof
-(
-uint32_t
-)
-)
-\
-MACRO
-(
 LineNumber
 int
 sizeof

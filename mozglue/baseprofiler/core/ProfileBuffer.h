@@ -345,8 +345,6 @@ uint32_t
 aFrameFlags
 uint64_t
 aInnerWindowID
-uint32_t
-aSourceId
 const
 Maybe
 <

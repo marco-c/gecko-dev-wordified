@@ -1425,7 +1425,6 @@ registerProfileCaptureForBrowser
 browser
 profileCaptureResult
 null
-null
 )
 ;
 return
@@ -1522,13 +1521,6 @@ registerProfileCaptureForBrowser
 browser
 profileCaptureResult
 symbolicationService
-additionalInformation
-?
-.
-jsSources
-?
-?
-null
 )
 ;
 }

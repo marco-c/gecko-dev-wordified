@@ -380,7 +380,7 @@ mozilla
 :
 ProfileAndAdditionalInformation
 nsresult
-true
+false
 >
 ;
 using
