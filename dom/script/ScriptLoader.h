@@ -2994,6 +2994,9 @@ aReferrerPolicy
 ScriptFetchOptions
 *
 aFetchOptions
+nsIURI
+*
+aURI
 ScriptLoadRequest
 *
 aRequest

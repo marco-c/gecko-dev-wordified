@@ -3463,6 +3463,7 @@ TryUseCache
 (
 aReferrerPolicy
 aFetchOptions
+aURI
 request
 aElement
 aFetchOptions
@@ -3708,6 +3709,7 @@ TryUseCache
 (
 aReferrerPolicy
 aOptions
+aURI
 request
 )
 ;

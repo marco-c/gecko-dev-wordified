@@ -7775,6 +7775,7 @@ TryUseCache
 (
 aReferrerPolicy
 fetchOptions
+aURI
 request
 aElement
 aNonce
@@ -7800,6 +7801,9 @@ aReferrerPolicy
 ScriptFetchOptions
 *
 aFetchOptions
+nsIURI
+*
+aURI
 ScriptLoadRequest
 *
 aRequest
@@ -7832,6 +7836,7 @@ NoCacheEntryFound
 (
 aReferrerPolicy
 aFetchOptions
+aURI
 )
 ;
 LOG
@@ -7902,6 +7907,7 @@ NoCacheEntryFound
 (
 aReferrerPolicy
 aFetchOptions
+aURI
 )
 ;
 LOG
@@ -8059,6 +8065,7 @@ NoCacheEntryFound
 (
 aReferrerPolicy
 aFetchOptions
+aURI
 )
 ;
 LOG
@@ -8169,6 +8176,7 @@ NoCacheEntryFound
 (
 aReferrerPolicy
 aFetchOptions
+aURI
 )
 ;
 LOG

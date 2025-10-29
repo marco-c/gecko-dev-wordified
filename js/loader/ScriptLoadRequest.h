@@ -1183,6 +1183,9 @@ aReferrerPolicy
 ScriptFetchOptions
 *
 aFetchOptions
+nsIURI
+*
+aURI
 )
 ;
 bool
