@@ -840,7 +840,6 @@ ModuleLoadRequest
 (
 aURI
 moduleType
-aReferrerPolicy
 aOptions
 SRIMetadata
 (

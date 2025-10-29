@@ -3440,7 +3440,6 @@ ModuleType
 :
 :
 JavaScript
-aReferrerPolicy
 aFetchOptions
 aIntegrity
 aReferrer
@@ -3692,7 +3691,6 @@ ModuleLoadRequest
 (
 aURI
 moduleType
-aReferrerPolicy
 aOptions
 aSriMetadata
 aBaseURL
