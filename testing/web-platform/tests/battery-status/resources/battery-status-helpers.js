@@ -99,12 +99,12 @@ assert_implements
 (
 navigator
 .
-battery
+getBattery
 '
 missing
 navigator
 .
-battery
+getBattery
 '
 )
 ;
