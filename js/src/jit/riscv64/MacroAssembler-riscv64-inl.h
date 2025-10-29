@@ -12298,12 +12298,11 @@ Register64
 reg
 )
 {
-sub
+neg
 (
 reg
 .
 reg
-zero
 reg
 .
 reg
@@ -12320,10 +12319,9 @@ Register
 reg
 )
 {
-sub
+neg
 (
 reg
-zero
 reg
 )
 ;
@@ -12338,10 +12336,9 @@ Register
 reg
 )
 {
-subw
+negw
 (
 reg
-zero
 reg
 )
 ;
