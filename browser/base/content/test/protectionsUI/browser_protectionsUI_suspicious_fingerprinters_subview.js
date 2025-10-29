@@ -594,6 +594,12 @@ onload
 =
 resolve
 ;
+ifr
+.
+src
+=
+testUrl
+;
 content
 .
 document
@@ -604,12 +610,6 @@ appendChild
 (
 ifr
 )
-;
-ifr
-.
-src
-=
-testUrl
 ;
 }
 )
