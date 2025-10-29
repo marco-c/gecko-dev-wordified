@@ -496,11 +496,6 @@ MDefinition
 input
 )
 ;
-template
-<
-size_t
-Temps
->
 void
 lowerForFPU
 (
@@ -508,7 +503,7 @@ LInstructionHelper
 <
 1
 2
-Temps
+0
 >
 *
 ins
