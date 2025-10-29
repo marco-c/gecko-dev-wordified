@@ -666,11 +666,6 @@ WindowsConsole
 cpp
 "
 "
-WindowsTestDebug
-.
-cpp
-"
-"
 WinEventObserver
 .
 cpp
@@ -935,11 +930,6 @@ XPIDL_SOURCES
 [
 "
 nsIAlertsServiceRust
-.
-idl
-"
-"
-nsIWindowsTestDebug
 .
 idl
 "
