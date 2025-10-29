@@ -1155,6 +1155,9 @@ ktmw32
 rpcrt4
 "
 "
+shcore
+"
+"
 urlmon
 "
 "
