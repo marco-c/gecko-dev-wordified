@@ -33,9 +33,9 @@ startup
 ;
 1
 "
-Ci
-.
+"
 amIAddonManagerStartup
+"
 )
 ;
 XPCOMUtils
@@ -57,9 +57,9 @@ clipboardhelper
 ;
 1
 "
-Ci
-.
+"
 nsIClipboardHelper
+"
 )
 ;
 /

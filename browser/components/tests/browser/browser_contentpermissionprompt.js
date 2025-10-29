@@ -47,9 +47,9 @@ prompt
 ;
 1
 "
-Ci
-.
+"
 nsIContentPermissionPrompt
+"
 )
 ;
 /

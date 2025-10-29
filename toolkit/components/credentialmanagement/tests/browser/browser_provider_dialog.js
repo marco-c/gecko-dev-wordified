@@ -80,9 +80,9 @@ identitycredentialpromptservice
 ;
 1
 "
-Ci
-.
+"
 nsIIdentityCredentialPromptService
+"
 )
 ;
 const

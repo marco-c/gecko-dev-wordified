@@ -222,9 +222,9 @@ name
 =
 resource
 "
-Ci
-.
+"
 nsISubstitutingProtocolHandler
+"
 )
 ;
 /

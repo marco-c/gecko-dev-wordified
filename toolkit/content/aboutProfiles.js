@@ -108,9 +108,9 @@ service
 ;
 1
 "
-Ci
-.
+"
 nsIToolkitProfileService
+"
 )
 ;
 async

@@ -223,9 +223,9 @@ clipboardhelper
 ;
 1
 "
-Ci
-.
+"
 nsIClipboardHelper
+"
 )
 ;
 XPCOMUtils
@@ -247,9 +247,9 @@ info
 ;
 1
 "
-Ci
-.
+"
 nsIGfxInfo
+"
 )
 ;
 /

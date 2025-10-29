@@ -243,9 +243,9 @@ prompter
 ;
 1
 "
-Ci
-.
+"
 nsIPromptService
+"
 )
 ;
 var

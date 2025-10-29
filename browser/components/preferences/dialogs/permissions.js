@@ -137,9 +137,9 @@ list
 ;
 1
 "
-Ci
-.
+"
 nsIContentBlockingAllowList
+"
 )
 ;
 const

@@ -114,9 +114,9 @@ service
 ;
 1
 "
-Ci
-.
+"
 nsIStorageActivityService
+"
 )
 ;
 XPCOMUtils
@@ -138,9 +138,9 @@ manager
 ;
 1
 "
-Ci
-.
+"
 nsIServiceWorkerManager
+"
 )
 ;
 const

@@ -181,9 +181,9 @@ service
 ;
 1
 "
-Ci
-.
+"
 nsIPurgeTrackerService
+"
 )
 ;
 add_task

@@ -178,9 +178,9 @@ provider
 ;
 1
 "
-Ci
-.
+"
 nsIXREDirProvider
+"
 )
 ;
 const

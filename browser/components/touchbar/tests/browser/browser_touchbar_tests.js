@@ -75,9 +75,9 @@ touchbarhelper
 ;
 1
 "
-Ci
-.
+"
 nsITouchBarHelper
+"
 )
 ;
 XPCOMUtils
@@ -99,9 +99,9 @@ touchbarinput
 ;
 1
 "
-Ci
-.
+"
 nsITouchBarInput
+"
 )
 ;
 const

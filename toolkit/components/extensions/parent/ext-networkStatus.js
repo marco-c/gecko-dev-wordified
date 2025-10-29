@@ -129,9 +129,9 @@ service
 ;
 1
 "
-Ci
-.
+"
 nsINetworkLinkService
+"
 )
 ;
 function

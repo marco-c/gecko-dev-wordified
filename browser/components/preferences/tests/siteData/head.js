@@ -230,9 +230,9 @@ manager
 ;
 1
 "
-Ci
-.
+"
 nsIServiceWorkerManager
+"
 )
 ;
 function

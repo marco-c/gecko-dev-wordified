@@ -126,9 +126,9 @@ override
 ;
 1
 "
-Ci
-.
+"
 nsINativeDNSResolverOverride
+"
 )
 ;
 /

@@ -101,9 +101,9 @@ override
 ;
 1
 "
-Ci
-.
+"
 nsINativeDNSResolverOverride
+"
 )
 ;
 add_task
