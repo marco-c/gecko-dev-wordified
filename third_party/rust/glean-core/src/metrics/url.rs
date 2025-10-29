@@ -1035,12 +1035,14 @@ unwrap_or
 }
 impl
 TestGetValue
-<
-String
->
 for
 UrlMetric
 {
+type
+Output
+=
+String
+;
 /
 /
 /

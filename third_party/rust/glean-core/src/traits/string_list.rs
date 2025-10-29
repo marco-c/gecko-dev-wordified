@@ -123,6 +123,8 @@ StringList
 :
 TestGetValue
 <
+Output
+=
 Vec
 <
 String

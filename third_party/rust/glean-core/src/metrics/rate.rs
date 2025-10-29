@@ -1150,12 +1150,14 @@ unwrap_or
 }
 impl
 TestGetValue
-<
-Rate
->
 for
 RateMetric
 {
+type
+Output
+=
+Rate
+;
 /
 /
 /

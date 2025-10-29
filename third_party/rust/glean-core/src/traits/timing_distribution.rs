@@ -150,6 +150,8 @@ TimingDistribution
 :
 TestGetValue
 <
+Output
+=
 DistributionData
 >
 {

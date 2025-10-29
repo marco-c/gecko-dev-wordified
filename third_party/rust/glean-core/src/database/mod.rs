@@ -4133,7 +4133,7 @@ value
 log
 :
 :
-error
+info
 !
 (
 "
@@ -4602,7 +4602,7 @@ transform
 log
 :
 :
-error
+info
 !
 (
 "

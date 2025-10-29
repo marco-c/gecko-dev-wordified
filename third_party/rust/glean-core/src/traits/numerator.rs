@@ -129,6 +129,8 @@ Numerator
 :
 TestGetValue
 <
+Output
+=
 Rate
 >
 {

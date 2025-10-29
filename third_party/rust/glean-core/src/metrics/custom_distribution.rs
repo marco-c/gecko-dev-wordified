@@ -1852,12 +1852,14 @@ hist
 }
 impl
 TestGetValue
-<
-DistributionData
->
 for
 CustomDistributionMetric
 {
+type
+Output
+=
+DistributionData
+;
 /
 /
 /

@@ -127,6 +127,8 @@ CustomDistribution
 :
 TestGetValue
 <
+Output
+=
 DistributionData
 >
 {

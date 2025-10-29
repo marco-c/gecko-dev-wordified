@@ -558,12 +558,14 @@ error
 }
 impl
 TestGetValue
-<
-Rate
->
 for
 NumeratorMetric
 {
+type
+Output
+=
+Rate
+;
 /
 /
 /

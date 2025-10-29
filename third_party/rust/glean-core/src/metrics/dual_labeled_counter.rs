@@ -1785,7 +1785,12 @@ unwrap_or
 }
 impl
 TestGetValue
-<
+for
+DualLabeledCounterMetric
+{
+type
+Output
+=
 HashMap
 <
 String
@@ -1795,10 +1800,7 @@ String
 i32
 >
 >
->
-for
-DualLabeledCounterMetric
-{
+;
 fn
 test_get_value
 (

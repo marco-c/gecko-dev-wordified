@@ -906,12 +906,14 @@ unwrap_or
 }
 impl
 TestGetValue
-<
-String
->
 for
 TextMetric
 {
+type
+Output
+=
+String
+;
 /
 /
 /

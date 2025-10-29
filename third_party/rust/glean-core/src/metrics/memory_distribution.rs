@@ -2159,12 +2159,14 @@ hist
 }
 impl
 TestGetValue
-<
-DistributionData
->
 for
 MemoryDistributionMetric
 {
+type
+Output
+=
+DistributionData
+;
 /
 /
 /

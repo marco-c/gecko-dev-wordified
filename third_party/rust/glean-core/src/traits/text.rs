@@ -123,6 +123,8 @@ Text
 :
 TestGetValue
 <
+Output
+=
 String
 >
 {

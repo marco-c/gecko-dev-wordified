@@ -1200,7 +1200,7 @@ start_time
 zeitstempel
 :
 :
-now
+now_awake
 (
 )
 ;
@@ -1273,7 +1273,7 @@ start_time
 zeitstempel
 :
 :
-now
+now_awake
 (
 )
 ;
@@ -1555,7 +1555,7 @@ stop_time
 zeitstempel
 :
 :
-now
+now_awake
 (
 )
 ;
@@ -4469,12 +4469,14 @@ hist
 }
 impl
 TestGetValue
-<
-DistributionData
->
 for
 TimingDistributionMetric
 {
+type
+Output
+=
+DistributionData
+;
 /
 /
 /

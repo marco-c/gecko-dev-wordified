@@ -133,6 +133,8 @@ DualLabeledCounter
 :
 TestGetValue
 <
+Output
+=
 HashMap
 <
 String

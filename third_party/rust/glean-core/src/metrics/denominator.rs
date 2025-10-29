@@ -840,12 +840,14 @@ unwrap_or
 }
 impl
 TestGetValue
-<
-i32
->
 for
 DenominatorMetric
 {
+type
+Output
+=
+i32
+;
 /
 /
 /

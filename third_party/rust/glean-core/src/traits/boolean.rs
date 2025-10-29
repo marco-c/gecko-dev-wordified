@@ -123,6 +123,8 @@ Boolean
 :
 TestGetValue
 <
+Output
+=
 bool
 >
 {

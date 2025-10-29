@@ -480,7 +480,7 @@ start_time
 zeitstempel
 :
 :
-now
+now_awake
 (
 )
 ;
@@ -664,7 +664,7 @@ stop_time
 zeitstempel
 :
 :
-now
+now_awake
 (
 )
 ;
@@ -1928,12 +1928,14 @@ unwrap_or
 }
 impl
 TestGetValue
-<
-i64
->
 for
 TimespanMetric
 {
+type
+Output
+=
+i64
+;
 /
 /
 /

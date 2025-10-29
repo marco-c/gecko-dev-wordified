@@ -1012,12 +1012,14 @@ unwrap_or
 }
 impl
 TestGetValue
-<
-i32
->
 for
 CounterMetric
 {
+type
+Output
+=
+i32
+;
 /
 /
 /

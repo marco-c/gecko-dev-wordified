@@ -1062,12 +1062,14 @@ unwrap_or
 }
 impl
 TestGetValue
-<
-String
->
 for
 UuidMetric
 {
+type
+Output
+=
+String
+;
 /
 /
 /

@@ -123,6 +123,8 @@ String
 :
 TestGetValue
 <
+Output
+=
 std
 :
 :

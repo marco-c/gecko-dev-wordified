@@ -119,6 +119,8 @@ Rate
 :
 TestGetValue
 <
+Output
+=
 crate
 :
 :

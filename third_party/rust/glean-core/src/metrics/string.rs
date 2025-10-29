@@ -864,12 +864,14 @@ unwrap_or
 }
 impl
 TestGetValue
-<
-String
->
 for
 StringMetric
 {
+type
+Output
+=
+String
+;
 /
 /
 /

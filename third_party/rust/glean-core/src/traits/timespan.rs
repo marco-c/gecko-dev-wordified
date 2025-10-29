@@ -132,6 +132,8 @@ Timespan
 :
 TestGetValue
 <
+Output
+=
 u64
 >
 {
