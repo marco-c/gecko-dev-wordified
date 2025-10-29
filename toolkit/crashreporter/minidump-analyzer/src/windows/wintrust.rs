@@ -578,6 +578,10 @@ u8
 Option
 <
 CATInfo
+<
+'
+_
+>
 >
 {
 let
