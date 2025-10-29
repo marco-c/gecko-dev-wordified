@@ -136,6 +136,15 @@ FuzzerRegistry
 h
 "
 #
+include
+"
+mozilla
+/
+Assertions
+.
+h
+"
+#
 ifndef
 JS_STANDALONE
 #

@@ -140,6 +140,15 @@ include
 "
 mozilla
 /
+HashTable
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Mutex
 .
 h
