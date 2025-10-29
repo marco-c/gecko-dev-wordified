@@ -1501,6 +1501,9 @@ char
 label_
 ;
 uint32_t
+sourceId_
+;
+uint32_t
 depth_
 ;
 ProfiledFrameHandle
@@ -1524,6 +1527,8 @@ const
 char
 *
 label
+uint32_t
+sourceId
 uint32_t
 depth
 )
@@ -1576,6 +1581,13 @@ const
 JS_PUBLIC_API
 uint64_t
 realmID
+(
+)
+const
+;
+JS_PUBLIC_API
+uint32_t
+sourceId
 (
 )
 const
@@ -1829,6 +1841,12 @@ const
 char
 *
 labels_
+[
+64
+]
+;
+uint32_t
+sourceIds_
 [
 64
 ]

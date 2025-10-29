@@ -1193,6 +1193,16 @@ void
 >
 &
 aJITAddressProvider
+const
+nsTHashMap
+<
+SourceId
+IndexIntoSourceTable
+>
+*
+aSourceIdToIndexMap
+=
+nullptr
 )
 ;
 /

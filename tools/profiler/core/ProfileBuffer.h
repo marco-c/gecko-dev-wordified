@@ -461,6 +461,16 @@ mozilla
 :
 ProgressLogger
 aProgressLogger
+const
+nsTHashMap
+<
+SourceId
+IndexIntoSourceTable
+>
+*
+aSourceIdToIndexMap
+=
+nullptr
 )
 const
 ;

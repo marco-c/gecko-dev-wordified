@@ -842,6 +842,7 @@ JIT
 info
 "
 )
+aSourceIdToIndexMap
 )
 ;
 }
