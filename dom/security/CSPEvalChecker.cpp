@@ -321,13 +321,6 @@ use
 in
 the
 SystemPrincipal
-#
-if
-!
-defined
-(
-ANDROID
-)
 JSContext
 *
 cx
@@ -367,8 +360,6 @@ return
 NS_OK
 ;
 }
-#
-endif
 if
 (
 !
