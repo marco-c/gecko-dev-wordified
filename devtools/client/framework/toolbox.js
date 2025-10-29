@@ -1643,6 +1643,12 @@ isTracerFeatureEnabled
 }
 }
 ;
+exports
+.
+BOOLEAN_CONFIGURATION_PREFS
+=
+BOOLEAN_CONFIGURATION_PREFS
+;
 /
 *
 *
