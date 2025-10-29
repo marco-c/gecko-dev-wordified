@@ -138,15 +138,6 @@ h
 #
 include
 "
-mozilla
-/
-Types
-.
-h
-"
-#
-include
-"
 builtin
 /
 AtomicsObject

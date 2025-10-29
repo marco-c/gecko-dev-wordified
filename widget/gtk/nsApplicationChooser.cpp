@@ -95,15 +95,6 @@ MPL
 /
 #
 include
-"
-mozilla
-/
-Types
-.
-h
-"
-#
-include
 <
 gtk
 /

@@ -120,15 +120,6 @@ mozilla_SandboxChrootProto_h
 #
 define
 mozilla_SandboxChrootProto_h
-#
-include
-"
-mozilla
-/
-Types
-.
-h
-"
 namespace
 mozilla
 {

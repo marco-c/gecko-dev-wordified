@@ -72,15 +72,6 @@ h
 #
 include
 "
-mozilla
-/
-Types
-.
-h
-"
-#
-include
-"
 prnetdb
 .
 h

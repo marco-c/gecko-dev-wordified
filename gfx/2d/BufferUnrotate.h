@@ -122,13 +122,9 @@ define
 MOZILLA_GFX_BUFFER_UNROTATE_H
 #
 include
-"
-mozilla
-/
-Types
-.
-h
-"
+<
+cstdint
+>
 namespace
 mozilla
 {

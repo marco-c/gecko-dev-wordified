@@ -162,15 +162,6 @@ include
 "
 mozilla
 /
-Types
-.
-h
-"
-#
-include
-"
-mozilla
-/
 WindowsDllBlocklist
 .
 h

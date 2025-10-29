@@ -120,15 +120,6 @@ mozilla_hal_WindowIdentifier_h
 #
 include
 "
-mozilla
-/
-Types
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
