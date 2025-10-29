@@ -2556,6 +2556,16 @@ uint32_t
 aFlags
 )
 {
+MOZ_ASSERT
+(
+aTo
+-
+aFrom
+=
+=
+WEBAUDIO_BLOCK_SIZE
+)
+;
 uint16_t
 outputCount
 =
