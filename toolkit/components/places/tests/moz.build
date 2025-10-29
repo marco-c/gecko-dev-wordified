@@ -194,6 +194,15 @@ toml
 "
 browser
 /
+performance
+/
+perftest
+.
+toml
+"
+"
+browser
+/
 previews
 /
 browser
