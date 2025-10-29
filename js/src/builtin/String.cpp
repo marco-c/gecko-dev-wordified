@@ -7143,6 +7143,16 @@ defaultLocale
 cx
 )
 ;
+if
+(
+!
+requestedLocale
+)
+{
+return
+nullptr
+;
+}
 }
 /
 /
