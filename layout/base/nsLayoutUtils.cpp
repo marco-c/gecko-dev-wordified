@@ -9102,7 +9102,12 @@ f
 )
 )
 {
-return
+if
+(
+nsIFrame
+*
+root
+=
 f
 -
 >
@@ -9114,7 +9119,12 @@ PresShell
 GetRootScrollContainerFrame
 (
 )
+)
+{
+return
+root
 ;
+}
 }
 }
 return
