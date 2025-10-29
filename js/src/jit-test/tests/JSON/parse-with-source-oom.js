@@ -5,17 +5,6 @@ jit
 -
 test
 |
--
--
-enable
--
-json
--
-parse
--
-with
--
-source
 oomTest
 (
 (
