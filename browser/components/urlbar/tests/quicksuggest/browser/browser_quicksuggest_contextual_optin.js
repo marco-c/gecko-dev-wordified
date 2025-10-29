@@ -55,7 +55,7 @@ clear
 "
 quicksuggest
 .
-dataCollection
+online
 .
 enabled
 "
@@ -217,7 +217,7 @@ set
 "
 quicksuggest
 .
-dataCollection
+online
 .
 enabled
 "
@@ -387,7 +387,7 @@ get
 "
 quicksuggest
 .
-dataCollection
+online
 .
 enabled
 "
@@ -474,7 +474,7 @@ set
 "
 quicksuggest
 .
-dataCollection
+online
 .
 enabled
 "
@@ -1063,7 +1063,7 @@ set
 "
 quicksuggest
 .
-dataCollection
+online
 .
 enabled
 "
@@ -1441,7 +1441,7 @@ set
 "
 quicksuggest
 .
-dataCollection
+online
 .
 enabled
 "
