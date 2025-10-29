@@ -197,6 +197,22 @@ unified
 "
         
 "
+base_ref
+"
+:
+"
+mybranch
+"
+        
+"
+base_rev
+"
+:
+"
+1234
+"
+        
+"
 head_repository
 "
 :
@@ -569,16 +585,6 @@ gecko_taskgraph
 .
 decision
 .
-_determine_more_accurate_base_rev
-"
-)
-patch
-(
-"
-gecko_taskgraph
-.
-decision
-.
 get_changed_files
 "
 )
@@ -894,8 +900,6 @@ test_get_decision_parameters
     
 mock_get_changed_files
     
-mock_determine_more_accurate_base_rev
-    
 mock_get_repository
     
 mock_get_hg_revision_branch
@@ -962,14 +966,6 @@ mock_get_repository
 return_value
 =
 mock_repo
-    
-mock_determine_more_accurate_base_rev
-.
-return_value
-=
-"
-baserev
-"
     
 mock_get_changed_files
 .
