@@ -137,16 +137,6 @@ moxInsertionPointLineNumber
 override
 -
 (
-NSString
-*
-)
-moxRole
-;
-/
-/
-override
--
-(
 NSNumber
 *
 )
