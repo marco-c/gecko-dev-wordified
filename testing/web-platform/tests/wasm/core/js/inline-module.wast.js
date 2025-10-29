@@ -16,7 +16,7 @@ wast
 let
 1
 =
-instance
+module
 (
 "
 \
@@ -155,6 +155,15 @@ x00
 x00
 \
 x0b
+"
+"
+inline
+-
+module
+.
+wast
+:
+1
 "
 )
 ;
