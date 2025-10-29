@@ -2991,6 +2991,9 @@ TryUseCache
 (
 ReferrerPolicy
 aReferrerPolicy
+ScriptFetchOptions
+*
+aFetchOptions
 ScriptLoadRequest
 *
 aRequest

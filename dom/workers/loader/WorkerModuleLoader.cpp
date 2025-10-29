@@ -983,6 +983,7 @@ request
 NoCacheEntryFound
 (
 aReferrerPolicy
+aOptions
 )
 ;
 return

@@ -3463,6 +3463,7 @@ GetScriptLoader
 TryUseCache
 (
 aReferrerPolicy
+aFetchOptions
 request
 aElement
 aFetchOptions
@@ -3708,6 +3709,7 @@ GetScriptLoader
 TryUseCache
 (
 aReferrerPolicy
+aOptions
 request
 )
 ;
