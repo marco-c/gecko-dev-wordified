@@ -63974,10 +63974,6 @@ UserNavigationInvolvement
 )
 sourceElement
 formData
-.
-forget
-(
-)
 navigationAPIStateForFiring
 /
 *

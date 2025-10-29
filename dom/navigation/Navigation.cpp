@@ -7166,10 +7166,8 @@ aUserInvolvement
 Element
 *
 aSourceElement
-already_AddRefed
-<
 FormData
->
+*
 aFormDataEntryList
 nsIStructuredCloneContainer
 *
@@ -7300,13 +7298,7 @@ UserNavigationInvolvement
 None
 )
 aSourceElement
-std
-:
-:
-move
-(
 aFormDataEntryList
-)
 aClassicHistoryAPIState
 /
 *
@@ -8497,10 +8489,8 @@ aUserInvolvement
 Element
 *
 aSourceElement
-already_AddRefed
-<
 FormData
->
+*
 aFormDataEntryList
 nsIStructuredCloneContainer
 *
