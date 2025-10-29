@@ -65,6 +65,8 @@ field
 from
 typing
 import
+Dict
+List
 Union
 from
 taskgraph
@@ -231,7 +233,7 @@ yml
     
 config
 :
-dict
+Dict
     
 #
 the
@@ -269,7 +271,7 @@ kind
     
 kind_dependencies_tasks
 :
-dict
+Dict
 [
 str
 Task
@@ -305,7 +307,12 @@ property
     
 functools
 .
-cache
+lru_cache
+(
+maxsize
+=
+None
+)
     
 def
 repo_configs
@@ -759,7 +766,7 @@ sequence
     
 _transforms
 :
-list
+List
 =
 field
 (

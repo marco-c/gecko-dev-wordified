@@ -73,12 +73,6 @@ redo
 import
 retry
 from
-taskcluster
-.
-exceptions
-import
-TaskclusterRestFailure
-from
 taskgraph
 import
 create
@@ -613,30 +607,8 @@ return
 True
     
 except
-(
 KeyError
-TaskclusterRestFailure
-)
-as
-e
 :
-        
-if
-isinstance
-(
-e
-TaskclusterRestFailure
-)
-and
-e
-.
-status_code
-!
-=
-404
-:
-            
-raise
         
 print
 (

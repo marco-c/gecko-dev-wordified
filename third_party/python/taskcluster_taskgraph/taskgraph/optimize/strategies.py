@@ -5,12 +5,6 @@ datetime
 import
 datetime
 from
-taskcluster
-.
-exceptions
-import
-TaskclusterRestFailure
-from
 taskgraph
 .
 optimize
@@ -386,10 +380,6 @@ failed
 "
 )
 :
-#
-type
-:
-ignore
                     
 logger
 .
@@ -437,11 +427,6 @@ status
 expires
 "
 ]
-#
-type
-:
-ignore
-                    
 self
 .
 fmt
@@ -494,10 +479,7 @@ return
 task_id
             
 except
-(
 KeyError
-TaskclusterRestFailure
-)
 :
                 
 #

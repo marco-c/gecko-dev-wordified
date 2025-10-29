@@ -176,7 +176,12 @@ succeed
 }
 functools
 .
-cache
+lru_cache
+(
+maxsize
+=
+None
+)
 def
 worker_type_implementation
 (
@@ -325,7 +330,12 @@ os
 )
 functools
 .
-cache
+lru_cache
+(
+maxsize
+=
+None
+)
 def
 get_worker_type
 (

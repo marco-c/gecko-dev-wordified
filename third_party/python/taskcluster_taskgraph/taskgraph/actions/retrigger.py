@@ -1014,10 +1014,6 @@ metadata
 name
 "
 ]
-#
-type
-:
-ignore
     
 with_downstream
 =
@@ -1369,10 +1365,6 @@ metadata
 name
 "
 ]
-#
-type
-:
-ignore
     
 if
 task_id
@@ -1578,25 +1570,11 @@ items
 {
                     
 "
-type
-"
-:
-"
-object
-"
-                    
-"
-properties
-"
-:
-{
-                        
-"
 tasks
 "
 :
 {
-                            
+                        
 "
 type
 "
@@ -1604,7 +1582,7 @@ type
 "
 array
 "
-                            
+                        
 "
 description
 "
@@ -1616,7 +1594,7 @@ of
 task
 labels
 "
-                            
+                        
 "
 items
 "
@@ -1630,15 +1608,15 @@ type
 string
 "
 }
-                        
+                    
 }
-                        
+                    
 "
 times
 "
 :
 {
-                            
+                        
 "
 type
 "
@@ -1646,19 +1624,19 @@ type
 "
 integer
 "
-                            
+                        
 "
 minimum
 "
 :
 1
-                            
+                        
 "
 maximum
 "
 :
 100
-                            
+                        
 "
 title
 "
@@ -1666,7 +1644,7 @@ title
 "
 Times
 "
-                            
+                        
 "
 description
 "
@@ -1681,8 +1659,6 @@ each
 task
 .
 "
-                        
-}
                     
 }
                     

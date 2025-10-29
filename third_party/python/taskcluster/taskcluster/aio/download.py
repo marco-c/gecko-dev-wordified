@@ -133,10 +133,6 @@ import
 contextlib
 import
 datetime
-from
-datetime
-import
-timezone
 import
 hashlib
 from
@@ -677,6 +673,14 @@ has
 now
 expired
             
+#
+get
+a
+new
+one
+before
+proceeding
+            
 if
 downloadRespUsed
 and
@@ -694,11 +698,8 @@ datetime
 .
 datetime
 .
-now
+utcnow
 (
-timezone
-.
-utc
 )
 :
                 

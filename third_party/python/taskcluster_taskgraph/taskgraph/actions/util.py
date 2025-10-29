@@ -76,12 +76,6 @@ exceptions
 import
 HTTPError
 from
-taskcluster
-.
-exceptions
-import
-TaskclusterRestFailure
-from
 taskgraph
 import
 create
@@ -194,10 +188,7 @@ graph_config
 )
     
 except
-(
 KeyError
-TaskclusterRestFailure
-)
 :
         
 if
@@ -390,6 +381,9 @@ task_id
 "
 )
             
+try
+:
+                
 run_label_to_id
 =
 get_artifact
@@ -407,12 +401,6 @@ taskid
 json
 "
 )
-            
-if
-label_to_taskid
-and
-run_label_to_id
-:
                 
 label_to_taskid
 .
@@ -421,8 +409,24 @@ update
 run_label_to_id
 )
             
-else
+except
+HTTPError
+as
+e
 :
+                
+if
+e
+.
+response
+.
+status_code
+!
+=
+404
+:
+                    
+raise
                 
 logger
 .
@@ -672,10 +676,6 @@ update
 (
 run_label_to_id
 )
-#
-type
-:
-ignore
             
 except
 HTTPError

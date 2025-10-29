@@ -73,6 +73,8 @@ from
 typing
 import
 Callable
+Dict
+List
 Union
 from
 taskgraph
@@ -199,35 +201,6 @@ frozen
 True
 )
 class
-GraphConfigVerification
-(
-Verification
-)
-:
-    
-def
-verify
-(
-self
-graph_config
-:
-GraphConfig
-)
-:
-        
-self
-.
-func
-(
-graph_config
-)
-dataclass
-(
-frozen
-=
-True
-)
-class
 GraphVerification
 (
 Verification
@@ -251,7 +224,7 @@ run_on_projects
 :
 Union
 [
-list
+List
 None
 ]
 =
@@ -514,7 +487,7 @@ task
     
 _verifications
 :
-dict
+Dict
 =
 field
 (
@@ -532,12 +505,6 @@ graph
 "
 :
 GraphVerification
-        
-"
-graph_config
-"
-:
-GraphConfigVerification
         
 "
 initial

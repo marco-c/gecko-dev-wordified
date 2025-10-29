@@ -54,15 +54,12 @@ MPL
 /
 .
 from
-collections
-.
-abc
-import
-Generator
-from
 typing
 import
 Any
+Dict
+Generator
+Tuple
 from
 taskgraph
 .
@@ -77,7 +74,7 @@ iter_dot_path
     
 container
 :
-dict
+Dict
 [
 str
 Any
@@ -90,9 +87,9 @@ str
 >
 Generator
 [
-tuple
+Tuple
 [
-dict
+Dict
 [
 str
 Any

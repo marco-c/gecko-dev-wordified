@@ -60,6 +60,7 @@ typing
 import
 TYPE_CHECKING
 Any
+Dict
 if
 TYPE_CHECKING
 :
@@ -77,7 +78,7 @@ get_checkout_dir
 (
 task
 :
-dict
+Dict
 [
 str
 Any
@@ -169,7 +170,7 @@ TransformConfig
 "
 task
 :
-dict
+Dict
 [
 str
 Any
