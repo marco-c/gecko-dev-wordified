@@ -130,6 +130,11 @@ UNIFIED_SOURCES
 =
 [
 "
+BaseAlgorithms
+.
+cpp
+"
+"
 CompressionStream
 .
 cpp
