@@ -59,15 +59,6 @@ MPL
 #
 include
 "
-mozilla
-/
-UniquePtr
-.
-h
-"
-#
-include
-"
 RemoteSpellCheckEngineChild
 .
 h

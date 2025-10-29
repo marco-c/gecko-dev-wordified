@@ -221,15 +221,6 @@ nsIObserverService
 h
 "
 #
-include
-"
-mozilla
-/
-UniquePtrExtensions
-.
-h
-"
-#
 endif
 using
 mozilla

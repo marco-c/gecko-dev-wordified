@@ -135,15 +135,6 @@ nsURLHelper
 .
 h
 "
-#
-include
-"
-mozilla
-/
-UniquePtrExtensions
-.
-h
-"
 namespace
 mozilla
 {

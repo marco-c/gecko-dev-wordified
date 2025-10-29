@@ -129,15 +129,6 @@ Attributes
 .
 h
 "
-#
-include
-"
-mozilla
-/
-UniquePtr
-.
-h
-"
 /
 /
 Interfaces

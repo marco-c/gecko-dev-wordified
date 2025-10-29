@@ -135,15 +135,6 @@ nsIRunnable
 h
 "
 #
-include
-"
-mozilla
-/
-UniquePtr
-.
-h
-"
-#
 if
 defined
 (

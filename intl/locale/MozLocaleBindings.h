@@ -84,15 +84,6 @@ fluent_langneg_ffi_generated
 .
 h
 "
-#
-include
-"
-mozilla
-/
-UniquePtr
-.
-h
-"
 namespace
 std
 {

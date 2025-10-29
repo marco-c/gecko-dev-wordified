@@ -168,15 +168,6 @@ nsString
 .
 h
 "
-#
-include
-"
-mozilla
-/
-UniquePtr
-.
-h
-"
 /
 /
 Prelude

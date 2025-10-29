@@ -152,15 +152,6 @@ TextureHost
 .
 h
 "
-#
-include
-"
-mozilla
-/
-UniquePtr
-.
-h
-"
 class
 nsIThreadPool
 ;

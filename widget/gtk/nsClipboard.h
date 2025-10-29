@@ -136,15 +136,6 @@ h
 #
 include
 "
-mozilla
-/
-UniquePtr
-.
-h
-"
-#
-include
-"
 nsBaseClipboard
 .
 h

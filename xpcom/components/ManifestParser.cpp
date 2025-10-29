@@ -126,15 +126,6 @@ h
 #
 include
 "
-mozilla
-/
-UniquePtr
-.
-h
-"
-#
-include
-"
 ManifestParser
 .
 h

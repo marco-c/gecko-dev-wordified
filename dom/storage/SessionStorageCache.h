@@ -125,15 +125,6 @@ include
 "
 mozilla
 /
-UniquePtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 LSWriteOptimizerImpl

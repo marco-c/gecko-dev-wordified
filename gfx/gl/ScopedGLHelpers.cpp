@@ -96,15 +96,6 @@ MPL
 #
 include
 "
-mozilla
-/
-UniquePtr
-.
-h
-"
-#
-include
-"
 GLContext
 .
 h

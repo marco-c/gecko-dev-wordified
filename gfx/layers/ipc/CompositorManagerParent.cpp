@@ -227,15 +227,6 @@ h
 #
 include
 "
-mozilla
-/
-UniquePtr
-.
-h
-"
-#
-include
-"
 gfxPlatform
 .
 h

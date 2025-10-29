@@ -213,15 +213,6 @@ h
 #
 include
 "
-mozilla
-/
-UniquePtr
-.
-h
-"
-#
-include
-"
 nsUrlClassifierDBService
 .
 h

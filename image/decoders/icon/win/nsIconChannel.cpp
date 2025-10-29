@@ -132,15 +132,6 @@ include
 "
 mozilla
 /
-UniquePtrExtensions
-.
-h
-"
-#
-include
-"
-mozilla
-/
 WindowsProcessMitigations
 .
 h

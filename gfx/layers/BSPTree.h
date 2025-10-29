@@ -144,15 +144,6 @@ include
 "
 mozilla
 /
-UniquePtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
 gfx
 /
 Polygon

@@ -108,15 +108,6 @@ utility
 #
 include
 "
-mozilla
-/
-UniquePtrExtensions
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h

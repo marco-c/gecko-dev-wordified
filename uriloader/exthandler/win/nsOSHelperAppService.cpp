@@ -184,15 +184,6 @@ nsXULAppAPI
 .
 h
 "
-#
-include
-"
-mozilla
-/
-UniquePtrExtensions
-.
-h
-"
 /
 /
 shellapi

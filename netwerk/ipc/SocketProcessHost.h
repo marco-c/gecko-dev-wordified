@@ -113,15 +113,6 @@ include
 "
 mozilla
 /
-UniquePtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ipc
 /
 GeckoChildProcessHost
