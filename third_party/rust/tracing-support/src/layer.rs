@@ -305,8 +305,9 @@ registered
 with
 register_event_sink
 will
+still
 be
-skiped
+processed
 .
 /
 /
@@ -731,8 +732,6 @@ send_event
 (
 event
 )
-;
-return
 ;
 }
 }
