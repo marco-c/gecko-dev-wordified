@@ -1014,10 +1014,10 @@ regexp_methods
 /
 Used
 in
-OptimizeRegExpPrototypeFuse
+RegExpObject
 :
 :
-checkInvariant
+isOriginalFlagGetter
 .
 [
 [
