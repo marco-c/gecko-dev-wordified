@@ -1440,6 +1440,11 @@ message
 :
               
 Fuzzy
+(
+preset
+:
+foo
+)
 query
 =
 '
@@ -3572,6 +3577,11 @@ message
 :
               
 Fuzzy
+(
+preset
+:
+foo
+)
 query
 =
 '
@@ -3686,6 +3696,11 @@ message
 :
               
 Fuzzy
+(
+preset
+:
+foo
+)
 query
 =
 '
@@ -3962,6 +3977,11 @@ message
 :
               
 Fuzzy
+(
+preset
+:
+foo
+)
 query
 =
 '
@@ -4091,6 +4111,11 @@ message
 :
               
 Fuzzy
+(
+preset
+:
+foo
+)
 query
 =
 '
@@ -4327,6 +4352,11 @@ message
 :
               
 Fuzzy
+(
+preset
+:
+foo
+)
 query
 =
 '
@@ -4615,6 +4645,11 @@ message
 :
               
 Fuzzy
+(
+preset
+:
+foo
+)
 query
 =
 '
