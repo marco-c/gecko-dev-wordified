@@ -5785,9 +5785,9 @@ Mainthread
 )
 )
 ;
-Unused
-<
-<
+(
+void
+)
 listener
 -
 >
@@ -6799,9 +6799,9 @@ aStatus
 (
 )
 {
-Unused
-<
-<
+(
+void
+)
 listener
 -
 >

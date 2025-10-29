@@ -3546,9 +3546,9 @@ all
 of
 them
 .
-Unused
-<
-<
+(
+void
+)
 mDeviceContext
 -
 >
@@ -9328,9 +9328,9 @@ default
 break
 ;
 }
-Unused
-<
-<
+(
+void
+)
 mDocument
 -
 >

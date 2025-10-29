@@ -648,9 +648,9 @@ mostly
 )
 asynchronously
 .
-Unused
-<
-<
+(
+void
+)
 GetPersistentMTAThread
 (
 )

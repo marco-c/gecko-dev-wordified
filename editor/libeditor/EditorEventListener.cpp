@@ -5313,9 +5313,9 @@ the
 things
 simpler
 .
-Unused
-<
-<
+(
+void
+)
 EnsureCommitComposition
 (
 )

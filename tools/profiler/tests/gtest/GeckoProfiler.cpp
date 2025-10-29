@@ -16758,12 +16758,9 @@ this
 unused
 struct
 .
-mozilla
-:
-:
-Unused
-<
-<
+(
+void
+)
 GtestUnusedMarker
 {
 }

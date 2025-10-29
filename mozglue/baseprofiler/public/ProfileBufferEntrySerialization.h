@@ -188,15 +188,6 @@ include
 "
 mozilla
 /
-Unused
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Variant
 .
 h

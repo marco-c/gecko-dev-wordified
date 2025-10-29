@@ -3761,9 +3761,9 @@ CSP
 deserialization
 code
 .
-Unused
-<
-<
+(
+void
+)
 NS_ReadOptionalObject
 (
 aStream

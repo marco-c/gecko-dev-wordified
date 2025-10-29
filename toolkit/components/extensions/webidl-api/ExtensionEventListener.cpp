@@ -3877,9 +3877,9 @@ Failed
 ceh
 )
 {
-Unused
-<
-<
+(
+void
+)
 NS_WARN_IF
 (
 !

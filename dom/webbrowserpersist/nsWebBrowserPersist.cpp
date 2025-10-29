@@ -15595,9 +15595,9 @@ username
 password
 if
 present
-Unused
-<
-<
+(
+void
+)
 NS_MutateURI
 (
 fileAsURI

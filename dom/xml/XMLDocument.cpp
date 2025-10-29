@@ -1434,9 +1434,9 @@ result
 ElementCreationOptionsOrString
 options
 ;
-Unused
-<
-<
+(
+void
+)
 options
 .
 SetAsString

@@ -2932,9 +2932,9 @@ set
 #
 ifndef
 MOZ_DIAGNOSTIC_ASSERT_ENABLED
-Unused
-<
-<
+(
+void
+)
 found
 ;
 #

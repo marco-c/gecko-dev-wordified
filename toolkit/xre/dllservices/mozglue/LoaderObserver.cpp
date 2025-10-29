@@ -550,9 +550,9 @@ ModuleLoadInfoVec
 )
 ;
 }
-Unused
-<
-<
+(
+void
+)
 mModuleLoads
 -
 >
@@ -820,9 +820,9 @@ item
 aInfo
 )
 {
-Unused
-<
-<
+(
+void
+)
 mModuleLoads
 -
 >

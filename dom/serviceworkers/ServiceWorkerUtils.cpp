@@ -2163,9 +2163,9 @@ that
 nsAutoCString
 ref
 ;
-Unused
-<
-<
+(
+void
+)
 aScopeURI
 -
 >
@@ -2205,9 +2205,9 @@ URL
 return
 ;
 }
-Unused
-<
-<
+(
+void
+)
 aScriptURI
 -
 >

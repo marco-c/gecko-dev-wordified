@@ -1577,9 +1577,9 @@ DMABuf
 formats
 available
 .
-Unused
-<
-<
+(
+void
+)
 GetGlobalDMABufFormats
 (
 )

@@ -414,9 +414,9 @@ y
 =
 delta
 ;
-Unused
-<
-<
+(
+void
+)
 TouchMove
 (
 apzc
@@ -431,9 +431,9 @@ Time
 ;
 }
 }
-Unused
-<
-<
+(
+void
+)
 TouchUp
 (
 apzc

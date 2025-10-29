@@ -21629,12 +21629,9 @@ cursor
 =
 start
 ;
-mozilla
-:
-:
-Unused
-<
-<
+(
+void
+)
 FindCharInReadable
 (
 '

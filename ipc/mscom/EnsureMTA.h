@@ -159,15 +159,6 @@ include
 "
 mozilla
 /
-Unused
-.
-h
-"
-#
-include
-"
-mozilla
-/
 mscom
 /
 AgileReference

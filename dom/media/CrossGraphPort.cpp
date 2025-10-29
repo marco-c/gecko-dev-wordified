@@ -720,9 +720,9 @@ Next
 )
 )
 {
-Unused
-<
-<
+(
+void
+)
 mReceiver
 -
 >
@@ -883,9 +883,9 @@ AvailableRead
 AudioChunk
 chunk
 ;
-Unused
-<
-<
+(
+void
+)
 mCrossThreadFIFO
 .
 Dequeue

@@ -2383,9 +2383,9 @@ EventQueue
 )
 )
 ;
-Unused
-<
-<
+(
+void
+)
 nsThreadManager
 :
 :

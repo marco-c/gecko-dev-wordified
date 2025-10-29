@@ -125,15 +125,6 @@ MacStringHelpers
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Unused
-.
-h
-"
 void
 GetObjCExceptionInfo
 (

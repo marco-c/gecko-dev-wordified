@@ -1122,9 +1122,9 @@ windowID
 true
 )
 ;
-Unused
-<
-<
+(
+void
+)
 r
 -
 >
@@ -1189,9 +1189,9 @@ windowID
 false
 )
 ;
-Unused
-<
-<
+(
+void
+)
 r
 -
 >

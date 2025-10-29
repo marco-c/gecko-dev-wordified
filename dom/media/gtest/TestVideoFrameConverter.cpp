@@ -4487,9 +4487,9 @@ frames
 0
 ]
 ;
-Unused
-<
-<
+(
+void
+)
 conversionTime
 ;
 EXPECT_EQ
@@ -4969,9 +4969,9 @@ SetIdleFrameDuplicationInterval
 duplicationInterval
 )
 ;
-Unused
-<
-<
+(
+void
+)
 WaitFor
 (
 InvokeAsync

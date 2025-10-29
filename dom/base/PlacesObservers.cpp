@@ -2254,9 +2254,9 @@ XPConnect
 (
 )
 ;
-Unused
-<
-<
+(
+void
+)
 xpc
 -
 >

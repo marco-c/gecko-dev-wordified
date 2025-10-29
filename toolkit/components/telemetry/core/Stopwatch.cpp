@@ -1781,9 +1781,9 @@ TimerKeys
 (
 )
 ;
-Unused
-<
-<
+(
+void
+)
 nsContentUtils
 :
 :

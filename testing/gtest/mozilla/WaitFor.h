@@ -1942,9 +1942,9 @@ nsISerialEventTarget
 aTarget
 )
 {
-Unused
-<
-<
+(
+void
+)
 WaitFor
 (
 InvokeAsync
