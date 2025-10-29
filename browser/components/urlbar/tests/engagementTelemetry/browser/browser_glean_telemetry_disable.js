@@ -446,7 +446,7 @@ suggest
 .
 quicksuggest
 .
-nonsponsored
+all
 "
 ;
 }

@@ -257,7 +257,7 @@ enabled
 green
 :
 "
-prefSuggestNonsponsored
+prefSuggestAll
 "
 pref
 :
@@ -266,7 +266,7 @@ suggest
 .
 quicksuggest
 .
-nonsponsored
+all
 "
 }
 {
