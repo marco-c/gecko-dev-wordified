@@ -797,8 +797,8 @@ node
         
 if
 node
-!
-=
+is
+not
 self
 .
 tree
@@ -1222,6 +1222,22 @@ data
         
 return
 value
+    
+def
+visit_AtomExprNode
+(
+self
+node
+)
+:
+        
+return
+lambda
+x
+:
+node
+.
+data
     
 def
 visit_IndexNode
@@ -2384,8 +2400,8 @@ child
 node
 .
 parent
-!
-=
+is
+not
 self
 .
 node
