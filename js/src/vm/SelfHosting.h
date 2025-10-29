@@ -2034,6 +2034,14 @@ NativeImpl
 impl
 )
 ;
+enum
+class
+IncompatibleContext
+{
+Regular
+RegExpExec
+}
+;
 bool
 ReportIncompatibleSelfHostedMethod
 (
@@ -2045,6 +2053,8 @@ Handle
 Value
 >
 thisValue
+IncompatibleContext
+incompatibleContext
 )
 ;
 /

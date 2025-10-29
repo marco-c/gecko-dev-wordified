@@ -268,6 +268,10 @@ ReportIncompatibleSelfHostedMethod
 (
 cx
 thisv
+IncompatibleContext
+:
+:
+Regular
 )
 ;
 }
