@@ -18576,6 +18576,9 @@ Get
 (
 )
 ;
+nsresult
+gpuReadyRv
+=
 gpm
 -
 >
@@ -19518,6 +19521,12 @@ namespaces
 ;
 if
 (
+NS_FAILED
+(
+gpuReadyRv
+)
+|
+|
 !
 gpm
 -
