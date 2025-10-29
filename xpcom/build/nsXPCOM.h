@@ -144,15 +144,6 @@ Attributes
 h
 "
 #
-include
-"
-mozilla
-/
-Atomics
-.
-h
-"
-#
 ifdef
 __cplusplus
 #

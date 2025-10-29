@@ -119,15 +119,6 @@ include
 "
 mozilla
 /
-Atomics
-.
-h
-"
-#
-include
-"
-mozilla
-/
 EndianUtils
 .
 h

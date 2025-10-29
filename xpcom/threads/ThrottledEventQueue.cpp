@@ -126,15 +126,6 @@ include
 "
 mozilla
 /
-Atomics
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ClearOnShutdown
 .
 h

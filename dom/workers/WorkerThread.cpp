@@ -154,15 +154,6 @@ include
 "
 mozilla
 /
-Atomics
-.
-h
-"
-#
-include
-"
-mozilla
-/
 CycleCollectedJSContext
 .
 h

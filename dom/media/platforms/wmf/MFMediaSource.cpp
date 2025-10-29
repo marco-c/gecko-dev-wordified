@@ -131,15 +131,6 @@ include
 "
 mozilla
 /
-Atomics
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPrefs_media
 .
 h

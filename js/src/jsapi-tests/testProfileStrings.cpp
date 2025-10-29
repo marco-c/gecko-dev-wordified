@@ -126,15 +126,6 @@ MPL
 #
 include
 "
-mozilla
-/
-Atomics
-.
-h
-"
-#
-include
-"
 js
 /
 CallAndConstruct
