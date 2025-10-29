@@ -14,6 +14,18 @@ META
 script
 =
 /
+common
+/
+gc
+.
+js
+/
+/
+META
+:
+script
+=
+/
 resources
 /
 testdriver
@@ -360,7 +372,7 @@ summarizeStreaming
 kTestPrompt
 )
 ;
-gc
+garbageCollect
 (
 )
 ;
@@ -404,7 +416,7 @@ result
 =
 value
 ;
-gc
+garbageCollect
 (
 )
 ;

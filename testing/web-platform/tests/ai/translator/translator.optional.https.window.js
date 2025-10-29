@@ -42,6 +42,18 @@ META
 script
 =
 /
+common
+/
+gc
+.
+js
+/
+/
+META
+:
+script
+=
+/
 resources
 /
 testdriver
@@ -471,7 +483,7 @@ hello
 '
 )
 ;
-gc
+garbageCollect
 (
 )
 ;
@@ -515,7 +527,7 @@ result
 =
 value
 ;
-gc
+garbageCollect
 (
 )
 ;
