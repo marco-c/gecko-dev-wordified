@@ -1884,7 +1884,7 @@ eats_at_least
 characters
 )
 ;
-DCHECK
+CHECK
 (
 base
 :
