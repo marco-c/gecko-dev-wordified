@@ -3450,16 +3450,6 @@ return
 scratch_register_list_
 ;
 }
-void
-EmitConstPoolWithJumpIfNeeded
-(
-size_t
-margin
-=
-0
-)
-{
-}
 /
 /
 As
