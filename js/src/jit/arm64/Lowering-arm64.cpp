@@ -2790,7 +2790,7 @@ alloc
 )
 LPowHalfD
 (
-useRegister
+useRegisterAtStart
 (
 input
 )
