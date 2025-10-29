@@ -295,6 +295,9 @@ MessageLoop
 class
 nsIThread
 ;
+class
+JSObject
+;
 /
 /
 -
@@ -12863,6 +12866,13 @@ dom
 VideoFrameRequestCallback
 >
 LogVideoFrameRequestCallback
+;
+typedef
+LogTaskBase
+<
+JSObject
+>
+LogJSMicroTask
 ;
 /
 /

@@ -3934,6 +3934,13 @@ dom
 VideoFrameRequestCallback
 >
 ;
+template
+class
+LogTaskBase
+<
+JSObject
+>
+;
 MOZ_THREAD_LOCAL
 (
 nsISerialEventTarget
