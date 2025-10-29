@@ -150,7 +150,7 @@ mozillareleases
 /
 image_builder
 :
-5
+6
 .
 1
 .
@@ -163,7 +163,7 @@ sha256
 "
     
 "
-7fe70dcedefffffa03237ba5d456d42e0d7461de066db3f7a7c280a104869cd5
+10c614e928500a7d5138773fb58941a24a17948e1a8193768e9ba762ba3e9c7e
 "
 )
 transforms
@@ -1301,6 +1301,8 @@ path
 "
 /
 workspace
+/
+out
 /
 image
 .

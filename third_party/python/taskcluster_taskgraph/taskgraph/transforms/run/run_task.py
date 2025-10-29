@@ -1349,21 +1349,6 @@ TASK_ID
 )
     
 #
-use_proxy
-=
-False
-to
-avoid
-having
-all
-generic
--
-workers
-turn
-on
-proxy
-    
-#
 Assumes
 the
 cluster
@@ -1380,7 +1365,6 @@ taskcluster
 .
 get_root_url
 (
-False
 )
     
 #
