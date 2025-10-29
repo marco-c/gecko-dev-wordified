@@ -9846,6 +9846,17 @@ bool
 aOldValue
 )
 ;
+void
+DidSet
+(
+FieldIndex
+<
+IDX_ForceOffline
+>
+bool
+aOldValue
+)
+;
 /
 /
 Allow
