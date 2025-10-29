@@ -4479,6 +4479,7 @@ aCallback
 /
 *
 *
+*
 Synthesize
 a
 mouse
@@ -5349,6 +5350,7 @@ defaultPrevented
 ;
 }
 /
+*
 *
 *
 Synthesize

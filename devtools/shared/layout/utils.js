@@ -2765,6 +2765,7 @@ isShadowRoot
 /
 *
 *
+*
 Gets
 the
 shadow

@@ -9511,6 +9511,7 @@ noSearchResults
 /
 *
 *
+*
 Helper
 function
 to
