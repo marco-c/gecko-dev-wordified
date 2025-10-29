@@ -371,6 +371,13 @@ id
 )
 accessibilityFocusedUIElement
 ;
+-
+(
+NSArray
+*
+)
+accessibilityCustomActions
+;
 /
 *
 *

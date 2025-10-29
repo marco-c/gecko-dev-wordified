@@ -1009,6 +1009,16 @@ moxCustomContent
 override
 -
 (
+NSArray
+*
+)
+moxCustomActions
+;
+/
+/
+override
+-
+(
 NSNumber
 *
 )
