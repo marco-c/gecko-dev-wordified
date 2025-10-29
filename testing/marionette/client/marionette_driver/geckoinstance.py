@@ -5198,6 +5198,25 @@ True
         
 #
 Disable
+all
+machine
+learning
+features
+by
+default
+        
+"
+browser
+.
+ml
+.
+enable
+"
+:
+False
+        
+#
+Disable
 Activity
 Stream
 telemetry
