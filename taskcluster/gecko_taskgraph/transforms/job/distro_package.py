@@ -82,6 +82,14 @@ schema
 import
 Schema
 from
+taskgraph
+.
+util
+.
+taskcluster
+import
+get_root_url
+from
 voluptuous
 import
 Any
@@ -1374,7 +1382,9 @@ sbin
 setup_packages
 .
 sh
-TASKCLUSTER_ROOT_URL
+{
+root_url
+}
 PACKAGES
 &
 &
@@ -1676,6 +1686,12 @@ gz
 .
 format
 (
+            
+root_url
+=
+get_root_url
+(
+)
             
 package
 =
