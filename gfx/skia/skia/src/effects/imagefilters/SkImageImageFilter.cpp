@@ -653,7 +653,7 @@ srcToDst
 SkMatrix
 :
 :
-RectToRectOrIdentity
+RectToRect
 (
 srcRect
 dstRect

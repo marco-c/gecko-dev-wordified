@@ -96,11 +96,6 @@ SkGradientBaseShader
 .
 h
 "
-#
-include
-<
-optional
->
 class
 SkArenaAlloc
 ;
@@ -483,13 +478,7 @@ kFocal
 }
 ;
 static
-std
-:
-:
-optional
-<
-SkMatrix
->
+bool
 MapToUnitX
 (
 const
@@ -500,6 +489,9 @@ const
 SkPoint
 &
 endCenter
+SkMatrix
+*
+dstMatrix
 )
 ;
 static

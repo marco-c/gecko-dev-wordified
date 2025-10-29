@@ -82,9 +82,6 @@ SkLocalMatrixShader
 :
 isConstant
 (
-SkColor4f
-*
-color
 )
 const
 {
@@ -97,7 +94,6 @@ fWrappedShader
 >
 isConstant
 (
-color
 )
 ;
 }
@@ -523,9 +519,6 @@ SkCTMShader
 :
 isConstant
 (
-SkColor4f
-*
-color
 )
 const
 {
@@ -538,7 +531,6 @@ fProxyShader
 >
 isConstant
 (
-color
 )
 ;
 }

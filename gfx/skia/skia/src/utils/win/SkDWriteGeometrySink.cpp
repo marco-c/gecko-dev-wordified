@@ -57,7 +57,7 @@ include
 /
 core
 /
-SkPathBuilder
+SkPath
 .
 h
 "
@@ -117,18 +117,18 @@ SkDWriteGeometrySink
 :
 SkDWriteGeometrySink
 (
-SkPathBuilder
+SkPath
 *
-builder
+path
 )
 :
 fRefCount
 {
 1
 }
-fBuilder
+fPath
 {
-builder
+path
 }
 fStarted
 {
@@ -321,7 +321,7 @@ fillMode
 case
 D2D1_FILL_MODE_ALTERNATE
 :
-fBuilder
+fPath
 -
 >
 setFillType
@@ -337,7 +337,7 @@ break
 case
 D2D1_FILL_MODE_WINDING
 :
-fBuilder
+fPath
 -
 >
 setFillType
@@ -507,7 +507,7 @@ goingTo
 points
 )
 ;
-fBuilder
+fPath
 -
 >
 lineTo
@@ -946,7 +946,7 @@ quadraticP1
 )
 )
 {
-fBuilder
+fPath
 -
 >
 quadTo
@@ -974,7 +974,7 @@ y
 }
 else
 {
-fBuilder
+fPath
 -
 >
 cubicTo
@@ -1039,7 +1039,7 @@ if
 fStarted
 )
 {
-fBuilder
+fPath
 -
 >
 close
@@ -1066,9 +1066,9 @@ SkDWriteGeometrySink
 :
 Create
 (
-SkPathBuilder
+SkPath
 *
-builder
+path
 IDWriteGeometrySink
 *
 *
@@ -1081,7 +1081,7 @@ geometryToPath
 new
 SkDWriteGeometrySink
 (
-builder
+path
 )
 ;
 return

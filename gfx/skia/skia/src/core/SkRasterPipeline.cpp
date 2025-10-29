@@ -4488,7 +4488,8 @@ tf
 )
 )
 {
-default
+case
+skcms_TFType_Invalid
 :
 SkASSERT
 (

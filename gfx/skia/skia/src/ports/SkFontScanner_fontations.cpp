@@ -1232,10 +1232,8 @@ get
 size
 )
 ;
-SkASSERT
-(
-size
-=
+auto
+size1
 =
 fontations_ffi
 :
@@ -1246,6 +1244,13 @@ populate_axes
 bridgeFontNamedInstanceRef
 axisWrapper
 )
+;
+SkASSERT
+(
+size
+=
+=
+size1
 )
 ;
 for

@@ -40,7 +40,7 @@ src
 /
 core
 /
-SkRecordCanvas
+SkRecorder
 .
 h
 "
@@ -783,10 +783,10 @@ return
 picBounds
 ;
 }
-SkRecordCanvas
+SkRecorder
 :
 :
-SkRecordCanvas
+SkRecorder
 (
 SkRecord
 *
@@ -847,10 +847,10 @@ height
 )
 ;
 }
-SkRecordCanvas
+SkRecorder
 :
 :
-SkRecordCanvas
+SkRecorder
 (
 SkRecord
 *
@@ -914,7 +914,7 @@ height
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 reset
@@ -984,7 +984,7 @@ height
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 forgetRecord
@@ -1030,7 +1030,7 @@ typename
 Args
 >
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 append
@@ -1151,7 +1151,7 @@ T
 >
 T
 *
-SkRecordCanvas
+SkRecorder
 :
 :
 copy
@@ -1231,7 +1231,7 @@ T
 >
 T
 *
-SkRecordCanvas
+SkRecorder
 :
 :
 copy
@@ -1344,7 +1344,7 @@ template
 >
 char
 *
-SkRecordCanvas
+SkRecorder
 :
 :
 copy
@@ -1413,7 +1413,7 @@ template
 >
 char
 *
-SkRecordCanvas
+SkRecorder
 :
 :
 copy
@@ -1441,7 +1441,7 @@ src
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 onDrawPaint
@@ -1468,7 +1468,7 @@ paint
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 onDrawBehind
@@ -1495,7 +1495,7 @@ paint
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 onDrawPoints
@@ -1544,7 +1544,7 @@ count
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 onDrawRect
@@ -1576,7 +1576,7 @@ rect
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 onDrawRegion
@@ -1608,7 +1608,7 @@ region
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 onDrawOval
@@ -1640,7 +1640,7 @@ oval
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 onDrawArc
@@ -1681,7 +1681,7 @@ useCenter
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 onDrawRRect
@@ -1713,7 +1713,7 @@ rrect
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 onDrawDRRect
@@ -1750,7 +1750,7 @@ inner
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 onDrawDrawable
@@ -1827,7 +1827,7 @@ count
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 onDrawPath
@@ -1859,7 +1859,7 @@ path
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 onDrawImage2
@@ -1911,7 +1911,7 @@ sampling
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 onDrawImageRect2
@@ -1970,7 +1970,7 @@ constraint
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 onDrawImageLattice2
@@ -2110,7 +2110,7 @@ filter
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 onDrawTextBlob
@@ -2151,7 +2151,7 @@ y
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 onDrawSlug
@@ -2192,7 +2192,7 @@ slug
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 onDrawGlyphRunList
@@ -2279,7 +2279,7 @@ paint
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 onDrawPicture
@@ -2345,7 +2345,7 @@ I
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 onDrawVerticesObject
@@ -2390,7 +2390,7 @@ bmode
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 onDrawMesh
@@ -2434,7 +2434,7 @@ blender
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 onDrawPatch
@@ -2527,7 +2527,7 @@ bmode
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 onDrawAtlas2
@@ -2629,7 +2629,7 @@ cull
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 onDrawShadowRec
@@ -2661,7 +2661,7 @@ rec
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 onDrawAnnotation
@@ -2704,7 +2704,7 @@ value
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 onDrawEdgeAAQuad
@@ -2756,7 +2756,7 @@ mode
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 onDrawEdgeAAImageSet2
@@ -2891,7 +2891,7 @@ constraint
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 willSave
@@ -2916,7 +2916,7 @@ SkCanvas
 :
 :
 SaveLayerStrategy
-SkRecordCanvas
+SkRecorder
 :
 :
 getSaveLayerStrategy
@@ -3045,7 +3045,7 @@ kNoLayer_SaveLayerStrategy
 ;
 }
 bool
-SkRecordCanvas
+SkRecorder
 :
 :
 onDoSaveBehind
@@ -3081,7 +3081,7 @@ false
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 didRestore
@@ -3109,7 +3109,7 @@ getTotalMatrix
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 didConcat44
@@ -3136,7 +3136,7 @@ m
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 didSetM44
@@ -3163,7 +3163,7 @@ m
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 didScale
@@ -3191,7 +3191,7 @@ sy
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 didTranslate
@@ -3219,7 +3219,7 @@ dy
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 onClipRect
@@ -3272,7 +3272,7 @@ opAA
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 onClipRRect
@@ -3325,7 +3325,7 @@ opAA
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 onClipPath
@@ -3378,7 +3378,7 @@ opAA
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 onClipShader
@@ -3422,7 +3422,7 @@ op
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 onClipRegion
@@ -3459,7 +3459,7 @@ op
 ;
 }
 void
-SkRecordCanvas
+SkRecorder
 :
 :
 onResetClip
@@ -3489,7 +3489,7 @@ sk_sp
 <
 SkSurface
 >
-SkRecordCanvas
+SkRecorder
 :
 :
 onNewSurface

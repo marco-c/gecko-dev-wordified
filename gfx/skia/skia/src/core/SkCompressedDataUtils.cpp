@@ -2275,6 +2275,15 @@ SkMipmap
 ComputeLevelCount
 (
 dimensions
+.
+width
+(
+)
+dimensions
+.
+height
+(
+)
 )
 +
 1

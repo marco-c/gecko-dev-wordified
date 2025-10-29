@@ -5999,6 +5999,7 @@ lm
 .
 invert
 (
+nullptr
 )
 )
 {
@@ -6061,6 +6062,7 @@ lm
 >
 invert
 (
+nullptr
 )
 )
 {

@@ -81,12 +81,16 @@ implementation
 .
 /
 /
-SkPath
+void
 SkClipStack_AsPath
 (
 const
 SkClipStack
 &
+cs
+SkPath
+*
+path
 )
 ;
 #

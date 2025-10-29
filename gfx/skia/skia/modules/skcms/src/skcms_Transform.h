@@ -338,11 +338,6 @@ M
 hlg_rgb
 )
 \
-M
-(
-hlg_ootf_scale
-)
-\
 \
 M
 (
@@ -367,11 +362,6 @@ hlginv_a
 M
 (
 hlginv_rgb
-)
-\
-M
-(
-hlginv_ootf_scale
 )
 \
 \

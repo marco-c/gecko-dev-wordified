@@ -136,10 +136,9 @@ this
 .
 mapPoints
 (
-{
+quad
 quad
 4
-}
 )
 ;
 #

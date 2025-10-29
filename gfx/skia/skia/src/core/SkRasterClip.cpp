@@ -1220,12 +1220,14 @@ this
 ;
 SkPath
 devPath
-=
+;
 path
 .
-makeTransform
+transform
 (
 matrix
+&
+devPath
 )
 ;
 /
@@ -1332,7 +1334,7 @@ skbug
 .
 com
 /
-40043482
+12398
 if
 (
 doAA

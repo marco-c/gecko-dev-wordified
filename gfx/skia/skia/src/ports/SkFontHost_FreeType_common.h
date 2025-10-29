@@ -106,9 +106,6 @@ h
 class
 SkCanvas
 ;
-class
-SkPathBuilder
-;
 /
 /
 These
@@ -371,7 +368,7 @@ bool
 generateGlyphPath
 (
 FT_Face
-SkPathBuilder
+SkPath
 *
 )
 const
@@ -447,7 +444,7 @@ generateFacePath
 FT_Face
 SkGlyphID
 LoadGlyphFlags
-SkPathBuilder
+SkPath
 *
 )
 const

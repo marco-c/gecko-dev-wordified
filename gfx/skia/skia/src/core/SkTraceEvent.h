@@ -117,12 +117,6 @@ SkTraceEventCommon
 .
 h
 "
-/
-/
-IWYU
-pragma
-:
-export
 #
 include
 <

@@ -2122,11 +2122,9 @@ DrawAnnotation
 TODO
 :
 kDraw_Tag
-skbug
-.
-com
-/
-40036727
+skia
+:
+5548
 SkRect
 rect
 ;

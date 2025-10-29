@@ -9247,7 +9247,6 @@ allocPixels
 *
 /
 class
-SK_API
 HeapAllocator
 :
 public

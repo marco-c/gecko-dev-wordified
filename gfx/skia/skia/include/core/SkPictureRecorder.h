@@ -122,7 +122,7 @@ class
 SkRecord
 ;
 class
-SkRecordCanvas
+SkRecorder
 ;
 class
 SK_API
@@ -701,6 +701,12 @@ canvas
 )
 const
 ;
+bool
+fActivelyRecording
+;
+SkRect
+fCullRect
+;
 sk_sp
 <
 SkBBoxHierarchy
@@ -712,7 +718,7 @@ std
 :
 unique_ptr
 <
-SkRecordCanvas
+SkRecorder
 >
 fRecorder
 ;
@@ -721,12 +727,6 @@ sk_sp
 SkRecord
 >
 fRecord
-;
-SkRect
-fCullRect
-;
-bool
-fActivelyRecording
 ;
 SkPictureRecorder
 (

@@ -416,13 +416,6 @@ SK_CPU_SSE_LEVEL_SSE1
 #
 include
 <
-emmintrin
-.
-h
->
-#
-include
-<
 xmmintrin
 .
 h

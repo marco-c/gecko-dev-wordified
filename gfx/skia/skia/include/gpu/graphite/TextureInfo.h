@@ -327,7 +327,7 @@ default
 ;
 Data
 (
-uint8_t
+uint32_t
 sampleCount
 skgpu
 :
@@ -388,7 +388,7 @@ backend
 specific
 subclasses
 .
-uint8_t
+uint32_t
 fSampleCount
 =
 1
@@ -605,7 +605,7 @@ return
 fBackend
 ;
 }
-uint8_t
+uint32_t
 numSamples
 (
 )

@@ -53,7 +53,7 @@ include
 /
 core
 /
-SkPathBuilder
+SkPath
 .
 h
 "
@@ -238,9 +238,6 @@ cstdint
 >
 class
 SkMatrix
-;
-class
-SkPath
 ;
 /
 *
@@ -632,7 +629,7 @@ SK_ScalarNearlyZero
 bool
 onFilterPath
 (
-SkPathBuilder
+SkPath
 *
 dst
 const
