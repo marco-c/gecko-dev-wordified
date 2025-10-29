@@ -6811,9 +6811,6 @@ mozilla
 :
 SelectionType
 aSelectionType
-nsAtom
-*
-aHighlightName
 nsTextPaintStyle
 &
 aTextPaintStyle
@@ -6848,13 +6845,6 @@ mozilla
 :
 StyleTextDecorationLine
 aDecoration
-const
-Range
-&
-aGlyphRange
-PropertyProvider
-*
-aProvider
 )
 ;
 void
