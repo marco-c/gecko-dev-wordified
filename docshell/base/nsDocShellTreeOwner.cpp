@@ -408,15 +408,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 EventListenerManager
 .
 h

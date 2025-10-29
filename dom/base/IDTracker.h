@@ -123,15 +123,6 @@ mozilla_dom_IDTracker_h_
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h

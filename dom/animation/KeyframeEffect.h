@@ -170,15 +170,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 EffectCompositor
 .
 h

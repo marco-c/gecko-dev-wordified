@@ -114,15 +114,6 @@ nsWeakReference
 h
 "
 #
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
 define
 NS_CHROMEPROTOCOLHANDLER_CID
 \

@@ -148,15 +148,6 @@ nsStringFwd
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsWebNavigationInfo
 final
