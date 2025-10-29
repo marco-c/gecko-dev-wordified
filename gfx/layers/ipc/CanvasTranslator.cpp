@@ -5700,15 +5700,6 @@ mDevice
 return
 ;
 }
-gfx
-:
-:
-AutoSerializeWithMoz2D
-serializeWithMoz2D
-(
-mBackendType
-)
-;
 RefPtr
 <
 ID3D11DeviceContext
