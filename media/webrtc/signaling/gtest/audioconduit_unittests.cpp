@@ -254,9 +254,12 @@ AudioConduitTest
 )
 override
 {
-(
-void
-)
+mozilla
+:
+:
+Unused
+<
+<
 WaitFor
 (
 mAudioConduit

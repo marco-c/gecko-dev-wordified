@@ -8423,9 +8423,9 @@ rv
 nsAutoCString
 uriStr
 ;
-(
-void
-)
+Unused
+<
+<
 aTargetURI
 -
 >
@@ -8453,9 +8453,9 @@ uriStr
 nsAutoCString
 principalStr
 ;
-(
-void
-)
+Unused
+<
+<
 aPrincipal
 -
 >

@@ -118,6 +118,12 @@ using
 mozilla
 :
 :
+Unused
+;
+using
+mozilla
+:
+:
 WrapUnique
 ;
 /
@@ -490,9 +496,9 @@ aPos
 0
 )
 {
-(
-void
-)
+Unused
+<
+<
 expr
 .
 release

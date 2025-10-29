@@ -305,9 +305,9 @@ get
 :
 aDoc
 ;
-(
-void
-)
+Unused
+<
+<
 nsContentUtils
 :
 :

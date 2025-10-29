@@ -361,9 +361,9 @@ as
 -
 MOZ_LOG
 .
-(
-void
-)
+Unused
+<
+<
 p
 .
 CheckChar
@@ -589,9 +589,9 @@ IsEmpty
 nsDependentCSubstring
 value
 ;
-(
-void
-)
+Unused
+<
+<
 p
 .
 ReadUntil

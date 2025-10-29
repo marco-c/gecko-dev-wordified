@@ -3909,10 +3909,10 @@ data
 kCommandLinesOpt
 )
 {
+MOZ_UNUSED
 (
-void
-)
 _unused
+)
 ;
 /
 /

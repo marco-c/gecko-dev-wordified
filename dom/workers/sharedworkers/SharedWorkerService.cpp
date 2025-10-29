@@ -733,9 +733,9 @@ sSharedWorkerService
 )
 )
 ;
-(
-void
-)
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -857,9 +857,9 @@ forget
 )
 )
 ;
-(
-void
-)
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED

@@ -7121,9 +7121,9 @@ rval
 cx
 )
 ;
-(
-void
-)
+Unused
+<
+<
 JS_ExecuteScript
 (
 cx

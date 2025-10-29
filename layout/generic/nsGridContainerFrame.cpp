@@ -14377,9 +14377,9 @@ AsNumber
 )
 )
 {
-(
-void
-)
+Unused
+<
+<
 j
 ;
 size_t
@@ -15625,9 +15625,9 @@ AsNumber
 )
 )
 {
-(
-void
-)
+Unused
+<
+<
 j
 ;
 if

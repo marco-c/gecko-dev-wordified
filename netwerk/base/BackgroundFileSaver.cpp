@@ -3758,9 +3758,9 @@ MakeScopeExit
 &
 ]
 {
-(
-void
-)
+Unused
+<
+<
 inputStream
 -
 >

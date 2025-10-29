@@ -11635,9 +11635,9 @@ CheckExceptionForChannel
 aChannel
 )
 ;
-(
-void
-)
+Unused
+<
+<
 loadInfo
 -
 >

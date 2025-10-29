@@ -17985,9 +17985,9 @@ IgnoreCaretPointSuggestion
 }
 else
 {
-(
-void
-)
+Unused
+<
+<
 aPointToInsert
 .
 Offset

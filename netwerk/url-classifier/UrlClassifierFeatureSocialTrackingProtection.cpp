@@ -983,9 +983,9 @@ if
 httpChannel
 )
 {
-(
-void
-)
+Unused
+<
+<
 httpChannel
 -
 >
@@ -997,9 +997,9 @@ NS_ERROR_SOCIALTRACKING_URI
 }
 else
 {
-(
-void
-)
+Unused
+<
+<
 aChannel
 -
 >

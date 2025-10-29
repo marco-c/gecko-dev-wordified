@@ -640,9 +640,9 @@ rv
 return
 rv
 ;
-(
-void
-)
+Unused
+<
+<
 isMutable
 ;
 nsAutoCString

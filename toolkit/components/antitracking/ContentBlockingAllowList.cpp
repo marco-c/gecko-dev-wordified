@@ -749,9 +749,9 @@ nsICookieJarSettings
 >
 cookieJarSettings
 ;
-(
-void
-)
+Unused
+<
+<
 loadInfo
 -
 >

@@ -1106,9 +1106,9 @@ sSavedProfLDEnvVar
 )
 ;
 }
-(
-void
-)
+Unused
+<
+<
 NotePreXULSkeletonUIRestarting
 (
 )

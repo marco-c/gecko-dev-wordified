@@ -345,9 +345,9 @@ MaybeNotifyCallback
 aReason
 )
 ;
-(
-void
-)
+Unused
+<
+<
 PClipboardWriteRequestChild
 :
 :
