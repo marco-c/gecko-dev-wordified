@@ -40740,16 +40740,6 @@ FinishLiveResizing
 MOVING
 )
 ;
-if
-(
-WinUtils
-:
-:
-IsPerMonitorDPIAware
-(
-)
-)
-{
 /
 /
 Sometimes
@@ -40862,7 +40852,6 @@ ResetLayout
 (
 )
 ;
-}
 }
 break
 ;
