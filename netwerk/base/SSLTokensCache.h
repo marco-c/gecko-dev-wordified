@@ -231,7 +231,7 @@ uint8_t
 >
 >
 >
-mFailedCertChainBytes
+mHandshakeCertificatesBytes
 ;
 }
 ;

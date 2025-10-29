@@ -1594,7 +1594,7 @@ visible
 )
 ;
 let
-failedCertChain
+handshakeCertificates
 =
 content
 .
@@ -1604,7 +1604,7 @@ failedChannel
 .
 securityInfo
 .
-failedCertChain
+handshakeCertificates
 .
 map
 (
@@ -1635,7 +1635,7 @@ text
 text
 .
 textContent
-failedCertChain
+handshakeCertificates
 }
 ;
 }
@@ -1753,7 +1753,7 @@ getCertChainAsString
 (
 message
 .
-failedCertChain
+handshakeCertificates
 )
 ;
 ok
@@ -2172,7 +2172,7 @@ certificateErrorText
 )
 ;
 let
-failedCertChain
+handshakeCertificates
 =
 content
 .
@@ -2182,7 +2182,7 @@ failedChannel
 .
 securityInfo
 .
-failedCertChain
+handshakeCertificates
 .
 map
 (
@@ -2213,7 +2213,7 @@ text
 text
 .
 textContent
-failedCertChain
+handshakeCertificates
 }
 ;
 }
@@ -2341,7 +2341,7 @@ getCertChainAsString
 (
 message
 .
-failedCertChain
+handshakeCertificates
 )
 ;
 ok
