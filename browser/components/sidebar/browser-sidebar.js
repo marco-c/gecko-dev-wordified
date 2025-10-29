@@ -2771,6 +2771,12 @@ current
 }
 this
 .
+revampComponentsLoaded
+=
+true
+;
+this
+.
 _state
 .
 initializeState
@@ -3593,7 +3599,7 @@ if
 (
 this
 .
-sidebarRevampEnabled
+revampComponentsLoaded
 )
 {
 /
@@ -4177,7 +4183,7 @@ if
 (
 this
 .
-sidebarRevampEnabled
+revampComponentsLoaded
 )
 {
 this
