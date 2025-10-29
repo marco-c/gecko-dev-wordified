@@ -141,15 +141,6 @@ h
 #
 include
 "
-mozilla
-/
-ThreadLocal
-.
-h
-"
-#
-include
-"
 SafeThreadLocal
 .
 h
