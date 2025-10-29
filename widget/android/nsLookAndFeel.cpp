@@ -2117,7 +2117,7 @@ aResult
 java
 :
 :
-GeckoAppShell
+GeckoSystemStateListener
 :
 :
 GetAllPointerCapabilities
@@ -2214,7 +2214,7 @@ aResult
 java
 :
 :
-GeckoAppShell
+GeckoSystemStateListener
 :
 :
 GetAllPointerCapabilities
@@ -2332,7 +2332,7 @@ aResult
 java
 :
 :
-GeckoAppShell
+GeckoSystemStateListener
 :
 :
 GetPointingDeviceKinds
