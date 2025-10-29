@@ -8778,7 +8778,7 @@ AUTO_PROFILER_TERMINATING_FLOW_MARKER_FLOW_ONLY
 CycleCollectedJSContext
 :
 :
-PerformDebuggerMicroTaskCheckpoint
+PerformMicroTaskCheckpoint
 "
 OTHER
 Flow
@@ -9174,7 +9174,7 @@ AUTO_PROFILER_TERMINATING_FLOW_MARKER_FLOW_ONLY
 CycleCollectedJSContext
 :
 :
-PerformMicroTaskCheckPoint
+PerformDebuggerMicroTaskCheckPoint
 "
 OTHER
 Flow
