@@ -469,14 +469,9 @@ field
 url_data
 "
 &
-*
 contents
 .
 url_data
-.
-read
-(
-)
 )
 .
 finish
