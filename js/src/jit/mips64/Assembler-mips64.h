@@ -620,7 +620,7 @@ constexpr
 Register
 InterpreterPCReg
 =
-t5
+a5
 ;
 static
 constexpr
