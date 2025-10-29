@@ -135,6 +135,11 @@ NavigationHistoryEntry
 h
 "
 "
+NavigationPrecommitController
+.
+h
+"
+"
 NavigationTransition
 .
 h
@@ -171,6 +176,11 @@ cpp
 "
 "
 NavigationHistoryEntry
+.
+cpp
+"
+"
+NavigationPrecommitController
 .
 cpp
 "

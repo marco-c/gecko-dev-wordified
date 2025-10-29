@@ -4996,6 +4996,11 @@ NavigationHistoryEntry
 webidl
 "
 "
+NavigationPrecommitController
+.
+webidl
+"
+"
 NavigationPreloadManager
 .
 webidl
