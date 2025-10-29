@@ -142,15 +142,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 BaseProfilerUtils
 .
 h
@@ -2357,7 +2348,7 @@ const
 uint8_t
 GETTER_SETTER_MAGIC
 =
-0xf0
+0x0f
 ;
 enum
 class

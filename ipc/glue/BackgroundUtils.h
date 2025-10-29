@@ -134,15 +134,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 OriginAttributes
 .
 h

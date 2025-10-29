@@ -189,15 +189,6 @@ h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 gc
 /
 Memory

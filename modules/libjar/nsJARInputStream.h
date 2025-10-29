@@ -88,15 +88,6 @@ nsTArray
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 /
 *
 -

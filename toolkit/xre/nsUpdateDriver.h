@@ -153,15 +153,6 @@ nsString
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsIFile
 ;

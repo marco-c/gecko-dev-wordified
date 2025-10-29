@@ -252,15 +252,6 @@ nsWeakReference
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsExternalAppHandler
 ;

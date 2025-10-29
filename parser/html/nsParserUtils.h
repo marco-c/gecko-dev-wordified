@@ -106,15 +106,6 @@ nsIParserUtils
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsParserUtils
 final

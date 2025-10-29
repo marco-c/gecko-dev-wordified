@@ -132,15 +132,6 @@ nsCOMArray
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 mozIStorageRow
 ;

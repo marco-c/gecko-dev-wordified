@@ -159,15 +159,6 @@ lists
 etc
 .
 #
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
 define
 NS_NAVHISTORYQUERY_IID
 \

@@ -112,15 +112,6 @@ nsTHashMap
 h
 "
 #
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
 define
 ZIPWRITER_CONTRACTID
 "

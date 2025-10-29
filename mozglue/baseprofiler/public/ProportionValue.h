@@ -122,15 +122,6 @@ define
 ProportionValue_h
 #
 include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
 <
 algorithm
 >

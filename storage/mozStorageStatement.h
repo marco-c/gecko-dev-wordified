@@ -167,15 +167,6 @@ StorageBaseStatementInternal
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 struct
 sqlite3_stmt
 ;

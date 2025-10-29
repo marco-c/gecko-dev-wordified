@@ -106,15 +106,6 @@ nsINSSVersion
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsNSSVersion
 final

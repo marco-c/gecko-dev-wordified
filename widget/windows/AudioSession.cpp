@@ -225,15 +225,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 mscom
 /
 AgileReference

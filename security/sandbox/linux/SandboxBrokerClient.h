@@ -138,15 +138,6 @@ SandboxBrokerUtils
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 /
 /
 This

@@ -128,15 +128,6 @@ nsIContentSniffer
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 /
 /
 ed905ba3

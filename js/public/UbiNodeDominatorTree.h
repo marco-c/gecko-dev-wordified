@@ -119,15 +119,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 DebugOnly
 .
 h

@@ -121,15 +121,6 @@ MOZSTORAGESTATEMENTROW_H
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h

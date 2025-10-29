@@ -65,15 +65,6 @@ nsRandomGenerator_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsIRandomGenerator
 .
 h

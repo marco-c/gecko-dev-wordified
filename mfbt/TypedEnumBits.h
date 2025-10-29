@@ -140,15 +140,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 IntegerTypeTraits
 .
 h

@@ -111,15 +111,6 @@ PLDHashTable
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 /
 *
 Disable
