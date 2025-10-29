@@ -1324,6 +1324,12 @@ SystemScaleFactor
 (
 )
 ;
+static
+bool
+IsPerMonitorDPIAware
+(
+)
+;
 /
 *
 *
