@@ -1551,6 +1551,14 @@ driver
 to_owned
 (
 )
+device_pci_bus_id
+:
+String
+:
+:
+new
+(
+)
 driver_info
 :
 version
