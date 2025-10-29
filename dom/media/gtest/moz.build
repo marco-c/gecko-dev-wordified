@@ -285,11 +285,6 @@ TestDataMutex
 cpp
 "
 "
-TestDecodedStream
-.
-cpp
-"
-"
 TestDeviceInputTrack
 .
 cpp
@@ -376,6 +371,11 @@ cpp
 "
 "
 TestMuxer
+.
+cpp
+"
+"
+TestOfflineClockDriver
 .
 cpp
 "
