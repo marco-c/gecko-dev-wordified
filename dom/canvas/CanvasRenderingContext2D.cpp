@@ -8197,7 +8197,7 @@ document
 document
 -
 >
-CSSLoader
+GetExistingCSSLoader
 (
 )
 :
@@ -17209,10 +17209,17 @@ aDocument
 GetCompatibilityMode
 (
 )
+/
+/
+Loader
+only
+for
+error
+reporting
 aDocument
 -
 >
-CSSLoader
+GetExistingCSSLoader
 (
 )
 }

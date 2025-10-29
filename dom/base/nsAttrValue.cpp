@@ -11550,7 +11550,7 @@ GetCompatibilityMode
 doc
 -
 >
-CSSLoader
+GetExistingCSSLoader
 (
 )
 StyleCssRuleType

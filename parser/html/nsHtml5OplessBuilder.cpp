@@ -218,10 +218,6 @@ mNodeInfoManager
 =
 nullptr
 ;
-mCSSLoader
-=
-nullptr
-;
 mDocumentURI
 =
 nullptr

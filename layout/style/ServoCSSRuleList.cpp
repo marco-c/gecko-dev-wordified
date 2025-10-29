@@ -1487,10 +1487,11 @@ GetAssociatedDocument
 {
 loader
 =
+&
 doc
 -
 >
-CSSLoader
+EnsureCSSLoader
 (
 )
 ;

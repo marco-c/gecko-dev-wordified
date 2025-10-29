@@ -6582,11 +6582,10 @@ request
 doc
 -
 >
-StyleImageLoader
+EnsureStyleImageLoader
 (
 )
--
->
+.
 AssociateRequestToFrame
 (
 req

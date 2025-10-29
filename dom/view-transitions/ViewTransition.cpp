@@ -4221,10 +4221,11 @@ StyleParsingMode
 :
 DEFAULT
 eCompatibility_FullStandards
+&
 aDoc
 -
 >
-CSSLoader
+EnsureCSSLoader
 (
 )
 StyleCssRuleType

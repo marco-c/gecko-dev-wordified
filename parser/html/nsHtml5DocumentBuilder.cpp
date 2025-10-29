@@ -385,6 +385,11 @@ mRunsToCompletion
 +
 mPendingSheetCount
 ;
+if
+(
+mScriptLoader
+)
+{
 mScriptLoader
 -
 >
@@ -392,6 +397,7 @@ AddParserBlockingScriptExecutionBlocker
 (
 )
 ;
+}
 }
 }
 void

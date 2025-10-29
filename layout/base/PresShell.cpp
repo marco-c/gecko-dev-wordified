@@ -13739,11 +13739,10 @@ that
 mDocument
 -
 >
-StyleImageLoader
+EnsureStyleImageLoader
 (
 )
--
->
+.
 ClearFrames
 (
 mPresContext
@@ -13836,11 +13835,10 @@ HasImageRequest
 mDocument
 -
 >
-StyleImageLoader
+EnsureStyleImageLoader
 (
 )
--
->
+.
 DropRequestsForFrame
 (
 aFrame

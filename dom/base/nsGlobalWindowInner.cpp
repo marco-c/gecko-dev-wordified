@@ -47372,7 +47372,7 @@ loader
 document
 -
 >
-ScriptLoader
+GetScriptLoader
 (
 )
 ;
