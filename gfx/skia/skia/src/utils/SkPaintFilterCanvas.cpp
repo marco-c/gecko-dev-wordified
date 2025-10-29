@@ -106,6 +106,17 @@ include
 /
 core
 /
+SkRSXform
+.
+h
+"
+#
+include
+"
+include
+/
+core
+/
 SkRect
 .
 h

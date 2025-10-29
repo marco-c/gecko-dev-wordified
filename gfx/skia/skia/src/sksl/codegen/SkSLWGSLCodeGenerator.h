@@ -50,6 +50,9 @@ SkSL
 class
 ErrorReporter
 ;
+struct
+NativeShader
+;
 class
 OutputStream
 ;
@@ -158,10 +161,7 @@ const
 ShaderCaps
 *
 caps
-std
-:
-:
-string
+NativeShader
 *
 out
 )

@@ -222,17 +222,7 @@ sksl_graphite_frag
 \
 M
 (
-sksl_graphite_frag_es2
-)
-\
-M
-(
 sksl_graphite_vert
-)
-\
-M
-(
-sksl_graphite_vert_es2
 )
 enum
 class

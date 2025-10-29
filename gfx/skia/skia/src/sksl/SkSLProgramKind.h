@@ -71,8 +71,6 @@ kVertex
 kCompute
 kGraphiteFragment
 kGraphiteVertex
-kGraphiteFragmentES2
-kGraphiteVertexES2
 kRuntimeColorFilter
 /
 /

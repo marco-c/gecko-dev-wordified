@@ -116,7 +116,14 @@ lx
 "
 file
 line
+static_cast
+<
+unsigned
+long
+>
+(
 hr
+)
 )
 ;
 LPSTR

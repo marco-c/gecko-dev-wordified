@@ -118,7 +118,7 @@ include
 cstdint
 >
 class
-GrRecordingContext
+SkRecorder
 ;
 class
 SK_API
@@ -297,9 +297,9 @@ nullptr
 bool
 isValid
 (
-GrRecordingContext
+SkRecorder
 *
-context
+recorder
 )
 const
 {
@@ -309,7 +309,7 @@ this
 >
 onIsValid
 (
-context
+recorder
 )
 ;
 }
@@ -790,7 +790,7 @@ virtual
 bool
 onIsValid
 (
-GrRecordingContext
+SkRecorder
 *
 )
 const

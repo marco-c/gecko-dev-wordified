@@ -198,6 +198,17 @@ VkInstance
 was
 created
 .
+Skia
+requires
+Vulkan
+1
+.
+1
+as
+the
+minimum
+version
+.
 uint32_t
 fMaxAPIVersion
 =

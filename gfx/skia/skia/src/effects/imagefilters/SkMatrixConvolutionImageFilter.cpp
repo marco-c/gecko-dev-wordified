@@ -847,7 +847,7 @@ skbug
 .
 com
 /
-14617
+40045519
 )
 :
 Accept
@@ -2521,11 +2521,6 @@ buffer
 readScalarArray
 (
 kernel
-.
-get
-(
-)
-count
 )
 )
 {
@@ -2779,15 +2774,6 @@ buffer
 writeScalarArray
 (
 fKernel
-.
-data
-(
-)
-fKernel
-.
-size
-(
-)
 )
 ;
 buffer

@@ -548,7 +548,7 @@ SkStrokeRec
 :
 applyToPath
 (
-SkPath
+SkPathBuilder
 *
 dst
 const
@@ -930,15 +930,11 @@ strokes
 .
 /
 /
-http
-:
-/
-/
 skbug
 .
 com
 /
-8157
+40039419
 return
 SK_Scalar1
 ;

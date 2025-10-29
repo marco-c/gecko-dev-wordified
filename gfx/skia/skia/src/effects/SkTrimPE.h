@@ -95,7 +95,7 @@ override
 bool
 onFilterPath
 (
-SkPath
+SkPathBuilder
 *
 dst
 const
