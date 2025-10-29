@@ -138,11 +138,6 @@ collections
 import
 defaultdict
 from
-typing
-import
-Dict
-Set
-from
 slugid
 import
 nice
@@ -1911,24 +1906,19 @@ set
 (
 )
     
+dependencies_of
 dependents_of
 =
+(
+        
 target_task_graph
 .
 graph
 .
-reverse_links_dict
+links_and_reverse_links_dict
 (
 )
     
-dependencies_of
-=
-target_task_graph
-.
-graph
-.
-links_dict
-(
 )
     
 for
@@ -2412,21 +2402,21 @@ TaskGraph
     
 removed_tasks
 :
-Set
+set
 [
 str
 ]
     
 replaced_tasks
 :
-Set
+set
 [
 str
 ]
     
 label_to_taskid
 :
-Dict
+dict
 [
 str
 str
@@ -3000,20 +2990,18 @@ tasks_by_taskid
 return
 TaskGraph
 (
+        
 tasks_by_taskid
 Graph
 (
-set
+frozenset
 (
 tasks_by_taskid
 )
 edges_by_taskid
 )
+    
 )
-#
-type
-:
-ignore
 register_strategy
 (
 "

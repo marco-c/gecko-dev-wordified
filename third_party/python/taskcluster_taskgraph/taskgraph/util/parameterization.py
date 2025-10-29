@@ -59,7 +59,6 @@ from
 typing
 import
 Any
-Dict
 from
 taskgraph
 .
@@ -372,7 +371,7 @@ str
     
 task_def
 :
-Dict
+dict
 [
 str
 Any
@@ -388,7 +387,7 @@ str
     
 dependencies
 :
-Dict
+dict
 [
 str
 str
@@ -396,7 +395,7 @@ str
 )
 -
 >
-Dict
+dict
 [
 str
 Any

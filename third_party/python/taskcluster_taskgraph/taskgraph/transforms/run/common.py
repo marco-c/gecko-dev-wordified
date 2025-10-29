@@ -91,8 +91,6 @@ from
 typing
 import
 Any
-Dict
-List
 Union
 from
 taskgraph
@@ -1090,7 +1088,7 @@ use_caches
 Union
 [
 bool
-List
+list
 [
 str
 ]
@@ -1179,14 +1177,14 @@ config
 TransformConfig
 task
 :
-Dict
+dict
 [
 str
 Any
 ]
 taskdesc
 :
-Dict
+dict
 [
 str
 Any
