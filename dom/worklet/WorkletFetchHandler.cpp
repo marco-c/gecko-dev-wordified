@@ -943,7 +943,6 @@ ModuleType
 :
 :
 JavaScript
-fetchOptions
 SRIMetadata
 (
 )

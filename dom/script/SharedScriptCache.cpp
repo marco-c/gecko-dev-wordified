@@ -436,10 +436,12 @@ ScriptHashKey
 (
 aLoader
 aRequest
-aRequest
+aLoadedScript
 -
 >
-mFetchOptions
+GetFetchOptions
+(
+)
 aRequest
 -
 >

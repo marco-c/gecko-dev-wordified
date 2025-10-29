@@ -6186,7 +6186,6 @@ ModuleType
 :
 :
 JavaScript
-options
 dom
 :
 :

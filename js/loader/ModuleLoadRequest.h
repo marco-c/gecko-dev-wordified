@@ -345,9 +345,6 @@ nsIURI
 aURI
 ModuleType
 aModuleType
-ScriptFetchOptions
-*
-aFetchOptions
 const
 SRIMetadata
 &
