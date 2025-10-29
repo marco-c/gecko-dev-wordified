@@ -223,6 +223,11 @@ TestPACMan
 cpp
 "
 "
+TestPollableEvent
+.
+cpp
+"
+"
 TestProtocolProxyService
 .
 cpp
