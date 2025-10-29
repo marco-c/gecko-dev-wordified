@@ -14894,8 +14894,9 @@ const
 LayoutDeviceIntRect
 &
 aRect
+const
 InitData
-*
+&
 aInitData
 )
 {
@@ -15048,13 +15049,8 @@ SizeConstraints
 ;
 MOZ_DIAGNOSTIC_ASSERT
 (
-!
 aInitData
-|
-|
-aInitData
--
->
+.
 mWindowType
 !
 =

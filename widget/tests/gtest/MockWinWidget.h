@@ -260,7 +260,6 @@ return
 nullptr
 ;
 }
-virtual
 nsresult
 Create
 (
@@ -271,11 +270,9 @@ const
 LayoutDeviceIntRect
 &
 aRect
+const
 InitData
-*
-aInitData
-=
-nullptr
+&
 )
 override
 {
@@ -283,7 +280,6 @@ return
 NS_OK
 ;
 }
-virtual
 nsresult
 Create
 (
@@ -294,11 +290,9 @@ const
 DesktopIntRect
 &
 aRect
+const
 InitData
-*
-aInitData
-=
-nullptr
+&
 )
 override
 {
@@ -306,7 +300,6 @@ return
 NS_OK
 ;
 }
-virtual
 void
 Show
 (
@@ -316,7 +309,6 @@ aState
 override
 {
 }
-virtual
 bool
 IsVisible
 (
@@ -328,7 +320,6 @@ return
 true
 ;
 }
-virtual
 void
 Move
 (
@@ -340,7 +331,6 @@ aY
 override
 {
 }
-virtual
 void
 Resize
 (
@@ -354,7 +344,6 @@ aRepaint
 override
 {
 }
-virtual
 void
 Resize
 (
@@ -372,7 +361,6 @@ aRepaint
 override
 {
 }
-virtual
 void
 Enable
 (
@@ -382,7 +370,6 @@ aState
 override
 {
 }
-virtual
 bool
 IsEnabled
 (
@@ -394,7 +381,6 @@ return
 true
 ;
 }
-virtual
 void
 SetFocus
 (
@@ -411,7 +397,6 @@ aCallerType
 override
 {
 }
-virtual
 void
 Invalidate
 (
@@ -423,7 +408,6 @@ aRect
 override
 {
 }
-virtual
 nsresult
 SetTitle
 (
@@ -438,7 +422,6 @@ return
 NS_OK
 ;
 }
-virtual
 LayoutDeviceIntPoint
 WidgetToScreenOffset
 (
@@ -453,7 +436,6 @@ LayoutDeviceIntPoint
 )
 ;
 }
-virtual
 nsresult
 DispatchEvent
 (
@@ -473,7 +455,6 @@ return
 NS_OK
 ;
 }
-virtual
 void
 SetInputContext
 (
@@ -489,7 +470,6 @@ aAction
 override
 {
 }
-virtual
 InputContext
 GetInputContext
 (

@@ -2953,10 +2953,9 @@ const
 LayoutDeviceIntRect
 &
 aRect
+const
 InitData
-*
-=
-nullptr
+&
 )
 =
 0
@@ -3044,11 +3043,10 @@ const
 DesktopIntRect
 &
 aRect
+const
 InitData
-*
+&
 aInitData
-=
-nullptr
 )
 {
 LayoutDeviceIntRect
@@ -3189,6 +3187,7 @@ const
 LayoutDeviceIntRect
 &
 aRect
+const
 InitData
 &
 )
@@ -8636,8 +8635,9 @@ BaseCreate
 nsIWidget
 *
 aParent
+const
 InitData
-*
+&
 aInitData
 )
 ;

@@ -1701,7 +1701,6 @@ deskRect
 /
 Widget
 dimensions
-&
 widgetInitData
 )
 ;
@@ -10747,13 +10746,13 @@ mWindow
 /
 /
 "
-drawtitle
+hidetitlebarseparator
 "
 attribute
 mWindow
 -
 >
-SetDrawsTitle
+SetHideTitlebarSeparator
 (
 windowElement
 -
@@ -10763,7 +10762,7 @@ GetBoolAttr
 nsGkAtoms
 :
 :
-drawtitle
+hidetitlebarseparator
 )
 )
 ;

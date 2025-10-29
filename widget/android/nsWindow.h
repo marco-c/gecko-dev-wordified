@@ -969,10 +969,9 @@ aParent
 const
 LayoutDeviceIntRect
 &
-aRect
+const
 InitData
-*
-aInitData
+&
 )
 override
 ;
