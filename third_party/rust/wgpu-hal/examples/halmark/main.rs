@@ -2488,7 +2488,7 @@ mipmap_filter
 wgpu_types
 :
 :
-FilterMode
+MipmapFilterMode
 :
 :
 Nearest

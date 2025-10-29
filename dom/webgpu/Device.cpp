@@ -1860,7 +1860,7 @@ mipmap_filter
 ffi
 :
 :
-WGPUFilterMode
+WGPUMipmapFilterMode
 (
 aDesc
 .

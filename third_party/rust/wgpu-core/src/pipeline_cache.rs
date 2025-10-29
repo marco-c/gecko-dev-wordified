@@ -916,7 +916,7 @@ cache
 That
 is
 the
-resonsibility
+responsibility
 of
 the
 end
@@ -2411,6 +2411,9 @@ Backend
 :
 :
 Vulkan
+transient_saves_memory
+:
+true
 }
 ;
 /

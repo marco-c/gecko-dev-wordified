@@ -15979,6 +15979,7 @@ device_type
 driver
 driver_info
 backend
+transient_saves_memory
 }
 =
 global
@@ -16138,6 +16139,7 @@ driver_info
 )
 backend
 support_use_shared_texture_in_swap_chain
+transient_saves_memory
 }
 ;
 Some

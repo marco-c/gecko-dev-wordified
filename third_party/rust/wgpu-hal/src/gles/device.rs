@@ -5264,6 +5264,14 @@ TextureUses
 :
 :
 DEPTH_STENCIL_READ
+|
+wgt
+:
+:
+TextureUses
+:
+:
+TRANSIENT
 ;
 let
 format_desc

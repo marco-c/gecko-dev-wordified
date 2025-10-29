@@ -1367,7 +1367,7 @@ mipmap_filter
 wgt
 :
 :
-FilterMode
+MipmapFilterMode
 lod_min_clamp
 :
 f32
@@ -5125,6 +5125,7 @@ limits
 name
 vendor
 support_use_shared_texture_in_swap_chain
+transient_saves_memory
 }
 )
 =
@@ -5195,6 +5196,7 @@ name
 )
 vendor
 support_use_shared_texture_in_swap_chain
+transient_saves_memory
 }
 ;
 unsafe

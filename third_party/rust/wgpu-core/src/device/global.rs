@@ -5129,10 +5129,6 @@ EntryMap
 from_entries
 (
 &
-device
-.
-limits
-&
 desc
 .
 entries
