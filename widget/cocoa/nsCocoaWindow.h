@@ -601,7 +601,7 @@ removeTrackingArea
 (
 void
 )
-setBeingShown
+setIsBeingShown
 :
 (
 BOOL
