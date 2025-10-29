@@ -144,6 +144,11 @@ DecompressionStream
 .
 cpp
 "
+"
+FormatZlib
+.
+cpp
+"
 ]
 FINAL_LIBRARY
 =
