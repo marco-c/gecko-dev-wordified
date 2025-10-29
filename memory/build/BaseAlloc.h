@@ -243,16 +243,6 @@ sharing
 .
 void
 *
-base_pages
-MOZ_GUARDED_BY
-(
-base_mtx
-)
-=
-nullptr
-;
-void
-*
 base_next_addr
 MOZ_GUARDED_BY
 (
