@@ -119,6 +119,15 @@ any
 :
 any
 ;
+getActionDescription
+(
+actionName
+:
+string
+)
+:
+string
+;
 performAction
 (
 actionName
