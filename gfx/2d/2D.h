@@ -14810,6 +14810,10 @@ bool
 aUninitialized
 =
 false
+bool
+aIsClear
+=
+false
 )
 ;
 #

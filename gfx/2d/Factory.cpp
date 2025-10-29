@@ -2664,6 +2664,8 @@ SurfaceFormat
 aFormat
 bool
 aUninitialized
+bool
+aIsClear
 )
 {
 MOZ_ASSERT
@@ -2754,6 +2756,7 @@ aSize
 aStride
 aFormat
 aUninitialized
+aIsClear
 )
 )
 {
