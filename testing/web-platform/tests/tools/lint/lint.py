@@ -4981,6 +4981,9 @@ feature
 '
 bidi
 '
+'
+extensions
+'
 ]
 }
 )

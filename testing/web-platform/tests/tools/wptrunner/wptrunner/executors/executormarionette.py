@@ -5383,17 +5383,14 @@ def
 install_web_extension
 (
 self
-extension
+type
+path
+value
 )
 :
         
 if
-extension
-[
-"
 type
-"
-]
 =
 =
 "
@@ -5411,12 +5408,7 @@ install
 (
 data
 =
-extension
-[
-"
 value
-"
-]
 temp
 =
 True
@@ -5425,7 +5417,7 @@ True
 else
 :
             
-path
+extension_path
 =
 self
 .
@@ -5433,12 +5425,7 @@ parent
 .
 test_dir
 +
-extension
-[
-"
 path
-"
-]
             
 extension_id
 =
@@ -5448,7 +5435,7 @@ addons
 .
 install
 (
-path
+extension_path
 temp
 =
 True

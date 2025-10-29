@@ -2154,4 +2154,8 @@ BidiPermissionsSetPermissionAction
 BidiSessionSubscribeAction
     
 BidiSessionUnsubscribeAction
+    
+BidiPermissionsSetPermissionAction
+    
+BidiSessionSubscribeAction
 ]
