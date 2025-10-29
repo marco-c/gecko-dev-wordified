@@ -955,7 +955,7 @@ WasmRuntimeInstances
 )
 moduleAsyncEvaluatingPostOrder
 (
-ASYNC_EVALUATING_POST_ORDER_INIT
+0
 )
 {
 JS_COUNT_CTOR
