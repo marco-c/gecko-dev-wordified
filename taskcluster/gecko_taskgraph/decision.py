@@ -2164,7 +2164,7 @@ parameters
 head_rev
 "
 ]
-base_rev
+base
 =
 parameters
 [
