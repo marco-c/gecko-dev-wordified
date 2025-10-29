@@ -1173,6 +1173,13 @@ lazy
 getPlacesSemanticHistoryManager
 (
 {
+backend
+:
+"
+onnx
+-
+native
+"
 embeddingSize
 :
 384
