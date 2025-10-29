@@ -5658,6 +5658,12 @@ aLoadState
 HasValidUserGestureActivation
 (
 )
+aLoadState
+-
+>
+NotifiedBeforeUnloadListeners
+(
+)
 )
 ;
 }
@@ -83838,6 +83844,8 @@ uint32_t
 aLoadType
 bool
 aUserActivation
+bool
+aNotifiedBeforeUnloadListeners
 )
 {
 RefPtr
@@ -83882,6 +83890,14 @@ GetTextDirectiveUserActivation
 |
 |
 aUserActivation
+)
+;
+loadState
+-
+>
+SetNotifiedBeforeUnloadListeners
+(
+aNotifiedBeforeUnloadListeners
 )
 ;
 return

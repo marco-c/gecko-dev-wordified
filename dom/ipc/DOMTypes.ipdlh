@@ -1358,6 +1358,9 @@ bool
 PrincipalIsExplicit
 ;
 bool
+NotifiedBeforeUnloadListeners
+;
+bool
 ForceAllowDataURI
 ;
 bool
