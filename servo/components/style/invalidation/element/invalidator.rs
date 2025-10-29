@@ -3109,7 +3109,6 @@ Normal
 )
 )
 {
-return
 dependency
 .
 selector
@@ -3120,6 +3119,11 @@ visit
 mut
 self
 )
+;
+return
+self
+.
+found_scope_in_negation
 ;
 }
 let
