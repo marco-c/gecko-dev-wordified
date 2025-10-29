@@ -405,8 +405,7 @@ stack
 :
 [
 "
-#
-updateTabStylesOnDrag
+_updateTabStylesOnDrag
 chrome
 :
 /
