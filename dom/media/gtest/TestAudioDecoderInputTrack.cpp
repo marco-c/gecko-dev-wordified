@@ -43,14 +43,13 @@ set
 ts
 =
 2
+et
 sw
 =
 2
-sts
+tw
 =
-2
-et
-cindent
+80
 :
 *
 /

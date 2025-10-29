@@ -42,9 +42,6 @@ vim
 set
 ts
 =
-8
-sts
-=
 2
 et
 sw
