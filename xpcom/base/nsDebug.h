@@ -314,9 +314,9 @@ so
 :
 *
 *
-(
-void
-)
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -331,9 +331,9 @@ FnWithSideEffects
 (
 The
 |
-(
-void
-)
+Unused
+<
+<
 |
 is
 necessary

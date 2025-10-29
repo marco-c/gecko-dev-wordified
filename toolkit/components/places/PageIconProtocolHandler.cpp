@@ -1459,9 +1459,9 @@ SetContentLength
 1
 )
 ;
-(
-void
-)
+Unused
+<
+<
 StreamDefaultFavicon
 (
 uri
@@ -1996,9 +1996,9 @@ FAVICON_DEFAULT_MIMETYPE
 1
 )
 ;
-(
-void
-)
+Unused
+<
+<
 StreamDefaultFavicon
 (
 uri

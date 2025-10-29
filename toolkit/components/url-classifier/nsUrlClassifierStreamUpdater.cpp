@@ -5953,9 +5953,12 @@ if
 mChannel
 )
 {
-(
-void
-)
+mozilla
+:
+:
+Unused
+<
+<
 mChannel
 -
 >

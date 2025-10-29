@@ -302,6 +302,12 @@ mozilla
 StaticMutexAutoLock
 ;
 using
+mozilla
+:
+:
+Unused
+;
+using
 namespace
 nsMacUtilsImpl
 ;
@@ -1473,9 +1479,9 @@ s
 return
 value
 .
-(
-void
-)
+Unused
+<
+<
 sTCSMStatus
 .
 compareExchange

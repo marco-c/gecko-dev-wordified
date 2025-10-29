@@ -928,9 +928,9 @@ gfxContext
 aCtx
 )
 {
-(
-void
-)
+Unused
+<
+<
 static_cast
 <
 nsFieldSetFrame

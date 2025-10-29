@@ -6618,9 +6618,12 @@ of
 the
 test
 above
-(
-void
-)
+mozilla
+:
+:
+Unused
+<
+<
 PR_sscanf
 (
 in

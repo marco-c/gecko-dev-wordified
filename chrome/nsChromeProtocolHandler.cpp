@@ -647,9 +647,12 @@ Canonify
 surl
 )
 ;
-(
-void
-)
+mozilla
+:
+:
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED

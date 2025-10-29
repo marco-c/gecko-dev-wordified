@@ -1557,9 +1557,9 @@ full
 "
 )
 ;
-(
-void
-)
+Unused
+<
+<
 rv
 ;
 }
@@ -2959,9 +2959,9 @@ consumedDuration
 0
 )
 ;
-(
-void
-)
+Unused
+<
+<
 GetDataFromTimeStretcher
 (
 aExpectedDuration

@@ -1941,9 +1941,9 @@ Init
 (
 )
 ;
-(
-void
-)
+Unused
+<
+<
 rv
 ;
 MOZ_DIAGNOSTIC_ASSERT

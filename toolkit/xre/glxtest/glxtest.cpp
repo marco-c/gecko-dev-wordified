@@ -6694,14 +6694,8 @@ envvar
 set
 "
 ;
-[
-[
-maybe_unused
-]
-]
-ssize_t
-_
-=
+MOZ_UNUSED
+(
 write
 (
 output_pipe
@@ -6709,6 +6703,7 @@ msg
 strlen
 (
 msg
+)
 )
 )
 ;

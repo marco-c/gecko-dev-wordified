@@ -2227,9 +2227,9 @@ true
 uint64_t
 innerWindowID
 ;
-(
-void
-)
+Unused
+<
+<
 newChannel
 -
 >
@@ -2476,9 +2476,9 @@ privacy_restrict3rdpartystorage_expiration_redirect
 )
 )
 ;
-(
-void
-)
+Unused
+<
+<
 promise
 ;
 }

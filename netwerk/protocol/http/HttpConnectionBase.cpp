@@ -581,9 +581,9 @@ aCategory
 return
 ;
 }
-(
-void
-)
+Unused
+<
+<
 mTrafficCategory
 .
 AppendElement
