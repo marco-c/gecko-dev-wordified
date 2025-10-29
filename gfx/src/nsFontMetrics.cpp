@@ -2287,8 +2287,6 @@ get
 )
 {
 return
-NSToCoordRound
-(
 textRun
 -
 >
@@ -2304,7 +2302,6 @@ aLength
 )
 &
 provider
-)
 )
 ;
 }
@@ -2388,8 +2385,6 @@ get
 )
 {
 return
-NSToCoordRound
-(
 textRun
 -
 >
@@ -2405,7 +2400,6 @@ aLength
 )
 &
 provider
-)
 )
 ;
 }

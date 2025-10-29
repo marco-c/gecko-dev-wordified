@@ -6726,11 +6726,14 @@ mAdvanceWidth
 ;
 }
 mAdvanceWidth
-+
 =
+NSCoordSaturatingAdd
+(
+mAdvanceWidth
 aOther
 .
 mAdvanceWidth
+)
 ;
 }
 gfxFont
