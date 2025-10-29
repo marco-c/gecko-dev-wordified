@@ -312,6 +312,16 @@ mModuleType
 (
 aModuleType
 )
+mIsDynamicImport
+(
+aKind
+=
+=
+Kind
+:
+:
+DynamicImport
+)
 mErroredLoadingImports
 (
 false
