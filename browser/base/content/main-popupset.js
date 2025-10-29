@@ -2906,9 +2906,7 @@ target
 ;
 /
 /
-The
-following
-methods
+hideLeadingSeparatorIfNeeded
 must
 be
 called
@@ -2930,15 +2928,6 @@ items
 are
 visible
 .
-ToolbarContextMenu
-.
-updateCustomizationItemsVisibility
-(
-event
-.
-target
-)
-;
 ToolbarContextMenu
 .
 hideLeadingSeparatorIfNeeded
