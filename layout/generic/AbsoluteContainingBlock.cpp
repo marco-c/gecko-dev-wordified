@@ -8665,18 +8665,6 @@ StylePosition
 )
 ;
 const
-LogicalSize
-logicalCBSizeOuterWM
-(
-outerWM
-usedCb
-.
-Size
-(
-)
-)
-;
-const
 auto
 anchorResolutionParams
 =
@@ -8694,7 +8682,7 @@ aKidFrame
 aAnchorPosReferenceData
 )
 &
-logicalCBSizeOuterWM
+cbSize
 )
 ;
 const
@@ -8864,7 +8852,7 @@ OffsetToAlignedStaticPos
 (
 kidReflowInput
 kidMarginBox
-logicalCBSizeOuterWM
+cbSize
 placeholderContainer
 outerWM
 LogicalAxis
@@ -8909,7 +8897,7 @@ IEnd
 outerWM
 )
 =
-logicalCBSizeOuterWM
+cbSize
 .
 ISize
 (
@@ -8973,7 +8961,7 @@ OffsetToAlignedStaticPos
 (
 kidReflowInput
 kidMarginBox
-logicalCBSizeOuterWM
+cbSize
 placeholderContainer
 outerWM
 LogicalAxis
@@ -9018,7 +9006,7 @@ BEnd
 outerWM
 )
 =
-logicalCBSizeOuterWM
+cbSize
 .
 BSize
 (
