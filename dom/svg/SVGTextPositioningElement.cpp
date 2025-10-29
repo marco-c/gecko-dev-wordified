@@ -153,15 +153,6 @@ SVGContentUtils
 .
 h
 "
-#
-include
-"
-mozilla
-/
-ArrayUtils
-.
-h
-"
 namespace
 mozilla
 :

@@ -117,15 +117,6 @@ MPL
 #
 include
 "
-mozilla
-/
-ArrayUtils
-.
-h
-"
-#
-include
-"
 nsAppRunner
 .
 h

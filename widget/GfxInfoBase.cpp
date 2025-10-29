@@ -110,15 +110,6 @@ MPL
 #
 include
 "
-mozilla
-/
-ArrayUtils
-.
-h
-"
-#
-include
-"
 GfxInfoBase
 .
 h

@@ -93,15 +93,6 @@ MPL
 #
 include
 "
-mozilla
-/
-ArrayUtils
-.
-h
-"
-#
-include
-"
 gfxCoreTextShaper
 .
 h

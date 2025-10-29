@@ -282,15 +282,6 @@ include
 "
 mozilla
 /
-ArrayUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 BasePrincipal
 .
 h

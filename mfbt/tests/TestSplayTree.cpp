@@ -119,15 +119,6 @@ include
 "
 mozilla
 /
-ArrayUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Assertions
 .
 h
@@ -141,6 +132,11 @@ SplayTree
 .
 h
 "
+#
+include
+<
+array
+>
 using
 mozilla
 :

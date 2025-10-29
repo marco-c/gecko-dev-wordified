@@ -130,15 +130,6 @@ gfxSkipChars
 .
 h
 "
-#
-include
-"
-mozilla
-/
-ArrayUtils
-.
-h
-"
 static
 bool
 TestConstructor

@@ -111,13 +111,9 @@ h
 >
 #
 include
-"
-mozilla
-/
-ArrayUtils
-.
-h
-"
+<
+array
+>
 /
 /
 Do

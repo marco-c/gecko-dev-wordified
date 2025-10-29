@@ -237,15 +237,6 @@ include
 "
 mozilla
 /
-ArrayUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 HoldDropJSObjects
 .
 h

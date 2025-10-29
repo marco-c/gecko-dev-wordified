@@ -153,15 +153,6 @@ h
 #
 include
 "
-mozilla
-/
-ArrayUtils
-.
-h
-"
-#
-include
-"
 jsfriendapi
 .
 h

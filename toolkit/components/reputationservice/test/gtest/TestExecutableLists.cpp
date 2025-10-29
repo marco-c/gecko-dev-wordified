@@ -40,15 +40,6 @@ h
 #
 include
 "
-mozilla
-/
-ArrayUtils
-.
-h
-"
-#
-include
-"
 nsLocalFileCommon
 .
 h

@@ -112,15 +112,6 @@ MPL
 #
 include
 "
-mozilla
-/
-ArrayUtils
-.
-h
-"
-#
-include
-"
 AsyncGtkClipboardRequest
 .
 h

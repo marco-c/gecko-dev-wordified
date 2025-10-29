@@ -159,15 +159,6 @@ include
 "
 mozilla
 /
-ArrayUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ModuleVersionInfo
 .
 h

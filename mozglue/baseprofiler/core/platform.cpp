@@ -436,15 +436,6 @@ include
 "
 mozilla
 /
-ArrayUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 AutoProfilerLabel
 .
 h

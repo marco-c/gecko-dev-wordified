@@ -240,15 +240,6 @@ updatedefines
 h
 "
 #
-include
-"
-mozilla
-/
-ArrayUtils
-.
-h
-"
-#
 ifndef
 MAXPATHLEN
 #

@@ -134,15 +134,6 @@ include
 "
 mozilla
 /
-ArrayUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 glean
 /
 UrlClassifierMetrics

@@ -104,15 +104,6 @@ MPL
 #
 include
 "
-mozilla
-/
-ArrayUtils
-.
-h
-"
-#
-include
-"
 prthread
 .
 h

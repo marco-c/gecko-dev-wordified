@@ -123,15 +123,6 @@ include
 "
 mozilla
 /
-ArrayUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ClearOnShutdown
 .
 h

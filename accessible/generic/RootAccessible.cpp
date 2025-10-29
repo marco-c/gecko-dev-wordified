@@ -103,15 +103,6 @@ h
 #
 include
 "
-mozilla
-/
-ArrayUtils
-.
-h
-"
-#
-include
-"
 nsXULPopupManager
 .
 h

@@ -70,15 +70,6 @@ include
 "
 mozilla
 /
-ArrayUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 CycleCollectedJSContext
 .
 h

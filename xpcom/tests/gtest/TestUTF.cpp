@@ -116,15 +116,6 @@ MPL
 /
 #
 include
-"
-mozilla
-/
-ArrayUtils
-.
-h
-"
-#
-include
 <
 stdio
 .
