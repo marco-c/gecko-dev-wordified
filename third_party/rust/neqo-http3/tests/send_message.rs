@@ -1083,9 +1083,6 @@ hconn_c
 stream_close_send
 (
 req
-now
-(
-)
 )
 .
 unwrap
@@ -1189,9 +1186,6 @@ request
 send_data
 (
 RESPONSE_DATA
-now
-(
-)
 )
 .
 unwrap
@@ -1212,9 +1206,6 @@ request
 .
 stream_close_send
 (
-now
-(
-)
 )
 .
 unwrap
@@ -1278,9 +1269,6 @@ request
 send_data
 (
 RESPONSE_DATA
-now
-(
-)
 )
 .
 unwrap
@@ -1313,9 +1301,6 @@ request
 .
 stream_close_send
 (
-now
-(
-)
 )
 .
 unwrap
@@ -1379,9 +1364,6 @@ request
 send_data
 (
 RESPONSE_DATA
-now
-(
-)
 )
 .
 unwrap
@@ -1426,9 +1408,6 @@ request
 .
 stream_close_send
 (
-now
-(
-)
 )
 .
 unwrap
@@ -1528,9 +1507,6 @@ request
 .
 stream_close_send
 (
-now
-(
-)
 )
 .
 unwrap
@@ -1594,9 +1570,6 @@ request
 send_data
 (
 RESPONSE_DATA
-now
-(
-)
 )
 .
 unwrap
@@ -1658,9 +1631,6 @@ request
 .
 stream_close_send
 (
-now
-(
-)
 )
 .
 unwrap
@@ -1724,9 +1694,6 @@ request
 send_data
 (
 RESPONSE_DATA
-now
-(
-)
 )
 .
 unwrap
@@ -1775,9 +1742,6 @@ request
 send_data
 (
 RESPONSE_DATA
-now
-(
-)
 )
 Err
 (
@@ -1792,9 +1756,6 @@ request
 .
 stream_close_send
 (
-now
-(
-)
 )
 .
 unwrap
@@ -1858,9 +1819,6 @@ request
 send_data
 (
 RESPONSE_DATA
-now
-(
-)
 )
 .
 unwrap
@@ -1871,9 +1829,6 @@ request
 .
 stream_close_send
 (
-now
-(
-)
 )
 .
 unwrap
@@ -1976,9 +1931,6 @@ request
 .
 stream_close_send
 (
-now
-(
-)
 )
 .
 unwrap
@@ -2061,9 +2013,6 @@ request
 .
 stream_close_send
 (
-now
-(
-)
 )
 .
 unwrap
@@ -2130,9 +2079,6 @@ request
 send_data
 (
 RESPONSE_DATA
-now
-(
-)
 )
 Err
 (
@@ -2158,9 +2104,6 @@ request
 send_data
 (
 RESPONSE_DATA
-now
-(
-)
 )
 .
 unwrap
@@ -2171,9 +2114,6 @@ request
 .
 stream_close_send
 (
-now
-(
-)
 )
 .
 unwrap
@@ -2237,9 +2177,6 @@ request
 send_data
 (
 RESPONSE_DATA
-now
-(
-)
 )
 .
 unwrap
@@ -2282,9 +2219,6 @@ request
 .
 stream_close_send
 (
-now
-(
-)
 )
 .
 unwrap
@@ -2341,9 +2275,6 @@ request
 send_data
 (
 RESPONSE_DATA
-now
-(
-)
 )
 Err
 (
@@ -2369,9 +2300,6 @@ request
 send_data
 (
 RESPONSE_DATA
-now
-(
-)
 )
 .
 unwrap
@@ -2382,9 +2310,6 @@ request
 .
 stream_close_send
 (
-now
-(
-)
 )
 .
 unwrap
@@ -2448,9 +2373,6 @@ request_1
 send_data
 (
 RESPONSE_DATA
-now
-(
-)
 )
 .
 unwrap
@@ -2492,9 +2414,6 @@ request_1
 .
 stream_close_send
 (
-now
-(
-)
 )
 .
 unwrap

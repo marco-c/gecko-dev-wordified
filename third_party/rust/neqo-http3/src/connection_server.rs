@@ -434,9 +434,6 @@ conn
 &
 mut
 Connection
-now
-:
-Instant
 )
 -
 >
@@ -475,7 +472,6 @@ send_data
 (
 conn
 data
-now
 )
 ?
 ;
@@ -666,9 +662,6 @@ conn
 &
 mut
 Connection
-now
-:
-Instant
 )
 -
 >
@@ -706,7 +699,6 @@ stream_close_send
 (
 conn
 stream_id
-now
 )
 ?
 ;
@@ -999,9 +991,6 @@ accept
 :
 &
 SessionAcceptAction
-now
-:
-Instant
 )
 -
 >
@@ -1039,7 +1028,6 @@ clone
 )
 )
 accept
-now
 )
 }
 /
@@ -1072,9 +1060,6 @@ accept
 :
 &
 SessionAcceptAction
-now
-:
-Instant
 )
 -
 >
@@ -1112,7 +1097,6 @@ clone
 )
 )
 accept
-now
 )
 }
 /
@@ -1222,9 +1206,6 @@ message
 :
 &
 str
-now
-:
-Instant
 )
 -
 >
@@ -1250,7 +1231,6 @@ conn
 session_id
 error
 message
-now
 )
 }
 /
@@ -1360,9 +1340,6 @@ message
 :
 &
 str
-now
-:
-Instant
 )
 -
 >
@@ -1388,7 +1365,6 @@ conn
 session_id
 error
 message
-now
 )
 }
 pub
@@ -1687,7 +1663,6 @@ base_handler
 process_sending
 (
 conn
-now
 )
 ;
 self
@@ -2094,7 +2069,6 @@ handle_stream_readable
 (
 conn
 stream_id
-now
 )
 ?
 ;
@@ -2280,6 +2254,7 @@ base_handler
 .
 handle_datagram
 (
+&
 dgram
 )
 ConnectionEvent
@@ -2379,9 +2354,6 @@ Connection
 stream_id
 :
 StreamId
-now
-:
-Instant
 )
 -
 >
@@ -2400,7 +2372,6 @@ handle_stream_readable
 (
 conn
 stream_id
-now
 )
 ?
 {
@@ -2584,7 +2555,6 @@ handle_stream_readable
 (
 conn
 stream_id
-now
 )
 ?
 ;
@@ -2674,7 +2644,6 @@ handle_stream_readable
 (
 conn
 stream_id
-now
 )
 ?
 ;
@@ -3087,7 +3056,6 @@ read_data
 conn
 stream_id
 buf
-now
 )
 ;
 if

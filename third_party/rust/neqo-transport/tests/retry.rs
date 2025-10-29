@@ -149,9 +149,6 @@ neqo_crypto
 :
 {
 generate_ech_keys
-AeadTrait
-as
-_
 AuthenticationStatus
 }
 ;

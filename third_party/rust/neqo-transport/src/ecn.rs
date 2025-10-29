@@ -110,6 +110,7 @@ neqo_common
 {
 qdebug
 qinfo
+qwarn
 Ecn
 }
 ;
@@ -2303,7 +2304,7 @@ ack_ecn
 ack_ecn
 else
 {
-qinfo
+qwarn
 !
 (
 "
@@ -2477,7 +2478,7 @@ sum_inc
 <
 newly_acked_sent_with_ect0
 {
-qinfo
+qwarn
 !
 (
 "
@@ -2533,7 +2534,7 @@ Ect1
 >
 0
 {
-qinfo
+qwarn
 !
 (
 "

@@ -2181,17 +2181,6 @@ cfg
 test
 )
 ]
-#
-[
-cfg_attr
-(
-coverage_nightly
-coverage
-(
-off
-)
-)
-]
 mod
 tests
 {
@@ -6789,9 +6778,6 @@ stream
 send_data
 (
 RESPONSE_BODY
-now
-(
-)
 )
 .
 unwrap
@@ -7107,9 +7093,6 @@ stream
 send_data
 (
 RESPONSE_BODY
-now
-(
-)
 )
 .
 unwrap

@@ -110,10 +110,6 @@ rc
 :
 :
 Rc
-time
-:
-:
-Instant
 }
 ;
 use
@@ -1660,9 +1656,6 @@ Connection
 post_readable_event
 :
 bool
-now
-:
-Instant
 )
 -
 >
@@ -1758,7 +1751,6 @@ self
 .
 stream_id
 )
-now
 )
 ?
 {
@@ -2350,9 +2342,6 @@ conn
 &
 mut
 Connection
-now
-:
-Instant
 )
 -
 >
@@ -2370,7 +2359,6 @@ receive_internal
 (
 conn
 true
-now
 )
 ?
 ;
@@ -2493,9 +2481,6 @@ mut
 [
 u8
 ]
-now
-:
-Instant
 )
 -
 >
@@ -2610,7 +2595,6 @@ self
 .
 stream_id
 amount
-now
 )
 ;
 debug_assert
@@ -2701,7 +2685,6 @@ receive_internal
 (
 conn
 false
-now
 )
 ?
 ;
@@ -2795,9 +2778,6 @@ conn
 &
 mut
 Connection
-now
-:
-Instant
 )
 -
 >
@@ -2914,7 +2894,6 @@ self
 receive
 (
 conn
-now
 )
 }
 fn

@@ -93,10 +93,6 @@ fmt
 :
 :
 Debug
-time
-:
-:
-Instant
 }
 ;
 use
@@ -371,9 +367,6 @@ mut
 [
 u8
 ]
-now
-:
-Instant
 )
 -
 >
@@ -493,9 +486,6 @@ mut
 [
 u8
 ]
-_now
-:
-Instant
 )
 -
 >
@@ -652,9 +642,6 @@ mut
 [
 u8
 ]
-now
-:
-Instant
 )
 -
 >
@@ -676,7 +663,6 @@ self
 .
 conn
 buf
-now
 )
 }
 }
@@ -1179,9 +1165,6 @@ stream_reader
 mut
 dyn
 StreamReader
-now
-:
-Instant
 )
 -
 >
@@ -1239,7 +1222,6 @@ buffer
 .
 to_read
 ]
-now
 )
 .
 map_err

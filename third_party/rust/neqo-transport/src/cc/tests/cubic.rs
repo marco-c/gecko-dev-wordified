@@ -160,7 +160,7 @@ CUBIC_ALPHA
 CUBIC_BETA_USIZE_DIVIDEND
 CUBIC_BETA_USIZE_DIVISOR
 CUBIC_C
-CUBIC_FAST_CONVERGENCE_FACTOR
+CUBIC_FAST_CONVERGENCE
 }
 CongestionControl
 as
@@ -1561,7 +1561,7 @@ cwnd_initial
 /
 /
 Set
-w_max
+last_max_cwnd
 to
 a
 higher
@@ -1592,7 +1592,7 @@ cc_algorithm_mut
 (
 )
 .
-set_w_max
+set_last_max_cwnd
 (
 cwnd_initial_f64
 *
@@ -2020,7 +2020,7 @@ cc_algorithm
 (
 )
 .
-w_max
+last_max_cwnd
 (
 )
 0
@@ -2087,7 +2087,7 @@ cubic
 ;
 /
 /
-w_max
+last_max_cwnd
 is
 equal
 to
@@ -2115,7 +2115,7 @@ cc_algorithm
 (
 )
 .
-w_max
+last_max_cwnd
 (
 )
 cwnd_initial_f64
@@ -2221,7 +2221,7 @@ set_ssthresh
 /
 /
 Set
-w_max
+last_max_cwnd
 to
 something
 smaller
@@ -2256,7 +2256,7 @@ cc_algorithm_mut
 (
 )
 .
-set_w_max
+set_last_max_cwnd
 (
 3
 .
@@ -2341,7 +2341,7 @@ cc_algorithm
 (
 )
 .
-w_max
+last_max_cwnd
 (
 )
 cwnd_initial_f64
@@ -2375,7 +2375,7 @@ cwnd_initial
 test
 ]
 fn
-congestion_event_congestion_avoidance_fast_convergence
+congestion_event_congestion_avoidance_2
 (
 )
 {
@@ -2433,7 +2433,7 @@ set_ssthresh
 /
 /
 Set
-w_max
+last_max_cwnd
 to
 something
 higher
@@ -2465,7 +2465,7 @@ cc_algorithm_mut
 (
 )
 .
-set_w_max
+set_last_max_cwnd
 (
 cwnd_initial_f64
 *
@@ -2506,7 +2506,7 @@ cc_algorithm
 (
 )
 .
-w_max
+last_max_cwnd
 (
 )
 cwnd_initial_f64
@@ -2557,12 +2557,12 @@ cc_algorithm
 (
 )
 .
-w_max
+last_max_cwnd
 (
 )
 cwnd_initial_f64
 *
-CUBIC_FAST_CONVERGENCE_FACTOR
+CUBIC_FAST_CONVERGENCE
 f64
 :
 :
@@ -2664,7 +2664,7 @@ set_ssthresh
 /
 /
 Set
-w_max
+last_max_cwnd
 to
 something
 higher
@@ -2696,7 +2696,7 @@ cc_algorithm_mut
 (
 )
 .
-set_w_max
+set_last_max_cwnd
 (
 cwnd_initial_f64
 *
@@ -2737,7 +2737,7 @@ cc_algorithm
 (
 )
 .
-w_max
+last_max_cwnd
 (
 )
 cwnd_initial_f64

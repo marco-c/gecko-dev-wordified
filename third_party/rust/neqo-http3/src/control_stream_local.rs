@@ -97,10 +97,6 @@ self
 Display
 Formatter
 }
-time
-:
-:
-Instant
 }
 ;
 use
@@ -372,9 +368,6 @@ dyn
 RecvStream
 >
 >
-now
-:
-Instant
 )
 -
 >
@@ -391,7 +384,6 @@ stream
 send_buffer
 (
 conn
-now
 )
 ?
 ;
@@ -401,7 +393,6 @@ send_priority_update
 (
 conn
 recv_conn
-now
 )
 }
 fn
@@ -428,9 +419,6 @@ dyn
 RecvStream
 >
 >
-now
-:
-Instant
 )
 -
 >
@@ -604,7 +592,6 @@ enc
 as_ref
 (
 )
-now
 )
 ?
 {
