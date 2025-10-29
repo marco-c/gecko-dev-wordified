@@ -584,11 +584,6 @@ IsRDDProcessDestroyed
 )
 const
 ;
-bool
-CreateVideoBridge
-(
-)
-;
 /
 /
 Called
