@@ -61,6 +61,7 @@ profileDir
 =
 do_get_profile
 (
+true
 )
 ;
 /

@@ -88,10 +88,6 @@ Ci
 nsIIdentityCredentialStorageService
 )
 ;
-do_get_profile
-(
-)
-;
 add_task
 (
 async

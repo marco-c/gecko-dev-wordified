@@ -520,6 +520,7 @@ etc
 .
 do_get_profile
 (
+true
 )
 ;
 SearchTestUtils

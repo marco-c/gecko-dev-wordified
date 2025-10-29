@@ -148,6 +148,7 @@ mjs
 ;
 do_get_profile
 (
+true
 )
 ;
 /
@@ -158,6 +159,10 @@ done
 before
 instantiating
 nsIX509CertDB
+and
+calling
+ForgetAboutSite
+.
 registerCleanupFunction
 (
 (

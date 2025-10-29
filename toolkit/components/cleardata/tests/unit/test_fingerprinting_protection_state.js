@@ -32,10 +32,6 @@ use
 strict
 "
 ;
-do_get_profile
-(
-)
-;
 add_task
 (
 async
