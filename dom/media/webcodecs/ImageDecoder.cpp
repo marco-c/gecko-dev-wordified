@@ -3551,7 +3551,7 @@ nullptr
 nsTHashSet
 <
 const
-ArrayBuffer
+JSObject
 *
 >
 transferSet
@@ -3605,8 +3605,11 @@ transferSet
 .
 Contains
 (
-&
 buffer
+.
+Obj
+(
+)
 )
 )
 {
@@ -3651,8 +3654,11 @@ transferSet
 .
 Insert
 (
-&
 buffer
+.
+Obj
+(
+)
 )
 ;
 /
