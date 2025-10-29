@@ -156,15 +156,6 @@ MoveOnlyFunction
 h
 "
 #
-include
-"
-mozilla
-/
-Vector
-.
-h
-"
-#
 if
 defined
 (

@@ -177,15 +177,6 @@ include
 "
 mozilla
 /
-Assertions
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ipc
 /
 Endpoint

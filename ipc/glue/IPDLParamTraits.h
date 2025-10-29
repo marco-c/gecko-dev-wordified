@@ -143,15 +143,6 @@ h
 #
 include
 "
-mozilla
-/
-Variant
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h

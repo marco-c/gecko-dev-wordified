@@ -143,15 +143,6 @@ include
 "
 mozilla
 /
-RefPtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ipc
 /
 PIdleSchedulerParent
