@@ -141,15 +141,6 @@ nsCycleCollectionParticipant
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsIChannel
 ;

@@ -246,15 +246,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 DataMutex
 .
 h

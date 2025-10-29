@@ -133,15 +133,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 EndianUtils
 .
 h

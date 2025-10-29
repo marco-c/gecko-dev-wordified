@@ -117,15 +117,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TaskQueue
 .
 h

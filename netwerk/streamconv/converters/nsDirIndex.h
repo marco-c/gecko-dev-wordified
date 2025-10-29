@@ -113,15 +113,6 @@ nsString
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsDirIndex
 final

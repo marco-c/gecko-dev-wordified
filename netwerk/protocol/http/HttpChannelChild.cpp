@@ -409,15 +409,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 glean
 /
 NetwerkProtocolHttpMetrics

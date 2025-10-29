@@ -90,15 +90,6 @@ nsCOMPtr
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 /
 /
 -

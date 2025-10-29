@@ -176,15 +176,6 @@ prio
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsIPrefBranch
 ;

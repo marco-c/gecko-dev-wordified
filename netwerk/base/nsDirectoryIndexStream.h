@@ -102,15 +102,6 @@ nsDirectoryIndexStream_h__
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

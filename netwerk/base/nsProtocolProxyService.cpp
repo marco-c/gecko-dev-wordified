@@ -123,15 +123,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 AutoRestore
 .
 h
