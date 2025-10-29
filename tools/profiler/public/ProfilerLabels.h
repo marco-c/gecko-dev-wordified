@@ -255,15 +255,6 @@ h
 #
 include
 "
-mozilla
-/
-ThreadLocal
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

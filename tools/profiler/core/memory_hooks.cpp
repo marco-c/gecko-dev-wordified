@@ -178,15 +178,6 @@ include
 "
 mozilla
 /
-JSONWriter
-.
-h
-"
-#
-include
-"
-mozilla
-/
 MemoryReporting
 .
 h
