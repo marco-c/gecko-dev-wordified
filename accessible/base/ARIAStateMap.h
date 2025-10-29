@@ -170,6 +170,7 @@ eARIAHasPopup
 eARIAInvalid
 eARIAModal
 eARIAMultiline
+eARIAMultilineByDefault
 eARIAMultiSelectable
 eARIAOrientation
 eARIAPressed
