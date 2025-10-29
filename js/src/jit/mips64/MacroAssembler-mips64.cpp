@@ -21778,9 +21778,11 @@ MacroAssembler
 flexibleQuotientPtr
 (
 Register
+lhs
+Register
 rhs
 Register
-srcDest
+dest
 bool
 isUnsigned
 const
@@ -21791,8 +21793,9 @@ volatileLiveRegs
 {
 quotient64
 (
+lhs
 rhs
-srcDest
+dest
 isUnsigned
 )
 ;
@@ -21804,9 +21807,11 @@ MacroAssembler
 flexibleRemainderPtr
 (
 Register
+lhs
+Register
 rhs
 Register
-srcDest
+dest
 bool
 isUnsigned
 const
@@ -21817,8 +21822,9 @@ volatileLiveRegs
 {
 remainder64
 (
+lhs
 rhs
-srcDest
+dest
 isUnsigned
 )
 ;
