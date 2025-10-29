@@ -166,7 +166,6 @@ be
 equal
 to
 the
-the
 HandleVec
 '
 s

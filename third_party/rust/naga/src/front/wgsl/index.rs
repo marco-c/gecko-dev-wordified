@@ -1510,7 +1510,6 @@ out
 That
 means
 we
-we
 can
 append
 this
