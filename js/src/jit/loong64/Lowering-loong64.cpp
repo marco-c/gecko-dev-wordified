@@ -1523,7 +1523,7 @@ div
 return
 ;
 }
-LDivOrModI64
+auto
 *
 lir
 =
@@ -1552,9 +1552,6 @@ div
 rhs
 (
 )
-)
-temp
-(
 )
 )
 ;
@@ -1890,7 +1887,7 @@ mod
 return
 ;
 }
-LDivOrModI64
+auto
 *
 lir
 =
@@ -1919,9 +1916,6 @@ mod
 rhs
 (
 )
-)
-temp
-(
 )
 )
 ;
@@ -2043,7 +2037,7 @@ MDiv
 div
 )
 {
-LUDivOrModI64
+auto
 *
 lir
 =
@@ -2072,9 +2066,6 @@ div
 rhs
 (
 )
-)
-temp
-(
 )
 )
 ;
@@ -2196,7 +2187,7 @@ MMod
 mod
 )
 {
-LUDivOrModI64
+auto
 *
 lir
 =
@@ -2225,9 +2216,6 @@ mod
 rhs
 (
 )
-)
-temp
-(
 )
 )
 ;
