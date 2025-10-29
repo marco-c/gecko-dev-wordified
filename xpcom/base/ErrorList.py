@@ -11445,6 +11445,18 @@ FAILURE
 44
 )
     
+errors
+[
+"
+NS_ERROR_RESTRICTED_CONTENT
+"
+]
+=
+FAILURE
+(
+45
+)
+    
 #
 Used
 when

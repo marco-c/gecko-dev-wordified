@@ -13539,6 +13539,11 @@ HTMLMetaElement
 aMetaElement
 )
 ;
+void
+TerminateParserAndDisableScripts
+(
+)
+;
 /
 *
 *
