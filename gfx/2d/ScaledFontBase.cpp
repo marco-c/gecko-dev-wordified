@@ -576,6 +576,7 @@ font
 .
 getPaths
 (
+{
 indices
 .
 data
@@ -586,6 +587,7 @@ indices
 size
 (
 )
+}
 [
 ]
 (

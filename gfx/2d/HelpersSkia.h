@@ -1013,6 +1013,7 @@ SkDashPathEffect
 :
 Make
 (
+{
 &
 pattern
 .
@@ -1020,6 +1021,7 @@ front
 (
 )
 dashCount
+}
 SkFloatToScalar
 (
 aOptions

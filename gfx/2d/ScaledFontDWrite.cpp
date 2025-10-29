@@ -3279,9 +3279,15 @@ if
 Factory
 :
 :
-GetBGRSubpixelOrder
+GetSubpixelOrder
 (
 )
+=
+=
+SubpixelOrder
+:
+:
+BGR
 )
 {
 options
