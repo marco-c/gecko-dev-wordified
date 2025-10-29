@@ -4769,7 +4769,6 @@ ScriptKind
 :
 :
 eClassic
-uri
 SRIMetadata
 (
 )
@@ -5027,7 +5026,6 @@ request
 new
 ModuleLoadRequest
 (
-uri
 JS
 :
 :
@@ -6881,7 +6879,9 @@ mWorkerScriptType
 request
 -
 >
-mURI
+URI
+(
+)
 credentials
 secFlags
 )
@@ -6954,7 +6954,9 @@ IsTopLevel
 request
 -
 >
-mURI
+URI
+(
+)
 principal
 mWorkerScriptType
 secFlags
@@ -7002,7 +7004,9 @@ secMan
 request
 -
 >
-mURI
+URI
+(
+)
 loadContext
 -
 >

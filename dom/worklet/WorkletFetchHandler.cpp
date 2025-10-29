@@ -935,7 +935,6 @@ request
 new
 ModuleLoadRequest
 (
-mURI
 JS
 :
 :
@@ -964,9 +963,6 @@ request
 >
 mURL
 =
-request
--
->
 mURI
 -
 >

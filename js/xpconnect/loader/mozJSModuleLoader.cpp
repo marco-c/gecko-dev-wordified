@@ -1319,7 +1319,9 @@ mURI
 aRequest
 -
 >
-mURI
+URI
+(
+)
 )
 {
 }
@@ -3421,7 +3423,9 @@ rv
 aRequest
 -
 >
-mURI
+URI
+(
+)
 -
 >
 GetSpec
@@ -3732,7 +3736,9 @@ TruncatedURLForDisplay
 aRequest
 -
 >
-mURI
+URI
+(
+)
 )
 )
 ;
@@ -3810,7 +3816,9 @@ LocationIsRealFile
 aRequest
 -
 >
-mURI
+URI
+(
+)
 )
 ;
 RootedScript
@@ -5607,7 +5615,9 @@ rv
 aRequest
 -
 >
-mURI
+URI
+(
+)
 -
 >
 GetSpec
@@ -6178,7 +6188,6 @@ request
 new
 ModuleLoadRequest
 (
-uri
 JS
 :
 :

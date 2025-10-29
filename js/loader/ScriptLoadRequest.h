@@ -691,9 +691,6 @@ ScriptLoadRequest
 (
 ScriptKind
 aKind
-nsIURI
-*
-aURI
 const
 SRIMetadata
 &
@@ -1802,13 +1799,6 @@ mHasSourceMapURL_
 true
 ;
 }
-const
-nsCOMPtr
-<
-nsIURI
->
-mURI
-;
 nsCOMPtr
 <
 nsIPrincipal
