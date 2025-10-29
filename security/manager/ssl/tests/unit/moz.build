@@ -96,9 +96,6 @@ tlsserver
 test_trust_anchors
 "
 "
-test_pdf_verification
-"
-"
 test_signed_apps
 "
 ]
