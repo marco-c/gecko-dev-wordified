@@ -119,12 +119,7 @@ util
 .
 taskcluster
 import
-(
-    
 get_artifact_path
-    
-get_index_url
-)
 from
 taskgraph
 .
@@ -165,6 +160,14 @@ util
 platforms
 import
 platform_family
+from
+gecko_taskgraph
+.
+util
+.
+taskcluster
+import
+get_index_url
 transforms
 =
 TransformSequence
