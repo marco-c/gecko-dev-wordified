@@ -415,10 +415,6 @@ resistance
 bool
 ShouldResistFingerprinting
 (
-bool
-aForPointerId
-=
-false
 )
 const
 ;
