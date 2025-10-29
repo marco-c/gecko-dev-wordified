@@ -472,6 +472,13 @@ fieldName
 email
 "
 }
+{
+fieldName
+:
+"
+tel
+"
+}
 ]
 }
 ]
