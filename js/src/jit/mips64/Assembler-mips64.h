@@ -655,7 +655,6 @@ static
 constexpr
 FloatRegister
 ReturnFloat32Reg
-=
 {
 FloatRegisters
 :
@@ -671,7 +670,6 @@ static
 constexpr
 FloatRegister
 ReturnDoubleReg
-=
 {
 FloatRegisters
 :
@@ -687,7 +685,6 @@ static
 constexpr
 FloatRegister
 ScratchFloat32Reg
-=
 {
 FloatRegisters
 :
@@ -703,7 +700,6 @@ static
 constexpr
 FloatRegister
 ScratchDoubleReg
-=
 {
 FloatRegisters
 :
@@ -765,7 +761,6 @@ static
 constexpr
 FloatRegister
 f0
-=
 {
 FloatRegisters
 :
@@ -781,7 +776,6 @@ static
 constexpr
 FloatRegister
 f1
-=
 {
 FloatRegisters
 :
@@ -797,7 +791,6 @@ static
 constexpr
 FloatRegister
 f2
-=
 {
 FloatRegisters
 :
@@ -813,7 +806,6 @@ static
 constexpr
 FloatRegister
 f3
-=
 {
 FloatRegisters
 :
@@ -829,7 +821,6 @@ static
 constexpr
 FloatRegister
 f4
-=
 {
 FloatRegisters
 :
@@ -845,7 +836,6 @@ static
 constexpr
 FloatRegister
 f5
-=
 {
 FloatRegisters
 :
@@ -861,7 +851,6 @@ static
 constexpr
 FloatRegister
 f6
-=
 {
 FloatRegisters
 :
@@ -877,7 +866,6 @@ static
 constexpr
 FloatRegister
 f7
-=
 {
 FloatRegisters
 :
@@ -893,7 +881,6 @@ static
 constexpr
 FloatRegister
 f8
-=
 {
 FloatRegisters
 :
@@ -909,7 +896,6 @@ static
 constexpr
 FloatRegister
 f9
-=
 {
 FloatRegisters
 :
@@ -925,7 +911,6 @@ static
 constexpr
 FloatRegister
 f10
-=
 {
 FloatRegisters
 :
@@ -941,7 +926,6 @@ static
 constexpr
 FloatRegister
 f11
-=
 {
 FloatRegisters
 :
@@ -957,7 +941,6 @@ static
 constexpr
 FloatRegister
 f12
-=
 {
 FloatRegisters
 :
@@ -973,7 +956,6 @@ static
 constexpr
 FloatRegister
 f13
-=
 {
 FloatRegisters
 :
@@ -989,7 +971,6 @@ static
 constexpr
 FloatRegister
 f14
-=
 {
 FloatRegisters
 :
@@ -1005,7 +986,6 @@ static
 constexpr
 FloatRegister
 f15
-=
 {
 FloatRegisters
 :
@@ -1021,7 +1001,6 @@ static
 constexpr
 FloatRegister
 f16
-=
 {
 FloatRegisters
 :
@@ -1037,7 +1016,6 @@ static
 constexpr
 FloatRegister
 f17
-=
 {
 FloatRegisters
 :
@@ -1053,7 +1031,6 @@ static
 constexpr
 FloatRegister
 f18
-=
 {
 FloatRegisters
 :
@@ -1069,7 +1046,6 @@ static
 constexpr
 FloatRegister
 f19
-=
 {
 FloatRegisters
 :
@@ -1085,7 +1061,6 @@ static
 constexpr
 FloatRegister
 f20
-=
 {
 FloatRegisters
 :
@@ -1101,7 +1076,6 @@ static
 constexpr
 FloatRegister
 f21
-=
 {
 FloatRegisters
 :
@@ -1117,7 +1091,6 @@ static
 constexpr
 FloatRegister
 f22
-=
 {
 FloatRegisters
 :
@@ -1133,7 +1106,6 @@ static
 constexpr
 FloatRegister
 f23
-=
 {
 FloatRegisters
 :
@@ -1149,7 +1121,6 @@ static
 constexpr
 FloatRegister
 f24
-=
 {
 FloatRegisters
 :
@@ -1165,7 +1136,6 @@ static
 constexpr
 FloatRegister
 f25
-=
 {
 FloatRegisters
 :
@@ -1181,7 +1151,6 @@ static
 constexpr
 FloatRegister
 f26
-=
 {
 FloatRegisters
 :
@@ -1197,7 +1166,6 @@ static
 constexpr
 FloatRegister
 f27
-=
 {
 FloatRegisters
 :
@@ -1213,7 +1181,6 @@ static
 constexpr
 FloatRegister
 f28
-=
 {
 FloatRegisters
 :
@@ -1229,7 +1196,6 @@ static
 constexpr
 FloatRegister
 f29
-=
 {
 FloatRegisters
 :
@@ -1245,7 +1211,6 @@ static
 constexpr
 FloatRegister
 f30
-=
 {
 FloatRegisters
 :
@@ -1261,7 +1226,6 @@ static
 constexpr
 FloatRegister
 f31
-=
 {
 FloatRegisters
 :

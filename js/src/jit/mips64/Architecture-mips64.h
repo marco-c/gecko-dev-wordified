@@ -730,6 +730,7 @@ kind_
 public
 :
 constexpr
+explicit
 FloatRegister
 (
 uint32_t

@@ -211,6 +211,7 @@ ImmTag
 public
 Imm32
 {
+explicit
 ImmTag
 (
 JSValueTag
