@@ -1378,7 +1378,7 @@ typename
 SanitizerElement
 >
 static
-CanonicalName
+CanonicalElement
 CanonicalizeElement
 (
 const
@@ -1503,7 +1503,7 @@ GetAsString
 )
 ;
 return
-CanonicalName
+CanonicalElement
 (
 nameAtom
 nsGkAtoms
@@ -1665,7 +1665,7 @@ mName
 )
 ;
 return
-CanonicalName
+CanonicalElement
 (
 nameAtom
 namespaceAtom
@@ -1702,7 +1702,7 @@ typename
 SanitizerAttribute
 >
 static
-CanonicalName
+CanonicalAttribute
 CanonicalizeAttribute
 (
 const
@@ -1825,7 +1825,7 @@ GetAsString
 )
 ;
 return
-CanonicalName
+CanonicalAttribute
 (
 nameAtom
 nullptr
@@ -1985,7 +1985,7 @@ mName
 )
 ;
 return
-CanonicalName
+CanonicalAttribute
 (
 nameAtom
 namespaceAtom
@@ -2178,7 +2178,7 @@ Let
 attributes
 be
 .
-CanonicalNameSet
+CanonicalAttributeSet
 attributes
 ;
 /
@@ -2243,7 +2243,7 @@ attribute
 to
 attributes
 .
-CanonicalName
+CanonicalAttribute
 canonicalAttr
 =
 CanonicalizeAttribute
@@ -2382,7 +2382,7 @@ Let
 attributes
 be
 .
-CanonicalNameSet
+CanonicalAttributeSet
 attributes
 ;
 /
@@ -2447,7 +2447,7 @@ attribute
 to
 attributes
 .
-CanonicalName
+CanonicalAttribute
 canonicalAttr
 =
 CanonicalizeAttribute
@@ -2601,7 +2601,7 @@ removeAttributes
 ]
 to
 .
-CanonicalNameSet
+CanonicalAttributeSet
 set
 {
 }
@@ -2926,7 +2926,7 @@ element
 to
 elements
 .
-CanonicalName
+CanonicalElement
 elementName
 =
 CanonicalizeElement
@@ -3084,7 +3084,7 @@ elements
 be
 [
 ]
-CanonicalNameSet
+CanonicalElementSet
 elements
 ;
 /
@@ -3145,7 +3145,7 @@ element
 to
 elements
 .
-CanonicalName
+CanonicalElement
 canonical
 =
 CanonicalizeElement
@@ -3260,7 +3260,7 @@ elements
 be
 [
 ]
-CanonicalNameSet
+CanonicalElementSet
 elements
 ;
 /
@@ -3323,7 +3323,7 @@ element
 to
 elements
 .
-CanonicalName
+CanonicalElement
 canonical
 =
 CanonicalizeElement
@@ -3438,7 +3438,7 @@ attributes
 be
 [
 ]
-CanonicalNameSet
+CanonicalAttributeSet
 attributes
 ;
 /
@@ -3499,7 +3499,7 @@ attribute
 to
 attributes
 .
-CanonicalName
+CanonicalAttribute
 canonical
 =
 CanonicalizeAttribute
@@ -3614,7 +3614,7 @@ attributes
 be
 [
 ]
-CanonicalNameSet
+CanonicalAttributeSet
 attributes
 ;
 /
@@ -3675,7 +3675,7 @@ attribute
 to
 attributes
 .
-CanonicalName
+CanonicalAttribute
 canonical
 =
 CanonicalizeAttribute
@@ -4269,7 +4269,7 @@ mReplaceWithChildrenElements
 for
 (
 const
-CanonicalName
+CanonicalElement
 &
 name
 :
@@ -4379,7 +4379,7 @@ mReplaceWithChildrenElements
 for
 (
 const
-CanonicalName
+CanonicalElement
 &
 name
 :
@@ -4629,7 +4629,7 @@ mAttributes
 for
 (
 const
-CanonicalName
+CanonicalAttribute
 &
 name
 :
@@ -4739,7 +4739,7 @@ mRemoveAttributes
 for
 (
 const
-CanonicalName
+CanonicalAttribute
 &
 name
 :
@@ -4895,7 +4895,7 @@ attribute
 for
 (
 const
-CanonicalName
+CanonicalAttribute
 &
 name
 :
@@ -5026,7 +5026,7 @@ attribute
 for
 (
 const
-CanonicalName
+CanonicalAttribute
 &
 name
 :
@@ -5342,7 +5342,7 @@ mAttributes
 for
 (
 const
-CanonicalName
+CanonicalAttribute
 &
 name
 :
@@ -5454,7 +5454,7 @@ mRemoveAttributes
 for
 (
 const
-CanonicalName
+CanonicalAttribute
 &
 name
 :
@@ -5858,7 +5858,7 @@ i
 ]
 )
 {
-CanonicalNameSet
+CanonicalAttributeSet
 attributes
 ;
 while
@@ -5875,7 +5875,7 @@ attributes
 .
 Insert
 (
-CanonicalName
+CanonicalAttribute
 (
 aElementWithAttributes
 [
@@ -5906,10 +5906,8 @@ attributes
 )
 ;
 }
-CanonicalName
+CanonicalElement
 elementName
-=
-CanonicalName
 (
 name
 aNamespace
@@ -5984,7 +5982,7 @@ elements
 )
 )
 ;
-CanonicalNameSet
+CanonicalAttributeSet
 attributes
 ;
 for
@@ -6000,7 +5998,7 @@ attributes
 .
 Insert
 (
-CanonicalName
+CanonicalAttribute
 (
 name
 nullptr
@@ -6360,7 +6358,7 @@ removeElements
 for
 (
 const
-CanonicalName
+CanonicalElement
 &
 canonical
 :
@@ -6484,7 +6482,7 @@ replaceWithChildrenElements
 for
 (
 const
-CanonicalName
+CanonicalElement
 &
 canonical
 :
@@ -6807,7 +6805,7 @@ attributes
 with
 element
 .
-CanonicalName
+CanonicalElement
 elementName
 =
 CanonicalizeElement
@@ -6966,13 +6964,13 @@ elementAttributes
 mAttributes
 )
 {
-CanonicalNameSet
+CanonicalAttributeSet
 attributes
 ;
 for
 (
 const
-CanonicalName
+CanonicalAttribute
 &
 attr
 :
@@ -7217,13 +7215,13 @@ elementAttributes
 mRemoveAttributes
 )
 {
-CanonicalNameSet
+CanonicalAttributeSet
 removeAttributes
 ;
 for
 (
 const
-CanonicalName
+CanonicalAttribute
 &
 attr
 :
@@ -7406,13 +7404,13 @@ elementAttributes
 mAttributes
 )
 {
-CanonicalNameSet
+CanonicalAttributeSet
 attributes
 ;
 for
 (
 const
-CanonicalName
+CanonicalAttribute
 &
 attr
 :
@@ -7672,13 +7670,13 @@ elementAttributes
 mRemoveAttributes
 )
 {
-CanonicalNameSet
+CanonicalAttributeSet
 removeAttributes
 ;
 for
 (
 const
-CanonicalName
+CanonicalAttribute
 &
 attr
 :
@@ -8462,7 +8460,7 @@ element
 with
 element
 .
-CanonicalName
+CanonicalElement
 element
 =
 CanonicalizeElement
@@ -8489,7 +8487,7 @@ Sanitizer
 :
 RemoveElementCanonical
 (
-CanonicalName
+CanonicalElement
 &
 &
 aElement
@@ -8896,7 +8894,7 @@ element
 with
 element
 .
-CanonicalName
+CanonicalElement
 element
 =
 CanonicalizeElement
@@ -9117,7 +9115,7 @@ attribute
 with
 attribute
 .
-CanonicalName
+CanonicalAttribute
 attribute
 =
 CanonicalizeAttribute
@@ -9716,7 +9714,7 @@ attribute
 with
 attribute
 .
-CanonicalName
+CanonicalAttribute
 attribute
 =
 CanonicalizeAttribute
@@ -9743,7 +9741,7 @@ Sanitizer
 :
 RemoveAttributeCanonical
 (
-CanonicalName
+CanonicalAttribute
 &
 &
 aAttribute
@@ -10768,7 +10766,7 @@ RemoveIf
 ]
 (
 const
-CanonicalName
+CanonicalAttribute
 &
 aAttribute
 )
@@ -10928,7 +10926,7 @@ RemoveIf
 ]
 (
 const
-CanonicalName
+CanonicalAttribute
 &
 aAttribute
 )
@@ -11217,13 +11215,13 @@ if
 (
 RemoveElementCanonical
 (
-\
-CanonicalName
+CanonicalElement
 (
 nsGkAtoms
 :
 :
 LOCAL_NAME
+\
 nsGkAtoms
 :
 :
@@ -11369,7 +11367,7 @@ self
 >
 RemoveAttributeCanonical
 (
-CanonicalName
+CanonicalAttribute
 (
 aName
 nullptr
@@ -12095,7 +12093,7 @@ config
 .
 Maybe
 <
-CanonicalName
+CanonicalElement
 >
 elementName
 ;
@@ -13757,7 +13755,7 @@ Element
 *
 aChild
 const
-CanonicalName
+CanonicalElement
 &
 aElementName
 bool
@@ -13987,7 +13985,7 @@ NamespaceID
 (
 )
 ;
-CanonicalName
+CanonicalAttribute
 attrName
 (
 attrLocalName
