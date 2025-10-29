@@ -175,15 +175,6 @@ Mutex
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsIMemoryReporter
 ;

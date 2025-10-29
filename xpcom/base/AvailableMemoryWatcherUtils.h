@@ -123,15 +123,6 @@ mozilla_AvailableMemoryWatcherUtils_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsISupportsUtils
 .
 h

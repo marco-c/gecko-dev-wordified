@@ -128,15 +128,6 @@ cstddef
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsError
 .
 h

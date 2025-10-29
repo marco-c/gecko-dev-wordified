@@ -205,15 +205,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ipc
 /
 InputStreamUtils

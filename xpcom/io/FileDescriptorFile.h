@@ -125,15 +125,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ipc
 /
 FileDescriptor
@@ -282,8 +273,9 @@ private
 FileDescriptorFile
 (
 )
-{
-}
+=
+default
+;
 FileDescriptorFile
 (
 const

@@ -117,15 +117,6 @@ MPL
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsEnumeratorUtils
 .
 h
@@ -175,8 +166,9 @@ public
 EmptyEnumeratorImpl
 (
 )
-{
-}
+=
+default
+;
 /
 /
 nsISupports

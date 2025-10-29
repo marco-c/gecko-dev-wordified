@@ -117,15 +117,6 @@ MPL
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsArrayEnumerator
 .
 h

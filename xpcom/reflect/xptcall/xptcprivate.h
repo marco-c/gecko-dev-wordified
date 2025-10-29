@@ -119,15 +119,6 @@ xptcall
 h
 "
 #
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
 if
 !
 defined
@@ -384,8 +375,9 @@ mEntry
 nsXPTCStubBase
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 #

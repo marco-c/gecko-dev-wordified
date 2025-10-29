@@ -128,15 +128,6 @@ nsIScriptableBase64Encoder
 h
 "
 #
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
 define
 NS_SCRIPTABLEBASE64ENCODER_CID
 \

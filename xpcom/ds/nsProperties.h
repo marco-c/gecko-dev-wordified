@@ -141,15 +141,6 @@ nsHashKeys
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 typedef
 nsInterfaceHashtable
 <

@@ -168,15 +168,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 gtest
 /
 MozAssertions

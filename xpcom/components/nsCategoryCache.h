@@ -123,15 +123,6 @@ nsCategoryCache_h_
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h

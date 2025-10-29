@@ -148,15 +148,6 @@ nsTHashtable
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 /
 /
 {

@@ -141,15 +141,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 CheckedInt
 .
 h

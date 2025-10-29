@@ -157,15 +157,6 @@ ArenaAllocator
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsIUnicharInputStream
 ;
