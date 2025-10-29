@@ -948,12 +948,10 @@ map
 |
 e
 |
-(
 *
 e
 as
 u128
-)
 )
 .
 collect
