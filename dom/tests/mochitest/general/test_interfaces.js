@@ -17135,7 +17135,10 @@ name
 "
 Sanitizer
 "
-disabled
+insecureContext
+:
+true
+nightly
 :
 true
 }
