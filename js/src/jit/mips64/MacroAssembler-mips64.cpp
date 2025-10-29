@@ -16326,7 +16326,13 @@ reduceSetForPush
 )
 )
 ;
+mozilla
+:
+:
+DebugOnly
+<
 unsigned
+>
 numFpu
 =
 fpuSet
@@ -16344,7 +16350,13 @@ getPushSizeInBytes
 (
 )
 ;
+mozilla
+:
+:
+DebugOnly
+<
 int32_t
+>
 diffG
 =
 set

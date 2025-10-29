@@ -8162,6 +8162,9 @@ if
 cache_hit
 )
 {
+#
+ifdef
+DEBUG
 /
 /
 Check
@@ -8213,6 +8216,8 @@ cmpret
 0
 )
 ;
+#
+endif
 }
 else
 {
