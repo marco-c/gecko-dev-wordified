@@ -471,6 +471,9 @@ SessionStorageManager
 class
 StructuredCloneHolder
 ;
+struct
+NavigationAPIMethodTracker
+;
 class
 WindowContext
 ;
@@ -3655,6 +3658,14 @@ false
 nsIStructuredCloneContainer
 *
 aNavigationAPIState
+=
+nullptr
+dom
+:
+:
+NavigationAPIMethodTracker
+*
+aNavigationAPIMethodTracker
 =
 nullptr
 )

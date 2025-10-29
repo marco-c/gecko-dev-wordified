@@ -16003,6 +16003,12 @@ aNeedsCompletelyLoadedDocument
 nsIStructuredCloneContainer
 *
 aNavigationAPIState
+dom
+:
+:
+NavigationAPIMethodTracker
+*
+aNavigationAPIMethodTracker
 )
 {
 MOZ_LOG_FMT
@@ -16253,6 +16259,14 @@ loadState
 SetNavigationAPIState
 (
 aNavigationAPIState
+)
+;
+loadState
+-
+>
+SetNavigationAPIMethodTracker
+(
+aNavigationAPIMethodTracker
 )
 ;
 rv

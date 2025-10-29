@@ -23976,6 +23976,9 @@ nsIStructuredCloneContainer
 aNavigationAPIState
 UserNavigationInvolvement
 aUserInvolvement
+NavigationAPIMethodTracker
+*
+aNavigationAPIMethodTracker
 )
 {
 if
@@ -24378,6 +24381,7 @@ aClassiCHistoryAPIState
 *
 /
 nullptr
+aNavigationAPIMethodTracker
 )
 )
 {
@@ -57795,6 +57799,16 @@ GetSourceElement
 /
 Step
 4
+RefPtr
+apiMethodTracker
+=
+aLoadState
+-
+>
+GetNavigationAPIMethodTracker
+(
+)
+;
 bool
 shouldContinue
 =
@@ -57849,6 +57863,7 @@ aClassicHistoryAPIState
 *
 /
 nullptr
+apiMethodTracker
 )
 ;
 /
@@ -63899,6 +63914,16 @@ Step
 21
 .
 4
+RefPtr
+apiMethodTracker
+=
+aLoadState
+-
+>
+GetNavigationAPIMethodTracker
+(
+)
+;
 bool
 shouldContinue
 =
@@ -63943,6 +63968,7 @@ aClassicHistoryAPIState
 *
 /
 nullptr
+apiMethodTracker
 )
 ;
 /
