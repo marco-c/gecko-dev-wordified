@@ -1329,8 +1329,6 @@ IMG_ID
 "
 role
 "
-"
-"
 )
 ;
 await
