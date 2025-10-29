@@ -7228,9 +7228,6 @@ incumbentGlobalJS
 if
 (
 incumbentGlobal
-&
-&
-schedulingState
 )
 {
 /
@@ -7444,9 +7441,6 @@ null
 if
 (
 incumbentGlobal
-&
-&
-schedulingState
 )
 {
 incumbentGlobal
