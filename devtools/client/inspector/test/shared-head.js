@@ -3084,10 +3084,6 @@ selectorChild
 return
 content
 .
-document
-.
-defaultView
-.
 getComputedStyle
 (
 element
@@ -3239,10 +3235,6 @@ const
 value
 =
 content
-.
-document
-.
-defaultView
 .
 getComputedStyle
 (
