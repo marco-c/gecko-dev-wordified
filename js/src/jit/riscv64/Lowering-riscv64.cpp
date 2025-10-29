@@ -3155,15 +3155,8 @@ useRegister
 (
 opd
 )
-useFixed
+LAllocation
 (
-ins
--
->
-instance
-(
-)
-InstanceReg
 )
 LDefinition
 :

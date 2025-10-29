@@ -4191,6 +4191,15 @@ target
 ;
 }
 void
+truncateFloat32ModUint32
+(
+FloatRegister
+src
+Register
+dest
+)
+;
+void
 movq
 (
 Register
