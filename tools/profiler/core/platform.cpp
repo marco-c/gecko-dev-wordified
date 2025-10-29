@@ -17289,6 +17289,9 @@ pc
 jsFrame
 .
 realmID
+jsFrame
+.
+sourceId
 )
 ;
 aCollector
@@ -26185,6 +26188,7 @@ get
 )
 0
 0
+0
 Nothing
 (
 )
@@ -27857,6 +27861,19 @@ move
 (
 progressLogger
 )
+sourceIdToIndexMap
+.
+isSome
+(
+)
+?
+sourceIdToIndexMap
+.
+ptr
+(
+)
+:
+nullptr
 )
 ;
 if

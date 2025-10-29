@@ -1804,6 +1804,9 @@ pc
 uint64_t
 *
 realmID
+uint32_t
+*
+sourceId
 )
 const
 ;

@@ -4786,6 +4786,12 @@ realmID
 =
 0
 ;
+frame
+.
+sourceId
+=
+0
+;
 return
 mozilla
 :
@@ -5205,6 +5211,10 @@ interpreterPC_
 frame
 .
 realmID
+&
+frame
+.
+sourceId
 )
 ;
 MOZ_ASSERT
@@ -5245,6 +5255,12 @@ nullptr
 frame
 .
 realmID
+=
+0
+;
+frame
+.
+sourceId
 =
 0
 ;
