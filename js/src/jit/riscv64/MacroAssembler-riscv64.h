@@ -7600,7 +7600,7 @@ Acquire
 (
 )
 ;
-computeScaledAddress
+computeEffectiveAddress
 (
 src
 scratch
@@ -7672,7 +7672,7 @@ Acquire
 (
 )
 ;
-computeScaledAddress
+computeEffectiveAddress
 (
 src
 scratch
