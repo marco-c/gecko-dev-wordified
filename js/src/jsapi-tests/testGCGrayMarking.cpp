@@ -249,6 +249,7 @@ JSObject
 *
 JSObject
 *
+ZoneAllocPolicy
 >
 {
 using
@@ -260,6 +261,7 @@ JSObject
 *
 JSObject
 *
+ZoneAllocPolicy
 >
 ;
 using
