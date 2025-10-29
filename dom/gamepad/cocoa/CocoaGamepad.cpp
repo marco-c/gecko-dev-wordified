@@ -3609,9 +3609,9 @@ NS_GetCurrentThread
 (
 )
 ;
-Unused
-<
-<
+(
+void
+)
 NS_NewNamedThread
 (
 "

@@ -10682,9 +10682,9 @@ i
 .
 mMsgHeaderType
 ;
-Unused
-<
-<
+(
+void
+)
 field
 -
 >

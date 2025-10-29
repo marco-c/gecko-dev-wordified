@@ -980,12 +980,9 @@ AddMarkerToBuffer
 PROFILER
 )
 ;
-mozilla
-:
-:
-Unused
-<
-<
+(
+void
+)
 aMarkerType
 ;
 /

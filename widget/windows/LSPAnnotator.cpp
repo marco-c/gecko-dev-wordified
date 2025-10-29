@@ -228,9 +228,9 @@ Annotate
 (
 )
 {
-Unused
-<
-<
+(
+void
+)
 CrashReporter
 :
 :

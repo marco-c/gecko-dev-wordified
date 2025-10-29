@@ -1990,9 +1990,9 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-Unused
-<
-<
+(
+void
+)
 mTRRServiceParent
 -
 >

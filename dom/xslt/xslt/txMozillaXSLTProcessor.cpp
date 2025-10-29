@@ -6325,9 +6325,9 @@ rv
 ElementCreationOptionsOrString
 options
 ;
-Unused
-<
-<
+(
+void
+)
 options
 .
 SetAsString
@@ -6438,9 +6438,9 @@ IsEmpty
 ElementCreationOptionsOrString
 options
 ;
-Unused
-<
-<
+(
+void
+)
 options
 .
 SetAsString

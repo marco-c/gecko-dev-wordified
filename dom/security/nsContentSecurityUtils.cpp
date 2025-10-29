@@ -7078,9 +7078,9 @@ if
 httpChannel
 )
 {
-Unused
-<
-<
+(
+void
+)
 httpChannel
 -
 >
@@ -7097,9 +7097,9 @@ _ns
 tCspHeaderValue
 )
 ;
-Unused
-<
-<
+(
+void
+)
 httpChannel
 -
 >

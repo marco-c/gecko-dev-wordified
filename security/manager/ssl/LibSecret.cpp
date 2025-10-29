@@ -1054,9 +1054,9 @@ GError
 >
 error
 ;
-Unused
-<
-<
+(
+void
+)
 secret_password_clear_sync
 (
 &

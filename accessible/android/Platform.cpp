@@ -1360,9 +1360,9 @@ uint64_t
 aCacheDomains
 )
 {
-Unused
-<
-<
+(
+void
+)
 aCacheDomains
 ;
 /

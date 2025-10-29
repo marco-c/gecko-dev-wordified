@@ -1734,9 +1734,9 @@ aNode
 )
 )
 ;
-Unused
-<
-<
+(
+void
+)
 mCurrentIterator
 -
 >

@@ -1518,9 +1518,9 @@ Win10
 /
 only
 .
-Unused
-<
-<
+(
+void
+)
 NS_WARN_IF
 (
 mozilla
@@ -1579,9 +1579,9 @@ seen
 on
 Win10
 .
-Unused
-<
-<
+(
+void
+)
 NS_WARN_IF
 (
 !

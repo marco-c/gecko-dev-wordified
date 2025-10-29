@@ -183,9 +183,9 @@ mTransactionState
 "
 )
 {
-Unused
-<
-<
+(
+void
+)
 authrs_service_constructor
 (
 getter_AddRefs

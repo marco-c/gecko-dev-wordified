@@ -175,12 +175,6 @@ using
 mozilla
 :
 :
-Unused
-;
-using
-mozilla
-:
-:
 WrapUnique
 ;
 /
@@ -1254,9 +1248,9 @@ mSteps
 aPos
 ]
 ;
-Unused
-<
-<
+(
+void
+)
 step
 -
 >

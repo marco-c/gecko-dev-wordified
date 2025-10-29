@@ -196,9 +196,9 @@ GetChildSingleton
 (
 )
 ;
-Unused
-<
-<
+(
+void
+)
 cache
 .
 InitCache

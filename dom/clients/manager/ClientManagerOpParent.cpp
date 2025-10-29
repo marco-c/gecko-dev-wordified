@@ -336,9 +336,9 @@ Complete
 (
 )
 ;
-Unused
-<
-<
+(
+void
+)
 PClientManagerOpParent
 :
 :
@@ -365,9 +365,9 @@ Complete
 (
 )
 ;
-Unused
-<
-<
+(
+void
+)
 PClientManagerOpParent
 :
 :

@@ -217,12 +217,9 @@ in
 test
 cases
 .
-mozilla
-:
-:
-Unused
-<
-<
+(
+void
+)
 mConnection
 -
 >

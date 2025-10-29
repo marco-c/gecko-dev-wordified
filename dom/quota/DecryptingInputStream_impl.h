@@ -2455,9 +2455,9 @@ NS_SEEK_SET
 savedBaseCurrent
 )
 ;
-Unused
-<
-<
+(
+void
+)
 NS_WARN_IF
 (
 NS_FAILED

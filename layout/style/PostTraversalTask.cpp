@@ -330,9 +330,9 @@ Type
 :
 InitializeFamily
 :
-Unused
-<
-<
+(
+void
+)
 gfxPlatformFontList
 :
 :

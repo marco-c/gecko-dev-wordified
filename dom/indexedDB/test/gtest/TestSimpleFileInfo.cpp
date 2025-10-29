@@ -1188,9 +1188,9 @@ CreateFileInfo
 (
 )
 ;
-Unused
-<
-<
+(
+void
+)
 fileInfo
 ;
 ASSERT_EQ
@@ -1257,9 +1257,9 @@ CreateFileInfo
 (
 )
 ;
-Unused
-<
-<
+(
+void
+)
 fileInfo
 ;
 fileManager

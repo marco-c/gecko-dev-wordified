@@ -15272,9 +15272,9 @@ MOZ_ASSERT
 aBuilder
 )
 ;
-Unused
-<
-<
+(
+void
+)
 static_cast
 <
 nsTreeBodyFrame

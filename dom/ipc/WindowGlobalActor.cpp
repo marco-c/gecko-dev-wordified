@@ -581,9 +581,9 @@ storagePrincipal
 =
 aPrincipal
 ;
-Unused
-<
-<
+(
+void
+)
 NS_NewURI
 (
 getter_AddRefs

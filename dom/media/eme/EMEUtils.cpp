@@ -290,9 +290,9 @@ Clear
 (
 )
 ;
-Unused
-<
-<
+(
+void
+)
 dom
 :
 :
@@ -1568,9 +1568,9 @@ AppendElement
 (
 )
 ;
-Unused
-<
-<
+(
+void
+)
 aDocument
 -
 >

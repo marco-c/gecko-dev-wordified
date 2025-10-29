@@ -880,9 +880,9 @@ if
 tlsSocketControl
 )
 {
-Unused
-<
-<
+(
+void
+)
 tlsSocketControl
 -
 >

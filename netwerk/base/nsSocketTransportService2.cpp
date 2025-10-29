@@ -6889,9 +6889,9 @@ ignoredStackBuffer
 255
 ]
 ;
-Unused
-<
-<
+(
+void
+)
 gethostname
 (
 ignoredStackBuffer
