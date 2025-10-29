@@ -132,6 +132,12 @@ initWeather
 (
 )
 ;
+GeolocationTestUtils
+.
+stubGeolocation
+(
+)
+;
 }
 )
 ;
