@@ -5045,6 +5045,7 @@ ShmemTextureHost
 GetBuffer
 (
 )
+const
 {
 return
 mShmem
@@ -5069,6 +5070,7 @@ ShmemTextureHost
 GetBufferSize
 (
 )
+const
 {
 return
 mShmem
@@ -5210,6 +5212,7 @@ MemoryTextureHost
 GetBuffer
 (
 )
+const
 {
 return
 mBuffer
@@ -5222,6 +5225,7 @@ MemoryTextureHost
 GetBufferSize
 (
 )
+const
 {
 /
 /

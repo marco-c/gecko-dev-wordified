@@ -805,6 +805,7 @@ public
 explicit
 RenderDXGIYCbCrTextureHost
 (
+const
 RefPtr
 <
 gfx

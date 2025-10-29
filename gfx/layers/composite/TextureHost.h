@@ -4813,6 +4813,7 @@ uint8_t
 GetBuffer
 (
 )
+const
 =
 0
 ;
@@ -4821,6 +4822,7 @@ size_t
 GetBufferSize
 (
 )
+const
 =
 0
 ;
@@ -5267,12 +5269,14 @@ uint8_t
 GetBuffer
 (
 )
+const
 override
 ;
 size_t
 GetBufferSize
 (
 )
+const
 override
 ;
 const
@@ -5418,12 +5422,14 @@ uint8_t
 GetBuffer
 (
 )
+const
 override
 ;
 size_t
 GetBufferSize
 (
 )
+const
 override
 ;
 const

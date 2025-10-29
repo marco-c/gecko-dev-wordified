@@ -2755,6 +2755,7 @@ RenderDXGIYCbCrTextureHost
 :
 RenderDXGIYCbCrTextureHost
 (
+const
 RefPtr
 <
 gfx
