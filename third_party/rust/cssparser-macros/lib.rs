@@ -1225,9 +1225,9 @@ format
 "
 Case
 {
+case_id
 }
 "
-case_id
 )
 arm
 .
@@ -1372,9 +1372,9 @@ Case
 :
 Case
 {
+entry
 }
 "
-entry
 )
 )
 .

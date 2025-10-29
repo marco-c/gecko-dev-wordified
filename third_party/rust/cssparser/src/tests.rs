@@ -7347,8 +7347,6 @@ const
 BACKGROUND_IMAGE
 :
 &
-'
-static
 str
 =
 include_str

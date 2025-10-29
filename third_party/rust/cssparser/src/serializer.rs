@@ -2308,10 +2308,8 @@ usage
 /
 /
 /
-{
 rust
 ignore
-}
 /
 /
 /

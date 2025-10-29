@@ -656,11 +656,11 @@ unexpected
 token
 :
 {
+token
 :
 ?
 }
 "
-token
 )
 }
 BasicParseErrorKind
@@ -701,10 +701,10 @@ encountered
 :
 '
 {
+rule
 }
 '
 "
-rule
 )
 }
 BasicParseErrorKind
@@ -2124,10 +2124,8 @@ Example
 /
 /
 /
-{
 rust
 ignore
-}
 /
 /
 /

@@ -355,10 +355,8 @@ closure
 .
 Examples
 :
-{
 rust
 ignore
-}
 /
 /
 '
@@ -441,10 +439,8 @@ tail
 call
 }
 }
-{
 rust
 ignore
-}
 /
 /
 [
