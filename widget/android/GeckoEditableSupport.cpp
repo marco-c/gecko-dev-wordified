@@ -353,7 +353,7 @@ LazyLogModule
 sGeckoEditableSupportLog
 (
 "
-GeckoEditableSupport
+IMEHandler
 "
 )
 ;
