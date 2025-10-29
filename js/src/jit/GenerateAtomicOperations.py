@@ -8148,6 +8148,11 @@ Attributes
 .
 h
 "
+#
+include
+<
+cstdint
+>
 namespace
 js
 {

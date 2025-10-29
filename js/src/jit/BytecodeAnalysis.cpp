@@ -120,6 +120,15 @@ h
 #
 include
 "
+mozilla
+/
+PodOperations
+.
+h
+"
+#
+include
+"
 jit
 /
 JitSpewer

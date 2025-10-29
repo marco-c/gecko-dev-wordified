@@ -116,15 +116,6 @@ define
 jit_riscv64_Register_riscv64_h
 #
 include
-"
-mozilla
-/
-Assertions
-.
-h
-"
-#
-include
 <
 stdint
 .

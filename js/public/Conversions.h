@@ -145,15 +145,6 @@ include
 "
 mozilla
 /
-MathAlgorithms
-.
-h
-"
-#
-include
-"
-mozilla
-/
 WrappingOperations
 .
 h

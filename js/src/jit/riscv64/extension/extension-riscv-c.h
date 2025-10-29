@@ -45,15 +45,6 @@ define
 jit_riscv64_extension_Extension_riscv_c_h_
 #
 include
-"
-mozilla
-/
-Assertions
-.
-h
-"
-#
-include
 <
 stdint
 .
