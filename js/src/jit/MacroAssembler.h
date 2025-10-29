@@ -9221,9 +9221,6 @@ dest
 DEFINED_ON
 (
 x64
-mips64
-loong64
-riscv64
 )
 ;
 inline
@@ -9240,9 +9237,6 @@ dest
 DEFINED_ON
 (
 x64
-mips64
-loong64
-riscv64
 )
 ;
 inline
@@ -9259,9 +9253,6 @@ dest
 DEFINED_ON
 (
 x64
-mips64
-loong64
-riscv64
 )
 ;
 /
@@ -9788,9 +9779,6 @@ dest
 DEFINED_ON
 (
 x64
-mips64
-loong64
-riscv64
 )
 ;
 inline
@@ -10020,9 +10008,6 @@ dest
 DEFINED_ON
 (
 x64
-mips64
-loong64
-riscv64
 )
 ;
 inline
@@ -10179,9 +10164,6 @@ temp
 DEFINED_ON
 (
 x64
-mips64
-loong64
-riscv64
 )
 ;
 inline
