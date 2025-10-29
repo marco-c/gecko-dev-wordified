@@ -1304,7 +1304,7 @@ browser
 (
 )
 :
-XULBrowserElement
+MozBrowser
 ;
 /
 *

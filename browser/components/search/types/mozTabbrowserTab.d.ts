@@ -31,12 +31,8 @@ declare
 class
 MozTabbrowserTab
 {
-/
-/
-Bug
-1957641
 linkedBrowser
 :
-XULBrowserElement
+MozBrowser
 ;
 }
