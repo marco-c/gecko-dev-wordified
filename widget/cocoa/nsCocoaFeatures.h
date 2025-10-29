@@ -371,14 +371,10 @@ Prevent
 instantiation
 .
 static
-void
-InitializeVersionNumbers
+int32_t
+ComputeVersion
 (
 )
-;
-static
-int32_t
-mOSVersion
 ;
 }
 ;
