@@ -4067,6 +4067,12 @@ nsAString
 aName
 )
 ;
+static
+void
+InvalidateWindowPreviews
+(
+)
+;
 private
 :
 static

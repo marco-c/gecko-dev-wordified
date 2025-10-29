@@ -2120,6 +2120,13 @@ SetIsRestoringSession
 false
 )
 ;
+WinUtils
+:
+:
+InvalidateWindowPreviews
+(
+)
+;
 /
 /
 Now
