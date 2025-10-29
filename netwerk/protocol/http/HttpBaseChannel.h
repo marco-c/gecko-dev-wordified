@@ -1323,15 +1323,6 @@ value
 override
 ;
 NS_IMETHOD
-IsPrivateResponse
-(
-bool
-*
-value
-)
-override
-;
-NS_IMETHOD
 GetResponseStatus
 (
 uint32_t
