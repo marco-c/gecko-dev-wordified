@@ -5643,11 +5643,9 @@ MacroAssembler
 quotient32
 (
 Register
-lhs
-Register
 rhs
 Register
-dest
+srcDest
 bool
 isUnsigned
 )
@@ -5664,11 +5662,9 @@ MacroAssembler
 remainder32
 (
 Register
-lhs
-Register
 rhs
 Register
-dest
+srcDest
 bool
 isUnsigned
 )

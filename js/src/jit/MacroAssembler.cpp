@@ -14272,9 +14272,14 @@ input
 base
 |
 .
-flexibleDivMod32
+move32
 (
 input
+scratch1
+)
+;
+flexibleDivMod32
+(
 base
 scratch1
 scratch2
