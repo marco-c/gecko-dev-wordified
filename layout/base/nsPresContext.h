@@ -3664,6 +3664,7 @@ AppUnitsToFloatDevPixels
 nscoord
 aAppUnits
 )
+const
 {
 return
 aAppUnits
@@ -3682,6 +3683,7 @@ CSSPixelsToDevPixels
 int32_t
 aPixels
 )
+const
 {
 return
 AppUnitsToDevPixels
@@ -3699,6 +3701,7 @@ CSSPixelsToDevPixels
 float
 aPixels
 )
+const
 {
 return
 NSAppUnitsToFloatPixels
@@ -3722,6 +3725,7 @@ DevPixelsToIntCSSPixels
 int32_t
 aPixels
 )
+const
 {
 return
 AppUnitsToIntCSSPixels
