@@ -645,11 +645,7 @@ editor
 setText
 (
 text
-{
-documentId
-:
 url
-}
 )
 ;
 /
