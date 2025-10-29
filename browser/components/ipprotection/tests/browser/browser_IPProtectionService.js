@@ -597,7 +597,7 @@ IPProtectionService
 state
 IPProtectionStates
 .
-ENROLLING
+READY
 "
 User
 should
@@ -2311,7 +2311,7 @@ created_at
 await
 IPProtectionService
 .
-updateState
+refetchEntitlement
 (
 )
 ;
