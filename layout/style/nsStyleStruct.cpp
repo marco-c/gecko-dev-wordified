@@ -7351,20 +7351,6 @@ Auto
 (
 )
 )
-mPositionArea
-(
-StylePositionArea
-{
-StylePositionAreaKeyword
-:
-:
-None
-StylePositionAreaKeyword
-:
-:
-None
-}
-)
 mPositionVisibility
 (
 StylePositionVisibility
@@ -9490,7 +9476,7 @@ mContainIntrinsicHeight
 mContainIntrinsicWidth
 ;
 }
-StyleAlignSelf
+StyleSelfAlignment
 nsStylePosition
 :
 :
@@ -9585,7 +9571,7 @@ NORMAL
 }
 ;
 }
-StyleJustifySelf
+StyleSelfAlignment
 nsStylePosition
 :
 :
@@ -9639,6 +9625,8 @@ StylePosition
 mJustifyItems
 .
 computed
+.
+_0
 ;
 return
 {
