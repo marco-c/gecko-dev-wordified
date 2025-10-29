@@ -2307,6 +2307,14 @@ PresShell
 '
 s
 resolution
+when
+aShouldScaleByResolution
+is
+explicitly
+*
+true
+or
+unspecified
 .
 *
 /
@@ -2324,6 +2332,10 @@ const
 LocalAccessible
 *
 aAcc
+bool
+aShouldScaleByResolution
+=
+true
 )
 ;
 /

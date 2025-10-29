@@ -2785,6 +2785,8 @@ ApplyScrollOffset
 nsRect
 &
 aBounds
+float
+aResolution
 )
 const
 ;
