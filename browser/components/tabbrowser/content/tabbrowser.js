@@ -37546,8 +37546,6 @@ aTab
 >
 aSplitViewWrapper
 .
-container
-.
 appendChild
 (
 aTab
