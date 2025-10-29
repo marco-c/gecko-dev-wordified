@@ -1615,7 +1615,7 @@ ins
 setInt64Operand
 (
 INT64_PIECES
-useInt64OrConstant
+useInt64RegisterOrConstant
 (
 rhs
 )
@@ -1761,7 +1761,7 @@ ins
 >
 setRhs
 (
-useInt64OrConstant
+useInt64RegisterOrConstant
 (
 rhs
 )
@@ -3924,7 +3924,7 @@ trueExpr
 (
 )
 )
-useInt64
+useInt64Register
 (
 select
 -
