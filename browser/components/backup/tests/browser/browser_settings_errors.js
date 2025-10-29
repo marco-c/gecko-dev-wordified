@@ -195,9 +195,7 @@ restore
 const
 bs
 =
-BackupService
-.
-get
+getAndMaybeInitBackupService
 (
 )
 ;
