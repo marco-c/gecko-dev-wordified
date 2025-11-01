@@ -1200,10 +1200,12 @@ GetUpdateViaCache
 const
 ;
 void
-SetUpdateViaCache
+SetOptions
 (
 ServiceWorkerUpdateViaCache
 aUpdateViaCache
+WorkerType
+aType
 )
 ;
 int64_t
@@ -1348,6 +1350,8 @@ UpdateRegistrationState
 (
 ServiceWorkerUpdateViaCache
 aUpdateViaCache
+WorkerType
+aType
 )
 ;
 /
