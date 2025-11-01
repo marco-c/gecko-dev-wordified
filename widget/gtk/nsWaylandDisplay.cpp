@@ -190,15 +190,6 @@ include
 "
 mozilla
 /
-ThreadLocal
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPrefs_widget
 .
 h

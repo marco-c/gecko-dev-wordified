@@ -231,15 +231,6 @@ include
 "
 mozilla
 /
-ScopeExit
-.
-h
-"
-#
-include
-"
-mozilla
-/
 media
 /
 MediaUtils
