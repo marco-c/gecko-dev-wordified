@@ -857,6 +857,9 @@ nsHttpRequestHead
 aRequest
 bool
 aSecure
+bool
+&
+aAsync
 nsHttpChannel
 *
 aChan
