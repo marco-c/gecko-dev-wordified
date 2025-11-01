@@ -225,12 +225,14 @@ Dispatching
 '
 "
 +
+(
 action
 .
 type
 |
 |
 action
+)
 +
 "
 '
