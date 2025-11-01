@@ -147,15 +147,6 @@ include
 "
 mozilla
 /
-MathAlgorithms
-.
-h
-"
-#
-include
-"
-mozilla
-/
 PresShell
 .
 h

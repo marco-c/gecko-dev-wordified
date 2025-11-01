@@ -139,7 +139,7 @@ include
 "
 mozilla
 /
-RefPtr
+AlreadyAddRefed
 .
 h
 "

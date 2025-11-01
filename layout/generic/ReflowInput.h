@@ -157,15 +157,6 @@ include
 "
 mozilla
 /
-Assertions
-.
-h
-"
-#
-include
-"
-mozilla
-/
 EnumSet
 .
 h

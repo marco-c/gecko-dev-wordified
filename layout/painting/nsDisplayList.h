@@ -226,15 +226,6 @@ include
 "
 mozilla
 /
-Array
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ArrayIterator
 .
 h

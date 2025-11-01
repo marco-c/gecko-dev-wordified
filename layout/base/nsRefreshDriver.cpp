@@ -416,15 +416,6 @@ include
 "
 mozilla
 /
-IntegerRange
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Logging
 .
 h
