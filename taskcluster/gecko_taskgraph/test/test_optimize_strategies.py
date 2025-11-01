@@ -129,6 +129,8 @@ bugbug
 import
 (
     
+BUGBUG_BASE_FALLBACK_URL
+    
 BUGBUG_BASE_URL
     
 BugbugTimeoutException
@@ -3057,6 +3059,39 @@ status
     
 )
     
+fallback_url
+=
+BUGBUG_BASE_FALLBACK_URL
++
+query
+    
+responses
+.
+add
+(
+        
+responses
+.
+GET
+        
+fallback_url
+        
+json
+=
+{
+"
+ready
+"
+:
+False
+}
+        
+status
+=
+202
+    
+)
+    
 #
 Make
 sure
@@ -3158,6 +3193,39 @@ responses
 GET
         
 url
+        
+json
+=
+{
+"
+ready
+"
+:
+False
+}
+        
+status
+=
+202
+    
+)
+    
+fallback_url
+=
+BUGBUG_BASE_FALLBACK_URL
++
+query
+    
+responses
+.
+add
+(
+        
+responses
+.
+GET
+        
+fallback_url
         
 json
 =
