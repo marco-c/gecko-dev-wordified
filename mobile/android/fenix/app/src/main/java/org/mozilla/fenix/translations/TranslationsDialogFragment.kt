@@ -930,13 +930,11 @@ TRANSLATIONS
 isTranslationInProgress
 =
 translationsDialogState
-?
 .
 isTranslationInProgress
 if
 (
 translationsDialogState
-?
 .
 dismissDialogState
 is
@@ -1049,7 +1047,6 @@ toDp
 )
 {
 translationsDialogState
-?
 .
 let
 {
@@ -1161,7 +1158,6 @@ globalSettingsEnabled
 isTranslated
 =
 translationsDialogState
-?
 .
 isTranslated
 =
@@ -1170,7 +1166,6 @@ true
 initialFrom
 =
 translationsDialogState
-?
 .
 initialFrom
 onBackClicked
@@ -1210,7 +1205,6 @@ showDownloadLanguageFileDialog
 )
 {
 translationsDialogState
-?
 .
 translationDownloadSize
 ?

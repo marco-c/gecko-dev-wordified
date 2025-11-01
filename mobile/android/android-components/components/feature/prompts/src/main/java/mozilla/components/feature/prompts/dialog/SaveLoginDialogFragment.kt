@@ -1833,7 +1833,6 @@ val
 result
 =
 validateDeferred
-?
 .
 await
 (
@@ -2006,7 +2005,6 @@ CancellationException
 )
 {
 validateDeferred
-?
 .
 cancel
 (

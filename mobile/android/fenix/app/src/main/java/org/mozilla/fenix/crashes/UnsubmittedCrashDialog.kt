@@ -812,7 +812,6 @@ requestedByDevs
 if
 (
 crashIDs
-?
 .
 size
 =
@@ -847,8 +846,6 @@ string
 .
 unsubmitted_crashes_requested_by_devs_dialog_title
 crashIDs
-!
-!
 .
 size
 stringResource
@@ -1496,11 +1493,6 @@ false
 crashIDs
 =
 crashIDs
-?
-:
-listOf
-(
-)
 )
 )
 dismiss

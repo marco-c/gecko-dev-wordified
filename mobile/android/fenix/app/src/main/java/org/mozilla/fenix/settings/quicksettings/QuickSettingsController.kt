@@ -1100,15 +1100,10 @@ handleAutoplayAdd
 (
 sitePermissions
 tab
-?
 .
 content
-?
 .
 private
-?
-:
-false
 )
 sitePermissions
 }

@@ -429,11 +429,6 @@ addresses
 addresses
 .
 value
-?
-:
-emptyList
-(
-)
 onAddressClick
 =
 {

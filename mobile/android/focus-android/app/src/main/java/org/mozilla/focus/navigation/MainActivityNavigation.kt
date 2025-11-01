@@ -756,8 +756,6 @@ isShowingBrowser
 &
 &
 browserFragment
-!
-!
 .
 isResumed
 if

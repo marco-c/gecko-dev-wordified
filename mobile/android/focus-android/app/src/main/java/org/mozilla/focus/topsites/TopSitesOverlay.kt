@@ -314,11 +314,6 @@ topSites
 topSitesState
 .
 value
-?
-:
-listOf
-(
-)
 val
 showRenameDialog
 :
