@@ -720,6 +720,14 @@ GPUChild
 :
 EnsureGPUReady
 (
+bool
+aForceSync
+/
+*
+=
+false
+*
+/
 )
 {
 /
@@ -782,7 +790,7 @@ mGPUReady
 &
 &
 !
-mWaitForVarUpdate
+aForceSync
 )
 {
 return
@@ -869,10 +877,6 @@ mGPUReady
 true
 ;
 }
-mWaitForVarUpdate
-=
-false
-;
 return
 true
 ;

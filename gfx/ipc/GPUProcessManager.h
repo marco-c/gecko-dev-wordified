@@ -577,7 +577,7 @@ GPU
 process
 asynchronously
 .
-bool
+nsresult
 LaunchGPUProcess
 (
 )
