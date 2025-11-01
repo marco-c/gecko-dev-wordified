@@ -208,15 +208,6 @@ include
 "
 mozilla
 /
-HashTable
-.
-h
-"
-#
-include
-"
-mozilla
-/
 RustRegex
 .
 h

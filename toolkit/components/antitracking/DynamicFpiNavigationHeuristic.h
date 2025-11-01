@@ -123,15 +123,6 @@ mozilla_dynamicfpinavigationheuristic_h
 #
 include
 "
-mozilla
-/
-WeakPtr
-.
-h
-"
-#
-include
-"
 nsIEffectiveTLDService
 .
 h
