@@ -5661,8 +5661,6 @@ nsCString
 >
 &
 aFontList
-bool
-aLocalized
 )
 {
 aFontList
@@ -5677,17 +5675,6 @@ fontlistValue
 nsresult
 rv
 =
-aLocalized
-?
-Preferences
-:
-:
-GetLocalizedCString
-(
-aPrefName
-fontlistValue
-)
-:
 Preferences
 :
 :
