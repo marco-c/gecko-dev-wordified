@@ -469,6 +469,11 @@ DWriteSettings
 h
 "
 "
+SourceSurfaceD3D11
+.
+h
+"
+"
 UnscaledFontDWrite
 .
 h
@@ -505,6 +510,11 @@ cpp
 "
 "
 ScaledFontWin
+.
+cpp
+"
+"
+SourceSurfaceD3D11
 .
 cpp
 "

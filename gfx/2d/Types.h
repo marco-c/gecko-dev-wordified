@@ -370,6 +370,15 @@ DrawTargetWebgl
 texture
 *
 /
+D3D11_TEXTURE
+/
+*
+Surface
+wrapping
+a
+D3D11Texture
+*
+/
 }
 ;
 enum
