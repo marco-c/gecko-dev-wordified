@@ -51616,7 +51616,7 @@ offsetOfAddressOfGCZealModeBits
 temp
 )
 ;
-loadPtr
+load32
 (
 Address
 (
@@ -52017,7 +52017,7 @@ offsetOfAddressOfGCZealModeBits
 temp
 )
 ;
-loadPtr
+load32
 (
 Address
 (
@@ -53312,7 +53312,7 @@ offsetOfAddressOfGCZealModeBits
 temp1
 )
 ;
-loadPtr
+load32
 (
 Address
 (
