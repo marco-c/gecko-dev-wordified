@@ -330,6 +330,13 @@ js
 ]
 [
 "
+test_BackupService_telemetry
+.
+js
+"
+]
+[
+"
 test_CookiesBackupResource
 .
 js
