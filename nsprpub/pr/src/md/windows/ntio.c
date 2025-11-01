@@ -17263,6 +17263,10 @@ if
 (
 isalpha
 (
+(
+unsigned
+char
+)
 fn
 [
 0
