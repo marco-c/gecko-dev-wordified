@@ -70,15 +70,6 @@ include
 "
 mozilla
 /
-Vector
-.
-h
-"
-#
-include
-"
-mozilla
-/
 intl
 /
 PluralRules

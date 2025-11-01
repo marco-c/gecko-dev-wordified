@@ -78,15 +78,6 @@ include
 "
 mozilla
 /
-Span
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Vector
 .
 h

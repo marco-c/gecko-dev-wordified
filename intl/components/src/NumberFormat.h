@@ -129,15 +129,6 @@ include
 "
 mozilla
 /
-Vector
-.
-h
-"
-#
-include
-"
-mozilla
-/
 intl
 /
 ICUError
