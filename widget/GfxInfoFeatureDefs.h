@@ -383,6 +383,9 @@ msaa
 )
 /
 *
+(
+Unused
+)
 Whether
 Stagefright
 is
@@ -395,7 +398,7 @@ in
 /
 GFXINFO_FEATURE
 (
-STAGEFRIGHT
+UNUSED_STAGEFRIGHT
 "
 STAGEFRIGHT
 "
