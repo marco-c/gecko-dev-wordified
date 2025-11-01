@@ -3629,7 +3629,7 @@ mDataChannel
 mDataChannel
 -
 >
-FinishClose
+EndOfStream
 (
 )
 ;
@@ -4562,7 +4562,7 @@ sending
 mDataChannel
 -
 >
-FinishClose
+EndOfStream
 (
 )
 ;
