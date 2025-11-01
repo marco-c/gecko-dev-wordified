@@ -43,6 +43,12 @@ constants
 h
 "
 const
+BROTLI_MODEL
+(
+"
+small
+"
+)
 BrotliPrefixCodeRange
 _kBrotliPrefixCodeRanges
 [

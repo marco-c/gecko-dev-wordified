@@ -81,6 +81,14 @@ types
 .
 h
 >
+/
+*
+IWYU
+pragma
+:
+export
+*
+/
 #
 if
 defined

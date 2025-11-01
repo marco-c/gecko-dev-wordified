@@ -67,8 +67,10 @@ h
 >
 /
 *
-for
-size_t
+IWYU
+pragma
+:
+export
 *
 /
 #
@@ -129,6 +131,14 @@ stdint
 .
 h
 >
+/
+*
+IWYU
+pragma
+:
+export
+*
+/
 #
 endif
 /
