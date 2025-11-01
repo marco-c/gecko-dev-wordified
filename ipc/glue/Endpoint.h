@@ -1525,7 +1525,10 @@ private
 :
 friend
 struct
-IPDLParamTraits
+IPC
+:
+:
+ParamTraits
 <
 UntypedManagedEndpoint
 >

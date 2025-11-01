@@ -261,11 +261,6 @@ IPCTypes
 h
 "
 "
-IPDLParamTraits
-.
-h
-"
-"
 IPDLStructMember
 .
 h

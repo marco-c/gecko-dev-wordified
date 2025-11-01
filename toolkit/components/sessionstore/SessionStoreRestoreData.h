@@ -296,13 +296,10 @@ mChildren
 ;
 friend
 struct
-mozilla
+IPC
 :
 :
-ipc
-:
-:
-IPDLParamTraits
+ParamTraits
 <
 SessionStoreRestoreData
 *

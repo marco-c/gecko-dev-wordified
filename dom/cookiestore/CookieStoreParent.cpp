@@ -187,7 +187,7 @@ h
 /
 /
 for
-IPDLParamTraits
+ParamTraits
 <
 nsIURI
 *

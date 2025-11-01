@@ -102,11 +102,9 @@ mozilla_RegistryMessageUtils_h
 #
 include
 "
-mozilla
-/
 ipc
 /
-IPDLParamTraits
+IPCMessageUtilsSpecializations
 .
 h
 "
