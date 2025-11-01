@@ -565,6 +565,15 @@ include
 "
 mozilla
 /
+ReverseIterator
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h

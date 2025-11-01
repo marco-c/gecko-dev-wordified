@@ -159,6 +159,15 @@ include
 "
 mozilla
 /
+Char16
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gtest
 /
 MozAssertions

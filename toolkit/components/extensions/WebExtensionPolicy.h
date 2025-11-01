@@ -201,6 +201,15 @@ h
 #
 include
 "
+mozilla
+/
+WeakPtr
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

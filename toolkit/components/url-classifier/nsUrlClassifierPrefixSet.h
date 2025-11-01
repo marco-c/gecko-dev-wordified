@@ -171,6 +171,15 @@ Mutex
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Poison
+.
+h
+"
 class
 nsIInputStream
 ;

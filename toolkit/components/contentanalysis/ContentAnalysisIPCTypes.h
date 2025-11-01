@@ -150,6 +150,15 @@ h
 #
 include
 "
+mozilla
+/
+Variant
+.
+h
+"
+#
+include
+"
 nsIContentAnalysis
 .
 h

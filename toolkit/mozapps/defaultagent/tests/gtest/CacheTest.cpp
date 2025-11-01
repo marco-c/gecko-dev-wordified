@@ -159,6 +159,15 @@ include
 "
 mozilla
 /
+Result
+.
+h
+"
+#
+include
+"
+mozilla
+/
 WinHeaderOnlyUtils
 .
 h

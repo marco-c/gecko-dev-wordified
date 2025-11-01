@@ -117,6 +117,15 @@ Assertions
 h
 "
 #
+include
+"
+mozilla
+/
+WindowsVersion
+.
+h
+"
+#
 if
 defined
 (

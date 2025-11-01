@@ -116,6 +116,15 @@ include
 "
 mozilla
 /
+RefPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 GRefPtr
 .
 h

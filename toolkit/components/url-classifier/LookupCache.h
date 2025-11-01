@@ -170,6 +170,15 @@ h
 #
 include
 "
+mozilla
+/
+TypedEnumBits
+.
+h
+"
+#
+include
+"
 nsIUrlClassifierInfo
 .
 h

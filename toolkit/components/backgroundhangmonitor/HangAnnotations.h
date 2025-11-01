@@ -164,6 +164,15 @@ h
 #
 include
 "
+mozilla
+/
+Vector
+.
+h
+"
+#
+include
+"
 nsString
 .
 h

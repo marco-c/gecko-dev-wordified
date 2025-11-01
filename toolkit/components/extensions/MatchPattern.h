@@ -175,6 +175,15 @@ h
 #
 include
 "
+mozilla
+/
+RefCounted
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

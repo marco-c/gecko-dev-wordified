@@ -223,6 +223,15 @@ include
 "
 mozilla
 /
+ResultExtensions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Services
 .
 h

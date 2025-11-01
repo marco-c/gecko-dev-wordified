@@ -105,6 +105,15 @@ include
 "
 mozilla
 /
+MemoryReporting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 extensions
 /
 WebExtensionPolicy
