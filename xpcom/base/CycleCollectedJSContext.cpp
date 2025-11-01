@@ -3503,13 +3503,6 @@ empty
 ccjs
 -
 >
-mDebuggerRecursionDepth
--
--
-;
-ccjs
--
->
 mPendingMicroTaskRunnables
 .
 swap
@@ -3556,6 +3549,13 @@ maybeSuppressedTasks
 ;
 }
 }
+ccjs
+-
+>
+mDebuggerRecursionDepth
+-
+-
+;
 }
 private
 :
