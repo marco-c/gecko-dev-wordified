@@ -421,6 +421,11 @@ int32_t
 aLength
 )
 ;
+nsHtml5String
+TryAtomizeForSingleDigit
+(
+)
+;
 bool
 TemplatePushedOrHeadPopped
 (
