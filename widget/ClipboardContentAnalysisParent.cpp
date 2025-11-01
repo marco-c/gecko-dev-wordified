@@ -172,6 +172,15 @@ h
 #
 include
 "
+mozilla
+/
+Variant
+.
+h
+"
+#
+include
+"
 nsBaseClipboard
 .
 h

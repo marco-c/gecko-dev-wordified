@@ -104,7 +104,7 @@ include
 "
 mozilla
 /
-AlreadyAddRefed
+RefPtr
 .
 h
 "

@@ -127,6 +127,15 @@ h
 #
 include
 "
+mozilla
+/
+Maybe
+.
+h
+"
+#
+include
+"
 nsClipboard
 .
 h

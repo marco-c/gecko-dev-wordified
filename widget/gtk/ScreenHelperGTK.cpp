@@ -232,15 +232,6 @@ include
 "
 mozilla
 /
-ToString
-.
-h
-"
-#
-include
-"
-mozilla
-/
 WidgetUtilsGtk
 .
 h

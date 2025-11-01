@@ -158,6 +158,15 @@ Units
 h
 "
 #
+include
+"
+mozilla
+/
+ScopeExit
+.
+h
+"
+#
 ifdef
 MOZ_X11
 #

@@ -104,6 +104,15 @@ include
 "
 mozilla
 /
+RefPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EventForwards
 .
 h
