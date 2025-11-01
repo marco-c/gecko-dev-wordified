@@ -1365,6 +1365,9 @@ taskcluster
 .
 get_root_url
 (
+block_proxy
+=
+True
 )
     
 #
