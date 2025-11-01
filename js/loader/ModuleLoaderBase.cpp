@@ -9913,7 +9913,9 @@ TRACE_FOR_TEST
 (
 aRequest
 "
-scriptloader_evaluate_module
+evaluate
+:
+module
 "
 )
 ;
