@@ -2119,7 +2119,7 @@ flags
 SVGUtils
 :
 :
-eBBoxIncludeFill
+eBBoxIncludeFillGeometry
 |
 SVGUtils
 :
