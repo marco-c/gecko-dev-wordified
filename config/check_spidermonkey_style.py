@@ -731,22 +731,6 @@ MFBT
 case
         
 "
-javascript
--
-trace
-.
-h
-"
-#
-generated
-in
-OBJDIR
-if
-HAVE_DTRACE
-is
-defined
-        
-"
 frontend
 /
 ReservedWordsGenerated

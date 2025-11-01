@@ -147,9 +147,6 @@ tsan
 ubsan
 '
 '
-dtrace
-'
-'
 valgrind
 '
 ]
