@@ -407,14 +407,6 @@ WSRunScanner
 ReferHTMLDefaultStyle
 ;
 using
-Scan
-=
-WSRunScanner
-:
-:
-Scan
-;
-using
 TextFragmentData
 =
 WSRunScanner
