@@ -1580,7 +1580,7 @@ UseHTMLDefaultStyle
 BlockInlineCheck
 :
 :
-UseComputedDisplayOutsideStyle
+Auto
 ;
 /
 /
@@ -1676,7 +1676,7 @@ HTMLEditUtils
 IsBlockElement
 (
 aAncestorLimiter
-RespectParentBlockBoundary
+UseComputedDisplayStyleIfAuto
 (
 blockInlineCheck
 )
@@ -1703,7 +1703,10 @@ IsBlockElement
 (
 *
 previousLeafContentOrBlock
+UseComputedDisplayOutsideStyleIfAuto
+(
 blockInlineCheck
+)
 )
 )
 {
@@ -2642,7 +2645,7 @@ UseHTMLDefaultStyle
 BlockInlineCheck
 :
 :
-UseComputedDisplayOutsideStyle
+Auto
 ;
 /
 /
@@ -2745,7 +2748,7 @@ HTMLEditUtils
 IsBlockElement
 (
 aAncestorLimiter
-RespectParentBlockBoundary
+UseComputedDisplayStyleIfAuto
 (
 blockInlineCheck
 )
@@ -2772,7 +2775,10 @@ IsBlockElement
 (
 *
 nextLeafContentOrBlock
+UseComputedDisplayOutsideStyleIfAuto
+(
 blockInlineCheck
+)
 )
 )
 {
@@ -5752,7 +5758,7 @@ UseHTMLDefaultStyle
 BlockInlineCheck
 :
 :
-UseComputedDisplayOutsideStyle
+Auto
 ;
 const
 EditorRawDOMPoint
@@ -5797,7 +5803,10 @@ IsBlockElement
 (
 *
 child
+UseComputedDisplayOutsideStyleIfAuto
+(
 blockInlineCheck
+)
 )
 |
 |
@@ -5938,7 +5947,10 @@ IsBlockElement
 (
 *
 leafContent
+UseComputedDisplayOutsideStyleIfAuto
+(
 blockInlineCheck
+)
 )
 |
 |
@@ -6140,10 +6152,7 @@ nsIContent
 kScanEditableRootAncestorTypes
 :
 kScanAnyRootAncestorTypes
-RespectParentBlockBoundary
-(
 blockInlineCheck
-)
 )
 ;
 if
@@ -6283,7 +6292,10 @@ IsBlockElement
 (
 *
 nextContent
+UseComputedDisplayOutsideStyleIfAuto
+(
 blockInlineCheck
+)
 )
 |
 |
@@ -6423,7 +6435,7 @@ UseHTMLDefaultStyle
 BlockInlineCheck
 :
 :
-UseComputedDisplayOutsideStyle
+Auto
 ;
 const
 EditorRawDOMPoint
@@ -6468,7 +6480,10 @@ IsBlockElement
 (
 *
 previousChild
+UseComputedDisplayOutsideStyleIfAuto
+(
 blockInlineCheck
+)
 )
 |
 |
@@ -6612,7 +6627,10 @@ IsBlockElement
 (
 *
 leafContent
+UseComputedDisplayOutsideStyleIfAuto
+(
 blockInlineCheck
+)
 )
 |
 |
@@ -6832,10 +6850,7 @@ nsIContent
 kScanEditableRootAncestorTypes
 :
 kScanAnyRootAncestorTypes
-RespectParentBlockBoundary
-(
 blockInlineCheck
-)
 )
 ;
 if
@@ -6975,7 +6990,10 @@ IsBlockElement
 (
 *
 previousContent
+UseComputedDisplayOutsideStyleIfAuto
+(
 blockInlineCheck
+)
 )
 |
 |
