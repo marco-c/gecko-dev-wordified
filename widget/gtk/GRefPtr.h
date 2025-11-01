@@ -338,10 +338,6 @@ GOBJECT_TRAITS
 :
 GSettings
 )
-GOBJECT_TRAITS
-(
-GDBusConnection
-)
 #
 undef
 GOBJECT_TRAITS
