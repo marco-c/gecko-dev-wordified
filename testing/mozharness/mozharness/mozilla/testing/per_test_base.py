@@ -3015,6 +3015,13 @@ rely
 on
 configuration
             
+from
+mozinfo
+.
+platforminfo
+import
+android_api_to_os_version
+            
 mozinfo
 .
 update
@@ -3036,7 +3043,7 @@ get
 "
 android_version
 "
-24
+34
 )
 )
 }
@@ -3054,10 +3061,6 @@ update
 os_version
 "
 :
-mozinfo
-.
-platforminfo
-.
 android_api_to_os_version
 (
                         
@@ -3070,7 +3073,7 @@ get
 "
 android_version
 "
-24
+34
 )
                     
 )
