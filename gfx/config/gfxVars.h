@@ -959,6 +959,13 @@ AllowGLNorm16Textures
 bool
 false
 )
+\
+_
+(
+WebRenderLayerCompositorDCompTexture
+bool
+false
+)
 /
 *
 Add
