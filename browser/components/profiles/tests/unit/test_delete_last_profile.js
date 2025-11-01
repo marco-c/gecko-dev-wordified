@@ -115,6 +115,11 @@ async
 =
 >
 {
+await
+initSelectableProfileService
+(
+)
+;
 sinon
 .
 replace
@@ -326,9 +331,7 @@ expected
 [
 "
 -
-new
--
-tab
+url
 "
 "
 about
