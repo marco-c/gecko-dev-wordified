@@ -150,6 +150,7 @@ shell
 checkDefaultBrowser
 "
 ;
+async
 function
 showAndWaitForModal
 (
@@ -173,6 +174,7 @@ true
 }
 )
 ;
+await
 DefaultBrowserCheck
 .
 prompt
