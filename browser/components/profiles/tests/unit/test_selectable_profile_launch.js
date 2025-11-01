@@ -344,11 +344,13 @@ SelectableProfileService
 launchInstance
 (
 profile
+[
 "
 about
 :
 profilemanager
 "
+]
 )
 ;
 expected
@@ -356,7 +358,9 @@ expected
 [
 "
 -
-url
+new
+-
+tab
 "
 "
 about
