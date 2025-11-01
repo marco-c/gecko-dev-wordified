@@ -843,6 +843,11 @@ CSSCounterStyleRule
 h
 "
 "
+CSSCustomMediaRule
+.
+h
+"
+"
 CSSFontFaceRule
 .
 h
@@ -1103,6 +1108,11 @@ cpp
 "
 "
 CSSCounterStyleRule
+.
+cpp
+"
+"
+CSSCustomMediaRule
 .
 cpp
 "

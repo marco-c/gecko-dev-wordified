@@ -387,6 +387,13 @@ template
 struct
 StyleStrong
 <
+StyleCustomMediaRule
+>
+;
+template
+struct
+StyleStrong
+<
 StyleDocumentRule
 >
 ;

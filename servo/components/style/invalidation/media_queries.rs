@@ -107,6 +107,7 @@ stylesheets
 :
 :
 {
+CustomMediaMap
 DocumentRule
 ImportRule
 MediaRule
@@ -126,7 +127,7 @@ SupportsRule
 }
 ;
 use
-fxhash
+rustc_hash
 :
 :
 FxHashSet
@@ -721,6 +722,10 @@ QuirksMode
 _
 :
 &
+CustomMediaMap
+_
+:
+&
 ImportRule
 )
 -
@@ -743,6 +748,10 @@ Device
 _
 :
 QuirksMode
+_
+:
+&
+CustomMediaMap
 _
 :
 &

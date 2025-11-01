@@ -174,6 +174,7 @@ stylesheets
 {
 ContainerRule
 CssRules
+CustomMediaRule
 DocumentRule
 FontFeatureValuesRule
 FontPaletteValuesRule
@@ -439,6 +440,14 @@ impl_simple_arc_ffi
 MediaRule
 Servo_MediaRule_AddRef
 Servo_MediaRule_Release
+)
+;
+impl_simple_arc_ffi
+!
+(
+CustomMediaRule
+Servo_CustomMediaRule_AddRef
+Servo_CustomMediaRule_Release
 )
 ;
 impl_simple_arc_ffi

@@ -1114,6 +1114,10 @@ Media
 )
 UNLOCKED_RULE_TYPE
 (
+CustomMedia
+)
+UNLOCKED_RULE_TYPE
+(
 Supports
 )
 UNLOCKED_RULE_TYPE

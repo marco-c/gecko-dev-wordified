@@ -3932,6 +3932,12 @@ case
 StyleCssRuleType
 :
 :
+CustomMedia
+:
+case
+StyleCssRuleType
+:
+:
 Style
 :
 case
