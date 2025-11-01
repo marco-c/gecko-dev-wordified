@@ -1261,7 +1261,7 @@ data
 )
 ;
 }
-void
+bool
 DataChannelConnectionDcSctp
 :
 :
@@ -1307,6 +1307,7 @@ mDcSctp
 )
 {
 return
+false
 ;
 }
 std
@@ -1356,6 +1357,9 @@ id
 )
 ;
 }
+auto
+result
+=
 mDcSctp
 -
 >
@@ -1379,6 +1383,15 @@ aStreams
 Clear
 (
 )
+;
+return
+result
+=
+=
+ResetStreamsStatus
+:
+:
+kPerformed
 ;
 }
 void

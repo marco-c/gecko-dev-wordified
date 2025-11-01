@@ -1341,7 +1341,7 @@ is
 closing
 streams
 virtual
-void
+bool
 ResetStreams
 (
 nsTArray
