@@ -125,15 +125,6 @@ h
 "
 #
 include
-"
-mozilla
-/
-ThreadSafety
-.
-h
-"
-#
-include
 <
 stdint
 .

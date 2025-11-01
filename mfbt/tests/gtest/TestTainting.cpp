@@ -153,15 +153,6 @@ include
 "
 mozilla
 /
-Range
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Tainting
 .
 h
