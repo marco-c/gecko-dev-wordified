@@ -3318,6 +3318,11 @@ mEverOpened
 =
 false
 ;
+bool
+mAnnouncedClosed
+=
+false
+;
 uint16_t
 mStream
 ;
@@ -3372,6 +3377,11 @@ false
 ;
 bool
 mRecvStreamNeedsReset
+=
+false
+;
+bool
+mEndOfStreamCalled
 =
 false
 ;
