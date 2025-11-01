@@ -11161,6 +11161,11 @@ this
 )
 )
 ;
+if
+(
+mMainthreadDomDataChannel
+)
+{
 mMainthreadDomDataChannel
 -
 >
@@ -11169,6 +11174,7 @@ SetMaxMessageSize
 aMaxMessageSize
 )
 ;
+}
 }
 }
 void
