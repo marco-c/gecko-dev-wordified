@@ -6,7 +6,6 @@ for
 Bug
 357450
 *
-*
 /
 SimpleTest
 .

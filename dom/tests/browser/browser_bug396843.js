@@ -6,7 +6,6 @@ for
 Bug
 396843
 *
-*
 /
 function
 testInDocument

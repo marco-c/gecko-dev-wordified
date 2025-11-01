@@ -1183,7 +1183,6 @@ priority
 *
 nsIObserver
 *
-*
 /
 observe
 (

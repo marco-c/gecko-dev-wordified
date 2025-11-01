@@ -453,7 +453,6 @@ value
 pair
 .
 *
-*
 /
 var
 pageName

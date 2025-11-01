@@ -79,7 +79,6 @@ given
 payload
 .
 *
-*
 /
 let
 stringBundleService

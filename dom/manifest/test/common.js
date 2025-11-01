@@ -9,7 +9,6 @@ manifest
 tests
 .
 *
-*
 /
 "
 use

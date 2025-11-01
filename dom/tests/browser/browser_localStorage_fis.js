@@ -2731,7 +2731,6 @@ origin
 storage
 .
 *
-*
 /
 add_task
 (
