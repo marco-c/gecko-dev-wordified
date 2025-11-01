@@ -158,15 +158,6 @@ nsNetUtil
 .
 h
 "
-#
-include
-"
-mozilla
-/
-ResultExtensions
-.
-h
-"
 /
 /
 -
