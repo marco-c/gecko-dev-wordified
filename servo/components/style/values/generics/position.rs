@@ -2394,6 +2394,8 @@ AnchorSideKeyword
 fn
 try_tactic_adjustment
 (
+&
+mut
 self
 old_side
 :
@@ -2402,9 +2404,6 @@ new_side
 :
 PhysicalSide
 )
--
->
-Self
 {
 if
 !
@@ -2415,7 +2414,6 @@ parallel_to
 new_side
 )
 {
-if
 let
 Some
 (
@@ -2427,8 +2425,15 @@ self
 physical_side
 (
 )
+else
 {
 return
+;
+}
+;
+*
+self
+=
 Self
 :
 :
@@ -2489,11 +2494,12 @@ opposite_side
 }
 )
 ;
-}
 return
-self
 ;
 }
+*
+self
+=
 match
 self
 {
@@ -2513,6 +2519,7 @@ Self
 Outside
 =
 >
+*
 self
 Self
 :
