@@ -576,6 +576,7 @@ r
 forget
 (
 )
+NS_DISPATCH_FALLIBLE
 )
 ;
 }
@@ -657,7 +658,7 @@ mSTS
 >
 Dispatch
 (
-NS_NewRunnableFunction
+NS_NewCancelableRunnableFunction
 (
 __func__
 [
@@ -694,7 +695,7 @@ mShutdown
 =
 true
 ;
-DC_DEBUG
+DC_INFO
 (
 (
 "
@@ -720,6 +721,7 @@ mId
 endif
 }
 )
+NS_DISPATCH_FALLIBLE
 )
 ;
 }
@@ -2016,7 +2018,7 @@ mSTS
 >
 Dispatch
 (
-NS_NewRunnableFunction
+NS_NewCancelableRunnableFunction
 (
 __func__
 [
@@ -2067,6 +2069,7 @@ channel
 }
 }
 )
+NS_DISPATCH_FALLIBLE
 )
 ;
 }
@@ -2619,7 +2622,7 @@ mSTS
 >
 Dispatch
 (
-NS_NewRunnableFunction
+NS_NewCancelableRunnableFunction
 (
 "
 DataChannelConnection
@@ -2669,6 +2672,8 @@ sent
 ld
 bytes
 "
+/
+/
 this
 len
 )
@@ -2706,6 +2711,7 @@ packet
 }
 }
 )
+NS_DISPATCH_FALLIBLE
 )
 ;
 }
@@ -3837,7 +3843,7 @@ worker
 .
 Dispatch
 (
-NS_NewRunnableFunction
+NS_NewCancelableRunnableFunction
 (
 "
 DataChannelConnection
@@ -3918,9 +3924,9 @@ is
 lying
 to
 us
+"
+"
 or
-"
-"
 there
 '
 s
@@ -4158,9 +4164,9 @@ Maybe
 for
 this
 in
+/
+/
 DataChannel
-/
-/
 we
 won
 '
@@ -4172,10 +4178,10 @@ this
 extra
 conversion
 since
+/
+/
 Nullable
 converts
-/
-/
 easily
 to
 Maybe
@@ -4371,7 +4377,7 @@ mSTS
 >
 Dispatch
 (
-NS_NewRunnableFunction
+NS_NewCancelableRunnableFunction
 (
 "
 DataChannelConnection
@@ -4391,6 +4397,14 @@ DataChannelConnection
 this
 )
 channel
+=
+std
+:
+:
+move
+(
+channel
+)
 ]
 (
 )
@@ -4405,10 +4419,10 @@ can
 be
 buffered
 ;
+/
+/
 SendOpenAckMessage
 may
-/
-/
 error
 later
 than
@@ -4434,13 +4448,27 @@ DC_ERROR
 (
 (
 "
+%
+p
+:
 SendOpenAckMessage
 failed
+channel
+%
+p
 error
+"
+"
 =
 %
 d
 "
+this
+channel
+.
+get
+(
+)
 error
 )
 )
@@ -4484,10 +4512,12 @@ mStream
 ;
 }
 )
+NS_DISPATCH_FALLIBLE
 )
 ;
 }
 )
+NS_DISPATCH_FALLIBLE
 )
 ;
 }
@@ -6163,7 +6193,7 @@ mSTS
 >
 Dispatch
 (
-NS_NewRunnableFunction
+NS_NewCancelableRunnableFunction
 (
 "
 DataChannel
@@ -6195,6 +6225,7 @@ channel
 ;
 }
 )
+NS_DISPATCH_FALLIBLE
 )
 ;
 }
@@ -7101,7 +7132,7 @@ stream
 aBlob
 )
 )
-NS_DISPATCH_NORMAL
+NS_DISPATCH_FALLIBLE
 )
 ;
 return
@@ -7371,7 +7402,7 @@ Open
 {
 Dispatch
 (
-NS_NewRunnableFunction
+NS_NewCancelableRunnableFunction
 (
 __func__
 [
@@ -7404,6 +7435,7 @@ NotifySctpConnected
 }
 }
 )
+NS_DISPATCH_FALLIBLE
 )
 ;
 }
@@ -7421,7 +7453,7 @@ Closed
 {
 Dispatch
 (
-NS_NewRunnableFunction
+NS_NewCancelableRunnableFunction
 (
 __func__
 [
@@ -7454,6 +7486,7 @@ NotifySctpClosed
 }
 }
 )
+NS_DISPATCH_FALLIBLE
 )
 ;
 }
@@ -7717,6 +7750,7 @@ runnable
 forget
 (
 )
+NS_DISPATCH_FALLIBLE
 )
 ;
 }
@@ -7762,7 +7796,7 @@ mSTS
 >
 Dispatch
 (
-NS_NewRunnableFunction
+NS_NewCancelableRunnableFunction
 (
 __func__
 [
@@ -8021,6 +8055,7 @@ outgoing
 ;
 }
 )
+NS_DISPATCH_FALLIBLE
 )
 ;
 return
@@ -8043,7 +8078,7 @@ mSTS
 >
 Dispatch
 (
-NS_NewRunnableFunction
+NS_NewCancelableRunnableFunction
 (
 __func__
 [
@@ -8059,13 +8094,7 @@ this
 )
 channel
 =
-RefPtr
-<
-DataChannel
->
-(
 aChannel
-)
 stream
 =
 aChannel
@@ -8096,10 +8125,15 @@ to
 send
 a
 reset
+for
+channel
+%
+p
 closing
 gracefully
 "
 this
+channel
 )
 )
 ;
@@ -8182,10 +8216,6 @@ immediately
 "
 this
 channel
-.
-get
-(
-)
 )
 )
 ;
@@ -8258,10 +8288,6 @@ p
 "
 this
 channel
-.
-get
-(
-)
 )
 )
 ;
@@ -8273,6 +8299,7 @@ channel
 }
 }
 )
+NS_DISPATCH_FALLIBLE
 )
 ;
 }
@@ -8766,7 +8793,7 @@ mSTS
 >
 Dispatch
 (
-NS_NewRunnableFunction
+NS_NewCancelableRunnableFunction
 (
 "
 DataChannelConnection
@@ -8795,6 +8822,7 @@ CloseAll_s
 ;
 }
 )
+NS_DISPATCH_FALLIBLE
 )
 ;
 }
@@ -9753,7 +9781,7 @@ mDomEventTarget
 >
 Dispatch
 (
-NS_NewRunnableFunction
+NS_NewCancelableRunnableFunction
 (
 "
 DataChannel
@@ -9789,6 +9817,7 @@ UnsetWorkerNeedsUs
 }
 }
 )
+NS_DISPATCH_FALLIBLE
 )
 ;
 }
@@ -9893,7 +9922,7 @@ mDomEventTarget
 >
 Dispatch
 (
-NS_NewRunnableFunction
+NS_NewCancelableRunnableFunction
 (
 "
 DataChannel
@@ -9935,6 +9964,7 @@ aSize
 }
 }
 )
+NS_DISPATCH_FALLIBLE
 )
 ;
 }
@@ -10028,7 +10058,7 @@ mDomEventTarget
 >
 Dispatch
 (
-NS_NewRunnableFunction
+NS_NewCancelableRunnableFunction
 (
 "
 DataChannel
@@ -10094,9 +10124,9 @@ this
 might
 be
 a
+/
+/
 worker
-/
-/
 someday
 .
 if
@@ -10111,7 +10141,7 @@ GetMainThreadSerialEventTarget
 >
 Dispatch
 (
-NS_NewRunnableFunction
+NS_NewCancelableRunnableFunction
 (
 "
 DataChannel
@@ -10180,11 +10210,13 @@ this
 }
 }
 )
+NS_DISPATCH_FALLIBLE
 )
 ;
 }
 }
 )
+NS_DISPATCH_FALLIBLE
 )
 ;
 }
@@ -10256,7 +10288,7 @@ GetMainThreadSerialEventTarget
 >
 Dispatch
 (
-NS_NewRunnableFunction
+NS_NewCancelableRunnableFunction
 (
 "
 DataChannel
@@ -10297,9 +10329,9 @@ DOM
 events
 so
 the
+/
+/
 event
-/
-/
 handler
 won
 '
@@ -10364,7 +10396,7 @@ mDomEventTarget
 >
 Dispatch
 (
-NS_NewRunnableFunction
+NS_NewCancelableRunnableFunction
 (
 "
 DataChannel
@@ -10375,6 +10407,14 @@ AnnounceClosed
 [
 this
 self
+=
+RefPtr
+<
+DataChannel
+>
+(
+this
+)
 ]
 {
 DC_INFO
@@ -10430,10 +10470,12 @@ AnnounceClosed
 }
 }
 )
+NS_DISPATCH_FALLIBLE
 )
 ;
 }
 )
+NS_DISPATCH_FALLIBLE
 )
 ;
 }
@@ -10475,7 +10517,7 @@ mDomEventTarget
 >
 Dispatch
 (
-NS_NewRunnableFunction
+NS_NewCancelableRunnableFunction
 (
 "
 DataChannel
@@ -10528,6 +10570,7 @@ GracefulClose
 }
 }
 )
+NS_DISPATCH_FALLIBLE
 )
 ;
 }
@@ -10750,7 +10793,7 @@ mDomEventTarget
 >
 Dispatch
 (
-NS_NewRunnableFunction
+NS_NewCancelableRunnableFunction
 (
 __func__
 [
@@ -10783,6 +10826,7 @@ aId
 }
 }
 )
+NS_DISPATCH_FALLIBLE
 )
 ;
 }
@@ -10877,7 +10921,7 @@ mDomEventTarget
 >
 Dispatch
 (
-NS_NewRunnableFunction
+NS_NewCancelableRunnableFunction
 (
 __func__
 [
@@ -10910,6 +10954,7 @@ aMaxMessageSize
 }
 }
 )
+NS_DISPATCH_FALLIBLE
 )
 ;
 }
@@ -11022,7 +11067,7 @@ mDomEventTarget
 >
 Dispatch
 (
-NS_NewRunnableFunction
+NS_NewCancelableRunnableFunction
 (
 "
 DataChannel
@@ -11076,6 +11121,7 @@ aIsBinary
 }
 }
 )
+NS_DISPATCH_FALLIBLE
 )
 ;
 }
