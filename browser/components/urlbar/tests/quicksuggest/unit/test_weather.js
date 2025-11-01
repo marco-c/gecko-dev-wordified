@@ -474,6 +474,9 @@ GeolocationTestUtils
 .
 stubGeolocation
 (
+GeolocationTestUtils
+.
+SAN_FRANCISCO
 )
 ;
 /
@@ -777,6 +780,9 @@ GeolocationTestUtils
 .
 stubGeolocation
 (
+GeolocationTestUtils
+.
+SAN_FRANCISCO
 )
 ;
 let
@@ -965,6 +971,9 @@ GeolocationTestUtils
 .
 stubGeolocation
 (
+GeolocationTestUtils
+.
+SAN_FRANCISCO
 )
 ;
 /
@@ -2127,6 +2136,9 @@ GeolocationTestUtils
 .
 stubGeolocation
 (
+GeolocationTestUtils
+.
+SAN_FRANCISCO
 )
 ;
 info
@@ -3096,6 +3108,9 @@ GeolocationTestUtils
 .
 stubGeolocation
 (
+GeolocationTestUtils
+.
+SAN_FRANCISCO
 )
 ;
 await
@@ -3187,6 +3202,9 @@ GeolocationTestUtils
 .
 stubGeolocation
 (
+GeolocationTestUtils
+.
+SAN_FRANCISCO
 )
 ;
 let
@@ -4656,6 +4674,9 @@ GeolocationTestUtils
 .
 stubGeolocation
 (
+GeolocationTestUtils
+.
+SAN_FRANCISCO
 )
 ;
 await

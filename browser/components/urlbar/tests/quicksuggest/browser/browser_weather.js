@@ -136,6 +136,9 @@ GeolocationTestUtils
 .
 stubGeolocation
 (
+GeolocationTestUtils
+.
+SAN_FRANCISCO
 )
 ;
 }

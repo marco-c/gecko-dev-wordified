@@ -2428,6 +2428,9 @@ GeolocationTestUtils
 .
 stubGeolocation
 (
+GeolocationTestUtils
+.
+SAN_FRANCISCO
 )
 ;
 await
