@@ -4398,6 +4398,7 @@ Navigator
 GetAcceptLanguages
 (
 languages
+nullptr
 )
 ;
 nsCString
