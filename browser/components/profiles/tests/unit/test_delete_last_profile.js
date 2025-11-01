@@ -331,9 +331,7 @@ expected
 [
 "
 -
-new
--
-tab
+url
 "
 "
 about

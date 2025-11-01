@@ -2003,9 +2003,7 @@ expected
 [
 "
 -
-new
--
-tab
+url
 "
 "
 about
@@ -2498,9 +2496,7 @@ expected
 [
 "
 -
-new
--
-tab
+url
 "
 "
 about

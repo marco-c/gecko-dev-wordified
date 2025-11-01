@@ -1086,13 +1086,6 @@ Profiles
 LaunchProfile
 "
 :
-case
-"
-Profiles
-:
-MoveTabsToProfile
-"
-:
 gProfiles
 .
 handleCommand
