@@ -10671,16 +10671,6 @@ jni
 IsAvailable
 (
 )
-|
-|
-jni
-:
-:
-GetAPIVersion
-(
-)
-<
-23
 )
 {
 return

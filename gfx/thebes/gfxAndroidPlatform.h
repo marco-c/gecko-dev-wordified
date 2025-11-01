@@ -267,7 +267,11 @@ bool
 CheckVariationFontSupport
 (
 )
+{
+return
+true
 ;
+}
 /
 /
 From
