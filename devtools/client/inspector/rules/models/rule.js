@@ -3050,7 +3050,6 @@ string
 )
 .
 *
-*
 return
 {
 Promise

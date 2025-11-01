@@ -612,7 +612,6 @@ TWO_HALF_SEGMENTS
 *
 *
 *
-*
 TESTS
 *
 *
