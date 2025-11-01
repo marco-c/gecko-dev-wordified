@@ -64,7 +64,7 @@ urlretrieve
 REVISION
 =
 "
-fc36ba125ff6f175e1b5619c4ec20ab611cc5858
+62b91240be04c9c35302fef471216e8f330b0390
 "
 urlretrieve
 (
@@ -839,13 +839,6 @@ mozilla
 dom
 /
 SanitizerTypes
-.
-h
-"
-#
-include
-"
-SanitizerDefaultConfig
 .
 h
 "

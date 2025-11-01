@@ -82,13 +82,6 @@ py
 #
 include
 "
-SanitizerDefaultConfig
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -957,10 +950,6 @@ nsGkAtoms
 :
 :
 hreflang
-nsGkAtoms
-:
-:
-rel
 nsGkAtoms
 :
 :
