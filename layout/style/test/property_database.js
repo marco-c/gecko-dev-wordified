@@ -99153,9 +99153,6 @@ true
 applies_to_placeholder
 :
 true
-applies_to_cue
-:
-true
 initial_values
 :
 [
@@ -99166,9 +99163,6 @@ initial_values
 other_values
 :
 [
-"
-0
-"
 "
 -
 14px
@@ -99231,7 +99225,7 @@ calc
 "
 calc
 (
-0
+1px
 )
 0
 "
