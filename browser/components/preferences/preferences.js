@@ -1276,6 +1276,8 @@ l10nId
 "
 containers
 -
+section
+-
 header
 "
 groupIds
