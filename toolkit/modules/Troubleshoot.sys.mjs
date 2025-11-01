@@ -380,6 +380,13 @@ browser
 .
 search
 .
+lastEngineIgnored
+"
+"
+browser
+.
+search
+.
 lastSettingsCorruptTime
 "
 "
