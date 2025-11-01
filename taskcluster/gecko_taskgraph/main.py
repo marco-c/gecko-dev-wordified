@@ -950,8 +950,6 @@ labels
 matching
 this
 regular
-"
-"
 expression
 .
 "
@@ -2777,7 +2775,7 @@ json
 print
 (
                 
-"
+'
 If
 you
 were
@@ -2786,9 +2784,6 @@ differences
 in
 task
 bodies
-"
-                
-'
 you
 should
 pass
@@ -3084,9 +3079,6 @@ zst
 in
 this
 task
-"
-    
-"
 rather
 than
 searching
@@ -3379,9 +3371,6 @@ based
 on
 the
 current
-"
-    
-"
 contents
 of
 the
@@ -4291,8 +4280,6 @@ or
 json
 ;
 see
-"
-"
 taskcluster
 /
 docs
