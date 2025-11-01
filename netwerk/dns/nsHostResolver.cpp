@@ -333,15 +333,6 @@ include
 "
 mozilla
 /
-HashFunctions
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TimeStamp
 .
 h

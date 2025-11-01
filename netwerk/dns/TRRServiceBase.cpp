@@ -137,15 +137,6 @@ h
 #
 include
 "
-mozilla
-/
-ScopeExit
-.
-h
-"
-#
-include
-"
 nsHostResolver
 .
 h

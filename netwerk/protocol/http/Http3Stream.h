@@ -123,15 +123,6 @@ h
 #
 include
 "
-mozilla
-/
-WeakPtr
-.
-h
-"
-#
-include
-"
 nsIClassOfService
 .
 h

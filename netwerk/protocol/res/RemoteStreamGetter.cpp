@@ -153,15 +153,6 @@ h
 #
 include
 "
-mozilla
-/
-ResultExtensions
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h

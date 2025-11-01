@@ -160,15 +160,6 @@ include
 "
 mozilla
 /
-RangedPtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TextUtils
 .
 h

@@ -46,15 +46,6 @@ h
 #
 include
 "
-mozilla
-/
-TextUtils
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

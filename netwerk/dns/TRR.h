@@ -131,15 +131,6 @@ h
 #
 include
 "
-mozilla
-/
-Assertions
-.
-h
-"
-#
-include
-"
 nsClassHashtable
 .
 h

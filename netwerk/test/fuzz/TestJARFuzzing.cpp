@@ -178,15 +178,6 @@ h
 #
 include
 "
-mozilla
-/
-Span
-.
-h
-"
-#
-include
-"
 nsIInputStream
 .
 h
