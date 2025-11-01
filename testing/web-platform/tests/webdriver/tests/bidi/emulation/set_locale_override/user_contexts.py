@@ -11,18 +11,18 @@ async
 def
 test_user_contexts
 (
-        
+    
 bidi_session
-        
+    
 create_user_context
-        
+    
 new_tab
-        
-get_current_locale
-        
-default_locale
-        
+    
 some_locale
+    
+assert_locale_against_default
+    
+assert_locale_against_value
 )
 :
     
@@ -51,17 +51,14 @@ type_hint
 "
 tab
 "
+    
 )
     
-assert
 await
-get_current_locale
+assert_locale_against_default
 (
 new_tab
 )
-=
-=
-default_locale
     
 #
 Set
@@ -82,10 +79,10 @@ user_contexts
 [
 user_context
 ]
-        
 locale
 =
 some_locale
+    
 )
     
 #
@@ -99,15 +96,12 @@ user
 context
 .
     
-assert
 await
-get_current_locale
+assert_locale_against_value
 (
+some_locale
 context_in_user_context
 )
-=
-=
-some_locale
     
 #
 Assert
@@ -120,15 +114,11 @@ not
 affected
 .
     
-assert
 await
-get_current_locale
+assert_locale_against_default
 (
 new_tab
 )
-=
-=
-default_locale
     
 #
 Create
@@ -159,6 +149,7 @@ type_hint
 "
 tab
 "
+    
 )
     
 #
@@ -178,32 +169,28 @@ user
 context
 .
     
-assert
 await
-get_current_locale
+assert_locale_against_value
 (
-        
+some_locale
 another_context_in_user_context
 )
-=
-=
-some_locale
 async
 def
 test_set_to_default_user_context
 (
-        
+    
 bidi_session
-        
+    
 new_tab
-        
+    
 create_user_context
-        
-get_current_locale
-        
-default_locale
-        
+    
 some_locale
+    
+assert_locale_against_default
+    
+assert_locale_against_value
 )
 :
     
@@ -279,25 +266,18 @@ user
 context
 .
     
-assert
 await
-get_current_locale
+assert_locale_against_default
 (
 context_in_user_context
 )
-=
-=
-default_locale
     
-assert
 await
-get_current_locale
+assert_locale_against_value
 (
+some_locale
 new_tab
 )
-=
-=
-some_locale
     
 #
 Create
@@ -328,25 +308,12 @@ tab
     
 )
     
-assert
 await
-get_current_locale
+assert_locale_against_value
 (
+some_locale
 context_in_default_context
 )
-=
-=
-some_locale
-    
-assert
-await
-get_current_locale
-(
-context_in_default_context
-)
-=
-=
-some_locale
     
 #
 Reset
@@ -369,7 +336,6 @@ user_contexts
 default
 "
 ]
-        
 locale
 =
 None
@@ -379,14 +345,14 @@ async
 def
 test_set_to_multiple_user_contexts
 (
-        
+    
 bidi_session
-        
+    
 create_user_context
-        
-get_current_locale
-        
+    
 some_locale
+    
+assert_locale_against_value
 )
 :
     
@@ -460,48 +426,41 @@ user_contexts
 user_context_1
 user_context_2
 ]
-        
 locale
 =
 some_locale
     
 )
     
-assert
 await
-get_current_locale
+assert_locale_against_value
 (
+some_locale
 context_in_user_context_1
 )
-=
-=
-some_locale
     
-assert
 await
-get_current_locale
+assert_locale_against_value
 (
+some_locale
 context_in_user_context_2
 )
-=
-=
-some_locale
 async
 def
 test_set_to_user_context_and_then_to_context
 (
-        
+    
 bidi_session
-        
+    
 create_user_context
-        
-get_current_locale
-        
-default_locale
-        
+    
 some_locale
-        
+    
 another_locale
+    
+assert_locale_against_default
+    
+assert_locale_against_value
 )
 :
     
@@ -556,7 +515,6 @@ user_contexts
 [
 user_context
 ]
-        
 locale
 =
 some_locale
@@ -592,22 +550,18 @@ context
 "
 ]
 ]
-        
 locale
 =
 another_locale
     
 )
     
-assert
 await
-get_current_locale
+assert_locale_against_value
 (
+another_locale
 context_in_user_context_1
 )
-=
-=
-another_locale
     
 await
 bidi_session
@@ -646,15 +600,12 @@ still
 updated
 .
     
-assert
 await
-get_current_locale
+assert_locale_against_value
 (
+another_locale
 context_in_user_context_1
 )
-=
-=
-another_locale
     
 #
 Create
@@ -703,15 +654,12 @@ is
 applied
 .
     
-assert
 await
-get_current_locale
+assert_locale_against_value
 (
+some_locale
 context_in_user_context_2
 )
-=
-=
-some_locale
     
 #
 Reset
@@ -761,15 +709,12 @@ context
 value
 .
     
-assert
 await
-get_current_locale
+assert_locale_against_value
 (
+some_locale
 context_in_user_context_1
 )
-=
-=
-some_locale
     
 #
 Reset
@@ -811,15 +756,11 @@ is
 reset
 .
     
-assert
 await
-get_current_locale
+assert_locale_against_default
 (
 context_in_user_context_1
 )
-=
-=
-default_locale
 async
 def
 test_set_to_context_and_then_to_user_context
@@ -829,13 +770,13 @@ bidi_session
     
 create_user_context
     
-get_current_locale
-    
-default_locale
-    
 some_locale
     
 another_locale
+    
+assert_locale_against_default
+    
+assert_locale_against_value
 )
 :
     
@@ -900,15 +841,12 @@ some_locale
     
 )
     
-assert
 await
-get_current_locale
+assert_locale_against_value
 (
+some_locale
 context_in_user_context_1
 )
-=
-=
-some_locale
     
 #
 Apply
@@ -952,15 +890,12 @@ locale
 override
 .
     
-assert
 await
-get_current_locale
+assert_locale_against_value
 (
+some_locale
 context_in_user_context_1
 )
-=
-=
-some_locale
     
 await
 bidi_session
@@ -1002,15 +937,12 @@ locale
 override
 .
     
-assert
 await
-get_current_locale
+assert_locale_against_value
 (
+some_locale
 context_in_user_context_1
 )
-=
-=
-some_locale
     
 #
 Create
@@ -1059,15 +991,12 @@ is
 applied
 .
     
-assert
 await
-get_current_locale
+assert_locale_against_value
 (
+another_locale
 context_in_user_context_2
 )
-=
-=
-another_locale
     
 #
 Reset
@@ -1113,15 +1042,12 @@ still
 set
 .
     
-assert
 await
-get_current_locale
+assert_locale_against_value
 (
+some_locale
 context_in_user_context_1
 )
-=
-=
-some_locale
     
 #
 Make
@@ -1138,12 +1064,8 @@ is
 reset
 .
     
-assert
 await
-get_current_locale
+assert_locale_against_default
 (
 context_in_user_context_2
 )
-=
-=
-default_locale
