@@ -424,6 +424,11 @@ SettingsSearchResultItem
 item
 =
 settingsSearchItem
+query
+=
+state
+.
+searchQuery
 onClick
 =
 {
