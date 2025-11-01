@@ -1255,10 +1255,11 @@ this
 client
 ID
 is
+not
 inherited
-by
+from
 the
-recovered
+intermediate
 profile
 .
         
@@ -1268,7 +1269,7 @@ newProfileName
             
 newProfilePath
             
-expectedClientID
+intermediateClientID
             
 osKeyStoreLabel
         
@@ -1611,7 +1612,7 @@ profile
 }
             
 let
-expectedClientID
+intermediateClientID
 =
 await
 ClientID
@@ -1631,7 +1632,7 @@ newProfile
 rootDir
 .
 path
-expectedClientID
+intermediateClientID
 OSKeyStore
 .
 STORE_LABEL
@@ -1693,11 +1694,11 @@ print
 (
 f
 "
-Expected
+Intermediate
 clientID
 :
 {
-expectedClientID
+intermediateClientID
 }
 "
 )
@@ -2106,14 +2107,18 @@ that
 the
 recovered
 profile
-inherited
-the
+new
 client
 ID
+and
+not
+that
         
 #
+one
 from
 the
+intermediate
 profile
 that
 initiated
@@ -2203,10 +2208,10 @@ outerResolve
         
 self
 .
-assertEqual
+assertNotEqual
 (
 recoveredClientID
-expectedClientID
+intermediateClientID
 )
         
 self
