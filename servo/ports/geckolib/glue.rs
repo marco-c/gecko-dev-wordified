@@ -1388,6 +1388,7 @@ AllowImportRules
 ContainerRule
 CounterStyleRule
 CssRule
+CssRuleRef
 CssRuleType
 CssRuleTypes
 CssRules
@@ -14710,6 +14711,13 @@ DomStyleSheet
 change_kind
 :
 RuleChangeKind
+ancestors
+:
+&
+nsTArray
+<
+CssRuleRef
+>
 )
 {
 let
@@ -14824,6 +14832,11 @@ rule
 &
 guard
 change_kind
+ancestors
+.
+as_slice
+(
+)
 )
 ;
 }

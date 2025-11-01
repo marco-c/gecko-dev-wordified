@@ -128,6 +128,7 @@ stylesheets
 :
 {
 CssRule
+CssRuleRef
 Origin
 OriginSet
 PerOrigin
@@ -2714,6 +2715,12 @@ SharedRwLockReadGuard
 change_kind
 :
 RuleChangeKind
+ancestors
+:
+&
+[
+CssRuleRef
+]
 )
 {
 if
@@ -2746,6 +2753,7 @@ guard
 device
 quirks_mode
 change_kind
+ancestors
 )
 ;
 }

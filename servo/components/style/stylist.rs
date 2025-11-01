@@ -465,6 +465,7 @@ stylesheets
 :
 {
 CssRule
+CssRuleRef
 EffectiveRulesIterator
 Origin
 OriginSet
@@ -6342,6 +6343,12 @@ SharedRwLockReadGuard
 change_kind
 :
 RuleChangeKind
+ancestors
+:
+&
+[
+CssRuleRef
+]
 )
 {
 self
@@ -6361,6 +6368,7 @@ sheet
 rule
 guard
 change_kind
+ancestors
 )
 }
 /

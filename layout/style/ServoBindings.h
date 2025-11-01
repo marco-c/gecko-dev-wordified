@@ -476,6 +476,13 @@ const
 StyleDomStyleSheet
 *
 StyleRuleChangeKind
+\
+const
+nsTArray
+<
+StyleCssRuleRef
+>
+*
 )
 ;
 \
