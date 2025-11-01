@@ -1517,7 +1517,6 @@ asciiBytes
 [
 ]
 =
-u8
 "
 How
 about
@@ -1554,7 +1553,6 @@ endNonAsciiBytes
 [
 ]
 =
-u8
 "
 Life
 is
@@ -1631,7 +1629,6 @@ oneBytes
 [
 ]
 =
-u8
 "
 A
 "
@@ -1694,7 +1691,6 @@ twoBytes
 [
 ]
 =
-u8
 "
 "
 ;
@@ -1766,7 +1762,6 @@ threeBytes
 [
 ]
 =
-u8
 "
 "
 ;
@@ -1835,7 +1830,6 @@ fourBytes
 [
 ]
 =
-u8
 "
 "
 ;
@@ -1911,7 +1905,6 @@ maxCodePoint
 [
 ]
 =
-u8
 "
 "
 ;
@@ -2412,7 +2405,6 @@ two
 .
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x80
@@ -2425,7 +2417,6 @@ control
 >
 ExpectValidCodePoint
 (
-u8
 "
 "
 0xA9
@@ -2437,7 +2428,6 @@ COPYRIGHT
 SIGN
 ExpectValidCodePoint
 (
-u8
 "
 "
 0xB6
@@ -2449,7 +2439,6 @@ PILCROW
 SIGN
 ExpectValidCodePoint
 (
-u8
 "
 "
 0xBE
@@ -2463,7 +2452,6 @@ THREE
 QUARTERS
 ExpectValidCodePoint
 (
-u8
 "
 "
 0xF7
@@ -2475,7 +2463,6 @@ DIVISION
 SIGN
 ExpectValidCodePoint
 (
-u8
 "
 "
 0xFF
@@ -2491,7 +2478,6 @@ WITH
 DIAERESIS
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x100
@@ -2507,7 +2493,6 @@ WITH
 MACRON
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x132
@@ -2522,7 +2507,6 @@ LIGATURE
 IJ
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x37C
@@ -2538,7 +2522,6 @@ SIGMA
 SYMBOL
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x4DC
@@ -2554,7 +2537,6 @@ WITTH
 DIAERESIS
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x6E9
@@ -2568,7 +2550,6 @@ OF
 SAJDAH
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x7FF
@@ -2587,7 +2568,6 @@ three
 .
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x800
@@ -2600,7 +2580,6 @@ LETTER
 ALAF
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x841
@@ -2613,7 +2592,6 @@ LETTER
 AB
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x8FF
@@ -2628,7 +2606,6 @@ NOON
 GHUNNA
 ExpectValidCodePoint
 (
-u8
 "
 "
 0xB86
@@ -2641,7 +2618,6 @@ LETTER
 AA
 ExpectValidCodePoint
 (
-u8
 "
 "
 0xF03
@@ -2661,7 +2637,6 @@ TSHEG
 MA
 ExpectValidCodePoint
 (
-u8
 "
 "
 0xFC9
@@ -2700,7 +2675,6 @@ me
 )
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x102A
@@ -2713,7 +2687,6 @@ LETTER
 AU
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x168F
@@ -2768,7 +2741,6 @@ PARAGRAPH
 SEPARATOR
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x262C
@@ -2780,7 +2752,6 @@ ADI
 SHAKTI
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x32AE
@@ -2793,7 +2764,6 @@ IDEOGRAPH
 RESOURCE
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x33D6
@@ -2805,7 +2775,6 @@ SQUARE
 MOL
 ExpectValidCodePoint
 (
-u8
 "
 "
 0xA504
@@ -2818,7 +2787,6 @@ SYLLABLE
 WEEN
 ExpectValidCodePoint
 (
-u8
 "
 "
 0xD7D5
@@ -2833,7 +2801,6 @@ RIEUL
 SSANGKIYEOK
 ExpectValidCodePoint
 (
-u8
 "
 "
 0xD7FF
@@ -2847,7 +2814,6 @@ assigned
 >
 ExpectValidCodePoint
 (
-u8
 "
 "
 0xE000
@@ -2861,7 +2827,6 @@ Use
 >
 ExpectValidCodePoint
 (
-u8
 "
 "
 0xF9F2
@@ -2876,7 +2841,6 @@ IDEOGRAPH
 F9F
 ExpectValidCodePoint
 (
-u8
 "
 "
 0xFDFD
@@ -2895,7 +2859,6 @@ AR
 RAHHHEEEEM
 ExpectValidCodePoint
 (
-u8
 "
 "
 0xFFFF
@@ -2914,7 +2877,6 @@ four
 .
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x10000
@@ -2929,7 +2891,6 @@ B008
 A
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x14440
@@ -2942,7 +2903,6 @@ HIEROGLYPH
 A058
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x1D6D7
@@ -2956,7 +2916,6 @@ SMALL
 PHI
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x1F4A9
@@ -2969,7 +2928,6 @@ OF
 POO
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x1F52B
@@ -2980,7 +2938,6 @@ u8
 PISTOL
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x1F94C
@@ -2992,7 +2949,6 @@ CURLING
 STONE
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x1F94F
@@ -3004,7 +2960,6 @@ FLYING
 DISC
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x20346
@@ -3019,7 +2974,6 @@ IDEOGRAPH
 20346
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x2183A
@@ -3034,7 +2988,6 @@ IDEOGRAPH
 2183A
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x417F6
@@ -3048,7 +3001,6 @@ assigned
 >
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x7E836
@@ -3062,7 +3014,6 @@ assigned
 >
 ExpectValidCodePoint
 (
-u8
 "
 "
 0xFEF67
@@ -3078,7 +3029,6 @@ Use
 >
 ExpectValidCodePoint
 (
-u8
 "
 "
 0x10FFFF
