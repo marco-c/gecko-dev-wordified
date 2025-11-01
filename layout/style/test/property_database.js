@@ -99111,7 +99111,7 @@ text
 -
 decoration
 -
-trim
+inset
 .
 enabled
 "
@@ -99129,14 +99129,14 @@ text
 -
 decoration
 -
-trim
+inset
 "
 :
 {
 domProp
 :
 "
-textDecorationTrim
+textDecorationInset
 "
 inherited
 :

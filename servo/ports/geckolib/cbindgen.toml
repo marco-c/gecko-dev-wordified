@@ -845,7 +845,7 @@ TextDecorationSkipInk
 TextDecorationLength
 "
 "
-TextDecorationTrim
+TextDecorationInset
 "
 "
 Time

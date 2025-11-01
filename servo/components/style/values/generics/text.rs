@@ -784,7 +784,7 @@ FromFont
 /
 Text
 decoration
-trim
+inset
 values
 .
 /
@@ -812,13 +812,15 @@ decor
 4
 /
 #
-propdef
--
 text
 -
 decoration
 -
-trim
+skip
+-
+inset
+-
+property
 #
 [
 repr
@@ -849,7 +851,7 @@ ToTyped
 ]
 pub
 enum
-GenericTextDecorationTrim
+GenericTextDecorationInset
 <
 L
 >
@@ -892,7 +894,7 @@ L
 :
 Zero
 >
-GenericTextDecorationTrim
+GenericTextDecorationInset
 <
 L
 >
@@ -920,7 +922,7 @@ get_initial_value
 >
 Self
 {
-GenericTextDecorationTrim
+GenericTextDecorationInset
 :
 :
 Length
@@ -954,7 +956,7 @@ PartialEq
 >
 ToCss
 for
-GenericTextDecorationTrim
+GenericTextDecorationInset
 <
 L
 >
@@ -990,7 +992,7 @@ Write
 match
 self
 {
-GenericTextDecorationTrim
+GenericTextDecorationInset
 :
 :
 Auto
@@ -1004,7 +1006,7 @@ write_str
 auto
 "
 )
-GenericTextDecorationTrim
+GenericTextDecorationInset
 :
 :
 Length

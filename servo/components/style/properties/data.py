@@ -3937,7 +3937,7 @@ TextDecorationLength
 "
             
 "
-TextDecorationTrim
+TextDecorationInset
 "
             
 "
@@ -4017,18 +4017,6 @@ self
 predefined_type
 in
 {
-                
-"
-AlignContent
-"
-                
-"
-AlignItems
-"
-                
-"
-AlignSelf
-"
                 
 "
 Appearance
@@ -4194,15 +4182,19 @@ PositionProperty
 "
                 
 "
-JustifyContent
+ContentDistribution
+"
+                
+"
+ItemPlacement
+"
+                
+"
+SelfAlignment
 "
                 
 "
 JustifyItems
-"
-                
-"
-JustifySelf
 "
                 
 "

@@ -407,10 +407,10 @@ text
 -
 decoration
 -
-trim
+inset
 "
 "
-TextDecorationTrim
+TextDecorationInset
 "
 "
 computed
@@ -419,7 +419,7 @@ computed
 text
 :
 :
-TextDecorationTrim
+TextDecorationInset
 :
 :
 get_initial_value
@@ -440,7 +440,7 @@ specified
 text
 :
 :
-TextDecorationTrim
+TextDecorationInset
 :
 :
 get_initial_value
@@ -461,7 +461,7 @@ text
 -
 decoration
 -
-trim
+inset
 .
 enabled
 "

@@ -99,8 +99,8 @@ text
 {
 GenericHyphenateLimitChars
 GenericInitialLetter
+GenericTextDecorationInset
 GenericTextDecorationLength
-GenericTextDecorationTrim
 GenericTextIndent
 }
 ;
@@ -277,14 +277,14 @@ text
 -
 decoration
 -
-trim
+inset
 property
 .
 pub
 type
-TextDecorationTrim
+TextDecorationInset
 =
-GenericTextDecorationTrim
+GenericTextDecorationInset
 <
 Length
 >
