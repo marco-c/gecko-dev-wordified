@@ -4312,12 +4312,14 @@ UpdateAnchorPosLayout
 )
 ;
 void
-UpdateAnchorPosLayoutForScroll
+UpdateAnchorPosForScroll
 (
+const
 ScrollContainerFrame
 *
 aScrollContainer
 )
+const
 ;
 inline
 void
