@@ -321,6 +321,17 @@ StructuredCloneData
 aStack
 )
 ;
+virtual
+const
+nsACString
+&
+GetRemoteType
+(
+)
+const
+=
+0
+;
 protected
 :
 /

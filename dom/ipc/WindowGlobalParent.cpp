@@ -1986,6 +1986,7 @@ WindowGlobalParent
 GetBrowserParent
 (
 )
+const
 {
 if
 (
@@ -3871,6 +3872,7 @@ WindowGlobalParent
 GetRemoteType
 (
 )
+const
 {
 if
 (

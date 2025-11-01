@@ -4617,6 +4617,7 @@ WindowGlobalChild
 GetRemoteType
 (
 )
+const
 {
 if
 (

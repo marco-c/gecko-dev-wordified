@@ -328,16 +328,6 @@ GetDocumentURI
 0
 ;
 virtual
-const
-nsACString
-&
-GetRemoteType
-(
-)
-=
-0
-;
-virtual
 dom
 :
 :
