@@ -963,6 +963,9 @@ place
 URL
 val
 fallbackUrl
+:
+String
+?
 =
 redirectData
 .
@@ -971,10 +974,13 @@ fallbackUrl
 .
 takeIf
 {
+url
+-
+>
 !
 isPlayStoreURL
 (
-it
+url
 )
 |
 |
@@ -985,11 +991,6 @@ resolveInfo
 =
 null
 }
-?
-.
-toString
-(
-)
 val
 appIntent
 =
