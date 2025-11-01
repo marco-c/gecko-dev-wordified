@@ -6272,6 +6272,10 @@ canGoForward
 .
 collect
 {
+updateEndBrowserActions
+(
+context
+)
 updateStartBrowserActions
 (
 context
@@ -7555,6 +7559,16 @@ HOMEPAGE
 ToolbarAction
 .
 Homepage
+ToolbarShortcutPreference
+.
+Keys
+.
+BACK
+-
+>
+ToolbarAction
+.
+Back
 else
 -
 >
