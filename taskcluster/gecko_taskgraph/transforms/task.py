@@ -22193,6 +22193,18 @@ VERBOSE
     
 )
     
+re_checkout_cache
+=
+re
+.
+compile
+(
+"
+^
+checkouts
+"
+)
+    
 re_sparse_checkout_cache
 =
 re
@@ -22344,6 +22356,10 @@ require_sparse_cache
 False
         
 require_shallow_cache
+=
+False
+        
+have_checkout_cache
 =
 False
         
@@ -22657,6 +22673,19 @@ cache_prefix
 ]
             
 if
+re_checkout_cache
+.
+match
+(
+cache
+)
+:
+                
+have_checkout_cache
+=
+True
+            
+if
 re_sparse_checkout_cache
 .
 match
@@ -22832,6 +22861,8 @@ cache
 )
         
 if
+have_checkout_cache
+and
 require_sparse_cache
 and
 not
@@ -22886,6 +22917,8 @@ label
 )
         
 if
+have_checkout_cache
+and
 require_shallow_cache
 and
 not
