@@ -297,15 +297,6 @@ include
 "
 mozilla
 /
-WindowsVersion
-.
-h
-"
-#
-include
-"
-mozilla
-/
 glean
 /
 GfxMetrics

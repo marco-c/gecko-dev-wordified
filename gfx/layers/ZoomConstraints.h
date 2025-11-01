@@ -143,15 +143,6 @@ include
 "
 mozilla
 /
-Maybe
-.
-h
-"
-#
-include
-"
-mozilla
-/
 layers
 /
 ScrollableLayerGuid

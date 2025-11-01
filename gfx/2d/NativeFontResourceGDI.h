@@ -143,15 +143,6 @@ AlreadyAddRefed
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Vector
-.
-h
-"
 namespace
 mozilla
 {
@@ -233,6 +224,7 @@ NativeFontResourceGDI
 >
 Create
 (
+const
 uint8_t
 *
 aFontData

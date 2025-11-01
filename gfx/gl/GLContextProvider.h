@@ -105,13 +105,6 @@ AlreadyAddRefed
 .
 h
 "
-/
-/
-Used
-in
-GLContextProviderImpl
-.
-h
 #
 include
 "
@@ -192,6 +185,13 @@ there
 define
 GL_CONTEXT_PROVIDER_NAME
 GLContextProviderNull
+/
+/
+This
+header
+uses
+already_AddRefed
+.
 #
 include
 "

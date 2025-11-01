@@ -111,15 +111,6 @@ h
 #
 include
 "
-mozilla
-/
-ThreadSafeWeakPtr
-.
-h
-"
-#
-include
-"
 GLTypes
 .
 h

@@ -161,15 +161,6 @@ include
 "
 mozilla
 /
-WeakPtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
 webrender
 /
 RenderTextureHost

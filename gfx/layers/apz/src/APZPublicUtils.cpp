@@ -144,15 +144,6 @@ include
 "
 mozilla
 /
-HelperMacros
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPrefs_general
 .
 h

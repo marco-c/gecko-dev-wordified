@@ -270,15 +270,6 @@ RefCounted
 .
 h
 "
-#
-include
-"
-mozilla
-/
-RefPtr
-.
-h
-"
 class
 MacIOSurface
 final

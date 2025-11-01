@@ -251,15 +251,6 @@ h
 #
 include
 "
-mozilla
-/
-WindowsVersion
-.
-h
-"
-#
-include
-"
 nsDirectoryServiceUtils
 .
 h

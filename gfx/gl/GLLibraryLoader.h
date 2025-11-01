@@ -91,9 +91,7 @@ h
 #
 include
 "
-mozilla
-/
-Assertions
+prlink
 .
 h
 "
@@ -102,7 +100,7 @@ include
 "
 mozilla
 /
-SharedLibrary
+Assertions
 .
 h
 "
