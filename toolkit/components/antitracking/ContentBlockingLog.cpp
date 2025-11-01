@@ -285,15 +285,6 @@ AntitrackingMetrics
 .
 h
 "
-#
-include
-"
-mozilla
-/
-XorShift128PlusRNG
-.
-h
-"
 namespace
 mozilla
 {

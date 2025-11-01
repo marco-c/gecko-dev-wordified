@@ -170,15 +170,6 @@ include
 "
 mozilla
 /
-Array
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Components
 .
 h

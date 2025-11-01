@@ -65,15 +65,6 @@ UrlClassifierTelemetryUtils
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Assertions
-.
-h
-"
 namespace
 mozilla
 {

@@ -125,15 +125,6 @@ include
 "
 mozilla
 /
-MoveOnlyFunction
-.
-h
-"
-#
-include
-"
-mozilla
-/
 MozPromise
 .
 h

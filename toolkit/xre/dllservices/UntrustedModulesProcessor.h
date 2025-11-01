@@ -190,15 +190,6 @@ include
 "
 mozilla
 /
-Vector
-.
-h
-"
-#
-include
-"
-mozilla
-/
 WinHeaderOnlyUtils
 .
 h
