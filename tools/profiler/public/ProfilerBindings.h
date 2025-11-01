@@ -628,6 +628,17 @@ size_t
 aLabelLength
 )
 ;
+void
+gecko_profiler_marker_schema_set_stack_based
+(
+mozilla
+:
+:
+MarkerSchema
+*
+aSchema
+)
+;
 /
 /
 MarkerSchema
