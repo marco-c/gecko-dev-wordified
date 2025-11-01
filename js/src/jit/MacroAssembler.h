@@ -16684,8 +16684,6 @@ typename
 T
 typename
 S
-typename
-L
 >
 inline
 void
@@ -16701,7 +16699,8 @@ const
 S
 &
 rhs
-L
+Label
+*
 label
 )
 DEFINED_ON
@@ -17065,8 +17064,6 @@ template
 <
 typename
 T
-class
-L
 >
 inline
 void
@@ -17078,7 +17075,8 @@ const
 T
 &
 t
-L
+Label
+*
 label
 )
 DEFINED_ON
