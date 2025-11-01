@@ -187,16 +187,6 @@ global
 /
 intl
 .
-properties
-"
-            
-"
-chrome
-/
-global
-/
-intl
-.
 css
 "
             
