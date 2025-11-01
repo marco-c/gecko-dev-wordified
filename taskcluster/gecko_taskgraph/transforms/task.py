@@ -3143,6 +3143,51 @@ product
 product
 )
 )
+RUN_TASK_RE
+=
+re
+.
+compile
+(
+r
+"
+run
+-
+task
+(
+-
+(
+git
+|
+hg
+)
+)
+?
+"
+)
+def
+is_run_task
+(
+cmd
+:
+str
+)
+-
+>
+bool
+:
+    
+return
+bool
+(
+re
+.
+search
+(
+RUN_TASK_RE
+cmd
+)
+)
 payload_builder
 (
     
@@ -4876,6 +4921,8 @@ time
     
 run_task
 =
+is_run_task
+(
 payload
 .
 get
@@ -4891,14 +4938,6 @@ command
 [
 0
 ]
-.
-endswith
-(
-"
-run
--
-task
-"
 )
     
 #
@@ -22279,15 +22318,9 @@ else
         
 run_task
 =
-main_command
-.
-endswith
+is_run_task
 (
-"
-run
--
-task
-"
+main_command
 )
         
 require_sparse_cache
