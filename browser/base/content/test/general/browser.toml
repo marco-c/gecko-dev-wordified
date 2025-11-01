@@ -443,7 +443,7 @@ INSTEAD
 .
 [
 "
-browser_backButtonFitts
+browser_backOrSidebarButtonFitts
 .
 js
 "
