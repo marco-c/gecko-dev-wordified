@@ -2904,6 +2904,11 @@ ShouldEnforceParentalControls
 (
 )
 ;
+void
+MaybeReconstructActiveEntryList
+(
+)
+;
 protected
 :
 /
