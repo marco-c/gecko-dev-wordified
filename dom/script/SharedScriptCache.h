@@ -1264,6 +1264,11 @@ Init
 (
 )
 ;
+void
+UpdateDiskCache
+(
+)
+;
 /
 /
 This
