@@ -4626,6 +4626,8 @@ UpdateDiskCache
 (
 )
 ;
+public
+:
 /
 *
 *
@@ -4644,6 +4646,7 @@ cache
 .
 *
 /
+static
 void
 EncodeBytecodeAndSave
 (
@@ -4664,6 +4667,8 @@ LoadedScript
 aLoadedScript
 )
 ;
+private
+:
 /
 *
 *
