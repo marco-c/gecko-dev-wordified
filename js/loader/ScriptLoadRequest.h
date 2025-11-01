@@ -772,12 +772,6 @@ AsModuleRequest
 )
 const
 ;
-bool
-IsCacheable
-(
-)
-const
-;
 CacheExpirationTime
 ExpirationTime
 (
