@@ -291,7 +291,7 @@ try_options
 get
 (
 "
-allow_nspr_patch
+nspr_patch
 "
 )
 :

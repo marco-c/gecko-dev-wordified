@@ -20,7 +20,9 @@ Apache
 2
 .
 0
-License
+and
+MIT
+Licenses
 .
 *
 /
@@ -633,7 +635,7 @@ scope
 /
 #
 ifndef
-__FStar_UInt_8_16_32_64_H
+FStar_UInt_8_16_32_64_H
 #
 if
 !

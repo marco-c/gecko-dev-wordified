@@ -20,7 +20,9 @@ Apache
 2
 .
 0
-License
+and
+MIT
+Licenses
 .
 *
 /

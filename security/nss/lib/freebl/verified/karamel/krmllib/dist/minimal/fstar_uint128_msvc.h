@@ -20,7 +20,9 @@ Apache
 2
 .
 0
-License
+and
+MIT
+Licenses
 .
 *
 /
@@ -1344,9 +1346,11 @@ s
 lo
 >
 >
+(
 FStar_UInt128_u32_64
 -
 s
+)
 )
 ;
 }
@@ -1464,9 +1468,11 @@ a
 low
 <
 <
+(
 s
 -
 FStar_UInt128_u32_64
+)
 ;
 return
 lit
@@ -1612,9 +1618,11 @@ s
 hi
 <
 <
+(
 FStar_UInt128_u32_64
 -
 s
+)
 )
 ;
 }
@@ -1723,9 +1731,11 @@ a
 high
 >
 >
+(
 s
 -
 FStar_UInt128_u32_64
+)
 ;
 lit
 .
@@ -3258,6 +3268,7 @@ FStar_UInt128_u32_32
 )
 +
 (
+(
 u1
 *
 (
@@ -3270,6 +3281,7 @@ FStar_UInt128_u32_32
 FStar_UInt128_u64_mod_32
 (
 t_
+)
 )
 >
 >

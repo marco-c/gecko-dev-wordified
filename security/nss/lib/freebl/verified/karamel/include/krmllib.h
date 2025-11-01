@@ -1,9 +1,9 @@
 #
 ifndef
-__KRMLLIB_H
+KRML_HEADER_KRMLLIB_H
 #
 define
-__KRMLLIB_H
+KRML_HEADER_KRMLLIB_H
 /
 *
 *
@@ -358,6 +358,6 @@ h
 endif
 /
 *
-__KRMLLIB_H
+KRML_HEADER_KRMLLIB_H
 *
 /
