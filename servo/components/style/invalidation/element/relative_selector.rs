@@ -7031,10 +7031,14 @@ invalidation_kind
 if
 d
 .
+selector
+.
+is_rightmost
+(
+d
+.
 selector_offset
-=
-=
-0
+)
 {
 if
 scope_kind
