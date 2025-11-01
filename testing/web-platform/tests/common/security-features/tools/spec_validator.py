@@ -852,6 +852,13 @@ dynamic
 import
 "
 "
+svg
+-
+a
+-
+tag
+"
+"
 video
 -
 tag
