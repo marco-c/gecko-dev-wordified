@@ -85,7 +85,6 @@ Tests
 selected
 options
 *
-*
 /
 requestLongerTimeout
 (

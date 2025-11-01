@@ -13240,7 +13240,6 @@ BrowsingContext
 }
 context
 *
-*
 /
 function
 waitForPresShell

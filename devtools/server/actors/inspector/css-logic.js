@@ -5661,7 +5661,6 @@ css
 rules
 .
 *
-*
 /
 getCssRules
 (

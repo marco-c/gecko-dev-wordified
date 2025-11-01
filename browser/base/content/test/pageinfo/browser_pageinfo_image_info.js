@@ -29,7 +29,6 @@ zero
 0
 /
 *
-*
 /
 const
 URI

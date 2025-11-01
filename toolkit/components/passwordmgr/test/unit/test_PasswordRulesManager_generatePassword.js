@@ -675,7 +675,6 @@ as
 such
 .
 *
-*
 /
 add_task
 (

@@ -115,7 +115,6 @@ of
 hosts
 .
 *
-*
 /
 window
 .

@@ -2651,7 +2651,6 @@ like
 assert
 .
 *
-*
 /
 SimpleTest
 .
@@ -3159,7 +3158,6 @@ b
 )
 name
 )
-*
 *
 /
 SimpleTest
@@ -4283,7 +4281,6 @@ to
 todo
 .
 *
-*
 /
 SimpleTest
 .
@@ -4444,7 +4441,6 @@ a
 DIV
 element
 .
-*
 *
 /
 SimpleTest
@@ -4883,7 +4879,6 @@ Toggle
 element
 visibility
 *
-*
 /
 SimpleTest
 .
@@ -4949,7 +4944,6 @@ a
 specific
 class
 .
-*
 *
 /
 SimpleTest
@@ -5142,7 +5136,6 @@ report
 in
 the
 browser
-*
 *
 /
 SimpleTest
@@ -5485,7 +5478,6 @@ finish
 is
 required
 .
-*
 *
 /
 SimpleTest
@@ -9160,7 +9152,6 @@ has
 been
 invoked
 .
-*
 *
 /
 SimpleTest

@@ -83,7 +83,6 @@ for
 Bug
 459906
 *
-*
 /
 waitForExplicitFinish
 (

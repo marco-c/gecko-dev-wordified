@@ -72,7 +72,6 @@ for
 Bug
 339445
 *
-*
 /
 let
 testURL

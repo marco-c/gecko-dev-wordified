@@ -72,7 +72,6 @@ for
 Bug
 495495
 *
-*
 /
 let
 newWin

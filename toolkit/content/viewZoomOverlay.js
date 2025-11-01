@@ -116,7 +116,6 @@ be
 modified
 .
 *
-*
 /
 var
 ZoomManager

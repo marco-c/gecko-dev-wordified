@@ -55,7 +55,6 @@ for
 Bug
 1901139
 *
-*
 /
 add_task
 (

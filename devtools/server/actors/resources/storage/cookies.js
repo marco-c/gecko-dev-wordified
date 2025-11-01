@@ -1774,7 +1774,6 @@ for
 details
 .
 *
-*
 /
 onCookieChanged
 (

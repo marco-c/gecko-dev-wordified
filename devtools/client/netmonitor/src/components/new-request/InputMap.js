@@ -252,7 +252,6 @@ add
 new
 items
 *
-*
 /
 class
 InputMap

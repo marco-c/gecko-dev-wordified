@@ -155,7 +155,6 @@ window
 first
 .
 *
-*
 /
 add_task
 (

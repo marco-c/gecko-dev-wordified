@@ -74,7 +74,6 @@ on
 input
 )
 *
-*
 /
 waitForExplicitFinish
 (

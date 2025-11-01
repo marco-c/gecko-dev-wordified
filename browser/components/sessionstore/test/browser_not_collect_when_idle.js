@@ -6,7 +6,6 @@ for
 Bug
 1305950
 *
-*
 /
 const
 {

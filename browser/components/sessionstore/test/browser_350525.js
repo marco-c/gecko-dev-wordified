@@ -51,7 +51,6 @@ for
 Bug
 350525
 *
-*
 /
 function
 test

@@ -2745,7 +2745,6 @@ second
 )
 .
 *
-*
 /
 add_task
 (

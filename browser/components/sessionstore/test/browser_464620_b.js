@@ -76,7 +76,6 @@ node
 insertion
 )
 *
-*
 /
 waitForExplicitFinish
 (

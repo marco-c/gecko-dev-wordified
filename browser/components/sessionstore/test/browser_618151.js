@@ -134,7 +134,6 @@ to
 unrestored
 tabs
 *
-*
 /
 waitForExplicitFinish
 (

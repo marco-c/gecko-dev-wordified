@@ -82,7 +82,6 @@ ending
 a
 restore
 *
-*
 /
 waitForExplicitFinish
 (

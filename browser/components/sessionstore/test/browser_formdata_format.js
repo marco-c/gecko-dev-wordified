@@ -44,7 +44,6 @@ Tests
 formdata
 format
 *
-*
 /
 waitForExplicitFinish
 (

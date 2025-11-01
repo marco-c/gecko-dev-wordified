@@ -2238,7 +2238,6 @@ it
 s
 overflowed
 *
-*
 /
 function
 getToolboxTab

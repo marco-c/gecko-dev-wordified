@@ -595,7 +595,6 @@ opera
 *
 *
 *
-*
 /
 var
 TestRunner
@@ -791,7 +790,6 @@ t
 hang
 indefinitely
 .
-*
 *
 /
 TestRunner
@@ -1497,7 +1495,6 @@ to
 loop
 tests
 *
-*
 /
 TestRunner
 .
@@ -1608,7 +1605,6 @@ the
 summary
 .
 *
-*
 /
 TestRunner
 .
@@ -1636,7 +1632,6 @@ only
 the
 failed
 tests
-*
 *
 /
 TestRunner
@@ -1771,7 +1766,6 @@ will
 be
 used
 .
-*
 *
 /
 /
@@ -2265,7 +2259,6 @@ Toggle
 element
 visibility
 *
-*
 /
 TestRunner
 .
@@ -2350,7 +2343,6 @@ that
 contains
 a
 test
-*
 *
 /
 TestRunner
@@ -3048,7 +3040,6 @@ ran
 .
 *
 *
-*
 /
 TestRunner
 .
@@ -3327,7 +3318,6 @@ array
 of
 URLs
 *
-*
 /
 TestRunner
 .
@@ -3565,7 +3555,6 @@ onComplete
 (
 )
 .
-*
 *
 /
 TestRunner
@@ -4424,7 +4413,6 @@ test
 is
 finished
 .
-*
 *
 /
 TestRunner
@@ -5715,7 +5703,6 @@ report
 assertion
 count
 .
-*
 *
 /
 TestRunner

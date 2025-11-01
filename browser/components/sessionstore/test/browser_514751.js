@@ -75,7 +75,6 @@ Bug
 Wallpaper
 )
 *
-*
 /
 let
 state

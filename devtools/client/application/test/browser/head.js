@@ -947,7 +947,6 @@ see
 PAGE_TYPES
 )
 *
-*
 /
 info
 (

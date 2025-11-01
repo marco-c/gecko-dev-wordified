@@ -72,7 +72,6 @@ for
 Bug
 491577
 *
-*
 /
 const
 REMEMBER

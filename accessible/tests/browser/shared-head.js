@@ -2718,7 +2718,6 @@ the
 snippet
 .
 *
-*
 /
 function
 snippetToURL
