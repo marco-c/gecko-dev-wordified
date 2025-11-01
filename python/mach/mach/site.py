@@ -903,6 +903,9 @@ VENV
 class
 MozSiteMetadata
 :
+#
+noqa
+PLW1641
     
 "
 "
@@ -5327,6 +5330,21 @@ site
             
 )
         
+check_errors
+:
+str
+=
+"
+\
+n
+"
+#
+save
+output
+when
+check
+fails
+        
 check_result
 =
 subprocess
@@ -5363,6 +5381,10 @@ STDOUT
 text
 =
 True
+            
+check
+=
+False
         
 )
         
@@ -5374,6 +5396,21 @@ returncode
 :
             
 return
+        
+else
+:
+            
+check_errors
++
+=
+"
+\
+n
+"
++
+check_result
+.
+stdout
         
 "
 "
@@ -5833,6 +5870,10 @@ STDOUT
 text
 =
 True
+            
+check
+=
+False
         
 )
         
@@ -5841,6 +5882,27 @@ check_result
 .
 returncode
 :
+            
+if
+check_result
+.
+stdout
+not
+in
+check_errors
+:
+                
+check_errors
++
+=
+"
+\
+n
+"
++
+check_result
+.
+stdout
             
 if
 quiet
@@ -6005,6 +6067,8 @@ each
 other
 .
 "
++
+check_errors
             
 )
     
@@ -8113,6 +8177,9 @@ subprocess
 .
 run
 (
+#
+noqa
+PLW1510
                 
 pip_command
 (
@@ -9841,6 +9908,8 @@ python
         
 )
         
+sys
+.
 exit
 (
 1
@@ -10547,6 +10616,10 @@ UTF
 -
 8
 "
+            
+check
+=
+False
         
 )
         
@@ -10834,6 +10907,10 @@ STDOUT
 text
 =
 True
+            
+check
+=
+False
         
 )
         
@@ -11319,6 +11396,10 @@ UTF
 -
 8
 "
+        
+check
+=
+False
     
 )
     
