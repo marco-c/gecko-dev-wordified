@@ -143,15 +143,6 @@ h
 #
 include
 "
-mozilla
-/
-FunctionRef
-.
-h
-"
-#
-include
-"
 nsRefPtrHashtable
 .
 h
