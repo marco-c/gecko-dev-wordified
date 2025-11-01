@@ -540,6 +540,9 @@ const
 uint32_t
 ColumnNumber
 (
+JSContext
+*
+aCx
 )
 const
 ;
