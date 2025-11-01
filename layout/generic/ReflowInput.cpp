@@ -937,9 +937,9 @@ aFrame
 gfxContext
 *
 aRenderingContext
-AnchorPosReferenceData
+AnchorPosResolutionCache
 *
-aAnchorPosReferenceData
+aAnchorPosResolutionCache
 )
 :
 mFrame
@@ -950,9 +950,9 @@ mRenderingContext
 (
 aRenderingContext
 )
-mAnchorPosReferenceData
+mAnchorPosResolutionCache
 (
-aAnchorPosReferenceData
+aAnchorPosResolutionCache
 )
 mWritingMode
 (
@@ -1404,9 +1404,9 @@ StyleSizeOverrides
 aSizeOverrides
 ComputeSizeFlags
 aComputeSizeFlags
-AnchorPosReferenceData
+AnchorPosResolutionCache
 *
-aAnchorPosReferenceData
+aAnchorPosResolutionCache
 )
 :
 SizeComputationInput
@@ -1415,7 +1415,7 @@ aFrame
 aParentReflowInput
 .
 mRenderingContext
-aAnchorPosReferenceData
+aAnchorPosResolutionCache
 )
 mParentReflowInput
 (
@@ -1663,8 +1663,9 @@ Don
 t
 add
 to
-referenced
-anchors
+anchor
+resolution
+cache
 since
 this
 function
@@ -2806,7 +2807,7 @@ AnchorPosResolutionParams
 From
 (
 mFrame
-mAnchorPosReferenceData
+mAnchorPosResolutionCache
 )
 )
 mFrame
@@ -4042,8 +4043,9 @@ don
 t
 add
 to
-referenced
-anchors
+anchor
+resolution
+cache
 const
 auto
 containingBlkAnchorResolutionParams
@@ -23200,7 +23202,7 @@ AnchorPosResolutionParams
 From
 (
 mFrame
-mAnchorPosReferenceData
+mAnchorPosResolutionCache
 )
 ;
 for
