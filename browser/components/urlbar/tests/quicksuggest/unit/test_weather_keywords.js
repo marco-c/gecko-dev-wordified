@@ -1937,9 +1937,6 @@ GeolocationTestUtils
 .
 stubGeolocation
 (
-GeolocationTestUtils
-.
-SAN_FRANCISCO
 )
 ;
 let
@@ -2585,9 +2582,6 @@ GeolocationTestUtils
 .
 stubGeolocation
 (
-GeolocationTestUtils
-.
-SAN_FRANCISCO
 )
 ;
 let
