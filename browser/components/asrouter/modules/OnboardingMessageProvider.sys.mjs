@@ -3489,12 +3489,12 @@ screen_style
 width
 :
 "
-664px
+764px
 "
 height
 :
 "
-620px
+650px
 "
 }
 logo
