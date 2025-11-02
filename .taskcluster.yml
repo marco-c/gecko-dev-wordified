@@ -2395,7 +2395,7 @@ let
 :
 extraArgs
 :
-switch
+if
 :
 '
 tasks_for
@@ -2405,6 +2405,7 @@ tasks_for
 cron
 "
 '
+then
 :
 '
 {
@@ -2413,6 +2414,10 @@ cron
 quoted_args
 }
 '
+else
+:
+if
+:
 '
 repository
 .
@@ -2427,6 +2432,7 @@ try
 "
 ]
 '
+then
 :
 '
 -
@@ -2435,7 +2441,7 @@ no
 -
 verify
 '
-default
+else
 :
 '
 '
