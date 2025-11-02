@@ -3780,11 +3780,8 @@ SubmitFrame
 (
 )
 {
-AUTO_PROFILER_TRACING_MARKER
+AUTO_PROFILER_MARKER
 (
-"
-VR
-"
 "
 SubmitFrameAtVRDisplay
 "
