@@ -34490,7 +34490,7 @@ baseprofiler
 AddMarker
 (
 "
-tracing
+stackmarker
 "
 mozilla
 :
@@ -34513,12 +34513,9 @@ baseprofiler
 markers
 :
 :
-Tracing
+StackMarker
 {
 }
-"
-category
-"
 )
 )
 ;
@@ -35401,7 +35398,7 @@ name
 :
 \
 "
-tracing
+StackMarker
 \
 "
 "
@@ -39636,7 +39633,7 @@ std
 string_view
 (
 "
-tracing
+stackmarker
 "
 )
 mozilla
@@ -39660,12 +39657,9 @@ baseprofiler
 markers
 :
 :
-Tracing
+StackMarker
 {
 }
-"
-category
-"
 )
 )
 ;

@@ -15039,11 +15039,8 @@ B
 )
 ;
 {
-AUTO_PROFILER_TRACING_MARKER
+AUTO_PROFILER_MARKER
 (
-"
-C
-"
 "
 auto
 tracing
