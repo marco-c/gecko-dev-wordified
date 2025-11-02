@@ -31020,7 +31020,10 @@ aChild
 nsCSSFrameConstructor
 :
 :
-REMOVE_CONTENT
+RemovalKind
+:
+:
+Dom
 )
 ;
 /
