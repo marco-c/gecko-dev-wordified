@@ -1354,8 +1354,11 @@ uint64_t
 aFwdTransactionId
 )
 {
-AUTO_PROFILER_MARKER
+AUTO_PROFILER_TRACING_MARKER
 (
+"
+Paint
+"
 "
 ImageBridgeTransaction
 "
