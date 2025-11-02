@@ -5573,7 +5573,6 @@ TopBottom
 {
 *
 aHeight
-<
 =
 mClientMargin
 .
