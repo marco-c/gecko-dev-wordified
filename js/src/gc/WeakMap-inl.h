@@ -1747,6 +1747,12 @@ gc
 isSymbolReferencedByUncollectedZone
 (
 sym
+marker
+-
+>
+markColor
+(
+)
 )
 )
 {
