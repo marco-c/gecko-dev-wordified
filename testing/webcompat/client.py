@@ -11578,9 +11578,20 @@ s
 opacity
 )
 )
-;
                   
-return
+d
+=
+s
+.
+display
+=
+=
+=
+"
+contents
+"
+|
+|
 e
 .
 getClientRects
@@ -11590,6 +11601,10 @@ getClientRects
 length
 >
 0
+;
+                  
+return
+d
 &
 &
 v
