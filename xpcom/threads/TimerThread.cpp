@@ -5452,12 +5452,12 @@ mNotified
 false
 ;
 {
-AUTO_PROFILER_MARKER
+AUTO_PROFILER_TRACING_MARKER
 (
 "
 TimerThread
-:
-:
+"
+"
 Wait
 "
 OTHER

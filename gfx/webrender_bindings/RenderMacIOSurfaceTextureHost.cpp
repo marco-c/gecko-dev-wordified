@@ -855,8 +855,11 @@ Now
 (
 )
 ;
-AUTO_PROFILER_MARKER
+AUTO_PROFILER_TRACING_MARKER
 (
+"
+WebRender
+"
 "
 Lock
 MacIOSurfaceTexture
