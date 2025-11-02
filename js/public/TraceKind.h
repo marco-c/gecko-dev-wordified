@@ -736,7 +736,7 @@ JS
 :
 Symbol
 true
-false
+true
 )
 \
 D
