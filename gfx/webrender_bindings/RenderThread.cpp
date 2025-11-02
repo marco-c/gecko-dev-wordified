@@ -5322,6 +5322,9 @@ aWindowId
 AutoProfilerTracing
 tracingCompositeMarker
 (
+"
+Paint
+"
 markerName
 .
 c_str
