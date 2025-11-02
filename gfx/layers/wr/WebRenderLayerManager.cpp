@@ -2226,11 +2226,8 @@ bool
 aRenderOffscreen
 )
 {
-AUTO_PROFILER_TRACING_MARKER
+AUTO_PROFILER_MARKER
 (
-"
-Paint
-"
 "
 WrDisplayList
 "
@@ -3135,11 +3132,8 @@ EndCanvasTransaction
 )
 ;
 {
-AUTO_PROFILER_TRACING_MARKER
+AUTO_PROFILER_MARKER
 (
-"
-Paint
-"
 "
 ForwardDPTransaction
 "

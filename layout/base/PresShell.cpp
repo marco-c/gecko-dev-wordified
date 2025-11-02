@@ -41323,11 +41323,8 @@ mLastTargetGuid
 nsEventStatus_eIgnore
 )
 ;
-AUTO_PROFILER_TRACING_MARKER_DOCSHELL
+AUTO_PROFILER_MARKER_DOCSHELL
 (
-"
-Paint
-"
 "
 DispatchSynthMouseOrPointerMove
 "
@@ -71261,9 +71258,6 @@ WindowID
 AutoProfilerTracing
 tracingLayoutFlush
 (
-"
-Paint
-"
 aInterruptible
 ?
 "

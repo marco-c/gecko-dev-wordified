@@ -13160,11 +13160,8 @@ torn
 down
 already
 }
-AUTO_PROFILER_TRACING_MARKER_INNERWINDOWID
+AUTO_PROFILER_MARKER_INNERWINDOWID
 (
-"
-Paint
-"
 "
 requestVideoFrame
 callbacks
@@ -13588,11 +13585,8 @@ torn
 down
 already
 }
-AUTO_PROFILER_TRACING_MARKER_INNERWINDOWID
+AUTO_PROFILER_MARKER_INNERWINDOWID
 (
-"
-Paint
-"
 "
 requestAnimationFrame
 callbacks
