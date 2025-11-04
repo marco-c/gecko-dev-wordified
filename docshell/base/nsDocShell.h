@@ -3378,6 +3378,11 @@ EnsureDocumentViewer
 (
 )
 ;
+void
+DestroyDocumentViewer
+(
+)
+;
 /
 /
 aPrincipal
