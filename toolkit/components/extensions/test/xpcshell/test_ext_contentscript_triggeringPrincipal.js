@@ -1369,7 +1369,7 @@ type
 of
 the
 {
-see
+link
 createElement
 }
 function
@@ -1456,7 +1456,7 @@ as
 understood
 by
 {
-see
+link
 getElementData
 }
 but
@@ -1553,7 +1553,7 @@ as
 passed
 to
 {
-see
+link
 getElementData
 }
 .
@@ -1571,7 +1571,7 @@ as
 passed
 to
 {
-see
+link
 getElementData
 }
 .
@@ -1995,7 +1995,7 @@ as
 accepted
 by
 {
-see
+link
 getElementData
 }
 *
@@ -2019,7 +2019,7 @@ as
 passed
 to
 {
-see
+link
 getElementData
 }
 .
@@ -2037,7 +2037,7 @@ as
 passed
 to
 {
-see
+link
 getElementData
 }
 .
@@ -3922,7 +3922,7 @@ as
 understood
 by
 {
-see
+link
 getElementData
 }
 .
@@ -3941,7 +3941,7 @@ as
 understood
 by
 {
-see
+link
 getElementData
 }
 *
@@ -5203,7 +5203,7 @@ true
 Stringifies
 the
 {
-see
+link
 injectElements
 }
 function
@@ -5237,7 +5237,7 @@ as
 understood
 by
 {
-see
+link
 getElementData
 }
 .
@@ -5256,7 +5256,7 @@ as
 understood
 by
 {
-see
+link
 getElementData
 }
 *
@@ -5664,7 +5664,7 @@ as
 understood
 by
 {
-see
+link
 getElementData
 }
 .
@@ -6557,7 +6557,7 @@ as
 returned
 by
 {
-see
+link
 computeBaseURLs
 }
 .
@@ -6978,7 +6978,7 @@ as
 returned
 by
 {
-see
+link
 computeBaseURLs
 }
 .
@@ -7362,7 +7362,7 @@ understood
 by
 *
 {
-see
+link
 getElementData
 }
 .
