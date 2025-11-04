@@ -367,7 +367,7 @@ PropertyTest
 :
 sTaskQueue
 ;
-MOZ_RUNINIT
+MOZ_CONSTINIT
 UniquePtr
 <
 VideoInfo
@@ -377,7 +377,7 @@ PropertyTest
 :
 sAVCInfo
 ;
-MOZ_RUNINIT
+MOZ_CONSTINIT
 UniquePtr
 <
 VideoInfo

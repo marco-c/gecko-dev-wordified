@@ -932,7 +932,7 @@ nullptr
 )
 ;
 }
-MOZ_RUNINIT
+MOZ_CONSTINIT
 Bootstrap
 :
 :

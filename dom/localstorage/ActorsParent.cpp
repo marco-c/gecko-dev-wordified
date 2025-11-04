@@ -16798,7 +16798,7 @@ actually
 goes
 away
 .
-MOZ_RUNINIT
+MOZ_CONSTINIT
 UniquePtr
 <
 PrivateDatastoreHashtable

@@ -1021,7 +1021,7 @@ MFShutdown
 (
 )
 ;
-MOZ_RUNINIT
+MOZ_CONSTINIT
 static
 inline
 UniquePtr

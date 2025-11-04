@@ -145,7 +145,7 @@ using
 namespace
 mozilla
 ;
-MOZ_RUNINIT
+MOZ_CONSTINIT
 static
 mozilla
 :
