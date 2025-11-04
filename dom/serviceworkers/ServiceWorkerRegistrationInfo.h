@@ -536,8 +536,6 @@ const
 nsACString
 &
 aScope
-WorkerType
-aType
 nsIPrincipal
 *
 aPrincipal
@@ -603,12 +601,6 @@ const
 nsCString
 &
 Scope
-(
-)
-const
-;
-WorkerType
-Type
 (
 )
 const
@@ -1200,12 +1192,10 @@ GetUpdateViaCache
 const
 ;
 void
-SetOptions
+SetUpdateViaCache
 (
 ServiceWorkerUpdateViaCache
 aUpdateViaCache
-WorkerType
-aType
 )
 ;
 int64_t
@@ -1350,8 +1340,6 @@ UpdateRegistrationState
 (
 ServiceWorkerUpdateViaCache
 aUpdateViaCache
-WorkerType
-aType
 )
 ;
 /

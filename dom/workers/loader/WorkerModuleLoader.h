@@ -749,14 +749,6 @@ ModuleType
 CSS
 ;
 }
-virtual
-bool
-IsForServiceWorker
-(
-)
-const
-override
-;
 }
 ;
 }
