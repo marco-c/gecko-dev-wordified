@@ -1392,9 +1392,6 @@ UpdateCaretPositionFromSelectionIfNeeded
 (
 )
 ;
-nsWeakPtr
-mPresShell
-;
 mozilla
 :
 :
