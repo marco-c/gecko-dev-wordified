@@ -208,7 +208,7 @@ DrawTarget
 aDrawTarget
 uint32_t
 aGlyphID
-gfxRect
+nsRect
 *
 aExtents
 )
@@ -394,7 +394,7 @@ false
 *
 aExtents
 =
-gfxRect
+nsRect
 (
 entry
 -
@@ -844,7 +844,7 @@ SetTightGlyphExtents
 uint32_t
 aGlyphID
 const
-gfxRect
+nsRect
 &
 aExtentsAppUnits
 )

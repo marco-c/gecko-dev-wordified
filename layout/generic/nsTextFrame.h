@@ -1039,7 +1039,7 @@ aSpacing
 const
 final
 ;
-gfxFloat
+nscoord
 GetHyphenWidth
 (
 )
@@ -1644,11 +1644,11 @@ gfxFloat
 mMinTabAdvance
 ;
 mutable
-gfxFloat
+nscoord
 mHyphenWidth
 ;
 mutable
-gfxFloat
+nscoord
 mOffsetFromBlockOriginForTabs
 ;
 /
@@ -6070,6 +6070,7 @@ mozilla
 StyleSimpleShadow
 &
 aShadowDetails
+const
 gfxRect
 &
 aBoundingBox
