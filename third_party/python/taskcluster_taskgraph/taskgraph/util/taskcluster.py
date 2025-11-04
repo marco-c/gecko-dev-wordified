@@ -3178,14 +3178,9 @@ task_id
 )
         
 except
-(
-requests
-.
-HTTPError
 taskcluster
 .
 TaskclusterRestFailure
-)
 as
 e
 :
@@ -3216,43 +3211,6 @@ function
 .
             
 if
-isinstance
-(
-e
-requests
-.
-HTTPError
-)
-:
-                
-if
-e
-.
-response
-and
-e
-.
-response
-.
-status_code
-=
-=
-404
-:
-                    
-continue
-            
-elif
-isinstance
-(
-e
-taskcluster
-.
-TaskclusterRestFailure
-)
-:
-                
-if
 e
 .
 status_code
@@ -3260,7 +3218,7 @@ status_code
 =
 404
 :
-                    
+                
 continue
             
 raise
