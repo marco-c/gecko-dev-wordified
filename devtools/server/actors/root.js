@@ -1182,7 +1182,7 @@ backward
 compat
 {
 version
-144
+151
 }
 Process
 Descriptor
@@ -1246,15 +1246,15 @@ available
 /
 /
 ESR
-128
+115
 EOL
 is
 currently
 planned
 for
-September
-16
-2025
+March
+24
+2026
 .
 Do
 not
@@ -1265,7 +1265,7 @@ this
 trait
 before
 that
-data
+date
 AND
 make
 sure
