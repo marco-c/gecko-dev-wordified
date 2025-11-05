@@ -3850,10 +3850,6 @@ Init
 (
 )
 {
-LSPAnnotate
-(
-)
-;
 hal
 :
 :
@@ -3868,6 +3864,10 @@ XRE_IsParentProcess
 )
 )
 {
+LSPAnnotate
+(
+)
+;
 sTaskbarButtonCreatedMsg
 =
 :
