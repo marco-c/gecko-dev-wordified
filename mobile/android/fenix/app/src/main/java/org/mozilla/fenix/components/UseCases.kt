@@ -692,6 +692,9 @@ DownloadsUseCases
 store
 .
 value
+context
+.
+applicationContext
 )
 }
 val
@@ -949,6 +952,11 @@ engine
 value
 .
 profiler
+appStore
+=
+appStore
+.
+value
 )
 }
 val
