@@ -3136,8 +3136,9 @@ we
 create
 mWindowRenderer
 =
-new
-FallbackRenderer
+CreateFallbackRenderer
+(
+)
 ;
 return
 mWindowRenderer
