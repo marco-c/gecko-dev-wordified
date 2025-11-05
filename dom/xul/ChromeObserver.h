@@ -173,13 +173,12 @@ GetWindowWidget
 )
 ;
 void
-SetDrawsTitle
+SetHideTitlebarSeparator
 (
 bool
-aState
 )
 ;
-nsresult
+void
 HideWindowChrome
 (
 bool

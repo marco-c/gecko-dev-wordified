@@ -277,13 +277,6 @@ nsStringFwd
 h
 "
 #
-include
-"
-nsView
-.
-h
-"
-#
 ifdef
 MOZ_WAYLAND
 #

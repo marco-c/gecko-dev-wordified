@@ -347,13 +347,6 @@ nsPresContext
 .
 h
 "
-#
-include
-"
-nsViewManager
-.
-h
-"
 using
 namespace
 mozilla
