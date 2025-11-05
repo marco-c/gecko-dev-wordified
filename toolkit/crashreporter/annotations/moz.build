@@ -129,9 +129,4 @@ generate
 .
 py
 "
-entry_point
-=
-"
-emit_header
-"
 )
