@@ -1572,7 +1572,7 @@ given
 textrun
 .
 virtual
-nscoord
+gfxFloat
 GetHyphenWidth
 (
 )
@@ -2413,7 +2413,7 @@ width
 .
 *
 /
-nscoord
+gfxFloat
 GetAdvanceWidth
 (
 Range
@@ -2433,7 +2433,7 @@ nullptr
 )
 const
 ;
-nscoord
+gfxFloat
 GetAdvanceWidth
 (
 )
@@ -2472,7 +2472,7 @@ everywhere
 .
 *
 /
-nscoord
+gfxFloat
 GetMinAdvanceWidth
 (
 Range
@@ -5376,7 +5376,7 @@ never
 includes
 any
 spacing
-nscoord
+gfxFloat
 mPartAdvance
 ;
 /
@@ -5420,7 +5420,7 @@ end
 of
 the
 ligature
-nscoord
+gfxFloat
 mPartWidth
 ;
 bool
@@ -5995,7 +5995,7 @@ range
 of
 glyphs
 .
-nscoord
+int32_t
 GetAdvanceForGlyphs
 (
 Range
@@ -6171,7 +6171,7 @@ aProvider
 )
 const
 ;
-nscoord
+gfxFloat
 ComputePartialLigatureWidth
 (
 Range
@@ -6275,6 +6275,23 @@ ShrinkToLigatureBoundaries
 Range
 *
 aRange
+)
+const
+;
+/
+/
+result
+in
+appunits
+gfxFloat
+GetPartialLigatureWidth
+(
+Range
+aRange
+const
+PropertyProvider
+*
+aProvider
 )
 const
 ;
