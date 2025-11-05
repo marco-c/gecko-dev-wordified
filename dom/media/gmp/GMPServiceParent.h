@@ -901,6 +901,14 @@ override
 ;
 private
 :
+already_AddRefed
+<
+GMPParent
+>
+CreateGMPParent
+(
+)
+;
 /
 /
 Creates
