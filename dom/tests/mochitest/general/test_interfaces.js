@@ -3046,9 +3046,6 @@ CSSScopeRule
 insecureContext
 :
 true
-nightly
-:
-true
 }
 /
 /
