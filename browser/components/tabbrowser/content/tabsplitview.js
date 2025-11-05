@@ -216,6 +216,13 @@ TabSelect
 this
 )
 ;
+this
+.
+#
+observeTabChanges
+(
+)
+;
 if
 (
 this
@@ -238,13 +245,6 @@ textContent
 =
 "
 "
-;
-this
-.
-#
-observeTabChanges
-(
-)
 ;
 /
 /
