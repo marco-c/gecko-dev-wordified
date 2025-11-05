@@ -212,7 +212,7 @@ string
 namespace
 fuzzer
 {
-int
+void
 FuzzWithFork
 (
 Random
@@ -223,7 +223,10 @@ FuzzingOptions
 &
 Options
 const
-Vector
+std
+:
+:
+vector
 <
 std
 :
@@ -233,7 +236,10 @@ string
 &
 Args
 const
-Vector
+std
+:
+:
+vector
 <
 std
 :
