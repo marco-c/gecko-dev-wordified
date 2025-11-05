@@ -764,6 +764,12 @@ QueueCacheUpdateForDependentRelations
 LocalAccessible
 *
 aAcc
+const
+nsAttrValue
+*
+aOldId
+=
+nullptr
 )
 ;
 /
