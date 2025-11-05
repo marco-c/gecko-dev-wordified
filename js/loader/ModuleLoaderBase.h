@@ -2192,17 +2192,6 @@ return
 true
 ;
 }
-virtual
-bool
-IsForServiceWorker
-(
-)
-const
-{
-return
-false
-;
-}
 /
 /
 Called

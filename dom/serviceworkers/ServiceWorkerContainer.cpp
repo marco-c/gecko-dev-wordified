@@ -2092,9 +2092,6 @@ nsCString
 (
 cleanedScopeURL
 )
-aOptions
-.
-mType
 nsCString
 (
 cleanedScriptURL
