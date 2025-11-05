@@ -9833,9 +9833,12 @@ BasePrincipal
 CreateContentPrincipal
 (
 targetURI
-OriginAttributes
-{
-}
+traversable
+-
+>
+OriginAttributesRef
+(
+)
 )
 ;
 /
