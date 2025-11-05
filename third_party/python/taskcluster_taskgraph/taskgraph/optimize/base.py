@@ -2871,6 +2871,15 @@ values
 )
 )
         
+task
+.
+dependencies
+.
+update
+(
+named_task_dependencies
+)
+        
 tasks_by_taskid
 [
 task

@@ -450,6 +450,22 @@ deadline
 "
 soon
 "
+                
+"
+provisionerId
+"
+:
+"
+prov
+"
+                
+"
+workerType
+"
+:
+"
+linux
+"
             
 }
             
@@ -458,6 +474,24 @@ dependencies
 "
 :
 dependencies
+            
+"
+if
+-
+dependencies
+"
+:
+[
+]
+            
+"
+soft
+-
+dependencies
+"
+:
+[
+]
         
 }
         
@@ -1115,6 +1149,12 @@ enable_always_target
 "
 :
 False
+                
+"
+level
+"
+:
+1
                 
 "
 target_tasks_method
