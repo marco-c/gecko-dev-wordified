@@ -14747,6 +14747,7 @@ numPinned
 |
 newDropElementIndex
 >
+=
 numPinned
 )
 )

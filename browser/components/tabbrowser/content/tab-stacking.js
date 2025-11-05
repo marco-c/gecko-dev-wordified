@@ -6395,6 +6395,7 @@ numPinned
 |
 newDropElementIndex
 >
+=
 numPinned
 )
 )
