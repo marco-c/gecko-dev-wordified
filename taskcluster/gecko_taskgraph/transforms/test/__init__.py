@@ -1312,6 +1312,10 @@ xlarge
 -
 noscratch
 "
+                
+"
+highcpu
+"
             
 )
         
