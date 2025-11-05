@@ -56,12 +56,6 @@ MPL
 import
 json
 from
-mozsystemmonitor
-.
-resourcemonitor
-import
-SystemResourceMonitor
-from
 .
 .
 reader
@@ -113,6 +107,13 @@ __init__
 *
 kwargs
 )
+        
+from
+mozsystemmonitor
+.
+resourcemonitor
+import
+SystemResourceMonitor
         
 self
 .
@@ -260,7 +261,9 @@ name
 "
 )
         
-SystemResourceMonitor
+self
+.
+resources
 .
 begin_marker
 (
@@ -280,7 +283,9 @@ data
 )
 :
         
-SystemResourceMonitor
+self
+.
+resources
 .
 end_marker
 (
@@ -300,7 +305,9 @@ data
 )
 :
         
-SystemResourceMonitor
+self
+.
+resources
 .
 begin_marker
 (
@@ -323,7 +330,9 @@ data
 )
 :
         
-SystemResourceMonitor
+self
+.
+resources
 .
 end_marker
 (
@@ -346,7 +355,9 @@ data
 )
 :
         
-SystemResourceMonitor
+self
+.
+resources
 .
 begin_test
 (
@@ -361,7 +372,9 @@ data
 )
 :
         
-SystemResourceMonitor
+self
+.
+resources
 .
 end_test
 (
@@ -376,7 +389,9 @@ data
 )
 :
         
-SystemResourceMonitor
+self
+.
+resources
 .
 test_status
 (
@@ -391,7 +406,9 @@ data
 )
 :
         
-SystemResourceMonitor
+self
+.
+resources
 .
 test_status
 (
@@ -406,7 +423,9 @@ data
 )
 :
         
-SystemResourceMonitor
+self
+.
+resources
 .
 test_status
 (
@@ -421,7 +440,9 @@ data
 )
 :
         
-SystemResourceMonitor
+self
+.
+resources
 .
 crash
 (
