@@ -4888,7 +4888,7 @@ shown
 *
 /
 bool
-mHiddenPopupPositioned
+mX11HiddenPopupPositioned
 :
 1
 ;

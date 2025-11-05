@@ -2744,7 +2744,7 @@ mPopupTrackInHierarchyConfigured
 (
 false
 )
-mHiddenPopupPositioned
+mX11HiddenPopupPositioned
 (
 false
 )
@@ -45514,7 +45514,7 @@ mShell
 )
 )
 {
-mHiddenPopupPositioned
+mX11HiddenPopupPositioned
 =
 true
 ;
@@ -46453,12 +46453,7 @@ endif
 }
 if
 (
-mHiddenPopupPositioned
-&
-&
-IsPopup
-(
-)
+mX11HiddenPopupPositioned
 )
 {
 LOG
@@ -46499,7 +46494,7 @@ mPopupPosition
 y
 )
 ;
-mHiddenPopupPositioned
+mX11HiddenPopupPositioned
 =
 false
 ;
