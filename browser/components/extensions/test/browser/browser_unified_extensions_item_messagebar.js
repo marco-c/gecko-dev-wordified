@@ -888,7 +888,7 @@ item
 -
 messagebar
 -
-softblocked2
+softblocked
 "
 expectFluentArgs
 :
@@ -1052,7 +1052,7 @@ item
 -
 messagebar
 -
-softblocked2
+softblocked
 "
 expectFluentArgs
 :
@@ -1215,7 +1215,7 @@ item
 -
 messagebar
 -
-softblocked2
+softblocked
 "
 expectFluentArgs
 :
