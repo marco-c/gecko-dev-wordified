@@ -23363,6 +23363,13 @@ remove
 ;
 }
 }
+mWordCache
+-
+>
+compact
+(
+)
+;
 return
 mWordCache
 -

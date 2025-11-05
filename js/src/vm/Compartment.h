@@ -1636,6 +1636,12 @@ removeFront
 ;
 }
 }
+map
+.
+compact
+(
+)
+;
 }
 }
 ;

@@ -1792,6 +1792,15 @@ remove
 ;
 }
 }
+registrations
+(
+)
+-
+>
+compact
+(
+)
+;
 }
 /
 *
