@@ -3692,7 +3692,11 @@ Nimbus
 policy
 "
 "
-managedProfiles
+sanitizeOnShutdown
+"
+"
+selectable
+profiles
 "
 .
 bugs
