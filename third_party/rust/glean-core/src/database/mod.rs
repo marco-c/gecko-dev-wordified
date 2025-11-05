@@ -1238,6 +1238,10 @@ phases
 of
 loading
 .
+pub
+(
+crate
+)
 load_sizes
 :
 Option

@@ -1147,7 +1147,8 @@ glean_core
 :
 :
 Glean
-.
+:
+:
 submit_ping_by_name
 ]
 .

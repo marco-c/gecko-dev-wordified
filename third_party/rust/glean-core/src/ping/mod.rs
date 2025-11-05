@@ -1688,9 +1688,6 @@ headers
 to
 send
 .
-/
-/
-/
 fn
 get_headers
 (
