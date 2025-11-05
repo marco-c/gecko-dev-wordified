@@ -9657,14 +9657,9 @@ matches
 .
 ruleview
 -
-header
+rule
 -
 inherited
-~
-.
-ruleview
--
-rule
 "
 )
 ;

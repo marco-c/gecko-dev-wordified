@@ -9882,13 +9882,6 @@ classList
 add
 (
 RULE_VIEW_HEADER_CLASSNAME
-"
-ruleview
--
-header
--
-inherited
-"
 )
 ;
 div
