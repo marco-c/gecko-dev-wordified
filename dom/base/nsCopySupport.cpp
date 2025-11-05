@@ -964,11 +964,6 @@ OutputSelectionOnly
 nsIDocumentEncoder
 :
 :
-OutputForPlainTextClipboardCopy
-|
-nsIDocumentEncoder
-:
-:
 OutputAbsoluteLinks
 |
 nsIDocumentEncoder
