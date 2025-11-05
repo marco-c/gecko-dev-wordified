@@ -90,7 +90,7 @@ str
 /
 /
 static
-REPORT_ANNOTATIONS
+ALL_REPORT_ANNOTATIONS
 :
 phf
 :
@@ -190,15 +190,7 @@ str
 >
 bool
 {
-REPORT_ANNOTATIONS
-.
-contains
-(
-annotation
-)
-|
-|
-PING_ANNOTATIONS
+ALL_REPORT_ANNOTATIONS
 .
 contains
 (
