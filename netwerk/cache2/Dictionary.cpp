@@ -10308,6 +10308,11 @@ Write
 (
 )
 .
+if
+(
+mEntry
+)
+{
 mEntries
 [
 i
@@ -10319,6 +10324,7 @@ RemoveEntry
 mEntry
 )
 ;
+}
 mEntries
 .
 RemoveElementAt
