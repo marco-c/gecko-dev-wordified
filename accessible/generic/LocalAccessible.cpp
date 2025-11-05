@@ -17748,6 +17748,9 @@ GetContent
 if
 (
 anchorAcc
+&
+&
+anchorAcc
 -
 >
 GetAnchorPositionTargetDetailsRelation
