@@ -245,13 +245,6 @@ nsLayoutUtils
 .
 h
 "
-#
-include
-"
-nsView
-.
-h
-"
 using
 namespace
 mozilla

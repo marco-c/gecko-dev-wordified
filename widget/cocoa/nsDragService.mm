@@ -248,13 +248,6 @@ h
 #
 include
 "
-nsView
-.
-h
-"
-#
-include
-"
 nsCocoaUtils
 .
 h

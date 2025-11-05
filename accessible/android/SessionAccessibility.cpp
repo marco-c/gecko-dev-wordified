@@ -187,13 +187,6 @@ h
 #
 include
 "
-nsViewManager
-.
-h
-"
-#
-include
-"
 mozilla
 /
 PresShell

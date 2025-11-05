@@ -409,13 +409,6 @@ h
 #
 include
 "
-nsViewManager
-.
-h
-"
-#
-include
-"
 nsIFrame
 .
 h

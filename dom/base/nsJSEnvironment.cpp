@@ -795,13 +795,6 @@ h
 #
 include
 "
-nsViewManager
-.
-h
-"
-#
-include
-"
 prthread
 .
 h

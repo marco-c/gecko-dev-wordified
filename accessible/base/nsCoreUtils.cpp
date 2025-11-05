@@ -267,13 +267,6 @@ h
 #
 include
 "
-nsView
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h

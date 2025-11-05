@@ -394,13 +394,6 @@ nsString
 .
 h
 "
-#
-include
-"
-nsView
-.
-h
-"
 static
 mozilla
 :

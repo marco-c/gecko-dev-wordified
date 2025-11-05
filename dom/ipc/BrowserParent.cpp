@@ -917,13 +917,6 @@ nsVariant
 h
 "
 #
-include
-"
-nsViewManager
-.
-h
-"
-#
 ifndef
 XP_WIN
 #

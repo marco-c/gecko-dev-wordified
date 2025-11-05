@@ -696,13 +696,6 @@ h
 #
 include
 "
-nsViewManager
-.
-h
-"
-#
-include
-"
 nsXULPopupManager
 .
 h

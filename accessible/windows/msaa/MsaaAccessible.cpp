@@ -233,13 +233,6 @@ h
 #
 include
 "
-nsViewManager
-.
-h
-"
-#
-include
-"
 nsWinUtils
 .
 h
