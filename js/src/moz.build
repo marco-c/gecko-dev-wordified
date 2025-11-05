@@ -4482,6 +4482,15 @@ fstandalone
 debug
 "
 ]
+CXXFLAGS
++
+=
+CONFIG
+[
+"
+MOZ_ZLIB_CFLAGS
+"
+]
 #
 Bug
 1722102
