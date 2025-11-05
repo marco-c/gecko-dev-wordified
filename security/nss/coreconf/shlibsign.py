@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python2
+python3
 #
 #
 This

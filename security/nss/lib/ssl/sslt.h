@@ -1276,6 +1276,12 @@ ssl_grp_ffdhe_6144
 ssl_grp_ffdhe_8192
 =
 260
+ssl_grp_kem_secp256r1mlkem768
+=
+4587
+ssl_grp_kem_secp384r1mlkem1024
+=
+4589
 ssl_grp_kem_mlkem768x25519
 =
 4588

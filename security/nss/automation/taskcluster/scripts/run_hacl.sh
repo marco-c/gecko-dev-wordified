@@ -801,6 +801,8 @@ krmllib
 /
 dist
 /
+minimal
+/
 {
 LIBCRUX
 }

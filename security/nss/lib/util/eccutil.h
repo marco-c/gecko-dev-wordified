@@ -66,6 +66,14 @@ _FREEBL_H_
 define
 X25519_PUBLIC_KEY_BYTES
 32U
+#
+define
+SECP256_PUBLIC_KEY_BYTES
+65U
+#
+define
+SECP384_PUBLIC_KEY_BYTES
+97U
 /
 *
 deprecated
