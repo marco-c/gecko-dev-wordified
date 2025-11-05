@@ -282,6 +282,9 @@ selector
 "
 element
 "
+inherited
+:
+true
 declarations
 :
 [
@@ -325,6 +328,9 @@ selector
 "
 element
 "
+inherited
+:
+true
 declarations
 :
 [
@@ -368,6 +374,9 @@ selector
 "
 element
 "
+inherited
+:
+true
 declarations
 :
 [

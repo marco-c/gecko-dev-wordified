@@ -305,6 +305,9 @@ selector
 ancestorRulesData
 :
 null
+inherited
+:
+true
 declarations
 :
 [
@@ -338,6 +341,9 @@ body
 ancestorRulesData
 :
 null
+inherited
+:
+true
 declarations
 :
 [
@@ -563,6 +569,9 @@ selector
 ancestorRulesData
 :
 null
+inherited
+:
+true
 declarations
 :
 [
@@ -596,6 +605,9 @@ body
 ancestorRulesData
 :
 null
+inherited
+:
+true
 declarations
 :
 [
@@ -849,6 +861,9 @@ selector
 ancestorRulesData
 :
 null
+inherited
+:
+true
 declarations
 :
 [
@@ -882,6 +897,9 @@ body
 ancestorRulesData
 :
 null
+inherited
+:
+true
 declarations
 :
 [
@@ -1070,6 +1088,9 @@ selector
 ancestorRulesData
 :
 null
+inherited
+:
+true
 declarations
 :
 [
@@ -1103,6 +1124,9 @@ body
 ancestorRulesData
 :
 null
+inherited
+:
+true
 declarations
 :
 [
@@ -1270,6 +1294,9 @@ selector
 ancestorRulesData
 :
 null
+inherited
+:
+true
 declarations
 :
 [
@@ -1303,6 +1330,9 @@ body
 ancestorRulesData
 :
 null
+inherited
+:
+true
 declarations
 :
 [
