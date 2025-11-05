@@ -726,7 +726,7 @@ false
 .
 return
 aModuleType
-!
+=
 =
 JS
 :
@@ -734,11 +734,11 @@ JS
 ModuleType
 :
 :
-Unknown
-&
-&
+JavaScript
+|
+|
 aModuleType
-!
+=
 =
 JS
 :
@@ -746,7 +746,7 @@ JS
 ModuleType
 :
 :
-CSS
+JSON
 ;
 }
 }
