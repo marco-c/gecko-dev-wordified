@@ -190,6 +190,10 @@ nsACString
 &
 aScopeURL
 const
+WorkerType
+&
+aType
+const
 nsACString
 &
 aScriptURL

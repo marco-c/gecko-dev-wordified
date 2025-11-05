@@ -2521,6 +2521,12 @@ Scope
 mRegistration
 -
 >
+Type
+(
+)
+mRegistration
+-
+>
 Id
 (
 )
