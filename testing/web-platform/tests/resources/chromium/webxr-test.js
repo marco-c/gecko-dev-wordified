@@ -14782,6 +14782,7 @@ syncToken
 submitFrameDrawnIntoTexture
 (
 frameId
+layer_ids
 syncToken
 timeWaited
 )
