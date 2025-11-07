@@ -186,6 +186,10 @@ alert_threshold
 "
     
 "
+subtest_alert_threshold
+"
+    
+"
 apps
 "
     
@@ -537,6 +541,22 @@ type
 =
 "
 scenario
+"
+:
+            
+continue
+        
+#
+subtest_alert_threshold
+is
+optional
+        
+if
+setting
+=
+=
+"
+subtest_alert_threshold
 "
 :
             
