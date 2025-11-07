@@ -19,6 +19,11 @@ support
 promises
 .
 js
+'
+use
+strict
+'
+;
 /
 /
 This
@@ -418,6 +423,7 @@ objectStore
 transactionMode
 )
 ;
+const
 cursor
 =
 txn

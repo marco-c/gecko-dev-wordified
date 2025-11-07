@@ -41,7 +41,8 @@ promises
 .
 js
 '
-use_strict
+use
+strict
 '
 ;
 promise_test

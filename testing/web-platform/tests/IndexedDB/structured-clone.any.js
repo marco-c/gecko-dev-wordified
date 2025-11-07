@@ -105,6 +105,11 @@ variant
 101
 -
 last
+'
+use
+strict
+'
+;
 /
 /
 Tests

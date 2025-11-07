@@ -15,6 +15,11 @@ the
 given
 ID
 .
+'
+use
+strict
+'
+;
 function
 nameForId
 (

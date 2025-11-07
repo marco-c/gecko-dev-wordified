@@ -84,7 +84,8 @@ timeout
 =
 long
 '
-use_strict
+use
+strict
 '
 ;
 index_get_all_keys_with_options_test

@@ -49,6 +49,11 @@ resources
 util
 .
 js
+'
+use
+strict
+'
+;
 promise_test
 (
 async

@@ -19,6 +19,11 @@ resources
 support
 .
 js
+'
+use
+strict
+'
+;
 let
 key
 =

@@ -80,7 +80,8 @@ timeout
 =
 long
 '
-use_strict
+use
+strict
 '
 ;
 index_get_all_records_test

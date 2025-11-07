@@ -59,7 +59,8 @@ intel
 com
 >
 '
-use_strict
+use
+strict
 '
 ;
 async_test
@@ -1751,6 +1752,7 @@ e
 let
 rq
 ;
+const
 db
 =
 e

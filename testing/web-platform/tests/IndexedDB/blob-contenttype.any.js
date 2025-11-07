@@ -25,6 +25,11 @@ META
 timeout
 =
 long
+'
+use
+strict
+'
+;
 indexeddb_test
 (
 function

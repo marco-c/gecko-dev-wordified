@@ -53,7 +53,8 @@ and
 credits
 .
 '
-use_strict
+use
+strict
 '
 ;
 indexeddb_test

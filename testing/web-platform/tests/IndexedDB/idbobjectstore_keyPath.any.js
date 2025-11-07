@@ -23,6 +23,11 @@ resources
 support
 .
 js
+'
+use
+strict
+'
+;
 indexeddb_test
 (
 (

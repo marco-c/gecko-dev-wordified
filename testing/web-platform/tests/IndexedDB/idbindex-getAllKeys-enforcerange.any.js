@@ -55,6 +55,11 @@ index
 -
 interface
 "
+'
+use
+strict
+'
+;
 indexeddb_test
 (
 (

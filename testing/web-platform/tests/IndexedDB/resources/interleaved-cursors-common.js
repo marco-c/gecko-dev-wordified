@@ -13,6 +13,11 @@ large
 }
 .
 html
+'
+use
+strict
+'
+;
 /
 /
 Number

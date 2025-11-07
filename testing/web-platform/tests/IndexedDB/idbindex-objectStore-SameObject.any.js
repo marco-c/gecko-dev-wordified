@@ -51,6 +51,11 @@ idbindex
 -
 objectstore
 "
+'
+use
+strict
+'
+;
 indexeddb_test
 (
 (

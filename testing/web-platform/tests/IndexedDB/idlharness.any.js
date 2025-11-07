@@ -37,6 +37,11 @@ META
 timeout
 =
 long
+'
+use
+strict
+'
+;
 idl_test
 (
 [

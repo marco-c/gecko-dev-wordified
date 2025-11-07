@@ -19,6 +19,11 @@ resources
 support
 .
 js
+'
+use
+strict
+'
+;
 let
 key
 =
@@ -114,6 +119,7 @@ plain
 }
 )
 ;
+const
 value
 =
 {
@@ -162,10 +168,6 @@ put
 value
 key
 )
-;
-value
-=
-null
 ;
 const
 trans

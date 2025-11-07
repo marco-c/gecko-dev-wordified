@@ -23,6 +23,11 @@ support
 promises
 .
 js
+'
+use
+strict
+'
+;
 /
 /
 This

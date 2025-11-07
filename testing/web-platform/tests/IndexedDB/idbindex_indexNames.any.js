@@ -27,7 +27,8 @@ support
 .
 js
 '
-use_strict
+use
+strict
 '
 ;
 async_test

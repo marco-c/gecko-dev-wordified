@@ -29,6 +29,11 @@ resources
 support
 .
 js
+'
+use
+strict
+'
+;
 /
 /
 Spec

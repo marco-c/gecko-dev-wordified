@@ -9,6 +9,11 @@ resources
 support
 .
 js
+'
+use
+strict
+'
+;
 function
 cursorRequestTest
 (

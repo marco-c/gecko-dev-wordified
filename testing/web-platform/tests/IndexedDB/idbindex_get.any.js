@@ -59,7 +59,8 @@ intel
 com
 >
 '
-use_strict
+use
+strict
 '
 ;
 async_test

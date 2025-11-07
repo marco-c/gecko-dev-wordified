@@ -11,6 +11,11 @@ support
 promises
 .
 js
+'
+use
+strict
+'
+;
 setup
 (
 {

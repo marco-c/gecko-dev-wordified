@@ -36,6 +36,11 @@ autoincrement
 common
 .
 js
+'
+use
+strict
+'
+;
 promise_test
 (
 async

@@ -44,7 +44,8 @@ opera
 com
 >
 '
-use_strict
+use
+strict
 '
 ;
 function

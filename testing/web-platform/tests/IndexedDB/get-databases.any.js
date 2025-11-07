@@ -11,6 +11,11 @@ support
 promises
 .
 js
+'
+use
+strict
+'
+;
 promise_test
 (
 async
@@ -479,6 +484,7 @@ i
 1
 )
 {
+const
 result
 =
 expected_result
