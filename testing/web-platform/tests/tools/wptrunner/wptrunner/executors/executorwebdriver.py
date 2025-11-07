@@ -5711,11 +5711,8 @@ self
 .
 webdriver
 .
-switch_frame
+switch_to_parent_frame
 (
-"
-parent
-"
 )
 class
 WebDriverGenerateTestReportProtocolPart
