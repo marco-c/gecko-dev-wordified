@@ -8605,6 +8605,19 @@ in
 incremental
 GC
 .
+if
+(
+markColor
+(
+)
+=
+=
+MarkColor
+:
+:
+Black
+)
+{
 GCRuntime
 *
 gc
@@ -8652,6 +8665,7 @@ zone
 target
 )
 ;
+}
 }
 checkTraversedEdge
 (
