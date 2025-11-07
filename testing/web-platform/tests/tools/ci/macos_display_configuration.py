@@ -1109,6 +1109,12 @@ action
 store_false
 "
         
+dest
+=
+"
+color_profile
+"
+        
 help
 =
 "
@@ -1141,6 +1147,12 @@ action
 =
 "
 store_false
+"
+        
+dest
+=
+"
+display_mode
 "
         
 help
@@ -1248,11 +1260,10 @@ dry_run
 ]
     
 if
-not
 kwargs
 [
 "
-no_color_profile
+color_profile
 "
 ]
 :
@@ -1266,11 +1277,10 @@ dry_run
 )
     
 if
-not
 kwargs
 [
 "
-no_display_mode
+display_mode
 "
 ]
 :
