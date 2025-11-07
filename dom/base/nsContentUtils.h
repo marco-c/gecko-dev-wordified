@@ -18409,12 +18409,12 @@ given
 MIME
 type
 string
-is
+has
 a
-valid
 CSS
 MIME
 type
+essence
 *
 otherwise
 false
@@ -18423,7 +18423,7 @@ false
 /
 static
 bool
-IsCssMimeType
+HasCssMimeTypeEssence
 (
 const
 nsAString
