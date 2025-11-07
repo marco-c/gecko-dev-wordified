@@ -2226,9 +2226,11 @@ lir
 mod
 )
 ;
+return
+;
 }
 }
-LModI
+auto
 *
 lir
 =
@@ -4224,7 +4226,7 @@ MMod
 mod
 )
 {
-LUMod
+auto
 *
 lir
 =
@@ -4241,9 +4243,8 @@ useRegister
 mod
 -
 >
-getOperand
+lhs
 (
-0
 )
 )
 useRegister
@@ -4251,9 +4252,8 @@ useRegister
 mod
 -
 >
-getOperand
+rhs
 (
-1
 )
 )
 )
