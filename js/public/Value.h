@@ -8278,6 +8278,15 @@ JS
 :
 Value
 >
+:
+public
+GCPolicyBase
+<
+JS
+:
+:
+Value
+>
 {
 static
 void
