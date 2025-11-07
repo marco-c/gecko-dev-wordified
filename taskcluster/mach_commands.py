@@ -1568,6 +1568,43 @@ setup_logging
 command_context
 )
         
+in_automation
+=
+os
+.
+environ
+.
+get
+(
+"
+MOZ_AUTOMATION
+"
+)
+=
+=
+"
+1
+"
+        
+moz_upload_dir
+=
+os
+.
+environ
+.
+get
+(
+"
+MOZ_UPLOAD_DIR
+"
+)
+        
+if
+in_automation
+and
+moz_upload_dir
+:
+            
 monitor
 =
 SystemResourceMonitor
@@ -1578,7 +1615,7 @@ poll_interval
 .
 1
 )
-        
+            
 monitor
 .
 start
@@ -1616,21 +1653,7 @@ monotonic
 )
         
 if
-os
-.
-environ
-.
-get
-(
-"
-MOZ_AUTOMATION
-"
-)
-=
-=
-"
-1
-"
+in_automation
 :
             
 perfherder_data
@@ -1725,19 +1748,6 @@ stderr
             
 )
             
-moz_upload_dir
-=
-os
-.
-environ
-.
-get
-(
-"
-MOZ_UPLOAD_DIR
-"
-)
-            
 if
 moz_upload_dir
 :
@@ -1792,11 +1802,6 @@ dump
 perfherder_data
 f
 )
-                
-#
-Save
-resource
-profile
                 
 monitor
 .
