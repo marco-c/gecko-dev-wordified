@@ -413,7 +413,7 @@ pointer
 locked
 element
 .
-MOZ_RUNINIT
+MOZ_CONSTINIT
 static
 nsWeakPtr
 sLockedElement
@@ -429,7 +429,7 @@ requested
 pointer
 lock
 .
-MOZ_RUNINIT
+MOZ_CONSTINIT
 static
 nsWeakPtr
 sLockedDoc
