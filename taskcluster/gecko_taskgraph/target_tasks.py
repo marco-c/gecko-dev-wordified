@@ -825,6 +825,9 @@ run_on_repo_type
 "
 [
 "
+git
+"
+"
 hg
 "
 ]
