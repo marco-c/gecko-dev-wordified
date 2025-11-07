@@ -5555,8 +5555,6 @@ dest
 dest
 0
 JSVAL_TAG_SHIFT
--
-1
 )
 ;
 }
@@ -5581,8 +5579,6 @@ valueReg
 )
 0
 JSVAL_TAG_SHIFT
--
-1
 )
 ;
 }
