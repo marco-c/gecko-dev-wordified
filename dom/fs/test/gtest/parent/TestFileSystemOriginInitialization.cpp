@@ -690,9 +690,7 @@ nullptr
 )
 ;
 }
-MOZ_RUNINIT
 static
-inline
 RefPtr
 <
 MockFileSystemQuotaClient
@@ -700,6 +698,16 @@ MockFileSystemQuotaClient
 sQuotaClient
 ;
 }
+;
+MOZ_CONSTINIT
+RefPtr
+<
+MockFileSystemQuotaClient
+>
+TestFileSystemOriginInitialization
+:
+:
+sQuotaClient
 ;
 TEST_F
 (

@@ -347,7 +347,7 @@ sVP9Info
 ;
 }
 ;
-MOZ_RUNINIT
+MOZ_CONSTINIT
 RefPtr
 <
 PDMFactory
@@ -357,7 +357,7 @@ PropertyTest
 :
 sFactory
 ;
-MOZ_RUNINIT
+MOZ_CONSTINIT
 RefPtr
 <
 TaskQueue

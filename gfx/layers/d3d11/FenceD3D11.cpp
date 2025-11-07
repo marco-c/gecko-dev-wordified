@@ -166,7 +166,7 @@ mozilla
 namespace
 layers
 {
-MOZ_RUNINIT
+MOZ_CONSTINIT
 RefPtr
 <
 ID3D11Device

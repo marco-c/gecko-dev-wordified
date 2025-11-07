@@ -195,6 +195,9 @@ mozilla
 gfx
 ;
 #
+ifndef
+MOZ_GFX_OPTIMIZE_MOBILE
+#
 define
 X
 255
@@ -451,6 +454,8 @@ X
 #
 undef
 X
+#
+endif
 /
 *
 Parameters
@@ -681,6 +686,9 @@ above
 )
 *
 /
+#
+ifndef
+MOZ_GFX_OPTIMIZE_MOBILE
 static
 const
 int
@@ -688,6 +696,8 @@ MINIFONT_HEIGHT
 =
 5
 ;
+#
+endif
 /
 *
 *
@@ -1613,7 +1623,7 @@ delete
 key
 ;
 }
-MOZ_RUNINIT
+MOZ_CONSTINIT
 static
 RefPtr
 <

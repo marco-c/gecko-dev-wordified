@@ -107,7 +107,7 @@ mozilla
 namespace
 hal_impl
 {
-MOZ_RUNINIT
+MOZ_CONSTINIT
 static
 RefPtr
 <
