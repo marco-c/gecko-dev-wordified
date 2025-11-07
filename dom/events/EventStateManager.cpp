@@ -1311,7 +1311,7 @@ kCursorLoadingTimeout
 /
 /
 ms
-MOZ_RUNINIT
+MOZ_CONSTINIT
 static
 AutoWeakFrame
 gLastCursorSourceFrame
@@ -4819,14 +4819,14 @@ sCursorSettingManager
 =
 nullptr
 ;
-MOZ_RUNINIT
+MOZ_CONSTINIT
 AutoWeakFrame
 EventStateManager
 :
 :
 sLastDragOverFrame
-=
-nullptr
+{
+}
 ;
 LayoutDeviceIntPoint
 EventStateManager
