@@ -779,14 +779,14 @@ NS_IMPL_ISUPPORTS
 WakeLockListener
 nsIDOMMozWakeLockListener
 )
-MOZ_RUNINIT
+MOZ_CONSTINIT
 nsCOMPtr
 <
 nsIPowerManagerService
 >
 sPowerManagerService
-=
-nullptr
+{
+}
 ;
 StaticRefPtr
 <
