@@ -1091,7 +1091,7 @@ blocked
 -
 extension
 -
-disabled
+disabled2
 "
 mockAddon
 :
@@ -1158,7 +1158,7 @@ blocked
 -
 other
 -
-disabled
+disabled2
 "
 mockAddon
 :
@@ -1241,7 +1241,7 @@ blocked
 -
 extension
 -
-enabled
+enabled2
 "
 mockAddon
 :
@@ -1308,7 +1308,7 @@ blocked
 -
 other
 -
-enabled
+enabled2
 "
 mockAddon
 :
@@ -2963,7 +2963,7 @@ blocked
 -
 extension
 -
-disabled
+disabled2
 linkId
 :
 "
@@ -3048,7 +3048,7 @@ blocked
 -
 extension
 -
-enabled
+enabled2
 linkId
 :
 "

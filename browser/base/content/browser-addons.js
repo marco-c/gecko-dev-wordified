@@ -745,7 +745,7 @@ error
 -
 soft
 -
-blocked
+blocked2
 "
 "
 addon
@@ -756,7 +756,7 @@ error
 -
 soft
 -
-blocked
+blocked2
 "
 ]
 ]
@@ -4310,7 +4310,7 @@ item
 -
 messagebar
 -
-softblocked
+softblocked2
 "
 ;
 if
@@ -19541,7 +19541,7 @@ blocklist
 -
 warning
 -
-single
+single2
 "
 ;
 }
@@ -19576,7 +19576,7 @@ blocklist
 -
 warning
 -
-multiple
+multiple2
 "
 ;
 }
