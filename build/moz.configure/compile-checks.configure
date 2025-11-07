@@ -3765,6 +3765,9 @@ linker_flags
 [
 flag
 ]
+compiler
+=
+compiler
 when
 =
 when
@@ -3827,6 +3830,9 @@ linker_optimize_flags
 [
 flag
 ]
+compiler
+=
+compiler
 when
 =
 when
