@@ -1723,6 +1723,14 @@ value
 }
 )
 if
+!
+value
+.
+is_empty
+(
+)
+&
+&
 value
 .
 chars
