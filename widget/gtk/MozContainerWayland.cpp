@@ -2296,8 +2296,8 @@ container
 )
 )
 ;
-nsIntSize
-unscaledSize
+DesktopIntSize
+size
 (
 gdk_window_get_width
 (
@@ -2318,7 +2318,7 @@ container
 >
 GetEGLWindow
 (
-unscaledSize
+size
 )
 ;
 }

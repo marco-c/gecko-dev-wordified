@@ -63915,10 +63915,6 @@ mSurface
 SetEGLWindowSize
 (
 aEGLWindowSize
-.
-ToUnknownSize
-(
-)
 )
 ;
 }
