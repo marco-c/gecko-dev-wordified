@@ -3886,6 +3886,21 @@ Step
 b
 .
 auto
+originEpochNs
+=
+GetUTCEpochNanoseconds
+(
+isoDateTime
+)
+;
+/
+/
+Step
+8
+.
+c
+.
+auto
 isoDateTimeOther
 =
 ISODateTime
@@ -3904,7 +3919,7 @@ date
 Step
 8
 .
-c
+d
 .
 auto
 destEpochNs
@@ -3919,7 +3934,7 @@ isoDateTimeOther
 Step
 8
 .
-d
+e
 .
 Rooted
 <
@@ -3940,6 +3955,7 @@ RoundRelativeDuration
 (
 cx
 duration
+originEpochNs
 destEpochNs
 isoDateTime
 timeZone
