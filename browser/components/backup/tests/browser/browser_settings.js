@@ -593,11 +593,7 @@ obs
 .
 removeObserver
 (
-gBrowser
-.
-contentWindow
-.
-gSyncPane
+syncPane
 .
 updateBackupUIVisibility
 "
@@ -609,6 +605,12 @@ status
 -
 updated
 "
+)
+;
+sandbox
+.
+restore
+(
 )
 ;
 }
