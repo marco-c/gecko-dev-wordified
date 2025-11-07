@@ -3407,7 +3407,7 @@ tab
 ;
 this
 .
-_appendStatusPanel
+appendStatusPanel
 (
 )
 ;
@@ -4496,13 +4496,16 @@ return
 findBar
 ;
 }
-_appendStatusPanel
+appendStatusPanel
 (
-)
-{
+browser
+=
 this
 .
 selectedBrowser
+)
+{
+browser
 .
 insertAdjacentElement
 (
@@ -7511,7 +7514,7 @@ newTab
 ;
 this
 .
-_appendStatusPanel
+appendStatusPanel
 (
 )
 ;
