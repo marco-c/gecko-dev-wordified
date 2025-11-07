@@ -897,8 +897,6 @@ worker_type
 "
 images
 -
-gcp
--
 aarch64
 "
         
