@@ -89451,6 +89451,17 @@ GetScriptTrackingFlags
 )
 )
 ;
+loadState
+-
+>
+SetHistoryBehavior
+(
+NavigationHistoryBehavior
+:
+:
+Auto
+)
+;
 nsCOMPtr
 <
 nsIRunnable
