@@ -41701,6 +41701,11 @@ s
 by
 %
 s
+isDefault
+(
+%
+d
+)
 \
 n
 "
@@ -41737,6 +41742,7 @@ GetSource
 c_str
 (
 )
+isDefault
 )
 ;
 scrollOffsetUpdated
@@ -41848,6 +41854,13 @@ Metrics
 ApplyRelativeScrollUpdateFrom
 (
 scrollUpdate
+FrameMetrics
+:
+:
+IsDefaultApzc
+{
+isDefault
+}
 )
 )
 ;

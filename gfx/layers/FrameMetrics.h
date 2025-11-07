@@ -1935,6 +1935,14 @@ was
 applied
 *
 /
+enum
+class
+IsDefaultApzc
+{
+No
+Yes
+}
+;
 CSSPoint
 ApplyRelativeScrollUpdateFrom
 (
@@ -1942,6 +1950,8 @@ const
 ScrollPositionUpdate
 &
 aUpdate
+IsDefaultApzc
+aIsDefaultApzc
 )
 ;
 CSSPoint
