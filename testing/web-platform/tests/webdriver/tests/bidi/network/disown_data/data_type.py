@@ -20,9 +20,27 @@ pytest
 mark
 .
 asyncio
+pytest
+.
+mark
+.
+parametrize
+(
+"
+data_type
+"
+[
+"
+request
+"
+"
+response
+"
+]
+)
 async
 def
-test_request
+test_data_type
 (
     
 bidi_session
@@ -30,6 +48,8 @@ bidi_session
 url
     
 setup_collected_data
+    
+data_type
 )
 :
     
@@ -41,12 +61,26 @@ collector
 await
 setup_collected_data
 (
+        
 fetch_url
 =
 url
 (
 PAGE_EMPTY_TEXT
 )
+        
+fetch_post_data
+=
+"
+somedata
+"
+        
+data_types
+=
+[
+data_type
+]
+    
 )
     
 await
@@ -62,9 +96,7 @@ request
 request
 data_type
 =
-"
-response
-"
+data_type
 collector
 =
 collector
@@ -115,9 +147,7 @@ request
 request
 data_type
 =
-"
-response
-"
+data_type
 collector
 =
 collector
@@ -147,7 +177,5 @@ request
 request
 data_type
 =
-"
-response
-"
+data_type
 )
