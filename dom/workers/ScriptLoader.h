@@ -191,6 +191,17 @@ mozilla
 /
 dom
 /
+WorkerLoadContext
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 WorkerRef
 .
 h
@@ -261,9 +272,6 @@ ClientInfo
 ;
 class
 Document
-;
-class
-ThreadSafeRequestHandle
 ;
 struct
 WorkerLoadInfo
