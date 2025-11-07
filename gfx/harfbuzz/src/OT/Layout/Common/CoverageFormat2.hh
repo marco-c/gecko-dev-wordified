@@ -248,7 +248,7 @@ friend
 struct
 Coverage
 ;
-protected
+public
 :
 HBUINT16
 coverageFormat

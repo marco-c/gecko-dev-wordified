@@ -252,7 +252,7 @@ friend
 struct
 Coverage
 ;
-protected
+public
 :
 HBUINT16
 coverageFormat
@@ -290,8 +290,6 @@ numerical
 order
 *
 /
-public
-:
 DEFINE_SIZE_ARRAY
 (
 4

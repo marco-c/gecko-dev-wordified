@@ -2865,7 +2865,6 @@ format
 *
 -
 If
-both
 #
 hb_glyph_position_t
 .
@@ -2877,6 +2876,7 @@ hb_glyph_position_t
 y_offset
 are
 not
+both
 0
 x_offset
 y_offset

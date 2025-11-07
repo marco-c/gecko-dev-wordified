@@ -3018,7 +3018,7 @@ gpos_tag
 /
 HB_OT_SHAPE_NORMALIZATION_MODE_NONE
 HB_OT_SHAPE_ZERO_WIDTH_MARKS_NONE
-false
+true
 /
 *
 fallback_position

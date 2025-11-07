@@ -6097,7 +6097,10 @@ std
 :
 forward
 <
+hb_type_identity
+<
 S2
+>
 >
 (
 s
@@ -6122,7 +6125,10 @@ std
 :
 forward
 <
+hb_type_identity
+<
 S2
+>
 >
 (
 s

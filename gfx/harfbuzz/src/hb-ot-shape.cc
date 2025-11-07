@@ -586,7 +586,7 @@ zero_width_marks
 =
 HB_OT_SHAPE_ZERO_WIDTH_MARKS_NONE
 ;
-script_fallback_mark_positioning
+script_fallback_position
 =
 shaper
 -
@@ -1201,8 +1201,16 @@ plan
 .
 apply_kern
 =
-true
+script_fallback_position
 ;
+/
+/
+Not
+all
+shapers
+apply
+legacy
+kern
 #
 endif
 else
@@ -1213,6 +1221,9 @@ plan
 .
 apply_fallback_kern
 =
+script_fallback_position
+&
+&
 !
 (
 plan
@@ -1335,7 +1346,7 @@ plan
 adjust_mark_positioning_when_zeroing
 &
 &
-script_fallback_mark_positioning
+script_fallback_position
 ;
 #
 ifndef
