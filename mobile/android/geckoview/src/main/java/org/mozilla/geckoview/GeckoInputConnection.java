@@ -3584,7 +3584,7 @@ outAttrs
 .
 imeOptions
 &
-InputMethods
+EditorInfo
 .
 IME_FLAG_NO_PERSONALIZED_LEARNING
 )

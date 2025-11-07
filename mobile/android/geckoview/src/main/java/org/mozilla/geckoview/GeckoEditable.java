@@ -433,15 +433,6 @@ mozilla
 .
 gecko
 .
-InputMethods
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 MozLog
 ;
 import
@@ -13463,7 +13454,7 @@ outAttrs
 imeOptions
 |
 =
-InputMethods
+EditorInfo
 .
 IME_FLAG_NO_PERSONALIZED_LEARNING
 ;
