@@ -6610,9 +6610,6 @@ newMockController
 input
 :
 {
-isAddressbar
-:
-true
 isPrivate
 :
 context

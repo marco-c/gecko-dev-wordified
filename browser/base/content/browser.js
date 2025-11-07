@@ -2982,9 +2982,6 @@ getElementById
 urlbar
 "
 )
-isAddressbar
-:
-true
 sapName
 :
 "
