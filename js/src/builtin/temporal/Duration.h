@@ -1350,10 +1350,11 @@ roundingMode
 RoundRelativeDuration
 (
 duration
+originEpochNs
 destEpochNs
 isoDateTime
-timeZone
 *
+timeZone
 calendar
 largestUnit
 increment
@@ -1372,6 +1373,10 @@ const
 InternalDuration
 &
 duration
+const
+EpochNanoseconds
+&
+originEpochNs
 const
 EpochNanoseconds
 &
@@ -1416,10 +1421,11 @@ result
 TotalRelativeDuration
 (
 duration
+originEpochNs
 destEpochNs
 isoDateTime
-timeZone
 *
+timeZone
 calendar
 unit
 )
@@ -1435,6 +1441,10 @@ const
 InternalDuration
 &
 duration
+const
+EpochNanoseconds
+&
+originEpochNs
 const
 EpochNanoseconds
 &
