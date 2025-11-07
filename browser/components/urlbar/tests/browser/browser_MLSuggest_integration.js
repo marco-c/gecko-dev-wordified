@@ -2104,6 +2104,7 @@ _findIntent
 .
 returns
 (
+[
 {
 label
 :
@@ -2116,6 +2117,7 @@ score
 .
 9
 }
+]
 )
 ;
 sinon
