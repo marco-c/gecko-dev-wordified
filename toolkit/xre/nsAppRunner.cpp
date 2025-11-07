@@ -2224,7 +2224,7 @@ defined
 (
 MOZ_WAYLAND
 )
-MOZ_RUNINIT
+MOZ_CONSTINIT
 std
 :
 :
