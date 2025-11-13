@@ -6062,9 +6062,6 @@ aIsMarginBEndAuto
 LogicalMargin
 &
 aMargin
-LogicalMargin
-&
-aOffsets
 )
 ;
 /
@@ -6125,9 +6122,6 @@ aIsMarginIEndAuto
 LogicalMargin
 &
 aMargin
-LogicalMargin
-&
-aOffsets
 )
 ;
 protected

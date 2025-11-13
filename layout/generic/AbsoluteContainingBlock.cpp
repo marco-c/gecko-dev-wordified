@@ -6622,6 +6622,7 @@ aKidSize
 LogicalMargin
 &
 aMargin
+const
 LogicalMargin
 &
 aOffsets
@@ -6889,7 +6890,6 @@ IsAuto
 (
 )
 aMargin
-aOffsets
 )
 ;
 }
@@ -6937,7 +6937,6 @@ IsAuto
 (
 )
 aMargin
-aOffsets
 )
 ;
 }
