@@ -886,7 +886,6 @@ name
 dequantizeLinear
 uint8
 1D
-constant
 tensor
 with
 negative
@@ -939,7 +938,7 @@ uint8
 constant
 '
 :
-true
+false
 }
 '
 dequantizeLinearScale
@@ -1140,7 +1139,6 @@ name
 dequantizeLinear
 uint8
 1D
-constant
 tensor
 with
 float32
@@ -1196,7 +1194,7 @@ uint8
 constant
 '
 :
-true
+false
 }
 '
 dequantizeLinearScale
@@ -1389,7 +1387,6 @@ name
 dequantizeLinear
 int8
 4D
-constant
 tensor
 broadcasting
 float32
@@ -1449,7 +1446,7 @@ int8
 constant
 '
 :
-true
+false
 }
 '
 dequantizeLinearScale
@@ -1652,7 +1649,6 @@ name
 dequantizeLinear
 int8
 2D
-constant
 tensor
 with
 float32
@@ -1738,7 +1734,7 @@ int8
 constant
 '
 :
-true
+false
 }
 '
 dequantizeLinearScale
@@ -2060,7 +2056,7 @@ uint4
 constant
 '
 :
-true
+false
 }
 '
 dequantizeLinearScale
@@ -2297,7 +2293,7 @@ uint4
 constant
 '
 :
-true
+false
 }
 '
 dequantizeLinearScale
@@ -2479,7 +2475,6 @@ name
 dequantizeLinear
 uint4
 4D
-constant
 tensor
 with
 broadcasting
@@ -2539,7 +2534,7 @@ uint4
 constant
 '
 :
-true
+false
 }
 '
 dequantizeLinearScale
@@ -2742,7 +2737,7 @@ name
 dequantizeLinear
 uint4
 3D
-input
+tensor
 with
 float32
 3D
@@ -2802,7 +2797,7 @@ uint4
 constant
 '
 :
-true
+false
 }
 '
 dequantizeLinearScale
@@ -3056,7 +3051,7 @@ int4
 constant
 '
 :
-true
+false
 }
 '
 dequantizeLinearScale
@@ -3296,7 +3291,7 @@ int4
 constant
 '
 :
-true
+false
 }
 '
 dequantizeLinearScale
@@ -3483,7 +3478,7 @@ dequantizeLinear
 for
 int4
 4D
-constant
+tensor
 with
 float32
 4D
@@ -3539,7 +3534,7 @@ int4
 constant
 '
 :
-true
+false
 }
 '
 dequantizeLinearScale
@@ -5159,7 +5154,6 @@ name
 dequantizeLinear
 uint8
 1D
-constant
 tensor
 with
 float16
@@ -5215,7 +5209,7 @@ uint8
 constant
 '
 :
-true
+false
 }
 '
 dequantizeLinearScale
@@ -5426,7 +5420,6 @@ name
 dequantizeLinear
 uint8
 1D
-constant
 tensor
 with
 negative
@@ -5483,7 +5476,7 @@ uint8
 constant
 '
 :
-true
+false
 }
 '
 dequantizeLinearScale
@@ -5694,7 +5687,6 @@ name
 dequantizeLinear
 uint8
 1D
-constant
 tensor
 with
 float16
@@ -5754,7 +5746,7 @@ uint8
 constant
 '
 :
-true
+false
 }
 '
 dequantizeLinearScale
@@ -5955,7 +5947,6 @@ name
 dequantizeLinear
 int8
 4D
-constant
 tensor
 broadcasting
 float16
@@ -6019,7 +6010,7 @@ int8
 constant
 '
 :
-true
+false
 }
 '
 dequantizeLinearScale
@@ -6232,7 +6223,6 @@ name
 dequantizeLinear
 int8
 2D
-constant
 tensor
 with
 float16
@@ -6322,7 +6312,7 @@ int8
 constant
 '
 :
-true
+false
 }
 '
 dequantizeLinearScale
@@ -6652,7 +6642,7 @@ uint4
 constant
 '
 :
-true
+false
 }
 '
 dequantizeLinearScale
@@ -6905,7 +6895,7 @@ uint4
 constant
 '
 :
-true
+false
 }
 '
 dequantizeLinearScale
@@ -7099,7 +7089,6 @@ name
 dequantizeLinear
 uint4
 4D
-constant
 tensor
 with
 broadcasting
@@ -7163,7 +7152,7 @@ uint4
 constant
 '
 :
-true
+false
 }
 '
 dequantizeLinearScale
@@ -7378,7 +7367,7 @@ name
 dequantizeLinear
 uint4
 3D
-input
+tensor
 with
 float16
 3D
@@ -7442,7 +7431,7 @@ uint4
 constant
 '
 :
-true
+false
 }
 '
 dequantizeLinearScale
@@ -7712,7 +7701,7 @@ int4
 constant
 '
 :
-true
+false
 }
 '
 dequantizeLinearScale
@@ -7968,7 +7957,7 @@ int4
 constant
 '
 :
-true
+false
 }
 '
 dequantizeLinearScale
@@ -8167,7 +8156,7 @@ dequantizeLinear
 for
 int4
 4D
-constant
+tensor
 with
 float16
 4D
@@ -8227,7 +8216,7 @@ int4
 constant
 '
 :
-true
+false
 }
 '
 dequantizeLinearScale
