@@ -3977,7 +3977,7 @@ alloc
 )
 LDivI64
 (
-useRegister
+useFixedAtStart
 (
 div
 -
@@ -3985,6 +3985,7 @@ div
 lhs
 (
 )
+rax
 )
 useRegister
 (
@@ -4069,7 +4070,7 @@ alloc
 )
 LModI64
 (
-useRegister
+useFixedAtStart
 (
 mod
 -
@@ -4077,6 +4078,7 @@ mod
 lhs
 (
 )
+rax
 )
 useRegister
 (
@@ -4161,7 +4163,7 @@ alloc
 )
 LUDivI64
 (
-useRegister
+useFixedAtStart
 (
 div
 -
@@ -4169,6 +4171,7 @@ div
 lhs
 (
 )
+rax
 )
 useRegister
 (
@@ -4225,7 +4228,7 @@ alloc
 )
 LUModI64
 (
-useRegister
+useFixedAtStart
 (
 mod
 -
@@ -4233,6 +4236,7 @@ mod
 lhs
 (
 )
+rax
 )
 useRegister
 (
