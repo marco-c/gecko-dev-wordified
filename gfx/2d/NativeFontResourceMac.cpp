@@ -121,11 +121,6 @@ unordered_map
 >
 #
 include
-<
-unordered_set
->
-#
-include
 "
 NativeFontResourceMac
 .
@@ -501,6 +496,7 @@ NativeFontResourceMac
 :
 Create
 (
+const
 uint8_t
 *
 aFontData

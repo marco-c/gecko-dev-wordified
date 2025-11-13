@@ -124,11 +124,6 @@ h
 #
 include
 <
-memory
->
-#
-include
-<
 mfobjects
 .
 h

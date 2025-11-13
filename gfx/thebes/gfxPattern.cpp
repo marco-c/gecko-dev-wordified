@@ -150,11 +150,6 @@ cairo
 .
 h
 "
-#
-include
-<
-vector
->
 using
 namespace
 mozilla

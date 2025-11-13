@@ -116,11 +116,6 @@ MPL
 /
 #
 include
-<
-vector
->
-#
-include
 "
 Types
 .

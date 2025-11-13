@@ -393,11 +393,6 @@ h
 #
 include
 <
-string
->
-#
-include
-<
 d3d10_1
 .
 h

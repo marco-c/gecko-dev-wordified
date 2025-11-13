@@ -300,11 +300,6 @@ pixman
 .
 h
 "
-#
-include
-<
-algorithm
->
 /
 /
 2
