@@ -3610,17 +3610,6 @@ HandleObject
 obj
 )
 ;
-JSObject
-*
-ObjectKeysFromIterator
-(
-JSContext
-*
-cx
-HandleObject
-iterObj
-)
-;
 bool
 ObjectKeysLength
 (

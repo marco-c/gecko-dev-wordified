@@ -377,9 +377,6 @@ disableRedundantGCBarriers
 bool
 disableBailoutLoopCheck
 ;
-bool
-disableObjectKeysScalarReplacement
-;
 #
 ifdef
 ENABLE_PORTABLE_BASELINE_INTERP
