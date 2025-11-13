@@ -288,7 +288,7 @@ value
 ;
 assert
 .
-notSameValue
+sameValue
 (
 iterResult
 oldIterResult

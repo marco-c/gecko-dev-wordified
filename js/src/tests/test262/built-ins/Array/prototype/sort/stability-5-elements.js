@@ -83,15 +83,6 @@ original
 order
 )
 .
-features
-:
-[
-stable
--
-array
--
-sort
-]
 -
 -
 -

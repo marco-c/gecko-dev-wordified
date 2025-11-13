@@ -125,15 +125,6 @@ blog
 array
 -
 sort
-features
-:
-[
-stable
--
-array
--
-sort
-]
 -
 -
 -

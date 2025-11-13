@@ -53,7 +53,7 @@ String
 .
 prototype
 .
-isWellFormed
+includes
 does
 not
 implement

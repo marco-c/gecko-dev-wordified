@@ -74,8 +74,6 @@ await
 /
 import
 "
-.
-/
 parent
 -
 tla_FIXTURE
@@ -87,8 +85,6 @@ await
 import
 (
 "
-.
-/
 grandparent
 -
 tla_FIXTURE

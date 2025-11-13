@@ -44,8 +44,6 @@ file
 .
 import
 "
-.
-/
 tla_FIXTURE
 .
 js
