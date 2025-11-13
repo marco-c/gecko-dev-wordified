@@ -1153,6 +1153,9 @@ following
 example
 :
 *
+*
+css
+*
 body
 {
 *
@@ -1180,6 +1183,8 @@ blue
 *
 }
 *
+*
+*
 Calling
 the
 function
@@ -1199,7 +1204,6 @@ column
 would
 *
 return
-"
 line
 -
 height
@@ -1210,7 +1214,7 @@ color
 :
 blue
 ;
-"
+*
 *
 param
 {

@@ -1535,6 +1535,7 @@ same
 idea
 .
 *
+*
 param
 stream
 nsIInputStream

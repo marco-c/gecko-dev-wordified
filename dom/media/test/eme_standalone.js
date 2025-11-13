@@ -1346,6 +1346,8 @@ E
 g
 .
 *
+js
+*
 emeHelper
 .
 AddKeyIdAndKey
@@ -1361,6 +1363,7 @@ AddKeyIdAndKey
 *
 )
 ;
+*
 *
 This
 function
@@ -1379,6 +1382,7 @@ ensure
 consistency
 internally
 .
+*
 *
 param
 keyId

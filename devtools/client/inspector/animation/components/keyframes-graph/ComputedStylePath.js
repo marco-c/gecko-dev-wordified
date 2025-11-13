@@ -217,6 +217,7 @@ be
 animated
 .
 *
+*
 return
 {
 String
@@ -246,6 +247,7 @@ from
 given
 parameter
 .
+*
 *
 param
 {
@@ -282,6 +284,7 @@ value
 of
 graph
 .
+*
 *
 param
 {

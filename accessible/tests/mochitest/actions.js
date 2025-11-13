@@ -249,6 +249,8 @@ is
 :
 *
 *
+js
+*
 var
 actionObj
 =
