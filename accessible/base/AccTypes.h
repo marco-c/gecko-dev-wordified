@@ -175,6 +175,7 @@ statement
 *
 /
 eNoType
+eHTMLAbbrevType
 eHTMLBRType
 eHTMLButtonType
 eHTMLCanvasType
