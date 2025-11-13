@@ -1248,8 +1248,6 @@ SubDocument
 REPLACED_SIZING
 |
 LEAF
-|
-MAY_HAVE_VIEW
 )
     
 Frame
