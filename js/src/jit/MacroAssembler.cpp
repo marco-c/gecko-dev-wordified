@@ -14795,7 +14795,10 @@ ReciprocalMulConstants
 :
 computeUnsignedDivisionConstants
 (
+uint32_t
+(
 base
+)
 )
 ;
 /
