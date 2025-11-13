@@ -40294,13 +40294,6 @@ FromAppUnitsToNearest
 aPointerInfo
 .
 mLastRefPointInRootDoc
-+
-rootView
--
->
-ViewToWidgetOffset
-(
-)
 APD
 )
 )
@@ -40489,13 +40482,6 @@ refpoint
 aPointerInfo
 .
 mLastRefPointInRootDoc
-+
-rootView
--
->
-ViewToWidgetOffset
-(
-)
 ;
 }
 NS_ASSERTION
