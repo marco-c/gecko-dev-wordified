@@ -1406,6 +1406,14 @@ expected
 fixlines
 (
 expected
+)
+;
+const
+output_simple
+=
+stripencoding
+(
+output
 (
 ?
 :
@@ -1422,7 +1430,7 @@ HEX
 const
 success
 =
-output
+output_simple
 .
 match
 (
