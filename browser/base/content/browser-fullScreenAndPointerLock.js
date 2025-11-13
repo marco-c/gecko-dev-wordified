@@ -2838,15 +2838,11 @@ transform
 ;
 gURLBar
 .
-textbox
-.
 style
 .
 transform
 =
 gURLBar
-.
-textbox
 .
 hasAttribute
 (

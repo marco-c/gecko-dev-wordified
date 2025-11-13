@@ -265,6 +265,8 @@ BrowserTestUtils
 waitForEvent
 (
 gURLBar
+.
+inputField
 "
 focus
 "
@@ -657,6 +659,8 @@ BrowserTestUtils
 waitForEvent
 (
 gURLBar
+.
+inputField
 "
 focus
 "

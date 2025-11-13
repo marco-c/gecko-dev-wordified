@@ -1246,7 +1246,7 @@ button
 is
 visible
 (
-indipendently
+independently
 from
 /
 /
@@ -1265,10 +1265,10 @@ mainButtonNode
 .
 style
 .
-visibility
+display
 =
 "
-visible
+flex
 "
 ;
 registerCleanupFunction
@@ -1287,7 +1287,7 @@ style
 removeProperty
 (
 "
-visibility
+display
 "
 )
 ;

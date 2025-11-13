@@ -504,8 +504,6 @@ let
 urlbar
 =
 gURLBar
-.
-textbox
 ;
 let
 extension
@@ -819,8 +817,6 @@ let
 urlbar
 =
 gURLBar
-.
-textbox
 ;
 let
 extension

@@ -322,6 +322,8 @@ await
 synthesizeKeyAndWaitForFocus
 (
 gURLBar
+.
+inputField
 "
 l
 "
@@ -492,6 +494,8 @@ await
 synthesizeKeyAndWaitForFocus
 (
 gURLBar
+.
+inputField
 "
 l
 "
@@ -737,6 +741,8 @@ await
 synthesizeKeyAndWaitForFocus
 (
 gURLBar
+.
+inputField
 "
 l
 "

@@ -2416,8 +2416,6 @@ observe
 win
 .
 gURLBar
-.
-textbox
 {
 attributes
 :

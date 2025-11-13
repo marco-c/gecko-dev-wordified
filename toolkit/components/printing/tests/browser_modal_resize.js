@@ -545,8 +545,6 @@ await
 mouseMoveAndWait
 (
 gURLBar
-.
-textbox
 )
 ;
 await

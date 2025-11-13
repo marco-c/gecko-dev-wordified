@@ -337,8 +337,6 @@ is
 (
 gURLBar
 .
-textbox
-.
 getAttribute
 (
 "

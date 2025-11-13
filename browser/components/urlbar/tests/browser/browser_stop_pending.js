@@ -352,8 +352,6 @@ obs
 observe
 (
 gURLBar
-.
-textbox
 {
 attributes
 :
@@ -1775,8 +1773,6 @@ obs
 observe
 (
 gURLBar
-.
-textbox
 {
 attributes
 :
@@ -2224,8 +2220,6 @@ obs
 observe
 (
 gURLBar
-.
-textbox
 {
 attributes
 :
@@ -2612,8 +2606,6 @@ obs
 observe
 (
 gURLBar
-.
-textbox
 {
 attributes
 :

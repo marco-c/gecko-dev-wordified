@@ -2902,8 +2902,6 @@ window
 .
 gURLBar
 .
-textbox
-.
 hasAttribute
 (
 "

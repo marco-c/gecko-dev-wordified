@@ -144,9 +144,9 @@ import
 .
 .
 /
+content
+/
 UrlbarInput
-.
-sys
 .
 mjs
 "

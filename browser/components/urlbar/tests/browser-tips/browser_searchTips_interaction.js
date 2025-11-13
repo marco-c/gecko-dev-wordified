@@ -1203,8 +1203,6 @@ synthesizeMouseAtCenter
 (
 gURLBar
 .
-textbox
-.
 parentNode
 {
 }
@@ -1616,8 +1614,6 @@ EventUtils
 synthesizeMouseAtCenter
 (
 gURLBar
-.
-textbox
 .
 parentNode
 {

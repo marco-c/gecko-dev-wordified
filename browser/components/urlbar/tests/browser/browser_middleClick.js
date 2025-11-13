@@ -723,6 +723,8 @@ false
 ;
 gURLBar
 .
+inputField
+.
 addEventListener
 (
 "

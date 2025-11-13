@@ -519,8 +519,6 @@ EventUtils
 synthesizeMouseAtCenter
 (
 gURLBar
-.
-textbox
 {
 }
 )
@@ -597,7 +595,7 @@ selected
 .
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 selectedBrowser
 "
@@ -631,8 +629,6 @@ EventUtils
 synthesizeMouseAtCenter
 (
 gURLBar
-.
-textbox
 {
 }
 )
