@@ -371,7 +371,7 @@ waitForEvent
 (
 searchBar
 .
-textbox
+inputField
 "
 focus
 "
@@ -403,7 +403,7 @@ document
 activeElement
 searchBar
 .
-textbox
+inputField
 "
 Focused
 the

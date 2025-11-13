@@ -32,4 +32,11 @@ select
 :
 void
 ;
+get
+inputField
+(
+)
+:
+HTMLInputElement
+;
 }
