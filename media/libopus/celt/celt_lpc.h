@@ -225,10 +225,10 @@ DAMAGE
 /
 #
 ifndef
-PLC_H
+CELT_LPC_H
 #
 define
-PLC_H
+CELT_LPC_H
 #
 include
 "
@@ -385,6 +385,6 @@ arch
 endif
 /
 *
-PLC_H
+CELT_LPC_H
 *
 /

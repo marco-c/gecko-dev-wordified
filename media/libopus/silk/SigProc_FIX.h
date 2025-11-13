@@ -7027,6 +7027,8 @@ easily
 mapped
 to
 ARM
+/
+MIPS32
 .
 *
 /
@@ -7061,6 +7063,16 @@ registers
 except
 xM
 )
+MIPS32
+2
+instructions
+mul
++
+mfhi
+MIPS32r6
+1
+instruction
+muh
 *
 /
 /

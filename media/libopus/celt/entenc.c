@@ -2438,6 +2438,13 @@ _this
 error
 )
 {
+if
+(
+_this
+-
+>
+buf
+)
 OPUS_CLEAR
 (
 _this
