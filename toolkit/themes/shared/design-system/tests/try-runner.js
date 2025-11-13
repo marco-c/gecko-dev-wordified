@@ -471,6 +471,8 @@ path
 join
 (
 "
+dist
+/
 tokens
 -
 brand
@@ -486,6 +488,8 @@ join
 (
 TEST_BUILD_PATH
 "
+dist
+/
 tokens
 -
 brand
@@ -510,6 +514,8 @@ path
 join
 (
 "
+dist
+/
 tokens
 -
 platform
@@ -525,6 +531,8 @@ join
 (
 TEST_BUILD_PATH
 "
+dist
+/
 tokens
 -
 platform
@@ -549,6 +557,8 @@ path
 join
 (
 "
+dist
+/
 tokens
 -
 shared
@@ -564,6 +574,8 @@ join
 (
 TEST_BUILD_PATH
 "
+dist
+/
 tokens
 -
 shared

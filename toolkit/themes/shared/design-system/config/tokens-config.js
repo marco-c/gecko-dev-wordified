@@ -3631,6 +3631,8 @@ files
 destination
 :
 "
+dist
+/
 tokens
 -
 shared
@@ -3651,6 +3653,8 @@ shared
 destination
 :
 "
+dist
+/
 tokens
 -
 brand
@@ -3696,6 +3700,8 @@ brand
 destination
 :
 "
+dist
+/
 tokens
 -
 platform
@@ -3790,6 +3796,8 @@ files
 destination
 :
 "
+dist
+/
 tokens
 -
 table
