@@ -3551,6 +3551,11 @@ UnmapLocked
 "
 )
 ;
+RemoveAttachedBufferLocked
+(
+aSurfaceLock
+)
+;
 ClearReadyToDrawCallbacksLocked
 (
 aSurfaceLock
