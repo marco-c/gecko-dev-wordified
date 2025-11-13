@@ -1090,8 +1090,9 @@ this
 .
 mCredProps
 =
-new
 Boolean
+.
+valueOf
 (
 credProps
 )
