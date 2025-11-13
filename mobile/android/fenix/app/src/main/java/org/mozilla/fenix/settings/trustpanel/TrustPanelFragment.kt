@@ -1931,13 +1931,6 @@ title
 args
 .
 title
-isTotalCookieProtectionEnabled
-=
-components
-.
-settings
-.
-enabledTotalCookieProtection
 detailedTrackerCategory
 =
 detailedTrackerCategory
