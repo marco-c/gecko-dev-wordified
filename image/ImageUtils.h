@@ -109,6 +109,13 @@ h
 #
 include
 "
+Orientation
+.
+h
+"
+#
+include
+"
 mozilla
 /
 image
@@ -251,6 +258,12 @@ UNKNOWN
 struct
 DecodeMetadataResult
 {
+CopyableTArray
+<
+OrientedIntSize
+>
+mNativeSizes
+;
 int32_t
 mWidth
 =
