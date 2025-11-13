@@ -48987,11 +48987,13 @@ ComputedValues
 prop
 :
 NonCustomPropertyId
+mut
 context
 :
 Option
 <
 &
+mut
 resolved
 :
 :
@@ -49074,6 +49076,10 @@ computed_or_resolved_declaration
 (
 longhand
 context
+.
+as_deref_mut
+(
+)
 )
 Importance
 :
@@ -49216,6 +49222,7 @@ unwrap
 )
 ;
 let
+mut
 context
 =
 resolved
@@ -49242,6 +49249,9 @@ element
 for_property
 :
 prop
+current_longhand
+:
+None
 }
 ;
 computed_or_resolved_value
@@ -49251,6 +49261,7 @@ prop
 Some
 (
 &
+mut
 context
 )
 value

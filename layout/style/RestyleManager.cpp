@@ -4871,9 +4871,6 @@ RecomputePosition
 UpdateContainingBlock
 "
 "
-BorderStyleNoneChange
-"
-"
 SchedulePaint
 "
 "
