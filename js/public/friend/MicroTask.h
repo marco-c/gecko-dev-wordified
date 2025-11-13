@@ -567,7 +567,7 @@ sees
 fit
 .
 using
-MicroTask
+GenericMicroTask
 =
 JS
 :
@@ -582,7 +582,7 @@ const
 JS
 :
 :
-MicroTask
+GenericMicroTask
 &
 hv
 )
@@ -638,7 +638,7 @@ JSContext
 cx
 Handle
 <
-MicroTask
+GenericMicroTask
 >
 entry
 )
@@ -771,7 +771,7 @@ JSContext
 *
 cx
 const
-MicroTask
+GenericMicroTask
 &
 entry
 )
@@ -784,7 +784,7 @@ JSContext
 *
 cx
 const
-MicroTask
+GenericMicroTask
 &
 entry
 )
@@ -797,7 +797,7 @@ JSContext
 *
 cx
 const
-MicroTask
+GenericMicroTask
 &
 entry
 )
@@ -937,7 +937,7 @@ less
 efficient
 .
 JS_PUBLIC_API
-MicroTask
+GenericMicroTask
 DequeueNextMicroTask
 (
 JSContext
@@ -946,7 +946,7 @@ cx
 )
 ;
 JS_PUBLIC_API
-MicroTask
+GenericMicroTask
 DequeueNextDebuggerMicroTask
 (
 JSContext
@@ -955,7 +955,7 @@ cx
 )
 ;
 JS_PUBLIC_API
-MicroTask
+GenericMicroTask
 DequeueNextRegularMicroTask
 (
 JSContext
@@ -1085,7 +1085,7 @@ JSObject
 GetExecutionGlobalFromJSMicroTask
 (
 const
-MicroTask
+GenericMicroTask
 &
 entry
 )
@@ -1316,7 +1316,7 @@ JSObject
 MaybeGetHostDefinedDataFromJSMicroTask
 (
 const
-MicroTask
+GenericMicroTask
 &
 entry
 )
@@ -1327,7 +1327,7 @@ JSObject
 MaybeGetAllocationSiteFromJSMicroTask
 (
 const
-MicroTask
+GenericMicroTask
 &
 entry
 )
@@ -1362,7 +1362,7 @@ JSObject
 MaybeGetHostDefinedGlobalFromJSMicroTask
 (
 const
-MicroTask
+GenericMicroTask
 &
 entry
 )
@@ -1373,7 +1373,7 @@ JSObject
 MaybeGetPromiseFromJSMicroTask
 (
 const
-MicroTask
+GenericMicroTask
 &
 entry
 )
@@ -1423,7 +1423,7 @@ bool
 GetFlowIdFromJSMicroTask
 (
 const
-MicroTask
+GenericMicroTask
 &
 entry
 uint64_t

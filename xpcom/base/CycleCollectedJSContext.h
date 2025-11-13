@@ -996,13 +996,13 @@ a
 JS
 :
 :
-MicroTask
+GenericMicroTask
 -
 This
 clears
+/
+/
 the
-/
-/
 contents
 of
 the
@@ -1265,7 +1265,7 @@ Rooted
 JS
 :
 :
-MicroTask
+GenericMicroTask
 >
 task
 (
@@ -1493,7 +1493,7 @@ MustConsumeMicroTask
 JS
 :
 :
-MicroTask
+GenericMicroTask
 &
 &
 aMicroTask
@@ -1513,7 +1513,7 @@ Heap
 JS
 :
 :
-MicroTask
+GenericMicroTask
 >
 mMicroTask
 ;
