@@ -26109,7 +26109,7 @@ closest
 (
 "
 .
-browserStack
+browserSidebarContainer
 .
 webextension
 -
