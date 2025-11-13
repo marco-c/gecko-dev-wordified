@@ -44,6 +44,8 @@ file
 .
 import
 "
+.
+/
 parent
 -
 tla_FIXTURE

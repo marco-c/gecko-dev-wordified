@@ -57,13 +57,6 @@ named
 -
 groups
 ]
-includes
-:
-[
-compareArray
-.
-js
-]
 -
 -
 -
@@ -71,7 +64,7 @@ js
 /
 assert
 .
-compareArray
+sameValue
 (
 3
 '
@@ -102,7 +95,7 @@ y
 ;
 assert
 .
-compareArray
+sameValue
 (
 3
 '
@@ -133,7 +126,7 @@ x
 ;
 assert
 .
-compareArray
+sameValue
 (
 1
 '
@@ -164,7 +157,7 @@ y
 ;
 assert
 .
-compareArray
+sameValue
 (
 1
 '
