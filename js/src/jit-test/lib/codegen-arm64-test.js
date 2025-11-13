@@ -264,14 +264,6 @@ expected
 fixlines
 (
 expected
-)
-;
-const
-output_simple
-=
-stripencoding
-(
-output
 {
 HEX
 }
@@ -283,7 +275,7 @@ HEX
 const
 output_matches_expected
 =
-output_simple
+output
 .
 match
 (
