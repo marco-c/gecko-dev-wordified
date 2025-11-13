@@ -11747,7 +11747,7 @@ as_nop
 ;
 /
 /
-drotr32
+dsll
 as_nop
 (
 )
