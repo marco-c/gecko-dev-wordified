@@ -251,18 +251,18 @@ the
 expected
 destination
     
-events
+e
 =
 get_events
 (
 session
 )
-    
-assert
-events
 [
 1
 ]
+    
+assert
+e
 [
 "
 type
@@ -275,10 +275,7 @@ mouseup
 "
     
 assert
-events
-[
-1
-]
+e
 [
 "
 pageX
@@ -306,10 +303,7 @@ abs
 )
     
 assert
-events
-[
-1
-]
+e
 [
 "
 pageY
@@ -610,24 +604,24 @@ the
 expected
 destination
     
-events
+e
 =
 get_events
 (
-session_new_window
+new_session
 )
     
 assert
 len
 (
-events
+e
 )
 >
 =
 5
     
 assert
-events
+e
 [
 1
 ]
@@ -651,11 +645,11 @@ were
 .
 format
 (
-events
+e
 )
     
 assert
-events
+e
 [
 2
 ]
@@ -679,7 +673,7 @@ were
 .
 format
 (
-events
+e
 )
     
 drag_events_captured
@@ -695,7 +689,7 @@ type
 for
 ev
 in
-events
+e
 if
 ev
 [
