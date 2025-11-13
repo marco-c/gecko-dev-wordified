@@ -611,6 +611,13 @@ ErrorResult
 aRv
 )
 ;
+Document
+*
+GetAssociatedDocument
+(
+)
+const
+;
 private
 :
 MOZ_CAN_RUN_SCRIPT
@@ -630,13 +637,6 @@ void
 ProcessScrollBehavior
 (
 )
-;
-Document
-*
-GetAssociatedDocument
-(
-)
-const
 ;
 explicit
 NavigateEvent
