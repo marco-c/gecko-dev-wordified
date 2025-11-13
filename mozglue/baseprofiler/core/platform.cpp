@@ -10977,10 +10977,7 @@ endif
 #
 ifdef
 XP_WIN
-Maybe
-<
 uint64_t
->
 startTimeQPC
 =
 aStartTime
@@ -10989,10 +10986,6 @@ RawQueryPerformanceCounterValue
 (
 )
 ;
-if
-(
-startTimeQPC
-)
 aWriter
 .
 DoubleProperty
@@ -11005,7 +10998,6 @@ static_cast
 double
 >
 (
-*
 startTimeQPC
 )
 )
