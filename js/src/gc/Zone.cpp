@@ -3863,7 +3863,6 @@ this
 ;
 /
 /
-If
 |
 wrapper
 |
@@ -3875,6 +3874,7 @@ in
 a
 weak
 map
+so
 trigger
 a
 barrier
@@ -3895,20 +3895,11 @@ delegate
 to
 wrapper
 .
-if
-(
-HasUniqueId
-(
-wrapper
-)
-)
-{
 PreWriteBarrier
 (
 wrapper
 )
 ;
-}
 }
 #
 ifdef
