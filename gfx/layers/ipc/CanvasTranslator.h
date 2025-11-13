@@ -2379,11 +2379,6 @@ MutableSharedMemoryHandle
 aBufferHandle
 )
 ;
-void
-DataSurfaceBufferWillChange
-(
-)
-;
 bool
 ReadNextEvent
 (
@@ -3052,15 +3047,6 @@ ipc
 :
 SharedMemoryMapping
 mDataSurfaceShmem
-;
-ThreadSafeWeakPtr
-<
-gfx
-:
-:
-DataSourceSurface
->
-mDataSurfaceShmemOwner
 ;
 UniquePtr
 <

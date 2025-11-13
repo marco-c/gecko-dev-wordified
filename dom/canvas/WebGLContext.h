@@ -490,9 +490,6 @@ WebGLTransformFeedback
 class
 WebGLVertexArray
 ;
-class
-WebGL2Context
-;
 namespace
 dom
 {
@@ -6541,17 +6538,6 @@ const
 {
 return
 false
-;
-}
-virtual
-WebGL2Context
-*
-AsWebGL2
-(
-)
-{
-return
-nullptr
 ;
 }
 struct
