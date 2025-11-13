@@ -1072,10 +1072,7 @@ search
 defaultEngine
 .
 name
-polygon
-:
-{
-values
+items
 :
 [
 {
@@ -1129,10 +1126,11 @@ USD
 "
 }
 ]
-}
 dynamicType
 :
 "
+realtime
+-
 market
 "
 }
