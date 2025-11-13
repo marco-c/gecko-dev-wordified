@@ -35045,7 +35045,6 @@ results
 >
 thead
 >
->
 tr
 >
 th
