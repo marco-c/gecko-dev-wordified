@@ -3626,6 +3626,7 @@ the
 clipboard
 .
 *
+*
 return
 {
 Promise
@@ -3791,6 +3792,7 @@ the
 resulting
 ImageData
 .
+*
 *
 param
 {
@@ -3960,6 +3962,7 @@ a
 color
 value
 .
+*
 *
 param
 {
@@ -4177,6 +4180,7 @@ from
 rgb
 values
 .
+*
 *
 param
 {

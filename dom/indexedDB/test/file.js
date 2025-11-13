@@ -698,6 +698,7 @@ blob2
 arguments
 .
 *
+*
 param
 {
 Blob

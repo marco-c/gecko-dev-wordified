@@ -3273,6 +3273,7 @@ file
 info
 .
 *
+*
 param
 aFileAutoChosen
 This
@@ -3363,6 +3364,7 @@ initFileInfo
 .
 )
 .
+*
 *
 param
 aSuggestedFileName
@@ -3508,6 +3510,7 @@ file
 picker
 dialog
 .
+*
 *
 param
 aFI
@@ -3954,6 +3957,7 @@ change
 the
 fileName
 .
+*
 *
 param
 aFpP

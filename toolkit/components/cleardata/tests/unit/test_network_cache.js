@@ -157,7 +157,6 @@ resolved
 .
 *
 *
-*
 param
 {
 String

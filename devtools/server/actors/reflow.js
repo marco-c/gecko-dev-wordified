@@ -590,6 +590,7 @@ s
 windows
 .
 *
+*
 param
 {
 WindowGlobalTargetActor
@@ -2004,6 +2005,7 @@ it
 later
 .
 *
+*
 param
 {
 Number
@@ -2182,6 +2184,7 @@ per
 window
 .
 *
+*
 param
 {
 WindowGlobalTargetActor
@@ -2329,6 +2332,7 @@ and
 destroyed
 .
 *
+*
 param
 {
 WindowGlobalTargetActor
@@ -2414,6 +2418,7 @@ targetActor
 s
 docshells
 .
+*
 *
 extends
 Observable
@@ -2604,6 +2609,7 @@ targetActor
 s
 windows
 .
+*
 *
 extends
 Observable

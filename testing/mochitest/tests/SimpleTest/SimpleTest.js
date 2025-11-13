@@ -73,6 +73,7 @@ framework
 object
 .
 *
+*
 class
 *
 /
@@ -6249,7 +6250,6 @@ test
 needs
 timeouts
 .
-*
 *
 /
 SimpleTest

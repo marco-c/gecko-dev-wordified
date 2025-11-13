@@ -75,6 +75,7 @@ be
 logged
 .
 *
+*
 returns
 {
 Promise

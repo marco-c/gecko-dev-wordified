@@ -257,6 +257,7 @@ node
 id
 .
 *
+*
 type
 {
 Number

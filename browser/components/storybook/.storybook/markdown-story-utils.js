@@ -378,6 +378,7 @@ World
 .
 "
 *
+*
 param
 {
 string
@@ -498,6 +499,7 @@ s
 Canvas
 component
 .
+*
 *
 param
 {
@@ -659,6 +661,7 @@ toolkit
 widgets
 .
 *
+*
 param
 {
 string
@@ -812,6 +815,7 @@ in
 the
 sidebar
 .
+*
 *
 param
 {
@@ -1035,6 +1039,7 @@ loaded
 on
 demand
 .
+*
 *
 param
 {
@@ -1305,6 +1310,7 @@ documenting
 a
 component
 .
+*
 *
 param
 {

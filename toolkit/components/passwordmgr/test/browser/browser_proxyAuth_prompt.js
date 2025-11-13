@@ -433,6 +433,7 @@ an
 nsIAuthPromptCallback
 .
 *
+*
 returns
 result
 *

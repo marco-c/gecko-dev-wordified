@@ -130,6 +130,7 @@ message
 manager
 .
 *
+*
 param
 {
 nsIMessageListenerManager
@@ -218,6 +219,7 @@ given
 message
 manager
 .
+*
 *
 param
 {
@@ -310,6 +312,7 @@ given
 message
 manager
 .
+*
 *
 param
 {

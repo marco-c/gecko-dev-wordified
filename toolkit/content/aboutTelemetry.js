@@ -9535,6 +9535,7 @@ in
 the
 browser
 *
+*
 param
 aObject
 JavaScript
@@ -10217,6 +10218,7 @@ column
 table
 .
 *
+*
 param
 rows
 An
@@ -10788,6 +10790,7 @@ key
 /
 value
 tables
+*
 *
 param
 aPing
@@ -11540,6 +11543,7 @@ value
 table
 .
 *
+*
 param
 aPayload
 A
@@ -11849,6 +11853,7 @@ value
 table
 .
 *
+*
 param
 aPayload
 A
@@ -11923,6 +11928,7 @@ a
 simple
 table
 .
+*
 *
 param
 aPayload

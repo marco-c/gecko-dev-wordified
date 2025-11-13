@@ -268,6 +268,7 @@ same
 tab
 .
 *
+*
 param
 {
 string
@@ -320,10 +321,9 @@ of
 urls
 )
 {
-await
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .
@@ -1739,10 +1739,9 @@ blank
 "
 )
 ;
-await
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .
@@ -1981,10 +1980,9 @@ userContextId
 }
 )
 ;
-await
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .
@@ -2854,10 +2852,9 @@ blank
 "
 )
 ;
-await
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .
@@ -2956,10 +2953,9 @@ MODE_REJECT_OR_ACCEPT
 true
 )
 ;
-await
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .

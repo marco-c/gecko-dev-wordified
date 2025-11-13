@@ -1030,6 +1030,7 @@ nodes
 summed
 .
 *
+*
 param
 Array
 textNodes

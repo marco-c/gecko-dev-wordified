@@ -620,6 +620,7 @@ the
 passed
 target
 *
+*
 param
 {
 TargetFront
@@ -2246,7 +2247,7 @@ lazy
 .
 Downloads
 .
-getPreferredDownloadsDirectory
+getPreferredScreenshotsDirectory
 (
 )
 ;

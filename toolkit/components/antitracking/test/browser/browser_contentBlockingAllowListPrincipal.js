@@ -97,6 +97,7 @@ the
 contentBlockingAllowListPrincipal
 .
 *
+*
 param
 {
 Browser
@@ -303,6 +304,7 @@ browsing
 window
 .
 *
+*
 param
 {
 String
@@ -460,6 +462,7 @@ it
 to
 load
 .
+*
 *
 param
 {

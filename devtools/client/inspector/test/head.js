@@ -356,6 +356,7 @@ content
 window
 .
 *
+*
 param
 {
 Toolbox
@@ -487,6 +488,7 @@ Escape
 keyboard
 shortcut
 *
+*
 param
 {
 Toolbox
@@ -550,6 +552,7 @@ eye
 dropper
 tool
 .
+*
 *
 param
 {
@@ -1540,6 +1543,7 @@ css
 selector
 .
 *
+*
 param
 {
 String
@@ -1664,6 +1668,7 @@ its
 container
 element
 .
+*
 *
 param
 {
@@ -1871,6 +1876,7 @@ inspect
 menu
 item
 .
+*
 *
 param
 {
@@ -2579,6 +2585,7 @@ given
 *
 NodeFront
 *
+*
 param
 {
 NodeFront
@@ -2641,6 +2648,7 @@ the
 given
 *
 selector
+*
 *
 param
 {
@@ -2821,6 +2829,7 @@ selector
 passed
 .
 *
+*
 param
 {
 String
@@ -2994,6 +3003,7 @@ selector
 passed
 .
 *
+*
 param
 {
 String
@@ -3155,6 +3165,7 @@ markup
 -
 view
 area
+*
 *
 param
 {
@@ -3342,6 +3353,7 @@ to
 *
 occur
 *
+*
 param
 {
 InspectorPanel
@@ -3479,6 +3491,7 @@ mutation
 to
 *
 occur
+*
 *
 param
 {
@@ -3715,6 +3728,7 @@ it
 returns
 true
 .
+*
 *
 param
 {
@@ -5263,6 +5277,7 @@ the
 given
 element
 .
+*
 *
 param
 {
@@ -9459,6 +9474,7 @@ for
 the
 given
 element
+*
 *
 param
 {

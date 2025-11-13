@@ -655,6 +655,7 @@ WebConsoleUI
 instance
 .
 *
+*
 return
 {
 Object
@@ -4372,6 +4373,7 @@ split
 console
 present
 .
+*
 *
 private
 *

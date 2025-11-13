@@ -480,6 +480,7 @@ more
 common
 .
 *
+*
 param
 header
 string
@@ -706,6 +707,7 @@ Protocol
 specification
 .
 *
+*
 param
 transport
 DebuggerTransport
@@ -773,6 +775,7 @@ received
 so
 far
 .
+*
 *
 param
 header
@@ -1555,6 +1558,7 @@ more
 details
 .
 *
+*
 param
 transport
 DebuggerTransport
@@ -1644,6 +1648,7 @@ received
 so
 far
 .
+*
 *
 param
 header
@@ -2719,6 +2724,7 @@ onto
 the
 stream
 .
+*
 *
 param
 transport

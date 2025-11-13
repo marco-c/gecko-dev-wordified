@@ -832,6 +832,7 @@ easing
 parameter
 .
 *
+*
 param
 offset
 -

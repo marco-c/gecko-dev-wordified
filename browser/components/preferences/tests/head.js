@@ -1152,6 +1152,7 @@ in
 order
 .
 *
+*
 param
 {
 Array
@@ -1482,6 +1483,7 @@ the
 value
 .
 *
+*
 param
 {
 string
@@ -1638,6 +1640,7 @@ correct
 FxA
 server
 .
+*
 *
 returns
 {
@@ -3399,6 +3402,7 @@ expected
 value
 .
 *
+*
 param
 {
 Document
@@ -3539,6 +3543,7 @@ the
 dialog
 response
 .
+*
 *
 param
 {

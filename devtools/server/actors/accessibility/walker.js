@@ -2463,6 +2463,7 @@ domnode
 actor
 .
 *
+*
 param
 {
 Object
@@ -2619,6 +2620,7 @@ a
 raw
 node
 .
+*
 *
 param
 {
@@ -4018,6 +4020,7 @@ highlighter
 overlay
 .
 *
+*
 param
 {
 Object
@@ -4194,6 +4197,7 @@ accessible
 highlighter
 overlay
 .
+*
 *
 param
 {
@@ -4801,6 +4805,7 @@ shold
 be
 ignored
 .
+*
 *
 param
 {

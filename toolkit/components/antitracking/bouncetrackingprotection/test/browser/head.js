@@ -238,6 +238,7 @@ given
 origin
 .
 *
+*
 param
 {
 string
@@ -307,6 +308,7 @@ represents
 a
 tracker
 .
+*
 *
 param
 {
@@ -1271,6 +1273,7 @@ on
 it
 .
 *
+*
 param
 {
 MozBrowser
@@ -1709,6 +1712,7 @@ tab
 browser
 .
 *
+*
 param
 {
 browser
@@ -1888,6 +1892,7 @@ as
 *
 trackers
 .
+*
 *
 param
 {

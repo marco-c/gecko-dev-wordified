@@ -849,6 +849,7 @@ enabled
 )
 .
 *
+*
 param
 {
 Object
@@ -1074,6 +1075,7 @@ present
 )
 .
 *
+*
 param
 {
 Object
@@ -1291,6 +1293,7 @@ present
 )
 .
 *
+*
 param
 {
 Object
@@ -1415,6 +1418,7 @@ content
 window
 .
 *
+*
 param
 browser
 *
@@ -1457,7 +1461,6 @@ a
 given
 browser
 .
-*
 *
 /
 function
@@ -1520,6 +1523,7 @@ is
 present
 )
 .
+*
 *
 param
 {
@@ -1704,6 +1708,7 @@ iframe
 proccess
 .
 *
+*
 param
 {
 Object
@@ -1834,6 +1839,7 @@ into
 the
 test
 *
+*
 param
 {
 Array
@@ -1921,6 +1927,7 @@ target
 s
 content
 .
+*
 *
 param
 {
@@ -2672,6 +2679,7 @@ for
 the
 IFRAME
 .
+*
 *
 param
 {
@@ -4390,6 +4398,7 @@ markup
 snippet
 .
 *
+*
 param
 {
 String
@@ -5146,6 +5155,7 @@ defunct
 test
 .
 *
+*
 param
 {
 nsIAccessible
@@ -5262,6 +5272,7 @@ given
 accessible
 .
 *
+*
 param
 {
 nsIAccessible
@@ -5346,6 +5357,7 @@ its
 DOMNode
 id
 .
+*
 *
 param
 {

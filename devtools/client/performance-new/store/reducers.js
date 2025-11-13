@@ -205,6 +205,7 @@ the
 recording
 .
 *
+*
 type
 {
 Reducer
@@ -796,6 +797,7 @@ helpful
 message
 .
 *
+*
 param
 {
 RecordingState
@@ -916,6 +918,7 @@ s
 platform
 .
 *
+*
 type
 {
 Reducer
@@ -989,6 +992,7 @@ at
 load
 time
 .
+*
 *
 type
 {
@@ -1125,6 +1129,7 @@ to
 this
 structure
 .
+*
 *
 param
 {
@@ -1419,6 +1424,7 @@ as
 recording
 settings
 .
+*
 *
 type
 {
@@ -1918,6 +1924,7 @@ performance
 new
 client
 .
+*
 *
 type
 {

@@ -1190,6 +1190,7 @@ whitespace
 only
 ?
 *
+*
 param
 {
 DOMNode
@@ -1252,6 +1253,7 @@ width
 and
 height
 ?
+*
 *
 param
 {

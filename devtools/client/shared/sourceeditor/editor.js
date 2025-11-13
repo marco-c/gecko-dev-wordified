@@ -6453,7 +6453,6 @@ and
 remove
 markers
 *
-*
 /
 #
 createlineContentMarkersExtension
@@ -7752,6 +7751,7 @@ the
 editor
 .
 *
+*
 param
 {
 Object
@@ -8080,6 +8080,7 @@ the
 editor
 .
 *
+*
 param
 {
 Object
@@ -8336,6 +8337,7 @@ on
 a
 condition
 .
+*
 *
 property
 {
@@ -8609,6 +8611,7 @@ has
 the
 specified
 className
+*
 *
 param
 {
@@ -10265,6 +10268,7 @@ specific
 position
 .
 *
+*
 param
 {
 Object
@@ -10502,6 +10506,7 @@ the
 specified
 id
 *
+*
 param
 {
 string
@@ -10576,6 +10581,7 @@ for
 the
 line
 gutter
+*
 *
 param
 {
@@ -11681,6 +11687,7 @@ any
 search
 pattern
 *
+*
 param
 {
 RegExp
@@ -12622,6 +12629,7 @@ the
 current
 selection
 *
+*
 returns
 {
 Object
@@ -12817,6 +12825,7 @@ the
 current
 selection
 *
+*
 returns
 {
 String
@@ -12925,6 +12934,7 @@ are
 hovered
 over
 .
+*
 *
 param
 {
@@ -13149,6 +13159,7 @@ that
 text
 is
 selected
+*
 *
 returns
 {
@@ -22548,6 +22559,7 @@ specified
 codemirror
 offset
 *
+*
 param
 {
 Number
@@ -22672,6 +22684,7 @@ scrolling
 should
 happen
 .
+*
 *
 param
 {
@@ -23111,6 +23124,7 @@ CM6
 offset
 position
 *
+*
 param
 {
 Number
@@ -23425,6 +23439,7 @@ specified
 line
 and
 column
+*
 *
 param
 {
@@ -23914,6 +23929,7 @@ Used
 only
 for
 CM6
+*
 *
 param
 {

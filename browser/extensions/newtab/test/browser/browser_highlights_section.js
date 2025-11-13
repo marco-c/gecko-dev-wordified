@@ -49,6 +49,7 @@ section
 tests
 .
 *
+*
 param
 bookmarkCount
 Number

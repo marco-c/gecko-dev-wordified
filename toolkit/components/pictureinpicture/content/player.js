@@ -807,6 +807,7 @@ the
 PiP
 window
 *
+*
 param
 {
 Object
@@ -3530,6 +3531,7 @@ on
 the
 scrubber
 *
+*
 param
 {
 Event
@@ -3708,6 +3710,7 @@ before
 scrubbing
 .
 *
+*
 param
 {
 Event
@@ -3816,6 +3819,7 @@ preventNextInputEvent
 to
 true
 .
+*
 *
 param
 {
@@ -4725,6 +4729,7 @@ the
 subtitles
 settings
 panel
+*
 *
 param
 {

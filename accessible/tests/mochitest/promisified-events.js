@@ -391,6 +391,7 @@ string
 format
 .
 *
+*
 param
 {
 nsIAccessibleEvent
@@ -774,6 +775,7 @@ accessible
 is
 observed
 .
+*
 *
 param
 {
@@ -1217,6 +1219,7 @@ in
 specified
 order
 .
+*
 *
 param
 {
@@ -1933,6 +1936,7 @@ want
 this
 behavior
 .
+*
 *
 param
 {

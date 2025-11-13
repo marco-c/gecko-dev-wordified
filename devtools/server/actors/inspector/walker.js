@@ -994,6 +994,7 @@ Create
 the
 WalkerActor
 *
+*
 param
 {
 DevToolsServerConnection
@@ -1833,6 +1834,7 @@ eventListenerService
 .
 addListenerChangeListener
 *
+*
 param
 nsISimpleEnumerator
 changesEnum
@@ -2559,6 +2561,7 @@ node
 before
 .
 *
+*
 param
 {
 DOMNode
@@ -2609,6 +2612,7 @@ corresponding
 node
 actor
 .
+*
 *
 param
 {
@@ -3740,6 +3744,7 @@ is
 specified
 .
 *
+*
 param
 NodeActor
 node
@@ -3809,6 +3814,7 @@ the
 given
 node
 .
+*
 *
 param
 NodeActor
@@ -5101,6 +5107,7 @@ filtered
 as
 needed
 *
+*
 param
 Node
 rawNode
@@ -6333,6 +6340,7 @@ content
 page
 .
 *
+*
 param
 {
 String
@@ -6444,6 +6452,7 @@ current
 content
 page
 .
+*
 *
 param
 {
@@ -6594,6 +6603,7 @@ current
 content
 page
 .
+*
 *
 param
 {
@@ -8596,6 +8606,7 @@ or
 all
 nodes
 .
+*
 *
 param
 {
@@ -15012,6 +15023,7 @@ the
 current
 page
 .
+*
 *
 param
 {

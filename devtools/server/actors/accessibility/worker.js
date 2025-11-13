@@ -63,14 +63,6 @@ strict
 ;
 /
 *
-eslint
--
-env
-worker
-*
-/
-/
-*
 *
 *
 Import
@@ -400,6 +392,7 @@ and
 max
 luminances
 .
+*
 *
 param
 {

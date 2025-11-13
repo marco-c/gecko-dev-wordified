@@ -10377,6 +10377,7 @@ selected
 element
 ?
 *
+*
 return
 {
 Boolean
@@ -12287,6 +12288,7 @@ the
 page
 .
 *
+*
 return
 {
 Promise
@@ -12429,6 +12431,7 @@ Hide
 the
 eyedropper
 .
+*
 *
 return
 {

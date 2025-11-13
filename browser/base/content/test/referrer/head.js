@@ -699,6 +699,7 @@ test
 number
 .
 *
+*
 param
 aTestNumber
 The
@@ -852,6 +853,7 @@ for
 logging
 .
 *
+*
 param
 aTestNumber
 The
@@ -940,6 +942,7 @@ the
 link
 .
 *
+*
 param
 aWindow
 The
@@ -1010,6 +1013,7 @@ the
 target
 window
 .
+*
 *
 param
 aWindow
@@ -1095,6 +1099,7 @@ startup
 to
 finish
 .
+*
 *
 param
 aWindow
@@ -1207,6 +1212,7 @@ the
 load
 .
 *
+*
 param
 aWindow
 The
@@ -1277,6 +1283,7 @@ the
 open
 .
 *
+*
 return
 {
 Promise
@@ -1340,6 +1347,7 @@ the
 context
 menu
 .
+*
 *
 param
 aWindow
@@ -1457,6 +1465,7 @@ menu
 command
 .
 *
+*
 param
 aWindow
 The
@@ -1543,6 +1552,7 @@ url
 into
 gTestWindow
 .
+*
 *
 param
 aTestNumber
@@ -1733,6 +1743,7 @@ the
 next
 test
 .
+*
 *
 param
 aTestNumber
@@ -2042,6 +2053,7 @@ complete
 referrer
 test
 .
+*
 *
 param
 aStartTestCase

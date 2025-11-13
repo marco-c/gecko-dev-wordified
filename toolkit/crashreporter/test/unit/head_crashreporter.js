@@ -306,7 +306,6 @@ an
 error
 .
 *
-*
 /
 async
 function
@@ -1945,7 +1944,6 @@ with
 an
 error
 .
-*
 *
 /
 async

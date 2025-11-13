@@ -465,6 +465,7 @@ tooltip
 message
 .
 *
+*
 param
 {
 string
@@ -1069,6 +1070,7 @@ and
 column
 .
 *
+*
 returns
 {
 {
@@ -1219,6 +1221,7 @@ source
 link
 .
 *
+*
 returns
 {
 string
@@ -1280,6 +1283,7 @@ location
 is
 linkable
 .
+*
 *
 returns
 {
@@ -1873,6 +1877,7 @@ source
 elements
 .
 *
+*
 returns
 {
 React
@@ -2060,6 +2065,7 @@ the
 display
 source
 .
+*
 *
 returns
 {
@@ -2272,6 +2278,7 @@ function
 display
 name
 .
+*
 *
 returns
 {

@@ -357,6 +357,7 @@ few
 useful
 getters
 *
+*
 param
 {
 Array
@@ -668,6 +669,7 @@ canvas
 plotting
 class
 *
+*
 param
 {
 DOMNode
@@ -880,6 +882,7 @@ they
 can
 be
 positioned
+*
 *
 return
 {
@@ -1742,6 +1745,7 @@ points
 and
 user
 interaction
+*
 *
 param
 {
@@ -3412,6 +3416,7 @@ Redraw
 the
 curve
 *
+*
 param
 {
 Array
@@ -3518,6 +3523,7 @@ and
 redraw
 the
 curve
+*
 *
 param
 {
@@ -3629,6 +3635,7 @@ and
 redraw
 the
 curve
+*
 *
 param
 {
@@ -3824,6 +3831,7 @@ of
 presets
 from
 CubicBezierPresets
+*
 *
 param
 {
@@ -4988,6 +4996,7 @@ existing
 preset
 .
 *
+*
 param
 {
 Array
@@ -5260,6 +5269,7 @@ timing
 -
 function
 *
+*
 param
 {
 DOMNode
@@ -5514,6 +5524,7 @@ will
 stop
 .
 *
+*
 param
 {
 String
@@ -5592,6 +5603,7 @@ from
 the
 beginning
 .
+*
 *
 param
 {
@@ -6117,6 +6129,7 @@ return
 undefined
 .
 *
+*
 param
 {
 String
@@ -6382,6 +6395,7 @@ to
 another
 .
 *
+*
 param
 {
 String
@@ -6481,6 +6495,7 @@ j
 k
 l
 ]
+*
 *
 param
 {

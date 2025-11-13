@@ -785,7 +785,6 @@ return
 }
 data
 *
-*
 /
 getThrottleData
 (
@@ -817,7 +816,6 @@ param
 }
 data
 *
-*
 /
 setThrottleData
 (
@@ -847,6 +845,7 @@ request
 and
 response
 bodies
+*
 *
 param
 {
@@ -881,6 +880,7 @@ on
 the
 filters
 *
+*
 param
 {
 Object
@@ -913,6 +913,7 @@ based
 on
 the
 fitlers
+*
 *
 param
 {

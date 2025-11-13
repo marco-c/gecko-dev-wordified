@@ -160,6 +160,7 @@ the
 pdfjs
 entries
 *
+*
 param
 {
 Object
@@ -413,6 +414,7 @@ menu
 entries
 .
 *
+*
 param
 {
 Object
@@ -523,6 +525,7 @@ the
 context
 menu
 .
+*
 *
 param
 {
@@ -672,6 +675,7 @@ the
 expected
 ones
 .
+*
 *
 param
 {

@@ -3130,7 +3130,6 @@ sizes
 to
 load
 *
-*
 /
 function
 ClearHistoryDialogHelper

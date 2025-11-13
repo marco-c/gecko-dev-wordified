@@ -21,6 +21,7 @@ to
 object
 .
 *
+*
 param
 {
 nsIPropertyBag
@@ -993,6 +994,7 @@ use
 handlePrompt
 instead
 .
+*
 *
 param
 {

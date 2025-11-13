@@ -19,6 +19,7 @@ preferences
 page
 .
 *
+*
 returns
 {
 Promise

@@ -9890,6 +9890,7 @@ in
 the
 editor
 *
+*
 param
 {
 *
@@ -9951,6 +9952,7 @@ line
 in
 the
 gutter
+*
 *
 param
 {
@@ -10113,6 +10115,7 @@ debugger
 gutter
 .
 *
+*
 param
 {
 Object
@@ -10211,6 +10214,7 @@ open
 the
 contextmenu
 *
+*
 param
 {
 Object
@@ -10285,6 +10289,7 @@ ignored
 lines
 are
 applied
+*
 *
 param
 {
@@ -15319,6 +15324,7 @@ in
 the
 editor
 *
+*
 param
 {
 *
@@ -17561,6 +17567,7 @@ not
 displayed
 .
 *
+*
 param
 {
 *
@@ -17626,6 +17633,7 @@ numbers
 and
 strings
 )
+*
 *
 param
 {
@@ -17812,6 +17820,7 @@ tokenEl
 Asserts
 multiple
 previews
+*
 *
 param
 {
@@ -18248,6 +18257,7 @@ expression
 preview
 value
 *
+*
 param
 {
 *
@@ -18598,6 +18608,7 @@ result
 is
 shown
 *
+*
 param
 {
 *
@@ -18680,6 +18691,7 @@ in
 the
 preview
 popup
+*
 *
 param
 {
@@ -19592,6 +19604,7 @@ is
 *
 highlighted
 .
+*
 *
 param
 {
@@ -22272,6 +22285,7 @@ box
 context
 menu
 item
+*
 *
 param
 {

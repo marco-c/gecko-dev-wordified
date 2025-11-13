@@ -356,6 +356,7 @@ protocol
 scheme
 .
 *
+*
 param
 {
 string
@@ -544,6 +545,7 @@ protocol
 handler
 .
 *
+*
 param
 {
 string
@@ -635,6 +637,7 @@ protocol
 handler
 .
 *
+*
 param
 {
 string
@@ -713,6 +716,7 @@ a
 server
 redirect
 .
+*
 *
 param
 {
@@ -882,6 +886,7 @@ current
 principal
 .
 *
+*
 param
 {
 nsIPrincipal
@@ -990,6 +995,7 @@ the
 *
 result
 .
+*
 *
 param
 {
@@ -1846,6 +1852,7 @@ with
 it
 .
 *
+*
 param
 {
 dialog
@@ -2215,6 +2222,7 @@ be
 opened
 .
 *
+*
 param
 {
 MozBrowser
@@ -2298,6 +2306,7 @@ protocol
 handler
 permission
 .
+*
 *
 param
 {
@@ -2448,6 +2457,7 @@ store
 the
 permission
 .
+*
 *
 param
 {
@@ -2621,6 +2631,7 @@ be
 fully
 closed
 .
+*
 *
 param
 {

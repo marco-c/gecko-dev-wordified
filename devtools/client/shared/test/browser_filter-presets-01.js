@@ -615,6 +615,7 @@ event
 to
 emit
 *
+*
 param
 {
 CSSFilterWidget

@@ -1141,6 +1141,7 @@ of
 them
 .
 *
+*
 param
 {
 Function
@@ -1312,6 +1313,7 @@ of
 them
 .
 *
+*
 param
 {
 Function
@@ -1456,6 +1458,7 @@ add
 walker
 listeners
 .
+*
 *
 param
 {

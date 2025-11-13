@@ -132,6 +132,7 @@ the
 startup
 .
 *
+*
 params
 {
 nsIDOMWindow

@@ -2697,6 +2697,7 @@ a
 link
 .
 *
+*
 param
 url
 (
@@ -2855,6 +2856,7 @@ the
 current
 browser
 .
+*
 *
 param
 {
@@ -3074,6 +3076,7 @@ the
 Places
 Organizer
 .
+*
 *
 param
 {
@@ -4178,6 +4181,7 @@ the
 menu
 .
 *
+*
 param
 aEvent
 *
@@ -4760,6 +4764,7 @@ the
 item
 .
 *
+*
 param
 aEvent
 *
@@ -5320,6 +5325,7 @@ a
 drag
 .
 *
+*
 param
 event
 *
@@ -5861,6 +5867,7 @@ static
 container
 .
 *
+*
 returns
 true
 if
@@ -5996,6 +6003,7 @@ menu
 element
 .
 *
+*
 param
 event
 *
@@ -6084,6 +6092,7 @@ menu
 >
 element
 .
+*
 *
 param
 event
@@ -10940,6 +10949,7 @@ and
 page
 actions
 .
+*
 *
 param
 {

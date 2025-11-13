@@ -4180,6 +4180,7 @@ it
 with
 updateIsSplitConsoleEnabled
 *
+*
 returns
 {
 boolean
@@ -12183,6 +12184,7 @@ binding
 run
 .
 *
+*
 param
 {
 string
@@ -13410,6 +13412,7 @@ toolbar
 container
 .
 *
+*
 param
 {
 FocusEvent
@@ -13498,6 +13501,7 @@ the
 focused
 element
 .
+*
 *
 param
 {
@@ -16841,7 +16845,6 @@ return
 boolean
 }
 *
-*
 /
 hasAdditionalTool
 (
@@ -18613,6 +18616,7 @@ id
 as
 selected
 *
+*
 param
 {
 string
@@ -20137,6 +20141,7 @@ s
 panel
 by
 id
+*
 *
 param
 {
@@ -25605,6 +25610,7 @@ registered
 event
 .
 *
+*
 param
 {
 string
@@ -25791,6 +25797,7 @@ tool
 unregistered
 event
 .
+*
 *
 param
 {
@@ -26081,7 +26088,6 @@ is
 *
 hidden
 .
-*
 *
 /
 getHighlighter
@@ -28736,6 +28742,7 @@ selectAll
 menu
 .
 *
+*
 param
 {
 Number
@@ -29985,6 +29992,7 @@ source
 "
 .
 *
+*
 see
 devtools
 /
@@ -30578,6 +30586,7 @@ WebExtensions
 )
 .
 *
+*
 see
 devtools
 /
@@ -30734,6 +30743,7 @@ tools
 accordingly
 .
 *
+*
 see
 browser
 /
@@ -30888,6 +30898,7 @@ tools
 accordingly
 .
 *
+*
 see
 browser
 /
@@ -30995,6 +31006,7 @@ set
 to
 true
 .
+*
 *
 see
 browser

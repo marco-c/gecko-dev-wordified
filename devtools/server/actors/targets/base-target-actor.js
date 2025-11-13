@@ -254,6 +254,7 @@ Targets
 TYPES
 .
 *
+*
 return
 {
 string

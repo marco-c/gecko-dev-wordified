@@ -3793,6 +3793,7 @@ given
 url
 .
 *
+*
 param
 {
 String
@@ -4087,6 +4088,7 @@ the
 given
 tab
 .
+*
 *
 param
 {
@@ -6792,6 +6794,7 @@ given
 URL
 .
 *
+*
 param
 {
 string
@@ -7077,6 +7080,7 @@ for
 a
 tick
 .
+*
 *
 return
 {
@@ -8387,6 +8391,7 @@ s
 scope
 .
 *
+*
 param
 {
 String
@@ -8466,6 +8471,7 @@ a
 given
 tab
 .
+*
 *
 param
 {
@@ -8688,6 +8694,7 @@ in
 it
 .
 *
+*
 param
 {
 String
@@ -8808,6 +8815,7 @@ belongs
 to
 it
 *
+*
 param
 {
 Tab
@@ -8901,6 +8909,7 @@ the
 current
 tab
 .
+*
 *
 param
 {
@@ -11810,6 +11819,7 @@ matches
 the
 predicate
 .
+*
 *
 param
 Store
@@ -16690,6 +16700,7 @@ netmonitor
 instance
 .
 *
+*
 param
 {
 Object
@@ -16784,6 +16795,7 @@ popup
 to
 close
 .
+*
 *
 param
 {

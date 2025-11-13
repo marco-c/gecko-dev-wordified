@@ -3616,6 +3616,7 @@ given
 node
 .
 *
+*
 param
 NodeActor
 node
@@ -4090,6 +4091,7 @@ documentation
 on
 parameters
 .
+*
 *
 param
 NodeActor
@@ -5763,6 +5765,7 @@ on
 parameters
 .
 *
+*
 param
 DOMNode
 node
@@ -6394,6 +6397,7 @@ and
 associated
 rules
 *
+*
 param
 NodeActor
 node
@@ -6979,6 +6983,7 @@ etc
 .
 .
 .
+*
 *
 param
 {
@@ -7690,6 +7695,7 @@ style
 *
 properties
 *
+*
 param
 NodeActor
 node
@@ -7758,6 +7764,7 @@ the
 new
 StyleRuleActor
 .
+*
 *
 param
 {

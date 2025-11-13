@@ -3061,7 +3061,6 @@ devtools
 -
 toolbox
 *
-*
 /
 _getAboutDevtoolsToolbox
 (

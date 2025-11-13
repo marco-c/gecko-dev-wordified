@@ -386,6 +386,7 @@ the
 nsCanvasFrame
 .
 *
+*
 see
 /
 devtools
@@ -1130,6 +1131,7 @@ DOM
 element
 .
 *
+*
 param
 {
 string
@@ -1416,6 +1418,7 @@ its
 ID
 .
 *
+*
 param
 {
 String
@@ -1640,6 +1643,7 @@ its
 ID
 .
 *
+*
 param
 {
 String
@@ -1763,6 +1767,7 @@ its
 ID
 .
 *
+*
 param
 {
 String
@@ -1854,6 +1859,7 @@ created
 by
 the
 SelectorHighlighter
+*
 *
 param
 {
@@ -1974,6 +1980,7 @@ has
 *
 updated
 .
+*
 *
 param
 {
@@ -3463,6 +3470,7 @@ s
 node
 .
 *
+*
 param
 {
 String
@@ -3580,6 +3588,7 @@ highlighter
 s
 node
 .
+*
 *
 param
 {
@@ -4019,6 +4028,7 @@ given
 selector
 .
 *
+*
 param
 {
 String
@@ -4099,6 +4109,7 @@ given
 selector
 .
 *
+*
 param
 {
 String
@@ -4163,6 +4174,7 @@ the
 given
 rect
 .
+*
 *
 param
 {
@@ -4804,6 +4816,7 @@ model
 highlighter
 .
 *
+*
 return
 {
 Object
@@ -5032,6 +5045,7 @@ list
 of
 points
 .
+*
 *
 param
 {
@@ -5316,6 +5330,7 @@ js
 L30
 -
 L85
+*
 *
 param
 {

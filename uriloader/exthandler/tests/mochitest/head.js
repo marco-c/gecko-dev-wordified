@@ -994,6 +994,7 @@ open
 close
 .
 *
+*
 param
 {
 MozBrowser
@@ -1101,6 +1102,7 @@ browser
 frame
 .
 *
+*
 param
 {
 SubDialog
@@ -1167,6 +1169,7 @@ permission
 dialog
 .
 *
+*
 param
 {
 MozBrowser
@@ -1211,7 +1214,6 @@ the
 security
 delay
 .
-*
 *
 /
 async
@@ -1291,6 +1293,7 @@ open
 /
 close
 .
+*
 *
 param
 {
@@ -2213,6 +2216,7 @@ the
 iframe
 .
 *
+*
 param
 {
 MozBrowser
@@ -2979,6 +2983,7 @@ is
 blocked
 .
 *
+*
 returns
 {
 Promise
@@ -3102,6 +3107,7 @@ test
 using
 iframes
 .
+*
 *
 param
 {

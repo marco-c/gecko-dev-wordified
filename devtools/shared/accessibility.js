@@ -278,6 +278,7 @@ WCAG
 criteria
 .
 *
+*
 param
 {
 Number
@@ -406,6 +407,7 @@ style
 if
 possible
 .
+*
 *
 param
 {

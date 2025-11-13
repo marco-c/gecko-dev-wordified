@@ -414,6 +414,7 @@ console
 output
 .
 *
+*
 returns
 {
 Array
@@ -471,6 +472,7 @@ displayed
 in
 it
 .
+*
 *
 param
 {

@@ -68,6 +68,7 @@ keyboard
 command
 strings
 *
+*
 module
 utils
 /
@@ -118,6 +119,7 @@ and
 ends
 here
 '
+*
 *
 param
 {

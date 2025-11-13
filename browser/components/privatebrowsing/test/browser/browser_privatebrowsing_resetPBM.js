@@ -225,6 +225,7 @@ already
 open
 .
 *
+*
 param
 {
 ChromeWindow
@@ -389,6 +390,7 @@ been
 completed
 .
 *
+*
 param
 {
 ChromeWindow
@@ -465,6 +467,7 @@ the
 given
 window
 .
+*
 *
 param
 {
@@ -643,6 +646,7 @@ been
 hidden
 .
 *
+*
 param
 nsIDOMWindow
 win
@@ -710,6 +714,7 @@ has
 been
 shown
 .
+*
 *
 param
 nsIDOMWindow
@@ -831,6 +836,7 @@ be
 updated
 .
 *
+*
 returns
 {
 Promise
@@ -885,6 +891,7 @@ Test
 panel
 visibility
 .
+*
 *
 param
 {

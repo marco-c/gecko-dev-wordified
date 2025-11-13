@@ -4632,6 +4632,7 @@ has
 died
 .
 *
+*
 param
 {
 nsIAccessible
@@ -5138,6 +5139,7 @@ it
 exceeds
 MAX_TRIM_LENGTH
 .
+*
 *
 param
 aString

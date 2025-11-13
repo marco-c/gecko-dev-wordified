@@ -334,6 +334,7 @@ s
 scope
 .
 *
+*
 param
 {
 String
@@ -418,6 +419,7 @@ given
 *
 NodeFront
 *
+*
 param
 {
 NodeFront
@@ -480,6 +482,7 @@ the
 given
 *
 selector
+*
 *
 param
 {
@@ -728,6 +731,7 @@ be
 handled
 .
 *
+*
 param
 {
 InspectorPanel
@@ -844,6 +848,7 @@ the
 selector
 passed
 .
+*
 *
 param
 {
@@ -1019,6 +1024,7 @@ set
 value
 and
 commit
+*
 *
 param
 {
@@ -1198,6 +1204,7 @@ are
 )
 created
 )
+*
 *
 param
 {
@@ -1621,6 +1628,7 @@ to
 *
 occur
 *
+*
 param
 {
 InspectorPanel
@@ -1758,6 +1766,7 @@ mutation
 to
 *
 occur
+*
 *
 param
 {
@@ -1903,6 +1912,7 @@ Delete
 Node
 etc
 .
+*
 *
 param
 {
@@ -2179,6 +2189,7 @@ Delete
 Node
 etc
 .
+*
 *
 param
 {
@@ -2819,6 +2830,7 @@ markup
 view
 .
 *
+*
 param
 {
 String
@@ -3110,6 +3122,7 @@ mousemove
 *
 handlers
 .
+*
 *
 param
 {
@@ -3433,6 +3446,7 @@ been
 called
 .
 *
+*
 param
 {
 InspectorPanel
@@ -3547,6 +3561,7 @@ and
 mouseup
 handlers
 .
+*
 *
 param
 {

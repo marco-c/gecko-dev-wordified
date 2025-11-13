@@ -769,6 +769,7 @@ a
 given
 file
 *
+*
 param
 {
 nsIFile

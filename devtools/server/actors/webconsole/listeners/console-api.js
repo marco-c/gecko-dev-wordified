@@ -372,6 +372,7 @@ API
 calls
 .
 *
+*
 type
 nsIDOMWindow
 *

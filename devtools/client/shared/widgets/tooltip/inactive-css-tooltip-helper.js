@@ -763,7 +763,6 @@ the
 tooltip
 .
 *
-*
 /
 addTab
 (

@@ -192,6 +192,7 @@ given
 configuration
 .
 *
+*
 param
 {
 *
@@ -380,6 +381,7 @@ the
 protections
 panel
 .
+*
 *
 param
 {
@@ -1147,6 +1149,7 @@ is
 set
 .
 *
+*
 param
 {
 *
@@ -1731,6 +1734,7 @@ with
 the
 toggle
 .
+*
 *
 param
 {

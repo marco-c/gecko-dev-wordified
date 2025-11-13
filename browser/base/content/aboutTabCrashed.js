@@ -823,7 +823,6 @@ crash
 reports
 .
 *
-*
 /
 onSetCrashReportAvailable
 (

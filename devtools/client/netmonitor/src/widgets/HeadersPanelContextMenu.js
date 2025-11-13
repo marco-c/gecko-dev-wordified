@@ -232,6 +232,7 @@ menu
 opening
 .
 *
+*
 param
 {
 Object
@@ -528,6 +529,7 @@ Copies
 all
 .
 *
+*
 param
 {
 Object
@@ -654,6 +656,7 @@ a
 single
 item
 .
+*
 *
 param
 {

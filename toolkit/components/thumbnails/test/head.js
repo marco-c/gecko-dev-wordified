@@ -295,6 +295,7 @@ color
 values
 .
 *
+*
 param
 aRed
 The
@@ -473,6 +474,7 @@ compat
 with
 e10s
 !
+*
 *
 param
 aURL
@@ -670,6 +672,7 @@ given
 URL
 .
 *
+*
 param
 aURL
 The
@@ -715,6 +718,7 @@ given
 URL
 exists
 .
+*
 *
 param
 aURL
@@ -766,6 +770,7 @@ the
 given
 URL
 .
+*
 *
 param
 aURL

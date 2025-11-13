@@ -19189,6 +19189,7 @@ an
 array
 type
 *
+*
 function
 useIntersectionObserver
 *
@@ -19287,9 +19288,6 @@ elements
 or
 single
 element
-*
-*
-*
 *
 /
 function
@@ -19503,6 +19501,7 @@ on
 the
 screen
 width
+*
 *
 param
 {
@@ -25885,6 +25884,7 @@ TIME
 FROM
 WORD
 COUNT
+*
 *
 param
 {
@@ -70094,6 +70094,7 @@ types
 of
 images
 .
+*
 *
 param
 acc

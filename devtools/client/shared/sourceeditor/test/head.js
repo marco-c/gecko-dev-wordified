@@ -473,6 +473,7 @@ s
 scope
 .
 *
+*
 param
 {
 String
@@ -799,6 +800,7 @@ the
 CM
 tests
 .
+*
 *
 see
 codemirror

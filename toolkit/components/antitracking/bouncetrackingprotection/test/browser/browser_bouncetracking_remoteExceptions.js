@@ -131,6 +131,7 @@ ignoring
 order
 .
 *
+*
 param
 {
 string
@@ -326,6 +327,7 @@ bounce
 test
 .
 *
+*
 param
 {
 boolean
@@ -515,6 +517,7 @@ expected
 state
 .
 *
+*
 param
 {
 string
@@ -627,6 +630,7 @@ sync
 "
 event
 .
+*
 *
 param
 {

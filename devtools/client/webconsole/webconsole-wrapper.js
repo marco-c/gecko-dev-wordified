@@ -592,7 +592,6 @@ Document
 }
 document
 *
-*
 /
 constructor
 (

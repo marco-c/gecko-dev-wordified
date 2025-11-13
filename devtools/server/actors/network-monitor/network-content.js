@@ -249,7 +249,6 @@ process
 *
 constructor
 *
-*
 /
 class
 NetworkContentActor
@@ -837,6 +836,7 @@ specified
 network
 resource
 .
+*
 *
 param
 {

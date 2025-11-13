@@ -346,6 +346,7 @@ XUL
 window
 ?
 *
+*
 param
 {
 Window
@@ -428,6 +429,7 @@ a
 given
 type
 .
+*
 *
 param
 {
@@ -2461,6 +2463,7 @@ anonymous
 container
 .
 *
+*
 param
 {
 String
@@ -3426,6 +3429,7 @@ DOM
 nodes
 .
 *
+*
 param
 {
 Object
@@ -3538,6 +3542,7 @@ creates
 DOM
 nodes
 .
+*
 *
 param
 {
@@ -3761,6 +3766,7 @@ for
 document
 readyness
 .
+*
 *
 param
 {

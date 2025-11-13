@@ -1235,6 +1235,7 @@ performance
 profile
 .
 *
+*
 extends
 {
 React
@@ -1343,6 +1344,7 @@ checkbox
 change
 .
 *
+*
 param
 {
 React
@@ -1441,6 +1443,7 @@ the
 checkbox
 change
 .
+*
 *
 param
 {
@@ -3245,6 +3248,7 @@ of
 values
 .
 *
+*
 param
 {
 string
@@ -3333,6 +3337,7 @@ for
 display
 .
 *
+*
 param
 {
 number
@@ -3386,6 +3391,7 @@ number
 for
 display
 .
+*
 *
 param
 {

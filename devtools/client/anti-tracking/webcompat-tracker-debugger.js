@@ -1199,6 +1199,7 @@ selected
 trackers
 .
 *
+*
 param
 {
 boolean
@@ -1482,6 +1483,7 @@ tracker
 table
 .
 *
+*
 return
 {
 HTMLTableSectionElement
@@ -1690,6 +1692,7 @@ change
 event
 .
 *
+*
 param
 {
 Event
@@ -1786,6 +1789,7 @@ tracker
 table
 .
 *
+*
 return
 {
 HTMLTableSectionElement
@@ -1867,6 +1871,7 @@ for
 a
 tracker
 .
+*
 *
 param
 {
@@ -2157,6 +2162,7 @@ tracker
 row
 .
 *
+*
 param
 {
 string
@@ -2291,6 +2297,7 @@ change
 event
 .
 *
+*
 param
 {
 Event
@@ -2370,6 +2377,7 @@ a
 tracker
 row
 .
+*
 *
 param
 {
@@ -2499,6 +2507,7 @@ button
 click
 event
 .
+*
 *
 param
 {

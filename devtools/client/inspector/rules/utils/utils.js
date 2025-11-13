@@ -2040,7 +2040,6 @@ color
 ]
 )
 *
-*
 /
 function
 getCSSVariables

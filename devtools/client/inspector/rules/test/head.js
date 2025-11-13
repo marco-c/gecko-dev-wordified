@@ -268,6 +268,7 @@ changed
 event
 .
 *
+*
 param
 {
 SwatchBasedEditorTooltip
@@ -3649,6 +3650,7 @@ style
 modification
 .
 *
+*
 param
 {
 InspectorPanel
@@ -4264,6 +4266,7 @@ been
 recorded
 .
 *
+*
 param
 {
 CssRuleView
@@ -4408,6 +4411,7 @@ class
 -
 panel
 .
+*
 *
 param
 {
@@ -4597,6 +4601,7 @@ selecting
 the
 eyedropper
 icon
+*
 *
 param
 {

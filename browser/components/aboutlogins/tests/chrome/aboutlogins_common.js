@@ -32,6 +32,7 @@ Custom
 Element
 .
 *
+*
 returns
 {
 Promise
@@ -69,6 +70,7 @@ in
 the
 tests
 .
+*
 *
 param
 {

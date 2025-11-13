@@ -3451,6 +3451,7 @@ to
 "
 animation
 *
+*
 param
 aFrom
 The
@@ -3623,7 +3624,6 @@ or
 omitted
 )
 .
-*
 *
 /
 function
@@ -4192,6 +4192,7 @@ paced
 mode
 "
 animation
+*
 *
 param
 aValues

@@ -3782,6 +3782,7 @@ the
 toggle
 .
 *
+*
 param
 browser
 The
@@ -6358,6 +6359,7 @@ are
 loaded
 .
 *
+*
 param
 {
 Element
@@ -6666,6 +6668,7 @@ pause
 the
 video
 .
+*
 *
 param
 {
@@ -7119,6 +7122,7 @@ telemetry
 events
 .
 *
+*
 param
 {
 String
@@ -7197,6 +7201,7 @@ events
 aftering
 filtering
 .
+*
 *
 param
 {

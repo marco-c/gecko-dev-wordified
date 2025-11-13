@@ -284,6 +284,7 @@ s
 tests
 .
 *
+*
 returns
 {
 HTMLElement

@@ -209,7 +209,6 @@ targets
 *
 constructor
 *
-*
 /
 class
 BlackboxingActor

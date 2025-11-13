@@ -230,7 +230,6 @@ png
 ;
 import
 {
-isPretty
 getRawSourceURL
 }
 from
@@ -2347,10 +2346,9 @@ url
 &
 &
 !
-isPretty
-(
 source
-)
+.
+isPrettyPrinted
 &
 &
 /
@@ -3072,6 +3070,7 @@ source
 items
 in
 tree
+*
 *
 param
 {

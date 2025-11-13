@@ -552,6 +552,7 @@ current
 scroll
 behavior
 *
+*
 param
 {
 Element
@@ -614,6 +615,7 @@ mouse
 button
 is
 held
+*
 *
 param
 {
@@ -1252,6 +1254,7 @@ entire
 container
 .
 *
+*
 param
 {
 Number
@@ -1352,6 +1355,7 @@ the
 entire
 container
 .
+*
 *
 param
 {
@@ -1568,6 +1572,7 @@ with
 bounds
 *
 information
+*
 *
 param
 {
@@ -1887,6 +1892,7 @@ the
 *
 parent
 .
+*
 *
 param
 {
@@ -2709,6 +2715,7 @@ class1
 class2
 .
 *
+*
 param
 {
 NodeFront
@@ -3480,6 +3487,7 @@ event
 handler
 .
 *
+*
 param
 {
 DOMEvent
@@ -3625,6 +3633,7 @@ all
 times
 .
 *
+*
 param
 {
 DOMEvent
@@ -3718,6 +3727,7 @@ correct
 node
 .
 *
+*
 param
 {
 DOMEvent
@@ -3772,6 +3782,7 @@ content
 DOM
 Node
 .
+*
 *
 param
 {
@@ -4331,6 +4342,7 @@ selected
 node
 .
 *
+*
 param
 {
 Number
@@ -4484,6 +4496,7 @@ the
 cache
 .
 *
+*
 param
 {
 NodeFront
@@ -4584,6 +4597,7 @@ given
 index
 .
 *
+*
 param
 {
 Number
@@ -4645,6 +4659,7 @@ representing
 the
 node
 .
+*
 *
 param
 {
@@ -4857,6 +4872,7 @@ a
 node
 .
 *
+*
 param
 {
 NodeFront
@@ -5037,6 +5053,7 @@ in
 the
 breadcrumbs
 .
+*
 *
 param
 {
@@ -5382,6 +5399,7 @@ be
 updated
 .
 *
+*
 param
 {
 Array
@@ -5675,6 +5693,7 @@ are
 mutations
 .
 *
+*
 param
 {
 Array
@@ -5732,6 +5751,7 @@ node
 is
 selected
 .
+*
 *
 param
 {

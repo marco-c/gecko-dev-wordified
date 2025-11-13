@@ -201,6 +201,7 @@ fallback
 image
 .
 *
+*
 param
 {
 String
@@ -396,6 +397,7 @@ will
 be
 regenerated
 .
+*
 *
 param
 {
@@ -813,6 +815,7 @@ in
 thumbnail
 storage
 .
+*
 *
 param
 {

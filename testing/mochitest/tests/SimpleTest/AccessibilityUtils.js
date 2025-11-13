@@ -915,6 +915,7 @@ g
 labels
 .
 *
+*
 param
 {
 nsIAccessible
@@ -6239,6 +6240,7 @@ a
 failure
 .
 *
+*
 param
 {
 String
@@ -7631,6 +7633,7 @@ in
 every
 document
 .
+*
 *
 param
 {

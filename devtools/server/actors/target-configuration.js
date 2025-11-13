@@ -642,7 +642,6 @@ process
 *
 constructor
 *
-*
 /
 class
 TargetConfigurationActor

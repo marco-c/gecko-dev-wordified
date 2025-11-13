@@ -206,6 +206,7 @@ protection
 category
 .
 *
+*
 param
 {
 string
@@ -773,6 +774,7 @@ protections
 panel
 .
 *
+*
 returns
 {
 xul
@@ -873,6 +875,7 @@ child
 classes
 .
 *
+*
 returns
 {
 boolean
@@ -929,6 +932,7 @@ to
 block
 trackers
 .
+*
 *
 returns
 {
@@ -1290,6 +1294,7 @@ a
 tracker
 .
 *
+*
 returns
 {
 Object
@@ -1466,6 +1471,7 @@ this
 blocker
 .
 *
+*
 returns
 {
 Integer
@@ -1519,6 +1525,7 @@ representing
 a
 tracker
 .
+*
 *
 param
 {
@@ -1961,6 +1968,7 @@ a
 shim
 script
 .
+*
 *
 returns
 {

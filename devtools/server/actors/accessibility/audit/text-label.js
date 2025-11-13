@@ -142,6 +142,7 @@ assistive
 technology
 .
 *
+*
 param
 {
 nsIAccessible
@@ -233,6 +234,7 @@ g
 *
 labels
 .
+*
 *
 param
 {
@@ -2688,6 +2690,7 @@ type
 of
 content
 .
+*
 *
 param
 {

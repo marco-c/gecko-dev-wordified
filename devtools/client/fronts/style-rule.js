@@ -1189,6 +1189,7 @@ a
 RuleModificationList
 .
 *
+*
 param
 {
 StyleRuleFront

@@ -1380,6 +1380,7 @@ actually
 used
 .
 *
+*
 return
 s
 nsISocketTransport

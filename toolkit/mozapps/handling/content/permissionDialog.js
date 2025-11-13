@@ -550,6 +550,7 @@ address
 bar
 .
 *
+*
 returns
 {
 boolean
@@ -1217,6 +1218,7 @@ file
 /
 /
 .
+*
 *
 returns
 {

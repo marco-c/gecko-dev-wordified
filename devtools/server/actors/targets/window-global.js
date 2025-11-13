@@ -3396,6 +3396,7 @@ window
 global
 .
 *
+*
 return
 {
 Array
@@ -3635,6 +3636,7 @@ the
 window
 global
 .
+*
 *
 return
 {

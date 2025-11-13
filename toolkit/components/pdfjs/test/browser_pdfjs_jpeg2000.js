@@ -74,6 +74,7 @@ drawn
 canvas
 .
 *
+*
 param
 {
 Object

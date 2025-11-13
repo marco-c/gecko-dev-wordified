@@ -2142,6 +2142,7 @@ being
 activated
 .
 *
+*
 param
 {
 Object
@@ -2271,6 +2272,7 @@ given
 path
 .
 *
+*
 param
 {
 String
@@ -2384,6 +2386,7 @@ DOMNode
 front
 .
 *
+*
 param
 {
 Object
@@ -2450,6 +2453,7 @@ an
 Accessible
 front
 .
+*
 *
 param
 {
@@ -2678,6 +2682,7 @@ by
 VirtualizedTree
 component
 .
+*
 *
 param
 {

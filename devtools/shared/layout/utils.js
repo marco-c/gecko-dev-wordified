@@ -2088,6 +2088,7 @@ inIDeepTreeWalker
 instead
 .
 *
+*
 param
 {
 DOMNode
@@ -3216,6 +3217,7 @@ given
 node
 .
 *
+*
 param
 {
 DOMNode
@@ -3762,6 +3764,7 @@ node
 the
 window
 itself
+*
 *
 param
 {

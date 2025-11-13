@@ -887,6 +887,7 @@ from
 the
 menulists
 *
+*
 param
 {
 string
@@ -1934,6 +1935,7 @@ custom
 homepage
 URL
 *
+*
 param
 {
 obj
@@ -2207,6 +2209,7 @@ newValue
 *
 _isHomePageDefaultValue
 *
+*
 returns
 {
 bool
@@ -2267,6 +2270,7 @@ isDefault
 *
 *
 isHomePageBlank
+*
 *
 returns
 {
@@ -2359,6 +2363,7 @@ about
 settings
 ?
 *
+*
 param
 {
 Element
@@ -2438,6 +2443,7 @@ settings
 *
 *
 _getTabsForHomePage
+*
 *
 returns
 {

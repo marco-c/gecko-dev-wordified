@@ -1351,6 +1351,7 @@ transition
 property
 .
 *
+*
 return
 {
 String
@@ -1434,6 +1435,7 @@ in
 milliseconds
 .
 *
+*
 return
 {
 Number
@@ -1473,6 +1475,7 @@ in
 milliseconds
 .
 *
+*
 return
 {
 Number
@@ -1511,6 +1514,7 @@ player
 in
 milliseconds
 .
+*
 *
 return
 {
@@ -1562,6 +1566,7 @@ scheduled
 to
 run
 .
+*
 *
 return
 {
@@ -1639,6 +1644,7 @@ the
 animation
 .
 *
+*
 return
 {
 Number
@@ -1675,6 +1681,7 @@ from
 this
 player
 .
+*
 *
 return
 {
@@ -1714,6 +1721,7 @@ this
 player
 .
 *
+*
 return
 {
 String
@@ -1750,6 +1758,7 @@ from
 this
 player
 .
+*
 *
 return
 {
@@ -1792,6 +1801,7 @@ if
 CSS
 Animations
 .
+*
 *
 return
 {
@@ -1937,6 +1947,7 @@ of
 the
 Animation
 .
+*
 *
 return
 {
@@ -2346,6 +2357,7 @@ the
 getState
 method
 .
+*
 *
 return
 {
@@ -2827,6 +2839,7 @@ this
 animation
 player
 .
+*
 *
 return
 {
@@ -3426,6 +3439,7 @@ property
 names
 .
 *
+*
 param
 {
 Array
@@ -3522,6 +3536,7 @@ between
 value1
 value2
 .
+*
 *
 param
 {
@@ -3925,6 +3940,7 @@ particular
 animation
 .
 *
+*
 param
 {
 WalkerActor
@@ -4004,6 +4020,7 @@ getAnimationPlayersForNode
 being
 called
 .
+*
 *
 param
 {
@@ -5073,6 +5090,7 @@ same
 time
 .
 *
+*
 param
 {
 Array
@@ -5204,6 +5222,7 @@ the
 same
 time
 .
+*
 *
 param
 {

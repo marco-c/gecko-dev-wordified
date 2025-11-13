@@ -1161,7 +1161,6 @@ to
 set
 .
 *
-*
 /
 addInstantMarker
 (

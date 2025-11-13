@@ -2348,6 +2348,7 @@ be
 highlighted
 .
 *
+*
 param
 {
 DOMNode
@@ -3136,6 +3137,7 @@ spans
 line
 breaks
 .
+*
 *
 param
 {
@@ -4421,6 +4423,7 @@ have
 quads
 .
 *
+*
 return
 {
 Boolean
@@ -4630,6 +4633,7 @@ a
 guide
 there
 .
+*
 *
 param
 {

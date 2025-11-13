@@ -232,7 +232,6 @@ thunkArgs
 )
 ;
 *
-*
 /
 export
 function

@@ -206,6 +206,7 @@ is
 correct
 .
 *
+*
 param
 {
 Array
@@ -319,6 +320,7 @@ for
 a
 description
 .
+*
 *
 param
 {

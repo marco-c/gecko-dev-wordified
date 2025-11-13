@@ -386,6 +386,7 @@ system
 string
 .
 *
+*
 return
 The
 clearkey
@@ -433,6 +434,7 @@ without
 *
 padding
 .
+*
 *
 param
 uint8Array
@@ -539,6 +541,7 @@ alphabet
 without
 padding
 .
+*
 *
 param
 hexString
@@ -687,6 +690,7 @@ a
 hex
 string
 .
+*
 *
 param
 base64String
@@ -966,6 +970,7 @@ EME
 helper
 .
 *
+*
 param
 keySystem
 The
@@ -1032,6 +1037,7 @@ navigator
 .
 requestMediaKeySystemAccess
 .
+*
 *
 param
 initDataTypes
@@ -1168,6 +1174,7 @@ on
 these
 .
 *
+*
 param
 audioCapabilities
 A
@@ -1272,6 +1279,7 @@ info
 on
 these
 .
+*
 *
 param
 videoCapabilities
@@ -1453,6 +1461,7 @@ key
 map
 .
 *
+*
 param
 keyId
 The
@@ -1529,6 +1538,7 @@ a
 session
 )
 .
+*
 *
 param
 messageEvent
@@ -1814,6 +1824,7 @@ instance
 of
 EmeHelper
 .
+*
 *
 param
 htmlMediaElement

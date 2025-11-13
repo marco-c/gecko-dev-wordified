@@ -238,6 +238,7 @@ Always
 Translate
 Preferences
 *
+*
 type
 Array
 <
@@ -262,6 +263,7 @@ the
 Never
 Translate
 Preferences
+*
 *
 type
 Array
@@ -288,6 +290,7 @@ Never
 Translate
 Site
 Preferences
+*
 *
 type
 Array
@@ -326,6 +329,7 @@ s
 download
 size
 .
+*
 *
 type
 {
@@ -406,6 +410,7 @@ locale
 identifiers
 )
 .
+*
 *
 type
 Array
@@ -2906,6 +2911,7 @@ preferences
 list
 .
 *
+*
 param
 {
 Event
@@ -3017,6 +3023,7 @@ preferences
 list
 .
 *
+*
 param
 {
 Event
@@ -3127,6 +3134,7 @@ translate
 lists
 .
 *
+*
 param
 {
 Array
@@ -3232,6 +3240,7 @@ to
 the
 preference
 setting
+*
 *
 param
 {
@@ -3628,6 +3637,7 @@ translate
 site
 list
 *
+*
 param
 {
 string
@@ -3827,6 +3837,7 @@ translate
 site
 list
 *
+*
 param
 {
 string
@@ -3955,6 +3966,7 @@ siteList
 *
 *
 Oberver
+*
 *
 param
 {
@@ -4319,6 +4331,7 @@ a
 language
 .
 *
+*
 param
 {
 Array
@@ -4432,6 +4445,7 @@ button
 element
 as
 icon
+*
 *
 param
 {
@@ -4660,6 +4674,7 @@ in
 the
 HTML
 .
+*
 *
 param
 {
@@ -4975,6 +4990,7 @@ representing
 a
 language
 *
+*
 param
 {
 string
@@ -5080,6 +5096,7 @@ the
 relevant
 preferences
 .
+*
 *
 param
 {
@@ -5195,6 +5212,7 @@ in
 Preferences
 .
 *
+*
 param
 {
 Event
@@ -5261,6 +5279,7 @@ in
 Preferences
 .
 *
+*
 param
 {
 Event
@@ -5321,6 +5340,7 @@ Never
 Translate
 Site
 Permission
+*
 *
 param
 {
@@ -5383,6 +5403,7 @@ the
 local
 data
 .
+*
 *
 param
 {
@@ -5853,6 +5874,7 @@ user
 through
 HTML
 *
+*
 param
 {
 Event
@@ -6160,6 +6182,7 @@ user
 through
 HTML
 *
+*
 param
 {
 Event
@@ -6434,6 +6457,7 @@ all
 language
 models
 *
+*
 param
 {
 Event
@@ -6587,6 +6611,7 @@ remove
 all
 language
 models
+*
 *
 param
 {
@@ -6935,6 +6960,7 @@ Language
 is
 removed
 .
+*
 *
 param
 {

@@ -3671,6 +3671,7 @@ in
 the
 UI
 *
+*
 param
 {
 Object
@@ -7049,7 +7050,6 @@ XMLHttpRequest
 response
 }
 *
-*
 /
 function
 promiseXHR
@@ -7318,7 +7318,6 @@ response
 empty
 string
 }
-*
 *
 /
 function
@@ -10286,6 +10285,7 @@ the
 sidebar
 .
 *
+*
 param
 {
 Document
@@ -10894,6 +10894,7 @@ the
 split
 console
 *
+*
 param
 {
 Object
@@ -11145,7 +11146,6 @@ size
 false
 otherwise
 .
-*
 *
 /
 function

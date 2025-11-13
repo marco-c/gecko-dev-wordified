@@ -355,6 +355,7 @@ is
 observed
 .
 *
+*
 return
 {
 Action
@@ -392,6 +393,7 @@ is
 observed
 .
 *
+*
 return
 {
 Action
@@ -428,6 +430,7 @@ for
 the
 interval
 .
+*
 *
 param
 {
@@ -472,6 +475,7 @@ the
 entries
 .
 *
+*
 param
 {
 number
@@ -514,6 +518,7 @@ for
 the
 features
 .
+*
 *
 param
 {
@@ -674,6 +679,7 @@ the
 threads
 .
 *
+*
 param
 {
 string
@@ -714,6 +720,7 @@ Change
 the
 preset
 .
+*
 *
 param
 {
@@ -795,6 +802,7 @@ the
 objdirs
 .
 *
+*
 param
 {
 string
@@ -849,6 +857,7 @@ values
 are
 expected
 .
+*
 *
 param
 {
@@ -906,6 +915,7 @@ redux
 store
 .
 *
+*
 param
 {
 RecordingSettings
@@ -956,6 +966,7 @@ internal
 recording
 state
 .
+*
 *
 param
 {
@@ -1086,6 +1097,7 @@ new
 window
 .
 *
+*
 param
 {
 PerfFront
@@ -1179,6 +1191,7 @@ retrieve
 the
 profile
 .
+*
 *
 param
 {

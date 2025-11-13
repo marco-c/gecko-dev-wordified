@@ -130,6 +130,7 @@ log
 messages
 .
 *
+*
 param
 {
 string
@@ -315,6 +316,7 @@ condition
 is
 fullfilled
 .
+*
 *
 param
 {
@@ -614,6 +616,7 @@ the
 XPath
 .
 *
+*
 returns
 {
 HTMLElement
@@ -871,6 +874,7 @@ element
 to
 exist
 .
+*
 *
 param
 {
@@ -1447,6 +1451,7 @@ to
 initialize
 .
 *
+*
 param
 {
 Window
@@ -1703,6 +1708,7 @@ profiler
 popup
 .
 *
+*
 param
 {
 Window
@@ -1827,6 +1833,7 @@ close
 it
 afterwards
 .
+*
 *
 param
 {
@@ -2282,6 +2289,7 @@ test
 output
 .
 *
+*
 param
 {
 object
@@ -2536,6 +2544,7 @@ the
 url
 .
 *
+*
 param
 {
 {
@@ -2773,6 +2782,7 @@ to
 the
 mochitest
 .
+*
 *
 param
 {
@@ -4090,6 +4100,7 @@ profiler
 features
 .
 *
+*
 param
 {
 string
@@ -4261,6 +4272,7 @@ preset
 description
 .
 *
+*
 param
 {
 Element
@@ -4324,6 +4336,7 @@ in
 string
 form
 .
+*
 *
 param
 {
@@ -5062,6 +5075,7 @@ via
 *
 WebChannel
 .
+*
 *
 param
 {

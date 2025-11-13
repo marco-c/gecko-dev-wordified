@@ -1163,7 +1163,6 @@ Object
 }
 sourceActor
 *
-*
 /
 export
 function

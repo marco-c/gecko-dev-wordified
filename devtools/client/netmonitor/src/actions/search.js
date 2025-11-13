@@ -982,6 +982,7 @@ ongoing
 search
 .
 *
+*
 returns
 {
 Function
@@ -1105,6 +1106,7 @@ entire
 search
 panel
 *
+*
 returns
 {
 Function
@@ -1162,6 +1164,7 @@ Toggles
 case
 sensitive
 search
+*
 *
 returns
 {

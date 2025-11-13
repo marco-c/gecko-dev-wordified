@@ -244,6 +244,7 @@ ss
 .
 SSS
 *
+*
 param
 {
 number

@@ -1158,6 +1158,7 @@ by
 getAdjustedQuads
 .
 *
+*
 return
 {
 Object
@@ -1544,6 +1545,7 @@ it
 have
 quads
 .
+*
 *
 return
 {

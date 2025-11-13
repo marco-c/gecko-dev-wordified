@@ -226,6 +226,7 @@ time
 units
 .
 *
+*
 return
 {
 Number
@@ -345,6 +346,7 @@ different
 time
 units
 .
+*
 *
 return
 {
@@ -673,6 +675,7 @@ AM
 PM
 )
 *
+*
 param
 {
 Number
@@ -763,6 +766,7 @@ format
 23
 )
 *
+*
 param
 {
 Number
@@ -796,6 +800,7 @@ minute
 ~
 59
 )
+*
 *
 param
 {
@@ -831,6 +836,7 @@ second
 59
 )
 *
+*
 param
 {
 Number
@@ -864,6 +870,7 @@ millisecond
 ~
 999
 )
+*
 *
 param
 {
@@ -1548,6 +1555,7 @@ Get
 the
 milliseconds
 range
+*
 *
 param
 {

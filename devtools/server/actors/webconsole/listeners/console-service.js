@@ -317,6 +317,7 @@ page
 errors
 .
 *
+*
 type
 nsIDOMWindow
 *
@@ -341,6 +342,7 @@ the
 console
 service
 .
+*
 *
 type
 function

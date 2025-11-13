@@ -1192,6 +1192,7 @@ before
 another
 .
 *
+*
 param
 {
 XulToolbarItem

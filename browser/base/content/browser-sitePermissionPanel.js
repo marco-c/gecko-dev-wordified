@@ -1162,6 +1162,7 @@ permission
 popup
 .
 *
+*
 param
 {
 Event
@@ -5930,6 +5931,7 @@ device
 type
 .
 *
+*
 param
 {
 Object
@@ -6984,6 +6986,7 @@ for
 said
 permissions
 .
+*
 *
 param
 browser

@@ -472,6 +472,7 @@ Target
 Actor
 .
 *
+*
 emits
 stylesheet
 -
@@ -834,6 +835,7 @@ about
 existing
 stylesheets
 .
+*
 *
 param
 {

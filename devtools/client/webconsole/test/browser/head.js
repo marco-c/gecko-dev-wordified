@@ -8765,6 +8765,7 @@ is
 opened
 .
 *
+*
 param
 toolbox
 *
@@ -8928,6 +8929,7 @@ vertically
 overflows
 .
 *
+*
 param
 {
 HTMLElement
@@ -8971,6 +8973,7 @@ to
 the
 bottom
 .
+*
 *
 param
 {
@@ -9814,6 +9817,7 @@ are
 ignored
 .
 *
+*
 param
 {
 WebConsole
@@ -10177,6 +10181,7 @@ the
 content
 page
 .
+*
 *
 returns
 {
@@ -11402,6 +11407,7 @@ the
 screenshot
 command
 .
+*
 *
 return
 The

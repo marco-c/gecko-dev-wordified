@@ -147,6 +147,7 @@ test
 path
 .
 *
+*
 param
 {
 String
@@ -420,6 +421,7 @@ expected
 auth
 state
 .
+*
 *
 param
 {

@@ -233,6 +233,7 @@ sync
 event
 .
 *
+*
 param
 {
 Object
@@ -342,6 +343,7 @@ ignoring
 order
 .
 *
+*
 param
 {
 string
@@ -444,6 +446,7 @@ the
 expected
 state
 .
+*
 *
 param
 {
@@ -566,6 +569,7 @@ nested
 ABA
 iframe
 .
+*
 *
 param
 {

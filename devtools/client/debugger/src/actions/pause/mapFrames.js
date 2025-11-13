@@ -306,6 +306,11 @@ getOriginalLocation
 (
 frame
 .
+generatedLocation
+|
+|
+frame
+.
 location
 thunkArgs
 {
@@ -982,6 +987,7 @@ source
 is
 pretty
 printed
+*
 *
 memberof
 actions

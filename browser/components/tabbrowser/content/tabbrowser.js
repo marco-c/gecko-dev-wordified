@@ -4231,6 +4231,7 @@ t
 exist
 .
 *
+*
 return
 the
 find
@@ -4335,6 +4336,7 @@ a
 findbar
 instance
 .
+*
 *
 param
 aTab
@@ -16033,6 +16035,7 @@ doubt
 use
 addWebTab
 *
+*
 param
 {
 string
@@ -17734,6 +17737,7 @@ tab
 split
 view
 .
+*
 *
 param
 {
@@ -27231,6 +27235,7 @@ these
 tabs
 .
 *
+*
 type
 {
 Map
@@ -31729,6 +31734,7 @@ mouse
 middleclick
 .
 *
+*
 param
 node
 *
@@ -31908,6 +31914,7 @@ we
 blur
 aTab
 .
+*
 *
 param
 {
@@ -51715,6 +51722,7 @@ for
 the
 browser
 .
+*
 *
 param
 aBrowser

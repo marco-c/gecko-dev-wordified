@@ -1382,7 +1382,6 @@ ServerCollection
 instance
 .
 *
-*
 /
 function
 ServerCollection
@@ -5218,7 +5217,6 @@ has
 been
 stopped
 .
-*
 *
 /
 stop

@@ -910,6 +910,7 @@ pointerlock
 warning
 .
 *
+*
 param
 {
 (
@@ -2689,6 +2690,7 @@ in
 *
 fullscreen
 .
+*
 *
 param
 {
@@ -4479,7 +4481,6 @@ origin
 null
 ]
 .
-*
 *
 *
 param

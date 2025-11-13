@@ -510,6 +510,7 @@ inspector
 tab
 .
 *
+*
 return
 {
 Promise

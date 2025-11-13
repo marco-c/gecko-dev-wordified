@@ -69,6 +69,7 @@ the
 sources
 state
 *
+*
 module
 actions
 /
@@ -1426,6 +1427,9 @@ createSourceMapOriginalSource
 (
 id
 url
+sourceActor
+.
+sourceObject
 )
 )
 ;

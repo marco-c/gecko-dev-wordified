@@ -160,6 +160,7 @@ or
 not
 .
 *
+*
 private
 *
 type
@@ -195,6 +196,7 @@ Initialize
 the
 ConsoleFileActivityListener
 .
+*
 *
 private
 *
@@ -373,6 +375,7 @@ instance
 is
 notified
 .
+*
 *
 private
 *

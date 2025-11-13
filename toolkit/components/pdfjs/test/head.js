@@ -796,6 +796,7 @@ FreeText
 )
 .
 *
+*
 param
 {
 Object
@@ -999,6 +1000,7 @@ of
 the
 pdf
 .
+*
 *
 param
 {
@@ -1250,6 +1252,7 @@ given
 selector
 .
 *
+*
 param
 {
 Object
@@ -1340,6 +1343,7 @@ the
 given
 coordinates
 .
+*
 *
 param
 {
@@ -1465,6 +1469,7 @@ the
 given
 selector
 .
+*
 *
 param
 {
@@ -1619,6 +1624,7 @@ the
 given
 selector
 .
+*
 *
 param
 {
@@ -1840,6 +1846,7 @@ the
 keyboard
 .
 *
+*
 param
 {
 Object
@@ -1941,6 +1948,7 @@ some
 text
 inside
 .
+*
 *
 param
 {

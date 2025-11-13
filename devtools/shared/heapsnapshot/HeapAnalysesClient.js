@@ -1202,7 +1202,6 @@ retained
 size
 .
 *
-*
 /
 HeapAnalysesClient
 .

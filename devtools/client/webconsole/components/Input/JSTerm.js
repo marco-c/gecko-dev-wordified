@@ -1196,6 +1196,7 @@ input
 value
 .
 *
+*
 type
 string
 *
@@ -4487,6 +4488,7 @@ the
 input
 field
 *
+*
 returns
 string
 *
@@ -7444,6 +7446,7 @@ popup
 if
 needed
 .
+*
 *
 fires
 autocomplete

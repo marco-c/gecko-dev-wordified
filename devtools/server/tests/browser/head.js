@@ -811,6 +811,7 @@ is
 connected
 .
 *
+*
 param
 {
 DevToolsClient
@@ -854,6 +855,7 @@ eventName
 on
 target
 .
+*
 *
 param
 {
@@ -1583,6 +1585,7 @@ accessibility
 event
 .
 *
+*
 param
 {
 Object
@@ -1689,6 +1692,7 @@ to
 -
 date
 .
+*
 *
 param
 {

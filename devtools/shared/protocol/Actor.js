@@ -632,6 +632,7 @@ the
 actor
 .
 *
+*
 returns
 A
 jsonable
@@ -1003,6 +1004,7 @@ the
 writeError
 function
 .
+*
 *
 param
 {

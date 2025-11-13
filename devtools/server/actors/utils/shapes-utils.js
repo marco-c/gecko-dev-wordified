@@ -76,6 +76,7 @@ a
 plane
 .
 *
+*
 param
 {
 Number
@@ -212,6 +213,7 @@ on
 the
 edge
 .
+*
 *
 param
 {
@@ -593,6 +595,7 @@ other
 points
 .
 *
+*
 param
 {
 Number
@@ -824,6 +827,7 @@ to
 point
 c
 *
+*
 param
 {
 Number
@@ -1027,6 +1031,7 @@ of
 numbers
 .
 *
+*
 param
 {
 Array
@@ -1115,6 +1120,7 @@ the
 given
 point
 .
+*
 *
 param
 {

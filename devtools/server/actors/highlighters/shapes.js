@@ -4014,6 +4014,7 @@ transform
 mode
 .
 *
+*
 param
 {
 Number
@@ -4190,6 +4191,7 @@ highlighting
 a
 polygon
 .
+*
 *
 param
 {
@@ -4444,6 +4446,7 @@ highlighting
 a
 circle
 .
+*
 *
 param
 {
@@ -4753,6 +4756,7 @@ an
 ellipse
 .
 *
+*
 param
 {
 Number
@@ -5089,6 +5093,7 @@ an
 inset
 .
 *
+*
 param
 {
 Number
@@ -5322,6 +5327,7 @@ transform
 mode
 .
 *
+*
 param
 {
 Number
@@ -5462,6 +5468,7 @@ current
 mouse
 position
 .
+*
 *
 param
 {
@@ -5634,6 +5641,7 @@ current
 mouse
 position
 .
+*
 *
 param
 {
@@ -6542,6 +6550,7 @@ mouse
 position
 .
 *
+*
 param
 {
 Number
@@ -7056,6 +7065,7 @@ transformation
 matrix
 .
 *
+*
 param
 {
 Number
@@ -7310,6 +7320,7 @@ current
 transformation
 matrix
 .
+*
 *
 param
 {
@@ -7990,6 +8001,7 @@ a
 polygon
 .
 *
+*
 param
 {
 Number
@@ -8242,6 +8254,7 @@ the
 element
 style
 .
+*
 *
 param
 {
@@ -8717,6 +8730,7 @@ element
 style
 .
 *
+*
 param
 {
 Number
@@ -8874,6 +8888,7 @@ highlighting
 a
 circle
 .
+*
 *
 param
 {
@@ -9239,6 +9254,7 @@ the
 element
 style
 .
+*
 *
 param
 {
@@ -9653,6 +9669,7 @@ highlighting
 an
 ellipse
 .
+*
 *
 param
 {
@@ -10083,6 +10100,7 @@ the
 element
 style
 .
+*
 *
 param
 {
@@ -10612,6 +10630,7 @@ an
 inset
 .
 *
+*
 param
 {
 Number
@@ -10846,6 +10865,7 @@ the
 element
 style
 .
+*
 *
 param
 {
@@ -11544,6 +11564,7 @@ hovers
 over
 it
 .
+*
 *
 param
 {
@@ -12776,6 +12797,7 @@ current
 element
 .
 *
+*
 param
 {
 Number
@@ -12935,6 +12957,7 @@ to
 the
 page
 *
+*
 param
 {
 Number
@@ -13060,6 +13083,7 @@ the
 mouse
 position
 .
+*
 *
 param
 {
@@ -13551,6 +13575,7 @@ given
 coordinate
 .
 *
+*
 param
 {
 Number
@@ -13775,6 +13800,7 @@ near
 the
 click
 .
+*
 *
 param
 {
@@ -14097,6 +14123,7 @@ at
 given
 coords
 *
+*
 param
 {
 Number
@@ -14334,6 +14361,7 @@ at
 given
 point
 *
+*
 param
 {
 Number
@@ -14566,6 +14594,7 @@ is
 at
 given
 coords
+*
 *
 param
 {
@@ -15018,6 +15047,7 @@ the
 shape
 .
 *
+*
 param
 {
 String
@@ -15444,6 +15474,7 @@ to
 percentages
 .
 *
+*
 param
 {
 String
@@ -15727,6 +15758,7 @@ CSS
 polygon
 .
 *
+*
 returns
 {
 Array
@@ -15962,6 +15994,7 @@ converted
 to
 percentages
 .
+*
 *
 param
 {
@@ -16560,6 +16593,7 @@ CSS
 circle
 .
 *
+*
 returns
 {
 Object
@@ -16786,6 +16820,7 @@ converted
 to
 percentages
 .
+*
 *
 param
 {
@@ -17262,6 +17297,7 @@ CSS
 ellipse
 .
 *
+*
 returns
 {
 Object
@@ -17543,6 +17579,7 @@ are
 currently
 ignored
 .
+*
 *
 param
 {
@@ -17949,6 +17986,7 @@ CSS
 inset
 .
 *
+*
 returns
 {
 Object
@@ -18292,6 +18330,7 @@ or
 height
 .
 *
+*
 param
 {
 Number
@@ -18412,6 +18451,7 @@ the
 specified
 dimension
 .
+*
 *
 param
 {
@@ -18599,6 +18639,7 @@ the
 given
 id
 *
+*
 param
 {
 String
@@ -18649,6 +18690,7 @@ shapes
 are
 hidden
 .
+*
 *
 returns
 {
@@ -19553,6 +19595,7 @@ has
 changed
 .
 *
+*
 returns
 {
 Boolean
@@ -19993,6 +20036,7 @@ transform
 mode
 .
 *
+*
 param
 {
 Number
@@ -20410,6 +20454,7 @@ the
 new
 shape
 .
+*
 *
 param
 {
@@ -21415,6 +21460,7 @@ given
 coordinates
 .
 *
+*
 param
 {
 Array
@@ -21627,6 +21673,7 @@ the
 transformation
 matrix
 .
+*
 *
 returns
 {
@@ -22241,6 +22288,7 @@ return
 nwse
 "
 *
+*
 param
 {
 String
@@ -22802,6 +22850,7 @@ given
 node
 .
 *
+*
 param
 {
 Node
@@ -23000,6 +23049,7 @@ an
 array
 .
 *
+*
 param
 {
 String
@@ -23165,6 +23215,7 @@ a
 percentage
 value
 .
+*
 *
 param
 {
@@ -23358,6 +23409,7 @@ handles
 addition
 )
 *
+*
 param
 {
 String
@@ -23524,6 +23576,7 @@ property
 name
 .
 *
+*
 param
 {
 String
@@ -23605,6 +23658,7 @@ with
 given
 attributes
 .
+*
 *
 param
 {
@@ -23980,6 +24034,7 @@ bounding
 box
 .
 *
+*
 param
 {
 Number
@@ -24328,6 +24383,7 @@ point
 value
 .
 *
+*
 param
 {
 any
@@ -24438,6 +24494,7 @@ has
 a
 unit
 .
+*
 *
 param
 {
@@ -24594,6 +24651,7 @@ given
 scale
 type
 .
+*
 *
 param
 {

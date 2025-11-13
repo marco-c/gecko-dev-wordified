@@ -437,7 +437,6 @@ entries
 *
 constructor
 *
-*
 /
 class
 ThreadConfigurationActor

@@ -732,6 +732,7 @@ a
 given
 node
 *
+*
 param
 {
 DOMNode
@@ -1048,6 +1049,7 @@ node
 types
 .
 *
+*
 param
 {
 DOMNode
@@ -1357,6 +1359,7 @@ change
 since
 .
 *
+*
 return
 {
 Boolean
@@ -1421,6 +1424,7 @@ have
 changed
 since
 .
+*
 *
 return
 {
@@ -1521,6 +1525,7 @@ have
 changed
 since
 .
+*
 *
 return
 {

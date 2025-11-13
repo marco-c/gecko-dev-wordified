@@ -1344,6 +1344,7 @@ to
 initialize
 .
 *
+*
 param
 {
 string
@@ -1521,6 +1522,7 @@ to
 occur
 .
 *
+*
 param
 {
 Window
@@ -1631,6 +1633,7 @@ sync
 "
 event
 .
+*
 *
 param
 {
@@ -1784,6 +1787,7 @@ exceptions
 via
 RemoteSettings
 .
+*
 *
 param
 {

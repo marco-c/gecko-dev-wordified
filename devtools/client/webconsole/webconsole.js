@@ -698,6 +698,7 @@ utilities
 there
 .
 *
+*
 type
 nsIDOMWindow
 *
@@ -901,6 +902,7 @@ s
 input
 .
 *
+*
 see
 webconsole
 .
@@ -944,6 +946,7 @@ the
 input
 field
 .
+*
 *
 returns
 {

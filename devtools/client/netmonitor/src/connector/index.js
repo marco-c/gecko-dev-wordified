@@ -947,7 +947,6 @@ on
 navigation
 .
 *
-*
 /
 clear
 (
@@ -2675,6 +2674,7 @@ toolbox
 instance
 .
 *
+*
 return
 {
 Toolbox
@@ -2703,6 +2703,7 @@ given
 source
 in
 Debugger
+*
 *
 param
 {
@@ -2768,6 +2769,7 @@ provider
 is
 connected
 .
+*
 *
 param
 {

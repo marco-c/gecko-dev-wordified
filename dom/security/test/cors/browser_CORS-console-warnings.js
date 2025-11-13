@@ -170,6 +170,7 @@ test
 environment
 .
 *
+*
 return
 {
 Promise
@@ -249,6 +250,7 @@ the
 test
 environment
 .
+*
 *
 return
 {

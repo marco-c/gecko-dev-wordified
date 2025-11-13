@@ -109,6 +109,7 @@ site
 hosts
 .
 *
+*
 param
 {
 Array

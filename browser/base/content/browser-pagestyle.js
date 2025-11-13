@@ -531,6 +531,7 @@ BrowsingContext
 tree
 .
 *
+*
 param
 message
 *
@@ -658,6 +659,7 @@ the
 current
 browser
 .
+*
 *
 param
 title

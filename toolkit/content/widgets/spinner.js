@@ -2315,6 +2315,7 @@ this
 Handle
 events
 *
+*
 param
 {
 DOMEvent
@@ -3301,6 +3302,7 @@ the
 index
 by
 offset
+*
 *
 param
 {

@@ -529,6 +529,7 @@ to
 get
 closed
 *
+*
 return
 {
 Promise
@@ -2003,6 +2004,7 @@ in
 form
 .
 *
+*
 see
 checkForm
 below
@@ -2282,6 +2284,7 @@ with
 username
 and
 password
+*
 *
 see
 checkLoginForm
@@ -4851,6 +4854,7 @@ cleanup
 function
 .
 *
+*
 param
 {
 Function
@@ -5199,6 +5203,7 @@ chrome
 process
 .
 *
+*
 param
 {
 array
@@ -5294,6 +5299,7 @@ parent
 chrome
 process
 .
+*
 *
 param
 {
@@ -5411,6 +5417,7 @@ parent
 chrome
 process
 .
+*
 *
 param
 {
@@ -5562,6 +5569,7 @@ task
 is
 finished
 .
+*
 *
 param
 {

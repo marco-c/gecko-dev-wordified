@@ -252,6 +252,7 @@ the
 tree
 .
 *
+*
 param
 {
 Object
@@ -296,6 +297,7 @@ in
 the
 tree
 .
+*
 *
 param
 {
@@ -451,6 +453,7 @@ hovered
 over
 .
 *
+*
 param
 {
 Object
@@ -514,6 +517,7 @@ the
 user
 .
 *
+*
 param
 {
 Object
@@ -568,6 +572,7 @@ by
 the
 user
 .
+*
 *
 param
 {
@@ -744,6 +749,7 @@ Start
 picking
 .
 *
+*
 param
 {
 Boolean
@@ -850,6 +856,7 @@ canceling
 the
 picker
 .
+*
 *
 param
 {

@@ -501,6 +501,7 @@ the
 node
 .
 *
+*
 param
 {
 DOMNode
@@ -672,6 +673,7 @@ walker
 s
 refMap
 .
+*
 *
 param
 {
@@ -1147,6 +1149,7 @@ be
 *
 returned
 .
+*
 *
 param
 {
@@ -2819,6 +2822,7 @@ given
 audit
 type
 .
+*
 *
 param
 {

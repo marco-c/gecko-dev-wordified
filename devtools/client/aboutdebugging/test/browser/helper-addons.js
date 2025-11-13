@@ -659,6 +659,7 @@ same
 location
 .
 *
+*
 return
 {
 File
@@ -821,6 +822,7 @@ memory
 XPI
 file
 .
+*
 *
 return
 {

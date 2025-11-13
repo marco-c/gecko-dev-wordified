@@ -152,6 +152,7 @@ browsers
 process
 CSS
 *
+*
 constructor
 *
 /
@@ -348,6 +349,7 @@ properties
 string
 bundle
 .
+*
 *
 see
 csshtmltree
@@ -3866,6 +3868,7 @@ nodeList
 ]
 .
 *
+*
 returns
 an
 index
@@ -4091,6 +4094,7 @@ for
 a
 given
 element
+*
 *
 returns
 a

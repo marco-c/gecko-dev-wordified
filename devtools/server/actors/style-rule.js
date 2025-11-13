@@ -9813,6 +9813,7 @@ rule
 begins
 .
 *
+*
 param
 {
 String

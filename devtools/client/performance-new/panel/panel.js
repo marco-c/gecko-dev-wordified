@@ -345,6 +345,7 @@ asynchronous
 constructor
 .
 *
+*
 return
 {
 Promise
@@ -409,6 +410,7 @@ open
 )
 method
 .
+*
 *
 returns
 Promise

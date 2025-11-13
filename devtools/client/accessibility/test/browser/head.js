@@ -543,6 +543,7 @@ given
 url
 .
 *
+*
 param
 {
 String
@@ -878,6 +879,7 @@ accessibility
 failures
 .
 *
+*
 param
 {
 DOMNode
@@ -1209,6 +1211,7 @@ accessibility
 tree
 .
 *
+*
 param
 {
 DOMNode
@@ -1314,6 +1317,7 @@ accessibility
 tree
 .
 *
+*
 param
 {
 DOMNode
@@ -1415,6 +1419,7 @@ the
 accessibility
 tree
 .
+*
 *
 param
 {
@@ -1652,6 +1657,7 @@ and
 role
 .
 *
+*
 param
 {
 Object
@@ -1847,6 +1853,7 @@ decimal
 points
 .
 *
+*
 param
 {
 String
@@ -1942,6 +1949,7 @@ audit
 checks
 )
 .
+*
 *
 param
 {
@@ -2129,6 +2137,7 @@ the
 accessibility
 sidebar
 .
+*
 *
 param
 {
@@ -2346,6 +2355,7 @@ accessibility
 related
 prefs
 .
+*
 *
 param
 {
@@ -2616,6 +2626,7 @@ checks
 toolbar
 .
 *
+*
 param
 {
 Object
@@ -2780,6 +2791,7 @@ and
 menu
 components
 .
+*
 *
 param
 {
@@ -3230,6 +3242,7 @@ the
 sidebar
 .
 *
+*
 param
 {
 Document
@@ -3449,6 +3462,7 @@ tree
 row
 .
 *
+*
 param
 {
 document
@@ -3563,6 +3577,7 @@ expandable
 tree
 row
 .
+*
 *
 param
 {
@@ -3793,6 +3808,7 @@ in
 the
 menu
 .
+*
 *
 param
 {
@@ -4476,6 +4492,7 @@ accessibility
 panel
 .
 *
+*
 param
 {
 JSON
@@ -4808,6 +4825,7 @@ HTML
 snippet
 .
 *
+*
 param
 {
 String
@@ -4997,6 +5015,7 @@ test
 URL
 .
 *
+*
 param
 {
 JSON
@@ -5148,6 +5167,7 @@ the
 tab
 .
 *
+*
 param
 {
 Tab
@@ -5266,6 +5286,7 @@ disables
 accessibility
 tools
 .
+*
 *
 param
 {

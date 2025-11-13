@@ -802,6 +802,7 @@ highlighted
 element
 .
 *
+*
 returns
 {
 object
@@ -836,6 +837,7 @@ the
 source
 filter
 .
+*
 *
 returns
 {
@@ -898,6 +900,7 @@ unmatched
 system
 rules
 .
+*
 *
 see
 FILTER
@@ -1213,6 +1216,7 @@ in
 the
 inspected
 document
+*
 *
 private
 *
@@ -5236,6 +5240,7 @@ or
 not
 .
 *
+*
 return
 {
 boolean
@@ -8102,6 +8107,7 @@ we
 then
 sort
 *
+*
 private
 *
 /
@@ -8395,6 +8401,7 @@ quick
 filter
 changes
 .
+*
 *
 private
 *

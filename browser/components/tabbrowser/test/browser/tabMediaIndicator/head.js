@@ -42,6 +42,7 @@ testing
 directory
 .
 *
+*
 param
 {
 String
@@ -189,6 +190,7 @@ given
 tab
 .
 *
+*
 param
 {
 tabbrowser
@@ -296,6 +298,7 @@ given
 tab
 .
 *
+*
 param
 {
 tabbrowser
@@ -402,6 +405,7 @@ an
 empty
 file
 .
+*
 *
 param
 {
@@ -601,6 +605,7 @@ element
 shows
 .
 *
+*
 param
 {
 tab
@@ -768,6 +773,7 @@ on
 that
 .
 *
+*
 param
 {
 tab
@@ -886,6 +892,7 @@ the
 given
 icon
 .
+*
 *
 param
 {

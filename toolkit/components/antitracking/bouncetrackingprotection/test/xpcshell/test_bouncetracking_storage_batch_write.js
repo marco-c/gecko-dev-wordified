@@ -113,6 +113,7 @@ the
 database
 .
 *
+*
 returns
 {
 number
@@ -235,6 +236,7 @@ an
 observer
 message
 .
+*
 *
 param
 {
@@ -410,6 +412,7 @@ t
 full
 yet
 .
+*
 *
 returns
 {

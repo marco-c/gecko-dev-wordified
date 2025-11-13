@@ -1604,6 +1604,7 @@ the
 transport
 .
 *
+*
 param
 reason
 nsresult
@@ -2653,6 +2654,7 @@ below
 )
 .
 *
+*
 return
 boolean
 *
@@ -3016,6 +3018,7 @@ to
 PACKET_HEADER_MAX
 characters
 .
+*
 *
 return
 boolean

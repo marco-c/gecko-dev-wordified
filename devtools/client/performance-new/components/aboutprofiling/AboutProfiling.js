@@ -594,6 +594,7 @@ more
 actions
 .
 *
+*
 extends
 {
 React
@@ -765,6 +766,7 @@ defining
 it
 manually
 .
+*
 *
 param
 {

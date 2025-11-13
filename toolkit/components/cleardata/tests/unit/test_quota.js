@@ -132,6 +132,7 @@ with
 partitionKey
 .
 *
+*
 param
 {
 String
@@ -696,6 +697,7 @@ or
 indexedDB
 .
 *
+*
 param
 {
 (
@@ -998,6 +1000,7 @@ localStorage
 or
 indexedDB
 .
+*
 *
 param
 {
@@ -1316,6 +1319,7 @@ localStorage
 or
 indexedDB
 .
+*
 *
 param
 {

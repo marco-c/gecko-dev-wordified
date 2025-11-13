@@ -11327,7 +11327,6 @@ function
 )
 .
 *
-*
 /
 function
 synthesizeKey

@@ -786,6 +786,7 @@ screenshots
 preview
 dialog
 *
+*
 param
 {
 Sting
@@ -1939,6 +1940,7 @@ sys
 mjs
 #
 809
+*
 *
 param
 {
@@ -4121,6 +4123,7 @@ the
 dialog
 box
 *
+*
 returns
 The
 dialog
@@ -4452,6 +4455,7 @@ demensions
 on
 the
 window
+*
 *
 returns
 {
@@ -5205,6 +5209,7 @@ screenshot
 command
 .
 *
+*
 return
 The
 {
@@ -5852,6 +5857,7 @@ the
 raw
 clipboard
 data
+*
 *
 param
 flavor

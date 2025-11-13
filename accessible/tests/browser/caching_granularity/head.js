@@ -205,6 +205,7 @@ via
 untilCacheOk
 .
 *
+*
 param
 {
 nsIAccessible
@@ -325,6 +326,7 @@ until
 a
 timeout
 .
+*
 *
 param
 {
@@ -487,6 +489,7 @@ in
 the
 cache
 .
+*
 *
 param
 {
@@ -685,6 +688,7 @@ may
 be
 possible
 .
+*
 *
 param
 {

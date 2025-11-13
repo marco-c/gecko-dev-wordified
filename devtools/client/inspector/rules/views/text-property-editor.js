@@ -4078,13 +4078,6 @@ areas
 "
 &
 &
-this
-.
-isValid
-(
-)
-&
-&
 (
 this
 .
@@ -12031,6 +12024,7 @@ this
 property
 .
 *
+*
 return
 {
 Boolean
@@ -12338,8 +12332,12 @@ l
 [
 j
 ]
+?
 .
 length
+|
+|
+0
 )
 )
 "

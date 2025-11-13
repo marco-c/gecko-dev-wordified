@@ -12531,6 +12531,7 @@ formatting
 characters
 .
 *
+*
 see
 https
 :
@@ -14847,6 +14848,7 @@ Apple
 devices
 .
 *
+*
 param
 {
 Window
@@ -15045,6 +15047,7 @@ browser
 s
 currentURI
 .
+*
 *
 param
 {
@@ -26273,6 +26276,7 @@ or
 content
 level
 .
+*
 *
 param
 {

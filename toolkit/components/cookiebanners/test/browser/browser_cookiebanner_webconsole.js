@@ -80,6 +80,7 @@ be
 logged
 .
 *
+*
 returns
 {
 Promise

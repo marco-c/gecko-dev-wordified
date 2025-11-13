@@ -19,6 +19,7 @@ testing
 directory
 .
 *
+*
 param
 {
 String
@@ -141,6 +142,7 @@ an
 autoplay
 video
 .
+*
 *
 param
 {
@@ -518,6 +520,7 @@ started
 playing
 .
 *
+*
 param
 {
 browserElement
@@ -731,6 +734,7 @@ enabled
 is
 true
 .
+*
 *
 param
 {

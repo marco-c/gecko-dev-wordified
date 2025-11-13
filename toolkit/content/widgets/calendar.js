@@ -616,6 +616,7 @@ the
 DOM
 nodes
 *
+*
 param
 {
 Object
@@ -1837,6 +1838,7 @@ refs
 Handle
 events
 *
+*
 param
 {
 DOMEvent
@@ -2840,6 +2842,7 @@ the
 daysView
 grid
 *
+*
 param
 {
 Object
@@ -2927,6 +2930,7 @@ produce
 the
 same
 date
+*
 *
 param
 {
@@ -3044,6 +3048,7 @@ on
 different
 months
 *
+*
 param
 {
 Date
@@ -3122,6 +3127,7 @@ for
 the
 daysView
 grid
+*
 *
 param
 {

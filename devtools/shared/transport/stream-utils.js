@@ -1912,6 +1912,7 @@ buffers
 easily
 .
 *
+*
 typedef
 {
 nsIBinaryInputStream
@@ -1935,6 +1936,7 @@ as
 an
 UInt8Array
 .
+*
 *
 typedef
 {
@@ -1970,6 +1972,7 @@ in
 #
 outputArray
 .
+*
 *
 typedef
 {
@@ -2008,6 +2011,7 @@ output
 buffer
 .
 *
+*
 typedef
 {
 number
@@ -2032,6 +2036,7 @@ from
 #
 binaryStream
 .
+*
 *
 typedef
 {
@@ -2729,6 +2734,7 @@ buffers
 easily
 .
 *
+*
 typedef
 {
 nsIBinaryOutputStream
@@ -2752,6 +2758,7 @@ as
 an
 UInt8Array
 .
+*
 *
 typedef
 {
@@ -2787,6 +2794,7 @@ in
 #
 outputArray
 .
+*
 *
 typedef
 {
@@ -2824,6 +2832,7 @@ the
 input
 buffer
 .
+*
 *
 typedef
 {

@@ -111,6 +111,7 @@ IPv6
 address
 .
 *
+*
 param
 {
 string
@@ -189,6 +190,7 @@ given
 host
 .
 *
+*
 param
 {
 string
@@ -258,6 +260,7 @@ or
 indexedDB
 data
 .
+*
 *
 param
 {

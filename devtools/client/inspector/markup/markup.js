@@ -5233,7 +5233,6 @@ highlighter
 Highlighter
 instance
 *
-*
 /
 handleHighlighterEvent
 (
@@ -12981,6 +12980,7 @@ some
 other
 HTML
 code
+*
 *
 param
 {

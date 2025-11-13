@@ -357,6 +357,7 @@ an
 error
 .
 *
+*
 param
 {
 object
@@ -485,6 +486,7 @@ with
 an
 error
 .
+*
 *
 param
 {
@@ -657,6 +659,7 @@ will
 return
 true
 .
+*
 *
 param
 {
@@ -1058,6 +1061,7 @@ return
 true
 .
 *
+*
 param
 {
 object
@@ -1269,6 +1273,7 @@ we
 return
 true
 .
+*
 *
 param
 {
@@ -1711,6 +1716,7 @@ return
 true
 .
 *
+*
 param
 {
 object
@@ -1844,6 +1850,7 @@ login
 from
 loginData
 .
+*
 *
 param
 {
@@ -2023,6 +2030,7 @@ the
 loginData
 .
 *
+*
 param
 {
 object
@@ -2122,6 +2130,7 @@ to
 the
 summary
 .
+*
 *
 param
 {
@@ -2587,6 +2596,7 @@ be
 no_change
 "
 .
+*
 *
 returns
 {
@@ -4582,6 +4592,7 @@ searchLogins
 from
 JS
 .
+*
 *
 deprecated
 Use
@@ -6669,6 +6680,7 @@ from
 a
 login
 .
+*
 *
 param
 {
@@ -9111,14 +9123,24 @@ maybeImportLogins
 loginDatas
 )
 {
+/
+/
+by
+setting
+this
+flag
+we
+ensure
+no
+events
+are
+submitted
 this
 .
 importing
 =
 true
 ;
-try
-{
 const
 processor
 =
@@ -9127,6 +9149,8 @@ ImportRowProcessor
 (
 )
 ;
+try
+{
 for
 (
 let
@@ -9994,6 +10018,7 @@ dialog
 otherwise
 .
 *
+*
 param
 {
 Element
@@ -10654,6 +10679,16 @@ changeType
 data
 )
 {
+/
+/
+do
+not
+emit
+individual
+events
+during
+csv
+import
 if
 (
 this

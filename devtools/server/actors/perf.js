@@ -263,6 +263,7 @@ in
 sync
 .
 *
+*
 type
 {
 number
@@ -292,6 +293,7 @@ to
 *
 startCaptureAndStopProfiler
 .
+*
 *
 type
 {
@@ -334,6 +336,7 @@ front
 using
 getPreviouslyRetrievedAdditionalInformation
 .
+*
 *
 type
 {
@@ -1028,6 +1031,7 @@ bulk
 protocol
 .
 *
+*
 param
 {
 number
@@ -1614,6 +1618,7 @@ the
 current
 browser
 .
+*
 *
 returns
 {
