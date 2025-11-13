@@ -376,10 +376,10 @@ h
 "
 ;
 using
-nsCSSPropertyID
+NonCustomCSSPropertyId
 from
 "
-nsCSSPropertyID
+NonCustomCSSPropertyId
 .
 h
 "
@@ -1903,7 +1903,7 @@ FillMode
 uint8_t
 fillMode
 ;
-nsCSSPropertyID
+NonCustomCSSPropertyId
 property
 ;
 float

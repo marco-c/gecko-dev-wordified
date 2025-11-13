@@ -731,7 +731,7 @@ write
 "
 static
 const
-nsCSSPropertyID
+NonCustomCSSPropertyId
 {
 }
 [
@@ -806,7 +806,7 @@ write
 (
 "
 const
-nsCSSPropertyID
+NonCustomCSSPropertyId
 *
 const
 \
@@ -900,7 +900,7 @@ properties
         
 "
 in
-nsCSSPropertyID
+NonCustomCSSPropertyId
 order
 "
     

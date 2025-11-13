@@ -503,7 +503,7 @@ lamda
 function
 which
 accepts
-nsCSSPropertyID
+NonCustomCSSPropertyId
 .
 template
 <
@@ -582,10 +582,10 @@ Tag
 NonCustom
 :
 {
-nsCSSPropertyID
+NonCustomCSSPropertyId
 id
 =
-nsCSSPropertyID
+NonCustomCSSPropertyId
 (
 aProperty
 .
@@ -1918,7 +1918,7 @@ IsShorthand
 (
 aProperty
 .
-mID
+mId
 )
 "
 property

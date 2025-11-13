@@ -2204,14 +2204,14 @@ const
 ;
 static
 const
-nsCSSPropertyID
+NonCustomCSSPropertyId
 kBackgroundLayerTable
 [
 ]
 ;
 static
 const
-nsCSSPropertyID
+NonCustomCSSPropertyId
 kMaskLayerTable
 [
 ]

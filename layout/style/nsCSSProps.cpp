@@ -316,7 +316,7 @@ StaticAutoPtr
 nsTHashMap
 <
 nsCStringHashKey
-nsCSSPropertyID
+NonCustomCSSPropertyId
 >
 >
 gPropertyIDLNameTable
@@ -589,7 +589,7 @@ kPropertyPrefTable
 pref
 -
 >
-mPropID
+mPropId
 !
 =
 eCSSProperty_UNKNOWN
@@ -625,7 +625,7 @@ gPropertyEnabled
 pref
 -
 >
-mPropID
+mPropId
 ]
 =
 Preferences
@@ -644,7 +644,7 @@ if
 pref
 -
 >
-mPropID
+mPropId
 =
 =
 eCSSProperty_backdrop_filter
@@ -655,7 +655,7 @@ gPropertyEnabled
 pref
 -
 >
-mPropID
+mPropId
 ]
 &
 =
@@ -691,7 +691,7 @@ gPropertyEnabled
 pref
 -
 >
-mPropID
+mPropId
 ]
 =
 true
@@ -772,15 +772,15 @@ new
 nsTHashMap
 <
 nsCStringHashKey
-nsCSSPropertyID
+NonCustomCSSPropertyId
 >
 ;
 for
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 p
 =
-nsCSSPropertyID
+NonCustomCSSPropertyId
 (
 0
 )
@@ -800,7 +800,7 @@ kIDLNameTable
 ;
 p
 =
-nsCSSPropertyID
+NonCustomCSSPropertyId
 (
 p
 +
@@ -863,7 +863,7 @@ kPropertyPrefTable
 pref
 -
 >
-mPropID
+mPropId
 !
 =
 eCSSProperty_UNKNOWN
@@ -1005,7 +1005,7 @@ _ns
 )
 ;
 }
-nsCSSPropertyID
+NonCustomCSSPropertyId
 nsCSSProps
 :
 :
@@ -1031,7 +1031,7 @@ addref
 "
 )
 ;
-nsCSSPropertyID
+NonCustomCSSPropertyId
 res
 ;
 if
@@ -1226,7 +1226,7 @@ nsCSSProps
 :
 PropFlags
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProperty
 )
 {

@@ -4262,7 +4262,7 @@ aIndex
 )
 ;
 }
-nsCSSPropertyID
+NonCustomCSSPropertyId
 Gecko_ElementTransitions_PropertyAt
 (
 const
@@ -4293,9 +4293,9 @@ TransitionProperty
 (
 )
 .
-mID
+mId
 :
-nsCSSPropertyID
+NonCustomCSSPropertyId
 :
 :
 eCSSProperty_UNKNOWN
@@ -9190,7 +9190,7 @@ Gecko_AddPropertyToSet
 nsCSSPropertyIDSet
 *
 aPropertySet
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProperty
 )
 {

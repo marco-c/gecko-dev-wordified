@@ -162,7 +162,7 @@ is
 that
 these
 use
-nsCSSPropertyID
+NonCustomCSSPropertyId
 *
 enums
 for
@@ -176,6 +176,13 @@ strings
 .
 *
 /
+#
+include
+"
+NonCustomCSSPropertyId
+.
+h
+"
 #
 include
 "
@@ -200,13 +207,6 @@ h
 include
 "
 nsCOMPtr
-.
-h
-"
-#
-include
-"
-nsCSSPropertyID
 .
 h
 "

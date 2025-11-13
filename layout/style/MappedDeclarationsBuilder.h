@@ -136,6 +136,13 @@ mozilla_MappedDeclarationsBuilder_h
 #
 include
 "
+NonCustomCSSPropertyId
+.
+h
+"
+#
+include
+"
 mozilla
 /
 FontPropertyTypes
@@ -168,13 +175,6 @@ mozilla
 dom
 /
 Element
-.
-h
-"
-#
-include
-"
-nsCSSPropertyID
 .
 h
 "
@@ -343,7 +343,7 @@ longhand
 bool
 PropertyIsSet
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aId
 )
 const
@@ -373,7 +373,7 @@ string
 void
 SetIdentStringValue
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aId
 const
 nsString
@@ -402,7 +402,7 @@ atom
 void
 SetIdentStringValueIfUnset
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aId
 const
 nsString
@@ -430,7 +430,7 @@ aValue
 void
 SetIdentAtomValue
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aId
 nsAtom
 *
@@ -440,7 +440,7 @@ aValue
 void
 SetIdentAtomValueIfUnset
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aId
 nsAtom
 *
@@ -485,7 +485,7 @@ StyleFoo
 void
 SetKeywordValue
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aId
 int32_t
 aValue
@@ -505,7 +505,7 @@ aValue
 void
 SetKeywordValueIfUnset
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aId
 int32_t
 aValue
@@ -558,7 +558,7 @@ type
 void
 SetKeywordValue
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aId
 T
 aValue
@@ -631,7 +631,7 @@ type
 void
 SetKeywordValueIfUnset
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aId
 T
 aValue
@@ -686,7 +686,7 @@ value
 void
 SetIntValue
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aId
 int32_t
 aValue
@@ -852,7 +852,7 @@ value
 void
 SetPixelValue
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aId
 float
 aValue
@@ -872,7 +872,7 @@ aValue
 void
 SetPixelValueIfUnset
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aId
 float
 aValue
@@ -898,7 +898,7 @@ aValue
 void
 SetLengthValue
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aId
 const
 nsCSSValue
@@ -947,7 +947,7 @@ value
 void
 SetPercentValue
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aId
 float
 aValue
@@ -967,7 +967,7 @@ aValue
 void
 SetPercentValueIfUnset
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aId
 float
 aValue
@@ -1000,7 +1000,7 @@ auto
 void
 SetAutoValue
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aId
 )
 {
@@ -1017,7 +1017,7 @@ aId
 void
 SetAutoValueIfUnset
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aId
 )
 {
@@ -1047,7 +1047,7 @@ currentcolor
 void
 SetCurrentColor
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aId
 )
 {
@@ -1064,7 +1064,7 @@ aId
 void
 SetCurrentColorIfUnset
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aId
 )
 {
@@ -1097,7 +1097,7 @@ value
 void
 SetColorValue
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aId
 nscolor
 aValue
@@ -1117,7 +1117,7 @@ aValue
 void
 SetColorValueIfUnset
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aId
 nscolor
 aValue

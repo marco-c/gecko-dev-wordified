@@ -2522,7 +2522,7 @@ in
 PRIORITARY_PROPERTIES
     
 def
-nscsspropertyid
+noncustomcsspropertyid
 (
 self
 )
@@ -2530,7 +2530,7 @@ self
         
 return
 "
-nsCSSPropertyID
+NonCustomCSSPropertyId
 :
 :
 eCSSProperty_
@@ -4918,7 +4918,7 @@ content
 "
     
 def
-nscsspropertyid
+noncustomcsspropertyid
 (
 self
 )
@@ -4926,7 +4926,7 @@ self
         
 return
 "
-nsCSSPropertyID
+NonCustomCSSPropertyId
 :
 :
 eCSSPropertyAlias_

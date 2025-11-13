@@ -4121,7 +4121,7 @@ CompositorAnimatableCount
 ;
 AutoTArray
 <
-nsCSSPropertyID
+NonCustomCSSPropertyId
 compositorAnimatableCount
 >
 propertiesToTrack
@@ -4191,7 +4191,7 @@ property
 .
 mProperty
 .
-mID
+mId
 CSSPropFlags
 :
 :
@@ -4208,7 +4208,7 @@ property
 .
 mProperty
 .
-mID
+mId
 )
 )
 {
@@ -4220,7 +4220,7 @@ property
 .
 mProperty
 .
-mID
+mId
 )
 ;
 propertiesToTrack
@@ -4231,7 +4231,7 @@ property
 .
 mProperty
 .
-mID
+mId
 )
 ;
 }
@@ -4692,7 +4692,7 @@ prop
 .
 mProperty
 .
-mID
+mId
 )
 ;
 }

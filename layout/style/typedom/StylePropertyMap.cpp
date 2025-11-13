@@ -355,8 +355,8 @@ aRv
 Step
 2
 .
-nsCSSPropertyID
-propID
+NonCustomCSSPropertyId
+propId
 =
 nsCSSProps
 :
@@ -368,7 +368,7 @@ aProperty
 ;
 if
 (
-propID
+propId
 =
 =
 eCSSProperty_UNKNOWN

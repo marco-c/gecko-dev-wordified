@@ -454,8 +454,8 @@ void
 GetPropertyValue
 (
 const
-nsCSSPropertyID
-aPropID
+NonCustomCSSPropertyId
+aPropId
 nsACString
 &
 aValue
@@ -466,8 +466,8 @@ void
 SetPropertyValue
 (
 const
-nsCSSPropertyID
-aPropID
+NonCustomCSSPropertyId
+aPropId
 const
 nsACString
 &
@@ -892,8 +892,8 @@ void
 GetPropertyValue
 (
 const
-nsCSSPropertyID
-aPropID
+NonCustomCSSPropertyId
+aPropId
 const
 nsACString
 &
@@ -955,7 +955,7 @@ null
 void
 UpdateCurrentStyleSources
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 )
 ;
 void
@@ -1788,7 +1788,7 @@ element
 bool
 NeedsToFlushStyle
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 )
 const
 ;
@@ -1818,7 +1818,7 @@ requested
 bool
 NeedsToFlushLayout
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 )
 const
 ;

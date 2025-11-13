@@ -123,6 +123,13 @@ mozilla_KeyframeUtils_h
 #
 include
 "
+NonCustomCSSPropertyId
+.
+h
+"
+#
+include
+"
 js
 /
 RootingAPI
@@ -149,13 +156,6 @@ h
 /
 For
 CompositeOperation
-#
-include
-"
-nsCSSPropertyID
-.
-h
-"
 #
 include
 "

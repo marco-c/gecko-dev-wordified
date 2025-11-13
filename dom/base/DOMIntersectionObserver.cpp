@@ -124,6 +124,13 @@ h
 #
 include
 "
+NonCustomCSSPropertyId
+.
+h
+"
+#
+include
+"
 Units
 .
 h
@@ -247,13 +254,6 @@ mozilla
 dom
 /
 HTMLImageElement
-.
-h
-"
-#
-include
-"
-nsCSSPropertyID
 .
 h
 "

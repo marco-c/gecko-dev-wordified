@@ -123,6 +123,13 @@ DOM_SVG_SVGCIRCLEELEMENT_H_
 #
 include
 "
+NonCustomCSSPropertyId
+.
+h
+"
+#
+include
+"
 SVGAnimatedLength
 .
 h
@@ -131,13 +138,6 @@ h
 include
 "
 SVGGeometryElement
-.
-h
-"
-#
-include
-"
-nsCSSPropertyID
 .
 h
 "
@@ -360,7 +360,7 @@ aOldStyle
 )
 ;
 static
-nsCSSPropertyID
+NonCustomCSSPropertyId
 GetCSSPropertyIdForAttrEnum
 (
 uint8_t

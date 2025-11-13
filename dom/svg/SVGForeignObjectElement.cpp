@@ -1120,7 +1120,7 @@ sLengthInfo
 )
 ;
 }
-nsCSSPropertyID
+NonCustomCSSPropertyId
 SVGForeignObjectElement
 :
 :

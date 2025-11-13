@@ -1092,7 +1092,7 @@ dimensions
 for
 (
 const
-nsCSSPropertyID
+NonCustomCSSPropertyId
 *
 props
 =

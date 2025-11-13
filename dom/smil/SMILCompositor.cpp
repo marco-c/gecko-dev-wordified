@@ -998,8 +998,8 @@ ComputedStyle
 aBaseComputedStyle
 )
 {
-nsCSSPropertyID
-propID
+NonCustomCSSPropertyId
+propId
 =
 GetCSSPropertyToAnimate
 (
@@ -1007,7 +1007,7 @@ GetCSSPropertyToAnimate
 ;
 if
 (
-propID
+propId
 !
 =
 eCSSProperty_UNKNOWN
@@ -1019,7 +1019,7 @@ MakeUnique
 SMILCSSProperty
 >
 (
-propID
+propId
 mKey
 .
 mElement
@@ -1048,7 +1048,7 @@ mAttributeName
 )
 ;
 }
-nsCSSPropertyID
+NonCustomCSSPropertyId
 SMILCompositor
 :
 :
@@ -1071,8 +1071,8 @@ return
 eCSSProperty_UNKNOWN
 ;
 }
-nsCSSPropertyID
-propID
+NonCustomCSSPropertyId
+propId
 =
 nsCSSProps
 :
@@ -1095,7 +1095,7 @@ SMILCSSProperty
 :
 IsPropertyAnimatable
 (
-propID
+propId
 )
 )
 {
@@ -1277,7 +1277,7 @@ through
 .
 }
 return
-propID
+propId
 ;
 }
 bool

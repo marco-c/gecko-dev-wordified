@@ -3613,7 +3613,7 @@ comments
 as
 above
 .
-nsCSSPropertyID
+NonCustomCSSPropertyId
 prop
 =
 nsCSSProps
@@ -3642,7 +3642,7 @@ value
 decl
 -
 >
-GetPropertyValueByID
+GetPropertyValueById
 (
 prop
 value

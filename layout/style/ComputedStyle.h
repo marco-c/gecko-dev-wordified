@@ -471,7 +471,7 @@ property
 void
 GetComputedPropertyValue
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aId
 nsACString
 &

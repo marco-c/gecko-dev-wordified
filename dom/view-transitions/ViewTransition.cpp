@@ -4188,7 +4188,7 @@ aDecls
 Document
 *
 aDoc
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProp
 const
 nsACString
@@ -4246,7 +4246,7 @@ StyleLockedDeclarationBlock
 aDecls
 Document
 *
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProp
 float
 aLength
@@ -4273,7 +4273,7 @@ StyleLockedDeclarationBlock
 aDecls
 Document
 *
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProp
 const
 CSSToCSSMatrix4x4Flagged
@@ -4382,7 +4382,7 @@ aDecls
 Document
 *
 aDoc
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProp
 const
 StyleWritingModeProperty
@@ -4411,7 +4411,7 @@ aDecls
 Document
 *
 aDoc
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProp
 const
 StyleDirection
@@ -4440,7 +4440,7 @@ aDecls
 Document
 *
 aDoc
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProp
 const
 StyleTextOrientation
@@ -4469,7 +4469,7 @@ aDecls
 Document
 *
 aDoc
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProp
 const
 StyleBlend
@@ -4497,7 +4497,7 @@ StyleLockedDeclarationBlock
 aDecls
 Document
 *
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProp
 const
 StyleOwnedSlice
@@ -4530,7 +4530,7 @@ StyleLockedDeclarationBlock
 aDecls
 Document
 *
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProp
 const
 StyleColorScheme

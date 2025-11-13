@@ -617,7 +617,7 @@ Destroy
 )
 ;
 }
-nsCSSPropertyID
+NonCustomCSSPropertyId
 SVGImageElement
 :
 :

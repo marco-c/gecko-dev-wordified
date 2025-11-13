@@ -172,7 +172,7 @@ dom
 :
 SVGGeometryProperty
 {
-nsCSSPropertyID
+NonCustomCSSPropertyId
 AttrEnumToCSSPropId
 (
 const
@@ -359,7 +359,7 @@ eCSSProperty_UNKNOWN
 bool
 IsNonNegativeGeometryProperty
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProp
 )
 {

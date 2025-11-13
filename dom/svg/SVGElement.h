@@ -149,6 +149,13 @@ attributes
 #
 include
 "
+NonCustomCSSPropertyId
+.
+h
+"
+#
+include
+"
 gfxMatrix
 .
 h
@@ -228,13 +235,6 @@ mozilla
 gfx
 /
 MatrixFwd
-.
-h
-"
-#
-include
-"
-nsCSSPropertyID
 .
 h
 "
@@ -1132,7 +1132,7 @@ UpdateDeclarationBlockFromLength
 const
 StyleLockedDeclarationBlock
 &
-nsCSSPropertyID
+NonCustomCSSPropertyId
 const
 SVGAnimatedLength
 &

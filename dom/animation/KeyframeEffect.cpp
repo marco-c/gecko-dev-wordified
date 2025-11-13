@@ -166,6 +166,13 @@ UnrestrictedDoubleOrKeyframeAnimationOptions
 #
 include
 "
+NonCustomCSSPropertyId
+.
+h
+"
+#
+include
+"
 WindowRenderer
 .
 h
@@ -354,13 +361,6 @@ mozilla
 layers
 /
 AnimationInfo
-.
-h
-"
-#
-include
-"
-nsCSSPropertyID
 .
 h
 "
@@ -2408,7 +2408,7 @@ property
 .
 mProperty
 .
-mID
+mId
 )
 ;
 continue
@@ -2428,7 +2428,7 @@ property
 .
 mProperty
 .
-mID
+mId
 }
 aFrame
 aEffects
@@ -2472,7 +2472,7 @@ property
 .
 mProperty
 .
-mID
+mId
 )
 ;
 }
@@ -2930,7 +2930,7 @@ property
 .
 mProperty
 .
-mID
+mId
 )
 ;
 }
@@ -4491,7 +4491,7 @@ KeyframeEffect
 :
 SetIsRunningOnCompositor
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProperty
 bool
 aIsRunning
@@ -4561,7 +4561,7 @@ property
 .
 mProperty
 .
-mID
+mId
 =
 =
 aProperty
@@ -4696,7 +4696,7 @@ property
 .
 mProperty
 .
-mID
+mId
 CSSPropFlags
 :
 :
@@ -6565,7 +6565,7 @@ p
 .
 mProperty
 .
-mID
+mId
 )
 )
 .
@@ -8535,11 +8535,11 @@ propertyValue
 .
 mProperty
 .
-mID
+mId
 )
 {
 case
-nsCSSPropertyID
+NonCustomCSSPropertyId
 :
 :
 eCSSPropertyExtra_variable
@@ -8579,7 +8579,7 @@ get
 break
 ;
 case
-nsCSSPropertyID
+NonCustomCSSPropertyId
 :
 :
 eCSSProperty_offset
@@ -8593,7 +8593,7 @@ cssOffset
 break
 ;
 case
-nsCSSPropertyID
+NonCustomCSSPropertyId
 :
 :
 eCSSProperty_float
@@ -8636,7 +8636,7 @@ propertyValue
 .
 mProperty
 .
-mID
+mId
 )
 ;
 }
@@ -9609,7 +9609,7 @@ property
 .
 mProperty
 .
-mID
+mId
 )
 ;
 /
@@ -10437,7 +10437,7 @@ KeyframeEffect
 IsGeometricProperty
 (
 const
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProperty
 )
 {
@@ -11237,7 +11237,7 @@ property
 .
 mProperty
 .
-mID
+mId
 =
 =
 eCSSProperty_offset_path
@@ -11313,7 +11313,7 @@ property
 .
 mProperty
 .
-mID
+mId
 )
 )
 {
@@ -11390,7 +11390,7 @@ property
 .
 mProperty
 .
-mID
+mId
 )
 ;
 if
@@ -11466,7 +11466,7 @@ aProperty
 .
 mProperty
 .
-mID
+mId
 =
 =
 eCSSProperty_opacity
@@ -11497,7 +11497,7 @@ aProperty
 .
 mProperty
 .
-mID
+mId
 =
 =
 eCSSProperty_visibility
@@ -11528,7 +11528,7 @@ aProperty
 .
 mProperty
 .
-mID
+mId
 =
 =
 eCSSProperty_background_color
@@ -11581,7 +11581,7 @@ aProperty
 .
 mProperty
 .
-mID
+mId
 )
 ;
 if
@@ -12225,7 +12225,7 @@ prop
 .
 mProperty
 .
-mID
+mId
 !
 =
 eCSSProperty_transform
@@ -12235,7 +12235,7 @@ prop
 .
 mProperty
 .
-mID
+mId
 !
 =
 eCSSProperty_scale
@@ -12245,7 +12245,7 @@ prop
 .
 mProperty
 .
-mID
+mId
 !
 =
 eCSSProperty_rotate

@@ -1410,7 +1410,7 @@ oldSVGReset
 mR
 ;
 }
-nsCSSPropertyID
+NonCustomCSSPropertyId
 SVGCircleElement
 :
 :

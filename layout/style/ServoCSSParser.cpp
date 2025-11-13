@@ -375,7 +375,7 @@ ServoCSSParser
 :
 ParseProperty
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProperty
 const
 nsACString

@@ -1889,7 +1889,7 @@ uint8_t
 aSpecifiedUnit
 )
 ;
-nsCSSPropertyID
+NonCustomCSSPropertyId
 AttrEnumToCSSPropId
 (
 const
@@ -1903,7 +1903,7 @@ aAttrEnum
 bool
 IsNonNegativeGeometryProperty
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProp
 )
 ;

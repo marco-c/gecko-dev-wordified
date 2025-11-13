@@ -329,7 +329,7 @@ SpliceableJSONWriter
 aWriter
 uint64_t
 aId
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProperty
 )
 {
@@ -521,7 +521,7 @@ AnimatedValue
 :
 AsAnimationValue
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProperty
 )
 const
@@ -610,7 +610,7 @@ if
 (
 property
 .
-mID
+mId
 =
 =
 aProperty
@@ -1610,7 +1610,7 @@ CompositorAnimationStorage
 :
 StoreAnimatedValue
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProperty
 uint64_t
 aId
@@ -2140,7 +2140,7 @@ continue
 ;
 }
 const
-nsCSSPropertyID
+NonCustomCSSPropertyId
 lastPropertyAnimationGroupProperty
 =
 animationStorageData

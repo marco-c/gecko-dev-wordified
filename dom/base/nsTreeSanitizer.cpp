@@ -129,6 +129,13 @@ iterator
 #
 include
 "
+NonCustomCSSPropertyId
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Algorithm
@@ -281,13 +288,6 @@ h
 include
 "
 nsAttrName
-.
-h
-"
-#
-include
-"
-nsCSSPropertyID
 .
 h
 "

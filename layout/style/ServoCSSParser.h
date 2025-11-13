@@ -131,6 +131,13 @@ mozilla_ServoCSSParser_h
 #
 include
 "
+NonCustomCSSPropertyId
+.
+h
+"
+#
+include
+"
 mozilla
 /
 AlreadyAddRefed
@@ -145,13 +152,6 @@ mozilla
 gfx
 /
 Matrix
-.
-h
-"
-#
-include
-"
-nsCSSPropertyID
 .
 h
 "
@@ -915,7 +915,7 @@ StyleLockedDeclarationBlock
 >
 ParseProperty
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProperty
 const
 nsACString

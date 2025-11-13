@@ -449,7 +449,7 @@ uint8_t
 &
 RestyleCountForProperty
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProperty
 )
 {
@@ -467,7 +467,7 @@ static
 ActivityIndex
 GetActivityIndexForProperty
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProperty
 )
 {
@@ -1683,7 +1683,7 @@ NotifyRestyle
 nsIFrame
 *
 aFrame
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProperty
 )
 {
@@ -1829,7 +1829,7 @@ NotifyInlineStyleRuleModified
 nsIFrame
 *
 aFrame
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProperty
 )
 {

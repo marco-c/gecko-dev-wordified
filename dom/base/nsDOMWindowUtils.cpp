@@ -18711,8 +18711,8 @@ NS_ENSURE_ARG_POINTER
 aElement
 )
 ;
-nsCSSPropertyID
-propertyID
+NonCustomCSSPropertyId
+propertyId
 =
 nsCSSProps
 :
@@ -18727,7 +18727,7 @@ aProperty
 ;
 if
 (
-propertyID
+propertyId
 =
 =
 eCSSProperty_UNKNOWN
@@ -18738,7 +18738,7 @@ nsCSSProps
 :
 IsShorthand
 (
-propertyID
+propertyId
 )
 )
 {
@@ -18749,7 +18749,7 @@ NS_ERROR_ILLEGAL_VALUE
 AnimatedPropertyID
 property
 =
-propertyID
+propertyId
 =
 =
 eCSSPropertyExtra_variable
@@ -18764,7 +18764,7 @@ aProperty
 :
 AnimatedPropertyID
 (
-propertyID
+propertyId
 )
 ;
 AnimationValue
@@ -18867,8 +18867,8 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-nsCSSPropertyID
-propertyID
+NonCustomCSSPropertyId
+propertyId
 =
 nsCSSProps
 :
@@ -18883,7 +18883,7 @@ aProperty
 ;
 if
 (
-propertyID
+propertyId
 =
 =
 eCSSProperty_UNKNOWN
@@ -18894,7 +18894,7 @@ nsCSSProps
 :
 IsShorthand
 (
-propertyID
+propertyId
 )
 )
 {
@@ -18905,7 +18905,7 @@ NS_ERROR_INVALID_ARG
 AnimatedPropertyID
 property
 =
-propertyID
+propertyId
 =
 =
 eCSSPropertyExtra_variable
@@ -18931,7 +18931,7 @@ Length
 :
 AnimatedPropertyID
 (
-propertyID
+propertyId
 )
 ;
 switch

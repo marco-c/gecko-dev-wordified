@@ -123,6 +123,13 @@ mozilla_EffectCompositor_h
 #
 include
 "
+NonCustomCSSPropertyId
+.
+h
+"
+#
+include
+"
 mozilla
 /
 AnimationPerformanceWarning
@@ -209,13 +216,6 @@ mozilla
 dom
 /
 EndpointBehavior
-.
-h
-"
-#
-include
-"
-nsCSSPropertyID
 .
 h
 "

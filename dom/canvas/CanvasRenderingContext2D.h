@@ -3761,7 +3761,7 @@ ComputedStyle
 >
 ResolveStyleForProperty
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProperty
 const
 nsACString

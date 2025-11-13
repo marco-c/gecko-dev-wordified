@@ -11600,7 +11600,7 @@ nsStyleImageLayers
 /
 /
 const
-nsCSSPropertyID
+NonCustomCSSPropertyId
 nsStyleImageLayers
 :
 :
@@ -11660,7 +11660,7 @@ composite
 }
 ;
 const
-nsCSSPropertyID
+NonCustomCSSPropertyId
 nsStyleImageLayers
 :
 :

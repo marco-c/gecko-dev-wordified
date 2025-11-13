@@ -17171,7 +17171,7 @@ StyleLockedDeclarationBlock
 >
 CreateDeclarationForServo
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProperty
 const
 nsACString
@@ -18318,7 +18318,7 @@ ComputedStyle
 >
 ResolveStyleForServo
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProperty
 const
 nsACString
@@ -18425,7 +18425,7 @@ CanvasRenderingContext2D
 :
 ResolveStyleForProperty
 (
-nsCSSPropertyID
+NonCustomCSSPropertyId
 aProperty
 const
 nsACString
