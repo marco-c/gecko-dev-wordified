@@ -395,7 +395,6 @@ Assert
 .
 ok
 (
-!
 loginDataSource
 .
 lines
@@ -407,9 +406,9 @@ rememberSignons
 pref
 is
 off
-no
 logins
 should
+still
 be
 loaded
 "
