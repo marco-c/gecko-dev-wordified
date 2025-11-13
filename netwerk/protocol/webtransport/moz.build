@@ -116,6 +116,11 @@ nsIWebTransport
 idl
 "
 "
+nsIWebTransportEventService
+.
+idl
+"
+"
 nsIWebTransportStream
 .
 idl
@@ -134,6 +139,11 @@ net
 +
 =
 [
+"
+WebTransportEventService
+.
+h
+"
 "
 WebTransportHash
 .
@@ -154,6 +164,11 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+WebTransportEventService
+.
+cpp
+"
 "
 WebTransportHash
 .
