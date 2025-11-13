@@ -4062,6 +4062,12 @@ mOnOutput
 Notify
 (
 mWrittenFrames
+AwakeTimeStamp
+:
+:
+Now
+(
+)
 )
 ;
 }

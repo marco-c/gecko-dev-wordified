@@ -789,7 +789,6 @@ const
 MediaEventSource
 <
 int64_t
-TimeStamp
 AwakeTimeStamp
 >
 &
@@ -1176,17 +1175,8 @@ track
 sampled
 by
 the
-awake
 system
 time
-(
-and
-non
--
-awake
-for
-now
-)
 they
 were
 sent
@@ -1194,7 +1184,6 @@ sent
 MediaEventProducer
 <
 int64_t
-TimeStamp
 AwakeTimeStamp
 >
 mOnOutput
