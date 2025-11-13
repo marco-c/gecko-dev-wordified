@@ -392,6 +392,11 @@ InitWebRenderConfig
 override
 ;
 void
+InitMesaThreading
+(
+)
+;
+void
 BuildContentDeviceData
 (
 mozilla

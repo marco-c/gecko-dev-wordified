@@ -657,6 +657,17 @@ textures
 "
 )
 \
+_
+(
+MESA_THREADING
+Feature
+"
+Mesa
+glthread
+enabled
+"
+)
+\
 /
 *
 Add
