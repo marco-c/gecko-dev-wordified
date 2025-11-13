@@ -2295,6 +2295,11 @@ engines
 "
 gecko
 "
+animation_type
+=
+"
+discrete
+"
 spec
 =
 "
