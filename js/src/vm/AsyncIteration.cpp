@@ -8579,6 +8579,11 @@ HandleValue
 argument
 )
 {
+while
+(
+true
+)
+{
 MOZ_ASSERT
 (
 !
@@ -8840,9 +8845,9 @@ and
 callerContext
 is
 the
+/
+/
 currently
-/
-/
 running
 execution
 context
@@ -9023,6 +9028,7 @@ generator
 thisOrRval
 )
 ;
+}
 }
 #
 ifdef
