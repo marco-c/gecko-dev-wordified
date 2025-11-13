@@ -11146,7 +11146,7 @@ aPort
 const
 nsACString
 &
-aPathTemplate
+aMasqueTemplate
 const
 nsACString
 &
@@ -11174,7 +11174,7 @@ NewProxyInfo_Internal
 kProxyType_MASQUE
 aHost
 aPort
-aPathTemplate
+aMasqueTemplate
 "
 "
 _ns
@@ -13589,7 +13589,7 @@ aPort
 const
 nsACString
 &
-aPathTemplate
+aMasqueTemplate
 const
 nsACString
 &
@@ -13692,9 +13692,9 @@ aPort
 proxyInfo
 -
 >
-mPathTemplate
+mMasqueTemplate
 =
-aPathTemplate
+aMasqueTemplate
 ;
 proxyInfo
 -

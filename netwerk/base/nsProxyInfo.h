@@ -264,13 +264,13 @@ mPort
 const
 nsCString
 &
-PathTemplate
+MasqueTemplate
 (
 )
 const
 {
 return
-mPathTemplate
+mMasqueTemplate
 ;
 }
 const
@@ -538,7 +538,7 @@ nsCString
 mSourceId
 ;
 nsCString
-mPathTemplate
+mMasqueTemplate
 ;
 int32_t
 mPort

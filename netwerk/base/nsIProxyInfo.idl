@@ -278,7 +278,7 @@ connect
 tcp
 "
 with
-pathTemplate
+masqueTemplate
 *
 "
 direct
@@ -630,7 +630,7 @@ masque
 /
 attribute
 AUTF8String
-pathTemplate
+masqueTemplate
 ;
 /
 *

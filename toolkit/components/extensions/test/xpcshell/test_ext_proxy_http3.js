@@ -659,7 +659,7 @@ type
 "
 masque
 "
-pathTemplate
+masqueTemplate
 :
 "
 /

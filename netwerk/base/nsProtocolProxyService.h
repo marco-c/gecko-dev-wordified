@@ -1059,10 +1059,10 @@ number
 .
 *
 param
-pathTemplate
+masqueTemplate
 *
 The
-PathTemplate
+MasqueTemplate
 .
 *
 param
@@ -1186,7 +1186,7 @@ port
 const
 nsACString
 &
-pathTemplate
+masqueTemplate
 const
 nsACString
 &
