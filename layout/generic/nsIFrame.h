@@ -18970,6 +18970,17 @@ bool
 aIsPrimary
 )
 {
+if
+(
+mIsPrimaryFrame
+=
+=
+aIsPrimary
+)
+{
+return
+;
+}
 mIsPrimaryFrame
 =
 aIsPrimary
