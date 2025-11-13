@@ -22879,6 +22879,7 @@ ScriptLoader
 :
 BytecodeMimeTypeFor
 (
+const
 ScriptLoadRequest
 *
 aRequest
@@ -22924,6 +22925,7 @@ ScriptLoader
 :
 BytecodeMimeTypeFor
 (
+const
 JS
 :
 :
