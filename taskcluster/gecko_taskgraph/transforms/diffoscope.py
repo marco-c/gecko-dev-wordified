@@ -1015,8 +1015,6 @@ type
 b
 -
 linux
--
-gcp
 "
             
 "
