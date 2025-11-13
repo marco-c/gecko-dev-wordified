@@ -87,6 +87,8 @@ self
 logger
 browser
 server_config
+headless
+                
 timeout_multiplier
 debug_info
                  
@@ -143,6 +145,12 @@ ConnectionlessProtocol
 self
 browser
 )
+        
+self
+.
+headless
+=
+headless
         
 self
 .
@@ -620,10 +628,6 @@ platform
 features
 "
             
-"
--
-z
-"
 self
 .
 test_url
@@ -631,6 +635,22 @@ test_url
 test
 )
         
+]
+        
+if
+self
+.
+headless
+:
+            
+args
++
+=
+[
+"
+-
+z
+"
 ]
         
 for
@@ -774,22 +794,6 @@ self
 debug_info
 )
         
-if
-self
-.
-pause_after_test
-:
-            
-command
-.
-remove
-(
-"
--
-z
-"
-)
-        
 return
 debug_args
 +
@@ -812,6 +816,8 @@ self
 logger
 browser
 server_config
+headless
+                 
 timeout_multiplier
 =
 1
@@ -836,6 +842,7 @@ self
 logger
 browser
 server_config
+headless
                                
 timeout_multiplier
 =
@@ -1461,6 +1468,10 @@ browser
                                
 server_config
                                
+headless
+=
+True
+                               
 timeout_multiplier
 =
 timeout_multiplier
@@ -2060,26 +2071,24 @@ self
 logger
 browser
 server_config
+headless
+                 
 binary
 =
 None
 timeout_multiplier
 =
 1
-                 
 screenshot_cache
 =
 None
+                 
 debug_info
 =
 None
 pause_after_test
 =
 False
-                 
-*
-*
-kwargs
 )
 :
         
@@ -2094,6 +2103,8 @@ logger
 browser
                                
 server_config
+                               
+headless
                                
 timeout_multiplier
 =

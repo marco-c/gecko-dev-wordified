@@ -355,6 +355,23 @@ pause_after_test
 "
 ]
     
+rv
+[
+"
+headless
+"
+]
+=
+kwargs
+.
+get
+(
+"
+headless
+"
+False
+)
+    
 if
 test_type
 =
