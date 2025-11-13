@@ -2902,6 +2902,7 @@ charmap
 new
 gfxCharacterMap
 (
+256
 )
 ;
 AutoTable
@@ -3075,6 +3076,7 @@ charmap
 new
 gfxCharacterMap
 (
+0
 )
 ;
 mHasCmapTable
