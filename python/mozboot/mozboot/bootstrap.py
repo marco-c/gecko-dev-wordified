@@ -635,6 +635,10 @@ deepin
 "
 tuxedo
 "
+    
+"
+zorin
+"
 )
 FEDORA_DISTROS
 =
