@@ -578,10 +578,9 @@ tab
 )
     
 #
-Apply
+Disable
 scripting
-override
-to
+for
 the
 user
 context
@@ -608,13 +607,10 @@ False
 )
     
 #
-Apply
+Remove
 scripting
 override
-now
-only
-to
-the
+per
 context
 .
     
@@ -643,6 +639,21 @@ None
     
 )
     
+#
+Make
+sure
+that
+the
+scripting
+override
+for
+the
+user
+context
+is
+applied
+.
+    
 assert
 await
 is_scripting_enabled
@@ -650,7 +661,7 @@ is_scripting_enabled
 context_in_user_context_1
 )
 is
-True
+False
     
 await
 bidi_session
@@ -680,13 +691,15 @@ complete
 Make
 sure
 that
-after
-reload
 the
 scripting
+override
+for
+the
+user
+context
 is
-still
-updated
+applied
 .
     
 assert
@@ -696,7 +709,7 @@ is_scripting_enabled
 context_in_user_context_1
 )
 is
-True
+False
     
 #
 Create
@@ -762,15 +775,10 @@ emulation
 set_scripting_enabled
 (
         
-contexts
+user_contexts
 =
 [
-context_in_user_context_1
-[
-"
-context
-"
-]
+user_context
 ]
         
 enabled
