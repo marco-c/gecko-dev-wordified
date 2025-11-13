@@ -200,6 +200,8 @@ require
 .
 .
 /
+config
+/
 tokens
 -
 config
