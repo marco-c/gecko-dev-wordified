@@ -158,7 +158,7 @@ mozilla
 dom
 :
 :
-MediaImage
+MediaImageData
 >
 {
 typedef
@@ -168,7 +168,7 @@ mozilla
 dom
 :
 :
-MediaImage
+MediaImageData
 paramType
 ;
 static
