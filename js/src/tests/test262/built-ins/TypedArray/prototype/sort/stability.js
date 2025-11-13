@@ -90,6 +90,11 @@ features
 :
 [
 TypedArray
+stable
+-
+typedarray
+-
+sort
 ]
 -
 -
