@@ -498,6 +498,7 @@ IPPProxyManager
 .
 isolationKey
 ;
+await
 IPPProxyManager
 .
 stop
