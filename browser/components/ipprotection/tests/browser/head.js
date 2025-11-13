@@ -114,6 +114,7 @@ mjs
 const
 {
 IPPProxyManager
+IPPProxyStates
 }
 =
 ChromeUtils

@@ -1289,10 +1289,10 @@ Assert
 .
 equal
 (
-IPProtectionService
+IPPProxyManager
 .
 state
-IPProtectionStates
+IPPProxyStates
 .
 ERROR
 "
@@ -1441,13 +1441,7 @@ error
 Reset
 the
 errors
-IPProtectionService
-.
-hasError
-=
-false
-;
-IPProtectionService
+IPPProxyManager
 .
 errors
 =
@@ -1519,7 +1513,7 @@ alpha
 }
 )
 ;
-IPProtectionService
+IPPProxyManager
 .
 updateState
 (
@@ -1544,8 +1538,7 @@ resetEntitlement
 (
 )
 ;
-await
-IPProtectionService
+IPPProxyManager
 .
 setErrorState
 (
