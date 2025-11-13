@@ -11796,11 +11796,6 @@ PresShell
 (
 )
 ;
-template
-<
-bool
-AreWeMerging
->
 void
 AddAnchorPosAnchorImpl
 (
@@ -11811,6 +11806,8 @@ aName
 nsIFrame
 *
 aFrame
+bool
+aForMerge
 )
 ;
 void
