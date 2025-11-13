@@ -146,6 +146,13 @@ memory
 #
 include
 <
+minwindef
+.
+h
+>
+#
+include
+<
 vector
 >
 #
