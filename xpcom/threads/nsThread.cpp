@@ -458,11 +458,6 @@ ThreadDelay
 h
 "
 #
-include
-<
-limits
->
-#
 ifdef
 XP_LINUX
 #

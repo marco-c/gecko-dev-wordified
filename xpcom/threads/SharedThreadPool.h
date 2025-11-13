@@ -123,11 +123,6 @@ SharedThreadPool_h_
 #
 include
 <
-utility
->
-#
-include
-<
 type_traits
 >
 #

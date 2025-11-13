@@ -122,11 +122,6 @@ define
 AppShutdown_h
 #
 include
-<
-type_traits
->
-#
-include
 "
 nsCOMPtr
 .

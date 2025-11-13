@@ -139,11 +139,6 @@ Sprintf
 .
 h
 "
-#
-include
-<
-algorithm
->
 template
 <
 typename
