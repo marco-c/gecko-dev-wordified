@@ -558,6 +558,12 @@ LastOutputSystemTime
 )
 const
 ;
+TimeStamp
+LastVideoTimeStamp
+(
+)
+const
+;
 private
 :
 void
