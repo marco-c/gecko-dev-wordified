@@ -1571,7 +1571,7 @@ false
 >
 !
 !
-IPProtectionService
+IPPProxyManager
 .
 activatedAt
 )
@@ -1756,7 +1756,7 @@ false
 >
 !
 !
-IPProtectionService
+IPPProxyManager
 .
 activatedAt
 )
@@ -1808,7 +1808,7 @@ false
 =
 >
 !
-IPProtectionService
+IPPProxyManager
 .
 activatedAt
 )
