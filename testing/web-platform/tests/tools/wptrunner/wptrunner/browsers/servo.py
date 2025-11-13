@@ -289,6 +289,17 @@ binary_args
 )
         
 "
+headless
+"
+:
+kwargs
+[
+"
+headless
+"
+]
+        
+"
 user_stylesheets
 "
 :
@@ -672,6 +683,10 @@ port
 =
 None
                  
+headless
+=
+None
+                 
 *
 *
 kwargs
@@ -743,6 +758,22 @@ self
 binary_args
 =
 binary_args
+        
+self
+.
+headless
+=
+[
+"
+-
+-
+headless
+"
+]
+if
+headless
+else
+None
     
 def
 make_command
@@ -828,12 +859,6 @@ errors
 "
 -
 -
-headless
-"
-                   
-"
--
--
 window
 -
 size
@@ -866,6 +891,19 @@ command
 self
 .
 binary_args
+        
+if
+self
+.
+headless
+:
+            
+command
++
+=
+self
+.
+headless
         
 return
 command
