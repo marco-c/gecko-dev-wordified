@@ -1931,10 +1931,15 @@ data
 .
 uri
 browser
+?
+browser
 .
 contentPrincipal
 .
 originAttributes
+:
+{
+}
 )
 ;
 webBrowserPersist
