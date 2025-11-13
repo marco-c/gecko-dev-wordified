@@ -151,6 +151,13 @@ nsGlobalWindowInner
 .
 h
 "
+#
+include
+"
+nsDeviceContext
+.
+h
+"
 /
 /
 Local

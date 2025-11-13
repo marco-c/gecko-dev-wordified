@@ -363,15 +363,8 @@ nsViewManager
 :
 nsViewManager
 (
-nsDeviceContext
-*
-aContext
 )
 :
-mContext
-(
-aContext
-)
 mPresShell
 (
 nullptr
@@ -394,11 +387,6 @@ mHasPendingWidgetGeometryChanges
 false
 )
 {
-MOZ_ASSERT
-(
-aContext
-)
-;
 }
 nsViewManager
 :

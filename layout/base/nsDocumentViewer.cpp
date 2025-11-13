@@ -313,6 +313,13 @@ h
 #
 include
 "
+nsDeviceContext
+.
+h
+"
+#
+include
+"
 nsFrameSelection
 .
 h
@@ -13924,12 +13931,6 @@ mViewManager
 new
 nsViewManager
 (
-mPresContext
--
->
-DeviceContext
-(
-)
 )
 ;
 /

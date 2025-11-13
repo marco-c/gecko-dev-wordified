@@ -715,6 +715,13 @@ h
 #
 include
 "
+nsDeviceContext
+.
+h
+"
+#
+include
+"
 nsDocShell
 .
 h

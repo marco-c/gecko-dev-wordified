@@ -614,6 +614,13 @@ h
 #
 include
 "
+nsDeviceContext
+.
+h
+"
+#
+include
+"
 nsError
 .
 h
