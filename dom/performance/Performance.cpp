@@ -4518,10 +4518,6 @@ startTimeStamp
 RawQueryPerformanceCounterValue
 (
 )
-.
-value
-(
-)
 ;
 uint64_t
 rawEnd
@@ -4529,10 +4525,6 @@ rawEnd
 endTimeStamp
 .
 RawQueryPerformanceCounterValue
-(
-)
-.
-value
 (
 )
 ;
