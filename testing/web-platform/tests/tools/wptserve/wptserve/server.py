@@ -5476,14 +5476,6 @@ safety
 "
 "
     
-lock
-=
-threading
-.
-Lock
-(
-)
-    
 def
 __init__
 (
@@ -5504,6 +5496,16 @@ self
 obj
 =
 obj
+        
+self
+.
+lock
+=
+threading
+.
+Lock
+(
+)
     
 def
 __enter__
