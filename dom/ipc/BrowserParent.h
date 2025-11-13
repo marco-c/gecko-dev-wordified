@@ -4039,6 +4039,7 @@ bool
 GetDocShellIsActive
 (
 )
+const
 ;
 bool
 GetHasPresented
