@@ -1708,7 +1708,7 @@ edx
 return
 ;
 }
-LDivI
+auto
 *
 lir
 =
@@ -1720,7 +1720,7 @@ alloc
 )
 LDivI
 (
-useRegister
+useFixedAtStart
 (
 div
 -
@@ -1728,6 +1728,7 @@ div
 lhs
 (
 )
+eax
 )
 useRegister
 (
@@ -1982,7 +1983,7 @@ eax
 return
 ;
 }
-LModI
+auto
 *
 lir
 =
@@ -1994,7 +1995,7 @@ alloc
 )
 LModI
 (
-useRegister
+useFixedAtStart
 (
 mod
 -
@@ -2002,6 +2003,7 @@ mod
 lhs
 (
 )
+eax
 )
 useRegister
 (
@@ -3047,7 +3049,7 @@ alloc
 )
 LUDiv
 (
-useRegister
+useFixedAtStart
 (
 div
 -
@@ -3055,6 +3057,7 @@ div
 lhs
 (
 )
+eax
 )
 useRegister
 (
@@ -3316,7 +3319,7 @@ alloc
 )
 LUMod
 (
-useRegister
+useFixedAtStart
 (
 mod
 -
@@ -3324,6 +3327,7 @@ mod
 lhs
 (
 )
+eax
 )
 useRegister
 (
