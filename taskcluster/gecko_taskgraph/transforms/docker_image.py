@@ -933,8 +933,6 @@ worker_type
 =
 "
 images
--
-gcp
 "
         
 #
