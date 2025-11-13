@@ -183,6 +183,17 @@ WindowsUnwindInfo
 .
 h
 "
+#
+include
+"
+mozilla
+/
+interceptor
+/
+TargetFunction
+.
+h
+"
 namespace
 mozilla
 {

@@ -194,6 +194,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+WinHeaderOnlyUtils
+.
+h
+"
+#
+include
 <
 windows
 .
