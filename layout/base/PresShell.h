@@ -1025,15 +1025,6 @@ sCapturingContentInfo
 mContent
 ;
 }
-static
-void
-ClearMouseCaptureOnView
-(
-nsView
-*
-aView
-)
-;
 /
 /
 Clear

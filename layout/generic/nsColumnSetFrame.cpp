@@ -2986,14 +2986,6 @@ aOrigin
 aContainerSize
 )
 ;
-nsContainerFrame
-:
-:
-PlaceFrameView
-(
-aChild
-)
-;
 }
 nscoord
 nsColumnSetFrame

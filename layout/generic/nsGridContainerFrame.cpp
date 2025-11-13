@@ -45211,14 +45211,6 @@ nsIFrame
 ReflowChildFlags
 :
 :
-NoSizeView
-|
-nsIFrame
-:
-:
-ReflowChildFlags
-:
-:
 NoDeleteNextInFlowChild
 ;
 /
