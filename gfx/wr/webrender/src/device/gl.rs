@@ -11527,6 +11527,16 @@ Mali
 -
 T760
 "
+|
+|
+renderer_name
+=
+=
+"
+Mali
+-
+G57
+"
 ;
 /
 /
