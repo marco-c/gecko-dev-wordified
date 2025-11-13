@@ -1116,8 +1116,6 @@ type
 b
 -
 linux
--
-gcp
 "
             
 "
