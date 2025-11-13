@@ -1145,9 +1145,13 @@ ipc
 IPCResult
 RecvCaptureEnded
 (
-const
+nsTArray
+<
 int
+>
 &
+&
+aCaptureIds
 )
 override
 ;
@@ -1160,9 +1164,13 @@ ipc
 IPCResult
 RecvDeliverFrame
 (
-const
+nsTArray
+<
 int
+>
 &
+&
+capIds
 mozilla
 :
 :
@@ -1172,6 +1180,7 @@ ipc
 Shmem
 &
 &
+shmem
 const
 VideoFrameProperties
 &
