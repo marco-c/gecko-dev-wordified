@@ -250,6 +250,11 @@ StackWalkThread
 h
 "
 "
+TimeStamp_windows
+.
+h
+"
+"
 WindowsDpiAwareness
 .
 h

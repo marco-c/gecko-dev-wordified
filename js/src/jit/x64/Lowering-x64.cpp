@@ -3965,7 +3965,7 @@ MDiv
 div
 )
 {
-auto
+LDivOrModI64
 *
 lir
 =
@@ -3975,9 +3975,9 @@ alloc
 (
 )
 )
-LDivI64
+LDivOrModI64
 (
-useFixedAtStart
+useRegister
 (
 div
 -
@@ -3985,7 +3985,6 @@ div
 lhs
 (
 )
-rax
 )
 useRegister
 (
@@ -4058,7 +4057,7 @@ MMod
 mod
 )
 {
-auto
+LDivOrModI64
 *
 lir
 =
@@ -4068,9 +4067,9 @@ alloc
 (
 )
 )
-LModI64
+LDivOrModI64
 (
-useFixedAtStart
+useRegister
 (
 mod
 -
@@ -4078,7 +4077,6 @@ mod
 lhs
 (
 )
-rax
 )
 useRegister
 (
@@ -4151,7 +4149,7 @@ MDiv
 div
 )
 {
-auto
+LUDivOrModI64
 *
 lir
 =
@@ -4161,9 +4159,9 @@ alloc
 (
 )
 )
-LUDivI64
+LUDivOrModI64
 (
-useFixedAtStart
+useRegister
 (
 div
 -
@@ -4171,7 +4169,6 @@ div
 lhs
 (
 )
-rax
 )
 useRegister
 (
@@ -4216,7 +4213,7 @@ MMod
 mod
 )
 {
-auto
+LUDivOrModI64
 *
 lir
 =
@@ -4226,9 +4223,9 @@ alloc
 (
 )
 )
-LUModI64
+LUDivOrModI64
 (
-useFixedAtStart
+useRegister
 (
 mod
 -
@@ -4236,7 +4233,6 @@ mod
 lhs
 (
 )
-rax
 )
 useRegister
 (

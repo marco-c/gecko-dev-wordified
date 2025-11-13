@@ -45071,13 +45071,6 @@ QuotaManager
 :
 GetOriginInfosWithZeroUsage
 (
-const
-Maybe
-<
-int64_t
->
-&
-aCutoffAccessTime
 )
 const
 {
@@ -45150,7 +45143,6 @@ pair
 MaybeInsertNonPersistedZeroUsageOriginInfos
 (
 inserter
-aCutoffAccessTime
 )
 ;
 }

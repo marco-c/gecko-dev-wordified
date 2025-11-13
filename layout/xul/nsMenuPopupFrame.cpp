@@ -2459,7 +2459,12 @@ PresShell
 )
 -
 >
-GetRootFrame
+GetViewManager
+(
+)
+-
+>
+GetRootView
 (
 )
 nullptr

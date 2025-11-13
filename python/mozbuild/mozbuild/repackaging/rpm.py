@@ -500,8 +500,9 @@ n
         
 inject_distribution_folder
 (
-rpm_dir
+source_dir
 "
+rpm
 "
 app_name
 )

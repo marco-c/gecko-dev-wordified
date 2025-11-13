@@ -287,13 +287,6 @@ h
 #
 include
 "
-nsView
-.
-h
-"
-#
-include
-"
 nsIWidgetListener
 .
 h
@@ -302,6 +295,13 @@ h
 include
 "
 imgIContainer
+.
+h
+"
+#
+include
+"
+nsView
 .
 h
 "
