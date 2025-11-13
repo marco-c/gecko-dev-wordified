@@ -515,11 +515,6 @@ default
 ;
 }
 ;
-bool
-mEnableFakeAppend
-=
-false
-;
 }
 ;
 AudioData
