@@ -74,11 +74,6 @@ h
 #
 include
 <
-string
->
-#
-include
-<
 stdio
 .
 h

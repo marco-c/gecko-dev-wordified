@@ -167,11 +167,6 @@ h
 #
 include
 <
-algorithm
->
-#
-include
-<
 string
 >
 #

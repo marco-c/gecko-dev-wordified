@@ -69,11 +69,6 @@ atomic
 #
 include
 <
-memory
->
-#
-include
-<
 utility
 >
 #

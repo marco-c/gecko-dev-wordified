@@ -196,11 +196,6 @@ h
 ifdef
 XP_WIN
 #
-include
-<
-string
->
-#
 endif
 namespace
 IPC

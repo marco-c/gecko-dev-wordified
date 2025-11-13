@@ -202,11 +202,6 @@ nsThreadManager
 h
 "
 #
-include
-<
-string
->
-#
 ifdef
 MOZ_WIDGET_ANDROID
 #
