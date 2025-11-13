@@ -3741,14 +3741,8 @@ configured
                 
 self
 .
-_run
+add_remove_files
 (
-"
-file
-"
-"
-track
-"
 p
 )
             
