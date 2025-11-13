@@ -1075,7 +1075,7 @@ sys
 mjs
 "
 "
-PopupBlockerObserver
+PopupAndRedirectBlockerObserver
 .
 sys
 .
@@ -1165,6 +1165,13 @@ mjs
 "
 "
 ContextId
+.
+sys
+.
+mjs
+"
+"
+FaviconUtils
 .
 sys
 .
