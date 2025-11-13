@@ -391,7 +391,13 @@ openedTab
 .
 linkedBrowser
 .
-parentNode
+closest
+(
+"
+.
+browserSidebarContainer
+"
+)
 .
 querySelectorAll
 (
