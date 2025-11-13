@@ -21011,7 +21011,7 @@ Initialization
 *
 Operands
 :
-uint8_t
+uint16_t
 hops
 uint24_t
 slot
@@ -21030,7 +21030,7 @@ MACRO
 InitAliasedLexical
 init_aliased_lexical
 NULL
-5
+6
 1
 1
 JOF_ENVCOORD
@@ -21277,7 +21277,7 @@ Initialization
 *
 Operands
 :
-uint8_t
+uint16_t
 hops
 uint24_t
 slot
@@ -21296,7 +21296,7 @@ MACRO
 CheckAliasedLexical
 check_aliased_lexical
 NULL
-5
+6
 1
 1
 JOF_ENVCOORD
@@ -22637,7 +22637,7 @@ values
 *
 Operands
 :
-uint8_t
+uint16_t
 hops
 uint24_t
 slot
@@ -22655,7 +22655,7 @@ MACRO
 GetAliasedVar
 get_aliased_var
 NULL
-5
+6
 0
 1
 JOF_ENVCOORD
@@ -22702,7 +22702,7 @@ values
 *
 Operands
 :
-uint8_t
+uint16_t
 hops
 uint24_t
 slot
@@ -22720,7 +22720,7 @@ MACRO
 GetAliasedDebugVar
 get_aliased_debug_var
 NULL
-5
+6
 0
 1
 JOF_DEBUGCOORD
@@ -23347,7 +23347,7 @@ values
 *
 Operands
 :
-uint8_t
+uint16_t
 numHops
 *
 Stack
@@ -23363,10 +23363,10 @@ MACRO
 EnvCallee
 env_callee
 NULL
-2
+3
 0
 1
-JOF_UINT8
+JOF_UINT16
 )
 \
 /
@@ -24102,7 +24102,7 @@ values
 *
 Operands
 :
-uint8_t
+uint16_t
 hops
 uint24_t
 slot
@@ -24121,7 +24121,7 @@ MACRO
 SetAliasedVar
 set_aliased_var
 NULL
-5
+6
 1
 1
 JOF_ENVCOORD

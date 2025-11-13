@@ -57878,10 +57878,10 @@ CASE
 EnvCallee
 )
 {
-uint8_t
+uint16_t
 numHops
 =
-GET_UINT8
+GET_ENVCOORD_HOPS
 (
 pc
 )
