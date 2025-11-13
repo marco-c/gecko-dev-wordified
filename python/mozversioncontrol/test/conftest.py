@@ -407,6 +407,9 @@ no
 -
 edit
         
+jj
+abandon
+        
 "
 "
 "
@@ -667,7 +670,9 @@ MOZ_AUTOMATION
 )
 =
 =
+"
 1
+"
 :
             
 fetches_dir
@@ -839,6 +844,29 @@ jj
 unavailable
 "
 )
+        
+#
+Isolate
+jj
+tests
+from
+user
+'
+s
+local
+config
+        
+os
+.
+environ
+[
+"
+JJ_CONFIG
+"
+]
+=
+"
+"
     
 vcs
 =

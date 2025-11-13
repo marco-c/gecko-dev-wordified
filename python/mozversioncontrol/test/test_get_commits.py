@@ -188,8 +188,14 @@ automatically
 "
 "
         
+echo
+bar
+>
+>
+bar
+        
 jj
-new
+commit
 -
 m
 "
@@ -198,10 +204,9 @@ commit
 "
         
 echo
-bar
+baz
 >
->
-bar
+baz
         
 jj
 commit
@@ -211,11 +216,6 @@ m
 commit
 2
 "
-        
-echo
-baz
->
-baz
         
 jj
 log
