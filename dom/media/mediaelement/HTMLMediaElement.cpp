@@ -37763,7 +37763,7 @@ now
 TimeStamp
 :
 :
-NowLoRes
+Now
 (
 )
 ;
@@ -37887,9 +37887,9 @@ _ns
 ;
 /
 /
-Resolution
-(
-)
+Going
+back
+1ms
 ensures
 that
 future
@@ -37930,7 +37930,7 @@ offset
 by
 /
 /
-resolution
+1ms
 to
 indicate
 the
@@ -37948,8 +37948,9 @@ now
 TimeDuration
 :
 :
-Resolution
+FromMilliseconds
 (
+1
 )
 ;
 if
@@ -38243,7 +38244,7 @@ mDataTime
 TimeStamp
 :
 :
-NowLoRes
+Now
 (
 )
 ;
