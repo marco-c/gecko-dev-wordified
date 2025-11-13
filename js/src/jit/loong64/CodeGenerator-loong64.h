@@ -452,6 +452,9 @@ snapshot
 bool
 generateOutOfLineCode
 (
+CodeGenerator
+*
+codegen
 )
 ;
 template
