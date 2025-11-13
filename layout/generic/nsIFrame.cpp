@@ -57447,6 +57447,16 @@ GetWidget
 )
 {
 aOffset
++
+=
+view
+-
+>
+ViewToWidgetOffset
+(
+)
+;
+aOffset
 =
 aOffset
 .
