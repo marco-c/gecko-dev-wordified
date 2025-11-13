@@ -316,6 +316,8 @@ __dirname
 .
 .
 /
+src
+/
 design
 -
 tokens
