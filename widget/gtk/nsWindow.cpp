@@ -15518,10 +15518,16 @@ is
 handled
 onwards
 .
+if
+(
+aMove
+)
+{
 mWaylandApplyPopupPositionBeforeShow
 =
 false
 ;
+}
 /
 /
 We
