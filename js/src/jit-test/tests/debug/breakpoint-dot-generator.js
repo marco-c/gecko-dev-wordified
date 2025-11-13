@@ -95,7 +95,7 @@ generator
 GENERATOR
 /
 /
-00007
+00006
 :
 InitialYield
 0
@@ -191,7 +191,7 @@ script
 .
 setBreakpoint
 (
-7
+6
 {
 }
 )

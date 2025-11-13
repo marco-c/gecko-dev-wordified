@@ -421,7 +421,7 @@ for
 error
 checking
 .
-uint16_t
+uint8_t
 environmentChainLength_
 ;
 /

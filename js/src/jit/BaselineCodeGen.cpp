@@ -23993,7 +23993,7 @@ static_assert
 ENVCOORD_HOPS_LEN
 =
 =
-2
+1
 "
 Code
 assumes
@@ -24003,12 +24003,12 @@ hops
 is
 stored
 in
-uint16
+uint8
 operand
 "
 )
 ;
-LoadUint16Operand
+LoadUint8Operand
 (
 masm
 scratch
@@ -35758,10 +35758,10 @@ syncStack
 0
 )
 ;
-uint16_t
+uint8_t
 numHops
 =
-GET_ENVCOORD_HOPS
+GET_UINT8
 (
 handler
 .
@@ -35900,7 +35900,7 @@ ENVCOORD_HOPS_LEN
 op
 must
 have
-uint16
+uint8
 operand
 for
 LoadAliasedVarEnv

@@ -150,9 +150,6 @@ BytecodeUtil
 .
 h
 "
-/
-/
-GET_ENVCOORD_HOPS
 #
 include
 "
@@ -1596,7 +1593,7 @@ EnvCallee
 )
 ;
 return
-GET_ENVCOORD_HOPS
+GET_UINT8
 (
 rawBytecode_
 )

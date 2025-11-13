@@ -8139,7 +8139,7 @@ we
 walked
 over
 .
-uint16_t
+uint8_t
 hops
 =
 0
@@ -8593,12 +8593,12 @@ result
 Number
 of
 enclosing
-scope
+scoep
 we
 walked
 over
 .
-uint16_t
+uint8_t
 hops
 =
 0
