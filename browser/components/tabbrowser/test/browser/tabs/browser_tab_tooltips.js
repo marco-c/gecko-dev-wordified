@@ -76,8 +76,8 @@ EventUtils
 synthesizeMouse
 (
 node
-10
-10
+2
+2
 {
 type
 :
@@ -92,8 +92,8 @@ EventUtils
 synthesizeMouse
 (
 node
-10
-10
+4
+4
 {
 type
 :
@@ -124,8 +124,8 @@ EventUtils
 synthesizeMouse
 (
 node
-10
-10
+2
+2
 {
 type
 :
