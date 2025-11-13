@@ -271,6 +271,11 @@ final
 class
 Portability
 {
+/
+/
+[
+NOCPP
+[
 public
 static
 int
@@ -357,6 +362,11 @@ return
 sum
 ;
 }
+/
+/
+]
+NOCPP
+]
 /
 /
 Allocating

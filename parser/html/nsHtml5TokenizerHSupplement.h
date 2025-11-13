@@ -421,6 +421,15 @@ int32_t
 aLength
 )
 ;
+MOZ_COLD
+MOZ_NEVER_INLINE
+void
+EnsureBufferSpaceShouldNeverHappen
+(
+int32_t
+aLength
+)
+;
 bool
 TemplatePushedOrHeadPopped
 (
