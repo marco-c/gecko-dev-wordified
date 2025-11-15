@@ -87,11 +87,6 @@ h
 #
 include
 <
-optional
->
-#
-include
-<
 windows
 .
 h
