@@ -1704,6 +1704,12 @@ VisibleForTesting
 .
 PRIVATE
 )
+Suppress
+(
+"
+CognitiveComplexMethod
+"
+)
 fun
 update
 (

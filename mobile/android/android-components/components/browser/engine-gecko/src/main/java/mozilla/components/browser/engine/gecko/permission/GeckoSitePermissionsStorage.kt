@@ -1126,6 +1126,9 @@ Suppress
 "
 LongMethod
 "
+"
+CognitiveComplexMethod
+"
 )
 internal
 suspend
@@ -1740,7 +1743,10 @@ VisibleForTesting
 Suppress
 (
 "
-ComplexMethod
+CognitiveComplexMethod
+"
+"
+CyclomaticComplexMethod
 "
 )
 internal

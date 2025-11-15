@@ -5757,6 +5757,9 @@ Suppress
 "
 TooGenericExceptionCaught
 "
+"
+CognitiveComplexMethod
+"
 )
 private
 fun
