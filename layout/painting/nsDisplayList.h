@@ -1456,8 +1456,6 @@ aParent
 ScrollContainerFrame
 *
 aScrollContainerFrame
-bool
-aIsRetained
 )
 ;
 static
@@ -1474,8 +1472,6 @@ aParent
 nsIFrame
 *
 aStickyFrame
-bool
-aIsRetained
 )
 ;
 static
@@ -1838,10 +1834,6 @@ mDepth
 (
 0
 )
-mRetained
-(
-false
-)
 {
 }
 ~
@@ -2014,9 +2006,6 @@ mViewId
 ;
 uint32_t
 mDepth
-;
-bool
-mRetained
 ;
 }
 ;
