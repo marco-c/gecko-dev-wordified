@@ -3177,7 +3177,6 @@ RtpPacketMarker
 marker
 =
 {
-0
 }
 ;
 marker
@@ -3523,7 +3522,6 @@ RtpPacketMarker
 marker
 =
 {
-0
 }
 ;
 /

@@ -4285,7 +4285,13 @@ insert
 {
 port
 {
+.
 receiver
+=
+receiver
+.
+is_one_shot
+=
 is_one_shot
 }
 }

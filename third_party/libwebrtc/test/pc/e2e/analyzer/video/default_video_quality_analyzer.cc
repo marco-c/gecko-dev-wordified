@@ -1300,7 +1300,13 @@ SamplesStatsCounter
 :
 StatsSample
 {
+.
 value
+=
+value
+.
+time
+=
 sampling_time
 }
 ;

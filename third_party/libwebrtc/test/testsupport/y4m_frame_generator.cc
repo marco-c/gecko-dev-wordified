@@ -444,8 +444,17 @@ VideoFrame
 UpdateRect
 update_rect
 {
+.
+offset_x
+=
 0
+.
+offset_y
+=
 0
+.
+width
+=
 static_cast
 <
 int
@@ -453,6 +462,9 @@ int
 (
 width_
 )
+.
+height
+=
 static_cast
 <
 int
