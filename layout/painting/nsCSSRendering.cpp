@@ -240,15 +240,6 @@ include
 "
 mozilla
 /
-HashFunctions
-.
-h
-"
-#
-include
-"
-mozilla
-/
 PresShell
 .
 h

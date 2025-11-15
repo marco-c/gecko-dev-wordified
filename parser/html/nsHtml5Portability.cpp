@@ -91,15 +91,6 @@ nsString
 .
 h
 "
-#
-include
-"
-mozilla
-/
-CheckedInt
-.
-h
-"
 nsAtom
 *
 nsHtml5Portability

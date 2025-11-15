@@ -142,15 +142,6 @@ h
 #
 include
 "
-mozilla
-/
-Assertions
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

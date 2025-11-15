@@ -260,15 +260,6 @@ include
 "
 mozilla
 /
-ResultExtensions
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPrefs_browser
 .
 h

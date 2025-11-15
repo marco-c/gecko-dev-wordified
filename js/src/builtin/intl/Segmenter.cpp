@@ -142,15 +142,6 @@ include
 "
 mozilla
 /
-IntegerTypeTraits
-.
-h
-"
-#
-include
-"
-mozilla
-/
 UniquePtr
 .
 h

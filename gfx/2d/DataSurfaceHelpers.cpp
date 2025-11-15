@@ -143,15 +143,6 @@ h
 #
 include
 "
-mozilla
-/
-MathAlgorithms
-.
-h
-"
-#
-include
-"
 Swizzle
 .
 h
