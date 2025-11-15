@@ -28341,7 +28341,14 @@ GetFilterASR
 )
 -
 >
-mScrollContainerFrame
+GetNearestScrollASR
+(
+)
+-
+>
+ScrollFrame
+(
+)
 -
 >
 SetHasOutOfFlowContentInsideFilter
