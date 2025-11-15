@@ -395,9 +395,7 @@ ulBeforeNodeFront
 .
 displayName
 "
-:
-:
-before
+_moz_generated_content_before
 "
 "
 Got
@@ -507,9 +505,7 @@ ulBeforeMarkerNodeFront
 .
 displayName
 "
-:
-:
-marker
+_moz_generated_content_marker
 "
 "
 Got

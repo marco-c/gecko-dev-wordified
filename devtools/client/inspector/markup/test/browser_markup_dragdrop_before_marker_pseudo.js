@@ -207,9 +207,7 @@ childNodes
 0
 ]
 "
-:
-:
-marker
+_moz_generated_content_marker
 "
 "
 :
@@ -452,15 +450,7 @@ if
 (
 node
 .
-displayName
-=
-=
-=
-"
-:
-:
-marker
-"
+isMarkerPseudoElement
 )
 {
 return
