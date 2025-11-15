@@ -1670,6 +1670,9 @@ memory
 :
 &
 FrameMemory
+capacity
+:
+usize
 )
 -
 >
@@ -1681,8 +1684,9 @@ data
 :
 memory
 .
-new_vec
+new_vec_with_capacity
 (
+capacity
 )
 deferred
 :
@@ -2526,6 +2530,7 @@ new
 (
 &
 frame_memory
+0
 )
 ;
 let
@@ -2643,6 +2648,7 @@ new
 (
 &
 frame_memory
+0
 )
 ;
 let
