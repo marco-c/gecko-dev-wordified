@@ -727,7 +727,7 @@ plot
 const
 ;
 void
-CreateOutgoingTWCCLossRateGraph
+CreateOutgoingLossRateGraph
 (
 Plot
 *
