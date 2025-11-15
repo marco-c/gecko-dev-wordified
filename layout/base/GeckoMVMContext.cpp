@@ -1249,17 +1249,6 @@ CSSPixel
 ToAppUnits
 (
 aNewSize
-.
-width
-)
-CSSPixel
-:
-:
-ToAppUnits
-(
-aNewSize
-.
-height
 )
 )
 )
