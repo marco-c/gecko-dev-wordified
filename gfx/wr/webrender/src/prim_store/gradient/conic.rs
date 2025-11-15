@@ -2030,9 +2030,6 @@ RenderTaskParent
 :
 :
 Surface
-frame_state
-.
-gpu_cache
 &
 mut
 frame_state
@@ -2053,7 +2050,6 @@ mut
 |
 rg_builder
 gpu_buffer_builder
-_
 |
 {
 let

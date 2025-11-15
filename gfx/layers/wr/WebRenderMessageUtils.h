@@ -2138,12 +2138,6 @@ a
 clip_stores
 a
 .
-gpu_cache_metadata
-a
-.
-gpu_cache_cpu_mirror
-a
-.
 hit_testers
 a
 .
@@ -2178,9 +2172,6 @@ frame_allocator
 a
 .
 render_tasks
-a
-.
-gpu_cache_textures
 a
 .
 vertex_data_textures
