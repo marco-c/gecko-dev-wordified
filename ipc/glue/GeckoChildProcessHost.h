@@ -2219,7 +2219,7 @@ sMutex
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 GetIPCLauncher
 (
