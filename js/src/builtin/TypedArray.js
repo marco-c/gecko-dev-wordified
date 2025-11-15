@@ -1261,8 +1261,7 @@ O
 Step
 7
 .
-return
-CreateArrayIterator
+RETURN_ARRAY_ITERATOR
 (
 O
 ITEM_KIND_KEY_AND_VALUE
@@ -2768,8 +2767,7 @@ O
 Step
 3
 .
-return
-CreateArrayIterator
+RETURN_ARRAY_ITERATOR
 (
 O
 ITEM_KIND_KEY
@@ -5160,8 +5158,7 @@ O
 Step
 7
 .
-return
-CreateArrayIterator
+RETURN_ARRAY_ITERATOR
 (
 O
 ITEM_KIND_VALUE
