@@ -172,17 +172,6 @@ include
 "
 api
 /
-environment
-/
-environment_factory
-.
-h
-"
-#
-include
-"
-api
-/
 scoped_refptr
 .
 h
@@ -451,6 +440,15 @@ include
 "
 test
 /
+create_test_environment
+.
+h
+"
+#
+include
+"
+test
+/
 gmock
 .
 h
@@ -692,7 +690,7 @@ kHeight
 =
 2
 ;
-const
+constexpr
 DataRate
 kBitrate
 =
@@ -704,7 +702,7 @@ BytesPerSec
 100
 )
 ;
-const
+constexpr
 Frequency
 kFramerate
 =
@@ -2092,7 +2090,7 @@ const
 Environment
 env_
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -5223,7 +5221,7 @@ const
 Environment
 env_
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -5255,7 +5253,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -5832,7 +5830,7 @@ VideoCodecTester
 :
 CreateEncodingSettings
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 test_params
@@ -7408,7 +7406,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
