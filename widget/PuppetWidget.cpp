@@ -5698,12 +5698,7 @@ if
 mAttachedWidgetListener
 -
 >
-GetView
-(
-)
--
->
-IsPrimaryFramePaintSuppressed
+IsPaintSuppressed
 (
 )
 )

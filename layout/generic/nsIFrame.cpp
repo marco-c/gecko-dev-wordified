@@ -9118,15 +9118,8 @@ PresShell
 )
 -
 >
-SyncWindowProperties
+SetNeedsWindowPropertiesSync
 (
-/
-*
-aSync
-=
-*
-/
-false
 )
 ;
 }
