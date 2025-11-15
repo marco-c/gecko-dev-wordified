@@ -730,9 +730,9 @@ video
 if
 (
 !
-sync_
--
->
+StreamSynchronization
+:
+:
 ComputeRelativeDelay
 (
 audio_measurement_

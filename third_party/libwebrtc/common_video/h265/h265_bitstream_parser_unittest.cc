@@ -175,7 +175,7 @@ of
 below
 chunk
 .
-const
+constexpr
 uint8_t
 kH265VpsSpsPps
 [
@@ -280,7 +280,7 @@ contain
 slice
 QP
 .
-const
+constexpr
 uint8_t
 kH265BitstreamChunk
 [
@@ -420,7 +420,7 @@ contain
 slice
 QP
 .
-const
+constexpr
 uint8_t
 kH265BitstreamNextImageSliceChunk
 [
@@ -464,7 +464,7 @@ contain
 slice
 QP
 .
-const
+constexpr
 uint8_t
 kH265SliceChunk
 [
@@ -535,7 +535,7 @@ of
 a
 frame
 .
-const
+constexpr
 uint8_t
 kH265SecondSliceChunkInAFrame
 [
@@ -582,7 +582,7 @@ verify
 Log2Ceiling
 path
 .
-const
+constexpr
 uint8_t
 kH265SliceStrChunk
 [
@@ -727,7 +727,7 @@ QP
 -
 52
 .
-const
+constexpr
 uint8_t
 kH265BitstreamInvalidQPChunk
 [
@@ -842,7 +842,7 @@ slice
 QP
 52
 .
-const
+constexpr
 uint8_t
 kH265BitstreamInvalidQPChunk52
 [
@@ -986,7 +986,7 @@ some
 slices
 truncated
 .
-const
+constexpr
 uint8_t
 kH265BitstreamWithPredWeightTable
 [
@@ -1377,9 +1377,6 @@ H265BitstreamParserTest
 PpsIdFromSlice
 )
 {
-H265BitstreamParser
-h265_parser
-;
 std
 :
 :
@@ -1389,8 +1386,9 @@ uint32_t
 >
 pps_id
 =
-h265_parser
-.
+H265BitstreamParser
+:
+:
 ParsePpsIdFromSliceSegmentLayerRbsp
 (
 kH265SliceChunk

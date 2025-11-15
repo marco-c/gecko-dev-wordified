@@ -1075,8 +1075,9 @@ Convolve_SSE
 double
 result
 =
-resampler
-.
+SincResampler
+:
+:
 Convolve_C
 (
 resampler
@@ -1155,8 +1156,9 @@ pointer
 .
 result
 =
-resampler
-.
+SincResampler
+:
+:
 Convolve_C
 (
 resampler
@@ -1372,8 +1374,9 @@ kConvolveIterations
 i
 )
 {
-resampler
-.
+SincResampler
+:
+:
 Convolve_C
 (
 resampler

@@ -226,7 +226,7 @@ TimeDelta
 CaptureClockOffsetUpdater
 :
 :
-ConvertsToTimeDela
+ConvertToTimeDelta
 (
 std
 :
