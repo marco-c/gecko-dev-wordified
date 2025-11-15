@@ -475,6 +475,9 @@ TestParams
 kOneByteTestParams
 =
 {
+.
+id_domain
+=
 UsedRtpHeaderExtensionIds
 :
 :
@@ -482,6 +485,9 @@ IdDomain
 :
 :
 kOneByteOnly
+.
+max_id
+=
 14
 }
 ;
@@ -490,6 +496,9 @@ TestParams
 kTwoByteTestParams
 =
 {
+.
+id_domain
+=
 UsedRtpHeaderExtensionIds
 :
 :
@@ -497,6 +506,9 @@ IdDomain
 :
 :
 kTwoByteAllowed
+.
+max_id
+=
 255
 }
 ;

@@ -964,6 +964,9 @@ emplace
 frame_id
 FrameInfo
 {
+.
+encoded_frame
+=
 std
 :
 :
@@ -1984,7 +1987,13 @@ next_decodable_temporal_unit_
 next_decodable_temporal_unit_
 =
 {
+.
+first_frame
+=
 first_frame_it
+.
+last_frame
+=
 last_frame_it
 }
 ;

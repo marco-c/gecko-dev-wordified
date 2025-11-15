@@ -99,9 +99,7 @@ h
 #
 include
 <
-string
-.
-h
+cstring
 >
 #
 include
@@ -500,7 +498,13 @@ false
 timing_frame_thresholds
 (
 {
+.
+delay_ms
+=
 0
+.
+outlier_ratio_percent
+=
 0
 }
 )
