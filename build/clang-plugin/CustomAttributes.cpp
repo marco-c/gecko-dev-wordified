@@ -81,11 +81,6 @@ FrontendPluginRegistry
 .
 h
 "
-#
-include
-<
-algorithm
->
 /
 *
 Having
