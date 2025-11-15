@@ -1926,12 +1926,9 @@ if
 (
 scoring_points
 .
-size
+empty
 (
 )
-=
-=
-0
 )
 {
 return
@@ -2264,12 +2261,9 @@ if
 (
 controller_scoring_points_
 .
-size
+empty
 (
 )
-=
-=
-0
 )
 return
 default_sorted_controllers_

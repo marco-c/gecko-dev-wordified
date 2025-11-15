@@ -242,13 +242,12 @@ y
 {
 if
 (
+!
 biquads_
 .
-size
+empty
 (
 )
->
-0
 )
 {
 ApplyBiQuad

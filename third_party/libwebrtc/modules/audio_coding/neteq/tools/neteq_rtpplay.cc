@@ -3406,6 +3406,7 @@ provided
 .
 if
 (
+!
 absl
 :
 :
@@ -3414,11 +3415,9 @@ GetFlag
 FLAGS_ssrc
 )
 .
-size
+empty
 (
 )
->
-0
 )
 {
 uint32_t

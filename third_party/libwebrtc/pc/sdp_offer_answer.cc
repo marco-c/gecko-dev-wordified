@@ -27106,12 +27106,9 @@ streams
 (
 )
 .
-size
+empty
 (
 )
-=
-=
-0
 )
 return
 true

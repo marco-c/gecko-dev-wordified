@@ -13644,6 +13644,7 @@ srtp_crypto_suite
 kSrtpInvalidCryptoSuite
 &
 &
+!
 SrtpCryptoSuiteToName
 (
 channel_stats
@@ -13651,7 +13652,7 @@ channel_stats
 srtp_crypto_suite
 )
 .
-length
+empty
 (
 )
 )

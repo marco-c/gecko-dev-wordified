@@ -861,13 +861,12 @@ data
 {
 if
 (
+!
 data
 .
-size
+empty
 (
 )
->
-0
 )
 {
 echo_emulating_capturer_

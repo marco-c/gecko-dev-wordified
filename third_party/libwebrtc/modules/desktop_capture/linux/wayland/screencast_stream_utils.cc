@@ -676,9 +676,10 @@ format
 ;
 if
 (
+!
 modifiers
 .
-size
+empty
 (
 )
 )

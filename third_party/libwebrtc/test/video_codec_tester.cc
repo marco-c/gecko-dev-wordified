@@ -6937,13 +6937,12 @@ spatial_idx_
 ;
 if
 (
+!
 ref_frames_
 .
-size
+empty
 (
 )
->
-0
 )
 {
 auto
