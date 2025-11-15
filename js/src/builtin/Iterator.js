@@ -5620,9 +5620,6 @@ value
 }
 }
 }
-#
-ifdef
-NIGHTLY_BUILD
 /
 *
 *
@@ -6079,6 +6076,9 @@ innerValue
 }
 }
 }
+#
+ifdef
+NIGHTLY_BUILD
 /
 *
 *

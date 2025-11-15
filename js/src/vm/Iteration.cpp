@@ -12550,9 +12550,6 @@ IteratorFrom
 1
 0
 )
-#
-ifdef
-NIGHTLY_BUILD
 JS_SELF_HOSTED_FN
 (
 "
@@ -12564,6 +12561,9 @@ IteratorConcat
 0
 0
 )
+#
+ifdef
+NIGHTLY_BUILD
 JS_SELF_HOSTED_FN
 (
 "
