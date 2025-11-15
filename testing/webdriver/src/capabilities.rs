@@ -2900,6 +2900,11 @@ default
 |
 x
 "
+file
+"
+|
+x
+"
 prompt
 "
 =
@@ -4668,6 +4673,9 @@ confirm
 "
 "
 default
+"
+"
+file
 "
 "
 prompt
