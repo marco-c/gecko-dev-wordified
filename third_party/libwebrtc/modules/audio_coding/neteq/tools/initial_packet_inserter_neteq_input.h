@@ -130,6 +130,19 @@ neteq_input
 .
 h
 "
+#
+include
+"
+modules
+/
+rtp_rtcp
+/
+source
+/
+rtp_packet_received
+.
+h
+"
 namespace
 webrtc
 {
@@ -225,7 +238,7 @@ std
 :
 unique_ptr
 <
-PacketData
+RtpPacketReceived
 >
 PopPacket
 (
@@ -288,7 +301,7 @@ std
 :
 unique_ptr
 <
-PacketData
+RtpPacketReceived
 >
 first_packet_
 ;
