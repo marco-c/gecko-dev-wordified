@@ -272,14 +272,6 @@ using
 testing
 :
 :
-IsEmpty
-;
-using
-:
-:
-testing
-:
-:
 SizeIs
 ;
 constexpr
