@@ -657,7 +657,13 @@ stats_
 =
 Stats
 {
+.
+input_width
+=
 width
+.
+input_height
+=
 height
 }
 ;

@@ -8059,9 +8059,15 @@ emplace
 (
 AudioCodecSpec
 {
+.
+format
+=
 send_codec_spec
 .
 format
+.
+info
+=
 *
 info
 }

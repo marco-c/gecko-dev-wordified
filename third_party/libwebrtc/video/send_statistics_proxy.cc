@@ -7736,6 +7736,9 @@ encoder_changed_
 =
 EncoderChangeEvent
 {
+.
+previous_encoder_implementation
+=
 stats_
 .
 encoder_implementation_name
@@ -7746,6 +7749,9 @@ value_or
 unknown
 "
 )
+.
+new_encoder_implementation
+=
 implementation
 .
 name

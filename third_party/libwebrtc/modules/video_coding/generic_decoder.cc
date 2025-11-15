@@ -1198,11 +1198,17 @@ decodedImage
 set_processing_time
 (
 {
+.
+start
+=
 *
 frame_info
 -
 >
 decode_start
+.
+finish
+=
 *
 frame_info
 -

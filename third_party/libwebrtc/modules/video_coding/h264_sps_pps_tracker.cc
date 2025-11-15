@@ -526,6 +526,9 @@ nalu
 ;
 return
 {
+.
+action
+=
 kRequestKeyframe
 }
 ;
@@ -580,6 +583,9 @@ received
 ;
 return
 {
+.
+action
+=
 kRequestKeyframe
 }
 ;
@@ -640,6 +646,9 @@ received
 ;
 return
 {
+.
+action
+=
 kRequestKeyframe
 }
 ;
@@ -932,6 +941,9 @@ segment_length
 )
 return
 {
+.
+action
+=
 kDrop
 }
 ;
@@ -954,6 +966,9 @@ Length
 {
 return
 {
+.
+action
+=
 kDrop
 }
 ;
@@ -1255,6 +1270,9 @@ segment_length
 )
 return
 {
+.
+action
+=
 kDrop
 }
 ;
@@ -1277,6 +1295,9 @@ Length
 {
 return
 {
+.
+action
+=
 kDrop
 }
 ;

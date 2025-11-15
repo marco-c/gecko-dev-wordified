@@ -5344,7 +5344,13 @@ emplace
 (
 FrameWithPsnr
 {
+.
 psnr
+=
+psnr
+.
+frame
+=
 *
 comparison
 .
