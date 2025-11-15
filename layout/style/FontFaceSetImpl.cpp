@@ -1575,10 +1575,6 @@ lock
 mMutex
 )
 ;
-FlushUserFontSet
-(
-)
-;
 if
 (
 aFontFace
@@ -1734,10 +1730,6 @@ lock
 mMutex
 )
 ;
-FlushUserFontSet
-(
-)
-;
 if
 (
 mNonRuleFaces
@@ -1828,10 +1820,6 @@ RecursiveMutexAutoLock
 lock
 (
 mMutex
-)
-;
-FlushUserFontSet
-(
 )
 ;
 if

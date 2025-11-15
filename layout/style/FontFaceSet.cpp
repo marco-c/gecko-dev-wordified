@@ -1510,10 +1510,6 @@ ErrorResult
 aRv
 )
 {
-FlushUserFontSet
-(
-)
-;
 FontFaceImpl
 *
 fontImpl
