@@ -96,9 +96,7 @@ h
 #
 include
 <
-stdio
-.
-h
+cstdio
 >
 #
 include
@@ -243,6 +241,9 @@ inf
 return
 ValueWithUnit
 {
+.
+value
+=
 std
 :
 :
@@ -255,6 +256,9 @@ double
 infinity
 (
 )
+.
+unit
+=
 "
 "
 }
@@ -275,6 +279,9 @@ inf
 return
 ValueWithUnit
 {
+.
+value
+=
 -
 std
 :
@@ -288,6 +295,9 @@ double
 infinity
 (
 )
+.
+unit
+=
 "
 "
 }
@@ -347,7 +357,13 @@ unit_char
 return
 ValueWithUnit
 {
+.
+value
+=
 double_val
+.
+unit
+=
 unit_char
 }
 ;
