@@ -3961,9 +3961,7 @@ make_ref_counted
 RtpTransceiver
 >
 (
-webrtc
-:
-:
+env_
 MediaType
 :
 :
@@ -4008,9 +4006,7 @@ make_ref_counted
 RtpTransceiver
 >
 (
-webrtc
-:
-:
+env_
 MediaType
 :
 :
