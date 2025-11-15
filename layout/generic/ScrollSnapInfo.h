@@ -122,11 +122,6 @@ define
 mozilla_layout_ScrollSnapInfo_h_
 #
 include
-<
-memory
->
-#
-include
 "
 mozilla
 /

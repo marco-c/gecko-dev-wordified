@@ -144,11 +144,6 @@ limits
 >
 #
 include
-<
-type_traits
->
-#
-include
 "
 MathMLTextRunFactory
 .

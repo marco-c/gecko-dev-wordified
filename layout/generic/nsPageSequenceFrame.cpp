@@ -128,11 +128,6 @@ algorithm
 >
 #
 include
-<
-limits
->
-#
-include
 "
 gfxContext
 .
