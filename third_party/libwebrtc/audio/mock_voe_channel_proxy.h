@@ -499,7 +499,7 @@ override
 ;
 MOCK_METHOD
 (
-CallReceiveStatistics
+ChannelReceiveStatistics
 GetRTCPStatistics
 (
 )
@@ -1082,7 +1082,7 @@ override
 ;
 MOCK_METHOD
 (
-CallSendStatistics
+ChannelSendStatistics
 GetRTCPStatistics
 (
 )

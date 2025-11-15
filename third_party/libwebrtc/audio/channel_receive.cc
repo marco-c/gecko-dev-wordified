@@ -1367,7 +1367,7 @@ ResetReceiverCongestionControlObjects
 )
 override
 ;
-CallReceiveStatistics
+ChannelReceiveStatistics
 GetRTCPStatistics
 (
 )
@@ -5310,7 +5310,7 @@ packet_router_
 nullptr
 ;
 }
-CallReceiveStatistics
+ChannelReceiveStatistics
 ChannelReceive
 :
 :
@@ -5325,7 +5325,7 @@ RTC_DCHECK_RUN_ON
 worker_thread_checker_
 )
 ;
-CallReceiveStatistics
+ChannelReceiveStatistics
 stats
 ;
 /

@@ -1236,7 +1236,7 @@ kSampleRateHz
 audio_frame
 )
 ;
-CallReceiveStatistics
+ChannelReceiveStatistics
 stats
 =
 channel

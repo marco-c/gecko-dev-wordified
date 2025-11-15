@@ -386,7 +386,7 @@ class
 RtpRtcp
 ;
 struct
-CallReceiveStatistics
+ChannelReceiveStatistics
 {
 int
 packets_lost
@@ -1111,7 +1111,7 @@ ResetReceiverCongestionControlObjects
 0
 ;
 virtual
-CallReceiveStatistics
+ChannelReceiveStatistics
 GetRTCPStatistics
 (
 )
