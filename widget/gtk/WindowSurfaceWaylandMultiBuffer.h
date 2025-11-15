@@ -530,6 +530,16 @@ WaylandBufferSHM
 >
 mAvailableBuffers
 ;
+/
+/
+delayed
+commits
+bool
+mFrameInProcess
+;
+bool
+mCallbackRequested
+;
 }
 ;
 }
