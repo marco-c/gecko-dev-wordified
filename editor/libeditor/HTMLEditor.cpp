@@ -2726,6 +2726,12 @@ mInitSucceeded
 =
 true
 ;
+editActionData
+.
+OnEditorInitialized
+(
+)
+;
 return
 NS_OK
 ;

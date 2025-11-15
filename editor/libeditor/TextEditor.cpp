@@ -1347,7 +1347,9 @@ NS_ERROR_FAILURE
 /
 We
 set
-mInitSucceeded
+the
+initialized
+state
 here
 rather
 than
@@ -1400,6 +1402,12 @@ nested
 mInitSucceeded
 =
 true
+;
+editActionData
+.
+OnEditorInitialized
+(
+)
 ;
 rv
 =
@@ -1456,6 +1464,12 @@ method
 mInitSucceeded
 =
 false
+;
+editActionData
+.
+OnEditorDestroy
+(
+)
 ;
 return
 EditorBase
