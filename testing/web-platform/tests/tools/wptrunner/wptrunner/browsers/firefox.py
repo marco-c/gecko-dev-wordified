@@ -1976,6 +1976,23 @@ autostart
 remoteAsyncEvents
 "
 :
+(
+bool_pref
+(
+"
+remote
+.
+events
+.
+async
+.
+mouse
+.
+enabled
+"
+)
+or
+                                
 bool_pref
 (
 "
@@ -1989,6 +2006,7 @@ wheel
 .
 enabled
 "
+)
 )
           
 "
