@@ -183,6 +183,9 @@ getManifest
 (
 args
 )
+"
+x64
+"
 )
     
 setPackageSelection
