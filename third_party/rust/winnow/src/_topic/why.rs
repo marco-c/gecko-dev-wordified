@@ -67,7 +67,6 @@ a
 deeper
 and
 wider
-wider
 /
 /
 !
