@@ -5714,7 +5714,7 @@ queue
 JS
 :
 :
-MicroTask
+GenericMicroTask
 RunnableToMicroTask
 (
 already_AddRefed
@@ -5728,7 +5728,7 @@ aRunnable
 JS
 :
 :
-MicroTask
+GenericMicroTask
 v
 ;
 auto
@@ -5783,7 +5783,7 @@ javascript_options_use_js_microtask_queue
 JS
 :
 :
-MicroTask
+GenericMicroTask
 v
 =
 RunnableToMicroTask
@@ -5828,7 +5828,7 @@ javascript_options_use_js_microtask_queue
 JS
 :
 :
-MicroTask
+GenericMicroTask
 v
 =
 RunnableToMicroTask
