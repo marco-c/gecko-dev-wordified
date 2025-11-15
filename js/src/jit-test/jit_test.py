@@ -1119,7 +1119,13 @@ ARGS
         
 default
 =
+[
+]
+        
+action
+=
 "
+append
 "
         
 help
@@ -1164,7 +1170,13 @@ ARGS
         
 default
 =
+[
+]
+        
+action
+=
 "
+append
 "
         
 help
@@ -3591,29 +3603,20 @@ set
     
 prefix
 =
-(
-        
 [
 js_shell
 ]
 +
-shlex
-.
-split
+split_extra_shell_args
 (
+        
 options
 .
 shell_args
-)
 +
-shlex
-.
-split
-(
 options
 .
 feature_args
-)
     
 )
     
@@ -4158,6 +4161,38 @@ else
 :
             
 raise
+def
+split_extra_shell_args
+(
+args
+)
+:
+    
+result
+=
+[
+]
+    
+for
+option
+in
+args
+:
+        
+result
+.
+extend
+(
+shlex
+.
+split
+(
+option
+)
+)
+    
+return
+result
 if
 __name__
 =

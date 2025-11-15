@@ -924,7 +924,13 @@ shell_args
         
 default
 =
+[
+]
+        
+action
+=
 "
+append
 "
         
 help
@@ -964,7 +970,13 @@ feature_args
         
 default
 =
+[
+]
+        
+action
+=
 "
+append
 "
         
 help
@@ -3128,19 +3140,12 @@ record
     
 js_cmd_args
 =
-shlex
-.
-split
+split_extra_shell_args
 (
 options
 .
 shell_args
-)
 +
-shlex
-.
-split
-(
 options
 .
 feature_args
@@ -4791,6 +4796,38 @@ test_case
 return
 tests
 def
+split_extra_shell_args
+(
+args
+)
+:
+    
+result
+=
+[
+]
+    
+for
+option
+in
+args
+:
+        
+result
+.
+extend
+(
+shlex
+.
+split
+(
+option
+)
+)
+    
+return
+result
+def
 load_tests
 (
 options
@@ -4938,9 +4975,7 @@ xul_debug
         
 feature_args
 =
-shlex
-.
-split
+split_extra_shell_args
 (
 options
 .
