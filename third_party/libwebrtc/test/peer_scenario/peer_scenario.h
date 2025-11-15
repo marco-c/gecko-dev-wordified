@@ -947,6 +947,7 @@ analyzer
 >
 Handler
 (
+capture_clock
 )
 }
 )

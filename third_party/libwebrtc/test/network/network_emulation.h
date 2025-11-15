@@ -487,6 +487,9 @@ public
 explicit
 EmulatedNetworkIncomingStatsBuilder
 (
+Clock
+&
+clock
 EmulatedNetworkStatsGatheringMode
 stats_gathering_mode
 )
@@ -538,6 +541,10 @@ const
 ;
 private
 :
+Clock
+&
+clock_
+;
 const
 EmulatedNetworkStatsGatheringMode
 stats_gathering_mode_
@@ -588,6 +595,9 @@ public
 explicit
 EmulatedNetworkStatsBuilder
 (
+Clock
+&
+clock
 EmulatedNetworkStatsGatheringMode
 stats_gathering_mode
 )
@@ -595,6 +605,9 @@ stats_gathering_mode
 explicit
 EmulatedNetworkStatsBuilder
 (
+Clock
+&
+clock
 IPAddress
 local_ip
 EmulatedNetworkStatsGatheringMode
@@ -649,6 +662,10 @@ const
 ;
 private
 :
+Clock
+&
+clock_
+;
 const
 EmulatedNetworkStatsGatheringMode
 stats_gathering_mode_
@@ -748,6 +765,9 @@ public
 explicit
 EmulatedNetworkNodeStatsBuilder
 (
+Clock
+&
+clock
 EmulatedNetworkStatsGatheringMode
 stats_gathering_mode
 )
@@ -778,6 +798,10 @@ const
 ;
 private
 :
+Clock
+&
+clock_
+;
 const
 EmulatedNetworkStatsGatheringMode
 stats_gathering_mode_
@@ -2126,6 +2150,9 @@ public
 :
 EndpointsContainer
 (
+Clock
+*
+clock
 const
 std
 :
@@ -2223,6 +2250,11 @@ const
 ;
 private
 :
+Clock
+*
+const
+clock_
+;
 const
 std
 :
