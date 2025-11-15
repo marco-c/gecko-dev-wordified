@@ -80,11 +80,6 @@ string
 #
 include
 <
-optional
->
-#
-include
-<
 shellapi
 .
 h
