@@ -3509,6 +3509,9 @@ height
 )
 )
 ;
+#
+ifdef
+WEBRTC_ENCODER_PSNR_STATS
 bool
 calculate_psnr
 =
@@ -3522,6 +3525,8 @@ ShouldBeSampled
 input_frame
 )
 ;
+#
+endif
 /
 /
 Encode
@@ -3617,6 +3622,9 @@ ntp_time_ms
 (
 )
 ;
+#
+ifdef
+WEBRTC_ENCODER_PSNR_STATS
 pictures_
 [
 i
@@ -3644,6 +3652,8 @@ bPsnrV
 =
 calculate_psnr
 ;
+#
+endif
 /
 /
 Downscale
@@ -4633,6 +4643,9 @@ value_or
 1
 )
 ;
+#
+ifdef
+WEBRTC_ENCODER_PSNR_STATS
 if
 (
 calculate_psnr
@@ -4726,6 +4739,8 @@ nullopt
 )
 ;
 }
+#
+endif
 /
 /
 Deliver

@@ -1984,7 +1984,7 @@ nullptr
 Flag
 options
 :
-AOM_CODEC_USE_PSNR
+AOM_EFLAG_CALCULATE_PSNR
 and
 AOM_CODEC_USE_HIGHBITDEPTH
 aom_codec_flags_t
@@ -5317,8 +5317,17 @@ AOM_EFLAG_FORCE_KF
 0
 ;
 #
-ifdef
+if
+defined
+(
+WEBRTC_ENCODER_PSNR_STATS
+)
+&
+&
+defined
+(
 AOM_EFLAG_CALCULATE_PSNR
+)
 if
 (
 calculate_psnr_
