@@ -1721,7 +1721,7 @@ Step
 var
 localeOpt
 =
-new_Record
+NEW_RECORD
 (
 )
 ;
@@ -2153,7 +2153,7 @@ Step
 var
 formatOptions
 =
-new_Record
+NEW_RECORD
 (
 )
 ;

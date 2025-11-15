@@ -1633,7 +1633,7 @@ Step
 var
 result
 =
-new_Record
+NEW_RECORD
 (
 )
 ;
@@ -2464,7 +2464,7 @@ Step
 var
 result
 =
-new_Record
+NEW_RECORD
 (
 )
 ;

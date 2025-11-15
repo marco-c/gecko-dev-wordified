@@ -352,7 +352,7 @@ Record
 var
 localeOpt
 =
-new_Record
+NEW_RECORD
 (
 )
 ;
