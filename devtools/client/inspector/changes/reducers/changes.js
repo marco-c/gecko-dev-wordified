@@ -1331,12 +1331,13 @@ the
 server
 by
 the
-ChangesActor
+CSSChangeWatcher
 which
-dispatches
-them
-to
+sends
+CSS_CHANGE
 *
+resources
+to
 the
 client
 as
@@ -1357,7 +1358,7 @@ removed
 By
 design
 the
-ChangesActor
+CSSChangeWatcher
 has
 no
 big
