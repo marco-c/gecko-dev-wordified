@@ -27,9 +27,6 @@ Android
 |
 |
 winWidget
-|
-|
-gtkWidget
 )
 )
 )

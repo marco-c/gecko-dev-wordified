@@ -23,14 +23,6 @@ shell
 &
 &
 (
-(
-isDebugBuild
-&
-&
-gtkWidget
-)
-|
-|
 Android
 |
 |
@@ -54,12 +46,6 @@ of
 memory
 bug
 621348
--
-timeouts
-on
-slow
-debug
-Linux
 /
 *
 -

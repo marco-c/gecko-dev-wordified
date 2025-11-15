@@ -1,15 +1,4 @@
 /
-/
-|
-reftest
-|
-random
--
-if
-(
-gtkWidget
-)
-/
 *
 -
 *
