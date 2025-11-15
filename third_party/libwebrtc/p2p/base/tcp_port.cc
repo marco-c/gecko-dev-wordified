@@ -941,9 +941,7 @@ h
 #
 include
 <
-errno
-.
-h
+cerrno
 >
 #
 include
@@ -1004,6 +1002,17 @@ include
 api
 /
 candidate
+.
+h
+"
+#
+include
+"
+api
+/
+environment
+/
+environment
 .
 h
 "
@@ -1670,6 +1679,9 @@ conn
 new
 TCPConnection
 (
+env
+(
+)
 NewWeakPtr
 (
 )
@@ -1696,6 +1708,9 @@ conn
 new
 TCPConnection
 (
+env
+(
+)
 NewWeakPtr
 (
 )
@@ -2986,6 +3001,10 @@ TCPConnection
 :
 TCPConnection
 (
+const
+Environment
+&
+env
 WeakPtr
 <
 Port
@@ -3002,6 +3021,7 @@ socket
 :
 Connection
 (
+env
 std
 :
 :
