@@ -111,7 +111,9 @@ MPL
 #
 include
 "
-vm
+builtin
+/
+temporal
 /
 Int128
 .
@@ -163,6 +165,13 @@ h
 using
 namespace
 js
+;
+using
+namespace
+js
+:
+:
+temporal
 ;
 double
 Uint128
