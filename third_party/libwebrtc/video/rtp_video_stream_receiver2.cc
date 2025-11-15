@@ -6274,6 +6274,12 @@ bitstream
 )
 )
 ;
+packet_infos
+.
+clear
+(
+)
+;
 }
 }
 if
