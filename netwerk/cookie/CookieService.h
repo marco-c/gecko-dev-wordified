@@ -899,8 +899,6 @@ const
 nsID
 *
 aOperationID
-bool
-aRejectWhenInvalid
 nsICookieValidation
 *
 *
