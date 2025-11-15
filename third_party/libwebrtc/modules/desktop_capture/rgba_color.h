@@ -158,16 +158,6 @@ order
 for
 internal
 storage
-to
-match
-/
-/
-DesktopFrame
-:
-:
-data
-(
-)
 .
 struct
 RgbaColor

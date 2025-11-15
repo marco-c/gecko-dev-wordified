@@ -1302,6 +1302,7 @@ DesktopSize
 width
 height
 )
+FOURCC_ARGB
 )
 )
 ;

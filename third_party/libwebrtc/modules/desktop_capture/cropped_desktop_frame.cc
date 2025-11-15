@@ -370,6 +370,12 @@ stride
 frame
 -
 >
+pixel_format
+(
+)
+frame
+-
+>
 GetFrameDataAtPos
 (
 rect

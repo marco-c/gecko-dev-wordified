@@ -798,6 +798,12 @@ stride
 frame
 -
 >
+pixel_format
+(
+)
+frame
+-
+>
 data
 (
 )
@@ -1055,6 +1061,7 @@ cursor_rect_
 size
 (
 )
+FOURCC_ARGB
 )
 )
 ;

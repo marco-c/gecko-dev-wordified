@@ -377,6 +377,15 @@ core
 )
 -
 >
+pixel_format
+(
+)
+(
+*
+core
+)
+-
+>
 data
 (
 )

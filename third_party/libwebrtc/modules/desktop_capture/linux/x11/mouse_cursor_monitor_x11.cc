@@ -563,6 +563,7 @@ DesktopSize
 kSize
 kSize
 )
+FOURCC_ARGB
 )
 )
 ;
@@ -923,10 +924,6 @@ change
 if
 (
 cursor_shape_
-.
-get
-(
-)
 )
 callback_
 -
@@ -1413,6 +1410,7 @@ img
 >
 height
 )
+FOURCC_ARGB
 )
 )
 ;

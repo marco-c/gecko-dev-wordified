@@ -2198,7 +2198,13 @@ format
 /
 TODO
 (
-jiayl
+bugs
+.
+webrtc
+.
+org
+/
+436974448
 )
 :
 support
@@ -2206,6 +2212,8 @@ capturing
 sources
 with
 pixel
+/
+/
 formats
 other
 than
@@ -2548,6 +2556,7 @@ SharedMemoryDesktopFrame
 Create
 (
 size
+FOURCC_ARGB
 shared_memory_factory_
 .
 get
@@ -2567,6 +2576,7 @@ new
 BasicDesktopFrame
 (
 size
+FOURCC_ARGB
 )
 )
 ;
