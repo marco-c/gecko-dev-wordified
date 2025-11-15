@@ -192,6 +192,17 @@ h
 #
 include
 "
+system_wrappers
+/
+include
+/
+clock
+.
+h
+"
+#
+include
+"
 test
 /
 null_transport
@@ -574,6 +585,9 @@ ReplayPackets
 (
 FakeClock
 *
+fake_clock
+Clock
+&
 clock
 Call
 *
