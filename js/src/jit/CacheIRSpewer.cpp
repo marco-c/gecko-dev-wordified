@@ -129,11 +129,6 @@ h
 #
 include
 <
-algorithm
->
-#
-include
-<
 stdarg
 .
 h

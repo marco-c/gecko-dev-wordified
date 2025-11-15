@@ -185,11 +185,6 @@ define
 wasm_validate_h
 #
 include
-<
-type_traits
->
-#
-include
 "
 js
 /

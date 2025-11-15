@@ -147,17 +147,6 @@ IsNegativeZero
 #
 include
 <
-iterator
->
-/
-/
-std
-:
-:
-size
-#
-include
-<
 stdint
 .
 h
