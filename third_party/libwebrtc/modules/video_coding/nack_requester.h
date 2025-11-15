@@ -497,7 +497,6 @@ NackFilterOptions
 {
 kSeqNumOnly
 kTimeOnly
-kSeqNumAndTime
 }
 ;
 /
