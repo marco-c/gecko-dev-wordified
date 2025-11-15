@@ -552,7 +552,7 @@ mixins
 '
 linux
 -
-focal
+jammy
 '
 '
 x86
@@ -602,7 +602,7 @@ mixins
 '
 linux
 -
-focal
+jammy
 '
 '
 x86
@@ -693,7 +693,7 @@ mixins
 '
 linux
 -
-focal
+jammy
 '
 '
 x86
@@ -782,7 +782,7 @@ mixins
 '
 linux
 -
-focal
+jammy
 '
 '
 x86
@@ -833,7 +833,7 @@ mixins
 '
 linux
 -
-focal
+jammy
 '
 '
 x86
@@ -1285,7 +1285,7 @@ mixins
 :
 [
 '
-mac_14_arm64
+mac_15_arm64
 '
 '
 mac
@@ -1903,7 +1903,6 @@ perf_tests
 '
 Perf
 Linux
-Bionic
 '
 :
 {
@@ -1922,7 +1921,7 @@ mixins
 '
 linux
 -
-bionic
+jammy
 '
 '
 perf
@@ -2834,7 +2833,7 @@ mixins
 '
 linux
 -
-focal
+jammy
 '
 '
 x86
@@ -3075,7 +3074,7 @@ mixins
 '
 linux
 -
-focal
+jammy
 '
 '
 x86
@@ -3213,7 +3212,7 @@ mixins
 '
 linux
 -
-focal
+jammy
 '
 '
 x86
@@ -3301,7 +3300,7 @@ mixins
 '
 linux
 -
-focal
+jammy
 '
 '
 x86
@@ -3350,7 +3349,7 @@ mixins
 '
 linux
 -
-focal
+jammy
 '
 '
 x86
@@ -3601,7 +3600,7 @@ mixins
 :
 [
 '
-mac_14_arm64
+mac_15_arm64
 '
 '
 mac
@@ -3692,7 +3691,7 @@ mixins
 :
 [
 '
-mac_14_arm64
+mac_15_arm64
 '
 '
 mac
