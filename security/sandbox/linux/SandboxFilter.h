@@ -122,11 +122,6 @@ define
 mozilla_SandboxFilter_h
 #
 include
-<
-vector
->
-#
-include
 "
 mozilla
 /
