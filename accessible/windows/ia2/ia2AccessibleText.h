@@ -117,11 +117,6 @@ define
 _ACCESSIBLE_TEXT_H
 #
 include
-<
-utility
->
-#
-include
 "
 AccessibleText
 .
