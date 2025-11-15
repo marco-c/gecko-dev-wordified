@@ -728,7 +728,13 @@ override
 ;
 MOCK_METHOD
 (
+std
+:
+:
+optional
+<
 int
+>
 ReceivedCongestionControlFeedbackCount
 (
 )
@@ -740,7 +746,13 @@ override
 ;
 MOCK_METHOD
 (
+std
+:
+:
+optional
+<
 int
+>
 ReceivedTransportCcFeedbackCount
 (
 )

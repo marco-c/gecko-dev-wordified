@@ -1147,7 +1147,13 @@ feedback
 reports
 received
 virtual
+std
+:
+:
+optional
+<
 int
+>
 ReceivedCongestionControlFeedbackCount
 (
 )
@@ -1166,7 +1172,13 @@ feedback
 reports
 received
 virtual
+std
+:
+:
+optional
+<
 int
+>
 ReceivedTransportCcFeedbackCount
 (
 )

@@ -9051,6 +9051,7 @@ ProduceTransportStats_n
 timestamp
 transport_stats_by_name
 transport_cert_stats
+call_stats_
 partial_report
 )
 ;
@@ -13429,6 +13430,13 @@ CertificateStatsPair
 >
 &
 transport_cert_stats
+const
+Call
+:
+:
+Stats
+&
+call_stats
 RTCStatsReport
 *
 report
@@ -14027,6 +14035,15 @@ srtp_crypto_suite
 )
 ;
 }
+channel_transport_stats
+-
+>
+ccfb_messages_received
+=
+call_stats_
+.
+ccfb_messages_received
+;
 report
 -
 >
