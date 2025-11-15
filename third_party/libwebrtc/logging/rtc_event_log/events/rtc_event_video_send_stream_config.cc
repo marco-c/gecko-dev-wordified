@@ -188,8 +188,6 @@ other
 RtcEvent
 (
 other
-.
-timestamp_us_
 )
 config_
 (
@@ -242,9 +240,6 @@ absl
 :
 :
 WrapUnique
-<
-RtcEventVideoSendStreamConfig
->
 (
 new
 RtcEventVideoSendStreamConfig

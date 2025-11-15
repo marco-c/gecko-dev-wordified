@@ -321,9 +321,6 @@ absl
 :
 :
 WrapUnique
-<
-RtcEventNetEqSetMinimumDelay
->
 (
 new
 RtcEventNetEqSetMinimumDelay

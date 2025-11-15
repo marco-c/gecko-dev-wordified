@@ -465,8 +465,9 @@ RtcEventBweUpdateLossBased
 const
 RtcEventBweUpdateLossBased
 &
-other
 )
+=
+default
 ;
 const
 int32_t

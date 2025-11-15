@@ -348,8 +348,9 @@ RtcEventEndLog
 const
 RtcEventEndLog
 &
-other
 )
+=
+default
 ;
 static
 constexpr

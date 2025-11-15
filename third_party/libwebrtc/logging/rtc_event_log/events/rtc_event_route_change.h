@@ -442,8 +442,9 @@ RtcEventRouteChange
 const
 RtcEventRouteChange
 &
-other
 )
+=
+default
 ;
 const
 bool

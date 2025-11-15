@@ -406,8 +406,9 @@ RtcEventDtlsTransportState
 const
 RtcEventDtlsTransportState
 &
-other
 )
+=
+default
 ;
 const
 DtlsTransportState

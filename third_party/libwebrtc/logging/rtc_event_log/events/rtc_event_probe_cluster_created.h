@@ -488,8 +488,9 @@ RtcEventProbeClusterCreated
 const
 RtcEventProbeClusterCreated
 &
-other
 )
+=
+default
 ;
 const
 int32_t

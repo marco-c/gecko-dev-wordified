@@ -694,8 +694,9 @@ RtcEventBweUpdateDelayBased
 const
 RtcEventBweUpdateDelayBased
 &
-other
 )
+=
+default
 ;
 const
 int32_t

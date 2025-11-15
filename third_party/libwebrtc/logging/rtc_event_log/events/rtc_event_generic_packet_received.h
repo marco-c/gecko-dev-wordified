@@ -476,8 +476,9 @@ RtcEventGenericPacketReceived
 const
 RtcEventGenericPacketReceived
 &
-packet
 )
+=
+default
 ;
 const
 int64_t

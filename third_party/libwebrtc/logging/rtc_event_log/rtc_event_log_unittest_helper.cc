@@ -4970,7 +4970,11 @@ Rand
 }
 AckedPacket
 packet
+[
+1
+]
 =
+{
 {
 prng_
 .
@@ -4980,6 +4984,7 @@ Rand
 250
 )
 receive_timestamp
+}
 }
 ;
 return
@@ -4996,16 +5001,7 @@ CreateLogs
 received_packet_number_
 +
 +
-std
-:
-:
-vector
-<
-AckedPacket
->
-{
 packet
-}
 )
 [
 0

@@ -499,8 +499,9 @@ RtcEventFrameDecoded
 const
 RtcEventFrameDecoded
 &
-other
 )
+=
+default
 ;
 const
 int64_t

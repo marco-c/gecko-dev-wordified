@@ -593,8 +593,9 @@ RtcEventGenericPacketSent
 const
 RtcEventGenericPacketSent
 &
-packet
 )
+=
+default
 ;
 const
 int64_t
