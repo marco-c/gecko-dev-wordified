@@ -6001,6 +6001,11 @@ mIsVisible
 =
 false
 ;
+DiscardBackbuffersLocked
+(
+surfaceLock
+)
+;
 mNeedsMainThreadUpdate
 =
 MainThreadUpdate
