@@ -523,7 +523,7 @@ wr
 :
 :
 WrSpatialId
-GetScrollLayer
+GetSpatialId
 (
 const
 ActiveScrolledRoot
