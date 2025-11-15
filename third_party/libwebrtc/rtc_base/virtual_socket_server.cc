@@ -4200,6 +4200,10 @@ drop_prob_
 .
 0
 )
+ready_to_send_trampoline_
+(
+this
+)
 {
 UpdateDelayDistribution
 (
