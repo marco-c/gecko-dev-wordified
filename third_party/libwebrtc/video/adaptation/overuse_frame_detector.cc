@@ -3732,7 +3732,13 @@ return
 int64_t
 now_ms
 =
-TimeMillis
+env_
+.
+clock
+(
+)
+.
+TimeInMilliseconds
 (
 )
 ;
