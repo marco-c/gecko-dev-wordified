@@ -2420,27 +2420,6 @@ self
 )
 :
         
-with
-self
-.
-marionette
-.
-using_prefs
-(
-{
-"
-browser
-.
-newtabpage
-.
-enabled
-"
-:
-True
-}
-)
-:
-            
 self
 .
 marionette
@@ -2453,7 +2432,7 @@ about
 newtab
 "
 )
-            
+        
 self
 .
 marionette
@@ -2464,7 +2443,7 @@ self
 .
 test_page_remote
 )
-            
+        
 self
 .
 marionette
