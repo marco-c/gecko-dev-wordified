@@ -28735,6 +28735,14 @@ frame
 ;
 #
 endif
+MOZ_ASSERT
+(
+!
+ShouldActivateAllScrollFrames
+(
+)
+)
+;
 asrSetter
 .
 InsertScrollFrame
