@@ -404,11 +404,6 @@ TraceLoggingProvider
 .
 h
 >
-#
-include
-<
-vector
->
 namespace
 ETW
 {
