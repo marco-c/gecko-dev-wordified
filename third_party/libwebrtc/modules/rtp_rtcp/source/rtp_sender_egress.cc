@@ -1895,6 +1895,9 @@ compound_packet
 =
 Packet
 {
+.
+rtp_packet
+=
 std
 :
 :
@@ -1902,7 +1905,13 @@ move
 (
 packet
 )
+.
+info
+=
 pacing_info
+.
+now
+=
 now
 }
 ;

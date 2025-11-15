@@ -651,7 +651,13 @@ builder
 =
 spa_pod_builder
 {
+.
+data
+=
 buffer
+.
+size
+=
 sizeof
 (
 buffer
@@ -1681,7 +1687,13 @@ builder
 =
 spa_pod_builder
 {
+.
+data
+=
 buffer
+.
+size
+=
 sizeof
 (
 buffer

@@ -2644,9 +2644,15 @@ status
 ValueAndPostionView
 view
 {
+.
+values
+=
 GetValues
 (
 )
+.
+positions
+=
 GetPositions
 (
 )
