@@ -1795,8 +1795,13 @@ aInfo
 ;
 }
 void
-EnableSendCongestionControlFeedbackAccordingToRfc8888
+SetPreferredRtcpCcAckType
 (
+webrtc
+:
+:
+RtcpFeedbackType
+preferred_rtcp_cc_ack_type
 )
 override
 {
