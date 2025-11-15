@@ -3652,6 +3652,14 @@ wr
 WrSpatialId
 DefineStickyFrame
 (
+Maybe
+<
+wr
+:
+:
+WrSpatialId
+>
+aParentSpatialId
 const
 wr
 :
