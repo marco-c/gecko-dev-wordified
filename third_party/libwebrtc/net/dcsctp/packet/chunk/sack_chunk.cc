@@ -1148,13 +1148,6 @@ X
 +
 -
 +
-constexpr
-int
-SackChunk
-:
-:
-kType
-;
 std
 :
 :

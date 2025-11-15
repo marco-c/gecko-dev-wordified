@@ -419,13 +419,6 @@ usec
 +
 -
 +
-constexpr
-int
-StaleCookieErrorCause
-:
-:
-kType
-;
 std
 :
 :

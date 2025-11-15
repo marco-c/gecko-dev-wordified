@@ -460,13 +460,6 @@ Reason
 +
 -
 +
-constexpr
-int
-UserInitiatedAbortCause
-:
-:
-kType
-;
 std
 :
 :

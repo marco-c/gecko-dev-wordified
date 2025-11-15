@@ -403,13 +403,6 @@ kDefaultSendNackDelay
 /
 /
 namespace
-constexpr
-TimeDelta
-NackPeriodicProcessor
-:
-:
-kUpdateInterval
-;
 NackPeriodicProcessor
 :
 :

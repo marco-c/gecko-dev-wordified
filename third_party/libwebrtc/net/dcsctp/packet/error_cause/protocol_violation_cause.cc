@@ -458,13 +458,6 @@ Information
 +
 -
 +
-constexpr
-int
-ProtocolViolationCause
-:
-:
-kType
-;
 std
 :
 :

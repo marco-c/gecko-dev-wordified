@@ -343,13 +343,6 @@ Length
 +
 -
 +
-constexpr
-int
-CookieAckChunk
-:
-:
-kType
-;
 std
 :
 :

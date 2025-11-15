@@ -400,15 +400,6 @@ kFixedSsrc
 /
 /
 namespace
-constexpr
-char
-BweSeparateAudioPacketsSettings
-:
-:
-kKey
-[
-]
-;
 BweSeparateAudioPacketsSettings
 :
 :

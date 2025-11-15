@@ -158,13 +158,6 @@ webrtc
 namespace
 test
 {
-constexpr
-float
-DriftingClock
-:
-:
-kNoDrift
-;
 DriftingClock
 :
 :

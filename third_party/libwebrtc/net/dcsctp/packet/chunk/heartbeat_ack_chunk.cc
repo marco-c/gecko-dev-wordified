@@ -476,13 +476,6 @@ Length
 +
 -
 +
-constexpr
-int
-HeartbeatAckChunk
-:
-:
-kType
-;
 std
 :
 :

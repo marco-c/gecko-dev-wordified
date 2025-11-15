@@ -798,13 +798,6 @@ Parameters
 +
 -
 +
-constexpr
-int
-InitAckChunk
-:
-:
-kType
-;
 std
 :
 :

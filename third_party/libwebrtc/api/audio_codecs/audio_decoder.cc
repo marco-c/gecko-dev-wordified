@@ -1051,13 +1051,6 @@ kSpeech
 ;
 }
 }
-constexpr
-int
-AudioDecoder
-:
-:
-kMaxNumberOfChannels
-;
 }
 /
 /

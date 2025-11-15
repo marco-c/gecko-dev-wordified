@@ -443,13 +443,6 @@ Cookie
 +
 -
 +
-constexpr
-int
-CookieEchoChunk
-:
-:
-kType
-;
 std
 :
 :

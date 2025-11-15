@@ -304,13 +304,6 @@ Length
 +
 -
 +
-constexpr
-int
-CookieReceivedWhileShuttingDownCause
-:
-:
-kType
-;
 std
 :
 :

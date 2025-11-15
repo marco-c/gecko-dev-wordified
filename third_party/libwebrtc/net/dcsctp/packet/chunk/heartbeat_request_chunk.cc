@@ -475,13 +475,6 @@ Length
 +
 -
 +
-constexpr
-int
-HeartbeatRequestChunk
-:
-:
-kType
-;
 std
 :
 :

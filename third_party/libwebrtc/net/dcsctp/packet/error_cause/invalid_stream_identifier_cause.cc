@@ -431,13 +431,6 @@ Reserved
 +
 -
 +
-constexpr
-int
-InvalidStreamIdentifierCause
-:
-:
-kType
-;
 std
 :
 :

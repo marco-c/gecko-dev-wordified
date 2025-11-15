@@ -304,13 +304,6 @@ Length
 +
 -
 +
-constexpr
-int
-OutOfResourceErrorCause
-:
-:
-kType
-;
 std
 :
 :

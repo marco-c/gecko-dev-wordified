@@ -405,13 +405,6 @@ Address
 +
 -
 +
-constexpr
-int
-UnresolvableAddressCause
-:
-:
-kType
-;
 std
 :
 :

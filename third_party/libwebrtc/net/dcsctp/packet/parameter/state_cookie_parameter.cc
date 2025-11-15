@@ -194,13 +194,6 @@ section
 3
 .
 1
-constexpr
-int
-StateCookieParameter
-:
-:
-kType
-;
 std
 :
 :

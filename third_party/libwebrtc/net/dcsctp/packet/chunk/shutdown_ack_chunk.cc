@@ -343,13 +343,6 @@ Length
 +
 -
 +
-constexpr
-int
-ShutdownAckChunk
-:
-:
-kType
-;
 std
 :
 :

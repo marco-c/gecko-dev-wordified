@@ -818,13 +818,6 @@ Data
 +
 -
 +
-constexpr
-int
-IDataChunk
-:
-:
-kType
-;
 std
 :
 :

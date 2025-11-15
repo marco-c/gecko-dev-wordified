@@ -177,13 +177,6 @@ Millis
 100
 )
 ;
-constexpr
-TimeDelta
-InterArrivalDelta
-:
-:
-kArrivalTimeOffsetThreshold
-;
 InterArrivalDelta
 :
 :

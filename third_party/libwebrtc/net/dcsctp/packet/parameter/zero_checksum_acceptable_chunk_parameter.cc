@@ -477,13 +477,6 @@ EDMID
 +
 -
 +
-constexpr
-int
-ZeroChecksumAcceptableChunkParameter
-:
-:
-kType
-;
 std
 :
 :

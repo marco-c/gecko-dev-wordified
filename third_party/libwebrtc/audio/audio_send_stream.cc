@@ -865,15 +865,6 @@ rtclog_config
 /
 /
 namespace
-constexpr
-char
-AudioAllocationConfig
-:
-:
-kKey
-[
-]
-;
 std
 :
 :

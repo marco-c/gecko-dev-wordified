@@ -750,13 +750,6 @@ S
 +
 -
 +
-constexpr
-int
-DataChunk
-:
-:
-kType
-;
 std
 :
 :

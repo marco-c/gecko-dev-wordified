@@ -553,13 +553,6 @@ kWeightFactor
 /
 /
 namespace
-constexpr
-TimeDelta
-CallStats
-:
-:
-kUpdateInterval
-;
 CallStats
 :
 :
@@ -1093,7 +1086,11 @@ elapsed_sec
 metrics
 :
 :
-kMinRunTimeInSeconds
+kMinRunTime
+.
+seconds
+(
+)
 )
 {
 int64_t

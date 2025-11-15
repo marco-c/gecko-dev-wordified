@@ -801,13 +801,6 @@ Parameters
 +
 -
 +
-constexpr
-int
-InitChunk
-:
-:
-kType
-;
 std
 :
 :

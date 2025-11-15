@@ -448,13 +448,6 @@ TLVs
 +
 -
 +
-constexpr
-int
-RestartOfAnAssociationWithNewAddressesCause
-:
-:
-kType
-;
 std
 :
 :

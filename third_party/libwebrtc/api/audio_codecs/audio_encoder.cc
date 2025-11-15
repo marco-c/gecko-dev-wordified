@@ -761,13 +761,6 @@ ANAStats
 )
 ;
 }
-constexpr
-int
-AudioEncoder
-:
-:
-kMaxNumberOfChannels
-;
 }
 /
 /

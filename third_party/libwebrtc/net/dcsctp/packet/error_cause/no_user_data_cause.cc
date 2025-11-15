@@ -431,13 +431,6 @@ value
 +
 -
 +
-constexpr
-int
-NoUserDataCause
-:
-:
-kType
-;
 std
 :
 :
