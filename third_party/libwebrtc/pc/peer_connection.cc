@@ -3641,6 +3641,11 @@ LegacyStatsCollector
 >
 (
 this
+env_
+.
+clock
+(
+)
 )
 )
 stats_collector_
