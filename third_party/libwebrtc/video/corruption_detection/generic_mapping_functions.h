@@ -95,6 +95,8 @@ api
 /
 video
 /
+corruption_detection
+/
 corruption_detection_filter_settings
 .
 h
