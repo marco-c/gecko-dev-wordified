@@ -502,7 +502,7 @@ xml
 .
 android_ndk_api_level
 =
-21
+23
 #
 WebRTC
 does
@@ -555,7 +555,7 @@ SDK
 .
 default_min_sdk_version
 =
-21
+23
 #
 Prevent
 jsoncpp
@@ -715,4 +715,14 @@ issues
 enable_js_protobuf
 =
 false
+#
+Use
+Siso
+instead
+of
+Ninja
+.
+use_siso
+=
+true
 }
