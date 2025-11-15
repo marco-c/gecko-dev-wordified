@@ -312,6 +312,15 @@ include
 "
 test
 /
+create_test_environment
+.
+h
+"
+#
+include
+"
+test
+/
 gmock
 .
 h
@@ -594,6 +603,9 @@ sink
 FrameEncodeMetadataWriter
 encode_timer
 (
+CreateTestEnvironment
+(
+)
 &
 sink
 )
@@ -1514,6 +1526,9 @@ sink
 FrameEncodeMetadataWriter
 encode_timer
 (
+CreateTestEnvironment
+(
+)
 &
 sink
 )
@@ -1735,6 +1750,9 @@ sink
 FrameEncodeMetadataWriter
 encode_timer
 (
+CreateTestEnvironment
+(
+)
 &
 sink
 )
@@ -2173,6 +2191,9 @@ sink
 FrameEncodeMetadataWriter
 encode_timer
 (
+CreateTestEnvironment
+(
+)
 &
 sink
 )
@@ -2342,6 +2363,9 @@ sink
 FrameEncodeMetadataWriter
 encode_timer
 (
+CreateTestEnvironment
+(
+)
 &
 sink
 )
@@ -2488,6 +2512,9 @@ sink
 FrameEncodeMetadataWriter
 encode_timer
 (
+CreateTestEnvironment
+(
+)
 &
 sink
 )
@@ -2647,6 +2674,9 @@ sink
 FrameEncodeMetadataWriter
 encode_timer
 (
+CreateTestEnvironment
+(
+)
 &
 sink
 )
@@ -2820,6 +2850,9 @@ sink
 FrameEncodeMetadataWriter
 encode_timer
 (
+CreateTestEnvironment
+(
+)
 &
 sink
 )
@@ -3035,6 +3068,9 @@ sink
 FrameEncodeMetadataWriter
 encode_timer
 (
+CreateTestEnvironment
+(
+)
 &
 sink
 )
@@ -3222,6 +3258,9 @@ sink
 FrameEncodeMetadataWriter
 encode_metadata_writer
 (
+CreateTestEnvironment
+(
+)
 &
 sink
 )
@@ -3316,6 +3355,9 @@ sink
 FrameEncodeMetadataWriter
 encode_metadata_writer
 (
+CreateTestEnvironment
+(
+)
 &
 sink
 )
@@ -3467,6 +3509,9 @@ sink
 FrameEncodeMetadataWriter
 encode_metadata_writer
 (
+CreateTestEnvironment
+(
+)
 &
 sink
 )

@@ -7018,6 +7018,7 @@ encoder_
 =
 MaybeCreateFrameDumpingEncoderWrapper
 (
+env_
 settings_
 .
 encoder_factory
@@ -7029,11 +7030,6 @@ env_
 encoder_config_
 .
 video_format
-)
-env_
-.
-field_trials
-(
 )
 )
 ;
@@ -10771,13 +10767,14 @@ preferred_fallback_encoder
 {
 if
 (
+!
 env_
 .
 field_trials
 (
 )
 .
-IsEnabled
+IsDisabled
 (
 kSwitchEncoderFollowCodecPreferenceOrderFieldTrial
 )

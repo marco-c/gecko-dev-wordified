@@ -2473,6 +2473,7 @@ encoder_queue_
 FrameEncodeMetadataWriter
 frame_encode_metadata_writer_
 {
+env_
 this
 }
 ;
