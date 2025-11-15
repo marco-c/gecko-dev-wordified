@@ -1605,8 +1605,6 @@ transmute
 self
 .
 0
-as
-i32
 )
 }
 }
@@ -1655,14 +1653,9 @@ prop
 =
 prop
 as
-i32
+u16
 ;
 if
-prop
-<
-0
-|
-|
 prop
 >
 =
@@ -1671,7 +1664,7 @@ property_counts
 :
 NON_CUSTOM
 as
-i32
+u16
 {
 return
 None
@@ -1689,8 +1682,6 @@ Some
 NonCustomPropertyId
 (
 prop
-as
-u16
 )
 )
 }

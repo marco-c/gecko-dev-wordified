@@ -2512,8 +2512,8 @@ public
 ContiguousEnumSerializer
 <
 NonCustomCSSPropertyId
-eCSSProperty_UNKNOWN
-eCSSProperty_COUNT
+eCSSProperty_FIRST
+eCSSProperty_INVALID
 >
 {
 }
