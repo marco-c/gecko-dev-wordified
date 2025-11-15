@@ -4463,7 +4463,7 @@ manual_reset
 false
 /
 *
-initially_signalled
+initially_signaled
 =
 *
 /

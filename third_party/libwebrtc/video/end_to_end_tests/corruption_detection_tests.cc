@@ -292,7 +292,7 @@ extension_id
 1
 /
 *
-encrypted
+encrypt
 =
 *
 /

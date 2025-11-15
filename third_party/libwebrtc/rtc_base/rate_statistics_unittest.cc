@@ -131,7 +131,7 @@ webrtc
 :
 RateStatistics
 ;
-const
+constexpr
 int64_t
 kWindowMs
 =
@@ -2499,7 +2499,7 @@ fps_stats
 (
 /
 *
-window_size_ms
+max_window_size_ms
 =
 *
 /
@@ -2624,7 +2624,7 @@ fps_stats
 (
 /
 *
-window_size_ms
+max_window_size_ms
 =
 *
 /

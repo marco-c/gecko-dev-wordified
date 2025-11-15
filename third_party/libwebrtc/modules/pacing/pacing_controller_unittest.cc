@@ -443,7 +443,7 @@ KilobitsPerSec
 150
 )
 ;
-const
+constexpr
 float
 kPaceMultiplier
 =
@@ -17364,7 +17364,7 @@ sequence_number
 1
 /
 *
-capture_time
+capture_time_ms
 =
 *
 /
@@ -17440,7 +17440,7 @@ sequence_number
 1
 /
 *
-capture_time
+capture_time_ms
 =
 *
 /
@@ -17581,7 +17581,7 @@ sequence_number
 1
 /
 *
-capture_time
+capture_time_ms
 =
 *
 /
@@ -17614,7 +17614,7 @@ sequence_number
 2
 /
 *
-capture_time
+capture_time_ms
 =
 *
 /
@@ -17744,7 +17744,7 @@ sequence_number
 1
 /
 *
-capture_time
+capture_time_ms
 =
 *
 /
@@ -17988,7 +17988,7 @@ sequence_number
 1
 /
 *
-capture_time
+capture_time_ms
 =
 *
 /
@@ -18024,7 +18024,7 @@ sequence_number
 10
 /
 *
-capture_time
+capture_time_ms
 =
 *
 /
@@ -18082,7 +18082,7 @@ sequence_number
 2
 /
 *
-capture_time
+capture_time_ms
 =
 *
 /

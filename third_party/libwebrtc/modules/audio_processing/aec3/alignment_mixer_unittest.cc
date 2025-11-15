@@ -1110,7 +1110,7 @@ x
 (
 /
 *
-num_band
+num_bands
 =
 *
 /

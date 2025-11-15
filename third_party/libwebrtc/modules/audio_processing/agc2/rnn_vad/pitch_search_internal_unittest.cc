@@ -787,7 +787,7 @@ PitchBuffer24kHzView
 y_energy_view
 /
 *
-pitch_candidates
+pitch_candidates_24kHz
 =
 *
 /
@@ -812,7 +812,7 @@ PitchBuffer24kHzView
 y_energy_view
 /
 *
-pitch_candidates
+pitch_candidates_24kHz
 =
 *
 /

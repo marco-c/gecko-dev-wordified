@@ -6219,7 +6219,7 @@ mid
 "
 /
 *
-header_extensions
+rtp_header_extensions
 =
 *
 /

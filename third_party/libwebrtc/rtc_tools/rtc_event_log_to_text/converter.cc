@@ -759,7 +759,7 @@ parsed_log
 handle_unconfigured_extensions
 /
 *
-allow_incomplete_logs
+allow_incomplete_log
 =
 *
 /

@@ -3791,7 +3791,7 @@ samples_value
 0f
 /
 *
-clipping_ratio
+clipped_ratio
 =
 *
 /
@@ -3879,7 +3879,7 @@ samples_value
 0f
 /
 *
-clipping_ratio
+clipped_ratio
 =
 *
 /

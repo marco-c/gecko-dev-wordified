@@ -2002,7 +2002,7 @@ base_sequence
 0
 /
 *
-ref_timestamp
+timestamp
 =
 *
 /

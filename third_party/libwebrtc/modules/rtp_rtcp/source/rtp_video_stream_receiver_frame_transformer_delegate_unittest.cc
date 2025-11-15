@@ -505,7 +505,7 @@ ssrc
 csrcs
 /
 *
-rtc_timestamp
+rtp_timestamp
 =
 *
 /
@@ -2331,7 +2331,7 @@ clock
 (
 /
 *
-initial_timestamp_us
+initial_time_us
 =
 *
 /

@@ -63527,7 +63527,7 @@ num_temporal_layers
 3
 /
 *
-is_screenshare
+is_screen_sharing
 =
 *
 /
@@ -64678,7 +64678,7 @@ num_temporal_layers
 3
 /
 *
-is_screenshare
+is_screen_sharing
 =
 *
 /
@@ -64759,7 +64759,7 @@ num_temporal_layers
 3
 /
 *
-is_screenshare
+is_screen_sharing
 =
 *
 /
