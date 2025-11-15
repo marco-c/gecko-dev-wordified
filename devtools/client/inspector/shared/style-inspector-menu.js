@@ -1545,7 +1545,7 @@ inspector
 .
 selection
 .
-isAnonymousNode
+isNativeAnonymousNode
 (
 )
 }

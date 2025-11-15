@@ -1105,7 +1105,7 @@ elementStyle
 .
 element
 .
-isAnonymous
+isNativeAnonymous
 ;
 }
 _create

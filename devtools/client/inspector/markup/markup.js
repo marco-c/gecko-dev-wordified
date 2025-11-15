@@ -9299,7 +9299,7 @@ DOCUMENT_FRAGMENT_NODE
 |
 nodeFront
 .
-isAnonymous
+isNativeAnonymous
 )
 ;
 }

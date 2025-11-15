@@ -318,7 +318,7 @@ ok
 !
 child
 .
-isAnonymous
+isNativeAnonymous
 "
 <
 input

@@ -192,14 +192,9 @@ loader
 lazyRequireGetter
 (
 this
-[
-"
-isNativeAnonymous
-"
 "
 getAdjustedQuads
 "
-]
 "
 resource
 :
@@ -1300,10 +1295,9 @@ node
 )
 &
 &
-isNativeAnonymous
-(
 node
-)
+.
+isNativeAnonymous
 )
 {
 return
