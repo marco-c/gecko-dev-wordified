@@ -11661,6 +11661,9 @@ no_blocking_calls
 bool
 spec_lifetime
 =
+is_unified_plan_
+&
+&
 env_
 .
 field_trials
@@ -12327,9 +12330,6 @@ yet
 if
 (
 spec_lifetime
-&
-&
-is_unified_plan_
 &
 &
 !
@@ -13101,9 +13101,6 @@ yet
 if
 (
 spec_lifetime
-&
-&
-is_unified_plan_
 &
 &
 !
