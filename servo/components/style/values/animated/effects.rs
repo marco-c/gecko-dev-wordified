@@ -136,6 +136,7 @@ computed
 :
 {
 Angle
+NonNegativeLength
 Number
 }
 ;
@@ -219,7 +220,7 @@ GenericSimpleShadow
 <
 Color
 Length
-Length
+NonNegativeLength
 >
 ;
 /
@@ -251,7 +252,6 @@ AnimatedFilter
 GenericFilter
 <
 Angle
-Number
 Number
 Length
 AnimatedSimpleShadow
@@ -290,7 +290,6 @@ AnimatedFilter
 GenericFilter
 <
 Angle
-Number
 Number
 Length
 AnimatedSimpleShadow

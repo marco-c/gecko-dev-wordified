@@ -539,9 +539,8 @@ generic
 Gradient
 <
 LineDirection
+Length
 LengthPercentage
-NonNegativeLength
-NonNegativeLengthPercentage
 Position
 Angle
 AngleOrPercentage

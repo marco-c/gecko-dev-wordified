@@ -323,7 +323,6 @@ GenericBasicShape
 Angle
 Position
 LengthPercentage
-NonNegativeLengthPercentage
 InsetRect
 >
 ;
@@ -348,7 +347,6 @@ generic
 GenericInsetRect
 <
 LengthPercentage
-NonNegativeLengthPercentage
 >
 ;
 /
