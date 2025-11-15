@@ -204,6 +204,17 @@ NaluIndex
 >
 results
 ;
+results
+.
+reserve
+(
+indices
+.
+size
+(
+)
+)
+;
 for
 (
 auto
