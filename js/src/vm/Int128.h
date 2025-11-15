@@ -440,6 +440,7 @@ figure
 *
 /
 static
+constexpr
 std
 :
 :
@@ -933,6 +934,7 @@ figure
 *
 /
 static
+constexpr
 std
 :
 :
@@ -2114,6 +2116,7 @@ division
 .
 *
 /
+constexpr
 std
 :
 :
@@ -2140,6 +2143,7 @@ divisor
 )
 ;
 }
+constexpr
 Uint128
 operator
 /
@@ -2166,6 +2170,7 @@ return
 quot
 ;
 }
+constexpr
 Uint128
 operator
 %
@@ -2783,6 +2788,7 @@ return
 this
 ;
 }
+constexpr
 Uint128
 operator
 /
@@ -2807,6 +2813,7 @@ return
 this
 ;
 }
+constexpr
 Uint128
 operator
 %
@@ -3079,6 +3086,7 @@ figure
 *
 /
 static
+constexpr
 std
 :
 :
@@ -3391,6 +3399,7 @@ division
 .
 *
 /
+constexpr
 std
 :
 :
@@ -3922,6 +3931,7 @@ other
 }
 ;
 }
+constexpr
 Int128
 operator
 /
@@ -3948,6 +3958,7 @@ return
 quot
 ;
 }
+constexpr
 Int128
 operator
 %
@@ -4469,6 +4480,7 @@ return
 this
 ;
 }
+constexpr
 Int128
 operator
 /
@@ -4493,6 +4505,7 @@ return
 this
 ;
 }
+constexpr
 Int128
 operator
 %
