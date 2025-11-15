@@ -9581,6 +9581,10 @@ MoveError
 )
 ;
 }
+ClearStatsCache
+(
+)
+;
 scoped_refptr
 <
 DataChannelInterface
