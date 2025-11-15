@@ -414,11 +414,6 @@ ifdef
 MOZ_WIDGET_ANDROID
 #
 include
-<
-set
->
-#
-include
 "
 AndroidBuild
 .

@@ -121,11 +121,6 @@ stdlib
 .
 h
 >
-#
-include
-<
-algorithm
->
 /
 /
 These

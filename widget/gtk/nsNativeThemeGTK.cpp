@@ -208,11 +208,6 @@ endif
 #
 include
 <
-algorithm
->
-#
-include
-<
 dlfcn
 .
 h
