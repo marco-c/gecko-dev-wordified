@@ -724,16 +724,6 @@ icu_segmenter
 instead
 "
     
-#
-Exception
-until
-bug
-1986265
-is
-fixed
-.
-    
-#
 "
 unicode
 -
@@ -1092,20 +1082,6 @@ icu_properties
 at
 this
 time
-    
-"
-unicode
--
-normalization
-"
-#
-Exception
-until
-bug
-1986265
-is
-fixed
-.
     
 "
 unicode
