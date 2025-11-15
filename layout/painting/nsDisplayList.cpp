@@ -37275,10 +37275,6 @@ mShouldFlatten
 (
 false
 )
-mWrStickyAnimationId
-(
-0
-)
 {
 MOZ_COUNT_CTOR
 (
