@@ -785,16 +785,34 @@ FieldTrial
 '
 WebRTC
 -
-NoSdpMangleNumberOfContents
+NoSdpMangleReject
 '
                
 40567530
                
 date
 (
-2025
-10
-11
+2026
+6
+1
+)
+)
+    
+FieldTrial
+(
+'
+WebRTC
+-
+NoSdpMangleAllowForTesting
+'
+               
+40567530
+               
+date
+(
+2026
+6
+1
 )
 )
     
