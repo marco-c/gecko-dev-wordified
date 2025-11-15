@@ -1773,6 +1773,7 @@ voice
 .
 CreateSendChannel
 (
+env_
 call_ptr
 media_config
 audio_options
@@ -1800,6 +1801,7 @@ voice
 .
 CreateReceiveChannel
 (
+env_
 call_ptr
 media_config
 audio_options

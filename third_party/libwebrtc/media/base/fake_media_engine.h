@@ -5180,6 +5180,10 @@ VoiceMediaSendChannelInterface
 >
 CreateSendChannel
 (
+const
+Environment
+&
+env
 Call
 *
 call
@@ -5209,6 +5213,10 @@ VoiceMediaReceiveChannelInterface
 >
 CreateReceiveChannel
 (
+const
+Environment
+&
+env
 Call
 *
 call
