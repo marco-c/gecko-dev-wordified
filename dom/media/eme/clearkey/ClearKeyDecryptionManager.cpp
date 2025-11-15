@@ -205,6 +205,9 @@ aBytes
 )
 {
 return
+std
+:
+:
 all_of
 (
 aBytes

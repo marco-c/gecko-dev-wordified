@@ -123,11 +123,6 @@ mozilla_dom_TypedArray_h
 #
 include
 <
-string
->
-#
-include
-<
 type_traits
 >
 #

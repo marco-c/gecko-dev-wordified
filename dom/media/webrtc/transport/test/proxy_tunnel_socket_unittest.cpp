@@ -132,11 +132,6 @@ numeric
 >
 #
 include
-<
-vector
->
-#
-include
 "
 WebrtcTCPSocketWrapper
 .

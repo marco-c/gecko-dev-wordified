@@ -122,11 +122,6 @@ define
 mozilla_dom_HTMLProgressElement_h
 #
 include
-<
-algorithm
->
-#
-include
 "
 nsAttrValue
 .

@@ -122,11 +122,6 @@ define
 mozilla_dom_localstorage_SerializationHelpers_h
 #
 include
-<
-string
->
-#
-include
 "
 chrome
 /

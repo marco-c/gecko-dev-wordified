@@ -333,11 +333,6 @@ h
 >
 #
 include
-<
-vector
->
-#
-include
 "
 gmp
 -

@@ -95,11 +95,6 @@ MPL
 /
 #
 include
-<
-limits
->
-#
-include
 "
 ClientWebGLContext
 .

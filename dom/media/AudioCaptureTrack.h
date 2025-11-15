@@ -101,11 +101,6 @@ define
 MOZILLA_AUDIOCAPTURETRACK_H_
 #
 include
-<
-algorithm
->
-#
-include
 "
 AudioMixer
 .

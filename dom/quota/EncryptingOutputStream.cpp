@@ -123,11 +123,6 @@ h
 "
 #
 include
-<
-type_traits
->
-#
-include
 "
 EncryptingOutputStream_impl
 .

@@ -123,11 +123,6 @@ h
 "
 #
 include
-<
-algorithm
->
-#
-include
 "
 SVGArcConverter
 .

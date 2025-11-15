@@ -101,11 +101,6 @@ define
 MOZILLA_PARAMTRAITS_STL_H
 #
 include
-<
-memory
->
-#
-include
 "
 ipc
 /

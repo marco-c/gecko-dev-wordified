@@ -117,11 +117,6 @@ memory
 #
 include
 <
-set
->
-#
-include
-<
 vector
 >
 #

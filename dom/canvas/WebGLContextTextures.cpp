@@ -95,11 +95,6 @@ MPL
 /
 #
 include
-<
-algorithm
->
-#
-include
 "
 CanvasUtils
 .

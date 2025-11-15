@@ -113,11 +113,6 @@ MPL
 /
 #
 include
-<
-vector
->
-#
-include
 "
 ContainerWriter
 .

@@ -113,11 +113,6 @@ _QUEUEPARAMTRAITS_H_
 1
 #
 include
-<
-optional
->
-#
-include
 "
 WebGLTypes
 .
