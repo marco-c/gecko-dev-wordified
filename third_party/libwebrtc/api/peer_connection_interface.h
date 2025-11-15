@@ -9905,8 +9905,6 @@ Candidate
 &
 candidates
 )
-=
-0
 ;
 /
 /
