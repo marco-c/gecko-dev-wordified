@@ -871,6 +871,9 @@ channel
 Push
 (
 {
+.
+average
+=
 sum_squares
 /
 static_cast
@@ -880,6 +883,9 @@ float
 (
 samples_per_channel
 )
+.
+max
+=
 peak
 }
 )
@@ -1791,6 +1797,9 @@ channel
 Push
 (
 {
+.
+average
+=
 sum_squares
 /
 static_cast
@@ -1800,6 +1809,9 @@ float
 (
 samples_per_channel
 )
+.
+max
+=
 peak
 }
 )

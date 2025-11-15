@@ -534,6 +534,9 @@ Level
 >
 (
 {
+.
+average
+=
 sum
 /
 static_cast
@@ -543,6 +546,9 @@ float
 (
 num_items
 )
+.
+max
+=
 max
 }
 )

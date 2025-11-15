@@ -740,7 +740,13 @@ Interval
 second_last_turn
 =
 {
+.
+begin
+=
 0
+.
+end
+=
 0
 }
 ;
@@ -748,7 +754,13 @@ Interval
 last_turn
 =
 {
+.
+begin
+=
 0
+.
+end
+=
 0
 }
 ;

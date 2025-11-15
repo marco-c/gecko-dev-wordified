@@ -195,6 +195,9 @@ kLowPassFilterDs4
 {
 {
 {
+.
+b
+=
 {
 0
 .
@@ -206,6 +209,9 @@ kLowPassFilterDs4
 .
 0180919877f
 }
+.
+a
+=
 {
 -
 1
@@ -217,6 +223,9 @@ kLowPassFilterDs4
 }
 }
 {
+.
+b
+=
 {
 1
 .
@@ -229,6 +238,9 @@ kLowPassFilterDs4
 .
 0f
 }
+.
+a
+=
 {
 -
 1
@@ -240,6 +252,9 @@ kLowPassFilterDs4
 }
 }
 {
+.
+b
+=
 {
 1
 .
@@ -252,6 +267,9 @@ kLowPassFilterDs4
 .
 0f
 }
+.
+a
+=
 {
 -
 1
@@ -313,6 +331,9 @@ kBandPassFilterDs8
 {
 {
 {
+.
+b
+=
 {
 0
 .
@@ -325,6 +346,9 @@ kBandPassFilterDs8
 .
 103304783f
 }
+.
+a
+=
 {
 -
 1
@@ -336,6 +360,9 @@ kBandPassFilterDs8
 }
 }
 {
+.
+b
+=
 {
 0
 .
@@ -348,6 +375,9 @@ kBandPassFilterDs8
 .
 103304783f
 }
+.
+a
+=
 {
 -
 1
@@ -359,6 +389,9 @@ kBandPassFilterDs8
 }
 }
 {
+.
+b
+=
 {
 0
 .
@@ -371,6 +404,9 @@ kBandPassFilterDs8
 .
 103304783f
 }
+.
+a
+=
 {
 -
 1
@@ -382,6 +418,9 @@ kBandPassFilterDs8
 }
 }
 {
+.
+b
+=
 {
 0
 .
@@ -394,6 +433,9 @@ kBandPassFilterDs8
 .
 103304783f
 }
+.
+a
+=
 {
 -
 1
@@ -405,6 +447,9 @@ kBandPassFilterDs8
 }
 }
 {
+.
+b
+=
 {
 0
 .
@@ -417,6 +462,9 @@ kBandPassFilterDs8
 .
 103304783f
 }
+.
+a
+=
 {
 -
 1
@@ -468,6 +516,9 @@ kHighPassFilter
 {
 {
 {
+.
+b
+=
 {
 0
 .
@@ -480,6 +531,9 @@ kHighPassFilter
 .
 757076375f
 }
+.
+a
+=
 {
 -
 1

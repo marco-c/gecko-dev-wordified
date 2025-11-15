@@ -219,6 +219,9 @@ BiQuadFilter
 Config
 kHpfConfig24k
 {
+.
+b
+=
 {
 0
 .
@@ -231,6 +234,9 @@ kHpfConfig24k
 .
 99446179f
 }
+.
+a
+=
 {
 -
 1

@@ -1641,11 +1641,17 @@ concealment_events
 ;
 return
 {
+.
+network
+=
 neteq_test
 .
 SimulationStats
 (
 )
+.
+lifetime
+=
 neteq_test
 .
 LifetimeStats

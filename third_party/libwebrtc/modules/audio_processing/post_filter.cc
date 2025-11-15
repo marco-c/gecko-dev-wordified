@@ -224,6 +224,9 @@ kPostFilterCoefficients48kHz
 {
 {
 {
+.
+b
+=
 {
 0
 .
@@ -235,6 +238,9 @@ kPostFilterCoefficients48kHz
 .
 56142156f
 }
+.
+a
+=
 {
 1
 .
@@ -245,6 +251,9 @@ kPostFilterCoefficients48kHz
 }
 }
 {
+.
+b
+=
 {
 1
 .
@@ -256,6 +265,9 @@ kPostFilterCoefficients48kHz
 .
 00000000f
 }
+.
+a
+=
 {
 1
 .
@@ -266,6 +278,9 @@ kPostFilterCoefficients48kHz
 }
 }
 {
+.
+b
+=
 {
 1
 .
@@ -277,6 +292,9 @@ kPostFilterCoefficients48kHz
 .
 00000000f
 }
+.
+a
+=
 {
 1
 .
@@ -287,6 +305,9 @@ kPostFilterCoefficients48kHz
 }
 }
 {
+.
+b
+=
 {
 1
 .
@@ -298,6 +319,9 @@ kPostFilterCoefficients48kHz
 .
 00000000f
 }
+.
+a
+=
 {
 1
 .

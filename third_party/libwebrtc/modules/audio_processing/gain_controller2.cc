@@ -606,10 +606,16 @@ x
 AudioLevels
 levels
 {
+.
+peak_dbfs
+=
 FloatS16ToDbfs
 (
 peak
 )
+.
+rms_dbfs
+=
 FloatS16ToDbfs
 (
 std
