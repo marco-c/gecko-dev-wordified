@@ -266,7 +266,7 @@ nsSize
 enum
 NonCustomCSSPropertyId
 :
-uint16_t
+int32_t
 ;
 namespace
 mozilla
