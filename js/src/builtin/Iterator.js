@@ -10766,7 +10766,7 @@ inclusive
 .
 inclusiveEnd
 =
-ToBoolean
+TO_BOOLEAN
 (
 optionOrStep
 .

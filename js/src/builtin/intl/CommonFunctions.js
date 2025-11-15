@@ -3945,7 +3945,7 @@ boolean
 {
 value
 =
-ToBoolean
+TO_BOOLEAN
 (
 value
 )
@@ -4422,7 +4422,7 @@ Step
 .
 value
 =
-ToNumber
+TO_NUMBER
 (
 value
 )

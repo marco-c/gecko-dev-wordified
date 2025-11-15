@@ -1521,7 +1521,7 @@ Step
 var
 n
 =
-ToNumber
+TO_NUMBER
 (
 value
 )
@@ -1724,7 +1724,7 @@ Step
 var
 x
 =
-ToNumber
+TO_NUMBER
 (
 start
 )
@@ -1737,7 +1737,7 @@ Step
 var
 y
 =
-ToNumber
+TO_NUMBER
 (
 end
 )

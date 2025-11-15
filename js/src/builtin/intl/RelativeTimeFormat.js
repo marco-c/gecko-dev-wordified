@@ -1163,7 +1163,7 @@ Step
 var
 t
 =
-ToNumber
+TO_NUMBER
 (
 value
 )
@@ -1310,7 +1310,7 @@ Step
 var
 t
 =
-ToNumber
+TO_NUMBER
 (
 value
 )
