@@ -1450,7 +1450,7 @@ aStickyFrame
 >
 GetProperty
 (
-ActiveScrolledRootCache
+StickyActiveScrolledRootCache
 (
 )
 )
@@ -1487,7 +1487,7 @@ aStickyFrame
 >
 SetProperty
 (
-ActiveScrolledRootCache
+StickyActiveScrolledRootCache
 (
 )
 ref
@@ -2057,6 +2057,18 @@ mFrame
 >
 RemoveProperty
 (
+mKind
+=
+=
+ASRKind
+:
+:
+Sticky
+?
+StickyActiveScrolledRootCache
+(
+)
+:
 ActiveScrolledRootCache
 (
 )
