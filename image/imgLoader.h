@@ -733,11 +733,6 @@ mHasNotified
 }
 ;
 #
-include
-<
-vector
->
-#
 define
 NS_IMGLOADER_CID
 \
