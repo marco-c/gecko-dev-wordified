@@ -117,11 +117,6 @@ StaticPtr
 .
 h
 "
-#
-include
-<
-algorithm
->
 namespace
 mozilla
 {

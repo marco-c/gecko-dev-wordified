@@ -77,11 +77,6 @@ MPL
 #
 include
 <
-algorithm
->
-#
-include
-<
 stdlib
 .
 h
