@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-builtin_temporal_Int128_h
+vm_Int128_h
 #
 define
-builtin_temporal_Int128_h
+vm_Int128_h
 #
 include
 "
@@ -165,9 +165,6 @@ utility
 >
 namespace
 js
-:
-:
-temporal
 {
 class
 Int128
@@ -4411,9 +4408,6 @@ high
 *
 namespace
 js
-:
-:
-temporal
 *
 /
 template
@@ -4426,9 +4420,6 @@ std
 numeric_limits
 <
 js
-:
-:
-temporal
 :
 :
 Int128
@@ -4549,9 +4540,6 @@ CHAR_BIT
 sizeof
 (
 js
-:
-:
-temporal
 :
 :
 Int128
@@ -4652,9 +4640,6 @@ return
 js
 :
 :
-temporal
-:
-:
 Int128
 {
 1
@@ -4705,9 +4690,6 @@ return
 js
 :
 :
-temporal
-:
-:
 Int128
 {
 }
@@ -4723,9 +4705,6 @@ noexcept
 {
 return
 js
-:
-:
-temporal
 :
 :
 Int128
@@ -4745,9 +4724,6 @@ return
 js
 :
 :
-temporal
-:
-:
 Int128
 {
 }
@@ -4763,9 +4739,6 @@ noexcept
 {
 return
 js
-:
-:
-temporal
 :
 :
 Int128
@@ -4785,9 +4758,6 @@ return
 js
 :
 :
-temporal
-:
-:
 Int128
 {
 }
@@ -4803,9 +4773,6 @@ noexcept
 {
 return
 js
-:
-:
-temporal
 :
 :
 Int128
@@ -4825,9 +4792,6 @@ std
 numeric_limits
 <
 js
-:
-:
-temporal
 :
 :
 Uint128
@@ -4950,9 +4914,6 @@ sizeof
 js
 :
 :
-temporal
-:
-:
 Uint128
 )
 ;
@@ -5049,9 +5010,6 @@ return
 js
 :
 :
-temporal
-:
-:
 Uint128
 {
 }
@@ -5084,9 +5042,6 @@ return
 js
 :
 :
-temporal
-:
-:
 Uint128
 {
 }
@@ -5102,9 +5057,6 @@ noexcept
 {
 return
 js
-:
-:
-temporal
 :
 :
 Uint128
@@ -5124,9 +5076,6 @@ return
 js
 :
 :
-temporal
-:
-:
 Uint128
 {
 }
@@ -5142,9 +5091,6 @@ noexcept
 {
 return
 js
-:
-:
-temporal
 :
 :
 Uint128
@@ -5164,9 +5110,6 @@ return
 js
 :
 :
-temporal
-:
-:
 Uint128
 {
 }
@@ -5182,9 +5125,6 @@ noexcept
 {
 return
 js
-:
-:
-temporal
 :
 :
 Uint128
@@ -5204,9 +5144,6 @@ return
 js
 :
 :
-temporal
-:
-:
 Uint128
 {
 }
@@ -5218,6 +5155,6 @@ Uint128
 endif
 /
 *
-builtin_temporal_Int128_h
+vm_Int128_h
 *
 /
