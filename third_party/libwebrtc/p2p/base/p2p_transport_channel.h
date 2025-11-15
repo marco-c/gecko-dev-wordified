@@ -2471,11 +2471,8 @@ port
 )
 ;
 void
-OnRoleConflict
+NotifyRoleConflict
 (
-PortInterface
-*
-port
 )
 ;
 void
