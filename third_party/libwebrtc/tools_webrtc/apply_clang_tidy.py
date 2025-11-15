@@ -761,6 +761,14 @@ work_dir
                       
 "
 -
+allow
+-
+no
+-
+checks
+"
+"
+-
 clang
 -
 tidy
@@ -769,8 +777,8 @@ binary
 "
 work_dir
 /
-_TIDY_BINARY
                       
+_TIDY_BINARY
 "
 -
 clang
