@@ -7095,7 +7095,7 @@ mPositionAnchor
 StylePositionAnchor
 :
 :
-Auto
+None
 (
 )
 )
