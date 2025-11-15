@@ -3837,6 +3837,7 @@ AnyRef
 >
 {
 static
+constexpr
 js
 :
 :
