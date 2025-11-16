@@ -624,6 +624,11 @@ mDescriptor
 Scope
 (
 )
+mDescriptor
+.
+Type
+(
+)
 ServiceWorkerUpdateViaCache
 :
 :
