@@ -436,7 +436,7 @@ const
 mozilla
 :
 :
-AnimatedPropertyID
+CSSPropertyId
 &
 const
 nsStyleUIReset
@@ -511,7 +511,7 @@ const
 mozilla
 :
 :
-AnimatedPropertyID
+CSSPropertyId
 &
 aProperty
 mozilla

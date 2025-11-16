@@ -4480,7 +4480,7 @@ const
 mozilla
 :
 :
-AnimatedPropertyID
+CSSPropertyId
 *
 aProperty
 )
@@ -4497,7 +4497,7 @@ nsRefPtrHashtable
 <
 nsGenericHashKey
 <
-AnimatedPropertyID
+CSSPropertyId
 >
 StyleAnimationValue
 >

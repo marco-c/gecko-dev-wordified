@@ -125,7 +125,7 @@ include
 "
 mozilla
 /
-AnimatedPropertyID
+CSSPropertyId
 .
 h
 "
@@ -213,7 +213,7 @@ explicit
 PropertyValuePair
 (
 const
-AnimatedPropertyID
+CSSPropertyId
 &
 aProperty
 )
@@ -227,7 +227,7 @@ aProperty
 PropertyValuePair
 (
 const
-AnimatedPropertyID
+CSSPropertyId
 &
 aProperty
 RefPtr
@@ -267,7 +267,7 @@ value
 )
 ;
 }
-AnimatedPropertyID
+CSSPropertyId
 mProperty
 ;
 /

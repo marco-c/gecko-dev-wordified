@@ -177,13 +177,13 @@ namespace
 mozilla
 {
 struct
-AnimatedPropertyID
-;
-struct
 AnimationProperty
 ;
 class
 ComputedStyle
+;
+struct
+CSSPropertyId
 ;
 enum
 class
@@ -770,7 +770,7 @@ bool
 IsAnimatableProperty
 (
 const
-AnimatedPropertyID
+CSSPropertyId
 &
 aProperty
 )

@@ -123,7 +123,7 @@ include
 "
 mozilla
 /
-AnimatedPropertyID
+CSSPropertyId
 .
 h
 "
@@ -406,7 +406,7 @@ const
 mozilla
 :
 :
-AnimatedPropertyID
+CSSPropertyId
 &
 aProperty
 )

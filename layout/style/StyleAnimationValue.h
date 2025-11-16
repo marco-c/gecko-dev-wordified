@@ -143,7 +143,7 @@ include
 "
 mozilla
 /
-AnimatedPropertyID
+CSSPropertyId
 .
 h
 "
@@ -622,7 +622,7 @@ void
 SerializeSpecifiedValue
 (
 const
-AnimatedPropertyID
+CSSPropertyId
 &
 aProperty
 const
@@ -655,7 +655,7 @@ bool
 IsInterpolableWith
 (
 const
-AnimatedPropertyID
+CSSPropertyId
 &
 aProperty
 const
@@ -725,7 +725,7 @@ static
 AnimationValue
 FromString
 (
-AnimatedPropertyID
+CSSPropertyId
 &
 aProperty
 const
@@ -873,7 +873,7 @@ s
 struct
 PropertyStyleAnimationValuePair
 {
-AnimatedPropertyID
+CSSPropertyId
 mProperty
 ;
 AnimationValue

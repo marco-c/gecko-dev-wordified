@@ -1708,7 +1708,7 @@ nsRefPtrHashtable
 <
 nsGenericHashKey
 <
-AnimatedPropertyID
+CSSPropertyId
 >
 /
 /
@@ -1745,7 +1745,7 @@ const
 mozilla
 :
 :
-AnimatedPropertyID
+CSSPropertyId
 *
 aProperty
 )

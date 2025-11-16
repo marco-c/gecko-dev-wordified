@@ -191,7 +191,7 @@ namespace
 mozilla
 {
 struct
-AnimatedPropertyID
+CSSPropertyId
 ;
 class
 ServoStyleSet
@@ -939,7 +939,7 @@ StyleLockedDeclarationBlock
 ParseProperty
 (
 const
-AnimatedPropertyID
+CSSPropertyId
 &
 aProperty
 const

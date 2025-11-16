@@ -1459,7 +1459,7 @@ QueueEvents
 ;
 }
 const
-AnimatedPropertyID
+CSSPropertyId
 &
 CSSTransition
 :

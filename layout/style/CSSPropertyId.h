@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_AnimatedPropertyID_h
+mozilla_CSSPropertyId_h
 #
 define
-mozilla_AnimatedPropertyID_h
+mozilla_CSSPropertyId_h
 #
 include
 "
@@ -163,10 +163,10 @@ namespace
 mozilla
 {
 struct
-AnimatedPropertyID
+CSSPropertyId
 {
 explicit
-AnimatedPropertyID
+CSSPropertyId
 (
 NonCustomCSSPropertyId
 aProperty
@@ -187,7 +187,7 @@ eCSSPropertyExtra_variable
 Cannot
 create
 an
-AnimatedPropertyID
+CSSPropertyId
 from
 only
 a
@@ -200,7 +200,7 @@ eCSSPropertyExtra_variable
 ;
 }
 explicit
-AnimatedPropertyID
+CSSPropertyId
 (
 RefPtr
 <
@@ -266,7 +266,7 @@ operator
 =
 (
 const
-AnimatedPropertyID
+CSSPropertyId
 &
 aOther
 )
@@ -295,7 +295,7 @@ operator
 =
 (
 const
-AnimatedPropertyID
+CSSPropertyId
 &
 aOther
 )
@@ -529,7 +529,7 @@ mId
 )
 ;
 }
-AnimatedPropertyID
+CSSPropertyId
 ToPhysical
 (
 const
@@ -552,7 +552,7 @@ this
 ;
 }
 return
-AnimatedPropertyID
+CSSPropertyId
 {
 nsCSSProps
 :
@@ -590,7 +590,7 @@ ostream
 &
 aOut
 const
-AnimatedPropertyID
+CSSPropertyId
 &
 aProperty
 )
@@ -640,4 +640,4 @@ mozilla
 endif
 /
 /
-mozilla_AnimatedPropertyID_h
+mozilla_CSSPropertyId_h

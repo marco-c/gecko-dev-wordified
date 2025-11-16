@@ -311,7 +311,7 @@ include
 "
 mozilla
 /
-AnimatedPropertyID
+CSSPropertyId
 .
 h
 "
@@ -5157,7 +5157,7 @@ MOZ_ASSERT
 value
 )
 ;
-AnimatedPropertyID
+CSSPropertyId
 property
 (
 eCSSProperty_UNKNOWN

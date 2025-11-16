@@ -132,15 +132,6 @@ include
 "
 mozilla
 /
-AnimatedPropertyID
-.
-h
-"
-#
-include
-"
-mozilla
-/
 AnimatedPropertyIDSet
 .
 h
@@ -169,6 +160,15 @@ include
 mozilla
 /
 AnimationTarget
+.
+h
+"
+#
+include
+"
+mozilla
+/
+CSSPropertyId
 .
 h
 "
@@ -377,7 +377,7 @@ dom
 struct
 AnimationProperty
 {
-AnimatedPropertyID
+CSSPropertyId
 mProperty
 ;
 /
@@ -1545,7 +1545,7 @@ bool
 HasEffectiveAnimationOfProperty
 (
 const
-AnimatedPropertyID
+CSSPropertyId
 &
 aProperty
 const
@@ -1572,7 +1572,7 @@ AnimationProperty
 GetEffectiveAnimationOfProperty
 (
 const
-AnimatedPropertyID
+CSSPropertyId
 &
 const
 EffectSet
@@ -2426,7 +2426,7 @@ AnimationValue
 BaseStyle
 (
 const
-AnimatedPropertyID
+CSSPropertyId
 &
 aProperty
 )
@@ -3350,7 +3350,7 @@ nsRefPtrHashtable
 <
 nsGenericHashKey
 <
-AnimatedPropertyID
+CSSPropertyId
 >
 StyleAnimationValue
 >

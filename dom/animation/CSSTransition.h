@@ -132,7 +132,7 @@ include
 "
 mozilla
 /
-AnimatedPropertyID
+CSSPropertyId
 .
 h
 "
@@ -190,7 +190,7 @@ nsIGlobalObject
 *
 aGlobal
 const
-AnimatedPropertyID
+CSSPropertyId
 &
 aProperty
 )
@@ -596,7 +596,7 @@ TickState
 override
 ;
 const
-AnimatedPropertyID
+CSSPropertyId
 &
 TransitionProperty
 (
@@ -1555,7 +1555,7 @@ Web
 Animations
 API
 .
-AnimatedPropertyID
+CSSPropertyId
 mTransitionProperty
 ;
 AnimationValue

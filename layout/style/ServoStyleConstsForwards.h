@@ -486,9 +486,6 @@ struct
 StyleForgottenArcSlicePtr
 ;
 struct
-AnimatedPropertyID
-;
-struct
 AnimationPropertySegment
 ;
 struct
@@ -496,6 +493,9 @@ AspectRatio
 ;
 struct
 ComputedTiming
+;
+struct
+CSSPropertyId
 ;
 struct
 URLExtraData

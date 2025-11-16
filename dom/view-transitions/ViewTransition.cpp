@@ -4630,7 +4630,7 @@ Some
 PropertyValuePair
 transform
 {
-AnimatedPropertyID
+CSSPropertyId
 (
 eCSSProperty_transform
 )
@@ -4656,7 +4656,7 @@ aTransform
 PropertyValuePair
 width
 {
-AnimatedPropertyID
+CSSPropertyId
 (
 eCSSProperty_width
 )
@@ -4696,7 +4696,7 @@ eCSSUnit_Pixel
 PropertyValuePair
 height
 {
-AnimatedPropertyID
+CSSPropertyId
 (
 eCSSProperty_height
 )
@@ -4725,7 +4725,7 @@ eCSSUnit_Pixel
 PropertyValuePair
 backdropFilters
 {
-AnimatedPropertyID
+CSSPropertyId
 (
 eCSSProperty_backdrop_filter
 )
@@ -4830,7 +4830,7 @@ AppendElement
 (
 PropertyValuePair
 {
-AnimatedPropertyID
+CSSPropertyId
 (
 eCSSProperty_transform
 )
@@ -4845,7 +4845,7 @@ AppendElement
 (
 PropertyValuePair
 {
-AnimatedPropertyID
+CSSPropertyId
 (
 eCSSProperty_width
 )
@@ -4860,7 +4860,7 @@ AppendElement
 (
 PropertyValuePair
 {
-AnimatedPropertyID
+CSSPropertyId
 (
 eCSSProperty_height
 )
@@ -4875,7 +4875,7 @@ AppendElement
 (
 PropertyValuePair
 {
-AnimatedPropertyID
+CSSPropertyId
 (
 eCSSProperty_backdrop_filter
 )

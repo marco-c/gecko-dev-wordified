@@ -959,7 +959,7 @@ include
 "
 mozilla
 /
-AnimatedPropertyID
+CSSPropertyId
 .
 h
 "
@@ -18753,7 +18753,7 @@ return
 NS_ERROR_ILLEGAL_VALUE
 ;
 }
-AnimatedPropertyID
+CSSPropertyId
 property
 =
 propertyId
@@ -18761,7 +18761,7 @@ propertyId
 =
 eCSSPropertyExtra_variable
 ?
-AnimatedPropertyID
+CSSPropertyId
 (
 NS_Atomize
 (
@@ -18769,7 +18769,7 @@ aProperty
 )
 )
 :
-AnimatedPropertyID
+CSSPropertyId
 (
 propertyId
 )
@@ -18909,7 +18909,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-AnimatedPropertyID
+CSSPropertyId
 property
 =
 propertyId
@@ -18917,7 +18917,7 @@ propertyId
 =
 eCSSPropertyExtra_variable
 ?
-AnimatedPropertyID
+CSSPropertyId
 (
 NS_Atomize
 (
@@ -18936,7 +18936,7 @@ Length
 )
 )
 :
-AnimatedPropertyID
+CSSPropertyId
 (
 propertyId
 )

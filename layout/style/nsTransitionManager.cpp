@@ -136,14 +136,14 @@ h
 #
 include
 "
-AnimatedPropertyID
+AnimatedPropertyIDSet
 .
 h
 "
 #
 include
 "
-AnimatedPropertyIDSet
+CSSPropertyId
 .
 h
 "
@@ -550,7 +550,7 @@ Tag
 Custom
 :
 {
-AnimatedPropertyID
+CSSPropertyId
 property
 (
 aProperty
@@ -617,7 +617,7 @@ CSSEnabledState
 ForAllContent
 )
 {
-AnimatedPropertyID
+CSSPropertyId
 property
 (
 *
@@ -633,7 +633,7 @@ property
 }
 else
 {
-AnimatedPropertyID
+CSSPropertyId
 property
 (
 id
@@ -932,7 +932,7 @@ i
 ]
 (
 const
-AnimatedPropertyID
+CSSPropertyId
 &
 aProperty
 )
@@ -1137,7 +1137,7 @@ i
 ]
 (
 const
-AnimatedPropertyID
+CSSPropertyId
 &
 aProperty
 )
@@ -1210,7 +1210,7 @@ i
 ]
 ;
 const
-AnimatedPropertyID
+CSSPropertyId
 &
 property
 =
@@ -1361,7 +1361,7 @@ AppendKeyframe
 double
 aOffset
 const
-AnimatedPropertyID
+CSSPropertyId
 &
 aProperty
 AnimationValue
@@ -1451,7 +1451,7 @@ Keyframe
 GetTransitionKeyframes
 (
 const
-AnimatedPropertyID
+CSSPropertyId
 &
 aProperty
 AnimationValue
@@ -1843,7 +1843,7 @@ nsTransitionManager
 ConsiderInitiatingTransition
 (
 const
-AnimatedPropertyID
+CSSPropertyId
 &
 aProperty
 const
@@ -1948,7 +1948,7 @@ mismatch
 "
 )
 ;
-AnimatedPropertyID
+CSSPropertyId
 property
 =
 aProperty
@@ -3600,7 +3600,7 @@ nsTransitionManager
 DoCreateTransition
 (
 const
-AnimatedPropertyID
+CSSPropertyId
 &
 aProperty
 dom

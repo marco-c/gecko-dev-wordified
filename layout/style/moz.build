@@ -229,7 +229,7 @@ with
 Files
 (
 "
-AnimatedPropertyID
+CSSPropertyId
 *
 "
 )
@@ -544,11 +544,6 @@ ServoCSSPropList
 h
 "
 "
-AnimatedPropertyID
-.
-h
-"
-"
 AnimatedPropertyIDSet
 .
 h
@@ -595,6 +590,11 @@ h
 "
 "
 CSSEnabledState
+.
+h
+"
+"
+CSSPropertyId
 .
 h
 "

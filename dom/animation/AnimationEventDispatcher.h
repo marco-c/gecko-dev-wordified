@@ -415,7 +415,7 @@ events
 only
 .
 const
-AnimatedPropertyID
+CSSPropertyId
 mProperty
 ;
 }
@@ -787,7 +787,7 @@ events
 AnimationEventInfo
 (
 const
-AnimatedPropertyID
+CSSPropertyId
 &
 aProperty
 const

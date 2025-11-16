@@ -1960,7 +1960,7 @@ the
 same
 property
 .
-AnimatedPropertyID
+CSSPropertyId
 property
 (
 eCSSProperty_UNKNOWN
@@ -2044,7 +2044,7 @@ EffectSet
 &
 aEffects
 const
-AnimatedPropertyID
+CSSPropertyId
 &
 aProperty
 )
@@ -2085,7 +2085,7 @@ KeyframeEffect
 GetEffectiveAnimationOfProperty
 (
 const
-AnimatedPropertyID
+CSSPropertyId
 &
 aProperty
 const
@@ -7161,7 +7161,7 @@ void
 CreatePropertyValue
 (
 const
-AnimatedPropertyID
+CSSPropertyId
 &
 aProperty
 float
