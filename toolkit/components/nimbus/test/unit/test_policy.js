@@ -343,6 +343,13 @@ store
 experiments
 :
 RECIPES
+migrationState
+:
+NimbusTestUtils
+.
+migrationState
+.
+UNMIGRATED
 }
 )
 ;

@@ -5296,6 +5296,13 @@ init
 :
 false
 storePath
+migrationState
+:
+NimbusTestUtils
+.
+migrationState
+.
+LATEST
 }
 )
 ;
@@ -12246,7 +12253,7 @@ NimbusTestUtils
 .
 migrationState
 .
-IMPORTED_ENROLLMENTS_TO_SQL
+LATEST
 }
 )
 ;
@@ -15545,7 +15552,7 @@ NimbusTestUtils
 .
 migrationState
 .
-IMPORTED_ENROLLMENTS_TO_SQL
+LATEST
 }
 )
 ;
