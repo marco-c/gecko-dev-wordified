@@ -170,6 +170,7 @@ computed
 {
 Image
 LengthPercentage
+NonNegativeLengthPercentage
 Position
 }
 ;
@@ -197,10 +198,12 @@ values
 generics
 :
 :
-basic_shape
+position
 :
 :
-ShapePosition
+Position
+as
+GenericPosition
 ;
 use
 crate
@@ -362,7 +365,8 @@ generic
 :
 Circle
 <
-LengthPercentage
+Position
+NonNegativeLengthPercentage
 >
 ;
 /
@@ -381,7 +385,8 @@ generic
 :
 Ellipse
 <
-LengthPercentage
+Position
+NonNegativeLengthPercentage
 >
 ;
 /
@@ -402,7 +407,7 @@ generic
 :
 GenericShapeRadius
 <
-LengthPercentage
+NonNegativeLengthPercentage
 >
 ;
 /
@@ -426,7 +431,6 @@ generic
 Shape
 <
 Angle
-Position
 LengthPercentage
 >
 ;
@@ -449,7 +453,6 @@ generic
 GenericShapeCommand
 <
 Angle
-Position
 LengthPercentage
 >
 ;
@@ -472,7 +475,6 @@ generic
 GenericPathOrShapeFunction
 <
 Angle
-Position
 LengthPercentage
 >
 ;
@@ -517,7 +519,6 @@ generic
 :
 ControlPoint
 <
-Position
 LengthPercentage
 >
 ;
@@ -564,7 +565,6 @@ generic
 :
 CommandEndPoint
 <
-Position
 LengthPercentage
 >
 ;
@@ -1591,8 +1591,9 @@ impl
 From
 <
 &
-ShapePosition
+GenericPosition
 <
+CSSFloat
 CSSFloat
 >
 >
@@ -1609,8 +1610,9 @@ from
 p
 :
 &
-ShapePosition
+GenericPosition
 <
+CSSFloat
 CSSFloat
 >
 )
@@ -1677,10 +1679,6 @@ generic
 :
 CommandEndPoint
 <
-ShapePosition
-<
-CSSFloat
->
 CSSFloat
 >
 >
@@ -1702,10 +1700,6 @@ generic
 :
 CommandEndPoint
 <
-ShapePosition
-<
-CSSFloat
->
 CSSFloat
 >
 )
@@ -1774,10 +1768,6 @@ generic
 :
 ControlPoint
 <
-ShapePosition
-<
-CSSFloat
->
 CSSFloat
 >
 >
@@ -1799,10 +1789,6 @@ generic
 :
 ControlPoint
 <
-ShapePosition
-<
-CSSFloat
->
 CSSFloat
 >
 )
@@ -1819,7 +1805,7 @@ generic
 ControlPoint
 :
 :
-Absolute
+Position
 (
 pos
 )
@@ -1828,7 +1814,7 @@ pos
 Self
 :
 :
-Absolute
+Position
 (
 pos
 .

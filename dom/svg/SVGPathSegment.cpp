@@ -269,7 +269,7 @@ SVGPathSegment
 AppendEndPoint
 (
 const
-StyleEndPoint
+StyleCommandEndPoint
 <
 StyleCSSFloat
 >
@@ -364,7 +364,7 @@ SVGPathSegment
 AppendControlPoint
 (
 const
-StyleCurveControlPoint
+StyleControlPoint
 <
 StyleCSSFloat
 >
@@ -376,7 +376,7 @@ if
 (
 point
 .
-IsAbsolute
+IsPosition
 (
 )
 )
@@ -388,7 +388,7 @@ pos
 =
 point
 .
-AsAbsolute
+AsPosition
 (
 )
 ;

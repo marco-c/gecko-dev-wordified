@@ -285,7 +285,7 @@ void
 AppendEndPoint
 (
 const
-StyleEndPoint
+StyleCommandEndPoint
 <
 StyleCSSFloat
 >
@@ -297,7 +297,7 @@ void
 AppendControlPoint
 (
 const
-StyleCurveControlPoint
+StyleControlPoint
 <
 StyleCSSFloat
 >

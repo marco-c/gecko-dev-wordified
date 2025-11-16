@@ -1504,8 +1504,6 @@ template
 typename
 Angle
 typename
-Position
-typename
 LP
 >
 static
@@ -1521,7 +1519,6 @@ const
 StyleGenericShapeCommand
 <
 Angle
-Position
 LP
 >
 >
@@ -1551,7 +1548,6 @@ Command
 StyleGenericShapeCommand
 <
 Angle
-Position
 LP
 >
 ;
