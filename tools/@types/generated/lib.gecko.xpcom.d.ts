@@ -76354,6 +76354,9 @@ removeEngine
 engine
 :
 nsISearchEngine
+changeReason
+:
+u16
 )
 :
 Promise
