@@ -18399,8 +18399,15 @@ haspopup
 "
 :
 "
-true
+menu
 "
+"
+aria
+-
+expanded
+"
+:
+showContextMenu
 "
 data
 -
