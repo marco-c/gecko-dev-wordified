@@ -207,11 +207,6 @@ vector
 #
 include
 <
-algorithm
->
-#
-include
-<
 stdarg
 .
 h
