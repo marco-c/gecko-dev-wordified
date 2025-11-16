@@ -23998,6 +23998,15 @@ IsPaintingToWindow
 )
 &
 &
+!
+aBuilder
+-
+>
+IsInViewTransitionCapture
+(
+)
+&
+&
 stickyScrollContainer
 -
 >
