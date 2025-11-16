@@ -172,15 +172,6 @@ include
 "
 mozilla
 /
-IntegerRange
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ServoStyleConsts
 .
 h

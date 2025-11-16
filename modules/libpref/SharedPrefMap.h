@@ -125,6 +125,15 @@ include
 "
 mozilla
 /
+HashFunctions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h

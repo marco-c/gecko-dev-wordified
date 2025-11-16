@@ -128,6 +128,15 @@ include
 "
 mozilla
 /
+ResultVariant
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TimeStamp
 .
 h

@@ -141,6 +141,15 @@ include
 "
 mozilla
 /
+Maybe
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RangedPtr
 .
 h

@@ -115,6 +115,15 @@ include
 "
 mozilla
 /
+Utf8
+.
+h
+"
+#
+include
+"
+mozilla
+/
 intl
 /
 ICUError
