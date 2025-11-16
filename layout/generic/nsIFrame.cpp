@@ -6873,14 +6873,6 @@ GetView
 view
 -
 >
-SetFrame
-(
-nullptr
-)
-;
-view
--
->
 Destroy
 (
 )
