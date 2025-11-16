@@ -397,6 +397,13 @@ h
 #
 include
 "
+sqlite3_static_ext
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
