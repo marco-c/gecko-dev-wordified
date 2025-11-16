@@ -358,6 +358,17 @@ TELEMETRY_ENABLED
 =
 true
 ;
+const
+LEGACY_CLIENT_ID
+=
+"
+legacy
+-
+client
+-
+id
+"
+;
 add_setup
 (
 function
@@ -6420,6 +6431,9 @@ OS_VERSION
 healthTelemetryEnabled
 :
 TELEMETRY_ENABLED
+legacyClientID
+:
+LEGACY_CLIENT_ID
 }
 encConfig
 :
@@ -6523,6 +6537,9 @@ OS_VERSION
 healthTelemetryEnabled
 :
 TELEMETRY_ENABLED
+legacyClientID
+:
+LEGACY_CLIENT_ID
 }
 "
 State
@@ -6826,6 +6843,9 @@ OS_VERSION
 healthTelemetryEnabled
 :
 TELEMETRY_ENABLED
+legacyClientID
+:
+LEGACY_CLIENT_ID
 }
 encConfig
 :
@@ -6909,6 +6929,9 @@ OS_VERSION
 healthTelemetryEnabled
 :
 TELEMETRY_ENABLED
+legacyClientID
+:
+LEGACY_CLIENT_ID
 }
 "
 Initial
