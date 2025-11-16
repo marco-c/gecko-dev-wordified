@@ -41826,7 +41826,6 @@ aNewListTag
 return
 CreateElementResult
 (
-&
 aListElement
 std
 :

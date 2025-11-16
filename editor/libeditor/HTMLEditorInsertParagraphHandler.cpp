@@ -8153,6 +8153,7 @@ true
 return
 InsertParagraphResult
 (
+*
 rightHeadingElement
 splitHeadingResult
 .
@@ -13449,7 +13450,6 @@ IgnoreCaretPointSuggestion
 return
 InsertParagraphResult
 (
-&
 aListItemElement
 EditorDOMPoint
 (
@@ -13649,6 +13649,7 @@ GetNewNode
 return
 InsertParagraphResult
 (
+*
 createNewParagraphElementResult
 .
 inspect
@@ -14212,6 +14213,7 @@ Element
 return
 InsertParagraphResult
 (
+*
 rightListItemElement
 std
 :
