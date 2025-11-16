@@ -8232,6 +8232,10 @@ gfx
 Point
 StyleCommandEndPoint
 <
+StyleShapePosition
+<
+StyleCSSFloat
+>
 StyleCSSFloat
 >
 :
@@ -8297,6 +8301,10 @@ gfx
 Point
 StyleCommandEndPoint
 <
+StyleShapePosition
+<
+LengthPercentage
+>
 LengthPercentage
 >
 :
@@ -8369,6 +8377,10 @@ gfx
 Point
 StyleControlPoint
 <
+StyleShapePosition
+<
+StyleCSSFloat
+>
 StyleCSSFloat
 >
 :
@@ -8399,7 +8411,7 @@ const
 {
 if
 (
-IsPosition
+IsAbsolute
 (
 )
 )
@@ -8408,7 +8420,7 @@ auto
 &
 pos
 =
-AsPosition
+AsAbsolute
 (
 )
 ;
@@ -8517,6 +8529,10 @@ gfx
 Point
 StyleControlPoint
 <
+StyleShapePosition
+<
+LengthPercentage
+>
 LengthPercentage
 >
 :
@@ -8552,7 +8568,7 @@ aBasis
 ;
 if
 (
-IsPosition
+IsAbsolute
 (
 )
 )
@@ -8561,7 +8577,7 @@ auto
 &
 pos
 =
-AsPosition
+AsAbsolute
 (
 )
 ;
