@@ -505,6 +505,13 @@ aUpdateViaCache
 )
 ;
 void
+SetWorkerType
+(
+WorkerType
+aType
+)
+;
+void
 SetWorkers
 (
 ServiceWorkerInfo
