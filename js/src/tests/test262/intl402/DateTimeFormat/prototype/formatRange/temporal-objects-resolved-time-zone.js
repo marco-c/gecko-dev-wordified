@@ -169,9 +169,10 @@ short
 }
 )
 .
-formatToParts
+formatRangeToParts
 (
 0
+86400
 )
 .
 find

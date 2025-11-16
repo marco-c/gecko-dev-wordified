@@ -171,13 +171,6 @@ locale
 :
 [
 en
-en
--
-u
--
-ca
--
-islamic
 ]
 features
 :

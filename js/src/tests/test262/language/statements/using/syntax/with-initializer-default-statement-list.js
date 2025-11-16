@@ -51,6 +51,9 @@ xulRuntime
 .
 shell
 )
+error
+:
+SyntaxError
 -
 -
 explicit
@@ -169,6 +172,14 @@ CaseClause
 or
 DefaultClause
 .
+negative
+:
+phase
+:
+parse
+type
+:
+SyntaxError
 features
 :
 [
@@ -200,9 +211,3 @@ x
 null
 ;
 }
-reportCompare
-(
-0
-0
-)
-;

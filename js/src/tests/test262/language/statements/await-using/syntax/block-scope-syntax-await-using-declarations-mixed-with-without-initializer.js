@@ -54,7 +54,6 @@ shell
 error
 :
 SyntaxError
-async
 -
 -
 explicit
@@ -192,11 +191,6 @@ parse
 type
 :
 SyntaxError
-flags
-:
-[
-async
-]
 features
 :
 [

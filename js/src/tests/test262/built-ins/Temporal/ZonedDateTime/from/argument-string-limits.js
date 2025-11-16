@@ -318,10 +318,6 @@ from
 arg
 {
 offset
-:
-"
-use
-"
 }
 )
 ;
