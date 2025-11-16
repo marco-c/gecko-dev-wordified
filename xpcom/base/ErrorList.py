@@ -11546,8 +11546,21 @@ FAILURE
     
 #
 When
+browser
+.
+tabs
+.
+documentchannel
+.
+parent
+-
+controlled
+pref
+and
 SHIP
-is
+    
+#
+are
 enabled
 and
 a
