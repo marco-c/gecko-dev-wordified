@@ -474,7 +474,7 @@ EphemeronEdge
 (
 MarkColor
 color
-Cell
+TenuredCell
 *
 cell
 )
@@ -523,7 +523,7 @@ ColorMask
 )
 ;
 }
-Cell
+TenuredCell
 *
 target
 (
@@ -533,7 +533,7 @@ const
 return
 reinterpret_cast
 <
-Cell
+TenuredCell
 *
 >
 (
@@ -564,12 +564,12 @@ EphemeronEdgeTable
 =
 HashMap
 <
-Cell
+TenuredCell
 *
 EphemeronEdgeVector
 PointerHasher
 <
-Cell
+TenuredCell
 *
 >
 js
