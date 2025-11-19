@@ -647,7 +647,7 @@ restore
 *
 Tests
 that
-refetchEntlement
+refetchEntitlement
 returns
 errors
 if
