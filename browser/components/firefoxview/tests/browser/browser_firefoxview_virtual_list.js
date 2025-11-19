@@ -358,7 +358,8 @@ updateComplete
 rootVirtualList
 .
 maxRenderCountEstimate
-<
+=
+=
 initialMaxRenderCount
 Max
 render
@@ -370,8 +371,9 @@ maxRenderCountEstimate
 }
 is
 not
-less
-than
+equal
+to
+the
 initial
 max
 render
