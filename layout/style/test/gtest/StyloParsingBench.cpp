@@ -558,7 +558,7 @@ STYLE_RULE
 }
 static
 void
-ServoGetPropertyValueById
+ServoGetPropertyValueByNonCustomId
 (
 )
 {
@@ -688,7 +688,7 @@ i
 nsAutoCString
 value
 ;
-Servo_DeclarationBlock_GetPropertyValueById
+Servo_DeclarationBlock_GetPropertyValueByNonCustomId
 (
 block
 eCSSProperty_width
@@ -764,7 +764,7 @@ MOZ_GTEST_BENCH
 (
 Stylo
 Servo_DeclarationBlock_GetPropertyById_Bench
-ServoGetPropertyValueById
+ServoGetPropertyValueByNonCustomId
 )
 ;
 #
