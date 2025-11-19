@@ -1024,7 +1024,7 @@ lines
 60
 functions
 :
-50
+60
 branches
 :
 60
