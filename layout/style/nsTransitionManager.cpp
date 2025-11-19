@@ -550,8 +550,13 @@ Tag
 Custom
 :
 {
-CSSPropertyId
+auto
 property
+=
+CSSPropertyId
+:
+:
+FromCustomName
 (
 aProperty
 .
