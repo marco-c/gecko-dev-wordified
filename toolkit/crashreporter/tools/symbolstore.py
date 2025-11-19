@@ -2166,6 +2166,8 @@ github
 com
 /
 mozilla
+-
+firefox
 /
 firefox
 "
