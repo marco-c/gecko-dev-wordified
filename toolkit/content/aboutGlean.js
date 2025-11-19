@@ -183,7 +183,7 @@ const
 INVALID_VALUE_REASONS
 =
 {
-DUAL_LABELED_METRIC
+LABELED_METRIC
 :
 0
 UNKNOWN_METRIC
@@ -5810,15 +5810,13 @@ invalidValue
 case
 INVALID_VALUE_REASONS
 .
-DUAL_LABELED_METRIC
+LABELED_METRIC
 :
 return
 "
 about
 -
 glean
--
-dual
 -
 labeled
 -
@@ -6119,7 +6117,7 @@ type
 includes
 (
 "
-DualLabeled
+Labeled
 "
 )
 )
@@ -6130,7 +6128,7 @@ invalidValue
 =
 INVALID_VALUE_REASONS
 .
-DUAL_LABELED_METRIC
+LABELED_METRIC
 ;
 }
 else
