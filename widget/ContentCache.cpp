@@ -1686,11 +1686,6 @@ return
 false
 ;
 }
-nsEventStatus
-status
-=
-nsEventStatus_eIgnore
-;
 WidgetQueryContentEvent
 querySelectedTextEvent
 (
@@ -1706,7 +1701,6 @@ DispatchEvent
 (
 &
 querySelectedTextEvent
-status
 )
 ;
 if
@@ -2044,11 +2038,6 @@ StartOffset
 (
 )
 ;
-nsEventStatus
-status
-=
-nsEventStatus_eIgnore
-;
 WidgetQueryContentEvent
 queryCaretRectEvent
 (
@@ -2071,7 +2060,6 @@ DispatchEvent
 (
 &
 queryCaretRectEvent
-status
 )
 ;
 if
@@ -2244,11 +2232,6 @@ aNotification
 )
 )
 ;
-nsEventStatus
-status
-=
-nsEventStatus_eIgnore
-;
 WidgetQueryContentEvent
 queryEditorRectEvent
 (
@@ -2264,7 +2247,6 @@ DispatchEvent
 (
 &
 queryEditorRectEvent
-status
 )
 ;
 if
@@ -2587,11 +2569,6 @@ aNotification
 )
 )
 ;
-nsEventStatus
-status
-=
-nsEventStatus_eIgnore
-;
 WidgetQueryContentEvent
 queryTextContentEvent
 (
@@ -2615,7 +2592,6 @@ DispatchEvent
 (
 &
 queryTextContentEvent
-status
 )
 ;
 if
@@ -3089,11 +3065,6 @@ SetEmpty
 (
 )
 ;
-nsEventStatus
-status
-=
-nsEventStatus_eIgnore
-;
 WidgetQueryContentEvent
 queryTextRectEvent
 (
@@ -3117,7 +3088,6 @@ DispatchEvent
 (
 &
 queryTextRectEvent
-status
 )
 ;
 if
@@ -3219,11 +3189,6 @@ aCharRectArray
 )
 const
 {
-nsEventStatus
-status
-=
-nsEventStatus_eIgnore
-;
 WidgetQueryContentEvent
 queryTextRectsEvent
 (
@@ -3247,7 +3212,6 @@ DispatchEvent
 (
 &
 queryTextRectsEvent
-status
 )
 ;
 if
@@ -4580,11 +4544,6 @@ IsCollapsed
 )
 )
 {
-nsEventStatus
-status
-=
-nsEventStatus_eIgnore
-;
 WidgetQueryContentEvent
 queryTextRectEvent
 (
@@ -4618,7 +4577,6 @@ DispatchEvent
 (
 &
 queryTextRectEvent
-status
 )
 ;
 if

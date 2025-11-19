@@ -607,9 +607,6 @@ AppendElement
 aTouch
 )
 ;
-nsEventStatus
-status
-;
 widget
 -
 >
@@ -617,7 +614,6 @@ DispatchEvent
 (
 &
 event
-status
 )
 ;
 }

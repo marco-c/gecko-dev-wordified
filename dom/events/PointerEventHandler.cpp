@@ -5258,11 +5258,6 @@ in
 /
 automation
 .
-nsEventStatus
-eventStatus
-=
-nsEventStatus_eIgnore
-;
 widget
 -
 >
@@ -5270,7 +5265,6 @@ DispatchEvent
 (
 &
 event
-eventStatus
 )
 ;
 }

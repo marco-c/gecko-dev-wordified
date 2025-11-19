@@ -3097,7 +3097,7 @@ aWidget
 .
 *
 /
-nsresult
+nsEventStatus
 DispatchEvent
 (
 nsIWidget
@@ -3106,9 +3106,6 @@ aWidget
 WidgetGUIEvent
 &
 aEvent
-nsEventStatus
-&
-aStatus
 )
 ;
 /
@@ -3125,7 +3122,7 @@ aWidget
 .
 *
 /
-nsresult
+nsEventStatus
 DispatchInputEvent
 (
 nsIWidget
@@ -3134,9 +3131,6 @@ aWidget
 WidgetInputEvent
 &
 aEvent
-nsEventStatus
-&
-aStatus
 )
 ;
 /

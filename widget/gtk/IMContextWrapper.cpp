@@ -17839,11 +17839,6 @@ IsEmpty
 )
 )
 ;
-nsEventStatus
-status
-=
-nsEventStatus_eIgnore
-;
 WidgetContentCommandEvent
 insertTextEvent
 (
@@ -17869,7 +17864,6 @@ DispatchEvent
 (
 &
 insertTextEvent
-status
 )
 ;
 if
@@ -20676,9 +20670,6 @@ mOffset
 ;
 }
 }
-nsEventStatus
-status
-;
 mLastFocusedWindow
 -
 >
@@ -20686,7 +20677,6 @@ DispatchEvent
 (
 &
 queryCaretOrTextRectEvent
-status
 )
 ;
 if
@@ -20930,9 +20920,6 @@ return
 NS_ERROR_NULL_POINTER
 ;
 }
-nsEventStatus
-status
-;
 uint32_t
 selOffset
 =
@@ -21258,7 +21245,6 @@ DispatchEvent
 (
 &
 queryTextContentEvent
-status
 )
 ;
 if
@@ -21722,9 +21708,6 @@ lastFocusedWindow
 mLastFocusedWindow
 )
 ;
-nsEventStatus
-status
-;
 /
 /
 First
@@ -21946,7 +21929,6 @@ DispatchEvent
 (
 &
 queryTextContentEvent
-status
 )
 ;
 if
@@ -22305,7 +22287,6 @@ DispatchEvent
 (
 &
 selectionEvent
-status
 )
 ;
 if
@@ -22451,7 +22432,6 @@ DispatchEvent
 (
 &
 contentCommandEvent
-status
 )
 ;
 if
@@ -22751,9 +22731,6 @@ return
 false
 ;
 }
-nsEventStatus
-status
-;
 WidgetQueryContentEvent
 querySelectedTextEvent
 (
@@ -22769,7 +22746,6 @@ DispatchEvent
 (
 &
 querySelectedTextEvent
-status
 )
 ;
 if

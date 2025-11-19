@@ -2574,7 +2574,7 @@ aRect
 )
 override
 ;
-nsresult
+nsEventStatus
 DispatchEvent
 (
 mozilla
@@ -2583,9 +2583,6 @@ mozilla
 WidgetGUIEvent
 *
 aEvent
-nsEventStatus
-&
-aStatus
 )
 override
 ;
