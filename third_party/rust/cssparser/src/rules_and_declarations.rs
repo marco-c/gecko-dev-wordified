@@ -324,7 +324,7 @@ declaration
 as
 returned
 by
-DeclarationListParser
+RuleBodyParser
 :
 :
 next
@@ -667,7 +667,7 @@ used
 /
 for
 using
-DeclarationListParser
+RuleBodyParser
 to
 parse
 a
@@ -1202,12 +1202,12 @@ rule
 as
 returned
 by
-RuleListParser
+StyleSheetParser
 :
 :
 next
 or
-DeclarationListParser
+RuleBodyParser
 :
 :
 next
@@ -1443,7 +1443,7 @@ using
 /
 /
 /
-RuleListParser
+StyleSheetParser
 to
 parse
 a
@@ -1757,7 +1757,7 @@ rule
 as
 returned
 by
-RuleListParser
+StyleSheetParser
 :
 :
 next
@@ -1915,7 +1915,7 @@ The
 parser
 given
 to
-DeclarationListParser
+RuleBodyParser
 :
 :
 new
@@ -2112,7 +2112,7 @@ E
 Create
 a
 new
-DeclarationListParser
+RuleBodyParser
 for
 the
 given
@@ -2247,7 +2247,7 @@ same
 /
 since
 <
-DeclarationListParser
+RuleBodyParser
 as
 Iterator
 >
@@ -3109,7 +3109,7 @@ same
 /
 since
 <
-RuleListParser
+StyleSheetParser
 as
 Iterator
 >
@@ -3169,7 +3169,7 @@ false
 /
 /
 /
-RuleListParser
+StyleSheetParser
 is
 an
 iterator
