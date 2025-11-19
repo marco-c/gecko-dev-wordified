@@ -129,15 +129,6 @@ h
 #
 include
 "
-mozilla
-/
-Assertions
-.
-h
-"
-#
-include
-"
 nsIWeakReference
 .
 h

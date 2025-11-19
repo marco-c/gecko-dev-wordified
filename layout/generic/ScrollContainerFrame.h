@@ -180,15 +180,6 @@ include
 "
 mozilla
 /
-TypedEnumBits
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 WindowBinding

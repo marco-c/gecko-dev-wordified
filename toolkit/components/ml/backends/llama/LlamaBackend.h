@@ -173,6 +173,15 @@ include
 "
 mozilla
 /
+ResultVariant
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h

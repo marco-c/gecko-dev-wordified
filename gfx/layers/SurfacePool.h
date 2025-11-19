@@ -102,15 +102,6 @@ mozilla_layers_SurfacePool_h
 #
 include
 "
-mozilla
-/
-Maybe
-.
-h
-"
-#
-include
-"
 GLTypes
 .
 h
