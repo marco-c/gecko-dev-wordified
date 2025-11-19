@@ -690,7 +690,7 @@ Step
 2
 .
 NonCustomCSSPropertyId
-propId
+id
 =
 nsCSSProps
 :
@@ -702,7 +702,7 @@ aProperty
 ;
 if
 (
-propId
+id
 =
 =
 eCSSProperty_UNKNOWN
@@ -850,6 +850,18 @@ IsUnsupported
 )
 {
 auto
+propertyId
+=
+CSSPropertyId
+:
+:
+FromIdOrCustomProperty
+(
+id
+aProperty
+)
+;
+auto
 rawBlock
 =
 result
@@ -882,7 +894,7 @@ CSSUnsupportedValue
 >
 (
 mParent
-aProperty
+propertyId
 std
 :
 :
