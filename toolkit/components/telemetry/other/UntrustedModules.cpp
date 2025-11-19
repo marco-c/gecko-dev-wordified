@@ -1994,7 +1994,7 @@ data
 .
 mElapsed
 .
-ToSecondsSigDigits
+ToSeconds
 (
 )
 )
