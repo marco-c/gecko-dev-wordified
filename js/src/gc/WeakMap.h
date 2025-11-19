@@ -1612,7 +1612,7 @@ mapColor
 gc
 :
 :
-Cell
+TenuredCell
 *
 key
 gc
@@ -1645,13 +1645,13 @@ color
 gc
 :
 :
-Cell
+TenuredCell
 *
 src
 gc
 :
 :
-Cell
+TenuredCell
 *
 dst
 )
