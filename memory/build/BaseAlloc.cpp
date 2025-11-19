@@ -207,7 +207,7 @@ recommitted
 size_t
 pminsize
 =
-PAGE_CEILING
+REAL_PAGE_CEILING
 (
 minsize
 )
@@ -379,7 +379,7 @@ mNextDecommitted
 uintptr_t
 pbase_next_addr
 =
-PAGE_CEILING
+REAL_PAGE_CEILING
 (
 mNextAddr
 )
