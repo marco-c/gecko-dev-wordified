@@ -2097,10 +2097,6 @@ GfxInfoFeatureStatus
 aFeatures
 uint32_t
 aWrNamespace
-InitResolver
-&
-&
-aInitResolver
 )
 {
 gfxVars
@@ -2975,7 +2971,10 @@ RecvGetDeviceStatus
 data
 )
 ;
-aInitResolver
+(
+void
+)
+SendInitComplete
 (
 data
 )
