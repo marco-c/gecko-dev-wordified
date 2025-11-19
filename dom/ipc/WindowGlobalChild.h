@@ -1097,11 +1097,8 @@ const
 JSActorMessageMeta
 &
 aMeta
-const
-UniquePtr
-<
-ClonedMessageData
->
+JSIPCValue
+&
 &
 aData
 const

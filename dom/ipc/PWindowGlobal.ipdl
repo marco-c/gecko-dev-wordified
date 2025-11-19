@@ -207,6 +207,9 @@ include
 ClientIPCTypes
 ;
 include
+JSIPCValue
+;
+include
 NeckoChannelParams
 ;
 include
@@ -736,10 +739,7 @@ RawMessage
 (
 JSActorMessageMeta
 aMetadata
-UniquePtr
-<
-ClonedMessageData
->
+JSIPCValue
 aData
 UniquePtr
 <

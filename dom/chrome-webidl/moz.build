@@ -450,6 +450,11 @@ JSActor
 webidl
 "
 "
+JSActorTypeUtils
+.
+webidl
+"
+"
 JSProcessActor
 .
 webidl
@@ -675,6 +680,11 @@ webidl
 "
 "
 PopupPositionedEvent
+.
+webidl
+"
+"
+RedirectBlockedEvent
 .
 webidl
 "

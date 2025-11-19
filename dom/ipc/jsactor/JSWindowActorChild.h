@@ -414,13 +414,9 @@ const
 JSActorMessageMeta
 &
 aMeta
-UniquePtr
-<
-ipc
-:
-:
-StructuredCloneData
->
+JSIPCValue
+&
+&
 aData
 UniquePtr
 <
