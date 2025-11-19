@@ -33,11 +33,6 @@ use
 strict
 "
 ;
-setExpectedFailuresForSelfTest
-(
-5
-)
-;
 function
 rejectOnNextTick
 (

@@ -33,11 +33,6 @@ use
 strict
 "
 ;
-setExpectedFailuresForSelfTest
-(
-4
-)
-;
 async
 function
 rejectOnNextTick
