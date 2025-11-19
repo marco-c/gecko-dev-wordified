@@ -1839,12 +1839,6 @@ GetCaretOffset
 (
 )
 ;
-nsIWidgetListener
-*
-GetCurrentWidgetListener
-(
-)
-;
 /
 /
 When
