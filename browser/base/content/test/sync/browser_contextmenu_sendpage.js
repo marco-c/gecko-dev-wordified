@@ -879,6 +879,13 @@ stripOnShareLink
 "
 context
 -
+sep
+-
+copylink
+"
+"
+context
+-
 sendlinktodevice
 "
 "
