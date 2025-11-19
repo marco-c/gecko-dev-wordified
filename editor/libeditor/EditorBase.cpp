@@ -10480,7 +10480,7 @@ rv
 docEncoder
 -
 >
-NativeInit
+Init
 (
 doc
 aFormatType

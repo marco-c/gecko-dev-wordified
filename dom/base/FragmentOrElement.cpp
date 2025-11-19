@@ -12749,7 +12749,7 @@ rv
 docEncoder
 -
 >
-NativeInit
+Init
 (
 doc
 contentType
