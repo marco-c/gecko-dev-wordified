@@ -1680,12 +1680,8 @@ h
 *
 /
 ;
-ALIGN
-(
 Av1FilterLUT
 lim_lut
-16
-)
 ;
 ALIGN
 (
