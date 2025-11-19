@@ -648,6 +648,7 @@ LOG
 .
 critical
 (
+                
 "
 Ran
 out
@@ -658,7 +659,12 @@ trying
 to
 symbolicate
 profile
+.
 "
+exc_info
+=
+True
+            
 )
             
 raise
@@ -671,6 +677,7 @@ LOG
 .
 critical
 (
+                
 "
 Encountered
 an
@@ -678,7 +685,12 @@ exception
 during
 profile
 symbolication
+.
 "
+exc_info
+=
+True
+            
 )
             
 #
