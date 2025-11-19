@@ -551,6 +551,12 @@ command
 :
 :
 RenderPassDepthStencilAttachment
+<
+id
+:
+:
+TextureViewId
+>
 {
 let
 Self

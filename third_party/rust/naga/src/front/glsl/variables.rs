@@ -1053,6 +1053,15 @@ BuiltIn
 :
 PrimitiveIndex
 "
+gl_BaryCoordEXT
+"
+=
+>
+BuiltIn
+:
+:
+Barycentric
+"
 gl_InstanceIndex
 "
 =
@@ -2543,6 +2552,9 @@ location
 interpolation
 sampling
 blend_src
+per_primitive
+:
+false
 }
 handle
 storage

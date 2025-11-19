@@ -4097,6 +4097,12 @@ workgroup_size_overrides
 :
 None
 function
+mesh_info
+:
+None
+task_payload
+:
+None
 }
 )
 ;

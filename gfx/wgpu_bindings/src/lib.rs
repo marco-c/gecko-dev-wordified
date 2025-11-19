@@ -98,6 +98,9 @@ wgc
 command
 :
 :
+ffi
+:
+:
 Command
 as
 CommandEncoderAction

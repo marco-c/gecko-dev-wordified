@@ -483,6 +483,9 @@ sampling
 blend_src
 :
 _
+per_primitive
+:
+_
 }
 =
 *

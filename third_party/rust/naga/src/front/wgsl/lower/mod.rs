@@ -10999,6 +10999,12 @@ early_depth_test
 workgroup_size
 workgroup_size_overrides
 function
+mesh_info
+:
+None
+task_payload
+:
+None
 }
 )
 ;
@@ -29679,6 +29685,9 @@ as_const
 interpolation
 sampling
 blend_src
+per_primitive
+:
+false
 }
 ;
 binding
