@@ -1917,9 +1917,6 @@ in
 -
 dismiss
 "
-cacheable
-:
-true
 }
 }
 :
@@ -1949,9 +1946,6 @@ not
 -
 now
 "
-cacheable
-:
-true
 }
 }
 ;
@@ -2049,9 +2043,6 @@ in
 -
 title
 "
-cacheable
-:
-true
 }
 descriptionL10n
 :
@@ -2073,9 +2064,6 @@ in
 -
 description
 "
-cacheable
-:
-true
 parseMarkup
 :
 true
@@ -2114,9 +2102,6 @@ in
 -
 allow
 "
-cacheable
-:
-true
 }
 input
 :
