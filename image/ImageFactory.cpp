@@ -176,7 +176,9 @@ h
 #
 include
 "
-nsMediaFragmentURIParser
+mozilla
+/
+MediaFragmentURIParser
 .
 h
 "
