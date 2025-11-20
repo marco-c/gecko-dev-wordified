@@ -1301,6 +1301,11 @@ duration
 :
 number
 ;
+mozLogs
+?
+:
+string
+;
 }
 /
 *
@@ -2801,6 +2806,11 @@ profilerViewMode
 ?
 :
 ProfilerViewMode
+;
+mozLogs
+?
+:
+string
 ;
 l10nIds
 :
