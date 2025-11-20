@@ -665,16 +665,6 @@ endif
 return
 L
 "
-https
-:
-/
-/
-download
-.
-mozilla
-.
-org
-/
 ?
 os
 =
