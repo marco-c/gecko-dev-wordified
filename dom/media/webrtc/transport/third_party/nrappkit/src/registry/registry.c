@@ -654,7 +654,6 @@ vtbl
 >
 init
 (
-mode
 )
 )
 )

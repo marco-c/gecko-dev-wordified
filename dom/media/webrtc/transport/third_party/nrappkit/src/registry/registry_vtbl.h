@@ -355,8 +355,7 @@ int
 init
 )
 (
-nr_registry_module
-*
+void
 )
 ;
 int

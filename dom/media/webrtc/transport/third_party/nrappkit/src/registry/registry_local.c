@@ -653,9 +653,7 @@ static
 int
 nr_reg_local_init
 (
-nr_registry_module
-*
-me
+void
 )
 ;
 static
@@ -4858,9 +4856,7 @@ METHODS
 int
 nr_reg_local_init
 (
-nr_registry_module
-*
-me
+void
 )
 {
 int
