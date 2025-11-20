@@ -1830,9 +1830,10 @@ entry
 RawDuration
 (
 )
-=
-=
-0
+.
+isNothing
+(
+)
 )
 {
 entry
@@ -1933,6 +1934,11 @@ entry
 >
 RawDuration
 (
+)
+.
+valueOr
+(
+0
 )
 >
 =
