@@ -1310,6 +1310,11 @@ SaveToDiskCache
 (
 )
 ;
+void
+InvalidateInProcess
+(
+)
+;
 /
 /
 This
@@ -1424,6 +1429,12 @@ aURL
 Nothing
 (
 )
+)
+;
+static
+void
+Invalidate
+(
 )
 ;
 static
