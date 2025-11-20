@@ -85346,13 +85346,7 @@ if
 (
 IsMasonry
 (
-isOrthogonal
-?
-GetOrthogonalAxis
-(
-aAxis
-)
-:
+wm
 aAxis
 )
 )
