@@ -4830,6 +4830,7 @@ fr
 checkStack
 (
 ABINonArgReg0
+ABINonArgReg1
 oolStackOverflowTrap
 -
 >
