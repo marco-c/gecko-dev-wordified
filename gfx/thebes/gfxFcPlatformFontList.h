@@ -593,6 +593,7 @@ FTUserFontData
 GetUserFontData
 (
 )
+override
 ;
 FT_MM_Var
 *

@@ -935,7 +935,7 @@ aFaceName
 IDWriteFontFile
 *
 aFontFile
-IDWriteFontFileStream
+gfxDWriteFontFileStream
 *
 aFontFileStream
 WeightRange
@@ -1120,6 +1120,17 @@ aSizes
 const
 override
 ;
+size_t
+ComputedSizeOfExcludingThis
+(
+mozilla
+:
+:
+MallocSizeOf
+aMallocSizeOf
+)
+override
+;
 protected
 :
 friend
@@ -1267,7 +1278,7 @@ available
 .
 RefPtr
 <
-IDWriteFontFileStream
+gfxDWriteFontFileStream
 >
 mFontFileStream
 ;
