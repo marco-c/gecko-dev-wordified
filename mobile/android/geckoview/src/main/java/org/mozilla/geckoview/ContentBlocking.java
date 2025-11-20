@@ -1091,9 +1091,7 @@ Browsing
 .
 enabled
 (
-BuildConfig
-.
-NIGHTLY_BUILD
+true
 )
 .
 build
