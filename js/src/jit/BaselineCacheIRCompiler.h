@@ -1001,6 +1001,16 @@ get
 uint32_t
 index
 )
+const
+;
+Shape
+*
+getUnbarriered
+(
+uint32_t
+index
+)
+const
 ;
 bool
 traceWeak
