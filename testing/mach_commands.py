@@ -2907,6 +2907,34 @@ get_patch_for_uncommitted_changes
         
 )
         
+if
+not
+patch
+.
+strip
+(
+)
+:
+            
+print
+(
+"
+No
+local
+changes
+detected
+;
+no
+tests
+to
+run
+.
+"
+)
+            
+return
+1
+        
 print
 (
             
