@@ -167,6 +167,15 @@ use
 crate
 :
 :
+renderer
+:
+:
+GpuBufferAddress
+;
+use
+crate
+:
+:
 segment
 :
 :
@@ -234,7 +243,6 @@ gpu_cache
 :
 :
 {
-GpuCacheAddress
 GpuCacheHandle
 GpuDataRequest
 }
@@ -708,7 +716,7 @@ DeferredResolve
 pub
 address
 :
-GpuCacheAddress
+GpuBufferAddress
 pub
 image_properties
 :
