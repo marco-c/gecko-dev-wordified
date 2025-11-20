@@ -417,6 +417,11 @@ RTCEncodedFrameBase
 (
 )
 ;
+void
+DetachData
+(
+)
+;
 /
 /
 forbid
