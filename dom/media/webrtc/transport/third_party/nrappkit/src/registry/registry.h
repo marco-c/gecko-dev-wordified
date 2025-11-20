@@ -416,11 +416,6 @@ extern
 NR_registry
 NR_TOP_LEVEL_REGISTRY
 ;
-extern
-void
-*
-NR_REG_MODE_LOCAL
-;
 int
 NR_reg_init
 (
