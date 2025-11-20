@@ -1730,8 +1730,6 @@ getOS
 const
 os
 =
-(
-await
 browser
 .
 aboutConfigPrefs
@@ -1741,7 +1739,6 @@ getPref
 "
 platform_override
 "
-)
 )
 ?
 ?
