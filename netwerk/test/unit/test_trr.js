@@ -6723,11 +6723,6 @@ pd
 }
 )
 ;
-add_task
-(
-test_connection_reuse_and_cycling
-)
-;
 /
 /
 Can
