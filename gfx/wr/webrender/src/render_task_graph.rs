@@ -7654,6 +7654,7 @@ new
 (
 &
 frame_memory
+0
 )
 i32
 :
@@ -7664,6 +7665,7 @@ new
 (
 &
 frame_memory
+0
 )
 }
 ;
