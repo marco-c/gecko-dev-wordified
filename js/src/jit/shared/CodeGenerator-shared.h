@@ -2869,7 +2869,13 @@ ool
 )
 ;
 bool
-omitOverRecursedCheck
+omitOverRecursedStackCheck
+(
+)
+const
+;
+bool
+omitOverRecursedInterruptCheck
 (
 )
 const

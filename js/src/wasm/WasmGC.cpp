@@ -1009,7 +1009,12 @@ endif
 *
 result
 =
+stackMaps
+.
+finalize
+(
 stackMap
+)
 ;
 return
 true

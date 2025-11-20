@@ -969,7 +969,6 @@ instance
 >
 resetInterrupt
 (
-cx
 )
 ;
 }
