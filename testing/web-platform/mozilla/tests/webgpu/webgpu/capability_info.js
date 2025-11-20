@@ -6077,5 +6077,8 @@ pointer_composite_access
 '
 uniform_buffer_standard_layout
 '
+'
+subgroup_id
+'
 ]
 ;
