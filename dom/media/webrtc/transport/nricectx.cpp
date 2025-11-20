@@ -515,13 +515,6 @@ h
 #
 include
 "
-addrs
-.
-h
-"
-#
-include
-"
 async_timer
 .
 h
@@ -579,6 +572,13 @@ h
 include
 "
 stun_reg
+.
+h
+"
+#
+include
+"
+stun_util
 .
 h
 "
@@ -3907,7 +3907,7 @@ addresses
 ;
 if
 (
-nr_stun_get_addrs
+nr_stun_find_local_addresses
 (
 local_addrs
 MAXADDRS
