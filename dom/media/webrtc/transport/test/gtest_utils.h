@@ -825,7 +825,6 @@ NSS_SetDomesticPolicy
 ;
 NR_reg_init
 (
-NR_REG_MODE_LOCAL
 )
 ;
 /

@@ -3496,7 +3496,6 @@ initialized
 {
 NR_reg_init
 (
-NR_REG_MODE_LOCAL
 )
 ;
 nr_crypto_vtbl

@@ -2020,7 +2020,6 @@ address_family
 {
 NR_reg_init
 (
-NR_REG_MODE_LOCAL
 )
 ;
 UniquePtr
@@ -3510,7 +3509,6 @@ address_family
 {
 NR_reg_init
 (
-NR_REG_MODE_LOCAL
 )
 ;
 UniquePtr
