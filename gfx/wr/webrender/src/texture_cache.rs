@@ -6152,7 +6152,7 @@ cache
 refresh
 the
 GPU
-cache
+buffer
 data
 associated
 with
