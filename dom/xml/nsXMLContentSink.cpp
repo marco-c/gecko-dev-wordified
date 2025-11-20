@@ -4560,6 +4560,17 @@ SetUseCounter
 eUseCounter_custom_XSLStylesheet
 )
 ;
+mDocument
+-
+>
+WarnOnceAbout
+(
+DeprecatedOperations
+:
+:
+eXSLTDeprecated
+)
+;
 processor
 -
 >
