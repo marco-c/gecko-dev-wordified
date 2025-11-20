@@ -173,6 +173,8 @@ _
 T
 >
 {
+unsafe
+{
 let
 this
 :
@@ -194,6 +196,7 @@ transmute_copy
 (
 self
 )
+}
 }
 }
 impl
@@ -239,10 +242,13 @@ _
 T
 >
 {
+unsafe
+{
 transmute_copy
 (
 self
 )
+}
 }
 }
 impl
@@ -289,6 +295,8 @@ _
 T
 >
 {
+unsafe
+{
 let
 this
 :
@@ -313,6 +321,7 @@ transmute_copy
 (
 self
 )
+}
 }
 }
 impl
@@ -354,6 +363,8 @@ _
 T
 >
 {
+unsafe
+{
 match
 self
 {
@@ -373,6 +384,7 @@ None
 zeroed
 (
 )
+}
 }
 }
 }

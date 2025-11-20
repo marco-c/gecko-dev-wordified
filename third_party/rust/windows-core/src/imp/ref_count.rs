@@ -57,6 +57,7 @@ of
 1
 .
 pub
+const
 fn
 new
 (

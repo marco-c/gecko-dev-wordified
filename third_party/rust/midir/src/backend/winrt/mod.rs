@@ -56,10 +56,7 @@ Midi
 Foundation
 :
 :
-{
-EventRegistrationToken
 TypedEventHandler
-}
 Storage
 :
 :
@@ -237,7 +234,7 @@ unwrap
 (
 )
 .
-get
+join
 (
 )
 .
@@ -361,7 +358,7 @@ unwrap
 (
 )
 .
-get
+join
 (
 )
 .
@@ -439,7 +436,7 @@ device_info
 =
 device_info_async
 .
-get
+join
 (
 )
 .
@@ -844,7 +841,7 @@ port_async
 match
 port_async
 .
-get
+join
 (
 )
 {
@@ -967,9 +964,16 @@ move
 _sender
 args
 :
-&
-Option
+windows
+:
+:
+core
+:
+:
+Ref
 <
+'
+_
 MidiMessageReceivedEventArgs
 >
 |
@@ -1075,7 +1079,7 @@ port
 RtMidiInPort
 event_token
 :
-EventRegistrationToken
+i64
 /
 /
 TODO
@@ -1492,7 +1496,7 @@ unwrap
 (
 )
 .
-get
+join
 (
 )
 .
@@ -1616,7 +1620,7 @@ unwrap
 (
 )
 .
-get
+join
 (
 )
 .
@@ -1694,7 +1698,7 @@ device_info
 =
 device_info_async
 .
-get
+join
 (
 )
 .
@@ -1789,7 +1793,7 @@ port_async
 match
 port_async
 .
-get
+join
 (
 )
 {

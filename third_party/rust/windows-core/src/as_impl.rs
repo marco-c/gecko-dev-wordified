@@ -79,6 +79,8 @@ self
 &
 T
 {
+unsafe
+{
 self
 .
 as_impl_ptr
@@ -88,6 +90,7 @@ as_impl_ptr
 as_ref
 (
 )
+}
 }
 /
 /

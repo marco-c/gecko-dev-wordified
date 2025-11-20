@@ -25,6 +25,19 @@ null_mut
 /
 /
 /
+Parent
+interface
+for
+all
+WinRT
+interfaces
+.
+/
+/
+/
+/
+/
+/
 A
 WinRT
 object
@@ -519,6 +532,8 @@ GUID
 >
 HRESULT
 {
+unsafe
+{
 if
 count
 .
@@ -604,6 +619,7 @@ HRESULT
 0
 )
 }
+}
 unsafe
 extern
 "
@@ -633,6 +649,8 @@ c_void
 -
 >
 HRESULT
+{
+unsafe
 {
 if
 value
@@ -716,6 +734,7 @@ HRESULT
 0
 )
 }
+}
 unsafe
 extern
 "
@@ -747,6 +766,8 @@ i32
 -
 >
 HRESULT
+{
+unsafe
 {
 if
 value
@@ -793,6 +814,7 @@ GetTrustLevel
 (
 value
 )
+}
 }
 Self
 {

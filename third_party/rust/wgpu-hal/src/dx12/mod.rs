@@ -687,6 +687,8 @@ core
 :
 {
 Free
+as
+_
 Interface
 }
 Win32
@@ -8255,7 +8257,10 @@ CreateSwapChainForCompositionSurfaceHandle
 device
 .
 present_queue
+Some
+(
 handle
+)
 &
 desc
 None
