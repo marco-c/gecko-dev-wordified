@@ -859,4 +859,10 @@ LOCAL_INCLUDES
 /
 build
 "
+"
+/
+toolkit
+/
+xre
+"
 ]
