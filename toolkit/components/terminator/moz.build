@@ -98,11 +98,10 @@ BUG_COMPONENT
 =
 (
 "
-Toolkit
+Core
 "
 "
-Async
-Tooling
+XPCOM
 "
 )
 XPCSHELL_TESTS_MANIFESTS
