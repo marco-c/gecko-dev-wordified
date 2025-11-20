@@ -394,10 +394,6 @@ GfxInfoFeatureStatus
 features
 uint32_t
 wrNamespace
-InitResolver
-&
-&
-aInitResolver
 )
 ;
 mozilla

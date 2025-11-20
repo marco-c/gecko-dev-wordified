@@ -6171,7 +6171,7 @@ rv
 }
 nsCOMPtr
 <
-nsISerialEventTarget
+nsIEventTarget
 >
 GetIPCLauncher
 (
@@ -6295,7 +6295,7 @@ forget
 }
 nsCOMPtr
 <
-nsISerialEventTarget
+nsIEventTarget
 >
 thread
 =
