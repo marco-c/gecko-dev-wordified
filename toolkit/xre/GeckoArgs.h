@@ -103,11 +103,6 @@ h
 #
 include
 <
-array
->
-#
-include
-<
 cctype
 >
 #

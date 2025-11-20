@@ -122,11 +122,6 @@ define
 mozilla_places_History_h_
 #
 include
-<
-utility
->
-#
-include
 "
 Database
 .

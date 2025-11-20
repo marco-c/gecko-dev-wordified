@@ -101,11 +101,6 @@ define
 nsFaviconService_h_
 #
 include
-<
-utility
->
-#
-include
 "
 Database
 .
