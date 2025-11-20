@@ -6765,6 +6765,15 @@ aCx
 )
 )
 ;
+if
+(
+!
+callbackGlobal
+)
+{
+return
+;
+}
 JS
 :
 :
