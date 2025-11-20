@@ -584,6 +584,9 @@ gURLBar
 .
 setURI
 (
+{
+uri
+:
 Services
 .
 io
@@ -592,8 +595,10 @@ newURI
 (
 url
 )
-false
+dueToSessionRestore
+:
 true
+}
 )
 ;
 Assert
