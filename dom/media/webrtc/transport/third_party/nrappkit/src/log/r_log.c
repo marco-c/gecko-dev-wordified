@@ -352,11 +352,11 @@ h
 >
 #
 include
-"
-nr_common
+<
+csi_platform
 .
 h
-"
+>
 #
 define
 LOGGING_DEFAULT_LEVEL
