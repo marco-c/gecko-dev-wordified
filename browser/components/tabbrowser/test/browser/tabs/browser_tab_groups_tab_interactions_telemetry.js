@@ -800,7 +800,7 @@ window
 .
 gBrowser
 .
-moveTabToExistingGroup
+moveTabToGroup
 (
 tab1
 group
