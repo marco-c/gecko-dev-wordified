@@ -596,6 +596,13 @@ PauseAnimations
 )
 ;
 void
+PauseAnimationsAt
+(
+float
+seconds
+)
+;
+void
 UnpauseAnimations
 (
 )
