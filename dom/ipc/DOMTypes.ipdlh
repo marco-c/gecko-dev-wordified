@@ -1910,6 +1910,14 @@ constructor
 /
 /
 *
+icon
+is
+parsed
+into
+nsIURI
+/
+/
+*
 data
 is
 serialized
@@ -1944,7 +1952,8 @@ body
 nsString
 tag
 ;
-nsString
+nullable
+nsIURI
 icon
 ;
 bool
