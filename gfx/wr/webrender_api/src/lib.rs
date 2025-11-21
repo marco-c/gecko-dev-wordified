@@ -5582,6 +5582,9 @@ CompileShader
 DrawShader
 =
 1
+FontFile
+=
+2
 }
 /
 /
