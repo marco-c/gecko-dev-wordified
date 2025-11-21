@@ -6964,6 +6964,7 @@ GetActiveSessionHistoryInfo
 map
 (
 [
+&
 aDestinationSessionHistoryInfo
 ]
 (
