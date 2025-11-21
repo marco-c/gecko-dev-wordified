@@ -1257,7 +1257,7 @@ nameFlag
 parent
 -
 >
-DirectName
+Name
 (
 name
 )

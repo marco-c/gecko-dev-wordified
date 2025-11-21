@@ -1076,7 +1076,7 @@ ENameValueFlag
 HTMLListBulletAccessible
 :
 :
-DirectName
+Name
 (
 nsString
 &
