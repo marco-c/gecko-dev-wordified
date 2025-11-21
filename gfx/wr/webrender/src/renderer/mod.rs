@@ -1359,7 +1359,11 @@ use
 gpu_buffer
 :
 :
+{
 GpuBufferDataF
+GpuBufferDataI
+GpuBufferWriterI
+}
 ;
 /
 /
