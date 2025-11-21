@@ -1543,14 +1543,9 @@ quick
     
 return
 {
-        
-translate_group
-(
 k
-)
 :
 v
-        
 for
 k
 v
@@ -1565,11 +1560,9 @@ groups
 items
 (
 )
-        
 if
 v
 >
 =
 confidence_threshold
-    
 }
