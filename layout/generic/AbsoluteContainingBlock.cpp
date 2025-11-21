@@ -8014,7 +8014,7 @@ AbsoluteContainingBlock
 :
 ReflowAbsoluteFrame
 (
-nsIFrame
+nsContainerFrame
 *
 aDelegatingFrame
 nsPresContext
