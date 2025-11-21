@@ -599,6 +599,16 @@ script
 static
 DebugScript
 *
+getUnbarriered
+(
+JSScript
+*
+script
+)
+;
+static
+DebugScript
+*
 getOrCreate
 (
 JSContext
