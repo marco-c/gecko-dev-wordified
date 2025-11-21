@@ -3803,14 +3803,6 @@ SetFilterData
 DisplayItem
 :
 :
-SetFilterPrimitives
-=
->
-{
-}
-DisplayItem
-:
-:
 SetPoints
 =
 >
