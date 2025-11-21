@@ -1871,6 +1871,8 @@ old
 (
 root
 )
+~
+~
 :
 :
 view
@@ -1881,6 +1883,8 @@ new
 (
 root
 )
+~
+~
 declarations
 :
 [
@@ -2099,6 +2103,8 @@ thistle
 {
 selector
 :
+~
+~
 :
 :
 view
@@ -2109,6 +2115,8 @@ old
 (
 root
 )
+~
+~
 :
 :
 view

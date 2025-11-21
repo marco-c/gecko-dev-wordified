@@ -361,6 +361,8 @@ selector
 :
 :
 scope
+~
+~
 [
 data
 -
@@ -374,6 +376,8 @@ inline
 style
 "
 ]
+~
+~
 ancestorRulesData
 :
 [
@@ -436,6 +440,8 @@ declarations
 selector
 :
 div
+~
+~
 [
 data
 -
@@ -449,6 +455,8 @@ inline
 style
 "
 ]
+~
+~
 ancestorRulesData
 :
 [
@@ -514,6 +522,8 @@ selector
 :
 :
 scope
+~
+~
 [
 data
 -
@@ -529,6 +539,8 @@ inline
 style
 "
 ]
+~
+~
 ancestorRulesData
 :
 [
@@ -625,6 +637,8 @@ declarations
 selector
 :
 div
+~
+~
 [
 data
 -
@@ -640,6 +654,8 @@ end
 inherit
 "
 ]
+~
+~
 ancestorRulesData
 :
 [
@@ -677,6 +693,8 @@ salmon
 selector
 :
 div
+~
+~
 [
 data
 -
@@ -690,6 +708,8 @@ and
 end
 "
 ]
+~
+~
 ancestorRulesData
 :
 [
@@ -729,6 +749,8 @@ gold
 selector
 :
 div
+~
+~
 [
 data
 -
@@ -742,6 +764,8 @@ no
 end
 "
 ]
+~
+~
 ancestorRulesData
 :
 [
@@ -876,6 +900,8 @@ b
 selector
 :
 div
+~
+~
 [
 data
 -
@@ -891,6 +917,8 @@ end
 inherit
 "
 ]
+~
+~
 ancestorRulesData
 :
 [
@@ -965,6 +993,8 @@ declarations
 selector
 :
 div
+~
+~
 [
 data
 -
@@ -978,6 +1008,8 @@ no
 end
 "
 ]
+~
+~
 ancestorRulesData
 :
 [
@@ -1026,6 +1058,8 @@ b
 selector
 :
 div
+~
+~
 [
 data
 -
@@ -1041,6 +1075,8 @@ end
 inherit
 "
 ]
+~
+~
 ancestorRulesData
 :
 [
@@ -1125,6 +1161,8 @@ b
 selector
 :
 div
+~
+~
 [
 data
 -
@@ -1140,6 +1178,8 @@ end
 inherit
 "
 ]
+~
+~
 ancestorRulesData
 :
 [
