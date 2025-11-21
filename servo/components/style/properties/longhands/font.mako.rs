@@ -3502,12 +3502,6 @@ font
 may
 change
 if
-Some
-(
-system
-)
-!
-=
 context
 .
 cached_system_font
@@ -3516,7 +3510,7 @@ as_ref
 (
 )
 .
-map
+is_none_or
 (
 |
 x
@@ -3524,6 +3518,9 @@ x
 x
 .
 system_font
+!
+=
+system
 )
 {
 let
