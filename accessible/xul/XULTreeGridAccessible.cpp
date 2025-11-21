@@ -2071,7 +2071,7 @@ ENameValueFlag
 XULTreeGridRowAccessible
 :
 :
-Name
+DirectName
 (
 nsString
 &
@@ -3298,7 +3298,7 @@ ENameValueFlag
 XULTreeGridCellAccessible
 :
 :
-Name
+DirectName
 (
 nsString
 &
