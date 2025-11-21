@@ -6979,6 +6979,9 @@ false
 )
 PER_ARCH
 ;
+#
+ifdef
+JS_CHECK_UNSAFE_CALL_WITH_ABI
 /
 /
 Set
@@ -6996,9 +6999,6 @@ wasmCheckUnsafeCallWithABIPre
 (
 )
 ;
-#
-ifdef
-JS_CHECK_UNSAFE_CALL_WITH_ABI
 /
 /
 Check

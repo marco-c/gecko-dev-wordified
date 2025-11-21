@@ -617,11 +617,6 @@ testPreserveJitCode
 cpp
 "
 "
-testPrinter
-.
-cpp
-"
-"
 testPrintf
 .
 cpp

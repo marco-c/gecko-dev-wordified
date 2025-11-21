@@ -33745,6 +33745,9 @@ dynamicAlignment_
 false
 ;
 }
+#
+ifdef
+JS_CHECK_UNSAFE_CALL_WITH_ABI
 void
 MacroAssembler
 :
@@ -33803,9 +33806,6 @@ flagAddr
 )
 ;
 }
-#
-ifdef
-JS_CHECK_UNSAFE_CALL_WITH_ABI
 void
 MacroAssembler
 :
@@ -34371,6 +34371,9 @@ callWithABIPre
 stackAdjust
 )
 ;
+#
+ifdef
+JS_CHECK_UNSAFE_CALL_WITH_ABI
 if
 (
 check
@@ -34456,6 +34459,8 @@ bug1375074
 .
 js
 }
+#
+endif
 call
 (
 ImmPtr
@@ -34661,6 +34666,9 @@ NeedsBuiltinThunk
 imm
 )
 ;
+#
+ifdef
+JS_CHECK_UNSAFE_CALL_WITH_ABI
 /
 /
 The
@@ -34697,6 +34705,15 @@ checkUnsafeCallWithABI
 !
 needsBuiltinThunk
 ;
+#
+else
+bool
+checkUnsafeCallWithABI
+=
+false
+;
+#
+endif
 if
 (
 needsBuiltinThunk
@@ -34739,6 +34756,9 @@ instanceOffset
 ;
 }
 }
+#
+ifdef
+JS_CHECK_UNSAFE_CALL_WITH_ABI
 if
 (
 checkUnsafeCallWithABI
@@ -34749,6 +34769,8 @@ wasmCheckUnsafeCallWithABIPre
 )
 ;
 }
+#
+endif
 CodeOffset
 raOffset
 =
@@ -44585,6 +44607,9 @@ pointer
 )
 ;
 }
+#
+ifdef
+JS_CHECK_UNSAFE_CALL_WITH_ABI
 /
 /
 The
@@ -44637,6 +44662,8 @@ wasmCheckUnsafeCallWithABIPre
 )
 ;
 }
+#
+endif
 CodeOffset
 ret
 =
