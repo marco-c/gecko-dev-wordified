@@ -1051,11 +1051,14 @@ label
         
 logger
 .
-info
+error
 (
             
 f
 "
+fatal
+error
+:
 Not
 retriggering
 task
@@ -1066,7 +1069,7 @@ task
 should
 not
 be
-retrigged
+retriggered
 "
             
 "
