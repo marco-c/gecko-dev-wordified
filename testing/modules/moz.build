@@ -153,6 +153,13 @@ sys
 mjs
 "
 "
+ImageTestUtils
+.
+sys
+.
+mjs
+"
+"
 Mochia
 .
 js
