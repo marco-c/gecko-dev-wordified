@@ -906,6 +906,17 @@ aName
 )
 const
 override
+final
+;
+virtual
+ENameValueFlag
+DirectName
+(
+nsString
+&
+aName
+)
+const
 ;
 /
 *

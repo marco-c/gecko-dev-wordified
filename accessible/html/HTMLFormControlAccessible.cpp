@@ -3046,7 +3046,7 @@ ENameValueFlag
 HTMLTextFieldAccessible
 :
 :
-Name
+DirectName
 (
 nsString
 &
@@ -3060,7 +3060,7 @@ nameFlag
 LocalAccessible
 :
 :
-Name
+DirectName
 (
 aName
 )
@@ -4489,7 +4489,7 @@ ENameValueFlag
 HTMLFileInputAccessible
 :
 :
-Name
+DirectName
 (
 nsString
 &
@@ -4503,7 +4503,7 @@ flag
 HyperTextAccessible
 :
 :
-Name
+DirectName
 (
 aName
 )
