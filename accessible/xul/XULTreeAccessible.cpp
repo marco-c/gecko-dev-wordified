@@ -6961,7 +6961,7 @@ ENameValueFlag
 XULTreeItemAccessible
 :
 :
-DirectName
+Name
 (
 nsString
 &
