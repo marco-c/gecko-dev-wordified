@@ -178,8 +178,7 @@ sidebar
 {
 name
 :
-"
-"
+null
 role
 :
 "

@@ -922,8 +922,7 @@ keyboardShortcut
 "
 name
 :
-"
-"
+null
 nodeCssSelector
 :
 "
@@ -951,15 +950,6 @@ display
 :
 "
 block
-"
-"
-explicit
--
-name
-"
-:
-"
-true
 "
 "
 margin
