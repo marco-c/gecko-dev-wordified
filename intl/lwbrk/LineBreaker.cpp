@@ -3431,6 +3431,17 @@ VI
 *
 /
 CLASS_CHARACTER
+/
+*
+UNAMBIGUOUS_HYPHEN
+=
+48
+[
+HH
+]
+*
+/
+CLASS_BREAKABLE
 }
 ;
 static_assert
