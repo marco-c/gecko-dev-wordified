@@ -428,11 +428,6 @@ PProxyConfigLookup
 ipdl
 "
 "
-PSimpleChannel
-.
-ipdl
-"
-"
 PSocketProcessBackground
 .
 ipdl
