@@ -130501,6 +130501,33 @@ descriptors
         
 )
         
+bindingHeaders
+[
+"
+mozilla
+/
+dom
+/
+ToJSValue
+.
+h
+"
+]
+=
+any
+(
+            
+descriptorHasObservableArrayTypes
+(
+d
+)
+for
+d
+in
+descriptors
+        
+)
+        
 bindingDeclareHeaders
 [
 "
