@@ -30699,7 +30699,13 @@ NS_NATIVE_WIDGET
 :
 retVal
 =
+[
+[
 mChildView
+retain
+]
+autorelease
+]
 ;
 break
 ;
@@ -30708,7 +30714,13 @@ NS_NATIVE_WINDOW
 :
 retVal
 =
+[
+[
 mWindow
+retain
+]
+autorelease
+]
 ;
 break
 ;
