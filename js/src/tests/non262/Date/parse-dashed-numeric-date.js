@@ -109,7 +109,9 @@ MPL
 inTimeZone
 (
 "
-MST
+America
+/
+Phoenix
 "
 (
 )

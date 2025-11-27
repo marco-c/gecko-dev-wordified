@@ -272,7 +272,7 @@ parts
 Day
 (
 "
-1
+01
 "
 )
 Literal
@@ -284,7 +284,7 @@ Literal
 Month
 (
 "
-1
+01
 "
 )
 Literal
@@ -339,7 +339,7 @@ parts
 Day
 (
 "
-1
+01
 "
 )
 Literal
@@ -351,7 +351,7 @@ Literal
 Month
 (
 "
-1
+01
 "
 )
 Literal
@@ -1336,11 +1336,6 @@ Era
 "
 "
 )
-Literal
-(
-"
-"
-)
 Year
 (
 "
@@ -1398,11 +1393,6 @@ parts
 :
 [
 Era
-(
-"
-"
-)
-Literal
 (
 "
 "

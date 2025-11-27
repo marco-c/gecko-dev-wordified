@@ -339,7 +339,9 @@ value
 /
 /
 ICU
-returns
+<
+78
+returned
 mixed
 numbers
 when
@@ -471,7 +473,7 @@ format
 endShowa
 )
 "
-64
+/
 "
 )
 ;
@@ -484,6 +486,7 @@ format
 startHeisei
 )
 "
+/
 "
 )
 ;
