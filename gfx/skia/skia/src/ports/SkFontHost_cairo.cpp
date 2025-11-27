@@ -1276,7 +1276,10 @@ const
 override
 {
 return
-0
+fFTFace
+-
+>
+units_per_EM
 ;
 }
 SkTypeface
