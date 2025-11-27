@@ -217,7 +217,7 @@ dom
 /
 html
 /
-nsHTMLContentSink
+HTMLElementFactory
 .
 cpp
 as

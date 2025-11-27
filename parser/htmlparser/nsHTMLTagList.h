@@ -291,7 +291,7 @@ will
 be
 used
 by
-nsHTMLContentSink
+HTMLElementFactory
 .
 cpp
 to
@@ -1169,6 +1169,13 @@ the
 nsHTMLTag
 enum
 anyway
+because
+they
+are
+used
+by
+HTMLEditUtils
+.
 *
 /
 HTML_OTHER

@@ -3057,10 +3057,10 @@ HTMLInputElement
 cpp
 and
 *
-nsHTMLContentSink
+nsHtml5TreeBuilder
 :
 :
-MakeContentObject
+elementPopped
 (
 )
 .
@@ -3263,10 +3263,10 @@ HTMLInputElement
 cpp
 and
 *
-nsHTMLContentSink
+nsHtml5TreeBuilder
 :
 :
-MakeContentObject
+elementPopped
 (
 )
 .
