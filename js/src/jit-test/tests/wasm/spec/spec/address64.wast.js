@@ -132,6 +132,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -142,6 +144,8 @@ wast
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -1408,6 +1412,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -1445,6 +1451,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -1484,6 +1492,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -1521,6 +1531,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -1560,6 +1572,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -1597,6 +1611,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -1636,6 +1652,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -1673,6 +1691,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -1712,6 +1732,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -1749,6 +1771,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -1788,6 +1812,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -1825,6 +1851,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -1864,6 +1892,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -1901,6 +1931,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -1940,6 +1972,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -1978,6 +2012,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -2015,6 +2051,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -2054,6 +2092,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -2091,6 +2131,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -2130,6 +2172,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -2167,6 +2211,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -2206,6 +2252,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -2243,6 +2291,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -2282,6 +2332,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -2319,6 +2371,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -2358,6 +2412,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -2395,6 +2451,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -2434,6 +2492,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -2471,6 +2531,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -2510,6 +2572,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -2547,6 +2611,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -2586,6 +2652,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -2623,6 +2691,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -2662,6 +2732,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -2699,6 +2771,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -2738,6 +2812,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -2775,6 +2851,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -2814,6 +2892,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -2851,6 +2931,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -2890,6 +2972,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -2927,6 +3011,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -2966,6 +3052,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -3003,6 +3091,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -3042,6 +3132,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -3079,6 +3171,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -3118,6 +3212,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -3155,6 +3251,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -3194,6 +3292,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -3231,6 +3331,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -3270,6 +3372,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -3307,6 +3411,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -3346,6 +3452,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -3383,6 +3491,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -3422,6 +3532,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -3459,6 +3571,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -3498,6 +3612,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -3535,6 +3651,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -3574,6 +3692,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -3611,6 +3731,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -3650,6 +3772,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -3687,6 +3811,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -3726,6 +3852,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -3763,6 +3891,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -3802,6 +3932,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -3839,6 +3971,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -3878,6 +4012,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -3915,6 +4051,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -3954,6 +4092,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -3991,6 +4131,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -4030,6 +4172,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -4067,6 +4211,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -4106,6 +4252,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -4143,6 +4291,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -4182,6 +4332,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -4220,6 +4372,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -4253,6 +4407,8 @@ access
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -4288,6 +4444,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -4321,6 +4479,8 @@ access
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -4356,6 +4516,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -4389,6 +4551,8 @@ access
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -4424,6 +4588,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -4457,6 +4623,8 @@ access
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -4492,6 +4660,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -4525,6 +4695,8 @@ access
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -4560,6 +4732,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -4593,6 +4767,8 @@ access
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -6373,6 +6549,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -6410,6 +6588,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -6449,6 +6629,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -6486,6 +6668,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -6525,6 +6709,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -6562,6 +6748,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -6601,6 +6789,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -6638,6 +6828,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -6677,6 +6869,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -6714,6 +6908,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -6753,6 +6949,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -6790,6 +6988,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -6829,6 +7029,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -6866,6 +7068,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -6905,6 +7109,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -6942,6 +7148,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -6981,6 +7189,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -7018,6 +7228,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -7057,6 +7269,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -7094,6 +7308,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -7133,6 +7349,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -7170,6 +7388,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -7209,6 +7429,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -7246,6 +7468,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -7285,6 +7509,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -7322,6 +7548,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -7361,6 +7589,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -7398,6 +7628,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -7437,6 +7669,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -7474,6 +7708,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -7513,6 +7749,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -7550,6 +7788,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -7589,6 +7829,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -7626,6 +7868,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -7665,6 +7909,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -7702,6 +7948,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -7741,6 +7989,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -7778,6 +8028,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -7817,6 +8069,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -7854,6 +8108,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -7893,6 +8149,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -7930,6 +8188,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -7969,6 +8229,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -8006,6 +8268,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -8045,6 +8309,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -8082,6 +8348,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -8121,6 +8389,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -8158,6 +8428,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -8197,6 +8469,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -8234,6 +8508,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -8273,6 +8549,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -8310,6 +8588,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -8349,6 +8629,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -8386,6 +8668,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -8425,6 +8709,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -8462,6 +8748,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -8501,6 +8789,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -8538,6 +8828,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -8577,6 +8869,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -8614,6 +8908,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -8653,6 +8949,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -8690,6 +8988,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -8729,6 +9029,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -8766,6 +9068,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -8805,6 +9109,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -8842,6 +9148,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -8881,6 +9189,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -8918,6 +9228,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -8957,6 +9269,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -8994,6 +9308,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -9033,6 +9349,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -9070,6 +9388,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -9109,6 +9429,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -9146,6 +9468,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -9185,6 +9509,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -9222,6 +9548,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -9261,6 +9589,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -9298,6 +9628,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -9337,6 +9669,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -9374,6 +9708,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -9413,6 +9749,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -9450,6 +9788,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -9489,6 +9829,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -9526,6 +9868,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -9565,6 +9909,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -9602,6 +9948,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -9641,6 +9989,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -9678,6 +10028,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -9717,6 +10069,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -9754,6 +10108,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -9793,6 +10149,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -9830,6 +10188,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -9869,6 +10229,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -9906,6 +10268,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -9945,6 +10309,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -9982,6 +10348,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -10021,6 +10389,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -10058,6 +10428,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -10097,6 +10469,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -10134,6 +10508,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -10173,6 +10549,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -10210,6 +10588,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -10249,6 +10629,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -10286,6 +10668,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -10325,6 +10709,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -10358,6 +10744,8 @@ access
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -10393,6 +10781,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -10426,6 +10816,8 @@ access
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -10461,6 +10853,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -10494,6 +10888,8 @@ access
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -10529,6 +10925,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -10562,6 +10960,8 @@ access
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -10597,6 +10997,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -10630,6 +11032,8 @@ access
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -10665,6 +11069,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -10698,6 +11104,8 @@ access
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -10733,6 +11141,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -10766,6 +11176,8 @@ access
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -10801,6 +11213,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -10834,6 +11248,8 @@ access
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -11217,6 +11633,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -11254,6 +11672,8 @@ f32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -11293,6 +11713,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -11331,6 +11753,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -11368,6 +11792,8 @@ f32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -11412,6 +11838,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -11449,6 +11877,8 @@ f32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -11488,6 +11918,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -11525,6 +11957,8 @@ f32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -11564,6 +11998,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -11601,6 +12037,8 @@ f32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -11640,6 +12078,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -11677,6 +12117,8 @@ f32
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -11716,6 +12158,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -11754,6 +12198,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -11787,6 +12233,8 @@ access
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -11822,6 +12270,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -11855,6 +12305,8 @@ access
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -12340,6 +12792,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -12377,6 +12831,8 @@ f64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -12416,6 +12872,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -12454,6 +12912,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -12491,6 +12951,8 @@ f64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -12539,6 +13001,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -12576,6 +13040,8 @@ f64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -12615,6 +13081,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -12652,6 +13120,8 @@ f64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -12691,6 +13161,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -12728,6 +13200,8 @@ f64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -12767,6 +13241,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -12804,6 +13280,8 @@ f64
 test
 /
 core
+/
+memory64
 /
 address64
 .
@@ -12843,6 +13321,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -12881,6 +13361,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -12915,6 +13397,8 @@ test
 /
 core
 /
+memory64
+/
 address64
 .
 wast
@@ -12948,6 +13432,8 @@ access
 test
 /
 core
+/
+memory64
 /
 address64
 .

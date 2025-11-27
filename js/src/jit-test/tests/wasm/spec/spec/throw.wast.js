@@ -132,6 +132,8 @@ test
 /
 core
 /
+exceptions
+/
 throw
 .
 wast
@@ -142,6 +144,8 @@ wast
 test
 /
 core
+/
+exceptions
 /
 throw
 .
@@ -552,6 +556,8 @@ test
 /
 core
 /
+exceptions
+/
 throw
 .
 wast
@@ -592,6 +598,8 @@ test
 /
 core
 /
+exceptions
+/
 throw
 .
 wast
@@ -622,6 +630,8 @@ if
 test
 /
 core
+/
+exceptions
 /
 throw
 .
@@ -654,6 +664,8 @@ if
 test
 /
 core
+/
+exceptions
 /
 throw
 .
@@ -694,6 +706,8 @@ test
 /
 core
 /
+exceptions
+/
 throw
 .
 wast
@@ -726,6 +740,8 @@ i64
 test
 /
 core
+/
+exceptions
 /
 throw
 .
@@ -766,6 +782,8 @@ test
 /
 core
 /
+exceptions
+/
 throw
 .
 wast
@@ -795,6 +813,8 @@ polymorphic
 test
 /
 core
+/
+exceptions
 /
 throw
 .
@@ -827,6 +847,8 @@ block
 test
 /
 core
+/
+exceptions
 /
 throw
 .
@@ -864,6 +886,8 @@ test
 /
 core
 /
+exceptions
+/
 throw
 .
 wast
@@ -900,6 +924,8 @@ tag
 test
 /
 core
+/
+exceptions
 /
 throw
 .
@@ -954,6 +980,8 @@ has
 test
 /
 core
+/
+exceptions
 /
 throw
 .

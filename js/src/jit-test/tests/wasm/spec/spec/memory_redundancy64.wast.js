@@ -132,6 +132,8 @@ test
 /
 core
 /
+memory64
+/
 memory_redundancy64
 .
 wast
@@ -142,6 +144,8 @@ wast
 test
 /
 core
+/
+memory64
 /
 memory_redundancy64
 .
@@ -662,6 +666,8 @@ test
 /
 core
 /
+memory64
+/
 memory_redundancy64
 .
 wast
@@ -699,6 +705,8 @@ test
 /
 core
 /
+memory64
+/
 memory_redundancy64
 .
 wast
@@ -719,6 +727,8 @@ zero_everything
 test
 /
 core
+/
+memory64
 /
 memory_redundancy64
 .
@@ -757,6 +767,8 @@ test
 /
 core
 /
+memory64
+/
 memory_redundancy64
 .
 wast
@@ -777,6 +789,8 @@ zero_everything
 test
 /
 core
+/
+memory64
 /
 memory_redundancy64
 .
@@ -817,6 +831,8 @@ test
 /
 core
 /
+memory64
+/
 memory_redundancy64
 .
 wast
@@ -837,6 +853,8 @@ zero_everything
 test
 /
 core
+/
+memory64
 /
 memory_redundancy64
 .

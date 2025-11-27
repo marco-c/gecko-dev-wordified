@@ -132,6 +132,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -142,6 +144,8 @@ wast
 test
 /
 core
+/
+memory64
 /
 endianness64
 .
@@ -1553,6 +1557,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -1592,6 +1598,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 endianness64
 .
@@ -1633,6 +1641,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -1671,6 +1681,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -1708,6 +1720,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 endianness64
 .
@@ -1748,6 +1762,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -1787,6 +1803,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -1825,6 +1843,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -1862,6 +1882,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 endianness64
 .
@@ -1903,6 +1925,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -1943,6 +1967,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -1980,6 +2006,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 endianness64
 .
@@ -2021,6 +2049,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -2060,6 +2090,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 endianness64
 .
@@ -2101,6 +2133,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -2139,6 +2173,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -2176,6 +2212,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 endianness64
 .
@@ -2216,6 +2254,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -2255,6 +2295,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -2293,6 +2335,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -2330,6 +2374,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 endianness64
 .
@@ -2371,6 +2417,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -2411,6 +2459,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -2449,6 +2499,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -2486,6 +2538,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 endianness64
 .
@@ -2526,6 +2580,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -2565,6 +2621,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -2603,6 +2661,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -2640,6 +2700,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 endianness64
 .
@@ -2681,6 +2743,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -2721,6 +2785,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -2758,6 +2824,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 endianness64
 .
@@ -2798,6 +2866,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 endianness64
 .
@@ -2844,6 +2914,8 @@ f32
 test
 /
 core
+/
+memory64
 /
 endianness64
 .
@@ -2893,6 +2965,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -2941,6 +3015,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -2984,6 +3060,8 @@ f32
 test
 /
 core
+/
+memory64
 /
 endianness64
 .
@@ -3030,6 +3108,8 @@ f64
 test
 /
 core
+/
+memory64
 /
 endianness64
 .
@@ -3079,6 +3159,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -3127,6 +3209,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -3171,6 +3255,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -3209,6 +3295,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 endianness64
 .
@@ -3249,6 +3337,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -3287,6 +3377,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -3324,6 +3416,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 endianness64
 .
@@ -3365,6 +3459,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -3405,6 +3501,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -3442,6 +3540,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 endianness64
 .
@@ -3483,6 +3583,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -3521,6 +3623,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 endianness64
 .
@@ -3561,6 +3665,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -3599,6 +3705,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -3636,6 +3744,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 endianness64
 .
@@ -3676,6 +3786,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -3715,6 +3827,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -3753,6 +3867,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -3790,6 +3906,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 endianness64
 .
@@ -3831,6 +3949,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -3871,6 +3991,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -3908,6 +4030,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 endianness64
 .
@@ -3948,6 +4072,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 endianness64
 .
@@ -3994,6 +4120,8 @@ f32
 test
 /
 core
+/
+memory64
 /
 endianness64
 .
@@ -4043,6 +4171,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -4091,6 +4221,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -4134,6 +4266,8 @@ f32
 test
 /
 core
+/
+memory64
 /
 endianness64
 .
@@ -4180,6 +4314,8 @@ f64
 test
 /
 core
+/
+memory64
 /
 endianness64
 .
@@ -4229,6 +4365,8 @@ test
 /
 core
 /
+memory64
+/
 endianness64
 .
 wast
@@ -4276,6 +4414,8 @@ f64
 test
 /
 core
+/
+memory64
 /
 endianness64
 .

@@ -132,6 +132,8 @@ test
 /
 core
 /
+exceptions
+/
 throw_ref
 .
 wast
@@ -142,6 +144,8 @@ wast
 test
 /
 core
+/
+exceptions
 /
 throw_ref
 .
@@ -818,6 +822,8 @@ test
 /
 core
 /
+exceptions
+/
 throw_ref
 .
 wast
@@ -849,6 +855,8 @@ throw_ref
 test
 /
 core
+/
+exceptions
 /
 throw_ref
 .
@@ -882,6 +890,8 @@ throw_ref
 test
 /
 core
+/
+exceptions
 /
 throw_ref
 .
@@ -925,6 +935,8 @@ test
 /
 core
 /
+exceptions
+/
 throw_ref
 .
 wast
@@ -956,6 +968,8 @@ throw_ref
 test
 /
 core
+/
+exceptions
 /
 throw_ref
 .
@@ -989,6 +1003,8 @@ throw_ref
 test
 /
 core
+/
+exceptions
 /
 throw_ref
 .
@@ -1032,6 +1048,8 @@ test
 /
 core
 /
+exceptions
+/
 throw_ref
 .
 wast
@@ -1063,6 +1081,8 @@ test
 /
 core
 /
+exceptions
+/
 throw_ref
 .
 wast
@@ -1093,6 +1113,8 @@ nested
 test
 /
 core
+/
+exceptions
 /
 throw_ref
 .
@@ -1134,6 +1156,8 @@ test
 /
 core
 /
+exceptions
+/
 throw_ref
 .
 wast
@@ -1173,6 +1197,8 @@ i32
 test
 /
 core
+/
+exceptions
 /
 throw_ref
 .
@@ -1214,6 +1240,8 @@ test
 /
 core
 /
+exceptions
+/
 throw_ref
 .
 wast
@@ -1245,6 +1273,8 @@ polymorphism
 test
 /
 core
+/
+exceptions
 /
 throw_ref
 .
@@ -1280,6 +1310,8 @@ mismatch
 test
 /
 core
+/
+exceptions
 /
 throw_ref
 .

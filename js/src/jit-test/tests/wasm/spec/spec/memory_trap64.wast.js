@@ -132,6 +132,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -142,6 +144,8 @@ wast
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -317,6 +321,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -349,6 +355,8 @@ store
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -389,6 +397,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -425,6 +435,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -459,6 +471,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -496,6 +510,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -530,6 +546,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -567,6 +585,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -601,6 +621,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -637,6 +659,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -670,6 +694,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -706,6 +732,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -739,6 +767,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -1632,6 +1662,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -1668,6 +1700,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -1706,6 +1740,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -1743,6 +1779,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -1779,6 +1817,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -1818,6 +1858,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -1855,6 +1897,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -1894,6 +1938,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -1932,6 +1978,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -1968,6 +2016,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -2006,6 +2056,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -2042,6 +2094,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -2080,6 +2134,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -2116,6 +2172,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -2154,6 +2212,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -2191,6 +2251,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -2227,6 +2289,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -2266,6 +2330,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -2303,6 +2369,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -2342,6 +2410,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -2379,6 +2449,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -2418,6 +2490,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -2455,6 +2529,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -2494,6 +2570,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -2531,6 +2609,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -2575,6 +2655,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -2617,6 +2699,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -2661,6 +2745,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -2703,6 +2789,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -2748,6 +2836,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -2791,6 +2881,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -2836,6 +2928,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -2880,6 +2974,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -2922,6 +3018,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -2966,6 +3064,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -3008,6 +3108,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -3052,6 +3154,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -3094,6 +3198,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -3138,6 +3244,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -3181,6 +3289,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -3223,6 +3333,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -3268,6 +3380,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -3311,6 +3425,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -3356,6 +3472,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -3399,6 +3517,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -3444,6 +3564,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -3487,6 +3609,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -3532,6 +3656,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -3576,6 +3702,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -3612,6 +3740,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -3651,6 +3781,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -3688,6 +3820,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -3724,6 +3858,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -3763,6 +3899,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -3801,6 +3939,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -3837,6 +3977,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -3876,6 +4018,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -3913,6 +4057,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -3949,6 +4095,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -3988,6 +4136,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -4026,6 +4176,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -4062,6 +4214,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -4100,6 +4254,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -4137,6 +4293,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -4173,6 +4331,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -4212,6 +4372,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -4249,6 +4411,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -4288,6 +4452,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -4326,6 +4492,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -4361,6 +4529,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -4398,6 +4568,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -4434,6 +4606,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -4469,6 +4643,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -4507,6 +4683,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -4543,6 +4721,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -4581,6 +4761,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -4618,6 +4800,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -4653,6 +4837,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -4690,6 +4876,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -4725,6 +4913,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -4762,6 +4952,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -4797,6 +4989,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -4834,6 +5028,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -4870,6 +5066,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -4905,6 +5103,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -4943,6 +5143,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -4979,6 +5181,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -5017,6 +5221,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -5053,6 +5259,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -5091,6 +5299,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -5127,6 +5337,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -5165,6 +5377,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -5202,6 +5416,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -5237,6 +5453,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -5274,6 +5492,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -5310,6 +5530,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -5345,6 +5567,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -5383,6 +5607,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -5419,6 +5645,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -5457,6 +5685,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -5494,6 +5724,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -5529,6 +5761,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -5566,6 +5800,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -5601,6 +5837,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -5638,6 +5876,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -5673,6 +5913,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -5710,6 +5952,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -5746,6 +5990,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -5781,6 +6027,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -5819,6 +6067,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -5855,6 +6105,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -5893,6 +6145,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -5929,6 +6183,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -5967,6 +6223,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -6003,6 +6261,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -6041,6 +6301,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -6078,6 +6340,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -6113,6 +6377,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -6151,6 +6417,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -6186,6 +6454,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -6224,6 +6494,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -6260,6 +6532,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -6295,6 +6569,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -6333,6 +6609,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -6370,6 +6648,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -6406,6 +6686,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -6441,6 +6723,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -6479,6 +6763,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -6516,6 +6802,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -6551,6 +6839,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -6589,6 +6879,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -6624,6 +6916,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -6662,6 +6956,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -6698,6 +6994,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -6733,6 +7031,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -6771,6 +7071,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -6808,6 +7110,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -6844,6 +7148,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -6879,6 +7185,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -6917,6 +7225,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -6954,6 +7264,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -6989,6 +7301,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -7026,6 +7340,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -7062,6 +7378,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -7097,6 +7415,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -7135,6 +7455,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -7171,6 +7493,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -7209,6 +7533,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -7246,6 +7572,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -7281,6 +7609,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -7318,6 +7648,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -7354,6 +7686,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -7389,6 +7723,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -7427,6 +7763,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -7464,6 +7802,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -7500,6 +7840,8 @@ access
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .
@@ -7568,6 +7910,8 @@ test
 /
 core
 /
+memory64
+/
 memory_trap64
 .
 wast
@@ -7607,6 +7951,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 memory_trap64
 .

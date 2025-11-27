@@ -132,6 +132,8 @@ test
 /
 core
 /
+exceptions
+/
 try_table
 .
 wast
@@ -142,6 +144,8 @@ wast
 test
 /
 core
+/
+exceptions
 /
 try_table
 .
@@ -191,6 +195,8 @@ test
 /
 core
 /
+exceptions
+/
 try_table
 .
 wast
@@ -209,6 +215,8 @@ test
 test
 /
 core
+/
+exceptions
 /
 try_table
 .
@@ -1898,6 +1906,8 @@ test
 /
 core
 /
+exceptions
+/
 try_table
 .
 wast
@@ -1939,6 +1949,8 @@ i32
 test
 /
 core
+/
+exceptions
 /
 try_table
 .
@@ -1982,6 +1994,8 @@ test
 /
 core
 /
+exceptions
+/
 try_table
 .
 wast
@@ -2014,6 +2028,8 @@ unreachable
 test
 /
 core
+/
+exceptions
 /
 try_table
 .
@@ -2058,6 +2074,8 @@ test
 /
 core
 /
+exceptions
+/
 try_table
 .
 wast
@@ -2095,6 +2113,8 @@ zero
 test
 /
 core
+/
+exceptions
 /
 try_table
 .
@@ -2138,6 +2158,8 @@ test
 /
 core
 /
+exceptions
+/
 try_table
 .
 wast
@@ -2180,6 +2202,8 @@ test
 /
 core
 /
+exceptions
+/
 try_table
 .
 wast
@@ -2212,6 +2236,8 @@ complex
 test
 /
 core
+/
+exceptions
 /
 try_table
 .
@@ -2255,6 +2281,8 @@ test
 /
 core
 /
+exceptions
+/
 try_table
 .
 wast
@@ -2297,6 +2325,8 @@ test
 /
 core
 /
+exceptions
+/
 try_table
 .
 wast
@@ -2329,6 +2359,8 @@ complex
 test
 /
 core
+/
+exceptions
 /
 try_table
 .
@@ -2374,6 +2406,8 @@ test
 /
 core
 /
+exceptions
+/
 try_table
 .
 wast
@@ -2418,6 +2452,8 @@ test
 /
 core
 /
+exceptions
+/
 try_table
 .
 wast
@@ -2461,6 +2497,8 @@ i32
 test
 /
 core
+/
+exceptions
 /
 try_table
 .
@@ -2511,6 +2549,8 @@ f32
 test
 /
 core
+/
+exceptions
 /
 try_table
 .
@@ -2566,6 +2606,8 @@ test
 /
 core
 /
+exceptions
+/
 try_table
 .
 wast
@@ -2610,6 +2652,8 @@ test
 /
 core
 /
+exceptions
+/
 try_table
 .
 wast
@@ -2653,6 +2697,8 @@ i64
 test
 /
 core
+/
+exceptions
 /
 try_table
 .
@@ -2699,6 +2745,8 @@ i64
 test
 /
 core
+/
+exceptions
 /
 try_table
 .
@@ -2749,6 +2797,8 @@ f64
 test
 /
 core
+/
+exceptions
 /
 try_table
 .
@@ -2804,6 +2854,8 @@ test
 /
 core
 /
+exceptions
+/
 try_table
 .
 wast
@@ -2847,6 +2899,8 @@ i32
 test
 /
 core
+/
+exceptions
 /
 try_table
 .
@@ -2892,6 +2946,8 @@ test
 /
 core
 /
+exceptions
+/
 try_table
 .
 wast
@@ -2935,6 +2991,8 @@ i32
 test
 /
 core
+/
+exceptions
 /
 try_table
 .
@@ -2985,6 +3043,8 @@ f32
 test
 /
 core
+/
+exceptions
 /
 try_table
 .
@@ -3040,6 +3100,8 @@ test
 /
 core
 /
+exceptions
+/
 try_table
 .
 wast
@@ -3084,6 +3146,8 @@ test
 /
 core
 /
+exceptions
+/
 try_table
 .
 wast
@@ -3127,6 +3191,8 @@ i64
 test
 /
 core
+/
+exceptions
 /
 try_table
 .
@@ -3173,6 +3239,8 @@ i64
 test
 /
 core
+/
+exceptions
 /
 try_table
 .
@@ -3223,6 +3291,8 @@ f64
 test
 /
 core
+/
+exceptions
 /
 try_table
 .
@@ -3278,6 +3348,8 @@ test
 /
 core
 /
+exceptions
+/
 try_table
 .
 wast
@@ -3320,6 +3392,8 @@ test
 /
 core
 /
+exceptions
+/
 try_table
 .
 wast
@@ -3358,6 +3432,8 @@ i32
 test
 /
 core
+/
+exceptions
 /
 try_table
 .
@@ -3400,6 +3476,8 @@ test
 /
 core
 /
+exceptions
+/
 try_table
 .
 wast
@@ -3439,6 +3517,8 @@ i32
 test
 /
 core
+/
+exceptions
 /
 try_table
 .
@@ -3480,6 +3560,8 @@ test
 /
 core
 /
+exceptions
+/
 try_table
 .
 wast
@@ -3515,6 +3597,8 @@ catch
 test
 /
 core
+/
+exceptions
 /
 try_table
 .
@@ -3554,6 +3638,8 @@ test
 /
 core
 /
+exceptions
+/
 try_table
 .
 wast
@@ -3587,6 +3673,8 @@ param
 test
 /
 core
+/
+exceptions
 /
 try_table
 .
@@ -3714,6 +3802,8 @@ test
 /
 core
 /
+exceptions
+/
 try_table
 .
 wast
@@ -3753,6 +3843,8 @@ test
 /
 core
 /
+exceptions
+/
 try_table
 .
 wast
@@ -3787,6 +3879,8 @@ token
 test
 /
 core
+/
+exceptions
 /
 try_table
 .
@@ -3829,6 +3923,8 @@ token
 test
 /
 core
+/
+exceptions
 /
 try_table
 .
@@ -3975,6 +4071,8 @@ test
 /
 core
 /
+exceptions
+/
 try_table
 .
 wast
@@ -4017,6 +4115,8 @@ mismatch
 test
 /
 core
+/
+exceptions
 /
 try_table
 .
@@ -4067,6 +4167,8 @@ test
 /
 core
 /
+exceptions
+/
 try_table
 .
 wast
@@ -4109,6 +4211,8 @@ mismatch
 test
 /
 core
+/
+exceptions
 /
 try_table
 .
@@ -4160,6 +4264,8 @@ test
 /
 core
 /
+exceptions
+/
 try_table
 .
 wast
@@ -4198,6 +4304,8 @@ mismatch
 test
 /
 core
+/
+exceptions
 /
 try_table
 .
@@ -4244,6 +4352,8 @@ mismatch
 test
 /
 core
+/
+exceptions
 /
 try_table
 .
@@ -4306,6 +4416,8 @@ mismatch
 test
 /
 core
+/
+exceptions
 /
 try_table
 .
@@ -4626,6 +4738,8 @@ test
 /
 core
 /
+exceptions
+/
 try_table
 .
 wast
@@ -4662,6 +4776,8 @@ funcref
 test
 /
 core
+/
+exceptions
 /
 try_table
 .
@@ -4700,6 +4816,8 @@ test
 /
 core
 /
+exceptions
+/
 try_table
 .
 wast
@@ -4737,6 +4855,8 @@ test
 /
 core
 /
+exceptions
+/
 try_table
 .
 wast
@@ -4767,6 +4887,8 @@ test
 /
 core
 /
+exceptions
+/
 try_table
 .
 wast
@@ -4796,6 +4918,8 @@ catch_all_ref2
 test
 /
 core
+/
+exceptions
 /
 try_table
 .
@@ -4890,6 +5014,8 @@ mismatch
 test
 /
 core
+/
+exceptions
 /
 try_table
 .

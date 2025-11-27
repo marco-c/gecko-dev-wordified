@@ -132,6 +132,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -142,6 +144,8 @@ wast
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -191,6 +195,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -238,6 +244,8 @@ const
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -287,6 +295,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -334,6 +344,8 @@ const
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -383,6 +395,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -430,6 +444,8 @@ const
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -479,6 +495,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -527,6 +545,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -574,6 +594,8 @@ const
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -623,6 +645,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -670,6 +694,8 @@ const
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -719,6 +745,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -767,6 +795,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -814,6 +844,8 @@ const
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -865,6 +897,8 @@ const
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -917,6 +951,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -968,6 +1004,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -1018,6 +1056,8 @@ const
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -1070,6 +1110,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -1121,6 +1163,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -1171,6 +1215,8 @@ const
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -1225,6 +1271,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -1277,6 +1325,8 @@ const
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -1331,6 +1381,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -1383,6 +1435,8 @@ alignment
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -1437,6 +1491,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -1489,6 +1545,8 @@ alignment
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -1543,6 +1601,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -1595,6 +1655,8 @@ alignment
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -1649,6 +1711,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -1701,6 +1765,8 @@ alignment
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -1755,6 +1821,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -1807,6 +1875,8 @@ alignment
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -1861,6 +1931,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -1913,6 +1985,8 @@ alignment
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -1967,6 +2041,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -2019,6 +2095,8 @@ alignment
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -2073,6 +2151,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -2125,6 +2205,8 @@ alignment
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -2179,6 +2261,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -2231,6 +2315,8 @@ alignment
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -2285,6 +2371,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -2337,6 +2425,8 @@ alignment
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -2391,6 +2481,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -2443,6 +2535,8 @@ alignment
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -2497,6 +2591,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -2549,6 +2645,8 @@ alignment
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -2603,6 +2701,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -2655,6 +2755,8 @@ alignment
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -2709,6 +2811,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -2761,6 +2865,8 @@ alignment
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -2818,6 +2924,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -2873,6 +2981,8 @@ alignment
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -2930,6 +3040,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -2985,6 +3097,8 @@ alignment
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -3042,6 +3156,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -3097,6 +3213,8 @@ alignment
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -3154,6 +3272,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -3209,6 +3329,8 @@ alignment
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -3266,6 +3388,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -3321,6 +3445,8 @@ alignment
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -3378,6 +3504,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -3433,6 +3561,8 @@ alignment
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -3490,6 +3620,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -3545,6 +3677,8 @@ alignment
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -3602,6 +3736,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -3657,6 +3793,8 @@ alignment
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -3714,6 +3852,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -3769,6 +3909,8 @@ alignment
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -3829,6 +3971,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -3887,6 +4031,8 @@ natural
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -3947,6 +4093,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -4005,6 +4153,8 @@ natural
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -4065,6 +4215,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -4123,6 +4275,8 @@ natural
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -4183,6 +4337,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -4241,6 +4397,8 @@ natural
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -4301,6 +4459,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -4359,6 +4519,8 @@ natural
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -4419,6 +4581,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -4477,6 +4641,8 @@ natural
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -4537,6 +4703,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -4595,6 +4763,8 @@ natural
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -4655,6 +4825,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -4713,6 +4885,8 @@ natural
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -4773,6 +4947,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -4831,6 +5007,8 @@ natural
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -4891,6 +5069,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -4949,6 +5129,8 @@ natural
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -5009,6 +5191,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -5067,6 +5251,8 @@ natural
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -5127,6 +5313,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -5185,6 +5373,8 @@ natural
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -5245,6 +5435,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -5303,6 +5495,8 @@ natural
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -5363,6 +5557,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -5421,6 +5617,8 @@ natural
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -5484,6 +5682,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -5545,6 +5745,8 @@ natural
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -5608,6 +5810,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -5669,6 +5873,8 @@ natural
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -5732,6 +5938,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -5793,6 +6001,8 @@ natural
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -5856,6 +6066,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -5918,6 +6130,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -5979,6 +6193,8 @@ natural
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -9243,6 +9459,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -9280,6 +9498,8 @@ f32
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -9319,6 +9539,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -9356,6 +9578,8 @@ f32
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -9395,6 +9619,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -9432,6 +9658,8 @@ f64
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -9471,6 +9699,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -9508,6 +9738,8 @@ f64
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -9547,6 +9779,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -9584,6 +9818,8 @@ f64
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -9624,6 +9860,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -9662,6 +9900,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -9702,6 +9942,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -9740,6 +9982,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -9780,6 +10024,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -9818,6 +10064,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -9858,6 +10106,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -9896,6 +10146,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -9936,6 +10188,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -9974,6 +10228,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -10014,6 +10270,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -10052,6 +10310,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -10092,6 +10352,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -10130,6 +10392,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -10170,6 +10434,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -10208,6 +10474,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -10248,6 +10516,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -10286,6 +10556,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -10326,6 +10598,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -10364,6 +10638,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -10404,6 +10680,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -10442,6 +10720,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -10482,6 +10762,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -10520,6 +10802,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -10560,6 +10844,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -10598,6 +10884,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -10638,6 +10926,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -10676,6 +10966,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -10716,6 +11008,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -10754,6 +11048,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -10794,6 +11090,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -10832,6 +11130,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -10872,6 +11172,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -10910,6 +11212,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -10950,6 +11254,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -10989,6 +11295,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -11027,6 +11335,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 align64
 .
@@ -11148,6 +11458,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -11184,6 +11496,8 @@ test
 /
 core
 /
+memory64
+/
 align64
 .
 wast
@@ -11215,3 +11529,77 @@ i32
 )
 ;
 }
+/
+/
+Suppressed
+because
+wasm
+-
+tools
+cannot
+parse
+this
+offset
+.
+/
+/
+/
+/
+.
+/
+test
+/
+core
+/
+memory64
+/
+align64
+.
+wast
+:
+869
+/
+/
+let
+25
+=
+instantiate
+(
+(
+module
+/
+/
+(
+memory
+i64
+1
+)
+/
+/
+(
+func
+/
+/
+i64
+.
+const
+0
+/
+/
+i32
+.
+load
+offset
+=
+0xFFFF_FFFF_FFFF_FFFF
+/
+/
+drop
+/
+/
+)
+/
+/
+)
+)
+;

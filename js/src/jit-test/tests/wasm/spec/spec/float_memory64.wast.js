@@ -132,6 +132,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -142,6 +144,8 @@ wast
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -323,6 +327,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -361,6 +367,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -406,6 +414,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -426,6 +436,8 @@ reset
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -466,6 +478,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -505,6 +519,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -527,6 +543,8 @@ store
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -566,6 +584,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -611,6 +631,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -631,6 +653,8 @@ reset
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -671,6 +695,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -710,6 +736,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -732,6 +760,8 @@ store
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -771,6 +801,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -815,6 +847,8 @@ f32
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -1008,6 +1042,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -1046,6 +1082,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -1095,6 +1133,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -1115,6 +1155,8 @@ reset
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -1155,6 +1197,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -1194,6 +1238,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -1216,6 +1262,8 @@ store
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -1255,6 +1303,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -1304,6 +1354,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -1324,6 +1376,8 @@ reset
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -1364,6 +1418,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -1403,6 +1459,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -1425,6 +1483,8 @@ store
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -1464,6 +1524,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -1512,6 +1574,8 @@ f64
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -1696,6 +1760,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -1734,6 +1800,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -1779,6 +1847,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -1799,6 +1869,8 @@ reset
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -1839,6 +1911,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -1878,6 +1952,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -1900,6 +1976,8 @@ store
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -1939,6 +2017,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -1984,6 +2064,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -2004,6 +2086,8 @@ reset
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -2044,6 +2128,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -2083,6 +2169,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -2105,6 +2193,8 @@ store
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -2144,6 +2234,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -2188,6 +2280,8 @@ f32
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -2384,6 +2478,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -2422,6 +2518,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -2471,6 +2569,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -2491,6 +2591,8 @@ reset
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -2531,6 +2633,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -2570,6 +2674,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -2592,6 +2698,8 @@ store
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -2631,6 +2739,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -2680,6 +2790,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -2700,6 +2812,8 @@ reset
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -2740,6 +2854,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -2779,6 +2895,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -2801,6 +2919,8 @@ store
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -2840,6 +2960,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -2888,6 +3010,8 @@ f64
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -3069,6 +3193,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -3107,6 +3233,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -3152,6 +3280,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -3172,6 +3302,8 @@ reset
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -3212,6 +3344,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -3251,6 +3385,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -3273,6 +3409,8 @@ store
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -3312,6 +3450,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -3357,6 +3497,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -3377,6 +3519,8 @@ reset
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -3417,6 +3561,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -3456,6 +3602,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -3478,6 +3626,8 @@ store
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -3517,6 +3667,8 @@ i32
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -3561,6 +3713,8 @@ f32
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -3754,6 +3908,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -3792,6 +3948,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -3841,6 +3999,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -3861,6 +4021,8 @@ reset
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -3901,6 +4063,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -3940,6 +4104,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -3962,6 +4128,8 @@ store
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -4001,6 +4169,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -4050,6 +4220,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -4070,6 +4242,8 @@ reset
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -4110,6 +4284,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -4149,6 +4325,8 @@ test
 /
 core
 /
+memory64
+/
 float_memory64
 .
 wast
@@ -4171,6 +4349,8 @@ store
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .
@@ -4210,6 +4390,8 @@ i64
 test
 /
 core
+/
+memory64
 /
 float_memory64
 .

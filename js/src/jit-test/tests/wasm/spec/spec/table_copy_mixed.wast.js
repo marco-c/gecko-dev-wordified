@@ -132,6 +132,8 @@ test
 /
 core
 /
+memory64
+/
 table_copy_mixed
 .
 wast
@@ -142,6 +144,8 @@ wast
 test
 /
 core
+/
+memory64
 /
 table_copy_mixed
 .
@@ -327,6 +331,8 @@ test
 /
 core
 /
+memory64
+/
 table_copy_mixed
 .
 wast
@@ -409,6 +415,8 @@ test
 /
 core
 /
+memory64
+/
 table_copy_mixed
 .
 wast
@@ -490,6 +498,8 @@ mismatch
 test
 /
 core
+/
+memory64
 /
 table_copy_mixed
 .

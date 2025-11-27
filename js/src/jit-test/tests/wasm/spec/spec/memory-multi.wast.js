@@ -132,6 +132,10 @@ test
 /
 core
 /
+multi
+-
+memory
+/
 memory
 -
 multi
@@ -144,6 +148,10 @@ wast
 test
 /
 core
+/
+multi
+-
+memory
 /
 memory
 -
@@ -321,6 +329,10 @@ test
 /
 core
 /
+multi
+-
+memory
+/
 memory
 -
 multi
@@ -360,6 +372,10 @@ test
 /
 core
 /
+multi
+-
+memory
+/
 memory
 -
 multi
@@ -398,6 +414,10 @@ i32
 test
 /
 core
+/
+multi
+-
+memory
 /
 memory
 -
@@ -538,6 +558,10 @@ test
 /
 core
 /
+multi
+-
+memory
+/
 memory
 -
 multi
@@ -576,6 +600,10 @@ i32
 test
 /
 core
+/
+multi
+-
+memory
 /
 memory
 -
