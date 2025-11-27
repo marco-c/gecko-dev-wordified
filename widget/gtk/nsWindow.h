@@ -2908,15 +2908,6 @@ char
 aTokenID
 )
 ;
-bool
-SetEGLNativeWindowSize
-(
-const
-LayoutDeviceIntSize
-&
-aEGLWindowSize
-)
-;
 void
 WaylandDragWorkaround
 (
