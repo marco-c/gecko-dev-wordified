@@ -1821,7 +1821,7 @@ mSRIAndSerializedStencil
 auto
 offset
 =
-mBytecodeOffset
+mSerializedStencilOffset
 ;
 return
 TranscodeRange
@@ -1877,7 +1877,7 @@ CanHaveSRIAndSerializedStencil
 )
 ;
 return
-mBytecodeOffset
+mSerializedStencilOffset
 ;
 }
 void
@@ -1899,7 +1899,7 @@ CanHaveSRIAndSerializedStencil
 )
 )
 ;
-mBytecodeOffset
+mSerializedStencilOffset
 =
 AlignTranscodingBytecodeOffset
 (
@@ -2429,12 +2429,13 @@ public
 Offset
 of
 the
-bytecode
+serialized
+Stencil
 in
 mSRIAndSerializedStencil
 .
 uint32_t
-mBytecodeOffset
+mSerializedStencilOffset
 ;
 private
 :
