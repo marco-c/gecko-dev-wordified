@@ -70,10 +70,6 @@ path
 as
 mozpath
 from
-buildconfig
-import
-topsrcdir
-from
 mach
 .
 decorators
@@ -308,6 +304,7 @@ subprocess
 .
 run
 (
+            
 [
 sys
 .
@@ -321,7 +318,10 @@ configure
 ]
 cwd
 =
+command_context
+.
 topsrcdir
+        
 )
         
 if
@@ -407,6 +407,8 @@ compile
             
 cwd
 =
+command_context
+.
 topsrcdir
         
 )
@@ -488,6 +490,7 @@ subprocess
 .
 run
 (
+            
 [
 sys
 .
@@ -501,7 +504,10 @@ build
 ]
 cwd
 =
+command_context
+.
 topsrcdir
+        
 )
         
 if
@@ -618,8 +624,11 @@ b
 "
 backend
 ]
+            
 cwd
 =
+command_context
+.
 topsrcdir
         
 )
