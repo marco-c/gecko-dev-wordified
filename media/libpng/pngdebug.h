@@ -389,15 +389,6 @@ at
 /
 #
 ifndef
-PNG_LITERAL_SHARP
-#
-define
-PNG_LITERAL_SHARP
-0x23
-#
-endif
-#
-ifndef
 PNG_LITERAL_LEFT_SQUARE_BRACKET
 #
 define
