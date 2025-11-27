@@ -9314,6 +9314,13 @@ TrialInliningState
 Failure
 )
 ;
+oracle_
+-
+>
+ignoreFailedICHash
+(
+)
+;
 return
 false
 ;
