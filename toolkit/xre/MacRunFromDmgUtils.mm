@@ -187,13 +187,6 @@ h
 #
 include
 "
-MacUtils
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ErrorResult
@@ -341,13 +334,6 @@ Conceptual
 /
 IOKitFundamentals
 /
-using
-namespace
-mozilla
-:
-:
-MacUtils
-;
 using
 namespace
 mozilla
