@@ -967,7 +967,7 @@ stencil
 .
 /
 /
-mSRIAndBytecode
+mSRIAndSerializedStencil
 holds
 the
 SRI
@@ -988,7 +988,7 @@ the
 channel
 /
 /
-mSRIAndBytecode
+mSRIAndSerializedStencil
 holds
 the
 SRI
@@ -997,9 +997,9 @@ the
 serialized
 stencil
 and
+/
+/
 mStencil
-/
-/
 holds
 the
 decoded
@@ -1025,13 +1025,13 @@ the
 cached
 stencil
 and
-mSRIAndBytecode
+mSRIAndSerializedStencil
 holds
+/
+/
 the
 SRI
 .
-/
-/
 mScriptData
 is
 unused
@@ -1647,7 +1647,7 @@ part
 =
 /
 /
-mSRIAndBytecode
+mSRIAndSerializedStencil
 field
 is
 shared
@@ -1659,7 +1659,7 @@ consumers
 /
 /
 See
-mSRIAndBytecode
+mSRIAndSerializedStencil
 comment
 for
 more
@@ -1711,7 +1711,7 @@ CanHaveSRIOnly
 ;
 return
 !
-mSRIAndBytecode
+mSRIAndSerializedStencil
 .
 empty
 (
@@ -1732,7 +1732,7 @@ CanHaveSRIOnly
 )
 ;
 return
-mSRIAndBytecode
+mSRIAndSerializedStencil
 ;
 }
 void
@@ -1747,7 +1747,7 @@ CanHaveSRIOnly
 )
 )
 ;
-mSRIAndBytecode
+mSRIAndSerializedStencil
 .
 clearAndFree
 (
@@ -1795,7 +1795,7 @@ CanHaveSRIAndSerializedStencil
 )
 ;
 return
-mSRIAndBytecode
+mSRIAndSerializedStencil
 ;
 }
 TranscodeRange
@@ -1814,9 +1814,9 @@ CanHaveSRIAndSerializedStencil
 const
 auto
 &
-bytecode
+buf
 =
-mSRIAndBytecode
+mSRIAndSerializedStencil
 ;
 auto
 offset
@@ -1826,14 +1826,14 @@ mBytecodeOffset
 return
 TranscodeRange
 (
-bytecode
+buf
 .
 begin
 (
 )
 +
 offset
-bytecode
+buf
 .
 length
 (
@@ -1926,7 +1926,7 @@ CanHaveSRIAndSerializedStencil
 )
 ;
 return
-mSRIAndBytecode
+mSRIAndSerializedStencil
 .
 empty
 (
@@ -1950,7 +1950,7 @@ CanHaveSRIAndSerializedStencil
 )
 )
 ;
-mSRIAndBytecode
+mSRIAndSerializedStencil
 .
 clearAndFree
 (
@@ -2318,7 +2318,7 @@ whether
 the
 mScriptData
 or
-mSRIAndBytecode
+mSRIAndSerializedStencil
 is
 used
 .
@@ -2431,7 +2431,7 @@ of
 the
 bytecode
 in
-mSRIAndBytecode
+mSRIAndSerializedStencil
 .
 uint32_t
 mBytecodeOffset
@@ -2813,8 +2813,8 @@ SRI
 padding
 and
 the
-script
-bytecode
+serialized
+Stencil
 which
 is
 received
@@ -2841,7 +2841,7 @@ enabled
 ScriptBytecodeCompressedDataLayout
 .
 TranscodeBuffer
-mSRIAndBytecode
+mSRIAndSerializedStencil
 ;
 /
 /
