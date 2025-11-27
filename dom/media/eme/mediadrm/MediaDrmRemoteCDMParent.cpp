@@ -124,13 +124,6 @@ h
 #
 include
 <
-dlfcn
-.
-h
->
-#
-include
-<
 limits
 >
 #
@@ -4519,7 +4512,7 @@ nsString
 &
 &
 aSessionId
-int
+int64_t
 aExpiryTimeInMS
 )
 {
@@ -4600,7 +4593,13 @@ move
 (
 aSessionId
 )
+static_cast
+<
+double
+>
+(
 aExpiryTimeInMS
+)
 )
 )
 ;
