@@ -628,6 +628,12 @@ Klipertona
 sala
 "
 }
+CQ
+{
+"
+Sarka
+"
+}
 CR
 {
 "

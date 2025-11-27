@@ -7462,9 +7462,6 @@ USet
 set
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -7484,7 +7481,7 @@ this
 set
 .
 *
-draft
+stable
 ICU
 76
 *
@@ -7612,7 +7609,7 @@ pLength
 is
 NULL
 *
-draft
+stable
 ICU
 76
 *
@@ -7638,11 +7635,6 @@ int32_t
 pLength
 )
 ;
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -10286,9 +10278,6 @@ U_SHOW_CPLUSPLUS_API
 |
 |
 U_SHOW_CPLUSPLUS_HEADER_API
-#
-ifndef
-U_HIDE_DRAFT_API
 namespace
 U_HEADER_ONLY_NAMESPACE
 {
@@ -10336,7 +10325,7 @@ by
 USetCodePoints
 .
 *
-draft
+stable
 ICU
 76
 *
@@ -10349,7 +10338,7 @@ public
 /
 *
 *
-draft
+stable
 ICU
 76
 *
@@ -10367,7 +10356,7 @@ default
 /
 *
 *
-draft
+stable
 ICU
 76
 *
@@ -10472,7 +10461,7 @@ c
 /
 *
 *
-draft
+stable
 ICU
 76
 *
@@ -10502,7 +10491,7 @@ other
 /
 *
 *
-draft
+stable
 ICU
 76
 *
@@ -10527,7 +10516,7 @@ Pre
 increment
 .
 *
-draft
+stable
 ICU
 76
 *
@@ -10634,7 +10623,7 @@ Post
 increment
 .
 *
-draft
+stable
 ICU
 76
 *
@@ -10843,7 +10832,7 @@ codePoints
 .
 *
 *
-draft
+stable
 ICU
 76
 *
@@ -10884,7 +10873,7 @@ the
 USet
 .
 *
-draft
+stable
 ICU
 76
 *
@@ -10913,7 +10902,7 @@ pUset
 /
 *
 *
-draft
+stable
 ICU
 76
 *
@@ -10931,7 +10920,7 @@ default
 /
 *
 *
-draft
+stable
 ICU
 76
 *
@@ -10954,7 +10943,7 @@ rangeCount
 /
 *
 *
-draft
+stable
 ICU
 76
 *
@@ -11039,7 +11028,7 @@ rangeEnd
 .
 )
 *
-draft
+stable
 ICU
 76
 *
@@ -11050,7 +11039,7 @@ CodePointRange
 /
 *
 *
-draft
+stable
 ICU
 76
 *
@@ -11061,7 +11050,7 @@ iterator
 /
 *
 *
-draft
+stable
 ICU
 76
 *
@@ -11081,7 +11070,7 @@ aC
 /
 *
 *
-draft
+stable
 ICU
 76
 *
@@ -11110,7 +11099,7 @@ c
 /
 *
 *
-draft
+stable
 ICU
 76
 *
@@ -11140,7 +11129,7 @@ other
 /
 *
 *
-draft
+stable
 ICU
 76
 *
@@ -11165,7 +11154,7 @@ Pre
 increment
 .
 *
-draft
+stable
 ICU
 76
 *
@@ -11196,7 +11185,7 @@ Post
 increment
 .
 *
-draft
+stable
 ICU
 76
 *
@@ -11228,7 +11217,7 @@ the
 range
 .
 *
-draft
+stable
 ICU
 76
 *
@@ -11241,7 +11230,7 @@ c
 /
 *
 *
-draft
+stable
 ICU
 76
 *
@@ -11267,7 +11256,7 @@ end
 /
 *
 *
-draft
+stable
 ICU
 76
 *
@@ -11285,7 +11274,7 @@ default
 /
 *
 *
-draft
+stable
 ICU
 76
 *
@@ -11309,7 +11298,7 @@ rangeStart
 /
 *
 *
-draft
+stable
 ICU
 76
 *
@@ -11327,7 +11316,7 @@ rangeStart
 /
 *
 *
-draft
+stable
 ICU
 76
 *
@@ -11360,7 +11349,7 @@ code
 points
 .
 *
-draft
+stable
 ICU
 76
 *
@@ -11385,7 +11374,7 @@ code
 points
 .
 *
-draft
+stable
 ICU
 76
 *
@@ -11405,7 +11394,7 @@ by
 USetRanges
 .
 *
-draft
+stable
 ICU
 76
 *
@@ -11418,7 +11407,7 @@ public
 /
 *
 *
-draft
+stable
 ICU
 76
 *
@@ -11436,7 +11425,7 @@ default
 /
 *
 *
-draft
+stable
 ICU
 76
 *
@@ -11528,7 +11517,7 @@ rangeIndex
 /
 *
 *
-draft
+stable
 ICU
 76
 *
@@ -11558,7 +11547,7 @@ other
 /
 *
 *
-draft
+stable
 ICU
 76
 *
@@ -11643,7 +11632,7 @@ Pre
 increment
 .
 *
-draft
+stable
 ICU
 76
 *
@@ -11674,7 +11663,7 @@ Post
 increment
 .
 *
-draft
+stable
 ICU
 76
 *
@@ -11921,7 +11910,7 @@ ranges
 .
 *
 *
-draft
+stable
 ICU
 76
 *
@@ -11963,7 +11952,7 @@ the
 USet
 .
 *
-draft
+stable
 ICU
 76
 *
@@ -11992,7 +11981,7 @@ pUset
 /
 *
 *
-draft
+stable
 ICU
 76
 *
@@ -12010,7 +11999,7 @@ default
 /
 *
 *
-draft
+stable
 ICU
 76
 *
@@ -12033,7 +12022,7 @@ rangeCount
 /
 *
 *
-draft
+stable
 ICU
 76
 *
@@ -12075,7 +12064,7 @@ by
 USetStrings
 .
 *
-draft
+stable
 ICU
 76
 *
@@ -12088,7 +12077,7 @@ public
 /
 *
 *
-draft
+stable
 ICU
 76
 *
@@ -12106,7 +12095,7 @@ default
 /
 *
 *
-draft
+stable
 ICU
 76
 *
@@ -12198,7 +12187,7 @@ index
 /
 *
 *
-draft
+stable
 ICU
 76
 *
@@ -12228,7 +12217,7 @@ other
 /
 *
 *
-draft
+stable
 ICU
 76
 *
@@ -12304,7 +12293,7 @@ Pre
 increment
 .
 *
-draft
+stable
 ICU
 76
 *
@@ -12335,7 +12324,7 @@ Post
 increment
 .
 *
-draft
+stable
 ICU
 76
 *
@@ -12578,7 +12567,7 @@ strings
 .
 *
 *
-draft
+stable
 ICU
 76
 *
@@ -12618,7 +12607,7 @@ the
 USet
 .
 *
-draft
+stable
 ICU
 76
 *
@@ -12647,7 +12636,7 @@ pUset
 /
 *
 *
-draft
+stable
 ICU
 76
 *
@@ -12665,7 +12654,7 @@ default
 /
 *
 *
-draft
+stable
 ICU
 76
 *
@@ -12688,7 +12677,7 @@ count
 /
 *
 *
-draft
+stable
 ICU
 76
 *
@@ -12720,11 +12709,6 @@ count
 ;
 }
 ;
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 #
 ifndef
 U_HIDE_DRAFT_API
@@ -13774,16 +13758,16 @@ stringCount
 ;
 }
 ;
-}
-/
-/
-namespace
-U_HEADER_ONLY_NAMESPACE
 #
 endif
 /
 /
 U_HIDE_DRAFT_API
+}
+/
+/
+namespace
+U_HEADER_ONLY_NAMESPACE
 #
 endif
 /

@@ -2612,7 +2612,7 @@ endif
 *
 /
 class
-U_COMMON_API
+U_COMMON_API_CLASS
 ICULocaleService
 :
 public
@@ -2638,6 +2638,7 @@ ICULocaleService
 .
 *
 /
+U_COMMON_API
 ICULocaleService
 (
 )
@@ -2660,6 +2661,7 @@ debugging
 .
 *
 /
+U_COMMON_API
 ICULocaleService
 (
 const
@@ -2676,6 +2678,7 @@ Destructor
 .
 *
 /
+U_COMMON_API
 virtual
 ~
 ICULocaleService
@@ -2811,6 +2814,7 @@ actualReturn
 .
 *
 /
+U_COMMON_API
 UObject
 *
 get
@@ -2854,6 +2858,7 @@ actualReturn
 .
 *
 /
+U_COMMON_API
 UObject
 *
 get
@@ -2899,6 +2904,7 @@ kind
 .
 *
 /
+U_COMMON_API
 UObject
 *
 get
@@ -2970,6 +2976,7 @@ Locale
 .
 *
 /
+U_COMMON_API
 UObject
 *
 get
@@ -3026,6 +3033,7 @@ coverage
 .
 *
 /
+U_COMMON_API
 virtual
 URegistryKey
 registerInstance
@@ -3074,6 +3082,7 @@ coverage
 .
 *
 /
+U_COMMON_API
 virtual
 URegistryKey
 registerInstance
@@ -3115,6 +3124,7 @@ factory
 .
 *
 /
+U_COMMON_API
 virtual
 URegistryKey
 registerInstance
@@ -3205,6 +3215,7 @@ overrides
 .
 *
 /
+U_COMMON_API
 virtual
 URegistryKey
 registerInstance
@@ -3246,6 +3257,7 @@ enumeration
 .
 *
 /
+U_COMMON_API
 virtual
 StringEnumeration
 *
@@ -3287,6 +3299,7 @@ cleared
 .
 *
 /
+U_COMMON_API
 const
 UnicodeString
 &
@@ -3306,6 +3319,7 @@ method
 .
 *
 /
+U_COMMON_API
 virtual
 ICUServiceKey
 *
@@ -3335,6 +3349,7 @@ kind
 .
 *
 /
+U_COMMON_API
 virtual
 ICUServiceKey
 *

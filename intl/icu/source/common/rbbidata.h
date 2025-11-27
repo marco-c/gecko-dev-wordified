@@ -1124,7 +1124,6 @@ char
 class
 or
 the
-the
 largest
 category
 number

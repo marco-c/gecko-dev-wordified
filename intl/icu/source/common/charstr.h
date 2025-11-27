@@ -330,50 +330,6 @@ h
 "
 U_NAMESPACE_BEGIN
 /
-/
-Windows
-needs
-us
-to
-DLL
--
-export
-the
-MaybeStackArray
-template
-specialization
-/
-/
-but
-MacOS
-X
-cannot
-handle
-it
-.
-Same
-as
-in
-digitlst
-.
-h
-.
-#
-if
-!
-U_PLATFORM_IS_DARWIN_BASED
-template
-class
-U_COMMON_API
-MaybeStackArray
-<
-char
-40
->
-;
-#
-endif
-/
 *
 *
 *
@@ -488,7 +444,7 @@ a
 *
 /
 class
-U_COMMON_API
+U_COMMON_API_CLASS
 CharString
 :
 public
@@ -496,6 +452,7 @@ UMemory
 {
 public
 :
+U_COMMON_API
 CharString
 (
 )
@@ -513,6 +470,7 @@ buffer
 0
 ;
 }
+U_COMMON_API
 CharString
 (
 StringPiece
@@ -541,6 +499,7 @@ errorCode
 )
 ;
 }
+U_COMMON_API
 CharString
 (
 const
@@ -571,6 +530,7 @@ errorCode
 )
 ;
 }
+U_COMMON_API
 CharString
 (
 const
@@ -604,6 +564,7 @@ errorCode
 )
 ;
 }
+U_COMMON_API
 ~
 CharString
 (
@@ -643,6 +604,7 @@ had
 .
 *
 /
+U_COMMON_API
 CharString
 (
 CharString
@@ -701,6 +663,7 @@ object
 .
 *
 /
+U_COMMON_API
 CharString
 &
 operator
@@ -764,6 +727,7 @@ needed
 .
 *
 /
+U_COMMON_API
 CharString
 &
 copyFrom
@@ -777,6 +741,7 @@ UErrorCode
 errorCode
 )
 ;
+U_COMMON_API
 CharString
 &
 copyFrom
@@ -788,6 +753,7 @@ UErrorCode
 errorCode
 )
 ;
+U_COMMON_API
 UBool
 isEmpty
 (
@@ -801,6 +767,7 @@ len
 0
 ;
 }
+U_COMMON_API
 int32_t
 length
 (
@@ -811,6 +778,7 @@ return
 len
 ;
 }
+U_COMMON_API
 char
 operator
 [
@@ -828,6 +796,7 @@ index
 ]
 ;
 }
+U_COMMON_API
 StringPiece
 toStringPiece
 (
@@ -846,6 +815,7 @@ len
 )
 ;
 }
+U_COMMON_API
 const
 char
 *
@@ -862,6 +832,7 @@ getAlias
 )
 ;
 }
+U_COMMON_API
 char
 *
 data
@@ -909,6 +880,7 @@ result
 .
 *
 /
+U_COMMON_API
 char
 *
 cloneData
@@ -1051,6 +1023,7 @@ length
 )
 *
 /
+U_COMMON_API
 int32_t
 extract
 (
@@ -1065,6 +1038,7 @@ errorCode
 )
 const
 ;
+U_COMMON_API
 bool
 operator
 =
@@ -1113,6 +1087,7 @@ len
 )
 ;
 }
+U_COMMON_API
 bool
 operator
 !
@@ -1135,6 +1110,7 @@ other
 )
 ;
 }
+U_COMMON_API
 bool
 operator
 =
@@ -1181,6 +1157,7 @@ len
 )
 ;
 }
+U_COMMON_API
 bool
 operator
 !
@@ -1221,6 +1198,7 @@ this
 string
 *
 /
+U_COMMON_API
 int32_t
 lastIndexOf
 (
@@ -1229,6 +1207,7 @@ c
 )
 const
 ;
+U_COMMON_API
 bool
 contains
 (
@@ -1237,6 +1216,7 @@ s
 )
 const
 ;
+U_COMMON_API
 CharString
 &
 clear
@@ -1259,6 +1239,7 @@ return
 this
 ;
 }
+U_COMMON_API
 CharString
 &
 truncate
@@ -1267,6 +1248,7 @@ int32_t
 newLength
 )
 ;
+U_COMMON_API
 CharString
 &
 append
@@ -1278,6 +1260,7 @@ UErrorCode
 errorCode
 )
 ;
+U_COMMON_API
 CharString
 &
 append
@@ -1306,6 +1289,7 @@ errorCode
 )
 ;
 }
+U_COMMON_API
 CharString
 &
 append
@@ -1336,6 +1320,7 @@ errorCode
 )
 ;
 }
+U_COMMON_API
 CharString
 &
 append
@@ -1351,6 +1336,7 @@ UErrorCode
 status
 )
 ;
+U_COMMON_API
 CharString
 &
 appendNumber
@@ -1532,6 +1518,7 @@ resultCapacity
 min_capacity
 *
 /
+U_COMMON_API
 char
 *
 getAppendBuffer
@@ -1548,6 +1535,7 @@ UErrorCode
 errorCode
 )
 ;
+U_COMMON_API
 CharString
 &
 appendInvariantChars
@@ -1561,6 +1549,7 @@ UErrorCode
 errorCode
 )
 ;
+U_COMMON_API
 CharString
 &
 appendInvariantChars
@@ -1614,6 +1603,7 @@ empty
 .
 *
 /
+U_COMMON_API
 CharString
 &
 appendPathPart
@@ -1654,6 +1644,7 @@ U_FILE_ALT_SEP_CHAR
 .
 *
 /
+U_COMMON_API
 CharString
 &
 ensureEndsWithFileSeparator

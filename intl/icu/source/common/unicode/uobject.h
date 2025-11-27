@@ -1308,9 +1308,6 @@ p
 )
 noexcept
 ;
-#
-if
-U_HAVE_PLACEMENT_NEW
 /
 *
 *
@@ -1403,13 +1400,6 @@ void
 noexcept
 {
 }
-#
-endif
-/
-*
-U_HAVE_PLACEMENT_NEW
-*
-/
 #
 if
 U_HAVE_DEBUG_LOCATION_NEW

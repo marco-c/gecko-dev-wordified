@@ -3979,6 +3979,9 @@ i
 )
 ;
 \
+U_FALLTHROUGH
+;
+\
 case
 2
 :
@@ -4010,6 +4013,9 @@ i
 &
 0x3f
 )
+;
+\
+U_FALLTHROUGH
 ;
 \
 case

@@ -2351,7 +2351,7 @@ ICU
 8
 *
 /
-U_EXPORT
+U_COMMON_API
 UBool
 U_EXPORT2
 operator

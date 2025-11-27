@@ -508,6 +508,12 @@ config
 use_pool_bundle
         
 [
+DepTarget
+(
+"
+cnvalias
+"
+)
 ]
 )
     
@@ -533,6 +539,12 @@ config
 use_pool_bundle
         
 [
+DepTarget
+(
+"
+cnvalias
+"
+)
 ]
 )
     
@@ -558,6 +570,12 @@ config
 use_pool_bundle
         
 [
+DepTarget
+(
+"
+cnvalias
+"
+)
 ]
 )
     
@@ -583,6 +601,12 @@ config
 use_pool_bundle
         
 [
+DepTarget
+(
+"
+cnvalias
+"
+)
 ]
 )
     
@@ -608,6 +632,12 @@ config
 use_pool_bundle
         
 [
+DepTarget
+(
+"
+cnvalias
+"
+)
 ]
 )
     
@@ -633,6 +663,12 @@ config
 use_pool_bundle
         
 [
+DepTarget
+(
+"
+cnvalias
+"
+)
 ]
 )
     
@@ -728,6 +764,12 @@ UCARules
 txt
 "
 )
+DepTarget
+(
+"
+cnvalias
+"
+)
 ]
 )
     
@@ -774,6 +816,12 @@ DepTarget
 dictionaries
 "
 )
+DepTarget
+(
+"
+cnvalias
+"
+)
 ]
 )
     
@@ -808,6 +856,12 @@ rbnf
 False
         
 [
+DepTarget
+(
+"
+cnvalias
+"
+)
 ]
 )
     
@@ -1036,12 +1090,6 @@ confusables
 dep_targets
 =
 [
-DepTarget
-(
-"
-cnvalias
-"
-)
 ]
             
 input_files
@@ -3012,10 +3060,6 @@ cnvalias
 "
 )
 ]
-#
-ICU
--
-21175
             
 input_files
 =
@@ -3159,6 +3203,12 @@ curr_supplemental
 dep_targets
 =
 [
+DepTarget
+(
+"
+cnvalias
+"
+)
 ]
             
 input_files
@@ -3301,6 +3351,12 @@ zone_supplemental
 dep_targets
 =
 [
+DepTarget
+(
+"
+cnvalias
+"
+)
 ]
             
 input_files
@@ -3453,6 +3509,18 @@ dep_files
 set
 (
 input_files
+)
+    
+dep_files
+.
+add
+(
+DepTarget
+(
+"
+cnvalias
+"
+)
 )
     
 dep_files
@@ -3713,6 +3781,12 @@ brkitr_lstm
 dep_targets
 =
 [
+DepTarget
+(
+"
+cnvalias
+"
+)
 ]
             
 input_files
@@ -3897,6 +3971,12 @@ brkitr_adaboost
 dep_targets
 =
 [
+DepTarget
+(
+"
+cnvalias
+"
+)
 ]
             
 input_files
@@ -4789,6 +4869,17 @@ index_file_target_name
 category
 =
 category
+            
+dep_targets
+=
+[
+DepTarget
+(
+"
+cnvalias
+"
+)
+]
             
 installed_files
 =

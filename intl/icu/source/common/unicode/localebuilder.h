@@ -107,7 +107,7 @@ Locale
 /
 U_NAMESPACE_BEGIN
 class
-CharString
+FixedString
 ;
 /
 *
@@ -2274,7 +2274,7 @@ region_
 4
 ]
 ;
-CharString
+FixedString
 *
 variant_
 ;
@@ -2290,7 +2290,7 @@ not
 #
 include
 internal
-charstr
+fixedstring
 .
 h
 .

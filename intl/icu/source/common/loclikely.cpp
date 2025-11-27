@@ -3125,7 +3125,6 @@ index
 /
 /
 the
-the
 bigmap
 in
 map

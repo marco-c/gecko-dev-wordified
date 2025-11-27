@@ -8265,6 +8265,15 @@ dataMemory
 .
 map
 ;
+pEntryData
+-
+>
+length
+=
+dataMemory
+.
+length
+;
 #
 ifdef
 UDATA_DEBUG

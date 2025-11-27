@@ -456,7 +456,7 @@ char
 oldID
 )
 ;
-U_EXPORT
+U_COMMON_API
 std
 :
 :
@@ -476,7 +476,7 @@ string_view
 keyword
 )
 ;
-U_EXPORT
+U_COMMON_API
 std
 :
 :
@@ -501,7 +501,7 @@ string_view
 value
 )
 ;
-U_EXPORT
+U_COMMON_API
 std
 :
 :
@@ -521,7 +521,7 @@ string_view
 keyword
 )
 ;
-U_EXPORT
+U_COMMON_API
 std
 :
 :
@@ -546,7 +546,7 @@ string_view
 value
 )
 ;
-U_EXPORT
+U_COMMON_API
 icu
 :
 :
@@ -567,7 +567,7 @@ UErrorCode
 status
 )
 ;
-U_EXPORT
+U_COMMON_API
 void
 ulocimp_getKeywords
 (
@@ -591,7 +591,7 @@ UErrorCode
 status
 )
 ;
-U_EXPORT
+U_COMMON_API
 icu
 :
 :
@@ -608,7 +608,7 @@ UErrorCode
 err
 )
 ;
-U_EXPORT
+U_COMMON_API
 void
 ulocimp_getName
 (
@@ -628,7 +628,7 @@ UErrorCode
 err
 )
 ;
-U_EXPORT
+U_COMMON_API
 icu
 :
 :
@@ -645,7 +645,7 @@ UErrorCode
 err
 )
 ;
-U_EXPORT
+U_COMMON_API
 void
 ulocimp_getBaseName
 (
@@ -665,7 +665,7 @@ UErrorCode
 err
 )
 ;
-U_EXPORT
+U_COMMON_API
 icu
 :
 :
@@ -682,7 +682,7 @@ UErrorCode
 err
 )
 ;
-U_EXPORT
+U_COMMON_API
 void
 ulocimp_canonicalize
 (
@@ -702,7 +702,7 @@ UErrorCode
 err
 )
 ;
-U_EXPORT
+U_COMMON_API
 icu
 :
 :
@@ -723,7 +723,7 @@ UErrorCode
 status
 )
 ;
-U_EXPORT
+U_COMMON_API
 void
 ulocimp_getKeywordValue
 (
@@ -747,7 +747,7 @@ UErrorCode
 status
 )
 ;
-U_EXPORT
+U_COMMON_API
 icu
 :
 :
@@ -764,7 +764,7 @@ UErrorCode
 status
 )
 ;
-U_EXPORT
+U_COMMON_API
 icu
 :
 :
@@ -781,7 +781,7 @@ UErrorCode
 status
 )
 ;
-U_EXPORT
+U_COMMON_API
 icu
 :
 :
@@ -798,7 +798,7 @@ UErrorCode
 status
 )
 ;
-U_EXPORT
+U_COMMON_API
 icu
 :
 :
@@ -815,7 +815,7 @@ UErrorCode
 status
 )
 ;
-U_EXPORT
+U_COMMON_API
 void
 ulocimp_setKeywordValue
 (
@@ -840,7 +840,7 @@ UErrorCode
 status
 )
 ;
-U_EXPORT
+U_COMMON_API
 int32_t
 ulocimp_setKeywordValue
 (
@@ -870,7 +870,7 @@ UErrorCode
 status
 )
 ;
-U_EXPORT
+U_COMMON_API
 void
 ulocimp_getSubtags
 (
@@ -913,7 +913,7 @@ UErrorCode
 status
 )
 ;
-U_EXPORT
+U_COMMON_API
 void
 ulocimp_getSubtags
 (
@@ -1043,7 +1043,7 @@ status
 )
 ;
 }
-U_EXPORT
+U_COMMON_API
 icu
 :
 :
@@ -1059,7 +1059,7 @@ UErrorCode
 err
 )
 ;
-U_EXPORT
+U_COMMON_API
 void
 ulocimp_getParent
 (
@@ -1078,7 +1078,7 @@ UErrorCode
 err
 )
 ;
-U_EXPORT
+U_COMMON_API
 icu
 :
 :
@@ -1244,7 +1244,7 @@ ICU
 64
 *
 /
-U_EXPORT
+U_COMMON_API
 void
 ulocimp_toLanguageTag
 (
@@ -1265,7 +1265,7 @@ UErrorCode
 err
 )
 ;
-U_EXPORT
+U_COMMON_API
 icu
 :
 :
@@ -1516,7 +1516,7 @@ ICU
 63
 *
 /
-U_EXPORT
+U_COMMON_API
 void
 ulocimp_forLanguageTag
 (
@@ -1695,7 +1695,7 @@ ICU
 57
 *
 /
-U_EXPORT
+U_COMMON_API
 icu
 :
 :
@@ -1713,7 +1713,7 @@ UErrorCode
 status
 )
 ;
-U_EXPORT
+U_COMMON_API
 icu
 :
 :
@@ -1957,7 +1957,7 @@ ICU
 64
 *
 /
-U_EXPORT
+U_COMMON_API
 void
 ulocimp_addLikelySubtags
 (
@@ -1976,7 +1976,7 @@ UErrorCode
 err
 )
 ;
-U_EXPORT
+U_COMMON_API
 icu
 :
 :
@@ -2237,7 +2237,7 @@ ICU
 64
 *
 /
-U_EXPORT
+U_COMMON_API
 void
 ulocimp_minimizeSubtags
 (
@@ -2415,7 +2415,7 @@ char
 localeID
 )
 ;
-U_EXPORT
+U_COMMON_API
 std
 :
 :
@@ -2435,7 +2435,7 @@ string_view
 key
 )
 ;
-U_EXPORT
+U_COMMON_API
 std
 :
 :
@@ -2455,7 +2455,7 @@ string_view
 key
 )
 ;
-U_EXPORT
+U_COMMON_API
 std
 :
 :
@@ -2480,7 +2480,7 @@ string_view
 type
 )
 ;
-U_EXPORT
+U_COMMON_API
 std
 :
 :
@@ -2513,7 +2513,7 @@ testing
 purpose
 *
 /
-U_EXPORT
+U_COMMON_API
 const
 char
 *
@@ -2537,7 +2537,7 @@ is
 already
 canonicalized
 .
-U_EXPORT
+U_COMMON_API
 bool
 ulocimp_isCanonicalizedLocaleForTest
 (

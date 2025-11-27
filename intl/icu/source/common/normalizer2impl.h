@@ -1819,7 +1819,7 @@ html
 *
 /
 class
-U_COMMON_API
+U_COMMON_API_CLASS
 Normalizer2Impl
 :
 public
@@ -1827,6 +1827,7 @@ UObject
 {
 public
 :
+U_COMMON_API
 Normalizer2Impl
 (
 )
@@ -1841,12 +1842,14 @@ nullptr
 )
 {
 }
+U_COMMON_API
 virtual
 ~
 Normalizer2Impl
 (
 )
 ;
+U_COMMON_API
 void
 init
 (
@@ -1868,6 +1871,7 @@ uint8_t
 inSmallFCD
 )
 ;
+U_COMMON_API
 void
 addLcccChars
 (
@@ -1877,6 +1881,7 @@ set
 )
 const
 ;
+U_COMMON_API
 void
 addPropertyStarts
 (
@@ -1890,6 +1895,7 @@ errorCode
 )
 const
 ;
+U_COMMON_API
 void
 addCanonIterPropertyStarts
 (
@@ -1960,6 +1966,7 @@ properties
 *
 *
 *
+U_COMMON_API
 UBool
 ensureCanonIterData
 (
@@ -1993,6 +2000,7 @@ points
 are
 inert
 .
+U_COMMON_API
 uint16_t
 getNorm16
 (
@@ -2023,6 +2031,7 @@ c
 )
 ;
 }
+U_COMMON_API
 uint16_t
 getRawNorm16
 (
@@ -2040,6 +2049,7 @@ c
 )
 ;
 }
+U_COMMON_API
 UNormalizationCheckResult
 getCompQuickCheck
 (
@@ -2085,6 +2095,7 @@ UNORM_NO
 ;
 }
 }
+U_COMMON_API
 UBool
 isAlgorithmicNoNo
 (
@@ -2105,6 +2116,7 @@ norm16
 minMaybeNo
 ;
 }
+U_COMMON_API
 UBool
 isCompNo
 (
@@ -2125,6 +2137,7 @@ norm16
 minMaybeNo
 ;
 }
+U_COMMON_API
 UBool
 isDecompYes
 (
@@ -2145,6 +2158,7 @@ minMaybeYes
 norm16
 ;
 }
+U_COMMON_API
 uint8_t
 getCC
 (
@@ -2192,6 +2206,7 @@ norm16
 )
 ;
 }
+U_COMMON_API
 static
 uint8_t
 getCCFromNormalYesOrMaybe
@@ -2213,6 +2228,7 @@ OFFSET_SHIFT
 )
 ;
 }
+U_COMMON_API
 static
 uint8_t
 getCCFromYesOrMaybeYes
@@ -2235,6 +2251,7 @@ norm16
 0
 ;
 }
+U_COMMON_API
 uint8_t
 getCCFromYesOrMaybeYesCP
 (
@@ -2312,6 +2329,7 @@ bits
 .
 *
 /
+U_COMMON_API
 uint16_t
 getFCD16
 (
@@ -2467,6 +2485,7 @@ bits
 .
 *
 /
+U_COMMON_API
 uint16_t
 nextFCD16
 (
@@ -2624,6 +2643,7 @@ bits
 .
 *
 /
+U_COMMON_API
 uint16_t
 previousFCD16
 (
@@ -2752,6 +2772,7 @@ data
 .
 *
 /
+U_COMMON_API
 UBool
 singleLeadMightHaveNonZeroFCD16
 (
@@ -2827,6 +2848,7 @@ data
 .
 *
 /
+U_COMMON_API
 uint16_t
 getFCD16FromNormData
 (
@@ -2835,6 +2857,7 @@ c
 )
 const
 ;
+U_COMMON_API
 uint16_t
 getFCD16FromMaybeOrNonZeroCC
 (
@@ -2896,6 +2919,7 @@ if
 none
 *
 /
+U_COMMON_API
 const
 char16_t
 *
@@ -2968,6 +2992,7 @@ if
 none
 *
 /
+U_COMMON_API
 const
 char16_t
 *
@@ -2986,6 +3011,7 @@ length
 )
 const
 ;
+U_COMMON_API
 UChar32
 composePair
 (
@@ -2996,6 +3022,7 @@ b
 )
 const
 ;
+U_COMMON_API
 UBool
 isCanonSegmentStarter
 (
@@ -3004,6 +3031,7 @@ c
 )
 const
 ;
+U_COMMON_API
 UBool
 getCanonStartSet
 (
@@ -3428,6 +3456,7 @@ NFD
 Normalizer2
 instance
 .
+U_COMMON_API
 UnicodeString
 &
 decompose
@@ -3489,6 +3518,7 @@ be
 .
 *
 /
+U_COMMON_API
 void
 decompose
 (
@@ -3511,6 +3541,7 @@ errorCode
 )
 const
 ;
+U_COMMON_API
 const
 char16_t
 *
@@ -3533,6 +3564,7 @@ errorCode
 )
 const
 ;
+U_COMMON_API
 void
 decomposeAndAppend
 (
@@ -3575,6 +3607,7 @@ spanQuickCheckYes
 )
 *
 /
+U_COMMON_API
 const
 uint8_t
 *
@@ -3602,6 +3635,7 @@ errorCode
 )
 const
 ;
+U_COMMON_API
 UBool
 compose
 (
@@ -3626,6 +3660,7 @@ errorCode
 )
 const
 ;
+U_COMMON_API
 const
 char16_t
 *
@@ -3647,6 +3682,7 @@ pQCResult
 )
 const
 ;
+U_COMMON_API
 void
 composeAndAppend
 (
@@ -3687,6 +3723,7 @@ isNormalized
 )
 *
 /
+U_COMMON_API
 UBool
 composeUTF8
 (
@@ -3717,6 +3754,7 @@ errorCode
 )
 const
 ;
+U_COMMON_API
 const
 char16_t
 *
@@ -3739,6 +3777,7 @@ errorCode
 )
 const
 ;
+U_COMMON_API
 void
 makeFCDAndAppend
 (
@@ -3764,6 +3803,7 @@ errorCode
 )
 const
 ;
+U_COMMON_API
 UBool
 hasDecompBoundaryBefore
 (
@@ -3772,6 +3812,7 @@ c
 )
 const
 ;
+U_COMMON_API
 UBool
 norm16HasDecompBoundaryBefore
 (
@@ -3780,6 +3821,7 @@ norm16
 )
 const
 ;
+U_COMMON_API
 UBool
 hasDecompBoundaryAfter
 (
@@ -3788,6 +3830,7 @@ c
 )
 const
 ;
+U_COMMON_API
 UBool
 norm16HasDecompBoundaryAfter
 (
@@ -3796,6 +3839,7 @@ norm16
 )
 const
 ;
+U_COMMON_API
 UBool
 isDecompInert
 (
@@ -3814,6 +3858,7 @@ c
 )
 ;
 }
+U_COMMON_API
 UBool
 hasCompBoundaryBefore
 (
@@ -3837,6 +3882,7 @@ c
 )
 ;
 }
+U_COMMON_API
 UBool
 hasCompBoundaryAfter
 (
@@ -3858,6 +3904,7 @@ onlyContiguous
 )
 ;
 }
+U_COMMON_API
 UBool
 isCompInert
 (
@@ -3934,6 +3981,7 @@ tccc
 1
 .
 }
+U_COMMON_API
 UBool
 hasFCDBoundaryBefore
 (
@@ -3949,6 +3997,7 @@ c
 )
 ;
 }
+U_COMMON_API
 UBool
 hasFCDBoundaryAfter
 (
@@ -3964,6 +4013,7 @@ c
 )
 ;
 }
+U_COMMON_API
 UBool
 isFCDInert
 (

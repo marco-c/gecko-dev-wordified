@@ -1441,11 +1441,6 @@ for
 now
 .
 *
-internal
-(
-private
-)
-*
 /
 CanonicalIterator
 (
@@ -1468,11 +1463,6 @@ Private
 for
 now
 .
-*
-internal
-(
-private
-)
 *
 /
 CanonicalIterator

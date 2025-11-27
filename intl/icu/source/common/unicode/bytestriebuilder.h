@@ -1273,16 +1273,6 @@ BytesTrie
 kMaxLinearMatchLength
 ;
 }
-/
-*
-*
-*
-internal
-(
-private
-)
-*
-/
 class
 BTLinearMatchNode
 :

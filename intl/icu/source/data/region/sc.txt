@@ -1630,7 +1630,8 @@ y
 QA
 {
 "
-Catar
+Cat
+r
 "
 }
 QO
@@ -2203,15 +2204,6 @@ Congo
 Rep
 blica
 )
-"
-}
-CI
-{
-"
-C
-te
-d
-Ivoire
 "
 }
 CZ

@@ -4951,7 +4951,7 @@ errorCode
 if
 (
 version
-=
+>
 =
 1
 )

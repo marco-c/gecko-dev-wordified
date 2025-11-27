@@ -5411,7 +5411,6 @@ ICU
 0
 *
 /
-virtual
 bool
 operator
 =
@@ -5602,7 +5601,6 @@ ICU
 0
 *
 /
-virtual
 int32_t
 hashCode
 (
@@ -7794,7 +7792,6 @@ see
 getRangeCount
 *
 /
-virtual
 int32_t
 size
 (
@@ -7847,7 +7844,6 @@ ICU
 0
 *
 /
-virtual
 UBool
 isEmpty
 (
@@ -7998,7 +7994,6 @@ ICU
 0
 *
 /
-virtual
 UBool
 contains
 (
@@ -8123,7 +8118,6 @@ ICU
 4
 *
 /
-virtual
 UBool
 containsAll
 (
@@ -9602,7 +9596,6 @@ ICU
 4
 *
 /
-virtual
 UMatchDegree
 matches
 (
@@ -10283,9 +10276,6 @@ index
 )
 const
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -10382,7 +10372,7 @@ this
 set
 .
 *
-draft
+stable
 ICU
 76
 *
@@ -10580,7 +10570,7 @@ this
 set
 .
 *
-draft
+stable
 ICU
 76
 *
@@ -10774,7 +10764,7 @@ this
 set
 .
 *
-draft
+stable
 ICU
 76
 *
@@ -10813,11 +10803,6 @@ toUSet
 )
 ;
 }
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 #
 ifndef
 U_HIDE_DRAFT_API
@@ -11237,7 +11222,6 @@ ICU
 0
 *
 /
-virtual
 UnicodeSet
 &
 add
@@ -11998,7 +11982,6 @@ ICU
 0
 *
 /
-virtual
 UnicodeSet
 &
 retain
@@ -12251,7 +12234,6 @@ ICU
 0
 *
 /
-virtual
 UnicodeSet
 &
 remove
@@ -12517,7 +12499,6 @@ ICU
 0
 *
 /
-virtual
 UnicodeSet
 &
 complement
@@ -12631,7 +12612,6 @@ ICU
 0
 *
 /
-virtual
 UnicodeSet
 &
 complement
@@ -12910,7 +12890,6 @@ ICU
 0
 *
 /
-virtual
 UnicodeSet
 &
 addAll
@@ -13020,7 +12999,6 @@ ICU
 0
 *
 /
-virtual
 UnicodeSet
 &
 retainAll
@@ -13115,7 +13093,6 @@ ICU
 0
 *
 /
-virtual
 UnicodeSet
 &
 removeAll
@@ -13207,7 +13184,6 @@ ICU
 4
 *
 /
-virtual
 UnicodeSet
 &
 complementAll
@@ -13259,7 +13235,6 @@ ICU
 0
 *
 /
-virtual
 UnicodeSet
 &
 clear
@@ -13537,7 +13512,6 @@ ICU
 2
 *
 /
-virtual
 UnicodeSet
 &
 removeAllStrings
@@ -13578,7 +13552,6 @@ ICU
 4
 *
 /
-virtual
 int32_t
 getRangeCount
 (
@@ -13621,7 +13594,6 @@ ICU
 4
 *
 /
-virtual
 UChar32
 getRangeStart
 (
@@ -13666,7 +13638,6 @@ ICU
 4
 *
 /
-virtual
 UChar32
 getRangeEnd
 (
@@ -14185,7 +14156,6 @@ ICU
 4
 *
 /
-virtual
 UnicodeSet
 &
 compact

@@ -13251,7 +13251,6 @@ state
 .
 If
 the
-the
 final
 state
 is

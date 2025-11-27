@@ -602,6 +602,12 @@ Klipertono
 sala
 "
 }
+CQ
+{
+"
+Sarkas
+"
+}
 CR
 {
 "
@@ -779,7 +785,7 @@ FK
 {
 "
 Folklando
-Salos
+salos
 "
 }
 FM
@@ -2124,7 +2130,7 @@ Folklando
 (
 Malvin
 )
-Salos
+salos
 "
 }
 }

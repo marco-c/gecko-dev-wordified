@@ -460,7 +460,7 @@ counting
 *
 /
 class
-U_COMMON_API
+U_COMMON_API_CLASS
 SharedObject
 :
 public
@@ -479,6 +479,7 @@ to
 .
 *
 /
+U_COMMON_API
 SharedObject
 (
 )
@@ -508,6 +509,7 @@ to
 .
 *
 /
+U_COMMON_API
 SharedObject
 (
 const
@@ -534,6 +536,7 @@ nullptr
 )
 {
 }
+U_COMMON_API
 virtual
 ~
 SharedObject
@@ -571,6 +574,7 @@ implementation
 .
 *
 /
+U_COMMON_API
 void
 addRef
 (
@@ -627,6 +631,7 @@ implementation
 .
 *
 /
+U_COMMON_API
 void
 removeRef
 (
@@ -655,6 +660,7 @@ barrier
 .
 *
 /
+U_COMMON_API
 int32_t
 getRefCount
 (
@@ -694,6 +700,7 @@ UnifiedCache
 .
 *
 /
+U_COMMON_API
 inline
 UBool
 noHardReferences
@@ -742,6 +749,7 @@ UnifiedCache
 .
 *
 /
+U_COMMON_API
 inline
 UBool
 hasHardReferences
@@ -800,6 +808,7 @@ deletion
 .
 *
 /
+U_COMMON_API
 void
 deleteIfZeroRefCount
 (

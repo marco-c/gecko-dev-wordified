@@ -534,9 +534,6 @@ umisc
 h
 "
 U_NAMESPACE_BEGIN
-class
-CharString
-;
 /
 *
 *
@@ -975,7 +972,7 @@ cpp
 *
 /
 class
-U_COMMON_API
+U_COMMON_API_CLASS
 BreakIterator
 :
 public
@@ -996,6 +993,7 @@ ICU
 0
 *
 /
+U_COMMON_API
 virtual
 ~
 BreakIterator
@@ -1117,6 +1115,7 @@ ICU
 0
 *
 /
+U_COMMON_API
 virtual
 bool
 operator
@@ -1174,6 +1173,7 @@ ICU
 0
 *
 /
+U_COMMON_API
 bool
 operator
 !
@@ -1226,6 +1226,7 @@ ICU
 0
 *
 /
+U_COMMON_API
 virtual
 BreakIterator
 *
@@ -1266,6 +1267,7 @@ ICU
 0
 *
 /
+U_COMMON_API
 virtual
 UClassID
 getDynamicClassID
@@ -1297,6 +1299,7 @@ ICU
 0
 *
 /
+U_COMMON_API
 virtual
 CharacterIterator
 &
@@ -1431,6 +1434,7 @@ ICU
 4
 *
 /
+U_COMMON_API
 virtual
 UText
 *
@@ -1520,6 +1524,7 @@ ICU
 0
 *
 /
+U_COMMON_API
 virtual
 void
 setText
@@ -1698,6 +1703,7 @@ ICU
 4
 *
 /
+U_COMMON_API
 virtual
 void
 setText
@@ -1773,6 +1779,7 @@ ICU
 0
 *
 /
+U_COMMON_API
 virtual
 void
 adoptText
@@ -1868,6 +1875,7 @@ ICU
 0
 *
 /
+U_COMMON_API
 virtual
 int32_t
 first
@@ -1921,6 +1929,7 @@ ICU
 0
 *
 /
+U_COMMON_API
 virtual
 int32_t
 last
@@ -1973,6 +1982,7 @@ ICU
 0
 *
 /
+U_COMMON_API
 virtual
 int32_t
 previous
@@ -2024,6 +2034,7 @@ ICU
 0
 *
 /
+U_COMMON_API
 virtual
 int32_t
 next
@@ -2064,6 +2075,7 @@ ICU
 0
 *
 /
+U_COMMON_API
 virtual
 int32_t
 current
@@ -2133,6 +2145,7 @@ ICU
 0
 *
 /
+U_COMMON_API
 virtual
 int32_t
 following
@@ -2204,6 +2217,7 @@ ICU
 0
 *
 /
+U_COMMON_API
 virtual
 int32_t
 preceding
@@ -2283,6 +2297,7 @@ ICU
 0
 *
 /
+U_COMMON_API
 virtual
 UBool
 isBoundary
@@ -2374,6 +2389,7 @@ ICU
 0
 *
 /
+U_COMMON_API
 virtual
 int32_t
 next
@@ -2474,6 +2490,7 @@ ICU
 52
 *
 /
+U_COMMON_API
 virtual
 int32_t
 getRuleStatus
@@ -2729,6 +2746,7 @@ ICU
 52
 *
 /
+U_COMMON_API
 virtual
 int32_t
 getRuleStatusVec
@@ -2940,6 +2958,7 @@ ICU
 0
 *
 /
+U_COMMON_API
 static
 BreakIterator
 *
@@ -3168,6 +3187,7 @@ ICU
 0
 *
 /
+U_COMMON_API
 static
 BreakIterator
 *
@@ -3376,6 +3396,7 @@ ICU
 0
 *
 /
+U_COMMON_API
 static
 BreakIterator
 *
@@ -3574,6 +3595,7 @@ ICU
 0
 *
 /
+U_COMMON_API
 static
 BreakIterator
 *
@@ -3822,6 +3844,7 @@ instead
 .
 *
 /
+U_COMMON_API
 static
 BreakIterator
 *
@@ -3930,6 +3953,7 @@ ICU
 0
 *
 /
+U_COMMON_API
 static
 const
 Locale
@@ -4009,6 +4033,7 @@ ICU
 0
 *
 /
+U_COMMON_API
 static
 UnicodeString
 &
@@ -4083,6 +4108,7 @@ ICU
 0
 *
 /
+U_COMMON_API
 static
 UnicodeString
 &
@@ -4281,6 +4307,7 @@ instead
 .
 *
 /
+U_COMMON_API
 virtual
 BreakIterator
 *
@@ -4362,6 +4389,7 @@ BreakIterator
 .
 *
 /
+U_COMMON_API
 inline
 UBool
 isBufferClone
@@ -4539,6 +4567,7 @@ ICU
 4
 *
 /
+U_COMMON_API
 static
 URegistryKey
 U_EXPORT2
@@ -4681,6 +4710,7 @@ ICU
 4
 *
 /
+U_COMMON_API
 static
 UBool
 U_EXPORT2
@@ -4737,6 +4767,7 @@ ICU
 4
 *
 /
+U_COMMON_API
 static
 StringEnumeration
 *
@@ -4778,6 +4809,7 @@ ICU
 8
 *
 /
+U_COMMON_API
 Locale
 getLocale
 (
@@ -4846,6 +4878,7 @@ locale
 internal
 *
 /
+U_COMMON_API
 const
 char
 *
@@ -5079,6 +5112,7 @@ ICU
 49
 *
 /
+U_COMMON_API
 virtual
 BreakIterator
 &
@@ -5188,6 +5222,7 @@ ones
 internal
 *
 /
+U_COMMON_API
 BreakIterator
 (
 )
@@ -5198,6 +5233,7 @@ BreakIterator
 internal
 *
 /
+U_COMMON_API
 BreakIterator
 (
 const
@@ -5215,6 +5251,7 @@ U_HIDE_INTERNAL_API
 internal
 *
 /
+U_COMMON_API
 BreakIterator
 (
 const
@@ -5240,6 +5277,7 @@ RuleBasedBreakIterator
 .
 *
 /
+U_COMMON_API
 BreakIterator
 &
 operator
@@ -5260,32 +5298,14 @@ U_HIDE_INTERNAL_API
 /
 private
 :
-/
-*
-*
-internal
-(
-private
-)
-*
-/
-CharString
-*
+Locale
 actualLocale
-=
-nullptr
 ;
-CharString
-*
+Locale
 validLocale
-=
-nullptr
 ;
-CharString
-*
+Locale
 requestLocale
-=
-nullptr
 ;
 }
 ;

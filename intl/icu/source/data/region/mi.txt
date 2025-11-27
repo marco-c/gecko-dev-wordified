@@ -455,7 +455,7 @@ BA
 "
 P
 ngia
--
+&
 Herek
 wini
 "
@@ -702,6 +702,13 @@ CP
 Te
 Moutere
 Kiripetone
+"
+}
+CQ
+{
+"
+H
+ka
 "
 }
 CR

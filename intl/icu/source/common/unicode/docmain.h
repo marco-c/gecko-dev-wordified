@@ -981,6 +981,14 @@ icu
 :
 :
 UnicodeString
+utfiterator
+.
+h
+(
+ICU
+78
++
+)
 icu
 :
 :
@@ -989,6 +997,10 @@ icu
 :
 :
 Appendable
+<
+br
+>
+*
 icu
 :
 :
@@ -1834,6 +1846,7 @@ versions
 <
 br
 >
+*
 icu
 :
 :
