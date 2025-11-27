@@ -2538,17 +2538,6 @@ ContinueOnStartRequest3
 nsresult
 )
 ;
-[
-[
-nodiscard
-]
-]
-nsresult
-ContinueOnStartRequest4
-(
-nsresult
-)
-;
 void
 OnClassOfServiceUpdated
 (
