@@ -354,6 +354,16 @@ CSSStyleValue
 Web
 IDL
 declarations
+ValueType
+GetValueType
+(
+)
+const
+{
+return
+mValueType
+;
+}
 bool
 IsCSSUnsupportedValue
 (
