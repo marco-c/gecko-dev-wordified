@@ -5961,7 +5961,7 @@ device
 .
 limits
 .
-maxSamplersPerShaderStage
+maxStorageBuffersPerShaderStage
 }
 which
 is

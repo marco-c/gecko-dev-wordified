@@ -172,6 +172,7 @@ getTextureFormatTypeInfo
 isBuiltinComparison
 isBuiltinGather
 isFillable
+swizzleTexel
 }
 from
 '
@@ -270,7 +271,6 @@ js
 import
 {
 kSwizzleTests
-swizzleTexel
 }
 from
 '
