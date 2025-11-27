@@ -4325,7 +4325,7 @@ section
 of
 mochitest
 .
-ini
+toml
 .
 "
 )

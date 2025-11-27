@@ -103,7 +103,7 @@ file
 in
 xpcshell
 .
-ini
+toml
 "
 )
 ;

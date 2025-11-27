@@ -3029,7 +3029,7 @@ Write
 an
 xpcshell
 .
-ini
+toml
 in
 the
 temp

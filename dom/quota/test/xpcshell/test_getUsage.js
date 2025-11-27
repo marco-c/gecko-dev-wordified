@@ -499,7 +499,7 @@ added
 to
 xpcshell
 .
-ini
+toml
 and
 then
 executed

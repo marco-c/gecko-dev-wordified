@@ -1219,7 +1219,7 @@ loaded
 via
 xpcshell
 .
-ini
+toml
 '
 s
 head
@@ -1889,7 +1889,7 @@ line
 in
 browser
 .
-ini
+toml
 :
 \
 n

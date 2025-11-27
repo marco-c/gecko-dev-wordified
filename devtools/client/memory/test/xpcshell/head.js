@@ -37,7 +37,7 @@ strict
 via
 xpcshell
 .
-ini
+toml
 /
 *
 import

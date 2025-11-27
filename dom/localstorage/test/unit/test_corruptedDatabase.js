@@ -127,13 +127,13 @@ info
 (
 "
 Resetting
-origin
+client
 "
 )
 ;
 request
 =
-resetOrigin
+resetClient
 (
 principal
 )
@@ -319,7 +319,7 @@ added
 to
 xpcshell
 .
-ini
+toml
 and
 then
 executed

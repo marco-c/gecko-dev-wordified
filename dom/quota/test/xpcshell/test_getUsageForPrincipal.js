@@ -273,7 +273,7 @@ enabled
 in
 xpcshell
 .
-ini
+toml
 and
 then
 executed

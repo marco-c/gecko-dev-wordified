@@ -148,7 +148,7 @@ with
 -
 prefs
 .
-ini
+toml
 function
 has_pref_from_manifest_defaults
 (
@@ -179,7 +179,7 @@ set
 in
 xpcshell
 .
-ini
+toml
 and
 xpcshell
 -
@@ -187,7 +187,7 @@ with
 -
 prefs
 .
-ini
+toml
 function
 has_pref_from_manifest_file_section
 (
@@ -256,7 +256,7 @@ with
 -
 prefs
 .
-ini
+toml
 "
 )
 ;
@@ -298,7 +298,7 @@ has_pref_from_manifest_defaults
 "
 xpcshell
 .
-ini
+toml
 did
 not
 set

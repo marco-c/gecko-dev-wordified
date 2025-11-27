@@ -123,7 +123,7 @@ activated
 in
 xpcshell
 .
-ini
+toml
 and
 then
 it

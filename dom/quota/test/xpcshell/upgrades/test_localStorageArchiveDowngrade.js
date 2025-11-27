@@ -302,7 +302,7 @@ added
 to
 xpcshell
 .
-ini
+toml
 /
 /
 and
