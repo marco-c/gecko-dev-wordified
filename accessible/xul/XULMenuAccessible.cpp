@@ -1087,7 +1087,7 @@ ENameValueFlag
 XULMenuitemAccessible
 :
 :
-DirectName
+Name
 (
 nsString
 &
@@ -1101,7 +1101,7 @@ flag
 AccessibleWrap
 :
 :
-DirectName
+Name
 (
 aName
 )

@@ -448,7 +448,7 @@ ENameValueFlag
 ApplicationAccessibleWrap
 :
 :
-DirectName
+Name
 (
 nsString
 &
