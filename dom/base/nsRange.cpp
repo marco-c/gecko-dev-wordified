@@ -226,15 +226,6 @@ include
 "
 mozilla
 /
-UniquePtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 CharacterData
@@ -21972,7 +21963,6 @@ frame
 >
 IsSelectable
 (
-nullptr
 )
 ;
 }
