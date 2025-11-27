@@ -1274,7 +1274,7 @@ self
 .
 logger
 .
-warn
+warning
 (
 "
 Max
