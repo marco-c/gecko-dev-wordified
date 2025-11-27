@@ -578,16 +578,6 @@ decision
 get_repository
 "
 )
-patch
-(
-"
-gecko_taskgraph
-.
-decision
-.
-get_changed_files
-"
-)
 pytest
 .
 mark
@@ -898,8 +888,6 @@ def
 test_get_decision_parameters
 (
     
-mock_get_changed_files
-    
 mock_get_repository
     
 mock_get_hg_revision_branch
@@ -961,13 +949,9 @@ commit
 message
 "
     
-mock_get_repository
-.
-return_value
-=
 mock_repo
-    
-mock_get_changed_files
+.
+get_outgoing_files
 .
 return_value
 =
@@ -985,6 +969,33 @@ baz
 md
 "
 ]
+    
+mock_repo
+.
+get_changed_files
+.
+return_value
+=
+[
+"
+foo
+.
+txt
+"
+"
+bar
+/
+baz
+.
+md
+"
+]
+    
+mock_get_repository
+.
+return_value
+=
+mock_repo
     
 options
 .
