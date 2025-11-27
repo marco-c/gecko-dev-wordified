@@ -8689,12 +8689,6 @@ indirectly
 recursive
 call
 .
-const
-uint32_t
-maxInliningDepth
-=
-8
-;
 if
 (
 !
@@ -8713,7 +8707,10 @@ depth
 (
 )
 >
-maxInliningDepth
+InlineScriptTree
+:
+:
+MaxDepth
 )
 {
 return
