@@ -3172,15 +3172,6 @@ FuseIndex
 :
 OptimizeRegExpPrototypeFuse
 :
-case
-RealmFuses
-:
-:
-FuseIndex
-:
-:
-OptimizeStringPrototypeSymbolsFuse
-:
 /
 /
 This
