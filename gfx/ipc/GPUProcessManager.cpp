@@ -8671,7 +8671,7 @@ PAPZInputBridge
 :
 CreateEndpoints
 (
-mGPUChild
+child
 -
 >
 OtherEndpointProcInfo
@@ -8704,12 +8704,11 @@ return
 nullptr
 ;
 }
-mGPUChild
+child
 -
 >
 SendInitAPZInputBridge
 (
-aRootLayerTreeId
 std
 :
 :
@@ -8800,7 +8799,7 @@ PUiCompositorController
 :
 CreateEndpoints
 (
-mGPUChild
+child
 -
 >
 OtherEndpointProcInfo
@@ -8833,12 +8832,11 @@ return
 nullptr
 ;
 }
-mGPUChild
+child
 -
 >
 SendInitUiCompositorController
 (
-aRootLayerTreeId
 std
 :
 :
