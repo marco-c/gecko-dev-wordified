@@ -981,11 +981,11 @@ is
 received
 as
 a
-bytecode
+serialized
+stencil
 from
 the
 channel
-.
 /
 /
 mSRIAndBytecode
@@ -994,17 +994,18 @@ the
 SRI
 and
 the
-bytecode
+serialized
+stencil
 and
 mStencil
+/
+/
 holds
 the
-/
-/
 decoded
 stencil
 .
-eBytecode
+eSerializedStencil
 /
 /
 This
@@ -1158,7 +1159,7 @@ IsTextSource
 ;
 }
 bool
-IsBytecode
+IsSerializedStencil
 (
 )
 const
@@ -1170,7 +1171,7 @@ mDataType
 DataType
 :
 :
-eBytecode
+eSerializedStencil
 ;
 }
 bool
@@ -1247,7 +1248,7 @@ Utf8Unit
 ;
 }
 void
-SetBytecode
+SetSerializedStencil
 (
 )
 {
@@ -1263,7 +1264,7 @@ mDataType
 DataType
 :
 :
-eBytecode
+eSerializedStencil
 ;
 }
 void
@@ -1583,7 +1584,7 @@ CanHaveBytecode
 const
 {
 return
-IsBytecode
+IsSerializedStencil
 (
 )
 |
@@ -1661,7 +1662,7 @@ const
 {
 MOZ_ASSERT
 (
-IsBytecode
+IsSerializedStencil
 (
 )
 )
@@ -3142,7 +3143,7 @@ IsSource
 ;
 }
 bool
-IsBytecode
+IsSerializedStencil
 (
 )
 const
@@ -3153,7 +3154,7 @@ GetLoadedScript
 )
 -
 >
-IsBytecode
+IsSerializedStencil
 (
 )
 ;
@@ -3210,7 +3211,7 @@ maybeLoadContext
 ;
 }
 void
-SetBytecode
+SetSerializedStencil
 (
 )
 {
@@ -3219,7 +3220,7 @@ GetLoadedScript
 )
 -
 >
-SetBytecode
+SetSerializedStencil
 (
 )
 ;

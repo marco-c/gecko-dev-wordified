@@ -1096,7 +1096,7 @@ if
 mRequest
 -
 >
-IsBytecode
+IsSerializedStencil
 (
 )
 &
@@ -1259,7 +1259,7 @@ MOZ_ASSERT
 mRequest
 -
 >
-IsBytecode
+IsSerializedStencil
 (
 )
 )
@@ -1948,6 +1948,14 @@ mSRIDataVerifier
 mSRIDataVerifier
 -
 >
+IsInvalid
+(
+)
+|
+|
+mSRIDataVerifier
+-
+>
 IsComplete
 (
 )
@@ -2268,7 +2276,7 @@ mRequest
 mRequest
 -
 >
-SetBytecode
+SetSerializedStencil
 (
 )
 ;
@@ -2574,7 +2582,7 @@ if
 mRequest
 -
 >
-IsBytecode
+IsSerializedStencil
 (
 )
 &
@@ -2759,7 +2767,7 @@ MOZ_ASSERT
 mRequest
 -
 >
-IsBytecode
+IsSerializedStencil
 (
 )
 )

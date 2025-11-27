@@ -2395,7 +2395,7 @@ MOZ_ASSERT
 aRequest
 -
 >
-IsBytecode
+IsSerializedStencil
 (
 )
 )
