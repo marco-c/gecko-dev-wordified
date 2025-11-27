@@ -1934,7 +1934,7 @@ empty
 ;
 }
 void
-DropBytecode
+DropSRIOrSRIAndSerializedStencil
 (
 )
 {
@@ -3788,7 +3788,7 @@ sriLength
 ;
 }
 void
-DropBytecode
+DropSRIOrSRIAndSerializedStencil
 (
 )
 {
@@ -3797,7 +3797,7 @@ GetLoadedScript
 )
 -
 >
-DropBytecode
+DropSRIOrSRIAndSerializedStencil
 (
 )
 ;

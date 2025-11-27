@@ -2166,7 +2166,7 @@ item
 mLoadedScript
 -
 >
-DropBytecode
+DropSRIOrSRIAndSerializedStencil
 (
 )
 ;
@@ -2216,7 +2216,7 @@ item
 mLoadedScript
 -
 >
-DropBytecode
+DropSRIOrSRIAndSerializedStencil
 (
 )
 ;
@@ -2247,7 +2247,7 @@ item
 mLoadedScript
 -
 >
-DropBytecode
+DropSRIOrSRIAndSerializedStencil
 (
 )
 ;

@@ -4291,7 +4291,7 @@ aRequest
 aRequest
 -
 >
-DropBytecode
+DropSRIOrSRIAndSerializedStencil
 (
 )
 ;
@@ -17503,7 +17503,7 @@ buffer
 aRequest
 -
 >
-DropBytecode
+DropSRIOrSRIAndSerializedStencil
 (
 )
 ;
@@ -24991,7 +24991,7 @@ DropDiskCacheReference
 loadedScript
 -
 >
-DropBytecode
+DropSRIOrSRIAndSerializedStencil
 (
 )
 ;
@@ -25028,7 +25028,7 @@ DropDiskCacheReference
 loadedScript
 -
 >
-DropBytecode
+DropSRIOrSRIAndSerializedStencil
 (
 )
 ;
@@ -25055,7 +25055,7 @@ DropDiskCacheReference
 loadedScript
 -
 >
-DropBytecode
+DropSRIOrSRIAndSerializedStencil
 (
 )
 ;
@@ -25823,7 +25823,7 @@ DropDiskCacheReference
 loadedScript
 -
 >
-DropBytecode
+DropSRIOrSRIAndSerializedStencil
 (
 )
 ;
