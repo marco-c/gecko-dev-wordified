@@ -720,6 +720,11 @@ nsBaseChannel
 h
 "
 "
+nsBaseParentChannel
+.
+h
+"
+"
 nsFileStreams
 .
 h
@@ -1037,6 +1042,11 @@ cpp
 "
 "
 nsBaseContentStream
+.
+cpp
+"
+"
+nsBaseParentChannel
 .
 cpp
 "
