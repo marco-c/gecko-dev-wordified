@@ -30701,6 +30701,14 @@ true
 ;
 }
 return
+StaticPrefs
+:
+:
+apz_async_scroll_css_anchor_pos_AtStartup
+(
+)
+&
+&
 aFrame
 -
 >
