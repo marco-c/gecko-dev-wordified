@@ -1311,9 +1311,13 @@ load
 (
 fh
 )
-[
+.
+get
+(
 suite_name
-]
+{
+}
+)
 def
 chunk_manifests
 (
