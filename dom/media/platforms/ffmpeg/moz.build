@@ -123,6 +123,9 @@ ffmpeg60
 "
 ffmpeg61
 "
+"
+ffmpeg62
+"
 ]
 UNIFIED_SOURCES
 +
