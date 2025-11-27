@@ -1515,7 +1515,7 @@ class
 ViewTransition
 ;
 class
-ViewTransitionUpdateCallback
+ViewTransitionUpdateCallbackOrStartViewTransitionOptions
 ;
 class
 WakeLockSentinel
@@ -25661,13 +25661,7 @@ ViewTransition
 StartViewTransition
 (
 const
-Optional
-<
-OwningNonNull
-<
-ViewTransitionUpdateCallback
->
->
+ViewTransitionUpdateCallbackOrStartViewTransitionOptions
 &
 )
 ;
