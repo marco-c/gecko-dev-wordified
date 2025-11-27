@@ -360,6 +360,14 @@ id
 "
 test
 "
+aria
+-
+label
+=
+"
+test
+me
+"
 >
 <
 p
@@ -395,8 +403,6 @@ verifyAttributeCachedNoRetry
 (
 acc
 "
-explicit
--
 name
 "
 )
