@@ -118,7 +118,7 @@ android
 '
 &
 &
-debug
+asan
 "
 #
 Bug
@@ -144,7 +144,7 @@ os_version
 '
 &
 &
-debug
+ccov
 "
 #
 Bug
@@ -299,6 +299,16 @@ os
 '
 linux
 '
+&
+&
+os_version
+=
+=
+'
+22
+.
+04
+'
 "
 #
 Bug
@@ -314,4 +324,12 @@ mac
 #
 Bug
 111
+"
+os
+=
+=
+'
+win
+'
+"
 ]

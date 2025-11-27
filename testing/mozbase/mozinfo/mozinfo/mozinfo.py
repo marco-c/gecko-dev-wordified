@@ -273,6 +273,9 @@ MOZ_AUTOMATION
 False
 )
 )
+#
+noqa
+PLW1508
 }
 (
 system
@@ -399,22 +402,20 @@ getwindowsversion
     
 version
 =
+f
 "
-%
-d
-.
-%
-d
-.
-%
-d
-"
-%
-(
+{
 major
+}
+.
+{
 minor
+}
+.
+{
 build_number
-)
+}
+"
     
 if
 major
@@ -470,14 +471,11 @@ see
     
 if
 build_number
-=
-=
+in
+[
 22621
-or
-build_number
-=
-=
 19045
+]
 :
         
 build_number
@@ -486,18 +484,16 @@ build_number
     
 os_version
 =
+f
 "
-%
-d
-.
-%
-d
-"
-%
-(
+{
 major
+}
+.
+{
 build_number
-)
+}
+"
 elif
 system
 .
@@ -607,17 +603,15 @@ release
     
 version
 =
+f
 "
-%
-s
-%
-s
-"
-%
-(
+{
 distribution
+}
+{
 os_version
-)
+}
+"
     
 if
 os
@@ -749,14 +743,14 @@ mac_ver
     
 version
 =
+f
 "
 OS
 X
-%
-s
-"
-%
+{
 release
+}
+"
     
 versionNums
 =
@@ -775,19 +769,16 @@ split
     
 os_version
 =
+f
 "
-%
-s
-.
-%
-s
-"
-%
-(
+{
 versionNums
 [
 0
 ]
+}
+.
+{
 versionNums
 [
 1
@@ -796,11 +787,12 @@ versionNums
 ljust
 (
 2
-"
+'
 0
+'
+)
+}
 "
-)
-)
     
 info
 [
@@ -1355,13 +1347,16 @@ os
 :
 [
 "
+android
+"
+"
 linux
 "
 "
-win
-"
-"
 mac
+"
+"
+win
 "
 ]
     
@@ -1525,6 +1520,20 @@ bits
 ]
 =
 32
+    
+info
+[
+"
+arch
+"
+]
+=
+info
+[
+"
+processor
+"
+]
 #
 method
 for
@@ -2243,14 +2252,14 @@ parser
 add_option
 (
             
+f
 "
 -
 -
-%
-s
-"
-%
+{
 key
+}
+"
             
 dest
 =
@@ -2268,15 +2277,15 @@ False
             
 help
 =
+f
 "
 display
 choices
 for
-%
-s
-"
-%
+{
 key
+}
+"
         
 )
     
@@ -2387,20 +2396,16 @@ True
 print
 (
                 
+f
 "
-%
-s
+{
+key
+}
 choices
 :
-%
-s
-"
-                
-%
-(
-key
-"
-"
+{
+'
+'
 .
 join
 (
@@ -2418,7 +2423,8 @@ key
 ]
 ]
 )
-)
+}
+"
             
 )
             
@@ -2452,18 +2458,16 @@ items
         
 print
 (
+f
 "
-%
-s
-:
-%
-s
-"
-%
-(
+{
 key
+}
+:
+{
 value
-)
+}
+"
 )
 if
 __name__
