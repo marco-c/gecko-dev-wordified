@@ -129,6 +129,13 @@ ostream
 #
 include
 "
+AnchorPositioningUtils
+.
+h
+"
+#
+include
+"
 FrameMetrics
 .
 h
@@ -285,13 +292,6 @@ h
 include
 "
 nsSubDocumentFrame
-.
-h
-"
-#
-include
-"
-AnchorPositioningUtils
 .
 h
 "
