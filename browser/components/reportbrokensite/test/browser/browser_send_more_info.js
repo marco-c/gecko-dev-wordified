@@ -326,7 +326,7 @@ await
 testSendMoreInfo
 (
 tab2
-HelpMenu
+AppMenu
 (
 )
 )
