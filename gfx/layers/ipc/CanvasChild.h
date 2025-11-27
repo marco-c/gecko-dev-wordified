@@ -1113,11 +1113,6 @@ mDataSurfaceShmemAvailable
 =
 false
 ;
-uint32_t
-mNextDataSurfaceShmemId
-=
-0
-;
 int64_t
 mLastWriteLockCheckpoint
 =
