@@ -9274,12 +9274,6 @@ newCssRule
 if
 (
 ruleEntry
-.
-length
-=
-=
-=
-1
 )
 {
 entries
@@ -9291,7 +9285,9 @@ pageStyle
 getAppliedProps
 (
 node
+[
 ruleEntry
+]
 {
 matchedSelectors
 :
