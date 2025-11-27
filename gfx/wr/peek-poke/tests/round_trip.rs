@@ -1032,6 +1032,13 @@ PartialEq
 PeekPoke
 )
 ]
+#
+[
+allow
+(
+dead_code
+)
+]
 pub
 struct
 PropertyBindingKey
@@ -1059,6 +1066,13 @@ Copy
 Debug
 PartialEq
 PeekPoke
+)
+]
+#
+[
+allow
+(
+dead_code
 )
 ]
 pub

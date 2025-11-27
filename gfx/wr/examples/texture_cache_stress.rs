@@ -418,6 +418,10 @@ bool
 -
 >
 ExternalImage
+<
+'
+_
+>
 {
 self
 .
