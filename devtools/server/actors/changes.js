@@ -603,7 +603,7 @@ Bug
 *
 param
 {
-Object
+object
 }
 eventData
 *

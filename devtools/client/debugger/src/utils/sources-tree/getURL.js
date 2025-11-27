@@ -336,7 +336,7 @@ Tree
 *
 param
 {
-String
+string
 }
 url
 *
@@ -350,7 +350,7 @@ string
 *
 param
 {
-String
+string
 }
 extensionName
 *

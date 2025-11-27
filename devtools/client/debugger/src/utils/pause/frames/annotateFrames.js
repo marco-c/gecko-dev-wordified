@@ -179,7 +179,7 @@ param
 {
 Array
 <
-Object
+object
 >
 }
 frames

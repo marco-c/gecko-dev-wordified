@@ -1008,7 +1008,7 @@ function
 *
 param
 {
-String
+string
 }
 error
 :
@@ -1037,7 +1037,7 @@ error
 *
 param
 {
-String
+string
 }
 message
 :
@@ -1144,7 +1144,7 @@ attribute
 *
 params
 {
-Object
+object
 }
 actorSpec
 *
@@ -1183,7 +1183,7 @@ actors
 *
 return
 {
-Object
+object
 }
 requestTypes
 *

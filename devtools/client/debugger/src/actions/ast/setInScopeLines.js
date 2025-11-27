@@ -114,7 +114,7 @@ reducer
 *
 param
 {
-Object
+object
 }
 editor
 -

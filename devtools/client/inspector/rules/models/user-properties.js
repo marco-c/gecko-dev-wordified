@@ -140,7 +140,7 @@ mapped
 *
 param
 {
-String
+string
 }
 name
 *
@@ -155,7 +155,7 @@ get
 *
 param
 {
-String
+string
 }
 value
 *
@@ -165,7 +165,7 @@ value
 *
 return
 {
-String
+string
 }
 *
 The
@@ -272,7 +272,7 @@ mapped
 *
 param
 {
-String
+string
 }
 name
 *
@@ -287,7 +287,7 @@ set
 *
 param
 {
-String
+string
 }
 userValue
 *
@@ -419,7 +419,7 @@ mapped
 *
 param
 {
-String
+string
 }
 name
 *
@@ -490,7 +490,7 @@ stored
 *
 param
 {
-String
+string
 }
 name
 *

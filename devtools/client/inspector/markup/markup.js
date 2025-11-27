@@ -4983,7 +4983,7 @@ highlighter
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -5142,7 +5142,7 @@ DOM
 *
 param
 {
-String
+string
 }
 eventName
 *
@@ -5166,7 +5166,7 @@ shown
 *
 param
 {
-Object
+object
 }
 data
 *
@@ -5610,7 +5610,7 @@ for
 *
 param
 {
-Boolean
+boolean
 }
 slotted
 *
@@ -5701,7 +5701,7 @@ for
 *
 param
 {
-Boolean
+boolean
 }
 slotted
 *
@@ -5782,7 +5782,7 @@ check
 *
 param
 {
-Boolean
+boolean
 }
 slotted
 *
@@ -5803,7 +5803,7 @@ node
 *
 return
 {
-Boolean
+boolean
 }
 True
 if
@@ -6573,7 +6573,7 @@ nodeFront
 *
 param
 {
-String
+string
 |
 undefined
 }
@@ -7210,7 +7210,7 @@ view
 *
 param
 {
-String
+string
 |
 null
 }
@@ -9100,7 +9100,7 @@ itself
 *
 param
 {
-Boolean
+boolean
 }
 moveBackward
 *
@@ -9337,7 +9337,7 @@ remove
 *
 param
 {
-Boolean
+boolean
 }
 moveBackward
 *
@@ -10016,7 +10016,7 @@ document
 *
 param
 {
-Boolean
+boolean
 }
 flashNode
 *
@@ -10031,7 +10031,7 @@ flashed
 *
 param
 {
-Boolean
+boolean
 }
 slotted
 *
@@ -11358,13 +11358,13 @@ nodeFront
 *
 param
 {
-Object
+object
 }
 options
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -11372,7 +11372,7 @@ centered
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -11380,7 +11380,7 @@ scroll
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -11388,7 +11388,7 @@ slotted
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -12092,7 +12092,7 @@ for
 *
 param
 {
-Boolean
+boolean
 }
 isOuter
 *
@@ -12844,7 +12844,7 @@ replaced
 *
 param
 {
-String
+string
 }
 newValue
 *
@@ -12860,7 +12860,7 @@ node
 *
 param
 {
-String
+string
 }
 oldValue
 *
@@ -13028,7 +13028,7 @@ replaced
 *
 param
 {
-String
+string
 }
 newValue
 *
@@ -13044,7 +13044,7 @@ node
 *
 param
 {
-String
+string
 }
 oldValue
 *
@@ -13202,7 +13202,7 @@ node
 *
 param
 {
-String
+string
 }
 position
 *
@@ -13237,7 +13237,7 @@ afterEnd
 *
 param
 {
-String
+string
 }
 newValue
 *
@@ -13767,7 +13767,7 @@ update
 *
 param
 {
-Boolean
+boolean
 }
 expanded
 *
@@ -13783,7 +13783,7 @@ collapsed
 *
 param
 {
-Boolean
+boolean
 }
 applyToDescendants
 *
@@ -13906,7 +13906,7 @@ selected
 *
 return
 {
-Boolean
+boolean
 }
 False
 if
@@ -14638,7 +14638,7 @@ updating
 *
 param
 {
-Object
+object
 }
 options
 *

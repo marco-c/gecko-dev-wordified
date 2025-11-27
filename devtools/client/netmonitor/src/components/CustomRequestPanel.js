@@ -667,7 +667,7 @@ list
 *
 return
 {
-array
+Array
 }
 array
 of
@@ -788,7 +788,7 @@ Fields
 *
 param
 {
-Object
+object
 }
 evt
 click
@@ -796,7 +796,7 @@ event
 *
 param
 {
-Object
+object
 }
 request
 current

@@ -142,7 +142,7 @@ filename
 *
 param
 {
-Object
+object
 }
 source
 *
@@ -159,7 +159,7 @@ Contains
 type
 :
 {
-String
+string
 }
 One
 of
@@ -191,7 +191,7 @@ styles
 *
 return
 {
-String
+string
 }
 *
 /

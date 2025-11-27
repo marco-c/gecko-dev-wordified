@@ -395,7 +395,7 @@ functions
 *
 param
 {
-Object
+object
 }
 db
 *
@@ -407,7 +407,7 @@ properties
 *
 param
 {
-Object
+object
 }
 inheritedList
 *
@@ -527,7 +527,7 @@ reference
 *
 param
 {
-String
+string
 }
 property
 The
@@ -540,7 +540,7 @@ checked
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -624,7 +624,7 @@ one
 *
 param
 {
-String
+string
 }
 property
 The
@@ -637,7 +637,7 @@ checked
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -676,7 +676,7 @@ type
 *
 param
 {
-String
+string
 }
 property
 The
@@ -688,7 +688,7 @@ checked
 *
 param
 {
-String
+string
 }
 type
 One
@@ -701,7 +701,7 @@ InspectorPropertyType
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -780,7 +780,7 @@ name
 *
 param
 {
-String
+string
 }
 property
 The
@@ -919,7 +919,7 @@ returned
 *
 param
 {
-String
+string
 }
 name
 The
@@ -1088,7 +1088,7 @@ values
 *
 return
 {
-Object
+object
 }
 The
 normalized
@@ -1195,7 +1195,7 @@ here
 *
 param
 {
-Object
+object
 }
 The
 CSS

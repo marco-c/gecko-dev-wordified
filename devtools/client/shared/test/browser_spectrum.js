@@ -332,7 +332,7 @@ style
 *
 param
 {
-String
+string
 }
 linearGradientStr
 *
@@ -345,7 +345,7 @@ string
 *
 return
 {
-String
+string
 }
 Returns
 the

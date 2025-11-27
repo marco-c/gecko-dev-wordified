@@ -473,7 +473,7 @@ targetActor
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -532,7 +532,7 @@ message
 *
 return
 {
-Boolean
+boolean
 }
 *
 /

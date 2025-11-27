@@ -1265,7 +1265,7 @@ location
 *
 param
 {
-Object
+object
 }
 target
 *
@@ -1621,7 +1621,7 @@ addBreakpoint
 *
 param
 {
-Object
+object
 }
 options
 *

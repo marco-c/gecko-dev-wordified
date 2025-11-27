@@ -102,7 +102,7 @@ substr
 *
 param
 {
-Number
+number
 }
 *
 n
@@ -118,7 +118,7 @@ describe
 *
 param
 {
-String
+string
 }
 substr
 *

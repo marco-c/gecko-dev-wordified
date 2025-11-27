@@ -1116,14 +1116,14 @@ element
 *
 param
 {
-Boolean
+boolean
 }
 back
 direction
 *
 return
 {
-Boolean
+boolean
 }
 true
 there
@@ -1594,7 +1594,7 @@ fn
 *
 param
 {
-Object
+object
 }
 options
 :
@@ -4422,13 +4422,13 @@ row
 *
 param
 {
-Object
+object
 }
 item
 *
 param
 {
-Boolean
+boolean
 }
 expandAllChildren
 *
@@ -4525,7 +4525,7 @@ row
 *
 param
 {
-Object
+object
 }
 item
 *
@@ -4574,7 +4574,7 @@ item
 *
 param
 {
-Object
+object
 |
 undefined
 }
@@ -4596,7 +4596,7 @@ item
 *
 param
 {
-Object
+object
 |
 undefined
 }
@@ -4794,7 +4794,7 @@ item
 *
 param
 {
-Object
+object
 |
 undefined
 }
@@ -4858,7 +4858,7 @@ item
 *
 param
 {
-Object
+object
 |
 undefined
 }
@@ -4875,7 +4875,7 @@ to
 *
 param
 {
-Object
+object
 |
 undefined
 }

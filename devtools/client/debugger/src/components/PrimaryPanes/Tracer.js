@@ -4799,7 +4799,7 @@ string
 *
 param
 {
-Boolean
+boolean
 }
 goForward
 *
@@ -5700,7 +5700,7 @@ index
 *
 param
 {
-Object
+object
 }
 traceChildren
 *
@@ -5719,7 +5719,7 @@ traces
 *
 param
 {
-Number
+number
 }
 traceIndex
 *
@@ -5800,7 +5800,7 @@ traces
 *
 param
 {
-Object
+object
 }
 traceParents
 *
@@ -5819,7 +5819,7 @@ traces
 *
 param
 {
-Object
+object
 }
 traceChildren
 *
@@ -5838,7 +5838,7 @@ traces
 *
 param
 {
-Number
+number
 }
 traceIndex
 *
@@ -5961,7 +5961,7 @@ trace
 *
 param
 {
-String
+string
 }
 eventName
 *
@@ -6115,7 +6115,7 @@ index
 *
 param
 {
-Object
+object
 }
 traceParents
 *
@@ -6134,13 +6134,13 @@ traces
 *
 param
 {
-Number
+number
 }
 traceIndex
 *
 return
 {
-Number
+number
 }
 The
 top

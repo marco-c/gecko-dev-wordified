@@ -2391,7 +2391,7 @@ listeners
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -3264,7 +3264,7 @@ node
 *
 return
 {
-String
+string
 }
 A
 CSS
@@ -3328,7 +3328,7 @@ node
 *
 return
 {
-String
+string
 }
 The
 XPath
@@ -3755,7 +3755,7 @@ id
 *
 param
 {
-String
+string
 }
 eventListenerInfoId
 *
@@ -3822,7 +3822,7 @@ id
 *
 param
 {
-String
+string
 }
 eventListenerInfoId
 *
@@ -4206,7 +4206,7 @@ color
 *
 return
 {
-String
+string
 }
 *
 String
@@ -4318,7 +4318,7 @@ encountered
 *
 return
 {
-Object
+object
 }
 *
 Object
@@ -4371,7 +4371,7 @@ window
 *
 return
 {
-Object
+object
 }
 *
 /

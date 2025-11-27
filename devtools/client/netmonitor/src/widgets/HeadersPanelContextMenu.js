@@ -235,7 +235,7 @@ opening
 *
 param
 {
-Object
+object
 }
 event
 open
@@ -243,7 +243,7 @@ event
 *
 param
 {
-Object
+object
 }
 selection
 object
@@ -532,7 +532,7 @@ all
 *
 param
 {
-Object
+object
 }
 object
 the
@@ -542,7 +542,7 @@ data
 *
 param
 {
-Object
+object
 }
 selection
 object
@@ -660,7 +660,7 @@ item
 *
 param
 {
-Object
+object
 }
 object
 data
@@ -671,7 +671,7 @@ node
 *
 param
 {
-Object
+object
 }
 selection
 object

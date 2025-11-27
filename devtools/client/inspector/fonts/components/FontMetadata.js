@@ -332,7 +332,7 @@ text
 *
 param
 {
-String
+string
 }
 fontProperty
 :
@@ -344,7 +344,7 @@ render
 *
 returns
 {
-String
+string
 |
 Array
 <

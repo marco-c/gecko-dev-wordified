@@ -828,7 +828,7 @@ destroy
 *
 param
 {
-String
+string
 }
 options
 .
@@ -851,7 +851,7 @@ grid
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -879,7 +879,7 @@ grid
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -904,7 +904,7 @@ true
 *
 param
 {
-String
+string
 }
 options
 .
@@ -924,7 +924,7 @@ name
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -952,7 +952,7 @@ true
 *
 param
 {
-Object
+object
 }
 options
 .
@@ -985,7 +985,7 @@ grid
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -1008,7 +1008,7 @@ highlight
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -1028,7 +1028,7 @@ highlight
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -1048,7 +1048,7 @@ highlight
 *
 param
 {
-Object
+object
 }
 options
 .
@@ -1080,7 +1080,7 @@ grid
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -1103,7 +1103,7 @@ highlight
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -1123,7 +1123,7 @@ highlight
 *
 param
 {
-String
+string
 }
 options
 .
@@ -1142,7 +1142,7 @@ line
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -1165,7 +1165,7 @@ true
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -1189,7 +1189,7 @@ true
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -1219,7 +1219,7 @@ subgrid
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -3227,7 +3227,7 @@ given
 *
 param
 {
-Number
+number
 }
 devicePixelRatio
 *
@@ -3244,7 +3244,7 @@ for
 *
 param
 {
-Object
+object
 }
 dimension
 *
@@ -3615,7 +3615,7 @@ dimension
 *
 return
 {
-Number
+number
 }
 index
 of
@@ -4213,7 +4213,7 @@ layout
 *
 return
 {
-Boolean
+boolean
 }
 true
 if
@@ -4310,13 +4310,13 @@ fragment
 *
 param
 {
-Object
+object
 }
 fragment
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -4769,7 +4769,7 @@ name
 *
 param
 {
-String
+string
 }
 areaName
 *
@@ -4812,7 +4812,7 @@ options
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -4833,7 +4833,7 @@ highlight
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -4851,7 +4851,7 @@ highlight
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -4907,7 +4907,7 @@ options
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -4928,7 +4928,7 @@ highlight
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -4946,7 +4946,7 @@ highlight
 *
 param
 {
-String
+string
 }
 options
 .
@@ -5295,7 +5295,7 @@ areas
 *
 param
 {
-String
+string
 }
 areaName
 *
@@ -5754,7 +5754,7 @@ cell
 *
 param
 {
-Object
+object
 }
 fragment
 *
@@ -5769,7 +5769,7 @@ container
 *
 param
 {
-Object
+object
 }
 area
 *
@@ -6648,7 +6648,7 @@ number
 *
 param
 {
-Number
+number
 }
 gridFragmentIndex
 *
@@ -6667,7 +6667,7 @@ highlight
 *
 param
 {
-Number
+number
 }
 rowNumber
 *
@@ -6683,7 +6683,7 @@ highlight
 *
 param
 {
-Number
+number
 }
 columnNumber
 *
@@ -7025,7 +7025,7 @@ canvas
 *
 param
 {
-Number
+number
 }
 linePos
 *
@@ -7056,7 +7056,7 @@ line
 *
 param
 {
-Number
+number
 }
 startPos
 *
@@ -7075,7 +7075,7 @@ line
 *
 param
 {
-Number
+number
 }
 endPos
 *
@@ -7094,7 +7094,7 @@ line
 *
 param
 {
-Number
+number
 }
 breadth
 *
@@ -7107,7 +7107,7 @@ value
 *
 param
 {
-String
+string
 }
 dimensionType
 *
@@ -7509,7 +7509,7 @@ dimensionType
 *
 param
 {
-Number
+number
 }
 gridFragmentIndex
 *
@@ -7528,7 +7528,7 @@ highlight
 *
 param
 {
-Number
+number
 }
 lineNumber
 *
@@ -7544,7 +7544,7 @@ highlight
 *
 param
 {
-String
+string
 }
 dimensionType
 *
@@ -7817,7 +7817,7 @@ canvas
 *
 param
 {
-Number
+number
 }
 lineNumber
 *
@@ -7829,7 +7829,7 @@ number
 *
 param
 {
-Number
+number
 }
 linePos
 *
@@ -7860,7 +7860,7 @@ line
 *
 param
 {
-Number
+number
 }
 startPos
 *
@@ -7879,7 +7879,7 @@ line
 *
 param
 {
-Number
+number
 }
 breadth
 *
@@ -7892,7 +7892,7 @@ value
 *
 param
 {
-String
+string
 }
 dimensionType
 *
@@ -9472,7 +9472,7 @@ at
 *
 param
 {
-String
+string
 }
 dimensionType
 *
@@ -9493,7 +9493,7 @@ ROWS
 *
 param
 {
-Number
+number
 }
 lineNumber
 *
@@ -9505,7 +9505,7 @@ number
 *
 return
 {
-String
+string
 }
 The
 edge
@@ -9821,7 +9821,7 @@ canvas
 *
 param
 {
-Number
+number
 }
 linePos
 *
@@ -9852,7 +9852,7 @@ line
 *
 param
 {
-Number
+number
 }
 startPos
 *
@@ -9871,7 +9871,7 @@ line
 *
 param
 {
-Number
+number
 }
 endPos
 *
@@ -9890,7 +9890,7 @@ line
 *
 param
 {
-String
+string
 }
 dimensionType
 *
@@ -9910,7 +9910,7 @@ ROWS
 *
 param
 {
-String
+string
 }
 lineType
 *
@@ -10259,7 +10259,7 @@ object
 *
 param
 {
-Object
+object
 }
 quad
 .
@@ -10278,7 +10278,7 @@ quads
 *
 param
 {
-String
+string
 }
 dimensionType
 *
@@ -10298,7 +10298,7 @@ ROWS
 *
 param
 {
-Number
+number
 }
 startPos
 *
@@ -10331,7 +10331,7 @@ dimension
 *
 param
 {
-Number
+number
 }
 endPos
 *
@@ -10571,7 +10571,7 @@ object
 *
 param
 {
-String
+string
 }
 dimensionType
 *
@@ -10591,7 +10591,7 @@ ROWS
 *
 param
 {
-Number
+number
 }
 startPos
 *
@@ -10944,7 +10944,7 @@ object
 *
 param
 {
-String
+string
 }
 dimensionType
 *
@@ -10964,7 +10964,7 @@ ROWS
 *
 param
 {
-Number
+number
 }
 startPos
 *
@@ -11633,7 +11633,7 @@ object
 *
 param
 {
-Object
+object
 }
 bounds
 *
@@ -11795,7 +11795,7 @@ bar
 *
 param
 {
-Number
+number
 }
 rowNumber
 *
@@ -11810,7 +11810,7 @@ number
 *
 param
 {
-Number
+number
 }
 columnNumber
 *
@@ -11825,7 +11825,7 @@ number
 *
 param
 {
-Object
+object
 }
 bounds
 *
@@ -12012,7 +12012,7 @@ bar
 *
 param
 {
-String
+string
 }
 gridLineNames
 *
@@ -12030,7 +12030,7 @@ line
 *
 param
 {
-Number
+number
 }
 gridLineNumber
 *
@@ -12042,7 +12042,7 @@ number
 *
 param
 {
-Number
+number
 }
 x
 *
@@ -12058,7 +12058,7 @@ line
 *
 param
 {
-Number
+number
 }
 y
 *

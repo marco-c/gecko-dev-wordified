@@ -143,7 +143,7 @@ Manager
 *
 param
 {
-String
+string
 }
 message
 *
@@ -233,7 +233,7 @@ Manager
 *
 param
 {
-String
+string
 }
 message
 *
@@ -326,7 +326,7 @@ Manager
 *
 param
 {
-String
+string
 }
 message
 *
@@ -445,7 +445,7 @@ Manager
 *
 param
 {
-String
+string
 }
 message
 *
@@ -464,7 +464,7 @@ MESSAGE_PREFIX
 *
 param
 {
-Object
+object
 }
 data
 *
@@ -550,7 +550,7 @@ Manager
 *
 param
 {
-String
+string
 }
 message
 *
@@ -578,7 +578,7 @@ reply
 *
 param
 {
-Object
+object
 }
 data
 *

@@ -225,7 +225,7 @@ progressbar
 *
 param
 {
-Object
+object
 }
 props
 *

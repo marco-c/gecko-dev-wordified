@@ -1015,7 +1015,7 @@ tab
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -2561,7 +2561,7 @@ rawNode
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -3439,7 +3439,7 @@ nodes
 *
 return
 {
-Object
+object
 }
 An
 object
@@ -3522,7 +3522,7 @@ nodes
 *
 return
 {
-Object
+object
 }
 An
 object
@@ -6530,7 +6530,7 @@ page
 *
 param
 {
-String
+string
 }
 selector
 .
@@ -6643,7 +6643,7 @@ page
 *
 param
 {
-String
+string
 }
 xPath
 .
@@ -6794,7 +6794,7 @@ page
 *
 param
 {
-String
+string
 }
 xPath
 *
@@ -11091,7 +11091,7 @@ for
 *
 param
 {
-Object
+object
 }
 bps
 A
@@ -11333,7 +11333,7 @@ node
 *
 param
 {
-Object
+object
 }
 bpsForNode
 The
@@ -15220,7 +15220,7 @@ rawNode
 *
 return
 {
-Boolean
+boolean
 }
 false
 if
@@ -16010,7 +16010,7 @@ nodeFront
 *
 param
 {
-String
+string
 }
 actorID
 The

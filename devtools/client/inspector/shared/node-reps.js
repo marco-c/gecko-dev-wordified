@@ -269,7 +269,7 @@ for
 *
 param
 {
-Object
+object
 }
 props
 *

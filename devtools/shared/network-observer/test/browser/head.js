@@ -207,7 +207,7 @@ loaded
 *
 param
 {
-String
+string
 }
 url
 *
@@ -282,7 +282,7 @@ loaded
 *
 param
 {
-String
+string
 }
 url
 *

@@ -196,7 +196,7 @@ url
 *
 param
 {
-String
+string
 }
 url
 *
@@ -214,7 +214,7 @@ tab
 *
 param
 {
-Object
+object
 }
 [
 optional
@@ -1564,7 +1564,7 @@ value
 *
 param
 {
-Number
+number
 }
 rowIndex
 *
@@ -1572,7 +1572,7 @@ returns
 {
 Promise
 <
-String
+string
 >
 }
 *

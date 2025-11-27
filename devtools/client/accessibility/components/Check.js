@@ -527,7 +527,7 @@ check
 *
 param
 {
-Object
+object
 }
 *
 Options
@@ -622,7 +622,7 @@ check
 *
 param
 {
-Object
+object
 }
 *
 Options

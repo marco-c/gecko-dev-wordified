@@ -260,7 +260,7 @@ point
 *
 return
 {
-Boolean
+boolean
 }
 True
 if
@@ -936,7 +936,7 @@ ElementNode
 *
 param
 {
-Object
+object
 }
 grip
 *
@@ -954,7 +954,7 @@ Reps
 *
 return
 {
-String
+string
 }
 selector
 of
@@ -1188,7 +1188,7 @@ object
 *
 returns
 {
-Object
+object
 }
 a
 grip

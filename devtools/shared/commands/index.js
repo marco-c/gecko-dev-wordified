@@ -363,7 +363,7 @@ descriptorFront
 *
 param
 {
-Boolean
+boolean
 }
 enableWindowGlobalThreadActors
 :

@@ -333,7 +333,7 @@ requestPostData
 *
 return
 {
-array
+Array
 }
 a
 promise
@@ -704,7 +704,7 @@ object
 *
 param
 {
-array
+Array
 }
 updateTypes
 -
@@ -1064,7 +1064,7 @@ text
 *
 param
 {
-array
+Array
 }
 headers
 -
@@ -2797,7 +2797,7 @@ portion
 *
 return
 {
-array
+Array
 }
 array
 of
@@ -2969,7 +2969,7 @@ by
 *
 return
 {
-array
+Array
 }
 array
 of
@@ -4695,7 +4695,7 @@ JSON
 *
 returns
 {
-Object
+object
 }
 shape
 :
@@ -5080,7 +5080,7 @@ sequence
 *
 returns
 {
-Object
+object
 }
 Shape
 :

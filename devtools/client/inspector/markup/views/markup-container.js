@@ -260,7 +260,7 @@ id
 *
 type
 {
-Number
+number
 }
 *
 /
@@ -360,7 +360,7 @@ display
 *
 param
 {
-String
+string
 }
 type
 *
@@ -3976,7 +3976,7 @@ view
 *
 param
 {
-String
+string
 }
 type
 :
@@ -3992,7 +3992,7 @@ ATTRIBUTE_TYPES
 *
 param
 {
-String
+string
 }
 link
 :
@@ -5288,13 +5288,13 @@ editor
 *
 param
 {
-Object
+object
 }
 options
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -5530,7 +5530,7 @@ children
 *
 param
 {
-Boolean
+boolean
 }
 applyToDescendants
 *

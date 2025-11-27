@@ -206,7 +206,7 @@ P
 *
 typedef
 {
-Object
+object
 }
 StateProps
 *
@@ -230,7 +230,7 @@ isSupportedPlatform
 *
 typedef
 {
-Object
+object
 }
 ThunkDispatchProps
 *
@@ -268,7 +268,7 @@ reportProfilerStopped
 *
 typedef
 {
-Object
+object
 }
 OwnProps
 *

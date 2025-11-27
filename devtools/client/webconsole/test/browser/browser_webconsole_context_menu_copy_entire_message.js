@@ -1763,7 +1763,7 @@ el
 *
 returns
 {
-String
+string
 }
 the
 text

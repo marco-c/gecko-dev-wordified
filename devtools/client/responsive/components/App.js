@@ -1622,7 +1622,7 @@ prop
 *
 param
 {
-Number
+number
 }
 id
 *

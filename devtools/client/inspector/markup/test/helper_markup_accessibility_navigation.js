@@ -143,7 +143,7 @@ tested
 *
 param
 {
-Object
+object
 }
 elms
 *
@@ -297,7 +297,7 @@ object
 *
 param
 {
-Object
+object
 }
 obj
 *
@@ -308,7 +308,7 @@ expand
 *
 param
 {
-String
+string
 }
 path
 *
@@ -425,7 +425,7 @@ tested
 *
 param
 {
-Object
+object
 }
 elms
 *
@@ -452,7 +452,7 @@ paths
 *
 param
 {
-Object
+object
 }
 testData
 *

@@ -989,7 +989,7 @@ message
 *
 param
 {
-Number
+number
 }
 depth
 *
@@ -1731,7 +1731,7 @@ type
 *
 param
 {
-Object
+object
 }
 grip
 *
@@ -1748,7 +1748,7 @@ added
 *
 param
 {
-Number
+number
 }
 depth
 *
@@ -2168,7 +2168,7 @@ object
 *
 returns
 {
-Object
+object
 }
 An
 object
@@ -2578,7 +2578,7 @@ obj
 *
 param
 {
-Number
+number
 }
 depth
 *
@@ -3193,7 +3193,7 @@ get
 *
 param
 {
-Object
+object
 }
 getter
 *
@@ -4699,7 +4699,7 @@ promise
 *
 param
 {
-Object
+object
 }
 getterValue
 *

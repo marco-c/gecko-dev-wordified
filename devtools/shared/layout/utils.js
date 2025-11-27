@@ -237,7 +237,7 @@ win
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -799,7 +799,7 @@ quads
 *
 param
 {
-String
+string
 }
 region
 *
@@ -828,7 +828,7 @@ margin
 *
 param
 {
-Object
+object
 }
 [
 options
@@ -1368,7 +1368,7 @@ node
 *
 return
 {
-Object
+object
 }
 *
 A
@@ -1718,7 +1718,7 @@ node
 *
 return
 {
-Object
+object
 }
 *
 An
@@ -2507,7 +2507,7 @@ node
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -2609,7 +2609,7 @@ node
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -2668,7 +2668,7 @@ node
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -2716,7 +2716,7 @@ node
 *
 return
 {
-String
+string
 |
 null
 }
@@ -2782,7 +2782,7 @@ node
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -2887,7 +2887,7 @@ node
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -3000,7 +3000,7 @@ window
 *
 return
 {
-Number
+number
 }
 *
 /
@@ -3158,7 +3158,7 @@ window
 *
 return
 {
-Number
+number
 }
 *
 /
@@ -3212,7 +3212,7 @@ given
 *
 return
 {
-Object
+object
 }
 An
 object
@@ -3395,7 +3395,7 @@ given
 *
 return
 {
-Object
+object
 }
 An
 object
@@ -3661,13 +3661,13 @@ window
 *
 param
 {
-String
+string
 }
 url
 *
 param
 {
-String
+string
 }
 [
 type
@@ -3795,13 +3795,13 @@ window
 *
 param
 {
-String
+string
 }
 url
 *
 param
 {
-String
+string
 }
 [
 type
@@ -3924,7 +3924,7 @@ returned
 *
 param
 {
-String
+string
 }
 region
 *
@@ -4610,7 +4610,7 @@ calculated
 *
 return
 {
-Object
+object
 }
 object
 *
@@ -4625,7 +4625,7 @@ values
 *
 return
 {
-Number
+number
 }
 object
 .
@@ -4647,7 +4647,7 @@ ancestors
 *
 return
 {
-Number
+number
 }
 object
 .
@@ -4865,7 +4865,7 @@ node
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -4930,7 +4930,7 @@ node
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -5063,7 +5063,7 @@ node
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -5149,7 +5149,7 @@ node
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -5250,7 +5250,7 @@ node
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /

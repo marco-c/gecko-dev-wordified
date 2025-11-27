@@ -612,7 +612,7 @@ getStackInfo
 *
 param
 {
-Object
+object
 }
 stackInfo
 *
@@ -628,7 +628,7 @@ getStackInfo
 *
 param
 {
-Object
+object
 }
 expected
 *

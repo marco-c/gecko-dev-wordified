@@ -372,7 +372,7 @@ method
 *
 return
 {
-Object
+object
 [
 ]
 }
@@ -681,7 +681,7 @@ listWorkers
 *
 return
 {
-Object
+object
 }
 *
 -
@@ -1996,7 +1996,7 @@ name
 *
 param
 {
-String
+string
 }
 actorName
 *
@@ -2011,7 +2011,7 @@ actor
 *
 return
 {
-Boolean
+boolean
 }
 *
 /

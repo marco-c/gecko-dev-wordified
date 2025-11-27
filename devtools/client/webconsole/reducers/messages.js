@@ -5079,7 +5079,7 @@ property
 *
 param
 {
-String
+string
 }
 currentGroup
 :
@@ -5118,7 +5118,7 @@ group
 *
 returns
 {
-String
+string
 |
 null
 }
@@ -6573,7 +6573,7 @@ check
 *
 param
 {
-Object
+object
 }
 option
 :
@@ -6719,7 +6719,7 @@ visible
 *
 return
 {
-Object
+object
 }
 An
 object
@@ -7687,7 +7687,7 @@ state
 *
 param
 {
-Object
+object
 }
 message
 -
@@ -7715,7 +7715,7 @@ state
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -7835,7 +7835,7 @@ state
 *
 param
 {
-Object
+object
 }
 message
 -
@@ -7863,7 +7863,7 @@ state
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -7984,7 +7984,7 @@ state
 *
 param
 {
-Object
+object
 }
 message
 -
@@ -8012,7 +8012,7 @@ state
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -8131,7 +8131,7 @@ state
 *
 param
 {
-Object
+object
 }
 message
 -
@@ -8159,7 +8159,7 @@ state
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -8239,7 +8239,7 @@ state
 *
 param
 {
-Object
+object
 }
 message
 -
@@ -8267,7 +8267,7 @@ state
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -9500,7 +9500,7 @@ state
 *
 param
 {
-Boolean
+boolean
 }
 sortWarningGroupMessage
 :
@@ -9538,7 +9538,7 @@ position
 *
 param
 {
-Boolean
+boolean
 }
 timeStampSort
 :

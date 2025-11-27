@@ -135,7 +135,7 @@ context
 *
 param
 {
-Object
+object
 }
 callbacks
 -

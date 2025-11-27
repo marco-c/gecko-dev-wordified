@@ -249,13 +249,13 @@ results
 *
 param
 {
-Object
+object
 }
 walkerFront
 *
 param
 {
-String
+string
 }
 query
 *
@@ -268,7 +268,7 @@ for
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -398,7 +398,7 @@ off
 *
 param
 {
-String
+string
 }
 query
 *
@@ -411,7 +411,7 @@ for
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -430,7 +430,7 @@ backwards
 *
 returns
 {
-Object
+object
 }
 res
 *
@@ -702,7 +702,7 @@ autocompletion
 *
 param
 {
-String
+string
 }
 query
 *
@@ -714,7 +714,7 @@ completed
 *
 param
 {
-String
+string
 }
 firstPart
 *
@@ -730,7 +730,7 @@ query
 *
 param
 {
-String
+string
 }
 state
 *
@@ -2373,7 +2373,7 @@ Promise
 <
 Array
 <
-String
+string
 >
 >
 }
@@ -2559,7 +2559,7 @@ param
 {
 Array
 <
-Object
+object
 >
 }
 domRuleDeclarations
@@ -2596,7 +2596,7 @@ Promise
 <
 Array
 <
-Object
+object
 >
 >
 }
@@ -2936,7 +2936,7 @@ Array
 <
 Array
 <
-Object
+object
 >
 >
 >

@@ -778,13 +778,13 @@ string
 *
 param
 {
-String
+string
 }
 propertyName
 *
 param
 {
-String
+string
 }
 colorString
 *
@@ -815,7 +815,7 @@ on
 *
 return
 {
-Object
+object
 }
 *
 RGBA
@@ -1004,7 +1004,7 @@ RGBA
 *
 param
 {
-Object
+object
 }
 rgba1
 *
@@ -1019,7 +1019,7 @@ getRGBA
 *
 param
 {
-Object
+object
 }
 rgba2
 *
@@ -1034,7 +1034,7 @@ getRGBA
 *
 return
 {
-Number
+number
 }
 *
 The

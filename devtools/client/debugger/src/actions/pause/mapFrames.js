@@ -840,7 +840,7 @@ frames
 *
 param
 {
-Object
+object
 }
 thread
 *

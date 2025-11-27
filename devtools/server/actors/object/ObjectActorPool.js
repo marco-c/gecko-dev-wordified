@@ -190,7 +190,7 @@ from
 *
 param
 {
-String
+string
 }
 label
 *
@@ -206,7 +206,7 @@ purpose
 *
 param
 {
-Boolean
+boolean
 }
 uniqueActorPerValue
 *

@@ -919,7 +919,7 @@ in
 *
 param
 {
-Object
+object
 }
 options
 The
@@ -1598,7 +1598,7 @@ done
 *
 params
 {
-String
+string
 |
 null
 }
@@ -3966,7 +3966,7 @@ value
 *
 param
 {
-array
+Array
 }
 rgb
 Rgb
@@ -4184,7 +4184,7 @@ values
 *
 param
 {
-array
+Array
 }
 rgb
 Rgb

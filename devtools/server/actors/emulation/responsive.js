@@ -552,13 +552,13 @@ c3
 *
 param
 {
-Boolean
+boolean
 }
 state
 *
 param
 {
-String
+string
 }
 pickerType
 *

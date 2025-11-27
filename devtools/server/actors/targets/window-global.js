@@ -5016,13 +5016,13 @@ connection
 *
 params
 {
-Object
+object
 }
 options
 *
 params
 {
-Boolean
+boolean
 }
 options
 .
@@ -5044,7 +5044,7 @@ switch
 *
 params
 {
-Boolean
+boolean
 }
 options
 .

@@ -156,7 +156,7 @@ configuration
 *
 param
 {
-Object
+object
 }
 extConfig
 -
@@ -254,7 +254,7 @@ browser
 *
 param
 {
-String
+string
 }
 -
 id
@@ -264,7 +264,7 @@ id
 *
 return
 {
-Object
+object
 }
 -
 Resolves
@@ -424,7 +424,7 @@ loadExtension
 *
 param
 {
-Object
+object
 }
 options
 -
@@ -461,7 +461,7 @@ provided
 *
 param
 {
-Object
+object
 }
 options
 .
@@ -486,7 +486,7 @@ contents
 *
 param
 {
-Object
+object
 }
 options
 .
@@ -503,7 +503,7 @@ manifest
 *
 return
 {
-Object
+object
 }
 -
 The
@@ -1086,7 +1086,7 @@ tasks
 *
 param
 {
-Object
+object
 }
 extension
 -
@@ -1096,7 +1096,7 @@ extension
 *
 param
 {
-Object
+object
 }
 commands
 -

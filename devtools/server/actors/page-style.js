@@ -1117,7 +1117,7 @@ item
 *
 param
 {
-String
+string
 }
 pseudoElement
 An
@@ -1143,7 +1143,7 @@ element
 *
 param
 {
-Boolean
+boolean
 }
 userAdded
 :
@@ -1381,7 +1381,7 @@ found
 *
 param
 {
-String
+string
 }
 ruleId
 *
@@ -1468,13 +1468,13 @@ node
 *
 param
 {
-Object
+object
 }
 options
 *
 param
 {
-String
+string
 }
 options
 .
@@ -1496,7 +1496,7 @@ param
 {
 Array
 <
-String
+string
 >
 }
 options
@@ -1518,7 +1518,7 @@ returned
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -1554,7 +1554,7 @@ filter
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -1573,7 +1573,7 @@ included
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -4840,13 +4840,13 @@ styleRuleActor
 *
 param
 {
-Object
+object
 }
 params
 *
 param
 {
-Boolean
+boolean
 }
 params
 .
@@ -4854,7 +4854,7 @@ inherited
 *
 param
 {
-Boolean
+boolean
 }
 params
 .
@@ -4862,7 +4862,7 @@ isSystem
 *
 param
 {
-String
+string
 |
 null
 }
@@ -6234,7 +6234,7 @@ for
 *
 return
 {
-Object
+object
 |
 null
 }
@@ -7134,7 +7134,7 @@ node
 *
 param
 {
-Object
+object
 }
 options
 The
@@ -7229,7 +7229,7 @@ auto
 *
 return
 {
-Object
+object
 }
 *
 /
@@ -7915,7 +7915,7 @@ node
 *
 param
 {
-String
+string
 }
 pseudoClasses
 The
@@ -8522,7 +8522,7 @@ document
 *
 param
 {
-String
+string
 }
 search
 :
@@ -8537,7 +8537,7 @@ on
 *
 param
 {
-String
+string
 }
 attributeType
 :
@@ -8589,7 +8589,7 @@ returns
 {
 Array
 <
-String
+string
 >
 }
 An
@@ -8818,7 +8818,7 @@ param
 {
 Set
 <
-String
+string
 >
 }
 result
@@ -8836,7 +8836,7 @@ added
 *
 param
 {
-String
+string
 }
 search
 :
@@ -8851,7 +8851,7 @@ on
 *
 param
 {
-String
+string
 }
 attributeType
 :
@@ -9202,7 +9202,7 @@ param
 {
 Set
 <
-String
+string
 >
 }
 result
@@ -9220,7 +9220,7 @@ added
 *
 param
 {
-String
+string
 }
 search
 :
@@ -9235,7 +9235,7 @@ on
 *
 param
 {
-String
+string
 }
 attributeType
 :
@@ -9439,7 +9439,7 @@ param
 {
 Set
 <
-String
+string
 >
 }
 result
@@ -9471,7 +9471,7 @@ in
 *
 param
 {
-String
+string
 }
 search
 :
@@ -9486,7 +9486,7 @@ on
 *
 param
 {
-String
+string
 }
 attributeType
 :

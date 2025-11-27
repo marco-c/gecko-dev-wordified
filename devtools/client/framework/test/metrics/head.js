@@ -234,7 +234,7 @@ data
 *
 param
 {
-Object
+object
 }
 *
 -

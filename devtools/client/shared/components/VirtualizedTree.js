@@ -2871,13 +2871,13 @@ row
 *
 param
 {
-Object
+object
 }
 item
 *
 param
 {
-Boolean
+boolean
 }
 expandAllChildren
 *
@@ -2974,7 +2974,7 @@ row
 *
 param
 {
-Object
+object
 }
 item
 *
@@ -3046,7 +3046,7 @@ height
 *
 param
 {
-Object
+object
 }
 item
 *
@@ -3061,7 +3061,7 @@ view
 *
 param
 {
-Number
+number
 |
 undefined
 }
@@ -3089,7 +3089,7 @@ undefined
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -3344,7 +3344,7 @@ item
 *
 param
 {
-Number
+number
 }
 index
 *
@@ -3375,7 +3375,7 @@ undefined
 *
 param
 {
-Object
+object
 |
 undefined
 }

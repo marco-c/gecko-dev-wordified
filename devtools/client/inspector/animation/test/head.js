@@ -568,7 +568,7 @@ element
 *
 param
 {
-Number
+number
 }
 index
 *
@@ -691,7 +691,7 @@ element
 *
 param
 {
-String
+string
 }
 selector
 *
@@ -1141,7 +1141,7 @@ element
 *
 param
 {
-Number
+number
 }
 mouseDownPosition
 *
@@ -1286,7 +1286,7 @@ element
 *
 param
 {
-Number
+number
 }
 index
 *
@@ -1443,7 +1443,7 @@ element
 *
 param
 {
-Number
+number
 }
 rate
 *
@@ -1810,7 +1810,7 @@ element
 *
 param
 {
-Number
+number
 }
 index
 *
@@ -2144,7 +2144,7 @@ element
 *
 param
 {
-Number
+number
 }
 mouseMovePixel
 *
@@ -2159,7 +2159,7 @@ mousedown
 *
 param
 {
-Number
+number
 }
 mouseYPixel
 *
@@ -2378,7 +2378,7 @@ element
 *
 param
 {
-Number
+number
 }
 mouseDownPosition
 *
@@ -2412,7 +2412,7 @@ MouseEvent
 *
 param
 {
-Number
+number
 }
 mouseMovePosition
 *
@@ -2682,13 +2682,13 @@ element
 *
 param
 {
-Number
+number
 }
 pixels
 *
 return
 {
-Object
+object
 }
 *
 {
@@ -2819,7 +2819,7 @@ element
 *
 param
 {
-Number
+number
 }
 index
 *
@@ -2951,7 +2951,7 @@ element
 *
 param
 {
-Number
+number
 }
 index
 *
@@ -3199,13 +3199,13 @@ animationInspector
 *
 param
 {
-String
+string
 }
 selector
 *
 param
 {
-String
+string
 }
 cls
 *
@@ -3314,13 +3314,13 @@ animationInspector
 *
 param
 {
-String
+string
 }
 selector
 *
 param
 {
-Object
+object
 }
 properties
 *
@@ -3464,7 +3464,7 @@ parameter
 *
 param
 {
-String
+string
 }
 width
 *
@@ -3577,13 +3577,13 @@ animationInspector
 *
 param
 {
-String
+string
 }
 selector
 *
 param
 {
-String
+string
 }
 propertyName
 *
@@ -3597,7 +3597,7 @@ animationDuration
 *
 param
 {
-String
+string
 }
 propertyValue
 *
@@ -3707,13 +3707,13 @@ animationInspector
 *
 param
 {
-String
+string
 }
 selector
 *
 param
 {
-Object
+object
 }
 properties
 *
@@ -3848,7 +3848,7 @@ animationInspector
 *
 param
 {
-Number
+number
 }
 currentTime
 *
@@ -3941,7 +3941,7 @@ animationInspector
 *
 param
 {
-String
+string
 }
 state
 *
@@ -4033,7 +4033,7 @@ panel
 *
 return
 {
-Number
+number
 }
 count
 *
@@ -4395,7 +4395,7 @@ element
 *
 param
 {
-Number
+number
 }
 offset
 *
@@ -4415,7 +4415,7 @@ stop
 *
 param
 {
-String
+string
 }
 expectedColor
 *
@@ -4549,7 +4549,7 @@ closing
 *
 param
 {
-Object
+object
 }
 expectedValues
 *
@@ -5042,7 +5042,7 @@ element
 *
 param
 {
-Number
+number
 }
 index
 *
@@ -5203,7 +5203,7 @@ element
 *
 param
 {
-String
+string
 }
 selector
 *
@@ -5573,7 +5573,7 @@ element
 *
 param
 {
-Number
+number
 }
 offset
 *

@@ -147,7 +147,7 @@ selected
 *
 param
 {
-Object
+object
 }
 object
 The

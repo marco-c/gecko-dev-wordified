@@ -3017,7 +3017,7 @@ select
 *
 param
 {
-Object
+object
 }
 store
 *
@@ -3208,7 +3208,7 @@ with
 *
 param
 {
-String
+string
 }
 url
 *
@@ -3399,7 +3399,7 @@ page
 *
 param
 {
-String
+string
 }
 addonId
 *

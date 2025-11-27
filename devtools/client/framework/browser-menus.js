@@ -314,7 +314,7 @@ added
 *
 param
 {
-String
+string
 }
 id
 *
@@ -324,7 +324,7 @@ id
 *
 param
 {
-String
+string
 }
 label
 *
@@ -334,7 +334,7 @@ label
 *
 param
 {
-String
+string
 }
 accesskey
 (
@@ -357,7 +357,7 @@ menu
 *
 param
 {
-Boolean
+boolean
 }
 isCheckbox
 (
@@ -386,7 +386,7 @@ left
 *
 param
 {
-String
+string
 }
 appMenuL10nId
 (
@@ -572,7 +572,7 @@ definition
 *
 param
 {
-Object
+object
 }
 toolDefinition
 *
@@ -1000,7 +1000,7 @@ registered
 *
 param
 {
-Object
+object
 }
 toolDefinition
 *
@@ -1015,7 +1015,7 @@ register
 *
 param
 {
-Object
+object
 }
 prevDef
 *

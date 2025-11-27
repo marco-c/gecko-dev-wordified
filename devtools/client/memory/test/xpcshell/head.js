@@ -1064,7 +1064,7 @@ done
 *
 param
 {
-Object
+object
 }
 store
 *
@@ -1080,7 +1080,7 @@ dispatched
 *
 param
 {
-String
+string
 }
 actionType
 *
@@ -1093,7 +1093,7 @@ for
 *
 param
 {
-Number
+number
 }
 repeat
 *

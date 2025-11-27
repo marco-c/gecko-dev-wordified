@@ -198,7 +198,7 @@ of
 *
 returns
 {
-String
+string
 |
 null
 }

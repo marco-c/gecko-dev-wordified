@@ -1247,7 +1247,7 @@ method
 *
 param
 {
-String
+string
 }
 prefix
 *
@@ -1361,7 +1361,7 @@ method
 *
 param
 {
-String
+string
 }
 prefix
 *
@@ -1511,7 +1511,7 @@ actor
 *
 param
 {
-Boolean
+boolean
 }
 calledFromDocumentCreate
 *

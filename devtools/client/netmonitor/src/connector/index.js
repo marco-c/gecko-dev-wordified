@@ -500,7 +500,7 @@ backend
 *
 param
 {
-Object
+object
 }
 connection
 object
@@ -517,7 +517,7 @@ Toolbox
 *
 param
 {
-Object
+object
 }
 actions
 (
@@ -536,7 +536,7 @@ store
 *
 param
 {
-Object
+object
 }
 getState
 (

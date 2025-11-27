@@ -67,7 +67,7 @@ check
 *
 typedef
 {
-Object
+object
 }
 StateProps
 *
@@ -128,7 +128,7 @@ supportedFeatures
 *
 typedef
 {
-Object
+object
 }
 ThunkDispatchProps
 *
@@ -198,7 +198,7 @@ DispatchProps
 *
 typedef
 {
-Object
+object
 }
 State
 *

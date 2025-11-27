@@ -103,7 +103,7 @@ inspector
 *
 param
 {
-Object
+object
 }
 -
 listenerMap

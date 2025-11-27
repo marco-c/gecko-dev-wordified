@@ -564,7 +564,7 @@ scroll
 *
 param
 {
-String
+string
 }
 block
 desired
@@ -1257,7 +1257,7 @@ container
 *
 param
 {
-Number
+number
 }
 left
 the
@@ -1270,7 +1270,7 @@ container
 *
 param
 {
-Number
+number
 }
 right
 the
@@ -1282,7 +1282,7 @@ container
 *
 param
 {
-Number
+number
 }
 elementLeft
 the
@@ -1294,7 +1294,7 @@ element
 *
 param
 {
-Number
+number
 }
 elementRight
 the
@@ -1359,7 +1359,7 @@ container
 *
 param
 {
-Number
+number
 }
 left
 the
@@ -1372,7 +1372,7 @@ container
 *
 param
 {
-Number
+number
 }
 right
 the
@@ -1384,7 +1384,7 @@ container
 *
 param
 {
-Number
+number
 }
 elementLeft
 the
@@ -1396,7 +1396,7 @@ element
 *
 param
 {
-Number
+number
 }
 elementRight
 the
@@ -1896,7 +1896,7 @@ parent
 *
 param
 {
-String
+string
 }
 tagName
 name
@@ -1908,7 +1908,7 @@ create
 *
 param
 {
-String
+string
 }
 className
 class
@@ -2730,7 +2730,7 @@ print
 *
 return
 {
-String
+string
 }
 *
 /
@@ -3780,7 +3780,7 @@ widget
 *
 param
 {
-String
+string
 }
 name
 *
@@ -4245,7 +4245,7 @@ node
 *
 param
 {
-Number
+number
 }
 index
 Index
@@ -4406,7 +4406,7 @@ node
 *
 returns
 {
-Number
+number
 }
 The
 index
@@ -4500,7 +4500,7 @@ index
 *
 param
 {
-Number
+number
 }
 index
 .
@@ -4964,7 +4964,7 @@ node
 *
 return
 {
-Number
+number
 }
 Index
 of
@@ -5312,7 +5312,7 @@ array
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -5391,7 +5391,7 @@ breadcrumbs
 *
 param
 {
-Object
+object
 }
 mutation
 The
@@ -5402,7 +5402,7 @@ check
 *
 return
 {
-Boolean
+boolean
 }
 true
 if
@@ -5655,7 +5655,7 @@ selected
 *
 param
 {
-String
+string
 }
 reason
 The

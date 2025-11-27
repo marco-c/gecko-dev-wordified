@@ -468,7 +468,7 @@ map
 *
 param
 {
-Object
+object
 }
 generatedSource
 *
@@ -486,7 +486,7 @@ return
 {
 Array
 <
-Object
+object
 >
 |
 null
@@ -583,7 +583,7 @@ itself
 *
 param
 {
-Object
+object
 }
 generatedSource
 *
@@ -596,7 +596,7 @@ bundle
 *
 return
 {
-Object
+object
 }
 *
 -
@@ -1733,7 +1733,7 @@ locations
 *
 param
 {
-Object
+object
 }
 breakpointPositions
 *
@@ -1982,7 +1982,7 @@ source
 *
 param
 {
-Object
+object
 }
 location
 *
@@ -2001,13 +2001,13 @@ location
 *
 param
 {
-Object
+object
 }
 options
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -2333,7 +2333,7 @@ one
 *
 param
 {
-Object
+object
 }
 location
 *
@@ -2342,7 +2342,7 @@ location
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -2352,7 +2352,7 @@ getORiginalLocationSync
 *
 return
 {
-Object
+object
 }
 *
 Original
@@ -3539,7 +3539,7 @@ generatedSourceIds
 *
 param
 {
-Object
+object
 }
 map
 :

@@ -650,7 +650,7 @@ format
 *
 param
 {
-Object
+object
 [
 ]
 }
@@ -668,7 +668,7 @@ params
 *
 returns
 {
-Object
+object
 }
 *
 /
@@ -859,7 +859,7 @@ tree
 *
 param
 {
-Object
+object
 }
 props
 *
@@ -911,7 +911,7 @@ path
 *
 param
 {
-Object
+object
 }
 searchResult
 *

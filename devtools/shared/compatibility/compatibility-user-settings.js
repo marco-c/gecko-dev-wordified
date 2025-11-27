@@ -901,7 +901,7 @@ issues
 *
 param
 {
-Object
+object
 [
 ]
 }

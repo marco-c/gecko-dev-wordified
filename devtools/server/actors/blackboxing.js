@@ -271,7 +271,7 @@ attribute
 *
 param
 {
-String
+string
 }
 url
 *

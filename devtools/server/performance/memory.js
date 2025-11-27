@@ -998,7 +998,7 @@ graph
 *
 param
 {
-Object
+object
 |
 null
 }
@@ -1007,7 +1007,7 @@ boundaries
 *
 returns
 {
-String
+string
 }
 The
 snapshot

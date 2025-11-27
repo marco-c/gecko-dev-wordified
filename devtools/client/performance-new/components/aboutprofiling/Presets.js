@@ -273,7 +273,7 @@ Localized
 *
 typedef
 {
-Object
+object
 }
 PresetProps
 *
@@ -590,7 +590,7 @@ presetLabelAndDescription
 *
 typedef
 {
-Object
+object
 }
 StateProps
 *
@@ -628,7 +628,7 @@ presets
 *
 typedef
 {
-Object
+object
 }
 ThunkDispatchProps
 *

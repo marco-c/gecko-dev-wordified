@@ -999,7 +999,7 @@ again
 *
 param
 {
-Object
+object
 }
 doc
 *
@@ -1012,7 +1012,7 @@ query
 *
 param
 {
-Object
+object
 }
 menuButton
 *
@@ -1030,7 +1030,7 @@ measure
 *
 return
 {
-Object
+object
 }
 *
 An

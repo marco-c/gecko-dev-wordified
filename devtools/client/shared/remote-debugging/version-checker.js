@@ -334,7 +334,7 @@ version
 *
 param
 {
-String
+string
 }
 localVersion
 *
@@ -354,7 +354,7 @@ eg
 *
 return
 {
-Object
+object
 }
 *
 -

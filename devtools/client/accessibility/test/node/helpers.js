@@ -190,7 +190,7 @@ object
 *
 param
 {
-Object
+object
 }
 form
 *
@@ -287,7 +287,7 @@ list
 *
 param
 {
-Object
+object
 }
 *
 Expected
@@ -579,7 +579,7 @@ component
 *
 param
 {
-Object
+object
 }
 *
 Expected
@@ -689,7 +689,7 @@ component
 *
 param
 {
-Object
+object
 }
 *
 Expected

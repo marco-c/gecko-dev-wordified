@@ -123,7 +123,7 @@ inspector
 *
 param
 {
-Object
+object
 }
 options
 :

@@ -204,7 +204,7 @@ class
 *
 param
 {
-Object
+object
 }
 options
 [
@@ -213,7 +213,7 @@ optional
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -655,7 +655,7 @@ event
 *
 param
 {
-Object
+object
 }
 obj
 *
@@ -698,7 +698,7 @@ objects
 *
 param
 {
-String
+string
 }
 method
 *
@@ -726,7 +726,7 @@ open
 *
 param
 {
-String
+string
 }
 object
 *
@@ -761,7 +761,7 @@ setting
 *
 param
 {
-String
+string
 |
 null
 }
@@ -1019,7 +1019,7 @@ event
 *
 param
 {
-Object
+object
 }
 obj
 *
@@ -1062,7 +1062,7 @@ objects
 *
 param
 {
-String
+string
 }
 method
 *
@@ -1090,7 +1090,7 @@ open
 *
 param
 {
-String
+string
 }
 object
 *
@@ -1125,7 +1125,7 @@ setting
 *
 param
 {
-String
+string
 |
 null
 }
@@ -1157,7 +1157,7 @@ console
 *
 param
 {
-String
+string
 }
 pendingPropName
 *
@@ -1168,7 +1168,7 @@ name
 *
 param
 {
-String
+string
 }
 pendingPropValue
 *
@@ -1443,7 +1443,7 @@ event
 *
 param
 {
-Object
+object
 }
 obj
 *
@@ -1486,7 +1486,7 @@ objects
 *
 param
 {
-String
+string
 }
 method
 *
@@ -1514,7 +1514,7 @@ open
 *
 param
 {
-String
+string
 }
 object
 *
@@ -1549,7 +1549,7 @@ setting
 *
 param
 {
-String
+string
 |
 null
 }
@@ -1581,7 +1581,7 @@ console
 *
 param
 {
-String
+string
 }
 pendingObject
 *
@@ -1685,7 +1685,7 @@ recordEvent
 *
 param
 {
-Object
+object
 }
 obj
 *
@@ -1728,7 +1728,7 @@ objects
 *
 param
 {
-String
+string
 }
 method
 *
@@ -1756,7 +1756,7 @@ open
 *
 param
 {
-String
+string
 }
 object
 *
@@ -1791,7 +1791,7 @@ setting
 *
 param
 {
-String
+string
 |
 null
 }
@@ -1896,7 +1896,7 @@ event
 *
 param
 {
-String
+string
 }
 method
 *
@@ -1924,7 +1924,7 @@ open
 *
 param
 {
-String
+string
 }
 object
 *
@@ -1959,7 +1959,7 @@ setting
 *
 param
 {
-String
+string
 |
 null
 }
@@ -1993,7 +1993,7 @@ console
 *
 param
 {
-Object
+object
 }
 [
 extra
@@ -2381,7 +2381,7 @@ opened
 *
 param
 {
-String
+string
 }
 id
 *
@@ -2395,7 +2395,7 @@ opened
 *
 param
 {
-Object
+object
 }
 obj
 *
@@ -2646,7 +2646,7 @@ closed
 *
 param
 {
-String
+string
 }
 id
 *
@@ -2660,7 +2660,7 @@ opened
 *
 param
 {
-Object
+object
 }
 obj
 *
@@ -2902,7 +2902,7 @@ tool
 *
 param
 {
-String
+string
 }
 id
 *

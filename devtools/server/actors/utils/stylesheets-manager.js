@@ -839,7 +839,7 @@ stylesheets
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -929,7 +929,7 @@ with
 *
 -
 {
-Boolean
+boolean
 }
 isCreatedByDevTools
 :
@@ -1107,7 +1107,7 @@ stylesheet
 *
 param
 {
-Boolean
+boolean
 }
 ignoreExisting
 :
@@ -1532,7 +1532,7 @@ listeners
 *
 param
 {
-Object
+object
 }
 options
 :
@@ -2097,7 +2097,7 @@ styleSheet
 *
 returns
 {
-String
+string
 }
 resourceId
 *
@@ -2214,7 +2214,7 @@ styleSheet
 *
 returns
 {
-String
+string
 }
 resourceId
 *
@@ -2282,7 +2282,7 @@ id
 *
 params
 {
-String
+string
 }
 resourceId
 *
@@ -2345,7 +2345,7 @@ id
 *
 params
 {
-String
+string
 }
 resourceId
 *
@@ -2358,7 +2358,7 @@ stylesheet
 *
 returns
 {
-Number
+number
 }
 *
 /
@@ -2466,7 +2466,7 @@ resourceId
 *
 params
 {
-String
+string
 }
 resourceId
 *
@@ -2479,7 +2479,7 @@ stylesheet
 *
 returns
 {
-String
+string
 }
 *
 /
@@ -2571,7 +2571,7 @@ stylesheet
 *
 params
 {
-String
+string
 }
 resourceId
 *
@@ -2584,7 +2584,7 @@ stylesheet
 *
 return
 {
-Boolean
+boolean
 }
 the
 disabled
@@ -2659,13 +2659,13 @@ text
 *
 param
 {
-String
+string
 }
 resourceId
 *
 param
 {
-String
+string
 }
 text
 *
@@ -2675,13 +2675,13 @@ text
 *
 param
 {
-Object
+object
 }
 options
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -2702,7 +2702,7 @@ false
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -2720,7 +2720,7 @@ UPDATE_GENERAL
 *
 param
 {
-String
+string
 }
 options
 .
@@ -3004,7 +3004,7 @@ visible
 *
 param
 {
-String
+string
 }
 resourceId
 *
@@ -3017,7 +3017,7 @@ stylesheet
 *
 param
 {
-Number
+number
 }
 kind
 *
@@ -3028,7 +3028,7 @@ UPDATE_GENERAL
 *
 param
 {
-String
+string
 }
 cause
 *
@@ -3236,7 +3236,7 @@ TRANSITION_BUFFER_MS
 *
 param
 {
-String
+string
 }
 resourceId
 *
@@ -3249,7 +3249,7 @@ stylesheet
 *
 param
 {
-Number
+number
 }
 kind
 *
@@ -3260,7 +3260,7 @@ UPDATE_GENERAL
 *
 param
 {
-String
+string
 }
 cause
 *
@@ -3776,7 +3776,7 @@ styleSheet
 *
 returns
 {
-Object
+object
 }
 An
 object
@@ -4473,7 +4473,7 @@ anymore
 *
 param
 {
-String
+string
 }
 resourceId
 *
@@ -4486,7 +4486,7 @@ stylesheet
 *
 param
 {
-Number
+number
 }
 index
 *
@@ -4599,7 +4599,7 @@ styleSheet
 *
 returns
 {
-String
+string
 }
 *
 /
@@ -4692,7 +4692,7 @@ styleSheet
 *
 returns
 {
-String
+string
 }
 *
 /
@@ -4981,7 +4981,7 @@ styleSheet
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -5051,7 +5051,7 @@ stylesheet
 *
 param
 {
-String
+string
 }
 resourceId
 *
@@ -5067,7 +5067,7 @@ in
 *
 param
 {
-String
+string
 }
 property
 *
@@ -5079,7 +5079,7 @@ changed
 *
 param
 {
-String
+string
 }
 value
 *
@@ -5460,7 +5460,7 @@ styleSheet
 *
 returns
 {
-String
+string
 }
 the
 associated
@@ -5907,7 +5907,7 @@ styleSheet
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /

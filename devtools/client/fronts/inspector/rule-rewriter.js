@@ -764,7 +764,7 @@ null
 *
 param
 {
-String
+string
 }
 inputString
 The
@@ -999,7 +999,7 @@ string
 *
 param
 {
-String
+string
 }
 inputString
 the
@@ -1107,7 +1107,7 @@ processing
 *
 param
 {
-Number
+number
 }
 index
 The
@@ -1300,7 +1300,7 @@ sheet
 *
 param
 {
-String
+string
 }
 string
 the
@@ -1309,7 +1309,7 @@ text
 *
 param
 {
-Number
+number
 }
 offset
 the
@@ -1323,7 +1323,7 @@ indentation
 *
 return
 {
-String
+string
 }
 the
 indentation
@@ -1565,7 +1565,7 @@ declarations
 *
 param
 {
-String
+string
 }
 text
 The
@@ -2429,7 +2429,7 @@ whitespace
 *
 param
 {
-String
+string
 }
 string
 the
@@ -2438,7 +2438,7 @@ string
 *
 param
 {
-Number
+number
 }
 index
 the
@@ -2450,7 +2450,7 @@ start
 *
 return
 {
-Number
+number
 }
 index
 of
@@ -2537,7 +2537,7 @@ needed
 *
 param
 {
-Number
+number
 }
 index
 The
@@ -2979,7 +2979,7 @@ changedDeclarations
 *
 param
 {
-String
+string
 }
 text
 The
@@ -2989,7 +2989,7 @@ text
 *
 param
 {
-Number
+number
 }
 index
 The
@@ -3001,7 +3001,7 @@ property
 *
 return
 {
-String
+string
 }
 The
 sanitized
@@ -3059,7 +3059,7 @@ declaration
 *
 param
 {
-Number
+number
 }
 index
 index
@@ -3073,7 +3073,7 @@ rule
 *
 param
 {
-String
+string
 }
 name
 current
@@ -3084,7 +3084,7 @@ property
 *
 param
 {
-String
+string
 }
 newName
 new
@@ -3195,7 +3195,7 @@ declaration
 *
 param
 {
-Number
+number
 }
 index
 index
@@ -3209,7 +3209,7 @@ rule
 *
 param
 {
-String
+string
 }
 name
 current
@@ -3220,7 +3220,7 @@ property
 *
 param
 {
-Boolean
+boolean
 }
 isEnabled
 true
@@ -4026,7 +4026,7 @@ createProperty
 *
 param
 {
-Number
+number
 }
 index
 index
@@ -4040,7 +4040,7 @@ rule
 *
 param
 {
-String
+string
 }
 name
 name
@@ -4051,7 +4051,7 @@ property
 *
 param
 {
-String
+string
 }
 value
 value
@@ -4062,7 +4062,7 @@ property
 *
 param
 {
-String
+string
 }
 priority
 priority
@@ -4083,7 +4083,7 @@ important
 *
 param
 {
-Boolean
+boolean
 }
 enabled
 True
@@ -4929,7 +4929,7 @@ declaration
 *
 param
 {
-Number
+number
 }
 index
 index
@@ -4943,7 +4943,7 @@ rule
 *
 param
 {
-String
+string
 }
 name
 name
@@ -4954,7 +4954,7 @@ property
 *
 param
 {
-String
+string
 }
 value
 value
@@ -4965,7 +4965,7 @@ property
 *
 param
 {
-String
+string
 }
 priority
 priority
@@ -4986,7 +4986,7 @@ important
 *
 param
 {
-Boolean
+boolean
 }
 enabled
 True
@@ -5081,7 +5081,7 @@ value
 *
 param
 {
-Number
+number
 }
 index
 index
@@ -5126,7 +5126,7 @@ style
 *
 param
 {
-String
+string
 }
 name
 the
@@ -5137,7 +5137,7 @@ name
 *
 param
 {
-String
+string
 }
 value
 the
@@ -5148,7 +5148,7 @@ value
 *
 param
 {
-String
+string
 }
 priority
 the
@@ -5364,7 +5364,7 @@ declaration
 *
 param
 {
-Number
+number
 }
 index
 index
@@ -5378,7 +5378,7 @@ rule
 *
 param
 {
-String
+string
 }
 name
 the
@@ -5747,7 +5747,7 @@ string
 *
 param
 {
-Number
+number
 }
 copyOffset
 Offset

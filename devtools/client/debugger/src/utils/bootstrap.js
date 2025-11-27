@@ -627,7 +627,7 @@ toolboxStore
 *
 param
 {
-Object
+object
 }
 appComponentAttributes
 *

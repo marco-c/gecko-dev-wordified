@@ -208,7 +208,7 @@ param
 {
 DOMNode
 |
-String
+string
 }
 nodeOrSelector
 The
@@ -374,7 +374,7 @@ description
 *
 param
 {
-Object
+object
 }
 test
 A
@@ -390,7 +390,7 @@ properties
 -
 desc
 {
-String
+string
 }
 a
 textual
@@ -408,7 +408,7 @@ logs
 -
 text
 {
-String
+string
 }
 the
 string
@@ -531,7 +531,7 @@ opened
 *
 param
 {
-String
+string
 }
 selector
 The
@@ -967,7 +967,7 @@ description
 *
 param
 {
-Object
+object
 }
 test
 A

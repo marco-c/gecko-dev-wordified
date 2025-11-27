@@ -943,7 +943,7 @@ hostVsStores
 *
 param
 {
-String
+string
 }
 host
 -
@@ -1642,7 +1642,7 @@ value
 *
 param
 {
-Object
+object
 }
 item
 -
@@ -1654,7 +1654,7 @@ convert
 *
 param
 {
-String
+string
 }
 item
 .

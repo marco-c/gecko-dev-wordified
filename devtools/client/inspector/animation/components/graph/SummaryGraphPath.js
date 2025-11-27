@@ -895,7 +895,7 @@ keyframes2
 *
 return
 {
-Boolean
+boolean
 }
 true
 :

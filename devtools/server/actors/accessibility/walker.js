@@ -753,7 +753,7 @@ tested
 *
 return
 {
-Boolean
+boolean
 }
 *
 True
@@ -847,7 +847,7 @@ root
 *
 param
 {
-Object
+object
 }
 acc
 *
@@ -865,7 +865,7 @@ audit
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -911,7 +911,7 @@ information
 *
 param
 {
-Object
+object
 }
 progress
 *
@@ -2466,7 +2466,7 @@ actor
 *
 param
 {
-Object
+object
 }
 domNode
 *
@@ -2881,7 +2881,7 @@ checks
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -3154,7 +3154,7 @@ fails
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -4023,7 +4023,7 @@ overlay
 *
 param
 {
-Object
+object
 }
 win
 *
@@ -4201,7 +4201,7 @@ overlay
 *
 param
 {
-Object
+object
 }
 win
 *
@@ -4423,7 +4423,7 @@ side
 *
 param
 {
-Object
+object
 }
 accessible
 *
@@ -4435,7 +4435,7 @@ highlighted
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -4468,7 +4468,7 @@ shown
 *
 return
 {
-Boolean
+boolean
 }
 *
 True
@@ -5131,7 +5131,7 @@ enabled
 *
 param
 {
-Object
+object
 }
 event
 *
@@ -5319,7 +5319,7 @@ enabled
 *
 param
 {
-Object
+object
 }
 event
 *
@@ -5509,7 +5509,7 @@ enabled
 *
 param
 {
-Object
+object
 }
 event
 *
@@ -5986,7 +5986,7 @@ tree
 *
 param
 {
-Object
+object
 }
 event
 *
@@ -5999,7 +5999,7 @@ return
 {
 null
 |
-Object
+object
 }
 *
 Accessible
@@ -6839,7 +6839,7 @@ overlay
 *
 param
 {
-Object
+object
 }
 event
 *
@@ -6937,7 +6937,7 @@ overlay
 *
 param
 {
-Object
+object
 }
 event
 *
@@ -7071,7 +7071,7 @@ target
 *
 param
 {
-Object
+object
 }
 elm
 *
@@ -7094,7 +7094,7 @@ order
 *
 param
 {
-Number
+number
 }
 index
 *

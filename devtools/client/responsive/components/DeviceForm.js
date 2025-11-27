@@ -683,7 +683,7 @@ value
 *
 param
 {
-String
+string
 }
 value
 *
@@ -699,7 +699,7 @@ name
 *
 return
 {
-Boolean
+boolean
 }
 true
 if

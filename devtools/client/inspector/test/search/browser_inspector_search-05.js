@@ -656,13 +656,13 @@ node
 *
 param
 {
-Object
+object
 }
 inspector
 *
 returns
 {
-Object
+object
 }
 *
 nodeFront

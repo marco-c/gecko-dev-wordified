@@ -1184,7 +1184,7 @@ color
 *
 param
 {
-String
+string
 }
 customColor
 *
@@ -1202,7 +1202,7 @@ exists
 *
 param
 {
-String
+string
 }
 fallbackColor
 *
@@ -1224,7 +1224,7 @@ front
 *
 return
 {
-String
+string
 }
 color
 *
@@ -1494,7 +1494,7 @@ objects
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -2848,7 +2848,7 @@ for
 *
 param
 {
-Boolean
+boolean
 }
 highlighted
 *
@@ -3509,7 +3509,7 @@ updated
 *
 param
 {
-String
+string
 }
 color
 *
@@ -4165,7 +4165,7 @@ highlighted
 *
 param
 {
-Boolean
+boolean
 }
 enabled
 *
@@ -4307,7 +4307,7 @@ highlighted
 *
 param
 {
-Boolean
+boolean
 }
 enabled
 *
@@ -4449,7 +4449,7 @@ highlighted
 *
 param
 {
-Boolean
+boolean
 }
 enabled
 *
@@ -4588,7 +4588,7 @@ object
 *
 param
 {
-String
+string
 }
 message
 *
@@ -4697,7 +4697,7 @@ data
 *
 param
 {
-Object
+object
 }
 parent
 *
@@ -4710,7 +4710,7 @@ parent
 *
 param
 {
-Number
+number
 }
 zIndex
 *

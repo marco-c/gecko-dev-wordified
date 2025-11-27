@@ -308,7 +308,7 @@ panel
 *
 param
 {
-Object
+object
 }
 store
 *
@@ -362,7 +362,7 @@ information
 *
 param
 {
-Boolean
+boolean
 }
 showUserAgentStyles
 *
@@ -1040,7 +1040,7 @@ id
 *
 param
 {
-String
+string
 |
 null
 }
@@ -1493,7 +1493,7 @@ properties
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1539,7 +1539,7 @@ array
 *
 return
 {
-Boolean
+boolean
 }
 true
 if
@@ -1962,7 +1962,7 @@ not
 *
 param
 {
-String
+string
 }
 pseudo
 *
@@ -3610,7 +3610,7 @@ earlier
 *
 param
 {
-Object
+object
 }
 computedProp
 :
@@ -3627,7 +3627,7 @@ computed
 *
 param
 {
-Object
+object
 }
 earlierProp
 :
@@ -3945,7 +3945,7 @@ param
 {
 Set
 <
-String
+string
 >
 }
 registeredPropertyNamesSet
@@ -4063,7 +4063,7 @@ param
 {
 Set
 <
-String
+string
 >
 }
 variableNamesSet
@@ -4234,7 +4234,7 @@ runtime
 *
 param
 {
-String
+string
 }
 pseudo
 *
@@ -4726,7 +4726,7 @@ rule
 *
 param
 {
-String
+string
 }
 ruleId
 *
@@ -4742,7 +4742,7 @@ modified
 *
 param
 {
-String
+string
 }
 value
 *
@@ -4908,7 +4908,7 @@ value
 *
 param
 {
-String
+string
 }
 ruleId
 *
@@ -4924,7 +4924,7 @@ declaration
 *
 param
 {
-String
+string
 }
 declarationId
 *
@@ -4939,7 +4939,7 @@ declaration
 *
 param
 {
-String
+string
 }
 name
 *
@@ -5132,7 +5132,7 @@ param
 {
 Array
 <
-Object
+object
 >
 }
 declarationsToAdd
@@ -5298,7 +5298,7 @@ value
 *
 param
 {
-String
+string
 }
 value
 *
@@ -5310,7 +5310,7 @@ parse
 *
 return
 {
-Object
+object
 }
 An
 object
@@ -5646,7 +5646,7 @@ value
 *
 param
 {
-String
+string
 }
 ruleId
 *
@@ -5662,7 +5662,7 @@ declaration
 *
 param
 {
-String
+string
 }
 declarationId
 *
@@ -5677,7 +5677,7 @@ declaration
 *
 param
 {
-String
+string
 }
 value
 *
@@ -5869,7 +5869,7 @@ value
 *
 param
 {
-String
+string
 }
 ruleId
 *
@@ -5885,7 +5885,7 @@ modified
 *
 param
 {
-String
+string
 }
 selector
 *
@@ -6371,7 +6371,7 @@ declaration
 *
 param
 {
-String
+string
 }
 ruleId
 *
@@ -6387,7 +6387,7 @@ declaration
 *
 param
 {
-String
+string
 }
 declarationId
 *
@@ -6505,7 +6505,7 @@ update
 *
 return
 {
-Boolean
+boolean
 }
 true
 if
@@ -6651,7 +6651,7 @@ variable
 *
 param
 {
-String
+string
 }
 name
 *
@@ -6664,7 +6664,7 @@ variable
 *
 param
 {
-String
+string
 }
 pseudo
 *
@@ -6680,7 +6680,7 @@ rule
 *
 return
 {
-Object
+object
 }
 An
 object
@@ -6923,7 +6923,7 @@ properties
 *
 param
 {
-String
+string
 }
 pseudo
 *

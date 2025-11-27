@@ -304,7 +304,7 @@ menu
 event
 *
 {
-Object
+object
 }
 message
 (
@@ -332,7 +332,7 @@ request
 *
 param
 {
-Object
+object
 }
 options
 *

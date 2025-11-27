@@ -337,7 +337,7 @@ scope
 *
 param
 {
-String
+string
 }
 filePath
 The
@@ -486,7 +486,7 @@ selector
 *
 param
 {
-String
+string
 |
 NodeFront
 }
@@ -510,7 +510,7 @@ toolbox
 *
 param
 {
-Boolean
+boolean
 }
 Set
 to
@@ -654,13 +654,13 @@ page
 *
 param
 {
-String
+string
 }
 selector
 *
 return
 {
-String
+string
 }
 the
 nodeValue
@@ -852,7 +852,7 @@ passed
 *
 param
 {
-String
+string
 |
 NodeFront
 }
@@ -1048,7 +1048,7 @@ keypress
 *
 param
 {
-String
+string
 }
 value
 The
@@ -1208,7 +1208,7 @@ created
 *
 param
 {
-String
+string
 }
 selector
 The
@@ -1222,7 +1222,7 @@ edit
 *
 param
 {
-String
+string
 }
 text
 The
@@ -1390,7 +1390,7 @@ attributes
 *
 param
 {
-String
+string
 }
 selector
 The
@@ -1404,7 +1404,7 @@ check
 *
 param
 {
-Object
+object
 }
 expected
 An
@@ -1928,7 +1928,7 @@ inspector
 *
 param
 {
-Boolean
+boolean
 }
 assert
 Should
@@ -2205,7 +2205,7 @@ inspector
 *
 param
 {
-Boolean
+boolean
 }
 assert
 Should
@@ -2572,7 +2572,7 @@ resolve
 *
 param
 {
-Number
+number
 }
 ms
 *
@@ -2833,7 +2833,7 @@ view
 *
 param
 {
-String
+string
 }
 attrName
 The
@@ -2846,7 +2846,7 @@ found
 *
 param
 {
-Boolean
+boolean
 }
 editMode
 Whether
@@ -2998,7 +2998,7 @@ editor
 *
 param
 {
-String
+string
 }
 selector
 *
@@ -3139,7 +3139,7 @@ instance
 *
 param
 {
-String
+string
 |
 MarkupContainer
 }
@@ -3161,7 +3161,7 @@ node
 *
 param
 {
-Number
+number
 }
 xOffset
 Optional
@@ -3174,7 +3174,7 @@ by
 *
 param
 {
-Number
+number
 }
 yOffset
 Optional
@@ -3462,7 +3462,7 @@ instance
 *
 param
 {
-String
+string
 |
 MarkupContainer
 }
@@ -3578,7 +3578,7 @@ instance
 *
 param
 {
-String
+string
 |
 MarkupContainer
 }
@@ -3600,7 +3600,7 @@ node
 *
 param
 {
-Number
+number
 }
 xOffset
 Optional
@@ -3613,7 +3613,7 @@ by
 *
 param
 {
-Number
+number
 }
 yOffset
 Optional
@@ -3844,7 +3844,7 @@ instance
 *
 param
 {
-String
+string
 }
 key
 *
@@ -3859,7 +3859,7 @@ node
 *
 param
 {
-Object
+object
 }
 *
 -

@@ -422,7 +422,7 @@ belongs
 *
 return
 {
-Object
+object
 |
 null
 }
@@ -1558,7 +1558,7 @@ from
 *
 return
 {
-Object
+object
 }
 {
 name
@@ -1848,7 +1848,7 @@ node
 *
 returns
 {
-String
+string
 }
 The
 point
@@ -1992,7 +1992,7 @@ array
 *
 param
 {
-String
+string
 }
 propertyValue
 *

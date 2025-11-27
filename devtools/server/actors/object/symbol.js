@@ -163,7 +163,7 @@ actor
 *
 param
 {
-Symbol
+symbol
 }
 symbol
 :

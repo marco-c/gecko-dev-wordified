@@ -236,7 +236,7 @@ rule
 *
 param
 {
-String
+string
 }
 property
 *
@@ -249,7 +249,7 @@ property
 *
 return
 {
-String
+string
 }
 the
 value
@@ -374,7 +374,7 @@ property
 *
 param
 {
-String
+string
 }
 property
 *
@@ -596,7 +596,7 @@ yet
 *
 param
 {
-String
+string
 }
 name
 *
@@ -622,7 +622,7 @@ rule
 *
 return
 {
-Number
+number
 }
 The
 property

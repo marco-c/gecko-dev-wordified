@@ -483,7 +483,7 @@ node
 *
 param
 {
-String
+string
 |
 NodeFront
 }

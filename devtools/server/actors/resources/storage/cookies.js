@@ -2406,7 +2406,7 @@ process
 *
 param
 {
-Object
+object
 }
 data
 *
@@ -2421,7 +2421,7 @@ details
 *
 returns
 {
-Object
+object
 }
 An
 object
@@ -2472,19 +2472,19 @@ host
 *
 param
 {
-String
+string
 }
 guid
 *
 param
 {
-String
+string
 }
 host
 *
 returns
 {
-Object
+object
 }
 An
 object
@@ -2627,7 +2627,7 @@ principal
 *
 param
 {
-String
+string
 }
 guid
 *
@@ -2639,7 +2639,7 @@ principal
 *
 returns
 {
-String
+string
 |
 null
 }
@@ -2920,7 +2920,7 @@ edit
 *
 param
 {
-Object
+object
 }
 data
 *
@@ -3097,7 +3097,7 @@ false
 returns
 {
 (
-String
+string
 |
 null
 )

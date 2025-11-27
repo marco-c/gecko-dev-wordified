@@ -114,13 +114,13 @@ properties
 *
 param
 {
-Object
+object
 }
 obj
 *
 return
 {
-Object
+object
 }
 *
 api
@@ -176,7 +176,7 @@ fn
 *
 param
 {
-String
+string
 }
 event
 *
@@ -270,7 +270,7 @@ args
 *
 param
 {
-String
+string
 }
 event
 *

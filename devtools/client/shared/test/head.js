@@ -979,13 +979,13 @@ between
 *
 param
 {
-Number
+number
 }
 nbOfTimes
 *
 param
 {
-Number
+number
 }
 usageTime
 in
@@ -993,7 +993,7 @@ milliseconds
 *
 param
 {
-String
+string
 }
 toolId
 *

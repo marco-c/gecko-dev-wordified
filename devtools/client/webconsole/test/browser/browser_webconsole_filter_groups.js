@@ -991,13 +991,13 @@ hud
 *
 param
 {
-String
+string
 }
 expected
 *
 param
 {
-String
+string
 }
 assertionMessage
 *

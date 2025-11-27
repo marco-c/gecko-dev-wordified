@@ -539,7 +539,7 @@ RecordingSettings
 *
 typedef
 {
-Object
+object
 }
 ButtonStateProps
 *
@@ -559,7 +559,7 @@ ButtonProps
 *
 typedef
 {
-Object
+object
 }
 ButtonState
 *
@@ -1484,7 +1484,7 @@ PageContext
 *
 typedef
 {
-Object
+object
 }
 StateProps
 *

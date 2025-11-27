@@ -1538,7 +1538,7 @@ object
 *
 param
 {
-String
+string
 }
 focusedButton
 -
@@ -2745,7 +2745,7 @@ inspector
 *
 param
 {
-Object
+object
 [
 ]
 }
@@ -3065,7 +3065,7 @@ button
 *
 param
 {
-Object
+object
 }
 props
 .
@@ -3077,7 +3077,7 @@ interface
 *
 param
 {
-Object
+object
 }
 props
 .
@@ -3102,7 +3102,7 @@ popup
 *
 param
 {
-Object
+object
 }
 refs
 *

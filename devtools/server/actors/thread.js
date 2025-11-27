@@ -3771,7 +3771,7 @@ param
 {
 Array
 <
-String
+string
 >
 }
 ids
@@ -3845,7 +3845,7 @@ param
 {
 Array
 <
-String
+string
 >
 }
 ids
@@ -3926,7 +3926,7 @@ param
 {
 Array
 <
-String
+string
 >
 }
 ids
@@ -8156,7 +8156,7 @@ breakpoints
 *
 param
 {
-Boolean
+boolean
 }
 doPause
 *
@@ -8270,7 +8270,7 @@ it
 *
 param
 {
-Boolean
+boolean
 }
 doPause
 *
@@ -14709,7 +14709,7 @@ global
 *
 returns
 {
-Object
+object
 |
 undefined
 }

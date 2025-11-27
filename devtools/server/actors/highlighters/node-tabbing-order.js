@@ -226,7 +226,7 @@ destroy
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -669,7 +669,7 @@ highlight
 *
 param
 {
-Boolean
+boolean
 }
 focused
 *
@@ -1161,7 +1161,7 @@ getAdjustedQuads
 *
 return
 {
-Object
+object
 }
 A
 bounds
@@ -1549,7 +1549,7 @@ quads
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -1756,7 +1756,7 @@ infobar
 *
 param
 {
-Object
+object
 }
 bounds
 *

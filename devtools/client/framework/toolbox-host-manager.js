@@ -744,7 +744,7 @@ Toolbox
 *
 param
 {
-String
+string
 }
 toolId
 *
@@ -758,7 +758,7 @@ show
 *
 param
 {
-Object
+object
 }
 toolOptions
 *
@@ -1726,7 +1726,7 @@ host
 *
 param
 {
-String
+string
 }
 hostType
 *
@@ -1740,7 +1740,7 @@ spawn
 *
 param
 {
-Boolean
+boolean
 }
 destroyPreviousHost
 *
@@ -2370,7 +2370,7 @@ type
 *
 param
 {
-String
+string
 }
 tabBrowsingContextID
 *

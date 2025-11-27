@@ -556,7 +556,7 @@ etc
 *
 param
 {
-Number
+number
 }
 height
 *
@@ -569,7 +569,7 @@ tooltip
 *
 param
 {
-String
+string
 }
 pos
 *
@@ -593,7 +593,7 @@ bottom
 *
 param
 {
-Number
+number
 }
 offset
 *
@@ -611,7 +611,7 @@ tooltip
 *
 return
 {
-Object
+object
 }
 *
 -
@@ -1044,7 +1044,7 @@ hang
 *
 param
 {
-Number
+number
 }
 width
 *
@@ -1057,7 +1057,7 @@ tooltip
 *
 param
 {
-String
+string
 }
 type
 *
@@ -1077,7 +1077,7 @@ arrow
 *
 param
 {
-Number
+number
 }
 offset
 *
@@ -1089,7 +1089,7 @@ pixels
 *
 param
 {
-Number
+number
 }
 borderRadius
 *
@@ -1139,7 +1139,7 @@ platform
 *
 param
 {
-Boolean
+boolean
 }
 isRtl
 *
@@ -1161,7 +1161,7 @@ right
 *
 return
 {
-Object
+object
 }
 *
 -
@@ -2157,7 +2157,7 @@ popup
 *
 param
 {
-Object
+object
 }
 *
 -
@@ -2959,7 +2959,7 @@ panel
 *
 param
 {
-Object
+object
 }
 *
 -
@@ -3378,7 +3378,7 @@ aligned
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -3392,7 +3392,7 @@ tooltip
 *
 param
 {
-String
+string
 }
 options
 .
@@ -3440,7 +3440,7 @@ available
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -3459,7 +3459,7 @@ tooltip
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -4878,7 +4878,7 @@ rect
 *
 param
 {
-Object
+object
 }
 anchorRect
 *
@@ -4934,7 +4934,7 @@ anchor
 *
 return
 {
-Object
+object
 }
 An
 object
@@ -5921,7 +5921,7 @@ displayed
 *
 return
 {
-Boolean
+boolean
 }
 true
 if

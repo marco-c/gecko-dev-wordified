@@ -546,7 +546,7 @@ url
 *
 param
 {
-String
+string
 }
 url
 *
@@ -562,13 +562,13 @@ tab
 *
 param
 {
-Object
+object
 }
 options
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -1113,7 +1113,7 @@ off
 *
 returns
 {
-Boolean
+boolean
 }
 *
 True
@@ -1228,7 +1228,7 @@ row
 *
 param
 {
-Boolean
+boolean
 }
 expected
 *
@@ -1240,7 +1240,7 @@ state
 *
 returns
 {
-Boolean
+boolean
 }
 *
 True
@@ -1334,7 +1334,7 @@ row
 *
 param
 {
-Boolean
+boolean
 }
 expected
 *
@@ -1351,7 +1351,7 @@ level
 *
 returns
 {
-Boolean
+boolean
 }
 *
 True
@@ -1660,7 +1660,7 @@ role
 *
 param
 {
-Object
+object
 }
 relations
 Relations
@@ -1670,7 +1670,7 @@ test
 *
 param
 {
-Object
+object
 }
 expected
 Expected
@@ -1679,7 +1679,7 @@ relations
 *
 return
 {
-Boolean
+boolean
 }
 True
 if
@@ -1856,7 +1856,7 @@ points
 *
 param
 {
-String
+string
 }
 _
 *
@@ -1953,7 +1953,7 @@ checks
 *
 param
 {
-Object
+object
 }
 store
 React
@@ -1973,7 +1973,7 @@ audit
 *
 param
 {
-Object
+object
 }
 expectedState
 Expected
@@ -2141,7 +2141,7 @@ sidebar
 *
 param
 {
-Object
+object
 }
 store
 React
@@ -2161,7 +2161,7 @@ sidebar
 *
 param
 {
-Object
+object
 }
 expectedState
 Expected
@@ -2371,7 +2371,7 @@ document
 *
 param
 {
-Object
+object
 }
 toolbarPrefValues
 *
@@ -2413,7 +2413,7 @@ view
 *
 param
 {
-Object
+object
 }
 store
 *
@@ -2629,7 +2629,7 @@ toolbar
 *
 param
 {
-Object
+object
 }
 store
 *
@@ -2649,7 +2649,7 @@ sidebar
 *
 param
 {
-Object
+object
 }
 activeToolbarFilters
 *
@@ -2795,7 +2795,7 @@ components
 *
 param
 {
-Object
+object
 }
 doc
 Panel
@@ -2804,7 +2804,7 @@ document
 *
 param
 {
-Object
+object
 }
 toolboxDoc
 Toolbox
@@ -2813,7 +2813,7 @@ document
 *
 param
 {
-Object
+object
 }
 expected
 Expected
@@ -2826,7 +2826,7 @@ components
 *
 param
 {
-Boolean
+boolean
 }
 expected
 .
@@ -2836,7 +2836,7 @@ param
 {
 Array
 <
-Number
+number
 >
 }
 expected
@@ -2847,7 +2847,7 @@ param
 {
 Array
 <
-Number
+number
 >
 }
 expected
@@ -3256,7 +3256,7 @@ document
 *
 param
 {
-String
+string
 }
 id
 id
@@ -3474,7 +3474,7 @@ documnent
 *
 param
 {
-Number
+number
 }
 rowNumber
 number
@@ -3590,7 +3590,7 @@ documnent
 *
 param
 {
-Number
+number
 }
 rowNumber
 number
@@ -3832,7 +3832,7 @@ document
 *
 param
 {
-String
+string
 }
 menuId
 *
@@ -3852,7 +3852,7 @@ component
 *
 param
 {
-Number
+number
 }
 menuItemIndex
 *
@@ -4213,7 +4213,7 @@ document
 *
 param
 {
-Number
+number
 }
 *
 index
@@ -4630,7 +4630,7 @@ filters
 *
 param
 {
-Object
+object
 }
 env
 *
@@ -4828,7 +4828,7 @@ snippet
 *
 param
 {
-String
+string
 }
 uri
 HTML
@@ -4836,7 +4836,7 @@ snippet
 *
 param
 {
-Object
+object
 }
 options
 options
@@ -4846,7 +4846,7 @@ test
 *
 return
 {
-String
+string
 }
 built
 URL
@@ -5034,7 +5034,7 @@ of
 *
 desc
 {
-String
+string
 }
 description
 for
@@ -5087,7 +5087,7 @@ sidebar
 *
 param
 {
-String
+string
 }
 uri
 test
@@ -5095,7 +5095,7 @@ URL
 *
 param
 {
-String
+string
 }
 msg
 a
@@ -5109,7 +5109,7 @@ test
 *
 param
 {
-Object
+object
 }
 options
 options
@@ -5290,7 +5290,7 @@ tools
 *
 param
 {
-String
+string
 }
 msg
 a
@@ -5304,7 +5304,7 @@ test
 *
 param
 {
-String
+string
 }
 uri
 absolute
@@ -5328,7 +5328,7 @@ tests
 *
 param
 {
-Object
+object
 }
 options
 options

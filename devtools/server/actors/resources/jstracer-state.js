@@ -367,7 +367,7 @@ user
 *
 param
 {
-Boolean
+boolean
 }
 enabled
 *
@@ -385,7 +385,7 @@ stops
 *
 param
 {
-String
+string
 }
 reason
 *

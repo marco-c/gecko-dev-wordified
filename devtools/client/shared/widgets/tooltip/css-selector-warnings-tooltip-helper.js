@@ -204,7 +204,7 @@ param
 {
 Array
 <
-String
+string
 >
 }
 data

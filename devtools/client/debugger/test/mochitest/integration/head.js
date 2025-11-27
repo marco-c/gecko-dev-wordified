@@ -412,7 +412,7 @@ run
 *
 param
 {
-String
+string
 }
 testFolder
 *
@@ -457,7 +457,7 @@ createVersionizedHttpTestServer
 *
 param
 {
-Object
+object
 }
 env
 *

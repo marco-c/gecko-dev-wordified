@@ -788,7 +788,7 @@ view
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -796,7 +796,7 @@ param
 {
 Array
 <
-String
+string
 >
 }
 options
@@ -955,7 +955,7 @@ picker
 *
 param
 {
-String
+string
 }
 frameUrl
 :
@@ -967,7 +967,7 @@ select
 *
 param
 {
-Number
+number
 }
 expectedFramesCount
 :

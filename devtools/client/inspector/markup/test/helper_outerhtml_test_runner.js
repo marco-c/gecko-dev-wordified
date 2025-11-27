@@ -324,7 +324,7 @@ description
 *
 param
 {
-Object
+object
 }
 test
 A

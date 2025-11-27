@@ -738,7 +738,7 @@ snapshot
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -878,7 +878,7 @@ diffing
 *
 returns
 {
-String
+string
 }
 *
 /
@@ -981,7 +981,7 @@ diffing
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /

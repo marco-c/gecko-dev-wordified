@@ -1154,7 +1154,7 @@ type
 *
 param
 {
-Object
+object
 }
 resource
 :
@@ -1179,7 +1179,7 @@ API
 *
 param
 {
-Boolean
+boolean
 }
 persistLogs
 :
@@ -3651,7 +3651,7 @@ message2
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -3997,7 +3997,7 @@ message2
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -4398,7 +4398,7 @@ message2
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -4987,7 +4987,7 @@ firstMessage
 *
 returns
 {
-String
+string
 }
 The
 computed
@@ -5111,19 +5111,19 @@ string
 *
 param
 {
-String
+string
 }
 text
 *
 param
 {
-String
+string
 }
 replacementText
 *
 returns
 {
-String
+string
 }
 *
 /
@@ -5379,7 +5379,7 @@ message
 *
 returns
 {
-String
+string
 |
 null
 }
@@ -5613,7 +5613,7 @@ innerWindowID
 *
 returns
 {
-String
+string
 }
 *
 /
@@ -5687,7 +5687,7 @@ message
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -5792,7 +5792,7 @@ message
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -5869,7 +5869,7 @@ message
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -5920,7 +5920,7 @@ message
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -5971,7 +5971,7 @@ message
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -6039,7 +6039,7 @@ message
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /

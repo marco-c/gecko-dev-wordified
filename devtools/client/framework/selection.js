@@ -1021,7 +1021,7 @@ selected
 *
 param
 {
-Object
+object
 }
 options
 (
@@ -1030,7 +1030,7 @@ optional
 *
 param
 {
-String
+string
 }
 options
 .
@@ -1059,7 +1059,7 @@ event
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -1080,7 +1080,7 @@ node
 *
 param
 {
-String
+string
 }
 options
 .

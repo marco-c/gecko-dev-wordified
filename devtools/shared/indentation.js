@@ -135,7 +135,7 @@ tabs
 *
 return
 {
-Object
+object
 }
 an
 object
@@ -263,7 +263,7 @@ return
 {
 false
 |
-Object
+object
 }
 *
 Returns
@@ -421,7 +421,7 @@ line
 *
 return
 {
-Object
+object
 }
 an
 object
@@ -588,7 +588,7 @@ string
 *
 param
 {
-String
+string
 }
 string
 the
@@ -597,7 +597,7 @@ text
 *
 return
 {
-Object
+object
 }
 an
 object

@@ -320,7 +320,7 @@ system
 *
 params
 {
-Object
+object
 |
 undefined
 }
@@ -455,7 +455,7 @@ returned
 *
 param
 {
-String
+string
 }
 snapshotId
 *

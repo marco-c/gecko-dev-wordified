@@ -467,7 +467,7 @@ specified
 *
 param
 {
-Object
+object
 }
 node
 *
@@ -551,7 +551,7 @@ specified
 *
 param
 {
-Object
+object
 }
 node
 *
@@ -632,7 +632,7 @@ content
 *
 param
 {
-Object
+object
 }
 parserLanguage
 -
@@ -647,7 +647,7 @@ source
 *
 param
 {
-String
+string
 }
 id
 -
@@ -660,7 +660,7 @@ source
 *
 param
 {
-String
+string
 }
 content
 -
@@ -781,7 +781,7 @@ location
 *
 param
 {
-Object
+object
 }
 doc
 -
@@ -798,7 +798,7 @@ content
 *
 param
 {
-Object
+object
 }
 node
 -
@@ -827,7 +827,7 @@ SyntaxNode
 *
 params
 {
-Object
+object
 }
 options
 *
@@ -1018,13 +1018,13 @@ source
 *
 param
 {
-Object
+object
 }
 node
 *
 param
 {
-String
+string
 }
 scopeType
 -
@@ -1079,7 +1079,7 @@ type
 *
 returns
 {
-Object
+object
 |
 null
 }
@@ -1268,7 +1268,7 @@ location
 *
 param
 {
-Object
+object
 }
 doc
 -
@@ -1293,7 +1293,7 @@ doc
 *
 param
 {
-Object
+object
 }
 tree
 -
@@ -1318,13 +1318,13 @@ Tree
 *
 param
 {
-Object
+object
 }
 location
 *
 returns
 {
-Object
+object
 }
 node
 -
@@ -1448,7 +1448,7 @@ CM6
 *
 param
 {
-Object
+object
 }
 doc
 -
@@ -1465,7 +1465,7 @@ content
 *
 param
 {
-Number
+number
 }
 pos
 -
@@ -1552,7 +1552,7 @@ functions
 *
 param
 {
-Object
+object
 }
 doc
 -
@@ -1569,7 +1569,7 @@ content
 *
 param
 {
-Object
+object
 }
 node
 -
@@ -1598,7 +1598,7 @@ SyntaxNode
 *
 returns
 {
-String
+string
 |
 null
 }
@@ -2254,7 +2254,7 @@ array
 *
 param
 {
-Object
+object
 }
 doc
 -
@@ -2271,7 +2271,7 @@ content
 *
 param
 {
-Object
+object
 }
 node
 -
@@ -2782,7 +2782,7 @@ nodes
 *
 param
 {
-Object
+object
 }
 doc
 -
@@ -2799,7 +2799,7 @@ content
 *
 param
 {
-Object
+object
 }
 node
 -
@@ -2941,7 +2941,7 @@ provided
 *
 param
 {
-Object
+object
 }
 view
 -
@@ -2966,7 +2966,7 @@ view
 *
 param
 {
-Object
+object
 }
 language
 -
@@ -2991,7 +2991,7 @@ language
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -3263,7 +3263,7 @@ parent
 *
 param
 {
-Object
+object
 }
 cursor
 -
@@ -3288,7 +3288,7 @@ TreeCursor
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -3407,13 +3407,13 @@ variables
 *
 param
 {
-Object
+object
 }
 scopeBindings
 *
 returns
 {
-Object
+object
 }
 bindings
 *

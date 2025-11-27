@@ -96,7 +96,7 @@ P
 *
 typedef
 {
-Object
+object
 }
 StateProps
 *
@@ -133,7 +133,7 @@ pageContext
 *
 typedef
 {
-Object
+object
 }
 OwnProps
 *
@@ -186,7 +186,7 @@ perfFront
 *
 typedef
 {
-Object
+object
 }
 ThunkDispatchProps
 *

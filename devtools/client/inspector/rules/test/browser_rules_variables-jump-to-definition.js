@@ -3128,7 +3128,7 @@ jumpToDefinitionButton
 *
 param
 {
-String
+string
 }
 expectedPropertyName
 :
@@ -3144,7 +3144,7 @@ highlighted
 *
 param
 {
-String
+string
 }
 expectedPropertyValue
 :

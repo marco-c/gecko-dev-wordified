@@ -248,7 +248,7 @@ provider
 *
 param
 {
-Object
+object
 }
 commands
 Object
@@ -268,7 +268,7 @@ backend
 *
 param
 {
-Object
+object
 }
 actions
 set
@@ -283,7 +283,7 @@ process
 *
 param
 {
-Object
+object
 }
 owner
 all

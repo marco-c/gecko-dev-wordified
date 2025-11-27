@@ -113,7 +113,7 @@ state
 *
 param
 {
-Boolean
+boolean
 }
 enabled
 *

@@ -571,7 +571,7 @@ filter
 *
 param
 {
-String
+string
 }
 filter
 *
@@ -1084,7 +1084,7 @@ view
 *
 return
 {
-Object
+object
 }
 *
 Topmost
@@ -1462,7 +1462,7 @@ listeners
 *
 param
 {
-Boolean
+boolean
 }
 doFocus
 *

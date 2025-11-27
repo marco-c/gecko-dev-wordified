@@ -1709,13 +1709,13 @@ input
 *
 param
 {
-Object
+object
 }
 expectedSelectedItem
 *
 param
 {
-String
+string
 }
 info
 *

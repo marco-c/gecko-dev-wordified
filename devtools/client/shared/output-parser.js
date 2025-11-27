@@ -1041,7 +1041,7 @@ name
 *
 param
 {
-String
+string
 }
 name
 *
@@ -1051,7 +1051,7 @@ Name
 *
 param
 {
-String
+string
 }
 value
 *
@@ -1061,7 +1061,7 @@ value
 *
 param
 {
-Object
+object
 }
 [
 options
@@ -1460,7 +1460,7 @@ seen
 *
 param
 {
-String
+string
 }
 text
 *
@@ -1487,7 +1487,7 @@ read
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1504,7 +1504,7 @@ mergeOptions
 *
 param
 {
-Boolean
+boolean
 }
 stopAtComma
 *
@@ -1518,7 +1518,7 @@ comma
 *
 return
 {
-Object
+object
 }
 *
 An
@@ -2053,7 +2053,7 @@ seen
 *
 param
 {
-String
+string
 }
 text
 *
@@ -2080,7 +2080,7 @@ read
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -2097,7 +2097,7 @@ mergeOptions
 *
 return
 {
-Object
+object
 }
 *
 -
@@ -3126,7 +3126,7 @@ seen
 *
 param
 {
-String
+string
 }
 text
 *
@@ -3138,7 +3138,7 @@ text
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -3169,7 +3169,7 @@ read
 *
 param
 {
-Boolean
+boolean
 }
 stopAtCloseParen
 *
@@ -6407,7 +6407,7 @@ string
 *
 param
 {
-String
+string
 }
 text
 *
@@ -6418,7 +6418,7 @@ parse
 *
 param
 {
-Object
+object
 }
 [
 options
@@ -6536,7 +6536,7 @@ token
 *
 param
 {
-String
+string
 }
 text
 *
@@ -6547,7 +6547,7 @@ text
 *
 param
 {
-Object
+object
 }
 token
 *
@@ -6558,7 +6558,7 @@ token
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -6639,7 +6639,7 @@ token
 *
 param
 {
-String
+string
 }
 text
 *
@@ -6650,7 +6650,7 @@ text
 *
 param
 {
-Object
+object
 }
 token
 *
@@ -6661,7 +6661,7 @@ token
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -6735,7 +6735,7 @@ output
 *
 param
 {
-String
+string
 }
 bezier
 *
@@ -6748,7 +6748,7 @@ function
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -7042,7 +7042,7 @@ declaration
 *
 param
 {
-String
+string
 }
 text
 *
@@ -7054,7 +7054,7 @@ append
 *
 param
 {
-String
+string
 }
 toggleButtonClassName
 *
@@ -7203,7 +7203,7 @@ over
 *
 param
 {
-String
+string
 }
 shape
 *
@@ -7216,7 +7216,7 @@ append
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -7527,7 +7527,7 @@ node
 *
 param
 {
-String
+string
 }
 coords
 *
@@ -8487,7 +8487,7 @@ point
 *
 param
 {
-String
+string
 }
 coords
 *
@@ -9531,7 +9531,7 @@ point
 *
 param
 {
-String
+string
 }
 coords
 *
@@ -10632,7 +10632,7 @@ appropriately
 *
 param
 {
-String
+string
 }
 coords
 *
@@ -11734,7 +11734,7 @@ output
 *
 param
 {
-String
+string
 }
 angle
 *
@@ -11744,7 +11744,7 @@ append
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -12019,7 +12019,7 @@ value
 *
 param
 {
-String
+string
 }
 name
 *
@@ -12031,7 +12031,7 @@ check
 *
 param
 {
-String
+string
 }
 value
 *
@@ -12043,7 +12043,7 @@ check
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -12256,7 +12256,7 @@ output
 *
 param
 {
-String
+string
 }
 color
 *
@@ -12266,7 +12266,7 @@ append
 *
 param
 {
-Object
+object
 }
 [
 options
@@ -12321,7 +12321,7 @@ variable
 *
 param
 {
-String
+string
 }
 options
 .
@@ -12924,7 +12924,7 @@ editor
 *
 param
 {
-String
+string
 }
 filters
 *
@@ -13435,7 +13435,7 @@ output
 *
 param
 {
-String
+string
 }
 match
 *
@@ -13453,7 +13453,7 @@ xxx
 *
 param
 {
-String
+string
 }
 url
 *
@@ -13462,7 +13462,7 @@ URL
 *
 param
 {
-Object
+object
 }
 [
 options
@@ -13696,7 +13696,7 @@ output
 *
 param
 {
-String
+string
 }
 fontFamily
 *
@@ -13707,7 +13707,7 @@ append
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -13994,7 +13994,7 @@ node
 *
 param
 {
-String
+string
 }
 tagName
 *
@@ -14010,7 +14010,7 @@ div
 *
 param
 {
-Object
+object
 }
 attributes
 *
@@ -14036,7 +14036,7 @@ pointer
 *
 param
 {
-String
+string
 }
 [
 value
@@ -14209,7 +14209,7 @@ output
 *
 param
 {
-String
+string
 }
 tagName
 *
@@ -14225,7 +14225,7 @@ div
 *
 param
 {
-Object
+object
 }
 attributes
 *
@@ -14251,7 +14251,7 @@ pointer
 *
 param
 {
-String
+string
 }
 [
 value
@@ -14361,7 +14361,7 @@ param
 {
 DOMNode
 |
-String
+string
 }
 item
 *
@@ -14420,7 +14420,7 @@ node
 *
 param
 {
-String
+string
 }
 text
 *
@@ -14656,7 +14656,7 @@ here
 *
 param
 {
-Object
+object
 }
 overrides
 *
@@ -14681,7 +14681,7 @@ false
 *
 param
 {
-Boolean
+boolean
 }
 overrides
 .
@@ -14703,7 +14703,7 @@ panel
 *
 param
 {
-String
+string
 }
 overrides
 .
@@ -14726,7 +14726,7 @@ swatch
 *
 param
 {
-String
+string
 }
 overrides
 .
@@ -14743,7 +14743,7 @@ swatches
 *
 param
 {
-String
+string
 }
 overrides
 .
@@ -14766,7 +14766,7 @@ swatch
 *
 param
 {
-String
+string
 }
 overrides
 .
@@ -14783,7 +14783,7 @@ swatches
 *
 param
 {
-String
+string
 }
 overrides
 .
@@ -14806,7 +14806,7 @@ swatch
 *
 param
 {
-String
+string
 }
 overrides
 .
@@ -14823,7 +14823,7 @@ swatches
 *
 param
 {
-Boolean
+boolean
 }
 overrides
 .
@@ -14850,7 +14850,7 @@ false
 *
 param
 {
-Boolean
+boolean
 }
 overrides
 .
@@ -14891,7 +14891,7 @@ swatch
 *
 param
 {
-String
+string
 }
 overrides
 .
@@ -14909,7 +14909,7 @@ icon
 *
 param
 {
-String
+string
 }
 overrides
 .
@@ -14927,7 +14927,7 @@ icon
 *
 param
 {
-String
+string
 }
 overrides
 .
@@ -14950,7 +14950,7 @@ swatch
 *
 param
 {
-String
+string
 }
 overrides
 .
@@ -14968,7 +14968,7 @@ swatch
 *
 param
 {
-String
+string
 }
 overrides
 .
@@ -14988,7 +14988,7 @@ links
 *
 param
 {
-String
+string
 }
 overrides
 .
@@ -15006,7 +15006,7 @@ families
 *
 param
 {
-String
+string
 }
 overrides
 .
@@ -15034,7 +15034,7 @@ use
 *
 param
 {
-Boolean
+boolean
 }
 overrides
 .
@@ -15050,7 +15050,7 @@ colors
 *
 param
 {
-String
+string
 }
 overrides
 .
@@ -15154,7 +15154,7 @@ property
 *
 param
 {
-Boolean
+boolean
 }
 overrides
 .
@@ -15179,7 +15179,7 @@ true
 *
 param
 {
-Boolean
+boolean
 }
 overrides
 .
@@ -15196,7 +15196,7 @@ dark
 *
 param
 {
-Boolean
+boolean
 }
 overrides
 .
@@ -15212,7 +15212,7 @@ valid
 *
 return
 {
-Object
+object
 }
 Overridden
 options

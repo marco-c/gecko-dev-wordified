@@ -930,7 +930,7 @@ anymore
 *
 param
 {
-Object
+object
 }
 client
 :

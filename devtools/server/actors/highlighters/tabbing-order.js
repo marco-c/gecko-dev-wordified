@@ -1088,7 +1088,7 @@ order
 *
 param
 {
-Object
+object
 }
 options
 *

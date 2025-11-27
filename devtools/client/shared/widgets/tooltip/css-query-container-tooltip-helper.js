@@ -203,7 +203,7 @@ tooltip
 *
 param
 {
-Object
+object
 }
 data
 *

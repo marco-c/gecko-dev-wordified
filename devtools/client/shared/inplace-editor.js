@@ -511,7 +511,7 @@ KeyCodes
 *
 param
 {
-String
+string
 }
 key
 *
@@ -532,7 +532,7 @@ param
 .
 .
 .
-String
+string
 }
 keys
 *
@@ -545,7 +545,7 @@ allowed
 *
 return
 {
-Boolean
+boolean
 }
 true
 if
@@ -652,7 +652,7 @@ escape
 *
 param
 {
-Object
+object
 }
 options
 :
@@ -685,7 +685,7 @@ focus
 *
 param
 {
-String
+string
 }
 options
 .
@@ -939,7 +939,7 @@ input
 *
 param
 {
-Object
+object
 }
 options
 .
@@ -1037,7 +1037,7 @@ instead
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -1076,7 +1076,7 @@ editor
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -1103,7 +1103,7 @@ element
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -1129,7 +1129,7 @@ element
 *
 param
 {
-String
+string
 }
 options
 .
@@ -1151,7 +1151,7 @@ click
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -1223,7 +1223,7 @@ input
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -1243,7 +1243,7 @@ true
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -1273,7 +1273,7 @@ false
 *
 param
 {
-Object
+object
 }
 options
 .
@@ -1287,7 +1287,7 @@ CSSProperties
 *
 param
 {
-Object
+object
 }
 options
 .
@@ -1321,7 +1321,7 @@ value
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -1383,7 +1383,7 @@ GRID_PROPERTY_NAMES
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -1412,7 +1412,7 @@ false
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -1482,7 +1482,7 @@ field
 *
 param
 {
-String
+string
 }
 options
 .
@@ -1538,7 +1538,7 @@ field
 *
 param
 {
-String
+string
 }
 options
 .
@@ -1561,7 +1561,7 @@ input
 *
 param
 {
-String
+string
 }
 options
 .
@@ -1665,7 +1665,7 @@ activated
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -2051,7 +2051,7 @@ eventTarget
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -3069,13 +3069,13 @@ element
 *
 param
 {
-Object
+object
 }
 options
 *
 param
 {
-String
+string
 }
 options
 .
@@ -3098,7 +3098,7 @@ input
 *
 param
 {
-String
+string
 }
 options
 .
@@ -3121,7 +3121,7 @@ input
 *
 param
 {
-String
+string
 }
 options
 .
@@ -4266,7 +4266,7 @@ view
 *
 param
 {
-Number
+number
 }
 increment
 *
@@ -4283,7 +4283,7 @@ value
 *
 return
 {
-Boolean
+boolean
 }
 true
 if
@@ -4433,7 +4433,7 @@ type
 *
 param
 {
-String
+string
 }
 value
 *
@@ -4443,7 +4443,7 @@ value
 *
 param
 {
-Number
+number
 }
 increment
 *
@@ -4459,7 +4459,7 @@ value
 *
 param
 {
-Number
+number
 }
 selStart
 *
@@ -4472,7 +4472,7 @@ value
 *
 param
 {
-Number
+number
 }
 selEnd
 *
@@ -4485,7 +4485,7 @@ value
 *
 return
 {
-Object
+object
 }
 object
 with
@@ -5148,7 +5148,7 @@ duration
 *
 param
 {
-String
+string
 }
 beforeValue
 *
@@ -5168,7 +5168,7 @@ value
 *
 param
 {
-String
+string
 }
 afterValue
 *
@@ -5187,7 +5187,7 @@ value
 *
 return
 {
-String
+string
 }
 a
 valid
@@ -5458,7 +5458,7 @@ type
 *
 param
 {
-String
+string
 }
 value
 *
@@ -5468,7 +5468,7 @@ value
 *
 param
 {
-Number
+number
 }
 offset
 *
@@ -5480,7 +5480,7 @@ value
 *
 return
 {
-Object
+object
 }
 object
 with
@@ -5982,7 +5982,7 @@ names
 *
 param
 {
-String
+string
 }
 value
 *
@@ -5992,7 +5992,7 @@ value
 *
 param
 {
-Number
+number
 }
 increment
 *
@@ -6005,7 +6005,7 @@ decrement
 *
 param
 {
-Number
+number
 }
 offset
 *
@@ -6019,7 +6019,7 @@ value
 *
 param
 {
-Number
+number
 }
 offsetEnd
 *
@@ -6033,7 +6033,7 @@ value
 *
 param
 {
-Object
+object
 }
 info
 *
@@ -6048,7 +6048,7 @@ value
 *
 return
 {
-Object
+object
 }
 object
 with
@@ -6565,7 +6565,7 @@ numbers
 *
 param
 {
-String
+string
 }
 rawValue
 *
@@ -6577,7 +6577,7 @@ increment
 *
 param
 {
-Number
+number
 }
 increment
 *
@@ -6593,7 +6593,7 @@ value
 *
 param
 {
-Object
+object
 }
 info
 *
@@ -6608,7 +6608,7 @@ value
 *
 return
 {
-String
+string
 }
 the
 incremented
@@ -6806,7 +6806,7 @@ hex
 *
 param
 {
-String
+string
 }
 value
 *
@@ -6816,7 +6816,7 @@ value
 *
 param
 {
-Number
+number
 }
 increment
 *
@@ -6832,7 +6832,7 @@ value
 *
 param
 {
-Number
+number
 }
 offset
 *
@@ -6846,7 +6846,7 @@ value
 *
 param
 {
-Number
+number
 }
 offsetEnd
 *
@@ -6860,7 +6860,7 @@ value
 *
 return
 {
-Object
+object
 }
 object
 with
@@ -7525,7 +7525,7 @@ popup
 *
 param
 {
-Boolean
+boolean
 }
 reverse
 *
@@ -7541,7 +7541,7 @@ popup
 *
 param
 {
-Boolean
+boolean
 }
 noSelect
 *
@@ -10010,7 +10010,7 @@ classname
 *
 param
 {
-Number
+number
 }
 offset
 *
@@ -10027,7 +10027,7 @@ edge
 *
 param
 {
-Number
+number
 }
 selectedIndex
 *
@@ -10779,7 +10779,7 @@ input
 *
 param
 {
-Boolean
+boolean
 }
 autoInsert
 *
@@ -13160,7 +13160,7 @@ function
 *
 param
 {
-Object
+object
 }
 functionStackEntry
 *
@@ -13182,7 +13182,7 @@ call
 *
 returns
 {
-Object
+object
 |
 null
 }
@@ -13972,7 +13972,7 @@ text
 *
 return
 {
-Boolean
+boolean
 }
 true
 if
@@ -14185,7 +14185,7 @@ lists
 *
 param
 {
-String
+string
 }
 propertyName
 *
@@ -14486,7 +14486,7 @@ name
 *
 param
 {
-String
+string
 }
 varName
 *
@@ -14501,7 +14501,7 @@ of
 *
 return
 {
-String
+string
 }
 the
 variable
@@ -14959,7 +14959,7 @@ moved
 *
 param
 {
-Number
+number
 }
 direction
 :
@@ -14973,7 +14973,7 @@ MOVEFOCUS_
 *
 param
 {
-Boolean
+boolean
 }
 focusEditableField
 :
@@ -15034,7 +15034,7 @@ focusEditableFieldContainerSelector
 *
 param
 {
-String
+string
 }
 focusEditableFieldContainerSelector
 :

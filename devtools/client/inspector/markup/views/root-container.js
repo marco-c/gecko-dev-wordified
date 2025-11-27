@@ -309,7 +309,7 @@ node
 *
 param
 {
-Boolean
+boolean
 }
 value
 *

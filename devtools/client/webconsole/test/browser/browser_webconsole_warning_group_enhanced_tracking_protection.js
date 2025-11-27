@@ -1236,7 +1236,7 @@ messages
 *
 param
 {
-String
+string
 }
 groupLabel
 :

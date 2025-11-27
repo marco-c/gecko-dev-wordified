@@ -5954,7 +5954,7 @@ argument
 *
 param
 {
-String
+string
 }
 actorID
 :
@@ -6049,7 +6049,7 @@ parameter
 *
 param
 {
-Object
+object
 }
 grip
 :

@@ -362,7 +362,7 @@ snapshot
 *
 param
 {
-String
+string
 }
 snapshotFilePath
 *
@@ -471,7 +471,7 @@ path
 *
 param
 {
-String
+string
 }
 snapshotFilePath
 *
@@ -537,7 +537,7 @@ exist
 *
 param
 {
-String
+string
 }
 snapshotFilePath
 *
@@ -550,7 +550,7 @@ snapshot
 *
 return
 {
-Number
+number
 ?
 }
 *
@@ -721,14 +721,14 @@ readHeapSnapshot
 *
 param
 {
-String
+string
 }
 snapshotFilePath
 *
 *
 param
 {
-Object
+object
 }
 censusOptions
 *
@@ -775,7 +775,7 @@ documentation
 *
 param
 {
-Object
+object
 }
 requestOptions
 *
@@ -1014,7 +1014,7 @@ indices
 *
 param
 {
-Object
+object
 }
 opts
 *
@@ -1145,7 +1145,7 @@ returns
 {
 Promise
 <
-Object
+object
 >
 }
 *
@@ -1280,7 +1280,7 @@ readHeapSnapshot
 *
 param
 {
-String
+string
 }
 firstSnapshotFilePath
 *
@@ -1294,7 +1294,7 @@ path
 *
 param
 {
-String
+string
 }
 secondSnapshotFilePath
 *
@@ -1308,7 +1308,7 @@ path
 *
 param
 {
-Object
+object
 }
 censusOptions
 *
@@ -1355,7 +1355,7 @@ documentation
 *
 param
 {
-Object
+object
 }
 requestOptions
 *
@@ -1650,7 +1650,7 @@ tree
 *
 param
 {
-String
+string
 }
 snapshotFilePath
 *
@@ -1712,7 +1712,7 @@ id
 *
 param
 {
-Object
+object
 }
 opts
 *
@@ -1874,7 +1874,7 @@ tree
 *
 param
 {
-Object
+object
 }
 opts
 *
@@ -2010,7 +2010,7 @@ returns
 {
 Promise
 <
-Object
+object
 >
 }
 *

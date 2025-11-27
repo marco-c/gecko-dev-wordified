@@ -1298,7 +1298,7 @@ createdTime
 *
 param
 {
-Number
+number
 }
 currentTime
 *
@@ -1364,7 +1364,7 @@ actor
 *
 param
 {
-Object
+object
 }
 animation
 *
@@ -1579,7 +1579,7 @@ element
 *
 param
 {
-String
+string
 }
 property
 *
@@ -1599,7 +1599,7 @@ align
 *
 param
 {
-Object
+object
 }
 styles
 *
@@ -1614,7 +1614,7 @@ value
 *
 return
 {
-String
+string
 }
 *
 Computed
@@ -1855,7 +1855,7 @@ addAnimationsCurrentTimeListener
 *
 param
 {
-Number
+number
 }
 currentTime
 *
@@ -1908,7 +1908,7 @@ CurrentTimeTimer
 *
 param
 {
-Number
+number
 }
 currentTime
 *
@@ -3496,7 +3496,7 @@ opacity
 *
 param
 {
-Object
+object
 }
 effectTiming
 *
@@ -3517,7 +3517,7 @@ both
 *
 param
 {
-Boolean
+boolean
 }
 isElementNeeded
 *
@@ -3798,7 +3798,7 @@ interface
 *
 param
 {
-Object
+object
 }
 effectTiming
 *

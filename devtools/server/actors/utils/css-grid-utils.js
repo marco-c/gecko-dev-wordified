@@ -82,7 +82,7 @@ stringifiable
 *
 param
 {
-Object
+object
 }
 fragments
 *

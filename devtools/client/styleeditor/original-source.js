@@ -100,7 +100,7 @@ map
 *
 param
 {
-String
+string
 }
 url
 *
@@ -114,7 +114,7 @@ source
 *
 param
 {
-String
+string
 }
 sourceID
 *
@@ -426,7 +426,7 @@ resource
 *
 param
 {
-Number
+number
 }
 line
 *
@@ -436,7 +436,7 @@ number
 *
 param
 {
-Number
+number
 }
 column
 *

@@ -206,7 +206,7 @@ TypeError
 *
 param
 {
-Object
+object
 }
 expression
 :
@@ -227,7 +227,7 @@ js
 *
 param
 {
-String
+string
 }
 expression
 .
@@ -239,7 +239,7 @@ string
 *
 param
 {
-Object
+object
 }
 expression
 .
@@ -258,7 +258,7 @@ execute
 *
 param
 {
-Object
+object
 }
 expression
 .
@@ -280,7 +280,7 @@ front
 *
 param
 {
-Object
+object
 }
 expression
 .
@@ -303,7 +303,7 @@ front
 *
 returns
 {
-Object
+object
 }
 an
 object

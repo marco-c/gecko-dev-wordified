@@ -251,7 +251,7 @@ objectActor
 *
 returns
 {
-Object
+object
 }
 Data
 related
@@ -666,7 +666,7 @@ Array
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -692,7 +692,7 @@ object
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -705,7 +705,7 @@ JSDoc
 *
 param
 {
-Object
+object
 }
 options
 .
@@ -759,7 +759,7 @@ rawObj
 *
 returns
 {
-Object
+object
 }
 See
 customFormatterHeader
@@ -1303,7 +1303,7 @@ objectActor
 *
 param
 {
-Object
+object
 }
 formatter
 :
@@ -1326,7 +1326,7 @@ object
 *
 returns
 {
-Object
+object
 }
 Data
 related
@@ -2113,7 +2113,7 @@ hook
 *
 param
 {
-Number
+number
 }
 customFormatterObjectTagDepth
 :
@@ -2827,7 +2827,7 @@ array
 *
 param
 {
-Number
+number
 }
 customFormatterObjectTagDepth
 :
@@ -2891,7 +2891,7 @@ ObjectActor
 *
 returns
 {
-Object
+object
 }
 Returns
 a

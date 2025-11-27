@@ -216,7 +216,7 @@ editor
 *
 param
 {
-Object
+object
 }
 propertyDefinition
 *

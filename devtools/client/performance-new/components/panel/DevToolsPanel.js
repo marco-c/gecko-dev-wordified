@@ -96,7 +96,7 @@ P
 *
 typedef
 {
-Object
+object
 }
 StateProps
 *
@@ -114,7 +114,7 @@ isSupportedPlatform
 *
 typedef
 {
-Object
+object
 }
 OwnProps
 *

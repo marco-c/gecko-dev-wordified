@@ -108,13 +108,13 @@ object
 *
 param
 {
-Object
+object
 }
 state
 *
 return
 {
-Object
+object
 }
 *
 /
@@ -292,7 +292,7 @@ dependencies
 *
 param
 {
-Object
+object
 }
 ruleData
 *
@@ -386,7 +386,7 @@ rule
 *
 param
 {
-Object
+object
 }
 rules
 *
@@ -415,7 +415,7 @@ state
 *
 return
 {
-Object
+object
 }
 *
 Entry

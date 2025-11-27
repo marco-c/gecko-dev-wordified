@@ -428,7 +428,7 @@ used
 *
 param
 {
-String
+string
 }
 topic
 *
@@ -452,7 +452,7 @@ shutdown
 *
 param
 {
-String
+string
 }
 data
 *
@@ -566,7 +566,7 @@ WalkerActor
 *
 return
 {
-Object
+object
 }
 *
 AccessibleWalkerActor
@@ -686,7 +686,7 @@ Bug1431466
 *
 return
 {
-Object
+object
 |
 null
 }

@@ -336,7 +336,7 @@ front
 *
 param
 {
-Object
+object
 }
 grip
 *
@@ -352,7 +352,7 @@ for
 *
 param
 {
-Object
+object
 }
 serviceContainer
 *
@@ -364,7 +364,7 @@ functions
 *
 param
 {
-Object
+object
 }
 override
 *

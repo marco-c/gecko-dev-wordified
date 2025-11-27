@@ -138,7 +138,7 @@ DOMNode
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -195,7 +195,7 @@ toolbox
 *
 param
 {
-Boolean
+boolean
 }
 waitForSelectionUpdate
 *
@@ -702,7 +702,7 @@ check
 *
 param
 {
-String
+string
 }
 expectedText
 *

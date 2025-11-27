@@ -292,7 +292,7 @@ sources
 *
 param
 {
-Object
+object
 }
 state
 *

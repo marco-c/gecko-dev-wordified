@@ -665,7 +665,7 @@ to
 *
 param
 {
-Number
+number
 }
 [
 depth
@@ -687,7 +687,7 @@ previewed
 *
 param
 {
-Object
+object
 }
 [
 objectActorAttributes
@@ -1070,13 +1070,13 @@ BigInt
 *
 param
 {
-BigInt
+bigint
 }
 value
 *
 returns
 {
-Object
+object
 }
 *
 /

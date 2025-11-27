@@ -1523,7 +1523,7 @@ count
 *
 param
 {
-Object
+object
 }
 hud
 :
@@ -1532,7 +1532,7 @@ webconsole
 *
 param
 {
-String
+string
 }
 text
 :
@@ -1546,7 +1546,7 @@ body
 *
 param
 {
-String
+string
 }
 typeSelector
 :
@@ -1567,7 +1567,7 @@ type
 *
 param
 {
-Number
+number
 }
 repeat
 :
@@ -1724,7 +1724,7 @@ received
 *
 param
 {
-Object
+object
 }
 hud
 :
@@ -1733,7 +1733,7 @@ webconsole
 *
 param
 {
-String
+string
 }
 text
 :
@@ -1747,7 +1747,7 @@ body
 *
 param
 {
-String
+string
 }
 typeSelector
 :
@@ -1832,7 +1832,7 @@ available
 *
 param
 {
-Object
+object
 }
 panel
 *
@@ -1886,7 +1886,7 @@ expression
 *
 param
 {
-Object
+object
 }
 hud
 :
@@ -1896,7 +1896,7 @@ webconsole
 *
 param
 {
-String
+string
 }
 input
 :
@@ -1961,7 +1961,7 @@ output
 *
 param
 {
-Object
+object
 }
 hud
 :
@@ -1971,7 +1971,7 @@ webconsole
 *
 param
 {
-String
+string
 }
 input
 :
@@ -1984,7 +1984,7 @@ execute
 *
 param
 {
-String
+string
 }
 matchingText
 :
@@ -2001,7 +2001,7 @@ content
 *
 param
 {
-String
+string
 }
 typeSelector
 :
@@ -2064,7 +2064,7 @@ executeAndWaitForMessageByType
 *
 param
 {
-Object
+object
 }
 hud
 :
@@ -2074,7 +2074,7 @@ webconsole
 *
 param
 {
-String
+string
 }
 input
 :
@@ -2087,7 +2087,7 @@ execute
 *
 param
 {
-String
+string
 }
 matchingText
 :
@@ -2199,7 +2199,7 @@ output
 *
 param
 {
-Object
+object
 }
 hud
 :
@@ -2209,7 +2209,7 @@ webconsole
 *
 param
 {
-String
+string
 }
 input
 :
@@ -2222,7 +2222,7 @@ execute
 *
 param
 {
-String
+string
 }
 matchingText
 :
@@ -2240,7 +2240,7 @@ content
 *
 param
 {
-String
+string
 }
 typeSelector
 :
@@ -2366,7 +2366,7 @@ keyboardExecuteAndWaitForMessageByType
 *
 param
 {
-Object
+object
 }
 hud
 :
@@ -2376,7 +2376,7 @@ webconsole
 *
 param
 {
-String
+string
 }
 input
 :
@@ -2389,7 +2389,7 @@ execute
 *
 param
 {
-String
+string
 }
 matchingText
 :
@@ -3240,7 +3240,7 @@ on
 *
 param
 {
-Object
+object
 }
 observeConfig
 -
@@ -3371,7 +3371,7 @@ opened
 *
 param
 {
-Object
+object
 }
 hud
 *
@@ -3380,7 +3380,7 @@ webconsole
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -3662,7 +3662,7 @@ webconsole
 *
 returns
 {
-String
+string
 }
 :
 The
@@ -3715,7 +3715,7 @@ webconsole
 *
 param
 {
-String
+string
 }
 value
 :
@@ -3806,7 +3806,7 @@ webconsole
 *
 param
 {
-String
+string
 }
 value
 :
@@ -4118,7 +4118,7 @@ hud
 *
 param
 {
-String
+string
 }
 value
 :
@@ -4236,13 +4236,13 @@ hud
 *
 param
 {
-String
+string
 }
 expectedValue
 *
 param
 {
-String
+string
 }
 assertionInfo
 :
@@ -4352,7 +4352,7 @@ expectedCursorIndex
 *
 param
 {
-String
+string
 }
 assertionInfo
 :
@@ -4437,7 +4437,7 @@ hud
 *
 param
 {
-String
+string
 }
 expectedStringWithCursor
 :
@@ -4502,7 +4502,7 @@ test
 *
 param
 {
-String
+string
 }
 assertionInfo
 :
@@ -4710,7 +4710,7 @@ hud
 *
 returns
 {
-String
+string
 }
 *
 /
@@ -4844,7 +4844,7 @@ hud
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -5537,19 +5537,19 @@ panel
 *
 param
 {
-Object
+object
 }
 toolbox
 *
 param
 {
-Object
+object
 }
 hud
 *
 param
 {
-String
+string
 }
 url
 *
@@ -5566,7 +5566,7 @@ netmonitor
 *
 param
 {
-String
+string
 }
 urlInConsole
 *
@@ -6142,7 +6142,7 @@ filter
 *
 param
 {
-Object
+object
 }
 hud
 *
@@ -6251,7 +6251,7 @@ element
 *
 param
 {
-Object
+object
 }
 hud
 *
@@ -6302,13 +6302,13 @@ filter
 *
 param
 {
-Object
+object
 }
 hud
 *
 param
 {
-Object
+object
 }
 settings
 *
@@ -6745,7 +6745,7 @@ default
 *
 param
 {
-Object
+object
 }
 hud
 *
@@ -6814,7 +6814,7 @@ shortcut
 *
 param
 {
-Object
+object
 }
 hud
 *
@@ -7017,7 +7017,7 @@ hud
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -7304,13 +7304,13 @@ inspector
 *
 param
 {
-Object
+object
 }
 toolbox
 *
 param
 {
-String
+string
 }
 selector
 :
@@ -7959,7 +7959,7 @@ node
 *
 return
 {
-Boolean
+boolean
 }
 true
 if
@@ -8303,7 +8303,7 @@ element
 *
 param
 {
-String
+string
 }
 nodeLabel
 :
@@ -8426,7 +8426,7 @@ returns
 {
 Array
 <
-String
+string
 >
 }
 *
@@ -8491,7 +8491,7 @@ param
 {
 Array
 <
-String
+string
 >
 }
 expected
@@ -8551,7 +8551,7 @@ popup
 *
 param
 {
-String
+string
 }
 label
 the
@@ -8602,14 +8602,14 @@ param
 {
 Array
 <
-String
+string
 >
 }
 expectedLabels
 *
 param
 {
-Boolean
+boolean
 }
 checkAll
 *
@@ -8771,7 +8771,7 @@ toolbox
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -8938,7 +8938,7 @@ container
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -8983,7 +8983,7 @@ container
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -9050,7 +9050,7 @@ param
 {
 Array
 <
-String
+string
 >
 }
 expectedMessages
@@ -10299,7 +10299,7 @@ hud
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -10591,7 +10591,7 @@ hud
 *
 param
 {
-Object
+object
 }
 An
 options
@@ -10861,7 +10861,7 @@ param
 {
 Array
 <
-Object
+object
 >
 }
 expected
@@ -10969,19 +10969,19 @@ hud
 *
 param
 {
-Number
+number
 }
 index
 *
 param
 {
-Object
+object
 }
 expected
 *
 param
 {
-String
+string
 }
 expected
 .
@@ -10995,7 +10995,7 @@ target
 *
 param
 {
-String
+string
 }
 expected
 .
@@ -11013,7 +11013,7 @@ menu
 *
 param
 {
-Boolean
+boolean
 }
 expected
 .
@@ -11030,7 +11030,7 @@ not
 *
 param
 {
-Boolean
+boolean
 }
 expected
 .
@@ -11046,7 +11046,7 @@ separator
 *
 param
 {
-Boolean
+boolean
 }
 expected
 .
@@ -11290,7 +11290,7 @@ hud
 *
 param
 {
-String
+string
 }
 targetLabel
 :

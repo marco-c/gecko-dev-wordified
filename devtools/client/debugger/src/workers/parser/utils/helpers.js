@@ -517,7 +517,7 @@ param
 Array
 .
 <
-Object
+object
 >
 }
 identifiers
@@ -544,7 +544,7 @@ param
 {
 Set
 <
-String
+string
 >
 }
 identifiersKeys
@@ -560,7 +560,7 @@ key
 *
 param
 {
-Object
+object
 }
 pattern
 *

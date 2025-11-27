@@ -281,7 +281,7 @@ criteria
 *
 param
 {
-Number
+number
 }
 ratio
 *
@@ -299,7 +299,7 @@ object
 *
 param
 {
-Boolean
+boolean
 }
 isLargeText
 *
@@ -315,7 +315,7 @@ text
 *
 return
 {
-String
+string
 }
 *
 Value
@@ -411,7 +411,7 @@ possible
 *
 param
 {
-Object
+object
 }
 computedStyle
 *
@@ -478,7 +478,7 @@ text
 *
 return
 {
-Object
+object
 }
 *
 Color
@@ -828,7 +828,7 @@ ratio
 *
 param
 {
-Object
+object
 }
 backgroundColorData
 *
@@ -888,7 +888,7 @@ background
 *
 param
 {
-Object
+object
 }
 textData
 *
@@ -925,7 +925,7 @@ large
 *
 return
 {
-Object
+object
 }
 *
 An

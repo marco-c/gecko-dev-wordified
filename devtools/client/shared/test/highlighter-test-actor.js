@@ -401,7 +401,7 @@ js
 *
 param
 {
-String
+string
 }
 actorID
 *
@@ -1136,7 +1136,7 @@ param
 {
 string
 |
-array
+Array
 }
 selector
 Either
@@ -1421,7 +1421,7 @@ ID
 *
 param
 {
-String
+string
 }
 nodeID
 The
@@ -1438,7 +1438,7 @@ for
 *
 param
 {
-String
+string
 }
 name
 The
@@ -1451,7 +1451,7 @@ get
 *
 param
 {
-String
+string
 }
 actorID
 The
@@ -1461,7 +1461,7 @@ ID
 *
 return
 {
-String
+string
 }
 The
 value
@@ -1536,7 +1536,7 @@ ID
 *
 param
 {
-String
+string
 }
 nodeID
 The
@@ -1553,7 +1553,7 @@ for
 *
 param
 {
-String
+string
 }
 actorID
 The
@@ -1646,7 +1646,7 @@ ID
 *
 param
 {
-String
+string
 }
 nodeID
 The
@@ -1663,7 +1663,7 @@ for
 *
 param
 {
-String
+string
 }
 property
 The
@@ -1674,7 +1674,7 @@ property
 *
 param
 {
-String
+string
 }
 actorID
 The
@@ -1684,7 +1684,7 @@ ID
 *
 return
 {
-String
+string
 }
 The
 computed
@@ -1770,7 +1770,7 @@ ID
 *
 param
 {
-String
+string
 }
 nodeID
 The
@@ -1787,7 +1787,7 @@ for
 *
 param
 {
-String
+string
 }
 actorID
 The
@@ -1797,7 +1797,7 @@ ID
 *
 return
 {
-String
+string
 }
 The
 textcontent
@@ -1863,7 +1863,7 @@ SelectorHighlighter
 *
 param
 {
-String
+string
 }
 actorID
 The
@@ -1873,7 +1873,7 @@ ID
 *
 return
 {
-Number
+number
 }
 The
 number
@@ -1984,7 +1984,7 @@ updated
 *
 param
 {
-String
+string
 }
 the
 name
@@ -1997,7 +1997,7 @@ changed
 *
 param
 {
-String
+string
 }
 the
 new
@@ -2008,7 +2008,7 @@ attribute
 *
 param
 {
-String
+string
 }
 actorID
 The
@@ -2146,7 +2146,7 @@ updates
 *
 param
 {
-String
+string
 }
 actorID
 The
@@ -2475,7 +2475,7 @@ overlay
 *
 param
 {
-String
+string
 }
 id
 :
@@ -2993,7 +2993,7 @@ returns
 {
 Array
 <
-String
+string
 >
 }
 An
@@ -3473,7 +3473,7 @@ node
 *
 param
 {
-String
+string
 }
 nodeID
 The
@@ -3488,7 +3488,7 @@ highlighter
 *
 param
 {
-String
+string
 }
 name
 The
@@ -3500,7 +3500,7 @@ attribute
 *
 param
 {
-Object
+object
 }
 highlighter
 Optional
@@ -3511,7 +3511,7 @@ target
 *
 return
 {
-String
+string
 }
 value
 *
@@ -3592,7 +3592,7 @@ node
 *
 param
 {
-String
+string
 }
 nodeID
 The
@@ -3607,7 +3607,7 @@ highlighter
 *
 param
 {
-String
+string
 }
 property
 The
@@ -3619,7 +3619,7 @@ property
 *
 param
 {
-Object
+object
 }
 highlighter
 Optional
@@ -3630,7 +3630,7 @@ target
 *
 return
 {
-String
+string
 }
 value
 *
@@ -4031,13 +4031,13 @@ selector
 *
 param
 {
-String
+string
 }
 selector
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -4112,19 +4112,19 @@ selector
 *
 param
 {
-String
+string
 }
 parentSelector
 *
 param
 {
-Number
+number
 }
 childNodeIndex
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -4178,13 +4178,13 @@ rect
 *
 param
 {
-Object
+object
 }
 rect
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -4819,7 +4819,7 @@ highlighter
 *
 return
 {
-Object
+object
 }
 Null
 if
@@ -5049,7 +5049,7 @@ points
 *
 param
 {
-String
+string
 }
 region
 The
@@ -5073,7 +5073,7 @@ highlighter
 *
 return
 {
-Object
+object
 }
 The
 object
@@ -5359,7 +5359,7 @@ points
 *
 return
 {
-Boolean
+boolean
 }
 *
 /

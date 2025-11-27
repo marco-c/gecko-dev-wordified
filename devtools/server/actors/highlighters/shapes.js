@@ -659,7 +659,7 @@ pdf
 *
 param
 {
-String
+string
 }
 options
 .
@@ -673,7 +673,7 @@ highlight
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -2753,7 +2753,7 @@ auto
 *
 param
 {
-String
+string
 }
 cursorType
 the
@@ -2959,7 +2959,7 @@ viewport
 *
 param
 {
-Number
+number
 }
 padding
 *
@@ -4017,7 +4017,7 @@ mode
 *
 param
 {
-Number
+number
 }
 pageX
 the
@@ -4029,7 +4029,7 @@ mouse
 *
 param
 {
-Number
+number
 }
 pageY
 the
@@ -4195,7 +4195,7 @@ polygon
 *
 param
 {
-Number
+number
 }
 pageX
 the
@@ -4208,7 +4208,7 @@ mouse
 *
 param
 {
-Number
+number
 }
 pageY
 the
@@ -4221,7 +4221,7 @@ mouse
 *
 param
 {
-String
+string
 }
 type
 the
@@ -4450,7 +4450,7 @@ circle
 *
 param
 {
-Number
+number
 }
 pageX
 the
@@ -4463,7 +4463,7 @@ mouse
 *
 param
 {
-Number
+number
 }
 pageY
 the
@@ -4476,7 +4476,7 @@ mouse
 *
 param
 {
-String
+string
 }
 type
 the
@@ -4759,7 +4759,7 @@ ellipse
 *
 param
 {
-Number
+number
 }
 pageX
 the
@@ -4772,7 +4772,7 @@ mouse
 *
 param
 {
-Number
+number
 }
 pageY
 the
@@ -4785,7 +4785,7 @@ mouse
 *
 param
 {
-String
+string
 }
 type
 the
@@ -5096,7 +5096,7 @@ inset
 *
 param
 {
-Number
+number
 }
 pageX
 the
@@ -5109,7 +5109,7 @@ mouse
 *
 param
 {
-Number
+number
 }
 pageY
 the
@@ -5122,7 +5122,7 @@ mouse
 *
 param
 {
-String
+string
 }
 type
 the
@@ -5330,7 +5330,7 @@ mode
 *
 param
 {
-Number
+number
 }
 pageX
 the
@@ -5342,7 +5342,7 @@ mouse
 *
 param
 {
-Number
+number
 }
 pageY
 the
@@ -5472,7 +5472,7 @@ position
 *
 param
 {
-Number
+number
 }
 pageX
 the
@@ -5485,7 +5485,7 @@ mouse
 *
 param
 {
-Number
+number
 }
 pageY
 the
@@ -5645,7 +5645,7 @@ position
 *
 param
 {
-Number
+number
 }
 pageX
 the
@@ -5658,7 +5658,7 @@ mouse
 *
 param
 {
-Number
+number
 }
 pageY
 the
@@ -6553,7 +6553,7 @@ position
 *
 param
 {
-Number
+number
 }
 pageX
 the
@@ -6566,7 +6566,7 @@ mouse
 *
 param
 {
-Number
+number
 }
 pageY
 the
@@ -7068,7 +7068,7 @@ matrix
 *
 param
 {
-Number
+number
 }
 transX
 the
@@ -7324,7 +7324,7 @@ matrix
 *
 param
 {
-Number
+number
 }
 transX
 the
@@ -7345,7 +7345,7 @@ scaling
 *
 param
 {
-Number
+number
 }
 transY
 the
@@ -8004,7 +8004,7 @@ polygon
 *
 param
 {
-Number
+number
 }
 pageX
 the
@@ -8016,7 +8016,7 @@ click
 *
 param
 {
-Number
+number
 }
 pageY
 the
@@ -8258,7 +8258,7 @@ style
 *
 param
 {
-Number
+number
 }
 pageX
 the
@@ -8271,7 +8271,7 @@ point
 *
 param
 {
-Number
+number
 }
 pageY
 the
@@ -8522,7 +8522,7 @@ id
 *
 param
 {
-Number
+number
 }
 after
 the
@@ -8541,7 +8541,7 @@ after
 *
 param
 {
-Number
+number
 }
 x
 the
@@ -8554,7 +8554,7 @@ point
 *
 param
 {
-Number
+number
 }
 y
 the
@@ -8733,7 +8733,7 @@ style
 *
 param
 {
-Number
+number
 }
 point
 the
@@ -8892,7 +8892,7 @@ circle
 *
 param
 {
-Number
+number
 }
 pageX
 the
@@ -8904,7 +8904,7 @@ click
 *
 param
 {
-Number
+number
 }
 pageY
 the
@@ -9258,7 +9258,7 @@ style
 *
 param
 {
-String
+string
 }
 point
 either
@@ -9272,7 +9272,7 @@ radius
 *
 param
 {
-Number
+number
 }
 pageX
 the
@@ -9294,7 +9294,7 @@ element
 *
 param
 {
-Number
+number
 }
 pageY
 the
@@ -9673,7 +9673,7 @@ ellipse
 *
 param
 {
-Number
+number
 }
 pageX
 the
@@ -9685,7 +9685,7 @@ click
 *
 param
 {
-Number
+number
 }
 pageY
 the
@@ -10104,7 +10104,7 @@ style
 *
 param
 {
-String
+string
 }
 point
 "
@@ -10120,7 +10120,7 @@ ry
 *
 param
 {
-Number
+number
 }
 pageX
 the
@@ -10142,7 +10142,7 @@ element
 *
 param
 {
-Number
+number
 }
 pageY
 the
@@ -10633,7 +10633,7 @@ inset
 *
 param
 {
-Number
+number
 }
 pageX
 the
@@ -10645,7 +10645,7 @@ click
 *
 param
 {
-Number
+number
 }
 pageY
 the
@@ -10869,7 +10869,7 @@ style
 *
 param
 {
-String
+string
 }
 point
 "
@@ -10888,7 +10888,7 @@ bottom
 *
 param
 {
-Number
+number
 }
 pageX
 the
@@ -10910,7 +10910,7 @@ element
 *
 param
 {
-Number
+number
 }
 pageY
 the
@@ -11568,9 +11568,9 @@ it
 *
 param
 {
-String
+string
 |
-Number
+number
 }
 point
 if
@@ -12800,7 +12800,7 @@ element
 *
 param
 {
-Number
+number
 }
 pageX
 the
@@ -12812,7 +12812,7 @@ page
 *
 param
 {
-Number
+number
 }
 pageY
 the
@@ -12824,7 +12824,7 @@ page
 *
 returns
 {
-Object
+object
 }
 object
 of
@@ -12960,7 +12960,7 @@ page
 *
 param
 {
-Number
+number
 }
 x
 the
@@ -12969,7 +12969,7 @@ coordinate
 *
 param
 {
-Number
+number
 }
 y
 the
@@ -12978,7 +12978,7 @@ coordinate
 *
 returns
 {
-Object
+object
 }
 object
 of
@@ -13087,7 +13087,7 @@ position
 *
 param
 {
-Number
+number
 }
 pageX
 the
@@ -13100,7 +13100,7 @@ mouse
 *
 param
 {
-Number
+number
 }
 pageY
 the
@@ -13113,7 +13113,7 @@ mouse
 *
 returns
 {
-String
+string
 }
 a
 string
@@ -13578,7 +13578,7 @@ coordinate
 *
 param
 {
-Number
+number
 }
 pageX
 the
@@ -13596,7 +13596,7 @@ element
 *
 param
 {
-Number
+number
 }
 pageY
 the
@@ -13614,7 +13614,7 @@ element
 *
 returns
 {
-Number
+number
 }
 the
 index
@@ -13804,7 +13804,7 @@ click
 *
 param
 {
-Number
+number
 }
 pageX
 the
@@ -13822,7 +13822,7 @@ element
 *
 param
 {
-Number
+number
 }
 pageY
 the
@@ -14126,7 +14126,7 @@ coords
 *
 param
 {
-Number
+number
 }
 pageX
 the
@@ -14144,7 +14144,7 @@ element
 *
 param
 {
-Number
+number
 }
 pageY
 the
@@ -14162,7 +14162,7 @@ element
 *
 returns
 {
-String
+string
 }
 "
 center
@@ -14364,7 +14364,7 @@ point
 *
 param
 {
-Number
+number
 }
 pageX
 the
@@ -14382,7 +14382,7 @@ element
 *
 param
 {
-Number
+number
 }
 pageY
 the
@@ -14400,7 +14400,7 @@ element
 *
 returns
 {
-String
+string
 }
 "
 center
@@ -14598,7 +14598,7 @@ coords
 *
 param
 {
-Number
+number
 }
 pageX
 the
@@ -14616,7 +14616,7 @@ element
 *
 param
 {
-Number
+number
 }
 pageY
 the
@@ -14634,7 +14634,7 @@ element
 *
 returns
 {
-String
+string
 }
 "
 top
@@ -15050,7 +15050,7 @@ shape
 *
 param
 {
-String
+string
 }
 definition
 the
@@ -15060,7 +15060,7 @@ definition
 *
 returns
 {
-Object
+object
 }
 null
 if
@@ -15477,7 +15477,7 @@ percentages
 *
 param
 {
-String
+string
 }
 definition
 the
@@ -15998,7 +15998,7 @@ percentages
 *
 param
 {
-String
+string
 }
 definition
 the
@@ -16012,7 +16012,7 @@ function
 *
 returns
 {
-Object
+object
 }
 an
 object
@@ -16596,7 +16596,7 @@ circle
 *
 returns
 {
-Object
+object
 }
 an
 object
@@ -16824,7 +16824,7 @@ percentages
 *
 param
 {
-String
+string
 }
 definition
 the
@@ -16838,7 +16838,7 @@ function
 *
 returns
 {
-Object
+object
 }
 an
 object
@@ -17300,7 +17300,7 @@ ellipse
 *
 returns
 {
-Object
+object
 }
 an
 object
@@ -17583,7 +17583,7 @@ ignored
 *
 param
 {
-String
+string
 }
 definition
 the
@@ -17597,7 +17597,7 @@ function
 *
 returns
 {
-Object
+object
 }
 an
 object
@@ -17989,7 +17989,7 @@ inset
 *
 returns
 {
-Object
+object
 }
 an
 object
@@ -18333,7 +18333,7 @@ height
 *
 param
 {
-Number
+number
 }
 coord
 a
@@ -18342,7 +18342,7 @@ coordinate
 *
 param
 {
-Number
+number
 }
 i
 the
@@ -18356,7 +18356,7 @@ function
 *
 returns
 {
-Number
+number
 }
 the
 coordinate
@@ -18455,7 +18455,7 @@ dimension
 *
 param
 {
-Number
+number
 }
 coord
 a
@@ -18464,7 +18464,7 @@ coordinate
 *
 param
 {
-Number
+number
 }
 currentDimensionProperty
 the
@@ -18488,7 +18488,7 @@ of
 *
 returns
 {
-Number
+number
 }
 the
 coordinate
@@ -18642,13 +18642,13 @@ id
 *
 param
 {
-String
+string
 }
 id
 *
 returns
 {
-Object
+object
 }
 the
 element
@@ -18694,7 +18694,7 @@ hidden
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -19598,7 +19598,7 @@ changed
 *
 returns
 {
-Boolean
+boolean
 }
 whether
 the
@@ -20039,7 +20039,7 @@ mode
 *
 param
 {
-Number
+number
 }
 width
 the
@@ -20051,7 +20051,7 @@ quads
 *
 param
 {
-Number
+number
 }
 height
 the
@@ -20063,7 +20063,7 @@ quads
 *
 param
 {
-Number
+number
 }
 zoom
 the
@@ -20458,7 +20458,7 @@ shape
 *
 param
 {
-Number
+number
 }
 width
 the
@@ -20470,7 +20470,7 @@ quads
 *
 param
 {
-Number
+number
 }
 height
 the
@@ -20482,7 +20482,7 @@ quads
 *
 param
 {
-Number
+number
 }
 zoom
 the
@@ -21485,7 +21485,7 @@ y
 *
 param
 {
-Number
+number
 }
 width
 the
@@ -21501,7 +21501,7 @@ for
 *
 param
 {
-Number
+number
 }
 height
 the
@@ -21517,7 +21517,7 @@ for
 *
 param
 {
-Number
+number
 }
 zoom
 the
@@ -21677,7 +21677,7 @@ matrix
 *
 returns
 {
-Object
+object
 }
 of
 form
@@ -22291,7 +22291,7 @@ nwse
 *
 param
 {
-String
+string
 }
 pointName
 the
@@ -22304,7 +22304,7 @@ hovered
 *
 param
 {
-String
+string
 }
 anchor
 the
@@ -22316,7 +22316,7 @@ point
 *
 returns
 {
-String
+string
 }
 The
 rough
@@ -22592,7 +22592,7 @@ percentages
 *
 param
 {
-String
+string
 }
 unit
 *
@@ -22607,7 +22607,7 @@ vh
 *
 param
 {
-Number
+number
 }
 size
 *
@@ -22623,7 +22623,7 @@ to
 *
 return
 {
-Number
+number
 }
 *
 /
@@ -22863,7 +22863,7 @@ analyze
 *
 param
 {
-String
+string
 }
 property
 the
@@ -22880,7 +22880,7 @@ retrieved
 *
 returns
 {
-String
+string
 }
 the
 value
@@ -23052,7 +23052,7 @@ array
 *
 param
 {
-String
+string
 }
 coords
 the
@@ -23219,7 +23219,7 @@ value
 *
 param
 {
-String
+string
 }
 coord
 a
@@ -23228,7 +23228,7 @@ coordinate
 *
 param
 {
-Number
+number
 }
 size
 the
@@ -23251,7 +23251,7 @@ to
 *
 returns
 {
-Number
+number
 }
 the
 coordinate
@@ -23412,7 +23412,7 @@ addition
 *
 param
 {
-String
+string
 }
 expression
 the
@@ -23426,7 +23426,7 @@ function
 *
 param
 {
-Number
+number
 }
 size
 the
@@ -23449,7 +23449,7 @@ to
 *
 returns
 {
-Number
+number
 }
 the
 result
@@ -23579,7 +23579,7 @@ name
 *
 param
 {
-String
+string
 }
 mode
 the
@@ -23662,7 +23662,7 @@ attributes
 *
 param
 {
-Number
+number
 }
 size
 the
@@ -23675,7 +23675,7 @@ pixels
 *
 param
 {
-Number
+number
 }
 cx
 the
@@ -23690,7 +23690,7 @@ circle
 *
 param
 {
-Number
+number
 }
 cy
 the
@@ -23705,7 +23705,7 @@ circle
 *
 param
 {
-Number
+number
 }
 width
 the
@@ -23722,7 +23722,7 @@ for
 *
 param
 {
-Number
+number
 }
 height
 the
@@ -23739,7 +23739,7 @@ for
 *
 param
 {
-Number
+number
 }
 zoom
 the
@@ -23756,7 +23756,7 @@ in
 *
 returns
 {
-String
+string
 }
 the
 definition
@@ -24037,7 +24037,7 @@ box
 *
 param
 {
-Number
+number
 }
 top
 the
@@ -24055,7 +24055,7 @@ box
 *
 param
 {
-Number
+number
 }
 left
 the
@@ -24073,7 +24073,7 @@ box
 *
 param
 {
-Number
+number
 }
 width
 the
@@ -24086,7 +24086,7 @@ box
 *
 param
 {
-Number
+number
 }
 height
 the
@@ -24099,7 +24099,7 @@ box
 *
 param
 {
-Object
+object
 }
 node
 the
@@ -24108,7 +24108,7 @@ object
 *
 returns
 {
-Object
+object
 }
 an
 object
@@ -24403,7 +24403,7 @@ retrieved
 *
 returns
 {
-String
+string
 }
 the
 unit
@@ -24508,7 +24508,7 @@ value
 *
 returns
 {
-Boolean
+boolean
 }
 whether
 the
@@ -24655,7 +24655,7 @@ type
 *
 param
 {
-String
+string
 }
 type
 a
@@ -24673,7 +24673,7 @@ direction
 *
 returns
 {
-String
+string
 }
 a
 string
@@ -24934,7 +24934,7 @@ points
 *
 param
 {
-String
+string
 |
 undefined
 }
@@ -24953,7 +24953,7 @@ position
 *
 return
 {
-Number
+number
 }
 decimal
 precision
@@ -25049,7 +25049,7 @@ polygon
 *
 param
 {
-Number
+number
 }
 number
 *
@@ -25061,7 +25061,7 @@ up
 *
 param
 {
-String
+string
 }
 unitType
 *
@@ -25086,7 +25086,7 @@ etc
 *
 return
 {
-Number
+number
 }
 *
 Rounded

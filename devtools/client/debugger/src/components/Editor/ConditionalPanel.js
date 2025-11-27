@@ -626,7 +626,7 @@ panel
 *
 param
 {
-String
+string
 }
 expression
 :
@@ -647,7 +647,7 @@ logpoint
 *
 param
 {
-Boolean
+boolean
 }
 showStacktrace
 :

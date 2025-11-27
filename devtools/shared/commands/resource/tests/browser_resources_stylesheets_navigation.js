@@ -1579,7 +1579,7 @@ returns
 {
 Promise
 <
-Boolean
+boolean
 >
 }
 *
@@ -1682,7 +1682,7 @@ param
 {
 Array
 <
-Object
+object
 >
 }
 resources
@@ -1747,7 +1747,7 @@ param
 {
 Array
 <
-Object
+object
 >
 }
 resources
@@ -1761,7 +1761,7 @@ param
 {
 Array
 <
-Object
+object
 >
 }
 expected
@@ -1777,7 +1777,7 @@ shape
 *
 param
 {
-Object
+object
 }
 expected
 [
@@ -1785,7 +1785,7 @@ expected
 *
 param
 {
-Object
+object
 }
 expected
 [

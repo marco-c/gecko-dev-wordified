@@ -4859,7 +4859,7 @@ state
 *
 param
 {
-Boolean
+boolean
 }
 isTargetSwitching
 *
@@ -5327,7 +5327,7 @@ ratio
 *
 param
 {
-Number
+number
 |
 null
 }
@@ -5562,7 +5562,7 @@ agent
 *
 param
 {
-String
+string
 |
 null
 }
@@ -5593,7 +5593,7 @@ value
 *
 return
 {
-Boolean
+boolean
 }
 Whether
 a
@@ -5802,7 +5802,7 @@ device
 *
 param
 {
-String
+string
 }
 type
 *
@@ -5820,7 +5820,7 @@ to
 *
 param
 {
-Number
+number
 }
 angle
 *
@@ -5898,7 +5898,7 @@ device
 *
 param
 {
-Boolean
+boolean
 }
 touchSimulationEnabled
 *
@@ -5963,7 +5963,7 @@ aligned
 *
 param
 {
-Boolean
+boolean
 }
 leftAlignmentEnabled
 *
@@ -6021,7 +6021,7 @@ height
 *
 param
 {
-Number
+number
 }
 width
 *
@@ -6034,7 +6034,7 @@ width
 *
 param
 {
-Number
+number
 }
 height
 *

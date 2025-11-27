@@ -1653,7 +1653,7 @@ socketListener
 *
 return
 {
-Boolean
+boolean
 }
 return
 true

@@ -1498,7 +1498,7 @@ observed
 *
 param
 {
-Boolean
+boolean
 }
 shiftKey
 *

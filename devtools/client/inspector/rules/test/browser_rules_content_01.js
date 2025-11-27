@@ -809,7 +809,7 @@ param
 {
 Array
 <
-Object
+object
 >
 }
 expectedSelectors

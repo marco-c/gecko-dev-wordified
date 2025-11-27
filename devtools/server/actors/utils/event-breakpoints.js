@@ -68,13 +68,13 @@ strict
 *
 param
 {
-String
+string
 }
 groupID
 *
 param
 {
-String
+string
 }
 eventType
 *
@@ -120,7 +120,7 @@ getAvailableEventBreakpoints
 *
 returns
 {
-Object
+object
 }
 *
 /
@@ -2960,7 +2960,7 @@ returns
 {
 Array
 <
-Object
+object
 >
 }
 An

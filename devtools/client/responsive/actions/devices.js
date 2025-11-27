@@ -257,7 +257,7 @@ devices
 *
 return
 {
-Object
+object
 }
 containing
 two
@@ -429,7 +429,7 @@ list
 *
 param
 {
-Object
+object
 }
 containing
 two

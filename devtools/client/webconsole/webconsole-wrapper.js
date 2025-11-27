@@ -1131,7 +1131,7 @@ message
 *
 param
 {
-String
+string
 }
 filter
 *
@@ -1145,7 +1145,7 @@ filtered
 *
 return
 {
-Boolean
+boolean
 }
 *
 True
@@ -2339,7 +2339,7 @@ clearHistory
 *
 param
 {
-String
+string
 }
 expression
 :

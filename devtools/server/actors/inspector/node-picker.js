@@ -402,7 +402,7 @@ event
 *
 param
 {
-Boolean
+boolean
 }
 shiftKey
 :
@@ -416,7 +416,7 @@ shiftKey
 *
 returns
 {
-Object
+object
 }
 An
 object
@@ -946,7 +946,7 @@ allow
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -1040,7 +1040,7 @@ event
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -1446,7 +1446,7 @@ event
 *
 param
 {
-Boolean
+boolean
 }
 shiftKeyOverride
 :

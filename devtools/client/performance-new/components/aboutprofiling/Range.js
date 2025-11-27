@@ -93,7 +93,7 @@ ScaleFunctions
 *
 typedef
 {
-Object
+object
 }
 Props
 *

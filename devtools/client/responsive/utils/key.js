@@ -122,7 +122,7 @@ KeyCodes
 *
 param
 {
-String
+string
 }
 key
 *
@@ -143,7 +143,7 @@ param
 .
 .
 .
-String
+string
 }
 keys
 *
@@ -156,7 +156,7 @@ allowed
 *
 return
 {
-Boolean
+boolean
 }
 true
 if

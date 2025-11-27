@@ -610,7 +610,7 @@ container
 *
 param
 {
-Object
+object
 }
 dragZoom
 *
@@ -906,7 +906,7 @@ them
 *
 param
 {
-Object
+object
 }
 dragZoom
 *
@@ -1040,7 +1040,7 @@ container
 *
 param
 {
-Object
+object
 }
 dragZoom
 *
@@ -1351,7 +1351,7 @@ container
 *
 param
 {
-Object
+object
 }
 dragZoom
 *
@@ -1744,7 +1744,7 @@ event
 *
 return
 {
-Number
+number
 }
 The
 scroll
@@ -1828,7 +1828,7 @@ container
 *
 param
 {
-Object
+object
 }
 dragZoom
 *

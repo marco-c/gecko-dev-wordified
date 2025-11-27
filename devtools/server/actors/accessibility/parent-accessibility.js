@@ -511,7 +511,7 @@ enabled
 *
 return
 {
-Boolean
+boolean
 }
 *
 True
@@ -556,7 +556,7 @@ disabled
 *
 return
 {
-Boolean
+boolean
 }
 *
 True
@@ -649,7 +649,7 @@ enabled
 *
 return
 {
-Boolean
+boolean
 }
 *
 True

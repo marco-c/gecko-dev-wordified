@@ -934,7 +934,7 @@ time
 *
 param
 {
-Boolean
+boolean
 }
 isNewRule
 *

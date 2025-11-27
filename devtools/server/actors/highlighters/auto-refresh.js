@@ -741,7 +741,7 @@ node
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1058,7 +1058,7 @@ node
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -1362,7 +1362,7 @@ since
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -1428,7 +1428,7 @@ since
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -1529,7 +1529,7 @@ since
 *
 return
 {
-Boolean
+boolean
 }
 *
 /

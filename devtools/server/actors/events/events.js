@@ -178,13 +178,13 @@ page
 *
 param
 {
-String
+string
 }
 name
 *
 return
 {
-Boolean
+boolean
 }
 *
 /

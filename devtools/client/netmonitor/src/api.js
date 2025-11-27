@@ -944,7 +944,7 @@ events
 *
 param
 {
-Object
+object
 }
 listener
 *
@@ -1137,7 +1137,7 @@ request
 *
 param
 {
-String
+string
 }
 requestId
 *

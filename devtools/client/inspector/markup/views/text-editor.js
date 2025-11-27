@@ -247,7 +247,7 @@ edited
 *
 param
 {
-String
+string
 }
 type
 *

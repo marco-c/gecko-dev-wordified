@@ -428,7 +428,7 @@ Front
 *
 param
 {
-Object
+object
 }
 commands
 *
@@ -2609,13 +2609,13 @@ destroyed
 *
 param
 {
-Object
+object
 }
 options
 *
 param
 {
-Boolean
+boolean
 }
 [
 options
@@ -2679,7 +2679,7 @@ front
 *
 param
 {
-Boolean
+boolean
 }
 [
 options
@@ -2718,7 +2718,7 @@ pref
 *
 param
 {
-Boolean
+boolean
 }
 [
 options
@@ -3367,7 +3367,7 @@ true
 *
 param
 {
-String
+string
 }
 [
 targetTypeOrTrait
@@ -3382,7 +3382,7 @@ trait
 *
 return
 {
-Boolean
+boolean
 }
 true
 if
@@ -5379,7 +5379,7 @@ types
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -5387,7 +5387,7 @@ param
 {
 Array
 <
-String
+string
 >
 }
 options
@@ -6489,7 +6489,7 @@ param
 {
 Array
 <
-String
+string
 >
 }
 types
@@ -6627,7 +6627,7 @@ param
 {
 Array
 <
-String
+string
 >
 }
 types
@@ -6774,7 +6774,7 @@ param
 {
 Array
 <
-String
+string
 >
 }
 targetTypes
@@ -6796,7 +6796,7 @@ TYPES
 *
 param
 {
-String
+string
 }
 frontType
 *
@@ -6828,13 +6828,13 @@ thread
 *
 param
 {
-Object
+object
 }
 options
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -7359,7 +7359,7 @@ WindowGlobalTarget
 *
 param
 {
-Boolean
+boolean
 }
 bypassCache
 *
@@ -7560,13 +7560,13 @@ URL
 *
 param
 {
-String
+string
 }
 url
 *
 param
 {
-Boolean
+boolean
 }
 waitForLoad
 *
@@ -7942,7 +7942,7 @@ one
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -7988,7 +7988,7 @@ picker
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /

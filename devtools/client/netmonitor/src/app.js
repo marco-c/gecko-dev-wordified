@@ -456,7 +456,7 @@ etc
 *
 param
 {
-Object
+object
 }
 api
 An

@@ -829,7 +829,7 @@ file
 *
 param
 {
-String
+string
 }
 fileName
 Name

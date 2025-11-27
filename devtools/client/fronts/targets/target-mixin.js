@@ -1382,13 +1382,13 @@ exists
 *
 param
 {
-String
+string
 }
 actorName
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -1454,7 +1454,7 @@ actor
 *
 param
 {
-String
+string
 }
 traitName
 *
@@ -3421,7 +3421,7 @@ object
 *
 param
 {
-String
+string
 }
 targetType
 *
@@ -3736,7 +3736,7 @@ console
 *
 param
 {
-String
+string
 }
 text
 *
@@ -3748,7 +3748,7 @@ log
 *
 param
 {
-String
+string
 }
 category
 *
@@ -3835,7 +3835,7 @@ console
 *
 param
 {
-String
+string
 }
 text
 *
@@ -3847,7 +3847,7 @@ log
 *
 param
 {
-String
+string
 }
 category
 *

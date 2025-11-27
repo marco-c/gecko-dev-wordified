@@ -537,7 +537,7 @@ do
 *
 param
 {
-Object
+object
 }
 a
 *
@@ -554,7 +554,7 @@ b
 *
 param
 {
-Object
+object
 }
 b
 *
@@ -571,7 +571,7 @@ b
 *
 param
 {
-String
+string
 }
 sessionString
 *
@@ -629,7 +629,7 @@ here
 *
 param
 {
-Boolean
+boolean
 }
 insensitive
 *

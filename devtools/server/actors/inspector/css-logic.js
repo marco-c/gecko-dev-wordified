@@ -1600,7 +1600,7 @@ document
 *
 return
 {
-array
+Array
 }
 the
 list
@@ -2721,7 +2721,7 @@ selector
 *
 param
 {
-Number
+number
 }
 idx
 *
@@ -2900,7 +2900,7 @@ param
 {
 Array
 <
-String
+string
 >
 }
 properties
@@ -2946,7 +2946,7 @@ return
 {
 Set
 <
-String
+string
 >
 }
 A
@@ -4239,7 +4239,7 @@ parse
 *
 param
 {
-Boolean
+boolean
 }
 desugared
 *
@@ -4447,7 +4447,7 @@ itself
 *
 returns
 {
-Object
+object
 }
 *
 -
@@ -6638,7 +6638,7 @@ CSSStyleRule
 *
 return
 {
-array
+Array
 }
 the
 array
@@ -6837,7 +6837,7 @@ investigate
 *
 param
 {
-Number
+number
 }
 index
 The
@@ -7438,7 +7438,7 @@ html
 *
 return
 {
-Number
+number
 }
 The
 selector
@@ -8010,7 +8010,7 @@ array
 *
 return
 {
-array
+Array
 }
 the
 list
@@ -9599,7 +9599,7 @@ ordering
 *
 return
 {
-Number
+number
 }
 *
 -

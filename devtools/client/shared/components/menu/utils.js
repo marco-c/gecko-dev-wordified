@@ -134,7 +134,7 @@ items
 *
 param
 {
-Object
+object
 }
 options
 :
@@ -156,7 +156,7 @@ menu
 *
 property
 {
-Number
+number
 }
 screenX
 *
@@ -173,7 +173,7 @@ screen
 *
 property
 {
-Number
+number
 }
 screenY
 *

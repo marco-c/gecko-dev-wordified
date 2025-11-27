@@ -199,7 +199,7 @@ components
 *
 param
 {
-Object
+object
 }
 state
 *
@@ -212,7 +212,7 @@ changes
 *
 param
 {
-Object
+object
 }
 filter
 *
@@ -289,7 +289,7 @@ included
 *
 return
 {
-Object
+object
 }
 *
 /
@@ -396,13 +396,13 @@ visited
 *
 param
 {
-String
+string
 }
 ruleId
 *
 param
 {
-Object
+object
 }
 rule
 *
@@ -420,7 +420,7 @@ visitedRules
 *
 return
 {
-Object
+object
 |
 null
 }
@@ -932,7 +932,7 @@ is
 *
 param
 {
-Object
+object
 }
 state
 *
@@ -945,7 +945,7 @@ changes
 *
 param
 {
-Object
+object
 }
 filter
 *
@@ -964,7 +964,7 @@ getChangesTree
 *
 return
 {
-String
+string
 }
 *
 CSS
@@ -1324,7 +1324,7 @@ changed
 *
 param
 {
-Number
+number
 }
 level
 *
@@ -1340,7 +1340,7 @@ tree
 *
 return
 {
-String
+string
 }
 *
 /

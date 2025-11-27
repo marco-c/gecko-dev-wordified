@@ -595,7 +595,7 @@ user
 *
 param
 {
-Boolean
+boolean
 }
 enabled
 *
@@ -613,7 +613,7 @@ stops
 *
 return
 {
-Boolean
+boolean
 }
 *
 Return
@@ -776,13 +776,13 @@ Element
 *
 param
 {
-Object
+object
 }
 options
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -802,7 +802,7 @@ stack
 *
 param
 {
-String
+string
 }
 options
 .
@@ -841,7 +841,7 @@ mutation
 *
 param
 {
-String
+string
 }
 options
 .
@@ -901,7 +901,7 @@ mutation
 *
 return
 {
-Boolean
+boolean
 }
 *
 Return
@@ -1040,7 +1040,7 @@ call
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1065,7 +1065,7 @@ frame
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -1085,7 +1085,7 @@ stack
 *
 param
 {
-String
+string
 }
 options
 .
@@ -1107,7 +1107,7 @@ frame
 *
 return
 {
-Boolean
+boolean
 }
 *
 Return
@@ -1512,7 +1512,7 @@ frame
 *
 param
 {
-Number
+number
 }
 depth
 *
@@ -1530,7 +1530,7 @@ stack
 *
 param
 {
-String
+string
 }
 formatedDisplayName
 *
@@ -1546,7 +1546,7 @@ frame
 *
 param
 {
-String
+string
 }
 prefix
 *
@@ -1566,7 +1566,7 @@ frame
 *
 param
 {
-String
+string
 }
 currentDOMEvent
 *
@@ -1620,7 +1620,7 @@ calls
 *
 return
 {
-Boolean
+boolean
 }
 *
 Return
@@ -2200,13 +2200,13 @@ throw
 *
 param
 {
-Object
+object
 }
 options
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -2251,7 +2251,7 @@ frame
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -2271,7 +2271,7 @@ stack
 *
 param
 {
-String
+string
 }
 options
 .
@@ -2289,7 +2289,7 @@ frame
 *
 param
 {
-String
+string
 }
 options
 .
@@ -2311,7 +2311,7 @@ frame
 *
 param
 {
-String
+string
 }
 options
 .
@@ -2389,7 +2389,7 @@ type
 *
 return
 {
-Boolean
+boolean
 }
 *
 Return

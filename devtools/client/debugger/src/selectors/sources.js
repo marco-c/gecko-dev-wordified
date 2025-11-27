@@ -1126,13 +1126,13 @@ provided
 *
 param
 {
-Object
+object
 }
 state
 *
 param
 {
-String
+string
 }
 sourceId
 *
@@ -1142,7 +1142,7 @@ used
 *
 param
 {
-String
+string
 }
 [
 threadId
@@ -1159,7 +1159,7 @@ optional
 *
 param
 {
-Object
+object
 }
 sourceActor
 *
@@ -1283,13 +1283,13 @@ source
 *
 param
 {
-Object
+object
 }
 state
 *
 param
 {
-String
+string
 }
 id
 *
@@ -1301,7 +1301,7 @@ return
 {
 Array
 <
-Object
+object
 >
 }
 *
@@ -2052,7 +2052,7 @@ thread
 *
 param
 {
-String
+string
 }
 threadActorID
 *
@@ -2065,7 +2065,7 @@ removed
 *
 return
 {
-Object
+object
 }
 *
 An

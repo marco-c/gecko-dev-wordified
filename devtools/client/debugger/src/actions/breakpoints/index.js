@@ -913,7 +913,7 @@ service
 *
 param
 {
-String
+string
 }
 source
 -

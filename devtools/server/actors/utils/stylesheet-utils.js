@@ -434,7 +434,7 @@ styleSheet
 *
 returns
 {
-String
+string
 }
 *
 /
@@ -864,7 +864,7 @@ styleSheet
 *
 returns
 {
-String
+string
 }
 *
 /

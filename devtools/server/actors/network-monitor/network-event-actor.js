@@ -309,7 +309,7 @@ added
 *
 param
 {
-Object
+object
 }
 sessionContext
 *
@@ -341,7 +341,7 @@ js
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -384,7 +384,7 @@ event
 *
 param
 {
-Object
+object
 }
 networkEventOptions
 *

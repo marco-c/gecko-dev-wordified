@@ -236,7 +236,7 @@ TextProperty
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -258,7 +258,7 @@ from
 *
 param
 {
-String
+string
 }
 options
 .
@@ -285,7 +285,7 @@ top
 *
 param
 {
-String
+string
 }
 options
 .
@@ -305,7 +305,7 @@ priority
 *
 param
 {
-String
+string
 }
 options
 .
@@ -330,7 +330,7 @@ string
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -345,7 +345,7 @@ enabled
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -654,7 +654,7 @@ known
 *
 return
 {
-Boolean
+boolean
 }
 true
 if
@@ -706,7 +706,7 @@ user
 *
 return
 {
-Boolean
+boolean
 }
 true
 if
@@ -1471,7 +1471,7 @@ value
 *
 param
 {
-String
+string
 }
 value
 *
@@ -1727,7 +1727,7 @@ exists
 *
 returns
 {
-Object
+object
 |
 undefined
 }
@@ -1795,7 +1795,7 @@ name
 *
 return
 {
-Boolean
+boolean
 }
 true
 if
@@ -1925,7 +1925,7 @@ undefined
 *
 returns
 {
-Object
+object
 |
 undefined
 }
@@ -2467,7 +2467,7 @@ property
 *
 return
 {
-Boolean
+boolean
 }
 true
 if
@@ -2600,7 +2600,7 @@ properties
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -2701,7 +2701,7 @@ value
 *
 return
 {
-String
+string
 }
 *
 /
@@ -2826,7 +2826,7 @@ declarations
 *
 return
 {
-String
+string
 |
 null
 }

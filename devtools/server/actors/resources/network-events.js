@@ -752,7 +752,7 @@ allocations
 *
 param
 {
-Boolean
+boolean
 }
 enabled
 *
@@ -849,7 +849,7 @@ bodies
 *
 param
 {
-Boolean
+boolean
 }
 save
 *
@@ -883,7 +883,7 @@ filters
 *
 param
 {
-Object
+object
 }
 filters
 *
@@ -917,7 +917,7 @@ fitlers
 *
 param
 {
-Object
+object
 }
 filters
 *

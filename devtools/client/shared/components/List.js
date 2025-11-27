@@ -1049,7 +1049,7 @@ param
 {
 null
 |
-Number
+number
 }
 index
 *

@@ -412,7 +412,7 @@ it
 *
 param
 {
-Boolean
+boolean
 }
 showOverflowHighlight
 *

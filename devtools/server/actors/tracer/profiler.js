@@ -154,7 +154,7 @@ data
 *
 param
 {
-Object
+object
 }
 nativeTrace
 *
@@ -181,7 +181,7 @@ collected
 *
 return
 {
-Object
+object
 }
 *
 The
@@ -408,7 +408,7 @@ user
 *
 param
 {
-Boolean
+boolean
 }
 enabled
 *
@@ -426,7 +426,7 @@ stops
 *
 return
 {
-Boolean
+boolean
 }
 *
 Return
@@ -606,13 +606,13 @@ Element
 *
 param
 {
-Object
+object
 }
 options
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -632,7 +632,7 @@ stack
 *
 param
 {
-String
+string
 }
 options
 .
@@ -671,7 +671,7 @@ mutation
 *
 param
 {
-String
+string
 }
 options
 .
@@ -731,7 +731,7 @@ mutation
 *
 return
 {
-Boolean
+boolean
 }
 *
 Return

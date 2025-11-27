@@ -1935,7 +1935,7 @@ value
 *
 param
 {
-String
+string
 }
 namespaceURI
 The
@@ -1952,7 +1952,7 @@ attribute
 *
 param
 {
-String
+string
 }
 tagName
 The
@@ -1996,7 +1996,7 @@ objects
 *
 param
 {
-String
+string
 }
 attributeName
 The
@@ -2010,7 +2010,7 @@ parse
 *
 param
 {
-String
+string
 }
 attributeValue
 The
@@ -2190,7 +2190,7 @@ any
 *
 param
 {
-String
+string
 }
 namespaceURI
 The
@@ -2202,7 +2202,7 @@ namespaceURI
 *
 param
 {
-String
+string
 }
 tagName
 The
@@ -2236,7 +2236,7 @@ objects
 *
 param
 {
-String
+string
 }
 attributeName
 The
@@ -2253,7 +2253,7 @@ for
 *
 return
 {
-Object
+object
 }
 null
 if
@@ -2515,7 +2515,7 @@ type
 *
 param
 {
-String
+string
 }
 value
 The
@@ -2526,7 +2526,7 @@ parse
 *
 param
 {
-String
+string
 }
 splitChar
 A

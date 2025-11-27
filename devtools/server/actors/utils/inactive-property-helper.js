@@ -6512,7 +6512,7 @@ in
 *
 param
 {
-String
+string
 }
 property
 *
@@ -6525,7 +6525,7 @@ name
 *
 return
 {
-Object
+object
 |
 null
 }
@@ -6543,7 +6543,7 @@ null
 *
 return
 {
-String
+string
 }
 object
 .
@@ -6558,7 +6558,7 @@ value
 *
 return
 {
-String
+string
 }
 object
 .
@@ -6587,7 +6587,7 @@ inactive
 *
 return
 {
-String
+string
 }
 object
 .
@@ -6614,7 +6614,7 @@ situation
 *
 return
 {
-String
+string
 }
 object
 .
@@ -6628,7 +6628,7 @@ name
 *
 return
 {
-String
+string
 }
 object
 .
@@ -7263,7 +7263,7 @@ array
 *
 param
 {
-String
+string
 }
 propName
 *
@@ -7354,7 +7354,7 @@ array
 *
 param
 {
-String
+string
 }
 propName
 *
@@ -9593,7 +9593,7 @@ localName
 *
 returns
 {
-String
+string
 }
 *
 /
@@ -9746,7 +9746,7 @@ items
 *
 return
 {
-Boolean
+boolean
 }
 whether
 or
@@ -11010,7 +11010,7 @@ element
 *
 param
 {
-Boolean
+boolean
 }
 isGroup
 *
@@ -11320,7 +11320,7 @@ collapse
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -11510,7 +11510,7 @@ window
 *
 return
 {
-Object
+object
 }
 *
 /

@@ -291,7 +291,7 @@ spec
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -300,7 +300,7 @@ object
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -324,7 +324,7 @@ structure
 *
 param
 {
-String
+string
 }
 options
 .
@@ -339,7 +339,7 @@ page
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -380,7 +380,7 @@ exported
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -1917,7 +1917,7 @@ structure
 *
 param
 {
-Object
+object
 }
 input
 Request

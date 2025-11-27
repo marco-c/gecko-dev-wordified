@@ -898,7 +898,7 @@ private
 *
 param
 {
-Object
+object
 }
 response
 *
@@ -2142,7 +2142,7 @@ server
 *
 param
 {
-String
+string
 }
 expression
 :
@@ -2154,7 +2154,7 @@ evaluate
 *
 param
 {
-Boolean
+boolean
 }
 force
 :

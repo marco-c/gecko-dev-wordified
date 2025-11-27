@@ -348,7 +348,7 @@ bindings
 *
 param
 {
-String
+string
 }
 parentName
 *
@@ -1117,7 +1117,7 @@ thread
 *
 param
 {
-Object
+object
 }
 item
 *

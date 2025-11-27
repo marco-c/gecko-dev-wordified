@@ -968,7 +968,7 @@ bug
 *
 param
 {
-Object
+object
 [
 ]
 }
@@ -985,7 +985,7 @@ params
 *
 returns
 {
-Object
+object
 }
 Rep
 compatible

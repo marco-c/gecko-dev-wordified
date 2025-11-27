@@ -645,7 +645,7 @@ enabled
 *
 param
 {
-String
+string
 }
 source
 *

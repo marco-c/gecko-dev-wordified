@@ -193,7 +193,7 @@ period
 *
 param
 {
-Object
+object
 }
 scope
 *

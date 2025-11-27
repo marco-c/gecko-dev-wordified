@@ -251,7 +251,7 @@ object
 *
 param
 {
-String
+string
 }
 imageUrl
 the
@@ -439,7 +439,7 @@ tooltip
 *
 param
 {
-String
+string
 }
 imageUrl
 *
@@ -456,7 +456,7 @@ tooltip
 *
 param
 {
-Object
+object
 }
 options
 *

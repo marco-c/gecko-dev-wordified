@@ -845,7 +845,7 @@ node
 *
 param
 {
-String
+string
 }
 name
 *
@@ -860,7 +860,7 @@ changed
 *
 param
 {
-Boolean
+boolean
 }
 isApplied
 *
@@ -965,7 +965,7 @@ once
 *
 param
 {
-String
+string
 }
 classNameString
 *
@@ -1075,7 +1075,7 @@ once
 *
 param
 {
-String
+string
 }
 name
 *
@@ -1572,7 +1572,7 @@ document
 *
 param
 {
-String
+string
 }
 filter
 :
@@ -1601,7 +1601,7 @@ Promise
 <
 Array
 <
-String
+string
 >
 >
 }

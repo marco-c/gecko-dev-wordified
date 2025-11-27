@@ -6409,7 +6409,7 @@ editor
 *
 returns
 {
-Object
+object
 }
 The
 object
@@ -6609,7 +6609,7 @@ list
 *
 param
 {
-Object
+object
 }
 marker
 -
@@ -7201,7 +7201,7 @@ markers
 *
 param
 {
-Object
+object
 }
 transaction
 *
@@ -7754,7 +7754,7 @@ editor
 *
 param
 {
-Object
+object
 }
 domEventHandlers
 -
@@ -8083,7 +8083,7 @@ editor
 *
 param
 {
-Object
+object
 }
 domEventHandlers
 -
@@ -8390,7 +8390,7 @@ property
 {
 Array
 <
-Object
+object
 >
 }
 marker
@@ -8417,7 +8417,7 @@ property
 *
 property
 {
-Boolean
+boolean
 }
 marker
 .
@@ -8447,7 +8447,7 @@ optional
 *
 property
 {
-Boolean
+boolean
 }
 marker
 .
@@ -8710,7 +8710,7 @@ breakpoints
 *
 returns
 {
-Object
+object
 }
 The
 object
@@ -9835,7 +9835,7 @@ markers
 *
 param
 {
-Object
+object
 }
 transaction
 *
@@ -10271,13 +10271,13 @@ position
 *
 param
 {
-Object
+object
 }
 marker
 *
 param
 {
-String
+string
 }
 marker
 .
@@ -10287,7 +10287,7 @@ param
 {
 Array
 <
-Object
+object
 >
 }
 marker
@@ -10585,7 +10585,7 @@ gutter
 *
 param
 {
-Object
+object
 }
 domEventHandlers
 *
@@ -11005,7 +11005,7 @@ line
 *
 property
 {
-function
+Function
 =
 }
 marker
@@ -11700,7 +11700,7 @@ pattern
 *
 param
 {
-String
+string
 }
 className
 -
@@ -12033,7 +12033,7 @@ pattern
 *
 param
 {
-String
+string
 }
 className
 -
@@ -12140,7 +12140,7 @@ highlighted
 *
 param
 {
-Boolean
+boolean
 }
 reverse
 -
@@ -12283,7 +12283,7 @@ viewport
 *
 param
 {
-Number
+number
 }
 offsetHorizontalCharacters
 -
@@ -12294,7 +12294,7 @@ offscreen
 *
 param
 {
-Number
+number
 }
 offsetVerticalLines
 -
@@ -12305,7 +12305,7 @@ offscreen
 *
 returns
 {
-Object
+object
 }
 -
 The
@@ -12632,7 +12632,7 @@ selection
 *
 returns
 {
-Object
+object
 }
 cursor
 -
@@ -12828,7 +12828,7 @@ selection
 *
 returns
 {
-String
+string
 }
 *
 /
@@ -12938,7 +12938,7 @@ over
 *
 param
 {
-Number
+number
 }
 left
 -
@@ -12950,7 +12950,7 @@ left
 *
 param
 {
-Number
+number
 }
 top
 -
@@ -12962,7 +12962,7 @@ top
 *
 returns
 {
-Object
+object
 }
 position
 -
@@ -13163,7 +13163,7 @@ selected
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -13399,7 +13399,7 @@ Document
 *
 param
 {
-String
+string
 }
 text
 :
@@ -13411,9 +13411,9 @@ document
 *
 param
 {
-Object
+object
 |
-String
+string
 }
 mode
 :
@@ -13521,7 +13521,7 @@ mode
 *
 param
 {
-Object
+object
 }
 mode
 -
@@ -14099,13 +14099,13 @@ line
 *
 param
 {
-Number
+number
 }
 line
 *
 returns
 {
-Object
+object
 }
 line
 info
@@ -14223,7 +14223,7 @@ editor
 *
 param
 {
-Number
+number
 }
 maxResults
 -
@@ -14637,7 +14637,7 @@ functions
 *
 param
 {
-Object
+object
 }
 location
 *
@@ -14988,7 +14988,7 @@ types
 *
 param
 {
-Object
+object
 }
 tokenLocation
 *
@@ -15603,7 +15603,7 @@ location
 *
 param
 {
-Object
+object
 }
 location
 *
@@ -16063,7 +16063,7 @@ ancestry
 *
 param
 {
-Object
+object
 }
 location
 -
@@ -16074,7 +16074,7 @@ location
 *
 param
 {
-Object
+object
 }
 scope
 -
@@ -16097,7 +16097,7 @@ platform
 *
 returns
 {
-Object
+object
 }
 Binding
 references
@@ -16804,7 +16804,7 @@ argument
 *
 param
 {
-String
+string
 }
 value
 :
@@ -16818,13 +16818,13 @@ content
 *
 param
 {
-Object
+object
 }
 options
 *
 param
 {
-String
+string
 }
 options
 .
@@ -16857,7 +16857,7 @@ messages
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -22562,7 +22562,7 @@ offset
 *
 param
 {
-Number
+number
 }
 offset
 *
@@ -22688,7 +22688,7 @@ happen
 *
 param
 {
-Number
+number
 }
 line
 -
@@ -22700,7 +22700,7 @@ source
 *
 param
 {
-Number
+number
 }
 column
 -
@@ -22712,7 +22712,7 @@ source
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -23127,7 +23127,7 @@ position
 *
 param
 {
-Number
+number
 }
 line
 -
@@ -23139,7 +23139,7 @@ source
 *
 param
 {
-Number
+number
 }
 col
 -
@@ -23151,7 +23151,7 @@ source
 *
 returns
 {
-Number
+number
 }
 *
 /
@@ -23255,7 +23255,7 @@ searchCursor
 *
 returns
 {
-Object
+object
 }
 *
 /
@@ -23336,7 +23336,7 @@ position
 *
 param
 {
-Number
+number
 }
 position
 *
@@ -23443,7 +23443,7 @@ column
 *
 param
 {
-Number
+number
 }
 line
 -
@@ -23455,7 +23455,7 @@ source
 *
 param
 {
-Number
+number
 }
 column
 -
@@ -23467,7 +23467,7 @@ source
 *
 param
 {
-String
+string
 |
 null
 }
@@ -23933,13 +23933,13 @@ CM6
 *
 param
 {
-Number
+number
 }
 line
 *
 param
 {
-Number
+number
 }
 column
 *
@@ -25912,7 +25912,7 @@ elements
 *
 param
 {
-String
+string
 }
 code
 :
@@ -25923,7 +25923,7 @@ highlight
 *
 returns
 {
-String
+string
 }
 The
 HTML

@@ -349,7 +349,7 @@ event
 *
 param
 {
-String
+string
 }
 theme
 -
@@ -359,7 +359,7 @@ theme
 *
 param
 {
-Object
+object
 }
 inspector
 -

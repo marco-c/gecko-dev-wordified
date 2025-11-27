@@ -279,7 +279,7 @@ process
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -334,7 +334,7 @@ codebase
 *
 returns
 {
-Object
+object
 }
 Commands
 *
@@ -494,7 +494,7 @@ process
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -525,7 +525,7 @@ created
 *
 param
 {
-Boolean
+boolean
 }
 enableWindowGlobalThreadActors
 :
@@ -539,7 +539,7 @@ test
 *
 returns
 {
-Object
+object
 }
 Commands
 *
@@ -638,7 +638,7 @@ false
 *
 param
 {
-Number
+number
 }
 browserId
 :
@@ -654,7 +654,7 @@ for
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -685,7 +685,7 @@ created
 *
 returns
 {
-Object
+object
 }
 Commands
 *
@@ -761,7 +761,7 @@ worker
 *
 param
 {
-String
+string
 }
 id
 :
@@ -811,7 +811,7 @@ listWorkers
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -842,7 +842,7 @@ created
 *
 returns
 {
-Object
+object
 }
 Commands
 *
@@ -914,7 +914,7 @@ Extension
 *
 param
 {
-String
+string
 }
 id
 The
@@ -927,7 +927,7 @@ debug
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -958,7 +958,7 @@ created
 *
 returns
 {
-Object
+object
 }
 Commands
 *

@@ -108,7 +108,7 @@ number
 *
 param
 {
-String
+string
 }
 unit
 *
@@ -129,7 +129,7 @@ vw
 *
 return
 {
-Number
+number
 }
 *
 Amount
@@ -239,7 +239,7 @@ values
 *
 param
 {
-String
+string
 }
 value
 *
@@ -250,7 +250,7 @@ string
 *
 return
 {
-String
+string
 |
 null
 }
@@ -381,7 +381,7 @@ object
 *
 param
 {
-String
+string
 }
 string
 *
@@ -421,7 +421,7 @@ browser
 *
 return
 {
-Object
+object
 }
 *
 /
@@ -712,13 +712,13 @@ error
 *
 param
 {
-Number
+number
 }
 number
 *
 param
 {
-Number
+number
 }
 decimals
 *
@@ -737,7 +737,7 @@ decimal
 *
 return
 {
-Number
+number
 }
 *
 /

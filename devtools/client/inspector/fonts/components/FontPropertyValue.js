@@ -674,7 +674,7 @@ null
 *
 param
 {
-String
+string
 }
 prop
 *
@@ -690,7 +690,7 @@ props
 *
 return
 {
-Number
+number
 |
 null
 }
@@ -860,7 +860,7 @@ props
 *
 param
 {
-Number
+number
 }
 value
 *
@@ -869,7 +869,7 @@ value
 *
 return
 {
-Boolean
+boolean
 }
 *
 Whether
@@ -1786,7 +1786,7 @@ input
 *
 param
 {
-Boolean
+boolean
 }
 isInteractive
 *
@@ -1926,7 +1926,7 @@ props
 *
 param
 {
-Number
+number
 }
 value
 *

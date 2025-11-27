@@ -137,7 +137,7 @@ Constructor
 *
 param
 {
-Object
+object
 }
 timeScale
 *

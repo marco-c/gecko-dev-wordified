@@ -168,7 +168,7 @@ for
 *
 param
 {
-Number
+number
 }
 depth
 *

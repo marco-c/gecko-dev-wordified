@@ -205,7 +205,7 @@ received
 *
 param
 {
-String
+string
 }
 message
 *

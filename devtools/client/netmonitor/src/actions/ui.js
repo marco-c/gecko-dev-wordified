@@ -404,7 +404,7 @@ state
 *
 param
 {
-Object
+object
 }
 connector
 -
@@ -748,7 +748,7 @@ columns
 *
 param
 {
-array
+Array
 }
 widths
 -

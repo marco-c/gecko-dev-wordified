@@ -895,7 +895,7 @@ element
 *
 param
 {
-Object
+object
 }
 flexItemSizing
 *
@@ -2129,7 +2129,7 @@ at
 *
 param
 {
-String
+string
 }
 type
 *
@@ -2153,7 +2153,7 @@ for
 *
 param
 {
-Boolean
+boolean
 }
 onlyLookAtContainer
 *
@@ -2702,7 +2702,7 @@ at
 *
 param
 {
-Boolean
+boolean
 |
 null
 }

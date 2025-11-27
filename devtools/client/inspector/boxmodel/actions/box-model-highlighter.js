@@ -206,7 +206,7 @@ Inspector
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -327,7 +327,7 @@ highlighted
 *
 param
 {
-Object
+object
 }
 options
 *

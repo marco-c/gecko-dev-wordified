@@ -376,7 +376,7 @@ instance
 *
 return
 {
-Object
+object
 }
 decoder
 *
@@ -450,7 +450,7 @@ decoded
 *
 param
 {
-Object
+object
 }
 packet
 *
@@ -525,7 +525,7 @@ return
 {
 null
 |
-Object
+object
 }
 returns
 null
@@ -685,7 +685,7 @@ JSON
 *
 param
 {
-String
+string
 }
 obj
 -
@@ -694,7 +694,7 @@ packet
 *
 return
 {
-Object
+object
 }
 packet
 *
@@ -952,13 +952,13 @@ data
 *
 param
 {
-String
+string
 }
 str
 *
 return
 {
-Object
+object
 }
 packet
 *

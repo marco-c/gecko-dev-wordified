@@ -189,7 +189,7 @@ tested
 *
 return
 {
-Boolean
+boolean
 }
 *
 True
@@ -458,7 +458,7 @@ returns
 {
 null
 |
-String
+string
 }
 *
 Role

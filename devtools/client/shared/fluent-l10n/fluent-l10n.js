@@ -156,7 +156,7 @@ resourceIds
 *
 param
 {
-Object
+object
 }
 [
 options

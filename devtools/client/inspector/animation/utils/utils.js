@@ -142,7 +142,7 @@ interval
 *
 param
 {
-Number
+number
 }
 minTimeInterval
 *
@@ -156,7 +156,7 @@ interval
 *
 return
 {
-Number
+number
 }
 The
 optimal
@@ -291,7 +291,7 @@ animations
 *
 return
 {
-Boolean
+boolean
 }
 true
 if
@@ -364,7 +364,7 @@ animations
 *
 return
 {
-Boolean
+boolean
 }
 true
 :

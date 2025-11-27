@@ -1427,7 +1427,7 @@ unit
 *
 param
 {
-String
+string
 }
 property
 *
@@ -1460,7 +1460,7 @@ height
 *
 param
 {
-Number
+number
 }
 value
 *
@@ -1472,7 +1472,7 @@ convert
 *
 param
 {
-String
+string
 }
 fromUnit
 *
@@ -1485,7 +1485,7 @@ from
 *
 param
 {
-String
+string
 }
 toUnit
 *
@@ -1498,7 +1498,7 @@ to
 *
 return
 {
-Number
+number
 }
 *
 Converted
@@ -2678,7 +2678,7 @@ values
 *
 return
 {
-Object
+object
 }
 *
 /
@@ -3062,7 +3062,7 @@ unit
 *
 param
 {
-String
+string
 }
 property
 *
@@ -3071,7 +3071,7 @@ property
 *
 param
 {
-String
+string
 }
 unit
 *
@@ -3303,7 +3303,7 @@ unit
 *
 param
 {
-String
+string
 }
 property
 *
@@ -3312,7 +3312,7 @@ property
 *
 param
 {
-String
+string
 }
 unit
 *
@@ -3458,7 +3458,7 @@ type
 *
 param
 {
-String
+string
 }
 property
 *
@@ -3467,7 +3467,7 @@ property
 *
 param
 {
-String
+string
 }
 unit
 *
@@ -3621,7 +3621,7 @@ name
 *
 param
 {
-String
+string
 }
 name
 *
@@ -3903,7 +3903,7 @@ style
 *
 param
 {
-String
+string
 }
 axis
 *
@@ -4429,7 +4429,7 @@ property
 *
 param
 {
-String
+string
 }
 name
 *
@@ -4589,7 +4589,7 @@ visible
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -4819,7 +4819,7 @@ update
 *
 param
 {
-String
+string
 }
 name
 *
@@ -4829,7 +4829,7 @@ name
 *
 param
 {
-String
+string
 }
 value
 *
@@ -4975,7 +4975,7 @@ FontEditor
 *
 param
 {
-String
+string
 }
 tag
 *
@@ -4989,7 +4989,7 @@ axis
 *
 param
 {
-Number
+number
 }
 value
 *
@@ -5062,7 +5062,7 @@ FontEditor
 *
 param
 {
-String
+string
 }
 property
 *
@@ -5074,7 +5074,7 @@ name
 *
 param
 {
-Number
+number
 }
 value
 *
@@ -5087,7 +5087,7 @@ value
 *
 param
 {
-String
+string
 |
 null
 }
@@ -5187,7 +5187,7 @@ instance
 *
 param
 {
-String
+string
 }
 name
 *
@@ -5673,7 +5673,7 @@ name
 *
 param
 {
-String
+string
 }
 property
 *
@@ -5687,7 +5687,7 @@ name
 *
 param
 {
-Number
+number
 }
 value
 *
@@ -5701,7 +5701,7 @@ value
 *
 param
 {
-String
+string
 |
 undefined
 }
@@ -5716,7 +5716,7 @@ from
 *
 param
 {
-String
+string
 |
 undefined
 }
@@ -5869,7 +5869,7 @@ editor
 *
 param
 {
-Object
+object
 }
 eventData
 *
@@ -5970,7 +5970,7 @@ page
 *
 param
 {
-String
+string
 }
 font
 *
@@ -5989,7 +5989,7 @@ page
 *
 param
 {
-Boolean
+boolean
 }
 show
 *
@@ -6004,7 +6004,7 @@ font
 *
 param
 {
-Boolean
+boolean
 }
 isForCurrentElement
 *
@@ -7429,7 +7429,7 @@ indicator
 *
 param
 {
-String
+string
 }
 name
 *
@@ -7439,7 +7439,7 @@ name
 *
 param
 {
-String
+string
 }
 value
 *

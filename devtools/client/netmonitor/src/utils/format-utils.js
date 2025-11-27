@@ -649,7 +649,7 @@ idl
 *
 param
 {
-Number
+number
 }
 priority
 -

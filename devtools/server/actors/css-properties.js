@@ -229,7 +229,7 @@ doc
 *
 return
 {
-Object
+object
 }
 *
 /
@@ -389,7 +389,7 @@ name
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -486,7 +486,7 @@ properties
 *
 param
 {
-String
+string
 }
 name
 The
@@ -508,7 +508,7 @@ support
 *
 return
 {
-Boolean
+boolean
 }
 Whether
 the

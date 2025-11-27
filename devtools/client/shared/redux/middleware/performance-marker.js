@@ -209,7 +209,7 @@ sessionId
 *
 param
 {
-Object
+object
 }
 cases
 :
@@ -235,7 +235,7 @@ marker
 *
 param
 {
-String
+string
 }
 cases
 .
@@ -259,7 +259,7 @@ creation
 *
 param
 {
-String
+string
 }
 cases
 .

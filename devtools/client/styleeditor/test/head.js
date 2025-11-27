@@ -207,7 +207,7 @@ url
 *
 param
 {
-String
+string
 }
 url
 The
@@ -733,7 +733,7 @@ property
 *
 param
 {
-String
+string
 }
 selector
 *
@@ -748,7 +748,7 @@ element
 *
 param
 {
-String
+string
 }
 pseudo
 *
@@ -762,7 +762,7 @@ null
 *
 param
 {
-String
+string
 }
 name
 *
@@ -900,7 +900,7 @@ fired
 *
 param
 {
-Number
+number
 }
 delay
 *
@@ -1307,7 +1307,7 @@ editor
 *
 param
 {
-Number
+number
 }
 expected
 *

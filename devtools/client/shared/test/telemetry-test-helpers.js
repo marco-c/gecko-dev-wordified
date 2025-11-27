@@ -310,7 +310,7 @@ histogram
 *
 param
 {
-String
+string
 }
 histId
 *
@@ -319,7 +319,7 @@ id
 *
 param
 {
-String
+string
 }
 key
 *
@@ -331,7 +331,7 @@ param
 {
 Array
 |
-Number
+number
 }
 expected
 *
@@ -340,7 +340,7 @@ value
 *
 param
 {
-String
+string
 }
 checkType
 *
@@ -799,7 +799,7 @@ values
 *
 param
 {
-String
+string
 }
 prefix
 *
@@ -1248,7 +1248,7 @@ similar
 *
 param
 {
-String
+string
 }
 key
 *
@@ -1272,7 +1272,7 @@ checking
 *
 param
 {
-String
+string
 }
 histId
 *
@@ -1285,9 +1285,9 @@ param
 {
 Array
 |
-String
+string
 |
-Boolean
+boolean
 }
 actual
 *

@@ -301,7 +301,7 @@ creation
 *
 param
 {
-String
+string
 }
 key
 *

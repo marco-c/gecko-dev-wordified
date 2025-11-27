@@ -171,7 +171,7 @@ JsTerm
 *
 param
 {
-Boolean
+boolean
 }
 force
 :
@@ -199,7 +199,7 @@ param
 {
 Array
 <
-String
+string
 >
 }
 getterPath
@@ -247,7 +247,7 @@ param
 {
 Array
 <
-String
+string
 >
 }
 expressionVars
@@ -573,7 +573,7 @@ Array
 <
 Array
 <
-String
+string
 >
 >
 }
@@ -594,7 +594,7 @@ param
 {
 Array
 <
-String
+string
 >
 }
 getterPath
@@ -607,10 +607,10 @@ param
 {
 {
 [
-String
+string
 ]
 :
-String
+string
 }
 }
 mappedVars
@@ -629,7 +629,7 @@ Array
 <
 Array
 <
-String
+string
 >
 >
 }
@@ -1055,7 +1055,7 @@ input
 *
 param
 {
-String
+string
 }
 rawInput
 The
@@ -1068,10 +1068,10 @@ param
 {
 {
 [
-String
+string
 ]
 :
-String
+string
 }
 }
 mappedVars
@@ -1099,7 +1099,7 @@ hud
 *
 returns
 {
-String
+string
 }
 The
 source
@@ -1421,7 +1421,7 @@ side
 *
 param
 {
-String
+string
 }
 input
 :
@@ -1484,7 +1484,7 @@ server
 *
 param
 {
-Object
+object
 }
 Object
 of
@@ -1976,7 +1976,7 @@ param
 {
 Array
 <
-String
+string
 >
 }
 getterPath
@@ -1996,7 +1996,7 @@ getter
 *
 param
 {
-String
+string
 }
 originalExpression
 The
@@ -2012,10 +2012,10 @@ param
 {
 {
 [
-String
+string
 ]
 :
-String
+string
 }
 }
 mappedVars
@@ -2032,7 +2032,7 @@ returns
 {
 Array
 <
-String
+string
 >
 }
 An
@@ -2293,7 +2293,7 @@ server
 *
 param
 {
-Object
+object
 }
 Object
 of

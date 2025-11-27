@@ -420,7 +420,7 @@ details
 *
 param
 {
-String
+string
 }
 message
 *

@@ -573,7 +573,7 @@ validity
 *
 returns
 {
-Boolean
+boolean
 }
 *
 True
@@ -666,7 +666,7 @@ focusable
 *
 returns
 {
-Boolean
+boolean
 }
 *
 True
@@ -852,7 +852,7 @@ styling
 *
 param
 {
-String
+string
 }
 pseudoClass
 *
@@ -873,7 +873,7 @@ comparison
 *
 returns
 {
-Boolean
+boolean
 }
 *
 True
@@ -1272,7 +1272,7 @@ styling
 *
 returns
 {
-Boolean
+boolean
 }
 *
 True
@@ -1477,7 +1477,7 @@ return
 {
 null
 |
-Object
+object
 }
 *
 Null
@@ -1678,7 +1678,7 @@ return
 {
 null
 |
-Object
+object
 }
 *
 Null
@@ -1802,7 +1802,7 @@ return
 {
 null
 |
-Object
+object
 }
 *
 Null
@@ -2027,7 +2027,7 @@ return
 {
 null
 |
-Object
+object
 }
 *
 Null
@@ -2454,7 +2454,7 @@ return
 {
 null
 |
-Object
+object
 }
 *
 Null

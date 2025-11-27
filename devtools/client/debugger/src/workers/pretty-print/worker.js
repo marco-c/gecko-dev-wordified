@@ -408,7 +408,7 @@ prettyPrint
 *
 returns
 {
-Object
+object
 }
 A
 source

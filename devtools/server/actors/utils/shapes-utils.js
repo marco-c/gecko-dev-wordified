@@ -79,7 +79,7 @@ plane
 *
 param
 {
-Number
+number
 }
 x1
 the
@@ -92,7 +92,7 @@ point
 *
 param
 {
-Number
+number
 }
 y1
 the
@@ -105,7 +105,7 @@ point
 *
 param
 {
-Number
+number
 }
 x2
 the
@@ -118,7 +118,7 @@ point
 *
 param
 {
-Number
+number
 }
 y2
 the
@@ -131,7 +131,7 @@ point
 *
 returns
 {
-Number
+number
 }
 the
 distance
@@ -217,7 +217,7 @@ edge
 *
 param
 {
-Number
+number
 }
 x
 the
@@ -229,7 +229,7 @@ click
 *
 param
 {
-Number
+number
 }
 y
 the
@@ -241,7 +241,7 @@ click
 *
 param
 {
-Number
+number
 }
 cx
 the
@@ -256,7 +256,7 @@ ellipse
 *
 param
 {
-Number
+number
 }
 cy
 the
@@ -271,7 +271,7 @@ ellipse
 *
 param
 {
-Number
+number
 }
 rx
 the
@@ -283,7 +283,7 @@ ellipse
 *
 param
 {
-Number
+number
 }
 ry
 the
@@ -295,7 +295,7 @@ ellipse
 *
 param
 {
-Number
+number
 }
 clickWidthX
 the
@@ -319,7 +319,7 @@ radius
 *
 param
 {
-Number
+number
 }
 clickWidthY
 the
@@ -343,7 +343,7 @@ radius
 *
 returns
 {
-Boolean
+boolean
 }
 whether
 the
@@ -598,7 +598,7 @@ points
 *
 param
 {
-Number
+number
 }
 x1
 the
@@ -614,7 +614,7 @@ line
 *
 param
 {
-Number
+number
 }
 y1
 the
@@ -630,7 +630,7 @@ line
 *
 param
 {
-Number
+number
 }
 x2
 the
@@ -646,7 +646,7 @@ line
 *
 param
 {
-Number
+number
 }
 y2
 the
@@ -662,7 +662,7 @@ line
 *
 param
 {
-Number
+number
 }
 x3
 the
@@ -680,7 +680,7 @@ found
 *
 param
 {
-Number
+number
 }
 y3
 the
@@ -698,7 +698,7 @@ found
 *
 returns
 {
-Number
+number
 }
 the
 distance
@@ -830,7 +830,7 @@ c
 *
 param
 {
-Number
+number
 }
 ax
 the
@@ -842,7 +842,7 @@ a
 *
 param
 {
-Number
+number
 }
 ay
 the
@@ -854,7 +854,7 @@ a
 *
 param
 {
-Number
+number
 }
 bx
 the
@@ -866,7 +866,7 @@ b
 *
 param
 {
-Number
+number
 }
 by
 the
@@ -878,7 +878,7 @@ b
 *
 param
 {
-Number
+number
 }
 cx
 the
@@ -890,7 +890,7 @@ c
 *
 param
 {
-Number
+number
 }
 cy
 the
@@ -1052,7 +1052,7 @@ vector
 *
 returns
 {
-Number
+number
 }
 the
 dot
@@ -1124,7 +1124,7 @@ point
 *
 param
 {
-Number
+number
 }
 x
 the
@@ -1136,7 +1136,7 @@ click
 *
 param
 {
-Number
+number
 }
 y
 the
@@ -1148,7 +1148,7 @@ click
 *
 param
 {
-Number
+number
 }
 pointX
 the
@@ -1163,7 +1163,7 @@ point
 *
 param
 {
-Number
+number
 }
 pointY
 the
@@ -1178,7 +1178,7 @@ point
 *
 param
 {
-Number
+number
 }
 radiusX
 the
@@ -1190,7 +1190,7 @@ point
 *
 param
 {
-Number
+number
 }
 radiusY
 the
@@ -1202,7 +1202,7 @@ point
 *
 returns
 {
-Boolean
+boolean
 }
 whether
 the

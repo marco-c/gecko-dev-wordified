@@ -235,7 +235,7 @@ values
 *
 return
 {
-Number
+number
 }
 The
 calculated
@@ -430,7 +430,7 @@ text
 *
 return
 {
-Object
+object
 }
 *
 RGBA

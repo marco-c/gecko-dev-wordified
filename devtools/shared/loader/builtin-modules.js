@@ -528,7 +528,7 @@ destructuring
 *
 param
 {
-Object
+object
 }
 obj
 *
@@ -543,11 +543,11 @@ on
 *
 param
 {
-String
+string
 |
 Array
 <
-String
+string
 >
 }
 properties
@@ -590,7 +590,7 @@ once
 *
 param
 {
-String
+string
 }
 module
 *
@@ -601,7 +601,7 @@ path
 *
 param
 {
-Boolean
+boolean
 }
 destructure
 *

@@ -420,7 +420,7 @@ context
 *
 param
 {
-Number
+number
 }
 x1
 *
@@ -441,7 +441,7 @@ point
 *
 param
 {
-Number
+number
 }
 y1
 *
@@ -462,7 +462,7 @@ point
 *
 param
 {
-Number
+number
 }
 x2
 *
@@ -483,7 +483,7 @@ point
 *
 param
 {
-Number
+number
 }
 y2
 *
@@ -853,7 +853,7 @@ context
 *
 param
 {
-Number
+number
 }
 x
 *
@@ -869,7 +869,7 @@ rectangle
 *
 param
 {
-Number
+number
 }
 y
 *
@@ -885,7 +885,7 @@ rectangle
 *
 param
 {
-Number
+number
 }
 width
 *
@@ -898,7 +898,7 @@ rectangle
 *
 param
 {
-Number
+number
 }
 height
 *
@@ -911,7 +911,7 @@ rectangle
 *
 param
 {
-Number
+number
 }
 radius
 *
@@ -924,7 +924,7 @@ rounding
 *
 param
 {
-Number
+number
 }
 margin
 *
@@ -941,7 +941,7 @@ pointer
 *
 param
 {
-Number
+number
 }
 arrowSize
 *
@@ -954,7 +954,7 @@ arrow
 *
 param
 {
-String
+string
 }
 alignment
 *
@@ -1437,7 +1437,7 @@ context
 *
 param
 {
-Number
+number
 }
 x1
 *
@@ -1458,7 +1458,7 @@ line
 *
 param
 {
-Number
+number
 }
 y1
 *
@@ -1479,7 +1479,7 @@ line
 *
 param
 {
-Number
+number
 }
 x2
 *
@@ -1500,7 +1500,7 @@ line
 *
 param
 {
-Number
+number
 }
 y2
 *
@@ -1521,7 +1521,7 @@ line
 *
 param
 {
-Object
+object
 }
 [
 options
@@ -1894,7 +1894,7 @@ context
 *
 param
 {
-Number
+number
 }
 x1
 *
@@ -1915,7 +1915,7 @@ point
 *
 param
 {
-Number
+number
 }
 y1
 *
@@ -1936,7 +1936,7 @@ point
 *
 param
 {
-Number
+number
 }
 x2
 *
@@ -1957,7 +1957,7 @@ point
 *
 param
 {
-Number
+number
 }
 y2
 *
@@ -2178,7 +2178,7 @@ context
 *
 param
 {
-Number
+number
 }
 x
 *
@@ -2194,7 +2194,7 @@ rectangle
 *
 param
 {
-Number
+number
 }
 y
 *
@@ -2210,7 +2210,7 @@ rectangle
 *
 param
 {
-Number
+number
 }
 width
 *
@@ -2223,7 +2223,7 @@ rectangle
 *
 param
 {
-Number
+number
 }
 height
 *
@@ -2236,7 +2236,7 @@ rectangle
 *
 param
 {
-Number
+number
 }
 radius
 *
@@ -2457,7 +2457,7 @@ quads
 *
 return
 {
-Object
+object
 }
 DOMRect
 -
@@ -2844,7 +2844,7 @@ object
 *
 param
 {
-Object
+object
 }
 [
 options
@@ -2872,7 +2872,7 @@ mode
 *
 return
 {
-Object
+object
 }
 An
 object
@@ -3286,7 +3286,7 @@ quads
 *
 return
 {
-String
+string
 }
 a
 Path
@@ -3457,7 +3457,7 @@ value
 *
 param
 {
-Number
+number
 }
 x1
 *
@@ -3478,7 +3478,7 @@ point
 *
 param
 {
-Number
+number
 }
 y1
 *
@@ -3499,7 +3499,7 @@ point
 *
 param
 {
-Number
+number
 }
 x2
 *
@@ -3520,7 +3520,7 @@ point
 *
 param
 {
-Number
+number
 }
 y2
 *
@@ -3723,7 +3723,7 @@ element
 *
 param
 {
-Object
+object
 }
 canvasPosition
 *
@@ -3753,7 +3753,7 @@ page
 *
 param
 {
-Number
+number
 }
 devicePixelRatio
 *
@@ -3980,7 +3980,7 @@ detected
 *
 param
 {
-Object
+object
 }
 canvasPosition
 *
@@ -4010,7 +4010,7 @@ page
 *
 param
 {
-Object
+object
 }
 scrollPosition
 *
@@ -4044,7 +4044,7 @@ object
 *
 param
 {
-Object
+object
 }
 windowDimensions
 *
@@ -4069,7 +4069,7 @@ given
 *
 return
 {
-Boolean
+boolean
 }
 true
 if

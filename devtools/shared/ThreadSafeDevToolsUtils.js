@@ -256,7 +256,7 @@ param
 .
 .
 .
-Object
+object
 }
 .
 .
@@ -265,7 +265,7 @@ objs
 *
 returns
 {
-Object
+object
 }
 *
 /

@@ -1029,7 +1029,7 @@ information
 *
 param
 {
-Object
+object
 }
 data
 *
@@ -1448,7 +1448,7 @@ div
 *
 param
 {
-Object
+object
 }
 data
 *

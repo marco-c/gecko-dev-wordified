@@ -281,7 +281,7 @@ none
 *
 param
 {
-Object
+object
 }
 key
 *
@@ -296,7 +296,7 @@ value
 *
 param
 {
-String
+string
 }
 nestedKey
 *
@@ -374,7 +374,7 @@ none
 *
 param
 {
-Object
+object
 }
 key
 *
@@ -389,7 +389,7 @@ value
 *
 param
 {
-String
+string
 }
 nestedKey
 *
@@ -448,7 +448,7 @@ nestedKey
 *
 param
 {
-Object
+object
 }
 key
 *
@@ -462,7 +462,7 @@ value
 *
 param
 {
-String
+string
 }
 nestedKey
 *
@@ -561,7 +561,7 @@ nestedKey
 *
 param
 {
-Object
+object
 }
 key
 *
@@ -576,7 +576,7 @@ value
 *
 param
 {
-String
+string
 }
 nestedKey
 *

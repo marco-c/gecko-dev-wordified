@@ -299,7 +299,7 @@ branch
 *
 param
 {
-String
+string
 }
 name
 the
@@ -311,7 +311,7 @@ branch
 *
 param
 {
-String
+string
 }
 fullName
 the
@@ -1788,7 +1788,7 @@ externally
 *
 param
 {
-Number
+number
 }
 type
 one
@@ -1835,7 +1835,7 @@ exist
 *
 param
 {
-Boolean
+boolean
 }
 hasUserValue
 if
@@ -1857,7 +1857,7 @@ value
 *
 param
 {
-Object
+object
 }
 store
 the
@@ -2035,7 +2035,7 @@ exception
 *
 param
 {
-String
+string
 }
 prefName
 the
@@ -2047,7 +2047,7 @@ name
 *
 return
 {
-Object
+object
 }
 Either
 a
@@ -2160,7 +2160,7 @@ reporting
 *
 param
 {
-String
+string
 }
 relativeName
 the
@@ -2535,7 +2535,7 @@ there
 *
 param
 {
-String
+string
 }
 keyName
 the
@@ -2580,7 +2580,7 @@ exist
 *
 param
 {
-Boolean
+boolean
 }
 hasUserValue
 if
@@ -2620,7 +2620,7 @@ exist
 *
 param
 {
-Boolean
+boolean
 }
 init
 if

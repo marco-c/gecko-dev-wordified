@@ -253,7 +253,7 @@ panel
 *
 param
 {
-String
+string
 }
 name
 *
@@ -390,7 +390,7 @@ panel
 *
 param
 {
-String
+string
 }
 name
 *
@@ -521,7 +521,7 @@ panel
 *
 param
 {
-String
+string
 }
 name
 *
@@ -764,7 +764,7 @@ panel
 *
 param
 {
-String
+string
 }
 name
 *
@@ -778,7 +778,7 @@ retrieve
 *
 return
 {
-String
+string
 }
 The
 property
@@ -843,7 +843,7 @@ panel
 *
 param
 {
-Number
+number
 }
 index
 *
@@ -1010,7 +1010,7 @@ panel
 *
 param
 {
-Number
+number
 }
 index
 *
@@ -1189,7 +1189,7 @@ panel
 *
 param
 {
-String
+string
 }
 expectedPattern
 *
@@ -1334,7 +1334,7 @@ panel
 *
 param
 {
-Object
+object
 }
 positions
 *
@@ -1385,7 +1385,7 @@ offset
 *
 param
 {
-String
+string
 }
 expectedPattern
 *
@@ -1872,7 +1872,7 @@ panel
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1908,7 +1908,7 @@ property
 *
 param
 {
-Object
+object
 [
 ]
 }

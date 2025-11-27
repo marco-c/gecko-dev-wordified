@@ -492,7 +492,7 @@ supported
 *
 param
 {
-Object
+object
 }
 configurationKey
 *
@@ -511,7 +511,7 @@ return
 {
 Promise
 <
-Boolean
+boolean
 >
 }
 True

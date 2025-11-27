@@ -1134,7 +1134,7 @@ view
 *
 param
 {
-Object
+object
 }
 *
 Accessible

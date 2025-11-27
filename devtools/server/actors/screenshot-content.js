@@ -278,13 +278,13 @@ screenshot
 *
 param
 {
-Object
+object
 }
 args
 *
 param
 {
-Boolean
+boolean
 }
 args
 .
@@ -303,7 +303,7 @@ page
 *
 param
 {
-String
+string
 }
 args
 .
@@ -345,7 +345,7 @@ element
 *
 param
 {
-String
+string
 }
 args
 .
@@ -371,7 +371,7 @@ of
 *
 returns
 {
-Object
+object
 }
 An
 object

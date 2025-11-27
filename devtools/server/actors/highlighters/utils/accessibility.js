@@ -811,7 +811,7 @@ ID
 *
 param
 {
-String
+string
 }
 id
 *
@@ -862,7 +862,7 @@ element
 *
 param
 {
-String
+string
 }
 id
 *
@@ -877,7 +877,7 @@ from
 *
 return
 {
-String
+string
 }
 The
 text
@@ -1167,7 +1167,7 @@ on
 *
 param
 {
-String
+string
 }
 text
 *
@@ -1207,7 +1207,7 @@ message
 *
 param
 {
-String
+string
 }
 name
 *
@@ -1281,7 +1281,7 @@ role
 *
 param
 {
-String
+string
 }
 role
 *
@@ -2163,7 +2163,7 @@ markup
 *
 param
 {
-Object
+object
 }
 *
 Audit
@@ -2177,7 +2177,7 @@ accessible
 *
 return
 {
-Boolean
+boolean
 }
 *
 True
@@ -2736,7 +2736,7 @@ markup
 *
 param
 {
-Object
+object
 }
 *
 Audit
@@ -2750,7 +2750,7 @@ accessible
 *
 return
 {
-Boolean
+boolean
 }
 *
 True
@@ -3303,7 +3303,7 @@ markup
 *
 param
 {
-Object
+object
 }
 *
 Audit
@@ -3317,7 +3317,7 @@ accessible
 *
 return
 {
-Boolean
+boolean
 }
 *
 True
@@ -3499,7 +3499,7 @@ highlighting
 *
 param
 {
-Object
+object
 }
 win
 *
@@ -3512,7 +3512,7 @@ object
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -3587,7 +3587,7 @@ object
 *
 return
 {
-Object
+object
 |
 null
 }
@@ -3761,7 +3761,7 @@ toolbox
 *
 param
 {
-Object
+object
 }
 win
 *
@@ -3774,7 +3774,7 @@ object
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -3866,7 +3866,7 @@ window
 *
 return
 {
-Object
+object
 |
 null
 }

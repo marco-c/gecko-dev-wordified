@@ -453,13 +453,13 @@ browsingContext
 *
 param
 {
-Object
+object
 }
 args
 *
 param
 {
-Number
+number
 }
 args
 .
@@ -477,7 +477,7 @@ screenshot
 *
 param
 {
-Object
+object
 |
 null
 }
@@ -526,7 +526,7 @@ rendered
 *
 param
 {
-Boolean
+boolean
 }
 args
 .
@@ -545,7 +545,7 @@ page
 *
 param
 {
-String
+string
 }
 args
 .
@@ -559,7 +559,7 @@ screenshot
 *
 param
 {
-Number
+number
 }
 args
 .
@@ -615,7 +615,7 @@ case
 *
 param
 {
-Number
+number
 }
 args
 .
@@ -636,7 +636,7 @@ snapshotScale
 *
 param
 {
-Boolean
+boolean
 }
 args
 .
@@ -666,7 +666,7 @@ browsingContext
 *
 returns
 {
-Object
+object
 }
 object
 with

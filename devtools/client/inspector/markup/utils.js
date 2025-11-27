@@ -139,7 +139,7 @@ on
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -173,7 +173,7 @@ set
 *
 param
 {
-String
+string
 }
 options
 .
@@ -350,7 +350,7 @@ on
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -384,7 +384,7 @@ set
 *
 param
 {
-String
+string
 }
 options
 .
@@ -650,7 +650,7 @@ string
 *
 param
 {
-String
+string
 }
 attr
 *

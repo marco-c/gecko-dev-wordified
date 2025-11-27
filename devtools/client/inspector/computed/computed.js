@@ -553,7 +553,7 @@ process
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1894,7 +1894,7 @@ bundle
 *
 param
 {
-String
+string
 }
 name
 *
@@ -1906,7 +1906,7 @@ lookup
 *
 returns
 {
-String
+string
 }
 localized
 version
@@ -2568,7 +2568,7 @@ about
 *
 return
 {
-Object
+object
 }
 The
 type
@@ -4635,7 +4635,7 @@ value
 *
 param
 {
-String
+string
 }
 value
 *
@@ -5882,7 +5882,7 @@ with
 *
 param
 {
-String
+string
 }
 name
 *
@@ -6068,7 +6068,7 @@ with
 *
 param
 {
-String
+string
 }
 name
 *
@@ -6090,7 +6090,7 @@ rules
 *
 param
 {
-Boolean
+boolean
 }
 isCustomProperty
 *
@@ -6338,7 +6338,7 @@ property
 *
 return
 {
-String
+string
 }
 the
 computed
@@ -6581,7 +6581,7 @@ propertyView
 *
 return
 {
-String
+string
 }
 *
 /
@@ -6628,7 +6628,7 @@ time
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -8925,13 +8925,13 @@ OutputParser
 *
 param
 {
-String
+string
 }
 value
 *
 param
 {
-String
+string
 }
 baseURI
 *
@@ -10074,7 +10074,7 @@ see
 *
 param
 {
-Object
+object
 |
 null
 }

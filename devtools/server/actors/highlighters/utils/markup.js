@@ -355,7 +355,7 @@ window
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -439,7 +439,7 @@ node
 *
 param
 {
-Number
+number
 }
 nodeType
 Optional
@@ -449,7 +449,7 @@ ELEMENT_NODE
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -716,13 +716,13 @@ canvasFrame
 *
 param
 {
-Object
+object
 }
 options
 *
 param
 {
-String
+string
 |
 undefined
 }
@@ -746,7 +746,7 @@ host
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -2281,13 +2281,13 @@ too
 *
 param
 {
-String
+string
 }
 id
 *
 param
 {
-String
+string
 }
 type
 *
@@ -2466,13 +2466,13 @@ container
 *
 param
 {
-String
+string
 }
 id
 *
 param
 {
-String
+string
 }
 type
 *
@@ -3234,7 +3234,7 @@ value
 *
 param
 {
-String
+string
 }
 id
 The
@@ -3432,7 +3432,7 @@ nodes
 *
 param
 {
-Object
+object
 }
 Options
 for
@@ -3546,7 +3546,7 @@ nodes
 *
 param
 {
-Object
+object
 }
 Options
 for
@@ -3770,7 +3770,7 @@ readyness
 *
 param
 {
-Object
+object
 }
 iframeOrWindow
 *
@@ -4066,7 +4066,7 @@ infobar
 *
 param
 {
-Object
+object
 }
 bounds
 *
@@ -4092,7 +4092,7 @@ object
 *
 param
 {
-Object
+object
 }
 [
 options
@@ -4110,7 +4110,7 @@ infobar
 *
 param
 {
-String
+string
 }
 options
 .

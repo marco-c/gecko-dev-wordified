@@ -607,7 +607,7 @@ container
 *
 param
 {
-String
+string
 }
 value
 *
@@ -5196,7 +5196,7 @@ filterList
 *
 param
 {
-String
+string
 }
 name
 *
@@ -5212,7 +5212,7 @@ blur
 *
 return
 {
-Object
+object
 }
 *
 filter
@@ -5270,7 +5270,7 @@ filters
 *
 param
 {
-String
+string
 }
 cssValue
 *
@@ -5473,7 +5473,7 @@ value
 *
 param
 {
-String
+string
 }
 name
 *
@@ -5489,7 +5489,7 @@ blur
 *
 param
 {
-String
+string
 }
 value
 *
@@ -5524,7 +5524,7 @@ supplied
 *
 return
 {
-Number
+number
 }
 *
 The
@@ -5542,7 +5542,7 @@ filters
 *
 param
 {
-Boolean
+boolean
 }
 *
 By
@@ -5922,7 +5922,7 @@ filter
 *
 param
 {
-Number
+number
 }
 index
 *
@@ -5931,7 +5931,7 @@ index
 *
 return
 {
-String
+string
 }
 *
 css
@@ -6070,7 +6070,7 @@ widget
 *
 return
 {
-String
+string
 }
 *
 css
@@ -6150,7 +6150,7 @@ value
 *
 param
 {
-Number
+number
 }
 index
 *
@@ -6454,7 +6454,7 @@ of
 *
 param
 {
-Number
+number
 }
 a
 *
@@ -6465,7 +6465,7 @@ element
 *
 param
 {
-Number
+number
 }
 b
 *
@@ -6528,7 +6528,7 @@ pairs
 *
 param
 {
-String
+string
 }
 css
 CSS
@@ -6920,7 +6920,7 @@ number
 *
 param
 {
-String
+string
 }
 string
 *
@@ -6931,7 +6931,7 @@ numbers
 *
 param
 {
-Number
+number
 }
 index
 *
@@ -6945,7 +6945,7 @@ for
 *
 return
 {
-Object
+object
 }
 *
 returns

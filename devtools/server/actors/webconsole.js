@@ -8348,7 +8348,7 @@ DocumentEventsListener
 *
 param
 {
-String
+string
 }
 name
 *
@@ -8379,7 +8379,7 @@ complete
 *
 param
 {
-Number
+number
 }
 time
 *
@@ -8394,7 +8394,7 @@ fired
 *
 param
 {
-Boolean
+boolean
 }
 hasNativeConsoleAPI
 *
@@ -9147,7 +9147,7 @@ need
 *
 param
 {
-Object
+object
 }
 result
 :
@@ -9160,7 +9160,7 @@ message
 *
 returns
 {
-Object
+object
 }
 An
 object

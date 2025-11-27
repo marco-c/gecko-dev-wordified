@@ -236,7 +236,7 @@ monitor
 *
 param
 {
-Object
+object
 }
 api
 Allows

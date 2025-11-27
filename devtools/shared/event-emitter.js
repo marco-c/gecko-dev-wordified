@@ -232,7 +232,7 @@ instance
 *
 param
 {
-String
+string
 }
 type
 *
@@ -258,7 +258,7 @@ event
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -543,7 +543,7 @@ instance
 *
 param
 {
-String
+string
 }
 [
 type
@@ -868,7 +868,7 @@ emitted
 *
 param
 {
-String
+string
 }
 type
 *
@@ -897,7 +897,7 @@ event
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1095,7 +1095,7 @@ instance
 *
 param
 {
-String
+string
 }
 type
 *
@@ -1108,7 +1108,7 @@ event
 *
 param
 {
-Boolean
+boolean
 }
 async
 *
@@ -1678,7 +1678,7 @@ instance
 *
 param
 {
-String
+string
 }
 type
 *
@@ -1690,7 +1690,7 @@ event
 *
 return
 {
-Number
+number
 }
 *
 The

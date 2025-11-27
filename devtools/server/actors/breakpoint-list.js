@@ -311,7 +311,7 @@ Method
 *
 param
 {
-String
+string
 }
 path
 *
@@ -362,7 +362,7 @@ origin
 *
 param
 {
-String
+string
 }
 method
 *
@@ -489,7 +489,7 @@ param
 {
 Array
 <
-String
+string
 >
 }
 ids

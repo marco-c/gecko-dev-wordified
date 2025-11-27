@@ -482,7 +482,7 @@ code
 *
 param
 {
-Boolean
+boolean
 }
 state
 *
@@ -499,7 +499,7 @@ otherwise
 *
 param
 {
-String
+string
 }
 pickerType
 *
@@ -1219,7 +1219,7 @@ window
 *
 param
 {
-Number
+number
 }
 clientX
 *
@@ -1236,7 +1236,7 @@ origin
 *
 param
 {
-Number
+number
 }
 clientY
 *
@@ -1253,7 +1253,7 @@ origin
 *
 param
 {
-String
+string
 }
 type
 *

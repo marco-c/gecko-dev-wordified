@@ -1281,7 +1281,7 @@ node
 *
 returns
 {
-Object
+object
 }
 with
 left

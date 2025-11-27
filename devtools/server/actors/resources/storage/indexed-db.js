@@ -885,7 +885,7 @@ db
 *
 param
 {
-String
+string
 }
 storage
 *
@@ -5404,7 +5404,7 @@ host
 *
 param
 {
-String
+string
 }
 storage
 *
@@ -5425,7 +5425,7 @@ persistent
 *
 param
 {
-Object
+object
 }
 requestOptions
 *

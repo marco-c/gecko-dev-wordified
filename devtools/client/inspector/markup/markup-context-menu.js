@@ -1502,7 +1502,7 @@ Node
 *
 param
 {
-String
+string
 }
 position
 *

@@ -386,7 +386,7 @@ source
 *
 param
 {
-Object
+object
 }
 source
 -
@@ -401,7 +401,7 @@ unblackboxed
 *
 param
 {
-Boolean
+boolean
 }
 [
 shouldBlackBox
@@ -1050,7 +1050,7 @@ blackbox
 *
 param
 {
-Boolean
+boolean
 }
 shouldBlackbox
 -

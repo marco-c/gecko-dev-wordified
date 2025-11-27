@@ -548,7 +548,7 @@ shown
 *
 return
 {
-Boolean
+boolean
 }
 True
 if
@@ -591,7 +591,7 @@ value
 *
 return
 {
-Boolean
+boolean
 }
 True
 if

@@ -1273,7 +1273,7 @@ selected
 *
 return
 {
-Boolean
+boolean
 }
 *
 true
@@ -3439,7 +3439,7 @@ removed
 *
 param
 {
-String
+string
 }
 event
 *
@@ -3455,7 +3455,7 @@ removed
 *
 param
 {
-Object
+object
 }
 row
 *
@@ -4132,7 +4132,7 @@ editable
 *
 param
 {
-String
+string
 |
 Array
 }
@@ -4552,7 +4552,7 @@ empty
 *
 param
 {
-String
+string
 }
 l10nID
 *
@@ -4566,7 +4566,7 @@ string
 *
 param
 {
-String
+string
 }
 learnMoreURL
 *
@@ -5362,7 +5362,7 @@ supplied
 *
 param
 {
-Object
+object
 }
 columns
 *
@@ -5405,7 +5405,7 @@ column
 *
 param
 {
-String
+string
 }
 sortOn
 *
@@ -6938,7 +6938,7 @@ value
 *
 param
 {
-String
+string
 }
 value
 :
@@ -7359,7 +7359,7 @@ column
 *
 param
 {
-String
+string
 }
 header
 *
@@ -8077,7 +8077,7 @@ UI
 *
 param
 {
-Boolean
+boolean
 }
 state
 *
@@ -11806,7 +11806,7 @@ editable
 *
 param
 {
-Object
+object
 }
 options
 *

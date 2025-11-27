@@ -198,13 +198,13 @@ parent
 *
 param
 {
-Object
+object
 }
 options
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -232,7 +232,7 @@ ms
 *
 param
 {
-String
+string
 }
 options
 .
@@ -251,7 +251,7 @@ container
 *
 param
 {
-Boolean
+boolean
 }
 options
 .

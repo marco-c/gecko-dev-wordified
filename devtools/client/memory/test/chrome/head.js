@@ -783,7 +783,7 @@ well
 *
 param
 {
-Object
+object
 }
 opts
 *

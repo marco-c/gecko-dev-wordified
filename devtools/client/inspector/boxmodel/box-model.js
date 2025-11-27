@@ -977,7 +977,7 @@ data
 *
 param
 {
-String
+string
 }
 reason
 *
@@ -1736,7 +1736,7 @@ element
 *
 param
 {
-String
+string
 }
 property
 *
@@ -1886,7 +1886,7 @@ object
 *
 param
 {
-String
+string
 }
 property
 *

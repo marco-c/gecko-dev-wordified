@@ -1888,7 +1888,7 @@ tracker
 *
 param
 {
-Object
+object
 }
 trackerData
 -

@@ -190,7 +190,7 @@ inspector
 *
 param
 {
-Number
+number
 }
 gridCellIndex
 *
@@ -298,13 +298,13 @@ highlighters
 *
 param
 {
-Object
+object
 }
 options
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -330,7 +330,7 @@ counted
 *
 returns
 {
-Number
+number
 }
 *
 /

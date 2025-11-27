@@ -1172,7 +1172,7 @@ param
 {
 Array
 <
-Object
+object
 >
 }
 updates

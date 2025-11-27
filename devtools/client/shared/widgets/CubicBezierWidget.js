@@ -3639,7 +3639,7 @@ curve
 *
 param
 {
-String
+string
 }
 value
 A
@@ -5527,7 +5527,7 @@ stop
 *
 param
 {
-String
+string
 }
 value
 *
@@ -5607,7 +5607,7 @@ beginning
 *
 param
 {
-String
+string
 }
 timingFunction
 The
@@ -6132,7 +6132,7 @@ undefined
 *
 param
 {
-String
+string
 }
 value
 *
@@ -6398,7 +6398,7 @@ another
 *
 param
 {
-String
+string
 }
 className
 the
@@ -6521,7 +6521,7 @@ compare
 *
 return
 {
-Boolean
+boolean
 }
 *
 /

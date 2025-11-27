@@ -311,7 +311,7 @@ view
 *
 param
 {
-Number
+number
 }
 index
 *
@@ -332,7 +332,7 @@ property
 *
 param
 {
-String
+string
 }
 name
 *
@@ -346,7 +346,7 @@ property
 *
 param
 {
-String
+string
 }
 value
 *

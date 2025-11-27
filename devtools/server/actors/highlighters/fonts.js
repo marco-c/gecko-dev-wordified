@@ -424,7 +424,7 @@ runs
 *
 param
 {
-Object
+object
 }
 options
 A

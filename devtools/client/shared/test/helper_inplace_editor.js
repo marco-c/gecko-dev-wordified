@@ -187,7 +187,7 @@ mode
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -219,7 +219,7 @@ created
 *
 param
 {
-String
+string
 }
 textContent
 *

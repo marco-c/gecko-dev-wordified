@@ -96,7 +96,7 @@ P
 *
 typedef
 {
-Object
+object
 }
 StateProps
 *
@@ -156,7 +156,7 @@ presets
 *
 typedef
 {
-Object
+object
 }
 ThunkDispatchProps
 *
@@ -176,7 +176,7 @@ changePreset
 *
 typedef
 {
-Object
+object
 }
 OwnProps
 *

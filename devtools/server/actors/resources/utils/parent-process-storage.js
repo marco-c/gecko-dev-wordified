@@ -1479,7 +1479,7 @@ windowGlobal
 *
 param
 {
-Boolean
+boolean
 }
 isBfCacheNavigation
 *
@@ -2892,7 +2892,7 @@ host
 *
 param
 {
-String
+string
 }
 host
 :

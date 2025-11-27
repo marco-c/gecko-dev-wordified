@@ -400,7 +400,7 @@ props
 *
 return
 {
-Object
+object
 }
 An
 object

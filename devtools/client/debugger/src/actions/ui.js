@@ -710,13 +710,13 @@ source
 *
 param
 {
-Object
+object
 }
 location
 *
 param
 {
-String
+string
 }
 location
 .
@@ -731,7 +731,7 @@ highlight
 *
 param
 {
-Number
+number
 }
 location
 .
@@ -751,7 +751,7 @@ highlight
 *
 param
 {
-Number
+number
 }
 location
 .

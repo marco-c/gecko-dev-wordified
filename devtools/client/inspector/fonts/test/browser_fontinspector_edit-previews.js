@@ -316,7 +316,7 @@ URIs
 *
 param
 {
-Boolean
+boolean
 }
 assertIdentical
 *

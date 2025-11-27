@@ -226,7 +226,7 @@ tab
 *
 param
 {
-String
+string
 }
 url
 *
@@ -238,7 +238,7 @@ open
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -358,7 +358,7 @@ this
 *
 param
 {
-String
+string
 }
 url
 *
@@ -370,7 +370,7 @@ open
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -505,7 +505,7 @@ SystemPrincipal
 *
 param
 {
-String
+string
 }
 url
 *
@@ -517,7 +517,7 @@ open
 *
 param
 {
-Object
+object
 }
 options
 *

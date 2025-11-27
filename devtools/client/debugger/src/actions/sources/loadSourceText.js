@@ -632,13 +632,13 @@ reducer
 *
 param
 {
-Object
+object
 }
 source
 *
 param
 {
-Object
+object
 }
 sourceActor
 (
@@ -661,7 +661,7 @@ actor
 *
 param
 {
-Object
+object
 }
 thunkArgs
 *
@@ -875,7 +875,7 @@ actor
 *
 param
 {
-Object
+object
 }
 sourceActor
 *
@@ -1102,7 +1102,7 @@ actor
 *
 param
 {
-Object
+object
 }
 source
 *

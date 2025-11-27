@@ -3361,7 +3361,7 @@ suggestions
 *
 param
 {
-String
+string
 |
 null
 }

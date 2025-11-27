@@ -1572,7 +1572,7 @@ pressed
 *
 param
 {
-Object
+object
 }
 key
 *
@@ -1638,7 +1638,7 @@ debugging
 *
 param
 {
-Number
+number
 }
 startTime
 *

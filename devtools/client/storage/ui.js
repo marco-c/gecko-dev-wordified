@@ -936,7 +936,7 @@ in
 *
 param
 {
-Object
+object
 }
 commands
 *
@@ -5015,7 +5015,7 @@ localized
 *
 param
 {
-String
+string
 }
 type
 *
@@ -5026,7 +5026,7 @@ type
 *
 param
 {
-String
+string
 }
 name
 *
@@ -6185,7 +6185,7 @@ Hostname
 *
 param
 {
-array
+Array
 }
 names
 *
@@ -8484,7 +8484,7 @@ tree
 *
 param
 {
-array
+Array
 }
 item
 *
@@ -9214,7 +9214,7 @@ table
 *
 param
 {
-array
+Array
 [
 object
 ]

@@ -600,7 +600,7 @@ class
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -619,7 +619,7 @@ startTracing
 *
 return
 {
-Boolean
+boolean
 }
 *
 True
@@ -681,7 +681,7 @@ tracing
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1565,7 +1565,7 @@ resource
 *
 return
 {
-Object
+object
 }
 Gecko
 profiler

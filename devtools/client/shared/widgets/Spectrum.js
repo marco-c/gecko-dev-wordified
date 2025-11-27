@@ -1796,7 +1796,7 @@ rgb
 *
 return
 {
-String
+string
 }
 *
 Color
@@ -2181,7 +2181,7 @@ it
 *
 param
 {
-String
+string
 }
 sliderType
 *
@@ -2397,7 +2397,7 @@ otherwise
 *
 param
 {
-Boolean
+boolean
 }
 isLargeText
 *
@@ -2644,7 +2644,7 @@ update
 *
 param
 {
-String
+string
 }
 score
 *
@@ -2655,7 +2655,7 @@ score
 *
 param
 {
-Number
+number
 }
 value
 *
@@ -4522,7 +4522,7 @@ background
 *
 param
 {
-Object
+object
 }
 computedStyle
 *
@@ -4542,7 +4542,7 @@ ratio
 *
 param
 {
-Object
+object
 }
 backgroundColor
 *
@@ -4562,7 +4562,7 @@ max
 *
 return
 {
-Object
+object
 }
 *
 An

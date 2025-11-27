@@ -1229,7 +1229,7 @@ Extension
 *
 param
 {
-String
+string
 }
 addonId
 *
@@ -3165,7 +3165,7 @@ table
 param
 {
 [
-String
+string
 ]
 }
 ids
@@ -3375,7 +3375,7 @@ table
 *
 param
 {
-String
+string
 }
 id
 *
@@ -3527,7 +3527,7 @@ target
 *
 param
 {
-Object
+object
 }
 target
 An
@@ -3547,13 +3547,13 @@ removeEventListener
 *
 param
 {
-String
+string
 }
 eventName
 *
 param
 {
-Boolean
+boolean
 }
 useCapture
 Optional
@@ -3747,7 +3747,7 @@ row
 *
 param
 {
-String
+string
 }
 id
 *
@@ -3761,7 +3761,7 @@ row
 *
 param
 {
-Boolean
+boolean
 }
 includeHidden
 *
@@ -3773,7 +3773,7 @@ columns
 *
 return
 {
-Object
+object
 }
 *
 An
@@ -3860,7 +3860,7 @@ id
 *
 param
 {
-String
+string
 }
 id
 *
@@ -3949,7 +3949,7 @@ row
 *
 param
 {
-String
+string
 }
 id
 *
@@ -3963,7 +3963,7 @@ row
 *
 param
 {
-Boolean
+boolean
 }
 includeHidden
 *
@@ -3975,7 +3975,7 @@ columns
 *
 return
 {
-Object
+object
 }
 *
 An
@@ -4349,7 +4349,7 @@ value
 *
 param
 {
-String
+string
 }
 id
 *
@@ -4362,7 +4362,7 @@ row
 *
 param
 {
-String
+string
 }
 column
 *
@@ -4375,7 +4375,7 @@ column
 *
 yield
 {
-String
+string
 }
 *
 The
@@ -4524,7 +4524,7 @@ startCellEdit
 *
 param
 {
-String
+string
 }
 id
 *
@@ -4537,7 +4537,7 @@ row
 *
 param
 {
-String
+string
 }
 column
 *
@@ -4549,7 +4549,7 @@ column
 *
 param
 {
-String
+string
 }
 newValue
 *
@@ -4559,7 +4559,7 @@ value
 *
 param
 {
-Boolean
+boolean
 }
 validate
 *
@@ -4573,7 +4573,7 @@ true
 *
 yield
 {
-String
+string
 }
 *
 The
@@ -4651,7 +4651,7 @@ cell
 *
 param
 {
-String
+string
 }
 id
 *
@@ -4664,7 +4664,7 @@ row
 *
 param
 {
-String
+string
 }
 column
 *
@@ -4676,7 +4676,7 @@ column
 *
 param
 {
-Boolean
+boolean
 }
 selectText
 *
@@ -4810,7 +4810,7 @@ value
 *
 param
 {
-String
+string
 }
 id
 *
@@ -4823,7 +4823,7 @@ row
 *
 param
 {
-String
+string
 }
 column
 *
@@ -4835,7 +4835,7 @@ column
 *
 param
 {
-String
+string
 }
 expected
 *
@@ -4893,7 +4893,7 @@ mode
 *
 param
 {
-String
+string
 }
 id
 *
@@ -4906,7 +4906,7 @@ row
 *
 param
 {
-String
+string
 }
 column
 *
@@ -5021,7 +5021,7 @@ column
 *
 param
 {
-String
+string
 }
 id
 *
@@ -5035,7 +5035,7 @@ column
 *
 param
 {
-Boolean
+boolean
 }
 state
 *
@@ -5104,7 +5104,7 @@ header
 *
 param
 {
-String
+string
 }
 id
 *
@@ -5170,7 +5170,7 @@ columns
 *
 param
 {
-Boolean
+boolean
 }
 state
 *
@@ -5242,7 +5242,7 @@ updated
 *
 param
 {
-String
+string
 }
 str
 *
@@ -5254,7 +5254,7 @@ type
 *
 param
 {
-String
+string
 }
 terminator
 *
@@ -5271,7 +5271,7 @@ KEY_Tab
 *
 param
 {
-Boolean
+boolean
 }
 validate
 *
@@ -5501,7 +5501,7 @@ times
 *
 param
 {
-String
+string
 }
 key
 *
@@ -5519,7 +5519,7 @@ VK_TAB
 *
 param
 {
-Number
+number
 }
 x
 *
@@ -5535,7 +5535,7 @@ key
 *
 param
 {
-Object
+object
 }
 modifiers
 *
@@ -5878,7 +5878,7 @@ containment
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -6170,7 +6170,7 @@ tree
 *
 param
 {
-Boolean
+boolean
 }
 state
 *
@@ -6695,7 +6695,7 @@ path
 *
 param
 {
-Boolean
+boolean
 }
 isExpected
 *
@@ -6848,7 +6848,7 @@ path
 *
 returns
 {
-String
+string
 }
 *
 /
@@ -6918,7 +6918,7 @@ table
 *
 param
 {
-String
+string
 }
 name
 *
@@ -7042,7 +7042,7 @@ table
 *
 param
 {
-String
+string
 }
 name
 *
@@ -7104,19 +7104,19 @@ content
 *
 param
 {
-String
+string
 }
 domain
 *
 param
 {
-String
+string
 }
 html
 *
 param
 {
-String
+string
 }
 protocol
 *
@@ -7181,13 +7181,13 @@ table
 *
 param
 {
-String
+string
 }
 name
 *
 param
 {
-String
+string
 }
 value
 *
@@ -7246,13 +7246,13 @@ table
 *
 param
 {
-String
+string
 }
 name
 *
 param
 {
-String
+string
 }
 value
 *

@@ -1158,7 +1158,7 @@ mode
 *
 param
 {
-Boolean
+boolean
 }
 ignore
 *
@@ -2008,7 +2008,7 @@ later
 *
 param
 {
-Number
+number
 }
 start
 When
@@ -2018,7 +2018,7 @@ started
 *
 param
 {
-Number
+number
 }
 end
 When
@@ -2028,7 +2028,7 @@ ended
 *
 param
 {
-Boolean
+boolean
 }
 isInterruptible
 *

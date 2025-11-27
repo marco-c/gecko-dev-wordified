@@ -328,7 +328,7 @@ url
 *
 param
 {
-Object
+object
 }
 option
 object

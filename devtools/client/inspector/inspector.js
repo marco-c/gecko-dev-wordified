@@ -1484,7 +1484,7 @@ here
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1557,7 +1557,7 @@ passed
 *
 param
 {
-String
+string
 |
 undefined
 }
@@ -5789,7 +5789,7 @@ mode
 *
 return
 {
-Boolean
+boolean
 }
 true
 if
@@ -9060,7 +9060,7 @@ API
 *
 param
 {
-String
+string
 }
 id
 *
@@ -9075,13 +9075,13 @@ tab
 *
 param
 {
-Object
+object
 }
 options
 *
 param
 {
-String
+string
 }
 options
 .
@@ -9374,7 +9374,7 @@ open
 *
 param
 {
-String
+string
 }
 id
 *
@@ -9660,7 +9660,7 @@ not
 *
 return
 {
-Boolean
+boolean
 }
 true
 if
@@ -10380,7 +10380,7 @@ element
 *
 return
 {
-Boolean
+boolean
 }
 *
 /

@@ -139,7 +139,7 @@ param
 {
 string
 |
-Object
+object
 }
 stylesheetResourceOrGeneratedURL
 *

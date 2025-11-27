@@ -162,7 +162,7 @@ angle
 *
 param
 {
-Object
+object
 }
 device
 *
@@ -187,7 +187,7 @@ orientation
 *
 param
 {
-Object
+object
 }
 viewport
 *
@@ -215,7 +215,7 @@ RDM
 *
 param
 {
-Number
+number
 |
 null
 }
@@ -257,7 +257,7 @@ device
 *
 return
 {
-Object
+object
 }
 the
 orientation

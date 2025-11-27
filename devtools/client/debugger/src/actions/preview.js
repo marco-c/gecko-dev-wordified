@@ -205,7 +205,7 @@ Tracer
 *
 param
 {
-Object
+object
 }
 target
 *
@@ -220,7 +220,7 @@ rendering
 *
 param
 {
-Object
+object
 }
 tokenPos
 *
@@ -236,7 +236,7 @@ token
 *
 param
 {
-Object
+object
 }
 editor
 *
@@ -624,7 +624,7 @@ paused
 *
 param
 {
-Object
+object
 }
 target
 *
@@ -639,7 +639,7 @@ rendering
 *
 param
 {
-Object
+object
 }
 tokenPos
 *
@@ -655,7 +655,7 @@ token
 *
 param
 {
-Object
+object
 }
 editor
 *

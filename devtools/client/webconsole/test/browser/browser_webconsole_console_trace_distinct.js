@@ -484,7 +484,7 @@ returns
 {
 Array
 <
-String
+string
 >
 }
 *

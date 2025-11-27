@@ -1139,7 +1139,7 @@ finished
 *
 param
 {
-String
+string
 }
 key
 *

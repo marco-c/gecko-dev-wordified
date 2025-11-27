@@ -467,7 +467,7 @@ everytime
 *
 param
 {
-Object
+object
 }
 options
 Set

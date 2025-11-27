@@ -805,7 +805,7 @@ parent
 *
 param
 {
-String
+string
 }
 type
 -
@@ -814,7 +814,7 @@ type
 *
 param
 {
-String
+string
 }
 displayName
 -
@@ -825,7 +825,7 @@ name
 *
 param
 {
-Object
+object
 }
 parent
 -
@@ -836,7 +836,7 @@ scope
 *
 param
 {
-Object
+object
 }
 loc
 -
@@ -856,7 +856,7 @@ scope
 *
 returns
 {
-Object
+object
 }
 The
 newly

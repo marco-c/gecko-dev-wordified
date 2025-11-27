@@ -913,7 +913,7 @@ editor
 *
 param
 {
-String
+string
 }
 name
 *
@@ -1376,13 +1376,13 @@ any
 *
 param
 {
-Object
+object
 }
 nodeInfo
 *
 return
 {
-String
+string
 }
 The
 tooltip
@@ -2098,7 +2098,7 @@ node
 *
 return
 {
-Boolean
+boolean
 }
 *
 true
@@ -2472,7 +2472,7 @@ opened
 *
 param
 {
-String
+string
 }
 type
 *
@@ -2565,7 +2565,7 @@ URI
 *
 param
 {
-String
+string
 }
 imageUrl
 *
@@ -2778,7 +2778,7 @@ preview
 *
 param
 {
-String
+string
 }
 font
 *
@@ -3034,7 +3034,7 @@ preview
 *
 param
 {
-Object
+object
 }
 tooltipParams
 *

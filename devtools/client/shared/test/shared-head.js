@@ -3403,7 +3403,7 @@ toolbox
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -3796,7 +3796,7 @@ url
 *
 param
 {
-String
+string
 }
 url
 The
@@ -3811,7 +3811,7 @@ tab
 *
 param
 {
-Object
+object
 }
 options
 Object
@@ -4092,7 +4092,7 @@ tab
 *
 param
 {
-Object
+object
 }
 tab
 The
@@ -4287,7 +4287,7 @@ process
 *
 param
 {
-String
+string
 }
 url
 The
@@ -6834,7 +6834,7 @@ open
 *
 param
 {
-String
+string
 }
 hostType
 Optional
@@ -6983,7 +6983,7 @@ md
 *
 param
 {
-String
+string
 }
 key
 *
@@ -7173,7 +7173,7 @@ steps
 *
 param
 {
-Number
+number
 }
 ms
 *
@@ -7799,7 +7799,7 @@ times
 *
 param
 {
-Object
+object
 }
 target
 *
@@ -7820,13 +7820,13 @@ removeEventListener
 *
 param
 {
-String
+string
 }
 eventName
 *
 param
 {
-Number
+number
 }
 numTimes
 *
@@ -7840,7 +7840,7 @@ for
 *
 param
 {
-Boolean
+boolean
 }
 useCapture
 *
@@ -8074,7 +8074,7 @@ target
 *
 param
 {
-Object
+object
 }
 target
 *
@@ -8090,7 +8090,7 @@ mutations
 *
 param
 {
-String
+string
 }
 selector
 *
@@ -8112,7 +8112,7 @@ target
 *
 param
 {
-Number
+number
 }
 expectedLength
 *
@@ -8273,7 +8273,7 @@ target
 *
 param
 {
-Object
+object
 }
 target
 *
@@ -8294,13 +8294,13 @@ removeEventListener
 *
 param
 {
-String
+string
 }
 eventName
 *
 param
 {
-Boolean
+boolean
 }
 useCapture
 *
@@ -8420,7 +8420,7 @@ scope
 *
 param
 {
-String
+string
 }
 filePath
 The
@@ -8516,7 +8516,7 @@ in
 *
 param
 {
-String
+string
 }
 toolId
 Optional
@@ -8533,7 +8533,7 @@ selected
 *
 param
 {
-String
+string
 }
 hostType
 Optional
@@ -8723,7 +8723,7 @@ it
 *
 param
 {
-String
+string
 }
 url
 The
@@ -8738,7 +8738,7 @@ opened
 *
 param
 {
-String
+string
 }
 toolId
 Optional
@@ -8755,7 +8755,7 @@ selected
 *
 param
 {
-String
+string
 }
 hostType
 Optional
@@ -9548,7 +9548,7 @@ updated
 *
 param
 {
-String
+string
 }
 preferenceName
 *
@@ -10967,7 +10967,7 @@ folder
 *
 param
 {
-Object
+object
 }
 [
 options
@@ -10975,7 +10975,7 @@ options
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -12039,7 +12039,7 @@ done
 *
 param
 {
-Object
+object
 }
 store
 *
@@ -12055,7 +12055,7 @@ dispatched
 *
 param
 {
-String
+string
 }
 actionType
 *
@@ -12068,7 +12068,7 @@ for
 *
 param
 {
-Number
+number
 }
 repeat
 *
@@ -12261,7 +12261,7 @@ param
 {
 Array
 <
-String
+string
 >
 }
 selectors
@@ -12446,7 +12446,7 @@ viewport
 *
 param
 {
-String
+string
 |
 Array
 }
@@ -12709,7 +12709,7 @@ viewport
 *
 param
 {
-String
+string
 |
 Array
 }
@@ -12963,7 +12963,7 @@ in
 *
 param
 {
-String
+string
 }
 selector
 :
@@ -13047,7 +13047,7 @@ page
 *
 param
 {
-Number
+number
 }
 zoomLevel
 *
@@ -13090,7 +13090,7 @@ target
 *
 param
 {
-Object
+object
 }
 commands
 *
@@ -13098,7 +13098,7 @@ return
 {
 Promise
 <
-Object
+object
 >
 }
 *
@@ -15538,7 +15538,7 @@ promptly
 *
 param
 {
-String
+string
 }
 workerUrl
 *
@@ -16042,7 +16042,7 @@ promptly
 *
 param
 {
-String
+string
 }
 workerUrl
 *
@@ -16729,7 +16729,7 @@ instance
 *
 param
 {
-Object
+object
 }
 monitor
 *
@@ -16740,7 +16740,7 @@ object
 *
 param
 {
-String
+string
 }
 id
 *
@@ -16825,7 +16825,7 @@ close
 *
 param
 {
-Object
+object
 }
 monitor
 *
@@ -16836,7 +16836,7 @@ object
 *
 param
 {
-String
+string
 }
 id
 *
@@ -17021,7 +17021,7 @@ toolbox
 *
 param
 {
-String
+string
 }
 query
 *
@@ -17152,13 +17152,13 @@ toolbox
 *
 param
 {
-String
+string
 }
 messageText
 *
 param
 {
-String
+string
 }
 linkText
 *
@@ -17311,7 +17311,7 @@ options
 *
 param
 {
-String
+string
 |
 null
 }
@@ -17321,7 +17321,7 @@ url
 *
 param
 {
-Number
+number
 |
 null
 }
@@ -17331,7 +17331,7 @@ line
 *
 param
 {
-Number
+number
 |
 null
 }
@@ -17341,7 +17341,7 @@ column
 *
 param
 {
-String
+string
 |
 undefined
 }

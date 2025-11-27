@@ -400,7 +400,7 @@ Array
 <
 Array
 <
-Object
+object
 >
 >
 }
@@ -449,7 +449,7 @@ param
 {
 Array
 <
-Object
+object
 >
 }
 targetBrowsers
@@ -540,7 +540,7 @@ Array
 <
 Array
 <
-Object
+object
 >
 >
 }

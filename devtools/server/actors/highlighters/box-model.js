@@ -463,7 +463,7 @@ destroy
 *
 param
 {
-String
+string
 }
 options
 .
@@ -499,7 +499,7 @@ margin
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -511,7 +511,7 @@ false
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -523,7 +523,7 @@ false
 *
 param
 {
-String
+string
 }
 options
 .
@@ -568,7 +568,7 @@ margin
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -2357,7 +2357,7 @@ node
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -3141,7 +3141,7 @@ breaks
 *
 param
 {
-String
+string
 }
 region
 The
@@ -3159,7 +3159,7 @@ for
 *
 return
 {
-Object
+object
 }
 A
 quad
@@ -4426,7 +4426,7 @@ quads
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -4637,7 +4637,7 @@ there
 *
 param
 {
-String
+string
 }
 region
 The
@@ -5030,7 +5030,7 @@ hidden
 *
 param
 {
-String
+string
 }
 side
 *

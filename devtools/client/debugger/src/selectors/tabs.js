@@ -237,7 +237,7 @@ enabled
 *
 return
 {
-Boolean
+boolean
 }
 *
 /

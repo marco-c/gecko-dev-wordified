@@ -498,7 +498,7 @@ id
 *
 param
 {
-String
+string
 }
 snapshotId
 *

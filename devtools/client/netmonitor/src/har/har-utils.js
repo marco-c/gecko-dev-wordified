@@ -517,7 +517,7 @@ stored
 *
 param
 {
-String
+string
 }
 jsonString
 HAR
@@ -530,7 +530,7 @@ JSONP
 *
 param
 {
-Boolean
+boolean
 }
 compress
 The

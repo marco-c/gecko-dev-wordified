@@ -372,13 +372,13 @@ string
 *
 param
 {
-Number
+number
 }
 time
 *
 return
 {
-String
+string
 }
 *
 /

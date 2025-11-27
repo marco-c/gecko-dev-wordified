@@ -658,7 +658,7 @@ instance
 *
 return
 {
-Object
+object
 }
 *
 A
@@ -1353,7 +1353,7 @@ notification
 *
 param
 {
-Boolean
+boolean
 }
 clearStorage
 *
@@ -1377,7 +1377,7 @@ Console
 *
 param
 {
-Object
+object
 }
 event
 *
@@ -1790,7 +1790,7 @@ private
 *
 return
 {
-Object
+object
 }
 *
 A
@@ -2511,7 +2511,7 @@ loading
 *
 param
 {
-Boolean
+boolean
 }
 hasNativeConsoleAPI
 *
@@ -4266,7 +4266,7 @@ console
 *
 return
 {
-String
+string
 [
 ]
 }

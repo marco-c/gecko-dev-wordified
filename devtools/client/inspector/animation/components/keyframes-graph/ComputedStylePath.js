@@ -220,7 +220,7 @@ animated
 *
 return
 {
-String
+string
 }
 *
 e
@@ -251,7 +251,7 @@ parameter
 *
 param
 {
-Object
+object
 }
 keyframe
 *
@@ -302,7 +302,7 @@ g
 *
 return
 {
-Number
+number
 }
 *
 e
@@ -404,7 +404,7 @@ values
 *
 param
 {
-Object
+object
 }
 startKeyframe
 *
@@ -414,7 +414,7 @@ keyframe
 *
 param
 {
-Object
+object
 }
 endKeyframe
 *
@@ -1107,7 +1107,7 @@ segments
 *
 param
 {
-Object
+object
 }
 style
 *
@@ -1220,7 +1220,7 @@ name
 *
 param
 {
-String
+string
 }
 cssPropertyName
 *
@@ -1240,7 +1240,7 @@ color
 *
 return
 {
-String
+string
 }
 *
 JavaScript

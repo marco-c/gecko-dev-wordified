@@ -1605,7 +1605,7 @@ hud
 *
 param
 {
-String
+string
 }
 str
 *

@@ -4041,13 +4041,13 @@ sidebar
 *
 param
 {
-Object
+object
 }
 dbg
 *
 param
 {
-String
+string
 }
 label
 *
@@ -4058,7 +4058,7 @@ location
 *
 param
 {
-Number
+number
 }
 index
 *

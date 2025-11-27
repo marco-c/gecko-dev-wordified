@@ -977,7 +977,7 @@ select
 *
 return
 {
-Object
+object
 }
 *
 {
@@ -1256,7 +1256,7 @@ version
 *
 return
 {
-Object
+object
 }
 compatibility
 summary

@@ -273,7 +273,7 @@ element
 *
 param
 {
-String
+string
 }
 type
 *
@@ -288,7 +288,7 @@ grid
 *
 param
 {
-String
+string
 }
 selector
 *

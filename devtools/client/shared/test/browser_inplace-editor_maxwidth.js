@@ -728,7 +728,7 @@ textarea
 *
 return
 {
-Number
+number
 }
 the
 number

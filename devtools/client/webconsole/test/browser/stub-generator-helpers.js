@@ -1583,7 +1583,7 @@ file
 *
 param
 {
-String
+string
 }
 fileName
 :
@@ -1611,7 +1611,7 @@ packets
 *
 param
 {
-Boolean
+boolean
 }
 isNetworkMessage
 :
@@ -2207,7 +2207,7 @@ obj
 *
 param
 {
-Object
+object
 }
 packet
 *
@@ -2219,13 +2219,13 @@ serialize
 *
 param
 {
-Object
+object
 }
 options
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -2262,7 +2262,7 @@ changed
 *
 param
 {
-Boolean
+boolean
 }
 options
 .

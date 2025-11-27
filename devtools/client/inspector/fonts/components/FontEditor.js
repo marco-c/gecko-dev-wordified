@@ -567,7 +567,7 @@ instances
 *
 param
 {
-Object
+object
 }
 editedAxes
 *
@@ -1361,7 +1361,7 @@ file
 *
 param
 {
-Object
+object
 }
 selectedInstance
 *

@@ -250,7 +250,7 @@ max
 *
 param
 {
-Number
+number
 }
 min
 *
@@ -262,7 +262,7 @@ range
 *
 param
 {
-Number
+number
 }
 max
 *
@@ -274,7 +274,7 @@ range
 *
 return
 {
-Number
+number
 }
 *
 Step

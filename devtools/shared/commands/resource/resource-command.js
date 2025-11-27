@@ -885,7 +885,7 @@ watcher
 *
 param
 {
-String
+string
 }
 resourceType
 *
@@ -966,19 +966,19 @@ watcher
 *
 param
 {
-String
+string
 }
 resourceType
 *
 param
 {
-String
+string
 }
 resourceId
 *
 return
 {
-Object
+object
 }
 resource
 cached
@@ -1062,7 +1062,7 @@ observed
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -2365,7 +2365,7 @@ resourceType
 *
 param
 {
-String
+string
 }
 resourceType
 *
@@ -2383,7 +2383,7 @@ resource
 *
 param
 {
-Object
+object
 }
 additional
 options
@@ -2428,7 +2428,7 @@ return
 {
 Promise
 <
-Object
+object
 >
 }
 *
@@ -2648,7 +2648,7 @@ resource
 *
 param
 {
-String
+string
 }
 resourceType
 *
@@ -2660,7 +2660,7 @@ TYPES
 *
 return
 {
-Boolean
+boolean
 }
 *
 If
@@ -3207,7 +3207,7 @@ created
 *
 param
 {
-Object
+object
 }
 arg
 *
@@ -3248,7 +3248,7 @@ ContentProcessTargetFront
 *
 param
 {
-Boolean
+boolean
 }
 arg
 .
@@ -4161,7 +4161,7 @@ destroyed
 *
 param
 {
-Object
+object
 }
 arg
 *
@@ -4184,7 +4184,7 @@ destroyed
 *
 param
 {
-Boolean
+boolean
 }
 arg
 .
@@ -5418,7 +5418,7 @@ events
 *
 param
 {
-Object
+object
 }
 source
 *
@@ -5476,7 +5476,7 @@ param
 {
 Array
 <
-Object
+object
 >
 }
 updates
@@ -6116,7 +6116,7 @@ target
 *
 param
 {
-Object
+object
 }
 source
 *
@@ -6894,7 +6894,7 @@ method
 *
 return
 {
-Boolean
+boolean
 }
 True
 if
@@ -6964,7 +6964,7 @@ target
 *
 return
 {
-Boolean
+boolean
 }
 True
 if
@@ -7091,7 +7091,7 @@ target
 *
 param
 {
-String
+string
 }
 resourceType
 *
@@ -7115,7 +7115,7 @@ listened
 *
 param
 {
-Object
+object
 }
 *
 -

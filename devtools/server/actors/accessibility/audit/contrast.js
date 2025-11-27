@@ -402,7 +402,7 @@ objects
 *
 param
 {
-Object
+object
 }
 win
 *
@@ -413,7 +413,7 @@ window
 *
 param
 {
-Object
+object
 }
 bounds
 *
@@ -426,7 +426,7 @@ object
 *
 param
 {
-Object
+object
 }
 zoom
 *
@@ -440,7 +440,7 @@ window
 *
 param
 {
-Object
+object
 }
 scale
 *
@@ -1002,14 +1002,14 @@ data
 *
 param
 {
-Object
+object
 }
 options
 *
 -
 bounds
 {
-Object
+object
 }
 *
 Bounds
@@ -1022,7 +1022,7 @@ object
 -
 win
 {
-Object
+object
 }
 *
 Target
@@ -1059,7 +1059,7 @@ bold
 *
 return
 {
-Object
+object
 }
 *
 Object
@@ -1530,14 +1530,14 @@ ratio
 *
 param
 {
-Object
+object
 }
 options
 *
 -
 bounds
 {
-Object
+object
 }
 *
 Bounds
@@ -1550,7 +1550,7 @@ object
 -
 win
 {
-Object
+object
 }
 *
 Target
@@ -1581,7 +1581,7 @@ exists
 *
 return
 {
-Object
+object
 }
 *
 An

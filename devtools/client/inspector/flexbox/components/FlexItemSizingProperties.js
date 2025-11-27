@@ -455,7 +455,7 @@ omitted
 *
 param
 {
-Number
+number
 }
 value
 *
@@ -467,7 +467,7 @@ rounded
 *
 param
 {
-Boolean
+boolean
 }
 prependPlusSign
 *
@@ -488,7 +488,7 @@ value
 *
 return
 {
-Object
+object
 }
 *
 The
@@ -609,7 +609,7 @@ property
 *
 param
 {
-String
+string
 }
 name
 *
@@ -622,7 +622,7 @@ property
 *
 param
 {
-String
+string
 }
 value
 *
@@ -632,7 +632,7 @@ value
 *
 return
 {
-Object
+object
 }
 *
 The
@@ -720,7 +720,7 @@ Strings
 *
 return
 {
-Object
+object
 }
 *
 The

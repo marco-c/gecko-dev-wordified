@@ -1815,7 +1815,7 @@ etc
 *
 param
 {
-String
+string
 }
 type
 *
@@ -2106,7 +2106,7 @@ arguments
 *
 param
 {
-String
+string
 }
 type
 *
@@ -2517,7 +2517,7 @@ exists
 *
 param
 {
-String
+string
 }
 type
 *
@@ -2703,7 +2703,7 @@ type
 *
 param
 {
-String
+string
 }
 type
 *
@@ -2712,7 +2712,7 @@ type
 *
 return
 {
-Number
+number
 }
 *
 Default
@@ -2859,7 +2859,7 @@ front
 *
 param
 {
-String
+string
 }
 type
 *
@@ -3027,7 +3027,7 @@ type
 *
 param
 {
-String
+string
 }
 type
 *
@@ -3189,7 +3189,7 @@ active
 *
 param
 {
-String
+string
 }
 type
 *
@@ -3199,7 +3199,7 @@ type
 *
 return
 {
-Object
+object
 }
 *
 /
@@ -3260,7 +3260,7 @@ type
 *
 param
 {
-String
+string
 }
 type
 *
@@ -3270,7 +3270,7 @@ type
 *
 return
 {
-Object
+object
 }
 *
 /
@@ -3314,7 +3314,7 @@ type
 *
 param
 {
-String
+string
 }
 type
 *
@@ -3467,7 +3467,7 @@ visible
 *
 param
 {
-String
+string
 }
 type
 *
@@ -3909,7 +3909,7 @@ delay
 *
 param
 {
-String
+string
 }
 type
 *
@@ -3921,7 +3921,7 @@ hide
 *
 param
 {
-Number
+number
 |
 undefined
 }
@@ -3954,7 +3954,7 @@ task
 *
 return
 {
-Number
+number
 |
 undefined
 }
@@ -4037,7 +4037,7 @@ type
 *
 param
 {
-String
+string
 }
 type
 *
@@ -4345,7 +4345,7 @@ NodeFront
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -4418,7 +4418,7 @@ constraint
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -4467,7 +4467,7 @@ node
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -4752,7 +4752,7 @@ highlight
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -4869,7 +4869,7 @@ highlight
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -4940,7 +4940,7 @@ shown
 *
 param
 {
-Object
+object
 }
 data
 *
@@ -5206,7 +5206,7 @@ highlight
 *
 param
 {
-String
+string
 }
 point
 *
@@ -5548,7 +5548,7 @@ highlight
 param
 .
 {
-String
+string
 }
 trigger
 *
@@ -5690,7 +5690,7 @@ highlight
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -5708,7 +5708,7 @@ highlighter
 param
 .
 {
-String
+string
 }
 trigger
 *
@@ -6152,7 +6152,7 @@ highlight
 param
 .
 {
-String
+string
 }
 trigger
 *
@@ -6573,7 +6573,7 @@ highlight
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -6590,7 +6590,7 @@ highlighter
 *
 param
 {
-String
+string
 }
 trigger
 *
@@ -8844,7 +8844,7 @@ state
 *
 param
 {
-String
+string
 }
 type
 *
@@ -8857,7 +8857,7 @@ restored
 *
 param
 {
-Object
+object
 }
 state
 *
@@ -9240,7 +9240,7 @@ node
 *
 param
 {
-String
+string
 }
 type
 *
@@ -9260,7 +9260,7 @@ shapesEditor
 *
 return
 {
-Object
+object
 |
 null
 }
@@ -9466,7 +9466,7 @@ once
 *
 param
 {
-String
+string
 }
 type
 *
@@ -9676,7 +9676,7 @@ toggle
 *
 param
 {
-Boolean
+boolean
 }
 active
 *
@@ -10056,13 +10056,13 @@ view
 *
 param
 {
-Object
+object
 }
 nodeInfo
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -10144,7 +10144,7 @@ node
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -10203,13 +10203,13 @@ view
 *
 param
 {
-Object
+object
 }
 nodeInfo
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -10314,13 +10314,13 @@ view
 *
 param
 {
-Object
+object
 }
 nodeInfo
 *
 return
 {
-Boolean
+boolean
 }
 *
 /

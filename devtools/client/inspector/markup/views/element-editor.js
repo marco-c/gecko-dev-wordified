@@ -1815,7 +1815,7 @@ from
 *
 return
 {
-Object
+object
 }
 An
 object
@@ -3949,7 +3949,7 @@ it
 *
 param
 {
-Boolean
+boolean
 }
 showOverflowHighlight
 *
@@ -4390,7 +4390,7 @@ element
 *
 param
 {
-String
+string
 }
 attrName
 *
@@ -4469,7 +4469,7 @@ DOM
 *
 param
 {
-String
+string
 }
 attrName
 *
@@ -5050,7 +5050,7 @@ attribute
 *
 param
 {
-Object
+object
 }
 attribute
 *
@@ -5786,7 +5786,7 @@ element
 *
 param
 {
-Object
+object
 }
 attribute
 *
@@ -6238,7 +6238,7 @@ enabled
 *
 param
 {
-String
+string
 }
 value
 *
@@ -6248,7 +6248,7 @@ value
 *
 return
 {
-String
+string
 }
 truncated
 attribute
@@ -6332,7 +6332,7 @@ undoable
 *
 param
 {
-String
+string
 }
 value
 *

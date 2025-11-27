@@ -378,7 +378,7 @@ command
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -409,7 +409,7 @@ screenshot
 *
 param
 {
-Boolean
+boolean
 }
 isSideEffectFree
 *
@@ -883,7 +883,7 @@ commands
 *
 return
 {
-array
+Array
 }
 List
 of

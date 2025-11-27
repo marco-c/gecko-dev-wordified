@@ -1091,7 +1091,7 @@ originates
 *
 param
 {
-Object
+object
 }
 result
 :
@@ -1104,7 +1104,7 @@ message
 *
 returns
 {
-Object
+object
 }
 An
 object

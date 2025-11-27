@@ -220,13 +220,13 @@ lines
 *
 param
 {
-Object
+object
 }
 source
 *
 param
 {
-Number
+number
 }
 lineOrOffset
 *

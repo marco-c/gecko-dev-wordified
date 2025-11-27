@@ -67,7 +67,7 @@ check
 *
 typedef
 {
-Object
+object
 }
 StateProps
 *
@@ -84,7 +84,7 @@ recordingState
 *
 typedef
 {
-Object
+object
 }
 OwnProps
 *

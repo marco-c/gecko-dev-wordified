@@ -1169,7 +1169,7 @@ view
 *
 param
 {
-Object
+object
 }
 store
 *
@@ -2828,7 +2828,7 @@ rule
 *
 param
 {
-String
+string
 }
 selector
 *
@@ -2846,7 +2846,7 @@ page
 *
 param
 {
-Boolean
+boolean
 }
 highlightFromRulesSelector
 *
@@ -3075,13 +3075,13 @@ text
 *
 param
 {
-String
+string
 }
 selector
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -3973,7 +3973,7 @@ DOM
 *
 param
 {
-String
+string
 }
 eventName
 *
@@ -3997,7 +3997,7 @@ shown
 *
 param
 {
-Object
+object
 }
 data
 *
@@ -4690,7 +4690,7 @@ about
 *
 return
 {
-Object
+object
 |
 null
 }
@@ -4807,7 +4807,7 @@ about
 *
 return
 {
-Object
+object
 |
 null
 }
@@ -5706,7 +5706,7 @@ value
 *
 param
 {
-String
+string
 }
 value
 *
@@ -7150,7 +7150,7 @@ inspect
 *
 param
 {
-Boolean
+boolean
 }
 allowRefresh
 *
@@ -8743,7 +8743,7 @@ view
 *
 param
 {
-String
+string
 }
 label
 *
@@ -8756,7 +8756,7 @@ header
 *
 param
 {
-String
+string
 }
 containerId
 *
@@ -8772,7 +8772,7 @@ container
 *
 param
 {
-Boolean
+boolean
 }
 isPseudo
 *
@@ -9128,7 +9128,7 @@ name
 *
 param
 {
-String
+string
 }
 registeredPropertyName
 *
@@ -9207,7 +9207,7 @@ Node
 *
 param
 {
-Boolean
+boolean
 }
 isPseudo
 *
@@ -9224,7 +9224,7 @@ rules
 *
 param
 {
-Boolean
+boolean
 }
 showPseudo
 *
@@ -10391,7 +10391,7 @@ value
 *
 return
 {
-Boolean
+boolean
 }
 true
 if
@@ -10538,7 +10538,7 @@ object
 *
 return
 {
-Boolean
+boolean
 }
 true
 if
@@ -10755,7 +10755,7 @@ highlighted
 *
 return
 {
-Boolean
+boolean
 }
 true
 if
@@ -10925,7 +10925,7 @@ highlighted
 *
 return
 {
-Boolean
+boolean
 }
 true
 if
@@ -11657,7 +11657,7 @@ match
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -11680,7 +11680,7 @@ match
 *
 param
 {
-String
+string
 }
 options
 .
@@ -11695,7 +11695,7 @@ rule
 *
 param
 {
-String
+string
 }
 options
 .
@@ -11756,7 +11756,7 @@ variable
 *
 return
 {
-Boolean
+boolean
 }
 true
 if
@@ -13165,7 +13165,7 @@ to
 *
 param
 {
-String
+string
 }
 scrollBehavior
 *
@@ -13454,7 +13454,7 @@ TextProperty
 *
 param
 {
-String
+string
 }
 name
 *
@@ -13470,7 +13470,7 @@ highlight
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -13534,7 +13534,7 @@ value
 *
 return
 {
-Boolean
+boolean
 }
 true
 if
@@ -14260,7 +14260,7 @@ element
 *
 param
 {
-String
+string
 }
 scrollBehavior
 *
@@ -16225,7 +16225,7 @@ param
 {
 Set
 <
-String
+string
 >
 }
 registeredPropertyNames

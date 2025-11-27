@@ -122,7 +122,7 @@ StoreState
 *
 typedef
 {
-Object
+object
 }
 StateProps
 *
@@ -183,7 +183,7 @@ supportedFeatures
 *
 typedef
 {
-Object
+object
 }
 ThunkDispatchProps
 *

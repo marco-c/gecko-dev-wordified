@@ -326,13 +326,13 @@ to
 *
 param
 {
-Object
+object
 }
 options
 *
 param
 {
-String
+string
 }
 options
 .
@@ -348,7 +348,7 @@ sidebar
 *
 param
 {
-String
+string
 }
 options
 .

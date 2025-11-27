@@ -138,7 +138,7 @@ return
 {
 Promise
 <
-String
+string
 >
 }
 The

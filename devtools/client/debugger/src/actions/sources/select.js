@@ -507,7 +507,7 @@ argument
 *
 param
 {
-String
+string
 }
 source
 *
@@ -520,7 +520,7 @@ select
 *
 param
 {
-String
+string
 }
 sourceActor
 *
@@ -658,7 +658,7 @@ generated
 *
 param
 {
-Object
+object
 }
 location
 *
@@ -670,7 +670,7 @@ select
 *
 param
 {
-Boolean
+boolean
 }
 keepContext
 *
@@ -687,13 +687,13 @@ source
 *
 param
 {
-Object
+object
 }
 thunkArgs
 *
 return
 {
-Object
+object
 }
 *
 Object
@@ -1586,13 +1586,13 @@ keepContext
 *
 param
 {
-Object
+object
 }
 location
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -2554,7 +2554,7 @@ around
 *
 param
 {
-Object
+object
 }
 location
 *
@@ -2690,7 +2690,7 @@ exist
 *
 param
 {
-Object
+object
 }
 location
 *

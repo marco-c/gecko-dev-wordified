@@ -159,7 +159,7 @@ widget
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -454,7 +454,7 @@ tree
 *
 param
 {
-array
+Array
 }
 ids
 *
@@ -637,7 +637,7 @@ tree
 *
 return
 {
-array
+Array
 }
 *
 An
@@ -684,7 +684,7 @@ tree
 *
 return
 {
-array
+Array
 }
 *
 An
@@ -1072,7 +1072,7 @@ tree
 *
 param
 {
-array
+Array
 }
 id
 *
@@ -1979,7 +1979,7 @@ exists
 *
 param
 {
-array
+Array
 }
 item
 *
@@ -2072,7 +2072,7 @@ tree
 *
 param
 {
-array
+Array
 }
 item
 *
@@ -3149,7 +3149,7 @@ tree
 *
 param
 {
-array
+Array
 }
 items
 *
@@ -3754,7 +3754,7 @@ removed
 *
 param
 {
-array
+Array
 }
 items
 *
@@ -3921,7 +3921,7 @@ item
 *
 param
 {
-array
+Array
 }
 items
 *

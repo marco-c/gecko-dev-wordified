@@ -277,13 +277,13 @@ to
 *
 param
 {
-Object
+object
 }
 options
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -291,7 +291,7 @@ listenForWorkers
 *
 return
 {
-Object
+object
 }
 object
 *
@@ -312,7 +312,7 @@ interface
 *
 return
 {
-Object
+object
 }
 object
 .
@@ -409,7 +409,7 @@ targets
 *
 return
 {
-Object
+object
 }
 object
 *
@@ -430,7 +430,7 @@ interface
 *
 return
 {
-Object
+object
 }
 object
 .
@@ -992,7 +992,7 @@ resource
 *
 param
 {
-Object
+object
 }
 styleSheetResource
 *

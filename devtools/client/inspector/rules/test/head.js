@@ -391,7 +391,7 @@ resolves
 *
 param
 {
-String
+string
 }
 name
 *
@@ -635,7 +635,7 @@ a
 *
 param
 {
-Object
+object
 }
 expectedChange
 *
@@ -925,7 +925,7 @@ instance
 *
 param
 {
-Number
+number
 }
 ruleIndex
 *
@@ -940,7 +940,7 @@ view
 *
 param
 {
-Number
+number
 }
 propIndex
 *
@@ -973,7 +973,7 @@ a
 *
 param
 {
-Object
+object
 }
 expectedChange
 *
@@ -1230,7 +1230,7 @@ instance
 *
 param
 {
-Number
+number
 }
 ruleIndex
 *
@@ -1245,7 +1245,7 @@ view
 *
 param
 {
-Number
+number
 }
 propIndex
 *
@@ -1287,7 +1287,7 @@ g
 *
 param
 {
-Object
+object
 }
 expectedChange
 *
@@ -1599,7 +1599,7 @@ panel
 *
 param
 {
-Number
+number
 }
 ruleIndex
 *
@@ -1614,7 +1614,7 @@ use
 *
 param
 {
-String
+string
 }
 name
 *
@@ -1627,7 +1627,7 @@ property
 *
 param
 {
-String
+string
 }
 value
 *
@@ -1640,14 +1640,14 @@ property
 *
 param
 {
-Object
+object
 =
 }
 options
 *
 param
 {
-String
+string
 =
 }
 options
@@ -1713,7 +1713,7 @@ function
 *
 param
 {
-Boolean
+boolean
 =
 }
 options
@@ -2575,7 +2575,7 @@ changed
 *
 param
 {
-String
+string
 }
 name
 *
@@ -2837,7 +2837,7 @@ removed
 *
 param
 {
-Boolean
+boolean
 }
 blurNewProperty
 *
@@ -3306,7 +3306,7 @@ panel
 *
 param
 {
-String
+string
 }
 expectedSelector
 *
@@ -3321,7 +3321,7 @@ have
 *
 param
 {
-Number
+number
 }
 expectedIndex
 *
@@ -3821,7 +3821,7 @@ view
 *
 param
 {
-String
+string
 }
 selectorText
 *
@@ -3837,7 +3837,7 @@ for
 *
 param
 {
-Number
+number
 }
 index
 *
@@ -4281,7 +4281,7 @@ instance
 *
 param
 {
-String
+string
 }
 name
 The
@@ -4774,7 +4774,7 @@ instance
 *
 param
 {
-Number
+number
 }
 ruleIndex
 *
@@ -5149,7 +5149,7 @@ instance
 *
 param
 {
-Number
+number
 }
 ruleIndex
 *
@@ -5173,7 +5173,7 @@ toggled
 *
 param
 {
-Object
+object
 }
 declaration
 *
@@ -5346,7 +5346,7 @@ RuleView
 *
 param
 {
-Number
+number
 }
 ruleIndex
 *
@@ -5365,7 +5365,7 @@ declaration
 *
 param
 {
-Object
+object
 }
 declaration
 *
@@ -5388,7 +5388,7 @@ red
 *
 param
 {
-Object
+object
 }
 newDeclaration
 *
@@ -5582,7 +5582,7 @@ instance
 *
 param
 {
-Number
+number
 }
 ruleIndex
 *
@@ -5603,7 +5603,7 @@ view
 *
 param
 {
-Object
+object
 }
 declaration
 *
@@ -5627,7 +5627,7 @@ red
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -6065,7 +6065,7 @@ instance
 *
 param
 {
-Number
+number
 }
 ruleIndex
 *
@@ -6086,7 +6086,7 @@ view
 *
 param
 {
-Object
+object
 }
 declaration
 *
@@ -6278,7 +6278,7 @@ instance
 *
 param
 {
-Number
+number
 |
 Array
 }
@@ -6346,7 +6346,7 @@ section
 *
 param
 {
-Object
+object
 }
 declaration
 *
@@ -6494,7 +6494,7 @@ tested
 *
 param
 {
-Number
+number
 }
 ruleIndex
 *
@@ -6515,7 +6515,7 @@ view
 *
 param
 {
-Object
+object
 }
 declaration
 *
@@ -7626,7 +7626,7 @@ class
 *
 param
 {
-Object
+object
 }
 view
 *
@@ -7637,7 +7637,7 @@ RuleView
 *
 param
 {
-String
+string
 }
 pseudo
 *
@@ -7724,7 +7724,7 @@ instance
 *
 param
 {
-String
+string
 }
 selector
 *
@@ -7759,7 +7759,7 @@ etc
 *
 param
 {
-String
+string
 }
 propertyName
 *
@@ -7785,7 +7785,7 @@ etc
 *
 param
 {
-String
+string
 }
 expectedClassName
 *
@@ -7800,7 +7800,7 @@ have
 *
 param
 {
-String
+string
 }
 expectedDatasetValue
 *
@@ -7908,7 +7908,7 @@ instance
 *
 param
 {
-Number
+number
 }
 ruleIndex
 *
@@ -8002,13 +8002,13 @@ instance
 *
 param
 {
-Number
+number
 }
 ruleIndex
 *
 returns
 {
-String
+string
 }
 *
 /

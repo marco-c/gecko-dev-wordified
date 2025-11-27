@@ -1082,7 +1082,7 @@ sources
 *
 param
 {
-String
+string
 |
 null
 }
@@ -1095,7 +1095,7 @@ id
 *
 param
 {
-String
+string
 |
 null
 }
@@ -1392,7 +1392,7 @@ clipboard
 *
 param
 {
-String
+string
 }
 ruleId
 *

@@ -1591,7 +1591,7 @@ minSize
 *
 param
 {
-Number
+number
 }
 requestedSize
 *
@@ -1601,7 +1601,7 @@ size
 *
 param
 {
-Number
+number
 }
 splitBoxWidthOrHeight
 *
@@ -1616,7 +1616,7 @@ splitBox
 *
 return
 {
-Number
+number
 }
 *
 The

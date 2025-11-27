@@ -1681,7 +1681,7 @@ process
 *
 param
 {
-Object
+object
 }
 accessible
 *
@@ -2041,7 +2041,7 @@ toolbox
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -2636,7 +2636,7 @@ target
 *
 param
 {
-Object
+object
 }
 startElm
 *
@@ -2659,7 +2659,7 @@ order
 *
 param
 {
-Number
+number
 }
 startIndex
 *
@@ -2752,7 +2752,7 @@ target
 *
 param
 {
-Object
+object
 }
 startElm
 *
@@ -2775,7 +2775,7 @@ order
 *
 param
 {
-Number
+number
 }
 startIndex
 *

@@ -458,7 +458,7 @@ store
 *
 param
 {
-Object
+object
 }
 *
 Object
@@ -1469,7 +1469,7 @@ panel
 *
 param
 {
-Object
+object
 }
 event
 message

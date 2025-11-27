@@ -303,7 +303,7 @@ target
 *
 param
 {
-Boolean
+boolean
 }
 doFocus
 *
@@ -628,7 +628,7 @@ inspectorFront
 *
 param
 {
-Boolean
+boolean
 }
 isDestroyCodePath
 *
@@ -995,7 +995,7 @@ picked
 *
 param
 {
-Boolean
+boolean
 }
 doFocus
 *
@@ -1115,7 +1115,7 @@ picked
 *
 param
 {
-Boolean
+boolean
 }
 isDestroyCodePath
 *
@@ -1145,7 +1145,7 @@ request
 *
 param
 {
-Boolean
+boolean
 }
 canceled
 *
@@ -1396,7 +1396,7 @@ mode
 *
 param
 {
-Object
+object
 }
 data
 *
@@ -1708,7 +1708,7 @@ mode
 *
 param
 {
-Object
+object
 }
 data
 *
@@ -1778,7 +1778,7 @@ mode
 *
 param
 {
-Object
+object
 }
 data
 *

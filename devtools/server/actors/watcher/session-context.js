@@ -522,7 +522,7 @@ ons
 *
 param
 {
-Object
+object
 }
 config
 *
@@ -679,7 +679,7 @@ element
 *
 param
 {
-Object
+object
 }
 config
 *
@@ -821,7 +821,7 @@ toolboxes
 *
 param
 {
-Object
+object
 }
 addon
 *
@@ -838,7 +838,7 @@ on
 *
 param
 {
-String
+string
 }
 addon
 .
@@ -860,7 +860,7 @@ on
 *
 param
 {
-Object
+object
 }
 config
 *
@@ -1082,13 +1082,13 @@ type
 *
 param
 {
-String
+string
 }
 type
 *
 returns
 {
-Object
+object
 }
 *
 /
@@ -1246,13 +1246,13 @@ type
 *
 param
 {
-String
+string
 }
 _type
 *
 returns
 {
-Object
+object
 }
 *
 /

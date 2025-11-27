@@ -684,7 +684,7 @@ js
 *
 param
 {
-Number
+number
 }
 sessionContext
 .
@@ -721,7 +721,7 @@ debug
 *
 param
 {
-Boolean
+boolean
 }
 sessionContext
 .
@@ -5202,7 +5202,7 @@ actor
 *
 return
 {
-Object
+object
 }
 actor
 *
@@ -5254,7 +5254,7 @@ actor
 *
 return
 {
-Object
+object
 }
 actor
 *
@@ -5307,7 +5307,7 @@ actor
 *
 return
 {
-Object
+object
 }
 actor
 *
@@ -5361,7 +5361,7 @@ actor
 *
 return
 {
-Object
+object
 }
 actor
 *
@@ -5414,7 +5414,7 @@ actor
 *
 return
 {
-Object
+object
 }
 actor
 *
@@ -5496,7 +5496,7 @@ breakpoints
 *
 param
 {
-String
+string
 }
 type
 *
@@ -5531,7 +5531,7 @@ type
 *
 param
 {
-String
+string
 }
 updateType
 *
@@ -5809,7 +5809,7 @@ breakpoints
 *
 param
 {
-String
+string
 }
 type
 *
@@ -5951,7 +5951,7 @@ type
 *
 param
 {
-String
+string
 }
 type
 *
@@ -6024,7 +6024,7 @@ workers
 *
 param
 {
-String
+string
 }
 newTargetUrl
 *

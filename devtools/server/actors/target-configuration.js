@@ -955,7 +955,7 @@ process
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -1538,7 +1538,7 @@ cfgMap
 *
 param
 {
-Object
+object
 }
 configuration
 *
@@ -1661,7 +1661,7 @@ _getConfiguration
 *
 param
 {
-Object
+object
 }
 configuration
 :
@@ -2439,7 +2439,7 @@ page
 *
 param
 {
-String
+string
 }
 userAgent
 :
@@ -2468,7 +2468,7 @@ value
 *
 returns
 {
-Boolean
+boolean
 }
 Whether
 the
@@ -2704,7 +2704,7 @@ context
 *
 param
 {
-String
+string
 }
 flag
 :
@@ -2905,13 +2905,13 @@ enabled
 *
 param
 {
-Object
+object
 }
 options
 *
 param
 {
-String
+string
 }
 options
 .
@@ -2928,7 +2928,7 @@ device
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -2990,7 +2990,7 @@ context
 *
 param
 {
-Boolean
+boolean
 }
 disabled
 :
@@ -3069,7 +3069,7 @@ offline
 *
 param
 {
-Boolean
+boolean
 }
 offline
 :
@@ -3242,7 +3242,7 @@ options
 *
 param
 {
-Object
+object
 }
 options
 *

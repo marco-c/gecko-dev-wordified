@@ -155,7 +155,7 @@ tooltip
 *
 param
 {
-Object
+object
 }
 see
 HTMLTooltip
@@ -515,7 +515,7 @@ anchor
 *
 param
 {
-Object
+object
 }
 expected
 *

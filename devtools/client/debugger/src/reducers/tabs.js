@@ -625,7 +625,7 @@ false
 *
 param
 {
-Object
+object
 }
 state
 *
@@ -640,7 +640,7 @@ sources
 *
 param
 {
-Boolean
+boolean
 }
 forceAdding
 *
@@ -683,7 +683,7 @@ restored
 *
 return
 {
-Object
+object
 }
 Modified
 state

@@ -715,7 +715,7 @@ service
 *
 param
 {
-Object
+object
 }
 state
 Current
@@ -724,7 +724,7 @@ state
 *
 param
 {
-Object
+object
 }
 action
 Redux
@@ -733,7 +733,7 @@ object
 *
 return
 {
-Object
+object
 }
 updated
 state
@@ -779,7 +779,7 @@ service
 *
 param
 {
-Object
+object
 }
 state
 Current
@@ -789,7 +789,7 @@ state
 *
 param
 {
-Object
+object
 }
 action
 Redux
@@ -798,7 +798,7 @@ object
 *
 return
 {
-Object
+object
 }
 updated
 state
@@ -842,7 +842,7 @@ panel
 *
 param
 {
-Object
+object
 }
 state
 Current
@@ -852,7 +852,7 @@ state
 *
 param
 {
-Object
+object
 }
 action
 Redux
@@ -861,7 +861,7 @@ object
 *
 return
 {
-Object
+object
 }
 updated
 state
@@ -908,7 +908,7 @@ UI
 *
 param
 {
-Object
+object
 }
 state
 Current
@@ -918,7 +918,7 @@ state
 *
 param
 {
-Object
+object
 }
 action
 Redux
@@ -927,7 +927,7 @@ object
 *
 return
 {
-Object
+object
 }
 updated
 state
@@ -980,7 +980,7 @@ disabling
 *
 param
 {
-Object
+object
 }
 state
 Current
@@ -992,7 +992,7 @@ state
 *
 param
 {
-Object
+object
 }
 action
 Redux
@@ -1001,7 +1001,7 @@ object
 *
 param
 {
-Boolean
+boolean
 }
 enabled
 New
@@ -1011,7 +1011,7 @@ state
 *
 return
 {
-Object
+object
 }
 updated
 state

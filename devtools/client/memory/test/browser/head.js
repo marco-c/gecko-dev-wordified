@@ -1152,7 +1152,7 @@ snapshot
 *
 return
 {
-Number
+number
 }
 *
 /
@@ -1459,7 +1459,7 @@ requestAnimationFrame
 *
 return
 {
-Object
+object
 }
 *
 function
@@ -1615,7 +1615,7 @@ b
 *
 return
 {
-Boolean
+boolean
 }
 *
 /

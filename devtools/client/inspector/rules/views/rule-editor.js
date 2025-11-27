@@ -567,7 +567,7 @@ editing
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -589,7 +589,7 @@ onShowUnusedCustomCssProperties
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -3568,7 +3568,7 @@ param
 {
 Array
 <
-Object
+object
 >
 }
 selectorWarnings
@@ -4016,7 +4016,7 @@ see
 *
 param
 {
-Object
+object
 |
 null
 }
@@ -4462,7 +4462,7 @@ rule
 *
 param
 {
-Boolean
+boolean
 }
 reset
 *
@@ -6174,7 +6174,7 @@ element
 *
 param
 {
-String
+string
 }
 selector
 :
@@ -6186,7 +6186,7 @@ display
 *
 param
 {
-Number
+number
 }
 selectorIndex
 :
@@ -6609,7 +6609,7 @@ rule
 *
 param
 {
-String
+string
 }
 name
 *
@@ -6619,7 +6619,7 @@ name
 *
 param
 {
-String
+string
 }
 value
 *
@@ -6629,7 +6629,7 @@ value
 *
 param
 {
-String
+string
 }
 priority
 *
@@ -6639,7 +6639,7 @@ priority
 *
 param
 {
-Boolean
+boolean
 }
 enabled
 *
@@ -7488,7 +7488,7 @@ dismissed
 *
 param
 {
-String
+string
 }
 value
 *
@@ -7501,7 +7501,7 @@ editor
 *
 param
 {
-Boolean
+boolean
 }
 commit
 *
@@ -7865,7 +7865,7 @@ it
 *
 param
 {
-String
+string
 }
 value
 *
@@ -7879,7 +7879,7 @@ editor
 *
 param
 {
-Boolean
+boolean
 }
 commit
 *
@@ -7894,7 +7894,7 @@ applied
 *
 param
 {
-Number
+number
 }
 direction
 *
@@ -8490,7 +8490,7 @@ editor
 *
 param
 {
-Number
+number
 }
 direction
 *

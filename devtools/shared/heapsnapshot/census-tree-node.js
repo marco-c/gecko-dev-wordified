@@ -233,7 +233,7 @@ obj
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -549,7 +549,7 @@ CensusTreeNodeCache
 *
 returns
 {
-String
+string
 }
 *
 The
@@ -695,7 +695,7 @@ cache
 *
 returns
 {
-String
+string
 }
 *
 The
@@ -1217,7 +1217,7 @@ tree
 *
 param
 {
-Object
+object
 }
 breakdown
 *
@@ -1235,7 +1235,7 @@ report
 *
 param
 {
-Object
+object
 }
 report
 *
@@ -1249,7 +1249,7 @@ param
 {
 null
 |
-String
+string
 |
 SavedFrame
 }
@@ -1304,7 +1304,7 @@ possible
 *
 param
 {
-Object
+object
 }
 outParams
 *
@@ -2675,7 +2675,7 @@ param
 {
 null
 |
-String
+string
 |
 SavedFrame
 }
@@ -3145,7 +3145,7 @@ node2
 *
 returns
 {
-Number
+number
 }
 *
 A
@@ -3294,7 +3294,7 @@ node2
 *
 returns
 {
-Number
+number
 }
 *
 A
@@ -4565,7 +4565,7 @@ filter
 *
 param
 {
-String
+string
 }
 filterString
 *
@@ -4806,7 +4806,7 @@ Number
 *
 param
 {
-Object
+object
 }
 breakdown
 *
@@ -4823,7 +4823,7 @@ report
 *
 param
 {
-Object
+object
 }
 report
 *
@@ -4840,7 +4840,7 @@ breakdown
 *
 param
 {
-Object
+object
 }
 options
 *

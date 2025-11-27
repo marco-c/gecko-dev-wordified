@@ -260,7 +260,7 @@ roles
 *
 param
 {
-Object
+object
 }
 walker
 *
@@ -271,7 +271,7 @@ walker
 *
 param
 {
-String
+string
 }
 querySelector
 *
@@ -288,7 +288,7 @@ from
 *
 param
 {
-Object
+object
 }
 a11yWalker
 *
@@ -299,7 +299,7 @@ walker
 *
 param
 {
-String
+string
 }
 expectedName
 *

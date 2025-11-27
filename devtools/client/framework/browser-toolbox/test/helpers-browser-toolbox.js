@@ -190,7 +190,7 @@ cleanly
 *
 param
 {
-Object
+object
 }
 :
 *

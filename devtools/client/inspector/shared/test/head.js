@@ -739,7 +739,7 @@ resolves
 *
 param
 {
-String
+string
 }
 name
 *
@@ -884,7 +884,7 @@ win
 *
 param
 {
-String
+string
 }
 font
 *
@@ -1170,7 +1170,7 @@ a
 *
 param
 {
-Object
+object
 }
 expectedChange
 *
@@ -1573,7 +1573,7 @@ panel
 *
 param
 {
-String
+string
 }
 name
 *
@@ -1728,7 +1728,7 @@ panel
 *
 param
 {
-String
+string
 }
 name
 *
@@ -1742,7 +1742,7 @@ retrieve
 *
 return
 {
-String
+string
 }
 The
 property

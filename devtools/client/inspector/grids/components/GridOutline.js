@@ -996,7 +996,7 @@ null
 *
 param
 {
-Number
+number
 }
 columnNumber
 *
@@ -1011,7 +1011,7 @@ cell
 *
 param
 {
-Number
+number
 }
 rowNumber
 *
@@ -1044,7 +1044,7 @@ fragment
 *
 return
 {
-String
+string
 }
 If
 there
@@ -1146,7 +1146,7 @@ height
 *
 return
 {
-Number
+number
 }
 The
 height
@@ -1298,7 +1298,7 @@ object
 *
 param
 {
-Object
+object
 }
 grid
 *
@@ -1688,7 +1688,7 @@ fragment
 *
 param
 {
-Number
+number
 }
 id
 *
@@ -1703,7 +1703,7 @@ fragment
 *
 param
 {
-Number
+number
 }
 gridFragmentIndex
 *
@@ -1721,7 +1721,7 @@ document
 *
 param
 {
-Number
+number
 }
 x
 *
@@ -1737,7 +1737,7 @@ cell
 *
 param
 {
-Number
+number
 }
 y
 *
@@ -1753,7 +1753,7 @@ cell
 *
 param
 {
-Number
+number
 }
 rowNumber
 *
@@ -1768,7 +1768,7 @@ cell
 *
 param
 {
-Number
+number
 }
 columnNumber
 *
@@ -1783,7 +1783,7 @@ cell
 *
 param
 {
-String
+string
 |
 null
 }
@@ -1810,7 +1810,7 @@ area
 *
 param
 {
-Number
+number
 }
 width
 *
@@ -1823,7 +1823,7 @@ cell
 *
 param
 {
-Number
+number
 }
 height
 *
@@ -2304,7 +2304,7 @@ grid
 *
 param
 {
-Object
+object
 }
 grid
 *
@@ -2319,7 +2319,7 @@ document
 *
 return
 {
-Object
+object
 }
 An
 object

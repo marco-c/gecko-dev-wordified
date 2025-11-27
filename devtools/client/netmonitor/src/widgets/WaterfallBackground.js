@@ -918,7 +918,7 @@ array
 *
 param
 {
-String
+string
 }
 colorVariableName
 *

@@ -1062,7 +1062,7 @@ expression
 *
 Arg
 {
-String
+string
 }
 string
 *
@@ -1076,7 +1076,7 @@ autocomplete
 *
 Arg
 {
-Number
+number
 }
 cursor
 *
@@ -1094,7 +1094,7 @@ from
 *
 Arg
 {
-String
+string
 }
 frameActor
 *
@@ -1112,7 +1112,7 @@ call
 *
 Arg
 {
-String
+string
 }
 selectedNodeActor
 :

@@ -170,7 +170,7 @@ list
 *
 param
 {
-Object
+object
 }
 state
 *
@@ -741,7 +741,7 @@ array
 *
 param
 {
-Object
+object
 }
 state
 *
@@ -888,7 +888,7 @@ array
 *
 param
 {
-Object
+object
 }
 state
 *
@@ -899,7 +899,7 @@ animation
 *
 param
 {
-Number
+number
 }
 mainIterationStartTime
 *
@@ -912,7 +912,7 @@ iteration
 *
 param
 {
-Number
+number
 }
 firstSectionCount
 *
@@ -1040,7 +1040,7 @@ array
 *
 param
 {
-Object
+object
 }
 state
 *
@@ -1051,7 +1051,7 @@ animation
 *
 param
 {
-Number
+number
 }
 mainIterationStartTime
 *
@@ -1064,7 +1064,7 @@ iteration
 *
 param
 {
-Number
+number
 }
 firstSectionCount
 *
@@ -1077,7 +1077,7 @@ section
 *
 param
 {
-Number
+number
 }
 middleSectionCount
 *
@@ -1264,7 +1264,7 @@ array
 *
 param
 {
-Object
+object
 }
 state
 *
@@ -1275,7 +1275,7 @@ animation
 *
 param
 {
-Number
+number
 }
 mainIterationStartTime
 *
@@ -1288,7 +1288,7 @@ iteration
 *
 param
 {
-Number
+number
 }
 firstSectionCount
 *
@@ -1301,7 +1301,7 @@ section
 *
 param
 {
-Number
+number
 }
 middleSectionCount
 *
@@ -1314,7 +1314,7 @@ section
 *
 param
 {
-Number
+number
 }
 lastSectionCount
 *
@@ -1454,7 +1454,7 @@ array
 *
 param
 {
-Object
+object
 }
 state
 *
@@ -1465,7 +1465,7 @@ animation
 *
 param
 {
-Number
+number
 }
 mainIterationStartTime
 *
@@ -1478,7 +1478,7 @@ iteration
 *
 param
 {
-Number
+number
 }
 firstSectionCount
 *
@@ -1878,7 +1878,7 @@ array
 *
 param
 {
-Object
+object
 }
 state
 *
@@ -1889,7 +1889,7 @@ animation
 *
 param
 {
-Number
+number
 }
 mainIterationStartTime
 *
@@ -2031,7 +2031,7 @@ array
 *
 param
 {
-Object
+object
 }
 state
 *
@@ -2042,7 +2042,7 @@ animation
 *
 param
 {
-Number
+number
 }
 mainIterationStartTime
 *
@@ -2055,7 +2055,7 @@ iteration
 *
 param
 {
-Number
+number
 }
 iterationCount
 *
@@ -2206,7 +2206,7 @@ array
 *
 param
 {
-Object
+object
 }
 state
 *
@@ -2217,7 +2217,7 @@ animation
 *
 param
 {
-Number
+number
 }
 mainIterationStartTime
 *
@@ -2230,7 +2230,7 @@ iteration
 *
 param
 {
-Number
+number
 }
 iterationCount
 *

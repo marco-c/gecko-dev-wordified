@@ -214,7 +214,7 @@ once
 *
 param
 {
-String
+string
 }
 url
 *
@@ -230,7 +230,7 @@ parse
 *
 return
 {
-Object
+object
 }
 parsed
 properties

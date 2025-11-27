@@ -129,7 +129,7 @@ plain
 *
 return
 {
-String
+string
 }
 Clipboard
 text

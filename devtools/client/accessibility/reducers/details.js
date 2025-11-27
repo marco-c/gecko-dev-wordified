@@ -177,7 +177,7 @@ object
 *
 param
 {
-Object
+object
 }
 state
 Current
@@ -188,7 +188,7 @@ details
 *
 param
 {
-Object
+object
 }
 action
 Redux
@@ -197,7 +197,7 @@ object
 *
 return
 {
-Object
+object
 }
 updated
 state

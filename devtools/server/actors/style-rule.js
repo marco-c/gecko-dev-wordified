@@ -519,7 +519,7 @@ Actor
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -543,7 +543,7 @@ item
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -562,7 +562,7 @@ user
 *
 param
 {
-String
+string
 }
 options
 .
@@ -1397,7 +1397,7 @@ any
 *
 return
 {
-Object
+object
 }
 *
 /
@@ -4468,7 +4468,7 @@ otherwise
 *
 returns
 {
-String
+string
 |
 null
 }
@@ -4550,13 +4550,13 @@ text
 *
 param
 {
-Object
+object
 }
 options
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -4672,7 +4672,7 @@ returns
 {
 Array
 <
-Object
+object
 >
 }
 ancestorData
@@ -5458,7 +5458,7 @@ changed
 *
 param
 {
-Number
+number
 }
 line
 the
@@ -5468,7 +5468,7 @@ number
 *
 param
 {
-Number
+number
 }
 column
 the
@@ -6111,7 +6111,7 @@ properties
 *
 param
 {
-Boolean
+boolean
 }
 skipCache
 *
@@ -6463,7 +6463,7 @@ attribute
 *
 return
 {
-String
+string
 }
 *
 /
@@ -6715,7 +6715,7 @@ evaluated
 *
 param
 {
-String
+string
 }
 newText
 *
@@ -7583,7 +7583,7 @@ sheet
 *
 param
 {
-String
+string
 }
 value
 *
@@ -7594,7 +7594,7 @@ value
 *
 param
 {
-Boolean
+boolean
 }
 editAuthored
 *
@@ -8084,7 +8084,7 @@ rule
 *
 param
 {
-Object
+object
 }
 change
 *
@@ -8105,7 +8105,7 @@ modifyProperties
 *
 param
 {
-Object
+object
 }
 newDeclarations
 *
@@ -8125,7 +8125,7 @@ names
 *
 param
 {
-Object
+object
 }
 oldDeclarations
 *
@@ -8826,7 +8826,7 @@ one
 *
 param
 {
-String
+string
 }
 oldSelector
 *
@@ -8840,7 +8840,7 @@ selector
 *
 param
 {
-String
+string
 }
 newSelector
 *
@@ -9029,7 +9029,7 @@ element
 *
 param
 {
-String
+string
 }
 value
 *
@@ -9040,7 +9040,7 @@ value
 *
 param
 {
-Boolean
+boolean
 }
 editAuthored
 *
@@ -9074,7 +9074,7 @@ returns
 {
 Promise
 <
-Object
+object
 >
 }
 *
@@ -9377,7 +9377,7 @@ node
 *
 param
 {
-Number
+number
 }
 ancestorRuleIndex
 :
@@ -9412,7 +9412,7 @@ container
 *
 returns
 {
-Object
+object
 }
 An
 object
@@ -9732,7 +9732,7 @@ state
 *
 param
 {
-Boolean
+boolean
 }
 forceRefresh
 :
@@ -10040,13 +10040,13 @@ begins
 *
 param
 {
-String
+string
 }
 initialText
 *
 param
 {
-Number
+number
 }
 line
 (
@@ -10057,7 +10057,7 @@ indexed
 *
 param
 {
-Number
+number
 }
 column
 (
@@ -10068,7 +10068,7 @@ indexed
 *
 return
 {
-array
+Array
 }
 An
 array

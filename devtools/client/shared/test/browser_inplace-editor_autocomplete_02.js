@@ -2319,7 +2319,7 @@ win
 *
 param
 {
-String
+string
 }
 property
 -

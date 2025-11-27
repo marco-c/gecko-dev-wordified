@@ -1397,7 +1397,7 @@ lock
 *
 param
 {
-String
+string
 }
 selector
 The
@@ -1413,7 +1413,7 @@ from
 *
 param
 {
-String
+string
 }
 pseudo
 The
@@ -1426,7 +1426,7 @@ return
 {
 Promise
 <
-Boolean
+boolean
 >
 }
 *

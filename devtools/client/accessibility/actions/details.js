@@ -101,7 +101,7 @@ object
 *
 param
 {
-Object
+object
 }
 accessible
 front

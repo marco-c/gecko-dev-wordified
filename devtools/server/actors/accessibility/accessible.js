@@ -519,7 +519,7 @@ information
 *
 return
 {
-Object
+object
 }
 *
 Information
@@ -2525,7 +2525,7 @@ form
 *
 return
 {
-Object
+object
 }
 *
 Object
@@ -2826,7 +2826,7 @@ type
 *
 param
 {
-String
+string
 }
 type
 *
@@ -2857,7 +2857,7 @@ return
 {
 null
 |
-Object
+object
 }
 *
 Object
@@ -2988,7 +2988,7 @@ object
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -3017,7 +3017,7 @@ audit
 *
 return
 {
-Object
+object
 |
 null
 }

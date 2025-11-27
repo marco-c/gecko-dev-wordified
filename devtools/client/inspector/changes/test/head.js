@@ -204,7 +204,7 @@ panel
 *
 param
 {
-String
+string
 }
 selector
 *
@@ -466,7 +466,7 @@ panel
 *
 param
 {
-String
+string
 }
 selector
 *

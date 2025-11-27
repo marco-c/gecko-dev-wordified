@@ -656,7 +656,7 @@ hud
 *
 param
 {
-String
+string
 }
 command
 *

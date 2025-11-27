@@ -367,7 +367,7 @@ displayed
 *
 param
 {
-String
+string
 }
 type
 *

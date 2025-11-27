@@ -940,7 +940,7 @@ established
 *
 param
 {
-String
+string
 }
 id
 *
@@ -953,7 +953,7 @@ runtime
 *
 param
 {
-Object
+object
 }
 optional
 object
@@ -1108,7 +1108,7 @@ ADB
 *
 return
 {
-Object
+object
 }
 Returns
 the

@@ -1878,7 +1878,7 @@ document
 *
 param
 {
-String
+string
 }
 query
 What
@@ -1888,7 +1888,7 @@ for
 *
 param
 {
-Object
+object
 }
 options
 The

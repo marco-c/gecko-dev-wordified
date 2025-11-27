@@ -365,7 +365,7 @@ toolbox
 *
 param
 {
-Boolean
+boolean
 }
 skipFocus
 -
@@ -634,7 +634,7 @@ instance
 *
 param
 {
-String
+string
 }
 selector
 *
@@ -648,7 +648,7 @@ target
 *
 param
 {
-Number
+number
 }
 x
 *
@@ -671,7 +671,7 @@ selector
 *
 param
 {
-Number
+number
 }
 y
 *
@@ -828,7 +828,7 @@ instance
 *
 param
 {
-String
+string
 |
 Array
 }
@@ -920,7 +920,7 @@ target
 *
 param
 {
-Number
+number
 }
 x
 *
@@ -943,7 +943,7 @@ selector
 *
 param
 {
-Number
+number
 }
 y
 *
@@ -966,7 +966,7 @@ selector
 *
 param
 {
-Object
+object
 }
 eventOptions
 *
@@ -1546,7 +1546,7 @@ selector
 *
 param
 {
-String
+string
 |
 NodeFront
 }
@@ -1672,7 +1672,7 @@ element
 *
 param
 {
-String
+string
 |
 NodeFront
 }
@@ -1880,7 +1880,7 @@ item
 *
 param
 {
-String
+string
 }
 selector
 The
@@ -2052,7 +2052,7 @@ iframe
 *
 param
 {
-String
+string
 |
 NodeFront
 }
@@ -2200,7 +2200,7 @@ host
 *
 param
 {
-String
+string
 |
 NodeFront
 }
@@ -2350,7 +2350,7 @@ root
 *
 param
 {
-String
+string
 }
 selector
 *
@@ -2367,7 +2367,7 @@ root
 *
 param
 {
-String
+string
 |
 NodeFront
 }
@@ -2652,7 +2652,7 @@ selector
 *
 param
 {
-String
+string
 |
 NodeFront
 }
@@ -2676,7 +2676,7 @@ toolbox
 *
 param
 {
-Boolean
+boolean
 }
 Set
 to
@@ -2832,7 +2832,7 @@ passed
 *
 param
 {
-String
+string
 |
 NodeFront
 }
@@ -3006,7 +3006,7 @@ passed
 *
 param
 {
-String
+string
 |
 NodeFront
 }
@@ -3752,7 +3752,7 @@ stage
 *
 param
 {
-String
+string
 }
 desc
 A
@@ -3769,7 +3769,7 @@ starts
 *
 param
 {
-Number
+number
 }
 attemptes
 Optional
@@ -3786,7 +3786,7 @@ to
 *
 param
 {
-Number
+number
 }
 timeBetweenAttempts
 Optional
@@ -3913,7 +3913,7 @@ needed
 *
 param
 {
-String
+string
 }
 *
 The
@@ -4601,7 +4601,7 @@ instance
 *
 return
 {
-Object
+object
 }
 Object
 with
@@ -4636,7 +4636,7 @@ event
 *
 param
 {
-String
+string
 }
 type
 *
@@ -4646,7 +4646,7 @@ type
 *
 param
 {
-String
+string
 }
 eventName
 *
@@ -4898,7 +4898,7 @@ toolbox
 *
 param
 {
-String
+string
 }
 href
 *
@@ -5304,7 +5304,7 @@ containment
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -5474,7 +5474,7 @@ window
 *
 param
 {
-String
+string
 }
 input
 *
@@ -5562,7 +5562,7 @@ panel
 *
 param
 {
-String
+string
 }
 key
 *
@@ -6139,25 +6139,25 @@ view
 *
 param
 {
-String
+string
 }
 ruleSelector
 *
 param
 {
-String
+string
 }
 propertyName
 *
 param
 {
-Object
+object
 }
 tooltipExpected
 *
 param
 {
-String
+string
 }
 tooltipExpected
 .
@@ -6202,7 +6202,7 @@ param
 {
 Array
 <
-String
+string
 >
 }
 tooltipExpected
@@ -6233,7 +6233,7 @@ added
 *
 param
 {
-String
+string
 }
 tooltipExpected
 .
@@ -6252,7 +6252,7 @@ param
 {
 Array
 <
-String
+string
 >
 }
 tooltipExpected
@@ -6312,7 +6312,7 @@ used
 *
 param
 {
-Boolean
+boolean
 }
 tooltipExpected
 .
@@ -6332,7 +6332,7 @@ true
 *
 param
 {
-String
+string
 }
 tooltipExpected
 .
@@ -6370,7 +6370,7 @@ param
 {
 Array
 <
-String
+string
 >
 }
 tooltipExpected
@@ -6391,7 +6391,7 @@ element
 *
 param
 {
-Object
+object
 }
 tooltipExpected
 .
@@ -7261,7 +7261,7 @@ view
 *
 param
 {
-String
+string
 }
 selector
 *
@@ -7273,7 +7273,7 @@ inspector
 *
 return
 {
-String
+string
 }
 The
 text
@@ -7432,7 +7432,7 @@ panel
 *
 param
 {
-String
+string
 }
 selector
 *
@@ -7452,7 +7452,7 @@ in
 *
 param
 {
-String
+string
 }
 property
 *
@@ -7464,7 +7464,7 @@ property
 *
 param
 {
-Boolean
+boolean
 }
 show
 *
@@ -7762,7 +7762,7 @@ on
 *
 param
 {
-Object
+object
 }
 modifiers
 *
@@ -7982,7 +7982,7 @@ tree
 *
 param
 {
-String
+string
 }
 tree
 *
@@ -8089,7 +8089,7 @@ them
 *
 param
 {
-String
+string
 }
 selector
 *
@@ -9019,19 +9019,19 @@ highlighterTestFront
 *
 param
 {
-Number
+number
 }
 x
 *
 param
 {
-Number
+number
 }
 y
 *
 param
 {
-String
+string
 }
 expectedColor
 :
@@ -9044,7 +9044,7 @@ color
 *
 param
 {
-String
+string
 }
 assertionDescription
 *
@@ -9493,7 +9493,7 @@ element
 *
 param
 {
-String
+string
 |
 Array
 }
@@ -9511,7 +9511,7 @@ return
 {
 Promise
 <
-Object
+object
 >
 }
 A
@@ -9793,7 +9793,7 @@ highlighterTestFront
 *
 param
 {
-String
+string
 }
 selector
 The
@@ -9980,7 +9980,7 @@ tool
 *
 param
 {
-Object
+object
 }
 Object
 returned
@@ -9993,7 +9993,7 @@ return
 {
 Promise
 <
-Object
+object
 >
 }
 A

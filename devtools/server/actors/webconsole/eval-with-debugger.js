@@ -1716,7 +1716,7 @@ dbg
 *
 param
 {
-String
+string
 }
 string
 *
@@ -1728,7 +1728,7 @@ evaluate
 *
 param
 {
-Object
+object
 }
 evalOptions
 *
@@ -1743,7 +1743,7 @@ methods
 *
 param
 {
-Object
+object
 }
 bindings
 *
@@ -1790,7 +1790,7 @@ global
 *
 param
 {
-Boolean
+boolean
 }
 eager
 *
@@ -1803,7 +1803,7 @@ evaluation
 *
 return
 {
-Object
+object
 }
 *
 The
@@ -2287,7 +2287,7 @@ dbgGlobal
 *
 param
 {
-String
+string
 }
 string
 :

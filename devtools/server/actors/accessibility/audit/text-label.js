@@ -161,7 +161,7 @@ visibility
 *
 returns
 {
-Boolean
+boolean
 }
 *
 True
@@ -346,7 +346,7 @@ returns
 {
 null
 |
-String
+string
 }
 *
 Trimmed
@@ -408,7 +408,7 @@ returns
 {
 null
 |
-Object
+object
 }
 *
 Failure
@@ -490,7 +490,7 @@ returns
 {
 null
 |
-Object
+object
 }
 *
 Best
@@ -576,7 +576,7 @@ returns
 {
 null
 |
-Object
+object
 }
 *
 Failure
@@ -640,7 +640,7 @@ returns
 {
 null
 |
-Object
+object
 }
 *
 Best
@@ -721,7 +721,7 @@ returns
 {
 null
 |
-Object
+object
 }
 *
 Failure
@@ -815,7 +815,7 @@ returns
 {
 null
 |
-Object
+object
 }
 *
 Failure
@@ -990,7 +990,7 @@ returns
 {
 null
 |
-Object
+object
 }
 *
 Failure
@@ -1257,7 +1257,7 @@ returns
 {
 null
 |
-Object
+object
 }
 *
 Failure
@@ -1443,7 +1443,7 @@ returns
 {
 null
 |
-Object
+object
 }
 *
 Failure
@@ -1696,7 +1696,7 @@ returns
 {
 null
 |
-Object
+object
 }
 *
 Failure
@@ -1791,7 +1791,7 @@ returns
 {
 null
 |
-Object
+object
 }
 *
 Failure
@@ -1926,7 +1926,7 @@ returns
 {
 null
 |
-Object
+object
 }
 *
 Failure
@@ -2035,7 +2035,7 @@ returns
 {
 null
 |
-Object
+object
 }
 *
 Failure
@@ -2217,7 +2217,7 @@ returns
 {
 null
 |
-Object
+object
 }
 *
 Failure
@@ -2722,7 +2722,7 @@ return
 {
 null
 |
-Object
+object
 }
 *
 Null

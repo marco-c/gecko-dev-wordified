@@ -777,7 +777,7 @@ instance
 *
 param
 {
-Boolean
+boolean
 }
 emitCreatedEvent
 :
@@ -950,7 +950,7 @@ field
 *
 returns
 {
-String
+string
 |
 null
 }
@@ -1076,7 +1076,7 @@ line
 *
 param
 {
-String
+string
 }
 newValue
 :
@@ -1487,7 +1487,7 @@ stackframe
 *
 return
 {
-String
+string
 }
 *
 The
@@ -1612,7 +1612,7 @@ mapping
 *
 param
 {
-String
+string
 }
 expression
 :
@@ -1625,7 +1625,7 @@ map
 *
 returns
 {
-Object
+object
 |
 null
 }

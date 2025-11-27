@@ -195,7 +195,7 @@ name
 *
 param
 {
-Object
+object
 }
 state
 *

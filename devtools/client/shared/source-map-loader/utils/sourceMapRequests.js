@@ -220,7 +220,7 @@ attributes
 *
 param
 {
-String
+string
 }
 generatedSourceId
 *
@@ -234,7 +234,7 @@ source
 *
 return
 {
-Object
+object
 }
 Meta
 data
@@ -338,7 +338,7 @@ source
 *
 param
 {
-String
+string
 }
 generatedSourceId
 *
@@ -420,7 +420,7 @@ source
 *
 param
 {
-String
+string
 }
 generatedId
 *
@@ -564,7 +564,7 @@ param
 {
 Array
 <
-String
+string
 >
 }
 generatedIds

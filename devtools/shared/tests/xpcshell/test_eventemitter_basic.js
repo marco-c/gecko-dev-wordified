@@ -2155,7 +2155,7 @@ given
 *
 param
 {
-Object
+object
 }
 tests
 *

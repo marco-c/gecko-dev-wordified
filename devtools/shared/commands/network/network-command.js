@@ -157,7 +157,7 @@ Front
 *
 param
 {
-Object
+object
 }
 commands
 *
@@ -552,7 +552,7 @@ filter
 *
 param
 {
-String
+string
 }
 url
 *
@@ -616,7 +616,7 @@ filter
 *
 param
 {
-String
+string
 }
 url
 *

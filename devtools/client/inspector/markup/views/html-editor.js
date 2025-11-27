@@ -948,7 +948,7 @@ constructor
 *
 param
 {
-String
+string
 }
 text
 *
@@ -1077,7 +1077,7 @@ changes
 *
 param
 {
-Boolean
+boolean
 }
 shouldCommit
 *

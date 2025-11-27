@@ -170,7 +170,7 @@ container
 *
 param
 {
-Object
+object
 }
 report
 *
@@ -182,7 +182,7 @@ census
 *
 param
 {
-Number
+number
 }
 debounceRate
 *

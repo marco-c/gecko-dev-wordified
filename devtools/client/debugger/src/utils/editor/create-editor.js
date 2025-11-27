@@ -97,7 +97,7 @@ SourceEditor
 *
 param
 {
-Object
+object
 }
 config
 :

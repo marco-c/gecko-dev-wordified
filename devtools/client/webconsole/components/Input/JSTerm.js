@@ -3453,7 +3453,7 @@ update
 *
 param
 {
-Object
+object
 }
 nextProps
 :
@@ -3763,7 +3763,7 @@ expandtab
 *
 param
 {
-Number
+number
 |
 null
 }
@@ -5418,7 +5418,7 @@ instance
 *
 param
 {
-String
+string
 }
 key
 :
@@ -6431,7 +6431,7 @@ items
 *
 param
 {
-Object
+object
 }
 data
 *
@@ -7847,7 +7847,7 @@ matches
 *
 return
 {
-Object
+object
 }
 :
 An
@@ -8947,7 +8947,7 @@ offset
 *
 returns
 {
-Number
+number
 |
 null
 }

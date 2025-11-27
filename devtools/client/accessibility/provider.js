@@ -196,7 +196,7 @@ backend
 *
 param
 {
-Object
+object
 }
 accessible
 accessible
@@ -313,7 +313,7 @@ children
 *
 param
 {
-Object
+object
 }
 accessible
 accessible
@@ -326,7 +326,7 @@ get
 *
 returns
 {
-Boolean
+boolean
 }
 idicator
 of
@@ -392,7 +392,7 @@ available
 *
 param
 {
-Object
+object
 }
 accessible
 accessible
@@ -400,7 +400,7 @@ object
 *
 returns
 {
-String
+string
 }
 accessible
 object
@@ -458,7 +458,7 @@ role
 *
 param
 {
-Object
+object
 }
 accessible
 accessible
@@ -466,7 +466,7 @@ object
 *
 returns
 {
-String
+string
 }
 accessible
 object
@@ -512,7 +512,7 @@ actorID
 *
 param
 {
-Object
+object
 }
 accessible
 accessible
@@ -520,7 +520,7 @@ object
 *
 returns
 {
-String
+string
 }
 a
 key
@@ -568,7 +568,7 @@ front
 *
 param
 {
-Object
+object
 }
 accessible
 accessible
@@ -576,7 +576,7 @@ object
 *
 returns
 {
-String
+string
 }
 accessible
 object
@@ -638,7 +638,7 @@ level
 *
 param
 {
-Object
+object
 }
 accessible
 *
@@ -647,7 +647,7 @@ object
 *
 param
 {
-Number
+number
 }
 defaultLevel
 *
@@ -665,7 +665,7 @@ returns
 {
 null
 |
-Number
+number
 }
 *
 depth

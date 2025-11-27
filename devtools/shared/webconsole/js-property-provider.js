@@ -339,7 +339,7 @@ inputValue
 *
 param
 {
-Object
+object
 }
 An
 object
@@ -2379,7 +2379,7 @@ env
 *
 param
 {
-String
+string
 }
 name
 :
@@ -2494,7 +2494,7 @@ prototype
 *
 param
 {
-Object
+object
 }
 ast
 :

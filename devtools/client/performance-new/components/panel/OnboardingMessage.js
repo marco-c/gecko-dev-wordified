@@ -86,7 +86,7 @@ object
 *
 typedef
 {
-Object
+object
 }
 State
 *

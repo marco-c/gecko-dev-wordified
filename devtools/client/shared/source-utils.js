@@ -474,13 +474,13 @@ caching
 *
 param
 {
-String
+string
 }
 location
 *
 return
 {
-Object
+object
 ?
 }
 An
@@ -807,7 +807,7 @@ name
 *
 param
 {
-String
+string
 }
 source
 *
@@ -839,7 +839,7 @@ hosted
 *
 return
 {
-Object
+object
 }
 *
 An

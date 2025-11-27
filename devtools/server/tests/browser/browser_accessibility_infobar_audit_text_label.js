@@ -305,7 +305,7 @@ infobar
 *
 param
 {
-Object
+object
 }
 infobar
 *
@@ -319,7 +319,7 @@ component
 *
 param
 {
-Object
+object
 }
 audit
 *

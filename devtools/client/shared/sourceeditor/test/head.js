@@ -476,7 +476,7 @@ scope
 *
 param
 {
-String
+string
 }
 filePath
 The

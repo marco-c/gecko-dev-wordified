@@ -277,7 +277,7 @@ reference
 *
 param
 {
-String
+string
 }
 id
 menu

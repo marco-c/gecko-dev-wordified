@@ -3674,7 +3674,7 @@ UI
 *
 param
 {
-Object
+object
 }
 monitor
 *
@@ -3887,7 +3887,7 @@ frontend
 *
 param
 {
-Object
+object
 }
 monitor
 *
@@ -3905,7 +3905,7 @@ element
 *
 param
 {
-Number
+number
 }
 getRequests
 *
@@ -3919,7 +3919,7 @@ for
 *
 param
 {
-Object
+object
 }
 options
 (
@@ -7983,7 +7983,7 @@ panel
 *
 param
 {
-Number
+number
 }
 index
 The
@@ -8186,13 +8186,13 @@ page
 *
 param
 {
-Object
+object
 }
 monitor
 *
 param
 {
-Object
+object
 }
 tab
 -
@@ -8203,7 +8203,7 @@ tab
 *
 param
 {
-Number
+number
 }
 count
 -
@@ -8513,7 +8513,7 @@ request
 *
 param
 {
-Object
+object
 }
 Store
 -
@@ -8543,7 +8543,7 @@ checked
 *
 param
 {
-Number
+number
 }
 id
 -
@@ -8562,7 +8562,7 @@ for
 *
 param
 {
-Number
+number
 }
 index
 -
@@ -8978,7 +8978,7 @@ netmonitor
 *
 param
 {
-array
+Array
 }
 requests
 *
@@ -9791,7 +9791,7 @@ menu
 *
 param
 {
-Object
+object
 }
 monitor
 *
@@ -9809,7 +9809,7 @@ element
 *
 param
 {
-Object
+object
 }
 store
 *
@@ -9827,7 +9827,7 @@ required
 *
 param
 {
-String
+string
 }
 action
 *
@@ -9962,7 +9962,7 @@ clicked
 *
 param
 {
-Object
+object
 }
 monitor
 *
@@ -10299,7 +10299,7 @@ document
 *
 param
 {
-String
+string
 }
 name
 *
@@ -10436,7 +10436,7 @@ requests
 *
 param
 {
-Object
+object
 }
 monitor
 *
@@ -10701,7 +10701,7 @@ type
 *
 param
 {
-Object
+object
 }
 monitor
 *
@@ -10764,7 +10764,7 @@ panel
 *
 param
 {
-Boolean
+boolean
 }
 shouldExpand
 *
@@ -10897,13 +10897,13 @@ console
 *
 param
 {
-Object
+object
 }
 hud
 *
 param
 {
-String
+string
 }
 text
 -
@@ -11023,7 +11023,7 @@ expected
 *
 param
 {
-Object
+object
 }
 document
 *

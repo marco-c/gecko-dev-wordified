@@ -1074,7 +1074,7 @@ classname
 *
 param
 {
-String
+string
 }
 name
 *
@@ -1087,7 +1087,7 @@ class
 *
 param
 {
-Boolean
+boolean
 }
 isApplied
 *

@@ -67,7 +67,7 @@ check
 *
 typedef
 {
-Object
+object
 }
 Props
 *

@@ -214,7 +214,7 @@ hidden
 *
 param
 {
-Object
+object
 }
 infobar
 *
@@ -228,7 +228,7 @@ component
 *
 return
 {
-String
+string
 |
 null
 }
@@ -285,7 +285,7 @@ object
 *
 param
 {
-Object
+object
 }
 infobar
 *
@@ -299,7 +299,7 @@ component
 *
 return
 {
-String
+string
 }
 The
 text
@@ -348,7 +348,7 @@ object
 *
 param
 {
-Object
+object
 }
 infobar
 *
@@ -362,7 +362,7 @@ component
 *
 return
 {
-String
+string
 }
 The
 text
@@ -416,7 +416,7 @@ bounds
 *
 param
 {
-Object
+object
 }
 infobar
 *
@@ -430,7 +430,7 @@ component
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -600,7 +600,7 @@ on
 *
 param
 {
-Object
+object
 }
 highlighter
 *

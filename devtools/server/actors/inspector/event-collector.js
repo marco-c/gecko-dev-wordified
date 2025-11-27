@@ -875,7 +875,7 @@ listeners
 *
 return
 {
-Boolean
+boolean
 }
 *
 true
@@ -948,7 +948,7 @@ listeners
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -962,7 +962,7 @@ options
 *
 param
 {
-Boolean
+boolean
 }
 [
 options
@@ -3959,7 +3959,7 @@ events
 *
 return
 {
-Boolean
+boolean
 }
 *
 True
@@ -4106,7 +4106,7 @@ return
 {
 Array
 <
-Object
+object
 >
 }
 *

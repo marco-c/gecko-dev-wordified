@@ -291,7 +291,7 @@ menu
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1834,7 +1834,7 @@ _colorToCopy
 *
 return
 {
-Boolean
+boolean
 }
 *
 true
@@ -1941,7 +1941,7 @@ URL
 *
 return
 {
-Boolean
+boolean
 }
 true
 if

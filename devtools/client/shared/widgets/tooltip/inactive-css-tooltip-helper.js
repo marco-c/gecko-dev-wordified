@@ -371,7 +371,7 @@ div
 *
 param
 {
-Object
+object
 }
 data
 *

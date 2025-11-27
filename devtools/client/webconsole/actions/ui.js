@@ -763,7 +763,7 @@ message
 *
 param
 {
-String
+string
 }
 actorID
 :
@@ -783,7 +783,7 @@ sidebar
 *
 param
 {
-String
+string
 }
 messageId
 :

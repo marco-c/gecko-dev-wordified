@@ -457,7 +457,7 @@ document
 *
 param
 {
-function
+Function
 =
 }
 predicate

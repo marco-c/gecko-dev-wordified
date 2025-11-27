@@ -2145,7 +2145,7 @@ activated
 *
 param
 {
-Object
+object
 }
 relations
 Object
@@ -2160,7 +2160,7 @@ targets
 *
 param
 {
-String
+string
 }
 actorID
 Actor
@@ -2175,7 +2175,7 @@ target
 *
 return
 {
-Object
+object
 }
 Accessible
 front
@@ -2275,7 +2275,7 @@ path
 *
 param
 {
-String
+string
 }
 path
 *
@@ -2302,7 +2302,7 @@ array
 *
 return
 {
-Object
+object
 ?
 }
 *
@@ -2389,7 +2389,7 @@ front
 *
 param
 {
-Object
+object
 ?
 }
 value
@@ -2405,7 +2405,7 @@ DOMNode
 *
 return
 {
-Boolean
+boolean
 }
 A
 flag
@@ -2457,7 +2457,7 @@ front
 *
 param
 {
-Object
+object
 ?
 }
 value
@@ -2473,7 +2473,7 @@ Accessible
 *
 return
 {
-Boolean
+boolean
 }
 A
 flag
@@ -2579,7 +2579,7 @@ object
 *
 returns
 {
-Object
+object
 }
 a
 grip
@@ -2686,7 +2686,7 @@ component
 *
 param
 {
-Object
+object
 }
 props
 Component
@@ -2698,7 +2698,7 @@ processed
 *
 param
 {
-String
+string
 }
 parentPath
 Unique
@@ -2715,7 +2715,7 @@ Node
 *
 return
 {
-Object
+object
 }
 Processed
 properties

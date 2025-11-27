@@ -283,7 +283,7 @@ info
 *
 param
 {
-Object
+object
 }
 test
 *
@@ -1781,7 +1781,7 @@ strings
 *
 param
 {
-String
+string
 }
 text1
 *
@@ -1794,7 +1794,7 @@ text2
 *
 param
 {
-String
+string
 }
 text2
 [
@@ -1810,7 +1810,7 @@ text1
 *
 param
 {
-String
+string
 }
 msg
 *

@@ -140,7 +140,7 @@ __compat
 *
 return
 {
-Object
+object
 }
 compatibility
 table

@@ -429,7 +429,7 @@ name
 *
 return
 {
-String
+string
 }
 *
 Properly
@@ -630,7 +630,7 @@ required
 *
 return
 {
-Object
+object
 }
 *
 An
@@ -1415,7 +1415,7 @@ node
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -1479,7 +1479,7 @@ node
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -1581,7 +1581,7 @@ element
 *
 param
 {
-Number
+number
 }
 timeout
 -
@@ -2004,7 +2004,7 @@ reject
 *
 param
 {
-Number
+number
 }
 maxDim
 -
@@ -2510,7 +2510,7 @@ color
 *
 return
 {
-String
+string
 }
 *
 String
@@ -2690,7 +2690,7 @@ image
 *
 return
 {
-String
+string
 }
 *
 String
@@ -3016,7 +3016,7 @@ encountered
 *
 param
 {
-Object
+object
 }
 *
 Node
@@ -3070,7 +3070,7 @@ node
 *
 return
 {
-Object
+object
 }
 *
 Object
@@ -3653,7 +3653,7 @@ check
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /

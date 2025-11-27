@@ -679,7 +679,7 @@ filters
 *
 param
 {
-Object
+object
 }
 filters
 *
@@ -735,7 +735,7 @@ filters
 *
 param
 {
-Object
+object
 }
 filters
 *

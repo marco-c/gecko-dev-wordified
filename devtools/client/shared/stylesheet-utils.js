@@ -148,7 +148,7 @@ appended
 *
 param
 {
-String
+string
 }
 url
 *
@@ -163,7 +163,7 @@ load
 *
 return
 {
-Object
+object
 }
 *
 -

@@ -235,13 +235,13 @@ window
 *
 param
 {
-Object
+object
 }
 args
 *
 param
 {
-Boolean
+boolean
 }
 args
 .
@@ -260,7 +260,7 @@ page
 *
 param
 {
-String
+string
 }
 args
 .
@@ -274,7 +274,7 @@ screenshot
 *
 param
 {
-Boolean
+boolean
 }
 args
 .
@@ -295,7 +295,7 @@ clipboard
 *
 param
 {
-Number
+number
 }
 args
 .
@@ -351,7 +351,7 @@ case
 *
 param
 {
-Number
+number
 }
 args
 .
@@ -369,7 +369,7 @@ screenshot
 *
 param
 {
-Boolean
+boolean
 }
 args
 .
@@ -392,7 +392,7 @@ documentation
 *
 param
 {
-Boolean
+boolean
 }
 args
 .
@@ -416,7 +416,7 @@ taken
 *
 param
 {
-Boolean
+boolean
 }
 args
 .
@@ -643,7 +643,7 @@ of
 *
 param
 {
-Object
+object
 }
 args
 :
@@ -2214,7 +2214,7 @@ return
 {
 Promise
 <
-String
+string
 >
 }
 Resolves

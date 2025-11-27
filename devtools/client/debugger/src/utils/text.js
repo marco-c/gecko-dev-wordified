@@ -123,7 +123,7 @@ here
 *
 param
 {
-String
+string
 }
 sourceText
 -
@@ -132,7 +132,7 @@ text
 *
 param
 {
-Number
+number
 }
 maxLength
 -

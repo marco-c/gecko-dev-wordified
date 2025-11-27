@@ -418,13 +418,13 @@ previews
 *
 param
 {
-Object
+object
 }
 selectedFrame
 *
 param
 {
-Object
+object
 }
 scope
 -
@@ -435,7 +435,7 @@ platform
 *
 param
 {
-Object
+object
 }
 thunkArgs
 *
@@ -711,7 +711,7 @@ information
 *
 param
 {
-Object
+object
 }
 bindingData
 -
@@ -738,7 +738,7 @@ scope
 *
 param
 {
-Number
+number
 }
 pausedOnLine
 -
@@ -752,7 +752,7 @@ on
 *
 param
 {
-String
+string
 }
 name
 -
@@ -766,7 +766,7 @@ scopes
 *
 param
 {
-Object
+object
 }
 client
 -
@@ -778,7 +778,7 @@ properties
 *
 param
 {
-Object
+object
 }
 thread
 -
@@ -1089,7 +1089,7 @@ preview
 *
 param
 {
-String
+string
 }
 name
 -
@@ -1098,7 +1098,7 @@ name
 *
 param
 {
-String
+string
 }
 value
 -
@@ -1114,7 +1114,7 @@ form
 *
 param
 {
-Object
+object
 }
 ref
 -
@@ -1123,7 +1123,7 @@ reference
 *
 param
 {
-Object
+object
 }
 client
 -
@@ -1135,7 +1135,7 @@ properties
 *
 param
 {
-String
+string
 }
 thread
 -

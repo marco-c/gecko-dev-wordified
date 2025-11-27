@@ -78,7 +78,7 @@ propagation
 *
 param
 {
-Object
+object
 }
 event
 *

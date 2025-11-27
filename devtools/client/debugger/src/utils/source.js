@@ -448,7 +448,7 @@ source
 *
 param
 {
-Object
+object
 }
 frame
 *
@@ -458,7 +458,7 @@ frame
 *
 param
 {
-Object
+object
 }
 blackboxedRanges
 *
@@ -473,7 +473,7 @@ sources
 *
 param
 {
-Boolean
+boolean
 }
 isFrameBlackBoxed
 *
@@ -594,7 +594,7 @@ ranges
 *
 param
 {
-Object
+object
 }
 source
 *
@@ -605,7 +605,7 @@ source
 *
 param
 {
-Object
+object
 }
 blackboxedRanges
 *
@@ -616,7 +616,7 @@ blackboxedRanges
 *
 param
 {
-Object
+object
 }
 lineRange
 *
@@ -641,7 +641,7 @@ Number
 *
 return
 {
-Object
+object
 }
 blackboxRange
 *
@@ -787,13 +787,13 @@ blackboxed
 *
 param
 {
-Number
+number
 }
 line
 *
 param
 {
-Boolean
+boolean
 }
 isSourceOnIgnoreList
 -
@@ -2055,7 +2055,7 @@ source
 *
 param
 {
-Object
+object
 }
 source
 *
@@ -2067,7 +2067,7 @@ object
 *
 param
 {
-Boolean
+boolean
 }
 isBlackBoxed
 *
@@ -2305,13 +2305,13 @@ patterns
 *
 param
 {
-Object
+object
 }
 source
 *
 param
 {
-String
+string
 }
 excludePatterns
 String

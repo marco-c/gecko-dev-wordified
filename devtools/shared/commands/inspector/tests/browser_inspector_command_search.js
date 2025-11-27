@@ -460,13 +460,13 @@ results
 *
 param
 {
-Object
+object
 }
 commands
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -487,7 +487,7 @@ reverse
 *
 param
 {
-Object
+object
 }
 expected
 *

@@ -796,7 +796,7 @@ highlighted
 *
 param
 {
-Object
+object
 }
 Options
 for
@@ -806,7 +806,7 @@ highlighter
 *
 return
 {
-Boolean
+boolean
 }
 True
 if

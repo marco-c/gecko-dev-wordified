@@ -673,7 +673,7 @@ edit
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -2971,7 +2971,7 @@ in
 *
 return
 {
-Object
+object
 }
 Contains
 the
@@ -3436,7 +3436,7 @@ stylesheet
 *
 return
 {
-String
+string
 }
 the
 stylesheet
@@ -8699,7 +8699,7 @@ it
 *
 param
 {
-String
+string
 }
 value
 *
@@ -8713,7 +8713,7 @@ editor
 *
 param
 {
-Boolean
+boolean
 }
 commit
 *
@@ -8728,7 +8728,7 @@ applied
 *
 param
 {
-Number
+number
 }
 direction
 *
@@ -9099,7 +9099,7 @@ direction
 *
 param
 {
-Number
+number
 }
 direction
 *
@@ -9200,7 +9200,7 @@ editing
 *
 param
 {
-String
+string
 }
 value
 *
@@ -9214,7 +9214,7 @@ editor
 *
 param
 {
-Boolean
+boolean
 }
 commit
 *
@@ -9229,7 +9229,7 @@ applied
 *
 param
 {
-Number
+number
 }
 direction
 *
@@ -9947,7 +9947,7 @@ value
 *
 param
 {
-String
+string
 }
 value
 *
@@ -9958,7 +9958,7 @@ parse
 *
 return
 {
-Object
+object
 }
 An
 object
@@ -10280,7 +10280,7 @@ changes
 *
 param
 {
-String
+string
 }
 value
 *
@@ -10296,7 +10296,7 @@ to
 *
 param
 {
-Boolean
+boolean
 }
 reverting
 *
@@ -10442,7 +10442,7 @@ event
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -10539,13 +10539,13 @@ px
 *
 param
 {
-String
+string
 }
 value
 *
 returns
 {
-Object
+object
 |
 null
 }
@@ -10673,7 +10673,7 @@ textProperty
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -11972,7 +11972,7 @@ value
 *
 return
 {
-Boolean
+boolean
 }
 true
 if
@@ -12018,7 +12018,7 @@ property
 *
 return
 {
-Boolean
+boolean
 }
 true
 if

@@ -149,7 +149,7 @@ iframe
 *
 param
 {
-Object
+object
 }
 options
 -

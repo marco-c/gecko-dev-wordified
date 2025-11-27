@@ -175,7 +175,7 @@ return
 {
 Array
 <
-String
+string
 >
 }
 array
@@ -774,7 +774,7 @@ happened
 *
 param
 {
-String
+string
 }
 url
 *
@@ -919,7 +919,7 @@ toolbox
 *
 param
 {
-String
+string
 }
 url
 *
@@ -2540,7 +2540,7 @@ instance
 *
 param
 {
-String
+string
 }
 path
 *
@@ -2613,7 +2613,7 @@ completed
 *
 param
 {
-String
+string
 }
 shortcut
 *

@@ -56,7 +56,7 @@ module
 *
 param
 {
-Object
+object
 }
 *
 mock

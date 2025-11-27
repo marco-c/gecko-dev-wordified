@@ -2454,7 +2454,7 @@ client
 *
 param
 {
-Object
+object
 }
 option
 *

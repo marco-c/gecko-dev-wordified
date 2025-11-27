@@ -1918,7 +1918,7 @@ devToolsServer
 *
 param
 {
-Object
+object
 }
 socketOptions
 *

@@ -1473,7 +1473,7 @@ rule
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1519,7 +1519,7 @@ sidebar
 *
 param
 {
-String
+string
 }
 options
 .
@@ -1539,7 +1539,7 @@ support
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -1556,7 +1556,7 @@ rule
 *
 param
 {
-String
+string
 }
 options
 .
@@ -1570,7 +1570,7 @@ layer
 *
 param
 {
-String
+string
 }
 options
 .
@@ -1589,7 +1589,7 @@ property
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -1602,7 +1602,7 @@ rule
 *
 param
 {
-String
+string
 }
 options
 .

@@ -164,7 +164,7 @@ list
 *
 return
 {
-Boolean
+boolean
 }
 *
 True

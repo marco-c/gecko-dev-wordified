@@ -2318,7 +2318,7 @@ passed
 *
 param
 {
-Number
+number
 }
 browserId
 :

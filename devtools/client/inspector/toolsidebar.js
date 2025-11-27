@@ -430,7 +430,7 @@ tab
 *
 param
 {
-String
+string
 }
 tab
 uniq
@@ -438,7 +438,7 @@ id
 *
 param
 {
-String
+string
 }
 title
 tab
@@ -462,7 +462,7 @@ example
 *
 param
 {
-Boolean
+boolean
 }
 selected
 true
@@ -475,7 +475,7 @@ selected
 *
 param
 {
-Number
+number
 }
 index
 the
@@ -559,7 +559,7 @@ content
 *
 param
 {
-String
+string
 }
 tab
 uniq
@@ -567,7 +567,7 @@ id
 *
 param
 {
-String
+string
 }
 title
 tab
@@ -575,7 +575,7 @@ title
 *
 param
 {
-Boolean
+boolean
 }
 selected
 true
@@ -588,7 +588,7 @@ selected
 *
 param
 {
-Number
+number
 }
 index
 the
@@ -661,7 +661,7 @@ added
 *
 param
 {
-String
+string
 }
 tab
 uniq
@@ -669,7 +669,7 @@ id
 *
 param
 {
-String
+string
 }
 title
 tab
@@ -693,7 +693,7 @@ example
 *
 param
 {
-Boolean
+boolean
 }
 selected
 true
@@ -706,7 +706,7 @@ selected
 *
 param
 {
-Number
+number
 }
 index
 the
@@ -790,7 +790,7 @@ content
 *
 param
 {
-String
+string
 }
 tab
 uniq
@@ -798,7 +798,7 @@ id
 *
 param
 {
-String
+string
 }
 title
 tab
@@ -806,7 +806,7 @@ title
 *
 param
 {
-Boolean
+boolean
 }
 selected
 true
@@ -819,7 +819,7 @@ selected
 *
 param
 {
-Number
+number
 }
 index
 the
@@ -886,7 +886,7 @@ tab
 *
 param
 {
-String
+string
 }
 tabId
 The
@@ -963,7 +963,7 @@ tab
 *
 param
 {
-Boolean
+boolean
 }
 isVisible
 True
@@ -981,7 +981,7 @@ it
 *
 param
 {
-String
+string
 }
 id
 The
@@ -1083,7 +1083,7 @@ id
 *
 param
 {
-String
+string
 }
 id
 *
@@ -1260,7 +1260,7 @@ telemetry
 *
 param
 {
-String
+string
 }
 currentToolId
 *
@@ -1274,7 +1274,7 @@ selected
 *
 param
 {
-String
+string
 }
 previousToolId
 *
@@ -1470,7 +1470,7 @@ telemetry
 *
 param
 {
-String
+string
 }
 id
 *
@@ -1622,7 +1622,7 @@ sidebar
 *
 param
 {
-String
+string
 }
 id
 *

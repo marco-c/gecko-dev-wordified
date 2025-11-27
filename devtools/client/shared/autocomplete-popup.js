@@ -202,7 +202,7 @@ panel
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1527,7 +1527,7 @@ exists
 *
 param
 {
-Number
+number
 }
 xOffset
 *
@@ -1552,7 +1552,7 @@ popup
 *
 param
 {
-Number
+number
 }
 yOffset
 *
@@ -1577,7 +1577,7 @@ popup
 *
 param
 {
-Number
+number
 }
 index
 *
@@ -1591,7 +1591,7 @@ select
 *
 param
 {
-Object
+object
 }
 options
 :
@@ -1853,7 +1853,7 @@ index
 *
 param
 {
-Number
+number
 }
 index
 *
@@ -1868,7 +1868,7 @@ select
 *
 param
 {
-Object
+object
 }
 options
 :
@@ -2462,7 +2462,7 @@ array
 *
 param
 {
-Number
+number
 }
 index
 *
@@ -2479,7 +2479,7 @@ wanted
 *
 return
 {
-Object
+object
 }
 The
 autocomplete
@@ -2596,7 +2596,7 @@ list
 *
 param
 {
-Number
+number
 }
 selectedIndex
 *
@@ -2611,7 +2611,7 @@ select
 *
 param
 {
-Object
+object
 }
 options
 :
@@ -3300,7 +3300,7 @@ item
 *
 param
 {
-Object
+object
 }
 item
 *
@@ -3380,7 +3380,7 @@ accessibility
 *
 param
 {
-String
+string
 }
 id
 *
@@ -3995,7 +3995,7 @@ popup
 *
 type
 {
-Number
+number
 }
 *
 /
@@ -4031,7 +4031,7 @@ list
 *
 type
 {
-Number
+number
 }
 *
 /
@@ -4120,7 +4120,7 @@ list
 *
 return
 {
-Object
+object
 }
 *
 The
@@ -4194,7 +4194,7 @@ list
 *
 return
 {
-Object
+object
 }
 *
 The
@@ -4282,7 +4282,7 @@ list
 *
 return
 {
-Object
+object
 }
 *
 The
@@ -4364,7 +4364,7 @@ list
 *
 return
 {
-Object
+object
 }
 *
 The
@@ -4442,7 +4442,7 @@ value
 *
 return
 {
-Boolean
+boolean
 }
 *
 If

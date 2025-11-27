@@ -134,7 +134,7 @@ highlighter
 *
 param
 {
-String
+string
 }
 color
 *
@@ -201,7 +201,7 @@ highlighter
 *
 param
 {
-Boolean
+boolean
 }
 highlighted
 *

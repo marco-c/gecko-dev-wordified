@@ -175,7 +175,7 @@ connected
 *
 param
 {
-String
+string
 }
 id
 *
@@ -198,7 +198,7 @@ types
 *
 param
 {
-String
+string
 }
 type
 *
@@ -227,7 +227,7 @@ client
 *
 param
 {
-Object
+object
 }
 runtimeInfo
 *

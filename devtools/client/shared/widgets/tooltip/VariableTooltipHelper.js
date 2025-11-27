@@ -280,13 +280,13 @@ tooltip
 *
 param
 {
-Object
+object
 }
 params
 *
 param
 {
-String
+string
 }
 params
 .
@@ -302,7 +302,7 @@ variable
 *
 param
 {
-Object
+object
 }
 params
 .
@@ -351,7 +351,7 @@ view
 *
 param
 {
-Object
+object
 }
 params
 .
@@ -377,7 +377,7 @@ registerProperty
 *
 param
 {
-String
+string
 }
 params
 .
@@ -393,7 +393,7 @@ value
 *
 param
 {
-Boolean
+boolean
 }
 params
 .
@@ -409,7 +409,7 @@ value
 *
 param
 {
-String
+string
 }
 params
 .
@@ -426,7 +426,7 @@ value
 *
 param
 {
-String
+string
 }
 params
 .
@@ -449,7 +449,7 @@ red
 *
 param
 {
-String
+string
 }
 params
 .
@@ -486,7 +486,7 @@ defined
 *
 param
 {
-String
+string
 }
 params
 .
@@ -1343,7 +1343,7 @@ appended
 *
 param
 {
-String
+string
 }
 value
 :

@@ -185,7 +185,7 @@ visible
 *
 param
 {
-String
+string
 }
 hostType
 Optional
@@ -323,7 +323,7 @@ selected
 *
 param
 {
-String
+string
 }
 id
 *
@@ -341,7 +341,7 @@ return
 {
 Promise
 <
-Object
+object
 >
 }
 A
@@ -562,13 +562,13 @@ selected
 *
 param
 {
-Object
+object
 }
 options
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -1359,7 +1359,7 @@ protocol
 *
 param
 {
-String
+string
 |
 NodeFront
 }
@@ -1449,7 +1449,7 @@ selector
 *
 param
 {
-String
+string
 |
 NodeFront
 }
@@ -1474,7 +1474,7 @@ toolbox
 *
 param
 {
-String
+string
 }
 reason
 *
@@ -1499,7 +1499,7 @@ selection
 *
 param
 {
-Boolean
+boolean
 }
 isSlotted
 *
@@ -2557,7 +2557,7 @@ selectNode
 *
 param
 {
-String
+string
 }
 reason
 *
@@ -2566,7 +2566,7 @@ selectNode
 *
 param
 {
-Boolean
+boolean
 }
 isSlotted
 *
@@ -2841,25 +2841,25 @@ browser
 *
 param
 {
-Number
+number
 }
 styleSheetIndex
 *
 param
 {
-Number
+number
 }
 ruleIndex
 *
 param
 {
-String
+string
 }
 name
 *
 return
 {
-String
+string
 }
 The
 value
@@ -3003,7 +3003,7 @@ browser
 *
 param
 {
-String
+string
 }
 selector
 *
@@ -3018,7 +3018,7 @@ element
 *
 param
 {
-String
+string
 }
 pseudo
 *
@@ -3032,7 +3032,7 @@ null
 *
 param
 {
-String
+string
 }
 propName
 *
@@ -3129,7 +3129,7 @@ browser
 *
 param
 {
-String
+string
 }
 selector
 *
@@ -3144,7 +3144,7 @@ element
 *
 param
 {
-String
+string
 }
 pseudo
 *
@@ -3158,7 +3158,7 @@ null
 *
 param
 {
-String
+string
 }
 propName
 *
@@ -3170,7 +3170,7 @@ property
 *
 param
 {
-String
+string
 }
 expected
 *
@@ -3580,7 +3580,7 @@ panel
 *
 param
 {
-String
+string
 }
 selectorText
 *
@@ -3602,7 +3602,7 @@ wanted
 *
 param
 {
-Number
+number
 }
 index
 *
@@ -3786,7 +3786,7 @@ panel
 *
 param
 {
-String
+string
 }
 selectorText
 *
@@ -3806,7 +3806,7 @@ in
 *
 param
 {
-String
+string
 }
 propertyName
 *
@@ -3818,14 +3818,14 @@ property
 *
 param
 {
-Object
+object
 =
 }
 options
 *
 param
 {
-Boolean
+boolean
 =
 }
 options
@@ -3864,7 +3864,7 @@ false
 *
 return
 {
-Object
+object
 }
 An
 object
@@ -4074,7 +4074,7 @@ panel
 *
 param
 {
-String
+string
 }
 selectorText
 *
@@ -4094,7 +4094,7 @@ in
 *
 param
 {
-String
+string
 }
 propertyName
 *
@@ -4106,7 +4106,7 @@ property
 *
 return
 {
-String
+string
 }
 The
 property
@@ -4176,7 +4176,7 @@ panel
 *
 param
 {
-String
+string
 }
 selectorText
 *
@@ -4276,7 +4276,7 @@ panel
 *
 param
 {
-Number
+number
 }
 index
 *
@@ -4395,7 +4395,7 @@ panel
 *
 param
 {
-Number
+number
 }
 index
 *
@@ -4409,7 +4409,7 @@ get
 *
 return
 {
-String
+string
 }
 The
 string
@@ -4699,7 +4699,7 @@ ies
 *
 param
 {
-String
+string
 }
 inputValue
 *
@@ -4877,7 +4877,7 @@ panel
 *
 param
 {
-String
+string
 }
 searchValue
 *
@@ -5179,7 +5179,7 @@ inspector
 *
 param
 {
-Object
+object
 }
 options
 to
@@ -5778,7 +5778,7 @@ page
 *
 param
 {
-String
+string
 }
 selector
 The
@@ -5789,7 +5789,7 @@ returns
 {
 Array
 <
-Object
+object
 >
 }
 An
@@ -5890,7 +5890,7 @@ page
 *
 param
 {
-String
+string
 }
 selector
 The
@@ -5899,7 +5899,7 @@ selector
 *
 param
 {
-String
+string
 }
 attribute
 The
@@ -5908,7 +5908,7 @@ name
 *
 return
 {
-String
+string
 }
 value
 The
@@ -5983,7 +5983,7 @@ page
 *
 param
 {
-String
+string
 }
 selector
 The
@@ -5992,7 +5992,7 @@ selector
 *
 param
 {
-String
+string
 }
 attribute
 The
@@ -6001,7 +6001,7 @@ name
 *
 param
 {
-String
+string
 }
 value
 The
@@ -6079,7 +6079,7 @@ page
 *
 param
 {
-String
+string
 }
 selector
 The
@@ -6088,7 +6088,7 @@ selector
 *
 param
 {
-String
+string
 }
 attribute
 The
@@ -6176,7 +6176,7 @@ panel
 *
 param
 {
-Number
+number
 }
 childrenIndex
 *
@@ -6191,7 +6191,7 @@ get
 *
 param
 {
-Number
+number
 }
 nodeIndex
 *
@@ -6309,7 +6309,7 @@ RuleView
 *
 param
 {
-Number
+number
 }
 ruleIndex
 *
@@ -6328,7 +6328,7 @@ declaration
 *
 param
 {
-Object
+object
 }
 declaration
 *
@@ -6521,7 +6521,7 @@ changed
 *
 param
 {
-String
+string
 }
 value
 *
@@ -6546,13 +6546,13 @@ deleted
 *
 param
 {
-Object
+object
 }
 options
 *
 param
 {
-Boolean
+boolean
 }
 options
 .

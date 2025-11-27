@@ -1049,7 +1049,7 @@ from
 *
 param
 {
-String
+string
 }
 key
 *
@@ -1062,7 +1062,7 @@ for
 *
 param
 {
-Boolean
+boolean
 }
 invokeUnsafeGetter
 (
@@ -2194,7 +2194,7 @@ on
 *
 param
 {
-String
+string
 }
 key
 *
@@ -2207,7 +2207,7 @@ for
 *
 param
 {
-Boolean
+boolean
 }
 invokeUnsafeGetter
 (
@@ -4691,7 +4691,7 @@ newChannel
 *
 param
 {
-String
+string
 }
 url
 -
@@ -4706,7 +4706,7 @@ for
 *
 param
 {
-Object
+object
 }
 options
 -
@@ -5261,7 +5261,7 @@ reading
 *
 param
 {
-String
+string
 }
 filePath
 *
@@ -5432,7 +5432,7 @@ file
 *
 param
 {
-String
+string
 }
 fileName
 *
@@ -5493,7 +5493,7 @@ dialog
 *
 return
 {
-String
+string
 |
 null
 }
@@ -5678,7 +5678,7 @@ element
 *
 param
 {
-String
+string
 }
 suggestedFilename
 *
@@ -6594,19 +6594,19 @@ implementation
 *
 param
 {
-Object
+object
 }
 a
 *
 param
 {
-Object
+object
 }
 b
 *
 return
 {
-Boolean
+boolean
 }
 *
 /

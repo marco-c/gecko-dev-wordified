@@ -301,7 +301,7 @@ request
 *
 param
 {
-Object
+object
 }
 request
 *
@@ -315,7 +315,7 @@ Request
 *
 return
 {
-Number
+number
 }
 *
 The
@@ -840,7 +840,7 @@ resource
 *
 param
 {
-Number
+number
 }
 resourceId
 *
@@ -853,7 +853,7 @@ resource
 *
 return
 {
-Object
+object
 }
 *
 The

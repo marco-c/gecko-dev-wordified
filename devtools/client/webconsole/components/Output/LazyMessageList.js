@@ -1413,7 +1413,7 @@ are
 *
 return
 {
-Number
+number
 }
 The
 new
@@ -1556,7 +1556,7 @@ are
 *
 return
 {
-Number
+number
 }
 The
 new

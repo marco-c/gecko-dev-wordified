@@ -655,7 +655,7 @@ performed
 *
 param
 {
-String
+string
 }
 selector
 *
@@ -669,7 +669,7 @@ test
 *
 param
 {
-Boolean
+boolean
 }
 expected
 *

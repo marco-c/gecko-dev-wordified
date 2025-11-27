@@ -205,7 +205,7 @@ position
 *
 param
 {
-String
+string
 }
 indicationBarSelector
 *
@@ -217,7 +217,7 @@ panel
 *
 param
 {
-Number
+number
 }
 expectedPositionRate
 *

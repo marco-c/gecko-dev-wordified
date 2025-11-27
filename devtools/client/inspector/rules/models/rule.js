@@ -306,7 +306,7 @@ belongs
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1371,7 +1371,7 @@ found
 *
 param
 {
-String
+string
 |
 null
 }
@@ -1601,7 +1601,7 @@ specified
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1652,7 +1652,7 @@ rule
 *
 param
 {
-String
+string
 }
 name
 *
@@ -1677,7 +1677,7 @@ top
 *
 param
 {
-String
+string
 }
 value
 *
@@ -1695,7 +1695,7 @@ priority
 *
 param
 {
-String
+string
 }
 priority
 *
@@ -1718,7 +1718,7 @@ string
 *
 param
 {
-Boolean
+boolean
 }
 enabled
 *
@@ -2709,7 +2709,7 @@ rename
 *
 param
 {
-String
+string
 }
 name
 *
@@ -2843,7 +2843,7 @@ manipulate
 *
 param
 {
-String
+string
 }
 value
 *
@@ -2861,7 +2861,7 @@ priority
 *
 param
 {
-String
+string
 }
 priority
 *
@@ -3015,7 +3015,7 @@ previewed
 *
 param
 {
-String
+string
 }
 value
 *
@@ -3030,7 +3030,7 @@ preview
 *
 param
 {
-String
+string
 }
 priority
 *
@@ -3188,7 +3188,7 @@ disable
 *
 param
 {
-Boolean
+boolean
 }
 value
 *
@@ -4494,7 +4494,7 @@ _getTextProperties
 *
 return
 {
-Boolean
+boolean
 }
 true
 if
@@ -4884,7 +4884,7 @@ sibling
 *
 param
 {
-Number
+number
 }
 direction
 *
@@ -5233,7 +5233,7 @@ cssText
 *
 returns
 {
-Boolean
+boolean
 }
 Whether
 or
@@ -5336,7 +5336,7 @@ with
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -5525,7 +5525,7 @@ actorID
 *
 returns
 {
-Boolean
+boolean
 }
 Whether
 or
@@ -5579,7 +5579,7 @@ style
 *
 returns
 {
-Boolean
+boolean
 }
 Whether
 or
@@ -5632,7 +5632,7 @@ properties
 *
 return
 {
-Boolean
+boolean
 }
 true
 if

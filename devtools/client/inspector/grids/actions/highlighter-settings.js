@@ -115,7 +115,7 @@ preference
 *
 param
 {
-Boolean
+boolean
 }
 enabled
 *
@@ -167,7 +167,7 @@ preference
 *
 param
 {
-Boolean
+boolean
 }
 enabled
 *
@@ -219,7 +219,7 @@ preference
 *
 param
 {
-Boolean
+boolean
 }
 enabled
 *

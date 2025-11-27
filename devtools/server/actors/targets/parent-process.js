@@ -298,7 +298,7 @@ client
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -322,7 +322,7 @@ session
 *
 param
 {
-Object
+object
 }
 options
 .

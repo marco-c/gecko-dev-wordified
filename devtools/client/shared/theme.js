@@ -314,7 +314,7 @@ syntax
 *
 param
 {
-String
+string
 }
 variableName
 *
@@ -337,7 +337,7 @@ defined
 *
 returns
 {
-String
+string
 |
 null
 }

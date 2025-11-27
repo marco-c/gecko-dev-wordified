@@ -2899,7 +2899,7 @@ state
 *
 param
 {
-Object
+object
 }
 state
 *
@@ -3155,13 +3155,13 @@ debug
 *
 param
 {
-Object
+object
 }
 options
 *
 param
 {
-String
+string
 }
 options
 .
@@ -3177,7 +3177,7 @@ show
 *
 param
 {
-Object
+object
 }
 options
 .
@@ -3230,7 +3230,7 @@ specifically
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -3727,7 +3727,7 @@ debug
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -3972,7 +3972,7 @@ DevToolsClient
 *
 param
 {
-String
+string
 }
 extensionId
 *
@@ -3986,7 +3986,7 @@ debug
 *
 param
 {
-Object
+object
 }
 (
 optional
@@ -4258,7 +4258,7 @@ ID
 *
 param
 {
-String
+string
 }
 toolbox
 *
@@ -4268,7 +4268,7 @@ instance
 *
 param
 {
-Number
+number
 }
 startTime
 *
@@ -5314,7 +5314,7 @@ ID
 *
 param
 {
-Number
+number
 }
 startTime
 *
@@ -5682,7 +5682,7 @@ ID
 *
 param
 {
-Number
+number
 }
 startTime
 *

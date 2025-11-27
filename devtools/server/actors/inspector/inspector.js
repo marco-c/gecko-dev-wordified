@@ -1474,7 +1474,7 @@ anymore
 *
 param
 {
-String
+string
 }
 type
 The
@@ -1775,7 +1775,7 @@ window
 *
 param
 {
-String
+string
 }
 url
 .
@@ -1818,7 +1818,7 @@ instead
 *
 return
 {
-String
+string
 }
 url
 .
@@ -2099,7 +2099,7 @@ picker
 *
 param
 {
-Object
+object
 }
 options
 *

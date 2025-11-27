@@ -541,7 +541,7 @@ PrettyFast
 *
 param
 {
-Object
+object
 }
 options
 :
@@ -555,7 +555,7 @@ printing
 *
 param
 {
-String
+string
 }
 options
 .
@@ -573,7 +573,7 @@ code
 *
 param
 {
-String
+string
 }
 options
 .
@@ -609,7 +609,7 @@ to
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -1380,7 +1380,7 @@ stack
 *
 param
 {
-String
+string
 }
 input
 :
@@ -1397,7 +1397,7 @@ print
 *
 returns
 {
-Object
+object
 }
 *
 An
@@ -2872,7 +2872,7 @@ handling
 *
 param
 {
-Object
+object
 |
 undefined
 }
@@ -5121,7 +5121,7 @@ parenthesis
 *
 param
 {
-Object
+object
 }
 token
 *
@@ -5146,7 +5146,7 @@ param
 {
 Array
 <
-Object
+object
 >
 }
 tokenQueue

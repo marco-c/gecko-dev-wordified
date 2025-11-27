@@ -340,7 +340,7 @@ global
 *
 param
 {
-Object
+object
 }
 workerDebuggerData
 :
@@ -351,7 +351,7 @@ information
 *
 param
 {
-String
+string
 }
 workerDebuggerData
 .
@@ -364,7 +364,7 @@ id
 *
 param
 {
-String
+string
 }
 workerDebuggerData
 .
@@ -377,7 +377,7 @@ url
 *
 param
 {
-String
+string
 }
 workerDebuggerData
 .
@@ -390,7 +390,7 @@ type
 *
 param
 {
-Number
+number
 ?
 }
 workerDebuggerData
@@ -417,7 +417,7 @@ it
 *
 param
 {
-Boolean
+boolean
 }
 workerDebuggerData
 .
@@ -438,7 +438,7 @@ pref
 *
 param
 {
-Object
+object
 }
 sessionContext
 :

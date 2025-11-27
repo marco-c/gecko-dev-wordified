@@ -605,7 +605,7 @@ hosts
 *
 return
 {
-Object
+object
 }
 that
 maps
@@ -741,7 +741,7 @@ properties
 *
 param
 {
-Boolean
+boolean
 }
 onlyLookAtParents
 *
@@ -762,7 +762,7 @@ node
 *
 return
 {
-Object
+object
 }
 consisting
 of
@@ -1204,7 +1204,7 @@ color
 *
 return
 {
-String
+string
 }
 overlay
 color
@@ -1465,7 +1465,7 @@ store
 *
 param
 {
-Object
+object
 }
 data
 *
@@ -1598,7 +1598,7 @@ store
 *
 param
 {
-Object
+object
 }
 data
 *
@@ -1715,7 +1715,7 @@ container
 *
 param
 {
-Boolean
+boolean
 }
 highlighted
 *
@@ -2207,7 +2207,7 @@ container
 *
 param
 {
-String
+string
 }
 color
 *
@@ -2574,7 +2574,7 @@ visible
 *
 param
 {
-Object
+object
 }
 *
 This
@@ -2616,7 +2616,7 @@ about
 *
 param
 {
-String
+string
 }
 reason
 *
@@ -2739,7 +2739,7 @@ data
 *
 param
 {
-Object
+object
 |
 null
 }
@@ -2764,7 +2764,7 @@ properties
 *
 param
 {
-Object
+object
 |
 null
 }
@@ -2789,7 +2789,7 @@ properties
 *
 param
 {
-Boolean
+boolean
 }
 initiatedByMarkupViewSelection
 *
@@ -3120,7 +3120,7 @@ same
 *
 param
 {
-Object
+object
 |
 null
 }
@@ -3139,7 +3139,7 @@ properties
 *
 return
 {
-Object
+object
 |
 null
 }
@@ -3323,7 +3323,7 @@ properties
 *
 param
 {
-Object
+object
 }
 oldFlexContainer
 *
@@ -3341,7 +3341,7 @@ properties
 *
 param
 {
-Object
+object
 }
 newFlexContainer
 *
@@ -3359,7 +3359,7 @@ properties
 *
 return
 {
-Boolean
+boolean
 }
 true
 if

@@ -1818,7 +1818,7 @@ options
 *
 param
 {
-String
+string
 }
 options
 .
@@ -1826,7 +1826,7 @@ startValue
 *
 param
 {
-String
+string
 }
 options
 .
@@ -1834,7 +1834,7 @@ expectedEndValue
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -1850,7 +1850,7 @@ key
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -1862,7 +1862,7 @@ dragging
 *
 param
 {
-String
+string
 }
 options
 .
@@ -1870,7 +1870,7 @@ description
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -1881,7 +1881,7 @@ key
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -1894,7 +1894,7 @@ macosx
 *
 param
 {
-Boolean
+boolean
 }
 options
 .
@@ -2098,7 +2098,7 @@ editor
 *
 param
 {
-Number
+number
 }
 distance
 length
@@ -2115,13 +2115,13 @@ left
 *
 param
 {
-Object
+object
 }
 option
 *
 param
 {
-Boolean
+boolean
 }
 option
 .
@@ -2129,7 +2129,7 @@ escape
 *
 param
 {
-Boolean
+boolean
 }
 option
 .
@@ -2137,7 +2137,7 @@ alt
 *
 param
 {
-Boolean
+boolean
 }
 option
 .
@@ -2145,7 +2145,7 @@ shift
 *
 param
 {
-Boolean
+boolean
 }
 option
 .
@@ -2153,7 +2153,7 @@ ctrl
 *
 param
 {
-Boolean
+boolean
 }
 option
 .

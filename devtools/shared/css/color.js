@@ -532,7 +532,7 @@ CssColor
 *
 param
 {
-String
+string
 }
 colorValue
 :
@@ -2169,9 +2169,9 @@ invalid
 *
 return
 {
-String
+string
 |
-Boolean
+boolean
 }
 *
 -
@@ -3110,7 +3110,7 @@ alpha
 *
 return
 {
-Boolean
+boolean
 }
 True
 if
@@ -3155,7 +3155,7 @@ hsl
 *
 param
 {
-array
+Array
 }
 rgb
 *
@@ -3166,7 +3166,7 @@ values
 *
 return
 {
-array
+Array
 }
 *
 Array
@@ -3410,7 +3410,7 @@ HWB
 *
 param
 {
-array
+Array
 }
 rgb
 *
@@ -3421,7 +3421,7 @@ values
 *
 return
 {
-array
+Array
 }
 *
 Array
@@ -3586,7 +3586,7 @@ COLORUNIT
 *
 param
 {
-String
+string
 }
 value
 *
@@ -3602,7 +3602,7 @@ CSS
 *
 return
 {
-String
+string
 }
 *
 The
@@ -3834,7 +3834,7 @@ color
 *
 param
 {
-String
+string
 }
 name
 the
@@ -3843,7 +3843,7 @@ string
 *
 param
 {
-Boolean
+boolean
 }
 highResolution
 Forces
@@ -3873,7 +3873,7 @@ to
 *
 return
 {
-Object
+object
 }
 an
 object
@@ -4642,7 +4642,7 @@ color
 *
 return
 {
-Number
+number
 }
 The
 calculated

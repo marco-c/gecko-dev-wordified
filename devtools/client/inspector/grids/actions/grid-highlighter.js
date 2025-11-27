@@ -203,7 +203,7 @@ highlighted
 *
 param
 {
-Object
+object
 }
 options
 *

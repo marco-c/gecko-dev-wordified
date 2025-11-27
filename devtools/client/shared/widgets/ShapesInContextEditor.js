@@ -811,7 +811,7 @@ highlight
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1090,7 +1090,7 @@ highlight
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1579,7 +1579,7 @@ object
 *
 param
 {
-Object
+object
 }
 data
 *
@@ -1730,7 +1730,7 @@ highlighter
 *
 param
 {
-Object
+object
 }
 data
 *
@@ -1871,7 +1871,7 @@ view
 *
 param
 {
-Object
+object
 }
 data
 *
@@ -2380,7 +2380,7 @@ view
 *
 param
 {
-String
+string
 }
 value
 *
@@ -2524,7 +2524,7 @@ constructor
 *
 param
 {
-String
+string
 }
 value
 *

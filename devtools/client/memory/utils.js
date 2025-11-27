@@ -294,7 +294,7 @@ snapshot
 *
 return
 {
-String
+string
 }
 *
 /
@@ -535,7 +535,7 @@ pref
 *
 return
 {
-Object
+object
 }
 *
 /
@@ -580,7 +580,7 @@ pref
 *
 return
 {
-Object
+object
 }
 *
 /
@@ -627,7 +627,7 @@ pref
 *
 return
 {
-Object
+object
 }
 *
 /
@@ -683,7 +683,7 @@ state
 *
 return
 {
-String
+string
 }
 *
 /
@@ -1140,7 +1140,7 @@ state
 *
 return
 {
-String
+string
 }
 *
 /
@@ -1619,7 +1619,7 @@ snapshot
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -2020,7 +2020,7 @@ otherwise
 *
 param
 {
-String
+string
 }
 filter
 *
@@ -2039,7 +2039,7 @@ census
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -2127,7 +2127,7 @@ check
 *
 param
 {
-Boolean
+boolean
 }
 Assert
 that
@@ -2143,7 +2143,7 @@ state
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -2242,7 +2242,7 @@ snapshot
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -2335,7 +2335,7 @@ snapshot
 *
 returns
 {
-Object
+object
 |
 null
 }
@@ -2449,7 +2449,7 @@ census
 *
 return
 {
-Object
+object
 }
 *
 /
@@ -2534,7 +2534,7 @@ successful
 *
 param
 {
-String
+string
 }
 .
 title
@@ -2555,7 +2555,7 @@ Array
 <
 Array
 <
-String
+string
 >
 >
 }
@@ -2609,7 +2609,7 @@ json
 *
 param
 {
-String
+string
 }
 .
 defaultName
@@ -2627,7 +2627,7 @@ window
 *
 param
 {
-String
+string
 }
 .
 mode
@@ -2899,13 +2899,13 @@ sign
 *
 param
 {
-Number
+number
 }
 number
 *
 param
 {
-Boolean
+boolean
 }
 showSign
 (
@@ -3096,13 +3096,13 @@ suffix
 *
 param
 {
-Number
+number
 }
 percent
 *
 param
 {
-Boolean
+boolean
 }
 showSign
 (
@@ -3178,7 +3178,7 @@ string
 *
 param
 {
-Number
+number
 }
 h
 *
@@ -3194,7 +3194,7 @@ between
 *
 param
 {
-Number
+number
 }
 s
 *
@@ -3210,7 +3210,7 @@ between
 *
 param
 {
-Number
+number
 }
 l
 *
@@ -3303,19 +3303,19 @@ numbers
 *
 param
 {
-Number
+number
 }
 a
 *
 param
 {
-Number
+number
 }
 b
 *
 param
 {
-Number
+number
 }
 t
 *
@@ -3332,7 +3332,7 @@ b
 *
 return
 {
-Number
+number
 }
 *
 /
@@ -3389,7 +3389,7 @@ g
 *
 param
 {
-Number
+number
 }
 n
 *
@@ -3399,7 +3399,7 @@ bytes
 *
 return
 {
-String
+string
 }
 *
 /

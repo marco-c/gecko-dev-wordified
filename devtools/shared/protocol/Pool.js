@@ -168,7 +168,7 @@ property
 *
 param
 {
-String
+string
 }
 [
 label
@@ -781,7 +781,7 @@ actorID
 *
 param
 {
-String
+string
 }
 actorID
 *

@@ -310,7 +310,7 @@ Constructor
 *
 param
 {
-Object
+object
 }
 state
 *
@@ -332,7 +332,7 @@ keyframe
 *
 param
 {
-Number
+number
 }
 totalDuration
 *
@@ -343,7 +343,7 @@ duration
 *
 param
 {
-Number
+number
 }
 minSegmentDuration
 *
@@ -506,7 +506,7 @@ parameters
 *
 param
 {
-Number
+number
 }
 startTime
 *
@@ -518,7 +518,7 @@ animation
 *
 param
 {
-Number
+number
 }
 endTime
 *
@@ -609,13 +609,13 @@ time
 *
 param
 {
-Number
+number
 }
 time
 *
 return
 {
-Object
+object
 }
 *
 {
@@ -673,7 +673,7 @@ parameters
 *
 param
 {
-Number
+number
 }
 startTime
 *
@@ -685,7 +685,7 @@ animation
 *
 param
 {
-Number
+number
 }
 endTime
 *
@@ -697,7 +697,7 @@ animation
 *
 param
 {
-Number
+number
 }
 minSegmentDuration
 *
@@ -708,7 +708,7 @@ duration
 *
 param
 {
-Number
+number
 }
 minProgressThreshold
 *
@@ -719,7 +719,7 @@ threshold
 *
 param
 {
-Number
+number
 }
 resolution
 *
@@ -1115,7 +1115,7 @@ SummaryGraphHelper
 *
 param
 {
-Number
+number
 }
 endTime
 *
@@ -1132,7 +1132,7 @@ g
 *
 param
 {
-Number
+number
 }
 playbackRate
 *
@@ -1265,7 +1265,7 @@ keyframe
 *
 return
 {
-Number
+number
 }
 *
 Preferred
@@ -1376,7 +1376,7 @@ graph
 *
 param
 {
-Object
+object
 }
 state
 *
@@ -1746,7 +1746,7 @@ y
 *
 return
 {
-String
+string
 }
 *
 Path

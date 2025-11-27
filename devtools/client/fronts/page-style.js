@@ -449,7 +449,7 @@ type
 *
 param
 {
-String
+string
 }
 search
 :
@@ -464,7 +464,7 @@ on
 *
 param
 {
-String
+string
 }
 attributeType
 :
@@ -516,7 +516,7 @@ returns
 {
 Array
 <
-String
+string
 >
 }
 An

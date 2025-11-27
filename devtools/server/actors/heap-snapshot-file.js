@@ -311,7 +311,7 @@ transferHeapSnapshot
 *
 param
 {
-String
+string
 }
 snapshotId
 *

@@ -209,7 +209,7 @@ loss
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -246,7 +246,7 @@ empty
 *
 return
 {
-Boolean
+boolean
 }
 *
 True

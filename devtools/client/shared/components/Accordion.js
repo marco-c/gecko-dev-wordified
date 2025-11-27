@@ -798,7 +798,7 @@ event
 *
 param
 {
-Object
+object
 }
 item
 The
@@ -892,7 +892,7 @@ item
 *
 param
 {
-Object
+object
 }
 item
 The

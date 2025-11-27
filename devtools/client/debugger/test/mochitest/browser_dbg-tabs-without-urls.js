@@ -291,7 +291,7 @@ tab
 *
 param
 {
-Number
+number
 }
 index
 -

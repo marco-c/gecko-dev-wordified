@@ -254,7 +254,7 @@ accessibles
 *
 param
 {
-Object
+object
 }
 accessible
 Accessible
@@ -387,7 +387,7 @@ accessibles
 *
 param
 {
-Object
+object
 }
 accessible
 Accessible
@@ -643,7 +643,7 @@ accessibles
 *
 param
 {
-Object
+object
 }
 action
 Redux
@@ -653,7 +653,7 @@ object
 *
 return
 {
-Object
+object
 }
 updated
 state

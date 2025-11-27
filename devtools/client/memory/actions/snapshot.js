@@ -282,7 +282,7 @@ HeapAnalysesClient
 *
 param
 {
-Object
+object
 }
 *
 /
@@ -692,7 +692,7 @@ front
 *
 returns
 {
-Number
+number
 |
 null
 }
@@ -2092,7 +2092,7 @@ id
 *
 param
 {
-Object
+object
 }
 censusBreakdown
 *
@@ -2100,10 +2100,10 @@ param
 {
 Set
 <
-Number
+number
 >
 |
-Number
+number
 }
 reportLeafIndex
 *

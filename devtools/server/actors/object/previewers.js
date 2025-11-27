@@ -4068,7 +4068,7 @@ objectActor
 *
 param
 {
-Object
+object
 }
 grip
 :
@@ -4092,7 +4092,7 @@ property
 *
 param
 {
-Number
+number
 }
 depth
 *

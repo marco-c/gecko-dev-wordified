@@ -195,7 +195,7 @@ url
 *
 param
 {
-String
+string
 }
 url
 *
@@ -1024,7 +1024,7 @@ to
 *
 param
 {
-String
+string
 }
 value
 *
@@ -1036,9 +1036,9 @@ normalize
 *
 return
 {
-String
+string
 |
-Number
+number
 }
 *
 The

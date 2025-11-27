@@ -136,7 +136,7 @@ computeShortestPaths
 *
 returns
 {
-Object
+object
 }
 *
 An

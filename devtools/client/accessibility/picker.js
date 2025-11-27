@@ -255,7 +255,7 @@ tree
 *
 param
 {
-Object
+object
 }
 accessible
 *
@@ -301,7 +301,7 @@ tree
 *
 param
 {
-Object
+object
 }
 accessible
 *
@@ -456,7 +456,7 @@ over
 *
 param
 {
-Object
+object
 }
 accessible
 *
@@ -520,7 +520,7 @@ user
 *
 param
 {
-Object
+object
 }
 accessible
 *
@@ -576,7 +576,7 @@ user
 *
 param
 {
-Object
+object
 }
 accessible
 *
@@ -752,7 +752,7 @@ picking
 *
 param
 {
-Boolean
+boolean
 }
 doFocus
 *
@@ -860,7 +860,7 @@ picker
 *
 param
 {
-Boolean
+boolean
 }
 doFocus
 *

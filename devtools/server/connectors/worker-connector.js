@@ -161,7 +161,7 @@ for
 *
 params
 {
-String
+string
 }
 forwardingPrefix
 :
@@ -186,7 +186,7 @@ thread
 *
 params
 {
-Object
+object
 }
 options
 :
@@ -207,7 +207,7 @@ packet
 *
 params
 {
-Object
+object
 }
 options
 .

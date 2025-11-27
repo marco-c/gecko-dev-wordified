@@ -273,7 +273,7 @@ destroy
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -293,7 +293,7 @@ object
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -313,7 +313,7 @@ object
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -328,7 +328,7 @@ object
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -343,7 +343,7 @@ object
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -362,7 +362,7 @@ shown
 *
 param
 {
-String
+string
 |
 null
 }
@@ -379,7 +379,7 @@ object
 *
 param
 {
-String
+string
 }
 options
 .
@@ -749,7 +749,7 @@ markup
 *
 return
 {
-Object
+object
 }
 Container
 element
@@ -1099,7 +1099,7 @@ markup
 *
 param
 {
-String
+string
 }
 id
 *
@@ -1172,7 +1172,7 @@ highlight
 *
 return
 {
-Boolean
+boolean
 }
 whether
 or
@@ -1229,7 +1229,7 @@ accessible
 *
 return
 {
-Boolean
+boolean
 }
 True
 if
@@ -1362,7 +1362,7 @@ accessible
 *
 return
 {
-Boolean
+boolean
 }
 True
 if
@@ -1766,7 +1766,7 @@ bounds
 *
 return
 {
-Object
+object
 |
 null
 }
@@ -1923,7 +1923,7 @@ markup
 *
 return
 {
-Boolean
+boolean
 }
 True
 if

@@ -978,7 +978,7 @@ element
 *
 param
 {
-Object
+object
 }
 monitor
 *
@@ -1005,7 +1005,7 @@ opened
 *
 param
 {
-String
+string
 }
 id
 *

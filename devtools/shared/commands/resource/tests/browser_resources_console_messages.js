@@ -977,7 +977,7 @@ param
 {
 Function
 |
-String
+string
 }
 The
 JS

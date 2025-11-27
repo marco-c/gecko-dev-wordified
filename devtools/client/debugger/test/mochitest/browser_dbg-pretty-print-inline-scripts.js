@@ -1427,7 +1427,7 @@ maintenance
 *
 returns
 {
-String
+string
 }
 *
 /

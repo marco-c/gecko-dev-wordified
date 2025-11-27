@@ -1011,7 +1011,7 @@ request
 *
 param
 {
-String
+string
 }
 type
 *
@@ -1435,7 +1435,7 @@ context
 *
 param
 {
-Object
+object
 }
 grip
 :

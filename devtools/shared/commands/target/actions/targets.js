@@ -104,7 +104,7 @@ targetFront
 *
 param
 {
-String
+string
 }
 targetActorID
 :

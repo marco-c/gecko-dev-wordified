@@ -1437,9 +1437,9 @@ invalid
 *
 return
 {
-String
+string
 |
-Boolean
+boolean
 }
 *
 -
@@ -1552,7 +1552,7 @@ angle
 *
 param
 {
-String
+string
 }
 angle
 *
@@ -2025,7 +2025,7 @@ angleUnit
 *
 param
 {
-String
+string
 }
 value
 *
@@ -2041,7 +2041,7 @@ CSS
 *
 return
 {
-String
+string
 }
 *
 The

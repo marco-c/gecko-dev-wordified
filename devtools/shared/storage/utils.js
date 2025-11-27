@@ -649,7 +649,7 @@ tree
 *
 param
 {
-String
+string
 }
 value
 *

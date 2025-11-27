@@ -93,7 +93,7 @@ matrix
 *
 param
 {
-Number
+number
 }
 [
 sx
@@ -120,7 +120,7 @@ to
 *
 param
 {
-Number
+number
 }
 [
 sy
@@ -225,7 +225,7 @@ matrix
 *
 param
 {
-Number
+number
 }
 [
 tx
@@ -252,7 +252,7 @@ to
 *
 param
 {
-Number
+number
 }
 [
 ty
@@ -421,7 +421,7 @@ matrix
 *
 param
 {
-Number
+number
 }
 [
 angle
@@ -1091,7 +1091,7 @@ check
 *
 return
 {
-Boolean
+boolean
 }
 *
 true
@@ -1296,7 +1296,7 @@ system
 *
 return
 {
-Object
+object
 }
 *
 {
@@ -1801,7 +1801,7 @@ element
 *
 param
 {
-Object
+object
 }
 size
 *
@@ -1827,7 +1827,7 @@ padding
 *
 param
 {
-Object
+object
 }
 style
 *
@@ -2222,7 +2222,7 @@ format
 *
 return
 {
-String
+string
 }
 *
 The

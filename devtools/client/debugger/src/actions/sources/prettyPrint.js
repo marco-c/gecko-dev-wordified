@@ -733,7 +733,7 @@ file
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -751,7 +751,7 @@ worker
 *
 param
 {
-Object
+object
 }
 options
 .
@@ -768,7 +768,7 @@ print
 *
 param
 {
-Object
+object
 }
 options
 .

@@ -565,7 +565,7 @@ getAnimationPlayers
 *
 param
 {
-Number
+number
 }
 Time
 which
@@ -1462,7 +1462,7 @@ property
 *
 return
 {
-String
+string
 }
 *
 /
@@ -1546,7 +1546,7 @@ milliseconds
 *
 return
 {
-Number
+number
 }
 *
 /
@@ -1586,7 +1586,7 @@ milliseconds
 *
 return
 {
-Number
+number
 }
 *
 /
@@ -1626,7 +1626,7 @@ milliseconds
 *
 return
 {
-Number
+number
 }
 *
 /
@@ -1678,7 +1678,7 @@ run
 *
 return
 {
-Number
+number
 }
 The
 number
@@ -1755,7 +1755,7 @@ animation
 *
 return
 {
-Number
+number
 }
 *
 /
@@ -1793,7 +1793,7 @@ player
 *
 return
 {
-String
+string
 }
 *
 /
@@ -1832,7 +1832,7 @@ player
 *
 return
 {
-String
+string
 }
 *
 /
@@ -1870,7 +1870,7 @@ player
 *
 return
 {
-String
+string
 }
 *
 /
@@ -1913,7 +1913,7 @@ Animations
 *
 return
 {
-String
+string
 }
 *
 /
@@ -2059,7 +2059,7 @@ Animation
 *
 return
 {
-Object
+object
 }
 *
 /
@@ -2467,7 +2467,7 @@ method
 *
 return
 {
-Object
+object
 }
 *
 /
@@ -3567,7 +3567,7 @@ color
 *
 return
 {
-Object
+object
 }
 Returns
 animation
@@ -3646,7 +3646,7 @@ value2
 *
 param
 {
-Object
+object
 }
 target
 -
@@ -3655,7 +3655,7 @@ element
 *
 param
 {
-String
+string
 }
 propertyName
 -
@@ -3667,7 +3667,7 @@ transform
 *
 param
 {
-String
+string
 }
 value1
 -
@@ -3682,7 +3682,7 @@ translate
 *
 param
 {
-String
+string
 }
 value2
 -
@@ -3697,7 +3697,7 @@ translate
 *
 param
 {
-Object
+object
 }
 DOMWindowUtils
 *
@@ -5414,7 +5414,7 @@ AnimationPlayerActor
 *
 param
 {
-Number
+number
 }
 time
 The
@@ -5424,7 +5424,7 @@ currentTime
 *
 param
 {
-Boolean
+boolean
 }
 shouldPause
 Should
@@ -5547,7 +5547,7 @@ AnimationPlayerActor
 *
 param
 {
-Number
+number
 }
 rate
 The
@@ -5609,7 +5609,7 @@ synchronously
 *
 param
 {
-Object
+object
 }
 player
 *
@@ -5639,7 +5639,7 @@ synchronously
 *
 param
 {
-Object
+object
 }
 player
 *
@@ -5727,7 +5727,7 @@ animaiton
 *
 param
 {
-Object
+object
 }
 animation
 *

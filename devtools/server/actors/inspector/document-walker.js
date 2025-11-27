@@ -207,7 +207,7 @@ rootWin
 *
 param
 {
-Object
+object
 }
 *
 -

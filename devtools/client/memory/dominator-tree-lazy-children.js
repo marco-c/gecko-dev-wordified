@@ -102,7 +102,7 @@ parentNodeId
 *
 param
 {
-Number
+number
 }
 siblingIndex
 *
@@ -169,7 +169,7 @@ example
 *
 returns
 {
-String
+string
 }
 *
 /
@@ -248,7 +248,7 @@ children
 *
 returns
 {
-Boolean
+boolean
 }
 *
 /
@@ -335,7 +335,7 @@ array
 *
 returns
 {
-Number
+number
 }
 *
 /

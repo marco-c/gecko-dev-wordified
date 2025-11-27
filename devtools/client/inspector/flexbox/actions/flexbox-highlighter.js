@@ -205,7 +205,7 @@ toggled
 *
 param
 {
-String
+string
 }
 reason
 *

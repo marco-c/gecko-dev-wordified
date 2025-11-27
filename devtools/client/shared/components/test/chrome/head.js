@@ -2444,7 +2444,7 @@ snapshot
 *
 param
 {
-String
+string
 }
 name
 *
@@ -2464,7 +2464,7 @@ name
 *
 param
 {
-Object
+object
 }
 el
 *

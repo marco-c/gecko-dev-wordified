@@ -679,7 +679,7 @@ objects
 *
 param
 {
-Object
+object
 }
 location
 *

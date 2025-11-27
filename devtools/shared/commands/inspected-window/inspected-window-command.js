@@ -212,7 +212,7 @@ window
 *
 param
 {
-Object
+object
 }
 webExtensionCallerInfo
 -
@@ -258,7 +258,7 @@ trace
 *
 param
 {
-String
+string
 }
 expression
 -
@@ -270,7 +270,7 @@ evaluate
 *
 param
 {
-Object
+object
 }
 options
 -
@@ -670,7 +670,7 @@ trace
 *
 param
 {
-Object
+object
 }
 options
 *

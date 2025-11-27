@@ -237,7 +237,7 @@ event
 *
 param
 {
-String
+string
 |
 NodeFront
 }
@@ -262,7 +262,7 @@ toolbox
 *
 param
 {
-String
+string
 }
 reason
 *
@@ -664,7 +664,7 @@ instance
 *
 param
 {
-String
+string
 }
 text
 -
@@ -1267,7 +1267,7 @@ element
 *
 return
 {
-String
+string
 }
 *
 The
@@ -1335,7 +1335,7 @@ element
 *
 return
 {
-String
+string
 }
 *
 The
@@ -1404,7 +1404,7 @@ element
 *
 return
 {
-String
+string
 }
 *
 The
@@ -1486,7 +1486,7 @@ panel
 *
 param
 {
-String
+string
 }
 name
 *
@@ -1499,7 +1499,7 @@ tag
 *
 return
 {
-Object
+object
 }
 *
 Object
@@ -1690,7 +1690,7 @@ element
 *
 return
 {
-Boolean
+boolean
 }
 *
 /

@@ -119,7 +119,7 @@ buffers
 *
 param
 {
-Object
+object
 }
 packet
 -
@@ -144,7 +144,7 @@ positions
 *
 return
 {
-Object
+object
 }
 reconstructed
 packet

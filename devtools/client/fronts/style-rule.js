@@ -631,7 +631,7 @@ highlighted
 *
 returns
 {
-String
+string
 }
 *
 /
@@ -1296,7 +1296,7 @@ list
 *
 param
 {
-Number
+number
 }
 index
 index
@@ -1341,7 +1341,7 @@ style
 *
 param
 {
-String
+string
 }
 name
 the
@@ -1352,7 +1352,7 @@ name
 *
 param
 {
-String
+string
 }
 value
 the
@@ -1363,7 +1363,7 @@ value
 *
 param
 {
-String
+string
 }
 priority
 the
@@ -1429,7 +1429,7 @@ list
 *
 param
 {
-Number
+number
 }
 index
 index
@@ -1474,7 +1474,7 @@ style
 *
 param
 {
-String
+string
 }
 name
 the
@@ -1538,7 +1538,7 @@ available
 *
 param
 {
-Number
+number
 }
 index
 index
@@ -1583,7 +1583,7 @@ style
 *
 param
 {
-String
+string
 }
 name
 current
@@ -1632,7 +1632,7 @@ RuleRewriter
 *
 param
 {
-String
+string
 }
 newName
 new
@@ -1690,7 +1690,7 @@ available
 *
 param
 {
-Number
+number
 }
 index
 index
@@ -1735,7 +1735,7 @@ style
 *
 param
 {
-String
+string
 }
 name
 current
@@ -1746,7 +1746,7 @@ property
 *
 param
 {
-Boolean
+boolean
 }
 isEnabled
 true
@@ -1862,7 +1862,7 @@ RuleRewriter
 *
 param
 {
-Number
+number
 }
 index
 index
@@ -1907,7 +1907,7 @@ style
 *
 param
 {
-String
+string
 }
 name
 name
@@ -1918,7 +1918,7 @@ property
 *
 param
 {
-String
+string
 }
 value
 value
@@ -1929,7 +1929,7 @@ property
 *
 param
 {
-String
+string
 }
 priority
 priority
@@ -1950,7 +1950,7 @@ important
 *
 param
 {
-Boolean
+boolean
 }
 enabled
 True

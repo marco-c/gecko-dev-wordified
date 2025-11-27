@@ -2956,7 +2956,7 @@ target
 *
 param
 {
-Boolean
+boolean
 }
 doFocus
 -

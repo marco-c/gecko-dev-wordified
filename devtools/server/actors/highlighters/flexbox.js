@@ -357,7 +357,7 @@ elements
 *
 param
 {
-String
+string
 }
 options
 .
@@ -1135,7 +1135,7 @@ regions
 *
 param
 {
-Number
+number
 }
 devicePixelRatio
 *
@@ -1411,7 +1411,7 @@ regions
 *
 param
 {
-Number
+number
 }
 devicePixelRatio
 *
@@ -3921,7 +3921,7 @@ drawing
 *
 param
 {
-String
+string
 }
 [
 options
@@ -4045,7 +4045,7 @@ lineDash
 *
 param
 {
-Number
+number
 }
 [
 options
@@ -4064,7 +4064,7 @@ line
 *
 param
 {
-Number
+number
 }
 [
 options
@@ -4094,7 +4094,7 @@ line
 *
 param
 {
-Boolean
+boolean
 }
 [
 options
@@ -4115,7 +4115,7 @@ strokeStyle
 *
 param
 {
-Boolean
+boolean
 }
 [
 options
@@ -4731,7 +4731,7 @@ container
 *
 return
 {
-Object
+object
 |
 null
 }
@@ -5182,7 +5182,7 @@ object
 *
 return
 {
-Boolean
+boolean
 }
 true
 if

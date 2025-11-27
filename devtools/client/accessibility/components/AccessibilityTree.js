@@ -826,7 +826,7 @@ subtree
 *
 param
 {
-Object
+object
 }
 accessibleFront
 *
@@ -1001,7 +1001,7 @@ subtree
 *
 param
 {
-Object
+object
 }
 accessibleFront
 *
@@ -1016,7 +1016,7 @@ changed
 *
 param
 {
-Object
+object
 }
 parentFront
 *
@@ -1176,7 +1176,7 @@ subtree
 *
 param
 {
-Object
+object
 }
 accessibleFront
 *

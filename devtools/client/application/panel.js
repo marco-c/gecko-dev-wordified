@@ -128,7 +128,7 @@ panel
 *
 param
 {
-Object
+object
 }
 commands
 *

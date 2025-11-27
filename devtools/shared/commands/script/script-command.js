@@ -131,7 +131,7 @@ expression
 *
 param
 {
-String
+string
 }
 expression
 :
@@ -145,7 +145,7 @@ evaluate
 *
 param
 {
-Object
+object
 }
 options
 :
@@ -156,7 +156,7 @@ evaluation
 *
 param
 {
-Object
+object
 }
 options
 .
@@ -198,7 +198,7 @@ FrameActor
 *
 param
 {
-String
+string
 }
 options
 .
@@ -258,7 +258,7 @@ one
 *
 param
 {
-String
+string
 }
 options
 .
@@ -291,7 +291,7 @@ like
 *
 param
 {
-String
+string
 }
 options
 .
@@ -342,7 +342,7 @@ variable
 *
 param
 {
-Number
+number
 }
 options
 .

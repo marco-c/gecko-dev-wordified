@@ -410,7 +410,7 @@ user
 *
 param
 {
-Object
+object
 }
 frameOrFunc
 *
@@ -446,7 +446,7 @@ reducer
 *
 param
 {
-Boolean
+boolean
 }
 shouldMapDisplayName
 *
@@ -473,7 +473,7 @@ name
 *
 param
 {
-Object
+object
 }
 l10n
 *

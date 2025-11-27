@@ -859,7 +859,7 @@ target
 *
 param
 {
-Object
+object
 }
 target
 An
@@ -879,13 +879,13 @@ removeEventListener
 *
 param
 {
-String
+string
 }
 eventName
 *
 param
 {
-Boolean
+boolean
 }
 useCapture
 Optional
@@ -1588,7 +1588,7 @@ event
 *
 param
 {
-Object
+object
 }
 emitter
 Devtools
@@ -1696,7 +1696,7 @@ date
 *
 param
 {
-Object
+object
 }
 front
 Accessibility
@@ -1708,7 +1708,7 @@ tested
 *
 param
 {
-Object
+object
 }
 expected
 A
@@ -1724,7 +1724,7 @@ verified
 *
 param
 {
-Object
+object
 }
 expectedFront
 Expected

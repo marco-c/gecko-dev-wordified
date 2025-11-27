@@ -1407,13 +1407,13 @@ URL
 *
 param
 {
-String
+string
 }
 url
 *
 param
 {
-Boolean
+boolean
 }
 waitForLoad
 *

@@ -253,7 +253,7 @@ highlighted
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -281,7 +281,7 @@ here
 *
 param
 {
-String
+string
 }
 options
 .
@@ -573,7 +573,7 @@ highlighted
 *
 param
 {
-Object
+object
 }
 options
 *

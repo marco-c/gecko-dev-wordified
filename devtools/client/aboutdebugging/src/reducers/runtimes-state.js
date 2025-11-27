@@ -296,7 +296,7 @@ state
 *
 param
 {
-String
+string
 }
 runtimeId
 *
@@ -310,7 +310,7 @@ update
 *
 param
 {
-Object
+object
 }
 updatedRuntime
 *
@@ -331,7 +331,7 @@ assign
 *
 param
 {
-Object
+object
 }
 state
 *
@@ -342,7 +342,7 @@ state
 *
 return
 {
-Object
+object
 }
 The
 updated
