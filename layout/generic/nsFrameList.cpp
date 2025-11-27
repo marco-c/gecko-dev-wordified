@@ -2904,17 +2904,6 @@ case
 FrameChildListID
 :
 :
-PushedAbsolute
-:
-return
-"
-PushedAbsoluteList
-"
-;
-case
-FrameChildListID
-:
-:
 Fixed
 :
 return
