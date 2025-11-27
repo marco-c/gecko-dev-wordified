@@ -235,17 +235,6 @@ extendedYear
 const
 override
 ;
-int32_t
-relatedYearDifference
-(
-)
-const
-override
-{
-return
-chineseRelatedYearDiff
-;
-}
 public
 :
 UClassID
