@@ -8477,6 +8477,12 @@ reason
 )
 &
 &
+AllowedErrorForTransactionRetry
+(
+reason
+)
+&
+&
 mHttp3BackupTimerCreated
 &
 &
@@ -8787,7 +8793,7 @@ shouldRestartTransactionForHTTPSRR
 mOrigConnInfo
 &
 &
-AllowedErrorForHTTPSRRFallback
+AllowedErrorForTransactionRetry
 (
 reason
 )
