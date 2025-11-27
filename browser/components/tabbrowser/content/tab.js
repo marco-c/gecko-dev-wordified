@@ -1398,7 +1398,7 @@ this
 .
 container
 .
-ariaFocusableItems
+dragAndDropElements
 ;
 return
 this
