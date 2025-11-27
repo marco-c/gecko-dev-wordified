@@ -4545,6 +4545,8 @@ def
 get_repository
 (
 path
+:
+str
 )
 :
     
