@@ -119,11 +119,6 @@ ViewTransition
 .
 h
 "
-"
-ViewTransitionTypeSet
-.
-h
-"
 ]
 UNIFIED_SOURCES
 +
@@ -131,11 +126,6 @@ UNIFIED_SOURCES
 [
 "
 ViewTransition
-.
-cpp
-"
-"
-ViewTransitionTypeSet
 .
 cpp
 "
