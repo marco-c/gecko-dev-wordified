@@ -1523,7 +1523,7 @@ this
 .
 view
 .
-_onAddRule
+addNewRule
 (
 )
 visible
@@ -1539,13 +1539,12 @@ this
 isRuleView
 |
 |
+!
 this
 .
-inspector
+view
 .
-selection
-.
-isNativeAnonymousNode
+canAddNewRuleForSelectedNode
 (
 )
 }
