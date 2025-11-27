@@ -114,6 +114,13 @@ h
 #
 include
 "
+nsIChildChannel
+.
+h
+"
+#
+include
+"
 nsIDataChannel
 .
 h
@@ -130,6 +137,8 @@ public
 nsIDataChannel
 public
 nsIIdentChannel
+public
+nsIChildChannel
 {
 public
 :
@@ -148,6 +157,7 @@ nsBaseChannel
 :
 )
 NS_DECL_NSIIDENTCHANNEL
+NS_DECL_NSICHILDCHANNEL
 explicit
 nsDataChannel
 (

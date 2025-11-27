@@ -398,11 +398,6 @@ NeckoChannelParams
 ipdlh
 "
 "
-PDataChannel
-.
-ipdl
-"
-"
 PDocumentChannel
 .
 ipdl
