@@ -8150,9 +8150,7 @@ this
 .
 inspector
 .
-selection
-.
-isElementNode
+canTogglePseudoClassForSelectedNode
 (
 )
 )

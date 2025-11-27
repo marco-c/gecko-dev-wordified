@@ -4039,7 +4039,6 @@ pasteSubmenu
 }
 _getPseudoClassSubmenu
 (
-isElement
 )
 {
 const
@@ -4047,6 +4046,17 @@ menu
 =
 new
 Menu
+(
+)
+;
+const
+enabled
+=
+this
+.
+inspector
+.
+canTogglePseudoClassForSelectedNode
 (
 )
 ;
@@ -4120,7 +4130,7 @@ name
 ;
 if
 (
-isElement
+enabled
 )
 {
 const
@@ -5081,7 +5091,6 @@ this
 .
 _getPseudoClassSubmenu
 (
-isElement
 )
 }
 )
