@@ -479,7 +479,7 @@ nsresult
 GetNameFromSubtree
 (
 const
-LocalAccessible
+Accessible
 *
 aAccessible
 nsAString
