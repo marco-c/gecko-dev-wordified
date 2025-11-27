@@ -76,8 +76,6 @@ Optional
 #
 noqa
 UP035
-import
-yaml
 DictAny
 =
 Dict
@@ -85,6 +83,9 @@ Dict
 str
 Any
 ]
+#
+noqa
+UP006
 DictStr
 =
 Dict
@@ -92,6 +93,9 @@ Dict
 str
 str
 ]
+#
+noqa
+UP006
 OptTestSettings
 =
 Optional
@@ -869,7 +873,9 @@ os
 "
 mac
 "
-and
+:
+                
+if
 version
 =
 =
@@ -877,12 +883,28 @@ version
 1100
 "
 :
-                
+                    
 return
 "
 11
 .
 20
+"
+                
+elif
+version
+=
+=
+"
+1500
+"
+:
+                    
+return
+"
+15
+.
+30
 "
             
 if
@@ -1398,6 +1420,9 @@ self
 )
 :
         
+import
+yaml
+        
 if
 PlatformInfo
 .
@@ -1630,15 +1655,8 @@ keys
 )
 )
         
-test_variant
+variants
 =
-"
-+
-"
-.
-join
-(
-            
 [
 v
 for
@@ -1660,6 +1678,27 @@ if
 v
 ]
         
+variants
+.
+sort
+(
+)
+#
+keep
+variants
+in
+consistent
+order
+        
+test_variant
+=
+"
++
+"
+.
+join
+(
+variants
 )
         
 if
