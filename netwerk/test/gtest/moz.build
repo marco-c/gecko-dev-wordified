@@ -223,6 +223,11 @@ TestPACMan
 cpp
 "
 "
+TestParseHeaders
+.
+cpp
+"
+"
 TestPollableEvent
 .
 cpp
