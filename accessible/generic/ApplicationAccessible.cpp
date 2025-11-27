@@ -339,7 +339,7 @@ ENameValueFlag
 ApplicationAccessible
 :
 :
-DirectName
+Name
 (
 nsString
 &

@@ -420,7 +420,7 @@ ENameValueFlag
 TextLeafAccessible
 :
 :
-DirectName
+Name
 (
 nsString
 &
