@@ -124,15 +124,6 @@ Bug
 1693576
         
 "
-legacy
--
-regexp
-"
-#
-Bug
-1306461
-        
-"
 source
 -
 phase
@@ -420,6 +411,13 @@ RELEASE_OR_BETA
 =
 set
 (
+[
+"
+legacy
+-
+regexp
+"
+]
 )
 SHELL_OPTIONS
 =
