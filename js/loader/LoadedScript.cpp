@@ -677,6 +677,7 @@ is
 only
 for
 the
+cached
 stencil
 case
 .
@@ -687,7 +688,8 @@ script
 text
 and
 the
-bytecode
+serialized
+stencil
 are
 not
 reflected

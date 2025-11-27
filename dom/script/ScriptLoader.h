@@ -4081,8 +4081,8 @@ source
 /
 /
 *
-encoded
-bytecode
+serialized
+stencil
 /
 /
 *
@@ -4157,8 +4157,8 @@ source
 /
 /
 *
-encoded
-bytecode
+serialized
+stencil
 /
 /
 /
@@ -4709,7 +4709,12 @@ aCompressed
 *
 Save
 the
-bytecode
+serialized
+and
+maybe
+-
+compressed
+stencil
 to
 the
 necko
