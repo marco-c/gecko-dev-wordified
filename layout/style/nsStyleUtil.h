@@ -283,16 +283,14 @@ with
 quoteChar
 '
 )
-and
-escaped
 version
 of
 aString
-/
-/
 to
 aResult
 .
+/
+/
 '
 aQuoteChar
 '
@@ -304,7 +302,7 @@ or
 .
 static
 void
-AppendEscapedCSSString
+AppendQuotedCSString
 (
 const
 nsACString
