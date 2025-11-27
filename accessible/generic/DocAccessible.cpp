@@ -1470,7 +1470,7 @@ ENameValueFlag
 DocAccessible
 :
 :
-Name
+DirectName
 (
 nsString
 &
@@ -1530,7 +1530,7 @@ attribute
 LocalAccessible
 :
 :
-Name
+DirectName
 (
 aName
 )
