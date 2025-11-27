@@ -1354,17 +1354,6 @@ GpuBufferWriterF
 GpuBufferBlockF
 }
 ;
-pub
-use
-gpu_buffer
-:
-:
-{
-GpuBufferDataF
-GpuBufferDataI
-GpuBufferWriterI
-}
-;
 /
 /
 /
