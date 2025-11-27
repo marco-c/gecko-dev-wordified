@@ -1860,6 +1860,7 @@ nsIWidget
 *
 aWidget
 LayoutDeviceIntRegion
+aRegion
 )
 {
 RefPtr
@@ -1873,9 +1874,10 @@ mViewManager
 vm
 -
 >
-PaintWindow
+Refresh
 (
-aWidget
+this
+aRegion
 )
 ;
 return
