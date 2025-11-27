@@ -850,6 +850,8 @@ GPUProcessHost
 OnChannelConnected
 "
 [
+self
+=
 this
 liveToken
 =
@@ -861,9 +863,12 @@ mLiveToken
 if
 (
 *
-mLiveToken
+liveToken
 &
 &
+self
+-
+>
 mLaunchPhase
 =
 =
@@ -873,6 +878,9 @@ LaunchPhase
 Waiting
 )
 {
+self
+-
+>
 InitAfterConnect
 (
 true
@@ -1083,6 +1091,8 @@ GetCurrentSerialEventTarget
 )
 __func__
 [
+self
+=
 this
 liveToken
 =
@@ -1107,6 +1117,9 @@ if
 liveToken
 )
 {
+self
+-
+>
 mCompositorSurfaceManager
 =
 aCsm
@@ -1151,6 +1164,8 @@ GetCurrentSerialEventTarget
 )
 __func__
 [
+self
+=
 this
 liveToken
 =
@@ -1165,7 +1180,7 @@ if
 liveToken
 )
 {
-this
+self
 -
 >
 OnAsyncInitComplete
