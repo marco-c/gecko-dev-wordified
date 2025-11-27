@@ -290,6 +290,9 @@ aChild
 CompositorBridgeParent
 *
 aParent
+UiCompositorControllerChild
+*
+aUiController
 )
 ;
 private
