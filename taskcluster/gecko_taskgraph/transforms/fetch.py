@@ -1575,6 +1575,17 @@ str
         
 }
         
+Optional
+(
+"
+headers
+"
+)
+:
+[
+str
+]
+        
 #
 The
 name
@@ -2090,6 +2101,35 @@ FETCH_GPG_KEY
             
 ]
         
+)
+    
+for
+header
+in
+fetch
+.
+get
+(
+"
+headers
+"
+[
+]
+)
+:
+        
+command
+.
+extend
+(
+[
+"
+-
+-
+header
+"
+header
+]
 )
     
 command
