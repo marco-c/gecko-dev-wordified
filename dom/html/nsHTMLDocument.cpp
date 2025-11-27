@@ -294,13 +294,6 @@ h
 #
 include
 "
-nsIHTMLContentSink
-.
-h
-"
-#
-include
-"
 nsIPrincipal
 .
 h
