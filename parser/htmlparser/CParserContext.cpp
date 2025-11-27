@@ -167,10 +167,6 @@ mStreamListenerState
 (
 eNone
 )
-mContextType
-(
-eCTURL
-)
 mParserCommand
 (
 aCommand
@@ -235,10 +231,6 @@ aLastBuffer
 eOnStop
 :
 eOnDataAvail
-)
-mContextType
-(
-eCTString
 )
 mParserCommand
 (

@@ -177,13 +177,6 @@ h
 #
 include
 "
-nsIDTD
-.
-h
-"
-#
-include
-"
 nsIDocumentTransformer
 .
 h
@@ -327,8 +320,6 @@ override
 NS_IMETHOD
 WillBuildModel
 (
-nsDTDMode
-aDTDMode
 )
 override
 ;

@@ -239,13 +239,6 @@ h
 #
 include
 "
-nsIDTD
-.
-h
-"
-#
-include
-"
 nsIDocShell
 .
 h
@@ -413,8 +406,6 @@ nsIContentSink
 NS_IMETHOD
 WillBuildModel
 (
-nsDTDMode
-aDTDMode
 )
 override
 ;
@@ -800,8 +791,6 @@ nsXMLFragmentContentSink
 :
 WillBuildModel
 (
-nsDTDMode
-aDTDMode
 )
 {
 if

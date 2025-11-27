@@ -436,13 +436,6 @@ h
 #
 include
 "
-nsIDTD
-.
-h
-"
-#
-include
-"
 nsIDocShell
 .
 h

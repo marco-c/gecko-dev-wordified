@@ -222,13 +222,6 @@ h
 #
 include
 "
-nsIDTD
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

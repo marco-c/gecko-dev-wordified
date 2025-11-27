@@ -221,13 +221,6 @@ NotNull
 .
 h
 "
-#
-include
-"
-nsIDTD
-.
-h
-"
 class
 nsParserBase
 ;
@@ -419,8 +412,6 @@ gess
 NS_IMETHOD
 WillBuildModel
 (
-nsDTDMode
-aDTDMode
 )
 {
 return

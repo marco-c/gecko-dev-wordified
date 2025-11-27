@@ -172,11 +172,6 @@ nsIContentSink
 h
 "
 "
-nsIDTD
-.
-h
-"
-"
 nsIFragmentContentSink
 .
 h

@@ -366,13 +366,6 @@ h
 #
 include
 "
-nsIDTD
-.
-h
-"
-#
-include
-"
 nsIFormControl
 .
 h

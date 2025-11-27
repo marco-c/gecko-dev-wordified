@@ -205,13 +205,6 @@ h
 #
 include
 "
-nsIDTD
-.
-h
-"
-#
-include
-"
 nsIScriptContext
 .
 h
