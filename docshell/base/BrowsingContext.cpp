@@ -14619,11 +14619,6 @@ loadIdentifier
 }
 else
 {
-MOZ_DIAGNOSTIC_ASSERT
-(
-sourceBC
-)
-;
 if
 (
 !
