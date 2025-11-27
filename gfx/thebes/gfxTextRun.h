@@ -4115,6 +4115,12 @@ case
 Script
 :
 :
+TRADITIONAL_HAN_WITH_LATIN
+:
+case
+Script
+:
+:
 JAPANESE
 :
 case
