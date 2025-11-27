@@ -2424,7 +2424,7 @@ range
 aRequest
 -
 >
-Bytecode
+SerializedStencil
 (
 )
 ;
