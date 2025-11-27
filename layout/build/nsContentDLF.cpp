@@ -1629,6 +1629,14 @@ SetContainer
 aContainer
 )
 ;
+blankDoc
+-
+>
+SetAllowDeclarativeShadowRoots
+(
+true
+)
+;
 /
 /
 add

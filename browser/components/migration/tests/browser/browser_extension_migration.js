@@ -940,9 +940,11 @@ link
 href
 =
 "
-about
+data
 :
-blank
+text
+/
+html
 "
 ;
 let

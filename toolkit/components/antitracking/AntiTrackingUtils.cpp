@@ -7890,7 +7890,7 @@ parentDoc
 parentDocShell
 -
 >
-GetDocument
+GetExtantDocument
 (
 )
 ;

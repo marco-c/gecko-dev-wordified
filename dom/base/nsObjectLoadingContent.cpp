@@ -9824,7 +9824,6 @@ GetExistingDocShell
 IsAboutBlankLoadOntoInitialAboutBlank
 (
 aURI
-aInheritPrincipal
 aPrincipalToInherit
 )
 )

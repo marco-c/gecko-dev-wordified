@@ -426,6 +426,9 @@ nsWebBrowser
 class
 nsDocShellLoadState
 ;
+class
+nsIOpenWindowInfo
+;
 template
 <
 typename
@@ -924,6 +927,9 @@ aParent
 WindowGlobalChild
 *
 aInitialWindowChild
+nsIOpenWindowInfo
+*
+aOpenWindowInfo
 )
 ;
 /

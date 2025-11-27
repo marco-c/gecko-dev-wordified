@@ -822,8 +822,8 @@ null
 ;
 dummy
 .
-onload
-=
+setTimeout
+(
 async
 function
 (
@@ -952,6 +952,8 @@ all
 )
 ;
 }
+0
+)
 ;
 }
 onShutdown

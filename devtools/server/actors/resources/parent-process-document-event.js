@@ -856,7 +856,7 @@ browsingContext
 .
 currentWindowGlobal
 .
-isInitialDocument
+isUncommittedInitialDocument
 )
 {
 return

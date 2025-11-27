@@ -518,6 +518,17 @@ return
 false
 ;
 }
+virtual
+bool
+IsAboutBlankMode
+(
+)
+override
+{
+return
+false
+;
+}
 /
 /
 End

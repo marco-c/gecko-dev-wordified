@@ -294,6 +294,9 @@ nsAtom
 class
 nsXULTooltipListener
 ;
+class
+nsIOpenWindowInfo
+;
 namespace
 mozilla
 {
@@ -687,6 +690,9 @@ widget
 InitData
 &
 widgetInitData
+nsIOpenWindowInfo
+*
+aOpenWindowInfo
 )
 ;
 nsDocShell

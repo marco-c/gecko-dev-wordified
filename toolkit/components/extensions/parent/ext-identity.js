@@ -733,7 +733,7 @@ window
 .
 document
 .
-isInitialDocument
+isUncommittedInitialDocument
 )
 {
 /

@@ -119,6 +119,12 @@ nsIWebBrowserChrome
 interface
 nsIWindowCreator
 ;
+interface
+nsIOpenWindowInfo
+;
+interface
+nsIPrincipal
+;
 /
 *
 *
