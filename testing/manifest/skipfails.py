@@ -2861,6 +2861,8 @@ __file__
 parent
 .
 parent
+.
+parent
         
 self
 .
@@ -4092,17 +4094,6 @@ path
 normpath
 (
 filename
-.
-split
-(
-"
-:
-"
-)
-[
--
-1
-]
 )
 )
     
