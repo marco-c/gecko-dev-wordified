@@ -1980,6 +1980,14 @@ to
 sticky
 pos
 .
+Returns
+null
+if
+we
+hit
+*
+aLimitAncestor
+.
 *
 /
 static
@@ -1990,6 +1998,11 @@ OneStepInASRChain
 nsIFrame
 *
 aFrame
+nsIFrame
+*
+aLimitAncestor
+=
+nullptr
 )
 ;
 /
