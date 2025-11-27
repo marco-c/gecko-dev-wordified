@@ -635,6 +635,9 @@ config
 task
 taskdesc
 repo_configs
+sparse
+=
+False
 )
 :
     
