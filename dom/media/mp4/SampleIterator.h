@@ -304,11 +304,13 @@ GetSampleDescriptionEntry
 (
 )
 ;
+const
 CencSampleEncryptionInfoEntry
 *
 GetSampleEncryptionEntry
 (
 )
+const
 ;
 /
 /

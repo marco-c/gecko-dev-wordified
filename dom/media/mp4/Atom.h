@@ -85,6 +85,7 @@ bool
 IsValid
 (
 )
+const
 {
 return
 mValid
