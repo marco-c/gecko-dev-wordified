@@ -1447,7 +1447,7 @@ already_AddRefed
 <
 ActiveScrolledRoot
 >
-CreateASRForFrame
+GetOrCreateASRForFrame
 (
 const
 ActiveScrolledRoot
@@ -1456,10 +1456,6 @@ aParent
 ScrollContainerFrame
 *
 aScrollContainerFrame
-#
-ifdef
-DEBUG
-const
 nsTArray
 <
 RefPtr
@@ -1469,8 +1465,6 @@ ActiveScrolledRoot
 >
 &
 aActiveScrolledRoots
-#
-endif
 )
 ;
 static
@@ -1478,7 +1472,7 @@ already_AddRefed
 <
 ActiveScrolledRoot
 >
-CreateASRForStickyFrame
+GetOrCreateASRForStickyFrame
 (
 const
 ActiveScrolledRoot
@@ -1487,10 +1481,6 @@ aParent
 nsIFrame
 *
 aStickyFrame
-#
-ifdef
-DEBUG
-const
 nsTArray
 <
 RefPtr
@@ -1500,8 +1490,6 @@ ActiveScrolledRoot
 >
 &
 aActiveScrolledRoots
-#
-endif
 )
 ;
 static
@@ -6239,7 +6227,11 @@ aPtr
 *
 *
 *
-Allocate
+Get
+an
+existing
+or
+allocate
 a
 new
 ActiveScrolledRoot
@@ -6249,9 +6241,9 @@ arena
 .
 Will
 be
+*
 cleaned
 up
-*
 automatically
 when
 the
@@ -6263,7 +6255,7 @@ away
 /
 ActiveScrolledRoot
 *
-AllocateActiveScrolledRoot
+GetOrCreateActiveScrolledRoot
 (
 const
 ActiveScrolledRoot
@@ -6276,7 +6268,7 @@ aScrollContainerFrame
 ;
 ActiveScrolledRoot
 *
-AllocateActiveScrolledRootForSticky
+GetOrCreateActiveScrolledRootForSticky
 (
 const
 ActiveScrolledRoot
@@ -7620,7 +7612,7 @@ asr
 mBuilder
 -
 >
-AllocateActiveScrolledRoot
+GetOrCreateActiveScrolledRoot
 (
 mBuilder
 -
