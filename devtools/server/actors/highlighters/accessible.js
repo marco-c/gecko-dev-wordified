@@ -1157,11 +1157,6 @@ node
 *
 *
 override
-AutoRefreshHighlighter
-.
-prototype
-.
-_isNodeValid
 *
 param
 {

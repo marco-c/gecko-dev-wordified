@@ -5395,11 +5395,6 @@ FocusableItem
 }
 *
 override
-tabbox
-.
-js
-:
-TabsBase
 *
 /
 get
