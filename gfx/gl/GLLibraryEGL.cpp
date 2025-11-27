@@ -1599,6 +1599,9 @@ ret
 =
 LOCAL_EGL_FALSE
 ;
+#
+ifdef
+XP_WIN
 if
 (
 StaticPrefs
@@ -1614,6 +1617,8 @@ ret
 LOCAL_EGL_TRUE
 ;
 }
+#
+endif
 return
 ret
 ;
