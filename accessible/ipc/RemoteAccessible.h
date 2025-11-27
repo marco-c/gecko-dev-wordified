@@ -3053,7 +3053,7 @@ override
 ;
 nsTArray
 <
-RemoteAccessible
+Accessible
 *
 >
 LegendsOrCaptions
