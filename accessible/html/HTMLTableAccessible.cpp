@@ -2997,6 +2997,9 @@ if
 captionContent
 )
 {
+bool
+usedHiddenContent
+=
 nsTextEquivUtils
 :
 :
@@ -3006,6 +3009,12 @@ this
 captionContent
 &
 aName
+)
+;
+aName
+.
+CompressWhitespace
+(
 )
 ;
 if
@@ -3019,6 +3028,10 @@ IsEmpty
 )
 {
 return
+usedHiddenContent
+?
+eNameOK
+:
 eNameFromRelations
 ;
 }
