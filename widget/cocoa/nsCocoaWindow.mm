@@ -7681,10 +7681,10 @@ aContext
 mGL
 &
 &
-gfxPlatform
+StaticPrefs
 :
 :
-CanMigrateMacGPUs
+gfx_compositor_gpu_migration
 (
 )
 )

@@ -1336,12 +1336,6 @@ BackendType
 aBackendType
 )
 ;
-static
-bool
-CanMigrateMacGPUs
-(
-)
-;
 /
 *
 *
