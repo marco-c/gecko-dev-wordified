@@ -1129,6 +1129,7 @@ aName
 )
 const
 override
+final
 ;
 virtual
 EDescriptionValueFlag

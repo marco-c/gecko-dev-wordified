@@ -679,7 +679,7 @@ HTMLTextFieldAccessible
 LocalAccessible
 virtual
 ENameValueFlag
-Name
+DirectName
 (
 nsString
 &
@@ -774,7 +774,7 @@ override
 ;
 virtual
 ENameValueFlag
-Name
+DirectName
 (
 nsString
 &

@@ -162,7 +162,7 @@ aDoc
 LocalAccessible
 virtual
 ENameValueFlag
-Name
+DirectName
 (
 nsString
 &

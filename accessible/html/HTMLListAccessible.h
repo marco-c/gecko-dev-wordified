@@ -375,7 +375,7 @@ HTMLListBulletAccessible
 LocalAccessible
 virtual
 ENameValueFlag
-Name
+DirectName
 (
 nsString
 &
