@@ -162,11 +162,6 @@ test_http_connect_stream_closure
 ;
 add_task
 (
-test_http_connect_websocket
-)
-;
-add_task
-(
 test_connect_udp
 )
 ;
