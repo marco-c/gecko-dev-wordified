@@ -1588,6 +1588,8 @@ MachCommandReference
 "
 testing
 /
+manifest
+/
 mach_commands
 .
 py
