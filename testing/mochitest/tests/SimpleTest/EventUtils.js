@@ -3787,7 +3787,7 @@ true
 *
 typedef
 {
-Object
+object
 }
 MouseEventData
 *
@@ -5215,7 +5215,7 @@ aCallback
 *
 typedef
 {
-Object
+object
 }
 TouchEventData
 *
@@ -6988,7 +6988,7 @@ aWindow
 *
 typedef
 {
-Object
+object
 }
 WheelEventData
 *
@@ -9353,7 +9353,7 @@ element
 *
 param
 {
-Boolean
+boolean
 }
 [
 aParams
@@ -9511,7 +9511,7 @@ set
 *
 param
 {
-String
+string
 }
 [
 aParams
@@ -9591,7 +9591,7 @@ button
 *
 param
 {
-Object
+object
 }
 [
 aParams
@@ -10812,7 +10812,7 @@ element
 *
 param
 {
-String
+string
 }
 aKey
 *
@@ -10897,7 +10897,7 @@ tests
 *
 param
 {
-Object
+object
 }
 [
 aEvent
@@ -10920,7 +10920,7 @@ synthesize
 *
 param
 {
-String
+string
 }
 [
 aEvent
@@ -11108,7 +11108,7 @@ value
 *
 param
 {
-String
+string
 }
 aEvent
 .
@@ -20215,7 +20215,7 @@ dataTransfer
 *
 param
 {
-String
+string
 }
 [
 aDropEffect
@@ -20307,7 +20307,7 @@ aWindow
 *
 param
 {
-Object
+object
 }
 [
 aDragEvent
@@ -20957,7 +20957,7 @@ loaded
 *
 param
 {
-Object
+object
 }
 [
 aDragEvent
@@ -20981,7 +20981,7 @@ sendDragEvent
 *
 return
 {
-String
+string
 }
 *
 "
@@ -21498,7 +21498,7 @@ dataTransfer
 *
 param
 {
-String
+string
 }
 [
 aDropEffect
@@ -21591,7 +21591,7 @@ aWindow
 *
 param
 {
-Object
+object
 }
 [
 aDragEvent
@@ -21615,7 +21615,7 @@ sendDragEvent
 *
 return
 {
-String
+string
 }
 *
 The
@@ -21971,7 +21971,7 @@ session
 *
 param
 {
-Object
+object
 }
 aParams
 *
@@ -22250,7 +22250,7 @@ object
 *
 param
 {
-Boolean
+boolean
 }
 aParams
 .
@@ -22269,7 +22269,7 @@ dragstart
 *
 param
 {
-Boolean
+boolean
 }
 aParams
 .
@@ -25218,7 +25218,7 @@ items
 *
 param
 {
-Object
+object
 }
 aParams
 *
@@ -26227,7 +26227,7 @@ occur
 *
 param
 {
-Object
+object
 }
 aParams
 *
@@ -26410,7 +26410,7 @@ is
 *
 param
 {
-Boolean
+boolean
 }
 aParams
 .
@@ -26458,7 +26458,7 @@ set
 *
 param
 {
-Boolean
+boolean
 }
 aParams
 .
@@ -26487,7 +26487,7 @@ fired
 *
 param
 {
-Boolean
+boolean
 }
 aParams
 .
@@ -26530,7 +26530,7 @@ check
 *
 param
 {
-Boolean
+boolean
 }
 aParams
 .
@@ -26558,7 +26558,7 @@ target
 *
 param
 {
-Boolean
+boolean
 }
 aParams
 .
@@ -26584,7 +26584,7 @@ target
 *
 param
 {
-Boolean
+boolean
 }
 aParams
 .
@@ -26619,7 +26619,7 @@ promise
 *
 param
 {
-String
+string
 }
 aParms
 .
@@ -26649,7 +26649,7 @@ none
 *
 param
 {
-Boolean
+boolean
 }
 aParams
 .
@@ -26820,7 +26820,7 @@ processes
 *
 param
 {
-Object
+object
 }
 aParams
 .

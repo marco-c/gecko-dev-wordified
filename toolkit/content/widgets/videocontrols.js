@@ -835,7 +835,7 @@ testing
 *
 param
 {
-Object
+object
 }
 prefs
 *
@@ -866,7 +866,7 @@ test
 *
 param
 {
-Object
+object
 }
 reflowedDimensions
 *
@@ -922,7 +922,7 @@ pixels
 *
 return
 {
-Boolean
+boolean
 }
 *
 /
@@ -1152,7 +1152,7 @@ experiment
 *
 param
 {
-Object
+object
 }
 prefs
 *
@@ -1201,7 +1201,7 @@ element
 *
 param
 {
-Object
+object
 }
 reflowedDimensions
 *

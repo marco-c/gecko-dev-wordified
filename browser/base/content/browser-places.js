@@ -3080,7 +3080,7 @@ Organizer
 *
 param
 {
-String
+string
 }
 item
 The

@@ -181,7 +181,7 @@ domain
 *
 param
 {
-Boolean
+boolean
 }
 doConfirmPrompt
 -
@@ -218,7 +218,7 @@ prompt
 *
 param
 {
-Boolean
+boolean
 }
 crossDomain
 -
@@ -256,7 +256,7 @@ url
 *
 param
 {
-Boolean
+boolean
 }
 prefEnabled
 true

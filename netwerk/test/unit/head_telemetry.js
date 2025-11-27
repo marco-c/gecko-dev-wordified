@@ -227,7 +227,7 @@ entries
 *
 param
 {
-Object
+object
 }
 histObject
 The
@@ -343,7 +343,7 @@ zero
 *
 param
 {
-Object
+object
 }
 histogram
 The
@@ -354,7 +354,7 @@ check
 *
 param
 {
-Number
+number
 }
 index
 The
@@ -369,7 +369,7 @@ value
 *
 param
 {
-Number
+number
 }
 expected
 The

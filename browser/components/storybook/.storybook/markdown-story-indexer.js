@@ -237,7 +237,7 @@ processed
 *
 param
 {
-Object
+object
 }
 opts
 -

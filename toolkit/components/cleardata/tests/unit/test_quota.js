@@ -135,7 +135,7 @@ partitionKey
 *
 param
 {
-String
+string
 }
 host
 -
@@ -149,7 +149,7 @@ create
 *
 param
 {
-String
+string
 }
 [
 topLevelBaseDomain
@@ -168,7 +168,7 @@ partitionKey
 *
 param
 {
-Object
+object
 }
 [
 originAttributes
@@ -196,7 +196,7 @@ overwritten
 *
 returns
 {
-String
+string
 }
 Origin
 with

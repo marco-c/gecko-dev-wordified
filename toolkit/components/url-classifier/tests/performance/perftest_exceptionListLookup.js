@@ -177,7 +177,7 @@ nsIUrlClassifierExceptionListEntry
 *
 param
 {
-Object
+object
 }
 rsObject
 -

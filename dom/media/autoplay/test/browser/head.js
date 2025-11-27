@@ -22,7 +22,7 @@ directory
 *
 param
 {
-String
+string
 }
 fileName
 *
@@ -38,7 +38,7 @@ url
 *
 param
 {
-Boolean
+boolean
 }
 crossOrigin
 [

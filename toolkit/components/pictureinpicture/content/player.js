@@ -582,7 +582,7 @@ window
 *
 param
 {
-Number
+number
 }
 id
 *
@@ -697,7 +697,7 @@ playing
 *
 param
 {
-Boolean
+boolean
 }
 isPlaying
 *
@@ -763,7 +763,7 @@ muted
 *
 param
 {
-Boolean
+boolean
 }
 isMuted
 *
@@ -810,7 +810,7 @@ window
 *
 param
 {
-Object
+object
 }
 rect
 *
@@ -1282,7 +1282,7 @@ state
 *
 param
 {
-Number
+number
 }
 id
 *
@@ -3823,7 +3823,7 @@ true
 *
 param
 {
-Number
+number
 }
 volume
 A
@@ -4733,7 +4733,7 @@ panel
 *
 param
 {
-Object
+object
 }
 options
 [
@@ -7573,7 +7573,7 @@ controls
 *
 type
 {
-Boolean
+boolean
 }
 *
 /
@@ -7784,7 +7784,7 @@ controls
 *
 type
 {
-Boolean
+boolean
 }
 *
 /
@@ -8211,7 +8211,7 @@ visible
 *
 param
 {
-Boolean
+boolean
 }
 revealIndefinitely
 *
@@ -8502,7 +8502,7 @@ op
 *
 param
 {
-Number
+number
 }
 width
 *
@@ -8517,7 +8517,7 @@ played
 *
 param
 {
-Number
+number
 }
 height
 *

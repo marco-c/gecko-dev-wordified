@@ -5557,7 +5557,7 @@ finish
 *
 param
 {
-Number
+number
 }
 factor
 *
@@ -6234,7 +6234,7 @@ necessary
 *
 param
 {
-String
+string
 }
 reason
 *
@@ -7265,7 +7265,7 @@ values
 *
 param
 {
-String
+string
 |
 Function
 }
@@ -7505,7 +7505,7 @@ found
 *
 param
 {
-String
+string
 }
 [
 aFlavor
@@ -7526,7 +7526,7 @@ for
 *
 param
 {
-Number
+number
 }
 [
 aTimeout
@@ -8397,7 +8397,7 @@ timeout
 *
 param
 {
-String
+string
 }
 aErrorMsg
 *

@@ -160,7 +160,7 @@ displayed
 *
 param
 {
-Number
+number
 }
 securityDelayMS
 -
@@ -1081,7 +1081,7 @@ returns
 {
 Promise
 <
-Object
+object
 >
 }
 The
@@ -4096,7 +4096,7 @@ period
 *
 param
 {
-Number
+number
 }
 securityDelayMS
 -

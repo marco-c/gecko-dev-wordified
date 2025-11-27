@@ -129,7 +129,7 @@ src
 *
 param
 {
-Object
+object
 }
 actual
 The
@@ -143,7 +143,7 @@ window
 *
 param
 {
-Object
+object
 }
 expected
 The
@@ -157,7 +157,7 @@ window
 *
 param
 {
-String
+string
 }
 message
 A

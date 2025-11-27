@@ -8153,7 +8153,7 @@ placeholders
 *
 param
 {
-String
+string
 }
 shimId
 -
@@ -8210,7 +8210,7 @@ content
 *
 param
 {
-String
+string
 }
 shimId
 -

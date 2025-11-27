@@ -510,7 +510,7 @@ clearing
 *
 param
 {
-Object
+object
 }
 *
 clearCookies

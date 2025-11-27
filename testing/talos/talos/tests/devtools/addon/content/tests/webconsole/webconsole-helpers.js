@@ -86,7 +86,7 @@ head
 *
 param
 {
-String
+string
 }
 label
 :
@@ -110,7 +110,7 @@ toolbox
 *
 param
 {
-Number
+number
 |
 Array
 }

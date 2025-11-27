@@ -51,7 +51,7 @@ window
 *
 param
 {
-Number
+number
 }
 Optional
 factor

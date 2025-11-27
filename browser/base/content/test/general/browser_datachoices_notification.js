@@ -348,7 +348,7 @@ box
 *
 param
 {
-Object
+object
 }
 aNotificationBox
 The
@@ -433,7 +433,7 @@ closed
 *
 param
 {
-Object
+object
 }
 aNotification
 The

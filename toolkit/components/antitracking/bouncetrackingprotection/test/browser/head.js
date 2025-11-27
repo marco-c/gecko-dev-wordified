@@ -1301,7 +1301,7 @@ navigation
 *
 param
 {
-Object
+object
 }
 options
 -

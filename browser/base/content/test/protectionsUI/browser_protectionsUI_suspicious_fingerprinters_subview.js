@@ -219,7 +219,7 @@ class
 *
 param
 {
-String
+string
 }
 id
 The
@@ -232,7 +232,7 @@ element
 *
 returns
 {
-Boolean
+boolean
 }
 true
 when

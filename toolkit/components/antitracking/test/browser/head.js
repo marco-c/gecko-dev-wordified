@@ -1649,7 +1649,7 @@ name
 *
 param
 {
-Object
+object
 }
 data
 -
@@ -1663,7 +1663,7 @@ payload
 *
 param
 {
-Object
+object
 }
 [
 data
@@ -1679,7 +1679,7 @@ created
 *
 param
 {
-Object
+object
 }
 [
 data
@@ -1695,7 +1695,7 @@ updated
 *
 param
 {
-Object
+object
 }
 [
 data
@@ -1711,7 +1711,7 @@ removed
 *
 param
 {
-Object
+object
 }
 [
 data
@@ -1791,7 +1791,7 @@ RemoteSettings
 *
 param
 {
-Object
+object
 [
 ]
 }
@@ -1813,7 +1813,7 @@ cleared
 *
 param
 {
-Object
+object
 }
 db
 -
@@ -1826,7 +1826,7 @@ database
 *
 param
 {
-Object
+object
 }
 collectionName
 The

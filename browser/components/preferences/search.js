@@ -3460,7 +3460,7 @@ UI
 *
 type
 {
-Object
+object
 [
 ]
 }
@@ -3492,7 +3492,7 @@ changes
 *
 type
 {
-Object
+object
 [
 ]
 }

@@ -724,7 +724,7 @@ install
 *
 param
 {
-Object
+object
 ?
 }
 installTelemetryInfo
@@ -1260,7 +1260,7 @@ correct
 *
 param
 {
-array
+Array
 }
 permissions
 *

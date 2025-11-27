@@ -79,7 +79,7 @@ behavior
 *
 param
 {
-Number
+number
 }
 cookieBehavior
 -
@@ -96,7 +96,7 @@ values
 *
 param
 {
-Number
+number
 }
 privateBrowsingId
 -

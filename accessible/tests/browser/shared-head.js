@@ -580,7 +580,7 @@ match
 *
 return
 {
-Boolean
+boolean
 }
 *
 True
@@ -852,7 +852,7 @@ enabled
 *
 param
 {
-Object
+object
 }
 browser
 current
@@ -863,7 +863,7 @@ element
 *
 param
 {
-String
+string
 }
 id
 content
@@ -872,7 +872,7 @@ id
 *
 param
 {
-String
+string
 }
 attr
 attribute
@@ -880,7 +880,7 @@ name
 *
 param
 {
-String
+string
 ?
 }
 value
@@ -1078,7 +1078,7 @@ present
 *
 param
 {
-Object
+object
 }
 browser
 current
@@ -1089,7 +1089,7 @@ element
 *
 param
 {
-String
+string
 }
 id
 content
@@ -1098,7 +1098,7 @@ id
 *
 param
 {
-String
+string
 }
 aStyle
 style
@@ -1107,7 +1107,7 @@ name
 *
 param
 {
-String
+string
 ?
 }
 aValue
@@ -1296,7 +1296,7 @@ present
 *
 param
 {
-Object
+object
 }
 browser
 current
@@ -1307,7 +1307,7 @@ element
 *
 param
 {
-String
+string
 }
 id
 content
@@ -1527,7 +1527,7 @@ present
 *
 param
 {
-Object
+object
 }
 browser
 current
@@ -1711,7 +1711,7 @@ proccess
 *
 param
 {
-Object
+object
 }
 browser
 *
@@ -1726,7 +1726,7 @@ tab
 *
 param
 {
-Boolean
+boolean
 }
 isRemote
 *
@@ -1931,7 +1931,7 @@ content
 *
 param
 {
-Object
+object
 }
 target
 *
@@ -2683,7 +2683,7 @@ IFRAME
 *
 param
 {
-String
+string
 }
 doc
 *
@@ -2696,7 +2696,7 @@ url
 *
 param
 {
-Object
+object
 }
 options
 (
@@ -2710,7 +2710,7 @@ addAccessibleTask
 *
 return
 {
-String
+string
 }
 *
 a
@@ -4401,7 +4401,7 @@ snippet
 *
 param
 {
-String
+string
 }
 doc
 *
@@ -4449,7 +4449,7 @@ param
 {
 null
 |
-Object
+object
 }
 options
 *
@@ -5170,7 +5170,7 @@ for
 *
 return
 {
-Boolean
+boolean
 }
 flag
 indicating
@@ -5282,7 +5282,7 @@ accessible
 *
 return
 {
-String
+string
 ?
 }
 tag
@@ -5369,7 +5369,7 @@ accessible
 *
 param
 {
-String
+string
 }
 id
 id

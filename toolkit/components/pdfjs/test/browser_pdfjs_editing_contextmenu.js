@@ -163,13 +163,13 @@ entries
 *
 param
 {
-Object
+object
 }
 browser
 *
 param
 {
-Object
+object
 }
 box
 *
@@ -417,7 +417,7 @@ entries
 *
 param
 {
-Object
+object
 }
 browser
 *
@@ -529,7 +529,7 @@ menu
 *
 param
 {
-Object
+object
 }
 browser
 *

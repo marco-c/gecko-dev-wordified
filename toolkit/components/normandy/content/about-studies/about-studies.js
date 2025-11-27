@@ -116,13 +116,13 @@ tab
 *
 param
 {
-String
+string
 }
 action
 *
 param
 {
-Object
+object
 }
 data
 *

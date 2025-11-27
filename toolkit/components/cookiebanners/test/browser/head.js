@@ -592,7 +592,7 @@ domain
 *
 param
 {
-String
+string
 }
 domain
 the
@@ -922,7 +922,7 @@ object
 *
 param
 {
-String
+string
 }
 domain
 -
@@ -936,7 +936,7 @@ page
 *
 param
 {
-String
+string
 }
 testURL
 -
@@ -1176,7 +1176,7 @@ object
 *
 param
 {
-String
+string
 }
 domain
 -
@@ -1191,7 +1191,7 @@ page
 *
 param
 {
-String
+string
 }
 testURL
 -

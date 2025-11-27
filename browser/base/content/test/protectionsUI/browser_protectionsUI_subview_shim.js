@@ -1573,7 +1573,7 @@ category
 *
 param
 {
-Object
+object
 }
 options
 -

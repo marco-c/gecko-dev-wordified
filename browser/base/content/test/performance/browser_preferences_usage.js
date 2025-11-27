@@ -110,7 +110,7 @@ tuples
 *
 param
 {
-Number
+number
 }
 max
 -
@@ -132,7 +132,7 @@ called
 *
 param
 {
-Object
+object
 }
 knownProblematicPrefs
 (

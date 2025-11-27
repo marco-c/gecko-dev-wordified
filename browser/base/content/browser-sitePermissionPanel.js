@@ -5934,7 +5934,7 @@ type
 *
 param
 {
-Object
+object
 }
 permission
 -

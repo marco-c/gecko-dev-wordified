@@ -12404,7 +12404,7 @@ over
 *
 param
 {
-String
+string
 }
 url
 *
@@ -12417,7 +12417,7 @@ link
 *
 param
 {
-Object
+object
 }
 [
 options
@@ -26252,7 +26252,7 @@ level
 *
 param
 {
-String
+string
 }
 aURL
 -
@@ -26270,7 +26270,7 @@ box
 *
 param
 {
-Object
+object
 }
 [
 aOptions
@@ -26278,7 +26278,7 @@ aOptions
 *
 param
 {
-String
+string
 }
 [
 aOptions
@@ -26297,7 +26297,7 @@ features
 *
 param
 {
-Boolean
+boolean
 }
 [
 aOptions
@@ -26333,7 +26333,7 @@ dropped
 *
 param
 {
-String
+string
 }
 [
 aOptions
@@ -26381,7 +26381,7 @@ box
 *
 param
 {
-Boolean
+boolean
 }
 [
 aOptions
@@ -26416,7 +26416,7 @@ navigation
 *
 param
 {
-Number
+number
 }
 [
 aOptions
@@ -26447,7 +26447,7 @@ prompts
 *
 param
 {
-Boolean
+boolean
 }
 [
 aOptions
@@ -26572,7 +26572,7 @@ used
 *
 returns
 {
-Object
+object
 }
 [
 result

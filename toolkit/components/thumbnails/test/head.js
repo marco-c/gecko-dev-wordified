@@ -1162,7 +1162,7 @@ method
 *
 param
 {
-String
+string
 }
 aMethodName
 One
@@ -1189,7 +1189,7 @@ captureIfMissing
 *
 param
 {
-String
+string
 }
 aURL
 The
@@ -1203,7 +1203,7 @@ capture
 *
 param
 {
-Object
+object
 }
 aOptions
 The

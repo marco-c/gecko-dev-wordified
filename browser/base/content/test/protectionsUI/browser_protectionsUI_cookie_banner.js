@@ -206,7 +206,7 @@ test
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -225,7 +225,7 @@ browsing
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -423,7 +423,7 @@ variable
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -442,7 +442,7 @@ browsing
 *
 param
 {
-Number
+number
 }
 options
 .

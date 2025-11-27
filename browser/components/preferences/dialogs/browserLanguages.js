@@ -2602,7 +2602,7 @@ onLoad
 *
 typedef
 {
-Object
+object
 }
 Options
 -

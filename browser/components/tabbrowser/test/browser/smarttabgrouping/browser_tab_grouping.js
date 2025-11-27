@@ -677,7 +677,7 @@ anchorLabel
 *
 param
 {
-Number
+number
 [
 ]
 [
@@ -691,7 +691,7 @@ item
 *
 param
 {
-String
+string
 }
 anchorLabel
 String
@@ -705,7 +705,7 @@ cluster
 *
 param
 {
-Object
+object
 [
 ]
 }
@@ -720,7 +720,7 @@ unused
 *
 param
 {
-String
+string
 [
 ]
 }
@@ -741,7 +741,7 @@ in
 *
 param
 {
-String
+string
 }
 testName
 Name
@@ -752,7 +752,7 @@ dataset
 *
 returns
 {
-Object
+object
 [
 ]
 }

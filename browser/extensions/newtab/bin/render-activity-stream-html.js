@@ -1442,7 +1442,7 @@ templater
 *
 param
 {
-Object
+object
 }
 options
 Various

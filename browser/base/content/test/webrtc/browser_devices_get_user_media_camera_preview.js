@@ -92,7 +92,7 @@ options
 *
 param
 {
-Object
+object
 }
 options
 *

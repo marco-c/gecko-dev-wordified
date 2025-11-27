@@ -229,7 +229,7 @@ tracks
 *
 param
 {
-Boolean
+boolean
 }
 isResume
 specifies
@@ -453,7 +453,7 @@ media
 *
 param
 {
-Boolean
+boolean
 }
 isResume
 specifies
@@ -520,7 +520,7 @@ stream
 *
 param
 {
-Boolean
+boolean
 }
 isResume
 specifies

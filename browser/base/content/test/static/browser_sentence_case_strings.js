@@ -926,7 +926,7 @@ case
 *
 param
 {
-String
+string
 }
 string
 The
@@ -940,7 +940,7 @@ case
 *
 param
 {
-String
+string
 }
 elementID
 The
@@ -1290,7 +1290,7 @@ caller
 *
 param
 {
-Number
+number
 }
 wordIndex
 The
@@ -1309,7 +1309,7 @@ array
 *
 return
 {
-Boolean
+boolean
 }
 *
 /

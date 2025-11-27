@@ -464,7 +464,7 @@ logins
 *
 param
 {
-Object
+object
 }
 histogram
 Histogram
@@ -479,7 +479,7 @@ getAndClearHistogram
 *
 param
 {
-Number
+number
 }
 index
 Index
@@ -523,7 +523,7 @@ information
 *
 param
 {
-Number
+number
 }
 expected
 The

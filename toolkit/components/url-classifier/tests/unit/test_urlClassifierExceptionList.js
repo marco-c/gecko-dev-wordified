@@ -102,7 +102,7 @@ modifications
 *
 param
 {
-Object
+object
 }
 rsObject
 -

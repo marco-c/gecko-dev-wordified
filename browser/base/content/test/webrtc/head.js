@@ -4900,7 +4900,7 @@ state
 *
 param
 {
-Object
+object
 }
 aExpected
 -
@@ -4932,7 +4932,7 @@ of
 *
 param
 {
-Object
+object
 }
 [
 aExpectedGlobal
@@ -4947,7 +4947,7 @@ tabs
 *
 param
 {
-Object
+object
 }
 [
 aExpectedPerm
@@ -7249,7 +7249,7 @@ device
 *
 param
 {
-Number
+number
 }
 [
 screenOrWin

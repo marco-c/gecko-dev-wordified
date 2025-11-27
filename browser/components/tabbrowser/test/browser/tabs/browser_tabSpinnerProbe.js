@@ -60,7 +60,7 @@ integers
 *
 return
 {
-Number
+number
 }
 The
 sum
@@ -276,7 +276,7 @@ probes
 *
 param
 {
-String
+string
 }
 aProbe
 The

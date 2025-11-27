@@ -582,7 +582,7 @@ enabled
 *
 param
 {
-Object
+object
 }
 browser
 current
@@ -593,7 +593,7 @@ element
 *
 param
 {
-String
+string
 }
 id
 content
@@ -602,7 +602,7 @@ id
 *
 param
 {
-String
+string
 }
 attr
 attribute
@@ -610,7 +610,7 @@ name
 *
 param
 {
-String
+string
 ?
 }
 value

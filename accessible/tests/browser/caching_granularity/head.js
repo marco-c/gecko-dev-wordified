@@ -225,7 +225,7 @@ cached
 *
 param
 {
-String
+string
 }
 attribute
 the
@@ -347,7 +347,7 @@ cached
 *
 param
 {
-String
+string
 }
 attribute
 the
@@ -510,7 +510,7 @@ cached
 *
 param
 {
-String
+string
 }
 attribute
 the
@@ -709,7 +709,7 @@ cached
 *
 param
 {
-String
+string
 }
 attribute
 the

@@ -607,7 +607,7 @@ captured
 *
 typedef
 {
-Object
+object
 }
 TestConfig
 *

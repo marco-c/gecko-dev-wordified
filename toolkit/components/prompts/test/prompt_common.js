@@ -36,7 +36,7 @@ convert
 *
 returns
 {
-Object
+object
 }
 -
 The

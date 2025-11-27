@@ -252,7 +252,7 @@ params
 *
 param
 {
-Object
+object
 }
 *
 expectedCount

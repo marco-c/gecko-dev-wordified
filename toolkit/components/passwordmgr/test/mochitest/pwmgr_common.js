@@ -4859,7 +4859,7 @@ param
 {
 Function
 |
-String
+string
 }
 aFunctionOrURL
 -
@@ -4884,7 +4884,7 @@ file
 *
 return
 {
-Object
+object
 }
 -
 the
@@ -5206,7 +5206,7 @@ process
 *
 param
 {
-array
+Array
 }
 aLogins
 -
@@ -5303,7 +5303,7 @@ process
 *
 param
 {
-array
+Array
 }
 aLogins
 -
@@ -5421,7 +5421,7 @@ process
 *
 param
 {
-array
+Array
 }
 logins
 -
@@ -5573,7 +5573,7 @@ finished
 *
 param
 {
-array
+Array
 }
 logins
 -
@@ -6689,7 +6689,7 @@ node
 *
 param
 {
-String
+string
 }
 html
 *
@@ -6980,7 +6980,7 @@ processes
 *
 param
 {
-String
+string
 }
 formId
 /

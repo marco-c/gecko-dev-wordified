@@ -724,7 +724,7 @@ doc
 *
 param
 {
-String
+string
 }
 msg
 *
@@ -757,7 +757,7 @@ param
 {
 Node
 |
-String
+string
 }
 nodesOrStrings
 *

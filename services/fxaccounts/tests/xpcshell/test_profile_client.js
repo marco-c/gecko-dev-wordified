@@ -109,7 +109,7 @@ responder
 *
 param
 {
-String
+string
 }
 response
 *
@@ -2696,7 +2696,7 @@ constructor
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -2706,7 +2706,7 @@ options
 *
 param
 {
-String
+string
 }
 expected
 *

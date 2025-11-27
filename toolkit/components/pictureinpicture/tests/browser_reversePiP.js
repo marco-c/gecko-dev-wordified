@@ -428,7 +428,7 @@ video
 *
 param
 {
-String
+string
 }
 videoID
 The

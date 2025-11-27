@@ -826,7 +826,7 @@ value
 *
 returns
 {
-String
+string
 }
 *
 Role
@@ -5683,7 +5683,7 @@ focusable
 *
 returns
 {
-Boolean
+boolean
 }
 *
 True
@@ -6145,7 +6145,7 @@ users
 *
 param
 {
-String
+string
 }
 message
 *
@@ -6243,7 +6243,7 @@ failure
 *
 param
 {
-String
+string
 }
 message
 *

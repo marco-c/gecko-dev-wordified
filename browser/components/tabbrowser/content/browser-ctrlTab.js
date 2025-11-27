@@ -204,7 +204,7 @@ image
 *
 param
 {
-String
+string
 }
 uri
 The
@@ -833,7 +833,7 @@ for
 *
 param
 {
-Boolean
+boolean
 }
 aShouldCache
 Cache

@@ -463,7 +463,7 @@ isPending
 *
 param
 {
-Boolean
+boolean
 }
 isPending
 whether
@@ -476,7 +476,7 @@ submission
 *
 param
 {
-String
+string
 }
 id
 the
@@ -504,7 +504,7 @@ submission
 *
 param
 {
-Object
+object
 }
 dateFormatter
 formatter
@@ -996,7 +996,7 @@ message
 *
 param
 {
-String
+string
 }
 reportId
 the
@@ -1047,7 +1047,7 @@ button
 *
 param
 {
-Object
+object
 }
 dateFormatter
 formatter
@@ -1800,7 +1800,7 @@ filter
 *
 param
 {
-String
+string
 }
 path
 the
@@ -1959,7 +1959,7 @@ name
 *
 param
 {
-String
+string
 }
 name
 the

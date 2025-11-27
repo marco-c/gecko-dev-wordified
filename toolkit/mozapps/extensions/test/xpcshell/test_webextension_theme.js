@@ -504,7 +504,7 @@ themes
 *
 param
 {
-String
+string
 }
 which
 ID
@@ -520,7 +520,7 @@ on
 *
 param
 {
-Boolean
+boolean
 }
 disabled
 Flag

@@ -1789,7 +1789,7 @@ param
 {
 Array
 <
-Object
+object
 >
 }
 conditions
@@ -2947,7 +2947,7 @@ param
 {
 Array
 <
-Object
+object
 >
 }
 initialState
@@ -2972,7 +2972,7 @@ param
 {
 Array
 <
-Object
+object
 >
 }
 finalState
@@ -2995,7 +2995,7 @@ null
 *
 param
 {
-Boolean
+boolean
 }
 alreadyUpgraded
 -
@@ -3487,7 +3487,7 @@ conditions
 *
 param
 {
-String
+string
 }
 setupName
 -
@@ -3566,7 +3566,7 @@ param
 {
 Array
 <
-Object
+object
 >
 }
 test

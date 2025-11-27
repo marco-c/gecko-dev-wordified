@@ -4974,7 +4974,7 @@ time
 *
 param
 {
-array
+Array
 }
 expectedReflowsFirstOpen
 *
@@ -4994,7 +4994,7 @@ opened
 *
 param
 {
-array
+Array
 }
 [
 expectedReflowsSecondOpen

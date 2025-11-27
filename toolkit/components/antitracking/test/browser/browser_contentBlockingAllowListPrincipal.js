@@ -130,7 +130,7 @@ type
 *
 param
 {
-String
+string
 }
 [
 origin
@@ -307,7 +307,7 @@ window
 *
 param
 {
-String
+string
 }
 initialUrl
 -
@@ -480,7 +480,7 @@ in
 *
 param
 {
-String
+string
 }
 src
 -
@@ -491,7 +491,7 @@ url
 *
 param
 {
-String
+string
 }
 id
 -
@@ -501,7 +501,7 @@ id
 *
 param
 {
-String
+string
 }
 [
 sandboxAttr

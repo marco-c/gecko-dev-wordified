@@ -65,7 +65,7 @@ it
 *
 param
 {
-Number
+number
 }
 promptCount
 How

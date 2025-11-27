@@ -168,7 +168,7 @@ fire
 *
 param
 {
-String
+string
 }
 topic
 The

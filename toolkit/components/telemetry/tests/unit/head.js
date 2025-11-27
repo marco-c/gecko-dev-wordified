@@ -963,7 +963,7 @@ ping
 *
 param
 {
-Object
+object
 }
 request
 The
@@ -979,7 +979,7 @@ nsIHttpRequest
 *
 return
 {
-Object
+object
 }
 The
 decoded

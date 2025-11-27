@@ -252,7 +252,7 @@ monitored
 *
 param
 {
-Boolean
+boolean
 }
 isMuted
 -
@@ -409,7 +409,7 @@ monitored
 *
 param
 {
-Boolean
+boolean
 }
 isMuted
 -

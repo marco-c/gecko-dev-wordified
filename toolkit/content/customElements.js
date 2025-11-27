@@ -2249,7 +2249,7 @@ elements
 *
 param
 {
-array
+Array
 }
 list
 *

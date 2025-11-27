@@ -595,7 +595,7 @@ tests
 *
 param
 {
-Object
+object
 }
 profile
 *
@@ -604,10 +604,10 @@ returns
 {
 serviceWorkerThread
 :
-Object
+object
 serviceWorkerParentThread
 :
-Object
+object
 }
 }
 the
@@ -1089,7 +1089,7 @@ prefix
 *
 param
 {
-Object
+object
 }
 thread
 *

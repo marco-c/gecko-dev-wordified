@@ -213,7 +213,7 @@ needed
 *
 param
 {
-String
+string
 }
 msgId
 *
@@ -230,7 +230,7 @@ file
 *
 param
 {
-String
+string
 [
 ]
 }
@@ -253,7 +253,7 @@ with
 *
 return
 {
-Object
+object
 }
 Promise
 /

@@ -894,7 +894,7 @@ passed
 *
 param
 {
-Object
+object
 }
 data
 the

@@ -11293,7 +11293,7 @@ id
 *
 param
 {
-String
+string
 }
 aView
 *
@@ -11321,7 +11321,7 @@ discover
 *
 param
 {
-Object
+object
 }
 options
 *

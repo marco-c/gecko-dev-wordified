@@ -228,7 +228,7 @@ strings
 *
 param
 {
-Object
+object
 }
 thread
 -

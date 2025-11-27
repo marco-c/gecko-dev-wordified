@@ -612,7 +612,7 @@ RemoteSettings
 *
 param
 {
-Boolean
+boolean
 }
 baseline
 -
@@ -627,7 +627,7 @@ entries
 *
 param
 {
-Boolean
+boolean
 }
 convenience
 -
@@ -642,7 +642,7 @@ entries
 *
 param
 {
-String
+string
 }
 category
 -

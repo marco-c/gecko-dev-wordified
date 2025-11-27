@@ -1028,7 +1028,7 @@ irc
 *
 param
 {
-Object
+object
 }
 [
 options
@@ -1040,7 +1040,7 @@ options
 *
 param
 {
-Object
+object
 }
 [
 options
@@ -1069,7 +1069,7 @@ shown
 *
 param
 {
-Object
+object
 }
 [
 options
@@ -1884,7 +1884,7 @@ chooser
 *
 param
 {
-Object
+object
 }
 options
 -

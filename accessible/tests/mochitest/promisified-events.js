@@ -779,7 +779,7 @@ observed
 *
 param
 {
-Number
+number
 }
 eventType
 expected
@@ -790,7 +790,7 @@ type
 *
 param
 {
-String
+string
 |
 nsIAccessible
 |
@@ -809,7 +809,7 @@ event
 *
 param
 {
-String
+string
 }
 message
 Message
@@ -1243,7 +1243,7 @@ arguments
 *
 param
 {
-String
+string
 }
 message
 Message
@@ -1255,7 +1255,7 @@ logging
 *
 param
 {
-Boolean
+boolean
 }
 ordered
 Events
@@ -1270,7 +1270,7 @@ order
 *
 param
 {
-Object
+object
 }
 invokerOrWindow
 a

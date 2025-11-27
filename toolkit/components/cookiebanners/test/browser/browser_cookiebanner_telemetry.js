@@ -156,7 +156,7 @@ telemetry
 *
 param
 {
-Number
+number
 }
 length
 The
@@ -170,7 +170,7 @@ array
 *
 param
 {
-Number
+number
 }
 idx
 The
@@ -185,7 +185,7 @@ verified
 *
 param
 {
-Object
+object
 }
 expected
 An
@@ -366,7 +366,7 @@ object
 *
 param
 {
-String
+string
 }
 url
 The
@@ -460,7 +460,7 @@ level
 *
 param
 {
-String
+string
 }
 page
 The
@@ -472,7 +472,7 @@ page
 *
 param
 {
-String
+string
 }
 domain
 The

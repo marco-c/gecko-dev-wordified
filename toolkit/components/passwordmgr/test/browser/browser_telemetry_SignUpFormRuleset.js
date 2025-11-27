@@ -34,7 +34,7 @@ html
 *
 param
 {
-Object
+object
 }
 histogramData
 The
@@ -96,7 +96,7 @@ null
 *
 param
 {
-String
+string
 }
 id
 The
@@ -106,7 +106,7 @@ examine
 *
 param
 {
-Number
+number
 }
 expected
 The

@@ -230,7 +230,7 @@ page
 *
 param
 {
-Object
+object
 }
 browser
 *
@@ -244,7 +244,7 @@ content
 *
 param
 {
-String
+string
 }
 text
 *
@@ -260,7 +260,7 @@ field
 *
 param
 {
-String
+string
 }
 fieldName
 *

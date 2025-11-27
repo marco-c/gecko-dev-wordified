@@ -75,7 +75,7 @@ fire
 *
 param
 {
-String
+string
 }
 topicName
 The

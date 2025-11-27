@@ -86,7 +86,7 @@ listeners
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -167,7 +167,7 @@ year
 *
 param
 {
-Object
+object
 }
 context
 *
@@ -307,7 +307,7 @@ them
 *
 param
 {
-Object
+object
 }
 props
 *
@@ -619,7 +619,7 @@ nodes
 *
 param
 {
-Object
+object
 }
 *
 {
@@ -1545,7 +1545,7 @@ markup
 *
 param
 {
-Number
+number
 }
 size
 :
@@ -2845,7 +2845,7 @@ grid
 *
 param
 {
-Object
+object
 }
 nextDate
 :
@@ -2960,7 +2960,7 @@ state
 *
 return
 {
-Boolean
+boolean
 }
 If
 two
@@ -3077,7 +3077,7 @@ state
 *
 return
 {
-Boolean
+boolean
 }
 If
 two
@@ -3131,7 +3131,7 @@ grid
 *
 param
 {
-Number
+number
 }
 offsetDays
 :

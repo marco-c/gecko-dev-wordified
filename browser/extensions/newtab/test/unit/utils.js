@@ -531,7 +531,7 @@ in
 *
 param
 {
-Object
+object
 }
 args
 -

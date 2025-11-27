@@ -230,7 +230,7 @@ timeouts
 *
 param
 {
-String
+string
 }
 id
 The
@@ -240,7 +240,7 @@ description
 *
 param
 {
-Number
+number
 }
 timeLimit
 The
@@ -254,7 +254,7 @@ timeout
 *
 param
 {
-Number
+number
 }
 resetAfter
 (
@@ -275,7 +275,7 @@ timeout
 *
 param
 {
-Number
+number
 }
 resetTo
 (
@@ -681,7 +681,7 @@ test
 *
 returns
 {
-String
+string
 }
 The
 test
@@ -1333,7 +1333,7 @@ test
 *
 returns
 {
-String
+string
 }
 The
 test

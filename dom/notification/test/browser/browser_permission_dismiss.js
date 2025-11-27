@@ -118,7 +118,7 @@ button
 *
 param
 {
-Number
+number
 }
 aButtonIndex
 Number
@@ -385,7 +385,7 @@ prompt
 *
 param
 {
-String
+string
 }
 permission
 Expected

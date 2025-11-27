@@ -850,7 +850,7 @@ video
 *
 param
 {
-String
+string
 }
 videoID
 The
@@ -1229,7 +1229,7 @@ video
 *
 param
 {
-String
+string
 }
 videoID
 The
@@ -1818,7 +1818,7 @@ it
 *
 param
 {
-String
+string
 }
 videoID
 The
@@ -1840,7 +1840,7 @@ on
 *
 param
 {
-String
+string
 }
 stage
 The
@@ -1871,7 +1871,7 @@ hoverToggle
 *
 param
 {
-Object
+object
 }
 toggleStyles
 Optional
@@ -2239,7 +2239,7 @@ it
 *
 param
 {
-String
+string
 }
 videoID
 The
@@ -2261,7 +2261,7 @@ on
 *
 param
 {
-Number
+number
 }
 policy
 Optional
@@ -3013,7 +3013,7 @@ it
 *
 param
 {
-String
+string
 }
 videoID
 The
@@ -3498,7 +3498,7 @@ it
 *
 param
 {
-String
+string
 }
 videoID
 The
@@ -4013,7 +4013,7 @@ cases
 *
 param
 {
-String
+string
 }
 testURL
 The
@@ -4031,7 +4031,7 @@ elements
 *
 param
 {
-Object
+object
 }
 expectations
 An
@@ -4426,7 +4426,7 @@ it
 *
 param
 {
-String
+string
 }
 videoID
 The
@@ -4442,7 +4442,7 @@ toggle
 *
 param
 {
-Boolean
+boolean
 }
 canToggle
 True
@@ -4468,7 +4468,7 @@ video
 *
 param
 {
-Number
+number
 }
 policy
 Optional
@@ -4500,7 +4500,7 @@ mjs
 *
 param
 {
-Object
+object
 }
 toggleStyles
 Optional
@@ -5947,7 +5947,7 @@ it
 *
 param
 {
-String
+string
 }
 videoID
 The
@@ -5979,7 +5979,7 @@ opened
 *
 param
 {
-Boolean
+boolean
 }
 iframe
 True
@@ -6155,7 +6155,7 @@ it
 *
 param
 {
-String
+string
 }
 videoID
 The
@@ -6258,7 +6258,7 @@ it
 *
 param
 {
-String
+string
 }
 videoID
 The
@@ -6379,7 +6379,7 @@ video
 *
 param
 {
-String
+string
 }
 videoID
 The
@@ -6411,7 +6411,7 @@ if
 *
 param
 {
-String
+string
 }
 trackMode
 the
@@ -6689,7 +6689,7 @@ video
 *
 param
 {
-String
+string
 }
 videoID
 The
@@ -7125,7 +7125,7 @@ events
 *
 param
 {
-String
+string
 }
 expected
 The
@@ -7136,7 +7136,7 @@ undefined
 *
 param
 {
-String
+string
 }
 actual
 The
@@ -7205,7 +7205,7 @@ filtering
 *
 param
 {
-Object
+object
 }
 filter
 An
@@ -7271,7 +7271,7 @@ player
 *
 param
 {
-Number
+number
 }
 length
 The
@@ -7284,7 +7284,7 @@ for
 *
 param
 {
-String
+string
 }
 process
 Should

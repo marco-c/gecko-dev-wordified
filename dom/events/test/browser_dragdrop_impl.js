@@ -720,13 +720,13 @@ required
 *
 param
 {
-Object
+object
 }
 configParams
 *
 param
 {
-String
+string
 }
 configParams
 .
@@ -817,7 +817,7 @@ target
 *
 param
 {
-String
+string
 }
 configParams
 .
@@ -854,7 +854,7 @@ elements
 *
 param
 {
-String
+string
 }
 configParams
 .
@@ -888,7 +888,7 @@ elements
 *
 param
 {
-String
+string
 }
 configParams
 .

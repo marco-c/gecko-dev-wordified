@@ -424,7 +424,7 @@ check
 *
 param
 {
-Object
+object
 }
 expect
 -

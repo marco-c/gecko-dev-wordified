@@ -861,7 +861,7 @@ install
 *
 param
 {
-String
+string
 }
 expectedPermType
 :

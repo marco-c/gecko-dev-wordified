@@ -3155,7 +3155,7 @@ newSet
 *
 returns
 {
-Object
+object
 }
 {
 Array

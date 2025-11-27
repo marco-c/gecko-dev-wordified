@@ -48,7 +48,7 @@ occurred
 *
 returns
 {
-String
+string
 }
 The
 crash

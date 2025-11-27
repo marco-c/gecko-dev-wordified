@@ -91,7 +91,7 @@ query
 *
 param
 {
-Object
+object
 }
 aQuery
 *
@@ -237,7 +237,7 @@ function
 *
 param
 {
-Object
+object
 }
 aQuery
 *
@@ -264,7 +264,7 @@ searchLogins
 *
 param
 {
-Number
+number
 }
 aExpectedCount
 *

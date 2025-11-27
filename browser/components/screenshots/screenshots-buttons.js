@@ -486,7 +486,7 @@ button
 *
 param
 {
-String
+string
 }
 buttonToFocus
 *

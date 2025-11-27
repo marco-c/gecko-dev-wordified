@@ -19320,7 +19320,7 @@ viewport
 *
 param
 {
-Object
+object
 }
 options
 -
@@ -19360,7 +19360,7 @@ options
 *
 param
 {
-Boolean
+boolean
 }
 [
 isSingle
@@ -47263,7 +47263,7 @@ timeline
 *
 param
 {
-String
+string
 }
 name
 the
@@ -47319,13 +47319,13 @@ object
 *
 param
 {
-String
+string
 }
 name
 *
 param
 {
-String
+string
 }
 type
 eg
@@ -47487,7 +47487,7 @@ investigated
 *
 return
 {
-Number
+number
 }
 A
 double
@@ -47577,7 +47577,7 @@ content
 *
 return
 {
-Number
+number
 }
 *
 /
@@ -47630,7 +47630,7 @@ name
 *
 param
 {
-String
+string
 }
 name
 the
@@ -47645,7 +47645,7 @@ for
 *
 return
 {
-Number
+number
 }
 the
 returned

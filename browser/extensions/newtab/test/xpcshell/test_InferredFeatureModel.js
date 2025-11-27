@@ -161,13 +161,13 @@ points
 *
 param
 {
-Object
+object
 }
 a
 *
 param
 {
-Object
+object
 }
 b
 *

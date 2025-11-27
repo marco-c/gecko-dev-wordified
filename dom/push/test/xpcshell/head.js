@@ -507,7 +507,7 @@ times
 *
 param
 {
-Number
+number
 }
 times
 The
@@ -696,7 +696,7 @@ fire
 *
 param
 {
-String
+string
 }
 topic
 The
@@ -870,7 +870,7 @@ getter
 *
 param
 {
-Object
+object
 }
 target
 The
@@ -881,7 +881,7 @@ wrap
 *
 param
 {
-Object
+object
 }
 stubs
 An
@@ -1072,7 +1072,7 @@ defaults
 *
 param
 {
-Object
+object
 }
 [
 prefs
@@ -1983,7 +1983,7 @@ commands
 *
 param
 {
-String
+string
 }
 msg
 The
@@ -2092,7 +2092,7 @@ termination
 *
 param
 {
-Number
+number
 }
 [
 statusCode
@@ -2106,7 +2106,7 @@ code
 *
 param
 {
-String
+string
 }
 [
 reason

@@ -150,7 +150,7 @@ path
 *
 param
 {
-String
+string
 }
 origin
 -
@@ -164,7 +164,7 @@ path
 *
 param
 {
-Object
+object
 }
 authOptions
 -
@@ -182,7 +182,7 @@ for
 *
 param
 {
-String
+string
 }
 authOptions
 .
@@ -194,7 +194,7 @@ username
 *
 param
 {
-String
+string
 }
 authOptions
 .
@@ -206,7 +206,7 @@ password
 *
 param
 {
-String
+string
 }
 authOptions
 .
@@ -222,7 +222,7 @@ request
 *
 returns
 {
-Object
+object
 }
 -
 An
@@ -439,7 +439,7 @@ otherwise
 *
 param
 {
-Object
+object
 }
 tabInfo
 -

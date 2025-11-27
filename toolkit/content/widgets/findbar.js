@@ -3406,7 +3406,7 @@ off
 *
 param
 {
-Boolean
+boolean
 }
 highlight
 Whether
@@ -3421,7 +3421,7 @@ off
 *
 param
 {
-Boolean
+boolean
 }
 fromPrefObserver
 Whether
@@ -3594,7 +3594,7 @@ UI
 *
 param
 {
-Boolean
+boolean
 }
 highlight
 Whether
@@ -3609,7 +3609,7 @@ off
 *
 param
 {
-Boolean
+boolean
 }
 fromPrefObserver
 Whether
@@ -3750,7 +3750,7 @@ UI
 *
 param
 {
-String
+string
 }
 [
 str
@@ -3979,7 +3979,7 @@ mode
 *
 param
 {
-Number
+number
 }
 caseSensitivity
 0
@@ -4084,7 +4084,7 @@ UI
 *
 param
 {
-String
+string
 }
 [
 str
@@ -4313,7 +4313,7 @@ mode
 *
 param
 {
-Number
+number
 }
 diacriticMatching
 0
@@ -4553,7 +4553,7 @@ mode
 *
 param
 {
-Boolean
+boolean
 }
 entireWord
 Whether
@@ -4655,7 +4655,7 @@ bar
 *
 param
 {
-Number
+number
 }
 mode
 The
@@ -4693,7 +4693,7 @@ FIND_NORMAL
 *
 return
 {
-Boolean
+boolean
 }
 true
 if
@@ -4847,7 +4847,7 @@ findbar
 *
 param
 {
-Boolean
+boolean
 }
 [
 noAnim
@@ -5433,7 +5433,7 @@ here
 *
 param
 {
-Object
+object
 }
 fakeEvent
 Event
@@ -7065,7 +7065,7 @@ used
 *
 param
 {
-Number
+number
 }
 mode
 The
@@ -7492,7 +7492,7 @@ commands
 *
 param
 {
-Boolean
+boolean
 }
 findPrevious
 true
@@ -7960,7 +7960,7 @@ highlighting
 *
 param
 {
-Object
+object
 }
 data
 A
@@ -8200,7 +8200,7 @@ counts
 *
 param
 {
-Object
+object
 }
 result
 Result

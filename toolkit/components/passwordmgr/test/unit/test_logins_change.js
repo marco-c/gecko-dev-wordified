@@ -376,7 +376,7 @@ attributes
 *
 param
 {
-Object
+object
 }
 objectA
 *
@@ -389,7 +389,7 @@ compare
 *
 param
 {
-Object
+object
 }
 objectB
 *

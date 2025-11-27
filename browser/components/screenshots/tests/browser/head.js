@@ -1944,7 +1944,7 @@ mjs
 *
 param
 {
-Number
+number
 }
 startX
 The
@@ -1963,7 +1963,7 @@ rect
 *
 param
 {
-Number
+number
 }
 startY
 The
@@ -1982,7 +1982,7 @@ rect
 *
 param
 {
-Number
+number
 }
 endX
 The
@@ -2001,7 +2001,7 @@ rect
 *
 param
 {
-Number
+number
 }
 endY
 The
@@ -4459,7 +4459,7 @@ window
 *
 returns
 {
-Object
+object
 }
 *
 clientHeight
@@ -6035,7 +6035,7 @@ viewport
 *
 param
 {
-String
+string
 }
 selector
 :
@@ -6245,7 +6245,7 @@ viewport
 *
 param
 {
-String
+string
 }
 selector
 :

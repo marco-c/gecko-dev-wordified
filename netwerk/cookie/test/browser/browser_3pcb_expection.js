@@ -236,7 +236,7 @@ event
 *
 param
 {
-Object
+object
 }
 data
 -
@@ -250,7 +250,7 @@ payload
 *
 param
 {
-Object
+object
 }
 [
 data
@@ -266,7 +266,7 @@ created
 *
 param
 {
-Object
+object
 }
 [
 data
@@ -282,7 +282,7 @@ updated
 *
 param
 {
-Object
+object
 }
 [
 data

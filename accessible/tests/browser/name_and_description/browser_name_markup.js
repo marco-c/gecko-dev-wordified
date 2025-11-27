@@ -2656,7 +2656,7 @@ events
 *
 param
 {
-Object
+object
 }
 browser
 current
@@ -2667,7 +2667,7 @@ element
 *
 param
 {
-Object
+object
 }
 target
 {
@@ -2690,7 +2690,7 @@ id
 *
 param
 {
-Object
+object
 }
 rule
 current
@@ -2879,7 +2879,7 @@ event
 *
 param
 {
-Object
+object
 }
 browser
 current
@@ -2890,7 +2890,7 @@ element
 *
 param
 {
-Object
+object
 }
 target
 {
@@ -2913,7 +2913,7 @@ id
 *
 param
 {
-Object
+object
 }
 rule
 current
@@ -3090,7 +3090,7 @@ event
 *
 param
 {
-Object
+object
 }
 browser
 current
@@ -3101,7 +3101,7 @@ element
 *
 param
 {
-Object
+object
 }
 target
 {
@@ -3124,7 +3124,7 @@ id
 *
 param
 {
-Object
+object
 }
 rule
 current
@@ -3278,7 +3278,7 @@ rules
 *
 param
 {
-Object
+object
 }
 browser
 current
@@ -3289,7 +3289,7 @@ element
 *
 param
 {
-Object
+object
 }
 target
 {

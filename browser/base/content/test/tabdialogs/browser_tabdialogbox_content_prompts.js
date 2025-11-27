@@ -837,7 +837,7 @@ dialog
 *
 param
 {
-Object
+object
 }
 browser
 *
@@ -852,7 +852,7 @@ from
 *
 param
 {
-String
+string
 |
 null
 }

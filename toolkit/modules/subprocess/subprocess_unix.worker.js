@@ -3311,7 +3311,7 @@ received
 *
 param
 {
-array
+Array
 }
 options
 *

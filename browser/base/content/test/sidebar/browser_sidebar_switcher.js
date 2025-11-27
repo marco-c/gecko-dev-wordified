@@ -289,7 +289,7 @@ needed
 *
 param
 {
-String
+string
 }
 [
 querySelector
@@ -442,7 +442,7 @@ sidebar
 *
 param
 {
-String
+string
 }
 key
 Event
@@ -457,7 +457,7 @@ popup
 *
 param
 {
-String
+string
 }
 sidebarTitle
 Title

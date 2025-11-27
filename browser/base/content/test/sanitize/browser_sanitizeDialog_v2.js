@@ -417,7 +417,7 @@ value
 *
 param
 {
-String
+string
 }
 aPrefName
 *
@@ -435,7 +435,7 @@ branch
 *
 param
 {
-Boolean
+boolean
 }
 aExpectedVal
 *
@@ -448,7 +448,7 @@ value
 *
 param
 {
-String
+string
 }
 aMsg
 *
@@ -1202,7 +1202,7 @@ parameters
 *
 param
 {
-Object
+object
 }
 context
 the

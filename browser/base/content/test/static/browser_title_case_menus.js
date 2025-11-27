@@ -641,7 +641,7 @@ Case
 *
 param
 {
-String
+string
 }
 string
 The
@@ -652,7 +652,7 @@ check
 *
 param
 {
-String
+string
 }
 elementID
 The

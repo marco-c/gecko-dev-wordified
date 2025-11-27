@@ -4743,7 +4743,7 @@ opts
 *
 param
 {
-Number
+number
 }
 [
 opts
@@ -4766,7 +4766,7 @@ backward
 *
 param
 {
-Boolean
+boolean
 }
 [
 opts
@@ -4799,7 +4799,7 @@ strip
 *
 param
 {
-Boolean
+boolean
 }
 [
 opts

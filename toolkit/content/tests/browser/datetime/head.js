@@ -131,7 +131,7 @@ testing
 *
 param
 {
-String
+string
 }
 pageUrl
 *
@@ -152,7 +152,7 @@ frame
 *
 param
 {
-String
+string
 }
 openMethod
 "
@@ -616,7 +616,7 @@ picker
 *
 param
 {
-String
+string
 }
 selector
 *
@@ -662,7 +662,7 @@ picker
 *
 param
 {
-String
+string
 }
 selector
 *
@@ -1321,7 +1321,7 @@ month
 *
 param
 {
-Number
+number
 }
 day
 :
@@ -1466,7 +1466,7 @@ tested
 *
 param
 {
-String
+string
 }
 attr
 :
@@ -1547,7 +1547,7 @@ tested
 *
 param
 {
-String
+string
 }
 attr
 :
@@ -1562,7 +1562,7 @@ tested
 *
 param
 {
-String
+string
 }
 id
 :
@@ -1583,7 +1583,7 @@ element
 *
 param
 {
-Object
+object
 }
 args
 :
@@ -1645,7 +1645,7 @@ attribute
 *
 param
 {
-String
+string
 }
 attr
 :
@@ -1660,7 +1660,7 @@ tested
 *
 param
 {
-String
+string
 }
 val
 :
@@ -1678,7 +1678,7 @@ attribute
 *
 param
 {
-Boolean
+boolean
 }
 presenceOnly
 :
@@ -1860,7 +1860,7 @@ spinner
 *
 param
 {
-String
+string
 }
 key
 :
@@ -1876,7 +1876,7 @@ synthesized
 *
 param
 {
-Object
+object
 }
 document
 :
@@ -1893,7 +1893,7 @@ dateTimePopupFrame
 *
 param
 {
-Number
+number
 }
 tabs
 :
@@ -2349,7 +2349,7 @@ tested
 *
 param
 {
-String
+string
 }
 id
 :
@@ -2370,7 +2370,7 @@ element
 *
 param
 {
-Object
+object
 }
 args
 :
@@ -2460,7 +2460,7 @@ tested
 *
 param
 {
-String
+string
 }
 prop
 :
@@ -2476,7 +2476,7 @@ tested
 *
 param
 {
-Object
+object
 }
 valueNotReduced
 :
@@ -2503,7 +2503,7 @@ preference
 *
 param
 {
-String
+string
 }
 valueReduced
 :

@@ -1488,7 +1488,7 @@ channels
 *
 param
 {
-Number
+number
 }
 index
 *
@@ -1765,7 +1765,7 @@ peer
 *
 param
 {
-String
+string
 |
 Blob
 }
@@ -1791,7 +1791,7 @@ lost
 *
 param
 {
-Object
+object
 }
 [
 options
@@ -4520,7 +4520,7 @@ channel
 *
 returns
 {
-String
+string
 }
 The
 binary
@@ -4555,7 +4555,7 @@ channel
 *
 param
 {
-String
+string
 }
 type
 *
@@ -4599,7 +4599,7 @@ channel
 *
 returns
 {
-String
+string
 }
 The
 label
@@ -4634,7 +4634,7 @@ channel
 *
 returns
 {
-String
+string
 }
 The
 protocol
@@ -4813,7 +4813,7 @@ channel
 *
 returns
 {
-String
+string
 }
 The
 state
@@ -4937,9 +4937,9 @@ channel
 *
 param
 {
-String
+string
 |
-Object
+object
 }
 data
 *
@@ -5003,7 +5003,7 @@ class
 *
 returns
 {
-String
+string
 }
 The
 string
@@ -7101,7 +7101,7 @@ property
 *
 param
 {
-array
+Array
 }
 constraintsList
 *
@@ -7400,7 +7400,7 @@ instance
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -14767,7 +14767,7 @@ class
 *
 returns
 {
-String
+string
 }
 The
 string

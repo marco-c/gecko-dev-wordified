@@ -1345,7 +1345,7 @@ expectations
 *
 param
 {
-String
+string
 }
 word
 The

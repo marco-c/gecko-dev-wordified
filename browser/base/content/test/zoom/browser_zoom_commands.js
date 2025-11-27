@@ -81,7 +81,7 @@ state
 *
 param
 {
-Object
+object
 }
 expectedState
 *

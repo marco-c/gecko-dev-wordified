@@ -20092,7 +20092,7 @@ state
 *
 param
 {
-Object
+object
 }
 supportedLanguages
 *

@@ -155,7 +155,7 @@ domain
 *
 param
 {
-Boolean
+boolean
 }
 crossDomain
 -

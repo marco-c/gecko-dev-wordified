@@ -90,7 +90,7 @@ requests
 *
 param
 {
-Boolean
+boolean
 }
 fullscreenState
 -

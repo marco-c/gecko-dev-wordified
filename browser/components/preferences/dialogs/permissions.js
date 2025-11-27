@@ -472,7 +472,7 @@ params
 *
 param
 {
-Object
+object
 }
 params
 *

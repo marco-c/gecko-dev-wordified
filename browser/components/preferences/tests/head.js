@@ -1667,7 +1667,7 @@ mockDefaultFxAInstance
 *
 typedef
 {
-Object
+object
 }
 MockFxAUtilityFunctions
 *

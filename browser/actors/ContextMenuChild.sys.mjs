@@ -1833,7 +1833,7 @@ null
 *
 param
 {
-Object
+object
 }
 aMessage
 Message
@@ -1844,7 +1844,7 @@ property
 *
 param
 {
-String
+string
 }
 aKey
 Key
@@ -1858,7 +1858,7 @@ objects
 *
 return
 {
-Object
+object
 }
 Context
 menu

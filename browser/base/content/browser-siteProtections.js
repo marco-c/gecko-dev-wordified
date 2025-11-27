@@ -233,7 +233,7 @@ DOM
 *
 param
 {
-Object
+object
 }
 options
 -
@@ -263,7 +263,7 @@ state
 *
 param
 {
-Object
+object
 }
 flags
 -
@@ -288,7 +288,7 @@ log
 *
 param
 {
-Number
+number
 }
 [
 flags
@@ -320,7 +320,7 @@ category
 *
 param
 {
-Number
+number
 }
 [
 flags
@@ -352,7 +352,7 @@ category
 *
 param
 {
-Number
+number
 }
 [
 flags
@@ -389,7 +389,7 @@ script
 *
 param
 {
-Number
+number
 }
 [
 flags
@@ -1297,7 +1297,7 @@ tracker
 *
 returns
 {
-Object
+object
 }
 result
 -
@@ -1563,7 +1563,7 @@ origin
 *
 returns
 {
-Object
+object
 }
 result
 -
@@ -2049,7 +2049,7 @@ allowIndicator
 *
 param
 {
-Number
+number
 }
 state
 -
@@ -2100,7 +2100,7 @@ block
 *
 param
 {
-Number
+number
 }
 state
 -
@@ -2151,7 +2151,7 @@ load
 *
 param
 {
-Number
+number
 }
 state
 -
@@ -2210,7 +2210,7 @@ state
 *
 param
 {
-Number
+number
 }
 state
 -
@@ -16737,7 +16737,7 @@ popup
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -17321,7 +17321,7 @@ placeholders
 *
 param
 {
-String
+string
 }
 shimId
 -
@@ -17377,7 +17377,7 @@ content
 *
 param
 {
-String
+string
 }
 shimId
 -

@@ -2366,7 +2366,7 @@ open
 *
 returns
 {
-Object
+object
 }
 a
 file
@@ -3050,7 +3050,7 @@ used
 *
 param
 {
-Object
+object
 }
 {
 mode
@@ -3447,7 +3447,7 @@ click
 *
 param
 {
-String
+string
 }
 aCheckboxId
 *
@@ -3458,7 +3458,7 @@ name
 *
 param
 {
-Boolean
+boolean
 }
 aCheckState
 *

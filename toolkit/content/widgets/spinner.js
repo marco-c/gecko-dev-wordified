@@ -188,7 +188,7 @@ listeners
 *
 param
 {
-Object
+object
 }
 props
 [
@@ -774,7 +774,7 @@ value
 *
 param
 {
-Object
+object
 }
 newState
 [
@@ -1790,7 +1790,7 @@ textContent
 *
 param
 {
-Number
+number
 }
 length
 [
@@ -2078,7 +2078,7 @@ param
 {
 Array
 <
-Object
+object
 >
 }
 items
@@ -3306,7 +3306,7 @@ offset
 *
 param
 {
-Number
+number
 }
 offset
 :
@@ -3318,7 +3318,7 @@ pixel
 *
 return
 {
-Number
+number
 }
 Index
 number
@@ -3397,7 +3397,7 @@ find
 *
 param
 {
-Boolean
+boolean
 }
 centering
 :
@@ -3414,7 +3414,7 @@ center
 *
 return
 {
-Number
+number
 }
 index
 of
@@ -3649,7 +3649,7 @@ index
 *
 param
 {
-Number
+number
 }
 index
 :
@@ -3658,7 +3658,7 @@ number
 *
 param
 {
-Boolean
+boolean
 }
 smooth
 :
@@ -3781,7 +3781,7 @@ to
 *
 param
 {
-Boolean
+boolean
 }
 centering
 :
@@ -3796,7 +3796,7 @@ location
 *
 param
 {
-Boolean
+boolean
 }
 smooth
 :
@@ -4085,7 +4085,7 @@ param
 {
 Array
 <
-Object
+object
 >
 }
 a
@@ -4094,14 +4094,14 @@ param
 {
 Array
 <
-Object
+object
 >
 }
 b
 *
 return
 {
-Boolean
+boolean
 }
 Returns
 true
@@ -4255,7 +4255,7 @@ propagation
 *
 param
 {
-Object
+object
 }
 event
 :
@@ -4264,7 +4264,7 @@ event
 *
 param
 {
-Number
+number
 }
 index
 :

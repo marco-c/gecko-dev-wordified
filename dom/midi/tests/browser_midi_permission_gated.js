@@ -3878,7 +3878,7 @@ param
 {
 Array
 <
-String
+string
 >
 }
 expectedSteps

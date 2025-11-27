@@ -57,7 +57,7 @@ directory
 *
 param
 {
-String
+string
 }
 fileName
 *

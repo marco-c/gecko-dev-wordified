@@ -857,7 +857,7 @@ track
 *
 returns
 {
-array
+Array
 }
 A
 Uint8Array
@@ -3434,7 +3434,7 @@ given
 *
 param
 {
-Object
+object
 }
 constraints
 specifies
@@ -3451,7 +3451,7 @@ both
 *
 param
 {
-String
+string
 }
 type
 the
@@ -3633,7 +3633,7 @@ provided
 *
 param
 {
-Object
+object
 }
 constraints
 specifies
@@ -3740,7 +3740,7 @@ mediaStream
 *
 param
 {
-String
+string
 }
 [
 message
@@ -4803,7 +4803,7 @@ gracefully
 *
 param
 {
-String
+string
 }
 [
 message
@@ -5065,7 +5065,7 @@ happening
 *
 param
 {
-String
+string
 }
 description
 Description
@@ -5082,7 +5082,7 @@ fired
 *
 param
 {
-String
+string
 }
 eventName
 Name
@@ -6988,7 +6988,7 @@ callback
 *
 param
 {
-function
+Function
 [
 ]
 }

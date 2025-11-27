@@ -70,7 +70,7 @@ video
 *
 param
 {
-String
+string
 }
 videoID
 The
@@ -114,7 +114,7 @@ param
 {
 Integer
 |
-String
+string
 }
 expectedValue
 The

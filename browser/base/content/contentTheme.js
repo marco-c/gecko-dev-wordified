@@ -818,7 +818,7 @@ query
 *
 param
 {
-Object
+object
 }
 event
 object
@@ -1053,7 +1053,7 @@ element
 *
 param
 {
-Object
+object
 }
 themeData
 The

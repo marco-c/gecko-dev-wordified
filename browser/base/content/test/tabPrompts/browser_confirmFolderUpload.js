@@ -80,7 +80,7 @@ shutdown
 *
 returns
 {
-String
+string
 }
 -
 absolute

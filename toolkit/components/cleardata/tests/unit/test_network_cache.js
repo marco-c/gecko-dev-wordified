@@ -159,7 +159,7 @@ resolved
 *
 param
 {
-String
+string
 }
 url
 -
@@ -205,7 +205,7 @@ memory
 *
 param
 {
-Object
+object
 [
 ]
 }

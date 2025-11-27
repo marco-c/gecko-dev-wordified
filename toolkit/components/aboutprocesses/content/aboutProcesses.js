@@ -2834,7 +2834,7 @@ display
 *
 param
 {
-Number
+number
 }
 maxSlopeCpu
 The
@@ -6307,7 +6307,7 @@ display
 *
 param
 {
-Number
+number
 }
 maxSlopeCpu
 The
@@ -6711,7 +6711,7 @@ memory
 *
 param
 {
-Number
+number
 ?
 }
 value

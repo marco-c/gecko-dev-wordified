@@ -75,7 +75,7 @@ mode
 *
 param
 {
-Number
+number
 }
 mode
 -

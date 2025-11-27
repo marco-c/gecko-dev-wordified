@@ -138,7 +138,7 @@ properties
 *
 param
 {
-Object
+object
 }
 props
 *
@@ -1218,7 +1218,7 @@ purposes
 *
 param
 {
-Object
+object
 }
 *
 {
@@ -1758,7 +1758,7 @@ picker
 *
 param
 {
-Boolean
+boolean
 }
 isReverse
 :
@@ -2557,7 +2557,7 @@ state
 *
 param
 {
-Object
+object
 }
 timeState
 *

@@ -79,13 +79,13 @@ canvas
 *
 param
 {
-Object
+object
 }
 browser
 *
 returns
 {
-Object
+object
 }
 *
 /

@@ -2049,7 +2049,7 @@ array
 *
 param
 {
-String
+string
 }
 selector
 *
@@ -2114,7 +2114,7 @@ menuseparators
 *
 param
 {
-Object
+object
 }
 options
 optional
@@ -2817,7 +2817,7 @@ menuItems
 at
 (
 -
-4
+6
 )
 =
 =

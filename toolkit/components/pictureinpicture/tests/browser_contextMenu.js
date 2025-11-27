@@ -75,7 +75,7 @@ video
 *
 param
 {
-String
+string
 }
 videoID
 The
@@ -95,7 +95,7 @@ with
 *
 param
 {
-Object
+object
 }
 modifiers
 The

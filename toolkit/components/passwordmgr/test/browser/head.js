@@ -335,7 +335,7 @@ values
 *
 param
 {
-array
+Array
 }
 expectedLogins
 *
@@ -744,7 +744,7 @@ response
 *
 param
 {
-Object
+object
 }
 [
 browser
@@ -1113,7 +1113,7 @@ response
 *
 param
 {
-Object
+object
 }
 [
 browser
@@ -1128,7 +1128,7 @@ page
 *
 param
 {
-String
+string
 }
 resultURL
 -
@@ -1429,7 +1429,7 @@ done
 *
 param
 {
-String
+string
 }
 aPageFile
 -
@@ -1465,7 +1465,7 @@ closes
 *
 param
 {
-String
+string
 }
 [
 aOrigin
@@ -1630,7 +1630,7 @@ done
 *
 param
 {
-String
+string
 }
 aPageFile
 -
@@ -1666,7 +1666,7 @@ closes
 *
 param
 {
-String
+string
 }
 [
 aOrigin
@@ -2016,7 +2016,7 @@ label
 *
 param
 {
-String
+string
 }
 aKind
 The
@@ -2033,7 +2033,7 @@ type
 *
 param
 {
-Object
+object
 }
 [
 popupNotifications
@@ -2043,7 +2043,7 @@ PopupNotifications
 *
 param
 {
-Object
+object
 }
 [
 browser
@@ -2605,7 +2605,7 @@ element
 *
 param
 {
-Number
+number
 }
 aButtonIndex
 Number
@@ -2927,7 +2927,7 @@ password
 *
 param
 {
-String
+string
 }
 username
 The
@@ -2936,7 +2936,7 @@ username
 *
 param
 {
-String
+string
 }
 password
 The
@@ -3103,7 +3103,7 @@ field
 *
 param
 {
-Object
+object
 }
 [
 popupNotifications

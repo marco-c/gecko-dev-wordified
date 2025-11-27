@@ -799,7 +799,7 @@ FreeText
 *
 param
 {
-Object
+object
 }
 browser
 *
@@ -1004,7 +1004,7 @@ pdf
 *
 param
 {
-Object
+object
 }
 browser
 *
@@ -1016,7 +1016,7 @@ text
 *
 returns
 {
-Object
+object
 }
 the
 bbox
@@ -1255,7 +1255,7 @@ selector
 *
 param
 {
-Object
+object
 }
 browser
 *
@@ -1347,7 +1347,7 @@ coordinates
 *
 param
 {
-Object
+object
 }
 browser
 *
@@ -1473,7 +1473,7 @@ selector
 *
 param
 {
-Object
+object
 }
 browser
 *
@@ -1628,7 +1628,7 @@ selector
 *
 param
 {
-Object
+object
 }
 browser
 *
@@ -1849,7 +1849,7 @@ keyboard
 *
 param
 {
-Object
+object
 }
 browser
 *
@@ -1952,7 +1952,7 @@ inside
 *
 param
 {
-Object
+object
 }
 browser
 *
@@ -1964,7 +1964,7 @@ text
 *
 param
 {
-Object
+object
 }
 box
 *

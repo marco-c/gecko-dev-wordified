@@ -11531,7 +11531,7 @@ selector
 *
 param
 {
-String
+string
 }
 selector
 *

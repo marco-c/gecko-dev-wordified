@@ -1041,7 +1041,7 @@ unused
 *
 param
 {
-Object
+object
 }
 meta
 -

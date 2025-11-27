@@ -524,7 +524,7 @@ thread
 *
 param
 {
-Object
+object
 }
 profile
 *
@@ -543,7 +543,7 @@ getProfileData
 *
 param
 {
-String
+string
 }
 value
 *
@@ -560,7 +560,7 @@ have
 *
 param
 {
-String
+string
 }
 additionalText
 *
@@ -598,7 +598,7 @@ additionalText
 *
 returns
 {
-Number
+number
 }
 *
 A
@@ -766,7 +766,7 @@ of
 *
 param
 {
-String
+string
 }
 value
 *
@@ -904,7 +904,7 @@ of
 *
 param
 {
-String
+string
 }
 value
 *

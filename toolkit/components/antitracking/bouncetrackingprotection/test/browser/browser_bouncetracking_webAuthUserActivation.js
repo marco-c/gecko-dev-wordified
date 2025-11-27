@@ -319,7 +319,7 @@ request
 *
 param
 {
-String
+string
 }
 userActivationSiteHost
 -

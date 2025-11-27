@@ -720,7 +720,7 @@ properties
 *
 param
 {
-Number
+number
 }
 fileId
 expected

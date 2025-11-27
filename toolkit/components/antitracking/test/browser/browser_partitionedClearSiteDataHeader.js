@@ -264,7 +264,7 @@ in
 *
 param
 {
-String
+string
 }
 src
 -
@@ -275,7 +275,7 @@ url
 *
 param
 {
-String
+string
 }
 id
 -
@@ -471,7 +471,7 @@ ends
 *
 param
 {
-String
+string
 }
 firstPartyUrl
 -
@@ -484,7 +484,7 @@ tab
 *
 param
 {
-String
+string
 }
 thirdPartyUrl
 -
@@ -497,7 +497,7 @@ frame
 *
 param
 {
-String
+string
 }
 frameId
 -
@@ -1264,7 +1264,7 @@ partitionKey
 *
 param
 {
-String
+string
 }
 originNoSuffix
 -
@@ -1276,7 +1276,7 @@ attributes
 *
 param
 {
-String
+string
 }
 [
 firstParty
@@ -1291,7 +1291,7 @@ partitionKey
 *
 returns
 {
-String
+string
 }
 Origin
 with
@@ -1401,7 +1401,7 @@ use
 *
 param
 {
-String
+string
 }
 originNoSuffix
 -
@@ -1415,7 +1415,7 @@ in
 *
 param
 {
-String
+string
 }
 [
 firstParty
@@ -1433,7 +1433,7 @@ under
 *
 param
 {
-String
+string
 }
 key
 -
@@ -1445,7 +1445,7 @@ entry
 *
 param
 {
-String
+string
 }
 value
 -
@@ -1607,7 +1607,7 @@ cookie
 *
 param
 {
-String
+string
 }
 originNoSuffix
 -
@@ -1621,7 +1621,7 @@ for
 *
 param
 {
-String
+string
 |
 null
 }
@@ -1650,7 +1650,7 @@ partitionKey
 *
 param
 {
-String
+string
 }
 [
 key
@@ -1667,7 +1667,7 @@ cookie
 *
 param
 {
-String
+string
 }
 [
 value
@@ -1817,7 +1817,7 @@ entry
 *
 param
 {
-String
+string
 }
 originNoSuffix
 -
@@ -1830,7 +1830,7 @@ for
 *
 param
 {
-String
+string
 }
 [
 firstParty
@@ -1846,7 +1846,7 @@ under
 *
 param
 {
-String
+string
 }
 key
 -
@@ -1859,7 +1859,7 @@ item
 *
 param
 {
-String
+string
 }
 [
 expectedValue

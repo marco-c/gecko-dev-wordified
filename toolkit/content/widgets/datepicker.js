@@ -147,7 +147,7 @@ properties
 *
 param
 {
-Object
+object
 }
 props
 *
@@ -2154,7 +2154,7 @@ state
 *
 param
 {
-Object
+object
 }
 dateState
 *
@@ -2270,7 +2270,7 @@ spinners
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -2611,7 +2611,7 @@ components
 *
 param
 {
-Object
+object
 }
 props
 *
