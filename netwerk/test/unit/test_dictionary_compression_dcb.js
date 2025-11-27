@@ -3415,14 +3415,14 @@ path
 }
 for
 match
-pattern
+patter
 {
 DCB_TEST_DICTIONARIES
 [
 dictKey
 ]
 .
-pattern
+patterh
 }
 \
 n
