@@ -282,11 +282,15 @@ mPropertyId
 ;
 }
 void
-GetValue
+ToCssTextWithProperty
 (
+const
+CSSPropertyId
+&
+aPropertyId
 nsACString
 &
-aRetVal
+aDest
 )
 const
 ;
