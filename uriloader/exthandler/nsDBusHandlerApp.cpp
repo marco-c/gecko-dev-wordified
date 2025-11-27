@@ -167,6 +167,13 @@ nsCExternalHandlerService
 .
 h
 "
+#
+include
+"
+nsAppShell
+.
+h
+"
 using
 namespace
 mozilla
@@ -595,6 +602,13 @@ dbus_error_init
 (
 &
 err
+)
+;
+nsAppShell
+:
+:
+DBusConnectionCheck
+(
 )
 ;
 mozilla
