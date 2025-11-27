@@ -24813,9 +24813,12 @@ nullptr
 ;
 if
 (
+NS_WARN_IF
+(
 NS_FAILED
 (
 rv
+)
 )
 )
 return
@@ -24833,9 +24836,12 @@ this
 ;
 if
 (
+NS_WARN_IF
+(
 NS_FAILED
 (
 rv
+)
 )
 )
 return
