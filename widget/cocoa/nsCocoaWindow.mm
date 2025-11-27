@@ -40080,6 +40080,19 @@ move
 event
 to
 Gecko
+if
+we
+'
+re
+visible
+.
+if
+(
+IsVisible
+(
+)
+)
+{
 NotifyWindowMoved
 (
 mBounds
@@ -40090,6 +40103,7 @@ mBounds
 y
 )
 ;
+}
 mInReportMoveEvent
 =
 false
