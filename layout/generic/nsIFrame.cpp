@@ -36559,7 +36559,13 @@ offsets
 EndOffset
 (
 )
-false
+nsFrameSelection
+:
+:
+IgnoreNormalSelection
+:
+:
+No
 )
 ;
 /

@@ -1640,7 +1640,7 @@ uint32_t
 offsetInFrameContent
 offsetInLastFrameContent
 =
-0
+aOffset
 ;
 while
 (

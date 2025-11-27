@@ -21905,6 +21905,17 @@ if
 selectable
 )
 {
+/
+/
+FIXME
+:
+Use
+content
+-
+>
+IsSelectable
+(
+)
 nsIFrame
 *
 frame

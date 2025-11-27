@@ -7412,6 +7412,16 @@ yet
 .
 if
 (
+!
+StaticPrefs
+:
+:
+dom_selection_exclude_non_selectable_nodes
+(
+)
+|
+|
+(
 IsEditorNode
 (
 aItem
@@ -7430,6 +7440,7 @@ aItem
 >
 GetEndContainer
 (
+)
 )
 )
 )
@@ -14517,8 +14528,6 @@ SelectionDetails
 aDetailsHead
 SelectionType
 aSelectionType
-bool
-aSlowCheck
 )
 {
 if

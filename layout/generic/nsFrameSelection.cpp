@@ -9984,8 +9984,8 @@ int32_t
 aContentOffset
 int32_t
 aContentLength
-bool
-aSlowCheck
+IgnoreNormalSelection
+aIgnoreNormalSelection
 )
 const
 {
@@ -10075,6 +10075,16 @@ for
 size_t
 j
 =
+aIgnoreNormalSelection
+=
+=
+IgnoreNormalSelection
+:
+:
+Yes
+?
+1
+:
 0
 ;
 j
@@ -10136,7 +10146,6 @@ kPresentSelectionTypes
 [
 j
 ]
-aSlowCheck
 )
 ;
 }
@@ -10263,7 +10272,6 @@ SelectionType
 :
 :
 eHighlight
-aSlowCheck
 )
 ;
 }
