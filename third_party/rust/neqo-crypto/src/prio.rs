@@ -91,6 +91,14 @@ non_snake_case
 clippy
 :
 :
+allow_attributes
+clippy
+:
+:
+allow_attributes_without_reason
+clippy
+:
+:
 cognitive_complexity
 clippy
 :
@@ -100,6 +108,10 @@ clippy
 :
 :
 used_underscore_binding
+clippy
+:
+:
+use_self
 reason
 =
 "

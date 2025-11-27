@@ -4477,7 +4477,6 @@ encoder
 .
 encode
 (
-&
 [
 0
 ;

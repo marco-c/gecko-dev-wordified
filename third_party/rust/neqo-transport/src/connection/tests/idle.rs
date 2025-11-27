@@ -144,12 +144,6 @@ crate
 :
 {
 packet
-:
-:
-{
-self
-PACKET_LIMIT
-}
 recovery
 stats
 :
@@ -2359,7 +2353,10 @@ None
 u8
 ]
 >
-PACKET_LIMIT
+packet
+:
+:
+LIMIT
 )
 ;
 /

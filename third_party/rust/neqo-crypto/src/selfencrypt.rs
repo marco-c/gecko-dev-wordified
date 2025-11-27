@@ -770,7 +770,6 @@ enc
 .
 encode
 (
-&
 salt
 )
 ;

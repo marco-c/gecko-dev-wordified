@@ -198,7 +198,7 @@ crate
 cid
 :
 :
-LOCAL_ACTIVE_CID_LIMIT
+ConnectionIdManager
 connection
 :
 :
@@ -8628,7 +8628,6 @@ cid
 .
 encode
 (
-&
 [
 0x7f
 ;
@@ -8881,7 +8880,10 @@ frame_tx
 retire_connection_id
 retire_cid_before
 +
-LOCAL_ACTIVE_CID_LIMIT
+ConnectionIdManager
+:
+:
+ACTIVE_LIMIT
 )
 ;
 assert_ne

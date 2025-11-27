@@ -3814,7 +3814,6 @@ payload_enc
 .
 encode
 (
-&
 [
 0x08
 0x02
@@ -4705,7 +4704,6 @@ payload_enc
 .
 encode
 (
-&
 [
 0x1c
 0x01

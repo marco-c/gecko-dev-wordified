@@ -7681,10 +7681,7 @@ a
 OutputBatch
 :
 :
-Datagram
-(
-Datagram
-)
+DatagramBatch
 ]
 :
 data
@@ -7706,9 +7703,6 @@ OutputBatch
 :
 :
 Callback
-(
-Duration
-)
 ]
 :
 the
@@ -7719,11 +7713,11 @@ timer
 .
 process_output
 should
-/
-/
-/
 be
 called
+/
+/
+/
 at
 least
 after
@@ -10546,7 +10540,7 @@ State
 StreamId
 StreamType
 Version
-INITIAL_RECV_WINDOW_SIZE
+INITIAL_LOCAL_MAX_STREAM_DATA
 MIN_INITIAL_PACKET_SIZE
 }
 ;
@@ -10601,8 +10595,7 @@ frames
 :
 {
 HFrame
-H3_FRAME_TYPE_SETTINGS
-H3_RESERVED_FRAME_TYPES
+HFrameType
 }
 qpack_encoder_receiver
 :
@@ -20843,7 +20836,7 @@ vec
 [
 1_u8
 ;
-INITIAL_RECV_WINDOW_SIZE
+INITIAL_LOCAL_MAX_STREAM_DATA
 ]
 ;
 let
@@ -21396,7 +21389,7 @@ vec
 [
 0_u8
 ;
-INITIAL_RECV_WINDOW_SIZE
+INITIAL_LOCAL_MAX_STREAM_DATA
 ]
 now
 (
@@ -21479,7 +21472,7 @@ in
 0
 .
 .
-INITIAL_RECV_WINDOW_SIZE
+INITIAL_LOCAL_MAX_STREAM_DATA
 /
 1000
 {
@@ -21576,7 +21569,7 @@ vec
 [
 1_u8
 ;
-INITIAL_RECV_WINDOW_SIZE
+INITIAL_LOCAL_MAX_STREAM_DATA
 ]
 ;
 let
@@ -21973,7 +21966,7 @@ hdr
 =
 alloc_buffer
 (
-INITIAL_RECV_WINDOW_SIZE
+INITIAL_LOCAL_MAX_STREAM_DATA
 -
 88
 )
@@ -22060,7 +22053,7 @@ hdr
 =
 alloc_buffer
 (
-INITIAL_RECV_WINDOW_SIZE
+INITIAL_LOCAL_MAX_STREAM_DATA
 -
 89
 )
@@ -22147,7 +22140,7 @@ hdr
 =
 alloc_buffer
 (
-INITIAL_RECV_WINDOW_SIZE
+INITIAL_LOCAL_MAX_STREAM_DATA
 -
 90
 )
@@ -22226,7 +22219,7 @@ hdr
 =
 alloc_buffer
 (
-INITIAL_RECV_WINDOW_SIZE
+INITIAL_LOCAL_MAX_STREAM_DATA
 -
 16409
 )
@@ -22314,7 +22307,7 @@ hdr
 =
 alloc_buffer
 (
-INITIAL_RECV_WINDOW_SIZE
+INITIAL_LOCAL_MAX_STREAM_DATA
 -
 16410
 )
@@ -22402,7 +22395,7 @@ hdr
 =
 alloc_buffer
 (
-INITIAL_RECV_WINDOW_SIZE
+INITIAL_LOCAL_MAX_STREAM_DATA
 -
 16411
 )
@@ -22488,7 +22481,7 @@ hdr
 =
 alloc_buffer
 (
-INITIAL_RECV_WINDOW_SIZE
+INITIAL_LOCAL_MAX_STREAM_DATA
 -
 16412
 )
@@ -29277,7 +29270,6 @@ d
 .
 encode
 (
-&
 [
 0x61
 0x62
@@ -35880,7 +35872,6 @@ d
 .
 encode
 (
-&
 [
 0x61
 0x62
@@ -46273,7 +46264,10 @@ reserved_frames
 for
 f
 in
-H3_RESERVED_FRAME_TYPES
+HFrameType
+:
+:
+RESERVED
 {
 let
 mut
@@ -46420,7 +46414,10 @@ enc
 .
 encode_varint
 (
-H3_FRAME_TYPE_SETTINGS
+HFrameType
+:
+:
+SETTINGS
 )
 ;
 enc

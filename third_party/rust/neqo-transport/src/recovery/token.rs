@@ -102,6 +102,12 @@ quic_datagrams
 :
 DatagramTracking
 send_stream
+stateless_reset
+:
+:
+Token
+as
+Srt
 stream_id
 :
 :
@@ -263,11 +269,7 @@ NewConnectionId
 (
 ConnectionIdEntry
 <
-[
-u8
-;
-16
-]
+Srt
 >
 )
 RetireConnectionId

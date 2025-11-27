@@ -665,7 +665,6 @@ aad
 .
 encode
 (
-&
 a
 .
 octets
@@ -695,7 +694,6 @@ aad
 .
 encode
 (
-&
 a
 .
 octets

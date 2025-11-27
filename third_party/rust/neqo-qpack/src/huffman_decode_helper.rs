@@ -152,7 +152,7 @@ Option
 <
 Box
 <
-HuffmanDecoderNode
+Self
 >
 >
 ;
