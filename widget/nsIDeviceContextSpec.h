@@ -607,7 +607,7 @@ MOZ_ENABLE_SKIA_PDF
 This
 variable
 is
-independant
+independent
 of
 nsIPrintSettings
 :
