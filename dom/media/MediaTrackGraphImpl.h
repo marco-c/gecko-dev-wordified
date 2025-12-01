@@ -2450,7 +2450,7 @@ rejected
 with
 NS_ERROR_INVALID_ARG
 if
-aSink
+aDeviceID
 does
 not
 *
