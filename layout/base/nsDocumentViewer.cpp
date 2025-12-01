@@ -259,6 +259,17 @@ h
 #
 include
 "
+mozilla
+/
+widget
+/
+Screen
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
