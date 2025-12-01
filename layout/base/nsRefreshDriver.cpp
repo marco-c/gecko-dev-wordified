@@ -865,13 +865,6 @@ nsTransitionManager
 h
 "
 #
-include
-"
-nsViewManager
-.
-h
-"
-#
 if
 defined
 (

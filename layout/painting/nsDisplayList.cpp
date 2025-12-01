@@ -955,13 +955,6 @@ nsTransitionManager
 .
 h
 "
-#
-include
-"
-nsViewManager
-.
-h
-"
 namespace
 mozilla
 {

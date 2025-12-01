@@ -1792,13 +1792,6 @@ h
 #
 include
 "
-nsViewManager
-.
-h
-"
-#
-include
-"
 nsWindowSizes
 .
 h

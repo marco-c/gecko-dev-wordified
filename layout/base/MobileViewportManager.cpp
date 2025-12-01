@@ -214,13 +214,6 @@ h
 #
 include
 "
-nsViewManager
-.
-h
-"
-#
-include
-"
 nsViewportInfo
 .
 h

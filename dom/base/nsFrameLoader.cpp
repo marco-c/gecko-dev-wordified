@@ -1091,13 +1091,6 @@ h
 #
 include
 "
-nsViewManager
-.
-h
-"
-#
-include
-"
 nsXPCOMPrivate
 .
 h
@@ -7005,11 +6998,6 @@ presShell
 MOZ_DIAGNOSTIC_ASSERT
 (
 presShell
--
->
-GetViewManager
-(
-)
 -
 >
 GetRootView

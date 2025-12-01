@@ -327,13 +327,6 @@ h
 #
 include
 "
-nsViewManager
-.
-h
-"
-#
-include
-"
 nsIURI
 .
 h

@@ -153,13 +153,6 @@ nsIDocShellTreeOwner
 .
 h
 "
-#
-include
-"
-nsViewManager
-.
-h
-"
 class
 nsIContent
 ;
@@ -478,12 +471,6 @@ mozilla
 PresShell
 >
 mPresShell
-;
-RefPtr
-<
-nsViewManager
->
-mViewManager
 ;
 nsCOMPtr
 <

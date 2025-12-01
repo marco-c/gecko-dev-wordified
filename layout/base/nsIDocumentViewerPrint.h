@@ -328,9 +328,6 @@ virtual
 void
 SetPrintPreviewPresentation
 (
-nsViewManager
-*
-aViewManager
 nsPresContext
 *
 aPresContext
@@ -414,10 +411,6 @@ override
 void
 SetPrintPreviewPresentation
 (
-nsViewManager
-*
-aViewManager
-\
 nsPresContext
 *
 aPresContext
