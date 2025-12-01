@@ -31157,7 +31157,7 @@ mFrames
 }
 virtual
 void
-CollectWasmFrame
+CollectWasmOrSyncJITFrame
 (
 JS
 :

@@ -2227,7 +2227,7 @@ aAddr
 ;
 virtual
 void
-CollectWasmFrame
+CollectWasmOrSyncJITFrame
 (
 JS
 :

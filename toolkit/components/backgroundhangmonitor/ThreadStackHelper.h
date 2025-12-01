@@ -607,7 +607,7 @@ override
 ;
 virtual
 void
-CollectWasmFrame
+CollectWasmOrSyncJITFrame
 (
 JS
 :
