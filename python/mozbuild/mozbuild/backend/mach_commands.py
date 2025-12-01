@@ -1821,6 +1821,16 @@ jsonc
 html
 ]
 "
+            
+"
+rust
+-
+analyzer
+.
+server
+.
+extraEnv
+"
         
 ]
         
@@ -2855,7 +2865,7 @@ rust
 -
 analyzer
 .
-server
+cargo
 .
 extraEnv
 "
