@@ -30239,9 +30239,6 @@ functions
 void
 emitPreBarrierFastPath
 (
-JSRuntime
-*
-rt
 MIRType
 type
 Register
