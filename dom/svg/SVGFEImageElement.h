@@ -138,6 +138,13 @@ SVGFilters
 .
 h
 "
+#
+include
+"
+nsISizeOf
+.
+h
+"
 nsresult
 NS_NewSVGFEImageElement
 (
@@ -289,6 +296,7 @@ false
 interfaces
 :
 NS_DECL_ISUPPORTS_INHERITED
+NS_DECL_ADDSIZEOFEXCLUDINGTHIS
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 SVGFEImageElement
