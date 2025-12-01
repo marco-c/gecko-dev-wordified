@@ -103,8 +103,16 @@ job
 .
 common
 import
+(
+    
+docker_worker_add_artifacts
+    
+generic_worker_add_artifacts
+    
 get_expiration
+    
 support_vcs_checkout
+)
 from
 gecko_taskgraph
 .
@@ -1162,6 +1170,13 @@ default
         
 }
     
+)
+    
+docker_worker_add_artifacts
+(
+config
+job
+taskdesc
 )
     
 env
@@ -2647,6 +2662,13 @@ default
 }
     
 ]
+    
+generic_worker_add_artifacts
+(
+config
+job
+taskdesc
+)
     
 #
 jittest
