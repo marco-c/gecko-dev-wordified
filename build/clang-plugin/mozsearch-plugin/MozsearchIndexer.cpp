@@ -367,6 +367,11 @@ string
 #
 include
 <
+tuple
+>
+#
+include
+<
 unordered_set
 >
 #
@@ -536,9 +541,9 @@ non
 windows
 platforms
 .
-mozilla
+firefox
 -
-central
+main
 seems
 to
 build
