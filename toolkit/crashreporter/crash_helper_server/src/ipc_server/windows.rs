@@ -75,6 +75,7 @@ errors
 :
 IPCError
 IPCEvent
+PlatformError
 }
 ;
 use
@@ -432,10 +433,16 @@ error
 IPCError
 :
 :
-System
+ReceptionFailure
 (
-_code
+_error
+PlatformError
+:
+:
+IOError
+(
 ERROR_BROKEN_PIPE
+)
 )
 =
 >
