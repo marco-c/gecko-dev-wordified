@@ -290,14 +290,10 @@ const
 alertsService
 =
 {
-showAlertNotification
+showAlert
 :
 (
-image
-title
-body
-clickable
-cookie
+alert
 clickCallback
 )
 =
@@ -345,6 +341,8 @@ Assert
 .
 equal
 (
+alert
+.
 title
 expectedObj
 .
@@ -360,7 +358,9 @@ Assert
 .
 equal
 (
-body
+alert
+.
+text
 expectedObj
 .
 body
