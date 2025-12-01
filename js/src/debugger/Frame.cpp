@@ -7221,6 +7221,17 @@ envArg
 frame
 )
 ;
+AutoSetBypassCSPForDebugger
+setFlag
+(
+cx
+evalOptions
+.
+bypassCSP
+(
+)
+)
+;
 CompileOptions
 options
 (

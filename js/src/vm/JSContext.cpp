@@ -8168,6 +8168,11 @@ promiseRejectionTrackerCallbackData
 this
 nullptr
 )
+bypassCSPForDebugger
+(
+this
+false
+)
 insideExclusiveDebuggerOnEval
 (
 this
