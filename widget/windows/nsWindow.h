@@ -2097,6 +2097,12 @@ return
 mIsRTL
 ;
 }
+bool
+ShouldAssociateWithWinAppSDK
+(
+)
+const
+;
 /
 *
 *
