@@ -153,6 +153,24 @@ linux
 "
             
 "
+linux64
+-
+embedded
+-
+uniffi
+-
+bindgen
+"
+            
+"
+linux64
+-
+nimbus
+-
+fml
+"
+            
+"
 android
 -
 gradle
