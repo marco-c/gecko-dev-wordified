@@ -130,6 +130,10 @@ Web
 /
 CSS
 /
+Reference
+/
+Properties
+/
 -
 moz
 -
@@ -179,6 +183,10 @@ docs
 Web
 /
 CSS
+/
+Reference
+/
+Properties
 /
 scrollbar
 -

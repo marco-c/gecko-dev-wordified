@@ -345,6 +345,10 @@ Web
 /
 CSS
 /
+Reference
+/
+Properties
+/
 grid
 -
 column
@@ -477,6 +481,10 @@ Web
 /
 CSS
 /
+Reference
+/
+Properties
+/
 clip
 "
 specUrl
@@ -578,6 +586,10 @@ docs
 Web
 /
 CSS
+/
+Reference
+/
+Properties
 /
 ruby
 -
@@ -707,6 +719,10 @@ docs
 Web
 /
 CSS
+/
+Reference
+/
+Properties
 /
 user
 -
@@ -858,6 +874,10 @@ docs
 Web
 /
 CSS
+/
+Reference
+/
+Properties
 /
 user
 -
@@ -1026,6 +1046,10 @@ docs
 Web
 /
 CSS
+/
+Reference
+/
+Properties
 /
 -
 moz
