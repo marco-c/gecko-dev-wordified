@@ -1406,6 +1406,9 @@ mozilla
 HashNumber
 hash
 (
+JSContext
+*
+cx
 )
 ;
 #
