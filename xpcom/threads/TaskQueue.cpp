@@ -714,7 +714,7 @@ mIsRunning
 )
 {
 return
-NS_ERROR_UNEXPECTED
+NS_ERROR_ILLEGAL_DURING_SHUTDOWN
 ;
 }
 AbstractThread
