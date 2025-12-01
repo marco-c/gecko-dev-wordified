@@ -1225,7 +1225,12 @@ task_id
 INDEX_RANK
 "
 :
+f
+"
+{
 index_rank
+}
+"
     
 }
     
