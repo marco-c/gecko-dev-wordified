@@ -2335,6 +2335,16 @@ PKG_BUILD_NUMBER
 "
 :
 1
+                
+"
+LANGUAGES
+"
+:
+[
+"
+dummy
+"
+]
             
 }
             
@@ -2489,32 +2499,20 @@ Finally
 it
 copies
 any
-additional
+langpack
 RPM
 files
 from
 the
 noarch
 directory
-.
-        
-#
-Since
-our
-pathlib
-.
-Path
-.
-glob
-returns
-one
-dummy
-file
-from
+based
+on
 the
-noarch
-dir
-:
+LANGUAGES
+build
+variable
+.
         
 expected_dummy_path
 =
@@ -2524,20 +2522,51 @@ join
 (
             
 temp_testing_dir_name
+            
 "
 target_dir
 "
+            
 "
 noarch
 "
+            
 "
-langpack
-.
+firefox
+-
+l10n
+-
 dummy
+-
+111
+.
+0
+-
+1
+.
+noarch
 .
 rpm
 "
         
+)
+        
+expected_dest
+=
+mozpath
+.
+join
+(
+upload_dir
+"
+langpack
+-
+dummy
+.
+noarch
+.
+rpm
+"
 )
         
 #
@@ -2548,7 +2577,7 @@ call
 that
 copies
 the
-dummy
+langpack
 file
 to
 the
@@ -2561,7 +2590,10 @@ found
 any
 (
             
+str
+(
 src
+)
 =
 =
 expected_dummy_path
@@ -2569,7 +2601,7 @@ and
 dst
 =
 =
-upload_dir
+expected_dest
             
 for
 _
