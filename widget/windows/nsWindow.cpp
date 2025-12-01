@@ -6616,10 +6616,6 @@ std
 in_place
 this
 )
-mPIPWindow
-(
-false
-)
 mMicaBackdrop
 (
 false
@@ -8010,12 +8006,6 @@ mIsRTL
 aInitData
 .
 mRTL
-;
-mPIPWindow
-=
-aInitData
-.
-mPIPWindow
 ;
 mOpeningAnimationSuppressed
 =
@@ -21820,7 +21810,7 @@ mCaptionHeight
 else
 if
 (
-mPIPWindow
+mIsPIPWindow
 &
 &
 !
