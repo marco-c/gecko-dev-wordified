@@ -239,13 +239,6 @@ nsRefreshDriver
 .
 h
 "
-#
-include
-"
-nsView
-.
-h
-"
 namespace
 mozilla
 {

@@ -156,13 +156,6 @@ h
 #
 include
 "
-nsView
-.
-h
-"
-#
-include
-"
 nsIWidget
 .
 h

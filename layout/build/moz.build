@@ -356,10 +356,6 @@ components
 /
 sessionstore
 "
-"
-/
-view
-"
 ]
 if
 CONFIG

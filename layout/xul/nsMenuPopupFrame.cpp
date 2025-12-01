@@ -570,13 +570,6 @@ h
 #
 include
 "
-nsView
-.
-h
-"
-#
-include
-"
 nsWidgetsCID
 .
 h

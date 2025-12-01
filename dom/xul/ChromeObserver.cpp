@@ -199,13 +199,6 @@ h
 #
 include
 "
-nsView
-.
-h
-"
-#
-include
-"
 nsXULElement
 .
 h
