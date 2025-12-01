@@ -894,6 +894,13 @@ nsTextControlFrame
 .
 h
 "
+#
+include
+"
+nsXULElement
+.
+h
+"
 /
 /
 For

@@ -4016,6 +4016,13 @@ h
 #
 include
 "
+nsXULElement
+.
+h
+"
+#
+include
+"
 nsXULPopupManager
 .
 h
