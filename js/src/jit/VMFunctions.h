@@ -4893,6 +4893,17 @@ uint32_t
 slot
 )
 ;
+void
+ReadBarrier
+(
+gc
+:
+:
+Cell
+*
+cell
+)
+;
 /
 /
 Functions
