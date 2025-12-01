@@ -11854,10 +11854,9 @@ bug
 WindowsUIUtils
 :
 :
-SetIsTitlebarCollapsed
+AssociateWithWinAppSDK
 (
 mWnd
-mCustomNonClient
 )
 ;
 }
