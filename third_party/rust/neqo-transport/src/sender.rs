@@ -139,6 +139,10 @@ rtt
 :
 :
 RttEstimate
+stats
+:
+:
+CongestionControlStats
 ConnectionParameters
 Stats
 }
@@ -557,6 +561,11 @@ on_packets_acked
 acked_pkts
 rtt_est
 now
+&
+mut
+stats
+.
+cc
 )
 ;
 self
@@ -655,6 +664,11 @@ prev_largest_acked_sent
 pto
 lost_packets
 now
+&
+mut
+stats
+.
+cc
 )
 ;
 /
@@ -747,6 +761,11 @@ Packet
 now
 :
 Instant
+cc_stats
+:
+&
+mut
+CongestionControlStats
 )
 -
 >
@@ -760,6 +779,7 @@ on_ecn_ce_received
 (
 largest_acked_pkt
 now
+cc_stats
 )
 }
 pub

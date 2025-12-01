@@ -192,10 +192,6 @@ rtt
 :
 :
 GRANULARITY
-stats
-:
-:
-MAX_PTO_COUNTS
 tparams
 :
 :
@@ -216,6 +212,7 @@ DEFAULT_REMOTE_ACK_DELAY
 CloseReason
 Error
 Pmtud
+Stats
 StreamType
 }
 ;
@@ -2225,6 +2222,9 @@ pto_counts
 [
 0
 ;
+Stats
+:
+:
 MAX_PTO_COUNTS
 ]
 ;
@@ -4398,6 +4398,9 @@ pto_counts
 [
 0
 ;
+Stats
+:
+:
 MAX_PTO_COUNTS
 ]
 ;

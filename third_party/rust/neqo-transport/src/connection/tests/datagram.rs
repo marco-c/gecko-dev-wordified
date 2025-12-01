@@ -153,7 +153,7 @@ packet
 quic_datagrams
 :
 :
-MAX_QUIC_DATAGRAM
+QuicDatagram
 send_stream
 :
 :
@@ -1071,7 +1071,10 @@ default
 .
 datagram_size
 (
-MAX_QUIC_DATAGRAM
+QuicDatagram
+:
+:
+MAX_SIZE
 )
 .
 outgoing_datagram_queue
@@ -1095,7 +1098,10 @@ default
 .
 datagram_size
 (
-MAX_QUIC_DATAGRAM
+QuicDatagram
+:
+:
+MAX_SIZE
 )
 )
 ;

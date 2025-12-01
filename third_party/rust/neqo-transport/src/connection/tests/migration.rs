@@ -219,7 +219,7 @@ packet
 path
 :
 :
-MAX_PATH_PROBES
+Path
 pmtud
 :
 :
@@ -4047,7 +4047,10 @@ in
 0
 .
 .
-MAX_PATH_PROBES
+Path
+:
+:
+MAX_PROBES
 *
 2
 -
@@ -4749,7 +4752,10 @@ in
 0
 .
 .
-MAX_PATH_PROBES
+Path
+:
+:
+MAX_PROBES
 *
 2
 -
