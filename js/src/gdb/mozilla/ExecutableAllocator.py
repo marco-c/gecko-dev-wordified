@@ -457,11 +457,7 @@ kHashNumberBits
 =
 32
             
-hashShiftMask
-=
-0xFF
-            
-genAndHashShift
+hashShift
 =
 allocator
 .
@@ -478,15 +474,9 @@ mImpl
 ]
 [
 "
-mGenAndHashShift
+mHashShift
 "
 ]
-            
-hashShift
-=
-genAndHashShift
-&
-hashShiftMask
             
 self
 .

@@ -3632,6 +3632,12 @@ masm
 .
 emitPreBarrierFastPath
 (
+cx
+-
+>
+runtime
+(
+)
 type
 temp1
 temp2
