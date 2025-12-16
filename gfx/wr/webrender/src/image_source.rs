@@ -515,7 +515,7 @@ push
 DeferredResolve
 {
 image_properties
-address
+handle
 :
 uv_rect_address
 rendering

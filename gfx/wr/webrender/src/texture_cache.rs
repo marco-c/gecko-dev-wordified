@@ -188,8 +188,8 @@ renderer
 :
 :
 {
-GpuBufferAddress
 GpuBufferBuilderF
+GpuBufferHandle
 }
 ;
 use
@@ -875,7 +875,7 @@ cache
 pub
 uv_rect_handle
 :
-GpuBufferAddress
+GpuBufferHandle
 /
 /
 /
@@ -1049,7 +1049,7 @@ filter
 swizzle
 uv_rect_handle
 :
-GpuBufferAddress
+GpuBufferHandle
 :
 :
 INVALID
@@ -5793,7 +5793,7 @@ entry
 .
 uv_rect_handle
 =
-GpuBufferAddress
+GpuBufferHandle
 :
 :
 INVALID
@@ -7253,7 +7253,7 @@ Option
 CacheTextureId
 DeviceIntRect
 Swizzle
-GpuBufferAddress
+GpuBufferHandle
 [
 f32
 ;
@@ -7381,7 +7381,7 @@ TextureCacheHandle
 CacheTextureId
 DeviceIntRect
 Swizzle
-GpuBufferAddress
+GpuBufferHandle
 [
 f32
 ;
@@ -9584,7 +9584,7 @@ allocated_size_in_bytes
 }
 uv_rect_handle
 :
-GpuBufferAddress
+GpuBufferHandle
 :
 :
 INVALID
@@ -11440,6 +11440,15 @@ renderer
 :
 GpuBufferBuilderF
 ;
+use
+crate
+:
+:
+internal_types
+:
+:
+FrameId
+;
 #
 [
 test
@@ -11587,6 +11596,12 @@ new
 &
 memory
 0
+FrameId
+:
+:
+first
+(
+)
 )
 ;
 let

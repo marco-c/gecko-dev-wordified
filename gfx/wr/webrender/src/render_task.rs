@@ -17322,6 +17322,10 @@ gpu_buffer
 .
 f32
 )
+.
+address_unchecked
+(
+)
 ;
 }
 /

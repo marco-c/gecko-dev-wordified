@@ -165,6 +165,7 @@ renderer
 {
 GpuBufferAddress
 GpuBufferBuilderF
+GpuBufferHandle
 GpuBufferWriterF
 ShaderColorMode
 }
@@ -5652,7 +5653,7 @@ GpuBufferBuilderF
 )
 -
 >
-GpuBufferAddress
+GpuBufferHandle
 {
 let
 mut
@@ -5676,7 +5677,7 @@ writer
 ;
 writer
 .
-finish
+finish_with_handle
 (
 )
 }

@@ -159,8 +159,8 @@ renderer
 :
 :
 {
-GpuBufferAddress
 GpuBufferBuilderF
+GpuBufferHandle
 }
 ;
 #
@@ -403,7 +403,7 @@ buffer
 pub
 uv_rect_handle
 :
-GpuBufferAddress
+GpuBufferHandle
 /
 /
 /
@@ -1320,7 +1320,7 @@ self
 now
 uv_rect_handle
 :
-GpuBufferAddress
+GpuBufferHandle
 :
 :
 INVALID

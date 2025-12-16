@@ -3752,6 +3752,11 @@ frame_memory
 8
 *
 1024
+stamp
+.
+frame_id
+(
+)
 )
 i32
 :
@@ -3765,6 +3770,11 @@ frame_memory
 2
 *
 1024
+stamp
+.
+frame_id
+(
+)
 )
 }
 ;
