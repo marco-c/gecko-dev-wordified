@@ -428,7 +428,7 @@ Float
 LineClamp
 Overflow
 OverflowAnchor
-OverflowClipBox
+OverflowClipMargin
 OverscrollBehavior
 Perspective
 PositionProperty
