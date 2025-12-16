@@ -1529,9 +1529,6 @@ defined
 (
 WEBRTC_ANDROID
 )
-#
-ifndef
-NDEBUG
 /
 /
 But
@@ -1571,8 +1568,6 @@ Enabled
 "
 )
 ;
-#
-endif
 #
 endif
 }
