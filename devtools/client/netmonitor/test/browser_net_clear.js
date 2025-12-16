@@ -815,11 +815,15 @@ actualNoOfNetworkEventResources
 =
 toolbox
 .
+commands
+.
 resourceCommand
 .
 getAllResources
 (
 toolbox
+.
+commands
 .
 resourceCommand
 .

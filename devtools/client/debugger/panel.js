@@ -701,7 +701,7 @@ resourceCommand
 :
 this
 .
-toolbox
+commands
 .
 resourceCommand
 workers
