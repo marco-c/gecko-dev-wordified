@@ -10896,14 +10896,6 @@ openerWindow
 =
 window
 ;
-AIWindow
-.
-handleAIWindowOptions
-(
-window
-options
-)
-;
 let
 win
 =
