@@ -1376,9 +1376,8 @@ Tag
 CubicCurve
 :
 {
-const
-bool
-isRelative
+Point
+to
 =
 aCommand
 .
@@ -1389,11 +1388,6 @@ point
 IsByCoordinate
 (
 )
-;
-Point
-to
-=
-isRelative
 ?
 aState
 .
@@ -1443,7 +1437,6 @@ aState
 .
 pos
 to
-isRelative
 )
 ;
 Point
@@ -1461,7 +1454,6 @@ aState
 .
 pos
 to
-isRelative
 )
 ;
 aState
@@ -1514,9 +1506,8 @@ Tag
 QuadCurve
 :
 {
-const
-bool
-isRelative
+Point
+to
 =
 aCommand
 .
@@ -1527,11 +1518,6 @@ point
 IsByCoordinate
 (
 )
-;
-Point
-to
-=
-isRelative
 ?
 aState
 .
@@ -1581,7 +1567,6 @@ aState
 .
 pos
 to
-isRelative
 )
 ;
 aState
@@ -2093,9 +2078,8 @@ Tag
 SmoothCubic
 :
 {
-const
-bool
-isRelative
+Point
+to
 =
 aCommand
 .
@@ -2106,11 +2090,6 @@ point
 IsByCoordinate
 (
 )
-;
-Point
-to
-=
-isRelative
 ?
 aState
 .
@@ -2177,7 +2156,6 @@ aState
 .
 pos
 to
-isRelative
 )
 ;
 aState
