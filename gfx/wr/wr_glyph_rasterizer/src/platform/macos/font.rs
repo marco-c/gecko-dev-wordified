@@ -6145,6 +6145,9 @@ get_glyph_format
 bytes
 :
 rasterized_pixels
+is_packed_glyph
+:
+false
 }
 )
 }

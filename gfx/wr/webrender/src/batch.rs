@@ -11347,6 +11347,15 @@ glyph
 .
 uv_rect_address
 color_mode
+glyph
+.
+subpx_offset_x
+glyph
+.
+subpx_offset_y
+glyph
+.
+is_packed_glyph
 )
 )
 ;
