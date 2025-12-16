@@ -708,11 +708,6 @@ if
 (
 WithinLifetime
 (
-Connection
-:
-:
-AlignTime
-(
 env
 (
 )
@@ -723,7 +718,6 @@ clock
 .
 CurrentTime
 (
-)
 )
 )
 )
@@ -903,11 +897,6 @@ attribute
 Timestamp
 now
 =
-Connection
-:
-:
-AlignTime
-(
 env
 (
 )
@@ -918,7 +907,6 @@ clock
 .
 CurrentTime
 (
-)
 )
 ;
 if
@@ -3610,11 +3598,6 @@ StunBindingRequest
 (
 this
 stun_addr
-Connection
-:
-:
-AlignTime
-(
 env
 (
 )
@@ -3625,7 +3608,6 @@ clock
 .
 CurrentTime
 (
-)
 )
 )
 )

@@ -446,6 +446,15 @@ include
 "
 rtc_base
 /
+net_helpers
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 network
 .
 h
@@ -486,7 +495,7 @@ include
 "
 rtc_base
 /
-platform_thread_types
+socket
 .
 h
 "
@@ -1714,8 +1723,6 @@ WAITING
 )
 time_created_
 (
-AlignTime
-(
 env_
 .
 clock
@@ -1724,7 +1731,6 @@ clock
 .
 CurrentTime
 (
-)
 )
 )
 delta_internal_unix_epoch_
@@ -2280,13 +2286,6 @@ Timestamp
 now
 )
 {
-now
-=
-AlignTime
-(
-now
-)
-;
 RTC_DCHECK_RUN_ON
 (
 network_thread_
@@ -3236,8 +3235,6 @@ along
 .
 last_data_received_
 =
-AlignTime
-(
 env_
 .
 clock
@@ -3246,7 +3243,6 @@ clock
 .
 CurrentTime
 (
-)
 )
 ;
 UpdateReceiving
@@ -4610,8 +4606,6 @@ const
 Timestamp
 now
 =
-AlignTime
-(
 env_
 .
 clock
@@ -4620,7 +4614,6 @@ clock
 .
 CurrentTime
 (
-)
 )
 ;
 if
@@ -6897,13 +6890,6 @@ Timestamp
 now
 )
 {
-now
-=
-AlignTime
-(
-now
-)
-;
 RTC_DCHECK_RUN_ON
 (
 network_thread_
@@ -7481,13 +7467,6 @@ StunByteStringAttribute
 delta
 )
 {
-now
-=
-AlignTime
-(
-now
-)
-;
 RTC_DCHECK_RUN_ON
 (
 network_thread_
@@ -8491,8 +8470,6 @@ network_thread_
 ;
 last_ping_received_
 =
-AlignTime
-(
 env_
 .
 clock
@@ -8501,7 +8478,6 @@ clock
 .
 CurrentTime
 (
-)
 )
 ;
 last_ping_id_received_
@@ -8673,8 +8649,6 @@ const
 TimeDelta
 rtt
 =
-AlignTime
-(
 env_
 .
 clock
@@ -8683,7 +8657,6 @@ clock
 .
 CurrentTime
 (
-)
 )
 -
 iter
@@ -8880,8 +8853,6 @@ value
 Timestamp
 now
 =
-AlignTime
-(
 env_
 .
 clock
@@ -8890,7 +8861,6 @@ clock
 .
 CurrentTime
 (
-)
 )
 ;
 total_round_trip_time_
@@ -9152,13 +9122,6 @@ now
 )
 const
 {
-now
-=
-AlignTime
-(
-now
-)
-;
 RTC_DCHECK_RUN_ON
 (
 network_thread_
@@ -13020,13 +12983,6 @@ const
 RTC_DCHECK_RUN_ON
 (
 network_thread_
-)
-;
-now
-=
-AlignTime
-(
-now
 )
 ;
 if
