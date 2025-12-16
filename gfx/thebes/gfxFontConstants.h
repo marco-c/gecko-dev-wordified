@@ -570,6 +570,8 @@ font
 prefs
 enum
 eFontPrefLang
+:
+uint8_t
 {
 #
 define
