@@ -6677,7 +6677,7 @@ width
 =
 data
 .
-physWidth
+naturalWidth
 |
 |
 data
@@ -6687,7 +6687,7 @@ height
 =
 data
 .
-physHeight
+naturalHeight
 )
 {
 document
@@ -6718,7 +6718,7 @@ formatNumber
 (
 data
 .
-physWidth
+naturalWidth
 )
 dimy
 :
@@ -6726,7 +6726,7 @@ formatNumber
 (
 data
 .
-physHeight
+naturalHeight
 )
 scaledx
 :
