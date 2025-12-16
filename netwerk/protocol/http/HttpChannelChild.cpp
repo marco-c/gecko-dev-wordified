@@ -6436,6 +6436,14 @@ encodedBodySize
 (
 )
 ;
+mDecodedBodySize
+=
+aTiming
+.
+decodedBodySize
+(
+)
+;
 }
 if
 (

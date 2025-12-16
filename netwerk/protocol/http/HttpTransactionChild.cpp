@@ -3361,6 +3361,14 @@ mLogicalOffset
 ;
 args
 .
+decodedBodySize
+(
+)
+=
+0
+;
+args
+.
 redirectStart
 (
 )

@@ -12157,6 +12157,12 @@ uint64_t
 aDecodedBodySize
 )
 {
+MutexAutoLock
+lock
+(
+mOnDataFinishedMutex
+)
+;
 *
 aDecodedBodySize
 =
