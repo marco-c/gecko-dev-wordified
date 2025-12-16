@@ -315,6 +315,13 @@ ethioaa
 ethiopic
 "
 "
+ethiopic
+-
+amete
+-
+alem
+"
+"
 gregory
 "
 "
@@ -337,6 +344,9 @@ tbla
 islamic
 -
 umalqura
+"
+"
+islamicc
 "
 "
 iso8601

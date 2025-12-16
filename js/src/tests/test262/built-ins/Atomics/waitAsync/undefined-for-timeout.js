@@ -132,12 +132,10 @@ description
 Undefined
 timeout
 arg
-should
-result
-in
-an
-infinite
-timeout
+is
+coerced
+to
+zero
 info
 :
 |

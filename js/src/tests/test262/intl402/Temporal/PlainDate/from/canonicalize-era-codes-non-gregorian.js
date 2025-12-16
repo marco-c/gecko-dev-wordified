@@ -66,10 +66,8 @@ esid
 sec
 -
 temporal
-.
-plaindate
-.
-from
+-
+calendarsupportsera
 description
 :
 Calendar
