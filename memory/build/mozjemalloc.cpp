@@ -2251,7 +2251,7 @@ arena
 s
 lock
 .
-MOZ_CONSTINIT
+constinit
 static
 RefPtr
 <
@@ -2564,7 +2564,7 @@ while
 bootstrapping
 us
 .
-MOZ_CONSTINIT
+constinit
 StaticMutex
 gInitLock
 MOZ_UNANNOTATED
@@ -9906,7 +9906,7 @@ mIsDeferredPurgeEnabled
 ;
 }
 ;
-MOZ_CONSTINIT
+constinit
 static
 ArenaCollection
 gArenas

@@ -3515,7 +3515,7 @@ return
 ret
 ;
 }
-MOZ_CONSTINIT
+constinit
 AddressRadixTree
 <
 (

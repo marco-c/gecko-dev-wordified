@@ -79,7 +79,7 @@ using
 namespace
 mozilla
 ;
-MOZ_CONSTINIT
+constinit
 BaseAlloc
 sBaseAlloc
 ;
