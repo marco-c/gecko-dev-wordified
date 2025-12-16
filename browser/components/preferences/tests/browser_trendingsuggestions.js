@@ -97,7 +97,7 @@ const
 TRENDING_CHECKBOX_ID
 =
 "
-showTrendingSuggestions
+showTrendingSuggestionsCheckbox
 "
 ;
 const
@@ -315,13 +315,7 @@ suggestions
 .
 suggestionsCheckbox
 .
-checked
-=
-false
-;
-suggestionsCheckbox
-.
-doCommand
+click
 (
 )
 ;
