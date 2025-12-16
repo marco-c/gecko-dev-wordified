@@ -657,7 +657,7 @@ aBounds
 PhysicalAxes
 aClipAxes
 const
-nsMargin
+nsSize
 &
 aOverflowMargin
 )
@@ -728,7 +728,7 @@ aBounds
 PhysicalAxes
 aClipAxes
 const
-nsMargin
+nsSize
 &
 aOverflowMargin
 )
@@ -776,7 +776,7 @@ aBounds
 PhysicalAxes
 aClipAxes
 const
-nsMargin
+nsSize
 &
 aOverflowMargin
 )
