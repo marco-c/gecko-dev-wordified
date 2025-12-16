@@ -474,6 +474,12 @@ IsInComposedDoc
 {
 MaybeProcessScript
 (
+nullptr
+/
+*
+aParser
+*
+/
 )
 ;
 }
