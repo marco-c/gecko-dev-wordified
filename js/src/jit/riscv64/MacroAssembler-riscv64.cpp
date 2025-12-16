@@ -29550,7 +29550,7 @@ L
 {
 offset
 =
-branch_offset_helper
+branchOffsetHelper
 (
 L
 bits
@@ -30919,7 +30919,7 @@ Acquire
 int32_t
 imm
 =
-branch_long_offset
+branchLongOffset
 (
 L
 )
@@ -30955,7 +30955,7 @@ link
 int32_t
 imm
 =
-branch_long_offset
+branchLongOffset
 (
 L
 )

@@ -1499,6 +1499,10 @@ enterNoPool
 (
 size_t
 maxInst
+size_t
+maxNewDeadlines
+=
+0
 )
 {
 m_buffer
@@ -1506,6 +1510,7 @@ m_buffer
 enterNoPool
 (
 maxInst
+maxNewDeadlines
 )
 ;
 }
@@ -2392,7 +2397,7 @@ false
 )
 ;
 int
-target_at
+jumpChainTargetAt
 (
 BufferOffset
 pos
@@ -2402,7 +2407,7 @@ is_internal
 ;
 static
 int
-target_at
+jumpChainTargetAt
 (
 Instruction
 *
@@ -2419,7 +2424,7 @@ nullptr
 )
 ;
 uint32_t
-next_link
+jumpChainNextLink
 (
 Label
 *
@@ -2430,7 +2435,7 @@ is_internal
 ;
 static
 uint64_t
-target_address_at
+jumpChainTargetAddressAt
 (
 Instruction
 *
@@ -2439,7 +2444,7 @@ pos
 ;
 static
 void
-set_target_value_at
+jumpChainSetTargetValueAt
 (
 Instruction
 *
@@ -2462,7 +2467,7 @@ and
 spewed
 .
 bool
-target_at_put
+jumpChainPutTargetAt
 (
 BufferOffset
 pos
@@ -2475,7 +2480,7 @@ false
 )
 ;
 int32_t
-branch_offset_helper
+branchOffsetHelper
 (
 Label
 *
@@ -2485,7 +2490,7 @@ bits
 )
 ;
 int32_t
-branch_long_offset
+branchLongOffset
 (
 Label
 *
@@ -3897,8 +3902,12 @@ BlockTrampolinePoolScope
 Assembler
 *
 assem
-int
+size_t
 margin
+size_t
+maxBranches
+=
+0
 )
 :
 assem_
@@ -3912,6 +3921,7 @@ assem_
 enterNoPool
 (
 margin
+maxBranches
 )
 ;
 }

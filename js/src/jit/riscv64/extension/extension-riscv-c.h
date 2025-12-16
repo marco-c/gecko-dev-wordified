@@ -458,7 +458,7 @@ instr
 ;
 inline
 int16_t
-cjump_offset
+cjumpOffset
 (
 Label
 *
@@ -469,7 +469,7 @@ return
 (
 int16_t
 )
-branch_offset_helper
+branchOffsetHelper
 (
 L
 OffsetSize
@@ -481,7 +481,7 @@ kOffset11
 }
 inline
 int32_t
-cbranch_offset
+cbranchOffset
 (
 Label
 *
@@ -489,7 +489,7 @@ L
 )
 {
 return
-branch_offset_helper
+branchOffsetHelper
 (
 L
 OffsetSize
@@ -509,7 +509,7 @@ L
 {
 c_j
 (
-cjump_offset
+cjumpOffset
 (
 L
 )
@@ -529,7 +529,7 @@ L
 c_bnez
 (
 rs1
-cbranch_offset
+cbranchOffset
 (
 L
 )
@@ -549,7 +549,7 @@ L
 c_beqz
 (
 rs1
-cbranch_offset
+cbranchOffset
 (
 L
 )
