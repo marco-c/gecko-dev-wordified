@@ -46,6 +46,7 @@ import
 {
 ErrorWithExtra
 assert
+hasFeature
 objectEquals
 }
 from
@@ -928,12 +929,11 @@ value
 new
 Set
 (
+hasFeature
+(
 adapter
 .
 features
-.
-has
-(
 '
 core
 -

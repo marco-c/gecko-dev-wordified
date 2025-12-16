@@ -31,6 +31,7 @@ js
 import
 {
 assert
+hasFeature
 }
 from
 '
@@ -1283,14 +1284,13 @@ t
 const
 hasF16
 =
+hasFeature
+(
 t
 .
 adapter
 .
 features
-.
-has
-(
 '
 shader
 -

@@ -116,6 +116,7 @@ js
 ;
 import
 {
+hasFeature
 unreachable
 }
 from
@@ -5408,12 +5409,11 @@ device
 const
 featureLevel
 =
+hasFeature
+(
 device
 .
 features
-.
-has
-(
 '
 core
 -

@@ -146,6 +146,7 @@ js
 import
 {
 assert
+hasFeature
 objectEquals
 }
 from
@@ -1220,12 +1221,11 @@ pull
 4963
 if
 (
+hasFeature
+(
 adapter
 .
 features
-.
-has
-(
 '
 subgroups
 '
