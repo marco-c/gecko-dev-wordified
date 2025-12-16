@@ -1296,9 +1296,6 @@ expectedResult
 :
 [
 {
-invalid
-:
-true
 default
 :
 {

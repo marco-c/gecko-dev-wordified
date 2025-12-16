@@ -91,9 +91,6 @@ code
 ]
 }
 {
-invalid
-:
-true
 fields
 :
 [

@@ -1135,9 +1135,6 @@ expectedResult
 :
 [
 {
-invalid
-:
-true
 fields
 :
 [

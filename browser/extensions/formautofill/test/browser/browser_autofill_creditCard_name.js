@@ -252,9 +252,6 @@ number
 ]
 }
 {
-invalid
-:
-true
 fields
 :
 [
@@ -677,9 +674,6 @@ number
 ]
 }
 {
-invalid
-:
-true
 fields
 :
 [

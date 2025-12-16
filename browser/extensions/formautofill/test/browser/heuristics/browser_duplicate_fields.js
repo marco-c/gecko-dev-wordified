@@ -1152,9 +1152,6 @@ code
 ]
 }
 {
-invalid
-:
-true
 fields
 :
 [
@@ -1467,9 +1464,6 @@ code
 ]
 }
 {
-invalid
-:
-true
 fields
 :
 [
@@ -1780,9 +1774,6 @@ country
 ]
 }
 {
-invalid
-:
-true
 fields
 :
 [
@@ -2112,9 +2103,6 @@ country
 ]
 }
 {
-invalid
-:
-true
 fields
 :
 [
@@ -2668,9 +2656,6 @@ expectedResult
 :
 [
 {
-invalid
-:
-true
 fields
 :
 [
@@ -2703,9 +2688,6 @@ shipping
 ]
 }
 {
-invalid
-:
-true
 fields
 :
 [
@@ -2902,9 +2884,6 @@ expectedResult
 :
 [
 {
-invalid
-:
-true
 fields
 :
 [
@@ -2937,9 +2916,6 @@ shipping
 ]
 }
 {
-invalid
-:
-true
 fields
 :
 [
@@ -3130,9 +3106,6 @@ expectedResult
 :
 [
 {
-invalid
-:
-true
 fields
 :
 [
@@ -3165,9 +3138,6 @@ shipping
 ]
 }
 {
-invalid
-:
-true
 fields
 :
 [
@@ -3378,9 +3348,6 @@ expectedResult
 :
 [
 {
-invalid
-:
-true
 fields
 :
 [
@@ -3413,9 +3380,6 @@ shipping
 ]
 }
 {
-invalid
-:
-true
 fields
 :
 [
@@ -4261,9 +4225,6 @@ billing
 ]
 }
 {
-invalid
-:
-true
 default
 :
 {
@@ -4314,9 +4275,6 @@ country
 ]
 }
 {
-invalid
-:
-true
 default
 :
 {
@@ -4830,9 +4788,6 @@ expectedResult
 :
 [
 {
-invalid
-:
-true
 default
 :
 {
@@ -4969,9 +4924,6 @@ expectedResult
 :
 [
 {
-invalid
-:
-true
 default
 :
 {
@@ -4999,9 +4951,6 @@ email
 ]
 }
 {
-invalid
-:
-true
 default
 :
 {

@@ -269,9 +269,6 @@ work
 ]
 }
 {
-invalid
-:
-true
 default
 :
 {
@@ -559,9 +556,6 @@ work
 ]
 }
 {
-invalid
-:
-true
 default
 :
 {
