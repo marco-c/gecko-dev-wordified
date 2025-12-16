@@ -1864,13 +1864,16 @@ a
 single
 class
 .
+const
 SequenceChecker
-&
+*
 sequence_checker
 (
 )
+const
 {
 return
+&
 sequence_checker_
 ;
 }

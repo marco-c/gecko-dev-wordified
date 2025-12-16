@@ -94,9 +94,7 @@ h
 #
 include
 <
-stddef
-.
-h
+cstddef
 >
 #
 include
@@ -2777,6 +2775,13 @@ SessionDescriptionInterface
 description
 )
 {
+description
+-
+>
+RelinquishThreadOwnership
+(
+)
+;
 Post
 (
 [
