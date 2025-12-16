@@ -870,11 +870,7 @@ AudioReceiveStreamImpl
 const
 Environment
 &
-/
-*
 env
-*
-/
 PacketRouter
 *
 packet_router
@@ -905,6 +901,10 @@ ChannelReceiveInterface
 channel_receive
 )
 :
+env_
+(
+env
+)
 config_
 (
 config
@@ -2131,7 +2131,13 @@ channel_receive_
 >
 GetCurrentEstimatedPlayoutNtpTimestampMs
 (
-TimeMillis
+env_
+.
+clock
+(
+)
+.
+TimeInMilliseconds
 (
 )
 )
