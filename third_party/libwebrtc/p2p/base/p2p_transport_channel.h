@@ -3368,7 +3368,11 @@ RTC_GUARDED_BY
 network_thread_
 )
 =
-WEAK_PING_INTERVAL
+kWeakPingInterval
+.
+ms
+(
+)
 ;
 /
 /

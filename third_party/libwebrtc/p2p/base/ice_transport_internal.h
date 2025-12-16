@@ -1251,7 +1251,7 @@ given
 by
 /
 /
-STRONG_PING_INTERVAL
+kStrongPingInterval
 in
 p2ptransport
 .
@@ -1317,7 +1317,7 @@ given
 by
 /
 /
-WEAK_PING_INTERVAL
+kWeakPingInterval
 in
 p2ptransport
 .
@@ -1515,7 +1515,7 @@ default
 value
 given
 by
-CONNECTION_WRITE_CONNECT_FAILURES
+kConnectionWriteConnectTimeout
 in
 /
 /
@@ -1576,7 +1576,7 @@ default
 value
 given
 by
-CONNECTION_WRITE_TIMEOUT
+kConnectionWriteTimeout
 in
 port
 .
