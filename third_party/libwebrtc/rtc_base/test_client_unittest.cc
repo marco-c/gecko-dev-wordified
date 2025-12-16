@@ -481,6 +481,7 @@ socket_server
 TestEchoServer
 server
 (
+env
 &
 main_thread
 loopback
