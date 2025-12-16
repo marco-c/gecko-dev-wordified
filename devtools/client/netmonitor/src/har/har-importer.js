@@ -188,10 +188,10 @@ spec
 /
 *
 /
-var
+class
 HarImporter
-=
-function
+{
+constructor
 (
 actions
 )
@@ -203,12 +203,6 @@ actions
 actions
 ;
 }
-;
-HarImporter
-.
-prototype
-=
-{
 /
 *
 *
@@ -912,7 +906,6 @@ onLoad
 ;
 }
 }
-;
 /
 /
 Exports
