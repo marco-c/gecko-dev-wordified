@@ -33,16 +33,6 @@ Mapping
 str
 Any
 ]
-        
-*
-*
-kwargs
-:
-Mapping
-[
-str
-Any
-]
     
 )
 -
@@ -69,21 +59,6 @@ extensionData
 :
 extension_data
 }
-        
-#
-Allow
-vendor
-specific
-parameters
-        
-params
-.
-update
-(
-*
-*
-kwargs
-)
         
 return
 params
