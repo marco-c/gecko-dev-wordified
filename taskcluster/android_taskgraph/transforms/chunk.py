@@ -54,10 +54,6 @@ MPL
 /
 .
 from
-copy
-import
-deepcopy
-from
 taskgraph
 import
 MAX_DEPENDENCIES
@@ -69,6 +65,14 @@ transforms
 base
 import
 TransformSequence
+from
+taskgraph
+.
+util
+.
+copy
+import
+deepcopy
 from
 taskgraph
 .

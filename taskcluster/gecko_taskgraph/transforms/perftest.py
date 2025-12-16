@@ -72,10 +72,6 @@ task
 "
 "
 from
-copy
-import
-deepcopy
-from
 datetime
 import
 date
@@ -94,6 +90,14 @@ taskgraph
 util
 import
 json
+from
+taskgraph
+.
+util
+.
+copy
+import
+deepcopy
 from
 taskgraph
 .

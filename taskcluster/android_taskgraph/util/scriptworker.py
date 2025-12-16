@@ -58,10 +58,6 @@ itertools
 import
 os
 from
-copy
-import
-deepcopy
-from
 datetime
 import
 datetime
@@ -71,6 +67,14 @@ import
 lru_cache
 import
 jsone
+from
+taskgraph
+.
+util
+.
+copy
+import
+deepcopy
 from
 taskgraph
 .

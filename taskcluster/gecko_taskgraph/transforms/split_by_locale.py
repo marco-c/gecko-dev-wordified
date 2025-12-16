@@ -82,10 +82,6 @@ file
 "
 "
 from
-copy
-import
-deepcopy
-from
 pprint
 import
 pprint
@@ -97,6 +93,14 @@ transforms
 base
 import
 TransformSequence
+from
+taskgraph
+.
+util
+.
+copy
+import
+deepcopy
 from
 taskgraph
 .
