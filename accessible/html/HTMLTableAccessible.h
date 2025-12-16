@@ -189,14 +189,6 @@ const
 override
 ;
 virtual
-uint64_t
-NativeInteractiveState
-(
-)
-const
-override
-;
-virtual
 already_AddRefed
 <
 AccAttributes
