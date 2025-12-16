@@ -1521,15 +1521,6 @@ e
 .
 currentTarget
 ;
-const
-tabbrowser
-=
-browser
-.
-getTabBrowser
-(
-)
-;
 switch
 (
 e
@@ -1551,7 +1542,7 @@ focus
 const
 tab
 =
-tabbrowser
+gBrowser
 .
 getTabForBrowser
 (
@@ -1581,7 +1572,7 @@ case
 mouseover
 "
 :
-tabbrowser
+gBrowser
 .
 appendStatusPanel
 (
@@ -1595,7 +1586,7 @@ case
 mouseout
 "
 :
-tabbrowser
+gBrowser
 .
 appendStatusPanel
 (
