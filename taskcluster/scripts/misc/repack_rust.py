@@ -3124,6 +3124,9 @@ analysis
 cargo
 "
 "
+rustdoc
+"
+"
 rustfmt
 "
 "
