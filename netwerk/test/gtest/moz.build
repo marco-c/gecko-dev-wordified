@@ -153,6 +153,11 @@ TestHeaders
 cpp
 "
 "
+TestHostRecordQueue
+.
+cpp
+"
+"
 TestHttp2WebTransport
 .
 cpp
@@ -397,6 +402,12 @@ cache2
 netwerk
 /
 cookie
+"
+"
+/
+netwerk
+/
+dns
 "
 "
 /
