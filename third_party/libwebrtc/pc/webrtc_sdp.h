@@ -278,7 +278,7 @@ Serializes
 the
 passed
 in
-JsepSessionDescription
+SessionDescriptionInterface
 .
 /
 /
@@ -289,7 +289,7 @@ candidates
 if
 /
 /
-JsepSessionDescription
+SessionDescriptionInterface
 has
 candidates
 .
@@ -298,7 +298,7 @@ candidates
 jdesc
 -
 The
-JsepSessionDescription
+SessionDescriptionInterface
 object
 to
 be
@@ -322,7 +322,7 @@ string
 SdpSerialize
 (
 const
-JsepSessionDescription
+SessionDescriptionInterface
 &
 jdesc
 )
