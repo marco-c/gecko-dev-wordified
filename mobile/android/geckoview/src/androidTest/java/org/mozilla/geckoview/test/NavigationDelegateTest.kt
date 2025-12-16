@@ -4079,7 +4079,7 @@ upgraded
 to
 https
 val
-http_uri
+httpUri
 =
 "
 http
@@ -4094,7 +4094,7 @@ com
 /
 "
 val
-https_uri
+httpsUri
 =
 "
 https
@@ -4112,7 +4112,7 @@ mainSession
 .
 loadUri
 (
-http_uri
+httpUri
 )
 mainSession
 .
@@ -4170,8 +4170,8 @@ equalTo
 (
 forEachCall
 (
-http_uri
-https_uri
+httpUri
+httpsUri
 )
 )
 )
@@ -4191,7 +4191,7 @@ the
 cert
 error
 val
-no_cert_uri
+noCertUri
 =
 "
 https
@@ -4209,7 +4209,7 @@ mainSession
 .
 loadUri
 (
-no_cert_uri
+noCertUri
 )
 mainSession
 .

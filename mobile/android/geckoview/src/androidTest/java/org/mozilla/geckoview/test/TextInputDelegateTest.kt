@@ -4428,10 +4428,8 @@ foobarfoo
 "
 5
 /
-*
-checkGecko
-*
 /
+checkGecko
 false
 )
 }
@@ -5008,10 +5006,8 @@ frabar
 "
 6
 /
-*
-checkGecko
-*
 /
+checkGecko
 false
 )
 finishComposingText
@@ -6175,10 +6171,8 @@ text
 ic
 content
 /
-*
-checkGecko
-*
 /
+checkGecko
 false
 )
 }
@@ -9919,10 +9913,8 @@ ic
 0
 0
 /
-*
-checkGecko
-*
 /
+checkGecko
 false
 )
 setComposingText
