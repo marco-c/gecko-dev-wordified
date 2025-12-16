@@ -1474,9 +1474,15 @@ cp
 artifact
 dest
 ]
+            
+check
+=
+False
+            
 capture_output
 =
 True
+            
 text
 =
 True

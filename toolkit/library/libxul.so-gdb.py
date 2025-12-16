@@ -191,7 +191,7 @@ in
 )
 :
     
-objdir
+candidate
 =
 abspath
 (
@@ -208,7 +208,7 @@ if
 not
 exists
 (
-objdir
+candidate
 +
 "
 /
@@ -222,13 +222,10 @@ gdbinit
         
 continue
     
-if
 objdir
-is
-not
-None
-:
-        
+=
+candidate
+    
 m
 =
 re
@@ -260,7 +257,7 @@ False
 True
 )
 )
-        
+    
 if
 m
 and
@@ -283,7 +280,7 @@ split
 )
 )
 :
-            
+        
 gdb
 .
 execute
@@ -304,24 +301,6 @@ group
 1
 )
 }
-"
-)
-else
-:
-    
-gdb
-.
-write
-(
-"
-Warning
-:
-Gecko
-objdir
-not
-found
-\
-n
 "
 )
 if
@@ -370,5 +349,23 @@ build
 gdbinit
 .
 loader
+"
+)
+else
+:
+    
+gdb
+.
+write
+(
+"
+Warning
+:
+Gecko
+objdir
+not
+found
+\
+n
 "
 )

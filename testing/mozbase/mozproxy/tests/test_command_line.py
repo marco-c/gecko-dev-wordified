@@ -528,6 +528,9 @@ mozproxy
 help
 "
 ]
+check
+=
+False
 )
     
 assert

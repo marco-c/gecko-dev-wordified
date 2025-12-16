@@ -2526,9 +2526,6 @@ sleep
 5
 )
         
-else
-:
-            
 raise
 TimeoutException
 (

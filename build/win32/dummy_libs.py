@@ -180,6 +180,10 @@ AR_FLAGS
 "
 ]
 ]
+            
+check
+=
+False
         
 )
         

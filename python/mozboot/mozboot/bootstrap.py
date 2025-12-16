@@ -1003,9 +1003,15 @@ T
 json
 "
 ]
+        
+check
+=
+False
+        
 capture_output
 =
 True
+        
 text
 =
 True
@@ -5275,6 +5281,10 @@ sysctl
 proc_translated
 "
 ]
+        
+check
+=
+False
         
 stdout
 =

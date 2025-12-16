@@ -199,6 +199,9 @@ subprocess
 run
 (
 cmd
+check
+=
+False
 cwd
 =
 GECKO

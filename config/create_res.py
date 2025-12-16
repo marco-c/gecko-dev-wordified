@@ -541,6 +541,9 @@ subprocess
 run
 (
 command
+check
+=
+False
 stdout
 =
 fh
@@ -735,6 +738,9 @@ subprocess
 run
 (
 command
+check
+=
+False
 )
 .
 returncode

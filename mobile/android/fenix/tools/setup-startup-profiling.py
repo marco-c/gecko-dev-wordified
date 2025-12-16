@@ -498,6 +498,7 @@ device
         
 run
 (
+            
 [
 "
 adb
@@ -518,6 +519,11 @@ PATH_PREFIX
 filename
 )
 ]
+            
+check
+=
+False
+        
 )
         
 run
@@ -546,6 +552,9 @@ persistent
 "
 id
 ]
+check
+=
+False
 )
         
 print
@@ -696,6 +705,9 @@ PATH_PREFIX
 +
 filename
 ]
+check
+=
+False
 )
     
 run
@@ -718,6 +730,9 @@ debug
 app
 "
 ]
+check
+=
+False
 )
 def
 convert_channel_to_id

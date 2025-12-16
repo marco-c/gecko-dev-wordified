@@ -890,6 +890,9 @@ subprocess
 run
 (
 command
+check
+=
+False
 )
     
 if

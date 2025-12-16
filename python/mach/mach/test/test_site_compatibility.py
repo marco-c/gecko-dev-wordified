@@ -95,6 +95,10 @@ lockfiles
 "
 ]
         
+check
+=
+False
+        
 stdout
 =
 subprocess
