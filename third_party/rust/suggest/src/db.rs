@@ -935,6 +935,10 @@ self
 Result
 <
 WriteScope
+<
+'
+_
+>
 >
 {
 Ok
