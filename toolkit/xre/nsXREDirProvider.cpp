@@ -625,7 +625,7 @@ gDataDirHome
 =
 nullptr
 ;
-MOZ_CONSTINIT
+constinit
 nsCOMPtr
 <
 nsIFile
@@ -634,7 +634,7 @@ gDataDirProfileLocal
 {
 }
 ;
-MOZ_CONSTINIT
+constinit
 nsCOMPtr
 <
 nsIFile

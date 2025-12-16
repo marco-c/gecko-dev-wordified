@@ -1277,7 +1277,7 @@ return
 false
 ;
 }
-MOZ_CONSTINIT
+constinit
 Bootstrap
 :
 :

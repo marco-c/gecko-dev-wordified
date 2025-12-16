@@ -13963,7 +13963,7 @@ aIsLocked
 )
 {
 }
-MOZ_CONSTINIT
+constinit
 static
 nsCString
 gTestParseErrorMsgs
