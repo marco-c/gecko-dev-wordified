@@ -336,7 +336,7 @@ bool
 CheckForReservedFileName
 (
 const
-nsAString
+nsString
 &
 aFileName
 )
