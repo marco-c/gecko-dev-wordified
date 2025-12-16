@@ -1210,13 +1210,6 @@ bool
 aParseAllowAttribute
 )
 ;
-void
-RefreshEmbedderReferrerPolicy
-(
-ReferrerPolicy
-aPolicy
-)
-;
 /
 /
 If
