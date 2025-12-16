@@ -932,7 +932,7 @@ nullptr
 )
 ;
 }
-MOZ_CONSTINIT
+constinit
 Bootstrap
 :
 :

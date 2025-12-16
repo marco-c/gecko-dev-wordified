@@ -1148,7 +1148,7 @@ topmost
 /
 one
 .
-MOZ_CONSTINIT
+constinit
 static
 nsTArray
 <
