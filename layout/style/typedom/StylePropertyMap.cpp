@@ -554,6 +554,17 @@ CSSStyleValue
 ValueType
 :
 :
+MathSum
+:
+break
+;
+case
+CSSStyleValue
+:
+:
+ValueType
+:
+:
 UnitValue
 :
 break
