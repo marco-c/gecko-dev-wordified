@@ -158,12 +158,6 @@ screenshotActor
 ;
 }
 }
-exports
-.
-ScreenshotFront
-=
-ScreenshotFront
-;
 registerFront
 (
 ScreenshotFront

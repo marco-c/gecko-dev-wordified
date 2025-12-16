@@ -353,12 +353,6 @@ result
 ;
 }
 }
-exports
-.
-PrivatePropertiesIteratorFront
-=
-PrivatePropertiesIteratorFront
-;
 registerFront
 (
 PrivatePropertiesIteratorFront

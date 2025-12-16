@@ -1151,12 +1151,6 @@ absoluteStartTimeAtCreated
 ;
 }
 }
-exports
-.
-AnimationPlayerFront
-=
-AnimationPlayerFront
-;
 registerFront
 (
 AnimationPlayerFront
@@ -1249,12 +1243,6 @@ null
 ;
 }
 }
-exports
-.
-AnimationsFront
-=
-AnimationsFront
-;
 registerFront
 (
 AnimationsFront

@@ -160,12 +160,6 @@ networkContentActor
 ;
 }
 }
-exports
-.
-NetworkContentFront
-=
-NetworkContentFront
-;
 registerFront
 (
 NetworkContentFront

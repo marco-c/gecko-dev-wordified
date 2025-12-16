@@ -1994,12 +1994,6 @@ _targetFront
 ;
 }
 }
-exports
-.
-TabDescriptorFront
-=
-TabDescriptorFront
-;
 registerFront
 (
 TabDescriptorFront

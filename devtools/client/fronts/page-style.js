@@ -734,12 +734,6 @@ clear
 ;
 }
 }
-exports
-.
-PageStyleFront
-=
-PageStyleFront
-;
 registerFront
 (
 PageStyleFront

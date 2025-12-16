@@ -225,8 +225,6 @@ ContentScriptTargetFront
 ;
 registerFront
 (
-exports
-.
 ContentScriptTargetFront
 )
 ;

@@ -154,12 +154,6 @@ manifestActor
 ;
 }
 }
-exports
-.
-ManifestFront
-=
-ManifestFront
-;
 registerFront
 (
 ManifestFront

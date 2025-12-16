@@ -401,12 +401,6 @@ result
 ;
 }
 }
-exports
-.
-PropertyIteratorFront
-=
-PropertyIteratorFront
-;
 registerFront
 (
 PropertyIteratorFront

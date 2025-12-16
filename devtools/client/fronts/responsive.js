@@ -173,12 +173,6 @@ responsiveActor
 ;
 }
 }
-exports
-.
-ResponsiveFront
-=
-ResponsiveFront
-;
 registerFront
 (
 ResponsiveFront

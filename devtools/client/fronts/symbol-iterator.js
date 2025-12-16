@@ -314,12 +314,6 @@ result
 ;
 }
 }
-exports
-.
-SymbolIteratorFront
-=
-SymbolIteratorFront
-;
 registerFront
 (
 SymbolIteratorFront

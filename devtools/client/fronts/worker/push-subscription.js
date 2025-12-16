@@ -167,12 +167,6 @@ form
 ;
 }
 }
-exports
-.
-PushSubscriptionFront
-=
-PushSubscriptionFront
-;
 registerFront
 (
 PushSubscriptionFront

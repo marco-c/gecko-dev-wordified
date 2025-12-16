@@ -178,12 +178,6 @@ webExtensionInspectedWindowActor
 ;
 }
 }
-exports
-.
-WebExtensionInspectedWindowFront
-=
-WebExtensionInspectedWindowFront
-;
 registerFront
 (
 WebExtensionInspectedWindowFront

@@ -348,12 +348,6 @@ nodes
 ;
 }
 }
-exports
-.
-NodeListFront
-=
-NodeListFront
-;
 registerFront
 (
 NodeListFront

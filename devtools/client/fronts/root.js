@@ -2043,12 +2043,6 @@ Actor
 ;
 }
 }
-exports
-.
-RootFront
-=
-RootFront
-;
 registerFront
 (
 RootFront

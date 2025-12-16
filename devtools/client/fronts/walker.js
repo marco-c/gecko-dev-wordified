@@ -3064,12 +3064,6 @@ cancelPick
 ;
 }
 }
-exports
-.
-WalkerFront
-=
-WalkerFront
-;
 registerFront
 (
 WalkerFront

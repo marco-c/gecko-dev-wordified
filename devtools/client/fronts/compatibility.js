@@ -117,12 +117,6 @@ compatibilitySpec
 )
 {
 }
-exports
-.
-CompatibilityFront
-=
-CompatibilityFront
-;
 registerFront
 (
 CompatibilityFront

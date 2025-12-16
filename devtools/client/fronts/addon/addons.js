@@ -160,12 +160,6 @@ addonsActor
 ;
 }
 }
-exports
-.
-AddonsFront
-=
-AddonsFront
-;
 registerFront
 (
 AddonsFront
