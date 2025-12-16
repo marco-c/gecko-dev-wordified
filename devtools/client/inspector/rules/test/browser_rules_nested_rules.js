@@ -306,6 +306,9 @@ selector
 "
 element
 "
+selectorEditable
+:
+false
 ancestorRulesData
 :
 null
@@ -442,6 +445,9 @@ selector
 "
 element
 "
+selectorEditable
+:
+false
 ancestorRulesData
 :
 null
@@ -513,6 +519,9 @@ selector
 "
 element
 "
+selectorEditable
+:
+false
 ancestorRulesData
 :
 null
@@ -586,6 +595,9 @@ selector
 "
 element
 "
+selectorEditable
+:
+false
 ancestorRulesData
 :
 null
@@ -658,6 +670,9 @@ selector
 "
 element
 "
+selectorEditable
+:
+false
 ancestorRulesData
 :
 null
@@ -733,6 +748,9 @@ selector
 "
 element
 "
+selectorEditable
+:
+false
 ancestorRulesData
 :
 null

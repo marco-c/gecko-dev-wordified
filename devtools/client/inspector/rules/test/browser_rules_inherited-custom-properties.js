@@ -336,6 +336,9 @@ element
 ancestorRulesData
 :
 null
+selectorEditable
+:
+false
 declarations
 :
 [

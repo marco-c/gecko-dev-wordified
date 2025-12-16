@@ -1469,6 +1469,9 @@ declarations
 :
 [
 ]
+selectorEditable
+:
+false
 }
 {
 selector

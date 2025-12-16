@@ -293,6 +293,9 @@ selector
 "
 element
 "
+selectorEditable
+:
+false
 declarations
 :
 [
@@ -429,6 +432,9 @@ selector
 "
 element
 "
+selectorEditable
+:
+false
 declarations
 :
 [
@@ -567,6 +573,9 @@ selector
 "
 element
 "
+selectorEditable
+:
+false
 declarations
 :
 [
@@ -762,6 +771,9 @@ selector
 "
 element
 "
+selectorEditable
+:
+false
 declarations
 :
 [
@@ -1032,6 +1044,9 @@ selector
 "
 element
 "
+selectorEditable
+:
+false
 declarations
 :
 [
@@ -1330,6 +1345,9 @@ selector
 "
 element
 "
+selectorEditable
+:
+false
 declarations
 :
 [
@@ -1757,6 +1775,9 @@ selector
 "
 element
 "
+selectorEditable
+:
+false
 declarations
 :
 [
@@ -2219,6 +2240,9 @@ selector
 "
 element
 "
+selectorEditable
+:
+false
 declarations
 :
 [
@@ -2735,6 +2759,9 @@ selector
 "
 element
 "
+selectorEditable
+:
+false
 declarations
 :
 [
@@ -3256,6 +3283,9 @@ selector
 "
 element
 "
+selectorEditable
+:
+false
 declarations
 :
 [
@@ -3888,6 +3918,9 @@ selector
 "
 element
 "
+selectorEditable
+:
+false
 declarations
 :
 [

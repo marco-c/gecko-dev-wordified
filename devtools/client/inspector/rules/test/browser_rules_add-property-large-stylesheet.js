@@ -222,6 +222,9 @@ selector
 "
 element
 "
+selectorEditable
+:
+false
 declarations
 :
 [
