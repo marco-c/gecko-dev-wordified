@@ -304,6 +304,11 @@ ProgressTimelineType
 aType
 )
 ;
+void
+UpdateHiddenByContentVisibilityForAnimations
+(
+)
+;
 private
 :
 template
