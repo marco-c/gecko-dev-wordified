@@ -6049,10 +6049,8 @@ SubscribeRoleConflict
 [
 this
 ]
-(
-)
 {
-NotifyRoleConflict
+NotifyRoleConflictInternal
 (
 )
 ;
@@ -6207,7 +6205,7 @@ size
 i
 )
 {
-SignalCandidateGathered
+NotifyCandidateGathered
 (
 this
 candidates
@@ -7576,11 +7574,11 @@ void
 P2PTransportChannel
 :
 :
-NotifyRoleConflict
+NotifyRoleConflictInternal
 (
 )
 {
-SignalRoleConflict
+NotifyRoleConflict
 (
 this
 )
@@ -13516,10 +13514,10 @@ org
 /
 42234495
 -
-rmeove
+remove
 nonstandard
 state_
-SignalIceTransportStateChanged
+NotifyIceTransportStateChanged
 (
 this
 )
