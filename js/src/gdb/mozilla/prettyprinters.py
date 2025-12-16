@@ -802,12 +802,6 @@ module_name
 :
     
 global
-printers_by_tag
-ptr_printers_by_tag
-ref_printers_by_tag
-    
-global
-template_printers_by_tag
 printers_by_regexp
     
 #

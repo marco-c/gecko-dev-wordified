@@ -726,9 +726,6 @@ re
 initialization
 .
         
-global
-devices
-        
 if
 device_serial
 in

@@ -515,15 +515,15 @@ read
 (
 )
     
-global
-gecko_trace_files
+namespace
+=
+{
+}
     
 exec
 (
 index_src
-globals
-(
-)
+namespace
 )
     
 return
@@ -540,12 +540,13 @@ x
 for
 x
 in
+namespace
+[
+"
 gecko_trace_files
+"
 ]
-#
-type
-:
-ignore
+]
 memoize
 def
 _jinja2_env

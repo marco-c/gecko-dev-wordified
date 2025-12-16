@@ -924,9 +924,6 @@ with
 "
 "
     
-global
-_default_logger_name
-    
 if
 not
 _default_logger_name

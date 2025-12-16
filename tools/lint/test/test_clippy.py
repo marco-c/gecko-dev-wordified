@@ -706,9 +706,6 @@ the
 fixed
 counter
     
-global
-fixed
-    
 fixed_before
 =
 fixed

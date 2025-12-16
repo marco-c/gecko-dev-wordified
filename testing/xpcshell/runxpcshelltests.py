@@ -15285,9 +15285,6 @@ tests
 "
 "
         
-global
-gotSIGINT
-        
 #
 Number
 of

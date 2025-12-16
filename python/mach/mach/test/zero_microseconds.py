@@ -66,9 +66,6 @@ args
 )
 :
     
-global
-old
-    
 #
 Round
 off

@@ -2759,9 +2759,6 @@ determined
 "
 "
     
-global
-project_root
-    
 if
 not
 project_root
