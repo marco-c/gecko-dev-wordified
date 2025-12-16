@@ -661,6 +661,13 @@ ToShmem
 ToTyped
 )
 ]
+#
+[
+typed_value
+(
+derive_fields
+)
+]
 pub
 enum
 LineWidth
@@ -1107,6 +1114,13 @@ SpecifiedValueInfo
 ToCss
 ToShmem
 ToTyped
+)
+]
+#
+[
+typed_value
+(
+derive_fields
 )
 ]
 pub
