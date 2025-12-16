@@ -411,18 +411,11 @@ get
 ;
 udp_socket_
 =
-std
-:
-:
-unique_ptr
-<
-AsyncPacketSocket
->
-(
 socket_factory_
 .
 CreateUdpSocket
 (
+env_
 SocketAddress
 (
 GetAnyIP
@@ -433,7 +426,6 @@ AF_INET
 )
 min_port
 max_port
-)
 )
 ;
 RTC_CHECK
