@@ -3410,7 +3410,7 @@ push
 Instruction
 :
 :
-ext_inst
+ext_inst_gl_op
 (
 self
 .
@@ -4230,7 +4230,7 @@ push
 Instruction
 :
 :
-ext_inst
+ext_inst_gl_op
 (
 self
 .
@@ -6405,7 +6405,7 @@ push
 Instruction
 :
 :
-ext_inst
+ext_inst_gl_op
 (
 self
 .

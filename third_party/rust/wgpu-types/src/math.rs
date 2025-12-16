@@ -1,7 +1,7 @@
 /
 /
 !
-Utilitary
+Utility
 math
 functions
 .
