@@ -1938,7 +1938,7 @@ TYPES
 =
 this
 .
-commands
+toolbox
 .
 resourceCommand
 ;
@@ -2064,7 +2064,7 @@ ROOT_NODE
 await
 this
 .
-commands
+toolbox
 .
 resourceCommand
 .
@@ -2769,7 +2769,7 @@ resourceType
 =
 this
 .
-commands
+toolbox
 .
 resourceCommand
 .
@@ -2858,7 +2858,7 @@ resourceType
 =
 this
 .
-commands
+toolbox
 .
 resourceCommand
 .
@@ -2901,7 +2901,7 @@ resourceType
 =
 this
 .
-commands
+toolbox
 .
 resourceCommand
 .
@@ -11770,7 +11770,7 @@ resourceCommand
 =
 this
 .
-commands
+toolbox
 ;
 resourceCommand
 .

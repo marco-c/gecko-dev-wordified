@@ -2374,7 +2374,7 @@ resourceCommand
 =
 this
 .
-_commands
+_toolbox
 ;
 this
 .
@@ -2473,7 +2473,7 @@ EXTENSION_STORAGE
 await
 this
 .
-_commands
+_toolbox
 .
 resourceCommand
 .
@@ -3235,7 +3235,7 @@ resourceCommand
 =
 this
 .
-_commands
+_toolbox
 ;
 resourceCommand
 .

@@ -768,7 +768,7 @@ resourceCommand
 =
 inspector
 .
-commands
+toolbox
 ;
 const
 onTargetProcessed

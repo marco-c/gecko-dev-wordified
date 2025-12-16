@@ -831,15 +831,11 @@ waitForEventWhenPaused
 await
 toolbox
 .
-commands
-.
 resourceCommand
 .
 waitForNextResource
 (
 toolbox
-.
-commands
 .
 resourceCommand
 .

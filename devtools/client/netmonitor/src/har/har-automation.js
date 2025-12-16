@@ -419,7 +419,7 @@ startMonitoring
 await
 this
 .
-commands
+toolbox
 .
 resourceCommand
 .
@@ -428,7 +428,7 @@ watchResources
 [
 this
 .
-commands
+toolbox
 .
 resourceCommand
 .
