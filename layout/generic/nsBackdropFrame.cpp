@@ -368,9 +368,10 @@ nsBackdropFrame
 :
 ComputeAutoSize
 (
-gfxContext
-*
-aRenderingContext
+const
+SizeComputationInput
+&
+aSizingInput
 WritingMode
 aWM
 const
@@ -443,7 +444,7 @@ out
 return
 ComputeAbsolutePosAutoSize
 (
-aRenderingContext
+aSizingInput
 aWM
 aCBSize
 aAvailableISize

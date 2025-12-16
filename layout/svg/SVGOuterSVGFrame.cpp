@@ -2212,9 +2212,10 @@ SVGOuterSVGFrame
 :
 ComputeSize
 (
-gfxContext
-*
-aRenderingContext
+const
+SizeComputationInput
+&
+aSizingInput
 WritingMode
 aWritingMode
 const
@@ -2796,7 +2797,9 @@ return
 {
 ComputeSizeWithIntrinsicDimensions
 (
-aRenderingContext
+aSizingInput
+.
+mRenderingContext
 aWritingMode
 intrinsicSize
 GetAspectRatio

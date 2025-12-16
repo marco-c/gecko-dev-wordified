@@ -14915,8 +14915,6 @@ Frame
 ComputeSize
 (
 aItemReflowInput
-.
-mRenderingContext
 itemWM
 aItemReflowInput
 .

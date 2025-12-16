@@ -14827,7 +14827,8 @@ mFrame
 >
 ComputeSize
 (
-mRenderingContext
+*
+this
 wm
 aCBSize
 .
@@ -19384,7 +19385,8 @@ mFrame
 >
 ComputeSize
 (
-mRenderingContext
+*
+this
 wm
 cbSize
 AvailableISize
