@@ -1092,6 +1092,15 @@ aParams
 )
 override
 ;
+virtual
+size_t
+SizeOfIncludingThis
+(
+MallocSizeOf
+aMallocSizeOf
+)
+override
+;
 private
 :
 nsresult
