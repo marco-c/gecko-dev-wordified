@@ -480,6 +480,10 @@ checks
 color
 -
 contrast
+&
+utm_campaign
+=
+default
 "
 onClick
 :
@@ -918,6 +922,10 @@ checks
 color
 -
 contrast
+&
+utm_campaign
+=
+default
 "
 onClick
 :
@@ -1298,6 +1306,10 @@ checks
 color
 -
 contrast
+&
+utm_campaign
+=
+default
 "
 onClick
 :
