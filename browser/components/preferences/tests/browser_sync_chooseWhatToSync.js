@@ -2065,7 +2065,6 @@ xhtml
 null
 {
 }
-async
 (
 )
 =
@@ -2188,7 +2187,6 @@ true
 const
 actual
 =
-await
 Glean
 .
 syncSettings
@@ -2571,7 +2569,7 @@ gBrowser
 .
 contentWindow
 .
-gSyncPane
+SyncHelpers
 .
 _chooseWhatToSync
 (
