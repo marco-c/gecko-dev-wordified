@@ -279,8 +279,10 @@ MainFrame
 .
 *
 /
-function
+class
 DomView
+{
+constructor
 (
 localStore
 )
@@ -323,11 +325,6 @@ store
 localStore
 ;
 }
-DomView
-.
-prototype
-=
-{
 initialize
 (
 rootGrip
@@ -441,7 +438,6 @@ args
 }
 }
 }
-;
 /
 /
 Construct
