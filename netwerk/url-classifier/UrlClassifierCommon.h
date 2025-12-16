@@ -300,10 +300,6 @@ ShouldEnableProtectionForChannel
 nsIChannel
 *
 aChannel
-bool
-aShouldAllowAddons
-=
-true
 )
 ;
 static
