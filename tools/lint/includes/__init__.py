@@ -208,7 +208,7 @@ path
 return
 diff
 def
-fix
+fix_includes
 (
 path
 raw_content
@@ -590,7 +590,7 @@ if
 fix
 :
                 
-fix
+fix_includes
 (
 path
 raw_content
@@ -831,7 +831,7 @@ if
 fix
 :
             
-fix
+fix_includes
 (
 path
 raw_content
