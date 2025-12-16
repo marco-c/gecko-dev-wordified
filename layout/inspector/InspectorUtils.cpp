@@ -3901,6 +3901,12 @@ case
 StyleCssRuleType
 :
 :
+PositionTry
+:
+case
+StyleCssRuleType
+:
+:
 Property
 :
 case
@@ -4023,12 +4029,6 @@ StyleCssRuleType
 :
 :
 StartingStyle
-:
-case
-StyleCssRuleType
-:
-:
-PositionTry
 :
 case
 StyleCssRuleType
