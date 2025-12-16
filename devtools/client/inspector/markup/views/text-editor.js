@@ -219,6 +219,13 @@ COMMENT
 nodes
 .
 *
+/
+class
+TextEditor
+{
+/
+*
+*
 *
 param
 {
@@ -272,8 +279,7 @@ comment
 .
 *
 /
-function
-TextEditor
+constructor
 (
 container
 node
@@ -329,11 +335,6 @@ type
 )
 ;
 }
-TextEditor
-.
-prototype
-=
-{
 buildMarkup
 (
 type
@@ -738,7 +739,6 @@ null
 ;
 }
 }
-;
 module
 .
 exports
