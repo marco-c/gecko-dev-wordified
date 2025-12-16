@@ -17791,6 +17791,13 @@ overflowClipMargin
 OverflowClipMargin
 (
 overflowClipAxes
+/
+*
+aAllowNegative
+=
+*
+/
+false
 )
 ;
 if
@@ -17802,9 +17809,8 @@ kPhysicalAxesBoth
 &
 &
 overflowClipMargin
-=
-=
-nsSize
+.
+IsAllZero
 (
 )
 )

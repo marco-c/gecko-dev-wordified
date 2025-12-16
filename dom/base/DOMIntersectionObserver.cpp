@@ -5944,6 +5944,13 @@ aTargetFrame
 OverflowClipMargin
 (
 clipAxes
+/
+*
+aAllowNegative
+=
+*
+/
+false
 )
 )
 ;
