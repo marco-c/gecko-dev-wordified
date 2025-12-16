@@ -2147,7 +2147,7 @@ RTC_DCHECK_RUN_ON
 network_thread_
 )
 ;
-SignalNetworkRouteChanged
+NotifyNetworkRouteChanged
 (
 network_route_
 )
@@ -2849,13 +2849,13 @@ if
 writable_
 )
 {
-SignalReadyToSend
+NotifyReadyToSend
 (
 this
 )
 ;
 }
-SignalWritableState
+NotifyWritableState
 (
 this
 )
@@ -2887,7 +2887,7 @@ receiving_
 =
 receiving
 ;
-SignalReceivingState
+NotifyReceivingState
 (
 this
 )
