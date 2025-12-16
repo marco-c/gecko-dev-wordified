@@ -132,6 +132,17 @@ include
 "
 api
 /
+environment
+/
+environment
+.
+h
+"
+#
+include
+"
+api
+/
 units
 /
 time_delta
@@ -2416,6 +2427,10 @@ NATSocketServer
 AddTranslator
 (
 const
+Environment
+&
+env
+const
 SocketAddress
 &
 ext_ip
@@ -2461,6 +2476,7 @@ ext_ip
 new
 Translator
 (
+env
 this
 type
 int_ip
@@ -2693,6 +2709,10 @@ Translator
 :
 Translator
 (
+const
+Environment
+&
+env
 NATSocketServer
 *
 server
@@ -2794,6 +2814,7 @@ make_unique
 NATServer
 >
 (
+env
 type
 *
 server
@@ -2877,6 +2898,10 @@ Translator
 AddTranslator
 (
 const
+Environment
+&
+env
+const
 SocketAddress
 &
 ext_ip
@@ -2927,6 +2952,7 @@ ext_ip
 new
 Translator
 (
+env
 server_
 type
 int_ip
