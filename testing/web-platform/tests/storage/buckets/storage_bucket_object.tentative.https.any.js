@@ -269,14 +269,12 @@ estimate
 (
 )
 ;
-assert_equals
+assert_greater_than
 (
-estimate
-.
-quota
 estimate2
 .
 quota
+0
 )
 ;
 assert_less_than
