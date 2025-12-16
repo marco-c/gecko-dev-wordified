@@ -751,7 +751,7 @@ private
 /
 The
 following
-three
+four
 variables
 are
 used
@@ -795,6 +795,9 @@ RTC_GUARDED_BY
 (
 signaling_thread_
 )
+;
+bool
+blocking_media_engine_destruction_
 ;
 Thread
 *
