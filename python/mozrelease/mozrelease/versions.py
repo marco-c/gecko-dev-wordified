@@ -578,10 +578,11 @@ self
 "
 )
             
-self
+self_version
 =
 MozillaVersion
 (
+                
 str
 (
 self
@@ -591,6 +592,7 @@ self
 -
 3
 ]
+            
 )
 #
 strip
@@ -599,6 +601,13 @@ from
 end
 of
 string
+        
+else
+:
+            
+self_version
+=
+self
         
 if
 isinstance
@@ -610,7 +619,7 @@ or
 isinstance
 (
             
-self
+self_version
 LooseModernMozillaVersion
         
 )
@@ -653,7 +662,7 @@ LooseModernMozillaVersion
 (
 str
 (
-self
+self_version
 )
 )
                 
@@ -687,7 +696,7 @@ StrictVersion
 .
 _cmp
 (
-self
+self_version
 other
 )
         
