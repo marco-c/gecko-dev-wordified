@@ -397,7 +397,7 @@ y
 StyleControlReference
 :
 :
-Start
+None
 }
 ;
 return
