@@ -4919,7 +4919,6 @@ conn1
 >
 Ping
 (
-0
 )
 ;
 SIMULATED_WAIT
@@ -5045,7 +5044,6 @@ conn2
 >
 Ping
 (
-0
 )
 ;
 /
@@ -5163,7 +5161,6 @@ conn1
 >
 Ping
 (
-0
 )
 ;
 EXPECT_THAT
@@ -5383,7 +5380,6 @@ conn1
 >
 Ping
 (
-0
 )
 ;
 EXPECT_THAT
@@ -5483,7 +5479,6 @@ conn1
 >
 Ping
 (
-0
 )
 ;
 EXPECT_THAT
@@ -5822,7 +5817,6 @@ conn1
 >
 Ping
 (
-0
 )
 ;
 EXPECT_THAT
@@ -5905,7 +5899,6 @@ conn1
 >
 Ping
 (
-0
 )
 ;
 EXPECT_THAT
@@ -6183,7 +6176,6 @@ conn1
 >
 Ping
 (
-0
 )
 ;
 EXPECT_THAT
@@ -6240,7 +6232,6 @@ conn2
 >
 Ping
 (
-0
 )
 ;
 EXPECT_THAT
@@ -6824,7 +6815,6 @@ conn1
 >
 Ping
 (
-0
 )
 ;
 EXPECT_THAT
@@ -6881,7 +6871,6 @@ conn2
 >
 Ping
 (
-0
 )
 ;
 EXPECT_THAT
@@ -11613,7 +11602,6 @@ conn2
 >
 Ping
 (
-0
 )
 ;
 EXPECT_THAT
@@ -11688,7 +11676,6 @@ conn2
 >
 Ping
 (
-0
 )
 ;
 SIMULATED_WAIT
@@ -13052,7 +13039,6 @@ conn1
 >
 Ping
 (
-0
 )
 ;
 EXPECT_THAT

@@ -2459,7 +2459,7 @@ clock
 (
 )
 .
-TimeInMilliseconds
+CurrentTime
 (
 )
 )
@@ -2475,7 +2475,7 @@ clock
 (
 )
 .
-TimeInMilliseconds
+CurrentTime
 (
 )
 )
@@ -3097,7 +3097,7 @@ clock
 (
 )
 .
-TimeInMilliseconds
+CurrentTime
 (
 )
 )
@@ -3749,7 +3749,7 @@ clock
 (
 )
 .
-TimeInMilliseconds
+CurrentTime
 (
 )
 )
