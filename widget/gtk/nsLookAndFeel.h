@@ -430,6 +430,9 @@ NS_RGB
 255
 )
 ;
+#
+ifdef
+MOZ_ENABLE_DBUS
 /
 /
 Returns
@@ -464,6 +467,8 @@ GVariant
 aValue
 )
 ;
+#
+endif
 struct
 ColorPair
 {
@@ -636,6 +641,9 @@ ComputeColorSchemeSetting
 (
 )
 ;
+#
+ifdef
+MOZ_ENABLE_DBUS
 void
 WatchDBus
 (
@@ -646,6 +654,8 @@ UnwatchDBus
 (
 )
 ;
+#
+endif
 /
 /
 We
