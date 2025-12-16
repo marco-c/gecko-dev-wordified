@@ -329,16 +329,8 @@ har
 logs
 *
 /
-function
+class
 HarAutomation
-(
-)
-{
-}
-HarAutomation
-.
-prototype
-=
 {
 /
 /
@@ -1215,7 +1207,6 @@ fullText
 ;
 }
 }
-;
 /
 /
 Protocol
