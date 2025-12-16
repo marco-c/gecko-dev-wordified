@@ -3798,8 +3798,12 @@ this
 selectedElement
 =
 node
+?
 .
 rawNode
+|
+|
+null
 ;
 if
 (
