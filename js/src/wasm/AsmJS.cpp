@@ -13015,6 +13015,10 @@ Shareable
 :
 :
 False
+PageSize
+:
+:
+Standard
 )
 ;
 codeMeta_
@@ -13443,6 +13447,15 @@ AddressType
 :
 :
 I32
+;
+limits
+.
+pageSize
+=
+PageSize
+:
+:
+Standard
 ;
 if
 (
