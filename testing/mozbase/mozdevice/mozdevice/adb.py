@@ -10061,20 +10061,18 @@ break
             
 if
 char
-!
-=
+not
+in
+{
 "
 \
 r
 "
-and
-char
-!
-=
 "
 \
 n
 "
+}
 :
                 
 line

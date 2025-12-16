@@ -7371,29 +7371,24 @@ accordingly
                     
 assert
 type
-=
-=
+in
+{
+                        
 (
 Any
 None
 None
 None
 )
-or
-type
-=
-=
+                        
 (
-                        
 Any
-                        
 None
-                        
 None
-                        
 Any
+)
                     
-)
+}
                     
 assert
 replacement
@@ -8160,8 +8155,9 @@ new_rules
                 
 assert
 k
-=
-=
+in
+{
+                    
 (
 Any
 None
@@ -8172,25 +8168,19 @@ guoyu
 hakka
 "
 )
-or
-k
-=
-=
+                    
 (
-                    
 Any
-                    
 None
-                    
 None
-                    
 "
 guoyu
 -
 xiang
 "
-                
 )
+                
+}
         
 #
 Merge
@@ -10339,23 +10329,16 @@ u
 )
             
 assert
-(
-                
 extension
-=
-=
+in
+{
 "
 u
 "
-or
-extension
-=
-=
 "
 t
 "
-            
-)
+}
 f
 "
 unknown
@@ -25935,18 +25918,16 @@ items
         
 if
 unit_type
-!
-=
+not
+in
+{
 "
 compound
 "
-and
-unit_type
-!
-=
 "
 coordinate
 "
+}
         
 for
 unit_name

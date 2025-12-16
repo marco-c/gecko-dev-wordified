@@ -186,16 +186,14 @@ true_branch
                         
 if
 revision
-!
-=
+not
+in
+{
 "
 HEAD
 "
-and
-revision
-!
-=
 branch
+}
 :
                             
 raise

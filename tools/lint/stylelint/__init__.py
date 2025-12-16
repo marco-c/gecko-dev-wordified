@@ -1217,16 +1217,12 @@ if
 proc
 .
 returncode
-!
-=
+not
+in
+{
 0
-and
-proc
-.
-returncode
-!
-=
 2
+}
 :
         
 if

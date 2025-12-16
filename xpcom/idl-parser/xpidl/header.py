@@ -1324,25 +1324,18 @@ sure
             
 if
 t
-=
-=
+in
+{
 "
 AString
 "
-or
-t
-=
-=
 "
 ACString
 "
-or
-t
-=
-=
 "
 AUTF8String
 "
+}
 :
                 
 break
@@ -3140,22 +3133,16 @@ member
 realtype
 .
 kind
-!
-=
+not
+in
+{
 "
 builtin
 "
-and
-member
-.
-realtype
-.
-kind
-!
-=
 "
 cenum
 "
+}
 :
         
 assert

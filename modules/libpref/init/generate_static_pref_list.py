@@ -1202,18 +1202,15 @@ value
         
 if
 typ
-=
-=
+in
+{
 "
 String
 "
-or
-typ
-=
-=
 "
 DataMutexString
 "
+}
 :
             
 if

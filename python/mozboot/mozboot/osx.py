@@ -246,18 +246,16 @@ machine
         
 if
 os_arch
-!
-=
+not
+in
+{
 "
 x86_64
 "
-and
-os_arch
-!
-=
 "
 arm64
 "
+}
 :
             
 raise
@@ -298,18 +296,15 @@ android
         
 if
 os_arch
-=
-=
+in
+{
 "
 x86_64
 "
-or
-os_arch
-=
-=
 "
 x86
 "
+}
 :
             
 avd_manifest_path
@@ -386,18 +381,15 @@ arch
         
 if
 arch
-=
-=
+in
+{
 "
 x86_64
 "
-or
-arch
-=
-=
 "
 x86
 "
+}
 :
             
 self

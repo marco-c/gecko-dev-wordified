@@ -1021,20 +1021,17 @@ filenames
             
 if
 filename
-=
-=
+in
+{
 "
 chromedriver
 "
-or
-filename
-=
-=
 "
 chromedriver
 .
 exe
 "
+}
 :
                 
 cd_path

@@ -639,22 +639,19 @@ file
                 
 if
 file
-=
-=
+in
+{
 "
 config
 .
 yml
 "
-or
-file
-=
-=
 "
 config
 .
 yaml
 "
+}
 :
                     
 matched

@@ -1417,29 +1417,20 @@ a
 not
 in
 list2
-            
 and
-(
 a
-!
-=
+not
+in
+{
 "
 any
 "
-and
-a
-!
-=
 "
 Promise
 <
 any
 >
 "
-and
-a
-!
-=
 "
 Promise
 <
@@ -1447,7 +1438,7 @@ any
 >
 ?
 "
-)
+}
         
 ]
     

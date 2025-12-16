@@ -5837,20 +5837,15 @@ if
 f
 .
 name
-=
-=
+in
+{
 "
 SERVICE_INTERFACE
 "
-or
-f
-.
-name
-=
-=
 "
 PROVIDER_INTERFACE
 "
+}
 :
             
 continue
@@ -6030,13 +6025,12 @@ settings
 "
                     
 elif
-(
-                        
 clazz
 .
 fullname
-=
-=
+in
+{
+                        
 "
 android
 .
@@ -6047,12 +6041,6 @@ admin
 DevicePolicyManager
 "
                         
-or
-clazz
-.
-fullname
-=
-=
 "
 android
 .
@@ -6063,7 +6051,7 @@ admin
 DeviceAdminReceiver
 "
                     
-)
+}
 :
                         
 prefix
@@ -13154,7 +13142,11 @@ m
 )
             
 if
-(
+a
+.
+typ
+in
+{
                 
 "
 java
@@ -13163,13 +13155,7 @@ io
 .
 FileDescriptor
 "
-=
-=
-a
-.
-typ
                 
-or
 "
 android
 .
@@ -13177,13 +13163,7 @@ os
 .
 ParcelFileDescriptor
 "
-=
-=
-a
-.
-typ
                 
-or
 "
 java
 .
@@ -13191,13 +13171,7 @@ io
 .
 InputStream
 "
-=
-=
-a
-.
-typ
                 
-or
 "
 java
 .
@@ -13205,13 +13179,8 @@ io
 .
 OutputStream
 "
-=
-=
-a
-.
-typ
             
-)
+}
 :
                 
 has_stream
@@ -16962,28 +16931,19 @@ annotations
 :
             
 if
-(
-                
 a
 .
 typ
 .
 name
-=
-=
+in
+{
+                
 DEPRECATED_ANNOTATION
                 
-or
-a
-.
-typ
-.
-name
-=
-=
 DEPRECATION_SCHEDULE_ANNOTATION
             
-)
+}
 :
                 
 return

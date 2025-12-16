@@ -12055,20 +12055,16 @@ assert
 obj
 .
 KIND
-!
-=
+not
+in
+{
 "
 host
 "
-and
-obj
-.
-KIND
-!
-=
 "
 wasm
 "
+}
             
 backend_file
 .

@@ -899,20 +899,15 @@ if
 f
 .
 name
-=
-=
+in
+{
 "
 mKeyHash
 "
-or
-f
-.
-name
-=
-=
 "
 mData
 "
+}
 :
                 
 continue

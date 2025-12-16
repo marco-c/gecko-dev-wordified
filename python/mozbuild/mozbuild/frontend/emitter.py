@@ -10314,28 +10314,20 @@ context
 )
             
 if
-(
-                
 full_path
-=
-=
+in
+{
 context
 .
 config
 .
 topsrcdir
-                
-or
-full_path
-=
-=
 context
 .
 config
 .
 topobjdir
-            
-)
+}
 :
                 
 raise

@@ -1599,18 +1599,15 @@ break
                 
 if
 item
-=
-=
+in
+{
 "
 load
 "
-or
-item
-=
-=
 "
 script
 "
+}
 :
                     
 add_test
@@ -1630,27 +1627,20 @@ break
                 
 if
 item
-=
-=
+in
+{
 "
 =
 =
 "
-or
-item
-=
-=
 "
 !
 =
 "
-or
-item
-=
-=
 "
 print
 "
+}
 :
                     
 add_test

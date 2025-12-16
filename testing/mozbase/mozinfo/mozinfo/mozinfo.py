@@ -472,10 +472,10 @@ see
 if
 build_number
 in
-[
+{
 22621
 19045
-]
+}
 :
         
 build_number

@@ -348,14 +348,11 @@ CR
     
 assert
 fixed
-=
-=
-3
-or
-fixed
-=
-=
+in
+{
 2
+3
+}
 if
 __name__
 =

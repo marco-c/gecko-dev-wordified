@@ -2475,6 +2475,7 @@ stack_defs
 )
             
 if
+(
 nuses
 !
 =
@@ -2486,6 +2487,7 @@ stack_nuses
 =
 -
 1
+)
 and
 nuses
 !
@@ -2532,6 +2534,7 @@ stack_nuses
 )
             
 if
+(
 ndefs
 !
 =
@@ -2543,6 +2546,7 @@ stack_ndefs
 =
 -
 1
+)
 and
 ndefs
 !
