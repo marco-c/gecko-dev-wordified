@@ -84,6 +84,9 @@ GROUP_SIMILARITY_WEIGHT
 TITLE_SIMILARITY_WEIGHT
 :
 1
+DOMAIN_SIMILARITY_WEIGHT
+:
+1
 INTERCEPT
 :
 0
@@ -100,6 +103,11 @@ titleSim
 0
 ;
 const
+domainSim
+=
+0
+;
+const
 result
 =
 smartTabGroupingManager
@@ -108,6 +116,7 @@ calculateProbability
 (
 groupSim
 titleSim
+domainSim
 params
 )
 ;
@@ -203,6 +212,9 @@ GROUP_SIMILARITY_WEIGHT
 TITLE_SIMILARITY_WEIGHT
 :
 1
+DOMAIN_SIMILARITY_WEIGHT
+:
+1
 INTERCEPT
 :
 0
@@ -219,6 +231,11 @@ titleSim
 1
 ;
 const
+domainSim
+=
+1
+;
+const
 result
 =
 smartTabGroupingManager
@@ -227,6 +244,7 @@ calculateProbability
 (
 groupSim
 titleSim
+domainSim
 params
 )
 ;
@@ -243,7 +261,7 @@ Math
 exp
 (
 -
-2
+3
 )
 )
 ;
@@ -307,6 +325,9 @@ GROUP_SIMILARITY_WEIGHT
 TITLE_SIMILARITY_WEIGHT
 :
 3
+DOMAIN_SIMILARITY_WEIGHT
+:
+0
 INTERCEPT
 :
 0
@@ -326,6 +347,12 @@ titleSim
 1
 ;
 const
+domainSim
+=
+-
+1
+;
+const
 result
 =
 smartTabGroupingManager
@@ -334,6 +361,7 @@ calculateProbability
 (
 groupSim
 titleSim
+domainSim
 params
 )
 ;
@@ -424,6 +452,9 @@ GROUP_SIMILARITY_WEIGHT
 TITLE_SIMILARITY_WEIGHT
 :
 0
+DOMAIN_SIMILARITY_WEIGHT
+:
+0
 INTERCEPT
 :
 0
@@ -441,6 +472,11 @@ titleSim
 3
 ;
 const
+domainSim
+=
+1
+;
+const
 result
 =
 smartTabGroupingManager
@@ -449,6 +485,7 @@ calculateProbability
 (
 groupSim
 titleSim
+domainSim
 params
 )
 ;
@@ -544,6 +581,9 @@ GROUP_SIMILARITY_WEIGHT
 TITLE_SIMILARITY_WEIGHT
 :
 1
+DOMAIN_SIMILARITY_WEIGHT
+:
+1
 INTERCEPT
 :
 0
@@ -560,6 +600,11 @@ titleSim
 10
 ;
 const
+domainSim
+=
+10
+;
+const
 result
 =
 smartTabGroupingManager
@@ -568,6 +613,7 @@ calculateProbability
 (
 groupSim
 titleSim
+domainSim
 params
 )
 ;
@@ -584,7 +630,7 @@ Math
 exp
 (
 -
-20
+30
 )
 )
 ;
@@ -648,6 +694,9 @@ GROUP_SIMILARITY_WEIGHT
 TITLE_SIMILARITY_WEIGHT
 :
 1
+DOMAIN_SIMILARITY_WEIGHT
+:
+1
 INTERCEPT
 :
 0
@@ -666,6 +715,12 @@ titleSim
 10
 ;
 const
+domainSim
+=
+-
+10
+;
+const
 result
 =
 smartTabGroupingManager
@@ -674,6 +729,7 @@ calculateProbability
 (
 groupSim
 titleSim
+domainSim
 params
 )
 ;
@@ -689,7 +745,7 @@ Math
 .
 exp
 (
-20
+30
 )
 )
 ;
@@ -753,6 +809,9 @@ GROUP_SIMILARITY_WEIGHT
 TITLE_SIMILARITY_WEIGHT
 :
 1
+DOMAIN_SIMILARITY_WEIGHT
+:
+0
 INTERCEPT
 :
 -
@@ -774,6 +833,13 @@ titleSim
 5
 ;
 const
+domainSim
+=
+0
+.
+5
+;
+const
 result
 =
 smartTabGroupingManager
@@ -782,6 +848,7 @@ calculateProbability
 (
 groupSim
 titleSim
+domainSim
 params
 )
 ;
