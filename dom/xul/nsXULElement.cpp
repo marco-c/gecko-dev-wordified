@@ -7787,6 +7787,8 @@ IsAtom
 {
 rv
 =
+mAttrs
+.
 SetAndSwapAttr
 (
 protoattr
@@ -7807,6 +7809,8 @@ else
 {
 rv
 =
+mAttrs
+.
 SetAndSwapAttr
 (
 protoattr

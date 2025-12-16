@@ -1169,6 +1169,8 @@ oldValueSet
 nsresult
 rv
 =
+mAttrs
+.
 SetAndSwapAttr
 (
 nsGkAtoms
