@@ -1623,17 +1623,12 @@ StaticLibrary
 )
 :
                     
-for
-q
-in
+yield
+from
 recurse_refs
 (
 o
 )
-:
-                        
-yield
-q
         
 #
 Check
@@ -8675,19 +8670,14 @@ make
 backend
 .
         
-for
-o
-in
+yield
+from
 self
 .
 _emit_directory_traversal_from_context
 (
 context
 )
-:
-            
-yield
-o
         
 for
 obj

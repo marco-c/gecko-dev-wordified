@@ -7262,9 +7262,8 @@ build
 "
 )
         
-for
-r
-in
+yield
+from
 self
 .
 read_mozbuild
@@ -7274,10 +7273,6 @@ self
 .
 config
 )
-:
-            
-yield
-r
         
 all_gyp_paths
 =
@@ -8931,9 +8926,8 @@ path
 try
 :
             
-for
-s
-in
+yield
+from
 self
 .
 _read_mozbuild
@@ -8949,10 +8943,6 @@ metadata
 metadata
             
 )
-:
-                
-yield
-s
         
 except
 BuildReaderError
@@ -9774,16 +9764,11 @@ append
 gyp_processor
 )
         
-for
-subcontext
-in
+yield
+from
 sandbox
 .
 subcontexts
-:
-            
-yield
-subcontext
         
 #
 Traverse
@@ -10166,9 +10151,8 @@ relpath
 path
 )
             
-for
-res
-in
+yield
+from
 self
 .
 read_mozbuild
@@ -10183,10 +10167,6 @@ metadata
 child_metadata
             
 )
-:
-                
-yield
-res
         
 self
 .

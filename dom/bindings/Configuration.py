@@ -10116,19 +10116,14 @@ d
 members
 :
             
-for
-next
-in
+yield
+from
 getDictionariesFromType
 (
 member
 .
 type
 )
-:
-                
-yield
-next
         
 d
 =
@@ -10243,17 +10238,12 @@ type
 flatMemberTypes
 :
             
-for
-next
-in
+yield
+from
 getDictionariesFromType
 (
 t
 )
-:
-                
-yield
-next
     
 elif
 type
@@ -10286,19 +10276,14 @@ member
 types
 .
         
-for
-d
-in
+yield
+from
 getDependentDictionariesFromDictionary
 (
 type
 .
 inner
 )
-:
-            
-yield
-d
 def
 getDictionariesConvertedToJS
 (

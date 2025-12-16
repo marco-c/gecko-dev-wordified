@@ -56,14 +56,9 @@ in
 iterables
 :
         
-for
-element
-in
-it
-:
-            
 yield
-element
+from
+it
 #
 We
 '

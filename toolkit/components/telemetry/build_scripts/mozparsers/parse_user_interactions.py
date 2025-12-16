@@ -1881,11 +1881,6 @@ load_user_interactions
 filename
 )
     
-for
-user_interaction
-in
-all_user_interactions
-:
-        
 yield
-user_interaction
+from
+all_user_interactions

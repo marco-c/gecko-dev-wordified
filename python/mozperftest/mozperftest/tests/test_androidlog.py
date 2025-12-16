@@ -216,14 +216,9 @@ as
 f
 :
             
-for
-line
-in
-f
-:
-                
 yield
-line
+from
+f
 def
 fake_version_producer
 (

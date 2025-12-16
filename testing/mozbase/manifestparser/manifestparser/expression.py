@@ -1681,19 +1681,14 @@ sequence
 "
 "
         
-for
-t
-in
+yield
+from
 scan
 (
 self
 .
 text
 )
-:
-            
-yield
-t
         
 yield
 end_token

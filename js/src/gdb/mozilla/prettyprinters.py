@@ -1784,17 +1784,12 @@ t2
 yield
 t
     
-for
-t2
-in
+yield
+from
 followers
 (
 t
 )
-:
-        
-yield
-t2
 template_regexp
 =
 re

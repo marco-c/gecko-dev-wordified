@@ -497,10 +497,8 @@ get
 "
 "
         
-for
-suite
-data
-in
+yield
+from
 self
 .
 summary
@@ -508,11 +506,6 @@ summary
 items
 (
 )
-:
-            
-yield
-suite
-data
     
 classmethod
     

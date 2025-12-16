@@ -962,18 +962,13 @@ exception
 else
 :
                 
-for
-pkg
-in
+yield
+from
 future
 .
 result
 (
 )
-:
-                    
-yield
-pkg
 def
 main
 (

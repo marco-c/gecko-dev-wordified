@@ -754,14 +754,9 @@ next_site
 )
 :
         
-for
-site
-in
-sites
-:
-            
 yield
-site
+from
+sites
     
 next_site
 =

@@ -378,9 +378,8 @@ if
 corrupt
 :
             
-for
-ch
-in
+yield
+from
 "
 <
 CORRUPT
@@ -391,10 +390,6 @@ s
 "
 %
 corrupt
-:
-                
-yield
-ch
             
 return
         

@@ -14762,14 +14762,9 @@ as
 f
 :
         
-for
-line
-in
-f
-:
-            
 yield
-line
+from
+f
 total_ordering
 class
 Zone

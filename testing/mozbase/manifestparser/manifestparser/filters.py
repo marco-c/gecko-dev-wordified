@@ -2081,9 +2081,8 @@ ordered_dirs
             
 ]
             
-for
-disabled_test
-in
+yield
+from
 itertools
 .
 chain
@@ -2091,10 +2090,6 @@ chain
 *
 disabled_dirs
 )
-:
-                
-yield
-disabled_test
 class
 chunk_by_manifest
 (

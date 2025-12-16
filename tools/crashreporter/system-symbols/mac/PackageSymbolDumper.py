@@ -911,17 +911,12 @@ path
 "
 )
         
-for
-pkg
-in
+yield
+from
 find_packages
 (
 path
 )
-:
-            
-yield
-pkg
 def
 find_payloads
 (

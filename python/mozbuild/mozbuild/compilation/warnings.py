@@ -1092,19 +1092,14 @@ values
 )
 :
             
-for
-warning
-in
+yield
+from
 value
 [
 "
 warnings
 "
 ]
-:
-                
-yield
-warning
     
 def
 __contains__
@@ -1186,19 +1181,14 @@ values
 )
 :
             
-for
-w
-in
+yield
+from
 value
 [
 "
 warnings
 "
 ]
-:
-                
-yield
-w
     
 def
 type_counts
@@ -1389,19 +1379,14 @@ warnings
 }
 )
         
-for
-warning
-in
+yield
+from
 f
 [
 "
 warnings
 "
 ]
-:
-            
-yield
-warning
     
 def
 insert

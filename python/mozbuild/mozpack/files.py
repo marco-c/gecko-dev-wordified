@@ -7204,10 +7204,8 @@ find_dotfiles
                     
 continue
             
-for
-p_
-f
-in
+yield
+from
 self
 .
 _find
@@ -7220,11 +7218,6 @@ path
 p
 )
 )
-:
-                
-yield
-p_
-f
     
 def
 get

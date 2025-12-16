@@ -1858,9 +1858,8 @@ True
         
 )
         
-for
-test_output
-in
+yield
+from
 aggregate_script_stdout
 (
             
@@ -1872,10 +1871,6 @@ tests
 options
         
 )
-:
-            
-yield
-test_output
     
 except
 ADBProcessError
@@ -2118,9 +2113,8 @@ tests
     
 )
     
-for
-test_output
-in
+yield
+from
 start_script
 (
         
@@ -2134,7 +2128,3 @@ tests
 options
     
 )
-:
-        
-yield
-test_output
