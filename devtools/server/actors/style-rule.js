@@ -2779,6 +2779,11 @@ type
 this
 .
 type
+className
+:
+this
+.
+ruleClassName
 line
 :
 this
@@ -3279,6 +3284,11 @@ break
 case
 "
 CSSKeyframesRule
+"
+:
+case
+"
+CSSPositionTryRule
 "
 :
 form
@@ -4488,6 +4498,11 @@ ruleClassName
 case
 "
 CSSNestedDeclarations
+"
+:
+case
+"
+CSSPositionTryRule
 "
 :
 case
@@ -5952,6 +5967,9 @@ CSSMediaRule
 "
 "
 CSSNestedDeclarations
+"
+"
+CSSPositionTryRule
 "
 "
 CSSStyleRule
