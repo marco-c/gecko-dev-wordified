@@ -2150,6 +2150,15 @@ AsyncPacketSocket
 *
 socket_
 ;
+std
+:
+:
+unique_ptr
+<
+AsyncPacketSocket
+>
+owned_socket_
+;
 SocketOptionsMap
 socket_options_
 ;
