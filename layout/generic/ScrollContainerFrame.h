@@ -5737,6 +5737,8 @@ FrameMetrics
 :
 ScrollOffsetUpdateType
 aUpdateType
+ScrollMode
+aMode
 )
 ;
 /
