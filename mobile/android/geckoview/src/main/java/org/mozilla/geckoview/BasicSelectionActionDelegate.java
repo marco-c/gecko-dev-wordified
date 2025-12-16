@@ -2892,6 +2892,7 @@ mSession
 .
 getScreenToWindowManagerOffsetMatrix
 (
+mActivity
 matrix
 )
 ;
