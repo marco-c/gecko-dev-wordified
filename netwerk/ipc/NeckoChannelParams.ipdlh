@@ -3373,9 +3373,6 @@ transferSize
 uint64_t
 encodedBodySize
 ;
-uint64_t
-decodedBodySize
-;
 /
 /
 Not
