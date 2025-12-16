@@ -1186,16 +1186,7 @@ main
 ;
 }
 )
-.
-skip
-(
-)
 ;
-/
-/
-TODO
-bug
-2000948
 async
 function
 usingManifest
@@ -1331,7 +1322,7 @@ tt
 await
 TaskbarTabs
 .
-findTaskbarTab
+findOrCreateTaskbarTab
 (
 uri
 0
