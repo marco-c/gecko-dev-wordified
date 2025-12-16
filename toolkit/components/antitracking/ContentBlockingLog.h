@@ -577,8 +577,6 @@ ReportCanvasFingerprintingLog
 nsIPrincipal
 *
 aFirstPartyPrincipal
-bool
-aShouldReport
 )
 ;
 void

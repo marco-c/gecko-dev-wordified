@@ -1229,8 +1229,6 @@ ReportCanvasFingerprintingLog
 nsIPrincipal
 *
 aFirstPartyPrincipal
-bool
-aShouldReport
 )
 {
 MOZ_ASSERT
