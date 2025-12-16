@@ -85994,11 +85994,8 @@ GetOwnWidget
 ;
 if
 (
-NS_WARN_IF
-(
 !
 widget
-)
 )
 {
 /
