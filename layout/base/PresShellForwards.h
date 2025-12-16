@@ -1073,6 +1073,12 @@ AxesAreLogical
 <
 <
 6
+ForZoomToFocusedInput
+=
+1
+<
+<
+7
 /
 /
 NOTE
@@ -1109,7 +1115,7 @@ ALL_BITS
 1
 <
 <
-7
+8
 )
 -
 1
