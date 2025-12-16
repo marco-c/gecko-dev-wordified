@@ -1699,16 +1699,6 @@ data_handle
 .
 .
 }
-|
-PrimitiveInstanceKind
-:
-:
-Clear
-{
-data_handle
-.
-.
-}
 =
 >
 {
