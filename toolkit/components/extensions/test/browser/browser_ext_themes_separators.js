@@ -393,6 +393,8 @@ querySelector
 tabbrowser
 -
 tabbox
+.
+browserContainer
 "
 )
 )
