@@ -1095,7 +1095,7 @@ search
 "
 /
 "
-fallbackTitle
+title
 :
 "
 www
@@ -1165,7 +1165,7 @@ www
 "
 +
 search
-fallbackTitle
+title
 :
 "
 www
@@ -1924,7 +1924,7 @@ OTHER_LOCAL
 uri
 :
 prefixedUrl
-fallbackTitle
+title
 :
 prefixedUrl
 heuristic
@@ -2084,7 +2084,7 @@ OTHER_LOCAL
 uri
 :
 prefixedUrl
-fallbackTitle
+title
 :
 prefixedUrl
 heuristic
@@ -2516,7 +2516,7 @@ search
 "
 /
 "
-fallbackTitle
+title
 :
 "
 www
@@ -2586,7 +2586,7 @@ www
 "
 +
 search
-fallbackTitle
+title
 :
 "
 www
@@ -3041,7 +3041,7 @@ OTHER_LOCAL
 uri
 :
 prefixedUrl
-fallbackTitle
+title
 :
 prefixedUrl
 heuristic
@@ -3201,7 +3201,7 @@ OTHER_LOCAL
 uri
 :
 prefixedUrl
-fallbackTitle
+title
 :
 prefixedUrl
 heuristic
@@ -5071,7 +5071,7 @@ http
 "
 +
 search
-fallbackTitle
+title
 :
 search
 iconUri
@@ -6415,7 +6415,7 @@ http
 "
 +
 search
-fallbackTitle
+title
 :
 search
 iconUri
@@ -6725,7 +6725,7 @@ http
 "
 +
 search
-fallbackTitle
+title
 :
 search
 iconUri
@@ -7377,7 +7377,7 @@ http
 "
 +
 search
-fallbackTitle
+title
 :
 search
 iconUri
@@ -8033,7 +8033,7 @@ OTHER_LOCAL
 uri
 :
 prefixedUrl
-fallbackTitle
+title
 :
 prefixedUrl
 heuristic
@@ -8291,7 +8291,7 @@ OTHER_LOCAL
 uri
 :
 prefixedUrl
-fallbackTitle
+title
 :
 prefixedUrl
 heuristic
@@ -8553,7 +8553,7 @@ OTHER_LOCAL
 uri
 :
 prefixedUrl
-fallbackTitle
+title
 :
 prefixedUrl
 heuristic
@@ -9062,7 +9062,7 @@ OTHER_LOCAL
 uri
 :
 prefixedUrl
-fallbackTitle
+title
 :
 UrlbarUtils
 .
@@ -9511,7 +9511,7 @@ OTHER_LOCAL
 uri
 :
 prefixedUrl
-fallbackTitle
+title
 :
 prefixedUrl
 heuristic
@@ -9768,7 +9768,7 @@ OTHER_LOCAL
 uri
 :
 prefixedUrl
-fallbackTitle
+title
 :
 prefixedUrl
 heuristic
@@ -10033,7 +10033,7 @@ OTHER_LOCAL
 uri
 :
 prefixedUrl
-fallbackTitle
+title
 :
 prefixedUrl
 heuristic
@@ -10383,7 +10383,7 @@ http
 "
 +
 search
-fallbackTitle
+title
 :
 search
 iconUri
@@ -10688,7 +10688,7 @@ OTHER_LOCAL
 uri
 :
 prefixedUrl
-fallbackTitle
+title
 :
 prefixedUrl
 heuristic
@@ -10921,7 +10921,7 @@ OTHER_LOCAL
 uri
 :
 prefixedUrl
-fallbackTitle
+title
 :
 prefixedUrl
 heuristic
@@ -11158,7 +11158,7 @@ OTHER_LOCAL
 uri
 :
 prefixedUrl
-fallbackTitle
+title
 :
 prefixedUrl
 heuristic
@@ -11395,7 +11395,7 @@ OTHER_LOCAL
 uri
 :
 prefixedUrl
-fallbackTitle
+title
 :
 prefixedUrl
 heuristic
@@ -12102,7 +12102,7 @@ OTHER_LOCAL
 uri
 :
 prefixedUrl
-fallbackTitle
+title
 :
 prefixedUrl
 heuristic
@@ -12390,7 +12390,7 @@ OTHER_LOCAL
 uri
 :
 prefixedUrl
-fallbackTitle
+title
 :
 prefixedUrl
 heuristic
@@ -12682,7 +12682,7 @@ OTHER_LOCAL
 uri
 :
 prefixedUrl
-fallbackTitle
+title
 :
 prefixedUrl
 heuristic
@@ -13525,7 +13525,7 @@ http
 search
 }
 /
-fallbackTitle
+title
 :
 http
 :
@@ -13728,7 +13728,7 @@ http
 search
 }
 /
-fallbackTitle
+title
 :
 http
 :
@@ -14042,7 +14042,7 @@ http
 search
 }
 /
-fallbackTitle
+title
 :
 http
 :
@@ -14245,7 +14245,7 @@ http
 search
 }
 /
-fallbackTitle
+title
 :
 http
 :
@@ -14563,7 +14563,7 @@ http
 search
 }
 /
-fallbackTitle
+title
 :
 http
 :
@@ -14778,7 +14778,7 @@ http
 search
 }
 /
-fallbackTitle
+title
 :
 http
 :
@@ -15100,7 +15100,7 @@ http
 search
 }
 /
-fallbackTitle
+title
 :
 http
 :
@@ -15315,7 +15315,7 @@ http
 search
 }
 /
-fallbackTitle
+title
 :
 http
 :

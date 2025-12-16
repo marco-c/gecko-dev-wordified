@@ -1060,7 +1060,7 @@ www
 host
 }
 /
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .
@@ -1155,7 +1155,7 @@ www
 host
 }
 /
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .
@@ -1248,7 +1248,7 @@ www
 host
 }
 /
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .

@@ -359,7 +359,7 @@ www
 host
 }
 /
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .
@@ -544,7 +544,7 @@ https
 host
 }
 /
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .

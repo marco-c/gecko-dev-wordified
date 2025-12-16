@@ -260,7 +260,7 @@ mozilla
 org
 /
 "
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .
@@ -388,7 +388,7 @@ mozilla
 org
 /
 "
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .
@@ -498,7 +498,7 @@ trim
 )
 }
 /
-fallbackTitle
+title
 :
 {
 input

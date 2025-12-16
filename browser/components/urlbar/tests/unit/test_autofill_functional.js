@@ -1098,7 +1098,7 @@ mozilla
 org
 /
 "
-fallbackTitle
+title
 :
 UrlbarTestUtils
 .

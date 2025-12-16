@@ -1158,7 +1158,7 @@ example
 com
 /
 "
-fallbackTitle
+title
 :
 "
 https
@@ -1306,7 +1306,7 @@ RESULT_SOURCE
 .
 OTHER_LOCAL
 uri
-fallbackTitle
+title
 :
 uri
 iconUri
@@ -1424,7 +1424,7 @@ about
 :
 robots
 "
-fallbackTitle
+title
 :
 "
 about
