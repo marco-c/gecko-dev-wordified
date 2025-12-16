@@ -319,8 +319,10 @@ details
 .
 *
 /
-function
+class
 AccessibilityPanel
+{
+constructor
 (
 iframeWindow
 toolbox
@@ -431,11 +433,6 @@ this
 )
 ;
 }
-AccessibilityPanel
-.
-prototype
-=
-{
 /
 *
 *
@@ -1739,7 +1736,6 @@ destroyed
 ;
 }
 }
-;
 /
 /
 Exports
