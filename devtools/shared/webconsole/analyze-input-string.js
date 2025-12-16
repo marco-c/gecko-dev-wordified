@@ -741,7 +741,9 @@ timeout
 currentIndex
 +
 =
-1
+c
+.
+length
 ;
 let
 resetLastStatement
