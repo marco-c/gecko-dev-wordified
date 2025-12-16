@@ -94,6 +94,11 @@ API_FIELD_TRIALS_H_
 #
 include
 <
+atomic
+>
+#
+include
+<
 memory
 >
 #
@@ -455,8 +460,6 @@ FieldTrials
 &
 &
 )
-=
-default
 ;
 FieldTrials
 &
@@ -789,7 +792,13 @@ is
 true
 .
 mutable
+std
+:
+:
+atomic
+<
 bool
+>
 get_value_called_
 =
 false
