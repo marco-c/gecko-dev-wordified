@@ -268,7 +268,7 @@ ProcessChild
 :
 gIPCShutdownStateLock
 ;
-MOZ_CONSTINIT
+constinit
 nsCString
 ProcessChild
 :
