@@ -914,7 +914,9 @@ stub
 (
 BackupService
 .
-prototype
+get
+(
+)
 "
 state
 "
