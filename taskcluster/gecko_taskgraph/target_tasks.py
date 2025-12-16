@@ -11428,7 +11428,7 @@ in
 name
 and
 "
-profiling
+simpleperf
 "
 not
 in
