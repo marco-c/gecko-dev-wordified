@@ -930,9 +930,11 @@ bool
 >
 IsNodeContainedInRange
 (
+const
 nsINode
 &
 aNode
+const
 AbstractRange
 *
 aAbstractRange
@@ -1026,9 +1028,11 @@ static
 nsresult
 CompareNodeToRange
 (
+const
 nsINode
 *
 aNode
+const
 AbstractRange
 *
 aAbstractRange
@@ -1081,6 +1085,7 @@ static
 nsresult
 CompareNodeToRangeBoundaries
 (
+const
 nsINode
 *
 aNode
