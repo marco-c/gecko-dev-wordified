@@ -484,6 +484,11 @@ addStyleSheet
 this
 .
 document
+this
+.
+document
+.
+documentElement
 text
 fileName
 )
