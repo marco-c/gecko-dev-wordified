@@ -8166,14 +8166,6 @@ outerWM
 aMargin
 )
 ;
-aKidReflowInput
-.
-SetComputedLogicalOffsets
-(
-outerWM
-aOffsets
-)
-;
 nsMargin
 *
 propValue
