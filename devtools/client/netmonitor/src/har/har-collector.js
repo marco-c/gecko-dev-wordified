@@ -143,8 +143,10 @@ iframes
 .
 *
 /
-function
+class
 HarCollector
+{
+constructor
 (
 options
 )
@@ -281,11 +283,6 @@ clear
 )
 ;
 }
-HarCollector
-.
-prototype
-=
-{
 /
 /
 Connection
@@ -1819,7 +1816,9 @@ packet
 *
 *
 param
+{
 object
+}
 response
 *
 The
@@ -1882,7 +1881,9 @@ packet
 *
 *
 param
+{
 object
+}
 response
 *
 The
@@ -1945,7 +1946,9 @@ packet
 *
 *
 param
+{
 object
+}
 response
 *
 The
@@ -2062,7 +2065,9 @@ packet
 *
 *
 param
+{
 object
+}
 response
 *
 The
@@ -2125,7 +2130,9 @@ packet
 *
 *
 param
+{
 object
+}
 response
 *
 The
@@ -2188,7 +2195,9 @@ packet
 *
 *
 param
+{
 object
+}
 response
 *
 The
@@ -2292,7 +2301,9 @@ packet
 *
 *
 param
+{
 object
+}
 response
 *
 The
@@ -2432,9 +2443,11 @@ string
 *
 *
 param
+{
 object
 |
 string
+}
 stringGrip
 *
 The
@@ -2478,7 +2491,9 @@ returned
 .
 *
 return
+{
 object
+}
 Promise
 *
 A
@@ -2536,7 +2551,6 @@ promise
 ;
 }
 }
-;
 /
 /
 Helpers
