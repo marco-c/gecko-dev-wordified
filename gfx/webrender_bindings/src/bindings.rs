@@ -9973,12 +9973,6 @@ DeviceIntRect
 image_rendering
 :
 ImageRendering
-rounded_clip_rect
-:
-DeviceIntRect
-rounded_clip_radii
-:
-ClipRadius
 )
 {
 let
@@ -10006,8 +10000,11 @@ id
 transform
 clip_rect
 image_rendering
-rounded_clip_rect
-rounded_clip_radii
+clip_rect
+ClipRadius
+:
+:
+EMPTY
 )
 ;
 }
