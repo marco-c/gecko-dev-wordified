@@ -1976,7 +1976,7 @@ SystemPageSize
 wasm
 :
 :
-StandardPageSize
+StandardPageSizeBytes
 )
 {
 return

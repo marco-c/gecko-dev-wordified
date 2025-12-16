@@ -5394,7 +5394,7 @@ value
 (
 0x100000000
 /
-StandardPageSize
+StandardPageSizeBytes
 )
 ;
 }
@@ -5532,7 +5532,7 @@ initial
 =
 UINT64_MAX
 /
-StandardPageSize
+StandardPageSizeBytes
 )
 ;
 return
@@ -5540,7 +5540,7 @@ limits
 .
 initial
 *
-StandardPageSize
+StandardPageSizeBytes
 ;
 }
 MemoryDesc
@@ -5615,7 +5615,7 @@ MaxMemory32PagesValidation
 =
 UINT64_MAX
 /
-StandardPageSize
+StandardPageSizeBytes
 )
 ;
 struct
