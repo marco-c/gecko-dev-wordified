@@ -544,6 +544,11 @@ category
 :
 "
 "
+background_position
+:
+"
+center
+"
 }
 ]
 meta
