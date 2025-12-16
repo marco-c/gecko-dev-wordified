@@ -27,8 +27,6 @@ idl_test
 [
 '
 origin
-.
-tentative
 '
 ]
 [
