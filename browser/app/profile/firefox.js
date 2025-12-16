@@ -11131,7 +11131,7 @@ smart
 suggestOtherTabsMethod
 "
 "
-NEAREST_NEIGHBOR
+LOGISTIC_REGRESSION
 "
 )
 ;
