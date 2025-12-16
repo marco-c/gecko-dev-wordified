@@ -394,6 +394,11 @@ IP
 address
 .
 kIceCandidatePairHostHost
+[
+[
+deprecated
+]
+]
 =
 0
 kIceCandidatePairHostSrflx

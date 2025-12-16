@@ -1895,16 +1895,7 @@ bool
 filter_related_address
 )
 const
-{
-return
-ToSanitizedCopy
-(
-use_hostname_address
-filter_related_address
-false
-)
 ;
-}
 Candidate
 ToSanitizedCopy
 (
