@@ -288,6 +288,13 @@ har
 spec
 /
 *
+/
+class
+HarBuilder
+{
+/
+*
+*
 *
 param
 {
@@ -400,10 +407,7 @@ navigation
 .
 *
 /
-var
-HarBuilder
-=
-function
+constructor
 (
 options
 )
@@ -496,12 +500,6 @@ currentTarget
 url
 ;
 }
-;
-HarBuilder
-.
-prototype
-=
-{
 /
 /
 Public
@@ -3424,7 +3422,6 @@ promise
 ;
 }
 }
-;
 /
 /
 Helpers
