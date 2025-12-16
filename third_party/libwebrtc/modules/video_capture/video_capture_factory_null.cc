@@ -153,6 +153,9 @@ VideoCaptureImpl
 :
 Create
 (
+Clock
+*
+clock
 const
 char
 *
