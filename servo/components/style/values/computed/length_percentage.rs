@@ -5177,6 +5177,7 @@ Serialize
 ToAnimatedZero
 ToCss
 ToResolvedValue
+ToTyped
 )
 ]
 #

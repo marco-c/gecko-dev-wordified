@@ -609,6 +609,7 @@ CommaWithSpace
 CssString
 CssStringWriter
 CssWriter
+NumericValue
 OneOrMoreSeparated
 Separator
 Space
