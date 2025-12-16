@@ -8401,12 +8401,6 @@ NS_ERROR_HARMFUL_URI
 aChannelStatus
 =
 =
-NS_ERROR_HARMFULADDON_URI
-|
-|
-aChannelStatus
-=
-=
 NS_ERROR_PHISHING_URI
 )
 {

@@ -1044,11 +1044,11 @@ blockedReason
 resource
 .
 blockedReason
-extension
+blockingExtension
 :
 resource
 .
-extension
+blockingExtension
 channelId
 :
 resource
