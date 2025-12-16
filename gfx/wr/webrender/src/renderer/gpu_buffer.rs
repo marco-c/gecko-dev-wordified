@@ -228,8 +228,6 @@ l
 GpuBufferBlockF
 >
 ;
-/
-/
 pub
 type
 GpuBufferWriterI
@@ -1592,21 +1590,15 @@ GpuBufferWriterF
 )
 ;
 }
-/
-/
 pub
 trait
 GpuBufferDataI
 {
-/
-/
 const
 NUM_BLOCKS
 :
 usize
 ;
-/
-/
 fn
 write
 (
@@ -1619,8 +1611,6 @@ mut
 GpuBufferWriterI
 )
 ;
-/
-/
 }
 impl
 GpuBufferDataF
@@ -1660,8 +1650,6 @@ self
 ;
 }
 }
-/
-/
 impl
 GpuBufferDataI
 for
@@ -1671,8 +1659,6 @@ i32
 4
 ]
 {
-/
-/
 const
 NUM_BLOCKS
 :
@@ -1680,8 +1666,6 @@ usize
 =
 1
 ;
-/
-/
 fn
 write
 (
@@ -1694,8 +1678,6 @@ mut
 GpuBufferWriterI
 )
 {
-/
-/
 writer
 .
 push_one
@@ -1704,11 +1686,7 @@ push_one
 self
 )
 ;
-/
-/
 }
-/
-/
 }
 /
 /
@@ -2188,8 +2166,6 @@ NUM_BLOCKS
 ;
 }
 }
-/
-/
 impl
 <
 '
@@ -2201,8 +2177,6 @@ GpuBufferWriterI
 a
 >
 {
-/
-/
 pub
 fn
 push
@@ -2221,8 +2195,6 @@ data
 Data
 )
 {
-/
-/
 data
 .
 write
@@ -2230,11 +2202,7 @@ write
 self
 )
 ;
-/
-/
 }
-/
-/
 }
 impl
 <
