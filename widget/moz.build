@@ -1325,6 +1325,11 @@ ThemeChangeKind
 h
 "
 "
+ThemeDrawing
+.
+h
+"
+"
 WidgetLogging
 .
 h
