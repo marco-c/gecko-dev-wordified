@@ -167,9 +167,18 @@ selectedTab
 tab
 ;
 await
-promiseTabLoadEvent
+BrowserTestUtils
+.
+loadURIString
 (
+{
+browser
+:
 tab
+.
+linkedBrowser
+uriString
+:
 "
 data
 :
@@ -182,6 +191,7 @@ escape
 (
 testPage
 )
+}
 )
 ;
 await

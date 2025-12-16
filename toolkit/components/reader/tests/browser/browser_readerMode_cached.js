@@ -177,9 +177,13 @@ textContent
 let
 promiseTabLoad
 =
-promiseTabLoadEvent
+BrowserTestUtils
+.
+browserLoaded
 (
 tab
+.
+linkedBrowser
 )
 ;
 let
