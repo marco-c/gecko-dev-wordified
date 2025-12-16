@@ -1476,7 +1476,7 @@ crate
 invalidation
 :
 :
-dependency
+compare
 :
 :
 ImageDependency
