@@ -234,7 +234,10 @@ CallbackMapType
 =
 nsTHashMap
 <
-uint32_t
+NoMemMoveKey
+<
+nsUint32HashKey
+>
 FalliblePingTestCallback
 >
 ;
