@@ -251,8 +251,10 @@ immediately
 .
 *
 /
-function
+class
 TestTransport
+{
+constructor
 (
 port
 )
@@ -280,11 +282,6 @@ port
 this
 ;
 }
-TestTransport
-.
-prototype
-=
-{
 send
 (
 object
@@ -446,7 +443,6 @@ onStopListening
 {
 }
 }
-;
 /
 /
 Use
