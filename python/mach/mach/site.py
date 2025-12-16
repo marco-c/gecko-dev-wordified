@@ -5366,6 +5366,10 @@ check
 "
 )
             
+check
+=
+False
+            
 stdout
 =
 subprocess
@@ -5381,10 +5385,6 @@ STDOUT
 text
 =
 True
-            
-check
-=
-False
         
 )
         
@@ -5855,6 +5855,10 @@ check
 "
 )
             
+check
+=
+False
+            
 stdout
 =
 subprocess
@@ -5870,10 +5874,6 @@ STDOUT
 text
 =
 True
-            
-check
-=
-False
         
 )
         
@@ -8200,6 +8200,18 @@ args
 =
 pip_install_args
                 
+)
+                
+check
+=
+kwargs
+.
+pop
+(
+"
+check
+"
+True
 )
                 
 *
@@ -10605,6 +10617,10 @@ pip
 check_env_path
 ]
             
+check
+=
+False
+            
 capture_output
 =
 True
@@ -10616,10 +10632,6 @@ UTF
 -
 8
 "
-            
-check
-=
-False
         
 )
         
@@ -10892,6 +10904,10 @@ check
 "
 ]
             
+check
+=
+False
+            
 stdout
 =
 subprocess
@@ -10907,10 +10923,6 @@ STDOUT
 text
 =
 True
-            
-check
-=
-False
         
 )
         
@@ -11385,6 +11397,10 @@ pip
 virtualenv_root
 ]
         
+check
+=
+False
+        
 capture_output
 =
 True
@@ -11396,10 +11412,6 @@ UTF
 -
 8
 "
-        
-check
-=
-False
     
 )
     

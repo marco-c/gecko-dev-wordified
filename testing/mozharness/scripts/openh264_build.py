@@ -1929,6 +1929,7 @@ subprocess
 .
 run
 (
+                
 [
 "
 git
@@ -1950,12 +1951,17 @@ checkout
 repo
 repo_dir
 ]
+check
+=
+False
+            
 )
             
 subprocess
 .
 run
 (
+                
 [
 "
 git
@@ -1980,9 +1986,13 @@ rev
 0
 "
 ]
+check
+=
+False
 cwd
 =
 repo_dir
+            
 )
         
 except

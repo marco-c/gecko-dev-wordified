@@ -968,6 +968,7 @@ subprocess
 .
 run
 (
+            
 [
 "
 node
@@ -978,12 +979,16 @@ e
 "
 js
 ]
+check
+=
+True
 capture_output
 =
 True
 text
 =
 True
+        
 )
         
 return
@@ -2262,6 +2267,10 @@ e
 "
 js_code
 ]
+            
+check
+=
+False
             
 capture_output
 =

@@ -436,6 +436,10 @@ version
 "
 ]
                 
+check
+=
+False
+                
 capture_output
 =
 True
@@ -1788,6 +1792,10 @@ tc
 help
 "
 ]
+                
+check
+=
+False
                 
 capture_output
 =

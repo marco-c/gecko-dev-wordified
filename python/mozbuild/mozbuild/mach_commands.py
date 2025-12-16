@@ -2909,6 +2909,10 @@ vet
 +
 arguments
             
+check
+=
+False
+            
 cwd
 =
 cargo_vet_dir
@@ -3925,7 +3929,11 @@ subprocess
 .
 run
 (
+                
 cmd
+check
+=
+False
 cwd
 =
 topsrcdir
@@ -3934,6 +3942,7 @@ stderr
 subprocess
 .
 DEVNULL
+            
 )
             
 #

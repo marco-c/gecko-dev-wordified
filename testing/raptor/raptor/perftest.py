@@ -6663,6 +6663,9 @@ run
 (
                         
 command
+check
+=
+False
 timeout
 =
 10

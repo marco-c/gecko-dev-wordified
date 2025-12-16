@@ -4080,6 +4080,9 @@ subprocess
 run
 (
 cmd
+check
+=
+True
 *
 *
 kwargs

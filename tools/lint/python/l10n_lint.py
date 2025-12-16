@@ -984,12 +984,6 @@ kwargs
 {
                 
 "
-check
-"
-:
-False
-                
-"
 stdout
 "
 :
@@ -1024,6 +1018,7 @@ subprocess
 .
 run
 (
+                    
 [
 git
 "
@@ -1031,12 +1026,16 @@ pull
 "
 L10N_SOURCE_REPO
 ]
+check
+=
+False
 cwd
 =
 gs
 *
 *
 kwargs
+                
 )
             
 else
@@ -1048,6 +1047,7 @@ subprocess
 .
 run
 (
+                    
 [
 git
 "
@@ -1056,9 +1056,13 @@ clone
 L10N_SOURCE_REPO
 gs
 ]
+check
+=
+False
 *
 *
 kwargs
+                
 )
             
 if
