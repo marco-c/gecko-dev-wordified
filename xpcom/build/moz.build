@@ -169,11 +169,6 @@ SmallArrayLRUCache
 h
 "
 "
-XPCOM
-.
-h
-"
-"
 XREAppData
 .
 h
