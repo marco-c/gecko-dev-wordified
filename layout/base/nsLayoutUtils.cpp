@@ -60227,7 +60227,7 @@ GetDynamicToolbarMaxHeight
 ;
 }
 }
-metadata
+metrics
 .
 SetIsSoftwareKeyboardVisible
 (
@@ -60241,7 +60241,7 @@ GetKeyboardHeight
 0
 )
 ;
-metadata
+metrics
 .
 SetInteractiveWidget
 (

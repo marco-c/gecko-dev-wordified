@@ -3902,7 +3902,7 @@ SetInteractiveWidgetMode
 (
 aLayerMetrics
 .
-Metadata
+Metrics
 (
 )
 .
@@ -3916,7 +3916,7 @@ SetIsSoftwareKeyboardVisible
 (
 aLayerMetrics
 .
-Metadata
+Metrics
 (
 )
 .
