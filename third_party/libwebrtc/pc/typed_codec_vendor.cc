@@ -94,13 +94,6 @@ h
 #
 include
 <
-stddef
-.
-h
->
-#
-include
-<
 functional
 >
 #
@@ -686,6 +679,7 @@ TypedCodecVendor
 :
 TypedCodecVendor
 (
+const
 MediaEngineInterface
 *
 media_engine

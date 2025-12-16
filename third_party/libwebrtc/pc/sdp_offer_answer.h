@@ -171,6 +171,17 @@ include
 "
 api
 /
+environment
+/
+environment
+.
+h
+"
+#
+include
+"
+api
+/
 jsep
 .
 h
@@ -3951,6 +3962,7 @@ Access
 to
 pc_
 variables
+const
 MediaEngineInterface
 *
 media_engine
