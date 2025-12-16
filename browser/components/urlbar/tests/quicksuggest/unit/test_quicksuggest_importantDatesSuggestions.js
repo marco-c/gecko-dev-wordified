@@ -1928,13 +1928,6 @@ telemetryType
 "
 other_suggestions
 "
-displayUrl
-:
-"
-foo
-.
-com
-"
 description
 :
 "

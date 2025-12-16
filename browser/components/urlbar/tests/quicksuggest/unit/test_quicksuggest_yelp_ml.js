@@ -3161,9 +3161,6 @@ yelp_intent
 originalUrl
 =
 undefined
-displayUrl
-=
-undefined
 /
 /
 Expect
@@ -3202,7 +3199,6 @@ title
 source
 provider
 originalUrl
-displayUrl
 suggestedIndex
 }
 )
