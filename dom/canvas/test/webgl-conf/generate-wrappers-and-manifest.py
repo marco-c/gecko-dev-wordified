@@ -211,17 +211,13 @@ if
 "
         
 "
-prefs
-"
-        
-"
 skip
 -
 if
 "
         
 "
-tags
+prefs
 "
     
 ]
@@ -833,6 +829,8 @@ self
 webgl2
 =
 webgl2
+        
+return
 def
 AccumTests
 (
@@ -1324,6 +1322,8 @@ out_testList
 )
             
 continue
+    
+return
 #
 #
 #
@@ -1420,6 +1420,8 @@ templateShell
 templateDict
 outFilePath
 )
+    
+return
 def
 ImportTemplate
 (
@@ -1483,6 +1485,8 @@ writelines
 (
 spanStrList
 )
+    
+return
 #
 #
 #
@@ -1714,6 +1718,8 @@ span
 -
 2
 ]
+        
+return
     
 def
 Fill
@@ -1944,6 +1950,8 @@ self
 spanList
 =
 spanList
+        
+return
     
 #
 Returns
@@ -1968,7 +1976,7 @@ ret
 ]
         
 for
-span_
+span
 in
 self
 .
@@ -1977,7 +1985,7 @@ spanList
             
 span
 =
-span_
+span
 .
 Fill
 (
@@ -2319,6 +2327,8 @@ append
 (
 wrapperPath
 )
+    
+return
 def
 WriteWrappers
 (
@@ -2849,6 +2859,8 @@ MANIFEST_TEMPLATE_FILE
 templateDict
 destPath
 )
+    
+return
 #
 #
 #
