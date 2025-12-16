@@ -28389,7 +28389,7 @@ remote_nomination
 conn
 -
 >
-SignalNominated
+NotifyNominatedForTesting
 (
 conn
 )
