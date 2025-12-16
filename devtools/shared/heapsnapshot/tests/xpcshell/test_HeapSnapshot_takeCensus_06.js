@@ -100,6 +100,7 @@ Debugger
 g
 )
 ;
+new
 Pattern
 (
 {
@@ -353,6 +354,7 @@ the
 forseeable
 future
 .
+new
 Pattern
 (
 {
@@ -414,6 +416,7 @@ objectClass
 )
 )
 ;
+new
 Pattern
 (
 {
@@ -504,6 +507,7 @@ a
 long
 time
 .
+new
 Pattern
 (
 {
@@ -608,6 +612,7 @@ NATURAL
 }
 }
 ;
+new
 Pattern
 (
 {
@@ -656,6 +661,7 @@ coarseType
 )
 )
 ;
+new
 Pattern
 (
 {
@@ -738,6 +744,7 @@ coarseType
 )
 )
 ;
+new
 Pattern
 (
 {
