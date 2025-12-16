@@ -5579,7 +5579,7 @@ linux
 os_version
 =
 "
-18
+22
 .
 04
 "
@@ -5677,7 +5677,7 @@ linux
 os_version
 =
 "
-18
+22
 .
 04
 "
@@ -5780,7 +5780,7 @@ unknown
 os_version
 =
 "
-18
+22
 .
 04
 "
