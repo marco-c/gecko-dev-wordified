@@ -4146,6 +4146,17 @@ nullptr
 ;
 /
 /
+Portals
+works
+with
+DBus
+only
+.
+#
+ifdef
+MOZ_ENABLE_DBUS
+/
+/
 Application
 in
 flatpak
@@ -4647,6 +4658,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 RefPtr
 <
 GAppInfo
