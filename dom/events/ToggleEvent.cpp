@@ -343,6 +343,15 @@ mNewState
 e
 -
 >
+mSource
+=
+aEventInitDict
+.
+mSource
+;
+e
+-
+>
 SetTrusted
 (
 trusted
