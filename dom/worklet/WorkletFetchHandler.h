@@ -634,6 +634,16 @@ nsIURI
 >
 mURI
 ;
+#
+ifdef
+NIGHTLY_BUILD
+bool
+mHasWasmMimeTypeEssence
+=
+false
+;
+#
+endif
 }
 ;
 }
