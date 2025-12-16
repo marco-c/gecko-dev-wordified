@@ -1296,7 +1296,7 @@ packets_received_with_ect1
 AttributeInit
 (
 "
-packetsReceivedWithCn
+packetsReceivedWithCe
 "
 &
 packets_received_with_ce
