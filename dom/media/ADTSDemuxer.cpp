@@ -4135,3 +4135,12 @@ nextFrameHeaderOffset
 /
 namespace
 mozilla
+#
+undef
+LOG
+#
+undef
+ADTSLOG
+#
+undef
+ADTSLOGV

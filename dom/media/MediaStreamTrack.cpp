@@ -192,14 +192,6 @@ MediaUtils
 .
 h
 "
-#
-ifdef
-LOG
-#
-undef
-LOG
-#
-endif
 static
 mozilla
 :
@@ -3647,3 +3639,6 @@ mozilla
 :
 :
 dom
+#
+undef
+LOG

@@ -161,9 +161,6 @@ nsQueryObject
 .
 h
 "
-#
-undef
-LOG
 mozilla
 :
 :
@@ -703,3 +700,6 @@ mozilla
 :
 :
 media
+#
+undef
+LOG

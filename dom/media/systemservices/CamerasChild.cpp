@@ -184,12 +184,6 @@ nsThreadUtils
 .
 h
 "
-#
-undef
-LOG
-#
-undef
-LOG_ENABLED
 mozilla
 :
 :
@@ -3870,3 +3864,9 @@ mozilla
 :
 :
 camera
+#
+undef
+LOG
+#
+undef
+LOG_ENABLED

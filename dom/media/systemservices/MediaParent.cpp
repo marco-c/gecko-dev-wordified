@@ -243,9 +243,6 @@ nsThreadUtils
 .
 h
 "
-#
-undef
-LOG
 mozilla
 :
 :
@@ -3113,6 +3110,9 @@ mozilla
 :
 :
 media
+#
+undef
+LOG
 /
 /
 Instantiate

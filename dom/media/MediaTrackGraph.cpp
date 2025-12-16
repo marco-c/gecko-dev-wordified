@@ -471,17 +471,6 @@ MediaTrackGraph
 )
 ;
 #
-ifdef
-LOG
-#
-undef
-LOG
-#
-endif
-/
-/
-LOG
-#
 define
 LOG
 (
@@ -29485,3 +29474,6 @@ NS_OK
 /
 namespace
 mozilla
+#
+undef
+LOG
