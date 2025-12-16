@@ -1062,6 +1062,13 @@ enabled
 )
 ;
 }
+if
+features
+.
+needs_type_canonicalization
+(
+)
+{
 TypeCanonicalizer
 :
 :
@@ -1084,6 +1091,7 @@ rec_group
 )
 ?
 ;
+}
 let
 (
 is_new
@@ -1094,6 +1102,11 @@ types
 .
 intern_canonical_rec_group
 (
+features
+.
+needs_type_canonicalization
+(
+)
 rec_group
 )
 ;

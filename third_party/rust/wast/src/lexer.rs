@@ -1811,7 +1811,7 @@ not
 the
 integral
 and
-decimal
+fractional
 are
 specified
 in
@@ -1845,7 +1845,7 @@ parts
 after
 the
 .
-decimal
+fractional
 :
 Option
 <
@@ -1866,7 +1866,7 @@ multiple
 this
 integral
 .
-decimal
+fractional
 portion
 of
 the
@@ -5568,7 +5568,7 @@ optionally
 be
 after
 the
-decimal
+dot
 so
 only
 actually
@@ -9116,7 +9116,7 @@ s
 let
 (
 integral
-decimal
+fractional
 exponent
 )
 =
@@ -9391,9 +9391,9 @@ integral
 ;
 let
 mut
-decimal
+fractional
 =
-decimal
+fractional
 .
 and_then
 (
@@ -9483,21 +9483,21 @@ if
 let
 Some
 (
-decimal
+fractional
 )
 =
 &
 mut
-decimal
+fractional
 {
 *
-decimal
+fractional
 .
 to_mut
 (
 )
 =
-decimal
+fractional
 .
 replace
 (
@@ -9569,7 +9569,7 @@ Val
 {
 hex
 integral
-decimal
+fractional
 exponent
 }
 }
@@ -12819,7 +12819,7 @@ integral
 into
 (
 )
-decimal
+fractional
 :
 Some
 (
@@ -12865,7 +12865,7 @@ integral
 into
 (
 )
-decimal
+fractional
 :
 Some
 (
@@ -12924,7 +12924,7 @@ integral
 into
 (
 )
-decimal
+fractional
 :
 Some
 (
@@ -12982,7 +12982,7 @@ integral
 into
 (
 )
-decimal
+fractional
 :
 Some
 (
@@ -13038,7 +13038,7 @@ integral
 into
 (
 )
-decimal
+fractional
 :
 Some
 (
@@ -13096,7 +13096,7 @@ integral
 into
 (
 )
-decimal
+fractional
 :
 Some
 (
@@ -13151,7 +13151,7 @@ integral
 into
 (
 )
-decimal
+fractional
 :
 None
 exponent
@@ -13188,7 +13188,7 @@ integral
 into
 (
 )
-decimal
+fractional
 :
 None
 exponent

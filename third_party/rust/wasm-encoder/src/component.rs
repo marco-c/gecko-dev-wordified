@@ -152,6 +152,15 @@ ProducersSection
 RawCustomSection
 }
 ;
+use
+alloc
+:
+:
+vec
+:
+:
+Vec
+;
 /
 /
 Core

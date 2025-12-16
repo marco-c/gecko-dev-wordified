@@ -5461,11 +5461,7 @@ Handle
 :
 OnLabel
 {
-ref
-mut
 tag
-ref
-mut
 label
 }
 =
@@ -5499,8 +5495,6 @@ Handle
 :
 OnSwitch
 {
-ref
-mut
 tag
 }
 =
