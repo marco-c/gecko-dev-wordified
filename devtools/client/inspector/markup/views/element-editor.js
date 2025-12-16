@@ -507,6 +507,13 @@ Element
 node
 .
 *
+/
+class
+ElementEditor
+{
+/
+*
+*
 *
 param
 {
@@ -534,8 +541,7 @@ edited
 .
 *
 /
-function
-ElementEditor
+constructor
 (
 container
 node
@@ -847,11 +853,6 @@ initialized
 true
 ;
 }
-ElementEditor
-.
-prototype
-=
-{
 buildMarkup
 (
 )
@@ -8365,7 +8366,6 @@ null
 ;
 }
 }
-;
 module
 .
 exports
