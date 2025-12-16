@@ -5834,6 +5834,11 @@ bool
 aIsNavigation
 )
 ;
+void
+MaybeGenerateNELReport
+(
+)
+;
 /
 /
 Timer
