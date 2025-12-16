@@ -453,6 +453,13 @@ bootstrap
 etc
 .
 *
+/
+class
+NetMonitorApp
+{
+/
+*
+*
 *
 param
 {
@@ -469,8 +476,7 @@ reused
 .
 *
 /
-function
-NetMonitorApp
+constructor
 (
 api
 )
@@ -482,11 +488,6 @@ api
 api
 ;
 }
-NetMonitorApp
-.
-prototype
-=
-{
 async
 bootstrap
 (
@@ -1168,7 +1169,6 @@ inspector
 ;
 }
 }
-;
 exports
 .
 NetMonitorApp
