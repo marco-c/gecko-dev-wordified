@@ -137,6 +137,13 @@ dict
         
 (
 "
+setWindowRect
+"
+bool
+)
+        
+(
+"
 userAgent
 "
 str
