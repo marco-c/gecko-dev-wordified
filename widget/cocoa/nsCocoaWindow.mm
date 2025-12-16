@@ -694,15 +694,6 @@ include
 "
 mozilla
 /
-StaticPrefs_browser
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPrefs_gfx
 .
 h
