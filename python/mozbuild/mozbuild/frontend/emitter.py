@@ -8866,10 +8866,6 @@ WASM_LIBS
 "
 XPI_PKGNAME
 "
-            
-"
-XPI_TESTDIR
-"
         
 ]
         
@@ -8901,34 +8897,6 @@ context
 [
 v
 ]
-        
-if
-"
-XPI_TESTDIR
-"
-in
-context
-and
-"
-XPI_PKGNAME
-"
-not
-in
-context
-:
-            
-raise
-SandboxValidationError
-(
-"
-XPI_TESTDIR
-set
-but
-XPI_PKGNAME
-not
-set
-"
-)
         
 if
 (
