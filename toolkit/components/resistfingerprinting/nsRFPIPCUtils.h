@@ -180,7 +180,7 @@ mozilla
 CanvasFingerprinterAlias
 :
 :
-eMaybe
+eLastAlias
 >
 {
 }
@@ -241,7 +241,7 @@ WriteParam
 aWriter
 aParam
 .
-source
+sourcesBitmask
 )
 ;
 }
@@ -266,8 +266,8 @@ alias
 uint32_t
 knownTextBitmask
 ;
-uint8_t
-source
+uint64_t
+sourcesBitmask
 ;
 if
 (
@@ -294,7 +294,7 @@ ReadParam
 (
 aReader
 &
-source
+sourcesBitmask
 )
 )
 {
@@ -312,7 +312,7 @@ CanvasFingerprintingEvent
 (
 alias
 knownTextBitmask
-source
+sourcesBitmask
 )
 ;
 return
