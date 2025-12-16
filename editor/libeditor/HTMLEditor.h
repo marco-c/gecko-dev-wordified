@@ -7588,6 +7588,7 @@ enum
 class
 CheckSelectionInReplacedElement
 {
+No
 Yes
 OnlyWhenNotInSameNode
 }
