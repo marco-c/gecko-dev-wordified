@@ -2017,8 +2017,10 @@ querySelector
 "
 span
 .
+dbg
+-
 img
-.
+-
 window
 "
 )
@@ -2352,8 +2354,10 @@ querySelector
 "
 span
 .
+dbg
+-
 img
-.
+-
 worker
 "
 )
@@ -3472,8 +3476,10 @@ querySelector
 "
 span
 .
+dbg
+-
 img
-.
+-
 extension
 "
 )
@@ -3994,6 +4000,10 @@ panel
 .
 node
 .
+dbg
+-
+img
+-
 folder
 +
 .

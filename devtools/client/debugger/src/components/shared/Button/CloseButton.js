@@ -114,13 +114,13 @@ types
 "
 ;
 import
-AccessibleImage
+DebuggerImage
 from
 "
 .
 .
 /
-AccessibleImage
+DebuggerImage
 "
 ;
 function
@@ -164,9 +164,9 @@ React
 .
 createElement
 (
-AccessibleImage
+DebuggerImage
 {
-className
+name
 :
 "
 close

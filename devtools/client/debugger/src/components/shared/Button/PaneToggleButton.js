@@ -96,13 +96,13 @@ types
 "
 ;
 import
-AccessibleImage
+DebuggerImage
 from
 "
 .
 .
 /
-AccessibleImage
+DebuggerImage
 "
 ;
 import
@@ -331,9 +331,9 @@ React
 .
 createElement
 (
-AccessibleImage
+DebuggerImage
 {
-className
+name
 :
 collapsed
 ?

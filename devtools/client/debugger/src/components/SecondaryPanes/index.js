@@ -208,7 +208,7 @@ index
 "
 ;
 import
-AccessibleImage
+DebuggerImage
 from
 "
 .
@@ -216,7 +216,7 @@ from
 /
 shared
 /
-AccessibleImage
+DebuggerImage
 "
 ;
 import
@@ -400,9 +400,9 @@ React
 .
 createElement
 (
-AccessibleImage
+DebuggerImage
 {
-className
+name
 :
 type
 title
@@ -1170,9 +1170,9 @@ React
 .
 createElement
 (
-AccessibleImage
+DebuggerImage
 {
-className
+name
 :
 "
 shortcuts

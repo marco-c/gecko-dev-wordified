@@ -257,11 +257,15 @@ querySelector
 (
 "
 .
+dbg
+-
+img
+-
+javascript
+.
 source
 -
 icon
-.
-javascript
 "
 )
 "

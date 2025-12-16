@@ -160,7 +160,7 @@ prefs
 "
 ;
 import
-AccessibleImage
+DebuggerImage
 from
 "
 .
@@ -168,7 +168,7 @@ from
 /
 shared
 /
-AccessibleImage
+DebuggerImage
 "
 ;
 import
@@ -1159,9 +1159,9 @@ React
 .
 createElement
 (
-AccessibleImage
+DebuggerImage
 {
-className
+name
 :
 "
 sourcemap
@@ -1223,9 +1223,9 @@ React
 .
 createElement
 (
-AccessibleImage
+DebuggerImage
 {
-className
+name
 :
 "
 loader

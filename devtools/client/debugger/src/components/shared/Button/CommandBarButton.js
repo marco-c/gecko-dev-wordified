@@ -114,13 +114,13 @@ types
 "
 ;
 import
-AccessibleImage
+DebuggerImage
 from
 "
 .
 .
 /
-AccessibleImage
+DebuggerImage
 "
 ;
 const
@@ -191,9 +191,9 @@ React
 .
 createElement
 (
-AccessibleImage
+DebuggerImage
 {
-className
+name
 :
 type
 }
