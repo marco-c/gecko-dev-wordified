@@ -11719,11 +11719,6 @@ string
 >
 #
 include
-<
-type_traits
->
-#
-include
 "
 mozilla
 /
@@ -21556,23 +21551,12 @@ f
         
 println
 (
-            
 '
 /
 /
 |
 reftest
 |
-shell
--
-option
-(
--
--
-enable
--
-temporal
-)
 skip
 -
 if
@@ -21588,7 +21572,6 @@ Temporal
 )
 )
 '
-        
 )
         
 println
