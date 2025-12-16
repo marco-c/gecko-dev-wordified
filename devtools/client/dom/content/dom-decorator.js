@@ -90,15 +90,6 @@ js
 )
 ;
 /
-/
-Implementation
-function
-DomDecorator
-(
-)
-{
-}
-/
 *
 *
 *
@@ -125,10 +116,8 @@ properties
 .
 *
 /
+class
 DomDecorator
-.
-prototype
-=
 {
 getRowClass
 (
@@ -243,7 +232,6 @@ getValueRep
 {
 }
 }
-;
 /
 /
 Exports
