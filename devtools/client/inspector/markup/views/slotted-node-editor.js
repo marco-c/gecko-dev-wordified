@@ -102,8 +102,10 @@ properties
 "
 )
 ;
-function
+class
 SlottedNodeEditor
+{
+constructor
 (
 container
 node
@@ -182,11 +184,6 @@ tabindex
 )
 ;
 }
-SlottedNodeEditor
-.
-prototype
-=
-{
 buildMarkup
 (
 )
@@ -421,7 +418,6 @@ null
 ;
 }
 }
-;
 module
 .
 exports
