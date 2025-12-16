@@ -333,7 +333,7 @@ mValue
 ;
 }
 ;
-MOZ_CONSTINIT
+constinit
 static
 SVGAttrTearoffTable
 <

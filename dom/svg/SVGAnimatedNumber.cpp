@@ -372,7 +372,7 @@ mSVGElement
 ;
 }
 ;
-MOZ_CONSTINIT
+constinit
 static
 SVGAttrTearoffTable
 <
