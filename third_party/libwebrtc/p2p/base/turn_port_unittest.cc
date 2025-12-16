@@ -2552,9 +2552,7 @@ socket_
 )
 {
 socket_
-.
-reset
-(
+=
 socket_factory
 (
 )
@@ -2562,6 +2560,7 @@ socket_factory
 >
 CreateUdpSocket
 (
+env_
 SocketAddress
 (
 kLocalAddr1
@@ -2573,7 +2572,6 @@ ipaddr
 )
 0
 0
-)
 )
 ;
 ASSERT_TRUE
