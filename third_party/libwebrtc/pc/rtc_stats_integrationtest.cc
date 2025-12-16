@@ -179,7 +179,9 @@ include
 "
 api
 /
-field_trials
+environment
+/
+environment
 .
 h
 "
@@ -402,6 +404,15 @@ include
 "
 test
 /
+create_test_environment
+.
+h
+"
+#
+include
+"
+test
+/
 create_test_field_trials
 .
 h
@@ -485,6 +496,12 @@ RTCStatsIntegrationTest
 (
 )
 :
+env_
+(
+CreateTestEnvironment
+(
+)
+)
 network_thread_
 (
 new
@@ -534,6 +551,7 @@ PeerConnectionTestWrapper
 "
 caller
 "
+env_
 &
 virtual_socket_server_
 network_thread_
@@ -558,6 +576,7 @@ PeerConnectionTestWrapper
 "
 callee
 "
+env_
 &
 virtual_socket_server_
 network_thread_
@@ -1164,6 +1183,10 @@ the
 correct
 order
 .
+const
+Environment
+env_
+;
 VirtualSocketServer
 virtual_socket_server_
 ;
