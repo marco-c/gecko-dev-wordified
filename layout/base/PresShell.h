@@ -2264,6 +2264,14 @@ const
 nsRect
 &
 aPositionFixedRect
+const
+nsIFrame
+*
+aPositionFixedFrame
+ScrollAxis
+aVertical
+ScrollAxis
+aHorizontal
 ScrollFlags
 aScrollFlags
 )
