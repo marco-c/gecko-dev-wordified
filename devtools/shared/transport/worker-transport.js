@@ -385,8 +385,10 @@ thread
 .
 *
 /
-function
+class
 WorkerThreadWorkerDebuggerTransport
+{
+constructor
 (
 scope
 id
@@ -418,14 +420,6 @@ this
 )
 ;
 }
-WorkerThreadWorkerDebuggerTransport
-.
-prototype
-=
-{
-constructor
-:
-WorkerThreadWorkerDebuggerTransport
 ready
 (
 )
@@ -595,7 +589,6 @@ message
 }
 }
 }
-;
 exports
 .
 WorkerThreadWorkerDebuggerTransport
