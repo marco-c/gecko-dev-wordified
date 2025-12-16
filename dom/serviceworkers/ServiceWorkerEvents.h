@@ -1209,6 +1209,14 @@ GetContentsCopy
 (
 )
 ;
+void
+SetUseCounterIfDeclarative
+(
+JSContext
+*
+aCx
+)
+;
 }
 ;
 class
