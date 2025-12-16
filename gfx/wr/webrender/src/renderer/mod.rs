@@ -1353,6 +1353,7 @@ GpuBufferAddress
 GpuBufferBuilder
 GpuBufferWriterF
 GpuBufferBlockF
+GpuBufferDataF
 }
 ;
 /
