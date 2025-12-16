@@ -105,6 +105,10 @@ pub
 mod
 quadtree
 ;
+pub
+mod
+cached_surface
+;
 use
 api
 :
