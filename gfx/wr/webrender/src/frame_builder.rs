@@ -218,12 +218,10 @@ use
 crate
 :
 :
-picture
+invalidation
 :
 :
-{
 DirtyRegion
-}
 ;
 use
 crate
