@@ -42174,6 +42174,8 @@ cascade
 (
 declaration
 priority
+&
+element
 )
 ;
 }
@@ -42196,6 +42198,8 @@ DeferFontRelativeCustomPropertyResolution
 :
 :
 No
+&
+element
 )
 ;
 debug_assert
@@ -43093,6 +43097,8 @@ mut
 context
 style
 default_values
+&
+element
 )
 ;
 animation
