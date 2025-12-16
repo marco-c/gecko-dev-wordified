@@ -4340,7 +4340,7 @@ Debug
 ]
 pub
 struct
-ImageBrushData
+ImageBrushUserData
 {
 pub
 color_mode
@@ -4360,7 +4360,7 @@ opacity
 f32
 }
 impl
-ImageBrushData
+ImageBrushUserData
 {
 #
 [
