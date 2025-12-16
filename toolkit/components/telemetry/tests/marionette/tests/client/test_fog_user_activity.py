@@ -224,6 +224,24 @@ reporting
 "
 ]
         
+self
+.
+marionette
+.
+set_pref
+(
+"
+telemetry
+.
+glean
+.
+internal
+.
+maxPingsPerMinute
+"
+60
+)
+        
 #
 Restarting
 the
