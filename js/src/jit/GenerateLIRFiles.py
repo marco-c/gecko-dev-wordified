@@ -2701,6 +2701,16 @@ mir_type
 )
 :
     
+assert
+mir_type
+and
+mir_type
+!
+=
+"
+None
+"
+    
 if
 mir_type
 =
@@ -3255,6 +3265,13 @@ result_types
             
 elif
 result_type
+and
+result_type
+!
+=
+"
+None
+"
 :
                 
 lir_result_type
