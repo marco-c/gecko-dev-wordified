@@ -424,7 +424,7 @@ path
 )
 :
     
-max
+max_mtime
 =
 os
 .
@@ -475,18 +475,16 @@ element
 )
 )
             
-if
-age
->
-max
-:
-                
-max
+max_mtime
 =
+max
+(
+max_mtime
 age
+)
     
 return
-max
+max_mtime
 def
 profile_age
 (
