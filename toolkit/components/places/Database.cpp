@@ -14869,15 +14869,6 @@ MigrateV84Up
 (
 )
 {
-printf
-(
-"
-Upgrading
-database
-.
-"
-)
-;
 /
 /
 Recalculate
