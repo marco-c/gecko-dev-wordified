@@ -17157,7 +17157,7 @@ Sanitizer
 insecureContext
 :
 true
-nightly
+earlyBetaOrEarlier
 :
 true
 }
