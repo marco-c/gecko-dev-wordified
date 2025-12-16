@@ -16784,7 +16784,7 @@ actually
 goes
 away
 .
-MOZ_CONSTINIT
+constinit
 UniquePtr
 <
 PrivateDatastoreHashtable

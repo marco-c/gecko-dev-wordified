@@ -3146,7 +3146,7 @@ IsDone
 )
 ;
 }
-MOZ_CONSTINIT
+constinit
 nsCOMPtr
 <
 nsISerialEventTarget
