@@ -3259,6 +3259,7 @@ Moof
 :
 Moof
 (
+const
 Box
 &
 aBox
@@ -5579,6 +5580,7 @@ Moof
 :
 ParseTraf
 (
+const
 Box
 &
 aBox
@@ -6463,6 +6465,7 @@ Moof
 :
 ParseSenc
 (
+const
 Box
 &
 aBox
@@ -7121,6 +7124,7 @@ Moof
 :
 ParseTrun
 (
+const
 Box
 &
 aBox

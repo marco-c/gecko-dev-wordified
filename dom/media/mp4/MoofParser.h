@@ -1253,6 +1253,7 @@ public
 :
 Moof
 (
+const
 Box
 &
 aBox
@@ -1485,6 +1486,7 @@ return
 void
 ParseTraf
 (
+const
 Box
 &
 aBox
@@ -1542,6 +1544,7 @@ nsresult
 >
 ParseTrun
 (
+const
 Box
 &
 aBox
@@ -1572,6 +1575,7 @@ nsresult
 >
 ParseSenc
 (
+const
 Box
 &
 aBox
