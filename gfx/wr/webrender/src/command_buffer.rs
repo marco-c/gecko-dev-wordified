@@ -94,7 +94,7 @@ surface
 :
 :
 SurfaceTileDescriptor
-tile_cache
+picture
 :
 :
 TileKey
