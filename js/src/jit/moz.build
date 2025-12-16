@@ -567,6 +567,11 @@ Snapshots
 cpp
 "
 "
+StubFolding
+.
+cpp
+"
+"
 Trampoline
 .
 cpp
