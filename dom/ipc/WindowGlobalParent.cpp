@@ -10528,19 +10528,6 @@ mDocumentURI
 )
 )
 {
-bool
-incrementedTopLevelContentDocumentsDestroyed
-=
-pageUseCounterResult
-.
-contains
-(
-PageUseCounterResultBits
-:
-:
-DATA_RECEIVED
-)
-;
 GetContentBlockingLog
 (
 )
@@ -10551,7 +10538,6 @@ ReportCanvasFingerprintingLog
 DocumentPrincipal
 (
 )
-incrementedTopLevelContentDocumentsDestroyed
 )
 ;
 GetContentBlockingLog
