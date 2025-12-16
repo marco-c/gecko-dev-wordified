@@ -324,7 +324,7 @@ builtin
 /
 intl
 /
-LocaleNegotiation
+Locale
 .
 h
 "

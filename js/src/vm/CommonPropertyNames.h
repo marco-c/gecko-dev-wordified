@@ -2543,14 +2543,6 @@ locale
 \
 MACRO_
 (
-localeMatcher
-"
-localeMatcher
-"
-)
-\
-MACRO_
-(
 many
 "
 many
