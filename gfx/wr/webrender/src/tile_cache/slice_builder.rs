@@ -135,7 +135,6 @@ picture
 {
 Picture3DContext
 TileCacheParams
-TileOffset
 PictureFlags
 }
 ;
