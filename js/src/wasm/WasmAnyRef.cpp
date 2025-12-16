@@ -604,7 +604,7 @@ if
 mozilla
 :
 :
-NumberEqualsInt32
+NumberIsInt32
 (
 doubleValue
 &
