@@ -11478,6 +11478,13 @@ num_reverse_channels
 num_proc_channels
 (
 )
+submodules_
+.
+neural_residual_echo_estimator
+.
+get
+(
+)
 )
 ;
 RTC_DCHECK
