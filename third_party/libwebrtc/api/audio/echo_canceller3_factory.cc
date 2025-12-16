@@ -264,6 +264,13 @@ EchoCanceller3
 env
 config_
 multichannel_config_
+/
+*
+neural_residual_echo_estimator
+=
+*
+/
+nullptr
 sample_rate_hz
 num_render_channels
 num_capture_channels

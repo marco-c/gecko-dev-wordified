@@ -459,6 +459,13 @@ std
 :
 :
 nullopt
+/
+*
+neural_residual_echo_estimator
+=
+*
+/
+nullptr
 sample_rate_hz
 num_render_channels
 num_capture_channels

@@ -133,6 +133,17 @@ include
 "
 api
 /
+audio
+/
+neural_residual_echo_estimator
+.
+h
+"
+#
+include
+"
+api
+/
 environment
 /
 environment
@@ -235,6 +246,9 @@ size_t
 num_render_channels
 size_t
 num_capture_channels
+NeuralResidualEchoEstimator
+*
+neural_residual_echo_estimator
 )
 ;
 virtual

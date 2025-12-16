@@ -101,13 +101,6 @@ h
 #
 include
 <
-math
-.
-h
->
-#
-include
-<
 algorithm
 >
 #
@@ -119,6 +112,11 @@ array
 include
 <
 atomic
+>
+#
+include
+<
+cmath
 >
 #
 include
@@ -2404,10 +2402,6 @@ delay
 external_delay_
 =
 external_delay
-;
-external_delay_reported_
-=
-true
 ;
 }
 /
