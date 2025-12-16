@@ -198,6 +198,9 @@ Nightly
 "
 Firefox
 "
+"
+AI
+"
 ]
 )
 ;
