@@ -9367,6 +9367,11 @@ IsMaybeAsynchronouslyScrolled
 {
 return
 f
+-
+>
+FirstContinuation
+(
+)
 ;
 }
 }
