@@ -103,6 +103,8 @@ enough
 "
 "
 import
+functools
+import
 itertools
 import
 os
@@ -137,6 +139,14 @@ built
 -
 in
 filters
+functools
+.
+lru_cache
+(
+maxsize
+=
+None
+)
 def
 _match
 (
