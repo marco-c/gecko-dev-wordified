@@ -64,6 +64,8 @@ random
 import
 subprocess
 import
+sys
+import
 time
 from
 pathlib
@@ -552,6 +554,8 @@ exiting
 "
 )
             
+sys
+.
 exit
 (
 )
@@ -1033,6 +1037,8 @@ exiting
 "
 )
             
+sys
+.
 exit
 (
 )

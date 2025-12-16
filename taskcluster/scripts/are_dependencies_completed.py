@@ -67,6 +67,8 @@ argparse
 import
 os
 import
+sys
+import
 taskcluster
 queue
 =
@@ -363,6 +365,8 @@ task
 "
 )
     
+sys
+.
 exit
 (
 0

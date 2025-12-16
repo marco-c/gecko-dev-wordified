@@ -67,6 +67,8 @@ import
 logging
 import
 os
+import
+sys
 from
 optparse
 import
@@ -1147,6 +1149,8 @@ directory
 i
 )
             
+sys
+.
 exit
 (
 1

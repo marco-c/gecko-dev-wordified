@@ -902,7 +902,9 @@ form
 "
 )
         
-quit
+sys
+.
+exit
 (
 )
     

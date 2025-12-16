@@ -899,7 +899,9 @@ form
 "
 )
         
-quit
+sys
+.
+exit
 (
 )
     

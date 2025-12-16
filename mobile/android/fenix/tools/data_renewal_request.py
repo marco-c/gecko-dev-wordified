@@ -147,7 +147,9 @@ version
 "
 )
     
-quit
+sys
+.
+exit
 (
 )
 expiry_filename

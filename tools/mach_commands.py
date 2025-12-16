@@ -1826,17 +1826,25 @@ not
 npm_path
 :
         
-exit
+print
 (
--
-1
 "
+error
+:
 could
 not
 find
 npm
 executable
 "
+)
+        
+sys
+.
+exit
+(
+-
+1
 )
     
 path
