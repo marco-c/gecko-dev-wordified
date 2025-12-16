@@ -2709,7 +2709,7 @@ Frame
 )
 -
 >
-InkOverflowRectRelativeToSelf
+GetContentRectRelativeToSelf
 (
 )
 +
