@@ -13823,7 +13823,13 @@ property
 JS
 :
 :
-RootedValue
+Rooted
+<
+JS
+:
+:
+Value
+>
 v
 (
 jsapi
