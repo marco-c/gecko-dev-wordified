@@ -395,7 +395,7 @@ constexpr
 int32_t
 kFingerprintingCacheMissThreshold
 =
-20
+10
 ;
 /
 /
@@ -429,11 +429,11 @@ PRTime
 PR_USEC_PER_SEC
 )
 *
-3
+6
 ;
 /
 /
-3
+6
 seconds
 static_assert
 (
