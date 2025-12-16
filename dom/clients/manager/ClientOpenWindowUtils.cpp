@@ -3350,13 +3350,6 @@ initialPrincipal
 openInfo
 -
 >
-mPartitionedPrincipalToInheritForAboutBlank
-=
-initialPrincipal
-;
-openInfo
--
->
 mIsRemote
 =
 true
