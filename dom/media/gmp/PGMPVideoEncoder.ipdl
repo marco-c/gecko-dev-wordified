@@ -285,6 +285,13 @@ aCodecSpecificInfo
 )
 ;
 async
+DroppedFrame
+(
+uint64_t
+aTimestamp
+)
+;
+async
 Error
 (
 GMPErr

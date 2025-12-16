@@ -1270,6 +1270,14 @@ aCodecSpecificInfo
 override
 ;
 void
+Dropped
+(
+uint64_t
+aTimestamp
+)
+override
+;
+void
 Error
 (
 GMPErr

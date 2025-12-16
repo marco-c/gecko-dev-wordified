@@ -123,6 +123,9 @@ mozilla
 :
 gmp
 {
+class
+GMPVideoi420FrameImpl
+;
 enum
 class
 GMPSharedMemClass
@@ -227,6 +230,16 @@ aMem
 =
 0
 ;
+virtual
+void
+MgrDecodedFrameDestroyed
+(
+GMPVideoi420FrameImpl
+*
+aFrame
+)
+{
+}
 protected
 :
 virtual
