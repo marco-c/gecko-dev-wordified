@@ -520,7 +520,7 @@ still
 being
 sent
 .
-MOZ_CONSTINIT
+constinit
 static
 nsTArray
 <

@@ -268,7 +268,7 @@ lastValue2
 ;
 }
 ;
-MOZ_CONSTINIT
+constinit
 mozilla
 :
 :

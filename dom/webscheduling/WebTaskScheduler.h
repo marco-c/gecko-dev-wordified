@@ -243,7 +243,7 @@ one
 task
 scheduled
 .
-MOZ_CONSTINIT
+constinit
 extern
 uint32_t
 gNumNormalOrHighPriorityQueuesHaveTaskScheduledMainThread

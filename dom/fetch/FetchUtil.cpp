@@ -4056,7 +4056,7 @@ nsIInputStreamCallback
 /
 /
 static
-MOZ_CONSTINIT
+constinit
 nsCString
 FetchUtil
 :

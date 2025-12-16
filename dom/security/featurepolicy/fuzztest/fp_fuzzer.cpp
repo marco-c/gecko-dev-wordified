@@ -184,7 +184,7 @@ mozilla
 :
 dom
 ;
-MOZ_CONSTINIT
+constinit
 static
 nsCOMPtr
 <
@@ -192,7 +192,7 @@ nsIPrincipal
 >
 selfURIPrincipal
 ;
-MOZ_CONSTINIT
+constinit
 static
 nsCOMPtr
 <
