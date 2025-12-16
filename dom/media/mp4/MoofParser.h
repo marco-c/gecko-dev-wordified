@@ -433,6 +433,7 @@ mDefaultSampleFlags
 explicit
 Trex
 (
+const
 Box
 &
 aBox
@@ -465,6 +466,7 @@ nsresult
 >
 Parse
 (
+const
 Box
 &
 aBox
@@ -483,6 +485,7 @@ public
 explicit
 Tfhd
 (
+const
 Trex
 &
 aTrex
@@ -511,6 +514,7 @@ Tfhd
 Box
 &
 aBox
+const
 Trex
 &
 aTrex
@@ -1256,6 +1260,7 @@ const
 TrackParseMode
 &
 aTrackParseMode
+const
 Trex
 &
 aTrex
@@ -1487,6 +1492,7 @@ const
 TrackParseMode
 &
 aTrackParseMode
+const
 Trex
 &
 aTrex
