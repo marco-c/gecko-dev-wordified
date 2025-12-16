@@ -10805,6 +10805,13 @@ CleanUp
 (
 )
 ;
+mNavigation
+-
+>
+mOngoingNavigateEvent
+=
+nullptr
+;
 }
 else
 {
