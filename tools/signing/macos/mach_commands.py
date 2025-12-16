@@ -4006,9 +4006,6 @@ capture_output
 =
 not
 verbose_arg
-check
-=
-True
 )
         
 for
@@ -4225,9 +4222,6 @@ capture_output
 =
 not
 verbose_arg
-check
-=
-True
 )
         
 ctx
@@ -5315,9 +5309,6 @@ capture_output
 =
 not
 verbose_arg
-check
-=
-True
 )
     
 for
