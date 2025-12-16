@@ -496,16 +496,11 @@ transferred
 )
 .
 innerText
-Harmful
-Add
--
-on
 Blocked
-(
+By
 {
 extensionName
 }
-)
 "
 The
 request

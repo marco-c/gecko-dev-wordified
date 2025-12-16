@@ -275,11 +275,6 @@ UrlClassifierFeatureFingerprintingProtection
 cpp
 "
 "
-UrlClassifierFeatureHarmfulAddonProtection
-.
-cpp
-"
-"
 UrlClassifierFeaturePhishingProtection
 .
 cpp

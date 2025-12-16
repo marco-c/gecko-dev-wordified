@@ -586,7 +586,7 @@ method
 isXHR
 timeStamp
 blockedReason
-extension
+blockingExtension
 httpVersion
 status
 statusText
@@ -776,7 +776,7 @@ info
 getBlockedReasonString
 (
 blockedReason
-extension
+blockingExtension
 )
 )
 ;
