@@ -97,6 +97,13 @@ source
 map
 .
 *
+/
+class
+OriginalSource
+{
+/
+*
+*
 *
 param
 {
@@ -152,8 +159,7 @@ Toolbox
 sourceMapLoader
 *
 /
-function
-OriginalSource
+constructor
 (
 url
 sourceId
@@ -185,11 +191,6 @@ _sourceMapLoader
 sourceMapLoader
 ;
 }
-OriginalSource
-.
-prototype
-=
-{
 get
 sourceId
 (
@@ -569,7 +570,6 @@ off
 {
 }
 }
-;
 exports
 .
 OriginalSource
