@@ -14074,11 +14074,11 @@ nullptr
 ;
 }
 }
-int64_t
+Timestamp
 P2PTransportChannel
 :
 :
-GetLastPingSentMs
+GetLastPingSent
 (
 )
 const
@@ -14090,10 +14090,6 @@ network_thread_
 ;
 return
 last_ping_sent_
-.
-ms
-(
-)
 ;
 }
 void

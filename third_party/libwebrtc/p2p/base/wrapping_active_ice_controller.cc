@@ -736,11 +736,11 @@ result
 wrapped_
 -
 >
-SelectConnectionToPing
+GetConnectionToPing
 (
 agent_
 .
-GetLastPingSentMs
+GetLastPingSent
 (
 )
 )
