@@ -2657,9 +2657,6 @@ RenderTaskParent
 :
 :
 Surface
-frame_state
-.
-gpu_cache
 &
 mut
 frame_state
@@ -2679,7 +2676,6 @@ surface_builder
 mut
 |
 rg_builder
-_
 _
 |
 {
@@ -3823,9 +3819,6 @@ RenderTaskParent
 :
 :
 Surface
-frame_state
-.
-gpu_cache
 &
 mut
 frame_state
@@ -3845,7 +3838,6 @@ surface_builder
 mut
 |
 rg_builder
-_
 _
 |
 {
@@ -8850,9 +8842,6 @@ root_spatial_node_index
 frame_state
 .
 clip_store
-frame_state
-.
-gpu_cache
 &
 mut
 frame_state
@@ -9199,9 +9188,6 @@ root_spatial_node_index
 frame_state
 .
 clip_store
-frame_state
-.
-gpu_cache
 &
 mut
 frame_state

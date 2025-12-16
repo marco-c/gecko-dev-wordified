@@ -3526,9 +3526,6 @@ RenderTaskParent
 :
 :
 Surface
-frame_state
-.
-gpu_cache
 &
 mut
 frame_state
@@ -3548,7 +3545,6 @@ surface_builder
 mut
 |
 rg_builder
-_
 _
 |
 {
@@ -3720,9 +3716,6 @@ RenderTaskParent
 :
 :
 Surface
-frame_state
-.
-gpu_cache
 &
 mut
 frame_state
@@ -3743,7 +3736,6 @@ mut
 |
 rg_builder
 gpu_buffer_builder
-_
 |
 {
 let

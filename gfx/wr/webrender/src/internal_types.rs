@@ -145,15 +145,6 @@ use
 crate
 :
 :
-gpu_cache
-:
-:
-GpuCacheUpdateList
-;
-use
-crate
-:
-:
 gpu_types
 :
 :
@@ -12888,10 +12879,6 @@ DebugOutput
 RefreshShader
 (
 PathBuf
-)
-UpdateGpuCache
-(
-GpuCacheUpdateList
 )
 UpdateResources
 {
