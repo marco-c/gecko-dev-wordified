@@ -1791,6 +1791,13 @@ true
 precise_conic_gradients
 :
 true
+precise_linear_gradients
+:
+window
+.
+is_software
+(
+)
 .
 .
 Default
