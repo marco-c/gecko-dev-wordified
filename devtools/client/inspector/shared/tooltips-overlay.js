@@ -511,6 +511,13 @@ style
 inspector
 .
 *
+/
+class
+TooltipsOverlay
+{
+/
+*
+*
 *
 param
 {
@@ -532,8 +539,7 @@ view
 panel
 *
 /
-function
-TooltipsOverlay
+constructor
 (
 view
 )
@@ -595,11 +601,6 @@ addToView
 )
 ;
 }
-TooltipsOverlay
-.
-prototype
-=
-{
 get
 isEditing
 (
@@ -3180,7 +3181,6 @@ true
 ;
 }
 }
-;
 module
 .
 exports
