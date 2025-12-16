@@ -5480,6 +5480,7 @@ MOZ_ASSERT
 (
 depth
 <
+=
 std
 :
 :
