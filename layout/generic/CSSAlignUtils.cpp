@@ -304,7 +304,7 @@ aFlags
 aFrame
 -
 >
-HasReplacedSizing
+IsReplaced
 (
 )
 ?
