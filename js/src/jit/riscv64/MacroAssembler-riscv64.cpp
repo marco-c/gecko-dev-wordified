@@ -30919,7 +30919,7 @@ Acquire
 int32_t
 imm
 =
-branchLongOffset
+branchLongOffsetHelper
 (
 L
 )
@@ -30955,7 +30955,7 @@ link
 int32_t
 imm
 =
-branchLongOffset
+branchLongOffsetHelper
 (
 L
 )
