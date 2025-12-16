@@ -107,10 +107,6 @@ prim_store
 :
 :
 PrimitiveInstanceIndex
-gpu_cache
-:
-:
-GpuCacheAddress
 }
 ;
 use
@@ -918,7 +914,7 @@ prim_instance_index
 PrimitiveInstanceIndex
 gpu_address
 :
-GpuCacheAddress
+GpuBufferAddress
 }
 Instance
 {
@@ -1004,7 +1000,7 @@ prim_instance_index
 PrimitiveInstanceIndex
 gpu_address
 :
-GpuCacheAddress
+GpuBufferAddress
 )
 -
 >
@@ -1922,7 +1918,7 @@ unwrap
 let
 gpu_address
 =
-GpuCacheAddress
+GpuBufferAddress
 {
 u
 :

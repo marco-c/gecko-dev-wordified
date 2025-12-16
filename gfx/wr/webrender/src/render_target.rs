@@ -170,15 +170,6 @@ use
 crate
 :
 :
-gpu_cache
-:
-:
-GpuCache
-;
-use
-crate
-:
-:
 gpu_types
 :
 :
@@ -1014,11 +1005,6 @@ ctx
 &
 mut
 RenderTargetContext
-gpu_cache
-:
-&
-mut
-GpuCache
 render_tasks
 :
 &
@@ -1081,7 +1067,6 @@ target
 build
 (
 ctx
-gpu_cache
 render_tasks
 prim_headers
 transforms
@@ -2050,11 +2035,6 @@ ctx
 &
 mut
 RenderTargetContext
-gpu_cache
-:
-&
-mut
-GpuCache
 render_tasks
 :
 &
@@ -2376,7 +2356,6 @@ add_prim_to_batch
 cmd
 spatial_node_index
 ctx
-gpu_cache
 render_tasks
 prim_headers
 transforms
@@ -4832,6 +4811,10 @@ GpuBufferAddress
 :
 INVALID
 )
+.
+as_int
+(
+)
 }
 ;
 for
@@ -5222,6 +5205,10 @@ GpuBufferAddress
 :
 :
 INVALID
+)
+.
+as_int
+(
 )
 }
 ;
