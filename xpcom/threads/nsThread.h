@@ -1339,8 +1339,11 @@ part
 of
 has
 an
+idle
+or
 unstarted
 thread
+.
 void
 SetPoolThreadFreePtr
 (
@@ -1359,7 +1362,7 @@ Relaxed
 aPtr
 )
 {
-mIsAPoolThreadFree
+mIsAPoolThreadFreePtr
 =
 aPtr
 ;
@@ -1815,7 +1818,7 @@ mozilla
 Relaxed
 >
 *
-mIsAPoolThreadFree
+mIsAPoolThreadFreePtr
 ;
 /
 /
