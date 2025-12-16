@@ -5281,6 +5281,13 @@ ShadowRoot
 identifier
 ]
         
+assert
+isinstance
+(
+uuid
+str
+)
+        
 return
 cls
 (
@@ -5660,6 +5667,13 @@ WebElement
 .
 identifier
 ]
+        
+assert
+isinstance
+(
+uuid
+str
+)
         
 return
 cls
@@ -6460,6 +6474,13 @@ WebFrame
 identifier
 ]
         
+assert
+isinstance
+(
+uuid
+str
+)
+        
 return
 cls
 (
@@ -6591,6 +6612,13 @@ WebWindow
 .
 identifier
 ]
+        
+assert
+isinstance
+(
+uuid
+str
+)
         
 return
 cls
