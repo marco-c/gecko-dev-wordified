@@ -1633,7 +1633,6 @@ print
         
 "
 {
-0
 }
 :
 started
@@ -1641,7 +1640,6 @@ fixture
 server
 on
 {
-1
 }
 "
 .

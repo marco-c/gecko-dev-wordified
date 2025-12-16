@@ -3887,7 +3887,6 @@ Exception
 Unknown
 type
 {
-0
 }
 "
 .
