@@ -345,6 +345,16 @@ if
 mozExtensions
 )
 {
+/
+/
+Note
+that
+special
+casing
+applies
+in
+DateTimeFormat
+.
 internalProps
 .
 calendar
