@@ -3074,13 +3074,6 @@ cx
 check
 (
 env
-)
-;
-cx
--
->
-check
-(
 scriptArg
 )
 ;
