@@ -886,13 +886,13 @@ Option
 number
 "
 )
-blockingExtension
+extension
 :
 Option
 (
 1
 "
-string
+json
 "
 )
 }
