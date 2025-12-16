@@ -410,8 +410,10 @@ ID_COUNTER
 =
 1
 ;
-function
+class
 ToolboxHostManager
+{
+constructor
 (
 commands
 hostType
@@ -728,11 +730,6 @@ setMinWidthWithZoom
 )
 ;
 }
-ToolboxHostManager
-.
-prototype
-=
-{
 /
 *
 *
@@ -2705,7 +2702,6 @@ destroy
 ;
 }
 }
-;
 exports
 .
 ToolboxHostManager
