@@ -48475,6 +48475,11 @@ else
 {
 selectionCommonAncestor
 =
+nsIContent
+:
+:
+FromNodeOrNull
+(
 nsContentUtils
 :
 :
@@ -48482,6 +48487,7 @@ GetCommonFlattenedTreeAncestorForSelection
 (
 commonAncestor
 selectionCommonAncestor
+)
 )
 ;
 }
