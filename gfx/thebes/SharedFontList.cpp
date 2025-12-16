@@ -2705,7 +2705,7 @@ aStyle
 .
 weight
 .
-IsBold
+PreferBold
 (
 )
 ;
