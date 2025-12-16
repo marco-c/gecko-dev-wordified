@@ -180,8 +180,16 @@ picture
 PictureCompositeMode
 ClusterFlags
 SurfaceInfo
-TileCacheInstance
 }
+;
+use
+crate
+:
+:
+tile_cache
+:
+:
+TileCacheInstance
 ;
 use
 crate
