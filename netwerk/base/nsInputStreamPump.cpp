@@ -686,9 +686,15 @@ lock
 mMutex
 )
 ;
-MOZ_ASSERT
+if
 (
+!
 mAsyncStream
+)
+{
+MOZ_DIAGNOSTIC_ASSERT
+(
+false
 "
 PeekStream
 called
@@ -697,6 +703,10 @@ stream
 "
 )
 ;
+return
+NS_ERROR_NOT_AVAILABLE
+;
+}
 nsresult
 rv
 =
