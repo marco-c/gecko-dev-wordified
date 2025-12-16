@@ -10826,6 +10826,7 @@ shistory
 >
 GotoIndex
 (
+this
 index
 .
 value
