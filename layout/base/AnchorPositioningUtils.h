@@ -1947,7 +1947,6 @@ null
 *
 /
 static
-const
 nsIFrame
 *
 GetAnchorPosImplicitAnchor
