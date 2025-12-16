@@ -1413,12 +1413,10 @@ TestStunServer
 :
 Create
 (
-ss_
-.
-get
-(
-)
+env_
 addr
+*
+ss_
 thread_
 )
 )

@@ -1437,12 +1437,10 @@ TestStunServer
 :
 Create
 (
-fss_
-.
-get
-(
-)
+env_
 kStunAddr
+*
+fss_
 thread_
 )
 )
