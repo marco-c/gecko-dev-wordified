@@ -132,10 +132,12 @@ description
 Undefined
 timeout
 arg
-is
-coerced
-to
-zero
+should
+result
+in
+an
+infinite
+timeout
 info
 :
 |
