@@ -128,7 +128,7 @@ mozilla
 :
 widget
 ;
-MOZ_CONSTINIT
+constinit
 RefPtr
 <
 GfxDeviceFamily

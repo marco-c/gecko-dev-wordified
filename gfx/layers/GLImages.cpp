@@ -209,7 +209,7 @@ mozilla
 :
 layers
 {
-MOZ_CONSTINIT
+constinit
 static
 RefPtr
 <

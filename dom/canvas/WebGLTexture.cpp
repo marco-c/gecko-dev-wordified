@@ -216,7 +216,7 @@ mozilla
 namespace
 webgl
 {
-MOZ_CONSTINIT
+constinit
 /
 *
 static
