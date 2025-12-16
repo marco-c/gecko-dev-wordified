@@ -1158,11 +1158,11 @@ entry
 &
 mut
 RenderTaskCacheEntry
-gpu_cache
+gpu_buffer
 :
 &
 mut
-GpuCache
+GpuBufferBuilderF
 texture_cache
 :
 &
@@ -1331,7 +1331,7 @@ DirtyRect
 :
 :
 All
-gpu_cache
+gpu_buffer
 None
 render_task
 .
@@ -1918,7 +1918,7 @@ request
 cache_entry
 .
 handle
-gpu_cache
+gpu_buffer_builder
 )
 {
 /
@@ -2024,7 +2024,7 @@ alloc_render_task
 task_size
 render_task
 cache_entry
-gpu_cache
+gpu_buffer_builder
 texture_cache
 )
 ;

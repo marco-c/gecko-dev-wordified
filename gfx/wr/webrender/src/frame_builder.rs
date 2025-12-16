@@ -2552,6 +2552,7 @@ scene
 clip_store
 resource_cache
 gpu_cache
+frame_gpu_data
 data_stores
 clip_tree
 :
@@ -2884,6 +2885,7 @@ scene
 clip_store
 resource_cache
 gpu_cache
+frame_gpu_data
 data_stores
 clip_tree
 :
@@ -3611,7 +3613,7 @@ resource_cache
 .
 block_until_all_resources_added
 (
-gpu_cache
+frame_gpu_data
 profile
 )
 ;
@@ -3796,7 +3798,6 @@ resource_cache
 begin_frame
 (
 stamp
-gpu_cache
 profile
 )
 ;
@@ -4126,7 +4127,9 @@ rg_builder
 end_frame
 (
 resource_cache
-gpu_cache
+&
+mut
+gpu_buffer_builder
 &
 mut
 deferred_resolves
@@ -4502,7 +4505,9 @@ scene
 &
 mut
 ctx
-gpu_cache
+&
+mut
+gpu_buffer_builder
 &
 mut
 deferred_resolves
@@ -5944,11 +5949,11 @@ ctx
 :
 &
 RenderTargetContext
-gpu_cache
+gpu_buffers
 :
 &
 mut
-GpuCache
+GpuBufferBuilder
 deferred_resolves
 :
 &
@@ -6136,7 +6141,11 @@ device_clip_rect
 ctx
 .
 resource_cache
-gpu_cache
+&
+mut
+gpu_buffers
+.
+f32
 deferred_resolves
 )
 ;
@@ -6448,7 +6457,6 @@ add_task
 *
 task_id
 ctx
-gpu_cache
 gpu_buffer_builder
 render_tasks
 clip_store
@@ -6517,7 +6525,6 @@ add_task
 *
 task_id
 ctx
-gpu_cache
 gpu_buffer_builder
 render_tasks
 clip_store
@@ -7216,7 +7223,6 @@ add_task
 *
 task_id
 ctx
-gpu_cache
 gpu_buffer_builder
 render_tasks
 clip_store
