@@ -8969,6 +8969,10 @@ static
 LayoutDeviceIntPoint
 sLastRefPoint
 ;
+static
+LayoutDeviceIntPoint
+sLastRefPointOfRawUpdate
+;
 /
 /
 member
