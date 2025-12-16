@@ -378,7 +378,7 @@ nsIWindowsMediaFoundationCDMOriginsListService
 .
 h
 "
-MOZ_CONSTINIT
+constinit
 static
 nsTArray
 <
