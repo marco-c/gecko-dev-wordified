@@ -3488,7 +3488,7 @@ filename
 ]
                 
 and
-locale
+current_locale
 in
 map_config
 [
