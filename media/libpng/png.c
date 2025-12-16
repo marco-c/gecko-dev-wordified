@@ -121,8 +121,8 @@ path
 *
 /
 typedef
-png_libpng_version_1_6_51
-Your_png_h_is_not_version_1_6_51
+png_libpng_version_1_6_53
+Your_png_h_is_not_version_1_6_53
 ;
 /
 *
@@ -5037,7 +5037,7 @@ version
 .
 6
 .
-51
+53
 "
 PNG_STRING_NEWLINE
 \

@@ -18,7 +18,7 @@ version
 .
 6
 .
-51
+53
 *
 *
 Copyright
@@ -165,8 +165,8 @@ through
 .
 6
 .
-51
-November
+53
+December
 2025
 :
 *
@@ -2384,7 +2384,7 @@ so
 .
 6
 .
-51
+53
 16
 10651
 16
@@ -2393,7 +2393,7 @@ so
 .
 16
 .
-51
+53
 [
 .
 0
@@ -2792,7 +2792,7 @@ PNG_LIBPNG_VER_STRING
 .
 6
 .
-51
+53
 "
 #
 define
@@ -2873,7 +2873,7 @@ PNG_LIBPNG_VER_MINOR
 #
 define
 PNG_LIBPNG_VER_RELEASE
-51
+53
 /
 *
 This
@@ -3077,14 +3077,14 @@ release
 #
 define
 PNG_LIBPNG_VER
-10651
+10653
 /
 *
 1
 .
 6
 .
-51
+53
 *
 /
 /
@@ -3853,7 +3853,7 @@ number
 typedef
 char
 *
-png_libpng_version_1_6_51
+png_libpng_version_1_6_53
 ;
 /
 *
