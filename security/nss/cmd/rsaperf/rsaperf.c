@@ -2229,11 +2229,6 @@ threadsArr
 =
 NULL
 ;
-int
-calcThreads
-=
-0
-;
 progName
 =
 strrchr
@@ -4150,10 +4145,6 @@ iters
 =
 0
 ;
-calcThreads
-=
-0
-;
 for
 (
 i
@@ -4165,9 +4156,6 @@ i
 threadNum
 ;
 i
-+
-+
-calcThreads
 +
 +
 )
@@ -4241,11 +4229,6 @@ i
 errNum
 errStr
 )
-;
-calcThreads
--
-=
-1
 ;
 }
 else
