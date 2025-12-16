@@ -408,6 +408,16 @@ aStatus
 )
 override
 ;
+nsRect
+GetDestRect
+(
+const
+nsRect
+&
+aFrameContentBox
+)
+const
+;
 #
 ifdef
 ACCESSIBILITY
