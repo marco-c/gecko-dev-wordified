@@ -1920,7 +1920,7 @@ std
 :
 optional
 <
-int
+TimeDelta
 >
 &
 /
@@ -2962,7 +2962,7 @@ std
 :
 optional
 <
-int
+TimeDelta
 >
 &
 stun_candidate_keepalive_interval
@@ -4403,7 +4403,7 @@ std
 :
 optional
 <
-int
+TimeDelta
 >
 stun_candidate_keepalive_interval_
 ;

@@ -387,7 +387,7 @@ std
 :
 optional
 <
-int
+TimeDelta
 >
 stun_keepalive_interval
 )
@@ -477,7 +477,7 @@ std
 :
 optional
 <
-int
+TimeDelta
 >
 stun_keepalive_interval
 )
@@ -698,7 +698,7 @@ std
 :
 optional
 <
-int
+TimeDelta
 >
 &
 delay
@@ -711,13 +711,7 @@ stun_keepalive_delay
 const
 {
 return
-TimeDelta
-:
-:
-Millis
-(
 stun_keepalive_delay_
-)
 ;
 }
 /
@@ -1456,7 +1450,7 @@ resolver_
 bool
 ready_
 ;
-int
+TimeDelta
 stun_keepalive_delay_
 ;
 TimeDelta
@@ -1535,7 +1529,7 @@ std
 :
 optional
 <
-int
+TimeDelta
 >
 stun_keepalive_interval
 )

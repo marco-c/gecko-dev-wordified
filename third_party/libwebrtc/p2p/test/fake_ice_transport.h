@@ -1117,7 +1117,7 @@ and
 other
 things
 .
-int
+TimeDelta
 receiving_timeout
 (
 )

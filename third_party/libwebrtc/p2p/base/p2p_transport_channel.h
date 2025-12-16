@@ -1456,7 +1456,7 @@ PruneAllPorts
 (
 )
 ;
-int
+TimeDelta
 check_receiving_interval
 (
 )
