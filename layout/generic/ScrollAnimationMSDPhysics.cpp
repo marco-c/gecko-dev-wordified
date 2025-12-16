@@ -576,7 +576,7 @@ return
 StaticPrefs
 :
 :
-layout_css_scroll_behavior_damping_ratio
+layout_css_scroll_snap_damping_ratio
 (
 )
 ;
@@ -614,7 +614,7 @@ return
 StaticPrefs
 :
 :
-layout_css_scroll_behavior_spring_constant
+layout_css_scroll_snap_spring_constant
 (
 )
 ;
