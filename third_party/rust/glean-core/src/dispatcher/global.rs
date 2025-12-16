@@ -525,7 +525,7 @@ _
 log
 :
 :
-info
+debug
 !
 (
 "
@@ -1063,9 +1063,6 @@ init
 again
 .
 pub
-(
-crate
-)
 fn
 reset_dispatcher
 (
