@@ -721,7 +721,11 @@ Lvmax
 Lvmin
 Lvw
 Px
+Rcap
+Rch
 Rem
+Rex
+Ric
 Rlh
 Sec
 Svb

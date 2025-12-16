@@ -2920,6 +2920,13 @@ vertical
 font
 size
 flags
+/
+*
+track_changes
+=
+*
+/
+true
 )
 }
 /
