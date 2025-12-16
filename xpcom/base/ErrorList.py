@@ -11424,6 +11424,18 @@ FAILURE
 45
 )
     
+errors
+[
+"
+NS_ERROR_HARMFULADDON_URI
+"
+]
+=
+FAILURE
+(
+46
+)
+    
 #
 Used
 when
