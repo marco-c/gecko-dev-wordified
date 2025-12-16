@@ -12973,6 +12973,17 @@ return
 NS_OK
 ;
 }
+if
+(
+XRE_IsParentProcess
+(
+)
+)
+{
+return
+NS_OK
+;
+}
 /
 /
 Only
