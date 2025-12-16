@@ -23923,6 +23923,15 @@ aMayChangeCsdMargin
 aScaleChange
 )
 ;
+if
+(
+aMayChangeCsdMargin
+|
+|
+!
+mPendingBoundsChangeMayChangeCsdMargin
+)
+{
 mPendingBoundsChange
 =
 false
@@ -23931,6 +23940,7 @@ mPendingBoundsChangeMayChangeCsdMargin
 =
 false
 ;
+}
 auto
 *
 toplevel
