@@ -622,7 +622,8 @@ False
         
 )
     
-else
+elif
+target_kinds
 :
         
 #
@@ -635,10 +636,6 @@ from
 tests
 )
         
-if
-target_kinds
-:
-            
 parameters
 [
 "
