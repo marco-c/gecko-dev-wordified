@@ -191,13 +191,6 @@ h
 #
 include
 "
-nsISizeOf
-.
-h
-"
-#
-include
-"
 nsIURI
 .
 h
@@ -12061,8 +12054,9 @@ mSecurityInfo
 doesn
 '
 t
-impl
-nsISizeOf
+implement
+memory
+reporting
 .
 return
 n
