@@ -103,9 +103,10 @@ buildconfig
 .
 topsrcdir
 except
+(
 ModuleNotFoundError
-or
 AttributeError
+)
 :
     
 print
