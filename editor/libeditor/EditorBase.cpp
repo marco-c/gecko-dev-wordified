@@ -13222,12 +13222,6 @@ DataTransfer
 >
 *
 .
-MOZ_ASSERT
-(
-!
-aDataTransfer
-)
-;
 AutoTrackDataTransferForPaste
 trackDataTransfer
 (
