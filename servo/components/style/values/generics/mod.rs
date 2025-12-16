@@ -251,6 +251,13 @@ repr
 transparent
 )
 ]
+#
+[
+typed_value
+(
+derive_fields
+)
+]
 pub
 struct
 NonNegative
