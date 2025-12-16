@@ -511,8 +511,6 @@ ShouldEnableProtectionForChannel
 nsIChannel
 *
 aChannel
-bool
-aShouldAllowAddons
 )
 {
 MOZ_ASSERT
@@ -557,9 +555,6 @@ false
 }
 if
 (
-aShouldAllowAddons
-&
-&
 UrlClassifierCommon
 :
 :
