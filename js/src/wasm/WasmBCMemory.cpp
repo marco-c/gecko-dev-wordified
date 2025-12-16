@@ -1351,7 +1351,7 @@ ifdef
 WASM_SUPPORTS_HUGE_MEMORY
 static_assert
 (
-MaxMemory32PagesValidation
+MaxMemory32StandardPagesValidation
 *
 StandardPageSizeBytes
 <

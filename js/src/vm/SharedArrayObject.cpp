@@ -2678,7 +2678,7 @@ StandardPageSizeBytes
 wasm
 :
 :
-MaxMemory64PagesValidation
+MaxMemory64StandardPagesValidation
 )
 ;
 args
