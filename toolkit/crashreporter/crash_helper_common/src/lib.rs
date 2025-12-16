@@ -89,7 +89,7 @@ mod
 platform
 ;
 use
-errors
+messages
 :
 :
 MessageError
@@ -158,7 +158,10 @@ crate
 ipc_listener
 :
 :
+{
 IPCListener
+IPCListenerError
+}
 ;
 pub
 use
@@ -168,7 +171,10 @@ crate
 platform
 :
 :
+{
+PlatformError
 ProcessHandle
+}
 ;
 #
 [
