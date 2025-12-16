@@ -112,6 +112,7 @@ restore
 undoes
 any
 modifications
+.
 var
 old
 =
@@ -169,6 +170,7 @@ t
 modify
 the
 values
+.
 ctx
 .
 lineCap
@@ -185,7 +187,7 @@ lineCap
 ;
 /
 /
-we
+We
 '
 re
 not
@@ -217,15 +219,14 @@ rounding
 so
 compare
 against
-'
 old
-'
 instead
 of
 against
 "
 round
 "
+.
 ctx
 .
 save
@@ -316,6 +317,7 @@ restore
 undoes
 any
 modifications
+.
 var
 old
 =
@@ -373,6 +375,7 @@ t
 modify
 the
 values
+.
 ctx
 .
 lineCap
@@ -389,7 +392,7 @@ lineCap
 ;
 /
 /
-we
+We
 '
 re
 not
@@ -421,15 +424,14 @@ rounding
 so
 compare
 against
-'
 old
-'
 instead
 of
 against
 "
 round
 "
+.
 ctx
 .
 save

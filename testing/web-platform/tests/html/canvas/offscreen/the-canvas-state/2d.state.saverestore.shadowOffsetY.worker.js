@@ -112,6 +112,7 @@ restore
 undoes
 any
 modifications
+.
 var
 old
 =
@@ -167,6 +168,7 @@ t
 modify
 the
 values
+.
 ctx
 .
 shadowOffsetY
@@ -181,7 +183,7 @@ shadowOffsetY
 ;
 /
 /
-we
+We
 '
 re
 not
@@ -213,13 +215,12 @@ rounding
 so
 compare
 against
-'
 old
-'
 instead
 of
 against
 5
+.
 ctx
 .
 save
@@ -310,6 +311,7 @@ restore
 undoes
 any
 modifications
+.
 var
 old
 =
@@ -365,6 +367,7 @@ t
 modify
 the
 values
+.
 ctx
 .
 shadowOffsetY
@@ -379,7 +382,7 @@ shadowOffsetY
 ;
 /
 /
-we
+We
 '
 re
 not
@@ -411,13 +414,12 @@ rounding
 so
 compare
 against
-'
 old
-'
 instead
 of
 against
 5
+.
 ctx
 .
 save
