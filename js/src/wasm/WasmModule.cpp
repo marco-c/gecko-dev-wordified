@@ -3442,6 +3442,11 @@ desc
 addressType
 (
 )
+desc
+.
+pageSize
+(
+)
 )
 /
 *
@@ -3529,6 +3534,11 @@ MaxMemoryPages
 desc
 .
 addressType
+(
+)
+desc
+.
+pageSize
 (
 )
 )
