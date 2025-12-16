@@ -2136,7 +2136,7 @@ mozilla
 -
 monitor
 -
-us
+global
 -
 description
 "
