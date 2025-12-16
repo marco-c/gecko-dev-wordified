@@ -3680,7 +3680,7 @@ models
 /
 prompts
 /
-assistantPrompts
+AssistantPrompts
 .
 sys
 .
