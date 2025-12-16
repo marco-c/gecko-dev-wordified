@@ -550,9 +550,6 @@ cs_border_segment
 cs_border_solid
 "
 "
-cs_svg_filter
-"
-"
 cs_svg_filter_node
 "
 ]

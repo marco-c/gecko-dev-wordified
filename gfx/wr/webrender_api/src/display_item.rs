@@ -1530,7 +1530,6 @@ item
 SetGradientStops
 SetFilterOps
 SetFilterData
-SetFilterPrimitives
 SetPoints
 /
 /
@@ -1766,13 +1765,6 @@ FilterOp
 SetFilterData
 (
 FilterData
-)
-SetFilterPrimitives
-(
-Vec
-<
-FilterPrimitive
->
 )
 SetPoints
 (
@@ -17703,15 +17695,6 @@ SetFilterData
 >
 "
 set_filter_data
-"
-DisplayItem
-:
-:
-SetFilterPrimitives
-=
->
-"
-set_filter_primitives
 "
 DisplayItem
 :
