@@ -1253,7 +1253,7 @@ lint
 "
 fenix
 :
-lintFenixDebug
+lintDebug
 "
         
 ]
