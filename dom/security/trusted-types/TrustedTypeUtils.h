@@ -380,6 +380,15 @@ nsAString
 aSource
 )
 ;
+bool
+CanSkipTrustedTypesEnforcement
+(
+const
+nsINode
+&
+aNode
+)
+;
 /
 /
 https
@@ -924,9 +933,6 @@ const
 nsINode
 &
 aNode
-nsIPrincipal
-*
-aPrincipalOrNull
 Maybe
 <
 nsAutoString
