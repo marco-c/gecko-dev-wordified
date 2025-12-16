@@ -8963,6 +8963,8 @@ hint
 |
 =
 nsChangeHint_NeedReflow
+|
+nsChangeHint_ReflowChangesSizeOrPosition
 ;
 }
 if
