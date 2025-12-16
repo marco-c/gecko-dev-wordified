@@ -24025,7 +24025,7 @@ privatePing
 .
 enabled
 "
-false
+true
 )
 ;
 /
@@ -24067,7 +24067,7 @@ redactNewtabPing
 .
 enabled
 "
-false
+true
 )
 ;
 pref
