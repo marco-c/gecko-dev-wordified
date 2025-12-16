@@ -2716,7 +2716,7 @@ test
 )
 ]
 mod
-test
+tests
 {
 use
 super
@@ -4441,7 +4441,7 @@ test
 )
 ]
 mod
-keydb_test
+tests_keydb
 {
 use
 super
@@ -4595,6 +4595,15 @@ CARGO_MANIFEST_DIR
 join
 (
 "
+.
+.
+/
+support
+/
+rc_crypto
+/
+nss
+/
 fixtures
 /
 profile
