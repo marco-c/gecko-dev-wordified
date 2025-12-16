@@ -2480,6 +2480,15 @@ boundsCheckLimit
 )
 const
 ;
+wasm
+:
+:
+PageSize
+pageSize
+(
+)
+const
+;
 /
 /
 If
