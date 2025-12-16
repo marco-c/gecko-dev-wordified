@@ -1104,14 +1104,6 @@ new
 UrlbarResult
 (
 {
-queryContext
-:
-{
-tokens
-:
-[
-]
-}
 type
 :
 UrlbarUtils
