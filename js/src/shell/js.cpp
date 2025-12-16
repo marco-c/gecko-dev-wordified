@@ -11199,7 +11199,7 @@ js
 SystemAllocPolicy
 >
 ;
-MOZ_CONSTINIT
+constinit
 static
 mozilla
 :
