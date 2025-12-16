@@ -1102,11 +1102,6 @@ InvalidLogin
 :
 :
 IllegalOrigin
-{
-reason
-:
-_
-}
 )
 =
 >
