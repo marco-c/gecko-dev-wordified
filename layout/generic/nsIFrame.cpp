@@ -32397,7 +32397,7 @@ nullptr
 )
 !
 =
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 GetASRAncestorFrame
