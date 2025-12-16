@@ -14,17 +14,6 @@ moz_global_var
 )
 #
 define
-MOZ_CONSTINIT
-[
-[
-clang
-:
-:
-require_constant_initialization
-]
-]
-#
-define
 MOZ_GLOBAL_CLASS
 __attribute__
 (
@@ -128,7 +117,7 @@ make
 it
 constexpr
 or
-MOZ_CONSTINIT
+constinit
 if
 possible
 or
@@ -241,7 +230,7 @@ it
 as
 constexpr
 or
-MOZ_CONSTINIT
+constinit
 instead
 .
 }
@@ -331,7 +320,7 @@ make
 it
 constexpr
 or
-MOZ_CONSTINIT
+constinit
 if
 possible
 or
@@ -403,7 +392,7 @@ make
 it
 constexpr
 or
-MOZ_CONSTINIT
+constinit
 if
 possible
 or
@@ -463,7 +452,7 @@ make
 it
 constexpr
 or
-MOZ_CONSTINIT
+constinit
 if
 possible
 or
