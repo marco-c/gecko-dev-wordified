@@ -2921,10 +2921,7 @@ SentPacketInfo
 sent_packet
 )
 {
-PortInterface
-:
-:
-SignalSentPacket
+NotifySentPacket
 (
 sent_packet
 )
