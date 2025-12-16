@@ -14624,7 +14624,7 @@ moz
 -
 box
 -
-button
+link
 "
 }
 {
