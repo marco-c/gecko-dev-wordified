@@ -135908,9 +135908,9 @@ void
 CodeGenerator
 :
 :
-visitCallDeleteProperty
+visitDeleteProperty
 (
-LCallDeleteProperty
+LDeleteProperty
 *
 lir
 )
@@ -136014,9 +136014,9 @@ void
 CodeGenerator
 :
 :
-visitCallDeleteElement
+visitDeleteElement
 (
-LCallDeleteElement
+LDeleteElement
 *
 lir
 )
