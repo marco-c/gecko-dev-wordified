@@ -208,7 +208,7 @@ WaylandSurface
 >
 aWaylandSurface
 bool
-aForceCommit
+aSkipCommit
 =
 false
 )
@@ -269,6 +269,11 @@ nullptr
 ;
 bool
 mForceCommit
+=
+false
+;
+bool
+mSkipCommit
 =
 false
 ;
