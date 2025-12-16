@@ -2677,8 +2677,6 @@ switch
 mode
 )
 {
-default
-:
 case
 BenchmarkModes
 :
@@ -2996,6 +2994,11 @@ HWY_TARGET
 <
 =
 HWY_SSE2
+&
+&
+Unpredictable1
+(
+)
 )
 {
 return

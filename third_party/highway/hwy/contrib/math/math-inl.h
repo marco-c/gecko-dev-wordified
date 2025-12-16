@@ -2467,15 +2467,6 @@ Range
 39000
 ]
 *
-return
-sine
-and
-cosine
-of
-'
-x
-'
-*
 /
 template
 <

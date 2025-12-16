@@ -1377,7 +1377,7 @@ gen2
 (
 const
 auto
-d
+d2
 const
 auto
 vidx
@@ -1387,7 +1387,7 @@ HWY_ATTR
 return
 BitCast
 (
-d
+d2
 Add
 (
 vidx
@@ -2045,7 +2045,7 @@ scal
 (
 const
 auto
-d
+d2
 const
 auto
 v
@@ -2057,7 +2057,7 @@ Mul
 (
 Set
 (
-d
+d2
 ConvertScalarTo
 <
 T
@@ -2407,7 +2407,7 @@ axpy
 (
 const
 auto
-d
+d2
 const
 auto
 v
@@ -2422,7 +2422,7 @@ MulAdd
 (
 Set
 (
-d
+d2
 ConvertScalarTo
 <
 T
