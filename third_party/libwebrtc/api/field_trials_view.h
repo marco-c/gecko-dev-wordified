@@ -160,6 +160,17 @@ trials
 /
 /
 /
+A
+FieldTrialsView
+is
+guaranteed
+to
+be
+immutable
+/
+/
+/
+/
 Note
 that
 there
