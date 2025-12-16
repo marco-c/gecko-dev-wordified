@@ -3963,13 +3963,6 @@ payload
 :
 {
 provider
-title
-:
-"
-example
-.
-com
-"
 url
 :
 suggestion
@@ -4606,13 +4599,6 @@ payload
 :
 {
 provider
-title
-:
-"
-example
-.
-com
-"
 url
 :
 "
