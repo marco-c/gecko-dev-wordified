@@ -857,6 +857,9 @@ fontFace
 IDWriteFont
 *
 font
+IDWriteFontFamily
+*
+fontFamily
 SkFontStyle
 aStyle
 DWRITE_RENDERING_MODE
@@ -880,7 +883,13 @@ aStyle
 factory
 fontFace
 font
-nullptr
+fontFamily
+/
+*
+loaders
+=
+*
+/
 nullptr
 SkFontArguments
 :

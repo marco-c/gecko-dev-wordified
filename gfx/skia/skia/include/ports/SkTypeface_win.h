@@ -330,6 +330,9 @@ IDWriteFontFace
 struct
 IDWriteFontFallback
 ;
+struct
+IDWriteFontFamily
+;
 /
 *
 *
@@ -387,6 +390,9 @@ aFontFace
 IDWriteFont
 *
 aFont
+IDWriteFontFamily
+*
+aFontFamily
 SkFontStyle
 aStyle
 int

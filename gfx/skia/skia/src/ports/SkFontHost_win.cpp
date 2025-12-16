@@ -2636,6 +2636,9 @@ aFontFace
 IDWriteFont
 *
 aFont
+IDWriteFontFamily
+*
+aFontFamily
 SkFontStyle
 aStyle
 int
@@ -2657,6 +2660,7 @@ Create
 aFactory
 aFontFace
 aFont
+aFontFamily
 aStyle
 (
 DWRITE_RENDERING_MODE
