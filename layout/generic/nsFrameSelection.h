@@ -4452,14 +4452,14 @@ eLogical
 *
 *
 *
-CreateRangeExtendedToPreviousGraphemeClusterBoundary
+CreateRangeExtendedToPreviousCharacterBoundary
 (
 )
 returns
 range
-*
 which
 is
+*
 extended
 from
 normal
@@ -4469,9 +4469,8 @@ to
 start
 of
 previous
+character
 *
-grapheme
-cluster
 boundary
 .
 *
@@ -4548,7 +4547,7 @@ RangeType
 >
 nsresult
 >
-CreateRangeExtendedToPreviousGraphemeClusterBoundary
+CreateRangeExtendedToPreviousCharacterBoundary
 (
 mozilla
 :
@@ -4588,7 +4587,7 @@ aLimitersAndCaretData
 aRange
 aRangeDirection
 eDirPrevious
-eSelectCluster
+eSelectCharacter
 eLogical
 )
 ;
