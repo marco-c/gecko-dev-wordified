@@ -393,6 +393,14 @@ functions
 .
 *
 *
+/
+class
+CssProperties
+{
+/
+*
+*
+*
 param
 {
 object
@@ -431,8 +439,7 @@ inherited
 .
 *
 /
-function
-CssProperties
+constructor
 (
 db
 )
@@ -485,11 +492,6 @@ this
 )
 ;
 }
-CssProperties
-.
-prototype
-=
-{
 /
 *
 *
@@ -1036,7 +1038,6 @@ return
 ;
 }
 }
-;
 /
 *
 *
