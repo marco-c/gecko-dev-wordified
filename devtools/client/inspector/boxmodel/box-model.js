@@ -239,6 +239,13 @@ model
 controllers
 .
 *
+/
+class
+BoxModel
+{
+/
+*
+*
 *
 param
 {
@@ -273,8 +280,7 @@ toolbox
 .
 *
 /
-function
-BoxModel
+constructor
 (
 inspector
 window
@@ -468,11 +474,6 @@ onSidebarSelect
 )
 ;
 }
-BoxModel
-.
-prototype
-=
-{
 /
 *
 *
@@ -2606,7 +2607,6 @@ inspectorFront
 ;
 }
 }
-;
 module
 .
 exports
