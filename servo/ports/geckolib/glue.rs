@@ -1729,7 +1729,7 @@ specified
 position
 :
 :
-DashedIdentAndOrTryTactic
+PositionTryFallbacksItem
 ;
 use
 style
@@ -26281,10 +26281,10 @@ element
 :
 &
 RawGeckoElement
-name_and_try_tactic
+fallback_item
 :
 &
-DashedIdentAndOrTryTactic
+PositionTryFallbacksItem
 )
 -
 >
@@ -26350,7 +26350,7 @@ style
 &
 guards
 element
-name_and_try_tactic
+fallback_item
 )
 .
 into
@@ -41337,7 +41337,7 @@ new_for_animation
 StyleBuilder
 :
 :
-for_animation
+for_derived_style
 (
 per_doc_data
 .
