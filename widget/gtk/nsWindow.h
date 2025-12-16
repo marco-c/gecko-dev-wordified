@@ -6374,6 +6374,17 @@ cairo_t
 cr
 )
 ;
+bool
+ExtractExposeRegion
+(
+LayoutDeviceIntRegion
+&
+aRegion
+cairo_t
+*
+cr
+)
+;
 #
 ifdef
 MOZ_X11
