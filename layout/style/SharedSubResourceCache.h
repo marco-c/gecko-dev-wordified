@@ -403,13 +403,6 @@ h
 #
 include
 "
-nsHttpResponseHead
-.
-h
-"
-#
-include
-"
 nsIMemoryReporter
 .
 h
@@ -438,6 +431,13 @@ h
 namespace
 mozilla
 {
+namespace
+net
+{
+class
+nsHttpResponseHead
+;
+}
 /
 /
 A
@@ -606,8 +606,6 @@ private
 SubResourceNetworkMetadataHolder
 (
 )
-=
-default
 ;
 mozilla
 :
