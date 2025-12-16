@@ -1916,6 +1916,32 @@ status
 "
 ]
         
+subtest
+=
+data
+[
+"
+subtest
+"
+]
+        
+subtest_str
+=
+(
+"
+|
+%
+s
+"
+%
+subtest
+)
+if
+subtest
+else
+"
+"
+        
 if
 "
 expected
@@ -1988,7 +2014,6 @@ s
 |
 %
 s
-|
 %
 s
 %
@@ -2008,12 +2033,7 @@ test
 "
 ]
                     
-data
-[
-"
-subtest
-"
-]
+subtest_str
                     
 message
                 
@@ -2071,7 +2091,6 @@ s
 |
 %
 s
-|
 %
 s
 %
@@ -2091,12 +2110,7 @@ test
 "
 ]
             
-data
-[
-"
-subtest
-"
-]
+subtest_str
             
 message
         
