@@ -5110,6 +5110,9 @@ Vec
 new
 (
 )
+command_log
+:
+None
 #
 [
 cfg
