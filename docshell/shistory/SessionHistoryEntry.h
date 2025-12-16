@@ -878,6 +878,7 @@ bool
 IsTransient
 (
 )
+const
 {
 return
 mTransient
