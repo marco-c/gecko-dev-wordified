@@ -625,6 +625,10 @@ SdpOfferAnswerHandler
 >
 Create
 (
+const
+Environment
+&
+env
 PeerConnectionSdpMethods
 *
 pc
@@ -1404,6 +1408,10 @@ function
 explicit
 SdpOfferAnswerHandler
 (
+const
+Environment
+&
+env
 PeerConnectionSdpMethods
 *
 pc
@@ -4154,6 +4162,11 @@ ConfiguredForMedia
 (
 )
 const
+;
+const
+Environment
+&
+env_
 ;
 PeerConnectionSdpMethods
 *
