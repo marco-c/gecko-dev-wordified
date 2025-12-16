@@ -240,6 +240,7 @@ mDuration
 explicit
 Mvhd
 (
+const
 Box
 &
 aBox
@@ -313,6 +314,7 @@ nsresult
 >
 Parse
 (
+const
 Box
 &
 aBox
@@ -341,6 +343,7 @@ mTrackId
 explicit
 Tkhd
 (
+const
 Box
 &
 aBox
@@ -358,6 +361,7 @@ nsresult
 >
 Parse
 (
+const
 Box
 &
 aBox
@@ -382,6 +386,7 @@ default
 explicit
 Mdhd
 (
+const
 Box
 &
 aBox
@@ -511,6 +516,7 @@ IsValid
 }
 Tfhd
 (
+const
 Box
 &
 aBox
@@ -532,6 +538,7 @@ nsresult
 >
 Parse
 (
+const
 Box
 &
 aBox
@@ -560,6 +567,7 @@ mBaseMediaDecodeTime
 explicit
 Tfdt
 (
+const
 Box
 &
 aBox
@@ -577,6 +585,7 @@ nsresult
 >
 Parse
 (
+const
 Box
 &
 aBox
@@ -609,6 +618,7 @@ mEmptyOffset
 explicit
 Edts
 (
+const
 Box
 &
 aBox
@@ -646,6 +656,7 @@ nsresult
 >
 Parse
 (
+const
 Box
 &
 aBox
@@ -783,6 +794,7 @@ public
 :
 Saiz
 (
+const
 Box
 &
 aBox
@@ -811,6 +823,7 @@ nsresult
 >
 Parse
 (
+const
 Box
 &
 aBox
@@ -829,6 +842,7 @@ public
 :
 Saio
 (
+const
 Box
 &
 aBox
@@ -857,6 +871,7 @@ nsresult
 >
 Parse
 (
+const
 Box
 &
 aBox
@@ -926,6 +941,7 @@ public
 explicit
 Sbgp
 (
+const
 Box
 &
 aBox
@@ -952,6 +968,7 @@ nsresult
 >
 Parse
 (
+const
 Box
 &
 aBox
@@ -1093,6 +1110,7 @@ public
 explicit
 Sgpd
 (
+const
 Box
 &
 aBox
@@ -1116,6 +1134,7 @@ nsresult
 >
 Parse
 (
+const
 Box
 &
 aBox
@@ -1963,6 +1982,7 @@ ReachedEnd
 void
 ParseMoov
 (
+const
 Box
 &
 aBox
@@ -1971,6 +1991,7 @@ aBox
 void
 ParseTrak
 (
+const
 Box
 &
 aBox
@@ -1979,6 +2000,7 @@ aBox
 void
 ParseMdia
 (
+const
 Box
 &
 aBox
@@ -1987,6 +2009,7 @@ aBox
 void
 ParseMvex
 (
+const
 Box
 &
 aBox
@@ -1995,6 +2018,7 @@ aBox
 void
 ParseMinf
 (
+const
 Box
 &
 aBox
@@ -2003,6 +2027,7 @@ aBox
 void
 ParseStbl
 (
+const
 Box
 &
 aBox
@@ -2011,6 +2036,7 @@ aBox
 void
 ParseStsd
 (
+const
 Box
 &
 aBox
@@ -2019,6 +2045,7 @@ aBox
 void
 ParseEncrypted
 (
+const
 Box
 &
 aBox

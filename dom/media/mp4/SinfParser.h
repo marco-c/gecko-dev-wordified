@@ -118,6 +118,7 @@ mDefaultSkipByteBlock
 explicit
 Sinf
 (
+const
 Box
 &
 aBox
@@ -208,6 +209,7 @@ public
 explicit
 SinfParser
 (
+const
 Box
 &
 aBox
@@ -232,6 +234,7 @@ nsresult
 >
 ParseSchm
 (
+const
 Box
 &
 aBox
@@ -244,6 +247,7 @@ nsresult
 >
 ParseSchi
 (
+const
 Box
 &
 aBox
@@ -256,6 +260,7 @@ nsresult
 >
 ParseTenc
 (
+const
 Box
 &
 aBox
