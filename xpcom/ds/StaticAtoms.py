@@ -2783,6 +2783,16 @@ cite
 Atom
 (
 "
+cke_wysiwyg_frame
+"
+"
+cke_wysiwyg_frame
+"
+)
+    
+Atom
+(
+"
 _class
 "
 "
