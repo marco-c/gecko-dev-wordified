@@ -106,6 +106,11 @@ functional
 #
 include
 <
+utility
+>
+#
+include
+<
 vector
 >
 #
@@ -422,7 +427,7 @@ will
 be
 sent
 with
-ECN
+ECT
 (
 1
 )
@@ -460,7 +465,7 @@ rfc9331
 .
 html
 bool
-ecn_1
+ect_1
 =
 false
 ;

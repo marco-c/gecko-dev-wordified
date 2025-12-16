@@ -267,7 +267,7 @@ packet_options
 ;
 packet_options
 .
-ecn_1
+ect_1
 =
 false
 ;
@@ -303,7 +303,7 @@ ect
 ;
 packet_options
 .
-ecn_1
+ect_1
 =
 true
 ;
@@ -339,7 +339,7 @@ ect
 ;
 packet_options
 .
-ecn_1
+ect_1
 =
 false
 ;
