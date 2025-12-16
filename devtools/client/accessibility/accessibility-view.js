@@ -397,8 +397,10 @@ MainFrame
 .
 *
 /
-function
+class
 AccessibilityView
+{
+constructor
 (
 localStore
 )
@@ -430,11 +432,6 @@ store
 localStore
 ;
 }
-AccessibilityView
-.
-prototype
-=
-{
 /
 *
 *
@@ -1529,7 +1526,6 @@ args
 }
 }
 }
-;
 window
 .
 view
