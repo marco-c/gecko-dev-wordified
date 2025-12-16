@@ -5427,7 +5427,12 @@ value
 (
 0x100000000
 /
-StandardPageSizeBytes
+PageSizeInBytes
+(
+pageSize
+(
+)
+)
 )
 ;
 }

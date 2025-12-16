@@ -3254,6 +3254,8 @@ instanceOffsetOfBoundsCheckLimit
 (
 uint32_t
 memoryIndex
+unsigned
+byteSize
 )
 const
 ;
@@ -11018,6 +11020,8 @@ boundsCheck4GBOrLargerAccess
 (
 uint32_t
 memoryIndex
+unsigned
+byteSize
 RegPtr
 instance
 RegI32
@@ -11032,6 +11036,8 @@ boundsCheckBelow4GBAccess
 (
 uint32_t
 memoryIndex
+unsigned
+byteSize
 RegPtr
 instance
 RegI32
@@ -11070,6 +11076,8 @@ boundsCheck4GBOrLargerAccess
 (
 uint32_t
 memoryIndex
+unsigned
+byteSize
 RegPtr
 instance
 RegI64
@@ -11084,6 +11092,8 @@ boundsCheckBelow4GBAccess
 (
 uint32_t
 memoryIndex
+unsigned
+byteSize
 RegPtr
 instance
 RegI64

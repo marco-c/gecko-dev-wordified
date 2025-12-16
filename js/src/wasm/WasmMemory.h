@@ -1574,6 +1574,8 @@ GetMaxOffsetGuardLimit
 (
 bool
 hugeMemory
+PageSize
+sz
 )
 ;
 /

@@ -475,6 +475,8 @@ IsHugeMemoryEnabled
 (
 AddressType
 t
+PageSize
+sz
 )
 ;
 /
