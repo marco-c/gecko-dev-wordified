@@ -679,7 +679,7 @@ execute_script
                   
 const
 {
-windowManager
+NavigableManager
 }
 =
 ChromeUtils
@@ -698,7 +698,7 @@ content
 /
 shared
 /
-WindowManager
+NavigableManager
 .
 sys
 .
@@ -711,9 +711,9 @@ mjs
 const
 win
 =
-windowManager
+NavigableManager
 .
-findWindowByHandle
+getBrowsingContextById
 (
 arguments
 [
@@ -721,7 +721,7 @@ arguments
 ]
 )
 .
-win
+window
 ;
                   
 return
