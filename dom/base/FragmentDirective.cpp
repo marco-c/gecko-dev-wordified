@@ -3339,15 +3339,6 @@ if
 StaticPrefs
 :
 :
-dom_text_fragments_create_text_fragment_enabled
-(
-)
-|
-|
-!
-StaticPrefs
-:
-:
 dom_text_fragments_enabled
 (
 )
