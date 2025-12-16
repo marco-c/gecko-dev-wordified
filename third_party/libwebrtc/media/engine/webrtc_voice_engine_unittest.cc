@@ -18388,6 +18388,13 @@ GetDefaultEnabledRtpHeaderExtensions
 (
 *
 engine_
+/
+*
+field_trials
+=
+*
+/
+nullptr
 )
 ;
 EXPECT_THAT
@@ -27898,6 +27905,13 @@ GetDefaultEnabledRtpHeaderExtensions
 (
 *
 engine_
+/
+*
+field_trials
+=
+*
+/
+nullptr
 )
 ;
 webrtc

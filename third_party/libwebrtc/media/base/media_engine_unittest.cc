@@ -278,6 +278,9 @@ RtpHeaderExtensionCapability
 >
 GetRtpHeaderExtensions
 (
+const
+FieldTrialsView
+*
 )
 (
 const
@@ -387,6 +390,7 @@ EXPECT_THAT
 GetDefaultEnabledRtpHeaderExtensions
 (
 mock
+nullptr
 )
 ElementsAre
 (
@@ -507,6 +511,9 @@ RtpHeaderExtensionCapability
 >
 GetRtpHeaderExtensions
 (
+const
+FieldTrialsView
+*
 )
 (
 const

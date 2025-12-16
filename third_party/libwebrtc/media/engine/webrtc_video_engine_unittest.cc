@@ -6932,6 +6932,13 @@ header_extensions
 GetDefaultEnabledRtpHeaderExtensions
 (
 engine_
+/
+*
+field_trials
+=
+*
+/
+nullptr
 )
 ;
 if

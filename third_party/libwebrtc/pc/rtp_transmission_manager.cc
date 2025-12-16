@@ -2454,6 +2454,12 @@ voice
 .
 GetRtpHeaderExtensions
 (
+&
+env_
+.
+field_trials
+(
+)
 )
 ;
 }
@@ -2472,6 +2478,12 @@ video
 .
 GetRtpHeaderExtensions
 (
+&
+env_
+.
+field_trials
+(
+)
 )
 ;
 }

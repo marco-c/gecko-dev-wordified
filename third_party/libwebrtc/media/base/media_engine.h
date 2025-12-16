@@ -576,6 +576,13 @@ RtpHeaderExtensionCapability
 >
 GetRtpHeaderExtensions
 (
+const
+webrtc
+:
+:
+FieldTrialsView
+*
+field_trials
 )
 const
 =
@@ -1720,6 +1727,13 @@ const
 RtpHeaderExtensionQueryInterface
 &
 query_interface
+const
+webrtc
+:
+:
+FieldTrialsView
+*
+field_trials
 )
 ;
 }

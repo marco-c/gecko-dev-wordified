@@ -878,6 +878,13 @@ RtpHeaderExtensionCapability
 >
 GetRtpHeaderExtensions
 (
+const
+webrtc
+:
+:
+FieldTrialsView
+*
+field_trials
 )
 const
 override
