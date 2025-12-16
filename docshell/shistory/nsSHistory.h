@@ -1839,9 +1839,6 @@ bool
 aUserActivation
 int32_t
 aOffset
-nsISHEntry
-*
-aPreviousEntryForActivation
 )
 ;
 nsresult
