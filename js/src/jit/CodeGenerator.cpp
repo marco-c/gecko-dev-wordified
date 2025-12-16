@@ -136197,7 +136197,7 @@ ool
 oolCallVM
 <
 Fn
-GetIteratorWithIndicesUnregistered
+GetIteratorWithIndicesForObjectKeys
 >
 (
 lir
@@ -136219,7 +136219,7 @@ ool
 oolCallVM
 <
 Fn
-GetIteratorUnregistered
+GetIteratorForObjectKeys
 >
 (
 lir
