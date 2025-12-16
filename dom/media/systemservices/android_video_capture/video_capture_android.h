@@ -127,6 +127,17 @@ video_capture_impl
 .
 h
 "
+#
+include
+"
+system_wrappers
+/
+include
+/
+clock
+.
+h
+"
 namespace
 webrtc
 {
@@ -143,6 +154,9 @@ public
 :
 VideoCaptureAndroid
 (
+Clock
+*
+clock
 )
 ;
 virtual

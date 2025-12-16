@@ -785,6 +785,9 @@ VideoCaptureImpl
 :
 Create
 (
+Clock
+*
+clock
 const
 char
 *
@@ -809,6 +812,7 @@ RefCountedObject
 VideoCaptureAndroid
 >
 (
+clock
 )
 )
 ;
@@ -970,10 +974,14 @@ VideoCaptureAndroid
 :
 VideoCaptureAndroid
 (
+Clock
+*
+clock
 )
 :
 VideoCaptureImpl
 (
+clock
 )
 _deviceInfo
 (
