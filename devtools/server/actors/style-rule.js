@@ -1281,7 +1281,7 @@ this
 .
 pageStyle
 .
-_styleRef
+styleRef
 (
 rule
 .
@@ -9217,7 +9217,7 @@ this
 .
 pageStyle
 .
-_styleRef
+styleRef
 (
 newCssRule
 )
