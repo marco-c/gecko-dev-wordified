@@ -3601,7 +3601,7 @@ lock
 mFile
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mState
 =
@@ -3609,12 +3609,12 @@ mState
 READING
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mListener
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mReadingStateBuf
 )
