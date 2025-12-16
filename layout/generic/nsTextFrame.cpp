@@ -37784,7 +37784,7 @@ part
 of
 it
 .
-IsSelectable
+ShouldPaintNormalSelection
 (
 )
 ?
