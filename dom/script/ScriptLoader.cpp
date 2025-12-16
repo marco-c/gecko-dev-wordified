@@ -19155,7 +19155,7 @@ MOZ_ASSERT_IF
 aRequest
 -
 >
-IsSource
+IsTextSource
 (
 )
 aRequest
@@ -19465,7 +19465,7 @@ MOZ_ASSERT_IF
 aRequest
 -
 >
-IsSource
+IsTextSource
 (
 )
 aRequest
@@ -21735,7 +21735,7 @@ MOZ_ASSERT
 aRequest
 -
 >
-IsSource
+IsTextSource
 (
 )
 )
@@ -27885,7 +27885,7 @@ if
 aRequest
 -
 >
-IsSource
+IsTextSource
 (
 )
 &
@@ -28313,7 +28313,7 @@ MOZ_ASSERT
 aRequest
 -
 >
-IsSource
+IsTextSource
 (
 )
 )
