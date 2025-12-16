@@ -757,9 +757,7 @@ is
 contrastControlRadios
 .
 value
-"
 0
-"
 "
 HCM
 menulist
@@ -817,9 +815,7 @@ is
 contrastControlRadios
 .
 value
-"
 1
-"
 "
 HCM
 menulist
@@ -1117,9 +1113,7 @@ is
 contrastControlRadios
 .
 value
-"
 2
-"
 "
 HCM
 menulist
@@ -1359,9 +1353,7 @@ is
 contrastControlRadios
 .
 value
-"
 0
-"
 "
 HCM
 menulist
@@ -1657,9 +1649,7 @@ is
 contrastControlRadios
 .
 value
-"
 1
-"
 "
 HCM
 menulist
