@@ -13457,16 +13457,6 @@ UseCount
 )
 )
 ;
-if
-(
-Telemetry
-:
-:
-CanRecordPrereleaseData
-(
-)
-)
-{
 glean
 :
 :
@@ -13492,7 +13482,6 @@ LoadStart
 )
 )
 ;
-}
 }
 /
 /
