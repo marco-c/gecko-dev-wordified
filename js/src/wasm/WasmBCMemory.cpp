@@ -1353,7 +1353,7 @@ static_assert
 (
 MaxMemory32PagesValidation
 *
-PageSize
+StandardPageSize
 <
 =
 UINT64_MAX

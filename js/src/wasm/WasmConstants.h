@@ -4693,7 +4693,7 @@ of
 static
 const
 unsigned
-PageSize
+StandardPageSize
 =
 64
 *
@@ -4943,7 +4943,7 @@ issuecomment
 static_assert
 (
 (
-PageSize
+StandardPageSize
 *
 MaxMemory64PagesValidation
 )

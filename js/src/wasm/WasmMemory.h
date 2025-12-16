@@ -422,7 +422,7 @@ of
 wasm
 :
 :
-PageSize
+StandardPageSize
 .
 We
 /
@@ -693,7 +693,7 @@ MOZ_ASSERT
 (
 byteLength
 %
-PageSize
+StandardPageSize
 =
 =
 0
@@ -704,7 +704,7 @@ Pages
 (
 byteLength
 /
-PageSize
+StandardPageSize
 )
 ;
 }
@@ -752,7 +752,7 @@ value_
 length
 *
 =
-PageSize
+StandardPageSize
 ;
 return
 length
@@ -815,7 +815,7 @@ value_
 length
 *
 =
-PageSize
+StandardPageSize
 ;
 return
 length
@@ -858,7 +858,7 @@ value_
 length
 *
 =
-PageSize
+StandardPageSize
 ;
 return
 length
@@ -1446,7 +1446,7 @@ const
 uint64_t
 HugeUnalignedGuardPage
 =
-PageSize
+StandardPageSize
 ;
 /
 /
@@ -1501,7 +1501,7 @@ static_assert
 (
 HugeMappedSize
 %
-PageSize
+StandardPageSize
 =
 =
 0
@@ -1528,7 +1528,7 @@ const
 size_t
 GuardSize
 =
-PageSize
+StandardPageSize
 ;
 /
 /

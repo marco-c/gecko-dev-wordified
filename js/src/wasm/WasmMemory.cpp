@@ -2375,7 +2375,7 @@ const
 size_t
 OffsetGuardLimit
 =
-PageSize
+StandardPageSize
 -
 MaxMemoryAccessSize
 ;
@@ -2539,7 +2539,7 @@ ArrayBufferObject
 :
 ByteLengthLimit
 /
-PageSize
+StandardPageSize
 ;
 return
 wasm
@@ -2612,7 +2612,7 @@ ByteLengthLimit
 =
 INT32_MAX
 /
-PageSize
+StandardPageSize
 )
 ;
 return
@@ -2623,7 +2623,7 @@ Pages
 (
 INT32_MAX
 /
-PageSize
+StandardPageSize
 )
 ;
 #
@@ -2813,7 +2813,7 @@ OneGib
 wasm
 :
 :
-PageSize
+StandardPageSize
 )
 ;
 Pages

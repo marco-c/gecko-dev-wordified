@@ -1089,7 +1089,7 @@ const
 size_t
 MinHeapLength
 =
-PageSize
+StandardPageSize
 ;
 /
 /
@@ -1263,7 +1263,7 @@ MOZ_ASSERT_IF
 valid
 i
 %
-PageSize
+StandardPageSize
 =
 =
 0
@@ -7253,7 +7253,7 @@ return
 DivideRoundingUp
 (
 minLength
-PageSize
+StandardPageSize
 )
 ;
 }
