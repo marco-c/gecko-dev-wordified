@@ -1453,7 +1453,7 @@ this
 .
 inspector
 .
-toolbox
+commands
 .
 resourceCommand
 ;
