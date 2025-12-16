@@ -8272,6 +8272,15 @@ cx
 script
 )
 ;
+jitScript
+-
+>
+ensureProfilerScriptSource
+(
+cx
+script
+)
+;
 }
 if
 (

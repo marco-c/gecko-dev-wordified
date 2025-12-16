@@ -2846,6 +2846,17 @@ JSScript
 script
 )
 ;
+void
+ensureProfilerScriptSource
+(
+JSContext
+*
+cx
+JSScript
+*
+script
+)
+;
 const
 char
 *
