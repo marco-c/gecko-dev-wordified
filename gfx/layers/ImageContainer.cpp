@@ -3217,13 +3217,12 @@ lock
 mRecursiveMutex
 )
 ;
-*
 aImages
-=
-mCurrentImages
-.
-Clone
+-
+>
+Assign
 (
+mCurrentImages
 )
 ;
 if
