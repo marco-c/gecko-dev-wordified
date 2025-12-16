@@ -2701,7 +2701,6 @@ networkMessageUpdates
 this
 .
 queuedMessageUpdates
-null
 )
 )
 ;

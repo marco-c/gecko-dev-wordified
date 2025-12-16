@@ -264,7 +264,6 @@ networkMessageUpdates
 [
 updatePacket
 ]
-null
 )
 )
 ;

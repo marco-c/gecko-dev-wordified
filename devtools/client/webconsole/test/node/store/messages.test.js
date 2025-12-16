@@ -8579,7 +8579,6 @@ networkMessageUpdates
 [
 updatePacket
 ]
-null
 )
 )
 ;
@@ -8678,7 +8677,6 @@ networkMessageUpdates
 [
 updatePacket
 ]
-null
 )
 )
 ;
@@ -8773,7 +8771,6 @@ networkMessageUpdates
 [
 updatePacket
 ]
-null
 )
 )
 ;
@@ -8963,7 +8960,6 @@ networkMessageUpdates
 [
 updatePacket
 ]
-null
 )
 )
 ;
@@ -9004,7 +9000,6 @@ networkMessageUpdates
 [
 updatePacket
 ]
-null
 )
 )
 ;
@@ -9045,7 +9040,6 @@ networkMessageUpdates
 [
 updatePacket
 ]
-null
 )
 )
 ;
