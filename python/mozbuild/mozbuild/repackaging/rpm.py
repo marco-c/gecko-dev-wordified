@@ -74,6 +74,12 @@ path
 as
 mozpath
 from
+mozilla_version
+.
+gecko
+import
+GeckoVersion
+from
 mozbuild
 .
 repackaging
@@ -367,6 +373,39 @@ application_ini_data_from_tar
 infile
 )
         
+gecko_version
+=
+GeckoVersion
+.
+parse
+(
+version
+)
+        
+rpm_build_number
+=
+(
+            
+application_ini_data
+[
+"
+build_id
+"
+]
+            
+if
+gecko_version
+.
+is_nightly
+            
+else
+str
+(
+build_number
+)
+        
+)
+        
 build_variables
 =
 get_build_variables
@@ -384,7 +423,7 @@ product
             
 build_number
 =
-build_number
+rpm_build_number
         
 )
         
