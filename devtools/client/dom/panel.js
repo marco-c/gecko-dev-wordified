@@ -138,8 +138,10 @@ target
 .
 *
 /
-function
+class
 DomPanel
+{
+constructor
 (
 iframeWindow
 toolbox
@@ -207,11 +209,6 @@ this
 )
 ;
 }
-DomPanel
-.
-prototype
-=
-{
 /
 *
 *
@@ -1356,7 +1353,6 @@ target
 ;
 }
 }
-;
 /
 /
 Helpers
