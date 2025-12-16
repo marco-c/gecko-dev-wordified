@@ -149,7 +149,6 @@ get
 "
 MOZLOG_DUMP_ALL_TESTS
 "
-False
 )
 :
             

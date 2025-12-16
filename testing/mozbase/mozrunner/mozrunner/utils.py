@@ -1760,7 +1760,6 @@ getenv
 "
 MOZ_DISABLE_STACK_FIX
 "
-0
 )
 :
         

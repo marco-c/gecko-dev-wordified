@@ -104,7 +104,9 @@ get
 "
 MOZLINT_SUMMARY_DEPTH
 "
+"
 1
+"
 )
 )
     

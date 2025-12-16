@@ -270,12 +270,8 @@ get
 "
 MOZ_AUTOMATION
 "
-False
 )
 )
-#
-noqa
-PLW1508
 }
 (
 system

@@ -413,6 +413,8 @@ getcwd
 )
 AUTOMATION
 =
+bool
+(
 env
 .
 get
@@ -420,7 +422,7 @@ get
 "
 AUTOMATION
 "
-False
+)
 )
 parser
 =

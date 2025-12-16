@@ -1025,7 +1025,6 @@ get
 "
 MOZ_AUTOMATION
 "
-False
 )
 )
     
@@ -1064,7 +1063,6 @@ get
 "
 MOZ_AUTOMATION
 "
-False
 )
 )
     
