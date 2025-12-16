@@ -5018,7 +5018,7 @@ startup
 test
 -
 !
-simple
+profiling
 "
 ]
                     

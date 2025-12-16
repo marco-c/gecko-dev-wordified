@@ -80,6 +80,14 @@ mozperftest
 .
 system
 .
+geckoprofiler
+import
+GeckoProfiler
+from
+mozperftest
+.
+system
+.
 macos
 import
 MacosDevice
@@ -143,6 +151,8 @@ AndroidDevice
 MacosDevice
         
 SimpleperfProfiler
+        
+GeckoProfiler
     
 )
 def
@@ -397,6 +407,8 @@ MacosDevice
 VersionProducer
             
 SimpleperfProfiler
+            
+GeckoProfiler
         
 ]
         
