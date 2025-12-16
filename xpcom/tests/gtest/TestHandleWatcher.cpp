@@ -297,15 +297,6 @@ nsThreadUtils
 .
 h
 "
-/
-/
-#
-include
-"
-nscore
-.
-h
-"
 namespace
 details
 {
@@ -1016,7 +1007,7 @@ false
 static
 *
 /
-MOZ_CONSTINIT
+constinit
 RefPtr
 <
 mozilla
