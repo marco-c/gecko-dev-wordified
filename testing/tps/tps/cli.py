@@ -854,10 +854,7 @@ extensions
         
 )
     
-else
-:
-        
-if
+elif
 sys
 .
 platform
@@ -867,7 +864,7 @@ platform
 win32
 "
 :
-            
+        
 #
 replace
 msys
@@ -878,7 +875,7 @@ with
 proper
 Windows
 paths
-            
+        
 m
 =
 re
@@ -897,11 +894,11 @@ w
 "
 extensionDir
 )
-            
+        
 if
 m
 :
-                
+            
 extensionDir
 =
 "
@@ -931,7 +928,7 @@ extensionDir
 :
 ]
 )
-                
+            
 extensionDir
 =
 extensionDir

@@ -1330,10 +1330,7 @@ candidate
                     
 break
         
-else
-:
-            
-if
+elif
 os
 .
 path
@@ -1343,7 +1340,7 @@ exists
 debugger
 )
 :
-                
+            
 debuggerPath
 =
 debugger

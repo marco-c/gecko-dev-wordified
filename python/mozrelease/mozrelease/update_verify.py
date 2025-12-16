@@ -734,10 +734,7 @@ setattr
 (
 self
 k
-entry
-[
-k
-]
+v
 )
             
 elif

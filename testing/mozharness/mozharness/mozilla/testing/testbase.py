@@ -2262,9 +2262,6 @@ url
 kwargs
 )
         
-else
-:
-            
 #
 windows
 certificates
@@ -2285,8 +2282,8 @@ org
 /
 issue36011
 )
-            
-if
+        
+elif
 self
 .
 platform_name
@@ -2309,14 +2306,14 @@ architecture
 ]
 in
 (
-                
+            
 "
 x64
 "
-            
+        
 )
 :
-                
+            
 if
 self
 .
@@ -2324,7 +2321,7 @@ ssl_context
 is
 None
 :
-                    
+                
 self
 .
 ssl_context
@@ -2337,7 +2334,7 @@ ssl
 .
 PROTOCOL_TLS
 )
-                    
+                
 self
 .
 ssl_context
@@ -2345,7 +2342,7 @@ ssl_context
 load_default_certs
 (
 )
-                
+            
 return
 urllib
 .
@@ -2363,10 +2360,10 @@ ssl_context
 *
 kwargs
 )
-            
+        
 else
 :
-                
+            
 return
 urllib
 .

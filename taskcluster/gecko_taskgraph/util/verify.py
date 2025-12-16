@@ -3299,9 +3299,6 @@ environment
                         
 )
                 
-else
-:
-                    
 #
 Build
 tasks
@@ -3315,7 +3312,7 @@ scratch
 pad
 have
 no
-                    
+                
 #
 dependent
 tests
@@ -3327,7 +3324,7 @@ t
 package
 tests
 .
-                    
+                
 #
 With
 the
@@ -3339,20 +3336,20 @@ shippable
 jobs
 to
 always
-                    
+                
 #
 produce
 tests
 .
-                    
-if
+                
+elif
 not
 build_has_tests
 and
 not
 shippable
 :
-                        
+                    
 #
 If
 we
@@ -3368,7 +3365,7 @@ can
 t
 verify
 that
-                        
+                    
 #
 there
 are
@@ -3376,17 +3373,17 @@ no
 dependent
 tests
 .
-                        
+                    
 if
 not
 missing_tests_allowed
 :
-                            
+                        
 exceptions
 .
 append
 (
-                                
+                            
 f
 "
 Build
@@ -3402,7 +3399,7 @@ tests
 but
 specifies
 "
-                                
+                            
 f
 "
 MOZ_AUTOMATION_PACKAGE_TESTS
@@ -3415,7 +3412,7 @@ the
 environment
 .
 "
-                                
+                            
 "
 Unset
 MOZ_AUTOMATION_PACKAGE_TESTS
@@ -3424,13 +3421,13 @@ the
 task
 definition
 "
-                                
+                            
 "
 to
 fix
 .
 "
-                            
+                        
 )
         
 if

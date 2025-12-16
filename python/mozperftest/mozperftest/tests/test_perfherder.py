@@ -2008,10 +2008,7 @@ items
 :
         
 assert
-found_all
-[
-entry
-]
+value
 f
 "
 Failed
@@ -2557,10 +2554,7 @@ items
 :
         
 assert
-found_all
-[
-entry
-]
+value
 f
 "
 Failed

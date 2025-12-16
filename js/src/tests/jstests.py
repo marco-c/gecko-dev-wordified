@@ -4883,11 +4883,9 @@ run
 "
 "
     
-import
+from
 lib
-.
-manifest
-as
+import
 manifest
     
 if

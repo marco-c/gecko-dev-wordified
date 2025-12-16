@@ -2092,15 +2092,13 @@ the
 damage
 .
         
-if
-num_args
->
-10
-:
-            
 num_args
 =
+min
+(
+num_args
 10
+)
         
 args_ptr
 =
@@ -2906,8 +2904,6 @@ return
 base
 <
 =
-pc
-and
 pc
 <
 base

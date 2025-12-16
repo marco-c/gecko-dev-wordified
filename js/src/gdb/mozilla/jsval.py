@@ -1158,8 +1158,6 @@ if
 <
 =
 value
-and
-value
 <
 len
 (

@@ -4966,17 +4966,14 @@ install_vismet_reqs
         
 )
     
-else
-:
-        
-if
+elif
 not
 _verify_node_install
 (
 command_context
 )
 :
-            
+        
 return
 1
     

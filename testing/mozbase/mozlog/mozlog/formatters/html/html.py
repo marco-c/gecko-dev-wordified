@@ -1847,12 +1847,9 @@ line
 ]
 )
                 
-else
-:
-                    
-if
+elif
 (
-                        
+                    
 line
 .
 lower
@@ -1869,7 +1866,7 @@ error
 =
 -
 1
-                        
+                    
 or
 line
 .
@@ -1887,10 +1884,10 @@ exception
 =
 -
 1
-                    
+                
 )
 :
-                        
+                    
 log
 .
 append
@@ -1913,10 +1910,10 @@ error
 "
 )
 )
-                    
+                
 else
 :
-                        
+                    
 log
 .
 append

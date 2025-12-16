@@ -542,13 +542,10 @@ inlineStorageTwoByte
 "
 ]
             
-else
-:
-                
-if
+elif
 is_latin1
 :
-                    
+                
 chars
 =
 d
@@ -567,10 +564,10 @@ u2
 nonInlineCharsLatin1
 "
 ]
-                
+            
 else
 :
-                    
+                
 chars
 =
 d

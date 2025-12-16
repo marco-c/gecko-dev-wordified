@@ -1375,8 +1375,6 @@ disk
         
 )
         
-#
-        
 self
 .
 assertEqual

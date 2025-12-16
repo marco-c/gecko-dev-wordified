@@ -54,12 +54,6 @@ MPL
 /
 .
 import
-concurrent
-.
-futures
-as
-futures
-import
 errno
 import
 os
@@ -73,6 +67,10 @@ import
 Counter
 OrderedDict
 defaultdict
+from
+concurrent
+import
+futures
 import
 mozpack
 .

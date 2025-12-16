@@ -486,10 +486,7 @@ append
 currItem
 )
         
-else
-:
-            
-if
+elif
 i
 %
 3
@@ -497,17 +494,17 @@ i
 =
 1
 :
-                
+            
 mark
 .
 append
 (
 currItem
 )
-            
+        
 else
 :
-                
+            
 sweep
 .
 append

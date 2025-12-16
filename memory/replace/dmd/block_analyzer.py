@@ -1457,8 +1457,6 @@ args
 stacks
 b
 )
-    
-return
 def
 cleanupTraceTable
 (

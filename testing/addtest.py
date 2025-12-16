@@ -1164,9 +1164,6 @@ reftest
 return
 False
         
-else
-:
-            
 #
 Set
 the
@@ -1178,8 +1175,8 @@ relative
 to
 the
 test
-            
-if
+        
+elif
 self
 .
 kwargs
@@ -1189,7 +1186,7 @@ ref
 "
 ]
 :
-                
+            
 if
 self
 .
@@ -1207,7 +1204,7 @@ ref
 is
 None
 :
-                    
+                
 print
 (
 "
@@ -1229,7 +1226,7 @@ platform
 tests
 "
 )
-                    
+                
 return
 False
     
@@ -1861,10 +1858,7 @@ src_rel_path
 path
 )
         
-else
-:
-            
-if
+elif
 self
 .
 wpt_type
@@ -1875,20 +1869,20 @@ is
 not
 None
 :
-                
+            
 return
 path
-            
+        
 else
 :
-                
+            
 test_rel_path
 =
 self
 .
 src_rel_path
 (
-                    
+                
 os
 .
 path
@@ -1907,9 +1901,9 @@ test
 )
 path
 )
-                
+            
 )
-                
+            
 if
 self
 .
@@ -1921,7 +1915,7 @@ is
 not
 None
 :
-                    
+                
 return
 test_rel_path
         

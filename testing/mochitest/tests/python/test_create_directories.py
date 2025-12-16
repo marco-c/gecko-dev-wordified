@@ -55,12 +55,6 @@ MPL
 .
 import
 os
-import
-unittest
-.
-mock
-as
-mock
 from
 argparse
 import
@@ -73,6 +67,10 @@ from
 textwrap
 import
 dedent
+from
+unittest
+import
+mock
 import
 mozunit
 import

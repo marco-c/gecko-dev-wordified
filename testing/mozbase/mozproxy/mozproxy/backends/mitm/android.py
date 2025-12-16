@@ -2024,13 +2024,10 @@ cmd_output
 return
 cmd_output
         
-else
-:
-            
-if
+elif
 raise_exception
 :
-                
+            
 LOG
 .
 critical
@@ -2043,7 +2040,7 @@ failed
 !
 "
 )
-                
+            
 LOG
 .
 info
@@ -2060,7 +2057,7 @@ cmd_proc
 .
 returncode
 )
-                
+            
 LOG
 .
 info
@@ -2075,7 +2072,7 @@ s
 %
 cmd_output
 )
-                
+            
 LOG
 .
 info
@@ -2090,7 +2087,7 @@ s
 %
 errs
 )
-                
+            
 raise
 Exception
 (
@@ -2102,9 +2099,9 @@ failed
 !
 "
 )
-            
+        
 else
 :
-                
+            
 return
 False

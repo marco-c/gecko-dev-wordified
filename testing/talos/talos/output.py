@@ -1374,15 +1374,12 @@ vals
 0
 ]
                     
-else
-:
-                        
 #
 calculate
 mean
 value
-                        
-if
+                    
+elif
 len
 (
 vals
@@ -1390,7 +1387,7 @@ vals
 >
 0
 :
-                            
+                        
 varray
 =
 [
@@ -1403,7 +1400,7 @@ v
 in
 vals
 ]
-                            
+                        
 subtest
 [
 "

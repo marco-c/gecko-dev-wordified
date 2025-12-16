@@ -10169,9 +10169,6 @@ append
 f_in_dir
 )
         
-else
-:
-            
 #
 Make
 sure
@@ -10185,8 +10182,8 @@ has
 a
 supported
 extension
-            
-if
+        
+elif
 os
 .
 path
@@ -10203,7 +10200,7 @@ endswith
 extensions
 )
 :
-                
+            
 path_list
 .
 append

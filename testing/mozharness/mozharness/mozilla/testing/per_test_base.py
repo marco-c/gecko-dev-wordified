@@ -4965,9 +4965,6 @@ s
 suites
 )
             
-else
-:
-                
 #
 Until
 test
@@ -4978,7 +4975,7 @@ manifests
 are
 not
 available
-                
+            
 #
 so
 it
@@ -4992,7 +4989,7 @@ suites
 are
 active
 /
-                
+            
 #
 required
 for
@@ -5006,15 +5003,15 @@ all
 suites
 from
 supported
-                
+            
 #
 suite
 categories
 are
 required
 .
-                
-if
+            
+elif
 category
 in
 [
@@ -5029,7 +5026,7 @@ reftest
 "
 ]
 :
-                    
+                
 suites
 =
 all_suites

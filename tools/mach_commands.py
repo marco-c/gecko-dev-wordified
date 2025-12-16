@@ -1335,9 +1335,6 @@ release
                 
 )
             
-else
-:
-                
 #
 Tool
 is
@@ -1348,11 +1345,11 @@ return
 the
 parser
 .
-                
-if
+            
+elif
 subcommand
 :
-                    
+                
 return
 tool
 .
@@ -1360,10 +1357,10 @@ parser
 (
 subcommand
 )
-                
+            
 else
 :
-                    
+                
 return
 tool
 .

@@ -292,8 +292,6 @@ ensure_bytes
 content
 )
 )
-        
-return
     
 def
 close

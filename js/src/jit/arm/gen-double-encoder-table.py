@@ -211,19 +211,13 @@ are
 "
     
 assert
-(
 0
 <
 =
 value
-)
-and
-(
-value
 <
 =
 255
-)
     
 a
 =

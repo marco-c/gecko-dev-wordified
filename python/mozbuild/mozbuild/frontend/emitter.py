@@ -11314,9 +11314,6 @@ context
                                 
 )
                         
-else
-:
-                            
 #
 Additionally
 don
@@ -11327,7 +11324,7 @@ LOCALIZED_GENERATED_FILES
 to
 be
 used
-                            
+                        
 #
 in
 anything
@@ -11336,28 +11333,28 @@ but
 *
 LOCALIZED_FILES
 .
-                            
-if
+                        
+elif
 f
 .
 target_basename
 in
 localized_generated_files
 :
-                                
+                            
 raise
 SandboxValidationError
 (
-                                    
+                                
 (
-                                        
+                                    
 "
 Outputs
 of
 LOCALIZED_GENERATED_FILES
 cannot
 "
-                                        
+                                    
 "
 be
 used
@@ -11368,17 +11365,17 @@ s
 %
 s
 "
-                                    
+                                
 )
-                                    
+                                
 %
 (
 var
 f
 )
-                                    
-context
                                 
+context
+                            
 )
             
 #

@@ -1442,8 +1442,6 @@ bug_number
 pull_request
 reviewer
 )
-    
-return
 def
 _parse_patch
 (

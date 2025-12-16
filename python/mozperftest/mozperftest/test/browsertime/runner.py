@@ -2316,9 +2316,6 @@ binary
 )
 )
             
-else
-:
-                
 #
 If
 -
@@ -2334,7 +2331,7 @@ to
 the
 objdir
 binary
-                
+            
 #
 Note
 :
@@ -2352,7 +2349,7 @@ option
 but
 it
 will
-                
+            
 #
 silently
 ignore
@@ -2365,16 +2362,16 @@ a
 release
 installation
 .
-                
-if
+            
+elif
 (
-                    
+                
 not
 matches
 (
-                        
+                    
 args
-                        
+                    
 "
 -
 -
@@ -2382,7 +2379,7 @@ firefox
 .
 binaryPath
 "
-                        
+                    
 "
 -
 -
@@ -2390,7 +2387,7 @@ firefox
 .
 release
 "
-                        
+                    
 "
 -
 -
@@ -2398,7 +2395,7 @@ firefox
 .
 nightly
 "
-                        
+                    
 "
 -
 -
@@ -2406,7 +2403,7 @@ firefox
 .
 beta
 "
-                        
+                    
 "
 -
 -
@@ -2414,9 +2411,9 @@ firefox
 .
 developer
 "
-                    
+                
 )
-                    
+                
 and
 extract_browser_name
 (
@@ -2427,10 +2424,10 @@ args
 "
 chrome
 "
-                
+            
 )
 :
-                    
+                
 extra_args
 .
 extend

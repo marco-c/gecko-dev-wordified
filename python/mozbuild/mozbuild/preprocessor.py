@@ -1462,8 +1462,6 @@ __strip
 (
 ws_len
 )
-        
-return
     
 def
 __strip
@@ -6042,8 +6040,6 @@ keys
 )
 )
 ]
-        
-return
     
 #
 Filters

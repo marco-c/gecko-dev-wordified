@@ -234,8 +234,6 @@ textToReferences
 check_if_paragraph
 check_if_text
 )
-        
-return
     
 def
 textToReferences
@@ -451,5 +449,3 @@ add_transform
 (
 ConvertBugsToLinks
 )
-    
-return

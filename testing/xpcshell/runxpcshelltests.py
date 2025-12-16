@@ -11470,15 +11470,7 @@ MacOS
             
 )
         
-else
-:
-#
-unix
-or
-linux
-?
-            
-if
+elif
 "
 LD_LIBRARY_PATH
 "
@@ -11499,7 +11491,7 @@ LD_LIBRARY_PATH
 is
 None
 :
-                
+            
 self
 .
 env
@@ -11512,10 +11504,10 @@ LD_LIBRARY_PATH
 self
 .
 xrePath
-            
+        
 else
 :
-                
+            
 self
 .
 env
@@ -11531,7 +11523,7 @@ LD_LIBRARY_PATH
 .
 join
 (
-                    
+                
 [
 self
 .
@@ -11545,7 +11537,7 @@ LD_LIBRARY_PATH
 "
 ]
 ]
-                
+            
 )
         
 usingASan
@@ -11852,10 +11844,7 @@ pStderr
 =
 None
         
-else
-:
-            
-if
+elif
 self
 .
 debuggerInfo
@@ -11866,18 +11855,18 @@ debuggerInfo
 .
 interactive
 :
-                
+            
 pStdout
 =
 None
-                
+            
 pStderr
 =
 None
-            
+        
 else
 :
-                
+            
 if
 sys
 .
@@ -11888,18 +11877,18 @@ platform
 os2emx
 "
 :
-                    
+                
 pStdout
 =
 None
-                
+            
 else
 :
-                    
+                
 pStdout
 =
 PIPE
-                
+            
 pStderr
 =
 STDOUT

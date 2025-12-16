@@ -2193,15 +2193,13 @@ bdp_bits
 /
 8
             
-if
-bdp_bytes
-<
-1500
-:
-                
 bdp_bytes
 =
+max
+(
+bdp_bytes
 1500
+)
             
 return
 int

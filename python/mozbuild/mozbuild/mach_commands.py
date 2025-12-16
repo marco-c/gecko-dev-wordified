@@ -8590,15 +8590,13 @@ of
 into
 0
         
-if
-exit_code
->
-255
-:
-            
 exit_code
 =
+min
+(
+exit_code
 255
+)
     
 #
 Show

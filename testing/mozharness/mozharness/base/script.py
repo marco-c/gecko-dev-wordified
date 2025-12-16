@@ -10470,15 +10470,13 @@ sleeptime
 *
 2
                     
-if
-sleeptime
->
-max_sleeptime
-:
-                        
 sleeptime
 =
+min
+(
+sleeptime
 max_sleeptime
+)
     
 def
 query_env
@@ -12564,10 +12562,7 @@ partial_env
 partial_env
 )
         
-else
-:
-            
-if
+elif
 hasattr
 (
 self
@@ -12583,7 +12578,7 @@ self
 .
 previous_env
 :
-                
+            
 self
 .
 info
@@ -12600,10 +12595,10 @@ command
 )
 "
 )
-            
+        
 else
 :
-                
+            
 self
 .
 info
@@ -12623,7 +12618,7 @@ pformat
 env
 )
 )
-                
+            
 self
 .
 previous_env

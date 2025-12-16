@@ -9515,10 +9515,7 @@ j
 return
 i
             
-else
-:
-                
-if
+elif
 p
 .
 startswith
@@ -9529,7 +9526,7 @@ i
 ]
 )
 :
-                    
+                
 return
 i
     

@@ -677,15 +677,13 @@ sleeptime
 =
 sleepscale
         
-if
-sleeptime_real
->
-max_sleeptime
-:
-            
 sleeptime_real
 =
+min
+(
+sleeptime_real
 max_sleeptime
+)
         
 #
 Don

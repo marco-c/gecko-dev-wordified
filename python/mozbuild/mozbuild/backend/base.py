@@ -1131,9 +1131,6 @@ _backend_output_files
 )
 )
         
-else
-:
-            
 #
 Always
 update
@@ -1150,14 +1147,14 @@ dry
 run
 mode
 .
-            
-if
+        
+elif
 not
 self
 .
 dry_run
 :
-                
+            
 with
 open
 (
@@ -1167,7 +1164,7 @@ a
 "
 )
 :
-                    
+                
 os
 .
 utime

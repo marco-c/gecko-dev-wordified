@@ -4128,8 +4128,6 @@ line0
 <
 =
 lineno
-and
-lineno
 <
 =
 line1

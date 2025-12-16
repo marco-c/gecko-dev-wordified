@@ -2500,10 +2500,7 @@ mach
 "
 ]
     
-else
-:
-        
-if
+elif
 sys
 .
 platform
@@ -2513,7 +2510,7 @@ platform
 win32
 "
 :
-            
+        
 cargo_check_command
 =
 [
@@ -2524,10 +2521,10 @@ executable
 mach
 "
 ]
-        
+    
 else
 :
-            
+        
 cargo_check_command
 =
 [

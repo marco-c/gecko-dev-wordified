@@ -915,10 +915,7 @@ unstable
 )
 )
     
-else
-:
-        
-if
+elif
 not
 kwargs
 [
@@ -927,15 +924,15 @@ group
 "
 ]
 :
-            
+        
 print_results
 (
 unstable
 )
-        
+    
 else
 :
-            
+        
 print_run
 (
 unstable

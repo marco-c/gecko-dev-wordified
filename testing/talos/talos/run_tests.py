@@ -491,9 +491,6 @@ get
 key
 )
         
-else
-:
-            
 #
 current
 test
@@ -508,8 +505,8 @@ it
 from
 our
 prefs
-            
-if
+        
+elif
 _pref_name
 in
 test
@@ -519,7 +516,7 @@ preferences
 "
 ]
 :
-                
+            
 del
 test
 [
@@ -573,9 +570,6 @@ _pref_name
 =
 value
         
-else
-:
-            
 #
 current
 test
@@ -590,8 +584,8 @@ it
 from
 our
 prefs
-            
-if
+        
+elif
 _pref_name
 in
 test
@@ -601,7 +595,7 @@ preferences
 "
 ]
 :
-                
+            
 del
 test
 [
