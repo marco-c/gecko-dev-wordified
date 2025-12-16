@@ -1093,7 +1093,7 @@ master
 "
 check
 =
-False
+True
 shell
 =
 True

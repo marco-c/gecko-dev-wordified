@@ -1278,7 +1278,7 @@ run
 args
 check
 =
-False
+True
 stderr
 =
 dest

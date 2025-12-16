@@ -1953,7 +1953,7 @@ repo_dir
 ]
 check
 =
-False
+True
             
 )
             
@@ -1988,7 +1988,7 @@ rev
 ]
 check
 =
-False
+True
 cwd
 =
 repo_dir
