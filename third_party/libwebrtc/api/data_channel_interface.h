@@ -303,11 +303,6 @@ MaxRetransmits
 is
 set
 .
-[
-[
-deprecated
-]
-]
 bool
 reliable
 =
