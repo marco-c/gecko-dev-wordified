@@ -78,7 +78,7 @@ product
 "
 :
 "
-WebKitTestRunner
+wktr
 "
                  
 "

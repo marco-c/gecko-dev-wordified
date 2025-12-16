@@ -5809,13 +5809,9 @@ product
 products
 .
 Product
+.
+from_product_name
 (
-kwargs
-[
-"
-config
-"
-]
 kwargs
 [
 "
