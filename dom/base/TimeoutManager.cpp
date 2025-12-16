@@ -767,6 +767,8 @@ a
 chrome
 window
 /
+worker
+/
 /
 *
 It
@@ -820,6 +822,15 @@ window
 IsChromeWindow
 (
 )
+)
+{
+return
+true
+;
+}
+if
+(
+mIsChromeWorker
 )
 {
 return
@@ -2424,6 +2435,10 @@ StaticPrefs
 dom_clamp_timeout_nesting_level
 (
 )
+&
+&
+!
+mIsChromeWorker
 )
 {
 uint32_t
@@ -2954,6 +2969,8 @@ aMaxIdleDeferMS
 nsISerialEventTarget
 *
 aEventTarget
+bool
+aIsChromeWorker
 )
 :
 mGlobalObject
@@ -3069,6 +3086,10 @@ aHandle
 GetAsInnerWindow
 (
 )
+)
+mIsChromeWorker
+(
+aIsChromeWorker
 )
 {
 MOZ_LOG

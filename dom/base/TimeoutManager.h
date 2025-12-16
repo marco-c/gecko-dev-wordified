@@ -215,6 +215,10 @@ aMaxIdleDeferMS
 nsISerialEventTarget
 *
 aEventTarget
+bool
+aIsChromeWorker
+=
+false
 )
 ;
 ~
@@ -1591,6 +1595,10 @@ mEventTarget
 const
 bool
 mIsWindow
+;
+const
+bool
+mIsChromeWorker
 ;
 uint32_t
 mNestingLevel

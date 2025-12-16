@@ -2000,6 +2000,12 @@ workers
 /
 0
 mSerialEventTarget
+mWorkerPrivate
+-
+>
+IsChromeWorker
+(
+)
 )
 ;
 LOG
