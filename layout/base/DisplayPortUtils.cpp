@@ -277,6 +277,13 @@ h
 #
 include
 "
+nsIFrameInlines
+.
+h
+"
+#
+include
+"
 nsLayoutUtils
 .
 h
@@ -299,13 +306,6 @@ h
 include
 "
 nsSubDocumentFrame
-.
-h
-"
-#
-include
-"
-nsIFrameInlines
 .
 h
 "
