@@ -83,8 +83,10 @@ Ci
 .
 nsIScriptableInputStream
 ;
-function
+class
 TestStreamListener
+{
+constructor
 (
 )
 {
@@ -97,11 +99,6 @@ initial
 "
 ;
 }
-TestStreamListener
-.
-prototype
-=
-{
 onStartRequest
 (
 )
@@ -281,9 +278,10 @@ promise
 ;
 }
 }
-;
-function
+class
 TestChannel
+{
+constructor
 (
 )
 {
@@ -311,11 +309,6 @@ _throttleQueue
 null
 ;
 }
-TestChannel
-.
-prototype
-=
-{
 QueryInterface
 (
 )
@@ -382,7 +375,6 @@ testListener
 ;
 }
 }
-;
 add_task
 (
 async
