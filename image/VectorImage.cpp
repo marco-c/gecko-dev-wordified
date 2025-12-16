@@ -622,7 +622,7 @@ return
 mDocWrapper
 -
 >
-GetRootSVGElem
+GetSVGRootElement
 (
 )
 ;
@@ -2990,7 +2990,7 @@ rootElem
 mSVGDocumentWrapper
 -
 >
-GetRootSVGElem
+GetSVGRootElement
 (
 )
 ;
@@ -3266,7 +3266,7 @@ rootElem
 mSVGDocumentWrapper
 -
 >
-GetRootSVGElem
+GetSVGRootElement
 (
 )
 ;
@@ -3497,7 +3497,7 @@ rootElem
 mSVGDocumentWrapper
 -
 >
-GetRootSVGElem
+GetSVGRootElement
 (
 )
 ;
@@ -4483,7 +4483,7 @@ svgElem
 mSVGDocumentWrapper
 -
 >
-GetRootSVGElem
+GetSVGRootElement
 (
 )
 ;
@@ -11062,7 +11062,7 @@ if
 mSVGDocumentWrapper
 -
 >
-GetRootSVGElem
+GetSVGRootElement
 (
 )
 )
@@ -11462,7 +11462,7 @@ MOZ_ASSERT
 mSVGDocumentWrapper
 -
 >
-GetRootSVGElem
+GetSVGRootElement
 (
 )
 "

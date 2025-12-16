@@ -277,7 +277,7 @@ aSVGContext
 aSVGDocumentWrapper
 -
 >
-GetRootSVGElem
+GetSVGRootElement
 (
 )
 )
@@ -293,7 +293,7 @@ mTime
 aSVGDocumentWrapper
 -
 >
-GetRootSVGElem
+GetSVGRootElement
 (
 )
 aAnimationTime
