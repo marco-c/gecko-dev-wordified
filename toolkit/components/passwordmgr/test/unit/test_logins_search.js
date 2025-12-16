@@ -248,6 +248,7 @@ meaningless
 .
 *
 /
+async
 function
 checkSearchLogins
 (
@@ -292,16 +293,14 @@ aExpectedCount
 let
 logins
 =
+await
 Services
 .
 logins
 .
-searchLogins
-(
-newPropertyBag
+searchLoginsAsync
 (
 aQuery
-)
 )
 ;
 LoginTestUtils
@@ -421,6 +420,7 @@ meaningless
 .
 *
 /
+async
 function
 checkAllSearches
 (
@@ -572,6 +572,7 @@ length
 Test
 searchLogins
 .
+await
 checkSearchLogins
 (
 aQuery
@@ -636,6 +637,7 @@ queries
 /
 add_task
 (
+async
 function
 test_search_all_basic
 (
@@ -654,6 +656,7 @@ the
 search
 functions
 .
+await
 checkAllSearches
 (
 {
@@ -672,6 +675,7 @@ all
 authentication
 logins
 .
+await
 checkAllSearches
 (
 {
@@ -682,6 +686,7 @@ null
 17
 )
 ;
+await
 checkAllSearches
 (
 {
@@ -706,6 +711,7 @@ all
 authentication
 logins
 .
+await
 checkAllSearches
 (
 {
@@ -729,6 +735,7 @@ null
 3
 )
 ;
+await
 checkAllSearches
 (
 {
@@ -765,6 +772,7 @@ in
 the
 origin
 .
+await
 checkAllSearches
 (
 {
@@ -785,6 +793,7 @@ com
 1
 )
 ;
+await
 checkAllSearches
 (
 {
@@ -805,6 +814,7 @@ com
 1
 )
 ;
+await
 checkAllSearches
 (
 {
@@ -823,6 +833,7 @@ com
 1
 )
 ;
+await
 checkAllSearches
 (
 {
@@ -855,6 +866,7 @@ distinct
 in
 formActionOrigin
 .
+await
 checkAllSearches
 (
 {
@@ -875,6 +887,7 @@ com
 2
 )
 ;
+await
 checkAllSearches
 (
 {
@@ -895,6 +908,7 @@ com
 2
 )
 ;
+await
 checkAllSearches
 (
 {
@@ -923,6 +937,7 @@ a
 single
 host
 .
+await
 checkAllSearches
 (
 {
@@ -956,6 +971,7 @@ com
 1
 )
 ;
+await
 checkAllSearches
 (
 {
@@ -989,6 +1005,7 @@ com
 1
 )
 ;
+await
 checkAllSearches
 (
 {
@@ -1029,6 +1046,7 @@ on
 all
 hosts
 .
+await
 checkAllSearches
 (
 {
@@ -1043,6 +1061,7 @@ Realm
 3
 )
 ;
+await
 checkAllSearches
 (
 {
@@ -1063,6 +1082,7 @@ org
 1
 )
 ;
+await
 checkAllSearches
 (
 {
@@ -1088,6 +1108,7 @@ a
 single
 host
 .
+await
 checkAllSearches
 (
 {
@@ -1113,6 +1134,7 @@ Realm
 1
 )
 ;
+await
 checkAllSearches
 (
 {
@@ -1139,6 +1161,7 @@ Other
 1
 )
 ;
+await
 checkAllSearches
 (
 {
@@ -1185,11 +1208,13 @@ queries
 /
 add_task
 (
+async
 function
 test_searchLogins
 (
 )
 {
+await
 checkSearchLogins
 (
 {
@@ -1202,6 +1227,7 @@ form_field_username
 12
 )
 ;
+await
 checkSearchLogins
 (
 {
@@ -1227,6 +1253,7 @@ including
 for
 authentication
 .
+await
 checkSearchLogins
 (
 {
@@ -1248,6 +1275,7 @@ an
 empty
 usernameField
 .
+await
 checkSearchLogins
 (
 {
@@ -1274,6 +1302,7 @@ on
 one
 host
 .
+await
 checkSearchLogins
 (
 {
@@ -1315,35 +1344,30 @@ arguments
 /
 add_task
 (
+async
 function
 test_searchLogins_invalid
 (
 )
 {
+await
 Assert
 .
-throws
+rejects
 (
-(
-)
-=
->
 Services
 .
 logins
 .
-searchLogins
-(
-newPropertyBag
+searchLoginsAsync
 (
 {
-username
+foo
 :
 "
 value
 "
 }
-)
 )
 /
 Unexpected
@@ -1592,6 +1616,7 @@ values
 /
 add_task
 (
+async
 function
 test_search_all_empty
 (
@@ -1644,6 +1669,7 @@ Realm
 0
 )
 ;
+await
 checkSearchLogins
 (
 {
@@ -1655,6 +1681,7 @@ origin
 0
 )
 ;
+await
 checkSearchLogins
 (
 {

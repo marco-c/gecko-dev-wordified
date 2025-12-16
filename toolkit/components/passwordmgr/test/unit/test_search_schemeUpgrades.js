@@ -319,6 +319,7 @@ meaningless
 .
 *
 /
+async
 function
 checkSearch
 (
@@ -363,16 +364,14 @@ aExpectedCount
 let
 logins
 =
+await
 Services
 .
 logins
 .
-searchLogins
-(
-newPropertyBag
+searchLoginsAsync
 (
 aQuery
-)
 )
 ;
 LoginTestUtils
@@ -436,6 +435,7 @@ property
 /
 add_task
 (
+async
 function
 test_search_schemeUpgrades_origin
 (
@@ -446,6 +446,7 @@ test_search_schemeUpgrades_origin
 Origin
 -
 only
+await
 checkSearch
 (
 {
@@ -456,6 +457,7 @@ HTTPS_ORIGIN
 1
 )
 ;
+await
 checkSearch
 (
 {
@@ -469,6 +471,7 @@ false
 1
 )
 ;
+await
 checkSearch
 (
 {
@@ -482,6 +485,7 @@ undefined
 1
 )
 ;
+await
 checkSearch
 (
 {
@@ -515,11 +519,13 @@ formActionOrigin
 /
 add_task
 (
+async
 function
 test_search_schemeUpgrades_formActionOrigin
 (
 )
 {
+await
 checkSearch
 (
 {
@@ -530,6 +536,7 @@ HTTPS_ORIGIN
 2
 )
 ;
+await
 checkSearch
 (
 {
@@ -543,6 +550,7 @@ false
 2
 )
 ;
+await
 checkSearch
 (
 {
@@ -556,6 +564,7 @@ undefined
 2
 )
 ;
+await
 checkSearch
 (
 {
@@ -574,11 +583,13 @@ true
 ;
 add_task
 (
+async
 function
 test_search_schemeUpgrades_origin_formActionOrigin
 (
 )
 {
+await
 checkSearch
 (
 {
@@ -592,6 +603,7 @@ HTTPS_ORIGIN
 1
 )
 ;
+await
 checkSearch
 (
 {
@@ -608,6 +620,7 @@ false
 1
 )
 ;
+await
 checkSearch
 (
 {
@@ -624,6 +637,7 @@ undefined
 1
 )
 ;
+await
 checkSearch
 (
 {
@@ -640,6 +654,7 @@ true
 2
 )
 ;
+await
 checkSearch
 (
 {
@@ -661,6 +676,7 @@ form_field_username
 2
 )
 ;
+await
 checkSearch
 (
 {
@@ -687,6 +703,7 @@ form_field_username
 2
 )
 ;
+await
 checkSearch
 (
 {
@@ -731,11 +748,13 @@ HTTPS
 /
 add_task
 (
+async
 function
 test_http_to_https
 (
 )
 {
+await
 checkSearch
 (
 {
@@ -755,6 +774,7 @@ false
 1
 )
 ;
+await
 checkSearch
 (
 {
@@ -791,11 +811,13 @@ downgrades
 /
 add_task
 (
+async
 function
 test_search_schemeUpgrades_downgrade
 (
 )
 {
+await
 checkSearch
 (
 {
@@ -830,6 +852,7 @@ HTTP
 "
 )
 ;
+await
 checkSearch
 (
 {
