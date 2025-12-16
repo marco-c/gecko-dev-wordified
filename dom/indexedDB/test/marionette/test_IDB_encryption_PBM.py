@@ -174,8 +174,6 @@ self
         
 super
 (
-IDBEncryptionPBM
-self
 )
 .
 setUp
@@ -301,8 +299,6 @@ self
         
 super
 (
-IDBEncryptionPBM
-self
 )
 .
 tearDown

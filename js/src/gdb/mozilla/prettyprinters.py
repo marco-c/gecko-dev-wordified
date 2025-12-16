@@ -2671,8 +2671,6 @@ None
 return
 super
 (
-Pointer
-cls
 )
 .
 __new__

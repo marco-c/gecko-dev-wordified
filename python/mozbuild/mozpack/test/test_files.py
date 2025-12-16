@@ -10656,8 +10656,6 @@ self
         
 super
 (
-TestMercurialRevisionFinder
-self
 )
 .
 setUp
@@ -10758,8 +10756,6 @@ _clients
         
 super
 (
-TestMercurialRevisionFinder
-self
 )
 .
 tearDown

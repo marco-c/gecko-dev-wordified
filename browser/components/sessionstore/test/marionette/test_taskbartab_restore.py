@@ -156,8 +156,6 @@ self
         
 super
 (
-TestManualRestoreWithTaskbarTabs
-self
 )
 .
 setUp
@@ -539,8 +537,6 @@ self
         
 super
 (
-TestAutoRestoreWithTaskbarTabs
-self
 )
 .
 setUp

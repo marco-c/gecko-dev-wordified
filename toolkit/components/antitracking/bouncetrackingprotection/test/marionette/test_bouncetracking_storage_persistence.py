@@ -91,8 +91,6 @@ self
         
 super
 (
-BounceTrackingStoragePersistenceTestCase
-self
 )
 .
 setUp
@@ -172,8 +170,6 @@ True
         
 super
 (
-BounceTrackingStoragePersistenceTestCase
-self
 )
 .
 tearDown

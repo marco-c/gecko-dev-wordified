@@ -641,8 +641,6 @@ mach_cmd
         
 super
 (
-Mochitest
-self
 )
 .
 __init__

@@ -91,8 +91,6 @@ self
         
 super
 (
-TestShutdownPingsSucced
-self
 )
 .
 tearDown

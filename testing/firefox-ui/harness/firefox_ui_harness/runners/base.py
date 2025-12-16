@@ -79,8 +79,6 @@ kwargs
         
 super
 (
-FirefoxUITestRunner
-self
 )
 .
 __init__

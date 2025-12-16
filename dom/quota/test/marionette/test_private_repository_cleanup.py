@@ -191,8 +191,6 @@ False
         
 super
 (
-PrivateRepositoryCleanup
-self
 )
 .
 setUp
@@ -282,8 +280,6 @@ True
         
 super
 (
-PrivateRepositoryCleanup
-self
 )
 .
 tearDown
@@ -519,8 +515,6 @@ self
         
 super
 (
-PBMAutoStart
-self
 )
 .
 setUp

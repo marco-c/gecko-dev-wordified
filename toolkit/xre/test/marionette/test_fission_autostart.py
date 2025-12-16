@@ -764,8 +764,6 @@ self
         
 super
 (
-TestFissionAutostart
-self
 )
 .
 setUp
@@ -971,8 +969,6 @@ True
         
 super
 (
-TestFissionAutostart
-self
 )
 .
 tearDown

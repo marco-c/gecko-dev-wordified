@@ -403,8 +403,6 @@ self
         
 super
 (
-TestSafeBrowsingInitialDownload
-self
 )
 .
 setUp
@@ -741,8 +739,6 @@ finally
             
 super
 (
-TestSafeBrowsingInitialDownload
-self
 )
 .
 tearDown

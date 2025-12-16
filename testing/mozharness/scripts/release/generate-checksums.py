@@ -572,8 +572,6 @@ rw_config
         
 super
 (
-ChecksumsGenerator
-self
 )
 .
 _pre_config_lock

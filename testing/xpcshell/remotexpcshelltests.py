@@ -4432,8 +4432,6 @@ prefs
 =
 super
 (
-XPCShellRemote
-self
 )
 .
 buildPrefsFile
@@ -5852,8 +5850,6 @@ self
         
 super
 (
-XPCShellRemote
-self
 )
 .
 trySetupNode
@@ -6004,8 +6000,6 @@ self
         
 super
 (
-XPCShellRemote
-self
 )
 .
 shutdownNode

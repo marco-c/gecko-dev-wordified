@@ -581,8 +581,6 @@ path
         
 super
 (
-ScriptInfo
-self
 )
 .
 __init__

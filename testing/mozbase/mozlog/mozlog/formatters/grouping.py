@@ -125,8 +125,6 @@ self
         
 super
 (
-GroupingFormatter
-self
 )
 .
 __init__

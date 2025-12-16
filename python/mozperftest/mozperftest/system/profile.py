@@ -349,8 +349,6 @@ mach_cmd
         
 super
 (
-Profile
-self
 )
 .
 __init__

@@ -279,8 +279,6 @@ try
 return
 super
 (
-DesktopVersionProducer
-self
 )
 .
 get_binary_version
@@ -763,17 +761,13 @@ try
 return
 super
 (
-MobileVersionProducer
-self
 )
 .
 get_binary_version
 (
-                
 apk_path
 or
 binary
-            
 )
         
 except

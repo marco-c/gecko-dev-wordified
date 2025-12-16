@@ -2013,8 +2013,6 @@ template
         
 super
 (
-TemplateContext
-self
 )
 .
 __init__
@@ -2454,8 +2452,6 @@ OrderedDict
 return
 super
 (
-InitializedDefines
-self
 )
 .
 update
@@ -6394,8 +6390,6 @@ SourcePath
 return
 super
 (
-PathMeta
-cls
 )
 .
 __call__
@@ -6528,8 +6522,6 @@ self
 =
 super
 (
-Path
-cls
 )
 .
 __new__
@@ -6978,8 +6970,6 @@ self
 =
 super
 (
-SourcePath
-cls
 )
 .
 __new__
@@ -7238,8 +7228,6 @@ self
 =
 super
 (
-RenamedSourcePath
-cls
 )
 .
 __new__
@@ -7338,8 +7326,6 @@ self
 =
 super
 (
-ObjDirPath
-cls
 )
 .
 __new__
@@ -7516,8 +7502,6 @@ self
 =
 super
 (
-AbsolutePath
-cls
 )
 .
 __new__
@@ -7612,8 +7596,6 @@ context
             
 super
 (
-_TypedList
-self
 )
 .
 __init__
@@ -7713,8 +7695,6 @@ name
 return
 super
 (
-_TypedListWithItems
-self
 )
 .
 __getitem__
@@ -8764,8 +8744,6 @@ item
             
 super
 (
-_OrderedListWithAction
-self
 )
 .
 __init__
@@ -9722,8 +9700,6 @@ patterns
         
 super
 (
-Files
-self
 )
 .
 __init__

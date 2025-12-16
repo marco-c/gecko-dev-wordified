@@ -5422,8 +5422,6 @@ self
         
 super
 (
-PerftestAndroid
-self
 )
 .
 build_browser_profile
@@ -6018,8 +6016,6 @@ kwargs
         
 super
 (
-PerftestDesktop
-self
 )
 .
 __init__

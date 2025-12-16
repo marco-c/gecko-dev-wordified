@@ -500,8 +500,6 @@ value
         
 super
 (
-Error
-self
 )
 .
 __init__
@@ -586,8 +584,6 @@ length
         
 super
 (
-InputTooLongError
-self
 )
 .
 __init__

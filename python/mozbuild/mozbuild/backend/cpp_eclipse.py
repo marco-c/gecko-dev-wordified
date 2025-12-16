@@ -234,8 +234,6 @@ instead
         
 super
 (
-CppEclipseBackend
-self
 )
 .
 __init__

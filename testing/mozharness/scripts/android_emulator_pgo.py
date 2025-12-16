@@ -691,8 +691,6 @@ False
         
 super
 (
-AndroidProfileRun
-self
 )
 .
 __init__
@@ -847,8 +845,6 @@ abs_dirs
 =
 super
 (
-AndroidProfileRun
-self
 )
 .
 query_abs_dirs

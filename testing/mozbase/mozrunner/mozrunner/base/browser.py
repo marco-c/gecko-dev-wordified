@@ -790,8 +790,6 @@ runner_args
         
 super
 (
-BlinkRuntimeRunner
-self
 )
 .
 __init__

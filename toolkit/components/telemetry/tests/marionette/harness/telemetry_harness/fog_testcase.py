@@ -119,8 +119,6 @@ server
         
 super
 (
-FOGTestCase
-self
 )
 .
 __init__
@@ -195,8 +193,6 @@ FOG
         
 super
 (
-FOGTestCase
-self
 )
 .
 setUp
@@ -272,8 +268,6 @@ tearDown
             
 super
 (
-FOGTestCase
-self
 )
 .
 tearDown
@@ -533,8 +527,6 @@ kwargs
         
 super
 (
-FOGTestCase
-self
 )
 .
 tearDown

@@ -165,8 +165,6 @@ self
         
 super
 (
-VerifyToolsMixin
-self
 )
 .
 __init__

@@ -216,8 +216,6 @@ mach_cmd
         
 super
 (
-MacosDevice
-self
 )
 .
 __init__

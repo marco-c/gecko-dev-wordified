@@ -4231,8 +4231,6 @@ config
         
 super
 (
-Raptor
-self
 )
 .
 __init__
@@ -5583,8 +5581,6 @@ abs_dirs
 =
 super
 (
-Raptor
-self
 )
 .
 query_abs_dirs
@@ -8939,8 +8935,6 @@ installation
         
 super
 (
-Raptor
-self
 )
 .
 clobber
@@ -9036,8 +9030,6 @@ try
             
 super
 (
-Raptor
-self
 )
 .
 install_android_app
@@ -9126,8 +9118,6 @@ pywebsocket3
 return
 super
 (
-Raptor
-self
 )
 .
 download_and_extract
@@ -9921,8 +9911,6 @@ install
         
 super
 (
-Raptor
-self
 )
 .
 create_virtualenv
@@ -10360,8 +10348,6 @@ else
                 
 super
 (
-Raptor
-self
 )
 .
 install
@@ -12078,8 +12064,6 @@ kwargs
         
 super
 (
-RaptorOutputParser
-self
 )
 .
 __init__
@@ -12383,8 +12367,6 @@ raptor_line
         
 super
 (
-RaptorOutputParser
-self
 )
 .
 parse_single_line

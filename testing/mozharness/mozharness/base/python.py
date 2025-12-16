@@ -815,8 +815,6 @@ _virtualenv_modules
         
 super
 (
-VirtualenvMixin
-self
 )
 .
 __init__
@@ -5759,8 +5757,6 @@ kwargs
         
 super
 (
-ResourceMonitoringMixin
-self
 )
 .
 __init__

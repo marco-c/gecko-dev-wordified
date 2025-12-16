@@ -137,8 +137,6 @@ vstring
         
 super
 (
-StringVersion
-self
 )
 .
 __init__

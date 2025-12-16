@@ -77,8 +77,6 @@ self
         
 super
 (
-ServiceWorkerAtShutdownTestCase
-self
 )
 .
 setUp
@@ -120,8 +118,6 @@ True
         
 super
 (
-ServiceWorkerAtShutdownTestCase
-self
 )
 .
 tearDown

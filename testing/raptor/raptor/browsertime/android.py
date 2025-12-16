@@ -454,8 +454,6 @@ kwargs
         
 super
 (
-BrowsertimeAndroid
-self
 )
 .
 __init__
@@ -1694,8 +1692,6 @@ self
         
 super
 (
-BrowsertimeAndroid
-self
 )
 .
 build_browser_profile
@@ -1938,8 +1934,6 @@ test
         
 super
 (
-BrowsertimeAndroid
-self
 )
 .
 run_test_setup
@@ -2043,8 +2037,6 @@ chrome
 return
 super
 (
-BrowsertimeAndroid
-self
 )
 .
 run_tests
@@ -2086,8 +2078,6 @@ reverse
         
 super
 (
-BrowsertimeAndroid
-self
 )
 .
 run_test_teardown

@@ -243,8 +243,6 @@ self
         
 super
 (
-TestSessionRestoreClosedTabs
-self
 )
 .
 setUp

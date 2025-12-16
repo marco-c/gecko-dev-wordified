@@ -142,8 +142,6 @@ self
         
 super
 (
-CleanupObj
-self
 )
 .
 __init__
@@ -6665,8 +6663,6 @@ option_args
         
 super
 (
-BaseScriptWithDecorators
-self
 )
 .
 __init__

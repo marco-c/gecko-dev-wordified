@@ -797,8 +797,6 @@ value
         
 super
 (
-UnknownBaseError
-self
 )
 .
 __init__
@@ -975,8 +973,6 @@ value
         
 super
 (
-UnsupportedHashAlgorithmError
-self
 )
 .
 __init__

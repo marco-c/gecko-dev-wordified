@@ -961,8 +961,6 @@ False
         
 super
 (
-Linter
-self
 )
 .
 generic_visit

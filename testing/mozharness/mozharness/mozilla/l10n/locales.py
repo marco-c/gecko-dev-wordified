@@ -971,8 +971,6 @@ abs_dirs
 =
 super
 (
-LocalesMixin
-self
 )
 .
 query_abs_dirs

@@ -310,8 +310,6 @@ None
         
 super
 (
-AndroidMixin
-self
 )
 .
 __init__

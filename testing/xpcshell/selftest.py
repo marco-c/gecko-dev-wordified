@@ -2592,8 +2592,6 @@ name
         
 super
 (
-XPCShellTestsTests
-self
 )
 .
 __init__

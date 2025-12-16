@@ -97,8 +97,6 @@ kwargs
         
 super
 (
-ResourceHandler
-self
 )
 .
 __init__

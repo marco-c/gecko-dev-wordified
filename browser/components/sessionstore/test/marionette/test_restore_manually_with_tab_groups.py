@@ -138,8 +138,6 @@ self
         
 super
 (
-TestSessionRestoreWithTabGroups
-self
 )
 .
 setUp

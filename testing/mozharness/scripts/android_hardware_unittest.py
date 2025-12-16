@@ -937,8 +937,6 @@ False
         
 super
 (
-AndroidHardwareTest
-self
 )
 .
 __init__
@@ -1293,8 +1291,6 @@ abs_dirs
 =
 super
 (
-AndroidHardwareTest
-self
 )
 .
 query_abs_dirs
@@ -3388,13 +3384,10 @@ utils
         
 super
 (
-AndroidHardwareTest
-self
 )
 .
 download_and_extract
 (
-            
 suite_categories
 =
 self
@@ -3402,7 +3395,6 @@ self
 _query_suite_categories
 (
 )
-        
 )
         
 dirs

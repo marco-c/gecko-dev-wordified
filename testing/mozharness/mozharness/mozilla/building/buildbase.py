@@ -379,8 +379,6 @@ kwargs
         
 super
 (
-MakeUploadOutputParser
-self
 )
 .
 __init__
@@ -1528,11 +1526,8 @@ all_config_dicts
 .
 extend
 (
-            
 super
 (
-BuildingConfig
-self
 )
 .
 get_cfgs_from_files
@@ -1540,7 +1535,6 @@ get_cfgs_from_files
 all_config_files
 options
 )
-        
 )
         
 #
@@ -1822,6 +1816,23 @@ path_base
 "
 %
 s_cross_debug_searchfox
+.
+py
+"
+        
+"
+cross
+-
+opt
+-
+searchfox
+"
+:
+path_base
++
+"
+%
+s_cross_opt_searchfox
 .
 py
 "
@@ -3975,8 +3986,6 @@ None
         
 super
 (
-BuildScript
-self
 )
 .
 __init__
@@ -4751,8 +4760,6 @@ deepcopy
 (
 super
 (
-BuildScript
-self
 )
 .
 query_env

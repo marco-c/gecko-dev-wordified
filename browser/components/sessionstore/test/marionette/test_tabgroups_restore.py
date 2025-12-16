@@ -226,8 +226,6 @@ self
         
 super
 (
-TestAutoRestoreWithTabGroups
-self
 )
 .
 setUp

@@ -183,8 +183,6 @@ self
         
 super
 (
-TestSessionRestoreManually
-self
 )
 .
 setUp

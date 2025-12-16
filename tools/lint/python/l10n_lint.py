@@ -1512,8 +1512,6 @@ lintconfig
         
 super
 (
-MozL10nLinter
-self
 )
 .
 __init__
@@ -1555,16 +1553,12 @@ result_data
 in
 super
 (
-MozL10nLinter
-self
 )
 .
 lint
 (
-                
 files
 get_reference_and_tests
-            
 )
         
 ]

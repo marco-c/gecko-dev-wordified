@@ -3173,8 +3173,6 @@ link
 return
 super
 (
-HardlinkFile
-self
 )
 .
 copy
@@ -3400,8 +3398,6 @@ copying
 return
 super
 (
-HardlinkFile
-self
 )
 .
 copy
@@ -8518,8 +8514,6 @@ found
         
 super
 (
-MercurialRevisionFinder
-self
 )
 .
 __init__

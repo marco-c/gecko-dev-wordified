@@ -408,8 +408,6 @@ cache
         
 super
 (
-JSObjectPtrOrRef
-self
 )
 .
 __init__

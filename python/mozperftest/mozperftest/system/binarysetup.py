@@ -117,8 +117,6 @@ mach_cmd
         
 super
 (
-BinarySetup
-self
 )
 .
 __init__

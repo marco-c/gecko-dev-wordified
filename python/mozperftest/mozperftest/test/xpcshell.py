@@ -503,8 +503,6 @@ mach_cmd
         
 super
 (
-XPCShell
-self
 )
 .
 __init__

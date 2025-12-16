@@ -750,8 +750,6 @@ self
         
 super
 (
-JitSource
-self
 )
 .
 __init__

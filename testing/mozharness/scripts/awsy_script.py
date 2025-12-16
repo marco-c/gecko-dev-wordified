@@ -705,8 +705,6 @@ config
         
 super
 (
-AWSY
-self
 )
 .
 __init__
@@ -861,8 +859,6 @@ abs_dirs
 =
 super
 (
-AWSY
-self
 )
 .
 query_abs_dirs
@@ -959,13 +955,10 @@ ret
 =
 super
 (
-AWSY
-self
 )
 .
 download_and_extract
 (
-            
 suite_categories
 =
 [
@@ -976,7 +969,6 @@ common
 awsy
 "
 ]
-        
 )
         
 return

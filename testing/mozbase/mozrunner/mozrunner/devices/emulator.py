@@ -675,8 +675,6 @@ None
         
 super
 (
-BaseEmulator
-self
 )
 .
 __init__
@@ -1221,8 +1219,6 @@ return
         
 super
 (
-BaseEmulator
-self
 )
 .
 connect
@@ -1286,8 +1282,6 @@ mozrunner
         
 super
 (
-BaseEmulator
-self
 )
 .
 cleanup
@@ -1561,8 +1555,6 @@ kwargs
         
 super
 (
-EmulatorAVD
-self
 )
 .
 __init__
@@ -1615,8 +1607,6 @@ qemu_args
 =
 super
 (
-EmulatorAVD
-self
 )
 .
 args
@@ -1698,8 +1688,6 @@ avd_home
         
 super
 (
-EmulatorAVD
-self
 )
 .
 start

@@ -142,8 +142,6 @@ cache
         
 super
 (
-JSSymbolPtr
-self
 )
 .
 __init__

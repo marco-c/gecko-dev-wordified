@@ -6556,8 +6556,6 @@ _tooltool_do_extract
 (
 super
 (
-TarFile
-self
 )
 .
 extract
@@ -6605,8 +6603,6 @@ _tooltool_do_extract
 (
 super
 (
-TarFile
-self
 )
 .
 _extract_one
@@ -6646,8 +6642,6 @@ set
         
 super
 (
-TarFile
-self
 )
 .
 extractall

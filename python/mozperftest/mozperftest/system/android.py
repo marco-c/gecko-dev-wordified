@@ -462,8 +462,6 @@ logger
         
 super
 (
-ADBLoggedDevice
-self
 )
 .
 __init__
@@ -913,8 +911,6 @@ mach_cmd
         
 super
 (
-AndroidDevice
-self
 )
 .
 __init__

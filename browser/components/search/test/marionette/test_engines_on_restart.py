@@ -77,8 +77,6 @@ self
         
 super
 (
-TestEnginesOnRestart
-self
 )
 .
 setUp

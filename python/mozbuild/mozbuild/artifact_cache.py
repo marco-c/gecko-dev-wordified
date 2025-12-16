@@ -601,8 +601,6 @@ None
         
 super
 (
-ArtifactPersistLimit
-self
 )
 .
 __init__
@@ -807,8 +805,6 @@ path
         
 super
 (
-ArtifactPersistLimit
-self
 )
 .
 register_file
@@ -837,8 +833,6 @@ True
         
 super
 (
-ArtifactPersistLimit
-self
 )
 .
 register_dir_content

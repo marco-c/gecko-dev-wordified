@@ -101,8 +101,6 @@ self
         
 super
 (
-ServiceWorkersDisabledTestCase
-self
 )
 .
 setUp
@@ -145,8 +143,6 @@ True
         
 super
 (
-ServiceWorkersDisabledTestCase
-self
 )
 .
 tearDown

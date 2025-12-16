@@ -1057,16 +1057,12 @@ compiler_args
 =
 super
 (
-ClangdBackend
-self
 )
 .
 _get_compiler_args
 (
-            
 cenv
 canonical_suffix
-        
 )
         
 if

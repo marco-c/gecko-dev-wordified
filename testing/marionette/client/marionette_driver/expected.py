@@ -488,8 +488,6 @@ args
         
 super
 (
-element_not_present
-self
 )
 .
 __init__
@@ -510,8 +508,6 @@ return
 not
 super
 (
-element_not_present
-self
 )
 .
 __call__
@@ -1095,8 +1091,6 @@ args
         
 super
 (
-elements_not_present
-self
 )
 .
 __init__
@@ -1117,8 +1111,6 @@ return
 not
 super
 (
-elements_not_present
-self
 )
 .
 __call__
@@ -1673,8 +1665,6 @@ args
         
 super
 (
-element_not_displayed
-self
 )
 .
 __init__
@@ -1695,8 +1685,6 @@ return
 not
 super
 (
-element_not_displayed
-self
 )
 .
 __call__
@@ -1839,8 +1827,6 @@ element
         
 super
 (
-element_not_selected
-self
 )
 .
 __init__
@@ -1860,8 +1846,6 @@ return
 not
 super
 (
-element_not_selected
-self
 )
 .
 __call__
@@ -2002,8 +1986,6 @@ element
         
 super
 (
-element_not_enabled
-self
 )
 .
 __init__
@@ -2023,8 +2005,6 @@ return
 not
 super
 (
-element_not_enabled
-self
 )
 .
 __call__

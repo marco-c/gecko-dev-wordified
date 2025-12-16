@@ -1951,8 +1951,6 @@ self
         
 super
 (
-gtestOptions
-self
 )
 .
 __init__

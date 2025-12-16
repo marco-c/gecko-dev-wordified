@@ -355,8 +355,6 @@ unknown
 return
 super
 (
-OptionValue
-cls
 )
 .
 __new__
@@ -817,8 +815,6 @@ else
 return
 super
 (
-OptionValue
-self
 )
 .
 __eq__
@@ -866,8 +862,6 @@ __class__
 __name__
 super
 (
-OptionValue
-self
 )
 .
 __repr__
@@ -1124,8 +1118,6 @@ unknown
 return
 super
 (
-NegativeOptionValue
-cls
 )
 .
 __new__
@@ -1150,8 +1142,6 @@ unknown
         
 super
 (
-NegativeOptionValue
-self
 )
 .
 __init__
@@ -1203,8 +1193,6 @@ format_data
         
 super
 (
-ConflictingOptionError
-self
 )
 .
 __init__

@@ -122,8 +122,6 @@ self
         
 super
 (
-PurgeExtensionServiceWorkersOnPrefDisabled
-self
 )
 .
 setUp
@@ -214,8 +212,6 @@ True
         
 super
 (
-PurgeExtensionServiceWorkersOnPrefDisabled
-self
 )
 .
 tearDown

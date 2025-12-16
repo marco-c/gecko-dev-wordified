@@ -269,8 +269,6 @@ self
         
 super
 (
-CachesDeleteCleanupAtShutdownTestCase
-self
 )
 .
 setUp
@@ -324,8 +322,6 @@ True
         
 super
 (
-CachesDeleteCleanupAtShutdownTestCase
-self
 )
 .
 tearDown

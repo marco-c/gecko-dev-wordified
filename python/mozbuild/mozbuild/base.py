@@ -2136,19 +2136,15 @@ args
 return
 super
 (
-ReducedConfigureSandbox
-self
 )
 .
 depends_impl
 (
-                    
 *
 args
 *
 *
 kwargs
-                
 )
         
 #

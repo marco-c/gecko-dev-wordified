@@ -3891,8 +3891,6 @@ kwargs
                 
 super
 (
-CountApplyImportsSandbox
-self
 )
 .
 _apply_imports

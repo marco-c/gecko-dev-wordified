@@ -1269,8 +1269,6 @@ _
 return
 super
 (
-DependsFunction
-self
 )
 .
 __getattr__
@@ -1446,8 +1444,6 @@ d
         
 super
 (
-CombinedDependsFunction
-self
 )
 .
 __init__
@@ -3728,8 +3724,6 @@ func
 return
 super
 (
-ConfigureSandbox
-self
 )
 .
 __getitem__
@@ -3900,8 +3894,6 @@ key
 return
 super
 (
-ConfigureSandbox
-self
 )
 .
 __setitem__

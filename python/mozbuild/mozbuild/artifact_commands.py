@@ -2114,8 +2114,6 @@ kwargs
             
 super
 (
-DownloadRecord
-self
 )
 .
 __init__
@@ -2194,8 +2192,6 @@ True
 return
 super
 (
-DownloadRecord
-self
 )
 .
 validate
@@ -2380,13 +2376,10 @@ public
             
 super
 (
-ArtifactRecord
-self
 )
 .
 __init__
 (
-                
 artifact_url
 name
 None
@@ -2395,7 +2388,6 @@ algorithm
 unpack
 =
 True
-            
 )
     
 records

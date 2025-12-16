@@ -153,8 +153,6 @@ msg
         
 super
 (
-IniParseError
-self
 )
 .
 __init__

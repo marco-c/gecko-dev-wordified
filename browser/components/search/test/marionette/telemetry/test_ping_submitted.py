@@ -79,8 +79,6 @@ self
         
 super
 (
-TestPingSubmitted
-self
 )
 .
 setUp

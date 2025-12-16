@@ -913,13 +913,10 @@ True
         
 super
 (
-TestedSandbox
-self
 )
 .
 exec_file
 (
-            
 self
 .
 normalize_path
@@ -927,7 +924,6 @@ normalize_path
 path
 )
 becomes_current_path
-        
 )
     
 def
@@ -947,8 +943,6 @@ True
         
 super
 (
-TestedSandbox
-self
 )
 .
 exec_source

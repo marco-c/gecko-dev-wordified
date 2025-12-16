@@ -3868,8 +3868,6 @@ __init__
         
 super
 (
-A11yBlocklistEntry
-self
 )
 .
 __init__
@@ -3991,8 +3989,6 @@ __init__
         
 super
 (
-RedirectToNoOpEntryPoint
-self
 )
 .
 __init__
@@ -4016,8 +4012,6 @@ flags
 =
 super
 (
-RedirectToNoOpEntryPoint
-self
 )
 .
 get_flags_list
@@ -4285,8 +4279,6 @@ output
         
 super
 (
-LspBlocklistEntry
-self
 )
 .
 __init__
@@ -4471,8 +4463,6 @@ flags
 =
 super
 (
-LspBlocklistEntry
-self
 )
 .
 get_flags_list
@@ -4674,8 +4664,6 @@ LSP_MODE_GUID
             
 super
 (
-LspBlocklistEntry
-self
 )
 .
 write

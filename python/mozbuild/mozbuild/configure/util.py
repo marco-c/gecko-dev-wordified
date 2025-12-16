@@ -571,8 +571,6 @@ maxlen
         
 super
 (
-ConfigureOutputHandler
-self
 )
 .
 __init__

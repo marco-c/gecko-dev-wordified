@@ -194,8 +194,6 @@ group
         
 super
 (
-GittoolParser
-self
 )
 .
 parse_single_line
@@ -231,8 +229,6 @@ None
         
 super
 (
-GittoolVCS
-self
 )
 .
 __init__

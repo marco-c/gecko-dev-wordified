@@ -142,8 +142,6 @@ kwargs
         
 super
 (
-SummaryHandler
-self
 )
 .
 __init__

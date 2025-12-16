@@ -138,8 +138,6 @@ self
         
 super
 (
-TestSessionRestoreWithPinnedTabs
-self
 )
 .
 setUp

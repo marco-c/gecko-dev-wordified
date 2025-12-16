@@ -109,8 +109,6 @@ self
         
 super
 (
-TestRestoreLoadingPage
-self
 )
 .
 setUp

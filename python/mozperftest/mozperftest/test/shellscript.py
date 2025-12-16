@@ -456,8 +456,6 @@ mach_cmd
         
 super
 (
-ShellScriptRunner
-self
 )
 .
 __init__

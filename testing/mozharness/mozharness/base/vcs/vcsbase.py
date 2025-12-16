@@ -898,8 +898,6 @@ kwargs
         
 super
 (
-VCSScript
-self
 )
 .
 __init__

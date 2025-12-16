@@ -113,8 +113,6 @@ kwargs
         
 super
 (
-BrowsertimeDesktop
-self
 )
 .
 __init__

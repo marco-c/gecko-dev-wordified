@@ -110,8 +110,6 @@ unified
 =
 super
 (
-UnifiedTestFinder
-self
 )
 .
 unify_file

@@ -480,8 +480,6 @@ os
         
 super
 (
-CodeCoverageMixin
-self
 )
 .
 __init__

@@ -583,8 +583,6 @@ True
         
 super
 (
-BouncerCheck
-self
 )
 .
 __init__
@@ -688,8 +686,6 @@ rw_config
         
 super
 (
-BouncerCheck
-self
 )
 .
 _pre_config_lock

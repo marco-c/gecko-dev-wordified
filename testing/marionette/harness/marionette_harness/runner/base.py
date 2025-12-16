@@ -917,8 +917,6 @@ ERROR
         
 super
 (
-MarionetteTestResult
-self
 )
 .
 addError
@@ -965,8 +963,6 @@ FAIL
         
 super
 (
-MarionetteTestResult
-self
 )
 .
 addFailure
@@ -1004,8 +1000,6 @@ PASS
         
 super
 (
-MarionetteTestResult
-self
 )
 .
 addSuccess
@@ -1065,8 +1059,6 @@ FAIL
         
 super
 (
-MarionetteTestResult
-self
 )
 .
 addExpectedFailure
@@ -1117,8 +1109,6 @@ PASS
         
 super
 (
-MarionetteTestResult
-self
 )
 .
 addUnexpectedSuccess
@@ -1152,8 +1142,6 @@ SKIPPED
         
 super
 (
-MarionetteTestResult
-self
 )
 .
 addSkip
@@ -1601,8 +1589,6 @@ result
 =
 super
 (
-MarionetteTextTestRunner
-self
 )
 .
 run

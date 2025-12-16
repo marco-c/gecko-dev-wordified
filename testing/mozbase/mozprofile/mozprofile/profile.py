@@ -1269,8 +1269,6 @@ sandbox
         
 super
 (
-Profile
-self
 )
 .
 __init__
@@ -1827,8 +1825,6 @@ clean
         
 super
 (
-Profile
-self
 )
 .
 cleanup
@@ -3495,8 +3491,6 @@ kwargs
         
 super
 (
-ChromiumProfile
-self
 )
 .
 __init__

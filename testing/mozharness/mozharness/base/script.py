@@ -16159,8 +16159,6 @@ _return_code
         
 super
 (
-BaseScript
-self
 )
 .
 __init__

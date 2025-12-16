@@ -5847,8 +5847,6 @@ kwargs
         
 super
 (
-TestManifestLoader
-self
 )
 .
 __init__
@@ -6406,8 +6404,6 @@ BuildBackendLoader
         
 super
 (
-TestResolver
-self
 )
 .
 __init__

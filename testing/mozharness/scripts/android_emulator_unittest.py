@@ -1235,8 +1235,6 @@ False
         
 super
 (
-AndroidEmulatorTest
-self
 )
 .
 __init__
@@ -1638,8 +1636,6 @@ abs_dirs
 =
 super
 (
-AndroidEmulatorTest
-self
 )
 .
 query_abs_dirs
@@ -3891,13 +3887,10 @@ utils
         
 super
 (
-AndroidEmulatorTest
-self
 )
 .
 download_and_extract
 (
-            
 suite_categories
 =
 self
@@ -3905,7 +3898,6 @@ self
 _query_suite_categories
 (
 )
-        
 )
         
 dirs

@@ -667,8 +667,6 @@ dirs
 =
 super
 (
-OpenH264Build
-self
 )
 .
 query_abs_dirs

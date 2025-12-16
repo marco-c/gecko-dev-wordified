@@ -2958,8 +2958,6 @@ wrapper
         
 super
 (
-CompilerResult
-self
 )
 .
 __init__

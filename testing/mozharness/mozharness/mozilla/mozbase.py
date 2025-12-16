@@ -101,8 +101,6 @@ kwargs
         
 super
 (
-MozbaseMixin
-self
 )
 .
 __init__

@@ -3780,8 +3780,6 @@ kwargs
         
 super
 (
-JunitArgumentParser
-self
 )
 .
 __init__

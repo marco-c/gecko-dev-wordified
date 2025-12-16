@@ -2670,8 +2670,6 @@ kwargs
         
 super
 (
-PuppeteerRunner
-self
 )
 .
 __init__

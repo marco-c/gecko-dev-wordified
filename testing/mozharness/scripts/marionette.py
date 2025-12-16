@@ -1119,8 +1119,6 @@ False
         
 super
 (
-MarionetteTest
-self
 )
 .
 __init__
@@ -1411,8 +1409,6 @@ rw_config
         
 super
 (
-MarionetteTest
-self
 )
 .
 _pre_config_lock
@@ -1562,8 +1558,6 @@ abs_dirs
 =
 super
 (
-MarionetteTest
-self
 )
 .
 query_abs_dirs
@@ -1988,8 +1982,6 @@ self
         
 super
 (
-MarionetteTest
-self
 )
 .
 download_and_extract
@@ -2122,8 +2114,6 @@ else
             
 super
 (
-MarionetteTest
-self
 )
 .
 install

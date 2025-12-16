@@ -1364,8 +1364,6 @@ kwargs
         
 super
 (
-FennecRunner
-self
 )
 .
 __init__
