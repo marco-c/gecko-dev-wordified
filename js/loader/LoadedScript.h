@@ -2060,7 +2060,7 @@ const
 return
 !
 !
-mCacheEntry
+mCacheInfo
 ;
 }
 /
@@ -2079,7 +2079,7 @@ DropDiskCacheReference
 (
 )
 {
-mCacheEntry
+mCacheInfo
 =
 nullptr
 ;
@@ -2930,9 +2930,9 @@ once
 .
 nsCOMPtr
 <
-nsICacheEntryWriteHandle
+nsICacheInfoChannel
 >
-mCacheEntry
+mCacheInfo
 ;
 }
 ;
