@@ -8085,9 +8085,8 @@ CaretAssociationHint
 :
 After
 ;
-nsIFrame
-*
-frame
+FrameAndOffset
+frameAndOffset
 =
 SelectionMovementUtils
 :
@@ -8106,7 +8105,7 @@ hint
 ;
 if
 (
-frame
+frameAndOffset
 )
 {
 auto
@@ -8115,7 +8114,7 @@ startOffset
 endOffset
 ]
 =
-frame
+frameAndOffset
 -
 >
 GetOffsets
@@ -8157,7 +8156,7 @@ NS_OK
 if
 (
 !
-frame
+frameAndOffset
 -
 >
 IsTextFrame
@@ -8179,7 +8178,9 @@ nsTextFrame
 *
 >
 (
-frame
+frameAndOffset
+.
+mFrame
 )
 ;
 int32_t

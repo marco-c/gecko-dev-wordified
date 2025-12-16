@@ -64009,6 +64009,7 @@ nsLayoutUtils
 :
 IsInvisibleBreak
 (
+const
 nsINode
 *
 aNode

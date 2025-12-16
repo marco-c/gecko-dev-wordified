@@ -575,8 +575,6 @@ After
 }
 return
 frameData
-.
-mFrame
 ?
 frameData
 .
