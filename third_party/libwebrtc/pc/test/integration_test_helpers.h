@@ -10404,6 +10404,9 @@ make_unique
 TestTurnServer
 >
 (
+CreateTestEnvironment
+(
+)
 thread
 socket_factory
 internal_address
