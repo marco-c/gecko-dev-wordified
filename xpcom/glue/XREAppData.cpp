@@ -237,12 +237,6 @@ aOther
 .
 updateURL
 ;
-sourceStamp
-=
-aOther
-.
-sourceStamp
-;
 return
 *
 this
