@@ -270,6 +270,17 @@ absl
 :
 string_view
 session_version
+std
+:
+:
+vector
+<
+IceCandidateCollection
+>
+candidates
+=
+{
+}
 )
 ;
 ~
