@@ -18108,8 +18108,6 @@ null
 }
 this
 .
-tabContainer
-.
 dispatchEvent
 (
 new
@@ -18135,8 +18133,8 @@ splitview
 *
 *
 Removes
-all
-tabs
+a
+tab
 from
 a
 split
@@ -18441,7 +18439,6 @@ linkedPanel
 if
 (
 panelEl
-?
 .
 querySelector
 (
@@ -18458,11 +18455,6 @@ footer
 return
 ;
 }
-if
-(
-panelEl
-)
-{
 const
 footer
 =
@@ -18493,7 +18485,6 @@ appendChild
 footer
 )
 ;
-}
 }
 openSplitViewMenu
 (
@@ -59431,11 +59422,7 @@ gBrowser
 .
 addTrustedTab
 (
-"
-about
-:
-opentabs
-"
+BROWSER_NEW_TAB_URL
 )
 ;
 tabsToAdd
