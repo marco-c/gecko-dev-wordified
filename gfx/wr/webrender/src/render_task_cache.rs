@@ -170,6 +170,15 @@ use
 crate
 :
 :
+quad
+:
+:
+QuadCacheKey
+;
+use
+crate
+:
+:
 resource_cache
 :
 :
@@ -438,6 +447,10 @@ ConicGradientCacheKey
 Snapshot
 (
 SnapshotImageKey
+)
+Quad
+(
+QuadCacheKey
 )
 }
 #
