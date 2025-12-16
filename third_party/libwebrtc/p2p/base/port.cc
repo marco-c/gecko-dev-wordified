@@ -842,6 +842,12 @@ max_port_
 (
 max_port
 )
+content_name_
+(
+args
+.
+content_name
+)
 component_
 (
 ICE_CANDIDATE_COMPONENT_DEFAULT
