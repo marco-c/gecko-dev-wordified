@@ -315,6 +315,10 @@ import
 parse_qs
 urlparse
 from
+uuid
+import
+uuid4
+from
 pywebsocket3
 import
 msgutil
@@ -629,6 +633,32 @@ post_body
 0
 else
 None
+                    
+#
+without
+a
+version
+string
+the
+push
+client
+thinks
+it
+'
+s
+a
+duplicate
+                    
+"
+version
+"
+:
+str
+(
+uuid4
+(
+)
+)
                 
 }
             
