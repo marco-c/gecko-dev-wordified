@@ -113,10 +113,6 @@ contextlib
 import
 contextmanager
 import
-requests
-import
-toml
-import
 zstandard
 def
 log
@@ -182,6 +178,9 @@ file
 "
 "
 "
+    
+import
+requests
     
 filename
 =
@@ -2108,6 +2107,12 @@ targets
 )
 :
     
+import
+requests
+    
+import
+toml
+    
 if
 channel
 .
@@ -3778,6 +3783,10 @@ channel
             
 )
         
+setup_gpg
+(
+)
+        
 log
 (
 "
@@ -5218,10 +5227,6 @@ vars
 args
 (
 )
-)
-    
-setup_gpg
-(
 )
     
 repack
