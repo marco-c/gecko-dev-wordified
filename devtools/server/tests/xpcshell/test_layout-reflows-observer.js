@@ -281,8 +281,10 @@ false
 ;
 }
 }
-function
+class
 MockWindow
+{
+constructor
 (
 docShell
 )
@@ -294,11 +296,6 @@ docShell
 docShell
 ;
 }
-MockWindow
-.
-prototype
-=
-{
 QueryInterface
 (
 )
@@ -372,9 +369,10 @@ clearTimeout
 {
 }
 }
-;
-function
+class
 MockDocShell
+{
+constructor
 (
 )
 {
@@ -385,11 +383,6 @@ observer
 null
 ;
 }
-MockDocShell
-.
-prototype
-=
-{
 addWeakReflowObserver
 (
 observer
@@ -502,7 +495,6 @@ resizeCb
 }
 }
 }
-;
 function
 run_test
 (
