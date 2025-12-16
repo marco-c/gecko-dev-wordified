@@ -214,12 +214,6 @@ use
 crate
 :
 :
-picture
-;
-use
-crate
-:
-:
 profiler
 :
 :
@@ -4364,7 +4358,10 @@ picture_tile_size
 .
 unwrap_or
 (
-picture
+crate
+:
+:
+tile_cache
 :
 :
 TILE_SIZE_DEFAULT
