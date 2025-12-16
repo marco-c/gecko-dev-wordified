@@ -2172,7 +2172,7 @@ configs
 ]
     
 for
-path
+ancestor_path
 in
 ancestors
 (
@@ -2188,7 +2188,7 @@ path
 .
 join
 (
-path
+ancestor_path
 name
 )
         
@@ -2211,7 +2211,7 @@ config
 )
         
 if
-path
+ancestor_path
 =
 =
 root

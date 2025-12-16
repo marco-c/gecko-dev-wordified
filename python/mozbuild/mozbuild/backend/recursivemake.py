@@ -12746,8 +12746,8 @@ path
 )
         
 for
-path
-files
+subpath
+subfiles
 in
 files
 .
@@ -12764,10 +12764,10 @@ mozpath
 join
 (
 target
-path
+subpath
 )
 if
-path
+subpath
 else
 target
 )
@@ -12852,7 +12852,7 @@ absolute_files
 for
 f
 in
-files
+subfiles
 :
                 
 assert
@@ -12870,7 +12870,7 @@ mozpath
 join
 (
 reltarget
-path
+subpath
 )
                 
 dest_file
@@ -13133,7 +13133,7 @@ mozpath
 join
 (
 target
-path
+subpath
 )
             
 if
@@ -13431,8 +13431,8 @@ objdir
 for
 i
 (
-path
-files
+walk_path
+walk_files
 )
 in
 enumerate
@@ -13478,7 +13478,7 @@ i
 for
 f
 in
-files
+walk_files
 :
                 
 backend_file
@@ -13540,7 +13540,7 @@ join
 obj
 .
 install_target
-path
+walk_path
 )
 )
             
@@ -13846,8 +13846,8 @@ target
 for
 i
 (
-path
-files
+walk_path
+walk_files
 )
 in
 enumerate
@@ -13890,7 +13890,7 @@ self
 .
 _write_localized_files_files
 (
-files
+walk_files
 name
 +
 "
@@ -13937,7 +13937,7 @@ n
 %
 (
 name
-path
+walk_path
 )
 )
             
@@ -14030,7 +14030,7 @@ for
 i
 (
 path
-files
+file_list
 )
 in
 enumerate
@@ -14073,7 +14073,7 @@ self
 .
 _write_localized_files_files
 (
-files
+file_list
 name
 backend_file
 )
@@ -14258,7 +14258,7 @@ for
 i
 (
 path
-files
+file_list
 )
 in
 enumerate
@@ -14290,7 +14290,7 @@ relobjdir
 for
 f
 in
-files
+file_list
 :
                 
 backend_file

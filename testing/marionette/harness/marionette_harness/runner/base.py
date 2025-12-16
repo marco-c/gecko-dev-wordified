@@ -7923,13 +7923,13 @@ target_tests
 ]
             
 for
-test
+manifest_test
 in
 manifest_tests
 :
                 
 if
-test
+manifest_test
 .
 get
 (
@@ -7945,7 +7945,7 @@ manifest_skipped_tests
 .
 append
 (
-test
+manifest_test
 )
                 
 else
@@ -7955,7 +7955,7 @@ target_tests
 .
 append
 (
-test
+manifest_test
 )
             
 for

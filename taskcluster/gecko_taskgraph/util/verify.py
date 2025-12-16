@@ -1735,7 +1735,7 @@ return
 tier
         
 for
-task
+current_task
 in
 taskgraph
 .
@@ -1750,7 +1750,7 @@ tier
 =
 tiers
 [
-task
+current_task
 .
 label
 ]
@@ -1758,7 +1758,7 @@ label
 for
 d
 in
-task
+current_task
 .
 dependencies
 .
@@ -1823,7 +1823,7 @@ Exception
 f
 "
 {
-task
+current_task
 .
 label
 }
@@ -2003,7 +2003,7 @@ signoffs
 "
         
 for
-task
+current_task
 in
 taskgraph
 .
@@ -2018,7 +2018,7 @@ required_signoffs
 =
 all_required_signoffs
 [
-task
+current_task
 .
 label
 ]
@@ -2026,7 +2026,7 @@ label
 for
 d
 in
-task
+current_task
 .
 dependencies
 .
@@ -2051,7 +2051,7 @@ Exception
 f
 "
 {
-task
+current_task
 .
 label
 }
@@ -3074,7 +3074,7 @@ exceptions
 ]
         
 for
-task
+current_task
 in
 taskgraph
 .
@@ -3086,7 +3086,7 @@ values
 :
             
 if
-task
+current_task
 .
 kind
 =
@@ -3096,7 +3096,7 @@ build
 "
 and
 not
-task
+current_task
 .
 attributes
 .
@@ -3118,7 +3118,7 @@ packaging
                 
 build_env
 =
-task
+current_task
 .
 task
 .
@@ -3153,7 +3153,7 @@ MOZ_AUTOMATION_PACKAGE_TESTS
                 
 shippable
 =
-task
+current_task
 .
 attributes
 .
@@ -3171,7 +3171,7 @@ scratch_pad
 .
 get
 (
-task
+current_task
 .
 label
 )
@@ -3208,7 +3208,7 @@ f
 Build
 job
 {
-task
+current_task
 .
 label
 }
@@ -3273,7 +3273,7 @@ f
 Build
 job
 {
-task
+current_task
 .
 label
 }
@@ -3389,7 +3389,7 @@ f
 Build
 job
 {
-task
+current_task
 .
 label
 }

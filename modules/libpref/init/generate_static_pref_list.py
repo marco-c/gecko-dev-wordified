@@ -3437,10 +3437,10 @@ h
 )
 )
 as
-fd
+output_file
 :
         
-fd
+output_file
 .
 write
 (
@@ -3497,10 +3497,10 @@ filename
 )
 )
 as
-fd
+group_file
 :
             
-fd
+group_file
 .
 write
 (
@@ -3552,10 +3552,10 @@ filename
 )
 )
 as
-fd
+prefs_file
 :
             
-fd
+prefs_file
 .
 write
 (
@@ -3565,6 +3565,7 @@ text
 with
 FileAvoidWrite
 (
+        
 os
 .
 path
@@ -3578,12 +3579,13 @@ StaticPrefsCGetters
 cpp
 "
 )
+    
 )
 as
-fd
+cpp_file
 :
         
-fd
+cpp_file
 .
 write
 (
@@ -3613,10 +3615,10 @@ rs
 )
 )
 as
-fd
+rust_file
 :
         
-fd
+rust_file
 .
 write
 (

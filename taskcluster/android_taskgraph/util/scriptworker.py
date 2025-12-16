@@ -417,7 +417,7 @@ job
 )
     
 for
-locale
+current_locale
 dep
 in
 itertools
@@ -469,12 +469,15 @@ from
 continue
             
 if
-locale
+(
+                
+current_locale
 !
 =
 "
 multi
 "
+                
 and
 not
 map_config
@@ -491,6 +494,8 @@ filename
 all_locales
 "
 ]
+            
+)
 :
                 
 continue
@@ -644,7 +649,7 @@ modifier
                 
 locale
 =
-locale
+current_locale
             
 )
             
@@ -655,7 +660,7 @@ locale
 "
 ]
 =
-locale
+current_locale
             
 paths
 .
@@ -818,7 +823,7 @@ paths
 locale
 "
 :
-locale
+current_locale
             
 }
         

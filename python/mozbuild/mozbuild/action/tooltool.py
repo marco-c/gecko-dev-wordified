@@ -6498,15 +6498,17 @@ None
 for
 tarinfo
 linkpath
-numeric_owner
+deferred_numeric_owner
 in
 deferred_links
 .
 pop
 (
+                
 targetpath
 [
 ]
+            
 )
 :
                 
@@ -6524,7 +6526,7 @@ chown
 (
 tarinfo
 linkpath
-numeric_owner
+deferred_numeric_owner
 )
             
 self

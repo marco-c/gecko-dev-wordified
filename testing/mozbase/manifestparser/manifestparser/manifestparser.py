@@ -5150,7 +5150,7 @@ filename
 :
                 
 for
-pattern
+search_pattern
 in
 patterns
 :
@@ -5161,7 +5161,7 @@ fnmatch
 fnmatch
 (
 filename
-pattern
+search_pattern
 )
 :
                         

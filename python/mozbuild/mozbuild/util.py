@@ -7733,7 +7733,7 @@ result
 "
     
 for
-s
+text_part
 name
 in
 pair
@@ -7750,7 +7750,7 @@ s
 result
 +
 =
-s
+text_part
         
 value
 =

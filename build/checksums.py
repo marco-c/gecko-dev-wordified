@@ -586,7 +586,7 @@ dirs
             
 for
 root
-dirs
+_
 files
 in
 os

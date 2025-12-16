@@ -1407,7 +1407,7 @@ sort
         
 for
 percent
-value
+progress_value
 in
 percents
 [
@@ -1430,7 +1430,7 @@ name
 percent
 }
 "
-value
+progress_value
 *
 *
 fields

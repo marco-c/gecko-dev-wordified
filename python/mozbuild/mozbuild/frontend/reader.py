@@ -11077,7 +11077,7 @@ result
         
 for
 path
-paths
+mozbuild_paths
 in
 path_mozbuilds
 .
@@ -11111,7 +11111,7 @@ p
 for
 p
 in
-paths
+mozbuild_paths
 )
 [
 ]

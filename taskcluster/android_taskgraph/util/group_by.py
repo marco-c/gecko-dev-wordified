@@ -218,7 +218,7 @@ for
 _
 build_type
 )
-tasks
+group_tasks
 in
 groups
 .
@@ -227,7 +227,7 @@ items
 )
 :
         
-tasks
+group_tasks
 .
 extend
 (
