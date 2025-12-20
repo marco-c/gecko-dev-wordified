@@ -23728,7 +23728,7 @@ imageProxy
 .
 enabled
 "
-true
+false
 )
 ;
 /
