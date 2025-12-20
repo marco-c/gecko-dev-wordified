@@ -1099,6 +1099,10 @@ UnbindFromTree
 nsINode
 *
 aNewParent
+const
+BatchRemovalState
+*
+aBatchState
 )
 {
 UnbindContext
@@ -1106,6 +1110,7 @@ context
 (
 *
 this
+aBatchState
 )
 ;
 context
