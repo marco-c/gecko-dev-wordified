@@ -1530,7 +1530,13 @@ nop
 return
 writeInst
 (
+static_cast
+<
+uint32_t
+>
+(
 op_special
+)
 |
 ff_sll
 )

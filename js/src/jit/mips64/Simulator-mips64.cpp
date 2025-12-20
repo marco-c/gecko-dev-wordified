@@ -3120,7 +3120,13 @@ const
 Instr
 kBreakpointInstr
 =
+static_cast
+<
+uint32_t
+>
+(
 op_special
+)
 |
 ff_break
 |
@@ -3134,7 +3140,13 @@ const
 Instr
 kNopInstr
 =
+static_cast
+<
+uint32_t
+>
+(
 op_special
+)
 |
 ff_sll
 ;
