@@ -4483,6 +4483,12 @@ time
     
 run_task
 =
+os
+.
+path
+.
+basename
+(
 payload
 .
 get
@@ -4498,8 +4504,9 @@ command
 [
 0
 ]
+)
 .
-endswith
+startswith
 (
 "
 run

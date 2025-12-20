@@ -56,6 +56,8 @@ MPL
 import
 logging
 import
+os
+import
 re
 import
 sys
@@ -2190,9 +2192,16 @@ else
     
 run_task
 =
-main_command
+os
 .
-endswith
+path
+.
+basename
+(
+main_command
+)
+.
+startswith
 (
 "
 run
