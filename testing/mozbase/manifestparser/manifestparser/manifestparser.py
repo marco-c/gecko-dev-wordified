@@ -6418,6 +6418,11 @@ apply
 to
 the
 tests
+.
+Applied
+before
+any
+others
         
 :
 returns
@@ -6500,12 +6505,39 @@ get
 modified
         
 if
-noDefaultFilters
+filters
 :
+            
+#
+Insert
+them
+before
+any
+other
+tests
+experimental
+setup
+shows
+they
+            
+#
+filter
+more
+stuff
+in
+the
+default
+full
+&
+costly
+setup
+.
             
 fltrs
 =
+filters
 [
+:
 ]
         
 else
@@ -6513,12 +6545,22 @@ else
             
 fltrs
 =
+[
+]
+        
+if
+not
+noDefaultFilters
+:
+            
+fltrs
+.
+extend
+(
 self
 .
 filters
-[
-:
-]
+)
         
 if
 exists
@@ -6559,23 +6601,11 @@ append
 enabled
 )
         
-if
-filters
-:
-            
-fltrs
-+
-=
-filters
-        
 self
 .
 last_used_filters
 =
 fltrs
-[
-:
-]
         
 for
 fn
