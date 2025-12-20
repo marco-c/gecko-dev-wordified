@@ -1162,12 +1162,7 @@ WindowResized
 this
 mBounds
 .
-Width
-(
-)
-mBounds
-.
-Height
+Size
 (
 )
 )
@@ -1181,12 +1176,7 @@ WindowResized
 this
 mBounds
 .
-Width
-(
-)
-mBounds
-.
-Height
+Size
 (
 )
 )

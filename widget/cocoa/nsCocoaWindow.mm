@@ -40334,10 +40334,9 @@ WindowResized
 this
 innerBounds
 .
-width
-innerBounds
-.
-height
+Size
+(
+)
 )
 ;
 }
@@ -40354,10 +40353,9 @@ WindowResized
 this
 innerBounds
 .
-width
-innerBounds
-.
-height
+Size
+(
+)
 )
 ;
 }

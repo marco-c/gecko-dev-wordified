@@ -1725,10 +1725,7 @@ const
 mozilla
 :
 :
-gfx
-:
-:
-IntSize
+LayoutDeviceIntSize
 &
 aSize
 )
