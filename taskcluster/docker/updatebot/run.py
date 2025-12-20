@@ -401,12 +401,26 @@ secrets_url
 =
 (
             
+os
+.
+environ
+.
+get
+(
+"
+TASKCLUSTER_PROXY_URL
+"
 "
 http
 :
 /
 /
 taskcluster
+"
+)
+            
++
+"
 /
 secrets
 /
