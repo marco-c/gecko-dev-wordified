@@ -9121,10 +9121,12 @@ nextFallback
 ;
 if
 (
-!
 nextFallbackStyle
 )
 {
+break
+;
+}
 /
 /
 No
@@ -9166,9 +9168,6 @@ return
 false
 ;
 }
-}
-break
-;
 }
 currentFallbackIndex
 =
