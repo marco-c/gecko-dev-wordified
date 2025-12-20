@@ -10723,8 +10723,6 @@ wasm
 (
 )
 .
-promiseIntegration
-.
 traceRoots
 (
 trc

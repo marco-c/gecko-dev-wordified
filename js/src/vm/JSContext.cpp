@@ -9751,8 +9751,6 @@ wasm
 (
 )
 .
-promiseIntegration
-.
 trace
 (
 trc
