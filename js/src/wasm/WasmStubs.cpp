@@ -21773,7 +21773,7 @@ DebugStub
 switchToMainStack
 *
 /
-false
+true
 0
 0
 offsets
@@ -21997,7 +21997,7 @@ DebugStub
 switchToMainStack
 *
 /
-false
+true
 offsets
 )
 ;
