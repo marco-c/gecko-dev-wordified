@@ -594,6 +594,9 @@ JSTracer
 namespace
 js
 {
+class
+Compressor
+;
 struct
 DelazifyTask
 ;
@@ -3682,11 +3685,17 @@ CharT
 void
 workEncodingSpecific
 (
+Compressor
+&
+comp
 )
 ;
 void
 runTask
 (
+Compressor
+&
+comp
 )
 ;
 void
