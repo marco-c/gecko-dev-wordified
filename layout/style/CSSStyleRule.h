@@ -417,11 +417,8 @@ bool
 aRelevantLinkVisited
 )
 ;
-NotNull
-<
 DeclarationBlock
-*
->
+&
 GetDeclarationBlock
 (
 )
