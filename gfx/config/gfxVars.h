@@ -411,6 +411,13 @@ false
 \
 _
 (
+ShouldWarmUpWebRenderProgramBinaries
+bool
+false
+)
+\
+_
+(
 UseWebRenderOptimizedShaders
 bool
 false
