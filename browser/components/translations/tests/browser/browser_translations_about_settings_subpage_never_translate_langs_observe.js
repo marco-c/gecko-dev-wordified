@@ -907,7 +907,7 @@ TranslationsSettingsTestUtils
 .
 Events
 .
-AlwaysLanguagesRendered
+AlwaysTranslateLanguagesRendered
 ]
 ]
 }
@@ -1054,7 +1054,7 @@ TranslationsSettingsTestUtils
 .
 Events
 .
-AlwaysLanguagesRendered
+AlwaysTranslateLanguagesRendered
 ]
 [
 TranslationsSettingsTestUtils

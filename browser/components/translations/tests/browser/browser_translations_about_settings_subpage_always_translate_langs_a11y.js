@@ -288,6 +288,8 @@ translations
 -
 always
 -
+translate
+-
 remove
 -
 button
@@ -365,7 +367,7 @@ TranslationsSettingsTestUtils
 .
 Events
 .
-AlwaysLanguagesRendered
+AlwaysTranslateLanguagesRendered
 ]
 ]
 }
@@ -745,6 +747,8 @@ translations
 -
 always
 -
+translate
+-
 language
 -
 item
@@ -790,6 +794,8 @@ querySelectorAll
 translations
 -
 always
+-
+translate
 -
 remove
 -
