@@ -39724,7 +39724,7 @@ aChild
 0
 #
 ifdef
-XP_DARWIN
+XP_MACOSX
 /
 *
 aChildTask
