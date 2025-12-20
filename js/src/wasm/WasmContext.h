@@ -433,6 +433,16 @@ JSContext
 cx
 )
 ;
+SuspenderObject
+*
+findSuspenderForStackAddress
+(
+const
+void
+*
+stackAddress
+)
+;
 void
 trace
 (
