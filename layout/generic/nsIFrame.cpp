@@ -23060,7 +23060,7 @@ Combines3DTransformWithAncestors
 (
 )
 ;
-Maybe
+UniquePtr
 <
 nsDisplayListBuilder
 :
@@ -23094,8 +23094,14 @@ on
 nsDisplayListBuilder
 .
 autoPreserves3DContext
-.
-emplace
+=
+MakeUnique
+<
+nsDisplayListBuilder
+:
+:
+AutoPreserves3DContext
+>
 (
 aBuilder
 )
