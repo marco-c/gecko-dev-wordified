@@ -9174,6 +9174,8 @@ inline
 bool
 asmJS
 (
+TokenPos
+directivePos
 ListNodeType
 list
 )
@@ -9921,6 +9923,8 @@ tryAnnexB
 bool
 asmJS
 (
+TokenPos
+directivePos
 ListNodeType
 list
 )
@@ -10949,6 +10953,8 @@ YieldIsName
 bool
 asmJS
 (
+TokenPos
+directivePos
 ListNodeType
 list
 )
