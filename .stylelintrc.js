@@ -2689,6 +2689,17 @@ themes
 /
 shared
 /
+colorpicker
+.
+css
+"
+"
+toolkit
+/
+themes
+/
+shared
+/
 media
 /
 pipToggle
