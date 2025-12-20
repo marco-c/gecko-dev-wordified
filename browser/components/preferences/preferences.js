@@ -2122,7 +2122,10 @@ groupIds
 :
 [
 "
-moreTranslationSettings
+translationsAutomaticTranslation
+"
+"
+translationsDownloadLanguages
 "
 ]
 iconSrc
