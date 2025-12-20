@@ -728,6 +728,11 @@ ITEM_VALUE
 EfficientCanvasRandomization
 76
 )
+ITEM_VALUE
+(
+WebGLVendorSanitize
+77
+)
 /
 /
 !
