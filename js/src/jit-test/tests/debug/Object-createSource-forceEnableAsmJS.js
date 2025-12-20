@@ -5,10 +5,6 @@ jit
 -
 test
 |
--
--
-asmjs
-;
 skip
 -
 if
