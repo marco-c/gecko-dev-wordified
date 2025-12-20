@@ -288,6 +288,8 @@ translations
 -
 never
 -
+translate
+-
 remove
 -
 button
@@ -365,7 +367,7 @@ TranslationsSettingsTestUtils
 .
 Events
 .
-NeverLanguagesRendered
+NeverTranslateLanguagesRendered
 ]
 ]
 }
@@ -745,6 +747,8 @@ translations
 -
 never
 -
+translate
+-
 language
 -
 item
@@ -790,6 +794,8 @@ querySelectorAll
 translations
 -
 never
+-
+translate
 -
 remove
 -
