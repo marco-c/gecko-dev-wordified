@@ -1393,7 +1393,7 @@ of
 float
 constant
 to
-DB_SHFIT
+DB_SHIFT
 log
 gain
 value
@@ -3085,14 +3085,8 @@ b
 if
 defined
 (
-__mips_dsp
-)
-&
-&
 __mips
-=
-=
-32
+)
 #
 include
 "

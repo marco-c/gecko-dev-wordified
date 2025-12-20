@@ -3998,6 +3998,9 @@ CUSTOM_MODES
 #
 ifdef
 FIXED_POINT
+#
+ifndef
+OVERRIDE_fft_downshift
 static
 void
 fft_downshift
@@ -4161,6 +4164,13 @@ shift
 }
 }
 }
+#
+endif
+/
+*
+OVERRIDE_fft_downshift
+*
+/
 #
 else
 #

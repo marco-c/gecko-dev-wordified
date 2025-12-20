@@ -429,6 +429,7 @@ filters
 *
 /
 static
+const
 opus_int16
 A_fb1_20
 =
@@ -438,6 +439,7 @@ A_fb1_20
 1
 ;
 static
+const
 opus_int16
 A_fb1_21
 =

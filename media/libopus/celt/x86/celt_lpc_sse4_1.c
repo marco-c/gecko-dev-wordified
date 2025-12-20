@@ -497,6 +497,10 @@ _mm_loadu_si128
 __m128i
 *
 )
+(
+void
+*
+)
 sums
 )
 ;
@@ -545,6 +549,10 @@ _mm_storel_epi64
 (
 (
 __m128i
+*
+)
+(
+void
 *
 )
 (

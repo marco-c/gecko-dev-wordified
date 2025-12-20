@@ -297,7 +297,7 @@ CTL
 /
 #
 define
-__opus_check_encstate_ptr
+opus_check_encstate_ptr
 (
 ptr
 )
@@ -323,7 +323,7 @@ ptr
 )
 #
 define
-__opus_check_decstate_ptr
+opus_check_decstate_ptr
 (
 ptr
 )
@@ -639,11 +639,11 @@ x
 y
 )
 OPUS_MULTISTREAM_GET_ENCODER_STATE_REQUEST
-__opus_check_int
+opus_check_int
 (
 x
 )
-__opus_check_encstate_ptr
+opus_check_encstate_ptr
 (
 y
 )
@@ -772,11 +772,11 @@ x
 y
 )
 OPUS_MULTISTREAM_GET_DECODER_STATE_REQUEST
-__opus_check_int
+opus_check_int
 (
 x
 )
-__opus_check_decstate_ptr
+opus_check_decstate_ptr
 (
 y
 )

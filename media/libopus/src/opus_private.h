@@ -519,6 +519,9 @@ lfe_stream
 int
 application
 ;
+opus_int32
+Fs
+;
 int
 variable_duration
 ;
@@ -824,7 +827,7 @@ OPUS_SET_VOICE_RATIO
 x
 )
 OPUS_SET_VOICE_RATIO_REQUEST
-__opus_check_int
+opus_check_int
 (
 x
 )
@@ -880,7 +883,7 @@ OPUS_GET_VOICE_RATIO
 x
 )
 OPUS_GET_VOICE_RATIO_REQUEST
-__opus_check_int_ptr
+opus_check_int_ptr
 (
 x
 )
@@ -895,7 +898,7 @@ OPUS_SET_FORCE_MODE
 x
 )
 OPUS_SET_FORCE_MODE_REQUEST
-__opus_check_int
+opus_check_int
 (
 x
 )
@@ -1030,6 +1033,8 @@ data
 opus_int32
 frame_size_select
 (
+int
+application
 opus_int32
 frame_size
 int
