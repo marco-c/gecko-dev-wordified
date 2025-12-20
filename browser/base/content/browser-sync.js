@@ -14846,7 +14846,7 @@ FxAccounts
 .
 config
 .
-promiseConnectAccountURI
+promiseSetPasswordURI
 (
 entryPoint
 extraParams
