@@ -1,7 +1,7 @@
 /
 /
 Copyright
-2024
+2025
 Mathias
 Bynens
 .
@@ -67,7 +67,7 @@ escapes
 -
 tests
 Unicode
-v16
+v17
 .
 0
 .
@@ -169,6 +169,7 @@ loneCodePoints
 0x01091F
 0x01093F
 0x010A7F
+0x010ED0
 0x0111CD
 0x0111DB
 0x0112A9
@@ -1373,6 +1374,10 @@ ranges
 ]
 [
 0x010B9D
+0x010ECF
+]
+[
+0x010ED1
 0x010F54
 ]
 [
