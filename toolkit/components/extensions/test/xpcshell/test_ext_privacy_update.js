@@ -159,15 +159,6 @@ PREFS
 "
 network
 .
-predictor
-.
-enabled
-"
-:
-true
-"
-network
-.
 prefetch
 -
 next
