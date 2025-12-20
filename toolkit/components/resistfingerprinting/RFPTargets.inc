@@ -733,6 +733,11 @@ ITEM_VALUE
 WebGLVendorSanitize
 77
 )
+ITEM_VALUE
+(
+WebGLVendorConstant
+78
+)
 /
 /
 !
