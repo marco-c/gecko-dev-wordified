@@ -209,13 +209,13 @@ elif
 CONFIG
 [
 "
-OS_ARCH
+TARGET_OS
 "
 ]
 =
 =
 "
-Darwin
+OSX
 "
 :
 DIRS
