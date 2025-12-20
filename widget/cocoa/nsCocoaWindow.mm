@@ -40097,10 +40097,9 @@ NotifyWindowMoved
 (
 mBounds
 .
-x
-mBounds
-.
-y
+TopLeft
+(
+)
 )
 ;
 }
