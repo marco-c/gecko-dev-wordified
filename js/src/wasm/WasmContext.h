@@ -341,6 +341,9 @@ nullptr
 void
 enterSuspendableStack
 (
+JSContext
+*
+cx
 SuspenderObject
 *
 suspender
@@ -349,6 +352,9 @@ suspender
 void
 leaveSuspendableStack
 (
+JSContext
+*
+cx
 )
 ;
 void
