@@ -5131,6 +5131,14 @@ dom
 :
 CallerType
 aCallerType
+bool
+aIsMove
+mozilla
+:
+:
+ErrorResult
+&
+aError
 )
 ;
 /

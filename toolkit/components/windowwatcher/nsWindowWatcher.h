@@ -812,6 +812,8 @@ Modifiers
 &
 aModifiers
 bool
+aCalledFromJS
+bool
 *
 aIsPopupRequested
 )
