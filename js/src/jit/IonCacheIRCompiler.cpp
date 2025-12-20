@@ -14005,8 +14005,6 @@ ObjOperandId
 iterId
 ObjOperandId
 calleeId
-CompletionKind
-kind
 uint32_t
 calleeNargs
 )
@@ -14266,17 +14264,6 @@ callJit
 callee
 )
 ;
-if
-(
-kind
-!
-=
-CompletionKind
-:
-:
-Throw
-)
-{
 /
 /
 Verify
@@ -14403,7 +14390,6 @@ setFramePushed
 framePushedAfterCall
 )
 ;
-}
 /
 /
 Restore
