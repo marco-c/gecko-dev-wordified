@@ -509,7 +509,7 @@ class
 RegExpObject
 ;
 class
-SourceCompressionTask
+SourceCompressionTaskEntry
 ;
 class
 Shape
@@ -2700,7 +2700,7 @@ PendingSourceCompressionEntry
 ;
 friend
 class
-SourceCompressionTask
+SourceCompressionTaskEntry
 ;
 friend
 bool
@@ -6695,7 +6695,7 @@ private
 void
 performTaskWork
 (
-SourceCompressionTask
+SourceCompressionTaskEntry
 *
 task
 )

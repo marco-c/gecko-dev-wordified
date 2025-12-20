@@ -253,9 +253,6 @@ AutoLockHelperThreadState
 struct
 PromiseHelperTask
 ;
-class
-SourceCompressionTask
-;
 namespace
 frontend
 {
