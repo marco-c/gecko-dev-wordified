@@ -252,6 +252,7 @@ mTypeOrCharsetSourceOrDocumentModeOrMetaCSPOrSizesOrIntegrity
 mReferrerPolicyOrIntegrity
 mIsLinkPreload
 mFetchPriority
+mNonceOrType
 )
 ;
 break
@@ -309,7 +310,7 @@ mCharsetOrSrcset
 mTypeOrCharsetSourceOrDocumentModeOrMetaCSPOrSizesOrIntegrity
 mCrossOrigin
 mMedia
-mNonce
+mNonceOrType
 mFetchPriority
 mReferrerPolicyOrIntegrity
 mScriptReferrerPolicy
@@ -334,7 +335,7 @@ mCharsetOrSrcset
 mTypeOrCharsetSourceOrDocumentModeOrMetaCSPOrSizesOrIntegrity
 mCrossOrigin
 mMedia
-mNonce
+mNonceOrType
 mFetchPriority
 mReferrerPolicyOrIntegrity
 mScriptReferrerPolicy
@@ -359,7 +360,7 @@ mCharsetOrSrcset
 mCrossOrigin
 mMedia
 mReferrerPolicyOrIntegrity
-mNonce
+mNonceOrType
 mTypeOrCharsetSourceOrDocumentModeOrMetaCSPOrSizesOrIntegrity
 mIsLinkPreload
 mFetchPriority
