@@ -820,6 +820,12 @@ FetchPriority
 :
 uint8_t
 ;
+enum
+class
+PopoverAttributeState
+:
+uint8_t
+;
 }
 /
 /
@@ -3371,8 +3377,10 @@ CreatePopoverData
 ;
 }
 bool
-IsAutoPopover
+IsPopoverOpenedInMode
 (
+PopoverAttributeState
+aMode
 )
 const
 ;
@@ -3430,6 +3438,8 @@ Element
 *
 GetTopmostPopoverAncestor
 (
+PopoverAttributeState
+aMode
 const
 Element
 *
