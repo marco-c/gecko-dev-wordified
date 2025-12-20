@@ -277,7 +277,7 @@ TranslationsSettingsTestUtils
 .
 Events
 .
-AlwaysLanguagesRendered
+AlwaysTranslateLanguagesRendered
 ]
 [
 TranslationsSettingsTestUtils
@@ -388,7 +388,7 @@ TranslationsSettingsTestUtils
 .
 Events
 .
-AlwaysLanguagesRendered
+AlwaysTranslateLanguagesRendered
 ]
 ]
 }
@@ -483,7 +483,7 @@ TranslationsSettingsTestUtils
 .
 Events
 .
-AlwaysLanguagesRendered
+AlwaysTranslateLanguagesRendered
 ]
 ]
 }
@@ -580,7 +580,7 @@ TranslationsSettingsTestUtils
 .
 Events
 .
-AlwaysLanguagesRendered
+AlwaysTranslateLanguagesRendered
 ]
 ]
 }
@@ -682,7 +682,7 @@ TranslationsSettingsTestUtils
 .
 Events
 .
-AlwaysLanguagesRendered
+AlwaysTranslateLanguagesRendered
 ]
 ]
 }
@@ -785,7 +785,7 @@ TranslationsSettingsTestUtils
 .
 Events
 .
-AlwaysLanguagesRendered
+AlwaysTranslateLanguagesRendered
 ]
 [
 TranslationsSettingsTestUtils
@@ -1159,7 +1159,7 @@ TranslationsSettingsTestUtils
 .
 Events
 .
-AlwaysLanguagesRendered
+AlwaysTranslateLanguagesRendered
 ]
 ]
 }
@@ -1638,7 +1638,7 @@ TranslationsSettingsTestUtils
 .
 Events
 .
-AlwaysLanguagesRendered
+AlwaysTranslateLanguagesRendered
 ]
 [
 TranslationsSettingsTestUtils
@@ -1835,7 +1835,7 @@ TranslationsSettingsTestUtils
 .
 Events
 .
-AlwaysLanguagesRendered
+AlwaysTranslateLanguagesRendered
 ]
 ]
 }
@@ -1996,7 +1996,7 @@ TranslationsSettingsTestUtils
 .
 Events
 .
-AlwaysLanguagesRendered
+AlwaysTranslateLanguagesRendered
 ]
 ]
 }
