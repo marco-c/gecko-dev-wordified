@@ -1626,6 +1626,8 @@ jit
 :
 ABIFunctionType
 abiType
+bool
+switchToMainStack
 ExitReason
 exitReason
 void
