@@ -87,7 +87,7 @@ mjs
 ;
 const
 {
-PREF_LAST_FXA_USER_UID
+PREF_LAST_FXA_USER
 }
 =
 ChromeUtils
@@ -396,7 +396,7 @@ prefs
 .
 setStringPref
 (
-PREF_LAST_FXA_USER_UID
+PREF_LAST_FXA_USER
 "
 dGVzdEBleGFtcGxlLmNvbQ
 =
@@ -495,7 +495,7 @@ prefs
 .
 prefHasUserValue
 (
-PREF_LAST_FXA_USER_UID
+PREF_LAST_FXA_USER
 )
 "
 Should
