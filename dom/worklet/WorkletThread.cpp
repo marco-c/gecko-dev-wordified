@@ -2465,7 +2465,7 @@ JSRuntime
 JS
 :
 :
-InitDispatchsToEventLoop
+InitAsyncTaskCallbacks
 (
 context
 -
@@ -2475,6 +2475,8 @@ Context
 )
 DispatchToEventLoop
 DelayedDispatchToEventLoop
+nullptr
+nullptr
 NS_GetCurrentThread
 (
 )
