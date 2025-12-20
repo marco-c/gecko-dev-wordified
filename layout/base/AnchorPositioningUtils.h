@@ -1196,13 +1196,6 @@ mCompensatingForScroll
 struct
 LastSuccessfulPositionData
 {
-RefPtr
-<
-const
-ComputedStyle
->
-mStyle
-;
 uint32_t
 mIndex
 =
