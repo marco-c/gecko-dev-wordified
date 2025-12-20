@@ -362,8 +362,12 @@ consumption
 .
 *
 /
-function
+class
 Memory
+extends
+EventEmitter
+{
+constructor
 (
 parent
 frameCache
@@ -374,11 +378,8 @@ StackFrameCache
 )
 )
 {
-EventEmitter
-.
-decorate
+super
 (
-this
 )
 ;
 this
@@ -491,11 +492,6 @@ _onWindowReady
 )
 ;
 }
-Memory
-.
-prototype
-=
-{
 destroy
 (
 )
@@ -717,7 +713,7 @@ MemoryBridge
 *
 /
 detach
-:
+=
 expectState
 (
 "
@@ -768,6 +764,7 @@ the
 debugger
 "
 )
+;
 /
 *
 *
@@ -1016,7 +1013,7 @@ id
 *
 /
 saveHeapSnapshot
-:
+=
 expectState
 (
 "
@@ -1112,6 +1109,7 @@ boundaries
 saveHeapSnapshot
 "
 )
+;
 /
 *
 *
@@ -1145,7 +1143,7 @@ information
 *
 /
 takeCensus
-:
+=
 expectState
 (
 "
@@ -1172,6 +1170,7 @@ taking
 census
 "
 )
+;
 /
 *
 *
@@ -1304,7 +1303,7 @@ timer
 *
 /
 startRecordingAllocations
-:
+=
 expectState
 (
 "
@@ -1474,6 +1473,7 @@ recording
 allocations
 "
 )
+;
 /
 *
 *
@@ -1486,7 +1486,7 @@ sites
 *
 /
 stopRecordingAllocations
-:
+=
 expectState
 (
 "
@@ -1566,6 +1566,7 @@ recording
 allocations
 "
 )
+;
 /
 *
 *
@@ -1590,7 +1591,7 @@ tests
 *
 /
 getAllocationsSettings
-:
+=
 expectState
 (
 "
@@ -1629,6 +1630,7 @@ allocations
 settings
 "
 )
+;
 /
 *
 *
@@ -2052,7 +2054,7 @@ necessary
 *
 /
 getAllocations
-:
+=
 expectState
 (
 "
@@ -2351,6 +2353,7 @@ getting
 allocations
 "
 )
+;
 /
 *
 *
@@ -2906,7 +2909,6 @@ now
 ;
 }
 }
-;
 exports
 .
 Memory
