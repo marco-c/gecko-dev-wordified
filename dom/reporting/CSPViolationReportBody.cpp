@@ -315,7 +315,7 @@ const
 {
 aURL
 =
-mDocumentURL
+mBlockedURL
 ;
 }
 void
@@ -332,7 +332,7 @@ const
 {
 aURL
 =
-mBlockedURL
+mDocumentURL
 ;
 }
 void
