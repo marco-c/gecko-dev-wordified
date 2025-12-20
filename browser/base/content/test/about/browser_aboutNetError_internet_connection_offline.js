@@ -47,6 +47,11 @@ let
 pageLoaded
 ;
 await
+setSecurityCertErrorsFeltPrivacyToFalse
+(
+)
+;
+await
 BrowserTestUtils
 .
 openNewForegroundTab
