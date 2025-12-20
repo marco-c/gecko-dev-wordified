@@ -871,7 +871,7 @@ name
 =
 reader
 .
-read_string
+read_unlimited_string
 (
 )
 ?
@@ -1232,7 +1232,7 @@ name
 =
 reader
 .
-read_string
+read_unlimited_string
 (
 )
 ?
@@ -2363,7 +2363,7 @@ Some
 (
 reader
 .
-read_string
+read_unlimited_string
 (
 )
 ?
@@ -2446,7 +2446,7 @@ name
 =
 reader
 .
-read_string
+read_unlimited_string
 (
 )
 ?
@@ -3205,9 +3205,9 @@ section
 version
 :
 {
+version
 }
 "
-version
 )
 offset
 )

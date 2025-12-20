@@ -183,6 +183,7 @@ offset
 1
 )
 )
+;
 }
 }
 0x01
@@ -241,6 +242,7 @@ kind
 offset
 )
 )
+;
 }
 }
 )
@@ -565,6 +567,7 @@ original_position
 1
 )
 )
+;
 }
 }
 }

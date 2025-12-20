@@ -546,8 +546,8 @@ collections
 :
 :
 {
-btree_map
 BTreeMap
+btree_map
 }
 ;
 use
@@ -2716,6 +2716,8 @@ K
 >
 Entry
 <
+'
+_
 K
 V
 >
@@ -3600,6 +3602,8 @@ self
 >
 Iter
 <
+'
+_
 K
 V
 >
@@ -3646,6 +3650,8 @@ self
 >
 IterMut
 <
+'
+_
 K
 V
 >
@@ -3691,6 +3697,8 @@ self
 >
 Keys
 <
+'
+_
 K
 V
 >
@@ -3736,6 +3744,8 @@ self
 >
 Values
 <
+'
+_
 K
 V
 >
@@ -3783,6 +3793,8 @@ self
 >
 ValuesMut
 <
+'
+_
 K
 V
 >

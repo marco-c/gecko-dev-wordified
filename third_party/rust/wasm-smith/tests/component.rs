@@ -26,12 +26,12 @@ rand
 :
 :
 {
+RngCore
+SeedableRng
 rngs
 :
 :
 SmallRng
-RngCore
-SeedableRng
 }
 ;
 use
@@ -256,9 +256,9 @@ wasm
 Error
 :
 {
+e
 }
 "
-e
 )
 ;
 }

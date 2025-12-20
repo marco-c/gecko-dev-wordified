@@ -971,6 +971,14 @@ t
 ItemKind
 :
 :
+FuncExact
+(
+t
+)
+|
+ItemKind
+:
+:
 Tag
 (
 TagType
@@ -2149,6 +2157,12 @@ clone
 )
 shared
 parent
+:
+None
+descriptor
+:
+None
+describes
 :
 None
 final_type

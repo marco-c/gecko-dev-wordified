@@ -42,7 +42,7 @@ custom
 /
 section
 in
-compnents
+components
 similar
 to
 the
@@ -146,6 +146,14 @@ a
 >
 )
 CoreTables
+(
+NameMap
+<
+'
+a
+>
+)
+CoreTags
 (
 NameMap
 <
@@ -388,7 +396,7 @@ name
 =
 reader
 .
-read_string
+read_unlimited_string
 (
 )
 ?
@@ -516,6 +524,13 @@ ComponentName
 :
 :
 CoreGlobals
+0x04
+=
+>
+ComponentName
+:
+:
+CoreTags
 0x10
 =
 >

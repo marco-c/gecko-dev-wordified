@@ -504,6 +504,7 @@ alias
 "
 )
 )
+;
 }
 ComponentOuterAliasKind
 :

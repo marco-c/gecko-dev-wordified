@@ -1127,7 +1127,7 @@ global
 Used
 in
 position
-indepenent
+independent
 code
 (
 -
@@ -1994,7 +1994,7 @@ RelocSectionReader
 :
 :
 section
-targetted
+targeted
 by
 this
 relocation
@@ -2093,7 +2093,7 @@ RelocSectionReader
 :
 :
 section
-targetted
+targeted
 by
 this
 relocation

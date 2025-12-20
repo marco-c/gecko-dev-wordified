@@ -595,7 +595,11 @@ table64
 initial
 :
 if
-table64
+reader
+.
+memory64
+(
+)
 {
 reader
 .
@@ -627,7 +631,11 @@ None
 }
 else
 if
-table64
+reader
+.
+memory64
+(
+)
 {
 Some
 (
