@@ -554,6 +554,13 @@ Expect
 number
 (
 )
+priorityHeader
+:
+Expect
+.
+string
+(
+)
 cache
 :
 "
@@ -746,6 +753,13 @@ pri
 Expect
 .
 number
+(
+)
+priorityHeader
+:
+Expect
+.
+string
 (
 )
 }
