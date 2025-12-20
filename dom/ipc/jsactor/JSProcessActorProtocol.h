@@ -152,13 +152,6 @@ h
 #
 include
 "
-nsIURI
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -368,7 +361,7 @@ nsACString
 aName
 )
 :
-mName
+JSActorProtocol
 (
 aName
 )
@@ -380,9 +373,6 @@ JSProcessActorProtocol
 )
 =
 default
-;
-nsCString
-mName
 ;
 bool
 mIncludeParent
