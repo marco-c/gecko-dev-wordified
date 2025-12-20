@@ -424,11 +424,6 @@ getMaxDatagramSize
 (
 )
 ;
-uint64_t
-getHttpChannelID
-(
-)
-;
 /
 /
 This
