@@ -2647,11 +2647,12 @@ getTime
 (
 )
 ;
+await
 Services
 .
 logins
 .
-modifyLogin
+modifyLoginAsync
 (
 login2
 LoginHelper

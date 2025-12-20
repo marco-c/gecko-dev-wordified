@@ -678,11 +678,12 @@ modifyLogin
 "
 )
 ;
+await
 Services
 .
 logins
 .
-modifyLogin
+modifyLoginAsync
 (
 TEST_LOGIN1
 modifiedLogin

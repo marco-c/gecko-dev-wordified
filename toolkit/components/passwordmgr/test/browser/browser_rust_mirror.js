@@ -471,11 +471,12 @@ finished
 "
 )
 ;
+await
 Services
 .
 logins
 .
-modifyLogin
+modifyLoginAsync
 (
 storedLoginInfo
 modifiedLoginInfo
