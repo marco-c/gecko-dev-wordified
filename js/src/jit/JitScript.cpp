@@ -6401,6 +6401,7 @@ forEachICScript
 (
 [
 =
+this
 ]
 (
 const

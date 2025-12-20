@@ -544,6 +544,7 @@ MakeScopeExit
 (
 [
 =
+this
 ]
 {
 JS
@@ -1891,6 +1892,7 @@ MakeScopeExit
 (
 [
 =
+this
 ]
 {
 JS
