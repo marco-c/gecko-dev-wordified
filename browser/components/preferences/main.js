@@ -22776,7 +22776,7 @@ actions
 type
 :
 "
-ghost
+icon
 "
 iconsrc
 :
