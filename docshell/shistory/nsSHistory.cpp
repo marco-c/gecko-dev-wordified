@@ -5012,7 +5012,7 @@ instead
 int32_t
 index
 =
-GetIndexForReplace
+GetTargetIndexForHistoryOperation
 (
 )
 ;
