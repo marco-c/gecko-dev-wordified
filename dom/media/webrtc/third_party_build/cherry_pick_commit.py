@@ -78,6 +78,8 @@ run_operations
 import
 (
     
+ErrorHelp
+    
 get_last_line
     
 run_git
@@ -127,9 +129,6 @@ upstream
 commit
 later
 .
-error_help
-=
-None
 script_name
 =
 os
@@ -140,13 +139,14 @@ basename
 (
 __file__
 )
-def
-early_exit_handler
+error_help
+=
+ErrorHelp
 (
 )
-:
-    
-print
+error_help
+.
+set_prefix
 (
 f
 "
@@ -166,17 +166,16 @@ complete
 successfully
 "
 )
-    
-if
-error_help
-is
-not
-None
-:
-        
-print
+def
+early_exit_handler
 (
+)
+:
+    
 error_help
+.
+print_help
+(
 )
 def
 write_commit_message_file
@@ -1529,7 +1528,10 @@ resume
 state
     
 error_help
-=
+.
+set_help
+(
+        
 "
 -
 -
@@ -1548,6 +1550,8 @@ in
 resume
 state
 "
+    
+)
     
 if
 len
@@ -1577,8 +1581,11 @@ exit
 )
     
 error_help
-=
+.
+set_help
+(
 None
+)
     
 #
 detect
@@ -1593,7 +1600,9 @@ resume
 state
     
 error_help
-=
+.
+set_help
+(
 "
 cherry
 -
@@ -1609,6 +1618,7 @@ or
 -
 continue
 "
+)
     
 if
 len
@@ -1638,8 +1648,11 @@ exit
 )
     
 error_help
-=
+.
+set_help
+(
 None
+)
     
 #
 handle
@@ -1977,7 +1990,8 @@ before
 beginning
     
 error_help
-=
+.
+set_help
 (
         
 f
@@ -2054,8 +2068,11 @@ exit
 )
     
 error_help
-=
+.
+set_help
+(
 None
+)
     
 if
 len
@@ -2176,7 +2193,8 @@ repo
 exists
     
 error_help
-=
+.
+set_help
 (
         
 f
@@ -2236,8 +2254,11 @@ exit
 )
     
 error_help
-=
+.
+set_help
+(
 None
+)
     
 #
 Other
@@ -2568,7 +2589,8 @@ commit_message_filename
 )
         
 error_help
-=
+.
+set_help
 (
             
 f
@@ -2709,8 +2731,11 @@ commit_sha
 )
         
 error_help
-=
+.
+set_help
+(
 None
+)
     
 if
 len
@@ -2790,7 +2815,8 @@ print
 )
         
 error_help
-=
+.
+set_help
 (
             
 f
@@ -3149,8 +3175,11 @@ commit_message_filename
 )
         
 error_help
-=
+.
+set_help
+(
 None
+)
     
 if
 len
@@ -3183,7 +3212,8 @@ resume_state_filename
 )
         
 error_help
-=
+.
+set_help
 (
             
 "
@@ -3386,8 +3416,11 @@ cmd
 )
         
 error_help
-=
+.
+set_help
+(
 None
+)
     
 if
 len
@@ -3554,7 +3587,8 @@ git_paths_changed
 )
         
 error_help
-=
+.
+set_help
 (
             
 f
@@ -3683,8 +3717,11 @@ exit
 )
         
 error_help
-=
+.
+set_help
+(
 None
+)
     
 if
 len
