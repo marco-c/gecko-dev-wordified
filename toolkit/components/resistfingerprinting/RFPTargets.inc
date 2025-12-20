@@ -738,6 +738,11 @@ ITEM_VALUE
 WebGLVendorConstant
 78
 )
+ITEM_VALUE
+(
+WebGLVendorRandomize
+79
+)
 /
 /
 !
