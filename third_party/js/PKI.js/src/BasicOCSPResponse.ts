@@ -1979,9 +1979,6 @@ default
 }
 }
 catch
-(
-ex
-)
 {
 /
 /
@@ -2233,6 +2230,8 @@ this
 tbsResponseData
 .
 tbsView
+as
+BufferSource
 privateKey
 {
 algorithm
@@ -2519,6 +2518,8 @@ subjectPublicKey
 valueBlock
 .
 valueHexView
+as
+BufferSource
 )
 ;
 if
@@ -2723,6 +2724,8 @@ this
 tbsResponseData
 .
 tbsView
+as
+BufferSource
 this
 .
 signature

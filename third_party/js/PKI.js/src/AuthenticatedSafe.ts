@@ -1985,6 +1985,7 @@ cmsEncrypted
 encrypt
 (
 currentParameters
+crypto
 )
 ;
 /

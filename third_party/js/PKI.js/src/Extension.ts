@@ -343,6 +343,8 @@ extnValue
 valueBlock
 .
 valueHexView
+as
+BufferSource
 )
 ;
 this

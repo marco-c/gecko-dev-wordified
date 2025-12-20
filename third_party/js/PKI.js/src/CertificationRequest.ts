@@ -3087,6 +3087,8 @@ signWithPrivateKey
 this
 .
 tbsView
+as
+BufferSource
 privateKey
 parameters
 as
@@ -3168,6 +3170,8 @@ verifyWithPublicKey
 this
 .
 tbsView
+as
+BufferSource
 this
 .
 signatureValue

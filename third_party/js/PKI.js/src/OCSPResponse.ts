@@ -1749,9 +1749,6 @@ result
 ;
 }
 catch
-(
-ex
-)
 {
 return
 result
@@ -1873,6 +1870,8 @@ response
 valueBlock
 .
 valueHexView
+as
+BufferSource
 )
 ;
 return
@@ -2065,6 +2064,8 @@ response
 valueBlock
 .
 valueHexView
+as
+BufferSource
 )
 ;
 if

@@ -957,13 +957,12 @@ Certificate
 fromBER
 (
 certValueHex
+as
+BufferSource
 )
 ;
 }
 catch
-(
-ex
-)
 /
 /
 In
@@ -982,6 +981,8 @@ AttributeCertificateV2
 fromBER
 (
 certValueHex
+as
+BufferSource
 )
 ;
 }
@@ -1023,6 +1024,8 @@ AttributeCertificateV2
 fromBER
 (
 certValueHex
+as
+BufferSource
 )
 ;
 }

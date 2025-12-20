@@ -3239,9 +3239,6 @@ toJSON
 ;
 }
 catch
-(
-ex
-)
 {
 /
 /

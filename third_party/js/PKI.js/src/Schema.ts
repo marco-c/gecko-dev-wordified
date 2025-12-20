@@ -117,12 +117,7 @@ string
 any
 >
 =
-{
-/
-*
-*
-/
-}
+object
 >
 {
 names

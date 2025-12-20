@@ -177,6 +177,8 @@ parsedKey
 ECPublicKey
 |
 RSAPublicKey
+|
+undefined
 ;
 }
 export
@@ -436,9 +438,6 @@ valueHexView
 ;
 }
 catch
-(
-ex
-)
 {
 /
 /
@@ -538,9 +537,6 @@ result
 ;
 }
 catch
-(
-ex
-)
 {
 /
 /
@@ -1605,9 +1601,6 @@ result
 ;
 }
 catch
-(
-exception
-)
 {
 throw
 new

@@ -815,9 +815,6 @@ engine
 ;
 }
 catch
-(
-ex
-)
 {
 throw
 new
