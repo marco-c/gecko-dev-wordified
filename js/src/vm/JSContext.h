@@ -8233,7 +8233,6 @@ UnsafeABIStrictness
 {
 NoExceptions
 AllowPendingExceptions
-AllowThrownExceptions
 }
 ;
 /
