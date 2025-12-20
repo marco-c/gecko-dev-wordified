@@ -8400,7 +8400,7 @@ let
 params
 =
 {
-blockVisible
+addVisible
 :
 true
 hideStatusColumn
