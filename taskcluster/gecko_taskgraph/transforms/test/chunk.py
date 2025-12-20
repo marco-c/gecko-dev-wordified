@@ -1032,6 +1032,10 @@ just
 yield
 task
             
+found_wpt
+=
+False
+            
 for
 m
 in
@@ -1134,7 +1138,17 @@ dynamic
 yield
 task
                     
+found_wpt
+=
+True
+                    
 break
+            
+if
+found_wpt
+:
+                
+continue
             
 #
 input
