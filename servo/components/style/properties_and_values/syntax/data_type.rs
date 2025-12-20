@@ -82,6 +82,15 @@ Multiplier
 }
 ;
 use
+crate
+:
+:
+derives
+:
+:
+*
+;
+use
 std
 :
 :
@@ -244,6 +253,7 @@ Copy
 Debug
 MallocSizeOf
 PartialEq
+ToShmem
 )
 ]
 pub
