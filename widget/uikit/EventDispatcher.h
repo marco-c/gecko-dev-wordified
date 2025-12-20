@@ -211,6 +211,15 @@ Detach
 (
 )
 ;
+void
+Activate
+(
+)
+MOZ_REQUIRES
+(
+sMainThreadCapability
+)
+;
 bool
 HasEmbedderListener
 (
