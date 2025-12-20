@@ -4505,17 +4505,6 @@ aRv
 )
 ;
 void
-GetRegionalPrefsLocales
-(
-nsTArray
-<
-nsString
->
-&
-aLocales
-)
-;
-void
 GetWebExposedLocales
 (
 nsTArray
