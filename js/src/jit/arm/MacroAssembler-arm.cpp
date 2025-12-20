@@ -31190,7 +31190,7 @@ CallReg
 )
 ;
 }
-void
+CodeOffset
 MacroAssembler
 :
 :
@@ -31208,6 +31208,7 @@ addr
 CallReg
 )
 ;
+return
 call
 (
 CallReg
@@ -32546,8 +32547,6 @@ uint32_t
 stackAdjust
 ABIType
 result
-bool
-callFromWasm
 )
 {
 if
@@ -32567,6 +32566,19 @@ lr
 }
 if
 (
+abiArgs_
+.
+abi
+(
+)
+=
+=
+ABIKind
+:
+:
+System
+&
+&
 !
 ARMFlags
 :

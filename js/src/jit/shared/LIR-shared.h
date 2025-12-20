@@ -5808,7 +5808,7 @@ mirRaw
 }
 ;
 class
-LWasmBuiltinFloatRegisterResult
+LWasmSystemFloatRegisterResult
 :
 public
 LInstructionHelper
@@ -5822,10 +5822,10 @@ public
 :
 LIR_HEADER
 (
-WasmBuiltinFloatRegisterResult
+WasmSystemFloatRegisterResult
 )
 ;
-LWasmBuiltinFloatRegisterResult
+LWasmSystemFloatRegisterResult
 (
 )
 :
@@ -5835,7 +5835,7 @@ classOpcode
 )
 {
 }
-MWasmBuiltinFloatRegisterResult
+MWasmSystemFloatRegisterResult
 *
 mir
 (
@@ -5846,7 +5846,7 @@ return
 mir_
 -
 >
-toWasmBuiltinFloatRegisterResult
+toWasmSystemFloatRegisterResult
 (
 )
 ;

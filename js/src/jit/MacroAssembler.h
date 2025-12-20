@@ -6488,6 +6488,11 @@ priori
 void
 setupWasmABICall
 (
+wasm
+:
+:
+SymbolicAddress
+builtin
 )
 ;
 /
@@ -6967,10 +6972,6 @@ uint32_t
 stackAdjust
 ABIType
 result
-bool
-callFromWasm
-=
-false
 )
 PER_ARCH
 ;

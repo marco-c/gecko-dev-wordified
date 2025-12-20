@@ -10016,7 +10016,7 @@ None
 }
 ;
 class
-MWasmBuiltinFloatRegisterResult
+MWasmSystemFloatRegisterResult
 :
 public
 MWasmResultBase
@@ -10024,7 +10024,7 @@ MWasmResultBase
 FloatRegister
 >
 {
-MWasmBuiltinFloatRegisterResult
+MWasmSystemFloatRegisterResult
 (
 MIRType
 type
@@ -10053,7 +10053,7 @@ public
 :
 INSTRUCTION_HEADER
 (
-WasmBuiltinFloatRegisterResult
+WasmSystemFloatRegisterResult
 )
 TRIVIAL_NEW_WRAPPERS
 AliasSet
