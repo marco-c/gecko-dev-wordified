@@ -676,13 +676,7 @@ Suspended
 TraceSuspendableStack
 (
 trc
-*
 object
--
->
-data
-(
-)
 )
 ;
 }

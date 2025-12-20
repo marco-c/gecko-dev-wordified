@@ -221,9 +221,6 @@ ENABLE_WASM_JSPI
 class
 SuspenderObject
 ;
-class
-SuspenderObjectData
-;
 using
 SuspenderObjectSet
 =
