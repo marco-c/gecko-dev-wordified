@@ -743,6 +743,11 @@ ITEM_VALUE
 WebGLVendorRandomize
 79
 )
+ITEM_VALUE
+(
+WebGLRendererConstant
+80
+)
 /
 /
 !
