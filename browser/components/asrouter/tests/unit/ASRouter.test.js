@@ -6335,6 +6335,13 @@ com
 "
 ]
 undefined
+/
+/
+patterns
+undefined
+/
+/
+regexPatterns
 )
 ;
 assert
@@ -6364,6 +6371,13 @@ com
 "
 ]
 undefined
+/
+/
+patterns
+undefined
+/
+/
+regexPatterns
 )
 ;
 }
