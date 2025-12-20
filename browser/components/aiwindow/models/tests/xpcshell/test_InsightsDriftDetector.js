@@ -56,10 +56,16 @@ MPL
 .
 *
 /
+do_get_profile
+(
+)
+;
+(
 "
 use
 strict
 "
+)
 ;
 const
 {
