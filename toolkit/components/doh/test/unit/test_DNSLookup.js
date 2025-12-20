@@ -383,7 +383,11 @@ example
 com
 :
 {
-h2Port
+trrServer
+.
+port
+(
+)
 }
 /
 doh
