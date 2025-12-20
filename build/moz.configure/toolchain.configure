@@ -2181,6 +2181,13 @@ ios
 -
 sim
 "
+set_config
+(
+"
+IPHONEOS_IS_SIMULATOR
+"
+target_is_ios_simulator
+)
 def
 ios_sdk_min_version
 (
