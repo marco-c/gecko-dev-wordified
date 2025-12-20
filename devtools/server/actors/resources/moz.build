@@ -308,11 +308,6 @@ websockets
 .
 js
 "
-"
-webtransport
-.
-js
-"
 )
 with
 Files

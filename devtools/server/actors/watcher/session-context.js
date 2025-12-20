@@ -1458,15 +1458,6 @@ Resources
 .
 TYPES
 .
-WEBTRANSPORT
-]
-:
-true
-[
-Resources
-.
-TYPES
-.
 JSTRACER_TRACE
 ]
 :
