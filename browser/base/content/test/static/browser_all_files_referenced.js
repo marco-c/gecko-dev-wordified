@@ -3896,11 +3896,10 @@ html
 /
 /
 Bug
-2005524
+2005768
 -
 Insights
-drift
-detector
+scheduler
 for
 generation
 from
@@ -3924,7 +3923,7 @@ aiwindow
 /
 models
 /
-InsightsDriftDetector
+InsightsHistoryScheduler
 .
 sys
 .
