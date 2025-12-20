@@ -498,6 +498,9 @@ crash_helper_common
 :
 Pid
 )
+-
+>
+bool
 {
 /
 /
@@ -515,5 +518,6 @@ don
 t
 need
 it
+true
 }
 }

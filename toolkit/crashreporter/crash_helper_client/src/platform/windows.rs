@@ -758,6 +758,9 @@ _crash_helper_pid
 :
 Pid
 )
+-
+>
+bool
 {
 /
 /
@@ -770,6 +773,7 @@ a
 no
 -
 op
+true
 }
 }
 /
