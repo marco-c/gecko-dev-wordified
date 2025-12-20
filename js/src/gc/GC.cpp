@@ -18919,7 +18919,7 @@ GCReason
 XPCONNECT_SHUTDOWN
 )
 {
-StartHandlingCompressionsOnGC
+StartOffThreadCompressionsOnGC
 (
 rt
 )
