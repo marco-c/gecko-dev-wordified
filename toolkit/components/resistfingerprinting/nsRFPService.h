@@ -1485,7 +1485,9 @@ eForter
 7
 /
 /
-Unknown
+Variants
+are
+unknown
 but
 distinct
 types
@@ -1515,9 +1517,15 @@ eVariant7
 eVariant8
 =
 15
+eClientGear
+=
+16
+eImperva
+=
+17
 eLastAlias
 =
-eVariant8
+eImperva
 }
 ;
 enum
