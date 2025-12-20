@@ -150,6 +150,9 @@ encode
 ascii
 "
 )
+norm_needed
+=
+True
 if
 os
 .
@@ -423,6 +426,14 @@ path
         
 return
 path
+        
+norm_needed
+=
+False
+#
+noqa
+:
+F841
 def
 evaluate_list_from_string
 (
