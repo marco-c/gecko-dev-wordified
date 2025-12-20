@@ -3902,6 +3902,12 @@ case
 StyleCssRuleType
 :
 :
+CustomMedia
+:
+case
+StyleCssRuleType
+:
+:
 Media
 :
 case
@@ -3953,12 +3959,6 @@ fallible
 break
 ;
 }
-case
-StyleCssRuleType
-:
-:
-CustomMedia
-:
 case
 StyleCssRuleType
 :
