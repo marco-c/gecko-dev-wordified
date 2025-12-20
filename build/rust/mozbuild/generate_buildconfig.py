@@ -986,6 +986,18 @@ MOZ_DIAGNOSTIC_ASSERT_ENABLED
 )
 )
     
+output
+.
+write
+(
+generate_bool
+(
+"
+MOZ_CODE_COVERAGE
+"
+)
+)
+    
 #
 Used
 by
