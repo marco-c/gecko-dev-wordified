@@ -1093,6 +1093,11 @@ Authorization
 nsHttp
 :
 :
+Available_Dictionary
+&
+nsHttp
+:
+:
 Connection
 &
 nsHttp
@@ -1104,6 +1109,11 @@ nsHttp
 :
 :
 Cookie
+&
+nsHttp
+:
+:
+Dictionary_Id
 &
 nsHttp
 :
