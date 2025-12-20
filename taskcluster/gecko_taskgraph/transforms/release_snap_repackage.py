@@ -243,11 +243,14 @@ resolve_keyed_by
 (
                 
 env
+                
 k
+                
 "
 snap
 envs
 "
+                
 *
 *
 {
@@ -262,6 +265,11 @@ release_level
 config
 .
 params
+[
+"
+project
+"
+]
 )
 }
             

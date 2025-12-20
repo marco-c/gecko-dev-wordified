@@ -891,6 +891,11 @@ return
 match_run_on_projects
 (
 parameters
+[
+"
+project
+"
+]
 run_on_projects
 )
 def
