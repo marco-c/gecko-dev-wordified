@@ -1196,8 +1196,11 @@ port
 (
 )
 ^
-23
+0b1_01110
 )
+/
+/
+23
 initial
 .
 destination

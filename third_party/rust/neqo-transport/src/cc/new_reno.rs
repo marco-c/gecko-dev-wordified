@@ -112,10 +112,13 @@ crate
 cc
 :
 :
+{
 classic_cc
 :
 :
 WindowAdjustment
+CongestionEvent
+}
 ;
 #
 [
@@ -221,6 +224,9 @@ usize
 _max_datagram_size
 :
 usize
+_congestion_event
+:
+CongestionEvent
 )
 -
 >

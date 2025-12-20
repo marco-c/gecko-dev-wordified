@@ -124,7 +124,7 @@ NO_PREFIX
 qpack_send_buf
 :
 :
-Data
+Encoder
 reader
 :
 :
@@ -301,6 +301,11 @@ crate
 )
 fn
 marshal
+<
+T
+:
+Encoder
+>
 (
 &
 self
@@ -308,7 +313,7 @@ enc
 :
 &
 mut
-Data
+T
 use_huffman
 :
 bool
@@ -1834,7 +1839,6 @@ super
 :
 :
 {
-Data
 EncoderInstruction
 EncoderInstructionReader
 }
@@ -1870,7 +1874,10 @@ let
 mut
 buf
 =
-Data
+neqo_common
+:
+:
+Encoder
 :
 :
 default
@@ -1904,8 +1911,11 @@ test_receiver
 .
 write
 (
-&
 buf
+.
+as_ref
+(
+)
 )
 ;
 let
@@ -2268,7 +2278,10 @@ let
 mut
 buf
 =
-Data
+neqo_common
+:
+:
+Encoder
 :
 :
 default
@@ -2329,6 +2342,10 @@ write
 (
 &
 buf
+.
+as_ref
+(
+)
 [
 i
 .
@@ -2365,6 +2382,10 @@ write
 (
 &
 buf
+.
+as_ref
+(
+)
 [
 buf
 .

@@ -250,6 +250,7 @@ connection_tparams_set
 qlog
 :
 &
+mut
 Qlog
 tph
 :
@@ -262,7 +263,7 @@ Instant
 {
 qlog
 .
-add_event_data_with_instant
+add_event_at
 (
 |
 |
@@ -622,6 +623,7 @@ server_connection_started
 qlog
 :
 &
+mut
 Qlog
 path
 :
@@ -647,6 +649,7 @@ client_connection_started
 qlog
 :
 &
+mut
 Qlog
 path
 :
@@ -671,6 +674,7 @@ connection_started
 qlog
 :
 &
+mut
 Qlog
 path
 :
@@ -683,7 +687,7 @@ Instant
 {
 qlog
 .
-add_event_data_with_instant
+add_event_at
 (
 |
 |
@@ -916,6 +920,7 @@ connection_state_updated
 qlog
 :
 &
+mut
 Qlog
 new
 :
@@ -928,7 +933,7 @@ Instant
 {
 qlog
 .
-add_event_data_with_instant
+add_event_at
 (
 |
 |
@@ -1063,6 +1068,7 @@ client_version_information_initiated
 qlog
 :
 &
+mut
 Qlog
 version_config
 :
@@ -1078,7 +1084,7 @@ Instant
 {
 qlog
 .
-add_event_data_with_instant
+add_event_at
 (
 |
 |
@@ -1179,6 +1185,7 @@ client_version_information_negotiated
 qlog
 :
 &
+mut
 Qlog
 client
 :
@@ -1205,7 +1212,7 @@ Instant
 {
 qlog
 .
-add_event_data_with_instant
+add_event_at
 (
 |
 |
@@ -1322,6 +1329,7 @@ server_version_information_failed
 qlog
 :
 &
+mut
 Qlog
 server
 :
@@ -1342,7 +1350,7 @@ Instant
 {
 qlog
 .
-add_event_data_with_instant
+add_event_at
 (
 |
 |
@@ -1435,6 +1443,7 @@ packet_io
 qlog
 :
 &
+mut
 Qlog
 meta
 :
@@ -1449,7 +1458,7 @@ Instant
 {
 qlog
 .
-add_event_data_with_instant
+add_event_at
 (
 |
 |
@@ -1677,14 +1686,15 @@ packet_dropped
 qlog
 :
 &
+mut
 Qlog
-public_packet
+decrypt_err
 :
 &
 packet
 :
 :
-Public
+DecryptionError
 now
 :
 Instant
@@ -1692,7 +1702,7 @@ Instant
 {
 qlog
 .
-add_event_data_with_instant
+add_event_at
 (
 |
 |
@@ -1705,7 +1715,7 @@ PacketHeader
 :
 with_type
 (
-public_packet
+decrypt_err
 .
 packet_type
 (
@@ -1729,7 +1739,7 @@ length
 :
 Some
 (
-public_packet
+decrypt_err
 .
 len
 (
@@ -1796,6 +1806,7 @@ packets_lost
 qlog
 :
 &
+mut
 Qlog
 pkts
 :
@@ -1977,6 +1988,7 @@ metrics_updated
 qlog
 :
 &
+mut
 Qlog
 updated_metrics
 :
@@ -2002,7 +2014,7 @@ is_empty
 ;
 qlog
 .
-add_event_data_with_instant
+add_event_at
 (
 |
 |
