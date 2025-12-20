@@ -1936,6 +1936,8 @@ HandleShadowDOMRelatedRemovalSteps
 (
 bool
 aNullParent
+bool
+aInBatch
 )
 {
 using
@@ -1978,7 +1980,8 @@ FromNode
 /
 /
 because
-XBL
+frame
+destruction
 likes
 to
 call
@@ -1987,11 +1990,11 @@ at
 very
 odd
 times
+/
+/
 (
 with
 already
-/
-/
 disconnected
 anonymous
 content
@@ -2034,6 +2037,7 @@ MaybeUnslotHostChild
 (
 *
 this
+aInBatch
 )
 ;
 }
