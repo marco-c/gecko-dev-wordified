@@ -17388,6 +17388,9 @@ ID
 if
 (
 openerBrowser
+?
+.
+browsingContext
 &
 &
 !
