@@ -139,7 +139,7 @@ rs2
 ifdef
 JS_CODEGEN_RISCV64
 void
-adduw
+add_uw
 (
 Register
 rd
@@ -150,7 +150,7 @@ rs2
 )
 ;
 void
-zextw
+zext_w
 (
 Register
 rd
@@ -158,7 +158,7 @@ Register
 rs1
 )
 {
-adduw
+add_uw
 (
 rd
 rs1
@@ -167,7 +167,7 @@ zero_reg
 ;
 }
 void
-sh1adduw
+sh1add_uw
 (
 Register
 rd
@@ -178,7 +178,7 @@ rs2
 )
 ;
 void
-sh2adduw
+sh2add_uw
 (
 Register
 rd
@@ -189,7 +189,7 @@ rs2
 )
 ;
 void
-sh3adduw
+sh3add_uw
 (
 Register
 rd
@@ -200,7 +200,7 @@ rs2
 )
 ;
 void
-slliuw
+slli_uw
 (
 Register
 rd
@@ -353,7 +353,7 @@ rs2
 )
 ;
 void
-sextb
+sext_b
 (
 Register
 rd
@@ -362,7 +362,7 @@ rs
 )
 ;
 void
-sexth
+sext_h
 (
 Register
 rd
@@ -371,7 +371,7 @@ rs
 )
 ;
 void
-zexth
+zext_h
 (
 Register
 rd
@@ -419,7 +419,7 @@ shamt
 )
 ;
 void
-orcb
+orc_b
 (
 Register
 rd
