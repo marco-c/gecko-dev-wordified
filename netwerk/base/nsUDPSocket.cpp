@@ -75,6 +75,13 @@ MPL
 #
 include
 "
+Predictor
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Components

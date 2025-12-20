@@ -462,6 +462,8 @@ caps
 bool
 speculative
 bool
+isFromPredictor
+bool
 urgentStart
 )
 :
@@ -480,6 +482,10 @@ speculative
 mUrgentStart
 (
 urgentStart
+)
+mIsFromPredictor
+(
+isFromPredictor
 )
 mConnInfo
 (

@@ -503,6 +503,13 @@ h
 #
 include
 "
+nsINetworkPredictor
+.
+h
+"
+#
+include
+"
 nsIPrincipal
 .
 h

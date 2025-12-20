@@ -215,6 +215,13 @@ h
 #
 include
 "
+nsINetworkPredictor
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
