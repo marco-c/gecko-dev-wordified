@@ -7858,7 +7858,7 @@ scratch
 ;
 masm
 .
-load32
+loadPtr
 (
 Address
 (
@@ -7876,7 +7876,7 @@ wasm
 Context
 :
 :
-offsetOfOnSuspendableStack
+offsetOfActiveSuspender
 (
 )
 )
@@ -7885,7 +7885,7 @@ scratch
 ;
 masm
 .
-branchTest32
+branchTestPtr
 (
 Assembler
 :
