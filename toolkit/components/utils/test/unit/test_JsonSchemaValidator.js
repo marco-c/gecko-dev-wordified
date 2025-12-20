@@ -7687,8 +7687,16 @@ expected
 *
 param
 {
+object
+}
+params
+*
+param
+{
 *
 }
+params
+.
 value
 *
 The
@@ -7701,6 +7709,8 @@ param
 {
 object
 }
+params
+.
 schema
 *
 The
@@ -7714,6 +7724,8 @@ param
 {
 object
 }
+params
+.
 expectedResult
 *
 The
@@ -7780,7 +7792,11 @@ param
 {
 object
 }
+[
+params
+.
 options
+]
 *
 Options
 to
