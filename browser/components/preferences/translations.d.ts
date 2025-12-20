@@ -126,6 +126,10 @@ neverTranslateLanguagesSelect
 :
 HTMLSelectElement
 ;
+neverTranslateLanguagesButton
+:
+HTMLButtonElement
+;
 neverTranslateLanguagesNoneRow
 :
 HTMLElement

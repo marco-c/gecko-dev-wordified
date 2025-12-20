@@ -756,7 +756,7 @@ TranslationsSettingsTestUtils
 .
 Events
 .
-NeverLanguagesRendered
+NeverTranslateLanguagesRendered
 ]
 [
 TranslationsSettingsTestUtils
