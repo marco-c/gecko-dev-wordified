@@ -119,9 +119,6 @@ true
 isProtectionEnabled
 :
 false
-protectionEnabledSince
-:
-null
 }
 ;
 this
