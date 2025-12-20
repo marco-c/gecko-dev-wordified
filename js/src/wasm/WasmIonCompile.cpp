@@ -34515,7 +34515,7 @@ Nothing
 MIRType
 :
 :
-Pointer
+WasmStructData
 MWideningOp
 :
 :
@@ -34859,7 +34859,7 @@ Nothing
 MIRType
 :
 :
-Pointer
+WasmStructData
 MWideningOp
 :
 :
