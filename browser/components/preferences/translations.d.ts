@@ -114,4 +114,16 @@ alwaysTranslateLanguagesNoneRow
 :
 HTMLElement
 ;
+neverTranslateLanguagesGroup
+:
+HTMLElement
+;
+neverTranslateLanguagesSelect
+:
+HTMLSelectElement
+;
+neverTranslateLanguagesNoneRow
+:
+HTMLElement
+;
 }
