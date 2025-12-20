@@ -1566,8 +1566,10 @@ aPrivate
 return
 aPrivate
 ?
+&
 mPrivateAuthCache
 :
+&
 mAuthCache
 ;
 }
@@ -3438,16 +3440,10 @@ the
 authentication
 credentials
 cache
-RefPtr
-<
 nsHttpAuthCache
->
 mAuthCache
 ;
-RefPtr
-<
 nsHttpAuthCache
->
 mPrivateAuthCache
 ;
 /
