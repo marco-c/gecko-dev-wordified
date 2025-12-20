@@ -874,7 +874,7 @@ aContentWindowID
 0
 )
 ;
-bool
+nsresult
 Initialize
 (
 nsIOpenWindowInfo
