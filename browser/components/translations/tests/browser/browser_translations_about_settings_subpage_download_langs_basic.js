@@ -197,7 +197,7 @@ downloadButton
 =
 translationsSettingsTestUtils
 .
-getDownloadButton
+getDownloadLanguageButton
 (
 )
 ;
@@ -327,7 +327,7 @@ TranslationsSettingsTestUtils
 .
 Events
 .
-DownloadButtonEnabled
+DownloadLanguageButtonEnabled
 ]
 ]
 }
@@ -419,7 +419,7 @@ TranslationsSettingsTestUtils
 .
 Events
 .
-DownloadButtonDisabled
+DownloadLanguageButtonDisabled
 )
 ;
 const

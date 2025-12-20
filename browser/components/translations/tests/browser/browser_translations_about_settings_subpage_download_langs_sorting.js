@@ -217,7 +217,7 @@ downloadButton
 =
 translationsSettingsTestUtils
 .
-getDownloadButton
+getDownloadLanguageButton
 (
 )
 ;
