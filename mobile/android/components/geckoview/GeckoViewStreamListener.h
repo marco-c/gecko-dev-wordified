@@ -197,16 +197,7 @@ ByteArray
 :
 :
 LocalRef
-java
-:
-:
-sdk
-:
-:
-Boolean
-:
-:
-LocalRef
+bool
 >
 CertificateFromChannel
 (
