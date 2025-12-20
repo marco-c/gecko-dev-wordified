@@ -9270,14 +9270,12 @@ if
 (
 NS_SUCCEEDED
 (
-mRequestHead
-.
-GetHeader
+GetRequestHeader
 (
-nsHttp
-:
-:
+"
 Range
+"
+_ns
 rangeVal
 )
 )
@@ -9295,7 +9293,7 @@ _ns
 identity
 "
 _ns
-true
+false
 )
 ;
 }
