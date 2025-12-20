@@ -1567,6 +1567,12 @@ uintptr_t
 >
 SaturateUintPtr
 ;
+using
+detail
+:
+:
+Saturate
+;
 }
 /
 /
