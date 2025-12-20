@@ -672,6 +672,11 @@ score
 =
 0
         
+replicates
+=
+[
+]
+        
 for
 subtest
 in
@@ -706,6 +711,19 @@ value
 "
 ]
                 
+replicates
+=
+subtest
+.
+get
+(
+"
+replicates
+"
+[
+]
+)
+                
 break
         
 suite
@@ -716,6 +734,15 @@ value
 ]
 =
 score
+        
+suite
+[
+"
+replicates
+"
+]
+=
+replicates
     
 def
 modify_command
