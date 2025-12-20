@@ -2504,6 +2504,11 @@ GetPowerIsCharging
 (
 )
 ;
+void
+BeginShaderWarmupIfNeeded
+(
+)
+;
 private
 :
 static
