@@ -262,6 +262,9 @@ EnableLogging
 ;
 }
 }
+#
+ifndef
+RELEASE_OR_BETA
 /
 /
 First
@@ -393,6 +396,8 @@ DDLogDeleter
 >
 sDDLogDeleter
 ;
+#
+endif
 /
 *
 static
