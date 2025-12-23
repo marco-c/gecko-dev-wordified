@@ -113,10 +113,9 @@ userContextId1
 const
 taskbarTab1
 =
-registry
-.
-findOrCreateTaskbarTab
+createTaskbarTab
 (
+registry
 url1
 userContextId1
 )

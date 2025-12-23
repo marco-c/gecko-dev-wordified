@@ -306,10 +306,9 @@ const
 tt1
 =
 await
-TaskbarTabs
-.
-findOrCreateTaskbarTab
+createTaskbarTab
 (
+TaskbarTabs
 Services
 .
 io
@@ -350,10 +349,9 @@ const
 tt2
 =
 await
-TaskbarTabs
-.
-findOrCreateTaskbarTab
+createTaskbarTab
 (
+TaskbarTabs
 Services
 .
 io

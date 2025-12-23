@@ -1096,10 +1096,9 @@ const
 taskbarTab
 =
 await
-TaskbarTabs
-.
-findOrCreateTaskbarTab
+createTaskbarTab
 (
+TaskbarTabs
 uri
 0
 )
@@ -2203,10 +2202,9 @@ const
 tt
 =
 await
-TaskbarTabs
-.
-findOrCreateTaskbarTab
+createTaskbarTab
 (
+TaskbarTabs
 uri
 0
 )
