@@ -2682,6 +2682,10 @@ nsIPrincipal
 *
 aPrincipal
 const
+uint64_t
+&
+aBrowsingContextID
+const
 mozilla
 :
 :
@@ -2761,6 +2765,7 @@ Create
 (
 aURL
 aPrincipal
+aBrowsingContextID
 aClientInfo
 aDedicated
 aRequireUnreliable
