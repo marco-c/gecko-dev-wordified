@@ -2487,6 +2487,14 @@ kidFrame
 aDelegatingFrame
 )
 ;
+nextFrame
+-
+>
+AddStateBits
+(
+NS_FRAME_IS_PUSHED_OUT_OF_FLOW
+)
+;
 mPushedAbsoluteFrames
 .
 AppendFrame

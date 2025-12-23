@@ -3512,9 +3512,9 @@ aLists
 *
 *
 Add
+pushed
 absolute
-frame
-continuations
+frames
 to
 the
 display
@@ -3525,6 +3525,7 @@ list
 Note
 :
 for
+an
 absolute
 frame
 '
@@ -3534,6 +3535,11 @@ first
 in
 -
 flow
+without
+the
+*
+NS_FRAME_IS_PUSHED_OUT_OF_FLOW
+bit
 it
 will
 be
@@ -3547,7 +3553,7 @@ frame
 *
 /
 void
-DisplayAbsoluteContinuations
+DisplayPushedAbsoluteFrames
 (
 nsDisplayListBuilder
 *

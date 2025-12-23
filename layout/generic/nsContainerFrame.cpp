@@ -7074,7 +7074,7 @@ void
 nsContainerFrame
 :
 :
-DisplayAbsoluteContinuations
+DisplayPushedAbsoluteFrames
 (
 nsDisplayListBuilder
 *
@@ -7105,8 +7105,9 @@ if
 frame
 -
 >
-GetPrevInFlow
+HasAnyStateBits
 (
+NS_FRAME_IS_PUSHED_OUT_OF_FLOW
 )
 )
 {
