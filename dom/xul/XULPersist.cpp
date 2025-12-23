@@ -1181,7 +1181,12 @@ in
 case
 .
 const
-Span
+nsTArray
+<
+Element
+*
+>
+*
 allElements
 =
 mDocument
@@ -1194,11 +1199,8 @@ id
 ;
 if
 (
+!
 allElements
-.
-IsEmpty
-(
-)
 )
 {
 continue
@@ -1215,7 +1217,8 @@ elements
 SetCapacity
 (
 allElements
-.
+-
+>
 Length
 (
 )
@@ -1227,6 +1230,7 @@ Element
 *
 element
 :
+*
 allElements
 )
 {
