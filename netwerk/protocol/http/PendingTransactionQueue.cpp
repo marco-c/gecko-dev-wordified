@@ -1841,8 +1841,10 @@ reason
 {
 AutoTArray
 <
+RefPtr
+<
 nsHttpTransaction
-*
+>
 64
 >
 toClose
@@ -1962,6 +1964,10 @@ p
 n
 "
 trans
+.
+get
+(
+)
 )
 )
 ;
