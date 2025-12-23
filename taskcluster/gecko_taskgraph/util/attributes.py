@@ -417,9 +417,16 @@ lambda
 project
 :
 (
+        
+release_level
+(
 project
-in
-RELEASE_PROJECTS
+)
+=
+=
+"
+production
+"
 or
 project
 =
@@ -427,6 +434,7 @@ project
 "
 toolchains
 "
+    
 )
     
 "
