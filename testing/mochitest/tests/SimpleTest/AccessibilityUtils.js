@@ -799,10 +799,7 @@ for
 its
 *
 corresponding
-{
-code
 DOMNode
-}
 .
 *
 *
@@ -1001,10 +998,7 @@ an
 accessible
 has
 a
-{
-code
 hidden
-}
 attribute
 .
 *
@@ -1032,10 +1026,7 @@ accessible
 object
 has
 a
-{
-code
 hidden
-}
 attribute
 false
 *

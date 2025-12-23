@@ -473,7 +473,8 @@ to
 print
 out
 *
-usage
+example
+*
 _
 (
 "
@@ -489,7 +490,6 @@ Hello
 World
 "
 *
-usage
 _
 (
 1
