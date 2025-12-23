@@ -2505,7 +2505,7 @@ will
 *
 be
 marked
-NS_FRAME_IS_PUSHED_FLOAT
+NS_FRAME_IS_PUSHED_OUT_OF_FLOW
 .
 *
 /

@@ -3268,7 +3268,7 @@ aFloatCont
 >
 AddStateBits
 (
-NS_FRAME_IS_PUSHED_FLOAT
+NS_FRAME_IS_PUSHED_OUT_OF_FLOW
 )
 ;
 pushedFloats
@@ -4161,7 +4161,7 @@ aFloat
 >
 HasAnyStateBits
 (
-NS_FRAME_IS_PUSHED_FLOAT
+NS_FRAME_IS_PUSHED_OUT_OF_FLOW
 )
 |
 |
@@ -4183,7 +4183,7 @@ aFloat
 >
 HasAnyStateBits
 (
-NS_FRAME_IS_PUSHED_FLOAT
+NS_FRAME_IS_PUSHED_OUT_OF_FLOW
 |
 NS_FRAME_FIRST_REFLOW
 )
@@ -4202,7 +4202,11 @@ as
 "
 "
 pushed
-float
+out
+-
+of
+-
+flow
 or
 just
 inserted
@@ -4352,7 +4356,7 @@ aFloat
 >
 RemoveStateBits
 (
-NS_FRAME_IS_PUSHED_FLOAT
+NS_FRAME_IS_PUSHED_OUT_OF_FLOW
 )
 ;
 /

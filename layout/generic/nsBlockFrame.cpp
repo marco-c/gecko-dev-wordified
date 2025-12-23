@@ -22017,7 +22017,7 @@ f
 >
 HasAnyStateBits
 (
-NS_FRAME_IS_PUSHED_FLOAT
+NS_FRAME_IS_PUSHED_OUT_OF_FLOW
 )
 "
 CollectFloats
@@ -22576,7 +22576,7 @@ FirstChild
 >
 HasAnyStateBits
 (
-NS_FRAME_IS_PUSHED_FLOAT
+NS_FRAME_IS_PUSHED_OUT_OF_FLOW
 )
 ;
 bool
@@ -40802,7 +40802,7 @@ aFloat
 >
 HasAnyStateBits
 (
-NS_FRAME_IS_PUSHED_FLOAT
+NS_FRAME_IS_PUSHED_OUT_OF_FLOW
 )
 "
 float
@@ -43952,7 +43952,7 @@ f
 >
 HasAnyStateBits
 (
-NS_FRAME_IS_PUSHED_FLOAT
+NS_FRAME_IS_PUSHED_OUT_OF_FLOW
 )
 "
 CollectFloats
@@ -44922,7 +44922,7 @@ nif
 >
 HasAnyStateBits
 (
-NS_FRAME_IS_PUSHED_FLOAT
+NS_FRAME_IS_PUSHED_OUT_OF_FLOW
 )
 )
 ;
@@ -45280,7 +45280,7 @@ f
 >
 HasAnyStateBits
 (
-NS_FRAME_IS_PUSHED_FLOAT
+NS_FRAME_IS_PUSHED_OUT_OF_FLOW
 )
 "
 CollectFloats
@@ -45908,7 +45908,7 @@ f
 >
 HasAnyStateBits
 (
-NS_FRAME_IS_PUSHED_FLOAT
+NS_FRAME_IS_PUSHED_OUT_OF_FLOW
 )
 ;
 f
@@ -56472,7 +56472,7 @@ f
 >
 HasAnyStateBits
 (
-NS_FRAME_IS_PUSHED_FLOAT
+NS_FRAME_IS_PUSHED_OUT_OF_FLOW
 )
 )
 {
@@ -57956,7 +57956,7 @@ FirstChild
 >
 HasAnyStateBits
 (
-NS_FRAME_IS_PUSHED_FLOAT
+NS_FRAME_IS_PUSHED_OUT_OF_FLOW
 )
 )
 {
@@ -58008,7 +58008,7 @@ f
 >
 HasAnyStateBits
 (
-NS_FRAME_IS_PUSHED_FLOAT
+NS_FRAME_IS_PUSHED_OUT_OF_FLOW
 )
 "
 pushed
@@ -59110,7 +59110,7 @@ f
 >
 HasAnyStateBits
 (
-NS_FRAME_IS_PUSHED_FLOAT
+NS_FRAME_IS_PUSHED_OUT_OF_FLOW
 )
 )
 {
@@ -63298,17 +63298,17 @@ outOfFlowFrame
 /
 Remove
 the
-IS_PUSHED_FLOAT
+NS_FRAME_IS_PUSHED_OUT_OF_FLOW
 bit
 in
 case
+/
+/
 |
 outOfFlowFrame
 |
 came
 from
-/
-/
 the
 PushedFloats
 list
@@ -63318,7 +63318,7 @@ outOfFlowFrame
 >
 RemoveStateBits
 (
-NS_FRAME_IS_PUSHED_FLOAT
+NS_FRAME_IS_PUSHED_OUT_OF_FLOW
 )
 ;
 aList
@@ -63629,7 +63629,7 @@ f
 >
 HasAnyStateBits
 (
-NS_FRAME_IS_PUSHED_FLOAT
+NS_FRAME_IS_PUSHED_OUT_OF_FLOW
 )
 )
 {
