@@ -32203,7 +32203,7 @@ returns
 Element
 }
 *
-constructor
+class
 *
 /
 function
@@ -33797,7 +33797,7 @@ returns
 Element
 }
 *
-constructor
+class
 *
 /
 const
