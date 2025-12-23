@@ -5671,6 +5671,9 @@ c
 ;
 }
 }
+#
+ifndef
+FIXED_POINT
 /
 *
 Cap
@@ -5763,6 +5766,8 @@ j
 0
 ;
 }
+#
+endif
 }
 #
 endif
@@ -14478,8 +14483,6 @@ frames
 /
 activity
 =
-2
-*
 st
 -
 >
@@ -14495,7 +14498,10 @@ PSEUDO_SNR_THRESHOLD
 (
 opus_val64
 )
+HALF32
+(
 noise_energy
+)
 )
 ;
 }
