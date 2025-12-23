@@ -638,6 +638,9 @@ CRASH_X64CFI_EOF
 ;
 #
 endif
+#
+ifdef
+MOZ_PHC
 const
 int16_t
 CRASH_PHC_USE_AFTER_FREE
@@ -656,6 +659,8 @@ CRASH_PHC_BOUNDS_VIOLATION
 =
 23
 ;
+#
+endif
 #
 if
 XP_WIN
