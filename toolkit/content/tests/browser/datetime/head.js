@@ -469,7 +469,7 @@ querySelector
 (
 "
 #
-dateTimePopupFrame
+DateTimePickerPanelPopupFrame
 "
 )
 ;
@@ -1889,7 +1889,7 @@ document
 of
 the
 #
-dateTimePopupFrame
+DateTimePickerPanelPopupFrame
 *
 param
 {
