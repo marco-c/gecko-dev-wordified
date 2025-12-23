@@ -100,7 +100,8 @@ id
 =
 354894
 *
-note
+Note
+:
 It
 is
 implicitly
@@ -217,7 +218,8 @@ at
 all
 .
 *
-note
+Note
+:
 Mac
 only
 tests
@@ -254,7 +256,8 @@ windows
 left
 )
 *
-note
+Note
+:
 There
 is
 a
@@ -1512,7 +1515,7 @@ session
 restore
 *
 *
-note
+Note
 :
 Non
 -
@@ -1798,7 +1801,7 @@ session
 restore
 *
 *
-note
+Note
 :
 Non
 -
@@ -2173,7 +2176,7 @@ be
 restored
 *
 *
-note
+Note
 :
 Non
 -
@@ -2661,7 +2664,7 @@ the
 test
 *
 *
-note
+Note
 :
 Non
 -
@@ -3041,7 +3044,7 @@ Mac
 .
 *
 *
-note
+Note
 :
 Mac
 only

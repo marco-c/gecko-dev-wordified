@@ -1480,7 +1480,8 @@ showing
 .
 *
 *
-note
+Note
+:
 this
 includes
 the

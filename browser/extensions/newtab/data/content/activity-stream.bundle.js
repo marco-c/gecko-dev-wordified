@@ -44093,7 +44093,8 @@ comparable
 .
 *
 *
-note
+Note
+:
 If
 this
 is
@@ -44371,7 +44372,8 @@ are
 available
 *
 *
-note
+Note
+:
 Always
 surround
 calls
@@ -44805,7 +44807,8 @@ paints
 .
 *
 *
-note
+Note
+:
 Both
 setTimeout
 and

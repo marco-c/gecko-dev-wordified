@@ -154,10 +154,12 @@ commands
 .
 *
 returns
+{
 Promise
-*
-resolves
-undefined
+<
+void
+>
+}
 *
 /
 async

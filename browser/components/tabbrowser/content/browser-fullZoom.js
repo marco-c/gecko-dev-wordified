@@ -1921,10 +1921,12 @@ change
 .
 *
 returns
+{
 Promise
-*
-resolves
-undefined
+<
+void
+>
+}
 *
 /
 updateCommands
