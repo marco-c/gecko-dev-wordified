@@ -6245,7 +6245,9 @@ yet
 )
 ;
 const
-tt
+{
+taskbarTab
+}
 =
 await
 TaskbarTabs
@@ -6339,7 +6341,7 @@ TaskbarTabs
 .
 removeTaskbarTab
 (
-tt
+taskbarTab
 .
 id
 )
