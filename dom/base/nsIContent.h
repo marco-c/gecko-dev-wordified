@@ -2879,8 +2879,6 @@ HandleShadowDOMRelatedRemovalSteps
 (
 bool
 aNullParent
-bool
-aInBatch
 )
 ;
 public
