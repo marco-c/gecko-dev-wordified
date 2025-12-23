@@ -366,6 +366,12 @@ bool
 disableCacheIR
 ;
 bool
+disableStubFolding
+;
+bool
+disableStubFoldingLoadsAndStores
+;
+bool
 disableSink
 ;
 bool
