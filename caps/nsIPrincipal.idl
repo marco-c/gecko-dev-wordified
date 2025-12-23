@@ -2266,7 +2266,7 @@ thread
 /
 readonly
 attribute
-ACString
+AUTF8String
 exposablePrePath
 ;
 /
@@ -2308,7 +2308,7 @@ thread
 /
 readonly
 attribute
-ACString
+AUTF8String
 exposableSpec
 ;
 /
