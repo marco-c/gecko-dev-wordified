@@ -133,7 +133,7 @@ startup
 .
 *
 *
-params
+param
 {
 nsIDOMWindow
 }

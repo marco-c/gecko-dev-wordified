@@ -1527,8 +1527,7 @@ font
 editor
 .
 *
-Example
-:
+example
 *
 {
 *

@@ -380,7 +380,6 @@ object
 }
 decoder
 *
-api
 public
 *
 /
@@ -461,7 +460,6 @@ BinaryReconstructor
 initialized
 reconstructor
 *
-api
 private
 *
 /
@@ -549,7 +547,6 @@ been
 received
 .
 *
-api
 private
 *
 /
@@ -639,7 +636,6 @@ variables
 .
 *
 *
-api
 private
 *
 /
@@ -698,7 +694,6 @@ object
 }
 packet
 *
-api
 public
 *
 /
@@ -962,7 +957,6 @@ object
 }
 packet
 *
-api
 private
 *
 /
@@ -1508,7 +1502,6 @@ s
 resources
 *
 *
-api
 public
 *
 /

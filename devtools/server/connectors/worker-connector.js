@@ -135,13 +135,13 @@ connection
 .
 *
 *
-params
+param
 {
 DevToolsConnection
 }
 connection
 *
-params
+param
 {
 WorkerDebugger
 }
@@ -159,7 +159,7 @@ actor
 for
 .
 *
-params
+param
 {
 string
 }
@@ -184,7 +184,7 @@ worker
 thread
 .
 *
-params
+param
 {
 object
 }
@@ -205,7 +205,7 @@ connect
 packet
 .
 *
-params
+param
 {
 object
 }

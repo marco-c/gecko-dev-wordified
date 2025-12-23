@@ -825,12 +825,16 @@ common
 .
 SyntaxNode
 *
-params
+param
 {
 object
 }
 options
 *
+param
+{
+boolean
+}
 options
 .
 includeAnonymousFunctions

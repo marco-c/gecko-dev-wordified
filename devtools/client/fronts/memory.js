@@ -287,8 +287,16 @@ hoops
 .
 *
 *
-params
-Boolean
+param
+{
+object
+}
+options
+*
+param
+{
+boolean
+}
 options
 .
 forceCopy
@@ -318,7 +326,7 @@ system
 .
 *
 *
-params
+param
 {
 object
 |

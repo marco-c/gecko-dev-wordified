@@ -78,7 +78,6 @@ Emitter
 .
 *
 *
-api
 public
 *
 /
@@ -123,7 +122,6 @@ return
 object
 }
 *
-api
 private
 *
 /
@@ -191,7 +189,6 @@ return
 Emitter
 }
 *
-api
 public
 *
 /

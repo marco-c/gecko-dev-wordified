@@ -1142,7 +1142,7 @@ attribute
 .
 *
 *
-params
+param
 {
 object
 }

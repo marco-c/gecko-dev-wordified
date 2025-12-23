@@ -5221,13 +5221,13 @@ connection
 .
 *
 *
-params
+param
 {
 object
 }
 options
 *
-params
+param
 {
 boolean
 }
@@ -5249,7 +5249,7 @@ target
 switch
 .
 *
-params
+param
 {
 boolean
 }

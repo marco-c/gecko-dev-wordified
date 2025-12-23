@@ -5546,7 +5546,6 @@ highlight
 .
 *
 param
-.
 {
 string
 }
@@ -5706,7 +5705,6 @@ highlighter
 .
 *
 param
-.
 {
 string
 }
@@ -6150,7 +6148,6 @@ highlight
 .
 *
 param
-.
 {
 string
 }

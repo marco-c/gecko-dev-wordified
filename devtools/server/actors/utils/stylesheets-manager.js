@@ -2103,7 +2103,7 @@ yet
 .
 *
 *
-params
+param
 {
 StyleSheet
 }
@@ -2220,7 +2220,7 @@ yet
 .
 *
 *
-params
+param
 {
 StyleSheet
 }
@@ -2294,7 +2294,7 @@ id
 .
 *
 *
-params
+param
 {
 string
 }
@@ -2357,7 +2357,7 @@ id
 .
 *
 *
-params
+param
 {
 string
 }
@@ -2478,7 +2478,7 @@ resourceId
 .
 *
 *
-params
+param
 {
 string
 }
@@ -2583,7 +2583,7 @@ the
 stylesheet
 *
 *
-params
+param
 {
 string
 }
