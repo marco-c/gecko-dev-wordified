@@ -431,16 +431,9 @@ input
 void
 AttachToTrack
 (
-const
-RefPtr
-<
-MediaStreamTrack
->
-&
+AudioStreamTrack
+*
 aTrack
-ErrorResult
-&
-aRv
 )
 ;
 /
@@ -793,7 +786,7 @@ mInputStream
 .
 RefPtr
 <
-MediaStreamTrack
+AudioStreamTrack
 >
 mInputTrack
 ;

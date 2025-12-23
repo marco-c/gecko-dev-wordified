@@ -192,7 +192,6 @@ MediaUtils
 .
 h
 "
-static
 mozilla
 :
 :
