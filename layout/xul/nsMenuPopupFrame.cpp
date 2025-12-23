@@ -2387,6 +2387,14 @@ SetWidgetListener
 this
 )
 ;
+mWidget
+-
+>
+EnableDragDrop
+(
+true
+)
+;
 /
 /
 TODO
