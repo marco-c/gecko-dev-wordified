@@ -1306,7 +1306,7 @@ testChangingColorShouldEmitEventsHelper
 s
 sendUpKey
 [
-128
+127
 64
 64
 1
@@ -1318,7 +1318,7 @@ testChangingColorShouldEmitEventsHelper
 s
 sendRightKey
 [
-127
+128
 63
 63
 1
@@ -1423,7 +1423,7 @@ testChangingColorShouldEmitEventsHelper
 s
 sendRightKey
 [
-127
+128
 66
 63
 1
@@ -1435,7 +1435,7 @@ testChangingColorShouldEmitEventsHelper
 s
 sendLeftKey
 [
-127
+128
 63
 63
 1
@@ -1509,7 +1509,7 @@ testChangingColorShouldEmitEventsHelper
 s
 sendLeftKey
 [
-127
+128
 63
 63
 0
@@ -1523,7 +1523,7 @@ testChangingColorShouldEmitEventsHelper
 s
 sendRightKey
 [
-127
+128
 63
 63
 1
