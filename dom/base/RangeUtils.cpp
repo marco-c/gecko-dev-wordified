@@ -1829,7 +1829,7 @@ else
 if
 (
 const
-HTMLSlotElement
+auto
 *
 slotAsParent
 =
