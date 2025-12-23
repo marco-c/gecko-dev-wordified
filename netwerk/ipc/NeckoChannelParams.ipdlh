@@ -1770,6 +1770,10 @@ isNewWindowTarget
 UserNavigationInvolvement
 userNavigationInvolvement
 ;
+FeaturePolicyInfo
+?
+containerFeaturePolicyInfo
+;
 }
 ;
 /
