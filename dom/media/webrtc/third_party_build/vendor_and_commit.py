@@ -173,7 +173,9 @@ script_name
 )
 repo_type
 =
-None
+detect_repo_type
+(
+)
 def
 early_exit_handler
 (
@@ -2379,16 +2381,17 @@ git
 or
 hg
     
-repo_type
-=
-detect_repo_type
-(
-)
-    
 if
 repo_type
 is
 None
+or
+not
+isinstance
+(
+repo_type
+RepoType
+)
 :
         
 error_help

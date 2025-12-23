@@ -104,6 +104,11 @@ basename
 (
 __file__
 )
+repo_type
+=
+detect_repo_type
+(
+)
 text
 =
 "
@@ -1172,16 +1177,17 @@ git
 or
 hg
     
-repo_type
-=
-detect_repo_type
-(
-)
-    
 if
 repo_type
 is
 None
+or
+not
+isinstance
+(
+repo_type
+RepoType
+)
 :
         
 print
