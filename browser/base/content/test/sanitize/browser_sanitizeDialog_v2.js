@@ -1904,6 +1904,14 @@ dh
 .
 promiseClosed
 ;
+if
+(
+!
+settingsRedesignHistoryEnabled
+(
+)
+)
+{
 /
 /
 test
@@ -2001,6 +2009,7 @@ dh
 .
 promiseClosed
 ;
+}
 /
 /
 validate
@@ -2056,6 +2065,14 @@ siteSettings
 false
 )
 ;
+if
+(
+!
+settingsRedesignHistoryEnabled
+(
+)
+)
+{
 this
 .
 validateCheckbox
@@ -2066,6 +2083,7 @@ cache
 false
 )
 ;
+}
 this
 .
 cancelDialog
@@ -4829,6 +4847,14 @@ clear
 }
 )
 ;
+if
+(
+!
+settingsRedesignHistoryEnabled
+(
+)
+)
+{
 add_task
 (
 async
@@ -5681,3 +5707,4 @@ promiseClosed
 }
 )
 ;
+}
