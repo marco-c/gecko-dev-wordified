@@ -291,7 +291,8 @@ to
 .
 *
 *
-note
+Note
+:
 The
 actual
 testing
@@ -315,7 +316,8 @@ startXHR
 .
 *
 *
-note
+Note
+:
 If
 resetAfter
 and
