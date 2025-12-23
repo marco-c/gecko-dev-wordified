@@ -3420,20 +3420,6 @@ remove
 extra
 )
         
-if
-signature
-is
-None
-:
-            
-signature
-=
-"
-[
-Unknown
-]
-"
-        
 return
 StackInfo
 (
