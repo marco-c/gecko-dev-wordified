@@ -152,7 +152,8 @@ visits
 .
 *
 *
-note
+Note
+:
 Expiration
 ignores
 any

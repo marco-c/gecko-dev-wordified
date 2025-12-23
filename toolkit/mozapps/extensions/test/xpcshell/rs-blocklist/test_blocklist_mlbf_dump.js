@@ -37,7 +37,7 @@ strict
 *
 *
 *
-fileOverview
+file
 Verifies
 that
 the

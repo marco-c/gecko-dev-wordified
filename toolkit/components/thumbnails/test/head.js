@@ -1219,12 +1219,11 @@ BackgroundPageThumbs
 returns
 {
 Promise
+<
+Array
+>
 }
 *
-resolves
-{
-Array
-}
 Resolves
 once
 the
@@ -1235,10 +1234,10 @@ with
 an
 Array
 of
-*
 results
 .
 The
+*
 first
 element
 of
@@ -1251,10 +1250,10 @@ of
 the
 captured
 page
-*
 and
 the
 second
+*
 element
 is
 the
@@ -1263,7 +1262,6 @@ reason
 from
 the
 BackgroundPageThumbs
-*
 module
 .
 *
