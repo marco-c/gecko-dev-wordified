@@ -150,7 +150,7 @@ androidVersion
 version
 =
 "
-130
+143
 .
 0
 .
@@ -715,7 +715,7 @@ userAgent
 version
 =
 "
-130
+143
 .
 0
 .
