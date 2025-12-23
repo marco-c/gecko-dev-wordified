@@ -889,7 +889,7 @@ value
 *
 *
 *
-constructor
+class
 *
 param
 options

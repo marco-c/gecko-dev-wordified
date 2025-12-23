@@ -390,7 +390,7 @@ test
 ]
 *
 *
-extends
+augments
 {
 React
 .

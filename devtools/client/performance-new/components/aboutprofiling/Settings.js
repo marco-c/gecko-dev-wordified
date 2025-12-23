@@ -1236,7 +1236,7 @@ profile
 .
 *
 *
-extends
+augments
 {
 React
 .

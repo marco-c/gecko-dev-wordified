@@ -288,7 +288,7 @@ telemetry
 *
 *
 *
-constructor
+class
 *
 param
 object

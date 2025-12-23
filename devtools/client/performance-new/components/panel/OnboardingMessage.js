@@ -299,7 +299,7 @@ panel
 .
 *
 *
-extends
+augments
 {
 React
 .

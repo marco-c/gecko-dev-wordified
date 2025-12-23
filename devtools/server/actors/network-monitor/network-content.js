@@ -247,7 +247,7 @@ process
 .
 *
 *
-constructor
+class
 *
 /
 class

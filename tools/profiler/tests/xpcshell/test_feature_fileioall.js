@@ -611,7 +611,7 @@ object
 }
 TestConfig
 *
-prop
+property
 {
 Array
 }
@@ -622,7 +622,7 @@ of
 profiler
 features
 *
-prop
+property
 {
 string
 [
@@ -636,7 +636,7 @@ threads
 to
 profile
 *
-prop
+property
 {
 string
 }

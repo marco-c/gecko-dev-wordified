@@ -329,7 +329,7 @@ range
 )
 *
 *
-emits
+fires
 "
 updated
 "

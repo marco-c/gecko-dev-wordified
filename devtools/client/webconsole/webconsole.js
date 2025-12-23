@@ -339,7 +339,7 @@ WebConsole
 *
 *
 *
-constructor
+class
 *
 param
 object

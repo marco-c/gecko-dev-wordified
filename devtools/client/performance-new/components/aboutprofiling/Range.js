@@ -235,7 +235,7 @@ scales
 .
 *
 *
-extends
+augments
 React
 .
 PureComponent

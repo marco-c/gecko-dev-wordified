@@ -473,7 +473,7 @@ Actor
 .
 *
 *
-emits
+fires
 stylesheet
 -
 updated

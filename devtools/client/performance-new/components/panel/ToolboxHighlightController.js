@@ -239,7 +239,7 @@ js
 *
 *
 *
-extends
+augments
 {
 React
 .

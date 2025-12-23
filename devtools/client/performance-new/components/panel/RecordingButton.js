@@ -532,7 +532,7 @@ changes
 .
 *
 *
-extends
+augments
 {
 React
 .

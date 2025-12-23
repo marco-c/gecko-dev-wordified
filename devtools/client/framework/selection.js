@@ -891,7 +891,7 @@ TargetFront
 }
 front
 *
-emits
+fires
 detached
 -
 front

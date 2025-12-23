@@ -2032,7 +2032,7 @@ type
 object
 }
 *
-prop
+property
 {
 string
 }
@@ -2043,7 +2043,7 @@ unique
 ID
 .
 *
-prop
+property
 {
 string
 }
@@ -2055,7 +2055,7 @@ display
 name
 .
 *
-prop
+property
 {
 string
 }
@@ -2074,7 +2074,7 @@ search
 "
 .
 *
-prop
+property
 {
 boolean
 }
@@ -2088,7 +2088,7 @@ be
 removed
 .
 *
-prop
+property
 {
 boolean
 }

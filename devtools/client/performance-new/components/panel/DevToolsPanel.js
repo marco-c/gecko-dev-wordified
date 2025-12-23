@@ -568,7 +568,7 @@ panel
 .
 *
 *
-extends
+augments
 {
 React
 .

@@ -207,7 +207,7 @@ targets
 .
 *
 *
-constructor
+class
 *
 /
 class

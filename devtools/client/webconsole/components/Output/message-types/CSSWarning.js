@@ -341,7 +341,7 @@ page
 .
 *
 *
-extends
+augments
 Component
 *
 /

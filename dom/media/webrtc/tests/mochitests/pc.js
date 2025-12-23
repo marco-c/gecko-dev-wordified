@@ -391,7 +391,7 @@ connections
 .
 *
 *
-constructor
+class
 *
 param
 {
@@ -4334,7 +4334,7 @@ dataChannel
 param
 peerConnectionWrapper
 *
-constructor
+class
 *
 /
 function
@@ -5062,7 +5062,7 @@ instance
 .
 *
 *
-constructor
+class
 *
 param
 {

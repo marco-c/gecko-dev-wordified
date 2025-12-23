@@ -435,7 +435,7 @@ entries
 .
 *
 *
-constructor
+class
 *
 /
 class

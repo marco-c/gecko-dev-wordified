@@ -517,7 +517,7 @@ performant
 .
 *
 *
-extends
+augments
 {
 React
 .

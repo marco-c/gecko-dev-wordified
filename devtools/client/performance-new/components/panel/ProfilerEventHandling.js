@@ -462,7 +462,7 @@ store
 .
 *
 *
-extends
+augments
 {
 React
 .

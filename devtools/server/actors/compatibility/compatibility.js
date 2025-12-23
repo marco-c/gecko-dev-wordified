@@ -308,7 +308,7 @@ CompatibilityActor
 .
 *
 *
-constructor
+class
 *
 /
 constructor

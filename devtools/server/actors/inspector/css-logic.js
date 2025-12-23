@@ -5008,7 +5008,7 @@ stylesheet
 .
 *
 *
-constructor
+class
 *
 param
 {
@@ -6253,7 +6253,7 @@ the
 element
 .
 *
-constructor
+class
 *
 /
 constructor
@@ -7085,7 +7085,7 @@ selectors
 .
 *
 *
-constructor
+class
 *
 param
 {
@@ -8046,7 +8046,7 @@ gathering
 information
 for
 *
-constructor
+class
 *
 /
 constructor
@@ -9036,8 +9036,6 @@ buildMatchedRules
 for
 definition
 .
-*
-constructor
 *
 /
 constructor

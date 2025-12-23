@@ -274,7 +274,7 @@ parent
 front
 .
 *
-constructor
+class
 *
 /
 class

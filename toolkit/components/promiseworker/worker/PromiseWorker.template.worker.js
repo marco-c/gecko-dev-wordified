@@ -432,7 +432,7 @@ copied
 .
 *
 *
-constructor
+class
 *
 /
 function

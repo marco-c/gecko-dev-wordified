@@ -5981,7 +5981,7 @@ search
 .
 *
 *
-emits
+fires
 ruleview
 -
 filtered

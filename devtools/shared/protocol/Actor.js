@@ -230,7 +230,7 @@ conn
 property
 .
 *
-constructor
+class
 *
 /
 class

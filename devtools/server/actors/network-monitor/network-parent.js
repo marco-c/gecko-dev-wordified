@@ -159,7 +159,7 @@ process
 .
 *
 *
-constructor
+class
 *
 /
 class

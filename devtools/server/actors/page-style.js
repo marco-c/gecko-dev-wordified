@@ -459,7 +459,7 @@ PageStyleActor
 .
 *
 *
-constructor
+class
 *
 /
 constructor

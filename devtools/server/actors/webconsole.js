@@ -796,7 +796,7 @@ feature
 .
 *
 *
-constructor
+class
 *
 param
 object

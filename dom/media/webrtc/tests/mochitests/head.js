@@ -629,7 +629,7 @@ AnalyserNodes
 .
 *
 *
-constructor
+class
 *
 param
 {
@@ -6955,7 +6955,7 @@ completes
 .
 *
 *
-constructor
+class
 *
 param
 {

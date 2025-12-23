@@ -639,7 +639,7 @@ RuleRewriter
 *
 *
 *
-constructor
+class
 *
 param
 {

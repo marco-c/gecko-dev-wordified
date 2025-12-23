@@ -128,7 +128,7 @@ instance
 .
 *
 *
-constructor
+class
 *
 param
 nsIDOMWindow

@@ -595,7 +595,7 @@ actions
 .
 *
 *
-extends
+augments
 {
 React
 .
@@ -1561,7 +1561,7 @@ page
 .
 *
 *
-extends
+augments
 {
 React
 .

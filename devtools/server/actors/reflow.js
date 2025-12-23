@@ -2420,7 +2420,7 @@ docshells
 .
 *
 *
-extends
+augments
 Observable
 *
 param
@@ -2611,7 +2611,7 @@ windows
 .
 *
 *
-extends
+augments
 Observable
 *
 param

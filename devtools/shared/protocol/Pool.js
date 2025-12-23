@@ -182,7 +182,7 @@ the
 Pool
 .
 *
-constructor
+class
 *
 /
 class

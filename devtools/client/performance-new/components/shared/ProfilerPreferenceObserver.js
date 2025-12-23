@@ -422,7 +422,7 @@ Firefox
 .
 *
 *
-extends
+augments
 {
 React
 .

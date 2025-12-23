@@ -153,7 +153,7 @@ process
 CSS
 *
 *
-constructor
+class
 *
 /
 loader

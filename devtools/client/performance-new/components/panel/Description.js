@@ -202,7 +202,7 @@ links
 .
 *
 *
-extends
+augments
 {
 React
 .

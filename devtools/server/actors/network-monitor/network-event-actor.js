@@ -288,7 +288,7 @@ event
 .
 *
 *
-constructor
+class
 *
 param
 {

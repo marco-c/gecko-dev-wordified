@@ -640,7 +640,7 @@ process
 .
 *
 *
-constructor
+class
 *
 /
 class

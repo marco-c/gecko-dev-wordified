@@ -348,7 +348,7 @@ profiler
 .
 *
 *
-extends
+augments
 {
 React
 .
@@ -707,7 +707,7 @@ profiler
 .
 *
 *
-extends
+augments
 {
 React
 .

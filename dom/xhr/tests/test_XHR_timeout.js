@@ -332,7 +332,7 @@ applies
 .
 *
 *
-constructor
+class
 *
 implements
 DOMEventListener
