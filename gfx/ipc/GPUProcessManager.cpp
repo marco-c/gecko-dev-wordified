@@ -8828,6 +8828,7 @@ widget
 >
 Initialize
 (
+aOptions
 )
 )
 {

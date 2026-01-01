@@ -170,6 +170,13 @@ CompositorWidgetInitData
 bool
 Initialize
 (
+const
+layers
+:
+:
+CompositorOptions
+&
+aOptions
 )
 ;
 mozilla
