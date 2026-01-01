@@ -492,10 +492,10 @@ false
 swapLanguagesButton
 :
 false
-sourceTextArea
+sourceSectionTextArea
 :
 false
-targetTextArea
+targetSectionTextArea
 :
 false
 unsupportedInfoMessage
