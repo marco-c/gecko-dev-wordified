@@ -22123,7 +22123,7 @@ fn
 to_case_sensitivity
 (
 self
-local_name
+local_name_lower
 :
 &
 str
@@ -22194,7 +22194,7 @@ rs
 .
 contains
 (
-local_name
+local_name_lower
 )
 {
 ParsedCaseSensitivity
