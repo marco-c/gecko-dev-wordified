@@ -165,6 +165,15 @@ wgt
 :
 :
 InstanceDescriptor
+telemetry
+:
+Option
+<
+hal
+:
+:
+Telemetry
+>
 )
 -
 >
@@ -195,6 +204,7 @@ new
 (
 name
 instance_desc
+telemetry
 )
 surfaces
 :
