@@ -621,7 +621,7 @@ label
 label
 -
 >
-GetControl
+GetLabeledElementInternal
 (
 )
 )
