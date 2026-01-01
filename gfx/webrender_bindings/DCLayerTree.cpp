@@ -13853,7 +13853,7 @@ gfx_webrender_dcomp_video_vp_scaling_win_AtStartup
 &
 aTransform
 .
-PreservesAxisAlignedRectangles
+IsTranslation
 (
 )
 )
