@@ -499,6 +499,11 @@ CanUseDComp
 (
 )
 ;
+bool
+CanUseDCompositionTexture
+(
+)
+;
 /
 /
 Returns
@@ -1270,6 +1275,13 @@ mDeviceLock
 ;
 bool
 mCompositorDeviceSupportsVideo
+MOZ_GUARDED_BY
+(
+mDeviceLock
+)
+;
+bool
+mSupportsDCompositionTexture
 MOZ_GUARDED_BY
 (
 mDeviceLock
