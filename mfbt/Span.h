@@ -348,6 +348,11 @@ mozilla_Span_h
 #
 include
 <
+algorithm
+>
+#
+include
+<
 array
 >
 #
