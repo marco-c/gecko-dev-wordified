@@ -19416,9 +19416,6 @@ unreachable
 )
 }
 }
-'
-outer_loop
-:
 loop
 {
 /
@@ -19542,8 +19539,6 @@ c
 else
 {
 break
-'
-outer_loop
 ;
 }
 ;
