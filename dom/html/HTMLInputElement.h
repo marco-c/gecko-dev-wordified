@@ -760,13 +760,13 @@ using
 nsGenericHTMLFormControlElementWithState
 :
 :
-GetForm
+GetFormAction
 ;
 using
 nsGenericHTMLFormControlElementWithState
 :
 :
-GetFormAction
+GetFormForBindings
 ;
 using
 ValueSetterOption

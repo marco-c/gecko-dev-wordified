@@ -230,9 +230,16 @@ return
 true
 ;
 }
+Element
+*
+GetFormForBindings
+(
+)
+const
+;
 HTMLFormElement
 *
-GetForm
+GetFormInternal
 (
 )
 const
