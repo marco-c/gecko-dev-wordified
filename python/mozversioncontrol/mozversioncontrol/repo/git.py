@@ -771,9 +771,6 @@ Return
 a
 list
 of
--
--
-remotes
 arguments
 to
 limit
@@ -786,20 +783,9 @@ remotes
 "
 "
         
-official_remotes
-=
+return
 [
-            
-f
-"
--
--
-remotes
-=
-{
 remote
-}
-"
 for
 remote
 in
@@ -808,20 +794,16 @@ self
 get_mozilla_upstream_remotes
 (
 )
-        
 ]
-        
-return
-official_remotes
-if
-official_remotes
-else
+or
 [
+            
 "
 -
 -
 remotes
 "
+        
 ]
     
 property
