@@ -489,6 +489,9 @@ false
 targetLanguageSelector
 :
 false
+copyButton
+:
+false
 swapLanguagesButton
 :
 false

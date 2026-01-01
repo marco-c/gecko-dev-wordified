@@ -95,6 +95,9 @@ false
 targetLanguageSelector
 :
 false
+copyButton
+:
+false
 swapLanguagesButton
 :
 false
@@ -184,6 +187,9 @@ sourceLanguageSelector
 :
 true
 targetLanguageSelector
+:
+true
+copyButton
 :
 true
 swapLanguagesButton
@@ -289,6 +295,9 @@ sourceLanguageSelector
 :
 false
 targetLanguageSelector
+:
+false
+copyButton
 :
 false
 swapLanguagesButton
