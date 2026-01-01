@@ -9421,7 +9421,7 @@ nsAString
 &
 aReferenceTarget
 =
-EmptyString
+VoidString
 (
 )
 )

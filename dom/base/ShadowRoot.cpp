@@ -570,13 +570,6 @@ mIsSerializable
 (
 aIsSerializable
 )
-mReferenceTarget
-(
-nsGkAtoms
-:
-:
-_empty
-)
 {
 /
 /
@@ -6116,11 +6109,6 @@ nsAtom
 aTarget
 )
 {
-MOZ_ASSERT
-(
-aTarget
-)
-;
 mReferenceTarget
 =
 std
