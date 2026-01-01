@@ -412,6 +412,15 @@ NotifyNotUsed
 )
 override
 ;
+void
+SetReadFence
+(
+Fence
+*
+aReadFence
+)
+override
+;
 BufferTextureHost
 *
 AsBufferTextureHost

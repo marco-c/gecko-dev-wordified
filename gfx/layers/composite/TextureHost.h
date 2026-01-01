@@ -547,6 +547,9 @@ class
 DXGIYCbCrTextureHostD3D11
 ;
 class
+Fence
+;
+class
 SurfaceDescriptor
 ;
 class
@@ -4417,6 +4420,16 @@ GetTextureHostType
 return
 mTextureHostType
 ;
+}
+virtual
+void
+SetReadFence
+(
+Fence
+*
+aReadFence
+)
+{
 }
 /
 /
