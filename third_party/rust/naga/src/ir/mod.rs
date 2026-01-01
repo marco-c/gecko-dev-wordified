@@ -3045,8 +3045,8 @@ Handle
 /
 /
 /
-Immediate
-data
+Push
+constants
 .
 /
 /
@@ -3087,7 +3087,7 @@ buffer
 /
 but
 by
-SetImmediates
+SetPushConstant
 pass
 commands
 allowing
@@ -3112,7 +3112,7 @@ dispatch
 /
 /
 /
-Immediate
+PushConstant
 variables
 may
 not
@@ -3150,7 +3150,7 @@ of
 /
 /
 /
-Immediate
+PushConstant
 variables
 .
 /
@@ -3173,7 +3173,7 @@ Capabilities
 :
 :
 SHADER_FLOAT16
-Immediate
+PushConstant
 /
 /
 /

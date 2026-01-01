@@ -242,19 +242,19 @@ glow
 :
 UniformLocation
 >
-immediates_descs
+push_constant_descs
 :
 ArrayVec
 <
 super
 :
 :
-ImmediateDesc
+PushConstantDesc
 {
 super
 :
 :
-MAX_IMMEDIATES_COMMANDS
+MAX_PUSH_CONSTANT_COMMANDS
 }
 >
 /
@@ -264,11 +264,12 @@ current
 state
 of
 the
-immediate
+push
+constant
 data
 block
 .
-current_immediates_data
+current_push_constant_data
 :
 [
 u32
@@ -276,7 +277,7 @@ u32
 super
 :
 :
-MAX_IMMEDIATES
+MAX_PUSH_CONSTANTS
 ]
 end_of_pass_timestamp
 :
@@ -466,7 +467,7 @@ Default
 default
 (
 )
-immediates_descs
+push_constant_descs
 :
 Default
 :
@@ -474,7 +475,7 @@ Default
 default
 (
 )
-current_immediates_data
+current_push_constant_data
 :
 [
 0
@@ -482,7 +483,7 @@ current_immediates_data
 super
 :
 :
-MAX_IMMEDIATES
+MAX_PUSH_CONSTANTS
 ]
 end_of_pass_timestamp
 :
@@ -606,7 +607,7 @@ as
 u32
 }
 fn
-add_immediates_data
+add_push_constant_data
 (
 &
 mut
@@ -1657,14 +1658,14 @@ self
 .
 state
 .
-immediates_descs
+push_constant_descs
 .
 clone_from
 (
 &
 inner
 .
-immediates_descs
+push_constant_descs
 )
 ;
 /
@@ -3734,6 +3735,7 @@ clone
 ;
 }
 if
+!
 cat
 .
 ops
@@ -3746,7 +3748,7 @@ crate
 AttachmentOps
 :
 :
-STORE_DISCARD
+STORE
 )
 {
 self
@@ -3873,6 +3875,7 @@ DEPTH
 )
 &
 &
+!
 dsat
 .
 depth_ops
@@ -3885,7 +3888,7 @@ crate
 AttachmentOps
 :
 :
-STORE_DISCARD
+STORE
 )
 {
 self
@@ -3918,6 +3921,7 @@ STENCIL
 )
 &
 &
+!
 dsat
 .
 stencil_ops
@@ -3930,7 +3934,7 @@ crate
 AttachmentOps
 :
 :
-STORE_DISCARD
+STORE
 )
 {
 self
@@ -4107,6 +4111,7 @@ enumerate
 )
 {
 if
+!
 cat
 .
 ops
@@ -4119,7 +4124,7 @@ crate
 AttachmentOps
 :
 :
-LOAD_CLEAR
+LOAD
 )
 {
 let
@@ -4331,6 +4336,7 @@ depth_stencil_attachment
 let
 clear_depth
 =
+!
 dsat
 .
 depth_ops
@@ -4343,12 +4349,13 @@ crate
 AttachmentOps
 :
 :
-LOAD_CLEAR
+LOAD
 )
 ;
 let
 clear_stencil
 =
+!
 dsat
 .
 stencil_ops
@@ -4361,7 +4368,7 @@ crate
 AttachmentOps
 :
 :
-LOAD_CLEAR
+LOAD
 )
 ;
 if
@@ -5121,7 +5128,7 @@ dirty_samplers
 }
 unsafe
 fn
-set_immediates
+set_push_constants
 (
 &
 mut
@@ -5133,6 +5140,12 @@ super
 :
 :
 PipelineLayout
+_stages
+:
+wgt
+:
+:
+ShaderStages
 offset_bytes
 :
 u32
@@ -5168,7 +5181,7 @@ or
 matrix
 in
 the
-set_immediates
+set_push_constant
 call
 as
 to
@@ -5209,8 +5222,8 @@ current
 state
 of
 the
-immediate
-data
+push
+constant
 memory
 /
 /
@@ -5263,7 +5276,7 @@ self
 .
 state
 .
-current_immediates_data
+current_push_constant_data
 [
 start_words
 as
@@ -5302,8 +5315,8 @@ updating
 from
 the
 same
-immediate
-data
+push
+constant
 memory
 (
 one
@@ -5349,7 +5362,7 @@ self
 .
 state
 .
-immediates_descs
+push_constant_descs
 .
 iter
 (
@@ -5421,7 +5434,7 @@ self
 .
 state
 .
-current_immediates_data
+current_push_constant_data
 [
 uniform_start_words
 as
@@ -5440,7 +5453,7 @@ self
 .
 cmd_buffer
 .
-add_immediates_data
+add_push_constant_data
 (
 uniform_data
 )
@@ -5456,7 +5469,7 @@ push
 C
 :
 :
-SetImmediates
+SetPushConstants
 {
 uniform
 offset

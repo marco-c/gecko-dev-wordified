@@ -53,8 +53,8 @@ binding_model
 :
 {
 BindingError
-ImmediateUploadError
 LateMinBufferBindingSizeMismatch
+PushConstantUploadError
 }
 resource
 :
@@ -917,13 +917,13 @@ error
 transparent
 )
 ]
-ImmediateData
+PushConstants
 (
 #
 [
 from
 ]
-ImmediateUploadError
+PushConstantUploadError
 )
 #
 [
@@ -1229,7 +1229,7 @@ e
 Self
 :
 :
-ImmediateData
+PushConstants
 (
 e
 )

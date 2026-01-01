@@ -3537,7 +3537,7 @@ _
 }
 let
 mut
-immediates_used
+push_constant_used
 =
 false
 ;
@@ -3616,12 +3616,12 @@ BUFFER_STORAGE
 AddressSpace
 :
 :
-Immediate
+PushConstant
 =
 >
 {
 if
-immediates_used
+push_constant_used
 {
 return
 Err
@@ -3629,11 +3629,11 @@ Err
 Error
 :
 :
-MultipleImmediateData
+MultiplePushConstants
 )
 ;
 }
-immediates_used
+push_constant_used
 =
 true
 ;

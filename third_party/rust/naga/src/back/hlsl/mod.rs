@@ -1570,7 +1570,7 @@ global
 variables
 or
 [
-immediates_target
+push_constants_target
 ]
 for
 /
@@ -1582,7 +1582,7 @@ module
 s
 sole
 [
-Immediate
+PushConstant
 ]
 variable
 .
@@ -1646,18 +1646,18 @@ binding_map
 /
 /
 [
-immediates_target
+push_constants_target
 ]
 :
 Options
 :
 :
-immediates_target
+push_constants_target
 /
 /
 /
 [
-Immediate
+PushConstant
 ]
 :
 crate
@@ -1669,7 +1669,7 @@ ir
 AddressSpace
 :
 :
-Immediate
+PushConstant
 #
 [
 derive
@@ -3978,7 +3978,7 @@ information
 for
 the
 [
-Immediate
+PushConstant
 ]
 global
 if
@@ -3999,7 +3999,7 @@ global
 in
 the
 [
-Immediate
+PushConstant
 ]
 address
 space
@@ -4044,7 +4044,7 @@ here
 /
 /
 [
-Immediate
+PushConstant
 ]
 :
 crate
@@ -4056,7 +4056,7 @@ ir
 AddressSpace
 :
 :
-Immediate
+PushConstant
 /
 /
 /
@@ -4092,7 +4092,7 @@ d3d12
 -
 d3d12_root_parameter_type
 pub
-immediates_target
+push_constants_target
 :
 Option
 <
@@ -4385,7 +4385,7 @@ BTreeMap
 default
 (
 )
-immediates_target
+push_constants_target
 :
 None
 dynamic_storage_buffer_offsets_targets

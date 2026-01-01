@@ -8901,7 +8901,7 @@ CONSTRUCTIBLE
 ShaderStages
 :
 :
-COMPUTE_LIKE
+COMPUTE
 }
 else
 {

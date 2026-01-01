@@ -5831,6 +5831,7 @@ as_ref
 )
 {
 if
+!
 cat
 .
 ops
@@ -5843,7 +5844,7 @@ crate
 AttachmentOps
 :
 :
-LOAD_CLEAR
+LOAD
 )
 {
 let
@@ -6011,6 +6012,7 @@ view
 aspects
 ;
 if
+!
 ds
 .
 depth_ops
@@ -6023,7 +6025,7 @@ crate
 AttachmentOps
 :
 :
-LOAD_CLEAR
+LOAD
 )
 &
 &
@@ -6050,6 +6052,7 @@ D3D12_CLEAR_FLAG_DEPTH
 ;
 }
 if
+!
 ds
 .
 stencil_ops
@@ -6062,7 +6065,7 @@ crate
 AttachmentOps
 :
 :
-LOAD_CLEAR
+LOAD
 )
 &
 &
@@ -7322,7 +7325,7 @@ shared
 }
 unsafe
 fn
-set_immediates
+set_push_constants
 (
 &
 mut
@@ -7334,6 +7337,12 @@ super
 :
 :
 PipelineLayout
+_stages
+:
+wgt
+:
+:
+ShaderStages
 offset_bytes
 :
 u32

@@ -117,14 +117,15 @@ Set
 a
 range
 of
-immediates
+push
+constants
 to
 values
 stored
 in
-immediates_data
+push_constant_data
 .
-SetImmediate
+SetPushConstant
 {
 /
 /
@@ -134,8 +135,8 @@ byte
 offset
 within
 the
-immediate
-data
+push
+constant
 storage
 to
 write
@@ -181,7 +182,7 @@ u32
 /
 Index
 in
-immediates_data
+push_constant_data
 of
 the
 start
@@ -226,7 +227,7 @@ first
 u32
 element
 in
-immediates_data
+push_constant_data
 to
 read
 .

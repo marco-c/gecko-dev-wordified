@@ -9166,7 +9166,7 @@ pop_debug_group
 C
 :
 :
-SetImmediates
+SetPushConstants
 {
 ref
 uniform

@@ -468,9 +468,6 @@ MacCatalyst2
 Metal3
 =
 5001
-Metal4
-=
-5002
 }
 /
 /
@@ -9576,7 +9573,7 @@ bool
 {
 unsafe
 {
-msg_send_bool
+msg_send
 !
 [
 self

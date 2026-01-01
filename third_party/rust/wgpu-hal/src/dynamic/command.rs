@@ -359,7 +359,7 @@ DynamicOffset
 ;
 unsafe
 fn
-set_immediates
+set_push_constants
 (
 &
 mut
@@ -369,6 +369,12 @@ layout
 &
 dyn
 DynPipelineLayout
+stages
+:
+wgt
+:
+:
+ShaderStages
 offset_bytes
 :
 u32
@@ -1837,7 +1843,7 @@ dynamic_offsets
 }
 unsafe
 fn
-set_immediates
+set_push_constants
 (
 &
 mut
@@ -1847,6 +1853,12 @@ layout
 &
 dyn
 DynPipelineLayout
+stages
+:
+wgt
+:
+:
+ShaderStages
 offset_bytes
 :
 u32
@@ -1872,10 +1884,11 @@ unsafe
 C
 :
 :
-set_immediates
+set_push_constants
 (
 self
 layout
+stages
 offset_bytes
 data
 )

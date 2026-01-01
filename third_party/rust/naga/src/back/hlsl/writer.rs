@@ -3156,7 +3156,7 @@ false
 log
 :
 :
-debug
+info
 !
 (
 "
@@ -6666,7 +6666,7 @@ binding
 log
 :
 :
-debug
+info
 !
 (
 "
@@ -7097,7 +7097,7 @@ crate
 AddressSpace
 :
 :
-Immediate
+PushConstant
 =
 >
 {
@@ -7107,7 +7107,8 @@ The
 type
 of
 the
-immediates
+push
+constants
 will
 be
 wrapped
@@ -7139,8 +7140,8 @@ the
 global
 is
 a
-immediate
-data
+push
+constant
 write
 the
 type
@@ -7168,7 +7169,7 @@ crate
 AddressSpace
 :
 :
-Immediate
+PushConstant
 {
 self
 .
@@ -7288,7 +7289,8 @@ name
 ;
 /
 /
-Immediates
+Push
+constants
 need
 to
 be
@@ -7326,7 +7328,7 @@ crate
 AddressSpace
 :
 :
-Immediate
+PushConstant
 {
 match
 module
@@ -7416,7 +7418,7 @@ self
 .
 options
 .
-immediates_target
+push_constants_target
 .
 as_ref
 (
@@ -7432,7 +7434,8 @@ was
 defined
 for
 the
-immediates
+push
+constants
 block
 "
 )
@@ -8512,7 +8515,7 @@ err
 log
 :
 :
-debug
+info
 !
 (
 "
@@ -23258,7 +23261,7 @@ crate
 AddressSpace
 :
 :
-Immediate
+PushConstant
 |
 crate
 :
