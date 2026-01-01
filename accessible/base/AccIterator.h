@@ -1230,11 +1230,13 @@ mCurrIdx
 ;
 nsTArray
 <
+RefPtr
+<
 dom
 :
 :
 Element
-*
+>
 >
 mElements
 ;
