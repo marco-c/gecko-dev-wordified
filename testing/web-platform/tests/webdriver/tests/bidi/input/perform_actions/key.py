@@ -297,7 +297,7 @@ w
 .
 pause
 (
-250
+100
 *
 configuration
 [

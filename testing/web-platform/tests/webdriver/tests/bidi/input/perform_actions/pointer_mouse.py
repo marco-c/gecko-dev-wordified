@@ -317,7 +317,7 @@ button
 .
 pause
 (
-250
+100
 *
 configuration
 [
