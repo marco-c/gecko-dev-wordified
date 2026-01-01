@@ -21662,6 +21662,13 @@ cookiesAndSiteData
 initSettingGroup
 (
 "
+cookiesAndSiteData2
+"
+)
+;
+initSettingGroup
+(
+"
 certificates
 "
 )
