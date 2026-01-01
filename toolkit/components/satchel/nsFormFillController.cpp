@@ -7334,7 +7334,7 @@ return
 input
 -
 >
-GetListInternal
+GetList
 (
 )
 ;

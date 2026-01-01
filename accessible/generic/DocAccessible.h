@@ -1889,8 +1889,9 @@ dom
 Element
 *
 aElement
-nsAtom
-*
+const
+nsAString
+&
 aID
 )
 const
@@ -4326,7 +4327,7 @@ AttrRelProviders
 typedef
 nsClassHashtable
 <
-nsAtomHashKey
+nsStringHashKey
 AttrRelProviders
 >
 DependentIDsHashtable
@@ -4379,8 +4380,9 @@ dom
 Element
 *
 aElement
-nsAtom
-*
+const
+nsAString
+&
 aID
 )
 const
@@ -4395,8 +4397,9 @@ dom
 Element
 *
 aElement
-nsAtom
-*
+const
+nsAString
+&
 aID
 )
 ;
@@ -4409,8 +4412,9 @@ dom
 Element
 *
 aElement
-nsAtom
-*
+const
+nsAString
+&
 aID
 )
 ;

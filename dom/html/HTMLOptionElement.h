@@ -504,15 +504,9 @@ aRv
 )
 ;
 }
-Element
-*
-GetFormForBindings
-(
-)
-;
 HTMLFormElement
 *
-GetFormInternal
+GetForm
 (
 )
 ;

@@ -407,16 +407,9 @@ WebIDL
 Interface
 *
 /
-Element
-*
-GetFormForBindings
-(
-)
-const
-;
 HTMLFormElement
 *
-GetFormInternal
+GetForm
 (
 )
 const
@@ -474,7 +467,7 @@ Element
 *
 form
 =
-GetFormInternal
+GetForm
 (
 )
 ;
