@@ -16826,13 +16826,6 @@ SyncWindowPropertiesIfNeeded
 (
 )
 ;
-ps
--
->
-PaintSynchronously
-(
-)
-;
 /
 /
 Paint
@@ -16862,6 +16855,13 @@ this
 )
 ;
 }
+ps
+-
+>
+PaintSynchronously
+(
+)
+;
 }
 return
 true
