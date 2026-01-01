@@ -468,7 +468,7 @@ MOZ_FFVPX_AUDIOONLY
 #
 include
 "
-config_components
+config_override
 .
 h
 "
