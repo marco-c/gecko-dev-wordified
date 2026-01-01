@@ -799,6 +799,12 @@ bool
 transient_saves_memory
 :
 bool
+subgroup_min_size
+:
+u32
+subgroup_max_size
+:
+u32
 }
 #
 [

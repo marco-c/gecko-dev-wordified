@@ -656,7 +656,7 @@ ffi
 CopyExternalImageDestInfo
 ;
 const
-PUSH_CONSTANT_CLEAR_ARRAY
+IMMEDIATES_CLEAR_ARRAY
 :
 &
 [
@@ -9502,7 +9502,7 @@ u8
 Data
 used
 by
-SetPushConstant
+SetImmediate
 instructions
 .
 /
@@ -9519,7 +9519,7 @@ for
 RenderCommand
 :
 :
-SetPushConstant
+SetImmediate
 ]
 /
 /
@@ -9529,13 +9529,13 @@ and
 ComputeCommand
 :
 :
-SetPushConstant
+SetImmediate
 ]
 for
 details
 .
 pub
-push_constant_data
+immediates_data
 :
 Vec
 <
@@ -9613,7 +9613,7 @@ Vec
 new
 (
 )
-push_constant_data
+immediates_data
 :
 Vec
 :
@@ -9685,7 +9685,7 @@ Vec
 new
 (
 )
-push_constant_data
+immediates_data
 :
 Vec
 :
@@ -9856,7 +9856,7 @@ self
 .
 string_data
 )
-push_constant_data
+immediates_data
 :
 mem
 :
@@ -9867,7 +9867,7 @@ take
 mut
 self
 .
-push_constant_data
+immediates_data
 )
 }
 )
@@ -12899,7 +12899,7 @@ Ok
 )
 }
 fn
-push_constant_clear
+immediates_clear
 <
 PushFn
 >
@@ -12941,7 +12941,7 @@ size_bytes
 wgt
 :
 :
-PUSH_CONSTANT_ALIGNMENT
+IMMEDIATE_DATA_ALIGNMENT
 ;
 while
 count_words
@@ -12956,7 +12956,7 @@ count_words
 wgt
 :
 :
-PUSH_CONSTANT_ALIGNMENT
+IMMEDIATE_DATA_ALIGNMENT
 ;
 let
 size_to_write_words
@@ -12969,7 +12969,7 @@ count_words
 .
 min
 (
-PUSH_CONSTANT_CLEAR_ARRAY
+IMMEDIATES_CLEAR_ARRAY
 .
 len
 (
@@ -12984,7 +12984,7 @@ offset
 +
 count_bytes
 &
-PUSH_CONSTANT_CLEAR_ARRAY
+IMMEDIATES_CLEAR_ARRAY
 [
 0
 .
@@ -13872,12 +13872,12 @@ error
 "
 In
 a
-set_push_constant
+set_immediates
 command
 "
 )
 ]
-SetPushConstant
+SetImmediate
 #
 [
 error

@@ -557,6 +557,15 @@ wgt
 :
 :
 InstanceDescriptor
+telemetry
+:
+Option
+<
+hal
+:
+:
+Telemetry
+>
 )
 -
 >
@@ -622,6 +631,7 @@ api
 :
 Vulkan
 instance_desc
+telemetry
 )
 ;
 #
@@ -643,6 +653,7 @@ api
 :
 Metal
 instance_desc
+telemetry
 )
 ;
 #
@@ -664,6 +675,7 @@ api
 :
 Dx12
 instance_desc
+telemetry
 )
 ;
 #
@@ -685,6 +697,7 @@ api
 :
 Gles
 instance_desc
+telemetry
 )
 ;
 #
@@ -710,6 +723,7 @@ api
 :
 Noop
 instance_desc
+telemetry
 )
 ;
 this
@@ -763,6 +777,15 @@ wgt
 :
 :
 InstanceDescriptor
+telemetry
+:
+Option
+<
+hal
+:
+:
+Telemetry
+>
 )
 {
 /
@@ -884,6 +907,7 @@ backend_options
 clone
 (
 )
+telemetry
 }
 ;
 use

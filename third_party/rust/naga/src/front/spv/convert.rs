@@ -2499,7 +2499,7 @@ crate
 AddressSpace
 :
 :
-PushConstant
+Immediate
 )
 _
 =

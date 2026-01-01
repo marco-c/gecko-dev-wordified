@@ -32,6 +32,13 @@ RawWindowHandle
 }
 }
 ;
+#
+[
+allow
+(
+deprecated
+)
+]
 use
 cocoa
 :
@@ -785,6 +792,13 @@ set_presents_with_transaction
 false
 )
 ;
+#
+[
+allow
+(
+deprecated
+)
+]
 unsafe
 {
 if
