@@ -2670,9 +2670,6 @@ const
 nsresult
 SerializeNodePartiallyContainedInRange
 (
-nsINode
-&
-aNode
 nsIContent
 &
 aContent
@@ -2691,10 +2688,6 @@ aDepth
 nsresult
 SerializeTextNode
 (
-nsINode
-&
-aNode
-const
 nsIContent
 &
 aContent
@@ -5904,10 +5897,6 @@ RangeSerializer
 :
 SerializeTextNode
 (
-nsINode
-&
-aNode
-const
 nsIContent
 &
 aContent
@@ -5980,7 +5969,7 @@ mNodeSerializer
 .
 SerializeTextNode
 (
-aNode
+aContent
 startOffset
 endOffset
 )
@@ -6140,8 +6129,6 @@ rv
 SerializeNodePartiallyContainedInRange
 (
 *
-aNode
-*
 content
 startAndEndContent
 *
@@ -6178,9 +6165,6 @@ RangeSerializer
 :
 SerializeNodePartiallyContainedInRange
 (
-nsINode
-&
-aNode
 nsIContent
 &
 aContent
@@ -6243,7 +6227,7 @@ if
 IsTextNode
 (
 &
-aNode
+aContent
 )
 )
 {
@@ -6252,7 +6236,6 @@ rv
 =
 SerializeTextNode
 (
-aNode
 aContent
 aStartAndEndContent
 aRange
@@ -6270,7 +6253,7 @@ else
 if
 (
 &
-aNode
+aContent
 !
 =
 mClosestCommonInclusiveAncestorOfRange
@@ -6284,7 +6267,7 @@ mRangeNodeContext
 .
 IncludeInContext
 (
-aNode
+aContent
 )
 )
 {
@@ -6378,7 +6361,7 @@ mNodeSerializer
 .
 SerializeNodeStart
 (
-aNode
+aContent
 0
 -
 1
@@ -6725,7 +6708,7 @@ mAllowCrossShadowBoundary
 if
 (
 &
-aNode
+aContent
 !
 =
 endContainer
@@ -6791,7 +6774,7 @@ node
 if
 (
 &
-aNode
+aContent
 !
 =
 mClosestCommonInclusiveAncestorOfRange
@@ -6804,7 +6787,7 @@ mNodeSerializer
 .
 SerializeNodeEnd
 (
-aNode
+aContent
 )
 ;
 NS_ENSURE_SUCCESS
