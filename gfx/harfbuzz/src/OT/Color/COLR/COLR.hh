@@ -10751,6 +10751,8 @@ switch
 u
 .
 format
+.
+v
 )
 {
 case
@@ -10817,6 +10819,8 @@ switch
 u
 .
 format
+.
+v
 )
 {
 case
@@ -10884,6 +10888,8 @@ this
 u
 .
 format
+.
+v
 )
 )
 )
@@ -10901,6 +10907,8 @@ this
 u
 .
 format
+.
+v
 )
 ;
 switch
@@ -10908,6 +10916,8 @@ switch
 u
 .
 format
+.
+v
 )
 {
 case
@@ -11003,6 +11013,8 @@ switch
 u
 .
 format
+.
+v
 )
 {
 case
@@ -11093,7 +11105,12 @@ protected
 :
 union
 {
+struct
+{
 HBUINT8
+v
+;
+}
 format
 ;
 /
@@ -12136,6 +12153,8 @@ this
 u
 .
 format
+.
+v
 )
 )
 )
@@ -12153,6 +12172,8 @@ this
 u
 .
 format
+.
+v
 )
 ;
 switch
@@ -12160,6 +12181,8 @@ switch
 u
 .
 format
+.
+v
 )
 {
 case
@@ -13108,7 +13131,12 @@ protected
 :
 union
 {
+struct
+{
 HBUINT8
+v
+;
+}
 format
 ;
 PaintColrLayers

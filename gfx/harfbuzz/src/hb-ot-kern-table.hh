@@ -1880,6 +1880,8 @@ return
 u
 .
 version32
+.
+v
 ;
 }
 unsigned
@@ -1892,6 +1894,8 @@ return
 u
 .
 major
+.
+v
 ;
 }
 bool
@@ -2247,6 +2251,8 @@ u
 .
 version32
 .
+v
+.
 sanitize
 (
 c
@@ -2466,10 +2472,20 @@ protected
 :
 union
 {
+struct
+{
 HBUINT32
+v
+;
+}
 version32
 ;
+struct
+{
 HBUINT16
+v
+;
+}
 major
 ;
 KernOT
@@ -2492,6 +2508,8 @@ DEFINE_SIZE_UNION
 (
 4
 version32
+.
+v
 )
 ;
 }

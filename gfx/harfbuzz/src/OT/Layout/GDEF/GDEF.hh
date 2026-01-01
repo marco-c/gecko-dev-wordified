@@ -1517,6 +1517,8 @@ switch
 u
 .
 format
+.
+v
 )
 {
 case
@@ -1615,6 +1617,8 @@ this
 u
 .
 format
+.
+v
 )
 )
 )
@@ -1632,6 +1636,8 @@ this
 u
 .
 format
+.
+v
 )
 ;
 switch
@@ -1639,6 +1645,8 @@ switch
 u
 .
 format
+.
+v
 )
 {
 case
@@ -1756,6 +1764,8 @@ switch
 u
 .
 format
+.
+v
 )
 {
 case
@@ -1807,6 +1817,8 @@ u
 .
 format
 .
+v
+.
 sanitize
 (
 c
@@ -1826,6 +1838,8 @@ switch
 u
 .
 format
+.
+v
 )
 {
 case
@@ -1886,7 +1900,12 @@ protected
 :
 union
 {
+struct
+{
 HBUINT16
+v
+;
+}
 format
 ;
 /
@@ -1913,6 +1932,8 @@ DEFINE_SIZE_UNION
 (
 2
 format
+.
+v
 )
 ;
 }
@@ -3111,6 +3132,8 @@ switch
 u
 .
 format
+.
+v
 )
 {
 case
@@ -3156,6 +3179,8 @@ switch
 u
 .
 format
+.
+v
 )
 {
 case
@@ -3201,6 +3226,8 @@ switch
 u
 .
 format
+.
+v
 )
 {
 case
@@ -3243,6 +3270,8 @@ switch
 u
 .
 format
+.
+v
 )
 {
 case
@@ -3290,6 +3319,8 @@ u
 .
 format
 .
+v
+.
 sanitize
 (
 c
@@ -3309,6 +3340,8 @@ switch
 u
 .
 format
+.
+v
 )
 {
 case
@@ -3339,7 +3372,12 @@ protected
 :
 union
 {
+struct
+{
 HBUINT16
+v
+;
+}
 format
 ;
 /
@@ -3360,6 +3398,8 @@ DEFINE_SIZE_UNION
 (
 2
 format
+.
+v
 )
 ;
 }

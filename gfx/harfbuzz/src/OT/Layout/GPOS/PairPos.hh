@@ -34,7 +34,12 @@ protected
 :
 union
 {
+struct
+{
 HBUINT16
+v
+;
+}
 format
 ;
 /
@@ -122,6 +127,8 @@ this
 u
 .
 format
+.
+v
 )
 )
 )
@@ -139,6 +146,8 @@ this
 u
 .
 format
+.
+v
 )
 ;
 switch
@@ -146,6 +155,8 @@ switch
 u
 .
 format
+.
+v
 )
 {
 case

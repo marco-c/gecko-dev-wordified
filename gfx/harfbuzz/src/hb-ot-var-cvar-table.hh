@@ -521,6 +521,8 @@ tuple_var_data
 get_size
 (
 axis_count
+*
+2
 )
 ;
 hb_bytes_t

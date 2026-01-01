@@ -22,6 +22,7 @@ import
 os
 sys
 shutil
+pathlib
 if
 len
 (
@@ -111,6 +112,10 @@ n
 .
 format
 (
+pathlib
+.
+Path
+(
 os
 .
 path
@@ -126,6 +131,11 @@ abspath
 x
 )
 CURRENT_SOURCE_DIR
+)
+)
+.
+as_posix
+(
 )
 )
 for

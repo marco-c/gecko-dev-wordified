@@ -1388,8 +1388,6 @@ gsubgpos_graph_context_t
 &
 c
 unsigned
-parent_index
-unsigned
 this_index
 )
 {
@@ -1727,15 +1725,7 @@ split_context
 {
 c
 this
-c
-.
-graph
-.
-duplicate_if_shared
-(
-parent_index
 this_index
-)
 std
 :
 :
@@ -2942,8 +2932,6 @@ gsubgpos_graph_context_t
 &
 c
 unsigned
-parent_index
-unsigned
 this_index
 )
 {
@@ -2952,6 +2940,8 @@ switch
 u
 .
 format
+.
+v
 )
 {
 case
@@ -2975,7 +2965,6 @@ format1
 split_subtables
 (
 c
-parent_index
 this_index
 )
 ;
@@ -3047,6 +3036,8 @@ u
 .
 format
 .
+v
+.
 get_size
 (
 )
@@ -3063,6 +3054,8 @@ switch
 u
 .
 format
+.
+v
 )
 {
 case

@@ -264,6 +264,7 @@ DEFINE_SIZE_STATIC
 }
 ;
 static
+inline
 void
 reverse_cursive_minor_offset
 (
