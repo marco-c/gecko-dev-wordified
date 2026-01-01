@@ -119,6 +119,18 @@ mach
 "
 python
 /
+mozboot
+"
+    
+"
+python
+/
+mozbuild
+"
+    
+"
+python
+/
 mozversioncontrol
 "
     
@@ -128,6 +140,14 @@ testing
 mozbase
 /
 mozfile
+"
+    
+"
+third_party
+/
+python
+/
+filelock
 "
     
 "
