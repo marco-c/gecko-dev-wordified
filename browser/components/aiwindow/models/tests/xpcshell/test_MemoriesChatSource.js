@@ -86,7 +86,9 @@ aiwindow
 /
 models
 /
-InsightsChatSource
+memories
+/
+MemoriesChatSource
 .
 sys
 .
