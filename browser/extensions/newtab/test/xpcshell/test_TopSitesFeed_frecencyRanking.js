@@ -215,6 +215,16 @@ cache
 frecent
 }
 ;
+feed
+.
+frecencyBoostProvider
+.
+frecentCache
+=
+feed
+.
+frecentCache
+;
 const
 frecencyBoostedSponsors
 =
@@ -456,6 +466,8 @@ sandbox
 stub
 (
 feed
+.
+frecencyBoostProvider
 "
 _frecencyBoostedSponsors
 "

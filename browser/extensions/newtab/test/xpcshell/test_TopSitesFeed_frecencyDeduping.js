@@ -252,6 +252,16 @@ frecent
 ;
 feed
 .
+frecencyBoostProvider
+.
+frecentCache
+=
+feed
+.
+frecentCache
+;
+feed
+.
 _contile
 =
 {
@@ -373,6 +383,8 @@ sandbox
 stub
 (
 feed
+.
+frecencyBoostProvider
 "
 _frecencyBoostedSponsors
 "
