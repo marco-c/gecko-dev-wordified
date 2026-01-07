@@ -6676,7 +6676,7 @@ form
 control
 -
 >
-GetFormInternal
+GetForm
 (
 )
 )
@@ -7470,7 +7470,7 @@ control
 label
 -
 >
-GetLabeledElementInternal
+GetControl
 (
 )
 ;

@@ -16755,7 +16755,7 @@ form
 control
 -
 >
-GetFormInternal
+GetForm
 (
 )
 )
@@ -31162,7 +31162,7 @@ we
 /
 /
 call
-GetLabeledElementInternal
+GetControl
 (
 )
 .
@@ -31173,11 +31173,11 @@ contains
 an
 element
 we
-/
-/
 will
 return
 it
+/
+/
 here
 .
 if
@@ -31209,7 +31209,7 @@ mDoc
 labelEl
 -
 >
-GetLabeledElementInternal
+GetControl
 (
 )
 )

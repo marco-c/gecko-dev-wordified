@@ -1155,7 +1155,7 @@ mContent
 )
 -
 >
-GetFormInternal
+GetForm
 (
 )
 )
@@ -3803,7 +3803,7 @@ formElement
 input
 -
 >
-GetFormInternal
+GetForm
 (
 )
 ;

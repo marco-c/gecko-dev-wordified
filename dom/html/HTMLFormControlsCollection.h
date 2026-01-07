@@ -610,10 +610,6 @@ TreeOrderedArray
 <
 nsGenericHTMLFormElement
 *
-TreeKind
-:
-:
-ShadowIncludingDOM
 >
 mElements
 ;
@@ -681,10 +677,6 @@ TreeOrderedArray
 <
 nsGenericHTMLFormElement
 *
-TreeKind
-:
-:
-ShadowIncludingDOM
 >
 mNotInElements
 ;
