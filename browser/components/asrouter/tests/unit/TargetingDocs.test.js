@@ -536,6 +536,9 @@ screenImpressions
 "
 browserIsSelected
 "
+"
+isAIWindow
+"
 ]
 ;
 for
