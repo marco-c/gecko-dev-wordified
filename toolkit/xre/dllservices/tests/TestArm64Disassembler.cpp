@@ -116,11 +116,6 @@ MPL
 /
 #
 include
-<
-cstdio
->
-#
-include
 "
 mozilla
 /

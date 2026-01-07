@@ -194,13 +194,6 @@ bug
 #
 include
 <
-stdio
-.
-h
->
-#
-include
-<
 shellapi
 .
 h

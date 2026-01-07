@@ -95,13 +95,6 @@ MPL
 /
 #
 include
-<
-stdio
-.
-h
->
-#
-include
 "
 nsIDragService
 .

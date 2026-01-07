@@ -494,13 +494,6 @@ h
 *
 /
 #
-include
-<
-stdio
-.
-h
->
-#
 define
 ftello
 _ftelli64

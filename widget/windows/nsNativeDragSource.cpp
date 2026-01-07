@@ -102,13 +102,6 @@ h
 "
 #
 include
-<
-stdio
-.
-h
->
-#
-include
 "
 nsISupportsImpl
 .

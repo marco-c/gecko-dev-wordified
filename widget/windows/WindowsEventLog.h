@@ -135,13 +135,6 @@ Log
 #
 include
 <
-stdio
-.
-h
->
-#
-include
-<
 windows
 .
 h

@@ -119,13 +119,6 @@ ifdef
 JS_JITSPEW
 #
 include
-<
-stdio
-.
-h
->
-#
-include
 "
 js
 /

@@ -169,13 +169,6 @@ h
 #
 include
 <
-stdio
-.
-h
->
-#
-include
-<
 mferror
 .
 h

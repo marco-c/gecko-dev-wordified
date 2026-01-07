@@ -71,11 +71,6 @@ cstddef
 #
 include
 <
-cstdio
->
-#
-include
-<
 cstdlib
 >
 #

@@ -169,13 +169,6 @@ UniquePtr
 .
 h
 "
-#
-include
-<
-stdio
-.
-h
->
 class
 nsIFile
 ;

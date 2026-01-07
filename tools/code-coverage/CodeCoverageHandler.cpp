@@ -94,13 +94,6 @@ MPL
 *
 /
 #
-include
-<
-stdio
-.
-h
->
-#
 ifdef
 XP_WIN
 #

@@ -192,11 +192,6 @@ cerrno
 #
 include
 <
-cstdio
->
-#
-include
-<
 cstring
 >
 #

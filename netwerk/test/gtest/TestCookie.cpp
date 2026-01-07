@@ -139,13 +139,6 @@ h
 "
 #
 include
-<
-stdio
-.
-h
->
-#
-include
 "
 plstr
 .

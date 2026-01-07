@@ -93,13 +93,6 @@ MPL
 /
 #
 include
-<
-stdio
-.
-h
->
-#
-include
 "
 nsBidiKeyboard
 .

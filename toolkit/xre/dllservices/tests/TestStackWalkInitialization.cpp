@@ -165,11 +165,6 @@ windows
 h
 >
 #
-include
-<
-cstdio
->
-#
 define
 TEST_FAILED
 (
