@@ -75,11 +75,17 @@ window
 scope
 .
 {
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineESModuleGetters
 (
-this
+lazy
 {
 BrowserSearchTelemetry
 :
@@ -743,6 +749,8 @@ this
 _oneOffButtons
 =
 new
+lazy
+.
 SearchOneOffs
 (
 this
@@ -1233,6 +1241,8 @@ on
 the
 search
 bar
+lazy
+.
 BrowserSearchTelemetry
 .
 recordSearchSuggestionSelectionMethod
@@ -1280,6 +1290,8 @@ subtlety
 let
 where
 =
+lazy
+.
 BrowserUtils
 .
 whereToOpenLink
