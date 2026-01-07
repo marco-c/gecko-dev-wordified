@@ -29084,6 +29084,7 @@ generator
 )
 )
 {
+const
 PreBarriered
 <
 DebuggerFrame
