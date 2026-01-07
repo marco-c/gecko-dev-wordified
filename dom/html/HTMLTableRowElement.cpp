@@ -1257,7 +1257,7 @@ aBuilder
 nsGenericHTMLElement
 :
 :
-MapDivAlignAttributeInto
+MapTableCellHAlignAttributeInto
 (
 aBuilder
 )
@@ -1265,7 +1265,7 @@ aBuilder
 nsGenericHTMLElement
 :
 :
-MapVAlignAttributeInto
+MapTableVAlignAttributeInto
 (
 aBuilder
 )
