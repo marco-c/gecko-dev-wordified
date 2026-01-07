@@ -1318,6 +1318,16 @@ const
 override
 ;
 nsSizeMode
+GetSizeMode
+(
+)
+const
+{
+return
+mSizeMode
+;
+}
+nsSizeMode
 SizeMode
 (
 )
