@@ -32754,7 +32754,7 @@ template
 typename
 T
 >
-void
+bool
 RemoveProperty
 (
 FrameProperties
@@ -32767,6 +32767,7 @@ T
 aProperty
 )
 {
+return
 mProperties
 .
 Remove

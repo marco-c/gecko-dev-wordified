@@ -1584,6 +1584,10 @@ property
 nothing
 *
 happens
+and
+false
+is
+returned
 .
 *
 /
@@ -1592,7 +1596,7 @@ template
 typename
 T
 >
-void
+bool
 Remove
 (
 Descriptor
@@ -1606,6 +1610,7 @@ nsIFrame
 aFrame
 )
 {
+return
 RemoveInternal
 (
 aProperty
@@ -1975,8 +1980,17 @@ bool
 aFoundResult
 )
 ;
+/
+/
+Returns
+whether
+the
+property
+was
+removed
+.
 inline
-void
+bool
 RemoveInternal
 (
 UntypedDescriptor
@@ -2746,7 +2760,7 @@ result
 ;
 }
 inline
-void
+bool
 FrameProperties
 :
 :
@@ -2794,7 +2808,7 @@ PropertyComparator
 if
 (
 index
-!
+=
 =
 nsTArray
 <
@@ -2805,6 +2819,10 @@ PropertyValue
 NoIndex
 )
 {
+return
+false
+;
+}
 mProperties
 .
 Elements
@@ -2826,7 +2844,9 @@ RemoveElementAtUnsafe
 index
 )
 ;
-}
+return
+true
+;
 }
 }
 /
