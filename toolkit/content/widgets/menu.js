@@ -948,6 +948,11 @@ name
 "
 acceltext
 "
+&
+&
+this
+.
+renderedOnce
 )
 {
 if
@@ -988,6 +993,11 @@ name
 "
 key
 "
+&
+&
+this
+.
+renderedOnce
 )
 {
 this
