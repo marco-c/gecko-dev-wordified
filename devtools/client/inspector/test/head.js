@@ -7379,6 +7379,7 @@ pre
 ;
 return
 textContainer
+?
 .
 textContent
 ;
