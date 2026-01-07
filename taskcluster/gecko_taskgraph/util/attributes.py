@@ -1171,6 +1171,11 @@ head_ref
         
 if
 m
+is
+not
+None
+and
+m
 .
 group
 (
