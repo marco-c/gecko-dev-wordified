@@ -3132,7 +3132,7 @@ list
 =
 input
 .
-GetList
+GetListInternal
 (
 )
 ;
