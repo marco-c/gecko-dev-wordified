@@ -379,7 +379,7 @@ title
 ;
 menuItem
 .
-setAttribute
+toggleAttribute
 (
 "
 checked
@@ -459,7 +459,7 @@ checked
 }
 noStyle
 .
-setAttribute
+toggleAttribute
 (
 "
 checked
@@ -469,7 +469,7 @@ styleDisabled
 ;
 persistentOnly
 .
-setAttribute
+toggleAttribute
 (
 "
 checked

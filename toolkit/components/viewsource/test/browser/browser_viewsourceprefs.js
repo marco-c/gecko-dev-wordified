@@ -424,9 +424,7 @@ wrapMenuItem
 checked
 "
 )
-"
-false
-"
+null
 "
 Wrap
 menu
@@ -624,9 +622,7 @@ wrapMenuItem
 checked
 "
 )
-"
-false
-"
+null
 "
 Wrap
 menu
@@ -719,9 +715,7 @@ syntaxMenuItem
 checked
 "
 )
-"
-false
-"
+null
 "
 Syntax
 menu
@@ -991,9 +985,7 @@ syntaxMenuItem
 checked
 "
 )
-"
-false
-"
+null
 "
 Syntax
 menu

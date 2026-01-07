@@ -5834,7 +5834,6 @@ tab
 is
 still
 selected
-selected
 "
 )
 ;

@@ -103,7 +103,7 @@ linkedBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 PAGE
@@ -170,10 +170,6 @@ querySelector
 menuitem
 [
 checked
-=
-'
-true
-'
 ]
 "
 )
@@ -277,10 +273,6 @@ querySelector
 menuitem
 [
 checked
-=
-'
-true
-'
 ]
 "
 )

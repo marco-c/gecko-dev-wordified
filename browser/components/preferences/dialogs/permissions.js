@@ -3434,7 +3434,7 @@ label
 ;
 website
 .
-setAttribute
+toggleAttribute
 (
 "
 disabled
@@ -3550,7 +3550,7 @@ label
 ;
 capability
 .
-setAttribute
+toggleAttribute
 (
 "
 disabled

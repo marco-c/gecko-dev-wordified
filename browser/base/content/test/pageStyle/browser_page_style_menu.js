@@ -219,7 +219,7 @@ linkedBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 WEB_ROOT
@@ -271,17 +271,12 @@ checked
 :
 el
 .
-getAttribute
+hasAttribute
 (
 "
 checked
 "
 )
-=
-=
-"
-true
-"
 }
 )
 )

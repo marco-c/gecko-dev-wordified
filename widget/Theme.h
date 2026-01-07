@@ -497,7 +497,7 @@ nsAtom
 *
 aAttribute
 )
-override
+final
 ;
 bool
 WidgetAppearanceDependsOnWindowFocus

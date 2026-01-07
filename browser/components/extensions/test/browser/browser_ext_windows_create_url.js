@@ -1465,12 +1465,11 @@ exist
 ;
 dialogEl
 .
-setAttribute
+removeAttribute
 (
 "
 buttondisabledaccept
 "
-false
 )
 ;
 dialogEl

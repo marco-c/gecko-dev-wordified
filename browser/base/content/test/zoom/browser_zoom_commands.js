@@ -372,15 +372,12 @@ equal
 (
 command
 .
-getAttribute
+hasAttribute
 (
 "
 checked
 "
 )
-"
-"
-+
 isChecked
 "
 Text

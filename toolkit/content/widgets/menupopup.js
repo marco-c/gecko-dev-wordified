@@ -203,13 +203,9 @@ return
 "
 [
 checked
-=
-true
 ]
 [
 selected
-=
-true
 ]
 "
 ;
@@ -230,8 +226,6 @@ return
 "
 [
 checked
-=
-true
 ]
 "
 ;

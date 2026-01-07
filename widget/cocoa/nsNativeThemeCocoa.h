@@ -785,16 +785,6 @@ StyleAppearance
 override
 ;
 bool
-WidgetAttributeChangeRequiresRepaint
-(
-StyleAppearance
-nsAtom
-*
-aAttribute
-)
-override
-;
-bool
 ThemeSupportsWidget
 (
 nsPresContext

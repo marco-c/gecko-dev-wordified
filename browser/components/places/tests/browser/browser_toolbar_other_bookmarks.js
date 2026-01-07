@@ -2828,15 +2828,13 @@ is
 (
 otherBookmarksMenuItem
 .
-getAttribute
+hasAttribute
 (
 "
 checked
 "
 )
-{
 expectedCheckedState
-}
 Other
 Bookmarks
 item

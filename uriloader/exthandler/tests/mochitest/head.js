@@ -1259,13 +1259,10 @@ delay
 .
 dialogEl
 .
-setAttribute
+removeAttribute
 (
 "
 buttondisabledaccept
-"
-"
-false
 "
 )
 ;
