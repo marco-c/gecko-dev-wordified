@@ -18770,6 +18770,14 @@ tab
 ;
 panelEl
 .
+querySelector
+(
+"
+.
+browserStack
+"
+)
+.
 appendChild
 (
 footer

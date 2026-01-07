@@ -2340,6 +2340,15 @@ EventUtils
 synthesizeMouseAtCenter
 (
 findbar
+.
+getElement
+(
+"
+findbar
+-
+textbox
+"
+)
 {
 }
 )
