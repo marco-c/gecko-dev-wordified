@@ -5085,7 +5085,7 @@ checkbox
 ;
 menuitem
 .
-setAttribute
+toggleAttribute
 (
 "
 checked
@@ -5212,11 +5212,9 @@ originalTarget
 let
 checked
 =
-!
-!
 item
 .
-getAttribute
+hasAttribute
 (
 "
 checked
