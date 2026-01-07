@@ -119,7 +119,7 @@ __file__
 )
 )
 from
-shellutil
+mozshellutil
 import
 quote
 for

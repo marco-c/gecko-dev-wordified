@@ -54,9 +54,7 @@ MPL
 /
 .
 import
-mozbuild
-.
-shellutil
+mozshellutil
 class
 ConfVarsSyntaxError
 (
@@ -385,9 +383,7 @@ try
                 
 values
 =
-mozbuild
-.
-shellutil
+mozshellutil
 .
 split
 (
@@ -395,9 +391,7 @@ tail
 )
             
 except
-mozbuild
-.
-shellutil
+mozshellutil
 .
 MetaCharacterException
 as

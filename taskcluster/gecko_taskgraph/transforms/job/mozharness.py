@@ -2850,7 +2850,7 @@ we
 '
 d
 use
-shellutil
+mozshellutil
 .
 quote
 but

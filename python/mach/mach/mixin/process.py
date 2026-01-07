@@ -81,10 +81,8 @@ from
 typing
 import
 Optional
-from
-mozbuild
 import
-shellutil
+mozshellutil
 from
 mozprocess
 .
@@ -824,7 +822,7 @@ args
 .
 join
 (
-shellutil
+mozshellutil
 .
 quote
 (
@@ -1340,7 +1338,7 @@ status
 .
 join
 (
-shellutil
+mozshellutil
 .
 quote
 (

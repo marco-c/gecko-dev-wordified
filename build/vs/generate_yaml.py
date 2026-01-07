@@ -67,9 +67,7 @@ sys
 import
 yaml
 from
-mozbuild
-.
-shellutil
+mozshellutil
 import
 quote
 as

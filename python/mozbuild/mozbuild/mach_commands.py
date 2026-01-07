@@ -16580,17 +16580,15 @@ if
 debugger_args
 :
             
-from
-mozbuild
 import
-shellutil
+mozshellutil
             
 try
 :
                 
 debugger_args
 =
-shellutil
+mozshellutil
 .
 split
 (
@@ -16598,7 +16596,7 @@ debugger_args
 )
             
 except
-shellutil
+mozshellutil
 .
 MetaCharacterException
 as
@@ -25828,17 +25826,15 @@ if
 debugger_args
 :
         
-from
-mozbuild
 import
-shellutil
+mozshellutil
         
 try
 :
             
 debugger_args
 =
-shellutil
+mozshellutil
 .
 split
 (
@@ -25846,7 +25842,7 @@ debugger_args
 )
         
 except
-shellutil
+mozshellutil
 .
 MetaCharacterException
 as

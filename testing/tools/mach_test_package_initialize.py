@@ -196,6 +196,12 @@ mozserve
 "
 mozbase
 /
+mozshellutil
+"
+    
+"
+mozbase
+/
 mozsystemmonitor
 "
     

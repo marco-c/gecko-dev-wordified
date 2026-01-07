@@ -84,9 +84,7 @@ path
 as
 mozpath
 from
-mozbuild
-.
-shellutil
+mozshellutil
 import
 quote
 as

@@ -92,9 +92,7 @@ MachCommandConditions
 as
 conditions
 from
-mozbuild
-.
-shellutil
+mozshellutil
 import
 split
 as
