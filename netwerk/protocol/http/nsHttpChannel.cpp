@@ -41417,6 +41417,8 @@ pattern
 ;
 UrlpOptions
 options
+{
+}
 ;
 if
 (
