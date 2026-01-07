@@ -11,7 +11,7 @@ profile
 directory
 exists
 ;
-InsightStore
+MemoryStore
 uses
 the
 profile

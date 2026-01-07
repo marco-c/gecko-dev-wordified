@@ -26532,7 +26532,7 @@ browser
 .
 aiwindow
 .
-insights
+memories
 "
 false
 )
@@ -26544,7 +26544,7 @@ browser
 .
 aiwindow
 .
-insightsLogLevel
+memoriesLogLevel
 "
 "
 Warn
