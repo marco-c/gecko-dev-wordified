@@ -213,14 +213,26 @@ True
 [
                 
 "
+-
+-
+remotes
+=
 central
 "
                 
 "
+-
+-
+remotes
+=
 firefox
 "
                 
 "
+-
+-
+remotes
+=
 unified
 "
             
@@ -232,6 +244,10 @@ unified
 False
 [
 "
+-
+-
+remotes
+=
 firefox
 "
 ]
