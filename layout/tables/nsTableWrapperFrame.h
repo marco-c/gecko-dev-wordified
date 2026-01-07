@@ -1153,15 +1153,6 @@ GetCaptionSide
 )
 const
 ;
-mozilla
-:
-:
-StyleVerticalAlignKeyword
-GetCaptionVerticalAlign
-(
-)
-const
-;
 nscoord
 ComputeFinalBSize
 (
