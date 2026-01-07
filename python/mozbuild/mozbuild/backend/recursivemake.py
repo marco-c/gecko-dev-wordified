@@ -1078,9 +1078,6 @@ write
 "
 NONRECURSIVE_TARGETS_export_xpidl_DIRECTORY
 =
-"
-                
-"
 (
 DEPTH
 )
@@ -1104,8 +1101,6 @@ write
 NONRECURSIVE_TARGETS_export_xpidl_TARGETS
 +
 =
-"
-"
 export
 \
 n
@@ -13010,26 +13005,29 @@ lower
 .
 endswith
 (
-                            
 (
+                            
 "
 .
 dll
 "
+                            
 "
 .
 pdb
 "
+                            
 "
 .
 so
 "
+                            
 "
 .
 dylib
 "
-)
                         
+)
 )
 :
                             
@@ -14489,8 +14487,8 @@ rule
 .
 add_commands
 (
-                
 [
+                
 "
 (
 call
@@ -14513,8 +14511,8 @@ join
 args
 )
 )
-]
             
+]
 )
         
 args
@@ -14554,8 +14552,8 @@ rule
 .
 add_commands
 (
-            
 [
+            
 "
 (
 call
@@ -14582,8 +14580,8 @@ join
 args
 )
 )
-]
         
+]
 )
         
 fragment
@@ -15286,21 +15284,20 @@ rule
 .
 add_dependencies
 (
-                
 [
-                    
+                
 source
-                    
+                
 "
 backend
 .
 mk
 "
-                    
+                
 "
 Makefile
 "
-                    
+                
 "
 (
 DEPTH
@@ -15312,7 +15309,7 @@ autoconf
 .
 mk
 "
-                    
+                
 "
 (
 topsrcdir
@@ -15324,24 +15321,22 @@ config
 .
 mk
 "
-                
-]
             
+]
 )
             
 rule
 .
 add_commands
 (
-                
 [
-                    
+                
 "
 (
 RM
 )
 "
-                    
+                
 "
 (
 call
@@ -15353,17 +15348,13 @@ DEFINES
 (
 ACDEFINES
 )
-"
-                    
-"
 <
 -
 o
 )
 "
-                
-]
             
+]
 )
         
 mk
@@ -15918,21 +15909,20 @@ rule
 .
 add_dependencies
 (
-                
 [
-                    
+                
 source
-                    
+                
 "
 backend
 .
 mk
 "
-                    
+                
 "
 Makefile
 "
-                    
+                
 "
 (
 DEPTH
@@ -15944,7 +15934,7 @@ autoconf
 .
 mk
 "
-                    
+                
 "
 (
 topsrcdir
@@ -15956,18 +15946,16 @@ config
 .
 mk
 "
-                
-]
             
+]
 )
             
 rule
 .
 add_commands
 (
-                
 [
-                    
+                
 #
 Remove
 the
@@ -15979,7 +15967,7 @@ bindings
 that
 go
 from
-                    
+                
 #
 static
 to
@@ -15993,7 +15981,7 @@ writing
 to
 a
 symlink
-                    
+                
 #
 which
 would
@@ -16004,13 +15992,13 @@ the
 source
 directory
 .
-                    
+                
 "
 (
 RM
 )
 "
-                    
+                
 "
 (
 call
@@ -16022,17 +16010,13 @@ DEFINES
 (
 ACDEFINES
 )
-"
-                    
-"
 <
 -
 o
 )
 "
-                
-]
             
+]
 )
         
 self

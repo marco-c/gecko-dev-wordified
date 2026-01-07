@@ -150,9 +150,8 @@ run_task_schema
 =
 Schema
 (
-    
 {
-        
+    
 Required
 (
 "
@@ -165,14 +164,14 @@ run
 -
 task
 "
-        
+    
 #
 Use
 the
 specified
 caches
 .
-        
+    
 Optional
 (
 "
@@ -189,7 +188,7 @@ bool
 str
 ]
 )
-        
+    
 #
 if
 true
@@ -205,7 +204,7 @@ gecko
 on
 the
 worker
-        
+    
 Required
 (
 "
@@ -214,14 +213,14 @@ checkout
 )
 :
 bool
-        
+    
 Optional
 (
-            
+        
 "
 cwd
 "
-            
+        
 description
 =
 "
@@ -239,7 +238,7 @@ present
 the
 path
 "
-            
+        
 "
 to
 the
@@ -252,11 +251,11 @@ the
 key
 checkout
 "
-        
+    
 )
 :
 str
-        
+    
 #
 The
 sparse
@@ -271,7 +270,7 @@ the
 filename
 relative
 to
-        
+    
 #
 "
 sparse
@@ -292,7 +291,7 @@ profiles
 /
 "
 .
-        
+    
 Required
 (
 "
@@ -307,7 +306,7 @@ Any
 str
 None
 )
-        
+    
 #
 The
 relative
@@ -317,7 +316,7 @@ the
 sparse
 profile
 .
-        
+    
 Optional
 (
 "
@@ -330,7 +329,7 @@ prefix
 )
 :
 str
-        
+    
 #
 Whether
 to
@@ -347,7 +346,7 @@ git
 only
 )
 .
-        
+    
 Optional
 (
 "
@@ -358,7 +357,7 @@ clone
 )
 :
 bool
-        
+    
 #
 if
 true
@@ -374,11 +373,11 @@ based
 branch
 inside
 the
-        
+    
 #
 gecko
 checkout
-        
+    
 Required
 (
 "
@@ -389,7 +388,7 @@ checkout
 )
 :
 bool
-        
+    
 #
 The
 command
@@ -404,7 +403,7 @@ task
 script
 after
 the
-        
+    
 #
 checkout
 arguments
@@ -419,7 +418,7 @@ passed
 directly
 ;
 otherwise
-        
+    
 #
 it
 will
@@ -434,7 +433,7 @@ bash
 -
 cx
 .
-        
+    
 Required
 (
 "
@@ -449,7 +448,7 @@ taskref_or_string
 ]
 taskref_or_string
 )
-        
+    
 #
 Base
 work
@@ -461,7 +460,7 @@ up
 the
 task
 .
-        
+    
 Optional
 (
 "
@@ -470,7 +469,7 @@ workdir
 )
 :
 str
-        
+    
 #
 If
 not
@@ -482,7 +481,7 @@ be
 enabled
 via
 relengAPIProxy
-        
+    
 #
 for
 either
@@ -496,13 +495,13 @@ files
 Only
 supported
 on
-        
+    
 #
 docker
 -
 worker
 .
-        
+    
 Required
 (
 "
@@ -514,19 +513,19 @@ downloads
 :
 Any
 (
-            
+        
 False
-            
+        
 "
 public
 "
-            
+        
 "
 internal
 "
-        
+    
 )
-        
+    
 #
 Whether
 to
@@ -539,7 +538,7 @@ defaults
 to
 False
 )
-        
+    
 Optional
 (
 "
@@ -552,7 +551,6 @@ root
 )
 :
 bool
-    
 }
 )
 def
@@ -1757,15 +1755,14 @@ mounts
 .
 append
 (
-        
 {
-            
+        
 "
 content
 "
 :
 {
-                
+            
 "
 url
 "
@@ -1775,9 +1772,9 @@ script_url
 config
 run_task_bin
 )
-            
+        
 }
-            
+        
 "
 file
 "
@@ -1789,9 +1786,8 @@ run
 -
 task
 "
-        
-}
     
+}
 )
     
 if
@@ -1850,15 +1846,14 @@ mounts
 .
 append
 (
-            
 {
-                
+            
 "
 content
 "
 :
 {
-                    
+                
 "
 url
 "
@@ -1872,9 +1867,9 @@ fetch
 content
 "
 )
-                
+            
 }
-                
+            
 "
 file
 "
@@ -1886,9 +1881,8 @@ fetch
 -
 content
 "
-            
-}
         
+}
 )
     
 if
@@ -1911,15 +1905,14 @@ mounts
 .
 append
 (
-            
 {
-                
+            
 "
 content
 "
 :
 {
-                    
+                
 "
 url
 "
@@ -1933,9 +1926,9 @@ robustcheckout
 py
 "
 )
-                
+            
 }
-                
+            
 "
 file
 "
@@ -1947,9 +1940,8 @@ robustcheckout
 .
 py
 "
-            
-}
         
+}
 )
     
 run_command

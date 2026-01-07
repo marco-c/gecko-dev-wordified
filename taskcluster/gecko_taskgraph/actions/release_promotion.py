@@ -794,9 +794,6 @@ ignore
 from
 the
 previous
-"
-                    
-"
 graph
 (
 s
@@ -1051,15 +1048,13 @@ the
 following
 flavors
 :
-"
-                    
-"
 {
 }
 "
 .
 format
 (
+                        
 get_flavors
 (
 graph_config
@@ -1069,6 +1064,7 @@ version
 bump
 "
 )
+                    
 )
                 
 )
@@ -1213,15 +1209,13 @@ the
 following
 flavors
 :
-"
-                    
-"
 {
 }
 "
 .
 format
 (
+                        
 get_flavors
 (
 graph_config
@@ -1231,6 +1225,7 @@ partial
 updates
 "
 )
+                    
 )
                 
 )
@@ -2841,17 +2836,15 @@ partner_config
 and
 any
 (
-        
 [
-            
-release_enable_partner_repack
-            
-release_enable_partner_attribution
-            
-release_enable_emefree
         
-]
+release_enable_partner_repack
+        
+release_enable_partner_attribution
+        
+release_enable_emefree
     
+]
 )
 :
         

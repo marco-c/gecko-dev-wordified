@@ -5427,8 +5427,8 @@ gecko_results
 .
 extend
 (
-                    
 [
+                    
 "
 -
 -
@@ -5438,14 +5438,15 @@ profile
 -
 interval
 "
+                    
 str
 (
 self
 .
 gecko_profile_interval
 )
-]
                 
+]
 )
             
 if
@@ -5458,8 +5459,8 @@ gecko_results
 .
 extend
 (
-                    
 [
+                    
 "
 -
 -
@@ -5469,14 +5470,15 @@ profile
 -
 entries
 "
+                    
 str
 (
 self
 .
 gecko_profile_entries
 )
-]
                 
+]
 )
             
 if
@@ -5489,8 +5491,8 @@ gecko_results
 .
 extend
 (
-                    
 [
+                    
 "
 -
 -
@@ -5500,11 +5502,12 @@ profile
 -
 features
 "
+                    
 self
 .
 gecko_profile_features
-]
                 
+]
 )
             
 if
@@ -5517,8 +5520,8 @@ gecko_results
 .
 extend
 (
-                    
 [
+                    
 "
 -
 -
@@ -5528,11 +5531,12 @@ profile
 -
 threads
 "
+                    
 self
 .
 gecko_profile_threads
-]
                 
+]
 )
         
 elif
@@ -6547,8 +6551,6 @@ Chrome
 .
 app
 /
-"
-"
 Contents
 /
 MacOS
@@ -8319,8 +8321,8 @@ options
 .
 extend
 (
-                
 [
+                
 "
 -
 -
@@ -8345,8 +8347,8 @@ browser_cycles
 "
 )
 )
-]
             
+]
 )
         
 if
@@ -8426,9 +8428,8 @@ options
 .
 extend
 (
-                
 [
-                    
+                
 f
 "
 -
@@ -8443,7 +8444,7 @@ methods
 method
 }
 "
-                    
+                
 for
 method
 in
@@ -8457,9 +8458,8 @@ get
 extra_summary_methods
 "
 )
-                
-]
             
+]
 )
         
 if
@@ -8514,8 +8514,8 @@ options
 .
 extend
 (
-                
 [
+                
 f
 "
 -
@@ -8537,8 +8537,8 @@ post_startup_delay
 ]
 }
 "
-]
             
+]
 )
         
 if
@@ -9661,9 +9661,8 @@ modules
 .
 extend
 (
-                
 [
-                    
+                
 "
 numpy
 =
@@ -9674,7 +9673,7 @@ numpy
 .
 1
 "
-                    
+                
 "
 Pillow
 =
@@ -9685,7 +9684,7 @@ Pillow
 .
 0
 "
-                    
+                
 "
 scipy
 =
@@ -9696,7 +9695,7 @@ scipy
 .
 3
 "
-                    
+                
 "
 pyssim
 =
@@ -9705,7 +9704,7 @@ pyssim
 .
 4
 "
-                    
+                
 "
 opencv
 -
@@ -9720,9 +9719,8 @@ python
 .
 60
 "
-                
-]
             
+]
 )
         
 elif
@@ -9736,9 +9734,8 @@ modules
 .
 extend
 (
-                
 [
-                    
+                
 "
 numpy
 =
@@ -9749,7 +9746,7 @@ numpy
 .
 5
 "
-                    
+                
 "
 Pillow
 =
@@ -9760,7 +9757,7 @@ Pillow
 .
 0
 "
-                    
+                
 "
 scipy
 =
@@ -9771,7 +9768,7 @@ scipy
 .
 3
 "
-                    
+                
 "
 pyssim
 =
@@ -9780,7 +9777,7 @@ pyssim
 .
 4
 "
-                    
+                
 "
 opencv
 -
@@ -9795,9 +9792,8 @@ python
 .
 66
 "
-                
-]
             
+]
 )
         
 else
@@ -9815,9 +9811,8 @@ modules
 .
 extend
 (
-                
 [
-                    
+                
 "
 numpy
 =
@@ -9828,7 +9823,7 @@ numpy
 .
 3
 "
-                    
+                
 "
 Pillow
 =
@@ -9839,7 +9834,7 @@ Pillow
 .
 0
 "
-                    
+                
 "
 scipy
 =
@@ -9850,7 +9845,7 @@ scipy
 .
 2
 "
-                    
+                
 "
 pyssim
 =
@@ -9859,7 +9854,7 @@ pyssim
 .
 7
 "
-                    
+                
 "
 opencv
 -
@@ -9874,9 +9869,8 @@ python
 .
 86
 "
-                
-]
             
+]
 )
         
 if

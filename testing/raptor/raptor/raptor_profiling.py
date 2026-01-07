@@ -916,8 +916,8 @@ profile_locations
 .
 extend
 (
+[
                     
-[
 (
 "
 cold
@@ -929,6 +929,7 @@ cold
 "
 ]
 )
+                    
 (
 "
 warm
@@ -940,8 +941,8 @@ warm
 "
 ]
 )
-]
                 
+]
 )
             
 else
@@ -984,22 +985,20 @@ profile_locations
 .
 append
 (
-                    
 (
-                        
+                    
 __get_test_type
 (
 )
-                        
+                    
 results
 [
 "
 main
 "
 ]
-                    
-)
                 
+)
 )
             
 for
@@ -1076,9 +1075,8 @@ res
 .
 append
 (
-                                
 {
-                                    
+                                
 "
 path
 "
@@ -1092,15 +1090,14 @@ join
 results_dir
 rel_profile_path
 )
-                                    
+                                
 "
 type
 "
 :
 testtype
-                                
-}
                             
+}
 )
                     
 except
@@ -1182,9 +1179,8 @@ res
 .
 append
 (
-                    
 {
-                        
+                    
 "
 path
 "
@@ -1200,7 +1196,7 @@ self
 temp_profile_dir
 profile
 )
-                        
+                    
 "
 type
 "
@@ -1208,9 +1204,8 @@ type
 __get_test_type
 (
 )
-                    
-}
                 
+}
 )
         
 LOG

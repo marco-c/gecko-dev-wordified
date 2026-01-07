@@ -6377,21 +6377,20 @@ parameters
 return
 all
 (
-            
 [
-                
+            
 filter_on_platforms
 (
 task
 platforms
 )
-                
+            
 filter_for_project
 (
 task
 parameters
 )
-                
+            
 task
 .
 attributes
@@ -6403,7 +6402,7 @@ shippable
 "
 False
 )
-                
+            
 #
 Tests
 and
@@ -6416,7 +6415,7 @@ t
 have
 shipping_product
 set
-                
+            
 task
 .
 attributes
@@ -6427,7 +6426,6 @@ get
 shipping_product
 "
 )
-                
 in
 {
 None
@@ -6438,7 +6436,7 @@ firefox
 thunderbird
 "
 }
-                
+            
 task
 .
 kind
@@ -6455,9 +6453,8 @@ on
 -
 change
 l10n
-            
-]
         
+]
 )
     
 return
@@ -6721,13 +6718,14 @@ filter
 =
 make_desktop_nightly_filter
 (
-        
 {
+        
 "
 linux64
 -
 shippable
 "
+        
 "
 linux64
 -
@@ -6735,8 +6733,8 @@ aarch64
 -
 shippable
 "
-}
     
+}
 )
     
 return
@@ -7183,8 +7181,8 @@ filter
 =
 make_desktop_nightly_filter
 (
-        
 {
+        
 "
 linux64
 -
@@ -7194,6 +7192,7 @@ reporter
 -
 shippable
 "
+        
 "
 win64
 -
@@ -7203,8 +7202,8 @@ reporter
 -
 shippable
 "
-}
     
+}
 )
     
 return

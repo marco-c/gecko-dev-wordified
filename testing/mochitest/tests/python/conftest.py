@@ -556,39 +556,38 @@ options
 .
 update
 (
-        
 {
-            
+        
 "
 app
 "
 :
 binary
-            
+        
 "
 flavor
 "
 :
 flavor
-            
+        
 "
 runFailures
 "
 :
 runFailures
-            
+        
 "
 restartAfterFailure
 "
 :
 restartAfterFailure
-            
+        
 "
 keep_open
 "
 :
 False
-            
+        
 "
 log_raw
 "
@@ -596,9 +595,8 @@ log_raw
 [
 buf
 ]
-        
-}
     
+}
 )
     
 if
@@ -674,9 +672,8 @@ options
 .
 update
 (
-            
 {
-                
+            
 "
 certPath
 "
@@ -692,7 +689,7 @@ package_root
 certs
 "
 )
-                
+            
 "
 utilityPath
 "
@@ -708,9 +705,8 @@ package_root
 bin
 "
 )
-            
-}
         
+}
 )
         
 options

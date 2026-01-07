@@ -2975,9 +2975,8 @@ preferences
 .
 update
 (
-                
 {
-                    
+                
 "
 devtools
 .
@@ -2989,7 +2988,7 @@ panel
 "
 jsdebugger
 "
-                    
+                
 "
 devtools
 .
@@ -2999,7 +2998,7 @@ enabled
 "
 :
 True
-                    
+                
 "
 devtools
 .
@@ -3011,7 +3010,7 @@ connection
 "
 :
 False
-                    
+                
 "
 devtools
 .
@@ -3023,7 +3022,7 @@ enabled
 "
 :
 True
-                    
+                
 "
 devtools
 .
@@ -3031,9 +3030,8 @@ testing
 "
 :
 True
-                
-}
             
+}
 )
         
 if
@@ -3608,9 +3606,8 @@ env
 .
 update
 (
-            
 {
-                
+            
 "
 MOZ_CRASHREPORTER
 "
@@ -3618,7 +3615,7 @@ MOZ_CRASHREPORTER
 "
 1
 "
-                
+            
 "
 MOZ_CRASHREPORTER_NO_REPORT
 "
@@ -3626,7 +3623,7 @@ MOZ_CRASHREPORTER_NO_REPORT
 "
 1
 "
-                
+            
 "
 MOZ_CRASHREPORTER_SHUTDOWN
 "
@@ -3634,9 +3631,8 @@ MOZ_CRASHREPORTER_SHUTDOWN
 "
 1
 "
-            
-}
         
+}
 )
         
 extra_args

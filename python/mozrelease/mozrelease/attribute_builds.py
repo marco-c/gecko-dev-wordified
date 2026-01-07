@@ -1504,15 +1504,14 @@ work
 .
 append
 (
-                
 {
-                    
+                
 "
 input
 "
 :
 i
-                    
+                
 "
 output
 "
@@ -1528,7 +1527,7 @@ args
 output
 fn
 )
-                    
+                
 "
 attribution
 "
@@ -1536,9 +1535,8 @@ attribution
 args
 .
 attribution
-                
-}
             
+}
 )
     
 else

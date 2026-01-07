@@ -1338,10 +1338,6 @@ capitalize
 )
 }
 version
-"
-        
-f
-"
 is
 {
 target_as_version

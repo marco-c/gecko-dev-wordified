@@ -493,6 +493,8 @@ return
 None
         
 with
+(
+            
 open
 (
 debug_file
@@ -502,11 +504,11 @@ wb
 )
 as
 f
+            
 gzip
 .
 GzipFile
 (
-            
 fileobj
 =
 io
@@ -524,10 +526,11 @@ mode
 "
 r
 "
-        
 )
 as
 z
+        
+)
 :
             
 shutil

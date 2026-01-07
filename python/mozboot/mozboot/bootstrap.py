@@ -342,9 +342,8 @@ APPLICATIONS
 =
 OrderedDict
 (
-    
 [
-        
+    
 (
 "
 Firefox
@@ -357,7 +356,7 @@ Mode
 browser_artifact_mode
 "
 )
-        
+    
 (
 "
 Firefox
@@ -368,7 +367,7 @@ Desktop
 browser
 "
 )
-        
+    
 (
 "
 GeckoView
@@ -383,7 +382,7 @@ Mode
 mobile_android_artifact_mode
 "
 )
-        
+    
 (
 "
 GeckoView
@@ -396,7 +395,7 @@ Android
 mobile_android
 "
 )
-        
+    
 (
 "
 SpiderMonkey
@@ -407,7 +406,6 @@ engine
 js
 "
 )
-    
 ]
 )
 FINISHED
@@ -2081,8 +2079,6 @@ is
 not
 yet
 available
-"
-"
 for
 your
 OS
@@ -4814,22 +4810,20 @@ HG_ROOT_REVISIONS
 =
 set
 (
-        
 [
-            
+        
 #
 From
 mozilla
 -
 unified
 .
-            
+        
 "
 8ba995b74e18334ab3707f27e9eb8f4e37ba3d29
 "
-        
-]
     
+]
 )
     
 path

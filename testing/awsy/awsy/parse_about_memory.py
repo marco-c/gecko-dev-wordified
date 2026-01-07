@@ -1127,8 +1127,6 @@ Process
 name
 filter
 .
-"
-"
 If
 not
 provided
@@ -1171,8 +1169,6 @@ instead
 of
 bytes
 )
-"
-"
 to
 match
 about
@@ -1244,6 +1240,7 @@ if
 v
 :
             
+(
 print
 (
 f
@@ -1254,6 +1251,7 @@ k
 \
 t
 "
+)
 )
     
 print
@@ -1289,6 +1287,7 @@ args
 mebi
 :
                 
+(
 print
 (
 f
@@ -1304,10 +1303,12 @@ bytes_per_mebibyte
 MiB
 "
 )
+)
             
 else
 :
                 
+(
 print
 (
 f
@@ -1318,13 +1319,16 @@ v
 bytes
 "
 )
+)
             
+(
 print
 (
 "
 \
 t
 "
+)
 )
     
 print

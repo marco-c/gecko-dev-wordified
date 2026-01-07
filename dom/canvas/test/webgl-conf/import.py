@@ -113,9 +113,10 @@ REPO_DIR
 .
 samefile
 (
-    
 DIR_IN_GECKO
 )
+(
+    
 "
 Run
 this
@@ -127,6 +128,7 @@ git
 checkout
 .
 "
+)
 assert
 DIR_IN_GECKO
 .

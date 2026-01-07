@@ -1562,15 +1562,16 @@ all_config_dicts
 .
 append
 (
-                
 (
+                
 variant_cfg_file
+                
 parse_config_file
 (
 variant_cfg_file
 )
-)
             
+)
 )
         
 return
@@ -5455,9 +5456,8 @@ cmd
 .
 extend
 (
-                
 [
-                    
+                
 "
 -
 -
@@ -5465,7 +5465,7 @@ tooltool
 -
 manifest
 "
-                    
+                
 os
 .
 path
@@ -5480,9 +5480,8 @@ abs_src_dir
 ]
 manifest_src
 )
-                
-]
             
+]
 )
         
 cache
@@ -5604,7 +5603,6 @@ self
 .
 warning
 (
-                
 "
 mozbuild_path
 could
@@ -5613,13 +5611,10 @@ be
 determined
 .
 skipping
-"
-"
 creating
 it
 .
 "
-            
 )
     
 def
@@ -5772,16 +5767,18 @@ self
 .
 _run_mach_command_in_build_env
 (
-            
 [
+            
 "
 static
 -
 analysis
 "
+            
 "
 autotest
 "
+            
 "
 -
 -
@@ -5789,8 +5786,8 @@ intree
 -
 tool
 "
-]
         
+]
 )
     
 def
@@ -7320,23 +7317,21 @@ subtests
 .
 append
 (
-                
 {
-                    
+                
 "
 name
 "
 :
 name
-                    
+                
 "
 value
 "
 :
 duration
-                
-}
             
+}
 )
         
 return
@@ -8674,9 +8669,8 @@ Android
 yield
 filter_alert
 (
-                
 {
-                    
+                
 "
 name
 "
@@ -8685,13 +8679,13 @@ name
 installer
 size
 "
-                    
+                
 "
 value
 "
 :
 installer_size
-                    
+                
 "
 alertChangeType
 "
@@ -8699,7 +8693,7 @@ alertChangeType
 "
 absolute
 "
-                    
+                
 "
 alertThreshold
 "
@@ -8709,15 +8703,14 @@ alertThreshold
 *
 1024
 )
-                    
+                
 "
 subtests
 "
 :
 size_measurements
-                
-}
             
+}
 )
         
 else
@@ -8726,9 +8719,8 @@ else
 yield
 filter_alert
 (
-                
 {
-                    
+                
 "
 name
 "
@@ -8737,13 +8729,13 @@ name
 installer
 size
 "
-                    
+                
 "
 value
 "
 :
 installer_size
-                    
+                
 "
 alertChangeType
 "
@@ -8751,7 +8743,7 @@ alertChangeType
 "
 absolute
 "
-                    
+                
 "
 alertThreshold
 "
@@ -8761,15 +8753,14 @@ alertThreshold
 *
 1024
 )
-                    
+                
 "
 subtests
 "
 :
 size_measurements
-                
-}
             
+}
 )
     
 def
@@ -9528,29 +9519,27 @@ lib_details
 .
 append
 (
-                        
 {
-                            
+                        
 "
 name
 "
 :
 lib_type
-                            
+                        
 "
 size
 "
 :
 lib_size
-                            
+                        
 "
 sections
 "
 :
 section_measurements
-                        
-}
                     
+}
 )
         
 for
@@ -9896,9 +9885,8 @@ suites
 .
 append
 (
-                
 {
-                    
+                
 "
 name
 "
@@ -9907,7 +9895,7 @@ name
 compiler
 warnings
 "
-                    
+                
 "
 value
 "
@@ -9924,7 +9912,7 @@ splitlines
 (
 )
 )
-                    
+                
 "
 alertThreshold
 "
@@ -9932,16 +9920,15 @@ alertThreshold
 100
 .
 0
-                    
+                
 "
 subtests
 "
 :
 [
 ]
-                
-}
             
+}
 )
         
 build_metrics

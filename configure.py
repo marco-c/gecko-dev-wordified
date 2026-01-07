@@ -2074,8 +2074,6 @@ topsrcdir
 '
 defines
 '
-"
-"
 '
 substs
 '

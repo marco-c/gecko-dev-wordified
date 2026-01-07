@@ -908,11 +908,13 @@ EXAMPLE_TEST
 )
     
 with
+(
+        
 mock
 .
 patch
 (
-        
+            
 "
 mozperftest
 .
@@ -928,7 +930,7 @@ Path
 .
 open
 "
-        
+            
 build_mock_open
 (
 [
@@ -936,12 +938,14 @@ BTIME_PKG_DEP
 BTIME_PKG_NO_INSTALL
 ]
 )
-    
+        
 )
+        
 mock
 .
 patch
 (
+            
 "
 mozperftest
 .
@@ -958,6 +962,9 @@ load
 new
 =
 mocked_jsonload
+        
+)
+    
 )
 :
         
@@ -1066,11 +1073,13 @@ EXAMPLE_TEST
 )
     
 with
+(
+        
 mock
 .
 patch
 (
-        
+            
 "
 mozperftest
 .
@@ -1086,7 +1095,7 @@ Path
 .
 open
 "
-        
+            
 build_mock_open
 (
 [
@@ -1094,12 +1103,14 @@ BTIME_PKG_DEP
 BTIME_PKG_REINSTALL
 ]
 )
-    
+        
 )
+        
 mock
 .
 patch
 (
+            
 "
 mozperftest
 .
@@ -1116,6 +1127,9 @@ load
 new
 =
 mocked_jsonload
+        
+)
+    
 )
 :
         
@@ -1995,8 +2009,8 @@ tarball
 .
 join
 (
-        
 [
+        
 random
 .
 choice
@@ -2017,8 +2031,8 @@ range
 (
 40
 )
-]
     
+]
 )
     
 mach

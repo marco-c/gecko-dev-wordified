@@ -124,11 +124,10 @@ metrics
 .
 extend
 (
-        
 [
-            
+        
 {
-                
+            
 "
 name
 "
@@ -147,7 +146,7 @@ category
 differential_name
 }
 "
-                
+            
 "
 unit
 "
@@ -155,13 +154,12 @@ unit
 "
 Kb
 "
-                
+            
 "
 values
 "
 :
 [
-                    
 round
 (
 mem_usage
@@ -180,11 +178,10 @@ category
 ]
 2
 )
-                
 ]
-            
+        
 }
-            
+        
 for
 mem_type
 mem_info
@@ -194,7 +191,7 @@ mem_measures
 items
 (
 )
-            
+        
 for
 category
 mem_usage
@@ -204,7 +201,7 @@ mem_info
 items
 (
 )
-            
+        
 if
 category
 in
@@ -221,20 +218,18 @@ mem_type
 {
 }
 )
-        
-]
     
+]
 )
     
 metrics
 .
 extend
 (
-        
 [
-            
+        
 {
-                
+            
 "
 name
 "
@@ -251,7 +246,7 @@ total
 differential_name
 }
 "
-                
+            
 "
 unit
 "
@@ -259,16 +254,16 @@ unit
 "
 Kb
 "
-                
+            
 "
 values
 "
 :
 [
-                    
+                
 round
 (
-                        
+                    
 sum
 (
 mem_info
@@ -277,7 +272,7 @@ values
 (
 )
 )
-                        
+                    
 -
 sum
 (
@@ -295,15 +290,15 @@ values
 (
 )
 )
-                        
-2
                     
-)
+2
                 
+)
+            
 ]
-            
+        
 }
-            
+        
 for
 mem_type
 mem_info
@@ -313,9 +308,8 @@ mem_measures
 items
 (
 )
-        
-]
     
+]
 )
     
 #
@@ -327,11 +321,10 @@ metrics
 .
 extend
 (
-        
 [
-            
+        
 {
-                
+            
 "
 name
 "
@@ -348,7 +341,7 @@ category
 differential_name
 }
 "
-                
+            
 "
 unit
 "
@@ -356,7 +349,7 @@ unit
 "
 ms
 "
-                
+            
 "
 values
 "
@@ -374,9 +367,9 @@ cpu
 category
 ]
 ]
-            
+        
 }
-            
+        
 for
 category
 cpu_time
@@ -386,7 +379,7 @@ cpu_measures
 items
 (
 )
-            
+        
 if
 category
 in
@@ -400,18 +393,16 @@ cpu
 {
 }
 )
-        
-]
     
+]
 )
     
 metrics
 .
 append
 (
-        
 {
-            
+        
 "
 name
 "
@@ -426,7 +417,7 @@ total
 differential_name
 }
 "
-            
+        
 "
 unit
 "
@@ -434,16 +425,15 @@ unit
 "
 ms
 "
-            
+        
 "
 values
 "
 :
 [
-                
+            
 round
 (
-                    
 sum
 (
 cpu_measures
@@ -467,13 +457,11 @@ values
 )
 )
 2
-                
 )
-            
-]
         
-}
+]
     
+}
 )
     
 return
@@ -1597,11 +1585,10 @@ perf_metrics
 .
 extend
 (
-            
 [
-                
+            
 {
-                    
+                
 "
 name
 "
@@ -1618,7 +1605,7 @@ category
 measurement_time
 }
 "
-                    
+                
 "
 unit
 "
@@ -1626,7 +1613,7 @@ unit
 "
 ms
 "
-                    
+                
 "
 values
 "
@@ -1634,9 +1621,9 @@ values
 [
 cpu_time
 ]
-                
+            
 }
-                
+            
 for
 category
 cpu_time
@@ -1646,18 +1633,16 @@ cpu_measures
 items
 (
 )
-            
-]
         
+]
 )
         
 perf_metrics
 .
 append
 (
-            
 {
-                
+            
 "
 name
 "
@@ -1672,7 +1657,7 @@ total
 measurement_time
 }
 "
-                
+            
 "
 unit
 "
@@ -1680,7 +1665,7 @@ unit
 "
 ms
 "
-                
+            
 "
 values
 "
@@ -1699,20 +1684,18 @@ values
 2
 )
 ]
-            
-}
         
+}
 )
         
 perf_metrics
 .
 extend
 (
-            
 [
-                
+            
 {
-                    
+                
 "
 name
 "
@@ -1731,7 +1714,7 @@ category
 measurement_time
 }
 "
-                    
+                
 "
 unit
 "
@@ -1739,7 +1722,7 @@ unit
 "
 Kb
 "
-                    
+                
 "
 values
 "
@@ -1751,9 +1734,9 @@ mem_usage
 2
 )
 ]
-                
+            
 }
-                
+            
 for
 mem_type
 mem_info
@@ -1763,7 +1746,7 @@ mem_measures
 items
 (
 )
-                
+            
 for
 category
 mem_usage
@@ -1773,20 +1756,18 @@ mem_info
 items
 (
 )
-            
-]
         
+]
 )
         
 perf_metrics
 .
 extend
 (
-            
 [
-                
+            
 {
-                    
+                
 "
 name
 "
@@ -1803,7 +1784,7 @@ total
 measurement_time
 }
 "
-                    
+                
 "
 unit
 "
@@ -1811,7 +1792,7 @@ unit
 "
 Kb
 "
-                    
+                
 "
 values
 "
@@ -1830,9 +1811,9 @@ values
 2
 )
 ]
-                
+            
 }
-                
+            
 for
 mem_type
 mem_info
@@ -1842,9 +1823,8 @@ mem_measures
 items
 (
 )
-            
-]
         
+]
 )
         
 if

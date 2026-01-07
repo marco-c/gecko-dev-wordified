@@ -228,30 +228,28 @@ subprocess
 .
 check_call
 (
-        
 [
-            
+        
 virtualenv_manager
 .
 python_path
-            
+        
 "
 -
 m
 "
-            
+        
 "
 pip
 "
-            
+        
 "
 install
 "
-            
-package
         
-]
+package
     
+]
 )
 def
 _kill_mozproxy

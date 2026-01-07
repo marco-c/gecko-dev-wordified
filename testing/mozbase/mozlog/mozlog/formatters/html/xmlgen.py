@@ -656,19 +656,18 @@ __tagspec__
 =
 dict
 (
-        
 [
-            
+        
 (
 x
 1
 )
-            
+        
 for
 x
 in
 (
-                
+            
 "
 a
 abbr
@@ -681,7 +680,7 @@ bdo
 big
 blink
 "
-                
+            
 "
 blockquote
 body
@@ -693,7 +692,7 @@ cite
 code
 col
 "
-                
+            
 "
 colgroup
 comment
@@ -707,7 +706,7 @@ dt
 em
 embed
 "
-                
+            
 "
 fieldset
 font
@@ -722,7 +721,7 @@ h6
 head
 html
 "
-                
+            
 "
 i
 iframe
@@ -736,7 +735,7 @@ li
 link
 listing
 "
-                
+            
 "
 map
 marquee
@@ -747,7 +746,7 @@ nobr
 noembed
 noframes
 "
-                
+            
 "
 noscript
 object
@@ -760,7 +759,7 @@ q
 s
 script
 "
-                
+            
 "
 select
 small
@@ -772,7 +771,7 @@ sub
 sup
 table
 "
-                
+            
 "
 tbody
 td
@@ -787,7 +786,7 @@ u
 ul
 xmp
 "
-                
+            
 "
 base
 basefont
@@ -798,7 +797,7 @@ param
 samp
 var
 "
-            
+        
 )
 .
 split
@@ -806,12 +805,11 @@ split
 "
 "
 )
-            
+        
 if
 x
-        
-]
     
+]
 )
     
 class
@@ -1810,14 +1808,13 @@ single
 =
 dict
 (
-        
 [
-            
+        
 (
 x
 1
 )
-            
+        
 for
 x
 in
@@ -1832,8 +1829,6 @@ hr
 meta
 link
 base
-"
-"
 input
 frame
 "
@@ -1841,33 +1836,29 @@ frame
 .
 split
 (
-                
 "
 "
-            
 )
-        
-]
     
+]
 )
     
 inline
 =
 dict
 (
-        
 [
-            
+        
 (
 x
 1
 )
-            
+        
 for
 x
 in
 (
-                
+            
 "
 a
 abbr
@@ -1883,7 +1874,7 @@ dfn
 em
 font
 "
-                
+            
 "
 i
 img
@@ -1898,7 +1889,7 @@ small
 span
 strike
 "
-                
+            
 "
 strong
 sub
@@ -1914,11 +1905,10 @@ split
 "
 "
 )
-            
-)
         
-]
+)
     
+]
 )
     
 def

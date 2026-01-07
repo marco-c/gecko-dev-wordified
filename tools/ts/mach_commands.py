@@ -1545,11 +1545,12 @@ ctx
 .
 _sub_mach
 (
-        
 [
+        
 "
 node
 "
+        
 os
 .
 path
@@ -1569,10 +1570,11 @@ bin
 tsc
 "
 )
+        
 *
 args
-]
     
+]
 )
 def
 node

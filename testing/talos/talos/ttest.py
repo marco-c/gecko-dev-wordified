@@ -66,22 +66,21 @@ URL
 based
 browser
 test
-   
 follows
 the
 following
 steps
-     
+  
 -
 creates
 a
 profile
-     
+  
 -
 tests
 the
 profile
-     
+  
 -
 gets
 metrics
@@ -90,12 +89,12 @@ the
 current
 test
 environment
-     
+  
 -
 loads
 the
 url
-     
+  
 -
 collects
 info
@@ -105,7 +104,7 @@ counters
 while
 test
 runs
-     
+  
 -
 waits
 for
@@ -1791,8 +1790,8 @@ all_counter_results
 .
 extend
 (
-            
 [
+            
 {
 key
 :
@@ -1807,8 +1806,8 @@ global_counters
 items
 (
 )
-]
         
+]
 )
         
 for

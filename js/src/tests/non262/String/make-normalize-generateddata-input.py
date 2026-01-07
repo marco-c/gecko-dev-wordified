@@ -23,7 +23,6 @@ input
 .
 py
 PATH_TO_MOZILLA_CENTRAL
-    
 This
 script
 generates
@@ -36,7 +35,6 @@ String
 prototype
 .
 normalize
-    
 from
 intl
 /
@@ -51,7 +49,6 @@ unidata
 NormalizationTest
 .
 txt
-    
 to
 js
 /

@@ -1269,8 +1269,6 @@ binary
 (
 defaults
 to
-"
-"
 downloading
 latest
 nightly
@@ -1303,8 +1301,6 @@ on
 (
 defaults
 to
-"
-"
 downloading
 latest
 nightly

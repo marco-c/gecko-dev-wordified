@@ -1333,25 +1333,24 @@ subprocess
 .
 check_call
 (
-            
 [
-                
+            
 "
 tar
 "
-                
+            
 "
 -
 xJf
 "
-                
+            
 CHUNK_MAPPING_ARCHIVE
-                
+            
 "
 -
 C
 "
-                
+            
 os
 .
 path
@@ -1360,9 +1359,8 @@ dirname
 (
 CHUNK_MAPPING_FILE
 )
-            
-]
         
+]
 )
         
 os
@@ -2669,13 +2667,11 @@ e10s
 continue
             
 assert
-(
-                
 selected_task
 is
 None
-            
-)
+(
+                
 "
 Only
 one
@@ -2710,11 +2706,13 @@ format
 (
 #
 noqa
-                
+                    
 platform
 chunk
 selected_task
 task
+                
+)
             
 )
             

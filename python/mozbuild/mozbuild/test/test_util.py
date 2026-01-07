@@ -3624,23 +3624,21 @@ cls
 =
 StrictOrderingOnAppendListWithFlagsFactory
 (
-            
 {
-                
+            
 "
 foo
 "
 :
 bool
-                
+            
 "
 bar
 "
 :
 int
-            
-}
         
+}
 )
         
 l

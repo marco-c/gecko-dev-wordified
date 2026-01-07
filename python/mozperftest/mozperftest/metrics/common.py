@@ -2008,8 +2008,8 @@ and
 not
 any
 (
-                    
 [
+                    
 met
 in
 res
@@ -2022,8 +2022,8 @@ for
 met
 in
 exclude
-]
                 
+]
 )
 :
                     

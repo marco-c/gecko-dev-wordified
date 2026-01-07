@@ -2322,8 +2322,8 @@ _counters
 .
 extend
 (
-                
 [
+                
 counter
 for
 counter
@@ -2334,8 +2334,8 @@ counter
 not
 in
 _counters
-]
             
+]
 )
     
 return

@@ -456,18 +456,20 @@ all_suites
 .
 append
 (
-            
 {
+            
 "
 flavor
 "
 :
 flavor
+            
 "
 subsuite
 "
 :
 subsuite
+            
 "
 srcdir_relpath
 "
@@ -475,8 +477,8 @@ srcdir_relpath
 "
 test
 "
-}
         
+}
 )
     
 return
@@ -599,7 +601,9 @@ config
 :
             
 yield
+(
 category
+)
             
 continue
         

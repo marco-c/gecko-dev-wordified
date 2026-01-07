@@ -111,9 +111,8 @@ haz_run_schema
 =
 Schema
 (
-    
 {
-        
+    
 Required
 (
 "
@@ -124,7 +123,7 @@ using
 "
 hazard
 "
-        
+    
 #
 The
 command
@@ -141,7 +140,7 @@ to
 the
 worker
 )
-        
+    
 Required
 (
 "
@@ -150,7 +149,7 @@ command
 )
 :
 str
-        
+    
 #
 The
 mozconfig
@@ -165,7 +164,7 @@ is
 used
 if
 omitted
-        
+    
 Optional
 (
 "
@@ -174,7 +173,7 @@ mozconfig
 )
 :
 str
-        
+    
 #
 The
 set
@@ -191,7 +190,7 @@ access
 these
 are
 prefixed
-        
+    
 #
 with
 project
@@ -214,7 +213,7 @@ level
 /
 .
 Setting
-        
+    
 #
 this
 will
@@ -230,7 +229,7 @@ task
 '
 s
 scopes
-        
+    
 #
 appropriately
 .
@@ -248,10 +247,10 @@ secrets
 Not
 supported
 on
-        
+    
 #
 Windows
-        
+    
 Optional
 (
 "
@@ -266,7 +265,7 @@ bool
 str
 ]
 )
-        
+    
 #
 Base
 work
@@ -278,7 +277,7 @@ up
 the
 task
 .
-        
+    
 Optional
 (
 "
@@ -287,7 +286,6 @@ workdir
 )
 :
 str
-    
 }
 )
 run_job_using
@@ -416,9 +414,8 @@ env
 .
 update
 (
-        
 {
-            
+        
 "
 MOZ_BUILD_DATE
 "
@@ -431,7 +428,7 @@ params
 moz_build_date
 "
 ]
-            
+        
 "
 MOZ_SCM_LEVEL
 "
@@ -444,9 +441,8 @@ params
 level
 "
 ]
-        
-}
     
+}
 )
     
 #

@@ -184,8 +184,8 @@ dependencies
 .
 update
 (
-                
 {
+                
 t
 .
 label
@@ -197,8 +197,8 @@ for
 t
 in
 matching_tasks
-}
             
+}
 )
         
 yield

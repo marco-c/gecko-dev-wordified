@@ -2688,15 +2688,15 @@ mozharness
 "
 ]
 [
-                    
 "
 installer
 -
 url
 "
-                
 ]
 =
+(
+                    
 f
 "
 <
@@ -2721,6 +2721,8 @@ name
 }
 >
 "
+                
+)
         
 else
 :
@@ -4035,9 +4037,8 @@ extra_options
 .
 extend
 (
-            
 (
-                
+            
 "
 -
 -
@@ -4045,7 +4046,7 @@ browsertime
 -
 browsertimejs
 "
-                
+            
 "
 MOZ_FETCHES_DIR
 /
@@ -4061,9 +4062,8 @@ browsertime
 .
 js
 "
-            
-)
         
+)
 )
 #
 noqa

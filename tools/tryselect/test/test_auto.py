@@ -117,13 +117,14 @@ parser
 .
 parse_args
 (
-        
 [
+        
 "
 -
 -
 strategy
 "
+        
 "
 gecko_taskgraph
 .
@@ -133,8 +134,8 @@ experimental
 .
 relevant_tests
 "
-]
     
+]
 )
     
 assert

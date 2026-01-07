@@ -95,8 +95,6 @@ Raw
 structured
 log
 messages
-"
-"
 (
 provided
 by
@@ -120,8 +118,6 @@ UnittestFormatter
 Unittest
 style
 output
-"
-"
 (
 provided
 by
@@ -145,8 +141,6 @@ XUnitFormatter
 xUnit
 compatible
 XML
-"
-"
 (
 provided
 by
@@ -167,8 +161,6 @@ HTMLFormatter
 "
 HTML
 report
-"
-"
 (
 provided
 by
@@ -190,8 +182,6 @@ Human
 -
 readable
 output
-"
-"
 (
 provided
 by
@@ -213,8 +203,6 @@ TBPL
 style
 log
 format
-"
-"
 (
 provided
 by
@@ -239,8 +227,6 @@ summary
 of
 test
 results
-"
-"
 (
 provided
 by

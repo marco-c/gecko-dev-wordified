@@ -1812,9 +1812,8 @@ occurred
 assert
 all
 (
-        
 [
-            
+        
 "
 firstPaint
 "
@@ -1825,7 +1824,7 @@ subtest
 name
 "
 ]
-            
+        
 or
 "
 duration
@@ -1837,7 +1836,7 @@ subtest
 name
 "
 ]
-            
+        
 or
 "
 count
@@ -1849,7 +1848,7 @@ subtest
 name
 "
 ]
-            
+        
 for
 subtest
 in
@@ -1867,9 +1866,8 @@ suites
 subtests
 "
 ]
-        
-]
     
+]
 )
     
 found_all
@@ -2034,11 +2032,10 @@ assert
         
 len
 (
-            
 [
-                
+            
 subtest
-                
+            
 for
 subtest
 in
@@ -2056,7 +2053,7 @@ suites
 subtests
 "
 ]
-                
+            
 if
 "
 statistics
@@ -2068,9 +2065,8 @@ subtest
 name
 "
 ]
-            
-]
         
+]
 )
         
 =
@@ -2084,11 +2080,10 @@ assert
         
 len
 (
-            
 [
-                
+            
 subtest
-                
+            
 for
 subtest
 in
@@ -2106,7 +2101,7 @@ suites
 subtests
 "
 ]
-                
+            
 if
 "
 statistics
@@ -2119,9 +2114,8 @@ subtest
 name
 "
 ]
-            
-]
         
+]
 )
         
 =
@@ -2418,9 +2412,8 @@ assert
 not
 all
 (
-        
 [
-            
+        
 "
 firstPaint
 "
@@ -2431,7 +2424,7 @@ subtest
 name
 "
 ]
-            
+        
 or
 "
 duration
@@ -2443,7 +2436,7 @@ subtest
 name
 "
 ]
-            
+        
 or
 "
 count
@@ -2455,7 +2448,7 @@ subtest
 name
 "
 ]
-            
+        
 for
 subtest
 in
@@ -2473,9 +2466,8 @@ suites
 subtests
 "
 ]
-        
-]
     
+]
 )
     
 found_all
@@ -2599,11 +2591,10 @@ assert
         
 len
 (
-            
 [
-                
+            
 subtest
-                
+            
 for
 subtest
 in
@@ -2621,7 +2612,7 @@ suites
 subtests
 "
 ]
-                
+            
 if
 "
 statistics
@@ -2633,9 +2624,8 @@ subtest
 name
 "
 ]
-            
-]
         
+]
 )
         
 =
@@ -2649,11 +2639,10 @@ assert
         
 len
 (
-            
 [
-                
+            
 subtest
-                
+            
 for
 subtest
 in
@@ -2671,7 +2660,7 @@ suites
 subtests
 "
 ]
-                
+            
 if
 "
 statistics
@@ -2684,9 +2673,8 @@ subtest
 name
 "
 ]
-            
-]
         
+]
 )
         
 =
@@ -2891,21 +2879,23 @@ extraOptions
 =
 sorted
 (
-        
 [
+        
 "
 option
 "
+        
 "
 second
 -
 option
 "
+        
 "
 simpleperf
 "
-]
     
+]
 )
 def
 test_perfherder_with_extra_options
@@ -3093,18 +3083,19 @@ extraOptions
 =
 sorted
 (
-        
 [
+        
 "
 option
 "
+        
 "
 second
 -
 option
 "
-]
     
+]
 )
 def
 test_perfherder_with_alerting
@@ -3296,16 +3287,15 @@ option
 assert
 all
 (
-        
 [
-            
+        
 subtest
 [
 "
 shouldAlert
 "
 ]
-            
+        
 for
 subtest
 in
@@ -3323,7 +3313,7 @@ suites
 subtests
 "
 ]
-            
+        
 if
 "
 resource
@@ -3335,25 +3325,23 @@ subtest
 name
 "
 ]
-        
-]
     
+]
 )
     
 assert
 not
 all
 (
-        
 [
-            
+        
 subtest
 [
 "
 shouldAlert
 "
 ]
-            
+        
 for
 subtest
 in
@@ -3371,7 +3359,7 @@ suites
 subtests
 "
 ]
-            
+        
 if
 "
 firstPaint
@@ -3383,9 +3371,8 @@ subtest
 name
 "
 ]
-        
-]
     
+]
 )
 def
 test_perfherder_with_subunits
@@ -3553,9 +3540,8 @@ suites
 assert
 all
 (
-        
 [
-            
+        
 subtest
 [
 "
@@ -3569,7 +3555,7 @@ a
 -
 unit
 "
-            
+        
 for
 subtest
 in
@@ -3587,7 +3573,7 @@ suites
 subtests
 "
 ]
-            
+        
 if
 "
 resource
@@ -3599,17 +3585,15 @@ subtest
 name
 "
 ]
-        
-]
     
+]
 )
     
 assert
 all
 (
-        
 [
-            
+        
 subtest
 [
 "
@@ -3621,7 +3605,7 @@ unit
 "
 ms
 "
-            
+        
 for
 subtest
 in
@@ -3639,7 +3623,7 @@ suites
 subtests
 "
 ]
-            
+        
 if
 "
 firstPaint
@@ -3651,9 +3635,8 @@ subtest
 name
 "
 ]
-        
-]
     
+]
 )
 def
 test_perfherder_with_supraunits
@@ -3858,9 +3841,8 @@ unit
 assert
 all
 (
-        
 [
-            
+        
 subtest
 [
 "
@@ -3874,7 +3856,7 @@ a
 -
 unit
 "
-            
+        
 for
 subtest
 in
@@ -3892,7 +3874,7 @@ suites
 subtests
 "
 ]
-            
+        
 if
 "
 resource
@@ -3904,17 +3886,15 @@ subtest
 name
 "
 ]
-        
-]
     
+]
 )
     
 assert
 all
 (
-        
 [
-            
+        
 subtest
 [
 "
@@ -3928,7 +3908,7 @@ new
 -
 unit
 "
-            
+        
 for
 subtest
 in
@@ -3946,7 +3926,7 @@ suites
 subtests
 "
 ]
-            
+        
 if
 "
 firstPaint
@@ -3958,9 +3938,8 @@ subtest
 name
 "
 ]
-        
-]
     
+]
 )
 def
 test_perfherder_transforms
@@ -4350,9 +4329,8 @@ metadata
 .
 add_result
 (
-        
 {
-            
+        
 "
 results
 "
@@ -4371,7 +4349,7 @@ home_activity
 txt
 "
 )
-            
+        
 "
 transformer
 "
@@ -4379,7 +4357,7 @@ transformer
 "
 LogCatTimeTransformer
 "
-            
+        
 "
 transformer
 -
@@ -4387,7 +4365,7 @@ options
 "
 :
 {
-                
+            
 "
 first
 -
@@ -4395,13 +4373,13 @@ timestamp
 "
 :
 re_w_group
-                
+            
 "
 processor
 "
 :
 processor
-                
+            
 "
 transform
 -
@@ -4413,9 +4391,9 @@ name
 "
 TimeToDisplayed
 "
-            
+        
 }
-            
+        
 "
 name
 "
@@ -4423,9 +4401,8 @@ name
 "
 LogCat
 "
-        
-}
     
+}
 )
     
 with

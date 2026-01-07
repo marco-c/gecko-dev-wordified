@@ -200,9 +200,7 @@ div
 .
 format
 (
-            
 direction
-        
 )
     
 )

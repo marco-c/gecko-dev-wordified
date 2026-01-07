@@ -1990,11 +1990,10 @@ path
 =
 ReadOnlyNamespace
 (
-            
 *
 *
 {
-                
+            
 k
 :
 getattr
@@ -2009,52 +2008,51 @@ path
 k
 )
 )
-                
+            
 for
 k
 in
 (
-                    
+                
 "
 abspath
 "
-                    
+                
 "
 basename
 "
-                    
+                
 "
 dirname
 "
-                    
+                
 "
 isabs
 "
-                    
+                
 "
 join
 "
-                    
+                
 "
 normcase
 "
-                    
+                
 "
 normpath
 "
-                    
+                
 "
 realpath
 "
-                    
+                
 "
 relpath
 "
-                
-)
             
-}
+)
         
+}
 )
     
 )
@@ -4728,8 +4726,6 @@ a
 known
 option
 .
-"
-"
 Maybe
 it
 '
@@ -5773,9 +5769,6 @@ needs
 the
 same
 when
-"
-                    
-"
 as
 options
 it
@@ -7956,8 +7949,6 @@ configuration
 :
 Key
 already
-"
-"
 exists
 "
 %
@@ -8159,11 +8150,12 @@ _execution_queue
 .
 append
 (
-            
 (
+            
 self
 .
 _resolve_and_set
+            
 (
 self
 .
@@ -8172,8 +8164,8 @@ name
 value
 when
 )
-)
         
+)
 )
     
 def
@@ -8302,19 +8294,20 @@ _execution_queue
 .
 append
 (
-            
 (
+            
 self
 .
 _resolve_and_set
+            
 (
 defines
 name
 value
 when
 )
-)
         
+)
 )
     
 def

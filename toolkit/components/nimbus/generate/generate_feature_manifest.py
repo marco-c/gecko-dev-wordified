@@ -1606,21 +1606,20 @@ n
 .
 join
 (
-            
 [
-                
+            
 "
 #
 ifndef
 mozilla_NimbusFeaturesManifest_h
 "
-                
+            
 "
 #
 define
 mozilla_NimbusFeaturesManifest_h
 "
-                
+            
 "
 #
 include
@@ -1628,7 +1627,7 @@ include
 utility
 >
 "
-                
+            
 '
 #
 include
@@ -1640,7 +1639,7 @@ Maybe
 h
 "
 '
-                
+            
 '
 #
 include
@@ -1650,18 +1649,18 @@ nsStringFwd
 h
 "
 '
-                
+            
 "
 namespace
 mozilla
 {
 "
-                
+            
 platform_feature_manifest_array
 (
 data
 )
-                
+            
 '
 #
 include
@@ -1677,7 +1676,7 @@ inc
 h
 "
 '
-                
+            
 "
 }
 /
@@ -1685,7 +1684,7 @@ h
 namespace
 mozilla
 "
-                
+            
 "
 #
 endif
@@ -1693,9 +1692,8 @@ endif
 /
 mozilla_NimbusFeaturesManifest_h
 "
-            
-]
         
+]
 )
     
 try

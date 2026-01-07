@@ -3157,6 +3157,7 @@ target
 +
 rustc_target
 with
+(
 create_temporary_file
 (
 suffix
@@ -3179,6 +3180,7 @@ rlib
 )
 as
 out_path
+)
 :
 with
 open

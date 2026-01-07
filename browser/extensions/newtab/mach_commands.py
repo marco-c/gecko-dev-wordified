@@ -709,22 +709,26 @@ subprocess
 .
 Popen
 (
-            
 [
+            
 "
 .
 /
 mach
 "
+            
 "
 npm
 "
+            
 "
 run
 "
+            
 "
 watchmc
 "
+            
 "
 -
 -
@@ -736,8 +740,8 @@ extensions
 /
 newtab
 "
-]
         
+]
 )
         
 p2
@@ -993,14 +997,16 @@ subprocess
 .
 check_call
 (
-            
 [
+            
 "
 git
 "
+            
 "
 clone
 "
+            
 "
 -
 -
@@ -1008,10 +1014,12 @@ depth
 =
 1
 "
+            
 FIREFOX_L10N_REPO
+            
 clone_dir
-]
         
+]
 )
         
 #
@@ -6357,22 +6365,26 @@ subprocess
 .
 Popen
 (
-            
 [
+            
 "
 .
 /
 mach
 "
+            
 "
 npm
 "
+            
 "
 run
 "
+            
 "
 bundle
 "
+            
 "
 -
 -
@@ -6384,8 +6396,8 @@ extensions
 /
 newtab
 "
-]
         
+]
 )
         
 print
@@ -6634,19 +6646,22 @@ subprocess
 .
 Popen
 (
-            
 [
+            
 "
 .
 /
 mach
 "
+            
 "
 npm
 "
+            
 "
 install
 "
+            
 "
 -
 -
@@ -6658,8 +6673,8 @@ extensions
 /
 newtab
 "
-]
         
+]
 )
         
 print

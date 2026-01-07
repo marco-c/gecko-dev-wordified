@@ -159,9 +159,8 @@ mozharness_run_schema
 =
 Schema
 (
-    
 {
-        
+    
 Required
 (
 "
@@ -172,7 +171,7 @@ using
 "
 mozharness
 "
-        
+    
 #
 the
 mozharness
@@ -187,7 +186,7 @@ to
 the
 testing
 /
-        
+    
 #
 directory
 and
@@ -197,7 +196,7 @@ slashes
 even
 on
 Windows
-        
+    
 Required
 (
 "
@@ -206,7 +205,7 @@ script
 )
 :
 str
-        
+    
 #
 Additional
 paths
@@ -220,7 +219,7 @@ in
 These
 should
 be
-        
+    
 #
 relative
 to
@@ -230,7 +229,7 @@ of
 the
 source
 checkout
-        
+    
 Optional
 (
 "
@@ -243,7 +242,7 @@ paths
 [
 str
 ]
-        
+    
 #
 the
 config
@@ -254,7 +253,7 @@ the
 task
 relative
 to
-        
+    
 #
 testing
 /
@@ -268,7 +267,7 @@ the
 paths
 specified
 in
-        
+    
 #
 config
 -
@@ -280,7 +279,7 @@ slashes
 even
 on
 Windows
-        
+    
 Required
 (
 "
@@ -291,7 +290,7 @@ config
 [
 str
 ]
-        
+    
 #
 any
 additional
@@ -302,7 +301,7 @@ to
 the
 mozharness
 command
-        
+    
 Optional
 (
 "
@@ -311,7 +310,7 @@ actions
 )
 :
 [
-            
+        
 Match
 (
 "
@@ -336,9 +335,9 @@ alphanumeric
 strings
 "
 )
-        
+    
 ]
-        
+    
 #
 any
 additional
@@ -354,7 +353,7 @@ be
 passed
 to
 mozharness
-        
+    
 Optional
 (
 "
@@ -363,10 +362,10 @@ options
 )
 :
 [
-            
+        
 Match
 (
-                
+            
 "
 ^
 [
@@ -387,7 +386,7 @@ z0
 )
 ?
 "
-                
+            
 "
 options
 must
@@ -402,11 +401,11 @@ optional
 argument
 )
 "
-            
+        
 )
-        
+    
 ]
-        
+    
 #
 -
 -
@@ -418,7 +417,7 @@ variant
 -
 cfg
 value
-        
+    
 Optional
 (
 "
@@ -433,7 +432,7 @@ cfg
 )
 :
 str
-        
+    
 #
 Extra
 configuration
@@ -443,7 +442,7 @@ pass
 to
 mozharness
 .
-        
+    
 Optional
 (
 "
@@ -454,7 +453,7 @@ config
 )
 :
 dict
-        
+    
 #
 If
 not
@@ -466,7 +465,7 @@ be
 enabled
 via
 relengAPIProxy
-        
+    
 #
 for
 either
@@ -481,7 +480,7 @@ Not
 supported
 on
 Windows
-        
+    
 Required
 (
 "
@@ -493,19 +492,19 @@ downloads
 :
 Any
 (
-            
+        
 False
-            
+        
 "
 public
 "
-            
+        
 "
 internal
 "
-        
+    
 )
-        
+    
 #
 The
 set
@@ -522,7 +521,7 @@ access
 these
 are
 prefixed
-        
+    
 #
 with
 project
@@ -545,7 +544,7 @@ level
 /
 .
 Setting
-        
+    
 #
 this
 will
@@ -561,7 +560,7 @@ task
 '
 s
 scopes
-        
+    
 #
 appropriately
 .
@@ -579,10 +578,10 @@ secrets
 Not
 supported
 on
-        
+    
 #
 Windows
-        
+    
 Required
 (
 "
@@ -597,7 +596,7 @@ bool
 str
 ]
 )
-        
+    
 #
 If
 true
@@ -614,7 +613,7 @@ may
 also
 be
 enabled
-        
+    
 #
 automatically
 e
@@ -630,7 +629,7 @@ supported
 on
 Windows
 .
-        
+    
 Required
 (
 "
@@ -641,7 +640,7 @@ proxy
 )
 :
 bool
-        
+    
 #
 If
 false
@@ -654,13 +653,13 @@ producing
 artifacts
 .
 Not
-        
+    
 #
 supported
 on
 Windows
 .
-        
+    
 Required
 (
 "
@@ -671,7 +670,7 @@ artifacts
 )
 :
 bool
-        
+    
 #
 If
 specified
@@ -684,7 +683,7 @@ job
 script
 specified
 .
-        
+    
 Optional
 (
 "
@@ -695,7 +694,7 @@ script
 )
 :
 str
-        
+    
 Required
 (
 "
@@ -708,7 +707,7 @@ builds
 )
 :
 bool
-        
+    
 #
 Whether
 or
@@ -717,7 +716,7 @@ to
 use
 caches
 .
-        
+    
 Optional
 (
 "
@@ -734,7 +733,7 @@ bool
 str
 ]
 )
-        
+    
 #
 If
 false
@@ -743,13 +742,13 @@ don
 t
 set
 MOZ_SIMPLE_PACKAGE_NAME
-        
+    
 #
 Only
 disableable
 on
 windows
-        
+    
 Required
 (
 "
@@ -762,7 +761,7 @@ package
 )
 :
 bool
-        
+    
 #
 If
 false
@@ -775,13 +774,13 @@ pass
 branch
 mozharness
 script
-        
+    
 #
 Only
 disableable
 on
 windows
-        
+    
 Required
 (
 "
@@ -796,7 +795,7 @@ args
 )
 :
 bool
-        
+    
 #
 if
 true
@@ -812,11 +811,11 @@ based
 branch
 inside
 the
-        
+    
 #
 gecko
 checkout
-        
+    
 Required
 (
 "
@@ -827,7 +826,7 @@ checkout
 )
 :
 bool
-        
+    
 #
 Base
 work
@@ -839,7 +838,7 @@ up
 the
 task
 .
-        
+    
 Optional
 (
 "
@@ -848,7 +847,7 @@ workdir
 )
 :
 str
-        
+    
 Optional
 (
 "
@@ -861,7 +860,6 @@ root
 )
 :
 bool
-    
 }
 )
 mozharness_defaults
@@ -1177,9 +1175,8 @@ artifacts
 .
 append
 (
-        
 {
-            
+        
 "
 name
 "
@@ -1189,7 +1186,7 @@ public
 /
 logs
 "
-            
+        
 "
 path
 "
@@ -1209,7 +1206,7 @@ format
 *
 run
 )
-            
+        
 "
 type
 "
@@ -1217,7 +1214,7 @@ type
 "
 directory
 "
-            
+        
 "
 expires
 -
@@ -1231,9 +1228,8 @@ config
 medium
 "
 )
-        
-}
     
+}
 )
     
 worker
@@ -1281,9 +1277,8 @@ env
 .
 update
 (
-        
 {
-            
+        
 "
 WORKSPACE
 "
@@ -1302,7 +1297,7 @@ format
 *
 run
 )
-            
+        
 "
 MOZHARNESS_CONFIG
 "
@@ -1321,7 +1316,7 @@ config
 "
 )
 )
-            
+        
 "
 MOZHARNESS_SCRIPT
 "
@@ -1334,7 +1329,7 @@ pop
 script
 "
 )
-            
+        
 "
 MH_BRANCH
 "
@@ -1347,7 +1342,7 @@ params
 project
 "
 ]
-            
+        
 "
 PYTHONUNBUFFERED
 "
@@ -1355,9 +1350,8 @@ PYTHONUNBUFFERED
 "
 1
 "
-        
-}
     
+}
 )
     
 worker
@@ -2033,9 +2027,8 @@ artifacts
 .
 append
 (
-        
 {
-            
+        
 "
 name
 "
@@ -2045,7 +2038,7 @@ public
 /
 logs
 "
-            
+        
 "
 path
 "
@@ -2053,7 +2046,7 @@ path
 "
 logs
 "
-            
+        
 "
 type
 "
@@ -2061,7 +2054,7 @@ type
 "
 directory
 "
-            
+        
 "
 expires
 -
@@ -2075,9 +2068,8 @@ config
 medium
 "
 )
-        
-}
     
+}
 )
     
 if
@@ -2119,9 +2111,8 @@ env
 .
 update
 (
-        
 {
-            
+        
 "
 MH_BRANCH
 "
@@ -2134,9 +2125,8 @@ params
 project
 "
 ]
-        
-}
     
+}
 )
     
 if
@@ -3035,10 +3025,8 @@ command
 "
 ]
 =
-(
-            
 [
-                
+            
 #
 Make
 the
@@ -3054,7 +3042,7 @@ will
 help
 users
 to
-                
+            
 #
 understand
 what
@@ -3068,10 +3056,10 @@ steps
 are
 implemented
 .
-                
+            
 dedent
 (
-                    
+                
 "
 "
 "
@@ -3135,9 +3123,9 @@ build
 "
 "
 "
-                
+            
 )
-                
+            
 r
 "
 mklink
@@ -3151,7 +3139,7 @@ build
 cd
 %
 "
-                
+            
 #
 Grant
 delete
@@ -3162,7 +3150,7 @@ link
 to
 everyone
 .
-                
+            
 r
 "
 icacls
@@ -3185,7 +3173,7 @@ D
 /
 L
 "
-                
+            
 r
 "
 cd
@@ -3196,9 +3184,8 @@ z
 \
 build
 "
-            
+        
 ]
-            
 +
 worker
 [
@@ -3206,5 +3193,3 @@ worker
 command
 "
 ]
-        
-)

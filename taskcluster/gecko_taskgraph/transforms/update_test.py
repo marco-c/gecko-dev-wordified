@@ -1424,15 +1424,15 @@ index
 "
 ]
 [
-                
 "
 job
 -
 name
 "
-            
 ]
 =
+(
+                
 f
 "
 {
@@ -1455,6 +1455,8 @@ name
 locale
 }
 "
+            
+)
             
 this_task
 [

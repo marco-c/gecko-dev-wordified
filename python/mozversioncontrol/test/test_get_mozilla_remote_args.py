@@ -338,14 +338,14 @@ remotes
 =
 =
 [
-        
 "
 -
 -
 remotes
 "
-    
 ]
+(
+        
 "
 Default
 -
@@ -358,6 +358,8 @@ official
 remote
 .
 "
+    
+)
     
 repo
 .
@@ -377,14 +379,12 @@ get_mozilla_remote_args
 )
     
 assert
-(
-        
 remotes
 =
 =
 expected_remotes
-    
-)
+(
+        
 "
 Multiple
 non
@@ -397,6 +397,8 @@ be
 found
 .
 "
+    
+)
 if
 __name__
 =

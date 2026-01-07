@@ -352,9 +352,6 @@ expected
 l
 }
 '
-"
-f
-"
 got
 '
 {

@@ -622,8 +622,8 @@ exclude_args
 .
 extend
 (
-                
 [
+                
 "
 -
 -
@@ -631,6 +631,7 @@ ignore
 -
 pattern
 "
+                
 os
 .
 path
@@ -645,8 +646,8 @@ root
 "
 ]
 )
-]
             
+]
 )
         
 #
@@ -1532,15 +1533,14 @@ err
 .
 update
 (
-                
 {
-                    
+                
 "
 message
 "
 :
 msg
-                    
+                
 "
 level
 "
@@ -1557,7 +1557,7 @@ or
 "
 error
 "
-                    
+                
 "
 lineno
 "
@@ -1572,7 +1572,7 @@ line
 )
 or
 0
-                    
+                
 "
 path
 "
@@ -1583,7 +1583,7 @@ obj
 source
 "
 ]
-                    
+                
 "
 rule
 "
@@ -1600,9 +1600,8 @@ or
 "
 parseError
 "
-                
-}
             
+}
 )
             
 results

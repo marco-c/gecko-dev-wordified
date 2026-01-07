@@ -1852,8 +1852,8 @@ status_str
 .
 join
 (
-                    
 [
+                    
 f
 "
 {
@@ -1883,8 +1883,8 @@ items
 (
 )
 )
-]
                 
+]
 )
                 
 rv
@@ -1952,12 +1952,11 @@ rv
 .
 extend
 (
-                
 [
-                    
+                
 "
 "
-                    
+                
 self
 .
 color_formatter
@@ -1966,7 +1965,7 @@ heading
 (
 heading
 )
-                    
+                
 self
 .
 color_formatter
@@ -1982,9 +1981,8 @@ len
 heading
 )
 )
-                
-]
             
+]
 )
             
 if
@@ -2195,12 +2193,11 @@ rv
 .
 extend
 (
-                
 [
-                    
+                
 "
 "
-                    
+                
 self
 .
 color_formatter
@@ -2209,7 +2206,7 @@ heading
 (
 heading
 )
-                    
+                
 self
 .
 color_formatter
@@ -2225,9 +2222,8 @@ len
 heading
 )
 )
-                
-]
             
+]
 )
             
 if
@@ -3531,8 +3527,6 @@ return
 s
 leakcheck
 :
-"
-"
 %
 s
 missing

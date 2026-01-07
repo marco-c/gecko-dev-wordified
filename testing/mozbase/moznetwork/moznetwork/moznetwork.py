@@ -969,11 +969,10 @@ subprocess
 .
 check_output
 (
-            
 [
-                
+            
 cmd
-                
+            
 "
 (
 Get
@@ -994,9 +993,8 @@ Property
 IPAddress
 )
 "
-            
-]
         
+]
 )
 .
 decode

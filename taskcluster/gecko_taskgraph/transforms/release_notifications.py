@@ -470,8 +470,8 @@ routes
 .
 extend
 (
-                    
 [
+                    
 f
 "
 notify
@@ -490,8 +490,8 @@ for
 email
 in
 emails
-]
                 
+]
 )
             
 #
@@ -520,33 +520,31 @@ extra
 .
 update
 (
-                
 {
-                    
+                
 "
 notify
 "
 :
 {
-                        
+                    
 "
 email
 "
 :
 {
-                            
+                        
 "
 subject
 "
 :
 subject
-                        
-}
                     
 }
                 
 }
             
+}
 )
             
 if

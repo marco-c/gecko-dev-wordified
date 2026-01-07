@@ -904,8 +904,6 @@ None
 )
         
 assert
-(
-            
 isinstance
 (
 subcategories
@@ -918,8 +916,8 @@ subcategories
 )
 >
 0
-        
-)
+(
+            
 f
 "
 At
@@ -935,6 +933,8 @@ name
 }
 .
 "
+        
+)
         
 category_items
 .
@@ -1821,8 +1821,6 @@ None
 )
         
 assert
-(
-            
 isinstance
 (
 cat_subcategories
@@ -1835,8 +1833,8 @@ cat_subcategories
 )
 >
 0
-        
-)
+(
+            
 f
 "
 At
@@ -1852,6 +1850,8 @@ cat_name
 }
 .
 "
+        
+)
         
 #
 Create
@@ -2031,16 +2031,14 @@ profiling_category_pair_value
 1
         
 assert
-(
-            
 category_enum
 .
 default_category
 is
 not
 None
-        
-)
+(
+            
 "
 There
 must
@@ -2054,6 +2052,8 @@ same
 name
 .
 "
+        
+)
         
 #
 Append

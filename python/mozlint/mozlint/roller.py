@@ -3047,9 +3047,8 @@ vcs_paths
 =
 set
 (
-            
 [
-                
+            
 os
 .
 path
@@ -3073,14 +3072,12 @@ p
 )
 else
 p
-                
 for
 p
 in
 vcs_paths
-            
-]
         
+]
 )
         
 num_procs

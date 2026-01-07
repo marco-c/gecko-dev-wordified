@@ -7083,9 +7083,6 @@ moz
 build
 files
 in
-"
-            
-"
 {
 execution_time
 :
@@ -9589,12 +9586,10 @@ raise
 SandboxValidationError
 (
                         
-"
+'
 Missing
 value
 for
-"
-'
 GYP_DIRS
 [
 "

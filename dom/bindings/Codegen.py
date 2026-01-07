@@ -1933,9 +1933,8 @@ n
 .
 join
 (
-        
 [
-            
+        
 (
 padding
 +
@@ -1955,7 +1954,6 @@ line
 "
 else
 line
-            
 for
 line
 in
@@ -1968,9 +1966,8 @@ split
 n
 "
 )
-        
-]
     
+]
 )
 #
 dedent
@@ -4629,9 +4626,6 @@ cache
 to
 support
 nursery
-"
-                    
-"
 allocation
 of
 DOM
@@ -10466,8 +10460,8 @@ hasKeyType
                     
 addHeadersForType
 (
-                        
 (
+                        
 desc
 .
 interface
@@ -10475,9 +10469,10 @@ interface
 maplikeOrSetlikeOrIterable
 .
 keyType
+                        
 None
-)
                     
+)
 )
                 
 if
@@ -10494,8 +10489,8 @@ hasValueType
                     
 addHeadersForType
 (
-                        
 (
+                        
 desc
 .
 interface
@@ -10503,9 +10498,10 @@ interface
 maplikeOrSetlikeOrIterable
 .
 valueType
+                        
 None
-)
                     
+)
 )
         
 for
@@ -12355,8 +12351,8 @@ declarations
 .
 add
 (
-                    
 (
+                    
 "
 mozilla
 :
@@ -12375,9 +12371,10 @@ unionTypeName
 t
 True
 )
+                    
 False
-)
                 
+)
 )
                 
 traverseMethods
@@ -18402,6 +18399,7 @@ m
 isAttr
 (
 )
+        
 and
         
 #
@@ -18420,6 +18418,7 @@ dependsOn
 "
 Nothing
 "
+        
 and
 m
 .
@@ -19033,9 +19032,8 @@ regular
 .
 append
 (
-                
 {
-                    
+                
 "
 name
 "
@@ -19043,13 +19041,13 @@ name
 "
 iterator
 "
-                    
+                
 "
 methodInfo
 "
 :
 False
-                    
+                
 "
 selfHostedName
 "
@@ -19057,13 +19055,13 @@ selfHostedName
 "
 ArrayValues
 "
-                    
+                
 "
 length
 "
 :
 0
-                    
+                
 "
 flags
 "
@@ -19077,7 +19075,7 @@ enumerable
 per
 spec
 .
-                    
+                
 "
 condition
 "
@@ -19085,9 +19083,8 @@ condition
 MemberCondition
 (
 )
-                
-}
             
+}
 )
         
 #
@@ -19159,9 +19156,8 @@ regular
 .
 append
 (
-                
 {
-                    
+                
 "
 name
 "
@@ -19169,13 +19165,13 @@ name
 "
 keys
 "
-                    
+                
 "
 methodInfo
 "
 :
 False
-                    
+                
 "
 selfHostedName
 "
@@ -19183,13 +19179,13 @@ selfHostedName
 "
 ArrayKeys
 "
-                    
+                
 "
 length
 "
 :
 0
-                    
+                
 "
 flags
 "
@@ -19197,7 +19193,7 @@ flags
 "
 JSPROP_ENUMERATE
 "
-                    
+                
 "
 condition
 "
@@ -19206,14 +19202,13 @@ PropertyDefiner
 .
 getControllingCondition
 (
-                        
+                    
 maplikeOrSetlikeOrIterable
 descriptor
-                    
-)
                 
-}
+)
             
+}
 )
             
 self
@@ -19222,9 +19217,8 @@ regular
 .
 append
 (
-                
 {
-                    
+                
 "
 name
 "
@@ -19232,13 +19226,13 @@ name
 "
 values
 "
-                    
+                
 "
 methodInfo
 "
 :
 False
-                    
+                
 "
 selfHostedName
 "
@@ -19246,13 +19240,13 @@ selfHostedName
 "
 ArrayValues
 "
-                    
+                
 "
 length
 "
 :
 0
-                    
+                
 "
 flags
 "
@@ -19260,7 +19254,7 @@ flags
 "
 JSPROP_ENUMERATE
 "
-                    
+                
 "
 condition
 "
@@ -19269,14 +19263,13 @@ PropertyDefiner
 .
 getControllingCondition
 (
-                        
+                    
 maplikeOrSetlikeOrIterable
 descriptor
-                    
-)
                 
-}
+)
             
+}
 )
             
 self
@@ -19285,9 +19278,8 @@ regular
 .
 append
 (
-                
 {
-                    
+                
 "
 name
 "
@@ -19295,13 +19287,13 @@ name
 "
 entries
 "
-                    
+                
 "
 methodInfo
 "
 :
 False
-                    
+                
 "
 selfHostedName
 "
@@ -19309,13 +19301,13 @@ selfHostedName
 "
 ArrayEntries
 "
-                    
+                
 "
 length
 "
 :
 0
-                    
+                
 "
 flags
 "
@@ -19323,7 +19315,7 @@ flags
 "
 JSPROP_ENUMERATE
 "
-                    
+                
 "
 condition
 "
@@ -19332,14 +19324,13 @@ PropertyDefiner
 .
 getControllingCondition
 (
-                        
+                    
 maplikeOrSetlikeOrIterable
 descriptor
-                    
-)
                 
-}
+)
             
+}
 )
             
 self
@@ -19348,9 +19339,8 @@ regular
 .
 append
 (
-                
 {
-                    
+                
 "
 name
 "
@@ -19358,13 +19348,13 @@ name
 "
 forEach
 "
-                    
+                
 "
 methodInfo
 "
 :
 False
-                    
+                
 "
 selfHostedName
 "
@@ -19372,13 +19362,13 @@ selfHostedName
 "
 ArrayForEach
 "
-                    
+                
 "
 length
 "
 :
 1
-                    
+                
 "
 flags
 "
@@ -19386,7 +19376,7 @@ flags
 "
 JSPROP_ENUMERATE
 "
-                    
+                
 "
 condition
 "
@@ -19395,14 +19385,13 @@ PropertyDefiner
 .
 getControllingCondition
 (
-                        
+                    
 maplikeOrSetlikeOrIterable
 descriptor
-                    
-)
                 
-}
+)
             
+}
 )
         
 if
@@ -19547,9 +19536,8 @@ regular
 .
 append
 (
-                    
 {
-                        
+                    
 "
 name
 "
@@ -19557,7 +19545,7 @@ name
 "
 valueOf
 "
-                        
+                    
 "
 selfHostedName
 "
@@ -19565,19 +19553,19 @@ selfHostedName
 "
 Object_valueOf
 "
-                        
+                    
 "
 methodInfo
 "
 :
 False
-                        
+                    
 "
 length
 "
 :
 0
-                        
+                    
 "
 flags
 "
@@ -19592,7 +19580,7 @@ permanent
 added
 automatically
 .
-                        
+                    
 "
 condition
 "
@@ -19600,9 +19588,8 @@ condition
 MemberCondition
 (
 )
-                    
-}
                 
+}
 )
         
 if
@@ -19635,9 +19622,8 @@ chrome
 .
 append
 (
-                        
 {
-                            
+                        
 "
 name
 "
@@ -19645,7 +19631,7 @@ name
 "
 _create
 "
-                            
+                        
 "
 nativeName
 "
@@ -19663,19 +19649,19 @@ descriptor
 .
 name
 )
-                            
+                        
 "
 methodInfo
 "
 :
 False
-                            
+                        
 "
 length
 "
 :
 2
-                            
+                        
 "
 flags
 "
@@ -19683,7 +19669,7 @@ flags
 "
 0
 "
-                            
+                        
 "
 condition
 "
@@ -19691,9 +19677,8 @@ condition
 MemberCondition
 (
 )
-                        
-}
                     
+}
 )
         
 self
@@ -26094,12 +26079,13 @@ createUnforgeableHolder
 =
 CGList
 (
-                
 [
+                
 createUnforgeableHolder
+                
 defineUnforgeables
-]
             
+]
 )
             
 installUnforgeableHolder
@@ -32836,10 +32822,7 @@ aCx
 )
 ;
 \
-n
-"
-"
-JSJitGetterCallArgs
+nJSJitGetterCallArgs
 args
 (
 &
@@ -40886,9 +40869,8 @@ template
 .
 substitute
 (
-            
 {
-                
+            
 "
 val
 "
@@ -40901,7 +40883,7 @@ str
 (
 nestingLevel
 )
-                
+            
 "
 maybeMutableVal
 "
@@ -40915,7 +40897,7 @@ str
 (
 nestingLevel
 )
-                
+            
 "
 declName
 "
@@ -40928,7 +40910,7 @@ str
 (
 nestingLevel
 )
-                
+            
 #
 We
 only
@@ -40940,7 +40922,7 @@ handle
 isExternal
 (
 )
-                
+            
 #
 interfaces
 which
@@ -40950,7 +40932,7 @@ internal
 holder
 for
 the
-                
+            
 #
 conversion
 even
@@ -40960,7 +40942,7 @@ ends
 up
 true
 .
-                
+            
 "
 holderName
 "
@@ -40973,7 +40955,7 @@ str
 (
 nestingLevel
 )
-                
+            
 "
 passedToJSImpl
 "
@@ -40983,9 +40965,8 @@ passedToJSImpl
 passedToJSImpl
 }
 "
-            
-}
         
+}
 )
         
 elementInitializer
@@ -41598,11 +41579,9 @@ s
 ;
 \
 n
-'
-"
 %
 s
-"
+'
 %
 (
                 
@@ -41879,9 +41858,8 @@ template
 .
 substitute
 (
-            
 {
-                
+            
 "
 val
 "
@@ -41889,7 +41867,7 @@ val
 "
 temp
 "
-                
+            
 "
 maybeMutableVal
 "
@@ -41898,7 +41876,7 @@ maybeMutableVal
 &
 temp
 "
-                
+            
 "
 declName
 "
@@ -41906,7 +41884,7 @@ declName
 "
 slot
 "
-                
+            
 #
 We
 only
@@ -41918,7 +41896,7 @@ handle
 isExternal
 (
 )
-                
+            
 #
 interfaces
 which
@@ -41928,7 +41906,7 @@ internal
 holder
 for
 the
-                
+            
 #
 conversion
 even
@@ -41938,7 +41916,7 @@ ends
 up
 true
 .
-                
+            
 "
 holderName
 "
@@ -41946,7 +41924,7 @@ holderName
 "
 tempHolder
 "
-                
+            
 "
 passedToJSImpl
 "
@@ -41956,9 +41934,8 @@ passedToJSImpl
 passedToJSImpl
 }
 "
-            
-}
         
+}
 )
         
 keyType
@@ -46595,10 +46572,7 @@ templateBody
 "
 }
 \
-n
-"
-"
-MOZ_ASSERT
+nMOZ_ASSERT
 (
 {
 holderName
@@ -48413,8 +48387,6 @@ conversionCode
 "
 %
 s
-"
-"
 {
 declName
 }
@@ -51445,11 +51417,9 @@ s
 ;
 \
 n
-'
-"
 %
 s
-"
+'
 %
 (
                 
@@ -51988,24 +51958,23 @@ append
             
 CGList
 (
-                
 [
-                    
+                
 declType
-                    
+                
 CGGeneric
 (
 "
 "
 )
-                    
+                
 CGGeneric
 (
 originalDeclName
 )
-                    
+                
 declCtorArgs
-                    
+                
 CGGeneric
 (
 "
@@ -52014,9 +51983,8 @@ CGGeneric
 n
 "
 )
-                
-]
             
+]
 )
         
 )
@@ -52120,24 +52088,23 @@ append
             
 CGList
 (
-                
 [
-                    
+                
 holderType
-                    
+                
 CGGeneric
 (
 "
 "
 )
-                    
+                
 CGGeneric
 (
 originalHolderName
 )
-                    
+                
 holderCtorArgs
-                    
+                
 CGGeneric
 (
 "
@@ -52146,9 +52113,8 @@ CGGeneric
 n
 "
 )
-                
-]
             
+]
 )
         
 )
@@ -52338,12 +52304,11 @@ conversion
 =
 CGList
 (
-            
 [
-                
+            
 CGGeneric
 (
-                    
+                
 string
 .
 Template
@@ -52365,18 +52330,18 @@ substitute
 (
 replacements
 )
-                
+            
 )
-                
+            
 declConstruct
-                
+            
 holderConstruct
-                
+            
 CGIndenter
 (
 conversion
 )
-                
+            
 CGGeneric
 (
 "
@@ -52385,9 +52350,8 @@ CGGeneric
 n
 "
 )
-            
-]
         
+]
 )
     
 result
@@ -53661,21 +53625,20 @@ template
 .
 substitute
 (
-                
 {
-                    
+                
 "
 val
 "
 :
 val
-                    
+                
 "
 maybeMutableVal
 "
 :
 val
-                    
+                
 "
 declName
 "
@@ -53683,7 +53646,7 @@ declName
 "
 slot
 "
-                    
+                
 #
 We
 only
@@ -53695,7 +53658,7 @@ handle
 isExternal
 (
 )
-                    
+                
 #
 interfaces
 which
@@ -53705,7 +53668,7 @@ internal
 holder
 for
 the
-                    
+                
 #
 conversion
 even
@@ -53715,7 +53678,7 @@ ends
 up
 true
 .
-                    
+                
 "
 holderName
 "
@@ -53723,7 +53686,7 @@ holderName
 "
 tempHolder
 "
-                    
+                
 #
 Use
 the
@@ -53737,7 +53700,7 @@ the
 variadic
 arg
 itself
-                    
+                
 "
 obj
 "
@@ -53748,25 +53711,24 @@ replacer
 obj
 "
 ]
-                    
+                
 "
 passedToJSImpl
 "
 :
 toStringBool
 (
-                        
+                    
 isJSImplementedDescriptor
 (
 self
 .
 descriptorProvider
 )
-                    
-)
                 
-}
+)
             
+}
 )
             
 4
@@ -53780,8 +53742,6 @@ variadicConversion
 }
 \
 n
-"
-"
 }
 \
 n
@@ -61944,7 +61904,6 @@ value
 return
 CGGeneric
 (
-            
 "
 if
 (
@@ -61959,22 +61918,17 @@ s
 {
 \
 n
-"
-"
 return
 false
 ;
 \
 n
-"
-"
 }
 \
 n
 "
 %
 value
-        
 )
     
 if
@@ -62026,7 +61980,6 @@ value
 return
 CGGeneric
 (
-            
 "
 if
 (
@@ -62041,22 +61994,17 @@ s
 {
 \
 n
-"
-"
 return
 false
 ;
 \
 n
-"
-"
 }
 \
 n
 "
 %
 value
-        
 )
     
 if
@@ -62112,15 +62060,11 @@ cx
 {
 \
 n
-"
-"
 return
 false
 ;
 \
 n
-"
-"
 }
 \
 n
@@ -62884,9 +62828,6 @@ wrap
 it
 in
 constructor
-"
-        
-"
 arguments
 :
 %
@@ -72683,13 +72624,8 @@ return
 "
 \
 n
-"
-"
 %
-s
-"
-"
-return
+sreturn
 true
 ;
 \
@@ -75154,10 +75090,7 @@ result
 )
 ;
 \
-n
-"
-"
-return
+nreturn
 true
 ;
 \
@@ -76277,359 +76210,357 @@ keywords
 =
 frozenset
 (
-        
 [
-            
+        
 "
 alignas
 "
-            
+        
 "
 alignof
 "
-            
+        
 "
 and
 "
-            
+        
 "
 and_eq
 "
-            
+        
 "
 asm
 "
-            
+        
 "
 assert
 "
-            
+        
 "
 auto
 "
-            
+        
 "
 bitand
 "
-            
+        
 "
 bitor
 "
-            
+        
 "
 bool
 "
-            
+        
 "
 break
 "
-            
+        
 "
 case
 "
-            
+        
 "
 catch
 "
-            
+        
 "
 char
 "
-            
+        
 "
 char16_t
 "
-            
+        
 "
 char32_t
 "
-            
+        
 "
 class
 "
-            
+        
 "
 compl
 "
-            
+        
 "
 const
 "
-            
+        
 "
 constexpr
 "
-            
+        
 "
 const_cast
 "
-            
+        
 "
 continue
 "
-            
+        
 "
 decltype
 "
-            
+        
 "
 default
 "
-            
+        
 "
 delete
 "
-            
+        
 "
 do
 "
-            
+        
 "
 double
 "
-            
+        
 "
 dynamic_cast
 "
-            
+        
 "
 else
 "
-            
+        
 "
 enum
 "
-            
+        
 "
 explicit
 "
-            
+        
 "
 export
 "
-            
+        
 "
 extern
 "
-            
+        
 "
 false
 "
-            
+        
 "
 final
 "
-            
+        
 "
 float
 "
-            
+        
 "
 for
 "
-            
+        
 "
 friend
 "
-            
+        
 "
 goto
 "
-            
+        
 "
 if
 "
-            
+        
 "
 inline
 "
-            
+        
 "
 int
 "
-            
+        
 "
 long
 "
-            
+        
 "
 mutable
 "
-            
+        
 "
 namespace
 "
-            
+        
 "
 new
 "
-            
+        
 "
 noexcept
 "
-            
+        
 "
 not
 "
-            
+        
 "
 not_eq
 "
-            
+        
 "
 nullptr
 "
-            
+        
 "
 operator
 "
-            
+        
 "
 or
 "
-            
+        
 "
 or_eq
 "
-            
+        
 "
 override
 "
-            
+        
 "
 private
 "
-            
+        
 "
 protected
 "
-            
+        
 "
 public
 "
-            
+        
 "
 register
 "
-            
+        
 "
 reinterpret_cast
 "
-            
+        
 "
 return
 "
-            
+        
 "
 short
 "
-            
+        
 "
 signed
 "
-            
+        
 "
 sizeof
 "
-            
+        
 "
 static
 "
-            
+        
 "
 static_assert
 "
-            
+        
 "
 static_cast
 "
-            
+        
 "
 struct
 "
-            
+        
 "
 switch
 "
-            
+        
 "
 template
 "
-            
+        
 "
 this
 "
-            
+        
 "
 thread_local
 "
-            
+        
 "
 throw
 "
-            
+        
 "
 true
 "
-            
+        
 "
 try
 "
-            
+        
 "
 typedef
 "
-            
+        
 "
 typeid
 "
-            
+        
 "
 typename
 "
-            
+        
 "
 union
 "
-            
+        
 "
 unsigned
 "
-            
+        
 "
 using
 "
-            
+        
 "
 virtual
 "
-            
+        
 "
 void
 "
-            
+        
 "
 volatile
 "
-            
+        
 "
 wchar_t
 "
-            
+        
 "
 while
 "
-            
+        
 "
 xor
 "
-            
+        
 "
 xor_eq
 "
-        
-]
     
+]
 )
     
 staticmethod
@@ -79138,11 +79069,9 @@ self
 :
         
 return
-(
-            
 fill
 (
-                
+            
 "
 "
 "
@@ -79160,15 +79089,14 @@ attrNameString
 "
 "
 "
-                
+            
 attrNameString
 =
 self
 .
 attrNameString
-            
+        
 )
-            
 +
 CGSpecializedGetterCommon
 .
@@ -79178,8 +79106,6 @@ self
 "
 attrName
 "
-)
-        
 )
 class
 CGSpecializedTemplatedGetter
@@ -80892,11 +80818,9 @@ self
 :
         
 return
-(
-            
 fill
 (
-                
+            
 "
 "
 "
@@ -80914,15 +80838,14 @@ attrNameString
 "
 "
 "
-                
+            
 attrNameString
 =
 self
 .
 attrNameString
-            
+        
 )
-            
 +
 CGSpecializedSetterCommon
 .
@@ -80932,8 +80855,6 @@ self
 "
 attrName
 "
-)
-        
 )
 class
 CGSpecializedTemplatedSetter
@@ -86305,7 +86226,7 @@ match
 x20
 -
 \
-x7E
+x7e
 ]
 "
 value
@@ -94230,9 +94151,8 @@ enums
             
 ClassGroup
 (
-                
 [
-                    
+                
 ClassEnum
 (
 "
@@ -94245,26 +94165,26 @@ visibility
 private
 "
 )
-                    
+                
 ClassEnum
 (
-                        
+                    
 "
 Type
 "
-                        
+                    
 enumValuesNoUninit
-                        
+                    
 visibility
 =
 "
 public
 "
-                        
+                    
 enumClass
 =
 True
-                        
+                    
 values
 =
 [
@@ -94280,11 +94200,10 @@ x
 in
 enumValuesNoUninit
 ]
-                    
-)
                 
-]
+)
             
+]
 )
         
 ]
@@ -95674,8 +95593,8 @@ n
 .
 join
 (
-                
 [
+                
 str
 (
 a
@@ -95684,8 +95603,8 @@ for
 a
 in
 templateArgs
-]
             
+]
 )
         
 else
@@ -98175,8 +98094,8 @@ s
 .
 join
 (
-                
 [
+                
 str
 (
 a
@@ -98187,8 +98106,8 @@ in
 self
 .
 templateSpecialization
-]
             
+]
 )
         
 return
@@ -98350,8 +98269,8 @@ s
 .
 join
 (
-                
 [
+                
 str
 (
 a
@@ -98362,8 +98281,8 @@ in
 self
 .
 templateSpecialization
-]
             
+]
 )
         
 else
@@ -100638,9 +100557,8 @@ args
 .
 append
 (
-                
 (
-                    
+                
 FakeArgument
 (
 BuiltinTypes
@@ -100652,13 +100570,12 @@ Types
 boolean
 ]
 )
-                    
+                
 self
 .
 foundVar
-                
-)
             
+)
 )
         
 return
@@ -111192,10 +111109,7 @@ done
 false
 ;
 \
-n
-"
-"
-return
+nreturn
 true
 ;
 \
@@ -112121,7 +112035,6 @@ successCode
 "
 :
 (
-                
 "
 if
 (
@@ -112139,15 +112052,11 @@ return
 false
 ;
 \
-n
-"
-"
-continue
+ncontinue
 ;
 \
 n
 "
-            
 )
         
 }
@@ -114463,9 +114372,6 @@ cache
 to
 support
 nursery
-"
-                    
-"
 allocation
 of
 DOM
@@ -114511,48 +114417,46 @@ methods
 .
 extend
 (
-                
 [
-                    
+                
 CGDOMJSProxyHandler_getOwnPropertyDescriptor
 (
 descriptor
 )
-                    
+                
 CGDOMJSProxyHandler_getSameOriginPrototype
 (
 descriptor
 )
-                    
+                
 CGDOMJSProxyHandler_definePropertySameOrigin
 (
 descriptor
 )
-                    
+                
 CGDOMJSProxyHandler_set
 (
 descriptor
 )
-                    
+                
 CGDOMJSProxyHandler_EnsureHolder
 (
 descriptor
 )
-                    
+                
 ClassUsingFromBaseDeclaration
 (
-                        
+                    
 "
 MaybeCrossOriginObjectMixins
 "
 "
 EnsureHolder
 "
-                    
-)
                 
-]
+)
             
+]
 )
         
 CGClass
@@ -124840,7 +124744,6 @@ successCode
 "
 :
 (
-                    
 "
 if
 (
@@ -124851,28 +124754,20 @@ s
 {
 \
 n
-"
-"
 return
 false
 ;
 \
 n
-"
-"
 }
 \
-n
-"
-"
-break
+nbreak
 ;
 \
 n
 "
 %
 propDef
-                
 )
                 
 "
@@ -128361,15 +128256,14 @@ append
                 
 CGList
 (
-                    
 [
-                        
+                    
 CGClassForwardDeclare
 (
 cname
 isStruct
 )
-                        
+                    
 for
 cname
 isStruct
@@ -128380,9 +128274,8 @@ self
 .
 decls
 )
-                    
-]
                 
+]
 )
             
 )
@@ -132852,8 +132745,8 @@ cgthings
 .
 extend
 (
-            
 [
+            
 CGDescriptor
 (
 x
@@ -132865,8 +132758,8 @@ for
 x
 in
 descriptors
-]
         
+]
 )
         
 #
@@ -132899,9 +132792,8 @@ cgthings
 .
 extend
 (
-            
 [
-                
+            
 CGNamespace
 (
 "
@@ -132914,14 +132806,13 @@ x
 interface
 )
 )
-                
+            
 for
 x
 in
 callbackDescriptors
-            
-]
         
+]
 )
         
 #
@@ -148857,7 +148748,7 @@ match
 x20
 -
 \
-x7E
+x7e
 ]
 "
 idlObject
@@ -155125,9 +155016,8 @@ False
 .
 substitute
 (
-            
 {
-                
+            
 "
 declName
 "
@@ -155135,9 +155025,8 @@ declName
 "
 retVal
 "
-            
-}
         
+}
 )
         
 return
@@ -161053,9 +160942,8 @@ curr
 =
 CGList
 (
-            
 [
-                
+            
 CGGeneric
 (
 define
@@ -161072,7 +160960,7 @@ h
 n
 "
 )
-                
+            
 CGGeneric
 (
 define
@@ -161089,7 +160977,7 @@ n
 n
 "
 )
-                
+            
 CGGeneric
 (
 define
@@ -161112,7 +161000,7 @@ n
 n
 '
 )
-                
+            
 CGGeneric
 (
 define
@@ -161135,7 +161023,7 @@ n
 n
 '
 )
-                
+            
 CGGeneric
 (
 define
@@ -161158,11 +161046,10 @@ n
 n
 '
 )
-                
-idEnum
             
-]
+idEnum
         
+]
 )
         
 #
@@ -163602,9 +163489,8 @@ declareIncludes
 =
 set
 (
-            
 [
-                
+            
 "
 mozilla
 /
@@ -163614,7 +163500,7 @@ DOMJSClass
 .
 h
 "
-                
+            
 "
 mozilla
 /
@@ -163624,7 +163510,7 @@ StructuredCloneTags
 .
 h
 "
-                
+            
 "
 js
 /
@@ -163632,17 +163518,16 @@ TypeDecls
 .
 h
 "
-            
-]
         
+]
 )
         
 defineIncludes
 =
 set
 (
-            
 [
+            
 "
 mozilla
 /
@@ -163652,6 +163537,7 @@ WebIDLSerializable
 .
 h
 "
+            
 "
 mozilla
 /
@@ -163659,8 +163545,8 @@ PerfectHash
 .
 h
 "
-]
         
+]
 )
         
 names
@@ -169212,8 +169098,8 @@ root
 =
 CGList
 (
-            
 [
+            
 CGClassForwardDeclare
 (
 "
@@ -169223,11 +169109,12 @@ isStruct
 =
 True
 )
+            
 self
 .
 root
-]
         
+]
 )
         
 parent

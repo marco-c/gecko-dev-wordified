@@ -284,9 +284,7 @@ html
 .
 format
 (
-                    
 doc
-                
 )
             
 )

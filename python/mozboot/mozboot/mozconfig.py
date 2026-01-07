@@ -886,6 +886,7 @@ raise
 MozconfigFindException
 (
                 
+f
 "
 MOZCONFIG
 environment
@@ -893,9 +894,6 @@ variable
 refers
 to
 a
-"
-f
-"
 non
 -
 file

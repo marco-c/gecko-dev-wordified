@@ -256,9 +256,7 @@ resolve
 .
 format
 (
-                
 multiplier
-            
 )
         
 )

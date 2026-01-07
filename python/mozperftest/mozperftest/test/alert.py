@@ -3044,23 +3044,21 @@ failed_commands
 .
 append
 (
-                        
 {
-                            
-"
-cmd
-"
-:
-cmd
-                            
-"
-test
-"
-:
-test
                         
-}
+"
+cmd
+"
+:
+cmd
+                        
+"
+test
+"
+:
+test
                     
+}
 )
         
 #

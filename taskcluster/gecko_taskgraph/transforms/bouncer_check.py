@@ -162,9 +162,8 @@ run
 .
 update
 (
-            
 {
-                
+            
 "
 using
 "
@@ -172,15 +171,14 @@ using
 "
 mach
 "
-                
+            
 "
 mach
 "
 :
 command
-            
-}
         
+}
 )
         
 yield
@@ -533,9 +531,8 @@ mach
 .
 extend
 (
-                
 [
-                    
+                
 "
 -
 -
@@ -563,7 +560,7 @@ field
 "
 ]
 )
-                    
+                
 "
 -
 -
@@ -591,9 +588,8 @@ url
 "
 ]
 )
-                
-]
             
+]
 )
             
 del

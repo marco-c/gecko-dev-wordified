@@ -1506,9 +1506,8 @@ indexes
 =
 set
 (
-                
 [
-                    
+                
 os
 .
 path
@@ -1527,7 +1526,7 @@ index
 "
 )
 )
-                    
+                
 for
 p
 in
@@ -1536,9 +1535,8 @@ toplevel_trees
 keys
 (
 )
-                
-]
             
+]
 )
             
 #

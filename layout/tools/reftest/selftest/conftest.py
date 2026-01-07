@@ -309,15 +309,14 @@ options
 .
 update
 (
-        
 {
-            
+        
 "
 app
 "
 :
 binary
-            
+        
 "
 focusFilterMode
 "
@@ -329,7 +328,7 @@ needs
 -
 focus
 "
-            
+        
 "
 suite
 "
@@ -337,9 +336,8 @@ suite
 "
 reftest
 "
-        
-}
     
+}
 )
     
 if
@@ -371,9 +369,8 @@ options
 .
 update
 (
-            
 {
-                
+            
 "
 extraProfileFiles
 "
@@ -394,7 +391,7 @@ plugins
 "
 )
 ]
-                
+            
 "
 reftestExtensionPath
 "
@@ -410,7 +407,7 @@ harness_root
 reftest
 "
 )
-                
+            
 "
 sandboxReadWhitelist
 "
@@ -426,7 +423,7 @@ PYTHON_TEST_TMP
 "
 ]
 ]
-                
+            
 "
 utilityPath
 "
@@ -442,7 +439,7 @@ package_root
 bin
 "
 )
-                
+            
 "
 specialPowersExtensionPath
 "
@@ -453,16 +450,13 @@ path
 .
 join
 (
-                    
 harness_root
 "
 specialpowers
 "
-                
 )
-            
-}
         
+}
 )
         
 if
@@ -501,9 +495,8 @@ options
 .
 update
 (
-            
 {
-                
+            
 "
 extraProfileFiles
 "
@@ -526,7 +519,7 @@ plugins
 "
 )
 ]
-                
+            
 "
 sandboxReadWhitelist
 "
@@ -539,7 +532,7 @@ build
 .
 topsrcdir
 ]
-                
+            
 "
 specialPowersExtensionPath
 "
@@ -550,7 +543,7 @@ path
 .
 join
 (
-                    
+                
 build
 .
 distdir
@@ -562,11 +555,10 @@ stage
 "
 specialpowers
 "
-                
-)
             
-}
+)
         
+}
 )
     
 def

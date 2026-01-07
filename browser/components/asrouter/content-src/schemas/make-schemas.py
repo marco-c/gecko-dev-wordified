@@ -1948,13 +1948,12 @@ defs
 .
 update
 (
-            
 {
-                
+            
 name
 :
 dfn
-                
+            
 for
 name
 dfn
@@ -1969,15 +1968,14 @@ defs
 items
 (
 )
-                
+            
 if
 dfn_filter
 (
 name
 )
-            
-}
         
+}
 )
     
 #

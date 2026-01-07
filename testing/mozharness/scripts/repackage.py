@@ -790,9 +790,8 @@ command
 .
 extend
 (
-                    
 [
-                        
+                    
 f
 "
 -
@@ -801,7 +800,7 @@ f
 arg
 }
 "
-                        
+                    
 os
 .
 path
@@ -816,24 +815,22 @@ abs_input_dir
 ]
 filename
 )
-                    
-]
                 
+]
 )
             
 command
 .
 extend
 (
-                
 [
-                    
+                
 "
 -
 -
 output
 "
-                    
+                
 os
 .
 path
@@ -853,9 +850,8 @@ output
 "
 ]
 )
-                
-]
             
+]
 )
             
 self
@@ -1037,9 +1033,8 @@ cmd
 .
 extend
 (
-                
 [
-                    
+                
 "
 -
 -
@@ -1047,7 +1042,7 @@ tooltool
 -
 manifest
 "
-                    
+                
 os
 .
 path
@@ -1062,9 +1057,8 @@ abs_src_dir
 ]
 manifest_src
 )
-                
-]
             
+]
 )
         
 cache

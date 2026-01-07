@@ -1488,7 +1488,7 @@ session
 file_name
 =
 f
-'
+"
 {
 request
 .
@@ -1506,7 +1506,7 @@ today
 .
 strftime
 (
-"
+'
 %
 Y
 -
@@ -1520,12 +1520,12 @@ H
 :
 %
 M
-"
+'
 )
 }
 .
 png
-'
+"
 .
 replace
 (
@@ -1541,7 +1541,6 @@ _
 .
 replace
 (
-            
 "
 :
 :
@@ -1549,7 +1548,6 @@ replace
 "
 __
 "
-        
 )
         
 dest_dir
@@ -2387,21 +2385,20 @@ caps
 .
 update
 (
-        
 {
-            
+        
 "
 acceptInsecureCerts
 "
 :
 True
-            
+        
 "
 webSocketUrl
 "
 :
 True
-            
+        
 "
 unhandledPromptBehavior
 "
@@ -2409,9 +2406,8 @@ unhandledPromptBehavior
 "
 dismiss
 "
-        
-}
     
+}
 )
     
 caps

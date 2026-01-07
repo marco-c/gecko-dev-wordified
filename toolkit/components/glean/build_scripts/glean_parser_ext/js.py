@@ -1184,8 +1184,6 @@ template_filename
 )
     
 assert
-(
-        
 INDEX_BITS
 +
 TYPE_BITS
@@ -1194,8 +1192,8 @@ ID_BITS
 <
 =
 ENTRY_WIDTH
-    
-)
+(
+        
 "
 INDEX_BITS
 TYPE_BITS
@@ -1206,6 +1204,8 @@ larger
 than
 allowed
 "
+    
+)
     
 get_metric_id
 =
@@ -1655,8 +1655,6 @@ metric_type_ids
 :
         
 assert
-(
-            
 v
 [
 1
@@ -1673,8 +1671,8 @@ i
 [
 0
 ]
-        
-)
+(
+            
 f
 "
 Metric
@@ -1721,9 +1719,9 @@ util
 py
 "
         
+)
+        
 assert
-(
-            
 v
 [
 1
@@ -1745,8 +1743,8 @@ i
 id
 "
 ]
-        
-)
+(
+            
 f
 "
 Metric
@@ -1801,6 +1799,8 @@ id
 ]
 }
 "
+        
+)
     
 #
 Create

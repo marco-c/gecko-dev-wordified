@@ -549,9 +549,8 @@ False
 return
 all
 (
-            
 [
-                
+            
 bt
 in
 build_types
@@ -562,14 +561,13 @@ is_full_test_variants_fail
 (
 bt
 )
-                
+            
 for
 bt
 in
 possible_build_types
-            
-]
         
+]
 )
     
 def
@@ -671,9 +669,8 @@ False
 return
 all
 (
-            
 [
-                
+            
 bt
 in
 build_types
@@ -697,14 +694,13 @@ values
 >
 =
 7
-                
+            
 for
 bt
 in
 possible_build_types
-            
-]
         
+]
 )
     
 def

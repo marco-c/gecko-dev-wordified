@@ -397,26 +397,25 @@ subprocess
 .
 check_call
 (
-                        
 [
-                            
+                        
 sys
 .
 executable
-                            
+                        
 "
 -
 m
 "
-                            
+                        
 "
 pip
 "
-                            
+                        
 "
 install
 "
-                            
+                        
 "
 -
 -
@@ -426,13 +425,13 @@ cache
 -
 dir
 "
-                            
+                        
 "
 -
 -
 isolated
 "
-                            
+                        
 "
 -
 -
@@ -440,7 +439,7 @@ find
 -
 links
 "
-                            
+                        
 "
 https
 :
@@ -459,11 +458,10 @@ org
 pub
 /
 "
-                            
-req
                         
-]
+req
                     
+]
 )
         
 return

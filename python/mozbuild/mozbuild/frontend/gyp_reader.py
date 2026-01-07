@@ -3647,9 +3647,8 @@ environ
 .
 update
 (
-                
 {
-                    
+                
 "
 GYP_MSVS_OVERRIDE_PATH
 "
@@ -3657,7 +3656,7 @@ GYP_MSVS_OVERRIDE_PATH
 "
 fake_path
 "
-                    
+                
 "
 GYP_MSVS_VERSION
 "
@@ -3670,9 +3669,8 @@ substs
 MSVS_VERSION
 "
 ]
-                
-}
             
+}
 )
         
 params

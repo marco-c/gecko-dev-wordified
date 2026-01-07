@@ -658,11 +658,9 @@ bar
 .
 format
 (
-            
 *
 *
 NORMALISED_PATHS
-        
 )
 .
 strip
@@ -715,11 +713,9 @@ warning
 .
 format
 (
-            
 *
 *
 NORMALISED_PATHS
-        
 )
 .
 strip

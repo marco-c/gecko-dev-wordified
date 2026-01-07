@@ -581,8 +581,8 @@ cmd
 .
 extend
 (
-                
 [
+                
 "
 -
 -
@@ -590,6 +590,7 @@ artifact
 -
 manifest
 "
+                
 os
 .
 path
@@ -605,8 +606,8 @@ toolchains
 json
 "
 )
-]
             
+]
 )
         
 else

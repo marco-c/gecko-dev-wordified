@@ -695,8 +695,6 @@ only
 print
 output
 for
-"
-"
 failed
 tests
 "
@@ -741,8 +739,6 @@ output
 for
 failed
 tests
-"
-"
 (
 no
 -
@@ -2208,8 +2204,6 @@ use
 as
 test
 root
-"
-"
 (
 e
 .
@@ -2264,8 +2258,6 @@ push
 -
 -
 preferably
-"
-"
 stripped
 "
     
@@ -3785,9 +3777,6 @@ tests
 match
 command
 line
-"
-                
-"
 arguments
 debugger
 can
@@ -4119,6 +4108,7 @@ prefix
 print
 (
                 
+f
 "
 JS
 shell
@@ -4129,9 +4119,6 @@ does
 not
 exist
 :
-"
-f
-"
 '
 {
 prefix

@@ -100,9 +100,8 @@ python_test_schema
 =
 Schema
 (
-    
 {
-        
+    
 Required
 (
 "
@@ -115,13 +114,13 @@ python
 -
 test
 "
-        
+    
 #
 The
 subsuite
 to
 run
-        
+    
 Required
 (
 "
@@ -130,7 +129,7 @@ subsuite
 )
 :
 str
-        
+    
 #
 Base
 work
@@ -142,7 +141,7 @@ up
 the
 task
 .
-        
+    
 Optional
 (
 "
@@ -151,14 +150,14 @@ workdir
 )
 :
 str
-        
+    
 #
 Use
 the
 specified
 caches
 .
-        
+    
 Optional
 (
 "
@@ -175,7 +174,7 @@ bool
 str
 ]
 )
-        
+    
 #
 Prepend
 the
@@ -190,7 +189,7 @@ This
 can
 be
 useful
-        
+    
 #
 if
 the
@@ -206,7 +205,7 @@ with
 another
 ENV
 .
-        
+    
 Optional
 (
 "
@@ -221,7 +220,6 @@ str
 :
 str
 }
-    
 }
 )
 defaults

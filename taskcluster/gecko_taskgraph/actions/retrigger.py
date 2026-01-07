@@ -1929,11 +1929,10 @@ retrigger_tasks
 .
 extend
 (
-            
 [
-                
+            
 label
-                
+            
 for
 label
 in
@@ -1945,16 +1944,15 @@ get
 tasks
 "
 )
-                
+            
 if
 _should_retrigger
 (
 full_task_graph
 label
 )
-            
-]
         
+]
 )
     
 create_tasks

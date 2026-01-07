@@ -4301,9 +4301,8 @@ config
 .
 update
 (
-            
 {
-                
+            
 "
 playback_tool
 "
@@ -4316,7 +4315,7 @@ get
 playback
 "
 )
-                
+            
 "
 playback_version
 "
@@ -4336,13 +4335,13 @@ playback_version
 1
 "
 )
-                
+            
 "
 playback_files
 "
 :
 [
-                    
+                
 os
 .
 path
@@ -4352,16 +4351,14 @@ join
 playback_dir
 manifest
 )
-                    
 for
 manifest
 in
 playback_manifests
-                
-]
             
-}
+]
         
+}
 )
         
 LOG

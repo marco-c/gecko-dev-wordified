@@ -1474,8 +1474,8 @@ bugzilla_client
 .
 search_bugs
 (
-            
 [
+            
 {
 "
 product
@@ -1490,8 +1490,8 @@ summary
 :
 search_string
 }
-]
         
+]
 )
 [
 "

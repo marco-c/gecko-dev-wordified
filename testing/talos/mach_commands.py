@@ -617,23 +617,21 @@ default_actions
 .
 extend
 (
-            
 [
-                
+            
 "
 create
 -
 virtualenv
 "
-                
+            
 "
 run
 -
 tests
 "
-            
-]
         
+]
 )
         
 self

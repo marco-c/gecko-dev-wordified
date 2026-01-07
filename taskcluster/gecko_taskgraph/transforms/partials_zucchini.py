@@ -603,9 +603,8 @@ extra_params
 .
 extend
 (
-            
 [
-                
+            
 f
 "
 -
@@ -619,7 +618,7 @@ build_platform
 )
 }
 "
-                
+            
 f
 "
 -
@@ -630,7 +629,7 @@ locale
 build_locale
 }
 "
-                
+            
 #
 This
 isn
@@ -653,7 +652,7 @@ s
 the
 same
 as
-                
+            
 #
 It
 '
@@ -676,7 +675,7 @@ via
 run
 -
 task
-                
+            
 f
 "
 -
@@ -715,9 +714,8 @@ artifacts
 to_mar_path
 }
 "
-            
-]
         
+]
 )
         
 #

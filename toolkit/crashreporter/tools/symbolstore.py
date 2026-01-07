@@ -2632,8 +2632,6 @@ install
 -
 manifest
 :
-"
-"
 specify
 manifest
 target_dir
@@ -4588,9 +4586,8 @@ cmdline
 .
 extend
 (
-                
 [
-                    
+                
 "
 -
 -
@@ -4598,7 +4595,7 @@ extra
 -
 info
 "
-                    
+                
 "
 VENDOR
 "
@@ -4611,9 +4608,8 @@ substs
 MOZ_APP_VENDOR
 "
 ]
-                
-]
             
+]
 )
         
 if
@@ -4636,9 +4632,8 @@ cmdline
 .
 extend
 (
-                
 [
-                    
+                
 "
 -
 -
@@ -4646,7 +4641,7 @@ extra
 -
 info
 "
-                    
+                
 "
 PRODUCTNAME
 "
@@ -4659,9 +4654,8 @@ substs
 MOZ_APP_BASENAME
 "
 ]
-                
-]
             
+]
 )
         
 #
@@ -4688,9 +4682,8 @@ cmdline
 .
 extend
 (
-                
 [
-                    
+                
 "
 -
 -
@@ -4698,15 +4691,14 @@ extra
 -
 info
 "
-                    
+                
 "
 BUILDID
 "
 +
 buildid
-                
-]
             
+]
 )
         
 except
@@ -7341,13 +7333,12 @@ subprocess
 .
 call
 (
-                
 [
-                    
+                
 self
 .
 objcopy
-                    
+                
 "
 -
 -
@@ -7355,12 +7346,12 @@ remove
 -
 section
 "
-                    
+                
 "
 .
 gnu_debuglink
 "
-                    
+                
 "
 -
 -
@@ -7375,11 +7366,10 @@ s
 "
 %
 file_dbg
-                    
-file
                 
-]
+file
             
+]
 )
             
 =
@@ -7830,26 +7820,24 @@ cmdline
 .
 extend
 (
-                
 [
-                    
+                
 "
 -
 -
 inlines
 "
-                    
+                
 "
 -
 j
 "
-                    
+                
 "
 2
 "
-                
-]
             
+]
 )
             
 if

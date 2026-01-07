@@ -920,16 +920,21 @@ _virtualenv_modules
 .
 append
 (
-            
 (
+            
 name
+            
 url
+            
 method
+            
 requirements
+            
 optional
+            
 editable
-)
         
+)
 )
     
 def
@@ -1006,8 +1011,6 @@ option
 not
 set
 ;
-"
-"
 this
 should
 never
@@ -1205,16 +1208,15 @@ self
 .
 get_output_from_command
 (
-            
 [
-                
+            
 python
-                
+            
 "
 -
 c
 "
-                
+            
 "
 from
 sysconfig
@@ -1233,9 +1235,8 @@ purelib
 ]
 )
 "
-            
-]
         
+]
 )
         
 return
@@ -6797,9 +6798,8 @@ overall
 .
 append
 (
-                    
 {
-                        
+                    
 "
 name
 "
@@ -6807,24 +6807,22 @@ name
 "
 cpu_percent
 "
-                        
+                    
 "
 value
 "
 :
 cpu_percent
-                    
-}
                 
+}
 )
             
 overall
 .
 extend
 (
-                
 [
-                    
+                
 {
 "
 name
@@ -6841,7 +6839,7 @@ io
 .
 write_bytes
 }
-                    
+                
 {
 "
 name
@@ -6860,7 +6858,7 @@ io
 .
 read_bytes
 }
-                    
+                
 {
 "
 name
@@ -6877,7 +6875,7 @@ io
 .
 write_time
 }
-                    
+                
 {
 "
 name
@@ -6894,18 +6892,16 @@ io
 .
 read_time
 }
-                
-]
             
+]
 )
             
 suites
 .
 append
 (
-                
 {
-                    
+                
 "
 name
 "
@@ -6918,28 +6914,26 @@ overall
 "
 %
 perfherder_name
-                    
+                
 "
 extraOptions
 "
 :
 perfherder_options
-                    
 +
 self
 .
 perfherder_resource_options
 (
 )
-                    
+                
 "
 subtests
 "
 :
 overall
-                
-}
             
+}
 )
             
 for
@@ -7025,9 +7019,8 @@ subtests
 .
 append
 (
-                        
 {
-                            
+                        
 "
 name
 "
@@ -7035,7 +7028,7 @@ name
 "
 cpu_percent
 "
-                            
+                        
 "
 value
 "
@@ -7044,18 +7037,15 @@ rm
 .
 aggregate_cpu_percent
 (
-                                
 phase
 =
 phase
 per_cpu
 =
 False
-                            
 )
-                        
-}
                     
+}
 )
                 
 #
@@ -7115,9 +7105,8 @@ suites
 .
 append
 (
-                    
 {
-                        
+                    
 "
 name
 "
@@ -7134,15 +7123,14 @@ s
 perfherder_name
 phase
 )
-                        
+                    
 "
 subtests
 "
 :
 subtests
-                    
-}
                 
+}
 )
             
 data

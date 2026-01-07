@@ -136,13 +136,12 @@ variant_description_schema
 =
 Schema
 (
-    
 {
-        
+    
 str
 :
 {
-            
+        
 Required
 (
 "
@@ -151,7 +150,7 @@ description
 )
 :
 str
-            
+        
 Required
 (
 "
@@ -160,7 +159,7 @@ suffix
 )
 :
 str
-            
+        
 Optional
 (
 "
@@ -169,7 +168,7 @@ mozinfo
 )
 :
 str
-            
+        
 Required
 (
 "
@@ -178,7 +177,7 @@ component
 )
 :
 str
-            
+        
 Required
 (
 "
@@ -187,7 +186,7 @@ expiration
 )
 :
 str
-            
+        
 Optional
 (
 "
@@ -208,7 +207,7 @@ if
 :
 str
 }
-            
+        
 Optional
 (
 "
@@ -221,7 +220,7 @@ str
 :
 object
 }
-            
+        
 Optional
 (
 "
@@ -234,9 +233,8 @@ str
 :
 object
 }
-        
-}
     
+}
 }
 )
 "

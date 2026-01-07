@@ -2932,8 +2932,6 @@ a
 16
 -
 bit
-"
-"
 unsigned
 integer
 "
@@ -4719,9 +4717,8 @@ n
 .
 join
 (
-                
 [
-                    
+                
 self
 .
 as_c_struct
@@ -4729,7 +4726,7 @@ as_c_struct
 guid
 names
 )
-                    
+                
 for
 guid
 names
@@ -4741,9 +4738,8 @@ Guids
 items
 (
 )
-                
-]
             
+]
 )
             
 print

@@ -11062,8 +11062,8 @@ self
 .
 writeManifest
 (
-            
 [
+            
 (
 "
 test_notHeadlessWhenFalseInManifest
@@ -11076,8 +11076,8 @@ headless
 false
 "
 )
-]
         
+]
 )
         
 self

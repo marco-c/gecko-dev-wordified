@@ -984,6 +984,8 @@ try
 :
     
 with
+(
+        
 open
 (
 args
@@ -992,19 +994,19 @@ rootingHazards
 )
 as
 rootingHazards
+        
 open
 (
-        
 args
 .
 hazards
 "
 w
 "
-    
 )
 as
 hazards
+        
 open
 (
 args
@@ -1016,6 +1018,7 @@ w
 )
 as
 extra
+        
 open
 (
 args
@@ -1027,19 +1030,20 @@ w
 )
 as
 refs
+        
 open
 (
-        
 args
 .
 html
 "
 w
 "
+)
+as
+html
     
 )
-as
-html
 :
         
 current_gcFunction

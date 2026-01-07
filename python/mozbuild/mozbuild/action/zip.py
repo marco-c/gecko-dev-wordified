@@ -170,8 +170,6 @@ given
 directory
 before
 considering
-"
-"
 other
 paths
 "
