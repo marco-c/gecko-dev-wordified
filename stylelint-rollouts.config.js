@@ -2665,6 +2665,17 @@ themes
 /
 shared
 /
+smartbar
+.
+css
+"
+"
+browser
+/
+themes
+/
+shared
+/
 syncedtabs
 /
 sidebar
