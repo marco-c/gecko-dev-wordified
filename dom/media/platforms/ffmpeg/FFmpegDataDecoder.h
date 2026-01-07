@@ -241,6 +241,7 @@ final
 ;
 FFmpegDataDecoder
 (
+const
 FFmpegLibWrapper
 *
 aLib
@@ -312,6 +313,7 @@ AVCodec
 *
 FindSoftwareAVCodec
 (
+const
 FFmpegLibWrapper
 *
 aLib
@@ -327,6 +329,7 @@ AVCodec
 *
 FindHardwareAVCodec
 (
+const
 FFmpegLibWrapper
 *
 aLib
@@ -484,6 +487,7 @@ MaybeDetachCDM
 ;
 #
 endif
+const
 FFmpegLibWrapper
 *
 mLib

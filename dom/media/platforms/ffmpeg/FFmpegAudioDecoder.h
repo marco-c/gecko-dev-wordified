@@ -193,6 +193,7 @@ public
 :
 FFmpegAudioDecoder
 (
+const
 FFmpegLibWrapper
 *
 aLib

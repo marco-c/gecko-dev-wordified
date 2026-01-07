@@ -2423,6 +2423,7 @@ FFmpegLibWrapper
 IsVAAPIAvailable
 (
 )
+const
 {
 #
 define

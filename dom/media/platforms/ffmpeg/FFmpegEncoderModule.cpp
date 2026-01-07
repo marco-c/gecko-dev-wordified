@@ -251,6 +251,7 @@ V
 :
 Init
 (
+const
 FFmpegLibWrapper
 *
 aLib

@@ -278,6 +278,7 @@ static
 void
 Init
 (
+const
 FFmpegLibWrapper
 *
 aLib
@@ -894,6 +895,7 @@ PlatformDecoderModule
 >
 Create
 (
+const
 FFmpegLibWrapper
 *
 aLib
@@ -922,6 +924,7 @@ forget
 explicit
 FFmpegDecoderModule
 (
+const
 FFmpegLibWrapper
 *
 aLib
@@ -2185,6 +2188,7 @@ aCodec
 }
 private
 :
+const
 FFmpegLibWrapper
 *
 mLib

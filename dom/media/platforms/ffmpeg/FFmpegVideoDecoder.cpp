@@ -3691,6 +3691,7 @@ LIBAV_VER
 :
 FFmpegVideoDecoder
 (
+const
 FFmpegLibWrapper
 *
 aLib
@@ -16914,6 +16915,7 @@ LIBAV_VER
 :
 FindVideoHardwareAVCodec
 (
+const
 FFmpegLibWrapper
 *
 aLib

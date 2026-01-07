@@ -393,6 +393,7 @@ public
 :
 FFmpegVideoDecoder
 (
+const
 FFmpegLibWrapper
 *
 aLib
@@ -919,6 +920,7 @@ AVCodec
 *
 FindVideoHardwareAVCodec
 (
+const
 FFmpegLibWrapper
 *
 aLib

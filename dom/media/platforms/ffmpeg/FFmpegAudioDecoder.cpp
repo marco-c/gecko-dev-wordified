@@ -247,6 +247,7 @@ LIBAV_VER
 :
 FFmpegAudioDecoder
 (
+const
 FFmpegLibWrapper
 *
 aLib

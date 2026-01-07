@@ -189,6 +189,7 @@ static
 void
 Init
 (
+const
 FFmpegLibWrapper
 *
 )
@@ -200,6 +201,7 @@ PlatformDecoderModule
 >
 Create
 (
+const
 FFmpegLibWrapper
 *
 )
@@ -220,6 +222,7 @@ static
 void
 Init
 (
+const
 FFmpegLibWrapper
 *
 )
@@ -231,6 +234,7 @@ PlatformEncoderModule
 >
 Create
 (
+const
 FFmpegLibWrapper
 *
 )
