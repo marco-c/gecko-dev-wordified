@@ -355,7 +355,8 @@ for
 Kind
 :
 :
-StyleRuleDeclarations
+*
+Declarations
 .
 StyleRuleChange
 (
