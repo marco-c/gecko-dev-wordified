@@ -48083,11 +48083,15 @@ IsFirstChild
 *
 mEmptyInclusiveAncestorBlockElement
 {
-WalkTreeOption
+LeafNodeOption
 :
 :
 IgnoreNonEditableNode
 }
+BlockInlineCheck
+:
+:
+UseComputedDisplayOutsideStyle
 )
 )
 {
