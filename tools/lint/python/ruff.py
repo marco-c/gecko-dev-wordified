@@ -291,11 +291,8 @@ output
 def
 run_process
 (
-config
 cmd
-*
-*
-kwargs
+log
 )
 :
     
@@ -330,7 +327,7 @@ stderr
 =
 subprocess
 .
-DEVNULL
+PIPE
 text
 =
 True
@@ -350,8 +347,8 @@ orig
 try
 :
         
-output
-_
+stdout
+stderr
 =
 proc
 .
@@ -363,6 +360,27 @@ proc
 .
 wait
 (
+)
+        
+for
+line
+in
+stderr
+.
+splitlines
+(
+)
+:
+            
+if
+line
+:
+                
+log
+.
+debug
+(
+line
 )
     
 except
@@ -376,7 +394,7 @@ kill
 )
     
 return
-output
+stdout
 def
 lint
 (
@@ -476,24 +494,6 @@ exclude
 }
 "
 )
-    
-process_kwargs
-=
-{
-"
-processStderrLine
-"
-:
-lambda
-line
-:
-log
-.
-debug
-(
-line
-)
-}
     
 warning_rules
 =
@@ -649,11 +649,8 @@ output
 =
 run_process
 (
-config
 fix_args
-*
-*
-process_kwargs
+log
 )
         
 matches
@@ -726,11 +723,8 @@ output
 =
 run_process
 (
-config
 args
-*
-*
-process_kwargs
+log
 )
     
 if
