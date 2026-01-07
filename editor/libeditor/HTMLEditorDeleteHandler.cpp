@@ -558,14 +558,6 @@ HTMLEditUtils
 :
 TableBoundary
 ;
-using
-WalkTreeOption
-=
-HTMLEditUtils
-:
-:
-WalkTreeOption
-;
 static
 LazyLogModule
 gOneLineMoverLog

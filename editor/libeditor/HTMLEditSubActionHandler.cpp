@@ -665,14 +665,6 @@ HTMLEditUtils
 :
 WalkTreeDirection
 ;
-using
-WalkTreeOption
-=
-HTMLEditUtils
-:
-:
-WalkTreeOption
-;
 /
 *
 *
@@ -21809,6 +21801,7 @@ if
 (
 Element
 *
+const
 deepestDivBlockquoteOrListElement
 =
 HTMLEditUtils
@@ -21821,7 +21814,7 @@ aArrayOfContents
 0
 ]
 {
-WalkTreeOption
+LeafNodeOption
 :
 :
 IgnoreNonEditableNode

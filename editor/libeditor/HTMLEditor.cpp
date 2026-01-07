@@ -862,14 +862,6 @@ HTMLEditUtils
 :
 LeafNodeOptions
 ;
-using
-WalkTreeOption
-=
-HTMLEditUtils
-:
-:
-WalkTreeOption
-;
 /
 /
 Some

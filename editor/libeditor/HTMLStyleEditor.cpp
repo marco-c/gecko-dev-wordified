@@ -520,14 +520,6 @@ HTMLEditUtils
 :
 LeafNodeOption
 ;
-using
-WalkTreeOption
-=
-HTMLEditUtils
-:
-:
-WalkTreeOption
-;
 template
 nsresult
 HTMLEditor
