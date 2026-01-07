@@ -115,6 +115,7 @@ ROWS_PREF
 topSitesRows
 "
 ;
+async
 function
 getTopSitesFeedForTest
 (
@@ -425,6 +426,27 @@ _readContile
 (
 )
 ;
+/
+/
+Kick
+off
+an
+update
+so
+the
+cache
+is
+populated
+.
+await
+feed
+.
+frecencyBoostProvider
+.
+update
+(
+)
+;
 return
 feed
 ;
@@ -464,6 +486,7 @@ defaults
 const
 feed
 =
+await
 getTopSitesFeedForTest
 (
 sandbox
@@ -693,6 +716,7 @@ position
 const
 feed
 =
+await
 getTopSitesFeedForTest
 (
 sandbox
@@ -940,6 +964,7 @@ position
 const
 feed
 =
+await
 getTopSitesFeedForTest
 (
 sandbox
@@ -1203,6 +1228,7 @@ topsite
 const
 feed
 =
+await
 getTopSitesFeedForTest
 (
 sandbox
@@ -1446,6 +1472,7 @@ path
 const
 feed
 =
+await
 getTopSitesFeedForTest
 (
 sandbox
@@ -1709,6 +1736,7 @@ contile
 const
 feed
 =
+await
 getTopSitesFeedForTest
 (
 sandbox
@@ -1951,6 +1979,7 @@ label
 const
 feed
 =
+await
 getTopSitesFeedForTest
 (
 sandbox
