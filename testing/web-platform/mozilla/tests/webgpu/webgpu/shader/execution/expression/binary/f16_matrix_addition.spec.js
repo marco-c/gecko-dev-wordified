@@ -435,8 +435,8 @@ desc
 Expression
 :
 x
-=
 +
+=
 y
 where
 x
