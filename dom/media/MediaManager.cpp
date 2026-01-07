@@ -31228,6 +31228,17 @@ listener
 mDeviceState
 -
 >
+mOffWhileDisabled
+|
+|
+(
+!
+listener
+-
+>
+mDeviceState
+-
+>
 mDeviceMuted
 &
 &
@@ -31238,6 +31249,7 @@ mDeviceState
 -
 >
 mDeviceEnabled
+)
 ]
 {
 const
