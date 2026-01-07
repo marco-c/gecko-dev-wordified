@@ -1524,16 +1524,6 @@ aWidgetType
 =
 0
 ;
-virtual
-bool
-WidgetIsContainer
-(
-StyleAppearance
-aWidgetType
-)
-=
-0
-;
 /
 *
 *

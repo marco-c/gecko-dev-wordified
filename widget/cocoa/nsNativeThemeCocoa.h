@@ -807,13 +807,6 @@ StyleAppearance
 override
 ;
 bool
-WidgetIsContainer
-(
-StyleAppearance
-)
-override
-;
-bool
 ThemeDrawsFocusForWidget
 (
 nsIFrame
