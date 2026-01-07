@@ -458,6 +458,9 @@ winsock2
 .
 h
 >
+#
+ifdef
+__MINGW32__
 /
 *
 Include
@@ -472,7 +475,6 @@ fseeko
 to
 avoid
 clobbering
-*
 the
 ftello
 (
@@ -493,6 +495,15 @@ h
 .
 *
 /
+#
+include
+<
+stdio
+.
+h
+>
+#
+endif
 #
 define
 ftello
