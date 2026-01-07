@@ -2569,7 +2569,8 @@ enum
 class
 ScheduleCompressionTask
 {
-GC
+NonShrinkingGC
+ShrinkingGC
 API
 }
 ;

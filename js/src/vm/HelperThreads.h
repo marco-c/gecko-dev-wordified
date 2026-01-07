@@ -1759,6 +1759,8 @@ StartOffThreadCompressionsOnGC
 JSRuntime
 *
 rt
+bool
+isShrinkingGC
 )
 ;
 /
