@@ -4079,11 +4079,14 @@ false
 public
 :
 bool
-IsAboutBlankLoadOntoInitialAboutBlank
+ShouldDoInitialAboutBlankSyncLoad
 (
 nsIURI
 *
 aURI
+nsDocShellLoadState
+*
+aLoadState
 nsIPrincipal
 *
 aPrincipalToInherit
