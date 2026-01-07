@@ -458,6 +458,9 @@ with
 two
 fields
 "
+invalid
+:
+true
 fields
 :
 [
