@@ -84,13 +84,6 @@ ppc
 h
 "
 #
-include
-<
-stdlib
-.
-h
->
-#
 if
 defined
 (

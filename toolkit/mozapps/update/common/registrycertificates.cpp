@@ -59,13 +59,6 @@ MPL
 #
 include
 <
-stdlib
-.
-h
->
-#
-include
-<
 windows
 .
 h

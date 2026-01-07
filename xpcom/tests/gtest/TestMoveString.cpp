@@ -116,13 +116,6 @@ MPL
 /
 #
 include
-<
-stdlib
-.
-h
->
-#
-include
 "
 nsASCIIMask
 .
