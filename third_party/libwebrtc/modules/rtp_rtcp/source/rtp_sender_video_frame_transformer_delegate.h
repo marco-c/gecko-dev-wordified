@@ -114,6 +114,11 @@ optional
 #
 include
 <
+string
+>
+#
+include
+<
 vector
 >
 #
@@ -429,6 +434,11 @@ FrameTransformerInterface
 frame_transformer
 uint32_t
 ssrc
+std
+:
+:
+string
+rid
 TaskQueueFactory
 *
 send_transport_queue
@@ -685,6 +695,13 @@ frame_transformer_
 const
 uint32_t
 ssrc_
+;
+const
+std
+:
+:
+string
+rid_
 ;
 /
 /
