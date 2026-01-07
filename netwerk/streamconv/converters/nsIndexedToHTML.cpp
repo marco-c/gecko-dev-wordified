@@ -2654,8 +2654,6 @@ start
 n
 "
 "
-max
--
 width
 :
 16px
@@ -2664,8 +2662,6 @@ width
 n
 "
 "
-max
--
 height
 :
 16px
