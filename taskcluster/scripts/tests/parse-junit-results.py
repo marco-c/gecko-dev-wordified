@@ -862,17 +862,19 @@ rows
 .
 append
 (
+                                    
 [
-                                    
+                                        
 test_id
-                                    
+                                        
 "
 Flaky
 "
-                                    
+                                        
 details
-                                
+                                    
 ]
+                                
 )
                             
 last_seen_failures
@@ -966,17 +968,19 @@ rows
 .
 append
 (
+                                    
 [
-                                    
+                                        
 test_id
-                                    
+                                        
 "
 Failure
 "
-                                    
+                                        
 details
-                                
+                                    
 ]
+                                
 )
                                 
 print

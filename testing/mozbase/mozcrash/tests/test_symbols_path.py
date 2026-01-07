@@ -306,12 +306,11 @@ symbol_url
 =
 urlunsplit
 (
-(
         
+(
 "
 http
 "
-        
 "
 %
 s
@@ -325,19 +324,16 @@ httpd
 httpd
 .
 server_address
-        
 "
 /
 symbols
 "
-        
 "
 "
-        
 "
 "
-    
 )
+    
 )
     
 assert
@@ -560,12 +556,11 @@ symbol_url
 =
 urlunsplit
 (
-(
         
+(
 "
 http
 "
-        
 "
 %
 s
@@ -579,19 +574,16 @@ httpd
 httpd
 .
 server_address
-        
 "
 /
 symbols
 "
-        
 "
 "
-        
 "
 "
-    
 )
+    
 )
     
 assert

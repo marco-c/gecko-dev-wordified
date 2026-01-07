@@ -466,9 +466,9 @@ MOZ_PROFILER_STARTUP_INTERVAL
 {
 geckoprofiler_opts
 [
-"
+'
 interval
-"
+'
 ]
 }
   
@@ -477,9 +477,9 @@ MOZ_PROFILER_STARTUP_FEATURES
 {
 geckoprofiler_opts
 [
-"
+'
 features
-"
+'
 ]
 }
   
@@ -488,9 +488,9 @@ MOZ_PROFILER_STARTUP_FILTERS
 {
 geckoprofiler_opts
 [
-"
+'
 filters
-"
+'
 ]
 }
 "

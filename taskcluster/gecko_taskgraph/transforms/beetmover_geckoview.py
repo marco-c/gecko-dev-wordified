@@ -161,8 +161,9 @@ beetmover_description_schema
 =
 Schema
 (
-{
     
+{
+        
 Required
 (
 "
@@ -171,7 +172,7 @@ label
 )
 :
 str
-    
+        
 Required
 (
 "
@@ -185,7 +186,7 @@ task_description_schema
 dependencies
 "
 ]
-    
+        
 Optional
 (
 "
@@ -199,7 +200,7 @@ task_description_schema
 treeherder
 "
 ]
-    
+        
 Required
 (
 "
@@ -221,7 +222,7 @@ on
 projects
 "
 ]
-    
+        
 Required
 (
 "
@@ -247,7 +248,7 @@ hg
 branches
 "
 ]
-    
+        
 Optional
 (
 "
@@ -266,7 +267,7 @@ level
 "
 str
 )
-    
+        
 Optional
 (
 "
@@ -278,7 +279,7 @@ phase
 :
 optionally_keyed_by
 (
-        
+            
 "
 project
 "
@@ -290,9 +291,9 @@ shipping
 phase
 "
 ]
-    
+        
 )
-    
+        
 Optional
 (
 "
@@ -310,7 +311,7 @@ shipping
 product
 "
 ]
-    
+        
 Optional
 (
 "
@@ -324,7 +325,7 @@ task_description_schema
 attributes
 "
 ]
-    
+        
 Optional
 (
 "
@@ -342,7 +343,7 @@ task
 from
 "
 ]
-    
+        
 Optional
 (
 "
@@ -368,6 +369,7 @@ repo
 type
 "
 ]
+    
 }
 )
 transforms
@@ -895,6 +897,9 @@ Beetmover
 submission
 for
 geckoview
+"
+            
+"
 {
 build_platform
 }

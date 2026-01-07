@@ -5309,8 +5309,9 @@ common
 .
 append
 (
-{
         
+{
+            
 "
 source
 "
@@ -5318,7 +5319,7 @@ source
 buildconfig
 .
 topsrcdir
-        
+            
 "
 base
 "
@@ -5329,7 +5330,7 @@ python
 mozbuild
 /
 "
-        
+            
 "
 patterns
 "
@@ -5350,8 +5351,9 @@ codecoverage
 *
 "
 ]
-    
+        
 }
+    
 )
 if
 (

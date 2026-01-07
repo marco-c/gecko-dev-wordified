@@ -280,20 +280,21 @@ rroots
 =
 set
 (
-[
     
+[
+        
 callgraph
 .
 mangledToUnmangled
 [
 f
 ]
-    
+        
 for
 f
 in
 funcInfo
-    
+        
 if
 funcInfo
 [
@@ -306,6 +307,7 @@ get
 recursive_root
 "
 )
+    
 ]
 )
 assert

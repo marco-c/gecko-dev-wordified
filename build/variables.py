@@ -755,6 +755,8 @@ not
 resolve
 changeset
 ;
+"
+"
 try
 setting
 MOZ_SOURCE_CHANGESET

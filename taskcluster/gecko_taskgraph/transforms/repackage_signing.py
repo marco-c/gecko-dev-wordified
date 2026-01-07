@@ -128,8 +128,9 @@ repackage_signing_description_schema
 =
 Schema
 (
-{
     
+{
+        
 Optional
 (
 "
@@ -138,7 +139,7 @@ label
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -152,7 +153,7 @@ task_description_schema
 attributes
 "
 ]
-    
+        
 Optional
 (
 "
@@ -166,7 +167,7 @@ task_description_schema
 dependencies
 "
 ]
-    
+        
 Optional
 (
 "
@@ -184,7 +185,7 @@ task
 from
 "
 ]
-    
+        
 Optional
 (
 "
@@ -198,7 +199,7 @@ task_description_schema
 treeherder
 "
 ]
-    
+        
 Optional
 (
 "
@@ -216,7 +217,7 @@ shipping
 product
 "
 ]
-    
+        
 Optional
 (
 "
@@ -234,7 +235,7 @@ shipping
 phase
 "
 ]
-    
+        
 Optional
 (
 "
@@ -260,6 +261,7 @@ repo
 type
 "
 ]
+    
 }
 )
 SIGNING_FORMATS
@@ -803,12 +805,13 @@ dependencies
 .
 update
 (
-{
             
+{
+                
 k
 :
 v
-            
+                
 for
 k
 v
@@ -818,7 +821,7 @@ signing_dependencies
 items
 (
 )
-            
+                
 if
 k
 !
@@ -828,7 +831,7 @@ docker
 -
 image
 "
-            
+                
 and
 not
 k
@@ -845,8 +848,9 @@ signing
 linux64
 "
 )
-        
+            
 }
+        
 )
         
 description
@@ -1007,8 +1011,9 @@ upstream_artifacts
 .
 append
 (
-{
                     
+{
+                        
 "
 taskId
 "
@@ -1029,7 +1034,7 @@ dep_kind
 >
 "
 }
-                    
+                        
 "
 taskType
 "
@@ -1037,7 +1042,7 @@ taskType
 "
 repackage
 "
-                    
+                        
 "
 paths
 "
@@ -1045,7 +1050,7 @@ paths
 [
 artifact
 ]
-                    
+                        
 "
 formats
 "
@@ -1061,8 +1066,9 @@ basename
 artifact
 )
 ]
-                
+                    
 }
+                
 )
         
 task

@@ -116,6 +116,8 @@ MOZ_RUST_TESTS
 return
     
 assert
+(
+        
 "
 GRCOV_PATH
 "
@@ -123,8 +125,8 @@ in
 os
 .
 environ
-(
-        
+    
+)
 "
 The
 environment
@@ -137,8 +139,6 @@ path
 to
 grcov
 "
-    
-)
     
 grcov_path
 =

@@ -201,8 +201,9 @@ prefs
 .
 update
 (
-{
             
+{
+                
 #
 Clear
 the
@@ -210,7 +211,7 @@ region
 detection
 url
 to
-            
+                
 #
 *
 avoid
@@ -218,7 +219,7 @@ net
 access
 in
 tests
-            
+                
 #
 *
 stabilize
@@ -237,7 +238,7 @@ bug
 #
 c40
 )
-            
+                
 "
 browser
 .
@@ -250,7 +251,7 @@ url
 :
 "
 "
-            
+                
 #
 Disable
 smart
@@ -266,7 +267,7 @@ startup
 bug
 1547750
 )
-            
+                
 "
 browser
 .
@@ -280,7 +281,7 @@ enabled
 "
 :
 False
-            
+                
 "
 toolkit
 .
@@ -297,7 +298,7 @@ SERVER_URL
 /
 pings
 "
-            
+                
 "
 telemetry
 .
@@ -310,7 +311,7 @@ localhost_port
 :
 -
 1
-            
+                
 "
 toolkit
 .
@@ -320,7 +321,7 @@ initDelay
 "
 :
 1
-            
+                
 "
 toolkit
 .
@@ -330,7 +331,7 @@ minSubsessionLength
 "
 :
 0
-            
+                
 "
 datareporting
 .
@@ -340,7 +341,7 @@ uploadEnabled
 "
 :
 True
-            
+                
 "
 datareporting
 .
@@ -350,7 +351,7 @@ dataSubmissionEnabled
 "
 :
 True
-            
+                
 "
 datareporting
 .
@@ -360,7 +361,7 @@ dataSubmissionPolicyBypassNotification
 "
 :
 True
-            
+                
 "
 datareporting
 .
@@ -370,7 +371,7 @@ uploadEnabled
 "
 :
 True
-            
+                
 "
 toolkit
 .
@@ -384,7 +385,7 @@ level
 "
 Trace
 "
-            
+                
 "
 toolkit
 .
@@ -396,7 +397,7 @@ dump
 "
 :
 True
-            
+                
 "
 toolkit
 .
@@ -408,7 +409,7 @@ overrideOfficialCheck
 "
 :
 True
-            
+                
 "
 toolkit
 .
@@ -420,7 +421,7 @@ disableFuzzingDelay
 "
 :
 True
-            
+                
 #
 Disable
 Normandy
@@ -431,7 +432,7 @@ subsessions
 due
 to
 Experiment
-            
+                
 #
 activation
 in
@@ -440,7 +441,7 @@ tests
 bug
 1641571
 )
-            
+                
 "
 app
 .
@@ -450,7 +451,7 @@ enabled
 "
 :
 False
-            
+                
 #
 Disable
 Normandy
@@ -462,7 +463,7 @@ bug
 1608807
 )
 .
-            
+                
 #
 This
 should
@@ -470,7 +471,7 @@ also
 disable
 Nimbus
 .
-            
+                
 "
 app
 .
@@ -482,7 +483,7 @@ enabled
 "
 :
 False
-            
+                
 #
 Bug
 1789727
@@ -494,7 +495,7 @@ extension
 disabled
 to
 avoid
-            
+                
 #
 disabling
 the
@@ -503,7 +504,7 @@ resulting
 in
 extra
 subsessions
-            
+                
 "
 screenshots
 .
@@ -515,8 +516,9 @@ enabled
 "
 :
 False
-        
+            
 }
+        
 )
         
 super

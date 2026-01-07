@@ -126,8 +126,9 @@ repackage_signing_description_schema
 =
 Schema
 (
-{
     
+{
+        
 Optional
 (
 "
@@ -136,7 +137,7 @@ label
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -150,7 +151,7 @@ task_description_schema
 attributes
 "
 ]
-    
+        
 Optional
 (
 "
@@ -164,7 +165,7 @@ task_description_schema
 dependencies
 "
 ]
-    
+        
 Optional
 (
 "
@@ -178,7 +179,7 @@ task_description_schema
 treeherder
 "
 ]
-    
+        
 Optional
 (
 "
@@ -196,7 +197,7 @@ shipping
 phase
 "
 ]
-    
+        
 Optional
 (
 "
@@ -214,7 +215,7 @@ task
 from
 "
 ]
-    
+        
 Optional
 (
 "
@@ -240,6 +241,7 @@ repo
 type
 "
 ]
+    
 }
 )
 transforms
@@ -487,8 +489,8 @@ dependencies
 .
 update
 (
-{
             
+{
 k
 :
 v
@@ -510,8 +512,8 @@ docker
 -
 image
 "
-        
 }
+        
 )
         
 description

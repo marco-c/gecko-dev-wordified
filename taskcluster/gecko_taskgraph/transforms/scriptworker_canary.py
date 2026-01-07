@@ -333,8 +333,8 @@ run
 .
 update
 (
-{
             
+{
 "
 using
 "
@@ -342,7 +342,6 @@ using
 "
 mach
 "
-            
 "
 mach
 "
@@ -358,8 +357,8 @@ shell_quote
 command
 )
 )
-        
 }
+        
 )
         
 job
@@ -375,8 +374,8 @@ routes
 .
 extend
 (
-[
             
+[
 f
 "
 notify
@@ -395,8 +394,8 @@ for
 address
 in
 addresses
-        
 ]
+        
 )
         
 yield

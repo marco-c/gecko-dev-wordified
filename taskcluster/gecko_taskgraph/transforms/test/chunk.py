@@ -2326,8 +2326,8 @@ chunked_manifests
 .
 extend
 (
-[
                     
+[
 m
 for
 m
@@ -2349,8 +2349,8 @@ endswith
 list
 "
 )
-                
 ]
+                
 )
         
 last_chunk

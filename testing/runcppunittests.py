@@ -2138,10 +2138,11 @@ tests
 .
 extend
 (
-[
             
-(
+[
                 
+(
+                    
 os
 .
 path
@@ -2158,7 +2159,7 @@ relpath
 +
 suffix
 )
-                
+                    
 int
 (
 test
@@ -2171,15 +2172,16 @@ requesttimeoutfactor
 1
 )
 )
-            
+                
 )
-            
+                
 for
 test
 in
 active_tests
-        
+            
 ]
+        
 )
     
 else
@@ -2189,8 +2191,9 @@ tests
 .
 extend
 (
-[
             
+[
+                
 (
 test
 [
@@ -2213,13 +2216,14 @@ requesttimeoutfactor
 )
 )
 )
-            
+                
 for
 test
 in
 active_tests
-        
+            
 ]
+        
 )
     
 #

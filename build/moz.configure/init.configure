@@ -1678,6 +1678,8 @@ an
 in
 -
 tree
+"
+"
 mozconfig
 .
 "
@@ -3415,6 +3417,8 @@ resulting
 executables
 will
 be
+"
+"
 used
 "
 )
@@ -8681,6 +8685,8 @@ for
 the
 build
 system
+"
+"
 and
 related
 tools

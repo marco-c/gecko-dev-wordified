@@ -1423,8 +1423,9 @@ suites
 .
 append
 (
-{
                     
+{
+                        
 "
 name
 "
@@ -1434,7 +1435,7 @@ test
 name
 (
 )
-                    
+                        
 "
 extraOptions
 "
@@ -1447,13 +1448,13 @@ extra_options
 or
 [
 ]
-                    
+                        
 "
 subtests
 "
 :
 counter_subtests
-                    
+                        
 "
 shouldAlert
 "
@@ -1469,8 +1470,9 @@ suite_should_alert
 "
 True
 )
-                
+                    
 }
+                
 )
         
 return

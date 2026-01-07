@@ -1425,8 +1425,9 @@ marionette
 .
 set_prefs
 (
-{
             
+{
+                
 self
 .
 prefs
@@ -1439,7 +1440,7 @@ string
 "
 abc
 "
-            
+                
 self
 .
 prefs
@@ -1450,7 +1451,7 @@ int
 ]
 :
 42
-            
+                
 self
 .
 prefs
@@ -1461,8 +1462,9 @@ bool
 ]
 :
 False
-        
+            
 }
+        
 )
         
 self
@@ -1553,8 +1555,9 @@ marionette
 .
 using_prefs
 (
-{
             
+{
+                
 self
 .
 prefs
@@ -1565,7 +1568,7 @@ bool
 ]
 :
 True
-            
+                
 self
 .
 prefs
@@ -1576,7 +1579,7 @@ int
 ]
 :
 24
-            
+                
 self
 .
 prefs
@@ -1589,14 +1592,15 @@ string
 "
 def
 "
-            
+                
 pref_not_existent
 :
 "
 existent
 "
-        
+            
 }
+        
 )
 :
             

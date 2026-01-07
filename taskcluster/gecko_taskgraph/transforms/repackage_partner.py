@@ -272,8 +272,9 @@ packaging_description_schema
 =
 Schema
 (
-{
     
+{
+        
 #
 unique
 label
@@ -282,7 +283,7 @@ describe
 this
 repackaging
 task
-    
+        
 Optional
 (
 "
@@ -291,7 +292,7 @@ label
 )
 :
 str
-    
+        
 #
 Routes
 specific
@@ -300,7 +301,7 @@ this
 task
 if
 defined
-    
+        
 Optional
 (
 "
@@ -311,7 +312,7 @@ routes
 [
 str
 ]
-    
+        
 #
 passed
 through
@@ -320,7 +321,7 @@ to
 the
 job
 description
-    
+        
 Optional
 (
 "
@@ -334,13 +335,13 @@ task_description_schema
 extra
 "
 ]
-    
+        
 #
 Shipping
 product
 and
 phase
-    
+        
 Optional
 (
 "
@@ -358,7 +359,7 @@ shipping
 product
 "
 ]
-    
+        
 Optional
 (
 "
@@ -376,7 +377,7 @@ shipping
 phase
 "
 ]
-    
+        
 Required
 (
 "
@@ -388,7 +389,7 @@ formats
 :
 optionally_keyed_by
 (
-        
+            
 "
 build
 -
@@ -402,16 +403,16 @@ type
 [
 str
 ]
-    
+        
 )
-    
+        
 #
 All
 l10n
 jobs
 use
 mozharness
-    
+        
 Required
 (
 "
@@ -420,7 +421,7 @@ mozharness
 )
 :
 {
-        
+            
 #
 Config
 files
@@ -429,7 +430,7 @@ to
 the
 mozharness
 script
-        
+            
 Required
 (
 "
@@ -448,7 +449,7 @@ platform
 str
 ]
 )
-        
+            
 #
 Additional
 paths
@@ -462,7 +463,7 @@ in
 These
 should
 be
-        
+            
 #
 relative
 to
@@ -472,7 +473,7 @@ of
 the
 source
 checkout
-        
+            
 Optional
 (
 "
@@ -485,7 +486,7 @@ paths
 [
 str
 ]
-        
+            
 #
 if
 true
@@ -501,11 +502,11 @@ based
 branch
 inside
 the
-        
+            
 #
 gecko
 checkout
-        
+            
 Optional
 (
 "
@@ -516,9 +517,9 @@ checkout
 )
 :
 bool
-    
+        
 }
-    
+        
 #
 Override
 the
@@ -527,7 +528,7 @@ priority
 for
 the
 project
-    
+        
 Optional
 (
 "
@@ -541,7 +542,7 @@ task_description_schema
 priority
 "
 ]
-    
+        
 Optional
 (
 "
@@ -559,7 +560,7 @@ task
 from
 "
 ]
-    
+        
 Optional
 (
 "
@@ -573,7 +574,7 @@ task_description_schema
 attributes
 "
 ]
-    
+        
 Optional
 (
 "
@@ -587,7 +588,7 @@ task_description_schema
 dependencies
 "
 ]
-    
+        
 Optional
 (
 "
@@ -613,6 +614,7 @@ repo
 type
 "
 ]
+    
 }
 )
 transforms
@@ -1302,8 +1304,9 @@ run
 .
 update
 (
-{
             
+{
+                
 "
 using
 "
@@ -1311,7 +1314,7 @@ using
 "
 mozharness
 "
-            
+                
 "
 script
 "
@@ -1325,7 +1328,7 @@ repackage
 .
 py
 "
-            
+                
 "
 job
 -
@@ -1343,7 +1346,7 @@ repackage
 .
 sh
 "
-            
+                
 "
 actions
 "
@@ -1356,7 +1359,7 @@ setup
 repackage
 "
 ]
-            
+                
 "
 extra
 -
@@ -1364,16 +1367,17 @@ config
 "
 :
 {
-                
+                    
 "
 repackage_config
 "
 :
 repackage_config
+                
+}
             
 }
         
-}
 )
         
 worker
@@ -1794,27 +1798,29 @@ toolchain
 .
 extend
 (
-[
                 
+[
+                    
 "
 linux64
 -
 libdmg
 "
-                
+                    
 "
 linux64
 -
 hfsplus
 "
-                
+                    
 "
 linux64
 -
 node
 "
-            
+                
 ]
+            
 )
         
 yield
@@ -1974,10 +1980,11 @@ download_config
 .
 extend
 (
-[
                 
-{
+[
                     
+{
+                        
 "
 artifact
 "
@@ -1993,15 +2000,15 @@ stub
 .
 zip
 "
-                    
+                        
 "
 extract
 "
 :
 False
-                
+                    
 }
-                
+                    
 f
 "
 {
@@ -2013,8 +2020,9 @@ stub
 .
 exe
 "
-            
+                
 ]
+            
 )
         
 return
@@ -2201,8 +2209,9 @@ output_files
 .
 append
 (
-{
             
+{
+                
 "
 type
 "
@@ -2210,7 +2219,7 @@ type
 "
 file
 "
-            
+                
 "
 path
 "
@@ -2228,7 +2237,7 @@ outputs
 .
 format
 (
-                
+                    
 local_prefix
 partner_output_path
 config
@@ -2237,9 +2246,9 @@ config
 output
 "
 ]
-            
+                
 )
-            
+                
 "
 name
 "
@@ -2256,7 +2265,7 @@ name
 .
 format
 (
-                
+                    
 artifact_prefix
 partner_output_path
 config
@@ -2265,10 +2274,11 @@ config
 output
 "
 ]
-            
+                
 )
-        
+            
 }
+        
 )
     
 return

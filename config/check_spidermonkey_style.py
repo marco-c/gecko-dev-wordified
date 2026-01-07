@@ -675,8 +675,9 @@ included_inclnames_to_ignore
 =
 set
 (
-[
     
+[
+        
 "
 ffi
 .
@@ -689,7 +690,7 @@ ctypes
 /
 libffi
 /
-    
+        
 "
 devtools
 /
@@ -704,7 +705,7 @@ devtools
 /
 in
 general
-    
+        
 "
 diplomat_runtime
 .
@@ -712,7 +713,7 @@ hpp
 "
 #
 ICU4X
-    
+        
 "
 double
 -
@@ -728,7 +729,7 @@ h
 strange
 MFBT
 case
-    
+        
 "
 frontend
 /
@@ -740,7 +741,7 @@ h
 generated
 in
 OBJDIR
-    
+        
 "
 gc
 /
@@ -752,7 +753,7 @@ h
 generated
 in
 OBJDIR
-    
+        
 "
 gc
 /
@@ -764,7 +765,7 @@ inc
 generated
 in
 OBJDIR
-    
+        
 "
 icu4x
 /
@@ -774,7 +775,7 @@ hpp
 "
 #
 ICU4X
-    
+        
 "
 icu4x
 /
@@ -784,7 +785,7 @@ hpp
 "
 #
 ICU4X
-    
+        
 "
 icu4x
 /
@@ -794,7 +795,7 @@ hpp
 "
 #
 ICU4X
-    
+        
 "
 icu4x
 /
@@ -804,7 +805,7 @@ hpp
 "
 #
 ICU4X
-    
+        
 "
 icu4x
 /
@@ -814,7 +815,7 @@ hpp
 "
 #
 ICU4X
-    
+        
 "
 icu4x
 /
@@ -824,7 +825,7 @@ hpp
 "
 #
 ICU4X
-    
+        
 "
 icu4x
 /
@@ -834,7 +835,7 @@ hpp
 "
 #
 ICU4X
-    
+        
 "
 jit
 /
@@ -847,7 +848,7 @@ generated
 in
 OBJDIR
 "
-    
+        
 "
 jit
 /
@@ -859,7 +860,7 @@ h
 generated
 in
 OBJDIR
-    
+        
 "
 jit
 /
@@ -871,7 +872,7 @@ h
 generated
 in
 OBJDIR
-    
+        
 "
 jit
 /
@@ -883,7 +884,7 @@ h
 generated
 in
 OBJDIR
-    
+        
 "
 jit
 /
@@ -895,7 +896,7 @@ h
 generated
 in
 OBJDIR
-    
+        
 "
 jit
 /
@@ -907,7 +908,7 @@ h
 generated
 in
 OBJDIR
-    
+        
 "
 js
 /
@@ -919,7 +920,7 @@ h
 generated
 in
 OBJDIR
-    
+        
 "
 js
 /
@@ -933,7 +934,7 @@ from
 mozglue
 /
 baseprofiler
-    
+        
 "
 mozilla
 /
@@ -958,7 +959,7 @@ Debug
 .
 h
 >
-    
+        
 "
 jscustomallocator
 .
@@ -973,7 +974,7 @@ allowed
 to
 be
 missing
-    
+        
 "
 js
 -
@@ -985,7 +986,7 @@ h
 generated
 in
 OBJDIR
-    
+        
 "
 fdlibm
 .
@@ -993,7 +994,7 @@ h
 "
 #
 fdlibm
-    
+        
 "
 FuzzerDefs
 .
@@ -1004,7 +1005,7 @@ included
 without
 a
 path
-    
+        
 "
 FuzzingInterface
 .
@@ -1015,7 +1016,7 @@ included
 without
 a
 path
-    
+        
 "
 mozmemory
 .
@@ -1026,7 +1027,7 @@ included
 without
 a
 path
-    
+        
 "
 mozmemory_stall
 .
@@ -1037,7 +1038,7 @@ included
 without
 a
 path
-    
+        
 "
 pratom
 .
@@ -1045,7 +1046,7 @@ h
 "
 #
 NSPR
-    
+        
 "
 prcvar
 .
@@ -1053,7 +1054,7 @@ h
 "
 #
 NSPR
-    
+        
 "
 prerror
 .
@@ -1061,7 +1062,7 @@ h
 "
 #
 NSPR
-    
+        
 "
 prinit
 .
@@ -1069,7 +1070,7 @@ h
 "
 #
 NSPR
-    
+        
 "
 prio
 .
@@ -1077,7 +1078,7 @@ h
 "
 #
 NSPR
-    
+        
 "
 private
 /
@@ -1087,7 +1088,7 @@ h
 "
 #
 NSPR
-    
+        
 "
 prlink
 .
@@ -1095,7 +1096,7 @@ h
 "
 #
 NSPR
-    
+        
 "
 prlock
 .
@@ -1103,7 +1104,7 @@ h
 "
 #
 NSPR
-    
+        
 "
 prprf
 .
@@ -1111,7 +1112,7 @@ h
 "
 #
 NSPR
-    
+        
 "
 prthread
 .
@@ -1119,7 +1120,7 @@ h
 "
 #
 NSPR
-    
+        
 "
 prtypes
 .
@@ -1127,7 +1128,7 @@ h
 "
 #
 NSPR
-    
+        
 "
 selfhosted
 .
@@ -1139,7 +1140,7 @@ h
 generated
 in
 OBJDIR
-    
+        
 "
 shellmoduleloader
 .
@@ -1151,7 +1152,7 @@ h
 generated
 in
 OBJDIR
-    
+        
 "
 unicode
 /
@@ -1161,7 +1162,7 @@ h
 "
 #
 ICU
-    
+        
 "
 unicode
 /
@@ -1171,7 +1172,7 @@ h
 "
 #
 ICU
-    
+        
 "
 unicode
 /
@@ -1181,7 +1182,7 @@ h
 "
 #
 ICU
-    
+        
 "
 unicode
 /
@@ -1191,7 +1192,7 @@ h
 "
 #
 ICU
-    
+        
 "
 unicode
 /
@@ -1201,7 +1202,7 @@ h
 "
 #
 ICU
-    
+        
 "
 vtune
 /
@@ -1211,7 +1212,7 @@ h
 "
 #
 VTune
-    
+        
 "
 wasm
 /
@@ -1224,7 +1225,7 @@ generated
 in
 OBJDIR
 "
-    
+        
 "
 zydis
 /
@@ -1234,7 +1235,7 @@ h
 "
 #
 Zydis
-    
+        
 "
 xsum
 /
@@ -1244,7 +1245,7 @@ h
 "
 #
 xsum
-    
+        
 "
 fmt
 /
@@ -1258,6 +1259,7 @@ fmt
 }
 main
 header
+    
 ]
 )
 #
@@ -1392,8 +1394,9 @@ oddly_ordered_inclnames
 =
 set
 (
-[
     
+[
+        
 "
 ctypes
 /
@@ -1414,7 +1417,7 @@ ctypes
 CTypes
 .
 h
-    
+        
 #
 Included
 in
@@ -1426,7 +1429,7 @@ frontend
 TokenStream
 .
 h
-    
+        
 "
 frontend
 /
@@ -1434,7 +1437,7 @@ ReservedWordsGenerated
 .
 h
 "
-    
+        
 "
 gc
 /
@@ -1453,7 +1456,7 @@ gc
 Statistics
 .
 h
-    
+        
 "
 gc
 /
@@ -1472,7 +1475,7 @@ gc
 Statistics
 .
 cpp
-    
+        
 "
 psapi
 .
@@ -1492,7 +1495,7 @@ h
 "
 on
 Windows
-    
+        
 "
 machine
 /
@@ -1514,7 +1517,7 @@ h
 >
 on
 BSD
-    
+        
 "
 process
 .
@@ -1524,7 +1527,7 @@ h
 Windows
 -
 specific
-    
+        
 "
 util
 /
@@ -1541,6 +1544,7 @@ headers
 (
 ?
 )
+    
 ]
 )
 #
@@ -2347,6 +2351,7 @@ h
 .
 splitlines
 (
+    
 True
 )
 actual_output
@@ -3584,6 +3589,8 @@ filename
 "
     
 return
+(
+        
 name
 .
 replace
@@ -3616,6 +3623,8 @@ cpp
 "
 "
 "
+)
+    
 )
 #
 NOQA

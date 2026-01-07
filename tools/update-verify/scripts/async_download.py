@@ -793,7 +793,7 @@ log
 info
 (
 f
-"
+'
 Finished
 downloading
 {
@@ -804,12 +804,12 @@ n
 {
 result
 [
-'
+"
 headers
-'
+"
 ]
 }
-"
+'
 )
                 
 return

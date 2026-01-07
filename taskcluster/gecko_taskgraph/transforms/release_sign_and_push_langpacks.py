@@ -145,8 +145,9 @@ langpack_sign_push_description_schema
 =
 Schema
 (
-{
     
+{
+        
 Required
 (
 "
@@ -155,7 +156,7 @@ label
 )
 :
 str
-    
+        
 Required
 (
 "
@@ -164,7 +165,7 @@ description
 )
 :
 str
-    
+        
 Required
 (
 "
@@ -183,7 +184,7 @@ level
 "
 str
 )
-    
+        
 Required
 (
 "
@@ -192,7 +193,7 @@ worker
 )
 :
 {
-        
+            
 Required
 (
 "
@@ -202,7 +203,7 @@ channel
 :
 optionally_keyed_by
 (
-            
+                
 "
 project
 "
@@ -218,9 +219,9 @@ listed
 unlisted
 "
 )
-        
+            
 )
-        
+            
 Required
 (
 "
@@ -235,9 +236,9 @@ None
 Processed
 here
 below
-    
+        
 }
-    
+        
 Required
 (
 "
@@ -251,7 +252,7 @@ projects
 :
 [
 ]
-    
+        
 Required
 (
 "
@@ -270,7 +271,7 @@ level
 str
 ]
 )
-    
+        
 Required
 (
 "
@@ -288,7 +289,7 @@ shipping
 phase
 "
 ]
-    
+        
 Optional
 (
 "
@@ -306,7 +307,7 @@ task
 from
 "
 ]
-    
+        
 Optional
 (
 "
@@ -320,7 +321,7 @@ task_description_schema
 attributes
 "
 ]
-    
+        
 Optional
 (
 "
@@ -334,7 +335,7 @@ task_description_schema
 dependencies
 "
 ]
-    
+        
 Optional
 (
 "
@@ -360,6 +361,7 @@ repo
 type
 "
 ]
+    
 }
 )
 transforms

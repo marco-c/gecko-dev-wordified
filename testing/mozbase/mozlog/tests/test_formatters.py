@@ -2289,10 +2289,12 @@ html
 .
 strip
 (
+        
 "
 \
 n
 "
+    
 )
     
 logger

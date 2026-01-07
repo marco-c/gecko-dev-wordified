@@ -194,8 +194,9 @@ data
 .
 append
 (
-{
             
+{
+                
 "
 type
 "
@@ -203,7 +204,7 @@ type
 "
 file
 "
-            
+                
 "
 path
 "
@@ -221,7 +222,7 @@ artifacts
 filename
 }
 "
-            
+                
 "
 name
 "
@@ -239,16 +240,18 @@ locale_output_path
 filename
 }
 "
-        
+            
 }
+        
 )
     
 data
 .
 append
 (
-{
         
+{
+            
 "
 type
 "
@@ -256,7 +259,7 @@ type
 "
 file
 "
-        
+            
 "
 path
 "
@@ -273,7 +276,7 @@ manifest
 .
 json
 "
-        
+            
 "
 name
 "
@@ -291,8 +294,9 @@ manifest
 .
 json
 "
-    
+        
 }
+    
 )
     
 return
@@ -1270,8 +1274,8 @@ level
 and
 any
 (
-[
             
+[
 build_platform
 .
 startswith
@@ -1289,8 +1293,8 @@ linux
 win
 "
 ]
-        
 ]
+        
 )
 :
             

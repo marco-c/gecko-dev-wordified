@@ -761,8 +761,6 @@ check
 it
         
 with
-(
-            
 mock
 .
 patch
@@ -777,21 +775,20 @@ exists
 )
 as
 mock_os_path_exists
-            
 mock
 .
 patch
 (
+            
 "
 shutil
 .
 rmtree
 "
+        
 )
 as
 mock_shutil_rmtree
-        
-)
 :
             
 md
@@ -837,12 +834,11 @@ create_manifest
 )
     
 with
-(
-        
 mock
 .
 patch
 (
+        
 "
 os
 .
@@ -853,10 +849,10 @@ exists
 return_value
 =
 True
+    
 )
 as
 mock_os_path_exists
-        
 mock
 .
 patch
@@ -869,8 +865,6 @@ makedirs
 )
 as
 mock_os_makedirs
-    
-)
 :
         
 with
@@ -957,8 +951,9 @@ mock_os_makedirs
 .
 assert_has_calls
 (
-[
             
+[
+                
 mock
 .
 call
@@ -968,7 +963,7 @@ call
 snap_firefox_current_real
 "
 )
-            
+                
 mock
 .
 call
@@ -978,8 +973,9 @@ call
 snap_firefox_current_real2
 "
 )
-        
+            
 ]
+        
 )
         
 opts
@@ -1004,8 +1000,6 @@ check
 it
         
 with
-(
-            
 mock
 .
 patch
@@ -1020,21 +1014,20 @@ exists
 )
 as
 mock_os_path_exists
-            
 mock
 .
 patch
 (
+            
 "
 shutil
 .
 rmtree
 "
+        
 )
 as
 mock_shutil_rmtree
-        
-)
 :
             
 md
@@ -1057,8 +1050,9 @@ mock_os_path_exists
 .
 assert_has_calls
 (
-[
                 
+[
+                    
 mock
 .
 call
@@ -1068,7 +1062,7 @@ call
 snap_firefox_current_real
 "
 )
-                
+                    
 mock
 .
 call
@@ -1078,7 +1072,7 @@ call
 __bool__
 (
 )
-                
+                    
 mock
 .
 call
@@ -1088,7 +1082,7 @@ call
 snap_firefox_current_real2
 "
 )
-                
+                    
 mock
 .
 call
@@ -1098,8 +1092,9 @@ call
 __bool__
 (
 )
-            
+                
 ]
+            
 )
             
 assert
@@ -1114,8 +1109,9 @@ mock_shutil_rmtree
 .
 assert_has_calls
 (
-[
                 
+[
+                    
 mock
 .
 call
@@ -1125,7 +1121,7 @@ call
 snap_firefox_current_real
 "
 )
-                
+                    
 mock
 .
 call
@@ -1135,8 +1131,9 @@ call
 snap_firefox_current_real2
 "
 )
-            
+                
 ]
+            
 )
 def
 test_mult_entry_one_already_exists
@@ -1154,12 +1151,11 @@ create_manifest
 )
     
 with
-(
-        
 mock
 .
 patch
 (
+        
 "
 os
 .
@@ -1173,10 +1169,10 @@ side_effect
 True
 False
 ]
+    
 )
 as
 mock_os_path_exists
-        
 mock
 .
 patch
@@ -1189,8 +1185,6 @@ makedirs
 )
 as
 mock_os_makedirs
-    
-)
 :
         
 with
@@ -1228,12 +1222,11 @@ assert_not_called
 )
     
 with
-(
-        
 mock
 .
 patch
 (
+        
 "
 os
 .
@@ -1247,10 +1240,10 @@ side_effect
 False
 True
 ]
+    
 )
 as
 mock_os_path_exists
-        
 mock
 .
 patch
@@ -1263,8 +1256,6 @@ makedirs
 )
 as
 mock_os_makedirs
-    
-)
 :
         
 with
@@ -1297,8 +1288,9 @@ mock_os_path_exists
 .
 assert_has_calls
 (
-[
             
+[
+                
 mock
 .
 call
@@ -1308,7 +1300,7 @@ call
 snap_firefox_current_real
 "
 )
-            
+                
 mock
 .
 call
@@ -1318,8 +1310,9 @@ call
 snap_firefox_current_real2
 "
 )
-        
+            
 ]
+        
 )
         
 mock_os_makedirs

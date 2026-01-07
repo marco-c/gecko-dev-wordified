@@ -575,8 +575,8 @@ assertEqual
             
 commonprefix
 (
-[
                 
+[
 self
 .
 SEP
@@ -595,13 +595,11 @@ baz
 "
 )
 )
-                
 "
 foo
 /
 qux
 "
-                
 "
 foo
 /
@@ -609,8 +607,8 @@ baz
 /
 qux
 "
-            
 ]
+            
 )
             
 "

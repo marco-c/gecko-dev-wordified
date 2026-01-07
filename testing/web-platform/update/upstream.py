@@ -389,23 +389,24 @@ n
 .
 join
 (
-[
             
+[
+                
 patch
 .
 message
 .
 summary
-            
+                
 patch
 .
 message
 .
 body
-            
+                
 "
 "
-            
+                
 "
 Upstreamed
 from
@@ -432,7 +433,7 @@ ci
 skip
 ]
 "
-            
+                
 %
 patch
 .
@@ -442,8 +443,9 @@ bug
 #
 noqa
 E501
-        
+            
 ]
+        
 )
     
 return
@@ -454,14 +456,13 @@ n
 .
 join
 (
-[
         
+[
 patch
 .
 message
 .
 full_summary
-        
 "
 %
 s
@@ -480,8 +481,8 @@ patch
 message
 .
 body
-    
 ]
+    
 )
 class
 SyncToUpstream
@@ -646,29 +647,25 @@ state
 .
 push
 (
-[
             
+[
 "
 local_tree
 "
-            
 "
 sync_tree
 "
-            
 "
 tests_path
 "
-            
 "
 metadata_path
 "
-            
 "
 sync
 "
-        
 ]
+        
 )
 :
             

@@ -9063,20 +9063,21 @@ _client
 .
 rawcommand
 (
-[
             
+[
+                
 b
 "
 files
 "
-            
+                
 b
 "
 -
 -
 rev
 "
-            
+                
 self
 .
 _rev
@@ -9084,8 +9085,9 @@ _rev
 encode
 (
 )
-        
+            
 ]
+        
 )
         
 for

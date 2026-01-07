@@ -11085,12 +11085,14 @@ screenshot
 )
             
 assert
+(
+                
 with_scrollbar
 =
 =
 without_scrollbar
-(
-                
+            
+)
 "
 scrollbar
 does
@@ -11099,8 +11101,6 @@ cover
 any
 text
 "
-            
-)
     
 def
 test_for_fastclick

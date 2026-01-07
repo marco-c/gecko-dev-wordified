@@ -1190,12 +1190,11 @@ subprocess
 .
 check_call
 (
-[
             
+[
 "
 gpg
 "
-            
 "
 -
 -
@@ -1203,27 +1202,23 @@ keyid
 -
 format
 "
-            
 "
 0xlong
 "
-            
 "
 -
 -
 verify
 "
-            
 base
 +
 "
 .
 asc
 "
-            
 base
-        
 ]
+        
 )
     
 return
@@ -1720,6 +1715,9 @@ is
 different
 from
 manifest
+"
+            
+"
 \
 n
 %
@@ -3953,8 +3951,9 @@ env
 .
 update
 (
-{
             
+{
+                
 "
 PATH
 "
@@ -3978,20 +3977,21 @@ PATH
 ]
 )
 )
-            
+                
 "
 LD_LIBRARY_PATH
 "
 :
 clang_lib
-            
+                
 "
 DESTDIR
 "
 :
 install_dir
-        
+            
 }
+        
 )
         
 if
@@ -4040,8 +4040,9 @@ env
 .
 update
 (
-{
                 
+{
+                    
 "
 PATH
 "
@@ -4063,7 +4064,7 @@ cmake_bin
 ninja_bin
 )
 )
-                
+                    
 "
 CC_x86_64_pc_windows_msvc
 "
@@ -4075,7 +4076,7 @@ cl
 .
 bat
 "
-                
+                    
 "
 CXX_x86_64_pc_windows_msvc
 "
@@ -4087,7 +4088,7 @@ cl
 .
 bat
 "
-                
+                    
 "
 AR_x86_64_pc_windows_msvc
 "
@@ -4097,8 +4098,9 @@ llvm
 -
 lib
 "
-            
+                
 }
+            
 )
         
 #

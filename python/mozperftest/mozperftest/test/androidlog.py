@@ -454,8 +454,9 @@ metadata
 .
 add_result
 (
-{
             
+{
+                
 "
 results
 "
@@ -468,7 +469,7 @@ _get_logcat
 (
 )
 )
-            
+                
 "
 transformer
 "
@@ -476,7 +477,7 @@ transformer
 "
 LogCatTimeTransformer
 "
-            
+                
 "
 transformer
 -
@@ -484,7 +485,7 @@ options
 "
 :
 options
-            
+                
 "
 name
 "
@@ -492,8 +493,9 @@ name
 "
 LogCat
 "
-        
+            
 }
+        
 )
         
 return

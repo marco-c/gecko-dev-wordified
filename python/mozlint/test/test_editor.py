@@ -174,11 +174,12 @@ py
 .
 extend
 (
-[
         
+[
+            
 Issue
 (
-            
+                
 linter
 =
 "
@@ -186,7 +187,7 @@ no
 -
 foobar
 "
-            
+                
 path
 =
 "
@@ -194,11 +195,11 @@ foo
 .
 py
 "
-            
+                
 lineno
 =
 1
-            
+                
 message
 =
 "
@@ -206,12 +207,12 @@ Oh
 no
 !
 "
-        
+            
 )
-        
+            
 Issue
 (
-            
+                
 linter
 =
 "
@@ -219,7 +220,7 @@ no
 -
 foobar
 "
-            
+                
 path
 =
 "
@@ -227,15 +228,15 @@ foo
 .
 py
 "
-            
+                
 lineno
 =
 3
-            
+                
 column
 =
 10
-            
+                
 message
 =
 "
@@ -243,10 +244,11 @@ To
 Yuma
 !
 "
-        
+            
 )
-    
+        
 ]
+    
 )
     
 return

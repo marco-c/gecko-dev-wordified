@@ -974,8 +974,9 @@ re
 .
 Scanner
 (
-[
             
+[
+                
 #
 Note
 :
@@ -989,7 +990,7 @@ class
 docstring
 above
 .
-            
+                
 (
 r
 "
@@ -999,7 +1000,7 @@ false
 "
 bool_token
 )
-            
+                
 (
 r
 "
@@ -1016,7 +1017,7 @@ w
 "
 ident_token
 )
-            
+                
 (
 r
 "
@@ -1029,7 +1030,7 @@ r
 "
 int_token
 )
-            
+                
 (
 r
 '
@@ -1058,7 +1059,7 @@ r
 '
 string_token
 )
-            
+                
 (
 r
 "
@@ -1069,7 +1070,7 @@ eq_op_token
 (
 )
 )
-            
+                
 (
 r
 "
@@ -1080,7 +1081,7 @@ neq_op_token
 (
 )
 )
-            
+                
 (
 r
 "
@@ -1091,7 +1092,7 @@ le_op_token
 (
 )
 )
-            
+                
 (
 r
 "
@@ -1102,7 +1103,7 @@ ge_op_token
 (
 )
 )
-            
+                
 (
 r
 "
@@ -1112,7 +1113,7 @@ lt_op_token
 (
 )
 )
-            
+                
 (
 r
 "
@@ -1122,7 +1123,7 @@ gt_op_token
 (
 )
 )
-            
+                
 (
 r
 "
@@ -1135,7 +1136,7 @@ or_op_token
 (
 )
 )
-            
+                
 (
 r
 "
@@ -1145,7 +1146,7 @@ not_op_token
 (
 )
 )
-            
+                
 (
 r
 "
@@ -1156,7 +1157,7 @@ and_op_token
 (
 )
 )
-            
+                
 (
 r
 "
@@ -1167,7 +1168,7 @@ lparen_token
 (
 )
 )
-            
+                
 (
 r
 "
@@ -1178,7 +1179,7 @@ rparen_token
 (
 )
 )
-            
+                
 (
 r
 "
@@ -1191,8 +1192,9 @@ None
 #
 skip
 whitespace
-        
+            
 ]
+        
 )
     
 tokens

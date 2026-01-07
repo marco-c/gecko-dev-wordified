@@ -415,8 +415,9 @@ TEMPORARY_PROJECTS
 =
 set
 (
-{
     
+{
+        
 #
 When
 using
@@ -438,10 +439,11 @@ e
 g
 .
 :
-    
+        
 "
 oak
 "
+    
 }
 )
 TRY_PROJECTS

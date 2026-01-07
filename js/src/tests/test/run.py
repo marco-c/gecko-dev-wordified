@@ -429,23 +429,19 @@ subprocess
 .
 check_call
 (
-[
                 
+[
 "
 git
 "
-                
 "
 -
 C
 "
-                
 cloneDir
-                
 "
 rm
 "
-                
 "
 test
 /
@@ -459,8 +455,8 @@ from
 .
 js
 "
-            
 ]
+            
 )
             
 #
@@ -481,23 +477,24 @@ subprocess
 .
 check_call
 (
-[
                 
+[
+                    
 "
 git
 "
-                
+                    
 "
 -
 C
 "
-                
+                    
 cloneDir
-                
+                    
 "
 mv
 "
-                
+                    
 "
 test
 /
@@ -511,7 +508,7 @@ default
 .
 js
 "
-                
+                    
 "
 test
 /
@@ -525,8 +522,9 @@ foobarbaz
 .
 js
 "
-            
+                
 ]
+            
 )
             
 #
@@ -607,36 +605,31 @@ subprocess
 .
 check_call
 (
-[
                 
+[
 "
 git
 "
-                
 "
 -
 C
 "
-                
 cloneDir
-                
 "
 commit
 "
-                
 "
 -
 m
 "
-                
 '
 "
 local
 foo
 "
 '
-            
 ]
+            
 )
             
 #

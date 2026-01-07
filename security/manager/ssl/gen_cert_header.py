@@ -304,7 +304,7 @@ write
 (
         
 f
-"
+'
 const
 mozilla
 :
@@ -323,8 +323,8 @@ array_name
 {
 {
 {
-'
-'
+"
+"
 .
 join
 (
@@ -336,7 +336,7 @@ certificate_names
 ;
 \
 n
-"
+'
     
 )
 def

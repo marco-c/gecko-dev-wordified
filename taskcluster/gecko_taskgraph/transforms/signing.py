@@ -145,8 +145,9 @@ signing_description_schema
 =
 Schema
 (
-{
     
+{
+        
 #
 Artifacts
 from
@@ -164,7 +165,7 @@ transforms
 task
 .
 py
-    
+        
 #
 because
 this
@@ -175,7 +176,7 @@ into
 the
 signingscript
 worker
-    
+        
 Required
 (
 "
@@ -186,9 +187,9 @@ artifacts
 )
 :
 [
-        
-{
             
+{
+                
 #
 taskId
 of
@@ -197,7 +198,7 @@ task
 with
 the
 artifact
-            
+                
 Required
 (
 "
@@ -206,7 +207,7 @@ taskId
 )
 :
 taskref_or_string
-            
+                
 #
 type
 of
@@ -216,7 +217,7 @@ task
 for
 CoT
 )
-            
+                
 Required
 (
 "
@@ -225,7 +226,7 @@ taskType
 )
 :
 str
-            
+                
 #
 Paths
 to
@@ -233,7 +234,7 @@ the
 artifacts
 to
 sign
-            
+                
 Required
 (
 "
@@ -244,7 +245,7 @@ paths
 [
 str
 ]
-            
+                
 #
 Signing
 formats
@@ -255,7 +256,7 @@ each
 of
 the
 paths
-            
+                
 Required
 (
 "
@@ -266,17 +267,17 @@ formats
 [
 str
 ]
-        
+            
 }
-    
+        
 ]
-    
+        
 #
 attributes
 for
 this
 task
-    
+        
 Optional
 (
 "
@@ -289,7 +290,7 @@ str
 :
 object
 }
-    
+        
 #
 unique
 label
@@ -307,7 +308,7 @@ label
 }
 -
 signing
-    
+        
 Optional
 (
 "
@@ -316,7 +317,7 @@ label
 )
 :
 str
-    
+        
 #
 treeherder
 is
@@ -332,7 +333,7 @@ for
 signing
 .
 See
-    
+        
 #
 taskcluster
 /
@@ -349,7 +350,7 @@ schema
 details
 and
 the
-    
+        
 #
 below
 transforms
@@ -359,7 +360,7 @@ of
 various
 values
 .
-    
+        
 Optional
 (
 "
@@ -373,7 +374,7 @@ task_description_schema
 treeherder
 "
 ]
-    
+        
 #
 Routes
 specific
@@ -382,7 +383,7 @@ this
 task
 if
 defined
-    
+        
 Optional
 (
 "
@@ -393,7 +394,7 @@ routes
 [
 str
 ]
-    
+        
 Optional
 (
 "
@@ -411,7 +412,7 @@ shipping
 phase
 "
 ]
-    
+        
 Optional
 (
 "
@@ -429,7 +430,7 @@ shipping
 product
 "
 ]
-    
+        
 Required
 (
 "
@@ -443,7 +444,7 @@ task_description_schema
 dependencies
 "
 ]
-    
+        
 Optional
 (
 "
@@ -456,7 +457,7 @@ str
 :
 object
 }
-    
+        
 #
 Max
 number
@@ -465,7 +466,7 @@ partner
 repacks
 per
 chunk
-    
+        
 Optional
 (
 "
@@ -478,7 +479,7 @@ chunk
 )
 :
 int
-    
+        
 #
 Override
 the
@@ -487,7 +488,7 @@ priority
 for
 the
 project
-    
+        
 Optional
 (
 "
@@ -501,7 +502,7 @@ task_description_schema
 priority
 "
 ]
-    
+        
 Optional
 (
 "
@@ -519,7 +520,7 @@ task
 from
 "
 ]
-    
+        
 Optional
 (
 "
@@ -545,6 +546,7 @@ repo
 type
 "
 ]
+    
 }
 )
 def

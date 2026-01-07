@@ -157,8 +157,9 @@ Sandbox
             
 Context
 (
-{
                 
+{
+                    
 "
 DIRS
 "
@@ -168,8 +169,9 @@ list
 list
 None
 )
-            
+                
 }
+            
 )
         
 )
@@ -3732,8 +3734,9 @@ FUNCTIONS
 .
 update
 (
-{
             
+{
+                
 "
 foo
 "
@@ -3750,8 +3753,9 @@ int
 "
 "
 )
-        
+            
 }
+        
 )
         
 try

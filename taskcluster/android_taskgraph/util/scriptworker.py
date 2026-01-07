@@ -770,8 +770,9 @@ upstream_artifacts
 .
 append
 (
-{
             
+{
+                
 "
 taskId
 "
@@ -792,7 +793,7 @@ dep
 >
 "
 }
-            
+                
 "
 taskType
 "
@@ -808,7 +809,7 @@ get
 (
 dep
 )
-            
+                
 "
 paths
 "
@@ -817,14 +818,15 @@ sorted
 (
 paths
 )
-            
+                
 "
 locale
 "
 :
 current_locale
-        
+            
 }
+        
 )
     
 upstream_artifacts
@@ -1972,27 +1974,25 @@ kwargs
 .
 update
 (
+            
 {
-            
 "
 locale
 "
 :
 locale
-            
 "
 version
 "
 :
 version
-            
 "
 folder_prefix
 "
 :
 folder_prefix
-        
 }
+        
 )
         
 kwargs
@@ -2018,8 +2018,9 @@ artifacts
 .
 append
 (
-{
             
+{
+                
 "
 taskId
 "
@@ -2040,20 +2041,21 @@ dep
 >
 "
 }
-            
+                
 "
 locale
 "
 :
 locale
-            
+                
 "
 paths
 "
 :
 paths
-        
+            
 }
+        
 )
     
 return

@@ -628,10 +628,10 @@ _start
 =
 len
 (
-_end
-)
-(
         
+_end
+    
+)
 "
 Unmatched
 number
@@ -657,24 +657,21 @@ s
 d
 )
 "
-        
 %
 (
-            
+        
 start
-            
+        
 len
 (
 _start
 )
-            
+        
 end
-            
+        
 len
 (
 _end
-)
-        
 )
     
 )

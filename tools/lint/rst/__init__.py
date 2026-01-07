@@ -187,6 +187,7 @@ strip
 .
 format
 (
+    
 rstcheck_requirements_file
 )
 RSTCHECK_INSTALL_ERROR
@@ -232,6 +233,7 @@ strip
 .
 format
 (
+    
 rstcheck_requirements_file
 )
 RSTCHECK_FORMAT_REGEX

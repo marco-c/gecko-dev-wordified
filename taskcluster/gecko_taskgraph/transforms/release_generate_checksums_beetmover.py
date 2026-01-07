@@ -153,8 +153,9 @@ release_generate_checksums_beetmover_schema
 =
 Schema
 (
-{
     
+{
+        
 #
 unique
 label
@@ -172,7 +173,7 @@ label
 }
 -
 beetmover
-    
+        
 Optional
 (
 "
@@ -181,7 +182,7 @@ label
 )
 :
 str
-    
+        
 #
 treeherder
 is
@@ -197,7 +198,7 @@ for
 beetmover
 .
 See
-    
+        
 #
 taskcluster
 /
@@ -214,7 +215,7 @@ schema
 details
 and
 the
-    
+        
 #
 below
 transforms
@@ -224,7 +225,7 @@ of
 various
 values
 .
-    
+        
 Optional
 (
 "
@@ -238,7 +239,7 @@ task_description_schema
 treeherder
 "
 ]
-    
+        
 Optional
 (
 "
@@ -256,7 +257,7 @@ shipping
 phase
 "
 ]
-    
+        
 Optional
 (
 "
@@ -274,7 +275,7 @@ shipping
 product
 "
 ]
-    
+        
 Optional
 (
 "
@@ -288,7 +289,7 @@ task_description_schema
 attributes
 "
 ]
-    
+        
 Optional
 (
 "
@@ -306,7 +307,7 @@ task
 from
 "
 ]
-    
+        
 Optional
 (
 "
@@ -320,7 +321,7 @@ task_description_schema
 dependencies
 "
 ]
-    
+        
 Optional
 (
 "
@@ -346,6 +347,7 @@ repo
 type
 "
 ]
+    
 }
 )
 transforms
@@ -844,8 +846,8 @@ dependencies
 and
 any
 (
-[
             
+[
 "
 signing
 "
@@ -860,8 +862,8 @@ job
 dependencies
 "
 ]
-        
 ]
+        
 )
         
 if

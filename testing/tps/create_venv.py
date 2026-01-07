@@ -986,8 +986,8 @@ subprocess
 .
 check_call
 (
-[
         
+[
 os
 .
 path
@@ -997,7 +997,6 @@ join
 target
 python_env
 )
-        
 os
 .
 path
@@ -1011,12 +1010,11 @@ setup
 py
 "
 )
-        
 "
 install
 "
-    
 ]
+    
 )
     
 #

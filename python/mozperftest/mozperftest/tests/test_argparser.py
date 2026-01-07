@@ -225,6 +225,8 @@ help
 "
 Deactivates
 the
+"
+"
 browsertime
 layer
 "
@@ -263,8 +265,8 @@ parser
 .
 parse_args
 (
-[
         
+[
 "
 -
 -
@@ -272,14 +274,13 @@ notebook
 -
 metrics
 "
-        
 "
 -
 -
 notebook
 "
-    
 ]
+    
 )
     
 assert
@@ -303,8 +304,8 @@ parser
 .
 parse_known_args
 (
-[
         
+[
 "
 -
 -
@@ -312,14 +313,13 @@ notebook
 -
 metrics
 "
-        
 "
 -
 -
 notebook
 "
-    
 ]
+    
 )
 def
 test_bad_test_date

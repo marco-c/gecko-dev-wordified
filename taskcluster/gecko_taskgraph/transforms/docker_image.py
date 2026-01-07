@@ -193,8 +193,9 @@ docker_image_schema
 =
 Schema
 (
-{
     
+{
+        
 #
 Name
 of
@@ -202,7 +203,7 @@ the
 docker
 image
 .
-    
+        
 Required
 (
 "
@@ -211,7 +212,7 @@ name
 )
 :
 str
-    
+        
 #
 Name
 of
@@ -220,7 +221,7 @@ parent
 docker
 image
 .
-    
+        
 Optional
 (
 "
@@ -229,12 +230,12 @@ parent
 )
 :
 str
-    
+        
 #
 Treeherder
 symbol
 .
-    
+        
 Required
 (
 "
@@ -243,7 +244,7 @@ symbol
 )
 :
 str
-    
+        
 #
 relative
 path
@@ -261,11 +262,11 @@ docker
 image
 was
 defined
-    
+        
 #
 in
 .
-    
+        
 Optional
 (
 "
@@ -276,7 +277,7 @@ from
 )
 :
 str
-    
+        
 #
 Arguments
 to
@@ -285,7 +286,7 @@ for
 the
 Dockerfile
 .
-    
+        
 Optional
 (
 "
@@ -298,7 +299,7 @@ str
 :
 str
 }
-    
+        
 #
 Name
 of
@@ -311,7 +312,7 @@ taskcluster
 /
 docker
 when
-    
+        
 #
 different
 from
@@ -320,7 +321,7 @@ docker
 image
 name
 .
-    
+        
 Optional
 (
 "
@@ -329,7 +330,7 @@ definition
 )
 :
 str
-    
+        
 #
 List
 of
@@ -341,7 +342,7 @@ image
 depends
 on
 .
-    
+        
 Optional
 (
 "
@@ -352,7 +353,7 @@ packages
 [
 str
 ]
-    
+        
 Optional
 (
 "
@@ -361,14 +362,14 @@ arch
 )
 :
 str
-    
+        
 Optional
 (
-        
+            
 "
 index
 "
-        
+            
 description
 =
 "
@@ -384,7 +385,7 @@ can
 be
 discovered
 "
-    
+        
 )
 :
 task_description_schema
@@ -393,14 +394,14 @@ task_description_schema
 index
 "
 ]
-    
+        
 Optional
 (
-        
+            
 "
 cache
 "
-        
+            
 description
 =
 "
@@ -415,11 +416,11 @@ on
 inputs
 .
 "
-    
+        
 )
 :
 bool
-    
+        
 Optional
 (
 "
@@ -445,6 +446,7 @@ repo
 type
 "
 ]
+    
 }
 )
 transforms

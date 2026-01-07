@@ -693,6 +693,8 @@ cached_objects
 )
                 
 assert
+(
+                    
 options
 is
 None
@@ -701,14 +703,12 @@ cached_options
 =
 =
 options
-(
-                    
+                
+)
 "
 consistent
 options
 "
-                
-)
                 
 options
 =
@@ -2429,14 +2429,15 @@ elif
 not
 any
 (
-[
                     
+[
+                        
 metric
 .
 type
 in
 types_for_probe
-                    
+                        
 for
 types_for_probe
 in
@@ -2445,8 +2446,9 @@ GIFFT_TYPES
 values
 (
 )
-                
+                    
 ]
+                
 )
 :
                     

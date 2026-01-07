@@ -122,8 +122,9 @@ diff_description_schema
 =
 Schema
 (
-{
     
+{
+        
 #
 default
 is
@@ -136,7 +137,7 @@ full
 to
 get
 both
-    
+        
 Optional
 (
 "
@@ -147,7 +148,7 @@ scenarios
 [
 str
 ]
-    
+        
 Optional
 (
 "
@@ -161,7 +162,7 @@ task_description_schema
 description
 "
 ]
-    
+        
 Optional
 (
 "
@@ -175,7 +176,7 @@ task_description_schema
 dependencies
 "
 ]
-    
+        
 Optional
 (
 "
@@ -189,7 +190,7 @@ job_description_schema
 fetches
 "
 ]
-    
+        
 Optional
 (
 "
@@ -203,7 +204,7 @@ task_description_schema
 index
 "
 ]
-    
+        
 Optional
 (
 "
@@ -214,7 +215,7 @@ from
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -223,7 +224,7 @@ name
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -237,7 +238,7 @@ job_description_schema
 run
 "
 ]
-    
+        
 Optional
 (
 "
@@ -259,7 +260,7 @@ on
 projects
 "
 ]
-    
+        
 Optional
 (
 "
@@ -285,7 +286,7 @@ repo
 type
 "
 ]
-    
+        
 Optional
 (
 "
@@ -299,7 +300,7 @@ task_description_schema
 scopes
 "
 ]
-    
+        
 Optional
 (
 "
@@ -313,7 +314,7 @@ task_description_schema
 treeherder
 "
 ]
-    
+        
 Optional
 (
 "
@@ -331,7 +332,7 @@ use
 python
 "
 ]
-    
+        
 Optional
 (
 "
@@ -345,7 +346,7 @@ job_description_schema
 worker
 "
 ]
-    
+        
 Optional
 (
 "
@@ -363,6 +364,7 @@ worker
 type
 "
 ]
+    
 }
 )
 transforms

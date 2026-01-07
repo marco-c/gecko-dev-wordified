@@ -271,8 +271,9 @@ taskcluster
 .
 Secrets
 (
-{
             
+{
+                
 #
 BaseUrl
 is
@@ -289,7 +290,7 @@ to
 taskgraph
 yet
 .
-            
+                
 "
 baseUrl
 "
@@ -305,8 +306,9 @@ secrets
 /
 v1
 "
-        
+            
 }
+        
 )
     
 except
@@ -336,8 +338,9 @@ taskcluster
 .
 Secrets
 (
-{
             
+{
+                
 "
 rootUrl
 "
@@ -348,7 +351,7 @@ environ
 .
 get
 (
-                
+                    
 "
 TASKCLUSTER_PROXY_URL
 "
@@ -361,10 +364,11 @@ taskcluster
 .
 net
 "
-            
+                
 )
-        
+            
 }
+        
 )
     
 return

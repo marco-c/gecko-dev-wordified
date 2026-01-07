@@ -2725,8 +2725,9 @@ stdout
 =
 iter
 (
-[
                 
+[
+                    
 "
 MODULE
 os
@@ -2748,7 +2749,7 @@ test_files
 0
 ]
 )
-                
+                    
 "
 FILE
 0
@@ -2757,14 +2758,15 @@ s
 "
 %
 sourcefile
-                
+                    
 "
 PUBLIC
 xyz
 123
 "
-            
+                
 ]
+            
 )
             
 mock_Popen

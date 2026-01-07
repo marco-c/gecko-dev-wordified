@@ -117,8 +117,9 @@ context
 .
 update
 (
-{
         
+{
+            
 "
 FFI_EXEC_TRAMPOLINE_TABLE
 "
@@ -126,7 +127,7 @@ FFI_EXEC_TRAMPOLINE_TABLE
 "
 0
 "
-        
+            
 "
 HAVE_LONG_DOUBLE
 "
@@ -134,7 +135,7 @@ HAVE_LONG_DOUBLE
 "
 0
 "
-        
+            
 "
 TARGET
 "
@@ -147,15 +148,16 @@ substs
 FFI_TARGET
 "
 ]
-        
+            
 "
 VERSION
 "
 :
 "
 "
-    
+        
 }
+    
 )
     
 for

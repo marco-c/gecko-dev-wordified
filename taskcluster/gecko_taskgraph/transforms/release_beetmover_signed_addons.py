@@ -175,8 +175,9 @@ beetmover_description_schema
 =
 Schema
 (
-{
     
+{
+        
 #
 attributes
 is
@@ -189,7 +190,7 @@ map
 by
 declarative
 artifacts
-    
+        
 Required
 (
 "
@@ -202,7 +203,7 @@ str
 :
 object
 }
-    
+        
 #
 unique
 label
@@ -220,7 +221,7 @@ label
 }
 -
 beetmover
-    
+        
 Optional
 (
 "
@@ -229,7 +230,7 @@ label
 )
 :
 str
-    
+        
 #
 treeherder
 is
@@ -245,7 +246,7 @@ for
 beetmover
 .
 See
-    
+        
 #
 taskcluster
 /
@@ -262,7 +263,7 @@ schema
 details
 and
 the
-    
+        
 #
 below
 transforms
@@ -272,7 +273,7 @@ of
 various
 values
 .
-    
+        
 Optional
 (
 "
@@ -286,7 +287,7 @@ task_description_schema
 treeherder
 "
 ]
-    
+        
 Required
 (
 "
@@ -295,7 +296,7 @@ description
 )
 :
 str
-    
+        
 Required
 (
 "
@@ -314,7 +315,7 @@ level
 "
 str
 )
-    
+        
 Required
 (
 "
@@ -328,7 +329,7 @@ projects
 :
 [
 ]
-    
+        
 #
 locale
 is
@@ -337,7 +338,7 @@ only
 for
 l10n
 beetmoving
-    
+        
 Optional
 (
 "
@@ -346,7 +347,7 @@ locale
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -364,7 +365,7 @@ shipping
 phase
 "
 ]
-    
+        
 Optional
 (
 "
@@ -382,7 +383,7 @@ task
 from
 "
 ]
-    
+        
 Optional
 (
 "
@@ -396,7 +397,7 @@ task_description_schema
 dependencies
 "
 ]
-    
+        
 Optional
 (
 "
@@ -422,6 +423,7 @@ repo
 type
 "
 ]
+    
 }
 )
 transforms

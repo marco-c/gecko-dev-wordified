@@ -397,8 +397,9 @@ upstream_artifacts
 .
 append
 (
-{
                 
+{
+                    
 "
 taskId
 "
@@ -421,13 +422,13 @@ kind
 >
 "
 }
-                
+                    
 "
 taskType
 "
 :
 upstream_task_type
-                
+                    
 #
 Set
 paths
@@ -442,7 +443,7 @@ above
 )
 one
 per
-                
+                    
 #
 locale
 present
@@ -455,7 +456,7 @@ signing
 stuff
 for
 .
-                
+                    
 #
 Pass
 paths
@@ -471,7 +472,7 @@ get
 a
 list
 back
-                
+                    
 #
 and
 we
@@ -491,15 +492,16 @@ JP
 mac
 langpack
 )
-                
+                    
 "
 paths
 "
 :
 sorted
 (
+                        
 {
-                    
+                            
 path_template
 .
 format
@@ -508,7 +510,7 @@ locale
 =
 locale
 )
-                    
+                            
 for
 locale
 in
@@ -524,7 +526,7 @@ chunk_locales
 [
 ]
 )
-                    
+                            
 for
 path_template
 in
@@ -534,10 +536,11 @@ spec
 artifacts
 "
 ]
-                
+                        
 }
+                    
 )
-                
+                    
 "
 formats
 "
@@ -548,8 +551,9 @@ spec
 formats
 "
 ]
-            
+                
 }
+            
 )
         
 job

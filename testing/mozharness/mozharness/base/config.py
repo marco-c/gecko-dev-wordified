@@ -2386,6 +2386,8 @@ from
 this
 run
 to
+"
+"
 a
 JSON
 file
@@ -3773,15 +3775,16 @@ all_cfg_files_and_dicts
 .
 append
 (
+                        
 (
-                        
+                            
 file_path
-                        
+                            
 parse_config_file
 (
-                            
+                                
 file_path
-                            
+                                
 search_path
 =
 [
@@ -3789,10 +3792,11 @@ search_path
 .
 "
 ]
+                            
+)
                         
 )
                     
-)
 )
                 
 else
@@ -3802,15 +3806,16 @@ all_cfg_files_and_dicts
 .
 append
 (
+                        
 (
-                        
+                            
 cf
-                        
+                            
 parse_config_file
 (
-                            
+                                
 cf
-                            
+                                
 search_path
 =
 config_paths
@@ -3818,10 +3823,11 @@ config_paths
 [
 DEFAULT_CONFIG_PATH
 ]
+                            
+)
                         
 )
                     
-)
 )
             
 except

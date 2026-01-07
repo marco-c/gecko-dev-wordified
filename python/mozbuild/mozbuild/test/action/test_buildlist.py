@@ -352,6 +352,9 @@ expected
 l
 }
 '
+"
+f
+"
 got
 '
 {

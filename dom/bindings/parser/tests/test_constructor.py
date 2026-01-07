@@ -2678,6 +2678,8 @@ and
 a
 throwing
 constructor
+"
+"
 operation
 "
     
@@ -2877,6 +2879,8 @@ chromeonly
 constructor
 and
 a
+"
+"
 HTMLConstructor
 "
     
@@ -2975,6 +2979,8 @@ and
 a
 chromeonly
 constructor
+"
+"
 operation
 "
     
@@ -3167,6 +3173,9 @@ a
 [
 LegacyNoInterfaceObject
 ]
+"
+        
+"
 interface
 "
     

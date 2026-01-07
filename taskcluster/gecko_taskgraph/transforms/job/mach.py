@@ -98,8 +98,9 @@ mach_schema
 =
 Schema
 (
-{
     
+{
+        
 Required
 (
 "
@@ -110,7 +111,7 @@ using
 "
 mach
 "
-    
+        
 #
 The
 mach
@@ -123,7 +124,7 @@ mach
 )
 to
 run
-    
+        
 Required
 (
 "
@@ -132,7 +133,7 @@ mach
 )
 :
 taskref_or_string
-    
+        
 #
 The
 sparse
@@ -148,7 +149,7 @@ filename
 relative
 to
 the
-    
+        
 #
 directory
 where
@@ -165,7 +166,7 @@ profiles
 /
 )
 .
-    
+        
 Optional
 (
 "
@@ -180,7 +181,7 @@ Any
 str
 None
 )
-    
+        
 #
 if
 true
@@ -196,11 +197,11 @@ based
 branch
 inside
 the
-    
+        
 #
 gecko
 checkout
-    
+        
 Required
 (
 "
@@ -211,7 +212,7 @@ checkout
 )
 :
 bool
-    
+        
 #
 Prepend
 the
@@ -226,7 +227,7 @@ This
 can
 be
 useful
-    
+        
 #
 if
 the
@@ -242,7 +243,7 @@ with
 another
 ENV
 .
-    
+        
 Optional
 (
 "
@@ -257,7 +258,7 @@ str
 :
 str
 }
-    
+        
 #
 Base
 work
@@ -269,7 +270,7 @@ up
 the
 task
 .
-    
+        
 Optional
 (
 "
@@ -278,14 +279,14 @@ workdir
 )
 :
 str
-    
+        
 #
 Use
 the
 specified
 caches
 .
-    
+        
 Optional
 (
 "
@@ -302,6 +303,7 @@ bool
 str
 ]
 )
+    
 }
 )
 defaults

@@ -692,8 +692,9 @@ self
 .
 restart_with_prefs
 (
-{
             
+{
+                
 "
 sidebar
 .
@@ -701,7 +702,7 @@ revamp
 "
 :
 True
-            
+                
 "
 sidebar
 .
@@ -709,16 +710,17 @@ verticalTabs
 "
 :
 True
-            
+                
 customization_pref
 :
 None
-            
+                
 snapshot_pref
 :
 None
-        
+            
 }
+        
 )
         
 horiz_tab_ids
@@ -1001,21 +1003,23 @@ self
 .
 restart_with_prefs
 (
-{
             
+{
+                
 *
 *
 fixture_prefs
-            
+                
 customization_pref
 :
 None
-            
+                
 snapshot_pref
 :
 None
-        
+            
 }
+        
 )
         
 #
@@ -1475,21 +1479,23 @@ self
 .
 restart_with_prefs
 (
-{
             
+{
+                
 *
 *
 fixture_prefs
-            
+                
 customization_pref
 :
 None
-            
+                
 snapshot_pref
 :
 None
-        
+            
 }
+        
 )
         
 pref_value
@@ -1748,8 +1754,9 @@ self
 .
 restart_with_prefs
 (
-{
             
+{
+                
 "
 sidebar
 .
@@ -1757,7 +1764,7 @@ revamp
 "
 :
 False
-            
+                
 "
 sidebar
 .
@@ -1765,8 +1772,9 @@ verticalTabs
 "
 :
 False
-        
+            
 }
+        
 )
         
 self

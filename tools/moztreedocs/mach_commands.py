@@ -3162,7 +3162,10 @@ executable
         
 "
 -
-mglean_parser
+m
+"
+"
+glean_parser
 "
         
 "
@@ -3289,8 +3292,8 @@ args
 .
 extend
 (
-[
         
+[
 os
 .
 path
@@ -3309,8 +3312,8 @@ set
 (
 metrics_paths
 )
-    
 ]
+    
 )
     
 subprocess

@@ -147,8 +147,9 @@ repackage_signing_description_schema
 =
 Schema
 (
-{
     
+{
+        
 Optional
 (
 "
@@ -157,7 +158,7 @@ label
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -166,7 +167,7 @@ extra
 )
 :
 object
-    
+        
 Optional
 (
 "
@@ -180,7 +181,7 @@ task_description_schema
 attributes
 "
 ]
-    
+        
 Optional
 (
 "
@@ -194,7 +195,7 @@ task_description_schema
 dependencies
 "
 ]
-    
+        
 Optional
 (
 "
@@ -212,7 +213,7 @@ shipping
 product
 "
 ]
-    
+        
 Optional
 (
 "
@@ -230,7 +231,7 @@ shipping
 phase
 "
 ]
-    
+        
 Optional
 (
 "
@@ -244,7 +245,7 @@ task_description_schema
 priority
 "
 ]
-    
+        
 Optional
 (
 "
@@ -262,7 +263,7 @@ task
 from
 "
 ]
-    
+        
 Optional
 (
 "
@@ -288,6 +289,7 @@ repo
 type
 "
 ]
+    
 }
 )
 transforms
@@ -791,8 +793,9 @@ upstream_artifacts
 .
 append
 (
-{
                     
+{
+                        
 "
 taskId
 "
@@ -810,7 +813,7 @@ repackage
 >
 "
 }
-                    
+                        
 "
 taskType
 "
@@ -818,18 +821,18 @@ taskType
 "
 repackage
 "
-                    
+                        
 "
 paths
 "
 :
 [
-                        
+                            
 get_artifact_path
 (
-                            
+                                
 dep_job
-                            
+                                
 f
 "
 {
@@ -844,28 +847,29 @@ installer
 .
 exe
 "
-                        
+                            
 )
-                    
+                        
 ]
-                    
+                        
 "
 formats
 "
 :
 [
-                        
+                            
 "
 gcp_prod_autograph_authenticode_202412
 "
-                        
+                            
 "
 gcp_prod_autograph_gpg
 "
-                    
+                        
 ]
-                
+                    
 }
+                
 )
         
 elif

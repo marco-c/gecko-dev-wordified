@@ -132,8 +132,9 @@ split_by_locale_schema
 =
 Schema
 (
-{
     
+{
+        
 #
 The
 file
@@ -149,7 +150,7 @@ be
 a
 json
 file
-    
+        
 #
 such
 as
@@ -163,7 +164,7 @@ changesets
 .
 json
 .
-    
+        
 Required
 (
 "
@@ -174,7 +175,7 @@ file
 )
 :
 str
-    
+        
 #
 The
 platform
@@ -190,7 +191,7 @@ files
 .
 Defaults
 to
-    
+        
 #
 attributes
 .
@@ -199,7 +200,7 @@ if
 not
 provided
 .
-    
+        
 Optional
 (
 "
@@ -212,7 +213,7 @@ platform
 )
 :
 str
-    
+        
 #
 A
 list
@@ -228,7 +229,7 @@ to
 have
 the
 locale
-    
+        
 #
 name
 substituted
@@ -241,7 +242,7 @@ properties
 may
 be
 strings
-    
+        
 #
 or
 lists
@@ -257,12 +258,12 @@ list
 values
 will
 have
-    
+        
 #
 substitutions
 performed
 .
-    
+        
 Optional
 (
 "
@@ -277,10 +278,11 @@ locale
 [
 str
 ]
-    
+        
 Extra
 :
 object
+    
 }
 )
 transforms

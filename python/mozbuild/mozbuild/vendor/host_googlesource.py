@@ -104,8 +104,8 @@ url
 .
 join
 (
-[
             
+[
 self
 .
 manifest
@@ -119,11 +119,9 @@ vendoring
 url
 "
 ]
-            
 "
 +
 "
-            
 revision
 +
 "
@@ -132,8 +130,8 @@ format
 =
 JSON
 "
-        
 ]
+        
 )
         
 req
@@ -268,8 +266,8 @@ return
 .
 join
 (
-[
             
+[
 self
 .
 manifest
@@ -283,12 +281,10 @@ vendoring
 url
 "
 ]
-            
 "
 +
 archive
 "
-            
 revision
 +
 "
@@ -297,8 +293,8 @@ tar
 .
 gz
 "
-        
 ]
+        
 )
     
 def

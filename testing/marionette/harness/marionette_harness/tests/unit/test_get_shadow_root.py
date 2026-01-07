@@ -326,11 +326,11 @@ shadow_root
 assert
 isinstance
 (
+            
 shadow_root
 ShadowRoot
+        
 )
-(
-            
 "
 Should
 have
@@ -345,8 +345,6 @@ got
 format
 (
 shadow_root
-)
-        
 )
     
 def
@@ -403,11 +401,11 @@ shadow_root
 assert
 isinstance
 (
+            
 shadow_root
 ShadowRoot
+        
 )
-(
-            
 "
 Should
 have
@@ -422,8 +420,6 @@ got
 format
 (
 shadow_root
-)
-        
 )
     
 def

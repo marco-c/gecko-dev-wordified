@@ -177,8 +177,9 @@ artifacts
 .
 append
 (
-{
         
+{
+            
 "
 name
 "
@@ -187,13 +188,13 @@ get_artifact_prefix
 (
 taskdesc
 )
-        
+            
 "
 path
 "
 :
 path
-        
+            
 "
 type
 "
@@ -201,8 +202,9 @@ type
 "
 directory
 "
-    
+        
 }
+    
 )
 def
 docker_worker_add_artifacts
@@ -979,14 +981,15 @@ env
 .
 update
 (
-{
         
+{
+            
 "
 HG_STORE_PATH
 "
 :
 hgstore
-        
+            
 "
 REPOSITORIES
 "
@@ -995,8 +998,8 @@ json
 .
 dumps
 (
+                
 {
-            
 repo
 .
 prefix
@@ -1012,11 +1015,12 @@ repo_configs
 values
 (
 )
+}
+            
+)
         
 }
-)
     
-}
 )
     
 for
@@ -1033,8 +1037,9 @@ env
 .
 update
 (
-{
             
+{
+                
 f
 "
 {
@@ -1053,13 +1058,13 @@ key
 "
 :
 value
-            
+                
 for
 key
 value
 in
 {
-                
+                    
 "
 BASE_REPOSITORY
 "
@@ -1067,7 +1072,7 @@ BASE_REPOSITORY
 repo_config
 .
 base_repository
-                
+                    
 "
 HEAD_REPOSITORY
 "
@@ -1075,7 +1080,7 @@ HEAD_REPOSITORY
 repo_config
 .
 head_repository
-                
+                    
 "
 HEAD_REV
 "
@@ -1083,7 +1088,7 @@ HEAD_REV
 repo_config
 .
 head_rev
-                
+                    
 "
 HEAD_REF
 "
@@ -1091,7 +1096,7 @@ HEAD_REF
 repo_config
 .
 head_ref
-                
+                    
 "
 REPOSITORY_TYPE
 "
@@ -1099,7 +1104,7 @@ REPOSITORY_TYPE
 repo_config
 .
 type
-                
+                    
 "
 SSH_SECRET_NAME
 "
@@ -1107,20 +1112,21 @@ SSH_SECRET_NAME
 repo_config
 .
 ssh_secret_name
-            
+                
 }
 .
 items
 (
 )
-            
+                
 if
 value
 is
 not
 None
-        
+            
 }
+        
 )
         
 if
@@ -1188,8 +1194,9 @@ env
 .
 update
 (
-{
             
+{
+                
 "
 COMM_BASE_REPOSITORY
 "
@@ -1202,7 +1209,7 @@ params
 comm_base_repository
 "
 ]
-            
+                
 "
 COMM_HEAD_REPOSITORY
 "
@@ -1215,7 +1222,7 @@ params
 comm_head_repository
 "
 ]
-            
+                
 "
 COMM_HEAD_REV
 "
@@ -1228,8 +1235,9 @@ params
 comm_head_rev
 "
 ]
-        
+            
 }
+        
 )
     
 elif
@@ -1744,8 +1752,9 @@ env
 .
 update
 (
-{
             
+{
+                
 "
 TOOLTOOL_CACHE
 "
@@ -1771,8 +1780,9 @@ run
 "
 ]
 )
-        
+            
 }
+        
 )
     
 elif
@@ -1807,40 +1817,7 @@ scopes
 .
 extend
 (
-[
         
-"
-project
-:
-releng
-:
-services
-/
-tooltool
-/
-api
-/
-download
-/
-public
-"
-    
-]
-)
-    
-if
-internal
-:
-        
-taskdesc
-[
-"
-scopes
-"
-]
-.
-extend
-(
 [
             
 "
@@ -1856,10 +1833,47 @@ api
 /
 download
 /
-internal
+public
 "
         
 ]
+    
+)
+    
+if
+internal
+:
+        
+taskdesc
+[
+"
+scopes
+"
+]
+.
+extend
+(
+            
+[
+                
+"
+project
+:
+releng
+:
+services
+/
+tooltool
+/
+api
+/
+download
+/
+internal
+"
+            
+]
+        
 )
 def
 get_expiration

@@ -487,8 +487,8 @@ exclude_args
 .
 extend
 (
-[
                 
+[
 "
 -
 -
@@ -496,7 +496,6 @@ ignore
 -
 pattern
 "
-                
 os
 .
 path
@@ -511,8 +510,8 @@ root
 "
 ]
 )
-            
 ]
+            
 )
         
 for
@@ -1356,8 +1355,9 @@ err
 .
 update
 (
-{
                 
+{
+                    
 "
 hint
 "
@@ -1370,7 +1370,7 @@ get
 fix
 "
 )
-                
+                    
 "
 level
 "
@@ -1392,7 +1392,7 @@ else
 "
 warning
 "
-                
+                    
 "
 lineno
 "
@@ -1407,7 +1407,7 @@ line
 )
 or
 0
-                
+                    
 "
 path
 "
@@ -1418,7 +1418,7 @@ obj
 filePath
 "
 ]
-                
+                    
 "
 rule
 "
@@ -1431,8 +1431,9 @@ get
 ruleId
 "
 )
-            
+                
 }
+            
 )
             
 results

@@ -435,6 +435,8 @@ r
 "
 -
 T
+"
+"
 {
 phase
 }
@@ -536,6 +538,8 @@ r
 "
 -
 T
+"
+"
 {
 node
 }
@@ -2657,8 +2661,9 @@ chrome_entries
 .
 append
 (
-{
                 
+{
+                    
 "
 type
 "
@@ -2666,7 +2671,7 @@ type
 "
 locale
 "
-                
+                    
 "
 alias
 "
@@ -2674,7 +2679,7 @@ alias
 entry
 .
 name
-                
+                    
 "
 locale
 "
@@ -2682,7 +2687,7 @@ locale
 entry
 .
 id
-                
+                    
 "
 platforms
 "
@@ -2693,7 +2698,7 @@ entry
 .
 flags
 )
-                
+                    
 "
 path
 "
@@ -2704,8 +2709,9 @@ normsep
 (
 entry_path
 )
-            
+                
 }
+            
 )
         
 else

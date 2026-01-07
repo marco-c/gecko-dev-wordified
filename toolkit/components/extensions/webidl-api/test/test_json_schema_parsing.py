@@ -143,8 +143,9 @@ schema_dir
 =
 write_jsonschema_fixtures
 (
-{
         
+{
+            
 "
 test_api
 .
@@ -153,7 +154,7 @@ json
 :
 dedent
 (
-            
+                
 "
 "
 "
@@ -387,10 +388,11 @@ MyType
 "
 "
 "
-        
+            
 )
-    
+        
 }
+    
 )
     
 schemas
@@ -699,8 +701,9 @@ schema_dir
 =
 write_jsonschema_fixtures
 (
-{
         
+{
+            
 "
 test_broken_types
 .
@@ -711,16 +714,17 @@ json
 .
 dumps
 (
-[
-            
-{
                 
+[
+                    
+{
+                        
 *
 *
 base_schema
 (
 )
-                
+                        
 "
 namespace
 "
@@ -728,15 +732,15 @@ namespace
 "
 testBrokenTypeAPI
 "
-                
+                        
 "
 types
 "
 :
 [
-                    
+                            
 {
-                        
+                                
 #
 type
 with
@@ -748,17 +752,19 @@ or
 ref
 "
 properties
+                            
+}
+                        
+]
                     
 }
                 
 ]
             
-}
-        
-]
 )
-    
+        
 }
+    
 )
     
 schemas
@@ -844,8 +850,9 @@ schema_dir
 =
 write_jsonschema_fixtures
 (
-{
         
+{
+            
 "
 test_broken_types
 .
@@ -856,16 +863,17 @@ json
 .
 dumps
 (
-[
-            
-{
                 
+[
+                    
+{
+                        
 *
 *
 base_schema
 (
 )
-                
+                        
 "
 namespace
 "
@@ -873,15 +881,15 @@ namespace
 "
 testUnsupportedTypesAPI
 "
-                
+                        
 "
 types
 "
 :
 [
-                    
+                            
 {
-                        
+                                
 "
 id
 "
@@ -889,7 +897,7 @@ id
 "
 AnUnsupportedType
 "
-                        
+                                
 "
 type
 "
@@ -897,17 +905,17 @@ type
 "
 string
 "
-                        
+                                
 "
 unsupported
 "
 :
 True
-                    
+                            
 }
-                    
+                            
 {
-                        
+                                
 #
 missing
 id
@@ -917,22 +925,22 @@ shouldn
 '
 t
 matter
-                        
+                                
 #
 no
 parsing
 error
 expected
 .
-                        
+                                
 "
 unsupported
 "
 :
 True
-                    
+                            
 }
-                    
+                            
 {
 "
 id
@@ -949,15 +957,17 @@ type
 string
 "
 }
+                        
+]
+                    
+}
                 
 ]
             
-}
-        
-]
 )
-    
+        
 }
+    
 )
     
 schemas

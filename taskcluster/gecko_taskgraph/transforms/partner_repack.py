@@ -1078,8 +1078,9 @@ reference
 .
 join
 (
-[
                 
+[
+                    
 f
 "
 <
@@ -1088,7 +1089,7 @@ dep
 }
 >
 "
-                
+                    
 for
 dep
 in
@@ -1098,7 +1099,7 @@ task
 dependencies
 "
 ]
-                
+                    
 if
 (
 "
@@ -1113,8 +1114,9 @@ notarization
 in
 dep
 )
-            
+                
 ]
+            
 )
         
 }
@@ -1301,14 +1303,15 @@ artifacts
 .
 append
 (
-{
                     
+{
+                        
 "
 name
 "
 :
 path
-                    
+                        
 "
 path
 "
@@ -1319,7 +1322,7 @@ artifact
 path
 "
 ]
-                    
+                        
 "
 type
 "
@@ -1327,8 +1330,9 @@ type
 "
 file
 "
-                
+                    
 }
+                
 )
         
 yield

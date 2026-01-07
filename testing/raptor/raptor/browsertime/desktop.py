@@ -338,8 +338,8 @@ chrome_args
 .
 extend
 (
-[
             
+[
 "
 -
 -
@@ -349,7 +349,6 @@ first
 -
 run
 "
-            
 "
 -
 -
@@ -357,7 +356,6 @@ no
 -
 experiments
 "
-            
 "
 -
 -
@@ -369,8 +367,8 @@ isolation
 -
 trials
 "
-        
 ]
+        
 )
         
 #

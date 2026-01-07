@@ -3026,8 +3026,8 @@ page
 .
 append
 (
-(
                 
+(
 f
 "
 {
@@ -3035,7 +3035,6 @@ enum_root
 }
 _getter
 "
-                
 f
 "
 {
@@ -3043,7 +3042,6 @@ name
 }
 _getter
 "
-                
 f
 "
 Whether
@@ -3055,16 +3053,16 @@ attr
 }
 .
 "
-            
 )
+            
 )
             
 page
 .
 append
 (
-(
                 
+(
 f
 "
 {
@@ -3072,7 +3070,6 @@ enum_root
 }
 _setter
 "
-                
 f
 "
 {
@@ -3080,7 +3077,6 @@ name
 }
 _setter
 "
-                
 f
 "
 Whether
@@ -3092,16 +3088,17 @@ attr
 }
 .
 "
-            
 )
+            
 )
             
 doc
 .
 append
 (
-(
                 
+(
+                    
 f
 "
 {
@@ -3109,7 +3106,7 @@ enum_root
 }
 _getter
 "
-                
+                    
 f
 "
 {
@@ -3117,7 +3114,7 @@ name
 }
 _getter
 "
-                
+                    
 f
 "
 Whether
@@ -3129,16 +3126,18 @@ attr
 }
 .
 "
-            
+                
 )
+            
 )
             
 doc
 .
 append
 (
-(
                 
+(
+                    
 f
 "
 {
@@ -3146,7 +3145,7 @@ enum_root
 }
 _setter
 "
-                
+                    
 f
 "
 {
@@ -3154,7 +3153,7 @@ name
 }
 _setter
 "
-                
+                    
 f
 "
 Whether
@@ -3166,8 +3165,9 @@ attr
 }
 .
 "
-            
+                
 )
+            
 )
         
 elif
@@ -3203,10 +3203,11 @@ page
 .
 append
 (
+                
 (
-                
+                    
 enum_name
-                
+                    
 to_snake_case
 (
 counter
@@ -3216,7 +3217,7 @@ name
 "
 ]
 )
-                
+                    
 f
 "
 Whether
@@ -3232,18 +3233,20 @@ desc
 }
 .
 "
-            
+                
 )
+            
 )
             
 doc
 .
 append
 (
+                
 (
-                
+                    
 enum_name
-                
+                    
 to_snake_case
 (
 counter
@@ -3253,7 +3256,7 @@ name
 "
 ]
 )
-                
+                    
 f
 "
 Whether
@@ -3269,8 +3272,9 @@ desc
 }
 .
 "
-            
+                
 )
+            
 )
         
 else
@@ -3445,12 +3449,10 @@ dedicated
 .
 append
 (
+                
 (
-                
 enum_name
-                
 name
-                
 f
 "
 Whether
@@ -3463,20 +3465,18 @@ method
 }
 .
 "
-            
 )
+            
 )
             
 shared
 .
 append
 (
+                
 (
-                
 enum_name
-                
 name
-                
 f
 "
 Whether
@@ -3489,20 +3489,18 @@ method
 }
 .
 "
-            
 )
+            
 )
             
 service
 .
 append
 (
+                
 (
-                
 enum_name
-                
 name
-                
 f
 "
 Whether
@@ -3515,8 +3513,8 @@ method
 }
 .
 "
-            
 )
+            
 )
         
 elif
@@ -3610,8 +3608,9 @@ dedicated
 .
 append
 (
-(
                 
+(
+                    
 f
 "
 {
@@ -3619,7 +3618,7 @@ enum_root
 }
 _getter
 "
-                
+                    
 f
 "
 {
@@ -3627,7 +3626,7 @@ name
 }
 _getter
 "
-                
+                    
 f
 "
 Whether
@@ -3640,16 +3639,18 @@ attr
 }
 .
 "
-            
+                
 )
+            
 )
             
 dedicated
 .
 append
 (
-(
                 
+(
+                    
 f
 "
 {
@@ -3657,7 +3658,7 @@ enum_root
 }
 _setter
 "
-                
+                    
 f
 "
 {
@@ -3665,7 +3666,7 @@ name
 }
 _setter
 "
-                
+                    
 f
 "
 Whether
@@ -3678,16 +3679,18 @@ attr
 }
 .
 "
-            
+                
 )
+            
 )
             
 shared
 .
 append
 (
-(
                 
+(
+                    
 f
 "
 {
@@ -3695,7 +3698,7 @@ enum_root
 }
 _getter
 "
-                
+                    
 f
 "
 {
@@ -3703,7 +3706,7 @@ name
 }
 _getter
 "
-                
+                    
 f
 "
 Whether
@@ -3716,16 +3719,18 @@ attr
 }
 .
 "
-            
+                
 )
+            
 )
             
 shared
 .
 append
 (
-(
                 
+(
+                    
 f
 "
 {
@@ -3733,7 +3738,7 @@ enum_root
 }
 _setter
 "
-                
+                    
 f
 "
 {
@@ -3741,7 +3746,7 @@ name
 }
 _setter
 "
-                
+                    
 f
 "
 Whether
@@ -3754,16 +3759,18 @@ attr
 }
 .
 "
-            
+                
 )
+            
 )
             
 service
 .
 append
 (
-(
                 
+(
+                    
 f
 "
 {
@@ -3771,7 +3778,7 @@ enum_root
 }
 _getter
 "
-                
+                    
 f
 "
 {
@@ -3779,7 +3786,7 @@ name
 }
 _getter
 "
-                
+                    
 f
 "
 Whether
@@ -3792,16 +3799,18 @@ attr
 }
 .
 "
-            
+                
 )
+            
 )
             
 service
 .
 append
 (
-(
                 
+(
+                    
 f
 "
 {
@@ -3809,7 +3818,7 @@ enum_root
 }
 _setter
 "
-                
+                    
 f
 "
 {
@@ -3817,7 +3826,7 @@ name
 }
 _setter
 "
-                
+                    
 f
 "
 Whether
@@ -3830,8 +3839,9 @@ attr
 }
 .
 "
-            
+                
 )
+            
 )
         
 elif
@@ -3867,10 +3877,11 @@ dedicated
 .
 append
 (
+                
 (
-                
+                    
 enum_name
-                
+                    
 to_snake_case
 (
 counter
@@ -3880,7 +3891,7 @@ name
 "
 ]
 )
-                
+                    
 f
 "
 Whether
@@ -3897,18 +3908,20 @@ desc
 }
 .
 "
-            
+                
 )
+            
 )
             
 shared
 .
 append
 (
+                
 (
-                
+                    
 enum_name
-                
+                    
 to_snake_case
 (
 counter
@@ -3918,7 +3931,7 @@ name
 "
 ]
 )
-                
+                    
 f
 "
 Whether
@@ -3935,18 +3948,20 @@ desc
 }
 .
 "
-            
+                
 )
+            
 )
             
 service
 .
 append
 (
+                
 (
-                
+                    
 enum_name
-                
+                    
 to_snake_case
 (
 counter
@@ -3956,7 +3971,7 @@ name
 "
 ]
 )
-                
+                    
 f
 "
 Whether
@@ -3973,8 +3988,9 @@ desc
 }
 .
 "
-            
+                
 )
+            
 )
         
 else
@@ -4446,12 +4462,10 @@ css_page
 .
 append
 (
+            
 (
-            
 enum_name
-            
 prop_name
-            
 f
 "
 Whether
@@ -4468,20 +4482,21 @@ name
 }
 .
 "
-        
 )
+        
 )
         
 css_doc
 .
 append
 (
+            
 (
-            
+                
 enum_name
-            
+                
 prop_name
-            
+                
 f
 "
 Whether
@@ -4498,8 +4513,9 @@ name
 }
 .
 "
-        
+            
 )
+        
 )
     
 #
@@ -4682,12 +4698,13 @@ css_page
 .
 append
 (
+            
 (
-            
+                
 enum_name
-            
+                
 prop_name
-            
+                
 f
 "
 Whether
@@ -4706,20 +4723,22 @@ prop
 }
 .
 "
-        
+            
 )
+        
 )
         
 css_doc
 .
 append
 (
+            
 (
-            
+                
 enum_name
-            
+                
 prop_name
-            
+                
 f
 "
 Whether
@@ -4738,8 +4757,9 @@ prop
 }
 .
 "
-        
+            
 )
+        
 )
     
 return

@@ -150,8 +150,9 @@ toolchain_run_schema
 =
 Schema
 (
-{
     
+{
+        
 Required
 (
 "
@@ -164,7 +165,7 @@ toolchain
 -
 script
 "
-    
+        
 #
 The
 script
@@ -179,7 +180,7 @@ misc
 to
 run
 .
-    
+        
 #
 Python
 scripts
@@ -191,12 +192,12 @@ python
 so
 vendored
 libraries
-    
+        
 #
 are
 available
 .
-    
+        
 Required
 (
 "
@@ -205,7 +206,7 @@ script
 )
 :
 str
-    
+        
 #
 Arguments
 to
@@ -214,7 +215,7 @@ to
 the
 script
 .
-    
+        
 Optional
 (
 "
@@ -225,7 +226,7 @@ arguments
 [
 str
 ]
-    
+        
 #
 If
 not
@@ -237,7 +238,7 @@ be
 enabled
 via
 relengAPIProxy
-    
+        
 #
 for
 either
@@ -252,7 +253,7 @@ Not
 supported
 on
 Windows
-    
+        
 Required
 (
 "
@@ -264,19 +265,19 @@ downloads
 :
 Any
 (
-        
+            
 False
-        
+            
 "
 public
 "
-        
+            
 "
 internal
 "
-    
+        
 )
-    
+        
 #
 Sparse
 profile
@@ -291,7 +292,7 @@ task
 .
 If
 given
-    
+        
 #
 Defaults
 to
@@ -306,7 +307,7 @@ value
 is
 relative
 to
-    
+        
 #
 "
 sparse
@@ -321,7 +322,7 @@ below
 is
 the
 path
-    
+        
 #
 defaulting
 to
@@ -333,7 +334,7 @@ sparse
 profiles
 "
 .
-    
+        
 #
 i
 .
@@ -349,7 +350,7 @@ toolchain
 -
 build
 .
-    
+        
 #
 If
 None
@@ -366,7 +367,7 @@ profile
 at
 all
 .
-    
+        
 Required
 (
 "
@@ -381,7 +382,7 @@ Any
 str
 None
 )
-    
+        
 #
 The
 relative
@@ -391,7 +392,7 @@ the
 sparse
 profile
 .
-    
+        
 Optional
 (
 "
@@ -404,7 +405,7 @@ prefix
 )
 :
 str
-    
+        
 #
 Paths
 /
@@ -418,12 +419,12 @@ the
 outcome
 of
 a
-    
+        
 #
 toolchain
 build
 .
-    
+        
 Optional
 (
 "
@@ -434,7 +435,7 @@ resources
 [
 str
 ]
-    
+        
 #
 Path
 to
@@ -445,7 +446,7 @@ by
 the
 toolchain
 job
-    
+        
 Required
 (
 "
@@ -456,16 +457,16 @@ artifact
 )
 :
 str
-    
+        
 Optional
 (
-        
+            
 "
 toolchain
 -
 alias
 "
-        
+            
 description
 =
 "
@@ -484,7 +485,7 @@ job
 name
 in
 "
-        
+            
 "
 fetch
 stanzas
@@ -492,7 +493,7 @@ for
 jobs
 .
 "
-    
+        
 )
 :
 optionally_keyed_by
@@ -509,16 +510,16 @@ str
 ]
 )
 )
-    
+        
 Optional
 (
-        
+            
 "
 toolchain
 -
 env
 "
-        
+            
 description
 =
 "
@@ -535,7 +536,7 @@ using
 this
 toolchain
 "
-    
+        
 )
 :
 {
@@ -543,16 +544,16 @@ str
 :
 object
 }
-    
+        
 Optional
 (
-        
+            
 "
 toolchain
 -
 extract
 "
-        
+            
 description
 =
 "
@@ -567,7 +568,7 @@ it
 is
 fetched
 "
-        
+            
 +
 "
 (
@@ -576,11 +577,11 @@ default
 True
 )
 "
-    
+        
 )
 :
 bool
-    
+        
 #
 Base
 work
@@ -592,7 +593,7 @@ up
 the
 task
 .
-    
+        
 Optional
 (
 "
@@ -601,6 +602,7 @@ workdir
 )
 :
 str
+    
 }
 )
 def
@@ -1396,8 +1398,9 @@ env
 .
 update
 (
-{
         
+{
+            
 "
 MOZ_BUILD_DATE
 "
@@ -1410,7 +1413,7 @@ params
 moz_build_date
 "
 ]
-        
+            
 "
 MOZ_SCM_LEVEL
 "
@@ -1423,7 +1426,7 @@ params
 level
 "
 ]
-        
+            
 "
 TOOLCHAIN_ARTIFACT
 "
@@ -1438,8 +1441,9 @@ toolchain
 artifact
 "
 )
-    
+        
 }
+    
 )
     
 if

@@ -773,12 +773,14 @@ already
 exist
                 
 assert
+(
+                    
 section
 not
 in
 section_names
-(
-                    
+                
+)
 "
 Section
 '
@@ -797,8 +799,6 @@ s
 (
 section
 section_names
-)
-                
 )
             
 section_names
@@ -855,13 +855,15 @@ fp
                 
 linenum
                 
-f
 "
 Expected
 a
 comment
 or
 section
+"
+f
+"
 instead
 found
 '
@@ -1049,12 +1051,14 @@ key
 :
                     
 assert
+(
+                        
 key
 not
 in
 current_section
-(
-                        
+                    
+)
 f
 "
 Found
@@ -1069,8 +1073,6 @@ section
 section
 }
 "
-                    
-)
                 
 if
 strict

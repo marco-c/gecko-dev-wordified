@@ -2953,8 +2953,9 @@ missing_tests_allowed
 =
 any
 (
-(
             
+(
+                
 #
 user
 specified
@@ -2963,7 +2964,7 @@ specified
 target
 -
 kind
-            
+                
 bool
 (
 parameters
@@ -2977,13 +2978,13 @@ kinds
 "
 )
 )
-            
+                
 #
 manifest
 scheduling
 is
 enabled
-            
+                
 parameters
 [
 "
@@ -2995,8 +2996,9 @@ test_manifest_loader
 "
 default
 "
-        
+            
 )
+        
 )
         
 test_env

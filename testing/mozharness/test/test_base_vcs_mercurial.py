@@ -608,18 +608,20 @@ hg_obj
 .
 run_command
 (
-[
             
+[
+                
 "
 bash
 "
-            
+                
 os
 .
 path
 .
 join
 (
+                    
 os
 .
 path
@@ -636,11 +638,13 @@ init_hgrepo
 .
 sh
 "
+                
 )
-            
+                
 repodir
-        
+            
 ]
+        
 )
     
 def

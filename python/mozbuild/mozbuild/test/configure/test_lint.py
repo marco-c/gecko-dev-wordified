@@ -314,8 +314,8 @@ source
 return
 MockedOpen
 (
-{
             
+{
 os
 .
 path
@@ -336,8 +336,8 @@ dedent
 (
 source
 )
-        
 }
+        
 )
     
 def
@@ -2145,6 +2145,8 @@ be
 used
 instead
 of
+"
+"
 -
 -
 enable
@@ -2299,6 +2301,9 @@ be
 used
 instead
 of
+"
+            
+"
 -
 -
 disable
@@ -2453,6 +2458,8 @@ be
 used
 instead
 of
+"
+"
 -
 -
 with
@@ -2607,6 +2614,8 @@ be
 used
 instead
 of
+"
+"
 -
 -
 without
@@ -2834,11 +2843,14 @@ Disable
 "
 because
 of
+'
+            
+"
 non
 -
 constant
 default
-'
+"
         
 )
     

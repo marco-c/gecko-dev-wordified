@@ -1747,8 +1747,9 @@ frames
 .
 append
 (
+            
 {
-            
+                
 "
 location
 "
@@ -1759,7 +1760,7 @@ row
 location
 "
 ]
-            
+                
 "
 source_file
 "
@@ -1770,7 +1771,7 @@ row
 source_file
 "
 ]
-            
+                
 "
 source_line
 "
@@ -1781,7 +1782,7 @@ row
 source_line
 "
 ]
-            
+                
 "
 seq
 "
@@ -1792,7 +1793,7 @@ row
 seq
 "
 ]
-            
+                
 "
 severity
 "
@@ -1803,7 +1804,7 @@ row
 severity
 "
 ]
-            
+                
 "
 result
 "
@@ -1814,8 +1815,9 @@ row
 result
 "
 ]
-        
+            
 }
+        
 )
         
 first

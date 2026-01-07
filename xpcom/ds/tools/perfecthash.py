@@ -1887,11 +1887,13 @@ bases
 base
         
 return
+(
+            
 textwrap
 .
 dedent
 (
-            
+                
 "
 "
 "
@@ -1917,8 +1919,9 @@ s
 "
 "
 "
-        
+            
 )
+            
 %
 (
 self
@@ -1928,6 +1931,8 @@ basis_ty
 )
 name
 bases
+)
+        
 )
     
 def
@@ -1986,11 +1991,13 @@ entries
 )
         
 return
+(
+            
 textwrap
 .
 dedent
 (
-            
+                
 "
 "
 "
@@ -2015,8 +2022,9 @@ s
 "
 "
 "
-        
+            
 )
+            
 %
 (
 self
@@ -2026,6 +2034,8 @@ self
 .
 entries_name
 entries
+)
+        
 )
     
 def
@@ -2237,11 +2247,13 @@ self
 entry_type
         
 return
+(
+            
 textwrap
 .
 dedent
 (
-            
+                
 "
 "
 "
@@ -2331,17 +2343,18 @@ s
 "
 "
 "
-        
+            
 )
+            
 %
 {
-            
+                
 "
 name
 "
 :
 name
-            
+                
 "
 basis_table
 "
@@ -2356,7 +2369,7 @@ basis_table
 (
 )
 )
-            
+                
 "
 entries_name
 "
@@ -2364,13 +2377,13 @@ entries_name
 self
 .
 entries_name
-            
+                
 "
 return_type
 "
 :
 return_type
-            
+                
 "
 return_entry
 "
@@ -2381,26 +2394,28 @@ _indent
 (
 return_entry
 )
-            
+                
 "
 key_type
 "
 :
 key_type
-            
+                
 "
 key_bytes
 "
 :
 key_bytes
-            
+                
 "
 key_length
 "
 :
 key_length
-        
+            
 }
+        
+)
     
 def
 gen_jslinearstr_getter
@@ -2536,6 +2551,7 @@ table
 assert
 all
 (
+            
 b
 <
 =
@@ -2559,17 +2575,14 @@ key
 (
 e
 )
+        
 )
-(
-            
 "
 non
 -
 ASCII
 key
 "
-        
-)
         
 if
 return_type
@@ -2591,11 +2604,13 @@ self
 entry_type
         
 return
+(
+            
 textwrap
 .
 dedent
 (
-            
+                
 "
 "
 "
@@ -2743,17 +2758,18 @@ s
 "
 "
 "
-        
+            
 )
+            
 %
 {
-            
+                
 "
 name
 "
 :
 name
-            
+                
 "
 basis_table
 "
@@ -2768,7 +2784,7 @@ basis_table
 (
 )
 )
-            
+                
 "
 entries_name
 "
@@ -2776,13 +2792,13 @@ entries_name
 self
 .
 entries_name
-            
+                
 "
 return_type
 "
 :
 return_type
-            
+                
 "
 return_entry
 "
@@ -2794,5 +2810,7 @@ _indent
 return_entry
 2
 )
-        
+            
 }
+        
+)

@@ -823,19 +823,18 @@ EC
 .
 visibility_of_element_located
 (
-(
                 
+(
 By
 .
 CSS_SELECTOR
-                
 video_selector
 or
 "
 video
 "
-            
 )
+            
 )
         
 )
@@ -1234,6 +1233,8 @@ currentTime
 )
         
 assert
+(
+            
 video
 .
 get_property
@@ -1247,8 +1248,8 @@ currentTime
 0
 .
 01
-(
-            
+        
+)
 "
 <
 video
@@ -1257,8 +1258,6 @@ currentTime
 not
 moved
 "
-        
-)
         
 #
 this
@@ -1529,6 +1528,8 @@ intermittent
 failures
         
 assert
+(
+            
 datum_after_resume
 >
 =
@@ -1537,8 +1538,8 @@ datum_after_sleep
 0
 .
 5
-(
-            
+        
+)
 "
 <
 video
@@ -1547,8 +1548,6 @@ progressed
 after
 pause
 "
-        
-)
         
 self
 .
@@ -1605,6 +1604,8 @@ volume
 )
         
 assert
+(
+            
 new_volume
 =
 =
@@ -1613,8 +1614,8 @@ ref_volume
 0
 .
 25
-(
-            
+        
+)
 f
 "
 <
@@ -1641,8 +1642,6 @@ got
 new_volume
 }
 "
-        
-)
         
 self
 .
@@ -1839,12 +1838,11 @@ EC
 .
 presence_of_element_located
 (
-(
                 
+(
 By
 .
 CSS_SELECTOR
-                
 "
 button
 [
@@ -1860,8 +1858,8 @@ f
 '
 ]
 "
-            
 )
+            
 )
         
 )
@@ -2695,12 +2693,11 @@ EC
 .
 visibility_of_element_located
 (
-(
                 
+(
 By
 .
 CSS_SELECTOR
-                
 f
 "
 div
@@ -2721,8 +2718,8 @@ page
 ]
 canvas
 "
-            
 )
+            
 )
         
 )
@@ -3898,12 +3895,11 @@ EC
 .
 visibility_of_element_located
 (
-(
                 
+(
 By
 .
 CSS_SELECTOR
-                
 "
 span
 [
@@ -3912,8 +3908,8 @@ role
 presentation
 ]
 "
-            
 )
+            
 )
         
 )
@@ -3960,19 +3956,18 @@ EC
 .
 visibility_of_element_located
 (
-(
                     
+(
 By
 .
 CSS_SELECTOR
-                    
 "
 button
 .
 highlightButton
 "
-                
 )
+                
 )
             
 )
@@ -4737,14 +4732,15 @@ EC
 .
 visibility_of_element_located
 (
-(
-                
-By
-.
-ID
                 
 (
                     
+By
+.
+ID
+                    
+(
+                        
 "
 context
 -
@@ -4752,7 +4748,7 @@ copyimage
 -
 contents
 "
-                    
+                        
 if
 mime_type
 .
@@ -4763,17 +4759,18 @@ image
 /
 "
 )
-                    
+                        
 else
 "
 context
 -
 copy
 "
+                    
+)
                 
 )
             
-)
 )
         
 )
@@ -4887,12 +4884,14 @@ content
 )
         
 assert
+(
+            
 in_clipboard
 =
 =
 should_be_present
-(
-            
+        
+)
 f
 "
 type
@@ -4912,8 +4911,6 @@ be
 in
 clipboard
 "
-        
-)
     
 def
 wait_for_element_in_clipboard
@@ -5208,12 +5205,11 @@ EC
 .
 visibility_of_element_located
 (
-(
                 
+(
 By
 .
 CSS_SELECTOR
-                
 "
 #
 testlist
@@ -5236,8 +5232,8 @@ child
 1
 )
 "
-            
 )
+            
 )
         
 )
@@ -5371,12 +5367,11 @@ EC
 .
 presence_of_element_located
 (
-(
                 
+(
 By
 .
 CSS_SELECTOR
-                
 "
 .
 entry
@@ -5392,8 +5387,8 @@ child
 1
 )
 "
-            
 )
+            
 )
         
 )
@@ -5476,12 +5471,11 @@ EC
 .
 visibility_of_element_located
 (
-(
                 
+(
 By
 .
 CSS_SELECTOR
-                
 "
 #
 testlist
@@ -5504,8 +5498,8 @@ child
 1
 )
 "
-            
 )
+            
 )
         
 )
@@ -5683,12 +5677,11 @@ EC
 .
 visibility_of_element_located
 (
-(
                 
+(
 By
 .
 CSS_SELECTOR
-                
 "
 .
 download
@@ -5697,8 +5690,8 @@ state
 .
 downloadTarget
 "
-            
 )
+            
 )
         
 )
@@ -5733,12 +5726,11 @@ EC
 .
 presence_of_element_located
 (
-(
                 
+(
 By
 .
 ID
-                
 "
 downloadsPanel
 -
@@ -5746,8 +5738,8 @@ blockedSubview
 -
 unblockButton
 "
-            
 )
+            
 )
         
 )
@@ -5854,12 +5846,11 @@ EC
 .
 visibility_of_element_located
 (
-(
                 
+(
 By
 .
 CSS_SELECTOR
-                
 "
 .
 download
@@ -5868,8 +5859,8 @@ state
 .
 downloadTarget
 "
-            
 )
+            
 )
         
 )
@@ -5916,12 +5907,11 @@ EC
 .
 presence_of_element_located
 (
-(
                 
+(
 By
 .
 CSS_SELECTOR
-                
 "
 .
 download
@@ -5930,8 +5920,8 @@ state
 .
 downloadProgress
 "
-            
 )
+            
 )
         
 )
@@ -6009,12 +5999,11 @@ EC
 .
 presence_of_element_located
 (
-(
                     
+(
 By
 .
 CSS_SELECTOR
-                    
 "
 .
 download
@@ -6023,8 +6012,8 @@ state
 .
 downloadDetailsNormal
 "
-                
 )
+                
 )
             
 )
@@ -6073,12 +6062,11 @@ EC
 .
 presence_of_element_located
 (
-(
                     
+(
 By
 .
 CSS_SELECTOR
-                    
 "
 .
 download
@@ -6087,8 +6075,8 @@ state
 .
 downloadDetailsHover
 "
-                
 )
+                
 )
             
 )
@@ -6312,12 +6300,14 @@ download_dir_pref
 )
         
 assert
+(
+            
 download_dir_pref
 =
 =
 new
-(
-            
+        
+)
 "
 download
 directory
@@ -6328,8 +6318,6 @@ match
 new
 directory
 "
-        
-)
     
 def
 enable_downloads_debug
@@ -6505,19 +6493,21 @@ EC
 .
 presence_of_element_located
 (
-(
                 
+(
+                    
 By
 .
 ID
-                
+                    
 "
 download
 -
 link
 "
-            
+                
 )
+            
 )
         
 )
@@ -7252,12 +7242,11 @@ EC
 .
 visibility_of_element_located
 (
-(
                     
+(
 By
 .
 CSS_SELECTOR
-                    
 "
 .
 download
@@ -7266,8 +7255,8 @@ state
 .
 downloadDetailsNormal
 "
-                
 )
+                
 )
             
 )
@@ -7284,12 +7273,12 @@ value
 .
 startswith
 (
+                
 "
 Completed
 "
+            
 )
-(
-                
 "
 download
 should
@@ -7298,8 +7287,6 @@ marked
 as
 completed
 "
-            
-)
         
 #
 TemporaryDirectory
@@ -7351,12 +7338,11 @@ EC
 .
 invisibility_of_element_located
 (
-(
                 
+(
 By
 .
 CSS_SELECTOR
-                
 "
 .
 download
@@ -7365,8 +7351,8 @@ state
 .
 downloadDetailsNormal
 "
-            
 )
+            
 )
         
 )
@@ -7391,6 +7377,8 @@ removed
 "
         
 assert
+(
+            
 os
 .
 path
@@ -7401,8 +7389,8 @@ download_file
 )
 is
 False
-(
-            
+        
+)
 "
 downloaded
 file
@@ -7411,8 +7399,6 @@ have
 been
 removed
 "
-        
-)
         
 download_button
 .
@@ -7440,12 +7426,11 @@ EC
 .
 visibility_of_element_located
 (
-(
                 
+(
 By
 .
 CSS_SELECTOR
-                
 "
 .
 download
@@ -7454,8 +7439,8 @@ state
 .
 downloadTarget
 "
-            
 )
+            
 )
         
 )
@@ -7496,12 +7481,11 @@ EC
 .
 visibility_of_element_located
 (
-(
                 
+(
 By
 .
 CSS_SELECTOR
-                
 "
 .
 download
@@ -7510,8 +7494,8 @@ state
 .
 downloadDetailsNormal
 "
-            
 )
+            
 )
         
 )

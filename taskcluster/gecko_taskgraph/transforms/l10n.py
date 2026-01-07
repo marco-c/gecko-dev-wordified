@@ -193,8 +193,9 @@ l10n_description_schema
 =
 Schema
 (
-{
     
+{
+        
 #
 Name
 for
@@ -207,7 +208,7 @@ dependent
 job
 before
 validation
-    
+        
 Required
 (
 "
@@ -216,7 +217,7 @@ name
 )
 :
 str
-    
+        
 #
 build
 -
@@ -227,7 +228,7 @@ dependent
 job
 before
 validation
-    
+        
 Required
 (
 "
@@ -238,7 +239,7 @@ platform
 )
 :
 str
-    
+        
 #
 max
 run
@@ -246,7 +247,7 @@ time
 of
 the
 task
-    
+        
 Required
 (
 "
@@ -260,14 +261,14 @@ _by_platform
 (
 int
 )
-    
+        
 #
 Locales
 not
 to
 repack
 for
-    
+        
 Required
 (
 "
@@ -283,14 +284,14 @@ _by_platform
 str
 ]
 )
-    
+        
 #
 All
 l10n
 jobs
 use
 mozharness
-    
+        
 Required
 (
 "
@@ -299,14 +300,14 @@ mozharness
 )
 :
 {
-        
+            
 #
 Script
 to
 invoke
 for
 mozharness
-        
+            
 Required
 (
 "
@@ -318,7 +319,7 @@ _by_platform
 (
 str
 )
-        
+            
 #
 Config
 files
@@ -327,7 +328,7 @@ to
 the
 mozharness
 script
-        
+            
 Required
 (
 "
@@ -341,7 +342,7 @@ _by_platform
 str
 ]
 )
-        
+            
 #
 Additional
 paths
@@ -355,7 +356,7 @@ in
 These
 should
 be
-        
+            
 #
 relative
 to
@@ -365,7 +366,7 @@ of
 the
 source
 checkout
-        
+            
 Optional
 (
 "
@@ -378,7 +379,7 @@ paths
 [
 str
 ]
-        
+            
 #
 Options
 to
@@ -387,7 +388,7 @@ to
 the
 mozharness
 script
-        
+            
 Optional
 (
 "
@@ -401,7 +402,7 @@ _by_platform
 str
 ]
 )
-        
+            
 #
 Action
 commands
@@ -410,7 +411,7 @@ provide
 to
 mozharness
 script
-        
+            
 Required
 (
 "
@@ -424,7 +425,7 @@ _by_platform
 str
 ]
 )
-        
+            
 #
 if
 true
@@ -440,11 +441,11 @@ based
 branch
 inside
 the
-        
+            
 #
 gecko
 checkout
-        
+            
 Optional
 (
 "
@@ -455,16 +456,16 @@ checkout
 )
 :
 bool
-    
+        
 }
-    
+        
 #
 Items
 for
 the
 taskcluster
 index
-    
+        
 Optional
 (
 "
@@ -473,7 +474,7 @@ index
 )
 :
 {
-        
+            
 #
 Product
 to
@@ -483,7 +484,7 @@ in
 the
 taskcluster
 index
-        
+            
 Required
 (
 "
@@ -495,7 +496,7 @@ _by_platform
 (
 str
 )
-        
+            
 #
 Job
 name
@@ -506,7 +507,7 @@ in
 the
 taskcluster
 index
-        
+            
 Required
 (
 "
@@ -520,12 +521,12 @@ _by_platform
 (
 str
 )
-        
+            
 #
 Type
 of
 index
-        
+            
 Optional
 (
 "
@@ -537,16 +538,16 @@ _by_platform
 (
 str
 )
-    
+        
 }
-    
+        
 #
 Description
 of
 the
 localized
 task
-    
+        
 Required
 (
 "
@@ -558,7 +559,7 @@ _by_platform
 (
 str
 )
-    
+        
 Optional
 (
 "
@@ -580,7 +581,7 @@ on
 projects
 "
 ]
-    
+        
 Optional
 (
 "
@@ -606,14 +607,14 @@ repo
 type
 "
 ]
-    
+        
 #
 worker
 -
 type
 to
 utilize
-    
+        
 Required
 (
 "
@@ -627,7 +628,7 @@ _by_platform
 (
 str
 )
-    
+        
 #
 File
 which
@@ -635,7 +636,7 @@ contains
 the
 used
 locales
-    
+        
 Required
 (
 "
@@ -649,7 +650,7 @@ _by_platform
 (
 str
 )
-    
+        
 #
 Tooltool
 visibility
@@ -657,7 +658,7 @@ required
 for
 task
 .
-    
+        
 Required
 (
 "
@@ -677,7 +678,7 @@ public
 "
 )
 )
-    
+        
 #
 Docker
 image
@@ -692,7 +693,7 @@ in
 -
 tree
 images
-    
+        
 #
 -
 -
@@ -709,7 +710,7 @@ build
 for
 now
 .
-    
+        
 Optional
 (
 "
@@ -721,7 +722,7 @@ image
 :
 _by_platform
 (
-        
+            
 #
 an
 in
@@ -740,7 +741,7 @@ docker
 name
 >
 )
-        
+            
 {
 "
 in
@@ -750,9 +751,9 @@ tree
 :
 str
 }
-    
+        
 )
-    
+        
 Optional
 (
 "
@@ -761,7 +762,7 @@ fetches
 )
 :
 {
-        
+            
 str
 :
 _by_platform
@@ -770,9 +771,9 @@ _by_platform
 str
 ]
 )
-    
+        
 }
-    
+        
 #
 The
 set
@@ -789,7 +790,7 @@ access
 these
 are
 prefixed
-    
+        
 #
 with
 project
@@ -812,7 +813,7 @@ level
 /
 .
 Setting
-    
+        
 #
 this
 will
@@ -828,7 +829,7 @@ task
 '
 s
 scopes
-    
+        
 #
 appropriately
 .
@@ -846,10 +847,10 @@ secrets
 Not
 supported
 on
-    
+        
 #
 Windows
-    
+        
 Optional
 (
 "
@@ -867,12 +868,12 @@ str
 ]
 )
 )
-    
+        
 #
 Information
 for
 treeherder
-    
+        
 Required
 (
 "
@@ -881,7 +882,7 @@ treeherder
 )
 :
 {
-        
+            
 #
 Platform
 to
@@ -891,7 +892,7 @@ task
 on
 in
 treeherder
-        
+            
 Required
 (
 "
@@ -903,12 +904,12 @@ _by_platform
 (
 str
 )
-        
+            
 #
 Symbol
 to
 use
-        
+            
 Required
 (
 "
@@ -917,13 +918,13 @@ symbol
 )
 :
 str
-        
+            
 #
 Tier
 this
 task
 is
-        
+            
 Required
 (
 "
@@ -935,9 +936,9 @@ _by_platform
 (
 int
 )
-    
+        
 }
-    
+        
 #
 Extra
 environment
@@ -947,7 +948,7 @@ pass
 to
 the
 worker
-    
+        
 Optional
 (
 "
@@ -963,14 +964,14 @@ str
 taskref_or_string
 }
 )
-    
+        
 #
 Max
 number
 locales
 per
 chunk
-    
+        
 Optional
 (
 "
@@ -986,7 +987,7 @@ _by_platform
 (
 int
 )
-    
+        
 #
 Task
 deps
@@ -1001,7 +1002,7 @@ transforms
 from
 primary
 dependency
-    
+        
 #
 if
 this
@@ -1011,7 +1012,7 @@ shippable
 -
 style
 build
-    
+        
 Optional
 (
 "
@@ -1024,7 +1025,7 @@ str
 :
 str
 }
-    
+        
 #
 Run
 the
@@ -1039,7 +1040,7 @@ if
 present
 )
 .
-    
+        
 Optional
 (
 "
@@ -1058,7 +1059,7 @@ changed
 str
 ]
 }
-    
+        
 #
 passed
 through
@@ -1067,7 +1068,7 @@ to
 the
 job
 description
-    
+        
 Optional
 (
 "
@@ -1081,7 +1082,7 @@ job_description_schema
 attributes
 "
 ]
-    
+        
 Optional
 (
 "
@@ -1095,13 +1096,13 @@ job_description_schema
 extra
 "
 ]
-    
+        
 #
 Shipping
 product
 and
 phase
-    
+        
 Optional
 (
 "
@@ -1119,7 +1120,7 @@ shipping
 product
 "
 ]
-    
+        
 Optional
 (
 "
@@ -1137,7 +1138,7 @@ shipping
 phase
 "
 ]
-    
+        
 Optional
 (
 "
@@ -1155,6 +1156,7 @@ task
 from
 "
 ]
+    
 }
 )
 transforms
@@ -2402,8 +2404,9 @@ options
 .
 extend
 (
-[
                     
+[
+                        
 f
 "
 locale
@@ -2416,14 +2419,15 @@ locale
 changeset
 }
 "
-                    
+                        
 for
 locale
 changeset
 in
 chunked_locales
-                
+                    
 ]
+                
 )
                 
 chunked
@@ -2558,8 +2562,9 @@ options
 .
 extend
 (
-[
                 
+[
+                    
 f
 "
 locale
@@ -2572,7 +2577,7 @@ locale
 changeset
 }
 "
-                
+                    
 for
 locale
 changeset
@@ -2585,8 +2590,9 @@ items
 (
 )
 )
-            
+                
 ]
+            
 )
             
 yield
@@ -2805,8 +2811,9 @@ mozharness
 .
 update
 (
-{
             
+{
+                
 "
 using
 "
@@ -2814,7 +2821,7 @@ using
 "
 mozharness
 "
-            
+                
 "
 job
 -
@@ -2834,7 +2841,7 @@ l10n
 .
 sh
 "
-            
+                
 "
 secrets
 "
@@ -2848,8 +2855,9 @@ secrets
 "
 False
 )
-        
+            
 }
+        
 )
         
 job_description
@@ -3688,14 +3696,15 @@ artifacts
 .
 append
 (
-{
                     
+{
+                        
 "
 name
 "
 :
 path
-                    
+                        
 "
 path
 "
@@ -3706,7 +3715,7 @@ artifact
 path
 "
 ]
-                    
+                        
 "
 type
 "
@@ -3714,8 +3723,9 @@ type
 "
 file
 "
-                
+                    
 }
+                
 )
         
 yield

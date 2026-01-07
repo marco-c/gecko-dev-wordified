@@ -1116,10 +1116,10 @@ schema
 or
 is_json
 (
-schema
-)
-(
             
+schema
+        
+)
 "
 schema
 must
@@ -1129,8 +1129,6 @@ JSON
 compatible
 object
 "
-        
-)
         
 assert
 isinstance
@@ -1208,12 +1206,12 @@ assert
 not
 mem
 [
+            
 "
 registered
 "
+        
 ]
-(
-            
 "
 register_callback_action
 must
@@ -1222,8 +1220,6 @@ used
 as
 decorator
 "
-        
-)
         
 assert
 cb_name
@@ -1696,8 +1692,9 @@ rv
 .
 update
 (
-{
                 
+{
+                    
 "
 kind
 "
@@ -1705,7 +1702,7 @@ kind
 "
 hook
 "
-                
+                    
 "
 hookGroupId
 "
@@ -1718,7 +1715,7 @@ project
 trustDomain
 }
 "
-                
+                    
 "
 hookId
 "
@@ -1743,13 +1740,13 @@ permission
 tcyml_hash
 }
 "
-                
+                    
 "
 hookPayload
 "
 :
 {
-                    
+                        
 #
 provide
 the
@@ -1761,33 +1758,33 @@ as
 context
 for
 triggerHook
-                    
+                        
 "
 decision
 "
 :
 {
-                        
+                            
 "
 action
 "
 :
 action
-                        
+                            
 "
 repository
 "
 :
 repository
-                        
+                            
 "
 push
 "
 :
 push
-                    
+                        
 }
-                    
+                        
 #
 and
 pass
@@ -1798,13 +1795,13 @@ from
 our
 own
 context
-                    
+                        
 "
 user
 "
 :
 {
-                        
+                            
 "
 input
 "
@@ -1818,7 +1815,7 @@ eval
 input
 "
 }
-                        
+                            
 "
 taskId
 "
@@ -1839,12 +1836,13 @@ taskId
 or
 null
 )
-                        
+                            
 "
 taskGroupId
 "
 :
 {
+                                
 "
 eval
 "
@@ -1852,31 +1850,33 @@ eval
 "
 taskGroupId
 "
+                            
 }
 #
 target
 task
 group
+                        
+}
                     
 }
-                
-}
-                
+                    
 "
 extra
 "
 :
 {
-                    
+                        
 "
 actionPerm
 "
 :
 permission
+                    
+}
                 
 }
             
-}
 )
             
 return

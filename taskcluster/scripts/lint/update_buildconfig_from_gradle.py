@@ -251,8 +251,8 @@ cmd
 .
 extend
 (
-[
         
+[
 f
 "
 {
@@ -268,8 +268,8 @@ sorted
 (
 gradle_projects
 )
-    
 ]
+    
 )
     
 #

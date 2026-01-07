@@ -4800,13 +4800,11 @@ for
 server
 .
         
-(
-            
 self
 .
 add_argument
 (
-                
+            
 "
 -
 -
@@ -4814,27 +4812,27 @@ certificate
 -
 path
 "
-                
+            
 action
 =
 "
 store
 "
-                
+            
 type
 =
 str
-                
+            
 dest
 =
 "
 certPath
 "
-                
+            
 default
 =
 None
-                
+            
 help
 =
 "
@@ -4846,8 +4844,6 @@ certificate
 store
 .
 "
-            
-)
         
 )
         

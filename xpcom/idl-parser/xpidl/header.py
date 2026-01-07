@@ -4069,14 +4069,15 @@ names
 .
 update
 (
-{
         
+{
+            
 "
 defname
 "
 :
 defname
-        
+            
 "
 macroname
 "
@@ -4088,7 +4089,7 @@ name
 upper
 (
 )
-        
+            
 "
 name
 "
@@ -4096,7 +4097,7 @@ name
 iface
 .
 name
-        
+            
 "
 iid
 "
@@ -4106,14 +4107,15 @@ iface
 attributes
 .
 uuid
-        
+            
 "
 implclass
 "
 :
 implclass
-    
+        
 }
+    
 )
     
 fd

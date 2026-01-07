@@ -256,8 +256,8 @@ source
 return
 MockedOpen
 (
-{
             
+{
 os
 .
 path
@@ -278,8 +278,8 @@ dedent
 (
 source
 )
-        
 }
+        
 )
     
 def
@@ -2591,8 +2591,8 @@ self
 .
 get_config
 (
-[
                 
+[
 "
 -
 -
@@ -2602,7 +2602,6 @@ values
 =
 alpha
 "
-                
 "
 -
 -
@@ -2615,8 +2614,8 @@ s
 "
 %
 val
-            
 ]
+            
 )
             
 self
@@ -2669,8 +2668,8 @@ self
 .
 get_config
 (
-[
                 
+[
 "
 -
 -
@@ -2680,7 +2679,6 @@ values
 =
 numeric
 "
-                
 "
 -
 -
@@ -2693,8 +2691,8 @@ s
 "
 %
 val
-            
 ]
+            
 )
             
 self
@@ -11036,6 +11034,8 @@ the
 same
 when
 as
+"
+"
 options
 it
 depends
@@ -11175,6 +11175,8 @@ the
 same
 when
 as
+"
+"
 options
 it
 depends
@@ -12042,8 +12044,9 @@ self
 with
 MockedOpen
 (
-{
             
+{
+                
 os
 .
 path
@@ -12062,7 +12065,7 @@ textwrap
 .
 dedent
 (
-                
+                    
 "
 "
 "
@@ -12152,9 +12155,9 @@ qux
 "
 "
 "
-            
+                
 )
-            
+                
 os
 .
 path
@@ -12173,7 +12176,7 @@ textwrap
 .
 dedent
 (
-                
+                    
 "
 "
 "
@@ -12224,9 +12227,9 @@ bar
 "
 "
 "
-            
+                
 )
-            
+                
 os
 .
 path
@@ -12245,7 +12248,7 @@ textwrap
 .
 dedent
 (
-                
+                    
 "
 "
 "
@@ -12296,9 +12299,9 @@ qux
 "
 "
 "
-            
+                
 )
-            
+                
 os
 .
 path
@@ -12317,7 +12320,7 @@ textwrap
 .
 dedent
 (
-                
+                    
 "
 "
 "
@@ -12393,9 +12396,9 @@ really
 "
 "
 "
-            
+                
 )
-            
+                
 os
 .
 path
@@ -12414,7 +12417,7 @@ textwrap
 .
 dedent
 (
-                
+                    
 "
 "
 "
@@ -12430,10 +12433,11 @@ True
 "
 "
 "
-            
+                
 )
-        
+            
 }
+        
 )
 :
             
@@ -12741,6 +12745,8 @@ a
 depends
 nor
 a
+"
+"
 template
 "
             
@@ -12911,6 +12917,8 @@ Maybe
 it
 '
 s
+"
+"
 declared
 too
 late
@@ -13070,6 +13078,8 @@ int
 '
 as
 argument
+"
+"
 to
 depends
 "
@@ -14909,6 +14919,8 @@ the
 same
 when
 as
+"
+"
 options
 it
 depends
@@ -15884,8 +15896,8 @@ self
 .
 get_config
 (
-[
                             
+[
 x
 for
 x
@@ -15897,8 +15909,8 @@ baz_opt
 )
 if
 x
-                        
 ]
+                        
 )
                         
 self

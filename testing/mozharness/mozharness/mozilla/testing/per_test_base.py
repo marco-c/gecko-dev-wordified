@@ -3024,8 +3024,8 @@ mozinfo
 .
 update
 (
-{
                 
+{
 "
 android_version
 "
@@ -3044,23 +3044,24 @@ android_version
 34
 )
 )
-            
 }
+            
 )
             
 mozinfo
 .
 update
 (
-{
                 
+{
+                    
 "
 os_version
 "
 :
 android_api_to_os_version
 (
-                    
+                        
 self
 .
 config
@@ -3072,10 +3073,11 @@ android_version
 "
 34
 )
-                
+                    
 )
-            
+                
 }
+            
 )
             
 mozinfo
@@ -3131,8 +3133,9 @@ mozinfo
 .
 update
 (
-{
             
+{
+                
 "
 fission
 "
@@ -3144,7 +3147,7 @@ autostart
 =
 false
 "
-            
+                
 not
 in
 self
@@ -3159,62 +3162,64 @@ extra_prefs
 [
 ]
 )
-        
-}
-)
-        
-mozinfo
-.
-update
-(
-{
-"
-headless
-"
-:
-self
-.
-config
-.
-get
-(
-"
-headless
-"
-False
-)
-}
-)
-        
-mozinfo
-.
-update
-(
-{
-"
-a11y_checks
-"
-:
-self
-.
-config
-.
-get
-(
-"
-a11y_checks
-"
-False
-)
-}
-)
-        
-mozinfo
-.
-update
-(
-{
             
+}
+        
+)
+        
+mozinfo
+.
+update
+(
+{
+"
+headless
+"
+:
+self
+.
+config
+.
+get
+(
+"
+headless
+"
+False
+)
+}
+)
+        
+mozinfo
+.
+update
+(
+{
+"
+a11y_checks
+"
+:
+self
+.
+config
+.
+get
+(
+"
+a11y_checks
+"
+False
+)
+}
+)
+        
+mozinfo
+.
+update
+(
+            
+{
+                
 "
 socketprocess_e10s
 "
@@ -3228,7 +3233,7 @@ mtransport_process
 =
 true
 "
-            
+                
 in
 self
 .
@@ -3242,16 +3247,18 @@ extra_prefs
 [
 ]
 )
-        
+            
 }
+        
 )
         
 mozinfo
 .
 update
 (
-{
             
+{
+                
 "
 socketprocess_networking
 "
@@ -3267,7 +3274,7 @@ enabled
 =
 true
 "
-            
+                
 in
 self
 .
@@ -3281,16 +3288,18 @@ extra_prefs
 [
 ]
 )
-        
+            
 }
+        
 )
         
 mozinfo
 .
 update
 (
-{
             
+{
+                
 "
 swgl
 "
@@ -3304,6 +3313,7 @@ software
 =
 true
 "
+                
 in
 self
 .
@@ -3317,16 +3327,17 @@ extra_prefs
 [
 ]
 )
-        
+            
 }
+        
 )
         
 mozinfo
 .
 update
 (
-{
             
+{
 "
 wmfme
 "
@@ -3351,16 +3362,17 @@ test_tags
 [
 ]
 )
-        
 }
+        
 )
         
 mozinfo
 .
 update
 (
-{
             
+{
+                
 "
 emewmf
 "
@@ -3378,7 +3390,7 @@ enabled
 =
 2
 "
-            
+                
 in
 self
 .
@@ -3392,8 +3404,9 @@ extra_prefs
 [
 ]
 )
-        
+            
 }
+        
 )
         
 mozinfo
@@ -3430,8 +3443,9 @@ mozinfo
 .
 update
 (
-{
             
+{
+                
 "
 nogpu
 "
@@ -3447,7 +3461,7 @@ enabled
 =
 false
 "
-            
+                
 in
 self
 .
@@ -3461,8 +3475,9 @@ extra_prefs
 [
 ]
 )
-        
+            
 }
+        
 )
         
 mozinfo
@@ -3497,8 +3512,8 @@ mozinfo
 .
 update
 (
-{
             
+{
 "
 vertical_tab
 "
@@ -3521,16 +3536,16 @@ test_tags
 [
 ]
 )
-        
 }
+        
 )
         
 mozinfo
 .
 update
 (
-{
             
+{
 "
 inc_origin_init
 "
@@ -3555,16 +3570,16 @@ test_tags
 [
 ]
 )
-        
 }
+        
 )
         
 mozinfo
 .
 update
 (
-{
             
+{
 "
 privateBrowsing
 "
@@ -3585,16 +3600,17 @@ test_tags
 [
 ]
 )
-        
 }
+        
 )
         
 mozinfo
 .
 update
 (
-{
             
+{
+                
 "
 sessionHistoryInParent
 "
@@ -3606,7 +3622,7 @@ disableSessionHistoryInParent
 =
 true
 "
-            
+                
 in
 self
 .
@@ -3620,8 +3636,9 @@ extra_prefs
 [
 ]
 )
-        
+            
 }
+        
 )
         
 mozinfo

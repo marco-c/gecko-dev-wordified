@@ -89,8 +89,9 @@ marionette
 .
 enforce_gecko_prefs
 (
-{
             
+{
+                
 "
 browser
 .
@@ -100,8 +101,9 @@ log
 "
 :
 True
-        
+            
 }
+        
 )
     
 def

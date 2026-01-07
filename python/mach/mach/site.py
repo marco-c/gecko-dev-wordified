@@ -2198,12 +2198,14 @@ optional
 .
         
 assert
+(
+            
 not
 requirements
 .
 pypi_requirements
-(
-            
+        
+)
 "
 Mach
 pip
@@ -2214,8 +2216,6 @@ be
 optional
 .
 "
-        
-)
         
 #
 external_python
@@ -4152,9 +4152,11 @@ from_runtime
 )
         
 assert
-active_metadata
 (
             
+active_metadata
+        
+)
 "
 A
 Mach
@@ -4171,8 +4173,6 @@ with
 command
 sites
 "
-        
-)
         
 mach_site_packages_source
 =
@@ -7811,8 +7811,9 @@ n
 .
 join
 (
-[
                             
+[
+                                
 f
 "
 {
@@ -7824,7 +7825,7 @@ name
 version
 }
 "
-                            
+                                
 for
 name
 version
@@ -7834,8 +7835,9 @@ existing_packages
 items
 (
 )
-                        
+                            
 ]
+                        
 )
                     
 )
@@ -11727,18 +11729,16 @@ target_venv
 .
 pip_install
 (
-[
                 
+[
 "
 -
 -
 requirement
 "
-                
 requirements_txt_file
 .
 path
-                
 "
 -
 -
@@ -11746,8 +11746,8 @@ require
 -
 hashes
 "
-            
 ]
+            
 )
         
 if

@@ -1261,27 +1261,28 @@ subprocess
 .
 check_call
 (
-[
                     
+[
+                        
 cmd
 .
 virtualenv_manager
 .
 python_path
-                    
+                        
 "
 -
 m
 "
-                    
+                        
 "
 pip
 "
-                    
+                        
 "
 install
 "
-                    
+                        
 f
 "
 {
@@ -1295,8 +1296,9 @@ pypi_name
 release
 }
 "
-                
+                    
 ]
+                
 )
                 
 print

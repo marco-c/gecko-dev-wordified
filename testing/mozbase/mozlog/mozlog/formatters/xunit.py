@@ -855,8 +855,9 @@ attrib
 .
 update
 (
-{
             
+{
+                
 "
 tests
 "
@@ -867,7 +868,7 @@ self
 .
 tests_run
 )
-            
+                
 "
 errors
 "
@@ -878,7 +879,7 @@ self
 .
 errors
 )
-            
+                
 "
 failures
 "
@@ -889,7 +890,7 @@ self
 .
 failures
 )
-            
+                
 "
 skips
 "
@@ -900,7 +901,7 @@ self
 .
 skips
 )
-            
+                
 "
 time
 "
@@ -929,8 +930,9 @@ suite_start_time
 .
 0
 )
-        
+            
 }
+        
 )
         
 xml_string

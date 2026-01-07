@@ -1282,8 +1282,9 @@ json
 .
 dumps
 (
-{
             
+{
+                
 "
 Cargo
 .
@@ -1291,9 +1292,9 @@ lock
 "
 :
 [
-                
-{
                     
+{
+                        
 "
 path
 "
@@ -1303,19 +1304,19 @@ Cargo
 .
 lock
 "
-                    
+                        
 "
 column
 "
 :
 None
-                    
+                        
 "
 line
 "
 :
 None
-                    
+                        
 "
 level
 "
@@ -1334,15 +1335,15 @@ else
 "
 warning
 "
-                    
+                        
 "
 message
 "
 :
 msg
-                
+                    
 }
-                
+                    
 for
 (
 level
@@ -1352,10 +1353,11 @@ in
 self
 .
 _issues
-            
+                
 ]
-        
+            
 }
+        
 )
     
 def
@@ -2039,6 +2041,7 @@ modified
 .
 format
 (
+                    
 files
 =
 "
@@ -2053,6 +2056,7 @@ sorted
 modified
 )
 )
+                
 )
             
 )
@@ -5270,15 +5274,16 @@ num
 =
 len
 (
+                    
 [
-                    
+                        
 p
-                    
+                        
 for
 p
 in
 packages
-                    
+                        
 if
 all
 (
@@ -5307,8 +5312,9 @@ dependencies
 ]
 )
 )
-                
+                    
 ]
+                
 )
                 
 if
@@ -5412,8 +5418,9 @@ pathsep
 .
 join
 (
-(
             
+(
+                
 str
 (
 Path
@@ -5423,7 +5430,7 @@ cargo
 .
 parent
 )
-            
+                
 os
 .
 environ
@@ -5432,8 +5439,9 @@ environ
 PATH
 "
 ]
-        
+            
 )
+        
 )
         
 flags

@@ -662,6 +662,8 @@ config
 data
 for
 xulRuntime
+"
+"
 (
 avoids
 search
@@ -738,6 +740,8 @@ to
 run
 in
 parallel
+"
+"
 (
 default
 %
@@ -788,6 +792,8 @@ is
 allows
 to
 run
+"
+"
 (
 in
 seconds
@@ -827,6 +833,8 @@ than
 a
 minimum
 time
+"
+"
 (
 in
 seconds
@@ -1076,6 +1084,8 @@ in
 all
 configurations
 tbpl
+"
+"
 tests
 .
 "
@@ -1111,6 +1121,8 @@ in
 some
 faster
 configurations
+"
+"
 tbpl
 tests
 .
@@ -1239,6 +1251,8 @@ stdin
 stdout
 attached
 to
+"
+"
 caller
 .
 "
@@ -1636,6 +1650,8 @@ use
 as
 test
 root
+"
+"
 (
 e
 .
@@ -1690,6 +1706,8 @@ push
 -
 -
 preferably
+"
+"
 stripped
 "
     
@@ -2184,6 +2202,8 @@ to
 the
 ECMAScript
 5
+"
+"
 standard
 .
 "
@@ -2319,6 +2339,8 @@ the
 file
 given
 by
+"
+"
 -
 -
 output
@@ -2368,6 +2390,8 @@ is
 given
 only
 print
+"
+"
 output
 for
 failed
@@ -2409,6 +2433,8 @@ output
 for
 failed
 tests
+"
+"
 (
 no
 -
@@ -2453,6 +2479,8 @@ to
 the
 given
 file
+"
+"
 (
 default
 :
@@ -2619,6 +2647,8 @@ Either
 automation
 or
 none
+"
+"
 (
 default
 %
@@ -3269,8 +3299,8 @@ requested_paths
 =
 set
 (
-[
                 
+[
 line
 .
 strip
@@ -3287,8 +3317,8 @@ test_file
 readlines
 (
 )
-            
 ]
+            
 )
     
 excluded_paths
@@ -4044,8 +4074,9 @@ kwargs
 .
 update
 (
-{
         
+{
+            
 "
 config
 "
@@ -4056,7 +4087,7 @@ path
 .
 join
 (
-            
+                
 manifest_root
 "
 _tests
@@ -4073,15 +4104,15 @@ local
 .
 ini
 "
-        
+            
 )
-        
+            
 "
 gecko_e10s
 "
 :
 False
-        
+            
 "
 product
 "
@@ -4089,13 +4120,13 @@ product
 "
 firefox
 "
-        
+            
 "
 verify
 "
 :
 False
-        
+            
 "
 wasm
 "
@@ -4110,8 +4141,9 @@ wasmIsSupported
 )
 "
 )
-    
+        
 }
+    
 )
     
 wptcommandline
@@ -5729,6 +5761,9 @@ match
 command
 line
 arguments
+"
+                
+"
 debugger
 can
 only
@@ -5760,25 +5795,21 @@ return
 2
         
 with
-(
-            
 changedir
 (
 test_dir
 )
-            
 change_env
 (
-test_environment
-)
             
+test_environment
+        
+)
 TemporaryDirectory
 (
 )
 as
 tempdir
-        
-)
 :
             
 cmd
@@ -6115,25 +6146,21 @@ else
 1
     
 with
-(
-        
 changedir
 (
 test_dir
 )
-        
 change_env
 (
-test_environment
-)
         
+test_environment
+    
+)
 TemporaryDirectory
 (
 )
 as
 tempdir
-    
-)
 :
         
 results

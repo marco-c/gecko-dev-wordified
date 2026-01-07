@@ -3497,14 +3497,16 @@ test_suite
 return
         
 assert
+(
+            
 self
 .
 installer_path
 is
 not
 None
-(
-            
+        
+)
 "
 Either
 add
@@ -3521,8 +3523,6 @@ installer
 path
 .
 "
-        
-)
         
 self
 .

@@ -181,8 +181,9 @@ common_schema
 =
 Schema
 (
-{
     
+{
+        
 #
 URL
 /
@@ -199,7 +200,7 @@ either
 be
 a
 source
-    
+        
 #
 control
 (
@@ -210,7 +211,7 @@ or
 a
 tarball
 .
-    
+        
 Required
 (
 Any
@@ -225,7 +226,7 @@ tarball
 )
 :
 source_definition
-    
+        
 #
 Package
 name
@@ -239,7 +240,7 @@ control
 or
 tarball
 file
-    
+        
 #
 name
 .
@@ -254,11 +255,11 @@ t
 match
 DSC_PACKAGE_RE
 or
-    
+        
 #
 SOURCE_PACKAGE_RE
 .
-    
+        
 Optional
 (
 "
@@ -267,7 +268,7 @@ name
 )
 :
 str
-    
+        
 #
 Patch
 to
@@ -277,7 +278,7 @@ the
 extracted
 source
 .
-    
+        
 Optional
 (
 "
@@ -286,7 +287,7 @@ patch
 )
 :
 str
-    
+        
 #
 Command
 to
@@ -296,7 +297,7 @@ dpkg
 -
 buildpackage
 .
-    
+        
 Optional
 (
 "
@@ -309,7 +310,7 @@ command
 )
 :
 str
-    
+        
 #
 Architecture
 to
@@ -318,7 +319,7 @@ the
 package
 for
 .
-    
+        
 Optional
 (
 "
@@ -327,7 +328,7 @@ arch
 )
 :
 str
-    
+        
 #
 List
 of
@@ -339,7 +340,7 @@ build
 dependencies
 from
 .
-    
+        
 Optional
 (
 "
@@ -350,7 +351,7 @@ packages
 [
 str
 ]
-    
+        
 #
 What
 resolver
@@ -363,7 +364,7 @@ dependencies
 .
 The
 default
-    
+        
 #
 (
 apt
@@ -380,7 +381,7 @@ in
 subtle
 cases
 involving
-    
+        
 #
 a
 *
@@ -396,7 +397,7 @@ able
 to
 find
 a
-    
+        
 #
 solution
 that
@@ -405,7 +406,7 @@ the
 build
 dependencies
 .
-    
+        
 Optional
 (
 "
@@ -424,7 +425,7 @@ get
 aptitude
 "
 )
-    
+        
 #
 Base
 work
@@ -436,7 +437,7 @@ up
 the
 task
 .
-    
+        
 Required
 (
 "
@@ -445,6 +446,7 @@ workdir
 )
 :
 str
+    
 }
 )
 debian_schema
@@ -453,8 +455,9 @@ common_schema
 .
 extend
 (
-{
     
+{
+        
 Required
 (
 "
@@ -467,11 +470,11 @@ debian
 -
 package
 "
-    
+        
 #
 Debian
 distribution
-    
+        
 Required
 (
 "
@@ -480,6 +483,7 @@ dist
 )
 :
 str
+    
 }
 )
 ubuntu_schema
@@ -488,8 +492,9 @@ common_schema
 .
 extend
 (
-{
     
+{
+        
 Required
 (
 "
@@ -502,11 +507,11 @@ ubuntu
 -
 package
 "
-    
+        
 #
 Ubuntu
 distribution
-    
+        
 Required
 (
 "
@@ -515,6 +520,7 @@ dist
 )
 :
 str
+    
 }
 )
 def
@@ -779,6 +785,9 @@ package
 }
 &
 &
+"
+            
+"
 tar
 -
 C
@@ -1403,7 +1412,6 @@ upgrade
 &
 &
 "
-        
 "
 cd
 /

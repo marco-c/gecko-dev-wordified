@@ -1436,10 +1436,10 @@ packages
 .
 issubset
 (
-mozbase_packages
-)
-(
         
+mozbase_packages
+    
+)
 "
 Packages
 should
@@ -1459,8 +1459,6 @@ s
 (
 mozbase_packages
 packages
-)
-    
 )
     
 if

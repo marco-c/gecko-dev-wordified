@@ -365,8 +365,9 @@ marionette
 .
 enforce_gecko_prefs
 (
-{
             
+{
+                
 "
 telemetry
 .
@@ -382,7 +383,7 @@ self
 fog_ping_server
 .
 port
-            
+                
 #
 Enable
 FOG
@@ -395,7 +396,7 @@ Verbose
 "
 .
 See
-            
+                
 #
 https
 :
@@ -416,12 +417,12 @@ xpcom
 logging
 .
 html
-            
+                
 #
 for
 details
 .
-            
+                
 "
 logging
 .
@@ -431,7 +432,7 @@ clear_on_startup
 "
 :
 False
-            
+                
 "
 logging
 .
@@ -441,7 +442,7 @@ sync
 "
 :
 True
-            
+                
 "
 logging
 .
@@ -452,7 +453,7 @@ fog
 "
 :
 5
-            
+                
 "
 logging
 .
@@ -463,7 +464,7 @@ fog_control
 "
 :
 5
-            
+                
 "
 logging
 .
@@ -474,7 +475,7 @@ glean
 "
 :
 5
-            
+                
 "
 logging
 .
@@ -485,7 +486,7 @@ glean_core
 "
 :
 5
-            
+                
 #
 Slow
 down
@@ -497,7 +498,7 @@ timeout
 bug
 1690728
 )
-            
+                
 "
 dom
 .
@@ -507,8 +508,9 @@ user_interaction_interval
 "
 :
 60000
-        
+            
 }
+        
 )
     
 def

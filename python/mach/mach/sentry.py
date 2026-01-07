@@ -1754,8 +1754,8 @@ _is_unmodified_mach_core_result
 not
 any
 (
-[
             
+[
 file
 for
 file
@@ -1778,8 +1778,8 @@ endswith
 py
 "
 )
-        
 ]
+        
 )
     
 except

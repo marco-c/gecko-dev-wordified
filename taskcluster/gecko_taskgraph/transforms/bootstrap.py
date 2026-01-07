@@ -92,8 +92,9 @@ bootstrap_schema
 =
 Schema
 (
-{
     
+{
+        
 #
 Name
 of
@@ -101,7 +102,7 @@ the
 bootstrap
 task
 .
-    
+        
 Required
 (
 "
@@ -110,7 +111,7 @@ name
 )
 :
 str
-    
+        
 #
 Name
 of
@@ -129,7 +130,7 @@ for
 mac
 and
 windows
-    
+        
 #
 but
 we
@@ -144,13 +145,13 @@ enough
 for
 such
 testing
-    
+        
 #
 to
 be
 satisfactory
 .
-    
+        
 Required
 (
 "
@@ -171,12 +172,12 @@ tree
 str
 }
 )
-    
+        
 #
 Initialization
 commands
 .
-    
+        
 Required
 (
 "
@@ -189,7 +190,7 @@ commands
 [
 str
 ]
-    
+        
 #
 relative
 path
@@ -206,7 +207,7 @@ task
 was
 defined
 in
-    
+        
 Optional
 (
 "
@@ -217,7 +218,7 @@ from
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -243,6 +244,7 @@ repo
 type
 "
 ]
+    
 }
 )
 transforms

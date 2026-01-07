@@ -456,12 +456,14 @@ deleted
 .
 format
 (
+                    
 job
 [
 "
 name
 "
 ]
+                
 )
             
 )
@@ -586,13 +588,14 @@ entries
 .
 update
 (
-{
                 
+{
+                    
 bouncer_alias
 .
 replace
 (
-                    
+                        
 "
 PARTNER
 "
@@ -606,24 +609,24 @@ partner
 sub_config_name
 }
 "
-                
+                    
 )
 :
 craft_partner_bouncer_product_name
 (
-                    
+                        
 product
-                    
+                        
 bouncer_product
-                    
+                        
 current_version
-                    
+                        
 partner
-                    
+                        
 sub_config_name
-                
+                    
 )
-                
+                    
 for
 bouncer_alias
 bouncer_product
@@ -637,8 +640,9 @@ items
 NOQA
 :
 E501
-            
+                
 }
+            
 )
     
 return

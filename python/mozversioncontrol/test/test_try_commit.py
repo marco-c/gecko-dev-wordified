@@ -181,14 +181,16 @@ extension
 )
     
 assert
+(
+        
 vcs
 .
 head_ref
 =
 =
 initial_head_ref
-(
-        
+    
+)
 "
 We
 should
@@ -200,8 +202,6 @@ head
 after
 try_commit
 "
-    
-)
     
 #
 Create
@@ -236,14 +236,16 @@ head
 ]
     
 assert
+(
+        
 vcs
 .
 head_ref
 =
 =
 initial_head_ref
-(
-        
+    
+)
 "
 We
 should
@@ -255,8 +257,6 @@ head
 after
 try_commit
 "
-    
-)
 if
 __name__
 =

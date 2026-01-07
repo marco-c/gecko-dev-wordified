@@ -132,8 +132,9 @@ marionette
 .
 enforce_gecko_prefs
 (
-{
             
+{
+                
 "
 browser
 .
@@ -145,7 +146,7 @@ category
 "
 strict
 "
-            
+                
 "
 privacy
 .
@@ -159,7 +160,7 @@ enabled
 "
 :
 False
-            
+                
 "
 privacy
 .
@@ -173,7 +174,7 @@ enabled
 "
 :
 False
-            
+                
 "
 privacy
 .
@@ -185,8 +186,9 @@ hasMigratedCategoryPrefs
 "
 :
 True
-        
+            
 }
+        
 )
         
 self

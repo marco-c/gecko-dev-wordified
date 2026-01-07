@@ -1167,6 +1167,7 @@ TOKENHERE
 .
 replace
 (
+    
 "
 TOKENHERE
 "

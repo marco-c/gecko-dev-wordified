@@ -136,8 +136,9 @@ diff_description_schema
 =
 Schema
 (
-{
     
+{
+        
 #
 Name
 of
@@ -145,7 +146,7 @@ the
 diff
 task
 .
-    
+        
 Required
 (
 "
@@ -154,12 +155,12 @@ name
 )
 :
 str
-    
+        
 #
 Treeherder
 tier
 .
-    
+        
 Required
 (
 "
@@ -168,12 +169,12 @@ tier
 )
 :
 int
-    
+        
 #
 Treeherder
 symbol
 .
-    
+        
 Required
 (
 "
@@ -182,7 +183,7 @@ symbol
 )
 :
 str
-    
+        
 #
 relative
 path
@@ -201,7 +202,7 @@ was
 defined
 in
 .
-    
+        
 Optional
 (
 "
@@ -212,7 +213,7 @@ from
 )
 :
 str
-    
+        
 #
 Original
 and
@@ -221,7 +222,7 @@ builds
 to
 compare
 .
-    
+        
 Required
 (
 "
@@ -230,7 +231,7 @@ original
 )
 :
 index_or_string
-    
+        
 Required
 (
 "
@@ -239,7 +240,7 @@ new
 )
 :
 index_or_string
-    
+        
 #
 Arguments
 to
@@ -252,7 +253,7 @@ task
 -
 defaults
 in
-    
+        
 #
 taskcluster
 /
@@ -263,7 +264,7 @@ diffoscope
 kind
 .
 yml
-    
+        
 Optional
 (
 "
@@ -272,7 +273,7 @@ args
 )
 :
 str
-    
+        
 #
 Extra
 arguments
@@ -287,7 +288,7 @@ set
 per
 job
 .
-    
+        
 Optional
 (
 "
@@ -298,7 +299,7 @@ args
 )
 :
 str
-    
+        
 #
 Fail
 the
@@ -308,7 +309,7 @@ differences
 are
 detected
 .
-    
+        
 Optional
 (
 "
@@ -321,7 +322,7 @@ diff
 )
 :
 bool
-    
+        
 #
 What
 artifact
@@ -338,7 +339,7 @@ target
 tar
 .
 xz
-    
+        
 #
 for
 Linux
@@ -356,11 +357,11 @@ target
 .
 apk
 for
-    
+        
 #
 Android
 .
-    
+        
 Optional
 (
 "
@@ -369,7 +370,7 @@ artifact
 )
 :
 str
-    
+        
 #
 Whether
 to
@@ -382,7 +383,7 @@ normally
 work
 without
 unpacking
-    
+        
 #
 but
 when
@@ -401,7 +402,7 @@ t
 work
 out
 well
-    
+        
 #
 if
 said
@@ -419,7 +420,7 @@ omni
 ja
 )
 .
-    
+        
 Optional
 (
 "
@@ -428,7 +429,7 @@ unpack
 )
 :
 bool
-    
+        
 #
 Commands
 to
@@ -438,7 +439,7 @@ performing
 the
 diff
 .
-    
+        
 Optional
 (
 "
@@ -453,7 +454,7 @@ commands
 [
 str
 ]
-    
+        
 #
 Only
 run
@@ -467,7 +468,7 @@ projects
 /
 branches
 .
-    
+        
 Optional
 (
 "
@@ -489,7 +490,7 @@ on
 projects
 "
 ]
-    
+        
 Optional
 (
 "
@@ -515,7 +516,7 @@ repo
 type
 "
 ]
-    
+        
 Optional
 (
 "
@@ -529,6 +530,7 @@ task_description_schema
 optimization
 "
 ]
+    
 }
 )
 transforms
@@ -1427,8 +1429,9 @@ toolchain
 .
 extend
 (
-[
                 
+[
+                    
 "
 linux64
 -
@@ -1436,14 +1439,15 @@ cctools
 -
 port
 "
-                
+                    
 "
 linux64
 -
 libdmg
 "
-            
+                
 ]
+            
 )
         
 yield

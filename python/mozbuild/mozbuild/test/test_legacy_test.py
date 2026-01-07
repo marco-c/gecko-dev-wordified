@@ -169,6 +169,8 @@ allowlist
 continue
         
 assert
+(
+            
 b
 "
 LegacyTest
@@ -181,8 +183,8 @@ fd
 read
 (
 )
-(
-            
+        
+)
 f
 "
 LegacyTest
@@ -200,8 +202,6 @@ test
 kind
 .
 "
-        
-)
 if
 __name__
 =

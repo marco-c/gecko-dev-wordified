@@ -204,8 +204,9 @@ VALID_TYPES
 .
 update
 (
+    
 {
-    
+        
 "
 int32_t
 "
@@ -213,7 +214,7 @@ int32_t
 "
 int32_t
 "
-    
+        
 "
 uint32_t
 "
@@ -221,7 +222,7 @@ uint32_t
 "
 uint32_t
 "
-    
+        
 "
 float
 "
@@ -229,7 +230,7 @@ float
 "
 float
 "
-    
+        
 #
 These
 ones
@@ -240,7 +241,7 @@ StaticPrefsBase
 .
 h
 .
-    
+        
 "
 RelaxedAtomicInt32
 "
@@ -248,7 +249,7 @@ RelaxedAtomicInt32
 "
 int32_t
 "
-    
+        
 "
 RelaxedAtomicUint32
 "
@@ -256,7 +257,7 @@ RelaxedAtomicUint32
 "
 uint32_t
 "
-    
+        
 "
 ReleaseAcquireAtomicInt32
 "
@@ -264,7 +265,7 @@ ReleaseAcquireAtomicInt32
 "
 int32_t
 "
-    
+        
 "
 ReleaseAcquireAtomicUint32
 "
@@ -272,7 +273,7 @@ ReleaseAcquireAtomicUint32
 "
 uint32_t
 "
-    
+        
 "
 SequentiallyConsistentAtomicInt32
 "
@@ -280,7 +281,7 @@ SequentiallyConsistentAtomicInt32
 "
 int32_t
 "
-    
+        
 "
 SequentiallyConsistentAtomicUint32
 "
@@ -288,7 +289,7 @@ SequentiallyConsistentAtomicUint32
 "
 uint32_t
 "
-    
+        
 "
 AtomicFloat
 "
@@ -296,13 +297,13 @@ AtomicFloat
 "
 float
 "
-    
+        
 "
 String
 "
 :
 None
-    
+        
 "
 DataMutexString
 "
@@ -310,6 +311,7 @@ DataMutexString
 "
 nsACString
 "
+    
 }
 )
 #

@@ -741,8 +741,9 @@ FAIL
     
 assert_actions
 (
-[
         
+[
+            
 "
 log
 "
@@ -752,23 +753,23 @@ Buffered
 messages
 logged
 "
-        
+            
 "
 test_status
 "
-        
+            
 "
 log
 "
-        
+            
 "
 test_status
 "
-        
+            
 "
 log
 "
-        
+            
 "
 log
 "
@@ -778,12 +779,13 @@ Buffered
 messages
 finished
 "
-        
+            
 "
 test_end
 "
-    
+        
 ]
+    
 )
     
 #

@@ -131,8 +131,9 @@ balrog_description_schema
 =
 Schema
 (
-{
     
+{
+        
 #
 unique
 label
@@ -150,7 +151,7 @@ dep
 .
 label
 }
-    
+        
 Required
 (
 "
@@ -159,10 +160,10 @@ label
 )
 :
 str
-    
+        
 Optional
 (
-        
+            
 "
 update
 -
@@ -170,7 +171,7 @@ no
 -
 wnp
 "
-        
+            
 description
 =
 "
@@ -189,7 +190,7 @@ as
 well
 .
 "
-    
+        
 )
 :
 optionally_keyed_by
@@ -201,7 +202,7 @@ type
 "
 bool
 )
-    
+        
 #
 treeherder
 is
@@ -217,7 +218,7 @@ for
 beetmover
 .
 See
-    
+        
 #
 taskcluster
 /
@@ -234,7 +235,7 @@ schema
 details
 and
 the
-    
+        
 #
 below
 transforms
@@ -244,7 +245,7 @@ of
 various
 values
 .
-    
+        
 Optional
 (
 "
@@ -258,7 +259,7 @@ task_description_schema
 treeherder
 "
 ]
-    
+        
 Optional
 (
 "
@@ -272,7 +273,7 @@ task_description_schema
 attributes
 "
 ]
-    
+        
 Optional
 (
 "
@@ -286,7 +287,7 @@ task_description_schema
 dependencies
 "
 ]
-    
+        
 Optional
 (
 "
@@ -304,13 +305,13 @@ task
 from
 "
 ]
-    
+        
 #
 Shipping
 product
 /
 phase
-    
+        
 Optional
 (
 "
@@ -328,7 +329,7 @@ shipping
 product
 "
 ]
-    
+        
 Optional
 (
 "
@@ -346,7 +347,7 @@ shipping
 phase
 "
 ]
-    
+        
 Optional
 (
 "
@@ -372,6 +373,7 @@ repo
 type
 "
 ]
+    
 }
 )
 transforms

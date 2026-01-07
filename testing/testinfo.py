@@ -3460,8 +3460,9 @@ taskcluster
 .
 Index
 (
-{
             
+{
+                
 "
 rootUrl
 "
@@ -3483,8 +3484,9 @@ mozilla
 .
 com
 "
-        
+            
 }
+        
 )
         
 route
@@ -3515,8 +3517,9 @@ taskcluster
 .
 Queue
 (
-{
             
+{
+                
 "
 rootUrl
 "
@@ -3538,8 +3541,9 @@ mozilla
 .
 com
 "
-        
+            
 }
+        
 )
         
 task_id

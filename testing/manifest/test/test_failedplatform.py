@@ -133,8 +133,8 @@ fp
 =
 FailedPlatform
 (
-{
         
+{
 "
 build_type1
 "
@@ -147,7 +147,6 @@ test_variant1
 {
 }
 }
-        
 "
 build_type2
 "
@@ -160,8 +159,8 @@ test_variant1
 {
 }
 }
-    
 }
+    
 )
     
 assert
@@ -291,8 +290,8 @@ fp
 =
 FailedPlatform
 (
-{
         
+{
 "
 build_type1
 "
@@ -305,7 +304,6 @@ test_variant1
 {
 }
 }
-        
 "
 build_type2
 "
@@ -318,8 +316,8 @@ test_variant2
 {
 }
 }
-    
 }
+    
 )
     
 assert
@@ -1025,8 +1023,9 @@ fp
 =
 FailedPlatform
 (
-{
         
+{
+            
 "
 build_type1
 "
@@ -1045,7 +1044,7 @@ test_variant2
 {
 }
 }
-        
+            
 "
 build_type2
 "
@@ -1064,8 +1063,9 @@ test_variant2
 {
 }
 }
-    
+        
 }
+    
 )
     
 fp
@@ -1102,8 +1102,9 @@ fp
 =
 FailedPlatform
 (
-{
         
+{
+            
 "
 build_type1
 "
@@ -1122,7 +1123,7 @@ test_variant2
 {
 }
 }
-        
+            
 "
 build_type2
 "
@@ -1141,8 +1142,9 @@ test_variant2
 {
 }
 }
-    
+        
 }
+    
 )
     
 fp
@@ -1383,21 +1385,22 @@ fp
 =
 FailedPlatform
 (
-{
         
+{
+            
 "
 build_type1
 "
 :
 {
-            
+                
 "
 test_variant1
 "
 :
 {
 }
-            
+                
 "
 socketprocess_networking
 +
@@ -1407,17 +1410,18 @@ fission
 :
 {
 }
-            
+                
 "
 no_variant
 "
 :
 {
 }
+            
+}
         
 }
     
-}
 )
     
 assert
@@ -1464,21 +1468,22 @@ fp
 =
 FailedPlatform
 (
-{
         
+{
+            
 "
 build_type1
 "
 :
 {
-            
+                
 "
 fission
 "
 :
 {
 }
-            
+                
 "
 socketprocess_networking
 +
@@ -1488,17 +1493,18 @@ fission
 :
 {
 }
-            
+                
 "
 no_variant
 "
 :
 {
 }
+            
+}
         
 }
     
-}
 )
     
 assert
@@ -1697,8 +1703,8 @@ fp
 =
 FailedPlatform
 (
-{
         
+{
 "
 build_type1
 "
@@ -1719,8 +1725,8 @@ test_variant2
 {
 }
 }
-    
 }
+    
 )
     
 assert
@@ -1770,8 +1776,8 @@ fp
 =
 FailedPlatform
 (
-{
         
+{
 "
 build_type1
 "
@@ -1792,8 +1798,8 @@ test_variant3
 {
 }
 }
-    
 }
+    
 )
     
 assert
@@ -1836,8 +1842,8 @@ fp
 =
 FailedPlatform
 (
-{
         
+{
 "
 build_type1
 "
@@ -1858,8 +1864,8 @@ test_variant2
 {
 }
 }
-    
 }
+    
 )
     
 assert
@@ -1911,14 +1917,15 @@ fp
 =
 FailedPlatform
 (
-{
         
+{
+            
 "
 build_type1
 "
 :
 {
-            
+                
 "
 test_variant1
 +
@@ -1927,7 +1934,7 @@ test_variant2
 :
 {
 }
-            
+                
 "
 test_variant1
 +
@@ -1938,10 +1945,11 @@ test_variant3
 :
 {
 }
+            
+}
         
 }
     
-}
 )
     
 assert
@@ -1998,14 +2006,15 @@ fp
 =
 FailedPlatform
 (
-{
         
+{
+            
 "
 build_type1
 "
 :
 {
-            
+                
 "
 test_variant2
 +
@@ -2014,7 +2023,7 @@ test_variant1
 :
 {
 }
-            
+                
 "
 test_variant1
 +
@@ -2025,10 +2034,11 @@ test_variant2
 :
 {
 }
+            
+}
         
 }
     
-}
 )
     
 assert
@@ -2085,14 +2095,15 @@ fp
 =
 FailedPlatform
 (
-{
         
+{
+            
 "
 build_type1
 "
 :
 {
-            
+                
 "
 test_variant1
 +
@@ -2101,7 +2112,7 @@ test_variant2
 :
 {
 }
-            
+                
 "
 test_variant1
 +
@@ -2112,7 +2123,7 @@ test_variant3
 :
 {
 }
-            
+                
 "
 test_variant1
 +
@@ -2123,10 +2134,11 @@ test_variant2
 :
 {
 }
+            
+}
         
 }
     
-}
 )
     
 assert
@@ -2193,14 +2205,15 @@ fp
 =
 FailedPlatform
 (
-{
         
+{
+            
 "
 build_type1
 "
 :
 {
-            
+                
 "
 test_variant1
 +
@@ -2209,7 +2222,7 @@ test_variant2
 :
 {
 }
-            
+                
 "
 test_variant1
 +
@@ -2218,10 +2231,11 @@ test_variant3
 :
 {
 }
+            
+}
         
 }
     
-}
 )
     
 assert
@@ -2274,8 +2288,9 @@ fp
 =
 FailedPlatform
 (
-{
         
+{
+            
 "
 build_type1
 "
@@ -2288,7 +2303,7 @@ test_variant1
 {
 }
 }
-        
+            
 "
 build_type2
 "
@@ -2303,8 +2318,9 @@ test_variant2
 {
 }
 }
-    
+        
 }
+    
 )
     
 assert
@@ -2449,8 +2465,8 @@ fp
 =
 FailedPlatform
 (
-{
         
+{
 "
 build_type1
 "
@@ -2463,7 +2479,6 @@ no_variant
 {
 }
 }
-        
 "
 build_type2
 "
@@ -2476,8 +2491,8 @@ no_variant
 {
 }
 }
-    
 }
+    
 )
     
 assert
@@ -2591,8 +2606,9 @@ fp
 =
 FailedPlatform
 (
-{
         
+{
+            
 "
 build_type1
 "
@@ -2611,7 +2627,7 @@ test_variant1
 {
 }
 }
-        
+            
 "
 build_type2
 "
@@ -2630,8 +2646,9 @@ test_variant1
 {
 }
 }
-    
+        
 }
+    
 )
     
 assert
@@ -2933,8 +2950,8 @@ fp
 =
 FailedPlatform
 (
-{
         
+{
 "
 build_type1
 "
@@ -2947,7 +2964,6 @@ no_variant
 {
 }
 }
-        
 "
 build_type2
 "
@@ -2960,8 +2976,8 @@ no_variant
 {
 }
 }
-    
 }
+    
 )
     
 assert
@@ -3016,8 +3032,9 @@ fp
 =
 FailedPlatform
 (
-{
         
+{
+            
 "
 build_type1
 "
@@ -3036,7 +3053,7 @@ test_variant1
 {
 }
 }
-        
+            
 "
 build_type2
 "
@@ -3049,8 +3066,9 @@ no_variant
 {
 }
 }
-    
+        
 }
+    
 )
     
 assert
@@ -3105,8 +3123,8 @@ fp
 =
 FailedPlatform
 (
-{
         
+{
 "
 build_type1
 "
@@ -3119,7 +3137,6 @@ test_variant1
 {
 }
 }
-        
 "
 build_type2
 "
@@ -3132,8 +3149,8 @@ no_variant
 {
 }
 }
-    
 }
+    
 )
     
 assert
@@ -3168,8 +3185,9 @@ fp
 =
 FailedPlatform
 (
-{
         
+{
+            
 "
 build_type1
 "
@@ -3184,7 +3202,7 @@ test_variant2
 {
 }
 }
-        
+            
 "
 build_type2
 "
@@ -3197,8 +3215,9 @@ no_variant
 {
 }
 }
-    
+        
 }
+    
 )
     
 assert
@@ -3252,8 +3271,9 @@ fp
 =
 FailedPlatform
 (
-{
         
+{
+            
 "
 build_type1
 "
@@ -3272,7 +3292,7 @@ test_variant2
 {
 }
 }
-        
+            
 "
 build_type2
 "
@@ -3285,8 +3305,9 @@ no_variant
 {
 }
 }
-    
+        
 }
+    
 )
     
 assert
@@ -3332,8 +3353,8 @@ fp
 =
 FailedPlatform
 (
-{
         
+{
 "
 build_type1
 "
@@ -3346,7 +3367,6 @@ no_variant
 {
 }
 }
-        
 "
 build_type2
 "
@@ -3359,8 +3379,8 @@ no_variant
 {
 }
 }
-    
 }
+    
 )
     
 assert
@@ -3422,8 +3442,9 @@ fp
 =
 FailedPlatform
 (
-{
         
+{
+            
 "
 build_type1
 "
@@ -3438,7 +3459,7 @@ test_variant2
 {
 }
 }
-        
+            
 "
 build_type2
 "
@@ -3453,8 +3474,9 @@ test_variant2
 {
 }
 }
-    
+        
 }
+    
 )
     
 assert
@@ -3605,8 +3627,9 @@ fp
 =
 FailedPlatform
 (
-{
         
+{
+            
 "
 build_type1
 "
@@ -3625,7 +3648,7 @@ no_variant
 {
 }
 }
-        
+            
 "
 build_type2
 "
@@ -3638,8 +3661,9 @@ no_variant
 {
 }
 }
-    
+        
 }
+    
 )
     
 assert
@@ -3706,28 +3730,29 @@ fp
 =
 FailedPlatform
 (
-{
         
+{
+            
 "
 build_type1
 "
 :
 {
-            
+                
 "
 test_variant1
 "
 :
 {
 }
-            
+                
 "
 test_variant2
 "
 :
 {
 }
-            
+                
 "
 test_variant1
 +
@@ -3736,9 +3761,9 @@ test_variant2
 :
 {
 }
-        
+            
 }
-        
+            
 "
 build_type2
 "
@@ -3763,8 +3788,9 @@ test_variant2
 {
 }
 }
-    
+        
 }
+    
 )
     
 assert

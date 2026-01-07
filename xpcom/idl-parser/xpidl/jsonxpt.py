@@ -1170,13 +1170,15 @@ resolved
 )
     
 assert
+(
+        
 iface
 .
 attributes
 .
 scriptable
-(
-        
+    
+)
 "
 Don
 '
@@ -1190,8 +1192,6 @@ non
 scriptable
 interfaces
 "
-    
-)
     
 #
 State
@@ -1242,8 +1242,9 @@ consts
 .
 append
 (
-{
             
+{
+                
 "
 name
 "
@@ -1251,7 +1252,7 @@ name
 c
 .
 name
-            
+                
 "
 type
 "
@@ -1264,7 +1265,7 @@ basetype
 "
 "
 )
-            
+                
 "
 value
 "
@@ -1281,8 +1282,9 @@ our
 consts
 are
 numbers
-        
+            
 }
+        
 )
     
 def
@@ -1304,8 +1306,9 @@ consts
 .
 append
 (
-{
                 
+{
+                    
 "
 name
 "
@@ -1313,7 +1316,7 @@ name
 var
 .
 name
-                
+                    
 "
 type
 "
@@ -1325,7 +1328,7 @@ b
 in
 "
 )
-                
+                    
 "
 value
 "
@@ -1333,8 +1336,9 @@ value
 var
 .
 value
-            
+                
 }
+            
 )
     
 def
@@ -2130,10 +2134,10 @@ linked
 =
 len
 (
-linked
-)
-(
         
+linked
+    
+)
 "
 Multiple
 typelibs
@@ -2145,8 +2149,6 @@ were
 linked
 together
 "
-    
-)
     
 return
 linked

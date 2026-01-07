@@ -2509,8 +2509,9 @@ manifestFile
 :
 test_manifest
 (
-[
             
+[
+                
 "
 mochitest
 -
@@ -2520,7 +2521,7 @@ dupemanifest
 .
 ini
 "
-            
+                
 "
 mochitest
 -
@@ -2530,8 +2531,9 @@ dupemanifest
 .
 ini
 "
-        
+            
 ]
+        
 )
         
 "

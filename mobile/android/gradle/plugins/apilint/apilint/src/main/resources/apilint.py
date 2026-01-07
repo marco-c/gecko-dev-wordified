@@ -3290,34 +3290,31 @@ self
 return
 hash
 (
-(
             
+(
 self
 .
 raw
-            
 tuple
 (
 self
 .
 ctors
 )
-            
 tuple
 (
 self
 .
 fields
 )
-            
 tuple
 (
 self
 .
 methods
 )
-        
 )
+        
 )
     
 def

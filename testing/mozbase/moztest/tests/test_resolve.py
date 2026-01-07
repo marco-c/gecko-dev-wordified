@@ -587,11 +587,12 @@ create_tests
 return
 create_tests
 (
+        
 *
 [
-        
-(
             
+(
+                
 "
 apple
 /
@@ -599,9 +600,9 @@ test_a11y
 .
 html
 "
-            
-{
                 
+{
+                    
 "
 expected
 "
@@ -609,7 +610,7 @@ expected
 "
 pass
 "
-                
+                    
 "
 manifest
 "
@@ -621,7 +622,7 @@ a11y
 .
 toml
 "
-                
+                    
 "
 flavor
 "
@@ -629,13 +630,13 @@ flavor
 "
 a11y
 "
-            
+                
 }
-        
-)
-        
-(
             
+)
+            
+(
+                
 "
 banana
 /
@@ -645,9 +646,9 @@ test_xpcshell_A
 .
 js
 "
-            
-{
                 
+{
+                    
 "
 firefox
 -
@@ -657,7 +658,7 @@ appdir
 "
 browser
 "
-                
+                    
 "
 flavor
 "
@@ -665,7 +666,7 @@ flavor
 "
 xpcshell
 "
-                
+                    
 "
 head
 "
@@ -681,13 +682,13 @@ head_http
 .
 js
 "
-            
+                
 }
-        
-)
-        
-(
             
+)
+            
+(
+                
 "
 banana
 /
@@ -697,9 +698,9 @@ test_xpcshell_B
 .
 js
 "
-            
-{
                 
+{
+                    
 "
 firefox
 -
@@ -709,7 +710,7 @@ appdir
 "
 browser
 "
-                
+                    
 "
 flavor
 "
@@ -717,7 +718,7 @@ flavor
 "
 xpcshell
 "
-                
+                    
 "
 head
 "
@@ -733,13 +734,13 @@ head_http
 .
 js
 "
-            
+                
 }
-        
-)
-        
-(
             
+)
+            
+(
+                
 "
 carrot
 /
@@ -747,9 +748,9 @@ test_included
 .
 js
 "
-            
-{
                 
+{
+                    
 "
 ancestor_manifest
 "
@@ -763,7 +764,7 @@ one
 .
 toml
 "
-                
+                    
 "
 manifest
 "
@@ -777,7 +778,7 @@ shared
 .
 toml
 "
-                
+                    
 "
 flavor
 "
@@ -785,7 +786,7 @@ flavor
 "
 xpcshell
 "
-                
+                    
 "
 stick
 "
@@ -793,13 +794,13 @@ stick
 "
 one
 "
-            
+                
 }
-        
-)
-        
-(
             
+)
+            
+(
+                
 "
 carrot
 /
@@ -807,9 +808,9 @@ test_included
 .
 js
 "
-            
-{
                 
+{
+                    
 "
 ancestor_manifest
 "
@@ -823,7 +824,7 @@ two
 .
 toml
 "
-                
+                    
 "
 manifest
 "
@@ -837,7 +838,7 @@ shared
 .
 toml
 "
-                
+                    
 "
 flavor
 "
@@ -845,7 +846,7 @@ flavor
 "
 xpcshell
 "
-                
+                    
 "
 stick
 "
@@ -853,13 +854,13 @@ stick
 "
 two
 "
-            
+                
 }
-        
-)
-        
-(
             
+)
+            
+(
+                
 "
 dragonfruit
 /
@@ -869,9 +870,9 @@ test_xpcshell_C
 .
 js
 "
-            
-{
                 
+{
+                    
 "
 flavor
 "
@@ -879,7 +880,7 @@ flavor
 "
 xpcshell
 "
-                
+                    
 "
 generated
 -
@@ -891,7 +892,7 @@ head_update
 .
 js
 "
-                
+                    
 "
 head
 "
@@ -901,7 +902,7 @@ head_update
 .
 js
 "
-                
+                    
 "
 manifest
 "
@@ -913,7 +914,7 @@ xpcshell
 .
 toml
 "
-                
+                    
 "
 reason
 "
@@ -921,7 +922,7 @@ reason
 "
 busted
 "
-                
+                    
 "
 run
 -
@@ -933,7 +934,7 @@ Launches
 application
 .
 "
-                
+                    
 "
 skip
 -
@@ -948,13 +949,13 @@ os
 android
 '
 "
-            
+                
 }
-        
-)
-        
-(
             
+)
+            
+(
+                
 "
 dragonfruit
 /
@@ -964,9 +965,9 @@ test_xpcshell_C
 .
 js
 "
-            
-{
                 
+{
+                    
 "
 flavor
 "
@@ -974,7 +975,7 @@ flavor
 "
 xpcshell
 "
-                
+                    
 "
 generated
 -
@@ -986,7 +987,7 @@ head_update
 .
 js
 "
-                
+                    
 "
 head
 "
@@ -999,7 +1000,7 @@ head2
 .
 js
 "
-                
+                    
 "
 manifest
 "
@@ -1013,7 +1014,7 @@ xpcshell_updater
 .
 toml
 "
-                
+                    
 "
 reason
 "
@@ -1024,7 +1025,7 @@ don
 t
 work
 "
-                
+                    
 "
 run
 -
@@ -1036,7 +1037,7 @@ Launches
 application
 .
 "
-                
+                    
 "
 skip
 -
@@ -1051,13 +1052,13 @@ os
 android
 '
 "
-            
+                
 }
-        
-)
-        
-(
             
+)
+            
+(
+                
 "
 fig
 /
@@ -1069,9 +1070,9 @@ TestInstrumentationA
 .
 java
 "
-            
-{
                 
+{
+                    
 "
 flavor
 "
@@ -1079,7 +1080,7 @@ flavor
 "
 instrumentation
 "
-                
+                    
 "
 manifest
 "
@@ -1093,7 +1094,7 @@ instrumentation
 .
 toml
 "
-                
+                    
 "
 subsuite
 "
@@ -1101,13 +1102,13 @@ subsuite
 "
 background
 "
-            
+                
 }
-        
-)
-        
-(
             
+)
+            
+(
+                
 "
 fig
 /
@@ -1119,9 +1120,9 @@ TestInstrumentationB
 .
 java
 "
-            
-{
                 
+{
+                    
 "
 flavor
 "
@@ -1129,7 +1130,7 @@ flavor
 "
 instrumentation
 "
-                
+                    
 "
 manifest
 "
@@ -1143,7 +1144,7 @@ instrumentation
 .
 toml
 "
-                
+                    
 "
 subsuite
 "
@@ -1151,13 +1152,13 @@ subsuite
 "
 browser
 "
-            
+                
 }
-        
-)
-        
-(
             
+)
+            
+(
+                
 "
 juniper
 /
@@ -1165,9 +1166,9 @@ browser_chrome
 .
 js
 "
-            
-{
                 
+{
+                    
 "
 flavor
 "
@@ -1177,7 +1178,7 @@ browser
 -
 chrome
 "
-                
+                    
 "
 manifest
 "
@@ -1189,7 +1190,7 @@ browser
 .
 toml
 "
-                
+                    
 "
 skip
 -
@@ -1201,13 +1202,13 @@ e10s
 #
 broken
 "
-            
+                
 }
-        
-)
-        
-(
             
+)
+            
+(
+                
 "
 kiwi
 /
@@ -1215,9 +1216,9 @@ browser_devtools
 .
 js
 "
-            
-{
                 
+{
+                    
 "
 flavor
 "
@@ -1227,7 +1228,7 @@ browser
 -
 chrome
 "
-                
+                    
 "
 manifest
 "
@@ -1239,7 +1240,7 @@ browser
 .
 toml
 "
-                
+                    
 "
 subsuite
 "
@@ -1247,7 +1248,7 @@ subsuite
 "
 devtools
 "
-                
+                    
 "
 tags
 "
@@ -1255,12 +1256,13 @@ tags
 "
 devtools
 "
-            
+                
 }
-        
+            
 )
-    
+        
 ]
+    
 )
 pytest
 .
@@ -3344,24 +3346,22 @@ resolver
 .
 resolve_metadata
 (
-[
         
+[
 "
 mochitest
 -
 a11y
 "
-        
 "
 /
 browser
 "
-        
 "
 xpcshell
 "
-    
 ]
+    
 )
     
 assert

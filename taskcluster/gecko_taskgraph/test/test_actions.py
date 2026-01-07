@@ -3519,8 +3519,9 @@ n
 .
 join
 (
-[
         
+[
+            
 b
 '
 {
@@ -3562,7 +3563,7 @@ tests
 "
 }
 '
-        
+            
 b
 '
 {
@@ -3604,8 +3605,9 @@ tests
 "
 }
 '
-    
+        
 ]
+    
 )
     
 responses
@@ -6136,8 +6138,9 @@ yaml
 .
 dump
 (
-{
             
+{
+                
 "
 base_repository
 "
@@ -6153,7 +6156,7 @@ example
 .
 com
 "
-            
+                
 "
 head_repository
 "
@@ -6169,7 +6172,7 @@ example
 .
 com
 "
-            
+                
 "
 head_rev
 "
@@ -6177,7 +6180,7 @@ head_rev
 "
 abcdef
 "
-            
+                
 "
 project
 "
@@ -6185,7 +6188,7 @@ project
 "
 try
 "
-            
+                
 "
 level
 "
@@ -6193,7 +6196,7 @@ level
 "
 1
 "
-            
+                
 "
 pushlog_id
 "
@@ -6201,21 +6204,21 @@ pushlog_id
 "
 100
 "
-            
+                
 "
 required_signoffs
 "
 :
 [
 ]
-            
+                
 "
 signoff_urls
 "
 :
 {
 }
-            
+                
 "
 release_product
 "
@@ -6223,7 +6226,7 @@ release_product
 "
 firefox
 "
-            
+                
 "
 release_type
 "
@@ -6231,8 +6234,9 @@ release_type
 "
 nightly
 "
-        
+            
 }
+        
 )
         
 content_type

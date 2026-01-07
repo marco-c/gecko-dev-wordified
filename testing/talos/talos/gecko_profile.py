@@ -706,8 +706,9 @@ env
 .
 update
 (
-{
             
+{
+                
 "
 MOZ_PROFILER_STARTUP
 "
@@ -715,7 +716,7 @@ MOZ_PROFILER_STARTUP
 "
 1
 "
-            
+                
 #
 Temporary
 :
@@ -729,7 +730,7 @@ see
 bug
 1630448
 .
-            
+                
 #
 TODO
 :
@@ -744,7 +745,7 @@ or
 bug
 1648325
 .
-            
+                
 "
 MOZ_PROFILER_STARTUP_NO_BASE
 "
@@ -752,7 +753,7 @@ MOZ_PROFILER_STARTUP_NO_BASE
 "
 1
 "
-            
+                
 "
 MOZ_PROFILER_STARTUP_INTERVAL
 "
@@ -768,7 +769,7 @@ interval
 "
 )
 )
-            
+                
 "
 MOZ_PROFILER_STARTUP_ENTRIES
 "
@@ -784,7 +785,7 @@ entries
 "
 )
 )
-            
+                
 "
 MOZ_PROFILER_STARTUP_FEATURES
 "
@@ -800,7 +801,7 @@ features
 "
 )
 )
-            
+                
 "
 MOZ_PROFILER_STARTUP_FILTERS
 "
@@ -816,8 +817,9 @@ threads
 "
 )
 )
-        
+            
 }
+        
 )
     
 def
@@ -1006,8 +1008,9 @@ symbolicator
 =
 ProfileSymbolicator
 (
-{
             
+{
+                
 #
 Trace
 -
@@ -1016,13 +1019,13 @@ logging
 (
 verbose
 )
-            
+                
 "
 enableTracing
 "
 :
 0
-            
+                
 #
 Fallback
 server
@@ -1032,7 +1035,7 @@ is
 not
 found
 locally
-            
+                
 "
 remoteSymbolServer
 "
@@ -1054,7 +1057,7 @@ symbolicate
 /
 v4
 "
-            
+                
 #
 Maximum
 number
@@ -1065,13 +1068,13 @@ to
 keep
 in
 memory
-            
+                
 "
 maxCacheEntries
 "
 :
 2000000
-            
+                
 #
 Frequency
 of
@@ -1080,20 +1083,20 @@ for
 recent
 symbols
 to
-            
+                
 #
 cache
 (
 in
 hours
 )
-            
+                
 "
 prefetchInterval
 "
 :
 12
-            
+                
 #
 Oldest
 file
@@ -1104,13 +1107,13 @@ prefetch
 in
 hours
 )
-            
+                
 "
 prefetchThreshold
 "
 :
 48
-            
+                
 #
 Maximum
 number
@@ -1121,23 +1124,23 @@ to
 pre
 -
 fetch
-            
+                
 #
 per
 library
-            
+                
 "
 prefetchMaxSymbolsPerLib
 "
 :
 3
-            
+                
 #
 Default
 symbol
 lookup
 directories
-            
+                
 "
 defaultApp
 "
@@ -1145,7 +1148,7 @@ defaultApp
 "
 FIREFOX
 "
-            
+                
 "
 defaultOs
 "
@@ -1153,7 +1156,7 @@ defaultOs
 "
 WINDOWS
 "
-            
+                
 #
 Paths
 to
@@ -1164,7 +1167,7 @@ expressed
 internally
 as
 a
-            
+                
 #
 mapping
 of
@@ -1174,7 +1177,7 @@ platform
 names
 to
 directories
-            
+                
 #
 Note
 :
@@ -1186,14 +1189,14 @@ from
 requests
 are
 converted
-            
+                
 #
 to
 all
 -
 uppercase
 internally
-            
+                
 "
 symbolPaths
 "
@@ -1201,8 +1204,9 @@ symbolPaths
 self
 .
 symbol_paths
-        
+            
 }
+        
 )
         
 if

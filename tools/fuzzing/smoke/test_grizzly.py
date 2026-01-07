@@ -257,14 +257,14 @@ MOZ_AUTOMATION
 assert
 Path
 (
+            
 ffbin
+        
 )
 .
 exists
 (
 )
-(
-            
 "
 Missing
 Firefox
@@ -276,8 +276,6 @@ or
 set
 GECKO_BINARY_PATH
 "
-        
-)
     
 elif
 not

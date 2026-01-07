@@ -3769,8 +3769,9 @@ env
 .
 update
 (
-{
         
+{
+            
 "
 GRADLE_OPTS
 "
@@ -3785,13 +3786,13 @@ utf
 -
 8
 "
-        
+            
 "
 JAVA_HOME
 "
 :
 java_home
-        
+            
 "
 JAVA_TOOL_OPTIONS
 "
@@ -3806,7 +3807,7 @@ utf
 -
 8
 "
-        
+            
 #
 Let
 Gradle
@@ -3817,7 +3818,7 @@ Python
 path
 on
 Windows
-        
+            
 "
 GRADLE_MACH_PYTHON
 "
@@ -3825,8 +3826,9 @@ GRADLE_MACH_PYTHON
 sys
 .
 executable
-    
+        
 }
+    
 )
     
 #

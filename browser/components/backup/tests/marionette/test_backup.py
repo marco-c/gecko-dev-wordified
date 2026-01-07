@@ -182,8 +182,9 @@ marionette
 .
 enforce_gecko_prefs
 (
-{
             
+{
+                
 "
 browser
 .
@@ -193,7 +194,7 @@ enabled
 "
 :
 True
-            
+                
 "
 browser
 .
@@ -203,7 +204,7 @@ log
 "
 :
 True
-            
+                
 "
 browser
 .
@@ -215,7 +216,7 @@ enabled
 "
 :
 True
-            
+                
 "
 browser
 .
@@ -227,7 +228,7 @@ enabled
 "
 :
 True
-            
+                
 "
 browser
 .
@@ -239,7 +240,7 @@ overridePlatformCheck
 "
 :
 True
-            
+                
 "
 browser
 .
@@ -251,7 +252,7 @@ overridePlatformCheck
 "
 :
 True
-            
+                
 #
 Necessary
 to
@@ -263,14 +264,14 @@ backup
 which
 relies
 on
-            
+                
 #
 the
 crash
 restore
 mechanism
 .
-            
+                
 "
 browser
 .
@@ -280,8 +281,9 @@ resume_from_crash
 "
 :
 True
-        
+            
 }
+        
 )
         
 self

@@ -222,9 +222,7 @@ VALID_FORMATTERS
 =
 {
 "
-ruff
--
-format
+black
 "
 "
 clang
@@ -425,10 +423,11 @@ excludes
 .
 extend
 (
+        
 [
-        
+            
 name
-        
+            
 for
 name
 in
@@ -438,7 +437,7 @@ listdir
 (
 topsrcdir
 )
-        
+            
 if
 name
 .
@@ -457,8 +456,9 @@ isdir
 (
 name
 )
-    
+        
 ]
+    
 )
     
 if

@@ -139,8 +139,9 @@ signing_description_schema
 =
 Schema
 (
-{
     
+{
+        
 Optional
 (
 "
@@ -149,7 +150,7 @@ label
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -158,7 +159,7 @@ extra
 )
 :
 object
-    
+        
 Optional
 (
 "
@@ -176,7 +177,7 @@ shipping
 product
 "
 ]
-    
+        
 Optional
 (
 "
@@ -194,7 +195,7 @@ shipping
 phase
 "
 ]
-    
+        
 Optional
 (
 "
@@ -208,7 +209,7 @@ task_description_schema
 attributes
 "
 ]
-    
+        
 Optional
 (
 "
@@ -222,7 +223,7 @@ task_description_schema
 dependencies
 "
 ]
-    
+        
 Optional
 (
 "
@@ -240,7 +241,7 @@ task
 from
 "
 ]
-    
+        
 Optional
 (
 "
@@ -266,6 +267,7 @@ repo
 type
 "
 ]
+    
 }
 )
 transforms
@@ -380,6 +382,9 @@ OpenH264
 Binaries
 for
 '
+"
+            
+"
 {
 build_platform
 }

@@ -227,6 +227,8 @@ name
 ]
         
 assert
+(
+            
 sorted
 (
 yamls_to_test
@@ -234,8 +236,8 @@ yamls_to_test
 =
 =
 yamls_to_test
-(
-            
+        
+)
 f
 "
 {
@@ -248,8 +250,6 @@ lexicographically
 sorted
 .
 "
-        
-)
 if
 __name__
 =

@@ -3327,30 +3327,32 @@ subprocess
 .
 check_call
 (
-[
                 
+[
+                    
 command_context
 .
 virtualenv_manager
 .
 python_path
-                
+                    
 "
 -
 m
 "
-                
+                    
 "
 pip
 "
-                
+                    
 "
 install
 "
-                
+                    
 dep
-            
+                
 ]
+            
 )
 def
 check
@@ -4052,8 +4054,8 @@ extra_args
 .
 extend
 (
-(
                     
+(
 "
 -
 -
@@ -4061,14 +4063,13 @@ firefox
 .
 binaryPath
 "
-                    
 command_context
 .
 get_binary_path
 (
 )
-                
 )
+                
 )
             
 except

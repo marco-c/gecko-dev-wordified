@@ -469,8 +469,8 @@ new_settings
 =
 dict
 (
-[
         
+[
 (
 key
 cs
@@ -490,8 +490,8 @@ changed_settings
 items
 (
 )
-    
 ]
+    
 )
     
 self
@@ -2148,8 +2148,9 @@ calls
 .
 append
 (
-{
                         
+{
+                            
 "
 time
 "
@@ -2162,7 +2163,7 @@ time
 (
 )
 )
-                        
+                            
 "
 url
 "
@@ -2172,7 +2173,7 @@ f
 request
 .
 url
-                        
+                            
 "
 response_status
 "
@@ -2182,8 +2183,9 @@ f
 response
 .
 status_code
-                    
+                        
 }
+                    
 )
             
 except

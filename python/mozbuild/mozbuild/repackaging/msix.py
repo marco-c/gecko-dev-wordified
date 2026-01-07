@@ -5912,11 +5912,14 @@ makeappx
 raise
 ValueError
 (
+            
 "
 makeappx
 is
 required
 ;
+"
+"
 set
 MAKEAPPX
 or
@@ -5924,6 +5927,7 @@ WINDOWSSDKDIR
 or
 PATH
 "
+        
 )
     
 #
@@ -6238,6 +6242,8 @@ powershell
 is
 required
 ;
+"
+"
 set
 POWERSHELL
 or
@@ -6375,11 +6381,14 @@ signtool
 raise
 ValueError
 (
+            
 "
 signtool
 is
 required
 ;
+"
+"
 set
 SIGNTOOL
 or
@@ -6387,6 +6396,7 @@ WINDOWSSDKDIR
 or
 PATH
 "
+        
 )
     
 #
@@ -7726,6 +7736,8 @@ makeappx
 is
 required
 ;
+"
+"
 set
 MAKEAPPX
 or
@@ -7758,6 +7770,8 @@ openssl
 is
 required
 ;
+"
+"
 set
 OPENSSL
 or

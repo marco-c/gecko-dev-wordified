@@ -470,8 +470,9 @@ received_pings
 =
 sorted
 (
-[
             
+[
+                
 ping0
 [
 "
@@ -483,7 +484,7 @@ request_url
 doc_type
 "
 ]
-            
+                
 ping1
 [
 "
@@ -495,8 +496,9 @@ request_url
 doc_type
 "
 ]
-        
+            
 ]
+        
 )
         
 self
@@ -798,8 +800,9 @@ received_pings
 =
 sorted
 (
-[
             
+[
+                
 ping2
 [
 "
@@ -811,7 +814,7 @@ request_url
 doc_type
 "
 ]
-            
+                
 ping3
 [
 "
@@ -823,8 +826,9 @@ request_url
 doc_type
 "
 ]
-        
+            
 ]
+        
 )
         
 self
@@ -927,8 +931,9 @@ received_pings
 =
 sorted
 (
-[
             
+[
+                
 ping4
 [
 "
@@ -940,7 +945,7 @@ request_url
 doc_type
 "
 ]
-            
+                
 ping5
 [
 "
@@ -952,8 +957,9 @@ request_url
 doc_type
 "
 ]
-        
+            
 ]
+        
 )
         
 self

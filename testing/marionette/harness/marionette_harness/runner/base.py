@@ -4152,6 +4152,9 @@ seen
 in
 adb
 devices
+"
+                    
+"
 e
 .
 g
@@ -4937,14 +4940,17 @@ logger
 .
 info
 (
-f
-'
+            
+"
 Using
 workspace
 for
 temporary
 data
 :
+"
+f
+'
 "
 {
 self
@@ -4953,6 +4959,7 @@ workspace_path
 }
 "
 '
+        
 )
         
 if
@@ -5788,8 +5795,9 @@ kwargs
 .
 update
 (
-{
                 
+{
+                    
 "
 host
 "
@@ -5803,13 +5811,13 @@ host
 .
 1
 "
-                
+                    
 "
 port
 "
 :
 2828
-                
+                    
 "
 app
 "
@@ -5817,7 +5825,7 @@ app
 self
 .
 app
-                
+                    
 "
 app_args
 "
@@ -5825,13 +5833,13 @@ app_args
 self
 .
 app_args
-                
+                    
 "
 debugger_info
 "
 :
 debugger_info
-                
+                    
 "
 profile
 "
@@ -5839,7 +5847,7 @@ profile
 self
 .
 profile
-                
+                    
 "
 addons
 "
@@ -5847,7 +5855,7 @@ addons
 self
 .
 addons
-                
+                    
 "
 gecko_log
 "
@@ -5855,7 +5863,7 @@ gecko_log
 self
 .
 gecko_log
-                
+                    
 #
 ensure
 Marionette
@@ -5866,14 +5874,15 @@ of
 starting
 gecko
 instance
-                
+                    
 "
 bin
 "
 :
 True
-            
+                
 }
+            
 )
         
 if
@@ -5886,8 +5895,9 @@ kwargs
 .
 update
 (
-{
                 
+{
+                    
 "
 bin
 "
@@ -5895,8 +5905,9 @@ bin
 self
 .
 bin
-            
+                
 }
+            
 )
         
 if
@@ -5909,8 +5920,9 @@ kwargs
 .
 update
 (
+                
 {
-                
+                    
 "
 avd_home
 "
@@ -5925,7 +5937,7 @@ get
 avd_home
 "
 )
-                
+                    
 "
 adb_path
 "
@@ -5940,7 +5952,7 @@ get
 adb_path
 "
 )
-                
+                    
 "
 emulator_binary
 "
@@ -5955,7 +5967,7 @@ get
 emulator_bin
 "
 )
-                
+                    
 "
 avd
 "
@@ -5970,7 +5982,7 @@ get
 avd
 "
 )
-                
+                    
 "
 package_name
 "
@@ -5985,8 +5997,9 @@ get
 package_name
 "
 )
-            
+                
 }
+            
 )
         
 if
@@ -6013,14 +6026,15 @@ kwargs
 .
 update
 (
-{
                 
+{
+                    
 "
 host
 "
 :
 host
-                
+                    
 "
 port
 "
@@ -6029,8 +6043,9 @@ int
 (
 port
 )
-            
+                
 }
+            
 )
             
 if
@@ -6043,15 +6058,17 @@ kwargs
 .
 update
 (
-{
                     
+{
+                        
 "
 connect_to_running_emulator
 "
 :
 True
-                
+                    
 }
+                
 )
             
 if
@@ -7739,8 +7756,9 @@ mozinfo
 .
 update
 (
-{
                 
+{
+                    
 "
 appname
 "
@@ -7748,7 +7766,7 @@ appname
 self
 .
 appName
-                
+                    
 "
 manage_instance
 "
@@ -7761,7 +7779,7 @@ instance
 is
 not
 None
-                
+                    
 "
 headless
 "
@@ -7769,8 +7787,9 @@ headless
 self
 .
 headless
-            
+                
 }
+            
 )
             
 self
@@ -8296,19 +8315,17 @@ failures
 .
 append
 (
-(
                     
+(
 results
 .
 getInfo
 (
 failure
 )
-                    
 failure
 .
 output
-                    
 "
 TEST
 -
@@ -8316,8 +8333,8 @@ UNEXPECTED
 -
 FAIL
 "
-                
 )
+                
 )
             
 if
@@ -8368,19 +8385,20 @@ failures
 .
 append
 (
-(
                         
+(
+                            
 results
 .
 getInfo
 (
 failure
 )
-                        
+                            
 failure
 .
 output
-                        
+                            
 "
 TEST
 -
@@ -8388,8 +8406,9 @@ UNEXPECTED
 -
 PASS
 "
-                    
+                        
 )
+                    
 )
             
 if

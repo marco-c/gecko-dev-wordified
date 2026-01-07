@@ -396,8 +396,9 @@ upstream_artifacts
 .
 append
 (
-{
                 
+{
+                    
 "
 taskId
 "
@@ -420,7 +421,7 @@ kind
 >
 "
 }
-                
+                    
 "
 taskType
 "
@@ -428,7 +429,7 @@ taskType
 "
 build
 "
-                
+                    
 "
 paths
 "
@@ -436,7 +437,7 @@ paths
 [
 artifact
 ]
-                
+                    
 "
 formats
 "
@@ -448,8 +449,9 @@ kind
 [
 basename
 ]
-            
+                
 }
+            
 )
     
 return
@@ -740,7 +742,6 @@ get
 "
 shippable
 "
-            
 dep_job
 .
 attributes

@@ -155,8 +155,9 @@ beetmover_checksums_description_schema
 =
 Schema
 (
-{
     
+{
+        
 Required
 (
 "
@@ -169,7 +170,7 @@ str
 :
 object
 }
-    
+        
 Optional
 (
 "
@@ -178,7 +179,7 @@ label
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -192,7 +193,7 @@ task_description_schema
 treeherder
 "
 ]
-    
+        
 Optional
 (
 "
@@ -201,7 +202,7 @@ locale
 )
 :
 str
-    
+        
 Optional
 (
 "
@@ -215,7 +216,7 @@ task_description_schema
 dependencies
 "
 ]
-    
+        
 Optional
 (
 "
@@ -233,7 +234,7 @@ task
 from
 "
 ]
-    
+        
 Optional
 (
 "
@@ -251,7 +252,7 @@ shipping
 phase
 "
 ]
-    
+        
 Optional
 (
 "
@@ -269,7 +270,7 @@ shipping
 product
 "
 ]
-    
+        
 Optional
 (
 "
@@ -295,6 +296,7 @@ repo
 type
 "
 ]
+    
 }
 )
 transforms

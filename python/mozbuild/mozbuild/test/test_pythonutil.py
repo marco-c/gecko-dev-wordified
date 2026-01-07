@@ -108,8 +108,9 @@ paths
 =
 set
 (
-[
         
+[
+            
 os
 .
 path
@@ -130,7 +131,7 @@ __init__
 py
 "
 )
-        
+            
 os
 .
 path
@@ -151,8 +152,9 @@ test_pythonutil
 py
 "
 )
-    
+        
 ]
+    
 )
 if
 __name__
