@@ -328,12 +328,12 @@ EditorUtils
 EditorType
 ;
 using
-LeafNodeOption
+WalkTreeOption
 =
 HTMLEditUtils
 :
 :
-LeafNodeOption
+WalkTreeOption
 ;
 /
 *
@@ -2342,11 +2342,11 @@ editTargetContent
 HTMLEditUtils
 :
 :
-GetNextLeafContent
+GetNextContent
 (
 atStartOfSelection
 {
-LeafNodeOption
+WalkTreeOption
 :
 :
 IgnoreNonEditableNode
@@ -2354,7 +2354,7 @@ IgnoreNonEditableNode
 BlockInlineCheck
 :
 :
-Auto
+Unused
 aHTMLEditor
 .
 ComputeEditingHost
