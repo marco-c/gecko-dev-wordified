@@ -76,11 +76,6 @@ browser
 let
 pageLoaded
 ;
-await
-setSecurityCertErrorsFeltPrivacyToFalse
-(
-)
-;
 const
 uri
 =
