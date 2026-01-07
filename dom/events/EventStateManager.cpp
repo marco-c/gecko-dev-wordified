@@ -44570,7 +44570,7 @@ return
 label
 -
 >
-GetLabeledElement
+GetLabeledElementInternal
 (
 )
 ;

@@ -7470,7 +7470,7 @@ control
 label
 -
 >
-GetControl
+GetLabeledElementInternal
 (
 )
 ;
