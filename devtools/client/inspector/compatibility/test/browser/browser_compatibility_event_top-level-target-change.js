@@ -63,9 +63,9 @@ auto
 }
 div
 {
-scrollbar
+user
 -
-color
+select
 :
 auto
 ;
@@ -172,9 +172,9 @@ anchor
 property
 :
 "
-scrollbar
+user
 -
-color
+select
 "
 url
 :
@@ -199,9 +199,9 @@ Reference
 /
 Properties
 /
-scrollbar
+user
 -
-color
+select
 "
 }
 ]

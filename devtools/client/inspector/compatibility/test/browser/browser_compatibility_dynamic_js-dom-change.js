@@ -150,7 +150,7 @@ false
 }
 ;
 const
-ISSUE_SCROLLBAR_COLOR
+ISSUE_NOT_DEPRECATED
 =
 {
 type
@@ -161,9 +161,9 @@ CSS_PROPERTY
 property
 :
 "
-scrollbar
+overflow
 -
-color
+anchor
 "
 url
 :
@@ -188,9 +188,9 @@ Reference
 /
 Properties
 /
-scrollbar
+overflow
 -
-color
+anchor
 "
 deprecated
 :
@@ -340,7 +340,7 @@ allElementsPane
 ISSUE_DEPRECATED
 ]
 [
-ISSUE_SCROLLBAR_COLOR
+ISSUE_NOT_DEPRECATED
 ISSUE_DEPRECATED
 ]
 async
@@ -384,9 +384,9 @@ newElementWithIssue
 style
 [
 "
-scrollbar
+overflow
 -
-color
+anchor
 "
 ]
 =
@@ -489,10 +489,10 @@ inspector
 selectedElementPane
 allElementsPane
 [
-ISSUE_SCROLLBAR_COLOR
+ISSUE_NOT_DEPRECATED
 ]
 [
-ISSUE_SCROLLBAR_COLOR
+ISSUE_NOT_DEPRECATED
 ]
 async
 function

@@ -72,9 +72,9 @@ only
 }
 div
 {
-scrollbar
+user
 -
-color
+select
 :
 auto
 ;
@@ -189,9 +189,9 @@ TEST_DATA_SELECTED
 property
 :
 "
-scrollbar
+user
 -
-color
+select
 "
 url
 :
@@ -216,9 +216,9 @@ Reference
 /
 Properties
 /
-scrollbar
+user
 -
-color
+select
 "
 }
 ]
