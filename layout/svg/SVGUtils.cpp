@@ -938,7 +938,10 @@ filterFrames
 SVGObserverUtils
 :
 :
-eHasRefsSomeInvalid
+ReferenceState
+:
+:
+HasRefsSomeInvalid
 )
 {
 return
@@ -2811,7 +2814,10 @@ nullptr
 SVGObserverUtils
 :
 :
-eHasNoRefs
+ReferenceState
+:
+:
+HasNoRefs
 )
 {
 usage
@@ -3993,7 +3999,10 @@ filterFrames
 SVGObserverUtils
 :
 :
-eHasRefsSomeInvalid
+ReferenceState
+:
+:
+HasRefsSomeInvalid
 ;
 SVGObserverUtils
 :
@@ -6292,7 +6301,10 @@ clipPathFrame
 SVGObserverUtils
 :
 :
-eHasRefsSomeInvalid
+ReferenceState
+:
+:
+HasRefsSomeInvalid
 )
 {
 bbox

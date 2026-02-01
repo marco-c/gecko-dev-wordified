@@ -413,7 +413,10 @@ filterFrames
 SVGObserverUtils
 :
 :
-eHasRefsSomeInvalid
+ReferenceState
+:
+:
+HasRefsSomeInvalid
 )
 {
 return
@@ -1144,7 +1147,10 @@ aStyleFilterType
 SVGObserverUtils
 :
 :
-eHasRefsSomeInvalid
+ReferenceState
+:
+:
+HasRefsSomeInvalid
 )
 {
 return
@@ -9395,7 +9401,10 @@ aStyleFilterType
 SVGObserverUtils
 :
 :
-eHasRefsSomeInvalid
+ReferenceState
+:
+:
+HasRefsSomeInvalid
 )
 {
 return

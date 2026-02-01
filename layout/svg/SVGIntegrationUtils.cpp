@@ -2764,7 +2764,7 @@ not
 return
 here
 for
-eHasNoRefs
+HasNoRefs
 since
 we
 must
@@ -2789,7 +2789,7 @@ an
 empty
 rect
 for
-eHasRefsSomeInvalid
+HasRefsSomeInvalid
 since
 /
 /
@@ -2826,7 +2826,10 @@ filterFrames
 SVGObserverUtils
 :
 :
-eHasRefsSomeInvalid
+ReferenceState
+:
+:
+HasRefsSomeInvalid
 )
 {
 return
@@ -3098,7 +3101,10 @@ filterFrames
 SVGObserverUtils
 :
 :
-eHasRefsSomeInvalid
+ReferenceState
+:
+:
+HasRefsSomeInvalid
 )
 {
 return
@@ -6562,7 +6568,7 @@ not
 return
 here
 for
-eHasNoRefs
+HasNoRefs
 since
 we
 must
@@ -6585,7 +6591,7 @@ need
 to
 check
 for
-eHasRefsSomeInvalid
+HasRefsSomeInvalid
 here
 given
 that
@@ -6598,7 +6604,7 @@ BuildLayer
 returns
 nullptr
 for
-eHasRefsSomeInvalid
+HasRefsSomeInvalid
 ?
 /
 /
@@ -6608,7 +6614,7 @@ we
 just
 assert
 !
-eHasRefsSomeInvalid
+HasRefsSomeInvalid
 ?
 nsTArray
 <
@@ -6633,7 +6639,10 @@ filterFrames
 SVGObserverUtils
 :
 :
-eHasRefsSomeInvalid
+ReferenceState
+:
+:
+HasRefsSomeInvalid
 )
 {
 aCallback
