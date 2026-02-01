@@ -1778,12 +1778,8 @@ to
 break
 periodically
 .
-AboutNewTab
-.
-onBrowserReady
-(
-)
-;
+/
+/
 /
 /
 There
@@ -1833,6 +1829,7 @@ foundFeed
 AboutNewTab
 .
 activityStream
+?
 .
 store
 .
