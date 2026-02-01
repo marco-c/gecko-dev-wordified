@@ -10391,10 +10391,10 @@ rtp_sender_video_
 SendVideo
 (
 kPayloadTypeRaw
-std
+VideoCodecType
 :
 :
-nullopt
+kVideoCodecGeneric
 1234
 fake_clock_
 .
