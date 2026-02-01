@@ -5680,11 +5680,11 @@ earlier
 in
 startup
 in
-InitializeJS
+InitJSEngine
 in
 /
 /
-XPCOMInit
+nsXPConnect
 .
 cpp
 .
