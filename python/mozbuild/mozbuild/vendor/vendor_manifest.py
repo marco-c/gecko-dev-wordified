@@ -7586,6 +7586,12 @@ if
 -
 mismatch
 "
+                        
+"
+-
+-
+batch
+"
                     
 ]
                     
@@ -7601,6 +7607,10 @@ script
 log_name
 =
 script
+                        
+ensure_exit_code
+=
+0
                     
 )
                 
