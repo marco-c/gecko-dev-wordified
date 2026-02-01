@@ -12163,6 +12163,10 @@ const
 nsAtom
 *
 aAnchorName
+const
+StyleCascadeLevel
+*
+aTreeScope
 StylePhysicalSide
 aPropSide
 StyleAnchorSideKeyword
@@ -12240,6 +12244,8 @@ ResolveAnchorPosRect
 positioned
 containingBlock
 aAnchorName
+*
+aTreeScope
 !
 aParams
 -
@@ -13140,6 +13146,13 @@ const
 nsAtom
 *
 aAnchorName
+const
+mozilla
+:
+:
+StyleCascadeLevel
+*
+aTreeScope
 StylePhysicalAxis
 aPropAxis
 StyleAnchorSizeKeyword
@@ -13187,6 +13200,8 @@ ResolveAnchorPosSize
 (
 positioned
 aAnchorName
+*
+aTreeScope
 aParams
 -
 >
