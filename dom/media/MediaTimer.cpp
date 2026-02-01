@@ -272,7 +272,6 @@ Get
 "
 MediaTimer
 "
-_ns
 1
 )
 )

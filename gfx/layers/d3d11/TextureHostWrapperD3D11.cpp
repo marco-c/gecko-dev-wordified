@@ -235,7 +235,6 @@ Get
 "
 TextureUpdate
 "
-_ns
 1
 )
 )
