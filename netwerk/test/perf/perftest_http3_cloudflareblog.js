@@ -122,7 +122,6 @@ waitTime
 ;
 if
 (
-(
 typeof
 context
 .
@@ -135,9 +134,8 @@ browsertime
 "
 undefined
 "
-)
 &
-(
+&
 typeof
 context
 .
@@ -152,7 +150,6 @@ waitTime
 "
 undefined
 "
-)
 )
 {
 waitTime

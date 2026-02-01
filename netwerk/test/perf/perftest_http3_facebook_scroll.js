@@ -229,7 +229,6 @@ stableCount
 while
 (
 (
-(
 await
 commands
 .
@@ -250,7 +249,7 @@ now
 starttime
 <
 timeout
-)
+&
 &
 changing
 )
