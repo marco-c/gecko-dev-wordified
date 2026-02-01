@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_CanonicalCombiningClass_HPP
+ICU4X_CanonicalCombiningClass_HPP
 #
 define
-icu4x_CanonicalCombiningClass_HPP
+ICU4X_CanonicalCombiningClass_HPP
 #
 include
 "
@@ -64,9 +64,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -922,4 +919,4 @@ nullopt
 endif
 /
 /
-icu4x_CanonicalCombiningClass_HPP
+ICU4X_CanonicalCombiningClass_HPP

@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_CodePointRangeIteratorResult_D_HPP
+ICU4X_CodePointRangeIteratorResult_D_HPP
 #
 define
-icu4x_CodePointRangeIteratorResult_D_HPP
+ICU4X_CodePointRangeIteratorResult_D_HPP
 #
 include
 <
@@ -55,9 +55,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -121,9 +118,10 @@ a
 single
 iteration
 of
-[
+{
+link
 CodePointRangeIterator
-]
+}
 .
 *
 Logically
@@ -255,4 +253,4 @@ namespace
 endif
 /
 /
-icu4x_CodePointRangeIteratorResult_D_HPP
+ICU4X_CodePointRangeIteratorResult_D_HPP

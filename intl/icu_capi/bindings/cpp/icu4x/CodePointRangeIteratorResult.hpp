@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_CodePointRangeIteratorResult_HPP
+ICU4X_CodePointRangeIteratorResult_HPP
 #
 define
-icu4x_CodePointRangeIteratorResult_HPP
+ICU4X_CodePointRangeIteratorResult_HPP
 #
 include
 "
@@ -64,9 +64,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -77,18 +74,6 @@ icu4x
 namespace
 capi
 {
-extern
-"
-C
-"
-{
-}
-/
-/
-extern
-"
-C
-"
 }
 /
 /
@@ -219,4 +204,4 @@ done
 endif
 /
 /
-icu4x_CodePointRangeIteratorResult_HPP
+ICU4X_CodePointRangeIteratorResult_HPP

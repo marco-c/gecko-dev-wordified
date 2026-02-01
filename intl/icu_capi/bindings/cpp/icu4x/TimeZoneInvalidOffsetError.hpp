@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_TimeZoneInvalidOffsetError_HPP
+ICU4X_TimeZoneInvalidOffsetError_HPP
 #
 define
-icu4x_TimeZoneInvalidOffsetError_HPP
+ICU4X_TimeZoneInvalidOffsetError_HPP
 #
 include
 "
@@ -64,9 +64,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -77,18 +74,6 @@ icu4x
 namespace
 capi
 {
-extern
-"
-C
-"
-{
-}
-/
-/
-extern
-"
-C
-"
 }
 /
 /
@@ -102,4 +87,4 @@ namespace
 endif
 /
 /
-icu4x_TimeZoneInvalidOffsetError_HPP
+ICU4X_TimeZoneInvalidOffsetError_HPP

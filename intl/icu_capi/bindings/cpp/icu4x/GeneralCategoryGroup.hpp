@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_GeneralCategoryGroup_HPP
+ICU4X_GeneralCategoryGroup_HPP
 #
 define
-icu4x_GeneralCategoryGroup_HPP
+ICU4X_GeneralCategoryGroup_HPP
 #
 include
 "
@@ -64,17 +64,14 @@ cstdlib
 #
 include
 "
-.
-.
-/
-diplomat_runtime
+GeneralCategory
 .
 hpp
 "
 #
 include
 "
-GeneralCategory
+diplomat_runtime
 .
 hpp
 "
@@ -1024,4 +1021,4 @@ mask
 endif
 /
 /
-icu4x_GeneralCategoryGroup_HPP
+ICU4X_GeneralCategoryGroup_HPP

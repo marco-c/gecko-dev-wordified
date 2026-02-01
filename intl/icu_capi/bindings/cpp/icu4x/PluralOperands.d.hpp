@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_PluralOperands_D_HPP
+ICU4X_PluralOperands_D_HPP
 #
 define
-icu4x_PluralOperands_D_HPP
+ICU4X_PluralOperands_D_HPP
 #
 include
 <
@@ -55,9 +55,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -89,6 +86,10 @@ class
 DecimalParseError
 ;
 }
+/
+/
+namespace
+icu4x
 namespace
 icu4x
 {
@@ -133,7 +134,11 @@ rs
 /
 icu
 /
-latest
+2
+.
+1
+.
+1
 /
 icu
 /
@@ -189,7 +194,11 @@ rs
 /
 icu
 /
-latest
+2
+.
+1
+.
+1
 /
 icu
 /
@@ -213,6 +222,9 @@ information
 /
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :
@@ -486,4 +498,4 @@ namespace
 endif
 /
 /
-icu4x_PluralOperands_D_HPP
+ICU4X_PluralOperands_D_HPP

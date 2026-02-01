@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_PluralCategories_HPP
+ICU4X_PluralCategories_HPP
 #
 define
-icu4x_PluralCategories_HPP
+ICU4X_PluralCategories_HPP
 #
 include
 "
@@ -64,9 +64,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -77,18 +74,6 @@ icu4x
 namespace
 capi
 {
-extern
-"
-C
-"
-{
-}
-/
-/
-extern
-"
-C
-"
 }
 /
 /
@@ -273,4 +258,4 @@ other
 endif
 /
 /
-icu4x_PluralCategories_HPP
+ICU4X_PluralCategories_HPP

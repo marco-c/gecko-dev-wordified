@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_CodePointRangeIterator_D_HPP
+ICU4X_CodePointRangeIterator_D_HPP
 #
 define
-icu4x_CodePointRangeIterator_D_HPP
+ICU4X_CodePointRangeIterator_D_HPP
 #
 include
 <
@@ -55,9 +55,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -69,6 +66,10 @@ struct
 CodePointRangeIteratorResult
 ;
 }
+/
+/
+namespace
+icu4x
 namespace
 icu4x
 {
@@ -323,4 +324,4 @@ namespace
 endif
 /
 /
-icu4x_CodePointRangeIterator_D_HPP
+ICU4X_CodePointRangeIterator_D_HPP

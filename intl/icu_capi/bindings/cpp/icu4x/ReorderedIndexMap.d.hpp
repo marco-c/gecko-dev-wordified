@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_ReorderedIndexMap_D_HPP
+ICU4X_ReorderedIndexMap_D_HPP
 #
 define
-icu4x_ReorderedIndexMap_D_HPP
+ICU4X_ReorderedIndexMap_D_HPP
 #
 include
 <
@@ -55,9 +55,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -115,9 +112,10 @@ reorder_visual
 (
 )
 on
-[
+{
+link
 Bidi
-]
+}
 .
 *
 /
@@ -142,6 +140,9 @@ indices
 *
 /
 inline
+icu4x
+:
+:
 diplomat
 :
 :
@@ -413,4 +414,4 @@ namespace
 endif
 /
 /
-icu4x_ReorderedIndexMap_D_HPP
+ICU4X_ReorderedIndexMap_D_HPP

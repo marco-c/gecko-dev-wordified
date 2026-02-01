@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_LocaleFallbackIterator_D_HPP
+ICU4X_LocaleFallbackIterator_D_HPP
 #
 define
-icu4x_LocaleFallbackIterator_D_HPP
+ICU4X_LocaleFallbackIterator_D_HPP
 #
 include
 <
@@ -55,9 +55,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -76,6 +73,10 @@ class
 Locale
 ;
 }
+/
+/
+namespace
+icu4x
 namespace
 icu4x
 {
@@ -130,7 +131,11 @@ rs
 /
 icu
 /
-latest
+2
+.
+1
+.
+1
 /
 icu
 /
@@ -337,4 +342,4 @@ namespace
 endif
 /
 /
-icu4x_LocaleFallbackIterator_D_HPP
+ICU4X_LocaleFallbackIterator_D_HPP

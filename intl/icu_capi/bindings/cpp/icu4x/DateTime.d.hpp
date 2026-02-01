@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_DateTime_D_HPP
+ICU4X_DateTime_D_HPP
 #
 define
-icu4x_DateTime_D_HPP
+ICU4X_DateTime_D_HPP
 #
 include
 <
@@ -55,9 +55,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -102,6 +99,10 @@ class
 Rfc9557ParseError
 ;
 }
+/
+/
+namespace
+icu4x
 namespace
 icu4x
 {
@@ -202,7 +203,11 @@ rs
 /
 icu
 /
-latest
+2
+.
+1
+.
+1
 /
 icu
 /
@@ -254,9 +259,10 @@ time
 Creates
 a
 new
-[
+{
+link
 DateTime
-]
+}
 from
 an
 IXDTF
@@ -283,7 +289,11 @@ rs
 /
 icu
 /
-latest
+2
+.
+1
+.
+1
 /
 icu
 /
@@ -307,6 +317,9 @@ information
 /
 inline
 static
+icu4x
+:
+:
 diplomat
 :
 :
@@ -378,4 +391,4 @@ namespace
 endif
 /
 /
-icu4x_DateTime_D_HPP
+ICU4X_DateTime_D_HPP

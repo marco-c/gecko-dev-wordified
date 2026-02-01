@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_LineBreak_HPP
+ICU4X_LineBreak_HPP
 #
 define
-icu4x_LineBreak_HPP
+ICU4X_LineBreak_HPP
 #
 include
 "
@@ -64,9 +64,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -101,6 +98,9 @@ icu4x_LineBreak_long_name_mv1_result
 {
 union
 {
+icu4x
+:
+:
 diplomat
 :
 :
@@ -137,6 +137,9 @@ icu4x_LineBreak_short_name_mv1_result
 {
 union
 {
+icu4x
+:
+:
 diplomat
 :
 :
@@ -721,6 +724,15 @@ capi
 :
 LineBreak_Virama
 :
+case
+icu4x
+:
+:
+capi
+:
+:
+LineBreak_UnambiguousHyphen
+:
 return
 static_cast
 <
@@ -1066,4 +1078,4 @@ nullopt
 endif
 /
 /
-icu4x_LineBreak_HPP
+ICU4X_LineBreak_HPP

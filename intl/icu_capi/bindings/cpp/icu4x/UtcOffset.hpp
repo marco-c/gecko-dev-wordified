@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_UtcOffset_HPP
+ICU4X_UtcOffset_HPP
 #
 define
-icu4x_UtcOffset_HPP
+ICU4X_UtcOffset_HPP
 #
 include
 "
@@ -64,17 +64,14 @@ cstdlib
 #
 include
 "
-.
-.
-/
-diplomat_runtime
+TimeZoneInvalidOffsetError
 .
 hpp
 "
 #
 include
 "
-TimeZoneInvalidOffsetError
+diplomat_runtime
 .
 hpp
 "
@@ -147,6 +144,9 @@ icu4x_UtcOffset_from_string_mv1_result
 icu4x_UtcOffset_from_string_mv1_result
 icu4x_UtcOffset_from_string_mv1
 (
+icu4x
+:
+:
 diplomat
 :
 :
@@ -272,6 +272,9 @@ capi
 /
 namespace
 inline
+icu4x
+:
+:
 diplomat
 :
 :
@@ -323,6 +326,9 @@ result
 .
 is_ok
 ?
+icu4x
+:
+:
 diplomat
 :
 :
@@ -344,6 +350,9 @@ icu4x
 TimeZoneInvalidOffsetError
 >
 (
+icu4x
+:
+:
 diplomat
 :
 :
@@ -388,6 +397,9 @@ ok
 )
 )
 :
+icu4x
+:
+:
 diplomat
 :
 :
@@ -409,6 +421,9 @@ icu4x
 TimeZoneInvalidOffsetError
 >
 (
+icu4x
+:
+:
 diplomat
 :
 :
@@ -431,6 +446,9 @@ TimeZoneInvalidOffsetError
 ;
 }
 inline
+icu4x
+:
+:
 diplomat
 :
 :
@@ -496,6 +514,9 @@ result
 .
 is_ok
 ?
+icu4x
+:
+:
 diplomat
 :
 :
@@ -517,6 +538,9 @@ icu4x
 TimeZoneInvalidOffsetError
 >
 (
+icu4x
+:
+:
 diplomat
 :
 :
@@ -561,6 +585,9 @@ ok
 )
 )
 :
+icu4x
+:
+:
 diplomat
 :
 :
@@ -582,6 +609,9 @@ icu4x
 TimeZoneInvalidOffsetError
 >
 (
+icu4x
+:
+:
 diplomat
 :
 :
@@ -1020,4 +1050,4 @@ ptr
 endif
 /
 /
-icu4x_UtcOffset_HPP
+ICU4X_UtcOffset_HPP

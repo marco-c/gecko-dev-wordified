@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_BidiInfo_D_HPP
+ICU4X_BidiInfo_D_HPP
 #
 define
-icu4x_BidiInfo_D_HPP
+ICU4X_BidiInfo_D_HPP
 #
 include
 <
@@ -55,9 +55,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -76,6 +73,10 @@ class
 BidiParagraph
 ;
 }
+/
+/
+namespace
+icu4x
 namespace
 icu4x
 {
@@ -138,7 +139,11 @@ rs
 /
 unicode_bidi
 /
-latest
+0
+.
+3
+.
+11
 /
 unicode_bidi
 /
@@ -468,4 +473,4 @@ namespace
 endif
 /
 /
-icu4x_BidiInfo_D_HPP
+ICU4X_BidiInfo_D_HPP

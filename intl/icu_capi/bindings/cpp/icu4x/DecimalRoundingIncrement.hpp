@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_DecimalRoundingIncrement_HPP
+ICU4X_DecimalRoundingIncrement_HPP
 #
 define
-icu4x_DecimalRoundingIncrement_HPP
+ICU4X_DecimalRoundingIncrement_HPP
 #
 include
 "
@@ -64,9 +64,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -77,18 +74,6 @@ icu4x
 namespace
 capi
 {
-extern
-"
-C
-"
-{
-}
-/
-/
-extern
-"
-C
-"
 }
 /
 /
@@ -227,4 +212,4 @@ abort
 endif
 /
 /
-icu4x_DecimalRoundingIncrement_HPP
+ICU4X_DecimalRoundingIncrement_HPP

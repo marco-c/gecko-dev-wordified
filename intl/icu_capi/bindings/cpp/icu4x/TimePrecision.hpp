@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_TimePrecision_HPP
+ICU4X_TimePrecision_HPP
 #
 define
-icu4x_TimePrecision_HPP
+ICU4X_TimePrecision_HPP
 #
 include
 "
@@ -64,9 +64,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -411,4 +408,4 @@ nullopt
 endif
 /
 /
-icu4x_TimePrecision_HPP
+ICU4X_TimePrecision_HPP

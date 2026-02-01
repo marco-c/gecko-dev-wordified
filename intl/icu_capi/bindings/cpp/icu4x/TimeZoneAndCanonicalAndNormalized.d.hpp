@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_TimeZoneAndCanonicalAndNormalized_D_HPP
+ICU4X_TimeZoneAndCanonicalAndNormalized_D_HPP
 #
 define
-icu4x_TimeZoneAndCanonicalAndNormalized_D_HPP
+ICU4X_TimeZoneAndCanonicalAndNormalized_D_HPP
 #
 include
 <
@@ -55,9 +55,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -76,6 +73,10 @@ class
 TimeZone
 ;
 }
+/
+/
+namespace
+icu4x
 namespace
 icu4x
 {
@@ -95,6 +96,9 @@ TimeZone
 *
 time_zone
 ;
+icu4x
+:
+:
 diplomat
 :
 :
@@ -104,6 +108,9 @@ capi
 DiplomatStringView
 canonical
 ;
+icu4x
+:
+:
 diplomat
 :
 :
@@ -167,7 +174,11 @@ rs
 /
 icu
 /
-latest
+2
+.
+1
+.
+1
 /
 icu
 /
@@ -257,4 +268,4 @@ namespace
 endif
 /
 /
-icu4x_TimeZoneAndCanonicalAndNormalized_D_HPP
+ICU4X_TimeZoneAndCanonicalAndNormalized_D_HPP

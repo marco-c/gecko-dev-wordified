@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_LocaleFallbackPriority_HPP
+ICU4X_LocaleFallbackPriority_HPP
 #
 define
-icu4x_LocaleFallbackPriority_HPP
+ICU4X_LocaleFallbackPriority_HPP
 #
 include
 "
@@ -64,9 +64,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -77,18 +74,6 @@ icu4x
 namespace
 capi
 {
-extern
-"
-C
-"
-{
-}
-/
-/
-extern
-"
-C
-"
 }
 /
 /
@@ -209,4 +194,4 @@ abort
 endif
 /
 /
-icu4x_LocaleFallbackPriority_HPP
+ICU4X_LocaleFallbackPriority_HPP

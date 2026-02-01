@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_WeekdaySetIterator_D_HPP
+ICU4X_WeekdaySetIterator_D_HPP
 #
 define
-icu4x_WeekdaySetIterator_D_HPP
+ICU4X_WeekdaySetIterator_D_HPP
 #
 include
 <
@@ -55,9 +55,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -69,6 +66,10 @@ class
 Weekday
 ;
 }
+/
+/
+namespace
+icu4x
 namespace
 icu4x
 {
@@ -130,7 +131,11 @@ rs
 /
 icu
 /
-latest
+2
+.
+1
+.
+1
 /
 icu
 /
@@ -178,7 +183,11 @@ rs
 /
 icu
 /
-latest
+2
+.
+1
+.
+1
 /
 icu
 /
@@ -384,4 +393,4 @@ namespace
 endif
 /
 /
-icu4x_WeekdaySetIterator_D_HPP
+ICU4X_WeekdaySetIterator_D_HPP

@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_DecimalLimitError_D_HPP
+ICU4X_DecimalLimitError_D_HPP
 #
 define
-icu4x_DecimalLimitError_D_HPP
+ICU4X_DecimalLimitError_D_HPP
 #
 include
 <
@@ -55,9 +55,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -101,7 +98,11 @@ rs
 /
 fixed_decimal
 /
-latest
+0
+.
+7
+.
+0
 /
 fixed_decimal
 /
@@ -126,4 +127,4 @@ namespace
 endif
 /
 /
-icu4x_DecimalLimitError_D_HPP
+ICU4X_DecimalLimitError_D_HPP

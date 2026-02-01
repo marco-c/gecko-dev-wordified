@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_Decomposed_D_HPP
+ICU4X_Decomposed_D_HPP
 #
 define
-icu4x_Decomposed_D_HPP
+ICU4X_Decomposed_D_HPP
 #
 include
 <
@@ -55,9 +55,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -170,7 +167,11 @@ rs
 /
 icu
 /
-latest
+2
+.
+1
+.
+1
 /
 icu
 /
@@ -240,4 +241,4 @@ namespace
 endif
 /
 /
-icu4x_Decomposed_D_HPP
+ICU4X_Decomposed_D_HPP

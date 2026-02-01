@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_TimeZoneAndCanonicalIterator_HPP
+ICU4X_TimeZoneAndCanonicalIterator_HPP
 #
 define
-icu4x_TimeZoneAndCanonicalIterator_HPP
+ICU4X_TimeZoneAndCanonicalIterator_HPP
 #
 include
 "
@@ -64,17 +64,14 @@ cstdlib
 #
 include
 "
-.
-.
-/
-diplomat_runtime
+TimeZoneAndCanonical
 .
 hpp
 "
 #
 include
 "
-TimeZoneAndCanonical
+diplomat_runtime
 .
 hpp
 "
@@ -427,4 +424,4 @@ ptr
 endif
 /
 /
-icu4x_TimeZoneAndCanonicalIterator_HPP
+ICU4X_TimeZoneAndCanonicalIterator_HPP

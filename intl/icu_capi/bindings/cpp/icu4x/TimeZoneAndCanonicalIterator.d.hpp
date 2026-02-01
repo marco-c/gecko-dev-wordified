@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_TimeZoneAndCanonicalIterator_D_HPP
+ICU4X_TimeZoneAndCanonicalIterator_D_HPP
 #
 define
-icu4x_TimeZoneAndCanonicalIterator_D_HPP
+ICU4X_TimeZoneAndCanonicalIterator_D_HPP
 #
 include
 <
@@ -55,9 +55,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -69,6 +66,10 @@ struct
 TimeZoneAndCanonical
 ;
 }
+/
+/
+namespace
+icu4x
 namespace
 icu4x
 {
@@ -113,7 +114,11 @@ rs
 /
 icu
 /
-latest
+2
+.
+1
+.
+1
 /
 icu
 /
@@ -163,7 +168,11 @@ rs
 /
 icu
 /
-latest
+2
+.
+1
+.
+1
 /
 icu
 /
@@ -371,4 +380,4 @@ namespace
 endif
 /
 /
-icu4x_TimeZoneAndCanonicalIterator_D_HPP
+ICU4X_TimeZoneAndCanonicalIterator_D_HPP

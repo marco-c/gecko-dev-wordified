@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_BidiMirroringGlyph_HPP
+ICU4X_BidiMirroringGlyph_HPP
 #
 define
-icu4x_BidiMirroringGlyph_HPP
+ICU4X_BidiMirroringGlyph_HPP
 #
 include
 "
@@ -64,17 +64,14 @@ cstdlib
 #
 include
 "
-.
-.
-/
-diplomat_runtime
+BidiPairedBracketType
 .
 hpp
 "
 #
 include
 "
-BidiPairedBracketType
+diplomat_runtime
 .
 hpp
 "
@@ -204,6 +201,9 @@ has_value
 )
 ?
 (
+icu4x
+:
+:
 diplomat
 :
 :
@@ -224,6 +224,9 @@ true
 )
 :
 (
+icu4x
+:
+:
 diplomat
 :
 :
@@ -354,4 +357,4 @@ paired_bracket_type
 endif
 /
 /
-icu4x_BidiMirroringGlyph_HPP
+ICU4X_BidiMirroringGlyph_HPP

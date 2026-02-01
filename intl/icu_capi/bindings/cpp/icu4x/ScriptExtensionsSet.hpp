@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_ScriptExtensionsSet_HPP
+ICU4X_ScriptExtensionsSet_HPP
 #
 define
-icu4x_ScriptExtensionsSet_HPP
+ICU4X_ScriptExtensionsSet_HPP
 #
 include
 "
@@ -64,9 +64,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -513,4 +510,4 @@ ptr
 endif
 /
 /
-icu4x_ScriptExtensionsSet_HPP
+ICU4X_ScriptExtensionsSet_HPP

@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_CalendarKind_HPP
+ICU4X_CalendarKind_HPP
 #
 define
-icu4x_CalendarKind_HPP
+ICU4X_CalendarKind_HPP
 #
 include
 "
@@ -64,17 +64,14 @@ cstdlib
 #
 include
 "
-.
-.
-/
-diplomat_runtime
+Locale
 .
 hpp
 "
 #
 include
 "
-Locale
+diplomat_runtime
 .
 hpp
 "
@@ -434,4 +431,4 @@ result
 endif
 /
 /
-icu4x_CalendarKind_HPP
+ICU4X_CalendarKind_HPP

@@ -1,9 +1,9 @@
 #
 ifndef
-icu4x_IsoWeekOfYear_HPP
+ICU4X_IsoWeekOfYear_HPP
 #
 define
-icu4x_IsoWeekOfYear_HPP
+ICU4X_IsoWeekOfYear_HPP
 #
 include
 "
@@ -64,9 +64,6 @@ cstdlib
 #
 include
 "
-.
-.
-/
 diplomat_runtime
 .
 hpp
@@ -77,18 +74,6 @@ icu4x
 namespace
 capi
 {
-extern
-"
-C
-"
-{
-}
-/
-/
-extern
-"
-C
-"
 }
 /
 /
@@ -201,4 +186,4 @@ iso_year
 endif
 /
 /
-icu4x_IsoWeekOfYear_HPP
+ICU4X_IsoWeekOfYear_HPP
