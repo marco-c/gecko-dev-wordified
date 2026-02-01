@@ -1371,6 +1371,10 @@ Self
 :
 :
 Barycentric
+{
+.
+.
+}
 =
 >
 "
@@ -1794,6 +1798,16 @@ Some
 "
 nointerpolation
 "
+)
+Self
+:
+:
+PerVertex
+=
+>
+unreachable
+!
+(
 )
 }
 }

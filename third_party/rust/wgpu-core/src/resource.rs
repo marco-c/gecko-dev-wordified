@@ -16942,7 +16942,7 @@ raw
 (
 )
 .
-flush_mapped_ranges
+invalidate_mapped_ranges
 (
 compaction_buffer
 &

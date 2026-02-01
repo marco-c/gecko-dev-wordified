@@ -219,7 +219,7 @@ to
 a
 MemoryInitKind
 .
-ImplicitlyInitialized
+NeedsInitializedMemory
 action
 exactly
 like

@@ -4909,6 +4909,10 @@ BuiltIn
 :
 :
 Barycentric
+{
+.
+.
+}
 =
 >
 {

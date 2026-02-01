@@ -35,6 +35,7 @@ Function
 FunctionArgument
 Instruction
 LookupFunctionType
+LookupRayQueryFunction
 NumericType
 Writer
 }
@@ -51,10 +52,7 @@ Handle
 back
 :
 :
-spv
-:
-:
-LookupRayQueryFunction
+RayQueryPoint
 }
 ;
 /
@@ -1110,9 +1108,6 @@ self
 mut
 block
 loaded_ray_query_tracker_id
-super
-:
-:
 RayQueryPoint
 :
 :
@@ -1133,9 +1128,6 @@ self
 mut
 block
 loaded_ray_query_tracker_id
-super
-:
-:
 RayQueryPoint
 :
 :
@@ -5209,9 +5201,6 @@ Literal
 :
 U32
 (
-super
-:
-:
 RayQueryPoint
 :
 :
@@ -5694,9 +5683,6 @@ self
 mut
 block
 initialized_tracker_id
-super
-:
-:
 RayQueryPoint
 :
 :
@@ -5819,17 +5805,11 @@ Literal
 U32
 (
 (
-super
-:
-:
 RayQueryPoint
 :
 :
 PROCEED
 |
-super
-:
-:
 RayQueryPoint
 :
 :
@@ -5857,9 +5837,6 @@ Literal
 :
 U32
 (
-super
-:
-:
 RayQueryPoint
 :
 :
@@ -6389,9 +6366,6 @@ self
 mut
 block
 initialized_tracker_id
-super
-:
-:
 RayQueryPoint
 :
 :
@@ -6412,9 +6386,6 @@ self
 mut
 block
 initialized_tracker_id
-super
-:
-:
 RayQueryPoint
 :
 :
@@ -7802,9 +7773,6 @@ self
 mut
 block
 initialized_tracker_id
-super
-:
-:
 RayQueryPoint
 :
 :
@@ -7825,9 +7793,6 @@ self
 mut
 block
 initialized_tracker_id
-super
-:
-:
 RayQueryPoint
 :
 :
@@ -8657,9 +8622,6 @@ self
 mut
 block
 initialized_tracker_id
-super
-:
-:
 RayQueryPoint
 :
 :
@@ -8680,9 +8642,6 @@ self
 mut
 block
 initialized_tracker_id
-super
-:
-:
 RayQueryPoint
 :
 :
@@ -9385,9 +9344,6 @@ self
 mut
 block
 initialized_tracker_id
-super
-:
-:
 RayQueryPoint
 :
 :
@@ -9408,9 +9364,6 @@ self
 mut
 block
 initialized_tracker_id
-super
-:
-:
 RayQueryPoint
 :
 :
