@@ -131,7 +131,7 @@ Mozilla
 (
 Windows
 NT
-10
+11
 .
 0
 ;
@@ -3400,7 +3400,7 @@ Gecko
 )
 Version
 /
-18
+26
 .
 1
 Safari
