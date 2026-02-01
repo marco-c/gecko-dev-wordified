@@ -262,6 +262,18 @@ dbg
 5
 )
 "
+Block
+"
+)
+;
+is
+(
+getScopeNodeLabel
+(
+dbg
+6
+)
+"
 Window
 "
 )
@@ -271,7 +283,7 @@ is
 getScopeNodeValue
 (
 dbg
-5
+6
 )
 "
 Global
