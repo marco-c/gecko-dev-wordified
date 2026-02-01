@@ -352,18 +352,24 @@ def
 run
 (
     
+metrics
+    
 index
 =
 0
+    
 purge
 =
 False
+    
 list_configs
 =
 False
+    
 list_tasks
 =
 0
+    
 message
 =
 "
@@ -371,6 +377,7 @@ message
 msg
 }
 "
+    
 *
 *
 pushargs
@@ -471,6 +478,16 @@ history_path
         
 return
 1
+    
+metrics
+.
+mach_try
+.
+task_config_generation_duration
+.
+start
+(
+)
     
 with
 open
@@ -993,6 +1010,16 @@ msg
         
 return
     
+metrics
+.
+mach_try
+.
+task_config_generation_duration
+.
+stop
+(
+)
+    
 msg
 try_task_config
 =
@@ -1013,6 +1040,7 @@ push_to_try
 "
 again
 "
+        
 message
 .
 format
@@ -1021,9 +1049,13 @@ msg
 =
 msg
 )
+        
+metrics
+        
 try_task_config
 =
 try_task_config
+        
 *
 *
 pushargs

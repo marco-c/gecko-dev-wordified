@@ -795,6 +795,8 @@ def
 run
 (
     
+metrics
+    
 update
 =
 False
@@ -877,11 +879,31 @@ kwargs
 )
 :
     
+metrics
+.
+mach_try
+.
+fzf_bootstrap_duration
+.
+start
+(
+)
+    
 fzf
 =
 fzf_bootstrap
 (
 update
+)
+    
+metrics
+.
+mach_try
+.
+fzf_bootstrap_duration
+.
+stop
+(
 )
     
 if
@@ -935,6 +957,16 @@ target_tasks_method
 "
 )
     
+metrics
+.
+mach_try
+.
+taskgraph_generation_duration
+.
+start
+(
+)
+    
 tg
 =
 generate_tasks
@@ -961,6 +993,26 @@ all_tasks
 tg
 .
 tasks
+    
+metrics
+.
+mach_try
+.
+taskgraph_generation_duration
+.
+stop
+(
+)
+    
+metrics
+.
+mach_try
+.
+task_filtering_duration
+.
+start
+(
+)
     
 if
 not
@@ -1033,6 +1085,16 @@ not
 all_tasks
 :
             
+metrics
+.
+mach_try
+.
+task_filtering_duration
+.
+stop
+(
+)
+            
 return
 1
     
@@ -1058,8 +1120,28 @@ not
 all_tasks
 :
             
+metrics
+.
+mach_try
+.
+task_filtering_duration
+.
+stop
+(
+)
+            
 return
 1
+    
+metrics
+.
+mach_try
+.
+task_filtering_duration
+.
+stop
+(
+)
     
 key_shortcuts
 =
@@ -1279,6 +1361,16 @@ keys
 )
 )
         
+metrics
+.
+mach_try
+.
+interactive_duration
+.
+start
+(
+)
+        
 query_str
 tasks
 =
@@ -1289,6 +1381,16 @@ sorted
 (
 fzf_tasks
 )
+)
+        
+metrics
+.
+mach_try
+.
+interactive_duration
+.
+stop
+(
 )
         
 queries
@@ -1536,6 +1638,41 @@ args
 )
 )
     
+metrics
+.
+mach_try
+.
+task_config_generation_duration
+.
+start
+(
+)
+    
+try_task_config
+=
+generate_try_task_config
+(
+        
+"
+fuzzy
+"
+selected
+params
+=
+try_config_params
+    
+)
+    
+metrics
+.
+mach_try
+.
+task_config_generation_duration
+.
+stop
+(
+)
+    
 return
 push_to_try
 (
@@ -1553,20 +1690,11 @@ msg
 msg
 )
         
+metrics
+        
 try_task_config
 =
-generate_try_task_config
-(
-            
-"
-fuzzy
-"
-selected
-params
-=
-try_config_params
-        
-)
+try_task_config
         
 stage_changes
 =

@@ -205,6 +205,8 @@ def
 run
 (
     
+metrics
+    
 update
 =
 False
@@ -282,12 +284,42 @@ check_working_directory
 push
 )
     
+metrics
+.
+mach_try
+.
+taskgraph_generation_duration
+.
+start
+(
+)
+    
 tg
 =
 generate_tasks
 (
 parameters
 full
+)
+    
+metrics
+.
+mach_try
+.
+taskgraph_generation_duration
+.
+stop
+(
+)
+    
+metrics
+.
+mach_try
+.
+task_filtering_duration
+.
+start
+(
 )
     
 #
@@ -351,6 +383,16 @@ tasks
 pop
 (
 task
+)
+    
+metrics
+.
+mach_try
+.
+task_filtering_duration
+.
+stop
+(
 )
     
 queue
@@ -499,11 +541,31 @@ start
 (
 )
     
+metrics
+.
+mach_try
+.
+interactive_duration
+.
+start
+(
+)
+    
 selected
 =
 queue
 .
 get
+(
+)
+    
+metrics
+.
+mach_try
+.
+interactive_duration
+.
+stop
 (
 )
     
@@ -584,6 +646,8 @@ msg
 =
 msg
 )
+        
+metrics
         
 try_task_config
 =

@@ -512,6 +512,8 @@ def
 run
 (
     
+metrics
+    
 message
 =
 "
@@ -557,6 +559,16 @@ False
 ignored
 )
 :
+    
+metrics
+.
+mach_try
+.
+task_config_generation_duration
+.
+start
+(
+)
     
 msg
 =
@@ -694,6 +706,16 @@ params
     
 }
     
+metrics
+.
+mach_try
+.
+task_config_generation_duration
+.
+stop
+(
+)
+    
 return
 push_to_try
 (
@@ -703,6 +725,8 @@ auto
 "
         
 msg
+        
+metrics
         
 try_task_config
 =

@@ -140,6 +140,8 @@ def
 run
 (
     
+metrics
+    
 message
 =
 "
@@ -241,6 +243,8 @@ msg
 =
 msg
 )
+        
+metrics
         
 try_task_config
 =

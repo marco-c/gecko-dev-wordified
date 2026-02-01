@@ -59,6 +59,12 @@ from
 importlib
 import
 reload
+from
+unittest
+.
+mock
+import
+MagicMock
 import
 mozunit
 import
@@ -122,6 +128,12 @@ monkeypatch
 )
 :
     
+metrics
+=
+MagicMock
+(
+)
+    
 push
 .
 push_to_try
@@ -135,6 +147,8 @@ fuzzy
 Fuzzy
 message
 "
+        
+metrics
         
 try_task_config
 =
@@ -273,6 +287,7 @@ again
 .
 run
 (
+metrics
 )
     
 assert
@@ -423,6 +438,12 @@ push
 history_path
 )
     
+metrics
+=
+MagicMock
+(
+)
+    
 push
 .
 push_to_try
@@ -435,6 +456,8 @@ fuzzy
 "
 Fuzzy
 "
+        
+metrics
         
 try_task_config
 =
@@ -494,6 +517,7 @@ again
 .
 run
 (
+metrics
 )
 =
 =

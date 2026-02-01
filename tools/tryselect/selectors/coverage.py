@@ -2820,6 +2820,8 @@ def
 run
 (
     
+metrics
+    
 try_config_params
 =
 {
@@ -2858,6 +2860,16 @@ push_to_vcs
 False
 )
 :
+    
+metrics
+.
+mach_try
+.
+remote_data_fetching_duration
+.
+start
+(
+)
     
 setup_globals
 (
@@ -2914,6 +2926,26 @@ run
 return
 1
     
+metrics
+.
+mach_try
+.
+remote_data_fetching_duration
+.
+stop
+(
+)
+    
+metrics
+.
+mach_try
+.
+taskgraph_generation_duration
+.
+start
+(
+)
+    
 tg
 =
 generate_tasks
@@ -2927,6 +2959,26 @@ all_tasks
 tg
 .
 tasks
+    
+metrics
+.
+mach_try
+.
+taskgraph_generation_duration
+.
+stop
+(
+)
+    
+metrics
+.
+mach_try
+.
+task_filtering_duration
+.
+start
+(
+)
     
 tasks_by_chunks
 =
@@ -2965,6 +3017,26 @@ tasks
 list
 (
 tasks
+)
+    
+metrics
+.
+mach_try
+.
+task_filtering_duration
+.
+stop
+(
+)
+    
+metrics
+.
+mach_try
+.
+task_config_generation_duration
+.
+start
+(
 )
     
 if
@@ -3172,6 +3244,16 @@ path_env
     
 )
     
+metrics
+.
+mach_try
+.
+task_config_generation_duration
+.
+stop
+(
+)
+    
 #
 Build
 commit
@@ -3204,6 +3286,8 @@ msg
 =
 msg
 )
+        
+metrics
         
 try_task_config
 =

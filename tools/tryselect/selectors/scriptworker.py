@@ -802,6 +802,8 @@ def
 run
 (
     
+metrics
+    
 task_type
     
 release_type
@@ -856,6 +858,16 @@ exit
 0
 )
     
+metrics
+.
+mach_try
+.
+remote_data_fetching_duration
+.
+start
+(
+)
+    
 if
 release_type
 =
@@ -902,6 +914,26 @@ find_existing_tasks
 [
 previous_graph
 ]
+)
+    
+metrics
+.
+mach_try
+.
+remote_data_fetching_duration
+.
+stop
+(
+)
+    
+metrics
+.
+mach_try
+.
+task_config_generation_duration
+.
+start
+(
 )
     
 previous_parameters
@@ -1159,6 +1191,16 @@ existing_tasks
 label
 ]
     
+metrics
+.
+mach_try
+.
+task_config_generation_duration
+.
+stop
+(
+)
+    
 msg
 =
 f
@@ -1187,6 +1229,8 @@ msg
 =
 msg
 )
+        
+metrics
         
 stage_changes
 =

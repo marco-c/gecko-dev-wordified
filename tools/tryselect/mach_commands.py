@@ -80,6 +80,10 @@ mozbuild
 util
 import
 memoize
+from
+tryselect
+import
+TRYSELECT_METRICS_PATH
 CONFIG_ENVIRONMENT_NOT_FOUND
 =
 "
@@ -1182,6 +1186,11 @@ run
 *
 *
 kwargs
+metrics
+=
+command_context
+.
+metrics
 )
     
 #
@@ -1327,6 +1336,10 @@ virtualenv_name
 "
 try
 "
+    
+metrics_path
+=
+TRYSELECT_METRICS_PATH
 )
 def
 try_default
@@ -1642,6 +1655,10 @@ virtualenv_name
 "
 try
 "
+    
+metrics_path
+=
+TRYSELECT_METRICS_PATH
 )
 def
 try_fuzzy
@@ -2634,6 +2651,10 @@ virtualenv_name
 "
 try
 "
+    
+metrics_path
+=
+TRYSELECT_METRICS_PATH
 )
 def
 try_chooser
@@ -2792,6 +2813,10 @@ virtualenv_name
 "
 try
 "
+    
+metrics_path
+=
+TRYSELECT_METRICS_PATH
 )
 def
 try_auto
@@ -2853,6 +2878,10 @@ virtualenv_name
 "
 try
 "
+    
+metrics_path
+=
+TRYSELECT_METRICS_PATH
 )
 def
 try_again
@@ -2915,6 +2944,10 @@ virtualenv_name
 "
 try
 "
+    
+metrics_path
+=
+TRYSELECT_METRICS_PATH
 )
 def
 try_empty
@@ -3050,6 +3083,10 @@ virtualenv_name
 "
 try
 "
+    
+metrics_path
+=
+TRYSELECT_METRICS_PATH
 )
 def
 try_coverage
@@ -3132,6 +3169,10 @@ virtualenv_name
 "
 try
 "
+    
+metrics_path
+=
+TRYSELECT_METRICS_PATH
 )
 def
 try_release
@@ -3213,6 +3254,10 @@ virtualenv_name
 "
 try
 "
+    
+metrics_path
+=
+TRYSELECT_METRICS_PATH
 )
 def
 try_scriptworker
@@ -3306,6 +3351,10 @@ virtualenv_name
 "
 try
 "
+    
+metrics_path
+=
+TRYSELECT_METRICS_PATH
 )
 def
 try_compare
@@ -3367,6 +3416,10 @@ virtualenv_name
 "
 try
 "
+    
+metrics_path
+=
+TRYSELECT_METRICS_PATH
 )
 def
 try_perf
