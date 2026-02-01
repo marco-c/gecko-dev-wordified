@@ -283,7 +283,7 @@ doc
 getElementById
 (
 "
-chatbotProvider
+aiControlSidebarChatbot
 "
 )
 ;
@@ -352,6 +352,7 @@ providerControl
 .
 value
 "
+available
 "
 "
 No
@@ -433,6 +434,7 @@ providerControl
 .
 value
 "
+available
 "
 "
 Provider
@@ -461,6 +463,7 @@ provider
 "
 )
 "
+available
 "
 "
 Pref
