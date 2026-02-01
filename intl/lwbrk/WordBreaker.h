@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-mozilla_intl_WordBreaker_h__
+mozilla_intl_WordBreaker_h_
 #
 define
-mozilla_intl_WordBreaker_h__
+mozilla_intl_WordBreaker_h_
 #
 include
 "
@@ -458,6 +458,6 @@ mozilla
 endif
 /
 *
-mozilla_intl_WordBreaker_h__
+mozilla_intl_WordBreaker_h_
 *
 /

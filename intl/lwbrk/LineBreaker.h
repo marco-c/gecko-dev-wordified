@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-mozilla_intl_LineBreaker_h__
+mozilla_intl_LineBreaker_h_
 #
 define
-mozilla_intl_LineBreaker_h__
+mozilla_intl_LineBreaker_h_
 #
 include
 <
@@ -694,6 +694,6 @@ mozilla
 endif
 /
 *
-mozilla_intl_LineBreaker_h__
+mozilla_intl_LineBreaker_h_
 *
 /

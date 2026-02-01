@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsStringBundleService_h__
+nsStringBundleService_h_
 #
 define
-nsStringBundleService_h__
+nsStringBundleService_h_
 #
 include
 "

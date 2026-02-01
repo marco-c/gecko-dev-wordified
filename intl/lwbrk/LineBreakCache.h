@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-mozilla_intl_LineBreakCache_h__
+mozilla_intl_LineBreakCache_h_
 #
 define
-mozilla_intl_LineBreakCache_h__
+mozilla_intl_LineBreakCache_h_
 #
 include
 "
@@ -619,6 +619,6 @@ mozilla
 endif
 /
 *
-mozilla_intl_LineBreakCache_h__
+mozilla_intl_LineBreakCache_h_
 *
 /

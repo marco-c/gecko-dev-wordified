@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsLWBrkCIID_h__
+nsLWBrkCIID_h_
 #
 define
-nsLWBrkCIID_h__
+nsLWBrkCIID_h_
 /
 /
 {

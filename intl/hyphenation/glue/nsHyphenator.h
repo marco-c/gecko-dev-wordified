@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsHyphenator_h__
+nsHyphenator_h_
 #
 define
-nsHyphenator_h__
+nsHyphenator_h_
 #
 include
 "
@@ -385,4 +385,4 @@ mHyphenateCapitalized
 endif
 /
 /
-nsHyphenator_h__
+nsHyphenator_h_

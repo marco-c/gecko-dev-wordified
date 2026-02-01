@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-mozilla_ICUUtils_h__
+mozilla_ICUUtils_h_
 #
 define
-mozilla_ICUUtils_h__
+mozilla_ICUUtils_h_
 /
 /
 The
@@ -620,6 +620,6 @@ MOZILLA_INTERNAL_API
 endif
 /
 *
-mozilla_ICUUtils_h__
+mozilla_ICUUtils_h_
 *
 /

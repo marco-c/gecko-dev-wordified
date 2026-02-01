@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsComplexBreaker_h__
+nsComplexBreaker_h_
 #
 define
-nsComplexBreaker_h__
+nsComplexBreaker_h_
 #
 include
 <
@@ -271,6 +271,6 @@ aBreakBefore
 endif
 /
 *
-nsComplexBreaker_h__
+nsComplexBreaker_h_
 *
 /
