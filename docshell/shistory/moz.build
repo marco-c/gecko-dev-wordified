@@ -149,6 +149,11 @@ ChildSHistory
 h
 "
 "
+EntryList
+.
+h
+"
+"
 SessionHistoryEntry
 .
 h
@@ -160,6 +165,11 @@ UNIFIED_SOURCES
 [
 "
 ChildSHistory
+.
+cpp
+"
+"
+EntryList
 .
 cpp
 "
