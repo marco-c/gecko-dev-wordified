@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-webrtc_tcp_socket_callback_h__
+webrtc_tcp_socket_callback_h_
 #
 define
-webrtc_tcp_socket_callback_h__
+webrtc_tcp_socket_callback_h_
 #
 include
 "
@@ -200,4 +200,4 @@ net
 endif
 /
 /
-webrtc_tcp_socket_callback_h__
+webrtc_tcp_socket_callback_h_

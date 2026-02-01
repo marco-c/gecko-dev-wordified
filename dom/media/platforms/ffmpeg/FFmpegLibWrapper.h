@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-__FFmpegLibWrapper_h__
+FFmpegLibWrapper_h_
 #
 define
-__FFmpegLibWrapper_h__
+FFmpegLibWrapper_h_
 #
 include
 "

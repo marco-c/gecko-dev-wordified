@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsJSUtils_h__
+nsJSUtils_h_
 #
 define
-nsJSUtils_h__
+nsJSUtils_h_
 /
 *
 *
@@ -1591,6 +1591,6 @@ char
 endif
 /
 *
-nsJSUtils_h__
+nsJSUtils_h_
 *
 /

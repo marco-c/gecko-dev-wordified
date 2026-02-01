@@ -122,10 +122,10 @@ rtfm
 com
 #
 ifndef
-stunserver_h__
+stunserver_h_
 #
 define
-stunserver_h__
+stunserver_h_
 #
 include
 <

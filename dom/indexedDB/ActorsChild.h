@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_indexeddb_actorschild_h__
+mozilla_dom_indexeddb_actorschild_h_
 #
 define
-mozilla_dom_indexeddb_actorschild_h__
+mozilla_dom_indexeddb_actorschild_h_
 #
 include
 "
@@ -2804,4 +2804,4 @@ indexedDB
 endif
 /
 /
-mozilla_dom_indexeddb_actorschild_h__
+mozilla_dom_indexeddb_actorschild_h_

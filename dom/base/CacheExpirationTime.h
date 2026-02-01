@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_CacheExpirationTime_h___
+mozilla_dom_CacheExpirationTime_h_
 #
 define
-mozilla_dom_CacheExpirationTime_h___
+mozilla_dom_CacheExpirationTime_h_
 #
 include
 <
@@ -406,6 +406,6 @@ mTime
 endif
 /
 *
-mozilla_dom_CacheExpirationTime_h___
+mozilla_dom_CacheExpirationTime_h_
 *
 /

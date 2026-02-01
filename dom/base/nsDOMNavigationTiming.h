@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsDOMNavigationTiming_h___
+nsDOMNavigationTiming_h_
 #
 define
-nsDOMNavigationTiming_h___
+nsDOMNavigationTiming_h_
 #
 include
 "
@@ -1391,6 +1391,6 @@ IPC
 endif
 /
 *
-nsDOMNavigationTiming_h___
+nsDOMNavigationTiming_h_
 *
 /

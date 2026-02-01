@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-XULMenuBarElement_h__
+XULMenuBarElement_h_
 #
 define
-XULMenuBarElement_h__
+XULMenuBarElement_h_
 #
 include
 "

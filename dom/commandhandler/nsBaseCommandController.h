@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsBaseCommandController_h__
+nsBaseCommandController_h_
 #
 define
-nsBaseCommandController_h__
+nsBaseCommandController_h_
 #
 include
 "

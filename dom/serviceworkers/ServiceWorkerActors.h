@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_serviceworkeractors_h__
+mozilla_dom_serviceworkeractors_h_
 #
 define
-mozilla_dom_serviceworkeractors_h__
+mozilla_dom_serviceworkeractors_h_
 namespace
 mozilla
 :
@@ -201,4 +201,4 @@ dom
 endif
 /
 /
-mozilla_dom_serviceworkeractors_h__
+mozilla_dom_serviceworkeractors_h_

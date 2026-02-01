@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-WebSocket_h__
+WebSocket_h_
 #
 define
-WebSocket_h__
+WebSocket_h_
 #
 include
 "

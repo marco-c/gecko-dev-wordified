@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-__GMPTestMonitor_h__
+GMPTestMonitor_h_
 #
 define
-__GMPTestMonitor_h__
+GMPTestMonitor_h_
 #
 include
 "
@@ -264,4 +264,4 @@ mFinished
 endif
 /
 /
-__GMPTestMonitor_h__
+GMPTestMonitor_h_

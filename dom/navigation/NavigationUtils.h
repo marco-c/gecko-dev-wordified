@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_NavigationUtils_h___
+mozilla_dom_NavigationUtils_h_
 #
 define
-mozilla_dom_NavigationUtils_h___
+mozilla_dom_NavigationUtils_h_
 #
 include
 "
@@ -201,4 +201,4 @@ dom
 endif
 /
 /
-mozilla_dom_NavigationUtils_h___
+mozilla_dom_NavigationUtils_h_

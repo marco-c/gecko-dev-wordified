@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsISizeOfEventTarget_h___
+nsISizeOfEventTarget_h_
 #
 define
-nsISizeOfEventTarget_h___
+nsISizeOfEventTarget_h_
 #
 include
 "
@@ -279,6 +279,6 @@ const
 endif
 /
 *
-nsISizeOfEventTarget_h___
+nsISizeOfEventTarget_h_
 *
 /

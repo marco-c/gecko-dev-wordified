@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-AudioSink_h__
+AudioSink_h_
 #
 define
-AudioSink_h__
+AudioSink_h_
 #
 include
 "
@@ -1231,4 +1231,4 @@ mozilla
 endif
 /
 /
-AudioSink_h__
+AudioSink_h_

@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-txStack_h___
+txStack_h_
 #
 define
-txStack_h___
+txStack_h_
 #
 include
 "
@@ -581,6 +581,6 @@ mPosition
 endif
 /
 *
-txStack_h___
+txStack_h_
 *
 /

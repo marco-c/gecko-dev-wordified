@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-txKey_h__
+txKey_h_
 #
 define
-txKey_h__
+txKey_h_
 #
 include
 "
@@ -991,4 +991,4 @@ mEmptyNodeSet
 endif
 /
 /
-txKey_h__
+txKey_h_

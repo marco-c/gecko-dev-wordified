@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-dtls_identity_h__
+dtls_identity_h_
 #
 define
-dtls_identity_h__
+dtls_identity_h_
 #
 include
 <

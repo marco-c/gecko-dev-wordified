@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_WindowsLocationParent_h__
+mozilla_dom_WindowsLocationParent_h_
 #
 define
-mozilla_dom_WindowsLocationParent_h__
+mozilla_dom_WindowsLocationParent_h_
 #
 include
 "
@@ -335,4 +335,4 @@ dom
 endif
 /
 /
-mozilla_dom_WindowsLocationParent_h__
+mozilla_dom_WindowsLocationParent_h_

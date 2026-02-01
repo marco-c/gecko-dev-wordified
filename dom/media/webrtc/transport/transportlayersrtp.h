@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-transportlayersrtp_h__
+transportlayersrtp_h_
 #
 define
-transportlayersrtp_h__
+transportlayersrtp_h_
 #
 include
 "

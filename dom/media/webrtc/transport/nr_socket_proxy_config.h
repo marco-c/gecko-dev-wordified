@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nr_socket_proxy_config__
+nr_socket_proxy_config_
 #
 define
-nr_socket_proxy_config__
+nr_socket_proxy_config_
 #
 include
 <
@@ -279,4 +279,4 @@ mozilla
 endif
 /
 /
-nr_socket_proxy_config__
+nr_socket_proxy_config_

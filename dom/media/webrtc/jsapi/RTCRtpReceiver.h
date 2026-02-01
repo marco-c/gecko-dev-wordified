@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-_RTCRtpReceiver_h_
+RTCRtpReceiver_h_
 #
 define
-_RTCRtpReceiver_h_
+RTCRtpReceiver_h_
 #
 include
 <
@@ -1329,4 +1329,4 @@ mozilla
 endif
 /
 /
-_RTCRtpReceiver_h_
+RTCRtpReceiver_h_

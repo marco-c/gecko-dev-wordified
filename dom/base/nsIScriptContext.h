@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsIScriptContext_h__
+nsIScriptContext_h_
 #
 define
-nsIScriptContext_h__
+nsIScriptContext_h_
 #
 include
 "
@@ -532,4 +532,4 @@ aStatus
 endif
 /
 /
-nsIScriptContext_h__
+nsIScriptContext_h_

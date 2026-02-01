@@ -106,10 +106,10 @@ object
 /
 #
 ifndef
-nsXULControllers_h__
+nsXULControllers_h_
 #
 define
-nsXULControllers_h__
+nsXULControllers_h_
 #
 include
 "
@@ -253,4 +253,4 @@ mCurControllerID
 endif
 /
 /
-nsXULControllers_h__
+nsXULControllers_h_

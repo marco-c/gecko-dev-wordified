@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-__FFmpegVideoDecoder_h__
+FFmpegVideoDecoder_h_
 #
 define
-__FFmpegVideoDecoder_h__
+FFmpegVideoDecoder_h_
 #
 include
 <
@@ -2344,4 +2344,4 @@ mozilla
 endif
 /
 /
-__FFmpegVideoDecoder_h__
+FFmpegVideoDecoder_h_

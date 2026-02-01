@@ -138,10 +138,10 @@ attribute
 /
 #
 ifndef
-nsAttrValue_h___
+nsAttrValue_h_
 #
 define
-nsAttrValue_h___
+nsAttrValue_h_
 #
 include
 <

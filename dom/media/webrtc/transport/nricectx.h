@@ -467,10 +467,10 @@ ICE
 stack
 #
 ifndef
-nricectx_h__
+nricectx_h_
 #
 define
-nricectx_h__
+nricectx_h_
 #
 include
 <

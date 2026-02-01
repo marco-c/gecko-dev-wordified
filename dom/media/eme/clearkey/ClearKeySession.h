@@ -129,10 +129,10 @@ License
 /
 #
 ifndef
-__ClearKeySession_h__
+ClearKeySession_h_
 #
 define
-__ClearKeySession_h__
+ClearKeySession_h_
 /
 /
 This
@@ -151,13 +151,6 @@ on
 Unix
 systems
 .
-#
-include
-<
-stddef
-.
-h
->
 #
 include
 <
@@ -307,4 +300,4 @@ mSessionType
 endif
 /
 /
-__ClearKeySession_h__
+ClearKeySession_h_

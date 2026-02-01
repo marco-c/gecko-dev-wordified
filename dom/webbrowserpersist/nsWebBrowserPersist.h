@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-nsWebBrowserPersist_h__
+nsWebBrowserPersist_h_
 #
 define
-nsWebBrowserPersist_h__
+nsWebBrowserPersist_h_
 #
 include
 "

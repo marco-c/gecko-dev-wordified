@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-WebBrowserPersistRemoteDocument_h__
+WebBrowserPersistRemoteDocument_h_
 #
 define
-WebBrowserPersistRemoteDocument_h__
+WebBrowserPersistRemoteDocument_h_
 #
 include
 "
@@ -325,4 +325,4 @@ mozilla
 endif
 /
 /
-WebBrowserPersistRemoteDocument_h__
+WebBrowserPersistRemoteDocument_h_

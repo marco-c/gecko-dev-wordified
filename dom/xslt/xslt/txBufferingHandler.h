@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-txBufferingHandler_h__
+txBufferingHandler_h_
 #
 define
-txBufferingHandler_h__
+txBufferingHandler_h_
 #
 include
 "
@@ -221,6 +221,6 @@ mCanAddAttribute
 endif
 /
 *
-txBufferingHandler_h__
+txBufferingHandler_h_
 *
 /

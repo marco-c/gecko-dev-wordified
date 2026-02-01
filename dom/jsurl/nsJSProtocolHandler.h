@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsJSProtocolHandler_h___
+nsJSProtocolHandler_h_
 #
 define
-nsJSProtocolHandler_h___
+nsJSProtocolHandler_h_
 #
 include
 "
@@ -644,6 +644,6 @@ nsJSURI
 endif
 /
 *
-nsJSProtocolHandler_h___
+nsJSProtocolHandler_h_
 *
 /

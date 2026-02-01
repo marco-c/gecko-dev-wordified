@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsXMLContentSink_h__
+nsXMLContentSink_h_
 #
 define
-nsXMLContentSink_h__
+nsXMLContentSink_h_
 #
 include
 "
@@ -1344,4 +1344,4 @@ NS_ACCUMULATION_BUFFER_SIZE
 endif
 /
 /
-nsXMLContentSink_h__
+nsXMLContentSink_h_

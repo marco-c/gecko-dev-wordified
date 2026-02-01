@@ -128,10 +128,10 @@ object
 /
 #
 ifndef
-nsRange_h___
+nsRange_h_
 #
 define
-nsRange_h___
+nsRange_h_
 #
 include
 "
@@ -4286,6 +4286,6 @@ dom
 endif
 /
 *
-nsRange_h___
+nsRange_h_
 *
 /

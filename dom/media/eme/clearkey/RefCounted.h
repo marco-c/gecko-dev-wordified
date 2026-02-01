@@ -129,10 +129,10 @@ License
 /
 #
 ifndef
-__RefCount_h__
+RefCount_h_
 #
 define
-__RefCount_h__
+RefCount_h_
 #
 include
 <
@@ -452,4 +452,4 @@ nullptr
 endif
 /
 /
-__RefCount_h__
+RefCount_h_

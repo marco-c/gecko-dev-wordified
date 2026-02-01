@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-webrtc_tcp_socket_wrapper__
+webrtc_tcp_socket_wrapper_
 #
 define
-webrtc_tcp_socket_wrapper__
+webrtc_tcp_socket_wrapper_
 #
 include
 <
@@ -421,4 +421,4 @@ mozilla
 endif
 /
 /
-webrtc_tcp_socket_wrapper__
+webrtc_tcp_socket_wrapper_

@@ -107,10 +107,10 @@ associates
 /
 #
 ifndef
-nsXULElement_h__
+nsXULElement_h_
 #
 define
-nsXULElement_h__
+nsXULElement_h_
 #
 include
 <
@@ -3293,4 +3293,4 @@ aCommand
 endif
 /
 /
-nsXULElement_h__
+nsXULElement_h_

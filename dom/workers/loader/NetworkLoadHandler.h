@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_workers_NetworkLoadHandler_h__
+mozilla_dom_workers_NetworkLoadHandler_h_
 #
 define
-mozilla_dom_workers_NetworkLoadHandler_h__
+mozilla_dom_workers_NetworkLoadHandler_h_
 #
 include
 "
@@ -518,6 +518,6 @@ loader
 endif
 /
 *
-mozilla_dom_workers_NetworkLoadHandler_h__
+mozilla_dom_workers_NetworkLoadHandler_h_
 *
 /

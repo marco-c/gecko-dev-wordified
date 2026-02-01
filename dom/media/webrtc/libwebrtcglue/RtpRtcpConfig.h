@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-__RTPRTCP_CONFIG_H__
+RTPRTCP_CONFIG_H_
 #
 define
-__RTPRTCP_CONFIG_H__
+RTPRTCP_CONFIG_H_
 #
 include
 "

@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-_SDPPARSER_H_
+SDPPARSER_H_
 #
 define
-_SDPPARSER_H_
+SDPPARSER_H_
 #
 include
 <

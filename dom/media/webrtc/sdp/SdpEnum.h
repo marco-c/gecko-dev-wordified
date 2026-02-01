@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-_SDPENUM_H_
+SDPENUM_H_
 #
 define
-_SDPENUM_H_
+SDPENUM_H_
 #
 include
 <

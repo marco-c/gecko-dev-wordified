@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-txXPathTreeWalker_h__
+txXPathTreeWalker_h_
 #
 define
-txXPathTreeWalker_h__
+txXPathTreeWalker_h_
 #
 include
 "
@@ -1206,6 +1206,6 @@ IsText
 endif
 /
 *
-txXPathTreeWalker_h__
+txXPathTreeWalker_h_
 *
 /

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_filereadersync_h__
+mozilla_dom_filereadersync_h_
 #
 define
-mozilla_dom_filereadersync_h__
+mozilla_dom_filereadersync_h_
 #
 include
 "
@@ -361,4 +361,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_filereadersync_h__
+mozilla_dom_filereadersync_h_

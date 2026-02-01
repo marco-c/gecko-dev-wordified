@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_PlacesObservers__
+mozilla_dom_PlacesObservers_
 #
 define
-mozilla_dom_PlacesObservers__
+mozilla_dom_PlacesObservers_
 #
 include
 "
@@ -452,4 +452,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_PlacesObservers__
+mozilla_dom_PlacesObservers_

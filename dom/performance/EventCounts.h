@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_PerformanceEventCounts_h___
+mozilla_dom_PerformanceEventCounts_h_
 #
 define
-mozilla_dom_PerformanceEventCounts_h___
+mozilla_dom_PerformanceEventCounts_h_
 #
 include
 "

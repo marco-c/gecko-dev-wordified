@@ -133,10 +133,10 @@ ICE
 stack
 #
 ifndef
-transportlayerice_h__
+transportlayerice_h_
 #
 define
-transportlayerice_h__
+transportlayerice_h_
 #
 include
 "

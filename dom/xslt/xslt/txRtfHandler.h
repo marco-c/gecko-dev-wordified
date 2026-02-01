@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-txRtfHandler_h___
+txRtfHandler_h_
 #
 define
-txRtfHandler_h___
+txRtfHandler_h_
 #
 include
 "
@@ -259,6 +259,6 @@ override
 endif
 /
 *
-txRtfHandler_h___
+txRtfHandler_h_
 *
 /

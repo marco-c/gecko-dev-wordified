@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-txPatternOptimizer_h__
+txPatternOptimizer_h_
 #
 define
-txPatternOptimizer_h__
+txPatternOptimizer_h_
 #
 include
 "
@@ -193,4 +193,4 @@ mXPathOptimizer
 endif
 /
 /
-txPatternOptimizer_h__
+txPatternOptimizer_h_

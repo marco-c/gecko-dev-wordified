@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-HTMLDivElement_h___
+HTMLDivElement_h_
 #
 define
-HTMLDivElement_h___
+HTMLDivElement_h_
 #
 include
 "
@@ -345,6 +345,6 @@ dom
 endif
 /
 *
-HTMLDivElement_h___
+HTMLDivElement_h_
 *
 /

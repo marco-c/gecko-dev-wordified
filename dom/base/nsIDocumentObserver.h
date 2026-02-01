@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsIDocumentObserver_h___
+nsIDocumentObserver_h_
 #
 define
-nsIDocumentObserver_h___
+nsIDocumentObserver_h_
 #
 include
 "
@@ -786,6 +786,6 @@ _class
 endif
 /
 *
-nsIDocumentObserver_h___
+nsIDocumentObserver_h_
 *
 /

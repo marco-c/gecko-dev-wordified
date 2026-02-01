@@ -67,10 +67,10 @@ mozilla
 com
 #
 ifndef
-rtplogger_h__
+rtplogger_h_
 #
 define
-rtplogger_h__
+rtplogger_h_
 #
 include
 "

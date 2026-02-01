@@ -151,10 +151,10 @@ forth
 /
 #
 ifndef
-mozilla_dom_Element_h__
+mozilla_dom_Element_h_
 #
 define
-mozilla_dom_Element_h__
+mozilla_dom_Element_h_
 #
 include
 <
@@ -16957,4 +16957,4 @@ NOT_FROM_PARSER
 endif
 /
 /
-mozilla_dom_Element_h__
+mozilla_dom_Element_h_

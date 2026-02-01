@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-nsViewportInfo_h___
+nsViewportInfo_h_
 #
 define
-nsViewportInfo_h___
+nsViewportInfo_h_
 #
 include
 <

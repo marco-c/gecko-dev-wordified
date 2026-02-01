@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_quota_usageinfo_h__
+mozilla_dom_quota_usageinfo_h_
 #
 define
-mozilla_dom_quota_usageinfo_h__
+mozilla_dom_quota_usageinfo_h_
 #
 include
 <
@@ -596,4 +596,4 @@ quota
 endif
 /
 /
-mozilla_dom_quota_usageinfo_h__
+mozilla_dom_quota_usageinfo_h_

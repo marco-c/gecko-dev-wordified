@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-GetUserMediaRequest_h__
+GetUserMediaRequest_h_
 #
 define
-GetUserMediaRequest_h__
+GetUserMediaRequest_h_
 #
 include
 <
@@ -451,4 +451,4 @@ mozilla
 endif
 /
 /
-GetUserMediaRequest_h__
+GetUserMediaRequest_h_

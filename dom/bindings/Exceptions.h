@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_Exceptions_h__
+mozilla_dom_Exceptions_h_
 #
 define
-mozilla_dom_Exceptions_h__
+mozilla_dom_Exceptions_h_
 /
 /
 DOM

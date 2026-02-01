@@ -151,10 +151,10 @@ forth
 /
 #
 ifndef
-FragmentOrElement_h___
+FragmentOrElement_h_
 #
 define
-FragmentOrElement_h___
+FragmentOrElement_h_
 #
 include
 "
@@ -2314,6 +2314,6 @@ NS_INTERFACE_TABLE_TO_MAP_SEGUE
 endif
 /
 *
-FragmentOrElement_h___
+FragmentOrElement_h_
 *
 /

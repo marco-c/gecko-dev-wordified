@@ -158,10 +158,10 @@ DOM
 /
 #
 ifndef
-nsHTMLContentSerializer_h__
+nsHTMLContentSerializer_h_
 #
 define
-nsHTMLContentSerializer_h__
+nsHTMLContentSerializer_h_
 #
 include
 "

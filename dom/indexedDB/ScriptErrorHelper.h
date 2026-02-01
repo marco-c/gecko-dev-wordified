@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_indexeddb_scripterrorhelper_h__
+mozilla_dom_indexeddb_scripterrorhelper_h_
 #
 define
-mozilla_dom_indexeddb_scripterrorhelper_h__
+mozilla_dom_indexeddb_scripterrorhelper_h_
 #
 include
 <
@@ -239,4 +239,4 @@ indexedDB
 endif
 /
 /
-mozilla_dom_indexeddb_scripterrorhelper_h__
+mozilla_dom_indexeddb_scripterrorhelper_h_

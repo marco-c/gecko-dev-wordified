@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsHTTPSOnlyStreamListener_h___
+nsHTTPSOnlyStreamListener_h_
 #
 define
-nsHTTPSOnlyStreamListener_h___
+nsHTTPSOnlyStreamListener_h_
 #
 include
 "
@@ -297,6 +297,6 @@ mCreationStart
 endif
 /
 *
-nsHTTPSOnlyStreamListener_h___
+nsHTTPSOnlyStreamListener_h_
 *
 /

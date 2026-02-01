@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_WindowsUtilsParent_h__
+mozilla_dom_WindowsUtilsParent_h_
 #
 define
-mozilla_dom_WindowsUtilsParent_h__
+mozilla_dom_WindowsUtilsParent_h_
 #
 include
 "
@@ -365,4 +365,4 @@ dom
 endif
 /
 /
-mozilla_dom_WindowsUtilsParent_h__
+mozilla_dom_WindowsUtilsParent_h_

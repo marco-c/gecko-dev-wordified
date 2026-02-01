@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_indexeddatabase_h__
+mozilla_dom_indexeddatabase_h_
 #
 define
-mozilla_dom_indexeddatabase_h__
+mozilla_dom_indexeddatabase_h_
 #
 include
 "
@@ -1408,4 +1408,4 @@ StructuredCloneReadInfoParent
 endif
 /
 /
-mozilla_dom_indexeddatabase_h__
+mozilla_dom_indexeddatabase_h_

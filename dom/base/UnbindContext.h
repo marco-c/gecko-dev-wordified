@@ -128,10 +128,10 @@ UnbindToTree
 /
 #
 ifndef
-mozilla_dom_UnbindContext_h__
+mozilla_dom_UnbindContext_h_
 #
 define
-mozilla_dom_UnbindContext_h__
+mozilla_dom_UnbindContext_h_
 #
 include
 "

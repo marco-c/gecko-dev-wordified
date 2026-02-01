@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_identitycredentialserializationhelpers_h__
+mozilla_dom_identitycredentialserializationhelpers_h_
 #
 define
-mozilla_dom_identitycredentialserializationhelpers_h__
+mozilla_dom_identitycredentialserializationhelpers_h_
 #
 include
 "
@@ -809,4 +809,4 @@ IPC
 endif
 /
 /
-mozilla_dom_identitycredentialserializationhelpers_h__
+mozilla_dom_identitycredentialserializationhelpers_h_

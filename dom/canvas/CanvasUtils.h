@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-_CANVASUTILS_H_
+CANVASUTILS_H_
 #
 define
-_CANVASUTILS_H_
+CANVASUTILS_H_
 #
 include
 "
@@ -1353,6 +1353,6 @@ mozilla
 endif
 /
 *
-_CANVASUTILS_H_
+CANVASUTILS_H_
 *
 /

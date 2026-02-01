@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_workerscope_h__
+mozilla_dom_workerscope_h_
 #
 define
-mozilla_dom_workerscope_h__
+mozilla_dom_workerscope_h_
 #
 include
 "
@@ -3041,6 +3041,6 @@ aScope
 endif
 /
 *
-mozilla_dom_workerscope_h__
+mozilla_dom_workerscope_h_
 *
 /

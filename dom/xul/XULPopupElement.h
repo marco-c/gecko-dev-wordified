@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-XULPopupElement_h__
+XULPopupElement_h_
 #
 define
-XULPopupElement_h__
+XULPopupElement_h_
 #
 include
 "

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsPIWindowRoot_h__
+nsPIWindowRoot_h_
 #
 define
-nsPIWindowRoot_h__
+nsPIWindowRoot_h_
 #
 include
 "
@@ -592,4 +592,4 @@ dom
 endif
 /
 /
-nsPIWindowRoot_h__
+nsPIWindowRoot_h_

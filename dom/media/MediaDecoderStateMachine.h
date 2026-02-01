@@ -117,11 +117,11 @@ if
 !
 defined
 (
-MediaDecoderStateMachine_h__
+MediaDecoderStateMachine_h_
 )
 #
 define
-MediaDecoderStateMachine_h__
+MediaDecoderStateMachine_h_
 #
 include
 "

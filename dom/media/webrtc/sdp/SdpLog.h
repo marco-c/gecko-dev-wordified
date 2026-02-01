@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-_SDP_LOG_H_
+SDP_LOG_H_
 #
 define
-_SDP_LOG_H_
+SDP_LOG_H_
 #
 include
 "

@@ -129,10 +129,10 @@ License
 /
 #
 ifndef
-__BigEndian_h__
+BigEndian_h_
 #
 define
-__BigEndian_h__
+BigEndian_h_
 #
 include
 <
@@ -527,4 +527,4 @@ mozilla
 endif
 /
 /
-__BigEndian_h__
+BigEndian_h_

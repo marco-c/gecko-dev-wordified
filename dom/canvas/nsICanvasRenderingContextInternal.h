@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsICanvasRenderingContextInternal_h___
+nsICanvasRenderingContextInternal_h_
 #
 define
-nsICanvasRenderingContextInternal_h___
+nsICanvasRenderingContextInternal_h_
 #
 include
 "
@@ -1539,6 +1539,6 @@ mRefreshDriver
 endif
 /
 *
-nsICanvasRenderingContextInternal_h___
+nsICanvasRenderingContextInternal_h_
 *
 /

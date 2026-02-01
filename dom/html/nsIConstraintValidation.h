@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsIConstraintValidition_h___
+nsIConstraintValidition_h_
 #
 define
-nsIConstraintValidition_h___
+nsIConstraintValidition_h_
 #
 include
 "

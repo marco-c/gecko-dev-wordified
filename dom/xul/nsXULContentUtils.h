@@ -110,10 +110,10 @@ code
 /
 #
 ifndef
-nsXULContentUtils_h__
+nsXULContentUtils_h_
 #
 define
-nsXULContentUtils_h__
+nsXULContentUtils_h_
 #
 include
 "
@@ -233,4 +233,4 @@ GetCollator
 endif
 /
 /
-nsXULContentUtils_h__
+nsXULContentUtils_h_

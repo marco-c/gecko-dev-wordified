@@ -129,10 +129,10 @@ License
 /
 #
 ifndef
-__ClearKeyUtils_h__
+ClearKeyUtils_h_
 #
 define
-__ClearKeyUtils_h__
+ClearKeyUtils_h_
 #
 include
 <
@@ -703,4 +703,4 @@ aLength
 endif
 /
 /
-__ClearKeyUtils_h__
+ClearKeyUtils_h_

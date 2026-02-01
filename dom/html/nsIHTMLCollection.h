@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsIHTMLCollection_h___
+nsIHTMLCollection_h_
 #
 define
-nsIHTMLCollection_h___
+nsIHTMLCollection_h_
 #
 include
 "
@@ -553,6 +553,6 @@ aScriptObjectHolder
 endif
 /
 *
-nsIHTMLCollection_h___
+nsIHTMLCollection_h_
 *
 /

@@ -140,10 +140,10 @@ class
 /
 #
 ifndef
-simpletokenbucket_h__
+simpletokenbucket_h_
 #
 define
-simpletokenbucket_h__
+simpletokenbucket_h_
 #
 include
 <
@@ -326,4 +326,4 @@ mozilla
 endif
 /
 /
-simpletokenbucket_h__
+simpletokenbucket_h_

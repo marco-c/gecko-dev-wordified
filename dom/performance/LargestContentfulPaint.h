@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_LargestContentfulPaint_h___
+mozilla_dom_LargestContentfulPaint_h_
 #
 define
-mozilla_dom_LargestContentfulPaint_h___
+mozilla_dom_LargestContentfulPaint_h_
 #
 include
 "

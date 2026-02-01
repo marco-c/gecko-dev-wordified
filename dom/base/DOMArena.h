@@ -107,10 +107,10 @@ MPL
 /
 #
 ifndef
-DOM_Arena_h___
+DOM_Arena_h_
 #
 define
-DOM_Arena_h___
+DOM_Arena_h_
 #
 include
 "

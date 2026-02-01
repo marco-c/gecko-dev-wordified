@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_sharedworkerop_h__
+mozilla_dom_sharedworkerop_h_
 #
 define
-mozilla_dom_sharedworkerop_h__
+mozilla_dom_sharedworkerop_h_
 #
 include
 "

@@ -91,10 +91,10 @@ MPL
 /
 #
 ifndef
-dom_media_platforms_MediaTelemetryConstants_h___
+dom_media_platforms_MediaTelemetryConstants_h_
 #
 define
-dom_media_platforms_MediaTelemetryConstants_h___
+dom_media_platforms_MediaTelemetryConstants_h_
 namespace
 mozilla
 {
@@ -132,4 +132,4 @@ mozilla
 endif
 /
 /
-dom_media_platforms_MediaTelemetryConstants_h___
+dom_media_platforms_MediaTelemetryConstants_h_

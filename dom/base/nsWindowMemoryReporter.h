@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsWindowMemoryReporter_h__
+nsWindowMemoryReporter_h_
 #
 define
-nsWindowMemoryReporter_h__
+nsWindowMemoryReporter_h_
 #
 include
 "
@@ -1283,4 +1283,4 @@ mGhostWindowCount
 endif
 /
 /
-nsWindowMemoryReporter_h__
+nsWindowMemoryReporter_h_

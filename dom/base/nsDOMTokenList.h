@@ -128,10 +128,10 @@ HTML5
 /
 #
 ifndef
-nsDOMTokenList_h___
+nsDOMTokenList_h_
 #
 define
-nsDOMTokenList_h___
+nsDOMTokenList_h_
 #
 include
 "
@@ -674,4 +674,4 @@ mSupportedTokens
 endif
 /
 /
-nsDOMTokenList_h___
+nsDOMTokenList_h_

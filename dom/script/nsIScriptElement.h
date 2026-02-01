@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsIScriptElement_h___
+nsIScriptElement_h_
 #
 define
-nsIScriptElement_h___
+nsIScriptElement_h_
 #
 include
 "
@@ -2130,4 +2130,4 @@ mCreatorParser
 endif
 /
 /
-nsIScriptElement_h___
+nsIScriptElement_h_

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsContentAreaDragDrop_h__
+nsContentAreaDragDrop_h_
 #
 define
-nsContentAreaDragDrop_h__
+nsContentAreaDragDrop_h_
 #
 include
 "
@@ -562,6 +562,6 @@ isPrivate
 endif
 /
 *
-nsContentAreaDragDrop_h__
+nsContentAreaDragDrop_h_
 *
 /

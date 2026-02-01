@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_fetcheventopparent_h__
+mozilla_dom_fetcheventopparent_h_
 #
 define
-mozilla_dom_fetcheventopparent_h__
+mozilla_dom_fetcheventopparent_h_
 #
 include
 "
@@ -480,4 +480,4 @@ dom
 endif
 /
 /
-mozilla_dom_fetcheventopparent_h__
+mozilla_dom_fetcheventopparent_h_

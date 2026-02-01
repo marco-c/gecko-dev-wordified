@@ -131,10 +131,10 @@ NodeIterator
 /
 #
 ifndef
-nsTraversal_h___
+nsTraversal_h_
 #
 define
-nsTraversal_h___
+nsTraversal_h_
 #
 include
 "

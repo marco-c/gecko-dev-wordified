@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsHistory_h___
+nsHistory_h_
 #
 define
-nsHistory_h___
+nsHistory_h_
 #
 include
 "
@@ -632,6 +632,6 @@ mInnerWindow
 endif
 /
 *
-nsHistory_h___
+nsHistory_h_
 *
 /

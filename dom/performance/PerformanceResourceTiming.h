@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_PerformanceResourceTiming_h___
+mozilla_dom_PerformanceResourceTiming_h_
 #
 define
-mozilla_dom_PerformanceResourceTiming_h___
+mozilla_dom_PerformanceResourceTiming_h_
 #
 include
 "
@@ -1185,6 +1185,6 @@ dom
 endif
 /
 *
-mozilla_dom_PerformanceResourceTiming_h___
+mozilla_dom_PerformanceResourceTiming_h_
 *
 /

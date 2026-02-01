@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_ChromeUtils__
+mozilla_dom_ChromeUtils_
 #
 define
-mozilla_dom_ChromeUtils__
+mozilla_dom_ChromeUtils_
 #
 include
 "
@@ -2167,4 +2167,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_ChromeUtils__
+mozilla_dom_ChromeUtils_

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-BorrowedAttrInfo_h__
+BorrowedAttrInfo_h_
 #
 define
-BorrowedAttrInfo_h__
+BorrowedAttrInfo_h_
 class
 nsAttrName
 ;

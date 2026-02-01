@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-StructuredCloneTags_h__
+StructuredCloneTags_h_
 #
 define
-StructuredCloneTags_h__
+StructuredCloneTags_h_
 #
 include
 "
@@ -1035,4 +1035,4 @@ dom
 endif
 /
 /
-StructuredCloneTags_h__
+StructuredCloneTags_h_

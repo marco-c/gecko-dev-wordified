@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_Document_h___
+mozilla_dom_Document_h_
 #
 define
-mozilla_dom_Document_h___
+mozilla_dom_Document_h_
 #
 include
 <
@@ -37539,6 +37539,6 @@ aDoc
 endif
 /
 *
-mozilla_dom_Document_h___
+mozilla_dom_Document_h_
 *
 /

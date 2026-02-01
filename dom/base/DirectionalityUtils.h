@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-DirectionalityUtils_h___
+DirectionalityUtils_h_
 #
 define
-DirectionalityUtils_h___
+DirectionalityUtils_h_
 #
 include
 "
@@ -1233,6 +1233,6 @@ mozilla
 endif
 /
 *
-DirectionalityUtils_h___
+DirectionalityUtils_h_
 *
 /

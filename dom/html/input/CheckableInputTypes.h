@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_CheckableInputTypes_h__
+mozilla_dom_CheckableInputTypes_h_
 #
 define
-mozilla_dom_CheckableInputTypes_h__
+mozilla_dom_CheckableInputTypes_h_
 #
 include
 "
@@ -320,6 +320,6 @@ dom
 endif
 /
 *
-mozilla_dom_CheckableInputTypes_h__
+mozilla_dom_CheckableInputTypes_h_
 *
 /

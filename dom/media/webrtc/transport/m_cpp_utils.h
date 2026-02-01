@@ -122,10 +122,10 @@ rtfm
 com
 #
 ifndef
-m_cpp_utils_h__
+m_cpp_utils_h_
 #
 define
-m_cpp_utils_h__
+m_cpp_utils_h_
 namespace
 mozilla
 {

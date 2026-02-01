@@ -122,10 +122,10 @@ mozilla
 com
 #
 ifndef
-gtest_ringbuffer_dumper_h__
+gtest_ringbuffer_dumper_h_
 #
 define
-gtest_ringbuffer_dumper_h__
+gtest_ringbuffer_dumper_h_
 #
 include
 "
@@ -601,4 +601,4 @@ test
 endif
 /
 /
-gtest_ringbuffer_dumper_h__
+gtest_ringbuffer_dumper_h_

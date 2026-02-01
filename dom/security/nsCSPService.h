@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsCSPService_h___
+nsCSPService_h_
 #
 define
-nsCSPService_h___
+nsCSPService_h_
 #
 include
 "
@@ -310,6 +310,6 @@ CSPService
 endif
 /
 *
-nsCSPService_h___
+nsCSPService_h_
 *
 /

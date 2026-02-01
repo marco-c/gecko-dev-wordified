@@ -147,10 +147,10 @@ XMLHttpRequest
 /
 #
 ifndef
-nsNoDataProtocolContentPolicy_h__
+nsNoDataProtocolContentPolicy_h_
 #
 define
-nsNoDataProtocolContentPolicy_h__
+nsNoDataProtocolContentPolicy_h_
 /
 *
 ac9e3e82
@@ -241,6 +241,6 @@ default
 endif
 /
 *
-nsNoDataProtocolContentPolicy_h__
+nsNoDataProtocolContentPolicy_h_
 *
 /

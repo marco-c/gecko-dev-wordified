@@ -152,10 +152,10 @@ etc
 /
 #
 ifndef
-nsContentList_h___
+nsContentList_h_
 #
 define
-nsContentList_h___
+nsContentList_h_
 #
 include
 "
@@ -3797,4 +3797,4 @@ override
 endif
 /
 /
-nsContentList_h___
+nsContentList_h_

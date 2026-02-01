@@ -107,10 +107,10 @@ code
 .
 #
 ifndef
-_MURMURHASH3_H_
+MURMURHASH3_H_
 #
 define
-_MURMURHASH3_H_
+MURMURHASH3_H_
 /
 /
 -
@@ -415,4 +415,4 @@ out
 endif
 /
 /
-_MURMURHASH3_H_
+MURMURHASH3_H_

@@ -104,10 +104,10 @@ rtfm
 com
 #
 ifndef
-mediapipeline_h__
+mediapipeline_h_
 #
 define
-mediapipeline_h__
+mediapipeline_h_
 #
 include
 <

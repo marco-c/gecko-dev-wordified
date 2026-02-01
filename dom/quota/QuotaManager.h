@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_quota_quotamanager_h__
+mozilla_dom_quota_quotamanager_h_
 #
 define
-mozilla_dom_quota_quotamanager_h__
+mozilla_dom_quota_quotamanager_h_
 #
 include
 <
@@ -6548,6 +6548,6 @@ quota
 endif
 /
 *
-mozilla_dom_quota_quotamanager_h__
+mozilla_dom_quota_quotamanager_h_
 *
 /

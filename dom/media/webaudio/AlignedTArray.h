@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-AlignedTArray_h__
+AlignedTArray_h_
 #
 define
-AlignedTArray_h__
+AlignedTArray_h_
 #
 include
 "
@@ -953,4 +953,4 @@ N
 endif
 /
 /
-AlignedTArray_h__
+AlignedTArray_h_

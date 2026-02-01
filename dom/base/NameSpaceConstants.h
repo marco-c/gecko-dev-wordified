@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_NameSpaceConstants_h__
+mozilla_dom_NameSpaceConstants_h_
 #
 define
-mozilla_dom_NameSpaceConstants_h__
+mozilla_dom_NameSpaceConstants_h_
 #
 include
 <
@@ -269,4 +269,4 @@ namespace
 endif
 /
 /
-mozilla_dom_NameSpaceConstants_h__
+mozilla_dom_NameSpaceConstants_h_

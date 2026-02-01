@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-mediapacket_h__
+mediapacket_h_
 #
 define
-mediapacket_h__
+mediapacket_h_
 #
 include
 <
@@ -718,4 +718,4 @@ IPC
 endif
 /
 /
-mediapacket_h__
+mediapacket_h_

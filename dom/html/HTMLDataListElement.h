@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-HTMLDataListElement_h___
+HTMLDataListElement_h_
 #
 define
-HTMLDataListElement_h___
+HTMLDataListElement_h_
 #
 include
 "
@@ -337,6 +337,6 @@ dom
 endif
 /
 *
-HTMLDataListElement_h___
+HTMLDataListElement_h_
 *
 /

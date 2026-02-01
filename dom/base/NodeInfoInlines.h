@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_NodeInfoInlines_h___
+mozilla_dom_NodeInfoInlines_h_
 #
 define
-mozilla_dom_NodeInfoInlines_h___
+mozilla_dom_NodeInfoInlines_h_
 #
 include
 "
@@ -903,6 +903,6 @@ nodeType
 endif
 /
 *
-mozilla_dom_NodeInfoInlines_h___
+mozilla_dom_NodeInfoInlines_h_
 *
 /

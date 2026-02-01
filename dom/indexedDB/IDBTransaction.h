@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_idbtransaction_h__
+mozilla_dom_idbtransaction_h_
 #
 define
-mozilla_dom_idbtransaction_h__
+mozilla_dom_idbtransaction_h_
 #
 include
 "
@@ -1859,4 +1859,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_idbtransaction_h__
+mozilla_dom_idbtransaction_h_

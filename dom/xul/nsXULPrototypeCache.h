@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsXULPrototypeCache_h__
+nsXULPrototypeCache_h_
 #
 define
-nsXULPrototypeCache_h__
+nsXULPrototypeCache_h_
 #
 include
 "
@@ -927,4 +927,4 @@ aDocumentURI
 endif
 /
 /
-nsXULPrototypeCache_h__
+nsXULPrototypeCache_h_

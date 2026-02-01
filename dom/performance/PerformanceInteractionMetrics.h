@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_PerformanceInteractionMetrics_h__
+mozilla_dom_PerformanceInteractionMetrics_h_
 #
 define
-mozilla_dom_PerformanceInteractionMetrics_h__
+mozilla_dom_PerformanceInteractionMetrics_h_
 #
 include
 "
@@ -524,4 +524,4 @@ dom
 endif
 /
 /
-mozilla_dom_PerformanceInteractionMetrics_h__
+mozilla_dom_PerformanceInteractionMetrics_h_

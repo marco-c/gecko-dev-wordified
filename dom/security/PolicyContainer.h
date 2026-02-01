@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-PolicyContainer_h___
+PolicyContainer_h_
 #
 define
-PolicyContainer_h___
+PolicyContainer_h_
 #
 include
 "
@@ -464,6 +464,6 @@ PolicyContainer
 endif
 /
 *
-PolicyContainer_h___
+PolicyContainer_h_
 *
 /

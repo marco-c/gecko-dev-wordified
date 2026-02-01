@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_indexeddb_serializationhelpers_h__
+mozilla_dom_indexeddb_serializationhelpers_h_
 #
 define
-mozilla_dom_indexeddb_serializationhelpers_h__
+mozilla_dom_indexeddb_serializationhelpers_h_
 #
 include
 "
@@ -708,4 +708,4 @@ IPC
 endif
 /
 /
-mozilla_dom_indexeddb_serializationhelpers_h__
+mozilla_dom_indexeddb_serializationhelpers_h_

@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-_RTCDtlsTransport_h_
+RTCDtlsTransport_h_
 #
 define
-_RTCDtlsTransport_h_
+RTCDtlsTransport_h_
 #
 include
 "
@@ -250,4 +250,4 @@ dom
 endif
 /
 /
-_RTCDtlsTransport_h_
+RTCDtlsTransport_h_

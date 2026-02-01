@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_RootedSequence_h__
+mozilla_dom_RootedSequence_h_
 #
 define
-mozilla_dom_RootedSequence_h__
+mozilla_dom_RootedSequence_h_
 #
 include
 "
@@ -247,6 +247,6 @@ binding_detail
 endif
 /
 *
-mozilla_dom_RootedSequence_h__
+mozilla_dom_RootedSequence_h_
 *
 /

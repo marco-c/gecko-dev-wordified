@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_idbindex_h__
+mozilla_dom_idbindex_h_
 #
 define
-mozilla_dom_idbindex_h__
+mozilla_dom_idbindex_h_
 #
 include
 "
@@ -960,4 +960,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_idbindex_h__
+mozilla_dom_idbindex_h_

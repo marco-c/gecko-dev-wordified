@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-PlayingRefChangeHandler_h__
+PlayingRefChangeHandler_h_
 #
 define
-PlayingRefChangeHandler_h__
+PlayingRefChangeHandler_h_
 #
 include
 "

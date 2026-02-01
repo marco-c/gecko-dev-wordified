@@ -117,11 +117,11 @@ if
 !
 defined
 (
-MediaMetadataManager_h__
+MediaMetadataManager_h_
 )
 #
 define
-MediaMetadataManager_h__
+MediaMetadataManager_h_
 #
 include
 "

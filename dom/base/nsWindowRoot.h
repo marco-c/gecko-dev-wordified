@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsWindowRoot_h__
+nsWindowRoot_h_
 #
 define
-nsWindowRoot_h__
+nsWindowRoot_h_
 class
 nsIGlobalObject
 ;

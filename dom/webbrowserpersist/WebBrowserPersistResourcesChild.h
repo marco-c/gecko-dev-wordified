@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-WebBrowserPersistResourcesChild_h__
+WebBrowserPersistResourcesChild_h_
 #
 define
-WebBrowserPersistResourcesChild_h__
+WebBrowserPersistResourcesChild_h_
 #
 include
 "
@@ -152,4 +152,4 @@ mozilla
 endif
 /
 /
-WebBrowserPersistDocumentChild_h__
+WebBrowserPersistDocumentChild_h_

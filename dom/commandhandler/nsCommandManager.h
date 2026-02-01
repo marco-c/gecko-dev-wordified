@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsCommandManager_h__
+nsCommandManager_h_
 #
 define
-nsCommandManager_h__
+nsCommandManager_h_
 #
 include
 "
@@ -382,4 +382,4 @@ this
 endif
 /
 /
-nsCommandManager_h__
+nsCommandManager_h_

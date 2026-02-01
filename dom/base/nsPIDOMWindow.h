@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsPIDOMWindow_h__
+nsPIDOMWindow_h_
 #
 define
-nsPIDOMWindow_h__
+nsPIDOMWindow_h_
 #
 include
 "
@@ -7197,4 +7197,4 @@ h
 endif
 /
 /
-nsPIDOMWindow_h__
+nsPIDOMWindow_h_

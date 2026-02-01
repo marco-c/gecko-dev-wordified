@@ -155,10 +155,10 @@ MathML
 /
 #
 ifndef
-__NS_STYLEDELEMENT_H_
+NS_STYLEDELEMENT_H_
 #
 define
-__NS_STYLEDELEMENT_H_
+NS_STYLEDELEMENT_H_
 #
 include
 "
@@ -639,4 +639,4 @@ override
 endif
 /
 /
-__NS_STYLEDELEMENT_H_
+NS_STYLEDELEMENT_H_

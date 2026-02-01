@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsGenericHTMLElement_h___
+nsGenericHTMLElement_h_
 #
 define
-nsGenericHTMLElement_h___
+nsGenericHTMLElement_h_
 #
 include
 <
@@ -9627,6 +9627,6 @@ Video
 endif
 /
 *
-nsGenericHTMLElement_h___
+nsGenericHTMLElement_h_
 *
 /

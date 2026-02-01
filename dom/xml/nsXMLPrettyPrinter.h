@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsXMLPrettyPrinter_h__
+nsXMLPrettyPrinter_h_
 #
 define
-nsXMLPrettyPrinter_h__
+nsXMLPrettyPrinter_h_
 #
 include
 "
@@ -310,4 +310,4 @@ aPrinter
 endif
 /
 /
-nsXMLPrettyPrinter_h__
+nsXMLPrettyPrinter_h_

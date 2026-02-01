@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_workers_WorkerCSPContext_h__
+mozilla_dom_workers_WorkerCSPContext_h_
 #
 define
-mozilla_dom_workers_WorkerCSPContext_h__
+mozilla_dom_workers_WorkerCSPContext_h_
 #
 include
 "
@@ -355,4 +355,4 @@ dom
 endif
 /
 /
-mozilla_dom_workers_WorkerCSPContext_h__
+mozilla_dom_workers_WorkerCSPContext_h_

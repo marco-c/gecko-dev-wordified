@@ -155,10 +155,10 @@ etc
 /
 #
 ifndef
-nsImageLoadingContent_h__
+nsImageLoadingContent_h_
 #
 define
-nsImageLoadingContent_h__
+nsImageLoadingContent_h_
 #
 include
 "
@@ -3985,4 +3985,4 @@ mPendingRequestFlags
 endif
 /
 /
-nsImageLoadingContent_h__
+nsImageLoadingContent_h_

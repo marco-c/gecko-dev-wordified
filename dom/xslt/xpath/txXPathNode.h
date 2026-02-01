@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-txXPathNode_h__
+txXPathNode_h_
 #
 define
-txXPathNode_h__
+txXPathNode_h_
 #
 include
 "
@@ -1047,6 +1047,6 @@ mNode
 endif
 /
 *
-txXPathNode_h__
+txXPathNode_h_
 *
 /

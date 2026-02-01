@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_filepicker_message_utils_h__
+mozilla_dom_filepicker_message_utils_h_
 #
 define
-mozilla_dom_filepicker_message_utils_h__
+mozilla_dom_filepicker_message_utils_h_
 #
 include
 "
@@ -259,4 +259,4 @@ IPC
 endif
 /
 /
-mozilla_dom_filepicker_message_utils_h__
+mozilla_dom_filepicker_message_utils_h_

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-PolicyTokenizer_h___
+PolicyTokenizer_h_
 #
 define
-PolicyTokenizer_h___
+PolicyTokenizer_h_
 #
 include
 "
@@ -489,6 +489,6 @@ mCurToken
 endif
 /
 *
-PolicyTokenizer_h___
+PolicyTokenizer_h_
 *
 /

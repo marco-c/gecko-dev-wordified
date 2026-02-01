@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_indexeddb_profilerhelpers_h__
+mozilla_dom_indexeddb_profilerhelpers_h_
 #
 define
-mozilla_dom_indexeddb_profilerhelpers_h__
+mozilla_dom_indexeddb_profilerhelpers_h_
 /
 /
 This
@@ -878,4 +878,4 @@ __VA_ARGS__
 endif
 /
 /
-mozilla_dom_indexeddb_profilerhelpers_h__
+mozilla_dom_indexeddb_profilerhelpers_h_

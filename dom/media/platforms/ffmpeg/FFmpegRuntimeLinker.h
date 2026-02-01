@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-__FFmpegRuntimeLinker_h__
+FFmpegRuntimeLinker_h_
 #
 define
-__FFmpegRuntimeLinker_h__
+FFmpegRuntimeLinker_h_
 #
 include
 "
@@ -359,4 +359,4 @@ mozilla
 endif
 /
 /
-__FFmpegRuntimeLinker_h__
+FFmpegRuntimeLinker_h_

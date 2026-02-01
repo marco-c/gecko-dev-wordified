@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_MediaKeyMessageEvent_h__
+mozilla_dom_MediaKeyMessageEvent_h_
 #
 define
-mozilla_dom_MediaKeyMessageEvent_h__
+mozilla_dom_MediaKeyMessageEvent_h_
 #
 include
 "
@@ -366,4 +366,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_MediaKeyMessageEvent_h__
+mozilla_dom_MediaKeyMessageEvent_h_

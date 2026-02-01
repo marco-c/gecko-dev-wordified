@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-__OmxCoreLibLinker_h__
+OmxCoreLibLinker_h_
 #
 define
-__OmxCoreLibLinker_h__
+OmxCoreLibLinker_h_
 struct
 PRLibrary
 ;
@@ -205,4 +205,4 @@ mozilla
 endif
 /
 /
-__OmxCoreLibLinker_h__
+OmxCoreLibLinker_h_

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-XULMenuParentElement_h__
+XULMenuParentElement_h_
 #
 define
-XULMenuParentElement_h__
+XULMenuParentElement_h_
 #
 include
 "

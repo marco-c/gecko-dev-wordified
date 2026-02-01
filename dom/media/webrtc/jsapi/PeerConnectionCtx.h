@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-peerconnectionctx_h___h__
+peerconnectionctx_h_h_
 #
 define
-peerconnectionctx_h___h__
+peerconnectionctx_h_h_
 #
 include
 <

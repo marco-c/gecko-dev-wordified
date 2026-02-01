@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_ConstraintValidition_h___
+mozilla_dom_ConstraintValidition_h_
 #
 define
-mozilla_dom_ConstraintValidition_h___
+mozilla_dom_ConstraintValidition_h_
 #
 include
 "
@@ -261,4 +261,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_ConstraintValidition_h___
+mozilla_dom_ConstraintValidition_h_

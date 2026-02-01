@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_DocumentFragment_h__
+mozilla_dom_DocumentFragment_h_
 #
 define
-mozilla_dom_DocumentFragment_h__
+mozilla_dom_DocumentFragment_h_
 #
 include
 "
@@ -688,4 +688,4 @@ this
 endif
 /
 /
-mozilla_dom_DocumentFragment_h__
+mozilla_dom_DocumentFragment_h_

@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-txOwningArray_h__
+txOwningArray_h_
 #
 define
-txOwningArray_h__
+txOwningArray_h_
 /
 /
 Class
@@ -246,4 +246,4 @@ iter
 endif
 /
 /
-txOwningArray_h__
+txOwningArray_h_

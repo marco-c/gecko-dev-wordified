@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsDOMJSUtils_h__
+nsDOMJSUtils_h_
 #
 define
-nsDOMJSUtils_h__
+nsDOMJSUtils_h_
 #
 include
 "
@@ -258,4 +258,4 @@ aArray
 endif
 /
 /
-nsDOMJSUtils_h__
+nsDOMJSUtils_h_

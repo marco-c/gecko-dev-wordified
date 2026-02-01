@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-dom_base_MessageManagerCallback_h__
+dom_base_MessageManagerCallback_h_
 #
 define
-dom_base_MessageManagerCallback_h__
+dom_base_MessageManagerCallback_h_
 #
 include
 "

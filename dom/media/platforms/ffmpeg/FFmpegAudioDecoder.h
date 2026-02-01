@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-__FFmpegAACDecoder_h__
+FFmpegAACDecoder_h_
 #
 define
-__FFmpegAACDecoder_h__
+FFmpegAACDecoder_h_
 #
 include
 "
@@ -372,4 +372,4 @@ mozilla
 endif
 /
 /
-__FFmpegAACDecoder_h__
+FFmpegAACDecoder_h_

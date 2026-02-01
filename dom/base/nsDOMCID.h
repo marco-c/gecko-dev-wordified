@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsDOMCID_h__
+nsDOMCID_h_
 #
 define
-nsDOMCID_h__
+nsDOMCID_h_
 #
 include
 "
@@ -219,6 +219,6 @@ evaluator
 endif
 /
 *
-nsDOMCID_h__
+nsDOMCID_h_
 *
 /

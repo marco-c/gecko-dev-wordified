@@ -21,10 +21,10 @@ License
 .
 #
 ifndef
-__WEBAUTHN_H_
+WEBAUTHN_H_
 #
 define
-__WEBAUTHN_H_
+WEBAUTHN_H_
 #
 pragma
 once
@@ -9729,4 +9729,4 @@ endregion
 endif
 /
 /
-__WEBAUTHN_H_
+WEBAUTHN_H_

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsCSPParser_h___
+nsCSPParser_h_
 #
 define
-nsCSPParser_h___
+nsCSPParser_h_
 #
 include
 "
@@ -1623,6 +1623,6 @@ mSuppressLogMessages
 endif
 /
 *
-nsCSPParser_h___
+nsCSPParser_h_
 *
 /

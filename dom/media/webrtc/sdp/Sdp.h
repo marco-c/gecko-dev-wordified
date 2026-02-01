@@ -694,10 +694,10 @@ __
 /
 #
 ifndef
-_SDP_H_
+SDP_H_
 #
 define
-_SDP_H_
+SDP_H_
 #
 include
 <

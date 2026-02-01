@@ -152,10 +152,10 @@ plaintext
 /
 #
 ifndef
-nsPlainTextSerializer_h__
+nsPlainTextSerializer_h_
 #
 define
-nsPlainTextSerializer_h__
+nsPlainTextSerializer_h_
 #
 include
 <

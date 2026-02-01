@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-AlignmentUtils_h__
+AlignmentUtils_h_
 #
 define
-AlignmentUtils_h__
+AlignmentUtils_h_
 #
 define
 IS_ALIGNED16

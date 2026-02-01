@@ -136,10 +136,10 @@ ways
 /
 #
 ifndef
-nsSyncLoadService_h__
+nsSyncLoadService_h_
 #
 define
-nsSyncLoadService_h__
+nsSyncLoadService_h_
 #
 include
 "
@@ -467,4 +467,4 @@ aChannel
 endif
 /
 /
-nsSyncLoadService_h__
+nsSyncLoadService_h_

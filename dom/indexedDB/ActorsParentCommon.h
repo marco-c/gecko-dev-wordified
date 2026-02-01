@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_indexeddb_actorsparentcommon_h__
+mozilla_dom_indexeddb_actorsparentcommon_h_
 #
 define
-mozilla_dom_indexeddb_actorsparentcommon_h__
+mozilla_dom_indexeddb_actorsparentcommon_h_
 /
 /
 Declares
@@ -756,4 +756,4 @@ indexedDB
 endif
 /
 /
-mozilla_dom_indexeddb_actorsparent_h__
+mozilla_dom_indexeddb_actorsparent_h_

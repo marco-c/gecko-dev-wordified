@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_Navigation_h___
+mozilla_dom_Navigation_h_
 #
 define
-mozilla_dom_Navigation_h___
+mozilla_dom_Navigation_h_
 #
 include
 "
@@ -2129,4 +2129,4 @@ aCtx
 endif
 /
 /
-mozilla_dom_Navigation_h___
+mozilla_dom_Navigation_h_

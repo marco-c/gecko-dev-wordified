@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-_SDPHELPER_H_
+SDPHELPER_H_
 #
 define
-_SDPHELPER_H_
+SDPHELPER_H_
 #
 include
 <
@@ -831,4 +831,4 @@ mozilla
 endif
 /
 /
-_SDPHELPER_H_
+SDPHELPER_H_

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsWrapperCacheInline_h___
+nsWrapperCacheInline_h_
 #
 define
-nsWrapperCacheInline_h___
+nsWrapperCacheInline_h_
 #
 include
 "
@@ -718,6 +718,6 @@ true
 endif
 /
 *
-nsWrapperCache_h___
+nsWrapperCache_h_
 *
 /

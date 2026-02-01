@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-__FFmpegLibs_h__
+FFmpegLibs_h_
 #
 define
-__FFmpegLibs_h__
+FFmpegLibs_h_
 extern
 "
 C
@@ -329,4 +329,4 @@ endif
 endif
 /
 /
-__FFmpegLibs_h__
+FFmpegLibs_h_

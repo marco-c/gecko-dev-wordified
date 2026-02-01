@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-IntegrityPolicyService_h___
+IntegrityPolicyService_h_
 #
 define
-IntegrityPolicyService_h___
+IntegrityPolicyService_h_
 #
 include
 "
@@ -245,6 +245,6 @@ dom
 endif
 /
 *
-IntegrityPolicyService_h___
+IntegrityPolicyService_h_
 *
 /

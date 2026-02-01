@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsWrapperCache_h___
+nsWrapperCache_h_
 #
 define
-nsWrapperCache_h___
+nsWrapperCache_h_
 #
 include
 <
@@ -4361,6 +4361,6 @@ NS_IMPL_CYCLE_COLLECTION_TRACE_END
 endif
 /
 *
-nsWrapperCache_h___
+nsWrapperCache_h_
 *
 /

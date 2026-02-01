@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsStructuredCloneContainer_h__
+nsStructuredCloneContainer_h_
 #
 define
-nsStructuredCloneContainer_h__
+nsStructuredCloneContainer_h_
 #
 include
 <

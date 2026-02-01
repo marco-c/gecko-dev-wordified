@@ -122,10 +122,10 @@ rtfm
 com
 #
 ifndef
-logging_h__
+logging_h_
 #
 define
-logging_h__
+logging_h_
 #
 include
 <
@@ -475,4 +475,4 @@ MOZILLA_INTERNAL_API
 endif
 /
 /
-logging_h__
+logging_h_

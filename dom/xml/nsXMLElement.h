@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsXMLElement_h___
+nsXMLElement_h_
 #
 define
-nsXMLElement_h___
+nsXMLElement_h_
 #
 include
 "
@@ -243,4 +243,4 @@ default
 endif
 /
 /
-nsXMLElement_h___
+nsXMLElement_h_

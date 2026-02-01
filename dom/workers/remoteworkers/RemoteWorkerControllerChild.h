@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_remoteworkercontrollerchild_h__
+mozilla_dom_remoteworkercontrollerchild_h_
 #
 define
-mozilla_dom_remoteworkercontrollerchild_h__
+mozilla_dom_remoteworkercontrollerchild_h_
 #
 include
 "
@@ -374,4 +374,4 @@ dom
 endif
 /
 /
-mozilla_dom_remoteworkercontrollerchild_h__
+mozilla_dom_remoteworkercontrollerchild_h_

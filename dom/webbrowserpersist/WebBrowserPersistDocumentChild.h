@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-WebBrowserPersistDocumentChild_h__
+WebBrowserPersistDocumentChild_h_
 #
 define
-WebBrowserPersistDocumentChild_h__
+WebBrowserPersistDocumentChild_h_
 #
 include
 "
@@ -312,4 +312,4 @@ mozilla
 endif
 /
 /
-WebBrowserPersistDocumentChild_h__
+WebBrowserPersistDocumentChild_h_

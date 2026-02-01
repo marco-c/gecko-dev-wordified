@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-txLog_h__
+txLog_h_
 #
 define
-txLog_h__
+txLog_h_
 #
 include
 "

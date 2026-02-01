@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-__FFmpegLog_h__
+FFmpegLog_h_
 #
 define
-__FFmpegLog_h__
+FFmpegLog_h_
 #
 include
 "
@@ -452,4 +452,4 @@ __VA_ARGS__
 endif
 /
 /
-__FFmpegLog_h__
+FFmpegLog_h_

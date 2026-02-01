@@ -129,10 +129,10 @@ License
 /
 #
 ifndef
-__ClearKeyDecryptor_h__
+ClearKeyDecryptor_h_
 #
 define
-__ClearKeyDecryptor_h__
+ClearKeyDecryptor_h_
 /
 /
 This
@@ -151,13 +151,6 @@ on
 Unix
 systems
 .
-#
-include
-<
-stddef
-.
-h
->
 #
 include
 <
@@ -957,4 +950,4 @@ mLastOutputProtectionQueryTime
 endif
 /
 /
-__ClearKeyDecryptor_h__
+ClearKeyDecryptor_h_

@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-nricestunaddr_h__
+nricestunaddr_h_
 #
 define
-nricestunaddr_h__
+nricestunaddr_h_
 #
 include
 "
@@ -201,4 +201,4 @@ mozilla
 endif
 /
 /
-nricestunaddr_h__
+nricestunaddr_h_

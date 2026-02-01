@@ -670,10 +670,10 @@ bwc
 ]
 #
 ifndef
-test_nr_socket__
+test_nr_socket_
 #
 define
-test_nr_socket__
+test_nr_socket_
 extern
 "
 C
@@ -2374,4 +2374,4 @@ mozilla
 endif
 /
 /
-test_nr_socket__
+test_nr_socket_

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsHTTPSOnlyUtils_h___
+nsHTTPSOnlyUtils_h_
 #
 define
-nsHTTPSOnlyUtils_h___
+nsHTTPSOnlyUtils_h_
 #
 include
 "
@@ -2302,6 +2302,6 @@ false
 endif
 /
 *
-nsHTTPSOnlyUtils_h___
+nsHTTPSOnlyUtils_h_
 *
 /

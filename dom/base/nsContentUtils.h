@@ -128,10 +128,10 @@ utilities
 /
 #
 ifndef
-nsContentUtils_h___
+nsContentUtils_h_
 #
 define
-nsContentUtils_h___
+nsContentUtils_h_
 #
 if
 defined
@@ -25867,6 +25867,6 @@ next
 endif
 /
 *
-nsContentUtils_h___
+nsContentUtils_h_
 *
 /

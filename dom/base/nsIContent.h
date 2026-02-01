@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsIContent_h___
+nsIContent_h_
 #
 define
-nsIContent_h___
+nsIContent_h_
 #
 include
 "
@@ -5505,6 +5505,6 @@ nsIContent
 endif
 /
 *
-nsIContent_h___
+nsIContent_h_
 *
 /

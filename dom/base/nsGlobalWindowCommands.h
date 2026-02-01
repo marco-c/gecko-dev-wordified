@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsGlobalWindowCommands_h__
+nsGlobalWindowCommands_h_
 #
 define
-nsGlobalWindowCommands_h__
+nsGlobalWindowCommands_h_
 #
 include
 "
@@ -265,4 +265,4 @@ aOutAction
 endif
 /
 /
-nsGlobalWindowCommands_h__
+nsGlobalWindowCommands_h_

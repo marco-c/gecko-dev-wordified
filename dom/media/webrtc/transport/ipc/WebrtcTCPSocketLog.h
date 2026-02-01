@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-webrtc_tcp_socket_log_h__
+webrtc_tcp_socket_log_h_
 #
 define
-webrtc_tcp_socket_log_h__
+webrtc_tcp_socket_log_h_
 #
 include
 "
@@ -179,4 +179,4 @@ args
 endif
 /
 /
-webrtc_tcp_socket_log_h__
+webrtc_tcp_socket_log_h_

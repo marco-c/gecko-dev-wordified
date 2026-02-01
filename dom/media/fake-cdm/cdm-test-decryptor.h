@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-FAKE_DECRYPTOR_H__
+FAKE_DECRYPTOR_H_
 #
 define
-FAKE_DECRYPTOR_H__
+FAKE_DECRYPTOR_H_
 #
 include
 <

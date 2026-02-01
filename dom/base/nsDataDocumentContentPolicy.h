@@ -147,10 +147,10 @@ XMLHttpRequest
 /
 #
 ifndef
-nsDataDocumentContentPolicy_h__
+nsDataDocumentContentPolicy_h_
 #
 define
-nsDataDocumentContentPolicy_h__
+nsDataDocumentContentPolicy_h_
 /
 *
 1147d32c
@@ -239,6 +239,6 @@ default
 endif
 /
 *
-nsDataDocumentContentPolicy_h__
+nsDataDocumentContentPolicy_h_
 *
 /

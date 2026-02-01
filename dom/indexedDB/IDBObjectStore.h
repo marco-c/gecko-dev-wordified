@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_idbobjectstore_h__
+mozilla_dom_idbobjectstore_h_
 #
 define
-mozilla_dom_idbobjectstore_h__
+mozilla_dom_idbobjectstore_h_
 #
 include
 "
@@ -1665,4 +1665,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_idbobjectstore_h__
+mozilla_dom_idbobjectstore_h_

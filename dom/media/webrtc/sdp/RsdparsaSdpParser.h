@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-_RUSTSDPPARSER_H_
+RUSTSDPPARSER_H_
 #
 define
-_RUSTSDPPARSER_H_
+RUSTSDPPARSER_H_
 #
 include
 <

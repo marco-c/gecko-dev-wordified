@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_quota_persistencetype_h__
+mozilla_dom_quota_persistencetype_h_
 #
 define
-mozilla_dom_quota_persistencetype_h__
+mozilla_dom_quota_persistencetype_h_
 #
 include
 <
@@ -371,4 +371,4 @@ quota
 endif
 /
 /
-mozilla_dom_quota_persistencetype_h__
+mozilla_dom_quota_persistencetype_h_

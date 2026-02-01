@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsContentCreatorFunctions_h__
+nsContentCreatorFunctions_h_
 #
 define
-nsContentCreatorFunctions_h__
+nsContentCreatorFunctions_h_
 #
 include
 "
@@ -579,4 +579,4 @@ aFromParser
 endif
 /
 /
-nsContentCreatorFunctions_h__
+nsContentCreatorFunctions_h_

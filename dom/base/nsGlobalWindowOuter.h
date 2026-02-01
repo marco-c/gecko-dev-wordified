@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsGlobalWindowOuter_h___
+nsGlobalWindowOuter_h_
 #
 define
-nsGlobalWindowOuter_h___
+nsGlobalWindowOuter_h_
 #
 include
 "
@@ -7360,6 +7360,6 @@ nullptr
 endif
 /
 *
-nsGlobalWindowOuter_h___
+nsGlobalWindowOuter_h_
 *
 /

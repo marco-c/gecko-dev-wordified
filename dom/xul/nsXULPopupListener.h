@@ -114,10 +114,10 @@ menus
 /
 #
 ifndef
-nsXULPopupListener_h___
+nsXULPopupListener_h_
 #
 define
-nsXULPopupListener_h___
+nsXULPopupListener_h_
 #
 include
 "
@@ -387,4 +387,4 @@ mIsContext
 endif
 /
 /
-nsXULPopupListener_h___
+nsXULPopupListener_h_

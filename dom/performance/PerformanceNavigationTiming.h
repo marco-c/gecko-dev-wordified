@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_PerformanceNavigationTiming_h___
+mozilla_dom_PerformanceNavigationTiming_h_
 #
 define
-mozilla_dom_PerformanceNavigationTiming_h___
+mozilla_dom_PerformanceNavigationTiming_h_
 #
 include
 <
@@ -565,4 +565,4 @@ dom
 endif
 /
 /
-mozilla_dom_PerformanceNavigationTiming_h___
+mozilla_dom_PerformanceNavigationTiming_h_

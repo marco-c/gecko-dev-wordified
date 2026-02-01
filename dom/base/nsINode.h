@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsINode_h___
+nsINode_h_
 #
 define
-nsINode_h___
+nsINode_h_
 #
 include
 <
@@ -19443,6 +19443,6 @@ _tag
 endif
 /
 *
-nsINode_h___
+nsINode_h_
 *
 /

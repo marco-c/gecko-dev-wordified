@@ -108,10 +108,10 @@ documents
 /
 #
 ifndef
-nsXULCommandDispatcher_h__
+nsXULCommandDispatcher_h_
 #
 define
-nsXULCommandDispatcher_h__
+nsXULCommandDispatcher_h_
 #
 include
 "
@@ -377,4 +377,4 @@ mPendingUpdates
 endif
 /
 /
-nsXULCommandDispatcher_h__
+nsXULCommandDispatcher_h_

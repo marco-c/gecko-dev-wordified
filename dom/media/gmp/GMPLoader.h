@@ -103,10 +103,10 @@ MPL
 /
 #
 ifndef
-GMP_LOADER_H__
+GMP_LOADER_H_
 #
 define
-GMP_LOADER_H__
+GMP_LOADER_H_
 #
 include
 <
@@ -607,4 +607,4 @@ gmp
 endif
 /
 /
-GMP_LOADER_H__
+GMP_LOADER_H_

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsIFormControl_h___
+nsIFormControl_h_
 #
 define
-nsIFormControl_h___
+nsIFormControl_h_
 #
 include
 "
@@ -1769,6 +1769,6 @@ Output
 endif
 /
 *
-nsIFormControl_h___
+nsIFormControl_h_
 *
 /

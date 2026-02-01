@@ -58,10 +58,15 @@ MPL
 /
 #
 ifndef
-_SSRCGENERATOR_H_
+SSRCGENERATOR_H_
 #
 define
-_SSRCGENERATOR_H_
+SSRCGENERATOR_H_
+#
+include
+<
+cstdint
+>
 #
 include
 <
@@ -105,4 +110,4 @@ mozilla
 endif
 /
 /
-_SSRCGENERATOR_H_
+SSRCGENERATOR_H_

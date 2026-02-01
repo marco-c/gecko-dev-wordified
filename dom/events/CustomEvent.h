@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-CustomEvent_h__
+CustomEvent_h_
 #
 define
-CustomEvent_h__
+CustomEvent_h_
 #
 include
 "
@@ -355,4 +355,4 @@ aEvent
 endif
 /
 /
-CustomEvent_h__
+CustomEvent_h_

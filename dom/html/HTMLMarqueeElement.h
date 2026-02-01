@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-HTMLMarqueeElement_h___
+HTMLMarqueeElement_h_
 #
 define
-HTMLMarqueeElement_h___
+HTMLMarqueeElement_h_
 #
 include
 "
@@ -796,6 +796,6 @@ dom
 endif
 /
 *
-HTMLMarqueeElement_h___
+HTMLMarqueeElement_h_
 *
 /

@@ -398,10 +398,10 @@ SocketTransportService
 .
 #
 ifndef
-nr_socket_prsock__
+nr_socket_prsock_
 #
 define
-nr_socket_prsock__
+nr_socket_prsock_
 #
 include
 <

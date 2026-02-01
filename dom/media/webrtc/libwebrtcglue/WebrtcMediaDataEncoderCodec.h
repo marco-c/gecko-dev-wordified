@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-WebrtcMediaDataEncoderCodec_h__
+WebrtcMediaDataEncoderCodec_h_
 #
 define
-WebrtcMediaDataEncoderCodec_h__
+WebrtcMediaDataEncoderCodec_h_
 #
 include
 "
@@ -433,4 +433,4 @@ mozilla
 endif
 /
 /
-WebrtcMediaDataEncoderCodec_h__
+WebrtcMediaDataEncoderCodec_h_

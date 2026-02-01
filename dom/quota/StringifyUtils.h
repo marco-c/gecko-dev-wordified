@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_quota_stringifyutils_h__
+mozilla_dom_quota_stringifyutils_h_
 #
 define
-mozilla_dom_quota_stringifyutils_h__
+mozilla_dom_quota_stringifyutils_h_
 #
 include
 "
@@ -404,4 +404,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_quota_stringifyutils_h__
+mozilla_dom_quota_stringifyutils_h_

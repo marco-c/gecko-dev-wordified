@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsINodeList_h___
+nsINodeList_h_
 #
 define
-nsINodeList_h___
+nsINodeList_h_
 #
 include
 "
@@ -322,6 +322,6 @@ item
 endif
 /
 *
-nsINodeList_h___
+nsINodeList_h_
 *
 /

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-HTMLBodyElement_h___
+HTMLBodyElement_h_
 #
 define
-HTMLBodyElement_h___
+HTMLBodyElement_h_
 #
 include
 "
@@ -835,6 +835,6 @@ mozilla
 endif
 /
 *
-HTMLBodyElement_h___
+HTMLBodyElement_h_
 *
 /

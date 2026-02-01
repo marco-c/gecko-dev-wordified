@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_SingleLineTextInputTypes_h__
+mozilla_dom_SingleLineTextInputTypes_h_
 #
 define
-mozilla_dom_SingleLineTextInputTypes_h__
+mozilla_dom_SingleLineTextInputTypes_h_
 #
 include
 "
@@ -1005,6 +1005,6 @@ dom
 endif
 /
 *
-mozilla_dom_SingleLineTextInputTypes_h__
+mozilla_dom_SingleLineTextInputTypes_h_
 *
 /

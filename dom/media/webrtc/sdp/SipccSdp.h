@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-_SIPCCSDP_H_
+SIPCCSDP_H_
 #
 define
-_SIPCCSDP_H_
+SIPCCSDP_H_
 #
 include
 <

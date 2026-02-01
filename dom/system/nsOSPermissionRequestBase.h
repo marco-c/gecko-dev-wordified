@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsOSPermissionRequestBase_h__
+nsOSPermissionRequestBase_h_
 #
 define
-nsOSPermissionRequestBase_h__
+nsOSPermissionRequestBase_h_
 #
 include
 "

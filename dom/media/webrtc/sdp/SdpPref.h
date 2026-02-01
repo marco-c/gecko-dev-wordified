@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-_SDPPREF_H_
+SDPPREF_H_
 #
 define
-_SDPPREF_H_
+SDPPREF_H_
 #
 include
 <

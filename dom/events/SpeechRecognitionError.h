@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-SpeechRecognitionError_h__
+SpeechRecognitionError_h_
 #
 define
-SpeechRecognitionError_h__
+SpeechRecognitionError_h_
 #
 include
 "
@@ -329,4 +329,4 @@ dom
 endif
 /
 /
-SpeechRecognitionError_h__
+SpeechRecognitionError_h_

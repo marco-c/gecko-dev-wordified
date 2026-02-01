@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-_include_dom_media_ipc_RDDProcessImpl_h__
+_include_dom_media_ipc_RDDProcessImpl_h_
 #
 define
-_include_dom_media_ipc_RDDProcessImpl_h__
+_include_dom_media_ipc_RDDProcessImpl_h_
 #
 include
 "
@@ -284,4 +284,4 @@ mozilla
 endif
 /
 /
-_include_dom_media_ipc_RDDProcessImpl_h__
+_include_dom_media_ipc_RDDProcessImpl_h_

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_NavigationActivation_h___
+mozilla_dom_NavigationActivation_h_
 #
 define
-mozilla_dom_NavigationActivation_h___
+mozilla_dom_NavigationActivation_h_
 #
 include
 "
@@ -380,4 +380,4 @@ dom
 endif
 /
 /
-mozilla_dom_NavigationActivation_h___
+mozilla_dom_NavigationActivation_h_

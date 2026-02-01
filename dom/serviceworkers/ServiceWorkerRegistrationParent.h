@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_serviceworkerregistrationparent_h__
+mozilla_dom_serviceworkerregistrationparent_h_
 #
 define
-mozilla_dom_serviceworkerregistrationparent_h__
+mozilla_dom_serviceworkerregistrationparent_h_
 #
 include
 "
@@ -341,4 +341,4 @@ dom
 endif
 /
 /
-mozilla_dom_serviceworkerregistrationparent_h__
+mozilla_dom_serviceworkerregistrationparent_h_

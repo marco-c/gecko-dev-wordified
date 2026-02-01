@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-__FFmpegVideoFramePool_h__
+FFmpegVideoFramePool_h_
 #
 define
-__FFmpegVideoFramePool_h__
+FFmpegVideoFramePool_h_
 #
 include
 "
@@ -1202,4 +1202,4 @@ mozilla
 endif
 /
 /
-__FFmpegVideoFramePool_h__
+FFmpegVideoFramePool_h_

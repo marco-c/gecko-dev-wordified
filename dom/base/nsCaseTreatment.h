@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsCaseTreatment_h___
+nsCaseTreatment_h_
 #
 define
-nsCaseTreatment_h___
+nsCaseTreatment_h_
 /
 *
 *
@@ -163,6 +163,6 @@ eIgnoreCase
 endif
 /
 *
-nsCaseTreatment_h___
+nsCaseTreatment_h_
 *
 /

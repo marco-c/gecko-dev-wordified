@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-_RUSTSDPINC_H_
+RUSTSDPINC_H_
 #
 define
-_RUSTSDPINC_H_
+RUSTSDPINC_H_
 #
 include
 <

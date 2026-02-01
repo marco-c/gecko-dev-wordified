@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsCopySupport_h__
+nsCopySupport_h_
 #
 define
-nsCopySupport_h__
+nsCopySupport_h_
 #
 include
 <

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-WebrtcImageBuffer_h__
+WebrtcImageBuffer_h_
 #
 define
-WebrtcImageBuffer_h__
+WebrtcImageBuffer_h_
 #
 include
 "
@@ -429,4 +429,4 @@ mozilla
 endif
 /
 /
-WebrtcImageBuffer_h__
+WebrtcImageBuffer_h_

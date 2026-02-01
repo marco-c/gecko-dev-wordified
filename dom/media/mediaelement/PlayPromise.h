@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-__PlayPromise_h__
+PlayPromise_h_
 #
 define
-__PlayPromise_h__
+PlayPromise_h_
 #
 include
 "
@@ -239,4 +239,4 @@ dom
 endif
 /
 /
-__PlayPromise_h__
+PlayPromise_h_

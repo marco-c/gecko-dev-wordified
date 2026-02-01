@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-__DetailedPromise_h__
+DetailedPromise_h_
 #
 define
-__DetailedPromise_h__
+DetailedPromise_h_
 #
 include
 "
@@ -644,4 +644,4 @@ dom
 endif
 /
 /
-__DetailedPromise_h__
+DetailedPromise_h_

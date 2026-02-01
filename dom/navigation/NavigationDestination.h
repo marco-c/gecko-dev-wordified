@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_NavigationDestination_h___
+mozilla_dom_NavigationDestination_h_
 #
 define
-mozilla_dom_NavigationDestination_h___
+mozilla_dom_NavigationDestination_h_
 #
 include
 "
@@ -475,4 +475,4 @@ dom
 endif
 /
 /
-mozilla_dom_NavigationDestination_h___
+mozilla_dom_NavigationDestination_h_

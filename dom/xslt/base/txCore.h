@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-__txCore_h__
+_txCore_h_
 #
 define
-__txCore_h__
+_txCore_h_
 #
 include
 "

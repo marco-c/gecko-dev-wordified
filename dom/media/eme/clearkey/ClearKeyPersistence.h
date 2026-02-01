@@ -129,10 +129,10 @@ License
 /
 #
 ifndef
-__ClearKeyPersistence_h__
+ClearKeyPersistence_h_
 #
 define
-__ClearKeyPersistence_h__
+ClearKeyPersistence_h_
 /
 /
 This
@@ -151,13 +151,6 @@ on
 Unix
 systems
 .
-#
-include
-<
-stddef
-.
-h
->
 #
 include
 <
@@ -347,4 +340,4 @@ WriteIndex
 endif
 /
 /
-__ClearKeyPersistence_h__
+ClearKeyPersistence_h_

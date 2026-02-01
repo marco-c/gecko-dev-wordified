@@ -208,10 +208,10 @@ stack
 /
 #
 ifndef
-nsAttrValueOrString_h___
+nsAttrValueOrString_h_
 #
 define
-nsAttrValueOrString_h___
+nsAttrValueOrString_h_
 #
 include
 "
@@ -574,4 +574,4 @@ mCheapString
 endif
 /
 /
-nsAttrValueOrString_h___
+nsAttrValueOrString_h_

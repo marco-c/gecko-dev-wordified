@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_TimeoutManager_h__
+mozilla_dom_TimeoutManager_h_
 #
 define
-mozilla_dom_TimeoutManager_h__
+mozilla_dom_TimeoutManager_h_
 #
 include
 "

@@ -130,10 +130,10 @@ node
 /
 #
 ifndef
-AttrArray_h___
+AttrArray_h_
 #
 define
-AttrArray_h___
+AttrArray_h_
 #
 include
 "
