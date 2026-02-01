@@ -731,7 +731,7 @@ of
 the
 setAndLockPref
 and
-setDefualtPref
+setDefaultPref
 APIs
 .
 let

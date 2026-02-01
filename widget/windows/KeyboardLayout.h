@@ -6888,7 +6888,7 @@ MSG
 &
 aMsg
 bool
-aDefualtPrevented
+aDefaultPrevented
 )
 {
 sRedirectedKeyDownMsg
@@ -6897,7 +6897,7 @@ aMsg
 ;
 sDefaultPreventedOfRedirectedMsg
 =
-aDefualtPrevented
+aDefaultPrevented
 ;
 }
 static
