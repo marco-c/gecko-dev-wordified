@@ -6214,12 +6214,10 @@ Clear
 (
 )
 ;
-const
 TextRangeStyle
 *
-GetNonDefaultTextRangeStyle
+FindRangeData
 (
-const
 AbstractRange
 *
 aRange
