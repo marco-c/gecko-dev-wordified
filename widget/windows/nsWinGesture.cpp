@@ -1770,7 +1770,7 @@ UpdatePanFeedbackX
 (
 HWND
 hWnd
-int32_t
+bool
 scrollOverflow
 bool
 &
@@ -1803,9 +1803,6 @@ feeback
 if
 (
 scrollOverflow
-!
-=
-0
 )
 {
 if
@@ -1937,7 +1934,7 @@ UpdatePanFeedbackY
 (
 HWND
 hWnd
-int32_t
+bool
 scrollOverflow
 bool
 &
@@ -1970,9 +1967,6 @@ feeback
 if
 (
 scrollOverflow
-!
-=
-0
 )
 {
 if
