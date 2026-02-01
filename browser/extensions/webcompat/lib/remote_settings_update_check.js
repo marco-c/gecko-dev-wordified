@@ -496,7 +496,7 @@ version
 await
 interventions
 .
-_resetToDefaultInterventions
+resetToDefaultInterventions
 (
 )
 ;

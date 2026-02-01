@@ -497,7 +497,7 @@ false
 await
 WebCompatExtension
 .
-noOngoingInterventionChanges
+interventionsSettled
 (
 )
 ;
@@ -658,7 +658,7 @@ true
 await
 WebCompatExtension
 .
-noOngoingInterventionChanges
+interventionsSettled
 (
 )
 ;
@@ -817,7 +817,7 @@ pref2
 await
 WebCompatExtension
 .
-noOngoingInterventionChanges
+interventionsSettled
 (
 )
 ;

@@ -804,7 +804,7 @@ update
 await
 WebCompatExtension
 .
-interventionsReady
+interventionsSettled
 (
 )
 ;
@@ -1053,7 +1053,7 @@ enabled
 await
 WebCompatExtension
 .
-interventionsReady
+interventionsSettled
 (
 )
 ;
@@ -1106,7 +1106,7 @@ update
 await
 WebCompatExtension
 .
-interventionsReady
+interventionsSettled
 (
 )
 ;
@@ -1366,7 +1366,7 @@ numbers
 await
 WebCompatExtension
 .
-interventionsReady
+interventionsSettled
 (
 )
 ;
@@ -1419,7 +1419,7 @@ update
 await
 WebCompatExtension
 .
-interventionsReady
+interventionsSettled
 (
 )
 ;
