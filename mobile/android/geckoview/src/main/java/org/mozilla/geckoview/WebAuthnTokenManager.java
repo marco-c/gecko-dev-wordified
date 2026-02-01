@@ -1289,7 +1289,7 @@ build
 ;
 /
 /
-requireUserVerification
+userVerification
 are
 not
 yet
@@ -1298,6 +1298,7 @@ by
 Android
 '
 s
+FIDO
 API
 final
 List
