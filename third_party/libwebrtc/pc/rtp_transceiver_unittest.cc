@@ -564,6 +564,10 @@ env_
 dependencies_
 )
 )
+media_engine_ref_
+(
+context_
+)
 codec_lookup_helper_
 (
 context_
@@ -627,9 +631,8 @@ FakeMediaEngine
 *
 >
 (
-context_
--
->
+media_engine_ref_
+.
 media_engine
 (
 )
@@ -748,6 +751,12 @@ scoped_refptr
 ConnectionContext
 >
 context_
+;
+ConnectionContext
+:
+:
+MediaEngineReference
+media_engine_ref_
 ;
 FakeCodecLookupHelper
 codec_lookup_helper_
