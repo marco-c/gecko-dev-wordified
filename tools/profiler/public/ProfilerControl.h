@@ -340,7 +340,9 @@ MOZ_GECKO_PROFILER
 #
 include
 "
-BaseProfiler
+mozilla
+/
+Attributes
 .
 h
 "
@@ -349,7 +351,7 @@ include
 "
 mozilla
 /
-Attributes
+BaseProfiler
 .
 h
 "

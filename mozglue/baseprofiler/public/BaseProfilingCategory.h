@@ -140,6 +140,8 @@ cstdint
 #
 include
 "
+mozilla
+/
 ProfilingCategoryList
 .
 h

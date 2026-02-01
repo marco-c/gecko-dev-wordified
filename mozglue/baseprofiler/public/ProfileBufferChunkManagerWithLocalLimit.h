@@ -123,6 +123,8 @@ ProfileBufferChunkManagerWithLocalLimit_h
 #
 include
 "
+mozilla
+/
 BaseProfiler
 .
 h

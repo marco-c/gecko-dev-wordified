@@ -96,6 +96,8 @@ MPL
 #
 include
 "
+mozilla
+/
 SharedLibraries
 .
 h
@@ -205,13 +207,6 @@ h
 include
 <
 sstream
->
-#
-include
-<
-stdlib
-.
-h
 >
 #
 include

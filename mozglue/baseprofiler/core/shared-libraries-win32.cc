@@ -103,6 +103,8 @@ h
 #
 include
 "
+mozilla
+/
 SharedLibraries
 .
 h

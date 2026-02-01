@@ -922,7 +922,7 @@ in
 OBJDIR
         
 "
-js
+mozilla
 /
 ProfilingCategoryList
 .
