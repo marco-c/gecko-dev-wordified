@@ -104,6 +104,8 @@ MOZBUILD_METRICS_PATH
     
 ensure_l10n_central
     
+get_latest_file
+    
 is_running_under_coding_agent
 )
 BUILD_WHAT_HELP
@@ -1991,29 +1993,21 @@ else
         
 profile
 =
+get_latest_file
+(
 command_context
 .
-_get_build_log_filename
+_build_log_dir
 (
-            
+)
 "
-profile_build_resources
-.
-json
+profile
 "
-        
 )
         
 if
 not
-os
-.
-path
-.
-exists
-(
 profile
-)
 :
             
 command_context
@@ -2078,7 +2072,10 @@ add_resource_json_file
 "
 profile
 "
+str
+(
 profile
+)
 )
     
 profiler_url
