@@ -232,6 +232,7 @@ sidebar
 "
 )
 ;
+await
 inspector
 .
 sidebar

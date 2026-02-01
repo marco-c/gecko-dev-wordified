@@ -460,6 +460,7 @@ view
 "
 )
 ;
+await
 inspector
 .
 sidebar
@@ -482,6 +483,7 @@ view
 "
 )
 ;
+await
 inspector
 .
 sidebar

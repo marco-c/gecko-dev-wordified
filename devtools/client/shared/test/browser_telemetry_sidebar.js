@@ -666,6 +666,7 @@ setTimeout
 here
 setTimeout
 (
+async
 function
 selectSidebarTab
 (
@@ -685,6 +686,7 @@ if
 tool
 )
 {
+await
 inspector
 .
 sidebar

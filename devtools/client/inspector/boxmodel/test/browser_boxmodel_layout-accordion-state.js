@@ -388,6 +388,7 @@ off
 )
 ;
 }
+async
 function
 testAccordionStateAfterSwitchingSidebars
 (
@@ -424,6 +425,7 @@ view
 "
 )
 ;
+await
 inspector
 .
 sidebar
@@ -446,6 +448,7 @@ view
 "
 )
 ;
+await
 inspector
 .
 sidebar

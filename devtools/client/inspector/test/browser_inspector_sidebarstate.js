@@ -295,6 +295,7 @@ inspector
 "
 )
 ;
+await
 inspector
 .
 sidebar
@@ -350,6 +351,7 @@ initialized
 "
 )
 ;
+await
 inspector
 .
 sidebar
@@ -394,6 +396,7 @@ view
 "
 )
 ;
+await
 inspector
 .
 sidebar
