@@ -1767,7 +1767,7 @@ CallbackList
 implementation
 .
 void
-NotifyCandidateready
+NotifyCandidateReady
 (
 Port
 *
