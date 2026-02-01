@@ -887,10 +887,31 @@ names
 :
             
 #
-remove
-cache
+The
+following
+removes
+files
 from
+the
 profile
+before
+archival
+.
+An
+            
+#
+alternative
+is
+to
+exclude
+the
+file
+in
+the
+_filter
+of
+create_archive
+.
             
 shutil
 .
