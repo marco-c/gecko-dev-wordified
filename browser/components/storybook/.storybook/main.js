@@ -549,7 +549,11 @@ multilineeditor
 .
 stories
 .
+(
 mjs
+|
+md
+)
 /
 /
 Everything
