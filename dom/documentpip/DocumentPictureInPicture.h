@@ -140,13 +140,6 @@ DocumentPictureInPictureBinding
 .
 h
 "
-#
-include
-"
-nsIDOMEventListener
-.
-h
-"
 namespace
 mozilla
 :
@@ -161,12 +154,9 @@ public
 DOMEventTargetHelper
 public
 nsIObserver
-public
-nsIDOMEventListener
 {
 public
 :
-NS_DECL_NSIDOMEVENTLISTENER
 NS_DECL_NSIOBSERVER
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
