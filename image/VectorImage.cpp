@@ -616,6 +616,7 @@ Element
 GetReferencedElementWithoutObserving
 (
 )
+const
 final
 {
 return
