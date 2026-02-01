@@ -2642,7 +2642,7 @@ if
 isLatin1
 )
 {
-setLengthAndFlags
+initLengthAndFlags
 (
 length
 INIT_ROPE_FLAGS
@@ -2653,7 +2653,7 @@ LATIN1_CHARS_BIT
 }
 else
 {
-setLengthAndFlags
+initLengthAndFlags
 (
 length
 INIT_ROPE_FLAGS
@@ -2911,7 +2911,7 @@ hasLatin1Chars
 )
 )
 {
-setLengthAndFlags
+initLengthAndFlags
 (
 length
 INIT_DEPENDENT_FLAGS
@@ -2940,7 +2940,7 @@ start
 }
 else
 {
-setLengthAndFlags
+initLengthAndFlags
 (
 length
 INIT_DEPENDENT_FLAGS
@@ -3607,7 +3607,7 @@ HAS_STRING_BUFFER_BIT
 0
 )
 ;
-setLengthAndFlags
+initLengthAndFlags
 (
 length
 flags
@@ -3677,7 +3677,7 @@ HAS_STRING_BUFFER_BIT
 0
 )
 ;
-setLengthAndFlags
+initLengthAndFlags
 (
 length
 flags
@@ -3845,7 +3845,7 @@ char16_t
 >
 )
 {
-setLengthAndFlags
+initLengthAndFlags
 (
 chars
 .
@@ -3872,7 +3872,7 @@ data
 }
 else
 {
-setLengthAndFlags
+initLengthAndFlags
 (
 chars
 .
@@ -4979,7 +4979,7 @@ length
 )
 )
 ;
-setLengthAndFlags
+initLengthAndFlags
 (
 length
 INIT_THIN_INLINE_FLAGS
@@ -5020,7 +5020,7 @@ length
 )
 )
 ;
-setLengthAndFlags
+initLengthAndFlags
 (
 length
 INIT_THIN_INLINE_FLAGS
@@ -5065,7 +5065,7 @@ length
 )
 )
 ;
-setLengthAndFlags
+initLengthAndFlags
 (
 length
 INIT_FAT_INLINE_FLAGS
@@ -5106,7 +5106,7 @@ length
 )
 )
 ;
-setLengthAndFlags
+initLengthAndFlags
 (
 length
 INIT_FAT_INLINE_FLAGS
@@ -5143,7 +5143,7 @@ MOZ_ASSERT
 callbacks
 )
 ;
-setLengthAndFlags
+initLengthAndFlags
 (
 length
 EXTERNAL_FLAGS
@@ -5196,7 +5196,7 @@ MOZ_ASSERT
 callbacks
 )
 ;
-setLengthAndFlags
+initLengthAndFlags
 (
 length
 EXTERNAL_FLAGS
@@ -5515,7 +5515,7 @@ char16_t
 >
 )
 {
-setLengthAndFlags
+initLengthAndFlags
 (
 chars
 .
@@ -5542,7 +5542,7 @@ data
 }
 else
 {
-setLengthAndFlags
+initLengthAndFlags
 (
 chars
 .
@@ -5603,7 +5603,7 @@ NormalAtom
 hash
 )
 {
-setLengthAndFlags
+initLengthAndFlags
 (
 length
 INIT_THIN_INLINE_FLAGS
@@ -5648,7 +5648,7 @@ NormalAtom
 hash
 )
 {
-setLengthAndFlags
+initLengthAndFlags
 (
 length
 INIT_THIN_INLINE_FLAGS
@@ -5710,7 +5710,7 @@ length
 )
 )
 ;
-setLengthAndFlags
+initLengthAndFlags
 (
 length
 INIT_FAT_INLINE_FLAGS
@@ -5766,7 +5766,7 @@ length
 )
 )
 ;
-setLengthAndFlags
+initLengthAndFlags
 (
 length
 INIT_FAT_INLINE_FLAGS
