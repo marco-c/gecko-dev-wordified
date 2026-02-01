@@ -414,9 +414,6 @@ aChar
 )
 ;
 }
-#
-ifdef
-__cpp_char8_t
 /
 *
 *
@@ -465,8 +462,6 @@ aChar
 )
 ;
 }
-#
-endif
 /
 *
 *

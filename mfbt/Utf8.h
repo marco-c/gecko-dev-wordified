@@ -2091,9 +2091,6 @@ it
 to
 .
 }
-#
-ifdef
-__cpp_char8_t
 explicit
 constexpr
 Utf8Unit
@@ -2114,8 +2111,6 @@ aUnit
 )
 {
 }
-#
-endif
 constexpr
 bool
 operator
