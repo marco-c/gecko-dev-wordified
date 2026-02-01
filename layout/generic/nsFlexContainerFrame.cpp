@@ -3566,7 +3566,7 @@ Baseline
 SynthesizeBOffsetFromBorderBox
 (
 mFrame
-mWM
+mCBWM
 BaselineSharingGroup
 :
 :
