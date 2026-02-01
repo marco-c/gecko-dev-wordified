@@ -3671,6 +3671,15 @@ RtpTransceiverDirection
 direction
 )
 {
+if
+(
+current_direction_
+=
+=
+direction
+)
+return
+;
 RTC_LOG
 (
 LS_INFO
@@ -3734,11 +3743,6 @@ RtpTransceiverDirectionToString
 (
 direction
 )
-<
-<
-"
-.
-"
 ;
 current_direction_
 =
