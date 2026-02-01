@@ -1956,6 +1956,7 @@ AvailableBSize
 (
 )
 ;
+const
 nscoord
 colGap
 =
@@ -1965,11 +1966,7 @@ ColumnUtils
 GetColumnGap
 (
 this
-aReflowInput
-.
-ComputedISize
-(
-)
+availContentISize
 )
 ;
 int32_t
