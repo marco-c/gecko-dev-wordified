@@ -1,28 +1,10 @@
-{
-%
--
-let
-key_ffi_converter
-=
-key_type
-|
-ffi_converter_name
-%
-}
-{
-%
--
-let
-value_ffi_converter
-=
-value_type
-|
-ffi_converter_name
-%
-}
 class
 {
 {
+map
+.
+self_type
+.
 ffi_converter_name
 }
 }
@@ -56,7 +38,11 @@ items
             
 {
 {
-key_ffi_converter
+map
+.
+key
+.
+ffi_converter_name
 }
 }
 .
@@ -67,7 +53,11 @@ key
             
 {
 {
-value_ffi_converter
+map
+.
+value
+.
+ffi_converter_name
 }
 }
 .
@@ -112,7 +102,11 @@ items
             
 {
 {
-key_ffi_converter
+map
+.
+key
+.
+ffi_converter_name
 }
 }
 .
@@ -124,7 +118,11 @@ buf
             
 {
 {
-value_ffi_converter
+map
+.
+value
+.
+ffi_converter_name
 }
 }
 .
@@ -247,7 +245,11 @@ key
 =
 {
 {
-key_ffi_converter
+map
+.
+key
+.
+ffi_converter_name
 }
 }
 .
@@ -260,7 +262,11 @@ val
 =
 {
 {
-value_ffi_converter
+map
+.
+value
+.
+ffi_converter_name
 }
 }
 .

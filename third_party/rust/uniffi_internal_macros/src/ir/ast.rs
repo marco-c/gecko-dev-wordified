@@ -155,6 +155,16 @@ NodeDef
 }
 #
 [
+allow
+(
+clippy
+:
+:
+large_enum_variant
+)
+]
+#
+[
 derive
 (
 Clone

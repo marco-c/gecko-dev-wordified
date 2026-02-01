@@ -298,7 +298,7 @@ with
 RustFuturePoll
 :
 :
-MaybeReady
+Wake
 Waked
 /
 /
@@ -532,7 +532,7 @@ data
 RustFuturePoll
 :
 :
-MaybeReady
+Wake
 )
 ;
 }
@@ -625,7 +625,7 @@ old_data
 RustFuturePoll
 :
 :
-MaybeReady
+Wake
 )
 ;
 }

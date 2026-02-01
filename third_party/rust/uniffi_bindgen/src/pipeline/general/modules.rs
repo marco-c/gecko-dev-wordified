@@ -66,11 +66,11 @@ pub
 fn
 pass
 (
-module
+namespace
 :
 &
 mut
-Module
+Namespace
 )
 -
 >
@@ -80,7 +80,7 @@ Result
 )
 >
 {
-module
+namespace
 .
 string_type_node
 =

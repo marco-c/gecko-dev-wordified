@@ -774,7 +774,6 @@ _num
 field
 )
 |
-(
 !
 has_ignore_attribute
 (
@@ -782,7 +781,6 @@ has_ignore_attribute
 field
 .
 attrs
-)
 )
 )
 .

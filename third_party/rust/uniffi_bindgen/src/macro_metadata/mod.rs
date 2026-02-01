@@ -95,7 +95,10 @@ use
 extract
 :
 :
+{
+extract_from_bytes
 extract_from_library
+}
 ;
 pub
 fn

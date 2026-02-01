@@ -2590,6 +2590,10 @@ write
 mut
 buf_writer
 handle
+.
+clone
+(
+)
 )
 ;
 #

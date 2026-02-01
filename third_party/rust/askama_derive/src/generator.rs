@@ -2,6 +2,9 @@ mod
 expr
 ;
 mod
+filter
+;
+mod
 node
 ;
 use
@@ -2305,9 +2308,6 @@ wrapper_impl_generics
 askama
 :
 :
-filters
-:
-:
 FastWritable
 for
 #
@@ -2334,6 +2334,14 @@ dest
 &
 mut
 AskamaW
+values
+:
+&
+dyn
+askama
+:
+:
+Values
 )
 -
 >
@@ -2387,10 +2395,11 @@ Template
 >
 :
 :
-render_into
+render_into_with_values
 (
 self
 dest
+values
 )
 }
 }

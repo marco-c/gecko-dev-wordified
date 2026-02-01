@@ -70,6 +70,7 @@ uniffi_meta
 :
 :
 {
+DefaultValueMetadata
 LiteralMetadata
 Radix
 Type
@@ -1006,12 +1007,18 @@ Box
 :
 new
 (
+DefaultValueMetadata
+:
+:
+Literal
+(
 convert_default_value
 (
 default_value
 inner_type
 )
 ?
+)
 )
 }
 /

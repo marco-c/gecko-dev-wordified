@@ -69,10 +69,7 @@ use
 uniffi_internal_macros
 :
 :
-{
-AsRef
 Node
-}
 ;
 pub
 use

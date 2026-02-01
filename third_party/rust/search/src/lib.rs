@@ -152,3 +152,13 @@ search
 "
 )
 ;
+#
+[
+cfg
+(
+test
+)
+]
+mod
+test_helpers
+;

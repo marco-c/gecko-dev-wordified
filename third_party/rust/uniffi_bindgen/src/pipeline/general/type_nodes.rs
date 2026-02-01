@@ -109,11 +109,11 @@ pub
 fn
 pass
 (
-module
+namespace
 :
 &
 mut
-Module
+Namespace
 )
 -
 >
@@ -139,7 +139,7 @@ default
 (
 )
 ;
-module
+namespace
 .
 try_visit
 (
@@ -291,7 +291,7 @@ have
 historically
 worked
 .
-module
+namespace
 .
 visit
 (
@@ -336,7 +336,7 @@ clone
 }
 )
 ;
-module
+namespace
 .
 visit_mut
 (

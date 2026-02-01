@@ -783,6 +783,13 @@ LoginStore
 may
 deadlock
 .
+#
+[
+uniffi
+:
+:
+trait_interface
+]
 pub
 trait
 EncryptorDecryptor
@@ -1389,6 +1396,13 @@ or
 decryption
 happens
 .
+#
+[
+uniffi
+:
+:
+trait_interface
+]
 pub
 trait
 KeyManager
