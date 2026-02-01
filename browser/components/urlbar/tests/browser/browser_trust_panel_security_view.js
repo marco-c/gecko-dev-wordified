@@ -117,6 +117,16 @@ security
 .
 qwacs
 .
+enabled
+"
+true
+]
+[
+"
+security
+.
+qwacs
+.
 enable_test_trust_anchors
 "
 true
