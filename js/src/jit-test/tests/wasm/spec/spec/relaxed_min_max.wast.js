@@ -170,7 +170,7 @@ relaxed_min_max
 .
 wast
 :
-4
+3
 let
 0
 =
@@ -581,7 +581,7 @@ relaxed_min_max
 .
 wast
 :
-28
+27
 assert_return
 (
 (
@@ -748,7 +748,7 @@ relaxed_min_max
 .
 wast
 :
-36
+35
 assert_return
 (
 (
@@ -947,7 +947,7 @@ relaxed_min_max
 .
 wast
 :
-44
+43
 assert_return
 (
 (
@@ -1114,7 +1114,7 @@ relaxed_min_max
 .
 wast
 :
-52
+51
 assert_return
 (
 (
@@ -1311,7 +1311,7 @@ relaxed_min_max
 .
 wast
 :
-60
+59
 assert_return
 (
 (
@@ -1429,7 +1429,7 @@ relaxed_min_max
 .
 wast
 :
-68
+67
 assert_return
 (
 (
@@ -1547,7 +1547,7 @@ relaxed_min_max
 .
 wast
 :
-76
+75
 assert_return
 (
 (
@@ -1680,7 +1680,7 @@ relaxed_min_max
 .
 wast
 :
-84
+83
 assert_return
 (
 (
@@ -1811,7 +1811,7 @@ relaxed_min_max
 .
 wast
 :
-92
+91
 assert_return
 (
 (
@@ -1929,7 +1929,7 @@ relaxed_min_max
 .
 wast
 :
-100
+99
 assert_return
 (
 (
@@ -2047,7 +2047,7 @@ relaxed_min_max
 .
 wast
 :
-108
+107
 assert_return
 (
 (
@@ -2178,7 +2178,7 @@ relaxed_min_max
 .
 wast
 :
-116
+115
 assert_return
 (
 (
@@ -2309,7 +2309,7 @@ relaxed_min_max
 .
 wast
 :
-126
+125
 assert_return
 (
 (
@@ -2402,7 +2402,7 @@ relaxed_min_max
 .
 wast
 :
-131
+130
 assert_return
 (
 (
@@ -2469,7 +2469,7 @@ relaxed_min_max
 .
 wast
 :
-136
+135
 assert_return
 (
 (
@@ -2562,7 +2562,7 @@ relaxed_min_max
 .
 wast
 :
-141
+140
 assert_return
 (
 (
@@ -2629,7 +2629,7 @@ relaxed_min_max
 .
 wast
 :
-146
+145
 assert_return
 (
 (
@@ -2703,7 +2703,7 @@ relaxed_min_max
 .
 wast
 :
-151
+150
 assert_return
 (
 (
@@ -2777,7 +2777,7 @@ relaxed_min_max
 .
 wast
 :
-156
+155
 assert_return
 (
 (
@@ -2836,7 +2836,7 @@ relaxed_min_max
 .
 wast
 :
-161
+160
 assert_return
 (
 (
@@ -2895,7 +2895,7 @@ relaxed_min_max
 .
 wast
 :
-166
+165
 assert_return
 (
 (
@@ -2969,7 +2969,7 @@ relaxed_min_max
 .
 wast
 :
-171
+170
 assert_return
 (
 (
@@ -3043,7 +3043,7 @@ relaxed_min_max
 .
 wast
 :
-176
+175
 assert_return
 (
 (
@@ -3102,7 +3102,7 @@ relaxed_min_max
 .
 wast
 :
-181
+180
 assert_return
 (
 (

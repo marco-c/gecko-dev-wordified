@@ -259,9 +259,8 @@ const
 )
 )
 )
-array
-is
 immutable
+array
 )
 ;
 /

@@ -170,7 +170,7 @@ relaxed_laneselect
 .
 wast
 :
-4
+3
 let
 0
 =
@@ -661,7 +661,7 @@ relaxed_laneselect
 .
 wast
 :
-28
+27
 assert_return
 (
 (
@@ -805,7 +805,7 @@ relaxed_laneselect
 .
 wast
 :
-35
+34
 assert_return
 (
 (
@@ -909,7 +909,7 @@ relaxed_laneselect
 .
 wast
 :
-43
+42
 assert_return
 (
 (
@@ -1026,7 +1026,7 @@ relaxed_laneselect
 .
 wast
 :
-52
+51
 assert_return
 (
 (
@@ -1110,7 +1110,7 @@ relaxed_laneselect
 .
 wast
 :
-59
+58
 assert_return
 (
 (
@@ -1184,7 +1184,7 @@ relaxed_laneselect
 .
 wast
 :
-66
+65
 assert_return
 (
 (
@@ -1258,7 +1258,7 @@ relaxed_laneselect
 .
 wast
 :
-75
+74
 assert_return
 (
 (
@@ -1378,7 +1378,7 @@ relaxed_laneselect
 .
 wast
 :
-81
+80
 assert_return
 (
 (
@@ -1466,7 +1466,7 @@ relaxed_laneselect
 .
 wast
 :
-87
+86
 assert_return
 (
 (
@@ -1538,7 +1538,7 @@ relaxed_laneselect
 .
 wast
 :
-93
+92
 assert_return
 (
 (
@@ -1602,7 +1602,7 @@ relaxed_laneselect
 .
 wast
 :
-99
+98
 assert_return
 (
 (

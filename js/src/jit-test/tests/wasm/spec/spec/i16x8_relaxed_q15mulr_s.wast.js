@@ -170,7 +170,7 @@ i16x8_relaxed_q15mulr_s
 .
 wast
 :
-4
+3
 let
 0
 =
@@ -293,7 +293,7 @@ i16x8_relaxed_q15mulr_s
 .
 wast
 :
-14
+13
 assert_return
 (
 (
@@ -384,7 +384,7 @@ i16x8_relaxed_q15mulr_s
 .
 wast
 :
-23
+22
 assert_return
 (
 (

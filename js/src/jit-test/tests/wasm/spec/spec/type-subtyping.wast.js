@@ -3915,6 +3915,8 @@ fail1
 )
 indirect
 call
+type
+mismatch
 )
 ;
 /
@@ -3949,6 +3951,8 @@ fail2
 )
 indirect
 call
+type
+mismatch
 )
 ;
 /
@@ -3983,6 +3987,8 @@ fail3
 )
 indirect
 call
+type
+mismatch
 )
 ;
 /
@@ -4016,6 +4022,7 @@ fail4
 ]
 )
 cast
+failure
 )
 ;
 /
@@ -4049,6 +4056,7 @@ fail5
 ]
 )
 cast
+failure
 )
 ;
 /
@@ -4082,6 +4090,7 @@ fail6
 ]
 )
 cast
+failure
 )
 ;
 /
@@ -4315,6 +4324,8 @@ fail1
 )
 indirect
 call
+type
+mismatch
 )
 ;
 /
@@ -4349,6 +4360,8 @@ fail2
 )
 indirect
 call
+type
+mismatch
 )
 ;
 /
@@ -4382,6 +4395,7 @@ fail3
 ]
 )
 cast
+failure
 )
 ;
 /
@@ -4415,6 +4429,7 @@ fail4
 ]
 )
 cast
+failure
 )
 ;
 /
@@ -4720,6 +4735,8 @@ fail1
 )
 indirect
 call
+type
+mismatch
 )
 ;
 /
@@ -4754,6 +4771,8 @@ fail2
 )
 indirect
 call
+type
+mismatch
 )
 ;
 /
@@ -8941,6 +8960,7 @@ g1
 )
 incompatible
 import
+type
 )
 ;
 /
@@ -10749,6 +10769,7 @@ f11
 )
 incompatible
 import
+type
 )
 ;
 /
@@ -10998,6 +11019,7 @@ f11
 )
 incompatible
 import
+type
 )
 ;
 /
@@ -11802,12 +11824,6 @@ any
 )
 sub
 type
-1
-does
-not
-match
-super
-type
 )
 ;
 /
@@ -11879,12 +11895,6 @@ none
 )
 sub
 type
-1
-does
-not
-match
-super
-type
 )
 ;
 /
@@ -11953,12 +11963,6 @@ any
 )
 sub
 type
-1
-does
-not
-match
-super
-type
 )
 ;
 /
@@ -12026,12 +12030,6 @@ any
 )
 )
 sub
-type
-1
-does
-not
-match
-super
 type
 )
 ;
@@ -12103,12 +12101,6 @@ any
 )
 )
 sub
-type
-1
-does
-not
-match
-super
 type
 )
 ;
@@ -12187,12 +12179,6 @@ none
 )
 sub
 type
-1
-does
-not
-match
-super
-type
 )
 ;
 /
@@ -12267,12 +12253,6 @@ any
 )
 sub
 type
-1
-does
-not
-match
-super
-type
 )
 ;
 /
@@ -12346,12 +12326,6 @@ any
 )
 )
 sub
-type
-1
-does
-not
-match
-super
 type
 )
 ;
