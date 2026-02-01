@@ -227,7 +227,7 @@ configuration
 /
 The
 SDP
-serializtion
+serialization
 code
 (
 webrtc_sdp
@@ -236,10 +236,10 @@ h
 )
 should
 use
-SdpSerializer
+SdpSerialize
+/
+/
 to
-/
-/
 serialize
 and
 deserialize
