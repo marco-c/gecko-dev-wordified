@@ -3161,7 +3161,7 @@ IsStopped
 )
 )
 {
-SignalIceRegathering
+NotifyIceRegathering
 (
 this
 reason
@@ -6192,7 +6192,7 @@ must
 be
 regathering
 .
-SignalIceRegathering
+NotifyIceRegathering
 (
 this
 IceRegatheringReason
@@ -6941,7 +6941,7 @@ ready
 .
 "
 ;
-SignalPortReady
+NotifyPortReady
 (
 this
 port
@@ -6994,7 +6994,7 @@ c
 )
 )
 ;
-SignalCandidatesReady
+NotifyCandidatesReady
 (
 this
 candidates
@@ -7099,7 +7099,7 @@ event
 }
 else
 {
-SignalCandidateError
+NotifyCandidateError
 (
 this
 event
@@ -8316,7 +8316,7 @@ event
 candidate_error_events_
 )
 {
-SignalCandidateError
+NotifyCandidateError
 (
 this
 event
@@ -8329,7 +8329,7 @@ clear
 (
 )
 ;
-SignalCandidatesAllocationDone
+NotifyCandidatesAllocationDone
 (
 this
 )
@@ -8777,7 +8777,7 @@ empty
 )
 )
 {
-SignalPortsPruned
+NotifyPortsPruned
 (
 this
 pruned_ports
@@ -8816,7 +8816,7 @@ size
 candidates
 "
 ;
-SignalCandidatesRemoved
+NotifyCandidatesRemoved
 (
 this
 removed_candidates
