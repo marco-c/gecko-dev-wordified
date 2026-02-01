@@ -319,6 +319,17 @@ Control
 )
 HTTP_ATOM
 (
+Clear_Site_Data
+"
+Clear
+-
+Site
+-
+Data
+"
+)
+HTTP_ATOM
+(
 Connection
 "
 Connection

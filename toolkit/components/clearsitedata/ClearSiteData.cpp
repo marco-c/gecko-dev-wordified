@@ -282,6 +282,16 @@ LogLevel
 Debug
 args
 )
+#
+define
+CLEAR_SITE_DATA_TOPIC
+"
+clear
+-
+site
+-
+data
+"
 namespace
 {
 StaticRefPtr
@@ -597,7 +607,7 @@ obs
 AddObserver
 (
 service
-NS_HTTP_ON_AFTER_EXAMINE_RESPONSE_TOPIC
+CLEAR_SITE_DATA_TOPIC
 false
 )
 ;
@@ -688,7 +698,7 @@ obs
 RemoveObserver
 (
 service
-NS_HTTP_ON_AFTER_EXAMINE_RESPONSE_TOPIC
+CLEAR_SITE_DATA_TOPIC
 )
 ;
 obs
@@ -763,7 +773,7 @@ MOZ_ASSERT
 strcmp
 (
 aTopic
-NS_HTTP_ON_AFTER_EXAMINE_RESPONSE_TOPIC
+CLEAR_SITE_DATA_TOPIC
 )
 )
 ;
