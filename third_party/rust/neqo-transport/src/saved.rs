@@ -279,6 +279,7 @@ currently
 full
 .
 pub
+const
 fn
 is_either_full
 (

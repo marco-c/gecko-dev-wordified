@@ -427,6 +427,7 @@ t
 t
 }
 pub
+const
 fn
 on_packet_sent
 (
@@ -963,6 +964,7 @@ false
 }
 }
 pub
+const
 fn
 lost_keep_alive
 (
@@ -979,6 +981,7 @@ false
 ;
 }
 pub
+const
 fn
 ack_keep_alive
 (
