@@ -322,12 +322,11 @@ the
 global
 lexical
 environment
+prototypes
 and
 certain
 builtin
 constructors
-and
-prototypes
 .
 /
 /
