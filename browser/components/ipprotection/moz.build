@@ -127,6 +127,13 @@ sys
 mjs
 "
 "
+IPPAutoRestore
+.
+sys
+.
+mjs
+"
+"
 IPPAutoStart
 .
 sys
