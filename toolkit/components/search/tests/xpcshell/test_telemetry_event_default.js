@@ -2141,8 +2141,6 @@ loadPath
 :
 engine
 .
-wrappedJSObject
-.
 _loadPath
 submissionURL
 :

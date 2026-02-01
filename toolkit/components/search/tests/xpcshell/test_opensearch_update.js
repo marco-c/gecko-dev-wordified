@@ -676,8 +676,6 @@ engine
 ;
 engine
 .
-wrappedJSObject
-.
 setAttr
 (
 "
@@ -755,8 +753,6 @@ Assert
 equal
 (
 engine
-.
-wrappedJSObject
 .
 getAttr
 (

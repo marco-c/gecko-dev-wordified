@@ -295,8 +295,6 @@ equal
 (
 engine
 .
-wrappedJSObject
-.
 queryCharset
 "
 windows
@@ -1124,8 +1122,6 @@ iconMapObj
 =
 engine
 .
-wrappedJSObject
-.
 _iconMapObj
 ;
 Assert
@@ -1475,8 +1471,6 @@ iconMapObj
 =
 engine
 .
-wrappedJSObject
-.
 _iconMapObj
 ;
 Assert
@@ -1685,8 +1679,6 @@ let
 iconMapObj
 =
 engine
-.
-wrappedJSObject
 .
 _iconMapObj
 ;

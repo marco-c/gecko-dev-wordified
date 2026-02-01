@@ -507,8 +507,6 @@ success
 =
 engine
 .
-wrappedJSObject
-.
 rename
 (
 "
@@ -712,8 +710,6 @@ let
 success
 =
 engine
-.
-wrappedJSObject
 .
 rename
 (
@@ -939,8 +935,6 @@ TOPIC_ENGINE_MODIFIED
 ;
 engine
 .
-wrappedJSObject
-.
 changeUrl
 (
 SearchUtils
@@ -1045,8 +1039,6 @@ data
 )
 ;
 engine
-.
-wrappedJSObject
 .
 changeUrl
 (
@@ -1163,8 +1155,6 @@ yet
 ;
 engine
 .
-wrappedJSObject
-.
 changeUrl
 (
 SearchUtils
@@ -1258,8 +1248,6 @@ GET
 )
 ;
 engine
-.
-wrappedJSObject
 .
 changeUrl
 (

@@ -2260,8 +2260,6 @@ equal
 !
 defaultEngine
 .
-wrappedJSObject
-.
 getAttr
 (
 "

@@ -1288,8 +1288,6 @@ equal
 (
 engine
 .
-wrappedJSObject
-.
 queryCharset
 args
 .

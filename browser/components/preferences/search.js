@@ -6140,8 +6140,6 @@ clonedObj
 isAddonEngine
 =
 aEngine
-.
-wrappedJSObject
 instanceof
 lazy
 .
@@ -6152,8 +6150,6 @@ clonedObj
 isUserEngine
 =
 aEngine
-.
-wrappedJSObject
 instanceof
 lazy
 .
@@ -8958,8 +8954,6 @@ this
 selectedEngine
 .
 originalEngine
-.
-wrappedJSObject
 ;
 gSubDialog
 .
@@ -11236,8 +11230,6 @@ valid
 aEngine
 .
 originalEngine
-.
-wrappedJSObject
 .
 rename
 (

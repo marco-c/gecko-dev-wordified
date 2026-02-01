@@ -126,8 +126,6 @@ plugin
 loadpath
 engine
 .
-wrappedJSObject
-.
 _loadPath
 =
 jar
@@ -225,8 +223,6 @@ Assert
 equal
 (
 engine
-.
-wrappedJSObject
 .
 _loadPath
 "
@@ -332,8 +328,6 @@ legacy
 plugin
 loadpath
 engine
-.
-wrappedJSObject
 .
 _loadPath
 =
@@ -482,8 +476,6 @@ Assert
 equal
 (
 engine
-.
-wrappedJSObject
 .
 _loadPath
 "

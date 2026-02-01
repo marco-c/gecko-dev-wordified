@@ -3809,8 +3809,6 @@ new_load_path
 :
 engine
 .
-wrappedJSObject
-.
 _loadPath
 /
 /

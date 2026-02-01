@@ -323,8 +323,6 @@ url
 =
 engine
 .
-wrappedJSObject
-.
 getURLOfType
 (
 SearchUtils
@@ -575,8 +573,6 @@ url
 =
 engine
 .
-wrappedJSObject
-.
 getURLOfType
 (
 SearchUtils
@@ -793,8 +789,6 @@ let
 url
 =
 engine
-.
-wrappedJSObject
 .
 getURLOfType
 (

@@ -615,8 +615,6 @@ equal
 (
 engine
 .
-wrappedJSObject
-.
 _loadPath
 expectedData
 .

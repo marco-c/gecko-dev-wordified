@@ -440,8 +440,6 @@ iconMapObj
 =
 engine
 .
-wrappedJSObject
-.
 _iconMapObj
 ;
 Assert
@@ -587,8 +585,6 @@ let
 iconMapObj
 =
 engine
-.
-wrappedJSObject
 .
 _iconMapObj
 ;

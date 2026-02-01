@@ -410,8 +410,6 @@ getEngineById
 additional
 "
 )
-.
-wrappedJSObject
 ;
 Assert
 .
@@ -502,8 +500,6 @@ getEngineById
 additional
 "
 )
-.
-wrappedJSObject
 ;
 Assert
 .
@@ -596,8 +592,6 @@ getEngineById
 additional
 "
 )
-.
-wrappedJSObject
 ;
 Assert
 .
@@ -652,8 +646,6 @@ let
 engineLoadPath
 =
 engine
-.
-wrappedJSObject
 .
 _loadPath
 ;

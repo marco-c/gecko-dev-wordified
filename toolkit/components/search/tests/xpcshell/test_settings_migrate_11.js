@@ -518,8 +518,6 @@ keys
 (
 engine
 .
-wrappedJSObject
-.
 _iconMapObj
 )
 ;

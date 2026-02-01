@@ -1176,8 +1176,6 @@ url
 =
 engine
 .
-wrappedJSObject
-.
 getURLOfType
 (
 "
@@ -1433,8 +1431,6 @@ let
 url
 =
 engine
-.
-wrappedJSObject
 .
 getURLOfType
 (
@@ -2015,8 +2011,6 @@ url
 =
 engine
 .
-wrappedJSObject
-.
 getURLOfType
 (
 "
@@ -2307,8 +2301,6 @@ let
 url
 =
 engine
-.
-wrappedJSObject
 .
 getURLOfType
 (
