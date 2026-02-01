@@ -3190,6 +3190,11 @@ mEverOpened
 false
 ;
 bool
+mAnnouncedOpen
+=
+false
+;
+bool
 mAnnouncedClosed
 =
 false
