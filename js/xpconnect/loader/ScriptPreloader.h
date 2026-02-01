@@ -885,7 +885,15 @@ Active
 (
 )
 const
+{
+return
+mCacheInitialized
+&
+&
+!
+mStartupFinished
 ;
+}
 private
 :
 Result
