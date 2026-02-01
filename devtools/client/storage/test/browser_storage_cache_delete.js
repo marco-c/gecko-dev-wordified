@@ -362,12 +362,6 @@ delete
 "
 )
 ;
-await
-selectTreeItem
-(
-cacheToDelete
-)
-;
 ok
 (
 !
