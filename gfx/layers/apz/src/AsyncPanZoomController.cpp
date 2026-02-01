@@ -50391,10 +50391,7 @@ aEvent
 .
 mDeltaType
 )
-ScrollSnapFlags
-:
-:
-IntendedDirection
+snapFlags
 aDelta
 aStartPosition
 )
