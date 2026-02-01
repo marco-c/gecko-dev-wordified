@@ -1330,6 +1330,16 @@ kVideoCodecsModifiedWithRawPacketization
 kVideoCodecsRtcpReducedSize
 =
 89
+/
+/
+DataChannel
+-
+related
+munging
+.
+kDataChannelSctpInit
+=
+100
 kMaxValue
 }
 ;
