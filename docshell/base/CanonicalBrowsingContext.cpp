@@ -24473,17 +24473,6 @@ ancestorPrincipals
 return
 ;
 }
-MOZ_DIAGNOSTIC_ASSERT
-(
-!
-parent
--
->
-IsChrome
-(
-)
-)
-;
 /
 /
 7
