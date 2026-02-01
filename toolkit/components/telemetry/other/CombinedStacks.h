@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-CombinedStacks_h__
+CombinedStacks_h_
 #
 define
-CombinedStacks_h__
+CombinedStacks_h_
 #
 include
 <
@@ -652,4 +652,4 @@ IPC
 endif
 /
 /
-CombinedStacks_h__
+CombinedStacks_h_

@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-__nsRFPService_h__
+_nsRFPService_h_
 #
 define
-__nsRFPService_h__
+_nsRFPService_h_
 #
 include
 <
@@ -5583,6 +5583,6 @@ mozilla
 endif
 /
 *
-__nsRFPService_h__
+_nsRFPService_h_
 *
 /

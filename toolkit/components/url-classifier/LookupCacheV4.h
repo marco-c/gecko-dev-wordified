@@ -96,10 +96,10 @@ MPL
 /
 #
 ifndef
-LookupCacheV4_h__
+LookupCacheV4_h_
 #
 define
-LookupCacheV4_h__
+LookupCacheV4_h_
 #
 include
 "

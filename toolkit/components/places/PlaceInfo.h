@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-mozilla_places_PlaceInfo_h__
+mozilla_places_PlaceInfo_h_
 #
 define
-mozilla_places_PlaceInfo_h__
+mozilla_places_PlaceInfo_h_
 #
 include
 "
@@ -227,4 +227,4 @@ mozilla
 endif
 /
 /
-mozilla_places_PlaceInfo_h__
+mozilla_places_PlaceInfo_h_

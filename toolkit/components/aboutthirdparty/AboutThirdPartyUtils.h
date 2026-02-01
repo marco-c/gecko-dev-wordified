@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-__AboutThirdPartyUtils_h__
+AboutThirdPartyUtils_h_
 #
 define
-__AboutThirdPartyUtils_h__
+AboutThirdPartyUtils_h_
 #
 include
 "
@@ -314,4 +314,4 @@ mozilla
 endif
 /
 /
-__AboutThirdPartyUtils_h__
+AboutThirdPartyUtils_h_

@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsAlertsIconListener_h__
+nsAlertsIconListener_h_
 #
 define
-nsAlertsIconListener_h__
+nsAlertsIconListener_h_
 #
 include
 "

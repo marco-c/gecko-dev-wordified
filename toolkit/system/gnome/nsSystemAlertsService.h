@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsSystemAlertsService_h__
+nsSystemAlertsService_h_
 #
 define
-nsSystemAlertsService_h__
+nsSystemAlertsService_h_
 #
 include
 "
@@ -205,6 +205,6 @@ false
 endif
 /
 *
-nsSystemAlertsService_h__
+nsSystemAlertsService_h_
 *
 /

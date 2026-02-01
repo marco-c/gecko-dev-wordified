@@ -133,10 +133,10 @@ tests
 /
 #
 ifndef
-mock_Link_h__
+mock_Link_h_
 #
 define
-mock_Link_h__
+mock_Link_h_
 #
 include
 "
@@ -472,4 +472,4 @@ Link
 endif
 /
 /
-mock_Link_h__
+mock_Link_h_

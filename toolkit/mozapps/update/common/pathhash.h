@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-_PATHHASH_H_
+PATHHASH_H_
 #
 define
-_PATHHASH_H_
+PATHHASH_H_
 #
 include
 <

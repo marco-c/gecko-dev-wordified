@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-mozilla_BounceTrackingProtectionStorage_h__
+mozilla_BounceTrackingProtectionStorage_h_
 #
 define
-mozilla_BounceTrackingProtectionStorage_h__
+mozilla_BounceTrackingProtectionStorage_h_
 #
 include
 "
@@ -1767,4 +1767,4 @@ mozilla
 endif
 /
 /
-mozilla_BounceTrackingProtectionStorage_h__
+mozilla_BounceTrackingProtectionStorage_h_

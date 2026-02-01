@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-__nsWindowWatcher_h__
+_nsWindowWatcher_h_
 #
 define
-__nsWindowWatcher_h__
+_nsWindowWatcher_h_
 /
 /
 {

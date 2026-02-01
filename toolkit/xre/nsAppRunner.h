@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsAppRunner_h__
+nsAppRunner_h_
 #
 define
-nsAppRunner_h__
+nsAppRunner_h_
 #
 ifdef
 XP_WIN
@@ -924,4 +924,4 @@ IsWaylandEnabled
 endif
 /
 /
-nsAppRunner_h__
+nsAppRunner_h_

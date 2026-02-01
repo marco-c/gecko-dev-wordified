@@ -96,10 +96,10 @@ MPL
 /
 #
 ifndef
-TelemetryEventInfo_h__
+TelemetryEventInfo_h_
 #
 define
-TelemetryEventInfo_h__
+TelemetryEventInfo_h_
 #
 include
 "
@@ -347,4 +347,4 @@ namespace
 endif
 /
 /
-TelemetryEventInfo_h__
+TelemetryEventInfo_h_

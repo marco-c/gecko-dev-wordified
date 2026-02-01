@@ -109,10 +109,10 @@ MPL
 /
 #
 ifndef
-nsWinRemoteClient_h__
+nsWinRemoteClient_h_
 #
 define
-nsWinRemoteClient_h__
+nsWinRemoteClient_h_
 #
 include
 "
@@ -178,4 +178,4 @@ override
 endif
 /
 /
-nsWinRemoteClient_h__
+nsWinRemoteClient_h_

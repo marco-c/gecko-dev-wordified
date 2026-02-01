@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsParentalControlsService_h__
+nsParentalControlsService_h_
 #
 define
-nsParentalControlsService_h__
+nsParentalControlsService_h_
 #
 include
 "
@@ -203,6 +203,6 @@ endif
 endif
 /
 *
-nsParentalControlsService_h__
+nsParentalControlsService_h_
 *
 /

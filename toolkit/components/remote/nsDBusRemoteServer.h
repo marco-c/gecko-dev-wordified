@@ -111,10 +111,10 @@ MPL
 /
 #
 ifndef
-__nsDBusRemoteServer_h__
+_nsDBusRemoteServer_h_
 #
 define
-__nsDBusRemoteServer_h__
+_nsDBusRemoteServer_h_
 #
 include
 "
@@ -298,4 +298,4 @@ mPathName
 endif
 /
 /
-__nsDBusRemoteServer_h__
+_nsDBusRemoteServer_h_

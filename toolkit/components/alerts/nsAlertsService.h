@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsAlertsService_h__
+nsAlertsService_h_
 #
 define
-nsAlertsService_h__
+nsAlertsService_h_
 #
 include
 "
@@ -171,6 +171,6 @@ mBackend
 endif
 /
 *
-nsAlertsService_h__
+nsAlertsService_h_
 *
 /

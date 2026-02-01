@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-__nsPlacesTriggers_h__
+_nsPlacesTriggers_h_
 #
 define
-__nsPlacesTriggers_h__
+_nsPlacesTriggers_h_
 #
 include
 "
@@ -2976,4 +2976,4 @@ END
 endif
 /
 /
-__nsPlacesTriggers_h__
+_nsPlacesTriggers_h_

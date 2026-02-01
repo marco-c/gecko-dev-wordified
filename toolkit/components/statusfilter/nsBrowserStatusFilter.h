@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-nsBrowserStatusFilter_h__
+nsBrowserStatusFilter_h_
 #
 define
-nsBrowserStatusFilter_h__
+nsBrowserStatusFilter_h_
 #
 include
 "
@@ -540,4 +540,4 @@ endif
 /
 /
 !
-nsBrowserStatusFilter_h__
+nsBrowserStatusFilter_h_

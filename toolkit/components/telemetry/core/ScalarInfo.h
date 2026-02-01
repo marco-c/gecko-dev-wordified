@@ -96,10 +96,10 @@ MPL
 /
 #
 ifndef
-TelemetryScalarInfo_h__
+TelemetryScalarInfo_h_
 #
 define
-TelemetryScalarInfo_h__
+TelemetryScalarInfo_h_
 #
 include
 "
@@ -614,4 +614,4 @@ namespace
 endif
 /
 /
-TelemetryScalarInfo_h__
+TelemetryScalarInfo_h_

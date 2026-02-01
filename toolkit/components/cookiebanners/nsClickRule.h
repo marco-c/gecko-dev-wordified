@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-mozilla_nsclickrule_h__
+mozilla_nsclickrule_h_
 #
 define
-mozilla_nsclickrule_h__
+mozilla_nsclickrule_h_
 #
 include
 "
@@ -185,4 +185,4 @@ mozilla
 endif
 /
 /
-mozilla_nsclickrule_h__
+mozilla_nsclickrule_h_

@@ -140,10 +140,10 @@ TelemetryImpl
 /
 #
 ifndef
-TelemetryIOInterposeObserver_h__
+TelemetryIOInterposeObserver_h_
 #
 define
-TelemetryIOInterposeObserver_h__
+TelemetryIOInterposeObserver_h_
 #
 include
 "
@@ -735,4 +735,4 @@ mozilla
 endif
 /
 /
-TelemetryIOInterposeObserver_h__
+TelemetryIOInterposeObserver_h_

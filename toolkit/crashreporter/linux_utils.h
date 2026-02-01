@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-toolkit_breakpad_linux_utils_h__
+toolkit_breakpad_linux_utils_h_
 #
 define
-toolkit_breakpad_linux_utils_h__
+toolkit_breakpad_linux_utils_h_
 #
 include
 <
@@ -122,6 +122,6 @@ version
 endif
 /
 *
-toolkit_breakpad_linux_utils_h__
+toolkit_breakpad_linux_utils_h_
 *
 /

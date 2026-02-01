@@ -96,10 +96,10 @@ MPL
 /
 #
 ifndef
-nsCheckSummedOutputStream_h__
+nsCheckSummedOutputStream_h_
 #
 define
-nsCheckSummedOutputStream_h__
+nsCheckSummedOutputStream_h_
 #
 include
 "

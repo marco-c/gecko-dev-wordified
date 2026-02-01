@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-__DownloadPlatform_h__
+DownloadPlatform_h_
 #
 define
-__DownloadPlatform_h__
+DownloadPlatform_h_
 #
 include
 "

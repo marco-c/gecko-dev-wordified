@@ -96,10 +96,10 @@ MPL
 /
 #
 ifndef
-TelemetryUserInteractionInfo_h__
+TelemetryUserInteractionInfo_h_
 #
 define
-TelemetryUserInteractionInfo_h__
+TelemetryUserInteractionInfo_h_
 #
 include
 "
@@ -213,4 +213,4 @@ namespace
 endif
 /
 /
-TelemetryUserInteractionInfo_h__
+TelemetryUserInteractionInfo_h_

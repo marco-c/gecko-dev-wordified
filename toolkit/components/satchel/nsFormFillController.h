@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-__nsFormFillController__
+_nsFormFillController_
 #
 define
-__nsFormFillController__
+_nsFormFillController_
 #
 include
 "
@@ -1004,4 +1004,4 @@ aInput
 endif
 /
 /
-__nsFormFillController__
+_nsFormFillController_

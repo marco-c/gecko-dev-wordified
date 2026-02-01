@@ -166,10 +166,10 @@ reporter
 .
 #
 ifndef
-nsExceptionHandler_h__
+nsExceptionHandler_h_
 #
 define
-nsExceptionHandler_h__
+nsExceptionHandler_h_
 #
 include
 "
@@ -1950,6 +1950,6 @@ CrashReporter
 endif
 /
 *
-nsExceptionHandler_h__
+nsExceptionHandler_h_
 *
 /

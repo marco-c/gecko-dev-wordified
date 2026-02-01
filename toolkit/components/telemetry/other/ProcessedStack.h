@@ -96,10 +96,10 @@ MPL
 /
 #
 ifndef
-ProcessedStack_h__
+ProcessedStack_h_
 #
 define
-ProcessedStack_h__
+ProcessedStack_h_
 #
 include
 <
@@ -825,4 +825,4 @@ IPC
 endif
 /
 /
-ProcessedStack_h__
+ProcessedStack_h_

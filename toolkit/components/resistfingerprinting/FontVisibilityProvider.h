@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-__FontVisibilityProvider_h__
+FontVisibilityProvider_h_
 #
 define
-__FontVisibilityProvider_h__
+FontVisibilityProvider_h_
 #
 include
 <
@@ -512,4 +512,4 @@ ReportBlockedFontFamily
 endif
 /
 /
-__FontVisibilityProvider_h__
+FontVisibilityProvider_h_

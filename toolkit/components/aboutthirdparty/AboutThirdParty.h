@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-__AboutThirdParty_h__
+AboutThirdParty_h_
 #
 define
-__AboutThirdParty_h__
+AboutThirdParty_h_
 #
 include
 "
@@ -580,4 +580,4 @@ mozilla
 endif
 /
 /
-__AboutThirdParty_h__
+AboutThirdParty_h_

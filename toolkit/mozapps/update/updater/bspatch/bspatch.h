@@ -278,10 +278,10 @@ us
 /
 #
 ifndef
-bspatch_h__
+bspatch_h_
 #
 define
-bspatch_h__
+bspatch_h_
 #
 include
 <
@@ -657,4 +657,4 @@ MBSPatchTriple
 endif
 /
 /
-bspatch_h__
+bspatch_h_

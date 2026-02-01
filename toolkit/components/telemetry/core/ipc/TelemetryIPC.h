@@ -96,10 +96,10 @@ MPL
 /
 #
 ifndef
-TelemetryIPC_h__
+TelemetryIPC_h_
 #
 define
-TelemetryIPC_h__
+TelemetryIPC_h_
 #
 include
 "
@@ -680,4 +680,4 @@ mozilla
 endif
 /
 /
-TelemetryIPC_h__
+TelemetryIPC_h_

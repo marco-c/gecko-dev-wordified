@@ -96,10 +96,10 @@ MPL
 /
 #
 ifndef
-nsCachedFaviconProtocolHandler_h___
+nsCachedFaviconProtocolHandler_h_
 #
 define
-nsCachedFaviconProtocolHandler_h___
+nsCachedFaviconProtocolHandler_h_
 #
 include
 "
@@ -335,6 +335,6 @@ _channel
 endif
 /
 *
-nsCachedFaviconProtocolHandler_h___
+nsCachedFaviconProtocolHandler_h_
 *
 /

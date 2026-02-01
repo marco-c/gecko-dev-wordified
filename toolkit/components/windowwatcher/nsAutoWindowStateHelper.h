@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-__nsAutoWindowStateHelper_h
+_nsAutoWindowStateHelper_h
 #
 define
-__nsAutoWindowStateHelper_h
+_nsAutoWindowStateHelper_h
 #
 include
 "

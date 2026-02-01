@@ -96,10 +96,10 @@ MPL
 /
 #
 ifndef
-TelemetryScalar_h__
+TelemetryScalar_h_
 #
 define
-TelemetryScalar_h__
+TelemetryScalar_h_
 #
 include
 <
@@ -703,4 +703,4 @@ TelemetryScalar
 endif
 /
 /
-TelemetryScalar_h__
+TelemetryScalar_h_

@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-__nsPlacesTables_h__
+_nsPlacesTables_h_
 #
 define
-__nsPlacesTables_h__
+_nsPlacesTables_h_
 #
 define
 CREATE_MOZ_PLACES
@@ -2446,4 +2446,4 @@ NULL
 endif
 /
 /
-__nsPlacesTables_h__
+_nsPlacesTables_h_

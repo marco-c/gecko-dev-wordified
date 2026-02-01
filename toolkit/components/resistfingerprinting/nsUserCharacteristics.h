@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-__nsUserCharacteristics_h__
+_nsUserCharacteristics_h_
 #
 define
-__nsUserCharacteristics_h__
+_nsUserCharacteristics_h_
 #
 include
 "
@@ -246,6 +246,6 @@ testing
 endif
 /
 *
-__nsUserCharacteristics_h__
+_nsUserCharacteristics_h_
 *
 /

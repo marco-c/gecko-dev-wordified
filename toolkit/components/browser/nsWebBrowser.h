@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsWebBrowser_h__
+nsWebBrowser_h_
 #
 define
-nsWebBrowser_h__
+nsWebBrowser_h_
 /
 /
 Local
@@ -612,6 +612,6 @@ mParentWidget
 endif
 /
 *
-nsWebBrowser_h__
+nsWebBrowser_h_
 *
 /

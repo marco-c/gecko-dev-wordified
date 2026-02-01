@@ -96,10 +96,10 @@ MPL
 /
 #
 ifndef
-TelemetryCommon_h__
+TelemetryCommon_h_
 #
 define
-TelemetryCommon_h__
+TelemetryCommon_h_
 #
 include
 "
@@ -1342,4 +1342,4 @@ mozilla
 endif
 /
 /
-TelemetryCommon_h__
+TelemetryCommon_h_

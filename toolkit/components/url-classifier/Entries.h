@@ -139,10 +139,10 @@ h
 .
 #
 ifndef
-SBEntries_h__
+SBEntries_h_
 #
 define
-SBEntries_h__
+SBEntries_h_
 #
 include
 "
@@ -2014,4 +2014,4 @@ mozilla
 endif
 /
 /
-SBEntries_h__
+SBEntries_h_

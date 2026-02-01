@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-__RelativeTimeline_h__
+RelativeTimeline_h_
 #
 define
-__RelativeTimeline_h__
+RelativeTimeline_h_
 #
 include
 <
@@ -143,6 +143,6 @@ mozilla
 endif
 /
 *
-__RelativeTimeline_h__
+RelativeTimeline_h_
 *
 /

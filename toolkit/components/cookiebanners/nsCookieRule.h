@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-mozilla_nsCookieRule_h__
+mozilla_nsCookieRule_h_
 #
 define
-mozilla_nsCookieRule_h__
+mozilla_nsCookieRule_h_
 #
 include
 "

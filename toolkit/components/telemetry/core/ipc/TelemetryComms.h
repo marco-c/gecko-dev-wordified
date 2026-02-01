@@ -96,10 +96,10 @@ MPL
 /
 #
 ifndef
-Telemetry_Comms_h__
+Telemetry_Comms_h_
 #
 define
-Telemetry_Comms_h__
+Telemetry_Comms_h_
 #
 include
 "
@@ -2604,4 +2604,4 @@ IPC
 endif
 /
 /
-Telemetry_Comms_h__
+Telemetry_Comms_h_

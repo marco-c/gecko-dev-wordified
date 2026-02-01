@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsAppStartup_h__
+nsAppStartup_h_
 #
 define
-nsAppStartup_h__
+nsAppStartup_h_
 #
 include
 "
@@ -429,4 +429,4 @@ endif
 endif
 /
 /
-nsAppStartup_h__
+nsAppStartup_h_

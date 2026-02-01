@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-PROGRESSUI_H__
+PROGRESSUI_H_
 #
 define
-PROGRESSUI_H__
+PROGRESSUI_H_
 #
 include
 "
@@ -291,4 +291,4 @@ progress
 endif
 /
 /
-PROGRESSUI_H__
+PROGRESSUI_H_

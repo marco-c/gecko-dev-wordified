@@ -96,10 +96,10 @@ MPL
 /
 #
 ifndef
-TelemetryHistogram_h__
+TelemetryHistogram_h_
 #
 define
-TelemetryHistogram_h__
+TelemetryHistogram_h_
 #
 include
 "
@@ -608,4 +608,4 @@ TelemetryHistogram
 endif
 /
 /
-TelemetryHistogram_h__
+TelemetryHistogram_h_

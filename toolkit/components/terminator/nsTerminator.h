@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-nsTerminator_h__
+nsTerminator_h_
 #
 define
-nsTerminator_h__
+nsTerminator_h_
 #
 include
 "
@@ -268,4 +268,4 @@ terminator
 endif
 /
 /
-nsTerminator_h__
+nsTerminator_h_

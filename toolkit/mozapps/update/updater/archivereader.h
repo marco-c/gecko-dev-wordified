@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-ArchiveReader_h__
+ArchiveReader_h_
 #
 define
-ArchiveReader_h__
+ArchiveReader_h_
 #
 include
 <
@@ -295,4 +295,4 @@ mOutBufSize
 endif
 /
 /
-ArchiveReader_h__
+ArchiveReader_h_

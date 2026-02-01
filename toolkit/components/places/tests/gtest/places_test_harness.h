@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-places_test_harness_h__
+places_test_harness_h_
 #
 define
-places_test_harness_h__
+places_test_harness_h_
 #
 include
 "
@@ -1466,4 +1466,4 @@ disable_idle_service
 endif
 /
 /
-places_test_harness_h__
+places_test_harness_h_

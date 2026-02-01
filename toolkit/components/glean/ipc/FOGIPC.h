@@ -96,10 +96,10 @@ MPL
 /
 #
 ifndef
-FOGIPC_h__
+FOGIPC_h_
 #
 define
-FOGIPC_h__
+FOGIPC_h_
 #
 include
 <
@@ -740,4 +740,4 @@ mozilla
 endif
 /
 /
-FOGIPC_h__
+FOGIPC_h_

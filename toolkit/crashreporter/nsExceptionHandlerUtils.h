@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsExceptionHandlerUtils_h__
+nsExceptionHandlerUtils_h_
 #
 define
-nsExceptionHandlerUtils_h__
+nsExceptionHandlerUtils_h_
 bool
 SimpleNoCLibDtoA
 (
@@ -136,4 +136,4 @@ aBufferLength
 endif
 /
 /
-nsExceptionHandlerUtils_h__
+nsExceptionHandlerUtils_h_

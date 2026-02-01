@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-READSTRINGS_H__
+READSTRINGS_H_
 #
 define
-READSTRINGS_H__
+READSTRINGS_H_
 #
 include
 "
@@ -821,4 +821,4 @@ mMaybeStatusCode
 endif
 /
 /
-READSTRINGS_H__
+READSTRINGS_H_

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-telemetry_UntrustedModules_h__
+telemetry_UntrustedModules_h_
 #
 define
-telemetry_UntrustedModules_h__
+telemetry_UntrustedModules_h_
 #
 include
 "
@@ -325,4 +325,4 @@ mozilla
 endif
 /
 /
-telemetry_UntrustedModules_h__
+telemetry_UntrustedModules_h_

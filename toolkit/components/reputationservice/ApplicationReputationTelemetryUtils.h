@@ -96,10 +96,10 @@ MPL
 /
 #
 ifndef
-ApplicationReputationTelemetryUtils_h__
+ApplicationReputationTelemetryUtils_h_
 #
 define
-ApplicationReputationTelemetryUtils_h__
+ApplicationReputationTelemetryUtils_h_
 #
 include
 "
@@ -245,4 +245,4 @@ aVerdict
 endif
 /
 /
-ApplicationReputationTelemetryUtils_h__
+ApplicationReputationTelemetryUtils_h_

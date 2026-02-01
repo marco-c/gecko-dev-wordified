@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsNativeAppSupportBase_h__
+nsNativeAppSupportBase_h_
 #
 define
-nsNativeAppSupportBase_h__
+nsNativeAppSupportBase_h_
 #
 include
 "

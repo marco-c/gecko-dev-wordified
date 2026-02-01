@@ -111,10 +111,10 @@ MPL
 /
 #
 ifndef
-__nsRemoteServer_h__
+_nsRemoteServer_h_
 #
 define
-__nsRemoteServer_h__
+_nsRemoteServer_h_
 #
 include
 "
@@ -165,4 +165,4 @@ Shutdown
 endif
 /
 /
-__nsRemoteServer_h__
+_nsRemoteServer_h_

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-UntrustedModulesDataSerializer_h__
+UntrustedModulesDataSerializer_h_
 #
 define
-UntrustedModulesDataSerializer_h__
+UntrustedModulesDataSerializer_h_
 #
 include
 "
@@ -560,4 +560,4 @@ mozilla
 endif
 /
 /
-UntrustedModulesDataSerializer_h__
+UntrustedModulesDataSerializer_h_

@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-ApplicationReputation_h__
+ApplicationReputation_h_
 #
 define
-ApplicationReputation_h__
+ApplicationReputation_h_
 #
 include
 "
@@ -332,6 +332,6 @@ aCallback
 endif
 /
 *
-ApplicationReputation_h__
+ApplicationReputation_h_
 *
 /

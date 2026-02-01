@@ -96,10 +96,10 @@ MPL
 /
 #
 ifndef
-TelemetryEvent_h__
+TelemetryEvent_h_
 #
 define
-TelemetryEvent_h__
+TelemetryEvent_h_
 #
 include
 <
@@ -443,4 +443,4 @@ TelemetryEvent
 endif
 /
 /
-TelemetryEvent_h__
+TelemetryEvent_h_

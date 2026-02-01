@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-nsUpdateSyncManager_h__
+nsUpdateSyncManager_h_
 #
 define
-nsUpdateSyncManager_h__
+nsUpdateSyncManager_h_
 #
 include
 "
@@ -393,4 +393,4 @@ MULTI_INSTANCE_LOCK_HANDLE_ERROR
 endif
 /
 /
-nsUpdateSyncManager_h__
+nsUpdateSyncManager_h_

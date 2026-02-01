@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-mozilla_AlertNotification_h__
+mozilla_AlertNotification_h_
 #
 define
-mozilla_AlertNotification_h__
+mozilla_AlertNotification_h_
 #
 include
 "
@@ -297,6 +297,6 @@ mozilla
 endif
 /
 *
-mozilla_AlertNotification_h__
+mozilla_AlertNotification_h_
 *
 /

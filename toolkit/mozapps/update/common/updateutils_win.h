@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-WINDIRENT_H__
+WINDIRENT_H_
 #
 define
-WINDIRENT_H__
+WINDIRENT_H_
 /
 *
 *
@@ -319,4 +319,4 @@ tmpPath
 endif
 /
 /
-WINDIRENT_H__
+WINDIRENT_H_

@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-__WinRemoteMessage_h__
+WinRemoteMessage_h_
 #
 define
-__WinRemoteMessage_h__
+WinRemoteMessage_h_
 #
 include
 <
@@ -584,4 +584,4 @@ CommandLineRunner
 endif
 /
 /
-__WinRemoteMessage_h__
+WinRemoteMessage_h_

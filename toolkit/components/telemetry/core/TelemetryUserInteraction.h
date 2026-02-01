@@ -96,10 +96,10 @@ MPL
 /
 #
 ifndef
-TelemetryUserInteraction_h__
+TelemetryUserInteraction_h_
 #
 define
-TelemetryUserInteraction_h__
+TelemetryUserInteraction_h_
 #
 include
 "
@@ -140,4 +140,4 @@ TelemetryUserInteraction
 endif
 /
 /
-TelemetryUserInteraction_h__
+TelemetryUserInteraction_h_

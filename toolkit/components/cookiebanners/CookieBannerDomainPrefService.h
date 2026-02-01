@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-mozilla_CookieBannerDomainPrefService_h__
+mozilla_CookieBannerDomainPrefService_h_
 #
 define
-mozilla_CookieBannerDomainPrefService_h__
+mozilla_CookieBannerDomainPrefService_h_
 #
 include
 "
@@ -765,4 +765,4 @@ mozilla
 endif
 /
 /
-mozilla_CookieBannerDomainPrefService_h__
+mozilla_CookieBannerDomainPrefService_h_
