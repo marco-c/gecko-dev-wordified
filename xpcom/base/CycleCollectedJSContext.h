@@ -254,9 +254,6 @@ CycleCollectedJSContext
 class
 CycleCollectedJSRuntime
 ;
-class
-PromiseJobRunnable
-;
 namespace
 dom
 {
@@ -3401,16 +3398,6 @@ mMicrotasksToTrace
 ;
 private
 :
-friend
-class
-PromiseJobRunnable
-;
-RefPtr
-<
-PromiseJobRunnable
->
-mRecycledPromiseJob
-;
 /
 /
 How
