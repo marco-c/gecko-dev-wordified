@@ -119,7 +119,7 @@ constexpr
 size_t
 kPolMemPageCount
 =
-14
+22
 ;
 class
 AppContainer
