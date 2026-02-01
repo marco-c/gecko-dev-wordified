@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-_SIPCC_SDP_H_
+SIPCCSDP_H_
 #
 define
-_SIPCC_SDP_H_
+SIPCCSDP_H_
 #
 include
 "
@@ -9089,6 +9089,6 @@ inst
 endif
 /
 *
-_SDP_H_
+SDP_H_
 *
 /

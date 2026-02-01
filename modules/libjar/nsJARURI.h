@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-nsJARURI_h__
+nsJARURI_h_
 #
 define
-nsJARURI_h__
+nsJARURI_h_
 #
 include
 "
@@ -806,4 +806,4 @@ nsJARURI
 endif
 /
 /
-nsJARURI_h__
+nsJARURI_h_

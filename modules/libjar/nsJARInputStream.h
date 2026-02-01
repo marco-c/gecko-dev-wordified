@@ -63,10 +63,10 @@ MPL
 /
 #
 ifndef
-nsJARINPUTSTREAM_h__
+nsJARINPUTSTREAM_h_
 #
 define
-nsJARINPUTSTREAM_h__
+nsJARINPUTSTREAM_h_
 #
 include
 "
@@ -567,6 +567,6 @@ aCount
 endif
 /
 *
-nsJARINPUTSTREAM_h__
+nsJARINPUTSTREAM_h_
 *
 /

@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-mozilla_AutoSelectionRestorer_h__
+mozilla_AutoSelectionRestorer_h_
 #
 define
-mozilla_AutoSelectionRestorer_h__
+mozilla_AutoSelectionRestorer_h_
 #
 include
 "

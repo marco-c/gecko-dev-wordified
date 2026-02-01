@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-MAR_H__
+MAR_H_
 #
 define
-MAR_H__
+MAR_H_
 #
 include
 <
@@ -2017,6 +2017,6 @@ endif
 endif
 /
 *
-MAR_H__
+MAR_H_
 *
 /

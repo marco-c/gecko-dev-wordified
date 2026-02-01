@@ -131,7 +131,7 @@ h
 /
 #
 ifndef
-mozilla_storage_Variant_h__
+mozilla_storage_Variant_h_
 #
 error
 "

@@ -74,10 +74,10 @@ MPL
 /
 #
 ifndef
-nsAuthGSSAPI_h__
+nsAuthGSSAPI_h_
 #
 define
-nsAuthGSSAPI_h__
+nsAuthGSSAPI_h_
 #
 include
 "
@@ -388,6 +388,6 @@ false
 endif
 /
 *
-nsAuthGSSAPI_h__
+nsAuthGSSAPI_h_
 *
 /

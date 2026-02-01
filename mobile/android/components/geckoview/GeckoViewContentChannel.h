@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-GeckoViewContentChannel_h__
+GeckoViewContentChannel_h_
 #
 define
-GeckoViewContentChannel_h__
+GeckoViewContentChannel_h_
 #
 include
 "
@@ -174,4 +174,4 @@ endif
 /
 /
 !
-GeckoViewContentChannel_h__
+GeckoViewContentChannel_h_

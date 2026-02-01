@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-DMD_h___
+DMD_h_
 #
 define
-DMD_h___
+DMD_h_
 #
 include
 <
@@ -2381,6 +2381,6 @@ mozilla
 endif
 /
 *
-DMD_h___
+DMD_h_
 *
 /

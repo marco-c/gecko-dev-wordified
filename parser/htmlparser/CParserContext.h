@@ -113,10 +113,10 @@ gess
 /
 #
 ifndef
-__CParserContext
+CParserContext_h
 #
 define
-__CParserContext
+CParserContext_h
 #
 include
 "
@@ -348,3 +348,6 @@ mCopyUnused
 ;
 #
 endif
+/
+/
+CParserContext_h

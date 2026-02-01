@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsProfilerCIID_h__
+nsProfilerCIID_h_
 #
 define
-nsProfilerCIID_h__
+nsProfilerCIID_h_
 #
 define
 NS_PROFILER_CID

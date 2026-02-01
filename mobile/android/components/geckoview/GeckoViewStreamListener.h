@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-GeckoViewStreamListener_h__
+GeckoViewStreamListener_h_
 #
 define
-GeckoViewStreamListener_h__
+GeckoViewStreamListener_h_
 #
 include
 "
@@ -316,4 +316,4 @@ mozilla
 endif
 /
 /
-GeckoViewStreamListener_h__
+GeckoViewStreamListener_h_

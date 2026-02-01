@@ -74,10 +74,10 @@ MPL
 /
 #
 ifndef
-nsHttpNegotiateAuth_h__
+nsHttpNegotiateAuth_h_
 #
 define
-nsHttpNegotiateAuth_h__
+nsHttpNegotiateAuth_h_
 #
 include
 "
@@ -221,6 +221,6 @@ gSingleton
 endif
 /
 *
-nsHttpNegotiateAuth_h__
+nsHttpNegotiateAuth_h_
 *
 /

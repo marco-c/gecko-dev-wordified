@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-mozSpellChecker_h__
+mozSpellChecker_h_
 #
 define
-mozSpellChecker_h__
+mozSpellChecker_h_
 #
 include
 "
@@ -1204,4 +1204,4 @@ RemoteSpellcheckEngineChild
 endif
 /
 /
-mozSpellChecker_h__
+mozSpellChecker_h_

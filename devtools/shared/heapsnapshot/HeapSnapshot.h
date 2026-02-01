@@ -96,10 +96,10 @@ MPL
 /
 #
 ifndef
-mozilla_devtools_HeapSnapshot__
+mozilla_devtools_HeapSnapshot_
 #
 define
-mozilla_devtools_HeapSnapshot__
+mozilla_devtools_HeapSnapshot_
 #
 include
 "
@@ -1521,4 +1521,4 @@ mozilla
 endif
 /
 /
-mozilla_devtools_HeapSnapshot__
+mozilla_devtools_HeapSnapshot_

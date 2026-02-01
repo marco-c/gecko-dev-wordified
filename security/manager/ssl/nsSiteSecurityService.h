@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-__nsSiteSecurityService_h__
+_nsSiteSecurityService_h_
 #
 define
-__nsSiteSecurityService_h__
+_nsSiteSecurityService_h_
 #
 include
 "
@@ -755,4 +755,4 @@ mDafsa
 endif
 /
 /
-__nsSiteSecurityService_h__
+_nsSiteSecurityService_h_

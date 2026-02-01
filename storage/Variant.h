@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-mozilla_storage_Variant_h__
+mozilla_storage_Variant_h_
 #
 define
-mozilla_storage_Variant_h__
+mozilla_storage_Variant_h_
 #
 include
 "
@@ -3441,4 +3441,4 @@ h
 endif
 /
 /
-mozilla_storage_Variant_h__
+mozilla_storage_Variant_h_

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsAboutRedirector_h__
+nsAboutRedirector_h_
 #
 define
-nsAboutRedirector_h__
+nsAboutRedirector_h_
 #
 include
 "
@@ -169,4 +169,4 @@ nsAboutRedirector
 endif
 /
 /
-nsAboutRedirector_h__
+nsAboutRedirector_h_

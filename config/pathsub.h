@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-pathsub_h___
+pathsub_h_
 #
 define
-pathsub_h___
+pathsub_h_
 /
 *
 *
@@ -301,6 +301,6 @@ outpath
 endif
 /
 *
-pathsub_h___
+pathsub_h_
 *
 /

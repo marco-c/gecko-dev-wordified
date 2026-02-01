@@ -96,10 +96,10 @@ MPL
 /
 #
 ifndef
-mozilla_devtools_gtest_DevTools__
+mozilla_devtools_gtest_DevTools_
 #
 define
-mozilla_devtools_gtest_DevTools__
+mozilla_devtools_gtest_DevTools_
 #
 include
 <
@@ -1430,4 +1430,4 @@ true
 endif
 /
 /
-mozilla_devtools_gtest_DevTools__
+mozilla_devtools_gtest_DevTools_

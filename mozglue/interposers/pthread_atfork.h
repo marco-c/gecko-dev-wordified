@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-__mozilla_pthread_atfork_h_
+_mozilla_pthread_atfork_h_
 #
 define
-__mozilla_pthread_atfork_h_
+_mozilla_pthread_atfork_h_
 #
 if
 defined
@@ -192,4 +192,4 @@ MOZ_ENABLE_FORKSERVER
 endif
 /
 /
-__mozilla_pthread_atfork_h_
+_mozilla_pthread_atfork_h_

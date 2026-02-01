@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-nsScannerString_h___
+nsScannerString_h_
 #
 define
-nsScannerString_h___
+nsScannerString_h_
 #
 include
 "
@@ -2704,5 +2704,5 @@ endif
 !
 defined
 (
-nsScannerString_h___
+nsScannerString_h_
 )

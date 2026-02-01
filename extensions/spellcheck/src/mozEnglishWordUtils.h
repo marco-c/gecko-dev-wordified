@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-mozEnglishWordUtils_h__
+mozEnglishWordUtils_h_
 #
 define
-mozEnglishWordUtils_h__
+mozEnglishWordUtils_h_
 #
 include
 "
