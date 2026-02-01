@@ -5913,11 +5913,11 @@ for
 (
 i
 =
-LEVEL_1
+0
 ;
 i
 <
-LEVEL_MAX
+VP9_LEVELS
 ;
 +
 +
