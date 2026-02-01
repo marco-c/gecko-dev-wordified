@@ -93,6 +93,12 @@ MPL
 .
 *
 /
+#
+ifndef
+TESTING_GTEST_MOZILLA_GTESTRUNNER_H_
+#
+define
+TESTING_GTEST_MOZILLA_GTESTRUNNER_H_
 namespace
 mozilla
 {
@@ -115,3 +121,8 @@ char
 /
 namespace
 mozilla
+#
+endif
+/
+/
+TESTING_GTEST_MOZILLA_GTESTRUNNER_H_
