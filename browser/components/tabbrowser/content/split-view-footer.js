@@ -1330,6 +1330,8 @@ TabAttrModified
 this
 )
 ;
+if
+(
 this
 .
 #
@@ -1337,6 +1339,16 @@ tab
 .
 linkedBrowser
 ?
+.
+webProgress
+)
+{
+this
+.
+#
+tab
+.
+linkedBrowser
 .
 removeProgressListener
 (
@@ -1346,6 +1358,7 @@ this
 browserProgressListener
 )
 ;
+}
 }
 this
 .
