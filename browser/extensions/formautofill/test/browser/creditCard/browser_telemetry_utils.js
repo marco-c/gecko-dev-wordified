@@ -1168,6 +1168,7 @@ prefEnv
 )
 ;
 }
+await
 clearTelemetry
 (
 )
