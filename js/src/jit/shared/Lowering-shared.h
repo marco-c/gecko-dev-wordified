@@ -1658,6 +1658,12 @@ REGISTER
 )
 ;
 inline
+LBoxDefinition
+tempBox
+(
+)
+;
+inline
 LDefinition
 tempFloat32
 (
