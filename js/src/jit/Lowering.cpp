@@ -22892,7 +22892,7 @@ alloc
 )
 LLinearizeString
 (
-useRegister
+useRegisterAtStart
 (
 str
 )

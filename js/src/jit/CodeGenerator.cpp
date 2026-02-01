@@ -106956,6 +106956,14 @@ entry
 )
 )
 ;
+if
+(
+str
+!
+=
+output
+)
+{
 masm
 .
 movePtr
@@ -106964,6 +106972,7 @@ str
 output
 )
 ;
+}
 masm
 .
 bind
