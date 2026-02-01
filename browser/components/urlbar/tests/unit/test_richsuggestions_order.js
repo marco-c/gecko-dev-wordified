@@ -114,9 +114,7 @@ let
 oldDefaultEngine
 =
 await
-Services
-.
-search
+SearchService
 .
 getDefault
 (
@@ -130,9 +128,7 @@ async
 =
 >
 {
-Services
-.
-search
+SearchService
 .
 setDefault
 (
@@ -172,9 +168,7 @@ QUICKACTIONS_URLBAR_PREF
 }
 )
 ;
-Services
-.
-search
+SearchService
 .
 setDefault
 (

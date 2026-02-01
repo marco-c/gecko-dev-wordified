@@ -671,9 +671,7 @@ test
 alone
 .
 await
-Services
-.
-search
+SearchService
 .
 init
 (

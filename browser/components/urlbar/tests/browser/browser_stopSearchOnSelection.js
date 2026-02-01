@@ -209,9 +209,7 @@ true
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 moveEngine
 (

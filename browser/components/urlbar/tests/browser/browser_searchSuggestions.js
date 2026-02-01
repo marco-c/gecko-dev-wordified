@@ -292,9 +292,7 @@ uri
 =
 (
 await
-Services
-.
-search
+SearchService
 .
 getDefault
 (
@@ -510,9 +508,7 @@ expectedUrl
 =
 (
 await
-Services
-.
-search
+SearchService
 .
 getDefault
 (
@@ -1718,9 +1714,7 @@ uri
 =
 (
 await
-Services
-.
-search
+SearchService
 .
 getDefault
 (

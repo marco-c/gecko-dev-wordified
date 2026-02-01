@@ -304,9 +304,7 @@ xml
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 moveEngine
 (
@@ -690,9 +688,7 @@ AssertPrivateResult
 (
 window
 await
-Services
-.
-search
+SearchService
 .
 getDefault
 (
@@ -862,9 +858,7 @@ AssertPrivateResult
 (
 window
 await
-Services
-.
-search
+SearchService
 .
 getDefault
 (
@@ -1029,9 +1023,7 @@ AssertPrivateResult
 (
 window
 await
-Services
-.
-search
+SearchService
 .
 getDefault
 (
@@ -1401,9 +1393,7 @@ AssertPrivateResult
 (
 window
 await
-Services
-.
-search
+SearchService
 .
 getDefault
 (

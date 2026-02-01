@@ -150,9 +150,7 @@ let
 engine
 =
 await
-Services
-.
-search
+SearchService
 .
 getDefault
 (
@@ -560,9 +558,7 @@ let
 engine
 =
 await
-Services
-.
-search
+SearchService
 .
 getDefault
 (

@@ -653,9 +653,7 @@ window
 )
 ;
 return
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -1264,9 +1262,7 @@ engine
 id
 (
 await
-Services
-.
-search
+SearchService
 .
 getEngineByAlias
 (
@@ -1355,9 +1351,7 @@ correct
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 removeEngine
 (

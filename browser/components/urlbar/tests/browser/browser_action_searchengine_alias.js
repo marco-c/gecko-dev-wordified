@@ -89,9 +89,7 @@ true
 let
 engine
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (

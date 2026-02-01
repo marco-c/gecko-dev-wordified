@@ -132,9 +132,7 @@ ALIAS
 ;
 aliasEngine
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
