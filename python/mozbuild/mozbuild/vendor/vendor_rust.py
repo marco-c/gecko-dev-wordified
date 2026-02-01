@@ -2560,6 +2560,22 @@ Clause
 [
             
 "
+jxl
+"
+            
+"
+jxl_macros
+"
+            
+"
+jxl_simd
+"
+            
+"
+jxl_transforms
+"
+            
+"
 subtle
 "
             
