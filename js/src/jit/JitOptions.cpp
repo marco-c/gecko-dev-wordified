@@ -1804,7 +1804,7 @@ inlined
 SET_DEFAULT
 (
 inliningEntryThreshold
-100
+90
 )
 ;
 /
