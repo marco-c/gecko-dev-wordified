@@ -5668,7 +5668,7 @@ or_default
 )
 ;
 let
-field
+name
 =
 crate
 :
@@ -5736,7 +5736,7 @@ core
 Import
 {
 module
-field
+name
 entity_type
 }
 )

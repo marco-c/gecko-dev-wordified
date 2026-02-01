@@ -429,7 +429,7 @@ module
 &
 im
 .
-field
+name
 translate_entity_type
 (
 &

@@ -2462,6 +2462,7 @@ a
 new
 Ieee32
 pub
+const
 fn
 new
 (
@@ -2493,6 +2494,7 @@ bit
 float
 .
 pub
+const
 fn
 bits
 (
@@ -2683,6 +2685,7 @@ a
 new
 Ieee64
 pub
+const
 fn
 new
 (
@@ -2714,6 +2717,7 @@ bit
 float
 .
 pub
+const
 fn
 bits
 (

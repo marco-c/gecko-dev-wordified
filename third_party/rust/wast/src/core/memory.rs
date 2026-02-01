@@ -1628,7 +1628,7 @@ data
 /
 /
 /
-Differnet
+Different
 ways
 the
 value

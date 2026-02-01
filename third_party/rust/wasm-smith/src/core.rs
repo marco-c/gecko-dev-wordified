@@ -2503,7 +2503,7 @@ pub
 (
 crate
 )
-field
+name
 :
 String
 /
@@ -9153,6 +9153,10 @@ for
 im
 in
 import_reader
+.
+into_imports
+(
+)
 {
 let
 im
@@ -10206,7 +10210,7 @@ module
 to_string
 (
 )
-field
+name
 :
 import
 .
@@ -11499,7 +11503,7 @@ clone
 let
 (
 module
-field
+name
 )
 =
 import_pair
@@ -11646,7 +11650,7 @@ push
 Import
 {
 module
-field
+name
 entity_type
 }
 )
@@ -12211,6 +12215,10 @@ for
 im
 in
 import_reader
+.
+into_imports
+(
+)
 {
 let
 im
@@ -13019,7 +13027,7 @@ module
 to_string
 (
 )
-field
+name
 :
 import
 .
