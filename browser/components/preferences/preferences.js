@@ -1997,6 +1997,9 @@ groupIds
 :
 [
 "
+debugModelManagement
+"
+"
 aiFeatures
 "
 "
