@@ -141,15 +141,9 @@ ui
 features
 TabProvider
 .
-shouldSkipWindow
+getOrderedNonPrivateWindows
 =
-mockShouldSkipWindow
-;
-TabProvider
-.
-getWindowEnumerator
-=
-mockGetWindowEnumerator
+mockGetOrderedNonPrivateWindows
 .
 bind
 (
