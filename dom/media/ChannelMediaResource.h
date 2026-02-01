@@ -292,6 +292,14 @@ Revoke
 (
 )
 ;
+void
+RevokeIfManaged
+(
+nsIChannel
+*
+aChannel
+)
+;
 private
 :
 /
