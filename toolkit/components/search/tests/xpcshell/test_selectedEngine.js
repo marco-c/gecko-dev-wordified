@@ -261,8 +261,6 @@ same
 .
 SearchService
 .
-wrappedJSObject
-.
 reset
 (
 )
@@ -439,8 +437,6 @@ is
 ignored
 .
 SearchService
-.
-wrappedJSObject
 .
 reset
 (
@@ -947,8 +943,6 @@ be
 unchanged
 .
 SearchService
-.
-wrappedJSObject
 .
 reset
 (

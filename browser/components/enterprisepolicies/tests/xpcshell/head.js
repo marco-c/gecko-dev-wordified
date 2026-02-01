@@ -537,8 +537,6 @@ customSchema
 {
 SearchService
 .
-wrappedJSObject
-.
 reset
 (
 )

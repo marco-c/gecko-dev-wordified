@@ -427,8 +427,6 @@ chosen
 ;
 SearchService
 .
-wrappedJSObject
-.
 _settings
 .
 setMetaDataAttribute
@@ -757,8 +755,6 @@ engine
 )
 ;
 SearchService
-.
-wrappedJSObject
 .
 _settings
 .

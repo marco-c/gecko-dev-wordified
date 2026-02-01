@@ -206,8 +206,6 @@ restartSearchService
 await
 SearchService
 .
-wrappedJSObject
-.
 reset
 (
 )
@@ -679,8 +677,6 @@ reset
 .
 SearchService
 .
-wrappedJSObject
-.
 _settings
 .
 setMetaDataAttribute
@@ -772,8 +768,6 @@ let
 seenEngines
 =
 SearchService
-.
-wrappedJSObject
 .
 _settings
 .

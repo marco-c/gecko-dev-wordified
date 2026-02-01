@@ -1273,8 +1273,6 @@ sinon
 stub
 (
 SearchService
-.
-wrappedJSObject
 "
 _showRemovalOfSearchEngineNotificationBox
 "

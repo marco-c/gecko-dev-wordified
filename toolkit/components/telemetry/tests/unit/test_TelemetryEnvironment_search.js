@@ -970,8 +970,6 @@ reInitSearchService
 {
 SearchService
 .
-wrappedJSObject
-.
 reset
 (
 )

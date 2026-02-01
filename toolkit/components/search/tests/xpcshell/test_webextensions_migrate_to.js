@@ -152,13 +152,9 @@ oldFunc
 =
 SearchService
 .
-wrappedJSObject
-.
 addEnginesFromExtension
 ;
 SearchService
-.
-wrappedJSObject
 .
 addEnginesFromExtension
 =
@@ -219,8 +215,6 @@ com
 )
 ;
 SearchService
-.
-wrappedJSObject
 .
 addEnginesFromExtension
 =

@@ -7639,8 +7639,6 @@ statuses
 {
 SearchService
 .
-wrappedJSObject
-.
 forceInitializationStatusForTests
 (
 status
@@ -7821,8 +7819,6 @@ service
 initialization
 status
 SearchService
-.
-wrappedJSObject
 .
 forceInitializationStatusForTests
 (

@@ -301,8 +301,6 @@ list
 .
 SearchService
 .
-wrappedJSObject
-.
 _cachedSortedEngines
 =
 null
@@ -429,8 +427,6 @@ default
 sort
 .
 SearchService
-.
-wrappedJSObject
 .
 _settings
 .

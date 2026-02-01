@@ -152,8 +152,6 @@ settings
 .
 SearchService
 .
-wrappedJSObject
-.
 reset
 (
 )

@@ -882,8 +882,6 @@ false
 await
 SearchService
 .
-wrappedJSObject
-.
 _maybeReloadEngines
 (
 )
@@ -1225,8 +1223,6 @@ Assert
 equal
 (
 SearchService
-.
-wrappedJSObject
 .
 _settings
 .

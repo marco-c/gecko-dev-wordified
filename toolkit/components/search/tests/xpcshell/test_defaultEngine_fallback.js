@@ -1527,8 +1527,6 @@ searchConfig
 ;
 SearchService
 .
-wrappedJSObject
-.
 reset
 (
 )

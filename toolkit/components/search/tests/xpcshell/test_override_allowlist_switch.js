@@ -529,8 +529,6 @@ sinon
 stub
 (
 SearchService
-.
-wrappedJSObject
 "
 _showRemovalOfSearchEngineNotificationBox
 "
@@ -1620,8 +1618,6 @@ promiseAfterSettings
 )
 ;
 SearchService
-.
-wrappedJSObject
 .
 reset
 (

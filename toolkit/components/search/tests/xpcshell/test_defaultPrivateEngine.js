@@ -3039,8 +3039,6 @@ CONFIG_NO_PRIVATE
 ;
 SearchService
 .
-wrappedJSObject
-.
 reset
 (
 )

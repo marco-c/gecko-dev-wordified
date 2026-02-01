@@ -924,8 +924,6 @@ sinon
 stub
 (
 SearchService
-.
-wrappedJSObject
 "
 isInitialized
 "

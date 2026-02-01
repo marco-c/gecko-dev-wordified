@@ -3163,8 +3163,6 @@ policy
 {
 SearchService
 .
-wrappedJSObject
-.
 reset
 (
 )

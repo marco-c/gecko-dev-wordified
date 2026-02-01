@@ -143,8 +143,6 @@ sinon
 stub
 (
 SearchService
-.
-wrappedJSObject
 "
 _showSearchSettingsResetNotificationBox
 "
@@ -339,8 +337,6 @@ test_settings_migration_fail
 {
 SearchService
 .
-wrappedJSObject
-.
 reset
 (
 )
@@ -423,8 +419,6 @@ sinon
 stub
 (
 SearchService
-.
-wrappedJSObject
 "
 _showSearchSettingsResetNotificationBox
 "

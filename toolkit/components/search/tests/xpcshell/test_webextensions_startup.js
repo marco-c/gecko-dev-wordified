@@ -376,8 +376,6 @@ test_startup_with_existing_addon_from_settings
 {
 SearchService
 .
-wrappedJSObject
-.
 reset
 (
 )
@@ -562,8 +560,6 @@ head_search
 js
 .
 SearchService
-.
-wrappedJSObject
 .
 reset
 (

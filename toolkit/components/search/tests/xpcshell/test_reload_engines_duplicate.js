@@ -412,8 +412,6 @@ false
 await
 SearchService
 .
-wrappedJSObject
-.
 _maybeReloadEngines
 (
 )

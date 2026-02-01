@@ -906,8 +906,6 @@ js
 .
 SearchService
 .
-wrappedJSObject
-.
 errorToThrowInTest
 .
 type

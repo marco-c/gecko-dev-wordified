@@ -386,8 +386,6 @@ settings
 await
 SearchService
 .
-wrappedJSObject
-.
 _settings
 .
 get

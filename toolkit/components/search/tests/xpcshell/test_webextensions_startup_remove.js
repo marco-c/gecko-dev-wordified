@@ -362,8 +362,6 @@ TOPIC_ENGINE_MODIFIED
 ;
 SearchService
 .
-wrappedJSObject
-.
 reset
 (
 )
