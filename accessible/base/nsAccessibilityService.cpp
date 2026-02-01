@@ -2944,7 +2944,7 @@ Used
 by
 XULMap
 .
-h
+inc
 to
 map
 both
@@ -3550,7 +3550,7 @@ include
 "
 HTMLMarkupMap
 .
-h
+inc
 "
 }
 ;
@@ -3567,7 +3567,7 @@ include
 "
 MathMLMarkupMap
 .
-h
+inc
 "
 }
 ;
@@ -3648,7 +3648,7 @@ include
 "
 XULMap
 .
-h
+inc
 "
 }
 ;
@@ -7701,7 +7701,7 @@ include
 "
 RoleMap
 .
-h
+inc
 "
 default
 :
@@ -9187,7 +9187,7 @@ include
 "
 RelationTypeMap
 .
-h
+inc
 "
 default
 :

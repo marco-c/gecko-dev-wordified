@@ -4800,7 +4800,7 @@ include
 "
 RoleMap
 .
-h
+inc
 "
 default
 :
@@ -7245,7 +7245,7 @@ include
 "
 RelationTypeMap
 .
-h
+inc
 "
 default
 :

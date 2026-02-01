@@ -499,7 +499,7 @@ include
 "
 RelationTypeMap
 .
-h
+inc
 "
 }
 ;

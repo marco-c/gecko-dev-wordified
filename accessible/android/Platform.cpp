@@ -550,7 +550,7 @@ include
 "
 RoleMap
 .
-h
+inc
 "
 #
 undef
