@@ -1,11 +1,3 @@
-/
-*
-eslint
--
-env
-webextensions
-*
-/
 const
 PROXY_PREF
 =
