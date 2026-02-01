@@ -203,24 +203,12 @@ break
 "
     
 "
-alignment
--
-baseline
-"
-    
-"
 -
 webkit
 -
 writing
 -
 mode
-"
-    
-"
-baseline
--
-shift
 "
     
 "

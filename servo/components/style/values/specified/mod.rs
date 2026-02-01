@@ -199,6 +199,15 @@ use
 crate
 :
 :
+derives
+:
+:
+*
+;
+use
+crate
+:
+:
 parser
 :
 :
@@ -413,7 +422,9 @@ box_
 :
 :
 {
+AlignmentBaseline
 Appearance
+BaselineShift
 BaselineSource
 BreakBetween
 BreakWithin
@@ -440,7 +451,6 @@ ScrollSnapStrictness
 ScrollSnapType
 ScrollbarGutter
 TouchAction
-VerticalAlign
 WillChange
 WillChangeBits
 WritingModeProperty

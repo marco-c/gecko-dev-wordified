@@ -4019,6 +4019,10 @@ in
 {
                 
 "
+AlignmentBaseline
+"
+                
+"
 Appearance
 "
                 
@@ -6685,23 +6689,16 @@ smoothing
 "
                 
 "
-vertical
+alignment
 -
-align
+baseline
 "
                 
-#
-Will
-become
-shorthand
-of
-vertical
+"
+baseline
 -
-align
-(
-Bug
-1830771
-)
+shift
+"
                 
 "
 baseline
@@ -6938,23 +6935,16 @@ smoothing
 "
                 
 "
-vertical
+alignment
 -
-align
+baseline
 "
                 
-#
-Will
-become
-shorthand
-of
-vertical
+"
+baseline
 -
-align
-(
-Bug
-1830771
-)
+shift
+"
                 
 "
 baseline

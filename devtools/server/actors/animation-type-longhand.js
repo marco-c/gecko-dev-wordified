@@ -110,6 +110,11 @@ align
 self
 "
 "
+alignment
+-
+baseline
+"
+"
 aspect
 -
 ratio
@@ -2066,6 +2071,11 @@ Set
 (
 [
 "
+baseline
+-
+shift
+"
+"
 border
 -
 bottom
@@ -2431,11 +2441,6 @@ offset
 "
 "
 top
-"
-"
-vertical
--
-align
 "
 "
 width

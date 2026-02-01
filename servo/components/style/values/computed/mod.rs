@@ -212,6 +212,15 @@ use
 crate
 :
 :
+derives
+:
+:
+*
+;
+use
+crate
+:
+:
 font_metrics
 :
 :
@@ -498,7 +507,9 @@ box_
 :
 :
 {
+AlignmentBaseline
 Appearance
+BaselineShift
 BaselineSource
 BreakBetween
 BreakWithin
@@ -525,7 +536,6 @@ ScrollSnapStrictness
 ScrollSnapType
 ScrollbarGutter
 TouchAction
-VerticalAlign
 WillChange
 WritingModeProperty
 Zoom
