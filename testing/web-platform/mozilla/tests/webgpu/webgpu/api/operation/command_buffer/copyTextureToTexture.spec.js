@@ -1322,6 +1322,8 @@ textureFormatsAreViewCompatible
 this
 .
 device
+.
+features
 srcFormat
 dstFormat
 )

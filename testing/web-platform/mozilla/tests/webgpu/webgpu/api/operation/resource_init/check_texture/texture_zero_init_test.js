@@ -2387,6 +2387,8 @@ isTextureFormatColorRenderable
 this
 .
 device
+.
+features
 this
 .
 p

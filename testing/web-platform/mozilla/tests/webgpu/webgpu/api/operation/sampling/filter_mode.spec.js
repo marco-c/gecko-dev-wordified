@@ -455,6 +455,8 @@ isTextureFormatColorRenderable
 this
 .
 device
+.
+features
 format
 )
 )
@@ -5883,6 +5885,8 @@ isTextureFormatColorRenderable
 t
 .
 device
+.
+features
 format
 )
 )

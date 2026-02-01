@@ -696,6 +696,8 @@ textureDimensionAndFormatCompatibleForDevice
 t
 .
 device
+.
+features
 dimension
 format
 )
@@ -2102,6 +2104,8 @@ isTextureFormatMultisampled
 t
 .
 device
+.
+features
 format
 )
 ;
@@ -2706,6 +2710,8 @@ isTextureFormatUsableWithStorageAccessMode
 t
 .
 device
+.
+features
 format
 '
 write
@@ -2739,6 +2745,8 @@ isTextureFormatMultisampled
 t
 .
 device
+.
+features
 format
 )
 &
@@ -6751,6 +6759,8 @@ textureDimensionAndFormatCompatibleForDevice
 t
 .
 device
+.
+features
 '
 3d
 '
@@ -7115,6 +7125,8 @@ isTextureFormatUsableWithStorageAccessMode
 t
 .
 device
+.
+features
 format
 '
 write
@@ -7165,6 +7177,8 @@ isTextureFormatColorRenderable
 t
 .
 device
+.
+features
 format
 )
 )
@@ -7588,6 +7602,8 @@ textureFormatsAreViewCompatible
 t
 .
 device
+.
+features
 format
 viewFormat
 )

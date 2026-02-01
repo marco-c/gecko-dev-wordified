@@ -5089,6 +5089,8 @@ isTextureFormatUsableWithStorageAccessMode
 t
 .
 device
+.
+features
 format
 access
 )

@@ -1374,6 +1374,8 @@ isTextureFormatColorRenderable
 t
 .
 device
+.
+features
 format
 )
 |
@@ -7116,6 +7118,8 @@ isTextureFormatResolvable
 t
 .
 device
+.
+features
 format
 )
 {

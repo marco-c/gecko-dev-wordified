@@ -836,6 +836,8 @@ isTextureFormatColorRenderable
 t
 .
 device
+.
+features
 format
 )
 descriptor
@@ -1237,6 +1239,8 @@ isTextureFormatColorRenderable
 t
 .
 device
+.
+features
 format
 )
 |
@@ -1739,6 +1743,8 @@ isTextureFormatBlendable
 t
 .
 device
+.
+features
 format
 )
 ;

@@ -821,6 +821,8 @@ isTextureFormatUsableAsStorageFormatInCreateShaderModule
 t
 .
 device
+.
+features
 format
 )
 ;

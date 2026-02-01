@@ -4148,6 +4148,8 @@ isTextureFormatUsableWithCopyExternalImageToTexture
 t
 .
 device
+.
+features
 format
 )
 ;
