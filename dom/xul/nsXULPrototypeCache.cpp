@@ -1372,6 +1372,12 @@ nsACString
 out
 )
 {
+scache
+:
+:
+ResourceType
+resourceType
+;
 switch
 (
 cacheType
@@ -1397,6 +1403,8 @@ proto
 )
 in
 out
+&
+resourceType
 )
 ;
 case
@@ -1419,6 +1427,8 @@ script
 )
 in
 out
+&
+resourceType
 )
 ;
 }
