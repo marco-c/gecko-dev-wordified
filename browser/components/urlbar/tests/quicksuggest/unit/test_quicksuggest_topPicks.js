@@ -758,16 +758,7 @@ PlacesTestUtils
 .
 addVisits
 (
-{
 url
-transition
-:
-PlacesUtils
-.
-history
-.
-TRANSITION_TYPED
-}
 )
 ;
 /

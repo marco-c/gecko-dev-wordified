@@ -4810,9 +4810,6 @@ PlacesTestUtils
 addVisits
 (
 [
-{
-url
-:
 "
 https
 :
@@ -4823,14 +4820,6 @@ example
 com
 /
 "
-transition
-:
-PlacesUtils
-.
-history
-.
-TRANSITION_TYPED
-}
 ]
 )
 ;
@@ -4900,7 +4889,7 @@ first
 result
 should
 be
-autofill
+aufotill
 suggestion
 "
 )

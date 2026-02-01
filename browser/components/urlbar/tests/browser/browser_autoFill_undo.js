@@ -88,9 +88,6 @@ PlacesTestUtils
 addVisits
 (
 [
-{
-url
-:
 "
 http
 :
@@ -101,14 +98,6 @@ example
 com
 /
 "
-transition
-:
-PlacesUtils
-.
-history
-.
-TRANSITION_TYPED
-}
 ]
 )
 ;
