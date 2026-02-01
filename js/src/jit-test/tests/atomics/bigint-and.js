@@ -15,7 +15,7 @@ spectre
 -
 mitigations
 =
-on
+off
 /
 /
 These
