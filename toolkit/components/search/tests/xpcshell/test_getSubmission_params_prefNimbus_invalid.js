@@ -338,9 +338,7 @@ bar
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 init
 (
@@ -369,9 +367,7 @@ updates
 const
 engine
 =
-Services
-.
-search
+SearchService
 .
 getEngineById
 (
@@ -511,9 +507,7 @@ args
 const
 engine
 =
-Services
-.
-search
+SearchService
 .
 getEngineById
 (
@@ -634,9 +628,7 @@ args
 const
 engine
 =
-Services
-.
-search
+SearchService
 .
 getEngineById
 (

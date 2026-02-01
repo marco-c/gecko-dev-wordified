@@ -267,9 +267,7 @@ equal
 (
 (
 await
-Services
-.
-search
+SearchService
 .
 getDefault
 (

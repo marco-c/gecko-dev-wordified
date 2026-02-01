@@ -380,9 +380,7 @@ the
 test
 .
 await
-Services
-.
-search
+SearchService
 .
 init
 (
@@ -431,9 +429,7 @@ let
 engine
 =
 await
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -563,9 +559,7 @@ promiseAfterSettings
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 wrappedJSObject
 .
@@ -574,9 +568,7 @@ reset
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 init
 (

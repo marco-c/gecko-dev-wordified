@@ -401,9 +401,7 @@ useHttpServer
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 init
 (
@@ -787,9 +785,7 @@ tests
 let
 engine
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -799,9 +795,7 @@ simple
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 setDefault
 (

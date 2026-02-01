@@ -237,9 +237,7 @@ true
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 init
 (
@@ -260,9 +258,7 @@ Assert
 .
 equal
 (
-Services
-.
-search
+SearchService
 .
 defaultEngine
 .
@@ -284,9 +280,7 @@ const
 engines
 =
 await
-Services
-.
-search
+SearchService
 .
 getEngines
 (

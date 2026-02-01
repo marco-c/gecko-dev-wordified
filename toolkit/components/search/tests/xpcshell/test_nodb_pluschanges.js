@@ -205,9 +205,7 @@ promiseAfterSettings
 let
 search
 =
-Services
-.
-search
+SearchService
 ;
 await
 search

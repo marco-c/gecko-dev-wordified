@@ -170,9 +170,7 @@ promiseAfterSettings
 let
 search
 =
-Services
-.
-search
+SearchService
 ;
 /
 /
@@ -369,9 +367,7 @@ foo
 let
 engine
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (

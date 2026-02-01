@@ -272,9 +272,7 @@ CONFIG
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 init
 (
@@ -294,9 +292,7 @@ test_get_extension
 let
 engine
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -547,9 +543,7 @@ test_post_extension
 let
 engine
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -769,9 +763,7 @@ enableEnterprise
 let
 engine
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (

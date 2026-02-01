@@ -89,9 +89,7 @@ true
 appDefaultEngine
 =
 await
-Services
-.
-search
+SearchService
 .
 getDefault
 (
@@ -177,9 +175,7 @@ promise
 ;
 engine
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -277,9 +273,7 @@ promise
 let
 webExtensionEngine
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -357,9 +351,7 @@ expected
 )
 ;
 await
-Services
-.
-search
+SearchService
 [
 setPrivateDefault
 ?
@@ -431,9 +423,7 @@ test_defaultPrivateEngine_notifications_when_not_enabled
 )
 {
 await
-Services
-.
-search
+SearchService
 .
 setDefault
 (
@@ -480,9 +470,7 @@ test_removeEngine
 )
 {
 await
-Services
-.
-search
+SearchService
 .
 setDefault
 (
@@ -495,9 +483,7 @@ CHANGE_REASON_UNKNOWN
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 setDefaultPrivate
 (
@@ -550,9 +536,7 @@ name
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 removeEngine
 (
