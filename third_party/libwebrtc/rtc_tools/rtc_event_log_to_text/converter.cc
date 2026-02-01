@@ -1927,6 +1927,12 @@ ref_window_bytes
 "
 PRId64
 "
+data_in_flight_bytes
+=
+%
+"
+PRId64
+"
 target_rate_kbps
 =
 %
@@ -1960,6 +1966,13 @@ log_time_ms
 event
 .
 ref_window
+.
+bytes
+(
+)
+event
+.
+data_in_flight
 .
 bytes
 (
