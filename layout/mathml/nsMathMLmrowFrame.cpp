@@ -411,7 +411,7 @@ aModType
 virtual
 *
 /
-eMathMLFrameType
+MathMLFrameType
 nsMathMLmrowFrame
 :
 :

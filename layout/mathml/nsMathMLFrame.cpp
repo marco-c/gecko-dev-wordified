@@ -280,7 +280,7 @@ mozilla
 :
 gfx
 ;
-eMathMLFrameType
+MathMLFrameType
 nsMathMLFrame
 :
 :
@@ -369,7 +369,10 @@ in
 TeX
 )
 return
-eMathMLFrameType_Ordinary
+MathMLFrameType
+:
+:
+Ordinary
 ;
 }
 NS_IMETHODIMP

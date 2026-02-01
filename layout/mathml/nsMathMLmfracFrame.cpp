@@ -308,7 +308,7 @@ nsMathMLmfracFrame
 =
 default
 ;
-eMathMLFrameType
+MathMLFrameType
 nsMathMLmfracFrame
 :
 :
@@ -336,7 +336,10 @@ page
 170
 .
 return
-eMathMLFrameType_Inner
+MathMLFrameType
+:
+:
+Inner
 ;
 }
 uint8_t

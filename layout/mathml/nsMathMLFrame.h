@@ -278,7 +278,7 @@ return
 NS_OK
 ;
 }
-eMathMLFrameType
+MathMLFrameType
 GetMathMLFrameType
 (
 )
@@ -761,7 +761,7 @@ aFrame
 )
 ;
 static
-eMathMLFrameType
+MathMLFrameType
 GetMathMLFrameTypeFor
 (
 nsIFrame
@@ -802,7 +802,10 @@ GetMathMLFrameType
 }
 }
 return
-eMathMLFrameType_UNKNOWN
+MathMLFrameType
+:
+:
+Unknown
 ;
 }
 /
