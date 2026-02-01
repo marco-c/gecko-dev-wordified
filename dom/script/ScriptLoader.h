@@ -2216,9 +2216,9 @@ argument
 nsresult
 OnStreamComplete
 (
-nsIIncrementalStreamLoader
+nsIChannel
 *
-aLoader
+aChannel
 ScriptLoadRequest
 *
 aRequest
@@ -3862,9 +3862,9 @@ VerifySRI
 ScriptLoadRequest
 *
 aRequest
-nsIIncrementalStreamLoader
+nsIChannel
 *
-aLoader
+aChannel
 nsresult
 aSRIStatus
 SRICheckDataVerifier
@@ -4872,9 +4872,9 @@ PrepareLoadedRequest
 ScriptLoadRequest
 *
 aRequest
-nsIIncrementalStreamLoader
+nsIChannel
 *
-aLoader
+aChannel
 nsresult
 aStatus
 )

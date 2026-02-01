@@ -487,9 +487,9 @@ discovered
 bool
 EnsureDecoder
 (
-nsIIncrementalStreamLoader
+nsIChannel
 *
-aLoader
+aChannel
 const
 uint8_t
 *
@@ -523,7 +523,7 @@ true
 return
 TrySetDecoder
 (
-aLoader
+aChannel
 aData
 aDataLength
 aEndOfStream
@@ -605,9 +605,9 @@ made
 bool
 TrySetDecoder
 (
-nsIIncrementalStreamLoader
+nsIChannel
 *
-aLoader
+aChannel
 const
 uint8_t
 *
@@ -690,9 +690,9 @@ stream
 nsresult
 EnsureKnownDataType
 (
-nsIIncrementalStreamLoader
+nsIChannel
 *
-aLoader
+aChannel
 )
 ;
 /
