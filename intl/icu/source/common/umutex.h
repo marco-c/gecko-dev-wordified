@@ -2003,7 +2003,6 @@ UMutex
 =
 default
 ;
-U_COMMON_API
 UMutex
 (
 const
@@ -2014,7 +2013,6 @@ other
 =
 delete
 ;
-U_COMMON_API
 UMutex
 &
 operator
@@ -2028,7 +2026,6 @@ other
 =
 delete
 ;
-U_COMMON_API
 void
 *
 operator
