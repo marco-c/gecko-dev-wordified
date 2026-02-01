@@ -2013,12 +2013,6 @@ menu
 learn
 -
 more
--
-about
--
-firefox
--
-suggest
 "
 }
 isBlockable

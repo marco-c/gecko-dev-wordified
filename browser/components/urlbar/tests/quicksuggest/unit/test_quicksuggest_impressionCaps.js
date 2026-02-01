@@ -404,12 +404,6 @@ menu
 learn
 -
 more
--
-about
--
-firefox
--
-suggest
 "
 }
 isBlockable
@@ -560,12 +554,6 @@ menu
 learn
 -
 more
--
-about
--
-firefox
--
-suggest
 "
 }
 isBlockable
