@@ -356,22 +356,6 @@ Bug
 1923732
     
 "
-Math
-.
-sumPrecise
-"
-:
-"
-!
-Math
-.
-sumPrecise
-"
-#
-Bug
-1985121
-    
-"
 immutable
 -
 arraybuffer
