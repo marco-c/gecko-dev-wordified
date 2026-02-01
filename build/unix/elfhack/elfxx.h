@@ -57,6 +57,12 @@ MPL
 *
 /
 #
+ifndef
+BUILD_UNIX_ELFHACK_ELFXX_H_
+#
+define
+BUILD_UNIX_ELFHACK_ELFXX_H_
+#
 include
 <
 stdexcept
@@ -4531,3 +4537,8 @@ getEntSize
 )
 ;
 }
+#
+endif
+/
+/
+BUILD_UNIX_ELFHACK_ELFXX_H_
