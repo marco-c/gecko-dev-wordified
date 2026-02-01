@@ -2923,6 +2923,9 @@ smartblockEmbedReplaced
 "
 smartblockGetFluentString
 "
+"
+shouldShowEmbedContentInPlaceholders
+"
 ]
 isSmartblockEmbedShim
 :
