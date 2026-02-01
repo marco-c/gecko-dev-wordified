@@ -296,7 +296,7 @@ there
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;
@@ -420,7 +420,7 @@ show
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

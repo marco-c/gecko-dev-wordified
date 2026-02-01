@@ -1254,11 +1254,8 @@ state
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
-tab
-.
-linkedBrowser
 )
 ;
 /
@@ -2515,11 +2512,8 @@ now
 load
 successfully
 await
-reloadBrowser
+reloadSelectedTab
 (
-tab
-.
-linkedBrowser
 )
 ;
 result

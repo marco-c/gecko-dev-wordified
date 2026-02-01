@@ -447,7 +447,7 @@ auto
 -
 resume
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

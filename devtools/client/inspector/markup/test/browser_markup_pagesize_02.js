@@ -170,7 +170,7 @@ children
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

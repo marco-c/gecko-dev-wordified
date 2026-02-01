@@ -2556,7 +2556,7 @@ reloadNeeded
 await
 this
 .
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;
@@ -3658,7 +3658,7 @@ reloadNeeded
 {
 this
 .
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;
@@ -3857,7 +3857,7 @@ reloadNeeded
 {
 this
 .
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;
@@ -4006,7 +4006,7 @@ reloadNeeded
 {
 this
 .
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;
@@ -5408,7 +5408,7 @@ reloadNeeded
 await
 this
 .
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;
@@ -6894,7 +6894,7 @@ tab
 *
 /
 async
-reloadBrowser
+reloadSelectedTab
 (
 )
 {

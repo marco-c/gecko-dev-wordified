@@ -947,7 +947,7 @@ line
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;
@@ -1107,7 +1107,7 @@ BLACKBOX_SOURCE_RANGES
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

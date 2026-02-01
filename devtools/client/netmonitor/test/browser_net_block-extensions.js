@@ -311,7 +311,7 @@ linkedBrowser
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

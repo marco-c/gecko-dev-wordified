@@ -727,7 +727,7 @@ closed
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

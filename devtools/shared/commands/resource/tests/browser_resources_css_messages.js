@@ -723,7 +723,7 @@ emitting
 warnings
 .
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

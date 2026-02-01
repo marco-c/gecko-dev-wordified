@@ -187,7 +187,7 @@ hit
 const
 waitForReload
 =
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

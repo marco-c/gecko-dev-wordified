@@ -561,7 +561,7 @@ instance
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

@@ -184,7 +184,7 @@ won
 t
 fire
 await
-reloadBrowser
+reloadSelectedTab
 (
 {
 waitForLoad
@@ -225,7 +225,7 @@ REGULAR_4G_LTE
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

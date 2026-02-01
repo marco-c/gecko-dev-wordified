@@ -529,7 +529,7 @@ reloaded
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

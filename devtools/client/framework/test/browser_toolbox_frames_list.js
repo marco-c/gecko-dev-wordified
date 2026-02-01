@@ -602,7 +602,7 @@ cleared
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;
@@ -914,7 +914,7 @@ reloading
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

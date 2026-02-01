@@ -120,7 +120,7 @@ from
 Bug
 1929891
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

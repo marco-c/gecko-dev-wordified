@@ -133,7 +133,7 @@ focused
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

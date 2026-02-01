@@ -401,7 +401,7 @@ and
 check
 data
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

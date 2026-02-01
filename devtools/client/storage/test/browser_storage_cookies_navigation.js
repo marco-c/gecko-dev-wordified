@@ -613,7 +613,7 @@ and
 check
 again
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

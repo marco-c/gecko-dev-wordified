@@ -158,7 +158,7 @@ tab
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

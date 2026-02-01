@@ -346,7 +346,7 @@ JS_URL
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

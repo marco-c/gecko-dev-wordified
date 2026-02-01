@@ -686,7 +686,7 @@ the
 window
 .
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

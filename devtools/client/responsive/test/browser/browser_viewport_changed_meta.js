@@ -1213,7 +1213,7 @@ test
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

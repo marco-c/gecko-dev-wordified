@@ -434,7 +434,7 @@ BYPASS_WALKERFRONT_CHILDREN_IFRAME_GUARD_PREF
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

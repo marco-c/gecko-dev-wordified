@@ -445,7 +445,7 @@ are
 picked
 up
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

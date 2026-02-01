@@ -208,7 +208,7 @@ waitForAllNetworkUpdateEvents
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

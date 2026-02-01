@@ -312,7 +312,7 @@ been
 opened
 .
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

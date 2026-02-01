@@ -441,7 +441,7 @@ a
 reload
 .
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

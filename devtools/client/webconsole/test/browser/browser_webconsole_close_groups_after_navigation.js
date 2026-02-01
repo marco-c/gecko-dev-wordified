@@ -173,7 +173,7 @@ i
 )
 {
 await
-reloadBrowserAndCheckIndent
+reloadSelectedTabAndCheckIndent
 (
 hud
 )
@@ -184,7 +184,7 @@ hud
 ;
 async
 function
-reloadBrowserAndCheckIndent
+reloadSelectedTabAndCheckIndent
 (
 hud
 )
@@ -205,7 +205,7 @@ startGroup
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

@@ -339,7 +339,7 @@ reload
 the
 tab
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

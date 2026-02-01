@@ -1124,7 +1124,7 @@ event
 )
 ;
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;

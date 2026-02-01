@@ -6109,7 +6109,7 @@ sources
 )
 {
 await
-reloadBrowser
+reloadSelectedTab
 (
 )
 ;
