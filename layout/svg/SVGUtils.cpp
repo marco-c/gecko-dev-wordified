@@ -2201,7 +2201,7 @@ eForGetClientRects
 SVGUtils
 :
 :
-eBBoxIncludeFill
+eBBoxIncludeFillGeometry
 |
 SVGUtils
 :
@@ -6180,7 +6180,7 @@ GetBBoxContribution
 SVGUtils
 :
 :
-eBBoxIncludeFill
+eBBoxIncludeFillGeometry
 )
 .
 ToThebesRect
@@ -10312,11 +10312,6 @@ ToMatrix
 (
 transform
 )
-SVGUtils
-:
-:
-eBBoxIncludeFill
-|
 SVGUtils
 :
 :
