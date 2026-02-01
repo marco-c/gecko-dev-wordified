@@ -57,6 +57,12 @@ MPL
 *
 /
 #
+ifndef
+mozilla_dom_CCGCScheduler_h
+#
+define
+mozilla_dom_CCGCScheduler_h
+#
 include
 "
 js
@@ -3234,3 +3240,5 @@ FromMilliseconds
 /
 namespace
 mozilla
+#
+endif

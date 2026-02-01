@@ -87,6 +87,12 @@ MPL
 *
 /
 #
+ifndef
+mozilla_widget_nsMacDockSupport_h
+#
+define
+mozilla_widget_nsMacDockSupport_h
+#
 include
 "
 nsIMacDockSupport
@@ -158,9 +164,16 @@ mDockMenu
 nsString
 mBadgeText
 ;
+bool
+mHasBadgeImage
+;
 NSView
 *
 mDockTileWrapperView
+;
+NSImageView
+*
+mDockBadgeView
 ;
 MOZProgressDockOverlayView
 *
@@ -172,6 +185,11 @@ mProgressState
 double
 mProgressFraction
 ;
+void
+BuildDockTile
+(
+)
+;
 nsresult
 UpdateDockTile
 (
@@ -179,3 +197,5 @@ UpdateDockTile
 ;
 }
 ;
+#
+endif
