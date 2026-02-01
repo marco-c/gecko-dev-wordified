@@ -801,11 +801,6 @@ QuadFlags
 :
 :
 APPLY_RENDER_TASK_CLIP
-|
-QuadFlags
-:
-:
-IGNORE_DEVICE_PIXEL_SCALE
 prim_needs_scissor_rect
 :
 false
@@ -853,6 +848,7 @@ task_world_rect
 pattern_prim_address_f
 raster_spatial_node_index
 raster_spatial_node_index
+scale_factor
 ctx
 .
 interned_clips
