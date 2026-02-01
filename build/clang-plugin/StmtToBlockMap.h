@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-StmtToBlockMap_h__
+StmtToBlockMap_h_
 #
 define
-StmtToBlockMap_h__
+StmtToBlockMap_h_
 #
 include
 "
@@ -690,4 +690,4 @@ Map
 endif
 /
 /
-StmtToBlockMap_h__
+StmtToBlockMap_h_

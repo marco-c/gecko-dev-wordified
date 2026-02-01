@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-FopenUsageChecker_h__
+FopenUsageChecker_h_
 #
 define
-FopenUsageChecker_h__
+FopenUsageChecker_h_
 #
 include
 "

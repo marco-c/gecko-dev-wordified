@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-DiagnosticsMatcher_h__
+DiagnosticsMatcher_h_
 #
 define
-DiagnosticsMatcher_h__
+DiagnosticsMatcher_h_
 #
 include
 "

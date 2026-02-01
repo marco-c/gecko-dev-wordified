@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-CustomTypeAnnotation_h__
+CustomTypeAnnotation_h_
 #
 define
-CustomTypeAnnotation_h__
+CustomTypeAnnotation_h_
 #
 include
 "

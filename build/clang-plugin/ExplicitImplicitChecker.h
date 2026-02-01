@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-ExplicitImplicitChecker_h__
+ExplicitImplicitChecker_h_
 #
 define
-ExplicitImplicitChecker_h__
+ExplicitImplicitChecker_h_
 #
 include
 "

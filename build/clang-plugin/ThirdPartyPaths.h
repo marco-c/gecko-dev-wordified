@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-ThirdPartyPaths_h__
+ThirdPartyPaths_h_
 #
 define
-ThirdPartyPaths_h__
+ThirdPartyPaths_h_
 #
 include
 <

@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-RecurseGuard_h__
+RecurseGuard_h_
 #
 define
-RecurseGuard_h__
+RecurseGuard_h_
 #
 include
 "
@@ -402,4 +402,4 @@ Repeat
 endif
 /
 /
-RecurseGuard_h__
+RecurseGuard_h_

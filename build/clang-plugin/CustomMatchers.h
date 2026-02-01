@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-CustomMatchers_h__
+CustomMatchers_h_
 #
 define
-CustomMatchers_h__
+CustomMatchers_h_
 #
 include
 "

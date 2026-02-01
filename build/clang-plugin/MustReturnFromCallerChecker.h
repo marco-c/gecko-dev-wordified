@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-MustReturnFromCallerChecker_h__
+MustReturnFromCallerChecker_h_
 #
 define
-MustReturnFromCallerChecker_h__
+MustReturnFromCallerChecker_h_
 #
 include
 "

@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-NonStdMoveChecker_h__
+NonStdMoveChecker_h_
 #
 define
-NonStdMoveChecker_h__
+NonStdMoveChecker_h_
 #
 include
 "

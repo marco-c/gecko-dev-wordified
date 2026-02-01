@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-TrivialDtorChecker_h__
+TrivialDtorChecker_h_
 #
 define
-TrivialDtorChecker_h__
+TrivialDtorChecker_h_
 #
 include
 "

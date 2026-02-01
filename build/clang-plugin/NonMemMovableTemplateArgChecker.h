@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-NonMemMovableTemplateArgChecker_h__
+NonMemMovableTemplateArgChecker_h_
 #
 define
-NonMemMovableTemplateArgChecker_h__
+NonMemMovableTemplateArgChecker_h_
 #
 include
 "

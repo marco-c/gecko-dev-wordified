@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-DanglingOnTemporaryChecker_h__
+DanglingOnTemporaryChecker_h_
 #
 define
-DanglingOnTemporaryChecker_h__
+DanglingOnTemporaryChecker_h_
 #
 include
 "

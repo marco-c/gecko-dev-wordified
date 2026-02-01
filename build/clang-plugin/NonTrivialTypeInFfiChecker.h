@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-NonTrivialTypeInFfiChecker_h__
+NonTrivialTypeInFfiChecker_h_
 #
 define
-NonTrivialTypeInFfiChecker_h__
+NonTrivialTypeInFfiChecker_h_
 #
 include
 "

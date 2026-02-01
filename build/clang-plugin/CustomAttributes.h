@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-CustomAttributes_h__
+CustomAttributes_h_
 #
 define
-CustomAttributes_h__
+CustomAttributes_h_
 #
 include
 "
@@ -265,6 +265,6 @@ A
 endif
 /
 *
-CustomAttributes_h__
+CustomAttributes_h_
 *
 /

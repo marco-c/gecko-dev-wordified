@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-BaseCheck_h__
+BaseCheck_h_
 #
 define
-BaseCheck_h__
+BaseCheck_h_
 class
 MozContext
 {

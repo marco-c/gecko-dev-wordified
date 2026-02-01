@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-NoAutoTypeChecker_h__
+NoAutoTypeChecker_h_
 #
 define
-NoAutoTypeChecker_h__
+NoAutoTypeChecker_h_
 #
 include
 "

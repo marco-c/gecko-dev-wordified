@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-NonParamInsideFunctionDeclChecker_h__
+NonParamInsideFunctionDeclChecker_h_
 #
 define
-NonParamInsideFunctionDeclChecker_h__
+NonParamInsideFunctionDeclChecker_h_
 #
 include
 "

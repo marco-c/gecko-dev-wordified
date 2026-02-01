@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-LoadLibraryUsageChecker_h__
+LoadLibraryUsageChecker_h_
 #
 define
-LoadLibraryUsageChecker_h__
+LoadLibraryUsageChecker_h_
 #
 include
 "
@@ -126,5 +126,5 @@ endif
 !
 defined
 (
-LoadLibraryUsageChecker_h__
+LoadLibraryUsageChecker_h_
 )

@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-KungFuDeathGripChecker_h__
+KungFuDeathGripChecker_h_
 #
 define
-KungFuDeathGripChecker_h__
+KungFuDeathGripChecker_h_
 #
 include
 "

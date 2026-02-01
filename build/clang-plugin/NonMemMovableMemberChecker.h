@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-NonMemMovableMemberChecker_h__
+NonMemMovableMemberChecker_h_
 #
 define
-NonMemMovableMemberChecker_h__
+NonMemMovableMemberChecker_h_
 #
 include
 "

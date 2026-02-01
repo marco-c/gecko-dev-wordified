@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-MemMoveAnnotation_h__
+MemMoveAnnotation_h_
 #
 define
-MemMoveAnnotation_h__
+MemMoveAnnotation_h_
 #
 include
 "

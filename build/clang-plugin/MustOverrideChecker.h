@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-MustOverrideChecker_h__
+MustOverrideChecker_h_
 #
 define
-MustOverrideChecker_h__
+MustOverrideChecker_h_
 #
 include
 "

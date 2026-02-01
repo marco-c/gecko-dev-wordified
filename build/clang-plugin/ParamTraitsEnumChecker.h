@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-ParamTraitsEnumChecker_h__
+ParamTraitsEnumChecker_h_
 #
 define
-ParamTraitsEnumChecker_h__
+ParamTraitsEnumChecker_h_
 #
 include
 "

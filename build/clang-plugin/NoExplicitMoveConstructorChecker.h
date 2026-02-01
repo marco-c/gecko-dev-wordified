@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-NoExplicitMoveConstructorChecker_h__
+NoExplicitMoveConstructorChecker_h_
 #
 define
-NoExplicitMoveConstructorChecker_h__
+NoExplicitMoveConstructorChecker_h_
 #
 include
 "

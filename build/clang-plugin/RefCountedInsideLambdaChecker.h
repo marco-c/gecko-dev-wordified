@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-RefCountedInsideLambdaChecker_h__
+RefCountedInsideLambdaChecker_h_
 #
 define
-RefCountedInsideLambdaChecker_h__
+RefCountedInsideLambdaChecker_h_
 #
 include
 "

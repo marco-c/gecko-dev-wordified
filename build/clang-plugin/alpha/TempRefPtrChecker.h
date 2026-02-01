@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-TempRefPtrChecker_h__
+TempRefPtrChecker_h_
 #
 define
-TempRefPtrChecker_h__
+TempRefPtrChecker_h_
 #
 include
 "

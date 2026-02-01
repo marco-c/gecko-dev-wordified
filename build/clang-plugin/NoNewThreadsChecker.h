@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-NoNewThreadsChecker_h__
+NoNewThreadsChecker_h_
 #
 define
-NoNewThreadsChecker_h__
+NoNewThreadsChecker_h_
 #
 include
 "
@@ -126,5 +126,5 @@ endif
 !
 defined
 (
-NoNewThreadsChecker_h__
+NoNewThreadsChecker_h_
 )

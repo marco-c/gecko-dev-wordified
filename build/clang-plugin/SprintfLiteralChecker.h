@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-SprintfLiteralChecker_h__
+SprintfLiteralChecker_h_
 #
 define
-SprintfLiteralChecker_h__
+SprintfLiteralChecker_h_
 #
 include
 "
