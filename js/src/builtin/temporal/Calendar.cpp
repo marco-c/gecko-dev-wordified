@@ -13411,7 +13411,7 @@ intYear
 yearFromEraYear
 )
 {
-ToCStringBuf
+Int32ToCStringBuf
 yearCbuf
 ;
 const
@@ -13419,14 +13419,14 @@ char
 *
 yearStr
 =
-NumberToCString
+Int32ToCString
 (
 &
 yearCbuf
 intYear
 )
 ;
-ToCStringBuf
+Int32ToCStringBuf
 fromEraCbuf
 ;
 const
@@ -13434,7 +13434,7 @@ char
 *
 fromEraStr
 =
-NumberToCString
+Int32ToCString
 (
 &
 fromEraCbuf
