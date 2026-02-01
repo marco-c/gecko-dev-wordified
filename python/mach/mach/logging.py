@@ -2930,7 +2930,9 @@ on
         
 #
 Glean
-makes
+and
+filelock
+make
 logs
 that
 we
@@ -2941,6 +2943,8 @@ interested
 in
 so
 we
+        
+#
 squelch
 them
 .
@@ -2951,6 +2955,22 @@ getLogger
 (
 "
 glean
+"
+)
+.
+setLevel
+(
+logging
+.
+CRITICAL
+)
+        
+logging
+.
+getLogger
+(
+"
+filelock
 "
 )
 .
