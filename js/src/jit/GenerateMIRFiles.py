@@ -793,6 +793,8 @@ can_recover
 clone
     
 can_consume_float32
+    
+wasm_ref_type
 )
 :
     
@@ -1481,6 +1483,31 @@ code
 "
 setMovable
 (
+)
+;
+\
+\
+\
+n
+"
+    
+if
+wasm_ref_type
+is
+not
+None
+:
+        
+code
++
+=
+f
+"
+setWasmRefType
+(
+{
+wasm_ref_type
+}
 )
 ;
 \
@@ -2847,6 +2874,29 @@ True
 False
 )
             
+wasm_ref_type
+=
+op
+.
+get
+(
+"
+wasm_ref_type
+"
+None
+)
+            
+assert
+result
+is
+None
+or
+isinstance
+(
+result
+str
+)
+            
 code
 =
 gen_mir_class
@@ -2885,6 +2935,8 @@ can_recover
 clone
                 
 can_consume_float32
+                
+wasm_ref_type
             
 )
             
