@@ -162,6 +162,10 @@ BufferedReadAdapter
 socket
 buffer_size
 )
+connect_request_trampoline_
+(
+this
+)
 {
 }
 AsyncProxyServerSocket

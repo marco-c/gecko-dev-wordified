@@ -928,7 +928,7 @@ BufferInput
 false
 )
 ;
-SignalConnectRequest
+NotifyConnectRequest
 (
 this
 dest_addr
