@@ -1568,7 +1568,7 @@ Option
 properties
 :
 :
-longhands
+gecko
 :
 :
 system_font
