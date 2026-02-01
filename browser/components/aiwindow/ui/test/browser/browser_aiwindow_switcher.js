@@ -249,6 +249,13 @@ true
 }
 )
 ;
+const
+restoreSignIn
+=
+skipSignIn
+(
+)
+;
 if
 (
 document
@@ -496,6 +503,10 @@ close
 after
 switching
 "
+)
+;
+restoreSignIn
+(
 )
 ;
 await
