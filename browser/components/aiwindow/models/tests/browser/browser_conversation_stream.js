@@ -1568,13 +1568,6 @@ string
 "
 &
 &
-/
-/
-TODO
-fix
-with
-bug
-2010416
 contentArray
 [
 0
@@ -1583,9 +1576,10 @@ contentArray
 includes
 (
 "
-Error
-retrieving
-content
+Headline
+Body
+text
+.
 "
 )
 "
