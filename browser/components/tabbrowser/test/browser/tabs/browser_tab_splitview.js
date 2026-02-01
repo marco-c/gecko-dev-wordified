@@ -2584,10 +2584,6 @@ bar
 "
 )
 ;
-EventUtils
-.
-synthesizeMouseAtCenter
-(
 findbar
 .
 getElement
@@ -2598,8 +2594,9 @@ findbar
 textbox
 "
 )
-{
-}
+.
+click
+(
 )
 ;
 await
