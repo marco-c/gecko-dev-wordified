@@ -370,10 +370,7 @@ implnote
 html
 mRx
 =
-std
-:
-:
-abs
+fabs
 (
 radii
 .
@@ -382,10 +379,7 @@ x
 ;
 mRy
 =
-std
-:
-:
-abs
+fabs
 (
 radii
 .
@@ -888,10 +882,7 @@ int
 (
 ceil
 (
-std
-:
-:
-abs
+fabs
 (
 dtheta
 /
@@ -955,10 +946,7 @@ from
 ;
 if
 (
-std
-:
-:
-abs
+fabs
 (
 dtheta
 )

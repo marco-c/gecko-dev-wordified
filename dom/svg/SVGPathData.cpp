@@ -3304,10 +3304,7 @@ aRy
 float
 rx
 =
-std
-:
-:
-abs
+fabs
 (
 aRx
 )
@@ -3324,10 +3321,7 @@ F
 float
 ry
 =
-std
-:
-:
-abs
+fabs
 (
 aRy
 )

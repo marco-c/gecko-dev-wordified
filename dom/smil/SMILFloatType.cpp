@@ -518,10 +518,7 @@ mDouble
 ;
 aDistance
 =
-std
-:
-:
-abs
+fabs
 (
 to
 -
