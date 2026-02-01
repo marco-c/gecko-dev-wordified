@@ -2504,9 +2504,8 @@ TriggerLayoutOnOverflow
 (
 PresShell
 *
-aPresShell
 bool
-aEvaluateAllFallbacksIfNeeded
+aFirstIteration
 )
 ;
 }
