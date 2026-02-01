@@ -2526,11 +2526,6 @@ ArrayObject
 errorsList
 (
 cx
-)
-;
-if
-(
-!
 IterableToArray
 (
 cx
@@ -2540,9 +2535,13 @@ get
 (
 0
 )
-&
-errorsList
 )
+)
+;
+if
+(
+!
+errorsList
 )
 {
 return

@@ -5146,7 +5146,8 @@ JSContext
 cx
 )
 ;
-bool
+ArrayObject
+*
 IterableToArray
 (
 JSContext
@@ -5154,12 +5155,6 @@ JSContext
 cx
 HandleValue
 iterable
-MutableHandle
-<
-ArrayObject
-*
->
-array
 )
 ;
 bool
