@@ -60,14 +60,6 @@ MPL
 *
 eslint
 -
-env
-webextensions
-*
-/
-/
-*
-eslint
--
 disable
 no
 -

@@ -57,14 +57,6 @@ MPL
 *
 /
 /
-*
-eslint
--
-env
-webextensions
-*
-/
-/
 /
 This
 background
