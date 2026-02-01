@@ -1931,7 +1931,6 @@ const
 {
 if
 (
-!
 isDataInline
 (
 )
