@@ -567,9 +567,6 @@ uint32_t
 aMaxScrollY
 )
 ;
-#
-ifndef
-XP_WIN
 async
 AnnouncementEvent
 (
@@ -581,8 +578,6 @@ uint16_t
 aPriority
 )
 ;
-#
-endif
 async
 TextSelectionChangeEvent
 (

@@ -859,13 +859,6 @@ aIDs
 )
 override
 ;
-#
-if
-!
-defined
-(
-XP_WIN
-)
 virtual
 mozilla
 :
@@ -891,8 +884,6 @@ aPriority
 )
 override
 ;
-#
-endif
 virtual
 mozilla
 :
