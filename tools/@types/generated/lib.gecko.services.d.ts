@@ -209,10 +209,6 @@ scriptloader
 :
 mozIJSSubScriptLoader
 ;
-search
-:
-nsISearchService
-;
 sessionStorage
 :
 nsISessionStorageService

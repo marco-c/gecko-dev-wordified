@@ -192,6 +192,13 @@ sys
 mjs
 "
 "
+SearchService
+.
+sys
+.
+mjs
+"
+"
 SearchSettings
 .
 sys
@@ -238,13 +245,6 @@ EXTRA_JS_MODULES
 +
 =
 [
-"
-SearchService
-.
-sys
-.
-mjs
-"
 "
 SearchSuggestions
 .
