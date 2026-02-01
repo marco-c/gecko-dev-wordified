@@ -169,6 +169,14 @@ aResult
 =
 0
 ;
+virtual
+void
+StartNonOOMPSISampling
+(
+)
+=
+0
+;
 }
 ;
 #
