@@ -1844,10 +1844,13 @@ ChildProcessArgs
 aExtraOpts
 )
 {
-UniqueFileHandle
+auto
 clientFileDescriptor
-(
-dup
+=
+mozilla
+:
+:
+DuplicateFileHandle
 (
 SandboxReporter
 :
@@ -1859,7 +1862,6 @@ Singleton
 >
 GetClientFileDescriptor
 (
-)
 )
 )
 ;
