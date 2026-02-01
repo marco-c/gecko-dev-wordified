@@ -191,13 +191,13 @@ usage
 convId
 "
 "
-insightsEnabled
+memoriesEnabled
 "
 "
-insightsFlagSource
+memoriesFlagSource
 "
 "
-insightsApplied
+memoriesApplied
 "
 "
 webSearchQueries
