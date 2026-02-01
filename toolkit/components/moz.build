@@ -326,6 +326,9 @@ prompts
 protobuf
 "
 "
+qrcode
+"
+"
 remotebrowserutils
 "
 "
@@ -446,9 +449,6 @@ pictureinpicture
 "
 "
 reader
-"
-"
-viaduct
 "
 "
 uniffi
