@@ -69,13 +69,9 @@ set
 "
 browser
 .
-settings
--
-redesign
+preferences
 .
-aiFeatures
-.
-enabled
+aiControls
 "
 true
 ]
