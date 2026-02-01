@@ -57,6 +57,12 @@ MPL
 *
 /
 #
+ifndef
+INTL_UNICHARUTIL_UTIL_NSSPECIALCASINGDATA_H_
+#
+define
+INTL_UNICHARUTIL_UTIL_NSSPECIALCASINGDATA_H_
+#
 include
 <
 stdint
@@ -204,3 +210,8 @@ unicode
 /
 namespace
 mozilla
+#
+endif
+/
+/
+INTL_UNICHARUTIL_UTIL_NSSPECIALCASINGDATA_H_
