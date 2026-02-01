@@ -18,7 +18,7 @@ c
 )
 2018
 -
-2025
+2026
 Cosmin
 Truta
 *
@@ -121,8 +121,8 @@ path
 *
 /
 typedef
-png_libpng_version_1_6_53
-Your_png_h_is_not_version_1_6_53
+png_libpng_version_1_6_54
+Your_png_h_is_not_version_1_6_54
 ;
 /
 *
@@ -5037,7 +5037,7 @@ version
 .
 6
 .
-53
+54
 "
 PNG_STRING_NEWLINE
 \
@@ -5048,7 +5048,7 @@ c
 )
 2018
 -
-2025
+2026
 Cosmin
 Truta
 "
