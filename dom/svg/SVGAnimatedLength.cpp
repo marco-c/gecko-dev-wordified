@@ -1291,6 +1291,16 @@ aCtx
 )
 {
 }
+SVGElementMetrics
+:
+:
+~
+SVGElementMetrics
+(
+)
+=
+default
+;
 const
 Element
 *
