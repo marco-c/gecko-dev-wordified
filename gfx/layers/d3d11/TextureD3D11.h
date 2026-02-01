@@ -419,10 +419,8 @@ aColorRange
 KnowsCompositor
 *
 aKnowsCompositor
-RefPtr
-<
 ZeroCopyUsageInfo
->
+*
 aUsageInfo
 const
 RefPtr
