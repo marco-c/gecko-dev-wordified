@@ -167,7 +167,6 @@ test_usageBeforeInitialization
 const
 {
 store
-initExperimentAPI
 cleanup
 }
 =
@@ -216,7 +215,9 @@ fail
 )
 ;
 await
-initExperimentAPI
+ExperimentAPI
+.
+init
 (
 )
 ;
@@ -604,7 +605,6 @@ store
 const
 {
 sandbox
-initExperimentAPI
 cleanup
 }
 =
@@ -695,7 +695,9 @@ onFeatureUpdate
 )
 ;
 await
-initExperimentAPI
+ExperimentAPI
+.
+init
 (
 )
 ;
@@ -2921,7 +2923,6 @@ test_remoteRollout
 const
 {
 store
-initExperimentAPI
 cleanup
 }
 =
@@ -2992,7 +2993,9 @@ featureUpdateStub
 )
 ;
 await
-initExperimentAPI
+ExperimentAPI
+.
+init
 (
 )
 ;
@@ -3404,7 +3407,6 @@ const
 {
 sandbox
 store
-initExperimentAPI
 cleanup
 }
 =
@@ -3476,7 +3478,9 @@ stub
 )
 ;
 await
-initExperimentAPI
+ExperimentAPI
+.
+init
 (
 )
 ;

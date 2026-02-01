@@ -5284,7 +5284,6 @@ const
 {
 sandbox
 manager
-initExperimentAPI
 cleanup
 }
 =
@@ -5320,7 +5319,9 @@ setPref
 )
 ;
 await
-initExperimentAPI
+ExperimentAPI
+.
+init
 (
 )
 ;
@@ -7891,7 +7892,11 @@ enrollmentStatus
 testGetValue
 (
 "
-events
+nimbus
+-
+targeting
+-
+context
 "
 )
 ?
