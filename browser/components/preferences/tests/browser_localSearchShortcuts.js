@@ -1773,7 +1773,9 @@ let
 engines
 =
 await
-SearchService
+Services
+.
+search
 .
 getVisibleEngines
 (
@@ -2048,7 +2050,9 @@ let
 engines
 =
 await
-SearchService
+Services
+.
+search
 .
 getVisibleEngines
 (

@@ -1269,7 +1269,9 @@ let
 defaultEngine
 =
 await
-SearchService
+Services
+.
+search
 .
 getDefault
 (
@@ -1280,7 +1282,9 @@ engines
 =
 (
 await
-SearchService
+Services
+.
+search
 .
 getVisibleEngines
 (

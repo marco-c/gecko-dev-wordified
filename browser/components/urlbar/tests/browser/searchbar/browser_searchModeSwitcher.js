@@ -83,7 +83,9 @@ available
 immediately
 .
 await
-SearchService
+Services
+.
+search
 .
 init
 (
@@ -182,7 +184,9 @@ win
 =
 (
 await
-SearchService
+Services
+.
+search
 .
 defaultEngine
 .

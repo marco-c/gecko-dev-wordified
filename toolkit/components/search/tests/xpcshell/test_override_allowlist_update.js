@@ -211,7 +211,9 @@ initXPCShellAddonManager
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 init
 (
@@ -353,7 +355,9 @@ let
 result
 =
 await
-SearchService
+Services
+.
+search
 .
 maybeSetAndOverrideDefault
 (
@@ -390,7 +394,9 @@ let
 engine
 =
 await
-SearchService
+Services
+.
+search
 .
 getEngineByName
 (
@@ -562,7 +568,9 @@ Assert
 .
 equal
 (
-SearchService
+Services
+.
+search
 .
 defaultEngine
 .

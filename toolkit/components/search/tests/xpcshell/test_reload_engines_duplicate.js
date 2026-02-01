@@ -245,7 +245,9 @@ CONFIG
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 init
 (
@@ -266,7 +268,9 @@ let
 engines
 =
 await
-SearchService
+Services
+.
+search
 .
 getEngines
 (
@@ -410,7 +414,9 @@ false
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 wrappedJSObject
 .
@@ -425,7 +431,9 @@ ok
 !
 (
 await
-SearchService
+Services
+.
+search
 .
 getEngineById
 (
@@ -446,7 +454,9 @@ engine
 engines
 =
 await
-SearchService
+Services
+.
+search
 .
 getEngines
 (
@@ -489,7 +499,9 @@ let
 enginePref
 =
 await
-SearchService
+Services
+.
+search
 .
 getEngineByName
 (

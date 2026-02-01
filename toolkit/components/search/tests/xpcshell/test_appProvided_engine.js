@@ -573,7 +573,9 @@ CONFIG
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 init
 (
@@ -593,7 +595,9 @@ test_engine_with_all_params_set
 let
 engine
 =
-SearchService
+Services
+.
+search
 .
 getEngineById
 (
@@ -1278,7 +1282,9 @@ test_engine_with_some_params_set
 let
 engine
 =
-SearchService
+Services
+.
+search
 .
 getEngineById
 (
@@ -1536,7 +1542,9 @@ overrides
 let
 engine
 =
-SearchService
+Services
+.
+search
 .
 getEngineById
 (
@@ -1705,7 +1713,9 @@ TEST_CONFIG_OVERRIDE
 ;
 engine
 =
-SearchService
+Services
+.
+search
 .
 getEngineById
 (
@@ -1871,7 +1881,9 @@ test_displayName
 let
 engine
 =
-SearchService
+Services
+.
+search
 .
 getEngineById
 (
@@ -2219,7 +2231,9 @@ past
 let
 engine
 =
-SearchService
+Services
+.
+search
 .
 getEngineById
 (
@@ -2391,7 +2405,9 @@ variant
 let
 engine
 =
-SearchService
+Services
+.
+search
 .
 getEngineById
 (

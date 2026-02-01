@@ -142,7 +142,9 @@ sinon
 .
 stub
 (
-SearchService
+Services
+.
+search
 .
 wrappedJSObject
 "
@@ -163,7 +165,9 @@ const
 initResult
 =
 await
-SearchService
+Services
+.
+search
 .
 init
 (
@@ -256,7 +260,9 @@ time
 let
 defaultEngineName
 =
-SearchService
+Services
+.
+search
 .
 defaultEngine
 .
@@ -337,7 +343,9 @@ test_settings_migration_fail
 (
 )
 {
-SearchService
+Services
+.
+search
 .
 wrappedJSObject
 .
@@ -422,7 +430,9 @@ sinon
 .
 stub
 (
-SearchService
+Services
+.
+search
 .
 wrappedJSObject
 "
@@ -443,7 +453,9 @@ const
 initResult
 =
 await
-SearchService
+Services
+.
+search
 .
 init
 (
@@ -536,7 +548,9 @@ time
 let
 defaultEngineName
 =
-SearchService
+Services
+.
+search
 .
 defaultEngine
 .

@@ -88,7 +88,9 @@ CONFIG
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 init
 (
@@ -108,7 +110,9 @@ test_app_provided_engine_id
 let
 appDefault
 =
-SearchService
+Services
+.
+search
 .
 defaultEngine
 ;
@@ -196,7 +200,9 @@ org
 let
 addonEngine
 =
-SearchService
+Services
+.
+search
 .
 getEngineByName
 (
@@ -267,7 +273,9 @@ TOPIC_ENGINE_MODIFIED
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 addUserEngine
 (
@@ -310,7 +318,9 @@ promiseEngineAdded
 let
 userEngine
 =
-SearchService
+Services
+.
+search
 .
 getEngineByName
 (
@@ -580,7 +590,9 @@ searchTerms
 let
 policyEngine
 =
-SearchService
+Services
+.
+search
 .
 getEngineByName
 (

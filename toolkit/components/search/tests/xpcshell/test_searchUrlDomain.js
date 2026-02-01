@@ -111,7 +111,9 @@ test_resultDomain
 )
 {
 await
-SearchService
+Services
+.
+search
 .
 init
 (
@@ -120,7 +122,9 @@ init
 let
 engine
 =
-SearchService
+Services
+.
+search
 .
 getEngineById
 (

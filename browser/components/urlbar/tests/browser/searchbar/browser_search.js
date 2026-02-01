@@ -98,7 +98,9 @@ engine
 ;
 defaultEngine
 =
-SearchService
+Services
+.
+search
 .
 defaultEngine
 ;

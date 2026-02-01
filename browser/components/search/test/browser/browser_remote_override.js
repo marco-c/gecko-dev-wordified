@@ -363,7 +363,9 @@ default
 let
 defaultEngine
 =
-SearchService
+Services
+.
+search
 .
 defaultEngine
 ;

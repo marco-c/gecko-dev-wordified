@@ -272,7 +272,9 @@ addTestSuggestionsEngine
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 setDefault
 (
@@ -287,7 +289,9 @@ CHANGE_REASON_ADDON_INSTALL
 let
 oldCurrentEngine
 =
-SearchService
+Services
+.
+search
 .
 defaultEngine
 ;
@@ -300,7 +304,9 @@ async
 >
 {
 await
-SearchService
+Services
+.
+search
 .
 setDefault
 (
@@ -658,7 +664,9 @@ NewTestEngine
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 setDefault
 (
@@ -733,7 +741,9 @@ defaultEngine
 oldEngine
 ;
 await
-SearchService
+Services
+.
+search
 .
 setDefault
 (

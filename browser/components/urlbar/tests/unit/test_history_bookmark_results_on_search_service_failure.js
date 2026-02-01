@@ -77,7 +77,9 @@ mjs
 const
 searchService
 =
-SearchService
+Services
+.
+search
 .
 wrappedJSObject
 ;

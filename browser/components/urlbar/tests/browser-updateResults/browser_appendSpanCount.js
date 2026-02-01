@@ -437,7 +437,9 @@ toLocaleLowerCase
 )
 engine
 :
-SearchService
+Services
+.
+search
 .
 defaultEngine
 .

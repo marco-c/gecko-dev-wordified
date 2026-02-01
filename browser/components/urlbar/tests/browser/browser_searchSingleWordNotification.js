@@ -530,7 +530,9 @@ expectedURI
 =
 (
 await
-SearchService
+Services
+.
+search
 .
 getDefault
 (

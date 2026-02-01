@@ -194,7 +194,9 @@ TEST_ENGINE_BASENAME
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 moveEngine
 (

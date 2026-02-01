@@ -632,7 +632,9 @@ const
 initResult
 =
 await
-SearchService
+Services
+.
+search
 .
 init
 (
@@ -674,7 +676,9 @@ const
 engines
 =
 await
-SearchService
+Services
+.
+search
 .
 getEngines
 (

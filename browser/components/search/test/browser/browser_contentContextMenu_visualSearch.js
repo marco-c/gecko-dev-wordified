@@ -1956,7 +1956,9 @@ false
 let
 engine
 =
-SearchService
+Services
+.
+search
 .
 getEngineById
 (
@@ -1982,7 +1984,9 @@ defaultEngineId
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 setDefault
 (
@@ -2238,7 +2242,9 @@ true
 let
 engine
 =
-SearchService
+Services
+.
+search
 .
 getEngineById
 (
@@ -2264,7 +2270,9 @@ privateDefaultEngineId
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 setDefaultPrivate
 (

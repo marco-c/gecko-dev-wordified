@@ -213,7 +213,9 @@ parameters
 let
 engine
 =
-SearchService
+Services
+.
+search
 .
 getEngineById
 (
@@ -710,7 +712,9 @@ CONFIG
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 init
 (

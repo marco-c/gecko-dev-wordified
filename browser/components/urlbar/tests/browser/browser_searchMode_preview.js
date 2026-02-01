@@ -308,7 +308,9 @@ name
 let
 engine
 =
-SearchService
+Services
+.
+search
 .
 getEngineByName
 (
@@ -513,7 +515,9 @@ RESTRICT
 let
 engine
 =
-SearchService
+Services
+.
+search
 .
 getEngineByName
 (

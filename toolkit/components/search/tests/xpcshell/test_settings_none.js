@@ -90,7 +90,9 @@ test_nosettings
 let
 search
 =
-SearchService
+Services
+.
+search
 ;
 let
 afterSettingsPromise

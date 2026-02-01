@@ -523,7 +523,9 @@ init
 ;
 initPromise
 =
-SearchService
+Services
+.
+search
 .
 init
 (
@@ -572,7 +574,9 @@ Assert
 .
 equal
 (
-SearchService
+Services
+.
+search
 .
 defaultEngine
 .
@@ -616,7 +620,9 @@ Assert
 .
 equal
 (
-SearchService
+Services
+.
+search
 .
 defaultEngine
 .
@@ -639,7 +645,9 @@ equal
 (
 (
 await
-SearchService
+Services
+.
+search
 .
 getDefaultPrivate
 (

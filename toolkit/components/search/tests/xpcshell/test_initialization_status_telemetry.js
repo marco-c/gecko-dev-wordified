@@ -50,7 +50,9 @@ succeeded
 const
 searchService
 =
-SearchService
+Services
+.
+search
 .
 wrappedJSObject
 ;
@@ -131,7 +133,9 @@ initialized
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 init
 (
@@ -543,7 +547,9 @@ initialized
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 init
 (
@@ -681,7 +687,9 @@ Assert
 .
 rejects
 (
-SearchService
+Services
+.
+search
 .
 init
 (
@@ -704,7 +712,9 @@ Assert
 .
 rejects
 (
-SearchService
+Services
+.
+search
 .
 promiseInitialized
 messageRegex

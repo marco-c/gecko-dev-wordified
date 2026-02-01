@@ -417,7 +417,9 @@ promiseSyncReady
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 init
 (

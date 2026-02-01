@@ -484,7 +484,9 @@ const
 initResult
 =
 await
-SearchService
+Services
+.
+search
 .
 init
 (
@@ -526,7 +528,9 @@ const
 engines
 =
 await
-SearchService
+Services
+.
+search
 .
 getEngines
 (
@@ -536,7 +540,9 @@ Assert
 .
 equal
 (
-SearchService
+Services
+.
+search
 .
 defaultEngine
 .

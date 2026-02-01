@@ -907,7 +907,9 @@ win
 {
 engineName
 :
-SearchService
+Services
+.
+search
 .
 defaultEngine
 .

@@ -176,7 +176,9 @@ let
 defaultEngine
 =
 await
-SearchService
+Services
+.
+search
 .
 getDefault
 (
@@ -214,7 +216,9 @@ async
 >
 {
 await
-SearchService
+Services
+.
+search
 .
 setDefault
 (

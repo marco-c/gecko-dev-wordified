@@ -185,7 +185,9 @@ Promise
 all
 (
 [
-SearchService
+Services
+.
+search
 .
 init
 (
@@ -200,7 +202,9 @@ Assert
 .
 equal
 (
-SearchService
+Services
+.
+search
 .
 appDefaultEngine
 .
@@ -314,7 +318,9 @@ Assert
 .
 equal
 (
-SearchService
+Services
+.
+search
 .
 appDefaultEngine
 .

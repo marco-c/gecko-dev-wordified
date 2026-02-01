@@ -130,7 +130,9 @@ true
 let
 defaultEngine
 =
-SearchService
+Services
+.
+search
 .
 getEngineByName
 (
@@ -140,7 +142,9 @@ Example
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 moveEngine
 (

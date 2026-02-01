@@ -259,18 +259,13 @@ mjs
 SearchService
 :
 "
-moz
--
-src
+resource
 :
 /
 /
+gre
 /
-toolkit
-/
-components
-/
-search
+modules
 /
 SearchService
 .
@@ -698,6 +693,8 @@ sandbox
 stub
 (
 SearchService
+.
+prototype
 "
 defaultEngine
 "
@@ -755,6 +752,8 @@ sandbox
 stub
 (
 SearchService
+.
+prototype
 "
 init
 "
@@ -14138,6 +14137,8 @@ sandbox
 stub
 (
 SearchService
+.
+prototype
 "
 getDefault
 "
@@ -14940,6 +14941,8 @@ sandbox
 stub
 (
 SearchService
+.
+prototype
 "
 getDefault
 "
@@ -15322,6 +15325,8 @@ sandbox
 stub
 (
 SearchService
+.
+prototype
 "
 getAppProvidedEngines
 "

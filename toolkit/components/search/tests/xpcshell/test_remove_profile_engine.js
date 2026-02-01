@@ -302,7 +302,9 @@ data
 )
 ;
 await
-SearchService
+Services
+.
+search
 .
 init
 (
@@ -320,7 +322,9 @@ ok
 let
 engine
 =
-SearchService
+Services
+.
+search
 .
 getEngineByName
 (
@@ -361,7 +365,9 @@ removed
 too
 .
 await
-SearchService
+Services
+.
+search
 .
 removeEngine
 (

@@ -158,7 +158,9 @@ the
 network
 .
 await
-SearchService
+Services
+.
+search
 .
 init
 (
