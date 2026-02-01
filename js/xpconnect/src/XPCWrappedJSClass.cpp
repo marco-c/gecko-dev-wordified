@@ -275,6 +275,17 @@ mozilla
 /
 dom
 /
+ChromeUtilsBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 DOMException
 .
 h

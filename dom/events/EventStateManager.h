@@ -323,6 +323,9 @@ BrowserParent
 class
 RemoteDragStartData
 ;
+struct
+InteractionData
+;
 }
 /
 /

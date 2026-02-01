@@ -127,7 +127,7 @@ mozilla
 /
 dom
 /
-ChromeUtilsBinding
+OriginAttributesBinding
 .
 h
 "

@@ -142,6 +142,17 @@ mozilla
 /
 dom
 /
+ChromeUtilsBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 DebuggerNotificationObserverBinding
 .
 h
