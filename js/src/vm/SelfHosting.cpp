@@ -13003,6 +13003,15 @@ NumberFormatObject
 JS_FN
 (
 "
+intl_LookupMatcher
+"
+intl_LookupMatcher
+2
+0
+)
+JS_FN
+(
+"
 intl_NumberFormat
 "
 intl_NumberFormat
