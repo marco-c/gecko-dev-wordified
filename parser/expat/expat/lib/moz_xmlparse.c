@@ -303,8 +303,7 @@ do_nst
 )
 ;
 }
-enum
-XML_Status
+void
 MOZ_XML_SetBase
 (
 XML_Parser
@@ -315,7 +314,6 @@ XML_Char
 base
 )
 {
-return
 XML_SetBase
 (
 parser
@@ -353,8 +351,7 @@ parser
 )
 ;
 }
-enum
-XML_Status
+int
 MOZ_XML_Parse
 (
 XML_Parser
@@ -379,8 +376,7 @@ isFinal
 )
 ;
 }
-enum
-XML_Status
+void
 MOZ_XML_StopParser
 (
 XML_Parser
@@ -389,7 +385,6 @@ int
 resumable
 )
 {
-return
 XML_StopParser
 (
 parser
@@ -397,8 +392,7 @@ resumable
 )
 ;
 }
-enum
-XML_Status
+int
 MOZ_XML_ResumeParser
 (
 XML_Parser
@@ -472,8 +466,7 @@ hash_salt
 )
 ;
 }
-enum
-XML_Error
+int
 MOZ_XML_GetErrorCode
 (
 XML_Parser
