@@ -348,6 +348,13 @@ Serialize
 Deserialize
 )
 ]
+#
+[
+typed_value
+(
+derive_fields
+)
+]
 pub
 struct
 TreeScoped
