@@ -255,6 +255,7 @@ is
 (
 normalizeWhitespace
 (
+(
 await
 getPageExtractor
 (
@@ -263,6 +264,9 @@ getPageExtractor
 getText
 (
 )
+)
+.
+text
 )
 text
 "
@@ -278,6 +282,7 @@ is
 (
 normalizeWhitespace
 (
+(
 await
 getPageExtractor
 (
@@ -286,6 +291,9 @@ getPageExtractor
 getReaderModeContent
 (
 )
+)
+.
+text
 )
 text
 "
@@ -306,6 +314,7 @@ is
 (
 normalizeWhitespace
 (
+(
 await
 getPageExtractor
 (
@@ -314,6 +323,9 @@ getPageExtractor
 getText
 (
 )
+)
+.
+text
 )
 text
 "
@@ -331,6 +343,7 @@ is
 (
 normalizeWhitespace
 (
+(
 await
 getPageExtractor
 (
@@ -339,6 +352,9 @@ getPageExtractor
 getReaderModeContent
 (
 )
+)
+.
+text
 )
 text
 "
