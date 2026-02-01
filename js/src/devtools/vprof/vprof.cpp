@@ -147,13 +147,6 @@ stdarg
 h
 >
 #
-include
-<
-string
-.
-h
->
-#
 endif
 #
 include

@@ -123,11 +123,6 @@ MOZILLA_DOM_DOMMATRIX_H_
 #
 include
 <
-cstring
->
-#
-include
-<
 utility
 >
 #

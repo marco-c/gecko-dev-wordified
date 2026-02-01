@@ -192,11 +192,6 @@ cerrno
 #
 include
 <
-cstring
->
-#
-include
-<
 unistd
 .
 h

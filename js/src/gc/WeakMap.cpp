@@ -121,13 +121,6 @@ h
 "
 #
 include
-<
-string
-.
-h
->
-#
-include
 "
 gc
 /

@@ -57,13 +57,6 @@ stdio
 .
 h
 >
-#
-include
-<
-string
-.
-h
->
 namespace
 js
 {

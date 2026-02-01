@@ -125,13 +125,6 @@ defined
 _MSC_VER
 )
 #
-include
-<
-string
-.
-h
->
-#
 endif
 namespace
 switches
