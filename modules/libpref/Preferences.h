@@ -3379,6 +3379,12 @@ nsIFile
 >
 mCurrentFile
 ;
+nsCOMPtr
+<
+nsISerialEventTarget
+>
+mAsyncTarget
+;
 /
 /
 Time
