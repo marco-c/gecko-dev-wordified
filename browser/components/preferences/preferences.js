@@ -272,6 +272,7 @@ mjs
 import
 {
 SettingControlConfig
+SettingOptionConfig
 }
 from
 "
