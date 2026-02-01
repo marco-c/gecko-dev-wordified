@@ -12725,17 +12725,6 @@ ToString
 (
 )
 ;
-SignalRouteChange
-(
-this
-selected_connection_
--
->
-remote_candidate
-(
-)
-)
-;
 /
 /
 This
