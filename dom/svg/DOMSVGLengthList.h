@@ -1208,10 +1208,7 @@ mAList
 mAttrEnum
 ;
 }
-SVGLength
-:
-:
-Axis
+uint8_t
 Axis
 (
 )

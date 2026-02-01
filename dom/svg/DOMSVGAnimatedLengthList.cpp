@@ -380,10 +380,7 @@ SVGElement
 aElement
 uint8_t
 aAttrEnum
-SVGLength
-:
-:
-Axis
+uint8_t
 aAxis
 )
 {

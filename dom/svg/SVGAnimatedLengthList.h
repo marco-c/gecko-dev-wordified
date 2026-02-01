@@ -516,10 +516,7 @@ SVGElement
 aSVGElement
 uint8_t
 aAttrEnum
-SVGLength
-:
-:
-Axis
+uint8_t
 aAxis
 bool
 aCanZeroPadList
@@ -629,10 +626,7 @@ SVGElement
 aSVGElement
 uint8_t
 aAttrEnum
-SVGLength
-:
-:
-Axis
+uint8_t
 aAxis
 bool
 aCanZeroPadList
@@ -709,10 +703,7 @@ mElement
 uint8_t
 mAttrEnum
 ;
-SVGLength
-:
-:
-Axis
+uint8_t
 mAxis
 ;
 bool
