@@ -4261,7 +4261,7 @@ SharedSocket
 )
 )
 {
-SignalPortComplete
+NotifyPortComplete
 (
 this
 )
@@ -4269,7 +4269,7 @@ this
 }
 else
 {
-SignalPortError
+NotifyPortError
 (
 this
 )

@@ -754,10 +754,6 @@ role_conflict_callback_
 (
 nullptr
 )
-weak_factory_
-(
-this
-)
 unknown_address_trampoline_
 (
 this
@@ -767,6 +763,10 @@ read_packet_trampoline_
 this
 )
 sent_packet_trampoline_
+(
+this
+)
+weak_factory_
 (
 this
 )
