@@ -4663,6 +4663,14 @@ copyElementCount
 ;
 if
 (
+!
+copyLength
+.
+isValid
+(
+)
+|
+|
 copyLength
 .
 value
