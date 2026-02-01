@@ -87,7 +87,7 @@ rand
 :
 :
 {
-thread_rng
+rng
 RngCore
 }
 ;
@@ -114,7 +114,7 @@ let
 mut
 rng
 =
-thread_rng
+rng
 (
 )
 ;
