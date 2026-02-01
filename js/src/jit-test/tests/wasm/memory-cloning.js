@@ -333,11 +333,6 @@ SharedArrayBuffer
 '
 allow
 '
-scope
-:
-'
-SameProcess
-'
 }
 )
 ;
@@ -874,11 +869,6 @@ SharedArrayBuffer
 :
 '
 allow
-'
-scope
-:
-'
-SameProcess
 '
 }
 )
