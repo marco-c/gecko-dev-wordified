@@ -252,7 +252,10 @@ SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
-SVGContentUtils
+SVGLength
+:
+:
+Axis
 :
 :
 X
@@ -268,7 +271,10 @@ SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
-SVGContentUtils
+SVGLength
+:
+:
+Axis
 :
 :
 Y
@@ -283,7 +289,10 @@ SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
-SVGContentUtils
+SVGLength
+:
+:
+Axis
 :
 :
 X
@@ -298,7 +307,10 @@ SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
-SVGContentUtils
+SVGLength
+:
+:
+Axis
 :
 :
 Y

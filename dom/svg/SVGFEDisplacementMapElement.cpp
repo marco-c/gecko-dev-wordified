@@ -724,7 +724,10 @@ aInstance
 >
 GetPrimitiveNumber
 (
-SVGContentUtils
+SVGLength
+:
+:
+Axis
 :
 :
 XY

@@ -1310,7 +1310,10 @@ SVGElement
 aElement
 uint8_t
 aAttrEnum
-uint8_t
+SVGLength
+:
+:
+Axis
 aAxis
 )
 ;
@@ -1652,7 +1655,10 @@ SVGElement
 aElement
 uint8_t
 aAttrEnum
-uint8_t
+SVGLength
+:
+:
+Axis
 aAxis
 )
 :
@@ -1803,7 +1809,10 @@ mElement
 uint8_t
 mAttrEnum
 ;
-uint8_t
+SVGLength
+:
+:
+Axis
 mAxis
 ;
 }
