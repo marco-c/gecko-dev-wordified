@@ -552,9 +552,6 @@ nargs
 default
 =
 "
-org
-.
-mozilla
 "
 help
 =
