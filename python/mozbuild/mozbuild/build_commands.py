@@ -1042,21 +1042,15 @@ logging
 WARNING
 )
         
-log_path
-=
+if
 command_context
 .
-_get_state_filename
-(
-"
-last_log
-.
-json
-"
-)
-        
+log_file_path
+:
+            
 print
 (
+                
 f
 "
 Running
@@ -1069,14 +1063,18 @@ build
 output
 :
 {
-log_path
+command_context
+.
+log_file_path
 }
 \
 n
 "
+                
 flush
 =
 True
+            
 )
     
 loader
@@ -1995,13 +1993,15 @@ profile
 =
 command_context
 .
-_get_state_filename
+_get_build_log_filename
 (
+            
 "
 profile_build_resources
 .
 json
 "
+        
 )
         
 if
