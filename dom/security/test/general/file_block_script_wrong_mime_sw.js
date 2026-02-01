@@ -105,14 +105,6 @@ skipWaiting
 *
 /
 /
-*
-eslint
--
-env
-serviceworker
-*
-/
-/
 /
 We
 are

@@ -32,14 +32,6 @@ zero
 /
 /
 *
-eslint
--
-env
-worker
-*
-/
-/
-*
 global
 workerSubURL
 *

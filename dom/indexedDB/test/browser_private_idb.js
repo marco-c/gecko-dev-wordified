@@ -321,14 +321,6 @@ idbCheckFunc
 )
 ;
 /
-*
-eslint
--
-env
-worker
-*
-/
-/
 /
 (
 SharedWorker

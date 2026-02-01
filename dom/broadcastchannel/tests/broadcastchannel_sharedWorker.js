@@ -1,11 +1,3 @@
-/
-*
-eslint
--
-env
-worker
-*
-/
 onconnect
 =
 function

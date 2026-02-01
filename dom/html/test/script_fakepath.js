@@ -1,16 +1,4 @@
 /
-*
-eslint
--
-env
-mozilla
-/
-chrome
--
-script
-*
-/
-/
 /
 eslint
 -

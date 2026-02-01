@@ -1,12 +1,4 @@
 /
-*
-eslint
--
-env
-worker
-*
-/
-/
 /
 Any
 copyright
