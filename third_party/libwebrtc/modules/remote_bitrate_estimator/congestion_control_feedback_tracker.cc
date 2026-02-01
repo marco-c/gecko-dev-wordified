@@ -1158,7 +1158,9 @@ last_reported_as_lost
 {
 +
 +
-num_reported_lost_
+stats_
+.
+num_packets_reported_lost
 ;
 info
 .
@@ -1183,7 +1185,9 @@ last_reported_as_lost
 {
 +
 +
-num_reported_recovered_
+stats_
+.
+num_packets_reported_recovered
 ;
 info
 .
