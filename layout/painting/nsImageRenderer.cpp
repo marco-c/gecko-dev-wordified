@@ -5828,7 +5828,10 @@ CurrentMatrixDouble
 SVGIntegrationUtils
 :
 :
-FLAG_SYNC_DECODE_IMAGES
+DecodeFlag
+:
+:
+SyncDecodeImages
 )
 ;
 }
