@@ -266,11 +266,7 @@ aAttrEnum
 =
 0xff
 int32_t
-aValue1
-=
-0
-int32_t
-aValue2
+aValue
 =
 0
 )
@@ -281,8 +277,8 @@ mBaseVal
 =
 PairValues
 (
-aValue1
-aValue2
+aValue
+aValue
 )
 ;
 mAttrEnum
