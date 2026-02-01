@@ -1046,6 +1046,14 @@ size
 (
 )
 )
+ecn
+(
+received_packet
+.
+ecn
+(
+)
+)
 packet_time
 (
 received_packet
@@ -1092,6 +1100,12 @@ buf
 size
 (
 )
+)
+ecn
+(
+p
+.
+ecn
 )
 packet_time
 (
