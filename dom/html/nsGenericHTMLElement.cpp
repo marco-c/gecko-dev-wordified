@@ -19595,8 +19595,12 @@ GetPopoverTargetElementForBindings
 const
 {
 return
-GetPopoverTargetElementInternal
+GetAttrAssociatedElementForBindings
 (
+nsGkAtoms
+:
+:
+popovertarget
 )
 ;
 }
@@ -19617,7 +19621,7 @@ GetPopoverTargetElementInternal
 const
 {
 return
-GetAttrAssociatedElement
+GetAttrAssociatedElementInternal
 (
 nsGkAtoms
 :
