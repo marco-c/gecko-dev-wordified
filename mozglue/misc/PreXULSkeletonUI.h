@@ -157,6 +157,10 @@ h
 namespace
 mozilla
 {
+#
+define
+DWMWA_USE_IMMERSIVE_DARK_MODE_BEFORE_20H1
+19
 /
 /
 These
