@@ -1022,11 +1022,11 @@ getEngineByName
 (
 SEARCH_NAME
 )
-Ci
+SearchService
 .
-nsISearchService
+CHANGE_REASON
 .
-CHANGE_REASON_ADDON_INSTALL
+ADDON_INSTALL
 )
 ;
 await

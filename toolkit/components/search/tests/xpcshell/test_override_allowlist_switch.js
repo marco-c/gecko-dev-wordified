@@ -2457,11 +2457,11 @@ SearchService
 setDefault
 (
 engine
-Ci
+SearchService
 .
-nsISearchService
+CHANGE_REASON
 .
-CHANGE_REASON_UNKNOWN
+UNKNOWN
 )
 ;
 return
