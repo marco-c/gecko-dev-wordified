@@ -2769,11 +2769,17 @@ json
 else
 :
                 
+self
+.
+_ensure_build_log_dir_exists
+(
+)
+                
 build_resources_profile_path
 =
 self
 .
-_get_state_filename
+_get_build_log_filename
 (
                     
 "
@@ -8090,11 +8096,17 @@ None
 )
 :
         
+self
+.
+_ensure_build_log_dir_exists
+(
+)
+        
 warnings_path
 =
 self
 .
-_get_state_filename
+_get_build_log_filename
 (
 "
 warnings
