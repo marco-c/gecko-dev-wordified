@@ -79,14 +79,6 @@ org
 licenses
 /
 MIT
-/
-*
-eslint
--
-env
-worker
-*
-/
 "
 use
 strict

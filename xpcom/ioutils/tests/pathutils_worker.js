@@ -28,14 +28,6 @@ zero
 /
 *
 /
-/
-*
-eslint
--
-env
-worker
-*
-/
 "
 use
 strict
