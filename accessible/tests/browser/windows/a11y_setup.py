@@ -2528,6 +2528,46 @@ uiaMod
 IUIAutomationElement9
 )
 class
+UiaEvent
+:
+    
+def
+__init__
+(
+self
+sender
+*
+*
+kwargs
+)
+:
+        
+self
+.
+sender
+=
+sender
+        
+#
+Make
+any
+kwargs
+accessible
+as
+attributes
+.
+        
+self
+.
+__dict__
+.
+update
+(
+*
+*
+kwargs
+)
+class
 WaitForUiaEvent
 (
 comtypes
@@ -2906,7 +2946,7 @@ def
 _checkMatch
 (
 self
-sender
+event
 )
 :
         
@@ -2924,6 +2964,8 @@ try
 :
                 
 if
+event
+.
 sender
 .
 CurrentAutomationId
@@ -2938,7 +2980,7 @@ self
 .
 _matched
 =
-sender
+event
             
 except
 comtypes
@@ -2965,7 +3007,7 @@ self
 .
 _match
 (
-sender
+event
 )
 :
                     
@@ -2973,7 +3015,7 @@ self
 .
 _matched
 =
-sender
+event
             
 except
 Exception
@@ -2994,7 +3036,7 @@ self
 .
 _matched
 =
-sender
+event
         
 if
 self
@@ -3027,7 +3069,10 @@ self
 .
 _checkMatch
 (
+UiaEvent
+(
 sender
+)
 )
     
 def
@@ -3044,7 +3089,10 @@ self
 .
 _checkMatch
 (
+UiaEvent
+(
 sender
+)
 )
     
 def
@@ -3060,7 +3108,10 @@ self
 .
 _checkMatch
 (
+UiaEvent
+(
 sender
+)
 )
     
 def
@@ -3078,13 +3129,8 @@ for
 and
 return
 the
-IUIAutomationElement
-which
-sent
-the
 desired
-        
-event
+UiaEvent
 .
 "
 "
