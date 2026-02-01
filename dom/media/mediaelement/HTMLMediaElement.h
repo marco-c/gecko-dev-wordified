@@ -4763,6 +4763,17 @@ ErrorResult
 aRv
 )
 ;
+already_AddRefed
+<
+DOMMediaStream
+>
+CaptureStream
+(
+ErrorResult
+&
+aRv
+)
+;
 bool
 MozAudioCaptured
 (
