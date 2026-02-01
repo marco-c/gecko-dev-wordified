@@ -1706,11 +1706,11 @@ provider
 .
 network
 .
-logging
-.
-enabled
+loglevel
 "
-true
+"
+Off
+"
 )
 ;
 user_pref
