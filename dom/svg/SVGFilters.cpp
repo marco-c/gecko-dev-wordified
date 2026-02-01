@@ -1080,10 +1080,10 @@ SVGContentUtils
 :
 X
 aKernelUnitLength
-SVGAnimatedNumberPair
+SVGAnimatedNumberPairWhichOne
 :
 :
-eFirst
+First
 )
 ;
 if
@@ -1140,10 +1140,10 @@ SVGContentUtils
 :
 Y
 aKernelUnitLength
-SVGAnimatedNumberPair
+SVGAnimatedNumberPairWhichOne
 :
 :
-eSecond
+Second
 )
 ;
 if

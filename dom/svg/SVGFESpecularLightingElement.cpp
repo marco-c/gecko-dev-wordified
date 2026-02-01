@@ -408,10 +408,10 @@ KERNEL_UNIT_LENGTH
 .
 ToDOMAnimatedNumber
 (
-SVGAnimatedNumberPair
+SVGAnimatedNumberPairWhichOne
 :
 :
-eFirst
+First
 this
 )
 ;
@@ -435,10 +435,10 @@ KERNEL_UNIT_LENGTH
 .
 ToDOMAnimatedNumber
 (
-SVGAnimatedNumberPair
+SVGAnimatedNumberPairWhichOne
 :
 :
-eSecond
+Second
 this
 )
 ;

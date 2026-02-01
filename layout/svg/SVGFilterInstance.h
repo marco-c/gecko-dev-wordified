@@ -947,11 +947,8 @@ const
 SVGAnimatedNumberPair
 *
 aNumberPair
-SVGAnimatedNumberPair
-:
-:
-PairIndex
-aIndex
+SVGAnimatedNumberPairWhichOne
+aPairWhichOne
 )
 const
 {
@@ -964,7 +961,7 @@ aNumberPair
 >
 GetAnimValue
 (
-aIndex
+aPairWhichOne
 )
 )
 ;
