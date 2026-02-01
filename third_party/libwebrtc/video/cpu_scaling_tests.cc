@@ -187,7 +187,7 @@ include
 "
 test
 /
-field_trial
+create_test_field_trials
 .
 h
 "
@@ -282,7 +282,9 @@ CpuOveruseTest
 (
 )
 :
-field_trials_
+CallTest
+(
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -297,6 +299,7 @@ ForceSimulatedOveruseIntervalMs
 /
 "
 )
+)
 {
 }
 void
@@ -309,12 +312,6 @@ degradation_preference
 bool
 expect_adaptation
 )
-;
-test
-:
-:
-ScopedFieldTrials
-field_trials_
 ;
 }
 ;
