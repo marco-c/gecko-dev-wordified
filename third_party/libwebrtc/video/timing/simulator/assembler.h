@@ -510,6 +510,8 @@ frame_id
 )
 override
 ;
+private
+:
 /
 /
 Trivially
@@ -600,8 +602,6 @@ encoded_frame
 )
 override
 ;
-private
-:
 /
 /
 Environment
