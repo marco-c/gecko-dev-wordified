@@ -523,11 +523,6 @@ IntlGuardToPluralRules
 \
 _
 (
-IntlGuardToSegmenter
-)
-\
-_
-(
 IntlGuardToSegments
 )
 \
