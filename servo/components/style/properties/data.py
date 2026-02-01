@@ -1287,10 +1287,6 @@ None
 gecko_inexhaustive
 =
 None
-        
-gecko_needs_conversion
-=
-False
     
 )
 :
@@ -1375,12 +1371,6 @@ self
 gecko_enum_prefix
 =
 gecko_enum_prefix
-        
-self
-.
-gecko_needs_conversion
-=
-gecko_needs_conversion
         
 self
 .
