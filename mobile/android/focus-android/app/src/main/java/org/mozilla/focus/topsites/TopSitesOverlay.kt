@@ -171,12 +171,6 @@ kotlinx
 .
 coroutines
 .
-Dispatchers
-import
-kotlinx
-.
-coroutines
-.
 launch
 import
 mozilla
@@ -725,11 +719,6 @@ add
 coroutineScope
 .
 launch
-(
-Dispatchers
-.
-IO
-)
 {
 components
 .
@@ -818,11 +807,6 @@ CoroutineScope
 coroutineScope
 .
 launch
-(
-Dispatchers
-.
-IO
-)
 {
 components
 .
