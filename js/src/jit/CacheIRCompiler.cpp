@@ -47518,7 +47518,7 @@ SupportDifferentialTesting
 {
 masm
 .
-canonicalizeDouble
+canonicalizeDoubleNaN
 (
 floatScratch0
 )
@@ -49440,7 +49440,7 @@ liveVolatileRegs
 ;
 masm
 .
-canonicalizeFloat
+canonicalizeFloatNaN
 (
 scratchFloat32
 )
@@ -49499,7 +49499,7 @@ scratchFloat32
 ;
 masm
 .
-canonicalizeFloat
+canonicalizeFloatNaN
 (
 scratchFloat32
 )
@@ -49544,7 +49544,7 @@ floatScratch0
 ;
 masm
 .
-canonicalizeDouble
+canonicalizeDoubleNaN
 (
 floatScratch0
 )
@@ -50678,7 +50678,7 @@ SupportDifferentialTesting
 {
 masm
 .
-canonicalizeDouble
+canonicalizeDoubleNaN
 (
 floatScratch0
 )

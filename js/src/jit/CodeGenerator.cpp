@@ -144034,7 +144034,7 @@ volatileRegs
 ;
 masm
 .
-canonicalizeFloat
+canonicalizeFloatNaN
 (
 out
 .
@@ -144065,7 +144065,7 @@ fpu
 ;
 masm
 .
-canonicalizeFloat
+canonicalizeFloatNaN
 (
 out
 .
@@ -144096,7 +144096,7 @@ fpu
 ;
 masm
 .
-canonicalizeDouble
+canonicalizeDoubleNaN
 (
 out
 .
@@ -170516,7 +170516,7 @@ input
 ;
 masm
 .
-canonicalizeDouble
+canonicalizeDoubleNaN
 (
 output
 )
@@ -170564,7 +170564,7 @@ input
 ;
 masm
 .
-canonicalizeFloat
+canonicalizeFloatNaN
 (
 output
 )
