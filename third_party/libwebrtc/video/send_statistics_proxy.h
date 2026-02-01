@@ -1330,6 +1330,8 @@ EncodedFrameMap
 void
 PurgeOldStats
 (
+Timestamp
+now
 )
 RTC_EXCLUSIVE_LOCKS_REQUIRED
 (
@@ -1734,8 +1736,8 @@ mutex_
 )
 ;
 const
-int64_t
-start_ms_
+Timestamp
+start_
 ;
 VideoSendStream
 :
