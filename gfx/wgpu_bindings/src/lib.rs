@@ -91,10 +91,6 @@ mod
 server
 ;
 pub
-mod
-telemetry
-;
-pub
 use
 wgc
 :
