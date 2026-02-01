@@ -7285,7 +7285,7 @@ accordingly
 assert
 type
 in
-{
+(
                         
 (
 Any
@@ -7301,7 +7301,7 @@ None
 Any
 )
                     
-}
+)
                     
 assert
 replacement
@@ -8069,7 +8069,7 @@ new_rules
 assert
 k
 in
-{
+(
                     
 (
 Any
@@ -8093,7 +8093,7 @@ xiang
 "
 )
                 
-}
+)
         
 #
 Merge
