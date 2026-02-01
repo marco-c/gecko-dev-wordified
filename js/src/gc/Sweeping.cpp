@@ -8679,14 +8679,6 @@ isDrained
 )
 )
 ;
-MOZ_ASSERT
-(
-!
-hasAnyDeferredWeakMaps
-(
-)
-)
-;
 /
 /
 We
@@ -12285,11 +12277,6 @@ isDrained
 |
 |
 hasDelayedMarking
-(
-)
-|
-|
-hasAnyDeferredWeakMaps
 (
 )
 )
