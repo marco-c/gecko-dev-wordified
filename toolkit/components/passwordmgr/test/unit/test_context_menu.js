@@ -1059,11 +1059,12 @@ cleared
 "
 )
 ;
+await
 Services
 .
 logins
 .
-removeAllUserFacingLogins
+removeAllUserFacingLoginsAsync
 (
 )
 ;

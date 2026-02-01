@@ -280,11 +280,12 @@ gBrowser
 selectedTab
 )
 ;
+await
 Services
 .
 logins
 .
-removeAllUserFacingLogins
+removeAllUserFacingLoginsAsync
 (
 )
 ;

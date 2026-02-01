@@ -223,11 +223,12 @@ no
 saved
 passphrase
 .
+await
 Services
 .
 logins
 .
-removeAllUserFacingLogins
+removeAllUserFacingLoginsAsync
 (
 )
 ;

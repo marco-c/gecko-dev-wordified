@@ -604,11 +604,12 @@ decryptable
 entries
 also
 .
+await
 Services
 .
 logins
 .
-removeAllUserFacingLogins
+removeAllUserFacingLoginsAsync
 (
 )
 ;
@@ -1097,11 +1098,12 @@ length
 1
 )
 ;
+await
 Services
 .
 logins
 .
-removeAllUserFacingLogins
+removeAllUserFacingLoginsAsync
 (
 )
 ;

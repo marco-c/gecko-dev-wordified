@@ -1087,11 +1087,12 @@ cleanupPasswordNotifications
 (
 )
 ;
+await
 Services
 .
 logins
 .
-removeAllUserFacingLogins
+removeAllUserFacingLoginsAsync
 (
 )
 ;
@@ -1589,11 +1590,12 @@ clearMessageCache
 browser
 )
 ;
+await
 Services
 .
 logins
 .
-removeAllUserFacingLogins
+removeAllUserFacingLoginsAsync
 (
 )
 ;

@@ -868,11 +868,12 @@ case
 is
 executed
 .
+await
 Services
 .
 logins
 .
-removeAllUserFacingLogins
+removeAllUserFacingLoginsAsync
 (
 )
 ;

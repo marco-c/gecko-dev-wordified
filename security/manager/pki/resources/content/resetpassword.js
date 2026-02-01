@@ -71,6 +71,7 @@ dialogaccept
 resetPassword
 )
 ;
+async
 function
 resetPassword
 (
@@ -118,11 +119,12 @@ reset
 ;
 try
 {
+await
 Services
 .
 logins
 .
-removeAllUserFacingLogins
+removeAllUserFacingLoginsAsync
 (
 )
 ;

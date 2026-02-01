@@ -1334,11 +1334,12 @@ timePasswordChanged
 "
 )
 ;
+await
 Services
 .
 logins
 .
-removeAllUserFacingLogins
+removeAllUserFacingLoginsAsync
 (
 )
 ;

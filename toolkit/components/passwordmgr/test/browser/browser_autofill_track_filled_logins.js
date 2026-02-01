@@ -646,11 +646,12 @@ before
 next
 iteration
 .
+await
 Services
 .
 logins
 .
-removeAllUserFacingLogins
+removeAllUserFacingLoginsAsync
 (
 )
 ;

@@ -313,11 +313,12 @@ getAndClearHistogram
 CATEGORICAL_HISTOGRAM
 )
 ;
+await
 Services
 .
 logins
 .
-removeAllUserFacingLogins
+removeAllUserFacingLoginsAsync
 (
 )
 ;

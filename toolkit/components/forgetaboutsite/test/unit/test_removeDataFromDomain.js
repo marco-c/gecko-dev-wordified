@@ -2026,11 +2026,12 @@ TEST_HOST
 true
 )
 ;
+await
 Services
 .
 logins
 .
-removeAllUserFacingLogins
+removeAllUserFacingLoginsAsync
 (
 )
 ;

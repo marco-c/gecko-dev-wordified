@@ -81,6 +81,7 @@ unofficialBuildOnlyLogin
 ;
 registerCleanupFunction
 (
+async
 (
 )
 =
@@ -93,11 +94,12 @@ removeTab
 aboutLoginsTab
 )
 ;
+await
 Services
 .
 logins
 .
-removeAllUserFacingLogins
+removeAllUserFacingLoginsAsync
 (
 )
 ;
