@@ -442,6 +442,9 @@ index
 isSponsored
 :
 true
+isManageable
+:
+true
 url
 :
 "
@@ -687,6 +690,9 @@ isSponsored
 :
 true
 isBestMatch
+:
+true
+isManageable
 :
 true
 url
@@ -1182,6 +1188,9 @@ true
 isBestMatch
 :
 true
+isManageable
+:
+true
 hasSponsoredLabel
 :
 false
@@ -1444,6 +1453,9 @@ index
 :
 1
 isSponsored
+:
+true
+isManageable
 :
 true
 url
