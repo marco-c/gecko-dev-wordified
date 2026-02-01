@@ -313,6 +313,11 @@ XPIDL_SOURCES
 =
 [
 "
+nsILimitedAccessFeature
+.
+idl
+"
+"
 nsIWindowsShellService
 .
 idl
@@ -324,11 +329,6 @@ SOURCES
 [
 "
 nsWindowsShellService
-.
-cpp
-"
-"
-Windows11LimitedAccessFeatures
 .
 cpp
 "

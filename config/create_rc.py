@@ -2277,12 +2277,13 @@ Feature
 Must
 match
 the
-tokens
+Product
+Name
 used
 in
-Win11LimitedAccessFeatures
+limited_access_features
 .
-cpp
+rs
     
 lafidentity
 =
