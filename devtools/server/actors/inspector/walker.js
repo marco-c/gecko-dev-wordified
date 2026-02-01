@@ -14706,6 +14706,11 @@ target
 actor
 .
 actorID
+numChildren
+:
+actor
+.
+numChildren
 }
 ;
 this
