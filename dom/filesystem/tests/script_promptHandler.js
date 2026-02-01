@@ -1,15 +1,3 @@
-/
-*
-eslint
--
-env
-mozilla
-/
-chrome
--
-script
-*
-/
 let
 dialogObserverTopic
 =

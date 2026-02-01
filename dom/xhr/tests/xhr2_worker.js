@@ -30,14 +30,6 @@ zero
 /
 *
 /
-/
-*
-eslint
--
-env
-worker
-*
-/
 onmessage
 =
 function
