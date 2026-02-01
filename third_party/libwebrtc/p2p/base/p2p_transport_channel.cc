@@ -15618,7 +15618,7 @@ RTC_DCHECK_RUN_ON
 network_thread_
 )
 ;
-SignalSentPacket
+NotifySentPacket
 (
 this
 sent_packet

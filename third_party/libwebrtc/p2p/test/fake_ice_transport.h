@@ -1962,7 +1962,7 @@ TimeMillis
 )
 )
 ;
-SignalSentPacket
+NotifySentPacket
 (
 this
 sent_packet
