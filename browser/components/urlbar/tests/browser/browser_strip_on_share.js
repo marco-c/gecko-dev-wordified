@@ -1498,9 +1498,13 @@ queryParams
 utm_ad
 "
 ]
-isGlobal
+topLevelSites
 :
-true
+[
+"
+*
+"
+]
 }
 example
 :
@@ -1518,7 +1522,7 @@ test_1
 TEST_5
 "
 ]
-origins
+topLevelSites
 :
 [
 "
@@ -1543,7 +1547,7 @@ test_3
 test_4
 "
 ]
-origins
+topLevelSites
 :
 [
 "
