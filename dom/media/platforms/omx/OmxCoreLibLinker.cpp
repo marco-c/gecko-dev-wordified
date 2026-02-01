@@ -301,7 +301,7 @@ include
 "
 OmxFunctionList
 .
-h
+inc
 "
 #
 undef
@@ -638,7 +638,7 @@ include
 "
 OmxFunctionList
 .
-h
+inc
 "
 #
 undef

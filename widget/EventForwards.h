@@ -684,7 +684,7 @@ mozilla
 /
 KeyNameList
 .
-h
+inc
 "
 /
 /
@@ -760,7 +760,7 @@ mozilla
 /
 PhysicalKeyCodeNameList
 .
-h
+inc
 "
 /
 /
@@ -837,7 +837,7 @@ mozilla
 /
 InputTypeList
 .
-h
+inc
 "
 /
 /
@@ -949,7 +949,7 @@ mozilla
 /
 InputTypeList
 .
-h
+inc
 "
 case
 EditorInputType

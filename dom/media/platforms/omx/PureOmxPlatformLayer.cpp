@@ -255,7 +255,7 @@ include
 "
 OmxFunctionList
 .
-h
+inc
 "
 #
 undef

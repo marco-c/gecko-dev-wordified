@@ -160,7 +160,7 @@ h
 "
 SVGTagList
 .
-h
+inc
 "
 ]
 EXPORTS
@@ -429,7 +429,7 @@ h
 "
 SVGLengthUnits
 .
-h
+inc
 "
 "
 SVGLineElement

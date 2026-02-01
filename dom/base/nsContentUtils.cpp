@@ -8089,7 +8089,7 @@ mozilla
 /
 EventNameList
 .
-h
+inc
 "
 #
 undef
@@ -8202,7 +8202,7 @@ mozilla
 /
 EventNameList
 .
-h
+inc
 "
 #
 undef
@@ -8357,7 +8357,7 @@ mozilla
 /
 EventNameList
 .
-h
+inc
 "
 #
 undef
@@ -8488,7 +8488,7 @@ fix
 your
 EventNameList
 .
-h
+inc
 "
 )
 ;
@@ -8614,7 +8614,7 @@ mozilla
 /
 EventNameList
 .
-h
+inc
 "
 #
 undef
@@ -12600,7 +12600,7 @@ include
 "
 IframeSandboxKeywordList
 .
-h
+inc
 "
 #
 undef
@@ -12696,7 +12696,7 @@ include
 "
 IframeSandboxKeywordList
 .
-h
+inc
 "
 #
 undef
@@ -12848,7 +12848,7 @@ include
 "
 IframeSandboxKeywordList
 .
-h
+inc
 "
 #
 undef

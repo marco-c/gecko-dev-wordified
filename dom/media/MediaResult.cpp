@@ -247,7 +247,7 @@ dom
 /
 DOMExceptionNames
 .
-h
+inc
 "
 EXTENDED_EXCEPTIONS
 default
@@ -344,7 +344,7 @@ dom
 /
 DOMExceptionNames
 .
-h
+inc
 "
 EXTENDED_EXCEPTIONS
 default

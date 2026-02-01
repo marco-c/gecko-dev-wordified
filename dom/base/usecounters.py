@@ -4044,7 +4044,7 @@ base
 "
 nsDeprecatedOperationList
 .
-h
+inc
 "
     
 )

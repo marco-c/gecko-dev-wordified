@@ -1534,7 +1534,7 @@ mozilla
 /
 VirtualKeyCodeList
 .
-h
+inc
 "
 #
 undef
@@ -8800,7 +8800,7 @@ mozilla
 /
 KeyNameList
 .
-h
+inc
 "
 }
 ;
@@ -8840,7 +8840,7 @@ mozilla
 /
 PhysicalKeyCodeNameList
 .
-h
+inc
 "
 }
 ;
@@ -12409,11 +12409,11 @@ are
 not
 defined
 in
+/
+/
 PhysicalKeyCodeNameList
 .
-h
-/
-/
+inc
 but
 are
 defined
@@ -12424,12 +12424,12 @@ spec
 So
 they
 should
+/
+/
 be
 uncommented
 when
 the
-/
-/
 code
 values
 are
@@ -15096,7 +15096,7 @@ mozilla
 /
 InputTypeList
 .
-h
+inc
 "
 }
 ;
