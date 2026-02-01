@@ -2043,7 +2043,7 @@ gctx
 (
 )
 .
-eval_expr_to_u32
+get_const_val
 (
 ctx
 .

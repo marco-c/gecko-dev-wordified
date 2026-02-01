@@ -111,7 +111,7 @@ Handle
 proc
 :
 :
-U32EvalError
+ConstValueError
 Expression
 Module
 Span
@@ -1385,7 +1385,7 @@ to_ctx
 (
 )
 .
-eval_expr_to_u32
+get_const_val
 (
 const_expr
 )
@@ -1408,7 +1408,7 @@ value
 )
 Err
 (
-U32EvalError
+ConstValueError
 :
 :
 Negative
@@ -1441,10 +1441,15 @@ meta
 )
 Err
 (
-U32EvalError
+ConstValueError
 :
 :
 NonConst
+|
+ConstValueError
+:
+:
+InvalidType
 )
 =
 >

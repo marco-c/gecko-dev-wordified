@@ -4282,7 +4282,7 @@ to_ctx
 (
 )
 .
-eval_expr_to_u32_from
+get_const_val_from
 (
 expr
 expressions
