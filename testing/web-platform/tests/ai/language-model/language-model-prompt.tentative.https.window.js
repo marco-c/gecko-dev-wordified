@@ -222,6 +222,7 @@ shorthand
 /
 shorthand
 /
+i
 )
 ;
 assert_regexp_match
@@ -249,6 +250,7 @@ shorthand
 /
 shorthand
 /
+i
 )
 ;
 }
@@ -374,6 +376,7 @@ content
 /
 regurgitation
 /
+i
 )
 ;
 }
