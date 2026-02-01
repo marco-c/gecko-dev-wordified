@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsDocLoader_h__
+nsDocLoader_h_
 #
 define
-nsDocLoader_h__
+nsDocLoader_h_
 #
 include
 "
@@ -2594,6 +2594,6 @@ aDocLoader
 endif
 /
 *
-nsDocLoader_h__
+nsDocLoader_h_
 *
 /

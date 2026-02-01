@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsIScrollObserver_h___
+nsIScrollObserver_h_
 #
 define
-nsIScrollObserver_h___
+nsIScrollObserver_h_
 #
 include
 "
@@ -283,6 +283,6 @@ AsyncPanZoomStopped
 endif
 /
 *
-nsIScrollObserver_h___
+nsIScrollObserver_h_
 *
 /

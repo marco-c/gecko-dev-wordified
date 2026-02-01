@@ -113,10 +113,10 @@ gess
 /
 #
 ifndef
-__CParserContext
+CParserContext
 #
 define
-__CParserContext
+CParserContext
 #
 include
 "

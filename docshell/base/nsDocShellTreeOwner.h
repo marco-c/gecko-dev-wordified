@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsDocShellTreeOwner_h__
+nsDocShellTreeOwner_h_
 #
 define
-nsDocShellTreeOwner_h__
+nsDocShellTreeOwner_h_
 /
 /
 Helper
@@ -561,6 +561,6 @@ mPrimaryRemoteTab
 endif
 /
 *
-nsDocShellTreeOwner_h__
+nsDocShellTreeOwner_h_
 *
 /

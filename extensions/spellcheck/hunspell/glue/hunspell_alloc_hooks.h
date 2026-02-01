@@ -378,10 +378,10 @@ BLOCK
 /
 #
 ifndef
-alloc_hooks_h__
+alloc_hooks_h_
 #
 define
-alloc_hooks_h__
+alloc_hooks_h_
 /
 *
 *

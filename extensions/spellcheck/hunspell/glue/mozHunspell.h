@@ -514,10 +514,10 @@ BLOCK
 /
 #
 ifndef
-mozHunspell_h__
+mozHunspell_h_
 #
 define
-mozHunspell_h__
+mozHunspell_h_
 #
 include
 "

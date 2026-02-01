@@ -74,10 +74,10 @@ MPL
 /
 #
 ifndef
-md4_h__
+md4_h_
 #
 define
-md4_h__
+md4_h_
 #
 ifdef
 __cplusplus
@@ -249,6 +249,6 @@ endif
 endif
 /
 *
-md4_h__
+md4_h_
 *
 /

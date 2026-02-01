@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-PreloaderBase_h__
+PreloaderBase_h_
 #
 define
-PreloaderBase_h__
+PreloaderBase_h_
 #
 include
 "
@@ -1387,4 +1387,4 @@ endif
 /
 /
 !
-PreloaderBase_h__
+PreloaderBase_h_

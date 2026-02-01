@@ -91,10 +91,10 @@ MPL
 /
 #
 ifndef
-nsContentTreeOwner_h__
+nsContentTreeOwner_h_
 #
 define
-nsContentTreeOwner_h__
+nsContentTreeOwner_h_
 /
 /
 Helper
@@ -311,6 +311,6 @@ mPrimary
 endif
 /
 *
-nsContentTreeOwner_h__
+nsContentTreeOwner_h_
 *
 /

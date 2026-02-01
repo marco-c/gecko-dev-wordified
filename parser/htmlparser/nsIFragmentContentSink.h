@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsIFragmentContentSink_h___
+nsIFragmentContentSink_h_
 #
 define
-nsIFragmentContentSink_h___
+nsIFragmentContentSink_h_
 #
 include
 "

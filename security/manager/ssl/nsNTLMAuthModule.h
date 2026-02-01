@@ -74,10 +74,10 @@ MPL
 /
 #
 ifndef
-nsNTLMAuthModule_h__
+nsNTLMAuthModule_h_
 #
 define
-nsNTLMAuthModule_h__
+nsNTLMAuthModule_h_
 #
 include
 "
@@ -153,4 +153,4 @@ mNTLMNegotiateSent
 endif
 /
 /
-nsNTLMAuthModule_h__
+nsNTLMAuthModule_h_

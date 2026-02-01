@@ -92,10 +92,10 @@ MPL
 /
 #
 ifndef
-nsExternalHelperAppService_h__
+nsExternalHelperAppService_h_
 #
 define
-nsExternalHelperAppService_h__
+nsExternalHelperAppService_h_
 #
 include
 "
@@ -3415,4 +3415,4 @@ mExtProtSvc
 endif
 /
 /
-nsExternalHelperAppService_h__
+nsExternalHelperAppService_h_

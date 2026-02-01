@@ -107,10 +107,10 @@ MPL
 /
 #
 ifndef
-__nsLocalHandlerAppImpl_h__
+_nsLocalHandlerAppImpl_h_
 #
 define
-__nsLocalHandlerAppImpl_h__
+_nsLocalHandlerAppImpl_h_
 #
 include
 "
@@ -408,4 +408,4 @@ endif
 endif
 /
 /
-__nsLocalHandlerAppImpl_h__
+_nsLocalHandlerAppImpl_h_

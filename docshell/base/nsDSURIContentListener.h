@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsDSURIContentListener_h__
+nsDSURIContentListener_h_
 #
 define
-nsDSURIContentListener_h__
+nsDSURIContentListener_h_
 #
 include
 "
@@ -589,6 +589,6 @@ mParentContentListener
 endif
 /
 *
-nsDSURIContentListener_h__
+nsDSURIContentListener_h_
 *
 /

@@ -106,10 +106,10 @@ modules
 /
 #
 ifndef
-RustFuzzingTargets_h__
+RustFuzzingTargets_h_
 #
 define
-RustFuzzingTargets_h__
+RustFuzzingTargets_h_
 #
 include
 <
@@ -195,4 +195,4 @@ C
 endif
 /
 /
-RustFuzzingTargets_h__
+RustFuzzingTargets_h_

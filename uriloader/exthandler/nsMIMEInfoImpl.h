@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-__nsmimeinfoimpl_h___
+_nsmimeinfoimpl_h_
 #
 define
-__nsmimeinfoimpl_h___
+_nsmimeinfoimpl_h_
 #
 include
 "
@@ -1529,4 +1529,4 @@ type
 endif
 /
 /
-__nsmimeinfoimpl_h___
+_nsmimeinfoimpl_h_

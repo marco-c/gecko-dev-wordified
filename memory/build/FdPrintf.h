@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-__FdPrintf_h__
+FdPrintf_h_
 #
 define
-__FdPrintf_h__
+FdPrintf_h_
 #
 include
 <
@@ -438,6 +438,6 @@ aLen
 endif
 /
 *
-__FdPrintf_h__
+FdPrintf_h_
 *
 /

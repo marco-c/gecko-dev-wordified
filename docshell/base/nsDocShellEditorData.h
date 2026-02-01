@@ -116,13 +116,13 @@ MPL
 /
 #
 ifndef
-nsDocShellEditorData_h__
+nsDocShellEditorData_h_
 #
 define
-nsDocShellEditorData_h__
+nsDocShellEditorData_h_
 #
 ifndef
-nsCOMPtr_h___
+nsCOMPtr_h_
 #
 include
 "
@@ -450,4 +450,4 @@ mDetachedMakeEditable
 endif
 /
 /
-nsDocShellEditorData_h__
+nsDocShellEditorData_h_

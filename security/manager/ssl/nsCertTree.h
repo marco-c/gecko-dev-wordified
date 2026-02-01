@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-_NS_CERTTREE_H_
+NS_CERTTREE_H_
 #
 define
-_NS_CERTTREE_H_
+NS_CERTTREE_H_
 #
 include
 "
@@ -647,6 +647,6 @@ mCellText
 endif
 /
 *
-_NS_CERTTREE_H_
+NS_CERTTREE_H_
 *
 /

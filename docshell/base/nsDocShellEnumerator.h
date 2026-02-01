@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsDocShellEnumerator_h___
+nsDocShellEnumerator_h_
 #
 define
-nsDocShellEnumerator_h___
+nsDocShellEnumerator_h_
 #
 include
 "
@@ -243,4 +243,4 @@ mDirection
 endif
 /
 /
-nsDocShellEnumerator_h___
+nsDocShellEnumerator_h_

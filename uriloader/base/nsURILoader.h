@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsURILoader_h__
+nsURILoader_h_
 #
 define
-nsURILoader_h__
+nsURILoader_h_
 #
 include
 "
@@ -1295,6 +1295,6 @@ false
 endif
 /
 *
-nsURILoader_h__
+nsURILoader_h_
 *
 /

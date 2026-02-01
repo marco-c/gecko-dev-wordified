@@ -96,10 +96,10 @@ MPL
 /
 #
 ifndef
-mozilla_devtools_DominatorTree__
+mozilla_devtools_DominatorTree_
 #
 define
-mozilla_devtools_DominatorTree__
+mozilla_devtools_DominatorTree_
 #
 include
 "
@@ -409,4 +409,4 @@ mozilla
 endif
 /
 /
-mozilla_devtools_DominatorTree__
+mozilla_devtools_DominatorTree_

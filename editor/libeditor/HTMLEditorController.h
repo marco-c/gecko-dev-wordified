@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-mozilla_HTMLEditorController_h__
+mozilla_HTMLEditorController_h_
 #
 define
-mozilla_HTMLEditorController_h__
+mozilla_HTMLEditorController_h_
 #
 include
 "
