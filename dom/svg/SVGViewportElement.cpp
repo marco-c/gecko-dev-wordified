@@ -1213,7 +1213,7 @@ SVGViewportElement
 :
 ChildrenOnlyTransformChanged
 (
-uint32_t
+ChildrenOnlyTransformChangedFlags
 aFlags
 )
 {
@@ -1417,10 +1417,14 @@ nsChangeHint_ReconstructFrame
 |
 |
 !
-(
 aFlags
-&
-eDuringReflow
+.
+contains
+(
+ChildrenOnlyTransformChangedFlag
+:
+:
+DuringReflow
 )
 )
 {
