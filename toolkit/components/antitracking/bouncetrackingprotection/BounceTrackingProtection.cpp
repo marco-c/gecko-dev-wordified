@@ -664,6 +664,10 @@ sInitFailed
 =
 true
 ;
+sBounceTrackingProtection
+=
+nullptr
+;
 return
 nullptr
 ;
