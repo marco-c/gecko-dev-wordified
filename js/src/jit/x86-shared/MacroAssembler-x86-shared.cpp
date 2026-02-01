@@ -137,7 +137,9 @@ h
 #
 include
 "
-jsmath
+builtin
+/
+Math
 .
 h
 "
@@ -5066,7 +5068,7 @@ label
 )
 ;
 }
-void
+CodeOffset
 MacroAssembler
 :
 :
@@ -5091,6 +5093,14 @@ base
 addr
 .
 offset
+)
+)
+;
+return
+CodeOffset
+(
+currentOffset
+(
 )
 )
 ;

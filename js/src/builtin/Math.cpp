@@ -120,7 +120,9 @@ package
 #
 include
 "
-jsmath
+builtin
+/
+Math
 .
 h
 "

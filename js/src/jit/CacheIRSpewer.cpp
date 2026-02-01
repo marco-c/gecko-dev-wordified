@@ -128,13 +128,6 @@ h
 "
 #
 include
-<
-stdarg
-.
-h
->
-#
-include
 "
 jsapi
 .
@@ -143,7 +136,9 @@ h
 #
 include
 "
-jsmath
+builtin
+/
+Math
 .
 h
 "
