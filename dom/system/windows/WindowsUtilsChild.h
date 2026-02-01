@@ -181,16 +181,7 @@ PWindowsLocationChild
 AllocPWindowsLocationChild
 (
 )
-{
-return
-MakeAndAddRef
-<
-WindowsLocationChild
->
-(
-)
 ;
-}
 protected
 :
 ~
