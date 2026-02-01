@@ -960,6 +960,15 @@ parameters
 "
 :
 {
+                
+"
+repository_type
+"
+:
+"
+hg
+"
+            
 }
             
 "
