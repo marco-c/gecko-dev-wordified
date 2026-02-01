@@ -57,6 +57,12 @@ MPL
 *
 /
 #
+ifndef
+crypto_hash_h
+#
+define
+crypto_hash_h
+#
 include
 "
 nsICryptoHash
@@ -241,3 +247,8 @@ return
 NS_OK
 ;
 }
+#
+endif
+/
+/
+crypto_hash_h
