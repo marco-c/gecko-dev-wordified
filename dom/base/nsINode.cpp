@@ -23239,7 +23239,7 @@ FromNodeOrNull
 buttonControl
 -
 >
-GetCommandForElement
+GetCommandForElementInternal
 (
 )
 )
@@ -23335,7 +23335,7 @@ FromNodeOrNull
 formControl
 -
 >
-GetPopoverTargetElement
+GetPopoverTargetElementInternal
 (
 )
 )

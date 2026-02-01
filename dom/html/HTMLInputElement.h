@@ -3341,7 +3341,14 @@ aValue
 ;
 HTMLDataListElement
 *
-GetList
+GetListForBindings
+(
+)
+const
+;
+HTMLDataListElement
+*
+GetListInternal
 (
 )
 const
