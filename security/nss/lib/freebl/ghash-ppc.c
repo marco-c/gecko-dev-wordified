@@ -88,6 +88,17 @@ defined
 (
 USE_PPC_CRYPTO
 )
+PRBool
+platform_ghash_support
+(
+)
+{
+return
+ppc_crypto_support
+(
+)
+;
+}
 SECStatus
 gcm_HashWrite_hw
 (

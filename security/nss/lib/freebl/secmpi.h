@@ -410,3 +410,13 @@ mp_size
 strong
 )
 ;
+SECStatus
+generate_prime
+(
+mp_int
+*
+prime
+int
+primeLen
+)
+;
