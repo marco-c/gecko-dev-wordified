@@ -7556,7 +7556,7 @@ flags
 ;
 promise
 .
-setFixedSlot
+setNeverGCThingFixedSlot
 (
 PromiseSlot_Flags
 Int32Value
@@ -7590,7 +7590,7 @@ flags
 ;
 promise
 .
-setFixedSlot
+setNeverGCThingFixedSlot
 (
 PromiseSlot_Flags
 Int32Value
@@ -14186,7 +14186,7 @@ PROMISE_FLAG_FULFILLED
 promise
 -
 >
-setFixedSlot
+setNeverGCThingFixedSlot
 (
 PromiseSlot_Flags
 Int32Value

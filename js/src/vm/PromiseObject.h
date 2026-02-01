@@ -1179,7 +1179,7 @@ setHandled
 (
 )
 {
-setFixedSlot
+setNeverGCThingFixedSlot
 (
 PromiseSlot_Flags
 JS

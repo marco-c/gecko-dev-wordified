@@ -32385,7 +32385,7 @@ flags
 promise
 -
 >
-setFixedSlot
+setNeverGCThingFixedSlot
 (
 PromiseSlot_Flags
 Int32Value
