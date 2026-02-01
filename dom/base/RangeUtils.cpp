@@ -1219,7 +1219,7 @@ ComparePoints
 TreeKind
 :
 :
-ShadowIncludingDOM
+DOM
 >
 (
 aStartBoundary
