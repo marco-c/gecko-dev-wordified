@@ -100,7 +100,7 @@ FnMut
 (
 &
 mut
-Module
+Namespace
 )
 -
 >
@@ -112,14 +112,14 @@ Result
 {
 move
 |
-module
+namespace
 :
 &
 mut
-Module
+Namespace
 |
 {
-module
+namespace
 .
 config
 =
@@ -128,7 +128,7 @@ config_map
 remove
 (
 &
-module
+namespace
 .
 crate_name
 )
@@ -207,7 +207,7 @@ very
 easily
 .
 if
-module
+namespace
 .
 name
 .
@@ -218,7 +218,7 @@ uniffi_bindings_tests
 "
 )
 {
-module
+namespace
 .
 fixture
 =
@@ -246,7 +246,7 @@ set
 this
 correctly
 .
-module
+namespace
 .
 string_type_node
 =
@@ -290,7 +290,7 @@ types
 let
 config
 =
-module
+namespace
 .
 config
 .
@@ -317,7 +317,7 @@ types
 and
 collect
 imports
-module
+namespace
 .
 try_visit_mut
 (
@@ -514,7 +514,7 @@ sort
 For
 deterministic
 output
-module
+namespace
 .
 imports
 =
@@ -526,7 +526,7 @@ saw_callback_interface
 =
 false
 ;
-module
+namespace
 .
 visit
 (
@@ -541,7 +541,7 @@ saw_callback_interface
 true
 )
 ;
-module
+namespace
 .
 has_callback_interface
 =

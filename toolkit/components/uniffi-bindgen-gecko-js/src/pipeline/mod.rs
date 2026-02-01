@@ -85,6 +85,9 @@ mod
 cpp_scaffolding_calls
 ;
 mod
+default
+;
+mod
 docs
 ;
 mod
@@ -98,9 +101,6 @@ js_filename
 ;
 mod
 js_names
-;
-mod
-literals
 ;
 mod
 modules
@@ -198,6 +198,11 @@ general
 :
 pipeline
 (
+"
+gecko
+-
+js
+"
 )
 .
 convert_ir_pass
@@ -310,7 +315,7 @@ pass
 .
 pass
 (
-literals
+default
 :
 :
 pass

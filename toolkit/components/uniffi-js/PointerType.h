@@ -210,15 +210,13 @@ clone
 for
 the
 pointer
-void
-*
+uint64_t
 (
 *
 clone
 )
 (
-void
-*
+uint64_t
 RustCallStatus
 *
 )
@@ -239,8 +237,7 @@ void
 destructor
 )
 (
-void
-*
+uint64_t
 RustCallStatus
 *
 )

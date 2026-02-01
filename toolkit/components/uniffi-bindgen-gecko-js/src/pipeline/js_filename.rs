@@ -72,11 +72,11 @@ pub
 fn
 pass
 (
-module
+namespace
 :
 &
 mut
-Module
+Namespace
 )
 -
 >
@@ -86,7 +86,7 @@ Result
 )
 >
 {
-module
+namespace
 .
 js_filename
 =
@@ -102,7 +102,7 @@ sys
 .
 mjs
 "
-module
+namespace
 .
 name
 .
