@@ -6115,7 +6115,7 @@ mozilla
 /
 EventClassList
 .
-h
+inc
 "
 #
 undef

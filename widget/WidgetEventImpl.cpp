@@ -1115,7 +1115,7 @@ mozilla
 /
 EventClassList
 .
-h
+inc
 "
 #
 undef
@@ -1470,7 +1470,7 @@ mozilla
 /
 CommandList
 .
-h
+inc
 "
 #
 undef
@@ -2084,7 +2084,7 @@ mozilla
 /
 CommandList
 .
-h
+inc
 "
 #
 undef
@@ -2375,7 +2375,7 @@ mozilla
 /
 EventClassList
 .
-h
+inc
 "
 #
 undef
@@ -12333,7 +12333,7 @@ mozilla
 /
 CommandList
 .
-h
+inc
 "
 }
 ;

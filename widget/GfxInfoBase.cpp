@@ -927,7 +927,7 @@ widget
 /
 GfxInfoFeatureDefs
 .
-h
+inc
 "
 #
 undef
@@ -1389,7 +1389,7 @@ widget
 /
 GfxInfoOperatingSystemDefs
 .
-h
+inc
 "
 #
 undef
@@ -1453,7 +1453,7 @@ widget
 /
 GfxInfoRefreshRateStatusDefs
 .
-h
+inc
 "
 #
 undef
@@ -1676,7 +1676,7 @@ widget
 /
 GfxInfoFeatureDefs
 .
-h
+inc
 "
 #
 undef
@@ -1810,7 +1810,7 @@ widget
 /
 GfxInfoFeatureStatusDefs
 .
-h
+inc
 "
 #
 undef
@@ -1881,7 +1881,7 @@ widget
 /
 GfxInfoFeatureStatusDefs
 .
-h
+inc
 "
 #
 undef
@@ -1954,7 +1954,7 @@ widget
 /
 GfxInfoDriverVersionCmpDefs
 .
-h
+inc
 "
 #
 undef

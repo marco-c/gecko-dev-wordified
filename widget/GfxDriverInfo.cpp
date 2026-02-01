@@ -4685,7 +4685,7 @@ widget
 /
 GfxInfoWindowProtocolDefs
 .
-h
+inc
 "
 #
 undef
@@ -5272,7 +5272,7 @@ widget
 /
 GfxInfoDeviceVendorDefs
 .
-h
+inc
 "
 #
 undef
@@ -5427,7 +5427,7 @@ widget
 /
 GfxInfoDriverVendorDefs
 .
-h
+inc
 "
 #
 undef
