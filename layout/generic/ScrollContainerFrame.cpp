@@ -22611,16 +22611,6 @@ return
 ;
 }
 }
-PresShell
-(
-)
--
->
-UpdateAnchorPosForScroll
-(
-this
-)
-;
 presContext
 -
 >
