@@ -1685,14 +1685,6 @@ HTMLEditUtils
 :
 LeafNodeOption
 ;
-using
-WalkTreeOption
-=
-HTMLEditUtils
-:
-:
-WalkTreeOption
-;
 static
 LazyLogModule
 gEventLog

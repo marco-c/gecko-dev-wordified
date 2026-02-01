@@ -8322,6 +8322,7 @@ break
 }
 Element
 *
+const
 deepestDivBlockquoteOrListElement
 =
 HTMLEditUtils
@@ -8334,10 +8335,7 @@ aOutArrayOfContents
 0
 ]
 {
-HTMLEditUtils
-:
-:
-WalkTreeOption
+LeafNodeOption
 :
 :
 IgnoreNonEditableNode
@@ -8345,7 +8343,7 @@ IgnoreNonEditableNode
 BlockInlineCheck
 :
 :
-Unused
+Auto
 nsGkAtoms
 :
 :
