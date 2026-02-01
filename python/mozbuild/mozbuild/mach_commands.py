@@ -5184,6 +5184,7 @@ log_file
 created
 action
 params
+msg
 =
 json
 .
@@ -5257,11 +5258,7 @@ INFO
 msg
 "
 :
-"
-{
-line
-}
-"
+msg
                 
 "
 params
