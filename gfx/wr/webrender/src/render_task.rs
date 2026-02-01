@@ -181,7 +181,6 @@ gpu_types
 {
 BorderInstance
 UvRectKind
-TransformPaletteId
 BlurEdgeMode
 }
 ;
@@ -230,6 +229,15 @@ tile_cache
 :
 :
 MAX_SURFACE_SIZE
+;
+use
+crate
+:
+:
+transform
+:
+:
+TransformPaletteId
 ;
 use
 crate

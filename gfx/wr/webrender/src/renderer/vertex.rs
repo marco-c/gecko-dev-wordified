@@ -146,7 +146,6 @@ gpu_types
 {
 PrimitiveHeaderI
 PrimitiveHeaderF
-TransformData
 }
 internal_types
 :
@@ -156,6 +155,10 @@ render_task
 :
 :
 RenderTaskData
+transform
+:
+:
+TransformData
 }
 ;
 use

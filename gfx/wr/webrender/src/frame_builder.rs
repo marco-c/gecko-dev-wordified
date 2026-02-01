@@ -185,7 +185,6 @@ gpu_types
 {
 ImageBrushPrimitiveData
 PrimitiveHeaders
-TransformPalette
 ZBufferIdGenerator
 }
 ;
@@ -196,10 +195,7 @@ crate
 gpu_types
 :
 :
-{
 QuadSegment
-TransformData
-}
 ;
 use
 crate
@@ -445,6 +441,18 @@ surface
 :
 :
 SurfaceBuilder
+;
+use
+crate
+:
+:
+transform
+:
+:
+{
+TransformPalette
+TransformData
+}
 ;
 use
 std
