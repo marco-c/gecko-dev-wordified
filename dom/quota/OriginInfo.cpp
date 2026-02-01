@@ -305,10 +305,6 @@ bool
 aDirectoryExists
 )
 :
-mClientUsages
-(
-aClientUsages
-)
 mGroupInfo
 (
 aGroupInfo
@@ -320,10 +316,6 @@ aOrigin
 mStorageOrigin
 (
 aStorageOrigin
-)
-mUsage
-(
-aUsage
 )
 mAccessTime
 (
@@ -364,6 +356,14 @@ _ns
 mDirectoryExists
 (
 aDirectoryExists
+)
+mClientUsages
+(
+aClientUsages
+)
+mUsage
+(
+aUsage
 )
 {
 MOZ_ASSERT
