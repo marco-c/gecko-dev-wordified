@@ -1373,11 +1373,6 @@ mozprofile
 import
 Preferences
         
-from
-six
-import
-string_types
-        
 app
 =
 self
@@ -1668,7 +1663,7 @@ if
 isinstance
 (
 v
-string_types
+str
 )
 :
                 

@@ -226,10 +226,6 @@ from
 datetime
 import
 datetime
-from
-six
-import
-binary_type
 #
 Define
 our
@@ -2629,7 +2625,7 @@ if
 isinstance
 (
 line
-binary_type
+bytes
 )
 :
                 
