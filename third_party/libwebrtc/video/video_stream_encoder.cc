@@ -4623,7 +4623,7 @@ degradation_preference_
 DegradationPreference
 :
 :
-DISABLED
+MAINTAIN_FRAMERATE_AND_RESOLUTION
 )
 is_screenshare_
 (
@@ -4634,7 +4634,7 @@ effective_degradation_preference_
 DegradationPreference
 :
 :
-DISABLED
+MAINTAIN_FRAMERATE_AND_RESOLUTION
 )
 video_stream_adapter_
 (

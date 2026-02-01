@@ -321,13 +321,13 @@ testing
 :
 Eq
 ;
-const
+constexpr
 int
 kDefaultFrameRate
 =
 30
 ;
-const
+constexpr
 int
 kDefaultFrameSize
 =
@@ -4562,7 +4562,7 @@ SetDegradationPreference
 DegradationPreference
 :
 :
-DISABLED
+MAINTAIN_FRAMERATE_AND_RESOLUTION
 )
 ;
 /

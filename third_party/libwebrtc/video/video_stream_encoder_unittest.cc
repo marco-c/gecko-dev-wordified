@@ -20823,7 +20823,7 @@ new_video_source
 DegradationPreference
 :
 :
-DISABLED
+MAINTAIN_FRAMERATE_AND_RESOLUTION
 )
 ;
 /
@@ -21804,7 +21804,7 @@ new_video_source
 DegradationPreference
 :
 :
-DISABLED
+MAINTAIN_FRAMERATE_AND_RESOLUTION
 )
 ;
 new_video_source
@@ -23650,7 +23650,7 @@ new_video_source
 DegradationPreference
 :
 :
-DISABLED
+MAINTAIN_FRAMERATE_AND_RESOLUTION
 )
 ;
 new_video_source
@@ -27734,7 +27734,7 @@ source
 DegradationPreference
 :
 :
-DISABLED
+MAINTAIN_FRAMERATE_AND_RESOLUTION
 )
 ;
 source
@@ -33907,7 +33907,7 @@ video_source_
 DegradationPreference
 :
 :
-DISABLED
+MAINTAIN_FRAMERATE_AND_RESOLUTION
 )
 ;
 for

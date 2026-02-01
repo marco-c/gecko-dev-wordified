@@ -1765,7 +1765,7 @@ degradation_preference_
 DegradationPreference
 :
 :
-DISABLED
+MAINTAIN_FRAMERATE_AND_RESOLUTION
 )
 video_source_restrictions_
 (

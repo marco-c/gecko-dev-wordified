@@ -302,7 +302,7 @@ Return
 ;
 namespace
 {
-const
+constexpr
 int
 kBalancedHighResolutionPixels
 =
@@ -310,13 +310,13 @@ kBalancedHighResolutionPixels
 *
 720
 ;
-const
+constexpr
 int
 kBalancedHighFrameRateFps
 =
 30
 ;
-const
+constexpr
 int
 kBalancedMediumResolutionPixels
 =
@@ -324,13 +324,13 @@ kBalancedMediumResolutionPixels
 *
 480
 ;
-const
+constexpr
 int
 kBalancedMediumFrameRateFps
 =
 20
 ;
-const
+constexpr
 int
 kBalancedLowResolutionPixels
 =
@@ -338,7 +338,7 @@ kBalancedLowResolutionPixels
 *
 240
 ;
-const
+constexpr
 int
 kBalancedLowFrameRateFps
 =
@@ -6446,7 +6446,7 @@ SetDegradationPreference
 DegradationPreference
 :
 :
-DISABLED
+MAINTAIN_FRAMERATE_AND_RESOLUTION
 )
 ;
 input_state_provider_
@@ -6866,7 +6866,7 @@ fps_adaptations
 TEST_F
 (
 VideoStreamAdapterTest
-AdaptationDisabledStatusAlwaysWhenDegradationPreferenceDisabled
+AdaptationDisabledStatusWhenPreferenceIsMaintainFramerateAndResolution
 )
 {
 adapter_
@@ -6876,7 +6876,7 @@ SetDegradationPreference
 DegradationPreference
 :
 :
-DISABLED
+MAINTAIN_FRAMERATE_AND_RESOLUTION
 )
 ;
 input_state_provider_

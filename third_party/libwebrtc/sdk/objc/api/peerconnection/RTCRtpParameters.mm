@@ -566,7 +566,7 @@ degradationPreference
 )
 {
 case
-RTCDegradationPreferenceDisabled
+RTCDegradationPreferenceMaintainFramerateAndResolution
 :
 return
 webrtc
@@ -575,7 +575,7 @@ webrtc
 DegradationPreference
 :
 :
-DISABLED
+MAINTAIN_FRAMERATE_AND_RESOLUTION
 ;
 case
 RTCDegradationPreferenceMaintainFramerate
@@ -663,11 +663,11 @@ webrtc
 DegradationPreference
 :
 :
-DISABLED
+MAINTAIN_FRAMERATE_AND_RESOLUTION
 :
 return
 (
-RTCDegradationPreferenceDisabled
+RTCDegradationPreferenceMaintainFramerateAndResolution
 )
 ;
 case
