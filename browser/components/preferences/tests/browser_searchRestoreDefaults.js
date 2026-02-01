@@ -145,9 +145,7 @@ let
 engine
 of
 await
-Services
-.
-search
+SearchService
 .
 getAppProvidedEngines
 (
@@ -272,9 +270,7 @@ let
 defaultEngines
 =
 await
-Services
-.
-search
+SearchService
 .
 getAppProvidedEngines
 (
@@ -365,9 +361,7 @@ let
 engine
 =
 await
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -537,9 +531,7 @@ let
 engine
 =
 await
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -851,9 +843,7 @@ let
 defaultEngines
 =
 await
-Services
-.
-search
+SearchService
 .
 getAppProvidedEngines
 (
@@ -1054,9 +1044,7 @@ defaultEngines
 name
 =
 =
-Services
-.
-search
+SearchService
 .
 defaultEngine
 .
@@ -1356,9 +1344,7 @@ let
 defaultEngines
 =
 await
-Services
-.
-search
+SearchService
 .
 getAppProvidedEngines
 (

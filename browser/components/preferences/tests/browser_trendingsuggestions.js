@@ -186,9 +186,7 @@ const
 defaultEngine
 =
 await
-Services
-.
-search
+SearchService
 .
 getDefault
 (
@@ -203,9 +201,7 @@ async
 >
 {
 await
-Services
-.
-search
+SearchService
 .
 setDefault
 (
@@ -392,9 +388,7 @@ default
 const
 engine1
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -403,9 +397,7 @@ engine1
 "
 )
 ;
-Services
-.
-search
+SearchService
 .
 setDefault
 (
@@ -494,9 +486,7 @@ testEnabledTrendingEngine
 const
 engine1
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -505,9 +495,7 @@ Google
 "
 )
 ;
-Services
-.
-search
+SearchService
 .
 setDefault
 (
