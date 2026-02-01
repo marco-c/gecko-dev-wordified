@@ -360,7 +360,6 @@ uninit
 (
 )
 ;
-await
 AboutNewTab
 .
 onBrowserReady
