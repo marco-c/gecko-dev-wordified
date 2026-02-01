@@ -1553,7 +1553,7 @@ menu
 {
 menu
 .
-setAttribute
+toggleAttribute
 (
 "
 checked
