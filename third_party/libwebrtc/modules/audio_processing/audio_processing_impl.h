@@ -1395,6 +1395,12 @@ HighPassFilteringRequired
 )
 const
 ;
+bool
+EchoControllerEnabled
+(
+)
+const
+;
 private
 :
 const
@@ -3083,11 +3089,6 @@ split_rate
 ;
 int
 stream_delay_ms
-;
-bool
-echo_controller_enabled
-=
-false
 ;
 }
 capture_nonlocked_
