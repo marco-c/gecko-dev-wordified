@@ -144,6 +144,8 @@ self
 >
 Cow
 <
+'
+_
 str
 >
 ;
@@ -313,6 +315,8 @@ Option
 <
 Cow
 <
+'
+_
 str
 >
 >
@@ -421,6 +425,8 @@ Option
 <
 Cow
 <
+'
+_
 str
 >
 >
@@ -501,6 +507,8 @@ self
 >
 Cow
 <
+'
+_
 str
 >
 {
@@ -540,6 +548,8 @@ Option
 <
 Cow
 <
+'
+_
 str
 >
 >
@@ -603,6 +613,8 @@ Option
 <
 Cow
 <
+'
+_
 str
 >
 >

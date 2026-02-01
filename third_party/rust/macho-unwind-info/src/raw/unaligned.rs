@@ -11,11 +11,7 @@ use
 zerocopy_derive
 :
 :
-{
-FromBytes
-FromZeroes
-Unaligned
-}
+*
 ;
 /
 /
@@ -33,8 +29,9 @@ value
 derive
 (
 Unaligned
-FromZeroes
 FromBytes
+KnownLayout
+Immutable
 Default
 Copy
 Clone
@@ -192,8 +189,9 @@ value
 derive
 (
 Unaligned
-FromZeroes
 FromBytes
+KnownLayout
+Immutable
 Default
 Copy
 Clone

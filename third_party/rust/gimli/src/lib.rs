@@ -345,6 +345,17 @@ clippy
 too_many_arguments
 )
 ]
+#
+!
+[
+allow
+(
+clippy
+:
+:
+needless_lifetimes
+)
+]
 /
 /
 False

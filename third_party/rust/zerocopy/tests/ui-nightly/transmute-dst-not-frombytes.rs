@@ -114,7 +114,7 @@ derive
 /
 tests
 /
-util
+include
 .
 rs
 "
@@ -123,6 +123,15 @@ rs
 extern
 crate
 zerocopy
+;
+use
+util
+:
+:
+{
+NotZerocopy
+AU16
+}
 ;
 use
 zerocopy

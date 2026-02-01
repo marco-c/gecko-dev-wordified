@@ -25,6 +25,7 @@ macos
 )
 ]
 use
+{
 minidump_writer
 :
 :
@@ -38,8 +39,6 @@ task_dumper
 :
 TaskDumper
 }
-;
-use
 std
 :
 :
@@ -47,6 +46,7 @@ fmt
 :
 :
 Write
+}
 ;
 fn
 call_otool

@@ -127,6 +127,13 @@ an
 unsized
 source
 type
+to
+/
+/
+a
+sized
+destination
+type
 .
 const
 SRC_UNSIZED

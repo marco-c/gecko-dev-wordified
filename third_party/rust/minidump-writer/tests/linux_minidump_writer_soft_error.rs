@@ -35,7 +35,7 @@ minidump_writer
 minidump_writer
 :
 :
-MinidumpWriter
+MinidumpWriterConfig
 FailSpotName
 }
 serde_json
@@ -132,7 +132,7 @@ true
 Write
 a
 minidump
-MinidumpWriter
+MinidumpWriterConfig
 :
 :
 new
@@ -141,7 +141,7 @@ pid
 pid
 )
 .
-dump
+write
 (
 &
 mut
@@ -327,12 +327,6 @@ n
 }
 ]
 }
-]
-}
-)
-json
-!
-(
 {
 "
 SuspendThreadsErrors
@@ -349,6 +343,8 @@ PtraceAttachError
 "
 EPERM
 "
+]
+}
 ]
 }
 ]
@@ -509,7 +505,7 @@ true
 Write
 a
 minidump
-MinidumpWriter
+MinidumpWriterConfig
 :
 :
 new
@@ -518,7 +514,7 @@ pid
 pid
 )
 .
-dump
+write
 (
 &
 mut
