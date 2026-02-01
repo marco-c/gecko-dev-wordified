@@ -1115,7 +1115,7 @@ sh
 #
 by
 default
-debian12
+debian13
 -
 amd64
 -
@@ -1153,7 +1153,7 @@ tree
 "
 :
 "
-debian12
+debian13
 -
 amd64
 -
