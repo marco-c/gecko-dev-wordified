@@ -444,9 +444,9 @@ int32_t
 aFirstIndex
 int32_t
 aLastIndex
-uint32_t
+MathMLPresentationFlags
 aFlagsValues
-uint32_t
+MathMLPresentationFlags
 aFlagsToUpdate
 )
 override
@@ -2479,9 +2479,9 @@ PropagatePresentationDataFor
 nsIFrame
 *
 aFrame
-uint32_t
+MathMLPresentationFlags
 aFlagsValues
-uint32_t
+MathMLPresentationFlags
 aFlagsToUpdate
 )
 ;
@@ -2498,9 +2498,9 @@ int32_t
 aFirstChildIndex
 int32_t
 aLastChildIndex
-uint32_t
+MathMLPresentationFlags
 aFlagsValues
-uint32_t
+MathMLPresentationFlags
 aFlagsToUpdate
 )
 ;

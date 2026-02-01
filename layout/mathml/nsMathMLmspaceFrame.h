@@ -220,9 +220,12 @@ element
 mPresentationData
 .
 flags
-|
++
 =
-NS_MATHML_SPACE_LIKE
+MathMLPresentationFlag
+:
+:
+SpaceLike
 ;
 return
 NS_OK
