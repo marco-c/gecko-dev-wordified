@@ -109,15 +109,6 @@ include
 "
 mozilla
 /
-Debug
-.
-h
-"
-#
-include
-"
-mozilla
-/
 EventForwards
 .
 h
