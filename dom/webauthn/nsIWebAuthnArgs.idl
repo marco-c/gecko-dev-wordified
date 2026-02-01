@@ -535,11 +535,6 @@ hints
 ;
 readonly
 attribute
-AString
-json
-;
-readonly
-attribute
 boolean
 privateBrowsing
 ;
@@ -893,11 +888,6 @@ Array
 AString
 >
 hints
-;
-readonly
-attribute
-AString
-json
 ;
 readonly
 attribute
