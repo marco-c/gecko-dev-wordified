@@ -180,6 +180,13 @@ h
 #
 include
 "
+DNSServiceBase
+.
+h
+"
+#
+include
+"
 TRR
 .
 h
@@ -3197,6 +3204,9 @@ XRE_IsParentProcess
 return
 ;
 }
+DNSServiceBase
+:
+:
 DoReadEtcHostsFile
 (
 [

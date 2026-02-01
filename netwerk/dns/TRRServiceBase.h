@@ -451,13 +451,6 @@ OnTRRURIChange
 (
 )
 ;
-void
-DoReadEtcHostsFile
-(
-ParsingCallback
-aCallback
-)
-;
 virtual
 void
 ReadEtcHostsFile

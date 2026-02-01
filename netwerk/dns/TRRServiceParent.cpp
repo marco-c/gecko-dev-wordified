@@ -125,6 +125,13 @@ h
 #
 include
 "
+DNSServiceBase
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ipc
@@ -1260,6 +1267,9 @@ sTRRServiceParentPtr
 return
 ;
 }
+DNSServiceBase
+:
+:
 DoReadEtcHostsFile
 (
 [
