@@ -4576,6 +4576,10 @@ line_handler
 =
 None
         
+stderr_line_handler
+=
+None
+        
 append_env
 =
 None
@@ -5240,6 +5244,12 @@ line_handler
 "
 :
 line_handler
+            
+"
+stderr_line_handler
+"
+:
+stderr_line_handler
             
 "
 append_env
