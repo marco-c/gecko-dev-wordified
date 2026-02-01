@@ -212,5 +212,15 @@ enableAltTextForEnglish
 false
 )
 ;
+pref
+(
+"
+pdfjs
+.
+enableAltText
+"
+true
+)
+;
 #
 endif
