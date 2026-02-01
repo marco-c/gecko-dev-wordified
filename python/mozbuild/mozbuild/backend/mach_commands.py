@@ -1006,16 +1006,6 @@ associations
 "
 *
 .
-jsm
-"
-:
-"
-javascript
-"
-            
-"
-*
-.
 sjs
 "
 :
