@@ -2509,8 +2509,6 @@ rv
 .
 AppendFmt
 (
-FMT_STRING
-(
 "
 {
 }
@@ -2524,7 +2522,6 @@ bytes
 }
 dims
 "
-)
 mType
 count
 mData

@@ -19530,8 +19530,6 @@ GetOriginMetadata
 (
 nsFmtCString
 (
-FMT_STRING
-(
 "
 ^
 userContextId
@@ -19539,7 +19537,6 @@ userContextId
 {
 }
 "
-)
 thumbnailPrivateIdentityId
 )
 "
@@ -19578,8 +19575,6 @@ GetOriginMetadata
 (
 nsFmtCString
 (
-FMT_STRING
-(
 "
 ^
 userContextId
@@ -19587,7 +19582,6 @@ userContextId
 {
 }
 "
-)
 thumbnailPrivateIdentityId
 )
 "
@@ -19645,8 +19639,6 @@ ClearStoragesForOriginAttributesPattern
 (
 nsFmtString
 (
-FMT_STRING
-(
 u
 "
 {
@@ -19662,7 +19654,6 @@ userContextId
 }
 }
 "
-)
 thumbnailPrivateIdentityId
 )
 )
@@ -19722,15 +19713,12 @@ FindInReadable
 (
 nsFmtCString
 (
-FMT_STRING
-(
 "
 userContextId
 =
 {
 }
 "
-)
 thumbnailPrivateIdentityId
 )
 origin
@@ -20180,8 +20168,6 @@ GetFullOriginMetadata
 (
 nsFmtCString
 (
-FMT_STRING
-(
 "
 ^
 userContextId
@@ -20189,7 +20175,6 @@ userContextId
 {
 }
 "
-)
 thumbnailPrivateIdentityId
 )
 "
@@ -20233,8 +20218,6 @@ GetFullOriginMetadata
 (
 nsFmtCString
 (
-FMT_STRING
-(
 "
 ^
 userContextId
@@ -20242,7 +20225,6 @@ userContextId
 {
 }
 "
-)
 thumbnailPrivateIdentityId
 )
 "
@@ -20420,8 +20402,6 @@ GetFullOriginMetadata
 (
 nsFmtCString
 (
-FMT_STRING
-(
 "
 ^
 userContextId
@@ -20429,7 +20409,6 @@ userContextId
 {
 }
 "
-)
 thumbnailPrivateIdentityId
 )
 "
@@ -20473,8 +20452,6 @@ GetFullOriginMetadata
 (
 nsFmtCString
 (
-FMT_STRING
-(
 "
 ^
 userContextId
@@ -20482,7 +20459,6 @@ userContextId
 {
 }
 "
-)
 thumbnailPrivateIdentityId
 )
 "
@@ -20673,8 +20649,6 @@ GetFullOriginMetadata
 (
 nsFmtCString
 (
-FMT_STRING
-(
 "
 ^
 userContextId
@@ -20682,7 +20656,6 @@ userContextId
 {
 }
 "
-)
 thumbnailPrivateIdentityId
 )
 "
@@ -20726,8 +20699,6 @@ GetFullOriginMetadata
 (
 nsFmtCString
 (
-FMT_STRING
-(
 "
 ^
 userContextId
@@ -20735,7 +20706,6 @@ userContextId
 {
 }
 "
-)
 thumbnailPrivateIdentityId
 )
 "
@@ -20964,8 +20934,6 @@ GetFullOriginMetadata
 (
 nsFmtCString
 (
-FMT_STRING
-(
 "
 ^
 userContextId
@@ -20973,7 +20941,6 @@ userContextId
 {
 }
 "
-)
 thumbnailPrivateIdentityId
 )
 "
@@ -21017,8 +20984,6 @@ GetFullOriginMetadata
 (
 nsFmtCString
 (
-FMT_STRING
-(
 "
 ^
 userContextId
@@ -21026,7 +20991,6 @@ userContextId
 {
 }
 "
-)
 thumbnailPrivateIdentityId
 )
 "

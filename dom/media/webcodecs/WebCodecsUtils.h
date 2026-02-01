@@ -321,15 +321,12 @@ profiler_is_collecting_markers
 nsFmtCString
 marker
 (
-FMT_STRING
-(
 "
 {
 }
 {
 }
 "
-)
 codecType
 desc
 )

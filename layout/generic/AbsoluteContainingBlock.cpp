@@ -9419,8 +9419,6 @@ fmt
 :
 println
 (
-FMT_STRING
-(
 "
 abspos
 {
@@ -9439,7 +9437,6 @@ cbRect
 {
 }
 "
-)
 aKidFrame
 -
 >
@@ -13967,8 +13964,6 @@ fmt
 :
 println
 (
-FMT_STRING
-(
 "
 abspos
 {
@@ -13978,7 +13973,6 @@ rect
 {
 }
 "
-)
 aKidFrame
 -
 >

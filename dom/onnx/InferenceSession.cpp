@@ -1578,8 +1578,6 @@ aOptions
 return
 nsFmtCString
 (
-FMT_STRING
-(
 "
 EnableCpuMemArena
 :
@@ -1682,7 +1680,6 @@ ProfileFilePrefix
 {
 }
 "
-)
 aOptions
 .
 mEnableCpuMemArena

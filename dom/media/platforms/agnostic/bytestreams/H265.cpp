@@ -1636,8 +1636,6 @@ const
 return
 nsFmtCString
 (
-FMT_STRING
-(
 "
 HVCCConfig
 -
@@ -1749,7 +1747,6 @@ NumSPS
 {
 }
 "
-)
 configurationVersion
 general_profile_space
 general_tier_flag

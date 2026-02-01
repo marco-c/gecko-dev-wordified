@@ -17843,13 +17843,10 @@ mName
 return
 nsFmtCString
 {
-FMT_STRING
-(
 "
 {
 }
 "
-)
 fmt
 :
 :

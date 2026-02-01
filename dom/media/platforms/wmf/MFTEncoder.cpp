@@ -2977,8 +2977,6 @@ Err
 (
 nsFmtCString
 (
-FMT_STRING
-(
 "
 {
 }
@@ -2998,7 +2996,6 @@ for
 +
 video
 "
-)
 MFTEncoder
 :
 :

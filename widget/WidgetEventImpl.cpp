@@ -6762,8 +6762,6 @@ NS_ASSERTION
 false
 nsFmtCString
 (
-FMT_STRING
-(
 "
 This
 method
@@ -6780,7 +6778,6 @@ the
 case
 explicitly
 "
-)
 ToChar
 (
 mMessage

@@ -1174,8 +1174,6 @@ isValid
 return
 LogAndReturnErr
 (
-FMT_STRING
-(
 "
 Overflow
 when
@@ -1202,7 +1200,6 @@ samples
 }
 )
 "
-)
 aInit
 .
 mNumberOfFrames
@@ -1266,8 +1263,6 @@ value
 return
 LogAndReturnErr
 (
-FMT_STRING
-(
 "
 Array
 of
@@ -1284,7 +1279,6 @@ least
 {
 }
 "
-)
 arraySizeBytes
 bytesNeeded
 .
@@ -2745,8 +2739,6 @@ msg
 =
 nsFmtCString
 (
-FMT_STRING
-(
 "
 Plane
 index
@@ -2765,7 +2757,6 @@ channels
 {
 }
 "
-)
 aOptions
 .
 mPlaneIndex
@@ -2844,8 +2835,6 @@ msg
 =
 nsFmtCString
 (
-FMT_STRING
-(
 "
 Frame
 offset
@@ -2861,7 +2850,6 @@ count
 {
 }
 "
-)
 aOptions
 .
 mFrameOffset
@@ -2934,8 +2922,6 @@ msg
 =
 nsFmtCString
 (
-FMT_STRING
-(
 "
 Passed
 copy
@@ -2959,7 +2945,6 @@ of
 {
 }
 "
-)
 aOptions
 .
 mFrameCount
@@ -3980,8 +3965,6 @@ detached
 return
 nsFmtCString
 (
-FMT_STRING
-(
 "
 AudioData
 [
@@ -4001,7 +3984,6 @@ x
 ch
 ]
 "
-)
 mResource
 -
 >
@@ -4044,8 +4026,6 @@ aOptions
 return
 nsFmtCString
 (
-FMT_STRING
-(
 "
 AudioDataCopyToOptions
 [
@@ -4074,7 +4054,6 @@ plane
 }
 ]
 "
-)
 aDestBufSize
 aOptions
 .
@@ -4698,8 +4677,6 @@ msg
 =
 nsFmtCString
 (
-FMT_STRING
-(
 "
 destination
 buffer
@@ -4717,7 +4694,6 @@ copying
 }
 elements
 "
-)
 destLength
 bytesPerSample
 *

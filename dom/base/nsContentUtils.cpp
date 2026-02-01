@@ -6503,8 +6503,6 @@ fmt
 :
 format
 (
-FMT_STRING
-(
 "
 The
 caller
@@ -6564,7 +6562,6 @@ child
 {
 }
 "
-)
 /
 /
 child
@@ -6593,14 +6590,11 @@ fmt
 :
 format
 (
-FMT_STRING
-(
 "
 +
 {
 }
 "
-)
 ToString
 (
 *

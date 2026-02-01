@@ -2008,11 +2008,8 @@ log_print_fmt
 (
 moz_real_module
 _level
-\
-FMT_STRING
-(
 _fmt
-)
+\
 #
 #
 __VA_ARGS__
@@ -2155,11 +2152,7 @@ log_print_fmt
 (
 _module
 _level
-FMT_STRING
-(
 _fmt
-)
-\
 #
 #
 __VA_ARGS__

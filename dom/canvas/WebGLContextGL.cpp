@@ -5730,8 +5730,6 @@ fmt
 :
 format
 (
-FMT_STRING
-(
 "
 {
 }
@@ -5739,7 +5737,6 @@ FMT_STRING
 {
 }
 "
-)
 pi
 .
 format
@@ -6031,8 +6028,6 @@ fmt
 :
 format
 (
-FMT_STRING
-(
 "
 {
 }
@@ -6045,9 +6040,7 @@ for
 format
 {
 }
-)
 "
-)
 defaultPI
 srcUsage
 -
@@ -6074,8 +6067,6 @@ fmt
 :
 format
 (
-FMT_STRING
-(
 "
 or
 {
@@ -6097,7 +6088,6 @@ IMPLEMENTATION_COLOR_READ_FORMAT
 _TYPE
 )
 "
-)
 clientImplPI
 )
 ;
@@ -6115,8 +6105,6 @@ fmt
 :
 format
 (
-FMT_STRING
-(
 "
 or
 {
@@ -6130,9 +6118,7 @@ for
 format
 {
 }
-)
 "
-)
 *
 bonusValidPi
 srcUsage

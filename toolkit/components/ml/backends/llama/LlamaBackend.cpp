@@ -671,8 +671,6 @@ msg
 =
 nsFmtCString
 (
-FMT_STRING
-(
 "
 {
 }
@@ -684,7 +682,6 @@ llama
 runtime
 linker
 "
-)
 __PRETTY_FUNCTION__
 )
 ;
@@ -964,8 +961,6 @@ msg
 =
 nsFmtCString
 (
-FMT_STRING
-(
 "
 {
 }
@@ -978,7 +973,6 @@ model
 during
 initialization
 "
-)
 __PRETTY_FUNCTION__
 )
 ;
@@ -1381,8 +1375,6 @@ msg
 =
 nsFmtCString
 (
-FMT_STRING
-(
 "
 {
 }
@@ -1395,7 +1387,6 @@ llama_context
 {
 }
 "
-)
 __PRETTY_FUNCTION__
 mModelGeneralName
 )
@@ -1605,8 +1596,6 @@ msg
 =
 nsFmtCString
 (
-FMT_STRING
-(
 "
 {
 }
@@ -1624,7 +1613,6 @@ n_threads
 {
 }
 "
-)
 __PRETTY_FUNCTION__
 ctxParams
 .
@@ -1698,8 +1686,6 @@ msg
 =
 nsFmtCString
 (
-FMT_STRING
-(
 "
 {
 }
@@ -1716,7 +1702,6 @@ n_threads
 {
 }
 "
-)
 __PRETTY_FUNCTION__
 ctxParams
 .
@@ -1887,8 +1872,6 @@ msg
 =
 nsFmtCString
 (
-FMT_STRING
-(
 "
 {
 }
@@ -1902,7 +1885,6 @@ to
 format
 chat
 "
-)
 __PRETTY_FUNCTION__
 )
 ;
@@ -2253,8 +2235,6 @@ msg
 =
 nsFmtCString
 (
-FMT_STRING
-(
 "
 {
 }
@@ -2266,7 +2246,6 @@ the
 chat
 template
 "
-)
 __PRETTY_FUNCTION__
 )
 ;
@@ -2821,8 +2800,6 @@ msg
 =
 nsFmtCString
 (
-FMT_STRING
-(
 "
 {
 }
@@ -2831,7 +2808,6 @@ Unimplemented
 sampler
 type
 "
-)
 __PRETTY_FUNCTION__
 )
 ;
@@ -3046,8 +3022,6 @@ msg
 =
 nsFmtCString
 (
-FMT_STRING
-(
 "
 {
 }
@@ -3058,7 +3032,6 @@ Model
 not
 loaded
 "
-)
 __PRETTY_FUNCTION__
 )
 ;
@@ -3129,8 +3102,6 @@ msg
 =
 nsFmtCString
 (
-FMT_STRING
-(
 "
 {
 }
@@ -3144,7 +3115,6 @@ model
 vocabulary
 .
 "
-)
 __PRETTY_FUNCTION__
 )
 ;
@@ -3344,8 +3314,6 @@ msg
 =
 nsFmtCString
 (
-FMT_STRING
-(
 "
 {
 }
@@ -3358,7 +3326,6 @@ prompt
 {
 }
 "
-)
 __PRETTY_FUNCTION__
 mModelGeneralName
 )
@@ -3838,8 +3805,6 @@ msg
 =
 nsFmtCString
 (
-FMT_STRING
-(
 "
 {
 }
@@ -3851,7 +3816,6 @@ stopTokens
 {
 }
 "
-)
 __PRETTY_FUNCTION__
 mModelGeneralName
 )
@@ -4053,8 +4017,6 @@ msg
 =
 nsFmtCString
 (
-FMT_STRING
-(
 "
 {
 }
@@ -4075,7 +4037,6 @@ Needed
 {
 }
 "
-)
 __PRETTY_FUNCTION__
 nCtx
 nCtxUsed
@@ -4151,8 +4112,6 @@ msg
 =
 nsFmtCString
 (
-FMT_STRING
-(
 "
 {
 }
@@ -4163,7 +4122,6 @@ decode
 {
 }
 "
-)
 __PRETTY_FUNCTION__
 mModelGeneralName
 )
@@ -4578,8 +4536,6 @@ msg
 =
 nsFmtCString
 (
-FMT_STRING
-(
 "
 {
 }
@@ -4594,7 +4550,6 @@ piece
 {
 }
 "
-)
 __PRETTY_FUNCTION__
 mModelGeneralName
 )

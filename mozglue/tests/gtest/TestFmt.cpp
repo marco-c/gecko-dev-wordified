@@ -838,13 +838,10 @@ fmt
 format_to
 (
 bufFmt
-FMT_STRING
-(
 "
 {
 }
 "
-)
 fmt
 :
 :
@@ -931,8 +928,6 @@ fmt
 format_to
 (
 bufFmt
-FMT_STRING
-(
 "
 {
 :
@@ -940,7 +935,6 @@ FMT_STRING
 04x
 }
 "
-)
 fmt
 :
 :
@@ -1031,6 +1025,9 @@ std
 string
 temp
 ;
+fmt
+:
+:
 format_to
 (
 std
@@ -1040,8 +1037,6 @@ back_inserter
 (
 temp
 )
-FMT_STRING
-(
 "
 POD
 :
@@ -1054,7 +1049,6 @@ mB
 {
 }
 "
-)
 aPod
 .
 mA
@@ -1098,8 +1092,6 @@ fmt
 :
 format
 (
-FMT_STRING
-(
 "
 POD2
 :
@@ -1112,7 +1104,6 @@ mB
 {
 }
 "
-)
 aInstance
 .
 mA
@@ -1168,13 +1159,10 @@ fmt
 format_to
 (
 bufFmt
-FMT_STRING
-(
 "
 {
 }
 "
-)
 p
 )
 ;
@@ -1214,8 +1202,6 @@ fmt
 format_to
 (
 bufFmt
-FMT_STRING
-(
 "
 {
 :
@@ -1223,7 +1209,6 @@ FMT_STRING
 30
 }
 "
-)
 p
 )
 ;
@@ -1263,8 +1248,6 @@ fmt
 format_to
 (
 bufFmt
-FMT_STRING
-(
 "
 {
 :
@@ -1272,7 +1255,6 @@ FMT_STRING
 30
 }
 "
-)
 p2
 )
 ;
@@ -1310,8 +1292,6 @@ nsString
 nsFmtCString
 str
 (
-FMT_STRING
-(
 "
 {
 }
@@ -1320,7 +1300,6 @@ FMT_STRING
 {
 }
 "
-)
 4
 4
 .
@@ -1351,8 +1330,6 @@ get
 nsFmtString
 str
 (
-FMT_STRING
-(
 u
 "
 tonnant
@@ -1363,7 +1340,6 @@ tonnant
 {
 }
 "
-)
 u
 "
 tienne
@@ -1403,8 +1379,6 @@ str
 .
 AppendFmt
 (
-FMT_STRING
-(
 u
 "
 tonnant
@@ -1415,7 +1389,6 @@ tonnant
 {
 }
 "
-)
 u
 "
 tienne
@@ -1455,8 +1428,6 @@ str
 .
 AppendFmt
 (
-FMT_STRING
-(
 "
 {
 }
@@ -1465,7 +1436,6 @@ FMT_STRING
 {
 }
 "
-)
 4
 4
 .
@@ -1527,13 +1497,10 @@ fmt
 format_to
 (
 too_short_buf
-FMT_STRING
-(
 "
 {
 }
 "
-)
 too_long_buf
 )
 ;
@@ -1562,8 +1529,6 @@ fmt
 :
 print
 (
-FMT_STRING
-(
 "
 {
 }
@@ -1574,7 +1539,6 @@ FMT_STRING
 \
 n
 "
-)
 too_short_buf
 fmt
 :
@@ -1604,13 +1568,10 @@ sizeof
 (
 too_short_buf
 )
-FMT_STRING
-(
 "
 {
 }
 "
-)
 too_long_buf
 )
 ;
@@ -1636,8 +1597,6 @@ fmt
 :
 print
 (
-FMT_STRING
-(
 "
 {
 }
@@ -1648,7 +1607,6 @@ FMT_STRING
 \
 n
 "
-)
 too_short_buf
 fmt
 :
@@ -1686,13 +1644,10 @@ fmt
 format_to
 (
 str
-FMT_STRING
-(
 "
 {
 }
 "
-)
 (
 char
 *
@@ -1805,14 +1760,11 @@ fmt
 println
 (
 duped
-FMT_STRING
-(
 "
 Hi
 {
 }
 "
-)
 14
 )
 ;

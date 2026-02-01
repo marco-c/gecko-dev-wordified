@@ -2697,8 +2697,6 @@ fmt
 :
 println
 (
-FMT_STRING
-(
 "
 {
 }
@@ -2711,7 +2709,6 @@ hasFloats
 {
 }
 "
-)
 __func__
 ToString
 (
@@ -2916,8 +2913,6 @@ fmt
 :
 println
 (
-FMT_STRING
-(
 "
 {
 }
@@ -2930,7 +2925,6 @@ hasFloats
 {
 }
 "
-)
 __func__
 ToString
 (

@@ -286,8 +286,6 @@ IsUserContextSuffix
 (
 nsFmtCString
 (
-FMT_STRING
-(
 "
 ^
 userContextId
@@ -295,7 +293,6 @@ userContextId
 {
 }
 "
-)
 userContextId
 )
 userContextId
@@ -308,8 +305,6 @@ IsUserContextSuffix
 (
 nsFmtCString
 (
-FMT_STRING
-(
 "
 ^
 inBrowser
@@ -321,7 +316,6 @@ userContextId
 {
 }
 "
-)
 userContextId
 )
 userContextId
@@ -424,8 +418,6 @@ Init
 (
 nsFmtString
 (
-FMT_STRING
-(
 u
 "
 {
@@ -441,7 +433,6 @@ userContextId
 }
 }
 "
-)
 userContextId
 )
 )
@@ -466,8 +457,6 @@ Init
 (
 nsFmtString
 (
-FMT_STRING
-(
 u
 "
 {
@@ -489,7 +478,6 @@ privateBrowsingId
 }
 }
 "
-)
 userContextId
 )
 )
