@@ -394,6 +394,13 @@ buildId
 string
 ;
 }
+/
+*
+*
+*
+public
+*
+/
 export
 interface
 Metadata

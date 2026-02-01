@@ -25,7 +25,9 @@ Apache
 /
 import
 type
-PuppeteerUtil
+{
+PuppeteerInjectedUtil
+}
 from
 '
 .
@@ -731,7 +733,7 @@ interpolateFunction
 (
 PuppeteerUtil
 :
-PuppeteerUtil
+PuppeteerInjectedUtil
 )
 =
 >

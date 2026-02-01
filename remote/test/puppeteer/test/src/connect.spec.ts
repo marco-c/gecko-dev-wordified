@@ -372,8 +372,16 @@ one
 of
 browserWSEndpoint
 browserURL
-or
 transport
+or
+channel
+must
+be
+passed
+to
+puppeteer
+.
+connect
 '
 )
 ;

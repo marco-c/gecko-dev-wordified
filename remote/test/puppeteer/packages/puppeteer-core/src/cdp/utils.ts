@@ -639,6 +639,8 @@ ExceptionDetails
 )
 :
 Error
+|
+unknown
 {
 let
 name
@@ -943,7 +945,7 @@ Runtime
 RemoteObject
 )
 :
-any
+unknown
 {
 assert
 (

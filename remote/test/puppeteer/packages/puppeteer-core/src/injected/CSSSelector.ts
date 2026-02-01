@@ -23,6 +23,13 @@ Apache
 0
 *
 /
+/
+*
+*
+*
+internal
+*
+/
 export
 const
 cssQuerySelector
@@ -62,6 +69,13 @@ selector
 ;
 }
 ;
+/
+*
+*
+*
+internal
+*
+/
 export
 const
 cssQuerySelectorAll

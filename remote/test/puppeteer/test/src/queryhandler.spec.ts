@@ -86,6 +86,19 @@ utils
 js
 '
 ;
+import
+{
+html
+}
+from
+'
+.
+/
+utils
+.
+js
+'
+;
 describe
 (
 '
@@ -726,7 +739,7 @@ page
 .
 setContent
 (
-'
+html
 <
 section
 >
@@ -735,7 +748,6 @@ test
 /
 section
 >
-'
 )
 ;
 expect
@@ -876,7 +888,7 @@ page
 .
 setContent
 (
-'
+html
 <
 div
 id
@@ -898,7 +910,6 @@ a
 /
 div
 >
-'
 )
 ;
 using
@@ -975,7 +986,7 @@ page
 .
 setContent
 (
-'
+html
 <
 div
 >
@@ -992,7 +1003,6 @@ a
 /
 div
 >
-'
 )
 ;
 const
@@ -1225,7 +1235,7 @@ page
 .
 setContent
 (
-'
+html
 <
 div
 >
@@ -1249,7 +1259,6 @@ div
 /
 div
 >
-'
 )
 ;
 using
@@ -1325,7 +1334,7 @@ page
 .
 setContent
 (
-'
+html
 <
 input
 value
@@ -1333,8 +1342,8 @@ value
 "
 a
 "
+/
 >
-'
 )
 ;
 using
@@ -1418,7 +1427,7 @@ page
 .
 setContent
 (
-'
+html
 <
 radio
 value
@@ -1427,7 +1436,10 @@ value
 a
 "
 >
-'
+<
+/
+radio
+>
 )
 ;
 expect
@@ -1482,7 +1494,7 @@ page
 .
 setContent
 (
-'
+html
 <
 div
 >
@@ -1503,9 +1515,9 @@ b
 span
 >
 <
+/
 div
 >
-'
 )
 ;
 using
@@ -1583,12 +1595,14 @@ page
 .
 setContent
 (
-'
+html
 <
 div
 id
 =
+"
 target1
+"
 >
 text
 <
@@ -1599,23 +1613,29 @@ div
 input
 id
 =
+"
 target2
+"
 value
 =
+"
 text
+"
+/
 >
 <
 div
 id
 =
+"
 target3
+"
 >
 text
 <
 /
 div
 >
-'
 )
 ;
 using
@@ -2044,7 +2064,7 @@ page
 .
 setContent
 (
-'
+html
 <
 div
 class
@@ -2065,7 +2085,6 @@ span
 /
 div
 >
-'
 )
 ;
 using
@@ -2152,7 +2171,7 @@ page
 .
 setContent
 (
-'
+html
 <
 div
 class
@@ -2165,7 +2184,6 @@ a
 /
 div
 >
-'
 )
 ;
 using
@@ -2274,7 +2292,7 @@ page
 .
 setContent
 (
-'
+html
 <
 section
 >
@@ -2283,7 +2301,6 @@ test
 /
 section
 >
-'
 )
 ;
 expect
@@ -2448,7 +2465,7 @@ page
 .
 setContent
 (
-'
+html
 <
 div
 >
@@ -2464,7 +2481,6 @@ div
 /
 div
 >
-'
 )
 ;
 using
@@ -2548,7 +2564,7 @@ page
 .
 setContent
 (
-'
+html
 <
 div
 >
@@ -2563,7 +2579,6 @@ div
 /
 div
 >
-'
 )
 ;
 const
@@ -2639,7 +2654,7 @@ page
 .
 setContent
 (
-'
+html
 <
 div
 class
@@ -2660,7 +2675,6 @@ span
 /
 div
 >
-'
 )
 ;
 using
@@ -2747,7 +2761,7 @@ page
 .
 setContent
 (
-'
+html
 <
 div
 class
@@ -2761,7 +2775,6 @@ a
 /
 div
 >
-'
 )
 ;
 using

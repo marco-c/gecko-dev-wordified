@@ -538,6 +538,6 @@ licenseHeader
 )
 ;
 export
-=
+default
 enforceLicenseRule
 ;

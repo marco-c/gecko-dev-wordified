@@ -1171,7 +1171,7 @@ timeout
 .
 rejects
 .
-toThrowError
+toThrow
 (
 /
 Increase

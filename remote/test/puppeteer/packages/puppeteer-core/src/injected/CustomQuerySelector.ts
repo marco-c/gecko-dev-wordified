@@ -58,6 +58,13 @@ types
 js
 '
 ;
+/
+*
+*
+*
+public
+*
+/
 export
 interface
 CustomQuerySelector
@@ -360,6 +367,13 @@ clear
 ;
 }
 }
+/
+*
+*
+*
+internal
+*
+/
 export
 const
 customQuerySelectors

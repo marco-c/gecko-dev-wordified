@@ -551,9 +551,14 @@ Configuration
 =
 result
 ?
+{
+.
+.
+.
 result
 .
 config
+}
 :
 {
 }

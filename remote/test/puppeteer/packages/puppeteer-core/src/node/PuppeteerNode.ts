@@ -347,14 +347,6 @@ puppeteer
 ;
 *
 *
-(
-async
-(
-)
-=
->
-{
-*
 const
 browser
 =
@@ -408,12 +400,6 @@ await
 browser
 .
 close
-(
-)
-;
-*
-}
-)
 (
 )
 ;

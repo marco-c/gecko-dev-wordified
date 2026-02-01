@@ -75,6 +75,19 @@ utils
 js
 '
 ;
+import
+{
+html
+}
+from
+'
+.
+/
+utils
+.
+js
+'
+;
 describe
 (
 '
@@ -126,7 +139,7 @@ page
 .
 setContent
 (
-'
+html
 <
 section
 id
@@ -140,7 +153,6 @@ testAttribute
 /
 section
 >
-'
 )
 ;
 const
@@ -209,7 +221,7 @@ page
 .
 setContent
 (
-'
+html
 <
 section
 >
@@ -218,7 +230,6 @@ hello
 /
 section
 >
-'
 )
 ;
 const
@@ -301,7 +312,7 @@ page
 .
 setContent
 (
-'
+html
 <
 section
 >
@@ -318,7 +329,6 @@ world
 /
 div
 >
-'
 )
 ;
 using
@@ -569,7 +579,7 @@ page
 .
 setContent
 (
-'
+html
 <
 div
 >
@@ -595,7 +605,6 @@ world
 /
 div
 >
-'
 )
 ;
 const
@@ -663,7 +672,7 @@ page
 .
 setContent
 (
-'
+html
 <
 div
 >
@@ -689,7 +698,6 @@ world
 /
 div
 >
-'
 )
 ;
 const
@@ -776,7 +784,7 @@ page
 .
 setContent
 (
-'
+html
 <
 section
 >
@@ -809,7 +817,6 @@ div
 /
 div
 >
-'
 )
 ;
 using
@@ -1078,7 +1085,7 @@ page
 .
 setContent
 (
-'
+html
 <
 section
 >
@@ -1087,7 +1094,6 @@ test
 /
 section
 >
-'
 )
 ;
 using
@@ -1219,7 +1225,7 @@ page
 .
 setContent
 (
-'
+html
 <
 div
 >
@@ -1240,7 +1246,6 @@ B
 /
 div
 >
-'
 )
 ;
 const
@@ -1354,7 +1359,7 @@ page
 .
 setContent
 (
-'
+html
 <
 div
 >
@@ -1375,7 +1380,6 @@ B
 /
 div
 >
-'
 )
 ;
 const
@@ -1565,7 +1569,7 @@ page
 .
 setContent
 (
-'
+html
 <
 section
 >
@@ -1574,7 +1578,6 @@ test
 /
 section
 >
-'
 )
 ;
 const
@@ -1714,7 +1717,7 @@ page
 .
 setContent
 (
-'
+html
 <
 div
 >
@@ -1729,7 +1732,6 @@ div
 /
 div
 >
-'
 )
 ;
 const
@@ -1826,7 +1828,7 @@ page
 .
 setContent
 (
-'
+html
 <
 html
 >
@@ -1866,11 +1868,10 @@ body
 /
 html
 >
-'
 )
 ;
 using
-html
+htmlEl
 =
 (
 await
@@ -1889,7 +1890,7 @@ second
 =
 (
 await
-html
+htmlEl
 .
 (
 '
@@ -1983,7 +1984,7 @@ page
 .
 setContent
 (
-'
+html
 <
 html
 >
@@ -2023,11 +2024,10 @@ body
 /
 html
 >
-'
 )
 ;
 using
-html
+htmlEl
 =
 (
 await
@@ -2045,7 +2045,7 @@ using
 second
 =
 await
-html
+htmlEl
 .
 (
 '
@@ -2108,7 +2108,7 @@ page
 .
 setContent
 (
-'
+html
 <
 html
 >
@@ -2161,7 +2161,6 @@ body
 /
 html
 >
-'
 )
 ;
 using
@@ -2307,7 +2306,10 @@ page
 .
 setContent
 (
+html
+{
 htmlContent
+}
 )
 ;
 using
@@ -2442,7 +2444,10 @@ page
 .
 setContent
 (
+html
+{
 htmlContent
+}
 )
 ;
 using
@@ -2568,7 +2573,7 @@ page
 .
 setContent
 (
-'
+html
 <
 html
 >
@@ -2621,7 +2626,6 @@ body
 /
 html
 >
-'
 )
 ;
 using
@@ -2803,7 +2807,10 @@ page
 .
 setContent
 (
+html
+{
 htmlContent
+}
 )
 ;
 using
@@ -2962,7 +2969,10 @@ page
 .
 setContent
 (
+html
+{
 htmlContent
+}
 )
 ;
 using
@@ -3060,7 +3070,7 @@ page
 .
 setContent
 (
-'
+html
 <
 html
 >
@@ -3095,11 +3105,10 @@ body
 /
 html
 >
-'
 )
 ;
 using
-html
+htmlEl
 =
 (
 await
@@ -3117,7 +3126,7 @@ const
 elements
 =
 await
-html
+htmlEl
 .
 (
 '
@@ -3227,7 +3236,7 @@ page
 .
 setContent
 (
-'
+html
 <
 html
 >
@@ -3262,11 +3271,10 @@ body
 /
 html
 >
-'
 )
 ;
 using
-html
+htmlEl
 =
 (
 await
@@ -3284,7 +3292,7 @@ const
 elements
 =
 await
-html
+htmlEl
 .
 (
 '
@@ -3361,7 +3369,7 @@ page
 .
 setContent
 (
-'
+html
 <
 html
 >
@@ -3401,11 +3409,10 @@ body
 /
 html
 >
-'
 )
 ;
 using
-html
+htmlEl
 =
 (
 await
@@ -3423,7 +3430,7 @@ const
 second
 =
 await
-html
+htmlEl
 .
 (
 xpath
@@ -3544,7 +3551,7 @@ page
 .
 setContent
 (
-'
+html
 <
 html
 >
@@ -3584,11 +3591,10 @@ body
 /
 html
 >
-'
 )
 ;
 using
-html
+htmlEl
 =
 (
 await
@@ -3606,7 +3612,7 @@ const
 second
 =
 await
-html
+htmlEl
 .
 (
 xpath
@@ -3803,7 +3809,7 @@ page
 .
 setContent
 (
-'
+html
 <
 html
 >
@@ -3838,11 +3844,10 @@ body
 /
 html
 >
-'
 )
 ;
 using
-html
+htmlEl
 =
 (
 await
@@ -3860,7 +3865,7 @@ const
 elements
 =
 await
-html
+htmlEl
 .
 (
 '
@@ -3972,7 +3977,7 @@ page
 .
 setContent
 (
-'
+html
 <
 html
 >
@@ -4007,11 +4012,10 @@ body
 /
 html
 >
-'
 )
 ;
 using
-html
+htmlEl
 =
 (
 await
@@ -4029,7 +4033,7 @@ const
 elements
 =
 await
-html
+htmlEl
 .
 (
 '
@@ -4080,7 +4084,7 @@ page
 .
 setContent
 (
-'
+html
 <
 div
 >
@@ -4106,7 +4110,6 @@ world
 /
 div
 >
-'
 )
 ;
 const
@@ -4177,7 +4180,7 @@ page
 .
 setContent
 (
-'
+html
 <
 div
 >
@@ -4203,7 +4206,6 @@ world
 /
 div
 >
-'
 )
 ;
 const
@@ -4293,7 +4295,7 @@ page
 .
 setContent
 (
-'
+html
 <
 section
 >
@@ -4326,7 +4328,6 @@ div
 /
 div
 >
-'
 )
 ;
 using

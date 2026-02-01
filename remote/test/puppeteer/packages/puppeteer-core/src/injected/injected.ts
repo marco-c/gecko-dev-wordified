@@ -252,8 +252,9 @@ RAFPoller
 internal
 *
 /
+export
 type
-PuppeteerUtil
+PuppeteerInjectedUtil
 =
 typeof
 PuppeteerUtil

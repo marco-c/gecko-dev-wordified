@@ -352,6 +352,7 @@ disable
 features
 =
 NetworkTimeServiceQuerying
+AimEnabled
 '
 ]
 ;

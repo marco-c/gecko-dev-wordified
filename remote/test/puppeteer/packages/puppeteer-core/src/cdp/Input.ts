@@ -3255,6 +3255,7 @@ up
 internal
 *
 /
+export
 class
 CdpTouchHandle
 implements

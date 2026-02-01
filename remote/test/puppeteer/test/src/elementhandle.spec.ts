@@ -143,6 +143,7 @@ js
 import
 {
 attachFrame
+html
 }
 from
 '
@@ -458,7 +459,7 @@ page
 .
 setContent
 (
-'
+html
 <
 div
 style
@@ -474,7 +475,6 @@ hi
 /
 div
 >
-'
 )
 ;
 using
@@ -554,7 +554,7 @@ page
 .
 setContent
 (
-'
+html
 <
 div
 style
@@ -574,7 +574,6 @@ hello
 /
 div
 >
-'
 )
 ;
 using
@@ -684,6 +683,7 @@ page
 .
 setContent
 (
+html
 <
 svg
 xmlns
@@ -762,7 +762,7 @@ page
 (
 '
 #
-therect
+theRect
 '
 )
 )
@@ -1421,7 +1421,7 @@ page
 .
 setContent
 (
-'
+html
 <
 div
 style
@@ -1437,7 +1437,6 @@ hi
 /
 div
 >
-'
 )
 ;
 using
@@ -1540,11 +1539,12 @@ page
 .
 setContent
 (
+html
 <
 div
 style
 =
-'
+"
 position
 :
 absolute
@@ -1600,12 +1600,12 @@ margin
 }
 px
 ;
-'
+"
 id
 =
-'
+"
 box
-'
+"
 >
 <
 /
@@ -2087,7 +2087,7 @@ page
 .
 setContent
 (
-'
+html
 <
 div
 style
@@ -2103,7 +2103,6 @@ text
 /
 div
 >
-'
 )
 ;
 using
@@ -3322,13 +3321,13 @@ page
 .
 setContent
 (
-'
+html
 hello
 <
 br
+/
 >
 goodbye
-'
 )
 ;
 using
@@ -4788,7 +4787,7 @@ page
 .
 setContent
 (
-'
+html
 <
 button
 style
@@ -4816,7 +4815,6 @@ left
 /
 button
 >
-'
 )
 ;
 using
@@ -4858,7 +4856,7 @@ page
 .
 setContent
 (
-'
+html
 <
 button
 style
@@ -4886,7 +4884,6 @@ right
 /
 button
 >
-'
 )
 ;
 using
@@ -4928,7 +4925,7 @@ page
 .
 setContent
 (
-'
+html
 <
 button
 style
@@ -4956,7 +4953,6 @@ top
 /
 button
 >
-'
 )
 ;
 using
@@ -4998,7 +4994,7 @@ page
 .
 setContent
 (
-'
+html
 <
 button
 style
@@ -5026,7 +5022,6 @@ bottom
 /
 button
 >
-'
 )
 ;
 using
@@ -5105,16 +5100,17 @@ page
 .
 setContent
 (
+html
 <
 iframe
 name
 =
-'
+"
 frame
-'
+"
 style
 =
-'
+"
 position
 :
 absolute
@@ -5123,7 +5119,7 @@ left
 :
 -
 100px
-'
+"
 srcdoc
 =
 "
@@ -5258,16 +5254,17 @@ page
 .
 setContent
 (
+html
 <
 iframe
 name
 =
-'
+"
 frame2
-'
+"
 style
 =
-'
+"
 position
 :
 absolute
@@ -5276,7 +5273,7 @@ top
 :
 -
 100px
-'
+"
 srcdoc
 =
 "
@@ -5815,7 +5812,7 @@ page
 .
 setContent
 (
-'
+html
 <
 div
 id
@@ -5856,7 +5853,6 @@ Foo1
 /
 div
 >
-'
 )
 ;
 using
@@ -6060,18 +6056,23 @@ page
 .
 setContent
 (
+html
 <
 div
 id
 =
+"
 el1
+"
 >
 el1
 <
 div
 id
 =
+"
 el2
+"
 >
 el2
 <
@@ -6086,7 +6087,9 @@ div
 div
 id
 =
+"
 el3
+"
 >
 el3
 <
@@ -7099,7 +7102,7 @@ page
 .
 setContent
 (
-'
+html
 <
 div
 id
@@ -7126,7 +7129,6 @@ foo
 /
 div
 >
-'
 )
 ;
 /
@@ -7485,7 +7487,7 @@ page
 .
 setContent
 (
-'
+html
 <
 div
 id
@@ -7527,7 +7529,6 @@ Foo2
 /
 div
 >
-'
 )
 ;
 Puppeteer
@@ -7680,7 +7681,7 @@ page
 .
 setContent
 (
-'
+html
 <
 div
 id
@@ -7722,7 +7723,6 @@ Foo2
 /
 div
 >
-'
 )
 ;
 Puppeteer
@@ -7905,7 +7905,7 @@ page
 .
 setContent
 (
-'
+html
 <
 div
 id
@@ -7933,7 +7933,6 @@ Foo1
 /
 div
 >
-'
 )
 ;
 const
@@ -8081,7 +8080,7 @@ page
 .
 setContent
 (
-'
+html
 <
 div
 id
@@ -8122,7 +8121,6 @@ Foo1
 /
 div
 >
-'
 )
 ;
 using
@@ -8313,7 +8311,7 @@ page
 .
 setContent
 (
-'
+html
 <
 div
 id
@@ -8350,7 +8348,10 @@ class
 "
 foo
 "
+>
+<
 /
+div
 >
 <
 /
@@ -8370,7 +8371,6 @@ Foo2
 /
 div
 >
-'
 )
 ;
 Puppeteer
@@ -8526,7 +8526,7 @@ page
 .
 setContent
 (
-'
+html
 <
 div
 id
@@ -8568,7 +8568,6 @@ content
 /
 div
 >
-'
 )
 ;
 Puppeteer
@@ -8762,7 +8761,7 @@ page
 .
 setContent
 (
-'
+html
 <
 div
 id
@@ -8789,7 +8788,6 @@ foo
 /
 div
 >
-'
 )
 ;
 Puppeteer
@@ -8927,7 +8925,7 @@ page
 .
 setContent
 (
-'
+html
 <
 div
 class
@@ -8941,7 +8939,6 @@ Foo1
 /
 div
 >
-'
 )
 ;
 using
@@ -9028,6 +9025,7 @@ page
 .
 setContent
 (
+html
 <
 button
 >

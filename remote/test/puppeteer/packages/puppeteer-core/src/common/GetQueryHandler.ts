@@ -30,9 +30,6 @@ ARIAQueryHandler
 from
 '
 .
-.
-/
-cdp
 /
 AriaQueryHandler
 .

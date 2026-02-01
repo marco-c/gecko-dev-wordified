@@ -84,6 +84,10 @@ devkit
 schematics
 /
 testing
+/
+index
+.
+js
 '
 ;
 import
@@ -545,7 +549,11 @@ schematics
 '
 join
 (
-__dirname
+import
+.
+meta
+.
+dirname
 '
 .
 .
@@ -806,7 +814,11 @@ schematics
 '
 join
 (
-__dirname
+import
+.
+meta
+.
+dirname
 '
 .
 .

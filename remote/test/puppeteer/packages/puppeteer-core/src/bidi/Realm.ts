@@ -29,19 +29,11 @@ as
 Bidi
 from
 '
-chromium
+webdriver
 -
 bidi
-/
-lib
-/
-cjs
-/
+-
 protocol
-/
-protocol
-.
-js
 '
 ;
 import
@@ -86,7 +78,7 @@ from
 .
 .
 /
-cdp
+common
 /
 AriaQueryHandler
 .
@@ -183,7 +175,9 @@ js
 ;
 import
 type
-PuppeteerUtil
+{
+PuppeteerInjectedUtil
+}
 from
 '
 .
@@ -498,7 +492,7 @@ Promise
 <
 BidiJSHandle
 <
-PuppeteerUtil
+PuppeteerInjectedUtil
 >
 >
 ;
@@ -511,7 +505,7 @@ Promise
 <
 BidiJSHandle
 <
-PuppeteerUtil
+PuppeteerInjectedUtil
 >
 >
 {
@@ -591,7 +585,7 @@ Promise
 <
 BidiJSHandle
 <
-PuppeteerUtil
+PuppeteerInjectedUtil
 >
 >
 ;
@@ -614,7 +608,7 @@ Promise
 <
 BidiJSHandle
 <
-PuppeteerUtil
+PuppeteerInjectedUtil
 >
 >
 ;
@@ -1947,7 +1941,7 @@ Promise
 <
 BidiJSHandle
 <
-PuppeteerUtil
+PuppeteerInjectedUtil
 >
 >
 {
@@ -1988,8 +1982,6 @@ from
 this
 .
 environment
-as
-BidiFrame
 '
 __ariaQuerySelector
 '
@@ -2009,8 +2001,6 @@ from
 this
 .
 environment
-as
-BidiFrame
 '
 __ariaQuerySelectorAll
 '

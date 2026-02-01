@@ -616,7 +616,11 @@ path
 .
 join
 (
-__dirname
+import
+.
+meta
+.
+dirname
 '
 diffstyle
 .

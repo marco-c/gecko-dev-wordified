@@ -79,6 +79,13 @@ Node
 ;
 }
 }
+/
+*
+*
+*
+internal
+*
+/
 export
 const
 ariaQuerySelector
@@ -135,6 +142,13 @@ selector
 ;
 }
 ;
+/
+*
+*
+*
+internal
+*
+/
 export
 const
 ariaQuerySelectorAll

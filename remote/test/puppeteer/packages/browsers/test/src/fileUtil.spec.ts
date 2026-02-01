@@ -74,7 +74,7 @@ from
 /
 lib
 /
-cjs
+esm
 /
 fileUtil
 .
@@ -111,7 +111,11 @@ path
 .
 join
 (
-__dirname
+import
+.
+meta
+.
+dirname
 '
 .
 .

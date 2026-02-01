@@ -100,7 +100,7 @@ from
 /
 lib
 /
-cjs
+esm
 /
 launch
 .
@@ -121,7 +121,7 @@ from
 /
 lib
 /
-cjs
+esm
 /
 main
 .
@@ -251,7 +251,11 @@ path
 .
 join
 (
-__dirname
+import
+.
+meta
+.
+dirname
 '
 .
 .
@@ -301,7 +305,7 @@ setupTestServer
 (
 )
 :
-void
+ServerState
 {
 before
 (
@@ -349,6 +353,11 @@ undefined
 ;
 }
 )
+;
+return
+state
+as
+ServerState
 ;
 }
 export

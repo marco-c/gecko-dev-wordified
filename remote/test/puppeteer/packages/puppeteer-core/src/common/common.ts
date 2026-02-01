@@ -46,6 +46,17 @@ js
 '
 ;
 export
+*
+from
+'
+.
+/
+AriaQueryHandler
+.
+js
+'
+;
+export
 type
 *
 from

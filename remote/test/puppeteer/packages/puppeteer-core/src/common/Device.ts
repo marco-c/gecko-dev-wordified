@@ -10508,14 +10508,6 @@ Pro
 ;
 *
 *
-(
-async
-(
-)
-=
->
-{
-*
 const
 browser
 =
@@ -10578,12 +10570,6 @@ await
 browser
 .
 close
-(
-)
-;
-*
-}
-)
 (
 )
 ;

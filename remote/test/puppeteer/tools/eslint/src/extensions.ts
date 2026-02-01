@@ -273,6 +273,6 @@ js
 )
 ;
 export
-=
+default
 enforceExtensionRule
 ;

@@ -89,14 +89,6 @@ puppeteer
 ;
 *
 *
-(
-async
-(
-)
-=
->
-{
-*
 const
 browser
 =
@@ -164,6 +156,7 @@ close
 )
 ;
 *
+await
 page
 .
 evaluate
@@ -178,12 +171,6 @@ alert
 1
 '
 )
-)
-;
-*
-}
-)
-(
 )
 ;
 *

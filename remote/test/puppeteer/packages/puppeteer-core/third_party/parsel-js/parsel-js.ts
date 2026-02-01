@@ -3,7 +3,7 @@
 esline
 -
 disable
-rulesdir
+puppeteer
 /
 check
 -

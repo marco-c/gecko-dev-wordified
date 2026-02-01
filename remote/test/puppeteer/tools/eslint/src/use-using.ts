@@ -469,6 +469,6 @@ using
 )
 ;
 export
-=
+default
 useUsingRule
 ;

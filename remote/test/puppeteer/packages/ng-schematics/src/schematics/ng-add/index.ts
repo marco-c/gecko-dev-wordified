@@ -55,6 +55,10 @@ devkit
 schematics
 /
 tasks
+/
+index
+.
+js
 '
 ;
 import

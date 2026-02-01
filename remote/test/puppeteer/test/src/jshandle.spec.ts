@@ -92,6 +92,19 @@ utils
 js
 '
 ;
+import
+{
+html
+}
+from
+'
+.
+/
+utils
+.
+js
+'
+;
 describe
 (
 '
@@ -1671,7 +1684,7 @@ page
 .
 setContent
 (
-'
+html
 <
 div
 >
@@ -1681,7 +1694,6 @@ ee
 /
 div
 >
-'
 )
 ;
 using
