@@ -1232,7 +1232,7 @@ gViaductLogger
 LogLevel
 :
 :
-Trace
+Info
 (
 "
 TRACE
@@ -1377,7 +1377,7 @@ gViaductLogger
 LogLevel
 :
 :
-Trace
+Info
 (
 "
 TRACE
@@ -1569,7 +1569,7 @@ gViaductLogger
 LogLevel
 :
 :
-Trace
+Error
 (
 "
 TRACE
@@ -1613,7 +1613,7 @@ gViaductLogger
 LogLevel
 :
 :
-Trace
+Info
 (
 "
 TRACE
@@ -1646,6 +1646,8 @@ LogLevel
 Error
 (
 "
+TRACE
+:
 HandleError
 called
 but
@@ -1674,7 +1676,7 @@ gViaductLogger
 LogLevel
 :
 :
-Trace
+Info
 (
 "
 TRACE
@@ -1774,7 +1776,7 @@ gViaductLogger
 LogLevel
 :
 :
-Trace
+Info
 (
 "
 TRACE
@@ -1878,7 +1880,7 @@ gViaductLogger
 LogLevel
 :
 :
-Trace
+Info
 (
 "
 TRACE
@@ -1983,7 +1985,7 @@ gViaductLogger
 LogLevel
 :
 :
-Trace
+Info
 (
 "
 TRACE
@@ -2077,7 +2079,7 @@ gViaductLogger
 LogLevel
 :
 :
-Trace
+Info
 (
 "
 TRACE
@@ -2131,7 +2133,7 @@ gViaductLogger
 LogLevel
 :
 :
-Trace
+Info
 (
 "
 TRACE
@@ -2173,7 +2175,7 @@ gViaductLogger
 LogLevel
 :
 :
-Trace
+Info
 (
 "
 TRACE
@@ -2242,7 +2244,7 @@ gViaductLogger
 LogLevel
 :
 :
-Trace
+Info
 (
 "
 TRACE
@@ -2507,7 +2509,7 @@ gViaductLogger
 LogLevel
 :
 :
-Trace
+Info
 (
 "
 TRACE
@@ -2906,6 +2908,8 @@ LogLevel
 Warning
 (
 "
+TRACE
+:
 Request
 timeout
 fired
