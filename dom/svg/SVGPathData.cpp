@@ -5782,7 +5782,10 @@ y
 SVGMark
 :
 :
-eMid
+Type
+:
+:
+Mid
 )
 )
 ;
@@ -5903,7 +5906,10 @@ type
 SVGMark
 :
 :
-eEnd
+Type
+:
+:
+End
 ;
 aMarks
 -
@@ -5918,7 +5924,10 @@ type
 SVGMark
 :
 :
-eStart
+Type
+:
+:
+Start
 ;
 }
 }

@@ -653,7 +653,10 @@ py
 SVGMark
 :
 :
-eStart
+Type
+:
+:
+Start
 )
 )
 ;
@@ -810,7 +813,10 @@ y
 SVGMark
 :
 :
-eMid
+Type
+:
+:
+Mid
 )
 )
 ;
@@ -850,7 +856,10 @@ type
 SVGMark
 :
 :
-eEnd
+Type
+:
+:
+End
 ;
 }
 bool
