@@ -16740,12 +16740,9 @@ baselineShift
 frame
 -
 >
-StyleDisplay
+BaselineShift
 (
 )
--
->
-mBaselineShift
 ;
 Maybe
 <
