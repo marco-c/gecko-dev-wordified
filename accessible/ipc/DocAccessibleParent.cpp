@@ -5031,12 +5031,6 @@ IPC_OK
 )
 ;
 }
-#
-if
-defined
-(
-ANDROID
-)
 PlatformAnnouncementEvent
 (
 target
@@ -5044,8 +5038,6 @@ aAnnouncement
 aPriority
 )
 ;
-#
-endif
 if
 (
 !
