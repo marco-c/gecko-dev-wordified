@@ -772,7 +772,10 @@ value
 )
 {
 return
-CALC_PACED
+SMILCalcMode
+:
+:
+Paced
 ;
 /
 /
@@ -2503,7 +2506,10 @@ GetCalcMode
 )
 =
 =
-CALC_PACED
+SMILCalcMode
+:
+:
+Paced
 )
 {
 SetKeyPointsErrorFlag
