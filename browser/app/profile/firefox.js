@@ -33036,7 +33036,7 @@ tabs
 .
 remoteSVGIconDecoding
 "
-true
+false
 )
 ;
 /
