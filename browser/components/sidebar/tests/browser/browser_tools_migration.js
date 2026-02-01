@@ -123,6 +123,11 @@ enabled
 }
 )
 ;
+await
+ensureSidebarLauncherIsVisible
+(
+)
+;
 }
 )
 ;
