@@ -115,6 +115,12 @@ MPL
 *
 /
 #
+ifndef
+XPCModule_h_
+#
+define
+XPCModule_h_
+#
 include
 "
 xpcprivate
@@ -209,3 +215,8 @@ xpcModuleDtor
 (
 )
 ;
+#
+endif
+/
+/
+XPCModule_h_

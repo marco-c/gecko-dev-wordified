@@ -94,6 +94,12 @@ MPL
 *
 /
 #
+ifndef
+threading_CpuCount_h
+#
+define
+threading_CpuCount_h
+#
 include
 <
 inttypes
@@ -149,3 +155,8 @@ GetCPUCount
 /
 namespace
 js
+#
+endif
+/
+/
+threading_CpuCount_h
