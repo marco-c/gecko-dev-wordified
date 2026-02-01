@@ -1530,7 +1530,7 @@ pref
 *
 param
 {
-nsISearchEngine
+SearchEngine
 }
 options
 .
@@ -1929,7 +1929,7 @@ pref
 *
 param
 {
-nsISearchEngine
+SearchEngine
 }
 options
 .

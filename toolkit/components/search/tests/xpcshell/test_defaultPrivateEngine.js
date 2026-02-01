@@ -933,7 +933,7 @@ something
 which
 is
 an
-nsISearchEngine
+SearchEngine
 but
 doesn
 '

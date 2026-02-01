@@ -1591,7 +1591,7 @@ install
 *
 returns
 {
-nsISearchEngine
+SearchEngine
 }
 The
 new
@@ -1903,7 +1903,7 @@ suggestionsFn
 *
 returns
 {
-nsISearchEngine
+SearchEngine
 }
 The
 new

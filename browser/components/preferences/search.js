@@ -941,7 +941,7 @@ param
 >
 Promise
 <
-nsISearchEngine
+SearchEngine
 >
 }
 options
@@ -6047,7 +6047,7 @@ aName
 *
 Converts
 an
-nsISearchEngine
+SearchEngine
 object
 into
 an
@@ -6062,7 +6062,7 @@ object
 *
 param
 {
-nsISearchEngine
+SearchEngine
 }
 aEngine
 *
@@ -6544,7 +6544,7 @@ removed
 *
 param
 {
-nsISearchEngine
+SearchEngine
 }
 aEngine
 *
@@ -6558,7 +6558,7 @@ that
 this
 is
 an
-nsISearchEngine
+SearchEngine
 object
 .
 *
