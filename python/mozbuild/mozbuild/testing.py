@@ -2014,7 +2014,7 @@ sys
 path
 =
 old_path
-    
+        
 f
 =
 context
@@ -2025,10 +2025,10 @@ get
 (
 full_path
 )
-    
+        
 try
 :
-        
+            
 rv
 =
 wptmanifest
@@ -2040,7 +2040,7 @@ load
 tests_root
 f
 )
-    
+        
 except
 wptmanifest
 .
@@ -2048,7 +2048,7 @@ manifest
 .
 ManifestVersionMismatch
 :
-        
+            
 #
 If
 we
@@ -2064,7 +2064,7 @@ that
 s
 the
 wrong
-        
+            
 #
 version
 then
@@ -2079,7 +2079,7 @@ not
 break
 the
 build
-        
+            
 rv
 =
 wptmanifest
@@ -2089,6 +2089,6 @@ manifest
 Manifest
 (
 )
-    
+        
 return
 rv
