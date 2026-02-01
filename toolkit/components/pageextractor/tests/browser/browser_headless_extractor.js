@@ -161,7 +161,7 @@ html
 )
 ;
 const
-result
+text
 =
 await
 PageExtractorParent
@@ -182,8 +182,6 @@ getText
 ;
 is
 (
-result
-.
 text
 "
 This
@@ -328,7 +326,7 @@ html
 )
 ;
 const
-result
+text
 =
 await
 PageExtractorParent
@@ -349,8 +347,6 @@ getText
 ;
 is
 (
-result
-.
 text
 "
 404
