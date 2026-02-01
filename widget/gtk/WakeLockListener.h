@@ -111,10 +111,10 @@ MPL
 /
 #
 ifndef
-__WakeLockListener_h__
+WakeLockListener_h_
 #
 define
-__WakeLockListener_h__
+WakeLockListener_h_
 #
 include
 "
@@ -257,4 +257,4 @@ mBackgroundTopics
 endif
 /
 /
-__WakeLockListener_h__
+WakeLockListener_h_

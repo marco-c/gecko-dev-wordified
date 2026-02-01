@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_jni_Types_h__
+mozilla_jni_Types_h_
 #
 define
-mozilla_jni_Types_h__
+mozilla_jni_Types_h_
 #
 include
 <
@@ -1035,4 +1035,4 @@ mozilla
 endif
 /
 /
-mozilla_jni_Types_h__
+mozilla_jni_Types_h_

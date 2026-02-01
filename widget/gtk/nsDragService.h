@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-nsDragService_h__
+nsDragService_h_
 #
 define
-nsDragService_h__
+nsDragService_h_
 #
 include
 "
@@ -2402,4 +2402,4 @@ override
 endif
 /
 /
-nsDragService_h__
+nsDragService_h_

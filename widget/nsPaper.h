@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsPaper_h__
+nsPaper_h_
 #
 define
-nsPaper_h__
+nsPaper_h_
 #
 include
 "
@@ -926,6 +926,6 @@ mozilla
 endif
 /
 *
-nsPaper_h__
+nsPaper_h_
 *
 /

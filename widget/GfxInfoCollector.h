@@ -109,10 +109,10 @@ MPL
 /
 #
 ifndef
-__mozilla_widget_GfxInfoCollector_h__
+_mozilla_widget_GfxInfoCollector_h_
 #
 define
-__mozilla_widget_GfxInfoCollector_h__
+_mozilla_widget_GfxInfoCollector_h_
 #
 include
 "

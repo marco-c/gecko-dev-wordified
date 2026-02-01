@@ -133,10 +133,10 @@ Gtk
 /
 #
 ifndef
-__MozWayland_h_
+MozWayland_h_
 #
 define
-__MozWayland_h_
+MozWayland_h_
 #
 include
 "
@@ -3839,6 +3839,6 @@ endif
 endif
 /
 *
-__MozWayland_h_
+MozWayland_h_
 *
 /

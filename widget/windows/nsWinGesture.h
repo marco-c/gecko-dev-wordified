@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-WinGesture_h__
+WinGesture_h_
 #
 define
-WinGesture_h__
+WinGesture_h_
 /
 *
 *
@@ -475,6 +475,6 @@ mRotateIntermediate
 endif
 /
 *
-WinGesture_h__
+WinGesture_h_
 *
 /

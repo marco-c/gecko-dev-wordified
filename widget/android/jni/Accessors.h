@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_jni_Accessors_h__
+mozilla_jni_Accessors_h_
 #
 define
-mozilla_jni_Accessors_h__
+mozilla_jni_Accessors_h_
 #
 include
 <
@@ -1729,4 +1729,4 @@ mozilla
 endif
 /
 /
-mozilla_jni_Accessors_h__
+mozilla_jni_Accessors_h_

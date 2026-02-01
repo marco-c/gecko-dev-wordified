@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-_NSDATAOBJ_H_
+NSDATAOBJ_H_
 #
 define
-_NSDATAOBJ_H_
+NSDATAOBJ_H_
 #
 include
 <
@@ -1968,4 +1968,4 @@ aSetData
 endif
 /
 /
-_NSDATAOBJ_H_
+NSDATAOBJ_H_

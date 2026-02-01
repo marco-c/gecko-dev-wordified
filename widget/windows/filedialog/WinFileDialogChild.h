@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-widget_windows_filedialog_WinFileDialogChild_h__
+widget_windows_filedialog_WinFileDialogChild_h_
 #
 define
-widget_windows_filedialog_WinFileDialogChild_h__
+widget_windows_filedialog_WinFileDialogChild_h_
 #
 include
 "
@@ -378,4 +378,4 @@ filedialog
 endif
 /
 /
-widget_windows_filedialog_WinFileDialogChild_h__
+widget_windows_filedialog_WinFileDialogChild_h_

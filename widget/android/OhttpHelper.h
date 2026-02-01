@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-OhttpHelper_h__
+OhttpHelper_h_
 #
 define
-OhttpHelper_h__
+OhttpHelper_h_
 #
 include
 "
@@ -386,4 +386,4 @@ widget
 endif
 /
 /
-OhttpHelper_h__
+OhttpHelper_h_

@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsGUIEventIPC_h__
+nsGUIEventIPC_h_
 #
 define
-nsGUIEventIPC_h__
+nsGUIEventIPC_h_
 #
 include
 "
@@ -10531,4 +10531,4 @@ IPC
 endif
 /
 /
-nsGUIEventIPC_h__
+nsGUIEventIPC_h_

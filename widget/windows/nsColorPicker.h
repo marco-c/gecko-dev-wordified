@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-nsColorPicker_h__
+nsColorPicker_h_
 #
 define
-nsColorPicker_h__
+nsColorPicker_h_
 #
 include
 <
@@ -283,4 +283,4 @@ mParentWidget
 endif
 /
 /
-nsColorPicker_h__
+nsColorPicker_h_

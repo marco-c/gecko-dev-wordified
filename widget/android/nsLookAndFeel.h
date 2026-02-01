@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-__nsLookAndFeel
+_nsLookAndFeel
 #
 define
-__nsLookAndFeel
+_nsLookAndFeel
 #
 include
 "

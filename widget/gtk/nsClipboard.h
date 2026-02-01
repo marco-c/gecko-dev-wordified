@@ -111,10 +111,10 @@ MPL
 /
 #
 ifndef
-__nsClipboard_h_
+_nsClipboard_h_
 #
 define
-__nsClipboard_h_
+_nsClipboard_h_
 #
 include
 "
@@ -1060,6 +1060,6 @@ aGtkClipboard
 endif
 /
 *
-__nsClipboard_h_
+_nsClipboard_h_
 *
 /

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_widget_WindowsTestDebug_h__
+mozilla_widget_WindowsTestDebug_h_
 #
 define
-mozilla_widget_WindowsTestDebug_h__
+mozilla_widget_WindowsTestDebug_h_
 #
 include
 <
@@ -197,4 +197,4 @@ widget
 endif
 /
 /
-mozilla_widget_WindowsTestDebug_h__
+mozilla_widget_WindowsTestDebug_h_

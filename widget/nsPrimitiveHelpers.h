@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-nsPrimitiveHelpers_h___
+nsPrimitiveHelpers_h_
 #
 define
-nsPrimitiveHelpers_h___
+nsPrimitiveHelpers_h_
 #
 include
 "
@@ -399,4 +399,4 @@ nsLinebreakHelpers
 endif
 /
 /
-nsPrimitiveHelpers_h___
+nsPrimitiveHelpers_h_

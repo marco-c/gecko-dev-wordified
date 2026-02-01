@@ -109,10 +109,10 @@ MPL
 /
 #
 ifndef
-__mozilla_widget_GfxInfo_h__
+_mozilla_widget_GfxInfo_h_
 #
 define
-__mozilla_widget_GfxInfo_h__
+_mozilla_widget_GfxInfo_h_
 #
 include
 "
@@ -698,6 +698,6 @@ mozilla
 endif
 /
 *
-__mozilla_widget_GfxInfo_h__
+_mozilla_widget_GfxInfo_h_
 *
 /

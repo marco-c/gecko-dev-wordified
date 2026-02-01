@@ -88,10 +88,10 @@ MPL
 /
 #
 ifndef
-nsAppShellSingleton_h__
+nsAppShellSingleton_h_
 #
 define
-nsAppShellSingleton_h__
+nsAppShellSingleton_h_
 /
 *
 *
@@ -420,4 +420,4 @@ result
 endif
 /
 /
-nsAppShellSingleton_h__
+nsAppShellSingleton_h_

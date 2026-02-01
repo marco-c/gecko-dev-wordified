@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-_MAC_WEB_APP_UTILS_H_
+MAC_WEB_APP_UTILS_H_
 #
 define
-_MAC_WEB_APP_UTILS_H_
+MAC_WEB_APP_UTILS_H_
 #
 include
 "
@@ -119,4 +119,4 @@ nsMacWebAppUtils
 endif
 /
 /
-_MAC_WEB_APP_UTILS_H_
+MAC_WEB_APP_UTILS_H_

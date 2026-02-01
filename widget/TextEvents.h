@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-mozilla_TextEvents_h__
+mozilla_TextEvents_h_
 #
 define
-mozilla_TextEvents_h__
+mozilla_TextEvents_h_
 #
 include
 <
@@ -11126,4 +11126,4 @@ mozilla
 endif
 /
 /
-mozilla_TextEvents_h__
+mozilla_TextEvents_h_

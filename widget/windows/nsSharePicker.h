@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-nsSharePicker_h__
+nsSharePicker_h_
 #
 define
-nsSharePicker_h__
+nsSharePicker_h_
 #
 include
 "
@@ -166,4 +166,4 @@ mOpenerWindow
 endif
 /
 /
-nsSharePicker_h__
+nsSharePicker_h_

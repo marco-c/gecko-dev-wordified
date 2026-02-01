@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-MockDragServiceController_h__
+MockDragServiceController_h_
 #
 define
-MockDragServiceController_h__
+MockDragServiceController_h_
 #
 include
 "
@@ -157,4 +157,4 @@ test
 endif
 /
 /
-MockDragServiceController_h__
+MockDragServiceController_h_

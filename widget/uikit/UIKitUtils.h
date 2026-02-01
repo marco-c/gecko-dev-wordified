@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-mozilla_widget_UIKitUtils_h__
+mozilla_widget_UIKitUtils_h_
 #
 define
-mozilla_widget_UIKitUtils_h__
+mozilla_widget_UIKitUtils_h_
 #
 import
 <

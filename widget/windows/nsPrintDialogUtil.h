@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsFlyOwnDialog_h___
+nsFlyOwnDialog_h_
 #
 define
-nsFlyOwnDialog_h___
+nsFlyOwnDialog_h_
 nsresult
 NativeShowPrintDialog
 (
@@ -115,6 +115,6 @@ aPrintSettings
 endif
 /
 *
-nsFlyOwnDialog_h___
+nsFlyOwnDialog_h_
 *
 /

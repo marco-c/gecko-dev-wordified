@@ -111,10 +111,10 @@ MPL
 /
 #
 ifndef
-__nsClipboardWayland_h_
+_nsClipboardWayland_h_
 #
 define
-__nsClipboardWayland_h_
+_nsClipboardWayland_h_
 #
 include
 "
@@ -200,6 +200,6 @@ nullptr
 endif
 /
 *
-__nsClipboardWayland_h_
+_nsClipboardWayland_h_
 *
 /

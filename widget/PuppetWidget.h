@@ -166,10 +166,10 @@ elsewhere
 /
 #
 ifndef
-mozilla_widget_PuppetWidget_h__
+mozilla_widget_PuppetWidget_h_
 #
 define
-mozilla_widget_PuppetWidget_h__
+mozilla_widget_PuppetWidget_h_
 #
 include
 "
@@ -2262,4 +2262,4 @@ mozilla
 endif
 /
 /
-mozilla_widget_PuppetWidget_h__
+mozilla_widget_PuppetWidget_h_

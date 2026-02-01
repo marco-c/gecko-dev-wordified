@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-mozilla_widget_WidgetLogging_h__
+mozilla_widget_WidgetLogging_h_
 #
 define
-mozilla_widget_WidgetLogging_h__
+mozilla_widget_WidgetLogging_h_
 #
 include
 "
@@ -201,4 +201,4 @@ __VA_ARGS__
 endif
 /
 /
-mozilla_widget_WidgetLogging_h__
+mozilla_widget_WidgetLogging_h_

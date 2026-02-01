@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-DirectManipulationOwner_h__
+DirectManipulationOwner_h_
 #
 define
-DirectManipulationOwner_h__
+DirectManipulationOwner_h_
 #
 include
 <
@@ -278,4 +278,4 @@ endif
 /
 #
 ifndef
-DirectManipulationOwner_h__
+DirectManipulationOwner_h_

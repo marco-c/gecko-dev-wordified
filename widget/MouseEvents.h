@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-mozilla_MouseEvents_h__
+mozilla_MouseEvents_h_
 #
 define
-mozilla_MouseEvents_h__
+mozilla_MouseEvents_h_
 #
 include
 <
@@ -6628,4 +6628,4 @@ mozilla
 endif
 /
 /
-mozilla_MouseEvents_h__
+mozilla_MouseEvents_h_

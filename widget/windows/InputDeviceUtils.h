@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-mozilla_widget_InputDeviceUtils_h__
+mozilla_widget_InputDeviceUtils_h_
 #
 define
-mozilla_widget_InputDeviceUtils_h__
+mozilla_widget_InputDeviceUtils_h_
 #
 include
 <
@@ -188,4 +188,4 @@ mozilla
 endif
 /
 /
-mozilla_widget_InputDeviceUtils_h__
+mozilla_widget_InputDeviceUtils_h_

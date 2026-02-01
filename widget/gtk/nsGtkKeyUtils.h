@@ -111,10 +111,10 @@ MPL
 /
 #
 ifndef
-__nsGdkKeyUtils_h__
+_nsGdkKeyUtils_h_
 #
 define
-__nsGdkKeyUtils_h__
+_nsGdkKeyUtils_h_
 #
 include
 "
@@ -2729,6 +2729,6 @@ mozilla
 endif
 /
 *
-__nsGdkKeyUtils_h__
+_nsGdkKeyUtils_h_
 *
 /

@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsPrinterListCUPS_h__
+nsPrinterListCUPS_h_
 #
 define
-nsPrinterListCUPS_h__
+nsPrinterListCUPS_h_
 #
 include
 "

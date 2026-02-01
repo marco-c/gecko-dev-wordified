@@ -111,10 +111,10 @@ MPL
 /
 #
 ifndef
-nsGtkUtils_h__
+nsGtkUtils_h_
 #
 define
-nsGtkUtils_h__
+nsGtkUtils_h_
 #
 include
 <
@@ -490,4 +490,4 @@ handle
 endif
 /
 /
-nsGtkUtils_h__
+nsGtkUtils_h_

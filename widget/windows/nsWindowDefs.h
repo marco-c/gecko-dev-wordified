@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-WindowDefs_h__
+WindowDefs_h_
 #
 define
-WindowDefs_h__
+WindowDefs_h_
 /
 *
 *
@@ -1111,6 +1111,6 @@ exclusive
 endif
 /
 *
-WindowDefs_h__
+WindowDefs_h_
 *
 /

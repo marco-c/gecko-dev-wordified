@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-MozLogSupport_h__
+MozLogSupport_h_
 #
 define
-MozLogSupport_h__
+MozLogSupport_h_
 #
 include
 "

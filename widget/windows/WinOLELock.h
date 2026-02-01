@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-mozilla_widget_WinOLELock_h__
+mozilla_widget_WinOLELock_h_
 #
 define
-mozilla_widget_WinOLELock_h__
+mozilla_widget_WinOLELock_h_
 #
 include
 <
@@ -1394,4 +1394,4 @@ mExtent
 endif
 /
 /
-mozilla_widget_WinOLELock_h__
+mozilla_widget_WinOLELock_h_

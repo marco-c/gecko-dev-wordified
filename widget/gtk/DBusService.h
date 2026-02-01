@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-DBusService_h__
+DBusService_h_
 #
 define
-DBusService_h__
+DBusService_h_
 #
 include
 <
@@ -381,4 +381,4 @@ widget
 endif
 /
 /
-DBusService_h__
+DBusService_h_

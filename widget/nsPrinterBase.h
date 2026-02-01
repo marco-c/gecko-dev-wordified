@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsPrinterBase_h__
+nsPrinterBase_h_
 #
 define
-nsPrinterBase_h__
+nsPrinterBase_h_
 #
 include
 "

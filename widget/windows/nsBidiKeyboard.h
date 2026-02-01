@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-__nsBidiKeyboard
+_nsBidiKeyboard
 #
 define
-__nsBidiKeyboard
+_nsBidiKeyboard
 #
 include
 "
@@ -181,4 +181,4 @@ KL_NAMELENGTH
 endif
 /
 /
-__nsBidiKeyboard
+_nsBidiKeyboard

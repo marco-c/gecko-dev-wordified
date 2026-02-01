@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-AndroidBridge_h__
+AndroidBridge_h_
 #
 define
-AndroidBridge_h__
+AndroidBridge_h_
 #
 include
 <
@@ -1161,6 +1161,6 @@ protected
 endif
 /
 *
-AndroidBridge_h__
+AndroidBridge_h_
 *
 /

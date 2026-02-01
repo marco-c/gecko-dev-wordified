@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-WindowDbg_h__
+WindowDbg_h_
 #
 define
-WindowDbg_h__
+WindowDbg_h_
 /
 *
 *
@@ -967,6 +967,6 @@ DEBUG_VK
 endif
 /
 *
-WindowDbg_h__
+WindowDbg_h_
 *
 /

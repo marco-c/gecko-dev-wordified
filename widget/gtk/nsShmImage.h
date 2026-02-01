@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-__mozilla_widget_nsShmImage_h__
+_mozilla_widget_nsShmImage_h_
 #
 define
-__mozilla_widget_nsShmImage_h__
+_mozilla_widget_nsShmImage_h_
 #
 if
 defined

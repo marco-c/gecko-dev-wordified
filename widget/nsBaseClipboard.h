@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsBaseClipboard_h__
+nsBaseClipboard_h_
 #
 define
-nsBaseClipboard_h__
+nsBaseClipboard_h_
 #
 include
 "
@@ -1670,4 +1670,4 @@ false
 endif
 /
 /
-nsBaseClipboard_h__
+nsBaseClipboard_h_

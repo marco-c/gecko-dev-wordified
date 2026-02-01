@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-mozilla_widget_InitData_h__
+mozilla_widget_InitData_h_
 #
 define
-mozilla_widget_InitData_h__
+mozilla_widget_InitData_h_
 #
 include
 <

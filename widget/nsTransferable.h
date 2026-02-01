@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsTransferable_h__
+nsTransferable_h_
 #
 define
-nsTransferable_h__
+nsTransferable_h_
 #
 include
 "
@@ -533,4 +533,4 @@ endif
 endif
 /
 /
-nsTransferable_h__
+nsTransferable_h_

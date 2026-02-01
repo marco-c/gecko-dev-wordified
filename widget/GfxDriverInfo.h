@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-__mozilla_widget_GfxDriverInfo_h__
+_mozilla_widget_GfxDriverInfo_h_
 #
 define
-__mozilla_widget_GfxDriverInfo_h__
+_mozilla_widget_GfxDriverInfo_h_
 #
 include
 "
@@ -3214,6 +3214,6 @@ mozilla
 endif
 /
 *
-__mozilla_widget_GfxDriverInfo_h__
+_mozilla_widget_GfxDriverInfo_h_
 *
 /

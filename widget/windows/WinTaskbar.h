@@ -109,10 +109,10 @@ MPL
 /
 #
 ifndef
-__WinTaskbar_h__
+WinTaskbar_h_
 #
 define
-__WinTaskbar_h__
+WinTaskbar_h_
 #
 include
 <
@@ -257,6 +257,6 @@ mozilla
 endif
 /
 *
-__WinTaskbar_h__
+WinTaskbar_h_
 *
 /

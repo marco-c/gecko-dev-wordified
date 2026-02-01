@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-mozilla_MiscEvents_h__
+mozilla_MiscEvents_h_
 #
 define
-mozilla_MiscEvents_h__
+mozilla_MiscEvents_h_
 #
 include
 <
@@ -1333,4 +1333,4 @@ mozilla
 endif
 /
 /
-mozilla_MiscEvents_h__
+mozilla_MiscEvents_h_

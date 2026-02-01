@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-DMABufSurface_h__
+DMABufSurface_h_
 #
 define
-DMABufSurface_h__
+DMABufSurface_h_
 #
 include
 <

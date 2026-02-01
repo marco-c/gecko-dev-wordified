@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-mozilla_widget_WinMouseScrollHandler_h__
+mozilla_widget_WinMouseScrollHandler_h_
 #
 define
-mozilla_widget_WinMouseScrollHandler_h__
+mozilla_widget_WinMouseScrollHandler_h_
 #
 include
 "
@@ -2739,4 +2739,4 @@ mozilla
 endif
 /
 /
-mozilla_widget_WinMouseScrollHandler_h__
+mozilla_widget_WinMouseScrollHandler_h_

@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-__nsIRollupListener_h__
+_nsIRollupListener_h_
 #
 define
-__nsIRollupListener_h__
+_nsIRollupListener_h_
 #
 include
 "
@@ -522,6 +522,6 @@ false
 endif
 /
 *
-__nsIRollupListener_h__
+_nsIRollupListener_h_
 *
 /

@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsIDeviceContextSpec_h___
+nsIDeviceContextSpec_h_
 #
 define
-nsIDeviceContextSpec_h___
+nsIDeviceContextSpec_h_
 #
 include
 "

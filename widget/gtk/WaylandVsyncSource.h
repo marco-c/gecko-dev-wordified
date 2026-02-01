@@ -92,10 +92,10 @@ MPL
 /
 #
 ifndef
-_WaylandVsyncSource_h_
+WaylandVsyncSource_h_
 #
 define
-_WaylandVsyncSource_h_
+WaylandVsyncSource_h_
 #
 include
 "
@@ -744,4 +744,4 @@ mozilla
 endif
 /
 /
-_WaylandVsyncSource_h_
+WaylandVsyncSource_h_

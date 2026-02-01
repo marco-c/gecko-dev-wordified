@@ -96,10 +96,10 @@ MPL
 /
 #
 ifndef
-mozilla_widget_AndroidAlerts_h__
+mozilla_widget_AndroidAlerts_h_
 #
 define
-mozilla_widget_AndroidAlerts_h__
+mozilla_widget_AndroidAlerts_h_
 #
 include
 "
@@ -200,6 +200,10 @@ Maybe
 nsString
 >
 aAction
+const
+nsACString
+&
+aOrigin
 )
 ;
 protected
@@ -228,4 +232,4 @@ mozilla
 endif
 /
 /
-nsAndroidAlerts_h__
+mozilla_widget_AndroidAlerts_h_

@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-nsClipboardHelper_h__
+nsClipboardHelper_h_
 #
 define
-nsClipboardHelper_h__
+nsClipboardHelper_h_
 /
 /
 interfaces
@@ -161,4 +161,4 @@ nsClipboardHelper
 endif
 /
 /
-nsClipboardHelper_h__
+nsClipboardHelper_h_

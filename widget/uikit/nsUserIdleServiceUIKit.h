@@ -111,10 +111,10 @@ MPL
 /
 #
 ifndef
-nsUserIdleServiceUIKit_h__
+nsUserIdleServiceUIKit_h_
 #
 define
-nsUserIdleServiceUIKit_h__
+nsUserIdleServiceUIKit_h_
 #
 include
 "
@@ -258,4 +258,4 @@ nsUserIdleServiceUIKit
 endif
 /
 /
-nsUserIdleServiceUIKit_h__
+nsUserIdleServiceUIKit_h_

@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-mozilla_widget_InProcessCompositorWidget_h__
+mozilla_widget_InProcessCompositorWidget_h_
 #
 define
-mozilla_widget_InProcessCompositorWidget_h__
+mozilla_widget_InProcessCompositorWidget_h_
 #
 include
 "

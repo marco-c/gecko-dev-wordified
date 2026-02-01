@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-WidgetUtilsGtk_h__
+WidgetUtilsGtk_h_
 #
 define
-WidgetUtilsGtk_h__
+WidgetUtilsGtk_h_
 #
 include
 "
@@ -513,4 +513,4 @@ widget
 endif
 /
 /
-WidgetUtilsGtk_h__
+WidgetUtilsGtk_h_

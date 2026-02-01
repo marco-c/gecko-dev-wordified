@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-mozilla_widget_WindowsUIUtils_h__
+mozilla_widget_WindowsUIUtils_h_
 #
 define
-mozilla_widget_WindowsUIUtils_h__
+mozilla_widget_WindowsUIUtils_h_
 #
 include
 "
@@ -485,4 +485,4 @@ WindowsUIUtils
 endif
 /
 /
-mozilla_widget_WindowsUIUtils_h__
+mozilla_widget_WindowsUIUtils_h_

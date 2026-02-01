@@ -109,10 +109,10 @@ MPL
 /
 #
 ifndef
-__MOZ_WAYLAND_SURFACE_H__
+MOZ_WAYLAND_SURFACE_H_
 #
 define
-__MOZ_WAYLAND_SURFACE_H__
+MOZ_WAYLAND_SURFACE_H_
 #
 include
 "
@@ -3392,6 +3392,6 @@ widget
 endif
 /
 *
-__MOZ_WAYLAND_SURFACE_H__
+MOZ_WAYLAND_SURFACE_H_
 *
 /

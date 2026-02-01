@@ -109,10 +109,10 @@ MPL
 /
 #
 ifndef
-__mozilla_widget_TaskbarTabPreview_h__
+_mozilla_widget_TaskbarTabPreview_h_
 #
 define
-__mozilla_widget_TaskbarTabPreview_h__
+_mozilla_widget_TaskbarTabPreview_h_
 #
 include
 "
@@ -417,6 +417,6 @@ mozilla
 endif
 /
 *
-__mozilla_widget_TaskbarTabPreview_h__
+_mozilla_widget_TaskbarTabPreview_h_
 *
 /

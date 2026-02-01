@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-AndroidContentController_h__
+AndroidContentController_h_
 #
 define
-AndroidContentController_h__
+AndroidContentController_h_
 #
 include
 "

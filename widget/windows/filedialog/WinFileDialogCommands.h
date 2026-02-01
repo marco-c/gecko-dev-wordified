@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-widget_windows_filedialog_WinFileDialogCommands_h__
+widget_windows_filedialog_WinFileDialogCommands_h_
 #
 define
-widget_windows_filedialog_WinFileDialogCommands_h__
+widget_windows_filedialog_WinFileDialogCommands_h_
 #
 include
 "
@@ -2201,4 +2201,4 @@ IPC
 endif
 /
 /
-widget_windows_filedialog_WinFileDialogCommands_h__
+widget_windows_filedialog_WinFileDialogCommands_h_

@@ -111,10 +111,10 @@ MPL
 /
 #
 ifndef
-nsUserIdleServiceWin_h__
+nsUserIdleServiceWin_h_
 #
 define
-nsUserIdleServiceWin_h__
+nsUserIdleServiceWin_h_
 #
 include
 "
@@ -314,4 +314,4 @@ nsUserIdleServiceWin
 endif
 /
 /
-nsUserIdleServiceWin_h__
+nsUserIdleServiceWin_h_

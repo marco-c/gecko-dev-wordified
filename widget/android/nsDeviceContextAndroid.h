@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsDeviceContextAndroid_h__
+nsDeviceContextAndroid_h_
 #
 define
-nsDeviceContextAndroid_h__
+nsDeviceContextAndroid_h_
 #
 include
 "
@@ -260,4 +260,4 @@ mTempFile
 endif
 /
 /
-nsDeviceContextAndroid_h__
+nsDeviceContextAndroid_h_

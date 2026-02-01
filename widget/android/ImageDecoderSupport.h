@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-ImageDecoderSupport_h__
+ImageDecoderSupport_h_
 #
 define
-ImageDecoderSupport_h__
+ImageDecoderSupport_h_
 #
 include
 "
@@ -165,4 +165,4 @@ mozilla
 endif
 /
 /
-ImageDecoderSupport_h__
+ImageDecoderSupport_h_

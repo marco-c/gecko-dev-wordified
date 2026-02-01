@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsHTMLFormatConverter_h__
+nsHTMLFormatConverter_h_
 #
 define
-nsHTMLFormatConverter_h__
+nsHTMLFormatConverter_h_
 #
 include
 "
@@ -178,4 +178,4 @@ aToStr
 endif
 /
 /
-nsHTMLFormatConverter_h__
+nsHTMLFormatConverter_h_

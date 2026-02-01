@@ -95,17 +95,10 @@ MPL
 /
 #
 ifndef
-mozilla_ContentEvents_h__
+mozilla_ContentEvents_h_
 #
 define
-mozilla_ContentEvents_h__
-#
-include
-<
-stdint
-.
-h
->
+mozilla_ContentEvents_h_
 #
 include
 "
@@ -2781,4 +2774,4 @@ mozilla
 endif
 /
 /
-mozilla_ContentEvents_h__
+mozilla_ContentEvents_h_

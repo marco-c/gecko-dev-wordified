@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsClipboard_h__
+nsClipboard_h_
 #
 define
-nsClipboard_h__
+nsClipboard_h_
 #
 include
 "
@@ -803,4 +803,4 @@ med
 endif
 /
 /
-nsClipboard_h__
+nsClipboard_h_

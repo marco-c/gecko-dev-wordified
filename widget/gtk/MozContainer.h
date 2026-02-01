@@ -109,10 +109,10 @@ MPL
 /
 #
 ifndef
-__MOZ_CONTAINER_H__
+MOZ_CONTAINER_H_
 #
 define
-__MOZ_CONTAINER_H__
+MOZ_CONTAINER_H_
 #
 ifdef
 MOZ_WAYLAND
@@ -422,6 +422,6 @@ container
 endif
 /
 *
-__MOZ_CONTAINER_H__
+MOZ_CONTAINER_H_
 *
 /

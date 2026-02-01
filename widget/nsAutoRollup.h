@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsAutoRollup_h__
+nsAutoRollup_h_
 #
 define
-nsAutoRollup_h__
+nsAutoRollup_h_
 #
 include
 "
@@ -441,4 +441,4 @@ mozilla
 endif
 /
 /
-nsAutoRollup_h__
+nsAutoRollup_h_

@@ -113,10 +113,10 @@ duplication
 .
 #
 ifndef
-_NSNATIVETHEME_H_
+NSNATIVETHEME_H_
 #
 define
-_NSNATIVETHEME_H_
+NSNATIVETHEME_H_
 #
 include
 "
@@ -577,4 +577,4 @@ mAnimatedContentList
 endif
 /
 /
-_NSNATIVETHEME_H_
+NSNATIVETHEME_H_

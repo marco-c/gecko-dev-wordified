@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-mozilla_BasicEvents_h__
+mozilla_BasicEvents_h_
 #
 define
-mozilla_BasicEvents_h__
+mozilla_BasicEvents_h_
 #
 include
 <
@@ -10884,4 +10884,4 @@ mozilla
 endif
 /
 /
-mozilla_BasicEvents_h__
+mozilla_BasicEvents_h_

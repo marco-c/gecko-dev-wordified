@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-WebExecutorSupport_h__
+WebExecutorSupport_h_
 #
 define
-WebExecutorSupport_h__
+WebExecutorSupport_h_
 #
 include
 "
@@ -445,4 +445,4 @@ mozilla
 endif
 /
 /
-WebExecutorSupport_h__
+WebExecutorSupport_h_

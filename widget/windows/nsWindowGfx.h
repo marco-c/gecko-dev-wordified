@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-WindowGfx_h__
+WindowGfx_h_
 #
 define
-WindowGfx_h__
+WindowGfx_h_
 /
 *
 *
@@ -316,4 +316,4 @@ aDepth
 endif
 /
 /
-WindowGfx_h__
+WindowGfx_h_

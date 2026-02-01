@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-nsIWidget_h__
+nsIWidget_h_
 #
 define
-nsIWidget_h__
+nsIWidget_h_
 #
 include
 <
@@ -15481,4 +15481,4 @@ aOptionsOut
 endif
 /
 /
-nsIWidget_h__
+nsIWidget_h_

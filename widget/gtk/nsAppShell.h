@@ -111,10 +111,10 @@ MPL
 /
 #
 ifndef
-nsAppShell_h__
+nsAppShell_h_
 #
 define
-nsAppShell_h__
+nsAppShell_h_
 #
 ifdef
 MOZ_ENABLE_DBUS
@@ -418,6 +418,6 @@ endif
 endif
 /
 *
-nsAppShell_h__
+nsAppShell_h_
 *
 /

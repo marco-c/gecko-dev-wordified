@@ -103,10 +103,10 @@ MPL
 /
 #
 ifndef
-ScreenHelperAndroid_h___
+ScreenHelperAndroid_h_
 #
 define
-ScreenHelperAndroid_h___
+ScreenHelperAndroid_h_
 #
 include
 "
@@ -176,6 +176,6 @@ mozilla
 endif
 /
 *
-ScreenHelperAndroid_h___
+ScreenHelperAndroid_h_
 *
 /

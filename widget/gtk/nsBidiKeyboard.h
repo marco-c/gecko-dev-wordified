@@ -111,10 +111,10 @@ MPL
 /
 #
 ifndef
-__nsBidiKeyboard
+_nsBidiKeyboard
 #
 define
-__nsBidiKeyboard
+_nsBidiKeyboard
 #
 include
 "
@@ -153,4 +153,4 @@ mHaveBidiKeyboards
 endif
 /
 /
-__nsBidiKeyboard
+_nsBidiKeyboard

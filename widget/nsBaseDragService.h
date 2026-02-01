@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsBaseDragService_h__
+nsBaseDragService_h_
 #
 define
-nsBaseDragService_h__
+nsBaseDragService_h_
 #
 include
 "
@@ -2178,4 +2178,4 @@ false
 endif
 /
 /
-nsBaseDragService_h__
+nsBaseDragService_h_

@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsDeviceContextSpecGTK_h___
+nsDeviceContextSpecGTK_h_
 #
 define
-nsDeviceContextSpecGTK_h___
+nsDeviceContextSpecGTK_h_
 struct
 JSContext
 ;
@@ -357,6 +357,6 @@ endif
 /
 *
 !
-nsDeviceContextSpecGTK_h___
+nsDeviceContextSpecGTK_h_
 *
 /
