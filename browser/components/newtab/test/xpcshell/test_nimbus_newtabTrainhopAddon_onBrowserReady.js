@@ -224,6 +224,7 @@ updateAddonVersion
 }
 )
 ;
+await
 AboutNewTab
 .
 onBrowserReady

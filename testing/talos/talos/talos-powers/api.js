@@ -1778,6 +1778,7 @@ to
 break
 periodically
 .
+await
 AboutNewTab
 .
 onBrowserReady
