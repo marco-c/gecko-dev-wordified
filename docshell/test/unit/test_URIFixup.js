@@ -904,9 +904,7 @@ test_URIFixup_search
 .
 js
 .
-Services
-.
-search
+SearchService
 .
 wrappedJSObject
 .
