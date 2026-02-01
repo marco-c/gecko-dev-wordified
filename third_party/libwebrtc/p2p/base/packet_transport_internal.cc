@@ -183,6 +183,10 @@ receiving_state_trampoline_
 (
 this
 )
+sent_packet_trampoline_
+(
+this
+)
 network_route_changed_trampoline_
 (
 this
