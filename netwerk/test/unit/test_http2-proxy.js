@@ -378,14 +378,6 @@ proxy
 /
 /
 *
-eslint
--
-env
-node
-*
-/
-/
-*
 global
 serverPort
 *
