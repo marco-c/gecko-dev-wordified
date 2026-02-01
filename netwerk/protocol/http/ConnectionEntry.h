@@ -77,10 +77,10 @@ MPL
 /
 #
 ifndef
-ConnectionEntry_h__
+ConnectionEntry_h_
 #
 define
-ConnectionEntry_h__
+ConnectionEntry_h_
 #
 include
 "
@@ -1622,4 +1622,4 @@ endif
 /
 /
 !
-ConnectionEntry_h__
+ConnectionEntry_h_

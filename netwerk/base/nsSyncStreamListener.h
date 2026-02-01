@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-nsSyncStreamListener_h__
+nsSyncStreamListener_h_
 #
 define
-nsSyncStreamListener_h__
+nsSyncStreamListener_h_
 #
 include
 "
@@ -263,4 +263,4 @@ false
 endif
 /
 /
-nsSyncStreamListener_h__
+nsSyncStreamListener_h_

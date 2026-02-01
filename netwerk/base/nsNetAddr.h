@@ -74,10 +74,10 @@ MPL
 /
 #
 ifndef
-nsNetAddr_h__
+nsNetAddr_h_
 #
 define
-nsNetAddr_h__
+nsNetAddr_h_
 #
 include
 "
@@ -162,4 +162,4 @@ endif
 /
 /
 !
-nsNetAddr_h__
+nsNetAddr_h_

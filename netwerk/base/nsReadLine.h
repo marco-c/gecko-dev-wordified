@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-nsReadLine_h__
+nsReadLine_h_
 #
 define
-nsReadLine_h__
+nsReadLine_h_
 #
 include
 "
@@ -1043,4 +1043,4 @@ empty
 endif
 /
 /
-nsReadLine_h__
+nsReadLine_h_

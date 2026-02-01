@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-____nsindexedtohtml___h___
+_nsindexedtohtml_h_
 #
 define
-____nsindexedtohtml___h___
+_nsindexedtohtml_h_
 #
 include
 "

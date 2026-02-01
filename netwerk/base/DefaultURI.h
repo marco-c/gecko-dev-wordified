@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-DefaultURI_h__
+DefaultURI_h_
 #
 define
-DefaultURI_h__
+DefaultURI_h_
 #
 include
 "
@@ -256,4 +256,4 @@ mozilla
 endif
 /
 /
-DefaultURI_h__
+DefaultURI_h_

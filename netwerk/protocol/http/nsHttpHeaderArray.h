@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-nsHttpHeaderArray_h__
+nsHttpHeaderArray_h_
 #
 define
-nsHttpHeaderArray_h__
+nsHttpHeaderArray_h_
 #
 include
 "

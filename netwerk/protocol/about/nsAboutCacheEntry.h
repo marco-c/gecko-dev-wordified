@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsAboutCacheEntry_h__
+nsAboutCacheEntry_h_
 #
 define
-nsAboutCacheEntry_h__
+nsAboutCacheEntry_h_
 #
 include
 "
@@ -455,4 +455,4 @@ ca0166e63788
 endif
 /
 /
-nsAboutCacheEntry_h__
+nsAboutCacheEntry_h_

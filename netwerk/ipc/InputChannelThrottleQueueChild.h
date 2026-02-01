@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-InputChannelThrottleQueueChild_h__
+InputChannelThrottleQueueChild_h_
 #
 define
-InputChannelThrottleQueueChild_h__
+InputChannelThrottleQueueChild_h_
 #
 include
 "
@@ -191,4 +191,4 @@ mozilla
 endif
 /
 /
-InputChannelThrottleQueueChild_h__
+InputChannelThrottleQueueChild_h_

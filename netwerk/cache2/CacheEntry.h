@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-CacheEntry__h__
+CacheEntry_h_
 #
 define
-CacheEntry__h__
+CacheEntry_h_
 #
 include
 "

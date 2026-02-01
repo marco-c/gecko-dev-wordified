@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsFileStreams_h__
+nsFileStreams_h_
 #
 define
-nsFileStreams_h__
+nsFileStreams_h_
 #
 include
 "
@@ -2044,4 +2044,4 @@ default
 endif
 /
 /
-nsFileStreams_h__
+nsFileStreams_h_

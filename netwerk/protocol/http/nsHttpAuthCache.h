@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsHttpAuthCache_h__
+nsHttpAuthCache_h_
 #
 define
-nsHttpAuthCache_h__
+nsHttpAuthCache_h_
 #
 include
 "
@@ -1865,4 +1865,4 @@ mozilla
 endif
 /
 /
-nsHttpAuthCache_h__
+nsHttpAuthCache_h_

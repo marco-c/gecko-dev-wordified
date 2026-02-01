@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsBufferedStreams_h__
+nsBufferedStreams_h_
 #
 define
-nsBufferedStreams_h__
+nsBufferedStreams_h_
 #
 include
 "
@@ -1189,4 +1189,4 @@ mStream
 endif
 /
 /
-nsBufferedStreams_h__
+nsBufferedStreams_h_

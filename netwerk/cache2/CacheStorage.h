@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-CacheStorage__h__
+CacheStorage_h_
 #
 define
-CacheStorage__h__
+CacheStorage_h_
 #
 include
 "

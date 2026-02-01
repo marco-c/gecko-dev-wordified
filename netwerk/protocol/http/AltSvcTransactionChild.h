@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-AltSvcTransactionChild_h__
+AltSvcTransactionChild_h_
 #
 define
-AltSvcTransactionChild_h__
+AltSvcTransactionChild_h_
 #
 include
 "
@@ -201,4 +201,4 @@ mozilla
 endif
 /
 /
-AltSvcTransactionChild_h__
+AltSvcTransactionChild_h_

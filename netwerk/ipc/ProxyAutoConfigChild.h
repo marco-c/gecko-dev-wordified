@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-ProxyAutoConfigChild_h__
+ProxyAutoConfigChild_h_
 #
 define
-ProxyAutoConfigChild_h__
+ProxyAutoConfigChild_h_
 #
 include
 "
@@ -468,4 +468,4 @@ mozilla
 endif
 /
 /
-ProxyAutoConfigChild_h__
+ProxyAutoConfigChild_h_

@@ -135,10 +135,10 @@ happens
 /
 #
 ifndef
-nsSimpleNestedURI_h__
+nsSimpleNestedURI_h_
 #
 define
-nsSimpleNestedURI_h__
+nsSimpleNestedURI_h_
 #
 include
 "
@@ -576,6 +576,6 @@ mozilla
 endif
 /
 *
-nsSimpleNestedURI_h__
+nsSimpleNestedURI_h_
 *
 /

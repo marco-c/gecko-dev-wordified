@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-SimpleURIUnknownSchemes_h__
+SimpleURIUnknownSchemes_h_
 #
 define
-SimpleURIUnknownSchemes_h__
+SimpleURIUnknownSchemes_h_
 #
 include
 "
@@ -401,4 +401,4 @@ net
 endif
 /
 /
-SimpleURIUnknownSchemes_h__
+SimpleURIUnknownSchemes_h_

@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsURLHelper_h__
+nsURLHelper_h_
 #
 define
-nsURLHelper_h__
+nsURLHelper_h_
 #
 include
 "
@@ -2750,4 +2750,4 @@ endif
 /
 /
 !
-nsURLHelper_h__
+nsURLHelper_h_

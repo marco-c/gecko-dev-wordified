@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-SuspendableChannelWrapper_h__
+SuspendableChannelWrapper_h_
 #
 define
-SuspendableChannelWrapper_h__
+SuspendableChannelWrapper_h_
 #
 include
 "
@@ -275,4 +275,4 @@ mozilla
 endif
 /
 /
-SuspendableChannelWrapper_h__
+SuspendableChannelWrapper_h_

@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-HttpConnectionMgrParent_h__
+HttpConnectionMgrParent_h_
 #
 define
-HttpConnectionMgrParent_h__
+HttpConnectionMgrParent_h_
 #
 include
 "
@@ -254,4 +254,4 @@ net
 endif
 /
 /
-HttpConnectionMgrParent_h__
+HttpConnectionMgrParent_h_

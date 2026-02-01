@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-RedirectChannelRegistrar_h__
+RedirectChannelRegistrar_h_
 #
 define
-RedirectChannelRegistrar_h__
+RedirectChannelRegistrar_h_
 #
 include
 "

@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-nsSOCKSIOLayer_h__
+nsSOCKSIOLayer_h_
 #
 define
-nsSOCKSIOLayer_h__
+nsSOCKSIOLayer_h_
 #
 include
 "
@@ -156,6 +156,6 @@ aHost
 endif
 /
 *
-nsSOCKSIOLayer_h__
+nsSOCKSIOLayer_h_
 *
 /

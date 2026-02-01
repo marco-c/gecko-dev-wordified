@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsNetCID_h__
+nsNetCID_h_
 #
 define
-nsNetCID_h__
+nsNetCID_h_
 /
 *
 *
@@ -6195,4 +6195,4 @@ d1c1fba56025
 endif
 /
 /
-nsNetCID_h__
+nsNetCID_h_

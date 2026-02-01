@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsFileProtocolHandler_h__
+nsFileProtocolHandler_h_
 #
 define
-nsFileProtocolHandler_h__
+nsFileProtocolHandler_h_
 #
 include
 "
@@ -160,4 +160,4 @@ endif
 /
 /
 !
-nsFileProtocolHandler_h__
+nsFileProtocolHandler_h_

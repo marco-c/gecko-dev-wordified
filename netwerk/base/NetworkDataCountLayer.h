@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-NetworkDataCountLayer_h__
+NetworkDataCountLayer_h_
 #
 define
-NetworkDataCountLayer_h__
+NetworkDataCountLayer_h_
 #
 include
 "
@@ -205,4 +205,4 @@ mozilla
 endif
 /
 /
-NetworkDataCountLayer_h__
+NetworkDataCountLayer_h_

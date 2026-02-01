@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-nsSOCKSSocketProvider_h__
+nsSOCKSSocketProvider_h_
 #
 define
-nsSOCKSSocketProvider_h__
+nsSOCKSSocketProvider_h_
 #
 include
 "
@@ -172,6 +172,6 @@ or
 endif
 /
 *
-nsSOCKSSocketProvider_h__
+nsSOCKSSocketProvider_h_
 *
 /

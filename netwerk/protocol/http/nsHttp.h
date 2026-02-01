@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-nsHttp_h__
+nsHttp_h_
 #
 define
-nsHttp_h__
+nsHttp_h_
 #
 include
 <
@@ -4050,4 +4050,4 @@ mozilla
 endif
 /
 /
-nsHttp_h__
+nsHttp_h_

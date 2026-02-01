@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-TlsHandshaker_h__
+TlsHandshaker_h_
 #
 define
-TlsHandshaker_h__
+TlsHandshaker_h_
 #
 include
 "
@@ -549,4 +549,4 @@ net
 endif
 /
 /
-TlsHandshaker_h__
+TlsHandshaker_h_

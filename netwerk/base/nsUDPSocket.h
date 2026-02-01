@@ -74,10 +74,10 @@ MPL
 /
 #
 ifndef
-nsUDPSocket_h__
+nsUDPSocket_h_
 #
 define
-nsUDPSocket_h__
+nsUDPSocket_h_
 #
 include
 "
@@ -769,4 +769,4 @@ mozilla
 endif
 /
 /
-nsUDPSocket_h__
+nsUDPSocket_h_

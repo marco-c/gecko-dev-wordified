@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-HttpTransactionChild_h__
+HttpTransactionChild_h_
 #
 define
-HttpTransactionChild_h__
+HttpTransactionChild_h_
 #
 include
 "
@@ -889,4 +889,4 @@ p
 endif
 /
 /
-nsHttpTransactionChild_h__
+nsHttpTransactionChild_h_

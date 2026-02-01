@@ -77,10 +77,10 @@ MPL
 /
 #
 ifndef
-nsHttpConnectionMgr_h__
+nsHttpConnectionMgr_h_
 #
 define
-nsHttpConnectionMgr_h__
+nsHttpConnectionMgr_h_
 #
 include
 "
@@ -4204,4 +4204,4 @@ endif
 /
 /
 !
-nsHttpConnectionMgr_h__
+nsHttpConnectionMgr_h_

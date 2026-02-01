@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsResProtocolHandler_h___
+nsResProtocolHandler_h_
 #
 define
-nsResProtocolHandler_h___
+nsResProtocolHandler_h_
 #
 include
 "
@@ -432,6 +432,6 @@ endif
 endif
 /
 *
-nsResProtocolHandler_h___
+nsResProtocolHandler_h_
 *
 /

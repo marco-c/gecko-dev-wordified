@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsAboutProtocolHandler_h___
+nsAboutProtocolHandler_h_
 #
 define
-nsAboutProtocolHandler_h___
+nsAboutProtocolHandler_h_
 #
 include
 "
@@ -658,6 +658,6 @@ mozilla
 endif
 /
 *
-nsAboutProtocolHandler_h___
+nsAboutProtocolHandler_h_
 *
 /

@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-CacheFileOutputStream__h__
+CacheFileOutputStream_h_
 #
 define
-CacheFileOutputStream__h__
+CacheFileOutputStream_h_
 #
 include
 "

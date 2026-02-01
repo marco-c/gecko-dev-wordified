@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsLoadGroup_h__
+nsLoadGroup_h_
 #
 define
-nsLoadGroup_h__
+nsLoadGroup_h_
 #
 include
 "
@@ -1044,4 +1044,4 @@ mozilla
 endif
 /
 /
-nsLoadGroup_h__
+nsLoadGroup_h_

@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-nsAsyncStreamCopier_h__
+nsAsyncStreamCopier_h_
 #
 define
-nsAsyncStreamCopier_h__
+nsAsyncStreamCopier_h_
 #
 include
 "
@@ -524,4 +524,4 @@ endif
 /
 /
 !
-nsAsyncStreamCopier_h__
+nsAsyncStreamCopier_h_

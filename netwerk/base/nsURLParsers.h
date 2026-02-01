@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsURLParsers_h__
+nsURLParsers_h_
 #
 define
-nsURLParsers_h__
+nsURLParsers_h_
 #
 include
 "
@@ -1392,4 +1392,4 @@ override
 endif
 /
 /
-nsURLParsers_h__
+nsURLParsers_h_

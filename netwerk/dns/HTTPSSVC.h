@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-HTTPSSVC_h__
+HTTPSSVC_h_
 #
 define
-HTTPSSVC_h__
+HTTPSSVC_h_
 #
 include
 "
@@ -853,4 +853,4 @@ mozilla
 endif
 /
 /
-HTTPSSVC_h__
+HTTPSSVC_h_

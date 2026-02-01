@@ -16,10 +16,10 @@ EDIT
 /
 #
 ifndef
-mozilla__net__Http2HuffmanIncoming_h
+mozilla_net_Http2HuffmanIncoming_h
 #
 define
-mozilla__net__Http2HuffmanIncoming_h
+mozilla_net_Http2HuffmanIncoming_h
 namespace
 mozilla
 {
@@ -15990,4 +15990,4 @@ mozilla
 endif
 /
 /
-mozilla__net__Http2HuffmanIncoming_h
+mozilla_net_Http2HuffmanIncoming_h

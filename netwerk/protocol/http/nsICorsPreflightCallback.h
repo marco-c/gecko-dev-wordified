@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsICorsPreflightCallback_h__
+nsICorsPreflightCallback_h_
 #
 define
-nsICorsPreflightCallback_h__
+nsICorsPreflightCallback_h_
 #
 include
 "

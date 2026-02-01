@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-RemoteStreamGetter_h___
+RemoteStreamGetter_h_
 #
 define
-RemoteStreamGetter_h___
+RemoteStreamGetter_h_
 #
 include
 "
@@ -429,6 +429,6 @@ mozilla
 endif
 /
 *
-RemoteStreamGetter_h___
+RemoteStreamGetter_h_
 *
 /

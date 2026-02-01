@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-TLSTransportLayer_h__
+TLSTransportLayer_h_
 #
 define
-TLSTransportLayer_h__
+TLSTransportLayer_h_
 #
 include
 "

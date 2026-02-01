@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsServerTiming_h__
+nsServerTiming_h_
 #
 define
-nsServerTiming_h__
+nsServerTiming_h_
 #
 include
 "

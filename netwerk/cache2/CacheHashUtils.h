@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-CacheHashUtils__h__
+CacheHashUtils_h_
 #
 define
-CacheHashUtils__h__
+CacheHashUtils_h_
 #
 include
 "

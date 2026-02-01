@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-__netCore_h__
+_netCore_h_
 #
 define
-__netCore_h__
+_netCore_h_
 #
 include
 "
@@ -136,4 +136,4 @@ properties
 endif
 /
 /
-__netCore_h__
+_netCore_h_

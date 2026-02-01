@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsViewSourceHandler_h___
+nsViewSourceHandler_h_
 #
 define
-nsViewSourceHandler_h___
+nsViewSourceHandler_h_
 #
 include
 "
@@ -250,7 +250,7 @@ endif
 !
 defined
 (
-nsViewSourceHandler_h___
+nsViewSourceHandler_h_
 )
 *
 /

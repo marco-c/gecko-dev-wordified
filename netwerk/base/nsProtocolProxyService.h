@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsProtocolProxyService_h__
+nsProtocolProxyService_h_
 #
 define
-nsProtocolProxyService_h__
+nsProtocolProxyService_h_
 #
 include
 "
@@ -2284,4 +2284,4 @@ endif
 /
 /
 !
-nsProtocolProxyService_h__
+nsProtocolProxyService_h_

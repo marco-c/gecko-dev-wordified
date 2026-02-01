@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-HTTPSRecordResolver_h__
+HTTPSRecordResolver_h_
 #
 define
-HTTPSRecordResolver_h__
+HTTPSRecordResolver_h_
 #
 include
 "
@@ -320,4 +320,4 @@ mozilla
 endif
 /
 /
-HTTPSRecordResolver_h__
+HTTPSRecordResolver_h_

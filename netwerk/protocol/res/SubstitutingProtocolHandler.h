@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-SubstitutingProtocolHandler_h___
+SubstitutingProtocolHandler_h_
 #
 define
-SubstitutingProtocolHandler_h___
+SubstitutingProtocolHandler_h_
 #
 include
 "
@@ -836,6 +836,6 @@ mozilla
 endif
 /
 *
-SubstitutingProtocolHandler_h___
+SubstitutingProtocolHandler_h_
 *
 /

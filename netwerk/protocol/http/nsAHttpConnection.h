@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-nsAHttpConnection_h__
+nsAHttpConnection_h_
 #
 define
-nsAHttpConnection_h__
+nsAHttpConnection_h_
 #
 include
 "
@@ -2461,4 +2461,4 @@ mozilla
 endif
 /
 /
-nsAHttpConnection_h__
+nsAHttpConnection_h_

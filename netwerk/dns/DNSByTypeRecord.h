@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-DNSByTypeRecord_h__
+DNSByTypeRecord_h_
 #
 define
-DNSByTypeRecord_h__
+DNSByTypeRecord_h_
 #
 include
 "
@@ -1218,4 +1218,4 @@ IPC
 endif
 /
 /
-DNSByTypeRecord_h__
+DNSByTypeRecord_h_

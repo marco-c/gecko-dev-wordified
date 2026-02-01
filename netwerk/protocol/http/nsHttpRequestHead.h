@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsHttpRequestHead_h__
+nsHttpRequestHead_h_
 #
 define
-nsHttpRequestHead_h__
+nsHttpRequestHead_h_
 #
 include
 "
@@ -1219,4 +1219,4 @@ mozilla
 endif
 /
 /
-nsHttpRequestHead_h__
+nsHttpRequestHead_h_

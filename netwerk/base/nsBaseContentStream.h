@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsBaseContentStream_h__
+nsBaseContentStream_h_
 #
 define
-nsBaseContentStream_h__
+nsBaseContentStream_h_
 #
 include
 "
@@ -731,4 +731,4 @@ mNonBlocking
 endif
 /
 /
-nsBaseContentStream_h__
+nsBaseContentStream_h_

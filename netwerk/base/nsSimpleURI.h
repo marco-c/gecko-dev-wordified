@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsSimpleURI_h__
+nsSimpleURI_h_
 #
 define
-nsSimpleURI_h__
+nsSimpleURI_h_
 #
 include
 "
@@ -1424,4 +1424,4 @@ mozilla
 endif
 /
 /
-nsSimpleURI_h__
+nsSimpleURI_h_

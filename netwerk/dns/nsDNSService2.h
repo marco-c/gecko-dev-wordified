@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-nsDNSService2_h__
+nsDNSService2_h_
 #
 define
-nsDNSService2_h__
+nsDNSService2_h_
 #
 include
 "
@@ -762,4 +762,4 @@ GetOrInitDNSService
 endif
 /
 /
-nsDNSService2_h__
+nsDNSService2_h_

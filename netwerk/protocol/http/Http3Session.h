@@ -111,10 +111,10 @@ MPL
 /
 #
 ifndef
-Http3Session_H__
+Http3Session_H_
 #
 define
-Http3Session_H__
+Http3Session_H_
 #
 include
 "
@@ -3038,4 +3038,4 @@ net
 endif
 /
 /
-Http3Session_H__
+Http3Session_H_

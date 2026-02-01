@@ -77,10 +77,10 @@ MPL
 /
 #
 ifndef
-HostRecordQueue_h__
+HostRecordQueue_h_
 #
 define
-HostRecordQueue_h__
+HostRecordQueue_h_
 #
 include
 <
@@ -598,4 +598,4 @@ mozilla
 endif
 /
 /
-HostRecordQueue_h__
+HostRecordQueue_h_

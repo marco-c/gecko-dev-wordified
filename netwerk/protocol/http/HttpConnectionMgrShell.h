@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-HttpConnectionMgrShell_h__
+HttpConnectionMgrShell_h_
 #
 define
-HttpConnectionMgrShell_h__
+HttpConnectionMgrShell_h_
 #
 include
 "
@@ -1586,4 +1586,4 @@ net
 endif
 /
 /
-HttpConnectionMgrShell_h__
+HttpConnectionMgrShell_h_

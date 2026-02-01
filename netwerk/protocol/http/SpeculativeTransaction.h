@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-SpeculativeTransaction_h__
+SpeculativeTransaction_h_
 #
 define
-SpeculativeTransaction_h__
+SpeculativeTransaction_h_
 #
 include
 "
@@ -463,4 +463,4 @@ mozilla
 endif
 /
 /
-SpeculativeTransaction_h__
+SpeculativeTransaction_h_

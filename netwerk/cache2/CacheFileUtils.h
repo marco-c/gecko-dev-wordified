@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-CacheFileUtils__h__
+CacheFileUtils_h_
 #
 define
-CacheFileUtils__h__
+CacheFileUtils_h_
 #
 include
 "

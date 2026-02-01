@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-UriTemplateGlue_h__
+UriTemplateGlue_h_
 #
 define
-UriTemplateGlue_h__
+UriTemplateGlue_h_
 #
 include
 "
@@ -251,4 +251,4 @@ net
 endif
 /
 /
-UriTemplateGlue_h__
+UriTemplateGlue_h_

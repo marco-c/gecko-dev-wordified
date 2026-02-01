@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-nsASocketHandler_h__
+nsASocketHandler_h_
 #
 define
-nsASocketHandler_h__
+nsASocketHandler_h_
 #
 include
 "
@@ -640,4 +640,4 @@ endif
 /
 /
 !
-nsASocketHandler_h__
+nsASocketHandler_h_

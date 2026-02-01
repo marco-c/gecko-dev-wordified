@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-HttpTransactionParent_h__
+HttpTransactionParent_h_
 #
 define
-HttpTransactionParent_h__
+HttpTransactionParent_h_
 #
 include
 "
@@ -1118,4 +1118,4 @@ net
 endif
 /
 /
-nsHttpTransactionParent_h__
+nsHttpTransactionParent_h_

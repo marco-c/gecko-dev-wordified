@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-mozURL_h__
+mozURL_h_
 #
 define
-mozURL_h__
+mozURL_h_
 #
 include
 "
@@ -1972,4 +1972,4 @@ mozilla
 endif
 /
 /
-mozURL_h__
+mozURL_h_

@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-nsStreamTransportService_h__
+nsStreamTransportService_h_
 #
 define
-nsStreamTransportService_h__
+nsStreamTransportService_h_
 #
 include
 "

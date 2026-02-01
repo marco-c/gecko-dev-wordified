@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsSimpleStreamListener_h__
+nsSimpleStreamListener_h_
 #
 define
-nsSimpleStreamListener_h__
+nsSimpleStreamListener_h_
 #
 include
 "

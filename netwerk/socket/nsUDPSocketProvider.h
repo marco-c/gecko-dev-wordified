@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-nsUDPSocketProvider_h__
+nsUDPSocketProvider_h_
 #
 define
-nsUDPSocketProvider_h__
+nsUDPSocketProvider_h_
 #
 include
 "
@@ -95,6 +95,6 @@ default
 endif
 /
 *
-nsUDPSocketProvider_h__
+nsUDPSocketProvider_h_
 *
 /

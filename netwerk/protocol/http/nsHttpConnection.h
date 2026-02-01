@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsHttpConnection_h__
+nsHttpConnection_h_
 #
 define
-nsHttpConnection_h__
+nsHttpConnection_h_
 #
 include
 <
@@ -2545,4 +2545,4 @@ mozilla
 endif
 /
 /
-nsHttpConnection_h__
+nsHttpConnection_h_

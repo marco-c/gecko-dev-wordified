@@ -77,10 +77,10 @@ MPL
 /
 #
 ifndef
-PendingTransactionInfo_h__
+PendingTransactionInfo_h_
 #
 define
-PendingTransactionInfo_h__
+PendingTransactionInfo_h_
 #
 include
 "
@@ -368,4 +368,4 @@ endif
 /
 /
 !
-PendingTransactionInfo_h__
+PendingTransactionInfo_h_

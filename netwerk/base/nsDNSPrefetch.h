@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsDNSPrefetch_h___
+nsDNSPrefetch_h_
 #
 define
-nsDNSPrefetch_h___
+nsDNSPrefetch_h_
 #
 include
 <

@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-MockNetworkLayerController_h__
+MockNetworkLayerController_h_
 #
 define
-MockNetworkLayerController_h__
+MockNetworkLayerController_h_
 #
 include
 "
@@ -293,4 +293,4 @@ net
 endif
 /
 /
-MockNetworkLayerController_h__
+MockNetworkLayerController_h_

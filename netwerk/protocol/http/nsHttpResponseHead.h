@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsHttpResponseHead_h__
+nsHttpResponseHead_h_
 #
 define
-nsHttpResponseHead_h__
+nsHttpResponseHead_h_
 #
 include
 "
@@ -2008,4 +2008,4 @@ mozilla
 endif
 /
 /
-nsHttpResponseHead_h__
+nsHttpResponseHead_h_

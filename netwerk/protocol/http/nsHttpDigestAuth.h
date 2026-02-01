@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-nsDigestAuth_h__
+nsDigestAuth_h_
 #
 define
-nsDigestAuth_h__
+nsDigestAuth_h_
 #
 include
 "

@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-nsTransportUtils_h__
+nsTransportUtils_h_
 #
 define
-nsTransportUtils_h__
+nsTransportUtils_h_
 #
 include
 "
@@ -202,4 +202,4 @@ aTarget
 endif
 /
 /
-nsTransportUtils_h__
+nsTransportUtils_h_

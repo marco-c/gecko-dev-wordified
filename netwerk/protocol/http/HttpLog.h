@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-HttpLog_h__
+HttpLog_h_
 #
 define
-HttpLog_h__
+HttpLog_h_
 /
 *
 *
@@ -825,4 +825,4 @@ args
 endif
 /
 /
-HttpLog_h__
+HttpLog_h_

@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-AltServiceChild_h__
+AltServiceChild_h_
 #
 define
-AltServiceChild_h__
+AltServiceChild_h_
 #
 include
 "
@@ -223,4 +223,4 @@ mozilla
 endif
 /
 /
-AltServiceChild_h__
+AltServiceChild_h_

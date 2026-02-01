@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsIncrementalStreamLoader_h__
+nsIncrementalStreamLoader_h_
 #
 define
-nsIncrementalStreamLoader_h__
+nsIncrementalStreamLoader_h_
 #
 include
 "
@@ -327,4 +327,4 @@ mBytesRead
 endif
 /
 /
-nsIncrementalStreamLoader_h__
+nsIncrementalStreamLoader_h_

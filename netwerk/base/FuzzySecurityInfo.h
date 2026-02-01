@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-FuzzySecurityInfo_h__
+FuzzySecurityInfo_h_
 #
 define
-FuzzySecurityInfo_h__
+FuzzySecurityInfo_h_
 #
 include
 "
@@ -181,4 +181,4 @@ mozilla
 endif
 /
 /
-FuzzySecurityInfo_h__
+FuzzySecurityInfo_h_

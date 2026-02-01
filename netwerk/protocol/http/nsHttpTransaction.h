@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsHttpTransaction_h__
+nsHttpTransaction_h_
 #
 define
-nsHttpTransaction_h__
+nsHttpTransaction_h_
 #
 include
 "
@@ -4117,4 +4117,4 @@ net
 endif
 /
 /
-nsHttpTransaction_h__
+nsHttpTransaction_h_

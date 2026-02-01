@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-nsNetSegmentUtils_h__
+nsNetSegmentUtils_h_
 #
 define
-nsNetSegmentUtils_h__
+nsNetSegmentUtils_h_
 #
 include
 "
@@ -140,4 +140,4 @@ endif
 /
 /
 !
-nsNetSegmentUtils_h__
+nsNetSegmentUtils_h_

@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-nsHttpAuthManager_h__
+nsHttpAuthManager_h_
 #
 define
-nsHttpAuthManager_h__
+nsHttpAuthManager_h_
 #
 include
 "
@@ -186,4 +186,4 @@ mozilla
 endif
 /
 /
-nsHttpAuthManager_h__
+nsHttpAuthManager_h_

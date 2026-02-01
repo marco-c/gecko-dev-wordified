@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-__NSDIRINDEX_H_
+NSDIRINDEX_H_
 #
 define
-__NSDIRINDEX_H_
+NSDIRINDEX_H_
 #
 include
 "

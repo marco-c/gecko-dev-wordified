@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-mozilla_net_CachePurgeLock_h__
+mozilla_net_CachePurgeLock_h_
 #
 define
-mozilla_net_CachePurgeLock_h__
+mozilla_net_CachePurgeLock_h_
 #
 include
 "
@@ -121,4 +121,4 @@ net
 endif
 /
 /
-mozilla_net_CachePurgeLock_h__
+mozilla_net_CachePurgeLock_h_

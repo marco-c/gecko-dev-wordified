@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_net_BackgroundChannelRegistrar_h__
+mozilla_net_BackgroundChannelRegistrar_h_
 #
 define
-mozilla_net_BackgroundChannelRegistrar_h__
+mozilla_net_BackgroundChannelRegistrar_h_
 #
 include
 "
@@ -298,4 +298,4 @@ mozilla
 endif
 /
 /
-mozilla_net_BackgroundChannelRegistrar_h__
+mozilla_net_BackgroundChannelRegistrar_h_

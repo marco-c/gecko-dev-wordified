@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-nsProxyInfo_h__
+nsProxyInfo_h_
 #
 define
-nsProxyInfo_h__
+nsProxyInfo_h_
 #
 include
 "
@@ -613,4 +613,4 @@ mozilla
 endif
 /
 /
-nsProxyInfo_h__
+nsProxyInfo_h_

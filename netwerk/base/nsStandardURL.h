@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsStandardURL_h__
+nsStandardURL_h_
 #
 define
-nsStandardURL_h__
+nsStandardURL_h_
 #
 include
 <
@@ -4120,4 +4120,4 @@ mozilla
 endif
 /
 /
-nsStandardURL_h__
+nsStandardURL_h_

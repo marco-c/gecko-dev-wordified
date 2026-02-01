@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-IDNBlocklistUtils_h__
+IDNBlocklistUtils_h_
 #
 define
-IDNBlocklistUtils_h__
+IDNBlocklistUtils_h_
 #
 include
 <
@@ -429,4 +429,4 @@ mozilla
 endif
 /
 /
-IDNBlocklistUtils_h__
+IDNBlocklistUtils_h_

@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-DNSListenerProxy_h__
+DNSListenerProxy_h_
 #
 define
-DNSListenerProxy_h__
+DNSListenerProxy_h_
 #
 include
 "
@@ -317,4 +317,4 @@ mozilla
 endif
 /
 /
-DNSListenerProxy_h__
+DNSListenerProxy_h_

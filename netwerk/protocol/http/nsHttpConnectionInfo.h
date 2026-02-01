@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-nsHttpConnectionInfo_h__
+nsHttpConnectionInfo_h_
 #
 define
-nsHttpConnectionInfo_h__
+nsHttpConnectionInfo_h_
 #
 include
 "
@@ -2451,4 +2451,4 @@ mozilla
 endif
 /
 /
-nsHttpConnectionInfo_h__
+nsHttpConnectionInfo_h_

@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-nsRedirectHistoryEntry_h__
+nsRedirectHistoryEntry_h_
 #
 define
-nsRedirectHistoryEntry_h__
+nsRedirectHistoryEntry_h_
 #
 include
 "
@@ -160,4 +160,4 @@ mozilla
 endif
 /
 /
-nsRedirectHistoryEntry_h__
+nsRedirectHistoryEntry_h_

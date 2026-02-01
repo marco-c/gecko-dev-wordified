@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsDirectoryIndexStream_h__
+nsDirectoryIndexStream_h_
 #
 define
-nsDirectoryIndexStream_h__
+nsDirectoryIndexStream_h_
 #
 include
 "
@@ -250,4 +250,4 @@ NS_DECL_NSIINPUTSTREAM
 endif
 /
 /
-nsDirectoryIndexStream_h__
+nsDirectoryIndexStream_h_

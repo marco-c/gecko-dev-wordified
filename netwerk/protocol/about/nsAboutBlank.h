@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsAboutBlank_h__
+nsAboutBlank_h_
 #
 define
-nsAboutBlank_h__
+nsAboutBlank_h_
 #
 include
 "
@@ -186,4 +186,4 @@ NS_ABOUT_BLANK_MODULE_CID
 endif
 /
 /
-nsAboutBlank_h__
+nsAboutBlank_h_

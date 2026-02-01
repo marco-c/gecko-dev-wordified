@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-nsHttpChannelAuthProvider_h__
+nsHttpChannelAuthProvider_h_
 #
 define
-nsHttpChannelAuthProvider_h__
+nsHttpChannelAuthProvider_h_
 #
 include
 "
@@ -1206,4 +1206,4 @@ mozilla
 endif
 /
 /
-nsHttpChannelAuthProvider_h__
+nsHttpChannelAuthProvider_h_

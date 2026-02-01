@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-NetworkMarker_h__
+NetworkMarker_h_
 #
 define
-NetworkMarker_h__
+NetworkMarker_h_
 #
 include
 "
@@ -318,4 +318,4 @@ mozilla
 endif
 /
 /
-NetworkMarker_h__
+NetworkMarker_h_

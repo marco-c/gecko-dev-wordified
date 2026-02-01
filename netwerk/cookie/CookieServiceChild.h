@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-mozilla_net_CookieServiceChild_h__
+mozilla_net_CookieServiceChild_h_
 #
 define
-mozilla_net_CookieServiceChild_h__
+mozilla_net_CookieServiceChild_h_
 #
 include
 "
@@ -456,4 +456,4 @@ mozilla
 endif
 /
 /
-mozilla_net_CookieServiceChild_h__
+mozilla_net_CookieServiceChild_h_

@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsViewSourceChannel_h___
+nsViewSourceChannel_h_
 #
 define
-nsViewSourceChannel_h___
+nsViewSourceChannel_h_
 #
 include
 "
@@ -558,6 +558,6 @@ false
 endif
 /
 *
-nsViewSourceChannel_h___
+nsViewSourceChannel_h_
 *
 /

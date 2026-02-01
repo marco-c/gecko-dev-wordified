@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-FuzzyLayer_h__
+FuzzyLayer_h_
 #
 define
-FuzzyLayer_h__
+FuzzyLayer_h_
 #
 include
 "
@@ -198,4 +198,4 @@ mozilla
 endif
 /
 /
-FuzzyLayer_h__
+FuzzyLayer_h_

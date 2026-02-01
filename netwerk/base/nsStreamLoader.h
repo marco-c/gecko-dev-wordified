@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsStreamLoader_h__
+nsStreamLoader_h_
 #
 define
-nsStreamLoader_h__
+nsStreamLoader_h_
 #
 include
 "
@@ -322,4 +322,4 @@ mozilla
 endif
 /
 /
-nsStreamLoader_h__
+nsStreamLoader_h_

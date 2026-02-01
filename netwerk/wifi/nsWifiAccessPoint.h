@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-__nsWifiAccessPoint__
+_nsWifiAccessPoint_
 #
 define
-__nsWifiAccessPoint__
+_nsWifiAccessPoint_
 #
 include
 <

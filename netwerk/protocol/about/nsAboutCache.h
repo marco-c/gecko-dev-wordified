@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsAboutCache_h__
+nsAboutCache_h_
 #
 define
-nsAboutCache_h__
+nsAboutCache_h_
 #
 include
 "
@@ -1430,4 +1430,4 @@ NS_ABOUT_CACHE_MODULE_CID
 endif
 /
 /
-nsAboutCache_h__
+nsAboutCache_h_

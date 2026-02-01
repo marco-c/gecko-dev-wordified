@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsCORSListenerProxy_h__
+nsCORSListenerProxy_h_
 #
 define
-nsCORSListenerProxy_h__
+nsCORSListenerProxy_h_
 #
 include
 "

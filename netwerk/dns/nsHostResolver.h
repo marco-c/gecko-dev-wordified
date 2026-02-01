@@ -77,10 +77,10 @@ MPL
 /
 #
 ifndef
-nsHostResolver_h__
+nsHostResolver_h_
 #
 define
-nsHostResolver_h__
+nsHostResolver_h_
 #
 include
 "
@@ -2069,4 +2069,4 @@ IsNativeHTTPSEnabled
 endif
 /
 /
-nsHostResolver_h__
+nsHostResolver_h_

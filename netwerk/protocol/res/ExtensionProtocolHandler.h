@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-ExtensionProtocolHandler_h___
+ExtensionProtocolHandler_h_
 #
 define
-ExtensionProtocolHandler_h___
+ExtensionProtocolHandler_h_
 #
 include
 "
@@ -1914,6 +1914,6 @@ mozilla
 endif
 /
 *
-ExtensionProtocolHandler_h___
+ExtensionProtocolHandler_h_
 *
 /

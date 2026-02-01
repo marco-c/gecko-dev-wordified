@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-MicrosoftEntraSSOUtils_h__
+MicrosoftEntraSSOUtils_h_
 #
 define
-MicrosoftEntraSSOUtils_h__
+MicrosoftEntraSSOUtils_h_
 #
 include
 "
@@ -131,4 +131,4 @@ mozilla
 endif
 /
 /
-MicrosoftEntraSSOUtils_h__
+MicrosoftEntraSSOUtils_h_

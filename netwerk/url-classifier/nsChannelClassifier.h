@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-nsChannelClassifier_h__
+nsChannelClassifier_h_
 #
 define
-nsChannelClassifier_h__
+nsChannelClassifier_h_
 #
 include
 "

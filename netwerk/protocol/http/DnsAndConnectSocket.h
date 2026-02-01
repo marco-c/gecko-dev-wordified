@@ -77,10 +77,10 @@ MPL
 /
 #
 ifndef
-DnsAndConnectSocket_h__
+DnsAndConnectSocket_h_
 #
 define
-DnsAndConnectSocket_h__
+DnsAndConnectSocket_h_
 #
 include
 "
@@ -1487,4 +1487,4 @@ mozilla
 endif
 /
 /
-DnsAndConnectSocket_h__
+DnsAndConnectSocket_h_

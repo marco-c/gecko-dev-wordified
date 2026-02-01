@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-ContentRange_h__
+ContentRange_h_
 #
 define
-ContentRange_h__
+ContentRange_h_
 #
 include
 "
@@ -343,4 +343,4 @@ net
 endif
 /
 /
-ContentRange_h__
+ContentRange_h_
