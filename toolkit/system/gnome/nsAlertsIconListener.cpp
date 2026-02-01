@@ -219,7 +219,7 @@ mozilla
 ;
 extern
 const
-StaticXREAppData
+XREAppData
 *
 gAppData
 ;
@@ -1342,6 +1342,11 @@ g_variant_new
 "
 s
 "
+(
+const
+char
+*
+)
 gAppData
 -
 >
