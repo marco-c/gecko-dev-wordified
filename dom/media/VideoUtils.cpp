@@ -6631,9 +6631,7 @@ TaskQueue
 >
 CreateMediaDecodeTaskQueue
 (
-const
-char
-*
+StaticString
 aName
 )
 {
