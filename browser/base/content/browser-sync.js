@@ -3764,7 +3764,7 @@ this
 REMOTE_SVG_ICON_DECODING
 "
 "
-browser
+identity
 .
 tabs
 .
