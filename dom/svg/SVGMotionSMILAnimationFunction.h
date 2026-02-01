@@ -440,6 +440,7 @@ true
 protected
 :
 enum
+class
 PathSourceType
 {
 /
@@ -463,14 +464,14 @@ have
 higher
 enumerated
 values
-ePathSourceType_None
+None
 /
 /
 uninitialized
 or
 not
 applicable
-ePathSourceType_ByAttr
+ByAttr
 /
 /
 by
@@ -479,7 +480,7 @@ from
 -
 by
 animation
-ePathSourceType_ToAttr
+ToAttr
 /
 /
 to
@@ -488,9 +489,9 @@ from
 -
 to
 animation
-ePathSourceType_ValuesAttr
-ePathSourceType_PathAttr
-ePathSourceType_Mpath
+ValuesAttr
+PathAttr
+Mpath
 }
 ;
 SMILCalcMode

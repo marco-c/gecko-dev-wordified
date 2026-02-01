@@ -164,7 +164,7 @@ SMILValue
 *
 *
 *
-MotionRotateType
+RotateType
 :
 Enum
 to
@@ -181,9 +181,10 @@ attribute
 *
 /
 enum
+class
 RotateType
 {
-eRotateType_Explicit
+Explicit
 /
 /
 for
@@ -206,7 +207,7 @@ rotate
 .
 785rad
 "
-eRotateType_Auto
+Auto
 /
 /
 for
@@ -215,7 +216,7 @@ rotate
 "
 auto
 "
-eRotateType_AutoReverse
+AutoReverse
 /
 /
 for
