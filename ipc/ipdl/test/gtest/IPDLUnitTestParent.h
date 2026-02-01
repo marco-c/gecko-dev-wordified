@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla__ipdltest_IPDLUnitTestParent_h
+mozilla_ipdltest_IPDLUnitTestParent_h
 #
 define
-mozilla__ipdltest_IPDLUnitTestParent_h
+mozilla_ipdltest_IPDLUnitTestParent_h
 #
 include
 "
@@ -338,4 +338,4 @@ _ipdltest
 endif
 /
 /
-mozilla__ipdltest_IPDLUnitTestParent_h
+mozilla_ipdltest_IPDLUnitTestParent_h

@@ -394,10 +394,10 @@ SomeMeth
 ;
 #
 ifndef
-BASE_TUPLE_H__
+BASE_TUPLE_H_
 #
 define
-BASE_TUPLE_H__
+BASE_TUPLE_H_
 /
 /
 Traits
@@ -7711,4 +7711,4 @@ e
 endif
 /
 /
-BASE_TUPLE_H__
+BASE_TUPLE_H_

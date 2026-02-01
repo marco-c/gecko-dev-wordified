@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-__FORKSERVICE_CHILD_H_
+FORKSERVICE_CHILD_H_
 #
 define
-__FORKSERVICE_CHILD_H_
+FORKSERVICE_CHILD_H_
 #
 include
 "
@@ -876,6 +876,6 @@ mozilla
 endif
 /
 *
-__FORKSERVICE_CHILD_H_
+FORKSERVICE_CHILD_H_
 *
 /

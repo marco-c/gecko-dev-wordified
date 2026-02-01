@@ -101,10 +101,10 @@ file
 .
 #
 ifndef
-BASE_OBSERVER_LIST_H__
+BASE_OBSERVER_LIST_H_
 #
 define
-BASE_OBSERVER_LIST_H__
+BASE_OBSERVER_LIST_H_
 #
 include
 <
@@ -1267,4 +1267,4 @@ while
 endif
 /
 /
-BASE_OBSERVER_LIST_H__
+BASE_OBSERVER_LIST_H_

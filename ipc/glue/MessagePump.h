@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-__IPC_GLUE_MESSAGEPUMP_H__
+IPC_GLUE_MESSAGEPUMP_H_
 #
 define
-__IPC_GLUE_MESSAGEPUMP_H__
+IPC_GLUE_MESSAGEPUMP_H_
 #
 include
 "
@@ -1067,6 +1067,6 @@ mozilla
 endif
 /
 *
-__IPC_GLUE_MESSAGEPUMP_H__
+IPC_GLUE_MESSAGEPUMP_H_
 *
 /

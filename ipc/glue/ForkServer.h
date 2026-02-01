@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-__FORKSERVER_H_
+FORKSERVER_H_
 #
 define
-__FORKSERVER_H_
+FORKSERVER_H_
 #
 include
 "
@@ -300,4 +300,4 @@ mozilla
 endif
 /
 /
-__FORKSERVER_H_
+FORKSERVER_H_

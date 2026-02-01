@@ -101,10 +101,10 @@ file
 .
 #
 ifndef
-BASE_PICKLE_H__
+BASE_PICKLE_H_
 #
 define
-BASE_PICKLE_H__
+BASE_PICKLE_H_
 #
 include
 <
@@ -2343,4 +2343,4 @@ header_size_
 endif
 /
 /
-BASE_PICKLE_H__
+BASE_PICKLE_H_

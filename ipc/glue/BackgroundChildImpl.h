@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_ipc_backgroundchildimpl_h__
+mozilla_ipc_backgroundchildimpl_h_
 #
 define
-mozilla_ipc_backgroundchildimpl_h__
+mozilla_ipc_backgroundchildimpl_h_
 #
 include
 "
@@ -909,4 +909,4 @@ mozilla
 endif
 /
 /
-mozilla_ipc_backgroundchildimpl_h__
+mozilla_ipc_backgroundchildimpl_h_

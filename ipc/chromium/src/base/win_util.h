@@ -101,10 +101,10 @@ file
 .
 #
 ifndef
-BASE_WIN_UTIL_H__
+BASE_WIN_UTIL_H_
 #
 define
-BASE_WIN_UTIL_H__
+BASE_WIN_UTIL_H_
 #
 include
 <
@@ -159,4 +159,4 @@ win_util
 endif
 /
 /
-BASE_WIN_UTIL_H__
+BASE_WIN_UTIL_H_

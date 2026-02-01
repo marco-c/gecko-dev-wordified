@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_ipc_backgroundchild_h__
+mozilla_ipc_backgroundchild_h_
 #
 define
-mozilla_ipc_backgroundchild_h__
+mozilla_ipc_backgroundchild_h_
 class
 nsIEventTarget
 ;
@@ -513,4 +513,4 @@ mozilla
 endif
 /
 /
-mozilla_ipc_backgroundchild_h__
+mozilla_ipc_backgroundchild_h_

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-_include_ipc_glue_UtilityMediaService_h__
+_include_ipc_glue_UtilityMediaService_h_
 #
 define
-_include_ipc_glue_UtilityMediaService_h__
+_include_ipc_glue_UtilityMediaService_h_
 #
 include
 "
@@ -184,4 +184,4 @@ ipc
 endif
 /
 /
-_include_ipc_glue_UtilityMediaService_h__
+_include_ipc_glue_UtilityMediaService_h_

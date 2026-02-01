@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_ipc_IdleSchedulerChild_h__
+mozilla_ipc_IdleSchedulerChild_h_
 #
 define
-mozilla_ipc_IdleSchedulerChild_h__
+mozilla_ipc_IdleSchedulerChild_h_
 #
 include
 "
@@ -428,4 +428,4 @@ mozilla
 endif
 /
 /
-mozilla_ipc_IdleSchedulerChild_h__
+mozilla_ipc_IdleSchedulerChild_h_
