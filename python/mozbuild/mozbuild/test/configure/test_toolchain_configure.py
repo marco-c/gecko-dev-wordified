@@ -12434,7 +12434,7 @@ rustc
 version
 1
 .
-87
+90
             
 rust_targets
 =
@@ -13516,6 +13516,24 @@ i686
 wrs
 -
 vxworks
+"
+                
+"
+loongarch32
+-
+unknown
+-
+none
+"
+                
+"
+loongarch32
+-
+unknown
+-
+none
+-
+softfloat
 "
                 
 "
@@ -14672,6 +14690,14 @@ x86_64
 linux
 -
 android
+"
+                
+"
+x86_64
+-
+lynx
+-
+lynxos178
 "
                 
 "
