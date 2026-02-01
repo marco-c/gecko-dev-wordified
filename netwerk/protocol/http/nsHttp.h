@@ -3020,7 +3020,7 @@ stored
 in
 nsHttpAtomList
 .
-h
+inc
 and
 are
 brought
@@ -3075,7 +3075,7 @@ include
 "
 nsHttpAtomList
 .
-h
+inc
 "
 #
 undef
