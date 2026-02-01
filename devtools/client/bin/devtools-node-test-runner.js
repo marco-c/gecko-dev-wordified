@@ -1288,8 +1288,6 @@ popup
 /
 panel
 .
-jsm
-.
 js
 (
 103

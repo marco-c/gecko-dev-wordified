@@ -264,9 +264,9 @@ symbols
 /
 /
 See
-ProfilerGetSymbols
+profiler_get_symbols
 .
-jsm
+js
 for
 more
 information

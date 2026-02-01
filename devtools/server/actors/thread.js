@@ -13270,7 +13270,9 @@ by
 /
 ExtensionContent
 .
-jsm
+sys
+.
+mjs
 and
 ThreadActor
 would

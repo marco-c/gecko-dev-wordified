@@ -598,7 +598,9 @@ created
 in
 ConsoleAPIStorage
 .
-jsm
+sys
+.
+mjs
 '
 s
 scope
@@ -1167,8 +1169,6 @@ addonId
 /
 /
 ConsoleAPI
-.
-jsm
 messages
 contains
 a
