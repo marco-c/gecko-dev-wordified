@@ -2023,9 +2023,6 @@ aiFeatures
 "
 aiStatesDescription
 "
-"
-aiWindowFeatures
-"
 ]
 module
 :
