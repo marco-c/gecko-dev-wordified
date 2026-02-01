@@ -441,9 +441,7 @@ await
 constructEngineObj
 (
 await
-Services
-.
-search
+SearchService
 .
 getDefault
 (
@@ -617,9 +615,7 @@ await
 constructEngineObj
 (
 await
-Services
-.
-search
+SearchService
 .
 getDefault
 (
@@ -726,9 +722,7 @@ CurrentEngine
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 removeEngine
 (
@@ -1291,9 +1285,7 @@ basename
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 setDefault
 (
@@ -1387,9 +1379,7 @@ await
 constructEngineObj
 (
 await
-Services
-.
-search
+SearchService
 .
 getDefault
 (
@@ -1401,9 +1391,7 @@ await
 constructEngineObj
 (
 await
-Services
-.
-search
+SearchService
 .
 getDefaultPrivate
 (
@@ -1417,9 +1405,7 @@ let
 engine
 of
 await
-Services
-.
-search
+SearchService
 .
 getVisibleEngines
 (

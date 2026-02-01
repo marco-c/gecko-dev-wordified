@@ -457,9 +457,7 @@ context
 {
 engineName
 :
-Services
-.
-search
+SearchService
 .
 defaultEngine
 .
@@ -582,9 +580,7 @@ url2
 let
 engine2
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -684,9 +680,7 @@ context
 {
 engineName
 :
-Services
-.
-search
+SearchService
 .
 defaultEngine
 .
@@ -1211,9 +1205,7 @@ url
 let
 wikiEngine
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (

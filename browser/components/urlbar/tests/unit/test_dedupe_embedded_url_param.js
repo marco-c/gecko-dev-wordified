@@ -121,9 +121,7 @@ kitten
 "
 engineName
 :
-Services
-.
-search
+SearchService
 .
 defaultEngine
 .
@@ -428,9 +426,7 @@ kitten
 "
 engineName
 :
-Services
-.
-search
+SearchService
 .
 defaultEngine
 .
@@ -615,9 +611,7 @@ kitten
 "
 engineName
 :
-Services
-.
-search
+SearchService
 .
 defaultEngine
 .
@@ -775,9 +769,7 @@ kitten
 "
 engineName
 :
-Services
-.
-search
+SearchService
 .
 defaultEngine
 .
@@ -949,9 +941,7 @@ kitten
 "
 engineName
 :
-Services
-.
-search
+SearchService
 .
 defaultEngine
 .

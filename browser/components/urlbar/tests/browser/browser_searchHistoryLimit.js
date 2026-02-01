@@ -115,9 +115,7 @@ true
 ;
 gEngine
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (

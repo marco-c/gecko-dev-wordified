@@ -2941,9 +2941,7 @@ engine
 let
 originalTestEngine
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -2972,9 +2970,7 @@ alias
 let
 engine2
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -2987,9 +2983,7 @@ Assert
 .
 notEqual
 (
-Services
-.
-search
+SearchService
 .
 defaultEngine
 engine2
@@ -3008,9 +3002,7 @@ yet
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 setDefault
 (
@@ -3067,9 +3059,7 @@ true
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 setDefault
 (

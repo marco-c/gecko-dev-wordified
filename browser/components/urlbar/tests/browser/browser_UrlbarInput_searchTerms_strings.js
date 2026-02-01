@@ -379,9 +379,7 @@ UrlbarUtils
 .
 getSearchQueryUrl
 (
-Services
-.
-search
+SearchService
 .
 defaultEngine
 searchString
