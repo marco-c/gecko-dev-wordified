@@ -17452,10 +17452,8 @@ searchString
 position
 ]
 )
+static
 bool
-js
-:
-:
 str_startsWith
 (
 JSContext
@@ -17868,10 +17866,8 @@ searchString
 endPosition
 ]
 )
+static
 bool
-js
-:
-:
 str_endsWith
 (
 JSContext
