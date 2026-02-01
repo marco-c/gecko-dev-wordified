@@ -4694,6 +4694,10 @@ friend
 class
 RelatedAccIterator
 ;
+friend
+class
+HTMLLabelIterator
+;
 /
 *
 *

@@ -15084,9 +15084,7 @@ AppendIter
 new
 HTMLLabelIterator
 (
-Document
-(
-)
+mDoc
 this
 )
 )
@@ -31162,7 +31160,7 @@ we
 /
 /
 call
-GetControl
+GetLabeledElementInternal
 (
 )
 .
@@ -31173,11 +31171,11 @@ contains
 an
 element
 we
+/
+/
 will
 return
 it
-/
-/
 here
 .
 if
@@ -31209,7 +31207,7 @@ mDoc
 labelEl
 -
 >
-GetControl
+GetLabeledElementInternal
 (
 )
 )

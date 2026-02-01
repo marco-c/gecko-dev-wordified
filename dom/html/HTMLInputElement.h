@@ -4337,7 +4337,15 @@ already_AddRefed
 <
 nsINodeList
 >
-GetLabels
+GetLabelsForBindings
+(
+)
+;
+already_AddRefed
+<
+nsINodeList
+>
+GetLabelsInternal
 (
 )
 ;
