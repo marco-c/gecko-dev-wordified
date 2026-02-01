@@ -1764,6 +1764,8 @@ frame_state
 .
 transforms
 .
+gpu
+.
 get_id
 (
 prim_spatial_node_index
