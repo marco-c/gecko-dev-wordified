@@ -94,14 +94,12 @@ h
 #
 include
 <
-stddef
-.
-h
+algorithm
 >
 #
 include
 <
-algorithm
+cstddef
 >
 #
 include
@@ -488,6 +486,10 @@ kBufferSize
 in_buffer_
 (
 kBufferSize
+)
+destroyed_trampoline_
+(
+this
 )
 {
 int_socket_
@@ -1044,7 +1046,7 @@ Destroy
 (
 )
 {
-SignalDestroyed
+NotifyDestroyed
 (
 this
 )
