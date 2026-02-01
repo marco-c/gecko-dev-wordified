@@ -5802,6 +5802,8 @@ if
 (
 defaultAnchor
 .
+value
+.
 IsNone
 (
 )
@@ -5815,6 +5817,8 @@ if
 (
 defaultAnchor
 .
+value
+.
 IsIdent
 (
 )
@@ -5822,6 +5826,8 @@ IsIdent
 {
 return
 defaultAnchor
+.
+value
 .
 AsIdent
 (
@@ -6725,6 +6731,8 @@ pos
 >
 mPositionAnchor
 .
+value
+.
 IsIdent
 (
 )
@@ -6743,6 +6751,8 @@ pos
 -
 >
 mPositionAnchor
+.
+value
 .
 AsIdent
 (
@@ -7168,6 +7178,8 @@ StylePosition
 -
 >
 mPositionAnchor
+.
+value
 .
 IsNone
 (
