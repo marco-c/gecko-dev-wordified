@@ -528,13 +528,6 @@ promiseStartupManager
 (
 )
 ;
-if
-(
-AppConstants
-.
-BROWSER_NEWTAB_AS_ADDON
-)
-{
 Services
 .
 prefs
@@ -556,7 +549,6 @@ loadExtension
 (
 )
 ;
-}
 AboutNewTab
 .
 init
