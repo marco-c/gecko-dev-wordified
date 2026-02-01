@@ -185,6 +185,14 @@ Instant
 }
 ;
 use
+http
+:
+:
+Uri
+as
+Url
+;
+use
 neqo_common
 :
 :
@@ -233,12 +241,6 @@ rustc_hash
 FxHashMap
 as
 HashMap
-;
-use
-url
-:
-:
-Url
 ;
 use
 super

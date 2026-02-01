@@ -793,6 +793,7 @@ len
 )
 ?
 &
+raw
 mut
 ctx
 )
@@ -986,6 +987,7 @@ as_mut_ptr
 (
 )
 &
+raw
 mut
 l
 c_uint
@@ -1138,6 +1140,7 @@ as_mut_ptr
 (
 )
 &
+raw
 mut
 l
 c_uint
@@ -1324,6 +1327,7 @@ as_mut_ptr
 (
 )
 &
+raw
 mut
 l
 c_uint
@@ -1482,6 +1486,7 @@ as_mut_ptr
 (
 )
 &
+raw
 mut
 l
 c_uint

@@ -2279,6 +2279,7 @@ qtrace
 "
 HSetting
 {
+feature_type
 :
 ?
 }
@@ -2288,7 +2289,6 @@ succeeded
 not
 handled
 "
-feature_type
 )
 }
 }

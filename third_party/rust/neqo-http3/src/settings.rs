@@ -1622,7 +1622,7 @@ enc
 Encoder
 :
 :
-new
+default
 (
 )
 ;
@@ -2060,12 +2060,6 @@ mod
 tests
 {
 use
-neqo_common
-:
-:
-Encoder
-;
-use
 super
 :
 :
@@ -2087,7 +2081,7 @@ enc
 Encoder
 :
 :
-new
+default
 (
 )
 ;
@@ -2279,7 +2273,7 @@ enc
 Encoder
 :
 :
-new
+default
 (
 )
 ;
@@ -2393,7 +2387,7 @@ enc
 Encoder
 :
 :
-new
+default
 (
 )
 ;
@@ -2466,7 +2460,7 @@ enc
 Encoder
 :
 :
-new
+default
 (
 )
 ;
@@ -2555,7 +2549,7 @@ enc
 Encoder
 :
 :
-new
+default
 (
 )
 ;
@@ -2660,7 +2654,7 @@ enc
 Encoder
 :
 :
-new
+default
 (
 )
 ;

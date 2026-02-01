@@ -3222,7 +3222,7 @@ control_stream_local
 ControlStreamLocal
 :
 :
-new
+default
 (
 )
 qpack_encoder
@@ -5656,7 +5656,7 @@ control_stream_local
 ControlStreamLocal
 :
 :
-new
+default
 (
 )
 ;
@@ -13043,6 +13043,7 @@ state
 must_use
 ]
 pub
+const
 fn
 state_mut
 (
@@ -13269,10 +13270,10 @@ mod
 tests
 {
 use
-url
+http
 :
 :
-Url
+Uri
 ;
 use
 crate
@@ -13316,10 +13317,10 @@ CONNECT
 target
 :
 &
-Url
+Uri
 :
 :
-parse
+from_static
 (
 "
 https
@@ -13330,10 +13331,6 @@ example
 .
 com
 "
-)
-.
-unwrap
-(
 )
 headers
 :
@@ -13396,10 +13393,10 @@ GET
 target
 :
 &
-Url
+Uri
 :
 :
-parse
+from_static
 (
 "
 https
@@ -13410,10 +13407,6 @@ example
 .
 com
 "
-)
-.
-unwrap
-(
 )
 headers
 :
