@@ -156,6 +156,13 @@ title
 Test
 title
 "
+transition
+:
+PlacesUtils
+.
+history
+.
+TRANSITION_TYPED
 }
 ;
 await

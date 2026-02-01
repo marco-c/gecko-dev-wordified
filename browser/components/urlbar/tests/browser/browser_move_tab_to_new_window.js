@@ -121,6 +121,9 @@ PlacesTestUtils
 addVisits
 (
 [
+{
+url
+:
 "
 https
 :
@@ -131,6 +134,14 @@ example
 com
 /
 "
+transition
+:
+PlacesUtils
+.
+history
+.
+TRANSITION_TYPED
+}
 ]
 )
 ;
