@@ -66,12 +66,6 @@ sys
 import
 mozfile
 from
-gecko_taskgraph
-.
-target_tasks
-import
-filter_by_uncommon_try_tasks
-from
 mach
 .
 util
@@ -2481,6 +2475,13 @@ disable_target_task_filter
 False
 )
 :
+    
+from
+gecko_taskgraph
+.
+target_tasks
+import
+filter_by_uncommon_try_tasks
     
 check_working_directory
 (
