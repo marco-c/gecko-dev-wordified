@@ -533,11 +533,6 @@ IntlGuardToPluralRules
 \
 _
 (
-IntlGuardToRelativeTimeFormat
-)
-\
-_
-(
 IntlGuardToSegmenter
 )
 \
