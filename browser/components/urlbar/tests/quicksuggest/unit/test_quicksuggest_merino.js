@@ -3135,12 +3135,6 @@ sponsoredIabCategory
 suggestion
 .
 iab_category
-isBlockable
-:
-true
-isManageable
-:
-true
 isSponsored
 :
 true
