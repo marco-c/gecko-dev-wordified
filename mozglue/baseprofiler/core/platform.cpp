@@ -21865,16 +21865,6 @@ the
 main
 thread
 .
-MOZ_RELEASE_ASSERT
-(
-CorePS
-:
-:
-Exists
-(
-)
-)
-;
 /
 /
 This
