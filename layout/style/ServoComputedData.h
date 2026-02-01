@@ -173,6 +173,14 @@ mNonInherited
 }
 ;
 struct
+ServoUsedAttributes
+{
+uintptr_t
+mUsedAttributes
+;
+}
+;
+struct
 ServoRuleNode
 {
 uintptr_t
@@ -406,6 +414,12 @@ mozilla
 :
 ServoComputedCustomProperties
 custom_properties
+;
+mozilla
+:
+:
+ServoUsedAttributes
+attribute_references
 ;
 /
 /
