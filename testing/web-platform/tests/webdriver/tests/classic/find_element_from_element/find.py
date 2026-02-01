@@ -1781,11 +1781,26 @@ invalid
 selector
 "
 )
+pytest
+.
+mark
+.
+parametrize
+(
+"
+value
+"
+[
+None
+1
+]
+)
 def
 test_implicit_wait
 (
 session
 inline
+value
 )
 :
     
@@ -1872,7 +1887,7 @@ timeouts
 .
 implicit
 =
-1
+value
     
 from_element
 =
