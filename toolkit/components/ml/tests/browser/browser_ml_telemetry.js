@@ -697,6 +697,11 @@ event
 "
 )
 ;
+await
+engineInstance
+.
+lastResourceRequest
+;
 const
 value
 =
