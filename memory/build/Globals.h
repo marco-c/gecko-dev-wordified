@@ -878,9 +878,9 @@ constexpr
 #
 include
 "
-Globals_inc
+Globals
 .
-h
+inc
 "
 #
 undef
@@ -939,9 +939,9 @@ GLOBAL_ASSERT
 #
 include
 "
-Globals_inc
+Globals
 .
-h
+inc
 "
 #
 undef
