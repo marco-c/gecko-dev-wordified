@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-NSFONTMETRICS__H__
+NSFONTMETRICS_H_
 #
 define
-NSFONTMETRICS__H__
+NSFONTMETRICS_H_
 #
 include
 <
@@ -1755,6 +1755,6 @@ mTextOrientation
 endif
 /
 *
-NSFONTMETRICS__H__
+NSFONTMETRICS_H_
 *
 /

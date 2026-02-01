@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-_MOZILLA_GFX_SIMD_H_
+MOZILLA_GFX_SIMD_H_
 #
 define
-_MOZILLA_GFX_SIMD_H_
+MOZILLA_GFX_SIMD_H_
 /
 *
 *
@@ -9665,4 +9665,4 @@ mozilla
 endif
 /
 /
-_MOZILLA_GFX_SIMD_H_
+MOZILLA_GFX_SIMD_H_

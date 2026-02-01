@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-__mozilla_layers_TouchActionHelper_h__
+_mozilla_layers_TouchActionHelper_h_
 #
 define
-__mozilla_layers_TouchActionHelper_h__
+_mozilla_layers_TouchActionHelper_h_
 #
 include
 "
@@ -318,6 +318,6 @@ layers
 endif
 /
 *
-__mozilla_layers_TouchActionHelper_h__
+_mozilla_layers_TouchActionHelper_h_
 *
 /

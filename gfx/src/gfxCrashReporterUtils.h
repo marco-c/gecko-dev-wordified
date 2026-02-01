@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-gfxCrashReporterUtils_h__
+gfxCrashReporterUtils_h_
 #
 define
-gfxCrashReporterUtils_h__
+gfxCrashReporterUtils_h_
 #
 include
 "
@@ -379,4 +379,4 @@ mozilla
 endif
 /
 /
-gfxCrashReporterUtils_h__
+gfxCrashReporterUtils_h_

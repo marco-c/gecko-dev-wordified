@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-_include_gfx_ipc_D3DMessageUtils_h__
+_include_gfx_ipc_D3DMessageUtils_h_
 #
 define
-_include_gfx_ipc_D3DMessageUtils_h__
+_include_gfx_ipc_D3DMessageUtils_h_
 #
 include
 "
@@ -303,4 +303,4 @@ IPC
 endif
 /
 /
-_include_gfx_ipc_D3DMessageUtils_h__
+_include_gfx_ipc_D3DMessageUtils_h_

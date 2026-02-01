@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-_include_gfx_ipc_CanvasManagerChild_h__
+_include_gfx_ipc_CanvasManagerChild_h_
 #
 define
-_include_gfx_ipc_CanvasManagerChild_h__
+_include_gfx_ipc_CanvasManagerChild_h_
 #
 include
 "
@@ -487,4 +487,4 @@ mozilla
 endif
 /
 /
-_include_gfx_ipc_CanvasManagerChild_h__
+_include_gfx_ipc_CanvasManagerChild_h_

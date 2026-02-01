@@ -112,10 +112,10 @@ MPL
 /
 #
 ifndef
-AndroidSurfaceTexture_h__
+AndroidSurfaceTexture_h_
 #
 define
-AndroidSurfaceTexture_h__
+AndroidSurfaceTexture_h_
 #
 include
 "
@@ -207,4 +207,4 @@ MOZ_WIDGET_ANDROID
 endif
 /
 /
-AndroidSurfaceTexture_h__
+AndroidSurfaceTexture_h_

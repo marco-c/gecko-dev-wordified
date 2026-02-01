@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-__FilterDescription_h
+FilterDescription_h
 #
 define
-__FilterDescription_h
+FilterDescription_h
 #
 include
 "
@@ -798,4 +798,4 @@ gfx
 endif
 /
 /
-__FilterSupport_h
+FilterSupport_h

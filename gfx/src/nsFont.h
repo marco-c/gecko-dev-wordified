@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsFont_h___
+nsFont_h_
 #
 define
-nsFont_h___
+nsFont_h_
 #
 include
 <
@@ -891,6 +891,6 @@ NS_FONT_VARIANT_SMALL_CAPS
 endif
 /
 *
-nsFont_h___
+nsFont_h_
 *
 /

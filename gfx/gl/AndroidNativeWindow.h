@@ -112,10 +112,10 @@ MPL
 /
 #
 ifndef
-AndroidNativeWindow_h__
+AndroidNativeWindow_h_
 #
 define
-AndroidNativeWindow_h__
+AndroidNativeWindow_h_
 #
 include
 <
@@ -319,4 +319,4 @@ mozilla
 endif
 /
 /
-AndroidNativeWindow_h__
+AndroidNativeWindow_h_

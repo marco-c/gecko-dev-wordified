@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-_include_gfx_ipc_CanvasRenderThread_h__
+_include_gfx_ipc_CanvasRenderThread_h_
 #
 define
-_include_gfx_ipc_CanvasRenderThread_h__
+_include_gfx_ipc_CanvasRenderThread_h_
 #
 include
 "
@@ -457,4 +457,4 @@ mozilla
 endif
 /
 /
-_include_gfx_ipc_CanvasRenderThread_h__
+_include_gfx_ipc_CanvasRenderThread_h_

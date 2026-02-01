@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-MacIOSurface_h__
+MacIOSurface_h_
 #
 define
-MacIOSurface_h__
+MacIOSurface_h_
 #
 ifdef
 XP_DARWIN

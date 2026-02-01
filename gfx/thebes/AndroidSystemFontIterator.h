@@ -92,10 +92,10 @@ MPL
 /
 #
 ifndef
-AndroidSystemFontIterator_h__
+AndroidSystemFontIterator_h_
 #
 define
-AndroidSystemFontIterator_h__
+AndroidSystemFontIterator_h_
 #
 include
 "

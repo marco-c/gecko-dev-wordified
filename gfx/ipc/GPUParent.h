@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-_include_gfx_ipc_GPUParent_h__
+_include_gfx_ipc_GPUParent_h_
 #
 define
-_include_gfx_ipc_GPUParent_h__
+_include_gfx_ipc_GPUParent_h_
 #
 include
 "
@@ -1017,4 +1017,4 @@ mozilla
 endif
 /
 /
-_include_gfx_ipc_GPUParent_h__
+_include_gfx_ipc_GPUParent_h_

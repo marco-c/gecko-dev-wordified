@@ -197,10 +197,10 @@ MMI
 /
 #
 ifndef
-__MMI_HELPERS_H__
+MMI_HELPERS_H_
 #
 define
-__MMI_HELPERS_H__
+MMI_HELPERS_H_
 #
 define
 __mm_packxxxx
@@ -3120,6 +3120,6 @@ t
 endif
 /
 *
-__MMI_HELPERS_H__
+MMI_HELPERS_H_
 *
 /

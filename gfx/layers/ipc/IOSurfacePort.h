@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_gfx_IOSurfacePort_h__
+mozilla_gfx_IOSurfacePort_h_
 #
 define
-mozilla_gfx_IOSurfacePort_h__
+mozilla_gfx_IOSurfacePort_h_
 #
 include
 "
@@ -493,6 +493,6 @@ IPC
 endif
 /
 *
-mozilla_gfx_IOSurfacePort_h__
+mozilla_gfx_IOSurfacePort_h_
 *
 /

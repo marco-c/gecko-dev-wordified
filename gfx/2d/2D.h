@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-_MOZILLA_GFX_2D_H
+MOZILLA_GFX_2D_H
 #
 define
-_MOZILLA_GFX_2D_H
+MOZILLA_GFX_2D_H
 #
 include
 "
@@ -16002,4 +16002,4 @@ mozilla
 endif
 /
 /
-_MOZILLA_GFX_2D_H
+MOZILLA_GFX_2D_H

@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-_NS_DEVICECONTEXT_H_
+NS_DEVICECONTEXT_H_
 #
 define
-_NS_DEVICECONTEXT_H_
+NS_DEVICECONTEXT_H_
 #
 include
 <
@@ -1881,6 +1881,6 @@ false
 endif
 /
 *
-_NS_DEVICECONTEXT_H_
+NS_DEVICECONTEXT_H_
 *
 /

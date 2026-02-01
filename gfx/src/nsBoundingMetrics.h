@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-__nsBoundingMetrics_h
+_nsBoundingMetrics_h
 #
 define
-__nsBoundingMetrics_h
+_nsBoundingMetrics_h
 #
 include
 "
@@ -710,4 +710,4 @@ width
 endif
 /
 /
-__nsBoundingMetrics_h
+_nsBoundingMetrics_h

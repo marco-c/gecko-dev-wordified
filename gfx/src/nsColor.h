@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsColor_h___
+nsColor_h_
 #
 define
-nsColor_h___
+nsColor_h_
 #
 include
 <
@@ -749,6 +749,6 @@ transparency
 endif
 /
 *
-nsColor_h___
+nsColor_h_
 *
 /

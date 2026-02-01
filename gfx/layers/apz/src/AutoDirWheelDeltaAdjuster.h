@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-__mozilla_layers_AutoDirWheelDeltaAdjuster_h__
+_mozilla_layers_AutoDirWheelDeltaAdjuster_h_
 #
 define
-__mozilla_layers_AutoDirWheelDeltaAdjuster_h__
+_mozilla_layers_AutoDirWheelDeltaAdjuster_h_
 #
 include
 "
@@ -593,4 +593,4 @@ mozilla
 endif
 /
 /
-__mozilla_layers_AutoDirWheelDeltaAdjuster_h__
+_mozilla_layers_AutoDirWheelDeltaAdjuster_h_

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-gfx_src_DriverCrashGuard_h__
+gfx_src_DriverCrashGuard_h_
 #
 define
-gfx_src_DriverCrashGuard_h__
+gfx_src_DriverCrashGuard_h_
 #
 include
 "
@@ -922,4 +922,4 @@ mozilla
 endif
 /
 /
-gfx_src_DriverCrashGuard_h__
+gfx_src_DriverCrashGuard_h_

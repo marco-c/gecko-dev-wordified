@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsTransform2D_h___
+nsTransform2D_h_
 #
 define
-nsTransform2D_h___
+nsTransform2D_h_
 #
 include
 "

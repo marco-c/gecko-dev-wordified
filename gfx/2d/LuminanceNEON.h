@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-__LUMINANCENEON_H__
+LUMINANCENEON_H_
 #
 define
-__LUMINANCENEON_H__
+LUMINANCENEON_H_
 #
 include
 "
@@ -163,6 +163,6 @@ aOpacity
 endif
 /
 *
-__LUMINANCENEON_H__
+LUMINANCENEON_H_
 *
 /
