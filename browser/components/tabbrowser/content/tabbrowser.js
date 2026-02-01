@@ -58357,6 +58357,14 @@ allTabsSelected
 =
 visibleOrCollapsedTabs
 .
+length
+=
+=
+1
+|
+|
+visibleOrCollapsedTabs
+.
 every
 (
 t
