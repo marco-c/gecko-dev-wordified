@@ -581,15 +581,6 @@ h
 #
 include
 "
-pc
-/
-webrtc_sdp
-.
-h
-"
-#
-include
-"
 rtc_base
 /
 checks
@@ -924,7 +915,6 @@ WriteFmtpParameters
 codec_params
 .
 parameters
-&
 fmtp
 )
 )
@@ -2414,7 +2404,6 @@ WriteFmtpParameters
 codec_params
 .
 parameters
-&
 fmtp
 )
 )
