@@ -169,7 +169,7 @@ htmlparser
 /
 nsHTMLTagList
 .
-h
+inc
 "
 )
 ;
@@ -582,7 +582,7 @@ interfaces
 from
 nsHTMLTagList
 .
-h
+inc
 .
 const
 RE

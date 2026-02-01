@@ -160,7 +160,7 @@ tags
 see
 nsHTMLTagList
 .
-h
+inc
 These
 enum
 values
@@ -198,7 +198,7 @@ not
 via
 nsHTMLTagList
 .
-h
+inc
 don
 '
 t
@@ -271,7 +271,7 @@ include
 "
 nsHTMLTagList
 .
-h
+inc
 "
 /
 *

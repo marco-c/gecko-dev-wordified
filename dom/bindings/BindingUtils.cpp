@@ -931,7 +931,7 @@ include
 "
 nsHTMLTagList
 .
-h
+inc
 "
 #
 undef
@@ -1038,7 +1038,7 @@ include
 "
 nsHTMLTagList
 .
-h
+inc
 "
 #
 undef

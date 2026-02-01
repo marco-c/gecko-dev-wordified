@@ -190,7 +190,7 @@ include
 "
 nsHTMLTagList
 .
-h
+inc
 "
 }
 ;

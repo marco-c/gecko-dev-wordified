@@ -72,7 +72,7 @@ pasted
 from
 nsHTMLTagList
 .
-h
+inc
 *
 /
 HTML_TAG
