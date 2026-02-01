@@ -630,7 +630,7 @@ Test
 that
 prompt
 input
-exeeding
+exceeding
 the
 total
 quota
