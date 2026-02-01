@@ -3073,27 +3073,6 @@ i
 op
 )
             
-elif
-os_version
-=
-=
-"
-18
-.
-04
-"
-:
-#
-no
-longer
-used
-                
-return
-(
-None
-new_conds
-)
-            
 else
 :
                 
