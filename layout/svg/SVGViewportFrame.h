@@ -241,7 +241,7 @@ override
 void
 NotifySVGChanged
 (
-uint32_t
+ChangeFlags
 aFlags
 )
 override
@@ -292,7 +292,7 @@ interface
 void
 NotifyViewportOrTransformChanged
 (
-uint32_t
+ChangeFlags
 aFlags
 )
 override

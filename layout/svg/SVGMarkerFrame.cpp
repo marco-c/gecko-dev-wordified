@@ -1036,7 +1036,10 @@ NotifySVGChanged
 ISVGDisplayableFrame
 :
 :
-TRANSFORM_CHANGED
+ChangeFlag
+:
+:
+TransformChanged
 )
 ;
 auto

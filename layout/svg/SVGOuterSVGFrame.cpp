@@ -3074,10 +3074,7 @@ ComputedHeight
 )
 )
 ;
-EnumSet
-<
 ChangeFlags
->
 changeBits
 ;
 if
@@ -3379,7 +3376,7 @@ MarkSubtreeDirty
 changeBits
 +
 =
-ChangeFlags
+ChangeFlag
 :
 :
 CoordContextChanged
@@ -3425,7 +3422,7 @@ mFullZoom
 changeBits
 +
 =
-ChangeFlags
+ChangeFlag
 :
 :
 FullZoomChanged
@@ -4383,22 +4380,19 @@ nsGkAtoms
 :
 viewBox
 ?
-EnumSet
-<
 ChangeFlags
->
 (
-ChangeFlags
+ChangeFlag
 :
 :
 TransformChanged
-ChangeFlags
+ChangeFlag
 :
 :
 CoordContextChanged
 )
 :
-ChangeFlags
+ChangeFlag
 :
 :
 TransformChanged
@@ -4908,10 +4902,7 @@ SVGOuterSVGFrame
 :
 NotifyViewportOrTransformChanged
 (
-EnumSet
-<
 ChangeFlags
->
 aFlags
 )
 {
@@ -4936,7 +4927,7 @@ aFlags
 .
 contains
 (
-ChangeFlags
+ChangeFlag
 :
 :
 CoordContextChanged
@@ -5000,7 +4991,7 @@ instead
 .
 aFlags
 =
-ChangeFlags
+ChangeFlag
 :
 :
 TransformChanged
@@ -5056,7 +5047,7 @@ flag
 aFlags
 +
 =
-ChangeFlags
+ChangeFlag
 :
 :
 TransformChanged
@@ -5135,7 +5126,7 @@ viewBox
 aFlags
 +
 =
-ChangeFlags
+ChangeFlag
 :
 :
 TransformChanged
@@ -5149,7 +5140,7 @@ aFlags
 .
 contains
 (
-ChangeFlags
+ChangeFlag
 :
 :
 TransformChanged
@@ -5161,7 +5152,7 @@ aFlags
 .
 contains
 (
-ChangeFlags
+ChangeFlag
 :
 :
 FullZoomChanged
@@ -5178,7 +5169,7 @@ TransformChanged
 aFlags
 -
 =
-ChangeFlags
+ChangeFlag
 :
 :
 FullZoomChanged
@@ -5186,7 +5177,7 @@ FullZoomChanged
 aFlags
 +
 =
-ChangeFlags
+ChangeFlag
 :
 :
 TransformChanged
@@ -5198,7 +5189,7 @@ aFlags
 .
 contains
 (
-ChangeFlags
+ChangeFlag
 :
 :
 TransformChanged

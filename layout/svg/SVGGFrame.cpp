@@ -529,7 +529,10 @@ call
 .
 NotifySVGChanged
 (
-TRANSFORM_CHANGED
+ChangeFlag
+:
+:
+TransformChanged
 )
 ;
 }

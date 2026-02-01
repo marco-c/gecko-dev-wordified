@@ -3630,7 +3630,10 @@ NotifyViewportOrTransformChanged
 ISVGDisplayableFrame
 :
 :
-TRANSFORM_CHANGED
+ChangeFlag
+:
+:
+TransformChanged
 )
 ;
 }

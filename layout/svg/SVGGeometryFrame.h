@@ -472,10 +472,7 @@ override
 void
 NotifySVGChanged
 (
-EnumSet
-<
 ChangeFlags
->
 aFlags
 )
 override
