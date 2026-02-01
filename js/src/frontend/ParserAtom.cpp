@@ -146,7 +146,9 @@ uninitialized_fill_n
 #
 include
 "
-jsnum
+builtin
+/
+Number
 .
 h
 "

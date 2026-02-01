@@ -267,7 +267,9 @@ h
 #
 include
 "
-jsnum
+builtin
+/
+MapObject
 .
 h
 "
@@ -276,7 +278,7 @@ include
 "
 builtin
 /
-MapObject
+Number
 .
 h
 "

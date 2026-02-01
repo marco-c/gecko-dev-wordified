@@ -251,7 +251,9 @@ h
 #
 include
 "
-jsnum
+builtin
+/
+Boolean
 .
 h
 "
@@ -260,7 +262,7 @@ include
 "
 builtin
 /
-Boolean
+Number
 .
 h
 "

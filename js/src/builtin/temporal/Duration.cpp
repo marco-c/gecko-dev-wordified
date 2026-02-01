@@ -194,13 +194,6 @@ type_traits
 #
 include
 "
-jsnum
-.
-h
-"
-#
-include
-"
 jspubtd
 .
 h
@@ -220,6 +213,15 @@ builtin
 intl
 /
 DurationFormat
+.
+h
+"
+#
+include
+"
+builtin
+/
+Number
 .
 h
 "
@@ -6189,7 +6191,7 @@ to
 object
 -
 >
-setFixedSlot
+initFixedSlot
 (
 DurationObject
 :
@@ -6211,7 +6213,7 @@ years
 object
 -
 >
-setFixedSlot
+initFixedSlot
 (
 DurationObject
 :
@@ -6233,7 +6235,7 @@ months
 object
 -
 >
-setFixedSlot
+initFixedSlot
 (
 DurationObject
 :
@@ -6255,7 +6257,7 @@ weeks
 object
 -
 >
-setFixedSlot
+initFixedSlot
 (
 DurationObject
 :
@@ -6277,7 +6279,7 @@ days
 object
 -
 >
-setFixedSlot
+initFixedSlot
 (
 DurationObject
 :
@@ -6299,7 +6301,7 @@ hours
 object
 -
 >
-setFixedSlot
+initFixedSlot
 (
 DurationObject
 :
@@ -6321,7 +6323,7 @@ minutes
 object
 -
 >
-setFixedSlot
+initFixedSlot
 (
 DurationObject
 :
@@ -6343,7 +6345,7 @@ seconds
 object
 -
 >
-setFixedSlot
+initFixedSlot
 (
 DurationObject
 :
@@ -6365,7 +6367,7 @@ milliseconds
 object
 -
 >
-setFixedSlot
+initFixedSlot
 (
 DurationObject
 :
@@ -6387,7 +6389,7 @@ microseconds
 object
 -
 >
-setFixedSlot
+initFixedSlot
 (
 DurationObject
 :
@@ -6625,7 +6627,7 @@ to
 object
 -
 >
-setFixedSlot
+initFixedSlot
 (
 DurationObject
 :
@@ -6647,7 +6649,7 @@ years
 object
 -
 >
-setFixedSlot
+initFixedSlot
 (
 DurationObject
 :
@@ -6669,7 +6671,7 @@ months
 object
 -
 >
-setFixedSlot
+initFixedSlot
 (
 DurationObject
 :
@@ -6691,7 +6693,7 @@ weeks
 object
 -
 >
-setFixedSlot
+initFixedSlot
 (
 DurationObject
 :
@@ -6713,7 +6715,7 @@ days
 object
 -
 >
-setFixedSlot
+initFixedSlot
 (
 DurationObject
 :
@@ -6735,7 +6737,7 @@ hours
 object
 -
 >
-setFixedSlot
+initFixedSlot
 (
 DurationObject
 :
@@ -6757,7 +6759,7 @@ minutes
 object
 -
 >
-setFixedSlot
+initFixedSlot
 (
 DurationObject
 :
@@ -6779,7 +6781,7 @@ seconds
 object
 -
 >
-setFixedSlot
+initFixedSlot
 (
 DurationObject
 :
@@ -6801,7 +6803,7 @@ milliseconds
 object
 -
 >
-setFixedSlot
+initFixedSlot
 (
 DurationObject
 :
@@ -6823,7 +6825,7 @@ microseconds
 object
 -
 >
-setFixedSlot
+initFixedSlot
 (
 DurationObject
 :

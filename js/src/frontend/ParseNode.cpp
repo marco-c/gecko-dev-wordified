@@ -133,7 +133,9 @@ MOZ_TRY
 #
 include
 "
-jsnum
+builtin
+/
+Number
 .
 h
 "

@@ -125,7 +125,9 @@ new
 #
 include
 "
-jsnum
+builtin
+/
+Number
 .
 h
 "
