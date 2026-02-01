@@ -236,13 +236,6 @@ JS_SetNativeStackQuota
 #
 include
 "
-jsexn
-.
-h
-"
-#
-include
-"
 jstypes
 .
 h
