@@ -6375,9 +6375,7 @@ nsCRT
 strcasecmp
 (
 enc
-"
-gzip
-"
+HTTP_GZIP_TYPE
 )
 |
 |
@@ -6388,9 +6386,7 @@ nsCRT
 strcasecmp
 (
 enc
-"
-deflate
-"
+HTTP_DEFLATE_TYPE
 )
 |
 |
@@ -6401,11 +6397,7 @@ nsCRT
 strcasecmp
 (
 enc
-"
-x
--
-gzip
-"
+HTTP_X_GZIP_TYPE
 )
 |
 |
@@ -6416,11 +6408,7 @@ nsCRT
 strcasecmp
 (
 enc
-"
-x
--
-deflate
-"
+HTTP_X_DEFLATE_TYPE
 )
 )
 )
