@@ -115,6 +115,12 @@ MPL
 *
 /
 #
+ifndef
+MOZGLUE_MISC_IMPORTDIR_H_
+#
+define
+MOZGLUE_MISC_IMPORTDIR_H_
+#
 include
 "
 mozilla
@@ -686,3 +692,8 @@ Ok
 /
 namespace
 mozilla
+#
+endif
+/
+/
+MOZGLUE_MISC_IMPORTDIR_H_
