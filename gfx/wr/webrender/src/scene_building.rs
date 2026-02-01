@@ -10565,9 +10565,6 @@ info
 border_radius
 info
 .
-shadow_radius
-info
-.
 clip_mode
 self
 .
