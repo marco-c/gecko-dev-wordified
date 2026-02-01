@@ -115,6 +115,12 @@ MPL
 *
 /
 #
+ifndef
+XPCOM_THREADS_THREADDELAY_H_
+#
+define
+XPCOM_THREADS_THREADDELAY_H_
+#
 include
 "
 mozilla
@@ -176,3 +182,8 @@ aMicrosecondLimit
 /
 namespace
 mozilla
+#
+endif
+/
+/
+XPCOM_THREADS_THREADDELAY_H_

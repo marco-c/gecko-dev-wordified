@@ -115,6 +115,12 @@ MPL
 *
 /
 #
+ifndef
+XPCOM_BASE_NSPRLOGMODULESPARSER_H_
+#
+define
+XPCOM_BASE_NSPRLOGMODULESPARSER_H_
+#
 include
 "
 mozilla
@@ -211,3 +217,8 @@ aCallback
 /
 namespace
 mozilla
+#
+endif
+/
+/
+XPCOM_BASE_NSPRLOGMODULESPARSER_H_

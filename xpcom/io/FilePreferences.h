@@ -115,6 +115,12 @@ MPL
 *
 /
 #
+ifndef
+XPCOM_IO_FILEPREFERENCES_H_
+#
+define
+XPCOM_IO_FILEPREFERENCES_H_
+#
 include
 "
 nsAString
@@ -246,3 +252,8 @@ FilePreferences
 /
 namespace
 mozilla
+#
+endif
+/
+/
+XPCOM_IO_FILEPREFERENCES_H_
