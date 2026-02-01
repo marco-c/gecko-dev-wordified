@@ -394,6 +394,11 @@ PrepareFrame
 (
 )
 ;
+void
+ReleaseFrame
+(
+)
+;
 MediaResult
 InitSWDecoder
 (
