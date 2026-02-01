@@ -115,6 +115,12 @@ MPL
 *
 /
 #
+ifndef
+DOM_BASE_CHROMENODELIST_H_
+#
+define
+DOM_BASE_CHROMENODELIST_H_
+#
 include
 "
 js
@@ -250,3 +256,8 @@ dom
 /
 namespace
 mozilla
+#
+endif
+/
+/
+DOM_BASE_CHROMENODELIST_H_

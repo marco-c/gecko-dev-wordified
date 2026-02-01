@@ -114,6 +114,12 @@ MPL
 .
 *
 /
+#
+ifndef
+DOM_FS_SHARED_IPCREJECTREPORTER_H_
+#
+define
+DOM_FS_SHARED_IPCREJECTREPORTER_H_
 namespace
 mozilla
 {
@@ -161,3 +167,8 @@ fs
 /
 namespace
 mozilla
+#
+endif
+/
+/
+DOM_FS_SHARED_IPCREJECTREPORTER_H_

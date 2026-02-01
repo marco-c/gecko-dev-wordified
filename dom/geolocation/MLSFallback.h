@@ -115,6 +115,12 @@ MPL
 *
 /
 #
+ifndef
+DOM_GEOLOCATION_MLSFALLBACK_H_
+#
+define
+DOM_GEOLOCATION_MLSFALLBACK_H_
+#
 include
 "
 nsCOMPtr
@@ -375,3 +381,8 @@ mDelayMs
 ;
 }
 ;
+#
+endif
+/
+/
+DOM_GEOLOCATION_MLSFALLBACK_H_

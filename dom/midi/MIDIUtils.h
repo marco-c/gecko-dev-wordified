@@ -113,6 +113,12 @@ MPL
 *
 /
 #
+ifndef
+DOM_MIDI_MIDIUTILS_H_
+#
+define
+DOM_MIDI_MIDIUTILS_H_
+#
 include
 "
 mozilla
@@ -242,3 +248,8 @@ mozilla
 :
 :
 dom
+#
+endif
+/
+/
+DOM_MIDI_MIDIUTILS_H_

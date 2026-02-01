@@ -113,13 +113,6 @@ MPL
 *
 /
 #
-include
-"
-Intervals
-.
-h
-"
-#
 if
 !
 defined
@@ -138,6 +131,13 @@ ogg
 .
 h
 >
+#
+include
+"
+Intervals
+.
+h
+"
 /
 /
 For
@@ -4121,3 +4121,6 @@ namespace
 mozilla
 #
 endif
+/
+/
+OggCodecState_h_

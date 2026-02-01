@@ -115,6 +115,12 @@ MPL
 *
 /
 #
+ifndef
+DOM_GAMEPAD_IPC_GAMEPADEVENTCHANNELCHILD_H_
+#
+define
+DOM_GAMEPAD_IPC_GAMEPADEVENTCHANNELCHILD_H_
+#
 include
 "
 mozilla
@@ -291,3 +297,8 @@ mozilla
 dom
 #
 endif
+#
+endif
+/
+/
+DOM_GAMEPAD_IPC_GAMEPADEVENTCHANNELCHILD_H_
