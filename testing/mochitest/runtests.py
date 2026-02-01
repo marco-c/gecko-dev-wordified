@@ -33525,7 +33525,15 @@ action
 "
 :
 "
-test_end
+test_status
+"
+                        
+"
+subtest
+"
+:
+"
+Shutdown
 "
                         
 "
@@ -33568,6 +33576,15 @@ mochitest
 time
 "
 :
+message
+.
+get
+(
+"
+time
+"
+)
+or
 int
 (
 time
