@@ -7190,15 +7190,6 @@ AddPendingDiscard
 (
 )
 ;
-Canonical
-(
-)
--
->
-mActiveEntryList
-=
-nullptr
-;
 }
 auto
 callListeners
