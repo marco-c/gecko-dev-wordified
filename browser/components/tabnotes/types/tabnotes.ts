@@ -70,6 +70,7 @@ string
 type
 CanonicalURLSource
 =
+|
 "
 link
 "
@@ -84,6 +85,10 @@ jsonLd
 |
 "
 fallback
+"
+|
+"
+pushstate
 "
 ;
 type
