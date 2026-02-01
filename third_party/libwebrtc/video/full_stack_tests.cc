@@ -219,6 +219,15 @@ include
 "
 test
 /
+create_test_field_trials
+.
+h
+"
+#
+include
+"
+test
+/
 gtest
 .
 h
@@ -3532,8 +3541,10 @@ fixture
 (
 {
 .
-field_trials
+field_trials_ptr
 =
+CreateTestFieldTrialsPtr
+(
 "
 WebRTC
 -
@@ -3542,6 +3553,7 @@ SpsPpsIdrIsH264Keyframe
 Enabled
 /
 "
+)
 }
 )
 ;
@@ -8780,8 +8792,10 @@ fixture
 (
 {
 .
-field_trials
+field_trials_ptr
 =
+CreateTestFieldTrialsPtr
+(
 "
 WebRTC
 -
@@ -8790,6 +8804,7 @@ Vp9IssueKeyFrameOnLayerDeactivation
 Enabled
 /
 "
+)
 }
 )
 ;
@@ -8920,8 +8935,10 @@ fixture
 (
 {
 .
-field_trials
+field_trials_ptr
 =
+CreateTestFieldTrialsPtr
+(
 "
 WebRTC
 -
@@ -8930,6 +8947,7 @@ Vp9IssueKeyFrameOnLayerDeactivation
 Enabled
 /
 "
+)
 }
 )
 ;
@@ -9060,8 +9078,10 @@ fixture
 (
 {
 .
-field_trials
+field_trials_ptr
 =
+CreateTestFieldTrialsPtr
+(
 "
 WebRTC
 -
@@ -9070,6 +9090,7 @@ Vp9IssueKeyFrameOnLayerDeactivation
 Enabled
 /
 "
+)
 }
 )
 ;
@@ -9215,8 +9236,10 @@ fixture
 (
 {
 .
-field_trials
+field_trials_ptr
 =
+CreateTestFieldTrialsPtr
+(
 "
 WebRTC
 -
@@ -9225,6 +9248,7 @@ Vp9IssueKeyFrameOnLayerDeactivation
 Enabled
 /
 "
+)
 }
 )
 ;
@@ -9396,8 +9420,10 @@ fixture
 (
 {
 .
-field_trials
+field_trials_ptr
 =
+CreateTestFieldTrialsPtr
+(
 "
 WebRTC
 -
@@ -9406,6 +9432,7 @@ Vp9IssueKeyFrameOnLayerDeactivation
 Enabled
 /
 "
+)
 }
 )
 ;
@@ -9636,8 +9663,10 @@ fixture
 (
 {
 .
-field_trials
+field_trials_ptr
 =
+CreateTestFieldTrialsPtr
+(
 "
 WebRTC
 -
@@ -9650,6 +9679,7 @@ ForceSimulatedOveruseIntervalMs
 300
 /
 "
+)
 }
 )
 ;
