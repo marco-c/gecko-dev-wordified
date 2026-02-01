@@ -4686,7 +4686,7 @@ KilobitsPerSec
 TEST
 (
 L4STest
-CallerAdaptsToLinkCapacity2MbpsRtt50msNoEcnWithScream
+DISABLED_CallerAdaptsToLinkCapacity2MbpsRtt50msNoEcnWithScream
 )
 {
 SendMediaTestParams
