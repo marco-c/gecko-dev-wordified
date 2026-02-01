@@ -605,14 +605,6 @@ using
 testing
 :
 :
-Invoke
-;
-using
-:
-:
-testing
-:
-:
 Ne
 ;
 using
@@ -1752,8 +1744,6 @@ GetRtpRtcp
 .
 WillRepeatedly
 (
-Invoke
-(
 [
 this
 ]
@@ -1768,7 +1758,6 @@ this
 rtp_rtcp_
 ;
 }
-)
 )
 ;
 EXPECT_CALL
@@ -7028,8 +7017,6 @@ _
 .
 WillOnce
 (
-Invoke
-(
 [
 &
 ]
@@ -7049,7 +7036,6 @@ priority_bitrate_bps
 )
 ;
 }
-)
 )
 ;
 EXPECT_CALL
@@ -7273,8 +7259,6 @@ _
 .
 WillOnce
 (
-Invoke
-(
 [
 &
 ]
@@ -7294,7 +7278,6 @@ priority_bitrate_bps
 )
 ;
 }
-)
 )
 ;
 EXPECT_CALL
@@ -7465,8 +7448,6 @@ _
 .
 WillOnce
 (
-Invoke
-(
 [
 &
 ]
@@ -7506,7 +7487,6 @@ bps
 )
 ;
 }
-)
 )
 ;
 EXPECT_CALL

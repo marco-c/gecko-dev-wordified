@@ -1637,13 +1637,6 @@ Times
 .
 WillOnce
 (
-:
-:
-testing
-:
-:
-Invoke
-(
 [
 &
 updated_region
@@ -1711,7 +1704,6 @@ updated_region
 }
 }
 }
-)
 )
 ;
 for
@@ -1963,13 +1955,6 @@ Times
 .
 WillOnce
 (
-:
-:
-testing
-:
-:
-Invoke
-(
 [
 ]
 (
@@ -2026,7 +2011,6 @@ size
 )
 ;
 }
-)
 )
 ;
 capturer

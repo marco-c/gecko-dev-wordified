@@ -482,14 +482,6 @@ using
 testing
 :
 :
-Invoke
-;
-using
-:
-:
-testing
-:
-:
 IsTrue
 ;
 using
@@ -1188,10 +1180,7 @@ SendRtp
 .
 WillRepeatedly
 (
-Invoke
-(
 send_rtp
-)
 )
 ;
 ProcessNextFrame
@@ -1407,10 +1396,7 @@ SendRtp
 .
 WillRepeatedly
 (
-Invoke
-(
 send_rtp
-)
 )
 ;
 channel_
@@ -1792,10 +1778,7 @@ SendRtp
 .
 WillRepeatedly
 (
-Invoke
-(
 send_rtp
-)
 )
 ;
 channel_
@@ -2364,10 +2347,7 @@ SendRtp
 .
 WillRepeatedly
 (
-Invoke
-(
 send_rtp
-)
 )
 ;
 channel_
@@ -3181,10 +3161,7 @@ SendRtp
 .
 WillRepeatedly
 (
-Invoke
-(
 send_rtp
-)
 )
 ;
 ProcessNextFrame
@@ -3689,8 +3666,6 @@ Transform
 .
 WillRepeatedly
 (
-Invoke
-(
 [
 &
 ]
@@ -3760,7 +3735,6 @@ csrcs_output_by_frame_transformer
 )
 ;
 }
-)
 )
 ;
 std
@@ -3856,10 +3830,7 @@ SendRtp
 .
 WillRepeatedly
 (
-Invoke
-(
 send_rtp
-)
 )
 ;
 ProcessNextFrame

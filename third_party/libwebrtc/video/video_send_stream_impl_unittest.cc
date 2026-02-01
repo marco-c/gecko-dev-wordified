@@ -638,14 +638,6 @@ using
 testing
 :
 :
-Invoke
-;
-using
-:
-:
-testing
-:
-:
 Mock
 ;
 using
@@ -1198,8 +1190,6 @@ IsActive
 .
 WillByDefault
 (
-Invoke
-(
 [
 &
 ]
@@ -1210,7 +1200,6 @@ return
 rtp_sending_
 ;
 }
-)
 )
 ;
 ON_CALL
@@ -2914,8 +2903,6 @@ _
 .
 WillRepeatedly
 (
-Invoke
-(
 [
 &
 ]
@@ -3001,7 +2988,6 @@ kSuspend
 )
 ;
 }
-)
 )
 ;
 encoder_queue_
@@ -3325,8 +3311,6 @@ _
 .
 WillRepeatedly
 (
-Invoke
-(
 [
 &
 ]
@@ -3408,7 +3392,6 @@ kSuspend
 )
 ;
 }
-)
 )
 ;
 encoder_queue_
@@ -3676,8 +3659,6 @@ _
 .
 WillRepeatedly
 (
-Invoke
-(
 [
 &
 ]
@@ -3760,7 +3741,6 @@ min_bitrate_bps
 ;
 }
 }
-)
 )
 ;
 encoder_queue_
@@ -7058,8 +7038,6 @@ _
 .
 WillRepeatedly
 (
-Invoke
-(
 [
 &
 ]
@@ -7077,7 +7055,6 @@ config
 pad_up_bitrate_bps
 ;
 }
-)
 )
 ;
 /
@@ -7107,8 +7084,6 @@ get
 .
 WillRepeatedly
 (
-Invoke
-(
 [
 &
 ]
@@ -7122,7 +7097,6 @@ padding_bitrate
 0
 ;
 }
-)
 )
 ;
 EXPECT_CALL

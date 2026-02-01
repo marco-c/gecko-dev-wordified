@@ -271,14 +271,6 @@ using
 testing
 :
 :
-Invoke
-;
-using
-:
-:
-testing
-:
-:
 Mock
 ;
 using
@@ -2627,8 +2619,6 @@ _
 .
 WillRepeatedly
 (
-Invoke
-(
 [
 this
 &
@@ -2666,7 +2656,6 @@ string
 )
 ;
 }
-)
 )
 ;
 event_log_

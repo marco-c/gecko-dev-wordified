@@ -519,14 +519,6 @@ using
 testing
 :
 :
-Invoke
-;
-using
-:
-:
-testing
-:
-:
 Property
 ;
 using
@@ -6402,8 +6394,6 @@ _
 .
 WillOnce
 (
-Invoke
-(
 [
 ]
 (
@@ -6580,7 +6570,6 @@ return
 true
 ;
 }
-)
 )
 ;
 /

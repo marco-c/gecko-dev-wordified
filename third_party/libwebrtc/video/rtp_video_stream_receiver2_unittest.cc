@@ -729,14 +729,6 @@ using
 testing
 :
 :
-Invoke
-;
-using
-:
-:
-testing
-:
-:
 SizeIs
 ;
 using
@@ -1510,8 +1502,6 @@ SendRtcp
 .
 WillByDefault
 (
-Invoke
-(
 [
 this
 ]
@@ -1539,7 +1529,6 @@ packet
 )
 ;
 }
-)
 )
 ;
 }
@@ -2581,8 +2570,6 @@ _
 .
 WillOnce
 (
-Invoke
-(
 [
 kColorSpace
 ]
@@ -2623,7 +2610,6 @@ kColorSpace
 )
 ;
 }
-)
 )
 ;
 rtp_video_stream_receiver_
@@ -2724,8 +2710,6 @@ _
 .
 WillOnce
 (
-Invoke
-(
 [
 kColorSpace
 ]
@@ -2766,7 +2750,6 @@ kColorSpace
 )
 ;
 }
-)
 )
 ;
 rtp_video_stream_receiver_
@@ -4591,8 +4574,6 @@ _
 .
 WillOnce
 (
-Invoke
-(
 [
 kAbsoluteCaptureTimestamp
 ]
@@ -4615,7 +4596,6 @@ kAbsoluteCaptureTimestamp
 )
 ;
 }
-)
 )
 ;
 rtp_video_stream_receiver_
@@ -4894,8 +4874,6 @@ _
 .
 WillOnce
 (
-Invoke
-(
 [
 ]
 (
@@ -4917,7 +4895,6 @@ SizeIs
 )
 ;
 }
-)
 )
 ;
 rtp_video_stream_receiver_
@@ -7932,8 +7909,6 @@ DoOnCompleteFrame
 .
 WillOnce
 (
-Invoke
-(
 [
 kSpatialIndex
 ]
@@ -8016,7 +7991,6 @@ SizeIs
 )
 ;
 }
-)
 )
 ;
 rtp_video_stream_receiver_
@@ -8362,8 +8336,6 @@ DoOnCompleteFrame
 .
 WillOnce
 (
-Invoke
-(
 [
 kSpatialIndex
 ]
@@ -8434,7 +8406,6 @@ SizeIs
 )
 ;
 }
-)
 )
 ;
 rtp_video_stream_receiver_
@@ -11741,8 +11712,6 @@ _
 .
 WillOnce
 (
-Invoke
-(
 [
 expected_playout_delay
 =
@@ -11774,7 +11743,6 @@ expected_playout_delay
 )
 ;
 }
-)
 )
 ;
 rtp_video_stream_receiver_

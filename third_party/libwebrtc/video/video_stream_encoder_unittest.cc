@@ -1290,14 +1290,6 @@ using
 testing
 :
 :
-Invoke
-;
-using
-:
-:
-testing
-:
-:
 IsTrue
 ;
 using
@@ -68189,8 +68181,6 @@ Initialize
 .
 WillOnce
 (
-Invoke
-(
 [
 &
 video_stream_encoder_callback
@@ -68209,7 +68199,6 @@ video_stream_encoder_callback
 callback
 ;
 }
-)
 )
 ;
 TaskQueueBase
@@ -68682,8 +68671,6 @@ Initialize
 .
 WillOnce
 (
-Invoke
-(
 [
 &
 video_stream_encoder_callback
@@ -68702,7 +68689,6 @@ video_stream_encoder_callback
 callback
 ;
 }
-)
 )
 ;
 TaskQueueBase
@@ -68879,8 +68865,6 @@ Initialize
 .
 WillOnce
 (
-Invoke
-(
 [
 &
 video_stream_encoder_callback
@@ -68899,7 +68883,6 @@ video_stream_encoder_callback
 callback
 ;
 }
-)
 )
 ;
 TaskQueueBase
@@ -69366,8 +69349,6 @@ Initialize
 .
 WillOnce
 (
-Invoke
-(
 [
 &
 video_stream_encoder_callback
@@ -69386,7 +69367,6 @@ video_stream_encoder_callback
 callback
 ;
 }
-)
 )
 ;
 TaskQueueBase
@@ -69552,8 +69532,6 @@ EncodeHook
 .
 WillRepeatedly
 (
-Invoke
-(
 [
 ]
 (
@@ -69588,7 +69566,6 @@ return
 codec_specific
 ;
 }
-)
 )
 ;
 EXPECT_CALL
@@ -69681,8 +69658,6 @@ EncodeHook
 .
 WillRepeatedly
 (
-Invoke
-(
 [
 ]
 (
@@ -69752,7 +69727,6 @@ return
 codec_specific
 ;
 }
-)
 )
 ;
 EXPECT_CALL
@@ -69858,8 +69832,6 @@ Initialize
 .
 WillOnce
 (
-Invoke
-(
 [
 &
 video_stream_encoder_callback
@@ -69878,7 +69850,6 @@ video_stream_encoder_callback
 callback
 ;
 }
-)
 )
 ;
 TaskQueueBase
@@ -69996,8 +69967,6 @@ ProcessKeyFrameRequest
 .
 WillOnce
 (
-Invoke
-(
 [
 video_stream_encoder_callback
 ]
@@ -70010,7 +69979,6 @@ RequestRefreshFrame
 )
 ;
 }
-)
 )
 ;
 EXPECT_CALL

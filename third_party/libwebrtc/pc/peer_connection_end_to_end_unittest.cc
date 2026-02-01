@@ -348,6 +348,15 @@ include
 "
 api
 /
+sctp_transport_interface
+.
+h
+"
+#
+include
+"
+api
+/
 test
 /
 rtc_error_matchers
@@ -362,17 +371,6 @@ api
 units
 /
 time_delta
-.
-h
-"
-#
-include
-"
-media
-/
-sctp
-/
-sctp_transport_internal
 .
 h
 "
@@ -555,14 +553,6 @@ testing
 :
 :
 AtLeast
-;
-using
-:
-:
-testing
-:
-:
-Invoke
 ;
 using
 :
@@ -1869,8 +1859,6 @@ AtLeast
 .
 WillRepeatedly
 (
-Invoke
-(
 [
 dec
 ]
@@ -1884,7 +1872,6 @@ Channels
 )
 ;
 }
-)
 )
 ;
 EXPECT_CALL
@@ -1910,8 +1897,6 @@ AtLeast
 )
 .
 WillRepeatedly
-(
-Invoke
 (
 [
 dec
@@ -1963,7 +1948,6 @@ speech_type
 ;
 }
 )
-)
 ;
 EXPECT_CALL
 (
@@ -1985,8 +1969,6 @@ HasDecodePlc
 .
 WillRepeatedly
 (
-Invoke
-(
 [
 dec
 ]
@@ -2000,7 +1982,6 @@ HasDecodePlc
 )
 ;
 }
-)
 )
 ;
 EXPECT_CALL
@@ -2023,8 +2004,6 @@ AtLeast
 )
 .
 WillRepeatedly
-(
-Invoke
 (
 [
 dec
@@ -2050,7 +2029,6 @@ encoded_len
 ;
 }
 )
-)
 ;
 EXPECT_CALL
 (
@@ -2071,8 +2049,6 @@ AtLeast
 .
 WillRepeatedly
 (
-Invoke
-(
 [
 dec
 ]
@@ -2086,7 +2062,6 @@ SampleRateHz
 )
 ;
 }
-)
 )
 ;
 return
@@ -2145,8 +2120,6 @@ AtLeast
 .
 WillRepeatedly
 (
-Invoke
-(
 [
 real_decoder_factory
 ]
@@ -2160,7 +2133,6 @@ GetSupportedDecoders
 )
 ;
 }
-)
 )
 ;
 EXPECT_CALL
@@ -2183,8 +2155,6 @@ AtLeast
 .
 WillRepeatedly
 (
-Invoke
-(
 [
 real_decoder_factory
 ]
@@ -2205,7 +2175,6 @@ format
 )
 ;
 }
-)
 )
 ;
 EXPECT_CALL

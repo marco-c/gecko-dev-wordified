@@ -766,14 +766,6 @@ audio_mixer_
 audio_mixer
 )
 {
-using
-:
-:
-testing
-:
-:
-Invoke
-;
 AudioState
 :
 :
@@ -919,8 +911,6 @@ _
 .
 WillRepeatedly
 (
-Invoke
-(
 [
 ]
 (
@@ -951,7 +941,6 @@ IsEmpty
 )
 ;
 }
-)
 )
 ;
 stream_config_

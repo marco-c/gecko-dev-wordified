@@ -1593,8 +1593,6 @@ SendRtcp
 .
 WillByDefault
 (
-Invoke
-(
 [
 this
 ]
@@ -1622,7 +1620,6 @@ packet
 )
 ;
 }
-)
 )
 ;
 }
@@ -7451,8 +7448,6 @@ testing
 :
 DoAll
 (
-Invoke
-(
 [
 &
 ]
@@ -7478,7 +7473,6 @@ k30FpsDelay
 )
 ;
 }
-)
 DefaultDecodeAction
 (
 )

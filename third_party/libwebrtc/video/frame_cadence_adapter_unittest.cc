@@ -421,14 +421,6 @@ using
 testing
 :
 :
-Invoke
-;
-using
-:
-:
-testing
-:
-:
 InvokeWithoutArgs
 ;
 using
@@ -1878,8 +1870,6 @@ OnFrame
 .
 WillOnce
 (
-Invoke
-(
 [
 &
 ]
@@ -1941,7 +1931,6 @@ kNumMillisecsPerSec
 )
 ;
 }
-)
 )
 ;
 time_controller
@@ -2552,8 +2541,6 @@ OnFrame
 .
 WillOnce
 (
-Invoke
-(
 [
 &
 ]
@@ -2608,7 +2595,6 @@ ToMs
 ;
 }
 )
-)
 ;
 time_controller
 .
@@ -2639,8 +2625,6 @@ OnFrame
 )
 .
 WillOnce
-(
-Invoke
 (
 [
 &
@@ -2700,7 +2684,6 @@ kNumMillisecsPerSec
 ;
 }
 )
-)
 ;
 time_controller
 .
@@ -2731,8 +2714,6 @@ OnFrame
 )
 .
 WillOnce
-(
-Invoke
 (
 [
 &
@@ -2795,7 +2776,6 @@ kNumMillisecsPerSec
 )
 ;
 }
-)
 )
 ;
 time_controller
@@ -2929,8 +2909,6 @@ OnFrame
 .
 WillOnce
 (
-Invoke
-(
 [
 &
 ]
@@ -2953,7 +2931,6 @@ is_repeat_frame
 )
 ;
 }
-)
 )
 ;
 time_controller
@@ -2999,8 +2976,6 @@ OnFrame
 .
 WillOnce
 (
-Invoke
-(
 [
 &
 ]
@@ -3023,7 +2998,6 @@ is_repeat_frame
 )
 ;
 }
-)
 )
 ;
 time_controller
@@ -3086,8 +3060,6 @@ OnFrame
 .
 WillOnce
 (
-Invoke
-(
 [
 &
 ]
@@ -3110,7 +3082,6 @@ is_repeat_frame
 )
 ;
 }
-)
 )
 ;
 time_controller
@@ -3319,8 +3290,6 @@ OnFrame
 .
 WillOnce
 (
-Invoke
-(
 [
 &
 ]
@@ -3370,7 +3339,6 @@ ntp_time_ms
 )
 ;
 }
-)
 )
 ;
 time_controller
@@ -3403,8 +3371,6 @@ OnFrame
 .
 WillOnce
 (
-Invoke
-(
 [
 &
 ]
@@ -3454,7 +3420,6 @@ ntp_time_ms
 )
 ;
 }
-)
 )
 ;
 time_controller
@@ -3703,8 +3668,6 @@ OnFrame
 .
 WillOnce
 (
-Invoke
-(
 [
 &
 ]
@@ -3752,7 +3715,6 @@ kNumMillisecsPerSec
 )
 ;
 }
-)
 )
 ;
 time_controller
@@ -9064,8 +9026,6 @@ OnFrame
 .
 WillRepeatedly
 (
-Invoke
-(
 [
 &
 ]
@@ -9152,7 +9112,6 @@ Set
 ;
 }
 }
-)
 )
 ;
 adapter

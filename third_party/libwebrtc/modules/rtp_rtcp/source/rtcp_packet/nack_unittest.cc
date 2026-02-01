@@ -201,14 +201,6 @@ using
 testing
 :
 :
-Invoke
-;
-using
-:
-:
-testing
-:
-:
 make_tuple
 ;
 using
@@ -900,8 +892,6 @@ _
 .
 WillOnce
 (
-Invoke
-(
 [
 &
 ]
@@ -967,11 +957,8 @@ ElementsAre
 ;
 }
 )
-)
 .
 WillOnce
-(
-Invoke
 (
 [
 &
@@ -1036,7 +1023,6 @@ ElementsAre
 )
 ;
 }
-)
 )
 ;
 EXPECT_TRUE

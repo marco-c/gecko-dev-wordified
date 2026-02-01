@@ -243,14 +243,6 @@ using
 testing
 :
 :
-Invoke
-;
-using
-:
-:
-testing
-:
-:
 MockFunction
 ;
 using
@@ -1219,8 +1211,6 @@ Call
 .
 WillOnce
 (
-Invoke
-(
 [
 &
 ]
@@ -1243,7 +1233,6 @@ duration_during_which_nothing_runs
 )
 ;
 }
-)
 )
 ;
 main_thread
