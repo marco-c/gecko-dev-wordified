@@ -4529,7 +4529,8 @@ textbox
 .
 value
 "
-HelloWorld
+Hello
+World
 "
 )
 ;
