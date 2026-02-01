@@ -631,15 +631,16 @@ the
 address
 comes
 from
+the
 wasm
 value
 stack
 but
 the
 offset
+*
 is
 an
-*
 immediate
 .
 *
