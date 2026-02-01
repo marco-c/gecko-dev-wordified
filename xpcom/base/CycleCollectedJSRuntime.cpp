@@ -8962,6 +8962,13 @@ TimelineMemory
 ;
 static
 constexpr
+bool
+IsStackBased
+=
+true
+;
+static
+constexpr
 const
 char
 *
