@@ -762,9 +762,11 @@ ECHO
 OFF
 \
 n
+"
 {
 pythonPath
 }
+"
 -
 u
 "
