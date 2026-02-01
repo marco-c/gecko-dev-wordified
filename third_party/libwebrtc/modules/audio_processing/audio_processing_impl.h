@@ -2806,6 +2806,8 @@ bool
 enforce_split_band_hpf
 bool
 minimize_processing_for_unused_output
+bool
+enforce_48_khz_max_internal_processing_rate
 )
 :
 multi_channel_render_support
@@ -2824,6 +2826,10 @@ minimize_processing_for_unused_output
 (
 minimize_processing_for_unused_output
 )
+enforce_48_khz_max_internal_processing_rate
+(
+enforce_48_khz_max_internal_processing_rate
+)
 {
 }
 bool
@@ -2837,6 +2843,9 @@ enforce_split_band_hpf
 ;
 bool
 minimize_processing_for_unused_output
+;
+bool
+enforce_48_khz_max_internal_processing_rate
 ;
 }
 constants_

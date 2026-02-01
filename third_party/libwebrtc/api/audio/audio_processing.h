@@ -1218,7 +1218,7 @@ as
 int
 maximum_internal_processing_rate
 =
-48000
+32000
 ;
 /
 /
