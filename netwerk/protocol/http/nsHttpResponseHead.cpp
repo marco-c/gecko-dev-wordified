@@ -3199,14 +3199,6 @@ Content_Type
 {
 if
 (
-StaticPrefs
-:
-:
-network_standard_content_type_parsing_response_headers
-(
-)
-&
-&
 CMimeType
 :
 :
