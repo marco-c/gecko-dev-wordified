@@ -17063,6 +17063,8 @@ menu
 hide
 -
 weather
+-
+v2
 "
 action
 :
@@ -97178,6 +97180,8 @@ menu
 hide
 -
 weather
+-
+v2
 "
 onClick
 :
