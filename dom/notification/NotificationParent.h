@@ -269,6 +269,13 @@ aTopic
 IPCResult
 RecvShow
 (
+Maybe
+<
+IPCImage
+>
+&
+&
+aIcon
 ShowResolver
 &
 &
@@ -348,6 +355,13 @@ default
 nsresult
 Show
 (
+Maybe
+<
+IPCImage
+>
+&
+&
+aIcon
 )
 ;
 nsresult

@@ -165,7 +165,7 @@ true
 This
 method
 fetches
-and
+an
 image
 URI
 and
