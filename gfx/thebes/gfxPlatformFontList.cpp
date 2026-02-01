@@ -1783,7 +1783,7 @@ include
 "
 gfxFontPrefLangList
 .
-h
+inc
 "
 #
 undef
@@ -15376,7 +15376,7 @@ include
 "
 gfxFontPrefLangList
 .
-h
+inc
 "
 #
 undef
