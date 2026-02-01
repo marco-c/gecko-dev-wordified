@@ -43460,6 +43460,16 @@ isOriginatingBrowser
 (
 aBrowser
 )
+|
+|
+this
+.
+splitViewBrowsers
+.
+includes
+(
+aBrowser
+)
 )
 ;
 }
