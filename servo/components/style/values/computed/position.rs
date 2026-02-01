@@ -109,6 +109,15 @@ use
 crate
 :
 :
+logical_geometry
+:
+:
+PhysicalSide
+;
+use
+crate
+:
+:
 values
 :
 :
@@ -476,10 +485,6 @@ structs
 :
 :
 AnchorPosOffsetResolutionParams
-logical_geometry
-:
-:
-PhysicalSide
 values
 :
 :
