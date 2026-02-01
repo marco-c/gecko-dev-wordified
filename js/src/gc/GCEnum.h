@@ -765,16 +765,6 @@ IonScript
 \
 _
 (
-ArgumentsData
-)
-\
-_
-(
-RareArgumentsData
-)
-\
-_
-(
 RegExpSharedBytecode
 )
 \
