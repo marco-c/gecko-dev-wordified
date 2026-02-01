@@ -16052,7 +16052,7 @@ None
 )
 mAnchorScope
 (
-StyleAnchorScope
+StyleAnchorScopeKeyword
 :
 :
 None
