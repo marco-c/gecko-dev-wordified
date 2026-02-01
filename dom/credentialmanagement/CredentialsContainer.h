@@ -138,6 +138,9 @@ mozilla
 dom
 {
 class
+DigitalCredentialHandler
+;
+class
 WebAuthnHandler
 ;
 class
@@ -209,6 +212,9 @@ Promise
 >
 Get
 (
+JSContext
+*
+cx
 const
 CredentialRequestOptions
 &
@@ -224,6 +230,9 @@ Promise
 >
 Create
 (
+JSContext
+*
+cx
 const
 CredentialCreationOptions
 &
@@ -280,6 +289,11 @@ EnsureWebAuthnHandler
 (
 )
 ;
+void
+EnsureDigitalCredentialHandler
+(
+)
+;
 nsCOMPtr
 <
 nsPIDOMWindowInner
@@ -291,6 +305,12 @@ RefPtr
 WebAuthnHandler
 >
 mWebAuthnHandler
+;
+RefPtr
+<
+DigitalCredentialHandler
+>
+mDigitalCredentialHandler
 ;
 }
 ;
