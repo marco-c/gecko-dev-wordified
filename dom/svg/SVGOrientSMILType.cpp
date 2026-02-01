@@ -917,7 +917,10 @@ units
 :
 aDistance
 =
-fabs
+std
+:
+:
+abs
 (
 ValueInDegrees
 (
