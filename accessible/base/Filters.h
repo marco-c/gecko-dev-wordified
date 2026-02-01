@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-mozilla_a11y_Filters_h__
+mozilla_a11y_Filters_h_
 #
 define
-mozilla_a11y_Filters_h__
+mozilla_a11y_Filters_h_
 #
 include
 <

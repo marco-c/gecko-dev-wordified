@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-mozilla_a11y_MsaaXULMenuAccessible_h__
+mozilla_a11y_MsaaXULMenuAccessible_h_
 #
 define
-mozilla_a11y_MsaaXULMenuAccessible_h__
+mozilla_a11y_MsaaXULMenuAccessible_h_
 #
 include
 "

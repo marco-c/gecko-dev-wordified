@@ -146,10 +146,10 @@ html
 /
 #
 ifndef
-mozilla_a11y_DocAccessibleWrap_h__
+mozilla_a11y_DocAccessibleWrap_h_
 #
 define
-mozilla_a11y_DocAccessibleWrap_h__
+mozilla_a11y_DocAccessibleWrap_h_
 #
 include
 "

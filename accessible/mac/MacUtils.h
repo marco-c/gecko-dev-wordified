@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-_MacUtils_H_
+MacUtils_H_
 #
 define
-_MacUtils_H_
+MacUtils_H_
 #
 include
 "

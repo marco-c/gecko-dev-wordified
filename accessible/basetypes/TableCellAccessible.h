@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-mozilla_a11y_TableCellAccessible_h__
+mozilla_a11y_TableCellAccessible_h_
 #
 define
-mozilla_a11y_TableCellAccessible_h__
+mozilla_a11y_TableCellAccessible_h_
 #
 include
 "
@@ -386,4 +386,4 @@ mozilla
 endif
 /
 /
-mozilla_a11y_TableCellAccessible_h__
+mozilla_a11y_TableCellAccessible_h_

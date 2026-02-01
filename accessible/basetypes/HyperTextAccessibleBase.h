@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-_HyperTextAccessibleBase_H_
+HyperTextAccessibleBase_H_
 #
 define
-_HyperTextAccessibleBase_H_
+HyperTextAccessibleBase_H_
 #
 include
 "

@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-_MUIAccessible_H_
+MUIAccessible_H_
 #
 define
-_MUIAccessible_H_
+MUIAccessible_H_
 #
 import
 <

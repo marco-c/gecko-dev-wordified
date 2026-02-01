@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-mozilla_a11y_EnumVariant_h__
+mozilla_a11y_EnumVariant_h_
 #
 define
-mozilla_a11y_EnumVariant_h__
+mozilla_a11y_EnumVariant_h_
 #
 include
 "

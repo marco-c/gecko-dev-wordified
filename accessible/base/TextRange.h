@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-mozilla_a11y_TextRange_h__
+mozilla_a11y_TextRange_h_
 #
 define
-mozilla_a11y_TextRange_h__
+mozilla_a11y_TextRange_h_
 #
 include
 <

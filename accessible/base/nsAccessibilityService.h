@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-__nsAccessibilityService_h__
+_nsAccessibilityService_h_
 #
 define
-__nsAccessibilityService_h__
+_nsAccessibilityService_h_
 #
 include
 "

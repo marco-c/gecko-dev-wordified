@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-mozilla_a11y_HTMLLinkAccessible_h__
+mozilla_a11y_HTMLLinkAccessible_h_
 #
 define
-mozilla_a11y_HTMLLinkAccessible_h__
+mozilla_a11y_HTMLLinkAccessible_h_
 #
 include
 "

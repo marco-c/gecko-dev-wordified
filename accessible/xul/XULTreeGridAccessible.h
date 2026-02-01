@@ -132,10 +132,10 @@ MPL
 /
 #
 ifndef
-mozilla_a11y_XULTreeGridAccessible_h__
+mozilla_a11y_XULTreeGridAccessible_h_
 #
 define
-mozilla_a11y_XULTreeGridAccessible_h__
+mozilla_a11y_XULTreeGridAccessible_h_
 #
 include
 "

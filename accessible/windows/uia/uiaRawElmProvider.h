@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-mozilla_a11y_uiaRawElmProvider_h__
+mozilla_a11y_uiaRawElmProvider_h_
 #
 define
-mozilla_a11y_uiaRawElmProvider_h__
+mozilla_a11y_uiaRawElmProvider_h_
 #
 include
 <
