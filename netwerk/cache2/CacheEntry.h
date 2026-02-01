@@ -1141,6 +1141,8 @@ aCallback
 bool
 aReadOnly
 bool
+aReadAlways
+bool
 aCheckOnAnyThread
 bool
 aSecret
@@ -1343,6 +1345,17 @@ mReadOnly
 :
 1
 ;
+bool
+mReadAlways
+:
+1
+;
+/
+/
+used
+for
+dictionary
+reads
 bool
 mRevalidating
 :
