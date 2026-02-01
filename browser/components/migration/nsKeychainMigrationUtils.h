@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-nsKeychainMigrationUtils_h__
+nsKeychainMigrationUtils_h_
 #
 define
-nsKeychainMigrationUtils_h__
+nsKeychainMigrationUtils_h_
 #
 include
 <

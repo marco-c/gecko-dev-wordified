@@ -116,10 +116,10 @@ libxul
 /
 #
 ifndef
-windowsdefaultbrowser_h____
+windowsdefaultbrowser_h_
 #
 define
-windowsdefaultbrowser_h____
+windowsdefaultbrowser_h_
 #
 include
 "
@@ -159,4 +159,4 @@ LaunchModernSettingsDialogDefaultApps
 endif
 /
 /
-windowsdefaultbrowser_h____
+windowsdefaultbrowser_h_

@@ -111,10 +111,10 @@ MPL
 /
 #
 ifndef
-__nsGNOMEShellSearchProvider_h__
+_nsGNOMEShellSearchProvider_h_
 #
 define
-__nsGNOMEShellSearchProvider_h__
+_nsGNOMEShellSearchProvider_h_
 #
 include
 <
@@ -879,4 +879,4 @@ GetGNOMEShellHistoryService
 endif
 /
 /
-__nsGNOMEShellSearchProvider_h__
+_nsGNOMEShellSearchProvider_h_

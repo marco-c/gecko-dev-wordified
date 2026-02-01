@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nstoolkitshellservice_h____
+nstoolkitshellservice_h_
 #
 define
-nstoolkitshellservice_h____
+nstoolkitshellservice_h_
 #
 include
 "
@@ -166,4 +166,4 @@ aIsDefaultBrowser
 endif
 /
 /
-nstoolkitshellservice_h____
+nstoolkitshellservice_h_

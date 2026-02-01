@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nswindowsshellserviceinternal_h____
+nswindowsshellserviceinternal_h_
 #
 define
-nswindowsshellserviceinternal_h____
+nswindowsshellserviceinternal_h_
 #
 include
 "
@@ -170,4 +170,4 @@ aLink
 endif
 /
 /
-nswindowsshellserviceinternal_h____
+nswindowsshellserviceinternal_h_

@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-nsedgemigrationutils__h__
+nsedgemigrationutils_h_
 #
 define
-nsedgemigrationutils__h__
+nsedgemigrationutils_h_
 #
 include
 "

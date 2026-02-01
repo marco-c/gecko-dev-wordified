@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsmacshellservice_h____
+nsmacshellservice_h_
 #
 define
-nsmacshellservice_h____
+nsmacshellservice_h_
 #
 include
 "
@@ -180,4 +180,4 @@ mBackgroundFile
 endif
 /
 /
-nsmacshellservice_h____
+nsmacshellservice_h_
