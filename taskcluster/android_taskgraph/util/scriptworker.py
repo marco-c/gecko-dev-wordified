@@ -1129,7 +1129,7 @@ resolve_keyed_by
 map_config
         
 "
-s3_bucket_paths
+bucket_paths
 "
         
 job
@@ -1528,7 +1528,7 @@ destinations
                 
 "
 {
-s3_bucket_path
+bucket_path
 }
 /
 {
@@ -1543,7 +1543,7 @@ filename
 format
 (
                     
-s3_bucket_path
+bucket_path
 =
 bucket_path
                     
@@ -1583,7 +1583,7 @@ destinations
 map_config
 [
 "
-s3_bucket_paths
+bucket_paths
 "
 ]
                 
