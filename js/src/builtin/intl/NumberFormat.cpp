@@ -589,7 +589,7 @@ JSCLASS_HAS_CACHED_PROTO
 JSProto_NumberFormat
 )
 |
-JSCLASS_FOREGROUND_FINALIZE
+JSCLASS_BACKGROUND_FINALIZE
 &
 NumberFormatObject
 :
@@ -1456,16 +1456,6 @@ JSObject
 obj
 )
 {
-MOZ_ASSERT
-(
-gcx
--
->
-onMainThread
-(
-)
-)
-;
 auto
 *
 numberFormat

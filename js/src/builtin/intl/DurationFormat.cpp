@@ -538,7 +538,7 @@ JSCLASS_HAS_CACHED_PROTO
 JSProto_DurationFormat
 )
 |
-JSCLASS_FOREGROUND_FINALIZE
+JSCLASS_BACKGROUND_FINALIZE
 &
 DurationFormatObject
 :
@@ -863,16 +863,6 @@ JSObject
 obj
 )
 {
-MOZ_ASSERT
-(
-gcx
--
->
-onMainThread
-(
-)
-)
-;
 auto
 *
 durationFormat
