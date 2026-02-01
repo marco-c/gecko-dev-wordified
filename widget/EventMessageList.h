@@ -1662,6 +1662,10 @@ NS_EVENT_MESSAGE
 (
 ePageHide
 )
+NS_EVENT_MESSAGE
+(
+ePageReveal
+)
 /
 /
 Canvas
