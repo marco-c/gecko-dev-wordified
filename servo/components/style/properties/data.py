@@ -1268,10 +1268,6 @@ gecko_enum_prefix
 =
 None
         
-custom_consts
-=
-None
-        
 extra_gecko_values
 =
 None
@@ -1442,19 +1438,6 @@ or
         
 self
 .
-consts_map
-=
-{
-}
-if
-custom_consts
-is
-None
-else
-custom_consts
-        
-self
-.
 gecko_inexhaustive
 =
 gecko_inexhaustive
@@ -1598,17 +1581,6 @@ moz
 "
 )
         
-mapped
-=
-self
-.
-consts_map
-.
-get
-(
-value
-)
-        
 if
 self
 .
@@ -1638,10 +1610,6 @@ _
             
 parts
 =
-mapped
-if
-mapped
-else
 [
 p
 .
@@ -1677,10 +1645,6 @@ else
             
 suffix
 =
-mapped
-if
-mapped
-else
 moz_stripped
 .
 replace

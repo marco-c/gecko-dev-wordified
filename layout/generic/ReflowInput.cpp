@@ -2821,7 +2821,7 @@ aBoxSizing
 StyleBoxSizing
 :
 :
-Border
+BorderBox
 ?
 borderPadding
 .
@@ -3154,7 +3154,7 @@ aBoxSizing
 StyleBoxSizing
 :
 :
-Border
+BorderBox
 )
 {
 inside
@@ -10409,7 +10409,7 @@ mBoxSizing
 StyleBoxSizing
 :
 :
-Border
+BorderBox
 )
 {
 inside

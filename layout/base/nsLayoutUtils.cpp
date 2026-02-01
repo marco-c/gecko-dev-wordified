@@ -27827,7 +27827,7 @@ aBoxSizing
 StyleBoxSizing
 :
 :
-Border
+BorderBox
 )
 {
 const
@@ -27874,7 +27874,7 @@ aBoxSizing
 StyleBoxSizing
 :
 :
-Border
+BorderBox
 )
 =
 =
@@ -28220,7 +28220,7 @@ aBoxSizing
 StyleBoxSizing
 :
 :
-Border
+BorderBox
 )
 )
 {
@@ -29613,7 +29613,7 @@ aBoxSizing
 StyleBoxSizing
 :
 :
-Border
+BorderBox
 )
 {
 contentBoxToBoxSizingDiff
@@ -29649,7 +29649,7 @@ aBoxSizing
 StyleBoxSizing
 :
 :
-Content
+ContentBox
 )
 ;
 contentBoxToBoxSizingDiff
@@ -32055,7 +32055,7 @@ aBoxSizing
 StyleBoxSizing
 :
 :
-Content
+ContentBox
 )
 {
 return
@@ -32410,7 +32410,7 @@ boxSizing
 StyleBoxSizing
 :
 :
-Content
+ContentBox
 ;
 }
 else

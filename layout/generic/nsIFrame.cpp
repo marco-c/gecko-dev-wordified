@@ -48325,7 +48325,7 @@ mBoxSizing
 StyleBoxSizing
 :
 :
-Border
+BorderBox
 ?
 aBorderPadding
 :
@@ -52619,7 +52619,7 @@ mBoxSizing
 StyleBoxSizing
 :
 :
-Border
+BorderBox
 ?
 aBorderPadding
 :
@@ -53106,7 +53106,7 @@ mBoxSizing
 StyleBoxSizing
 :
 :
-Border
+BorderBox
 ?
 aBorderPadding
 :

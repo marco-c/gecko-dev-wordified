@@ -12341,7 +12341,7 @@ pass
 StyleBoxSizing
 :
 :
-Content
+ContentBox
 to
 this
 function
@@ -12429,7 +12429,7 @@ mozilla
 StyleBoxSizing
 :
 :
-Content
+ContentBox
 )
 {
 stretchSize
@@ -12490,7 +12490,7 @@ mozilla
 StyleBoxSizing
 :
 :
-Content
+ContentBox
 )
 ;
 }

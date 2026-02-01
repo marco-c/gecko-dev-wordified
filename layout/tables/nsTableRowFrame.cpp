@@ -3862,7 +3862,7 @@ mBoxSizing
 StyleBoxSizing
 :
 :
-Content
+ContentBox
 )
 {
 specifiedBSize

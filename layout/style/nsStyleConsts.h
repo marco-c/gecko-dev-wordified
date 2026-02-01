@@ -272,8 +272,8 @@ StyleBoxSizing
 :
 uint8_t
 {
-Content
-Border
+ContentBox
+BorderBox
 }
 ;
 /
