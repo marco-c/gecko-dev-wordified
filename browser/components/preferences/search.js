@@ -4320,7 +4320,7 @@ join
 layout
 :
 "
-large
+medium
 -
 icon
 "
@@ -4680,7 +4680,7 @@ keywords
 layout
 :
 "
-large
+medium
 -
 icon
 "
