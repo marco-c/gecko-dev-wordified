@@ -31506,7 +31506,10 @@ GetPathLengthScale
 SVGGeometryElement
 :
 :
-eForTextPath
+PathLengthScaleUsageType
+:
+:
+TextPath
 )
 ;
 }

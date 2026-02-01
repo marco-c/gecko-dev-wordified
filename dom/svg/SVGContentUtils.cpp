@@ -812,7 +812,10 @@ GetPathLengthScale
 SVGGeometryElement
 :
 :
-eForStroking
+PathLengthScaleUsageType
+:
+:
+Stroking
 )
 ;
 if

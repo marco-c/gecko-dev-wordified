@@ -1796,10 +1796,11 @@ GetFillRule
 )
 ;
 enum
-PathLengthScaleForType
+class
+PathLengthScaleUsageType
 {
-eForTextPath
-eForStroking
+TextPath
+Stroking
 }
 ;
 /
@@ -1861,7 +1862,7 @@ textPath
 float
 GetPathLengthScale
 (
-PathLengthScaleForType
+PathLengthScaleUsageType
 aFor
 )
 ;
