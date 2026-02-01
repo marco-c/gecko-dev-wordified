@@ -260,7 +260,7 @@ status
 =
 =
 "
-OK
+PASS
 "
 for
 t
@@ -434,7 +434,7 @@ status
 =
 =
 "
-OK
+PASS
 "
 for
 t
@@ -866,7 +866,7 @@ status
 =
 =
 "
-OK
+PASS
 "
     
 assertions
