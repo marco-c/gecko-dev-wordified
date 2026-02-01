@@ -65,7 +65,6 @@ strict
 *
 globals
 browser
-debugLog
 UAHelpers
 *
 /
@@ -2527,10 +2526,11 @@ GOOGLE_TLDS
 ;
 }
 async
-registerContentScripts
+_registerContentScripts
 (
 scriptsToReg
 typeStr
+logger
 )
 {
 /
@@ -2689,7 +2689,7 @@ registerContentScripts
 stillNeeded
 )
 ;
-debugLog
+logger
 (
 Registered
 still
@@ -2723,7 +2723,7 @@ registerContentScripts
 scriptsToReg
 )
 ;
-debugLog
+logger
 (
 Registered
 all
