@@ -122,13 +122,6 @@ define
 DOM_SMIL_SMILREPEATCOUNT_H_
 #
 include
-<
-math
-.
-h
->
-#
-include
 "
 nsDebug
 .

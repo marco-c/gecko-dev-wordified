@@ -124,9 +124,7 @@ h
 #
 include
 <
-math
-.
-h
+cmath
 >
 #
 include
@@ -518,7 +516,10 @@ mDouble
 ;
 aDistance
 =
-fabs
+std
+:
+:
+abs
 (
 to
 -

@@ -679,7 +679,10 @@ units
 :
 aDistance
 =
-fabs
+std
+:
+:
+abs
 (
 to
 .
