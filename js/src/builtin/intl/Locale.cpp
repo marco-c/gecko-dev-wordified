@@ -1055,7 +1055,7 @@ nullptr
 locale
 -
 >
-setFixedSlot
+initFixedSlot
 (
 LocaleObject
 :
@@ -1070,7 +1070,7 @@ tagStr
 locale
 -
 >
-setFixedSlot
+initFixedSlot
 (
 LocaleObject
 :
@@ -1085,7 +1085,7 @@ baseName
 locale
 -
 >
-setFixedSlot
+initFixedSlot
 (
 LocaleObject
 :
