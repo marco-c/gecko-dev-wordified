@@ -74,6 +74,12 @@ request
 if
 test_session_manager
 .
+get_allows_challenges
+(
+)
+and
+test_session_manager
+.
 get_registration_sends_challenge_before_instructions
 (
 )
@@ -122,6 +128,22 @@ extra_cookie_headers
 "
 )
     
+session_id
+=
+test_session_manager
+.
+create_new_session
+(
+)
+    
+if
+test_session_manager
+.
+get_allows_challenges
+(
+)
+:
+        
 jwt_header
 jwt_payload
 verified
@@ -154,15 +176,7 @@ utf
 '
 )
 )
-    
-session_id
-=
-test_session_manager
-.
-create_new_session
-(
-)
-    
+        
 test_session_manager
 .
 set_session_key
@@ -177,7 +191,7 @@ jwk
 '
 )
 )
-    
+        
 if
 not
 verified
@@ -196,7 +210,7 @@ jti
 login_challenge_value
 "
 :
-        
+            
 return
 (
 400
@@ -211,7 +225,7 @@ extra_cookie_headers
 "
 "
 )
-    
+        
 if
 jwt_payload
 .
@@ -229,7 +243,7 @@ get_authorization_value
 (
 )
 :
-        
+            
 return
 (
 400
@@ -244,7 +258,7 @@ extra_cookie_headers
 "
 "
 )
-    
+        
 if
 jwt_payload
 .
@@ -258,7 +272,7 @@ is
 not
 None
 :
-        
+            
 return
 (
 400
@@ -331,6 +345,12 @@ headers
 extra_cookie_headers
     
 if
+test_session_manager
+.
+get_allows_challenges
+(
+)
+and
 test_session_manager
 .
 get_registration_sends_challenge_with_instructions
