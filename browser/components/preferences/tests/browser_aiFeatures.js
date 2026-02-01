@@ -845,6 +845,12 @@ personalizeSmartWindowButton
 "
 )
 ;
+personalizeButton
+.
+scrollIntoView
+(
+)
+;
 const
 paneLoaded
 =
@@ -890,6 +896,12 @@ getElementById
 "
 manageMemoriesButton
 "
+)
+;
+manageButton
+.
+scrollIntoView
+(
 )
 ;
 const
