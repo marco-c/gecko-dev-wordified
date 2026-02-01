@@ -115,12 +115,6 @@ MPL
 *
 /
 #
-ifndef
-NETWERK_BASE_NETWORKINFOSERVICEIMPL_H_
-#
-define
-NETWERK_BASE_NETWORKINFOSERVICEIMPL_H_
-#
 include
 "
 nsString
@@ -167,8 +161,3 @@ net
 /
 namespace
 mozilla
-#
-endif
-/
-/
-NETWERK_BASE_NETWORKINFOSERVICEIMPL_H_

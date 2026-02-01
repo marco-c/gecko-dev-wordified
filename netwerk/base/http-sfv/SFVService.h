@@ -115,12 +115,6 @@ MPL
 *
 /
 #
-ifndef
-NETWERK_BASE_HTTP_SFV_SFVSERVICE_H_
-#
-define
-NETWERK_BASE_HTTP_SFV_SFVSERVICE_H_
-#
 include
 "
 nsIStructuredFieldValues
@@ -151,8 +145,3 @@ net
 /
 namespace
 mozilla
-#
-endif
-/
-/
-NETWERK_BASE_HTTP_SFV_SFVSERVICE_H_
