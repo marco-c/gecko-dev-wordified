@@ -1307,7 +1307,16 @@ Shift
 the
 redundant
 encodings
+if
+speech
 .
+if
+(
+info
+.
+speech
+)
+{
 auto
 rit
 =
@@ -1414,6 +1423,7 @@ SetData
 primary_encoded_
 )
 ;
+}
 }
 /
 /
