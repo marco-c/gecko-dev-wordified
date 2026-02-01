@@ -69,10 +69,21 @@ CIMultiDict
 CIMultiDictProxy
 from
 .
+abc
+import
+AbstractStreamWriter
+from
+.
 compression_utils
 import
+(
+    
+DEFAULT_MAX_DECOMPRESS_SIZE
+    
 ZLibCompressor
+    
 ZLibDecompressor
+)
 from
 .
 hdrs
@@ -552,6 +563,28 @@ pop
 (
 0
 )
+        
+if
+not
+item
+:
+#
+To
+handle
+trailing
+semicolons
+            
+warnings
+.
+warn
+(
+BadContentDispositionHeader
+(
+header
+)
+)
+            
+continue
         
 if
 "
@@ -1527,6 +1560,12 @@ str
 ]
 =
 None
+        
+max_decompress_size
+:
+int
+=
+DEFAULT_MAX_DECOMPRESS_SIZE
     
 )
 -
@@ -1700,6 +1739,12 @@ Any
 =
 {
 }
+        
+self
+.
+_max_decompress_size
+=
+max_decompress_size
     
 def
 __aiter__
@@ -1879,6 +1924,7 @@ decode
 :
             
 return
+await
 self
 .
 decode
@@ -2210,10 +2256,7 @@ if
 self
 .
 _at_eof
-:
-            
-clrf
-=
+and
 await
 self
 .
@@ -2222,10 +2265,8 @@ _content
 readline
 (
 )
-            
-assert
-(
-                
+!
+=
 b
 "
 \
@@ -2233,13 +2274,13 @@ r
 \
 n
 "
-=
-=
-clrf
+:
             
-)
+raise
+ValueError
+(
 "
-reader
+Reader
 did
 not
 read
@@ -2251,6 +2292,7 @@ it
 is
 malformed
 "
+)
         
 return
 chunk
@@ -2436,10 +2478,35 @@ if
 first_chunk
 :
             
+#
+We
+need
+to
+re
+-
+add
+the
+CRLF
+that
+got
+removed
+from
+headers
+parsing
+.
+            
 self
 .
 _prev_chunk
 =
+b
+"
+\
+r
+\
+n
+"
++
 await
 self
 .
@@ -2526,17 +2593,23 @@ at_eof
 )
 )
             
-assert
+if
 self
 .
 _content_eof
-<
-3
+>
+2
+:
+                
+raise
+ValueError
+(
 "
 Reading
 after
 EOF
 "
+)
             
 if
 self
@@ -2693,12 +2766,6 @@ idx
 ]
 )
             
-if
-size
->
-idx
-:
-                
 self
 .
 _prev_chunk
@@ -2741,6 +2808,18 @@ result
 self
 .
 _prev_chunk
+[
+2
+if
+first_chunk
+else
+0
+:
+]
+#
+Strip
+initial
+CRLF
         
 self
 .
@@ -3464,6 +3543,7 @@ self
 .
 _at_eof
     
+async
 def
 decode
 (
@@ -3562,6 +3642,7 @@ headers
 :
             
 return
+await
 self
 .
 _decode_content
@@ -3572,6 +3653,7 @@ data
 return
 data
     
+async
 def
 _decode_content
 (
@@ -3628,6 +3710,7 @@ gzip
 :
             
 return
+await
 ZLibDecompressor
 (
                 
@@ -3641,9 +3724,14 @@ True
             
 )
 .
-decompress_sync
+decompress
 (
 data
+max_length
+=
+self
+.
+_max_decompress_size
 )
         
 raise
@@ -4265,7 +4353,7 @@ write
 self
 writer
 :
-Any
+AbstractStreamWriter
 )
 -
 >
@@ -4302,6 +4390,7 @@ writer
 .
 write
 (
+await
 field
 .
 decode
@@ -5757,9 +5846,6 @@ str
 lines
 =
 [
-b
-"
-"
 ]
         
 while
@@ -5781,8 +5867,15 @@ chunk
 =
 chunk
 .
-strip
+rstrip
 (
+b
+"
+\
+r
+\
+n
+"
 )
             
 lines
@@ -7399,14 +7492,18 @@ self
 _parts
 :
             
+part_size
+=
+part
+.
+size
+            
 if
 encoding
 or
 te_encoding
 or
-part
-.
-size
+part_size
 is
 None
 :
@@ -7434,9 +7531,7 @@ _boundary
 2
                 
 +
-part
-.
-size
+part_size
 #
 b
 '
@@ -7860,15 +7955,17 @@ async
 def
 write
 (
+        
 self
 writer
 :
-Any
+AbstractStreamWriter
 close_boundary
 :
 bool
 =
 True
+    
 )
 -
 >
@@ -8302,7 +8399,7 @@ __init__
 self
 writer
 :
-Any
+AbstractStreamWriter
 )
 -
 >

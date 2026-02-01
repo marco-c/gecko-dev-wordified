@@ -4095,6 +4095,9 @@ findall
 (
 pattern
 rng
+re
+.
+ASCII
 )
 [
 0
@@ -4924,7 +4927,14 @@ self
 .
 _client_max_size
             
+size
+=
+0
+            
+while
+(
 field
+:
 =
 await
 multipart
@@ -4932,17 +4942,11 @@ multipart
 next
 (
 )
-            
-while
-field
+)
 is
 not
 None
 :
-                
-size
-=
-0
                 
 field_ct
 =
@@ -4965,13 +4969,25 @@ BodyPartReader
 )
 :
                     
-assert
+if
 field
 .
 name
 is
-not
 None
+:
+                        
+raise
+ValueError
+(
+"
+Multipart
+field
+missing
+name
+.
+"
+)
                     
 #
 Note
@@ -5078,6 +5094,7 @@ chunk
                             
 chunk
 =
+await
 field
 .
 decode
@@ -5354,15 +5371,6 @@ custom
 reader
 "
                     
-)
-                
-field
-=
-await
-multipart
-.
-next
-(
 )
         
 else

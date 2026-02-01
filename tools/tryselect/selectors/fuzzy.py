@@ -60,12 +60,6 @@ pathlib
 import
 PurePath
 from
-gecko_taskgraph
-.
-target_tasks
-import
-filter_by_uncommon_try_tasks
-from
 .
 .
 cli
@@ -888,6 +882,13 @@ fzf_bootstrap_duration
 start
 (
 )
+    
+from
+gecko_taskgraph
+.
+target_tasks
+import
+filter_by_uncommon_try_tasks
     
 fzf
 =
