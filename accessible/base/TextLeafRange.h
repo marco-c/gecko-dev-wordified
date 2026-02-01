@@ -2335,6 +2335,15 @@ aContainer
 )
 const
 ;
+void
+GetFlattenedText
+(
+nsAString
+&
+aText
+)
+const
+;
 private
 :
 TextLeafPoint
