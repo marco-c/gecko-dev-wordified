@@ -16297,6 +16297,14 @@ metrics
 .
 if
 (
+!
+send_codec_
+.
+IsMixedCodec
+(
+)
+&
+&
 codec_type
 =
 =
