@@ -267,7 +267,7 @@ transform
 :
 {
 TransformPalette
-TransformPaletteId
+GpuTransformId
 }
 ;
 use
@@ -7389,7 +7389,7 @@ raster_clip
 let
 prim_transform_id
 =
-TransformPaletteId
+GpuTransformId
 :
 :
 IDENTITY

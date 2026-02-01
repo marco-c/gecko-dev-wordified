@@ -237,7 +237,7 @@ crate
 transform
 :
 :
-TransformPaletteId
+GpuTransformId
 ;
 use
 crate
@@ -1493,7 +1493,7 @@ SpatialNodeIndex
 pub
 transform_id
 :
-TransformPaletteId
+GpuTransformId
 pub
 edge_flags
 :
@@ -3407,7 +3407,7 @@ prim_address_f
 GpuBufferAddress
 transform_id
 :
-TransformPaletteId
+GpuTransformId
 edge_flags
 :
 EdgeAaSegmentMask

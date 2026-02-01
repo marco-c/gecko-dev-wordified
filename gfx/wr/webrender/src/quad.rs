@@ -314,7 +314,7 @@ crate
 transform
 :
 :
-TransformPaletteId
+GpuTransformId
 ;
 use
 crate
@@ -5848,7 +5848,7 @@ prim_address_f
 GpuBufferAddress
 transform_id
 :
-TransformPaletteId
+GpuTransformId
 aa_flags
 :
 EdgeAaSegmentMask
@@ -6200,7 +6200,7 @@ texture_input
 task_id
 prim_instance_index
 prim_address
-TransformPaletteId
+GpuTransformId
 :
 :
 IDENTITY
@@ -6410,7 +6410,7 @@ RenderTaskId
 INVALID
 prim_instance_index
 composite_prim_address
-TransformPaletteId
+GpuTransformId
 :
 :
 IDENTITY
@@ -6563,7 +6563,7 @@ dst_task_address
 RenderTaskAddress
 transform_id
 :
-TransformPaletteId
+GpuTransformId
 prim_address_f
 :
 GpuBufferAddress

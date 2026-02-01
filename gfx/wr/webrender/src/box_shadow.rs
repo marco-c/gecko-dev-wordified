@@ -270,7 +270,7 @@ crate
 transform
 :
 :
-TransformPaletteId
+GpuTransformId
 ;
 use
 crate
@@ -785,7 +785,7 @@ prim_address_f
 pattern_prim_address_f
 transform_id
 :
-TransformPaletteId
+GpuTransformId
 :
 :
 IDENTITY

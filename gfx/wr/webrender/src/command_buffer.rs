@@ -134,7 +134,7 @@ crate
 transform
 :
 :
-TransformPaletteId
+GpuTransformId
 ;
 /
 /
@@ -965,7 +965,7 @@ gpu_buffer_address
 GpuBufferAddress
 transform_id
 :
-TransformPaletteId
+GpuTransformId
 quad_flags
 :
 QuadFlags
@@ -1042,7 +1042,7 @@ gpu_buffer_address
 GpuBufferAddress
 transform_id
 :
-TransformPaletteId
+GpuTransformId
 quad_flags
 :
 QuadFlags
@@ -2029,7 +2029,7 @@ unwrap
 let
 transform_id
 =
-TransformPaletteId
+GpuTransformId
 (
 cmd_iter
 .
