@@ -424,16 +424,6 @@ tables
 .
 h
 "
-#
-ifdef
-__cplusplus
-extern
-"
-C
-"
-{
-#
-endif
 /
 *
 Tables
@@ -967,9 +957,3 @@ TRANSITION_NA
 }
 }
 ;
-#
-ifdef
-__cplusplus
-}
-#
-endif
