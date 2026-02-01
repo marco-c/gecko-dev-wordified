@@ -137,7 +137,7 @@ selectedTab
 ;
 is
 (
-tab
+browser
 .
 _sharingState
 undefined
@@ -196,7 +196,7 @@ Assert
 .
 deepEqual
 (
-tab
+browser
 .
 _sharingState
 {
@@ -263,7 +263,7 @@ Assert
 .
 deepEqual
 (
-tab
+browser
 .
 _sharingState
 {
@@ -338,7 +338,7 @@ Assert
 .
 deepEqual
 (
-tab
+browser
 .
 _sharingState
 {
@@ -411,7 +411,7 @@ Assert
 .
 deepEqual
 (
-tab
+browser
 .
 _sharingState
 {
@@ -480,7 +480,7 @@ Assert
 .
 deepEqual
 (
-tab
+browser
 .
 _sharingState
 {

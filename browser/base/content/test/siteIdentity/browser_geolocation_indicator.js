@@ -1869,9 +1869,16 @@ waitForCondition
 >
 {
 let
-sharingState
+browser
 =
 tab
+.
+linkedBrowser
+;
+let
+sharingState
+=
+browser
 .
 _sharingState
 ;
