@@ -222,6 +222,11 @@ VALID_FORMATTERS
 =
 {
 "
+ruff
+-
+format
+"
+"
 clang
 -
 format
