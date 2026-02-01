@@ -111,6 +111,12 @@ MPL
 .
 *
 /
+#
+ifndef
+ACCESSIBLE_MAC_MOXACCESSIBLEPROTOCOL_H_
+#
+define
+ACCESSIBLE_MAC_MOXACCESSIBLEPROTOCOL_H_
 protocol
 MOXTextMarkerSupport
 ;
@@ -2508,3 +2514,8 @@ _Nullable
 textMarkerRange
 ;
 end
+#
+endif
+/
+/
+ACCESSIBLE_MAC_MOXACCESSIBLEPROTOCOL_H_

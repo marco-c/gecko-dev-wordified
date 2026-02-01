@@ -112,6 +112,12 @@ MPL
 *
 /
 #
+ifndef
+ACCESSIBLE_MAC_MOZROOTACCESSIBLE_H_
+#
+define
+ACCESSIBLE_MAC_MOZROOTACCESSIBLE_H_
+#
 import
 <
 Cocoa
@@ -382,3 +388,8 @@ BOOL
 isRoot
 ;
 end
+#
+endif
+/
+/
+ACCESSIBLE_MAC_MOZROOTACCESSIBLE_H_

@@ -112,6 +112,12 @@ MPL
 *
 /
 #
+ifndef
+ACCESSIBLE_MAC_MOZHTMLACCESSIBLE_H_
+#
+define
+ACCESSIBLE_MAC_MOZHTMLACCESSIBLE_H_
+#
 import
 "
 mozAccessible
@@ -226,3 +232,8 @@ NSString
 moxTitle
 ;
 end
+#
+endif
+/
+/
+ACCESSIBLE_MAC_MOZHTMLACCESSIBLE_H_

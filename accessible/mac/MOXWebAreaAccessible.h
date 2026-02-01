@@ -112,6 +112,12 @@ MPL
 *
 /
 #
+ifndef
+ACCESSIBLE_MAC_MOXWEBAREAACCESSIBLE_H_
+#
+define
+ACCESSIBLE_MAC_MOXWEBAREAACCESSIBLE_H_
+#
 import
 "
 mozAccessible
@@ -460,3 +466,8 @@ BOOL
 isExpired
 ;
 end
+#
+endif
+/
+/
+ACCESSIBLE_MAC_MOXWEBAREAACCESSIBLE_H_

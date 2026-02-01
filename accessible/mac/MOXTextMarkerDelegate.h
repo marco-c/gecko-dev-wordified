@@ -112,6 +112,12 @@ MPL
 *
 /
 #
+ifndef
+ACCESSIBLE_MAC_MOXTEXTMARKERDELEGATE_H_
+#
+define
+ACCESSIBLE_MAC_MOXTEXTMARKERDELEGATE_H_
+#
 import
 <
 Cocoa
@@ -700,3 +706,8 @@ a11y
 /
 namespace
 mozilla
+#
+endif
+/
+/
+ACCESSIBLE_MAC_MOXTEXTMARKERDELEGATE_H_

@@ -112,6 +112,12 @@ MPL
 *
 /
 #
+ifndef
+ACCESSIBLE_IOS_MUIROOTACCESSIBLEPROTOCOL_H_
+#
+define
+ACCESSIBLE_IOS_MUIROOTACCESSIBLEPROTOCOL_H_
+#
 import
 <
 Foundation
@@ -298,3 +304,8 @@ UIAccessibilityContainerType
 accessibilityContainerType
 ;
 end
+#
+endif
+/
+/
+ACCESSIBLE_IOS_MUIROOTACCESSIBLEPROTOCOL_H_

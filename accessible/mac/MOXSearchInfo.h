@@ -112,6 +112,12 @@ MPL
 *
 /
 #
+ifndef
+ACCESSIBLE_MAC_MOXSEARCHINFO_H_
+#
+define
+ACCESSIBLE_MAC_MOXSEARCHINFO_H_
+#
 import
 "
 mozAccessible
@@ -293,3 +299,8 @@ void
 dealloc
 ;
 end
+#
+endif
+/
+/
+ACCESSIBLE_MAC_MOXSEARCHINFO_H_

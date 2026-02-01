@@ -112,6 +112,12 @@ MPL
 *
 /
 #
+ifndef
+ACCESSIBLE_MAC_ROTORRULES_H_
+#
+define
+ACCESSIBLE_MAC_ROTORRULES_H_
+#
 import
 "
 mozAccessible
@@ -800,3 +806,8 @@ override
 ;
 }
 ;
+#
+endif
+/
+/
+ACCESSIBLE_MAC_ROTORRULES_H_

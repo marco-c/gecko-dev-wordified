@@ -113,6 +113,12 @@ MPL
 *
 /
 #
+ifndef
+ACCESSIBLE_MAC_MOXOUTERDOC_H_
+#
+define
+ACCESSIBLE_MAC_MOXOUTERDOC_H_
+#
 import
 "
 mozAccessible
@@ -134,3 +140,8 @@ NSString
 moxContents
 ;
 end
+#
+endif
+/
+/
+ACCESSIBLE_MAC_MOXOUTERDOC_H_

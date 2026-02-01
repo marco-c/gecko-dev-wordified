@@ -112,6 +112,12 @@ MPL
 *
 /
 #
+ifndef
+ACCESSIBLE_MAC_MOZSELECTABLEELEMENTS_H_
+#
+define
+ACCESSIBLE_MAC_MOZSELECTABLEELEMENTS_H_
+#
 import
 <
 Cocoa
@@ -478,3 +484,8 @@ void
 moxPerformPress
 ;
 end
+#
+endif
+/
+/
+ACCESSIBLE_MAC_MOZSELECTABLEELEMENTS_H_

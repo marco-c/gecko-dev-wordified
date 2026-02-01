@@ -110,6 +110,12 @@ MPL
 *
 /
 #
+ifndef
+ACCESSIBLE_WINDOWS_MSAA_NSEVENTMAP_H_
+#
+define
+ACCESSIBLE_WINDOWS_MSAA_NSEVENTMAP_H_
+#
 include
 <
 winuser
@@ -455,3 +461,8 @@ format
 on
 }
 ;
+#
+endif
+/
+/
+ACCESSIBLE_WINDOWS_MSAA_NSEVENTMAP_H_

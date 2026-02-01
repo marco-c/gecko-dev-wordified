@@ -112,6 +112,12 @@ MPL
 *
 /
 #
+ifndef
+ACCESSIBLE_MAC_MOXMATHACCESSIBLES_H_
+#
+define
+ACCESSIBLE_MAC_MOXMATHACCESSIBLES_H_
+#
 import
 "
 mozAccessible
@@ -252,3 +258,8 @@ id
 moxMathOver
 ;
 end
+#
+endif
+/
+/
+ACCESSIBLE_MAC_MOXMATHACCESSIBLES_H_
