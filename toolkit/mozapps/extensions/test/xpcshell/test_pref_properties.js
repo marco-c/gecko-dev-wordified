@@ -1000,9 +1000,9 @@ AddonManager
 checkCompatibility
 if
 (
-isNightlyChannel
-(
-)
+AppConstants
+.
+NIGHTLY_BUILD
 )
 {
 var
