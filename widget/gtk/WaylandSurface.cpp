@@ -6771,6 +6771,7 @@ aBuffer
 >
 IsAttached
 (
+aSurfaceLock
 )
 bufferSize
 .
