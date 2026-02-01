@@ -2212,6 +2212,12 @@ case
 nsIContentPolicy
 :
 :
+TYPE_INTERNAL_IMAGE_NOTIFICATION
+:
+case
+nsIContentPolicy
+:
+:
 TYPE_INTERNAL_EXTERNAL_RESOURCE
 :
 return
