@@ -9586,6 +9586,17 @@ SubtableUnicodesCache
 )
 )
 ;
+if
+(
+unlikely
+(
+!
+cache
+)
+)
+return
+nullptr
+;
 new
 (
 cache

@@ -225,9 +225,9 @@ hb_ot_layout_mapping_cache_t
 =
 hb_cache_t
 <
-15
+16
 8
-7
+8
 >
 ;
 static_assert
@@ -238,7 +238,7 @@ hb_ot_layout_mapping_cache_t
 )
 =
 =
-256
+512
 "
 "
 )
@@ -250,7 +250,7 @@ hb_cache_t
 <
 14
 1
-7
+8
 >
 ;
 static_assert
@@ -261,7 +261,7 @@ hb_ot_layout_binary_cache_t
 )
 =
 =
-128
+256
 "
 "
 )
