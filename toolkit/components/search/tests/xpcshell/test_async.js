@@ -89,9 +89,7 @@ Assert
 ok
 (
 !
-Services
-.
-search
+SearchService
 .
 isInitialized
 )
@@ -100,9 +98,7 @@ let
 aStatus
 =
 await
-Services
-.
-search
+SearchService
 .
 init
 (
@@ -124,9 +120,7 @@ Assert
 .
 ok
 (
-Services
-.
-search
+SearchService
 .
 isInitialized
 )
@@ -145,9 +139,7 @@ let
 engines
 =
 await
-Services
-.
-search
+SearchService
 .
 getEngines
 (
@@ -175,9 +167,7 @@ ok
 let
 engine
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -218,9 +208,7 @@ engine
 ;
 engine
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (

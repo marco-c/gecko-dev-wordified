@@ -120,9 +120,7 @@ const
 result
 =
 await
-Services
-.
-search
+SearchService
 .
 init
 (
@@ -165,9 +163,7 @@ expectedTelemetryId
 const
 engine
 =
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (

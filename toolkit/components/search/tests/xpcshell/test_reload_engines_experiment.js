@@ -203,9 +203,7 @@ test_initial_config_correct
 )
 {
 await
-Services
-.
-search
+SearchService
 .
 init
 (
@@ -215,9 +213,7 @@ const
 installedEngines
 =
 await
-Services
-.
-search
+SearchService
 .
 getAppProvidedEngines
 (
@@ -267,9 +263,7 @@ equal
 (
 (
 await
-Services
-.
-search
+SearchService
 .
 getDefault
 (
@@ -550,9 +544,7 @@ const
 installedEngines
 =
 await
-Services
-.
-search
+SearchService
 .
 getAppProvidedEngines
 (
@@ -602,9 +594,7 @@ const
 engineWithSameName
 =
 await
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -667,9 +657,7 @@ Assert
 .
 equal
 (
-Services
-.
-search
+SearchService
 .
 wrappedJSObject
 .

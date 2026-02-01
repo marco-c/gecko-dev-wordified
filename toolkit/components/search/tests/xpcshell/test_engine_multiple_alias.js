@@ -44,9 +44,7 @@ function
 )
 {
 await
-Services
-.
-search
+SearchService
 .
 init
 (
@@ -99,9 +97,7 @@ let
 engine
 =
 await
-Services
-.
-search
+SearchService
 .
 getEngineByAlias
 (
@@ -132,9 +128,7 @@ alias
 engine
 =
 await
-Services
-.
-search
+SearchService
 .
 getEngineByAlias
 (

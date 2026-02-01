@@ -586,9 +586,7 @@ test_migration_after_renames
 )
 {
 await
-Services
-.
-search
+SearchService
 .
 wrappedJSObject
 .
@@ -597,9 +595,7 @@ reset
 )
 ;
 await
-Services
-.
-search
+SearchService
 .
 init
 (
@@ -624,9 +620,7 @@ let
 engine
 =
 await
-Services
-.
-search
+SearchService
 .
 getEngineById
 (

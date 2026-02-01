@@ -185,9 +185,7 @@ the
 sorted
 list
 .
-Services
-.
-search
+SearchService
 .
 wrappedJSObject
 .
@@ -199,9 +197,7 @@ const
 sortedEngines
 =
 await
-Services
-.
-search
+SearchService
 [
 type
 ]
@@ -289,9 +285,7 @@ the
 default
 sort
 .
-Services
-.
-search
+SearchService
 .
 wrappedJSObject
 .

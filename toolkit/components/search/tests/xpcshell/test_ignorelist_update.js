@@ -229,9 +229,7 @@ Assert
 ok
 (
 !
-Services
-.
-search
+SearchService
 .
 isInitialized
 "
@@ -381,9 +379,7 @@ Assert
 ok
 (
 await
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -421,9 +417,7 @@ Assert
 equal
 (
 await
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -452,9 +446,7 @@ test_correct_default_engine_change_reason
 (
 )
 {
-Services
-.
-search
+SearchService
 .
 wrappedJSObject
 .
@@ -468,9 +460,7 @@ Promise
 all
 (
 [
-Services
-.
-search
+SearchService
 .
 init
 (
@@ -506,9 +496,7 @@ Assert
 ok
 (
 await
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
@@ -528,9 +516,7 @@ Assert
 equal
 (
 await
-Services
-.
-search
+SearchService
 .
 getDefaultEngineInfo
 (
@@ -601,9 +587,7 @@ Assert
 equal
 (
 await
-Services
-.
-search
+SearchService
 .
 getEngineByName
 (
