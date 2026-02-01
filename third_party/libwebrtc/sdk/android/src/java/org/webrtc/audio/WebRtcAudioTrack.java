@@ -591,6 +591,7 @@ keepAlive
 true
 ;
 private
+final
 LowLatencyAudioBufferManager
 bufferManager
 ;

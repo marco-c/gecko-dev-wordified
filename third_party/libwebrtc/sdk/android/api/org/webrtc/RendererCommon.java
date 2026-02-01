@@ -981,6 +981,7 @@ size
 .
 private
 static
+final
 float
 BALANCED_VISIBLE_FRACTION
 =

@@ -373,6 +373,7 @@ apprtcContext
 ;
 Nullable
 private
+final
 AudioManager
 audioManager
 ;
@@ -694,6 +695,7 @@ intent
 broadcasts
 .
 private
+final
 BroadcastReceiver
 wiredHeadsetReceiver
 ;

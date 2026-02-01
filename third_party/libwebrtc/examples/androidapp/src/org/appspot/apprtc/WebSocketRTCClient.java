@@ -386,6 +386,7 @@ boolean
 initiator
 ;
 private
+final
 SignalingEvents
 events
 ;

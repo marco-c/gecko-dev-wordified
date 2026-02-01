@@ -125,6 +125,7 @@ extends
 Activity
 {
 private
+final
 RTCNativeUnitTest
 mTest
 =

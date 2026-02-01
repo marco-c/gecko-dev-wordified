@@ -603,6 +603,7 @@ SessionDescription
 localDesc
 ;
 private
+final
 List
 <
 IceCandidate
@@ -687,6 +688,7 @@ worker
 threads
 .
 private
+final
 String
 rendererName
 ;

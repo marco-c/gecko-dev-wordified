@@ -145,6 +145,7 @@ long
 nativeClient
 ;
 private
+final
 OnVoipClientTaskCompleted
 listener
 ;
