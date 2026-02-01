@@ -3550,6 +3550,15 @@ Init
 )
 {
 }
+void
+FakeVoiceEngine
+:
+:
+Terminate
+(
+)
+{
+}
 scoped_refptr
 <
 AudioState
