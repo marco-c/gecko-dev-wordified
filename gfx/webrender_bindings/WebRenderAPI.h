@@ -1919,6 +1919,11 @@ GetRootAPI
 (
 )
 ;
+bool
+CheckAndClearDidRasterize
+(
+)
+;
 protected
 :
 WebRenderAPI

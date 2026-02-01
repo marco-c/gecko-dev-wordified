@@ -6981,6 +6981,16 @@ new
 )
 )
 ;
+results
+.
+did_rasterize_any_tile
+=
+frame
+.
+composite_state
+.
+did_rasterize_any_tile
+;
 let
 size
 =
