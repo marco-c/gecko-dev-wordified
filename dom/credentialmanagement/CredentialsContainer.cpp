@@ -1194,7 +1194,6 @@ mWebAuthnHandler
 >
 GetAssertion
 (
-aCx
 aOptions
 .
 mPublicKey
@@ -1879,7 +1878,6 @@ mWebAuthnHandler
 >
 MakeCredential
 (
-aCx
 aOptions
 .
 mPublicKey
