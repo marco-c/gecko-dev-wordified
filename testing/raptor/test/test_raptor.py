@@ -385,8 +385,11 @@ These
 prefs
 are
 set
-in
-mozprofile
+by
+merging
+testing
+/
+profiles
     
 firefox_prefs
 =
@@ -440,29 +443,6 @@ true
     
 ]
     
-#
-This
-pref
-is
-set
-in
-raptor
-    
-raptor_pref
-=
-'
-user_pref
-(
-"
-security
-.
-enable_java
-"
-false
-)
-;
-'
-    
 prefs_file
 =
 os
@@ -508,11 +488,6 @@ firefox_prefs
             
 assert
 firefox_pref
-in
-prefs
-        
-assert
-raptor_pref
 in
 prefs
 patch
