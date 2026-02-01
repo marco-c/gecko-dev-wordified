@@ -3374,8 +3374,7 @@ resize
 "
 this
 .
-#
-onLazyPanelResize
+onPanelWindowResize
 true
 )
 ;
