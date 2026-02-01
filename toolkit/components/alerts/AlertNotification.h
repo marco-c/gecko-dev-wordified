@@ -276,6 +276,12 @@ mName
 nsString
 mImageURL
 ;
+nsCOMPtr
+<
+imgIContainer
+>
+mImage
+;
 nsString
 mTitle
 ;
