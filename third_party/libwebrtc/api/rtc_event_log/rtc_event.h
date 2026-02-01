@@ -263,6 +263,7 @@ AudioReceiveStreamConfig
 AudioSendStreamConfig
 BweUpdateDelayBased
 BweUpdateLossBased
+BweUpdateScream
 DtlsTransportState
 DtlsWritableState
 IceCandidatePairConfig
