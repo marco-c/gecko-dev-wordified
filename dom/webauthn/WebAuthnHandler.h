@@ -623,6 +623,9 @@ aWindow
 void
 MakeCredential
 (
+JSContext
+*
+aCx
 const
 PublicKeyCredentialCreationOptions
 &
@@ -649,6 +652,9 @@ aPromise
 void
 GetAssertion
 (
+JSContext
+*
+aCx
 const
 PublicKeyCredentialRequestOptions
 &
