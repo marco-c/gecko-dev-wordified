@@ -229,7 +229,7 @@ mozilla
 /
 BuiltInStyleSheetList
 .
-h
+inc
 "
 #
 undef

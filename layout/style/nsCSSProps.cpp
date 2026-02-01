@@ -346,7 +346,7 @@ include
 "
 nsCSSFontDescList
 .
-h
+inc
 "
 #
 undef
@@ -378,7 +378,7 @@ include
 "
 nsCSSCounterDescList
 .
-h
+inc
 "
 #
 undef

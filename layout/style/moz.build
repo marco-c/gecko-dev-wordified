@@ -423,12 +423,12 @@ h
 "
 nsCSSCounterDescList
 .
-h
+inc
 "
 "
 nsCSSFontDescList
 .
-h
+inc
 "
 "
 nsCSSPropertyIDSet
@@ -443,7 +443,7 @@ h
 "
 nsCSSPseudoElementList
 .
-h
+inc
 "
 "
 nsCSSPseudoElements
@@ -566,7 +566,7 @@ h
 "
 BuiltInStyleSheetList
 .
-h
+inc
 "
 "
 BuiltInStyleSheets
@@ -696,7 +696,7 @@ h
 "
 ServoBoxedTypeList
 .
-h
+inc
 "
 "
 ServoComputedData
@@ -726,7 +726,7 @@ h
 "
 ServoLockedArcTypeList
 .
-h
+inc
 "
 "
 ServoStyleConstsForwards

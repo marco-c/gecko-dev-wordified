@@ -84,7 +84,7 @@ corresponds
 to
 ServoLockedArcTypeList
 .
-h
+inc
 file
 in
 Gecko

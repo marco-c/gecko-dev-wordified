@@ -164,7 +164,7 @@ include
 "
 nsDisplayItemTypesList
 .
-h
+inc
 "
 #
 undef

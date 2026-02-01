@@ -162,7 +162,7 @@ h
 "
 nsDisplayItemTypesList
 .
-h
+inc
 "
 "
 nsDisplayList
@@ -172,7 +172,7 @@ h
 "
 nsDisplayListArenaTypes
 .
-h
+inc
 "
 "
 nsDisplayListInvalidation

@@ -27441,7 +27441,7 @@ as
 in
 nsCSSPseudoElementList
 .
-h
+inc
     
 PseudoElementAtom
 (
