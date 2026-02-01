@@ -2723,14 +2723,10 @@ proto
 JSObject
 :
 :
-setFlag
+setIsUsedAsPrototype
 (
 cx
 proto
-ObjectFlag
-:
-:
-IsUsedAsPrototype
 )
 )
 {
@@ -2740,6 +2736,11 @@ false
 }
 if
 (
+ShouldUseObjectFuses
+(
+)
+&
+&
 JS
 :
 :
