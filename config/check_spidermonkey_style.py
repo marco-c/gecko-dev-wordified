@@ -706,14 +706,6 @@ in
 general
     
 "
-diplomat_runtime
-.
-hpp
-"
-#
-ICU4X
-    
-"
 double
 -
 conversion
@@ -779,6 +771,16 @@ ICU4X
 icu4x
 /
 Date
+.
+hpp
+"
+#
+ICU4X
+    
+"
+icu4x
+/
+diplomat_runtime
 .
 hpp
 "
