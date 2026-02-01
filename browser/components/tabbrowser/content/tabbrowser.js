@@ -4845,7 +4845,7 @@ object
 options
 ]
 *
-property
+param
 {
 string
 }
@@ -37595,7 +37595,7 @@ tab
 groups
 .
 *
-property
+param
 {
 boolean
 }
@@ -37653,7 +37653,7 @@ to
 fire
 .
 *
-property
+param
 {
 string
 }

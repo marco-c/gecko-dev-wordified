@@ -5224,8 +5224,6 @@ property
 boolean
 }
 [
-aEvent
-.
 asyncEnabled
 ]
 -
@@ -5258,8 +5256,6 @@ property
 string
 }
 [
-aEvent
-.
 type
 ]
 -
@@ -5295,8 +5291,6 @@ number
 ]
 }
 [
-aEvent
-.
 id
 ]
 -
@@ -5345,9 +5339,7 @@ number
 ]
 }
 [
-aEvent
-.
-ry
+rx
 ]
 -
 The
@@ -5369,8 +5361,6 @@ number
 ]
 }
 [
-aEvent
-.
 ry
 ]
 -
@@ -5393,8 +5383,6 @@ number
 ]
 }
 [
-aEvent
-.
 angle
 ]
 -
@@ -5412,8 +5400,6 @@ number
 ]
 }
 [
-aEvent
-.
 force
 ]
 -
@@ -5432,8 +5418,6 @@ number
 ]
 }
 [
-aEvent
-.
 tiltX
 ]
 -
@@ -5453,8 +5437,6 @@ number
 ]
 }
 [
-aEvent
-.
 tiltY
 ]
 -
@@ -5474,8 +5456,6 @@ number
 ]
 }
 [
-aEvent
-.
 twist
 ]
 -
@@ -6997,8 +6977,6 @@ property
 string
 }
 [
-aEvent
-.
 accessKey
 ]
 -
@@ -7044,8 +7022,6 @@ property
 boolean
 }
 [
-aEvent
-.
 altKey
 ]
 -
@@ -7068,8 +7044,6 @@ property
 boolean
 }
 [
-aEvent
-.
 asyncEnabled
 ]
 -
@@ -7102,8 +7076,6 @@ property
 boolean
 }
 [
-aEvent
-.
 ctrlKey
 ]
 -
@@ -7126,8 +7098,6 @@ property
 number
 }
 [
-aEvent
-.
 deltaMode
 =
 WheelEvent
@@ -7165,8 +7135,6 @@ property
 number
 }
 [
-aEvent
-.
 deltaX
 =
 0
@@ -7193,8 +7161,6 @@ property
 number
 }
 [
-aEvent
-.
 deltaY
 =
 0
@@ -7221,8 +7187,6 @@ property
 number
 }
 [
-aEvent
-.
 deltaZ
 =
 0
@@ -7249,8 +7213,6 @@ property
 number
 }
 [
-aEvent
-.
 expectedOverflowDeltaX
 ]
 -
@@ -7280,8 +7242,6 @@ property
 number
 }
 [
-aEvent
-.
 expectedOverflowDeltaY
 ]
 -
@@ -7311,8 +7271,6 @@ property
 boolean
 }
 [
-aEvent
-.
 isCustomizedByPrefs
 ]
 -
@@ -7335,8 +7293,6 @@ property
 boolean
 }
 [
-aEvent
-.
 isMomentum
 ]
 -
@@ -7359,8 +7315,6 @@ property
 boolean
 }
 [
-aEvent
-.
 isNoLineOrPageDelta
 ]
 -
@@ -7406,8 +7360,6 @@ property
 number
 }
 [
-aEvent
-.
 lineOrPageDeltaX
 ]
 -
@@ -7443,8 +7395,6 @@ property
 number
 }
 [
-aEvent
-.
 lineOrPageDeltaY
 ]
 -
@@ -7480,8 +7430,6 @@ property
 boolean
 }
 [
-aEvent
-.
 metaKey
 ]
 -
@@ -7504,8 +7452,6 @@ property
 boolean
 }
 [
-aEvent
-.
 shiftKey
 ]
 -
