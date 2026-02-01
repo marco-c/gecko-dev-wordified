@@ -141,7 +141,7 @@ Eps
 /
 Returns
 true
-is
+if
 this
 object
 is
@@ -183,7 +183,7 @@ bool
 /
 Returns
 true
-is
+if
 this
 object
 is
@@ -198,8 +198,14 @@ using
 /
 /
 the
+[
 approx_epsilon
+]
 (
+ApproxEq
+:
+:
+approx_epsilon
 )
 epsilon
 value
