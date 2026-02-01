@@ -877,9 +877,6 @@ because
 the
 /
 /
-fetch
-:
-:
 ResponseBodyInit
 is
 a
@@ -902,9 +899,6 @@ members
 .
 Nullable
 <
-fetch
-:
-:
 ResponseBodyInit
 >
 body
@@ -1051,9 +1045,6 @@ aGlobal
 const
 Nullable
 <
-fetch
-:
-:
 ResponseBodyInit
 >
 &
@@ -1845,9 +1836,6 @@ InternalResponse
 UNKNOWN_BODY_SIZE
 ;
 const
-fetch
-:
-:
 ResponseBodyInit
 &
 body
@@ -2290,9 +2278,6 @@ nullptr
 }
 Nullable
 <
-fetch
-:
-:
 ResponseBodyInit
 >
 body
@@ -2349,9 +2334,6 @@ aGlobal
 const
 Nullable
 <
-fetch
-:
-:
 ResponseBodyInit
 >
 &
