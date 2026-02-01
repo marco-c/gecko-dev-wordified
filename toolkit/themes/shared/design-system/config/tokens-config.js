@@ -127,6 +127,11 @@ table
 row
 "
 ]
+Badge
+:
+"
+badge
+"
 Border
 :
 "
@@ -3230,6 +3235,9 @@ SINGULAR_TABLE_CATEGORIES
 =
 [
 "
+badge
+"
+"
 button
 "
 "
@@ -3445,6 +3453,9 @@ replacePattern
 /
 ^
 (
+badge
+-
+|
 button
 -
 |
