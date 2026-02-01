@@ -2937,16 +2937,6 @@ UseAHardwareBufferSharedSurfaceWebglOop
 layers
 :
 :
-AndroidHardwareBufferApi
-:
-:
-Init
-(
-)
-;
-layers
-:
-:
 AndroidHardwareBufferManager
 :
 :
