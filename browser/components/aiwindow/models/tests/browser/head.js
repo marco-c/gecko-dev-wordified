@@ -326,7 +326,7 @@ test
 /
 async
 function
-setupGetPageContentTest
+setupGetPageContentTests
 (
 html
 )
@@ -391,10 +391,16 @@ true
 waitForLoad
 )
 ;
+const
+url_list
+=
+[
+url
+]
+;
 return
 {
-tab
-url
+url_list
 GetPageContent
 async
 cleanup
