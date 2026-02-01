@@ -244,9 +244,17 @@ object
 .
 VideoCaptureCapability
 _captureCapability
+RTC_GUARDED_BY
+(
+api_checker_
+)
 ;
 bool
 _captureStarted
+RTC_GUARDED_BY
+(
+api_lock_
+)
 ;
 }
 ;
