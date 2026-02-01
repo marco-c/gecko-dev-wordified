@@ -143,9 +143,13 @@ fixtureData
 iframe
 src
 =
+\
+"
 {
 CROSS_ORIGIN_ALL_FIELDS
 }
+\
+"
 >
 <
 /
