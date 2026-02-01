@@ -314,7 +314,7 @@ line
 servo_restyle_damage
 =
 "
-rebuild_box
+recalculate_overflow
 "
 affects
 =
@@ -389,6 +389,11 @@ text
 decoration
 -
 style
+"
+servo_restyle_damage
+=
+"
+recalculate_overflow
 "
 affects
 =
@@ -579,6 +584,11 @@ text
 decoration
 -
 color
+"
+servo_restyle_damage
+=
+"
+recalculate_overflow
 "
 affects
 =

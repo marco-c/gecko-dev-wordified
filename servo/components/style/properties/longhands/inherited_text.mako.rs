@@ -1242,6 +1242,11 @@ shadow
 -
 property
 "
+servo_restyle_damage
+=
+"
+repaint
+"
 affects
 =
 "
