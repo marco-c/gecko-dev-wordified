@@ -46517,7 +46517,8 @@ mTextDecorationColor
 .
 CalcColor
 (
-this
+*
+computedStyleFromPseudo
 )
 ;
 params
