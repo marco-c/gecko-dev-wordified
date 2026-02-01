@@ -13931,9 +13931,12 @@ baselineShift
 aFrame
 -
 >
-BaselineShift
+StyleDisplay
 (
 )
+-
+>
+mBaselineShift
 ;
 if
 (
