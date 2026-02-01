@@ -2216,9 +2216,6 @@ bool
 aRestart
 )
 ;
-#
-ifndef
-ANDROID
 enum
 ZeroRttOutcome
 {
@@ -2236,8 +2233,6 @@ ZeroRttOutcome
 aOutcome
 )
 ;
-#
-endif
 RefPtr
 <
 NeqoHttp3Conn
