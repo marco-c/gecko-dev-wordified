@@ -300,8 +300,14 @@ assert_response_event
 (
         
 response_completed_event
-expected_response
+        
+expected_event
 =
+{
+"
+response
+"
+:
 {
 "
 headers
@@ -310,6 +316,7 @@ headers
 [
 set_cookie_header
 ]
+}
 }
     
 )
@@ -376,8 +383,14 @@ assert_response_event
 (
         
 response_completed_event
-expected_request
+        
+expected_event
 =
+{
+"
+request
+"
+:
 {
 "
 cookies
@@ -386,6 +399,7 @@ cookies
 [
 request_cookie
 ]
+}
 }
     
 )

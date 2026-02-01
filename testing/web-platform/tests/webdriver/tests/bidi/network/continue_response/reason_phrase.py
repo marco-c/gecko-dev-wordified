@@ -116,14 +116,20 @@ assert_response_event
         
 response_completed_event
         
-expected_response
+expected_event
 =
+{
+"
+response
+"
+:
 {
 "
 statusText
 "
 :
 reason_phrase
+}
 }
     
 )
@@ -239,8 +245,14 @@ assert_response_event
         
 response_completed_event
         
-expected_response
+expected_event
 =
+{
+            
+"
+response
+"
+:
 {
 "
 statusText
@@ -252,6 +264,8 @@ status
 "
 :
 status_code
+}
+        
 }
     
 )

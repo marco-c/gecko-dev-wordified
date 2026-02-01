@@ -281,9 +281,13 @@ events
 [
 0
 ]
-        
-expected_request
+expected_event
 =
+{
+"
+request
+"
+:
 {
 "
 method
@@ -297,6 +301,7 @@ url
 "
 :
 fetch_url
+}
 }
     
 )
@@ -312,9 +317,13 @@ events
 [
 1
 ]
-        
-expected_request
+expected_event
 =
+{
+"
+request
+"
+:
 {
 "
 method
@@ -329,9 +338,9 @@ url
 :
 fetch_url
 }
+}
     
 )
-    
 #
 Preflight
 responseCompleted
@@ -343,9 +352,13 @@ events
 [
 2
 ]
-        
-expected_request
+expected_event
 =
+{
+"
+request
+"
+:
 {
 "
 method
@@ -360,9 +373,9 @@ url
 :
 fetch_url
 }
+}
     
 )
-    
 #
 Actual
 request
@@ -375,9 +388,13 @@ events
 [
 3
 ]
-        
-expected_request
+expected_event
 =
+{
+"
+request
+"
+:
 {
 "
 method
@@ -391,6 +408,7 @@ url
 "
 :
 fetch_url
+}
 }
     
 )
@@ -407,9 +425,13 @@ events
 [
 4
 ]
-        
-expected_request
+expected_event
 =
+{
+"
+request
+"
+:
 {
 "
 method
@@ -424,9 +446,9 @@ url
 :
 fetch_url
 }
+}
     
 )
-    
 #
 Actual
 request
@@ -439,9 +461,13 @@ events
 [
 5
 ]
-        
-expected_request
+expected_event
 =
+{
+"
+request
+"
+:
 {
 "
 method
@@ -455,6 +481,7 @@ url
 "
 :
 fetch_url
+}
 }
     
 )
@@ -863,17 +890,29 @@ BEFORE_REQUEST_SENT_EVENT
 event_index
 ]
             
+expected_event
+=
+{
+                
+"
+request
+"
+:
 expected_request
-=
-expected_request
-            
+                
+"
 context
-=
+"
+:
 context
+                
+"
+navigation
+"
+:
+navigation
             
-navigation
-=
-navigation
+}
         
 )
         
@@ -888,17 +927,29 @@ RESPONSE_STARTED_EVENT
 event_index
 ]
             
+expected_event
+=
+{
+                
+"
+response
+"
+:
 expected_response
-=
-expected_response
-            
+                
+"
 context
-=
+"
+:
 context
+                
+"
+navigation
+"
+:
+navigation
             
-navigation
-=
-navigation
+}
         
 )
         
@@ -913,17 +964,29 @@ RESPONSE_COMPLETED_EVENT
 event_index
 ]
             
+expected_event
+=
+{
+                
+"
+response
+"
+:
 expected_response
-=
-expected_response
-            
+                
+"
 context
-=
+"
+:
 context
+                
+"
+navigation
+"
+:
+navigation
             
-navigation
-=
-navigation
+}
         
 )
     
@@ -1279,27 +1342,39 @@ BEFORE_REQUEST_SENT_EVENT
 0
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 expected_request
-        
+            
+"
 context
-=
+"
+:
 top_context
 [
 "
 context
 "
 ]
-        
+            
+"
 navigation
-=
+"
+:
 result
 [
 "
 navigation
 "
 ]
+        
+}
     
 )
     
@@ -1314,27 +1389,39 @@ RESPONSE_STARTED_EVENT
 0
 ]
         
-expected_response
+expected_event
 =
+{
+            
+"
+response
+"
+:
 expected_response
-        
+            
+"
 context
-=
+"
+:
 top_context
 [
 "
 context
 "
 ]
-        
+            
+"
 navigation
-=
+"
+:
 result
 [
 "
 navigation
 "
 ]
+        
+}
     
 )
     
@@ -1349,27 +1436,39 @@ RESPONSE_COMPLETED_EVENT
 0
 ]
         
-expected_response
+expected_event
 =
+{
+            
+"
+response
+"
+:
 expected_response
-        
+            
+"
 context
-=
+"
+:
 top_context
 [
 "
 context
 "
 ]
-        
+            
+"
 navigation
-=
+"
+:
 result
 [
 "
 navigation
 "
 ]
+        
+}
     
 )
 pytest
@@ -1507,9 +1606,15 @@ before_request_sent_events
 [
 0
 ]
-expected_request
+expected_event
 =
+{
+"
+request
+"
+:
 expected_request
+}
     
 )
     
@@ -1531,13 +1636,23 @@ response_started_events
 0
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 expected_request
+            
+"
+response
+"
+:
+expected_response
         
-expected_response
-=
-expected_response
+}
     
 )
     
@@ -1549,13 +1664,23 @@ response_completed_events
 0
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 expected_request
+            
+"
+response
+"
+:
+expected_response
         
-expected_response
-=
-expected_response
+}
     
 )
     
@@ -1861,18 +1986,28 @@ BEFORE_REQUEST_SENT_EVENT
 0
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 expected_request
-        
+            
+"
 context
-=
+"
+:
 top_context
 [
 "
 context
 "
 ]
+        
+}
     
 )
     
@@ -1887,18 +2022,28 @@ RESPONSE_STARTED_EVENT
 0
 ]
         
-expected_response
+expected_event
 =
+{
+            
+"
+response
+"
+:
 expected_response
-        
+            
+"
 context
-=
+"
+:
 top_context
 [
 "
 context
 "
 ]
+        
+}
     
 )
     
@@ -1913,18 +2058,28 @@ RESPONSE_COMPLETED_EVENT
 0
 ]
         
-expected_response
+expected_event
 =
+{
+            
+"
+response
+"
+:
 expected_response
-        
+            
+"
 context
-=
+"
+:
 top_context
 [
 "
 context
 "
 ]
+        
+}
     
 )
     

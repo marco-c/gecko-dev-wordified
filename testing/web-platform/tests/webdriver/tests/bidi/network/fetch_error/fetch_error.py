@@ -209,14 +209,20 @@ events
 [
 0
 ]
-        
-expected_request
+expected_event
 =
+{
+"
+request
+"
+:
 expected_request
-        
-redirect_count
-=
+"
+redirectCount
+"
+:
 0
+}
     
 )
     
@@ -422,8 +428,14 @@ assert_fetch_error_event
         
 fetch_error_event
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 {
 "
 url
@@ -431,15 +443,19 @@ url
 :
 slow_url
 }
-        
+            
+"
 context
-=
+"
+:
 new_tab
 [
 "
 context
 "
 ]
+        
+}
     
 )
 pytest
@@ -595,8 +611,14 @@ events
 0
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 {
 "
 url
@@ -604,15 +626,19 @@ url
 :
 PAGE_INVALID_URL
 }
-        
+            
+"
 context
-=
+"
+:
 frame_context
 [
 "
 context
 "
 ]
+        
+}
     
 )
 pytest
@@ -708,10 +734,15 @@ assert_fetch_error_event
 (
         
 fetch_error_event
-        
-expected_request
+expected_event
 =
+{
+"
+request
+"
+:
 expected_request
+}
     
 )
     
@@ -802,10 +833,15 @@ assert_fetch_error_event
 (
         
 fetch_error_event
-        
-expected_request
+expected_event
 =
+{
+"
+request
+"
+:
 expected_request
+}
     
 )
 pytest
@@ -1108,15 +1144,20 @@ assert_fetch_error_event
 (
             
 event
-            
-expected_request
+expected_event
 =
+{
+"
+request
+"
+:
 {
 "
 url
 "
 :
 PAGE_INVALID_URL
+}
 }
         
 )
@@ -1275,17 +1316,29 @@ events
 0
 ]
         
-expected_request
+expected_event
 =
+{
+            
+"
+request
+"
+:
 expected_request
-        
-expected_time_range
-=
+            
+"
+timestamp
+"
+:
 time_range
-        
-redirect_count
-=
+            
+"
+redirectCount
+"
+:
 0
+        
+}
     
 )
 pytest
@@ -1441,13 +1494,20 @@ assert_response_event
         
 response_completed_event
         
-expected_request
+expected_event
 =
+{
+"
+request
+"
+:
 expected_request
-        
-redirect_count
-=
+"
+redirectCount
+"
+:
 0
+}
     
 )
     
@@ -1472,12 +1532,21 @@ assert_fetch_error_event
 (
         
 fetch_error_event
-expected_request
+        
+expected_event
 =
+{
+"
+request
+"
+:
 expected_request
-redirect_count
-=
+"
+redirectCount
+"
+:
 1
+}
     
 )
     
@@ -1666,13 +1735,20 @@ assert_response_event
         
 response_completed_event
         
-expected_request
+expected_event
 =
+{
+"
+request
+"
+:
 expected_request
-        
-redirect_count
-=
+"
+redirectCount
+"
+:
 0
+}
     
 )
     
@@ -1698,13 +1774,20 @@ assert_fetch_error_event
         
 fetch_error_event
         
-expected_request
+expected_event
 =
+{
+"
+request
+"
+:
 expected_request
-        
-redirect_count
-=
+"
+redirectCount
+"
+:
 1
+}
     
 )
     

@@ -573,17 +573,29 @@ events
 1
 ]
         
+expected_event
+=
+{
+            
+"
+request
+"
+:
 expected_request
-=
-expected_request
-        
+            
+"
+response
+"
+:
 expected_response
-=
-expected_response
-        
-redirect_count
-=
+            
+"
+redirectCount
+"
+:
 0
+        
+}
     
 )
     
@@ -614,17 +626,29 @@ events
 1
 ]
         
+expected_event
+=
+{
+            
+"
+request
+"
+:
 expected_request
-=
-expected_request
-        
+            
+"
+response
+"
+:
 expected_response
-=
-expected_response
-        
-redirect_count
-=
+            
+"
+redirectCount
+"
+:
 0
+        
+}
     
 )
     

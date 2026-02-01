@@ -213,10 +213,15 @@ events
 [
 0
 ]
-        
-expected_request
+expected_event
 =
+{
+"
+request
+"
+:
 expected_request
+}
     
 )
     
@@ -255,10 +260,15 @@ events
 [
 1
 ]
-        
-expected_request
+expected_event
 =
+{
+"
+request
+"
+:
 expected_request
+}
     
 )
 pytest
@@ -435,14 +445,6 @@ timeout
 2
 )
     
-assert_before_request_sent_event
-(
-        
-events
-[
-0
-]
-        
 expected_request
 =
 {
@@ -460,16 +462,25 @@ url
 page_with_cached_css
 }
     
-)
-    
 assert_before_request_sent_event
 (
         
 events
 [
-1
+0
 ]
-        
+expected_event
+=
+{
+"
+request
+"
+:
+expected_request
+}
+    
+)
+    
 expected_request
 =
 {
@@ -485,6 +496,23 @@ url
 "
 :
 cached_link_css_url
+}
+    
+assert_before_request_sent_event
+(
+        
+events
+[
+1
+]
+expected_event
+=
+{
+"
+request
+"
+:
+expected_request
 }
     
 )
@@ -544,14 +572,6 @@ timeout
 2
 )
     
-assert_before_request_sent_event
-(
-        
-events
-[
-2
-]
-        
 expected_request
 =
 {
@@ -569,16 +589,25 @@ url
 page_with_cached_css
 }
     
-)
-    
 assert_before_request_sent_event
 (
         
 events
 [
-3
+2
 ]
-        
+expected_event
+=
+{
+"
+request
+"
+:
+expected_request
+}
+    
+)
+    
 expected_request
 =
 {
@@ -594,6 +623,23 @@ url
 "
 :
 cached_link_css_url
+}
+    
+assert_before_request_sent_event
+(
+        
+events
+[
+3
+]
+expected_event
+=
+{
+"
+request
+"
+:
+expected_request
 }
     
 )
@@ -789,14 +835,6 @@ timeout
 2
 )
     
-assert_before_request_sent_event
-(
-        
-events
-[
-0
-]
-        
 expected_request
 =
 {
@@ -814,16 +852,25 @@ url
 page_with_cached_css
 }
     
-)
-    
 assert_before_request_sent_event
 (
         
 events
 [
-1
+0
 ]
-        
+expected_event
+=
+{
+"
+request
+"
+:
+expected_request
+}
+    
+)
+    
 expected_request
 =
 {
@@ -839,6 +886,23 @@ url
 "
 :
 cached_import_css_url
+}
+    
+assert_before_request_sent_event
+(
+        
+events
+[
+1
+]
+expected_event
+=
+{
+"
+request
+"
+:
+expected_request
 }
     
 )
@@ -898,14 +962,6 @@ timeout
 2
 )
     
-assert_before_request_sent_event
-(
-        
-events
-[
-2
-]
-        
 expected_request
 =
 {
@@ -923,16 +979,25 @@ url
 page_with_cached_css
 }
     
-)
-    
 assert_before_request_sent_event
 (
         
 events
 [
-3
+2
 ]
-        
+expected_event
+=
+{
+"
+request
+"
+:
+expected_request
+}
+    
+)
+    
 expected_request
 =
 {
@@ -948,6 +1013,23 @@ url
 "
 :
 cached_import_css_url
+}
+    
+assert_before_request_sent_event
+(
+        
+events
+[
+3
+]
+expected_event
+=
+{
+"
+request
+"
+:
+expected_request
 }
     
 )
@@ -1310,14 +1392,6 @@ timeout
 2
 )
     
-assert_before_request_sent_event
-(
-        
-events
-[
-0
-]
-        
 expected_request
 =
 {
@@ -1335,6 +1409,23 @@ url
 page_with_cached_css
 }
     
+assert_before_request_sent_event
+(
+        
+events
+[
+0
+]
+expected_event
+=
+{
+"
+request
+"
+:
+expected_request
+}
+    
 )
     
 link_css_event
@@ -1365,11 +1456,6 @@ url
     
 )
     
-assert_before_request_sent_event
-(
-        
-link_css_event
-        
 expected_request
 =
 {
@@ -1385,6 +1471,20 @@ url
 "
 :
 cached_link_css_url
+}
+    
+assert_before_request_sent_event
+(
+        
+link_css_event
+expected_event
+=
+{
+"
+request
+"
+:
+expected_request
 }
     
 )
@@ -1417,11 +1517,6 @@ url
     
 )
     
-assert_before_request_sent_event
-(
-        
-import_css_event
-        
 expected_request
 =
 {
@@ -1437,6 +1532,20 @@ url
 "
 :
 cached_import_css_url
+}
+    
+assert_before_request_sent_event
+(
+        
+import_css_event
+expected_event
+=
+{
+"
+request
+"
+:
+expected_request
 }
     
 )
@@ -1514,14 +1623,6 @@ events
 :
 ]
     
-assert_before_request_sent_event
-(
-        
-cached_events
-[
-0
-]
-        
 expected_request
 =
 {
@@ -1539,6 +1640,23 @@ url
 page_with_cached_css
 }
     
+assert_before_request_sent_event
+(
+        
+cached_events
+[
+0
+]
+expected_event
+=
+{
+"
+request
+"
+:
+expected_request
+}
+    
 )
     
 cached_link_css_event
@@ -1569,11 +1687,6 @@ url
     
 )
     
-assert_before_request_sent_event
-(
-        
-cached_link_css_event
-        
 expected_request
 =
 {
@@ -1589,6 +1702,20 @@ url
 "
 :
 cached_link_css_url
+}
+    
+assert_before_request_sent_event
+(
+        
+cached_link_css_event
+expected_event
+=
+{
+"
+request
+"
+:
+expected_request
 }
     
 )
@@ -1621,11 +1748,6 @@ url
     
 )
     
-assert_before_request_sent_event
-(
-        
-cached_import_css_event
-        
 expected_request
 =
 {
@@ -1641,6 +1763,20 @@ url
 "
 :
 cached_import_css_url
+}
+    
+assert_before_request_sent_event
+(
+        
+cached_import_css_event
+expected_event
+=
+{
+"
+request
+"
+:
+expected_request
 }
     
 )
@@ -1813,14 +1949,6 @@ timeout
 2
 )
     
-assert_before_request_sent_event
-(
-        
-events
-[
-0
-]
-        
 expected_request
 =
 {
@@ -1838,16 +1966,25 @@ url
 page_with_cached_js
 }
     
-)
-    
 assert_before_request_sent_event
 (
         
 events
 [
-1
+0
 ]
-        
+expected_event
+=
+{
+"
+request
+"
+:
+expected_request
+}
+    
+)
+    
 expected_request
 =
 {
@@ -1863,6 +2000,23 @@ url
 "
 :
 cached_script_js_url
+}
+    
+assert_before_request_sent_event
+(
+        
+events
+[
+1
+]
+expected_event
+=
+{
+"
+request
+"
+:
+expected_request
 }
     
 )
@@ -1924,14 +2078,6 @@ timeout
 2
 )
     
-assert_before_request_sent_event
-(
-        
-events
-[
-2
-]
-        
 expected_request
 =
 {
@@ -1949,16 +2095,25 @@ url
 page_with_cached_js
 }
     
-)
-    
 assert_before_request_sent_event
 (
         
 events
 [
-3
+2
 ]
-        
+expected_event
+=
+{
+"
+request
+"
+:
+expected_request
+}
+    
+)
+    
 expected_request
 =
 {
@@ -1974,6 +2129,23 @@ url
 "
 :
 cached_script_js_url
+}
+    
+assert_before_request_sent_event
+(
+        
+events
+[
+3
+]
+expected_event
+=
+{
+"
+request
+"
+:
+expected_request
 }
     
 )
@@ -2164,14 +2336,6 @@ events
 :
 ]
     
-assert_before_request_sent_event
-(
-        
-cached_events
-[
-0
-]
-        
 expected_request
 =
 {
@@ -2189,16 +2353,25 @@ url
 page_with_2_cached_js
 }
     
-)
-    
 assert_before_request_sent_event
 (
         
 cached_events
 [
-1
+0
 ]
-        
+expected_event
+=
+{
+"
+request
+"
+:
+expected_request
+}
+    
+)
+    
 expected_request
 =
 {
@@ -2216,6 +2389,23 @@ url
 cached_script_js_url
 }
     
+assert_before_request_sent_event
+(
+        
+cached_events
+[
+1
+]
+expected_event
+=
+{
+"
+request
+"
+:
+expected_request
+}
+    
 )
     
 if
@@ -2227,14 +2417,6 @@ events
 6
 :
         
-assert_before_request_sent_event
-(
-            
-cached_events
-[
-2
-]
-            
 expected_request
 =
 {
@@ -2250,6 +2432,23 @@ url
 "
 :
 cached_script_js_url
+}
+        
+assert_before_request_sent_event
+(
+            
+cached_events
+[
+2
+]
+expected_event
+=
+{
+"
+request
+"
+:
+expected_request
 }
         
 )
@@ -2432,14 +2631,6 @@ timeout
 2
 )
     
-assert_before_request_sent_event
-(
-        
-events
-[
-0
-]
-        
 expected_request
 =
 {
@@ -2457,16 +2648,25 @@ url
 page_with_cached_js_module
 }
     
-)
-    
 assert_before_request_sent_event
 (
         
 events
 [
-1
+0
 ]
-        
+expected_event
+=
+{
+"
+request
+"
+:
+expected_request
+}
+    
+)
+    
 expected_request
 =
 {
@@ -2482,6 +2682,23 @@ url
 "
 :
 cached_js_module_url
+}
+    
+assert_before_request_sent_event
+(
+        
+events
+[
+1
+]
+expected_event
+=
+{
+"
+request
+"
+:
+expected_request
 }
     
 )
@@ -2543,14 +2760,6 @@ timeout
 2
 )
     
-assert_before_request_sent_event
-(
-        
-events
-[
-2
-]
-        
 expected_request
 =
 {
@@ -2568,16 +2777,25 @@ url
 page_with_cached_js_module
 }
     
-)
-    
 assert_before_request_sent_event
 (
         
 events
 [
-3
+2
 ]
-        
+expected_event
+=
+{
+"
+request
+"
+:
+expected_request
+}
+    
+)
+    
 expected_request
 =
 {
@@ -2593,6 +2811,23 @@ url
 "
 :
 cached_js_module_url
+}
+    
+assert_before_request_sent_event
+(
+        
+events
+[
+3
+]
+expected_event
+=
+{
+"
+request
+"
+:
+expected_request
 }
     
 )
@@ -2761,14 +2996,6 @@ events
 :
 ]
     
-assert_before_request_sent_event
-(
-        
-cached_events
-[
-0
-]
-        
 expected_request
 =
 {
@@ -2786,16 +3013,25 @@ url
 page_with_2_cached_js_modules
 }
     
-)
-    
 assert_before_request_sent_event
 (
         
 cached_events
 [
-1
+0
 ]
-        
+expected_event
+=
+{
+"
+request
+"
+:
+expected_request
+}
+    
+)
+    
 expected_request
 =
 {
@@ -2811,6 +3047,23 @@ url
 "
 :
 cached_js_module_url
+}
+    
+assert_before_request_sent_event
+(
+        
+cached_events
+[
+1
+]
+expected_event
+=
+{
+"
+request
+"
+:
+expected_request
 }
     
 )
@@ -2971,14 +3224,6 @@ timeout
 2
 )
     
-assert_before_request_sent_event
-(
-        
-events
-[
-0
-]
-        
 expected_request
 =
 {
@@ -2996,16 +3241,25 @@ url
 page_with_cached_image
 }
     
-)
-    
 assert_before_request_sent_event
 (
         
 events
 [
-1
+0
 ]
-        
+expected_event
+=
+{
+"
+request
+"
+:
+expected_request
+}
+    
+)
+    
 expected_request
 =
 {
@@ -3021,6 +3275,23 @@ url
 "
 :
 cached_image_url
+}
+    
+assert_before_request_sent_event
+(
+        
+events
+[
+1
+]
+expected_event
+=
+{
+"
+request
+"
+:
+expected_request
 }
     
 )
@@ -3081,14 +3352,6 @@ timeout
 2
 )
     
-assert_before_request_sent_event
-(
-        
-events
-[
-2
-]
-        
 expected_request
 =
 {
@@ -3106,16 +3369,25 @@ url
 page_with_cached_image
 }
     
-)
-    
 assert_before_request_sent_event
 (
         
 events
 [
-3
+2
 ]
-        
+expected_event
+=
+{
+"
+request
+"
+:
+expected_request
+}
+    
+)
+    
 expected_request
 =
 {
@@ -3131,6 +3403,23 @@ url
 "
 :
 cached_image_url
+}
+    
+assert_before_request_sent_event
+(
+        
+events
+[
+3
+]
+expected_event
+=
+{
+"
+request
+"
+:
+expected_request
 }
     
 )

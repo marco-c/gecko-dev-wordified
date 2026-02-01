@@ -230,18 +230,25 @@ assert_before_request_sent_event
         
 before_request_sent_event
         
-is_blocked
+expected_event
 =
+{
+"
+isBlocked
+"
+:
 False
-        
-expected_request
-=
+"
+request
+"
+:
 {
 "
 url
 "
 :
 data_url
+}
 }
     
 )
@@ -251,12 +258,32 @@ assert_response_event
         
 response_started_event
         
-is_blocked
+expected_event
 =
+{
+            
+"
+isBlocked
+"
+:
 False
-        
-expected_request
-=
+            
+"
+request
+"
+:
+{
+"
+url
+"
+:
+data_url
+}
+            
+"
+response
+"
+:
 {
 "
 url
@@ -265,14 +292,6 @@ url
 data_url
 }
         
-expected_response
-=
-{
-"
-url
-"
-:
-data_url
 }
     
 )
@@ -282,12 +301,32 @@ assert_response_event
         
 response_completed_event
         
-is_blocked
+expected_event
 =
+{
+            
+"
+isBlocked
+"
+:
 False
-        
-expected_request
-=
+            
+"
+request
+"
+:
+{
+"
+url
+"
+:
+data_url
+}
+            
+"
+response
+"
+:
 {
 "
 url
@@ -296,14 +335,6 @@ url
 data_url
 }
         
-expected_response
-=
-{
-"
-url
-"
-:
-data_url
 }
     
 )
@@ -726,9 +757,15 @@ beforerequestsent_events
 cached_link_css_url
 )
         
-is_blocked
+expected_event
 =
+{
+"
+isBlocked
+"
+:
 False
+}
     
 )
     
@@ -741,9 +778,15 @@ beforerequestsent_events
 cached_image_url
 )
         
-is_blocked
+expected_event
 =
+{
+"
+isBlocked
+"
+:
 False
+}
     
 )
     
@@ -756,9 +799,15 @@ responsestarted_events
 cached_link_css_url
 )
         
-is_blocked
+expected_event
 =
+{
+"
+isBlocked
+"
+:
 False
+}
     
 )
     
@@ -771,9 +820,15 @@ responsestarted_events
 cached_image_url
 )
         
-is_blocked
+expected_event
 =
+{
+"
+isBlocked
+"
+:
 False
+}
     
 )
     
@@ -786,9 +841,15 @@ responsecompleted_events
 cached_link_css_url
 )
         
-is_blocked
+expected_event
 =
+{
+"
+isBlocked
+"
+:
 False
+}
     
 )
     
@@ -801,8 +862,14 @@ responsecompleted_events
 cached_image_url
 )
         
-is_blocked
+expected_event
 =
+{
+"
+isBlocked
+"
+:
 False
+}
     
 )

@@ -344,19 +344,31 @@ before_request_sent_events
 0
 ]
             
-expected_request
+expected_event
 =
+{
+                
+"
+request
+"
+:
 expected_request
-            
-is_blocked
-=
+                
+"
+isBlocked
+"
+:
 True
-            
+                
+"
 intercepts
-=
+"
+:
 [
 intercept
 ]
+            
+}
         
 )
     
@@ -395,13 +407,20 @@ before_request_sent_events
 0
 ]
             
-expected_request
+expected_event
 =
+{
+"
+request
+"
+:
 expected_request
-            
-is_blocked
-=
+"
+isBlocked
+"
+:
 False
+}
         
 )
         
@@ -413,19 +432,31 @@ response_started_events
 0
 ]
             
-expected_request
+expected_event
 =
+{
+                
+"
+request
+"
+:
 expected_request
-            
-is_blocked
-=
+                
+"
+isBlocked
+"
+:
 True
-            
+                
+"
 intercepts
-=
+"
+:
 [
 intercept
 ]
+            
+}
         
 )
     

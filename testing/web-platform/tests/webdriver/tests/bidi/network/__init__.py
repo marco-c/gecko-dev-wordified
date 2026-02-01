@@ -664,36 +664,8 @@ request_data
 def
 assert_base_parameters
 (
-    
 event
-    
-context
-=
-None
-    
-intercepts
-=
-None
-    
-is_blocked
-=
-None
-    
-navigation
-=
-None
-    
-redirect_count
-=
-None
-    
-expected_request
-=
-None
-    
-expected_time_range
-=
-None
+expected_event
 )
 :
     
@@ -745,10 +717,11 @@ event
 )
     
 if
+"
 context
-is
-not
-None
+"
+in
+expected_event
 :
         
 assert
@@ -760,13 +733,19 @@ context
 ]
 =
 =
+expected_event
+[
+"
 context
+"
+]
     
 if
-is_blocked
-is
-not
-None
+"
+isBlocked
+"
+in
+expected_event
 :
         
 assert
@@ -778,7 +757,12 @@ isBlocked
 ]
 =
 =
-is_blocked
+expected_event
+[
+"
+isBlocked
+"
+]
     
 if
 event
@@ -844,10 +828,11 @@ in
 event
     
 if
+"
 intercepts
-is
-not
-None
+"
+in
+expected_event
 :
         
 assert
@@ -859,13 +844,19 @@ intercepts
 ]
 =
 =
+expected_event
+[
+"
 intercepts
+"
+]
     
 if
+"
 navigation
-is
-not
-None
+"
+in
+expected_event
 :
         
 assert
@@ -877,13 +868,19 @@ navigation
 ]
 =
 =
+expected_event
+[
+"
 navigation
+"
+]
     
 if
-redirect_count
-is
-not
-None
+"
+redirectCount
+"
+in
+expected_event
 :
         
 assert
@@ -895,7 +892,12 @@ redirectCount
 ]
 =
 =
-redirect_count
+expected_event
+[
+"
+redirectCount
+"
+]
     
 #
 Assert
@@ -908,56 +910,45 @@ optional
 )
     
 if
-expected_request
-is
-not
-None
+"
+request
+"
+in
+expected_event
 :
         
 assert_request_data
 (
+            
 event
 [
 "
 request
 "
 ]
-expected_request
-expected_time_range
+            
+expected_event
+[
+"
+request
+"
+]
+            
+expected_event
+.
+get
+(
+"
+timestamp
+"
+)
+        
 )
 def
 assert_before_request_sent_event
 (
-    
 event
-    
-context
-=
-None
-    
-intercepts
-=
-None
-    
-is_blocked
-=
-None
-    
-navigation
-=
-None
-    
-redirect_count
-=
-None
-    
-expected_request
-=
-None
-    
-expected_time_range
-=
-None
+expected_event
 )
 :
     
@@ -995,72 +986,14 @@ assert_base_parameters
         
 event
         
-context
-=
-context
-        
-intercepts
-=
-intercepts
-        
-is_blocked
-=
-is_blocked
-        
-navigation
-=
-navigation
-        
-redirect_count
-=
-redirect_count
-        
-expected_request
-=
-expected_request
-        
-expected_time_range
-=
-expected_time_range
+expected_event
     
 )
 def
 assert_fetch_error_event
 (
-    
 event
-    
-context
-=
-None
-    
-errorText
-=
-None
-    
-intercepts
-=
-None
-    
-is_blocked
-=
-None
-    
-navigation
-=
-None
-    
-redirect_count
-=
-None
-    
-expected_request
-=
-None
-    
-expected_time_range
-=
-None
+expected_event
 )
 :
     
@@ -1081,10 +1014,11 @@ str
 )
     
 if
+"
 errorText
-is
-not
-None
+"
+in
+expected_event
 :
         
 assert
@@ -1096,7 +1030,12 @@ errorText
 ]
 =
 =
+expected_event
+[
+"
 errorText
+"
+]
     
 #
 Assert
@@ -1108,33 +1047,7 @@ assert_base_parameters
         
 event
         
-context
-=
-context
-        
-intercepts
-=
-intercepts
-        
-is_blocked
-=
-is_blocked
-        
-navigation
-=
-navigation
-        
-redirect_count
-=
-redirect_count
-        
-expected_request
-=
-expected_request
-        
-expected_time_range
-=
-expected_time_range
+expected_event
     
 )
 def
@@ -1352,40 +1265,8 @@ response_data
 def
 assert_response_event
 (
-    
 event
-    
-context
-=
-None
-    
-intercepts
-=
-None
-    
-is_blocked
-=
-None
-    
-navigation
-=
-None
-    
-redirect_count
-=
-None
-    
-expected_request
-=
-None
-    
-expected_response
-=
-None
-    
-expected_time_range
-=
-None
+expected_event
 )
 :
     
@@ -1405,10 +1286,11 @@ response
 )
     
 if
-expected_response
-is
-not
-None
+"
+response
+"
+in
+expected_event
 :
         
 assert_response_data
@@ -1419,7 +1301,12 @@ event
 response
 "
 ]
-expected_response
+expected_event
+[
+"
+response
+"
+]
 )
     
 #
@@ -1432,33 +1319,7 @@ assert_base_parameters
         
 event
         
-context
-=
-context
-        
-intercepts
-=
-intercepts
-        
-is_blocked
-=
-is_blocked
-        
-navigation
-=
-navigation
-        
-redirect_count
-=
-redirect_count
-        
-expected_request
-=
-expected_request
-        
-expected_time_range
-=
-expected_time_range
+expected_event
     
 )
 #
