@@ -836,7 +836,7 @@ restore
 Tests
 that
 IPProtectionService
-unavailable
+unauthenticated
 state
 event
 updates
@@ -941,7 +941,7 @@ state
 =
 IPProtectionStates
 .
-UNAVAILABLE
+UNAUTHENTICATED
 )
 ;
 IPProtectionService

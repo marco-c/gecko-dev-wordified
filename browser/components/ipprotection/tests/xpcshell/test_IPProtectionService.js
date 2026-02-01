@@ -416,7 +416,7 @@ state
 =
 IPProtectionStates
 .
-UNAVAILABLE
+UNAUTHENTICATED
 )
 ;
 IPProtectionService
