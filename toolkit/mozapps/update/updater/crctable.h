@@ -65,6 +65,12 @@ FAQ
 .
 *
 /
+#
+ifndef
+TOOLKIT_MOZAPPS_UPDATE_UPDATER_CRCTABLE_H_
+#
+define
+TOOLKIT_MOZAPPS_UPDATE_UPDATER_CRCTABLE_H_
 unsigned
 int
 BZ2_crc32Table
@@ -486,3 +492,8 @@ h
 -
 *
 /
+#
+endif
+/
+/
+TOOLKIT_MOZAPPS_UPDATE_UPDATER_CRCTABLE_H_

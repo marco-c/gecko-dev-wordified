@@ -94,6 +94,12 @@ MPL
 *
 /
 #
+ifndef
+TOOLKIT_XRE_NSSIGHANDLERS_H_
+#
+define
+TOOLKIT_XRE_NSSIGHANDLERS_H_
+#
 if
 defined
 (
@@ -291,3 +297,8 @@ FPU_EXCEPTION_MASK
 )
 #
 endif
+#
+endif
+/
+/
+TOOLKIT_XRE_NSSIGHANDLERS_H_

@@ -94,6 +94,12 @@ MPL
 *
 /
 #
+ifndef
+TOOLKIT_XRE_PROFILERESET_H_
+#
+define
+TOOLKIT_XRE_PROFILERESET_H_
+#
 include
 "
 nsToolkitProfileService
@@ -581,3 +587,8 @@ mLeafName
 ;
 }
 ;
+#
+endif
+/
+/
+TOOLKIT_XRE_PROFILERESET_H_

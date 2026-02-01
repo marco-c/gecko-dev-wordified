@@ -57,6 +57,12 @@ MPL
 *
 /
 #
+ifndef
+TOOLKIT_COMPONENTS_MEDIASNIFFER_MP3SNIFF_H_
+#
+define
+TOOLKIT_COMPONENTS_MEDIASNIFFER_MP3SNIFF_H_
+#
 include
 <
 stdint
@@ -90,3 +96,8 @@ __cplusplus
 }
 #
 endif
+#
+endif
+/
+/
+TOOLKIT_COMPONENTS_MEDIASNIFFER_MP3SNIFF_H_

@@ -94,6 +94,12 @@ MPL
 *
 /
 #
+ifndef
+TOOLKIT_XRE_NSX11ERRORHANDLER_H_
+#
+define
+TOOLKIT_XRE_NSX11ERRORHANDLER_H_
+#
 ifdef
 MOZ_X11
 #
@@ -192,3 +198,8 @@ event
 ;
 #
 endif
+#
+endif
+/
+/
+TOOLKIT_XRE_NSX11ERRORHANDLER_H_

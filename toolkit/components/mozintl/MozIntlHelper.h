@@ -94,6 +94,12 @@ MPL
 *
 /
 #
+ifndef
+TOOLKIT_COMPONENTS_MOZINTL_MOZINTLHELPER_H_
+#
+define
+TOOLKIT_COMPONENTS_MOZINTL_MOZINTLHELPER_H_
+#
 include
 "
 mozIMozIntlHelper
@@ -132,3 +138,8 @@ MozIntlHelper
 /
 namespace
 mozilla
+#
+endif
+/
+/
+TOOLKIT_COMPONENTS_MOZINTL_MOZINTLHELPER_H_

@@ -115,6 +115,12 @@ MPL
 *
 /
 #
+ifndef
+TOOLKIT_COMPONENTS_BITSDOWNLOAD_BITS_H_
+#
+define
+TOOLKIT_COMPONENTS_BITSDOWNLOAD_BITS_H_
+#
 include
 "
 nsIBits
@@ -129,3 +135,8 @@ GetBitsService
 (
 )
 ;
+#
+endif
+/
+/
+TOOLKIT_COMPONENTS_BITSDOWNLOAD_BITS_H_

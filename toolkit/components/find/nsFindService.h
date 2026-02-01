@@ -117,6 +117,12 @@ settings
 *
 /
 #
+ifndef
+TOOLKIT_COMPONENTS_FIND_NSFINDSERVICE_H_
+#
+define
+TOOLKIT_COMPONENTS_FIND_NSFINDSERVICE_H_
+#
 include
 "
 nsString
@@ -221,3 +227,8 @@ mMatchDiacritics
 ;
 }
 ;
+#
+endif
+/
+/
+TOOLKIT_COMPONENTS_FIND_NSFINDSERVICE_H_
