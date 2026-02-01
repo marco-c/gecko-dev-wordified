@@ -187,6 +187,17 @@ h
 #
 include
 "
+api
+/
+units
+/
+timestamp
+.
+h
+"
+#
+include
+"
 call
 /
 rtp_packet_sink_interface
@@ -484,6 +495,8 @@ OnDtlsPacket
 (
 CopyOnWriteBuffer
 packet
+Timestamp
+receive_time
 )
 ;
 #
