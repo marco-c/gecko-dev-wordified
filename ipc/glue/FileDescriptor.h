@@ -508,14 +508,6 @@ const
 ;
 private
 :
-static
-UniqueFileHandle
-Clone
-(
-PlatformHandleType
-aHandle
-)
-;
 UniquePlatformHandle
 mHandle
 ;
