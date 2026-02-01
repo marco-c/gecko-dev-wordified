@@ -8992,7 +8992,7 @@ mMozBoxCollapse
 mozilla
 :
 :
-StyleMozBoxCollapse
+StyleBoxCollapse
 :
 :
 Legacy
@@ -9199,7 +9199,7 @@ mTextOrientation
 mozilla
 :
 :
-StyleMozBoxCollapse
+StyleBoxCollapse
 mMozBoxCollapse
 ;
 mozilla
