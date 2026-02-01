@@ -8604,6 +8604,8 @@ comparator_args
 alert_summary_id
         
 push_to_vcs
+        
+metrics
     
 )
 :
@@ -9205,6 +9207,8 @@ base_commit_message
 }
 "
                         
+metrics
+                        
 try_task_config
 =
 generate_try_task_config
@@ -9282,6 +9286,8 @@ f
 base_commit_message
 }
 "
+                            
+metrics
                             
 try_task_config
 =
@@ -9399,6 +9405,8 @@ new_commit_message
 }
 "
                     
+metrics
+                    
 #
 XXX
 Figure
@@ -9487,6 +9495,8 @@ f
 new_commit_message
 }
 "
+                        
+metrics
                         
 #
 XXX
@@ -10482,6 +10492,15 @@ comparator_args
 alert_summary_id
             
 push_to_vcs
+            
+kwargs
+.
+get
+(
+"
+metrics
+"
+)
         
 )
     
