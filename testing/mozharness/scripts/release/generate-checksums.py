@@ -460,7 +460,7 @@ virtualenv_modules
 [
                     
 "
-boto
+boto3
 "
                 
 ]
@@ -968,10 +968,20 @@ activate_virtualenv
 (
 )
         
-from
-boto
 import
-connect_s3
+boto3
+        
+from
+botocore
+import
+UNSIGNED
+        
+from
+botocore
+.
+client
+import
+Config
         
 self
 .
@@ -986,20 +996,38 @@ S3
         
 conn
 =
-connect_s3
+boto3
+.
+resource
 (
-anon
+            
+"
+s3
+"
+            
+config
 =
-True
-host
+Config
+(
+signature_version
+=
+UNSIGNED
+)
+            
+endpoint_url
 =
 "
+https
+:
+/
+/
 storage
 .
 googleapis
 .
 com
 "
+        
 )
         
 self
@@ -1033,7 +1061,7 @@ bucket
 =
 conn
 .
-get_bucket
+Bucket
 (
 self
 .
@@ -1158,16 +1186,11 @@ item
 "
 )
             
-sums
+response
 =
-bucket
-.
-get_key
-(
 item
-)
 .
-get_contents_as_string
+get
 (
 )
             
@@ -1175,7 +1198,16 @@ raw_checksums
 .
 append
 (
-sums
+response
+[
+"
+Body
+"
+]
+.
+read
+(
+)
 )
         
 def
@@ -1219,9 +1251,11 @@ key
 in
 bucket
 .
-list
+objects
+.
+filter
 (
-prefix
+Prefix
 =
 self
 .
@@ -1271,8 +1305,6 @@ checksums
 append
 (
 key
-.
-key
 )
                 
 elif
@@ -1316,8 +1348,6 @@ beets
 .
 append
 (
-key
-.
 key
 )
                 
