@@ -227,6 +227,11 @@ disableFxaBadge
 (
 )
 ;
+await
+ensureSearchIconVisible
+(
+)
+;
 /
 /
 The

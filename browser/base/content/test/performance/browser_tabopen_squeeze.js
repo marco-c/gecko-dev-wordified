@@ -156,6 +156,11 @@ disableFxaBadge
 (
 )
 ;
+await
+ensureSearchIconVisible
+(
+)
+;
 /
 /
 The
