@@ -1082,6 +1082,16 @@ endif
 #
 ifdef
 MOZ_WIDGET_ANDROID
+#
+ifdef
+USING_MOZFFVPX
+MediaResult
+AllocateExtraData
+(
+)
+;
+#
+endif
 MediaResult
 InitMediaCodecDecoder
 (
