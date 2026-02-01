@@ -420,6 +420,10 @@ ipcclientcerts
 ;
 extern
 crate
+pdf_trust_anchors
+;
+extern
+crate
 qwac_trust_anchors
 ;
 extern
