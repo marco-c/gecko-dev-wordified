@@ -803,7 +803,7 @@ return
 mElement
 -
 >
-GetAnimatedTransformList
+GetExistingAnimatedTransformList
 (
 )
 ;
@@ -824,7 +824,7 @@ return
 mElement
 -
 >
-GetAnimatedTransformList
+GetExistingAnimatedTransformList
 (
 )
 ;
