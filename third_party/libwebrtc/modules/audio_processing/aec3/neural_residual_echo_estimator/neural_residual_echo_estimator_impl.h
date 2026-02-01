@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-MODULES_AUDIO_PROCESSING_AEC3_NEURAL_RESIDUAL_ECHO_ESTIMATOR_IMPL_H_
+MODULES_AUDIO_PROCESSING_AEC3_NEURAL_RESIDUAL_ECHO_ESTIMATOR_NEURAL_RESIDUAL_ECHO_ESTIMATOR_IMPL_H_
 #
 define
-MODULES_AUDIO_PROCESSING_AEC3_NEURAL_RESIDUAL_ECHO_ESTIMATOR_IMPL_H_
+MODULES_AUDIO_PROCESSING_AEC3_NEURAL_RESIDUAL_ECHO_ESTIMATOR_NEURAL_RESIDUAL_ECHO_ESTIMATOR_IMPL_H_
 #
 include
 <
@@ -181,6 +181,8 @@ audio_processing
 /
 aec3
 /
+neural_residual_echo_estimator
+/
 neural_feature_extractor
 .
 h
@@ -234,6 +236,8 @@ audio_processing
 aec3
 /
 neural_residual_echo_estimator
+/
+neural_residual_echo_estimator
 .
 pb
 .
@@ -249,6 +253,8 @@ modules
 audio_processing
 /
 aec3
+/
+neural_residual_echo_estimator
 /
 neural_residual_echo_estimator
 .
@@ -813,4 +819,4 @@ webrtc
 endif
 /
 /
-MODULES_AUDIO_PROCESSING_AEC3_NEURAL_RESIDUAL_ECHO_ESTIMATOR_IMPL_H_
+MODULES_AUDIO_PROCESSING_AEC3_NEURAL_RESIDUAL_ECHO_ESTIMATOR_NEURAL_RESIDUAL_ECHO_ESTIMATOR_IMPL_H_

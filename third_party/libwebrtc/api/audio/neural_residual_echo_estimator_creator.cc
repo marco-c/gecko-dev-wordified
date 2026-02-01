@@ -103,11 +103,6 @@ memory
 >
 #
 include
-<
-utility
->
-#
-include
 "
 absl
 /
@@ -147,6 +142,8 @@ modules
 audio_processing
 /
 aec3
+/
+neural_residual_echo_estimator
 /
 neural_residual_echo_estimator_impl
 .
