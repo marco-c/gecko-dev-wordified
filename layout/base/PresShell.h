@@ -565,9 +565,6 @@ class
 ProfileChunkedBuffer
 ;
 class
-ScopedNameRef
-;
-class
 ScrollContainerFrame
 ;
 class
@@ -4351,8 +4348,8 @@ nsIFrame
 GetAnchorPosAnchor
 (
 const
-ScopedNameRef
-&
+nsAtom
+*
 aName
 const
 nsIFrame
