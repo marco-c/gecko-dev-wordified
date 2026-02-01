@@ -345,6 +345,8 @@ assert_locale_against_value
 some_locale
     
 domain
+    
+iframe
 )
 :
     
@@ -395,9 +397,11 @@ some_locale
 new_tab
 )
     
-iframe_url
+page_url
 =
 inline
+(
+iframe
 (
 "
 <
@@ -420,28 +424,6 @@ domain
 =
 domain
 )
-    
-page_url
-=
-inline
-(
-f
-"
-<
-iframe
-src
-=
-'
-{
-iframe_url
-}
-'
->
-<
-/
-iframe
->
-"
 )
     
 #

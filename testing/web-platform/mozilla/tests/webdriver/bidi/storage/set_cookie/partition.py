@@ -532,13 +532,12 @@ inline
 domain_value
 domain
 set_cookie
+iframe
 )
 :
     
-iframe_url
+iframe_html
 =
-inline
-(
 "
 <
 div
@@ -556,6 +555,12 @@ foo
 div
 >
 "
+    
+iframe_url
+=
+inline
+(
+iframe_html
 domain
 =
 domain
@@ -572,23 +577,13 @@ page_url
 =
 inline
 (
-f
-"
-<
 iframe
-src
+(
+iframe_html
+domain
 =
-'
-{
-iframe_url
-}
-'
->
-<
-/
-iframe
->
-"
+domain
+)
 )
     
 source_origin_for_page

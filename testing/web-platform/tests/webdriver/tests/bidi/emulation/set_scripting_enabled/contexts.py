@@ -325,6 +325,8 @@ is_scripting_enabled
 domain
         
 inline
+        
+iframe
 )
 :
     
@@ -376,9 +378,11 @@ new_tab
 is
 False
     
-iframe_url
+page_url
 =
 inline
+(
+iframe
 (
 "
 <
@@ -401,28 +405,6 @@ domain
 =
 domain
 )
-    
-page_url
-=
-inline
-(
-f
-"
-<
-iframe
-src
-=
-'
-{
-iframe_url
-}
-'
->
-<
-/
-iframe
->
-"
 )
     
 #

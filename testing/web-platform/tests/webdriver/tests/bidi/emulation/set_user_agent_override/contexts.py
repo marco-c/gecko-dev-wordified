@@ -339,6 +339,7 @@ default_user_agent
 assert_user_agent
 domain
 inline
+iframe
 )
 :
     
@@ -395,9 +396,11 @@ new_tab
 SOME_USER_AGENT
 )
     
-iframe_url
+page_url
 =
 inline
+(
+iframe
 (
 "
 <
@@ -420,28 +423,6 @@ domain
 =
 domain
 )
-    
-page_url
-=
-inline
-(
-f
-"
-<
-iframe
-src
-=
-'
-{
-iframe_url
-}
-'
->
-<
-/
-iframe
->
-"
 )
     
 #

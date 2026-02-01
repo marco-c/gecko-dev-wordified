@@ -817,11 +817,6 @@ page_url
 =
 inline
 (
-f
-"
-"
-"
-{
 iframe
 (
 "
@@ -845,10 +840,6 @@ domain
 =
 domain
 )
-}
-"
-"
-"
 )
     
 #

@@ -495,12 +495,16 @@ domain
 inline
     
 new_tab
+    
+iframe
 )
 :
     
-iframe_url
+page_url
 =
 inline
+(
+iframe
 (
 "
 <
@@ -523,28 +527,6 @@ domain
 =
 domain
 )
-    
-page_url
-=
-inline
-(
-f
-"
-<
-iframe
-src
-=
-'
-{
-iframe_url
-}
-'
->
-<
-/
-iframe
->
-"
 )
     
 await

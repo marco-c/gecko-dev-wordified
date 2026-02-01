@@ -745,6 +745,7 @@ subscribe_events
 top_context
 inline
 domain
+iframe
 )
 :
     
@@ -790,10 +791,8 @@ REALM_CREATED_EVENT
 on_event
 )
     
-frame_url
+frame_html
 =
-inline
-(
 "
 <
 div
@@ -804,29 +803,15 @@ foo
 div
 >
 "
-)
     
 url
 =
 inline
 (
-f
-"
-<
 iframe
-src
-=
-'
-{
-frame_url
-}
-'
->
-<
-/
-iframe
->
-"
+(
+frame_html
+)
 domain
 =
 domain

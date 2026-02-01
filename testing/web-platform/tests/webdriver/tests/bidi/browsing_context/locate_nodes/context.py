@@ -450,13 +450,12 @@ bidi_session
 inline
 top_context
 domain
+iframe
 )
 :
     
-iframe_url_1
+iframe_html_1
 =
-inline
-(
 "
 <
 div
@@ -474,32 +473,18 @@ foo
 div
 >
 "
-domain
-=
-domain
-)
     
 page_url
 =
 inline
 (
-f
-"
-<
 iframe
-src
+(
+iframe_html_1
+domain
 =
-'
-{
-iframe_url_1
-}
-'
->
-<
-/
-iframe
->
-"
+domain
+)
 )
     
 await

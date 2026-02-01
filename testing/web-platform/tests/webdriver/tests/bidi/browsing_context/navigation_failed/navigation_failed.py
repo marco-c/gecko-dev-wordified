@@ -61,6 +61,7 @@ test_unsubscribe
 bidi_session
 inline
 new_tab
+iframe
 )
 :
     
@@ -137,9 +138,12 @@ NAVIGATION_FAILED_EVENT
 on_event
 )
     
-iframe_url
+page_url
 =
 inline
+(
+        
+iframe
 (
 "
 <
@@ -157,31 +161,6 @@ domain
 alt
 "
 )
-    
-page_url
-=
-inline
-(
-        
-f
-"
-"
-"
-<
-iframe
-src
-=
-{
-iframe_url
-}
->
-<
-/
-iframe
->
-"
-"
-"
         
 parameters
 =
@@ -278,13 +257,13 @@ new_tab
 wait_for_event
     
 wait_for_future_safe
+    
+iframe
 )
 :
     
-iframe_url
+iframe_html
 =
-inline
-(
 "
 <
 div
@@ -295,6 +274,12 @@ foo
 div
 >
 "
+    
+iframe_url
+=
+inline
+(
+iframe_html
 domain
 =
 "
@@ -360,20 +345,17 @@ head
 <
 body
 >
-<
+{
 iframe
-src
+(
+iframe_html
+domain
 =
 "
-{
-iframe_url
-}
+alt
 "
->
-<
-/
-iframe
->
+)
+}
 <
 /
 body
@@ -658,13 +640,13 @@ wait_for_event
 wait_for_future_safe
     
 header
+    
+iframe
 )
 :
     
-iframe_url
+iframe_html
 =
-inline
-(
 "
 <
 div
@@ -675,6 +657,12 @@ foo
 div
 >
 "
+    
+iframe_url
+=
+inline
+(
+iframe_html
 domain
 =
 "
@@ -687,25 +675,15 @@ page_url
 inline
 (
         
-f
-"
-"
-"
-<
 iframe
-src
+(
+iframe_html
+domain
 =
-{
-iframe_url
-}
->
-<
-/
-iframe
->
 "
+alt
 "
-"
+)
         
 parameters
 =
@@ -978,14 +956,13 @@ wait_for_event
 wait_for_future_safe
     
 header_value
+    
+iframe
 )
 :
     
-iframe_url
+iframe_html
 =
-inline
-(
-        
 "
 <
 div
@@ -996,6 +973,13 @@ foo
 div
 >
 "
+    
+iframe_url
+=
+inline
+(
+        
+iframe_html
         
 parameters
 =
@@ -1026,30 +1010,41 @@ page_url
 =
 inline
 (
-f
-"
-"
-"
-<
+        
 iframe
-src
+(
+iframe_html
+        
+parameters
 =
 {
-iframe_url
+"
+pipe
+"
+:
+f
+"
+header
+(
+X
+-
+Frame
+-
+Options
+{
+header_value
 }
->
-<
-/
-iframe
->
+)
 "
-"
-"
+}
+)
+        
 domain
 =
 "
 alt
 "
+    
 )
     
 await
@@ -2208,12 +2203,16 @@ new_tab
 wait_for_event
     
 wait_for_future_safe
+    
+iframe
 )
 :
     
-iframe_url
+page_url
 =
 inline
+(
+iframe
 (
 "
 <
@@ -2226,25 +2225,6 @@ div
 >
 "
 )
-    
-page_url
-=
-inline
-(
-f
-"
-<
-iframe
-src
-=
-{
-iframe_url
-}
->
-<
-/
-iframe
-"
 )
     
 #
