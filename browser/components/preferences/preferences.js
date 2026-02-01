@@ -2000,6 +2000,9 @@ groupIds
 "
 aiFeatures
 "
+"
+aiWindowFeatures
+"
 ]
 module
 :
