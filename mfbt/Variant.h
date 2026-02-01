@@ -126,6 +126,12 @@ unions
 *
 /
 #
+ifndef
+mozilla_Variant_h
+#
+define
+mozilla_Variant_h
+#
 include
 <
 algorithm
@@ -179,12 +185,6 @@ include
 <
 utility
 >
-#
-ifndef
-mozilla_Variant_h
-#
-define
-mozilla_Variant_h
 namespace
 IPC
 {
