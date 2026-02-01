@@ -7824,10 +7824,10 @@ content
 aOffsets
 .
 offset
-RangeBoundaryIsMutationObserved
+RangeBoundarySetBy
 :
 :
-No
+Offset
 )
 )
 ;

@@ -3370,10 +3370,10 @@ ConstRawRangeBoundary
 (
 this
 aEndOffset
-RangeBoundaryIsMutationObserved
+RangeBoundarySetBy
 :
 :
-No
+Offset
 )
 middlePlus1
 -
@@ -3443,10 +3443,10 @@ ConstRawRangeBoundary
 (
 this
 aStartOffset
-RangeBoundaryIsMutationObserved
+RangeBoundarySetBy
 :
 :
-No
+Offset
 )
 middleMinus1
 -
