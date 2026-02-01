@@ -579,15 +579,6 @@ Assert
 .
 ok
 (
-result
-.
-hideRowLabel
-)
-;
-Assert
-.
-ok
-(
 element
 .
 row

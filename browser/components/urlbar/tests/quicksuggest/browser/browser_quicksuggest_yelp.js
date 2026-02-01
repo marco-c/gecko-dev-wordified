@@ -2487,10 +2487,7 @@ topPick
 true
 label
 :
-"
-Local
-recommendations
-"
+null
 }
 {
 topPick
