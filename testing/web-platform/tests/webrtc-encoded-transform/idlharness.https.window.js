@@ -12,6 +12,10 @@ SFrameDecrypterStream
 |
 SFrameEncrypterStream
 |
+SFrameSenderTransform
+|
+SFrameReceiverTransform
+|
 SFrameTransform
 .
 *
@@ -29,6 +33,10 @@ include
 SFrameDecrypterStream
 |
 SFrameEncrypterStream
+|
+SFrameSenderTransform
+|
+SFrameReceiverTransform
 |
 SFrameTransform
 .
