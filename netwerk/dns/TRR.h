@@ -423,8 +423,6 @@ virtual
 TRR
 (
 )
-=
-default
 ;
 virtual
 DNSPacket
