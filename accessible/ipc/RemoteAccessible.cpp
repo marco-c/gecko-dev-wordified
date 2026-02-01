@@ -2398,6 +2398,11 @@ subtree
 .
 if
 (
+IsTextField
+(
+)
+|
+|
 (
 roleMapEntry
 &
