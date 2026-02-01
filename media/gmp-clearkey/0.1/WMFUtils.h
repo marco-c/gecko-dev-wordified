@@ -797,7 +797,7 @@ include
 "
 WMFSymbols
 .
-h
+inc
 "
 #
 undef
