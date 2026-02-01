@@ -6677,9 +6677,11 @@ rememberedCertChainBytes
 (
 void
 )
-NS_DispatchToCurrentThread
-(
 continuation
+-
+>
+Run
+(
 )
 ;
 return
@@ -6881,9 +6883,11 @@ certificate
 (
 void
 )
-NS_DispatchToCurrentThread
-(
 continuation
+-
+>
+Run
+(
 )
 ;
 return
