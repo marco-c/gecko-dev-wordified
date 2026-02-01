@@ -157,13 +157,6 @@ h
 #
 include
 "
-jsdate
-.
-h
-"
-#
-include
-"
 jsnum
 .
 h
@@ -186,6 +179,15 @@ h
 include
 "
 NamespaceImports
+.
+h
+"
+#
+include
+"
+builtin
+/
+Date
 .
 h
 "
@@ -1433,7 +1435,7 @@ isoDate
 object
 -
 >
-setFixedSlot
+initFixedSlot
 (
 PlainDateObject
 :
@@ -1455,7 +1457,7 @@ Step
 object
 -
 >
-setFixedSlot
+initFixedSlot
 (
 PlainDateObject
 :
@@ -1597,7 +1599,7 @@ isoDate
 object
 -
 >
-setFixedSlot
+initFixedSlot
 (
 PlainDateObject
 :
@@ -1619,7 +1621,7 @@ Step
 object
 -
 >
-setFixedSlot
+initFixedSlot
 (
 PlainDateObject
 :

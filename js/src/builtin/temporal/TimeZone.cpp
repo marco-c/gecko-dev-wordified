@@ -198,13 +198,6 @@ utility
 #
 include
 "
-jsdate
-.
-h
-"
-#
-include
-"
 jstypes
 .
 h
@@ -213,6 +206,15 @@ h
 include
 "
 NamespaceImports
+.
+h
+"
+#
+include
+"
+builtin
+/
+Date
 .
 h
 "
@@ -854,7 +856,7 @@ nullptr
 object
 -
 >
-setFixedSlot
+initFixedSlot
 (
 TimeZoneObject
 :
@@ -869,7 +871,7 @@ identifier
 object
 -
 >
-setFixedSlot
+initFixedSlot
 (
 TimeZoneObject
 :
@@ -884,7 +886,7 @@ primaryIdentifier
 object
 -
 >
-setFixedSlot
+initFixedSlot
 (
 TimeZoneObject
 :
@@ -1055,7 +1057,7 @@ nullptr
 object
 -
 >
-setFixedSlot
+initFixedSlot
 (
 TimeZoneObject
 :
@@ -1070,7 +1072,7 @@ identifier
 object
 -
 >
-setFixedSlot
+initFixedSlot
 (
 TimeZoneObject
 :
@@ -1084,7 +1086,7 @@ UndefinedValue
 object
 -
 >
-setFixedSlot
+initFixedSlot
 (
 TimeZoneObject
 :
