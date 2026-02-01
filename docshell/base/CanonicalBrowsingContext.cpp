@@ -11806,13 +11806,13 @@ aIncrease
 ?
 u
 "
-DoZoomEnlargeBy10
+DoZoomEnlarge
 "
 _ns
 :
 u
 "
-DoZoomReduceBy10
+DoZoomReduce
 "
 _ns
 ;
