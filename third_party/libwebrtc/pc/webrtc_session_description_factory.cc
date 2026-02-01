@@ -192,15 +192,6 @@ include
 "
 api
 /
-jsep_session_description
-.
-h
-"
-#
-include
-"
-api
-/
 peer_connection_interface
 .
 h
