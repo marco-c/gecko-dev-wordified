@@ -848,12 +848,14 @@ allocation
 size
 .
 size_t
-unused
+subpage_max
 ;
 /
 /
-Unused
-field
+Max
+subpage
+allocation
+size
 .
 size_t
 large_max
