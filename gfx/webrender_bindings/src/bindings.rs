@@ -11435,9 +11435,6 @@ use_native_compositor
 }
 else
 if
-use_native_compositor
-{
-if
 use_layer_compositor
 {
 CompositorConfig
@@ -11463,6 +11460,8 @@ compositor
 }
 }
 else
+if
+use_native_compositor
 {
 CompositorConfig
 :
@@ -11481,7 +11480,6 @@ WrCompositor
 compositor
 )
 )
-}
 }
 }
 else
@@ -23249,6 +23247,9 @@ f32
 border_radius
 :
 BorderRadius
+shadow_radius
+:
+BorderRadius
 clip_mode
 :
 BoxShadowClipMode
@@ -23325,6 +23326,7 @@ color
 blur_radius
 spread_radius
 border_radius
+shadow_radius
 clip_mode
 )
 ;
