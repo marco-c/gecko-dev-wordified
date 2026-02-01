@@ -153,7 +153,7 @@ g
 5047568
 size
 :
-string
+number
 ;
 /
 /
