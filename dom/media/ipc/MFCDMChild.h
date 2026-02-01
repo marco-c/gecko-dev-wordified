@@ -500,6 +500,7 @@ nsISerialEventTarget
 ManagerThread
 (
 )
+const
 {
 return
 mManagerThread
@@ -539,7 +540,7 @@ nsString
 mKeySystem
 ;
 const
-RefPtr
+nsCOMPtr
 <
 nsISerialEventTarget
 >

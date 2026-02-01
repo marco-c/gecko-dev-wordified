@@ -450,8 +450,10 @@ any
 thread
 .
 static
+nsCOMPtr
+<
 nsISerialEventTarget
-*
+>
 GetManagerThread
 (
 )

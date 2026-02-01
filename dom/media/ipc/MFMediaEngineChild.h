@@ -341,6 +341,7 @@ nsISerialEventTarget
 ManagerThread
 (
 )
+const
 {
 return
 mManagerThread
