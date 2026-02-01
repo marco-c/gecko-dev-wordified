@@ -189,7 +189,7 @@ sendKeyFrameRequest
 )
 rejectInMs
 (
-8000
+16000
 )
 ]
 )
@@ -356,7 +356,7 @@ r
 )
 rejectInMs
 (
-8000
+16000
 )
 ]
 )
