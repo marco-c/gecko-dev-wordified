@@ -261,6 +261,11 @@ Space
 "
 space
 "
+Table
+:
+"
+table
+"
 Text
 :
 "
