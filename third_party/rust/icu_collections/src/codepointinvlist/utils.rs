@@ -127,7 +127,7 @@ inclusive
 .
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -140,7 +140,7 @@ indexing_slicing
 windows
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -463,6 +463,8 @@ u32
 >
 ZeroVec
 <
+'
+_
 PotentialCodePoint
 >
 {

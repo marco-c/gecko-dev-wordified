@@ -345,6 +345,8 @@ Lifetime
 >
 Cow
 <
+'
+_
 str
 >
 {

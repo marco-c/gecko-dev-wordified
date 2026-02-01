@@ -411,10 +411,10 @@ format
 (
 "
 {
+name
 }
 _destroy
 "
-name
 )
 ;
 let

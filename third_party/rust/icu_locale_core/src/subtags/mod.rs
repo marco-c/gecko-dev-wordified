@@ -827,7 +827,7 @@ toolooong
 ;
 #
 [
-allow
+expect
 (
 clippy
 :

@@ -217,7 +217,7 @@ set
 ;
 #
 [
-allow
+expect
 (
 clippy
 :

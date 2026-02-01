@@ -3949,6 +3949,8 @@ str
 >
 Cow
 <
+'
+_
 str
 >
 {
@@ -4289,6 +4291,8 @@ str
 >
 Cow
 <
+'
+_
 str
 >
 {
@@ -6151,7 +6155,7 @@ compiled_data
 ]
 #
 [
-allow
+expect
 (
 clippy
 :

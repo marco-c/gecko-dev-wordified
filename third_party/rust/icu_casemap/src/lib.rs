@@ -457,7 +457,7 @@ hidden
 testing
 #
 [
-allow
+expect
 (
 clippy
 :

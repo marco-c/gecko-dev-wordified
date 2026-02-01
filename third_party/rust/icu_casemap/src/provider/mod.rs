@@ -1156,7 +1156,7 @@ trie_index
 ;
 #
 [
-allow
+expect
 (
 clippy
 :

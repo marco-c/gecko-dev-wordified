@@ -163,6 +163,7 @@ ast
 :
 {
 Docs
+DocsTypeReferenceSyntax
 DocsUrlGenerator
 }
 ;

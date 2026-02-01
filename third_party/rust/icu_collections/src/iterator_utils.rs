@@ -291,7 +291,7 @@ pulling
 ranges
 #
 [
-allow
+expect
 (
 clippy
 :

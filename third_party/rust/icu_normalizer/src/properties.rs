@@ -1187,7 +1187,7 @@ compiled_data
 ]
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -2465,7 +2465,7 @@ goto
 forward
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -3739,7 +3739,7 @@ compiled_data
 ]
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -4996,7 +4996,7 @@ compiled_data
 ]
 #
 [
-allow
+expect
 (
 clippy
 :

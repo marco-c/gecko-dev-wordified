@@ -351,7 +351,7 @@ constructors
 )
 #
 [
-allow
+expect
 (
 clippy
 :

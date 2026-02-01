@@ -473,6 +473,13 @@ error
 quote
 !
 {
+#
+[
+allow
+(
+deprecated
+)
+]
 impl
 From
 <
@@ -507,6 +514,13 @@ from_arms
 }
 }
 }
+#
+[
+allow
+(
+deprecated
+)
+]
 impl
 From
 <

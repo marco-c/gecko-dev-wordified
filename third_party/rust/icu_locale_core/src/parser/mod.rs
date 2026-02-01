@@ -144,7 +144,7 @@ is
 0
 #
 [
-allow
+expect
 (
 clippy
 :

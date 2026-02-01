@@ -1586,14 +1586,10 @@ err_value
 assert
 !
 (
-matches
-!
-(
 err_loc
-Err
+.
+is_err
 (
-_
-)
 )
 )
 ;

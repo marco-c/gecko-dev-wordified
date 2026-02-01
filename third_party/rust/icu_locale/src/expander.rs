@@ -2146,6 +2146,10 @@ self
 -
 >
 LocaleExpanderBorrowed
+<
+'
+_
+>
 {
 LocaleExpanderBorrowed
 {

@@ -340,16 +340,6 @@ Ok
 )
 }
 }
-#
-[
-allow
-(
-clippy
-:
-:
-type_complexity
-)
-]
 pub
 fn
 writeable_to_parts_for_test
@@ -410,7 +400,7 @@ new
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -449,7 +439,7 @@ finish
 }
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -524,7 +514,7 @@ new
 ;
 #
 [
-allow
+expect
 (
 clippy
 :

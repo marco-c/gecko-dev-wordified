@@ -193,16 +193,6 @@ CodePointTrie
 .
 #
 [
-allow
-(
-clippy
-:
-:
-upper_case_acronyms
-)
-]
-#
-[
 derive
 (
 serde
@@ -589,6 +579,10 @@ self
 Result
 <
 CodePointDataSlice
+<
+'
+_
+>
 Error
 >
 {

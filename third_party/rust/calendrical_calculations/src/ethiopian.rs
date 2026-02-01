@@ -149,7 +149,7 @@ coptic
 :
 COPTIC_EPOCH
 .
-until
+since
 (
 crate
 :

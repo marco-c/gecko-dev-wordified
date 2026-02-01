@@ -373,7 +373,7 @@ WindowsParserBorrowed
 .
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -573,6 +573,10 @@ self
 -
 >
 WindowsParserBorrowed
+<
+'
+_
+>
 {
 WindowsParserBorrowed
 {

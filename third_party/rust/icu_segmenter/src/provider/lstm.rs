@@ -1474,7 +1474,7 @@ hidden
 databake
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -1625,7 +1625,7 @@ inconsistent
 .
 #
 [
-allow
+expect
 (
 clippy
 :

@@ -82,6 +82,9 @@ decomposing_normalizer_nfd
 mod
 decomposing_normalizer_nfkd
 ;
+mod
+utf16_throughput
+;
 criterion_group
 !
 (
@@ -107,6 +110,10 @@ decomposing_normalizer_nfd
 :
 criterion_benchmark
 decomposing_normalizer_nfkd
+:
+:
+criterion_benchmark
+utf16_throughput
 :
 :
 criterion_benchmark

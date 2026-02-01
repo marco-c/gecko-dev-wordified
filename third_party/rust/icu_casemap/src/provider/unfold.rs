@@ -618,7 +618,7 @@ datagen
 ]
 #
 [
-allow
+expect
 (
 clippy
 :

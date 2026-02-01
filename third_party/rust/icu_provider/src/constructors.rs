@@ -1258,15 +1258,6 @@ a
 [
 BufferProvider
 ]
-(
-icu_provider
-:
-:
-buf
-:
-:
-BufferProvider
-)
 .
 \
 n
@@ -1341,12 +1332,6 @@ a
 [
 DataProvider
 ]
-(
-icu_provider
-:
-:
-DataProvider
-)
 .
 \
 n
@@ -1568,7 +1553,7 @@ SomeError
 .
 #
 [
-allow
+expect
 (
 clippy
 :

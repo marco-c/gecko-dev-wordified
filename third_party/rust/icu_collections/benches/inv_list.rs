@@ -175,7 +175,7 @@ b
 {
 #
 [
-allow
+expect
 (
 clippy
 :

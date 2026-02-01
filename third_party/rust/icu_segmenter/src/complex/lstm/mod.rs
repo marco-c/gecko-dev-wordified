@@ -201,21 +201,6 @@ Self
 Item
 >
 {
-#
-[
-allow
-(
-clippy
-:
-:
-indexing_slicing
-)
-]
-/
-/
-pos_utf8
-in
-range
 loop
 {
 let
@@ -579,7 +564,7 @@ time_w
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -611,7 +596,7 @@ unwrap
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -1661,7 +1646,7 @@ i
 }
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -1882,7 +1867,7 @@ next
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -1968,7 +1953,7 @@ fw_b
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -2070,7 +2055,7 @@ timew_bw
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -2356,7 +2341,7 @@ u
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -2392,7 +2377,7 @@ sigmoid_transform
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -2428,7 +2413,7 @@ sigmoid_transform
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -2464,7 +2449,7 @@ tanh_transform
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -2500,7 +2485,7 @@ sigmoid_transform
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -2564,7 +2549,7 @@ unwrap
 ;
 #
 [
-allow
+expect
 (
 clippy
 :

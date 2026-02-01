@@ -772,7 +772,7 @@ mode
 }
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -1756,7 +1756,7 @@ keyword
 }
 #
 [
-allow
+expect
 (
 clippy
 :

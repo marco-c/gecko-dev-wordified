@@ -2940,7 +2940,7 @@ u8
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -2974,7 +2974,7 @@ unwrap
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
@@ -3054,7 +3054,7 @@ trie_type
 ;
 #
 [
-allow
+expect
 (
 clippy
 :

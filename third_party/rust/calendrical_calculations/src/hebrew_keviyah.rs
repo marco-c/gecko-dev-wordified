@@ -7595,7 +7595,7 @@ debug_assertions
 ]
 #
 [
-allow
+expect
 (
 clippy
 :

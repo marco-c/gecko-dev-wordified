@@ -780,6 +780,10 @@ the
 provided
 data
 .
+#
+[
+inline
+]
 pub
 fn
 new
@@ -819,6 +823,10 @@ from
 the
 trie
 data
+#
+[
+inline
+]
 pub
 fn
 iter
@@ -829,6 +837,10 @@ self
 -
 >
 Char16TrieIterator
+<
+'
+_
+>
 {
 Char16TrieIterator
 :
@@ -1464,6 +1476,10 @@ for
 the
 trie
 array
+#
+[
+inline
+]
 pub
 fn
 new

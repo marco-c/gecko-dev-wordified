@@ -844,7 +844,7 @@ untagged
 ]
 #
 [
-allow
+expect
 (
 clippy
 :

@@ -684,6 +684,18 @@ None
 }
 }
 }
+/
+/
+/
+*
+Enabled
+with
+the
+alloc
+Cargo
+feature
+.
+*
 #
 [
 cfg
@@ -849,7 +861,7 @@ ue_region
 {
 #
 [
-allow
+expect
 (
 clippy
 :

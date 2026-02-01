@@ -976,6 +976,10 @@ Result
 BTreeSet
 <
 DataIdentifierCow
+<
+'
+_
+>
 >
 DataError
 >
@@ -2084,6 +2088,10 @@ Result
 BTreeSet
 <
 DataIdentifierCow
+<
+'
+_
+>
 >
 DataError
 >
