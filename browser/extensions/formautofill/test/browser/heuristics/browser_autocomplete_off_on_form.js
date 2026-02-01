@@ -371,15 +371,6 @@ fieldName
 organization
 "
 }
-]
-}
-{
-invalid
-:
-true
-fields
-:
-[
 {
 fieldName
 :
