@@ -954,8 +954,6 @@ sandbox
 stub
 (
 ChatStore
-.
-prototype
 "
 findMessagesByDate
 "
@@ -1458,8 +1456,6 @@ sandbox
 stub
 (
 ChatStore
-.
-prototype
 "
 findMessagesByDate
 "

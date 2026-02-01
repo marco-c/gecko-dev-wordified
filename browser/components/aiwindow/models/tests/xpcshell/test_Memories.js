@@ -1737,8 +1737,6 @@ sb
 stub
 (
 ChatStore
-.
-prototype
 "
 findMessagesByDate
 "
