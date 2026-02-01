@@ -297,7 +297,10 @@ methods
 float
 GetLength
 (
-uint8_t
+SVGLength
+:
+:
+Axis
 aCtxType
 )
 const

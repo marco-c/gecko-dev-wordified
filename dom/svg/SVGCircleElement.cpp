@@ -252,7 +252,10 @@ SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER
-SVGContentUtils
+SVGLength
+:
+:
+Axis
 :
 :
 X
@@ -267,7 +270,10 @@ SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER
-SVGContentUtils
+SVGLength
+:
+:
+Axis
 :
 :
 Y
@@ -282,7 +288,10 @@ SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER
-SVGContentUtils
+SVGLength
+:
+:
+Axis
 :
 :
 XY

@@ -813,7 +813,10 @@ StyleSVGReset
 -
 >
 mX
-SVGContentUtils
+SVGLength
+:
+:
+Axis
 :
 :
 X
@@ -834,7 +837,10 @@ StyleSVGReset
 -
 >
 mY
-SVGContentUtils
+SVGLength
+:
+:
+Axis
 :
 :
 Y
