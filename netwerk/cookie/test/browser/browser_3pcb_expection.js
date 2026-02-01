@@ -454,7 +454,7 @@ string
 [
 ]
 }
-allowedSiteHosts
+expected
 -
 (
 Unordered
@@ -848,7 +848,7 @@ param
 {
 CanonicalBrowsingContext
 }
-ABAABC
+ABABC
 The
 ABA
 browsing
