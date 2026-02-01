@@ -156,7 +156,8 @@ with
 Files
 (
 "
-ARIAMixin
+ARIA
+*
 .
 webidl
 "
@@ -3057,6 +3058,11 @@ webidl
 "
 "
 ARIAMixin
+.
+webidl
+"
+"
+ARIANotifyMixin
 .
 webidl
 "
