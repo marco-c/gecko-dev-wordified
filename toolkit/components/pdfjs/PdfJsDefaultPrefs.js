@@ -492,6 +492,16 @@ pref
 "
 pdfjs
 .
+enableSplitMerge
+"
+false
+)
+;
+pref
+(
+"
+pdfjs
+.
 enableUpdatedAddImage
 "
 false
