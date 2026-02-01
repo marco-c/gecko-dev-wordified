@@ -83,14 +83,6 @@ in
 between
 each
 invocation
-/
-*
-eslint
--
-env
-node
-*
-/
 var
 node_http2_root
 =

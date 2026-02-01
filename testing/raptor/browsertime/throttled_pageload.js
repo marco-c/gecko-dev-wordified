@@ -56,14 +56,6 @@ MPL
 .
 *
 /
-/
-*
-eslint
--
-env
-node
-*
-/
 const
 fs
 =
