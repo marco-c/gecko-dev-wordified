@@ -197,7 +197,7 @@ simulated
 RtpPacketReceived
 from
 a
-LoggedRtpPacketIncoming
+LoggedRtpPacket
 .
 /
 /
@@ -251,7 +251,7 @@ RtpPacketReceived
 SimulateRtpPacketReceived
 (
 const
-LoggedRtpPacketIncoming
+LoggedRtpPacket
 &
 logged_packet
 )
