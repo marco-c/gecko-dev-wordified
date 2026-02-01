@@ -456,7 +456,7 @@ SMILContainer
 void
 Pause
 (
-uint32_t
+PauseType
 aType
 )
 override
@@ -464,7 +464,7 @@ override
 void
 Resume
 (
-uint32_t
+PauseType
 aType
 )
 override

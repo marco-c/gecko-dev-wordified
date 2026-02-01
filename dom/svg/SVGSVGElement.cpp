@@ -1223,7 +1223,10 @@ Pause
 SMILTimeContainer
 :
 :
-PAUSE_SCRIPT
+PauseType
+:
+:
+Script
 )
 ;
 }
@@ -1365,7 +1368,10 @@ Resume
 SMILTimeContainer
 :
 :
-PAUSE_SCRIPT
+PauseType
+:
+:
+Script
 )
 ;
 }
@@ -1419,7 +1425,10 @@ IsPausedByType
 SMILTimeContainer
 :
 :
-PAUSE_SCRIPT
+PauseType
+:
+:
+Script
 )
 ;
 }
