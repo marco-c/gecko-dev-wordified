@@ -65,7 +65,7 @@ and
 Devices
 "
 "
-certSelection
+certificates
 "
 )
 ;
@@ -128,7 +128,7 @@ proxy
 settings
 "
 "
-connectionGroup
+networkProxy
 "
 )
 ;

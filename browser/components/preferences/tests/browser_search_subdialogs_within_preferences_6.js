@@ -65,7 +65,7 @@ up
 windows
 "
 "
-permissionsGroup
+permissions
 "
 )
 ;

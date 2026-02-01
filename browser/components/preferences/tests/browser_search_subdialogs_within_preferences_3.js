@@ -67,7 +67,7 @@ add
 ons
 "
 "
-permissionsGroup
+permissions
 "
 )
 ;
@@ -130,7 +130,7 @@ certificate
 authorities
 "
 "
-certSelection
+certificates
 "
 )
 ;
