@@ -85,7 +85,7 @@ cookies
 "
 [
 "
-cookiesAndSiteData
+siteDataGroup
 "
 "
 trackingGroup
@@ -134,7 +134,7 @@ data
 "
 [
 "
-cookiesAndSiteData
+siteDataGroup
 "
 ]
 )
@@ -179,7 +179,7 @@ cache
 "
 [
 "
-cookiesAndSiteData
+siteDataGroup
 "
 ]
 )

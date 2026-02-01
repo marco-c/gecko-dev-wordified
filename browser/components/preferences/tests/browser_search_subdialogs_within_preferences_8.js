@@ -63,7 +63,7 @@ camera
 permissions
 "
 "
-permissions
+permissionsGroup
 "
 )
 ;
@@ -124,7 +124,7 @@ microphone
 permissions
 "
 "
-permissions
+permissionsGroup
 "
 )
 ;
@@ -185,7 +185,7 @@ notification
 permissions
 "
 "
-permissions
+permissionsGroup
 "
 )
 ;

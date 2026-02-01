@@ -160,7 +160,7 @@ location
 permissions
 "
 "
-permissions
+permissionsGroup
 "
 )
 ;

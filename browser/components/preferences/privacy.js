@@ -12535,7 +12535,7 @@ setting
 let
 l10nId
 =
-null
+undefined
 ;
 if
 (
@@ -12567,7 +12567,7 @@ history
 -
 remember
 -
-description4
+description3
 "
 ;
 }
@@ -12591,7 +12591,7 @@ history
 -
 dontremember
 -
-description4
+description3
 "
 ;
 }
@@ -12615,7 +12615,7 @@ history
 -
 custom
 -
-description4
+description3
 "
 ;
 }
