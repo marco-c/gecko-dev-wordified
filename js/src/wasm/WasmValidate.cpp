@@ -12248,6 +12248,9 @@ RefIsNull
 Nothing
 nothing
 ;
+RefType
+unusedRefType
+;
 if
 (
 !
@@ -12257,6 +12260,8 @@ readRefIsNull
 (
 &
 nothing
+&
+unusedRefType
 )
 )
 {
