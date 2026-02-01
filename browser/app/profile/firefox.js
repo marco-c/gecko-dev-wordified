@@ -27501,7 +27501,7 @@ aiwindow
 .
 memories
 "
-false
+true
 )
 ;
 pref
