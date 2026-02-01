@@ -999,6 +999,10 @@ people
 not
 profit
 Mozilla
+|
+mozilla
+.
+org
 "
 100
 ]
@@ -1040,6 +1044,12 @@ Search
 :
 firefox
 history
+|
+www
+.
+google
+.
+com
 "
 "
 Top
