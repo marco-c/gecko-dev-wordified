@@ -211,6 +211,9 @@ mStoreID
 bool
 mShowSelector
 ;
+bool
+mIsRelative
+;
 }
 ;
 struct
