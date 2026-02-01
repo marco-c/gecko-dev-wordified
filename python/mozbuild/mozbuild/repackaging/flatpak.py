@@ -310,10 +310,6 @@ git
 git_clone_dir
             
 ]
-            
-check
-=
-True
         
 )
         
@@ -685,10 +681,6 @@ flatpakrepo
 "
             
 ]
-            
-check
-=
-True
         
 )
         
@@ -746,10 +738,6 @@ deps
 "
             
 ]
-            
-check
-=
-True
         
 )
         
@@ -837,7 +825,6 @@ True
         
 run_command
 (
-            
 log
 [
 "
@@ -858,10 +845,6 @@ infile
 cwd
 =
 lib_dir
-check
-=
-True
-        
 )
         
 if
@@ -1324,10 +1307,6 @@ flatpak_name
 flatpak_name
             
 ]
-            
-check
-=
-True
         
 )
         
@@ -1420,10 +1399,6 @@ flatpak_branch
 "
             
 ]
-            
-check
-=
-True
             
 cwd
 =
@@ -1931,10 +1906,6 @@ firefox
             
 ]
             
-check
-=
-True
-            
 cwd
 =
 tmpdir
@@ -1954,10 +1925,6 @@ find
 build
 "
 ]
-            
-check
-=
-True
             
 cwd
 =
@@ -2039,10 +2006,6 @@ build
 flatpak_branch
             
 ]
-            
-check
-=
-True
             
 cwd
 =
@@ -2132,10 +2095,6 @@ flatpak_branch
             
 ]
             
-check
-=
-True
-            
 cwd
 =
 tmpdir
@@ -2194,10 +2153,6 @@ screenshots
             
 ]
             
-check
-=
-True
-            
 cwd
 =
 tmpdir
@@ -2233,10 +2188,6 @@ deltas
 repo
 "
 ]
-            
-check
-=
-True
             
 cwd
 =
@@ -2290,10 +2241,6 @@ output
 repo
 "
 ]
-            
-check
-=
-True
             
 env
 =
