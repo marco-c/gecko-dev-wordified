@@ -1023,7 +1023,10 @@ newTime
 SMILInstanceTime
 :
 :
-SOURCE_SYNCBASE
+SMILInstanceTimeSource
+:
+:
+Syncbase
 this
 &
 aInterval
@@ -2161,7 +2164,10 @@ newTime
 SMILInstanceTime
 :
 :
-SOURCE_EVENT
+SMILInstanceTimeSource
+:
+:
+Event
 )
 ;
 mOwner
