@@ -435,7 +435,7 @@ instruction_reader
 DecoderInstructionReader
 :
 :
-default
+new
 (
 )
 local_stream
@@ -4129,8 +4129,6 @@ new_server
 :
 <
 CountingConnectionIdGenerator
-&
-str
 >
 (
 DEFAULT_ALPN

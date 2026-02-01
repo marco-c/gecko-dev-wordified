@@ -3563,7 +3563,6 @@ state
 -
 >
 {
-new_state
 }
 "
 self
@@ -3576,6 +3575,7 @@ as_u64
 self
 .
 state
+new_state
 )
 ;
 match
@@ -4716,7 +4716,6 @@ increase
 possible
 .
 pub
-const
 fn
 send_flowc_update
 (
@@ -4752,7 +4751,6 @@ send_flowc_update
 }
 }
 pub
-const
 fn
 set_stream_max_data
 (
@@ -5617,7 +5615,6 @@ _
 }
 }
 pub
-const
 fn
 max_stream_data_lost
 (
@@ -5657,7 +5654,6 @@ maximum_data
 }
 }
 pub
-const
 fn
 stop_sending_lost
 (
@@ -10666,7 +10662,7 @@ short
 Encoder
 :
 :
-default
+new
 (
 )
 false
@@ -11562,7 +11558,7 @@ short
 Encoder
 :
 :
-default
+new
 (
 )
 false
@@ -11786,7 +11782,7 @@ short
 Encoder
 :
 :
-default
+new
 (
 )
 false
@@ -14540,7 +14536,7 @@ short
 Encoder
 :
 :
-default
+new
 (
 )
 false

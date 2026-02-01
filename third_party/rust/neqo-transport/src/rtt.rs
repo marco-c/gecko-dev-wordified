@@ -548,7 +548,6 @@ clone
 ;
 }
 pub
-const
 fn
 set_ack_delay
 (
@@ -1236,7 +1235,6 @@ stats
 ;
 }
 pub
-const
 fn
 frame_lost
 (

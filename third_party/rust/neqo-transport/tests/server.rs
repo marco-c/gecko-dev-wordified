@@ -3853,7 +3853,7 @@ header_enc
 Encoder
 :
 :
-default
+new
 (
 )
 ;
@@ -4743,7 +4743,7 @@ header_enc
 Encoder
 :
 :
-default
+new
 (
 )
 ;

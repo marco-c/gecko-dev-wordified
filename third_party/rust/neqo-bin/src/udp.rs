@@ -117,8 +117,8 @@ neqo_common
 :
 :
 {
-datagram
 qdebug
+DatagramBatch
 }
 ;
 use
@@ -837,10 +837,7 @@ await
 Send
 a
 [
-datagram
-:
-:
-Batch
+DatagramBatch
 ]
 on
 the
@@ -858,10 +855,7 @@ self
 d
 :
 &
-datagram
-:
-:
-Batch
+DatagramBatch
 )
 -
 >

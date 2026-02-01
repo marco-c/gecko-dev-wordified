@@ -862,7 +862,6 @@ clone
 )
 ;
 }
-const
 fn
 frame_lost
 (
@@ -1157,7 +1156,6 @@ r
 }
 }
 pub
-const
 fn
 frame_lost
 (

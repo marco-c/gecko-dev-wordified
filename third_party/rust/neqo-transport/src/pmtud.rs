@@ -1069,7 +1069,6 @@ empty
 must_use
 ]
 pub
-const
 fn
 address_family_max_mtu
 (
@@ -2469,7 +2468,7 @@ short
 Encoder
 :
 :
-default
+new
 (
 )
 false

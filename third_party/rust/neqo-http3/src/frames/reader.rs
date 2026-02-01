@@ -474,7 +474,6 @@ a
 >
 {
 pub
-const
 fn
 new
 (

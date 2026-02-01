@@ -404,8 +404,6 @@ new_server
 :
 <
 CountingConnectionIdGenerator
-&
-str
 >
 (
 DEFAULT_ALPN
@@ -3442,8 +3440,6 @@ new_server
 :
 <
 CountingConnectionIdGenerator
-&
-str
 >
 (
 DEFAULT_ALPN

@@ -236,7 +236,6 @@ offset
 must_use
 ]
 pub
-const
 fn
 len
 (
@@ -264,7 +263,6 @@ offset
 must_use
 ]
 pub
-const
 fn
 is_empty
 (

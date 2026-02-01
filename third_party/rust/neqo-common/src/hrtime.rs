@@ -1155,7 +1155,6 @@ unsafe
 mach_timebase_info
 (
 &
-raw
 mut
 timebase_info
 )
@@ -1340,11 +1339,9 @@ cast
 horror
 !
 &
-raw
 mut
 count
 &
-raw
 mut
 get_default
 )
