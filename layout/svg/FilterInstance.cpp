@@ -178,13 +178,6 @@ h
 #
 include
 "
-SVGContentUtils
-.
-h
-"
-#
-include
-"
 SVGIntegrationUtils
 .
 h

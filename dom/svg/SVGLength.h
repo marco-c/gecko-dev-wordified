@@ -615,9 +615,6 @@ dom
 SVGElement
 *
 aElement
-SVGLength
-:
-:
 Axis
 aAxis
 )
@@ -633,9 +630,6 @@ dom
 SVGElement
 *
 aElement
-SVGLength
-:
-:
 Axis
 aAxis
 )
@@ -699,9 +693,6 @@ dom
 SVGElement
 *
 aElement
-SVGLength
-:
-:
 Axis
 aAxis
 )
@@ -730,9 +721,6 @@ dom
 UserSpaceMetrics
 &
 aMetrics
-SVGLength
-:
-:
 Axis
 aAxis
 )
@@ -758,9 +746,6 @@ dom
 UserSpaceMetrics
 &
 aMetrics
-SVGLength
-:
-:
 Axis
 aAxis
 )
@@ -912,9 +897,6 @@ UserSpaceMetrics
 aMetrics
 uint8_t
 aUnitType
-SVGLength
-:
-:
 Axis
 aAxis
 bool
@@ -934,9 +916,6 @@ UserSpaceMetrics
 aMetrics
 nsCSSUnit
 aCSSUnit
-SVGLength
-:
-:
 Axis
 aAxis
 bool

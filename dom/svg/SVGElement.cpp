@@ -1036,7 +1036,7 @@ mInfos
 aAttrEnum
 ]
 .
-mCtxType
+mAxis
 aAttrEnum
 mInfos
 [
