@@ -4452,6 +4452,8 @@ ErrorResult
 aRv
 )
 ;
+private
+:
 /
 *
 *
@@ -4532,7 +4534,7 @@ end
 /
 MOZ_CAN_RUN_SCRIPT
 void
-Extend
+ExtendInternal
 (
 nsINode
 &
@@ -4544,6 +4546,8 @@ ErrorResult
 aRv
 )
 ;
+public
+:
 MOZ_CAN_RUN_SCRIPT
 void
 AddRangeAndSelectFramesAndNotifyListeners
@@ -5585,6 +5589,7 @@ nsINode
 &
 aNode
 )
+const
 ;
 /
 /
@@ -5705,6 +5710,21 @@ const
 RawRangeBoundary
 &
 aFocusRef
+ErrorResult
+&
+aRv
+)
+;
+static
+bool
+IsValidNodeAndOffsetForBoundary
+(
+const
+nsINode
+&
+aContainer
+uint32_t
+aOffset
 ErrorResult
 &
 aRv
