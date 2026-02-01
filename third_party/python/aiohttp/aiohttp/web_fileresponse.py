@@ -993,12 +993,26 @@ self
 etag
 =
 etag_value
+#
+type
+:
+ignore
+[
+assignment
+]
         
 self
 .
 last_modified
 =
 last_modified
+#
+type
+:
+ignore
+[
+assignment
+]
         
 #
 Delete
@@ -2964,12 +2978,26 @@ st_size
 x
 }
 "
+#
+type
+:
+ignore
+[
+assignment
+]
         
 self
 .
 last_modified
 =
 file_mtime
+#
+type
+:
+ignore
+[
+assignment
+]
         
 self
 .

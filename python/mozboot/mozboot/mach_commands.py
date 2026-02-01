@@ -94,12 +94,6 @@ for
 building
 .
 "
-    
-virtualenv_name
-=
-"
-build
-"
 )
 CommandArgument
 (

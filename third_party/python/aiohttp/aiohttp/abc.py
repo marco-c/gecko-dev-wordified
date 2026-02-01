@@ -630,7 +630,7 @@ self
 >
 Generator
 [
-None
+Any
 None
 StreamResponse
 ]
