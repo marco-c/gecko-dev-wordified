@@ -1302,16 +1302,18 @@ exclude_patterns
         
 args
 .
-extend
+append
 (
-[
+f
 "
 -
 -
 exclude
-"
+=
+{
 exclude
-]
+}
+"
 )
     
 if
