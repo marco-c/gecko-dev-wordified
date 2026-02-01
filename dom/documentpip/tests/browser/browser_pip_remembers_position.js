@@ -503,10 +503,10 @@ tab
 .
 linkedBrowser
 [
-testSize
 ]
 async
-size
+(
+)
 =
 >
 {
@@ -525,7 +525,6 @@ documentPictureInPicture
 .
 requestWindow
 (
-size
 )
 ;
 }
