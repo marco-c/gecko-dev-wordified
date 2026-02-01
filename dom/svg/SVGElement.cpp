@@ -6448,8 +6448,6 @@ nsGkAtoms
 :
 alignment_baseline
 }
-/
-/
 {
 nsGkAtoms
 :
