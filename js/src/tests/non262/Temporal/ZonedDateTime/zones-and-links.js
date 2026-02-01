@@ -3,16 +3,6 @@
 |
 reftest
 |
-shell
--
-option
-(
--
--
-enable
--
-temporal
-)
 skip
 -
 if
@@ -44,7 +34,7 @@ EDIT
 tzdata
 version
 =
-2025b
+2025c
 const
 zones
 =
