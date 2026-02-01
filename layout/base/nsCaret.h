@@ -1361,6 +1361,11 @@ UpdateCaretPositionFromSelectionIfNeeded
 (
 )
 ;
+void
+UpdateHiddenDuringSelection
+(
+)
+;
 mozilla
 :
 :
