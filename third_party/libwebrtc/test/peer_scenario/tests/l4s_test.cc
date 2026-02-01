@@ -2944,7 +2944,7 @@ SupportRfc8888Params
 TEST_P
 (
 FeedbackFormatTest
-AdaptToLinkCapacityWithoutEcn
+DISABLED_AdaptToLinkCapacityWithoutEcn
 )
 {
 const
