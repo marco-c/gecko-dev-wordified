@@ -1,3 +1,15 @@
+/
+*
+eslint
+-
+env
+mozilla
+/
+process
+-
+script
+*
+/
 "
 use
 strict

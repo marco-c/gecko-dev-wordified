@@ -56,6 +56,14 @@ MPL
 .
 *
 /
+/
+*
+eslint
+-
+env
+node
+*
+/
 function
 sendBackResponse
 (

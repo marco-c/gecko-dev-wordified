@@ -60,6 +60,14 @@ MPL
 *
 eslint
 -
+env
+node
+*
+/
+/
+*
+eslint
+-
 disable
 mozilla
 /

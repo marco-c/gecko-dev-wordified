@@ -99,6 +99,14 @@ Mocha
 test
 framework
 .
+/
+*
+eslint
+-
+env
+node
+*
+/
 const
 path
 =

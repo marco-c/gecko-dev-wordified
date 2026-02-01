@@ -1,4 +1,16 @@
 /
+*
+eslint
+-
+env
+mozilla
+/
+chrome
+-
+script
+*
+/
+/
 /
 Chrome
 scripts

@@ -58,6 +58,14 @@ MPL
 /
 /
 *
+eslint
+-
+env
+webextensions
+*
+/
+/
+*
 *
 This
 web

@@ -142,6 +142,14 @@ streams
 .
 *
 /
+/
+*
+eslint
+-
+env
+node
+*
+/
 "
 use
 strict

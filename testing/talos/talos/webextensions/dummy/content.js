@@ -61,6 +61,14 @@ use
 strict
 "
 ;
+/
+*
+eslint
+-
+env
+webextensions
+*
+/
 browser
 .
 runtime

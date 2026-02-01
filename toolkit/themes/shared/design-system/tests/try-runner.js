@@ -68,6 +68,14 @@ MPL
 /
 /
 *
+eslint
+-
+env
+node
+*
+/
+/
+*
 *
 A
 small

@@ -2,6 +2,14 @@
 *
 eslint
 -
+env
+worker
+*
+/
+/
+*
+eslint
+-
 disable
 mozilla
 /

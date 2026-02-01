@@ -56,6 +56,14 @@ MPL
 .
 *
 /
+/
+*
+eslint
+-
+env
+module
+*
+/
 const
 {
 AppConstants

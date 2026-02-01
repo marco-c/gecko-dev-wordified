@@ -58,6 +58,14 @@ MPL
 /
 /
 *
+eslint
+-
+env
+node
+*
+/
+/
+*
 global
 require
 module

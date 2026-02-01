@@ -1,3 +1,11 @@
+/
+*
+eslint
+-
+env
+worker
+*
+/
 onmessage
 =
 function

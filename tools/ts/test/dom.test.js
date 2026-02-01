@@ -56,6 +56,15 @@ MPL
 .
 *
 /
+/
+*
+eslint
+-
+env
+node
+jest
+*
+/
 "
 use
 strict

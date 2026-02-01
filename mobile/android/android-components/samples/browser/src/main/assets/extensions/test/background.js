@@ -58,6 +58,14 @@ MPL
 /
 /
 *
+eslint
+-
+env
+webextensions
+*
+/
+/
+*
 Avoid
 adding
 ID
