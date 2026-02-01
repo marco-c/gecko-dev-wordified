@@ -34297,8 +34297,6 @@ OnCurrentEncoder
 .
 WillOnce
 (
-Invoke
-(
 [
 &
 ]
@@ -34330,11 +34328,8 @@ VP9Profile0
 ;
 }
 )
-)
 .
 WillOnce
-(
-Invoke
 (
 [
 &
@@ -34358,7 +34353,6 @@ VP9
 ;
 }
 )
-)
 ;
 EXPECT_CALL
 (
@@ -34368,8 +34362,6 @@ OnAvailableBitrate
 )
 .
 WillRepeatedly
-(
-Invoke
 (
 [
 &
@@ -34385,7 +34377,6 @@ return
 next_format
 ;
 }
-)
 )
 ;
 sender
