@@ -121,6 +121,13 @@ mozilla_dom_MediaSession_h
 #
 include
 "
+MediaEventSource
+.
+h
+"
+#
+include
+"
 js
 /
 TypeDecls
@@ -842,6 +849,9 @@ dom
 MediaMetadataBasePromise
 >
 mLoadingArtworkRequest
+;
+MediaEventListener
+mMetadataChangeListener
 ;
 }
 ;
