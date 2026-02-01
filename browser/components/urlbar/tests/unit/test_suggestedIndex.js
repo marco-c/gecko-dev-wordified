@@ -4372,7 +4372,14 @@ i
 )
 ;
 await
-UrlbarProvidersManager
+ProvidersManager
+.
+getInstanceForSap
+(
+"
+urlbar
+"
+)
 .
 startQuery
 (

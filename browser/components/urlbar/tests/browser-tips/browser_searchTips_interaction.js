@@ -330,7 +330,14 @@ nz
 let
 tipsProviderInstance
 =
-UrlbarProvidersManager
+ProvidersManager
+.
+getInstanceForSap
+(
+"
+urlbar
+"
+)
 .
 getProvider
 (

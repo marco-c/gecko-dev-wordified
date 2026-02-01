@@ -1015,6 +1015,18 @@ cases
 "
 )
 ;
+let
+providersManager
+=
+ProvidersManager
+.
+getInstanceForSap
+(
+"
+urlbar
+"
+)
+;
 for
 (
 let
@@ -1099,7 +1111,7 @@ newMockController
 )
 ;
 await
-UrlbarProvidersManager
+providersManager
 .
 startQuery
 (
@@ -1512,7 +1524,7 @@ newMockController
 )
 ;
 await
-UrlbarProvidersManager
+providersManager
 .
 startQuery
 (
