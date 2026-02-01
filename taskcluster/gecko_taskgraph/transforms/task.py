@@ -17354,6 +17354,18 @@ get_branch_rev
 config
 )
     
+subs
+[
+"
+project
+"
+]
+=
+get_project_alias
+(
+config
+)
+    
 locales
 =
 task
@@ -18024,14 +18036,10 @@ product
 project
 "
 :
+get_project_alias
+(
 config
-.
-params
-[
-"
-project
-"
-]
+)
         
 "
 trust
@@ -20261,8 +20269,7 @@ description
             
 th_job_link
 =
-(
-                
+f
 "
 https
 :
@@ -20281,11 +20288,16 @@ jobs
 repo
 =
 {
+get_project_alias
+(
+config
+)
 }
 &
 revision
 =
 {
+branch_rev
 }
 &
 selectedTaskRun
@@ -20294,21 +20306,6 @@ selectedTaskRun
 self
 >
 "
-            
-)
-.
-format
-(
-config
-.
-params
-[
-"
-project
-"
-]
-branch_rev
-)
             
 task_def
 [
