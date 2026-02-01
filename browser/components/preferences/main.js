@@ -296,7 +296,7 @@ src
 /
 /
 /
-browser
+toolkit
 /
 modules
 /

@@ -1698,6 +1698,13 @@ sys
 mjs
 "
 "
+FaviconUtils
+.
+sys
+.
+mjs
+"
+"
 InputPickerPanelCommon
 .
 sys
