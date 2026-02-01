@@ -2420,17 +2420,6 @@ Prefs
 wasm_lazy_tiering
 (
 )
-|
-|
-JS
-:
-:
-Prefs
-:
-:
-wasm_lazy_tiering_for_gc
-(
-)
 )
 {
 return
