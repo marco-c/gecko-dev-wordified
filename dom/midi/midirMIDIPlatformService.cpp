@@ -381,7 +381,7 @@ gOwnerThreadMutex
 /
 /
 static
-MOZ_RUNINIT
+constinit
 nsCOMPtr
 <
 nsISerialEventTarget

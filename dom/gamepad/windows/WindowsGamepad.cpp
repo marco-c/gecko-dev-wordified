@@ -656,14 +656,12 @@ gService
 =
 nullptr
 ;
-MOZ_RUNINIT
+constinit
 nsCOMPtr
 <
 nsIThread
 >
 gMonitorThread
-=
-nullptr
 ;
 static
 bool

@@ -4899,7 +4899,7 @@ CSSIntPoint
 0
 )
 ;
-MOZ_RUNINIT
+constinit
 nsCOMPtr
 <
 nsIContent
@@ -4908,8 +4908,6 @@ EventStateManager
 :
 :
 sDragOverContent
-=
-nullptr
 ;
 EventStateManager
 :
