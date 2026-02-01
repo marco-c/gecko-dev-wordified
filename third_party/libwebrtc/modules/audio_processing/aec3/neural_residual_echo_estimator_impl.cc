@@ -437,7 +437,7 @@ namespace
 using
 ModelInputEnum
 =
-NeuralResidualEchoEstimatorImpl
+FeatureExtractor
 :
 :
 ModelInputEnum
@@ -445,7 +445,7 @@ ModelInputEnum
 using
 ModelOutputEnum
 =
-NeuralResidualEchoEstimatorImpl
+FeatureExtractor
 :
 :
 ModelOutputEnum
@@ -2753,6 +2753,10 @@ ModelInputEnum
 :
 kMic
 )
+ModelInputEnum
+:
+:
+kMic
 )
 ;
 feature_extractor_
@@ -2771,6 +2775,10 @@ ModelInputEnum
 :
 kLinearAecOutput
 )
+ModelInputEnum
+:
+:
+kLinearAecOutput
 )
 ;
 feature_extractor_
@@ -2789,6 +2797,10 @@ ModelInputEnum
 :
 kAecRef
 )
+ModelInputEnum
+:
+:
+kAecRef
 )
 ;
 if
