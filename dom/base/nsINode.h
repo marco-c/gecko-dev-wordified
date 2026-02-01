@@ -15964,6 +15964,7 @@ ElementCreatedFromPrototypeAndHasUnmodifiedL10n
 )
 ;
 }
+inline
 mozilla
 :
 :
