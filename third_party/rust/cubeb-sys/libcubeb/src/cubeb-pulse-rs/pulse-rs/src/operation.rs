@@ -30,9 +30,6 @@ LICENSE
 for
 details
 .
-use
-ffi
-;
 #
 [
 derive

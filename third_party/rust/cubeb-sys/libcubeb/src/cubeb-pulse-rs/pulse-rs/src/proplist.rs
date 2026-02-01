@@ -31,9 +31,6 @@ for
 details
 .
 use
-ffi
-;
-use
 std
 :
 :

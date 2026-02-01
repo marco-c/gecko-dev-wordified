@@ -106,7 +106,7 @@ test
 should_panic
 ]
 fn
-test_aggregate_set_sub_devices_for_an_unknown_aggregate_device
+test_panic_aggregate_set_sub_devices_for_an_unknown_aggregate_device
 (
 )
 {
@@ -227,7 +227,7 @@ test
 should_panic
 ]
 fn
-test_aggregate_set_sub_devices_for_unknown_devices
+test_panic_aggregate_set_sub_devices_for_unknown_devices
 (
 )
 {
@@ -890,7 +890,7 @@ test
 should_panic
 ]
 fn
-test_aggregate_get_sub_devices_for_a_unknown_device
+test_panic_aggregate_get_sub_devices_for_a_unknown_device
 (
 )
 {
@@ -964,7 +964,7 @@ test
 should_panic
 ]
 fn
-test_aggregate_set_master_device_for_an_unknown_aggregate_device
+test_panic_aggregate_set_master_device_for_an_unknown_aggregate_device
 (
 )
 {
@@ -1047,7 +1047,7 @@ test
 should_panic
 ]
 fn
-test_aggregate_activate_clock_drift_compensation_for_an_unknown_aggregate_device
+test_panic_aggregate_activate_clock_drift_compensation_for_an_unknown_aggregate_device
 (
 )
 {
@@ -1129,7 +1129,7 @@ test
 should_panic
 ]
 fn
-test_aggregate_destroy_device_for_unknown_plugin_and_aggregate_devices
+test_panic_aggregate_destroy_device_for_unknown_plugin_and_aggregate_devices
 (
 )
 {
@@ -1167,7 +1167,7 @@ test
 should_panic
 ]
 fn
-test_aggregate_destroy_aggregate_device_for_a_unknown_aggregate_device
+test_panic_aggregate_destroy_aggregate_device_for_a_unknown_aggregate_device
 (
 )
 {
@@ -2007,7 +2007,7 @@ test
 should_panic
 ]
 fn
-test_aggregate_set_sub_devices_for_unknown_input_devices
+test_panic_aggregate_set_sub_devices_for_unknown_input_devices
 (
 )
 {
@@ -2136,7 +2136,7 @@ test
 should_panic
 ]
 fn
-test_aggregate_set_sub_devices_for_unknown_output_devices
+test_panic_aggregate_set_sub_devices_for_unknown_output_devices
 (
 )
 {
@@ -3665,7 +3665,7 @@ test
 should_panic
 ]
 fn
-test_aggregate_activate_clock_drift_compensation_for_a_blank_aggregate_device
+test_panic_aggregate_activate_clock_drift_compensation_for_a_blank_aggregate_device
 (
 )
 {
@@ -3918,7 +3918,7 @@ test
 should_panic
 ]
 fn
-test_aggregate_destroy_aggregate_device_for_a_unknown_plugin_device
+test_panic_aggregate_destroy_aggregate_device_for_a_unknown_plugin_device
 (
 )
 {

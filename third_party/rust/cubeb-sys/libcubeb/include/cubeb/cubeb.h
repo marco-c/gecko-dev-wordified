@@ -254,6 +254,12 @@ prefs
 =
 CUBEB_STREAM_PREF_NONE
 ;
+output_params
+.
+input_params
+=
+CUBEB_INPUT_PROCESSING_PARAM_NONE
+;
 rv
 =
 cubeb_get_min_latency
@@ -321,6 +327,12 @@ input_params
 prefs
 =
 CUBEB_STREAM_PREF_NONE
+;
+input_params
+.
+input_params
+=
+CUBEB_INPUT_PROCESSING_PARAM_NONE
 ;
 cubeb_stream
 *

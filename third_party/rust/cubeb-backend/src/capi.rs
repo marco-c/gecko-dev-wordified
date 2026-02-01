@@ -1664,10 +1664,10 @@ from_raw
 std
 :
 :
-slice
+ptr
 :
 :
-from_raw_parts_mut
+slice_from_raw_parts_mut
 (
 collection
 .

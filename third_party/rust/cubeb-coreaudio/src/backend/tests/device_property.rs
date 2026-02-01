@@ -200,7 +200,7 @@ test
 should_panic
 ]
 fn
-test_get_device_uid_by_unknwon_device
+test_panic_get_device_uid_by_unknwon_device
 (
 )
 {
@@ -491,7 +491,7 @@ test
 should_panic
 ]
 fn
-test_get_device_model_uid_by_unknown_device
+test_panic_get_device_model_uid_by_unknown_device
 (
 )
 {
@@ -772,7 +772,7 @@ test
 should_panic
 ]
 fn
-test_get_device_transport_type_by_unknown_device
+test_panic_get_device_transport_type_by_unknown_device
 (
 )
 {
@@ -1072,7 +1072,7 @@ test
 should_panic
 ]
 fn
-test_get_device_source_by_unknown_device
+test_panic_get_device_source_by_unknown_device
 (
 )
 {
@@ -1339,7 +1339,7 @@ test
 should_panic
 ]
 fn
-test_get_device_source_name_by_unknown_device
+test_panic_get_device_source_name_by_unknown_device
 (
 )
 {
@@ -1564,7 +1564,7 @@ test
 should_panic
 ]
 fn
-test_get_device_name_by_unknown_device
+test_panic_get_device_name_by_unknown_device
 (
 )
 {
@@ -1889,7 +1889,7 @@ test
 should_panic
 ]
 fn
-test_get_device_manufacturer_by_unknown_device
+test_panic_get_device_manufacturer_by_unknown_device
 (
 )
 {
@@ -2128,7 +2128,7 @@ test
 should_panic
 ]
 fn
-test_get_device_buffer_frame_size_range_by_unknown_device
+test_panic_get_device_buffer_frame_size_range_by_unknown_device
 (
 )
 {
@@ -2347,7 +2347,7 @@ test
 should_panic
 ]
 fn
-test_get_device_latency_by_unknown_device
+test_panic_get_device_latency_by_unknown_device
 (
 )
 {
@@ -2594,7 +2594,7 @@ test
 should_panic
 ]
 fn
-test_get_device_streams_by_unknown_device
+test_panic_get_device_streams_by_unknown_device
 (
 )
 {
@@ -2811,7 +2811,7 @@ test
 should_panic
 ]
 fn
-test_get_device_sample_rate_by_unknown_device
+test_panic_get_device_sample_rate_by_unknown_device
 (
 )
 {
@@ -3036,7 +3036,7 @@ test
 should_panic
 ]
 fn
-test_get_ranges_of_device_sample_rate_by_unknown_device
+test_panic_get_ranges_of_device_sample_rate_by_unknown_device
 (
 )
 {
@@ -3317,7 +3317,7 @@ test
 should_panic
 ]
 fn
-test_get_stream_latency_by_unknown_device
+test_panic_get_stream_latency_by_unknown_device
 (
 )
 {
@@ -3649,7 +3649,7 @@ test
 should_panic
 ]
 fn
-test_get_stream_virtual_format_by_unknown_stream
+test_panic_get_stream_virtual_format_by_unknown_stream
 (
 )
 {
