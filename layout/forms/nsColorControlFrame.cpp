@@ -697,8 +697,6 @@ return
 /
 Set
 the
-background
--
 color
 CSS
 property
@@ -722,8 +720,6 @@ nsGkAtoms
 style
 u
 "
-background
--
 color
 :
 "
