@@ -242,7 +242,7 @@ meiji
 "
 eraYear
 :
-2
+6
 month
 :
 1
@@ -394,7 +394,7 @@ TemporalHelpers
 assertPlainDate
 (
 meiji
-1869
+1873
 1
 "
 M01
@@ -406,7 +406,7 @@ meiji
 "
 meiji
 "
-2
+6
 )
 ;
 TemporalHelpers

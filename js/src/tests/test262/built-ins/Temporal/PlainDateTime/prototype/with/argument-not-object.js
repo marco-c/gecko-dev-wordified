@@ -132,6 +132,7 @@ Symbol
 )
 2020
 2020n
+NaN
 ]
 ;
 for

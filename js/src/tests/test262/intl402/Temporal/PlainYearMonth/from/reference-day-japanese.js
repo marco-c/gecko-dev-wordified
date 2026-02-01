@@ -246,7 +246,7 @@ on
 reference
 day
 (
-Showa
+Heisei
 begins
 on
 January
@@ -307,7 +307,7 @@ on
 reference
 day
 (
-Taish
+Showa
 begins
 on
 December
@@ -368,7 +368,7 @@ on
 reference
 day
 (
-Meiji
+Taish
 begins
 on
 July
