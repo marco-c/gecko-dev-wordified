@@ -315,7 +315,7 @@ popuphidden
 ;
 item
 .
-doCommand
+click
 (
 )
 ;
