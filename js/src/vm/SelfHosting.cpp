@@ -12631,15 +12631,6 @@ intl_FormatDateTimeRange
 JS_FN
 (
 "
-intl_FormatList
-"
-intl_FormatList
-3
-0
-)
-JS_FN
-(
-"
 intl_FormatNumber
 "
 intl_FormatNumber
