@@ -2255,3 +2255,9 @@ mozilla
 :
 :
 layers
+#
+undef
+LOG
+#
+undef
+LOGVERBOSE
