@@ -5,6 +5,18 @@ jit
 -
 test
 |
+skip
+-
+if
+:
+!
+getBuildConfiguration
+(
+"
+jitspew
+"
+)
+;
 -
 -
 gc
@@ -13,7 +25,6 @@ zeal
 =
 14
 162
-;
 a
 =
 function
