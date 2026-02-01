@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-__ChromeObjectWrapper_h__
+ChromeObjectWrapper_h_
 #
 define
-__ChromeObjectWrapper_h__
+ChromeObjectWrapper_h_
 #
 include
 "
@@ -322,6 +322,6 @@ xpc
 endif
 /
 *
-__ChromeObjectWrapper_h__
+ChromeObjectWrapper_h_
 *
 /

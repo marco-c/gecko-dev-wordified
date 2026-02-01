@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-xpcjsweakreference_h___
+xpcjsweakreference_h_
 #
 define
-xpcjsweakreference_h___
+xpcjsweakreference_h_
 #
 include
 "
@@ -182,4 +182,4 @@ mReferent
 endif
 /
 /
-xpcjsweakreference_h___
+xpcjsweakreference_h_

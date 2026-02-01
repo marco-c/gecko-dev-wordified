@@ -39,10 +39,10 @@ file
 .
 #
 ifndef
-jit_riscv64_constant_util_riscv64__h_
+jit_riscv64_constant_util_riscv64_h_
 #
 define
-jit_riscv64_constant_util_riscv64__h_
+jit_riscv64_constant_util_riscv64_h_
 #
 include
 <

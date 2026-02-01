@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-xpcselfhostedshmem_h___
+xpcselfhostedshmem_h_
 #
 define
-xpcselfhostedshmem_h___
+xpcselfhostedshmem_h_
 #
 include
 "
@@ -711,4 +711,4 @@ endif
 /
 /
 !
-xpcselfhostedshmem_h___
+xpcselfhostedshmem_h_

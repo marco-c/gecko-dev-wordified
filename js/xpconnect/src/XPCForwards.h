@@ -124,10 +124,10 @@ declarations
 /
 #
 ifndef
-xpcforwards_h___
+xpcforwards_h_
 #
 define
-xpcforwards_h___
+xpcforwards_h_
 /
 /
 forward
@@ -230,6 +230,6 @@ AutoMarkingPtr
 endif
 /
 *
-xpcforwards_h___
+xpcforwards_h_
 *
 /

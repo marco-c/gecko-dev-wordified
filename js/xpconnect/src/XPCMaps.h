@@ -126,10 +126,10 @@ hashtables
 /
 #
 ifndef
-xpcmaps_h___
+xpcmaps_h_
 #
 define
-xpcmaps_h___
+xpcmaps_h_
 #
 include
 "
@@ -2540,6 +2540,6 @@ XPC_WRAPPER_MAP_LENGTH
 endif
 /
 *
-xpcmaps_h___
+xpcmaps_h_
 *
 /

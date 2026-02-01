@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-SystemGlobal_h__
+SystemGlobal_h_
 #
 define
-SystemGlobal_h__
+SystemGlobal_h_
 #
 include
 "
@@ -617,4 +617,4 @@ mModuleLoader
 endif
 /
 /
-SystemGlobal_h__
+SystemGlobal_h_

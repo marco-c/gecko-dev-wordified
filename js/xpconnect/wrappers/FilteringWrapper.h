@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-__FilteringWrapper_h__
+FilteringWrapper_h_
 #
 define
-__FilteringWrapper_h__
+FilteringWrapper_h_
 #
 include
 "
@@ -466,6 +466,6 @@ xpc
 endif
 /
 *
-__FilteringWrapper_h__
+FilteringWrapper_h_
 *
 /

@@ -101,10 +101,10 @@ components
 /
 #
 ifndef
-xpctest_private_h___
+xpctest_private_h_
 #
 define
-xpctest_private_h___
+xpctest_private_h_
 #
 include
 "
@@ -337,6 +337,6 @@ default
 endif
 /
 *
-xpctest_private_h___
+xpctest_private_h_
 *
 /

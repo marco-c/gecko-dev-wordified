@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-ExecutionTracerIntegration_h__
+ExecutionTracerIntegration_h_
 #
 define
-ExecutionTracerIntegration_h__
+ExecutionTracerIntegration_h_
 #
 ifdef
 MOZ_EXECUTION_TRACING
@@ -720,6 +720,6 @@ endif
 endif
 /
 *
-ExecutionTracerIntegration_h__
+ExecutionTracerIntegration_h_
 *
 /

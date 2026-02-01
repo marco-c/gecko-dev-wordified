@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-__SANDBOXPRIVATE_H__
+SANDBOXPRIVATE_H_
 #
 define
-__SANDBOXPRIVATE_H__
+SANDBOXPRIVATE_H_
 #
 include
 "
@@ -913,4 +913,4 @@ mModuleLoader
 endif
 /
 /
-__SANDBOXPRIVATE_H__
+SANDBOXPRIVATE_H_

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-__AccessCheck_h__
+AccessCheck_h_
 #
 define
-__AccessCheck_h__
+AccessCheck_h_
 #
 include
 "
@@ -882,6 +882,6 @@ xpc
 endif
 /
 *
-__AccessCheck_h__
+AccessCheck_h_
 *
 /

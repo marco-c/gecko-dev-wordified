@@ -134,10 +134,10 @@ h
 /
 #
 ifndef
-xpcinlines_h___
+xpcinlines_h_
 #
 define
-xpcinlines_h___
+xpcinlines_h_
 #
 include
 <
@@ -2804,6 +2804,6 @@ aArrayLen
 endif
 /
 *
-xpcinlines_h___
+xpcinlines_h_
 *
 /

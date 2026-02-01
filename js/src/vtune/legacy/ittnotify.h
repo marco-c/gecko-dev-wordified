@@ -467,10 +467,10 @@ copyright
 /
 #
 ifndef
-_LEGACY_ITTNOTIFY_H_
+_LEGACYITTNOTIFY_H_
 #
 define
-_LEGACY_ITTNOTIFY_H_
+_LEGACYITTNOTIFY_H_
 /
 *
 *
@@ -2250,7 +2250,7 @@ overhead
 /
 #
 ifndef
-_ITTNOTIFY_H_
+ITTNOTIFY_H_
 /
 *
 *
@@ -2455,7 +2455,7 @@ endcond
 endif
 /
 *
-_ITTNOTIFY_H_
+ITTNOTIFY_H_
 *
 /
 /
@@ -4807,7 +4807,7 @@ group
 /
 #
 ifndef
-_ITTNOTIFY_H_
+ITTNOTIFY_H_
 /
 *
 *
@@ -5545,7 +5545,7 @@ group
 endif
 /
 *
-_ITTNOTIFY_H_
+ITTNOTIFY_H_
 *
 /
 /
@@ -7099,6 +7099,6 @@ __cplusplus
 endif
 /
 *
-_LEGACY_ITTNOTIFY_H_
+_LEGACYITTNOTIFY_H_
 *
 /
