@@ -296,8 +296,8 @@ parse_histograms
 .
 from_files
 (
-            
 [
+            
 path
 .
 join
@@ -309,8 +309,8 @@ Histograms
 json
 "
 )
-]
         
+]
 )
         
 for

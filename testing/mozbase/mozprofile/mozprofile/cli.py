@@ -764,8 +764,6 @@ preference
 to
 set
 .
-"
-"
 Must
 be
 a

@@ -1790,27 +1790,21 @@ create_patch
 )
     
 with
-(
-        
 NamedTemporaryFile
 (
 )
 as
 from_fd
-        
 NamedTemporaryFile
 (
 )
 as
 to_fd
-        
 NamedTemporaryFile
 (
 )
 as
 patch_fd
-    
-)
 :
         
 xz_cmd

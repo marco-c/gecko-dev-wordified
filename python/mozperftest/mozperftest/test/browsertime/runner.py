@@ -2749,13 +2749,14 @@ metadata
 .
 add_result
 (
-                
 {
+                
 "
 results
 "
 :
 existing
+                
 "
 name
 "
@@ -2768,8 +2769,8 @@ _test_script
 name
 "
 ]
-}
             
+}
 )
             
 return
@@ -3629,8 +3630,8 @@ metadata
 .
 add_result
 (
-            
 {
+            
 "
 results
 "
@@ -3639,6 +3640,7 @@ str
 (
 result_dir
 )
+            
 "
 name
 "
@@ -3651,8 +3653,8 @@ _test_script
 name
 "
 ]
-}
         
+}
 )
         
 return

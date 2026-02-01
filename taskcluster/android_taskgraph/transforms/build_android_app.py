@@ -660,17 +660,16 @@ secrets
 .
 extend
 (
-                
 [
-                    
+                
 {
-                        
+                    
 "
 key
 "
 :
 key
-                        
+                    
 "
 name
 "
@@ -684,15 +683,15 @@ name
 "
 ]
 )
-                        
+                    
 "
 path
 "
 :
 target_file
-                    
+                
 }
-                    
+                
 for
 key
 target_file
@@ -701,9 +700,8 @@ _get_secrets_keys_and_target_files
 (
 task
 )
-                
-]
             
+]
 )
         
 else
@@ -713,31 +711,30 @@ dummy_secrets
 .
 extend
 (
-                
 [
-                    
+                
 {
-                        
+                    
 "
 content
 "
 :
 fake_value
-                        
+                    
 "
 path
 "
 :
 target_file
-                    
+                
 }
-                    
+                
 for
 fake_value
 target_file
 in
 (
-                        
+                    
 (
 "
 faketoken
@@ -747,7 +744,7 @@ faketoken
 adjust_token
 "
 )
-                        
+                    
 (
 "
 faketoken
@@ -757,7 +754,7 @@ faketoken
 mls_token
 "
 )
-                        
+                    
 (
 "
 https
@@ -780,11 +777,10 @@ net
 sentry_token
 "
 )
-                    
-)
                 
-]
+)
             
+]
 )
         
 yield
@@ -881,15 +877,14 @@ secrets
 .
 extend
 (
-            
 [
-                
+            
 (
-                    
+                
 "
 firebase
 "
-                    
+                
 f
 "
 app
@@ -908,9 +903,9 @@ firebase
 .
 xml
 "
-                
+            
 )
-                
+            
 (
 "
 wallpaper_url
@@ -918,21 +913,20 @@ wallpaper_url
 "
 .
 wallpaper_url
-"
-)
-                
-(
-"
-pocket_consumer_key
-"
-"
-.
-pocket_consumer_key
 "
 )
             
-]
+(
+"
+pocket_consumer_key
+"
+"
+.
+pocket_consumer_key
+"
+)
         
+]
 )
     
 return
@@ -1572,9 +1566,8 @@ gradlew
 .
 extend
 (
-                
 [
-                    
+                
 #
 We
 only
@@ -1591,7 +1584,7 @@ name
 will
 be
 determined
-                    
+                
 #
 by
 Gradle
@@ -1608,14 +1601,13 @@ version
 being
 used
 )
-                    
+                
 "
 -
 Pofficial
 "
-                
-]
             
+]
 )
         
 yield
@@ -1667,8 +1659,8 @@ gradlew
 .
 extend
 (
-                
 [
+                
 "
 -
 PversionName
@@ -1688,12 +1680,13 @@ version
 "
 ]
 )
+                
 "
 -
 Pofficial
 "
-]
             
+]
 )
         
 yield
@@ -1965,9 +1958,8 @@ artifacts
 .
 append
 (
-                    
 {
-                        
+                    
 "
 type
 "
@@ -1978,13 +1970,13 @@ artifact_template
 type
 "
 ]
-                        
+                    
 "
 name
 "
 :
 apk_name
-                        
+                    
 "
 path
 "
@@ -1998,31 +1990,30 @@ path
 .
 format
 (
-                            
+                        
 gradle_build_type
 =
 gradle_build_type
-                            
+                        
 gradle_build
 =
 gradle_build
-                            
+                        
 apk_path
 =
 apk_path
-                            
+                        
 source_project_name
 =
 source_project_name
-                            
+                        
 *
 *
 apk
-                        
-)
                     
-}
+)
                 
+}
 )
                 
 apks
@@ -2143,9 +2134,8 @@ artifacts
 .
 append
 (
-                
 {
-                    
+                
 "
 type
 "
@@ -2156,7 +2146,7 @@ artifact_template
 type
 "
 ]
-                    
+                
 "
 name
 "
@@ -2167,7 +2157,7 @@ artifact_template
 name
 "
 ]
-                    
+                
 "
 path
 "
@@ -2181,31 +2171,30 @@ path
 .
 format
 (
-                        
-gradle_build_type
-=
-gradle_build_type
-                        
-gradle_build
-=
-gradle_build
-                        
-source_project_name
-=
-source_project_name
-                        
-variant_name
-=
-variant_name
-                        
-aab_filename
-=
-aab_filename
                     
-)
+gradle_build_type
+=
+gradle_build_type
+                    
+gradle_build
+=
+gradle_build
+                    
+source_project_name
+=
+source_project_name
+                    
+variant_name
+=
+variant_name
+                    
+aab_filename
+=
+aab_filename
                 
-}
+)
             
+}
 )
             
 task

@@ -497,8 +497,6 @@ None
 :
                 
 assert
-(
-                    
 metric
 .
 type
@@ -508,8 +506,8 @@ MIRROR_TYPES
 keys
 (
 )
-                
-)
+(
+                    
 f
 "
 {
@@ -526,6 +524,8 @@ supported
 type
 .
 "
+                
+)
                 
 yield
 metric
@@ -641,15 +641,13 @@ value
 continue
             
 assert
-(
-                
 key
 in
 probe
 .
 extra_keys
-            
-)
+(
+                
 f
 "
 Key
@@ -674,6 +672,8 @@ add
 it
 .
 "
+            
+)
     
 else
 :
@@ -710,6 +710,8 @@ value
 )
         
 )
+(
+            
 f
 "
 Metric
@@ -750,6 +752,8 @@ extra_keys
 }
 .
 "
+        
+)
 #
 Histograms
 are
@@ -810,8 +814,6 @@ counter
 :
         
 assert
-(
-            
 probe
 .
 kind
@@ -822,8 +824,8 @@ kind
 "
 count
 "
-        
-)
+(
+            
 f
 "
 Metric
@@ -872,6 +874,8 @@ kind
 .
 "
         
+)
+        
 return
     
 elif
@@ -915,6 +919,8 @@ true
 "
             
 ]
+(
+                
 f
 "
 Metric
@@ -959,6 +965,8 @@ instead
 )
 .
 "
+            
+)
         
 elif
 probe
@@ -974,15 +982,13 @@ count
 :
             
 assert
-(
-                
 probe
 .
 keyed
 (
 )
-            
-)
+(
+                
 f
 "
 Metric
@@ -1014,6 +1020,8 @@ name
 }
 .
 "
+            
+)
         
 elif
 probe
@@ -1029,8 +1037,6 @@ categorical
 :
             
 assert
-(
-                
 metric
 .
 ordered_labels
@@ -1041,8 +1047,8 @@ probe
 labels
 (
 )
-            
-)
+(
+                
 f
 "
 Metric
@@ -1076,16 +1082,16 @@ t
 match
 .
 "
+            
+)
         
 else
 :
             
 assert
+False
 (
                 
-False
-            
-)
 f
 "
 Metric
@@ -1140,6 +1146,8 @@ kind
 )
 .
 "
+            
+)
         
 return
     
@@ -1155,15 +1163,13 @@ dual_labeled_counter
 :
         
 assert
-(
-            
 probe
 .
 keyed
 (
 )
-        
-)
+(
+            
 f
 "
 Metric
@@ -1182,6 +1188,8 @@ keyed
 histogram
 .
 "
+        
+)
         
 if
 probe
@@ -1213,6 +1221,8 @@ true
 "
             
 ]
+(
+                
 f
 "
 Metric
@@ -1258,6 +1268,8 @@ instead
 )
 .
 "
+            
+)
         
 elif
 probe
@@ -1273,8 +1285,6 @@ categorical
 :
             
 assert
-(
-                
 metric
 .
 ordered_categories
@@ -1285,8 +1295,8 @@ probe
 labels
 (
 )
-            
-)
+(
+                
 f
 "
 Metric
@@ -1321,6 +1331,8 @@ t
 match
 .
 "
+            
+)
         
 return
     
@@ -1493,6 +1505,8 @@ bucket_count
 n_values_plus_one
         
 )
+(
+            
 f
 "
 Metric
@@ -1570,10 +1584,11 @@ n_values_plus_one
 )
 .
 "
+        
+)
     
 assert
 (
-        
 hasattr
 (
 metric
@@ -1585,7 +1600,6 @@ and
 metric
 .
 labeled
-    
 )
 =
 =
@@ -1594,6 +1608,8 @@ probe
 keyed
 (
 )
+(
+        
 f
 "
 Metric
@@ -1624,6 +1640,8 @@ s
 keyedness
 .
 "
+    
+)
 #
 Scalars
 are
@@ -1709,16 +1727,14 @@ rate
 ]
     
 assert
-(
-        
 mirror_should_be_keyed
 =
 =
 probe
 .
 keyed
-    
-)
+(
+        
 f
 "
 Metric
@@ -1755,6 +1771,8 @@ label
 }
 .
 "
+    
+)
     
 TYPE_MAP
 =
@@ -1867,8 +1885,6 @@ uint
 }
     
 assert
-(
-        
 TYPE_MAP
 [
 metric
@@ -1880,8 +1896,8 @@ type
 probe
 .
 kind
-    
-)
+(
+        
 f
 "
 Metric
@@ -1943,6 +1959,8 @@ kind
 }
 )
 "
+    
+)
 class
 TestTelemetryMirrors
 (
@@ -2085,8 +2103,8 @@ parse_histograms
 .
 from_files
 (
-                
 [
+                
 path
 .
 join
@@ -2098,8 +2116,8 @@ Histograms
 json
 "
 )
-]
             
+]
 )
         
 )
@@ -2411,11 +2429,9 @@ else
 :
                     
 assert
+False
 (
                         
-False
-                    
-)
 f
 "
 mirror
@@ -2435,13 +2451,13 @@ t
 recognized
 .
 "
+                    
+)
             
 assert
+found
 (
                 
-found
-            
-)
 f
 "
 Mirror
@@ -2462,6 +2478,8 @@ identifier
 )
 }
 "
+            
+)
         
 #
 Step

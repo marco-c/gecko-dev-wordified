@@ -1716,9 +1716,6 @@ environment
 variable
 name
 must
-"
-                
-"
 be
 given
 "

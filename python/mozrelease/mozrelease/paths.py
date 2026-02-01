@@ -352,9 +352,8 @@ return
 .
 join
 (
-                
 [
-                    
+                
 p
 .
 strip
@@ -363,16 +362,16 @@ strip
 /
 "
 )
-                    
+                
 for
 p
 in
 [
-                        
+                    
 platform
-                        
+                    
 locale
-                        
+                    
 "
 %
 s
@@ -391,11 +390,10 @@ productName
 version
 compression
 )
-                    
-]
                 
 ]
             
+]
 )
         
 elif
@@ -413,9 +411,8 @@ return
 .
 join
 (
-                
 [
-                    
+                
 p
 .
 strip
@@ -424,7 +421,7 @@ strip
 /
 "
 )
-                    
+                
 for
 p
 in
@@ -445,9 +442,8 @@ brandName
 version
 )
 ]
-                
-]
             
+]
 )
         
 elif
@@ -468,9 +464,8 @@ return
 .
 join
 (
-                
 [
-                    
+                
 p
 .
 strip
@@ -479,16 +474,16 @@ strip
 /
 "
 )
-                    
+                
 for
 p
 in
 [
-                        
+                    
 platform
-                        
+                    
 locale
-                        
+                    
 "
 %
 s
@@ -503,11 +498,10 @@ exe
 brandName
 version
 )
-                    
-]
                 
 ]
             
+]
 )
         
 else

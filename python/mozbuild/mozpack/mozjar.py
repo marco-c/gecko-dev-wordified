@@ -1435,9 +1435,8 @@ STRUCT
 =
 OrderedDict
 (
-        
 [
-            
+        
 (
 "
 disk_num
@@ -1446,7 +1445,7 @@ disk_num
 uint16
 "
 )
-            
+        
 (
 "
 cdir_disk
@@ -1455,7 +1454,7 @@ cdir_disk
 uint16
 "
 )
-            
+        
 (
 "
 disk_entries
@@ -1464,7 +1463,7 @@ disk_entries
 uint16
 "
 )
-            
+        
 (
 "
 cdir_entries
@@ -1473,7 +1472,7 @@ cdir_entries
 uint16
 "
 )
-            
+        
 (
 "
 cdir_size
@@ -1482,7 +1481,7 @@ cdir_size
 uint32
 "
 )
-            
+        
 (
 "
 cdir_offset
@@ -1491,7 +1490,7 @@ cdir_offset
 uint32
 "
 )
-            
+        
 (
 "
 comment_size
@@ -1500,7 +1499,7 @@ comment_size
 uint16
 "
 )
-            
+        
 (
 "
 comment
@@ -1509,9 +1508,8 @@ comment
 comment_size
 "
 )
-        
-]
     
+]
 )
 CDIR_END_SIZE
 =
@@ -1548,9 +1546,8 @@ STRUCT
 =
 OrderedDict
 (
-        
 [
-            
+        
 (
 "
 creator_version
@@ -1559,7 +1556,7 @@ creator_version
 uint16
 "
 )
-            
+        
 (
 "
 min_version
@@ -1568,7 +1565,7 @@ min_version
 uint16
 "
 )
-            
+        
 (
 "
 general_flag
@@ -1577,7 +1574,7 @@ general_flag
 uint16
 "
 )
-            
+        
 (
 "
 compression
@@ -1586,7 +1583,7 @@ compression
 uint16
 "
 )
-            
+        
 (
 "
 lastmod_time
@@ -1595,7 +1592,7 @@ lastmod_time
 uint16
 "
 )
-            
+        
 (
 "
 lastmod_date
@@ -1604,7 +1601,7 @@ lastmod_date
 uint16
 "
 )
-            
+        
 (
 "
 crc32
@@ -1613,7 +1610,7 @@ crc32
 uint32
 "
 )
-            
+        
 (
 "
 compressed_size
@@ -1622,7 +1619,7 @@ compressed_size
 uint32
 "
 )
-            
+        
 (
 "
 uncompressed_size
@@ -1631,7 +1628,7 @@ uncompressed_size
 uint32
 "
 )
-            
+        
 (
 "
 filename_size
@@ -1640,7 +1637,7 @@ filename_size
 uint16
 "
 )
-            
+        
 (
 "
 extrafield_size
@@ -1649,7 +1646,7 @@ extrafield_size
 uint16
 "
 )
-            
+        
 (
 "
 filecomment_size
@@ -1658,7 +1655,7 @@ filecomment_size
 uint16
 "
 )
-            
+        
 (
 "
 disknum
@@ -1667,7 +1664,7 @@ disknum
 uint16
 "
 )
-            
+        
 (
 "
 internal_attr
@@ -1676,7 +1673,7 @@ internal_attr
 uint16
 "
 )
-            
+        
 (
 "
 external_attr
@@ -1685,7 +1682,7 @@ external_attr
 uint32
 "
 )
-            
+        
 (
 "
 offset
@@ -1694,7 +1691,7 @@ offset
 uint32
 "
 )
-            
+        
 (
 "
 filename
@@ -1703,7 +1700,7 @@ filename
 filename_size
 "
 )
-            
+        
 (
 "
 extrafield
@@ -1712,7 +1709,7 @@ extrafield
 extrafield_size
 "
 )
-            
+        
 (
 "
 filecomment
@@ -1721,9 +1718,8 @@ filecomment
 filecomment_size
 "
 )
-        
-]
     
+]
 )
 class
 JarLocalFileHeader
@@ -1752,9 +1748,8 @@ STRUCT
 =
 OrderedDict
 (
-        
 [
-            
+        
 (
 "
 min_version
@@ -1763,7 +1758,7 @@ min_version
 uint16
 "
 )
-            
+        
 (
 "
 general_flag
@@ -1772,7 +1767,7 @@ general_flag
 uint16
 "
 )
-            
+        
 (
 "
 compression
@@ -1781,7 +1776,7 @@ compression
 uint16
 "
 )
-            
+        
 (
 "
 lastmod_time
@@ -1790,7 +1785,7 @@ lastmod_time
 uint16
 "
 )
-            
+        
 (
 "
 lastmod_date
@@ -1799,7 +1794,7 @@ lastmod_date
 uint16
 "
 )
-            
+        
 (
 "
 crc32
@@ -1808,7 +1803,7 @@ crc32
 uint32
 "
 )
-            
+        
 (
 "
 compressed_size
@@ -1817,7 +1812,7 @@ compressed_size
 uint32
 "
 )
-            
+        
 (
 "
 uncompressed_size
@@ -1826,7 +1821,7 @@ uncompressed_size
 uint32
 "
 )
-            
+        
 (
 "
 filename_size
@@ -1835,7 +1830,7 @@ filename_size
 uint16
 "
 )
-            
+        
 (
 "
 extra_field_size
@@ -1844,7 +1839,7 @@ extra_field_size
 uint16
 "
 )
-            
+        
 (
 "
 filename
@@ -1853,7 +1848,7 @@ filename
 filename_size
 "
 )
-            
+        
 (
 "
 extra_field
@@ -1862,9 +1857,8 @@ extra_field
 extra_field_size
 "
 )
-        
-]
     
+]
 )
 class
 JarFileReader

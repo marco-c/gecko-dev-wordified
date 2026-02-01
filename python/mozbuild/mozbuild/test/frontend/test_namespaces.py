@@ -342,17 +342,15 @@ Piyo
             
 StrictOrderingOnAppendListWithFlagsFactory
 (
-                
 {
-                    
+                
 "
 foo
 "
 :
 bool
-                
-}
             
+}
 )
         
 )

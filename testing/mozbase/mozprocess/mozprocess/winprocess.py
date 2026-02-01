@@ -2172,7 +2172,9 @@ WINFUNCTYPE
 (
     
 HANDLE
+    
 LPVOID
+    
 LPCWSTR
 #
 Return
@@ -2230,7 +2232,9 @@ WINFUNCTYPE
 (
     
 BOOL
+    
 HANDLE
+    
 HANDLE
 #
 Return
@@ -2512,7 +2516,9 @@ WINFUNCTYPE
 (
     
 BOOL
+    
 HANDLE
+    
 UINT
 #
 Return
@@ -2569,7 +2575,9 @@ WINFUNCTYPE
 (
     
 BOOL
+    
 HANDLE
+    
 UINT
 #
 Return

@@ -201,29 +201,27 @@ ACCEPTABLE_ERRATA_KEYS
 =
 set
 (
-    
 [
-        
+    
 "
 fail
 -
 if
 "
-        
+    
 "
 prefs
 "
-        
+    
 "
 skip
 -
 if
 "
-        
+    
 "
 tags
 "
-    
 ]
 )
 def
@@ -3084,14 +3082,12 @@ strip
 )
                     
 assert
-(
-                        
 curSectionName
 not
 in
 ret
-                    
-)
+(
+                        
 f
 "
 Line
@@ -3106,6 +3102,8 @@ section
 line
 }
 "
+                    
+)
                     
 curSectionMap
 =
@@ -3292,10 +3290,10 @@ path
 .
 exists
 (
-                
 path
-            
 )
+(
+                
 f
 "
 Errata
@@ -3311,6 +3309,8 @@ file
 sectionName
 }
 "
+            
+)
         
 for
 key

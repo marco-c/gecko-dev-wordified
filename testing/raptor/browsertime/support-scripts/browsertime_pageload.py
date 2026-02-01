@@ -1105,8 +1105,8 @@ powerUsage
 .
 extend
 (
-                
 [
+                
 round
 (
 vals
@@ -1131,8 +1131,8 @@ for
 vals
 in
 power_vals
-]
             
+]
 )
     
 def

@@ -207,23 +207,21 @@ attributes
 .
 update
 (
-            
 {
-                
-"
-build_platform
-"
-:
-build_platform
-                
-"
-build_type
-"
-:
-build_type
             
-}
+"
+build_platform
+"
+:
+build_platform
+            
+"
+build_type
+"
+:
+build_type
         
+}
 )
         
 yield

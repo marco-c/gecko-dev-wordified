@@ -935,15 +935,14 @@ db
 .
 append
 (
-                
 {
-                    
+                
 "
 directory
 "
 :
 directory
-                    
+                
 "
 command
 "
@@ -953,7 +952,7 @@ shell_quote
 *
 c
 )
-                    
+                
 "
 file
 "
@@ -965,9 +964,8 @@ join
 directory
 filename
 )
-                
-}
             
+}
 )
         
 import

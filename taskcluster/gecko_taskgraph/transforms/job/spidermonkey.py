@@ -109,9 +109,8 @@ sm_run_schema
 =
 Schema
 (
-    
 {
-        
+    
 Required
 (
 "
@@ -121,24 +120,24 @@ using
 :
 Any
 (
-            
+        
 "
 spidermonkey
 "
-            
+        
 "
 spidermonkey
 -
 package
 "
-        
+    
 )
-        
+    
 #
 SPIDERMONKEY_VARIANT
 and
 SPIDERMONKEY_PLATFORM
-        
+    
 Required
 (
 "
@@ -149,7 +148,7 @@ variant
 )
 :
 str
-        
+    
 Optional
 (
 "
@@ -160,7 +159,7 @@ platform
 )
 :
 str
-        
+    
 #
 Base
 work
@@ -172,7 +171,7 @@ up
 the
 task
 .
-        
+    
 Optional
 (
 "
@@ -181,7 +180,7 @@ workdir
 )
 :
 str
-        
+    
 Required
 (
 "
@@ -193,19 +192,18 @@ downloads
 :
 Any
 (
-            
+        
 False
-            
+        
 "
 public
 "
-            
+        
 "
 internal
 "
-        
-)
     
+)
 }
 )
 run_job_using
@@ -307,9 +305,8 @@ env
 .
 update
 (
-        
 {
-            
+        
 "
 MOZHARNESS_DISABLE
 "
@@ -317,7 +314,7 @@ MOZHARNESS_DISABLE
 "
 true
 "
-            
+        
 "
 SPIDERMONKEY_VARIANT
 "
@@ -332,7 +329,7 @@ spidermonkey
 variant
 "
 )
-            
+        
 "
 MOZ_BUILD_DATE
 "
@@ -345,7 +342,7 @@ params
 moz_build_date
 "
 ]
-            
+        
 "
 MOZ_SCM_LEVEL
 "
@@ -358,9 +355,8 @@ params
 level
 "
 ]
-        
-}
     
+}
 )
     
 if
@@ -593,9 +589,8 @@ env
 .
 update
 (
-        
 {
-            
+        
 "
 MOZHARNESS_DISABLE
 "
@@ -603,7 +598,7 @@ MOZHARNESS_DISABLE
 "
 true
 "
-            
+        
 "
 SPIDERMONKEY_VARIANT
 "
@@ -618,7 +613,7 @@ spidermonkey
 variant
 "
 )
-            
+        
 "
 MOZ_BUILD_DATE
 "
@@ -631,7 +626,7 @@ params
 moz_build_date
 "
 ]
-            
+        
 "
 MOZ_SCM_LEVEL
 "
@@ -644,7 +639,7 @@ params
 level
 "
 ]
-            
+        
 "
 SCCACHE_DISABLE
 "
@@ -652,7 +647,7 @@ SCCACHE_DISABLE
 "
 1
 "
-            
+        
 "
 WORK
 "
@@ -667,7 +662,7 @@ defaults
 in
 build
 scripts
-            
+        
 "
 GECKO_PATH
 "
@@ -685,7 +680,7 @@ for
 windows
 generic
 worker
-            
+        
 "
 UPLOAD_DIR
 "
@@ -697,9 +692,8 @@ public
 /
 build
 "
-        
-}
     
+}
 )
     
 if

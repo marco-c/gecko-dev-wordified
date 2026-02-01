@@ -1353,9 +1353,8 @@ self
 .
 log
 (
-                
 {
-                    
+                
 "
 level
 "
@@ -1363,7 +1362,7 @@ level
 "
 ERROR
 "
-                    
+                
 "
 message
 "
@@ -1392,7 +1391,7 @@ item
 %
 s
 "
-                    
+                
 %
 (
 item
@@ -1406,9 +1405,8 @@ self
 groups
 item
 )
-                
-}
             
+}
 )
         
 return

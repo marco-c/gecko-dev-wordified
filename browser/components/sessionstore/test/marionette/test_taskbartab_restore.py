@@ -181,15 +181,14 @@ test_windows
 =
 set
 (
-                
 [
-                    
+                
 #
 Window
 1
-                    
+                
 (
-                        
+                    
 inline
 (
 "
@@ -197,18 +196,17 @@ lorem
 ipsom
 "
 )
-                        
+                    
 inline
 (
 "
 dolor
 "
 )
-                    
-)
                 
-]
+)
             
+]
 )
         
 )
@@ -562,15 +560,14 @@ test_windows
 =
 set
 (
-                
 [
-                    
+                
 #
 Window
 1
-                    
+                
 (
-                        
+                    
 inline
 (
 "
@@ -578,18 +575,17 @@ lorem
 ipsom
 "
 )
-                        
+                    
 inline
 (
 "
 dolor
 "
 )
-                    
-)
                 
-]
+)
             
+]
 )
         
 )

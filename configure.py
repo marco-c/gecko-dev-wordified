@@ -54,8 +54,6 @@ MPL
 /
 .
 import
-codecs
-import
 itertools
 import
 logging
@@ -1933,8 +1931,6 @@ autoconf
 .
     
 with
-codecs
-.
 open
 (
 "
@@ -1945,6 +1941,8 @@ status
 "
 w
 "
+encoding
+=
 "
 utf
 -
@@ -2074,8 +2072,6 @@ topsrcdir
 '
 defines
 '
-"
-"
 '
 substs
 '

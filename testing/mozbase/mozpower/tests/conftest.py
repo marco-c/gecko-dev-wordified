@@ -590,13 +590,11 @@ mock
 .
 patch
 (
-        
 "
 subprocess
 .
 check_output
 "
-    
 )
 as
 subprocess_mock

@@ -2154,6 +2154,7 @@ ValueError
                             
 print
 (
+f
 "
 warning
 :
@@ -2163,9 +2164,6 @@ t
 parse
 exit
 status
-"
-f
-"
 {
 value
 }
@@ -2216,6 +2214,7 @@ ValueError
                             
 print
 (
+f
 "
 warning
 :
@@ -2226,9 +2225,6 @@ parse
 thread
 -
 count
-"
-f
-"
 {
 value
 }
@@ -2384,10 +2380,6 @@ jit
 test
 |
 attribute
-"
-                            
-f
-"
 {
 part
 }
@@ -2679,8 +2671,6 @@ skipped
 .
                     
 assert
-(
-                        
 "
 self
 -
@@ -2688,8 +2678,8 @@ test
 "
 in
 path
-                    
-)
+(
+                        
 f
 "
 {
@@ -2703,6 +2693,8 @@ crash
 annotation
 .
 "
+                    
+)
                     
 test
 .
@@ -2834,7 +2826,6 @@ else
                     
 print
 (
-                        
 f
 "
 {
@@ -2850,14 +2841,10 @@ jit
 test
 |
 attribute
-"
-f
-"
 {
 part
 }
 "
-                    
 )
         
 if

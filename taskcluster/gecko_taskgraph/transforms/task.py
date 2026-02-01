@@ -534,16 +534,15 @@ task_description_schema
 =
 Schema
 (
-    
 {
-        
+    
 #
 the
 label
 for
 this
 task
-        
+    
 Required
 (
 "
@@ -552,7 +551,7 @@ label
 )
 :
 str
-        
+    
 #
 description
 of
@@ -562,7 +561,7 @@ task
 for
 metadata
 )
-        
+    
 Required
 (
 "
@@ -571,13 +570,13 @@ description
 )
 :
 str
-        
+    
 #
 attributes
 for
 this
 task
-        
+    
 Optional
 (
 "
@@ -590,7 +589,7 @@ str
 :
 object
 }
-        
+    
 #
 relative
 path
@@ -607,7 +606,7 @@ task
 was
 defined
 in
-        
+    
 Optional
 (
 "
@@ -618,7 +617,7 @@ from
 )
 :
 str
-        
+    
 #
 dependencies
 of
@@ -632,7 +631,7 @@ these
 are
 passed
 through
-        
+    
 #
 verbatim
 and
@@ -646,11 +645,11 @@ Task
 '
 s
 get_dependencies
-        
+    
 #
 method
 .
-        
+    
 Optional
 (
 "
@@ -659,15 +658,15 @@ dependencies
 )
 :
 {
-            
+        
 All
 (
-                
+            
 str
-                
+            
 NotIn
 (
-                    
+                
 [
 "
 self
@@ -676,7 +675,7 @@ self
 decision
 "
 ]
-                    
+                
 "
 Can
 '
@@ -693,15 +692,15 @@ depdency
 names
 .
 "
-                
-)
             
+)
+        
 )
 :
 object
-        
+    
 }
-        
+    
 #
 Soft
 dependencies
@@ -714,7 +713,7 @@ list
 of
 tasks
 labels
-        
+    
 Optional
 (
 "
@@ -727,7 +726,7 @@ dependencies
 [
 str
 ]
-        
+    
 #
 Dependencies
 that
@@ -742,7 +741,7 @@ task
 to
 run
 .
-        
+    
 Optional
 (
 "
@@ -755,7 +754,7 @@ dependencies
 [
 str
 ]
-        
+    
 Optional
 (
 "
@@ -776,7 +775,7 @@ all
 resolved
 "
 )
-        
+    
 #
 expiration
 and
@@ -788,7 +787,7 @@ task
 creation
 with
 units
-        
+    
 #
 (
 e
@@ -809,7 +808,7 @@ on
 the
 project
 .
-        
+    
 Optional
 (
 "
@@ -820,7 +819,7 @@ after
 )
 :
 str
-        
+    
 Optional
 (
 "
@@ -831,7 +830,7 @@ after
 )
 :
 str
-        
+    
 Optional
 (
 "
@@ -842,7 +841,7 @@ policy
 )
 :
 str
-        
+    
 #
 custom
 routes
@@ -857,10 +856,10 @@ routes
 will
 be
 added
-        
+    
 #
 automatically
-        
+    
 Optional
 (
 "
@@ -871,7 +870,7 @@ routes
 [
 str
 ]
-        
+    
 #
 custom
 scopes
@@ -887,7 +886,7 @@ the
 worker
 will
 be
-        
+    
 #
 added
 automatically
@@ -900,11 +899,11 @@ be
 substituted
 in
 each
-        
+    
 #
 scope
 :
-        
+    
 #
 {
 level
@@ -917,7 +916,7 @@ level
 of
 this
 push
-        
+    
 #
 {
 project
@@ -929,7 +928,7 @@ project
 of
 this
 push
-        
+    
 Optional
 (
 "
@@ -940,10 +939,10 @@ scopes
 [
 str
 ]
-        
+    
 #
 Tags
-        
+    
 Optional
 (
 "
@@ -956,7 +955,7 @@ str
 :
 str
 }
-        
+    
 #
 custom
 "
@@ -965,7 +964,7 @@ task
 extra
 "
 content
-        
+    
 Optional
 (
 "
@@ -978,7 +977,7 @@ str
 :
 object
 }
-        
+    
 #
 treeherder
 -
@@ -986,7 +985,7 @@ related
 information
 ;
 see
-        
+    
 #
 https
 :
@@ -1019,7 +1018,7 @@ treeherder
 config
 .
 json
-        
+    
 #
 If
 not
@@ -1032,13 +1031,13 @@ or
 routes
 will
 be
-        
+    
 #
 added
 to
 the
 task
-        
+    
 Optional
 (
 "
@@ -1047,7 +1046,7 @@ treeherder
 )
 :
 {
-            
+        
 #
 either
 a
@@ -1061,18 +1060,18 @@ sym
 )
 "
 .
-            
+        
 "
 symbol
 "
 :
 str
-            
+        
 #
 the
 job
 kind
-            
+        
 "
 kind
 "
@@ -1089,19 +1088,19 @@ test
 other
 "
 )
-            
+        
 #
 tier
 for
 this
 task
-            
+        
 "
 tier
 "
 :
 int
-            
+        
 #
 task
 platform
@@ -1114,7 +1113,7 @@ collection
 used
 to
 set
-            
+        
 #
 treeherder
 .
@@ -1126,12 +1125,12 @@ treeherder
 .
 collection
 or
-            
+        
 #
 treeherder
 .
 labels
-            
+        
 "
 platform
 "
@@ -1171,9 +1170,9 @@ z0
 }
 "
 )
-        
+    
 }
-        
+    
 #
 information
 for
@@ -1187,7 +1186,7 @@ can
 be
 discovered
 ;
-        
+    
 #
 if
 omitted
@@ -1198,7 +1197,7 @@ not
 be
 indexed
 .
-        
+    
 Optional
 (
 "
@@ -1207,7 +1206,7 @@ index
 )
 :
 {
-            
+        
 #
 the
 name
@@ -1217,13 +1216,13 @@ product
 this
 build
 produces
-            
+        
 "
 product
 "
 :
 str
-            
+        
 #
 the
 names
@@ -1236,7 +1235,7 @@ in
 the
 TaskCluster
 index
-            
+        
 "
 job
 -
@@ -1244,7 +1243,7 @@ name
 "
 :
 str
-            
+        
 #
 Type
 of
@@ -1253,51 +1252,41 @@ v2
 index
 to
 use
-            
+        
 "
 type
 "
 :
 Any
 (
-                
+            
 "
 generic
 "
-                
+            
 "
 l10n
 "
-                
+            
 "
 shippable
 "
-                
+            
 "
 shippable
 -
 l10n
 "
-                
+            
 "
 android
 -
 shippable
 "
-                
+            
 "
 android
 -
-shippable
--
-with
--
-multi
--
-l10n
-"
-                
-"
 shippable
 -
 with
@@ -1307,8 +1296,18 @@ multi
 l10n
 "
             
+"
+shippable
+-
+with
+-
+multi
+-
+l10n
+"
+        
 )
-            
+        
 #
 The
 rank
@@ -1320,7 +1319,7 @@ receive
 in
 the
 TaskCluster
-            
+        
 #
 index
 .
@@ -1331,7 +1330,7 @@ task
 supercedes
 the
 currently
-            
+        
 #
 indexed
 task
@@ -1344,7 +1343,7 @@ rank
 .
 If
 unspecified
-            
+        
 #
 '
 by
@@ -1356,14 +1355,14 @@ will
 be
 used
 .
-            
+        
 "
 rank
 "
 :
 Any
 (
-                
+            
 #
 Rank
 is
@@ -1377,7 +1376,7 @@ for
 tier
 -
 1
-                
+            
 #
 tasks
 and
@@ -1397,7 +1396,7 @@ tier
 2
 3
 }
-                
+            
 #
 builds
 below
@@ -1413,13 +1412,13 @@ eager
 -
 index
 .
-                
+            
 "
 by
 -
 tier
 "
-                
+            
 #
 Rank
 is
@@ -1436,7 +1435,7 @@ g
 zero
 to
 make
-                
+            
 #
 sure
 a
@@ -1448,9 +1447,9 @@ the
 index
 )
 .
-                
+            
 int
-                
+            
 #
 Rank
 is
@@ -1463,7 +1462,7 @@ the
 build_date
 .
 This
-                
+            
 #
 option
 can
@@ -1478,7 +1477,7 @@ by
 tier
 '
 behavior
-                
+            
 #
 for
 non
@@ -1488,15 +1487,15 @@ tier
 1
 tasks
 .
-                
+            
 "
 build_date
 "
-            
+        
 )
-        
+    
 }
-        
+    
 #
 The
 run_on_repo_type
@@ -1509,7 +1508,7 @@ hg
 .
 This
 dictates
-        
+    
 #
 the
 types
@@ -1523,7 +1522,7 @@ should
 be
 included
 in
-        
+    
 #
 the
 target
@@ -1537,7 +1536,7 @@ documentation
 for
 details
 .
-        
+    
 Optional
 (
 "
@@ -1562,7 +1561,7 @@ hg
 "
 )
 ]
-        
+    
 #
 The
 run_on_projects
@@ -1576,7 +1575,7 @@ all
 This
 dictates
 the
-        
+    
 #
 projects
 on
@@ -1592,7 +1591,7 @@ target
 task
 set
 .
-        
+    
 #
 See
 the
@@ -1601,7 +1600,7 @@ documentation
 for
 details
 .
-        
+    
 Optional
 (
 "
@@ -1624,7 +1623,7 @@ platform
 str
 ]
 )
-        
+    
 #
 Like
 run_on_projects
@@ -1641,7 +1640,7 @@ to
 all
 "
 .
-        
+    
 Optional
 (
 "
@@ -1664,7 +1663,7 @@ project
 str
 ]
 )
-        
+    
 #
 Specifies
 git
@@ -1676,7 +1675,7 @@ task
 should
 run
 .
-        
+    
 Optional
 (
 "
@@ -1693,7 +1692,7 @@ branches
 [
 str
 ]
-        
+    
 #
 The
 shipping_phase
@@ -1705,7 +1704,7 @@ None
 This
 specifies
 the
-        
+    
 #
 release
 promotion
@@ -1716,7 +1715,7 @@ task
 belongs
 to
 .
-        
+    
 Required
 (
 "
@@ -1728,27 +1727,27 @@ phase
 :
 Any
 (
-            
+        
 None
-            
+        
 "
 build
 "
-            
+        
 "
 promote
 "
-            
+        
 "
 push
 "
-            
+        
 "
 ship
 "
-        
+    
 )
-        
+    
 #
 The
 shipping_product
@@ -1760,7 +1759,7 @@ None
 This
 specifies
 the
-        
+    
 #
 release
 promotion
@@ -1771,7 +1770,7 @@ task
 belongs
 to
 .
-        
+    
 Required
 (
 "
@@ -1786,7 +1785,7 @@ Any
 None
 str
 )
-        
+    
 #
 The
 always
@@ -1802,7 +1801,7 @@ be
 included
 in
 the
-        
+    
 #
 target_task_graph
 regardless
@@ -1814,7 +1813,7 @@ included
 in
 this
 manner
-        
+    
 #
 will
 be
@@ -1825,7 +1824,7 @@ even
 when
 optimize_target_tasks
 is
-        
+    
 #
 False
 unless
@@ -1838,11 +1837,11 @@ chosen
 by
 the
 target_tasks
-        
+    
 #
 method
 .
-        
+    
 Required
 (
 "
@@ -1853,7 +1852,7 @@ target
 )
 :
 bool
-        
+    
 #
 Optimization
 to
@@ -1866,7 +1865,7 @@ the
 optimization
 phase
 .
-        
+    
 #
 Optimizations
 are
@@ -1880,7 +1879,7 @@ optimize
 .
 py
 .
-        
+    
 Required
 (
 "
@@ -1889,7 +1888,7 @@ optimization
 )
 :
 OptimizationSchema
-        
+    
 #
 the
 provisioner
@@ -1907,7 +1906,7 @@ The
 following
 parameters
 will
-        
+    
 #
 be
 substituted
@@ -1915,7 +1914,7 @@ in
 this
 string
 :
-        
+    
 #
 {
 level
@@ -1928,7 +1927,7 @@ level
 of
 this
 push
-        
+    
 "
 worker
 -
@@ -1936,7 +1935,7 @@ type
 "
 :
 str
-        
+    
 #
 Whether
 the
@@ -1947,7 +1946,7 @@ sccache
 compiler
 caching
 .
-        
+    
 Required
 (
 "
@@ -1958,7 +1957,7 @@ sccache
 )
 :
 bool
-        
+    
 #
 information
 specific
@@ -1971,7 +1970,7 @@ will
 run
 this
 task
-        
+    
 Optional
 (
 "
@@ -1980,7 +1979,7 @@ worker
 )
 :
 {
-            
+        
 Required
 (
 "
@@ -1989,13 +1988,13 @@ implementation
 )
 :
 str
-            
+        
 Extra
 :
 object
-        
+    
 }
-        
+    
 #
 Override
 the
@@ -2004,7 +2003,7 @@ priority
 for
 the
 project
-        
+    
 Optional
 (
 "
@@ -2013,14 +2012,14 @@ priority
 )
 :
 str
-        
+    
 #
 Override
 the
 default
 5
 retries
-        
+    
 Optional
 (
 "
@@ -2029,7 +2028,6 @@ retries
 )
 :
 int
-    
 }
 )
 TC_TREEHERDER_SCHEMA_URL
@@ -2087,8 +2085,6 @@ has
 no
 name
 ;
-"
-"
 add
 it
 to
@@ -6308,6 +6304,7 @@ Any
 [
 taskref_or_string
 ]
+            
 [
 [
 taskref_or_string
@@ -8025,9 +8022,8 @@ scopes
 .
 extend
 (
-            
 [
-                
+            
 "
 generic
 -
@@ -8056,7 +8052,7 @@ type
 ]
 group
 )
-                
+            
 for
 group
 in
@@ -8068,9 +8064,8 @@ os
 groups
 "
 ]
-            
-]
         
+]
 )
     
 if
@@ -10527,9 +10522,8 @@ payload
 .
 update
 (
-            
 {
-                
+            
 "
 upstreamArtifacts
 "
@@ -10542,7 +10536,7 @@ upstream
 artifacts
 "
 ]
-                
+            
 "
 suffixes
 "
@@ -10553,9 +10547,8 @@ worker
 suffixes
 "
 ]
-            
-}
         
+}
 )
     
 else
@@ -10696,9 +10689,8 @@ payload
 .
 update
 (
-            
 {
-                
+            
 "
 build_number
 "
@@ -10709,7 +10701,7 @@ release_config
 build_number
 "
 ]
-                
+            
 "
 product
 "
@@ -10720,7 +10712,7 @@ worker
 product
 "
 ]
-                
+            
 "
 version
 "
@@ -10731,9 +10723,8 @@ release_config
 version
 "
 ]
-            
-}
         
+}
 )
         
 for
@@ -10859,9 +10850,8 @@ payload
 .
 update
 (
-                
 {
-                    
+                
 "
 app_version
 "
@@ -10872,7 +10862,7 @@ release_config
 appVersion
 "
 ]
-                    
+                
 "
 archive_domain
 "
@@ -10885,7 +10875,7 @@ archive
 domain
 "
 ]
-                    
+                
 "
 channel_names
 "
@@ -10898,7 +10888,7 @@ channel
 names
 "
 ]
-                    
+                
 "
 download_domain
 "
@@ -10911,7 +10901,7 @@ download
 domain
 "
 ]
-                    
+                
 "
 partial_versions
 "
@@ -10926,7 +10916,7 @@ partial_versions
 "
 "
 )
-                    
+                
 "
 platforms
 "
@@ -10937,7 +10927,7 @@ worker
 platforms
 "
 ]
-                    
+                
 "
 rules_to_update
 "
@@ -10952,7 +10942,7 @@ to
 update
 "
 ]
-                    
+                
 "
 require_mirrors
 "
@@ -10965,7 +10955,7 @@ require
 mirrors
 "
 ]
-                    
+                
 "
 update_line
 "
@@ -10978,9 +10968,8 @@ update
 line
 "
 ]
-                
-}
             
+}
 )
         
 else
@@ -10999,9 +10988,8 @@ payload
 .
 update
 (
-                
 {
-                    
+                
 "
 publish_rules
 "
@@ -11014,7 +11002,7 @@ publish
 rules
 "
 ]
-                    
+                
 "
 release_eta
 "
@@ -11023,7 +11011,7 @@ worker
 .
 get
 (
-                        
+                    
 "
 release
 -
@@ -11039,15 +11027,14 @@ get
 release_eta
 "
 )
-                    
+                
 )
-                    
+                
 or
 "
 "
-                
-}
             
+}
 )
             
 if
@@ -12692,9 +12679,8 @@ tag_names
 .
 extend
 (
-                
 [
-                    
+                
 f
 "
 {
@@ -12709,9 +12695,8 @@ _BUILD
 buildnum
 }
 "
-                
-]
             
+]
 )
         
 if
@@ -14868,9 +14853,8 @@ tag_names
 .
 extend
 (
-                
 [
-                    
+                
 f
 "
 {
@@ -14885,9 +14869,8 @@ _BUILD
 buildnum
 }
 "
-                
-]
             
+]
 )
         
 if
@@ -19948,9 +19931,8 @@ tags
 .
 update
 (
-            
 {
-                
+            
 "
 createdForUser
 "
@@ -19963,7 +19945,7 @@ params
 owner
 "
 ]
-                
+            
 "
 kind
 "
@@ -19971,7 +19953,7 @@ kind
 config
 .
 kind
-                
+            
 "
 label
 "
@@ -19982,7 +19964,7 @@ task
 label
 "
 ]
-                
+            
 "
 retrigger
 "
@@ -20004,7 +19986,7 @@ else
 "
 false
 "
-                
+            
 "
 project
 "
@@ -20017,7 +19999,7 @@ params
 project
 "
 ]
-                
+            
 "
 trust
 -
@@ -20034,9 +20016,8 @@ trust
 domain
 "
 ]
-            
-}
         
+}
 )
         
 task_def
@@ -20960,9 +20941,8 @@ env
 .
 update
 (
-                    
 {
-                        
+                    
 "
 MOZ_AUTOMATION
 "
@@ -20970,7 +20950,7 @@ MOZ_AUTOMATION
 "
 1
 "
-                        
+                    
 "
 MOZ_BUILD_DATE
 "
@@ -20983,7 +20963,7 @@ params
 moz_build_date
 "
 ]
-                        
+                    
 "
 MOZ_SCM_LEVEL
 "
@@ -20996,7 +20976,7 @@ params
 level
 "
 ]
-                        
+                    
 "
 MOZ_SOURCE_CHANGESET
 "
@@ -21005,7 +20985,7 @@ get_branch_rev
 (
 config
 )
-                        
+                    
 "
 MOZ_SOURCE_REPO
 "
@@ -21014,9 +20994,8 @@ get_branch_repo
 (
 config
 )
-                    
-}
                 
+}
 )
         
 dependencies

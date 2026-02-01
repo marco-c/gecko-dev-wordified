@@ -104,9 +104,8 @@ marionette
 .
 enforce_gecko_prefs
 (
-            
 {
-                
+            
 "
 datareporting
 .
@@ -116,7 +115,7 @@ uploadEnabled
 "
 :
 True
-                
+            
 "
 telemetry
 .
@@ -128,7 +127,7 @@ localhost_port
 "
 :
 3000
-                
+            
 "
 browser
 .
@@ -138,9 +137,8 @@ log
 "
 :
 True
-            
-}
         
+}
 )
         
 #

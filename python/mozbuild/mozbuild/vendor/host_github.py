@@ -241,8 +241,8 @@ return
 .
 join
 (
-            
 [
+            
 self
 .
 manifest
@@ -256,9 +256,11 @@ vendoring
 url
 "
 ]
+            
 "
 archive
 "
+            
 revision
 +
 "
@@ -267,8 +269,8 @@ tar
 .
 gz
 "
-]
         
+]
 )
     
 def

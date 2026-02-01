@@ -130,9 +130,8 @@ test
 =
 Context
 (
-            
 {
-                
+            
 "
 foo
 "
@@ -143,7 +142,7 @@ int
 "
 "
 )
-                
+            
 "
 bar
 "
@@ -154,7 +153,7 @@ bool
 "
 "
 )
-                
+            
 "
 baz
 "
@@ -165,9 +164,8 @@ dict
 "
 "
 )
-            
-}
         
+}
 )
         
 self
@@ -340,9 +338,8 @@ test
 =
 Context
 (
-            
 {
-                
+            
 "
 foo
 "
@@ -353,7 +350,7 @@ int
 "
 "
 )
-                
+            
 "
 baz
 "
@@ -364,9 +361,8 @@ list
 "
 "
 )
-            
-}
         
+}
 )
         
 test
@@ -498,9 +494,8 @@ test
 =
 Context
 (
-            
 {
-                
+            
 "
 foo
 "
@@ -511,7 +506,7 @@ int
 "
 "
 )
-                
+            
 "
 bar
 "
@@ -522,7 +517,7 @@ bool
 "
 "
 )
-                
+            
 "
 baz
 "
@@ -533,9 +528,8 @@ list
 "
 "
 )
-            
-}
         
+}
 )
         
 self
@@ -4734,17 +4728,15 @@ Path
             
 StrictOrderingOnAppendListWithFlagsFactory
 (
-                
 {
-                    
+                
 "
 foo
 "
 :
 bool
-                
-}
             
+}
 )
         
 )

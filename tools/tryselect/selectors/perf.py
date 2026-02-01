@@ -3888,8 +3888,8 @@ disable_variant
 not
 any
 (
-                    
 [
+                    
 variant
 .
 value
@@ -3899,8 +3899,8 @@ for
 variant
 in
 variant_combination
-]
                 
+]
 )
                 
 for
@@ -4302,8 +4302,8 @@ tmp_variant_combination
 =
 set
 (
-                        
 [
+                        
 v
 .
 value
@@ -4311,8 +4311,8 @@ for
 v
 in
 variant_combination
-]
                     
+]
 )
                     
 for
@@ -4343,23 +4343,22 @@ tmp_variant_combination
 -
 set
 (
-                            
 [
-                                
+                            
 variant
 .
 value
-                                
+                            
 for
 variant
 in
 variant_combination
-                                
+                            
 if
 variant
 .
 value
-                                
+                            
 in
 PerfParser
 .
@@ -4374,9 +4373,8 @@ value
 variants
 "
 ]
-                            
-]
                         
+]
 )
                     
 if
@@ -7255,10 +7253,6 @@ task
 from
 change
 detector
-"
-                
-f
-"
 query
 but
 found

@@ -810,8 +810,8 @@ total_removed
 .
 add
 (
-                    
 (
+                    
 line
 .
 strip
@@ -820,6 +820,7 @@ strip
 -
 "
 )
+                    
 self
 .
 transform_old_platform
@@ -833,8 +834,8 @@ strip
 "
 )
 )
-)
                 
+)
 )
         
 total_removed_suggestion

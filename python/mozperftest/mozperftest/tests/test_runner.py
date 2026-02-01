@@ -376,7 +376,6 @@ mock
 .
 patch
 (
-        
 "
 sys
 .
@@ -389,7 +388,6 @@ mock
 MagicMock
 (
 )
-    
 )
 as
 _
@@ -397,13 +395,12 @@ _
         
 main
 (
-            
 [
-                
+            
 "
 tools
 "
-                
+            
 "
 side
 -
@@ -411,12 +408,12 @@ by
 -
 side
 "
-                
+            
 "
 -
 t
 "
-                
+            
 "
 fake
 -
@@ -424,9 +421,8 @@ test
 -
 name
 "
-            
-]
         
+]
 )
 if
 __name__

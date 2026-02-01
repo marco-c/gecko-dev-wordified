@@ -128,9 +128,8 @@ marionette
 .
 enforce_gecko_prefs
 (
-            
 {
-                
+            
 "
 browser
 .
@@ -142,7 +141,7 @@ loglevel
 "
 Debug
 "
-                
+            
 "
 browser
 .
@@ -158,9 +157,8 @@ logOnSuccess
 "
 :
 True
-            
-}
         
+}
 )
     
 def
@@ -821,9 +819,8 @@ marionette
 .
 enforce_gecko_prefs
 (
-            
 {
-                
+            
 "
 browser
 .
@@ -839,9 +836,8 @@ logOnSuccess
 "
 :
 False
-            
-}
         
+}
 )
         
 self
@@ -927,9 +923,9 @@ b
 \
 x00
 \
-xFF
+xff
 \
-xABgarbageDATA
+xabgarbageDATA
 "
 )
         

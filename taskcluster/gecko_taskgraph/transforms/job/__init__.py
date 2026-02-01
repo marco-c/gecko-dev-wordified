@@ -233,9 +233,8 @@ job_description_schema
 =
 Schema
 (
-    
 {
-        
+    
 #
 The
 name
@@ -255,7 +254,7 @@ one
 must
 be
 specified
-        
+    
 #
 and
 the
@@ -270,12 +269,12 @@ if
 necessary
 by
 prepending
-        
+    
 #
 the
 kind
 .
-        
+    
 Optional
 (
 "
@@ -284,7 +283,7 @@ name
 )
 :
 str
-        
+    
 Optional
 (
 "
@@ -293,7 +292,7 @@ label
 )
 :
 str
-        
+    
 #
 the
 following
@@ -306,7 +305,7 @@ to
 the
 task
 description
-        
+    
 #
 possibly
 modified
@@ -316,7 +315,7 @@ run
 implementation
 .
 See
-        
+    
 #
 taskcluster
 /
@@ -332,7 +331,7 @@ the
 schema
 details
 .
-        
+    
 Required
 (
 "
@@ -346,7 +345,7 @@ task_description_schema
 description
 "
 ]
-        
+    
 Optional
 (
 "
@@ -360,7 +359,7 @@ task_description_schema
 attributes
 "
 ]
-        
+    
 Optional
 (
 "
@@ -378,7 +377,7 @@ task
 from
 "
 ]
-        
+    
 Optional
 (
 "
@@ -392,7 +391,7 @@ task_description_schema
 dependencies
 "
 ]
-        
+    
 Optional
 (
 "
@@ -410,7 +409,7 @@ if
 dependencies
 "
 ]
-        
+    
 Optional
 (
 "
@@ -428,7 +427,7 @@ soft
 dependencies
 "
 ]
-        
+    
 Optional
 (
 "
@@ -446,7 +445,7 @@ if
 dependencies
 "
 ]
-        
+    
 Optional
 (
 "
@@ -460,7 +459,7 @@ task_description_schema
 requires
 "
 ]
-        
+    
 Optional
 (
 "
@@ -478,7 +477,7 @@ expires
 after
 "
 ]
-        
+    
 Optional
 (
 "
@@ -496,7 +495,7 @@ expiration
 policy
 "
 ]
-        
+    
 Optional
 (
 "
@@ -510,7 +509,7 @@ task_description_schema
 routes
 "
 ]
-        
+    
 Optional
 (
 "
@@ -524,7 +523,7 @@ task_description_schema
 scopes
 "
 ]
-        
+    
 Optional
 (
 "
@@ -538,7 +537,7 @@ task_description_schema
 tags
 "
 ]
-        
+    
 Optional
 (
 "
@@ -552,7 +551,7 @@ task_description_schema
 extra
 "
 ]
-        
+    
 Optional
 (
 "
@@ -566,7 +565,7 @@ task_description_schema
 treeherder
 "
 ]
-        
+    
 Optional
 (
 "
@@ -580,7 +579,7 @@ task_description_schema
 index
 "
 ]
-        
+    
 Optional
 (
 "
@@ -606,7 +605,7 @@ repo
 type
 "
 ]
-        
+    
 Optional
 (
 "
@@ -628,7 +627,7 @@ on
 projects
 "
 ]
-        
+    
 Optional
 (
 "
@@ -654,7 +653,7 @@ git
 branches
 "
 ]
-        
+    
 Optional
 (
 "
@@ -672,7 +671,7 @@ shipping
 phase
 "
 ]
-        
+    
 Optional
 (
 "
@@ -690,7 +689,7 @@ shipping
 product
 "
 ]
-        
+    
 Optional
 (
 "
@@ -708,7 +707,7 @@ always
 target
 "
 ]
-        
+    
 Exclusive
 (
 "
@@ -721,13 +720,11 @@ optimization
 :
 task_description_schema
 [
-            
 "
 optimization
 "
-        
 ]
-        
+    
 Optional
 (
 "
@@ -745,7 +742,7 @@ use
 sccache
 "
 ]
-        
+    
 Optional
 (
 "
@@ -768,7 +765,7 @@ Coerce
 Version
 )
 )
-        
+    
 #
 Fetch
 uv
@@ -778,7 +775,7 @@ add
 it
 to
 PATH
-        
+    
 Optional
 (
 "
@@ -789,7 +786,7 @@ uv
 )
 :
 bool
-        
+    
 Optional
 (
 "
@@ -803,7 +800,7 @@ task_description_schema
 priority
 "
 ]
-        
+    
 #
 The
 "
@@ -817,7 +814,7 @@ the
 circumstances
 under
 which
-        
+    
 #
 this
 task
@@ -833,7 +830,7 @@ This
 will
 be
 converted
-        
+    
 #
 into
 an
@@ -848,7 +845,7 @@ a
 job
 description
 that
-        
+    
 #
 also
 gives
@@ -856,7 +853,7 @@ gives
 optimization
 '
 .
-        
+    
 Exclusive
 (
 "
@@ -869,11 +866,11 @@ optimization
 :
 Any
 (
-            
+        
 None
-            
+        
 {
-                
+            
 #
 This
 task
@@ -890,7 +887,7 @@ one
 of
 the
 given
-                
+            
 #
 patterns
 has
@@ -904,7 +901,7 @@ patterns
 use
 the
 mozpack
-                
+            
 #
 match
 function
@@ -920,7 +917,7 @@ path
 py
 )
 .
-                
+            
 Optional
 (
 "
@@ -933,11 +930,11 @@ changed
 [
 str
 ]
-            
+        
 }
-        
+    
 )
-        
+    
 #
 A
 list
@@ -951,7 +948,7 @@ fetch
 '
 tasks
 .
-        
+    
 Optional
 (
 "
@@ -960,15 +957,15 @@ fetches
 )
 :
 {
-            
+        
 str
 :
 [
-                
+            
 str
-                
+            
 {
-                    
+                
 Required
 (
 "
@@ -977,7 +974,7 @@ artifact
 )
 :
 str
-                    
+                
 Optional
 (
 "
@@ -986,7 +983,7 @@ dest
 )
 :
 str
-                    
+                
 Optional
 (
 "
@@ -995,7 +992,7 @@ extract
 )
 :
 bool
-                    
+                
 Optional
 (
 "
@@ -1006,13 +1003,13 @@ hash
 )
 :
 bool
-                
-}
             
-]
-        
 }
         
+]
+    
+}
+    
 #
 A
 description
@@ -1023,13 +1020,13 @@ run
 this
 job
 .
-        
+    
 "
 run
 "
 :
 {
-            
+        
 #
 The
 key
@@ -1044,13 +1041,13 @@ module
 to
 this
 one
-            
+        
 "
 using
 "
 :
 str
-            
+        
 #
 Base
 work
@@ -1062,7 +1059,7 @@ up
 the
 task
 .
-            
+        
 Optional
 (
 "
@@ -1071,7 +1068,7 @@ workdir
 )
 :
 str
-            
+        
 #
 Any
 remaining
@@ -1084,18 +1081,18 @@ job
 implementation
 '
 s
-            
+        
 #
 own
 schema
 .
-            
+        
 Extra
 :
 object
-        
+    
 }
-        
+    
 Required
 (
 "
@@ -1113,7 +1110,7 @@ worker
 type
 "
 ]
-        
+    
 #
 This
 object
@@ -1127,7 +1124,7 @@ task
 description
 with
 additions
-        
+    
 #
 provided
 by
@@ -1139,7 +1136,7 @@ run
 -
 using
 function
-        
+    
 Optional
 (
 "
@@ -1148,7 +1145,6 @@ worker
 )
 :
 dict
-    
 }
 )
 transforms
@@ -2359,9 +2355,8 @@ artifacts
 .
 append
 (
-            
 {
-                
+            
 "
 type
 "
@@ -2369,7 +2364,7 @@ type
 "
 file
 "
-                
+            
 "
 name
 "
@@ -2389,15 +2384,14 @@ content
 .
 json
 "
-                
+            
 "
 path
 "
 :
 perfherder_fetch_content_json_path
-            
-}
         
+}
 )
         
 env
@@ -2984,15 +2978,14 @@ job_fetches
 .
 append
 (
-                        
 {
-                            
+                        
 "
 artifact
 "
 :
 path
-                            
+                        
 "
 task
 "
@@ -3005,7 +2998,7 @@ label
 }
 >
 "
-                            
+                        
 "
 extract
 "
@@ -3017,9 +3010,8 @@ get
 label
 True
 )
-                        
-}
                     
+}
 )
                     
 if

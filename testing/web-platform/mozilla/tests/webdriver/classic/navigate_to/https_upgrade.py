@@ -185,9 +185,8 @@ mark
 .
 capabilities
 (
-    
 {
-        
+    
 "
 pageLoadStrategy
 "
@@ -195,7 +194,7 @@ pageLoadStrategy
 "
 eager
 "
-        
+    
 "
 moz
 :
@@ -203,13 +202,13 @@ firefoxOptions
 "
 :
 {
-            
+        
 "
 prefs
 "
 :
 {
-                
+            
 #
 Allow
 HTTPS
@@ -219,7 +218,7 @@ localhost
 and
 custom
 ports
-                
+            
 "
 dom
 .
@@ -229,7 +228,7 @@ https_first_for_custom_ports
 "
 :
 True
-                
+            
 "
 dom
 .
@@ -239,7 +238,7 @@ https_first_for_local_addresses
 "
 :
 True
-                
+            
 "
 dom
 .
@@ -249,11 +248,10 @@ https_first_for_unknown_suffixes
 "
 :
 True
-            
-}
         
 }
     
+}
 }
 )
 def

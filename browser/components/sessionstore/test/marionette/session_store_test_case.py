@@ -122,9 +122,8 @@ DEFAULT_WINDOWS
 =
 set
 (
-    
 [
-        
+    
 #
 Window
 1
@@ -137,7 +136,7 @@ the
 inline
 call
 -
-        
+    
 #
 this
 is
@@ -152,7 +151,7 @@ a
 item
 tuple
 .
-        
+    
 (
 inline
 (
@@ -173,13 +172,13 @@ div
 "
 )
 )
-        
+    
 #
 Window
 2
-        
+    
 (
-            
+        
 inline
 (
 "
@@ -198,7 +197,7 @@ div
 "
 "
 )
-            
+        
 inline
 (
 "
@@ -217,15 +216,15 @@ div
 "
 "
 )
-        
+    
 )
-        
+    
 #
 Window
 3
-        
+    
 (
-            
+        
 inline
 (
 "
@@ -244,7 +243,7 @@ div
 "
 "
 )
-            
+        
 inline
 (
 "
@@ -263,9 +262,8 @@ div
 "
 "
 )
-        
-)
     
+)
 ]
 )
 class
@@ -376,11 +374,10 @@ private_windows
 =
 set
 (
-            
 [
-                
+            
 (
-                    
+                
 inline
 (
 "
@@ -399,7 +396,7 @@ div
 "
 "
 )
-                    
+                
 inline
 (
 "
@@ -418,11 +415,11 @@ div
 "
 "
 )
-                
+            
 )
-                
+            
 (
-                    
+                
 inline
 (
 "
@@ -441,7 +438,7 @@ div
 "
 "
 )
-                    
+                
 inline
 (
 "
@@ -460,11 +457,10 @@ div
 "
 "
 )
-                
-)
             
-]
+)
         
+]
 )
         
 self
@@ -473,9 +469,8 @@ marionette
 .
 enforce_gecko_prefs
 (
-            
 {
-                
+            
 #
 Set
 browser
@@ -483,7 +478,7 @@ restore
 previous
 session
 pref
-                
+            
 #
 depending
 on
@@ -492,7 +487,7 @@ the
 test
 requires
 .
-                
+            
 "
 browser
 .
@@ -502,7 +497,7 @@ page
 "
 :
 startup_page
-                
+            
 #
 Make
 the
@@ -514,7 +509,7 @@ instead
 of
 waiting
 for
-                
+            
 #
 the
 user
@@ -524,7 +519,7 @@ on
 the
 background
 tabs
-                
+            
 "
 browser
 .
@@ -534,7 +529,7 @@ restore_on_demand
 "
 :
 restore_on_demand
-                
+            
 #
 Avoid
 race
@@ -545,7 +540,7 @@ the
 content
 process
 never
-                
+            
 #
 send
 us
@@ -557,7 +552,7 @@ parent
 has
 explicitly
 asked
-                
+            
 #
 for
 them
@@ -565,7 +560,7 @@ via
 the
 TabStateFlusher
 .
-                
+            
 "
 browser
 .
@@ -577,7 +572,7 @@ no_auto_updates
 "
 :
 no_auto_updates
-                
+            
 #
 Whether
 to
@@ -588,7 +583,7 @@ application
 restart
 mechanism
 .
-                
+            
 "
 toolkit
 .
@@ -596,7 +591,7 @@ winRegisterApplicationRestart
 "
 :
 win_register_restart
-                
+            
 #
 Whether
 to
@@ -606,7 +601,7 @@ tabs
 for
 this
 test
-                
+            
 "
 browser
 .
@@ -616,9 +611,8 @@ enabled
 "
 :
 taskbartabs_enable
-            
-}
         
+}
 )
         
 self

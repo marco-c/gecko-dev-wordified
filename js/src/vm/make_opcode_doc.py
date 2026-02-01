@@ -73,14 +73,12 @@ python
 make_opcode_doc
 .
 py
-    
 This
 script
 generates
 SpiderMonkey
 bytecode
 documentation
-    
 from
 js
 /
@@ -92,7 +90,6 @@ Opcodes
 .
 h
 .
-    
 Output
 is
 written
@@ -105,11 +102,9 @@ pasted
 into
 the
 following
-    
 MDN
 page
 :
-    
 https
 :
 /

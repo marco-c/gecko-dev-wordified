@@ -972,8 +972,6 @@ linux
 worker
 /
 pool
-"
-"
 -
 -
 worker

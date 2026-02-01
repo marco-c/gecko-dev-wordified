@@ -151,9 +151,8 @@ source_test_description_schema
 =
 Schema
 (
-    
 {
-        
+    
 #
 most
 fields
@@ -167,15 +166,15 @@ fields
 and
 are
 not
-        
+    
 #
 repeated
 here
-        
+    
 Extra
 :
 object
-        
+    
 #
 The
 platform
@@ -193,7 +192,7 @@ to
 set
 up
 attributes
-        
+    
 #
 (
 for
@@ -213,7 +212,7 @@ given
 as
 a
 list
-        
+    
 #
 the
 job
@@ -230,7 +229,7 @@ with
 each
 platform
 .
-        
+    
 Required
 (
 "
@@ -245,7 +244,7 @@ str
 str
 ]
 )
-        
+    
 #
 Build
 labels
@@ -261,7 +260,7 @@ is
 provided
 it
 must
-        
+    
 #
 contain
 a
@@ -272,7 +271,7 @@ the
 task
 platform
 .
-        
+    
 #
 The
 task
@@ -289,7 +288,7 @@ installer
 url
 will
 be
-        
+    
 #
 saved
 to
@@ -298,7 +297,7 @@ GECKO_INSTALLER_URL
 environment
 variable
 .
-        
+    
 Optional
 (
 "
@@ -319,7 +318,7 @@ str
 str
 }
 )
-        
+    
 #
 These
 fields
@@ -335,12 +334,12 @@ are
 otherwise
 identical
 to
-        
+    
 #
 job
 descriptions
 .
-        
+    
 Required
 (
 "
@@ -352,7 +351,7 @@ type
 :
 optionally_keyed_by
 (
-            
+        
 "
 platform
 "
@@ -364,9 +363,9 @@ worker
 type
 "
 ]
-        
+    
 )
-        
+    
 Required
 (
 "
@@ -376,7 +375,7 @@ worker
 :
 optionally_keyed_by
 (
-            
+        
 "
 platform
 "
@@ -386,9 +385,9 @@ job_description_schema
 worker
 "
 ]
-        
+    
 )
-        
+    
 Optional
 (
 "
@@ -397,7 +396,7 @@ dependencies
 )
 :
 {
-            
+        
 k
 :
 optionally_keyed_by
@@ -407,7 +406,7 @@ platform
 "
 v
 )
-            
+        
 for
 k
 v
@@ -422,9 +421,9 @@ dependencies
 items
 (
 )
-        
+    
 }
-        
+    
 #
 A
 list
@@ -438,7 +437,7 @@ fetch
 '
 tasks
 .
-        
+    
 Optional
 (
 "
@@ -447,12 +446,11 @@ fetches
 )
 :
 {
-            
+        
 str
 :
 optionally_keyed_by
 (
-                
 "
 platform
 "
@@ -465,11 +463,9 @@ fetches
 [
 str
 ]
-            
 )
-        
-}
     
+}
 }
 )
 transforms

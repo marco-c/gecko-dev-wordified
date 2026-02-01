@@ -811,21 +811,19 @@ args_list
 .
 extend
 (
-                
 [
-                    
+                
 "
 -
 -
 browser
 "
-                    
+                
 "
 chrome
 "
-                
-]
             
+]
 )
             
 if
@@ -957,9 +955,8 @@ args_list
 .
 extend
 (
-                
 [
-                    
+                
 '
 -
 -
@@ -975,7 +972,7 @@ android
 storage
 "
 '
-                    
+                
 '
 -
 -
@@ -987,28 +984,26 @@ geckodriverArgs
 app
 "
 '
-                
-]
             
+]
 )
             
 args_list
 .
 extend
 (
-                
 [
-                    
+                
 "
 -
 -
 browser
 "
-                    
+                
 "
 firefox
 "
-                    
+                
 "
 -
 -
@@ -1018,7 +1013,7 @@ android
 .
 package
 "
-                    
+                
 self
 .
 config
@@ -1027,7 +1022,7 @@ config
 binary
 "
 ]
-                    
+                
 "
 -
 -
@@ -1037,11 +1032,10 @@ android
 .
 activity
 "
-                    
-activity
                 
-]
+activity
             
+]
 )
         
 if
@@ -1195,8 +1189,8 @@ args_list
 .
 extend
 (
-                    
 [
+                    
 "
 -
 -
@@ -1206,6 +1200,7 @@ android
 .
 intentArgument
 "
+                    
 self
 .
 config
@@ -1214,8 +1209,8 @@ config
 intent
 "
 ]
-]
                 
+]
 )
                 
 #
@@ -1233,9 +1228,8 @@ args_list
 .
 extend
 (
-                    
 [
-                        
+                    
 "
 -
 -
@@ -1249,7 +1243,7 @@ intentArgument
 -
 es
 "
-                        
+                    
 "
 -
 -
@@ -1261,7 +1255,7 @@ intentArgument
 =
 startNext
 "
-                        
+                    
 "
 -
 -
@@ -1281,7 +1275,7 @@ config
 activity
 "
 ]
-                        
+                    
 "
 -
 -
@@ -1295,7 +1289,7 @@ intentArgument
 -
 esa
 "
-                        
+                    
 "
 -
 -
@@ -1307,7 +1301,7 @@ intentArgument
 =
 sourceTags
 "
-                        
+                    
 "
 -
 -
@@ -1319,7 +1313,7 @@ intentArgument
 =
 automation
 "
-                        
+                    
 "
 -
 -
@@ -1333,7 +1327,7 @@ intentArgument
 -
 ez
 "
-                        
+                    
 "
 -
 -
@@ -1345,7 +1339,7 @@ intentArgument
 =
 performancetest
 "
-                        
+                    
 "
 -
 -
@@ -1357,9 +1351,8 @@ intentArgument
 =
 true
 "
-                    
-]
                 
+]
 )
                 
 args_list

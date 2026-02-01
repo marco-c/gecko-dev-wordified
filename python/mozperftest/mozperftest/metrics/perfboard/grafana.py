@@ -251,8 +251,8 @@ existing
 =
 dict
 (
-            
 [
+            
 (
 dashboard
 [
@@ -275,8 +275,8 @@ for
 dashboard
 in
 existing
-]
         
+]
 )
         
 if

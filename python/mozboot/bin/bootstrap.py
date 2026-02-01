@@ -3297,8 +3297,6 @@ that
 leave
 the
 system
-"
-"
 configuration
 alone
 .

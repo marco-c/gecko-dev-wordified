@@ -3413,15 +3413,17 @@ s
 .
 get_output_from_command
 (
-            
 [
+            
 "
 bash
 "
+            
 "
 -
 c
 "
+            
 "
 cat
 %
@@ -3431,8 +3433,8 @@ s
 self
 .
 temp_file
-]
         
+]
 )
         
 self

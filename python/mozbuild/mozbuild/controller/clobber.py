@@ -104,9 +104,8 @@ CLOBBER_MESSAGE
 .
 join
 (
-    
 [
-        
+    
 TextWrapper
 (
 )
@@ -120,7 +119,7 @@ line
 \
 n
 "
-        
+    
 for
 line
 in
@@ -248,7 +247,6 @@ clobber_file
 splitlines
 (
 )
-    
 ]
 )
 class
@@ -1034,8 +1032,8 @@ rust_targets
 =
 set
 (
-            
 [
+            
 self
 .
 substs
@@ -1052,8 +1050,8 @@ in
 self
 .
 substs
-]
         
+]
 )
         
 rust_build_kind

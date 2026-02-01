@@ -714,8 +714,6 @@ or
 setgid
 set
 :
-"
-"
 %
 s
 "

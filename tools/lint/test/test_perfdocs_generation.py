@@ -574,18 +574,16 @@ _gatherer
 .
 framework_gatherers
 [
+                
 "
 raptor
 "
+            
 ]
 .
 _descriptions
 =
-(
-                
 sample_test_list_result
-            
-)
         
 generator
 =

@@ -5865,9 +5865,8 @@ details
 .
 join
 (
-                
 [
-                    
+                
 "
 %
 d
@@ -5882,7 +5881,7 @@ attribute
 ]
 description
 )
-                    
+                
 for
 (
 attribute
@@ -5890,9 +5889,8 @@ description
 )
 in
 categories
-                
-]
             
+]
 )
             
 print

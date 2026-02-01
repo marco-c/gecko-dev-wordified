@@ -212,8 +212,6 @@ toolkit
 /
 components
 /
-"
-"
 telemetry
 /
 telemetry

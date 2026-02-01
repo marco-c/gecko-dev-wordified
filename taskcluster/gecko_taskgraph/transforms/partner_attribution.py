@@ -424,9 +424,8 @@ attributions
 .
 append
 (
-                        
 {
-                            
+                        
 "
 input
 "
@@ -437,7 +436,7 @@ attributed_build_config
 input_path
 "
 ]
-                            
+                        
 "
 output
 "
@@ -448,15 +447,14 @@ attributed_build_config
 output_path
 "
 ]
-                            
+                        
 "
 attribution
 "
 :
 attribution_code
-                        
-}
                     
+}
 )
                     
 release_artifacts

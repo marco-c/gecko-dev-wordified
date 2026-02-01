@@ -780,9 +780,8 @@ ValueError
 return
 Schema
 (
-        
 {
-            
+        
 #
 The
 name
@@ -796,11 +795,11 @@ for
 now
 but
 maybe
-            
+        
 #
 later
 )
-            
+        
 Required
 (
 "
@@ -813,7 +812,7 @@ All
 str
 starts_with_cargo
 )
-            
+        
 #
 Whether
 make
@@ -822,7 +821,7 @@ stop
 immediately
 in
 case
-            
+        
 #
 of
 error
@@ -834,13 +833,13 @@ command
 Default
 :
 False
-            
+        
 "
 continue_on_error
 "
 :
 Boolean
-            
+        
 #
 Whether
 this
@@ -850,7 +849,7 @@ pre_export
 and
 export
 build
-            
+        
 #
 targets
 to
@@ -864,13 +863,13 @@ bool
 cargo_build_flags
 )
 .
-            
+        
 "
 requires_export
 "
 :
 Boolean
-            
+        
 #
 Build
 flags
@@ -882,7 +881,7 @@ this
 variable
 is
 not
-            
+        
 #
 defined
 here
@@ -894,7 +893,7 @@ generated
 automatically
 and
 are
-            
+        
 #
 the
 same
@@ -908,11 +907,11 @@ available
 substitutions
 at
 the
-            
+        
 #
 end
 .
-            
+        
 "
 cargo_build_flags
 "
@@ -920,7 +919,7 @@ cargo_build_flags
 [
 str
 ]
-            
+        
 #
 Extra
 build
@@ -932,7 +931,7 @@ These
 flags
 are
 added
-            
+        
 #
 after
 the
@@ -943,7 +942,7 @@ they
 are
 provided
 or
-            
+        
 #
 automatically
 generated
@@ -955,7 +954,7 @@ at
 the
 end
 .
-            
+        
 "
 cargo_extra_flags
 "
@@ -963,7 +962,7 @@ cargo_extra_flags
 [
 str
 ]
-            
+        
 #
 Available
 substitutions
@@ -972,7 +971,7 @@ cargo_
 *
 _flags
 :
-            
+        
 #
 *
 {
@@ -981,7 +980,7 @@ arch
 :
 architecture
 target
-            
+        
 #
 *
 {
@@ -991,7 +990,7 @@ crate
 current
 crate
 name
-            
+        
 #
 *
 {
@@ -1007,7 +1006,7 @@ within
 the
 source
 tree
-            
+        
 #
 *
 {
@@ -1022,7 +1021,7 @@ for
 -
 features
 )
-            
+        
 #
 *
 {
@@ -1036,7 +1035,7 @@ Cargo
 .
 toml
 file
-            
+        
 #
 *
 {
@@ -1054,7 +1053,7 @@ bin
 CRATE
 for
 executables
-            
+        
 #
 *
 {
@@ -1065,9 +1064,8 @@ Top
 directory
 of
 sources
-        
-}
     
+}
 )
 Command
 (
@@ -3254,9 +3252,6 @@ of
 }
 (
 default
-"
-    
-"
 objdir
 and
 python
@@ -3266,6 +3261,7 @@ python
 .
 format
 (
+        
 "
 "
 .
@@ -3273,6 +3269,7 @@ join
 (
 CLOBBER_CHOICES
 )
+    
 )
 )
 CommandArgument
@@ -5081,15 +5078,14 @@ logging
 .
 makeLogRecord
 (
-                
 {
-                    
+                
 "
 created
 "
 :
 created
-                    
+                
 "
 name
 "
@@ -5099,7 +5095,7 @@ command_context
 _logger
 .
 name
-                    
+                
 "
 levelno
 "
@@ -5107,7 +5103,7 @@ levelno
 logging
 .
 INFO
-                    
+                
 "
 msg
 "
@@ -5117,21 +5113,20 @@ msg
 line
 }
 "
-                    
-"
-params
-"
-:
-params
-                    
-"
-action
-"
-:
-action
                 
-}
+"
+params
+"
+:
+params
+                
+"
+action
+"
+:
+action
             
+}
 )
             
 command_context
@@ -10465,9 +10460,6 @@ to
 start
 before
 returning
-"
-        
-"
 (
 default
 :
@@ -11564,9 +11556,6 @@ temporary
 profile
 created
 inside
-"
-        
-"
 the
 objdir
 .
@@ -20412,9 +20401,6 @@ on
 Windows
 11
 .
-"
-    
-"
 (
 Default
 :
@@ -23147,9 +23133,6 @@ root
 please
 use
 the
-"
-            
-"
 -
 -
 sudo

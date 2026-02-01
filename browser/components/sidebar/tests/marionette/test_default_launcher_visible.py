@@ -621,6 +621,9 @@ test
 with
 the
 default
+pre
+-
+148
 pref
 values
 then
@@ -725,9 +728,8 @@ self
 .
 restart_with_prefs
 (
-            
 {
-                
+            
 "
 sidebar
 .
@@ -735,7 +737,7 @@ revamp
 "
 :
 True
-                
+            
 "
 browser
 .
@@ -745,9 +747,8 @@ page
 "
 :
 3
-            
-}
         
+}
 )
         
 self
@@ -1022,6 +1023,38 @@ chrome
 "
 )
         
+self
+.
+assertTrue
+(
+            
+self
+.
+marionette
+.
+get_pref
+(
+"
+sidebar
+.
+revamp
+"
+)
+            
+"
+The
+sidebar
+.
+revamp
+pref
+should
+now
+be
+true
+"
+        
+)
+        
 #
 We
 expect
@@ -1143,6 +1176,38 @@ self
 .
 wait_for_sidebar_initialized
 (
+)
+        
+self
+.
+assertTrue
+(
+            
+self
+.
+marionette
+.
+get_pref
+(
+"
+sidebar
+.
+revamp
+"
+)
+            
+"
+The
+sidebar
+.
+revamp
+pref
+should
+still
+be
+true
+"
+        
 )
         
 self
@@ -1369,9 +1434,8 @@ marionette
 .
 set_prefs
 (
-            
 {
-                
+            
 "
 sidebar
 .
@@ -1379,7 +1443,7 @@ revamp
 "
 :
 True
-                
+            
 "
 sidebar
 .
@@ -1389,9 +1453,8 @@ defaultLauncherVisible
 "
 :
 False
-            
-}
         
+}
 )
         
 #
@@ -1576,9 +1639,8 @@ self
 .
 restart_with_prefs
 (
-            
 {
-                
+            
 "
 sidebar
 .
@@ -1586,7 +1648,7 @@ revamp
 "
 :
 True
-                
+            
 "
 sidebar
 .
@@ -1594,7 +1656,7 @@ verticalTabs
 "
 :
 True
-                
+            
 "
 sidebar
 .
@@ -1606,9 +1668,8 @@ always
 -
 show
 "
-            
-}
         
+}
 )
         
 Wait

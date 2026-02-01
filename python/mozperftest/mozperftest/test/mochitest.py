@@ -895,9 +895,8 @@ gecko_profile_args
 .
 extend
 (
-                
 [
-                    
+                
 f
 "
 -
@@ -910,7 +909,7 @@ MOZ_PROFILER_STARTUP_FEATURES
 gecko_profile_features
 }
 "
-                    
+                
 f
 "
 -
@@ -923,7 +922,7 @@ MOZ_PROFILER_STARTUP_FILTERS
 gecko_profile_threads
 }
 "
-                    
+                
 f
 "
 -
@@ -936,9 +935,8 @@ MOZ_PROFILER_STARTUP_ENTRIES
 gecko_profile_entries
 }
 "
-                
-]
             
+]
 )
             
 if
@@ -1372,9 +1370,8 @@ mochitest_android_args
 .
 extend
 (
-                
 [
-                    
+                
 f
 "
 -
@@ -1394,9 +1391,8 @@ MOZ_HOST_BIN
 ]
 }
 "
-                
-]
             
+]
 )
         
 else
@@ -1435,9 +1431,8 @@ mochitest_android_args
 .
 extend
 (
-                
 [
-                    
+                
 f
 "
 -
@@ -1457,7 +1452,7 @@ MOZ_HOST_BIN
 ]
 }
 "
-                    
+                
 f
 "
 -
@@ -1477,7 +1472,7 @@ HOST_IP
 ]
 }
 "
-                    
+                
 "
 -
 -
@@ -1487,7 +1482,7 @@ port
 =
 8854
 "
-                    
+                
 "
 -
 -
@@ -1497,9 +1492,8 @@ port
 =
 4454
 "
-                
-]
             
+]
 )
         
 return
@@ -1697,9 +1691,6 @@ needs
 to
 be
 provided
-"
-                
-"
 (
 e
 .
@@ -2717,15 +2708,14 @@ metadata
 .
 add_result
 (
-            
 {
-                
+            
 "
 name
 "
 :
 test_name
-                
+            
 "
 framework
 "
@@ -2739,7 +2729,7 @@ name
 mozperftest
 "
 }
-                
+            
 "
 transformer
 "
@@ -2753,15 +2743,14 @@ mochitest
 :
 MochitestData
 "
-                
+            
 "
 results
 "
 :
 results
-            
-}
         
+}
 )
         
 return

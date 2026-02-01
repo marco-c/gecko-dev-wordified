@@ -305,14 +305,12 @@ lower
 .
 replace
 (
-            
 "
 \
 n
 "
 "
 "
-        
 )
     
 classmethod
@@ -2256,11 +2254,10 @@ terms
 .
 join
 (
-            
 [
-                
+            
 term
-                
+            
 for
 term
 in
@@ -2271,11 +2268,11 @@ terms
 split
 (
 )
-                
+            
 if
 not
 (
-                    
+                
 term
 in
 {
@@ -2291,7 +2288,7 @@ test262
 raw
 "
 }
-                    
+                
 or
 term
 .
@@ -2302,7 +2299,7 @@ error
 :
 "
 )
-                    
+                
 or
 term
 .
@@ -2315,7 +2312,7 @@ flag
 (
 "
 )
-                    
+                
 or
 term
 .
@@ -2328,11 +2325,10 @@ option
 (
 "
 )
-                
-)
             
-]
+)
         
+]
 )
         
 if
@@ -3777,6 +3773,7 @@ matches
                     
 print
 (
+f
 "
 warning
 :
@@ -3787,9 +3784,6 @@ jstests
 .
 list
 :
-"
-f
-"
 {
 line
 }
@@ -3988,15 +3982,14 @@ entries
 .
 append
 (
-                
 {
-                    
+                
 "
 path
 "
 :
 path
-                    
+                
 "
 terms
 "
@@ -4009,7 +4002,7 @@ group
 terms
 "
 )
-                    
+                
 "
 comment
 "
@@ -4019,9 +4012,8 @@ comment
 strip
 (
 )
-                
-}
             
+}
 )
     
 #
@@ -4282,33 +4274,32 @@ EXCLUDED
 =
 set
 (
-        
 (
-            
+        
 "
 browser
 .
 js
 "
-            
+        
 "
 shell
 .
 js
 "
-            
+        
 "
 template
 .
 js
 "
-            
+        
 "
 user
 .
 js
 "
-            
+        
 "
 js
 -
@@ -4320,7 +4311,7 @@ begin
 .
 js
 "
-            
+        
 "
 js
 -
@@ -4332,9 +4323,8 @@ end
 .
 js
 "
-        
-)
     
+)
 )
     
 #

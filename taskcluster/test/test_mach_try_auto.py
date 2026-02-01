@@ -73,15 +73,14 @@ PARAMS
 .
 update
 (
-    
 {
-        
+    
 "
 files_changed
 "
 :
 [
-            
+        
 "
 dom
 /
@@ -91,7 +90,7 @@ HTMLDetailsElement
 .
 cpp
 "
-            
+        
 "
 gfx
 /
@@ -101,9 +100,9 @@ gfxUserFontSet
 .
 cpp
 "
-        
+    
 ]
-        
+    
 "
 head_repository
 "
@@ -121,7 +120,7 @@ org
 /
 try
 "
-        
+    
 "
 project
 "
@@ -129,7 +128,7 @@ project
 "
 try
 "
-        
+    
 "
 target_kind
 "
@@ -137,7 +136,7 @@ target_kind
 "
 mochitest
 "
-        
+    
 #
 These
 ensure
@@ -152,7 +151,7 @@ backstop
 The
 pushdate
 must
-        
+    
 #
 be
 slightly
@@ -167,7 +166,7 @@ pushes
 .
 json
 and
-        
+    
 #
 pushlog_id
 must
@@ -178,13 +177,13 @@ multiple
 of
 10
 .
-        
+    
 "
 pushdate
 "
 :
 1593029536
-        
+    
 "
 pushlog_id
 "
@@ -192,7 +191,6 @@ pushlog_id
 "
 2
 "
-    
 }
 )
 def

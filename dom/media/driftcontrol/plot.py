@@ -906,10 +906,9 @@ high_offset
 =
 zip
 (
-            
 *
 [
-                
+            
 (
 s
 f
@@ -926,7 +925,7 @@ f
 -
 s
 )
-                
+            
 for
 (
 e
@@ -940,9 +939,8 @@ avgError
 slow_offset
 fast_offset
 )
-            
-]
         
+]
 )
         
 fig2

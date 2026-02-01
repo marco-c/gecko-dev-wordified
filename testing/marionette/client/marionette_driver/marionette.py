@@ -7946,8 +7946,6 @@ can
 only
 be
 called
-"
-"
 on
 Gecko
 instances
@@ -8371,9 +8369,6 @@ reason
 }
 '
 for
-"
-                
-"
 quitting
 the
 process
@@ -8382,12 +8377,14 @@ process
 .
 format
 (
+                    
 quit_details
 [
 "
 cause
 "
 ]
+                
 )
             
 )
@@ -8680,9 +8677,6 @@ can
 only
 be
 called
-"
-                
-"
 on
 Gecko
 instances
@@ -9361,9 +9355,6 @@ reason
 }
 '
 for
-"
-                
-"
 restarting
 the
 process
@@ -9371,12 +9362,14 @@ process
 .
 format
 (
+                    
 restart_details
 [
 "
 cause
 "
 ]
+                
 )
             
 )

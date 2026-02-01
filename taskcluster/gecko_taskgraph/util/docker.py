@@ -154,13 +154,14 @@ sock
 return
 urlunparse
 (
-        
 (
+        
 "
 http
 +
 unix
 "
+        
 quote
 (
 docker_socket
@@ -169,17 +170,21 @@ safe
 "
 "
 )
+        
 path
+        
 "
 "
+        
 urlencode
 (
 kwargs
 )
+        
 "
 "
-)
     
+)
 )
 def
 post_to_docker
@@ -1238,9 +1243,8 @@ __dict__
 .
 update
 (
-            
 {
-                
+            
 k
 :
 os
@@ -1260,7 +1264,6 @@ definition
 k
 )
 )
-                
 for
 k
 v
@@ -1270,9 +1273,8 @@ jobs
 items
 (
 )
-            
-}
         
+}
 )
     
 def
@@ -1524,9 +1526,6 @@ syntax
 for
 VOLUME
 ;
-"
-                    
-"
 convert
 to
 multiple

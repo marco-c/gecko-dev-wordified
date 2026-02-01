@@ -774,7 +774,6 @@ mock
 .
 patch
 (
-        
 "
 mozpower
 .
@@ -784,7 +783,6 @@ MacIntelPower
 .
 get_perfherder_data
 "
-    
 )
 as
 _
@@ -914,7 +912,6 @@ mock
 .
 patch
 (
-        
 "
 mozpower
 .
@@ -924,7 +921,6 @@ MacIntelPower
 .
 get_perfherder_data
 "
-    
 )
 as
 _

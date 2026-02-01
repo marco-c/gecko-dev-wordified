@@ -743,29 +743,27 @@ label_to_taskid
 =
 make_taskgraph
 (
-        
 {
-            
-taskb
-.
-label
-:
-taskb
-            
-task1
-.
-label
-:
-task1
-            
-task2
-.
-label
-:
-task2
         
-}
+taskb
+.
+label
+:
+taskb
+        
+task1
+.
+label
+:
+task1
+        
+task2
+.
+label
+:
+task2
     
+}
 )
     
 taskgraph
@@ -1514,23 +1512,21 @@ label_to_taskid
 =
 make_taskgraph
 (
-        
 {
-            
-task
-.
-label
-:
-task
-            
-docker_task
-.
-label
-:
-docker_task
         
-}
+task
+.
+label
+:
+task
+        
+docker_task
+.
+label
+:
+docker_task
     
+}
 )
     
 index_paths

@@ -741,13 +741,12 @@ post_gradlew
 .
 append
 (
-            
 [
-                
+            
 "
 python3
 "
-                
+            
 "
 taskcluster
 /
@@ -761,21 +760,20 @@ lab
 .
 py
 "
-                
-flank_config
-                
-apk_app
-                
-"
--
--
-apk_test
-"
-                
-apk_test
             
-]
+flank_config
+            
+apk_app
+            
+"
+-
+-
+apk_test
+"
+            
+apk_test
         
+]
 )
         
 yield

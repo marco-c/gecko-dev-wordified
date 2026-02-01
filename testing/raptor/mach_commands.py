@@ -1150,9 +1150,8 @@ config
 .
 update
 (
-                
 {
-                    
+                
 "
 browsertime_browsertimejs
 "
@@ -1162,7 +1161,7 @@ browsertime
 browsertime_path
 (
 )
-                    
+                
 "
 browsertime_vismet_script
 "
@@ -1172,9 +1171,8 @@ browsertime
 visualmetrics_path
 (
 )
-                
-}
             
+}
 )
             
 def
@@ -1403,8 +1401,8 @@ or
 not
 any
 (
-                    
 [
+                    
 "
 ffmpeg
 "
@@ -1419,8 +1417,8 @@ listdir
 (
 btime_cache
 )
-]
                 
+]
 )
 :
                     

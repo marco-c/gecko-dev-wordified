@@ -915,8 +915,6 @@ just
 using
 the
 most
-"
-"
 recent
 one
 "

@@ -1995,8 +1995,8 @@ tarball
 .
 join
 (
-        
 [
+        
 random
 .
 choice
@@ -2017,8 +2017,8 @@ range
 (
 40
 )
-]
     
+]
 )
     
 mach

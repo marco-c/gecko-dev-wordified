@@ -1337,9 +1337,10 @@ installs
 .
 append
 (
-                        
 (
+                        
 full
+                        
 mozpath
 .
 join
@@ -1351,8 +1352,8 @@ pattern
 :
 ]
 )
-)
                     
+)
 )
                 
 else

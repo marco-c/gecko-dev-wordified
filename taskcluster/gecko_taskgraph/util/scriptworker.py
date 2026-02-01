@@ -2822,9 +2822,8 @@ partial_versions
 .
 join
 (
-            
 [
-                
+            
 "
 {
 }
@@ -2843,7 +2842,7 @@ buildNumber
 "
 ]
 )
-                
+            
 for
 v
 info
@@ -2853,9 +2852,8 @@ partial_updates
 items
 (
 )
-            
-]
         
+]
 )
         
 if
@@ -3726,9 +3724,8 @@ upstream_artifacts
 .
 append
 (
-            
 {
-                
+            
 "
 taskId
 "
@@ -3749,7 +3746,7 @@ dep
 >
 "
 }
-                
+            
 "
 taskType
 "
@@ -3765,7 +3762,7 @@ get
 (
 dep
 )
-                
+            
 "
 paths
 "
@@ -3774,15 +3771,14 @@ sorted
 (
 paths
 )
-                
+            
 "
 locale
 "
 :
 current_locale
-            
-}
         
+}
 )
     
 upstream_artifacts
@@ -5255,15 +5251,14 @@ kwargs
 .
 update
 (
-            
 {
-                
+            
 "
 locale
 "
 :
 locale
-                
+            
 "
 version
 "
@@ -5276,7 +5271,7 @@ params
 version
 "
 ]
-                
+            
 "
 branch
 "
@@ -5289,7 +5284,7 @@ params
 project
 "
 ]
-                
+            
 "
 build_number
 "
@@ -5302,7 +5297,7 @@ params
 build_number
 "
 ]
-                
+            
 "
 year
 "
@@ -5310,7 +5305,7 @@ year
 upload_date
 .
 year
-                
+            
 "
 month
 "
@@ -5330,7 +5325,7 @@ zero
 pad
 the
 month
-                
+            
 "
 day
 "
@@ -5344,7 +5339,7 @@ strftime
 d
 "
 )
-                
+            
 "
 upload_date
 "
@@ -5373,7 +5368,7 @@ M
 S
 "
 )
-                
+            
 "
 head_rev
 "
@@ -5386,9 +5381,8 @@ params
 head_rev
 "
 ]
-            
-}
         
+}
 )
         
 kwargs
@@ -5414,9 +5408,8 @@ artifacts
 .
 append
 (
-            
 {
-                
+            
 "
 taskId
 "
@@ -5437,21 +5430,20 @@ dep
 >
 "
 }
-                
-"
-locale
-"
-:
-locale
-                
-"
-paths
-"
-:
-paths
             
-}
+"
+locale
+"
+:
+locale
+            
+"
+paths
+"
+:
+paths
         
+}
 )
     
 return
@@ -6395,15 +6387,14 @@ kwargs
 .
 update
 (
-                    
 {
-                        
+                    
 "
 partial
 "
 :
 pname
-                        
+                    
 "
 from_buildid
 "
@@ -6414,7 +6405,7 @@ info
 buildid
 "
 ]
-                        
+                    
 "
 previous_version
 "
@@ -6427,7 +6418,7 @@ get
 previousVersion
 "
 )
-                        
+                    
 "
 buildid
 "
@@ -6443,13 +6434,13 @@ moz_build_date
 "
 ]
 )
-                        
+                    
 "
 locale
 "
 :
 locale
-                        
+                    
 "
 version
 "
@@ -6462,7 +6453,7 @@ params
 version
 "
 ]
-                        
+                    
 "
 branch
 "
@@ -6475,7 +6466,7 @@ params
 project
 "
 ]
-                        
+                    
 "
 build_number
 "
@@ -6488,7 +6479,7 @@ params
 build_number
 "
 ]
-                        
+                    
 "
 year
 "
@@ -6496,7 +6487,7 @@ year
 upload_date
 .
 year
-                        
+                    
 "
 month
 "
@@ -6516,7 +6507,7 @@ zero
 pad
 the
 month
-                        
+                    
 "
 upload_date
 "
@@ -6545,9 +6536,8 @@ M
 S
 "
 )
-                    
-}
                 
+}
 )
                 
 kwargs
@@ -6583,9 +6573,8 @@ artifacts
 .
 append
 (
-            
 {
-                
+            
 "
 taskId
 "
@@ -6606,21 +6595,20 @@ dep
 >
 "
 }
-                
-"
-locale
-"
-:
-locale
-                
-"
-paths
-"
-:
-paths
             
-}
+"
+locale
+"
+:
+locale
+            
+"
+paths
+"
+:
+paths
         
+}
 )
     
 artifacts

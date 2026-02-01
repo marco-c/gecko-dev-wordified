@@ -614,14 +614,14 @@ raise
 ValueError
 (
 f
-'
+"
 Expected
 one
 of
 :
 {
-"
-"
+'
+'
 .
 join
 (
@@ -630,7 +630,7 @@ true_vals
 false_vals
 )
 }
-'
+"
 )
 def
 get_default_valgrind_suppression_files
@@ -8676,8 +8676,6 @@ binary
 pactl
 required
 for
-"
-"
 -
 -
 use

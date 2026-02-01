@@ -266,18 +266,17 @@ subprocess
 .
 check_call
 (
-            
 [
-                
+            
 "
 diff
 "
-                
+            
 "
 -
 r
 "
-                
+            
 os
 .
 path
@@ -299,7 +298,7 @@ python
 "
 )
 )
-                
+            
 os
 .
 path
@@ -321,7 +320,7 @@ python
 "
 )
 )
-                
+            
 "
 -
 -
@@ -329,7 +328,7 @@ exclude
 =
 __pycache__
 "
-                
+            
 "
 -
 -
@@ -339,9 +338,8 @@ trailing
 -
 cr
 "
-            
-]
         
+]
 )
 if
 __name__

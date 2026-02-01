@@ -988,6 +988,7 @@ None
 raise
 Exception
 (
+f
 "
 Category
 is
@@ -996,9 +997,6 @@ listed
 in
 index
 :
-"
-f
-"
 {
 opcode
 .
@@ -1046,9 +1044,6 @@ opcode
 category_name
 }
 :
-"
-f
-"
 {
 opcode
 .
@@ -2168,15 +2163,13 @@ category_name
 raise
 Exception
 (
+f
 "
 Category
 is
 not
 specified
 for
-"
-f
-"
 {
 opcode
 .

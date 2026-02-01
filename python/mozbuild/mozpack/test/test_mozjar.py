@@ -156,9 +156,8 @@ STRUCT
 =
 OrderedDict
 (
-            
 [
-                
+            
 (
 "
 foo
@@ -167,7 +166,7 @@ foo
 uint32
 "
 )
-                
+            
 (
 "
 bar
@@ -176,7 +175,7 @@ bar
 uint16
 "
 )
-                
+            
 (
 "
 qux
@@ -185,7 +184,7 @@ qux
 uint16
 "
 )
-                
+            
 (
 "
 length
@@ -194,7 +193,7 @@ length
 uint16
 "
 )
-                
+            
 (
 "
 length2
@@ -203,7 +202,7 @@ length2
 uint16
 "
 )
-                
+            
 (
 "
 string
@@ -212,7 +211,7 @@ string
 length
 "
 )
-                
+            
 (
 "
 string2
@@ -221,9 +220,8 @@ string2
 length2
 "
 )
-            
-]
         
+]
 )
     
 def
@@ -2731,9 +2729,8 @@ n
 .
 join
 (
-                
 [
-                    
+                
 "
 bar
 /
@@ -2742,7 +2739,7 @@ baz
 jar
 first
 "
-                    
+                
 "
 bar
 /
@@ -2751,7 +2748,7 @@ baz
 jar
 second
 "
-                    
+                
 "
 bar
 /
@@ -2760,7 +2757,7 @@ baz
 jar
 third
 "
-                    
+                
 "
 bar
 /
@@ -2769,7 +2766,7 @@ baz
 jar
 second
 "
-                    
+                
 "
 bar
 /
@@ -2778,14 +2775,14 @@ baz
 jar
 second
 "
-                    
+                
 "
 omni
 .
 ja
 stuff
 "
-                    
+                
 "
 bar
 /
@@ -2794,7 +2791,7 @@ baz
 jar
 first
 "
-                    
+                
 "
 omni
 .
@@ -2803,14 +2800,14 @@ other
 /
 stuff
 "
-                    
+                
 "
 omni
 .
 ja
 stuff
 "
-                    
+                
 "
 bar
 /
@@ -2819,9 +2816,8 @@ baz
 jar
 third
 "
-                
-]
             
+]
 )
         
 )
@@ -2851,9 +2847,8 @@ keys
             
 set
 (
-                
 [
-                    
+                
 "
 bar
 /
@@ -2861,15 +2856,14 @@ baz
 .
 jar
 "
-                    
+                
 "
 omni
 .
 ja
 "
-                
-]
             
+]
 )
         
 )

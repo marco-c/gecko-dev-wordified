@@ -900,9 +900,8 @@ mozunit
 .
 MockedOpen
 (
-            
 {
-                
+            
 "
 manifest
 "
@@ -916,7 +915,7 @@ join
 (
 manifest
 )
-                
+            
 "
 other
 /
@@ -932,9 +931,8 @@ join
 (
 other_manifest
 )
-            
-}
         
+}
 )
 :
             

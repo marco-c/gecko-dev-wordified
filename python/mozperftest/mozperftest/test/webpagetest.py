@@ -2573,9 +2573,8 @@ metadata
 .
 add_result
 (
-                
 {
-                    
+                
 "
 name
 "
@@ -2606,7 +2605,7 @@ website
 0
 ]
 )
-                    
+                
 "
 framework
 "
@@ -2620,7 +2619,7 @@ name
 mozperftest
 "
 }
-                    
+                
 "
 transformer
 "
@@ -2634,21 +2633,21 @@ webpagetest
 :
 WebPageTestData
 "
-                    
+                
 "
 shouldAlert
 "
 :
 True
-                    
+                
 "
 results
 "
 :
 [
-                        
+                    
 {
-                            
+                        
 "
 values
 "
@@ -2656,21 +2655,21 @@ values
 [
 metric_value
 ]
-                            
+                        
 "
 name
 "
 :
 metric_name
-                            
+                        
 "
 shouldAlert
 "
 :
 True
-                        
+                    
 }
-                        
+                    
 for
 metric_name
 metric_value
@@ -2680,11 +2679,10 @@ requested_values
 items
 (
 )
-                    
-]
                 
-}
+]
             
+}
 )
     
 def

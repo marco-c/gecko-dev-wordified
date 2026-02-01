@@ -292,8 +292,6 @@ the
 full
 wpt
 lint
-"
-"
 (
 this
 is
