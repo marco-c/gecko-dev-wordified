@@ -623,6 +623,9 @@ boolean
 "
 labeled_boolean
 "
+"
+quantity
+"
 )
 def
 output_factory

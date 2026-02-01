@@ -625,7 +625,7 @@ const
 metric_entry_t
 sMetricByNameLookupEntries
 [
-57
+58
 ]
 ;
 }
