@@ -9369,13 +9369,6 @@ NS_PRINTING
 "
 printing
 )
-set_define
-(
-"
-NS_PRINT_PREVIEW
-"
-printing
-)
 #
 Speech
 -
