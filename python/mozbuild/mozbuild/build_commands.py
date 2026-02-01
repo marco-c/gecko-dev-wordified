@@ -57,6 +57,8 @@ MPL
 import
 argparse
 import
+logging
+import
 os
 import
 subprocess
@@ -160,6 +162,7 @@ strip
 def
 _set_priority
 (
+command_context
 priority
 verbose
 )
@@ -336,9 +339,24 @@ if
 verbose
 :
             
-print
+command_context
+.
+log
 (
-f
+                
+logging
+.
+INFO
+"
+priority
+"
+{
+"
+niceness
+"
+:
+niceness
+}
 "
 os
 .
@@ -349,6 +367,7 @@ niceness
 }
 )
 "
+            
 )
         
 return
@@ -397,9 +416,27 @@ if
 verbose
 :
         
-print
+command_context
+.
+log
 (
-f
+            
+logging
+.
+INFO
+            
+"
+priority
+"
+            
+{
+"
+prio_class
+"
+:
+prio_class
+}
+            
 "
 psutil
 .
@@ -416,6 +453,7 @@ prio_class
 }
 )
 "
+        
 )
     
 return
@@ -1098,13 +1136,28 @@ if
 not
 _set_priority
 (
+command_context
 priority
 verbose
 )
 :
         
-print
+command_context
+.
+log
 (
+            
+logging
+.
+WARNING
+            
+"
+priority
+"
+            
+{
+}
+            
 "
 -
 -
@@ -1116,6 +1169,7 @@ this
 platform
 .
 "
+        
 )
     
 for
@@ -1883,8 +1937,21 @@ profile
 )
 :
             
-print
+command_context
+.
+log
 (
+                
+logging
+.
+WARNING
+                
+"
+build_resources
+"
+                
+{
+}
                 
 "
 Build
@@ -1990,8 +2057,22 @@ except
 Exception
 :
         
-print
+command_context
+.
+log
 (
+            
+logging
+.
+WARNING
+            
+"
+resource_usage
+"
+            
+{
+}
+            
 "
 Cannot
 get
@@ -2003,6 +2084,7 @@ default
 instead
 .
 "
+        
 )
         
 try
@@ -2025,20 +2107,39 @@ except
 Exception
 :
             
-print
+command_context
+.
+log
 (
+                
+logging
+.
+INFO
+                
+"
+resource_usage
+"
+                
+{
+"
+url
+"
+:
+profiler_url
+}
+                
 "
 Please
 open
-%
-s
+{
+url
+}
 in
 a
 browser
 .
 "
-%
-profiler_url
+            
 )
     
 server
@@ -2279,8 +2380,26 @@ config_status
 )
 :
         
-print
+command_context
+.
+log
 (
+            
+logging
+.
+ERROR
+            
+"
+build_backend
+"
+            
+{
+"
+backend
+"
+:
+backend
+}
             
 "
 config
@@ -2307,14 +2426,13 @@ prior
 to
 building
 the
-%
-s
+{
+backend
+}
 build
 backend
 .
 "
-%
-backend
         
 )
         

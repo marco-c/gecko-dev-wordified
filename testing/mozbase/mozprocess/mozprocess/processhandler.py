@@ -4786,7 +4786,9 @@ all
 is
 well
                         
-print
+self
+.
+debug
 (
 "
 Single

@@ -9496,8 +9496,21 @@ id
 =
 1387485
                         
-print
+self
+.
+log
 (
+                            
+logging
+.
+ERROR
+                            
+"
+build_error
+"
+                            
+{
+}
                             
 "
 Localized
@@ -9602,8 +9615,21 @@ not
 make_target
 :
                         
-print
+self
+.
+log
 (
+                            
+logging
+.
+ERROR
+                            
+"
+build_error
+"
+                            
+{
+}
                             
 "
 The
@@ -11139,8 +11165,22 @@ print
 EXCESSIVE_SWAP_MESSAGE
 )
             
-print
+self
+.
+log
 (
+                
+logging
+.
+INFO
+                
+"
+build_output
+"
+                
+{
+}
+                
 "
 To
 view
@@ -11158,6 +11198,7 @@ usage
 |
 .
 "
+            
 )
         
 long_build
@@ -11172,10 +11213,21 @@ if
 long_build
 :
             
-output
+self
 .
-on_stdout_line
+log
 (
+                
+logging
+.
+INFO
+                
+"
+build_output
+"
+                
+{
+}
                 
 "
 We
@@ -11200,10 +11252,21 @@ not
 using_sccache
 :
                 
-output
+self
 .
-on_stdout_line
+log
 (
+                    
+logging
+.
+INFO
+                    
+"
+build_output
+"
+                    
+{
+}
                     
 "
 If
@@ -11264,10 +11327,18 @@ sccache
 else
 :
             
-output
+self
 .
-on_stdout_line
+log
 (
+logging
+.
+INFO
+"
+build_output
+"
+{
+}
 "
 Your
 build
@@ -11356,8 +11427,22 @@ android
 "
 :
                     
-print
+self
+.
+log
 (
+                        
+logging
+.
+INFO
+                        
+"
+build_output
+"
+                        
+{
+}
+                        
 "
 To
 take
@@ -11374,6 +11459,7 @@ mach
 run
 |
 "
+                    
 )
                 
 app
@@ -11402,8 +11488,21 @@ android
 )
 :
                     
-print
+self
+.
+log
 (
+                        
+logging
+.
+INFO
+                        
+"
+build_output
+"
+                        
+{
+}
                         
 "
 For
@@ -11438,8 +11537,6 @@ contributing_code
 .
 html
 "
-#
-noqa
                     
 )
             
@@ -11901,8 +11998,20 @@ if
 status
 :
             
-print
+self
+.
+log
 (
+                
+BUILD_ERROR
+                
+"
+configure_error
+"
+                
+{
+}
+                
 '
 *
 *
@@ -11921,13 +12030,24 @@ mach
 build
 "
 '
+            
 )
         
 else
 :
             
-print
+self
+.
+log
 (
+logging
+.
+INFO
+"
+configure_complete
+"
+{
+}
 "
 Configure
 complete
@@ -11935,8 +12055,22 @@ complete
 "
 )
             
-print
+self
+.
+log
 (
+                
+logging
+.
+INFO
+                
+"
+configure_complete
+"
+                
+{
+}
+                
 "
 Be
 sure
@@ -11952,6 +12086,7 @@ up
 any
 changes
 "
+            
 )
         
 return
