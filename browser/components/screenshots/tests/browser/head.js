@@ -266,7 +266,7 @@ gScreenshotUISelectors
 panel
 :
 "
-.
+#
 screenshotsPagePanel
 "
 fullPageButton
