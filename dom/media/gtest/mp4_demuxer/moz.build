@@ -361,6 +361,15 @@ crypto
 .
 mp4
 "
+"
+test_case_2004835
+-
+overflow
+-
+tfdt
+.
+mp4
+"
 ]
 UNIFIED_SOURCES
 +
