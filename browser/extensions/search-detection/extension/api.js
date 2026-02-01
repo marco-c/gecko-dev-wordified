@@ -698,9 +698,7 @@ addonId
 =
 engine
 .
-wrappedJSObject
-.
-_extensionID
+extensionID
 ;
 let
 paramName
