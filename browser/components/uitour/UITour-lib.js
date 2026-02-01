@@ -5601,14 +5601,6 @@ Require
 -
 able
 .
-/
-*
-eslint
--
-env
-commonjs
-*
-/
 if
 (
 typeof
