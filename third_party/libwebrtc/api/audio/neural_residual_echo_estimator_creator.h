@@ -129,6 +129,17 @@ neural_residual_echo_estimator
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+system
+/
+rtc_export
+.
+h
+"
 namespace
 tflite
 {
@@ -196,6 +207,7 @@ change
 without
 notice
 .
+RTC_EXPORT
 absl_nullable
 std
 :
