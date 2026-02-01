@@ -642,6 +642,13 @@ PassMenuCommandEventToPopupManager
 (
 )
 ;
+nsAtom
+*
+GetCheckedStateAttribute
+(
+)
+const
+;
 bool
 mIsHandlingKeyEvent
 =
