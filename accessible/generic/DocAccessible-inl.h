@@ -966,9 +966,8 @@ dom
 Element
 *
 aElement
-const
-nsAString
-&
+nsAtom
+*
 aID
 )
 const
@@ -1025,9 +1024,8 @@ dom
 Element
 *
 aElement
-const
-nsAString
-&
+nsAtom
+*
 aID
 )
 {
@@ -1079,9 +1077,8 @@ dom
 Element
 *
 aElement
-const
-nsAString
-&
+nsAtom
+*
 aID
 )
 {
