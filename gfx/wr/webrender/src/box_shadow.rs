@@ -817,7 +817,7 @@ task_id
 )
 ;
 let
-task_world_rect
+task_rect
 =
 DeviceRect
 :
@@ -831,8 +831,6 @@ to_f32
 (
 )
 )
-/
-scale_factor
 ;
 crate
 :
@@ -844,7 +842,7 @@ prepare_clip_range
 (
 clips_range
 pattern_task_id
-task_world_rect
+task_rect
 pattern_prim_address_f
 raster_spatial_node_index
 raster_spatial_node_index
