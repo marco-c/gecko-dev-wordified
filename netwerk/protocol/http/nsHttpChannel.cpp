@@ -28782,7 +28782,7 @@ if
 (
 token
 .
-Equals
+EqualsIgnoreCase
 (
 aRemove
 )
@@ -28841,7 +28841,7 @@ if
 !
 token
 .
-Equals
+EqualsIgnoreCase
 (
 aRemove
 )
