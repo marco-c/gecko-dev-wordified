@@ -3770,7 +3770,7 @@ that
 static
 const
 size_t
-kPageSize
+kPhcPageSize
 =
 #
 if
@@ -3873,7 +3873,7 @@ static_assert
 (
 kPhcAlign
 %
-kPageSize
+kPhcPageSize
 )
 =
 =
@@ -4811,7 +4811,7 @@ NeverAllocated
 ?
 0
 :
-kPageSize
+kPhcPageSize
 -
 (
 reinterpret_cast
@@ -4823,7 +4823,7 @@ mBaseAddr
 )
 &
 (
-kPageSize
+kPhcPageSize
 -
 1
 )
@@ -4847,7 +4847,7 @@ const
 {
 MOZ_ASSERT
 (
-kPageSize
+kPhcPageSize
 >
 =
 UsableSize
@@ -4864,7 +4864,7 @@ AllocPageState
 :
 InUse
 ?
-kPageSize
+kPhcPageSize
 -
 UsableSize
 (
@@ -5913,7 +5913,7 @@ aPtr
 <
 mPagesStart
 +
-kPageSize
+kPhcPageSize
 ;
 }
 /
@@ -5997,7 +5997,7 @@ aIndex
 1
 )
 *
-kPageSize
+kPhcPageSize
 ;
 }
 MOZ_ALWAYS_INLINE
@@ -6054,7 +6054,7 @@ mPagesStart
 ?
 kPhcVirtualReservation
 -
-kPageSize
+kPhcPageSize
 :
 0
 ;
@@ -6424,7 +6424,7 @@ max_pages
 (
 kPhcVirtualReservation
 /
-kPageSize
+kPhcPageSize
 /
 2
 )
@@ -6436,7 +6436,7 @@ size_pages
 =
 aSizeBytes
 /
-kPageSize
+kPhcPageSize
 ;
 size_pages
 =
@@ -11659,7 +11659,7 @@ allPageIndex
 =
 offset
 /
-kPageSize
+kPhcPageSize
 ;
 if
 (
@@ -12396,7 +12396,7 @@ GetKernelPageSize
 )
 !
 =
-kPageSize
+kPhcPageSize
 )
 {
 return
@@ -12743,7 +12743,7 @@ MOZ_UNLIKELY
 (
 aReqSize
 >
-kPageSize
+kPhcPageSize
 )
 )
 {
@@ -13381,7 +13381,7 @@ XP_WIN
 VirtualAlloc
 (
 pagePtr
-kPageSize
+kPhcPageSize
 MEM_COMMIT
 PAGE_READWRITE
 )
@@ -13391,7 +13391,7 @@ else
 mprotect
 (
 pagePtr
-kPageSize
+kPhcPageSize
 PROT_READ
 |
 PROT_WRITE
@@ -13474,7 +13474,7 @@ ptr
 =
 pagePtr
 +
-kPageSize
+kPhcPageSize
 -
 usableSize
 ;
@@ -13746,7 +13746,7 @@ if
 VirtualFree
 (
 pagePtr
-kPageSize
+kPhcPageSize
 MEM_DECOMMIT
 )
 )
@@ -13767,7 +13767,7 @@ if
 mmap
 (
 pagePtr
-kPageSize
+kPhcPageSize
 PROT_NONE
 MAP_FIXED
 |
@@ -15007,7 +15007,7 @@ if
 aNewSize
 <
 =
-kPageSize
+kPhcPageSize
 &
 &
 ShouldMakeNewAllocations
@@ -15180,7 +15180,7 @@ malloc_good_size
 (
 aNewSize
 )
-kPageSize
+kPhcPageSize
 )
 ;
 uint8_t
@@ -15200,7 +15200,7 @@ newPtr
 =
 pagePtr
 +
-kPageSize
+kPhcPageSize
 -
 newUsableSize
 ;
@@ -16127,7 +16127,7 @@ aReqSize
 aAlignment
 <
 =
-kPageSize
+kPhcPageSize
 )
 {
 /
@@ -17289,11 +17289,11 @@ uintptr_t
 aPtr
 )
 %
-kPageSize
+kPhcPageSize
 )
 <
 (
-kPageSize
+kPhcPageSize
 /
 2
 )
@@ -17389,7 +17389,7 @@ uint8_t
 aPtr
 )
 -
-kPageSize
+kPhcPageSize
 )
 ;
 }
@@ -17441,7 +17441,7 @@ uint8_t
 aPtr
 )
 +
-kPageSize
+kPhcPageSize
 )
 ;
 }
