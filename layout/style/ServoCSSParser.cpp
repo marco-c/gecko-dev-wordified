@@ -263,7 +263,7 @@ StyleAbsoluteColor
 ServoCSSParser
 :
 :
-ComputeColorWellControlColor
+ComputeAbsoluteColor
 (
 const
 StylePerDocumentStyleData
@@ -273,8 +273,6 @@ const
 nsACString
 &
 aValue
-StyleColorSpace
-aToColorSpace
 )
 {
 StyleAbsoluteColor
@@ -284,12 +282,11 @@ color
 ;
 if
 (
-Servo_ComputeColorWellControlColor
+Servo_ComputeAbsoluteColor
 (
 aStyleData
 &
 aValue
-aToColorSpace
 &
 color
 )

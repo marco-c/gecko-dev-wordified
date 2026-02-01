@@ -3265,6 +3265,16 @@ type
 Atom
 (
 "
+colorspace
+"
+"
+colorspace
+"
+)
+    
+Atom
+(
+"
 consumeanchor
 "
 "
