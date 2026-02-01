@@ -588,6 +588,7 @@ trigger
 new
 TimelineTrigger
 (
+[
 {
 timeline
 :
@@ -620,6 +621,7 @@ contain
 %
 "
 }
+]
 )
 ;
 trigger
