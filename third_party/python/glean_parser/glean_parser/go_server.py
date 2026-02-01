@@ -269,6 +269,9 @@ datetime
 "
 boolean
 "
+"
+string_list
+"
 ]
 def
 generate_ping_type_name
@@ -513,6 +516,22 @@ return
 time
 .
 Time
+"
+    
+elif
+metric_type
+=
+=
+"
+string_list
+"
+:
+        
+return
+"
+[
+]
+string
 "
     
 else
