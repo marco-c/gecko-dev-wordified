@@ -408,6 +408,10 @@ mSize
 bool
 IsAttached
 (
+const
+WaylandSurfaceLock
+&
+aSurfaceLock
 )
 const
 ;
@@ -424,6 +428,10 @@ aSurfaceLock
 void
 RemoveTransaction
 (
+const
+WaylandSurfaceLock
+&
+aSurfaceLock
 RefPtr
 <
 BufferTransaction
