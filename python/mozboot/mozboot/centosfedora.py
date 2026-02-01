@@ -176,6 +176,15 @@ on
 centos
 /
 rocky
+nor
+        
+#
+on
+fedora
+starting
+with
+f42
+.
         
 if
 self
@@ -192,6 +201,26 @@ rocky
 "
 oracle
 "
+)
+or
+(
+            
+self
+.
+distro
+=
+=
+"
+fedora
+"
+and
+self
+.
+version
+>
+=
+42
+        
 )
 :
             
