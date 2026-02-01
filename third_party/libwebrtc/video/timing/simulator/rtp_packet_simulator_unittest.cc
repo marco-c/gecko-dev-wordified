@@ -210,7 +210,7 @@ namespace
 webrtc
 :
 :
-video_frame_simulator
+video_timing_simulator
 {
 namespace
 {
@@ -865,4 +865,4 @@ namespace
 webrtc
 :
 :
-video_frame_simulator
+video_timing_simulator

@@ -145,7 +145,7 @@ namespace
 webrtc
 :
 :
-video_frame_simulator
+video_timing_simulator
 {
 class
 RtpPacketSimulator
@@ -155,7 +155,9 @@ public
 explicit
 RtpPacketSimulator
 (
+const
 Environment
+&
 env
 )
 ;
@@ -253,6 +255,7 @@ LoggedRtpPacketIncoming
 &
 logged_packet
 )
+const
 ;
 private
 :
@@ -273,7 +276,7 @@ namespace
 webrtc
 :
 :
-video_frame_simulator
+video_timing_simulator
 #
 endif
 /

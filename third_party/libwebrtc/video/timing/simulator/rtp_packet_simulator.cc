@@ -185,14 +185,16 @@ namespace
 webrtc
 :
 :
-video_frame_simulator
+video_timing_simulator
 {
 RtpPacketSimulator
 :
 :
 RtpPacketSimulator
 (
+const
 Environment
+&
 env
 )
 :
@@ -222,6 +224,7 @@ LoggedRtpPacketIncoming
 &
 logged_packet
 )
+const
 {
 RtpPacketReceived
 rtp_packet
@@ -442,4 +445,4 @@ namespace
 webrtc
 :
 :
-video_frame_simulator
+video_timing_simulator
