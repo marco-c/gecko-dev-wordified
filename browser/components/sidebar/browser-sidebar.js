@@ -1519,6 +1519,16 @@ Glean
 contextualManager
 .
 sidebarToggle
+gleanClickEvent
+:
+Glean
+.
+sidebar
+.
+passwordsIconClick
+recordSidebarVersion
+:
+true
 }
 )
 ;
