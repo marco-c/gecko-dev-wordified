@@ -136,6 +136,15 @@ h
 #
 include
 "
+rtc_base
+/
+thread_annotations
+.
+h
+"
+#
+include
+"
 test
 /
 gmock
@@ -451,6 +460,10 @@ unique_ptr
 DecodabilityTracker
 >
 decodability_tracker_
+RTC_PT_GUARDED_BY
+(
+queue_ptr_
+)
 ;
 }
 ;
