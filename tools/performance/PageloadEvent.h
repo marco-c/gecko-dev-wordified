@@ -360,6 +360,12 @@ _
 androidAppLinkToNavigationStart
 uint32_t
 )
+\
+_
+(
+androidIsolationCategory
+nsCString
+)
 namespace
 mozilla
 :
