@@ -271,11 +271,10 @@ testGetValue
 )
 ?
 ?
-false
-false
+true
+true
 "
 Default
-no
 page
 feature
 for
