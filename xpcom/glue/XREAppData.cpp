@@ -231,12 +231,6 @@ aOther
 .
 sourceURL
 ;
-sourceRevision
-=
-aOther
-.
-sourceRevision
-;
 updateURL
 =
 aOther
