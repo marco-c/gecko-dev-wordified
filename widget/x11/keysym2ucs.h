@@ -134,6 +134,12 @@ values
 *
 /
 #
+ifndef
+WIDGET_X11_KEYSYM2UCS_H_
+#
+define
+WIDGET_X11_KEYSYM2UCS_H_
+#
 ifdef
 MOZ_X11
 #
@@ -190,3 +196,8 @@ C
 /
 #
 endif
+#
+endif
+/
+/
+WIDGET_X11_KEYSYM2UCS_H_

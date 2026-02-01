@@ -92,6 +92,12 @@ MPL
 *
 /
 #
+ifndef
+WIDGET_WINDOWS_AUDIOSESSION_H_
+#
+define
+WIDGET_WINDOWS_AUDIOSESSION_H_
+#
 include
 "
 nsString
@@ -168,3 +174,8 @@ widget
 /
 namespace
 mozilla
+#
+endif
+/
+/
+WIDGET_WINDOWS_AUDIOSESSION_H_

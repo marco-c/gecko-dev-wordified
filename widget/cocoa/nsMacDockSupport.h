@@ -199,3 +199,6 @@ UpdateDockTile
 ;
 #
 endif
+/
+/
+mozilla_widget_nsMacDockSupport_h

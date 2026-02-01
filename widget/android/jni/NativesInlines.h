@@ -800,3 +800,6 @@ mozilla
 jni
 #
 endif
+/
+/
+mozilla_jni_NativesInlines_h_

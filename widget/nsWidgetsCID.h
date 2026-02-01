@@ -107,6 +107,12 @@ bd57cee8
 *
 /
 #
+ifndef
+WIDGET_NSWIDGETSCID_H_
+#
+define
+WIDGET_NSWIDGETSCID_H_
+#
 define
 NS_FILEPICKER_CID
 \
@@ -1634,3 +1640,8 @@ NS_WINDOWS_UIUTILS_CID
 0x3c
 }
 }
+#
+endif
+/
+/
+WIDGET_NSWIDGETSCID_H_
