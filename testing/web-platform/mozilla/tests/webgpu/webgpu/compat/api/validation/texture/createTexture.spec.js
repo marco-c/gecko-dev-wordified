@@ -478,6 +478,17 @@ textureBindingViewDimension
 =
 =
 dimension
+|
+|
+textureBindingViewDimension
+=
+=
+=
+'
+cube
+-
+array
+'
 ;
 t
 .
