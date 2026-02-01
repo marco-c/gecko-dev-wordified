@@ -911,8 +911,9 @@ vsbc_decodable_stats_
 .
 value_or
 (
-{
-}
+VideoStreamBufferControllerObserverDecodableStats
+(
+)
 )
 ;
 observer_
