@@ -1516,9 +1516,7 @@ ClearAdoptedStyleSheets
 *
 *
 *
-Clone
-'
-s
+Clones
 the
 argument
 '
