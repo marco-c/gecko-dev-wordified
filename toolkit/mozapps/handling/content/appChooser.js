@@ -2173,7 +2173,7 @@ this
 .
 _dialog
 .
-setAttribute
+toggleAttribute
 (
 "
 buttondisabledaccept
