@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-mozPersonalDictionary_h_
+mozPersonalDictionary_h__
 #
 define
-mozPersonalDictionary_h_
+mozPersonalDictionary_h__
 #
 include
 "

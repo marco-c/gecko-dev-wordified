@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsSHEntryShared_h_
+nsSHEntryShared_h__
 #
 define
-nsSHEntryShared_h_
+nsSHEntryShared_h__
 #
 include
 "

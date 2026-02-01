@@ -92,10 +92,10 @@ MPL
 /
 #
 ifndef
-nsOSHelperAppService_h_
+nsOSHelperAppService_h__
 #
 define
-nsOSHelperAppService_h_
+nsOSHelperAppService_h__
 /
 /
 The
@@ -493,4 +493,4 @@ mAppAssoc
 endif
 /
 /
-nsOSHelperAppService_h_
+nsOSHelperAppService_h__

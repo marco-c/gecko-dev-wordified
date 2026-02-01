@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsWebNavigationInfo_h_
+nsWebNavigationInfo_h__
 #
 define
-nsWebNavigationInfo_h_
+nsWebNavigationInfo_h__
 #
 include
 "
@@ -213,4 +213,4 @@ aType
 endif
 /
 /
-nsWebNavigationInfo_h_
+nsWebNavigationInfo_h__

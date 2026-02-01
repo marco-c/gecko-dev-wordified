@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-MAR_PRIVATE_H_
+MAR_PRIVATE_H__
 #
 define
-MAR_PRIVATE_H_
+MAR_PRIVATE_H__
 #
 include
 <
@@ -709,6 +709,6 @@ HOST_TO_NETWORK64
 endif
 /
 *
-MAR_PRIVATE_H_
+MAR_PRIVATE_H__
 *
 /

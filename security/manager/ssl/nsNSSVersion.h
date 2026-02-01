@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-NS_NSSVERSION_H_
+_NS_NSSVERSION_H_
 #
 define
-NS_NSSVERSION_H_
+_NS_NSSVERSION_H_
 #
 include
 "

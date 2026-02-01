@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsDocShell_h_
+nsDocShell_h__
 #
 define
-nsDocShell_h_
+nsDocShell_h__
 #
 include
 "
@@ -10109,6 +10109,6 @@ aDocShell
 endif
 /
 *
-nsDocShell_h_
+nsDocShell_h__
 *
 /

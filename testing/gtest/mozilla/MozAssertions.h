@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_gtest_MozAssertions_h_
+mozilla_gtest_MozAssertions_h__
 #
 define
-mozilla_gtest_MozAssertions_h_
+mozilla_gtest_MozAssertions_h__
 #
 include
 "
@@ -270,4 +270,4 @@ expr
 endif
 /
 /
-mozilla_gtest_MozAssertions_h_
+mozilla_gtest_MozAssertions_h__

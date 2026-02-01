@@ -96,10 +96,10 @@ MPL
 /
 #
 ifndef
-nsDocShellTelemetryUtils_h_
+nsDocShellTelemetryUtils_h__
 #
 define
-nsDocShellTelemetryUtils_h_
+nsDocShellTelemetryUtils_h__
 #
 include
 "
@@ -177,4 +177,4 @@ mozilla
 endif
 /
 /
-nsDocShellTelemetryUtils_h_
+nsDocShellTelemetryUtils_h__

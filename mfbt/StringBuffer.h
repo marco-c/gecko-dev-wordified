@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-StringBuffer_h_
+StringBuffer_h__
 #
 define
-StringBuffer_h_
+StringBuffer_h__
 #
 include
 <

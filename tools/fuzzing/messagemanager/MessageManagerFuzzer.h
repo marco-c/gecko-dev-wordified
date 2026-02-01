@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_MessageManagerFuzzer_h_
+mozilla_dom_MessageManagerFuzzer_h__
 #
 define
-mozilla_dom_MessageManagerFuzzer_h_
+mozilla_dom_MessageManagerFuzzer_h__
 #
 include
 "

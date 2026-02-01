@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsDocShellCID_h_
+nsDocShellCID_h__
 #
 define
-nsDocShellCID_h_
+nsDocShellCID_h__
 /
 *
 *
@@ -499,4 +499,4 @@ destroy
 endif
 /
 /
-nsDocShellCID_h_
+nsDocShellCID_h__

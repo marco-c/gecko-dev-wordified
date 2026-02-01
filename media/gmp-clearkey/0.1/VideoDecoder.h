@@ -129,10 +129,10 @@ License
 /
 #
 ifndef
-VideoDecoder_h_
+__VideoDecoder_h__
 #
 define
-VideoDecoder_h_
+__VideoDecoder_h__
 /
 /
 This
@@ -377,4 +377,4 @@ mHasShutdown
 endif
 /
 /
-VideoDecoder_h_
+__VideoDecoder_h__

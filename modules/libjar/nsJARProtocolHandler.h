@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsJARProtocolHandler_h_
+nsJARProtocolHandler_h__
 #
 define
-nsJARProtocolHandler_h_
+nsJARProtocolHandler_h__
 #
 include
 "
@@ -278,4 +278,4 @@ endif
 /
 /
 !
-nsJARProtocolHandler_h_
+nsJARProtocolHandler_h__

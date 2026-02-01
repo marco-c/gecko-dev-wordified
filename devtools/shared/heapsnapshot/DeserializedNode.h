@@ -96,10 +96,10 @@ MPL
 /
 #
 ifndef
-mozilla_devtools_DeserializedNode_
+mozilla_devtools_DeserializedNode__
 #
 define
-mozilla_devtools_DeserializedNode_
+mozilla_devtools_DeserializedNode__
 #
 include
 <
@@ -1983,4 +1983,4 @@ JS
 endif
 /
 /
-mozilla_devtools_DeserializedNode_
+mozilla_devtools_DeserializedNode__

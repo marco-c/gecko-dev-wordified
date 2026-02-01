@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-HAL_SENSOR_H_
+__HAL_SENSOR_H_
 #
 define
-HAL_SENSOR_H_
+__HAL_SENSOR_H_
 #
 include
 "
@@ -312,6 +312,6 @@ IPC
 endif
 /
 *
-HAL_SENSOR_H_
+__HAL_SENSOR_H_
 *
 /

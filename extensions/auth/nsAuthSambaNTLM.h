@@ -74,10 +74,10 @@ MPL
 /
 #
 ifndef
-nsAuthSambaNTLM_h_
+nsAuthSambaNTLM_h__
 #
 define
-nsAuthSambaNTLM_h_
+nsAuthSambaNTLM_h__
 #
 include
 "
@@ -359,6 +359,6 @@ mToChildFD
 endif
 /
 *
-nsAuthSambaNTLM_h_
+nsAuthSambaNTLM_h__
 *
 /

@@ -379,10 +379,10 @@ document
 /
 #
 ifndef
-NS_PARSER_
+NS_PARSER__
 #
 define
-NS_PARSER_
+NS_PARSER__
 #
 include
 "

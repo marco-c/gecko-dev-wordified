@@ -74,10 +74,10 @@ MPL
 /
 #
 ifndef
-nsAuthSASL_h_
+nsAuthSASL_h__
 #
 define
-nsAuthSASL_h_
+nsAuthSASL_h__
 #
 include
 "
@@ -180,6 +180,6 @@ mSASLReady
 endif
 /
 *
-nsAuthSASL_h_
+nsAuthSASL_h__
 *
 /

@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-mozilla_psm_VerifySSLServerCertParent_h_
+mozilla_psm_VerifySSLServerCertParent_h__
 #
 define
-mozilla_psm_VerifySSLServerCertParent_h_
+mozilla_psm_VerifySSLServerCertParent_h__
 #
 include
 "
@@ -355,4 +355,4 @@ mozilla
 endif
 /
 /
-mozilla_psm_VerifySSLServerCertParent_h_
+mozilla_psm_VerifySSLServerCertParent_h__

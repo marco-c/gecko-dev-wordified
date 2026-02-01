@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-nsChromeTreeOwner_h_
+nsChromeTreeOwner_h__
 #
 define
-nsChromeTreeOwner_h_
+nsChromeTreeOwner_h__
 /
 /
 Helper
@@ -236,6 +236,6 @@ mAppWindow
 endif
 /
 *
-nsChromeTreeOwner_h_
+nsChromeTreeOwner_h__
 *
 /

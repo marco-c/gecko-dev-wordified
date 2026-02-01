@@ -107,10 +107,10 @@ MPL
 /
 #
 ifndef
-_nsContentHandlerAppImpl_h_
+__nsContentHandlerAppImpl_h__
 #
 define
-_nsContentHandlerAppImpl_h_
+__nsContentHandlerAppImpl_h__
 #
 include
 <

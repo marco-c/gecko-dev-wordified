@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsIContentSink_h_
+nsIContentSink_h___
 #
 define
-nsIContentSink_h_
+nsIContentSink_h___
 /
 *
 *
@@ -886,6 +886,6 @@ InitialTranslationCompleted
 endif
 /
 *
-nsIContentSink_h_
+nsIContentSink_h___
 *
 /

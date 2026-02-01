@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-DomainPolicy_h_
+DomainPolicy_h__
 #
 define
-DomainPolicy_h_
+DomainPolicy_h__
 #
 include
 "
@@ -282,6 +282,6 @@ mozilla
 endif
 /
 *
-DomainPolicy_h_
+DomainPolicy_h__
 *
 /

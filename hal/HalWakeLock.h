@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-HAL_WAKELOCK_H_
+__HAL_WAKELOCK_H_
 #
 define
-HAL_WAKELOCK_H_
+__HAL_WAKELOCK_H_
 namespace
 mozilla
 {
@@ -181,6 +181,6 @@ mozilla
 endif
 /
 *
-HAL_WAKELOCK_H_
+__HAL_WAKELOCK_H_
 *
 /

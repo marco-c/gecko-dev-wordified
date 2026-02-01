@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-nsOSHelperAppServiceChild_h_
+nsOSHelperAppServiceChild_h__
 #
 define
-nsOSHelperAppServiceChild_h_
+nsOSHelperAppServiceChild_h__
 #
 include
 "
@@ -278,4 +278,4 @@ override
 endif
 /
 /
-nsOSHelperAppServiceChild_h_
+nsOSHelperAppServiceChild_h__

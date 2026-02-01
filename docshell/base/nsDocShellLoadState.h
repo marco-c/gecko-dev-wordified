@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsDocShellLoadState_h_
+nsDocShellLoadState_h__
 #
 define
-nsDocShellLoadState_h_
+nsDocShellLoadState_h__
 #
 include
 "
@@ -4637,6 +4637,6 @@ mIsInitialAboutBlankHandlingProhibited
 endif
 /
 *
-nsDocShellLoadState_h_
+nsDocShellLoadState_h__
 *
 /

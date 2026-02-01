@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-mozilla_AppWindow_h_
+mozilla_AppWindow_h__
 #
 define
-mozilla_AppWindow_h_
+mozilla_AppWindow_h__
 /
 /
 Local
@@ -2242,6 +2242,6 @@ mozilla
 endif
 /
 *
-mozilla_AppWindow_h_
+mozilla_AppWindow_h__
 *
 /

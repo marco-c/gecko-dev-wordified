@@ -432,10 +432,10 @@ DAMAGE
 .
 #
 ifndef
-JEMALLOC_TYPES_H_
+_JEMALLOC_TYPES_H_
 #
 define
-JEMALLOC_TYPES_H_
+_JEMALLOC_TYPES_H_
 #
 include
 <
@@ -1882,4 +1882,4 @@ endif
 endif
 /
 /
-JEMALLOC_TYPES_H_
+_JEMALLOC_TYPES_H_

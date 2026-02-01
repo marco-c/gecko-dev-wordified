@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsRefreshTimer_h_
+nsRefreshTimer_h__
 #
 define
-nsRefreshTimer_h_
+nsRefreshTimer_h__
 #
 include
 "
@@ -222,6 +222,6 @@ nsRefreshTimer
 endif
 /
 *
-nsRefreshTimer_h_
+nsRefreshTimer_h__
 *
 /

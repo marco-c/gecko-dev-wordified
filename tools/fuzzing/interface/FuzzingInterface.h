@@ -107,10 +107,10 @@ interface
 /
 #
 ifndef
-FuzzingInterface_h_
+FuzzingInterface_h__
 #
 define
-FuzzingInterface_h_
+FuzzingInterface_h__
 #
 include
 <
@@ -442,4 +442,4 @@ moduleName
 endif
 /
 /
-FuzzingInterface_h_
+FuzzingInterface_h__

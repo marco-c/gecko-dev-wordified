@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-mozilla_psm_VerifySSLServerCertChild_h_
+mozilla_psm_VerifySSLServerCertChild_h__
 #
 define
-mozilla_psm_VerifySSLServerCertChild_h_
+mozilla_psm_VerifySSLServerCertChild_h__
 #
 include
 "

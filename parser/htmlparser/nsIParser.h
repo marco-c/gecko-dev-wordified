@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-NS_IPARSER_
+NS_IPARSER___
 #
 define
-NS_IPARSER_
+NS_IPARSER___
 /
 *
 *

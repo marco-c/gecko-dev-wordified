@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-nsAuth_h_
+nsAuth_h__
 #
 define
-nsAuth_h_
+nsAuth_h__
 /
 *
 types
@@ -156,7 +156,7 @@ endif
 !
 defined
 (
-nsAuth_h_
+nsAuth_h__
 )
 *
 /

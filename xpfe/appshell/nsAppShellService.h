@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-_nsAppShellService_h
+__nsAppShellService_h
 #
 define
-_nsAppShellService_h
+__nsAppShellService_h
 #
 include
 "

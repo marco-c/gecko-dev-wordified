@@ -129,10 +129,10 @@ License
 /
 #
 ifndef
-WMFUtils_h_
+__WMFUtils_h__
 #
 define
-WMFUtils_h_
+__WMFUtils_h__
 #
 include
 <
@@ -1422,4 +1422,4 @@ wmf
 endif
 /
 /
-WMFUtils_h_
+__WMFUtils_h__

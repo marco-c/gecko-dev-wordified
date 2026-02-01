@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-mozilla_storage_VacuumManager_h_
+mozilla_storage_VacuumManager_h__
 #
 define
-mozilla_storage_VacuumManager_h_
+mozilla_storage_VacuumManager_h__
 #
 include
 "

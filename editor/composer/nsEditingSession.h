@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsEditingSession_h_
+nsEditingSession_h__
 #
 define
-nsEditingSession_h_
+nsEditingSession_h__
 #
 include
 "
@@ -811,4 +811,4 @@ mExistingEditor
 endif
 /
 /
-nsEditingSession_h_
+nsEditingSession_h__

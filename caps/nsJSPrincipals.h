@@ -105,10 +105,10 @@ uris
 /
 #
 ifndef
-nsJSPrincipals_h_
+nsJSPrincipals_h__
 #
 define
-nsJSPrincipals_h_
+nsJSPrincipals_h__
 #
 include
 "
@@ -499,6 +499,6 @@ setDebugToken
 endif
 /
 *
-nsJSPrincipals_h_
+nsJSPrincipals_h__
 *
 /

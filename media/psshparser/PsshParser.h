@@ -129,10 +129,10 @@ License
 /
 #
 ifndef
-ClearKeyCencParser_h_
+__ClearKeyCencParser_h__
 #
 define
-ClearKeyCencParser_h_
+__ClearKeyCencParser_h__
 #
 include
 <

@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-mozilla_CryptoTask_h
+mozilla__CryptoTask_h
 #
 define
-mozilla_CryptoTask_h
+mozilla__CryptoTask_h
 #
 include
 "
@@ -345,4 +345,4 @@ mozilla
 endif
 /
 /
-mozilla_CryptoTask_h
+mozilla__CryptoTask_h

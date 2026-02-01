@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-MAR_CMDLINE_H_
+MAR_CMDLINE_H__
 #
 define
-MAR_CMDLINE_H_
+MAR_CMDLINE_H__
 /
 *
 We
@@ -669,6 +669,6 @@ endif
 endif
 /
 *
-MAR_CMDLINE_H_
+MAR_CMDLINE_H__
 *
 /

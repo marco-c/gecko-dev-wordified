@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsChromeProtocolHandler_h_
+nsChromeProtocolHandler_h___
 #
 define
-nsChromeProtocolHandler_h_
+nsChromeProtocolHandler_h___
 #
 include
 "
@@ -212,6 +212,6 @@ nsChromeProtocolHandler
 endif
 /
 *
-nsChromeProtocolHandler_h_
+nsChromeProtocolHandler_h___
 *
 /

@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-GeckoViewOutputStream_h_
+GeckoViewOutputStream_h__
 #
 define
-GeckoViewOutputStream_h_
+GeckoViewOutputStream_h__
 #
 include
 "
@@ -194,4 +194,4 @@ default
 endif
 /
 /
-GeckoViewOutputStream_h_
+GeckoViewOutputStream_h__

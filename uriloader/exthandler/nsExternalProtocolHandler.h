@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-nsExternalProtocolHandler_h_
+nsExternalProtocolHandler_h___
 #
 define
-nsExternalProtocolHandler_h_
+nsExternalProtocolHandler_h___
 #
 include
 "
@@ -187,4 +187,4 @@ m_schemeName
 endif
 /
 /
-nsExternalProtocolHandler_h_
+nsExternalProtocolHandler_h___

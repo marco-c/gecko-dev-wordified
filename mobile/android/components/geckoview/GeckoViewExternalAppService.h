@@ -92,10 +92,10 @@ MPL
 /
 #
 ifndef
-GeckoViewExternalAppService_h_
+GeckoViewExternalAppService_h__
 #
 define
-GeckoViewExternalAppService_h_
+GeckoViewExternalAppService_h__
 #
 include
 "

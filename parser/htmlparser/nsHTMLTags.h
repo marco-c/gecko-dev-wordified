@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsHTMLTags_h_
+nsHTMLTags_h___
 #
 define
-nsHTMLTags_h_
+nsHTMLTags_h___
 #
 include
 "
@@ -544,6 +544,6 @@ gTagAtomTable
 endif
 /
 *
-nsHTMLTags_h_
+nsHTMLTags_h___
 *
 /

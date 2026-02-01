@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-nsScriptSecurityManager_h_
+nsScriptSecurityManager_h__
 #
 define
-nsScriptSecurityManager_h_
+nsScriptSecurityManager_h__
 #
 include
 "
@@ -899,4 +899,4 @@ sStrBundle
 endif
 /
 /
-nsScriptSecurityManager_h_
+nsScriptSecurityManager_h__

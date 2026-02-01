@@ -111,10 +111,10 @@ support
 /
 #
 ifndef
-FuzzingInterfaceStream_h_
+FuzzingInterfaceStream_h__
 #
 define
-FuzzingInterfaceStream_h_
+FuzzingInterfaceStream_h__
 #
 ifdef
 JS_STANDALONE
@@ -574,4 +574,4 @@ moduleName
 endif
 /
 /
-FuzzingInterfaceStream_h_
+FuzzingInterfaceStream_h__

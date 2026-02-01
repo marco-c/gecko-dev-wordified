@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsComposeTxtSrvFilter_h_
+nsComposeTxtSrvFilter_h__
 #
 define
-nsComposeTxtSrvFilter_h_
+nsComposeTxtSrvFilter_h__
 #
 include
 "

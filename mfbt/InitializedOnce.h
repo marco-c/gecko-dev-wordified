@@ -129,10 +129,10 @@ once
 .
 #
 ifndef
-mozilla_mfbt_initializedonce_h_
+mozilla_mfbt_initializedonce_h__
 #
 define
-mozilla_mfbt_initializedonce_h_
+mozilla_mfbt_initializedonce_h__
 #
 include
 "

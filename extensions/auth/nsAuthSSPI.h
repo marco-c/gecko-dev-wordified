@@ -74,10 +74,10 @@ MPL
 /
 #
 ifndef
-nsAuthSSPI_h_
+nsAuthSSPI_h__
 #
 define
-nsAuthSSPI_h_
+nsAuthSSPI_h__
 #
 include
 "
@@ -340,6 +340,6 @@ mCertDERLength
 endif
 /
 *
-nsAuthSSPI_h_
+nsAuthSSPI_h__
 *
 /

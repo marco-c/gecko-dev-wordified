@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-FuzzerRegistry_h_
+_FuzzerRegistry_h__
 #
 define
-FuzzerRegistry_h_
+_FuzzerRegistry_h__
 #
 include
 <
@@ -284,4 +284,4 @@ mozilla
 endif
 /
 /
-FuzzerRegistry_h_
+_FuzzerRegistry_h__
