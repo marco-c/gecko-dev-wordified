@@ -4260,10 +4260,9 @@ aDispatchFlags
 nsresult
 NS_CreateBackgroundTaskQueue
 (
-mozilla
-:
-:
-StaticString
+const
+char
+*
 aName
 nsISerialEventTarget
 *
