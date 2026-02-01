@@ -5421,12 +5421,6 @@ mDocumentOpenedButNotLoaded
 |
 mIsLoadingJavascriptURI
 ;
-MOZ_ASSERT_IF
-(
-forceInitialSyncLoad
-hasActiveLoad
-)
-;
 if
 (
 (
