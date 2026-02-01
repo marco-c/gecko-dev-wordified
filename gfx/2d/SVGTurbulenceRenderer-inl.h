@@ -115,6 +115,12 @@ MPL
 *
 /
 #
+ifndef
+GFX_2D_SVGTURBULENCERENDERER_INL_H_
+#
+define
+GFX_2D_SVGTURBULENCERENDERER_INL_H_
+#
 include
 "
 2D
@@ -2900,3 +2906,8 @@ gfx
 /
 namespace
 mozilla
+#
+endif
+/
+/
+GFX_2D_SVGTURBULENCERENDERER_INL_H_

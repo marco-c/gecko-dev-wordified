@@ -115,6 +115,12 @@ MPL
 *
 /
 #
+ifndef
+GFX_2D_SSEHELPERS_H_
+#
+define
+GFX_2D_SSEHELPERS_H_
+#
 include
 <
 xmmintrin
@@ -229,3 +235,8 @@ aSource
 )
 ;
 }
+#
+endif
+/
+/
+GFX_2D_SSEHELPERS_H_

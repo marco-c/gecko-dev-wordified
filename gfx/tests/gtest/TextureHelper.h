@@ -115,6 +115,12 @@ MPL
 *
 /
 #
+ifndef
+GFX_TESTS_GTEST_TEXTUREHELPER_H_
+#
+define
+GFX_TESTS_GTEST_TEXTUREHELPER_H_
+#
 include
 "
 Types
@@ -868,3 +874,8 @@ layers
 /
 namespace
 mozilla
+#
+endif
+/
+/
+GFX_TESTS_GTEST_TEXTUREHELPER_H_

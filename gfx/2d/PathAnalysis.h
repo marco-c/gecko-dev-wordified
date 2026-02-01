@@ -115,6 +115,12 @@ MPL
 *
 /
 #
+ifndef
+GFX_2D_PATHANALYSIS_H_
+#
+define
+GFX_2D_PATHANALYSIS_H_
+#
 include
 "
 2D
@@ -400,3 +406,8 @@ gfx
 /
 namespace
 mozilla
+#
+endif
+/
+/
+GFX_2D_PATHANALYSIS_H_

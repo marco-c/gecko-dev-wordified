@@ -115,6 +115,12 @@ MPL
 *
 /
 #
+ifndef
+GFX_2D_FILTERPROCESSINGSIMD_INL_H_
+#
+define
+GFX_2D_FILTERPROCESSINGSIMD_INL_H_
+#
 include
 "
 FilterProcessing
@@ -9373,3 +9379,8 @@ gfx
 /
 namespace
 mozilla
+#
+endif
+/
+/
+GFX_2D_FILTERPROCESSINGSIMD_INL_H_

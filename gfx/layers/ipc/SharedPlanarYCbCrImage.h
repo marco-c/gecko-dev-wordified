@@ -115,6 +115,12 @@ MPL
 *
 /
 #
+ifndef
+GFX_LAYERS_IPC_SHAREDPLANARYCBCRIMAGE_H_
+#
+define
+GFX_LAYERS_IPC_SHAREDPLANARYCBCRIMAGE_H_
+#
 include
 <
 stdint
@@ -405,3 +411,8 @@ namespace
 mozilla
 #
 endif
+#
+endif
+/
+/
+GFX_LAYERS_IPC_SHAREDPLANARYCBCRIMAGE_H_
