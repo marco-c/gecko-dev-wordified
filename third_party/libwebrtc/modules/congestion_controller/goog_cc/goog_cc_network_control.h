@@ -635,13 +635,7 @@ SendSideBandwidthEstimation
 >
 bandwidth_estimation_
 ;
-std
-:
-:
-unique_ptr
-<
 AlrDetector
->
 alr_detector_
 ;
 std
@@ -766,9 +760,6 @@ last_loss_based_target_rate_
 DataRate
 last_pushback_target_rate_
 ;
-DataRate
-last_stable_target_rate_
-;
 LossBasedState
 last_loss_base_state_
 ;
@@ -795,6 +786,9 @@ PlusInfinity
 ;
 double
 pacing_factor_
+;
+TimeDelta
+pacing_time_window_
 ;
 DataRate
 min_total_allocated_bitrate_
