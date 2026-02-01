@@ -624,6 +624,10 @@ FontCallbackData
 aCallbackData
 =
 nullptr
+bool
+aCreateSubfont
+=
+false
 )
 ;
 hb_font_t
