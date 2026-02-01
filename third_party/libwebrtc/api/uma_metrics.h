@@ -1222,6 +1222,9 @@ kIceOptionsTrickle
 kIceCandidateCount
 =
 32
+kBundle
+=
+33
 /
 /
 RTP
