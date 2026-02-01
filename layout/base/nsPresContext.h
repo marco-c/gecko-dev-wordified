@@ -877,12 +877,11 @@ device
 .
 *
 /
-nsresult
+void
 Init
 (
 nsDeviceContext
 *
-aDeviceContext
 )
 ;
 /

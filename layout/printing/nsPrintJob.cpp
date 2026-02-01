@@ -9682,8 +9682,6 @@ it
 with
 the
 DC
-MOZ_TRY
-(
 aPO
 -
 >
@@ -9696,7 +9694,6 @@ printData
 -
 >
 mPrintDC
-)
 )
 ;
 bool

@@ -4272,7 +4272,7 @@ mRubyPositioningFactor
 0f
 ;
 }
-nsresult
+void
 nsPresContext
 :
 :
@@ -4283,7 +4283,7 @@ nsDeviceContext
 aDeviceContext
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 mInitialized
@@ -4296,7 +4296,7 @@ context
 "
 )
 ;
-NS_ENSURE_ARG
+MOZ_ASSERT
 (
 aDeviceContext
 )
@@ -4870,20 +4870,11 @@ gExactCallbackPrefs
 this
 )
 ;
-nsresult
-rv
-=
 mEventManager
 -
 >
 Init
 (
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 mEventManager
@@ -4976,9 +4967,6 @@ true
 ;
 #
 endif
-return
-NS_OK
-;
 }
 void
 nsPresContext
