@@ -128,10 +128,10 @@ objects
 /
 #
 ifndef
-nsInlineFrame_h___
+nsInlineFrame_h_
 #
 define
-nsInlineFrame_h___
+nsInlineFrame_h_
 #
 include
 "
@@ -1223,6 +1223,6 @@ override
 endif
 /
 *
-nsInlineFrame_h___
+nsInlineFrame_h_
 *
 /

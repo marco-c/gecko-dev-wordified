@@ -195,10 +195,10 @@ local
 /
 #
 ifndef
-nsDateTimeControlFrame_h__
+nsDateTimeControlFrame_h_
 #
 define
-nsDateTimeControlFrame_h__
+nsDateTimeControlFrame_h_
 #
 include
 "
@@ -386,4 +386,4 @@ NS_INTRINSIC_ISIZE_UNKNOWN
 endif
 /
 /
-nsDateTimeControlFrame_h__
+nsDateTimeControlFrame_h_

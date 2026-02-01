@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsLayoutStatics_h__
+nsLayoutStatics_h_
 #
 define
-nsLayoutStatics_h__
+nsLayoutStatics_h_
 #
 include
 "
@@ -355,4 +355,4 @@ sLayoutStaticRefcnt
 endif
 /
 /
-nsLayoutStatics_h__
+nsLayoutStatics_h_

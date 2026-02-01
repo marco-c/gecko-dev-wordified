@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsIDocumentViewerPrint_h___
+nsIDocumentViewerPrint_h_
 #
 define
-nsIDocumentViewerPrint_h___
+nsIDocumentViewerPrint_h_
 #
 include
 "
@@ -428,6 +428,6 @@ override
 endif
 /
 *
-nsIDocumentViewerPrint_h___
+nsIDocumentViewerPrint_h_
 *
 /

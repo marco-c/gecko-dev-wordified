@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsMathMLParts_h___
+nsMathMLParts_h_
 #
 define
-nsMathMLParts_h___
+nsMathMLParts_h_
 #
 include
 "
@@ -541,6 +541,6 @@ aStyle
 endif
 /
 *
-nsMathMLParts_h___
+nsMathMLParts_h_
 *
 /

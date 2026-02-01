@@ -136,10 +136,10 @@ accept
 /
 #
 ifndef
-nsCSSProps_h___
+nsCSSProps_h_
 #
 define
-nsCSSProps_h___
+nsCSSProps_h_
 #
 include
 <
@@ -1537,6 +1537,6 @@ aProperty
 endif
 /
 *
-nsCSSProps_h___
+nsCSSProps_h_
 *
 /

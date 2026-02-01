@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsFirstLetterFrame_h__
+nsFirstLetterFrame_h_
 #
 define
-nsFirstLetterFrame_h__
+nsFirstLetterFrame_h_
 /
 *
 rendering
@@ -668,6 +668,6 @@ kClassID
 endif
 /
 *
-nsFirstLetterFrame_h__
+nsFirstLetterFrame_h_
 *
 /

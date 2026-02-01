@@ -128,10 +128,10 @@ declarations
 /
 #
 ifndef
-nsCSSValue_h___
+nsCSSValue_h_
 #
 define
-nsCSSValue_h___
+nsCSSValue_h_
 #
 include
 "
@@ -898,6 +898,6 @@ mValue
 endif
 /
 *
-nsCSSValue_h___
+nsCSSValue_h_
 *
 /

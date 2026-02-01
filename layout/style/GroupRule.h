@@ -136,10 +136,10 @@ rules
 /
 #
 ifndef
-mozilla_css_GroupRule_h__
+mozilla_css_GroupRule_h_
 #
 define
-mozilla_css_GroupRule_h__
+mozilla_css_GroupRule_h_
 #
 include
 "
@@ -541,6 +541,6 @@ mozilla
 endif
 /
 *
-mozilla_css_GroupRule_h__
+mozilla_css_GroupRule_h_
 *
 /

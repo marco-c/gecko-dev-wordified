@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsFieldSetFrame_h___
+nsFieldSetFrame_h_
 #
 define
-nsFieldSetFrame_h___
+nsFieldSetFrame_h_
 #
 include
 "
@@ -774,4 +774,4 @@ mLegendSpace
 endif
 /
 /
-nsFieldSetFrame_h___
+nsFieldSetFrame_h_

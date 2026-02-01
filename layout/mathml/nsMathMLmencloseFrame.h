@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsMathMLmencloseFrame_h___
+nsMathMLmencloseFrame_h_
 #
 define
-nsMathMLmencloseFrame_h___
+nsMathMLmencloseFrame_h_
 #
 include
 "
@@ -535,6 +535,6 @@ aType
 endif
 /
 *
-nsMathMLmencloseFrame_h___
+nsMathMLmencloseFrame_h_
 *
 /

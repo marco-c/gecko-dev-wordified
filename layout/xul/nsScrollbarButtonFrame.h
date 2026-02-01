@@ -135,10 +135,10 @@ horizontally
 /
 #
 ifndef
-nsScrollbarButtonFrame_h___
+nsScrollbarButtonFrame_h_
 #
 define
-nsScrollbarButtonFrame_h___
+nsScrollbarButtonFrame_h_
 #
 include
 "

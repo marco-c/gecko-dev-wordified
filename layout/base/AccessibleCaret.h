@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-AccessibleCaret_h__
+AccessibleCaret_h_
 #
 define
-AccessibleCaret_h__
+AccessibleCaret_h_
 #
 include
 "
@@ -1652,4 +1652,4 @@ mozilla
 endif
 /
 /
-AccessibleCaret_h__
+AccessibleCaret_h_

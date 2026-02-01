@@ -138,10 +138,10 @@ box
 /
 #
 ifndef
-nsFlexContainerFrame_h___
+nsFlexContainerFrame_h_
 #
 define
-nsFlexContainerFrame_h___
+nsFlexContainerFrame_h_
 #
 include
 <
@@ -1973,6 +1973,7 @@ final
 int32_t
 FindLineContaining
 (
+const
 nsIFrame
 *
 aFrame
@@ -5367,6 +5368,6 @@ NS_INTRINSIC_ISIZE_UNKNOWN
 endif
 /
 *
-nsFlexContainerFrame_h___
+nsFlexContainerFrame_h_
 *
 /

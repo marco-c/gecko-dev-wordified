@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-__inDeepTreeWalker_h___
+_inDeepTreeWalker_h_
 #
 define
-__inDeepTreeWalker_h___
+_inDeepTreeWalker_h_
 #
 include
 "
@@ -369,4 +369,4 @@ IN_DEEPTREEWALKER_CID
 endif
 /
 /
-__inDeepTreeWalker_h___
+_inDeepTreeWalker_h_

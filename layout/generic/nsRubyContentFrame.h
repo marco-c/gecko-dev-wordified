@@ -130,10 +130,10 @@ content
 /
 #
 ifndef
-nsRubyContentFrame_h___
+nsRubyContentFrame_h_
 #
 define
-nsRubyContentFrame_h___
+nsRubyContentFrame_h_
 #
 include
 "
@@ -263,6 +263,6 @@ aID
 endif
 /
 *
-nsRubyContentFrame_h___
+nsRubyContentFrame_h_
 *
 /

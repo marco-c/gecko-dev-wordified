@@ -126,10 +126,10 @@ boxes
 /
 #
 ifndef
-nsCSSAnonBoxes_h___
+nsCSSAnonBoxes_h_
 #
 define
-nsCSSAnonBoxes_h___
+nsCSSAnonBoxes_h_
 #
 include
 "
@@ -439,6 +439,6 @@ CSS_ANON_BOX
 endif
 /
 *
-nsCSSAnonBoxes_h___
+nsCSSAnonBoxes_h_
 *
 /

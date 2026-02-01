@@ -138,10 +138,10 @@ change
 /
 #
 ifndef
-nsStyleChangeList_h___
+nsStyleChangeList_h_
 #
 define
-nsStyleChangeList_h___
+nsStyleChangeList_h_
 #
 include
 "
@@ -348,6 +348,6 @@ RemoveLastElement
 endif
 /
 *
-nsStyleChangeList_h___
+nsStyleChangeList_h_
 *
 /

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsColumnSetFrame_h___
+nsColumnSetFrame_h_
 #
 define
-nsColumnSetFrame_h___
+nsColumnSetFrame_h_
 /
 *
 rendering
@@ -1387,4 +1387,4 @@ aInput
 endif
 /
 /
-nsColumnSetFrame_h___
+nsColumnSetFrame_h_

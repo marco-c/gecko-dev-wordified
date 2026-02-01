@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-__inLayoutUtils_h__
+_inLayoutUtils_h_
 #
 define
-__inLayoutUtils_h__
+_inLayoutUtils_h_
 class
 nsINode
 ;
@@ -211,4 +211,4 @@ aDoc
 endif
 /
 /
-__inLayoutUtils_h__
+_inLayoutUtils_h_

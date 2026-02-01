@@ -133,10 +133,10 @@ editing
 /
 #
 ifndef
-nsCaret_h__
+nsCaret_h_
 #
 define
-nsCaret_h__
+nsCaret_h_
 #
 include
 "
@@ -1771,4 +1771,4 @@ false
 endif
 /
 /
-nsCaret_h__
+nsCaret_h_

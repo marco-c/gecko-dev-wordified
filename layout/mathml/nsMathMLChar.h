@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsMathMLChar_h___
+nsMathMLChar_h_
 #
 define
-nsMathMLChar_h___
+nsMathMLChar_h_
 #
 include
 "
@@ -1451,6 +1451,6 @@ r
 endif
 /
 *
-nsMathMLChar_h___
+nsMathMLChar_h_
 *
 /

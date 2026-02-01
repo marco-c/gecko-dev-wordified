@@ -127,10 +127,10 @@ elements
 /
 #
 ifndef
-nsCSSPseudoElements_h___
+nsCSSPseudoElements_h_
 #
 define
-nsCSSPseudoElements_h___
+nsCSSPseudoElements_h_
 #
 include
 "
@@ -1095,6 +1095,6 @@ CSSPseudoElementsEnd
 endif
 /
 *
-nsCSSPseudoElements_h___
+nsCSSPseudoElements_h_
 *
 /

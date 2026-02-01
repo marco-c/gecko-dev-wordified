@@ -134,10 +134,10 @@ frame
 /
 #
 ifndef
-nsLineLayout_h___
+nsLineLayout_h_
 #
 define
-nsLineLayout_h___
+nsLineLayout_h_
 #
 include
 "
@@ -4638,6 +4638,6 @@ psd
 endif
 /
 *
-nsLineLayout_h___
+nsLineLayout_h_
 *
 /

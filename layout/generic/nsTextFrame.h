@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsTextFrame_h__
+nsTextFrame_h_
 #
 define
-nsTextFrame_h__
+nsTextFrame_h_
 #
 include
 "

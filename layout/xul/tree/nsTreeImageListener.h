@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsTreeImageListener_h__
+nsTreeImageListener_h_
 #
 define
-nsTreeImageListener_h__
+nsTreeImageListener_h_
 #
 include
 "
@@ -358,4 +358,4 @@ mInvalidationArea
 endif
 /
 /
-nsTreeImageListener_h__
+nsTreeImageListener_h_

@@ -131,10 +131,10 @@ lists
 /
 #
 ifndef
-nsContainerFrame_h___
+nsContainerFrame_h_
 #
 define
-nsContainerFrame_h___
+nsContainerFrame_h_
 #
 include
 "
@@ -8805,6 +8805,6 @@ mWalkOOFFrames
 endif
 /
 *
-nsContainerFrame_h___
+nsContainerFrame_h_
 *
 /

@@ -133,10 +133,10 @@ leaf
 /
 #
 ifndef
-nsAtomicContainerFrame_h___
+nsAtomicContainerFrame_h_
 #
 define
-nsAtomicContainerFrame_h___
+nsAtomicContainerFrame_h_
 #
 include
 "
@@ -320,4 +320,4 @@ aID
 endif
 /
 /
-nsAtomicContainerFrame_h___
+nsAtomicContainerFrame_h_

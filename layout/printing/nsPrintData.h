@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsPrintData_h___
+nsPrintData_h_
 #
 define
-nsPrintData_h___
+nsPrintData_h_
 /
 /
 Interfaces
@@ -297,6 +297,6 @@ virtual
 endif
 /
 *
-nsPrintData_h___
+nsPrintData_h_
 *
 /

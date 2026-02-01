@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-mozilla_PresShellWidgetListener_h__
+mozilla_PresShellWidgetListener_h_
 #
 define
-mozilla_PresShellWidgetListener_h__
+mozilla_PresShellWidgetListener_h_
 #
 include
 "

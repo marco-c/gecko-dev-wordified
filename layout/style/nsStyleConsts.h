@@ -130,10 +130,10 @@ ComputedStyle
 /
 #
 ifndef
-nsStyleConsts_h___
+nsStyleConsts_h_
 #
 define
-nsStyleConsts_h___
+nsStyleConsts_h_
 #
 include
 <
@@ -1915,6 +1915,6 @@ mozilla
 endif
 /
 *
-nsStyleConsts_h___
+nsStyleConsts_h_
 *
 /

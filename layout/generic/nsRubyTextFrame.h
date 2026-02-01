@@ -131,10 +131,10 @@ text
 /
 #
 ifndef
-nsRubyTextFrame_h___
+nsRubyTextFrame_h_
 #
 define
-nsRubyTextFrame_h___
+nsRubyTextFrame_h_
 #
 include
 "
@@ -313,6 +313,6 @@ kClassID
 endif
 /
 *
-nsRubyTextFrame_h___
+nsRubyTextFrame_h_
 *
 /

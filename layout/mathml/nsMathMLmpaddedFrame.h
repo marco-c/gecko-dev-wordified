@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsMathMLmpaddedFrame_h___
+nsMathMLmpaddedFrame_h_
 #
 define
-nsMathMLmpaddedFrame_h___
+nsMathMLmpaddedFrame_h_
 #
 include
 "
@@ -480,6 +480,6 @@ aFontSizeInflation
 endif
 /
 *
-nsMathMLmpaddedFrame_h___
+nsMathMLmpaddedFrame_h_
 *
 /

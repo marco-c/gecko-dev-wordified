@@ -126,10 +126,10 @@ nsQuoteList
 /
 #
 ifndef
-nsGenConList_h___
+nsGenConList_h_
 #
 define
-nsGenConList_h___
+nsGenConList_h_
 #
 include
 <
@@ -951,6 +951,6 @@ mLastInserted
 endif
 /
 *
-nsGenConList_h___
+nsGenConList_h_
 *
 /

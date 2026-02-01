@@ -123,10 +123,10 @@ nsScrollbarFrame
 /
 #
 ifndef
-nsScrollbarFrame_h__
+nsScrollbarFrame_h_
 #
 define
-nsScrollbarFrame_h__
+nsScrollbarFrame_h_
 #
 include
 "

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsMathMLmunderoverFrame_h___
+nsMathMLmunderoverFrame_h_
 #
 define
-nsMathMLmunderoverFrame_h___
+nsMathMLmunderoverFrame_h_
 #
 include
 "
@@ -494,6 +494,6 @@ mPostReflowIncrementScriptLevelCommands
 endif
 /
 *
-nsMathMLmunderoverFrame_h___
+nsMathMLmunderoverFrame_h_
 *
 /

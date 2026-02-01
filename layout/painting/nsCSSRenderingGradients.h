@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsCSSRenderingGradients_h__
+nsCSSRenderingGradients_h_
 #
 define
-nsCSSRenderingGradients_h__
+nsCSSRenderingGradients_h_
 #
 include
 "
@@ -1511,6 +1511,6 @@ mozilla
 endif
 /
 *
-nsCSSRenderingGradients_h__
+nsCSSRenderingGradients_h_
 *
 /

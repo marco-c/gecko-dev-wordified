@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsIPercentBSizeObserver_h___
+nsIPercentBSizeObserver_h_
 #
 define
-nsIPercentBSizeObserver_h___
+nsIPercentBSizeObserver_h_
 #
 include
 "
@@ -252,4 +252,4 @@ aReflowInput
 endif
 /
 /
-nsIPercentBSizeObserver_h___
+nsIPercentBSizeObserver_h_

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsSearchControlFrame_h__
+nsSearchControlFrame_h_
 #
 define
-nsSearchControlFrame_h__
+nsSearchControlFrame_h_
 #
 include
 "
@@ -251,4 +251,4 @@ endif
 endif
 /
 /
-nsSearchControlFrame_h__
+nsSearchControlFrame_h_

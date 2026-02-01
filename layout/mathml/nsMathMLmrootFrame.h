@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsMathMLmrootFrame_h___
+nsMathMLmrootFrame_h_
 #
 define
-nsMathMLmrootFrame_h___
+nsMathMLmrootFrame_h_
 #
 include
 "
@@ -350,6 +350,6 @@ final
 endif
 /
 *
-nsMathMLmrootFrame_h___
+nsMathMLmrootFrame_h_
 *
 /

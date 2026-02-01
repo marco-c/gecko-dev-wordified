@@ -371,10 +371,10 @@ flow
 /
 #
 ifndef
-nsPlaceholderFrame_h___
+nsPlaceholderFrame_h_
 #
 define
-nsPlaceholderFrame_h___
+nsPlaceholderFrame_h_
 #
 include
 "
@@ -1210,6 +1210,6 @@ mOutOfFlowFrame
 endif
 /
 *
-nsPlaceholderFrame_h___
+nsPlaceholderFrame_h_
 *
 /

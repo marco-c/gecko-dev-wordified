@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsFrameList_h___
+nsFrameList_h_
 #
 define
-nsFrameList_h___
+nsFrameList_h_
 #
 include
 <
@@ -3163,6 +3163,6 @@ mozilla
 endif
 /
 *
-nsFrameList_h___
+nsFrameList_h_
 *
 /

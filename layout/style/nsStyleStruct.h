@@ -140,10 +140,10 @@ element
 /
 #
 ifndef
-nsStyleStruct_h___
+nsStyleStruct_h_
 #
 define
-nsStyleStruct_h___
+nsStyleStruct_h_
 #
 include
 <
@@ -14993,6 +14993,6 @@ height
 endif
 /
 *
-nsStyleStruct_h___
+nsStyleStruct_h_
 *
 /

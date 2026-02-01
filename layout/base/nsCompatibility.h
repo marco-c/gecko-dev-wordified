@@ -130,10 +130,10 @@ mode
 /
 #
 ifndef
-nsCompatibility_h___
+nsCompatibility_h_
 #
 define
-nsCompatibility_h___
+nsCompatibility_h_
 enum
 nsCompatibility
 {
@@ -152,6 +152,6 @@ eCompatibility_NavQuirks
 endif
 /
 *
-nsCompatibility_h___
+nsCompatibility_h_
 *
 /

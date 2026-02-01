@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsComboboxControlFrame_h___
+nsComboboxControlFrame_h_
 #
 define
-nsComboboxControlFrame_h___
+nsComboboxControlFrame_h_
 #
 include
 "

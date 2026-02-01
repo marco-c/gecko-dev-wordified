@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsMathMLmmultiscriptsFrame_h___
+nsMathMLmmultiscriptsFrame_h_
 #
 define
-nsMathMLmmultiscriptsFrame_h___
+nsMathMLmmultiscriptsFrame_h_
 #
 include
 "
@@ -320,6 +320,6 @@ nsMathMLmmultiscriptsFrame
 endif
 /
 *
-nsMathMLmmultiscriptsFrame_h___
+nsMathMLmmultiscriptsFrame_h_
 *
 /

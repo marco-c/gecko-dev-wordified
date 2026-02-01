@@ -123,10 +123,10 @@ nsRepeatService
 /
 #
 ifndef
-nsRepeatService_h__
+nsRepeatService_h_
 #
 define
-nsRepeatService_h__
+nsRepeatService_h_
 #
 include
 "

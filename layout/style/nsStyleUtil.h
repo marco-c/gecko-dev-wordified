@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsStyleUtil_h___
+nsStyleUtil_h_
 #
 define
-nsStyleUtil_h___
+nsStyleUtil_h_
 #
 include
 "
@@ -1235,6 +1235,6 @@ aPrefix
 endif
 /
 *
-nsStyleUtil_h___
+nsStyleUtil_h_
 *
 /

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsDirection_h___
+nsDirection_h_
 #
 define
-nsDirection_h___
+nsDirection_h_
 #
 include
 <

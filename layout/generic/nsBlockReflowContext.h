@@ -131,10 +131,10 @@ frame
 /
 #
 ifndef
-nsBlockReflowContext_h___
+nsBlockReflowContext_h_
 #
 define
-nsBlockReflowContext_h___
+nsBlockReflowContext_h_
 #
 include
 "
@@ -614,6 +614,6 @@ mBStartMargin
 endif
 /
 *
-nsBlockReflowContext_h___
+nsBlockReflowContext_h_
 *
 /

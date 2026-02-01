@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsMathMLContainerFrame_h___
+nsMathMLContainerFrame_h_
 #
 define
-nsMathMLContainerFrame_h___
+nsMathMLContainerFrame_h_
 #
 include
 "
@@ -4109,6 +4109,6 @@ default
 endif
 /
 *
-nsMathMLContainerFrame_h___
+nsMathMLContainerFrame_h_
 *
 /

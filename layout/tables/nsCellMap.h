@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsCellMap_h__
+nsCellMap_h_
 #
 define
-nsCellMap_h__
+nsCellMap_h_
 #
 include
 <

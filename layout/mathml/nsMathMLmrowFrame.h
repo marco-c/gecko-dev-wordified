@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsMathMLmrowFrame_h___
+nsMathMLmrowFrame_h_
 #
 define
-nsMathMLmrowFrame_h___
+nsMathMLmrowFrame_h_
 #
 include
 "
@@ -360,6 +360,6 @@ nsMathMLmrowFrame
 endif
 /
 *
-nsMathMLmrowFrame_h___
+nsMathMLmrowFrame_h_
 *
 /

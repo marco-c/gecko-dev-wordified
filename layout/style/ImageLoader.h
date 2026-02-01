@@ -143,10 +143,10 @@ tree
 .
 #
 ifndef
-mozilla_css_ImageLoader_h___
+mozilla_css_ImageLoader_h_
 #
 define
-mozilla_css_ImageLoader_h___
+mozilla_css_ImageLoader_h_
 #
 include
 "
@@ -1037,6 +1037,6 @@ mozilla
 endif
 /
 *
-mozilla_css_ImageLoader_h___
+mozilla_css_ImageLoader_h_
 *
 /

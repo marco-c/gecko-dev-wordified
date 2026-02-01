@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsMathMLmspaceFrame_h___
+nsMathMLmspaceFrame_h_
 #
 define
-nsMathMLmspaceFrame_h___
+nsMathMLmspaceFrame_h_
 #
 include
 "
@@ -346,6 +346,6 @@ final
 endif
 /
 *
-nsMathMLmspaceFrame_h___
+nsMathMLmspaceFrame_h_
 *
 /

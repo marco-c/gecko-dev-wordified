@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsBidiPresUtils_h___
+nsBidiPresUtils_h_
 #
 define
-nsBidiPresUtils_h___
+nsBidiPresUtils_h_
 #
 include
 "
@@ -3961,6 +3961,6 @@ aTextLength
 endif
 /
 *
-nsBidiPresUtils_h___
+nsBidiPresUtils_h_
 *
 /

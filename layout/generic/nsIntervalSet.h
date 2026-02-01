@@ -124,10 +124,10 @@ line
 /
 #
 ifndef
-nsIntervalSet_h___
+nsIntervalSet_h_
 #
 define
-nsIntervalSet_h___
+nsIntervalSet_h_
 #
 include
 "
@@ -432,5 +432,5 @@ endif
 !
 defined
 (
-nsIntervalSet_h___
+nsIntervalSet_h_
 )

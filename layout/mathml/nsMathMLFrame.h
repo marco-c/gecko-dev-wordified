@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsMathMLFrame_h___
+nsMathMLFrame_h_
 #
 define
-nsMathMLFrame_h___
+nsMathMLFrame_h_
 #
 include
 "
@@ -1805,6 +1805,6 @@ mReference
 endif
 /
 *
-nsMathMLFrame_h___
+nsMathMLFrame_h_
 *
 /

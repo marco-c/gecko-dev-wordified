@@ -126,10 +126,10 @@ classes
 /
 #
 ifndef
-nsHTMLParts_h___
+nsHTMLParts_h_
 #
 define
-nsHTMLParts_h___
+nsHTMLParts_h_
 #
 include
 "
@@ -1159,6 +1159,6 @@ aTableFrame
 endif
 /
 *
-nsHTMLParts_h___
+nsHTMLParts_h_
 *
 /

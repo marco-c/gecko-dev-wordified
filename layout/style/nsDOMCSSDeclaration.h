@@ -133,10 +133,10 @@ style
 /
 #
 ifndef
-nsDOMCSSDeclaration_h___
+nsDOMCSSDeclaration_h_
 #
 define
-nsDOMCSSDeclaration_h___
+nsDOMCSSDeclaration_h_
 #
 include
 "
@@ -1319,4 +1319,4 @@ aServoFunc
 endif
 /
 /
-nsDOMCSSDeclaration_h___
+nsDOMCSSDeclaration_h_

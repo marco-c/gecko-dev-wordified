@@ -128,10 +128,10 @@ data
 /
 #
 ifndef
-nsImageFrame_h___
+nsImageFrame_h_
 #
 define
-nsImageFrame_h___
+nsImageFrame_h_
 #
 include
 "
@@ -2872,6 +2872,6 @@ mozilla
 endif
 /
 *
-nsImageFrame_h___
+nsImageFrame_h_
 *
 /

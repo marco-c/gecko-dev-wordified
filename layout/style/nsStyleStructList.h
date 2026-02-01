@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsStyleStructList_h__
+nsStyleStructList_h_
 #
 define
-nsStyleStructList_h__
+nsStyleStructList_h_
 /
 *
 *
@@ -360,4 +360,4 @@ Page
 endif
 /
 /
-nsStyleStructList_h__
+nsStyleStructList_h_

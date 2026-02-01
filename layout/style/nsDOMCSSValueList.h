@@ -130,10 +130,10 @@ style
 /
 #
 ifndef
-nsDOMCSSValueList_h___
+nsDOMCSSValueList_h_
 #
 define
-nsDOMCSSValueList_h___
+nsDOMCSSValueList_h_
 #
 include
 "
@@ -273,6 +273,6 @@ mCSSValues
 endif
 /
 *
-nsDOMCSSValueList_h___
+nsDOMCSSValueList_h_
 *
 /

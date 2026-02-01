@@ -135,10 +135,10 @@ use
 /
 #
 ifndef
-nsICSSDeclaration_h__
+nsICSSDeclaration_h_
 #
 define
-nsICSSDeclaration_h__
+nsICSSDeclaration_h_
 /
 *
 *
@@ -840,4 +840,4 @@ override
 endif
 /
 /
-nsICSSDeclaration_h__
+nsICSSDeclaration_h_

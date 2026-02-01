@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsLayoutUtils_h__
+nsLayoutUtils_h_
 #
 define
-nsLayoutUtils_h__
+nsLayoutUtils_h_
 #
 include
 <
@@ -25020,4 +25020,4 @@ mVariable
 endif
 /
 /
-nsLayoutUtils_h__
+nsLayoutUtils_h_

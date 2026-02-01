@@ -131,10 +131,10 @@ scrollbars
 /
 #
 ifndef
-nsCanvasFrame_h___
+nsCanvasFrame_h_
 #
 define
-nsCanvasFrame_h___
+nsCanvasFrame_h_
 #
 include
 "
@@ -610,6 +610,6 @@ mozilla
 endif
 /
 *
-nsCanvasFrame_h___
+nsCanvasFrame_h_
 *
 /

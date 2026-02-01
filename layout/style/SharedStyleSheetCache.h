@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_SharedStyleSheetCache_h__
+mozilla_SharedStyleSheetCache_h_
 #
 define
-mozilla_SharedStyleSheetCache_h__
+mozilla_SharedStyleSheetCache_h_
 /
 /
 The

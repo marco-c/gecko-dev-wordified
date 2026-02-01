@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsFileControlFrame_h___
+nsFileControlFrame_h_
 #
 define
-nsFileControlFrame_h___
+nsFileControlFrame_h_
 #
 include
 "
@@ -689,4 +689,4 @@ SyncDisabledState
 endif
 /
 /
-nsFileControlFrame_h___
+nsFileControlFrame_h_

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsMathMLmfracFrame_h___
+nsMathMLmfracFrame_h_
 #
 define
-nsMathMLmfracFrame_h___
+nsMathMLmfracFrame_h_
 #
 include
 "
@@ -676,6 +676,6 @@ mLineThickness
 endif
 /
 *
-nsMathMLmfracFrame_h___
+nsMathMLmfracFrame_h_
 *
 /

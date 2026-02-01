@@ -132,10 +132,10 @@ box
 /
 #
 ifndef
-nsLineBox_h___
+nsLineBox_h_
 #
 define
-nsLineBox_h___
+nsLineBox_h_
 #
 include
 <
@@ -7273,6 +7273,6 @@ mRightToLeft
 endif
 /
 *
-nsLineBox_h___
+nsLineBox_h_
 *
 /

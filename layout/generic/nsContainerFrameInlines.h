@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsContainerFrameInlines_h___
+nsContainerFrameInlines_h_
 #
 define
-nsContainerFrameInlines_h___
+nsContainerFrameInlines_h_
 #
 include
 "
@@ -881,4 +881,4 @@ endPBM
 endif
 /
 /
-nsContainerFrameInlines_h___
+nsContainerFrameInlines_h_

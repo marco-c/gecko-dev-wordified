@@ -133,10 +133,10 @@ container
 /
 #
 ifndef
-nsRubyTextContainerFrame_h___
+nsRubyTextContainerFrame_h_
 #
 define
-nsRubyTextContainerFrame_h___
+nsRubyTextContainerFrame_h_
 #
 include
 "
@@ -513,6 +513,6 @@ mISize
 endif
 /
 *
-nsRubyTextContainerFrame_h___
+nsRubyTextContainerFrame_h_
 *
 /

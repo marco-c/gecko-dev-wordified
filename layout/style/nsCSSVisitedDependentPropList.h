@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsCSSVisitedDependentPropList_h__
+nsCSSVisitedDependentPropList_h_
 #
 define
-nsCSSVisitedDependentPropList_h__
+nsCSSVisitedDependentPropList_h_
 /
 *
 a
@@ -343,4 +343,4 @@ mCaretColor
 endif
 /
 /
-nsCSSVisitedDependentPropList_h__
+nsCSSVisitedDependentPropList_h_

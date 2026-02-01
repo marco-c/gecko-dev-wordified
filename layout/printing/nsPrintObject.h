@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsPrintObject_h___
+nsPrintObject_h_
 #
 define
-nsPrintObject_h___
+nsPrintObject_h_
 #
 include
 "
@@ -679,6 +679,6 @@ false
 endif
 /
 *
-nsPrintObject_h___
+nsPrintObject_h_
 *
 /

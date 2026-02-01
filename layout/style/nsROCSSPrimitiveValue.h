@@ -128,10 +128,10 @@ style
 /
 #
 ifndef
-nsROCSSPrimitiveValue_h___
+nsROCSSPrimitiveValue_h_
 #
 define
-nsROCSSPrimitiveValue_h___
+nsROCSSPrimitiveValue_h_
 #
 include
 "
@@ -421,6 +421,6 @@ nullptr
 endif
 /
 *
-nsROCSSPrimitiveValue_h___
+nsROCSSPrimitiveValue_h_
 *
 /

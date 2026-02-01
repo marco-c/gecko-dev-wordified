@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsPageContentFrame_h___
+nsPageContentFrame_h_
 #
 define
-nsPageContentFrame_h___
+nsPageContentFrame_h_
 #
 include
 "
@@ -431,6 +431,6 @@ mRemainingOverflow
 endif
 /
 *
-nsPageContentFrame_h___
+nsPageContentFrame_h_
 *
 /

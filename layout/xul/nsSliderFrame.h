@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsSliderFrame_h__
+nsSliderFrame_h_
 #
 define
-nsSliderFrame_h__
+nsSliderFrame_h_
 #
 include
 "

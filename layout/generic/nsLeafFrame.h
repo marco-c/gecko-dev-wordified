@@ -131,10 +131,10 @@ lists
 /
 #
 ifndef
-nsLeafFrame_h___
+nsLeafFrame_h_
 #
 define
-nsLeafFrame_h___
+nsLeafFrame_h_
 #
 include
 "
@@ -355,6 +355,6 @@ nsLeafFrame
 endif
 /
 *
-nsLeafFrame_h___
+nsLeafFrame_h_
 *
 /

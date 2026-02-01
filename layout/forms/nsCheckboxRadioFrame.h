@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsCheckboxRadioFrame_h___
+nsCheckboxRadioFrame_h_
 #
 define
-nsCheckboxRadioFrame_h___
+nsCheckboxRadioFrame_h_
 #
 include
 "

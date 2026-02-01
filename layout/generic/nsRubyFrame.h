@@ -129,10 +129,10 @@ ruby
 /
 #
 ifndef
-nsRubyFrame_h___
+nsRubyFrame_h_
 #
 define
-nsRubyFrame_h___
+nsRubyFrame_h_
 #
 include
 "
@@ -452,6 +452,6 @@ mRubyMetrics
 endif
 /
 *
-nsRubyFrame_h___
+nsRubyFrame_h_
 *
 /

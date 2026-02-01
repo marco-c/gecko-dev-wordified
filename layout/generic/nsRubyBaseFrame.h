@@ -131,10 +131,10 @@ base
 /
 #
 ifndef
-nsRubyBaseFrame_h___
+nsRubyBaseFrame_h_
 #
 define
-nsRubyBaseFrame_h___
+nsRubyBaseFrame_h_
 #
 include
 "
@@ -285,6 +285,6 @@ kClassID
 endif
 /
 *
-nsRubyBaseFrame_h___
+nsRubyBaseFrame_h_
 *
 /

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-InspectorCSSParser_h___
+InspectorCSSParser_h_
 #
 define
-InspectorCSSParser_h___
+InspectorCSSParser_h_
 #
 include
 "
@@ -294,6 +294,6 @@ mozilla
 endif
 /
 *
-InspectorCSSParser_h___
+InspectorCSSParser_h_
 *
 /

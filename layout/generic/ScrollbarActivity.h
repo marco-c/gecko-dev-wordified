@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-ScrollbarActivity_h___
+ScrollbarActivity_h_
 #
 define
-ScrollbarActivity_h___
+ScrollbarActivity_h_
 #
 include
 "
@@ -663,6 +663,6 @@ mozilla
 endif
 /
 *
-ScrollbarActivity_h___
+ScrollbarActivity_h_
 *
 /

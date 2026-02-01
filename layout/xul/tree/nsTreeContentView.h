@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsTreeContentView_h__
+nsTreeContentView_h_
 #
 define
-nsTreeContentView_h__
+nsTreeContentView_h_
 #
 include
 "
@@ -1063,4 +1063,4 @@ mRows
 endif
 /
 /
-nsTreeContentView_h__
+nsTreeContentView_h_

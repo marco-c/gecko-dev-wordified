@@ -136,10 +136,10 @@ pages
 /
 #
 ifndef
-nsSplittableFrame_h___
+nsSplittableFrame_h_
 #
 define
-nsSplittableFrame_h___
+nsSplittableFrame_h_
 #
 include
 "
@@ -1294,6 +1294,6 @@ nullptr
 endif
 /
 *
-nsSplittableFrame_h___
+nsSplittableFrame_h_
 *
 /

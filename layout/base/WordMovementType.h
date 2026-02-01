@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-WordMovementType_h___
+WordMovementType_h_
 #
 define
-WordMovementType_h___
+WordMovementType_h_
 namespace
 mozilla
 {

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsMathMLmoFrame_h___
+nsMathMLmoFrame_h_
 #
 define
-nsMathMLmoFrame_h___
+nsMathMLmoFrame_h_
 #
 include
 "
@@ -529,6 +529,6 @@ aFrame
 endif
 /
 *
-nsMathMLmoFrame_h___
+nsMathMLmoFrame_h_
 *
 /

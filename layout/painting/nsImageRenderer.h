@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsImageRenderer_h__
+nsImageRenderer_h_
 #
 define
-nsImageRenderer_h__
+nsImageRenderer_h_
 #
 include
 "
@@ -2207,6 +2207,6 @@ mozilla
 endif
 /
 *
-nsImageRenderer_h__
+nsImageRenderer_h_
 *
 /

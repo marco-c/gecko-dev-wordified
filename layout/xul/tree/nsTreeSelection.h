@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsTreeSelection_h__
+nsTreeSelection_h_
 #
 define
-nsTreeSelection_h__
+nsTreeSelection_h_
 #
 include
 "

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsTreeColumns_h__
+nsTreeColumns_h_
 #
 define
-nsTreeColumns_h__
+nsTreeColumns_h_
 #
 include
 "
@@ -1175,4 +1175,4 @@ mFirstColumn
 endif
 /
 /
-nsTreeColumns_h__
+nsTreeColumns_h_

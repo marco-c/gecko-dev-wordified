@@ -133,10 +133,10 @@ grid
 /
 #
 ifndef
-nsGridContainerFrame_h___
+nsGridContainerFrame_h_
 #
 define
-nsGridContainerFrame_h___
+nsGridContainerFrame_h_
 #
 include
 "
@@ -3951,6 +3951,6 @@ mBaseline
 endif
 /
 *
-nsGridContainerFrame_h___
+nsGridContainerFrame_h_
 *
 /

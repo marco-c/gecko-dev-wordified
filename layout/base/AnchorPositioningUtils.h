@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-AnchorPositioningUtils_h__
+AnchorPositioningUtils_h_
 #
 define
-AnchorPositioningUtils_h__
+AnchorPositioningUtils_h_
 #
 include
 "
@@ -2520,4 +2520,4 @@ mozilla
 endif
 /
 /
-AnchorPositioningUtils_h__
+AnchorPositioningUtils_h_

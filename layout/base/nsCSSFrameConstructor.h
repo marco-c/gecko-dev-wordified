@@ -145,10 +145,10 @@ changes
 /
 #
 ifndef
-nsCSSFrameConstructor_h___
+nsCSSFrameConstructor_h_
 #
 define
-nsCSSFrameConstructor_h___
+nsCSSFrameConstructor_h_
 #
 include
 "
@@ -14769,6 +14769,6 @@ mFrameTreeState
 endif
 /
 *
-nsCSSFrameConstructor_h___
+nsCSSFrameConstructor_h_
 *
 /

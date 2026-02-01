@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsILineIterator_h___
+nsILineIterator_h_
 #
 define
-nsILineIterator_h___
+nsILineIterator_h_
 #
 include
 "
@@ -564,6 +564,7 @@ virtual
 int32_t
 FindLineContaining
 (
+const
 nsIFrame
 *
 aFrame
@@ -913,6 +914,6 @@ Mutated
 endif
 /
 *
-nsILineIterator_h___
+nsILineIterator_h_
 *
 /

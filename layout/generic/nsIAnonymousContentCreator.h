@@ -133,10 +133,10 @@ content
 /
 #
 ifndef
-nsIAnonymousContentCreator_h___
+nsIAnonymousContentCreator_h_
 #
 define
-nsIAnonymousContentCreator_h___
+nsIAnonymousContentCreator_h_
 #
 include
 "

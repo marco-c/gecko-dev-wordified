@@ -129,10 +129,10 @@ element
 /
 #
 ifndef
-nsVideoFrame_h___
+nsVideoFrame_h_
 #
 define
-nsVideoFrame_h___
+nsVideoFrame_h_
 #
 include
 "
@@ -1030,6 +1030,6 @@ nsAudioFrame
 endif
 /
 *
-nsVideoFrame_h___
+nsVideoFrame_h_
 *
 /

@@ -128,10 +128,10 @@ change
 /
 #
 ifndef
-mozilla_MediaFeatureChange_h__
+mozilla_MediaFeatureChange_h_
 #
 define
-mozilla_MediaFeatureChange_h__
+mozilla_MediaFeatureChange_h_
 #
 include
 "

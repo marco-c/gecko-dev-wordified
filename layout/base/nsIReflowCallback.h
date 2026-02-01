@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsIReflowCallback_h___
+nsIReflowCallback_h_
 #
 define
-nsIReflowCallback_h___
+nsIReflowCallback_h_
 /
 *
 *
@@ -308,6 +308,6 @@ ReflowCallbackCanceled
 endif
 /
 *
-nsIReflowCallback_h___
+nsIReflowCallback_h_
 *
 /

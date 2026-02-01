@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsTreeStyleCache_h__
+nsTreeStyleCache_h_
 #
 define
-nsTreeStyleCache_h__
+nsTreeStyleCache_h_
 #
 include
 "
@@ -568,4 +568,4 @@ mNextState
 endif
 /
 /
-nsTreeStyleCache_h__
+nsTreeStyleCache_h_

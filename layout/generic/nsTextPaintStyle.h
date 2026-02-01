@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsTextPaintStyle_h__
+nsTextPaintStyle_h_
 #
 define
-nsTextPaintStyle_h__
+nsTextPaintStyle_h_
 #
 include
 "
@@ -998,4 +998,4 @@ aBackColor
 endif
 /
 /
-nsTextPaintStyle_h__
+nsTextPaintStyle_h_

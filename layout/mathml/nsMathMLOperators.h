@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsMathMLOperators_h___
+nsMathMLOperators_h_
 #
 define
-nsMathMLOperators_h___
+nsMathMLOperators_h_
 #
 include
 <
@@ -1154,6 +1154,6 @@ NS_MATHML_OPERATOR_RSPACE_ATTR
 endif
 /
 *
-nsMathMLOperators_h___
+nsMathMLOperators_h_
 *
 /

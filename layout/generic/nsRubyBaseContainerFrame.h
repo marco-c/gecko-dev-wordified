@@ -133,10 +133,10 @@ container
 /
 #
 ifndef
-nsRubyBaseContainerFrame_h___
+nsRubyBaseContainerFrame_h_
 #
 define
-nsRubyBaseContainerFrame_h___
+nsRubyBaseContainerFrame_h_
 #
 include
 "
@@ -562,6 +562,6 @@ mDescendantLeadings
 endif
 /
 *
-nsRubyBaseContainerFrame_h___
+nsRubyBaseContainerFrame_h_
 *
 /
