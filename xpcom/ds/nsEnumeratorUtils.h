@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsEnumeratorUtils_h__
+nsEnumeratorUtils_h_
 #
 define
-nsEnumeratorUtils_h__
+nsEnumeratorUtils_h_
 #
 include
 "
@@ -173,6 +173,6 @@ aSecondEnumerator
 endif
 /
 *
-nsEnumeratorUtils_h__
+nsEnumeratorUtils_h_
 *
 /

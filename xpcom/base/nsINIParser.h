@@ -133,10 +133,10 @@ unix
 src2
 #
 ifndef
-nsINIParser_h__
+nsINIParser_h_
 #
 define
-nsINIParser_h__
+nsINIParser_h_
 #
 ifdef
 MOZILLA_INTERNAL_API
@@ -935,6 +935,6 @@ aValue
 endif
 /
 *
-nsINIParser_h__
+nsINIParser_h_
 *
 /

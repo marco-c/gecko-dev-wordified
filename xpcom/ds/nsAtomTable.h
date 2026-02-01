@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsAtomTable_h__
+nsAtomTable_h_
 #
 define
-nsAtomTable_h__
+nsAtomTable_h_
 #
 include
 "
@@ -206,4 +206,4 @@ aSizes
 endif
 /
 /
-nsAtomTable_h__
+nsAtomTable_h_

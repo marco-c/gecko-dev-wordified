@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsCharTraits_h___
+nsCharTraits_h_
 #
 define
-nsCharTraits_h___
+nsCharTraits_h_
 #
 include
 <
@@ -3426,5 +3426,5 @@ endif
 !
 defined
 (
-nsCharTraits_h___
+nsCharTraits_h_
 )

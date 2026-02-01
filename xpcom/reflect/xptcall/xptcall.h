@@ -104,10 +104,10 @@ xptcall
 /
 #
 ifndef
-xptcall_h___
+xptcall_h_
 #
 define
-xptcall_h___
+xptcall_h_
 #
 include
 "
@@ -1073,6 +1073,6 @@ params
 endif
 /
 *
-xptcall_h___
+xptcall_h_
 *
 /

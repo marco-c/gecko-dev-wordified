@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsXPCOM_h__
+nsXPCOM_h_
 #
 define
-nsXPCOM_h__
+nsXPCOM_h_
 #
 include
 "

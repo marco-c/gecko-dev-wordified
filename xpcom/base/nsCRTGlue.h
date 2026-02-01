@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsCRTGlue_h__
+nsCRTGlue_h_
 #
 define
-nsCRTGlue_h__
+nsCRTGlue_h_
 #
 include
 "
@@ -1280,4 +1280,4 @@ OS_FILE_ILLEGAL_CHARACTERS
 endif
 /
 /
-nsCRTGlue_h__
+nsCRTGlue_h_

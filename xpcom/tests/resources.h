@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-resources_h___
+resources_h_
 #
 define
-resources_h___
+resources_h_
 #
 define
 TIMER_1SECOND
@@ -135,6 +135,6 @@ TIMER_EXIT
 endif
 /
 *
-resources_h___
+resources_h_
 *
 /

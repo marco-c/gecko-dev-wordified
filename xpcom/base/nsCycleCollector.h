@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsCycleCollector_h__
+nsCycleCollector_h_
 #
 define
-nsCycleCollector_h__
+nsCycleCollector_h_
 class
 nsICycleCollectorListener
 ;
@@ -442,4 +442,4 @@ nsCycleCollector_forgetJSContext
 endif
 /
 /
-nsCycleCollector_h__
+nsCycleCollector_h_

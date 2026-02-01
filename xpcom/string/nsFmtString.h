@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsFmtCString_h___
+nsFmtCString_h_
 #
 define
-nsFmtCString_h___
+nsFmtCString_h_
 #
 include
 "

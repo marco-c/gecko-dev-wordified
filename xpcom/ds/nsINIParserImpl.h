@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsINIParserImpl_h__
+nsINIParserImpl_h_
 #
 define
-nsINIParserImpl_h__
+nsINIParserImpl_h_
 #
 include
 "
@@ -169,4 +169,4 @@ NS_DECL_NSIINIPARSERFACTORY
 endif
 /
 /
-nsINIParserImpl_h__
+nsINIParserImpl_h_

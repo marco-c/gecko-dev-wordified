@@ -145,10 +145,10 @@ c
 /
 #
 ifndef
-_ESCAPE_H_
+ESCAPE_H_
 #
 define
-_ESCAPE_H_
+ESCAPE_H_
 #
 include
 "
@@ -1726,4 +1726,4 @@ aStr
 endif
 /
 /
-_ESCAPE_H_
+ESCAPE_H_

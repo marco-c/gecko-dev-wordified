@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsAppDirectoryServiceDefs_h___
+nsAppDirectoryServiceDefs_h_
 #
 define
-nsAppDirectoryServiceDefs_h___
+nsAppDirectoryServiceDefs_h_
 /
 /
 =
@@ -1030,4 +1030,4 @@ permissionDBPDir
 endif
 /
 /
-nsAppDirectoryServiceDefs_h___
+nsAppDirectoryServiceDefs_h_

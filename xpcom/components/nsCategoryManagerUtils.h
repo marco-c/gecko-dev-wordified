@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsCategoryManagerUtils_h__
+nsCategoryManagerUtils_h_
 #
 define
-nsCategoryManagerUtils_h__
+nsCategoryManagerUtils_h_
 void
 NS_CreateServicesFromCategory
 (

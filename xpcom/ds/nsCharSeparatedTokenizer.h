@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-__nsCharSeparatedTokenizer_h
+_nsCharSeparatedTokenizer_h
 #
 define
-__nsCharSeparatedTokenizer_h
+_nsCharSeparatedTokenizer_h
 #
 include
 "
@@ -1696,6 +1696,6 @@ char16_t
 endif
 /
 *
-__nsCharSeparatedTokenizer_h
+_nsCharSeparatedTokenizer_h
 *
 /

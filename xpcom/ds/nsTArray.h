@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsTArray_h__
+nsTArray_h_
 #
 define
-nsTArray_h__
+nsTArray_h_
 #
 include
 <
@@ -27952,4 +27952,4 @@ aTArray
 endif
 /
 /
-nsTArray_h__
+nsTArray_h_

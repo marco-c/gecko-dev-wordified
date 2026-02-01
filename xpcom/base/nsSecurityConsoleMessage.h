@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsSecurityConsoleMessage_h__
+nsSecurityConsoleMessage_h_
 #
 define
-nsSecurityConsoleMessage_h__
+nsSecurityConsoleMessage_h_
 #
 include
 "
@@ -189,4 +189,4 @@ NS_SECURITY_CONSOLE_MESSAGE_CID
 endif
 /
 /
-nsSecurityConsoleMessage_h__
+nsSecurityConsoleMessage_h_

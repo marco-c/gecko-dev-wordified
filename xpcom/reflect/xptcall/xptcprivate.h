@@ -107,10 +107,10 @@ locally
 /
 #
 ifndef
-xptcprivate_h___
+xptcprivate_h_
 #
 define
-xptcprivate_h___
+xptcprivate_h_
 #
 include
 "
@@ -418,6 +418,6 @@ endif
 endif
 /
 *
-xptcprivate_h___
+xptcprivate_h_
 *
 /

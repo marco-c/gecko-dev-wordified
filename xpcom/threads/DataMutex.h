@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-DataMutex_h__
+DataMutex_h_
 #
 define
-DataMutex_h__
+DataMutex_h_
 #
 include
 <
@@ -915,4 +915,4 @@ mozilla
 endif
 /
 /
-DataMutex_h__
+DataMutex_h_

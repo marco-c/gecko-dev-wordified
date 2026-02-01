@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsIIdleRunnable_h__
+nsIIdleRunnable_h_
 #
 define
-nsIIdleRunnable_h__
+nsIIdleRunnable_h_
 #
 include
 "
@@ -288,4 +288,4 @@ default
 endif
 /
 /
-nsIIdleRunnable_h__
+nsIIdleRunnable_h_

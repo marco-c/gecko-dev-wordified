@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsID_h__
+nsID_h_
 #
 define
-nsID_h__
+nsID_h_
 #
 include
 <

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsXPCOMCID_h__
+nsXPCOMCID_h_
 #
 define
-nsXPCOMCID_h__
+nsXPCOMCID_h_
 /
 *
 *

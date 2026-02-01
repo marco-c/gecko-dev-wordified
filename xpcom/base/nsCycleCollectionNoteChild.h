@@ -147,10 +147,10 @@ them
 .
 #
 ifndef
-nsCycleCollectionNoteChild_h__
+nsCycleCollectionNoteChild_h_
 #
 define
-nsCycleCollectionNoteChild_h__
+nsCycleCollectionNoteChild_h_
 #
 include
 "
@@ -581,4 +581,4 @@ aName
 endif
 /
 /
-nsCycleCollectionNoteChild_h__
+nsCycleCollectionNoteChild_h_

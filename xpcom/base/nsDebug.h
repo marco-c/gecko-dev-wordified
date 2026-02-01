@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsDebug_h___
+nsDebug_h_
 #
 define
-nsDebug_h___
+nsDebug_h_
 #
 include
 "
@@ -170,13 +170,6 @@ Likely
 .
 h
 "
-#
-include
-<
-stdarg
-.
-h
->
 #
 ifdef
 DEBUG
@@ -2817,6 +2810,6 @@ endif
 endif
 /
 *
-nsDebug_h___
+nsDebug_h_
 *
 /

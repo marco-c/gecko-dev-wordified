@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-TimerThread_h___
+TimerThread_h_
 #
 define
-TimerThread_h___
+TimerThread_h_
 #
 include
 "
@@ -1750,6 +1750,6 @@ endif
 endif
 /
 *
-TimerThread_h___
+TimerThread_h_
 *
 /

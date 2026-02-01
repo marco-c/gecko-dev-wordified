@@ -267,10 +267,10 @@ class
 /
 #
 ifndef
-_NSDEQUE
+NSDEQUE
 #
 define
-_NSDEQUE
+NSDEQUE
 #
 include
 <

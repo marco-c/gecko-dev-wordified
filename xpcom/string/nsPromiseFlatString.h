@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsPromiseFlatString_h___
+nsPromiseFlatString_h_
 #
 define
-nsPromiseFlatString_h___
+nsPromiseFlatString_h_
 #
 include
 "
@@ -141,7 +141,7 @@ endif
 !
 defined
 (
-nsPromiseFlatString_h___
+nsPromiseFlatString_h_
 )
 *
 /

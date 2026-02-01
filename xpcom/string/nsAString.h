@@ -128,10 +128,10 @@ h
 "
 #
 ifndef
-nsAString_h___
+nsAString_h_
 #
 define
-nsAString_h___
+nsAString_h_
 #
 include
 "
@@ -257,5 +257,5 @@ endif
 !
 defined
 (
-nsAString_h___
+nsAString_h_
 )

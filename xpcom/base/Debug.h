@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_Debug_h__
+mozilla_Debug_h_
 #
 define
-mozilla_Debug_h__
+mozilla_Debug_h_
 namespace
 mozilla
 {
@@ -159,4 +159,4 @@ mozilla
 endif
 /
 /
-mozilla_Debug_h__
+mozilla_Debug_h_

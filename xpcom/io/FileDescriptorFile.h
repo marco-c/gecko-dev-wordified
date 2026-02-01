@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-_FileDescriptorFile_h
+FileDescriptorFile_h
 #
 define
-_FileDescriptorFile_h
+FileDescriptorFile_h
 #
 include
 "
@@ -321,4 +321,4 @@ mozilla
 endif
 /
 /
-_FileDescriptorFile_h
+FileDescriptorFile_h

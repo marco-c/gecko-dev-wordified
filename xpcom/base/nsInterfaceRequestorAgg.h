@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsInterfaceRequestorAgg_h__
+nsInterfaceRequestorAgg_h_
 #
 define
-nsInterfaceRequestorAgg_h__
+nsInterfaceRequestorAgg_h_
 #
 include
 "
@@ -267,5 +267,5 @@ endif
 !
 defined
 (
-nsInterfaceRequestorAgg_h__
+nsInterfaceRequestorAgg_h_
 )

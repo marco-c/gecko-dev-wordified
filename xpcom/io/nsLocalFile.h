@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-_NS_LOCAL_FILE_H_
+NS_LOCAL_FILE_H_
 #
 define
-_NS_LOCAL_FILE_H_
+NS_LOCAL_FILE_H_
 #
 include
 "

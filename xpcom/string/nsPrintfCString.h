@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsPrintfCString_h___
+nsPrintfCString_h_
 #
 define
-nsPrintfCString_h___
+nsPrintfCString_h_
 #
 include
 "
@@ -458,5 +458,5 @@ endif
 !
 defined
 (
-nsPrintfCString_h___
+nsPrintfCString_h_
 )

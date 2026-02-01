@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsBinaryStream_h___
+nsBinaryStream_h_
 #
 define
-nsBinaryStream_h___
+nsBinaryStream_h_
 #
 include
 "
@@ -498,4 +498,4 @@ default
 endif
 /
 /
-nsBinaryStream_h___
+nsBinaryStream_h_

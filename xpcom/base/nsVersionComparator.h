@@ -139,10 +139,10 @@ executable
 .
 #
 ifndef
-nsVersionComparator_h__
+nsVersionComparator_h_
 #
 define
-nsVersionComparator_h__
+nsVersionComparator_h_
 #
 include
 <
@@ -810,4 +810,4 @@ mozilla
 endif
 /
 /
-nsVersionComparator_h__
+nsVersionComparator_h_

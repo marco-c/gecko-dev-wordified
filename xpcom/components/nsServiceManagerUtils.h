@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsServiceManagerUtils_h__
+nsServiceManagerUtils_h_
 #
 define
-nsServiceManagerUtils_h__
+nsServiceManagerUtils_h_
 #
 include
 "

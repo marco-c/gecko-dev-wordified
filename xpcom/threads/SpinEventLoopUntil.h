@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-xpcom_threads_SpinEventLoopUntil_h__
+xpcom_threads_SpinEventLoopUntil_h_
 #
 define
-xpcom_threads_SpinEventLoopUntil_h__
+xpcom_threads_SpinEventLoopUntil_h_
 #
 include
 "
@@ -1441,4 +1441,4 @@ mozilla
 endif
 /
 /
-xpcom_threads_SpinEventLoopUntil_h__
+xpcom_threads_SpinEventLoopUntil_h_

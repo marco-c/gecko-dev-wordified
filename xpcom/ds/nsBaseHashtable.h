@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsBaseHashtable_h__
+nsBaseHashtable_h_
 #
 define
-nsBaseHashtable_h__
+nsBaseHashtable_h_
 #
 include
 <
@@ -7670,4 +7670,4 @@ aClosure
 endif
 /
 /
-nsBaseHashtable_h__
+nsBaseHashtable_h_

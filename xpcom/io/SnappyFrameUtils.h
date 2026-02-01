@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_SnappyFrameUtils_h__
+mozilla_SnappyFrameUtils_h_
 #
 define
-mozilla_SnappyFrameUtils_h__
+mozilla_SnappyFrameUtils_h_
 #
 include
 <
@@ -421,4 +421,4 @@ mozilla
 endif
 /
 /
-mozilla_SnappyFrameUtils_h__
+mozilla_SnappyFrameUtils_h_

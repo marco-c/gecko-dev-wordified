@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsIWeakReferenceUtils_h__
+nsIWeakReferenceUtils_h_
 #
 define
-nsIWeakReferenceUtils_h__
+nsIWeakReferenceUtils_h_
 #
 include
 "

@@ -128,10 +128,10 @@ h
 "
 #
 ifndef
-nsReadableUtils_h___
+nsReadableUtils_h_
 #
 define
-nsReadableUtils_h___
+nsReadableUtils_h_
 /
 *
 *
@@ -4466,5 +4466,5 @@ endif
 !
 defined
 (
-nsReadableUtils_h___
+nsReadableUtils_h_
 )

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsPersistentProperties_h___
+nsPersistentProperties_h_
 #
 define
-nsPersistentProperties_h___
+nsPersistentProperties_h_
 #
 include
 "
@@ -280,6 +280,6 @@ mValue
 endif
 /
 *
-nsPersistentProperties_h___
+nsPersistentProperties_h_
 *
 /

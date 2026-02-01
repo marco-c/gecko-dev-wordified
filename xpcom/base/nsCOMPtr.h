@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsCOMPtr_h___
+nsCOMPtr_h_
 #
 define
-nsCOMPtr_h___
+nsCOMPtr_h_
 /
 *
 *
@@ -8096,5 +8096,5 @@ endif
 !
 defined
 (
-nsCOMPtr_h___
+nsCOMPtr_h_
 )

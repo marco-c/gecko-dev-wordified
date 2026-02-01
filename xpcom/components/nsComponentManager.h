@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsComponentManager_h__
+nsComponentManager_h_
 #
 define
-nsComponentManager_h__
+nsComponentManager_h_
 #
 include
 "
@@ -1112,4 +1112,4 @@ mServiceObject
 endif
 /
 /
-nsComponentManager_h__
+nsComponentManager_h_

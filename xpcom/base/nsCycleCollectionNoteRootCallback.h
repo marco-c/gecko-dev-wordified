@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsCycleCollectionNoteRootCallback_h__
+nsCycleCollectionNoteRootCallback_h_
 #
 define
-nsCycleCollectionNoteRootCallback_h__
+nsCycleCollectionNoteRootCallback_h_
 #
 include
 "
@@ -268,4 +268,4 @@ mWantAllTraces
 endif
 /
 /
-nsCycleCollectionNoteRootCallback_h__
+nsCycleCollectionNoteRootCallback_h_

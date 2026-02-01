@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsDependentSubstring_h___
+nsDependentSubstring_h_
 #
 define
-nsDependentSubstring_h___
+nsDependentSubstring_h_
 #
 include
 "
@@ -141,7 +141,7 @@ endif
 !
 defined
 (
-nsDependentSubstring_h___
+nsDependentSubstring_h_
 )
 *
 /

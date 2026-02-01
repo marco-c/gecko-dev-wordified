@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsMemoryPressure_h__
+nsMemoryPressure_h_
 #
 define
-nsMemoryPressure_h__
+nsMemoryPressure_h_
 #
 include
 "
@@ -647,4 +647,4 @@ aState
 endif
 /
 /
-nsMemoryPressure_h__
+nsMemoryPressure_h_

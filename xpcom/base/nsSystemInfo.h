@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-_NSSYSTEMINFO_H_
+NSSYSTEMINFO_H_
 #
 define
-_NSSYSTEMINFO_H_
+NSSYSTEMINFO_H_
 #
 include
 "
@@ -726,6 +726,6 @@ NS_SYSTEMINFO_CID
 endif
 /
 *
-_NSSYSTEMINFO_H_
+NSSYSTEMINFO_H_
 *
 /

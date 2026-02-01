@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-_nsXULAppAPI_h__
+_nsXULAppAPI_h_
 #
 define
-_nsXULAppAPI_h__
+_nsXULAppAPI_h_
 #
 include
 "
@@ -2157,4 +2157,4 @@ MOZ_ENABLE_FORKSERVER
 endif
 /
 /
-_nsXULAppAPI_h__
+_nsXULAppAPI_h_

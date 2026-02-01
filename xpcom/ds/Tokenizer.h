@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-Tokenizer_h__
+Tokenizer_h_
 #
 define
-Tokenizer_h__
+Tokenizer_h_
 #
 include
 <
@@ -4393,4 +4393,4 @@ mozilla
 endif
 /
 /
-Tokenizer_h__
+Tokenizer_h_

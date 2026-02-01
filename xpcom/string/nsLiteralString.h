@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsLiteralString_h___
+nsLiteralString_h_
 #
 define
-nsLiteralString_h___
+nsLiteralString_h_
 #
 include
 "
@@ -233,7 +233,7 @@ endif
 !
 defined
 (
-nsLiteralString_h___
+nsLiteralString_h_
 )
 *
 /

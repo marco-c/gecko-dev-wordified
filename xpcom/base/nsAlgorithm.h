@@ -116,15 +116,10 @@ MPL
 /
 #
 ifndef
-nsAlgorithm_h___
+nsAlgorithm_h_
 #
 define
-nsAlgorithm_h___
-#
-include
-<
-cstdint
->
+nsAlgorithm_h_
 /
 /
 We
@@ -264,5 +259,5 @@ endif
 !
 defined
 (
-nsAlgorithm_h___
+nsAlgorithm_h_
 )

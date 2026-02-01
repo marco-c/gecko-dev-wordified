@@ -143,10 +143,10 @@ HashTable
 .
 #
 ifndef
-nsTHashtable_h__
+nsTHashtable_h_
 #
 define
-nsTHashtable_h__
+nsTHashtable_h_
 #
 include
 <
@@ -6547,4 +6547,4 @@ aOther
 endif
 /
 /
-nsTHashtable_h__
+nsTHashtable_h_

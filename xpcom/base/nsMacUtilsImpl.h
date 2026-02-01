@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsMacUtilsImpl_h___
+nsMacUtilsImpl_h_
 #
 define
-nsMacUtilsImpl_h___
+nsMacUtilsImpl_h_
 #
 include
 "
@@ -490,6 +490,6 @@ nsMacUtilsImpl
 endif
 /
 *
-nsMacUtilsImpl_h___
+nsMacUtilsImpl_h_
 *
 /

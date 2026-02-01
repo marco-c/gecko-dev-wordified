@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-__nsconsolemessage_h__
+_nsconsolemessage_h_
 #
 define
-__nsconsolemessage_h__
+_nsconsolemessage_h_
 #
 include
 "
@@ -182,6 +182,6 @@ mIsForwardedFromContentProcess
 endif
 /
 *
-__nsconsolemessage_h__
+_nsconsolemessage_h_
 *
 /

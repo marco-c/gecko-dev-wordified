@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-__mozilla_GkRustUtils_h
+_mozilla_GkRustUtils_h
 #
 define
-__mozilla_GkRustUtils_h
+_mozilla_GkRustUtils_h
 #
 include
 "

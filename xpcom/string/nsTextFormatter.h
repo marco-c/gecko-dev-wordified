@@ -153,10 +153,10 @@ org
 /
 #
 ifndef
-nsTextFormatter_h___
+nsTextFormatter_h_
 #
 define
-nsTextFormatter_h___
+nsTextFormatter_h_
 /
 *
 *
@@ -315,13 +315,6 @@ float
 include
 <
 stdio
-.
-h
->
-#
-include
-<
-stdarg
 .
 h
 >
@@ -1151,6 +1144,6 @@ aValues
 endif
 /
 *
-nsTextFormatter_h___
+nsTextFormatter_h_
 *
 /

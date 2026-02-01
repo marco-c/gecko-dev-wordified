@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsTHashKeys_h__
+nsTHashKeys_h_
 #
 define
-nsTHashKeys_h__
+nsTHashKeys_h_
 #
 include
 "
@@ -3938,4 +3938,4 @@ false
 endif
 /
 /
-nsTHashKeys_h__
+nsTHashKeys_h_

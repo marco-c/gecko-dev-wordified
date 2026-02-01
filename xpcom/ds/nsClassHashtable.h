@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsClassHashtable_h__
+nsClassHashtable_h_
 #
 define
-nsClassHashtable_h__
+nsClassHashtable_h_
 #
 include
 <
@@ -758,4 +758,4 @@ get
 endif
 /
 /
-nsClassHashtable_h__
+nsClassHashtable_h_

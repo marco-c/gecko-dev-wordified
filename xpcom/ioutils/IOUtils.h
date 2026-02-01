@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_IOUtils__
+mozilla_dom_IOUtils_
 #
 define
-mozilla_dom_IOUtils__
+mozilla_dom_IOUtils_
 #
 include
 "

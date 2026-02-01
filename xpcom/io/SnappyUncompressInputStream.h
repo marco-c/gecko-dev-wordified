@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_SnappyUncompressInputStream_h__
+mozilla_SnappyUncompressInputStream_h_
 #
 define
-mozilla_SnappyUncompressInputStream_h__
+mozilla_SnappyUncompressInputStream_h_
 #
 include
 "
@@ -643,4 +643,4 @@ mozilla
 endif
 /
 /
-mozilla_SnappyUncompressInputStream_h__
+mozilla_SnappyUncompressInputStream_h_

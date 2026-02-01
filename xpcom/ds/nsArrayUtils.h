@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsArrayUtils_h__
+nsArrayUtils_h_
 #
 define
-nsArrayUtils_h__
+nsArrayUtils_h_
 #
 include
 "
@@ -240,4 +240,4 @@ aErrorPtr
 endif
 /
 /
-nsArrayUtils_h__
+nsArrayUtils_h_

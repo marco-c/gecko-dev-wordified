@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsISupportsUtils_h__
+nsISupportsUtils_h_
 #
 define
-nsISupportsUtils_h__
+nsISupportsUtils_h_
 #
 include
 <

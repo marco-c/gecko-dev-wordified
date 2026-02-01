@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_PathUtils__
+mozilla_dom_PathUtils_
 #
 define
-mozilla_dom_PathUtils__
+mozilla_dom_PathUtils_
 #
 include
 "

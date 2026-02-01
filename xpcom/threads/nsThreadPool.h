@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsThreadPool_h__
+nsThreadPool_h_
 #
 define
-nsThreadPool_h__
+nsThreadPool_h_
 #
 include
 "
@@ -548,4 +548,4 @@ NS_THREADPOOL_CID
 endif
 /
 /
-nsThreadPool_h__
+nsThreadPool_h_

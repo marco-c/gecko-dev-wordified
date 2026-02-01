@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsHashPropertyBag_h___
+nsHashPropertyBag_h_
 #
 define
-nsHashPropertyBag_h___
+nsHashPropertyBag_h_
 #
 include
 "
@@ -447,6 +447,6 @@ aPropertyBag
 endif
 /
 *
-nsHashPropertyBag_h___
+nsHashPropertyBag_h_
 *
 /

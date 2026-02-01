@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsScriptableBase64Encoder_h__
+nsScriptableBase64Encoder_h_
 #
 define
-nsScriptableBase64Encoder_h__
+nsScriptableBase64Encoder_h_
 #
 include
 "

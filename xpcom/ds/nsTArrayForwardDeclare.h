@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsTArrayForwardDeclare_h__
+nsTArrayForwardDeclare_h_
 #
 define
-nsTArrayForwardDeclare_h__
+nsTArrayForwardDeclare_h_
 /
 /
 /

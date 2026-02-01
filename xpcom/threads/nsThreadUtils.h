@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsThreadUtils_h__
+nsThreadUtils_h_
 #
 define
-nsThreadUtils_h__
+nsThreadUtils_h_
 #
 include
 <
@@ -12910,4 +12910,4 @@ mozilla
 endif
 /
 /
-nsThreadUtils_h__
+nsThreadUtils_h_

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-ArrayAlgorithm_h___
+ArrayAlgorithm_h_
 #
 define
-ArrayAlgorithm_h___
+ArrayAlgorithm_h_
 #
 include
 "
@@ -850,5 +850,5 @@ endif
 !
 defined
 (
-ArrayAlgorithm_h___
+ArrayAlgorithm_h_
 )

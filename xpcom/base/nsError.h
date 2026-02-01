@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsError_h__
+nsError_h_
 #
 define
-nsError_h__
+nsError_h_
 #
 ifndef
 __cplusplus

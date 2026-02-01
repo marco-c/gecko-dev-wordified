@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsGkAtoms_h___
+nsGkAtoms_h_
 #
 define
-nsGkAtoms_h___
+nsGkAtoms_h_
 #
 include
 "
@@ -1530,6 +1530,6 @@ _empty
 endif
 /
 *
-nsGkAtoms_h___
+nsGkAtoms_h_
 *
 /

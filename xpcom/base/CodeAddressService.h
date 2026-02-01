@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-CodeAddressService_h__
+CodeAddressService_h_
 #
 define
-CodeAddressService_h__
+CodeAddressService_h_
 #
 include
 <
@@ -1806,4 +1806,4 @@ mozilla
 endif
 /
 /
-CodeAddressService_h__
+CodeAddressService_h_

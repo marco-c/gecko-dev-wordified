@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsPipe_h__
+nsPipe_h_
 #
 define
-nsPipe_h__
+nsPipe_h_
 #
 define
 NS_PIPE_CONTRACTID
@@ -195,5 +195,5 @@ endif
 !
 defined
 (
-nsPipe_h__
+nsPipe_h_
 )

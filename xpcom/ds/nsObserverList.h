@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsObserverList_h___
+nsObserverList_h_
 #
 define
-nsObserverList_h___
+nsObserverList_h_
 #
 include
 "
@@ -420,6 +420,6 @@ mObservers
 endif
 /
 *
-nsObserverList_h___
+nsObserverList_h_
 *
 /

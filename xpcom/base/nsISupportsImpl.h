@@ -128,10 +128,10 @@ h
 "
 #
 ifndef
-nsISupportsImpl_h__
+nsISupportsImpl_h_
 #
 define
-nsISupportsImpl_h__
+nsISupportsImpl_h_
 #
 include
 "

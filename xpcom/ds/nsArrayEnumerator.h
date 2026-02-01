@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsArrayEnumerator_h__
+nsArrayEnumerator_h_
 #
 define
-nsArrayEnumerator_h__
+nsArrayEnumerator_h_
 /
 /
 enumerator

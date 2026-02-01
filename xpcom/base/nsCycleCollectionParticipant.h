@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsCycleCollectionParticipant_h__
+nsCycleCollectionParticipant_h_
 #
 define
-nsCycleCollectionParticipant_h__
+nsCycleCollectionParticipant_h_
 #
 include
 <
@@ -8851,4 +8851,4 @@ aField
 endif
 /
 /
-nsCycleCollectionParticipant_h__
+nsCycleCollectionParticipant_h_

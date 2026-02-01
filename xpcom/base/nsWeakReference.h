@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsWeakReference_h__
+nsWeakReference_h_
 #
 define
-nsWeakReference_h__
+nsWeakReference_h_
 /
 /
 nsWeakReference

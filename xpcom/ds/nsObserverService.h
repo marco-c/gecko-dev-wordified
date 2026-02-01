@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsObserverService_h___
+nsObserverService_h_
 #
 define
-nsObserverService_h___
+nsObserverService_h_
 #
 include
 "
@@ -302,6 +302,6 @@ mObserverTopicTable
 endif
 /
 *
-nsObserverService_h___
+nsObserverService_h_
 *
 /

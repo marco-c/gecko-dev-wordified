@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsSegmentedBuffer_h__
+nsSegmentedBuffer_h_
 #
 define
-nsSegmentedBuffer_h__
+nsSegmentedBuffer_h_
 #
 include
 <
@@ -625,4 +625,4 @@ NS_SEGMENTARRAY_INITIAL_COUNT
 endif
 /
 /
-nsSegmentedBuffer_h__
+nsSegmentedBuffer_h_

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsXPCOMPrivate_h__
+nsXPCOMPrivate_h_
 #
 define
-nsXPCOMPrivate_h__
+nsXPCOMPrivate_h_
 #
 include
 "

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsWindowsRegKey_h__
+nsWindowsRegKey_h_
 #
 define
-nsWindowsRegKey_h__
+nsWindowsRegKey_h_
 /
 /
 -
@@ -507,4 +507,4 @@ IMPL_LIBXUL
 endif
 /
 /
-nsWindowsRegKey_h__
+nsWindowsRegKey_h_

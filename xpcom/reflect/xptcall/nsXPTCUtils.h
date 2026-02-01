@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsXPTCUtils_h__
+nsXPTCUtils_h_
 #
 define
-nsXPTCUtils_h__
+nsXPTCUtils_h_
 #
 include
 "
@@ -248,4 +248,4 @@ aMallocSizeOf
 endif
 /
 /
-nsXPTCUtils_h__
+nsXPTCUtils_h_

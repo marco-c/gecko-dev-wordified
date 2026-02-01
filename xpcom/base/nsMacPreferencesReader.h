@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-MacPreferencesReader_h__
+MacPreferencesReader_h_
 #
 define
-MacPreferencesReader_h__
+MacPreferencesReader_h_
 /
 /
 -
@@ -295,4 +295,4 @@ default
 endif
 /
 /
-MacPreferencesReader_h__
+MacPreferencesReader_h_

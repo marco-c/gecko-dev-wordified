@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsCRT_h___
+nsCRT_h_
 #
 define
-nsCRT_h___
+nsCRT_h_
 #
 include
 <
@@ -880,6 +880,6 @@ aChar
 endif
 /
 *
-nsCRT_h___
+nsCRT_h_
 *
 /

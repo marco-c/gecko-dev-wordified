@@ -244,10 +244,10 @@ compilation
 /
 #
 ifndef
-nsDirectoryServiceDefs_h___
+nsDirectoryServiceDefs_h_
 #
 define
-nsDirectoryServiceDefs_h___
+nsDirectoryServiceDefs_h_
 /
 *
 General

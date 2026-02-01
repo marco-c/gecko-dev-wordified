@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsArray_h__
+nsArray_h_
 #
 define
-nsArray_h__
+nsArray_h_
 #
 include
 "

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsXPCOMCIDInternal_h__
+nsXPCOMCIDInternal_h_
 #
 define
-nsXPCOMCIDInternal_h__
+nsXPCOMCIDInternal_h_
 #
 include
 "
@@ -332,4 +332,4 @@ runtime
 endif
 /
 /
-nsXPCOMCIDInternal_h__
+nsXPCOMCIDInternal_h_

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_lazyidlethread_h__
+mozilla_lazyidlethread_h_
 #
 define
-mozilla_lazyidlethread_h__
+mozilla_lazyidlethread_h_
 #
 ifndef
 MOZILLA_INTERNAL_API
@@ -561,4 +561,4 @@ mozilla
 endif
 /
 /
-mozilla_lazyidlethread_h__
+mozilla_lazyidlethread_h_

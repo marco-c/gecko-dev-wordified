@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsCycleCollectionTraversalCallback_h__
+nsCycleCollectionTraversalCallback_h_
 #
 define
-nsCycleCollectionTraversalCallback_h__
+nsCycleCollectionTraversalCallback_h_
 #
 include
 <
@@ -480,4 +480,4 @@ mFlags
 endif
 /
 /
-nsCycleCollectionTraversalCallback_h__
+nsCycleCollectionTraversalCallback_h_

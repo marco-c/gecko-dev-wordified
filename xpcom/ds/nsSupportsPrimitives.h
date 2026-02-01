@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsSupportsPrimitives_h__
+nsSupportsPrimitives_h_
 #
 define
-nsSupportsPrimitives_h__
+nsSupportsPrimitives_h_
 #
 include
 "
@@ -1907,6 +1907,6 @@ mData
 endif
 /
 *
-nsSupportsPrimitives_h__
+nsSupportsPrimitives_h_
 *
 /

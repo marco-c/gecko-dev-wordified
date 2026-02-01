@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsTimerImpl_h___
+nsTimerImpl_h_
 #
 define
-nsTimerImpl_h___
+nsTimerImpl_h_
 #
 include
 "
@@ -1437,6 +1437,6 @@ default
 endif
 /
 *
-nsTimerImpl_h___
+nsTimerImpl_h_
 *
 /

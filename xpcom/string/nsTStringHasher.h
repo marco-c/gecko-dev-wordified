@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsTStringHasher_h___
+nsTStringHasher_h_
 #
 define
-nsTStringHasher_h___
+nsTStringHasher_h_
 #
 include
 "
@@ -236,5 +236,5 @@ endif
 !
 defined
 (
-nsTStringHasher_h___
+nsTStringHasher_h_
 )

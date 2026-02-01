@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsDirectoryService_h___
+nsDirectoryService_h_
 #
 define
-nsDirectoryService_h___
+nsDirectoryService_h_
 #
 include
 "

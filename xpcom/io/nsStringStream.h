@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsStringStream_h__
+nsStringStream_h_
 #
 define
-nsStringStream_h__
+nsStringStream_h_
 #
 include
 "
@@ -591,4 +591,4 @@ aStringToRead
 endif
 /
 /
-nsStringStream_h__
+nsStringStream_h_

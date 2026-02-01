@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsMathUtils_h__
+nsMathUtils_h_
 #
 define
-nsMathUtils_h__
+nsMathUtils_h_
 #
 include
 "

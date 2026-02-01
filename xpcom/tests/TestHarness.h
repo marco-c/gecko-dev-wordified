@@ -133,10 +133,10 @@ h
 /
 #
 ifndef
-TestHarness_h__
+TestHarness_h_
 #
 define
-TestHarness_h__
+TestHarness_h_
 #
 include
 "
@@ -1762,4 +1762,4 @@ return
 endif
 /
 /
-TestHarness_h__
+TestHarness_h_

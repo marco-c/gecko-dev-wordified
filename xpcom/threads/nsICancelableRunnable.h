@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsICancelableRunnable_h__
+nsICancelableRunnable_h_
 #
 define
-nsICancelableRunnable_h__
+nsICancelableRunnable_h_
 #
 include
 "
@@ -252,4 +252,4 @@ default
 endif
 /
 /
-nsICancelableRunnable_h__
+nsICancelableRunnable_h_

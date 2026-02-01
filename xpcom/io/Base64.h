@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_Base64_h__
+mozilla_Base64_h_
 #
 define
-mozilla_Base64_h__
+mozilla_Base64_h_
 #
 include
 "

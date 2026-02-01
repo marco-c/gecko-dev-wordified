@@ -131,10 +131,10 @@ table
 /
 #
 ifndef
-nsStaticNameTable_h___
+nsStaticNameTable_h_
 #
 define
-nsStaticNameTable_h___
+nsStaticNameTable_h_
 #
 include
 "
@@ -369,6 +369,6 @@ mNullStr
 endif
 /
 *
-nsStaticNameTable_h___
+nsStaticNameTable_h_
 *
 /

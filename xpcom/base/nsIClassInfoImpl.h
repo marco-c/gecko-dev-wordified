@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-nsIClassInfoImpl_h__
+nsIClassInfoImpl_h_
 #
 define
-nsIClassInfoImpl_h__
+nsIClassInfoImpl_h_
 #
 include
 "
@@ -1399,4 +1399,4 @@ __VA_ARGS__
 endif
 /
 /
-nsIClassInfoImpl_h__
+nsIClassInfoImpl_h_
