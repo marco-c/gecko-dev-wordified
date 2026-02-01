@@ -236,7 +236,9 @@ PlacesTestUtils
 .
 addVisits
 (
-[
+{
+url
+:
 https
 :
 /
@@ -245,7 +247,14 @@ https
 TEST_ENGINE_DOMAIN
 }
 /
-]
+transition
+:
+PlacesUtils
+.
+history
+.
+TRANSITION_TYPED
+}
 )
 ;
 }

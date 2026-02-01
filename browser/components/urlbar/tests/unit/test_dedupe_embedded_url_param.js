@@ -224,6 +224,13 @@ title
 "
 kitten
 "
+transition
+:
+PlacesUtils
+.
+history
+.
+TRANSITION_TYPED
 }
 {
 uri
@@ -243,6 +250,13 @@ title
 "
 kitten
 "
+transition
+:
+PlacesUtils
+.
+history
+.
+TRANSITION_TYPED
 }
 ]
 )
