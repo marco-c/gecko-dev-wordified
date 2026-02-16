@@ -1648,7 +1648,7 @@ const
 TimeDuration
 &
 aStartTime
-float
+double
 aPlaybackRate
 )
 {
@@ -1750,7 +1750,7 @@ const
 TimeDuration
 &
 aCurrentTime
-float
+double
 aPlaybackRate
 )
 {
