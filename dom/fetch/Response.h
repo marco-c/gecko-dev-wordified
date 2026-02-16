@@ -632,9 +632,6 @@ aGlobal
 const
 Nullable
 <
-fetch
-:
-:
 ResponseBodyInit
 >
 &
@@ -852,9 +849,6 @@ aGlobal
 const
 Nullable
 <
-fetch
-:
-:
 ResponseBodyInit
 >
 &
