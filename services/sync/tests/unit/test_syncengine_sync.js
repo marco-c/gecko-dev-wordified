@@ -5172,7 +5172,7 @@ scotsman
 ;
 engine
 .
-previousFailed
+previousFailedIn
 =
 new
 SerializableSet
@@ -5463,7 +5463,7 @@ equal
 (
 engine
 .
-previousFailed
+previousFailedIn
 .
 size
 0
@@ -5889,7 +5889,7 @@ equal
 (
 engine
 .
-previousFailed
+previousFailedIn
 .
 size
 0
@@ -6004,7 +6004,7 @@ from
 (
 engine
 .
-previousFailed
+previousFailedIn
 )
 .
 sort
@@ -6210,7 +6210,7 @@ from
 (
 engine
 .
-previousFailed
+previousFailedIn
 )
 [
 ]
@@ -6734,7 +6734,7 @@ equal
 (
 engine
 .
-previousFailed
+previousFailedIn
 .
 size
 0
@@ -6755,13 +6755,13 @@ Initial
 failed
 items
 in
-previousFailed
+previousFailedIn
 to
 be
 reset
 .
 let
-previousFailed
+previousFailedIn
 =
 new
 SerializableSet
@@ -6787,9 +6787,9 @@ makeGUID
 ;
 engine
 .
-previousFailed
+previousFailedIn
 =
-previousFailed
+previousFailedIn
 ;
 Assert
 .
@@ -6797,8 +6797,8 @@ equal
 (
 engine
 .
-previousFailed
-previousFailed
+previousFailedIn
+previousFailedIn
 )
 ;
 /
@@ -6856,7 +6856,7 @@ from
 (
 engine
 .
-previousFailed
+previousFailedIn
 )
 .
 sort
@@ -6993,7 +6993,7 @@ no
 longer
 be
 in
-previousFailed
+previousFailedIn
 .
 Assert
 .
@@ -7005,7 +7005,7 @@ from
 (
 engine
 .
-previousFailed
+previousFailedIn
 )
 .
 sort
@@ -7784,7 +7784,7 @@ equal
 (
 engine
 .
-previousFailed
+previousFailedIn
 .
 size
 0
@@ -7920,7 +7920,7 @@ equal
 (
 engine
 .
-previousFailed
+previousFailedIn
 .
 size
 BOGUS_RECORDS
@@ -7938,7 +7938,7 @@ from
 (
 engine
 .
-previousFailed
+previousFailedIn
 )
 .
 sort
@@ -8625,7 +8625,7 @@ equal
 (
 engine
 .
-previousFailed
+previousFailedIn
 .
 size
 0
@@ -8838,7 +8838,7 @@ equal
 (
 engine
 .
-previousFailed
+previousFailedIn
 .
 size
 4
@@ -8850,7 +8850,7 @@ ok
 (
 engine
 .
-previousFailed
+previousFailedIn
 .
 has
 (
@@ -8866,7 +8866,7 @@ ok
 (
 engine
 .
-previousFailed
+previousFailedIn
 .
 has
 (
@@ -8882,7 +8882,7 @@ ok
 (
 engine
 .
-previousFailed
+previousFailedIn
 .
 has
 (
@@ -8898,7 +8898,7 @@ ok
 (
 engine
 .
-previousFailed
+previousFailedIn
 .
 has
 (
