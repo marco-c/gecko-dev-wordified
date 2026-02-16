@@ -84,7 +84,7 @@ crate
 segment
 :
 :
-EdgeAaSegmentMask
+EdgeMask
 ;
 use
 euclid
@@ -305,7 +305,7 @@ LayoutPoint
 pub
 edge_flags
 :
-EdgeAaSegmentMask
+EdgeMask
 }
 pub
 struct
@@ -325,7 +325,7 @@ y_count
 i32
 row_flags
 :
-EdgeAaSegmentMask
+EdgeMask
 current_origin
 :
 LayoutPoint
@@ -431,7 +431,7 @@ self
 .
 row_flags
 =
-EdgeAaSegmentMask
+EdgeMask
 :
 :
 empty
@@ -455,7 +455,7 @@ self
 row_flags
 |
 =
-EdgeAaSegmentMask
+EdgeMask
 :
 :
 BOTTOM
@@ -506,7 +506,7 @@ current_x
 edge_flags
 |
 =
-EdgeAaSegmentMask
+EdgeMask
 :
 :
 LEFT
@@ -527,7 +527,7 @@ x_count
 edge_flags
 |
 =
-EdgeAaSegmentMask
+EdgeMask
 :
 :
 RIGHT
@@ -649,7 +649,7 @@ y_count
 stride
 row_flags
 :
-EdgeAaSegmentMask
+EdgeMask
 :
 :
 empty
@@ -871,7 +871,7 @@ let
 mut
 row_flags
 =
-EdgeAaSegmentMask
+EdgeMask
 :
 :
 TOP
@@ -885,7 +885,7 @@ y_count
 row_flags
 |
 =
-EdgeAaSegmentMask
+EdgeMask
 :
 :
 BOTTOM
@@ -947,7 +947,7 @@ TileOffset
 pub
 edge_flags
 :
-EdgeAaSegmentMask
+EdgeMask
 }
 #
 [
@@ -1311,7 +1311,7 @@ let
 mut
 edge_flags
 =
-EdgeAaSegmentMask
+EdgeMask
 :
 :
 empty
@@ -1335,7 +1335,7 @@ start
 edge_flags
 |
 =
-EdgeAaSegmentMask
+EdgeMask
 :
 :
 LEFT
@@ -1404,7 +1404,7 @@ end
 edge_flags
 |
 =
-EdgeAaSegmentMask
+EdgeMask
 :
 :
 RIGHT
@@ -1475,7 +1475,7 @@ first_tile_layout_size
 edge_flags
 |
 =
-EdgeAaSegmentMask
+EdgeMask
 :
 :
 TOP
@@ -1518,7 +1518,7 @@ last_tile_layout_size
 edge_flags
 |
 =
-EdgeAaSegmentMask
+EdgeMask
 :
 :
 BOTTOM
@@ -4418,7 +4418,7 @@ FnMut
 &
 LayoutRect
 TileOffset
-EdgeAaSegmentMask
+EdgeMask
 )
 )
 {

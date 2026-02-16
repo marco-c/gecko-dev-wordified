@@ -120,7 +120,7 @@ crate
 segment
 :
 :
-EdgeAaSegmentMask
+EdgeMask
 ;
 use
 crate
@@ -4802,7 +4802,7 @@ i32
 pub
 edge_flags
 :
-EdgeAaSegmentMask
+EdgeMask
 pub
 brush_flags
 :

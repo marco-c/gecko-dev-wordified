@@ -125,7 +125,7 @@ crate
 segment
 :
 :
-EdgeAaSegmentMask
+EdgeMask
 ;
 use
 crate
@@ -945,7 +945,7 @@ quad_flags
 QuadFlags
 edge_flags
 :
-EdgeAaSegmentMask
+EdgeMask
 }
 }
 impl
@@ -1022,7 +1022,7 @@ quad_flags
 QuadFlags
 edge_flags
 :
-EdgeAaSegmentMask
+EdgeMask
 )
 -
 >
@@ -2058,7 +2058,7 @@ unwrap
 let
 edge_flags
 =
-EdgeAaSegmentMask
+EdgeMask
 :
 :
 from_bits

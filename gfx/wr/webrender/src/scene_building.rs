@@ -640,7 +640,7 @@ crate
 segment
 :
 :
-EdgeAaSegmentMask
+EdgeMask
 ;
 use
 crate
@@ -9959,7 +9959,7 @@ info
 .
 tile_spacing
 None
-EdgeAaSegmentMask
+EdgeMask
 :
 :
 all
@@ -17962,7 +17962,7 @@ new
 nine_patch
 )
 )
-EdgeAaSegmentMask
+EdgeMask
 :
 :
 all
@@ -18269,7 +18269,7 @@ NinePatchDescriptor
 >
 edge_aa_mask
 :
-EdgeAaSegmentMask
+EdgeMask
 )
 -
 >

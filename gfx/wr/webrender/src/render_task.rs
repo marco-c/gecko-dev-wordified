@@ -366,7 +366,7 @@ crate
 segment
 :
 :
-EdgeAaSegmentMask
+EdgeMask
 ;
 use
 crate
@@ -1551,7 +1551,7 @@ GpuTransformId
 pub
 edge_flags
 :
-EdgeAaSegmentMask
+EdgeMask
 pub
 quad_flags
 :
@@ -3458,7 +3458,7 @@ transform_id
 GpuTransformId
 edge_flags
 :
-EdgeAaSegmentMask
+EdgeMask
 quad_flags
 :
 QuadFlags
