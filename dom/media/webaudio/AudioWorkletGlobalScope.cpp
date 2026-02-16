@@ -2086,7 +2086,6 @@ aSerializedOptions
 >
 Read
 (
-this
 aCx
 &
 deserializedOptions
