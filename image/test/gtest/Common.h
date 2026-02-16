@@ -4185,6 +4185,16 @@ GreenFirstFrameAnimatedAVIFTestCase
 (
 )
 ;
+#
+ifdef
+MOZ_JXL
+ImageTestCase
+GreenFirstFrameAnimatedJXLTestCase
+(
+)
+;
+#
+endif
 ImageTestCase
 BlendAnimatedGIFTestCase
 (
