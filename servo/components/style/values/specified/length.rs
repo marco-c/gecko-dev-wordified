@@ -364,6 +364,7 @@ StyleParseErrorKind
 ToCss
 ToTyped
 TypedValue
+UnitValue
 }
 ;
 pub
@@ -12759,10 +12760,13 @@ NumericValue
 :
 :
 Unit
+(
+UnitValue
 {
 value
 unit
 }
+)
 )
 )
 }

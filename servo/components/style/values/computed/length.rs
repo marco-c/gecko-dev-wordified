@@ -341,6 +341,7 @@ NumericValue
 ToCss
 ToTyped
 TypedValue
+UnitValue
 }
 ;
 pub
@@ -2242,6 +2243,8 @@ NumericValue
 :
 :
 Unit
+(
+UnitValue
 {
 value
 :
@@ -2262,6 +2265,7 @@ px
 "
 )
 }
+)
 )
 )
 }
