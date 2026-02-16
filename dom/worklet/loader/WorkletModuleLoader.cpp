@@ -1782,7 +1782,6 @@ result
 ;
 Read
 (
-global
 cx
 &
 error

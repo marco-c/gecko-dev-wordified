@@ -1428,12 +1428,6 @@ StructuredCloneHolder
 .
 Read
 (
-targetWindow
--
->
-AsGlobal
-(
-)
 cx
 &
 messageData
