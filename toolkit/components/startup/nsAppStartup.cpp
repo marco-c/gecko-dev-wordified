@@ -6506,7 +6506,10 @@ maxResumedCrashes
 =
 0
 ;
-int32_t
+nsIPrefBranch
+:
+:
+PreferenceType
 prefType
 ;
 rv

@@ -869,7 +869,10 @@ the
 pref
 .
 static
-int32_t
+nsIPrefBranch
+:
+:
+PreferenceType
 GetType
 (
 const

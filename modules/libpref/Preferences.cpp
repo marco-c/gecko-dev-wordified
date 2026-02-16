@@ -15829,7 +15829,10 @@ const
 char
 *
 aPrefName
-int32_t
+nsIPrefBranch
+:
+:
+PreferenceType
 *
 aRetVal
 )
@@ -35804,7 +35807,10 @@ HasDefaultValue
 static
 *
 /
-int32_t
+nsIPrefBranch
+:
+:
+PreferenceType
 Preferences
 :
 :
