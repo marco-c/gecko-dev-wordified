@@ -1601,14 +1601,8 @@ EnqueueRequestAdapterPromise
 (
 PendingRequestAdapterPromise
 {
-RefPtr
-(
 promise
-)
-RefPtr
-(
 this
-)
 adapter_id
 }
 )

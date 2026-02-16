@@ -1533,14 +1533,8 @@ GetId
 )
 PendingBufferMapPromise
 {
-RefPtr
-(
 promise
-)
-RefPtr
-(
 this
-)
 }
 )
 ;
