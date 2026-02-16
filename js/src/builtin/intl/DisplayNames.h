@@ -215,7 +215,11 @@ js
 struct
 ClassSpec
 ;
+}
 namespace
+js
+:
+:
 intl
 {
 /
@@ -340,11 +344,6 @@ false
 ;
 }
 ;
-}
-/
-/
-namespace
-intl
 class
 DisplayNamesObject
 :
@@ -804,6 +803,9 @@ obj
 /
 namespace
 js
+:
+:
+intl
 #
 endif
 /

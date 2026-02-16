@@ -9986,6 +9986,9 @@ Step
 .
 Rooted
 <
+intl
+:
+:
 CollatorObject
 *
 >

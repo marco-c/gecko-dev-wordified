@@ -311,6 +311,9 @@ IntlGuardToSegments
 :
 return
 &
+intl
+:
+:
 SegmentsObject
 :
 :
@@ -324,6 +327,9 @@ IntlGuardToSegmentIterator
 :
 return
 &
+intl
+:
+:
 SegmentIteratorObject
 :
 :

@@ -8177,6 +8177,9 @@ void
 js
 :
 :
+intl
+:
+:
 NumberFormatObject
 :
 :

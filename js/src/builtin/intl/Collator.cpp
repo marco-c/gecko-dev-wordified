@@ -2048,6 +2048,9 @@ void
 js
 :
 :
+intl
+:
+:
 CollatorObject
 :
 :

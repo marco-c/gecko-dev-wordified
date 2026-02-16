@@ -793,11 +793,6 @@ js
 extern
 const
 JSClass
-IntlClass
-;
-extern
-const
-JSClass
 JSONClass
 ;
 extern
@@ -810,6 +805,15 @@ const
 JSClass
 ReflectClass
 ;
+namespace
+intl
+{
+extern
+const
+JSClass
+IntlClass
+;
+}
 }
 /
 /

@@ -192,8 +192,8 @@ mozilla
 intl
 namespace
 js
-{
-namespace
+:
+:
 intl
 {
 struct
@@ -239,11 +239,6 @@ Long
 ;
 }
 ;
-}
-/
-/
-namespace
-intl
 class
 ListFormatObject
 :
@@ -646,6 +641,9 @@ obj
 /
 namespace
 js
+:
+:
+intl
 #
 endif
 /

@@ -189,8 +189,8 @@ JSTracer
 ;
 namespace
 js
-{
-namespace
+:
+:
 intl
 {
 /
@@ -812,12 +812,10 @@ keywords
 /
 /
 namespace
-intl
-}
-/
-/
-namespace
 js
+:
+:
+intl
 #
 endif
 /

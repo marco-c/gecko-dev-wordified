@@ -939,6 +939,9 @@ REAL_IF_INTL
 Intl
 CLASP
 (
+intl
+:
+:
 Intl
 )
 )
@@ -948,6 +951,9 @@ REAL_IF_INTL
 Collator
 OCLASP
 (
+intl
+:
+:
 Collator
 )
 )
@@ -957,6 +963,9 @@ REAL_IF_INTL
 DateTimeFormat
 OCLASP
 (
+intl
+:
+:
 DateTimeFormat
 )
 )
@@ -966,6 +975,9 @@ REAL_IF_INTL
 DisplayNames
 OCLASP
 (
+intl
+:
+:
 DisplayNames
 )
 )
@@ -975,6 +987,9 @@ REAL_IF_INTL
 DurationFormat
 OCLASP
 (
+intl
+:
+:
 DurationFormat
 )
 )
@@ -984,6 +999,9 @@ REAL_IF_INTL
 ListFormat
 OCLASP
 (
+intl
+:
+:
 ListFormat
 )
 )
@@ -993,6 +1011,9 @@ REAL_IF_INTL
 Locale
 OCLASP
 (
+intl
+:
+:
 Locale
 )
 )
@@ -1002,6 +1023,9 @@ REAL_IF_INTL
 NumberFormat
 OCLASP
 (
+intl
+:
+:
 NumberFormat
 )
 )
@@ -1011,6 +1035,9 @@ REAL_IF_INTL
 PluralRules
 OCLASP
 (
+intl
+:
+:
 PluralRules
 )
 )
@@ -1020,6 +1047,9 @@ REAL_IF_INTL
 RelativeTimeFormat
 OCLASP
 (
+intl
+:
+:
 RelativeTimeFormat
 )
 )
@@ -1029,6 +1059,9 @@ REAL_IF_INTL
 Segmenter
 OCLASP
 (
+intl
+:
+:
 Segmenter
 )
 )

@@ -1699,6 +1699,9 @@ void
 js
 :
 :
+intl
+:
+:
 PluralRulesObject
 :
 :

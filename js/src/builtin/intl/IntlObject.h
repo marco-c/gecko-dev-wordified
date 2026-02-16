@@ -125,6 +125,9 @@ h
 "
 namespace
 js
+:
+:
+intl
 {
 extern
 const
@@ -136,6 +139,9 @@ IntlClass
 /
 namespace
 js
+:
+:
+intl
 #
 endif
 /

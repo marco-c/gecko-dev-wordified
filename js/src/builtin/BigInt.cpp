@@ -498,7 +498,7 @@ nullptr
 bn
 -
 >
-setFixedSlot
+initFixedSlot
 (
 PRIMITIVE_VALUE_SLOT
 BigIntValue
@@ -1039,6 +1039,9 @@ Step
 .
 Rooted
 <
+intl
+:
+:
 NumberFormatObject
 *
 >

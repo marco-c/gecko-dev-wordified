@@ -181,8 +181,8 @@ mozilla
 intl
 namespace
 js
-{
-namespace
+:
+:
 intl
 {
 enum
@@ -369,11 +369,6 @@ style
 ;
 }
 ;
-}
-/
-/
-namespace
-intl
 class
 DurationFormatObject
 :
@@ -1183,6 +1178,9 @@ args
 /
 namespace
 js
+:
+:
+intl
 #
 endif
 /

@@ -6328,6 +6328,9 @@ Step
 .
 Rooted
 <
+intl
+:
+:
 NumberFormatObject
 *
 >

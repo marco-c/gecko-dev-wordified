@@ -4237,6 +4237,9 @@ JSClass
 js
 :
 :
+intl
+:
+:
 IntlClass
 =
 {

@@ -1466,6 +1466,9 @@ void
 js
 :
 :
+intl
+:
+:
 ListFormatObject
 :
 :

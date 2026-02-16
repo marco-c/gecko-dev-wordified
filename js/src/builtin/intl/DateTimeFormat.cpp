@@ -5105,6 +5105,9 @@ void
 js
 :
 :
+intl
+:
+:
 DateTimeFormatObject
 :
 :
@@ -11930,6 +11933,9 @@ release
 }
 void
 js
+:
+:
+intl
 :
 :
 DateTimeFormatObject

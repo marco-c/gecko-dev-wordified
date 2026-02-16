@@ -141,6 +141,9 @@ h
 "
 namespace
 js
+:
+:
+intl
 {
 class
 LocaleObject
@@ -295,6 +298,9 @@ classSpec_
 /
 namespace
 js
+:
+:
+intl
 #
 endif
 /
