@@ -3465,9 +3465,9 @@ ConvertIfNeeded
 webgl
 unpacking
 .
-state
+metrics
 .
-rowLength
+usedPixelsPerRow
 unpacking
 .
 metrics
