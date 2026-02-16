@@ -122,6 +122,13 @@ addTabSplitView
 tab1
 tab2
 ]
+{
+id
+:
+"
+1
+"
+}
 )
 ;
 const
@@ -409,6 +416,13 @@ addTabSplitView
 aboutRobotsTab
 aboutAboutTab
 ]
+{
+id
+:
+"
+1
+"
+}
 )
 ;
 const
