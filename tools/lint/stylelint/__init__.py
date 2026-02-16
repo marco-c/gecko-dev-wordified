@@ -817,6 +817,47 @@ cmd_args
 )
 )
         
+#
+Set
+up
+environment
+for
+stylelint
+subprocess
+        
+env
+=
+os
+.
+environ
+.
+copy
+(
+)
+        
+if
+lintargs
+.
+get
+(
+"
+skip_rollouts
+"
+False
+)
+:
+            
+env
+[
+"
+STYLELINT_SKIP_ROLLOUTS
+"
+]
+=
+"
+1
+"
+        
 result
 =
 run
@@ -824,6 +865,7 @@ run
 cmd_args
 config
 fix
+env
 )
         
 if
@@ -1048,6 +1090,7 @@ run
 cmd_args
 config
 fix
+env
 )
 :
     
@@ -1124,6 +1167,9 @@ stderr
 subprocess
 .
 PIPE
+env
+=
+env
     
 )
     

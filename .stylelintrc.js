@@ -84,6 +84,15 @@ path
 const
 rollouts
 =
+process
+.
+env
+.
+STYLELINT_SKIP_ROLLOUTS
+?
+[
+]
+:
 require
 (
 "
