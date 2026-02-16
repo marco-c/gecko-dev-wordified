@@ -404,7 +404,13 @@ wchar_t
 BuildRunCommand
 (
 const
+mozilla
+:
+:
+Maybe
+<
 ToastArgs
+>
 &
 args
 )
