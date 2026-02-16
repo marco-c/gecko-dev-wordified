@@ -1601,6 +1601,9 @@ OS_LIBS
 crypt32
 "
 "
+d2d1
+"
+"
 gdi32
 "
 "
