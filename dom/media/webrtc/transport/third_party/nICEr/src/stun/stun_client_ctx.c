@@ -816,6 +816,11 @@ int
 r
 _status
 ;
+int
+flags
+=
+0
+;
 if
 (
 ctx
@@ -857,7 +862,6 @@ cases
 .
 *
 /
-int
 flags
 =
 ctx

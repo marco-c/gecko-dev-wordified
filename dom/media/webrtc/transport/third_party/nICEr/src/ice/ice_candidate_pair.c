@@ -518,6 +518,11 @@ tmpcand
 UINT8
 t_priority
 ;
+int
+flags
+=
+0
+;
 if
 (
 !
@@ -1113,7 +1118,6 @@ tmpcand
 .
 priority
 ;
-int
 flags
 =
 NR_STUN_TRANSPORT_ADDR_CHECK_WILDCARD
