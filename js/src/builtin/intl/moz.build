@@ -216,6 +216,11 @@ GlobalIntlData
 cpp
 "
 "
+IntlMathematicalValue
+.
+cpp
+"
+"
 IntlObject
 .
 cpp
