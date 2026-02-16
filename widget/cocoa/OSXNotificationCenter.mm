@@ -828,10 +828,13 @@ notification
 =
 [
 [
+[
 unClass
 alloc
 ]
 init
+]
+autorelease
 ]
 ;
 nsAutoString
@@ -1682,11 +1685,6 @@ GetNotificationCenter
 deliverNotification
 :
 notification
-]
-;
-[
-notification
-release
 ]
 ;
 if
