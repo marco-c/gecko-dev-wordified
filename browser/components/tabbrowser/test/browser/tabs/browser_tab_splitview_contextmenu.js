@@ -706,7 +706,7 @@ multiselected
 added
 tab
 to
-multiselection
+mutliselection
 "
 )
 ;
