@@ -3114,6 +3114,16 @@ FONT_PAIR
 variantB
 variant_b
 )
+FONT_PAIR
+(
+variantC
+variant_c
+)
+FONT_PAIR
+(
+variantD
+variant_d
+)
 }
 ;
 #
