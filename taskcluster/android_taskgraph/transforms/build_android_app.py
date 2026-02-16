@@ -835,16 +835,6 @@ nimbus_url
 nimbus
 "
 )
-        
-(
-"
-gps_integrity_token
-"
-"
-.
-gps_integrity_token
-"
-)
     
 ]
     
