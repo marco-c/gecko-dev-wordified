@@ -549,6 +549,7 @@ NR_reg_get2_char
 (
 NR_registry
 prefix
+const
 char
 *
 name
@@ -561,6 +562,7 @@ NR_reg_get2_uchar
 (
 NR_registry
 prefix
+const
 char
 *
 name
@@ -573,6 +575,7 @@ NR_reg_get2_uint2
 (
 NR_registry
 prefix
+const
 char
 *
 name
@@ -585,6 +588,7 @@ NR_reg_alloc2_string
 (
 NR_registry
 prefix
+const
 char
 *
 name
@@ -598,6 +602,7 @@ NR_reg_alloc2_data
 (
 NR_registry
 prefix
+const
 char
 *
 name
@@ -653,6 +658,7 @@ NR_reg_set_bytes
 (
 NR_registry
 name
+const
 UCHAR
 *
 data
@@ -665,6 +671,7 @@ NR_reg_set_string
 (
 NR_registry
 name
+const
 char
 *
 data
@@ -675,6 +682,7 @@ NR_reg_set2_uchar
 (
 NR_registry
 prefix
+const
 char
 *
 name
@@ -687,9 +695,11 @@ NR_reg_set2_string
 (
 NR_registry
 prefix
+const
 char
 *
 name
+const
 char
 *
 data
@@ -825,6 +835,7 @@ NR_reg_make_registry
 (
 NR_registry
 parent
+const
 char
 *
 child

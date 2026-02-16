@@ -367,6 +367,7 @@ NR_LOG_LOGGING
 0
 ;
 static
+const
 char
 *
 log_level_strings
@@ -401,6 +402,7 @@ DEBUG
 }
 ;
 static
+const
 char
 *
 log_level_reg_strings
@@ -498,6 +500,7 @@ typedef
 struct
 log_destination_
 {
+const
 char
 *
 dest_name
@@ -745,6 +748,7 @@ level
 int
 r_log_register
 (
+const
 char
 *
 facility_name
@@ -1463,9 +1467,11 @@ int
 facility
 int
 level
+const
 char
 *
 name
+const
 char
 *
 data
@@ -1524,6 +1530,7 @@ if
 nr_nbin2hex
 (
 (
+const
 UCHAR
 *
 )
@@ -1675,6 +1682,7 @@ log_fmt_buf
 MAX_ERROR_STRING_SIZE
 ]
 ;
+const
 char
 *
 level_str
@@ -1683,6 +1691,7 @@ level_str
 unknown
 "
 ;
+const
 char
 *
 facility_str
@@ -1691,14 +1700,11 @@ facility_str
 unknown
 "
 ;
+const
 char
 *
 fmt_str
 =
-(
-char
-*
-)
 format
 ;
 int

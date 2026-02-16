@@ -735,6 +735,7 @@ name
 unsigned
 char
 type
+const
 UCHAR
 *
 data
