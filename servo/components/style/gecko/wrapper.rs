@@ -14266,6 +14266,17 @@ PAUSED
 NonTSPseudoClass
 :
 :
+VolumeLocked
+=
+>
+false
+/
+/
+Bug
+2013371
+NonTSPseudoClass
+:
+:
 Dir
 (
 ref
