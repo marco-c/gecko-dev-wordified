@@ -263,7 +263,7 @@ when
 we
 /
 /
-recieve
+receive
 an
 event
 that
@@ -287,16 +287,6 @@ bool
 mInitialized
 =
 false
-;
-bool
-mRtl
-=
-false
-;
-int32_t
-mTitlebarHeight
-=
-0
 ;
 }
 ;

@@ -2705,7 +2705,7 @@ critical
 animation
 so
 allow
-aysnc
+async
 flushes
 again
 .
@@ -9801,6 +9801,7 @@ is
 hold
 a
 reference
+to
 the
 widgets
 in
@@ -24486,7 +24487,6 @@ type
 of
 data
 the
-the
 service
 would
 like
@@ -28639,7 +28639,7 @@ defaults
 which
 can
 be
-overriden
+overridden
 from
 aInitData
 in
@@ -50945,7 +50945,7 @@ canBecomeMainWindow
 /
 This
 is
-overriden
+overridden
 because
 the
 default

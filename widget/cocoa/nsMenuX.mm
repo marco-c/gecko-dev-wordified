@@ -2309,7 +2309,6 @@ until
 we
 find
 the
-the
 item
 we
 '

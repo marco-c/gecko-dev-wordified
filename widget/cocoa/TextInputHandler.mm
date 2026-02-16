@@ -3798,7 +3798,7 @@ aOverrideKeyboard
 /
 NOTE
 :
-Doument
+Document
 new
 layout
 IDs
@@ -5068,7 +5068,7 @@ is
 always
 called
 when
-TISInputSourceWrappper
+TISInputSourceWrapper
 is
 created
 .
@@ -6160,7 +6160,7 @@ not
 be
 marked
 as
-proccessed
+processed
 by
 IME
 "
@@ -7715,7 +7715,7 @@ called
 /
 and
 it
-acutally
+actually
 inputs
 a
 character
@@ -17660,7 +17660,7 @@ If
 we
 '
 re
-acutally
+actually
 handling
 a
 key

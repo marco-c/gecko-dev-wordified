@@ -1426,14 +1426,15 @@ keep
 a
 strong
 reference
+to
 the
 observer
 .
 The
 observer
+/
+/
 must
-/
-/
 remove
 itself
 before
