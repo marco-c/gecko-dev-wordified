@@ -1970,6 +1970,11 @@ Self
 :
 :
 Stalled
+|
+Self
+:
+:
+Muted
 )
 {
 return
