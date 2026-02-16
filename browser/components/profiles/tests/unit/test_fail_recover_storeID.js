@@ -94,15 +94,11 @@ Assert
 .
 ok
 (
-!
 ProfilesDatastoreService
 .
 initialized
 "
-Didn
-'
-t
-initialize
+Initialized
 the
 datastore
 service
