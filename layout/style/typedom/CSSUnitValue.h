@@ -344,6 +344,12 @@ aDest
 )
 const
 ;
+StyleUnitValue
+ToStyleUnitValue
+(
+)
+const
+;
 private
 :
 virtual
