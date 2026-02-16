@@ -1307,6 +1307,9 @@ aUrl
 const
 Nullable
 <
+fetch
+:
+:
 BodyInit
 >
 &
