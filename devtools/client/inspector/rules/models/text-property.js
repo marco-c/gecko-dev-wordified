@@ -1363,6 +1363,7 @@ updateEditor
 ;
 }
 }
+async
 setValue
 (
 value
@@ -1404,7 +1405,7 @@ value
 )
 ;
 }
-return
+await
 this
 .
 rule
@@ -1415,14 +1416,7 @@ this
 value
 priority
 )
-.
-then
-(
-(
-)
-=
->
-{
+;
 this
 .
 updateUsedVariables
@@ -1433,9 +1427,6 @@ this
 .
 updateEditor
 (
-)
-;
-}
 )
 ;
 }
