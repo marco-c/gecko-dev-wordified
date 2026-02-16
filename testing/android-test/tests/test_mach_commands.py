@@ -836,6 +836,8 @@ mobile
 android
 /
 fenix
+/
+app
 "
 ]
         
