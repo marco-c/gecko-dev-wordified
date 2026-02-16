@@ -398,13 +398,6 @@ addTabSplitView
 tab1
 tab2
 ]
-{
-id
-:
-"
-1
-"
-}
 )
 ;
 let
@@ -418,13 +411,6 @@ addTabSplitView
 tab3
 tab4
 ]
-{
-id
-:
-"
-2
-"
-}
 )
 ;
 let
