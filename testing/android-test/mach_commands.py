@@ -219,12 +219,22 @@ removesuffix
 kt
 "
 )
+        
+.
+removesuffix
+(
+"
+.
+java
+"
+)
     
 )
 def
 project_for_ac
 (
 test
+prefix
 test_path
 )
 :
@@ -291,6 +301,19 @@ PermissionsDialogFragmentTest
 kt
     
 #
+prefix
+=
+mobile
+/
+android
+/
+android
+-
+components
+/
+components
+    
+#
 test_path
 =
 src
@@ -305,27 +328,6 @@ returns
 feature
 -
 addons
-    
-dir
-=
-os
-.
-path
-.
-normpath
-(
-"
-mobile
-/
-android
-/
-android
--
-components
-/
-components
-"
-)
     
 return
 (
@@ -348,7 +350,7 @@ path
 .
 normpath
 (
-dir
+prefix
 )
 )
 [
@@ -683,6 +685,20 @@ components
 "
 )
         
+project_prefix
+=
+os
+.
+path
+.
+join
+(
+subdir
+"
+components
+"
+)
+        
 if
 not
 test_objects
@@ -790,6 +806,7 @@ test_object
 name
 "
 ]
+project_prefix
 test_path
 )
                 
@@ -848,12 +865,15 @@ append
 components
 :
 "
+                
 +
 project_for_ac
 (
 test
+project_prefix
 test_path
 )
+                
 +
 "
 :
