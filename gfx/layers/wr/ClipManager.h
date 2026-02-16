@@ -1202,15 +1202,6 @@ ItemClips
 aOther
 )
 ;
-wr
-:
-:
-WrSpaceAndClipChain
-GetSpaceAndClipChain
-(
-)
-const
-;
 }
 ;
 /
