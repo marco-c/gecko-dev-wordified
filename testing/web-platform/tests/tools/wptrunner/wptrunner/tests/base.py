@@ -105,7 +105,7 @@ servo
 :
 {
 "
-servodriver
+servo_legacy
 "
 }
     
