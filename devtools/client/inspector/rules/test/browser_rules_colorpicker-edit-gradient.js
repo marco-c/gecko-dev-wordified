@@ -163,6 +163,7 @@ correctly
 "
 )
 ;
+await
 testColorParsing
 (
 view
@@ -195,6 +196,7 @@ view
 }
 )
 ;
+async
 function
 testColorParsing
 (
@@ -204,6 +206,7 @@ view
 const
 ruleEl
 =
+await
 getRuleViewProperty
 (
 view
@@ -215,6 +218,11 @@ background
 -
 image
 "
+{
+wait
+:
+true
+}
 )
 ;
 ok
@@ -403,6 +411,7 @@ gradient
 const
 ruleEl
 =
+await
 getRuleViewProperty
 (
 view
@@ -414,6 +423,11 @@ background
 -
 image
 "
+{
+wait
+:
+true
+}
 )
 ;
 const
