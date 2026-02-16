@@ -91,13 +91,6 @@ h
 #
 include
 "
-HttpConnectionBase
-.
-h
-"
-#
-include
-"
 HttpConnectionMgrShell
 .
 h
@@ -208,6 +201,9 @@ net
 {
 class
 EventTokenBucket
+;
+class
+HttpConnectionBase
 ;
 class
 NullHttpTransaction
