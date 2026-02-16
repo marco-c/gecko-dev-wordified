@@ -847,8 +847,6 @@ security
 manager
 /
 ssl
-/
-tests
 "
         
 "
