@@ -6447,7 +6447,7 @@ Supported
 paths
 are
 :
-      
+    
 -
 '
 /
@@ -6457,7 +6457,7 @@ relative
 /
 paths
 '
-      
+    
 -
 '
 srcdir
@@ -6466,7 +6466,7 @@ relative
 /
 paths
 '
-      
+    
 -
 '
 !
@@ -6477,7 +6477,7 @@ relative
 /
 paths
 '
-      
+    
 -
 '
 !
@@ -6487,7 +6487,7 @@ relative
 /
 paths
 '
-      
+    
 -
 '
 %

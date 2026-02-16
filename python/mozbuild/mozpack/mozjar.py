@@ -372,7 +372,7 @@ have
 two
 attributes
 :
-      
+    
 -
 obj
 [
@@ -380,7 +380,7 @@ obj
 version
 '
 ]
-      
+    
 -
 obj
 [

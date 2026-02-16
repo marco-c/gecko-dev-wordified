@@ -150,7 +150,7 @@ following
     
 functions
 :
-      
+    
 -
 errors
 .
@@ -158,7 +158,7 @@ warn
 (
 message
 )
-      
+    
 -
 errors
 .
@@ -166,7 +166,7 @@ error
 (
 message
 )
-      
+    
 -
 errors
 .
@@ -218,14 +218,12 @@ be
 ignored
 by
 calling
-:
-      
--
 errors
 .
 ignore_errors
 (
 )
+.
     
 After
 calling
