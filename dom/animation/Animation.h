@@ -2949,6 +2949,11 @@ GetDocGroup
 (
 )
 ;
+void
+PostUpdate
+(
+)
+;
 protected
 :
 void
@@ -3180,11 +3185,6 @@ FlushUnanimatedStyle
 (
 )
 const
-;
-void
-PostUpdate
-(
-)
 ;
 void
 ResetFinishedPromise
