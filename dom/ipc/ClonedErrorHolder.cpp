@@ -1941,13 +1941,6 @@ mStack
 .
 Read
 (
-xpc
-:
-:
-CurrentNativeGlobal
-(
-aCx
-)
 aCx
 &
 stackVal
