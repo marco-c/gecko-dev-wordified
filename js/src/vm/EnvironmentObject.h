@@ -10276,14 +10276,12 @@ liveEnvs
 ;
 public
 :
+explicit
 DebugEnvironments
 (
 JSContext
 *
 cx
-Zone
-*
-zone
 )
 ;
 ~

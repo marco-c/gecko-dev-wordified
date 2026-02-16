@@ -1022,13 +1022,7 @@ JSContext
 *
 cx
 )
-:
-WeakMap
-(
-cx
-)
-{
-}
+;
 }
 ;
 }
