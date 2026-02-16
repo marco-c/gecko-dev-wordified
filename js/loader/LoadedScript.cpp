@@ -515,7 +515,6 @@ cycle
 NS_IMPL_CYCLE_COLLECTION
 (
 LoadedScript
-mFetchOptions
 mCacheEntry
 )
 NS_IMPL_CYCLE_COLLECTING_ADDREF
