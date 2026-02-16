@@ -982,6 +982,7 @@ nr_stun_message
 msg
 UINT2
 number
+const
 char
 *
 reason
@@ -1123,6 +1124,7 @@ nr_stun_message_add_nonce_attribute
 nr_stun_message
 *
 msg
+const
 char
 *
 nonce
