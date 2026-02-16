@@ -25104,12 +25104,10 @@ aGridContainerFrame
 >
 GetChildList
 (
-aGridContainerFrame
--
->
-GetAbsoluteListID
-(
-)
+FrameChildListID
+:
+:
+Absolute
 )
 ;
 for

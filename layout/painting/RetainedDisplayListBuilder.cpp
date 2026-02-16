@@ -8746,12 +8746,10 @@ f
 >
 GetChildList
 (
-f
--
->
-GetAbsoluteListID
-(
-)
+FrameChildListID
+:
+:
+Absolute
 )
 aExtraFrames
 )
