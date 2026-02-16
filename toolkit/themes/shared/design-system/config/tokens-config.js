@@ -174,6 +174,11 @@ platform
 color
 "
 ]
+Dimension
+:
+"
+dimension
+"
 "
 Focus
 Outline
@@ -3239,6 +3244,9 @@ badge
 "
 "
 button
+"
+"
+dimension
 "
 "
 color
