@@ -139,6 +139,15 @@ include
 "
 mozilla
 /
+CSSPropertyId
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ErrorResult
 .
 h
