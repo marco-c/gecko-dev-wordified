@@ -11095,6 +11095,11 @@ them
 for
 now
 .
+[
+mClickThroughMouseDownEvent
+release
+]
+;
 mClickThroughMouseDownEvent
 =
 [
