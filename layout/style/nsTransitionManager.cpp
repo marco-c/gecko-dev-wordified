@@ -1815,7 +1815,7 @@ Value
 )
 aTransition
 .
-PlaybackRateInternal
+PlaybackRate
 (
 )
 keyframeEffect

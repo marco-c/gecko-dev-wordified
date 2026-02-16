@@ -399,11 +399,6 @@ return
 true
 ;
 }
-void
-PostUpdateForAllAnimations
-(
-)
-;
 protected
 :
 TimeStamp
