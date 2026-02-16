@@ -6837,6 +6837,14 @@ twist
 ;
 aPointerEvent
 .
+mAngle
+=
+aTouch
+.
+mAngle
+;
+aPointerEvent
+.
 mTimeStamp
 =
 aTouchEvent
