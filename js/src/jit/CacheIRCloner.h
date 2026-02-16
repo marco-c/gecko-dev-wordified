@@ -383,6 +383,15 @@ uint32_t
 stubOffset
 )
 ;
+const
+ICScript
+*
+getICScriptField
+(
+uint32_t
+stubOffset
+)
+;
 jsid
 getIdField
 (

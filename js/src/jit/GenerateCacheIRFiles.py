@@ -660,6 +660,21 @@ writeRawPointerField
 )
     
 "
+ICScriptField
+"
+:
+(
+"
+const
+ICScript
+*
+"
+"
+writeICScriptField
+"
+)
+    
+"
 IdField
 "
 :
@@ -1938,6 +1953,26 @@ stubOffset
     
 "
 RawPointerField
+"
+:
+(
+"
+uint32_t
+"
+"
+Offset
+"
+"
+reader
+.
+stubOffset
+(
+)
+"
+)
+    
+"
+ICScriptField
 "
 :
 (
@@ -3468,6 +3503,14 @@ spewField
 "
     
 "
+ICScriptField
+"
+:
+"
+spewField
+"
+    
+"
 IdField
 "
 :
@@ -4559,6 +4602,12 @@ RawInt32Field
     
 "
 RawPointerField
+"
+:
+1
+    
+"
+ICScriptField
 "
 :
 1

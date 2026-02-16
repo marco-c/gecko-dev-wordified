@@ -10452,6 +10452,15 @@ StubField
 Type
 :
 :
+ICScript
+:
+case
+StubField
+:
+:
+Type
+:
+:
 RawInt64
 :
 case
