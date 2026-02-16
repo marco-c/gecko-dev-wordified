@@ -6851,6 +6851,12 @@ event
 IsFromUserInput
 (
 )
+/
+*
+aSuppressEvent
+*
+/
+false
 )
 ;
 break
