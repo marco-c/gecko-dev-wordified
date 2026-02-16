@@ -1968,13 +1968,10 @@ tests
 ;
 .
 /
-tools
-/
-ci
-/
-run_tc
-.
-py
+wpt
+tc
+-
+run
 %
 (
 options_str
