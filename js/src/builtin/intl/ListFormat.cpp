@@ -2347,8 +2347,6 @@ ListFormat
 :
 StringList
 list_
-{
-}
 ;
 public
 :
