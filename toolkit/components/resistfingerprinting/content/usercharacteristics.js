@@ -1132,7 +1132,7 @@ contextOptions
 forceSoftwareRendering
 ?
 "
-software
+Software
 "
 :
 "
