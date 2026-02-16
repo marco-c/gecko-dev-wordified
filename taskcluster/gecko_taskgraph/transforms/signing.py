@@ -100,7 +100,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 taskref_or_string
 from
 voluptuous
@@ -143,7 +143,7 @@ TransformSequence
 )
 signing_description_schema
 =
-Schema
+LegacySchema
 (
 {
     

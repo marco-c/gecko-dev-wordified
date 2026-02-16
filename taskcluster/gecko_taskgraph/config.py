@@ -60,7 +60,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 optionally_keyed_by
 from
 voluptuous
@@ -78,7 +78,7 @@ import
 Length
 graph_config_schema
 =
-Schema
+LegacySchema
 (
 {
     

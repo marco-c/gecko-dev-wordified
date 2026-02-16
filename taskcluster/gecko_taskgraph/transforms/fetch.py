@@ -107,7 +107,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 validate_schema
 from
 taskgraph
@@ -151,7 +151,7 @@ v1
 "
 FETCH_SCHEMA
 =
-Schema
+LegacySchema
 (
 {
     
@@ -414,7 +414,7 @@ ib
 (
 type
 =
-Schema
+LegacySchema
 )
     
 builder
@@ -434,7 +434,7 @@ schema
     
 schema
 =
-Schema
+LegacySchema
 (
 {
 Required

@@ -68,7 +68,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 from
 voluptuous
 import
@@ -90,7 +90,7 @@ TransformSequence
 )
 bootstrap_schema
 =
-Schema
+LegacySchema
 (
 {
     

@@ -105,7 +105,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 optionally_keyed_by
 resolve_keyed_by
 from
@@ -130,7 +130,7 @@ TransformSequence
 )
 perftest_description_schema
 =
-Schema
+LegacySchema
 (
 {
     

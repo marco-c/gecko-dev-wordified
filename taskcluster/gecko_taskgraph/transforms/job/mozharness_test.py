@@ -70,7 +70,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 from
 taskgraph
 .
@@ -232,7 +232,7 @@ return
 "
 mozharness_test_run_schema
 =
-Schema
+LegacySchema
 (
 {
     

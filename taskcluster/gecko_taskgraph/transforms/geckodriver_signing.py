@@ -93,7 +93,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 from
 voluptuous
 import
@@ -124,7 +124,7 @@ import
 get_signing_type_per_platform
 repackage_signing_description_schema
 =
-Schema
+LegacySchema
 (
 {
     

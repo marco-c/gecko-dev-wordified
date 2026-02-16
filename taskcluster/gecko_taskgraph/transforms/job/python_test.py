@@ -80,7 +80,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 from
 voluptuous
 import
@@ -98,7 +98,7 @@ configure_taskdesc_for_run
 run_job_using
 python_test_schema
 =
-Schema
+LegacySchema
 (
 {
     

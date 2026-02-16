@@ -219,7 +219,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 optionally_keyed_by
 resolve_keyed_by
 from
@@ -362,7 +362,7 @@ WARNING
 *
 test_description_schema
 =
-Schema
+LegacySchema
 (
 {
     

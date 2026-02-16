@@ -98,7 +98,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 from
 voluptuous
 import
@@ -151,7 +151,7 @@ TransformSequence
 )
 release_generate_checksums_beetmover_schema
 =
-Schema
+LegacySchema
 (
 {
     

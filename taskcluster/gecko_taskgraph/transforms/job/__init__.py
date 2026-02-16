@@ -172,7 +172,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 validate_schema
 from
 taskgraph
@@ -231,7 +231,7 @@ build
 description
 job_description_schema
 =
-Schema
+LegacySchema
 (
 {
     
@@ -3932,7 +3932,7 @@ always
 -
 optimized
 "
-Schema
+LegacySchema
 (
 {
 "

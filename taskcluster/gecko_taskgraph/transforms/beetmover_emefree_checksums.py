@@ -96,7 +96,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 from
 voluptuous
 import
@@ -127,7 +127,7 @@ import
 copy_attributes_from_dependent_job
 beetmover_checksums_description_schema
 =
-Schema
+LegacySchema
 (
 {
     

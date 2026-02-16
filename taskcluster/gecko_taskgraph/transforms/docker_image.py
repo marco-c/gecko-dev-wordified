@@ -97,7 +97,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 from
 voluptuous
 import
@@ -191,7 +191,7 @@ TransformSequence
 )
 docker_image_schema
 =
-Schema
+LegacySchema
 (
 {
     

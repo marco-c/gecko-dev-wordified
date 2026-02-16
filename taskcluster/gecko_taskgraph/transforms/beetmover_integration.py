@@ -100,7 +100,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 optionally_keyed_by
 from
 voluptuous
@@ -146,7 +146,7 @@ generate_beetmover_upstream_artifacts
 )
 beetmover_description_schema
 =
-Schema
+LegacySchema
 (
 {
     

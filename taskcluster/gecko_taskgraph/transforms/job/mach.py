@@ -77,7 +77,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 taskref_or_string
 from
 voluptuous
@@ -96,7 +96,7 @@ configure_taskdesc_for_run
 run_job_using
 mach_schema
 =
-Schema
+LegacySchema
 (
 {
     

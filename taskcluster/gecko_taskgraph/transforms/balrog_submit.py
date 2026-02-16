@@ -95,7 +95,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 optionally_keyed_by
 resolve_keyed_by
 from
@@ -129,7 +129,7 @@ import
 copy_attributes_from_dependent_job
 balrog_description_schema
 =
-Schema
+LegacySchema
 (
 {
     

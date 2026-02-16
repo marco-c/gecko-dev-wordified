@@ -80,7 +80,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 from
 voluptuous
 import
@@ -179,7 +179,7 @@ str
 }
 common_schema
 =
-Schema
+LegacySchema
 (
 {
     

@@ -93,7 +93,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 from
 voluptuous
 import
@@ -116,7 +116,7 @@ import
 copy_attributes_from_dependent_job
 geckodriver_notarization_description_schema
 =
-Schema
+LegacySchema
 (
 {
     

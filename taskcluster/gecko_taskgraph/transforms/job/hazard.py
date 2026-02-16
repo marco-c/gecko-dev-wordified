@@ -74,7 +74,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 from
 voluptuous
 import
@@ -109,7 +109,7 @@ setup_secrets
 )
 haz_run_schema
 =
-Schema
+LegacySchema
 (
 {
     

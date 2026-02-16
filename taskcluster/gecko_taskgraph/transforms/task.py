@@ -197,7 +197,7 @@ schema
 import
 (
     
-Schema
+LegacySchema
     
 optionally_keyed_by
     
@@ -529,7 +529,7 @@ TaskCluster
 task
 task_description_schema
 =
-Schema
+LegacySchema
 (
 {
     

@@ -110,7 +110,7 @@ util
 .
 schema
 import
-Schema
+LegacySchema
 resolve_keyed_by
 from
 taskgraph
@@ -6653,7 +6653,7 @@ yield
 task
 test_setting_description_schema
 =
-Schema
+LegacySchema
 (
     
 {
