@@ -153,6 +153,13 @@ h
 #
 include
 "
+nsHttpConnectionMgr
+.
+h
+"
+#
+include
+"
 mozilla
 /
 StaticPrefs_network
