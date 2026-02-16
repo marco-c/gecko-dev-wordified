@@ -284,11 +284,12 @@ Bug
 1853617
 )
 .
+await
 Services
 .
 logins
 .
-removeAllLogins
+removeAllLoginsAsync
 (
 )
 ;

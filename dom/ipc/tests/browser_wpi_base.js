@@ -1292,11 +1292,12 @@ any
 previous
 iterations
 .
+await
 Services
 .
 logins
 .
-removeAllLogins
+removeAllLoginsAsync
 (
 )
 ;
