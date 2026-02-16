@@ -15856,6 +15856,9 @@ chunk
 aStats
 )
 ;
+bool
+chunk_is_dying
+;
 {
 /
 /
@@ -15934,6 +15937,13 @@ ShouldContinuePurge
 aCond
 )
 ;
+chunk_is_dying
+=
+chunk
+-
+>
+mDying
+;
 /
 /
 The
@@ -15988,10 +15998,7 @@ continue_purge_chunk
 {
 if
 (
-chunk
--
->
-mDying
+chunk_is_dying
 )
 {
 /
