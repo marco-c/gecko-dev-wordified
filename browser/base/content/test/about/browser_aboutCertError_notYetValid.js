@@ -406,6 +406,16 @@ errorInfo
 =
 info
 ;
+netErrorCard
+.
+errorConfig
+=
+netErrorCard
+.
+getErrorConfig
+(
+)
+;
 await
 netErrorCard
 .
