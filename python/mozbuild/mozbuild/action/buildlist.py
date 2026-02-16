@@ -102,8 +102,6 @@ path
 import
 sys
 from
-mach
-.
 filelock
 import
 SoftFileLock

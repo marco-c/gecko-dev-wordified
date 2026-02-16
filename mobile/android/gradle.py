@@ -72,8 +72,6 @@ path
 as
 mozpath
 from
-mach
-.
 filelock
 import
 SoftFileLock
