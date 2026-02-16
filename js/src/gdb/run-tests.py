@@ -1966,7 +1966,6 @@ embedded_version
 (
         
 subprocess
-        
 .
 check_output
 (

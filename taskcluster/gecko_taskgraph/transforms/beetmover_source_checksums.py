@@ -404,7 +404,6 @@ dep_th_platform
 dep_job
 .
 task
-            
 .
 get
 (

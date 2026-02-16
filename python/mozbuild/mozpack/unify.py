@@ -2038,8 +2038,6 @@ sub
 lambda
 m
 :
-(
-                        
 m
 .
 group
@@ -2048,7 +2046,7 @@ group
 tag
 "
 )
-                        
+                    
 +
 m
 .
@@ -2058,7 +2056,7 @@ group
 attrs
 "
 )
-                        
+                    
 +
 m
 .
@@ -2068,7 +2066,7 @@ group
 otherattrs
 "
 )
-                        
+                    
 +
 "
 <
@@ -2083,10 +2081,9 @@ s
 stargetPlatform
 >
 "
-                        
+                    
 %
 (
-                            
 m
 .
 group
@@ -2098,7 +2095,6 @@ ns
 or
 "
 "
-                            
 m
 .
 group
@@ -2107,7 +2103,6 @@ group
 platform
 "
 )
-                            
 m
 .
 group
@@ -2119,9 +2114,6 @@ ns
 or
 "
 "
-                        
-)
-                    
 )
                     
 f

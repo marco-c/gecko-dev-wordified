@@ -3063,9 +3063,13 @@ quit
 (
 callback
 =
+lambda
+:
 self
 .
 simulate_os_shutdown
+(
+)
 )
         
 saved_args

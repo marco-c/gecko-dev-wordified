@@ -913,12 +913,11 @@ file_name
 =
 url
 .
-rsplit
+split
 (
 "
 /
 "
-1
 )
 [
 -

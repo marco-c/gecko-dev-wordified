@@ -1804,29 +1804,25 @@ module
 lambda
 c
 :
-(
-            
 inspect
 .
 isclass
 (
 c
 )
-            
+        
 and
 issubclass
 (
 c
 BasePerfComparator
 )
-            
+        
 and
 c
 !
 =
 BasePerfComparator
-        
-)
     
 )
     
