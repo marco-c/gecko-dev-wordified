@@ -20115,15 +20115,6 @@ IsInNativeAnonymousSubtree
 &
 &
 !
-aStyleFrame
--
->
-BackdropUnsupported
-(
-)
-&
-&
-!
 nsLayoutUtils
 :
 :
