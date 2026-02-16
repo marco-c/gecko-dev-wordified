@@ -498,11 +498,6 @@ FunctionBind
 \
 _
 (
-IntlGuardToCollator
-)
-\
-_
-(
 IntlGuardToDateTimeFormat
 )
 \
