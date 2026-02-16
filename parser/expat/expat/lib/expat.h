@@ -155,7 +155,7 @@ c
 )
 2016
 -
-2025
+2026
 Sebastian
 Pipping
 <
@@ -7239,7 +7239,7 @@ XML_MINOR_VERSION
 #
 define
 XML_MICRO_VERSION
-3
+4
 #
 ifdef
 __cplusplus

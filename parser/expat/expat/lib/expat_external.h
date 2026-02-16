@@ -169,7 +169,7 @@ c
 )
 2016
 -
-2019
+2025
 Sebastian
 Pipping
 <
@@ -758,7 +758,7 @@ application
 if
 defined
 (
-_MSC_EXTENSIONS
+_MSC_VER
 )
 &
 &
@@ -767,7 +767,6 @@ defined
 (
 __BEOS__
 )
-\
 &
 &
 !

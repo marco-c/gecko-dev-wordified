@@ -988,13 +988,16 @@ lu
 elif
 defined
 (
-EMSCRIPTEN
+__wasm32__
 )
 /
 /
 32bit
 mode
 Emscripten
+or
+WASI
+SDK
 #
 define
 EXPAT_FMT_PTRDIFF_T

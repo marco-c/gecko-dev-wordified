@@ -165,6 +165,19 @@ pipping
 .
 org
 >
+Copyright
+(
+c
+)
+2025
+Alfonso
+Gregory
+<
+gfunni234
+gmail
+.
+com
+>
 Licensed
 under
 the
@@ -787,7 +800,7 @@ ptr
 end
 )
 return
-0
+NULL
 ;
 *
 p
@@ -829,7 +842,7 @@ i
 UNKNOWN_ENC
 )
 return
-0
+NULL
 ;
 return
 NS
