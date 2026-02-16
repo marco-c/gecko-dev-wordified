@@ -566,6 +566,10 @@ true
 backupRestoreEnabled
 &
 &
+!
+hasSelectableProfiles
+&
+&
 (
 backupsInfo
 .

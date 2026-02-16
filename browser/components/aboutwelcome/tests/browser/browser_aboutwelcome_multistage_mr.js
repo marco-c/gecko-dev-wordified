@@ -5249,6 +5249,10 @@ withArgs
 backupRestoreEnabled
 &
 &
+!
+hasSelectableProfiles
+&
+&
 (
 backupsInfo
 .
