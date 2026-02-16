@@ -17815,8 +17815,10 @@ MOZ_SOURCE_PEN
 aOutGeckoEvent
 -
 >
-tiltX
-=
+mTilt
+.
+emplace
+(
 (
 int32_t
 )
@@ -17831,12 +17833,6 @@ x
 *
 90
 )
-;
-aOutGeckoEvent
--
->
-tiltY
-=
 (
 int32_t
 )
@@ -17850,6 +17846,7 @@ tilt
 y
 *
 90
+)
 )
 ;
 aOutGeckoEvent
