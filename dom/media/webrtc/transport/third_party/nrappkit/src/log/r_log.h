@@ -364,11 +364,9 @@ int
 facility
 int
 level
-const
 char
 *
 name
-const
 char
 *
 data
@@ -379,7 +377,6 @@ len
 int
 r_log_register
 (
-const
 char
 *
 tipename

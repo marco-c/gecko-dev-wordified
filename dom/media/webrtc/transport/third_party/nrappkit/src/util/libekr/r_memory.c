@@ -362,6 +362,7 @@ memp
 \
 (
 (
+struct
 r_malloc_chunk
 *
 )
@@ -459,10 +460,6 @@ if
 (
 chunk
 =
-(
-r_malloc_chunk
-*
-)
 malloc
 (
 total
@@ -712,10 +709,6 @@ if
 (
 nstr
 =
-(
-char
-*
-)
 RMALLOC
 (
 len

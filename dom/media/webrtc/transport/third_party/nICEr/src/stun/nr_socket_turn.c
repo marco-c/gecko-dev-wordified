@@ -309,7 +309,6 @@ nr_socket_turn
 h
 "
 static
-const
 char
 *
 nr_socket_turn_magic_cookie
@@ -322,7 +321,6 @@ typedef
 struct
 nr_socket_turn_
 {
-const
 char
 *
 magic_cookie
@@ -566,10 +564,6 @@ return
 ;
 sturn
 =
-(
-nr_socket_turn
-*
-)
 *
 objp
 ;
@@ -650,10 +644,6 @@ nr_socket_turn
 *
 sturn
 =
-(
-nr_socket_turn
-*
-)
 obj
 ;
 assert
@@ -686,11 +676,6 @@ sturn
 -
 >
 turn
-(
-const
-UCHAR
-*
-)
 msg
 len
 flags
@@ -819,10 +804,6 @@ nr_socket_turn
 *
 sturn
 =
-(
-nr_socket_turn
-*
-)
 obj
 ;
 int
@@ -912,10 +893,6 @@ nr_socket_turn
 *
 sturn
 =
-(
-nr_socket_turn
-*
-)
 obj
 ;
 assert

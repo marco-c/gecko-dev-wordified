@@ -269,7 +269,6 @@ typedef
 struct
 nr_stun_attr_codec_
 {
-const
 char
 *
 name
@@ -283,7 +282,6 @@ print
 nr_stun_attr_info
 *
 attr_info
-const
 char
 *
 msg
@@ -348,7 +346,6 @@ nr_stun_attr_info_
 UINT2
 type
 ;
-const
 char
 *
 name

@@ -322,10 +322,6 @@ nr_ice_socket
 *
 sock
 =
-(
-nr_ice_socket
-*
-)
 cb_arg
 ;
 UCHAR
@@ -2244,10 +2240,6 @@ nr_ice_stun_ctx
 *
 sc
 =
-(
-nr_ice_stun_ctx
-*
-)
 handle
 ;
 if

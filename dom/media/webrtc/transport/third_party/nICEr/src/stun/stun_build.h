@@ -713,7 +713,6 @@ nr_stun_message
 response
 int
 number
-const
 char
 *
 msg

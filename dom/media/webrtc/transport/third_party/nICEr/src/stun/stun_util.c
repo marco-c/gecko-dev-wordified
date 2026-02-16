@@ -865,7 +865,6 @@ return
 _status
 ;
 }
-const
 char
 *
 nr_stun_msg_type
@@ -874,7 +873,6 @@ int
 type
 )
 {
-const
 char
 *
 ret
@@ -1126,7 +1124,6 @@ size
 )
 {
 static
-const
 char
 alphanums
 [

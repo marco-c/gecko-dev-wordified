@@ -358,7 +358,6 @@ password
 int
 nr_stun_client_ctx_create
 (
-const
 char
 *
 label
@@ -1170,10 +1169,6 @@ nr_stun_client_ctx
 *
 ctx
 =
-(
-nr_stun_client_ctx
-*
-)
 cb_arg
 ;
 struct

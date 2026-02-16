@@ -2425,10 +2425,6 @@ nr_ice_peer_ctx
 *
 pctx
 =
-(
-nr_ice_peer_ctx
-*
-)
 cb_arg
 ;
 nr_ice_media_stream
@@ -4638,10 +4634,6 @@ nr_ice_peer_ctx
 *
 pctx
 =
-(
-nr_ice_peer_ctx
-*
-)
 cb_arg
 ;
 pctx

@@ -587,7 +587,6 @@ codeword
 )
 ;
 }
-const
 char
 *
 nr_ice_candidate_type_names
@@ -611,7 +610,6 @@ relay
 0
 }
 ;
-const
 char
 *
 nr_ice_candidate_tcp_type_names
@@ -1511,7 +1509,6 @@ nr_ice_peer_peer_rflx_candidate_create
 nr_ice_ctx
 *
 ctx
-const
 char
 *
 label
@@ -3805,10 +3802,6 @@ nr_ice_candidate
 *
 cand
 =
-(
-nr_ice_candidate
-*
-)
 cb_arg
 ;
 cand
@@ -4935,10 +4928,6 @@ nr_ice_candidate
 *
 cand
 =
-(
-nr_ice_candidate
-*
-)
 cb_arg
 ;
 int
@@ -5328,10 +5317,6 @@ nr_ice_candidate
 *
 cand
 =
-(
-nr_ice_candidate
-*
-)
 cb_arg
 ;
 int
@@ -5712,10 +5697,6 @@ nr_ice_candidate
 *
 cand
 =
-(
-nr_ice_candidate
-*
-)
 cb_arg
 ;
 int
@@ -6032,10 +6013,6 @@ nr_ice_candidate
 *
 cand
 =
-(
-nr_ice_candidate
-*
-)
 cb_arg
 ;
 r_log
@@ -6321,10 +6298,6 @@ nr_ice_candidate
 *
 cand
 =
-(
-nr_ice_candidate
-*
-)
 cb_arg
 ;
 nr_turn_client_ctx

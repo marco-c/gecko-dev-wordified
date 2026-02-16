@@ -1582,10 +1582,6 @@ char
 *
 s
 =
-(
-char
-*
-)
 data
 ;
 size_t
@@ -1699,10 +1695,6 @@ nr_stun_attr_error_code
 *
 ec
 =
-(
-nr_stun_attr_error_code
-*
-)
 data
 ;
 if
@@ -1870,7 +1862,6 @@ nr_stun_attr_codec_UCHAR_print
 nr_stun_attr_info
 *
 attr_info
-const
 char
 *
 msg
@@ -2116,7 +2107,6 @@ nr_stun_attr_codec_UINT4_print
 nr_stun_attr_info
 *
 attr_info
-const
 char
 *
 msg
@@ -2331,7 +2321,6 @@ nr_stun_attr_codec_UINT8_print
 nr_stun_attr_info
 *
 attr_info
-const
 char
 *
 msg
@@ -2546,7 +2535,6 @@ nr_stun_attr_codec_addr_print
 nr_stun_attr_info
 *
 attr_info
-const
 char
 *
 msg
@@ -2624,10 +2612,6 @@ nr_transport_addr
 *
 addr
 =
-(
-nr_transport_addr
-*
-)
 data
 ;
 UCHAR
@@ -2928,10 +2912,6 @@ nr_transport_addr
 *
 result
 =
-(
-nr_transport_addr
-*
-)
 data
 ;
 if
@@ -3180,7 +3160,6 @@ nr_stun_attr_codec_data_print
 nr_stun_attr_info
 *
 attr_info
-const
 char
 *
 msg
@@ -3193,10 +3172,6 @@ nr_stun_attr_data
 *
 d
 =
-(
-nr_stun_attr_data
-*
-)
 data
 ;
 r_dump
@@ -3251,10 +3226,6 @@ nr_stun_attr_data
 *
 d
 =
-(
-nr_stun_attr_data
-*
-)
 data
 ;
 int
@@ -3348,10 +3319,6 @@ nr_stun_attr_data
 *
 result
 =
-(
-nr_stun_attr_data
-*
-)
 data
 ;
 /
@@ -3489,7 +3456,6 @@ nr_stun_attr_codec_error_code_print
 nr_stun_attr_info
 *
 attr_info
-const
 char
 *
 msg
@@ -3502,10 +3468,6 @@ nr_stun_attr_error_code
 *
 error_code
 =
-(
-nr_stun_attr_error_code
-*
-)
 data
 ;
 r_log
@@ -3568,10 +3530,6 @@ nr_stun_attr_error_code
 *
 error_code
 =
-(
-nr_stun_attr_error_code
-*
-)
 data
 ;
 int
@@ -3741,10 +3699,6 @@ nr_stun_attr_error_code
 *
 result
 =
-(
-nr_stun_attr_error_code
-*
-)
 data
 ;
 UCHAR
@@ -3957,7 +3911,6 @@ nr_stun_attr_codec_fingerprint_print
 nr_stun_attr_info
 *
 attr_info
-const
 char
 *
 msg
@@ -3970,10 +3923,6 @@ nr_stun_attr_fingerprint
 *
 fingerprint
 =
-(
-nr_stun_attr_fingerprint
-*
-)
 data
 ;
 r_log
@@ -4033,10 +3982,6 @@ nr_stun_attr_fingerprint
 *
 fingerprint
 =
-(
-nr_stun_attr_fingerprint
-*
-)
 data
 ;
 nr_stun_message_header
@@ -4214,10 +4159,6 @@ nr_stun_attr_fingerprint
 *
 fingerprint
 =
-(
-nr_stun_attr_fingerprint
-*
-)
 data
 ;
 nr_stun_message_header
@@ -4515,7 +4456,6 @@ nr_stun_attr_codec_flag_print
 nr_stun_attr_info
 *
 attr_info
-const
 char
 *
 msg
@@ -4683,7 +4623,6 @@ nr_stun_attr_codec_message_integrity_print
 nr_stun_attr_info
 *
 attr_info
-const
 char
 *
 msg
@@ -4696,10 +4635,6 @@ nr_stun_attr_message_integrity
 *
 integrity
 =
-(
-nr_stun_attr_message_integrity
-*
-)
 data
 ;
 r_dump
@@ -4928,10 +4863,6 @@ nr_stun_attr_message_integrity
 *
 integrity
 =
-(
-nr_stun_attr_message_integrity
-*
-)
 data
 ;
 if
@@ -5052,10 +4983,6 @@ nr_stun_attr_message_integrity
 *
 result
 =
-(
-nr_stun_attr_message_integrity
-*
-)
 data
 ;
 UCHAR
@@ -5318,7 +5245,6 @@ nr_stun_attr_codec_quoted_string_print
 nr_stun_attr_info
 *
 attr_info
-const
 char
 *
 msg
@@ -5503,7 +5429,6 @@ nr_stun_attr_codec_string_print
 nr_stun_attr_info
 *
 attr_info
-const
 char
 *
 msg
@@ -5572,10 +5497,6 @@ char
 *
 str
 =
-(
-char
-*
-)
 data
 ;
 int
@@ -5667,10 +5588,6 @@ char
 *
 result
 =
-(
-char
-*
-)
 data
 ;
 /
@@ -5867,7 +5784,6 @@ nr_stun_attr_codec_unknown_attributes_print
 nr_stun_attr_info
 *
 attr_info
-const
 char
 *
 msg
@@ -5880,10 +5796,6 @@ nr_stun_attr_unknown_attributes
 *
 unknown_attributes
 =
-(
-nr_stun_attr_unknown_attributes
-*
-)
 data
 ;
 char
@@ -6045,10 +5957,6 @@ nr_stun_attr_unknown_attributes
 *
 unknown_attributes
 =
-(
-nr_stun_attr_unknown_attributes
-*
-)
 data
 ;
 int
@@ -6217,10 +6125,6 @@ nr_stun_attr_unknown_attributes
 *
 unknown_attributes
 =
-(
-nr_stun_attr_unknown_attributes
-*
-)
 data
 ;
 int
@@ -6384,7 +6288,6 @@ nr_stun_attr_codec_xor_mapped_address_print
 nr_stun_attr_info
 *
 attr_info
-const
 char
 *
 msg
@@ -6397,10 +6300,6 @@ nr_stun_attr_xor_mapped_address
 *
 xor_mapped_address
 =
-(
-nr_stun_attr_xor_mapped_address
-*
-)
 data
 ;
 r_log
@@ -6473,10 +6372,6 @@ nr_stun_attr_xor_mapped_address
 *
 xor_mapped_address
 =
-(
-nr_stun_attr_xor_mapped_address
-*
-)
 data
 ;
 nr_stun_message_header
@@ -6668,10 +6563,6 @@ nr_stun_attr_xor_mapped_address
 *
 xor_mapped_address
 =
-(
-nr_stun_attr_xor_mapped_address
-*
-)
 data
 ;
 nr_stun_message_header
@@ -8022,8 +7913,7 @@ Encoded
 ID
 "
 (
-const
-char
+void
 *
 )
 &
@@ -8808,8 +8698,7 @@ Parsed
 ID
 "
 (
-const
-char
+void
 *
 )
 &

@@ -2261,7 +2261,6 @@ realm
 =
 0
 ;
-const
 char
 *
 nonce

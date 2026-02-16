@@ -1711,7 +1711,7 @@ component
 isock
 sock
 HOST
-TCP_TYPE_NONE
+0
 0
 component
 -
@@ -1971,7 +1971,7 @@ component
 isock
 sock
 SERVER_REFLEXIVE
-TCP_TYPE_NONE
+0
 &
 component
 -
@@ -2423,7 +2423,7 @@ component
 isock
 sock
 SERVER_REFLEXIVE
-TCP_TYPE_NONE
+0
 &
 component
 -
@@ -2537,7 +2537,7 @@ component
 isock
 turn_sock
 RELAYED
-TCP_TYPE_NONE
+0
 &
 component
 -
@@ -2681,10 +2681,6 @@ r
 =
 nr_crypto_random_bytes
 (
-(
-UCHAR
-*
-)
 buf
 2
 )
@@ -7536,10 +7532,6 @@ nr_ice_component
 *
 pcomp
 =
-(
-nr_ice_component
-*
-)
 cb_arg
 ;
 nr_transport_addr
@@ -9602,10 +9594,6 @@ nr_ice_component
 *
 comp
 =
-(
-nr_ice_component
-*
-)
 cb_arg
 ;
 comp
@@ -9950,10 +9938,6 @@ nr_ice_cand_pair
 *
 pair
 =
-(
-nr_ice_cand_pair
-*
-)
 cb_arg
 ;
 assert
@@ -10432,10 +10416,6 @@ nr_ice_component
 *
 comp
 =
-(
-nr_ice_component
-*
-)
 cb_arg
 ;
 int
