@@ -4105,7 +4105,7 @@ void
 ZoneAllocator
 :
 :
-reportAllocationOverflow
+reportAllocOverflow
 (
 )
 const

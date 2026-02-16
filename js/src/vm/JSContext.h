@@ -1810,7 +1810,7 @@ recoverFromOutOfMemory
 )
 ;
 void
-reportAllocationOverflow
+reportAllocOverflow
 (
 )
 ;

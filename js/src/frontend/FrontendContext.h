@@ -487,7 +487,7 @@ nullptr
 )
 ;
 void
-reportAllocationOverflow
+reportAllocOverflow
 (
 )
 ;

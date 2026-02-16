@@ -396,7 +396,7 @@ nullptr
 )
 ;
 void
-reportAllocationOverflow
+reportAllocOverflow
 (
 )
 const
@@ -1806,17 +1806,6 @@ ShouldFailWithOOM
 )
 ;
 }
-void
-reportAllocOverflow
-(
-)
-const
-{
-reportAllocationOverflow
-(
-)
-;
-}
 /
 /
 Internal
@@ -1868,7 +1857,7 @@ reallocPtr
 ;
 }
 void
-reportAllocationOverflow
+reportAllocOverflow
 (
 )
 const
@@ -1878,7 +1867,7 @@ zone
 )
 -
 >
-reportAllocationOverflow
+reportAllocOverflow
 (
 )
 ;

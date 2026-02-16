@@ -857,7 +857,7 @@ client
 )
 -
 >
-reportAllocationOverflow
+reportAllocOverflow
 (
 )
 ;
@@ -976,7 +976,7 @@ client
 )
 -
 >
-reportAllocationOverflow
+reportAllocOverflow
 (
 )
 ;
@@ -1214,7 +1214,7 @@ client
 )
 -
 >
-reportAllocationOverflow
+reportAllocOverflow
 (
 )
 ;
@@ -1335,7 +1335,7 @@ client
 )
 -
 >
-reportAllocationOverflow
+reportAllocOverflow
 (
 )
 ;
@@ -1534,7 +1534,7 @@ client
 )
 -
 >
-reportAllocationOverflow
+reportAllocOverflow
 (
 )
 ;
