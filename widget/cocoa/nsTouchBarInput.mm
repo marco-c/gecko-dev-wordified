@@ -732,6 +732,11 @@ i
 =
 convertedChild
 ;
+[
+convertedChild
+release
+]
+;
 }
 }
 [
