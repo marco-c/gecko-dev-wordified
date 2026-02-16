@@ -495,6 +495,25 @@ responses
 .
 add_passthru
 (
+"
+https
+:
+/
+/
+firefoxci
+.
+taskcluster
+-
+artifacts
+.
+net
+"
+)
+        
+responses
+.
+add_passthru
+(
 ROOT_URL
 )
         
