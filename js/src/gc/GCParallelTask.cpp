@@ -562,7 +562,7 @@ lock
 )
 ;
 }
-void
+bool
 js
 :
 :
@@ -585,6 +585,9 @@ cancel_
 =
 true
 ;
+bool
+waited
+=
 join
 (
 )
@@ -593,8 +596,11 @@ cancel_
 =
 false
 ;
+return
+waited
+;
 }
-void
+bool
 js
 :
 :
@@ -613,6 +619,7 @@ deadline
 AutoLockHelperThreadState
 lock
 ;
+return
 joinWithLockHeld
 (
 lock
@@ -620,7 +627,7 @@ deadline
 )
 ;
 }
-void
+bool
 js
 :
 :
@@ -663,6 +670,7 @@ lock
 )
 {
 return
+false
 ;
 }
 if
@@ -826,6 +834,9 @@ recordDuration
 )
 ;
 }
+return
+true
+;
 }
 void
 GCParallelTask

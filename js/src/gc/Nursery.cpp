@@ -16853,7 +16853,7 @@ sweepAfterMinorGC
 )
 ;
 }
-void
+bool
 js
 :
 :
@@ -16864,6 +16864,7 @@ joinSweepTask
 (
 )
 {
+return
 sweepTask
 -
 >
@@ -16872,7 +16873,7 @@ join
 )
 ;
 }
-void
+bool
 js
 :
 :
@@ -16883,6 +16884,7 @@ joinDecommitTask
 (
 )
 {
+return
 decommitTask
 -
 >
