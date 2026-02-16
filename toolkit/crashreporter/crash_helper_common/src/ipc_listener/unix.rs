@@ -70,10 +70,7 @@ crate
 :
 :
 {
-errors
-:
-:
-IPCError
+IPCListenerError
 Pid
 }
 ;
@@ -144,7 +141,7 @@ Pid
 Result
 <
 IPCListener
-IPCError
+IPCListenerError
 >
 {
 Ok
@@ -209,7 +206,7 @@ Pid
 Result
 <
 IPCListener
-IPCError
+IPCListenerError
 >
 {
 Ok

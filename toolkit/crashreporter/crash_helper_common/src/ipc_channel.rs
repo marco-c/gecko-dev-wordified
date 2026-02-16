@@ -307,8 +307,9 @@ error
 Could
 not
 create
-a
-socketpair
+an
+IPC
+channel
 :
 {
 0
@@ -316,7 +317,7 @@ socketpair
 "
 )
 ]
-SocketPair
+Channel
 (
 #
 [
