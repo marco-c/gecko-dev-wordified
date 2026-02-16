@@ -1256,6 +1256,8 @@ drawable
 NSImage
 *
 image
+=
+nil
 ;
 nsresult
 rv

@@ -226,7 +226,7 @@ mNativeKeyEvent
 nsCocoaUtils
 :
 :
-MakeNewCococaEventFromWidgetEvent
+MakeNewCocoaEventFromWidgetEvent
 (
 aEvent
 0
@@ -305,7 +305,7 @@ mNativeKeyEvent
 nsCocoaUtils
 :
 :
-MakeNewCococaEventFromWidgetEvent
+MakeNewCocoaEventFromWidgetEvent
 (
 aEvent
 0

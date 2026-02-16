@@ -2656,7 +2656,7 @@ event
 static
 NSEvent
 *
-MakeNewCococaEventFromWidgetEvent
+MakeNewCocoaEventFromWidgetEvent
 (
 const
 mozilla
