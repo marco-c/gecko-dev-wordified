@@ -779,7 +779,7 @@ value
 fn
 document_picture_in_picture_enabled
 (
-_
+context
 :
 &
 ParserContext
@@ -801,6 +801,13 @@ documentpip
 .
 enabled
 "
+)
+|
+|
+context
+.
+chrome_rules_enabled
+(
 )
 }
 /
