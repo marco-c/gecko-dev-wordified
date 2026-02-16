@@ -358,13 +358,13 @@ MozPower
 (
 output_file_path
 =
-'
+"
 dir
 /
 power
 -
 testing
-'
+"
 )
        
 mp
@@ -386,13 +386,13 @@ finalize_power_measurements
 (
 test_name
 =
-'
+"
 raptor
 -
 test
 -
 name
-'
+"
 )
        
 perfherder_data
@@ -1937,31 +1937,27 @@ to
 :
            
 {
-               
-'
+"
 name
-'
+"
 :
-'
+"
 mozpower
-'
-               
-'
+"
+"
 unit
-'
+"
 :
-'
+"
 mWh
-'
-               
-'
+"
+"
 type
-'
+"
 :
-'
+"
 power
-'
-           
+"
 }
         
 Subtests

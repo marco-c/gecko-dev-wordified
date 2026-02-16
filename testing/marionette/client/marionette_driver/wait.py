@@ -291,19 +291,23 @@ wait
 =
 Wait
 (
+                
 marionette
+                
 timeout
 =
 30
+                
 interval
 =
 5
-                        
+                
 ignored_exceptions
 =
 errors
 .
 NoSuchWindowException
+            
 )
             
 window

@@ -1766,27 +1766,27 @@ ipg_rh
 =
 IPGResultsHandler
 (
-            
+           
 ipg
 .
 output_files
-            
+           
 ipg
 .
 output_dir_path
-            
+           
 ipg_measure_duration
 =
 ipg
 .
 ipg_measure_duration
-            
+           
 sampling_rate
 =
 ipg
 .
 sampling_rate
-        
+       
 )
        
 cleaned_data
@@ -1822,9 +1822,8 @@ ipg_rh
 .
 format_ipg_data_to_partial_perfherder
 (
-            
+           
 experiment_duration
-            
 test_name
        
 )

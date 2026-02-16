@@ -802,6 +802,7 @@ MarionetteTestCase
           
 skip_unless_browser_pref
 (
+              
 "
 Sessionstore
 needs
@@ -811,7 +812,7 @@ enabled
 for
 crashes
 "
-                                    
+              
 "
 browser
 .
@@ -819,14 +820,14 @@ sessionstore
 .
 resume_from_crash
 "
-                                    
+              
 lambda
 value
 :
 value
 is
 True
-                                    
+          
 )
           
 def
