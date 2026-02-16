@@ -167,7 +167,7 @@ DFA
 *
 NFAs
 have
-epsilon
+espilon
 transitions
 and
 DFAs
@@ -557,8 +557,6 @@ transitions
 .
 )
 It
-'
-s
 possible
 that
 other

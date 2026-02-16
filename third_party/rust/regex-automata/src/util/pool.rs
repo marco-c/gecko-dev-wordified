@@ -7866,6 +7866,9 @@ v
 )
 =
 >
+&
+*
+*
 v
 /
 /
@@ -8094,6 +8097,10 @@ v
 )
 =
 >
+&
+mut
+*
+*
 v
 /
 /
@@ -10478,7 +10485,7 @@ I
 have
 read
 spinlocks
-considered
+cosnidered
 /
 /
 /

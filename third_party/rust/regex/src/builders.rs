@@ -5000,7 +5000,7 @@ whitespace
 will
 treated
 as
-insignificant
+insignifcant
 in
 the
 /
@@ -10962,7 +10962,7 @@ whitespace
 will
 treated
 as
-insignificant
+insignifcant
 in
 the
 /
@@ -16787,7 +16787,7 @@ whitespace
 will
 treated
 as
-insignificant
+insignifcant
 in
 the
 /
@@ -22825,7 +22825,7 @@ whitespace
 will
 treated
 as
-insignificant
+insignifcant
 in
 the
 /

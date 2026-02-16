@@ -1246,6 +1246,10 @@ state
 look_have
 (
 )
+.
+clone
+(
+)
 ;
 match
 unit
@@ -2467,7 +2471,7 @@ a
 set
 we
 are
-guaranteed
+guarateed
 not
 to
 have
