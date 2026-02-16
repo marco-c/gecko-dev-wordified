@@ -8873,7 +8873,7 @@ canParseLocale
 {
 candidate
 =
-NewStringCopyZ
+NewStringCopy
 <
 CanGC
 >
@@ -9500,7 +9500,7 @@ t
 supported
 .
 return
-NewStringCopyZ
+NewStringCopy
 <
 CanGC
 >

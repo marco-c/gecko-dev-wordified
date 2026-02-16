@@ -130,6 +130,11 @@ h
 >
 #
 include
+<
+string_view
+>
+#
+include
 "
 js
 /
@@ -422,10 +427,11 @@ locales
 *
 /
 static
-inline
-const
-char
-*
+constexpr
+std
+:
+:
+string_view
 LastDitchLocale
 (
 )
