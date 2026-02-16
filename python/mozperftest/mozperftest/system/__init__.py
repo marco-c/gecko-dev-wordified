@@ -96,6 +96,14 @@ mozperftest
 .
 system
 .
+ml_services
+import
+MLServices
+from
+mozperftest
+.
+system
+.
 pingserver
 import
 PingServer
@@ -365,6 +373,8 @@ before
 macos
                 
 MacosDevice
+                
+MLServices
                 
 Profile
                 
