@@ -567,9 +567,6 @@ collation
 )
 ;
 }
-intl
-:
-:
 CollatorOptions
 *
 getOptions
@@ -603,9 +600,6 @@ nullptr
 return
 static_cast
 <
-intl
-:
-:
 CollatorOptions
 *
 >
@@ -621,9 +615,6 @@ toPrivate
 void
 setOptions
 (
-intl
-:
-:
 CollatorOptions
 *
 options

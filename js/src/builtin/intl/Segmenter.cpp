@@ -3205,9 +3205,6 @@ result
 }
 ;
 {
-intl
-:
-:
 StringAsciiChars
 chars
 (
@@ -3280,9 +3277,6 @@ result
 is_ok
 )
 {
-intl
-:
-:
 ReportInternalError
 (
 cx
@@ -3427,9 +3421,6 @@ result
 is_ok
 )
 {
-intl
-:
-:
 ReportInternalError
 (
 cx
@@ -4291,9 +4282,6 @@ Latin1Char
 )
 )
 {
-intl
-:
-:
 RemoveICUCellMemory
 (
 gcx
@@ -4327,9 +4315,6 @@ Latin1Char
 }
 else
 {
-intl
-:
-:
 RemoveICUCellMemory
 (
 gcx
@@ -4458,9 +4443,6 @@ Latin1Char
 )
 )
 {
-intl
-:
-:
 RemoveICUCellMemory
 (
 gcx
@@ -4494,9 +4476,6 @@ Latin1Char
 }
 else
 {
-intl
-:
-:
 RemoveICUCellMemory
 (
 gcx
@@ -4944,9 +4923,6 @@ release
 }
 )
 ;
-intl
-:
-:
 AddICUCellMemory
 (
 segments
@@ -5005,9 +4981,6 @@ release
 }
 )
 ;
-intl
-:
-:
 AddICUCellMemory
 (
 segments

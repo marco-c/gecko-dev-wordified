@@ -1103,9 +1103,6 @@ timeZone
 )
 ;
 }
-intl
-:
-:
 DateTimeFormatOptions
 *
 getOptions
@@ -1139,9 +1136,6 @@ nullptr
 return
 static_cast
 <
-intl
-:
-:
 DateTimeFormatOptions
 *
 >
@@ -1157,9 +1151,6 @@ toPrivate
 void
 setOptions
 (
-intl
-:
-:
 DateTimeFormatOptions
 *
 options

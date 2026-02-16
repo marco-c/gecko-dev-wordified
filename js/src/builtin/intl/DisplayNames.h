@@ -616,9 +616,6 @@ calendar
 )
 ;
 }
-intl
-:
-:
 DisplayNamesOptions
 *
 getOptions
@@ -652,9 +649,6 @@ nullptr
 return
 static_cast
 <
-intl
-:
-:
 DisplayNamesOptions
 *
 >
@@ -670,9 +664,6 @@ toPrivate
 void
 setOptions
 (
-intl
-:
-:
 DisplayNamesOptions
 *
 options

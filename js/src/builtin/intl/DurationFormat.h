@@ -791,9 +791,6 @@ numberingSystem
 )
 ;
 }
-intl
-:
-:
 DurationFormatOptions
 *
 getOptions
@@ -827,9 +824,6 @@ nullptr
 return
 static_cast
 <
-intl
-:
-:
 DurationFormatOptions
 *
 >
@@ -845,9 +839,6 @@ toPrivate
 void
 setOptions
 (
-intl
-:
-:
 DurationFormatOptions
 *
 options
