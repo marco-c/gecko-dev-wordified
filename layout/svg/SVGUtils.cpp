@@ -2482,6 +2482,14 @@ kid
 IsInSVGTextSubtree
 (
 )
+|
+|
+kid
+-
+>
+IsPlaceholderFrame
+(
+)
 "
 SVG
 frame

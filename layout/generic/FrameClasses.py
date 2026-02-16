@@ -279,6 +279,72 @@ Replaced
 |
 LEAF
 #
+:
+:
+backdrop
+should
+be
+created
+by
+any
+top
+layer
+element
+.
+However
+some
+frames
+#
+don
+'
+t
+deal
+super
+well
+with
+having
+a
+placeholder
+thrown
+around
+inside
+.
+#
+Use
+this
+flag
+to
+exempt
+them
+from
+this
+.
+#
+FIXME
+(
+emilio
+)
+:
+Generally
+this
+list
+should
+be
+kept
+small
+/
+go
+away
+entirely
+.
+BACKDROP_UNSUPPORTED
+=
+{
+"
+BackdropUnsupported
+"
+}
+#
 See
 FrameClass
 .
@@ -430,6 +496,7 @@ BLOCK
     
 Frame
 (
+        
 "
 nsCheckboxRadioFrame
 "
@@ -439,6 +506,9 @@ CheckboxRadio
 REPLACED
 |
 LEAF
+|
+BACKDROP_UNSUPPORTED
+    
 )
     
 Frame
@@ -971,6 +1041,8 @@ TextInput
 REPLACED
 |
 LEAF
+|
+BACKDROP_UNSUPPORTED
 )
     
 Frame
@@ -1032,6 +1104,8 @@ Progress
 REPLACED
 |
 LEAF
+|
+BACKDROP_UNSUPPORTED
 )
     
 Frame
@@ -1045,6 +1119,8 @@ Range
 REPLACED
 |
 LEAF
+|
+BACKDROP_UNSUPPORTED
 )
     
 Frame
@@ -1165,6 +1241,8 @@ TextInput
 REPLACED
 |
 LEAF
+|
+BACKDROP_UNSUPPORTED
 )
     
 Frame
@@ -1726,6 +1804,8 @@ TextInput
 REPLACED
 |
 LEAF
+|
+BACKDROP_UNSUPPORTED
 )
     
 Frame
