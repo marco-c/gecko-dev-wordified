@@ -2354,7 +2354,13 @@ aRootDir
 ;
 mLocalDir
 =
+std
+:
+:
+move
+(
 localDir
+)
 ;
 return
 NS_OK

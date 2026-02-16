@@ -1907,7 +1907,13 @@ invoked
 .
 mChannel
 =
+std
+:
+:
+move
+(
 channel
+)
 ;
 return
 NS_OK

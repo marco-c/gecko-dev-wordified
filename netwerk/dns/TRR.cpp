@@ -2608,7 +2608,13 @@ TYPE_ONE_SHOT
 ;
 mChannel
 =
+std
+:
+:
+move
+(
 channel
+)
 ;
 return
 NS_OK

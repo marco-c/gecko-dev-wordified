@@ -1122,7 +1122,13 @@ true
 ;
 mListener
 =
+std
+:
+:
+move
+(
 listener
+)
 ;
 return
 NS_OK

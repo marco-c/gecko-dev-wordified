@@ -15412,7 +15412,13 @@ isForMenu
 ;
 mKeyListener
 =
+std
+:
+:
+move
+(
 newTarget
+)
 ;
 }
 }
