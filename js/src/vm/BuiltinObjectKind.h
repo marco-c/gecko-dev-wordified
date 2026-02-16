@@ -201,16 +201,6 @@ FunctionPrototype
 IteratorPrototype
 /
 /
-Built
--
-in
-Intl
-prototypes
-.
-DateTimeFormatPrototype
-NumberFormatPrototype
-/
-/
 Invalid
 placeholder
 .
