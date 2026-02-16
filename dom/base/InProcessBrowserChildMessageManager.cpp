@@ -457,9 +457,6 @@ true
 &
 aData
 aRetVal
-IgnoreErrors
-(
-)
 )
 ;
 }
