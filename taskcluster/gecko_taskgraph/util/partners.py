@@ -256,7 +256,7 @@ object
 expression
 :
 "
-master
+HEAD
 :
 %
 (
