@@ -850,11 +850,12 @@ true
 /
 remove
 logins
+await
 Services
 .
 logins
 .
-removeLogin
+removeLoginAsync
 (
 TEST_LOGIN1
 )

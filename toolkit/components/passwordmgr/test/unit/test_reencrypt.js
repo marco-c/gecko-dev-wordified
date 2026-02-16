@@ -394,11 +394,12 @@ splice
 1
 )
 ;
+await
 Services
 .
 logins
 .
-removeLogin
+removeLoginAsync
 (
 EXPECTED_LOGINS
 [

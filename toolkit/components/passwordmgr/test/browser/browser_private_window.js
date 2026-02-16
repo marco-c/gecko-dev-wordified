@@ -3024,11 +3024,12 @@ notif
 )
 ;
 }
+await
 Services
 .
 logins
 .
-removeLogin
+removeLoginAsync
 (
 login
 )

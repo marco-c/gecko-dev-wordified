@@ -518,11 +518,12 @@ value
 /
 /
 Cleanup
+await
 Services
 .
 logins
 .
-removeLogin
+removeLoginAsync
 (
 login
 )

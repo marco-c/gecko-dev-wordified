@@ -1004,7 +1004,7 @@ Services
 .
 logins
 .
-removeLogin
+removeLoginAsync
 (
 testCase
 .

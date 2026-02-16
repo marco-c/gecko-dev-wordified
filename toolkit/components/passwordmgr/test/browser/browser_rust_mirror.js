@@ -740,11 +740,12 @@ finished
 "
 )
 ;
+await
 Services
 .
 logins
 .
-removeLogin
+removeLoginAsync
 (
 storedLoginInfo
 )

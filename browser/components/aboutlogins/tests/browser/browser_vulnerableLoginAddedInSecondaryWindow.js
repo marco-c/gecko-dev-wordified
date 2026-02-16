@@ -204,11 +204,12 @@ about
 :
 logins
 .
+await
 Services
 .
 logins
 .
-removeLogin
+removeLoginAsync
 (
 TEST_LOGIN3
 )

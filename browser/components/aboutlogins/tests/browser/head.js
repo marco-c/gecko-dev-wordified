@@ -626,11 +626,12 @@ will
 be
 removing
 .
+await
 Services
 .
 logins
 .
-removeLogin
+removeLoginAsync
 (
 logins
 [
