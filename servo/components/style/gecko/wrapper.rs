@@ -14187,6 +14187,11 @@ NonTSPseudoClass
 :
 :
 Stalled
+|
+NonTSPseudoClass
+:
+:
+Muted
 =
 >
 {
