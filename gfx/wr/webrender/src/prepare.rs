@@ -1992,7 +1992,6 @@ data_stores
 .
 clip
 frame_state
-pic_state
 scratch
 )
 ;
@@ -4079,7 +4078,6 @@ data_stores
 .
 clip
 frame_state
-pic_state
 scratch
 )
 ;
@@ -4428,7 +4426,6 @@ data_stores
 .
 clip
 frame_state
-pic_state
 scratch
 )
 ;
@@ -4986,7 +4983,6 @@ data_stores
 .
 clip
 frame_state
-pic_state
 scratch
 )
 ;
@@ -5408,7 +5404,6 @@ data_stores
 .
 clip
 frame_state
-pic_state
 scratch
 )
 ;
