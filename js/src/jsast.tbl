@@ -500,6 +500,13 @@ ImportDeclaration
 )
 ASTDEF
 (
+AST_IMPORT_SOURCE_DECL
+"
+ImportSourceDeclaration
+"
+)
+ASTDEF
+(
 AST_IMPORT_SPEC
 "
 ImportSpecifier
