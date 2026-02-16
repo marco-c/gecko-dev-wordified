@@ -1080,9 +1080,7 @@ mirGen
 (
 )
 .
-tracker
-.
-reset
+cleanup
 (
 )
 ;
