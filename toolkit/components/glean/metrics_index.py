@@ -599,6 +599,16 @@ yaml
 "
 js
 /
+src
+/
+metrics
+.
+yaml
+"
+    
+"
+js
+/
 xpconnect
 /
 metrics
