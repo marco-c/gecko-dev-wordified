@@ -1731,12 +1731,10 @@ jsx
 {
 statements
 :
-50
+48
 lines
 :
-50
-.
-94
+49
 functions
 :
 31
