@@ -393,7 +393,7 @@ window
 *
 property
 {
-string
+number
 }
 id
 *
@@ -407,7 +407,7 @@ splitview
 *
 property
 {
-string
+number
 }
 numberOfTabs
 *
@@ -935,6 +935,8 @@ splitViewId
 )
 {
 return
+parseInt
+(
 this
 .
 getAttribute
@@ -942,6 +944,7 @@ getAttribute
 "
 splitViewId
 "
+)
 )
 ;
 }
