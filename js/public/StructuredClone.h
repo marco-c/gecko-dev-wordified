@@ -5097,16 +5097,6 @@ scope
 )
 ;
 }
-uint32_t
-version
-(
-)
-const
-{
-return
-version_
-;
-}
 /
 *
 *

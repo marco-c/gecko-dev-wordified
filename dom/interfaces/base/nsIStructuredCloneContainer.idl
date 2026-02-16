@@ -205,7 +205,7 @@ it
 stores
 by
 calling
-deserializeToJsval
+deserializeToVariant
 .
 You
 can
@@ -237,7 +237,6 @@ getDataAsBase64
 /
 [
 scriptable
-builtinclass
 uuid
 (
 c664aae7

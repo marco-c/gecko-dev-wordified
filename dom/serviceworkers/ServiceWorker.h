@@ -182,6 +182,9 @@ dom
 class
 ServiceWorkerChild
 ;
+class
+ServiceWorkerCloneData
+;
 struct
 StructuredSerializeOptions
 ;

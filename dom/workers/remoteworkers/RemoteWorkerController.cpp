@@ -241,6 +241,17 @@ mozilla
 /
 dom
 /
+ServiceWorkerCloneData
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ServiceWorkerShutdownState
 .
 h
