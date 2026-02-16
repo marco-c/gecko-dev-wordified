@@ -476,6 +476,8 @@ Register
 scratch
 Register
 scratch2
+Register
+scratch3
 CallFlags
 flags
 uint32_t
