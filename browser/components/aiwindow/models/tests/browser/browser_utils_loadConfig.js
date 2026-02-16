@@ -534,7 +534,7 @@ config
 .
 version
 "
-v1
+v2
 .
 0
 "
@@ -542,7 +542,7 @@ v1
 Version
 should
 be
-v1
+v2
 .
 0
 "
