@@ -676,6 +676,13 @@ loadTime
 )
 ;
 }
+cache
+.
+NoteReceivedAllChildStencilsForProcess
+(
+processType
+)
+;
 return
 IPC_OK
 (
