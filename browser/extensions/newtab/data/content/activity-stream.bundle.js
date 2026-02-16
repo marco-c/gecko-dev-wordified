@@ -107577,6 +107577,13 @@ url
 (
 {
 thumbnail
+?
+.
+thumbnail
+|
+|
+thumbnail
+?
 .
 wallpaperUrl
 }
@@ -108308,6 +108315,7 @@ fluent_id
 solid_color
 theme
 title
+thumbnail
 wallpaperUrl
 }
 index
@@ -108333,6 +108341,9 @@ backgroundImage
 url
 (
 {
+thumbnail
+|
+|
 wallpaperUrl
 }
 )
