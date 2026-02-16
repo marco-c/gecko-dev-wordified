@@ -510,7 +510,10 @@ nsMathMLChar
 :
 mDirection
 (
-NS_STRETCH_DIRECTION_DEFAULT
+StretchDirection
+:
+:
+Default
 )
 {
 MOZ_COUNT_CTOR
@@ -665,7 +668,7 @@ DrawTarget
 aDrawTarget
 float
 aFontSizeInflation
-nsStretchDirection
+StretchDirection
 aStretchDirection
 const
 nsBoundingMetrics
@@ -714,7 +717,7 @@ Length
 )
 ;
 }
-nsStretchDirection
+StretchDirection
 GetStretchDirection
 (
 )
@@ -1061,7 +1064,7 @@ private
 nsRect
 mRect
 ;
-nsStretchDirection
+StretchDirection
 mDirection
 ;
 nsBoundingMetrics
@@ -1393,7 +1396,7 @@ DrawTarget
 aDrawTarget
 float
 aFontSizeInflation
-nsStretchDirection
+StretchDirection
 &
 aStretchDirection
 const

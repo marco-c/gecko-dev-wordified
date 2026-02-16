@@ -296,7 +296,7 @@ gfx
 DrawTarget
 *
 aDrawTarget
-nsStretchDirection
+StretchDirection
 aStretchDirection
 nsBoundingMetrics
 &
