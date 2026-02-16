@@ -301,6 +301,13 @@ int32_t
 dstStride
 SurfaceFormat
 format
+SamplingFilter
+aFilter
+=
+SamplingFilter
+:
+:
+GOOD
 )
 ;
 }
