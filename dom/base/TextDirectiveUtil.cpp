@@ -1558,7 +1558,7 @@ false
 static
 *
 /
-void
+bool
 TextDirectiveUtil
 :
 :
@@ -1777,6 +1777,7 @@ GetNextNode
 )
 {
 return
+false
 ;
 }
 /
@@ -1991,6 +1992,7 @@ offset
 )
 {
 return
+true
 ;
 }
 aRange
@@ -2004,6 +2006,9 @@ offset
 )
 ;
 }
+return
+false
+;
 }
 /
 /
