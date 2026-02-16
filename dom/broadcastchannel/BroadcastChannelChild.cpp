@@ -182,9 +182,11 @@ BroadcastChannelChild
 :
 RecvNotify
 (
-const
-MessageData
-&
+NotNull
+<
+SharedMessageBody
+*
+>
 aData
 )
 {
