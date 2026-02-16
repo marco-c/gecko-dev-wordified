@@ -1504,6 +1504,10 @@ return
 ;
 hex
 =
+(
+char
+*
+)
 RMALLOC
 (
 (

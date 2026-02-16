@@ -1159,18 +1159,10 @@ count
 ;
 children
 =
+R_NEW_CNT
 (
 NR_registry
-*
-)
-RCALLOC
-(
 count
-*
-sizeof
-(
-NR_registry
-)
 )
 ;
 if
@@ -1307,7 +1299,7 @@ if
 tmp
 =
 (
-void
+UCHAR
 *
 )
 RMALLOC
@@ -1439,7 +1431,7 @@ if
 tmp
 =
 (
-void
+char
 *
 )
 RMALLOC

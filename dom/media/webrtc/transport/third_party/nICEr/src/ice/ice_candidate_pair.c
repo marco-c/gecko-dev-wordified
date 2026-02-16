@@ -524,12 +524,9 @@ if
 (
 pair
 =
-RCALLOC
-(
-sizeof
+R_NEW
 (
 nr_ice_cand_pair
-)
 )
 )
 )

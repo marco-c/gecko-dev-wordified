@@ -298,12 +298,9 @@ if
 (
 resolver
 =
-RCALLOC
-(
-sizeof
+R_NEW
 (
 nr_resolver
-)
 )
 )
 )

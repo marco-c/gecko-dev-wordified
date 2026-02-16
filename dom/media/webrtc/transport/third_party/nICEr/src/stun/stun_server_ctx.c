@@ -365,12 +365,9 @@ if
 (
 ctx
 =
-RCALLOC
-(
-sizeof
+R_NEW
 (
 nr_stun_server_ctx
-)
 )
 )
 )
@@ -553,12 +550,9 @@ if
 (
 clnt
 =
-RCALLOC
-(
-sizeof
+R_NEW
 (
 nr_stun_server_client
-)
 )
 )
 )
