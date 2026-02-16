@@ -7049,6 +7049,14 @@ WebRenderBridgeParent
 this
 aPipelineId
 mWidget
+mVsyncRate
+)
+;
+mWrBridge
+-
+>
+FinishInitialization
+(
 std
 :
 :
@@ -7063,7 +7071,6 @@ move
 (
 asyncMgr
 )
-mVsyncRate
 )
 ;
 mWrBridge
