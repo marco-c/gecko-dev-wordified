@@ -304,9 +304,9 @@ gatherPromise
 .
 resolve
 "
-gather
+idle
 -
-telemetry
+daily
 "
 )
 ;
@@ -319,9 +319,9 @@ are
 correctly
 receiving
 the
-gather
+idle
 -
-telemetry
+daily
 notification
 .
 TelemetrySession
@@ -340,7 +340,7 @@ null
 await
 gatherPromise
 .
-promise
+resolve
 ;
 Assert
 .
@@ -349,9 +349,9 @@ ok
 true
 "
 Received
-gather
+idle
 -
-telemetry
+daily
 notification
 .
 "
@@ -367,9 +367,9 @@ gatherPromise
 .
 resolve
 "
-gather
+idle
 -
-telemetry
+daily
 "
 )
 ;
