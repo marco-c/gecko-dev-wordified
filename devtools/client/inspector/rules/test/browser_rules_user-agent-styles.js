@@ -678,7 +678,7 @@ userRules
 =
 view
 .
-_elementStyle
+elementStyle
 .
 rules
 .
@@ -698,7 +698,7 @@ uaRules
 =
 view
 .
-_elementStyle
+elementStyle
 .
 rules
 .
@@ -1010,7 +1010,7 @@ userRules
 =
 view
 .
-_elementStyle
+elementStyle
 .
 rules
 .
@@ -1030,7 +1030,7 @@ uaRules
 =
 view
 .
-_elementStyle
+elementStyle
 .
 rules
 .
@@ -1215,7 +1215,7 @@ elementStyle
 =
 view
 .
-_elementStyle
+elementStyle
 ;
 await
 waitFor

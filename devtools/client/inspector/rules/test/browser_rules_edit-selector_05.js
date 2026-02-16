@@ -366,7 +366,7 @@ is
 (
 view
 .
-_elementStyle
+elementStyle
 .
 rules
 .
@@ -448,7 +448,7 @@ is
 (
 view
 .
-_elementStyle
+elementStyle
 .
 rules
 .

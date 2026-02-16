@@ -176,7 +176,7 @@ elementStyle
 =
 view
 .
-_elementStyle
+elementStyle
 ;
 const
 expected

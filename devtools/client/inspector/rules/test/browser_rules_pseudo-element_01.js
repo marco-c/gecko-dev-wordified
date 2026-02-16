@@ -2965,7 +2965,7 @@ elementRules
 :
 view
 .
-_elementStyle
+elementStyle
 .
 rules
 .
@@ -3007,7 +3007,7 @@ pseudoElementSelector
 key
 view
 .
-_elementStyle
+elementStyle
 .
 rules
 .

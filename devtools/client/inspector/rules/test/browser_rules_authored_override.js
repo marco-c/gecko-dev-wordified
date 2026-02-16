@@ -300,7 +300,7 @@ rule
 =
 view
 .
-_elementStyle
+elementStyle
 .
 rules
 [

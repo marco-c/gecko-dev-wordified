@@ -8035,7 +8035,7 @@ elementStyle
 =
 ruleView
 .
-_elementStyle
+elementStyle
 ;
 const
 element

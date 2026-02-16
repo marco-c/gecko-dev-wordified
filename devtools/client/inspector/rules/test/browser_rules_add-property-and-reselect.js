@@ -228,7 +228,7 @@ inlineStyleRuleEditor
 =
 view
 .
-_elementStyle
+elementStyle
 .
 rules
 [
@@ -448,7 +448,7 @@ return
 .
 view
 .
-_elementStyle
+elementStyle
 .
 rules
 ]

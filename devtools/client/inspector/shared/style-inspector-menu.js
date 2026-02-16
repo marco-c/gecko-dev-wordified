@@ -2581,7 +2581,7 @@ this
 .
 view
 .
-_elementStyle
+elementStyle
 )
 ;
 if
