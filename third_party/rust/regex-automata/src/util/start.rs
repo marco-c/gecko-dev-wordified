@@ -106,7 +106,7 @@ it
 along
 with
 their
-espsilon
+epsilon
 closures
 .
 In

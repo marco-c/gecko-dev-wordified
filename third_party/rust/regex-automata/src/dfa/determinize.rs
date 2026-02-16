@@ -2653,9 +2653,9 @@ memory
 usage
 :
 {
+mem
 }
 "
-mem
 )
 ;
 }
@@ -4226,7 +4226,7 @@ closure
 we
 only
 follow
-condiional
+conditional
 epsilon
 /
 /

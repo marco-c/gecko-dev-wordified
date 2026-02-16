@@ -1,3 +1,14 @@
+#
+!
+[
+allow
+(
+clippy
+:
+:
+uninlined_format_args
+)
+]
 use
 indoc
 :
@@ -361,7 +372,9 @@ to_string
 "
 1
 .
-2e41
+2e
++
+41
 "
 )
 ;
