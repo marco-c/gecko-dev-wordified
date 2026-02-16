@@ -4437,7 +4437,7 @@ overridePadding
 >
 IStart
 (
-outerWM
+wm
 )
 =
 overridePadding
@@ -4445,7 +4445,7 @@ overridePadding
 >
 IEnd
 (
-outerWM
+wm
 )
 =
 0
@@ -4546,6 +4546,14 @@ wm
 =
 =
 outerWM
+|
+|
+aKid
+-
+>
+IsPlaceholderFrame
+(
+)
 "
 Shouldn
 '
