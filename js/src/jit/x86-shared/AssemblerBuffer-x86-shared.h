@@ -1697,7 +1697,7 @@ va
 fmt
 )
 ;
-spew
+spewVA
 (
 fmt
 va
@@ -1738,7 +1738,7 @@ ifdef
 JS_JITSPEW
 MOZ_COLD
 void
-spew
+spewVA
 (
 const
 char
