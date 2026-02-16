@@ -5527,7 +5527,7 @@ l
 NoCalcLength
 :
 :
-parse_dimension
+parse_dimension_with_context
 (
 context
 value
