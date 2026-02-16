@@ -13618,10 +13618,10 @@ mStyleISize
 .
 emplace
 (
-StyleSizeOverrides
+StyleSize
 :
 :
-SizeFrom
+FromAppUnits
 (
 unfragmentedSize
 -
@@ -13662,10 +13662,10 @@ mStyleBSize
 .
 emplace
 (
-StyleSizeOverrides
+StyleSize
 :
 :
-SizeFrom
+FromAppUnits
 (
 unfragmentedSize
 -
