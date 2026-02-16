@@ -827,6 +827,25 @@ package_name
 }
 "
 )
+        
+#
+Extra
+delay
+needed
+to
+avoid
+shutdown
+thread
+active
+during
+startup
+        
+time
+.
+sleep
+(
+3
+)
     
 def
 skip_onboarding
