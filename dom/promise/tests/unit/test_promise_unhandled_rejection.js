@@ -115,7 +115,9 @@ foo
 /
 Bar
 .
-jsm
+sys
+.
+mjs
 "
 ;
 async

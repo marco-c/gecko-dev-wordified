@@ -509,7 +509,9 @@ modules
 /
 AppConstants
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -530,7 +532,9 @@ modules
 /
 AppConstants
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -541,7 +545,9 @@ remote
 "
 AppConstants
 .
-jsm
+sys
+.
+mjs
 should
 resolve
 in

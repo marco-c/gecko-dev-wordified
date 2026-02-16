@@ -3889,7 +3889,6 @@ cookieJarSettings
 SetPartitionKey
 (
 uri
-false
 )
 ;
 }
@@ -5251,8 +5250,6 @@ with
 .
 js
 /
-.
-jsm
 /
 .
 mjs

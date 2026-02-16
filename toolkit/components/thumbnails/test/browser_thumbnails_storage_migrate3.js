@@ -118,7 +118,9 @@ modules
 /
 PageThumbs
 .
-jsm
+sys
+.
+mjs
 "
 tmp
 )

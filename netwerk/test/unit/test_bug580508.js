@@ -205,7 +205,9 @@ modules
 /
 NetUtil
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -229,7 +231,9 @@ modules
 /
 NetUtil
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
