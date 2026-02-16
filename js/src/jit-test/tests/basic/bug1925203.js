@@ -1,17 +1,3 @@
-/
-/
-|
-jit
--
-test
-|
--
--
-enable
--
-uint8array
--
-base64
 var
 arr
 =

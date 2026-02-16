@@ -244,22 +244,6 @@ Bug
 1435869
     
 "
-uint8array
--
-base64
-"
-:
-"
-!
-Uint8Array
-.
-fromBase64
-"
-#
-Bug
-1985120
-    
-"
 explicit
 -
 resource
