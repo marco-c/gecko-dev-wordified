@@ -281,6 +281,16 @@ return
 mPropertyId
 ;
 }
+CSSPropertyId
+&
+GetPropertyId
+(
+)
+{
+return
+mPropertyId
+;
+}
 void
 ToCssTextWithProperty
 (
