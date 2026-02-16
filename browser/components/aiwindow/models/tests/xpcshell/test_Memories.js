@@ -1404,7 +1404,7 @@ finalOutput
 [
 {
 "
-why
+reasoning
 "
 :
 "
@@ -1648,7 +1648,7 @@ restore
 *
 *
 *
-Tests
+Test
 successful
 initial
 memories
@@ -1732,7 +1732,7 @@ finalOutput
 [
 {
 "
-why
+reasoning
 "
 :
 "
@@ -1830,7 +1830,7 @@ org
 }
 {
 "
-why
+reasoning
 "
 :
 "
@@ -2096,13 +2096,13 @@ firstMemory
 )
 .
 length
-4
+5
 "
 First
 memory
 should
 have
-4
+5
 keys
 "
 )
@@ -3009,7 +3009,7 @@ finalOutput
 [
 {
 "
-why
+reasoning
 "
 :
 "
@@ -3098,7 +3098,7 @@ org
 }
 {
 "
-why
+reasoning
 "
 :
 "
