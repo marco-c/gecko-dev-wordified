@@ -5311,11 +5311,6 @@ isFullOut
 )
 ;
 void
-unmarkWeakMaps
-(
-)
-;
-void
 endPreparePhase
 (
 JS
