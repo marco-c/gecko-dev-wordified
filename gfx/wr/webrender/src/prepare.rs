@@ -406,10 +406,7 @@ crate
 util
 :
 :
-{
 clamp_to_scale_factor
-ScaleOffset
-}
 ;
 use
 crate
@@ -6014,7 +6011,7 @@ prim_address_f
 quad
 :
 :
-write_prim_blocks
+write_layout_prim_blocks
 (
 &
 mut
@@ -6023,11 +6020,9 @@ frame_state
 frame_gpu_data
 .
 f32
+&
 prim_local_rect
-.
-to_untyped
-(
-)
+&
 prim_instance
 .
 vis
@@ -6035,10 +6030,6 @@ vis
 clip_chain
 .
 local_clip_rect
-.
-to_untyped
-(
-)
 pattern
 .
 base_color
@@ -6050,12 +6041,6 @@ task_id
 &
 [
 ]
-ScaleOffset
-:
-:
-identity
-(
-)
 )
 ;
 /
