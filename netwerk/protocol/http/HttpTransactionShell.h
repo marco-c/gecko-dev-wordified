@@ -1242,13 +1242,6 @@ TimeStamp
 )
 ;
 }
-virtual
-void
-SetIsTRRTransaction
-(
-)
-{
-}
 }
 ;
 #
