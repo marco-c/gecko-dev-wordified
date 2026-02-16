@@ -1842,7 +1842,7 @@ runtime_
 >
 gc
 .
-assertCurrentThreadHasLockedStoreBuffer
+assertCurrentThreadHasLockedSweepingLock
 (
 )
 ;

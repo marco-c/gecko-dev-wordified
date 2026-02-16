@@ -3334,7 +3334,7 @@ shrink
 gc
 :
 :
-AutoLockStoreBuffer
+AutoLockSweepingLock
 lock
 (
 trc

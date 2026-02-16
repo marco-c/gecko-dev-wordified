@@ -12106,8 +12106,7 @@ these
 require
 taking
 the
-store
-buffer
+sweeping
 lock
 .
 MOZ_ASSERT
@@ -12125,7 +12124,7 @@ runtime
 >
 gc
 .
-assertCurrentThreadHasLockedStoreBuffer
+assertCurrentThreadHasLockedSweepingLock
 (
 )
 ;

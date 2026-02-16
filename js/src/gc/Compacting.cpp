@@ -3323,7 +3323,7 @@ detail
 WeakCacheBase
 :
 :
-DontLockStoreBuffer
+DontLock
 )
 ;
 }
@@ -5581,7 +5581,7 @@ detail
 WeakCacheBase
 :
 :
-DontLockStoreBuffer
+DontLock
 )
 ;
 }

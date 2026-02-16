@@ -4082,7 +4082,7 @@ js
 gc
 :
 :
-AutoLockStoreBuffer
+AutoLockSweepingLock
 >
 lock
 ;
@@ -5366,8 +5366,7 @@ take
 /
 /
 the
-store
-buffer
+sweeping
 lock
 yet
 .
@@ -5454,7 +5453,7 @@ js
 gc
 :
 :
-AutoLockStoreBuffer
+AutoLockSweepingLock
 >
 lock
 ;

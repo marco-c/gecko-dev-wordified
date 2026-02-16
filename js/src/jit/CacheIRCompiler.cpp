@@ -8604,13 +8604,11 @@ we
 have
 to
 lock
-the
-store
-buffer
+.
 gc
 :
 :
-AutoLockStoreBuffer
+AutoLockSweepingLock
 lock
 (
 rt

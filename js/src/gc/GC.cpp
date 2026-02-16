@@ -3824,12 +3824,12 @@ mutexid
 :
 GCLock
 )
-storeBufferLock
+sweepingLock
 (
 mutexid
 :
 :
-StoreBuffer
+Sweeping
 )
 delayedMarkingLock
 (
@@ -15723,7 +15723,7 @@ containing
 nursery
 pointers
 .
-AutoLockStoreBuffer
+AutoLockSweepingLock
 lock
 (
 rt

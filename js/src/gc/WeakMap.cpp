@@ -1190,7 +1190,7 @@ store
 buffer
 entries
 .
-AutoLockStoreBuffer
+AutoLockSweepingLock
 lock
 (
 trc
