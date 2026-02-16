@@ -50843,7 +50843,10 @@ key
 }
 }
 return
+[
 copy
+autorelease
+]
 ;
 }
 -
