@@ -747,7 +747,7 @@ isSome
 )
 )
 {
-urlp_pattern_free
+urlpattern_pattern_free
 (
 mCachedPattern
 .
@@ -1242,10 +1242,10 @@ isNothing
 )
 )
 {
-UrlpPattern
+UrlPatternGlue
 pattern
 ;
-UrlpOptions
+UrlPatternOptions
 options
 {
 }
@@ -1260,7 +1260,7 @@ mURI
 if
 (
 !
-urlp_parse_pattern_from_string
+urlpattern_parse_pattern_from_string
 (
 &
 mPattern
@@ -1304,13 +1304,13 @@ pattern
 )
 ;
 }
-UrlpInput
+UrlPatternInput
 input
 =
 net
 :
 :
-CreateUrlpInput
+CreateUrlPatternInput
 (
 aFilePath
 )
@@ -1328,7 +1328,7 @@ result
 net
 :
 :
-UrlpPatternTest
+UrlPatternTest
 (
 mCachedPattern
 .

@@ -390,7 +390,7 @@ C
 ]
 pub
 struct
-UrlpPattern
+UrlPatternGlue
 (
 pub
 *
@@ -429,7 +429,7 @@ transparent
 ]
 pub
 struct
-UrlpComponentPtr
+UrlPatternComponentPtr
 (
 pub
 *
@@ -462,7 +462,7 @@ transparent
 ]
 pub
 struct
-UrlpMatcherPtr
+UrlPatternMatcherPtr
 (
 pub
 *
@@ -514,7 +514,7 @@ C
 ]
 pub
 struct
-UrlpInit
+UrlPatternInit
 {
 pub
 protocol
@@ -554,7 +554,7 @@ base_url
 MaybeString
 }
 impl
-UrlpInit
+UrlPatternInit
 {
 pub
 fn
@@ -658,7 +658,7 @@ C
 ]
 pub
 struct
-UrlpMatchInput
+UrlPatternMatchInput
 {
 pub
 protocol
@@ -709,7 +709,7 @@ C
 ]
 pub
 enum
-UrlpStringOrInitType
+UrlPatternStringOrInitType
 {
 String
 Init
@@ -805,12 +805,12 @@ C
 ]
 pub
 struct
-UrlpInput
+UrlPatternInput
 {
 pub
 string_or_init_type
 :
-UrlpStringOrInitType
+UrlPatternStringOrInitType
 pub
 str
 :
@@ -818,7 +818,7 @@ nsCString
 pub
 init
 :
-UrlpInit
+UrlPatternInit
 pub
 base
 :
@@ -840,16 +840,16 @@ C
 ]
 pub
 struct
-UrlpMatchInputAndInputs
+UrlPatternMatchInputAndInputs
 {
 pub
 input
 :
-UrlpMatchInput
+UrlPatternMatchInput
 pub
 inputs
 :
-UrlpInput
+UrlPatternInput
 }
 #
 [
@@ -867,7 +867,7 @@ C
 ]
 pub
 struct
-UrlpOptions
+UrlPatternOptions
 {
 pub
 ignore_case

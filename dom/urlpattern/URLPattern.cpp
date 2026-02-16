@@ -184,7 +184,7 @@ void
 GlueToBindingInit
 (
 const
-UrlpInit
+UrlPatternInit
 &
 aGInit
 URLPatternInit
@@ -407,7 +407,7 @@ const
 URLPatternInit
 &
 aBInit
-UrlpInit
+UrlPatternInit
 &
 aGInit
 )
@@ -730,7 +730,7 @@ LogLevel
 Debug
 (
 "
-UrlPattern
+URLPattern
 :
 :
 Constructor
@@ -744,12 +744,12 @@ base
 )
 )
 ;
-UrlpPattern
+UrlPatternGlue
 pattern
 {
 }
 ;
-UrlpOptions
+UrlPatternOptions
 options
 {
 }
@@ -775,7 +775,7 @@ IsURLPatternInit
 bool
 res
 =
-urlp_parse_pattern_from_string
+urlpattern_parse_pattern_from_string
 (
 &
 aInput
@@ -818,7 +818,7 @@ nullptr
 }
 else
 {
-UrlpInit
+UrlPatternInit
 init
 {
 }
@@ -885,7 +885,7 @@ nullptr
 bool
 res
 =
-urlp_parse_pattern_from_init
+urlpattern_parse_pattern_from_init
 (
 &
 init
@@ -995,12 +995,12 @@ base
 )
 )
 ;
-UrlpPattern
+UrlPatternGlue
 pattern
 {
 }
 ;
-UrlpOptions
+UrlPatternOptions
 options
 {
 }
@@ -1026,7 +1026,7 @@ IsURLPatternInit
 bool
 res
 =
-urlp_parse_pattern_from_string
+urlpattern_parse_pattern_from_string
 (
 &
 aInput
@@ -1102,7 +1102,7 @@ return
 nullptr
 ;
 }
-UrlpInit
+UrlPatternInit
 init
 {
 }
@@ -1127,7 +1127,7 @@ init
 bool
 res
 =
-urlp_parse_pattern_from_init
+urlpattern_parse_pattern_from_init
 (
 &
 init
@@ -1192,7 +1192,7 @@ URLPattern
 (
 )
 {
-urlp_pattern_free
+urlpattern_pattern_free
 (
 mPattern
 )
@@ -1371,7 +1371,7 @@ const
 net
 :
 :
-UrlpComponentResult
+UrlPatternComponentResult
 &
 aGlueCompRes
 URLPatternComponentResult
@@ -1407,7 +1407,7 @@ ConvertInputsToSequence
 const
 CopyableTArray
 <
-UrlpInput
+UrlPatternInput
 >
 &
 aInputs
@@ -1451,7 +1451,7 @@ input
 string_or_init_type
 =
 =
-UrlpStringOrInitType
+UrlPatternStringOrInitType
 :
 :
 String
@@ -1550,7 +1550,7 @@ const
 net
 :
 :
-UrlpResult
+UrlPatternResult
 &
 aGlueRes
 URLPatternResult
@@ -1950,7 +1950,7 @@ Test
 )
 )
 ;
-UrlpInput
+UrlPatternInput
 input
 ;
 Maybe
@@ -1968,7 +1968,7 @@ IsURLPatternInit
 )
 )
 {
-UrlpInit
+UrlPatternInit
 initGlue
 {
 }
@@ -1988,7 +1988,7 @@ input
 net
 :
 :
-CreateUrlpInput
+CreateUrlPatternInput
 (
 initGlue
 )
@@ -2037,7 +2037,7 @@ input
 net
 :
 :
-CreateUrlpInput
+CreateUrlPatternInput
 (
 aInput
 .
@@ -2072,7 +2072,7 @@ return
 net
 :
 :
-UrlpPatternTest
+UrlPatternTest
 (
 mPattern
 input
@@ -2128,7 +2128,7 @@ Exec
 )
 )
 ;
-UrlpInput
+UrlPatternInput
 input
 ;
 Maybe
@@ -2146,7 +2146,7 @@ IsURLPatternInit
 )
 )
 {
-UrlpInit
+UrlPatternInit
 initGlue
 {
 }
@@ -2166,7 +2166,7 @@ input
 net
 :
 :
-CreateUrlpInput
+CreateUrlPatternInput
 (
 initGlue
 )
@@ -2214,7 +2214,7 @@ input
 net
 :
 :
-CreateUrlpInput
+CreateUrlPatternInput
 (
 aInput
 .
@@ -2250,14 +2250,14 @@ Maybe
 net
 :
 :
-UrlpResult
+UrlPatternResult
 >
 patternResult
 =
 net
 :
 :
-UrlpPatternExec
+UrlPatternExec
 (
 mPattern
 input
@@ -2348,7 +2348,7 @@ Assign
 net
 :
 :
-UrlpGetProtocol
+UrlPatternGetProtocol
 (
 mPattern
 )
@@ -2374,7 +2374,7 @@ Assign
 net
 :
 :
-UrlpGetUsername
+UrlPatternGetUsername
 (
 mPattern
 )
@@ -2400,7 +2400,7 @@ Assign
 net
 :
 :
-UrlpGetPassword
+UrlPatternGetPassword
 (
 mPattern
 )
@@ -2426,7 +2426,7 @@ Assign
 net
 :
 :
-UrlpGetHostname
+UrlPatternGetHostname
 (
 mPattern
 )
@@ -2452,7 +2452,7 @@ Assign
 net
 :
 :
-UrlpGetPort
+UrlPatternGetPort
 (
 mPattern
 )
@@ -2478,7 +2478,7 @@ Assign
 net
 :
 :
-UrlpGetPathname
+UrlPatternGetPathname
 (
 mPattern
 )
@@ -2504,7 +2504,7 @@ Assign
 net
 :
 :
-UrlpGetSearch
+UrlPatternGetSearch
 (
 mPattern
 )
@@ -2530,7 +2530,7 @@ Assign
 net
 :
 :
-UrlpGetHash
+UrlPatternGetHash
 (
 mPattern
 )
@@ -2547,7 +2547,7 @@ HasRegExpGroups
 const
 {
 return
-urlp_get_has_regexp_groups
+urlpattern_get_has_regexp_groups
 (
 mPattern
 )

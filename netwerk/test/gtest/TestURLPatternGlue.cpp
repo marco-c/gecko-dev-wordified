@@ -171,7 +171,7 @@ Maybe
 T
 >
 ;
-UrlpInit
+UrlPatternInit
 CreateInit
 (
 const
@@ -213,7 +213,7 @@ baseUrl
 )
 {
 return
-UrlpInit
+UrlPatternInit
 {
 .
 protocol
@@ -335,7 +335,7 @@ IsEmpty
 }
 ;
 }
-UrlpInit
+UrlPatternInit
 CreateSimpleInit
 (
 const
@@ -379,7 +379,7 @@ _ns
 )
 ;
 }
-UrlpInit
+UrlPatternInit
 CreateInit
 (
 const
@@ -482,12 +482,12 @@ thing
 "
 )
 ;
-UrlpPattern
+UrlPatternGlue
 pattern
 {
 }
 ;
-UrlpOptions
+UrlPatternOptions
 options
 =
 {
@@ -500,7 +500,7 @@ false
 bool
 res
 =
-urlp_parse_pattern_from_string
+urlpattern_parse_pattern_from_string
 (
 &
 str
@@ -543,12 +543,12 @@ foo
 "
 )
 ;
-UrlpPattern
+UrlPatternGlue
 pattern
 {
 }
 ;
-UrlpOptions
+UrlPatternOptions
 options
 =
 {
@@ -561,7 +561,7 @@ false
 bool
 res
 =
-urlp_parse_pattern_from_string
+urlpattern_parse_pattern_from_string
 (
 &
 str
@@ -596,12 +596,12 @@ TestURLPatternGlue
 PatternFromInit
 )
 {
-UrlpPattern
+UrlPatternGlue
 pattern
 {
 }
 ;
-UrlpOptions
+UrlPatternOptions
 options
 =
 {
@@ -611,7 +611,7 @@ ignore_case
 false
 }
 ;
-UrlpInit
+UrlPatternInit
 init
 =
 CreateSimpleInit
@@ -635,7 +635,7 @@ _ns
 bool
 res
 =
-urlp_parse_pattern_from_init
+urlpattern_parse_pattern_from_init
 (
 &
 init
@@ -659,7 +659,7 @@ _0
 auto
 proto
 =
-UrlpGetProtocol
+UrlPatternGetProtocol
 (
 pattern
 )
@@ -680,12 +680,12 @@ TestURLPatternGlue
 PatternFromInitOnlyPathname
 )
 {
-UrlpPattern
+UrlPatternGlue
 pattern
 {
 }
 ;
-UrlpOptions
+UrlPatternOptions
 options
 =
 {
@@ -695,7 +695,7 @@ ignore_case
 false
 }
 ;
-UrlpInit
+UrlPatternInit
 init
 =
 CreateSimpleInit
@@ -718,7 +718,7 @@ _ns
 bool
 res
 =
-urlp_parse_pattern_from_init
+urlpattern_parse_pattern_from_init
 (
 &
 init
@@ -742,7 +742,7 @@ _0
 auto
 proto
 =
-UrlpGetProtocol
+UrlPatternGetProtocol
 (
 pattern
 )
@@ -761,7 +761,7 @@ nsCString
 auto
 host
 =
-UrlpGetHostname
+UrlPatternGetHostname
 (
 pattern
 )
@@ -780,7 +780,7 @@ nsCString
 auto
 path
 =
-UrlpGetPathname
+UrlPatternGetPathname
 (
 pattern
 )
@@ -808,21 +808,21 @@ execBaseUrl
 /
 /
 None
-UrlpInput
+UrlPatternInput
 input
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 init
 )
 ;
 Optional
 <
-UrlpResult
+UrlPatternResult
 >
 r
 =
-UrlpPatternExec
+UrlPatternExec
 (
 pattern
 input
@@ -913,12 +913,12 @@ TestURLPatternGlue
 UrlPatternGetters
 )
 {
-UrlpPattern
+UrlPatternGlue
 pattern
 {
 }
 ;
-UrlpOptions
+UrlPatternOptions
 options
 =
 {
@@ -928,7 +928,7 @@ ignore_case
 false
 }
 ;
-UrlpInit
+UrlPatternInit
 init
 =
 CreateInit
@@ -975,7 +975,7 @@ _ns
 bool
 rv
 =
-urlp_parse_pattern_from_init
+urlpattern_parse_pattern_from_init
 (
 &
 init
@@ -1001,7 +1001,7 @@ res
 ;
 res
 =
-UrlpGetProtocol
+UrlPatternGetProtocol
 (
 pattern
 )
@@ -1019,7 +1019,7 @@ https
 ;
 res
 =
-UrlpGetUsername
+UrlPatternGetUsername
 (
 pattern
 )
@@ -1037,7 +1037,7 @@ user
 ;
 res
 =
-UrlpGetPassword
+UrlPatternGetPassword
 (
 pattern
 )
@@ -1055,7 +1055,7 @@ passw
 ;
 res
 =
-UrlpGetHostname
+UrlPatternGetHostname
 (
 pattern
 )
@@ -1075,7 +1075,7 @@ com
 ;
 res
 =
-UrlpGetPort
+UrlPatternGetPort
 (
 pattern
 )
@@ -1093,7 +1093,7 @@ nsCString
 ;
 res
 =
-UrlpGetPathname
+UrlPatternGetPathname
 (
 pattern
 )
@@ -1111,7 +1111,7 @@ nsCString
 ;
 res
 =
-UrlpGetSearch
+UrlPatternGetSearch
 (
 pattern
 )
@@ -1129,7 +1129,7 @@ find
 ;
 res
 =
-UrlpGetHash
+UrlPatternGetHash
 (
 pattern
 )
@@ -1184,12 +1184,12 @@ minimal
 fields
 )
 {
-UrlpPattern
+UrlPatternGlue
 pattern
 {
 }
 ;
-UrlpOptions
+UrlPatternOptions
 options
 =
 {
@@ -1199,7 +1199,7 @@ ignore_case
 false
 }
 ;
-UrlpInit
+UrlPatternInit
 init
 =
 CreateSimpleInit
@@ -1223,7 +1223,7 @@ _ns
 bool
 res
 =
-urlp_parse_pattern_from_init
+urlpattern_parse_pattern_from_init
 (
 &
 init
@@ -1256,7 +1256,7 @@ up
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 CreateSimpleInit
 (
@@ -1278,7 +1278,7 @@ _ns
 ;
 ASSERT_FALSE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -1291,7 +1291,7 @@ base
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 CreateSimpleInit
 (
@@ -1314,7 +1314,7 @@ _ns
 ;
 ASSERT_TRUE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -1335,7 +1335,7 @@ fine
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 CreateInit
 (
@@ -1367,7 +1367,7 @@ com
 ;
 ASSERT_TRUE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -1386,7 +1386,7 @@ fine
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 CreateInit
 (
@@ -1417,7 +1417,7 @@ com
 ;
 ASSERT_TRUE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -1436,7 +1436,7 @@ fine
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 CreateInit
 (
@@ -1467,7 +1467,7 @@ thisok
 ;
 ASSERT_TRUE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -1486,7 +1486,7 @@ fine
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 CreateInit
 (
@@ -1517,7 +1517,7 @@ thisok
 ;
 ASSERT_TRUE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -1534,7 +1534,7 @@ different
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 CreateSimpleInit
 (
@@ -1558,7 +1558,7 @@ _ns
 ;
 ASSERT_FALSE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -1575,7 +1575,7 @@ different
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 CreateSimpleInit
 (
@@ -1598,7 +1598,7 @@ _ns
 ;
 ASSERT_FALSE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -1615,7 +1615,7 @@ different
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 CreateSimpleInit
 (
@@ -1638,7 +1638,7 @@ _ns
 ;
 ASSERT_FALSE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -1655,12 +1655,12 @@ basic
 literal
 matching
 {
-UrlpPattern
+UrlPatternGlue
 pattern
 {
 }
 ;
-UrlpOptions
+UrlPatternOptions
 options
 =
 {
@@ -1717,7 +1717,7 @@ _ns
 bool
 res
 =
-urlp_parse_pattern_from_init
+urlpattern_parse_pattern_from_init
 (
 &
 init
@@ -1753,14 +1753,14 @@ match
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 init
 )
 ;
 ASSERT_TRUE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -1777,7 +1777,7 @@ protocol
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 CreateInit
 (
@@ -1813,7 +1813,7 @@ frag
 ;
 ASSERT_FALSE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -1830,7 +1830,7 @@ user
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 CreateInit
 (
@@ -1866,7 +1866,7 @@ frag
 ;
 ASSERT_FALSE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -1883,7 +1883,7 @@ password
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 CreateInit
 (
@@ -1917,7 +1917,7 @@ frag
 ;
 ASSERT_FALSE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -1934,7 +1934,7 @@ hostname
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 CreateInit
 (
@@ -1968,7 +1968,7 @@ frag
 ;
 ASSERT_FALSE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -1985,7 +1985,7 @@ port
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 CreateInit
 (
@@ -2021,7 +2021,7 @@ frag
 ;
 ASSERT_FALSE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -2038,7 +2038,7 @@ query
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 CreateInit
 (
@@ -2074,7 +2074,7 @@ frag
 ;
 ASSERT_FALSE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -2091,7 +2091,7 @@ frag
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 CreateInit
 (
@@ -2127,7 +2127,7 @@ query
 ;
 ASSERT_FALSE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -2145,12 +2145,12 @@ url
 with
 wildcard
 {
-UrlpPattern
+UrlPatternGlue
 pattern
 {
 }
 ;
-UrlpOptions
+UrlPatternOptions
 options
 =
 {
@@ -2185,7 +2185,7 @@ _ns
 bool
 res
 =
-urlp_parse_pattern_from_init
+urlpattern_parse_pattern_from_init
 (
 &
 init
@@ -2215,7 +2215,7 @@ wildcard
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 CreateSimpleInit
 (
@@ -2238,7 +2238,7 @@ _ns
 ;
 ASSERT_TRUE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -2256,7 +2256,7 @@ wildcard
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 CreateSimpleInit
 (
@@ -2280,7 +2280,7 @@ _ns
 ;
 ASSERT_TRUE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -2300,7 +2300,7 @@ wildcard
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 CreateSimpleInit
 (
@@ -2326,7 +2326,7 @@ _ns
 ;
 ASSERT_TRUE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -2352,12 +2352,12 @@ two
 slashes
 )
 {
-UrlpPattern
+UrlPatternGlue
 pattern
 {
 }
 ;
-UrlpOptions
+UrlPatternOptions
 options
 =
 {
@@ -2395,7 +2395,7 @@ _ns
 bool
 res
 =
-urlp_parse_pattern_from_init
+urlpattern_parse_pattern_from_init
 (
 &
 init
@@ -2427,7 +2427,7 @@ slashes
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 CreateSimpleInit
 (
@@ -2450,7 +2450,7 @@ _ns
 ;
 ASSERT_FALSE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -2467,7 +2467,7 @@ directory
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 CreateSimpleInit
 (
@@ -2491,7 +2491,7 @@ _ns
 ;
 ASSERT_FALSE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -2509,7 +2509,7 @@ slashes
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 CreateSimpleInit
 (
@@ -2533,7 +2533,7 @@ _ns
 ;
 ASSERT_FALSE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -2551,7 +2551,7 @@ works
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 CreateSimpleInit
 (
@@ -2576,7 +2576,7 @@ _ns
 ;
 ASSERT_TRUE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -2594,7 +2594,7 @@ filename
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 CreateSimpleInit
 (
@@ -2620,7 +2620,7 @@ _ns
 ;
 ASSERT_TRUE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -2637,7 +2637,7 @@ directory
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 CreateSimpleInit
 (
@@ -2664,7 +2664,7 @@ _ns
 ;
 ASSERT_TRUE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -2682,12 +2682,12 @@ s
 in
 protocol
 {
-UrlpPattern
+UrlPatternGlue
 pattern
 {
 }
 ;
-UrlpOptions
+UrlPatternOptions
 options
 =
 {
@@ -2725,7 +2725,7 @@ _ns
 bool
 res
 =
-urlp_parse_pattern_from_init
+urlpattern_parse_pattern_from_init
 (
 &
 init
@@ -2753,7 +2753,7 @@ matches
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 CreateSimpleInit
 (
@@ -2776,7 +2776,7 @@ _ns
 ;
 ASSERT_TRUE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -2793,7 +2793,7 @@ matches
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 CreateSimpleInit
 (
@@ -2816,7 +2816,7 @@ _ns
 ;
 ASSERT_TRUE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -2836,12 +2836,12 @@ with
 base
 domain
 {
-UrlpPattern
+UrlPatternGlue
 pattern
 {
 }
 ;
-UrlpOptions
+UrlPatternOptions
 options
 =
 {
@@ -2899,7 +2899,7 @@ _ns
 bool
 res
 =
-urlp_parse_pattern_from_init
+urlpattern_parse_pattern_from_init
 (
 &
 init
@@ -2923,7 +2923,7 @@ base
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 CreateSimpleInit
 (
@@ -2948,7 +2948,7 @@ _ns
 ;
 ASSERT_TRUE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -2961,7 +2961,7 @@ base
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 CreateSimpleInit
 (
@@ -2987,7 +2987,7 @@ _ns
 ;
 ASSERT_TRUE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -3011,7 +3011,7 @@ match
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 CreateSimpleInit
 (
@@ -3036,7 +3036,7 @@ _ns
 ;
 ASSERT_FALSE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -3061,7 +3061,7 @@ match
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 CreateSimpleInit
 (
@@ -3084,7 +3084,7 @@ _ns
 ;
 ASSERT_FALSE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -3135,12 +3135,12 @@ com
 "
 )
 ;
-UrlpPattern
+UrlPatternGlue
 pattern
 {
 }
 ;
-UrlpOptions
+UrlPatternOptions
 options
 =
 {
@@ -3153,7 +3153,7 @@ false
 bool
 res
 =
-urlp_parse_pattern_from_string
+urlpattern_parse_pattern_from_string
 (
 &
 str
@@ -3186,7 +3186,7 @@ up
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 "
 https
@@ -3202,7 +3202,7 @@ _ns
 ;
 ASSERT_TRUE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -3215,7 +3215,7 @@ base
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 "
 https
@@ -3232,7 +3232,7 @@ _ns
 ;
 ASSERT_TRUE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -3253,7 +3253,7 @@ fine
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 "
 https
@@ -3272,7 +3272,7 @@ _ns
 ;
 ASSERT_TRUE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -3297,7 +3297,7 @@ match
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 "
 https
@@ -3316,7 +3316,7 @@ _ns
 ;
 ASSERT_FALSE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -3335,7 +3335,7 @@ fine
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 "
 https
@@ -3354,7 +3354,7 @@ _ns
 ;
 ASSERT_TRUE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -3373,7 +3373,7 @@ fine
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 "
 https
@@ -3392,7 +3392,7 @@ _ns
 ;
 ASSERT_TRUE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -3409,7 +3409,7 @@ different
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 "
 https
@@ -3427,7 +3427,7 @@ _ns
 ;
 ASSERT_FALSE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -3444,7 +3444,7 @@ different
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 "
 http
@@ -3461,7 +3461,7 @@ _ns
 ;
 ASSERT_FALSE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -3478,7 +3478,7 @@ different
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 "
 http
@@ -3494,7 +3494,7 @@ _ns
 ;
 ASSERT_FALSE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -3565,12 +3565,12 @@ frag
 "
 )
 ;
-UrlpPattern
+UrlPatternGlue
 pattern
 {
 }
 ;
-UrlpOptions
+UrlPatternOptions
 options
 =
 {
@@ -3590,7 +3590,7 @@ baseUrl
 bool
 res
 =
-urlp_parse_pattern_from_string
+urlpattern_parse_pattern_from_string
 (
 &
 str
@@ -3622,7 +3622,7 @@ password
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 "
 https
@@ -3648,7 +3648,7 @@ _ns
 ;
 ASSERT_TRUE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -3665,7 +3665,7 @@ protocol
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 "
 user
@@ -3687,7 +3687,7 @@ _ns
 ;
 ASSERT_FALSE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -3704,7 +3704,7 @@ user
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 "
 https
@@ -3729,7 +3729,7 @@ _ns
 ;
 ASSERT_FALSE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -3748,7 +3748,7 @@ fine
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 "
 https
@@ -3772,7 +3772,7 @@ _ns
 ;
 ASSERT_TRUE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -3791,7 +3791,7 @@ fine
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 "
 https
@@ -3815,7 +3815,7 @@ _ns
 ;
 ASSERT_TRUE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -3832,7 +3832,7 @@ hostname
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 "
 https
@@ -3855,7 +3855,7 @@ _ns
 ;
 ASSERT_FALSE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -3872,7 +3872,7 @@ port
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 "
 https
@@ -3896,7 +3896,7 @@ _ns
 ;
 ASSERT_FALSE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -3913,7 +3913,7 @@ query
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 "
 https
@@ -3937,7 +3937,7 @@ _ns
 ;
 ASSERT_FALSE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -3954,7 +3954,7 @@ frag
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 "
 https
@@ -3978,7 +3978,7 @@ _ns
 ;
 ASSERT_FALSE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -4012,12 +4012,12 @@ com
 "
 )
 ;
-UrlpPattern
+UrlPatternGlue
 pattern
 {
 }
 ;
-UrlpOptions
+UrlPatternOptions
 options
 =
 {
@@ -4037,7 +4037,7 @@ baseUrl
 bool
 res
 =
-urlp_parse_pattern_from_string
+urlpattern_parse_pattern_from_string
 (
 &
 str
@@ -4063,7 +4063,7 @@ base
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 "
 https
@@ -4080,7 +4080,7 @@ _ns
 ;
 ASSERT_TRUE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -4093,7 +4093,7 @@ base
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 "
 https
@@ -4111,7 +4111,7 @@ _ns
 ;
 ASSERT_TRUE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -4124,7 +4124,7 @@ base
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 "
 https
@@ -4144,7 +4144,7 @@ _ns
 ;
 ASSERT_TRUE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -4189,12 +4189,12 @@ category
 "
 )
 ;
-UrlpPattern
+UrlPatternGlue
 pattern
 {
 }
 ;
-UrlpOptions
+UrlPatternOptions
 options
 =
 {
@@ -4214,7 +4214,7 @@ baseUrl
 bool
 res
 =
-urlp_parse_pattern_from_string
+urlpattern_parse_pattern_from_string
 (
 &
 str
@@ -4240,7 +4240,7 @@ base
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 "
 https
@@ -4257,7 +4257,7 @@ _ns
 ;
 ASSERT_FALSE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -4275,7 +4275,7 @@ slashes
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 "
 https
@@ -4293,7 +4293,7 @@ _ns
 ;
 ASSERT_FALSE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -4306,7 +4306,7 @@ base
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 "
 https
@@ -4325,7 +4325,7 @@ _ns
 ;
 ASSERT_TRUE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -4338,7 +4338,7 @@ base
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 "
 https
@@ -4358,7 +4358,7 @@ _ns
 ;
 ASSERT_TRUE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -4375,7 +4375,7 @@ slashes
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 "
 https
@@ -4396,7 +4396,7 @@ _ns
 ;
 ASSERT_TRUE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -4433,12 +4433,12 @@ com
 "
 )
 ;
-UrlpPattern
+UrlPatternGlue
 pattern
 {
 }
 ;
-UrlpOptions
+UrlPatternOptions
 options
 =
 {
@@ -4458,7 +4458,7 @@ baseUrl
 bool
 res
 =
-urlp_parse_pattern_from_string
+urlpattern_parse_pattern_from_string
 (
 &
 str
@@ -4484,7 +4484,7 @@ base
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 "
 http
@@ -4501,7 +4501,7 @@ _ns
 ;
 ASSERT_TRUE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -4514,7 +4514,7 @@ base
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 "
 https
@@ -4531,7 +4531,7 @@ _ns
 ;
 ASSERT_TRUE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -4564,12 +4564,12 @@ admin
 "
 )
 ;
-UrlpPattern
+UrlPatternGlue
 pattern
 {
 }
 ;
-UrlpOptions
+UrlPatternOptions
 options
 =
 {
@@ -4626,7 +4626,7 @@ true
 bool
 res
 =
-urlp_parse_pattern_from_string
+urlpattern_parse_pattern_from_string
 (
 &
 str
@@ -4652,7 +4652,7 @@ base
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 "
 https
@@ -4671,7 +4671,7 @@ _ns
 ;
 ASSERT_TRUE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -4684,7 +4684,7 @@ base
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 "
 https
@@ -4704,7 +4704,7 @@ _ns
 ;
 ASSERT_TRUE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -4717,7 +4717,7 @@ base
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 "
 https
@@ -4736,7 +4736,7 @@ _ns
 ;
 ASSERT_FALSE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -4749,7 +4749,7 @@ base
 auto
 test
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 "
 https
@@ -4766,7 +4766,7 @@ _ns
 ;
 ASSERT_FALSE
 (
-UrlpPatternTest
+UrlPatternTest
 (
 pattern
 test
@@ -4799,13 +4799,13 @@ com
 "
 )
 ;
-UrlpMatchInputAndInputs
+UrlPatternMatchInputAndInputs
 matchInputAndInputs
 ;
 bool
 res
 =
-urlp_process_match_input_from_string
+urlpattern_process_match_input_from_string
 (
 &
 url
@@ -4922,7 +4922,7 @@ matchInputAndInputs
 inputs
 .
 string_or_init_type
-UrlpStringOrInitType
+UrlPatternStringOrInitType
 :
 :
 String
@@ -4995,13 +4995,13 @@ dir
 "
 )
 ;
-UrlpMatchInputAndInputs
+UrlPatternMatchInputAndInputs
 matchInputAndInputs
 ;
 bool
 res
 =
-urlp_process_match_input_from_string
+urlpattern_process_match_input_from_string
 (
 &
 relative_url
@@ -5122,7 +5122,7 @@ matchInputAndInputs
 inputs
 .
 string_or_init_type
-UrlpStringOrInitType
+UrlPatternStringOrInitType
 :
 :
 String
@@ -5198,11 +5198,11 @@ void
 assert_inits_same
 (
 const
-UrlpInit
+UrlPatternInit
 &
 i1
 const
-UrlpInit
+UrlPatternInit
 &
 i2
 )
@@ -5302,11 +5302,11 @@ void
 assert_match_inputs_same
 (
 const
-UrlpMatchInput
+UrlPatternMatchInput
 &
 input
 const
-UrlpMatchInput
+UrlPatternMatchInput
 &
 expected
 )
@@ -5392,7 +5392,7 @@ hash
 )
 ;
 }
-UrlpMatchInput
+UrlPatternMatchInput
 createMatchInputHelper
 (
 const
@@ -5468,7 +5468,7 @@ MatchInputFromInit
 no
 base
 init
-UrlpMatchInputAndInputs
+UrlPatternMatchInputAndInputs
 matchInputAndInputs
 ;
 auto
@@ -5516,7 +5516,7 @@ _ns
 bool
 res
 =
-urlp_process_match_input_from_init
+urlpattern_process_match_input_from_init
 (
 &
 init
@@ -5530,7 +5530,7 @@ ASSERT_TRUE
 res
 )
 ;
-UrlpMatchInput
+UrlPatternMatchInput
 expected_match_input
 =
 createMatchInputHelper
@@ -5566,7 +5566,7 @@ matchInputAndInputs
 inputs
 .
 string_or_init_type
-UrlpStringOrInitType
+UrlPatternStringOrInitType
 :
 :
 Init
@@ -5668,13 +5668,13 @@ com
 "
 )
 ;
-UrlpMatchInputAndInputs
+UrlPatternMatchInputAndInputs
 matchInputAndInputs
 ;
 bool
 res
 =
-urlp_process_match_input_from_init
+urlpattern_process_match_input_from_init
 (
 &
 init
@@ -5688,7 +5688,7 @@ ASSERT_TRUE
 res
 )
 ;
-UrlpMatchInput
+UrlPatternMatchInput
 expected_match_input
 =
 createMatchInputHelper
@@ -5727,7 +5727,7 @@ matchInputAndInputs
 inputs
 .
 string_or_init_type
-UrlpStringOrInitType
+UrlPatternStringOrInitType
 :
 :
 Init
@@ -5789,7 +5789,7 @@ foo
 "
 )
 ;
-UrlpOptions
+UrlPatternOptions
 options
 =
 {
@@ -5799,7 +5799,7 @@ ignore_case
 false
 }
 ;
-UrlpPattern
+UrlPatternGlue
 pattern
 {
 }
@@ -5807,7 +5807,7 @@ pattern
 bool
 res
 =
-urlp_parse_pattern_from_string
+urlpattern_parse_pattern_from_string
 (
 &
 str
@@ -5844,10 +5844,10 @@ com
 "
 )
 ;
-UrlpInput
+UrlPatternInput
 input
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 inputString
 )
@@ -5860,11 +5860,11 @@ execBaseUrl
 ;
 Optional
 <
-UrlpResult
+UrlPatternResult
 >
 res2
 =
-UrlpPatternExec
+UrlPatternExec
 (
 pattern
 input
@@ -5884,7 +5884,7 @@ isNothing
 void
 assert_pattern_result
 (
-UrlpResult
+UrlPatternResult
 &
 res
 )
@@ -5998,7 +5998,7 @@ TestURLPatternGlue
 UrlPatternExecFromInit
 )
 {
-UrlpPattern
+UrlPatternGlue
 pattern
 {
 }
@@ -6024,7 +6024,7 @@ _ns
 _ns
 )
 ;
-UrlpOptions
+UrlPatternOptions
 options
 =
 {
@@ -6037,7 +6037,7 @@ false
 bool
 res
 =
-urlp_parse_pattern_from_init
+urlpattern_parse_pattern_from_init
 (
 &
 init
@@ -6058,10 +6058,10 @@ pattern
 _0
 )
 ;
-UrlpInput
+UrlPatternInput
 input
 =
-CreateUrlpInput
+CreateUrlPatternInput
 (
 init
 )
@@ -6074,11 +6074,11 @@ execBaseUrl
 ;
 Optional
 <
-UrlpResult
+UrlPatternResult
 >
 res2
 =
-UrlpPatternExec
+UrlPatternExec
 (
 pattern
 input
