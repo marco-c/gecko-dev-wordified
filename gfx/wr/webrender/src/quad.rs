@@ -7820,7 +7820,7 @@ pattern_transform
 ClipSpace
 :
 :
-Raster
+Device
 clip_transform_id
 quad_address
 quad_transform_id
