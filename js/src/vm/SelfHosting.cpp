@@ -12258,15 +12258,6 @@ intl_FindSegmentBoundaries
 2
 0
 )
-JS_FN
-(
-"
-intl_GetPluralCategories
-"
-intl_GetPluralCategories
-1
-0
-)
 JS_INLINABLE_FN
 (
 "

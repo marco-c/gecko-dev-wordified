@@ -3498,6 +3498,14 @@ plainTime
 \
 MACRO_
 (
+pluralCategories
+"
+pluralCategories
+"
+)
+\
+MACRO_
+(
 plusSign
 "
 plusSign
