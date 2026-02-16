@@ -2726,6 +2726,11 @@ HandleObject
 callee
 HandleObject
 newTarget
+Value
+*
+argv
+uint32_t
+argc
 MutableHandleValue
 rval
 )
@@ -2751,6 +2756,11 @@ gc
 AllocSite
 *
 site
+Value
+*
+argv
+uint32_t
+argc
 MutableHandleValue
 rval
 )
