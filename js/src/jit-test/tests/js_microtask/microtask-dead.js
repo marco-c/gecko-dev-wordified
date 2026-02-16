@@ -11,11 +11,6 @@ more
 -
 compartments
 ;
--
-P
-use_js_microtask_queue
-=
-true
 var
 called
 =
