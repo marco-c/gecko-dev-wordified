@@ -4689,7 +4689,7 @@ ImageTemplate
 >
 (
 )
-72
+68
 "
 ImageTemplate
 size
@@ -4755,7 +4755,7 @@ YuvImageTemplate
 >
 (
 )
-84
+80
 "
 YuvImageTemplate
 size
