@@ -72,6 +72,14 @@ mozperftest
 .
 metrics
 .
+eval
+import
+EvalMetrics
+from
+mozperftest
+.
+metrics
+.
 notebookupload
 import
 Notebook
@@ -156,8 +164,31 @@ mochitest
 "
 :
         
+#
+EvalMetrics
+must
+come
+before
+Perfherder
+so
+that
+eval
+results
+        
+#
+are
+added
+to
+metadata
+before
+Perfherder
+processes
+them
+.
+        
 layers
 =
+EvalMetrics
 Perfherder
 ConsoleOutput
     
