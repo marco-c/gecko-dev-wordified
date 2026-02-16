@@ -2484,6 +2484,30 @@ assert
 exist_ok
     
 def
+mock_remove
+(
+path
+)
+:
+        
+assert
+path
+=
+=
+"
+/
+source_dir
+/
+firefox
+/
+distribution
+/
+distribution
+.
+ini
+"
+    
+def
 mock_move
 (
 source
@@ -2517,6 +2541,10 @@ source_dir
 firefox
 /
 distribution
+/
+distribution
+.
+ini
 "
     
 monkeypatch
@@ -2535,6 +2563,19 @@ lambda
 _
 :
 True
+)
+    
+monkeypatch
+.
+setattr
+(
+utils
+.
+os
+"
+remove
+"
+mock_remove
 )
     
 monkeypatch
