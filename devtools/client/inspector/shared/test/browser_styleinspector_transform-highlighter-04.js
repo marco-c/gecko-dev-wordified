@@ -353,7 +353,7 @@ classRuleEditor
 .
 rule
 .
-_applyingModifications
+applyingModifications
 ;
 info
 (

@@ -225,7 +225,7 @@ js
 and
 stop
 using
-_applyingModifications
+applyingModifications
 /
 /
 info
@@ -295,7 +295,7 @@ true
 yield
 ruleEditor
 .
-_applyingModifications
+applyingModifications
 ;
 /
 /
