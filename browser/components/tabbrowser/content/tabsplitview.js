@@ -1640,6 +1640,16 @@ true
 ;
 }
 }
+if
+(
+this
+.
+hasActiveTab
+|
+|
+isSessionRestore
+)
+{
 this
 .
 #
@@ -1660,6 +1670,7 @@ this
 tabs
 )
 ;
+}
 /
 /
 Attempt
