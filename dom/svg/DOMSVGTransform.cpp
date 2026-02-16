@@ -1831,7 +1831,10 @@ it
 ;
 mTransform
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 SVGTransform
 >

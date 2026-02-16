@@ -2478,7 +2478,10 @@ patternWithChildren
 >
 mCTM
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 gfxMatrix
 >

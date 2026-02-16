@@ -882,7 +882,10 @@ mAnimVal
 {
 mAnimVal
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 SVGTransformList
 >
@@ -1260,7 +1263,10 @@ IsEmpty
 mAnimVal
 ;
 }
-UniquePtr
+std
+:
+:
+unique_ptr
 <
 SMILAttr
 >
@@ -1275,7 +1281,10 @@ aSVGElement
 )
 {
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 SMILAnimatedTransformList
 >

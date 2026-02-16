@@ -2182,7 +2182,10 @@ mClassAnimAttr
 {
 mClassAnimAttr
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsAttrValue
 >
@@ -13825,7 +13828,10 @@ strings
 )
 ;
 }
-UniquePtr
+std
+:
+:
+unique_ptr
 <
 SMILAttr
 >
@@ -13921,7 +13927,10 @@ mozAnimateMotionDummyAttr
 )
 {
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 SVGMotionSMILAttr
 >

@@ -3245,7 +3245,10 @@ GetContent
 ;
 mCanvasTM
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 gfxMatrix
 >

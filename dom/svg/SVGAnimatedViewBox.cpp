@@ -1018,7 +1018,10 @@ reporting
 that
 mAnimVal
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 SVGViewBox
 >
@@ -1591,7 +1594,10 @@ forget
 )
 ;
 }
-UniquePtr
+std
+:
+:
+unique_ptr
 <
 SMILAttr
 >
@@ -1606,7 +1612,10 @@ aSVGElement
 )
 {
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 SMILViewBox
 >

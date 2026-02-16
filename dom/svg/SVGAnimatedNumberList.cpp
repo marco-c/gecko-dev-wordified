@@ -665,7 +665,10 @@ mAnimVal
 {
 mAnimVal
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 SVGNumberList
 >
@@ -860,7 +863,10 @@ aAttrEnum
 )
 ;
 }
-UniquePtr
+std
+:
+:
+unique_ptr
 <
 SMILAttr
 >
@@ -877,7 +883,10 @@ aAttrEnum
 )
 {
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 SMILAnimatedNumberList
 >

@@ -35640,7 +35640,10 @@ kid
 return
 ;
 }
-UniquePtr
+std
+:
+:
+unique_ptr
 <
 gfxContext
 >

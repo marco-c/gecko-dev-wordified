@@ -438,7 +438,10 @@ times
 ;
 mSVGView
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 SVGView
 >
@@ -696,7 +699,10 @@ mSVGView
 >
 mTransforms
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 SVGAnimatedTransformList
 >
@@ -815,7 +821,10 @@ SVGSVGElement
 *
 mRoot
 ;
-UniquePtr
+std
+:
+:
+unique_ptr
 <
 SVGView
 >
@@ -1367,7 +1376,10 @@ rootElement
 >
 mCurrentViewID
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsString
 >

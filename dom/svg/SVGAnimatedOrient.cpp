@@ -2163,7 +2163,10 @@ mVal
 )
 ;
 }
-UniquePtr
+std
+:
+:
+unique_ptr
 <
 SMILAttr
 >
@@ -2192,7 +2195,10 @@ marker
 )
 {
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 SMILOrient
 >

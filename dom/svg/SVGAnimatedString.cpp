@@ -346,7 +346,10 @@ mAnimVal
 {
 mAnimVal
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsString
 >
@@ -369,7 +372,10 @@ mAttrEnum
 ;
 }
 }
-UniquePtr
+std
+:
+:
+unique_ptr
 <
 SMILAttr
 >
@@ -384,7 +390,10 @@ aSVGElement
 )
 {
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 SMILString
 >

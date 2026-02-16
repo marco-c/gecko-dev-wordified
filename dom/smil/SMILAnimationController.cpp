@@ -2479,7 +2479,10 @@ Create
 the
 compositor
 table
-UniquePtr
+std
+:
+:
+unique_ptr
 <
 SMILCompositorTable
 >

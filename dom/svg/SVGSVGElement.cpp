@@ -2455,7 +2455,10 @@ mTimedDocumentRoot
 {
 mTimedDocumentRoot
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 SMILTimeContainer
 >

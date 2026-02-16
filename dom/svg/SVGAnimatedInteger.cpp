@@ -743,7 +743,10 @@ mVal
 )
 ;
 }
-UniquePtr
+std
+:
+:
+unique_ptr
 <
 SMILAttr
 >
@@ -758,7 +761,10 @@ aSVGElement
 )
 {
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 SMILInteger
 >
