@@ -153,7 +153,9 @@ log_func
 (
 record
 .
-msg
+getMessage
+(
+)
 )
     
 def
