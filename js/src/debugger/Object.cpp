@@ -15579,6 +15579,13 @@ UndefinedValue
 )
 )
 ;
+cx
+-
+>
+hasDebuggerForcedLexicalInit
+=
+true
+;
 result
 =
 true
