@@ -338,13 +338,6 @@ Format
 :
 :
 String
-MS
-:
-:
-PayloadFlags
-:
-:
-Searchable
 }
 {
 "
@@ -367,13 +360,6 @@ Format
 :
 :
 TerminatingFlow
-MS
-:
-:
-PayloadFlags
-:
-:
-Searchable
 }
 }
 ;

@@ -6244,13 +6244,6 @@ Format
 :
 :
 String
-MS
-:
-:
-PayloadFlags
-:
-:
-Searchable
 }
 {
 "
@@ -6273,13 +6266,6 @@ Format
 :
 :
 Flow
-MS
-:
-:
-PayloadFlags
-:
-:
-Searchable
 }
 }
 ;
