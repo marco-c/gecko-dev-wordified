@@ -7389,6 +7389,16 @@ AliasType
 MayAlias
 ;
 }
+bool
+dominates
+(
+const
+MDefinition
+*
+other
+)
+const
+;
 virtual
 bool
 canRecoverOnBailout

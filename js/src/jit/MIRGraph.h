@@ -3491,6 +3491,7 @@ begin
 MInstructionIterator
 begin
 (
+const
 MInstruction
 *
 at
