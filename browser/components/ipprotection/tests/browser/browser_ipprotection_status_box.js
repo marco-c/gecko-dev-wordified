@@ -100,10 +100,10 @@ const
 mockBandwidthUsage
 =
 {
-currentBandwidthUsage
+remaining
 :
 50
-maxBandwidth
+max
 :
 150
 }
