@@ -10763,7 +10763,7 @@ else
 DictionaryCache
 :
 :
-RemoveDictionaryFor
+RemoveDictionaryOMT
 (
 mURI
 )
