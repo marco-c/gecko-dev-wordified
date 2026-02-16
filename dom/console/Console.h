@@ -2225,6 +2225,15 @@ DOMHighResTimeStamp
 aTimeStamp
 )
 ;
+mozilla
+:
+:
+TimeStamp
+GetCreationTimeStamp
+(
+)
+const
+;
 void
 StringifyElement
 (
