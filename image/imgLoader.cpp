@@ -12627,10 +12627,10 @@ newChannel
 >
 SetContentLength
 (
-aEntry
+request
 -
 >
-GetDataSize
+GetContentLength
 (
 )
 )
