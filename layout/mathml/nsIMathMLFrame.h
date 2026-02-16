@@ -1197,7 +1197,7 @@ gfx
 DrawTarget
 *
 aDrawTarget
-nsStretchDirection
+StretchDirection
 aStretchDirection
 nsBoundingMetrics
 &
@@ -2467,10 +2467,13 @@ core
 mo
 >
 supports
-nsStretchDirection
+StretchDirection
 direction
 =
-NS_STRETCH_DIRECTION_UNSUPPORTED
+StretchDirection
+:
+:
+Unsupported
 ;
 /
 /

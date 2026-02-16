@@ -2919,7 +2919,10 @@ Stretch
 this
 aDrawTarget
 fontSizeInflation
-NS_STRETCH_DIRECTION_VERTICAL
+StretchDirection
+:
+:
+Vertical
 contSize
 bmLongdivChar
 NS_STRETCH_LARGER
