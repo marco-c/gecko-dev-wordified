@@ -319,6 +319,7 @@ r_log
 h
 "
 static
+const
 char
 bin2hex_map
 [
@@ -1101,6 +1102,7 @@ ff
 int
 nr_nbin2hex
 (
+const
 UCHAR
 *
 bin
