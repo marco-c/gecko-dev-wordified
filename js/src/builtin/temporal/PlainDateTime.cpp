@@ -977,7 +977,7 @@ time
 object
 -
 >
-setFixedSlot
+initFixedSlot
 (
 PlainDateTimeObject
 :
@@ -994,7 +994,7 @@ value
 object
 -
 >
-setFixedSlot
+initFixedSlot
 (
 PlainDateTimeObject
 :
@@ -1025,7 +1025,7 @@ Step
 object
 -
 >
-setFixedSlot
+initFixedSlot
 (
 PlainDateTimeObject
 :
@@ -1182,7 +1182,7 @@ time
 object
 -
 >
-setFixedSlot
+initFixedSlot
 (
 PlainDateTimeObject
 :
@@ -1199,7 +1199,7 @@ value
 object
 -
 >
-setFixedSlot
+initFixedSlot
 (
 PlainDateTimeObject
 :
@@ -1230,7 +1230,7 @@ Step
 object
 -
 >
-setFixedSlot
+initFixedSlot
 (
 PlainDateTimeObject
 :
@@ -3267,9 +3267,15 @@ BalanceISODate
 isoDateTime
 .
 date
+static_cast
+<
+int32_t
+>
+(
 roundedTime
 .
 days
+)
 )
 ;
 /
@@ -3743,7 +3749,6 @@ return
 true
 ;
 }
-else
 if
 (
 unit
