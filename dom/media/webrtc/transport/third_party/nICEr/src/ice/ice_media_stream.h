@@ -637,17 +637,6 @@ streamp
 )
 ;
 int
-nr_ice_media_stream_finalize
-(
-nr_ice_media_stream
-*
-lstr
-nr_ice_media_stream
-*
-rstr
-)
-;
-int
 nr_ice_media_stream_initialize
 (
 struct
