@@ -573,7 +573,7 @@ switch
 (
 styleValue
 .
-GetValueType
+GetStyleValueType
 (
 )
 )
@@ -582,7 +582,7 @@ case
 CSSStyleValue
 :
 :
-ValueType
+StyleValueType
 :
 :
 MathSum
@@ -613,7 +613,7 @@ case
 CSSStyleValue
 :
 :
-ValueType
+StyleValueType
 :
 :
 UnitValue
@@ -644,7 +644,7 @@ case
 CSSStyleValue
 :
 :
-ValueType
+StyleValueType
 :
 :
 KeywordValue
@@ -675,7 +675,7 @@ case
 CSSStyleValue
 :
 :
-ValueType
+StyleValueType
 :
 :
 UnsupportedValue
@@ -706,7 +706,7 @@ case
 CSSStyleValue
 :
 :
-ValueType
+StyleValueType
 :
 :
 Uninitialized

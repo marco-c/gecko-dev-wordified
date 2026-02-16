@@ -174,8 +174,8 @@ nsCOMPtr
 nsISupports
 >
 aParent
-ValueType
-aValueType
+StyleValueType
+aStyleValueType
 )
 :
 CSSNumericValue
@@ -187,7 +187,7 @@ move
 (
 aParent
 )
-aValueType
+aStyleValueType
 )
 {
 }
