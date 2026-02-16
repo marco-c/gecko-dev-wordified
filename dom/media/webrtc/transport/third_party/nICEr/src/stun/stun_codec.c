@@ -3601,7 +3601,7 @@ pad
 }
 ;
 UCHAR
-class
+err_class
 =
 error_code
 -
@@ -3611,7 +3611,7 @@ number
 100
 ;
 UCHAR
-number
+err_number
 =
 error_code
 -
@@ -3661,7 +3661,7 @@ offset
 nr_stun_encode
 (
 &
-class
+err_class
 1
 buflen
 buf
@@ -3673,7 +3673,7 @@ offset
 nr_stun_encode
 (
 &
-number
+err_number
 1
 buflen
 buf
@@ -3754,10 +3754,10 @@ pad
 ]
 ;
 UCHAR
-class
+err_class
 ;
 UCHAR
-number
+err_number
 ;
 size_t
 size_reason
@@ -3783,7 +3783,7 @@ buflen
 &
 offset
 &
-class
+err_class
 )
 |
 |
@@ -3795,7 +3795,7 @@ buflen
 &
 offset
 &
-number
+err_number
 )
 )
 ABORT
@@ -3809,12 +3809,12 @@ result
 number
 =
 (
-class
+err_class
 *
 100
 )
 +
-number
+err_number
 ;
 size_reason
 =
