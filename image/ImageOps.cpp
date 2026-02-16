@@ -1098,12 +1098,8 @@ get
 DecoderFlags
 decoderFlags
 =
-DecoderFactory
-:
-:
-GetDefaultDecoderFlagsForType
+DefaultDecoderFlags
 (
-decoderType
 )
 ;
 decoderFlags
