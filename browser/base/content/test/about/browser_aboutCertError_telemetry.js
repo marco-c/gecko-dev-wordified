@@ -886,11 +886,9 @@ true
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 el
-2
-2
 {
 }
 content
