@@ -467,7 +467,7 @@ base
 }
 TEST
 (
-TestURLPatternGlue
+TestUrlPatternGlue
 PatternFromStringOnlyPathname
 )
 {
@@ -525,7 +525,7 @@ _0
 }
 TEST
 (
-TestURLPatternGlue
+TestUrlPatternGlue
 PatternFromString
 )
 {
@@ -592,7 +592,7 @@ from
 init
 TEST
 (
-TestURLPatternGlue
+TestUrlPatternGlue
 PatternFromInit
 )
 {
@@ -676,7 +676,7 @@ _ns
 }
 TEST
 (
-TestURLPatternGlue
+TestUrlPatternGlue
 PatternFromInitOnlyPathname
 )
 {
@@ -909,7 +909,7 @@ pattern
 getters
 TEST
 (
-TestURLPatternGlue
+TestUrlPatternGlue
 UrlPatternGetters
 )
 {
@@ -1169,7 +1169,7 @@ test
 from_init
 TEST
 (
-TestURLPatternGlue
+TestUrlPatternGlue
 UrlPatternTestInit
 )
 {
@@ -3105,7 +3105,7 @@ test
 from_string
 TEST
 (
-TestURLPatternGlue
+TestUrlPatternGlue
 UrlPatternTestString
 )
 {
@@ -4779,7 +4779,7 @@ base
 }
 TEST
 (
-TestURLPatternGlue
+TestUrlPatternGlue
 MatchInputFromString
 )
 {
@@ -5458,7 +5458,7 @@ _ns
 }
 TEST
 (
-TestURLPatternGlue
+TestUrlPatternGlue
 MatchInputFromInit
 )
 {
@@ -5771,7 +5771,7 @@ false
 }
 TEST
 (
-TestURLPatternGlue
+TestUrlPatternGlue
 UrlPatternExecFromString
 )
 {
@@ -5994,7 +5994,7 @@ Length
 }
 TEST
 (
-TestURLPatternGlue
+TestUrlPatternGlue
 UrlPatternExecFromInit
 )
 {
