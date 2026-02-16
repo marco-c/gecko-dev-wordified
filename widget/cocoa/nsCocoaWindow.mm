@@ -1810,7 +1810,7 @@ NSLog
 view
 is
 %
-x
+p
 frame
 %
 "

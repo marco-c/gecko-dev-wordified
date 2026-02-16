@@ -602,7 +602,7 @@ SprintfLiteral
 query_pid
 "
 %
-u
+d
 "
 getpid
 (
