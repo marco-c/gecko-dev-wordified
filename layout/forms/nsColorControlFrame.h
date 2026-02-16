@@ -134,6 +134,13 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+nsIAnonymousContentCreator
+.
+h
+"
 namespace
 mozilla
 {
@@ -164,6 +171,8 @@ mozilla
 :
 :
 ButtonControlFrame
+public
+nsIAnonymousContentCreator
 {
 typedef
 mozilla

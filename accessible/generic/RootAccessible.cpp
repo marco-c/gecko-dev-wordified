@@ -1086,7 +1086,7 @@ when
 value
 changes
 immediately
-wether
+whether
 or
 not
 focused

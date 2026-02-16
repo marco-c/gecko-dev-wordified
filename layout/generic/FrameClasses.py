@@ -500,8 +500,6 @@ nsComboboxControlFrame
 ComboboxControl
 "
 REPLACED
-|
-LEAF
 )
     
 Frame
