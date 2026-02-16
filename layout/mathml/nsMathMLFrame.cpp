@@ -1478,13 +1478,19 @@ aString
 nscoord
 *
 aLengthValue
-uint32_t
-aFlags
 float
 aFontSizeInflation
 nsIFrame
 *
 aFrame
+dom
+:
+:
+MathMLElement
+:
+:
+ParseFlags
+aFlags
 )
 {
 nsCSSValue
@@ -1503,7 +1509,6 @@ ParseNumericValue
 (
 aString
 cssValue
-aFlags
 aFrame
 -
 >
@@ -1515,6 +1520,7 @@ PresContext
 Document
 (
 )
+aFlags
 )
 )
 {
