@@ -2964,8 +2964,6 @@ bool
 shouldUseCache
 =
 !
-options
-.
 ignoreCache
 &
 &
@@ -3123,6 +3121,9 @@ cache
 storeIntoStartupCache
 =
 cache
+&
+&
+shouldUseCache
 ;
 JS
 :
@@ -3260,8 +3261,7 @@ cache
 bool
 storeIntoPreloadCache
 =
-!
-ignoreCache
+shouldUseCache
 &
 &
 !
