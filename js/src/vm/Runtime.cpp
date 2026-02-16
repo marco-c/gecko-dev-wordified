@@ -4386,7 +4386,7 @@ return
 zone
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 &

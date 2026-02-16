@@ -782,7 +782,7 @@ zone
 )
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 )
@@ -2026,7 +2026,7 @@ zone
 )
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 )
@@ -2224,7 +2224,7 @@ zone
 )
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 )

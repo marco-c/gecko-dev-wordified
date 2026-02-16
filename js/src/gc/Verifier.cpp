@@ -1883,6 +1883,7 @@ zone
 >
 changeGCState
 (
+this
 Zone
 :
 :
@@ -1896,8 +1897,9 @@ VerifyPreBarriers
 zone
 -
 >
-setNeedsIncrementalBarrier
+setNeedsMarkingBarrier
 (
+this
 true
 )
 ;
@@ -2465,6 +2467,7 @@ zone
 >
 changeGCState
 (
+this
 Zone
 :
 :
@@ -2500,7 +2503,7 @@ MOZ_ASSERT
 zone
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 )
@@ -4213,6 +4216,7 @@ zone
 >
 changeGCState
 (
+gc
 zone
 -
 >
@@ -4314,6 +4318,7 @@ zone
 >
 changeGCState
 (
+gc
 Zone
 :
 :

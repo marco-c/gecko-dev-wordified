@@ -1414,7 +1414,7 @@ if
 zone
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 )

@@ -618,7 +618,7 @@ isAtomsZone
 const
 uint32_t
 *
-addressOfNeedsIncrementalBarrier
+addressOfNeedsMarkingBarrier
 (
 )
 ;
@@ -705,6 +705,12 @@ gc
 AllocSite
 *
 tenuringAllocSite
+(
+)
+;
+void
+*
+jitZone
 (
 )
 ;

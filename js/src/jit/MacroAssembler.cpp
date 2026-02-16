@@ -57761,7 +57761,7 @@ an
 incremental
 GC
 .
-branchTestNeedsIncrementalBarrierAnyZone
+branchTestNeedsMarkingBarrierAnyZone
 (
 Assembler
 :

@@ -12638,7 +12638,7 @@ if
 shadowZone
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 &

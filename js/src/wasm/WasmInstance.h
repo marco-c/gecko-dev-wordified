@@ -938,7 +938,7 @@ zone
 )
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 .
@@ -979,7 +979,7 @@ Zone
 :
 BarrierState
 *
-addressOfNeedsIncrementalBarrier_
+addressOfNeedsMarkingBarrier_
 ;
 /
 /
@@ -2283,7 +2283,7 @@ addressOfLastBufferedWholeCell_
 static
 constexpr
 size_t
-offsetOfAddressOfNeedsIncrementalBarrier
+offsetOfAddressOfNeedsMarkingBarrier
 (
 )
 {
@@ -2291,7 +2291,7 @@ return
 offsetof
 (
 Instance
-addressOfNeedsIncrementalBarrier_
+addressOfNeedsMarkingBarrier_
 )
 ;
 }

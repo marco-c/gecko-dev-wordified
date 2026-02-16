@@ -9254,7 +9254,7 @@ if
 zone
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 )

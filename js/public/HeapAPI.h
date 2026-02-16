@@ -6201,7 +6201,7 @@ if
 zone
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 )
@@ -6357,7 +6357,7 @@ if
 zone
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 &

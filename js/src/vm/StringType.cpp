@@ -7322,7 +7322,7 @@ zone
 )
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 )

@@ -1305,7 +1305,7 @@ instance
 Instance
 :
 :
-offsetOfAddressOfNeedsIncrementalBarrier
+offsetOfAddressOfNeedsMarkingBarrier
 (
 )
 )

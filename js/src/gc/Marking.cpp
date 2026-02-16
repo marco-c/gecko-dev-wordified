@@ -6765,7 +6765,7 @@ MOZ_ASSERT
 zone
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 )
@@ -6875,7 +6875,7 @@ MOZ_ASSERT
 zone
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 )
@@ -7069,7 +7069,7 @@ MOZ_ASSERT
 zone
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 )
@@ -8260,7 +8260,7 @@ MOZ_ASSERT
 zone
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 )
@@ -18288,7 +18288,7 @@ MOZ_ASSERT
 zone
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 )

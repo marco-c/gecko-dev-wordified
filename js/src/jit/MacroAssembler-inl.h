@@ -5183,7 +5183,7 @@ void
 MacroAssembler
 :
 :
-branchTestNeedsIncrementalBarrier
+branchTestNeedsMarkingBarrier
 (
 Condition
 cond
@@ -5227,7 +5227,7 @@ needsBarrierAddr
 zone
 -
 >
-addressOfNeedsIncrementalBarrier
+addressOfNeedsMarkingBarrier
 (
 )
 ;
@@ -5250,7 +5250,7 @@ void
 MacroAssembler
 :
 :
-branchTestNeedsIncrementalBarrierAnyZone
+branchTestNeedsMarkingBarrierAnyZone
 (
 Condition
 cond
@@ -5280,7 +5280,7 @@ if
 maybeRealm_
 )
 {
-branchTestNeedsIncrementalBarrier
+branchTestNeedsMarkingBarrier
 (
 cond
 label
@@ -5337,7 +5337,7 @@ scratch
 Zone
 :
 :
-offsetOfNeedsIncrementalBarrier
+offsetOfNeedsMarkingBarrier
 (
 )
 )

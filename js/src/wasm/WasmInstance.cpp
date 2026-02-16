@@ -17735,7 +17735,7 @@ callRefMetrics_
 =
 nullptr
 ;
-addressOfNeedsIncrementalBarrier_
+addressOfNeedsMarkingBarrier_
 =
 cx
 -
@@ -17750,7 +17750,7 @@ zone
 )
 -
 >
-addressOfNeedsIncrementalBarrier
+addressOfNeedsMarkingBarrier
 (
 )
 ;

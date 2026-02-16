@@ -1583,7 +1583,7 @@ zoneFromAnyThread
 )
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 &

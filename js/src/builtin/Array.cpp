@@ -10854,7 +10854,7 @@ zone
 )
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 )

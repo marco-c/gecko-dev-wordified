@@ -2787,7 +2787,7 @@ CHECK
 (
 cache
 .
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 )
@@ -2887,7 +2887,7 @@ CHECK
 !
 cache
 .
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 )
@@ -3981,7 +3981,7 @@ CHECK
 (
 cache
 .
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 )
@@ -4050,7 +4050,7 @@ CHECK
 !
 cache
 .
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 )

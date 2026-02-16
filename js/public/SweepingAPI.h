@@ -485,7 +485,7 @@ false
 }
 virtual
 bool
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 const

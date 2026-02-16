@@ -6647,6 +6647,7 @@ zone
 >
 changeGCState
 (
+this
 zone
 -
 >
@@ -8525,6 +8526,7 @@ zone
 >
 changeGCState
 (
+this
 zone
 -
 >
@@ -11018,7 +11020,7 @@ if
 cache
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 )
@@ -11296,6 +11298,7 @@ zone
 >
 changeGCState
 (
+this
 Zone
 :
 :
@@ -12301,6 +12304,7 @@ zone
 >
 changeGCState
 (
+this
 Zone
 :
 :
@@ -13570,7 +13574,7 @@ MOZ_ASSERT
 cache
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 )
@@ -13744,7 +13748,7 @@ sweepCache
 sweepCache
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 )
@@ -13815,7 +13819,7 @@ sweepCache
 sweepCache
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 )

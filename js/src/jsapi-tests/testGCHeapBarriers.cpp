@@ -4702,7 +4702,7 @@ zone
 )
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 )

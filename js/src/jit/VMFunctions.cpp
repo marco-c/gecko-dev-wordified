@@ -22392,7 +22392,7 @@ if
 zone
 -
 >
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 )

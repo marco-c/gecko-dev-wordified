@@ -4146,7 +4146,7 @@ true
 ;
 }
 bool
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 const
@@ -5531,7 +5531,7 @@ true
 ;
 }
 bool
-needsIncrementalBarrier
+needsMarkingBarrier
 (
 )
 const
