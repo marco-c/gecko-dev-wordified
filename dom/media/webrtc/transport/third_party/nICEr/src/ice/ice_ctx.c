@@ -2756,6 +2756,10 @@ nr_ice_candidate
 *
 cand
 =
+(
+nr_ice_candidate
+*
+)
 cb_arg
 ;
 nr_ice_ctx

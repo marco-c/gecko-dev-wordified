@@ -1169,6 +1169,10 @@ nr_stun_client_ctx
 *
 ctx
 =
+(
+nr_stun_client_ctx
+*
+)
 cb_arg
 ;
 struct
