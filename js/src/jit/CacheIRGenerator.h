@@ -3003,7 +3003,7 @@ JSObject
 newTarget
 MutableHandle
 <
-Shape
+SharedShape
 *
 >
 result
@@ -3058,7 +3058,7 @@ Int32OperandId
 argcId
 CallFlags
 flags
-Shape
+SharedShape
 *
 thisShape
 gc
