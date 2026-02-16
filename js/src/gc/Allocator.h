@@ -1010,7 +1010,7 @@ Args
 >
 T
 *
-NewBuffer
+NewSizedBuffer
 (
 JS
 :

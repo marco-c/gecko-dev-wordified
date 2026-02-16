@@ -1592,7 +1592,7 @@ data
 gc
 :
 :
-NewBuffer
+NewSizedBuffer
 <
 Data
 >

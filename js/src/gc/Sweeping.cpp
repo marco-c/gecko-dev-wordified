@@ -9289,6 +9289,17 @@ sweepWeakMaps
 (
 )
 {
+AutoSetThreadIsSweeping
+threadIsSweeping
+;
+/
+/
+Allow
+access
+to
+all
+zones
+.
 SweepingTracer
 trc
 (
