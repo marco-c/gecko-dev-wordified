@@ -250,15 +250,6 @@ include
 "
 mozilla
 /
-AutoProfilerLabel
-.
-h
-"
-#
-include
-"
-mozilla
-/
 glue
 /
 Debug
