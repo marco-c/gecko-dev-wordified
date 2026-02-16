@@ -429,6 +429,13 @@ true
 )
 ;
 const
+restoreSignIn
+=
+skipSignIn
+(
+)
+;
+const
 currentWindowIsAIWindow
 =
 isAIWindow
@@ -905,6 +912,10 @@ closeHamburgerMenu
 )
 ;
 }
+restoreSignIn
+(
+)
+;
 await
 SpecialPowers
 .
