@@ -4583,7 +4583,6 @@ NS_ERROR_UNEXPECTED
 ;
 }
 virtual
-const
 nsCString
 Origin
 (
@@ -5897,7 +5896,6 @@ StorageDBParent
 :
 :
 CacheParentBridge
-const
 nsCString
 StorageDBParent
 :

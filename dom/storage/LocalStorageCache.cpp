@@ -1007,7 +1007,6 @@ IsPrivateBrowsingOrLess
 )
 ;
 }
-const
 nsCString
 LocalStorageCache
 :

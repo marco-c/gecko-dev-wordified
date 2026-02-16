@@ -259,7 +259,6 @@ see
 below
 .
 virtual
-const
 nsCString
 Origin
 (
@@ -1046,7 +1045,6 @@ aKeys
 /
 /
 LocalStorageCacheBridge
-const
 nsCString
 Origin
 (

@@ -2022,7 +2022,6 @@ default
 /
 LocalStorageCacheBridge
 virtual
-const
 nsCString
 Origin
 (
