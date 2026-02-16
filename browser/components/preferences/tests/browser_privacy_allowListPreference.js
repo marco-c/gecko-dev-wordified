@@ -123,6 +123,11 @@ CUSTOM_CONVENIENCE_CHECKBOX_ID
 contentBlockingConvenienceExceptionsCustom
 "
 ;
+requestLongerTimeout
+(
+2
+)
+;
 async
 function
 cleanUp
