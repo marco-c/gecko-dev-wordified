@@ -748,10 +748,8 @@ JSActorMessageMeta
 aMetadata
 JSIPCValue
 aData
-UniquePtr
-<
-ClonedMessageData
->
+nullable
+StructuredCloneData
 aStack
 )
 ;
