@@ -14254,6 +14254,9 @@ mNoTimerResolutionChange
 =
 true
 ;
+HANDLE
+mHiResTimer
+;
 #
 endif
 SamplerThread
