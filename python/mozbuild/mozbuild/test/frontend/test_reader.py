@@ -3452,7 +3452,9 @@ matchers
 /
 foo
 .
-jsm
+sys
+.
+mjs
 "
             
 "
@@ -3506,7 +3508,9 @@ matchers
 /
 foo
 .
-jsm
+sys
+.
+mjs
 "
 ]
         
