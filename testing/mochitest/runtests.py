@@ -7661,7 +7661,7 @@ mochitest
 logger_options
 {
 "
-tbpl
+raw
 "
 :
 sys
