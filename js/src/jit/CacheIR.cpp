@@ -89444,7 +89444,7 @@ numFixedSlots
 /
 /
 Call
-metaScriptedThisShape
+metaCreateThis
 before
 emitting
 the
@@ -89453,11 +89453,13 @@ so
 that
 Warp
 can
-/
-/
 use
 the
+/
+/
 shape
+/
+site
 to
 create
 the
@@ -89477,7 +89479,7 @@ maybeAllocSite
 ;
 writer
 .
-metaScriptedThisShape
+metaCreateThis
 (
 thisShape
 maybeAllocSite

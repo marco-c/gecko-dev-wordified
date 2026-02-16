@@ -35095,7 +35095,7 @@ this
 |
 based
 on
-MetaScriptedThisShape
+MetaCreateThis
 .
 We
 do
@@ -39985,7 +39985,7 @@ bool
 WarpCacheIRTranspiler
 :
 :
-emitMetaScriptedThisShape
+emitMetaCreateThis
 (
 uint32_t
 thisShapeOffset
