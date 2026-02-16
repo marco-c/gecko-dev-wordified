@@ -1,10 +1,4 @@
 #
-coding
-=
-utf
--
-8
-#
 #
 #
 #
@@ -122,40 +116,28 @@ EDIT
 #
 #
 #
+ruff
+:
 noqa
 :
-E128
-E201
+E501
 from
 .
 .
 client
 import
+(
+    
 BaseClient
-from
-.
-.
-client
-import
-createApiClient
-from
-.
-.
-client
-import
+    
 config
-from
-.
-.
-client
-import
-createTemporaryCredentials
-from
-.
-.
-client
-import
+    
+createApiClient
+    
 createSession
+    
+createTemporaryCredentials
+)
 _defaultConfig
 =
 config
@@ -249,17 +231,17 @@ v1
     
 serviceName
 =
-'
+"
 worker
 -
 manager
-'
+"
     
 apiVersion
 =
-'
+"
 v1
-'
+"
     
 def
 workerPoolCreated
@@ -440,191 +422,191 @@ ref
 =
 {
             
-'
+"
 exchange
-'
+"
 :
-'
+"
 worker
 -
 pool
 -
 created
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 workerPoolCreated
-'
+"
             
-'
+"
 routingKey
-'
+"
 :
 [
                 
 {
                     
-'
+"
 constant
-'
+"
 :
-'
+"
 primary
-'
+"
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 routingKeyKind
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 providerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 provisionerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerType
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerGroup
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 launchConfigId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 True
                     
-'
+"
 name
-'
+"
 :
-'
+"
 reserved
-'
+"
                 
 }
             
 ]
             
-'
+"
 schema
-'
+"
 :
-'
+"
 v1
 /
 pulse
@@ -637,7 +619,7 @@ message
 .
 json
 #
-'
+"
         
 }
         
@@ -833,191 +815,191 @@ ref
 =
 {
             
-'
+"
 exchange
-'
+"
 :
-'
+"
 worker
 -
 pool
 -
 updated
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 workerPoolUpdated
-'
+"
             
-'
+"
 routingKey
-'
+"
 :
 [
                 
 {
                     
-'
+"
 constant
-'
+"
 :
-'
+"
 primary
-'
+"
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 routingKeyKind
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 providerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 provisionerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerType
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerGroup
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 launchConfigId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 True
                     
-'
+"
 name
-'
+"
 :
-'
+"
 reserved
-'
+"
                 
 }
             
 ]
             
-'
+"
 schema
-'
+"
 :
-'
+"
 v1
 /
 pulse
@@ -1030,7 +1012,7 @@ message
 .
 json
 #
-'
+"
         
 }
         
@@ -1226,191 +1208,191 @@ ref
 =
 {
             
-'
+"
 exchange
-'
+"
 :
-'
+"
 worker
 -
 pool
 -
 error
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 workerPoolError
-'
+"
             
-'
+"
 routingKey
-'
+"
 :
 [
                 
 {
                     
-'
+"
 constant
-'
+"
 :
-'
+"
 primary
-'
+"
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 routingKeyKind
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 providerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 provisionerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerType
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerGroup
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 launchConfigId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 True
                     
-'
+"
 name
-'
+"
 :
-'
+"
 reserved
-'
+"
                 
 }
             
 ]
             
-'
+"
 schema
-'
+"
 :
-'
+"
 v1
 /
 pulse
@@ -1425,7 +1407,7 @@ message
 .
 json
 #
-'
+"
         
 }
         
@@ -1621,189 +1603,189 @@ ref
 =
 {
             
-'
+"
 exchange
-'
+"
 :
-'
+"
 worker
 -
 requested
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 workerRequested
-'
+"
             
-'
+"
 routingKey
-'
+"
 :
 [
                 
 {
                     
-'
+"
 constant
-'
+"
 :
-'
+"
 primary
-'
+"
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 routingKeyKind
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 providerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 provisionerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerType
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerGroup
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 launchConfigId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 True
                     
-'
+"
 name
-'
+"
 :
-'
+"
 reserved
-'
+"
                 
 }
             
 ]
             
-'
+"
 schema
-'
+"
 :
-'
+"
 v1
 /
 pulse
@@ -1814,7 +1796,7 @@ message
 .
 json
 #
-'
+"
         
 }
         
@@ -2024,189 +2006,189 @@ ref
 =
 {
             
-'
+"
 exchange
-'
+"
 :
-'
+"
 worker
 -
 running
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 workerRunning
-'
+"
             
-'
+"
 routingKey
-'
+"
 :
 [
                 
 {
                     
-'
+"
 constant
-'
+"
 :
-'
+"
 primary
-'
+"
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 routingKeyKind
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 providerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 provisionerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerType
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerGroup
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 launchConfigId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 True
                     
-'
+"
 name
-'
+"
 :
-'
+"
 reserved
-'
+"
                 
 }
             
 ]
             
-'
+"
 schema
-'
+"
 :
-'
+"
 v1
 /
 pulse
@@ -2217,7 +2199,7 @@ message
 .
 json
 #
-'
+"
         
 }
         
@@ -2425,189 +2407,189 @@ ref
 =
 {
             
-'
+"
 exchange
-'
+"
 :
-'
+"
 worker
 -
 stopped
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 workerStopped
-'
+"
             
-'
+"
 routingKey
-'
+"
 :
 [
                 
 {
                     
-'
+"
 constant
-'
+"
 :
-'
+"
 primary
-'
+"
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 routingKeyKind
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 providerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 provisionerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerType
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerGroup
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 launchConfigId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 True
                     
-'
+"
 name
-'
+"
 :
-'
+"
 reserved
-'
+"
                 
 }
             
 ]
             
-'
+"
 schema
-'
+"
 :
-'
+"
 v1
 /
 pulse
@@ -2618,7 +2600,7 @@ message
 .
 json
 #
-'
+"
         
 }
         
@@ -2852,189 +2834,189 @@ ref
 =
 {
             
-'
+"
 exchange
-'
+"
 :
-'
+"
 worker
 -
 removed
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 workerRemoved
-'
+"
             
-'
+"
 routingKey
-'
+"
 :
 [
                 
 {
                     
-'
+"
 constant
-'
+"
 :
-'
+"
 primary
-'
+"
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 routingKeyKind
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 providerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 provisionerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerType
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerGroup
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 launchConfigId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 True
                     
-'
+"
 name
-'
+"
 :
-'
+"
 reserved
-'
+"
                 
 }
             
 ]
             
-'
+"
 schema
-'
+"
 :
-'
+"
 v1
 /
 pulse
@@ -3047,7 +3029,7 @@ message
 .
 json
 #
-'
+"
         
 }
         
@@ -3235,191 +3217,191 @@ ref
 =
 {
             
-'
+"
 exchange
-'
+"
 :
-'
+"
 launch
 -
 config
 -
 created
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 launchConfigCreated
-'
+"
             
-'
+"
 routingKey
-'
+"
 :
 [
                 
 {
                     
-'
+"
 constant
-'
+"
 :
-'
+"
 primary
-'
+"
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 routingKeyKind
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 providerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 provisionerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerType
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerGroup
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 launchConfigId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 True
                     
-'
+"
 name
-'
+"
 :
-'
+"
 reserved
-'
+"
                 
 }
             
 ]
             
-'
+"
 schema
-'
+"
 :
-'
+"
 v1
 /
 pulse
@@ -3432,7 +3414,7 @@ message
 .
 json
 #
-'
+"
         
 }
         
@@ -3619,191 +3601,191 @@ ref
 =
 {
             
-'
+"
 exchange
-'
+"
 :
-'
+"
 launch
 -
 config
 -
 updated
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 launchConfigUpdated
-'
+"
             
-'
+"
 routingKey
-'
+"
 :
 [
                 
 {
                     
-'
+"
 constant
-'
+"
 :
-'
+"
 primary
-'
+"
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 routingKeyKind
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 providerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 provisionerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerType
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerGroup
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 launchConfigId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 True
                     
-'
+"
 name
-'
+"
 :
-'
+"
 reserved
-'
+"
                 
 }
             
 ]
             
-'
+"
 schema
-'
+"
 :
-'
+"
 v1
 /
 pulse
@@ -3816,7 +3798,7 @@ message
 .
 json
 #
-'
+"
         
 }
         
@@ -4003,191 +3985,191 @@ ref
 =
 {
             
-'
+"
 exchange
-'
+"
 :
-'
+"
 launch
 -
 config
 -
 archived
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 launchConfigArchived
-'
+"
             
-'
+"
 routingKey
-'
+"
 :
 [
                 
 {
                     
-'
+"
 constant
-'
+"
 :
-'
+"
 primary
-'
+"
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 routingKeyKind
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 providerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 provisionerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerType
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerGroup
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 workerId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 launchConfigId
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 True
                     
-'
+"
 name
-'
+"
 :
-'
+"
 reserved
-'
+"
                 
 }
             
 ]
             
-'
+"
 schema
-'
+"
 :
-'
+"
 v1
 /
 pulse
@@ -4200,7 +4182,7 @@ message
 .
 json
 #
-'
+"
         
 }
         
@@ -4220,27 +4202,32 @@ kwargs
 funcinfo
 =
 {
-    
 }
 __all__
 =
 [
-'
-createTemporaryCredentials
-'
-'
-config
-'
-'
-_defaultConfig
-'
-'
-createApiClient
-'
-'
-createSession
-'
-'
+    
+"
 WorkerManagerEvents
-'
+"
+    
+"
+_defaultConfig
+"
+    
+"
+config
+"
+    
+"
+createApiClient
+"
+    
+"
+createSession
+"
+    
+"
+createTemporaryCredentials
+"
 ]

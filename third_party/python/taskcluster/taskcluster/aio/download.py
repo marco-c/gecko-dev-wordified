@@ -128,17 +128,17 @@ cases
 "
 "
 import
-aiohttp
-import
 contextlib
 import
 datetime
+import
+hashlib
 from
 datetime
 import
 timezone
 import
-hashlib
+aiohttp
 from
 dateutil
 .
@@ -149,6 +149,23 @@ as
 dateparse
 from
 .
+.
+exceptions
+import
+(
+    
+ObjectHashVerificationError
+    
+TaskclusterArtifactError
+    
+TaskclusterFailure
+)
+from
+.
+import
+Object
+from
+.
 asyncutils
 import
 ensureCoro
@@ -156,26 +173,14 @@ from
 .
 reader_writer
 import
-streamingCopy
 BufferWriter
 FileWriter
+streamingCopy
 from
 .
 retry
 import
 retry
-from
-.
-import
-Object
-from
-.
-.
-exceptions
-import
-TaskclusterArtifactError
-TaskclusterFailure
-ObjectHashVerificationError
 #
 The
 subset
@@ -204,12 +209,12 @@ ACCEPTABLE_HASHES
 set
 (
 [
-'
+"
 sha256
-'
-'
+"
+"
 sha512
-'
+"
 ]
 )
 async
@@ -532,24 +537,27 @@ objectService
 startDownload
 )
 (
-name
-{
             
+name
+            
+{
+                
 "
 acceptDownloadMethods
 "
 :
 {
-                
+                    
 "
 getUrl
 "
 :
 True
+                
+}
             
 }
         
-}
 )
         
 method
@@ -574,12 +582,14 @@ return
 await
 _getUrlDownload
 (
+                
 name
 downloadResp
 objectService
 writerFactory
 session
 maxRetries
+            
 )
         
 else
@@ -589,19 +599,20 @@ raise
 RuntimeError
 (
 f
-'
+"
 Unknown
 download
 method
 {
 method
 }
-'
+"
 )
 async
 def
 _getUrlDownload
 (
+    
 name
 downloadResp
 objectService
@@ -682,12 +693,14 @@ downloadRespUsed
 and
 dateparse
 (
+                
 downloadResp
 [
 "
 expires
 "
 ]
+            
 )
 <
 datetime
@@ -712,24 +725,27 @@ objectService
 startDownload
 )
 (
-name
-{
                     
+name
+                    
+{
+                        
 "
 acceptDownloadMethods
 "
 :
 {
-                        
+                            
 "
 getUrl
 "
 :
 True
+                        
+}
                     
 }
                 
-}
 )
                 
 downloadRespUsed
@@ -1079,6 +1095,7 @@ async
 def
 downloadArtifact
 (
+    
 *
 taskId
 name
@@ -1207,9 +1224,9 @@ storageType
 ]
 =
 =
-'
+"
 s3
-'
+"
 or
 artifact
 [
@@ -1219,9 +1236,9 @@ storageType
 ]
 =
 =
-'
+"
 reference
-'
+"
 :
         
 async
@@ -1239,6 +1256,7 @@ return
 await
 _s3Download
 (
+                
 artifact
 [
 "
@@ -1248,6 +1266,7 @@ url
 writerFactory
 session
 maxRetries
+            
 )
     
 elif
@@ -1259,17 +1278,18 @@ storageType
 ]
 =
 =
-'
+"
 object
-'
+"
 :
         
 objectService
 =
 Object
 (
-{
             
+{
+                
 "
 rootUrl
 "
@@ -1282,13 +1302,13 @@ options
 rootUrl
 "
 ]
-            
+                
 "
 maxRetries
 "
 :
 maxRetries
-            
+                
 "
 credentials
 "
@@ -1299,8 +1319,9 @@ artifact
 credentials
 "
 ]
-        
+            
 }
+        
 )
         
 return
@@ -1328,6 +1349,7 @@ objectService
 writerFactory
 =
 writerFactory
+        
 )
     
 elif
@@ -1339,9 +1361,9 @@ storageType
 ]
 =
 =
-'
+"
 error
-'
+"
 :
         
 raise
@@ -1682,6 +1704,7 @@ eh
 raise
 ObjectHashVerificationError
 (
+                    
 f
 "
 Validation
@@ -1696,6 +1719,7 @@ algo
 hash
 failed
 "
+                
 )
             
 if
@@ -1716,6 +1740,7 @@ someValidAcceptableHash
 raise
 ObjectHashVerificationError
 (
+            
 "
 No
 acceptable
@@ -1725,6 +1750,7 @@ in
 object
 metadata
 "
+        
 )
 class
 HashingWriter

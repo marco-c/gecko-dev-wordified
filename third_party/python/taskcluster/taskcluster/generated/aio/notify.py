@@ -1,10 +1,4 @@
 #
-coding
-=
-utf
--
-8
-#
 #
 #
 #
@@ -122,10 +116,11 @@ EDIT
 #
 #
 #
+ruff
+:
 noqa
 :
-E128
-E201
+E501
 from
 .
 .
@@ -134,43 +129,18 @@ aio
 .
 asyncclient
 import
+(
+    
 AsyncBaseClient
-from
-.
-.
-.
-aio
-.
-asyncclient
-import
-createApiClient
-from
-.
-.
-.
-aio
-.
-asyncclient
-import
+    
 config
-from
-.
-.
-.
-aio
-.
-asyncclient
-import
-createTemporaryCredentials
-from
-.
-.
-.
-aio
-.
-asyncclient
-import
+    
+createApiClient
+    
 createSession
+    
+createTemporaryCredentials
+)
 _defaultConfig
 =
 config
@@ -214,20 +184,19 @@ messages
 classOptions
 =
 {
-    
 }
     
 serviceName
 =
-'
+"
 notify
-'
+"
     
 apiVersion
 =
-'
+"
 v1
-'
+"
     
 async
 def
@@ -975,6 +944,7 @@ self
 .
 _makeApiCall
 (
+            
 self
 .
 funcinfo
@@ -988,6 +958,7 @@ args
 *
 *
 kwargs
+        
 )
     
 async
@@ -1036,6 +1007,7 @@ self
 .
 _makeApiCall
 (
+            
 self
 .
 funcinfo
@@ -1049,6 +1021,7 @@ args
 *
 *
 kwargs
+        
 )
     
 async
@@ -1301,18 +1274,18 @@ addDenylistAddress
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 notification
@@ -1321,42 +1294,42 @@ address
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 addDenylistAddress
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 denylist
 /
 add
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 experimental
-'
+"
         
 }
         
@@ -1366,18 +1339,18 @@ deleteDenylistAddress
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 notification
@@ -1386,42 +1359,42 @@ address
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 delete
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 deleteDenylistAddress
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 denylist
 /
 delete
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 experimental
-'
+"
         
 }
         
@@ -1431,18 +1404,18 @@ email
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 email
@@ -1451,40 +1424,40 @@ request
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 email
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 email
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 experimental
-'
+"
         
 }
         
@@ -1494,45 +1467,45 @@ heartbeat
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 heartbeat
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 __heartbeat__
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -1542,45 +1515,45 @@ lbheartbeat
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 lbheartbeat
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 __lbheartbeat__
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -1590,34 +1563,34 @@ listDenylist
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 listDenylist
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 notification
@@ -1628,39 +1601,39 @@ list
 .
 json
 #
-'
+"
             
-'
+"
 query
-'
+"
 :
 [
-'
+"
 continuationToken
-'
-'
+"
+"
 limit
-'
+"
 ]
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 denylist
 /
 list
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 experimental
-'
+"
         
 }
         
@@ -1670,18 +1643,18 @@ matrix
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 matrix
@@ -1690,40 +1663,40 @@ request
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 matrix
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 matrix
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 experimental
-'
+"
         
 }
         
@@ -1733,45 +1706,45 @@ ping
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 ping
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 ping
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -1781,18 +1754,18 @@ pulse
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 pulse
@@ -1801,40 +1774,40 @@ request
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 pulse
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 pulse
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 experimental
-'
+"
         
 }
         
@@ -1844,18 +1817,18 @@ slack
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 slack
@@ -1864,40 +1837,40 @@ request
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 slack
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 slack
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 experimental
-'
+"
         
 }
         
@@ -1907,45 +1880,45 @@ version
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 version
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 __version__
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
     
@@ -1953,22 +1926,28 @@ stable
 __all__
 =
 [
-'
-createTemporaryCredentials
-'
-'
-config
-'
-'
-_defaultConfig
-'
-'
-createApiClient
-'
-'
-createSession
-'
-'
+    
+"
 Notify
-'
+"
+    
+"
+_defaultConfig
+"
+    
+"
+config
+"
+    
+"
+createApiClient
+"
+    
+"
+createSession
+"
+    
+"
+createTemporaryCredentials
+"
 ]

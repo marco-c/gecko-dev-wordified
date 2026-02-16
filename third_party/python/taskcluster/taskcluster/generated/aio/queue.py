@@ -1,10 +1,4 @@
 #
-coding
-=
-utf
--
-8
-#
 #
 #
 #
@@ -122,10 +116,11 @@ EDIT
 #
 #
 #
+ruff
+:
 noqa
 :
-E128
-E201
+E501
 from
 .
 .
@@ -134,43 +129,18 @@ aio
 .
 asyncclient
 import
+(
+    
 AsyncBaseClient
-from
-.
-.
-.
-aio
-.
-asyncclient
-import
-createApiClient
-from
-.
-.
-.
-aio
-.
-asyncclient
-import
+    
 config
-from
-.
-.
-.
-aio
-.
-asyncclient
-import
-createTemporaryCredentials
-from
-.
-.
-.
-aio
-.
-asyncclient
-import
+    
+createApiClient
+    
 createSession
+    
+createTemporaryCredentials
+)
 _defaultConfig
 =
 config
@@ -706,20 +676,19 @@ earlier
 classOptions
 =
 {
-    
 }
     
 serviceName
 =
-'
+"
 queue
-'
+"
     
 apiVersion
 =
-'
+"
 v1
-'
+"
     
 async
 def
@@ -1644,6 +1613,7 @@ self
 .
 _makeApiCall
 (
+            
 self
 .
 funcinfo
@@ -1657,6 +1627,7 @@ args
 *
 *
 kwargs
+        
 )
     
 async
@@ -2059,6 +2030,7 @@ self
 .
 _makeApiCall
 (
+            
 self
 .
 funcinfo
@@ -2072,6 +2044,7 @@ args
 *
 *
 kwargs
+        
 )
     
 async
@@ -3526,6 +3499,7 @@ self
 .
 _makeApiCall
 (
+            
 self
 .
 funcinfo
@@ -3539,6 +3513,7 @@ args
 *
 *
 kwargs
+        
 )
     
 async
@@ -3832,6 +3807,7 @@ self
 .
 _makeApiCall
 (
+            
 self
 .
 funcinfo
@@ -3845,6 +3821,7 @@ args
 *
 *
 kwargs
+        
 )
     
 async
@@ -4889,62 +4866,485 @@ public
         
 *
 *
-API
-Clients
+Response
 *
 *
+:
+the
+HTTP
+response
+to
 this
 method
-will
+is
+a
+303
 redirect
-you
 to
+the
+        
+URL
+from
+which
+the
+artifact
+can
+be
+downloaded
+.
+The
+body
+of
+that
+response
+        
+contains
+the
+data
+described
+in
+the
+output
+schema
+contianing
+the
+same
+URL
+.
+        
+Callers
+are
+encouraged
+to
+use
+whichever
+method
+of
+gathering
+the
+URL
+is
+        
+most
+convenient
+.
+Standard
+HTTP
+clients
+will
+follow
+the
+redirect
+while
+        
+API
+client
+libraries
+will
+return
+the
+JSON
+body
+.
+        
+In
+order
+to
+download
+an
+artifact
+the
+following
+must
+be
+done
+:
+        
+1
+.
+Obtain
+queue
+url
+.
+Building
+a
+signed
+url
+with
+a
+taskcluster
+client
+is
+        
+recommended
+        
+1
+.
+Make
+a
+GET
+request
+which
+does
+not
+follow
+redirects
+        
+1
+.
+In
+all
+cases
+if
+specified
+the
+        
+x
+-
+taskcluster
+-
+location
+-
+{
+content
+transfer
+}
+-
+{
+sha256
+length
+}
+values
+must
+be
+        
+validated
+to
+be
+equal
+to
+the
+Content
+-
+Length
+and
+Sha256
+checksum
+of
+the
+        
+final
+artifact
+downloaded
+.
+as
+well
+as
+any
+intermediate
+redirects
+        
+1
+.
+If
+this
+response
+is
+a
+500
+-
+series
+error
+retry
+using
+an
+exponential
+        
+backoff
+.
+No
+more
+than
+5
+retries
+should
+be
+attempted
+        
+1
+.
+If
+this
+response
+is
+a
+400
+-
+series
+error
+treat
+it
+appropriately
+for
+        
+your
+context
+.
+This
+might
+be
+an
+error
+in
+responding
+to
+this
+request
+or
+        
+an
+Error
+storage
+type
+body
+.
+This
+request
+should
+not
+be
+retried
+.
+        
+1
+.
+If
+this
+response
+is
+a
+200
+-
+series
+response
+the
+response
+body
+is
+the
+artifact
+.
+        
+If
+the
+x
+-
+taskcluster
+-
+location
+-
+{
+content
+transfer
+}
+-
+{
+sha256
+length
+}
+and
+        
+x
+-
+taskcluster
+-
+location
+-
+content
+-
+encoding
+are
+specified
+they
+should
+match
+        
+this
+response
+body
+        
+1
+.
+If
+the
+response
+type
+is
+a
+300
+-
+series
+redirect
+the
+artifact
+will
+be
+at
+the
+        
+location
+specified
+by
+the
+Location
+header
+.
+There
+are
+multiple
+artifact
+storage
+        
+types
+which
+use
+a
+300
+-
+series
+redirect
+.
+        
+1
+.
+For
+all
+redirects
+followed
+the
+user
+must
+verify
+that
+the
+content
+-
+sha256
+content
+-
+length
+        
+transfer
+-
+sha256
+transfer
+-
+length
+and
+content
+-
+encoding
+match
+every
+further
+request
+.
+The
+final
+        
+artifact
+must
+also
+be
+validated
+against
+the
+values
+specified
+in
+the
+original
+queue
+response
+        
+1
+.
+Caching
+of
+requests
+with
+an
+x
+-
+taskcluster
+-
+artifact
+-
+storage
+-
+type
+value
+of
+reference
+        
+must
+not
+occur
+        
+*
+*
+Headers
+*
+*
+        
+The
+following
+important
+headers
+are
+set
+on
+the
+response
+to
+this
+method
+:
+        
+*
+location
+:
+the
+url
+of
 the
 artifact
 if
-it
+a
+redirect
 is
-        
-stored
-externally
-.
-Either
-way
-the
-response
-may
-not
-be
-JSON
-.
-So
-API
-        
-client
-users
-might
-want
 to
-generate
-a
-signed
-URL
-for
-this
-end
--
-point
-and
+be
+performed
         
-use
-that
-URL
-with
-a
-normal
-HTTP
-client
+*
+x
+-
+taskcluster
+-
+artifact
+-
+storage
+-
+type
+:
+the
+storage
+type
 .
+Example
+:
+s3
         
 *
 *
@@ -4980,7 +5380,7 @@ run
 .
 Otherwise
 just
-us
+use
 the
 most
 convenient
@@ -5005,6 +5405,7 @@ self
 .
 _makeApiCall
 (
+            
 self
 .
 funcinfo
@@ -5018,6 +5419,7 @@ args
 *
 *
 kwargs
+        
 )
     
 async
@@ -5297,6 +5699,7 @@ self
 .
 _makeApiCall
 (
+            
 self
 .
 funcinfo
@@ -5310,6 +5713,7 @@ args
 *
 *
 kwargs
+        
 )
     
 async
@@ -5506,6 +5910,7 @@ self
 .
 _makeApiCall
 (
+            
 self
 .
 funcinfo
@@ -5519,6 +5924,7 @@ args
 *
 *
 kwargs
+        
 )
     
 async
@@ -5883,6 +6289,7 @@ self
 .
 _makeApiCall
 (
+            
 self
 .
 funcinfo
@@ -5896,6 +6303,7 @@ args
 *
 *
 kwargs
+        
 )
     
 async
@@ -6134,6 +6542,7 @@ self
 .
 _makeApiCall
 (
+            
 self
 .
 funcinfo
@@ -6147,6 +6556,7 @@ args
 *
 *
 kwargs
+        
 )
     
 async
@@ -6337,6 +6747,7 @@ self
 .
 _makeApiCall
 (
+            
 self
 .
 funcinfo
@@ -6350,6 +6761,7 @@ args
 *
 *
 kwargs
+        
 )
     
 async
@@ -6422,6 +6834,7 @@ self
 .
 _makeApiCall
 (
+            
 self
 .
 funcinfo
@@ -6435,6 +6848,7 @@ args
 *
 *
 kwargs
+        
 )
     
 async
@@ -6507,6 +6921,7 @@ self
 .
 _makeApiCall
 (
+            
 self
 .
 funcinfo
@@ -6520,6 +6935,7 @@ args
 *
 *
 kwargs
+        
 )
     
 async
@@ -6642,6 +7058,7 @@ self
 .
 _makeApiCall
 (
+            
 self
 .
 funcinfo
@@ -6655,6 +7072,7 @@ args
 *
 *
 kwargs
+        
 )
     
 async
@@ -6847,6 +7265,7 @@ self
 .
 _makeApiCall
 (
+            
 self
 .
 funcinfo
@@ -6860,6 +7279,7 @@ args
 *
 *
 kwargs
+        
 )
     
 async
@@ -7330,6 +7750,7 @@ self
 .
 _makeApiCall
 (
+            
 self
 .
 funcinfo
@@ -7343,6 +7764,7 @@ args
 *
 *
 kwargs
+        
 )
     
 async
@@ -7509,43 +7931,43 @@ artifact
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 taskId
-'
-'
+"
+"
 runId
-'
-'
+"
+"
 name
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 artifact
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 artifact
@@ -7556,13 +7978,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 task
 /
@@ -7583,15 +8005,15 @@ content
 <
 name
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -7601,43 +8023,43 @@ artifactInfo
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 taskId
-'
-'
+"
+"
 runId
-'
-'
+"
+"
 name
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 artifactInfo
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 artifact
@@ -7646,13 +8068,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 task
 /
@@ -7673,15 +8095,15 @@ info
 <
 name
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -7691,37 +8113,37 @@ cancelTask
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 taskId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 cancelTask
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 task
@@ -7732,13 +8154,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 task
 /
@@ -7747,15 +8169,15 @@ taskId
 >
 /
 cancel
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -7765,37 +8187,37 @@ cancelTaskGroup
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 taskGroupId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 cancelTaskGroup
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 cancel
@@ -7808,13 +8230,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 task
 -
@@ -7825,15 +8247,15 @@ taskGroupId
 >
 /
 cancel
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 experimental
-'
+"
         
 }
         
@@ -7843,24 +8265,24 @@ claimTask
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 taskId
-'
-'
+"
+"
 runId
-'
+"
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 task
@@ -7871,29 +8293,29 @@ request
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 claimTask
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 task
@@ -7904,13 +8326,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 task
 /
@@ -7925,15 +8347,15 @@ runId
 >
 /
 claim
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 deprecated
-'
+"
         
 }
         
@@ -7943,21 +8365,21 @@ claimWork
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 taskQueueId
-'
+"
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 claim
@@ -7968,29 +8390,29 @@ request
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 claimWork
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 claim
@@ -8001,13 +8423,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 claim
 -
@@ -8016,15 +8438,15 @@ work
 <
 taskQueueId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -8034,27 +8456,27 @@ createArtifact
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 taskId
-'
-'
+"
+"
 runId
-'
-'
+"
+"
 name
-'
+"
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 post
@@ -8065,29 +8487,29 @@ request
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 createArtifact
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 post
@@ -8098,13 +8520,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 task
 /
@@ -8123,15 +8545,15 @@ artifacts
 <
 name
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -8141,21 +8563,21 @@ createTask
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 taskId
-'
+"
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 create
@@ -8166,29 +8588,29 @@ request
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 put
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 createTask
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 task
@@ -8199,28 +8621,28 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 task
 /
 <
 taskId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -8230,21 +8652,21 @@ declareProvisioner
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 provisionerId
-'
+"
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 update
@@ -8255,29 +8677,29 @@ request
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 put
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 declareProvisioner
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 provisioner
@@ -8286,28 +8708,28 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 provisioners
 /
 <
 provisionerId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 deprecated
-'
+"
         
 }
         
@@ -8317,30 +8739,30 @@ declareWorker
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 provisionerId
-'
-'
+"
+"
 workerType
-'
-'
+"
+"
 workerGroup
-'
-'
+"
+"
 workerId
-'
+"
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 update
@@ -8351,29 +8773,29 @@ request
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 put
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 declareWorker
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 worker
@@ -8382,13 +8804,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 provisioners
 /
@@ -8411,15 +8833,15 @@ workerGroup
 <
 workerId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 experimental
-'
+"
         
 }
         
@@ -8429,24 +8851,24 @@ declareWorkerType
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 provisionerId
-'
-'
+"
+"
 workerType
-'
+"
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 update
@@ -8457,29 +8879,29 @@ request
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 put
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 declareWorkerType
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 workertype
@@ -8488,13 +8910,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 provisioners
 /
@@ -8509,15 +8931,15 @@ types
 <
 workerType
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 deprecated
-'
+"
         
 }
         
@@ -8527,27 +8949,27 @@ finishArtifact
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 taskId
-'
-'
+"
+"
 runId
-'
-'
+"
+"
 name
-'
+"
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 finish
@@ -8558,29 +8980,29 @@ request
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 put
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 finishArtifact
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 task
 /
@@ -8599,15 +9021,15 @@ artifacts
 <
 name
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -8617,43 +9039,43 @@ getArtifact
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 taskId
-'
-'
+"
+"
 runId
-'
-'
+"
+"
 name
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 getArtifact
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 get
@@ -8664,13 +9086,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 task
 /
@@ -8689,15 +9111,15 @@ artifacts
 <
 name
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -8707,40 +9129,40 @@ getLatestArtifact
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 taskId
-'
-'
+"
+"
 name
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 getLatestArtifact
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 get
@@ -8751,13 +9173,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 task
 /
@@ -8770,15 +9192,15 @@ artifacts
 <
 name
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -8788,37 +9210,37 @@ getProvisioner
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 provisionerId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 getProvisioner
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 provisioner
@@ -8827,28 +9249,28 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 provisioners
 /
 <
 provisionerId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 deprecated
-'
+"
         
 }
         
@@ -8858,37 +9280,37 @@ getTaskGroup
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 taskGroupId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 getTaskGroup
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 task
@@ -8899,13 +9321,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 task
 -
@@ -8914,15 +9336,15 @@ group
 <
 taskGroupId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -8932,37 +9354,37 @@ getTaskQueue
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 taskQueueId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 getTaskQueue
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 taskqueue
@@ -8971,13 +9393,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 task
 -
@@ -8986,15 +9408,15 @@ queues
 <
 taskQueueId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -9004,46 +9426,46 @@ getWorker
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 provisionerId
-'
-'
+"
+"
 workerType
-'
-'
+"
+"
 workerGroup
-'
-'
+"
+"
 workerId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 getWorker
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 worker
@@ -9052,13 +9474,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 provisioners
 /
@@ -9083,15 +9505,15 @@ workerGroup
 <
 workerId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 deprecated
-'
+"
         
 }
         
@@ -9101,40 +9523,40 @@ getWorkerType
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 provisionerId
-'
-'
+"
+"
 workerType
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 getWorkerType
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 workertype
@@ -9143,13 +9565,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 provisioners
 /
@@ -9164,15 +9586,15 @@ types
 <
 workerType
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 deprecated
-'
+"
         
 }
         
@@ -9182,45 +9604,45 @@ heartbeat
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 heartbeat
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 __heartbeat__
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -9230,40 +9652,40 @@ latestArtifact
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 taskId
-'
-'
+"
+"
 name
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 latestArtifact
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 artifact
@@ -9274,13 +9696,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 task
 /
@@ -9295,15 +9717,15 @@ content
 <
 name
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -9313,40 +9735,40 @@ latestArtifactInfo
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 taskId
-'
-'
+"
+"
 name
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 latestArtifactInfo
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 artifact
@@ -9355,13 +9777,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 task
 /
@@ -9376,15 +9798,15 @@ info
 <
 name
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -9394,45 +9816,45 @@ lbheartbeat
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 lbheartbeat
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 __lbheartbeat__
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -9442,40 +9864,40 @@ listArtifacts
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 taskId
-'
-'
+"
+"
 runId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 listArtifacts
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 list
@@ -9486,26 +9908,26 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 query
-'
+"
 :
 [
-'
+"
 continuationToken
-'
-'
+"
+"
 limit
-'
+"
 ]
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 task
 /
@@ -9520,15 +9942,15 @@ runId
 >
 /
 artifacts
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -9538,37 +9960,37 @@ listClaimedTasks
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 taskQueueId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 listClaimedTasks
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 list
@@ -9581,26 +10003,26 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 query
-'
+"
 :
 [
-'
+"
 continuationToken
-'
-'
+"
+"
 limit
-'
+"
 ]
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 task
 -
@@ -9611,15 +10033,15 @@ taskQueueId
 >
 /
 claimed
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 experimental
-'
+"
         
 }
         
@@ -9629,37 +10051,37 @@ listDependentTasks
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 taskId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 listDependentTasks
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 list
@@ -9672,26 +10094,26 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 query
-'
+"
 :
 [
-'
+"
 continuationToken
-'
-'
+"
+"
 limit
-'
+"
 ]
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 task
 /
@@ -9700,15 +10122,15 @@ taskId
 >
 /
 dependents
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -9718,37 +10140,37 @@ listLatestArtifacts
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 taskId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 listLatestArtifacts
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 list
@@ -9759,26 +10181,26 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 query
-'
+"
 :
 [
-'
+"
 continuationToken
-'
-'
+"
+"
 limit
-'
+"
 ]
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 task
 /
@@ -9787,15 +10209,15 @@ taskId
 >
 /
 artifacts
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -9805,37 +10227,37 @@ listPendingTasks
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 taskQueueId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 listPendingTasks
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 list
@@ -9848,26 +10270,26 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 query
-'
+"
 :
 [
-'
+"
 continuationToken
-'
-'
+"
+"
 limit
-'
+"
 ]
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 task
 -
@@ -9878,15 +10300,15 @@ taskQueueId
 >
 /
 pending
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 experimental
-'
+"
         
 }
         
@@ -9896,34 +10318,34 @@ listProvisioners
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 listProvisioners
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 list
@@ -9934,37 +10356,37 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 query
-'
+"
 :
 [
-'
+"
 continuationToken
-'
-'
+"
+"
 limit
-'
+"
 ]
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 provisioners
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 deprecated
-'
+"
         
 }
         
@@ -9974,37 +10396,37 @@ listTaskGroup
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 taskGroupId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 listTaskGroup
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 list
@@ -10017,26 +10439,26 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 query
-'
+"
 :
 [
-'
+"
 continuationToken
-'
-'
+"
+"
 limit
-'
+"
 ]
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 task
 -
@@ -10047,15 +10469,15 @@ taskGroupId
 >
 /
 list
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -10065,34 +10487,34 @@ listTaskQueues
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 listTaskQueues
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 list
@@ -10103,39 +10525,39 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 query
-'
+"
 :
 [
-'
+"
 continuationToken
-'
-'
+"
+"
 limit
-'
+"
 ]
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 task
 -
 queues
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -10145,37 +10567,37 @@ listWorkerTypes
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 provisionerId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 listWorkerTypes
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 list
@@ -10186,26 +10608,26 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 query
-'
+"
 :
 [
-'
+"
 continuationToken
-'
-'
+"
+"
 limit
-'
+"
 ]
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 provisioners
 /
@@ -10216,15 +10638,15 @@ provisionerId
 worker
 -
 types
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 deprecated
-'
+"
         
 }
         
@@ -10234,40 +10656,40 @@ listWorkers
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 provisionerId
-'
-'
+"
+"
 workerType
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 listWorkers
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 list
@@ -10278,29 +10700,29 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 query
-'
+"
 :
 [
-'
+"
 continuationToken
-'
-'
+"
+"
 limit
-'
-'
+"
+"
 quarantined
-'
+"
 ]
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 provisioners
 /
@@ -10317,15 +10739,15 @@ workerType
 >
 /
 workers
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 deprecated
-'
+"
         
 }
         
@@ -10335,37 +10757,37 @@ pendingTasks
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 taskQueueId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 pendingTasks
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 pending
@@ -10376,28 +10798,28 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 pending
 /
 <
 taskQueueId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 deprecated
-'
+"
         
 }
         
@@ -10407,45 +10829,45 @@ ping
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 ping
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 ping
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -10455,30 +10877,30 @@ quarantineWorker
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 provisionerId
-'
-'
+"
+"
 workerType
-'
-'
+"
+"
 workerGroup
-'
-'
+"
+"
 workerId
-'
+"
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 quarantine
@@ -10489,29 +10911,29 @@ request
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 put
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 quarantineWorker
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 worker
@@ -10520,13 +10942,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 provisioners
 /
@@ -10551,15 +10973,15 @@ workerGroup
 <
 workerId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 experimental
-'
+"
         
 }
         
@@ -10569,40 +10991,40 @@ reclaimTask
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 taskId
-'
-'
+"
+"
 runId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 reclaimTask
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 task
@@ -10613,13 +11035,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 task
 /
@@ -10634,15 +11056,15 @@ runId
 >
 /
 reclaim
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -10652,40 +11074,40 @@ reportCompleted
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 taskId
-'
-'
+"
+"
 runId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 reportCompleted
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 task
@@ -10696,13 +11118,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 task
 /
@@ -10717,15 +11139,15 @@ runId
 >
 /
 completed
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -10735,24 +11157,24 @@ reportException
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 taskId
-'
-'
+"
+"
 runId
-'
+"
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 task
@@ -10763,29 +11185,29 @@ request
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 reportException
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 task
@@ -10796,13 +11218,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 task
 /
@@ -10817,15 +11239,15 @@ runId
 >
 /
 exception
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -10835,40 +11257,40 @@ reportFailed
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 taskId
-'
-'
+"
+"
 runId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 reportFailed
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 task
@@ -10879,13 +11301,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 task
 /
@@ -10900,15 +11322,15 @@ runId
 >
 /
 failed
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -10918,37 +11340,37 @@ rerunTask
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 taskId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 rerunTask
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 task
@@ -10959,13 +11381,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 task
 /
@@ -10974,15 +11396,15 @@ taskId
 >
 /
 rerun
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -10992,37 +11414,37 @@ scheduleTask
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 taskId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 scheduleTask
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 task
@@ -11033,13 +11455,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 task
 /
@@ -11048,15 +11470,15 @@ taskId
 >
 /
 schedule
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -11066,37 +11488,37 @@ sealTaskGroup
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 taskGroupId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 sealTaskGroup
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 task
@@ -11107,13 +11529,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 task
 -
@@ -11124,15 +11546,15 @@ taskGroupId
 >
 /
 seal
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 experimental
-'
+"
         
 }
         
@@ -11142,37 +11564,37 @@ status
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 taskId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 status
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 task
@@ -11183,13 +11605,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 task
 /
@@ -11198,15 +11620,15 @@ taskId
 >
 /
 status
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -11216,18 +11638,18 @@ statuses
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 tasks
@@ -11236,29 +11658,29 @@ request
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 statuses
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 tasks
@@ -11269,39 +11691,39 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 query
-'
+"
 :
 [
-'
+"
 continuationToken
-'
-'
+"
+"
 limit
-'
+"
 ]
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 tasks
 /
 status
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 experimental
-'
+"
         
 }
         
@@ -11311,65 +11733,65 @@ task
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 taskId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 task
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 task
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 task
 /
 <
 taskId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -11379,37 +11801,37 @@ taskQueueCounts
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 taskQueueId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 taskQueueCounts
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 task
@@ -11422,13 +11844,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 task
 -
@@ -11439,15 +11861,15 @@ taskQueueId
 >
 /
 counts
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -11457,18 +11879,18 @@ tasks
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 tasks
@@ -11477,29 +11899,29 @@ request
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 tasks
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 tasks
@@ -11508,37 +11930,37 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 query
-'
+"
 :
 [
-'
+"
 continuationToken
-'
-'
+"
+"
 limit
-'
+"
 ]
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 tasks
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 experimental
-'
+"
         
 }
         
@@ -11548,45 +11970,45 @@ version
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 version
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 __version__
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
     
@@ -11594,22 +12016,28 @@ stable
 __all__
 =
 [
-'
-createTemporaryCredentials
-'
-'
-config
-'
-'
-_defaultConfig
-'
-'
-createApiClient
-'
-'
-createSession
-'
-'
+    
+"
 Queue
-'
+"
+    
+"
+_defaultConfig
+"
+    
+"
+config
+"
+    
+"
+createApiClient
+"
+    
+"
+createSession
+"
+    
+"
+createTemporaryCredentials
+"
 ]

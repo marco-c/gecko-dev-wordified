@@ -134,7 +134,7 @@ log
 .
 info
 (
-'
+"
 Sleeping
 %
 0
@@ -144,7 +144,7 @@ seconds
 for
 exponential
 backoff
-'
+"
 snooze
 )
             
@@ -204,7 +204,7 @@ log
 warning
 (
 f
-'
+"
 Retrying
 because
 of
@@ -212,7 +212,7 @@ of
 {
 retriableException
 }
-'
+"
 )
             
 continue

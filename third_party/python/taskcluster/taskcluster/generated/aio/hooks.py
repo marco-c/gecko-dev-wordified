@@ -1,10 +1,4 @@
 #
-coding
-=
-utf
--
-8
-#
 #
 #
 #
@@ -122,10 +116,11 @@ EDIT
 #
 #
 #
+ruff
+:
 noqa
 :
-E128
-E201
+E501
 from
 .
 .
@@ -134,43 +129,18 @@ aio
 .
 asyncclient
 import
+(
+    
 AsyncBaseClient
-from
-.
-.
-.
-aio
-.
-asyncclient
-import
-createApiClient
-from
-.
-.
-.
-aio
-.
-asyncclient
-import
+    
 config
-from
-.
-.
-.
-aio
-.
-asyncclient
-import
-createTemporaryCredentials
-from
-.
-.
-.
-aio
-.
-asyncclient
-import
+    
+createApiClient
+    
 createSession
+    
+createTemporaryCredentials
+)
 _defaultConfig
 =
 config
@@ -207,20 +177,19 @@ events
 classOptions
 =
 {
-    
 }
     
 serviceName
 =
-'
+"
 hooks
-'
+"
     
 apiVersion
 =
-'
+"
 v1
-'
+"
     
 async
 def
@@ -1133,6 +1102,7 @@ self
 .
 _makeApiCall
 (
+            
 self
 .
 funcinfo
@@ -1146,6 +1116,7 @@ args
 *
 *
 kwargs
+        
 )
     
 async
@@ -1211,6 +1182,7 @@ self
 .
 _makeApiCall
 (
+            
 self
 .
 funcinfo
@@ -1224,6 +1196,7 @@ args
 *
 *
 kwargs
+        
 )
     
 async
@@ -1312,6 +1285,7 @@ self
 .
 _makeApiCall
 (
+            
 self
 .
 funcinfo
@@ -1325,6 +1299,7 @@ args
 *
 *
 kwargs
+        
 )
     
 async
@@ -1507,24 +1482,24 @@ createHook
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 hookGroupId
-'
-'
+"
+"
 hookId
-'
+"
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 create
@@ -1535,29 +1510,29 @@ request
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 put
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 createHook
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 hook
@@ -1566,13 +1541,13 @@ definition
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 hooks
 /
@@ -1583,15 +1558,15 @@ hookGroupId
 <
 hookId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -1601,40 +1576,40 @@ getHookStatus
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 hookGroupId
-'
-'
+"
+"
 hookId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 getHookStatus
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 hook
@@ -1643,13 +1618,13 @@ status
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 hooks
 /
@@ -1662,15 +1637,15 @@ hookId
 >
 /
 status
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 deprecated
-'
+"
         
 }
         
@@ -1680,40 +1655,40 @@ getTriggerToken
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 hookGroupId
-'
-'
+"
+"
 hookId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 getTriggerToken
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 trigger
@@ -1724,13 +1699,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 hooks
 /
@@ -1743,15 +1718,15 @@ hookId
 >
 /
 token
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -1761,45 +1736,45 @@ heartbeat
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 heartbeat
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 __heartbeat__
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -1809,40 +1784,40 @@ hook
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 hookGroupId
-'
-'
+"
+"
 hookId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 hook
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 hook
@@ -1851,13 +1826,13 @@ definition
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 hooks
 /
@@ -1868,15 +1843,15 @@ hookGroupId
 <
 hookId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -1886,45 +1861,45 @@ lbheartbeat
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 lbheartbeat
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 __lbheartbeat__
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -1934,34 +1909,34 @@ listHookGroups
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 listHookGroups
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 list
@@ -1974,24 +1949,24 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 hooks
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -2001,37 +1976,37 @@ listHooks
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 hookGroupId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 listHooks
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 list
@@ -2042,28 +2017,28 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 hooks
 /
 <
 hookGroupId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -2073,40 +2048,40 @@ listLastFires
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 hookGroupId
-'
-'
+"
+"
 hookId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 listLastFires
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 list
@@ -2117,26 +2092,26 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 query
-'
+"
 :
 [
-'
+"
 continuationToken
-'
-'
+"
+"
 limit
-'
+"
 ]
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 hooks
 /
@@ -2151,15 +2126,15 @@ hookId
 last
 -
 fires
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -2169,45 +2144,45 @@ ping
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 ping
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 ping
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -2217,40 +2192,40 @@ removeHook
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 hookGroupId
-'
-'
+"
+"
 hookId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 delete
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 removeHook
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 hooks
 /
@@ -2261,15 +2236,15 @@ hookGroupId
 <
 hookId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -2279,40 +2254,40 @@ resetTriggerToken
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 hookGroupId
-'
-'
+"
+"
 hookId
-'
+"
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 resetTriggerToken
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 trigger
@@ -2323,13 +2298,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 hooks
 /
@@ -2342,15 +2317,15 @@ hookId
 >
 /
 token
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -2360,24 +2335,24 @@ triggerHook
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 hookGroupId
-'
-'
+"
+"
 hookId
-'
+"
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 trigger
@@ -2386,29 +2361,29 @@ hook
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 triggerHook
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 trigger
@@ -2419,13 +2394,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 hooks
 /
@@ -2438,15 +2413,15 @@ hookId
 >
 /
 trigger
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -2456,27 +2431,27 @@ triggerHookWithToken
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 hookGroupId
-'
-'
+"
+"
 hookId
-'
-'
+"
+"
 token
-'
+"
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 trigger
@@ -2485,29 +2460,29 @@ hook
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 triggerHookWithToken
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 trigger
@@ -2518,13 +2493,13 @@ response
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 hooks
 /
@@ -2541,15 +2516,15 @@ trigger
 <
 token
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -2559,24 +2534,24 @@ updateHook
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
-'
+"
 hookGroupId
-'
-'
+"
+"
 hookId
-'
+"
 ]
             
-'
+"
 input
-'
+"
 :
-'
+"
 v1
 /
 create
@@ -2587,29 +2562,29 @@ request
 .
 json
 #
-'
+"
             
-'
+"
 method
-'
+"
 :
-'
+"
 post
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 updateHook
-'
+"
             
-'
+"
 output
-'
+"
 :
-'
+"
 v1
 /
 hook
@@ -2618,13 +2593,13 @@ definition
 .
 json
 #
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 hooks
 /
@@ -2635,15 +2610,15 @@ hookGroupId
 <
 hookId
 >
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
         
@@ -2653,45 +2628,45 @@ version
 :
 {
             
-'
+"
 args
-'
+"
 :
 [
 ]
             
-'
+"
 method
-'
+"
 :
-'
+"
 get
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 version
-'
+"
             
-'
+"
 route
-'
+"
 :
-'
+"
 /
 __version__
-'
+"
             
-'
+"
 stability
-'
+"
 :
-'
+"
 stable
-'
+"
         
 }
     
@@ -2699,22 +2674,28 @@ stable
 __all__
 =
 [
-'
-createTemporaryCredentials
-'
-'
-config
-'
-'
-_defaultConfig
-'
-'
-createApiClient
-'
-'
-createSession
-'
-'
+    
+"
 Hooks
-'
+"
+    
+"
+_defaultConfig
+"
+    
+"
+config
+"
+    
+"
+createApiClient
+"
+    
+"
+createSession
+"
+    
+"
+createTemporaryCredentials
+"
 ]

@@ -1,10 +1,4 @@
 #
-coding
-=
-utf
--
-8
-#
 #
 #
 #
@@ -122,40 +116,28 @@ EDIT
 #
 #
 #
+ruff
+:
 noqa
 :
-E128
-E201
+E501
 from
 .
 .
 client
 import
+(
+    
 BaseClient
-from
-.
-.
-client
-import
-createApiClient
-from
-.
-.
-client
-import
+    
 config
-from
-.
-.
-client
-import
-createTemporaryCredentials
-from
-.
-.
-client
-import
+    
+createApiClient
+    
 createSession
+    
+createTemporaryCredentials
+)
 _defaultConfig
 =
 config
@@ -272,15 +254,15 @@ v1
     
 serviceName
 =
-'
+"
 auth
-'
+"
     
 apiVersion
 =
-'
+"
 v1
-'
+"
     
 def
 clientCreated
@@ -359,55 +341,55 @@ ref
 =
 {
             
-'
+"
 exchange
-'
+"
 :
-'
+"
 client
 -
 created
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 clientCreated
-'
+"
             
-'
+"
 routingKey
-'
+"
 :
 [
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 True
                     
-'
+"
 name
-'
+"
 :
-'
+"
 reserved
-'
+"
                 
 }
             
 ]
             
-'
+"
 schema
-'
+"
 :
-'
+"
 v1
 /
 client
@@ -416,7 +398,7 @@ message
 .
 json
 #
-'
+"
         
 }
         
@@ -510,55 +492,55 @@ ref
 =
 {
             
-'
+"
 exchange
-'
+"
 :
-'
+"
 client
 -
 updated
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 clientUpdated
-'
+"
             
-'
+"
 routingKey
-'
+"
 :
 [
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 True
                     
-'
+"
 name
-'
+"
 :
-'
+"
 reserved
-'
+"
                 
 }
             
 ]
             
-'
+"
 schema
-'
+"
 :
-'
+"
 v1
 /
 client
@@ -567,7 +549,7 @@ message
 .
 json
 #
-'
+"
         
 }
         
@@ -661,55 +643,55 @@ ref
 =
 {
             
-'
+"
 exchange
-'
+"
 :
-'
+"
 client
 -
 deleted
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 clientDeleted
-'
+"
             
-'
+"
 routingKey
-'
+"
 :
 [
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 True
                     
-'
+"
 name
-'
+"
 :
-'
+"
 reserved
-'
+"
                 
 }
             
 ]
             
-'
+"
 schema
-'
+"
 :
-'
+"
 v1
 /
 client
@@ -718,7 +700,7 @@ message
 .
 json
 #
-'
+"
         
 }
         
@@ -812,55 +794,55 @@ ref
 =
 {
             
-'
+"
 exchange
-'
+"
 :
-'
+"
 role
 -
 created
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 roleCreated
-'
+"
             
-'
+"
 routingKey
-'
+"
 :
 [
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 True
                     
-'
+"
 name
-'
+"
 :
-'
+"
 reserved
-'
+"
                 
 }
             
 ]
             
-'
+"
 schema
-'
+"
 :
-'
+"
 v1
 /
 role
@@ -869,7 +851,7 @@ message
 .
 json
 #
-'
+"
         
 }
         
@@ -963,55 +945,55 @@ ref
 =
 {
             
-'
+"
 exchange
-'
+"
 :
-'
+"
 role
 -
 updated
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 roleUpdated
-'
+"
             
-'
+"
 routingKey
-'
+"
 :
 [
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 True
                     
-'
+"
 name
-'
+"
 :
-'
+"
 reserved
-'
+"
                 
 }
             
 ]
             
-'
+"
 schema
-'
+"
 :
-'
+"
 v1
 /
 role
@@ -1020,7 +1002,7 @@ message
 .
 json
 #
-'
+"
         
 }
         
@@ -1114,55 +1096,55 @@ ref
 =
 {
             
-'
+"
 exchange
-'
+"
 :
-'
+"
 role
 -
 deleted
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 roleDeleted
-'
+"
             
-'
+"
 routingKey
-'
+"
 :
 [
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 True
                     
-'
+"
 name
-'
+"
 :
-'
+"
 reserved
-'
+"
                 
 }
             
 ]
             
-'
+"
 schema
-'
+"
 :
-'
+"
 v1
 /
 role
@@ -1171,7 +1153,7 @@ message
 .
 json
 #
-'
+"
         
 }
         
@@ -1191,27 +1173,32 @@ kwargs
 funcinfo
 =
 {
-    
 }
 __all__
 =
 [
-'
-createTemporaryCredentials
-'
-'
-config
-'
-'
-_defaultConfig
-'
-'
-createApiClient
-'
-'
-createSession
-'
-'
+    
+"
 AuthEvents
-'
+"
+    
+"
+_defaultConfig
+"
+    
+"
+config
+"
+    
+"
+createApiClient
+"
+    
+"
+createSession
+"
+    
+"
+createTemporaryCredentials
+"
 ]

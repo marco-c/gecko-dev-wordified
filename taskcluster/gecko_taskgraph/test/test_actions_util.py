@@ -84,6 +84,14 @@ import
 json
 taskcluster
 from
+taskgraph
+.
+util
+.
+taskcluster
+import
+_task_definitions_cache
+from
 gecko_taskgraph
 import
 actions
@@ -1142,13 +1150,11 @@ expected
 )
 :
     
-actions
+_task_definitions_cache
 .
-util
+cache
 .
-get_task_definition
-.
-cache_clear
+clear
 (
 )
     

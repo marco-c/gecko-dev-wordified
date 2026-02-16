@@ -1,10 +1,4 @@
 #
-coding
-=
-utf
--
-8
-#
 #
 #
 #
@@ -122,10 +116,11 @@ EDIT
 #
 #
 #
+ruff
+:
 noqa
 :
-E128
-E201
+E501
 from
 .
 .
@@ -134,43 +129,18 @@ aio
 .
 asyncclient
 import
+(
+    
 AsyncBaseClient
-from
-.
-.
-.
-aio
-.
-asyncclient
-import
-createApiClient
-from
-.
-.
-.
-aio
-.
-asyncclient
-import
+    
 config
-from
-.
-.
-.
-aio
-.
-asyncclient
-import
-createTemporaryCredentials
-from
-.
-.
-.
-aio
-.
-asyncclient
-import
+    
+createApiClient
+    
 createSession
+    
+createTemporaryCredentials
+)
 _defaultConfig
 =
 config
@@ -247,15 +217,15 @@ v1
     
 serviceName
 =
-'
+"
 github
-'
+"
     
 apiVersion
 =
-'
+"
 v1
-'
+"
     
 def
 pullRequest
@@ -478,117 +448,117 @@ ref
 =
 {
             
-'
+"
 exchange
-'
+"
 :
-'
+"
 pull
 -
 request
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 pullRequest
-'
+"
             
-'
+"
 routingKey
-'
+"
 :
 [
                 
 {
                     
-'
+"
 constant
-'
+"
 :
-'
+"
 primary
-'
+"
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 routingKeyKind
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 organization
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 repository
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 action
-'
+"
                 
 }
             
 ]
             
-'
+"
 schema
-'
+"
 :
-'
+"
 v1
 /
 github
@@ -601,7 +571,7 @@ message
 .
 json
 #
-'
+"
         
 }
         
@@ -812,97 +782,97 @@ ref
 =
 {
             
-'
+"
 exchange
-'
+"
 :
-'
+"
 push
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 push
-'
+"
             
-'
+"
 routingKey
-'
+"
 :
 [
                 
 {
                     
-'
+"
 constant
-'
+"
 :
-'
+"
 primary
-'
+"
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 routingKeyKind
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 organization
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 repository
-'
+"
                 
 }
             
 ]
             
-'
+"
 schema
-'
+"
 :
-'
+"
 v1
 /
 github
@@ -913,7 +883,7 @@ message
 .
 json
 #
-'
+"
         
 }
         
@@ -1124,97 +1094,97 @@ ref
 =
 {
             
-'
+"
 exchange
-'
+"
 :
-'
+"
 release
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 release
-'
+"
             
-'
+"
 routingKey
-'
+"
 :
 [
                 
 {
                     
-'
+"
 constant
-'
+"
 :
-'
+"
 primary
-'
+"
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 routingKeyKind
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 organization
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 repository
-'
+"
                 
 }
             
 ]
             
-'
+"
 schema
-'
+"
 :
-'
+"
 v1
 /
 github
@@ -1225,7 +1195,7 @@ message
 .
 json
 #
-'
+"
         
 }
         
@@ -1446,97 +1416,97 @@ ref
 =
 {
             
-'
+"
 exchange
-'
+"
 :
-'
+"
 rerun
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 rerun
-'
+"
             
-'
+"
 routingKey
-'
+"
 :
 [
                 
 {
                     
-'
+"
 constant
-'
+"
 :
-'
+"
 primary
-'
+"
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 routingKeyKind
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 organization
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 repository
-'
+"
                 
 }
             
 ]
             
-'
+"
 schema
-'
+"
 :
-'
+"
 v1
 /
 github
@@ -1547,7 +1517,7 @@ message
 .
 json
 #
-'
+"
         
 }
         
@@ -1825,11 +1795,11 @@ ref
 =
 {
             
-'
+"
 exchange
-'
+"
 :
-'
+"
 task
 -
 group
@@ -1837,91 +1807,91 @@ group
 creation
 -
 requested
-'
+"
             
-'
+"
 name
-'
+"
 :
-'
+"
 taskGroupCreationRequested
-'
+"
             
-'
+"
 routingKey
-'
+"
 :
 [
                 
 {
                     
-'
+"
 constant
-'
+"
 :
-'
+"
 primary
-'
+"
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 routingKeyKind
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 organization
-'
+"
                 
 }
                 
 {
                     
-'
+"
 multipleWords
-'
+"
 :
 False
                     
-'
+"
 name
-'
+"
 :
-'
+"
 repository
-'
+"
                 
 }
             
 ]
             
-'
+"
 schema
-'
+"
 :
-'
+"
 v1
 /
 task
@@ -1934,7 +1904,7 @@ requested
 .
 json
 #
-'
+"
         
 }
         
@@ -1954,27 +1924,32 @@ kwargs
 funcinfo
 =
 {
-    
 }
 __all__
 =
 [
-'
-createTemporaryCredentials
-'
-'
-config
-'
-'
-_defaultConfig
-'
-'
-createApiClient
-'
-'
-createSession
-'
-'
+    
+"
 GithubEvents
-'
+"
+    
+"
+_defaultConfig
+"
+    
+"
+config
+"
+    
+"
+createApiClient
+"
+    
+"
+createSession
+"
+    
+"
+createTemporaryCredentials
+"
 ]
