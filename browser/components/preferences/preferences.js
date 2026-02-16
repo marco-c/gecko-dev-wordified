@@ -2096,7 +2096,7 @@ personalizeSmartWindow
 parent
 :
 "
-aiFeatures
+ai
 "
 l10nId
 :
@@ -2129,6 +2129,9 @@ svg
 groupIds
 :
 [
+"
+assistantModelGroup
+"
 "
 memoriesGroup
 "
