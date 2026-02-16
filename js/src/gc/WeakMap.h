@@ -1431,6 +1431,15 @@ Value
 types
 .
 virtual
+bool
+empty
+(
+)
+const
+=
+0
+;
+virtual
 void
 trace
 (
@@ -1454,7 +1463,7 @@ atomsZone
 ;
 virtual
 void
-traceWeakEdges
+traceWeakEdgesDuringSweeping
 (
 JSTracer
 *
@@ -2956,6 +2965,7 @@ empty
 (
 )
 const
+override
 {
 return
 map
@@ -4105,7 +4115,7 @@ key
 )
 ;
 void
-traceWeakEdges
+traceWeakEdgesDuringSweeping
 (
 JSTracer
 *
