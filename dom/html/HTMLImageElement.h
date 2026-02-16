@@ -1780,11 +1780,6 @@ void
 StopLazyLoading
 (
 StartLoad
-=
-StartLoad
-:
-:
-Yes
 )
 ;
 /
