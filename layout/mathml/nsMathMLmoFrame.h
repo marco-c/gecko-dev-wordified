@@ -392,10 +392,6 @@ aStyle
 aPresContext
 kClassID
 )
-mFlags
-(
-0
-)
 mMinSize
 (
 0
