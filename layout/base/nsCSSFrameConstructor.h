@@ -263,6 +263,9 @@ class
 nsCanvasFrame
 ;
 class
+nsCSSAnonBoxPseudoStaticAtom
+;
+class
 nsFirstLetterFrame
 ;
 class

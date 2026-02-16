@@ -62,7 +62,16 @@ sys
 from
 Atom
 import
+(
+    
 Atom
+    
+InheritingAnonBoxAtom
+    
+NonInheritingAnonBoxAtom
+    
+PseudoElementAtom
+)
 from
 HTMLAtoms
 import
@@ -89,6 +98,12 @@ a
 call
 to
 Atom
+PseudoElementAtom
+#
+NonInheritingAnonBoxAtom
+or
+InheritingAnonBoxAtom
+.
 #
 #
 The
@@ -27418,10 +27433,32 @@ AnchorPosImplicitAnchor
 "
 )
     
-Atom
+#
+CSS
+pseudo
+-
+elements
+-
+-
+these
+must
+appear
+in
+the
+same
+order
+as
+    
+#
+in
+nsCSSPseudoElementList
+.
+inc
+    
+PseudoElementAtom
 (
 "
-PseudoStyle_After
+PseudoElement_after
 "
 "
 :
@@ -27429,10 +27466,10 @@ after
 "
 )
     
-Atom
+PseudoElementAtom
 (
 "
-PseudoStyle_Before
+PseudoElement_before
 "
 "
 :
@@ -27440,10 +27477,10 @@ before
 "
 )
     
-Atom
+PseudoElementAtom
 (
 "
-PseudoStyle_Marker
+PseudoElement_marker
 "
 "
 :
@@ -27451,10 +27488,10 @@ marker
 "
 )
     
-Atom
+PseudoElementAtom
 (
 "
-PseudoStyle_Backdrop
+PseudoElement_backdrop
 "
 "
 :
@@ -27462,10 +27499,10 @@ backdrop
 "
 )
     
-Atom
+PseudoElementAtom
 (
 "
-PseudoStyle_Cue
+PseudoElement_cue
 "
 "
 :
@@ -27473,10 +27510,10 @@ cue
 "
 )
     
-Atom
+PseudoElementAtom
 (
 "
-PseudoStyle_FirstLetter
+PseudoElement_firstLetter
 "
 "
 :
@@ -27486,10 +27523,10 @@ letter
 "
 )
     
-Atom
+PseudoElementAtom
 (
 "
-PseudoStyle_FirstLine
+PseudoElement_firstLine
 "
 "
 :
@@ -27499,10 +27536,10 @@ line
 "
 )
     
-Atom
+PseudoElementAtom
 (
 "
-PseudoStyle_Highlight
+PseudoElement_highlight
 "
 "
 :
@@ -27510,10 +27547,10 @@ highlight
 "
 )
     
-Atom
+PseudoElementAtom
 (
 "
-PseudoStyle_Selection
+PseudoElement_selection
 "
 "
 :
@@ -27521,10 +27558,10 @@ selection
 "
 )
     
-Atom
+PseudoElementAtom
 (
 "
-PseudoStyle_TargetText
+PseudoElement_targetText
 "
 "
 :
@@ -27534,10 +27571,10 @@ text
 "
 )
     
-Atom
+PseudoElementAtom
 (
 "
-PseudoStyle_ViewTransition
+PseudoElement_viewTransition
 "
 "
 :
@@ -27547,10 +27584,10 @@ transition
 "
 )
     
-Atom
+PseudoElementAtom
 (
 "
-PseudoStyle_ViewTransitionGroup
+PseudoElement_viewTransitionGroup
 "
 "
 :
@@ -27562,10 +27599,10 @@ group
 "
 )
     
-Atom
+PseudoElementAtom
 (
 "
-PseudoStyle_ViewTransitionImagePair
+PseudoElement_viewTransitionImagePair
 "
 "
 :
@@ -27579,10 +27616,10 @@ pair
 "
 )
     
-Atom
+PseudoElementAtom
 (
 "
-PseudoStyle_ViewTransitionOld
+PseudoElement_viewTransitionOld
 "
 "
 :
@@ -27594,10 +27631,10 @@ old
 "
 )
     
-Atom
+PseudoElementAtom
 (
 "
-PseudoStyle_ViewTransitionNew
+PseudoElement_viewTransitionNew
 "
 "
 :
@@ -27609,10 +27646,10 @@ new
 "
 )
     
-Atom
+PseudoElementAtom
 (
 "
-PseudoStyle_MozSnapshotContainingBlock
+PseudoElement_mozSnapshotContainingBlock
 "
 "
 :
@@ -27627,10 +27664,10 @@ block
 "
 )
     
-Atom
+PseudoElementAtom
 (
 "
-PseudoStyle_MozNumberSpinBox
+PseudoElement_mozNumberSpinBox
 "
 "
 :
@@ -27645,10 +27682,10 @@ box
 "
 )
     
-Atom
+PseudoElementAtom
 (
 "
-PseudoStyle_MozNumberSpinUp
+PseudoElement_mozNumberSpinUp
 "
 "
 :
@@ -27663,10 +27700,10 @@ up
 "
 )
     
-Atom
+PseudoElementAtom
 (
 "
-PseudoStyle_MozNumberSpinDown
+PseudoElement_mozNumberSpinDown
 "
 "
 :
@@ -27681,10 +27718,10 @@ down
 "
 )
     
-Atom
+PseudoElementAtom
 (
 "
-PseudoStyle_MozSearchClearButton
+PseudoElement_mozSearchClearButton
 "
 "
 :
@@ -27699,10 +27736,10 @@ button
 "
 )
     
-Atom
+PseudoElementAtom
 (
 "
-PseudoStyle_MozSelectContent
+PseudoElement_mozSelectContent
 "
 "
 :
@@ -27715,10 +27752,10 @@ content
 "
 )
     
-Atom
+PseudoElementAtom
 (
 "
-PseudoStyle_MozSelectPickerIcon
+PseudoElement_mozSelectPickerIcon
 "
 "
 :
@@ -27733,10 +27770,10 @@ icon
 "
 )
     
-Atom
+PseudoElementAtom
 (
 "
-PseudoStyle_MozProgressBar
+PseudoElement_mozProgressBar
 "
 "
 :
@@ -27749,10 +27786,10 @@ bar
 "
 )
     
-Atom
+PseudoElementAtom
 (
 "
-PseudoStyle_MozRangeTrack
+PseudoElement_mozRangeTrack
 "
 "
 :
@@ -27765,10 +27802,10 @@ track
 "
 )
     
-Atom
+PseudoElementAtom
 (
 "
-PseudoStyle_MozRangeProgress
+PseudoElement_mozRangeProgress
 "
 "
 :
@@ -27781,10 +27818,10 @@ progress
 "
 )
     
-Atom
+PseudoElementAtom
 (
 "
-PseudoStyle_MozRangeThumb
+PseudoElement_mozRangeThumb
 "
 "
 :
@@ -27797,10 +27834,10 @@ thumb
 "
 )
     
-Atom
+PseudoElementAtom
 (
 "
-PseudoStyle_MozMeterBar
+PseudoElement_mozMeterBar
 "
 "
 :
@@ -27813,10 +27850,10 @@ bar
 "
 )
     
-Atom
+PseudoElementAtom
 (
 "
-PseudoStyle_Placeholder
+PseudoElement_placeholder
 "
 "
 :
@@ -27824,10 +27861,10 @@ placeholder
 "
 )
     
-Atom
+PseudoElementAtom
 (
 "
-PseudoStyle_MozColorSwatch
+PseudoElement_mozColorSwatch
 "
 "
 :
@@ -27840,10 +27877,10 @@ swatch
 "
 )
     
-Atom
+PseudoElementAtom
 (
 "
-PseudoStyle_MozTextControlEditingRoot
+PseudoElement_mozTextControlEditingRoot
 "
 "
 :
@@ -27860,10 +27897,10 @@ root
 "
 )
     
-Atom
+PseudoElementAtom
 (
 "
-PseudoStyle_MozTextControlPreview
+PseudoElement_mozTextControlPreview
 "
 "
 :
@@ -27878,10 +27915,10 @@ preview
 "
 )
     
-Atom
+PseudoElementAtom
 (
 "
-PseudoStyle_MozReveal
+PseudoElement_mozReveal
 "
 "
 :
@@ -27892,10 +27929,10 @@ reveal
 "
 )
     
-Atom
+PseudoElementAtom
 (
 "
-PseudoStyle_FileSelectorButton
+PseudoElement_fileSelectorButton
 "
 "
 :
@@ -27907,10 +27944,10 @@ button
 "
 )
     
-Atom
+PseudoElementAtom
 (
 "
-PseudoStyle_MozFileContent
+PseudoElement_mozFileContent
 "
 "
 :
@@ -27923,10 +27960,10 @@ content
 "
 )
     
-Atom
+PseudoElementAtom
 (
 "
-PseudoStyle_SliderTrack
+PseudoElement_sliderTrack
 "
 "
 :
@@ -27936,10 +27973,10 @@ track
 "
 )
     
-Atom
+PseudoElementAtom
 (
 "
-PseudoStyle_SliderThumb
+PseudoElement_sliderThumb
 "
 "
 :
@@ -27949,10 +27986,10 @@ thumb
 "
 )
     
-Atom
+PseudoElementAtom
 (
 "
-PseudoStyle_SliderFill
+PseudoElement_sliderFill
 "
 "
 :
@@ -27962,10 +27999,10 @@ fill
 "
 )
     
-Atom
+PseudoElementAtom
 (
 "
-PseudoStyle_DetailsContent
+PseudoElement_detailsContent
 "
 "
 :
@@ -27975,10 +28012,31 @@ content
 "
 )
     
-Atom
+#
+CSS
+anonymous
+boxes
+-
+-
+these
+must
+appear
+in
+the
+same
+order
+as
+    
+#
+in
+nsCSSAnonBoxList
+.
+h
+    
+NonInheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozOofPlaceholder
+AnonBox_oofPlaceholder
 "
 "
 :
@@ -27991,10 +28049,10 @@ placeholder
 "
 )
     
-Atom
+NonInheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozHframesetBorder
+AnonBox_horizontalFramesetBorder
 "
 "
 :
@@ -28007,10 +28065,10 @@ border
 "
 )
     
-Atom
+NonInheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozVframesetBorder
+AnonBox_verticalFramesetBorder
 "
 "
 :
@@ -28023,10 +28081,10 @@ border
 "
 )
     
-Atom
+NonInheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozFramesetBlank
+AnonBox_framesetBlank
 "
 "
 :
@@ -28039,10 +28097,10 @@ blank
 "
 )
     
-Atom
+NonInheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozTableColumnGroup
+AnonBox_tableColGroup
 "
 "
 :
@@ -28057,10 +28115,10 @@ group
 "
 )
     
-Atom
+NonInheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozTableColumn
+AnonBox_tableCol
 "
 "
 :
@@ -28073,10 +28131,10 @@ column
 "
 )
     
-Atom
+NonInheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozPage
+AnonBox_page
 "
 "
 :
@@ -28087,10 +28145,10 @@ page
 "
 )
     
-Atom
+NonInheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozPageBreak
+AnonBox_pageBreak
 "
 "
 :
@@ -28103,10 +28161,10 @@ break
 "
 )
     
-Atom
+NonInheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozPageContent
+AnonBox_pageContent
 "
 "
 :
@@ -28119,10 +28177,10 @@ content
 "
 )
     
-Atom
+NonInheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozPrintedSheet
+AnonBox_printedSheet
 "
 "
 :
@@ -28135,10 +28193,10 @@ sheet
 "
 )
     
-Atom
+NonInheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozColumnSpanWrapper
+AnonBox_columnSpanWrapper
 "
 "
 :
@@ -28153,10 +28211,10 @@ wrapper
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozText
+AnonBox_mozText
 "
 "
 :
@@ -28167,10 +28225,10 @@ text
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozFirstLetterContinuation
+AnonBox_firstLetterContinuation
 "
 "
 :
@@ -28185,10 +28243,10 @@ continuation
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozBlockInsideInlineWrapper
+AnonBox_mozBlockInsideInlineWrapper
 "
 "
 :
@@ -28205,10 +28263,10 @@ wrapper
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozMathmlAnonymousBlock
+AnonBox_mozMathMLAnonymousBlock
 "
 "
 :
@@ -28223,10 +28281,10 @@ block
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozLineFrame
+AnonBox_mozLineFrame
 "
 "
 :
@@ -28239,10 +28297,10 @@ frame
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozCellContent
+AnonBox_cellContent
 "
 "
 :
@@ -28255,10 +28313,26 @@ content
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozFieldsetContent
+AnonBox_dropDownList
+"
+"
+:
+-
+moz
+-
+dropdown
+-
+list
+"
+)
+    
+InheritingAnonBoxAtom
+(
+"
+AnonBox_fieldsetContent
 "
 "
 :
@@ -28271,10 +28345,10 @@ content
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozHtmlCanvasContent
+AnonBox_htmlCanvasContent
 "
 "
 :
@@ -28289,10 +28363,10 @@ content
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozInlineTable
+AnonBox_inlineTable
 "
 "
 :
@@ -28305,10 +28379,10 @@ table
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozTable
+AnonBox_table
 "
 "
 :
@@ -28319,10 +28393,10 @@ table
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozTableCell
+AnonBox_tableCell
 "
 "
 :
@@ -28335,10 +28409,10 @@ cell
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozTableWrapper
+AnonBox_tableWrapper
 "
 "
 :
@@ -28351,10 +28425,10 @@ wrapper
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozTableRowGroup
+AnonBox_tableRowGroup
 "
 "
 :
@@ -28369,10 +28443,10 @@ group
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozTableRow
+AnonBox_tableRow
 "
 "
 :
@@ -28385,10 +28459,10 @@ row
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozCanvas
+AnonBox_canvas
 "
 "
 :
@@ -28399,10 +28473,10 @@ canvas
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozPageSequence
+AnonBox_pageSequence
 "
 "
 :
@@ -28415,10 +28489,10 @@ sequence
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozScrolledContent
+AnonBox_scrolledContent
 "
 "
 :
@@ -28431,10 +28505,10 @@ content
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozScrolledCanvas
+AnonBox_scrolledCanvas
 "
 "
 :
@@ -28447,10 +28521,10 @@ canvas
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozColumnSet
+AnonBox_columnSet
 "
 "
 :
@@ -28463,10 +28537,10 @@ set
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozColumnContent
+AnonBox_columnContent
 "
 "
 :
@@ -28479,10 +28553,10 @@ content
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozViewport
+AnonBox_viewport
 "
 "
 :
@@ -28493,10 +28567,10 @@ viewport
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozViewportScroll
+AnonBox_viewportScroll
 "
 "
 :
@@ -28509,10 +28583,10 @@ scroll
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozAnonymousItem
+AnonBox_anonymousItem
 "
 "
 :
@@ -28525,10 +28599,10 @@ item
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozBlockRubyContent
+AnonBox_blockRubyContent
 "
 "
 :
@@ -28543,10 +28617,10 @@ content
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozRuby
+AnonBox_ruby
 "
 "
 :
@@ -28557,10 +28631,10 @@ ruby
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozRubyBase
+AnonBox_rubyBase
 "
 "
 :
@@ -28573,10 +28647,10 @@ base
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozRubyBaseContainer
+AnonBox_rubyBaseContainer
 "
 "
 :
@@ -28591,10 +28665,10 @@ container
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozRubyText
+AnonBox_rubyText
 "
 "
 :
@@ -28607,10 +28681,10 @@ text
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozRubyTextContainer
+AnonBox_rubyTextContainer
 "
 "
 :
@@ -28625,10 +28699,10 @@ container
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozTreeColumn
+AnonBox_mozTreeColumn
 "
 "
 :
@@ -28641,10 +28715,10 @@ column
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozTreeRow
+AnonBox_mozTreeRow
 "
 "
 :
@@ -28657,10 +28731,10 @@ row
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozTreeSeparator
+AnonBox_mozTreeSeparator
 "
 "
 :
@@ -28673,10 +28747,10 @@ separator
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozTreeCell
+AnonBox_mozTreeCell
 "
 "
 :
@@ -28689,10 +28763,10 @@ cell
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozTreeIndentation
+AnonBox_mozTreeIndentation
 "
 "
 :
@@ -28705,10 +28779,10 @@ indentation
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozTreeLine
+AnonBox_mozTreeLine
 "
 "
 :
@@ -28721,10 +28795,10 @@ line
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozTreeTwisty
+AnonBox_mozTreeTwisty
 "
 "
 :
@@ -28737,10 +28811,10 @@ twisty
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozTreeImage
+AnonBox_mozTreeImage
 "
 "
 :
@@ -28753,10 +28827,10 @@ image
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozTreeCellText
+AnonBox_mozTreeCellText
 "
 "
 :
@@ -28771,10 +28845,10 @@ text
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozTreeCheckbox
+AnonBox_mozTreeCheckbox
 "
 "
 :
@@ -28787,10 +28861,10 @@ checkbox
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozTreeDropFeedback
+AnonBox_mozTreeDropFeedback
 "
 "
 :
@@ -28805,10 +28879,10 @@ feedback
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozSvgMarkerAnonChild
+AnonBox_mozSVGMarkerAnonChild
 "
 "
 :
@@ -28825,10 +28899,10 @@ child
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozSvgOuterSvgAnonChild
+AnonBox_mozSVGOuterSVGAnonChild
 "
 "
 :
@@ -28847,10 +28921,10 @@ child
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozSvgForeignContent
+AnonBox_mozSVGForeignContent
 "
 "
 :
@@ -28865,10 +28939,10 @@ content
 "
 )
     
-Atom
+InheritingAnonBoxAtom
 (
 "
-PseudoStyle_MozSvgText
+AnonBox_mozSVGText
 "
 "
 :
@@ -29090,6 +29164,8 @@ identifier
 string
 hash
 is_ascii_lower
+gecko_type
+atom_type
 )
 \
 n
@@ -29117,6 +29193,10 @@ s
 08x
 %
 s
+%
+s
+%
+s
 )
 \
 n
@@ -29124,15 +29204,19 @@ n
             
 %
 (
+                
 a
 .
 ident
+                
 a
 .
 string
+                
 a
 .
 hash
+                
 str
 (
 a
@@ -29143,6 +29227,15 @@ is_ascii_lowercase
 lower
 (
 )
+                
+a
+.
+ty
+                
+a
+.
+atom_type
+            
 )
             
 for
@@ -29151,6 +29244,229 @@ in
 STATIC_ATOMS
         
 ]
+)
+    
+)
+def
+generate_nsgkatomconsts_h
+(
+output
+*
+ignore
+)
+:
+    
+pseudo_index
+=
+None
+    
+anon_box_index
+=
+None
+    
+pseudo_count
+=
+0
+    
+anon_box_count
+=
+0
+    
+for
+i
+atom
+in
+enumerate
+(
+STATIC_ATOMS
+)
+:
+        
+if
+atom
+.
+atom_type
+=
+=
+"
+PseudoElementAtom
+"
+:
+            
+if
+pseudo_index
+is
+None
+:
+                
+pseudo_index
+=
+i
+            
+pseudo_count
++
+=
+1
+        
+elif
+(
+            
+atom
+.
+atom_type
+=
+=
+"
+NonInheritingAnonBoxAtom
+"
+            
+or
+atom
+.
+atom_type
+=
+=
+"
+InheritingAnonBoxAtom
+"
+        
+)
+:
+            
+if
+anon_box_index
+is
+None
+:
+                
+anon_box_index
+=
+i
+            
+anon_box_count
++
+=
+1
+    
+output
+.
+write
+(
+        
+"
+/
+*
+THIS
+IS
+AN
+AUTOGENERATED
+FILE
+.
+DO
+NOT
+EDIT
+*
+/
+\
+n
+\
+n
+"
+        
+"
+#
+ifndef
+nsGkAtomConsts_h
+\
+n
+"
+        
+"
+#
+define
+nsGkAtomConsts_h
+\
+n
+\
+n
+"
+        
+"
+namespace
+mozilla
+{
+\
+n
+"
+        
+"
+constexpr
+uint32_t
+kAtomIndex_PseudoElements
+=
+%
+d
+;
+\
+n
+"
+        
+"
+constexpr
+uint32_t
+kAtomCount_PseudoElements
+=
+%
+d
+;
+\
+n
+"
+        
+"
+constexpr
+uint32_t
+kAtomIndex_AnonBoxes
+=
+%
+d
+;
+\
+n
+"
+        
+"
+constexpr
+uint32_t
+kAtomCount_AnonBoxes
+=
+%
+d
+;
+\
+n
+"
+        
+"
+}
+\
+n
+\
+n
+"
+        
+"
+#
+endif
+\
+n
+"
+%
+(
+pseudo_index
+pseudo_count
+anon_box_index
+anon_box_count
 )
     
 )

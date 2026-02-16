@@ -329,7 +329,7 @@ MakeAnonElement
 PseudoStyleType
 :
 :
-MozSearchClearButton
+mozSearchClearButton
 nullptr
 nsGkAtoms
 :

@@ -4111,7 +4111,7 @@ aType
 PseudoStyleType
 :
 :
-MozSnapshotContainingBlock
+mozSnapshotContainingBlock
 )
 {
 el
@@ -4176,10 +4176,10 @@ nsGkAtoms
 type
 nsDependentAtomString
 (
-PseudoStyle
+nsCSSPseudoElements
 :
 :
-GetAtom
+GetPseudoAtom
 (
 aType
 )
@@ -5804,7 +5804,7 @@ mDocument
 PseudoStyleType
 :
 :
-MozSnapshotContainingBlock
+mozSnapshotContainingBlock
 nullptr
 )
 ;
@@ -5821,7 +5821,7 @@ mDocument
 PseudoStyleType
 :
 :
-ViewTransition
+viewTransition
 nullptr
 )
 ;
@@ -5979,7 +5979,7 @@ mDocument
 PseudoStyleType
 :
 :
-ViewTransitionGroup
+viewTransitionGroup
 transitionName
 )
 ;
@@ -6050,7 +6050,7 @@ mDocument
 PseudoStyleType
 :
 :
-ViewTransitionImagePair
+viewTransitionImagePair
 transitionName
 )
 ;
@@ -6147,7 +6147,7 @@ mDocument
 PseudoStyleType
 :
 :
-ViewTransitionOld
+viewTransitionOld
 transitionName
 )
 ;
@@ -6318,7 +6318,7 @@ mDocument
 PseudoStyleType
 :
 :
-ViewTransitionNew
+viewTransitionNew
 transitionName
 )
 ;
@@ -7387,7 +7387,7 @@ PseudoStyleRequest
 PseudoStyleType
 :
 :
-ViewTransitionGroup
+viewTransitionGroup
 transitionName
 )
 )
@@ -8388,7 +8388,7 @@ GetPseudoElementType
 PseudoStyleType
 :
 :
-ViewTransition
+viewTransition
 )
 ;
 if
@@ -8401,7 +8401,7 @@ mType
 PseudoStyleType
 :
 :
-ViewTransition
+viewTransition
 )
 {
 return
@@ -8582,7 +8582,7 @@ mType
 PseudoStyleType
 :
 :
-ViewTransitionGroup
+viewTransitionGroup
 )
 {
 return
@@ -8631,7 +8631,7 @@ mType
 PseudoStyleType
 :
 :
-ViewTransitionImagePair
+viewTransitionImagePair
 )
 {
 return
@@ -8761,7 +8761,7 @@ mType
 PseudoStyleType
 :
 :
-ViewTransitionOld
+viewTransitionOld
 )
 {
 return
@@ -8787,7 +8787,7 @@ mType
 PseudoStyleType
 :
 :
-ViewTransitionNew
+viewTransitionNew
 )
 ;
 MOZ_ASSERT
@@ -8900,7 +8900,7 @@ case
 PseudoStyleType
 :
 :
-ViewTransitionNew
+viewTransitionNew
 :
 return
 capture
@@ -8916,7 +8916,7 @@ case
 PseudoStyleType
 :
 :
-ViewTransitionOld
+viewTransitionOld
 :
 return
 capture
@@ -8932,7 +8932,7 @@ case
 PseudoStyleType
 :
 :
-ViewTransitionImagePair
+viewTransitionImagePair
 :
 return
 capture
@@ -8948,7 +8948,7 @@ case
 PseudoStyleType
 :
 :
-ViewTransitionGroup
+viewTransitionGroup
 :
 return
 capture
@@ -11940,7 +11940,7 @@ PseudoStyleRequest
 PseudoStyleType
 :
 :
-ViewTransition
+viewTransition
 )
 )
 ;
@@ -11973,7 +11973,7 @@ checkForEachPseudo
 PseudoStyleType
 :
 :
-ViewTransitionGroup
+viewTransitionGroup
 name
 }
 )
@@ -11985,7 +11985,7 @@ checkForEachPseudo
 PseudoStyleType
 :
 :
-ViewTransitionImagePair
+viewTransitionImagePair
 name
 }
 )
@@ -11997,7 +11997,7 @@ checkForEachPseudo
 PseudoStyleType
 :
 :
-ViewTransitionOld
+viewTransitionOld
 name
 }
 )
@@ -12009,7 +12009,7 @@ checkForEachPseudo
 PseudoStyleType
 :
 :
-ViewTransitionNew
+viewTransitionNew
 name
 }
 )

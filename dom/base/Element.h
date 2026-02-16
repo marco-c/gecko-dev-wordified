@@ -1287,9 +1287,6 @@ PseudoStyleType
 :
 uint8_t
 ;
-struct
-PseudoStyleRequest
-;
 class
 EventChainPostVisitor
 ;

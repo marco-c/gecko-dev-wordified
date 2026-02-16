@@ -159,6 +159,13 @@ h
 #
 include
 "
+nsCSSPseudoElements
+.
+h
+"
+#
+include
+"
 nsContainerFrame
 .
 h
@@ -4088,7 +4095,7 @@ mozilla
 PseudoStyleType
 :
 :
-MozScrolledContent
+scrolledContent
 ;
 }
 return

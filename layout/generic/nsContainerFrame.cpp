@@ -11572,7 +11572,7 @@ IsAnonBox
 )
 |
 |
-PseudoStyle
+nsCSSAnonBoxes
 :
 :
 IsNonElement

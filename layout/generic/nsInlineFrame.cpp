@@ -204,6 +204,13 @@ h
 #
 include
 "
+nsCSSAnonBoxes
+.
+h
+"
+#
+include
+"
 nsDisplayList
 .
 h
@@ -6824,7 +6831,7 @@ ResolveInheritingAnonymousBoxStyle
 PseudoStyleType
 :
 :
-MozBlockInsideInlineWrapper
+mozBlockInsideInlineWrapper
 ourStyle
 )
 ;
@@ -6937,7 +6944,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-MozBlockInsideInlineWrapper
+mozBlockInsideInlineWrapper
 "
 Unexpected
 kind
@@ -7210,7 +7217,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-FirstLine
+firstLine
 )
 ;
 return
@@ -7271,7 +7278,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-FirstLine
+firstLine
 )
 {
 MOZ_ASSERT
@@ -7366,7 +7373,7 @@ ResolveInheritingAnonymousBoxStyle
 PseudoStyleType
 :
 :
-MozLineFrame
+mozLineFrame
 parentContext
 )
 ;
@@ -7406,7 +7413,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-MozLineFrame
+mozLineFrame
 )
 ;
 }

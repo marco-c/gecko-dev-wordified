@@ -274,7 +274,7 @@ case
 PseudoStyleType
 :
 :
-Marker
+marker
 :
 property
 =
@@ -289,7 +289,7 @@ case
 PseudoStyleType
 :
 :
-Before
+before
 :
 property
 =
@@ -304,7 +304,7 @@ case
 PseudoStyleType
 :
 :
-After
+after
 :
 property
 =
@@ -319,7 +319,7 @@ case
 PseudoStyleType
 :
 :
-Backdrop
+backdrop
 :
 property
 =

@@ -497,7 +497,7 @@ SetPseudoElementType
 PseudoStyleType
 :
 :
-SliderFill
+sliderFill
 )
 ;
 }
@@ -541,12 +541,12 @@ Progress
 PseudoStyleType
 :
 :
-MozProgressBar
+mozProgressBar
 :
 PseudoStyleType
 :
 :
-MozMeterBar
+mozMeterBar
 )
 ;
 }

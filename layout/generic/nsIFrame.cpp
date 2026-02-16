@@ -160,13 +160,6 @@ h
 #
 include
 "
-PseudoStyleType
-.
-h
-"
-#
-include
-"
 RubyUtils
 .
 h
@@ -659,6 +652,13 @@ h
 #
 include
 "
+nsCSSAnonBoxes
+.
+h
+"
+#
+include
+"
 nsCSSFrameConstructor
 .
 h
@@ -667,6 +667,13 @@ h
 include
 "
 nsCSSProps
+.
+h
+"
+#
+include
+"
+nsCSSPseudoElements
 .
 h
 "
@@ -11219,7 +11226,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-FirstLine
+firstLine
 &
 &
 aNewStyle
@@ -11232,7 +11239,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-MozLineFrame
+mozLineFrame
 )
 |
 |
@@ -11288,7 +11295,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-MozText
+mozText
 &
 &
 aNewStyle
@@ -11301,7 +11308,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-MozFirstLetterContinuation
+firstLetterContinuation
 )
 |
 |
@@ -11317,7 +11324,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-MozFirstLetterContinuation
+firstLetterContinuation
 &
 &
 aNewStyle
@@ -11330,7 +11337,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-MozText
+mozText
 )
 )
 ;
@@ -16601,7 +16608,7 @@ element
 PseudoStyleType
 :
 :
-Selection
+selection
 nullptr
 Style
 (
@@ -16780,7 +16787,7 @@ element
 PseudoStyleType
 :
 :
-Highlight
+highlight
 aHighlightName
 Style
 (
@@ -16842,7 +16849,7 @@ element
 PseudoStyleType
 :
 :
-TargetText
+targetText
 nullptr
 Style
 (
@@ -35317,7 +35324,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-MozTextControlEditingRoot
+mozTextControlEditingRoot
 )
 {
 return
@@ -35978,7 +35985,7 @@ case
 PseudoStyleType
 :
 :
-MozScrolledContent
+scrolledContent
 :
 return
 GetParent
@@ -41142,7 +41149,7 @@ pseudoType
 PseudoStyleType
 :
 :
-MozCellContent
+cellContent
 ;
 }
 return
@@ -63734,7 +63741,7 @@ pseudoType
 PseudoStyleType
 :
 :
-MozBlockInsideInlineWrapper
+mozBlockInsideInlineWrapper
 |
 |
 pseudoType
@@ -63743,7 +63750,7 @@ pseudoType
 PseudoStyleType
 :
 :
-MozCellContent
+cellContent
 |
 |
 pseudoType
@@ -63752,7 +63759,7 @@ pseudoType
 PseudoStyleType
 :
 :
-MozColumnSpanWrapper
+columnSpanWrapper
 ;
 }
 bool
@@ -64238,7 +64245,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-MozScrolledContent
+scrolledContent
 )
 {
 f
@@ -78136,7 +78143,7 @@ pseudoType
 PseudoStyleType
 :
 :
-MozBlockInsideInlineWrapper
+mozBlockInsideInlineWrapper
 )
 {
 break
@@ -81312,7 +81319,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-MozBlockInsideInlineWrapper
+mozBlockInsideInlineWrapper
 )
 {
 /
@@ -81709,7 +81716,7 @@ pseudo
 PseudoStyleType
 :
 :
-MozTableWrapper
+tableWrapper
 )
 {
 MOZ_ASSERT
@@ -82006,7 +82013,8 @@ parent
 if
 (
 aChildPseudo
-<
+!
+=
 PseudoStyleType
 :
 :
@@ -82085,7 +82093,7 @@ aChildPseudo
 &
 &
 !
-PseudoStyle
+nsCSSAnonBoxes
 :
 :
 IsNonElement
@@ -82102,7 +82110,7 @@ aChildPseudo
 PseudoStyleType
 :
 :
-MozBlockInsideInlineWrapper
+mozBlockInsideInlineWrapper
 "
 Should
 have
@@ -82360,7 +82368,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-MozViewportScroll
+viewportScroll
 )
 {
 /
@@ -82650,7 +82658,7 @@ pseudo
 PseudoStyleType
 :
 :
-MozTableWrapper
+tableWrapper
 )
 {
 /
@@ -83847,7 +83855,7 @@ pseudo
 PseudoStyleType
 :
 :
-MozAnonymousItem
+anonymousItem
 )
 {
 return

@@ -1374,9 +1374,11 @@ p
 >
 p
 .
-pseudo_type
+pseudo_type_and_argument
 (
 )
+.
+0
 None
 =
 >

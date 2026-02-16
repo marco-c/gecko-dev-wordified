@@ -157,6 +157,13 @@ h
 #
 include
 "
+nsCSSAnonBoxes
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

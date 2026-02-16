@@ -125,7 +125,7 @@ include
 "
 mozilla
 /
-PseudoStyleRequest
+PseudoStyleType
 .
 h
 "
@@ -604,7 +604,7 @@ aType
 PseudoStyleType
 :
 :
-Before
+before
 |
 |
 aType
@@ -613,7 +613,7 @@ aType
 PseudoStyleType
 :
 :
-After
+after
 |
 |
 aType
@@ -622,7 +622,7 @@ aType
 PseudoStyleType
 :
 :
-Marker
+marker
 |
 |
 aType
@@ -631,7 +631,7 @@ aType
 PseudoStyleType
 :
 :
-Backdrop
+backdrop
 ;
 }
 /

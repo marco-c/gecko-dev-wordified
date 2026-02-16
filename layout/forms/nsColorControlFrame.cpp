@@ -377,7 +377,7 @@ SetPseudoElementType
 PseudoStyleType
 :
 :
-MozColorSwatch
+mozColorSwatch
 )
 ;
 /

@@ -221,6 +221,13 @@ h
 #
 include
 "
+nsCSSAnonBoxes
+.
+h
+"
+#
+include
+"
 nsCSSFrameConstructor
 .
 h
@@ -726,7 +733,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-MozFieldsetContent
+fieldsetContent
 )
 {
 return
@@ -782,7 +789,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-MozFieldsetContent
+fieldsetContent
 )
 {
 return

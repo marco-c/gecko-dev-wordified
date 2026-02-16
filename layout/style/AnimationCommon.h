@@ -1004,7 +1004,7 @@ case
 PseudoStyleType
 :
 :
-Backdrop
+backdrop
 :
 return
 SortingIndex
@@ -1016,7 +1016,7 @@ case
 PseudoStyleType
 :
 :
-Marker
+marker
 :
 return
 SortingIndex
@@ -1028,7 +1028,7 @@ case
 PseudoStyleType
 :
 :
-Before
+before
 :
 return
 SortingIndex
@@ -1040,7 +1040,7 @@ case
 PseudoStyleType
 :
 :
-After
+after
 :
 return
 SortingIndex
@@ -1052,7 +1052,7 @@ case
 PseudoStyleType
 :
 :
-ViewTransition
+viewTransition
 :
 return
 SortingIndex
@@ -1064,7 +1064,7 @@ case
 PseudoStyleType
 :
 :
-ViewTransitionGroup
+viewTransitionGroup
 :
 return
 SortingIndex
@@ -1076,7 +1076,7 @@ case
 PseudoStyleType
 :
 :
-ViewTransitionImagePair
+viewTransitionImagePair
 :
 return
 SortingIndex
@@ -1088,7 +1088,7 @@ case
 PseudoStyleType
 :
 :
-ViewTransitionOld
+viewTransitionOld
 :
 return
 SortingIndex
@@ -1100,7 +1100,7 @@ case
 PseudoStyleType
 :
 :
-ViewTransitionNew
+viewTransitionNew
 :
 return
 SortingIndex

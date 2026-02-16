@@ -167,13 +167,6 @@ h
 #
 include
 "
-PseudoStyleType
-.
-h
-"
-#
-include
-"
 RetainedDisplayListBuilder
 .
 h
@@ -569,6 +562,20 @@ h
 include
 "
 nsCRT
+.
+h
+"
+#
+include
+"
+nsCSSAnonBoxes
+.
+h
+"
+#
+include
+"
+nsCSSPseudoElements
 .
 h
 "
@@ -1775,7 +1782,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-MozAnonymousItem
+anonymousItem
 ;
 }
 /
@@ -2215,7 +2222,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-MozColumnContent
+columnContent
 &
 &
 !
@@ -2389,7 +2396,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-MozColumnContent
+columnContent
 )
 {
 /
@@ -13044,7 +13051,7 @@ aPseudoElement
 PseudoStyleType
 :
 :
-Before
+before
 |
 |
 aPseudoElement
@@ -13053,7 +13060,7 @@ aPseudoElement
 PseudoStyleType
 :
 :
-After
+after
 |
 |
 aPseudoElement
@@ -13062,7 +13069,7 @@ aPseudoElement
 PseudoStyleType
 :
 :
-Marker
+marker
 |
 |
 aPseudoElement
@@ -13071,7 +13078,7 @@ aPseudoElement
 PseudoStyleType
 :
 :
-Backdrop
+backdrop
 "
 unexpected
 aPseudoElement
@@ -13086,7 +13093,7 @@ aPseudoElement
 PseudoStyleType
 :
 :
-Backdrop
+backdrop
 &
 &
 HasUAWidget
@@ -13236,7 +13243,7 @@ case
 PseudoStyleType
 :
 :
-Before
+before
 :
 elemName
 =
@@ -13258,7 +13265,7 @@ case
 PseudoStyleType
 :
 :
-After
+after
 :
 elemName
 =
@@ -13280,7 +13287,7 @@ case
 PseudoStyleType
 :
 :
-Marker
+marker
 :
 /
 /
@@ -13330,7 +13337,7 @@ case
 PseudoStyleType
 :
 :
-Backdrop
+backdrop
 :
 elemName
 =
@@ -13733,7 +13740,7 @@ aPseudoElement
 PseudoStyleType
 :
 :
-Backdrop
+backdrop
 )
 {
 auto
@@ -13962,7 +13969,7 @@ aPseudoElement
 PseudoStyleType
 :
 :
-Marker
+marker
 )
 {
 CreateGeneratedContentFromListStyle
@@ -14309,7 +14316,7 @@ pseudoType
 PseudoStyleType
 :
 :
-MozTable
+table
 |
 |
 pseudoType
@@ -14318,7 +14325,7 @@ pseudoType
 PseudoStyleType
 :
 :
-MozInlineTable
+inlineTable
 |
 |
 pseudoType
@@ -14327,7 +14334,7 @@ pseudoType
 PseudoStyleType
 :
 :
-MozTableColumnGroup
+tableColGroup
 |
 |
 pseudoType
@@ -14336,7 +14343,7 @@ pseudoType
 PseudoStyleType
 :
 :
-MozTableRowGroup
+tableRowGroup
 |
 |
 pseudoType
@@ -14345,7 +14352,7 @@ pseudoType
 PseudoStyleType
 :
 :
-MozTableRow
+tableRow
 |
 |
 pseudoType
@@ -14354,7 +14361,7 @@ pseudoType
 PseudoStyleType
 :
 :
-MozTableCell
+tableCell
 |
 |
 (
@@ -14364,7 +14371,7 @@ pseudoType
 PseudoStyleType
 :
 :
-MozCellContent
+cellContent
 &
 &
 aFrame
@@ -14388,7 +14395,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-MozTableCell
+tableCell
 )
 |
 |
@@ -14399,7 +14406,7 @@ pseudoType
 PseudoStyleType
 :
 :
-MozTableWrapper
+tableWrapper
 &
 &
 static_cast
@@ -15071,7 +15078,7 @@ ResolveInheritingAnonymousBoxStyle
 PseudoStyleType
 :
 :
-MozTableWrapper
+tableWrapper
 computedStyle
 )
 ;
@@ -16353,7 +16360,7 @@ ResolveInheritingAnonymousBoxStyle
 PseudoStyleType
 :
 :
-MozCellContent
+cellContent
 computedStyle
 )
 ;
@@ -16451,7 +16458,7 @@ cellFrame
 PseudoStyleType
 :
 :
-MozScrolledContent
+scrolledContent
 false
 scrollFrame
 )
@@ -17136,7 +17143,7 @@ ResolveInheritingAnonymousBoxStyle
 PseudoStyleType
 :
 :
-MozViewport
+viewport
 nullptr
 )
 ;
@@ -19056,7 +19063,7 @@ ResolveInheritingAnonymousBoxStyle
 PseudoStyleType
 :
 :
-MozViewport
+viewport
 nullptr
 )
 ;
@@ -19735,7 +19742,7 @@ rootPseudo
 PseudoStyleType
 :
 :
-MozCanvas
+canvas
 ;
 mCanvasFrame
 =
@@ -20006,7 +20013,7 @@ rootPseudo
 PseudoStyleType
 :
 :
-MozScrolledCanvas
+scrolledCanvas
 ;
 /
 /
@@ -20080,7 +20087,7 @@ ResolveInheritingAnonymousBoxStyle
 PseudoStyleType
 :
 :
-MozViewportScroll
+viewportScroll
 viewportPseudoStyle
 )
 ;
@@ -20255,7 +20262,7 @@ ResolveInheritingAnonymousBoxStyle
 PseudoStyleType
 :
 :
-MozPageSequence
+pageSequence
 viewportPseudoStyle
 )
 ;
@@ -20753,7 +20760,7 @@ ResolveNonInheritingAnonymousBoxStyle
 PseudoStyleType
 :
 :
-MozPrintedSheet
+printedSheet
 )
 ;
 auto
@@ -20827,7 +20834,7 @@ ResolveNonInheritingAnonymousBoxStyle
 PseudoStyleType
 :
 :
-MozPage
+page
 )
 ;
 nsContainerFrame
@@ -21159,7 +21166,7 @@ ResolveInheritingAnonymousBoxStyle
 PseudoStyleType
 :
 :
-MozCanvas
+canvas
 pageContentPseudoStyle
 )
 ;
@@ -22081,7 +22088,7 @@ ResolveInheritingAnonymousBoxStyle
 PseudoStyleType
 :
 :
-MozFieldsetContent
+fieldsetContent
 computedStyle
 )
 ;
@@ -22130,7 +22137,7 @@ fieldsetFrame
 PseudoStyleType
 :
 :
-MozScrolledContent
+scrolledContent
 false
 scrollFrame
 )
@@ -22880,7 +22887,7 @@ ResolveInheritingAnonymousBoxStyle
 PseudoStyleType
 :
 :
-MozBlockRubyContent
+blockRubyContent
 computedStyle
 )
 ;
@@ -23092,7 +23099,7 @@ pseudo
 PseudoStyleType
 :
 :
-Before
+before
 |
 |
 pseudo
@@ -23101,7 +23108,7 @@ pseudo
 PseudoStyleType
 :
 :
-After
+after
 |
 |
 pseudo
@@ -23110,7 +23117,7 @@ pseudo
 PseudoStyleType
 :
 :
-Marker
+marker
 |
 |
 pseudo
@@ -23119,7 +23126,7 @@ pseudo
 PseudoStyleType
 :
 :
-Backdrop
+backdrop
 )
 {
 return
@@ -23888,7 +23895,7 @@ pseudo
 PseudoStyleType
 :
 :
-MozFieldsetContent
+fieldsetContent
 |
 |
 pseudo
@@ -23897,7 +23904,7 @@ pseudo
 PseudoStyleType
 :
 :
-MozScrolledContent
+scrolledContent
 |
 |
 pseudo
@@ -23906,7 +23913,7 @@ pseudo
 PseudoStyleType
 :
 :
-MozColumnSet
+columnSet
 |
 |
 pseudo
@@ -23915,7 +23922,7 @@ pseudo
 PseudoStyleType
 :
 :
-MozColumnContent
+columnContent
 )
 {
 return
@@ -23996,7 +24003,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-MozFieldsetContent
+fieldsetContent
 |
 |
 aParentFrame
@@ -24034,13 +24041,13 @@ case
 PseudoStyleType
 :
 :
-ViewTransitionOld
+viewTransitionOld
 :
 case
 PseudoStyleType
 :
 :
-ViewTransitionNew
+viewTransitionNew
 :
 {
 static
@@ -24060,7 +24067,7 @@ case
 PseudoStyleType
 :
 :
-MozSelectContent
+mozSelectContent
 :
 {
 static
@@ -24080,7 +24087,7 @@ case
 PseudoStyleType
 :
 :
-MozFileContent
+mozFileContent
 :
 {
 static
@@ -25513,7 +25520,7 @@ NS_NewHTMLCanvasFrame
 PseudoStyleType
 :
 :
-MozHtmlCanvasContent
+htmlCanvasContent
 )
 ;
 return
@@ -28518,7 +28525,7 @@ aParentFrame
 PseudoStyleType
 :
 :
-MozScrolledContent
+scrolledContent
 false
 aNewFrame
 )
@@ -29724,7 +29731,7 @@ aParentFrame
 PseudoStyleType
 :
 :
-MozScrolledContent
+scrolledContent
 false
 newFrame
 )
@@ -30281,7 +30288,7 @@ anonPseudo
 PseudoStyleType
 :
 :
-MozMathmlAnonymousBlock
+mozMathMLAnonymousBlock
 ;
 ComputedStyle
 *
@@ -31373,7 +31380,7 @@ NS_NewSVGOuterSVGAnonChildFrame
 PseudoStyleType
 :
 :
-MozSvgOuterSvgAnonChild
+mozSVGOuterSVGAnonChild
 true
 )
 ;
@@ -31415,7 +31422,7 @@ NS_NewSVGMarkerAnonChildFrame
 PseudoStyleType
 :
 :
-MozSvgMarkerAnonChild
+mozSVGMarkerAnonChild
 false
 )
 ;
@@ -32858,7 +32865,7 @@ FCDATA_ALLOW_BLOCK_STYLES
 PseudoStyleType
 :
 :
-MozSvgText
+mozSVGText
 }
 }
 {
@@ -32875,7 +32882,7 @@ FCDATA_DISALLOW_OUT_OF_FLOW
 PseudoStyleType
 :
 :
-MozSvgForeignContent
+mozSVGForeignContent
 }
 }
 SIMPLE_SVG_CREATE
@@ -33128,7 +33135,7 @@ ResolveNonInheritingAnonymousBoxStyle
 PseudoStyleType
 :
 :
-MozPageBreak
+pageBreak
 )
 ;
 MOZ_ASSERT
@@ -34742,7 +34749,7 @@ aComputedStyle
 PseudoStyleType
 :
 :
-Before
+before
 aItems
 )
 ;
@@ -34823,7 +34830,7 @@ aComputedStyle
 PseudoStyleType
 :
 :
-After
+after
 aItems
 )
 ;
@@ -42254,7 +42261,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-MozCellContent
+cellContent
 )
 {
 /
@@ -44063,7 +44070,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-Marker
+marker
 "
 we
 can
@@ -54202,7 +54209,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-MozColumnContent
+columnContent
 &
 &
 /
@@ -55608,7 +55615,7 @@ GetPseudoElementType
 PseudoStyleType
 :
 :
-MozSnapshotContainingBlock
+mozSnapshotContainingBlock
 )
 {
 /
@@ -56697,7 +56704,7 @@ AsElement
 PseudoStyleType
 :
 :
-FirstLetter
+firstLetter
 nullptr
 aComputedStyle
 )
@@ -56750,7 +56757,7 @@ AsElement
 PseudoStyleType
 :
 :
-FirstLine
+firstLine
 nullptr
 aComputedStyle
 )
@@ -56809,7 +56816,7 @@ aComputedStyle
 PseudoStyleType
 :
 :
-FirstLetter
+firstLetter
 mPresShell
 -
 >
@@ -56894,7 +56901,7 @@ aComputedStyle
 PseudoStyleType
 :
 :
-FirstLine
+firstLine
 mPresShell
 -
 >
@@ -57004,7 +57011,7 @@ eTypeRow
 PseudoStyleType
 :
 :
-MozTableCell
+tableCell
 }
 /
 /
@@ -57032,7 +57039,7 @@ eTypeRowGroup
 PseudoStyleType
 :
 :
-MozTableRow
+tableRow
 }
 /
 /
@@ -57061,7 +57068,7 @@ eTypeTable
 PseudoStyleType
 :
 :
-MozTableRowGroup
+tableRowGroup
 }
 /
 /
@@ -57114,7 +57121,7 @@ eTypeTable
 PseudoStyleType
 :
 :
-MozTableColumnGroup
+tableColGroup
 }
 /
 /
@@ -57135,7 +57142,7 @@ FCDATA_IS_WRAPPER_ANON_BOX
 PseudoStyleType
 :
 :
-MozTable
+table
 }
 /
 /
@@ -57157,7 +57164,7 @@ FCDATA_SKIP_FRAMESET
 PseudoStyleType
 :
 :
-MozRuby
+ruby
 }
 /
 /
@@ -57185,7 +57192,7 @@ FCDATA_SKIP_FRAMESET
 PseudoStyleType
 :
 :
-MozRubyBase
+rubyBase
 }
 /
 /
@@ -57214,7 +57221,7 @@ FCDATA_SKIP_FRAMESET
 PseudoStyleType
 :
 :
-MozRubyBaseContainer
+rubyBaseContainer
 }
 /
 /
@@ -57242,7 +57249,7 @@ FCDATA_SKIP_FRAMESET
 PseudoStyleType
 :
 :
-MozRubyText
+rubyText
 }
 /
 /
@@ -57269,7 +57276,7 @@ FCDATA_SKIP_FRAMESET
 PseudoStyleType
 :
 :
-MozRubyTextContainer
+rubyTextContainer
 }
 }
 ;
@@ -57906,7 +57913,7 @@ ResolveInheritingAnonymousBoxStyle
 PseudoStyleType
 :
 :
-MozAnonymousItem
+anonymousItem
 aParentFrame
 -
 >
@@ -61384,7 +61391,7 @@ pseudoType
 PseudoStyleType
 :
 :
-MozTable
+table
 &
 &
 (
@@ -61419,7 +61426,7 @@ pseudoType
 PseudoStyleType
 :
 :
-MozInlineTable
+inlineTable
 ;
 }
 RefPtr
@@ -65400,7 +65407,7 @@ parentStyle
 PseudoStyleType
 :
 :
-Backdrop
+backdrop
 itemsToConstruct
 )
 ;
@@ -65490,7 +65497,7 @@ parentStyle
 PseudoStyleType
 :
 :
-Marker
+marker
 itemsToConstruct
 extraFlags
 )
@@ -65519,7 +65526,7 @@ parentStyle
 PseudoStyleType
 :
 :
-Before
+before
 itemsToConstruct
 )
 ;
@@ -65687,7 +65694,7 @@ parentStyle
 PseudoStyleType
 :
 :
-After
+after
 itemsToConstruct
 )
 ;
@@ -65816,7 +65823,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-MozColumnContent
+columnContent
 &
 &
 grandParent
@@ -66296,7 +66303,7 @@ aBlockFrame
 PseudoStyleType
 :
 :
-FirstLine
+firstLine
 )
 -
 >
@@ -67949,7 +67956,7 @@ aParentFrame
 PseudoStyleType
 :
 :
-FirstLetter
+firstLetter
 )
 ;
 ComputedStyle
@@ -67990,7 +67997,7 @@ aBlockFrame
 PseudoStyleType
 :
 :
-FirstLetter
+firstLetter
 )
 -
 >
@@ -68938,7 +68945,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-Marker
+marker
 |
 |
 frame
@@ -72386,7 +72393,7 @@ ResolveInheritingAnonymousBoxStyle
 PseudoStyleType
 :
 :
-MozColumnSet
+columnSet
 aComputedStyle
 )
 ;
@@ -72439,7 +72446,7 @@ ResolveInheritingAnonymousBoxStyle
 PseudoStyleType
 :
 :
-MozColumnContent
+columnContent
 columnSetStyle
 )
 ;
@@ -73145,7 +73152,7 @@ ResolveNonInheritingAnonymousBoxStyle
 PseudoStyleType
 :
 :
-MozColumnSpanWrapper
+columnSpanWrapper
 )
 ;
 nsBlockFrame
@@ -75205,7 +75212,7 @@ ResolveInheritingAnonymousBoxStyle
 PseudoStyleType
 :
 :
-MozBlockInsideInlineWrapper
+mozBlockInsideInlineWrapper
 computedStyle
 )
 ;
@@ -75866,7 +75873,7 @@ parentStyle
 PseudoStyleType
 :
 :
-Marker
+marker
 aParentItem
 .
 mChildItems
@@ -75896,7 +75903,7 @@ parentStyle
 PseudoStyleType
 :
 :
-Before
+before
 aParentItem
 .
 mChildItems
@@ -76027,7 +76034,7 @@ parentStyle
 PseudoStyleType
 :
 :
-After
+after
 aParentItem
 .
 mChildItems
@@ -79242,7 +79249,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-MozColumnSpanWrapper
+columnSpanWrapper
 |
 |
 /

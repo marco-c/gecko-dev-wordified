@@ -927,7 +927,7 @@ SetPseudoElementType
 PseudoStyleType
 :
 :
-DetailsContent
+detailsContent
 )
 ;
 }

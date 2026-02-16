@@ -493,7 +493,7 @@ aParent
 PseudoStyleType
 :
 :
-FirstLetter
+firstLetter
 )
 ;
 ComputedStyle
@@ -2049,7 +2049,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-FirstLetter
+firstLetter
 )
 ;
 ll
@@ -3500,7 +3500,7 @@ GetParent
 PseudoStyleType
 :
 :
-FirstLetter
+firstLetter
 )
 ;
 parentSC

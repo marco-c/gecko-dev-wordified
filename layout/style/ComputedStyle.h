@@ -193,6 +193,13 @@ h
 #
 include
 "
+nsCSSPseudoElements
+.
+h
+"
+#
+include
+"
 nsColor
 .
 h
@@ -725,7 +732,7 @@ IsPseudoElement
 &
 &
 !
-PseudoStyle
+nsCSSPseudoElements
 :
 :
 IsEagerlyCascadedInServo
@@ -1705,10 +1712,10 @@ cases
 .
 if
 (
-PseudoStyle
+nsCSSPseudoElements
 :
 :
-SupportsUserActionState
+PseudoElementSupportsUserActionState
 (
 aStyle
 -

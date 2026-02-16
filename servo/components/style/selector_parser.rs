@@ -2237,7 +2237,7 @@ get
 PseudoElement
 :
 :
-MozRubyText
+RubyText
 )
 None
 )
@@ -2250,7 +2250,7 @@ set
 PseudoElement
 :
 :
-MozRubyText
+RubyText
 8
 )
 ;
@@ -2265,7 +2265,7 @@ get
 PseudoElement
 :
 :
-MozRubyText
+RubyText
 )
 Some
 (
@@ -2288,7 +2288,7 @@ get_or_insert_with
 PseudoElement
 :
 :
-MozRubyText
+RubyText
 |
 |
 {
@@ -2307,7 +2307,7 @@ set
 PseudoElement
 :
 :
-MozRubyText
+RubyText
 9
 )
 ;
@@ -2322,7 +2322,7 @@ get
 PseudoElement
 :
 :
-MozRubyText
+RubyText
 )
 Some
 (
@@ -2425,7 +2425,7 @@ set
 PseudoElement
 :
 :
-MozRubyText
+RubyText
 8
 )
 ;
