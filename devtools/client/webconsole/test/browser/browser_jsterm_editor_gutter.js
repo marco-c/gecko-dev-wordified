@@ -303,12 +303,9 @@ outputNode
 .
 querySelector
 (
-"
+codemirrorSelectors
 .
-CodeMirror
--
-linenumbers
-"
+cmLineNumbers
 )
 ;
 }
