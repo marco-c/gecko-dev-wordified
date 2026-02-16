@@ -556,9 +556,6 @@ Verbose
 return
 ;
 }
-ErrorResult
-rv
-;
 AutoJSAPI
 jsapi
 ;
@@ -665,6 +662,9 @@ StructuredCloneData
 .
 *
 /
+IgnoredErrorResult
+rv
+;
 JS
 :
 :
@@ -737,12 +737,6 @@ MMPrinter
 PrintNoData
 (
 aMsgId
-)
-;
-rv
-.
-SuppressException
-(
 )
 ;
 return
