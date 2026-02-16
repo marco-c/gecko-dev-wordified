@@ -915,6 +915,16 @@ wallpaper_url
 wallpaper_url
 "
 )
+            
+(
+"
+pocket_consumer_key
+"
+"
+.
+pocket_consumer_key
+"
+)
         
 ]
 )
