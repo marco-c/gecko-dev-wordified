@@ -371,6 +371,9 @@ return
 NS_OK
 ;
 }
+#
+ifdef
+MOZ_JXL
 static
 ImageEnablementCookie
 kJXLCookie
@@ -408,6 +411,8 @@ enabled
 kJXLCookie
 )
 ;
+#
+endif
 mozilla
 :
 :
