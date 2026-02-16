@@ -144,6 +144,8 @@ private
 nsUUIDGenerator
 (
 )
+=
+default
 ;
 }
 ;

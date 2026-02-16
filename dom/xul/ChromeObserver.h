@@ -201,6 +201,8 @@ bool
 ChromeObserver
 (
 )
+=
+default
 ;
 /
 /

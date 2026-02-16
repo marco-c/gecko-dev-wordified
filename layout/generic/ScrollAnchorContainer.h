@@ -250,6 +250,8 @@ aScrollFrame
 ScrollAnchorContainer
 (
 )
+=
+default
 ;
 /
 *

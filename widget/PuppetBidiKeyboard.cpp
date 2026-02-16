@@ -150,16 +150,6 @@ false
 )
 {
 }
-PuppetBidiKeyboard
-:
-:
-~
-PuppetBidiKeyboard
-(
-)
-=
-default
-;
 NS_IMETHODIMP
 PuppetBidiKeyboard
 :

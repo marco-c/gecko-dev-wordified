@@ -126,16 +126,6 @@ NS_IMPL_ISUPPORTS
 nsUUIDGenerator
 nsIUUIDGenerator
 )
-nsUUIDGenerator
-:
-:
-~
-nsUUIDGenerator
-(
-)
-=
-default
-;
 NS_IMETHODIMP
 nsUUIDGenerator
 :

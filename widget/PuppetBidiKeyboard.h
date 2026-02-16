@@ -153,6 +153,8 @@ private
 PuppetBidiKeyboard
 (
 )
+=
+default
 ;
 bool
 mIsLangRTL

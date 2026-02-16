@@ -120,6 +120,8 @@ NS_DECL_NSINSSVERSION
 nsNSSVersion
 (
 )
+=
+default
 ;
 private
 :
@@ -127,6 +129,8 @@ private
 nsNSSVersion
 (
 )
+=
+default
 ;
 }
 ;

@@ -462,16 +462,6 @@ Frame
 ;
 }
 ScrollAnchorContainer
-:
-:
-~
-ScrollAnchorContainer
-(
-)
-=
-default
-;
-ScrollAnchorContainer
 *
 ScrollAnchorContainer
 :
