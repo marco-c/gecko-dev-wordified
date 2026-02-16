@@ -81,13 +81,6 @@ h
 #
 include
 "
-nsHttpConnectionMgr
-.
-h
-"
-#
-include
-"
 HttpInfo
 .
 h

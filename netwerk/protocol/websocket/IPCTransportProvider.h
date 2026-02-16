@@ -156,13 +156,6 @@ h
 #
 include
 "
-nsISocketTransport
-.
-h
-"
-#
-include
-"
 nsITransportProvider
 .
 h
