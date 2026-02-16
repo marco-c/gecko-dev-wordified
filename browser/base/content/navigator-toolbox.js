@@ -1512,10 +1512,9 @@ isLeftClick
 {
 AIWindowUI
 .
-toggleSidebarFromAskButton
+toggleSidebar
 (
 window
-event
 )
 ;
 }
@@ -2134,10 +2133,9 @@ isLikeLeftClick
 {
 AIWindowUI
 .
-toggleSidebarFromAskButton
+toggleSidebar
 (
 window
-event
 )
 ;
 }
