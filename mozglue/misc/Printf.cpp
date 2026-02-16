@@ -2681,9 +2681,10 @@ slen
 =
 int
 (
-strlen
+strnlen
 (
 s
+prec
 )
 )
 ;
