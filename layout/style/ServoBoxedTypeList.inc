@@ -353,3 +353,8 @@ SERVO_BOXED_TYPE
 UseCounters
 UseCounters
 )
+SERVO_BOXED_TYPE
+(
+NumericDeclaration
+NumericDeclaration
+)
