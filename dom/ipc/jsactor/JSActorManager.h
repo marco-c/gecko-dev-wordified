@@ -318,13 +318,11 @@ JSIPCValue
 &
 &
 aData
-UniquePtr
-<
 ipc
 :
 :
 StructuredCloneData
->
+*
 aStack
 )
 ;

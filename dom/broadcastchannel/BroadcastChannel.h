@@ -172,6 +172,9 @@ class
 RefMessageBodyService
 ;
 class
+SharedMessageBody
+;
+class
 WorkerRef
 ;
 class
@@ -343,9 +346,8 @@ BroadcastChannel
 void
 MessageReceived
 (
-const
-MessageData
-&
+SharedMessageBody
+*
 aData
 )
 ;

@@ -196,10 +196,9 @@ ipc
 IPCResult
 RecvPostMessage
 (
-const
-ClonedOrErrorMessageData
-&
-aClonedData
+StructuredCloneData
+*
+aData
 const
 PostMessageSource
 &
