@@ -1281,7 +1281,7 @@ std
 array
 <
 nsLiteralCString
-2
+3
 >
 kStripOAPermissions
 =
@@ -1299,6 +1299,12 @@ only
 load
 -
 insecure
+"
+_ns
+"
+ipp
+-
+vpn
 "
 _ns
 }
@@ -1404,7 +1410,7 @@ std
 array
 <
 nsLiteralCString
-3
+2
 >
 kSiteScopedPermissions
 =
@@ -1412,11 +1418,6 @@ kSiteScopedPermissions
 {
 "
 3rdPartyStorage
-^
-"
-_ns
-"
-AllowStorageAccessRequest
 ^
 "
 _ns
@@ -1563,7 +1564,7 @@ std
 array
 <
 nsLiteralCString
-3
+2
 >
 kSecondaryKeyedPermissions
 =
@@ -1571,11 +1572,6 @@ kSecondaryKeyedPermissions
 {
 "
 3rdPartyStorage
-^
-"
-_ns
-"
-AllowStorageAccessRequest
 ^
 "
 _ns
