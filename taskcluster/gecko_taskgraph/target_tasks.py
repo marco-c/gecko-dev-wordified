@@ -8755,20 +8755,6 @@ task
 )
 :
         
-#
-For
-now
-any
-task
-in
-the
-repo
--
-update
-kind
-is
-ok
-        
 return
 task
 .
@@ -8779,6 +8765,13 @@ in
 merge
 -
 automation
+"
+"
+mark
+-
+as
+-
+merged
 "
 ]
     
