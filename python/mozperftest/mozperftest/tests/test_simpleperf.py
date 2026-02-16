@@ -3049,11 +3049,31 @@ node
 Mock
 files
     
+simpleperf_dir
+=
+output_dir
+/
+"
+simpleperf
+"
+    
+simpleperf_dir
+.
+mkdir
+(
+parents
+=
+True
+exist_ok
+=
+True
+)
+    
 (
 mock_perf_data_path
 :
 =
-output_dir
+simpleperf_dir
 /
 "
 mock_perf
@@ -3074,7 +3094,7 @@ data
 )
     
 (
-output_dir
+simpleperf_dir
 /
 "
 profile
@@ -3101,7 +3121,7 @@ profile
 )
     
 (
-output_dir
+simpleperf_dir
 /
 "
 profile
@@ -3434,6 +3454,10 @@ str
 output_dir
 /
 "
+simpleperf
+"
+/
+"
 profile
 -
 0
@@ -3486,6 +3510,10 @@ load
 str
 (
 output_dir
+/
+"
+simpleperf
+"
 /
 "
 profile
@@ -3600,6 +3628,10 @@ str
 output_dir
 /
 "
+simpleperf
+"
+/
+"
 profile
 -
 0
@@ -3619,6 +3651,10 @@ output
 str
 (
 output_dir
+/
+"
+simpleperf
+"
 /
 "
 profile
@@ -3875,8 +3911,28 @@ node
 Mock
 files
     
-(
+simpleperf_dir
+=
 output_dir
+/
+"
+simpleperf
+"
+    
+simpleperf_dir
+.
+mkdir
+(
+parents
+=
+True
+exist_ok
+=
+True
+)
+    
+(
+simpleperf_dir
 /
 "
 mock_perf
@@ -4158,6 +4214,10 @@ str
 output_dir
 /
 "
+simpleperf
+"
+/
+"
 profile
 -
 0
@@ -4177,6 +4237,10 @@ output
 str
 (
 output_dir
+/
+"
+simpleperf
+"
 /
 "
 profile
@@ -4375,14 +4439,36 @@ tmp_path
 )
     
 #
-Mock
-files
+The
+tgz
+will
+extract
+to
+work_dir
+/
+unit_test
+/
+simpleperf
+/
+mock_perf
+-
+0
+.
+data
     
-(
 mock_perf_data_path
-:
 =
+(
+        
 mock_work_dir_path
+/
+"
+unit_test
+"
+/
+"
+simpleperf
+"
 /
 "
 mock_perf
@@ -4391,21 +4477,57 @@ mock_perf
 .
 data
 "
-)
-.
-write_text
-(
-        
-"
-mock
--
-data
-"
     
 )
     
+#
+Mock
+profile
+files
+at
+the
+path
+where
+_convert_perf_to_json
+will
+output
+them
+    
+#
 (
+work_dir
+/
+parent_folder
+where
+parent_folder
+=
+"
+simpleperf
+"
+)
+    
+profile_dir
+=
 mock_work_dir_path
+/
+"
+simpleperf
+"
+    
+profile_dir
+.
+mkdir
+(
+parents
+=
+True
+exist_ok
+=
+True
+)
+    
+(
+profile_dir
 /
 "
 profile
@@ -4432,7 +4554,7 @@ profile
 )
     
 (
-mock_work_dir_path
+profile_dir
 /
 "
 profile
@@ -4683,9 +4805,17 @@ add
 perf_path
 arcname
 =
-perf_path
+"
+unit_test
+/
+simpleperf
+/
+mock_perf
+-
+0
 .
-name
+data
+"
 )
     
 #
@@ -5063,7 +5193,12 @@ o
                 
 str
 (
+                    
 mock_work_dir_path
+/
+"
+simpleperf
+"
 /
 "
 profile
@@ -5074,6 +5209,7 @@ unsymbolicated
 .
 json
 "
+                
 )
             
 ]
@@ -5118,7 +5254,12 @@ load
                 
 str
 (
+                    
 mock_work_dir_path
+/
+"
+simpleperf
+"
 /
 "
 profile
@@ -5129,6 +5270,7 @@ unsymbolicated
 .
 json
 "
+                
 )
                 
 "
@@ -5222,7 +5364,12 @@ input
                 
 str
 (
+                    
 mock_work_dir_path
+/
+"
+simpleperf
+"
 /
 "
 profile
@@ -5233,6 +5380,7 @@ unsymbolicated
 .
 json
 "
+                
 )
                 
 "
@@ -5244,6 +5392,10 @@ output
 str
 (
 mock_work_dir_path
+/
+"
+simpleperf
+"
 /
 "
 profile
@@ -5692,9 +5844,17 @@ add
 perf_path
 arcname
 =
-perf_path
+"
+unit_test
+/
+simpleperf
+/
+mock_perf
+-
+0
 .
-name
+data
+"
 )
     
 #
@@ -5969,7 +6129,12 @@ input
                 
 str
 (
+                    
 mock_work_dir_path
+/
+"
+simpleperf
+"
 /
 "
 profile
@@ -5980,6 +6145,7 @@ unsymbolicated
 .
 json
 "
+                
 )
                 
 "
@@ -5991,6 +6157,10 @@ output
 str
 (
 mock_work_dir_path
+/
+"
+simpleperf
+"
 /
 "
 profile

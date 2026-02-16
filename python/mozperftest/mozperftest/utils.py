@@ -4802,6 +4802,7 @@ full_archive_path
 def
 archive_files
 (
+    
 files
 output_dir
 archive_name
@@ -4809,6 +4810,12 @@ prefix
 =
 "
 "
+sort_key
+=
+None
+base_dir
+=
+None
 )
 :
     
@@ -4863,10 +4870,40 @@ archive
 prefix
 :
 Optional
-prefix
+subdirectory
+within
+the
+archive
 for
-archived
-filenames
+files
+(
+ignored
+if
+base_dir
+is
+set
+)
+        
+sort_key
+:
+Optional
+sorting
+key
+function
+for
+ordering
+files
+        
+base_dir
+:
+Optional
+base
+directory
+to
+compute
+relative
+paths
+from
     
 Returns
 :
@@ -4927,6 +4964,20 @@ else
 w
 "
     
+sorted_files
+=
+sorted
+(
+files
+key
+=
+sort_key
+)
+if
+sort_key
+else
+files
+    
 with
 zipfile
 .
@@ -4947,16 +4998,26 @@ zf
 for
 file_path
 in
-files
+sorted_files
 :
             
-base_name
+if
+base_dir
+:
+                
+archive_name
 =
+str
+(
 file_path
 .
-name
+relative_to
+(
+base_dir
+)
+)
             
-if
+elif
 prefix
 :
                 
@@ -4967,9 +5028,11 @@ f
 {
 prefix
 }
--
+/
 {
-base_name
+file_path
+.
+name
 }
 "
             
@@ -4978,7 +5041,9 @@ else
                 
 archive_name
 =
-base_name
+file_path
+.
+name
             
 print
 (
@@ -5098,12 +5163,40 @@ Tuple
 of
 (
 files
+search_dir
 work_dir
 )
 where
+:
+            
+-
+files
+:
+list
+of
+found
+file
+paths
+            
+-
+search_dir
+:
+base
+directory
+where
+files
+were
+found
+(
+for
+relative
+path
+computation
+)
+            
+-
 work_dir
-is
-the
+:
 temp
 directory
 to
@@ -5112,6 +5205,10 @@ up
 (
 or
 None
+if
+not
+on
+CI
 )
     
 "
@@ -5233,5 +5330,6 @@ is_file
 return
 (
 valid_files
+search_dir
 work_dir
 )

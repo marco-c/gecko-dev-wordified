@@ -1197,6 +1197,7 @@ test_name
 )
         
 profiles
+search_dir
 work_dir
 =
 extract_tgz_and_find_files
@@ -1211,6 +1212,14 @@ test_name
 patterns
         
 )
+        
+search_dir
+=
+search_dir
+/
+self
+.
+test_name
         
 try
 :
@@ -1231,12 +1240,6 @@ ready
 to
 use
                 
-profiles
-.
-sort
-(
-)
-                
 archive_files
 (
                     
@@ -1256,11 +1259,39 @@ test_name
 }
 "
                     
-prefix
+sort_key
 =
+lambda
+p
+:
+(
+p
+.
+parent
+.
+name
+int
+(
+p
+.
+stem
+.
+split
+(
 "
-gecko
+-
 "
+)
+[
+-
+1
+]
+)
+)
+                    
+base_dir
+=
+search_dir
                 
 )
                 
