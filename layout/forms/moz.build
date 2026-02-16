@@ -131,16 +131,6 @@ chrome
 toml
 "
 ]
-EXPORTS
-+
-=
-[
-"
-nsISelectControlFrame
-.
-h
-"
-]
 UNIFIED_SOURCES
 +
 =

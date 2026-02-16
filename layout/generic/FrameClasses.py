@@ -1938,13 +1938,6 @@ nsIScrollbarMediator
 AbstractFrame
 (
 "
-nsISelectControlFrame
-"
-)
-    
-AbstractFrame
-(
-"
 nsIStatefulFrame
 "
 )
