@@ -177,8 +177,8 @@ nsCOMPtr
 nsISupports
 >
 aParent
-StyleValueType
-aStyleValueType
+NumericValueType
+aNumericValueType
 )
 ;
 /
