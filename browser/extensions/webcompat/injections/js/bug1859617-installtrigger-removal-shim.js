@@ -88,12 +88,6 @@ it
 .
 *
 /
-/
-*
-globals
-exportFunction
-*
-/
 if
 (
 typeof
@@ -149,8 +143,6 @@ details
 ;
 delete
 window
-.
-wrappedJSObject
 .
 InstallTrigger
 ;
