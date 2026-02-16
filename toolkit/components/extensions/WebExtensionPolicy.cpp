@@ -1396,6 +1396,12 @@ aInit
 .
 mName
 )
+mVersion
+(
+aInit
+.
+mVersion
+)
 mType
 (
 NS_AtomizeMainThread
