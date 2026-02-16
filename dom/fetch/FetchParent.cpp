@@ -1301,6 +1301,7 @@ self
 -
 >
 mWorkerScript
+*
 self
 -
 >
@@ -1402,6 +1403,11 @@ self
 -
 >
 mPrincipalInfo
+*
+self
+-
+>
+mClientInfo
 self
 -
 >
