@@ -330,7 +330,13 @@ mCallbacksMutex
 ;
 mCallback
 =
+std
+:
+:
+move
+(
 aCallback
+)
 ;
 }
 void

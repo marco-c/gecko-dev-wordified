@@ -6768,7 +6768,13 @@ subType
 *
 supportedTypes
 =
+std
+:
+:
+move
+(
 temp
+)
 ;
 }
 void
@@ -6866,7 +6872,13 @@ fb
 *
 supportedFbs
 =
+std
+:
+:
+move
+(
 temp
+)
 ;
 }
 void

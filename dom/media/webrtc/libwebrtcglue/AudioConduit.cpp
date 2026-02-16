@@ -2447,7 +2447,13 @@ mSendStreamConfig
 .
 send_codec_spec
 =
+std
+:
+:
+move
+(
 spec
+)
 ;
 mDtmfEnabled
 =

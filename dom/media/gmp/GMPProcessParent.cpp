@@ -1700,7 +1700,13 @@ aCallback
 {
 mDeletedCallback
 =
+std
+:
+:
+move
+(
 aCallback
+)
 ;
 XRE_GetAsyncIOEventTarget
 (

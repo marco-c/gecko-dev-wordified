@@ -866,7 +866,13 @@ aRv
 ;
 mPrincipal
 =
+std
+:
+:
+move
+(
 docPrincipal
+)
 ;
 return
 ret

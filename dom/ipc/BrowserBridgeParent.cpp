@@ -1475,7 +1475,13 @@ event
 .
 mWidget
 =
+std
+:
+:
+move
+(
 widget
+)
 ;
 /
 /

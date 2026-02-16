@@ -10964,7 +10964,13 @@ this
 ;
 mChannel
 =
+std
+:
+:
+move
+(
 chan
+)
 ;
 return
 NS_OK
