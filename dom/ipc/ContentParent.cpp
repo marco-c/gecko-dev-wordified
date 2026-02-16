@@ -31932,7 +31932,7 @@ stack
 cx
 )
 ;
-ErrorResult
+IgnoredErrorResult
 rv
 ;
 data
@@ -31962,12 +31962,6 @@ isObject
 )
 )
 {
-rv
-.
-SuppressException
-(
-)
-;
 return
 IPC_OK
 (

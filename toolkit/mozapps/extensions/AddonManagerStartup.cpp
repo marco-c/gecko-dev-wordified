@@ -3992,6 +3992,12 @@ value
 rv
 )
 ;
+rv
+.
+WouldReportJSException
+(
+)
+;
 if
 (
 rv
