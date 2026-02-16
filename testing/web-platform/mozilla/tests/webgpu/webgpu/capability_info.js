@@ -6349,5 +6349,8 @@ subgroup_id
 '
 subgroup_uniformity
 '
+'
+swizzle_assignment
+'
 ]
 ;
