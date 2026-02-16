@@ -61,14 +61,9 @@ reader
 )
 ]
 (
-trait
-.
 Buf
-.
-html
-#
-method
-.
+:
+:
 reader
 )
 for
