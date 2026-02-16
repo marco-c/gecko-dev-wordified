@@ -587,10 +587,7 @@ mEmbellishData
 .
 direction
 =
-StretchDirection
-:
-:
-Unsupported
+NS_STRETCH_DIRECTION_UNSUPPORTED
 ;
 }
 return

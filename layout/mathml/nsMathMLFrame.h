@@ -296,7 +296,7 @@ gfx
 DrawTarget
 *
 aDrawTarget
-StretchDirection
+nsStretchDirection
 aStretchDirection
 nsBoundingMetrics
 &
@@ -1762,7 +1762,7 @@ mozilla
 nsDisplayListSet
 &
 aLists
-uint16_t
+uint32_t
 aIndex
 =
 0
