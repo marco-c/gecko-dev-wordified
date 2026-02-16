@@ -88,6 +88,11 @@ MPL
 DevToolsModules
 (
 "
+AttrTooltipHelper
+.
+js
+"
+"
 css
 -
 compatibility
