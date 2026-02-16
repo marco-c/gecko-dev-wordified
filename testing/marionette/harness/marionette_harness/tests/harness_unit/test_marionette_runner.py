@@ -3561,6 +3561,9 @@ update_result
 (
 test
 expected
+*
+*
+kwargs
 )
 :
         
@@ -3640,6 +3643,9 @@ update_result
 (
 test
 expected
+*
+*
+kwargs
 )
 :
         
