@@ -86393,12 +86393,6 @@ case
 InlinableNative
 :
 :
-IntlGuardToNumberFormat
-:
-case
-InlinableNative
-:
-:
 IntlGuardToPluralRules
 :
 case
