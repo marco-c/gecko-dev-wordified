@@ -1623,6 +1623,14 @@ for
 \
 MACRO_
 (
+formatMatcher
+"
+formatMatcher
+"
+)
+\
+MACRO_
+(
 forceInterpreter
 "
 forceInterpreter
