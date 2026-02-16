@@ -1504,10 +1504,6 @@ return
 ;
 hex
 =
-(
-char
-*
-)
 RMALLOC
 (
 (

@@ -1219,10 +1219,6 @@ dest_index
 ;
 tmp
 =
-(
-nr_local_addr
-*
-)
 RMALLOC
 (
 *

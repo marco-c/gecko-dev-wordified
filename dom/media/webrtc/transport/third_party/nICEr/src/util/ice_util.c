@@ -344,10 +344,6 @@ if
 (
 out
 =
-(
-char
-*
-)
 RMALLOC
 (
 len

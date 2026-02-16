@@ -409,9 +409,12 @@ if
 (
 pctx
 =
-R_NEW
+RCALLOC
+(
+sizeof
 (
 nr_ice_peer_ctx
+)
 )
 )
 )

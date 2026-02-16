@@ -305,9 +305,12 @@ if
 (
 ifp
 =
-R_NEW
+RCALLOC
+(
+sizeof
 (
 nr_interface_prioritizer
+)
 )
 )
 )

@@ -465,9 +465,12 @@ if
 (
 sturn
 =
-R_NEW
+RCALLOC
+(
+sizeof
 (
 nr_socket_turn
+)
 )
 )
 )

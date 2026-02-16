@@ -409,9 +409,12 @@ if
 (
 ctx
 =
-R_NEW
+RCALLOC
+(
+sizeof
 (
 nr_stun_client_ctx
+)
 )
 )
 )
