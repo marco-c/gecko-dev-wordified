@@ -751,7 +751,7 @@ urlpattern_pattern_free
 (
 mCachedPattern
 .
-value
+ref
 (
 )
 )
@@ -1332,7 +1332,7 @@ UrlPatternTest
 (
 mCachedPattern
 .
-value
+ref
 (
 )
 input

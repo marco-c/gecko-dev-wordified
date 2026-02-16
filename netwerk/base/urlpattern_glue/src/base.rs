@@ -385,7 +385,7 @@ gecko
 [
 repr
 (
-C
+transparent
 )
 ]
 pub
@@ -398,12 +398,6 @@ mut
 c_void
 )
 ;
-/
-/
-structs
-with
-unnamed
-fields
 /
 /
 opaque

@@ -437,7 +437,7 @@ UrlPatternGetProtocol
 (
 const
 UrlPatternGlue
-aPatternWrapper
+aPattern
 )
 ;
 nsAutoCString
@@ -445,7 +445,7 @@ UrlPatternGetUsername
 (
 const
 UrlPatternGlue
-aPatternWrapper
+aPattern
 )
 ;
 nsAutoCString
@@ -453,7 +453,7 @@ UrlPatternGetPassword
 (
 const
 UrlPatternGlue
-aPatternWrapper
+aPattern
 )
 ;
 nsAutoCString
@@ -461,7 +461,7 @@ UrlPatternGetHostname
 (
 const
 UrlPatternGlue
-aPatternWrapper
+aPattern
 )
 ;
 nsAutoCString
@@ -469,7 +469,7 @@ UrlPatternGetPort
 (
 const
 UrlPatternGlue
-aPatternWrapper
+aPattern
 )
 ;
 nsAutoCString
@@ -477,7 +477,7 @@ UrlPatternGetPathname
 (
 const
 UrlPatternGlue
-aPatternWrapper
+aPattern
 )
 ;
 nsAutoCString
@@ -485,7 +485,7 @@ UrlPatternGetSearch
 (
 const
 UrlPatternGlue
-aPatternWrapper
+aPattern
 )
 ;
 nsAutoCString
@@ -493,7 +493,7 @@ UrlPatternGetHash
 (
 const
 UrlPatternGlue
-aPatternWrapper
+aPattern
 )
 ;
 }
