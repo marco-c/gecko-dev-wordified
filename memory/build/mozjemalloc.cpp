@@ -28699,7 +28699,7 @@ CHUNK_CEILING
 (
 aSize
 +
-gPageSize
+gRealPageSize
 )
 =
 =
@@ -28707,7 +28707,7 @@ CHUNK_CEILING
 (
 aOldSize
 +
-gPageSize
+gRealPageSize
 )
 )
 {
