@@ -1880,10 +1880,10 @@ groupIds
 :
 [
 "
-etpReset
-"
-"
 etpCustomize
+"
+"
+etpReset
 "
 ]
 }
