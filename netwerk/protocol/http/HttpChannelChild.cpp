@@ -373,6 +373,13 @@ h
 #
 include
 "
+nsISocketTransport
+.
+h
+"
+#
+include
+"
 nsIThreadRetargetableStreamListener
 .
 h

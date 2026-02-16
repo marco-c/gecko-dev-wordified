@@ -309,6 +309,13 @@ h
 #
 include
 "
+nsHttpConnectionMgr
+.
+h
+"
+#
+include
+"
 nsHttpNTLMAuth
 .
 h

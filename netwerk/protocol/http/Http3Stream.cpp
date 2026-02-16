@@ -173,6 +173,13 @@ h
 #
 include
 "
+nsISupportsPriority
+.
+h
+"
+#
+include
+"
 nsSocketTransportService2
 .
 h
