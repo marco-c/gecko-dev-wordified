@@ -3983,7 +3983,10 @@ ipc
 IPCResult
 RecvEnsureLayersConnected
 (
+Maybe
+<
 CompositorOptions
+>
 *
 aCompositorOptions
 )

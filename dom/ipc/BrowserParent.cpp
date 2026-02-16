@@ -4867,7 +4867,10 @@ BrowserParent
 :
 RecvEnsureLayersConnected
 (
+Maybe
+<
 CompositorOptions
+>
 *
 aCompositorOptions
 )
@@ -4885,6 +4888,7 @@ mRemoteLayerTreeOwner
 .
 EnsureLayersConnected
 (
+*
 aCompositorOptions
 )
 ;
