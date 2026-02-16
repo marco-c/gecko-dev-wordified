@@ -362,6 +362,16 @@ ipc
 IPCResult
 RecvRequestScreenPixels
 (
+gfx
+:
+:
+IntRect
+aSourceRect
+gfx
+:
+:
+IntSize
+aDestSize
 )
 ;
 mozilla
