@@ -879,6 +879,8 @@ UiCompositorControllerParent
 :
 RecvRequestScreenPixels
 (
+uint64_t
+aRequestId
 gfx
 :
 :
@@ -946,6 +948,7 @@ RefPtr
 {
 this
 }
+aRequestId
 ]
 (
 RefPtr
@@ -983,6 +986,7 @@ target
 >
 SendScreenPixels
 (
+aRequestId
 aHardwareBuffer
 ?
 Some
@@ -1037,6 +1041,7 @@ RefPtr
 {
 this
 }
+aRequestId
 ]
 (
 nsresult
@@ -1051,6 +1056,7 @@ target
 >
 SendScreenPixels
 (
+aRequestId
 Nothing
 (
 )
@@ -1061,7 +1067,6 @@ Nothing
 ;
 }
 )
-;
 ;
 state
 -
