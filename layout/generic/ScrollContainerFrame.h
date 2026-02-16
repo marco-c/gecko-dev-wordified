@@ -6627,7 +6627,7 @@ mActivityExpirationState
 ;
 }
 bool
-UsesOverlayScrollbars
+UseOverlayScrollbars
 (
 )
 const
