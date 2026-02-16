@@ -601,6 +601,10 @@ AVIFParser
 >
 &
 aParserOut
+bool
+aAllowSequences
+bool
+aAnimateAVIFMajor
 )
 ;
 ~
@@ -659,6 +663,10 @@ Init
 ByteStream
 *
 aBuffer
+bool
+aAllowSequences
+bool
+aAnimateAVIFMajor
 )
 ;
 struct
