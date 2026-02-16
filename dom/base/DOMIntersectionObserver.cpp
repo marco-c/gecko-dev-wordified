@@ -5826,7 +5826,7 @@ aTargetFrame
 nsLayoutUtils
 :
 :
-IsAncestorFrameCrossDocInProcess
+IsAncestorFrameCrossDocInProcessConsideringContinuations
 (
 aInput
 .
