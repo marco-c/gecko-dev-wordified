@@ -2578,6 +2578,17 @@ ptr
 )
 const
 ;
+void
+getStats
+(
+BufferAllocator
+:
+:
+Stats
+&
+stats
+)
+;
 }
 ;
 constexpr

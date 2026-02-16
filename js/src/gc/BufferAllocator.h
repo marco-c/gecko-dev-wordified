@@ -2267,6 +2267,9 @@ FullChunkSizeClass
 =
 AllocSizeClasses
 ;
+struct
+Stats
+;
 /
 /
 An
@@ -2616,6 +2619,14 @@ checkAvailable
 (
 )
 const
+;
+void
+getStats
+(
+Stats
+&
+stats
+)
 ;
 }
 ;
