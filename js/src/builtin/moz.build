@@ -552,13 +552,6 @@ js
 "
 intl
 /
-PluralRules
-.
-js
-"
-"
-intl
-/
 Segmenter
 .
 js
