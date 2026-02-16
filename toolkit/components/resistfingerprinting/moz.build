@@ -336,6 +336,13 @@ sys
 mjs
 "
 "
+CanvasHashData
+.
+sys
+.
+mjs
+"
+"
 FingerprintingWebCompatService
 .
 sys
