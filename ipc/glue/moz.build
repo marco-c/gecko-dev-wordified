@@ -196,6 +196,11 @@ DataPipe
 h
 "
 "
+EagerIPCStream
+.
+h
+"
+"
 Endpoint
 .
 h
