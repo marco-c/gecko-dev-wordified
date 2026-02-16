@@ -128,9 +128,6 @@ linearGradient
 radialGradient
 '
 '
-meshGradient
-'
-'
 stop
 '
 '
@@ -1170,15 +1167,6 @@ SVGRadialGradientElement
 objects
 .
 radialGradient
-'
-]
-SVGMeshGradientElement
-:
-[
-'
-objects
-.
-meshGradient
 '
 ]
 SVGStopElement
