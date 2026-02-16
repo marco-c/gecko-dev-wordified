@@ -995,13 +995,7 @@ MOZ_PGO
 "
 )
 (
-lambda
-x
-:
 bool
-(
-x
-)
 )
 )
 #
