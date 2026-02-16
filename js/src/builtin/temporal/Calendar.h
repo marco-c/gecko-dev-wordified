@@ -493,6 +493,8 @@ JS
 :
 Value
 value_
+{
+}
 ;
 public
 :

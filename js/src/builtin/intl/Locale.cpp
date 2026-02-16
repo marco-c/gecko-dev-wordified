@@ -669,13 +669,9 @@ IndexAndLength
 {
 size_t
 index
-=
-0
 ;
 size_t
 length
-=
-0
 ;
 IndexAndLength
 (
@@ -2776,9 +2772,12 @@ if
 (
 keywords
 .
-empty
+length
 (
 )
+=
+=
+0
 )
 {
 return

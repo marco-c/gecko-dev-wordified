@@ -360,6 +360,8 @@ UTCTimeZone
 OffsetTimeZone
 >
 timeZone
+{
+}
 ;
 bool
 isStartOfDay

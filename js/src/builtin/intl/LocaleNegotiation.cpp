@@ -579,9 +579,7 @@ value
 )
 )
 {
-const
 auto
-*
 name
 =
 names
@@ -4140,6 +4138,8 @@ UnicodeExtensionKey
 Value
 >
 keywords
+{
+}
 ;
 public
 :
@@ -4741,7 +4741,6 @@ hasLatin1Chars
 )
 )
 {
-const
 auto
 *
 chars
@@ -4784,7 +4783,6 @@ sv
 )
 ;
 }
-const
 auto
 *
 chars
@@ -6363,7 +6361,6 @@ hasLatin1Chars
 )
 )
 {
-const
 auto
 *
 chars
@@ -6406,7 +6403,6 @@ sv
 )
 ;
 }
-const
 auto
 *
 chars
@@ -7172,7 +7168,6 @@ Calendar
 :
 {
 auto
-*
 ca
 =
 DefaultCalendar
@@ -7298,7 +7293,6 @@ true
 ;
 }
 auto
-*
 kf
 =
 DefaultCollationCaseFirst
@@ -7421,7 +7415,6 @@ NumberingSystem
 :
 {
 auto
-*
 nu
 =
 DefaultNumberingSystem
