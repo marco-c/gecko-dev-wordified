@@ -6866,6 +6866,9 @@ void
 )
 maybePostValidationErrorChanged
 {
+CacheDomainActivationBlocker
+cacheBlocker
+;
 NSArray
 *
 relations
