@@ -57,7 +57,7 @@ Localization
 (
 [
 "
-preview
+browser
 /
 ipProtection
 .
