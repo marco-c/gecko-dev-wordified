@@ -4483,7 +4483,10 @@ BlobImpls
 .
 AppendElement
 (
+WrapNotNull
+(
 blobImpl
+)
 )
 ;
 return
@@ -5334,9 +5337,12 @@ false
 }
 nsTArray
 <
+NotNull
+<
 RefPtr
 <
 BlobImpl
+>
 >
 >
 blobImpls
@@ -5385,7 +5391,10 @@ blobImpls
 .
 AppendElement
 (
+WrapNotNull
+(
 blobImpl
+)
 )
 ;
 }
@@ -6123,7 +6132,10 @@ BlobImpls
 .
 AppendElement
 (
+WrapNotNull
+(
 blobImpl
+)
 )
 ;
 return
@@ -6518,6 +6530,8 @@ InputStreams
 [
 aIndex
 ]
+.
+mStream
 ;
 nsresult
 rv
@@ -6632,7 +6646,10 @@ InputStreams
 .
 AppendElement
 (
+WrapNotNull
+(
 aInputStream
+)
 )
 ;
 return
