@@ -3005,13 +3005,6 @@ crate
 :
 ResourceBinding
 >
-#
-[
-allow
-(
-dead_code
-)
-]
 switch_values
 :
 FastHashSet
@@ -4665,6 +4658,7 @@ Consider
 removing
 this
 pub
+const
 fn
 subgroup_stages
 (
@@ -4716,6 +4710,7 @@ Consider
 removing
 this
 pub
+const
 fn
 subgroup_operations
 (

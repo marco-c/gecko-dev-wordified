@@ -754,7 +754,7 @@ and
 you
 do
 not
-intent
+intend
 to
 support
 WebGL

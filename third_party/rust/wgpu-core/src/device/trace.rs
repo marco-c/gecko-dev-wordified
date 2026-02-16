@@ -369,7 +369,7 @@ Msl
 =
 >
 "
-msl
+metal
 "
 DataKind
 :
@@ -607,7 +607,7 @@ ends_with
 (
 "
 .
-msl
+metal
 "
 )
 {

@@ -10012,6 +10012,7 @@ Ok
 }
 }
 pub
+const
 fn
 check_literal_value
 (

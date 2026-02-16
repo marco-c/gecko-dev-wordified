@@ -264,6 +264,9 @@ Debug
 )
 ]
 pub
+(
+crate
+)
 struct
 Context
 <
@@ -2429,6 +2432,7 @@ lowering
 must_use
 ]
 pub
+const
 fn
 stmt_ctx
 (

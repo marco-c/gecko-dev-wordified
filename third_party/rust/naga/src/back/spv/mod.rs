@@ -1447,6 +1447,7 @@ Word
 impl
 IdGenerator
 {
+const
 fn
 next
 (
@@ -5719,6 +5720,7 @@ a
 single
 function
 .
+const
 fn
 reset_for_function
 (
@@ -6401,6 +6403,7 @@ BlockContext
 _
 >
 {
+const
 fn
 gen_id
 (

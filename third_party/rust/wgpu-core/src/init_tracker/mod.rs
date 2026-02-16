@@ -1596,13 +1596,6 @@ if
 not
 already
 uninitialized
-#
-[
-allow
-(
-dead_code
-)
-]
 pub
 (
 crate

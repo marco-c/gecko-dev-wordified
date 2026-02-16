@@ -809,6 +809,7 @@ return
 None
 .
 pub
+const
 fn
 first_and_last
 (

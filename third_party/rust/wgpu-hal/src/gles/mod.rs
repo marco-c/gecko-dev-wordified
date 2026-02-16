@@ -2563,13 +2563,6 @@ wgt
 :
 :
 TextureFormat
-#
-[
-allow
-(
-unused
-)
-]
 pub
 format_desc
 :

@@ -653,6 +653,7 @@ span_iter
 )
 }
 pub
+const
 fn
 is_empty
 (
@@ -672,6 +673,7 @@ is_empty
 )
 }
 pub
+const
 fn
 len
 (

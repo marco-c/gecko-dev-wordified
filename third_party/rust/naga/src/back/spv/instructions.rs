@@ -1822,16 +1822,6 @@ matrix_use_id
 ;
 instruction
 }
-#
-[
-allow
-(
-clippy
-:
-:
-too_many_arguments
-)
-]
 pub
 (
 super

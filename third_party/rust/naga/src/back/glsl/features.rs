@@ -494,6 +494,9 @@ writing
 required
 extensions
 pub
+(
+crate
+)
 struct
 FeaturesManager
 (
@@ -583,6 +586,7 @@ specified
 Features
 ]
 pub
+const
 fn
 contains
 (

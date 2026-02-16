@@ -1783,13 +1783,6 @@ FunctionInfo
 Validation
 flags
 .
-#
-[
-allow
-(
-dead_code
-)
-]
 flags
 :
 ValidationFlags

@@ -911,13 +911,6 @@ followed
 by
 {
 }
-#
-[
-allow
-(
-dead_code
-)
-]
 rank
 DEVICE_TRACE
 "

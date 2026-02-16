@@ -4244,6 +4244,7 @@ expr
 }
 }
 }
+const
 fn
 as_type
 (
@@ -4298,6 +4299,7 @@ self
 overrides_used
 }
 }
+const
 fn
 as_const_expression
 (

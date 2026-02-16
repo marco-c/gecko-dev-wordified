@@ -357,6 +357,7 @@ pub
 (
 crate
 )
+const
 fn
 len
 (
