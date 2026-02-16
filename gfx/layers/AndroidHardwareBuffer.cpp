@@ -957,7 +957,7 @@ AHardwareBuffer_recvHandleFromUnixSocket
 (
 aFd
 .
-release
+get
 (
 )
 &
