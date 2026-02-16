@@ -508,6 +508,15 @@ AsyncImagePipelineManager
 aImageMgr
 )
 ;
+void
+FinishInitializationError
+(
+nsCString
+&
+&
+aError
+)
+;
 wr
 :
 :
