@@ -6141,10 +6141,9 @@ NoteLockHeld
 ;
 /
 /
-Ideally
-wait
+Wait
 about
-10
+3
 seconds
 before
 saving
@@ -6207,7 +6206,7 @@ TimeDuration
 :
 FromSeconds
 (
-10
+3
 )
 )
 ;
