@@ -24920,7 +24920,7 @@ imageProxy
 .
 enabled
 "
-false
+true
 )
 ;
 /
