@@ -14172,6 +14172,11 @@ NonTSPseudoClass
 :
 :
 MozSuppressForPrintSelection
+|
+NonTSPseudoClass
+:
+:
+Seeking
 =
 >
 {

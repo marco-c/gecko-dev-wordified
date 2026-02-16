@@ -889,6 +889,14 @@ Playing
 PAUSED
 _
 )
+(
+"
+seeking
+"
+Seeking
+SEEKING
+_
+)
 /
 /
 NOTE
