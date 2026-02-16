@@ -377,7 +377,7 @@ char
 *
 fmt
 va_list
-args
+va
 )
 MOZ_FORMAT_PRINTF
 (
