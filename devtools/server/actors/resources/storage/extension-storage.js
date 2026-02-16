@@ -1286,6 +1286,12 @@ newValue
 deserialize
 (
 this
+true
+/
+*
+keepData
+*
+/
 )
 ;
 }
@@ -1304,6 +1310,12 @@ oldValue
 deserialize
 (
 this
+true
+/
+*
+keepData
+*
+/
 )
 ;
 }
