@@ -1711,7 +1711,7 @@ component
 isock
 sock
 HOST
-0
+TCP_TYPE_NONE
 0
 component
 -
@@ -1971,7 +1971,7 @@ component
 isock
 sock
 SERVER_REFLEXIVE
-0
+TCP_TYPE_NONE
 &
 component
 -
@@ -2423,7 +2423,7 @@ component
 isock
 sock
 SERVER_REFLEXIVE
-0
+TCP_TYPE_NONE
 &
 component
 -
@@ -2537,7 +2537,7 @@ component
 isock
 turn_sock
 RELAYED
-0
+TCP_TYPE_NONE
 &
 component
 -
@@ -2681,6 +2681,10 @@ r
 =
 nr_crypto_random_bytes
 (
+(
+UCHAR
+*
+)
 buf
 2
 )

@@ -866,6 +866,7 @@ iter
 (
 void
 *
+*
 )
 &
 name
@@ -873,6 +874,7 @@ name
 namel
 (
 void
+*
 *
 )
 &
@@ -1196,7 +1198,7 @@ nr_reg_find_children_arg
 arg
 =
 (
-void
+nr_reg_find_children_arg
 *
 )
 ptr
@@ -1575,6 +1577,7 @@ name
 (
 void
 *
+*
 )
 node
 )
@@ -1898,7 +1901,7 @@ nr_reg_alloc_node_data
 (
 name
 (
-void
+nr_registry_node
 *
 )
 node
@@ -2089,7 +2092,7 @@ nr_reg_alloc_node_data
 (
 name
 (
-void
+nr_registry_node
 *
 )
 node
@@ -2792,7 +2795,8 @@ nr_reg_fetch_node
 name
 type
 (
-void
+nr_registry_node
+*
 *
 )
 &
@@ -3116,7 +3120,8 @@ nr_reg_fetch_node
 name
 type
 (
-void
+nr_registry_node
+*
 *
 )
 &
@@ -3261,7 +3266,8 @@ nr_reg_fetch_node
 name
 type
 (
-void
+nr_registry_node
+*
 *
 )
 &
@@ -3641,7 +3647,8 @@ nr_reg_fetch_node
 name
 type
 (
-void
+nr_registry_node
+*
 *
 )
 &
@@ -4572,6 +4579,7 @@ name
 1
 (
 void
+*
 *
 )
 &
