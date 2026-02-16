@@ -18096,10 +18096,8 @@ aProofOfCaller
 return
 ;
 }
-nsCOMPtr
-<
 nsISHistory
->
+*
 shistory
 =
 GetSessionHistory
@@ -18190,13 +18188,6 @@ aChangeID
 )
 ;
 }
-)
-;
-shistory
--
->
-NotifyOnHistoryCommit
-(
 )
 ;
 }
