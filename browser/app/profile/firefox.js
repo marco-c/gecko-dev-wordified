@@ -15110,7 +15110,7 @@ preferences
 .
 aiControls
 "
-false
+true
 )
 ;
 /
