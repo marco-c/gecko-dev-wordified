@@ -436,17 +436,6 @@ document
 uri
 )
 ;
-mDocument
--
->
-FlushPendingNotifications
-(
-FlushType
-:
-:
-Layout
-)
-;
 /
 /
 https
