@@ -2625,6 +2625,17 @@ capability
 )
 |
 |
+!
+SitePermissions
+.
+isSupportedPrincipal
+(
+perm
+.
+principal
+)
+|
+|
 /
 /
 Skip
