@@ -1371,7 +1371,7 @@ effectively
 be
 leaked
 .
-PlaybackRate
+PlaybackRateInternal
 (
 )
 !
@@ -1557,7 +1557,9 @@ mPendingPlaybackRate
 .
 valueOr
 (
-mPlaybackRate
+PlaybackRateInternal
+(
+)
 )
 ;
 }
@@ -1976,7 +1978,9 @@ IsPlaying
 const
 {
 return
-mPlaybackRate
+PlaybackRateInternal
+(
+)
 !
 =
 0
@@ -2922,7 +2926,9 @@ mStartTime
 Value
 (
 )
-mPlaybackRate
+PlaybackRateInternal
+(
+)
 )
 ;
 }
