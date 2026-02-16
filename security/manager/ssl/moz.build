@@ -157,6 +157,11 @@ nsIDataStorage
 idl
 "
 "
+nsIFIPSUtils
+.
+idl
+"
+"
 nsINSSComponent
 .
 idl
@@ -518,6 +523,11 @@ cpp
 "
 "
 EnterpriseRoots
+.
+cpp
+"
+"
+FIPSUtils
 .
 cpp
 "

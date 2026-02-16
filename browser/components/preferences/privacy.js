@@ -29783,8 +29783,8 @@ _removeMasterPassword
 (
 )
 {
-var
-secmodDB
+const
+fipsUtils
 =
 Cc
 [
@@ -29795,7 +29795,7 @@ org
 /
 security
 /
-pkcs11moduledb
+fipsutils
 ;
 1
 "
@@ -29805,12 +29805,12 @@ getService
 (
 Ci
 .
-nsIPKCS11ModuleDB
+nsIFIPSUtils
 )
 ;
 if
 (
-secmodDB
+fipsUtils
 .
 isFIPSEnabled
 )
