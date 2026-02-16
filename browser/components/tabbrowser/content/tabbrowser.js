@@ -21626,6 +21626,9 @@ if
 (
 !
 tabIndex
+&
+&
+elementIndex
 )
 {
 tabIndex
