@@ -94,14 +94,6 @@ use
 urlpattern
 :
 :
-quirks
-as
-Uq
-;
-use
-urlpattern
-:
-:
 regexp
 :
 :
@@ -112,6 +104,12 @@ urlpattern
 :
 :
 UrlPatternOptions
+;
+use
+urlpattern
+:
+:
+quirks
 ;
 type
 UrlPattern
@@ -266,7 +264,7 @@ Ok
 pattern
 )
 =
-Uq
+quirks
 :
 :
 parse_pattern_as_lib
@@ -378,7 +376,7 @@ Ok
 pattern
 )
 =
-Uq
+quirks
 :
 :
 parse_pattern_as_lib
@@ -1555,7 +1553,7 @@ into_owned
 let
 str_or_init
 =
-Uq
+quirks
 :
 :
 StringOrInit
@@ -1604,7 +1602,7 @@ x
 let
 match_input_and_inputs
 =
-Uq
+quirks
 :
 :
 process_match_input
@@ -1641,7 +1639,7 @@ tuple_struct
 let
 maybe_match_input
 =
-Uq
+quirks
 :
 :
 parse_match_input
@@ -1681,7 +1679,7 @@ tuple_soi_and_string
 .
 0
 {
-Uq
+quirks
 :
 :
 StringOrInit
@@ -1883,7 +1881,7 @@ into
 let
 str_or_init
 =
-Uq
+quirks
 :
 :
 StringOrInit
@@ -1927,7 +1925,7 @@ as_str_unchecked
 let
 match_input_and_inputs
 =
-Uq
+quirks
 :
 :
 process_match_input
@@ -1980,7 +1978,7 @@ tuple_struct
 let
 maybe_match_input
 =
-Uq
+quirks
 :
 :
 parse_match_input
@@ -2014,7 +2012,7 @@ tuple_soi_and_string
 .
 0
 {
-Uq
+quirks
 :
 :
 StringOrInit
