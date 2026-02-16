@@ -1159,6 +1159,17 @@ ParseNodeKind
 :
 ImportDecl
 :
+#
+ifdef
+ENABLE_SOURCE_PHASE_IMPORTS
+case
+ParseNodeKind
+:
+:
+ImportSourceDecl
+:
+#
+endif
 case
 ParseNodeKind
 :
