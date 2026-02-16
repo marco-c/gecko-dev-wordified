@@ -1178,9 +1178,6 @@ isThirdPartyTrackingResource
 isResolvedByTRR
 "
 "
-isRedirect
-"
-"
 referrerPolicy
 "
 "
