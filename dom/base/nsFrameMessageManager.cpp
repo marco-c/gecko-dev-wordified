@@ -3019,7 +3019,7 @@ aCx
 aTransfer
 )
 ;
-ErrorResult
+IgnoredErrorResult
 rv
 ;
 aData
@@ -3056,11 +3056,6 @@ rv
 .
 SuppressException
 (
-)
-;
-JS_ClearPendingException
-(
-aCx
 )
 ;
 nsCOMPtr
