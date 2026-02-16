@@ -565,10 +565,13 @@ bool
 aStarted
 )
 ;
+Maybe
+<
 webrtc
 :
 :
 VideoCaptureCapability
+>
 CombinedCapability
 (
 )
