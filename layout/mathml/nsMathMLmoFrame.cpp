@@ -4580,7 +4580,7 @@ size
 /
 mMaxSize
 =
-NS_MATHML_OPERATOR_SIZE_INFINITY
+kMathMLOperatorSizeInfinity
 ;
 mContent
 -
@@ -5440,7 +5440,7 @@ if
 mMaxSize
 !
 =
-NS_MATHML_OPERATOR_SIZE_INFINITY
+kMathMLOperatorSizeInfinity
 &
 &
 mMaxSize

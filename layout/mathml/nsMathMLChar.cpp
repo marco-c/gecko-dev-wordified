@@ -9638,7 +9638,7 @@ if
 aMaxSize
 =
 =
-NS_MATHML_OPERATOR_SIZE_INFINITY
+kMathMLOperatorSizeInfinity
 )
 {
 aDesiredStretchSize
