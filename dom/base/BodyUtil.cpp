@@ -2232,13 +2232,12 @@ case
 ;
 }
 }
-MOZ_ASSERT_UNREACHABLE
+NS_WARNING
 (
 "
-Should
-never
-reach
-here
+Body
+parse
+failed
 .
 "
 )
