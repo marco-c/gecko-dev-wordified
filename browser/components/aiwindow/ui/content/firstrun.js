@@ -128,7 +128,7 @@ MODEL_PREF
 "
 browser
 .
-aiwindow
+smartwindow
 .
 firstrun
 .
@@ -141,7 +141,7 @@ AUTO_ADVANCE_PREF
 "
 browser
 .
-aiwindow
+smartwindow
 .
 firstrun
 .
@@ -154,7 +154,7 @@ FIRST_RUN_COMPLETE_PREF
 "
 browser
 .
-aiwindow
+smartwindow
 .
 firstrun
 .
@@ -167,7 +167,7 @@ EXPLAINER_PAGE_PREF
 "
 browser
 .
-aiwindow
+smartwindow
 .
 firstrun
 .
