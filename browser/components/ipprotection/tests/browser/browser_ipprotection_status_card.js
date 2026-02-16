@@ -252,6 +252,13 @@ cleanupStatusCardTest
 (
 )
 {
+await
+SpecialPowers
+.
+popPrefEnv
+(
+)
+;
 cleanupService
 (
 )
