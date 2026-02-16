@@ -1646,10 +1646,6 @@ f
 aVolume
 )
 ;
-mVolume
-=
-aVolume
-;
 QueueControlMessageWithNoShutdown
 (
 [
