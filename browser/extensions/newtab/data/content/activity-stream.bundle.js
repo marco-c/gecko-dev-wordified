@@ -107985,7 +107985,9 @@ showWeather
 "
 data
 -
-eventSource
+event
+-
+source
 "
 :
 "
@@ -108099,7 +108101,9 @@ enabled
 "
 data
 -
-eventSource
+event
+-
+source
 "
 :
 "
@@ -108213,7 +108217,9 @@ enabled
 "
 data
 -
-eventSource
+event
+-
+source
 "
 :
 "
@@ -108379,7 +108385,9 @@ showWeather
 "
 data
 -
-eventSource
+event
+-
+source
 "
 :
 "
@@ -108484,7 +108492,9 @@ topsites
 "
 data
 -
-eventSource
+event
+-
+source
 "
 :
 "
@@ -108998,7 +109008,9 @@ topstories
 "
 data
 -
-eventSource
+event
+-
+source
 "
 :
 "
@@ -109239,7 +109251,9 @@ enabled
 "
 data
 -
-eventSource
+event
+-
+source
 "
 :
 "
