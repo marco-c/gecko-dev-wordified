@@ -6644,7 +6644,7 @@ quad_flags
 EdgeMask
 :
 :
-all
+empty
 (
 )
 INVALID_SEGMENT_INDEX
