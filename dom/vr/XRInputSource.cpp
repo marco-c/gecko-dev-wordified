@@ -993,8 +993,6 @@ input
 source
 profile
 .
-\
-n
 "
 )
 ;

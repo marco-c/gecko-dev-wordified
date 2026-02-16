@@ -2100,8 +2100,6 @@ PollableEvent
 :
 Signal
 Failed
-\
-n
 "
 )
 ;

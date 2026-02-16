@@ -4294,8 +4294,6 @@ timezone
 may
 be
 invalid
-\
-n
 "
 )
 ;

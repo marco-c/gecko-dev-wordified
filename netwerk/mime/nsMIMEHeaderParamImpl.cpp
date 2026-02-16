@@ -1940,8 +1940,6 @@ RC2231
 continuation
 segment
 #
-\
-n
 "
 )
 ;
@@ -1965,8 +1963,6 @@ segment
 #
 exceeds
 limit
-\
-n
 "
 )
 ;
@@ -2004,8 +2000,6 @@ at
 the
 same
 time
-\
-n
 "
 )
 ;
@@ -2091,8 +2085,6 @@ NS_WARNING
 segment
 number
 missing
-\
-n
 "
 )
 ;
@@ -2131,8 +2123,6 @@ allowed
 in
 segment
 number
-\
-n
 "
 )
 ;
@@ -2197,8 +2187,6 @@ characters
 in
 segment
 number
-\
-n
 "
 )
 ;
@@ -2239,8 +2227,6 @@ number
 exceeds
 sane
 size
-\
-n
 "
 )
 ;
@@ -2360,8 +2346,6 @@ specified
 "
 "
 charset
-\
-n
 "
 )
 ;
@@ -4052,8 +4036,6 @@ missing
 in
 header
 parameter
-\
-n
 "
 )
 ;

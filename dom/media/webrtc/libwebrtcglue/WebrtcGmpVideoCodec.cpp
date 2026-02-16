@@ -626,8 +626,6 @@ got
 %
 d
 .
-\
-n
 "
 aParams
 .

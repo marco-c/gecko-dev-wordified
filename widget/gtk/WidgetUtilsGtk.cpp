@@ -1231,11 +1231,7 @@ register
 host
 application
 for
-"
-"
 portals
-\
-n
 "
 )
 ;
