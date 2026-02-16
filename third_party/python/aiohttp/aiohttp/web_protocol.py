@@ -2582,16 +2582,14 @@ None
 if
 self
 .
-access_logger
-is
-not
-None
+_logging_enabled
 and
 self
 .
 access_logger
-.
-enabled
+is
+not
+None
 :
             
 if

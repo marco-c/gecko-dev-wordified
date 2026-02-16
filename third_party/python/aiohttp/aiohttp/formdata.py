@@ -742,15 +742,6 @@ add_field
 k
 fp
 )
-#
-type
-:
-ignore
-[
-arg
--
-type
-]
             
 else
 :
