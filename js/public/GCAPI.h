@@ -2201,11 +2201,13 @@ number
 that
 is
 incremented
-on
+at
+the
+start
+of
 every
 major
 GC
-slice
 .
 *
 /

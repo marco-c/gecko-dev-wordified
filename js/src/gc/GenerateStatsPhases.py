@@ -558,6 +558,18 @@ Callback
     
 addPhaseKind
 (
+"
+WAIT_BACKGROUND_THREAD
+"
+"
+Wait
+Background
+Thread
+"
+)
+    
+addPhaseKind
+(
         
 "
 EVICT_NURSERY_FOR_MAJOR_GC
@@ -572,6 +584,13 @@ GC
 "
         
 [
+            
+getPhaseKind
+(
+"
+WAIT_BACKGROUND_THREAD
+"
+)
             
 addPhaseKind
 (
@@ -649,14 +668,37 @@ Embedding
     
 addPhaseKind
 (
+        
+"
+BARRIER
+"
+        
+"
+Barriers
+"
+        
+[
+            
+getPhaseKind
+(
 "
 WAIT_BACKGROUND_THREAD
 "
+)
+            
+addPhaseKind
+(
 "
-Wait
-Background
-Thread
+UNMARK_GRAY
 "
+"
+Unmark
+gray
+"
+)
+        
+]
+    
 )
     
 addPhaseKind
@@ -794,6 +836,13 @@ Mark
 "
         
 [
+            
+getPhaseKind
+(
+"
+WAIT_BACKGROUND_THREAD
+"
+)
             
 getPhaseKind
 (
@@ -1409,6 +1458,13 @@ GCs
 getPhaseKind
 (
 "
+WAIT_BACKGROUND_THREAD
+"
+)
+            
+getPhaseKind
+(
+"
 MARK_ROOTS
 "
 )
@@ -1433,6 +1489,13 @@ Nursery
 "
         
 [
+            
+getPhaseKind
+(
+"
+WAIT_BACKGROUND_THREAD
+"
+)
             
 getPhaseKind
 (
