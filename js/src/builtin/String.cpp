@@ -12291,10 +12291,8 @@ rev
 7d2644968bd56d54d2886c012d18698ff3f72c35
 *
 /
+static
 bool
-js
-:
-:
 str_charCodeAt
 (
 JSContext
@@ -25738,10 +25736,8 @@ rev
 7d2644968bd56d54d2886c012d18698ff3f72c35
 *
 /
+static
 bool
-js
-:
-:
 str_fromCharCode
 (
 JSContext
@@ -27202,9 +27198,6 @@ JS_INLINABLE_FN
 "
 fromCharCode
 "
-js
-:
-:
 str_fromCharCode
 1
 0
@@ -27215,9 +27208,6 @@ JS_INLINABLE_FN
 "
 fromCodePoint
 "
-js
-:
-:
 str_fromCodePoint
 1
 0

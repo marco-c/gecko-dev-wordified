@@ -689,10 +689,8 @@ x
 )
 ;
 }
+static
 bool
-js
-:
-:
 math_abs
 (
 JSContext
@@ -1471,10 +1469,8 @@ x
 )
 ;
 }
+static
 bool
-js
-:
-:
 math_floor
 (
 JSContext
@@ -5325,10 +5321,8 @@ x
 1
 ;
 }
+static
 bool
-js
-:
-:
 math_sign
 (
 JSContext

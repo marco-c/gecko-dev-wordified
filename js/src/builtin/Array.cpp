@@ -29127,10 +29127,8 @@ searchElement
 fromIndex
 ]
 )
+static
 bool
-js
-:
-:
 array_indexOf
 (
 JSContext
@@ -29816,10 +29814,8 @@ searchElement
 fromIndex
 ]
 )
+static
 bool
-js
-:
-:
 array_lastIndexOf
 (
 JSContext
@@ -30496,10 +30492,8 @@ searchElement
 fromIndex
 ]
 )
+static
 bool
-js
-:
-:
 array_includes
 (
 JSContext
