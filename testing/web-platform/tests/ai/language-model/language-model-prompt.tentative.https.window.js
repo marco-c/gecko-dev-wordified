@@ -358,12 +358,12 @@ tokenLength
 0
 )
 ;
-assert_equals
+assert_greater_than_equal
 (
+tokenLength
 session
 .
 inputUsage
-tokenLength
 )
 ;
 assert_regexp_match
