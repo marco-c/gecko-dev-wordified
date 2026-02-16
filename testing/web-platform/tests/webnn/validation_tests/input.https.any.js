@@ -521,7 +521,6 @@ float32
 shape
 :
 [
-(
 context
 .
 opSupportLimits
@@ -529,11 +528,10 @@ opSupportLimits
 )
 .
 maxTensorByteLength
-+
-1
-)
 /
 4
++
+1
 ]
 }
 ;
