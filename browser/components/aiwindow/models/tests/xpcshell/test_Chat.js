@@ -2796,7 +2796,7 @@ CHAT
 version
 :
 "
-v2
+v1
 .
 0
 "
