@@ -1771,6 +1771,7 @@ mDeferRequests
 mXSLTRequests
 mParserBlockingRequest
 mOffThreadCompilingRequests
+mDiskCacheableDependencyModules
 mDiskCacheQueue
 mPreloads
 mPendingChildLoaders
@@ -1792,6 +1793,7 @@ mDeferRequests
 mXSLTRequests
 mParserBlockingRequest
 mOffThreadCompilingRequests
+mDiskCacheableDependencyModules
 mDiskCacheQueue
 mPreloads
 mPendingChildLoaders
