@@ -42170,6 +42170,15 @@ GetFeatureByName
 featureName
 )
 ;
+if
+(
+!
+feature
+)
+{
+continue
+;
+}
 nsAutoCString
 name
 ;
