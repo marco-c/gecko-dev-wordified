@@ -4186,6 +4186,14 @@ TextAutospace
 "
                 
 "
+TextBoxEdge
+"
+                
+"
+TextBoxTrim
+"
+                
+"
 TextDecorationLine
 "
                 
