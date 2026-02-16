@@ -217,7 +217,8 @@ self
 )
 -
 >
-String
+&
+str
 ;
 }
 impl
@@ -379,15 +380,12 @@ self
 )
 -
 >
-String
+&
+str
 {
 self
 .
 as_str
-(
-)
-.
-to_string
 (
 )
 }

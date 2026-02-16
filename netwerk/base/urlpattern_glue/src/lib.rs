@@ -1562,6 +1562,10 @@ StringOrInit
 String
 (
 url
+.
+into
+(
+)
 )
 ;
 let
@@ -1794,6 +1798,10 @@ nsCString
 from
 (
 string
+.
+as_ref
+(
+)
 )
 init
 :
