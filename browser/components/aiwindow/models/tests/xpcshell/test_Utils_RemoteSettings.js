@@ -1502,7 +1502,7 @@ fakeEngine
 /
 Add
 a
-v2
+v3
 .
 0
 record
@@ -1510,7 +1510,7 @@ to
 test
 data
 const
-recordsWithV2
+recordsWithV3
 =
 [
 .
@@ -1540,7 +1540,7 @@ prompt
 version
 :
 "
-v2
+v3
 .
 0
 "
@@ -1573,7 +1573,7 @@ stub
 .
 resolves
 (
-recordsWithV2
+recordsWithV3
 )
 }
 )
@@ -1616,7 +1616,7 @@ get
 .
 x
 not
-2
+3
 .
 0
 Assert
@@ -1641,7 +1641,7 @@ select
 .
 x
 not
-2
+3
 .
 0
 "
