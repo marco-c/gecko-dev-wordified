@@ -4786,6 +4786,11 @@ box
 -
 item
 "
+slot
+:
+"
+static
+"
 controlAttrs
 :
 {
@@ -4817,11 +4822,6 @@ iconsrc
 searchMode
 .
 icon
-slot
-:
-"
-footer
-"
 }
 }
 )
