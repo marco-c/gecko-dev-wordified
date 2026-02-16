@@ -633,7 +633,7 @@ setBoolPref
 "
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 "
@@ -960,7 +960,7 @@ setBoolPref
 "
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 "
@@ -1086,7 +1086,7 @@ setBoolPref
 "
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 "

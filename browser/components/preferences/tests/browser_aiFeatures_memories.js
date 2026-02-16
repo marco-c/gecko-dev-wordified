@@ -83,7 +83,7 @@ true
 "
 browser
 .
-aiwindow
+smartwindow
 .
 preferences
 .
@@ -95,7 +95,7 @@ true
 "
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 "
@@ -522,7 +522,7 @@ set
 "
 browser
 .
-aiwindow
+smartwindow
 .
 memories
 "
@@ -601,7 +601,7 @@ getBoolPref
 "
 browser
 .
-aiwindow
+smartwindow
 .
 memories
 "
@@ -731,7 +731,7 @@ set
 "
 browser
 .
-aiwindow
+smartwindow
 .
 memories
 "
@@ -880,7 +880,7 @@ set
 "
 browser
 .
-aiwindow
+smartwindow
 .
 memories
 "

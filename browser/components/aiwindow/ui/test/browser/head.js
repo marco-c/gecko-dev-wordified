@@ -172,7 +172,7 @@ set
 "
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 "
@@ -182,7 +182,7 @@ true
 "
 browser
 .
-aiwindow
+smartwindow
 .
 firstrun
 .

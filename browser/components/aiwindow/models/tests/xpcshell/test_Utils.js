@@ -136,7 +136,7 @@ PREF_API_KEY
 "
 browser
 .
-aiwindow
+smartwindow
 .
 apiKey
 "
@@ -147,7 +147,7 @@ PREF_ENDPOINT
 "
 browser
 .
-aiwindow
+smartwindow
 .
 endpoint
 "
@@ -158,7 +158,7 @@ PREF_MODEL
 "
 browser
 .
-aiwindow
+smartwindow
 .
 model
 "
@@ -169,7 +169,7 @@ PREF_EXTRA_HEADERS
 "
 browser
 .
-aiwindow
+smartwindow
 .
 extraHeaders
 "

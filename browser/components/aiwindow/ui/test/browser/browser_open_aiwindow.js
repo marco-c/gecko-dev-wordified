@@ -81,7 +81,7 @@ set
 "
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 "
@@ -242,7 +242,7 @@ set
 "
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 "
@@ -418,7 +418,7 @@ set
 "
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 "
@@ -936,7 +936,7 @@ set
 "
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 "
@@ -1021,7 +1021,7 @@ set
 "
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 "
@@ -1156,7 +1156,7 @@ set
 "
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 "
@@ -1406,7 +1406,7 @@ visible
 when
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 is
@@ -1434,7 +1434,7 @@ visible
 when
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 is
@@ -1462,7 +1462,7 @@ visible
 when
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 is
@@ -1499,7 +1499,7 @@ Window
 when
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 is
@@ -1529,7 +1529,7 @@ Window
 when
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 is
@@ -1556,7 +1556,7 @@ visible
 when
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 is
@@ -1593,7 +1593,7 @@ Window
 when
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 is
@@ -1623,7 +1623,7 @@ Window
 when
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 is
@@ -1651,7 +1651,7 @@ in
 when
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 is

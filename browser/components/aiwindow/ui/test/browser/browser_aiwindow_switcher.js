@@ -69,7 +69,7 @@ set
 "
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 "
@@ -138,7 +138,7 @@ set
 "
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 "
@@ -205,7 +205,7 @@ if
 (
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 )
@@ -239,7 +239,7 @@ set
 "
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 "
@@ -525,7 +525,7 @@ if
 (
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 )
@@ -559,7 +559,7 @@ set
 "
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 "
@@ -867,7 +867,7 @@ set
 "
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 "
@@ -1049,7 +1049,7 @@ set
 "
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 "
@@ -1260,7 +1260,7 @@ set
 "
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 "

@@ -1729,7 +1729,7 @@ set
 "
 browser
 .
-aiwindow
+smartwindow
 .
 preferences
 .
@@ -1817,7 +1817,7 @@ set
 "
 browser
 .
-aiwindow
+smartwindow
 .
 preferences
 .
@@ -1829,7 +1829,7 @@ true
 "
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 "
@@ -1917,7 +1917,7 @@ set
 "
 browser
 .
-aiwindow
+smartwindow
 .
 preferences
 .
@@ -1929,7 +1929,7 @@ true
 "
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 "

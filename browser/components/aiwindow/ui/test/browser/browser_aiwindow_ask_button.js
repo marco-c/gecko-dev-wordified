@@ -76,7 +76,7 @@ set
 "
 browser
 .
-aiwindow
+smartwindow
 .
 firstrun
 .

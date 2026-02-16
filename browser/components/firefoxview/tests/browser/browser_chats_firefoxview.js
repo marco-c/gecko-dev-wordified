@@ -1077,7 +1077,7 @@ set
 "
 browser
 .
-aiwindow
+smartwindow
 .
 enabled
 "
@@ -1087,7 +1087,7 @@ true
 "
 browser
 .
-aiwindow
+smartwindow
 .
 chatHistory
 .
@@ -1099,7 +1099,7 @@ true
 "
 browser
 .
-aiwindow
+smartwindow
 .
 firstrun
 .
