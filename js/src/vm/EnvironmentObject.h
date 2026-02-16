@@ -5452,6 +5452,8 @@ firstSyntheticValueSlot
 {
 return
 RESERVED_SLOTS
++
+1
 ;
 }
 private
