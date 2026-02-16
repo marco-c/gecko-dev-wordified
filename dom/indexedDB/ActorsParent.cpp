@@ -58473,6 +58473,7 @@ nullptr
 }
 if
 (
+!
 aTrustParams
 &
 &
@@ -106383,6 +106384,8 @@ indexUpdateInfos
 )
 )
 {
+QM_TRY
+(
 updateInfo
 .
 value
@@ -106392,6 +106395,7 @@ value
 MaybeUpdateAutoIncrementKey
 (
 autoIncrementNum
+)
 )
 ;
 }

@@ -1176,7 +1176,11 @@ bool
 aFirstOfArray
 )
 ;
-void
+Result
+<
+Ok
+nsresult
+>
 MaybeUpdateAutoIncrementKey
 (
 int64_t
