@@ -180,7 +180,7 @@ const
 void
 *
 aDataBuff
-uint32_t
+size_t
 aDataLen
 nsISupports
 *
