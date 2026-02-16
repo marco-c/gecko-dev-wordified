@@ -515,6 +515,7 @@ static
 int
 nr_reg_insert_node
 (
+const
 char
 *
 name
@@ -527,6 +528,7 @@ static
 int
 nr_reg_change_node
 (
+const
 char
 *
 name
@@ -542,7 +544,7 @@ static
 int
 nr_reg_get_data
 (
-NR_registry
+NR_registry_name
 name
 nr_scalar_registry_node
 *
@@ -556,6 +558,7 @@ static
 int
 nr_reg_set_parent_registries
 (
+const
 char
 *
 name
@@ -565,6 +568,7 @@ char
 *
 nr_reg_alloc_node_data
 (
+const
 char
 *
 name
@@ -589,6 +593,7 @@ static
 int
 nr_reg_compute_length
 (
+const
 char
 *
 name
@@ -649,7 +654,7 @@ static
 int
 nr_reg_local_iter
 (
-NR_registry
+NR_registry_name
 prefix
 int
 (
@@ -752,7 +757,7 @@ node
 int
 nr_reg_local_iter
 (
-NR_registry
+NR_registry_name
 prefix
 int
 (
@@ -1506,6 +1511,7 @@ return
 int
 nr_reg_fetch_node
 (
+const
 char
 *
 name
@@ -1724,6 +1730,7 @@ _status
 int
 nr_reg_insert_node
 (
+const
 char
 *
 name
@@ -1971,6 +1978,7 @@ _status
 int
 nr_reg_change_node
 (
+const
 char
 *
 name
@@ -2162,6 +2170,7 @@ char
 *
 nr_reg_alloc_node_data
 (
+const
 char
 *
 name
@@ -2747,6 +2756,7 @@ s
 int
 nr_reg_get
 (
+const
 char
 *
 name
@@ -2839,8 +2849,15 @@ _status
 int
 nr_reg_get_data
 (
-NR_registry
+NR_registry_name
 name
+/
+*
+mjf
+-
+unused
+*
+/
 nr_scalar_registry_node
 *
 node
@@ -3056,6 +3073,7 @@ _status
 int
 nr_reg_get_array
 (
+const
 char
 *
 name
@@ -3197,6 +3215,7 @@ _status
 int
 nr_reg_set
 (
+const
 char
 *
 name
@@ -3566,6 +3585,7 @@ _status
 int
 nr_reg_set_array
 (
+const
 char
 *
 name
@@ -3887,6 +3907,7 @@ _status
 int
 nr_reg_set_parent_registries
 (
+const
 char
 *
 name
@@ -4002,7 +4023,7 @@ METHODS
 int
 nr_reg_is_valid
 (
-NR_registry
+NR_registry_name
 name
 )
 {
@@ -4230,6 +4251,7 @@ _status
 int
 nr_reg_compute_length
 (
+const
 char
 *
 name
@@ -4500,7 +4522,7 @@ _status
 int
 nr_reg_local_get_length
 (
-NR_registry
+NR_registry_name
 name
 size_t
 *
@@ -4595,7 +4617,7 @@ _status
 int
 nr_reg_local_del
 (
-NR_registry
+NR_registry_name
 name
 )
 {
@@ -4751,7 +4773,7 @@ _status
 int
 nr_reg_local_get_child_count
 (
-NR_registry
+NR_registry_name
 parent
 size_t
 *
@@ -4880,7 +4902,7 @@ _status
 int
 nr_reg_local_get_children
 (
-NR_registry
+NR_registry_name
 parent
 NR_registry
 *
