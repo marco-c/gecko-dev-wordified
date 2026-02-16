@@ -461,6 +461,15 @@ false
 )
 ;
 }
+mSupportsTransferring
+=
+mSupportsTransferring
+&
+&
+aData
+.
+mSupportsTransferring
+;
 if
 (
 mSupportsTransferring
