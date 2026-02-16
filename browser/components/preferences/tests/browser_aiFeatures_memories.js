@@ -85,8 +85,6 @@ browser
 .
 smartwindow
 .
-preferences
-.
 enabled
 "
 true
@@ -97,9 +95,11 @@ browser
 .
 smartwindow
 .
-enabled
+tos
+.
+consentTime
 "
-true
+1770830464
 ]
 ]
 }
