@@ -1762,7 +1762,7 @@ mozilla
 nsDisplayListSet
 &
 aLists
-uint32_t
+uint16_t
 aIndex
 =
 0

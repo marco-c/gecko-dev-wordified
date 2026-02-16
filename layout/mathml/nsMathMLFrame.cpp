@@ -1804,7 +1804,7 @@ const
 nsDisplayListSet
 &
 aLists
-uint32_t
+uint16_t
 aIndex
 )
 {
