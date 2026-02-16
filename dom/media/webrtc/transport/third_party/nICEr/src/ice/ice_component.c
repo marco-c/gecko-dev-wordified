@@ -7532,6 +7532,10 @@ nr_ice_component
 *
 pcomp
 =
+(
+nr_ice_component
+*
+)
 cb_arg
 ;
 nr_transport_addr
@@ -9594,6 +9598,10 @@ nr_ice_component
 *
 comp
 =
+(
+nr_ice_component
+*
+)
 cb_arg
 ;
 comp
@@ -9938,6 +9946,10 @@ nr_ice_cand_pair
 *
 pair
 =
+(
+nr_ice_cand_pair
+*
+)
 cb_arg
 ;
 assert
@@ -10416,6 +10428,10 @@ nr_ice_component
 *
 comp
 =
+(
+nr_ice_component
+*
+)
 cb_arg
 ;
 int
