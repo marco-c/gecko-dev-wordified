@@ -14953,6 +14953,14 @@ aMultiplier
 )
 {
 return
+StaticPrefs
+:
+:
+mousewheel_allow_scrolling_more_than_one_page
+(
+)
+|
+|
 Abs
 (
 aMultiplier
