@@ -156,13 +156,6 @@ h
 #
 include
 "
-nsCSSPseudoElements
-.
-h
-"
-#
-include
-"
 nsStyleStruct
 .
 h

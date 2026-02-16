@@ -18289,7 +18289,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-columnSpanWrapper
+MozColumnSpanWrapper
 )
 {
 MOZ_ASSERT
@@ -18383,7 +18383,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-columnSpanWrapper
+MozColumnSpanWrapper
 )
 {
 return
@@ -19295,7 +19295,7 @@ pseudoType
 PseudoStyleType
 :
 :
-marker
+Marker
 &
 &
 mFrame
@@ -19340,7 +19340,7 @@ pseudoType
 PseudoStyleType
 :
 :
-columnContent
+MozColumnContent
 )
 {
 /

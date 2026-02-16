@@ -279,13 +279,6 @@ h
 #
 include
 "
-nsCSSAnonBoxes
-.
-h
-"
-#
-include
-"
 nsCSSFrameConstructor
 .
 h
@@ -4685,7 +4678,7 @@ ResolveNonInheritingAnonymousBoxStyle
 PseudoStyleType
 :
 :
-tableColGroup
+MozTableColumnGroup
 )
 ;
 /
@@ -5048,7 +5041,7 @@ ResolveNonInheritingAnonymousBoxStyle
 PseudoStyleType
 :
 :
-tableCol
+MozTableColumn
 )
 ;
 /
@@ -53388,7 +53381,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-tableWrapper
+MozTableWrapper
 "
 What
 happened
@@ -53452,7 +53445,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-tableWrapper
+MozTableWrapper
 "
 What
 happened
@@ -53480,7 +53473,7 @@ ResolveInheritingAnonymousBoxStyle
 PseudoStyleType
 :
 :
-tableWrapper
+MozTableWrapper
 aOwningFrame
 -
 >

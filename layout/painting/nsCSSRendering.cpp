@@ -356,13 +356,6 @@ h
 #
 include
 "
-nsCSSAnonBoxes
-.
-h
-"
-#
-include
-"
 nsCSSColorUtils
 .
 h

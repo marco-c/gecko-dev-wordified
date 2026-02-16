@@ -123,13 +123,6 @@ mozilla_RubyUtils_h_
 #
 include
 "
-nsCSSAnonBoxes
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h
@@ -618,7 +611,7 @@ aPseudo
 PseudoStyleType
 :
 :
-blockRubyContent
+MozBlockRubyContent
 |
 |
 aPseudo
@@ -627,7 +620,7 @@ aPseudo
 PseudoStyleType
 :
 :
-ruby
+MozRuby
 |
 |
 aPseudo
@@ -636,7 +629,7 @@ aPseudo
 PseudoStyleType
 :
 :
-rubyBase
+MozRubyBase
 |
 |
 aPseudo
@@ -645,7 +638,7 @@ aPseudo
 PseudoStyleType
 :
 :
-rubyText
+MozRubyText
 |
 |
 aPseudo
@@ -654,7 +647,7 @@ aPseudo
 PseudoStyleType
 :
 :
-rubyBaseContainer
+MozRubyBaseContainer
 |
 |
 aPseudo
@@ -663,7 +656,7 @@ aPseudo
 PseudoStyleType
 :
 :
-rubyTextContainer
+MozRubyTextContainer
 ;
 }
 static

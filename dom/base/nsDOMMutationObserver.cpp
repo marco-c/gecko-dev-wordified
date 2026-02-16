@@ -124,6 +124,13 @@ h
 #
 include
 "
+PseudoStyleType
+.
+h
+"
+#
+include
+"
 mozilla
 /
 AnimationTarget
@@ -207,13 +214,6 @@ mozilla
 dom
 /
 KeyframeEffect
-.
-h
-"
-#
-include
-"
-nsCSSPseudoElements
 .
 h
 "

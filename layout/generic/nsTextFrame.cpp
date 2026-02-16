@@ -159,6 +159,13 @@ h
 #
 include
 "
+PseudoStyleType
+.
+h
+"
+#
+include
+"
 TextDrawTarget
 .
 h
@@ -439,13 +446,6 @@ h
 include
 "
 nsCSSFrameConstructor
-.
-h
-"
-#
-include
-"
-nsCSSPseudoElements
 .
 h
 "
@@ -39089,7 +39089,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-marker
+Marker
 &
 &
 (

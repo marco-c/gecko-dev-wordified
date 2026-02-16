@@ -76992,7 +76992,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-scrolledContent
+MozScrolledContent
 )
 {
 /

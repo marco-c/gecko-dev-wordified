@@ -2546,7 +2546,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-mozSnapshotContainingBlock
+MozSnapshotContainingBlock
 ;
 }
 static
@@ -2878,13 +2878,13 @@ case
 PseudoStyleType
 :
 :
-scrolledContent
+MozScrolledContent
 :
 case
 PseudoStyleType
 :
 :
-scrolledCanvas
+MozScrolledCanvas
 :
 {
 if

@@ -85,6 +85,15 @@ use
 crate
 :
 :
+derives
+:
+:
+*
+;
+use
+crate
+:
+:
 stylesheets
 :
 :
@@ -114,6 +123,7 @@ cssparser
 :
 :
 {
+match_ignore_ascii_case
 Parser
 as
 CssParser
@@ -2227,7 +2237,7 @@ get
 PseudoElement
 :
 :
-RubyText
+MozRubyText
 )
 None
 )
@@ -2240,7 +2250,7 @@ set
 PseudoElement
 :
 :
-RubyText
+MozRubyText
 8
 )
 ;
@@ -2255,7 +2265,7 @@ get
 PseudoElement
 :
 :
-RubyText
+MozRubyText
 )
 Some
 (
@@ -2278,7 +2288,7 @@ get_or_insert_with
 PseudoElement
 :
 :
-RubyText
+MozRubyText
 |
 |
 {
@@ -2297,7 +2307,7 @@ set
 PseudoElement
 :
 :
-RubyText
+MozRubyText
 9
 )
 ;
@@ -2312,7 +2322,7 @@ get
 PseudoElement
 :
 :
-RubyText
+MozRubyText
 )
 Some
 (
@@ -2415,7 +2425,7 @@ set
 PseudoElement
 :
 :
-RubyText
+MozRubyText
 8
 )
 ;

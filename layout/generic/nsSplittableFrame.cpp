@@ -2072,7 +2072,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-fieldsetContent
+MozFieldsetContent
 )
 {
 for

@@ -129,6 +129,13 @@ algorithm
 #
 include
 "
+PseudoStyleType
+.
+h
+"
+#
+include
+"
 gfxContext
 .
 h
@@ -262,13 +269,6 @@ h
 include
 "
 nsCOMPtr
-.
-h
-"
-#
-include
-"
-nsCSSPseudoElements
 .
 h
 "
@@ -2416,7 +2416,7 @@ aPseudoType
 PseudoStyleType
 :
 :
-mozTextControlEditingRoot
+MozTextControlEditingRoot
 )
 {
 /
@@ -2443,7 +2443,7 @@ aPseudoType
 PseudoStyleType
 :
 :
-mozNumberSpinDown
+MozNumberSpinDown
 |
 |
 aPseudoType
@@ -2452,7 +2452,7 @@ aPseudoType
 PseudoStyleType
 :
 :
-mozNumberSpinUp
+MozNumberSpinUp
 )
 {
 element
@@ -2615,7 +2615,7 @@ aPseudoType
 PseudoStyleType
 :
 :
-placeholder
+Placeholder
 )
 {
 textNode
@@ -2745,7 +2745,7 @@ MakeAnonElement
 PseudoStyleType
 :
 :
-mozTextControlEditingRoot
+MozTextControlEditingRoot
 )
 ;
 if
@@ -3007,7 +3007,7 @@ MakeAnonElement
 PseudoStyleType
 :
 :
-mozReveal
+MozReveal
 nullptr
 nsGkAtoms
 :
@@ -3283,7 +3283,7 @@ MakeAnonDivWithTextNode
 PseudoStyleType
 :
 :
-placeholder
+Placeholder
 )
 ;
 UpdatePlaceholderText
@@ -3513,7 +3513,7 @@ MakeAnonDivWithTextNode
 PseudoStyleType
 :
 :
-mozTextControlPreview
+MozTextControlPreview
 )
 ;
 }

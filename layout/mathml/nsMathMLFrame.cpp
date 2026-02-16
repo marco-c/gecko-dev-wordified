@@ -124,6 +124,13 @@ h
 #
 include
 "
+PseudoStyleType
+.
+h
+"
+#
+include
+"
 gfxContext
 .
 h
@@ -170,13 +177,6 @@ mozilla
 gfx
 /
 2D
-.
-h
-"
-#
-include
-"
-nsCSSPseudoElements
 .
 h
 "

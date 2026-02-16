@@ -175,14 +175,10 @@ include
 "
 mozilla
 /
-PseudoStyleType
+PseudoStyleRequest
 .
 h
 "
-/
-/
-For
-PseudoStyleRequest
 #
 include
 "
