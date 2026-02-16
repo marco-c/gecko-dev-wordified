@@ -2566,15 +2566,6 @@ other
 )
 ;
 void
-prepend
-(
-FreeLists
-&
-&
-other
-)
-;
-void
 remove
 (
 size_t
