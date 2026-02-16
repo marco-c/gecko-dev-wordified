@@ -2214,14 +2214,6 @@ micalg
 "
 #
 define
-PARAM_MICALG_MD2
-"
-rsa
--
-md2
-"
-#
-define
 PARAM_MICALG_MD5
 "
 rsa
