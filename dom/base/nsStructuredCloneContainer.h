@@ -226,13 +226,6 @@ nsStructuredCloneContainer
 (
 )
 ;
-explicit
-nsStructuredCloneContainer
-(
-uint32_t
-aVersion
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSISTRUCTUREDCLONECONTAINER
 private
@@ -252,9 +245,6 @@ nsStructuredCloneContainer
 nsStructuredCloneContainer
 (
 )
-;
-uint32_t
-mVersion
 ;
 }
 ;

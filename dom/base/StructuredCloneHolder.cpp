@@ -2387,6 +2387,8 @@ JSStructuredCloneData
 &
 &
 aData
+uint32_t
+aVersion
 )
 {
 MOZ_ASSERT
@@ -2446,7 +2448,7 @@ move
 (
 aData
 )
-JS_STRUCTURED_CLONE_VERSION
+aVersion
 &
 StructuredCloneHolder
 :
