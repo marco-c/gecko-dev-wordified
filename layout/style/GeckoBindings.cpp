@@ -159,6 +159,13 @@ h
 #
 include
 "
+PseudoStyleType
+.
+h
+"
+#
+include
+"
 gfxFontFeatures
 .
 h
@@ -599,13 +606,6 @@ h
 include
 "
 nsCSSProps
-.
-h
-"
-#
-include
-"
-nsCSSPseudoElements
 .
 h
 "

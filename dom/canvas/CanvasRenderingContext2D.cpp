@@ -147,6 +147,13 @@ h
 #
 include
 "
+PseudoStyleType
+.
+h
+"
+#
+include
+"
 Units
 .
 h
@@ -894,13 +901,6 @@ h
 include
 "
 nsCCUncollectableMarker
-.
-h
-"
-#
-include
-"
-nsCSSPseudoElements
 .
 h
 "

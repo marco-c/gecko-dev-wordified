@@ -711,7 +711,7 @@ SetPseudoElementType
 PseudoStyleType
 :
 :
-fileSelectorButton
+FileSelectorButton
 )
 ;
 /
@@ -1032,7 +1032,7 @@ SetPseudoElementType
 PseudoStyleType
 :
 :
-mozFileContent
+MozFileContent
 )
 ;
 RefPtr

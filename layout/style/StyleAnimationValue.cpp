@@ -137,6 +137,13 @@ h
 #
 include
 "
+PseudoStyleType
+.
+h
+"
+#
+include
+"
 gfx2DGlue
 .
 h
@@ -258,13 +265,6 @@ h
 include
 "
 nsCOMArray
-.
-h
-"
-#
-include
-"
-nsCSSPseudoElements
 .
 h
 "

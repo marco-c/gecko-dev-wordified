@@ -134,7 +134,7 @@ include
 "
 mozilla
 /
-PseudoStyleType
+PseudoStyleRequest
 .
 h
 "
@@ -144,13 +144,6 @@ include
 mozilla
 /
 RefPtr
-.
-h
-"
-#
-include
-"
-nsCSSPseudoElements
 .
 h
 "

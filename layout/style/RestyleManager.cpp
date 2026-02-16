@@ -16706,7 +16706,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-cellContent
+MozCellContent
 "
 Someone
 should
@@ -16734,7 +16734,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-tableWrapper
+MozTableWrapper
 "
 Someone
 should
@@ -17739,7 +17739,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-cellContent
+MozCellContent
 )
 {
 return
@@ -18904,7 +18904,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-mozText
+MozText
 )
 ;
 if
@@ -18943,7 +18943,7 @@ GetPseudoType
 PseudoStyleType
 :
 :
-mozText
+MozText
 )
 ;
 /
@@ -19332,10 +19332,10 @@ NotPseudo
 MOZ_ASSERT
 (
 !
-nsCSSPseudoElements
+PseudoStyle
 :
 :
-PseudoElementSupportsUserActionState
+SupportsUserActionState
 (
 pseudoType
 )
@@ -20392,7 +20392,7 @@ aElement
 PseudoStyleType
 :
 :
-marker
+Marker
 nullptr
 aNewStyle
 )
@@ -20458,7 +20458,7 @@ aElement
 PseudoStyleType
 :
 :
-backdrop
+Backdrop
 nullptr
 aNewStyle
 )

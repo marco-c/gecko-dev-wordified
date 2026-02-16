@@ -131,6 +131,13 @@ h
 #
 include
 "
+PseudoStyleType
+.
+h
+"
+#
+include
+"
 mozilla
 /
 AnimationTarget
@@ -276,13 +283,6 @@ h
 include
 "
 nsCOMArray
-.
-h
-"
-#
-include
-"
-nsCSSPseudoElements
 .
 h
 "

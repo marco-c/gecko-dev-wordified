@@ -200,6 +200,9 @@ Keyframe
 struct
 PropertyStyleAnimationValuePair
 ;
+struct
+PseudoStyleRequest
+;
 namespace
 dom
 {
