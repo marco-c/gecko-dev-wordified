@@ -1179,7 +1179,7 @@ onEditorUpdated
 ;
 editor
 .
-setGutterEventListeners
+enableGutter
 (
 {
 click
