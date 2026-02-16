@@ -419,11 +419,6 @@ wallpapers
 groupByDisplayableCollection
 (
 )
-defaultWallpaper
-=
-Wallpaper
-.
-Default
 selectedWallpaper
 =
 currentWallpaper
