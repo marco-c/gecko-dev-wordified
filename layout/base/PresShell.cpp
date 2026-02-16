@@ -78054,6 +78054,8 @@ GetAnchorPosImplicitAnchor
 (
 aPositionedFrame
 )
+.
+mAnchorFrame
 ;
 }
 if
