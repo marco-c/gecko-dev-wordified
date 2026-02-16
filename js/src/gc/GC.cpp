@@ -12262,14 +12262,6 @@ counter
 0
 )
 ;
-MOZ_ASSERT
-(
-!
-isUnlimited
-(
-)
-)
-;
 if
 (
 isWorkBudget
@@ -12306,6 +12298,11 @@ true
 }
 if
 (
+isTimeBudget
+(
+)
+&
+&
 TimeStamp
 :
 :
