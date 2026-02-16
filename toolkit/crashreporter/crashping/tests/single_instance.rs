@@ -693,14 +693,6 @@ kill
 [
 test
 ]
-#
-[
-cfg_attr
-(
-ccov
-ignore
-)
-]
 fn
 exclusive_access
 (
