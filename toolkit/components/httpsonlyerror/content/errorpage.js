@@ -497,6 +497,10 @@ RPMTryPingSecureWWWLink
 )
 ;
 }
+resetClickjackingTimeout
+(
+)
+;
 }
 /
 *
