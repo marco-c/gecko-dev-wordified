@@ -807,6 +807,11 @@ label
 256
 ]
 ;
+int
+flags
+=
+0
+;
 if
 (
 !
@@ -824,7 +829,6 @@ ABORT
 R_NO_MEMORY
 )
 ;
-int
 flags
 =
 NR_STUN_TRANSPORT_ADDR_CHECK_WILDCARD
