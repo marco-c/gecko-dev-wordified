@@ -1975,6 +1975,11 @@ Self
 :
 :
 Muted
+|
+Self
+:
+:
+VolumeLocked
 )
 {
 return
