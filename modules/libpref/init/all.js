@@ -39766,6 +39766,9 @@ here
 .
 /
 /
+#
+ifndef
+ANDROID
 pref
 (
 "
@@ -39856,6 +39859,8 @@ timeout
 60000
 )
 ;
+#
+endif
 #
 ifdef
 XP_MACOSX
