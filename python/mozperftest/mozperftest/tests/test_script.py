@@ -546,7 +546,10 @@ temp
         
 assert
 "
-MissingPerfMetadata
+Missing
+perfMetadata
+evalMetadata
+variable
 "
 in
 str

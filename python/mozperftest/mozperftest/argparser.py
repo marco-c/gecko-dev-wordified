@@ -194,6 +194,12 @@ mochitest
 "
     
 "
+eval
+-
+mochitest
+"
+    
+"
 custom
 -
 script
