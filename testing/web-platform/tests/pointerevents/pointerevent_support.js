@@ -215,9 +215,9 @@ check_PointerEvent
 (
 event
 testNamePrefix
-standardAttrs
+optionalAtributesOnly
 =
-true
+false
 )
 {
 if
@@ -288,7 +288,8 @@ type
 ;
 if
 (
-standardAttrs
+!
+optionalAtributesOnly
 )
 {
 if
@@ -523,8 +524,7 @@ default
 actions
 if
 (
-!
-standardAttrs
+optionalAtributesOnly
 )
 {
 test
