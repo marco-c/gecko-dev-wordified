@@ -48239,9 +48239,6 @@ AnchorPosResolutionParams
 From
 (
 this
-aSizingInput
-.
-mAnchorPosResolutionCache
 )
 ;
 auto
