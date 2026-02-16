@@ -399,7 +399,7 @@ b
 value
 1e
 -
-6
+5
 )
 ;
 assert_equals
