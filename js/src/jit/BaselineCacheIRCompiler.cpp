@@ -20400,9 +20400,9 @@ created
 prior
 to
 the
+*
 call
 .
-*
 This
 is
 called
@@ -20415,8 +20415,8 @@ formal
 arguments
 but
 before
-pushing
 *
+pushing
 the
 callee
 token
@@ -20429,9 +20429,9 @@ argcReg
 must
 contain
 the
+*
 number
 of
-*
 actual
 arguments
 (
@@ -20442,9 +20442,9 @@ spread
 arguments
 ;
 not
+*
 including
 undef
-*
 pushed
 in
 cases
@@ -20455,10 +20455,10 @@ underflow
 .
 calleeReg
 should
+*
 contain
 the
 actual
-*
 callee
 .
 *
