@@ -94,16 +94,18 @@ import
 ProjectFiles
 TOMLParser
 from
-filelock
-import
-FileLock
-Timeout
-from
 mach
 import
 util
 as
 mach_util
+from
+mach
+.
+filelock
+import
+LockTimeout
+SoftFileLock
 from
 mozfile
 import
@@ -741,7 +743,7 @@ try
 :
         
 with
-FileLock
+SoftFileLock
 (
 lock_file
 timeout
@@ -1126,7 +1128,7 @@ flush
 )
     
 except
-Timeout
+LockTimeout
 :
         
 print

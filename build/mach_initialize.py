@@ -1071,17 +1071,6 @@ path
 too
 .
     
-#
-We
-need
-filelock
-for
-solving
-a
-virtualenv
-race
-condition
-    
 sys
 .
 path
@@ -1153,23 +1142,6 @@ python
 "
 "
 packaging
-"
-)
-            
-os
-.
-path
-.
-join
-(
-"
-third_party
-"
-"
-python
-"
-"
-filelock
 "
 )
         
@@ -2137,6 +2109,7 @@ _finalize_telemetry_glean
 context
 .
 telemetry
+            
 handler
 .
 name
@@ -2145,11 +2118,22 @@ name
 "
 bootstrap
 "
+            
 success
+            
 Path
 (
 topsrcdir
 )
+            
+Path
+(
+state_dir
+)
+            
+driver
+.
+settings
         
 )
     
@@ -2921,10 +2905,13 @@ driver
 def
 _finalize_telemetry_glean
 (
+    
 telemetry
 is_bootstrap
 success
 topsrcdir
+state_dir
+settings
 )
 :
     
@@ -3162,6 +3149,8 @@ if
 resolve_is_employee
 (
 topsrcdir
+state_dir
+settings
 )
 :
         
