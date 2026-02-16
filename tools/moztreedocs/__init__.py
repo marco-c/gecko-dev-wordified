@@ -224,6 +224,13 @@ set
 (
 )
     
+docdir
+=
+Path
+(
+docdir
+)
+    
 is_main
 =
 docdir
@@ -237,7 +244,10 @@ None
 if
 is_main
 else
+str
+(
 docdir
+)
     
 #
 Reading
@@ -394,8 +404,14 @@ absdir
 not
 in
 (
+str
+(
 docdir
+)
+str
+(
 MAIN_DOC_PATH
+)
 )
 :
                 
@@ -422,7 +438,10 @@ path
 )
                 
 if
+str
+(
 docdir
+)
 .
 startswith
 (
@@ -439,7 +458,10 @@ path
 join
 (
 key
+str
+(
 docdir
+)
 .
 split
 (
@@ -774,9 +796,14 @@ path
 .
 join
 (
+os
+.
+fspath
+(
 app
 .
 outdir
+)
 "
 _staging
 "
@@ -805,9 +832,14 @@ python_package_dirs
 =
 read_build_config
 (
+os
+.
+fspath
+(
 app
 .
 srcdir
+)
 )
         
 logger
