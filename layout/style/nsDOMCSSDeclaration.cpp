@@ -1321,6 +1321,17 @@ Type
 aRuleType
 )
 ;
+MOZ_ASSERT
+(
+aRuleType
+!
+=
+StyleCssRuleType
+:
+:
+NestedDeclarations
+)
+;
 StyleSheet
 *
 sheet
