@@ -3400,6 +3400,7 @@ done
 await
 oldReadyPromise
 ;
+await
 this
 .
 _updateShims
