@@ -5244,7 +5244,7 @@ for
 a
 request
 before
-RemoveDictionaryOMT
+RemoveDictionaryFor
 can
 run
 but
@@ -5302,7 +5302,7 @@ aClearDictionary
 DictionaryCache
 :
 :
-RemoveDictionaryOMT
+RemoveDictionaryFor
 (
 aKey
 )
