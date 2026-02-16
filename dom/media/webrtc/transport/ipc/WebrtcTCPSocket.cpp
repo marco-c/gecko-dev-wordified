@@ -232,6 +232,13 @@ h
 #
 include
 "
+nsISocketTransport
+.
+h
+"
+#
+include
+"
 nsISocketTransportService
 .
 h

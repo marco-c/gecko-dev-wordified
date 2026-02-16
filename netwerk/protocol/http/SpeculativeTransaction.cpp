@@ -134,6 +134,13 @@ h
 #
 include
 "
+nsHttpConnectionMgr
+.
+h
+"
+#
+include
+"
 nsHttpHandler
 .
 h
