@@ -445,7 +445,7 @@ void
 cb_arg
 char
 action
-NR_registry
+NR_registry_name
 name
 )
 ;
@@ -581,6 +581,7 @@ static
 int
 nr_reg_raise_event_recurse
 (
+const
 char
 *
 name
@@ -595,7 +596,7 @@ static
 int
 nr_reg_register_callback
 (
-NR_registry
+NR_registry_name
 name
 char
 action
@@ -610,7 +611,7 @@ void
 cb_arg
 char
 action
-NR_registry
+NR_registry_name
 name
 )
 void
@@ -758,7 +759,7 @@ _status
 int
 nr_reg_register_callback
 (
-NR_registry
+NR_registry_name
 name
 char
 action
@@ -773,7 +774,7 @@ void
 cb_arg
 char
 action
-NR_registry
+NR_registry_name
 name
 )
 void
@@ -1435,6 +1436,7 @@ tmp
 int
 nr_reg_raise_event_recurse
 (
+const
 char
 *
 name
@@ -1883,7 +1885,7 @@ METHODS
 int
 nr_reg_raise_event
 (
-NR_registry
+NR_registry_name
 name
 int
 action
@@ -2037,7 +2039,7 @@ METHODS
 int
 NR_reg_register_callback
 (
-NR_registry
+NR_registry_name
 name
 char
 action
@@ -2052,7 +2054,7 @@ void
 cb_arg
 char
 action
-NR_registry
+NR_registry_name
 name
 )
 void

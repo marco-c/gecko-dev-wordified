@@ -539,7 +539,7 @@ NR_LOG_REGISTRY
 =
 0
 ;
-NR_registry
+NR_registry_name
 NR_TOP_LEVEL_REGISTRY
 =
 "
@@ -705,7 +705,7 @@ int
 \
 func
 (
-NR_registry
+NR_registry_name
 name
 type
 *
@@ -769,7 +769,7 @@ double
 int
 NR_reg_get_registry
 (
-NR_registry
+NR_registry_name
 name
 NR_registry
 out
@@ -849,7 +849,7 @@ _status
 int
 NR_reg_get_bytes
 (
-NR_registry
+NR_registry_name
 name
 UCHAR
 *
@@ -875,7 +875,7 @@ length
 int
 NR_reg_get_string
 (
-NR_registry
+NR_registry_name
 name
 char
 *
@@ -902,7 +902,7 @@ size
 int
 NR_reg_get_length
 (
-NR_registry
+NR_registry_name
 name
 size_t
 *
@@ -930,7 +930,7 @@ int
 \
 func
 (
-NR_registry
+NR_registry_name
 name
 type
 data
@@ -976,7 +976,7 @@ UINT4
 int
 NR_reg_set_string
 (
-NR_registry
+NR_registry_name
 name
 const
 char
@@ -1007,7 +1007,7 @@ data
 int
 NR_reg_set_registry
 (
-NR_registry
+NR_registry_name
 name
 )
 {
@@ -1023,7 +1023,7 @@ NR_REG_TYPE_REGISTRY
 int
 NR_reg_set_bytes
 (
-NR_registry
+NR_registry_name
 name
 const
 unsigned
@@ -1047,7 +1047,7 @@ length
 int
 NR_reg_del
 (
-NR_registry
+NR_registry_name
 name
 )
 {
@@ -1061,7 +1061,7 @@ name
 int
 NR_reg_get_child_count
 (
-NR_registry
+NR_registry_name
 parent
 unsigned
 int
@@ -1098,7 +1098,7 @@ count
 int
 NR_reg_get_child_registry
 (
-NR_registry
+NR_registry_name
 parent
 unsigned
 int
@@ -1258,7 +1258,7 @@ data
 int
 NR_reg_alloc_data
 (
-NR_registry
+NR_registry_name
 name
 Data
 *
@@ -1392,7 +1392,7 @@ _status
 int
 NR_reg_alloc_string
 (
-NR_registry
+NR_registry_name
 name
 char
 *
@@ -1589,7 +1589,7 @@ int
 \
 func
 (
-NR_registry
+NR_registry_name
 parent
 const
 char
@@ -1736,7 +1736,7 @@ int
 \
 func
 (
-NR_registry
+NR_registry_name
 parent
 const
 char
@@ -1844,7 +1844,7 @@ form
 int
 NR_reg_make_registry
 (
-NR_registry
+NR_registry_name
 parent
 const
 char
