@@ -3894,6 +3894,15 @@ NonTSPseudoClass
 :
 Link
 "
+modal
+"
+=
+>
+NonTSPseudoClass
+:
+:
+Modal
+"
 open
 "
 =
