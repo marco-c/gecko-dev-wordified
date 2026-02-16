@@ -483,10 +483,6 @@ move
 aNodeInfo
 )
 )
-mHasChildrenOnlyTransform
-(
-false
-)
 {
 }
 /
