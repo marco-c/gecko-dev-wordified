@@ -815,17 +815,6 @@ PYTHON_UNITTEST_MANIFESTS
 "
 tests
 /
-integration
-/
-tests
-/
-python
-.
-toml
-"
-"
-tests
-/
 python
 /
 python
