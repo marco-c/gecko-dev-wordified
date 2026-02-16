@@ -326,11 +326,6 @@ gfxFT2LockedFace
 (
 )
 {
-if
-(
-mFace
-)
-{
 mGfxFont
 -
 >
@@ -338,7 +333,6 @@ UnlockFTFace
 (
 )
 ;
-}
 }
 FT_Face
 get
