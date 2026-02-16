@@ -74605,7 +74605,7 @@ id
 "
 newtab
 -
-toast
+card
 -
 dismiss
 -
