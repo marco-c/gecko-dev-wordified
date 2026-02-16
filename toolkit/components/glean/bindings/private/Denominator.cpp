@@ -204,7 +204,7 @@ namespace
 impl
 {
 void
-DenominatorMetric
+DenominatorStandalone
 :
 :
 Add
