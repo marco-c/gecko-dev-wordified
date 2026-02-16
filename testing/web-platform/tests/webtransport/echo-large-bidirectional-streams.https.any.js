@@ -43,6 +43,13 @@ sub
 js
 /
 /
+META
+:
+timeout
+=
+long
+/
+/
 A
 test
 that
