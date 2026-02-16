@@ -190,7 +190,7 @@ urlclassifier
 .
 features
 .
-harmfuladdon
+harmfuladdonV2
 .
 blocklistHosts
 "
