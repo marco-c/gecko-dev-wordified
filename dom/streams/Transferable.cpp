@@ -1915,12 +1915,6 @@ is
 an
 abrupt
 completion
-rv
-.
-WouldReportJSException
-(
-)
-;
 if
 (
 rv

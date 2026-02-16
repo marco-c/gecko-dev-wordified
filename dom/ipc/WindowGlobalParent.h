@@ -1787,8 +1787,12 @@ JSIPCValue
 &
 &
 aData
-StructuredCloneData
-*
+const
+UniquePtr
+<
+ClonedMessageData
+>
+&
 aStack
 )
 ;
