@@ -83,6 +83,12 @@ import
 path
 as
 mozpath
+from
+mozbuild
+.
+util
+import
+sanitize_shell_env
 MOZCONFIG_BAD_EXIT_CODE
 =
 "
@@ -869,7 +875,7 @@ sh
         
 env
 =
-dict
+sanitize_shell_env
 (
 os
 .
