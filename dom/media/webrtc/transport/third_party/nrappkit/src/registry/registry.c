@@ -978,6 +978,7 @@ NR_reg_set_string
 (
 NR_registry
 name
+const
 char
 *
 data
@@ -989,6 +990,7 @@ nr_reg_set_array
 name
 NR_REG_TYPE_STRING
 (
+const
 UCHAR
 *
 )
@@ -1023,6 +1025,7 @@ NR_reg_set_bytes
 (
 NR_registry
 name
+const
 unsigned
 char
 *
@@ -1588,6 +1591,7 @@ func
 (
 NR_registry
 parent
+const
 char
 *
 child
@@ -1734,6 +1738,7 @@ func
 (
 NR_registry
 parent
+const
 char
 *
 child
@@ -1821,6 +1826,7 @@ NR_reg_set_uchar
 NRSET2
 (
 NR_reg_set2_string
+const
 char
 *
 NR_reg_set_string
@@ -1840,6 +1846,7 @@ NR_reg_make_registry
 (
 NR_registry
 parent
+const
 char
 *
 child
