@@ -418,6 +418,16 @@ error
 bandwidthWarning
 :
 true
+bandwidthUsage
+:
+{
+currentBandwidthUsage
+:
+55
+maxBandwidth
+:
+150
+}
 }
 )
 ;
