@@ -268,7 +268,7 @@ MegamorphicCacheEntry
 namespace
 gc
 {
-struct
+class
 Cell
 ;
 }

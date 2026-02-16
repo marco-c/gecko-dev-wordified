@@ -154,13 +154,6 @@ code
 /
 #
 include
-<
-stddef
-.
-h
->
-#
-include
 "
 gc
 /
@@ -189,7 +182,7 @@ gc
 class
 GCRuntime
 ;
-struct
+class
 Cell
 ;
 namespace

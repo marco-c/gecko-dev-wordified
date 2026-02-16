@@ -1126,9 +1126,11 @@ of
 the
 Cell
 .
-struct
+class
 Cell
 {
+protected
+:
 /
 /
 Cell

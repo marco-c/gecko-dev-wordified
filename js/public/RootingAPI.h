@@ -1418,7 +1418,7 @@ Heap
 namespace
 gc
 {
-struct
+class
 Cell
 ;
 }

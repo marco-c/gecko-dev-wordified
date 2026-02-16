@@ -1846,7 +1846,7 @@ FullParseHandler
 namespace
 gc
 {
-struct
+class
 Cell
 ;
 }
@@ -2391,7 +2391,7 @@ Realm
 *
 realm_
 ;
-unsigned
+uint32_t
 bits_
 ;
 public
@@ -2435,9 +2435,10 @@ realm_
 realm_
 -
 >
-debugModeBits_
-=
+restoreDebugModeBitsOnOOM
+(
 bits_
+)
 ;
 }
 }
