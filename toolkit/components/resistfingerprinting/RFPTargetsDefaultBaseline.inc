@@ -116,3 +116,16 @@ update
 extract_rfp_targets
 .
 py
+#
+ifdef
+NIGHTLY_BUILD
+DESKTOP_DEFAULT
+(
+ScreenAvailToResolution
+)
+DESKTOP_DEFAULT
+(
+MaxTouchPointsCollapse
+)
+#
+endif
