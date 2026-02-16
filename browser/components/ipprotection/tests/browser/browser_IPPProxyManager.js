@@ -106,7 +106,7 @@ setupService
 isSignedIn
 :
 true
-canEnroll
+isEnrolledAndEntitled
 :
 true
 }
@@ -733,7 +733,7 @@ setupService
 isSignedIn
 :
 true
-canEnroll
+isEnrolledAndEntitled
 :
 true
 }
