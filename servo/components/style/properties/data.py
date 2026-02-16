@@ -6858,6 +6858,9 @@ declare_longhand
 self
 style_struct
 name
+extra_gecko_aliases
+=
+None
 engine
 =
 None
@@ -6879,6 +6882,35 @@ engine
 :
             
 return
+        
+if
+extra_gecko_aliases
+and
+self
+.
+engine
+=
+=
+"
+gecko
+"
+:
+            
+kwargs
+.
+setdefault
+(
+'
+aliases
+'
+[
+]
+)
+.
+extend
+(
+extra_gecko_aliases
+)
         
 longhand
 =

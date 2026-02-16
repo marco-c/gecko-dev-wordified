@@ -63,17 +63,6 @@ list
 computed
 values
 .
-#
-[
-cfg
-(
-feature
-=
-"
-gecko
-"
-)
-]
 pub
 use
 crate

@@ -726,17 +726,6 @@ NonNegativeLengthPercentage
 NonNegativeLengthPercentageOrAuto
 }
 ;
-#
-[
-cfg
-(
-feature
-=
-"
-gecko
-"
-)
-]
 pub
 use
 self
