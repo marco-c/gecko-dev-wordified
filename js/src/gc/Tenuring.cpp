@@ -11598,6 +11598,8 @@ rate
 \
 n
 "
+100
+*
 fractionPromoted
 )
 ;
