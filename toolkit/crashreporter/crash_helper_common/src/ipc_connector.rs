@@ -93,7 +93,7 @@ Vec
 <
 u8
 >
-Option
+Vec
 <
 AncillaryData
 >
@@ -283,6 +283,7 @@ AncillaryData
 IPCConnector
 IPCConnectorKey
 RawIPCConnector
+CONNECTOR_ANCILLARY_DATA_LEN
 }
 ;
 #
@@ -499,6 +500,7 @@ AncillaryData
 IPCConnector
 IPCConnectorKey
 RawIPCConnector
+CONNECTOR_ANCILLARY_DATA_LEN
 }
 ;
 #
