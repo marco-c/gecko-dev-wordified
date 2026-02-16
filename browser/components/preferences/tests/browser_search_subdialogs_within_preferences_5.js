@@ -68,7 +68,7 @@ Canadian
 Syllabary
 "
 "
-fontsGroup
+fonts
 "
 )
 ;
