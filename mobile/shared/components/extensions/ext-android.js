@@ -1948,6 +1948,16 @@ return
 ;
 }
 get
+splitViewId
+(
+)
+{
+return
+-
+1
+;
+}
+get
 width
 (
 )
