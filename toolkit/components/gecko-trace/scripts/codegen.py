@@ -296,6 +296,7 @@ guard
 input_hash
 =
 hashlib
+            
 .
 sha256
 (

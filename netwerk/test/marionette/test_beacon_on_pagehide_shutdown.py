@@ -979,6 +979,8 @@ until
 lambda
 _
 :
+(
+                
 self
 .
 marionette
@@ -992,12 +994,14 @@ document
 readyState
 "
 )
-            
+                
 =
 =
 "
 complete
 "
+            
+)
         
 )
         

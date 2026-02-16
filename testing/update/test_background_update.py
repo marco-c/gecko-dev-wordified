@@ -847,13 +847,15 @@ until
 lambda
 _
 :
+(
+                
 self
 .
 marionette
 .
 find_element
 (
-                
+                    
 By
 .
 ID
@@ -864,7 +866,7 @@ menu
 -
 button
 "
-            
+                
 )
 .
 get_attribute
@@ -875,7 +877,7 @@ badge
 status
 "
 )
-            
+                
 =
 =
 "
@@ -883,6 +885,8 @@ update
 -
 available
 "
+            
+)
         
 )
         

@@ -649,6 +649,8 @@ ensureInvariantHolds
 lambda
 _
 :
+(
+                
 self
 .
 findDirObj
@@ -664,10 +666,11 @@ files
 "
 False
 )
-            
 is
 not
 None
+            
+)
         
 )
         
@@ -844,6 +847,8 @@ ensureInvariantHolds
 lambda
 _
 :
+(
+                
 self
 .
 findDirObj
@@ -859,10 +864,11 @@ sqlite
 "
 True
 )
-            
 is
 not
 None
+            
+)
         
 )
         
