@@ -5541,10 +5541,7 @@ return
 true
 ;
 }
-NS_IMETHODIMP_
-(
 void
-)
 nsListControlFrame
 :
 :
