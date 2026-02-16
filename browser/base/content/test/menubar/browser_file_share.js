@@ -595,6 +595,8 @@ shareButton
 getAttribute
 (
 "
+data
+-
 share
 -
 name
