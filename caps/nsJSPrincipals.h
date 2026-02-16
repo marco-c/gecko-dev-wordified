@@ -300,7 +300,13 @@ aWriter
 final
 ;
 bool
-isSystemOrAddonPrincipal
+isSystemPrincipal
+(
+)
+final
+;
+bool
+isAddonPrincipal
 (
 )
 final
