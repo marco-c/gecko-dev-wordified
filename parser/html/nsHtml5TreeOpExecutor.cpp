@@ -8571,7 +8571,13 @@ return
 }
 mSpeculationBaseURI
 =
+std
+:
+:
+move
+(
 newBaseURI
+)
 ;
 mDocument
 -
