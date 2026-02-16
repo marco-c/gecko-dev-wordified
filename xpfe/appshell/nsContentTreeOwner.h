@@ -159,6 +159,13 @@ nsIWindowProvider
 .
 h
 "
+#
+include
+"
+nsWeakReference
+.
+h
+"
 namespace
 mozilla
 {
@@ -180,6 +187,8 @@ public
 nsIWebBrowserChrome
 public
 nsIWindowProvider
+public
+nsSupportsWeakReference
 {
 friend
 class

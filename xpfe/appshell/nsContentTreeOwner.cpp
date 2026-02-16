@@ -757,6 +757,10 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsIWindowProvider
 )
+NS_INTERFACE_MAP_ENTRY
+(
+nsISupportsWeakReference
+)
 NS_INTERFACE_MAP_END
 /
 /
