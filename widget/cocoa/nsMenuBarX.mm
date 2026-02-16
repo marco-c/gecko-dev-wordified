@@ -5432,6 +5432,11 @@ servicesMenu
 servicesMenu
 ;
 [
+servicesMenu
+release
+]
+;
+[
 itemBeingAdded
 release
 ]
