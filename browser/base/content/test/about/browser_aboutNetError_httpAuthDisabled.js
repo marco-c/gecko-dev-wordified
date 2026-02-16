@@ -111,7 +111,7 @@ mockErrorInfo
 errorCodeString
 :
 "
-NS_ERROR_BASIC_HTTP_AUTH_DISABLED
+basicHttpAuthDisabled
 "
 channelStatus
 :
@@ -179,6 +179,16 @@ netErrorCard
 errorInfo
 =
 info
+;
+netErrorCard
+.
+errorConfig
+=
+netErrorCard
+.
+getErrorConfig
+(
+)
 ;
 netErrorCard
 .

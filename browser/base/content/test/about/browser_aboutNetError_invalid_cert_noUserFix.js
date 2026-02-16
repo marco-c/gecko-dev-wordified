@@ -257,6 +257,16 @@ info
 ;
 netErrorCard
 .
+errorConfig
+=
+netErrorCard
+.
+getErrorConfig
+(
+)
+;
+netErrorCard
+.
 advancedShowing
 =
 false
