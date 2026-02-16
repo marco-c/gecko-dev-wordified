@@ -149,7 +149,7 @@ menu_message
 1
 newtab_message
 :
-4
+2
 infobar
 :
 1
