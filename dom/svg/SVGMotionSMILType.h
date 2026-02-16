@@ -183,6 +183,8 @@ attribute
 enum
 class
 RotateType
+:
+uint8_t
 {
 Explicit
 /

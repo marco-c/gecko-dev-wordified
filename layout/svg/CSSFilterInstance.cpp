@@ -265,10 +265,6 @@ mFilter
 (
 aFilter
 )
-mShadowFallbackColor
-(
-aShadowFallbackColor
-)
 mTargetBoundsInFilterSpace
 (
 aTargetBoundsInFilterSpace
@@ -276,6 +272,10 @@ aTargetBoundsInFilterSpace
 mFrameSpaceInCSSPxToFilterSpaceTransform
 (
 aFrameSpaceInCSSPxToFilterSpaceTransform
+)
+mShadowFallbackColor
+(
+aShadowFallbackColor
 )
 {
 }

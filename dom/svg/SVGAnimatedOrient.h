@@ -551,9 +551,13 @@ mBaseVal
 ;
 uint8_t
 mAnimType
+:
+4
 ;
 uint8_t
 mBaseType
+:
+4
 ;
 uint8_t
 mAnimValUnit

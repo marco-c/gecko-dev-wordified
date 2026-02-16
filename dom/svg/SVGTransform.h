@@ -821,7 +821,7 @@ matrix
 type
 )
 static
-const
+constexpr
 uint32_t
 NUM_SIMPLE_PARAMS
 =
@@ -858,7 +858,7 @@ of
 type
 .
 static
-const
+constexpr
 uint32_t
 NUM_STORED_PARAMS
 =
@@ -1155,14 +1155,14 @@ aOther
 )
 ;
 }
-uint16_t
-mTransformType
-;
 float
 mParams
 [
 NUM_STORED_PARAMS
 ]
+;
+uint16_t
+mTransformType
 ;
 }
 ;
