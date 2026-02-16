@@ -20268,6 +20268,10 @@ context
 :
 ReadOnlyKeyedDefaultDict
 (
+            
+lambda
+key
+:
 context
 .
 config
@@ -20275,6 +20279,10 @@ config
 substs
 .
 get
+(
+key
+)
+        
 )
         
 dict
