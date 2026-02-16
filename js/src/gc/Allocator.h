@@ -1367,6 +1367,7 @@ T
 ;
 public
 :
+explicit
 RootedBuffer
 (
 JSContext
@@ -1375,6 +1376,8 @@ cx
 T
 *
 buffer
+=
+nullptr
 )
 :
 Base

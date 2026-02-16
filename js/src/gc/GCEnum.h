@@ -711,11 +711,6 @@ StringContents
 \
 _
 (
-ScriptPrivateData
-)
-\
-_
-(
 ShapeSetForAdd
 )
 \
