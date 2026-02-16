@@ -1102,8 +1102,6 @@ Progress
 REPLACED
 |
 LEAF
-|
-BACKDROP_UNSUPPORTED
 )
     
 Frame
@@ -1117,8 +1115,6 @@ Range
 REPLACED
 |
 LEAF
-|
-BACKDROP_UNSUPPORTED
 )
     
 Frame

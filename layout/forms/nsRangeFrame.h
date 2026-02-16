@@ -1056,7 +1056,7 @@ div
 frames
 .
 void
-ReflowAnonymousContent
+ReflowChildFrames
 (
 nsPresContext
 *
