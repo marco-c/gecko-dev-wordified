@@ -9372,6 +9372,7 @@ as
 zero
 .
 UseMarginBoxWithAutoResolvedAsZero
+UseInkOverflowAsBox
 }
 ;
 using
