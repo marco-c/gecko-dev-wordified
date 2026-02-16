@@ -16131,7 +16131,7 @@ chunk_to_release
 nullptr
 ;
 bool
-is_dying
+arena_is_dying
 ;
 {
 /
@@ -16221,7 +16221,7 @@ old
 spare
 arena
 .
-is_dying
+arena_is_dying
 =
 purge_info
 .
@@ -16357,7 +16357,7 @@ ARENA_CHUNK
 }
 if
 (
-is_dying
+arena_is_dying
 )
 {
 return
