@@ -152,6 +152,7 @@ styles
 await
 testShrink
 (
+inspector
 view
 ui
 manager
@@ -175,6 +176,7 @@ styles
 await
 testGrow
 (
+inspector
 view
 ui
 manager
@@ -212,6 +214,7 @@ async
 function
 testShrink
 (
+inspector
 ruleView
 ui
 manager
@@ -255,12 +258,14 @@ update
 const
 onRefresh
 =
-ruleView
+inspector
 .
 once
 (
 "
-ruleview
+rule
+-
+view
 -
 refreshed
 "
@@ -301,6 +306,7 @@ async
 function
 testGrow
 (
+inspector
 ruleView
 ui
 manager
@@ -327,12 +333,14 @@ update
 const
 onRefresh
 =
-ruleView
+inspector
 .
 once
 (
 "
-ruleview
+rule
+-
+view
 -
 refreshed
 "

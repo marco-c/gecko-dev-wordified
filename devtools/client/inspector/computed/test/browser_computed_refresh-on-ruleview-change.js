@@ -489,12 +489,14 @@ view
 const
 onRuleViewReady
 =
-ruleView
+inspector
 .
 once
 (
 "
-ruleview
+rule
+-
+view
 -
 refreshed
 "
