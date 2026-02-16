@@ -1247,6 +1247,11 @@ addSubview
 imageView
 ]
 ;
+[
+imageView
+release
+]
+;
 mDockBadgeView
 =
 [
