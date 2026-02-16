@@ -1945,6 +1945,10 @@ strerror
 "
 strlen
 "
+        
+"
+strnlen
+"
     
 ]
     
