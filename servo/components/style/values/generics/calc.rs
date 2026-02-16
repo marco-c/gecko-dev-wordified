@@ -206,6 +206,7 @@ style_traits
 :
 {
 CssWriter
+MathSum
 NumericValue
 ToCss
 ToTyped
@@ -13703,9 +13704,12 @@ NumericValue
 :
 :
 Sum
+(
+MathSum
 {
 values
 }
+)
 )
 )
 }
@@ -13759,6 +13763,8 @@ NumericValue
 :
 :
 Sum
+(
+MathSum
 {
 values
 :
@@ -13772,6 +13778,7 @@ inner
 ]
 )
 }
+)
 )
 )
 }
