@@ -2756,8 +2756,6 @@ index_
 ;
 ParserError
 error_
-{
-}
 ;
 public
 :
@@ -6300,7 +6298,7 @@ complete
 const
 T
 &
-result
+value
 )
 const
 {
@@ -6325,7 +6323,7 @@ JSMSG_TEMPORAL_PARSER_UNEXPECTED_CHARACTERS_AT_END
 ;
 }
 return
-result
+value
 ;
 }
 template
