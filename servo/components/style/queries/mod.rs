@@ -178,5 +178,6 @@ feature_expression
 {
 FeatureType
 QueryFeatureExpression
+QueryStyleRange
 }
 ;
