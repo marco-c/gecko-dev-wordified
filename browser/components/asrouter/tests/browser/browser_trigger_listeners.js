@@ -5370,7 +5370,7 @@ browser
 .
 ipProtection
 .
-panelOpenCount
+everOpenedPanel
 "
 )
 ;

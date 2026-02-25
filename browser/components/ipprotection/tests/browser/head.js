@@ -1794,7 +1794,7 @@ browser
 .
 ipProtection
 .
-panelOpenCount
+everOpenedPanel
 "
 )
 ;

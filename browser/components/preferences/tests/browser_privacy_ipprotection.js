@@ -246,14 +246,14 @@ stateCache
 "
 ;
 const
-IPP_PANEL_OPEN_COUNT_PREF
+IPP_PANEL_HAS_OPENED_PREF
 =
 "
 browser
 .
 ipProtection
 .
-panelOpenCount
+everOpenedPanel
 "
 ;
 const
@@ -333,7 +333,7 @@ prefs
 .
 clearUserPref
 (
-IPP_PANEL_OPEN_COUNT_PREF
+IPP_PANEL_HAS_OPENED_PREF
 )
 ;
 }
