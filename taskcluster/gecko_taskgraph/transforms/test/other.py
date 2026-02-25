@@ -4650,24 +4650,6 @@ platform
 ]
 :
             
-task
-.
-setdefault
-(
-"
-attributes
-"
-{
-}
-)
-[
-"
-ccov
-"
-]
-=
-True
-            
 #
 Do
 not
