@@ -177,9 +177,7 @@ nsNodeInfoManager
 >
 nim
 =
-OwnerDoc
-(
-)
+mNodeInfo
 -
 >
 NodeInfoManager
