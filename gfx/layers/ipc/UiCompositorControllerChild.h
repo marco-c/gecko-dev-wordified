@@ -655,10 +655,6 @@ FileDescriptor
 &
 &
 aAcquireFence
-ScreenPixelsResolver
-&
-&
-aResolver
 )
 ;
 private
