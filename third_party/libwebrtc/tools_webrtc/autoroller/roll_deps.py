@@ -449,10 +449,6 @@ src
 third_party
 /
 pipewire
--
-1
-.
-4
 /
 linux
 -
