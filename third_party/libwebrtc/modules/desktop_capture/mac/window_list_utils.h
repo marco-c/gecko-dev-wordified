@@ -694,6 +694,7 @@ be
 retrieved
 .
 int
+RTC_EXPORT
 GetWindowOwnerPid
 (
 CGWindowID
