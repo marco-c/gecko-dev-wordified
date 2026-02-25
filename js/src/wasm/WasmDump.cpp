@@ -5176,6 +5176,8 @@ DumpRefType
 tableDesc
 .
 elemType
+(
+)
 out
 codeMeta
 .

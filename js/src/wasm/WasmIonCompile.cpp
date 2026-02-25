@@ -15463,6 +15463,8 @@ address32
 table
 .
 elemType
+(
+)
 )
 ;
 curBlock_
@@ -15559,6 +15561,8 @@ address32
 table
 .
 elemType
+(
+)
 )
 ;
 curBlock_
@@ -51988,6 +51992,8 @@ if
 table
 .
 elemType
+(
+)
 .
 tableRepr
 (
@@ -52418,6 +52424,8 @@ if
 table
 .
 elemType
+(
+)
 .
 tableRepr
 (

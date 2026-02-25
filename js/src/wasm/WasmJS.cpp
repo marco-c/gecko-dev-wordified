@@ -2000,6 +2000,8 @@ index
 ]
 .
 elemType
+(
+)
 )
 {
 JS_ReportErrorNumberUTF8
@@ -8430,6 +8432,8 @@ addressType
 table
 .
 elemType
+(
+)
 table
 .
 initialLength
@@ -9141,6 +9145,8 @@ addressType
 table
 .
 elemType
+(
+)
 table
 .
 initialLength
@@ -17902,13 +17908,10 @@ create
 JSContext
 *
 cx
-Limits
-limits
-wasm
-:
-:
-RefType
-tableType
+const
+TableType
+&
+type
 HandleObject
 proto
 )
@@ -17960,8 +17963,7 @@ isNewborn
 TableDesc
 td
 (
-limits
-tableType
+type
 Nothing
 (
 )
@@ -18231,7 +18233,7 @@ false
 ;
 }
 RefType
-tableType
+elemType
 ;
 if
 (
@@ -18241,7 +18243,7 @@ ToRefType
 cx
 elementVal
 &
-tableType
+elemType
 )
 )
 {
@@ -18353,8 +18355,11 @@ WasmTableObject
 create
 (
 cx
+TableType
+(
 limits
-tableType
+elemType
+)
 proto
 )
 )
@@ -18392,7 +18397,7 @@ length
 ?
 RefTypeDefaultValue
 (
-tableType
+elemType
 )
 :
 args
@@ -18407,7 +18412,7 @@ if
 CheckRefType
 (
 cx
-tableType
+elemType
 initValue
 )
 )
@@ -18511,7 +18516,7 @@ initial
 if
 (
 !
-tableType
+elemType
 .
 isNullable
 (
