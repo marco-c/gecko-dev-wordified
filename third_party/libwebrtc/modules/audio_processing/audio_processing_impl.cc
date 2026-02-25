@@ -8957,16 +8957,6 @@ gain_controller2
 >
 Process
 (
-/
-*
-speech_probability
-=
-*
-/
-std
-:
-:
-nullopt
 capture_
 .
 applied_input_volume_changed
