@@ -3082,6 +3082,13 @@ get_page_loaded_time
 iteration
 )
             
+ImageObject
+.
+validate_end_frame
+(
+nav_done_frame
+)
+            
 start_video_timestamp
 +
 =
