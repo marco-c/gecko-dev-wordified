@@ -734,13 +734,11 @@ TabOpen
 "
 )
 ;
-EventUtils
+popup
 .
-synthesizeMouseAtCenter
+activateItem
 (
 contextIdItem
-{
-}
 )
 ;
 let
