@@ -130,7 +130,7 @@ h
 #
 include
 "
-PLDHashTable
+nsTHashMap
 .
 h
 "
@@ -191,7 +191,13 @@ nsIUnicharInputStream
 >
 mIn
 ;
-PLDHashTable
+nsTHashMap
+<
+nsDepCharHashKey
+const
+char16_t
+*
+>
 mTable
 ;
 mozilla
