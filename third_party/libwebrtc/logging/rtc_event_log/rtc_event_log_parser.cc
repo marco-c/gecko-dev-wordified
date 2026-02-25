@@ -10987,7 +10987,12 @@ if
 !
 event_stream
 .
-ParseFromArray
+ParseFromString
+(
+absl
+:
+:
+string_view
 (
 event_start
 .
@@ -10995,6 +11000,7 @@ data
 (
 )
 total_event_size
+)
 )
 )
 {
@@ -11080,7 +11086,12 @@ if
 !
 event_stream
 .
-ParseFromArray
+ParseFromString
+(
+absl
+:
+:
+string_view
 (
 event_start
 .
@@ -11088,6 +11099,7 @@ data
 (
 )
 total_event_size
+)
 )
 )
 {
