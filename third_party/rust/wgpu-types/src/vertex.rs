@@ -1526,7 +1526,7 @@ One
 signed
 short
 (
-u16
+i16
 )
 .
 i32

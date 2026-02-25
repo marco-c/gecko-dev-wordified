@@ -375,6 +375,14 @@ CooperativeStore
 .
 .
 }
+|
+S
+:
+:
+RayPipelineFunction
+(
+_
+)
 )
 )
 |

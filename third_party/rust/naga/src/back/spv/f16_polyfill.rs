@@ -583,15 +583,15 @@ back
 spv
 :
 :
-recyclable
+reclaimable
 :
 :
-Recyclable
+Reclaimable
 for
 F16IoPolyfill
 {
 fn
-recycle
+reclaim
 (
 mut
 self
@@ -608,7 +608,7 @@ self
 .
 io_var_to_f32_type
 .
-recycle
+reclaim
 (
 )
 ;

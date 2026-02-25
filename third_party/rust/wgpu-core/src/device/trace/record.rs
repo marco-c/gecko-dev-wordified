@@ -5404,7 +5404,8 @@ WriteBuffer
 {
 id
 data
-range
+offset
+size
 queued
 }
 =
@@ -5416,7 +5417,8 @@ WriteBuffer
 {
 id
 data
-range
+offset
+size
 queued
 }
 A

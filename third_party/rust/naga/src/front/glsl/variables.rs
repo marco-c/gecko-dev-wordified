@@ -1132,7 +1132,7 @@ gl_DrawID
 BuiltIn
 :
 :
-DrawID
+DrawIndex
 _
 =
 >

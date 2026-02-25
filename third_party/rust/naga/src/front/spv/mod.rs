@@ -11178,6 +11178,15 @@ SubgroupGather
 .
 .
 }
+|
+S
+:
+:
+RayPipelineFunction
+(
+.
+.
+)
 =
 >
 {

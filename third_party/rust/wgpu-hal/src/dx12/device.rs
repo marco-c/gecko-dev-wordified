@@ -2277,11 +2277,11 @@ clone
 )
 entry_point
 :
-passthrough
+stage
 .
 entry_point
 .
-clone
+to_string
 (
 )
 stage
@@ -10771,7 +10771,6 @@ ShaderInput
 Dxil
 {
 shader
-entry_point
 num_workgroups
 }
 =
@@ -10805,7 +10804,6 @@ shader
 to_vec
 (
 )
-entry_point
 num_workgroups
 }
 )
@@ -10826,7 +10824,6 @@ ShaderInput
 Hlsl
 {
 shader
-entry_point
 num_workgroups
 }
 =
@@ -10860,7 +10857,6 @@ shader
 to_owned
 (
 )
-entry_point
 num_workgroups
 }
 )
@@ -10882,6 +10878,18 @@ SpirV
 (
 _
 )
+|
+crate
+:
+:
+ShaderInput
+:
+:
+MetalLib
+{
+.
+.
+}
 |
 crate
 :

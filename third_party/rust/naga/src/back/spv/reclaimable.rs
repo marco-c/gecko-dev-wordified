@@ -262,7 +262,7 @@ implementation
 .
 pub
 trait
-Recyclable
+Reclaimable
 {
 /
 /
@@ -324,7 +324,7 @@ needs
 indefinitely
 .
 fn
-recycle
+reclaim
 (
 self
 )
@@ -345,7 +345,7 @@ impl
 <
 T
 >
-Recyclable
+Reclaimable
 for
 Vec
 <
@@ -353,7 +353,7 @@ T
 >
 {
 fn
-recycle
+reclaim
 (
 mut
 self
@@ -379,7 +379,7 @@ S
 :
 Clone
 >
-Recyclable
+Reclaimable
 for
 hashbrown
 :
@@ -392,7 +392,7 @@ S
 >
 {
 fn
-recycle
+reclaim
 (
 mut
 self
@@ -417,7 +417,7 @@ S
 :
 Clone
 >
-Recyclable
+Reclaimable
 for
 hashbrown
 :
@@ -429,7 +429,7 @@ S
 >
 {
 fn
-recycle
+reclaim
 (
 mut
 self
@@ -454,7 +454,7 @@ S
 :
 Clone
 >
-Recyclable
+Reclaimable
 for
 indexmap
 :
@@ -466,7 +466,7 @@ S
 >
 {
 fn
-recycle
+reclaim
 (
 mut
 self
@@ -491,7 +491,7 @@ K
 Ord
 V
 >
-Recyclable
+Reclaimable
 for
 alloc
 :
@@ -506,7 +506,7 @@ V
 >
 {
 fn
-recycle
+reclaim
 (
 mut
 self
@@ -529,7 +529,7 @@ impl
 K
 V
 >
-Recyclable
+Reclaimable
 for
 crate
 :
@@ -544,7 +544,7 @@ V
 >
 {
 fn
-recycle
+reclaim
 (
 mut
 self

@@ -533,10 +533,6 @@ clippy
 :
 :
 enum_variant_names
-clippy
-:
-:
-result_large_err
 )
 ]
 #
@@ -615,6 +611,14 @@ todo
 !
 [
 no_std
+]
+#
+!
+[
+forbid
+(
+unsafe_code
+)
 ]
 #
 [
