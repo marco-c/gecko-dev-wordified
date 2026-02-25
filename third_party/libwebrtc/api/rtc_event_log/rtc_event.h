@@ -297,6 +297,8 @@ testing
 RtcEvent
 (
 )
+=
+default
 ;
 RtcEvent
 (
@@ -497,6 +499,8 @@ private
 :
 int64_t
 timestamp_us_
+=
+0
 ;
 }
 ;
