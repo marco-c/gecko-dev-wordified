@@ -2949,6 +2949,7 @@ c_find_if
 (
 networks
 [
+&
 to_be_found
 ]
 (
