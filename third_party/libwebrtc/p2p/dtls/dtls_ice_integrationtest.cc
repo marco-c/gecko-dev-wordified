@@ -570,6 +570,9 @@ false
 )
 ;
 namespace
+webrtc
+{
+namespace
 {
 constexpr
 int
@@ -577,13 +580,6 @@ kDefaultTimeout
 =
 30000
 ;
-}
-/
-/
-namespace
-namespace
-webrtc
-{
 using
 :
 :
@@ -3499,9 +3495,6 @@ seed
 <
 seed
 ;
-webrtc
-:
-:
 Random
 rand
 (
@@ -4785,6 +4778,10 @@ Bool
 )
 )
 ;
+}
+/
+/
+namespace
 }
 /
 /
