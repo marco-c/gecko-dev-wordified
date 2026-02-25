@@ -8518,11 +8518,6 @@ FakeIceTransportInternal
 name
 component
 nullptr
-/
-*
-network_thread
-*
-/
 )
 )
 {
@@ -8539,6 +8534,7 @@ IceTransportInternal
 internal
 (
 )
+override
 {
 return
 internal_
