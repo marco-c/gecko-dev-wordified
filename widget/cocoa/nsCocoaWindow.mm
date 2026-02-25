@@ -35216,8 +35216,9 @@ mWindow
 frame
 ;
 BOOL
-restorable
+isPrivateWindow
 =
+!
 mWindow
 .
 restorable
@@ -35241,7 +35242,7 @@ None
 :
 mBorderStyle
 true
-restorable
+isPrivateWindow
 )
 ;
 NS_ENSURE_SUCCESS_VOID
