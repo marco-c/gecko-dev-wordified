@@ -1893,6 +1893,21 @@ py
 )
     
 "
+npx
+"
+:
+MachCommandReference
+(
+"
+tools
+/
+mach_commands
+.
+py
+"
+)
+    
+"
 nss
 -
 uplift
