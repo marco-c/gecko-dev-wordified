@@ -1255,7 +1255,6 @@ u8
 ]
 {
 &
-*
 self
 .
 0
@@ -1695,7 +1694,6 @@ _
 Repr
 (
 &
-*
 self
 .
 0
@@ -4348,9 +4346,7 @@ is_match
 (
 )
 {
-return
 0
-;
 }
 else
 if
@@ -7317,7 +7313,9 @@ we
 know
 that
 all
-varuints
+var
+-
+u32
 are
 /
 /

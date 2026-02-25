@@ -211,9 +211,9 @@ test
 name
 :
 {
+name
 }
 "
-name
 )
 )
 }

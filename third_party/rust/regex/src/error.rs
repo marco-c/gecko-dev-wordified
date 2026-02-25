@@ -736,11 +736,11 @@ size
 limit
 of
 {
+limit
 }
 bytes
 .
 "
-limit
 )
 }
 }
@@ -909,9 +909,9 @@ writeln
 f
 "
 {
+hr
 }
 "
-hr
 )
 ?
 ;
@@ -921,9 +921,9 @@ writeln
 f
 "
 {
-}
-"
 err
+}
+"
 )
 ?
 ;
@@ -933,9 +933,9 @@ writeln
 f
 "
 {
+hr
 }
 "
-hr
 )
 ?
 ;

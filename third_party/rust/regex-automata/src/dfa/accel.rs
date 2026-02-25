@@ -1280,9 +1280,9 @@ needles
 length
 :
 {
+n
 }
 "
-n
 )
 }
 ;
@@ -1495,9 +1495,9 @@ needles
 length
 :
 {
+n
 }
 "
-n
 )
 }
 }
@@ -2812,9 +2812,9 @@ invalid
 accelerator
 index
 {
+i
 }
 "
-i
 )
 ;
 }
@@ -3202,11 +3202,12 @@ to
 be
 a
 multiple
+\
 of
 {
+ACCEL_TY_SIZE
 }
 "
-ACCEL_TY_SIZE
 )
 ;
 if

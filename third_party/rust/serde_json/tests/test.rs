@@ -75,6 +75,10 @@ too_many_lines
 clippy
 :
 :
+uninlined_format_args
+clippy
+:
+:
 unreadable_literal
 clippy
 :
@@ -889,7 +893,9 @@ MIN
 -
 1
 .
-7976931348623157e308
+7976931348623157e
++
+308
 "
 )
 (
@@ -900,7 +906,9 @@ MAX
 "
 1
 .
-7976931348623157e308
+7976931348623157e
++
+308
 "
 )
 (
@@ -7439,7 +7447,9 @@ Number
 from_string_unchecked
 (
 "
-1e999
+1e
++
+999
 "
 .
 to_owned
@@ -7481,7 +7491,9 @@ from_string_unchecked
 (
 "
 -
-1e999
+1e
++
+999
 "
 .
 to_owned
@@ -7521,7 +7533,9 @@ Number
 from_string_unchecked
 (
 "
-1E999
+1e
++
+999
 "
 .
 to_owned
@@ -7541,7 +7555,7 @@ Number
 from_string_unchecked
 (
 "
-1E
+1e
 +
 999
 "
@@ -7563,7 +7577,9 @@ from_string_unchecked
 (
 "
 -
-1E999
+1e
++
+999
 "
 .
 to_owned
@@ -7583,7 +7599,7 @@ Number
 from_string_unchecked
 (
 "
-1E
+1e
 -
 999
 "
@@ -7605,7 +7621,7 @@ Number
 from_string_unchecked
 (
 "
-1E
+1e
 +
 000
 "
@@ -7629,7 +7645,9 @@ from_string_unchecked
 "
 2
 .
-3e999
+3e
++
+999
 "
 .
 to_owned
@@ -7653,7 +7671,9 @@ from_string_unchecked
 -
 2
 .
-3e999
+3e
++
+999
 "
 .
 to_owned

@@ -2969,7 +2969,7 @@ boundaries
 .
 ASCII
 word
-bondaries
+boundaries
 may
 be
 used
