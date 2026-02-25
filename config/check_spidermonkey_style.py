@@ -923,6 +923,16 @@ in
 OBJDIR
     
 "
+js
+/
+normalizer_glue
+.
+h
+"
+#
+generated
+    
+"
 mozilla
 /
 ProfilingCategoryList

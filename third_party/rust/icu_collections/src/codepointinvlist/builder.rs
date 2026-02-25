@@ -151,6 +151,8 @@ CodePointInversionList
 derive
 (
 Default
+Clone
+Debug
 )
 ]
 pub

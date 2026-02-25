@@ -61,7 +61,9 @@ LICENSE
 Utilities
 for
 reading
+[
 CodePointTrie
+]
 data
 from
 TOML
@@ -199,6 +201,7 @@ serde
 :
 :
 Deserialize
+Debug
 )
 ]
 pub
@@ -445,6 +448,13 @@ a
 stable
 serialized
 form
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 enum
 CodePointDataSlice

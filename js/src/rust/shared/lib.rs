@@ -140,6 +140,10 @@ extern
 crate
 unicode_bidi_ffi
 ;
+extern
+crate
+normalizer_glue
+;
 #
 [
 cfg

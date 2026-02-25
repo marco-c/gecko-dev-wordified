@@ -2515,6 +2515,11 @@ wasm
 "
 xsum
 "
+"
+builtin
+/
+normalizer_glue
+"
 ]
 #
 Glean
