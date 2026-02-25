@@ -94,11 +94,6 @@ MODULES_AUDIO_PROCESSING_AGC2_SPEECH_LEVEL_ESTIMATOR_H_
 #
 include
 <
-cstddef
->
-#
-include
-<
 type_traits
 >
 #
@@ -211,8 +206,6 @@ Update
 (
 float
 rms_dbfs
-float
-peak_dbfs
 float
 speech_probability
 )
