@@ -9834,8 +9834,6 @@ const
 return
 mName
 .
-value
-.
 AsAtom
 (
 )
@@ -9921,8 +9919,6 @@ const
 {
 return
 mName
-.
-value
 .
 AsAtom
 (
@@ -10625,14 +10621,8 @@ elements
 mozilla
 :
 :
-StyleScopedName
+StyleAnchorScope
 mAnchorScope
-;
-mozilla
-:
-:
-StyleScopedName
-mTimelineScope
 ;
 mozilla
 :

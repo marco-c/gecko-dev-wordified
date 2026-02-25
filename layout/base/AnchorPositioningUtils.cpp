@@ -1219,7 +1219,7 @@ anchorScope
 -
 >
 const
-StyleScopedName
+StyleAnchorScope
 *
 {
 const
