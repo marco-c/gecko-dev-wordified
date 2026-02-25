@@ -3618,9 +3618,6 @@ CloseWatcher
 insecureContext
 :
 true
-nightly
-:
-true
 }
 /
 /
