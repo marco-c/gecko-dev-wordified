@@ -488,6 +488,11 @@ parentNode
 (
 )
 ;
+if
+(
+parent
+)
+{
 const
 siblings
 =
@@ -510,6 +515,7 @@ mutationTarget
 return
 true
 ;
+}
 }
 /
 /
