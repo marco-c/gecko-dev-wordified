@@ -10621,7 +10621,7 @@ elements
 mozilla
 :
 :
-StyleAnchorScope
+StyleScopedName
 mAnchorScope
 ;
 mozilla

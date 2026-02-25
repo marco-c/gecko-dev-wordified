@@ -16031,7 +16031,7 @@ None
 )
 mAnchorScope
 (
-StyleAnchorScopeKeyword
+StyleScopedNameKeyword
 :
 :
 None
