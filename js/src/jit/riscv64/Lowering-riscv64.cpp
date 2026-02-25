@@ -6551,7 +6551,7 @@ hasMemoryBase
 ?
 LAllocation
 (
-useRegisterAtStart
+useRegister
 (
 ins
 -
@@ -6823,7 +6823,7 @@ hasMemoryBase
 ?
 LAllocation
 (
-useRegisterAtStart
+useRegister
 (
 ins
 -
@@ -7077,7 +7077,7 @@ hasMemoryBase
 ?
 LAllocation
 (
-useRegisterAtStart
+useRegister
 (
 ins
 -
