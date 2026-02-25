@@ -319,9 +319,8 @@ aRv
 void
 Stringify
 (
-nsString
+nsACString
 &
-aRetVal
 )
 ;
 /
