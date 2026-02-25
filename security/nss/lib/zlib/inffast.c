@@ -14,7 +14,7 @@ C
 )
 1995
 -
-2017
+2026
 Mark
 Adler
 *
@@ -1424,6 +1424,7 @@ strm
 msg
 =
 (
+z_const
 char
 *
 )
@@ -1545,6 +1546,7 @@ strm
 msg
 =
 (
+z_const
 char
 *
 )
@@ -2186,6 +2188,7 @@ strm
 msg
 =
 (
+z_const
 char
 *
 )
@@ -2306,6 +2309,7 @@ strm
 msg
 =
 (
+z_const
 char
 *
 )

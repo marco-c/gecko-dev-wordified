@@ -1077,9 +1077,7 @@ number
 of
 bits
 in
-"
-in
-"
+hold
 *
 /
 /
