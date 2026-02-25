@@ -740,6 +740,12 @@ case
 eCSSProperty_perspective
 :
 case
+eCSSProperty_column_gap
+:
+case
+eCSSProperty_row_gap
+:
+case
 eCSSProperty_max_block_size
 :
 case
