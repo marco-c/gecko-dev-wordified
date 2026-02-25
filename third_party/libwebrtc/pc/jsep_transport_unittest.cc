@@ -1024,7 +1024,6 @@ make_unique
 JsepTransport
 >
 (
-kTransportName
 /
 *
 local_certificate
