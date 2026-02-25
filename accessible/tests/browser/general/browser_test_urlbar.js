@@ -266,14 +266,7 @@ getAccessibleFor
 resultsView
 )
 ;
-/
-/
-XXX
-:
-See
-bug
-2016839
-todo_is
+is
 (
 accessible
 .
