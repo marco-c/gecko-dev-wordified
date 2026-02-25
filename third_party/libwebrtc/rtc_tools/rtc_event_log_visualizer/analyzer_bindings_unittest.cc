@@ -129,9 +129,11 @@ vector
 #
 include
 "
-rtc_base
+absl
 /
-protobuf_utils
+strings
+/
+string_view
 .
 h
 "
@@ -492,7 +494,12 @@ success
 =
 collection
 .
-ParseFromArray
+ParseFromString
+(
+absl
+:
+:
+string_view
 (
 output
 .
@@ -505,6 +512,7 @@ int
 >
 (
 output_size
+)
 )
 )
 ;
@@ -672,7 +680,12 @@ success
 =
 collection
 .
-ParseFromArray
+ParseFromString
+(
+absl
+:
+:
+string_view
 (
 output
 .
@@ -685,6 +698,7 @@ int
 >
 (
 output_size
+)
 )
 )
 ;
