@@ -562,6 +562,8 @@ null
 ;
 class
 WebConsoleWrapper
+extends
+EventEmitter
 {
 /
 *
@@ -601,11 +603,8 @@ toolbox
 document
 )
 {
-EventEmitter
-.
-decorate
+super
 (
-this
 )
 ;
 this

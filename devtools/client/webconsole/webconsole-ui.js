@@ -434,6 +434,8 @@ implementation
 /
 class
 WebConsoleUI
+extends
+EventEmitter
 {
 /
 *
@@ -457,6 +459,10 @@ constructor
 hud
 )
 {
+super
+(
+)
+;
 this
 .
 hud
@@ -637,13 +643,6 @@ _onScopePrefChanged
 )
 ;
 }
-EventEmitter
-.
-decorate
-(
-this
-)
-;
 }
 /
 *

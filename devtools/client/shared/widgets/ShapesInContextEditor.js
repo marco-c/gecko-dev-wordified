@@ -200,6 +200,8 @@ getInContextEditor
 /
 class
 ShapesInContextEditor
+extends
+EventEmitter
 {
 constructor
 (
@@ -208,11 +210,8 @@ inspector
 state
 )
 {
-EventEmitter
-.
-decorate
+super
 (
-this
 )
 ;
 this

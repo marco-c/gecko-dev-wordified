@@ -111,6 +111,8 @@ true
 ;
 class
 StoragePanel
+extends
+EventEmitter
 {
 constructor
 (
@@ -119,11 +121,8 @@ toolbox
 commands
 )
 {
-EventEmitter
-.
-decorate
+super
 (
-this
 )
 ;
 this

@@ -2141,6 +2141,8 @@ popup
 /
 class
 HTMLTooltip
+extends
+EventEmitter
 {
 /
 *
@@ -2473,11 +2475,8 @@ false
 }
 )
 {
-EventEmitter
-.
-decorate
+super
 (
-this
 )
 ;
 this

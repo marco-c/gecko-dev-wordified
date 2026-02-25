@@ -334,6 +334,8 @@ features
 /
 class
 WebConsole
+extends
+EventEmitter
 {
 /
 *
@@ -419,6 +421,10 @@ isBrowserConsole
 false
 )
 {
+super
+(
+)
+;
 this
 .
 toolbox
@@ -569,13 +575,6 @@ this
 _destroyer
 =
 null
-;
-EventEmitter
-.
-decorate
-(
-this
-)
 ;
 }
 recordEvent

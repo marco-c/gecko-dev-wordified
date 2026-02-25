@@ -759,6 +759,8 @@ Inspector
 /
 class
 HighlightersOverlay
+extends
+EventEmitter
 {
 /
 *
@@ -781,6 +783,10 @@ constructor
 inspector
 )
 {
+super
+(
+)
+;
 this
 .
 inspector
@@ -1537,13 +1543,6 @@ showSimpleHighlightersMessage
 )
 ;
 }
-EventEmitter
-.
-decorate
-(
-this
-)
-;
 }
 /
 /

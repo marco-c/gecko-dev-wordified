@@ -201,6 +201,8 @@ selected
 /
 class
 InspectorSearch
+extends
+EventEmitter
 {
 /
 *
@@ -331,6 +333,10 @@ prevBtn
 nextBtn
 )
 {
+super
+(
+)
+;
 this
 .
 inspector
@@ -515,13 +521,6 @@ SelectorAutocompleter
 (
 inspector
 input
-)
-;
-EventEmitter
-.
-decorate
-(
-this
 )
 ;
 }

@@ -477,6 +477,8 @@ needed
 /
 class
 ResponsiveUI
+extends
+EventEmitter
 {
 /
 *
@@ -540,6 +542,10 @@ window
 tab
 )
 {
+super
+(
+)
+;
 this
 .
 manager
@@ -747,13 +753,6 @@ this
 dynamicToolbar
 =
 null
-;
-EventEmitter
-.
-decorate
-(
-this
-)
 ;
 }
 get

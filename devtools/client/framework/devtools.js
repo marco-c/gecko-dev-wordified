@@ -481,6 +481,8 @@ browser
 /
 class
 DevTools
+extends
+EventEmitter
 {
 /
 /
@@ -644,6 +646,10 @@ global
 )
 ;
 }
+super
+(
+)
+;
 this
 .
 _tools
@@ -721,13 +727,6 @@ commands
 toolbox
 Promise
 >
-EventEmitter
-.
-decorate
-(
-this
-)
-;
 this
 .
 _telemetry

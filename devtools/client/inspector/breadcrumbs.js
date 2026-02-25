@@ -226,6 +226,8 @@ breadcrumbs
 /
 class
 ArrowScrollBox
+extends
+EventEmitter
 {
 /
 *
@@ -264,6 +266,10 @@ win
 container
 )
 {
+super
+(
+)
+;
 this
 .
 win
@@ -283,13 +289,6 @@ this
 container
 =
 container
-;
-EventEmitter
-.
-decorate
-(
-this
-)
 ;
 this
 .

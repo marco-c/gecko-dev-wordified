@@ -140,6 +140,8 @@ target
 /
 class
 DomPanel
+extends
+EventEmitter
 {
 constructor
 (
@@ -148,6 +150,10 @@ toolbox
 commands
 )
 {
+super
+(
+)
+;
 this
 .
 panelWin
@@ -199,13 +205,6 @@ pendingRequests
 new
 Map
 (
-)
-;
-EventEmitter
-.
-decorate
-(
-this
 )
 ;
 }

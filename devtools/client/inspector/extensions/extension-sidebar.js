@@ -364,6 +364,8 @@ sidebar
 /
 class
 ExtensionSidebar
+extends
+EventEmitter
 {
 constructor
 (
@@ -374,11 +376,8 @@ title
 }
 )
 {
-EventEmitter
-.
-decorate
+super
 (
-this
 )
 ;
 this

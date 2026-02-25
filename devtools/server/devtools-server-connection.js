@@ -204,6 +204,8 @@ requests
 /
 class
 DevToolsServerConnection
+extends
+EventEmitter
 {
 /
 *
@@ -280,6 +282,10 @@ transport
 socketListener
 )
 {
+super
+(
+)
+;
 this
 .
 _prefix
@@ -509,13 +515,6 @@ _forwardingPrefixes
 new
 Map
 (
-)
-;
-EventEmitter
-.
-decorate
-(
-this
 )
 ;
 }

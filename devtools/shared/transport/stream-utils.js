@@ -547,6 +547,8 @@ copy
 }
 class
 StreamCopier
+extends
+EventEmitter
 {
 static
 _nextId
@@ -560,11 +562,8 @@ output
 length
 )
 {
-EventEmitter
-.
-decorate
+super
 (
-this
 )
 ;
 this
