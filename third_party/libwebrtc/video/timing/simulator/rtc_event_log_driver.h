@@ -610,7 +610,9 @@ unique_ptr
 StreamInterface
 >
 (
+const
 Environment
+&
 uint32_t
 )
 const
