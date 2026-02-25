@@ -321,17 +321,6 @@ include
 "
 api
 /
-task_queue
-/
-task_queue_base
-.
-h
-"
-#
-include
-"
-api
-/
 transport
 /
 enums
@@ -664,6 +653,17 @@ rtc_base
 strings
 /
 string_builder
+.
+h
+"
+#
+include
+"
+rtc_base
+/
+system
+/
+no_unique_address
 .
 h
 "
@@ -1353,6 +1353,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -1369,6 +1370,7 @@ value
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -1416,6 +1418,7 @@ ports
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -1439,6 +1442,7 @@ pruned_ports
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -1454,6 +1458,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -1571,6 +1576,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -1622,6 +1628,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -1640,14 +1647,15 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
 const
-std
+absl
 :
 :
-string
+string_view
 RECEIVING_ABBREV
 [
 2
@@ -1663,10 +1671,10 @@ R
 }
 ;
 const
-std
+absl
 :
 :
-string
+string_view
 WRITABLE_ABBREV
 [
 2
@@ -1802,6 +1810,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -2001,6 +2010,7 @@ IsGettingPorts
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -2615,6 +2625,7 @@ remote_ice_generation
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -3002,6 +3013,7 @@ string
 transport_name_
 RTC_GUARDED_BY
 (
+&
 network_thread_
 )
 ;
@@ -3009,6 +3021,7 @@ int
 component_
 RTC_GUARDED_BY
 (
+&
 network_thread_
 )
 ;
@@ -3018,6 +3031,7 @@ const
 allocator_
 RTC_GUARDED_BY
 (
+&
 network_thread_
 )
 ;
@@ -3027,6 +3041,7 @@ const
 async_dns_resolver_factory_
 RTC_GUARDED_BY
 (
+&
 network_thread_
 )
 ;
@@ -3046,18 +3061,19 @@ const
 lna_permission_factory_
 RTC_GUARDED_BY
 (
+&
 network_thread_
 )
 ;
-TaskQueueBase
-*
-const
+RTC_NO_UNIQUE_ADDRESS
+SequenceChecker
 network_thread_
 ;
 bool
 incoming_only_
 RTC_GUARDED_BY
 (
+&
 network_thread_
 )
 ;
@@ -3065,6 +3081,7 @@ int
 error_
 RTC_GUARDED_BY
 (
+&
 network_thread_
 )
 ;
@@ -3084,6 +3101,7 @@ PortAllocatorSession
 allocator_sessions_
 RTC_GUARDED_BY
 (
+&
 network_thread_
 )
 ;
@@ -3119,6 +3137,7 @@ PortInterface
 ports_
 RTC_GUARDED_BY
 (
+&
 network_thread_
 )
 ;
@@ -3181,6 +3200,7 @@ PortInterface
 pruned_ports_
 RTC_GUARDED_BY
 (
+&
 network_thread_
 )
 ;
@@ -3189,6 +3209,7 @@ Connection
 selected_connection_
 RTC_GUARDED_BY
 (
+&
 network_thread_
 )
 =
@@ -3205,6 +3226,7 @@ Connection
 connections_
 RTC_GUARDED_BY
 (
+&
 network_thread_
 )
 ;
@@ -3218,6 +3240,7 @@ RemoteCandidate
 remote_candidates_
 RTC_GUARDED_BY
 (
+&
 network_thread_
 )
 ;
@@ -3225,6 +3248,7 @@ bool
 had_connection_
 RTC_GUARDED_BY
 (
+&
 network_thread_
 )
 =
@@ -3256,6 +3280,7 @@ OptionMap
 options_
 RTC_GUARDED_BY
 (
+&
 network_thread_
 )
 ;
@@ -3263,6 +3288,7 @@ IceParameters
 ice_parameters_
 RTC_GUARDED_BY
 (
+&
 network_thread_
 )
 ;
@@ -3276,6 +3302,7 @@ IceParameters
 remote_ice_parameters_
 RTC_GUARDED_BY
 (
+&
 network_thread_
 )
 ;
@@ -3283,6 +3310,7 @@ IceMode
 remote_ice_mode_
 RTC_GUARDED_BY
 (
+&
 network_thread_
 )
 ;
@@ -3290,6 +3318,7 @@ IceRole
 ice_role_
 RTC_GUARDED_BY
 (
+&
 network_thread_
 )
 ;
@@ -3297,6 +3326,7 @@ IceGatheringState
 gathering_state_
 RTC_GUARDED_BY
 (
+&
 network_thread_
 )
 ;
@@ -3304,6 +3334,7 @@ RepeatingTaskHandle
 regathering_task_handle_
 RTC_GUARDED_BY
 (
+&
 network_thread_
 )
 ;
@@ -3311,6 +3342,7 @@ Timestamp
 last_ping_sent_
 RTC_GUARDED_BY
 (
+&
 network_thread_
 )
 =
@@ -3325,6 +3357,7 @@ int
 weak_ping_interval_
 RTC_GUARDED_BY
 (
+&
 network_thread_
 )
 =
@@ -3365,6 +3398,7 @@ IceTransportStateInternal
 state_
 RTC_GUARDED_BY
 (
+&
 network_thread_
 )
 =
@@ -3377,6 +3411,7 @@ IceTransportState
 standardized_state_
 RTC_GUARDED_BY
 (
+&
 network_thread_
 )
 =
@@ -3389,6 +3424,7 @@ IceConfig
 config_
 RTC_GUARDED_BY
 (
+&
 network_thread_
 )
 ;
@@ -3396,6 +3432,7 @@ int
 last_sent_packet_id_
 RTC_GUARDED_BY
 (
+&
 network_thread_
 )
 =
@@ -3448,6 +3485,7 @@ uint32_t
 nomination_
 RTC_GUARDED_BY
 (
+&
 network_thread_
 )
 =
@@ -3457,6 +3495,7 @@ bool
 receiving_
 RTC_GUARDED_BY
 (
+&
 network_thread_
 )
 =
@@ -3466,6 +3505,7 @@ bool
 writable_
 RTC_GUARDED_BY
 (
+&
 network_thread_
 )
 =
@@ -3475,6 +3515,7 @@ bool
 has_been_writable_
 RTC_GUARDED_BY
 (
+&
 network_thread_
 )
 =
@@ -3498,6 +3539,7 @@ NetworkRoute
 network_route_
 RTC_GUARDED_BY
 (
+&
 network_thread_
 )
 ;
@@ -3505,6 +3547,7 @@ IceEventLog
 ice_event_log_
 RTC_GUARDED_BY
 (
+&
 network_thread_
 )
 ;
@@ -3518,6 +3561,7 @@ ActiveIceControllerInterface
 ice_controller_
 RTC_GUARDED_BY
 (
+&
 network_thread_
 )
 ;
@@ -3531,6 +3575,7 @@ CandidateAndResolver
 resolvers_
 RTC_GUARDED_BY
 (
+&
 network_thread_
 )
 ;
@@ -3554,6 +3599,7 @@ CandidateAndPermission
 permission_queries_
 RTC_GUARDED_BY
 (
+&
 network_thread_
 )
 ;

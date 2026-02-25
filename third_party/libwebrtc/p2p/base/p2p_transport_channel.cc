@@ -686,15 +686,6 @@ include
 "
 rtc_base
 /
-thread
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 trace_event
 .
 h
@@ -1329,15 +1320,6 @@ lna_permission_factory_
 (
 lna_permission_factory
 )
-network_thread_
-(
-Thread
-:
-:
-Current
-(
-)
-)
 incoming_only_
 (
 false
@@ -1698,6 +1680,7 @@ P2PTransportChannel
 ;
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -1813,6 +1796,7 @@ session
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -2095,6 +2079,7 @@ connection
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -2457,6 +2442,7 @@ ice_role
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -2547,6 +2533,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -2565,6 +2552,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -2583,6 +2571,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -2606,6 +2595,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -2624,6 +2614,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -2642,6 +2633,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -2660,6 +2652,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -2678,6 +2671,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -2701,6 +2695,7 @@ GetRttEstimate
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -2763,6 +2758,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -2854,6 +2850,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -3114,6 +3111,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -3260,6 +3258,7 @@ ice_params
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -3338,6 +3337,7 @@ ice_params
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -3574,6 +3574,7 @@ mode
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -3671,6 +3672,7 @@ config
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -5440,6 +5442,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -5460,6 +5463,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -5478,6 +5482,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -5508,6 +5513,7 @@ MaybeStartGathering
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -5905,6 +5911,7 @@ port
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -6337,6 +6344,7 @@ candidates
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -6392,6 +6400,7 @@ event
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -6425,6 +6434,7 @@ session
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -6561,6 +6571,7 @@ port_muxed
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -7676,6 +7687,7 @@ cur_filter
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -7768,6 +7780,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -7872,6 +7885,7 @@ conn
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -8034,6 +8048,7 @@ candidate
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -8165,6 +8180,7 @@ candidate
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -8590,6 +8606,7 @@ resolver
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -8710,6 +8727,7 @@ result
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -8943,6 +8961,7 @@ candidate
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -9140,6 +9159,7 @@ status
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -9298,6 +9318,7 @@ new_remote_candidate
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -9435,6 +9456,7 @@ cand_to_remove
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -9506,6 +9528,7 @@ RemoveAllRemoteCandidates
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -9571,6 +9594,7 @@ origin_port
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -9971,6 +9995,7 @@ origin_port
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -10423,6 +10448,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -10451,6 +10477,7 @@ candidate
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -10607,6 +10634,7 @@ candidate
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -10682,6 +10710,7 @@ origin_port
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -10901,6 +10930,7 @@ value
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -11098,6 +11128,7 @@ value
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -11151,6 +11182,7 @@ GetError
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -11193,6 +11225,7 @@ flags
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -11349,6 +11382,7 @@ ice_transport_stats
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -11572,6 +11606,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -11590,6 +11625,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -11654,6 +11690,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -11691,6 +11728,7 @@ connection
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -11759,6 +11797,7 @@ UpdateConnectionStates
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -11887,6 +11926,7 @@ OnStartedPinging
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -11952,6 +11992,7 @@ this
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -12061,6 +12102,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -12091,6 +12133,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -12121,6 +12164,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -12194,6 +12238,7 @@ UpdateState
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -12300,6 +12345,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -12341,6 +12387,7 @@ connections
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -12409,6 +12456,7 @@ conn
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -12556,6 +12604,7 @@ reason
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -12595,6 +12644,7 @@ reason
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -13178,6 +13228,7 @@ UpdateTransportState
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -13699,6 +13750,7 @@ MaybeStopPortAllocatorSessions
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -13808,6 +13860,7 @@ OnSelectedConnectionDestroyed
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -13874,6 +13927,7 @@ HandleAllTimedOut
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -13975,6 +14029,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -14077,6 +14132,7 @@ FindNextPingableConnection
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -14122,6 +14178,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -14143,6 +14200,7 @@ connection
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -14168,6 +14226,7 @@ connection
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -14226,6 +14285,7 @@ conn
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -14288,6 +14348,7 @@ conn
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -14413,6 +14474,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -14453,6 +14515,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -14519,6 +14582,7 @@ connection
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -14730,6 +14794,7 @@ connection
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -14968,6 +15033,7 @@ connection
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -15067,6 +15133,7 @@ port
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -15145,6 +15212,7 @@ ports
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -15227,6 +15295,7 @@ candidates
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -15317,6 +15386,7 @@ PruneAllPorts
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -15361,6 +15431,7 @@ port
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -15458,6 +15529,7 @@ packet
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -15627,6 +15699,7 @@ sent_packet
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -15650,6 +15723,7 @@ connection
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -15685,6 +15759,7 @@ writable
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -15757,6 +15832,7 @@ receiving
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -15796,6 +15872,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -15832,6 +15909,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -15997,6 +16075,7 @@ type
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -16253,6 +16332,7 @@ callbacks
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -16296,6 +16376,7 @@ ResetDtlsStunPiggybackCallbacks
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
@@ -16334,6 +16415,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
+&
 network_thread_
 )
 ;
