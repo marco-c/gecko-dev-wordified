@@ -20932,7 +20932,7 @@ XPCShell
 options
 {
 "
-tbpl
+raw
 "
 :
 sys

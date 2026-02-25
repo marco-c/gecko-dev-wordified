@@ -2717,21 +2717,19 @@ commandline
 .
 setup_logging
 (
-        
 "
 cppunittests
 "
 options
 {
 "
-tbpl
+raw
 "
 :
 sys
 .
 stdout
 }
-    
 )
     
 try
