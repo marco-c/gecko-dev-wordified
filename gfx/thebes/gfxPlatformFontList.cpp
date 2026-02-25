@@ -12270,6 +12270,7 @@ isBlockedByVisibilityLevel
 =
 [
 =
+this
 ]
 (
 gfxFontFamily
@@ -13815,6 +13816,7 @@ LookupOrInsertWith
 aFace
 [
 =
+this
 ]
 {
 return
