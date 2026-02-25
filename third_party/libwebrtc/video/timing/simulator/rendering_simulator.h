@@ -304,6 +304,11 @@ field_trials
 ;
 }
 ;
+bool
+reuse_streams
+=
+true
+;
 }
 ;
 /

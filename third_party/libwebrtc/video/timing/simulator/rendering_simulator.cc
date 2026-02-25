@@ -1665,6 +1665,14 @@ results
 RtcEventLogDriver
 rtc_event_log_simulator
 (
+{
+.
+reuse_streams
+=
+config_
+.
+reuse_streams
+}
 &
 parsed_log
 config_
