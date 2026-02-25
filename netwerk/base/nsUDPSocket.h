@@ -294,6 +294,12 @@ return
 mByteReadCount
 ;
 }
+bool
+IsTRRConnection
+(
+)
+override
+;
 nsUDPSocket
 (
 )
@@ -476,6 +482,12 @@ uint64_t
 mByteWriteCount
 {
 0
+}
+;
+bool
+mIsTRRServiceChannel
+{
+false
 }
 ;
 }
