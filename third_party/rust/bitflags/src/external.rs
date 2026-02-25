@@ -380,6 +380,8 @@ serde
 ]
 pub
 use
+serde_core
+as
 serde
 ;
 #
