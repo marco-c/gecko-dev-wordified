@@ -694,6 +694,12 @@ NotifyFirstPacketReceived
 override
 ;
 void
+NotifyFirstPacketReceivedAfterReceptiveChange
+(
+)
+override
+;
+void
 set_stream_ids
 (
 std
