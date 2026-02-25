@@ -4634,7 +4634,10 @@ NS_VK_UP
 0
 MODIFIER_ALT
 nullptr
-nullptr
+u
+"
+cmd_scrollPageUp
+"
 nullptr
 u
 "
@@ -4647,7 +4650,10 @@ NS_VK_DOWN
 0
 MODIFIER_ALT
 nullptr
-nullptr
+u
+"
+cmd_scrollPageDown
+"
 nullptr
 u
 "
