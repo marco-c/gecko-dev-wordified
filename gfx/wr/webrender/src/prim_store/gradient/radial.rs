@@ -1696,6 +1696,14 @@ Some
 (
 RenderTaskCacheKey
 {
+origin
+:
+DeviceIntPoint
+:
+:
+zero
+(
+)
 size
 :
 task_size

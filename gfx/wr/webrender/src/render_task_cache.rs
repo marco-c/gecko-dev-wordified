@@ -499,6 +499,10 @@ struct
 RenderTaskCacheKey
 {
 pub
+origin
+:
+DeviceIntPoint
+pub
 size
 :
 DeviceIntSize

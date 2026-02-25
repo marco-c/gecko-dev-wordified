@@ -1749,6 +1749,14 @@ Some
 (
 RenderTaskCacheKey
 {
+origin
+:
+DeviceIntPoint
+:
+:
+zero
+(
+)
 size
 kind
 :

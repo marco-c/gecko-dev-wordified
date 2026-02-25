@@ -2012,6 +2012,14 @@ Some
 (
 RenderTaskCacheKey
 {
+origin
+:
+DeviceIntPoint
+:
+:
+zero
+(
+)
 size
 :
 self
