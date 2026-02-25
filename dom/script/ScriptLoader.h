@@ -3033,6 +3033,13 @@ EmulateNetworkEvents
 ScriptLoadRequest
 *
 aRequest
+const
+Maybe
+<
+nsAutoString
+>
+&
+aCharsetForPreload
 )
 ;
 void
@@ -3041,6 +3048,13 @@ NotifyObserversForCachedScript
 ScriptLoadRequest
 *
 aRequest
+const
+Maybe
+<
+nsAutoString
+>
+&
+aCharsetForPreload
 )
 ;
 /

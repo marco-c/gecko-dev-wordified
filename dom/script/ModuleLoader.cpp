@@ -977,6 +977,9 @@ GetScriptLoader
 EmulateNetworkEvents
 (
 aRequest
+Nothing
+(
+)
 )
 ;
 SetModuleFetchStarted
