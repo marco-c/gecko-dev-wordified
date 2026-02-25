@@ -706,6 +706,11 @@ isRequired
 }
 ;
 }
+#
+flashMutationTimer
+=
+null
+;
 componentDidMount
 (
 )
@@ -915,11 +920,6 @@ flashValue
 ;
 }
 }
-#
-flashMutationTimer
-=
-null
-;
 scrollIntoView
 (
 )

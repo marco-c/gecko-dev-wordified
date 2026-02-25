@@ -628,6 +628,12 @@ false
 )
 }
 ;
+_menuRef
+=
+createRef
+(
+)
+;
 componentDidMount
 (
 )
@@ -662,12 +668,6 @@ onHasDeveloperOptionsPrefChanges
 )
 ;
 }
-_menuRef
-=
-createRef
-(
-)
-;
 onHasDeveloperOptionsPrefChanges
 =
 (
