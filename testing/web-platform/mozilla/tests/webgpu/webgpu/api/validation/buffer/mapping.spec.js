@@ -2744,7 +2744,9 @@ createBufferTracked
 {
 usage
 :
-0
+GPUBufferUsage
+.
+STORAGE
 size
 :
 bufferSize
