@@ -141,7 +141,7 @@ StateID
 /
 /
 A
-pairse
+pair
 of
 sparse
 sets
@@ -716,7 +716,7 @@ initial
 allocation
 cost
 is
-bareable
+bearable
 .
 However
 its
@@ -1123,7 +1123,7 @@ sparse
 set
 capacity
 cannot
-excced
+exceed
 {
 :
 ?
@@ -2000,13 +2000,8 @@ next
 (
 )
 .
-map
+copied
 (
-|
-&
-id
-|
-id
 )
 }
 }
