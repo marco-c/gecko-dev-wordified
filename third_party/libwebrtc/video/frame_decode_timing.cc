@@ -97,6 +97,11 @@ h
 #
 include
 <
+algorithm
+>
+#
+include
+<
 cstdint
 >
 #
@@ -379,9 +384,13 @@ nullopt
 ;
 }
 max_wait
-.
-Clamp
+=
+std
+:
+:
+clamp
 (
+max_wait
 TimeDelta
 :
 :
