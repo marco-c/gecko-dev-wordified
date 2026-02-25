@@ -5445,7 +5445,6 @@ if
 (
 kidBPosInThisFragment
 >
-=
 availBSize
 )
 {
@@ -13770,6 +13769,7 @@ NS_ASSERTION
 (
 availBSize
 >
+=
 0
 "
 Why
@@ -13779,7 +13779,6 @@ block
 -
 size
 <
-=
 0
 ?
 "
