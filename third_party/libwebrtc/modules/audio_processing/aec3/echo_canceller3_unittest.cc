@@ -7679,11 +7679,9 @@ NeuralResidualEchoEstimatorImpl
 void
 Estimate
 (
-ArrayView
-<
 const
-float
->
+Block
+&
 render
 ArrayView
 <

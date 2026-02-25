@@ -119,6 +119,9 @@ h
 namespace
 webrtc
 {
+class
+Block
+;
 /
 /
 Interface
@@ -292,12 +295,10 @@ virtual
 void
 Estimate
 (
-ArrayView
-<
 const
-float
->
-x
+Block
+&
+render
 ArrayView
 <
 const
