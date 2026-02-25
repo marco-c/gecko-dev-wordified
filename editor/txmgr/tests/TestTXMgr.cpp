@@ -174,7 +174,7 @@ int32_t
 *
 sDoOrderArr
 =
-0
+nullptr
 ;
 static
 int32_t
@@ -187,7 +187,7 @@ int32_t
 *
 sUndoOrderArr
 =
-0
+nullptr
 ;
 static
 int32_t
@@ -200,7 +200,7 @@ int32_t
 *
 sRedoOrderArr
 =
-0
+nullptr
 ;
 int32_t
 sSimpleTestDoOrderArr
@@ -4263,7 +4263,7 @@ sDoCount
 ;
 sDoOrderArr
 =
-0
+nullptr
 ;
 sUndoCount
 =
@@ -4271,7 +4271,7 @@ sUndoCount
 ;
 sUndoOrderArr
 =
-0
+nullptr
 ;
 sRedoCount
 =
@@ -4279,7 +4279,7 @@ sRedoCount
 ;
 sRedoOrderArr
 =
-0
+nullptr
 ;
 }
 /

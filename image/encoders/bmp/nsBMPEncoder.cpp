@@ -206,7 +206,7 @@ nullptr
 )
 mImageBufferCurr
 (
-0
+nullptr
 )
 mImageBufferSize
 (

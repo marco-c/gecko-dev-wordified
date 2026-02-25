@@ -2321,7 +2321,7 @@ char
 *
 )
 =
-0
+nullptr
 ;
 bool
 RunningGTest
@@ -33788,7 +33788,7 @@ PR_CreateThread
 (
 PR_USER_THREAD
 AnnotateLSBRelease
-0
+nullptr
 PR_PRIORITY_LOW
 PR_GLOBAL_THREAD
 PR_UNJOINABLE_THREAD
@@ -39692,7 +39692,7 @@ tests
 setbuf
 (
 stdout
-0
+nullptr
 )
 ;
 }

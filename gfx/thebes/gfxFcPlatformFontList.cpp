@@ -19033,7 +19033,7 @@ nsGkAtoms
 :
 :
 Unicode
-0
+nullptr
 }
 /
 /

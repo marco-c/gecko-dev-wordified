@@ -2480,7 +2480,7 @@ default
 setbuf
 (
 stdout
-0
+nullptr
 )
 ;
 AutoSafeJSContext

@@ -911,7 +911,7 @@ k
 .
 reset
 (
-0
+nullptr
 )
 ;
 moveCount

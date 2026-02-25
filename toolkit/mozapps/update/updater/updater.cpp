@@ -5032,7 +5032,7 @@ dir
 )
 !
 =
-0
+nullptr
 )
 {
 if
@@ -6703,7 +6703,7 @@ dir
 )
 !
 =
-0
+nullptr
 )
 {
 if
@@ -14427,7 +14427,7 @@ F_OK
 {
 mTestFile
 =
-NULL
+nullptr
 ;
 return
 OK
@@ -35268,7 +35268,7 @@ rb
 )
 !
 =
-0
+nullptr
 )
 {
 /
@@ -35728,7 +35728,7 @@ rb
 )
 !
 =
-0
+nullptr
 )
 {
 /

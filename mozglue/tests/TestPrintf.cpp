@@ -1498,7 +1498,7 @@ p
 char
 *
 )
-0
+nullptr
 )
 )
 ;

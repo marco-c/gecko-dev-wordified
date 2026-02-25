@@ -1031,7 +1031,7 @@ MOZ_APP_LAUNCH_CONTEXT
 g_object_new
 (
 MOZ_TYPE_APP_LAUNCH_CONTEXT
-NULL
+nullptr
 )
 )
 ;
@@ -2842,7 +2842,7 @@ GList
 uris
 =
 {
-0
+nullptr
 }
 ;
 nsCString
