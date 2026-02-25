@@ -1370,10 +1370,6 @@ ice_transport_state_changed_trampoline_
 (
 this
 )
-destroyed_trampoline_
-(
-this
-)
 {
 }
 IceTransportInternal
