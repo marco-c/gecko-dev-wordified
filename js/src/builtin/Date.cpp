@@ -6179,10 +6179,10 @@ MOZ_ASSERT
 0
 <
 =
-minute
+second
 &
 &
-minute
+second
 <
 SecondsPerMinute
 )
