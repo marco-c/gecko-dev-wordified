@@ -821,7 +821,7 @@ HangMode
 mode
 \
 [
-=
+this
 ]
 (
 bool
