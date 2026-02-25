@@ -23638,7 +23638,7 @@ l10nId
 "
 permissions
 -
-header2
+header3
 "
 headingLevel
 :
@@ -24637,7 +24637,7 @@ popups
 -
 exceptions
 -
-button2
+button3
 "
 control
 :
@@ -24699,7 +24699,7 @@ addon
 -
 install
 -
-warning2
+warning3
 "
 items
 :
