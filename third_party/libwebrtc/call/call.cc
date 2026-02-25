@@ -7728,6 +7728,17 @@ GetCongestionControllerStatsPerSsrc
 (
 )
 ;
+stats
+.
+received_ccfb_stats_per_ssrc
+=
+transport_send_
+-
+>
+GetCongestionControlFeedbackStatsPerSsrc
+(
+)
+;
 return
 stats
 ;
