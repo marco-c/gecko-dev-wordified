@@ -528,6 +528,16 @@ SetBadge
 )
 ;
 void
+SetTitle
+(
+)
+;
+void
+SetAttributedTitle
+(
+)
+;
+void
 SetChecked
 (
 )
