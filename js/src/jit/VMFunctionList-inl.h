@@ -512,15 +512,6 @@ AddOrUpdateSparseElementHelper
 \
 _
 (
-AddSlotAndCallAddPropHook
-js
-:
-:
-AddSlotAndCallAddPropHook
-)
-\
-_
-(
 ArgumentsObjectCreateForInlinedIon
 \
 js
