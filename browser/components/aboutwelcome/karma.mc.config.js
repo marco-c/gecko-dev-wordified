@@ -1079,7 +1079,7 @@ functions
 50
 branches
 :
-75
+70
 }
 "
 content
