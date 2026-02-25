@@ -7184,7 +7184,6 @@ allRAIIGuardedCallPoints
 typeInfo
 functionBodies
 body
-isLimitConstructor
 )
 )
 {
