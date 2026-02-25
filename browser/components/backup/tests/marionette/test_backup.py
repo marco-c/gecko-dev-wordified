@@ -1674,7 +1674,6 @@ recoveryCode
 false
 recoveryPath
 newProfileRootPath
-true
 )
 ;
             

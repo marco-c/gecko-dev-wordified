@@ -398,7 +398,6 @@ passwordToUse
 false
 testBackupDirPath
 recoveredProfilePath
-true
 )
 err
 =
@@ -465,11 +464,6 @@ extra
 restore_id
 :
 restoreID
-replace
-:
-"
-true
-"
 }
 "
 Restore
