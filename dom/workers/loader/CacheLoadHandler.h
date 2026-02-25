@@ -846,10 +846,6 @@ const
 nsACString
 &
 aReferrerPolicyHeaderValue
-const
-nsACString
-&
-aReportingEndpointsHeaderValue
 )
 ;
 nsresult
@@ -927,9 +923,6 @@ mCSPReportOnlyHeaderValue
 ;
 nsCString
 mReferrerPolicyHeaderValue
-;
-nsCString
-mReportingEndpointsHeaderValue
 ;
 nsCOMPtr
 <
