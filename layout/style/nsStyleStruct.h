@@ -10627,6 +10627,12 @@ mAnchorScope
 mozilla
 :
 :
+StyleScopedName
+mTimelineScope
+;
+mozilla
+:
+:
 Maybe
 <
 mozilla
