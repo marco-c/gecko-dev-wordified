@@ -2753,7 +2753,14 @@ IsEmpty
 &
 curConfig
 .
-unwrap
+isOk
+(
+)
+&
+&
+curConfig
+.
+inspect
 (
 )
 .
