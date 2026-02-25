@@ -1609,6 +1609,8 @@ preserve
 /
 a
 Copy
+and
+Move
 operator
 .
 /
@@ -1657,7 +1659,7 @@ Network
 &
 )
 =
-delete
+default
 ;
 Network
 &
