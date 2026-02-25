@@ -454,9 +454,9 @@ SentPacketInfo
 callback
 )
 {
-sent_packet_trampoline_
+sent_packet_callbacks_
 .
-Subscribe
+AddReceiver
 (
 tag
 std
