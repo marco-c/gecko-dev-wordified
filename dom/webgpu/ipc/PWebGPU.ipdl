@@ -557,6 +557,8 @@ UncapturedError
 (
 RawId
 aDeviceId
+GPUErrorFilter
+type
 nsCString
 message
 )
