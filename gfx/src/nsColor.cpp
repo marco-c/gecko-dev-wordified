@@ -164,13 +164,6 @@ etc
 #
 include
 "
-nsStaticNameTable
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
