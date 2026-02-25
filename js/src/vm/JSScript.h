@@ -11943,9 +11943,8 @@ PrivateScriptData
 other
 )
 ;
-PrivateScriptData
-*
-releaseData
+void
+freeData
 (
 )
 ;
