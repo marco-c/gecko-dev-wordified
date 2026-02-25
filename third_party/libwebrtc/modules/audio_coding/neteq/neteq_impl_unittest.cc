@@ -11436,6 +11436,9 @@ CrashWith1000Channels
 {
 EXPECT_DEATH
 (
+(
+void
+)
 std
 :
 :
