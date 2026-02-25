@@ -187,6 +187,11 @@ ScriptTrace
 h
 "
 "
+ShadowRealmGlobalScope
+.
+h
+"
+"
 SharedScriptCache
 .
 h
@@ -243,6 +248,11 @@ cpp
 "
 "
 ScriptTrace
+.
+cpp
+"
+"
+ShadowRealmGlobalScope
 .
 cpp
 "

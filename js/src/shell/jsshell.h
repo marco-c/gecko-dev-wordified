@@ -750,6 +750,10 @@ enableIteratorHelpers
 ;
 extern
 bool
+enableShadowRealms
+;
+extern
+bool
 enableArrayGrouping
 ;
 extern
