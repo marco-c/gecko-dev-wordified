@@ -180,9 +180,7 @@ const
 win
 =
 await
-BrowserTestUtils
-.
-openNewBrowserWindow
+openAIWindow
 (
 )
 ;
