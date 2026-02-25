@@ -783,12 +783,6 @@ config
 )
 )
 ;
-data_dumper_
-.
-InitiateNewSetOfRecordings
-(
-)
-;
 if
 (
 config

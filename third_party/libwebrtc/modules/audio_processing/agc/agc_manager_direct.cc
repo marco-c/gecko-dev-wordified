@@ -3618,13 +3618,6 @@ AgcManagerDirect
 Initialize
 "
 ;
-data_dumper_
--
->
-InitiateNewSetOfRecordings
-(
-)
-;
 for
 (
 size_t
