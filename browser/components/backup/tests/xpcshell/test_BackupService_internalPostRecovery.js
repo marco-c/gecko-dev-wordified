@@ -263,7 +263,6 @@ null
 false
 testBackupDirPath
 recoveredProfilePath
-true
 )
 ;
 /
