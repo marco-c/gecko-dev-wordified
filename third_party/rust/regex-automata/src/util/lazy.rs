@@ -1226,7 +1226,7 @@ so
 we
 hedge
 until
-someone
+somone
 /
 /
 can

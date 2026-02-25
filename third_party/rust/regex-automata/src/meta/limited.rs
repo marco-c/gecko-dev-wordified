@@ -798,7 +798,6 @@ trace
 reached
 position
 {
-at
 }
 which
 is
@@ -814,6 +813,7 @@ avoid
 quadratic
 behavior
 "
+at
 )
 ;
 return
@@ -1191,7 +1191,6 @@ search
 at
 offset
 {
-at
 }
 without
 hitting
@@ -1207,6 +1206,7 @@ false
 positive
 match
 "
+at
 )
 ;
 return
@@ -1563,7 +1563,6 @@ trace
 reached
 position
 {
-at
 }
 which
 is
@@ -1579,6 +1578,7 @@ avoid
 quadratic
 behavior
 "
+at
 )
 ;
 return
@@ -1687,7 +1687,6 @@ search
 at
 offset
 {
-at
 }
 without
 hitting
@@ -1703,6 +1702,7 @@ false
 positive
 match
 "
+at
 )
 ;
 return

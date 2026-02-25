@@ -2555,7 +2555,7 @@ enabled
 verbose
 mode
 permits
-insignificant
+insigificant
 whitespace
 in
 many

@@ -501,7 +501,7 @@ the
 following
 /
 /
-overlapping
+overlappings
 can
 occur
 :
@@ -751,7 +751,7 @@ sentinel
 to
 /
 /
-distinguish
+distguish
 between
 whether
 a
