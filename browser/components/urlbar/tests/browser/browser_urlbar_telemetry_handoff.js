@@ -1013,9 +1013,7 @@ Example
 source
 :
 "
-urlbar
--
-handoff
+urlbar_handoff
 "
 count
 :
