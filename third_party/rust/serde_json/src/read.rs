@@ -7581,7 +7581,7 @@ of
 /
 allocated
 but
-unintialized
+uninitialized
 memory
 after
 its

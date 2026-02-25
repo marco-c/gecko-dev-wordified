@@ -2799,9 +2799,9 @@ test
 name
 :
 {
+name
 }
 "
-name
 )
 )
 }
