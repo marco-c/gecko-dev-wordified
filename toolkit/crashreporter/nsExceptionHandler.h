@@ -349,6 +349,10 @@ ProcessHandle
 ;
 typedef
 DWORD
+ProcessId
+;
+typedef
+DWORD
 ThreadId
 ;
 typedef
@@ -372,6 +376,10 @@ task_t
 ProcessHandle
 ;
 typedef
+pid_t
+ProcessId
+;
+typedef
 mach_port_t
 ThreadId
 ;
@@ -391,6 +399,10 @@ else
 typedef
 int
 ProcessHandle
+;
+typedef
+pid_t
+ProcessId
 ;
 typedef
 int
@@ -1420,7 +1432,7 @@ was
 found
 for
 |
-aChildID
+childPid
 |
 and
 return
@@ -1470,8 +1482,8 @@ aAnnotations
 bool
 TakeMinidumpForChild
 (
-GeckoChildID
-aChildID
+ProcessId
+childPid
 nsIFile
 *
 *
@@ -1492,7 +1504,7 @@ was
 found
 for
 |
-aChildID
+childPid
 |
 then
 write
@@ -1560,9 +1572,9 @@ yet
 *
 *
 param
-aChildID
+aChildPid
 The
-id
+pid
 of
 the
 crashed
@@ -1600,8 +1612,8 @@ nodiscard
 bool
 FinalizeOrphanedMinidump
 (
-GeckoChildID
-aChildID
+ProcessId
+aChildPid
 GeckoProcessType
 aType
 nsString
