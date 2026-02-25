@@ -355,6 +355,10 @@ ContentClassifierService
 >
 sInstance
 ;
+static
+bool
+sEnabled
+;
 mozilla
 :
 :
