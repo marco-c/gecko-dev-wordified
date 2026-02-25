@@ -852,6 +852,10 @@ start
 .
 end
 ]
+.
+trim
+(
+)
 )
 ;
 p
