@@ -965,14 +965,6 @@ EncoderSpeedController
 :
 EncodeResults
 results
-std
-:
-:
-optional
-<
-EncodeResults
->
-baseline_results
 )
 {
 double
