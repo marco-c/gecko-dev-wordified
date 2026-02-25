@@ -2137,8 +2137,6 @@ AsTimeline
 (
 )
 .
-value
-.
 AsAtom
 (
 )
