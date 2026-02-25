@@ -582,10 +582,10 @@ observer
 LegacyStatsCollectorInterface
 *
 legacy_stats
-std
+absl
 :
 :
-function
+AnyInvocable
 <
 void
 (
@@ -1992,10 +1992,10 @@ LegacyStatsCollectorInterface
 const
 legacy_stats_
 ;
-std
+absl
 :
 :
-function
+AnyInvocable
 <
 void
 (
