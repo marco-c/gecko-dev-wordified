@@ -725,6 +725,9 @@ aId
 )
 {
 case
+eCSSProperty_font_stretch
+:
+case
 eCSSProperty_column_width
 :
 case
