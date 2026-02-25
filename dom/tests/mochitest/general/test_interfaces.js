@@ -3595,9 +3595,6 @@ true
 nightly
 :
 true
-android
-:
-false
 }
 /
 /
