@@ -1518,6 +1518,7 @@ callees
 function
 getCallees
 (
+typeInfo
 body
 edge
 scopeAttrs
@@ -1672,6 +1673,7 @@ edgeInfo
 =
 getCallEdgeProperties
 (
+typeInfo
 body
 edge
 callee
