@@ -806,13 +806,10 @@ dependencies
 .
 speech_level_estimator_
 =
-std
-:
-:
-make_unique
-<
 SpeechLevelEstimator
->
+:
+:
+Create
 (
 &
 data_dumper_
@@ -1413,7 +1410,7 @@ is_confident
 speech_level_estimator_
 -
 >
-is_confident
+IsConfident
 (
 )
 .
@@ -1422,7 +1419,7 @@ rms_dbfs
 speech_level_estimator_
 -
 >
-level_dbfs
+GetLevelDbfs
 (
 )
 }
