@@ -1391,6 +1391,15 @@ mSPSCQueue
 40
 }
 ;
+std
+:
+:
+thread
+:
+:
+id
+mProducerThreadId
+;
 /
 /
 When
