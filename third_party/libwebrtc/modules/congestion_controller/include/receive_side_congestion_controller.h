@@ -126,6 +126,15 @@ include
 "
 api
 /
+rtp_parameters
+.
+h
+"
+#
+include
+"
+api
+/
 sequence_checker
 .
 h
@@ -354,8 +363,10 @@ override
 default
 ;
 void
-EnableSendCongestionControlFeedbackAccordingToRfc8888
+SetPreferredRtcpCcAckType
 (
+RtcpFeedbackType
+preferred_rtcp_cc_ack_type
 )
 ;
 void
