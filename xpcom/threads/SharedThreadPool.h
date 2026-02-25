@@ -755,7 +755,6 @@ nsIThreadPool
 aPool
 )
 ;
-virtual
 ~
 SharedThreadPool
 (
