@@ -900,7 +900,7 @@ has
 been
 read
 .
-SignalReadEvent
+NotifyReadEvent
 (
 this
 )

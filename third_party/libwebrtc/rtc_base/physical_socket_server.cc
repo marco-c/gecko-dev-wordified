@@ -6651,7 +6651,7 @@ DisableEvents
 DE_ACCEPT
 )
 ;
-SignalReadEvent
+NotifyReadEvent
 (
 this
 )
@@ -6674,7 +6674,7 @@ DisableEvents
 DE_READ
 )
 ;
-SignalReadEvent
+NotifyReadEvent
 (
 this
 )
@@ -6697,7 +6697,7 @@ DisableEvents
 DE_WRITE
 )
 ;
-SignalWriteEvent
+NotifyWriteEvent
 (
 this
 )

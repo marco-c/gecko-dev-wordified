@@ -307,7 +307,7 @@ ready_to_send
 ;
 socket_ref
 .
-SignalWriteEvent
+NotifyWriteEvent
 (
 &
 socket_ref

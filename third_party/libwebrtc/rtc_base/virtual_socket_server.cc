@@ -1358,7 +1358,7 @@ return
 }
 socket_
 .
-SignalReadEvent
+NotifyReadEvent
 (
 &
 socket_
@@ -2634,7 +2634,7 @@ packet
 socket
 -
 >
-SignalReadEvent
+NotifyReadEvent
 (
 socket
 )
@@ -2897,7 +2897,7 @@ safety
 >
 socket_
 .
-SignalReadEvent
+NotifyReadEvent
 (
 &
 safety
@@ -3885,7 +3885,7 @@ ready_to_send_
 =
 true
 ;
-SignalWriteEvent
+NotifyWriteEvent
 (
 this
 )
@@ -4086,7 +4086,7 @@ ready_to_send_
 =
 true
 ;
-SignalWriteEvent
+NotifyWriteEvent
 (
 this
 )
