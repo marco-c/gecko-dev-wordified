@@ -2275,6 +2275,10 @@ RUNTIME_LICENSE_WHITELIST
 [
         
 "
+0BSD
+"
+        
+"
 Apache
 -
 2
