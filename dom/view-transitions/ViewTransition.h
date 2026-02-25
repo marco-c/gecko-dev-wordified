@@ -315,6 +315,7 @@ PendingCapture
 0
 UpdateCallbackCalled
 Animating
+PendingDone
 Done
 }
 ;
@@ -427,6 +428,11 @@ JS
 MOZ_CAN_RUN_SCRIPT
 void
 PerformPendingOperations
+(
+)
+;
+void
+FinishDone
 (
 )
 ;
