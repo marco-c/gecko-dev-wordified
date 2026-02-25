@@ -7198,16 +7198,6 @@ annotation
 .
 AnyThread
 "
-        
-"
-org
-.
-mozilla
-.
-geckoview
-.
-HandlerThread
-"
     
 ]
     
@@ -7320,12 +7310,11 @@ of
 MainThread
 UiThread
 WorkerThread
+BinderThread
 "
                 
 "
-BinderThread
 AnyThread
-HandlerThread
 .
 "
             
