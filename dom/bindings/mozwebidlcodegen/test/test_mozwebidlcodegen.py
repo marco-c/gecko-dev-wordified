@@ -54,8 +54,6 @@ MPL
 /
 .
 import
-json
-import
 os
 import
 shutil
@@ -75,6 +73,7 @@ from
 mozfile
 import
 NamedTemporaryFile
+json
 load_source
 from
 mozunit

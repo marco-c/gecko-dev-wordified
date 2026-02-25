@@ -39,8 +39,6 @@ sys
 import
 re
 import
-json
-import
 shutil
 from
 optparse
@@ -54,6 +52,10 @@ dom
 minidom
 import
 parse
+from
+mozfile
+import
+json
 if
 sys
 .

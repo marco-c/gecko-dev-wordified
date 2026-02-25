@@ -60,6 +60,12 @@ json
 import
 requests
 from
+mozfile
+import
+json
+as
+mozfile_json
+from
 qm_try_analysis
 .
 logging
@@ -83,7 +89,7 @@ FileName
     
 p
 =
-json
+mozfile_json
 .
 load
 (

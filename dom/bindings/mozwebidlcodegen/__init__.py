@@ -75,8 +75,6 @@ errno
 import
 hashlib
 import
-json
-import
 logging
 import
 os
@@ -123,6 +121,10 @@ util
 import
 FileAvoidWrite
 cpu_count
+from
+mozfile
+import
+json
 #
 There
 are
