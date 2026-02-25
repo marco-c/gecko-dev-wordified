@@ -9050,7 +9050,7 @@ void
 nsPresContext
 :
 :
-UpdateTopInnerSizeForRFP
+UpdateInnerSizeSpoofedForRFP
 (
 )
 {
@@ -9204,7 +9204,7 @@ GetBrowsingContext
 )
 -
 >
-SetTopInnerSizeForRFP
+SetInnerSizeSpoofedForRFP
 (
 CSSIntSize
 {
@@ -17862,7 +17862,7 @@ JustThisDocument
 )
 ;
 }
-UpdateTopInnerSizeForRFP
+UpdateInnerSizeSpoofedForRFP
 (
 )
 ;

@@ -3213,7 +3213,7 @@ aInRDMPane
 )
 ;
 void
-UpdateTopInnerSizeForRFP
+UpdateInnerSizeSpoofedForRFP
 (
 )
 ;

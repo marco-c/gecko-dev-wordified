@@ -4115,7 +4115,7 @@ size
 bc
 -
 >
-GetTopInnerSizeForRFP
+TopInnerSizeSpoofedForRFP
 (
 )
 ;
@@ -4206,7 +4206,7 @@ size
 bc
 -
 >
-GetTopInnerSizeForRFP
+TopInnerSizeSpoofedForRFP
 (
 )
 ;
@@ -4320,7 +4320,7 @@ size
 bc
 -
 >
-GetTopInnerSizeForRFP
+TopInnerSizeSpoofedForRFP
 (
 )
 ;
@@ -4437,7 +4437,7 @@ size
 bc
 -
 >
-GetTopInnerSizeForRFP
+TopInnerSizeSpoofedForRFP
 (
 )
 ;

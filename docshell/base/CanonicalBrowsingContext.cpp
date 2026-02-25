@@ -1815,9 +1815,9 @@ GetForceOffline
 ;
 txn
 .
-SetTopInnerSizeForRFP
+SetInnerSizeSpoofedForRFP
 (
-GetTopInnerSizeForRFP
+GetInnerSizeSpoofedForRFP
 (
 )
 )
