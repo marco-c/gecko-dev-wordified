@@ -75,11 +75,12 @@ OTEL_SDK_DISABLED
 "
 ;
 bool
-exists
-;
-bool
 value
+{
+}
 ;
+const
+bool
 exists
 =
 GetBoolEnvironmentVariable
