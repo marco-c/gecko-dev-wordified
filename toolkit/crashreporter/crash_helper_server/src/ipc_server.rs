@@ -756,7 +756,6 @@ SetCrashReportPath
 :
 decode
 (
-&
 data
 ancillary_data
 )
@@ -793,7 +792,6 @@ TransferMinidump
 :
 decode
 (
-&
 data
 ancillary_data
 )
@@ -857,7 +855,6 @@ RegisterChildProcess
 :
 decode
 (
-&
 data
 ancillary_data
 )
@@ -1037,7 +1034,6 @@ RegisterAuxvInfo
 :
 decode
 (
-&
 data
 ancillary_data
 )
@@ -1092,7 +1088,6 @@ UnregisterAuxvInfo
 :
 decode
 (
-&
 data
 ancillary_data
 )
@@ -1200,7 +1195,6 @@ WindowsErrorReportingMinidump
 :
 decode
 (
-&
 data
 ancillary_data
 )
