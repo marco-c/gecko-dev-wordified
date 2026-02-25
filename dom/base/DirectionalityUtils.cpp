@@ -1802,6 +1802,8 @@ GetContainingShadow
 )
 )
 {
+if
+(
 Element
 *
 host
@@ -1812,12 +1814,8 @@ sr
 GetHost
 (
 )
-;
-MOZ_ASSERT
-(
-host
 )
-;
+{
 return
 host
 -
@@ -1826,6 +1824,7 @@ GetDirectionality
 (
 )
 ;
+}
 }
 }
 /
