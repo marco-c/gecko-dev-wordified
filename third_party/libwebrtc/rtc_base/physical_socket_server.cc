@@ -5653,7 +5653,7 @@ signal_close_
 =
 false
 ;
-SignalCloseEvent
+NotifyCloseEvent
 (
 this
 signal_err_
@@ -6324,7 +6324,7 @@ ToString
 ;
 #
 endif
-SignalConnectEvent
+NotifyConnectEvent
 (
 this
 )
@@ -6357,7 +6357,7 @@ DisableEvents
 DE_ACCEPT
 )
 ;
-SignalReadEvent
+NotifyReadEvent
 (
 this
 )
@@ -6380,7 +6380,7 @@ DisableEvents
 DE_READ
 )
 ;
-SignalReadEvent
+NotifyReadEvent
 (
 this
 )
@@ -6413,7 +6413,7 @@ DisableEvents
 DE_WRITE
 )
 ;
-SignalWriteEvent
+NotifyWriteEvent
 (
 this
 )
