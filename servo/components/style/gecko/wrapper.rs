@@ -8642,8 +8642,6 @@ _base
 .
 mContainingShadow
 .
-mRawPtr
-.
 as_ref
 (
 )
