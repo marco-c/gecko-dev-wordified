@@ -5042,7 +5042,11 @@ conversation
 getRealTimeInfo
 (
 mockEngineInstance
+{
+getRealTimeMapping
+:
 mockGetRealTimeMapping
+}
 )
 ;
 Assert
@@ -5174,7 +5178,11 @@ conversation
 getRealTimeInfo
 (
 mockEngineInstance
+{
+getRealTimeMapping
+:
 mockGetRealTimeMapping
+}
 )
 ;
 Assert
