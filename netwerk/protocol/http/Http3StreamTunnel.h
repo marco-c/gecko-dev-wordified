@@ -571,11 +571,6 @@ Http3TransportLayer
 >
 mTransport
 ;
-bool
-mClosed
-=
-false
-;
 SimpleBuffer
 mSimpleBuffer
 ;

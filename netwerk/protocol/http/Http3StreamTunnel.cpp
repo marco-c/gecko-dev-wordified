@@ -4752,6 +4752,10 @@ aReason
 if
 (
 mSession
+&
+&
+!
+mClosed
 )
 {
 LOG
