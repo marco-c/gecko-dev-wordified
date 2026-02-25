@@ -20334,6 +20334,23 @@ retry
 "
 )
         
+try_again_kwargs
+=
+kwargs
+.
+copy
+(
+)
+        
+try_again_kwargs
+[
+"
+retry
+"
+]
+=
+False
+        
 for
 test_object
 in
@@ -20349,10 +20366,6 @@ testClass
                 
 test_object
                 
-retry
-=
-False
-                
 verbose
 =
 self
@@ -20365,7 +20378,7 @@ mobileArgs
                 
 *
 *
-kwargs
+try_again_kwargs
             
 )
             
