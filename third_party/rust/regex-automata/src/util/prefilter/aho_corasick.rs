@@ -365,7 +365,7 @@ DFA
 .
 Otherwise
 we
-wimp
+whimp
 out
 and
 use
@@ -677,9 +677,9 @@ to
 build
 :
 {
-_err
 }
 "
+_err
 )
 ;
 return

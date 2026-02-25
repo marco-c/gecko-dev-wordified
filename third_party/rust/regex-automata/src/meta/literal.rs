@@ -515,11 +515,11 @@ expected
 literal
 got
 {
-e
 :
 ?
 }
 "
+e
 )
 }
 }
@@ -537,11 +537,11 @@ or
 concat
 got
 {
-alt
 :
 ?
 }
 "
+alt
 )
 }
 lits

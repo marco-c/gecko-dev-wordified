@@ -4588,6 +4588,7 @@ an
 error
 when
 the
+the
 /
 /
 /
@@ -6792,7 +6793,7 @@ bool
 This
 used
 to
-use
+luse
 LookSet
 :
 :
@@ -6813,7 +6814,7 @@ proved
 to
 be
 quite
-disastrous
+diastrous
 for
 perf
 .
@@ -9497,7 +9498,7 @@ UTF
 decoding
 twice
 .
-Ouch
+Owch
 .
 We
 could
