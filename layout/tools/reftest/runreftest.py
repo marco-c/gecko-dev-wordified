@@ -8244,6 +8244,29 @@ getGtkTheme
 return
 1
             
+manifest_id
+=
+tests
+[
+0
+]
+[
+"
+manifestID
+"
+]
+            
+self
+.
+log
+.
+group_start
+(
+name
+=
+manifest_id
+)
+            
 self
 .
 log
@@ -8281,6 +8304,17 @@ overall
 overall
 or
 status
+            
+self
+.
+log
+.
+group_end
+(
+name
+=
+manifest_id
+)
         
 if
 status
