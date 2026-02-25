@@ -71219,6 +71219,14 @@ load
 "
 )
 ;
+NS_ENSURE_TRUE
+(
+VerifyDocumentViewer
+(
+)
+NS_ERROR_FAILURE
+)
+;
 nsCOMPtr
 <
 nsIURILoader
