@@ -34055,7 +34055,7 @@ IsInComposedDoc
 )
 )
 {
-NotifyUAWidgetTeardown
+TeardownUAShadowRoot
 (
 )
 ;

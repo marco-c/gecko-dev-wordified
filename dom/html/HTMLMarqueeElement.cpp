@@ -474,8 +474,12 @@ a
 slot
 >
 .
-NotifyUAWidgetTeardown
+TeardownUAShadowRoot
 (
+NotifyUAWidget
+:
+:
+Yes
 UnattachShadowRoot
 :
 :

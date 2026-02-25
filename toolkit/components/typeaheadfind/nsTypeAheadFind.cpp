@@ -2664,9 +2664,6 @@ editor
 if
 (
 RefPtr
-<
-HTMLInputElement
->
 input
 =
 HTMLInputElement
@@ -2692,9 +2689,6 @@ else
 if
 (
 RefPtr
-<
-HTMLTextAreaElement
->
 textarea
 =
 HTMLTextAreaElement
@@ -2723,7 +2717,7 @@ node
 node
 -
 >
-GetParentNode
+GetParentOrShadowHostNode
 (
 )
 ;

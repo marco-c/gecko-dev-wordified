@@ -230,7 +230,7 @@ h
 #
 include
 "
-nsIContent
+nsIContentInlines
 .
 h
 "
@@ -1752,7 +1752,7 @@ content
 content
 -
 >
-GetParent
+GetFlattenedTreeParent
 (
 )
 )

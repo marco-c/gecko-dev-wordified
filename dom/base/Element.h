@@ -10315,7 +10315,7 @@ attached
 .
 enum
 class
-NotifyUAWidgetSetup
+NotifyUAWidget
 :
 bool
 {
@@ -10326,9 +10326,9 @@ Yes
 void
 AttachAndSetUAShadowRoot
 (
-NotifyUAWidgetSetup
+NotifyUAWidget
 =
-NotifyUAWidgetSetup
+NotifyUAWidget
 :
 :
 Yes
@@ -10367,6 +10367,8 @@ NotifyUAWidgetSetupOrChange
 enum
 class
 UnattachShadowRoot
+:
+bool
 {
 No
 Yes
@@ -10394,8 +10396,14 @@ shadow
 root
 .
 void
-NotifyUAWidgetTeardown
+TeardownUAShadowRoot
 (
+NotifyUAWidget
+=
+NotifyUAWidget
+:
+:
+Yes
 UnattachShadowRoot
 =
 UnattachShadowRoot

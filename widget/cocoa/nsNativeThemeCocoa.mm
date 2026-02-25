@@ -173,13 +173,6 @@ h
 #
 include
 "
-nsNumberControlFrame
-.
-h
-"
-#
-include
-"
 nsRect
 .
 h
