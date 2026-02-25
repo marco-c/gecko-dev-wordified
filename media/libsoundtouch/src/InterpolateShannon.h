@@ -579,6 +579,7 @@ int
 &
 srcSamples
 )
+override
 ;
 int
 transposeStereo
@@ -594,6 +595,7 @@ int
 &
 srcSamples
 )
+override
 ;
 int
 transposeMulti
@@ -609,6 +611,7 @@ int
 &
 srcSamples
 )
+override
 ;
 double
 fract
@@ -623,12 +626,15 @@ void
 resetRegisters
 (
 )
+override
 ;
+virtual
 int
 getLatency
 (
 )
 const
+override
 {
 return
 3

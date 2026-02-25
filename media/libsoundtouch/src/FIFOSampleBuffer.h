@@ -907,6 +907,7 @@ destructor
 FIFOSampleBuffer
 (
 )
+override
 ;
 /
 /
@@ -998,6 +999,7 @@ SAMPLETYPE
 ptrBegin
 (
 )
+override
 ;
 /
 /
@@ -1225,6 +1227,7 @@ to
 insert
 .
 )
+override
 ;
 /
 /
@@ -1406,6 +1409,7 @@ at
 max
 .
 )
+override
 ;
 /
 /
@@ -1488,6 +1492,7 @@ of
 pipe
 .
 )
+override
 ;
 /
 /
@@ -1505,6 +1510,7 @@ numSamples
 (
 )
 const
+override
 ;
 /
 /
@@ -1565,6 +1571,7 @@ isEmpty
 (
 )
 const
+override
 ;
 /
 /
@@ -1579,6 +1586,7 @@ void
 clear
 (
 )
+override
 ;
 /
 /
@@ -1608,6 +1616,7 @@ adjustAmountOfSamples
 uint
 numSamples
 )
+override
 ;
 /
 /

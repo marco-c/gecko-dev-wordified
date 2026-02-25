@@ -1532,14 +1532,11 @@ transposeMulti
 (
 SAMPLETYPE
 *
-pdest
 const
 SAMPLETYPE
 *
-psrc
 int
 &
-srcSamples
 )
 {
 /

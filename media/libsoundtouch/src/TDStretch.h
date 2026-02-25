@@ -1413,6 +1413,7 @@ virtual
 TDStretch
 (
 )
+override
 ;
 /
 /
@@ -1612,6 +1613,7 @@ void
 clear
 (
 )
+override
 ;
 /
 /
@@ -1867,7 +1869,7 @@ this
 function
 can
 be
-NULL
+nullptr
 in
 such
 case
@@ -1969,6 +1971,7 @@ channels
 if
 stereo
 )
+override
 ;
 /
 /
@@ -2098,6 +2101,7 @@ double
 &
 norm
 )
+override
 ;
 double
 calcCrossCorrAccumulate
@@ -2114,6 +2118,7 @@ double
 &
 norm
 )
+override
 ;
 virtual
 void
@@ -2128,12 +2133,14 @@ short
 input
 )
 const
+override
 ;
 virtual
 void
 clearCrossCorrState
 (
 )
+override
 ;
 }
 ;
@@ -2184,6 +2191,7 @@ double
 &
 norm
 )
+override
 ;
 double
 calcCrossCorrAccumulate
@@ -2200,6 +2208,7 @@ double
 &
 norm
 )
+override
 ;
 }
 ;

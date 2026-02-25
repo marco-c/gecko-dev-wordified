@@ -952,6 +952,7 @@ virtual
 RateTransposer
 (
 )
+override
 ;
 /
 /
@@ -1124,6 +1125,7 @@ samples
 uint
 numSamples
 )
+override
 ;
 /
 /
@@ -1139,6 +1141,7 @@ void
 clear
 (
 )
+override
 ;
 /
 /
@@ -1161,6 +1164,7 @@ isEmpty
 (
 )
 const
+override
 ;
 /
 /

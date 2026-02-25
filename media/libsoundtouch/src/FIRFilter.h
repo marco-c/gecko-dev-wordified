@@ -589,15 +589,6 @@ resultDivFactor
 ;
 /
 /
-Result
-divider
-value
-.
-SAMPLETYPE
-resultDivider
-;
-/
-/
 Memory
 for
 filter
@@ -880,6 +871,7 @@ uint
 numSamples
 )
 const
+override
 ;
 public
 :
@@ -905,6 +897,7 @@ newLength
 uint
 uResultDivFactor
 )
+override
 ;
 }
 ;
@@ -963,6 +956,7 @@ uint
 numSamples
 )
 const
+override
 ;
 public
 :
@@ -988,6 +982,7 @@ newLength
 uint
 uResultDivFactor
 )
+override
 ;
 }
 ;

@@ -543,6 +543,7 @@ int
 &
 srcSamples
 )
+override
 ;
 virtual
 int
@@ -559,6 +560,7 @@ int
 &
 srcSamples
 )
+override
 ;
 virtual
 int
@@ -575,6 +577,7 @@ int
 &
 srcSamples
 )
+override
 ;
 public
 :
@@ -615,18 +618,22 @@ setRate
 double
 newRate
 )
+override
 ;
 virtual
 void
 resetRegisters
 (
 )
+override
 ;
+virtual
 int
 getLatency
 (
 )
 const
+override
 {
 return
 0

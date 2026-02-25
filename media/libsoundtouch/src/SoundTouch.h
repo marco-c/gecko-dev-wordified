@@ -935,7 +935,9 @@ SOUNDTOUCH_VERSION
 "
 2
 .
-2
+4
+.
+0
 "
 /
 /
@@ -948,7 +950,7 @@ id
 define
 SOUNDTOUCH_VERSION_ID
 (
-20200
+20400
 )
 /
 /
@@ -2055,6 +2057,7 @@ virtual
 SoundTouch
 (
 )
+override
 ;
 /
 /
@@ -2790,6 +2793,7 @@ both
 channels
 .
 )
+override
 ;
 /
 /
@@ -2886,6 +2890,7 @@ at
 max
 .
 )
+override
 ;
 /
 /
@@ -2968,6 +2973,7 @@ of
 pipe
 .
 )
+override
 ;
 /
 /
@@ -2995,6 +3001,7 @@ void
 clear
 (
 )
+override
 ;
 /
 /

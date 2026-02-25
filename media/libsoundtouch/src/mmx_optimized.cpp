@@ -2705,11 +2705,11 @@ FIRFilter
 {
 filterCoeffsAlign
 =
-NULL
+nullptr
 ;
 filterCoeffsUnalign
 =
-NULL
+nullptr
 ;
 }
 FIRFilterMMX
