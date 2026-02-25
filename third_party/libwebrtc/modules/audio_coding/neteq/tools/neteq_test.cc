@@ -1183,17 +1183,6 @@ get
 ;
 }
 }
-else
-{
-neteq_
--
->
-InsertEmptyPacket
-(
-rtp_header
-)
-;
-}
 if
 (
 last_packet_time_ms_
