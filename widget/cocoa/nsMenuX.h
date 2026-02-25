@@ -1585,6 +1585,7 @@ GeckoNSMenu
 *
 CreateMenuWithGeckoString
 (
+const
 nsString
 &
 aMenuTitle
