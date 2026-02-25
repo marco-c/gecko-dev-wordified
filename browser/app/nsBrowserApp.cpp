@@ -1198,6 +1198,9 @@ return
 false
 ;
 }
+#
+ifdef
+MOZ_BACKGROUNDTASKS
 /
 *
 *
@@ -1279,6 +1282,8 @@ return
 false
 ;
 }
+#
+endif
 constinit
 Bootstrap
 :
