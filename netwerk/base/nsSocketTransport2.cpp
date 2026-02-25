@@ -9399,6 +9399,14 @@ FuzzySocketControl
 }
 #
 endif
+mSocketTransportService
+-
+>
+AttachNeckoIOLayer
+(
+fd
+)
+;
 PRStatus
 status
 ;

@@ -4808,6 +4808,14 @@ addr
 mAddr
 )
 ;
+gSocketTransportService
+-
+>
+AttachNeckoIOLayer
+(
+mFD
+)
+;
 if
 (
 StaticPrefs
