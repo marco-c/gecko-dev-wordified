@@ -471,6 +471,7 @@ mPromiseRequestHolder
 }
 [
 =
+this
 ]
 (
 const

@@ -2617,6 +2617,7 @@ mAbstractMainThread
 __func__
 [
 =
+this
 self
 =
 RefPtr

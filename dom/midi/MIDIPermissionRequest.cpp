@@ -1209,6 +1209,9 @@ infoFlag
 WebMIDI
 "
 _ns
+self
+-
+>
 mWindow
 -
 >
