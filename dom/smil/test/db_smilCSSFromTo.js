@@ -2452,9 +2452,7 @@ middle
 "
 text
 -
-after
--
-edge
+bottom
 "
 )
 new
@@ -2463,9 +2461,7 @@ AnimTestcaseFromTo
 "
 text
 -
-before
--
-edge
+top
 "
 "
 auto

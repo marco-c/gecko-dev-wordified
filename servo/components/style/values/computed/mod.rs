@@ -529,6 +529,7 @@ ContainerName
 ContainerType
 ContentVisibility
 Display
+DominantBaseline
 Float
 LineClamp
 Overflow

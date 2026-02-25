@@ -201,6 +201,7 @@ ContainerName
 ContainerType
 ContentVisibility
 Display
+DominantBaseline
 Float
 Overflow
 OverflowAnchor

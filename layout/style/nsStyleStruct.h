@@ -9220,6 +9220,12 @@ mozilla
 StylePrintColorAdjust
 mPrintColorAdjust
 ;
+mozilla
+:
+:
+StyleDominantBaseline
+mDominantBaseline
+;
 private
 :
 mozilla
@@ -14013,12 +14019,6 @@ mozilla
 :
 StyleStrokeLinejoin
 mStrokeLinejoin
-;
-mozilla
-:
-:
-StyleDominantBaseline
-mDominantBaseline
 ;
 mozilla
 :
