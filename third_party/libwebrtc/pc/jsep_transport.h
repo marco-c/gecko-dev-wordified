@@ -1365,13 +1365,6 @@ fingerprint
 )
 const
 ;
-void
-SetActiveResetSrtpParams
-(
-bool
-active_reset_srtp_params
-)
-;
 /
 /
 Record
