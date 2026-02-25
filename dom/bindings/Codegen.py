@@ -22323,8 +22323,7 @@ self
 const
 =
 "
-static
-const
+constexpr
 %
 s
 %
