@@ -80,13 +80,15 @@ mozcrash
 import
 mozinfo
 import
-mozlog
-import
 mozprocess
 from
 mozfile
 import
 load_source
+from
+mozlog
+import
+commandline
 from
 mozrunner
 .
@@ -112,16 +114,7 @@ __file__
 )
 log
 =
-mozlog
-.
-unstructured
-.
-getLogger
-(
-"
-gtest
-"
-)
+None
 class
 GTests
 :
@@ -712,9 +705,8 @@ True
             
 log
 .
-testFail
+error
 (
-                
 "
 gtest
 |
@@ -725,12 +717,12 @@ after
 d
 seconds
 "
+%
 self
 .
 gtest_timeout_value
 (
 )
-            
 )
             
 mozcrash
@@ -761,7 +753,7 @@ True
             
 log
 .
-testFail
+error
 (
                 
 "
@@ -777,6 +769,7 @@ without
 output
 "
                 
+%
 GTests
 .
 TEST_PROC_NO_OUTPUT_TIMEOUT
@@ -1065,7 +1058,7 @@ result
             
 log
 .
-testFail
+error
 (
 "
 gtest
@@ -1078,6 +1071,7 @@ code
 %
 d
 "
+%
 proc
 .
 returncode
@@ -1232,35 +1226,6 @@ env
 [
 "
 MOZ_RUN_GTEST
-"
-]
-=
-"
-1
-"
-        
-#
-Normally
-we
-run
-with
-GTest
-default
-output
-override
-this
-to
-use
-the
-TBPL
-test
-format
-.
-        
-env
-[
-"
-MOZ_TBPL_PARSER
 "
 ]
 =
@@ -1731,29 +1696,12 @@ at
 %
 s
 "
+%
 llvmsym
 )
             
 else
 :
-                
-#
-This
-should
-be
-|
-testFail
-|
-instead
-of
-|
-info
-|
-.
-See
-bug
-1050891
-.
                 
 log
 .
@@ -1769,6 +1717,7 @@ at
 %
 s
 "
+%
 llvmsym
 )
         
@@ -1908,6 +1857,7 @@ for
 %
 s
 "
+%
 filter_set
 )
             
@@ -1928,6 +1878,7 @@ for
 %
 s
 "
+%
 filter_set
 )
         
@@ -1955,6 +1906,13 @@ super
 .
 __init__
 (
+)
+        
+commandline
+.
+add_logging_group
+(
+self
 )
         
 self
@@ -2335,6 +2293,9 @@ main
 )
 :
     
+global
+log
+    
 parser
 =
 gtestOptions
@@ -2347,6 +2308,27 @@ parser
 .
 parse_args
 (
+)
+    
+log
+=
+commandline
+.
+setup_logging
+(
+"
+gtest
+"
+options
+{
+"
+raw
+"
+:
+sys
+.
+stdout
+}
 )
     
 args

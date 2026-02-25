@@ -3034,10 +3034,6 @@ unstructured_suites
 [
         
 "
-gtest
-"
-        
-"
 jittest
 "
     

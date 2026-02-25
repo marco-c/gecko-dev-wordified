@@ -96,9 +96,11 @@ mozdevice
 import
 mozinfo
 import
+six
+from
 mozlog
 import
-six
+commandline
 LOGGER_NAME
 =
 "
@@ -106,14 +108,7 @@ gtest
 "
 log
 =
-mozlog
-.
-unstructured
-.
-getLogger
-(
-LOGGER_NAME
-)
+None
 PERFHERDER_MATCHER
 =
 re
@@ -261,26 +256,6 @@ env
 [
 "
 MOZ_RUN_GTEST
-"
-]
-=
-"
-1
-"
-        
-#
-custom
-output
-parser
-is
-mandatory
-on
-Android
-        
-env
-[
-"
-MOZ_TBPL_PARSER
 "
 ]
 =
@@ -2575,7 +2550,7 @@ package
             
 log
 .
-testFail
+error
 (
 "
 gtest
@@ -2667,9 +2642,8 @@ timed_out
             
 log
 .
-testFail
+error
 (
-                
 "
 gtest
 |
@@ -2680,12 +2654,12 @@ after
 d
 seconds
 "
+%
 self
 .
 timeout_delta
 .
 seconds
-            
 )
         
 elif
@@ -2698,7 +2672,7 @@ output_timed_out
             
 log
 .
-testFail
+error
 (
                 
 "
@@ -2714,6 +2688,7 @@ without
 output
 "
                 
+%
 self
 .
 output_timeout_delta
@@ -3085,6 +3060,13 @@ options
 ]
 test_filter
 "
+)
+        
+commandline
+.
+add_logging_group
+(
+self
 )
         
 self
@@ -3594,6 +3576,9 @@ main
 )
 :
     
+global
+log
+    
 parser
 =
 remoteGtestOptions
@@ -3606,6 +3591,27 @@ parser
 .
 parse_args
 (
+)
+    
+log
+=
+commandline
+.
+setup_logging
+(
+"
+gtest
+"
+options
+{
+"
+raw
+"
+:
+sys
+.
+stdout
+}
 )
     
 args
