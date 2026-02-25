@@ -514,12 +514,12 @@ Read
 bool
 OnPacketReceived
 (
+ArrayView
+<
 const
-char
-*
+uint8_t
+>
 data
-size_t
-size
 )
 ;
 /
