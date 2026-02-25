@@ -14430,6 +14430,13 @@ dom_events_compress_touchmove
 )
 |
 |
+aEvent
+.
+mFlags
+.
+mIsSynthesizedForTests
+|
+|
 /
 /
 Ensure
