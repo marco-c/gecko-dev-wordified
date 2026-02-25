@@ -18230,9 +18230,6 @@ return
 2
 ;
 case
-MethodAssert
-:
-case
 MethodClear
 :
 case
@@ -18292,6 +18289,9 @@ MethodWarn
 return
 4
 ;
+case
+MethodAssert
+:
 case
 MethodError
 :
