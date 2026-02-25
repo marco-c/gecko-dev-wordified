@@ -3501,7 +3501,7 @@ is_finite
 {
 Ok
 (
-zmij
+ryu
 :
 :
 Buffer
@@ -3555,7 +3555,7 @@ is_finite
 {
 Ok
 (
-zmij
+ryu
 :
 :
 Buffer

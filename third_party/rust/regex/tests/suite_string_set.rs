@@ -190,9 +190,9 @@ UTF
 8
 :
 {
-err
 }
 "
+err
 )
 )
 ;
@@ -262,9 +262,9 @@ test
 name
 :
 {
-name
 }
 "
+name
 )
 )
 }

@@ -324,9 +324,9 @@ test
 name
 :
 {
-name
 }
 "
+name
 )
 )
 }

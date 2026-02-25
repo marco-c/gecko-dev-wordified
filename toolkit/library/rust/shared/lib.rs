@@ -707,14 +707,6 @@ extern
 crate
 urlpattern_glue
 ;
-extern
-crate
-adblock
-;
-extern
-crate
-content_classifier_engine
-;
 #
 [
 cfg

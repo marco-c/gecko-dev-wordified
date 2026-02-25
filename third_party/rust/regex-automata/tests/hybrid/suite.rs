@@ -2102,9 +2102,9 @@ test
 name
 :
 {
-name
 }
 "
+name
 )
 )
 }
