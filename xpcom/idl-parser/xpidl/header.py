@@ -1592,30 +1592,26 @@ GENERATED
 FROM
 SRCDIR
 /
-%
-(
+{
 relpath
-)
-s
+}
  
 *
 /
 #
 ifndef
 __gen_
-%
-(
+{
 basename
-)
-s_h__
+}
+_h__
 #
 define
 __gen_
-%
-(
+{
 basename
-)
-s_h__
+}
+_h__
 "
 "
 "
@@ -1627,11 +1623,9 @@ include
 #
 include
 "
-%
-(
+{
 basename
-)
-s
+}
 .
 h
 "
@@ -1751,11 +1745,10 @@ endif
 /
 *
 __gen_
-%
-(
+{
 basename
-)
-s_h__
+}
+_h__
 *
 /
 "
@@ -1767,11 +1760,9 @@ forward_decl
 "
 "
 class
-%
-(
+{
 name
-)
-s
+}
 ;
 /
 *
@@ -1842,22 +1833,19 @@ fd
 write
 (
 header
-%
-{
-"
+.
+format
+(
 relpath
-"
-:
+=
 relpath
-"
 basename
-"
-:
+=
 idl_basename
 (
 filename
 )
-}
+)
 )
     
 foundinc
@@ -1898,19 +1886,18 @@ fd
 write
 (
 include
-%
-{
-"
+.
+format
+(
 basename
-"
-:
+=
 idl_basename
 (
 inc
 .
 filename
 )
-}
+)
 )
     
 if
@@ -2153,16 +2140,15 @@ fd
 write
 (
 forward_decl
-%
-{
-"
+.
+format
+(
 name
-"
-:
+=
 p
 .
 name
-}
+)
 )
             
 continue
@@ -2248,17 +2234,16 @@ fd
 write
 (
 footer
-%
-{
-"
+.
+format
+(
 basename
-"
-:
+=
 idl_basename
 (
 filename
 )
-}
+)
 )
 def
 write_webidl
@@ -2393,63 +2378,53 @@ r
 starting
 interface
 :
-%
-(
+{
 name
-)
-s
+}
 *
 /
 #
 define
-%
-(
+{
 defname
-)
-s_IID_STR
+}
+_IID_STR
 "
-%
-(
+{
 iid
-)
-s
+}
 "
 #
 define
-%
-(
+{
 defname
-)
-s_IID
+}
+_IID
 \
   
 {
+{
 0x
-%
-(
+{
 m0
-)
-s
+}
 0x
-%
-(
+{
 m1
-)
-s
+}
 0x
-%
-(
+{
 m2
-)
-s
+}
 \
     
 {
-%
-(
+{
+{
 m3joined
-)
-s
+}
+}
+}
 }
 }
 "
@@ -2573,17 +2548,17 @@ iface_prolog
 "
 "
 {
+{
  
 public
 :
   
 NS_INLINE_DECL_STATIC_IID
 (
-%
-(
+{
 defname
-)
-s_IID
+}
+_IID
 )
 "
 "
@@ -2614,11 +2589,9 @@ implemented
 using
 ScriptableInterfaceType
 =
-%
-(
+{
 name
-)
-s
+}
 ;
 "
 "
@@ -2628,6 +2601,7 @@ iface_epilog
 "
 "
 "
+}
 }
 ;
 "
@@ -2656,11 +2630,9 @@ interface
 #
 define
 NS_DECL_
-%
-(
+{
 macroname
-)
-s
+}
 "
 "
 "
@@ -2703,11 +2675,9 @@ forwarding
 #
 define
 NS_DECL_NON_VIRTUAL_
-%
-(
+{
 macroname
-)
-s
+}
 "
 "
 "
@@ -2740,11 +2710,9 @@ object
 #
 define
 NS_FORWARD_
-%
-(
+{
 macroname
-)
-s
+}
 (
 _to
 )
@@ -2788,11 +2756,9 @@ way
 #
 define
 NS_FORWARD_SAFE_
-%
-(
+{
 macroname
-)
-s
+}
 (
 _to
 )
@@ -2810,36 +2776,29 @@ builtin_infallible_tmpl
 "
 \
   
-%
-(
+{
 attributes
-)
-sinline
-%
-(
+}
+inline
+{
 realtype
-)
-s
-%
-(
+}
+{
 nativename
-)
-s
+}
 (
-%
-(
+{
 args
-)
-s
+}
 )
   
 {
+{
     
-%
-(
+{
 realtype
-)
-sresult
+}
+result
 ;
     
 mozilla
@@ -2851,17 +2810,13 @@ nsresult
 >
 rv
 =
-%
-(
+{
 nativename
-)
-s
+}
 (
-%
-(
+{
 argnames
-)
-s
+}
 &
 result
 )
@@ -2880,6 +2835,7 @@ return
 result
 ;
   
+}
 }
 "
 "
@@ -2909,11 +2865,9 @@ the
 #
 definition
 of
-%
-(
+{
 realtype
-)
-s
+}
 in
 scope
 which
@@ -2935,40 +2889,31 @@ refcnt_infallible_tmpl
 "
 \
   
-%
-(
+{
 attributes
-)
-s
+}
 inline
 already_AddRefed
 <
-%
-(
+{
 realtype
-)
-s
+}
 >
-%
-(
+{
 nativename
-)
-s
+}
 (
-%
-(
+{
 args
-)
-s
+}
 )
   
 {
+{
     
-%
-(
+{
 realtype
-)
-s
+}
 *
 result
 =
@@ -2984,17 +2929,13 @@ nsresult
 >
 rv
 =
-%
-(
+{
 nativename
-)
-s
+}
 (
-%
-(
+{
 argnames
-)
-s
+}
 &
 result
 )
@@ -3012,17 +2953,16 @@ rv
 return
 already_AddRefed
 <
-%
-(
+{
 realtype
-)
-s
+}
 >
 (
 result
 )
 ;
   
+}
 }
 "
 "
@@ -3039,17 +2979,16 @@ mozilla
 :
 detail
 {
+{
 template
 <
 >
 class
 InterfaceNeedsThreadSafeRefCnt
 <
-%
-(
+{
 name
-)
-s
+}
 >
 :
 public
@@ -3058,8 +2997,11 @@ std
 :
 true_type
 {
+{
+}
 }
 ;
+}
 }
 "
 "
@@ -3252,37 +3194,28 @@ member
     
 return
 tmpl
-%
-{
+.
+format
+(
         
-"
 attributes
-"
-:
+=
 attributes
         
-"
 realtype
-"
-:
+=
 realtype
         
-"
 nativename
-"
-:
+=
 nativename
         
-"
 args
-"
-:
+=
 args
         
-"
 argnames
-"
-:
+=
 argnames
 +
 "
@@ -3293,7 +3226,7 @@ else
 "
 "
     
-}
+)
 def
 write_interface
 (
@@ -4068,8 +4001,13 @@ fd
 write
 (
 iface_header
-%
+.
+format
+(
+*
+*
 names
+)
 )
     
 printComments
@@ -4167,8 +4105,13 @@ fd
 write
 (
 iface_prolog
-%
+.
+format
+(
+*
+*
 names
+)
 )
     
 if
@@ -4184,8 +4127,13 @@ fd
 write
 (
 iface_scriptable
-%
+.
+format
+(
+*
+*
 names
+)
 )
     
 for
@@ -4319,8 +4267,13 @@ fd
 write
 (
 iface_epilog
-%
+.
+format
+(
+*
+*
 names
+)
 )
     
 if
@@ -4336,8 +4289,13 @@ fd
 write
 (
 iface_threadsafe_tmpl
-%
+.
+format
+(
+*
+*
 names
+)
 )
     
 fd
@@ -4345,8 +4303,13 @@ fd
 write
 (
 iface_decl
-%
+.
+format
+(
+*
+*
 names
+)
 )
     
 def
@@ -4598,8 +4561,13 @@ fd
 write
 (
 iface_nonvirtual
-%
+.
+format
+(
+*
+*
 names
+)
 )
     
 writeDeclaration
@@ -4614,8 +4582,13 @@ fd
 write
 (
 iface_forward
-%
+.
+format
+(
+*
+*
 names
+)
 )
     
 def
@@ -4712,41 +4685,35 @@ write
 (
                     
 attr_tmpl
-                    
-%
-{
+.
+format
+(
                         
-"
 asNative
-"
-:
+=
 attributeAsNative
 (
 member
 True
 )
                         
-"
 nativeName
-"
-:
+=
 attributeNativeName
 (
 member
 True
 )
                         
-"
 paramList
-"
-:
+=
 attributeParamNames
 (
 member
 True
 )
                     
-}
+)
                 
 )
                 
@@ -4763,41 +4730,35 @@ write
 (
                         
 attr_tmpl
-                        
-%
-{
+.
+format
+(
                             
-"
 asNative
-"
-:
+=
 attributeAsNative
 (
 member
 False
 )
                             
-"
 nativeName
-"
-:
+=
 attributeNativeName
 (
 member
 False
 )
                             
-"
 paramList
-"
-:
+=
 attributeParamNames
 (
 member
 False
 )
                         
-}
+)
                     
 )
             
@@ -4823,38 +4784,32 @@ write
 (
                         
 tmpl_notxpcom
-                        
-%
-{
+.
+format
+(
                             
-"
 asNative
-"
-:
+=
 methodAsNative
 (
 member
 )
                             
-"
 nativeName
-"
-:
+=
 methodNativeName
 (
 member
 )
                             
-"
 paramList
-"
-:
+=
 paramlistNames
 (
 member
 )
                         
-}
+)
                     
 )
                 
@@ -4867,38 +4822,32 @@ write
 (
                         
 tmpl
-                        
-%
-{
+.
+format
+(
                             
-"
 asNative
-"
-:
+=
 methodAsNative
 (
 member
 )
                             
-"
 nativeName
-"
-:
+=
 methodNativeName
 (
 member
 )
                             
-"
 paramList
-"
-:
+=
 paramlistNames
 (
 member
 )
                         
-}
+)
                     
 )
         
@@ -4969,28 +4918,24 @@ True
 \
 \
 n
-%
-(
+{
 asNative
-)
-s
+}
 override
+{
 {
 return
 _to
-%
-(
+{
 nativeName
-)
-s
+}
 (
-%
-(
+{
 paramList
-)
-s
+}
 )
 ;
+}
 }
 "
     
@@ -5001,8 +4946,13 @@ fd
 write
 (
 iface_forward_safe
-%
+.
+format
+(
+*
+*
 names
+)
 )
     
 #
@@ -5048,12 +4998,11 @@ False
 \
 \
 n
-%
-(
+{
 asNative
-)
-s
+}
 override
+{
 {
 return
 !
@@ -5064,19 +5013,16 @@ NS_ERROR_NULL_POINTER
 _to
 -
 >
-%
-(
+{
 nativeName
-)
-s
+}
 (
-%
-(
+{
 paramList
-)
-s
+}
 )
 ;
+}
 }
 "
 #
@@ -5089,11 +5035,9 @@ E501
 \
 \
 n
-%
-(
+{
 asNative
-)
-s
+}
 override
 ;
 "
