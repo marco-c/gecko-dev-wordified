@@ -1420,7 +1420,7 @@ URL
 "
 about
 :
-logo
+mozilla
 "
 "
 chrome

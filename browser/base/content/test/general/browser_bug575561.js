@@ -548,7 +548,7 @@ link
 to
 about
 :
-logo
+blank
 await
 testLink
 (
@@ -586,7 +586,7 @@ href
 "
 about
 :
-logo
+blank
 "
 ;
 doc
@@ -735,7 +735,18 @@ BrowserTestUtils
 browserLoaded
 (
 browser
+{
+wantLoad
+:
+(
+)
+=
+>
+true
+includeSubFrames
+:
 testSubFrame
+}
 )
 ;
 }
