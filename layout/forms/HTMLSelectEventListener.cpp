@@ -4516,7 +4516,7 @@ auto
 isVerticalRL
 =
 [
-=
+this
 ]
 (
 )
