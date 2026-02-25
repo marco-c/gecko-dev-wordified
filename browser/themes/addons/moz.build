@@ -142,8 +142,12 @@ system
 /
 src
 /
-design
--
+tokens
+/
+base
+/
+color
+.
 tokens
 .
 json
