@@ -1090,7 +1090,7 @@ be
 !
 item
 .
-noAlternateURI
+noProtocolFixup
 }
 )
 ;
@@ -1110,7 +1110,7 @@ be
 !
 item
 .
-limitedFixup
+noAlternateURI
 }
 )
 ;

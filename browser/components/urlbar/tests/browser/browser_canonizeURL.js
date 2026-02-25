@@ -234,6 +234,7 @@ com
 /
 "
 CANONIZE_MODIFIERS
+true
 ]
 /
 /
@@ -277,6 +278,7 @@ test
 "
 {
 }
+false
 ]
 [
 "
@@ -299,6 +301,7 @@ com
 /
 "
 CANONIZE_MODIFIERS
+true
 ]
 [
 "
@@ -317,6 +320,7 @@ com
 /
 "
 CANONIZE_MODIFIERS
+true
 ]
 [
 "
@@ -338,6 +342,7 @@ com
 foo
 "
 CANONIZE_MODIFIERS
+true
 ]
 [
 "
@@ -362,6 +367,7 @@ foo
 20bar
 "
 CANONIZE_MODIFIERS
+true
 ]
 [
 "
@@ -380,6 +386,7 @@ net
 /
 "
 CANONIZE_MODIFIERS
+false
 ]
 [
 "
@@ -398,6 +405,7 @@ example
 /
 "
 CANONIZE_MODIFIERS
+false
 ]
 [
 "
@@ -416,6 +424,7 @@ example
 /
 "
 CANONIZE_MODIFIERS
+false
 ]
 [
 "
@@ -438,6 +447,7 @@ foo
 /
 "
 CANONIZE_MODIFIERS
+false
 ]
 [
 "
@@ -459,6 +469,7 @@ foo
 bar
 "
 CANONIZE_MODIFIERS
+false
 ]
 [
 "
@@ -485,6 +496,7 @@ http
 /
 "
 CANONIZE_MODIFIERS
+false
 ]
 [
 "
@@ -507,6 +519,7 @@ bar
 /
 "
 CANONIZE_MODIFIERS
+false
 ]
 [
 "
@@ -528,6 +541,7 @@ uri
 .
 spec
 CANONIZE_MODIFIERS
+false
 ]
 ]
 ;
@@ -596,6 +610,7 @@ let
 inputValue
 expectedURL
 options
+suffixAdded
 ]
 of
 testcases
@@ -620,6 +635,14 @@ expected
 expectedURL
 }
 "
+)
+;
+Services
+.
+fog
+.
+testResetFOG
+(
 )
 ;
 let
@@ -689,6 +712,37 @@ all
 promiseLoad
 promiseStopped
 ]
+)
+;
+Assert
+.
+strictEqual
+(
+suffixAdded
+?
+1
+:
+null
+Glean
+.
+urlfixup
+.
+suffix
+.
+get
+(
+"
+urlbar
+"
+"
+.
+com
+"
+)
+.
+testGetValue
+(
+)
 )
 ;
 }
