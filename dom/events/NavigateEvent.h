@@ -618,6 +618,11 @@ GetAssociatedDocument
 )
 const
 ;
+void
+Cancel
+(
+)
+;
 private
 :
 MOZ_CAN_RUN_SCRIPT
