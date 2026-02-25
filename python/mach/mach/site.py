@@ -114,11 +114,6 @@ import
 Callable
 Optional
 from
-filelock
-import
-FileLock
-Timeout
-from
 mozfile
 import
 json
@@ -128,6 +123,13 @@ packaging
 specifiers
 import
 SpecifierSet
+from
+mach
+.
+filelock
+import
+FileLock
+Timeout
 from
 mach
 .
