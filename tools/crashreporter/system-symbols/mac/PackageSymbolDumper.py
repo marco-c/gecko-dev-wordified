@@ -880,6 +880,8 @@ filter_files
 lambda
 filename
 :
+(
+            
 os
 .
 path
@@ -906,7 +908,7 @@ dmg
 zip
 "
 )
-        
+            
 and
 not
 filename
@@ -917,6 +919,8 @@ startswith
 .
 _
 "
+)
+        
 )
         
 path

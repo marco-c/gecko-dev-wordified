@@ -650,10 +650,10 @@ out
 (
                 
 subprocess
+                
 .
 check_output
 (
-                    
 [
 binary
 exe
@@ -666,7 +666,6 @@ version
 universal_newlines
 =
 True
-                
 )
                 
 .
@@ -719,6 +718,7 @@ out
 (
             
 subprocess
+            
 .
 check_output
 (
