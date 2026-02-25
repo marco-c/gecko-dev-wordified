@@ -278,9 +278,6 @@ std
 wstring
 action
 ;
-bool
-skipNotificationServer
-;
 }
 ;
 class
