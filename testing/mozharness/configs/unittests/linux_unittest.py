@@ -1290,17 +1290,6 @@ plain
 "
 :
 [
-"
--
--
-chunk
--
-by
--
-dir
-=
-4
-"
 ]
         
 "
@@ -1330,17 +1319,6 @@ coverage
 "
 :
 [
-"
--
--
-chunk
--
-by
--
-dir
-=
-4
-"
 "
 -
 -
@@ -1383,17 +1361,6 @@ chrome
 "
 -
 -
-chunk
--
-by
--
-dir
-=
-4
-"
-"
--
--
 disable
 -
 e10s
@@ -1448,15 +1415,6 @@ flavor
 =
 browser
 "
-"
--
--
-chunk
--
-by
--
-runtime
-"
 ]
         
 "
@@ -1477,16 +1435,6 @@ coverage
 flavor
 =
 browser
-"
-            
-"
--
--
-chunk
--
-by
--
-runtime
 "
             
 "
@@ -1668,16 +1616,6 @@ subsuite
 =
 devtools
 "
-            
-"
--
--
-chunk
--
-by
--
-runtime
-"
         
 ]
         
@@ -1707,16 +1645,6 @@ browser
 subsuite
 =
 devtools
-"
-            
-"
--
--
-chunk
--
-by
--
-runtime
 "
             
 "
@@ -2541,13 +2469,6 @@ unstructured_flavors
 "
 :
 {
-        
-"
-xpcshell
-"
-:
-[
-]
         
 "
 gtest
