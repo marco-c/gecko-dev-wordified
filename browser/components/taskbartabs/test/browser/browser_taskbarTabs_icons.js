@@ -2210,6 +2210,16 @@ methodName
 }
 )
 ;
+await
+TaskbarTabs
+.
+removeTaskbarTab
+(
+taskbarTab
+.
+id
+)
+;
 sandbox
 .
 restore
