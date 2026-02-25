@@ -1563,6 +1563,14 @@ lenWithHeader
 isValid
 (
 )
+|
+|
+len
+>
+JSString
+:
+:
+MAX_LENGTH
 )
 )
 {
