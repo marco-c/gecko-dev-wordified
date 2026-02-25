@@ -3103,13 +3103,7 @@ displayname
         
 displayname
 =
-f
-"
-Mozilla
-{
 first
-}
-"
         
 #
 Release
