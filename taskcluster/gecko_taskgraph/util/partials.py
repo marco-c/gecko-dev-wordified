@@ -1506,6 +1506,7 @@ relevant
 releases
 in
 Balrog
+.
     
 Not
 all
@@ -1521,10 +1522,10 @@ to
 Taskcluster
 migration
 .
-        
+    
 Args
 :
-            
+        
 product
 (
 str
@@ -1540,7 +1541,7 @@ e
 g
 .
 Firefox
-            
+        
 branch
 (
 str
@@ -1553,7 +1554,7 @@ mozilla
 -
 central
 )
-            
+        
 maxbuilds
 (
 int
@@ -1566,7 +1567,7 @@ historical
 releases
 to
 populate
-            
+        
 maxsearch
 (
 int
@@ -1580,17 +1581,17 @@ many
 releases
 to
 avoid
-                
+            
 working
 through
 the
 entire
 history
 .
-        
+    
 Returns
 :
-            
+        
 json
 object
 based
@@ -1599,50 +1600,52 @@ data
 from
 balrog
 api
+:
+:
             
 results
 =
 {
                 
-'
+"
 platform1
-'
+"
 :
 {
                     
-'
+"
 locale1
-'
+"
 :
 {
                         
-'
+"
 buildid1
-'
+"
 :
 mar_url
                         
-'
+"
 buildid2
-'
+"
 :
 mar_url
                         
-'
+"
 buildid3
-'
+"
 :
 mar_url
                     
 }
                     
-'
+"
 locale2
-'
+"
 :
 {
                         
-'
+"
 target
 .
 partial
@@ -1650,28 +1653,27 @@ partial
 1
 .
 mar
-'
+"
 :
 {
-'
+"
 buildid1
-'
+"
 :
-'
+"
 mar_url
-'
+"
 }
                     
 }
                 
 }
                 
-'
+"
 platform2
-'
+"
 :
 {
-                
 }
             
 }
