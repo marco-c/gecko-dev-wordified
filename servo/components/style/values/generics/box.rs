@@ -132,6 +132,7 @@ ToComputedValue
 ToCss
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 #
@@ -392,6 +393,13 @@ repr
 (
 C
 u8
+)
+]
+#
+[
+typed_value
+(
+derive_fields
 )
 ]
 pub
