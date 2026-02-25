@@ -817,15 +817,15 @@ return
 tag
 "
 :
+f
 "
 TD_UINT
-%
-d
-"
-%
+{
 type
 .
 width
+}
+"
 }
     
 raise
@@ -1769,16 +1769,16 @@ else
 raise
 Exception
 (
+f
 "
 Unexpected
 interface
 member
 :
-%
-s
-"
-%
+{
 member
+}
+"
 )
     
 for
