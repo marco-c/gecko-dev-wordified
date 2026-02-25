@@ -255,8 +255,7 @@ await
 getNodeFront
 (
 "
-.
-container
+body
 "
 inspector
 )
@@ -273,6 +272,9 @@ a
 node
 front
 from
+the
+body
+of
 the
 neterror
 page
