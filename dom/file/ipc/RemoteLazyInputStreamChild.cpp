@@ -340,6 +340,7 @@ SendGoodbye
 }
 }
 )
+NS_DISPATCH_FALLIBLE
 )
 ;
 }
