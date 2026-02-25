@@ -13050,7 +13050,8 @@ exact
 sizes
 alt_text
 :
-null
+"
+"
 windowObj
 :
 window
