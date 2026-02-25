@@ -68,7 +68,7 @@ override
 await
 bidi_session
 .
-emulation
+user_agent_client_hints
 .
 set_client_hints_override
 (
@@ -223,7 +223,7 @@ tab
 await
 bidi_session
 .
-emulation
+user_agent_client_hints
 .
 set_client_hints_override
 (
@@ -324,7 +324,7 @@ override
 await
 bidi_session
 .
-emulation
+user_agent_client_hints
 .
 set_client_hints_override
 (
@@ -463,7 +463,7 @@ contexts
 await
 bidi_session
 .
-emulation
+user_agent_client_hints
 .
 set_client_hints_override
 (
@@ -586,7 +586,7 @@ override
 await
 bidi_session
 .
-emulation
+user_agent_client_hints
 .
 set_client_hints_override
 (
@@ -612,7 +612,7 @@ override
 await
 bidi_session
 .
-emulation
+user_agent_client_hints
 .
 set_client_hints_override
 (
@@ -700,7 +700,7 @@ override
 await
 bidi_session
 .
-emulation
+user_agent_client_hints
 .
 set_client_hints_override
 (
@@ -791,7 +791,7 @@ override
 await
 bidi_session
 .
-emulation
+user_agent_client_hints
 .
 set_client_hints_override
 (
