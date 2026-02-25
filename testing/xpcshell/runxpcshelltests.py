@@ -19595,6 +19595,17 @@ name
 "
 parallel
 "
+extra
+=
+{
+"
+threads
+"
+:
+self
+.
+threadCount
+}
 )
             
 parallel_group_started
