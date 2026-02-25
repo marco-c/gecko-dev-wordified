@@ -3680,6 +3680,7 @@ remaining
 pooled
 sessions
 .
+virtual
 void
 DiscardCandidatePool
 (
