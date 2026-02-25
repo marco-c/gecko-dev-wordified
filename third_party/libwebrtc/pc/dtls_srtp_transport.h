@@ -237,6 +237,17 @@ FieldTrialsView
 field_trials
 )
 ;
+DtlsSrtpTransport
+*
+AsDtlsSrtpTransport
+(
+)
+override
+{
+return
+this
+;
+}
 /
 /
 Set
