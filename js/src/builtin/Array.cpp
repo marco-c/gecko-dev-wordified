@@ -18140,8 +18140,10 @@ prototype
 shift
 (
 )
-static
 bool
+js
+:
+:
 array_shift
 (
 JSContext
@@ -26697,8 +26699,10 @@ Mar
 .
 *
 /
-static
 bool
+js
+:
+:
 array_slice
 (
 JSContext
