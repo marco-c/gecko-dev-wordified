@@ -1646,7 +1646,7 @@ std
 :
 :
 string_view
-HourCycleToString
+LocaleHourCycleToString
 (
 LocaleHourCycle
 hourCycle
@@ -1837,7 +1837,7 @@ std
 :
 :
 string_view
-CaseFirstToString
+LocaleCaseFirstToString
 (
 LocaleCaseFirst
 caseFirst
@@ -3995,7 +3995,7 @@ hourCycles
 =
 MapOptions
 <
-HourCycleToString
+LocaleHourCycleToString
 >
 (
 LocaleHourCycle
@@ -4098,7 +4098,7 @@ caseFirsts
 =
 MapOptions
 <
-CaseFirstToString
+LocaleCaseFirstToString
 >
 (
 LocaleCaseFirst
