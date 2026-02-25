@@ -432,7 +432,7 @@ Engine
 data
 :
 {
-inPrivateBrowsing
+isPrivateEngine
 :
 false
 engine
