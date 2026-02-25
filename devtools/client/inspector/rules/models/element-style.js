@@ -1574,12 +1574,6 @@ if
 (
 options
 .
-system
-|
-|
-(
-options
-.
 rule
 &
 &
@@ -1601,7 +1595,6 @@ domRule
 options
 .
 rule
-)
 )
 )
 {
