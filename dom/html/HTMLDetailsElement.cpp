@@ -657,11 +657,6 @@ nsNodeInfoManager
 *
 nim
 =
-OwnerDoc
-(
-)
--
->
 NodeInfoManager
 (
 )
