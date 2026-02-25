@@ -1000,12 +1000,12 @@ false
 bool
 TakeMinidumpForChild
 (
-ProcessId
-childPid
+GeckoChildID
+aChildId
 nsIFile
 *
 *
-dump
+aDump
 AnnotationTable
 &
 aAnnotations
@@ -1018,8 +1018,8 @@ false
 bool
 FinalizeOrphanedMinidump
 (
-ProcessId
-aChildPid
+GeckoChildID
+aChildId
 GeckoProcessType
 aType
 nsString

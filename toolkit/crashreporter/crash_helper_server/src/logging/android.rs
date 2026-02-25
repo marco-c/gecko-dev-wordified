@@ -99,7 +99,7 @@ log
 LevelFilter
 :
 :
-Trace
+Warn
 )
 .
 with_tag

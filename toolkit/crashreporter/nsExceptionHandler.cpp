@@ -20293,7 +20293,6 @@ return
 false
 ;
 }
-struct
 RawIPCConnector
 raw_connector
 =
@@ -20317,11 +20316,6 @@ release
 (
 )
 }
-;
-crash_helper_rendezvous
-(
-raw_connector
-)
 ;
 #
 else
@@ -20398,11 +20392,6 @@ defined
 (
 XP_WIN
 )
-crash_helper_rendezvous
-(
-raw_connector
-)
-;
 #
 endif
 /
@@ -20411,6 +20400,14 @@ defined
 (
 XP_DARWIN
 )
+crash_helper_rendezvous
+(
+raw_connector
+GetGeckoChildID
+(
+)
+)
+;
 RegisterRuntimeExceptionModule
 (
 )
@@ -20782,8 +20779,8 @@ CrashReporter
 bool
 TakeMinidumpForChild
 (
-ProcessId
-childPid
+GeckoChildID
+aChildId
 nsIFile
 *
 *
@@ -20828,7 +20825,7 @@ crash_report
 transfer_crash_report
 (
 gCrashHelperClient
-childPid
+aChildId
 )
 ;
 }
@@ -21072,8 +21069,8 @@ true
 bool
 FinalizeOrphanedMinidump
 (
-ProcessId
-aChildPid
+GeckoChildID
+aChildId
 GeckoProcessType
 aType
 nsString
@@ -21095,7 +21092,7 @@ if
 !
 TakeMinidumpForChild
 (
-aChildPid
+aChildId
 getter_AddRefs
 (
 minidump
@@ -22314,8 +22311,8 @@ AT_ENTRY
 void
 RegisterChildAuxvInfo
 (
-pid_t
-aChildPid
+GeckoChildID
+aChildId
 const
 DirectAuxvDumpInfo
 &
@@ -22336,7 +22333,7 @@ gCrashHelperClient
 register_child_auxv_info
 (
 gCrashHelperClient
-aChildPid
+aChildId
 &
 aAuxvInfo
 )
@@ -22346,8 +22343,8 @@ aAuxvInfo
 void
 UnregisterChildAuxvInfo
 (
-pid_t
-aChildPid
+GeckoChildID
+aChildId
 )
 {
 StaticMutexAutoLock
@@ -22364,7 +22361,7 @@ gCrashHelperClient
 unregister_child_auxv_info
 (
 gCrashHelperClient
-aChildPid
+aChildId
 )
 ;
 }
