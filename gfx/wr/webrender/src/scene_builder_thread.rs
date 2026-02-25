@@ -94,7 +94,6 @@ api
 :
 :
 {
-PrimitiveKeyKind
 GlyphDimensionRequest
 GlyphIndexRequest
 }
@@ -146,6 +145,18 @@ box_shadow
 :
 :
 BoxShadow
+;
+use
+crate
+:
+:
+prim_store
+:
+:
+rectangle
+:
+:
+RectanglePrim
 ;
 #
 [

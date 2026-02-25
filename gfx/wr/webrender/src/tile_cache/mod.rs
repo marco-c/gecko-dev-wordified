@@ -384,7 +384,6 @@ prim_store
 {
 ColorBindingStorage
 ColorBindingIndex
-PrimitiveTemplateKind
 }
 ;
 use
@@ -16632,15 +16631,7 @@ animated
 opacity
 .
 let
-PrimitiveTemplateKind
-:
-:
-Rectangle
-{
 color
-.
-.
-}
 =
 data_stores
 .
@@ -16650,6 +16641,8 @@ data_handle
 ]
 .
 kind
+.
+color
 ;
 let
 color

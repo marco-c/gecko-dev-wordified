@@ -516,7 +516,6 @@ api
 :
 {
 ClipMode
-PrimitiveKeyKind
 TransformStyle
 YuvColorSpace
 ColorRange
@@ -802,6 +801,18 @@ prim_store
 :
 :
 PolygonKey
+;
+use
+crate
+:
+:
+prim_store
+:
+:
+rectangle
+:
+:
+RectanglePrim
 ;
 use
 crate
@@ -9466,10 +9477,7 @@ Vec
 new
 (
 )
-PrimitiveKeyKind
-:
-:
-Rectangle
+RectanglePrim
 {
 color
 :
@@ -10294,10 +10302,7 @@ Vec
 new
 (
 )
-PrimitiveKeyKind
-:
-:
-Rectangle
+RectanglePrim
 {
 color
 :
@@ -25889,7 +25894,7 @@ Primitive
 (
 PendingPrimitive
 <
-PrimitiveKeyKind
+RectanglePrim
 >
 )
 TextRun
@@ -26007,7 +26012,7 @@ From
 <
 PendingPrimitive
 <
-PrimitiveKeyKind
+RectanglePrim
 >
 >
 for
@@ -26020,7 +26025,7 @@ container
 :
 PendingPrimitive
 <
-PrimitiveKeyKind
+RectanglePrim
 >
 )
 -
