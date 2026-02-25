@@ -142,6 +142,7 @@ them
 .
 *
 /
+async
 function
 LoadModules
 (
@@ -171,6 +172,7 @@ Ci
 nsIPKCS11ModuleDB
 )
 ;
+await
 RefreshDeviceList
 (
 )
@@ -212,6 +214,7 @@ addEventListener
 "
 command
 "
+async
 event
 =
 >
@@ -263,6 +266,7 @@ case
 load_button
 "
 :
+await
 doLoad
 (
 )
@@ -274,6 +278,7 @@ case
 unload_button
 "
 :
+await
 doUnload
 (
 )
@@ -285,6 +290,7 @@ case
 fipsbutton
 "
 :
+await
 toggleFIPS
 (
 )
@@ -327,6 +333,22 @@ event
 ;
 }
 }
+)
+;
+Services
+.
+obs
+.
+notifyObservers
+(
+window
+"
+device
+-
+manager
+-
+loaded
+"
 )
 ;
 }
@@ -411,6 +433,7 @@ msg
 )
 ;
 }
+async
 function
 RefreshDeviceList
 (
@@ -421,6 +444,7 @@ for
 let
 module
 of
+await
 secmoddb
 .
 listModules
@@ -2227,6 +2251,7 @@ load
 a
 new
 device
+async
 function
 doLoad
 (
@@ -2259,6 +2284,7 @@ ClearDeviceList
 (
 )
 ;
+await
 RefreshDeviceList
 (
 )
@@ -2296,6 +2322,7 @@ warning
 {
 try
 {
+await
 secmoddb
 .
 deleteModule
@@ -2356,6 +2383,7 @@ ClearDeviceList
 (
 )
 ;
+await
 RefreshDeviceList
 (
 )
@@ -2621,6 +2649,7 @@ tok_fwv
 )
 ;
 }
+async
 function
 toggleFIPS
 (
@@ -2811,6 +2840,7 @@ ClearDeviceList
 (
 )
 ;
+await
 RefreshDeviceList
 (
 )
@@ -2823,6 +2853,7 @@ addEventListener
 "
 load
 "
+async
 (
 )
 =

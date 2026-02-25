@@ -325,6 +325,7 @@ called
 .
 *
 /
+async
 function
 onDialogAccept
 (
@@ -382,6 +383,7 @@ nsIPKCS11ModuleDB
 ;
 try
 {
+await
 pkcs11ModuleDB
 .
 addModule

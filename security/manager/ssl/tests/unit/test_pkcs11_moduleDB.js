@@ -83,6 +83,9 @@ do_get_profile
 (
 )
 ;
+add_task
+(
+async
 function
 run_test
 (
@@ -169,6 +172,18 @@ Ci
 nsIPKCS11ModuleDB
 )
 ;
+/
+/
+NB
+:
+These
+throw
+before
+the
+promise
+is
+created
+.
 throws
 (
 (
@@ -288,6 +303,7 @@ for
 let
 module
 of
+await
 moduleDB
 .
 listModules
@@ -333,3 +349,5 @@ name
 )
 ;
 }
+)
+;

@@ -152,6 +152,15 @@ default
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIPKCS11MODULEDB
+static
+already_AddRefed
+<
+PKCS11ModuleDB
+>
+GetSingleton
+(
+)
+;
 protected
 :
 virtual

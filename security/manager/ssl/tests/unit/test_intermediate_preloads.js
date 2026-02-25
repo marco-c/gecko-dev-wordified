@@ -1788,6 +1788,7 @@ BadCertAndPinningServer
 "
 test_intermediate_preloads
 "
+false
 )
 ;
 /

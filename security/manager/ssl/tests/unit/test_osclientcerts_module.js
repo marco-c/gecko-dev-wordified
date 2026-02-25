@@ -172,6 +172,7 @@ ran
 let
 testModule
 =
+await
 checkPKCS11ModuleExists
 (
 "
@@ -284,6 +285,7 @@ the
 module
 list
 .
+await
 checkPKCS11ModuleNotPresent
 (
 "
@@ -381,6 +383,7 @@ autoload
 false
 )
 ;
+await
 checkPKCS11ModuleNotPresent
 (
 "
@@ -448,6 +451,7 @@ autoload
 false
 )
 ;
+await
 checkPKCS11ModuleNotPresent
 (
 "

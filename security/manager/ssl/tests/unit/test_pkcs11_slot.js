@@ -125,6 +125,7 @@ return
 null
 ;
 }
+async
 function
 find_module_by_name
 (
@@ -137,6 +138,7 @@ for
 let
 slot
 of
+await
 moduleDB
 .
 listModules
@@ -305,6 +307,9 @@ getPrompt
 gPrompt
 }
 ;
+add_task
+(
+async
 function
 run_test
 (
@@ -366,6 +371,7 @@ pkcs11testmodule
 )
 )
 ;
+await
 loadPKCS11Module
 (
 libraryFile
@@ -405,6 +411,7 @@ nsIPKCS11ModuleDB
 let
 testModule
 =
+await
 find_module_by_name
 (
 moduleDB
@@ -793,6 +800,7 @@ properties
 let
 internalModule
 =
+await
 find_module_by_name
 (
 moduleDB
@@ -984,3 +992,5 @@ manID
 )
 ;
 }
+)
+;

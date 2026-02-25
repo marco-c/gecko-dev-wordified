@@ -163,6 +163,7 @@ ExtensionUtils
 const
 findModuleByPath
 =
+async
 function
 (
 path
@@ -173,6 +174,7 @@ for
 let
 module
 of
+await
 pkcs11db
 .
 listModules
@@ -669,11 +671,14 @@ name
 )
 ;
 return
+(
+await
 findModuleByPath
 (
 manifest
 .
 path
+)
 )
 !
 =
@@ -832,6 +837,7 @@ value
 )
 ;
 }
+await
 pkcs11db
 .
 addModule
@@ -938,6 +944,7 @@ name
 let
 module
 =
+await
 findModuleByPath
 (
 manifest
@@ -974,6 +981,7 @@ loaded
 )
 ;
 }
+await
 pkcs11db
 .
 deleteModule
@@ -1183,6 +1191,7 @@ name
 let
 module
 =
+await
 findModuleByPath
 (
 manifest
