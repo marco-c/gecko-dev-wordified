@@ -638,6 +638,7 @@ httpOnResourceCacheResponse
 (
 subject
 topic
+memoryCacheKey
 )
 =
 >
@@ -817,6 +818,7 @@ channel
 fromCache
 :
 true
+memoryCacheKey
 networkEventOptions
 :
 {
@@ -977,6 +979,7 @@ onNetworkEventAvailable
 channel
 {
 fromCache
+memoryCacheKey
 networkEventOptions
 type
 }
@@ -1200,6 +1203,20 @@ resource
 ]
 )
 ;
+if
+(
+memoryCacheKey
+)
+{
+networkEventActor
+.
+addMemoryCacheData
+(
+channel
+memoryCacheKey
+)
+;
+}
 networkEventActor
 .
 addCacheDetails
