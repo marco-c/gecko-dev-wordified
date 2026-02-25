@@ -751,7 +751,14 @@ contentThread
 .
 stringTable
 .
-indexOf
+findIndex
+(
+s
+=
+>
+s
+.
+startsWith
 (
 run
 (
@@ -762,6 +769,7 @@ url
 7
 :
 17
+)
 )
 )
 ;
