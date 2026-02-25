@@ -1520,7 +1520,9 @@ incremented
 but
 only
 the
-urlbar_searchmode
+urlbar
+-
+searchmode
 source
 /
 /
@@ -1549,7 +1551,9 @@ MozSearch
 source
 :
 "
-urlbar_searchmode
+urlbar
+-
+searchmode
 "
 count
 :
@@ -2036,7 +2040,9 @@ name
 source
 :
 "
-urlbar_searchmode
+urlbar
+-
+searchmode
 "
 count
 :
