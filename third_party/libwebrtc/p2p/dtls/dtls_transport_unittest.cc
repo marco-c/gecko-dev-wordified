@@ -9723,7 +9723,7 @@ dtls_transport
 )
 -
 >
-GetLocalCertificate
+GetLocalCertificateForTesting
 (
 )
 ;
@@ -9737,7 +9737,7 @@ dtls_transport
 )
 -
 >
-GetLocalCertificate
+GetLocalCertificateForTesting
 (
 )
 ;
@@ -9842,7 +9842,7 @@ dtls_transport
 )
 -
 >
-GetLocalCertificate
+GetLocalCertificateForTesting
 (
 )
 ;
@@ -9856,7 +9856,7 @@ dtls_transport
 )
 -
 >
-GetLocalCertificate
+GetLocalCertificateForTesting
 (
 )
 ;

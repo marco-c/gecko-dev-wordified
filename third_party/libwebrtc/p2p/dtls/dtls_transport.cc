@@ -1807,7 +1807,7 @@ RTCCertificate
 DtlsTransportInternalImpl
 :
 :
-GetLocalCertificate
+GetLocalCertificateForTesting
 (
 )
 const
