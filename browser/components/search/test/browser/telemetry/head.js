@@ -588,13 +588,12 @@ sources
 .
 .
 .
-Object
-.
-keys
-(
 BrowserSearchTelemetry
 .
 KNOWN_SEARCH_SOURCES
+.
+values
+(
 )
 "
 unknown

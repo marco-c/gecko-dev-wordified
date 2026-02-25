@@ -696,7 +696,9 @@ Example
 source
 :
 "
-urlbar_persisted
+urlbar
+-
+persisted
 "
 count
 :
@@ -867,7 +869,9 @@ Example
 source
 :
 "
-urlbar_persisted
+urlbar
+-
+persisted
 "
 count
 :
@@ -1057,7 +1061,9 @@ Example
 source
 :
 "
-urlbar_persisted
+urlbar
+-
+persisted
 "
 count
 :
