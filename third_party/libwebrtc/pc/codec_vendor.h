@@ -494,6 +494,7 @@ with
 void
 ModifyVideoCodecs
 (
+const
 std
 :
 :
@@ -508,6 +509,7 @@ Codec
 Codec
 >
 >
+&
 changes
 )
 ;
