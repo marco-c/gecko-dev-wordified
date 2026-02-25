@@ -1700,7 +1700,6 @@ makeAddressComment
 {
 primary
 secondary
-status
 }
 )
 {
@@ -1712,7 +1711,6 @@ stringify
 {
 primary
 secondary
-status
 ariaLabel
 :
 primary
@@ -1721,11 +1719,6 @@ primary
 "
 +
 secondary
-+
-"
-"
-+
-status
 }
 )
 ;

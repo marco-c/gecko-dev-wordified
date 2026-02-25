@@ -230,7 +230,7 @@ getDisplayedPopupItems
 browser
 )
 [
-2
+1
 ]
 ;
 is
@@ -582,7 +582,7 @@ getDisplayedPopupItems
 browser
 )
 [
-2
+1
 ]
 ;
 is
