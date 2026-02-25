@@ -450,7 +450,7 @@ configuration
 .
     
 #
-browser
+toolkit
 /
 locales
 /
@@ -458,11 +458,13 @@ en
 -
 US
 /
-firefox
--
-l10n
+chrome
+/
+global
+/
+intl
 .
-js
+css
 is
 a
 good
