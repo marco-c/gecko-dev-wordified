@@ -550,6 +550,16 @@ down
 "
 )
 ;
+MOZ_ASSERT
+(
+aTextNode
+-
+>
+IsText
+(
+)
+)
+;
 /
 /
 Ignore
