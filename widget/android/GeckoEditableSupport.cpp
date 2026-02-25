@@ -3429,6 +3429,7 @@ shouldAbort
 =
 [
 =
+this
 ]
 (
 bool
@@ -3951,6 +3952,7 @@ flushOnException
 =
 [
 =
+this
 ]
 (
 )
