@@ -1880,7 +1880,7 @@ realtime_clock_
 Clock
 :
 :
-GetRealTimeClock
+GetRealTimeClockRaw
 (
 )
 )
