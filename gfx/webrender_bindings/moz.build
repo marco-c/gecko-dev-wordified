@@ -544,6 +544,11 @@ webrender
 =
 [
 "
+RenderCompositorLayerNative
+.
+h
+"
+"
 RenderCompositorNative
 .
 h
@@ -553,6 +558,11 @@ SOURCES
 +
 =
 [
+"
+RenderCompositorLayerNative
+.
+cpp
+"
 "
 RenderCompositorNative
 .
