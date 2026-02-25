@@ -1827,6 +1827,13 @@ Deserialize
 )
 )
 ]
+#
+[
+typed_value
+(
+derive_fields
+)
+]
 /
 /
 /
