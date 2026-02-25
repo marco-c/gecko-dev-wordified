@@ -476,7 +476,7 @@ constructor
 )
 .
 class
-FakeIceTransport
+FakeIceTransportInternal
 :
 public
 IceTransportInternal
@@ -484,7 +484,7 @@ IceTransportInternal
 public
 :
 explicit
-FakeIceTransport
+FakeIceTransportInternal
 (
 absl
 :
@@ -566,7 +566,7 @@ shut
 down
 .
 ~
-FakeIceTransport
+FakeIceTransportInternal
 (
 )
 override
@@ -738,10 +738,10 @@ method
 only
 affects
 this
-FakeIceTransport
+/
+/
+FakeIceTransportInternal
 .
-/
-/
 If
 false
 it
@@ -753,7 +753,7 @@ well
 void
 SetDestination
 (
-FakeIceTransport
+FakeIceTransportInternal
 *
 dest
 bool
@@ -870,7 +870,7 @@ false
 void
 SetDestinationNotWritable
 (
-FakeIceTransport
+FakeIceTransportInternal
 *
 dest
 )
@@ -3602,7 +3602,7 @@ const
 int
 component_
 ;
-FakeIceTransport
+FakeIceTransportInternal
 *
 dest_
 RTC_GUARDED_BY
@@ -3931,7 +3931,7 @@ false
 }
 ;
 class
-FakeIceTransportWrapper
+FakeIceTransport
 :
 public
 IceTransportInterface
@@ -3939,14 +3939,14 @@ IceTransportInterface
 public
 :
 explicit
-FakeIceTransportWrapper
+FakeIceTransport
 (
 std
 :
 :
 unique_ptr
 <
-FakeIceTransport
+IceTransportInternal
 >
 internal
 )
@@ -3985,7 +3985,7 @@ std
 :
 unique_ptr
 <
-FakeIceTransport
+IceTransportInternal
 >
 internal_
 ;

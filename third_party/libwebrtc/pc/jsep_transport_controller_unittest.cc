@@ -836,7 +836,7 @@ override
 return
 make_ref_counted
 <
-FakeIceTransportWrapper
+FakeIceTransport
 >
 (
 std
@@ -844,7 +844,7 @@ std
 :
 make_unique
 <
-FakeIceTransport
+FakeIceTransportInternal
 >
 (
 transport_name
@@ -895,7 +895,7 @@ FakeDtlsTransport
 (
 static_cast
 <
-FakeIceTransport
+FakeIceTransportInternal
 *
 >
 (
@@ -4746,7 +4746,7 @@ fake_ice
 =
 static_cast
 <
-FakeIceTransport
+FakeIceTransportInternal
 *
 >
 (
@@ -5301,11 +5301,11 @@ the
 webrtc
 :
 :
-FakeIceTransport
+FakeIceTransportInternal
+/
+/
 will
 set
-/
-/
 the
 transport
 state
@@ -5908,11 +5908,11 @@ the
 webrtc
 :
 :
-FakeIceTransport
+FakeIceTransportInternal
+/
+/
 will
 set
-/
-/
 the
 transport
 state

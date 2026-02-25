@@ -902,7 +902,7 @@ fake_ice_transport_
 reset
 (
 new
-FakeIceTransport
+FakeIceTransportInternal
 (
 absl
 :
@@ -1169,7 +1169,7 @@ info
 )
 ;
 }
-FakeIceTransport
+FakeIceTransportInternal
 *
 fake_ice_transport
 (
@@ -1178,7 +1178,7 @@ fake_ice_transport
 return
 static_cast
 <
-FakeIceTransport
+FakeIceTransportInternal
 *
 >
 (
@@ -2747,7 +2747,7 @@ std
 :
 unique_ptr
 <
-FakeIceTransport
+FakeIceTransportInternal
 >
 fake_ice_transport_
 ;
@@ -5964,7 +5964,7 @@ single
 /
 packet
 .
-FakeIceTransport
+FakeIceTransportInternal
 *
 transport
 =

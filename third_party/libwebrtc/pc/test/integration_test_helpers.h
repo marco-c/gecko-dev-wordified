@@ -8512,7 +8512,7 @@ std
 :
 make_unique
 <
-FakeIceTransport
+FakeIceTransportInternal
 >
 (
 name
@@ -8555,7 +8555,7 @@ std
 :
 unique_ptr
 <
-FakeIceTransport
+FakeIceTransportInternal
 >
 internal_
 ;

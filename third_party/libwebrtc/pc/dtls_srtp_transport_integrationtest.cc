@@ -445,7 +445,7 @@ connected
 by
 a
 *
-FakeIceTransport
+FakeIceTransportInternal
 .
 *
 /
@@ -643,7 +643,7 @@ std
 :
 unique_ptr
 <
-FakeIceTransport
+FakeIceTransportInternal
 >
 MakeIceTransport
 (
@@ -659,7 +659,7 @@ std
 :
 make_unique
 <
-FakeIceTransport
+FakeIceTransportInternal
 >
 (
 "
@@ -719,7 +719,7 @@ DtlsTransportInternalImpl
 >
 MakeDtlsTransport
 (
-FakeIceTransport
+FakeIceTransportInternal
 *
 ice_transport
 )
@@ -1482,7 +1482,7 @@ std
 :
 unique_ptr
 <
-FakeIceTransport
+FakeIceTransportInternal
 >
 client_ice_transport_
 ;
@@ -1491,7 +1491,7 @@ std
 :
 unique_ptr
 <
-FakeIceTransport
+FakeIceTransportInternal
 >
 server_ice_transport_
 ;
