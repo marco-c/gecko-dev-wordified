@@ -550,7 +550,7 @@ NS_NewXMLFragmentContentSink
 nsIFragmentContentSink
 *
 *
-aInstancePtrResult
+aResult
 )
 ;
 #
