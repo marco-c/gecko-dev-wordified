@@ -3444,6 +3444,11 @@ RelayServerConfig
 turn_servers
 )
 ;
+void
+CloseOnNetworkThread
+(
+)
+;
 JsepTransportController
 *
 InitializeTransportController_n

@@ -1497,13 +1497,7 @@ if
 on_candidate_pool_discarded_
 )
 {
-std
-:
-:
-move
-(
 on_candidate_pool_discarded_
-)
 (
 )
 ;
@@ -1520,8 +1514,6 @@ AnyInvocable
 void
 (
 )
-&
-&
 >
 on_candidate_pool_discarded
 )
@@ -1580,8 +1572,6 @@ AnyInvocable
 void
 (
 )
-&
-&
 >
 on_candidate_pool_discarded_
 ;
