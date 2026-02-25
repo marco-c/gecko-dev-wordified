@@ -580,7 +580,6 @@ jit
 :
 AssemblerBufferWithConstantPools
 <
-1024
 4
 Instruction
 MozBaseAssembler
