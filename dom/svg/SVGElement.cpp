@@ -7146,7 +7146,7 @@ aValToUse
 float
 value
 ;
-uint8_t
+uint16_t
 units
 ;
 if

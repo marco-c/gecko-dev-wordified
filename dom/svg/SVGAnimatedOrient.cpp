@@ -529,9 +529,8 @@ mDoSetAttr
 ;
 }
 ;
-const
-unsigned
-short
+constexpr
+uint16_t
 SVG_ANGLETYPE_TURN
 =
 5
@@ -920,7 +919,7 @@ SVGAnimatedOrient
 :
 GetDegreesPerUnit
 (
-uint8_t
+uint16_t
 aUnit
 )
 {
@@ -1704,7 +1703,7 @@ SetBaseValue
 (
 float
 aValue
-uint8_t
+uint16_t
 aUnit
 SVGElement
 *
@@ -1901,7 +1900,7 @@ SetAnimValue
 (
 float
 aValue
-uint8_t
+uint16_t
 aUnit
 SVGElement
 *
