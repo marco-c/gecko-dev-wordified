@@ -1792,27 +1792,22 @@ inline
 pub
 unsafe
 fn
-%
-(
+{
 name
-)
-s
+}
 (
 &
 self
-%
-(
+{
 params
-)
-s
+}
 )
 -
 >
-%
-(
+{
 ret_ty
-)
-s
+}
+{
 {
     
 (
@@ -1823,20 +1818,17 @@ self
 vtable
 )
 .
-%
-(
+{
 name
-)
-s
+}
 )
 (
 self
-%
-(
+{
 args
+}
 )
-s
-)
+}
 }
 "
 "
@@ -1902,22 +1894,16 @@ param_list
         
 return
 method_impl_tmpl
-%
-{
-            
-"
-name
-"
-:
-methodNativeName
+.
+format
 (
-m
-)
             
-"
+name
+=
+name
+            
 params
-"
-:
+=
 "
 "
 .
@@ -1926,19 +1912,15 @@ join
 params
 )
             
-"
 ret_ty
-"
-:
+=
 methodReturnType
 (
 m
 )
             
-"
 args
-"
-:
+=
 "
 "
 .
@@ -1947,7 +1929,7 @@ join
 args
 )
         
-}
+)
     
 except
 xpidl
@@ -2009,22 +1991,19 @@ inline
 pub
 unsafe
 fn
-%
-(
+{
 name
-)
-s
+}
 (
 &
 self
 )
 -
 >
-%
-(
+{
 realtype
-)
-s
+}
+{
 {
     
 let
@@ -2032,11 +2011,9 @@ mut
 result
 =
 <
-%
-(
+{
 realtype
-)
-s
+}
 as
 :
 :
@@ -2066,11 +2043,9 @@ self
 vtable
 )
 .
-%
-(
+{
 name
-)
-s
+}
 )
 (
 self
@@ -2092,6 +2067,7 @@ succeeded
 ;
     
 result
+}
 }
 "
 "
@@ -2198,19 +2174,16 @@ code
             
 return
 infallible_impl_tmpl
-%
-{
+.
+format
+(
                 
-"
 name
-"
-:
+=
 name
                 
-"
 realtype
-"
-:
+=
 m
 .
 realtype
@@ -2222,7 +2195,7 @@ in
 "
 )
             
-}
+)
         
 param_list
 =
@@ -2255,19 +2228,16 @@ param_list
         
 return
 method_impl_tmpl
-%
-{
+.
+format
+(
             
-"
 name
-"
-:
+=
 name
             
-"
 params
-"
-:
+=
 "
 "
 .
@@ -2276,20 +2246,16 @@ join
 params
 )
             
-"
 ret_ty
-"
-:
+=
 attributeReturnType
 (
 m
 getter
 )
             
-"
 args
-"
-:
+=
 "
 "
 if
@@ -2301,7 +2267,7 @@ notxpcom
 else
 param_name
         
-}
+)
     
 except
 xpidl
@@ -2371,11 +2337,9 @@ GENERATED
 FROM
 SRCDIR
 /
-%
-(
+{
 relpath
-)
-s
+}
 /
 /
 "
@@ -2447,14 +2411,13 @@ fd
 write
 (
 header
-%
-{
-"
+.
+format
+(
 relpath
-"
-:
+=
 relpath
-}
+)
 )
     
 #
@@ -2726,8 +2689,10 @@ definition
 pub
 __base
 :
-%
-sVTable
+{
+name
+}
+VTable
 "
 "
 "
@@ -2766,11 +2731,9 @@ the
 beginning
 of
 every
-%
-(
+{
 name
-)
-s
+}
 /
 /
 object
@@ -2827,22 +2790,19 @@ C
 ]
 pub
 struct
-%
-(
-name
-)
-sVTable
 {
-%
-(
+name
+}
+VTable
+{
+{
+{
 base
-)
-s
-%
-(
+}
+{
 entries
-)
-s
+}
+}
 }
 "
 "
@@ -2934,21 +2894,18 @@ ops
 :
 Deref
 for
-%
-(
+{
 name
-)
-s
+}
+{
 {
     
 type
 Target
 =
-%
-(
+{
 base
-)
-s
+}
 ;
     
 #
@@ -2965,14 +2922,14 @@ self
 -
 >
 &
-%
-(
+{
 base
-)
-s
+}
+{
 {
         
 unsafe
+{
 {
             
 :
@@ -2989,7 +2946,10 @@ self
 )
         
 }
+}
     
+}
+}
 }
 }
 /
@@ -3034,19 +2994,18 @@ impl
 <
 T
 :
-%
-(
+{
 base
-)
-sCoerce
+}
+Coerce
 >
-%
-(
+{
 name
-)
-sCoerce
+}
+Coerce
 for
 T
+{
 {
     
 #
@@ -3060,16 +3019,15 @@ coerce_from
 v
 :
 &
-%
-(
+{
 name
-)
-s
+}
 )
 -
 >
 &
 Self
+{
 {
         
 T
@@ -3080,6 +3038,8 @@ coerce_from
 v
 )
     
+}
+}
 }
 }
 "
@@ -3145,11 +3105,10 @@ C
 ]
 pub
 struct
-%
-(
+{
 name
-)
-s
+}
+{
 {
     
 vtable
@@ -3157,11 +3116,10 @@ vtable
 &
 '
 static
-%
-(
+{
 name
-)
-sVTable
+}
+VTable
     
 /
 /
@@ -3485,6 +3443,7 @@ u8
 ]
 >
 }
+}
 /
 /
 Implementing
@@ -3520,21 +3479,18 @@ that
 /
 method
 for
-%
-(
+{
 name
-)
-s
+}
 .
 unsafe
 impl
 XpCom
 for
-%
-(
+{
 name
-)
-s
+}
+{
 {
     
 const
@@ -3545,33 +3501,26 @@ nsIID
 nsID
 (
 0x
-%
-(
+{
 m0
-)
-s
+}
 0x
-%
-(
+{
 m1
-)
-s
+}
 0x
-%
-(
+{
 m2
-)
-s
+}
                             
 [
-%
-(
+{
 m3joined
-)
-s
+}
 ]
 )
 ;
+}
 }
 /
 /
@@ -3606,11 +3555,10 @@ unsafe
 impl
 RefCounted
 for
-%
-(
+{
 name
-)
-s
+}
+{
 {
     
 #
@@ -3626,6 +3574,7 @@ addref
 self
 )
 {
+{
         
 self
 .
@@ -3634,6 +3583,7 @@ AddRef
 )
 ;
     
+}
 }
     
 #
@@ -3649,6 +3599,7 @@ release
 self
 )
 {
+{
         
 self
 .
@@ -3657,6 +3608,8 @@ Release
 )
 ;
     
+}
+}
 }
 }
 /
@@ -3674,11 +3627,9 @@ be
 coerced
 to
 from
-%
-(
+{
 name
-)
-s
+}
 .
 /
 /
@@ -3720,11 +3671,11 @@ hidden
 ]
 pub
 trait
-%
-(
+{
 name
-)
-sCoerce
+}
+Coerce
+{
 {
     
 /
@@ -3739,11 +3690,9 @@ this
 type
 from
 a
-%
-(
+{
 name
-)
-s
+}
 .
     
 fn
@@ -3752,17 +3701,16 @@ coerce_from
 v
 :
 &
-%
-(
+{
 name
-)
-s
+}
 )
 -
 >
 &
 Self
 ;
+}
 }
 /
 /
@@ -3779,17 +3727,15 @@ to
 ourselves
 .
 impl
-%
-(
+{
 name
-)
-sCoerce
+}
+Coerce
 for
-%
-(
+{
 name
-)
-s
+}
+{
 {
     
 #
@@ -3803,28 +3749,28 @@ coerce_from
 v
 :
 &
-%
-(
+{
 name
-)
-s
+}
 )
 -
 >
 &
 Self
 {
+{
         
 v
     
 }
 }
+}
+}
 impl
-%
-(
+{
 name
-)
-s
+}
+{
 {
     
 /
@@ -3832,11 +3778,9 @@ s
 /
 Cast
 this
-%
-(
+{
 name
-)
-s
+}
 to
 one
 of
@@ -3856,11 +3800,10 @@ coerce
 <
 T
 :
-%
-(
+{
 name
-)
-sCoerce
+}
+Coerce
 >
 (
 &
@@ -3871,6 +3814,7 @@ self
 &
 T
 {
+{
         
 T
 :
@@ -3880,6 +3824,8 @@ coerce_from
 self
 )
     
+}
+}
 }
 }
 "
@@ -3941,23 +3887,23 @@ unsafe
 impl
 Send
 for
-%
-(
-name
-)
-s
 {
+name
+}
+{
+{
+}
 }
 unsafe
 impl
 Sync
 for
-%
-(
-name
-)
-s
 {
+name
+}
+{
+{
+}
 }
 "
 "
@@ -3998,22 +3944,18 @@ VTable
 struct
 .
 impl
-%
-(
-name
-)
-s
 {
-%
-(
+name
+}
+{
+{
+{
 consts
-)
-s
-%
-(
+}
+{
 methods
-)
-s
+}
+}
 }
 "
 "
@@ -4026,18 +3968,14 @@ vtable_entry_tmpl
 \
 /
 *
-%
-(
+{
 idl
-)
-s
+}
 *
 /
-%
-(
+{
 entry
-)
-s
+}
 "
 "
 "
@@ -4047,30 +3985,22 @@ const_wrapper_tmpl
 "
 "
 \
-%
-(
+{
 docs
-)
-s
+}
 pub
 const
-%
-(
+{
 name
-)
-s
+}
 :
-%
-(
+{
 type
-)
-s
+}
 =
-%
-(
+{
 val
-)
-s
+}
 ;
 "
 "
@@ -4081,24 +4011,18 @@ method_wrapper_tmpl
 "
 "
 \
-%
-(
+{
 docs
-)
-s
+}
 /
 /
 /
-%
-(
+{
 idl
-)
-s
-%
-(
+}
+{
 wrapper
-)
-s
+}
 "
 "
 "
@@ -4446,8 +4370,13 @@ fd
 write
 (
 struct_tmpl
-%
+.
+format
+(
+*
+*
 names
+)
 )
     
 if
@@ -4463,16 +4392,15 @@ fd
 write
 (
 sendsync_tmpl
-%
-{
-"
+.
+format
+(
 name
-"
-:
+=
 iface
 .
 name
-}
+)
 )
     
 if
@@ -4490,27 +4418,23 @@ write
 (
             
 deref_tmpl
-            
-%
-{
+.
+format
+(
                 
-"
 name
-"
-:
+=
 iface
 .
 name
                 
-"
 base
-"
-:
+=
 iface
 .
 base
             
-}
+)
         
 )
     
@@ -4544,24 +4468,20 @@ append
 (
                 
 vtable_entry_tmpl
-                
-%
-{
+.
+format
+(
                     
-"
 idl
-"
-:
+=
 member
 .
 toIDL
 (
 )
                     
-"
 entry
-"
-:
+=
 attrAsVTableEntry
 (
 iface
@@ -4569,7 +4489,7 @@ member
 True
 )
                 
-}
+)
             
 )
             
@@ -4586,24 +4506,20 @@ append
 (
                     
 vtable_entry_tmpl
-                    
-%
-{
+.
+format
+(
                         
-"
 idl
-"
-:
+=
 member
 .
 toIDL
 (
 )
                         
-"
 entry
-"
-:
+=
 attrAsVTableEntry
 (
 iface
@@ -4611,7 +4527,7 @@ member
 False
 )
                     
-}
+)
                 
 )
         
@@ -4632,31 +4548,27 @@ append
 (
                 
 vtable_entry_tmpl
-                
-%
-{
+.
+format
+(
                     
-"
 idl
-"
-:
+=
 member
 .
 toIDL
 (
 )
                     
-"
 entry
-"
-:
+=
 methodAsVTableEntry
 (
 iface
 member
 )
                 
-}
+)
             
 )
     
@@ -4666,27 +4578,29 @@ write
 (
         
 vtable_tmpl
-        
-%
-{
+.
+format
+(
             
-"
 name
-"
-:
+=
 iface
 .
 name
             
-"
 base
-"
-:
+=
 base_vtable_tmpl
-%
+.
+format
+(
+name
+=
 iface
 .
 base
+)
+            
 if
 iface
 .
@@ -4694,14 +4608,13 @@ base
 is
 not
 None
+            
 else
 "
 "
             
-"
 entries
-"
-:
+=
 "
 \
 n
@@ -4712,7 +4625,7 @@ join
 entries
 )
         
-}
+)
     
 )
     
@@ -4753,14 +4666,12 @@ append
 (
                 
 const_wrapper_tmpl
-                
-%
-{
+.
+format
+(
                     
-"
 docs
-"
-:
+=
 doccomments
 (
 member
@@ -4768,10 +4679,8 @@ member
 doccomments
 )
                     
-"
 type
-"
-:
+=
 member
 .
 realtype
@@ -4783,25 +4692,21 @@ in
 "
 )
                     
-"
 name
-"
-:
+=
 member
 .
 name
                     
-"
 val
-"
-:
+=
 member
 .
 getValue
 (
 )
                 
-}
+)
             
 )
         
@@ -4830,21 +4735,17 @@ append
 (
                     
 const_wrapper_tmpl
-                    
-%
-{
+.
+format
+(
                         
-"
 docs
-"
-:
+=
 "
 "
                         
-"
 type
-"
-:
+=
 member
 .
 rustType
@@ -4854,25 +4755,21 @@ in
 "
 )
                         
-"
 name
-"
-:
+=
 var
 .
 name
                         
-"
 val
-"
-:
+=
 var
 .
 getValue
 (
 )
                     
-}
+)
                 
 )
     
@@ -4906,14 +4803,12 @@ append
 (
                 
 method_wrapper_tmpl
-                
-%
-{
+.
+format
+(
                     
-"
 docs
-"
-:
+=
 doccomments
 (
 member
@@ -4921,20 +4816,16 @@ member
 doccomments
 )
                     
-"
 idl
-"
-:
+=
 member
 .
 toIDL
 (
 )
                     
-"
 wrapper
-"
-:
+=
 attrAsWrapper
 (
 iface
@@ -4942,7 +4833,7 @@ member
 True
 )
                 
-}
+)
             
 )
             
@@ -4959,14 +4850,12 @@ append
 (
                     
 method_wrapper_tmpl
-                    
-%
-{
+.
+format
+(
                         
-"
 docs
-"
-:
+=
 doccomments
 (
 member
@@ -4974,20 +4863,16 @@ member
 doccomments
 )
                         
-"
 idl
-"
-:
+=
 member
 .
 toIDL
 (
 )
                         
-"
 wrapper
-"
-:
+=
 attrAsWrapper
 (
 iface
@@ -4995,7 +4880,7 @@ member
 False
 )
                     
-}
+)
                 
 )
         
@@ -5016,14 +4901,12 @@ append
 (
                 
 method_wrapper_tmpl
-                
-%
-{
+.
+format
+(
                     
-"
 docs
-"
-:
+=
 doccomments
 (
 member
@@ -5031,27 +4914,23 @@ member
 doccomments
 )
                     
-"
 idl
-"
-:
+=
 member
 .
 toIDL
 (
 )
                     
-"
 wrapper
-"
-:
+=
 methodAsWrapper
 (
 iface
 member
 )
                 
-}
+)
             
 )
     
@@ -5061,22 +4940,18 @@ write
 (
         
 wrapper_tmpl
-        
-%
-{
+.
+format
+(
             
-"
 name
-"
-:
+=
 iface
 .
 name
             
-"
 consts
-"
-:
+=
 "
 \
 n
@@ -5087,10 +4962,8 @@ join
 consts
 )
             
-"
 methods
-"
-:
+=
 "
 \
 n
@@ -5101,6 +4974,6 @@ join
 methods
 )
         
-}
+)
     
 )
