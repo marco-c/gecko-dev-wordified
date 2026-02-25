@@ -383,6 +383,7 @@ property
 )
 ;
 }
+async
 onMouseOver
 (
 event
@@ -408,6 +409,7 @@ shiftKey
 HIGHLIGHT_RULE_PREF
 )
 {
+await
 onShowRulePreviewTooltip
 (
 event

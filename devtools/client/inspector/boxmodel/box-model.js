@@ -1788,6 +1788,7 @@ property
 .
 *
 /
+async
 onShowRulePreviewTooltip
 (
 target
@@ -1795,7 +1796,9 @@ property
 )
 {
 const
-ruleView
+{
+highlightProperty
+}
 =
 this
 .
@@ -1813,8 +1816,7 @@ view
 const
 isHighlighted
 =
-ruleView
-.
+await
 highlightProperty
 (
 property

@@ -2446,7 +2446,6 @@ hasHigherPriority
 =
 this
 .
-#
 hasHigherPriorityThanEarlierProp
 (
 computedProp
@@ -2458,7 +2457,6 @@ startingStyleHasHigherPriority
 =
 this
 .
-#
 hasHigherPriorityThanEarlierProp
 (
 computedProp
@@ -3649,7 +3647,6 @@ returns
 Boolean
 *
 /
-#
 hasHigherPriorityThanEarlierProp
 (
 computedProp
