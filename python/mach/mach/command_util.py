@@ -701,6 +701,27 @@ py
 )
     
 "
+coverage
+-
+report
+"
+:
+MachCommandReference
+(
+"
+tools
+/
+code
+-
+coverage
+/
+mach_commands
+.
+py
+"
+)
+    
+"
 cppunittest
 "
 :
