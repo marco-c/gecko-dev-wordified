@@ -929,9 +929,9 @@ searchModeSwitcherPopupClosed
 window
 )
 ;
-popup
+EventUtils
 .
-activateItem
+synthesizeMouseAtCenter
 (
 item
 {
@@ -1115,9 +1115,9 @@ searchModeSwitcherPopupClosed
 window
 )
 ;
-popup
+EventUtils
 .
-activateItem
+synthesizeMouseAtCenter
 (
 item
 {
@@ -1314,9 +1314,9 @@ searchModeSwitcherPopupClosed
 window
 )
 ;
-popup
+EventUtils
 .
-activateItem
+synthesizeMouseAtCenter
 (
 item
 {
