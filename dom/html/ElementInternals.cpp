@@ -389,6 +389,11 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsIConstraintValidation
 )
+NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
+(
+nsISupports
+nsIFormControl
+)
 NS_INTERFACE_MAP_END
 ElementInternals
 :
