@@ -1613,14 +1613,6 @@ LookupBinding
 ;
 class
 TestConnectionWrapper
-:
-public
-sigslot
-:
-:
-has_slots
-<
->
 {
 public
 :
@@ -1665,7 +1657,6 @@ connection
 TestConnectionWrapper
 (
 )
-override
 {
 if
 (

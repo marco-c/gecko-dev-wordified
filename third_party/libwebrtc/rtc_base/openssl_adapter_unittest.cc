@@ -610,14 +610,6 @@ testing
 .
 class
 SSLConnectionHandler
-:
-public
-sigslot
-:
-:
-has_slots
-<
->
 {
 public
 :
