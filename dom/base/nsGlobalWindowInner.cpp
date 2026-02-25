@@ -17247,6 +17247,16 @@ const
 SynthesizeTouchEventOptions
 &
 aOptions
+const
+Optional
+<
+OwningNonNull
+<
+VoidFunction
+>
+>
+&
+aCallback
 mozilla
 :
 :
@@ -17378,6 +17388,7 @@ aType
 aTouches
 aModifiers
 aOptions
+aCallback
 )
 ;
 if
