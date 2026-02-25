@@ -1829,9 +1829,6 @@ LS_INFO
 <
 <
 "
-video
-capture
-:
 WindowCapturerX11
 :
 :
