@@ -223,6 +223,9 @@ mImagePlacement
 =
 eInline
 ;
+nsString
+mImagePathUnchecked
+;
 }
 ;
 class
