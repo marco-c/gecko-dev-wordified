@@ -574,6 +574,7 @@ null
 false
 testBackupPath
 recoveredProfilePath
+true
 )
 err
 =

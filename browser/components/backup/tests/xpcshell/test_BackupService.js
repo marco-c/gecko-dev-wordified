@@ -1933,6 +1933,7 @@ null
 false
 fakeProfilePath
 recoveredProfilePath
+true
 )
 ;
 Assert
