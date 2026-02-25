@@ -987,11 +987,6 @@ nightly
 "
 beta
 "
-"
-release
--
-rc
-"
 )
 :
             

@@ -803,17 +803,11 @@ nightly
     
 elif
 release_type
-in
-{
+=
+=
 "
 release
 "
-"
-release
--
-rc
-"
-}
 :
         
 return
