@@ -856,7 +856,7 @@ path
 true
 /
 *
-shouldLaunch
+shouldLaunchOrQuit
 *
 /
 )
@@ -1417,7 +1417,7 @@ recoveryCode
 true
 /
 *
-shouldLaunch
+shouldLaunchOrQuit
 *
 /
 )
