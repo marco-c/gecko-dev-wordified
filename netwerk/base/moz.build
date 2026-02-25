@@ -986,11 +986,6 @@ MockNetworkLayerController
 cpp
 "
 "
-NeckoIOLayer
-.
-cpp
-"
-"
 NetworkConnectivityService
 .
 cpp

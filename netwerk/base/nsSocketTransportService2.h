@@ -984,14 +984,6 @@ IsTelemetryEnabledAndNotSleepPhase
 (
 )
 ;
-nsresult
-AttachNeckoIOLayer
-(
-PRFileDesc
-*
-aFd
-)
-;
 PRIntervalTime
 MaxTimeForPrClosePref
 (
@@ -3505,4 +3497,4 @@ endif
 /
 /
 !
-nsSocketTransportService_h_
+nsSocketTransportService_h__
