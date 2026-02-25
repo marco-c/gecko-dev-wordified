@@ -253,6 +253,16 @@ js
 -
 input
 /
+normalizer_bench
+.
+html
+"
+    
+"
+js
+-
+input
+/
 sunspider
 /
 3d
