@@ -216,7 +216,10 @@ the
 object
 '
 s
-group
+shape
+-
+>
+base
 -
 >
 clasp
