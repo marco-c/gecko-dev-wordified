@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2024
+2025
 The
 WebRTC
 project
@@ -88,11 +88,11 @@ tree
 #
 include
 "
-modules
+api
 /
-video_coding
+video
 /
-utility
+corruption_detection
 /
 corruption_detection_settings_generator
 .
