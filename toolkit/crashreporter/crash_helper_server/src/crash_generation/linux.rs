@@ -79,7 +79,7 @@ messages
 {
 self
 }
-Pid
+GeckoChildId
 }
 ;
 use
@@ -146,7 +146,7 @@ Mutex
 <
 HashMap
 <
-Pid
+GeckoChildId
 DirectAuxvDumpInfo
 >
 >
@@ -211,7 +211,7 @@ insert
 (
 message
 .
-pid
+id
 message
 .
 auxv_info
@@ -269,7 +269,7 @@ remove
 &
 message
 .
-pid
+id
 )
 ;
 Ok
@@ -290,9 +290,9 @@ C
 fn
 get_auxv_info
 (
-pid
+id
 :
-Pid
+GeckoChildId
 auxv_info_ptr
 :
 *
@@ -330,7 +330,7 @@ map
 get
 (
 &
-pid
+id
 )
 {
 /
