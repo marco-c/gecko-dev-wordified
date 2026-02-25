@@ -349,6 +349,15 @@ mjs
 "
 resources
 /
+SelectableProfileBackupResource
+.
+sys
+.
+mjs
+"
+"
+resources
+/
 SessionStoreBackupResource
 .
 sys
