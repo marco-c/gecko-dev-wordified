@@ -1426,9 +1426,9 @@ test
 name
 :
 {
+name
 }
 "
-name
 )
 )
 }

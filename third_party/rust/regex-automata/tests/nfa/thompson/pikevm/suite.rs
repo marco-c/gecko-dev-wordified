@@ -1009,9 +1009,9 @@ test
 name
 :
 {
+name
 }
 "
-name
 )
 )
 }

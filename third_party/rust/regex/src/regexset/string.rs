@@ -5724,7 +5724,7 @@ Note
 that
 SetMatches
 also
-implemnets
+implements
 the
 IntoIterator
 trait

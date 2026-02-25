@@ -154,7 +154,7 @@ a
 limit
 has
 been
-breeched
+breached
 .
 For
 /
@@ -1305,6 +1305,7 @@ attempted
 to
 compile
 {
+given
 }
 patterns
 \
@@ -1314,10 +1315,9 @@ the
 limit
 of
 {
+limit
 }
 "
-given
-limit
 )
 BuildErrorKind
 :
@@ -1338,6 +1338,7 @@ attempted
 to
 compile
 {
+given
 }
 NFA
 states
@@ -1348,10 +1349,9 @@ the
 limit
 of
 {
+limit
 }
 "
-given
-limit
 )
 BuildErrorKind
 :
@@ -1376,9 +1376,9 @@ exceeded
 limit
 of
 {
+limit
 }
 "
-limit
 )
 BuildErrorKind
 :
@@ -1398,9 +1398,11 @@ capture
 group
 index
 {
+index
 }
 is
 invalid
+\
 (
 too
 big
@@ -1408,7 +1410,6 @@ or
 discontinuous
 )
 "
-index
 )
 #
 [
