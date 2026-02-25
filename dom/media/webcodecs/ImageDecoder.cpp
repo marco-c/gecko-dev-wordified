@@ -3078,12 +3078,6 @@ return
 nullptr
 ;
 }
-RefPtr
-<
-ImageDecoderReadRequest
->
-readRequest
-;
 if
 (
 aInit
