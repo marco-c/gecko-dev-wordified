@@ -682,14 +682,13 @@ central
 lambda
 params
 :
-(
-        
 params
 [
 "
 project
 "
 ]
+    
 in
 (
 "
@@ -700,8 +699,6 @@ central
 "
 toolchains
 "
-)
-    
 )
     
 "

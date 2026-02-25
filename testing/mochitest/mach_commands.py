@@ -4082,7 +4082,6 @@ return
 os
 .
 path
-        
 .
 normpath
 (

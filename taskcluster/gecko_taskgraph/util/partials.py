@@ -706,7 +706,6 @@ artifact
 details
 in
 release_history
-        
 .
 get
 (

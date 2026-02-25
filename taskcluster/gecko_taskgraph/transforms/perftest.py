@@ -2859,7 +2859,6 @@ if
 config
 .
 params
-                
 .
 get
 (

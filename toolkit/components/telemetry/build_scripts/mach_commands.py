@@ -810,9 +810,15 @@ join
 map
 (
                                 
+lambda
+b
+:
 BUG_URL_TEMPLATE
 .
 format
+(
+b
+)
                                 
 e
 .
@@ -1474,9 +1480,15 @@ join
 map
 (
                         
+lambda
+b
+:
 BUG_URL_TEMPLATE
 .
 format
+(
+b
+)
                         
 s
 .

@@ -2948,7 +2948,6 @@ version_info
 (
             
 subprocess
-            
 .
 check_output
 (

@@ -165,7 +165,6 @@ return
 os
 .
 path
-        
 .
 normpath
 (
@@ -314,7 +313,6 @@ return
 os
 .
 path
-        
 .
 normpath
 (
@@ -467,7 +465,6 @@ return
 os
 .
 path
-        
 .
 normpath
 (

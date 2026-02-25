@@ -11184,12 +11184,11 @@ get_filename_in_manifest
 (
 manifest
 .
-rsplit
+split
 (
 "
 :
 "
-1
 )
 [
 -
@@ -11521,12 +11520,11 @@ str
 =
 path
 .
-rsplit
+split
 (
 "
 :
 "
-1
 )
 [
 -
@@ -15783,7 +15781,6 @@ permutations
 self
 .
 platform_permutations
-                        
 .
 get
 (

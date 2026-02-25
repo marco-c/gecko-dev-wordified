@@ -474,13 +474,11 @@ until
 lambda
 mn
 :
-(
-                
 mn
 .
 execute_script
 (
-                    
+                
 "
 "
 "
@@ -513,14 +511,12 @@ length
 "
 "
 "
-                
+            
 )
-                
+            
 =
 =
 2
-            
-)
         
 )
 class
@@ -714,13 +710,11 @@ until
 lambda
 mn
 :
-(
-                
 mn
 .
 execute_script
 (
-                    
+                
 "
 "
 "
@@ -753,13 +747,11 @@ length
 "
 "
 "
-                
+            
 )
-                
+            
 =
 =
 3
-            
-)
         
 )
