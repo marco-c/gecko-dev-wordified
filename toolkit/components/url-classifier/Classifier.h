@@ -703,6 +703,12 @@ nsIFile
 aPrivateStoreDirectory
 )
 ;
+static
+bool
+IsRealTimeModeEnabled
+(
+)
+;
 /
 /
 Swap
