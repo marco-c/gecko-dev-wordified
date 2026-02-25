@@ -711,6 +711,9 @@ Option
 <
 DeviceRect
 >
+offset
+:
+LayoutVector2D
 ctx
 :
 &
@@ -804,6 +807,8 @@ node
 let
 offset
 =
+offset
++
 self
 .
 common

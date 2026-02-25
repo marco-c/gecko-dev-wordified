@@ -787,6 +787,9 @@ Option
 <
 DeviceRect
 >
+offset
+:
+LayoutVector2D
 ctx
 :
 &
@@ -908,6 +911,8 @@ min
 to_vector
 (
 )
++
+offset
 ;
 radial_gradient_pattern
 (

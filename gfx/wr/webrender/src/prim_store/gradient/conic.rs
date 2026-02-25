@@ -770,6 +770,9 @@ Option
 <
 DeviceRect
 >
+offset
+:
+LayoutVector2D
 _ctx
 :
 &
@@ -887,6 +890,8 @@ min
 to_vector
 (
 )
++
+offset
 ;
 conic_gradient_pattern
 (
