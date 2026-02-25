@@ -131,6 +131,17 @@ h
 #
 include
 "
+api
+/
+task_queue
+/
+task_queue_base
+.
+h
+"
+#
+include
+"
 modules
 /
 rtp_rtcp
