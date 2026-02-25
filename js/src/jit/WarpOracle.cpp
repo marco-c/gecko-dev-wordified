@@ -5448,7 +5448,7 @@ RealmFuses
 FuseIndex
 :
 :
-OptimizeGetIteratorFuse
+OptimizeGetIteratorBytecodeFuse
 :
 {
 using
@@ -5460,14 +5460,14 @@ RealmFuseDependency
 RealmFuses
 :
 :
-optimizeGetIteratorFuse
+optimizeGetIteratorBytecodeFuse
 CompilationDependency
 :
 :
 Type
 :
 :
-GetIterator
+GetIteratorBytecode
 >
 ;
 return

@@ -3145,7 +3145,7 @@ RealmFuses
 FuseIndex
 :
 :
-OptimizeGetIteratorFuse
+OptimizeGetIteratorBytecodeFuse
 :
 case
 RealmFuses

@@ -171,7 +171,7 @@ enum
 class
 Type
 {
-GetIterator
+GetIteratorBytecode
 ArraySpecies
 TypedArraySpecies
 RegExpPrototype
