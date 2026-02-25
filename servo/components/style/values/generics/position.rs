@@ -1762,6 +1762,13 @@ repr
 C
 )
 ]
+#
+[
+typed_value
+(
+derive_fields
+)
+]
 pub
 enum
 GenericInset
@@ -2181,6 +2188,7 @@ ToComputedValue
 ToResolvedValue
 Serialize
 Deserialize
+ToTyped
 )
 ]
 #
