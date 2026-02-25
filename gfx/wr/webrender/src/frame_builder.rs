@@ -697,14 +697,6 @@ pub
 precise_linear_gradients
 :
 bool
-pub
-precise_radial_gradients
-:
-bool
-pub
-precise_conic_gradients
-:
-bool
 }
 /
 /
