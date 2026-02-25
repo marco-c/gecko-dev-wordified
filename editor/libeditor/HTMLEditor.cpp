@@ -34226,8 +34226,12 @@ unwrapBlockElementResult
 }
 trackPointToPutCaret
 .
-FlushAndStopTracking
+Flush
 (
+StopTracking
+:
+:
+Yes
 )
 ;
 if

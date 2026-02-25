@@ -5980,8 +5980,11 @@ void
 AutoTrackLineBreak
 :
 :
-FlushAndStopTracking
+Flush
 (
+enum
+StopTracking
+aStopTracking
 )
 {
 if
@@ -5995,8 +5998,9 @@ return
 }
 mTracker
 .
-FlushAndStopTracking
+Flush
 (
+aStopTracking
 )
 ;
 if

@@ -17893,8 +17893,12 @@ propagateErr
 }
 trackingNewCaretPosition
 .
-FlushAndStopTracking
+Flush
 (
+StopTracking
+:
+:
+Yes
 )
 ;
 if
