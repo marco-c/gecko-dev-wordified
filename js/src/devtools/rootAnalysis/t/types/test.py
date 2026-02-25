@@ -98,9 +98,9 @@ load_typeInfo
 (
 )
 [
-'
+"
 SingleGCField
-'
+"
 ]
 assert
 "
