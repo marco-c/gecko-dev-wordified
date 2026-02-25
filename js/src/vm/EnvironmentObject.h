@@ -10719,6 +10719,17 @@ ei
 ;
 static
 void
+onPopWasm
+(
+JSContext
+*
+cx
+AbstractFramePtr
+frame
+)
+;
+static
+void
 onRealmUnsetIsDebuggee
 (
 Realm
