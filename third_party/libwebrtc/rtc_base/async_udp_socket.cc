@@ -560,7 +560,7 @@ pv
 cb
 )
 ;
-SignalSentPacket
+NotifySentPacket
 (
 this
 sent_packet
@@ -718,7 +718,7 @@ cb
 addr
 )
 ;
-SignalSentPacket
+NotifySentPacket
 (
 this
 sent_packet
@@ -1206,7 +1206,7 @@ Socket
 socket
 )
 {
-SignalReadyToSend
+NotifyReadyToSend
 (
 this
 )

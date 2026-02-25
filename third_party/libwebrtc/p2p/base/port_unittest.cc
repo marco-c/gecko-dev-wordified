@@ -13067,7 +13067,7 @@ size
 socket
 -
 >
-SignalAddressReady
+NotifyAddressReady
 (
 socket
 kLocalAddr2
@@ -13568,7 +13568,7 @@ STATE_BINDING
 socket
 -
 >
-SignalAddressReady
+NotifyAddressReady
 (
 socket
 addresses
@@ -14218,7 +14218,7 @@ STATE_BINDING
 socket
 -
 >
-SignalAddressReady
+NotifyAddressReady
 (
 socket
 addresses
@@ -14509,7 +14509,7 @@ STATE_BINDING
 socket
 -
 >
-SignalAddressReady
+NotifyAddressReady
 (
 socket
 addresses

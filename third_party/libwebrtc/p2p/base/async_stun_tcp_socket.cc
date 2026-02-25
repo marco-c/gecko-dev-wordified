@@ -540,7 +540,7 @@ TimeInMilliseconds
 )
 )
 ;
-SignalSentPacket
+NotifySentPacket
 (
 this
 sent_packet
