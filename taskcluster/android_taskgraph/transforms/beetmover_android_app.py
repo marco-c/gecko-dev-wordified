@@ -95,14 +95,6 @@ TransformSequence
 from
 taskgraph
 .
-transforms
-.
-task
-import
-task_description_schema
-from
-taskgraph
-.
 util
 .
 schema
@@ -207,7 +199,7 @@ treeherder
 "
 )
 :
-task_description_schema
+gecko_task_description_schema
 [
 "
 treeherder
@@ -221,7 +213,7 @@ attributes
 "
 )
 :
-task_description_schema
+gecko_task_description_schema
 [
 "
 attributes
@@ -235,7 +227,7 @@ dependencies
 "
 )
 :
-task_description_schema
+gecko_task_description_schema
 [
 "
 dependencies
