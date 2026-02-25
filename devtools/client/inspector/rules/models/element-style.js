@@ -1483,7 +1483,7 @@ param
 {
 object
 }
-options
+appliedStyle
 *
 Options
 for
@@ -1541,7 +1541,7 @@ rule
 #
 maybeAddRule
 (
-options
+appliedStyle
 existingRules
 )
 {
@@ -1572,7 +1572,7 @@ it
 .
 if
 (
-options
+appliedStyle
 .
 rule
 &
@@ -1592,7 +1592,7 @@ domRule
 =
 =
 =
-options
+appliedStyle
 .
 rule
 )
@@ -1645,7 +1645,7 @@ r
 .
 matches
 (
-options
+appliedStyle
 )
 )
 ;
@@ -1668,7 +1668,7 @@ rule
 .
 refresh
 (
-options
+appliedStyle
 )
 ;
 existingRules
@@ -1706,7 +1706,7 @@ new
 Rule
 (
 this
-options
+appliedStyle
 )
 ;
 }
@@ -1722,7 +1722,7 @@ properties
 .
 if
 (
-options
+appliedStyle
 .
 inherited
 &
