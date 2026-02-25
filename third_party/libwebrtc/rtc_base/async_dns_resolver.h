@@ -401,9 +401,10 @@ state_
 To
 check
 for
-"
-this
-"
+the
+target
+task
+queue
 going
 away
 AsyncDnsResolverResultImpl
@@ -417,6 +418,8 @@ AnyInvocable
 void
 (
 )
+&
+&
 >
 callback_
 ;
