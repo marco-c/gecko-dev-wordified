@@ -559,7 +559,11 @@ icon
 startsWith
 (
 "
-data
+moz
+-
+remote
+-
+image
 :
 "
 )
