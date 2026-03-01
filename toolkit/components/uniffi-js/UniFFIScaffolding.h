@@ -371,6 +371,17 @@ uint64_t
 aHandle
 )
 ;
+static
+void
+CallbackHandleFree
+(
+GlobalObject
+&
+aGlobal
+uint64_t
+aHandle
+)
+;
 }
 ;
 }
