@@ -89,7 +89,7 @@ properly
 return
 subject
 .
-getPropertyAsAString
+get
 (
 "
 dumpID

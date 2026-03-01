@@ -468,7 +468,7 @@ dumpID
 =
 subject
 .
-getPropertyAsAString
+get
 (
 "
 dumpID
