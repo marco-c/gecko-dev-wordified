@@ -346,7 +346,7 @@ mLib
 set
 in
 constructor
-MOZ_RUNINIT
+MOZ_RELEASE_CONSTINIT
 static
 inline
 StaticDataMutex

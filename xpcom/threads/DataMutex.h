@@ -663,6 +663,7 @@ const
 T
 >
 ;
+constexpr
 explicit
 DataMutexBase
 (
@@ -678,6 +679,7 @@ aName
 )
 {
 }
+constexpr
 DataMutexBase
 (
 T
@@ -801,6 +803,7 @@ StaticMutex
 {
 public
 :
+constexpr
 explicit
 StaticMutexNameless
 (

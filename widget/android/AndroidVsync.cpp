@@ -153,7 +153,7 @@ mozilla
 namespace
 widget
 {
-MOZ_RUNINIT
+MOZ_RELEASE_CONSTINIT
 StaticDataMutex
 <
 ThreadSafeWeakPtr

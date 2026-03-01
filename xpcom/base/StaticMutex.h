@@ -333,6 +333,7 @@ trivial
 #
 ifdef
 DEBUG
+constexpr
 StaticMutex
 (
 )

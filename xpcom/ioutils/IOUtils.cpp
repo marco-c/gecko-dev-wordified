@@ -1852,7 +1852,7 @@ implementation
 static
 *
 /
-MOZ_RUNINIT
+MOZ_RELEASE_CONSTINIT
 IOUtils
 :
 :
