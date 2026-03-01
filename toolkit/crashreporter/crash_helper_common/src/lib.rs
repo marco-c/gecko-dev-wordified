@@ -210,7 +210,10 @@ crate
 platform
 :
 :
+{
+PlatformError
 ProcessHandle
+}
 ;
 #
 [
