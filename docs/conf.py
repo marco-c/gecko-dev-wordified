@@ -362,6 +362,10 @@ sphinx_design
 "
 bzlink
 "
+    
+"
+etp_matrix
+"
 ]
 myst_enable_extensions
 =
