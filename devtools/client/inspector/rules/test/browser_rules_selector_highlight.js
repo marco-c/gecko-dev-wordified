@@ -811,7 +811,7 @@ onRefresh
 const
 selectorContainer
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1

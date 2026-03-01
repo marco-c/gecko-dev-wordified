@@ -193,10 +193,9 @@ accordion
 const
 pseudoRule
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
-1
 0
 )
 .
@@ -292,7 +291,7 @@ idProp
 getTextProperty
 (
 view
-4
+2
 {
 color
 :

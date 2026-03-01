@@ -203,7 +203,7 @@ ruleView
 let
 rule
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 ruleView
 1
@@ -295,7 +295,7 @@ rendered
 ;
 rule
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 ruleView
 2
@@ -478,7 +478,7 @@ focused
 ;
 rule
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 ruleView
 1
@@ -551,7 +551,7 @@ highlighted
 ;
 rule
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 ruleView
 2

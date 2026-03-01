@@ -361,7 +361,7 @@ inspector
 let
 ruleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1
@@ -493,10 +493,10 @@ inspector
 ;
 ruleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
-3
+2
 )
 ;
 propEditor

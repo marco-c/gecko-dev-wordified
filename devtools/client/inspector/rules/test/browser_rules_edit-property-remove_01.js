@@ -182,7 +182,7 @@ rule
 const
 rule
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1

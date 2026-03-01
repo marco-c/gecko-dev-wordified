@@ -1012,7 +1012,7 @@ numRules
 ;
 is
 (
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 childIndex
@@ -1076,7 +1076,7 @@ numRules
 ;
 is
 (
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1

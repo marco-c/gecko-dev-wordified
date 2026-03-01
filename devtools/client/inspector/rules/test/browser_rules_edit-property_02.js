@@ -202,7 +202,7 @@ ruleView
 const
 idRule
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 ruleView
 1

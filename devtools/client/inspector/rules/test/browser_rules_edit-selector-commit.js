@@ -396,7 +396,7 @@ inspector
 let
 idRuleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1
@@ -610,7 +610,7 @@ shiftKey
 {
 idRuleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 0

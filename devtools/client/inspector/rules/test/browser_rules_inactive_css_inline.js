@@ -390,10 +390,7 @@ element
 section
 ruleIndex
 :
-[
-1
 0
-]
 }
 ]
 inactiveDeclarations
@@ -424,10 +421,7 @@ element
 section
 ruleIndex
 :
-[
-1
 0
-]
 }
 {
 declaration
@@ -445,7 +439,7 @@ middle
 }
 ruleIndex
 :
-4
+2
 }
 ]
 }
@@ -847,7 +841,7 @@ style
 const
 inlineStyleRuleIndex
 =
-3
+1
 ;
 await
 addProperty

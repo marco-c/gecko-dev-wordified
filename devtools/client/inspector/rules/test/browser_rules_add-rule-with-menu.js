@@ -344,10 +344,10 @@ onNewRuleAdded
 const
 ruleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
-4
+2
 )
 ;
 const
@@ -544,7 +544,7 @@ onNewRuleAdded
 const
 ruleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 0

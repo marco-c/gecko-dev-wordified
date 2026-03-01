@@ -1318,7 +1318,7 @@ navigation
 const
 h1RuleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1
@@ -1327,7 +1327,7 @@ view
 const
 whereH1RuleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 2

@@ -264,7 +264,7 @@ testid
 "
 expectedIndex
 :
-4
+2
 }
 {
 node

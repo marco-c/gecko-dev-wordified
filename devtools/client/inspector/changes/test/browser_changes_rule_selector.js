@@ -179,7 +179,7 @@ inspector
 const
 ruleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 ruleView
 1

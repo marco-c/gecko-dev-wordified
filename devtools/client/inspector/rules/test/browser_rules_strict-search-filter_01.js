@@ -511,7 +511,7 @@ ruleCount
 ;
 is
 (
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 0
@@ -536,7 +536,7 @@ element
 let
 rule
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1
@@ -609,7 +609,7 @@ ruleCount
 {
 rule
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 2

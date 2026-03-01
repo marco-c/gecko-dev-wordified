@@ -320,7 +320,7 @@ property
 const
 classRuleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1

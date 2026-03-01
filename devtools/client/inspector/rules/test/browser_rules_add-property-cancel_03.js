@@ -161,7 +161,7 @@ escape
 const
 elementRuleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1

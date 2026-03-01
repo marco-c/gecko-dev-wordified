@@ -525,7 +525,7 @@ view
 let
 rule
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 2
@@ -1091,7 +1091,7 @@ variables
 ;
 rule
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 4
@@ -1324,7 +1324,7 @@ rule
 ;
 rule
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1
@@ -1630,10 +1630,9 @@ expanded
 ;
 rule
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
-1
 0
 )
 .
@@ -1704,10 +1703,9 @@ azure
 ;
 rule
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
-1
 1
 )
 .
@@ -1865,10 +1863,10 @@ green
 ;
 rule
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
-4
+3
 )
 .
 rule
@@ -2284,7 +2282,7 @@ color
 const
 rule
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1
@@ -2826,7 +2824,7 @@ text
 const
 rule
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1

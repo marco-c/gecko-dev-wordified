@@ -242,7 +242,7 @@ fields
 const
 ruleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1
@@ -391,7 +391,7 @@ exists
 ;
 ok
 (
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1

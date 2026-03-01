@@ -239,7 +239,7 @@ ancestorDataEl
 selectorText
 }
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1
@@ -479,7 +479,7 @@ UNCONSTRAINED_HAS_WARNING_MESSAGE
 const
 scopeSiblingRuleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 3

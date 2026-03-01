@@ -230,7 +230,7 @@ field
 const
 idRuleEditor
 =
-getRuleViewRuleEditor
+getRuleViewRuleEditorAt
 (
 view
 1
