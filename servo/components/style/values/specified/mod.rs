@@ -365,6 +365,8 @@ AnimationFillMode
 AnimationIterationCount
 AnimationName
 AnimationPlayState
+AnimationRangeEnd
+AnimationRangeStart
 AnimationTimeline
 ScrollAxis
 TimelineName
