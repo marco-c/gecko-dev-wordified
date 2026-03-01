@@ -5672,7 +5672,10 @@ if
 isinstance
 (
 target
+(
+tuple
 list
+)
 )
 :
             

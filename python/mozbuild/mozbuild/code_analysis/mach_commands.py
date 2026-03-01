@@ -1927,50 +1927,24 @@ check
 command_context
     
 source
-=
-None
     
 jobs
-=
-2
     
 strip
-=
-1
     
 verbose
-=
-False
     
 checks
-=
-"
--
-*
-"
     
 fix
-=
-False
     
 header_filter
-=
-"
-"
     
 output
-=
-None
     
 format
-=
-"
-text
-"
     
 outgoing
-=
-False
 )
 :
     
@@ -2293,7 +2267,7 @@ log
             
 logging
 .
-INFO
+WARNING
             
 "
 static
@@ -8738,48 +8712,6 @@ install
 manifests
 .
     
-rc
-=
-command_context
-.
-_run_make
-(
-        
-directory
-=
-command_context
-.
-topobjdir
-        
-target
-=
-"
-pre
--
-export
-"
-        
-line_handler
-=
-None
-        
-silent
-=
-not
-verbose
-    
-)
-    
-if
-rc
-!
-=
-0
-:
-        
-return
-rc
-    
 #
 Then
 build
@@ -8812,6 +8744,11 @@ target
 in
 (
 "
+pre
+-
+export
+"
+"
 export
 "
 "
@@ -8842,6 +8779,14 @@ target
 line_handler
 =
 None
+            
+print_directory
+=
+verbose
+            
+log
+=
+verbose
             
 silent
 =
