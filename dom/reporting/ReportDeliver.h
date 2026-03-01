@@ -182,6 +182,9 @@ nsIPrincipal
 h
 "
 class
+nsICookieJarSettings
+;
+class
 nsIPrincipal
 ;
 class
@@ -237,6 +240,12 @@ mUserAgentData
 EndpointsList
 mEndpoints
 ;
+nsCOMPtr
+<
+nsICookieJarSettings
+>
+mCookieJarSettings
+;
 }
 ;
 class
@@ -282,6 +291,12 @@ nsCOMPtr
 nsIPrincipal
 >
 mPrincipal
+;
+nsCOMPtr
+<
+nsICookieJarSettings
+>
+mCookieJarSettings
 ;
 uint32_t
 mFailures
@@ -403,6 +418,9 @@ nsCString
 aHeaderContents
 bool
 aShouldResistFingerprinting
+nsICookieJarSettings
+*
+aCookieJarSettings
 )
 ;
 /
