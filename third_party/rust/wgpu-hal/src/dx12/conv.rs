@@ -2632,6 +2632,10 @@ if
 ds
 .
 depth_write_enabled
+.
+unwrap_or_default
+(
+)
 {
 Direct3D12
 :
@@ -2652,6 +2656,10 @@ map_comparison
 ds
 .
 depth_compare
+.
+unwrap_or_default
+(
+)
 )
 StencilEnable
 :

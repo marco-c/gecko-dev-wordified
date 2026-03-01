@@ -7542,6 +7542,17 @@ set
 F
 :
 :
+FLOAT32_BLENDABLE
+true
+)
+;
+features
+.
+set
+(
+F
+:
+:
 INDIRECT_FIRST_INSTANCE
 self
 .

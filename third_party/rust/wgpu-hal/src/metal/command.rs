@@ -7207,7 +7207,6 @@ DynamicOffset
 let
 bg_info
 =
-&
 layout
 .
 bind_group_infos
@@ -7216,6 +7215,14 @@ group_index
 as
 usize
 ]
+.
+as_ref
+(
+)
+.
+unwrap
+(
+)
 ;
 let
 render_encoder
