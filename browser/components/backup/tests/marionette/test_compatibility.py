@@ -1714,6 +1714,10 @@ join
 (
 test_dir
 "
+compat
+-
+files
+/
 backups
 "
 filename
