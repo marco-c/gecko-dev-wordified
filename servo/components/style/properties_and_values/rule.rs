@@ -149,6 +149,15 @@ use
 crate
 :
 :
+derives
+:
+:
+*
+;
+use
+crate
+:
+:
 error_reporting
 :
 :
@@ -195,6 +204,7 @@ cssparser
 :
 :
 {
+match_ignore_ascii_case
 AtRuleParser
 BasicParseErrorKind
 CowRcStr
@@ -1898,6 +1908,7 @@ input
 self
 .
 data
+None
 &
 self
 .
@@ -2260,6 +2271,7 @@ syntax
 initial
 .
 url_data
+None
 AllowComputationallyDependent
 :
 :
@@ -2886,6 +2898,15 @@ SpecifiedValue
 parse
 (
 input
+Some
+(
+&
+context
+.
+namespaces
+.
+prefixes
+)
 &
 context
 .
