@@ -257,7 +257,6 @@ querySelector
 "
 #
 interventions
-tr
 [
 data
 -
@@ -290,7 +289,6 @@ querySelector
 "
 #
 smartblock
-tr
 [
 data
 -
@@ -919,7 +917,6 @@ intervention
 await
 testToggling
 (
-tr
 [
 data
 -
@@ -945,7 +942,6 @@ label
 -
 disable
 ]
-tr
 [
 data
 -
@@ -986,7 +982,6 @@ shim
 await
 testToggling
 (
-tr
 [
 data
 -
@@ -1012,7 +1007,6 @@ label
 -
 disable
 ]
-tr
 [
 data
 -

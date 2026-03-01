@@ -1270,7 +1270,6 @@ querySelector
 "
 #
 interventions
-tr
 [
 data
 -
@@ -1311,7 +1310,6 @@ querySelector
 "
 #
 interventions
-tr
 [
 data
 -
@@ -1346,7 +1344,6 @@ querySelector
 "
 #
 interventions
-tr
 [
 data
 -
@@ -1390,7 +1387,6 @@ querySelector
 "
 #
 interventions
-tr
 [
 data
 -
@@ -1439,7 +1435,6 @@ querySelector
 "
 #
 interventions
-tr
 [
 data
 -
@@ -1483,7 +1478,6 @@ querySelector
 "
 #
 interventions
-tr
 [
 data
 -
@@ -2329,7 +2323,6 @@ querySelector
 "
 #
 interventions
-tr
 [
 data
 -
@@ -2378,7 +2371,6 @@ querySelector
 "
 #
 interventions
-tr
 [
 data
 -
@@ -2426,7 +2418,6 @@ querySelector
 "
 #
 interventions
-tr
 [
 data
 -
@@ -2470,7 +2461,6 @@ querySelector
 "
 #
 interventions
-tr
 [
 data
 -
@@ -2516,7 +2506,6 @@ querySelector
 "
 #
 interventions
-tr
 [
 data
 -
@@ -2560,7 +2549,6 @@ querySelector
 "
 #
 interventions
-tr
 [
 data
 -
@@ -2606,7 +2594,6 @@ querySelector
 "
 #
 interventions
-tr
 [
 data
 -
@@ -2650,7 +2637,6 @@ querySelector
 "
 #
 interventions
-tr
 [
 data
 -
@@ -2890,7 +2876,6 @@ querySelector
 "
 #
 interventions
-tr
 [
 data
 -
@@ -2934,7 +2919,6 @@ querySelector
 "
 #
 interventions
-tr
 [
 data
 -
@@ -2982,7 +2966,6 @@ querySelector
 "
 #
 interventions
-tr
 [
 data
 -
@@ -3026,7 +3009,6 @@ querySelector
 "
 #
 interventions
-tr
 [
 data
 -
@@ -3074,7 +3056,6 @@ querySelector
 "
 #
 interventions
-tr
 [
 data
 -
@@ -3118,7 +3099,6 @@ querySelector
 "
 #
 interventions
-tr
 [
 data
 -
