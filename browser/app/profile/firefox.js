@@ -22381,7 +22381,7 @@ weather
 display
 "
 "
-simple
+detailed
 "
 )
 ;
