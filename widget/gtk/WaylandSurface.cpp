@@ -1036,7 +1036,7 @@ run
 emulated
 callbacks
 on
-hidden
+unmapped
 surfaces
 if
 (
@@ -1049,7 +1049,7 @@ aRoutedFromChildSurface
 &
 &
 !
-mIsVisible
+mIsMapped
 )
 {
 LOGVERBOSE
@@ -1070,14 +1070,15 @@ d
 aRoutedFromChildSurface
 %
 d
-mIsVisible
+mIsMapped
 %
 d
 "
 emulatedCallback
 aRoutedFromChildSurface
 !
-mIsVisible
+!
+mIsMapped
 )
 ;
 return
