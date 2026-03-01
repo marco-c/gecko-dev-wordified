@@ -4330,6 +4330,10 @@ const
 ClipEdges
 &
 aClipEdges
+const
+SelectionDetails
+&
+aDetails
 )
 ;
 /
@@ -4399,13 +4403,7 @@ PaintTextSelectionParams
 &
 aParams
 const
-mozilla
-:
-:
-UniquePtr
-<
 SelectionDetails
->
 &
 aDetails
 SelectionTypeMask
@@ -4437,13 +4435,7 @@ PaintTextSelectionParams
 &
 aParams
 const
-mozilla
-:
-:
-UniquePtr
-<
 SelectionDetails
->
 &
 aDetails
 SelectionType
@@ -4459,7 +4451,7 @@ PaintTextSelectionParams
 aParams
 const
 SelectionDetails
-*
+&
 aDetails
 nsTArray
 <
@@ -7048,7 +7040,7 @@ CreateSelectionRangeList
 (
 const
 SelectionDetails
-*
+&
 aDetails
 SelectionType
 aSelectionType
