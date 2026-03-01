@@ -8698,38 +8698,6 @@ set
             
 [
                 
-#
-animation
--
-range
--
-*
-are
-defined
-in
-[
-scroll
--
-animations
-]
-.
-                
-"
-animation
--
-range
--
-end
-"
-                
-"
-animation
--
-range
--
-start
-"
-                
 "
 color
 "
@@ -8846,6 +8814,19 @@ smoothing
 "
             
 ]
+            
++
+PropertyRestrictions
+.
+shorthand
+(
+data
+"
+animation
+-
+range
+"
+)
             
 +
 PropertyRestrictions
