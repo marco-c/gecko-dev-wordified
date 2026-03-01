@@ -11392,10 +11392,8 @@ exited
 )
 )
 {
-nsNSSComponent
-:
-:
-DoClearSSLExternalAndInternalSessionCache
+return
+ClearSSLExternalAndInternalSessionCache
 (
 )
 ;
