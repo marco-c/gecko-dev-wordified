@@ -100,6 +100,8 @@ mozpack
 path
 as
 mozpath
+import
+yaml
 from
 mach
 .
@@ -1925,24 +1927,50 @@ check
 command_context
     
 source
+=
+None
     
 jobs
+=
+2
     
 strip
+=
+1
     
 verbose
+=
+False
     
 checks
+=
+"
+-
+*
+"
     
 fix
+=
+False
     
 header_filter
+=
+"
+"
     
 output
+=
+None
     
 format
+=
+"
+text
+"
     
 outgoing
+=
+False
 )
 :
     
@@ -2265,7 +2293,7 @@ log
             
 logging
 .
-WARNING
+INFO
             
 "
 static
@@ -2450,10 +2478,6 @@ jobs
 fix
 =
 fix
-                
-verbose
-=
-verbose
             
 )
             
@@ -3218,10 +3242,6 @@ sources
 jobs
     
 fix
-    
-verbose
-=
-True
 )
 :
     
@@ -3452,20 +3472,20 @@ common_args
 +
 =
 [
-f
 "
 -
 config
 =
-{
-json
+%
+s
+"
+%
+yaml
 .
-dumps
+dump
 (
 cfg
 )
-}
-"
 ]
     
 if
@@ -3479,21 +3499,6 @@ common_args
 "
 -
 fix
-"
-]
-    
-if
-not
-verbose
-:
-        
-common_args
-+
-=
-[
-"
--
-quiet
 "
 ]
     
@@ -8733,6 +8738,48 @@ install
 manifests
 .
     
+rc
+=
+command_context
+.
+_run_make
+(
+        
+directory
+=
+command_context
+.
+topobjdir
+        
+target
+=
+"
+pre
+-
+export
+"
+        
+line_handler
+=
+None
+        
+silent
+=
+not
+verbose
+    
+)
+    
+if
+rc
+!
+=
+0
+:
+        
+return
+rc
+    
 #
 Then
 build
@@ -8760,26 +8807,10 @@ anything
 better
 .
     
-return
-command_context
-.
-_run_make
-(
-        
-directory
-=
-command_context
-.
-topobjdir
-        
+for
 target
-=
+in
 (
-"
-pre
--
-export
-"
 "
 export
 "
@@ -8789,29 +8820,52 @@ pre
 compile
 "
 )
+:
         
+rc
+=
+command_context
+.
+_run_make
+(
+            
+directory
+=
+command_context
+.
+topobjdir
+            
+target
+=
+target
+            
 line_handler
 =
 None
-        
-print_directory
-=
-verbose
-        
-log
-=
-verbose
-        
+            
 silent
 =
 not
 verbose
-        
+            
 num_jobs
 =
 jobs
-    
+        
 )
+        
+if
+rc
+!
+=
+0
+:
+            
+return
+rc
+    
+return
+0
 def
 _set_clang_tools_paths
 (
