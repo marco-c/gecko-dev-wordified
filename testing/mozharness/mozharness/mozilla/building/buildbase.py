@@ -1719,23 +1719,6 @@ py
 "
         
 "
-asan
--
-reporter
--
-tc
-"
-:
-path_base
-+
-"
-%
-s_asan_reporter_tc
-.
-py
-"
-        
-"
 fuzzing
 -
 asan
