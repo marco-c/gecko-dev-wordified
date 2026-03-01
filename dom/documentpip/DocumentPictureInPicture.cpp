@@ -614,6 +614,7 @@ DocumentPictureInPicture
 GetWindow
 (
 )
+const
 {
 if
 (

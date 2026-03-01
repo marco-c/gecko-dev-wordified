@@ -222,6 +222,7 @@ nsGlobalWindowInner
 GetWindow
 (
 )
+const
 ;
 IMPL_EVENT_HANDLER
 (

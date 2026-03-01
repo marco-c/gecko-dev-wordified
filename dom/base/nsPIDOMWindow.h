@@ -3722,6 +3722,7 @@ DocumentPictureInPicture
 GetExtantDocumentPictureInPicture
 (
 )
+const
 =
 0
 ;
