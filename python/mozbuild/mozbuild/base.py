@@ -56,6 +56,8 @@ MPL
 import
 errno
 import
+functools
+import
 io
 import
 json
@@ -155,10 +157,6 @@ construct_log_filename
 cpu_count
     
 is_running_under_coding_agent
-    
-memoize
-    
-memoized_property
 )
 try
 :
@@ -1986,7 +1984,9 @@ command_site_manager
     
 staticmethod
     
-memoize
+functools
+.
+cache
     
 def
 get_base_mozconfig_info
@@ -2997,7 +2997,9 @@ bits
 bit
 "
     
-memoized_property
+functools
+.
+cached_property
     
 def
 repository
@@ -5670,7 +5672,10 @@ if
 isinstance
 (
 target
+(
+tuple
 list
+)
 )
 :
             
@@ -6190,17 +6195,19 @@ it
 def
 __init__
 (
+        
 self
 context
 virtualenv_name
 =
 None
-metrics
+metrics_path
 =
 None
 no_auto_log
 =
 False
+    
 )
 :
         
@@ -6561,9 +6568,15 @@ context
         
 self
 .
-metrics
+_metrics_path
 =
-metrics
+metrics_path
+        
+self
+.
+_metrics
+=
+None
         
 #
 Incur
@@ -6949,6 +6962,70 @@ self
 logfile
 =
 None
+    
+property
+    
+def
+metrics
+(
+self
+)
+:
+        
+if
+self
+.
+_metrics
+is
+None
+and
+self
+.
+_metrics_path
+:
+            
+if
+self
+.
+_mach_context
+.
+_telemetry_init_done
+is
+not
+None
+:
+                
+self
+.
+_mach_context
+.
+_telemetry_init_done
+.
+wait
+(
+)
+            
+self
+.
+_metrics
+=
+self
+.
+_mach_context
+.
+telemetry
+.
+metrics
+(
+self
+.
+_metrics_path
+)
+        
+return
+self
+.
+_metrics
     
 def
 _sub_mach
