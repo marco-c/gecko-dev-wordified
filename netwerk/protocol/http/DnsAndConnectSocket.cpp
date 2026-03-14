@@ -6342,10 +6342,8 @@ void
 DnsAndConnectSocket
 :
 :
-CloseTransports
+OnTimeout
 (
-nsresult
-error
 )
 {
 if
@@ -6362,7 +6360,7 @@ mSocketTransport
 >
 Close
 (
-error
+NS_ERROR_NET_TIMEOUT
 )
 ;
 }
@@ -6380,7 +6378,7 @@ mSocketTransport
 >
 Close
 (
-error
+NS_ERROR_NET_TIMEOUT
 )
 ;
 }

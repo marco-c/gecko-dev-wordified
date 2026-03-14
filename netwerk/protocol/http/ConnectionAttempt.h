@@ -308,10 +308,8 @@ Unclaim
 ;
 virtual
 void
-CloseTransports
+OnTimeout
 (
-nsresult
-error
 )
 =
 0
