@@ -281,7 +281,6 @@ DocAccessibleChild
 )
 ;
 }
-virtual
 void
 Shutdown
 (
@@ -462,7 +461,6 @@ mDoc
 nullptr
 ;
 }
-virtual
 mozilla
 :
 :
@@ -477,10 +475,8 @@ uint64_t
 &
 aID
 )
-override
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
-virtual
 mozilla
 :
 :
@@ -499,9 +495,7 @@ uint32_t
 &
 aScrollType
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -516,9 +510,7 @@ uint64_t
 &
 aID
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -537,9 +529,7 @@ bool
 &
 aSelect
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -561,9 +551,7 @@ AccAttributes
 *
 aFields
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -582,10 +570,8 @@ uint8_t
 &
 aIndex
 )
-override
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
-virtual
 mozilla
 :
 :
@@ -620,10 +606,8 @@ bool
 &
 aSetFocus
 )
-override
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
-virtual
 mozilla
 :
 :
@@ -654,9 +638,7 @@ uint32_t
 &
 aScrollType
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -675,9 +657,7 @@ int32_t
 &
 aSelectionNum
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -696,9 +676,7 @@ double
 &
 aValue
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -717,9 +695,7 @@ nsAString
 &
 aText
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -742,9 +718,7 @@ int32_t
 &
 aPosition
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -767,9 +741,7 @@ int32_t
 &
 aEndPos
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -792,9 +764,7 @@ int32_t
 &
 aEndPos
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -817,10 +787,8 @@ int32_t
 &
 aEndPos
 )
-override
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
-virtual
 mozilla
 :
 :
@@ -839,9 +807,7 @@ int32_t
 &
 aPosition
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -852,9 +818,7 @@ IPCResult
 RecvRestoreFocus
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -881,9 +845,7 @@ int32_t
 &
 aY
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -918,9 +880,7 @@ int32_t
 &
 aY
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -931,7 +891,6 @@ IPCResult
 RecvAckMutationEvents
 (
 )
-override
 ;
 /
 *
