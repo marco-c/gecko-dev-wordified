@@ -49,7 +49,7 @@ e
 .
 data
 '
-Denied
+Allowed
 '
 )
 ;
@@ -77,7 +77,7 @@ iframe
 .
 html
 ?
-parent_user_gesture
+user_gesture
 =
 true
 "
@@ -108,15 +108,8 @@ origin
 top
 navigation
 is
-blocked
-without
-user
-activation
-even
-if
-the
-parent
-has
+allowed
+with
 user
 activation
 "
