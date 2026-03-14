@@ -2589,6 +2589,9 @@ case
 #
 if
 DEBUG
+|
+|
+MOZ_SYSTEM_ICU
 LocaleSet
 upperCaseFirstLocales
 ;
@@ -2680,6 +2683,9 @@ private
 #
 if
 DEBUG
+|
+|
+MOZ_SYSTEM_ICU
 LocaleSet
 ignorePunctuationLocales
 ;

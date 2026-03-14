@@ -130,13 +130,6 @@ h
 "
 src
 /
-CollatorForwards
-.
-h
-"
-"
-src
-/
 Currency
 .
 h
@@ -346,6 +339,13 @@ cpp
 src
 /
 Calendar
+.
+cpp
+"
+"
+src
+/
+Collator
 .
 cpp
 "
