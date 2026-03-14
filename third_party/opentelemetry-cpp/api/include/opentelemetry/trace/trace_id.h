@@ -116,7 +116,7 @@ TraceId
 .
 static
 constexpr
-int
+size_t
 kSize
 =
 16
@@ -224,7 +224,7 @@ kHex
 ;
 for
 (
-int
+size_t
 i
 =
 0

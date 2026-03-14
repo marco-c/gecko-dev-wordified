@@ -72,7 +72,7 @@ SpanId
 .
 static
 constexpr
-int
+size_t
 kSize
 =
 8
@@ -180,7 +180,7 @@ kHex
 ;
 for
 (
-int
+size_t
 i
 =
 0

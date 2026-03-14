@@ -198,9 +198,7 @@ string
 of
 the
 service
-API
-or
-implementation
+component
 .
 The
 format

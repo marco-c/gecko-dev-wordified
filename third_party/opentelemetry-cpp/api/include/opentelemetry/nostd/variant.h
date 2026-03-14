@@ -145,7 +145,6 @@ exception
 {
 public
 :
-virtual
 const
 char
 *

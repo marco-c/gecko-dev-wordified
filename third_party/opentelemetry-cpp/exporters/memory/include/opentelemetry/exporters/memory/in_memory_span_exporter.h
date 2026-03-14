@@ -512,7 +512,6 @@ ExportResult
 kSuccess
 ;
 }
-virtual
 bool
 ForceFlush
 (

@@ -379,7 +379,6 @@ return
 recordable
 ;
 }
-virtual
 void
 OnStart
 (
@@ -480,7 +479,6 @@ next_
 ;
 }
 }
-virtual
 void
 OnEnd
 (
