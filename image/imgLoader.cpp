@@ -5629,6 +5629,8 @@ nsLoadFlags
 aLoadFlags
 FetchPriority
 aFetchPriority
+bool
+aIsLinkPreload
 )
 {
 /
@@ -5700,9 +5702,17 @@ Further
 reduce
 priority
 for
+link
+preload
 background
 loads
+only
+.
 if
+(
+aIsLinkPreload
+&
+&
 (
 aLoadFlags
 &
@@ -5710,6 +5720,7 @@ nsIRequest
 :
 :
 LOAD_BACKGROUND
+)
 )
 {
 +
@@ -5860,6 +5871,8 @@ uint64_t
 aEarlyHintPreloaderId
 FetchPriority
 aFetchPriority
+bool
+aIsLinkPreload
 )
 {
 MOZ_ASSERT
@@ -6611,6 +6624,7 @@ AdjustPriorityForImages
 aResult
 aLoadFlags
 aFetchPriority
+aIsLinkPreload
 )
 ;
 /
@@ -11987,6 +12001,7 @@ aLoadingDocument
 mRespectPrivacy
 aEarlyHintPreloaderId
 aFetchPriority
+aLinkPreload
 )
 ;
 if
@@ -12546,6 +12561,7 @@ aLoadingDocument
 mRespectPrivacy
 aEarlyHintPreloaderId
 aFetchPriority
+false
 )
 ;
 if
@@ -16606,6 +16622,7 @@ aContext
 mRespectPrivacy
 aEarlyHintPreloaderId
 aFetchPriority
+aLinkPreload
 )
 ;
 if
