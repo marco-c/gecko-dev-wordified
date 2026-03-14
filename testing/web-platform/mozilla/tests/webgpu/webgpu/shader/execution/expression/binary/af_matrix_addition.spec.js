@@ -151,6 +151,7 @@ js
 import
 {
 abstractFloatBinary
+kAbstractFloatMatrixBinaryOpBatchSize
 }
 from
 '
@@ -357,6 +358,7 @@ t
 .
 params
 cases
+kAbstractFloatMatrixBinaryOpBatchSize
 )
 ;
 }
