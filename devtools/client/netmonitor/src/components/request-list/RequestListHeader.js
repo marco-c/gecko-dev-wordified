@@ -558,6 +558,9 @@ isRequired
 }
 ;
 }
+#
+resizeTimerId
+;
 constructor
 (
 props
@@ -1769,12 +1772,14 @@ cancelIdleCallback
 (
 this
 .
-_resizeTimerId
+#
+resizeTimerId
 )
 ;
 this
 .
-_resizeTimerId
+#
+resizeTimerId
 =
 window
 .
