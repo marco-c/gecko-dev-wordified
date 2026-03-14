@@ -249,6 +249,10 @@ const
 nsAString
 &
 aJSON
+const
+nsAString
+&
+aReportGroupName
 )
 {
 AssertIsOnMainThread
@@ -292,6 +296,12 @@ actorID
 =
 mActorID
 json
+reportGroup
+=
+nsString
+{
+aReportGroupName
+}
 ]
 (
 )
@@ -335,6 +345,7 @@ actor
 OnCSPViolationEvent
 (
 json
+reportGroup
 )
 ;
 }
@@ -2696,6 +2707,10 @@ const
 nsAString
 &
 aJSON
+const
+nsAString
+&
+aReportGroupName
 )
 {
 FETCH_LOG
@@ -2736,6 +2751,7 @@ void
 SendOnCSPViolationEvent
 (
 aJSON
+aReportGroupName
 )
 ;
 }

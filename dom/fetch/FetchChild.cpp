@@ -1961,6 +1961,10 @@ const
 nsAString
 &
 aJSON
+const
+nsAString
+&
+aReportGroupName
 )
 {
 FETCH_LOG
@@ -2163,6 +2167,7 @@ mCSPEventListener
 OnCSPViolationEvent
 (
 aJSON
+aReportGroupName
 )
 )
 )

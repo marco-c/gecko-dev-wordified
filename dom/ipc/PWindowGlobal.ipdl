@@ -675,6 +675,8 @@ DispatchSecurityPolicyViolation
 (
 nsString
 aViolationEventJSON
+nsString
+aReportGroupName
 )
 ;
 async

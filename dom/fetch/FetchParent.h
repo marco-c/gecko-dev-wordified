@@ -367,6 +367,10 @@ const
 nsAString
 &
 aJSON
+const
+nsAString
+&
+aReportGroupName
 )
 ;
 void
