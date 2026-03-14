@@ -2234,7 +2234,7 @@ APZC
 *
 /
 void
-NotifyLayersUpdated
+NotifyMainThreadTransaction
 (
 const
 ScrollMetadata

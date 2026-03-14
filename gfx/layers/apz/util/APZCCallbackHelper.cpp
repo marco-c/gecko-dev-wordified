@@ -1850,7 +1850,7 @@ by
 AsyncPanZoomController
 :
 :
-NotifyLayersUpdated
+NotifyMainThreadTransaction
 .
 displayPortMargins
 =

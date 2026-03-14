@@ -9924,7 +9924,7 @@ GetScrollId
 apzc
 -
 >
-NotifyLayersUpdated
+NotifyMainThreadTransaction
 (
 aLayer
 .

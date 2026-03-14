@@ -336,7 +336,7 @@ GetGeneration
 apzc
 -
 >
-NotifyLayersUpdated
+NotifyMainThreadTransaction
 (
 metadata
 LayersUpdateFlags

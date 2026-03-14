@@ -1956,13 +1956,13 @@ in
 AsyncPanZoomController
 :
 :
-NotifyLayersUpdated
+NotifyMainThreadTransaction
 even
 if
+/
+/
 the
 next
-/
-/
 transaction
 is
 a
