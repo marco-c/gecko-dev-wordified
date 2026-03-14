@@ -500,7 +500,7 @@ zone
 )
 )
 ;
-CheckTableEntryAfterMovingGC
+CheckCCWTableEntryAfterMovingGC
 (
 crossCompartmentObjectWrappers
 e
