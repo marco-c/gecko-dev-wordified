@@ -12703,6 +12703,9 @@ low_12
 20
 )
 ;
+#
+ifdef
+JS_DISASM_RISCV64
 disassembleInstr
 (
 inst0
@@ -12723,6 +12726,13 @@ InstructionBits
 )
 )
 ;
+#
+endif
+/
+*
+JS_DISASM_RISCV64
+*
+/
 MOZ_ASSERT
 (
 (
