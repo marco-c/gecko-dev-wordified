@@ -97,7 +97,6 @@ MAX_SSIM_DB
 100
 .
 0
-;
 #
 ifdef
 __cplusplus

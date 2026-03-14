@@ -9652,6 +9652,9 @@ functions
 #
 if
 HAVE_SSE2
+&
+&
+HAVE_X86_ASM
 const
 SadMxNParam
 sse2_tests
@@ -11588,6 +11591,9 @@ endif
 /
 /
 HAVE_SSE2
+&
+&
+HAVE_X86_ASM
 #
 if
 HAVE_SSE3

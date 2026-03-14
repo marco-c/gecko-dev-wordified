@@ -1671,6 +1671,9 @@ h
 ;
 }
 }
+#
+if
+HAVE_X86_ASM
 /
 /
 -
@@ -11288,3 +11291,8 @@ avx2
 #
 undef
 HIGHBD_FUNC
+#
+endif
+/
+/
+HAVE_X86_ASM

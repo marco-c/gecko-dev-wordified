@@ -122,6 +122,9 @@ mem
 .
 h
 "
+#
+if
+HAVE_X86_ASM
 typedef
 uint32_t
 (
@@ -4574,6 +4577,11 @@ FNS
 #
 undef
 FN
+#
+endif
+/
+/
+HAVE_X86_ASM
 void
 vpx_highbd_comp_avg_pred_sse2
 (

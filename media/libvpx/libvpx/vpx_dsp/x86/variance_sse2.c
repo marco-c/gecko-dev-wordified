@@ -2886,6 +2886,9 @@ return
 sse
 ;
 }
+#
+if
+HAVE_X86_ASM
 /
 /
 The
@@ -4186,3 +4189,8 @@ FNS
 #
 undef
 FN
+#
+endif
+/
+/
+HAVE_X86_ASM

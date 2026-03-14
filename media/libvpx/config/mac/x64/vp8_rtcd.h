@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2026
+2017
 The
 WebM
 project

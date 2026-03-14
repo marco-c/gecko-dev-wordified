@@ -947,6 +947,9 @@ vpx_subtract_block_c
 #
 if
 HAVE_SSE2
+&
+&
+HAVE_X86_ASM
 INSTANTIATE_TEST_SUITE_P
 (
 SSE2
