@@ -349,6 +349,15 @@ LINUX
 #
 include
 <
+net
+/
+if
+.
+h
+>
+#
+include
+<
 netinet
 /
 in_var
