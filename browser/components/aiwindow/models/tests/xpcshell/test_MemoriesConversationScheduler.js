@@ -165,7 +165,7 @@ mjs
 ;
 const
 {
-PREF_GENERATE_MEMORIES
+PREF_GENERATE_MEMORIES_FROM_CONVERSATION
 }
 =
 ChromeUtils
@@ -262,7 +262,7 @@ prefs
 .
 clearUserPref
 (
-PREF_GENERATE_MEMORIES
+PREF_GENERATE_MEMORIES_FROM_CONVERSATION
 )
 ;
 }
@@ -454,7 +454,7 @@ prefs
 .
 setBoolPref
 (
-PREF_GENERATE_MEMORIES
+PREF_GENERATE_MEMORIES_FROM_CONVERSATION
 false
 )
 ;
@@ -524,7 +524,7 @@ prefs
 .
 setBoolPref
 (
-PREF_GENERATE_MEMORIES
+PREF_GENERATE_MEMORIES_FROM_CONVERSATION
 true
 )
 ;
@@ -636,7 +636,7 @@ stub
 (
 MemoriesManager
 "
-shouldEnableMemoriesSchedulers
+shouldEnableMemoriesFromSchedulers
 "
 )
 .
@@ -778,7 +778,7 @@ prefs
 .
 setBoolPref
 (
-PREF_GENERATE_MEMORIES
+PREF_GENERATE_MEMORIES_FROM_CONVERSATION
 true
 )
 ;
@@ -807,7 +807,7 @@ stub
 (
 MemoriesManager
 "
-shouldEnableMemoriesSchedulers
+shouldEnableMemoriesFromSchedulers
 "
 )
 .
