@@ -464,7 +464,7 @@ to
 be
 "
 :
-tab0
+tab_disable_art_image_0
 "
 )
 .
