@@ -8239,13 +8239,12 @@ GetIMENotificationRequests
 )
 {
 return
-IMENotificationRequests
-(
-IMENotificationRequests
+{
+IMENotificationRequest
 :
 :
-NOTIFY_TEXT_CHANGE
-)
+TextChange
+}
 ;
 }
 static

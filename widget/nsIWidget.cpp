@@ -13665,8 +13665,12 @@ IMENotificationRequestsRef
 (
 )
 .
-WantPositionChanged
+contains
 (
+IMENotificationRequest
+:
+:
+PositionChange
 )
 )
 {

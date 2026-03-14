@@ -5738,8 +5738,7 @@ pressed
 it
 may
 cause
-to
-switch
+switching
 the
 keyboard
 layout
@@ -17573,7 +17572,7 @@ and
 hasn
 '
 t
-cause
+caused
 any
 composition
 /
@@ -20721,7 +20720,7 @@ bool
 IMEInputHandler
 :
 :
-sCachedIsForRTLLangage
+sCachedIsForRTLLanguage
 =
 false
 ;
@@ -21599,7 +21598,7 @@ the
 general
 case
 (
-sCachedIsForRTLLangage
+sCachedIsForRTLLanguage
 is
 initially
 false
@@ -21608,7 +21607,7 @@ false
 /
 if
 (
-sCachedIsForRTLLangage
+sCachedIsForRTLLanguage
 !
 =
 tis
@@ -21625,7 +21624,7 @@ SendBidiKeyboardInfoToContent
 (
 )
 ;
-sCachedIsForRTLLangage
+sCachedIsForRTLLanguage
 =
 tis
 .
@@ -22187,7 +22186,7 @@ implementation
 The
 methods
 are
-releated
+related
 to
 the
 pending
@@ -22717,13 +22716,12 @@ is
 moved
 ?
 return
-IMENotificationRequests
-(
-IMENotificationRequests
+{
+IMENotificationRequest
 :
 :
-NOTIFY_TEXT_CHANGE
-)
+TextChange
+}
 ;
 }
 NS_IMETHODIMP_
@@ -24935,11 +24933,11 @@ IME
 may
 have
 already
-reterieved
+retrieved
 the
 selection
 and
-cache
+cached
 it
 .
 Therefore
@@ -24947,7 +24945,7 @@ we
 /
 /
 should
-retreive
+retrieve
 selection
 range
 before
@@ -25071,7 +25069,7 @@ false
 /
 FYI
 :
-Dispathcing
+Dispatching
 eCompositionStart
 may
 cause
@@ -26932,7 +26930,7 @@ InsertTextAsCommittingComposition
 "
 destroyed
 by
-commiting
+committing
 composition
 for
 setting
@@ -27114,7 +27112,7 @@ return
 }
 /
 /
-Otherise
+Otherwise
 emulate
 an
 IME
@@ -27150,7 +27148,7 @@ this
 is
 now
 seriously
-imcompatible
+incompatible
 with
 the
 /
@@ -27802,7 +27800,7 @@ SetMarkedText
 "
 destroyed
 by
-commiting
+committing
 composition
 for
 setting
@@ -28918,7 +28916,7 @@ MarkedRange
 (
 )
 is
-requred
+required
 by
 IME
 we

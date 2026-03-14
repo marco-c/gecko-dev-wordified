@@ -3403,8 +3403,8 @@ GetIMENotificationRequests
 )
 :
 IMENotificationRequests
-(
-)
+{
+}
 ;
 }
 inline

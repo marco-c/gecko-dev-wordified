@@ -298,15 +298,6 @@ TSFTextStore
 class
 TSFTextStoreBase
 ;
-struct
-IMENotificationRequests
-;
-struct
-InputContext
-;
-struct
-InputContextAction
-;
 class
 TSFUtils
 final

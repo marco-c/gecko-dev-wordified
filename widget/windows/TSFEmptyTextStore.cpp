@@ -3405,9 +3405,8 @@ GetIMENotificationRequests
 const
 {
 return
-IMENotificationRequests
-(
-)
+{
+}
 ;
 }
 }

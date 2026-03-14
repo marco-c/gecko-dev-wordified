@@ -5736,8 +5736,12 @@ mIMENotificationRequests
 mIMENotificationRequests
 -
 >
-WantMouseButtonEventOnChar
+contains
 (
+IMENotificationRequest
+:
+:
+MouseEventOnChar
 )
 )
 {

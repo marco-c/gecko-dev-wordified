@@ -1572,8 +1572,12 @@ IMENotificationRequestsRef
 (
 )
 .
-WantDuringDeactive
+contains
 (
+IMENotificationRequest
+:
+:
+NotifyDuringInactive
 )
 )
 )
@@ -5599,8 +5603,12 @@ IMENotificationRequestsRef
 (
 )
 .
-WantDuringDeactive
+contains
 (
+IMENotificationRequest
+:
+:
+NotifyDuringInactive
 )
 )
 {
