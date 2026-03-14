@@ -711,8 +711,6 @@ GetDataLength
 bool
 EnsureMapped
 (
-size_t
-aLength
 )
 ;
 /
