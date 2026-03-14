@@ -840,7 +840,13 @@ eRunning
 ;
 mInnerStream
 =
+std
+:
+:
+move
+(
 stream
+)
 ;
 }
 }

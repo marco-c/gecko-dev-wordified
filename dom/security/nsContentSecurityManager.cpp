@@ -2305,7 +2305,13 @@ principal
 .
 triggeringPrincipal
 =
+std
+:
+:
+move
+(
 addonPrincipal
+)
 ;
 }
 /

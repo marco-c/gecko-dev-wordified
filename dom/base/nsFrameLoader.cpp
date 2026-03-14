@@ -16330,7 +16330,13 @@ srcPrincipal
 {
 triggeringPrincipal
 =
+std
+:
+:
+move
+(
 srcPrincipal
+)
 ;
 nsCOMPtr
 <

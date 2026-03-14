@@ -517,7 +517,13 @@ return
 }
 mTiming
 =
+std
+:
+:
+move
+(
 aTiming
+)
 ;
 UpdateNormalizedTiming
 (

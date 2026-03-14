@@ -2766,6 +2766,12 @@ mTmpPath
 ;
 mTmpDir
 =
+std
+:
+:
+move
+(
 tmpDir
+)
 ;
 }
