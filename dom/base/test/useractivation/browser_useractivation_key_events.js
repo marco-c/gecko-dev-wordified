@@ -432,13 +432,13 @@ false
 "
 KEY_Control
 "
-true
+false
 ]
 [
 "
 KEY_Shift
 "
-true
+false
 ]
 [
 "
