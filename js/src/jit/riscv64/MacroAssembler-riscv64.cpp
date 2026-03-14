@@ -31380,8 +31380,6 @@ rt
 )
 ;
 }
-else
-{
 MOZ_ASSERT
 (
 offset
@@ -31400,7 +31398,6 @@ rs
 rt
 )
 ;
-}
 }
 void
 MacroAssemblerRiscv64
@@ -36215,8 +36212,6 @@ rm
 zero_reg
 ;
 }
-else
-{
 MOZ_ASSERT
 (
 rt
@@ -36236,7 +36231,6 @@ immediate
 =
 0
 ;
-}
 }
 void
 MacroAssemblerRiscv64

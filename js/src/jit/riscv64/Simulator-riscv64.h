@@ -7490,11 +7490,13 @@ isSnan
 dst
 )
 )
+{
 set_fflags
 (
 kInvalidOperation
 )
 ;
+}
 alu_out
 =
 std
@@ -7705,11 +7707,13 @@ isSnan
 src3
 )
 )
+{
 set_fflags
 (
 kInvalidOperation
 )
 ;
+}
 alu_out
 =
 std
@@ -7881,11 +7885,13 @@ isSnan
 src2
 )
 )
+{
 set_fflags
 (
 kInvalidOperation
 )
 ;
+}
 alu_out
 =
 std
@@ -8087,6 +8093,7 @@ drs1
 )
 )
 )
+{
 alu_out
 =
 std
@@ -8102,6 +8109,7 @@ quiet_NaN
 (
 )
 ;
+}
 return
 alu_out
 ;
@@ -8150,6 +8158,7 @@ drs1
 )
 )
 )
+{
 alu_out
 =
 std
@@ -8165,6 +8174,7 @@ quiet_NaN
 (
 )
 ;
+}
 return
 alu_out
 ;
@@ -8213,6 +8223,7 @@ frs1
 )
 )
 )
+{
 alu_out
 =
 std
@@ -8228,6 +8239,7 @@ quiet_NaN
 (
 )
 ;
+}
 return
 alu_out
 ;
@@ -8276,6 +8288,7 @@ frs1
 )
 )
 )
+{
 alu_out
 =
 std
@@ -8291,6 +8304,7 @@ quiet_NaN
 (
 )
 ;
+}
 return
 alu_out
 ;
