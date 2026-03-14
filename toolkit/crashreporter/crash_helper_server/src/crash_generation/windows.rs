@@ -190,16 +190,6 @@ GetThreadId
 }
 }
 ;
-pub
-(
-crate
-)
-type
-PlatformData
-=
-(
-)
-;
 impl
 CrashGenerator
 {
