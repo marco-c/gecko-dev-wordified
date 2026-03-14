@@ -23623,7 +23623,7 @@ desc
 id
 :
 "
-popupPolicy
+popupAndRedirectPolicy
 "
 l10nId
 :
@@ -23650,7 +23650,7 @@ items
 id
 :
 "
-popupPolicyButton
+popupAndRedirectPolicyButton
 "
 l10nId
 :
