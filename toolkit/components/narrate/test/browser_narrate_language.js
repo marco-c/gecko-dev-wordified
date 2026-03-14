@@ -352,7 +352,7 @@ toggled
 let
 prefChanged
 =
-NarrateTestUtils
+TestUtils
 .
 waitForPrefChange
 (
@@ -360,9 +360,6 @@ waitForPrefChange
 narrate
 .
 voice
-"
-"
-getCharPref
 "
 )
 ;
@@ -674,7 +671,7 @@ toggled
 let
 prefChanged
 =
-NarrateTestUtils
+TestUtils
 .
 waitForPrefChange
 (
@@ -682,9 +679,6 @@ waitForPrefChange
 narrate
 .
 voice
-"
-"
-getCharPref
 "
 )
 ;
