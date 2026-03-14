@@ -4968,6 +4968,11 @@ aDataLength
 =
 =
 0
+|
+|
+aIndex
+>
+aDataLength
 )
 {
 gfxWarning
