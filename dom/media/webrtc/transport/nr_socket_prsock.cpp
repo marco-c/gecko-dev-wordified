@@ -3174,7 +3174,7 @@ _status
 char
 addr_string
 [
-256
+64
 ]
 ;
 /
