@@ -875,9 +875,6 @@ undefined
 isDocLangTagSupported
 :
 undefined
-topPreferredLanguage
-:
-undefined
 }
 ;
 /
@@ -2259,9 +2256,6 @@ undefined
 isDocLangTagSupported
 :
 undefined
-topPreferredLanguage
-:
-undefined
 }
 ;
 try
@@ -2291,25 +2285,6 @@ isDocLangTagSupported
 actor
 .
 languageState
-;
-const
-preferredLanguages
-=
-TranslationsParent
-.
-getPreferredLanguages
-(
-)
-;
-const
-topPreferredLanguage
-=
-preferredLanguages
-?
-.
-[
-0
-]
 ;
 this
 .
@@ -2375,7 +2350,6 @@ activeFullPageTranslationsTargetLanguage
 ?
 docLangTag
 isDocLangTagSupported
-topPreferredLanguage
 }
 ;
 }
@@ -3753,7 +3727,6 @@ langPairPromise
 const
 {
 docLangTag
-topPreferredLanguage
 }
 =
 this
@@ -3780,7 +3753,6 @@ maintainFlow
 docLangTag
 sourceLanguage
 targetLanguage
-topPreferredLanguage
 textSource
 :
 isTextSelected
@@ -12977,7 +12949,6 @@ return
 const
 {
 docLangTag
-topPreferredLanguage
 }
 =
 this
@@ -13203,7 +13174,6 @@ onTranslate
 docLangTag
 sourceLanguage
 targetLanguage
-topPreferredLanguage
 autoTranslate
 :
 false
