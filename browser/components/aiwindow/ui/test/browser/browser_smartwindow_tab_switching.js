@@ -1706,7 +1706,6 @@ sidebar
 for
 tab
 B
-await
 AIWindowUI
 .
 openSidebar
@@ -3178,9 +3177,6 @@ conv
 -
 a
 "
-conversation
-:
-conversationA
 tab
 :
 tabA
@@ -3384,7 +3380,6 @@ waitForTick
 (
 )
 ;
-await
 AIWindowUI
 .
 openSidebar

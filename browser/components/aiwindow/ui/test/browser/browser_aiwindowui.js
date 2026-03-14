@@ -318,7 +318,7 @@ is
 (
 box
 .
-collapsed
+hidden
 true
 "
 Box
@@ -334,7 +334,7 @@ is
 (
 splitter
 .
-collapsed
+hidden
 true
 "
 Splitter
@@ -401,7 +401,7 @@ is
 (
 box
 .
-collapsed
+hidden
 false
 "
 Box
@@ -418,7 +418,7 @@ is
 (
 splitter
 .
-collapsed
+hidden
 false
 "
 Splitter
@@ -487,7 +487,7 @@ is
 (
 box
 .
-collapsed
+hidden
 true
 "
 Box
@@ -504,7 +504,7 @@ is
 (
 splitter
 .
-collapsed
+hidden
 true
 "
 Splitter
@@ -547,13 +547,13 @@ initial
 state
 box
 .
-collapsed
+hidden
 =
 initialBoxHidden
 ;
 splitter
 .
-collapsed
+hidden
 =
 initialSplitterHidden
 ;
