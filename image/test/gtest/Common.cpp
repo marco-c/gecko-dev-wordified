@@ -1136,7 +1136,13 @@ nullptr
 ;
 inputStream
 =
+std
+:
+:
+move
+(
 bufStream
+)
 ;
 }
 return

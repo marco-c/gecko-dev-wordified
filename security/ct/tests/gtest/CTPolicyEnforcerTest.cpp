@@ -356,7 +356,13 @@ sct
 .
 leafIndex
 =
+std
+:
+:
+move
+(
 leafIndex
+)
 ;
 Buffer
 logId

@@ -1301,7 +1301,13 @@ aSequenceNumber
 ;
 mInnerWindowId
 =
+std
+:
+:
+move
+(
 aInnerWindowId
+)
 ;
 }
 nsITransferable

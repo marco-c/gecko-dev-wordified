@@ -1225,7 +1225,13 @@ mExtraAnnotations
 aKey
 ]
 =
+std
+:
+:
+move
+(
 valueString
+)
 ;
 }
 void

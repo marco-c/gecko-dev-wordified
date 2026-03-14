@@ -1848,7 +1848,13 @@ IsEmpty
 )
 reader
 =
+std
+:
+:
+move
+(
 outerReader
+)
 ;
 else
 {
@@ -7409,7 +7415,13 @@ mProgressSink
 ;
 mListener
 =
+std
+:
+:
+move
+(
 listener
+)
 ;
 mIsPending
 =

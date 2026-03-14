@@ -1206,7 +1206,13 @@ mSelCon
 {
 mSelCon
 =
+std
+:
+:
+move
+(
 selCon
+)
 ;
 }
 /
