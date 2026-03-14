@@ -3657,7 +3657,7 @@ LDivConstantI64
 ins
 )
 {
-int32_t
+int64_t
 d
 =
 ins
