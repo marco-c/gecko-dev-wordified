@@ -3065,7 +3065,7 @@ them
 .
 mPendingFlushPromises
 .
-ForEach
+Clear
 (
 [
 &
@@ -3126,12 +3126,6 @@ aResult
 )
 ;
 }
-)
-;
-mPendingFlushPromises
-.
-Clear
-(
 )
 ;
 }
