@@ -3789,7 +3789,7 @@ gc
 :
 CellColor
 mapColor
-Enum
+ModIterator
 &
 iter
 bool
@@ -3832,7 +3832,7 @@ traceKey
 JSTracer
 *
 trc
-Enum
+ModIterator
 &
 iter
 )
