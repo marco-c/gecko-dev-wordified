@@ -10206,10 +10206,6 @@ min
 prim_rect
 .
 min
--
-run
-.
-reference_frame_relative_offset
 max
 :
 run

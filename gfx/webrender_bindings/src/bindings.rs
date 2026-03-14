@@ -17857,13 +17857,6 @@ state
 pipeline_id
 )
 ;
-let
-origin
-=
-bounds
-.
-min
-;
 /
 /
 Note
@@ -18060,7 +18053,9 @@ dl_builder
 .
 push_reference_frame
 (
-origin
+bounds
+.
+min
 wr_spatial_id
 params
 .
@@ -18162,7 +18157,9 @@ dl_builder
 .
 push_computed_frame
 (
-origin
+bounds
+.
+min
 wr_spatial_id
 Some
 (
@@ -18199,7 +18196,9 @@ wr_spatial_id
 }
 else
 if
-origin
+bounds
+.
+min
 !
 =
 LayoutPoint
@@ -18247,7 +18246,9 @@ dl_builder
 .
 push_reference_frame
 (
-origin
+bounds
+.
+min
 wr_spatial_id
 TransformStyle
 :
