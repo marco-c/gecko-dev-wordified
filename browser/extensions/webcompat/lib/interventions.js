@@ -4407,6 +4407,7 @@ all_frames
 css
 isolated
 js
+match_origin_as_fallback
 run_at
 }
 =
@@ -4484,6 +4485,18 @@ all_frames
 registration
 .
 allFrames
+=
+true
+;
+}
+if
+(
+match_origin_as_fallback
+)
+{
+registration
+.
+matchOriginAsFallback
 =
 true
 ;
