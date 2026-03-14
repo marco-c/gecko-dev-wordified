@@ -7,17 +7,6 @@ skip
 -
 if
 (
-!
-this
-.
-hasOwnProperty
-(
-"
-Intl
-"
-)
-|
-|
 xulRuntime
 .
 shell

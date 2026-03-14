@@ -13,17 +13,6 @@ this
 hasOwnProperty
 (
 '
-Intl
-'
-)
-|
-|
-!
-this
-.
-hasOwnProperty
-(
-'
 addIntlExtras
 '
 )

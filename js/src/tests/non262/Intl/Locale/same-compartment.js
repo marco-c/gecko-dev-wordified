@@ -10,17 +10,6 @@ if
 !
 this
 .
-hasOwnProperty
-(
-'
-Intl
-'
-)
-|
-|
-!
-this
-.
 wrapWithProto
 )
 var

@@ -11,17 +11,6 @@ if
 xulRuntime
 .
 shell
-|
-|
-!
-this
-.
-hasOwnProperty
-(
-'
-Intl
-'
-)
 )
 /
 /

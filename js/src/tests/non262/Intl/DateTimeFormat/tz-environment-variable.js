@@ -7,18 +7,6 @@ skip
 -
 if
 (
-!
-this
-.
-hasOwnProperty
-(
-"
-Intl
-"
-)
-|
-|
-(
 winWidget
 &
 &
@@ -26,7 +14,6 @@ winWidget
 xulRuntime
 .
 shell
-)
 )
 -
 -

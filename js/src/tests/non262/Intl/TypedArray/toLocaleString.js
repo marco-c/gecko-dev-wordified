@@ -1,15 +1,3 @@
-if
-(
-typeof
-Intl
-=
-=
-=
-"
-object
-"
-)
-{
 const
 constructors
 =
@@ -703,7 +691,6 @@ options
 expected
 )
 ;
-}
 }
 }
 }
