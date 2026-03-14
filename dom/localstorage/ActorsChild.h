@@ -868,7 +868,7 @@ const
 {
 NS_ASSERT_OWNINGTHREAD
 (
-LSReqeustChild
+LSRequestChild
 )
 ;
 }
@@ -1081,7 +1081,7 @@ const
 {
 NS_ASSERT_OWNINGTHREAD
 (
-LSSimpleReqeustChild
+LSSimpleRequestChild
 )
 ;
 }
