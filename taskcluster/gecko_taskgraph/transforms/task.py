@@ -7676,6 +7676,19 @@ proxy
 :
 bool
         
+Optional
+(
+"
+hide
+-
+cmd
+-
+window
+"
+)
+:
+bool
+        
 #
 the
 exit
@@ -8888,6 +8901,30 @@ type
 )
         
 )
+    
+if
+worker
+.
+get
+(
+"
+hide
+-
+cmd
+-
+window
+"
+)
+:
+        
+features
+[
+"
+hideCmdWindow
+"
+]
+=
+True
     
 if
 features
