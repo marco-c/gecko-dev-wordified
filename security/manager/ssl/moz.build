@@ -227,6 +227,11 @@ nsISecurityUITelemetry
 idl
 "
 "
+nsISiteIntegrityService
+.
+idl
+"
+"
 nsISiteSecurityService
 .
 idl
@@ -713,6 +718,11 @@ cpp
 "
 "
 SecretDecoderRing
+.
+cpp
+"
+"
+SiteIntegrityService
 .
 cpp
 "

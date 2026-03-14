@@ -184,6 +184,7 @@ DataStorage
 AlternateServices
 ClientAuthRememberList
 SiteSecurityServiceState
+SiteIntegrityServiceState
 }
 ;
 nsIDataStorage
