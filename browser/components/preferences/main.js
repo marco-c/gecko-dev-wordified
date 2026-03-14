@@ -36647,9 +36647,6 @@ readBackgroundUpdatePref
 )
 ;
 }
-else
-{
-}
 /
 /
 Wait
