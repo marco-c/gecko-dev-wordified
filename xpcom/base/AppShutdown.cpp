@@ -1448,7 +1448,7 @@ GetSingletonNoInit
 cache
 -
 >
-MaybeInitShutdownWrite
+MaybeKickOffShutdownWrite
 (
 )
 ;
