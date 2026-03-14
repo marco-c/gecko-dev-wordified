@@ -489,6 +489,11 @@ mozilla
 MediaByteBuffer
 *
 aExtraData
+size_t
+*
+aLength
+=
+nullptr
 )
 ;
 /
