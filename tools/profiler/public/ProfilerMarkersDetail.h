@@ -149,9 +149,6 @@ ProfilerMarkersPrerequisites
 .
 h
 "
-#
-ifdef
-MOZ_GECKO_PROFILER
 /
 /
 ~
@@ -228,11 +225,6 @@ profiler_get_core_buffer
 (
 )
 ;
-#
-endif
-/
-/
-MOZ_GECKO_PROFILER
 #
 endif
 /

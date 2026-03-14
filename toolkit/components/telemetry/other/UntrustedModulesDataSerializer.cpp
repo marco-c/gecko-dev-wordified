@@ -1233,12 +1233,6 @@ false
 ;
 }
 }
-#
-if
-defined
-(
-MOZ_GECKO_PROFILER
-)
 if
 (
 aModule
@@ -1331,11 +1325,6 @@ false
 }
 }
 }
-#
-endif
-/
-/
-MOZ_GECKO_PROFILER
 if
 (
 aModule

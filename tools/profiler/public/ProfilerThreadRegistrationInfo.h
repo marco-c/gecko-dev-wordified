@@ -413,9 +413,6 @@ ExistingRegisterTimeOrNow
 TimeStamp
 registerTime
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 registerTime
 =
 baseprofiler
@@ -428,8 +425,6 @@ GetThreadRegistrationTime
 (
 )
 ;
-#
-endif
 if
 (
 !

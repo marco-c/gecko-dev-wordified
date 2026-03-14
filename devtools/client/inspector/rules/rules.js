@@ -7287,7 +7287,6 @@ isProfilerActive
 Services
 .
 profiler
-?
 .
 IsActive
 (

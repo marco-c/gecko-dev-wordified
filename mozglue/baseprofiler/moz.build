@@ -138,14 +138,6 @@ include
 name
 clashes
 .
-if
-CONFIG
-[
-"
-MOZ_GECKO_PROFILER
-"
-]
-:
 DEFINES
 [
 "

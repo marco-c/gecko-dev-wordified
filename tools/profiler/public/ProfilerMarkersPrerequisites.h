@@ -195,9 +195,6 @@ ProfilerThreadState
 .
 h
 "
-#
-ifdef
-MOZ_GECKO_PROFILER
 namespace
 geckoprofiler
 :
@@ -257,11 +254,6 @@ geckoprofiler
 :
 :
 markers
-#
-endif
-/
-/
-MOZ_GECKO_PROFILER
 #
 endif
 /
