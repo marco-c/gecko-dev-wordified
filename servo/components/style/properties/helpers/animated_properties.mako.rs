@@ -2485,11 +2485,6 @@ Revert
 CSSWideKeyword
 :
 :
-RevertRule
-|
-CSSWideKeyword
-:
-:
 RevertLayer
 |
 CSSWideKeyword
@@ -2531,11 +2526,6 @@ CSSWideKeyword
 :
 :
 Revert
-|
-CSSWideKeyword
-:
-:
-RevertRule
 |
 CSSWideKeyword
 :

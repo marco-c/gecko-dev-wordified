@@ -3793,11 +3793,6 @@ CSSWideKeyword
 :
 :
 RevertLayer
-|
-CSSWideKeyword
-:
-:
-RevertRule
 =
 >
 false
