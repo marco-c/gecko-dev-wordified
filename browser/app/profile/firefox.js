@@ -29505,6 +29505,9 @@ Party
 Isolation
 by
 default
+(
+BEHAVIOR_REJECT_TRACKER_AND_PARTITION_FOREIGN
+)
 .
 pref
 (
@@ -29516,11 +29519,6 @@ cookie
 cookieBehavior
 "
 5
-/
-*
-BEHAVIOR_REJECT_TRACKER_AND_PARTITION_FOREIGN
-*
-/
 )
 ;
 /
@@ -29536,6 +29534,9 @@ the
 private
 browsing
 mode
+(
+BEHAVIOR_REJECT_TRACKER_AND_PARTITION_FOREIGN
+)
 .
 pref
 (
@@ -29549,11 +29550,6 @@ cookieBehavior
 pbmode
 "
 5
-/
-*
-BEHAVIOR_REJECT_TRACKER_AND_PARTITION_FOREIGN
-*
-/
 )
 ;
 /
