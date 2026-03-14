@@ -1083,6 +1083,17 @@ moxMaxValue
 ;
 /
 /
+AXBrailleRoleDescription
+-
+(
+NSString
+*
+_Nullable
+)
+moxARIABrailleRoleDescription
+;
+/
+/
 Webkit
 also
 implements

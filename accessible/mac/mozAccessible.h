@@ -1133,6 +1133,16 @@ override
 NSString
 *
 )
+moxARIABrailleRoleDescription
+;
+/
+/
+override
+-
+(
+NSString
+*
+)
 moxPlaceholderValue
 ;
 /
