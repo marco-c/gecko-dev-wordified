@@ -935,16 +935,6 @@ aSource
 >
 mSettings
 ;
-src
--
->
-mOpts
-=
-aSource
--
->
-mOpts
-;
 return
 src
 .
