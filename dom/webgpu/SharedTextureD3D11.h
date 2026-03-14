@@ -276,13 +276,8 @@ ipc
 Shmem
 &
 aDestShmem
-const
-gfx
-:
-:
-IntSize
-&
-aSize
+size_t
+aDestStride
 )
 override
 ;
