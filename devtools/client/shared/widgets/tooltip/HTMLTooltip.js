@@ -7028,7 +7028,7 @@ true
 ;
 panel
 .
-setAttribute
+toggleAttribute
 (
 "
 noautohide
