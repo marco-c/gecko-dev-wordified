@@ -220,6 +220,9 @@ bar
         
 git
 init
+-
+b
+master
         
 git
 config
@@ -319,6 +322,9 @@ bar
         
 git
 init
+-
+b
+master
         
 git
 config
