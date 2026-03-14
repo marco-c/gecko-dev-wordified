@@ -118,7 +118,9 @@ src_file
 is_dir
 (
 )
-and
+:
+            
+if
 not
 dst_file
 .
@@ -126,7 +128,7 @@ exists
 (
 )
 :
-            
+                
 dst_file
 .
 mkdir
@@ -710,17 +712,6 @@ nodejs
 import
 runxpcshelltests
         
-verbose
-=
-self
-.
-get_arg
-(
-"
-verbose
-"
-)
-        
 xpcshell
 =
 runxpcshelltests
@@ -748,6 +739,21 @@ test
 .
 name
         
+#
+Enable
+verbose
+mode
+to
+capture
+structured
+log
+output
+(
+required
+for
+perfMetrics
+)
+        
 kwargs
 [
 "
@@ -755,7 +761,7 @@ verbose
 "
 ]
 =
-verbose
+True
         
 binary
 =
@@ -1142,14 +1148,14 @@ self
 .
 info
 (
+f
 "
 Running
-%
-d
+{
+cycles
+}
 cycles
 "
-%
-cycles
 )
         
 for
@@ -1165,17 +1171,15 @@ self
 .
 info
 (
+f
 "
 Cycle
-%
-d
-"
-%
-(
+{
 cycle
 +
 1
-)
+}
+"
 )
             
 with
@@ -1441,6 +1445,9 @@ self
 procid
 line
 command
+*
+*
+kwargs
 )
 :
         
