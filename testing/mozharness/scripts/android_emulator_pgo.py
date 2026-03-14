@@ -272,6 +272,16 @@ js
 -
 input
 /
+collator_bench
+.
+html
+"
+    
+"
+js
+-
+input
+/
 normalizer_bench
 .
 html
