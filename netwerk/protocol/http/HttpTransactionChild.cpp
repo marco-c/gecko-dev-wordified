@@ -1867,7 +1867,6 @@ SendOnDataAvailable
 (
 aData
 aOffset
-aCount
 TimeStamp
 :
 :
@@ -2142,7 +2141,6 @@ SendOnDataAvailable
 (
 aData
 aOffset
-aCount
 TimeStamp
 :
 :
