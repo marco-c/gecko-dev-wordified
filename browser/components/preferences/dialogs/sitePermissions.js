@@ -4047,11 +4047,9 @@ menupopup
 setAttribute
 (
 "
-incontentshell
+escapecontentshell
 "
-"
-false
-"
+true
 )
 ;
 menulist

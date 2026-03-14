@@ -871,10 +871,10 @@ popup
 setAttribute
 (
 "
-incontentshell
+escapecontentshell
 "
 "
-false
+true
 "
 )
 ;
@@ -1126,10 +1126,10 @@ menupopup
 setAttribute
 (
 "
-incontentshell
+escapecontentshell
 "
 "
-false
+true
 "
 )
 ;

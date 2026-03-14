@@ -210,7 +210,7 @@ aValue
 )
 const
 {
-GetXULAttr
+GetAttr
 (
 nsGkAtoms
 :
@@ -251,7 +251,7 @@ aValue
 )
 const
 {
-GetXULAttr
+GetAttr
 (
 nsGkAtoms
 :
