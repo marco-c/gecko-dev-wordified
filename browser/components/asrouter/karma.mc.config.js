@@ -605,16 +605,7 @@ printed
 ;
 needed
 for
-https
-:
-/
-/
-coverage
-.
-moz
-.
-tools
-/
+Searchfox
 integration
 lcov
 :
