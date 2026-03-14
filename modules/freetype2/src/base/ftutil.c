@@ -2696,15 +2696,6 @@ cur
 >
 next
 ;
-void
-*
-data
-=
-cur
--
->
-data
-;
 if
 (
 destroy
@@ -2712,6 +2703,9 @@ destroy
 destroy
 (
 memory
+cur
+-
+>
 data
 user
 )

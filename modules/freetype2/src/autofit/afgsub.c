@@ -174,9 +174,6 @@ fully
 *
 /
 #
-ifdef
-FT_CONFIG_OPTION_USE_HARFBUZZ
-#
 include
 <
 freetype
@@ -214,6 +211,9 @@ ftstream
 .
 h
 >
+#
+ifdef
+FT_CONFIG_OPTION_USE_HARFBUZZ
 #
 include
 "
@@ -1645,6 +1645,13 @@ gsub
 globals
 -
 >
+gsub_lookup_count
+=
+lookupCount
+;
+globals
+-
+>
 gsub_lookups_single_alternate
 =
 gsub_lookups_single_alternate
@@ -1653,6 +1660,13 @@ return
 ;
 Fail
 :
+globals
+-
+>
+gsub_lookup_count
+=
+0
+;
 FT_FREE
 (
 gsub

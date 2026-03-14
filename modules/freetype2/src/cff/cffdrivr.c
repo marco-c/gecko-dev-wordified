@@ -3109,9 +3109,6 @@ font_info
 >
 underline_position
 =
-(
-FT_Short
-)
 dict
 -
 >
@@ -3122,9 +3119,6 @@ font_info
 >
 underline_thickness
 =
-(
-FT_UShort
-)
 dict
 -
 >

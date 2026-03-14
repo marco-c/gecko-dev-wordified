@@ -6842,6 +6842,7 @@ typedef
 struct
 FT_Span_
 {
+unsigned
 short
 x
 ;

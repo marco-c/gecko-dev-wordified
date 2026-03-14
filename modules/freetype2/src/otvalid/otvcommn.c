@@ -2948,8 +2948,8 @@ OTV_EXIT
 }
 /
 *
-uses
-valid
+sets
+otvalid
 -
 >
 lookup_count
@@ -3613,7 +3613,7 @@ OTV_LIMIT_CHECK
 (
 FeatureCount
 *
-2
+6
 )
 ;
 otvalid
@@ -6045,7 +6045,7 @@ otvalid
 >
 extra1
 (
-valid
+otvalid
 -
 >
 lookup_count
@@ -6417,7 +6417,7 @@ otvalid
 >
 extra1
 (
-valid
+otvalid
 -
 >
 lookup_count

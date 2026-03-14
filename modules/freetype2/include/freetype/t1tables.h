@@ -582,7 +582,7 @@ FT_String
 *
 weight
 ;
-FT_Long
+FT_Fixed
 italic_angle
 ;
 FT_Bool
@@ -3934,7 +3934,7 @@ FT_UShort
 PS_DICT_ITALIC_ANGLE
 /
 *
-FT_Long
+FT_Fixed
 *
 /
 PS_DICT_MAX

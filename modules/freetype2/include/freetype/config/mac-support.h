@@ -283,6 +283,9 @@ file
 *
 /
 #
+ifdef
+FT_MACINTOSH
+#
 if
 defined
 (
@@ -396,6 +399,16 @@ undef
 FT_MACINTOSH
 #
 endif
+#
+endif
+/
+*
+__APPLE__
+.
+.
+.
+*
+/
 #
 elif
 defined

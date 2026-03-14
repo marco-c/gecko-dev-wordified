@@ -379,7 +379,7 @@ if
 error
 )
 {
-free
+ft_sfree
 (
 buffer
 )

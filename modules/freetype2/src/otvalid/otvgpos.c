@@ -319,7 +319,7 @@ otv_Anchor_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 ;
 static
@@ -329,7 +329,7 @@ otv_MarkArray_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 ;
 /
@@ -685,7 +685,7 @@ otv_x_sxy
 /
 *
 uses
-valid
+otvalid
 -
 >
 extra1
@@ -697,7 +697,7 @@ counter
 /
 *
 uses
-valid
+otvalid
 -
 >
 extra2
