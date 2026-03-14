@@ -417,13 +417,13 @@ browser
 )
 {
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-{
-}
+[
+]
 async
 function
 (
@@ -455,6 +455,8 @@ port2
 }
 =
 new
+content
+.
 MessageChannel
 (
 )

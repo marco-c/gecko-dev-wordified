@@ -145,12 +145,13 @@ tab
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 tabBrowser
-null
+[
+]
 async
 function
 (
@@ -525,7 +526,7 @@ tab
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 url
