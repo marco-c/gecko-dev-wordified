@@ -2622,7 +2622,7 @@ jump
 instruction
 .
 bool
-is_near
+isNear
 (
 Label
 *
@@ -2630,7 +2630,7 @@ L
 )
 ;
 bool
-is_near
+isNear
 (
 Label
 *
@@ -2908,7 +2908,7 @@ x
 ;
 }
 void
-instr_at_put
+putInstrAt
 (
 BufferOffset
 offset
@@ -2925,7 +2925,7 @@ DEBUG_PRINTF
 \
 t
 [
-instr_at_put
+putInstrAt
 \
 n
 "
@@ -3024,7 +3024,7 @@ DEBUG_PRINTF
 \
 t
 [
-instr_at_put
+putInstrAt
 \
 n
 "

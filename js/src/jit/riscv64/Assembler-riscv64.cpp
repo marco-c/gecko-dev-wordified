@@ -8144,7 +8144,7 @@ getOffset
 instr
 )
 ;
-instr_at_put
+putInstrAt
 (
 pos
 instr
@@ -8206,7 +8206,7 @@ getOffset
 instr
 )
 ;
-instr_at_put
+putInstrAt
 (
 pos
 instr
@@ -8375,13 +8375,13 @@ instr
 offset
 )
 ;
-instr_at_put
+putInstrAt
 (
 pos
 instr
 )
 ;
-instr_at_put
+putInstrAt
 (
 BufferOffset
 (
@@ -8478,7 +8478,7 @@ Hi20
 instr_auipc
 )
 ;
-instr_at_put
+putInstrAt
 (
 pos
 instr_auipc
@@ -8537,7 +8537,7 @@ kImm11_0Mask
 20
 )
 ;
-instr_at_put
+putInstrAt
 (
 BufferOffset
 (
@@ -10043,7 +10043,7 @@ bool
 Assembler
 :
 :
-is_near
+isNear
 (
 Label
 *
@@ -10083,7 +10083,7 @@ bool
 Assembler
 :
 :
-is_near
+isNear
 (
 Label
 *
