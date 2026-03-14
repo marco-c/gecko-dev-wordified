@@ -4212,13 +4212,9 @@ run_info_extras
 products
 .
 Product
+.
+from_product_name
 (
-kwargs
-[
-"
-config
-"
-]
 "
 firefox
 "
