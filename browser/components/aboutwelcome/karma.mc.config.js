@@ -1220,6 +1220,9 @@ jsx
 "
 :
 {
+functions
+:
+78
 branches
 :
 78
