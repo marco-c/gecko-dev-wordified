@@ -112,6 +112,8 @@ annotations
 import
 datetime
 import
+functools
+import
 hashlib
 import
 os
@@ -135,12 +137,6 @@ import
 msgspec
 import
 taskgraph
-from
-mozbuild
-.
-util
-import
-memoize
 from
 mozilla_taskgraph
 .
@@ -357,7 +353,9 @@ sccache
 -
 3
 "
-memoize
+functools
+.
+cache
 def
 _run_task_suffix
 (
@@ -3829,7 +3827,9 @@ selectedTaskRun
 self
 >
 "
-memoize
+functools
+.
+cache
 def
 get_default_priority
 (
@@ -7676,6 +7676,19 @@ proxy
 :
 bool
         
+Optional
+(
+"
+hide
+-
+cmd
+-
+window
+"
+)
+:
+bool
+        
 #
 the
 exit
@@ -8888,6 +8901,30 @@ type
 )
         
 )
+    
+if
+worker
+.
+get
+(
+"
+hide
+-
+cmd
+-
+window
+"
+)
+:
+        
+features
+[
+"
+hideCmdWindow
+"
+]
+=
+True
     
 if
 features
