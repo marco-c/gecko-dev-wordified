@@ -22021,6 +22021,7 @@ aName
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 Document
 *
 Open
