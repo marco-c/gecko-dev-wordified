@@ -2424,7 +2424,7 @@ std
 :
 clamp
 (
-AssertedCast
+SaturatingCast
 <
 int
 >

@@ -5618,7 +5618,7 @@ maxBps
 MinIgnoreZero
 (
 maxBps
-static_cast
+SaturatingCast
 <
 int
 >
@@ -5652,7 +5652,7 @@ maxBps
 MinIgnoreZero
 (
 maxBps
-static_cast
+SaturatingCast
 <
 int
 >
@@ -6057,7 +6057,7 @@ maxBps
 MinIgnoreZero
 (
 maxBps
-static_cast
+SaturatingCast
 <
 int
 >
