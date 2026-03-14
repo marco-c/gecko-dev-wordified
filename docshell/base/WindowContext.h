@@ -1716,6 +1716,11 @@ CanShowPopup
 )
 ;
 bool
+CanFramebust
+(
+)
+;
+bool
 AllowJavascript
 (
 )
