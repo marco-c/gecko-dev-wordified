@@ -68,6 +68,10 @@ pub
 mod
 repeat
 ;
+pub
+mod
+image
+;
 use
 api
 :
