@@ -888,7 +888,7 @@ parent
 frame
 :
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (

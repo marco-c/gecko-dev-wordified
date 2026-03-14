@@ -212,7 +212,7 @@ await
 loaded
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (

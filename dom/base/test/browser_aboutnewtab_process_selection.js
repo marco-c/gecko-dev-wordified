@@ -550,7 +550,7 @@ tabs
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -560,7 +560,9 @@ tabs
 ]
 .
 linkedBrowser
+[
 TEST_URL_2
+]
 url
 =
 >

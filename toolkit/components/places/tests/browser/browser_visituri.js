@@ -844,14 +844,15 @@ as
 background
 .
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
-null
+[
+]
 async
 (
 )
@@ -1028,7 +1029,7 @@ expectedResults
 )
 {
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -1041,10 +1042,8 @@ value
 ]
 async
 (
-[
 k
 v
-]
 )
 =
 >

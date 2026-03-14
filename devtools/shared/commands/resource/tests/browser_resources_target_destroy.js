@@ -189,7 +189,7 @@ d
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -468,7 +468,7 @@ directly
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (

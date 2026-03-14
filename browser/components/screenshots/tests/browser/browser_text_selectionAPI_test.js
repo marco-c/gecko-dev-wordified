@@ -110,7 +110,7 @@ selection
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -240,7 +240,7 @@ interacted
 with
 .
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -480,7 +480,7 @@ clientHeight
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (

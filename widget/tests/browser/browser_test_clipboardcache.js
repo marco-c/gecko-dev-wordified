@@ -710,12 +710,14 @@ linkedBrowser
 Sanitize
 environment
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 SHORT_STRING_NO_CACHE
+]
 async
 shortStr
 =

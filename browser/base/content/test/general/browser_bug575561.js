@@ -830,17 +830,13 @@ spawn
 (
 browser
 [
-[
 testSubFrame
 aLinkIndexOrFunction
 ]
-]
 function
 (
-[
 subFrame
 index
-]
 )
 {
 let

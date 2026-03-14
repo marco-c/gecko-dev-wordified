@@ -255,7 +255,7 @@ false
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -264,11 +264,7 @@ browser
 url
 ]
 async
-(
-[
 href
-]
-)
 =
 >
 {
@@ -354,7 +350,7 @@ false
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -363,11 +359,7 @@ browser
 url
 ]
 async
-(
-[
 href
-]
-)
 =
 >
 {
@@ -505,7 +497,7 @@ true
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -516,10 +508,8 @@ expectedVisited
 ]
 async
 (
-[
 href
 visited
-]
 )
 =
 >

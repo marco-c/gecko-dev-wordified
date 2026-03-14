@@ -1147,12 +1147,14 @@ resolve
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 MSG_WINDOW_DESTROYED
+]
 MSG_WINDOW_DESTROYED
 =
 >

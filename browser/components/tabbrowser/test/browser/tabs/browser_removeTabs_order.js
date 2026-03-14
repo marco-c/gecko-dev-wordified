@@ -125,14 +125,15 @@ the
 tabs
 .
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 tab2
 .
 linkedBrowser
-null
+[
+]
 async
 function
 (

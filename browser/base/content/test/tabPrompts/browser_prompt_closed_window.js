@@ -101,7 +101,7 @@ promiseAlertDialogOpen
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (

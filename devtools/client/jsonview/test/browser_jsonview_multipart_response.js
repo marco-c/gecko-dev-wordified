@@ -204,7 +204,7 @@ origin
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (

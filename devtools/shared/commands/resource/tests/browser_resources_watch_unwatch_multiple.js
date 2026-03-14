@@ -237,7 +237,7 @@ page
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (

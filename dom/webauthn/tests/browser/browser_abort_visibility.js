@@ -269,9 +269,7 @@ tab
 .
 linkedBrowser
 [
-[
 expected
-]
 ]
 async
 function

@@ -512,14 +512,16 @@ selectedBrowser
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
+[
 href
+]
 async
 cHref
 =

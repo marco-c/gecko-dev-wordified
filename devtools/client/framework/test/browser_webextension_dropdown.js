@@ -292,12 +292,13 @@ menu
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-null
+[
+]
 async
 function
 (

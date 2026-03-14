@@ -244,7 +244,7 @@ true
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -416,7 +416,7 @@ content
 process
 )
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (

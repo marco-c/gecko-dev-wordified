@@ -128,14 +128,16 @@ no
 -
 shadow
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 {
 selector
 }
+]
 async
 (
 {

@@ -1354,12 +1354,13 @@ expected
 events
 .
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 emptyBrowser
-null
+[
+]
 async
 (
 )

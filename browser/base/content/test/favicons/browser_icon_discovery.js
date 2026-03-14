@@ -864,7 +864,6 @@ gBrowser
 .
 selectedBrowser
 [
-[
 testCase
 .
 icons
@@ -872,12 +871,9 @@ ROOTURI
 +
 ICON
 ]
-]
 (
-[
 icons
 defaultIcon
-]
 )
 =
 >

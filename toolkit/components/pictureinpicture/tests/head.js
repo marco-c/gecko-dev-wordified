@@ -3613,12 +3613,14 @@ rootID
 }
 ;
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 args
+]
 async
 args
 =

@@ -394,7 +394,7 @@ in
 the
 articleTrigger
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -403,7 +403,8 @@ win
 gBrowser
 .
 selectedBrowser
-null
+[
+]
 async
 (
 )
