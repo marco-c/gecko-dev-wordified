@@ -283,6 +283,8 @@ test_page_with_cached_link_stylesheet
     
 bidi_session
     
+configuration
+    
 url
     
 inline
@@ -438,6 +440,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 2
 timeout
@@ -565,6 +568,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 4
 timeout
@@ -654,6 +658,8 @@ test_page_with_cached_import_stylesheet
 (
     
 bidi_session
+    
+configuration
     
 url
     
@@ -828,6 +834,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 2
 timeout
@@ -955,6 +962,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 4
 timeout
@@ -1079,6 +1087,8 @@ test_page_with_cached_duplicated_stylesheets
 (
     
 bidi_session
+    
+configuration
     
 url
     
@@ -1385,6 +1395,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 3
 timeout
@@ -1599,6 +1610,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 6
 timeout
@@ -1792,6 +1804,8 @@ test_page_with_cached_script_javascript
     
 bidi_session
     
+configuration
+    
 url
     
 inline
@@ -1942,6 +1956,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 2
 timeout
@@ -2071,6 +2086,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 4
 timeout
@@ -2309,6 +2325,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 6
 timeout
@@ -2463,6 +2480,8 @@ test_page_with_cached_javascript_module
 (
     
 bidi_session
+    
+configuration
     
 url
     
@@ -2624,6 +2643,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 2
 timeout
@@ -2753,6 +2773,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 4
 timeout
@@ -2972,6 +2993,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 6
 timeout
@@ -3078,6 +3100,8 @@ test_page_with_cached_image
 (
     
 bidi_session
+    
+configuration
     
 url
     
@@ -3217,6 +3241,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 2
 timeout
@@ -3345,6 +3370,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 4
 timeout
