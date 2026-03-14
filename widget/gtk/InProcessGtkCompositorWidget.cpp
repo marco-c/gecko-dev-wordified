@@ -223,11 +223,10 @@ get_GtkCompositorWidgetInitData
 (
 )
 aOptions
-static_cast
-<
 nsWindow
-*
->
+:
+:
+FromWidget
 (
 aWidget
 )

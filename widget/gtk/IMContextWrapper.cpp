@@ -20958,11 +20958,10 @@ nsWindow
 *
 rootWindow
 =
-static_cast
-<
 nsWindow
-*
->
+:
+:
+FromWidget
 (
 mLastFocusedWindow
 -
