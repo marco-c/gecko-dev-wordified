@@ -2260,9 +2260,6 @@ data
 directwrite
 ;
 }
-#
-ifndef
-HB_DISABLE_DEPRECATED
 /
 *
 *
@@ -2322,7 +2319,5 @@ return
 nullptr
 ;
 }
-#
-endif
 #
 endif

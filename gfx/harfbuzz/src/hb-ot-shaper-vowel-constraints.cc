@@ -23,6 +23,8 @@ running
 :
 *
 *
+.
+/
 gen
 -
 vowel
