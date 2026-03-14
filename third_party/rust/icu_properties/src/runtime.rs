@@ -60,13 +60,13 @@ LICENSE
 !
 \
 [
-Experimental
+Unstable
 \
 ]
 This
 module
 is
-experimental
+unstable
 and
 currently
 crate

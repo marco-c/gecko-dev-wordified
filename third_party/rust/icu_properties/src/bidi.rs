@@ -341,12 +341,6 @@ BidiMirroringGlyph
 type
 ULE
 =
-zerovec
-:
-:
-ule
-:
-:
 RawBytesULE
 <
 3

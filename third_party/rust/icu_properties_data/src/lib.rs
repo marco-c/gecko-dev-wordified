@@ -78,7 +78,7 @@ CLDR
 version
 48
 .
-0
+1
 .
 0
 ICU
