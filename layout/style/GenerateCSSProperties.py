@@ -1161,6 +1161,7 @@ BindingTemplate
 (
 %
 s
+NonCustomCSSPropertyId
 eCSSProperty_
 %
 s
