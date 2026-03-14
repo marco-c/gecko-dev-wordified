@@ -5645,9 +5645,9 @@ global
 WeakGlobalObjectSet
 :
 :
-Enum
+ModIterator
 *
-debugEnum
+debugIter
 FromSweep
 fromSweep
 )
@@ -6560,9 +6560,9 @@ frame
 FrameMap
 :
 :
-Enum
+ModIterator
 *
-maybeFramesEnum
+maybeFramesIter
 =
 nullptr
 GeneratorWeakMap
@@ -7865,7 +7865,7 @@ const
 WeakGlobalObjectSet
 :
 :
-Range
+Iterator
 allDebuggees
 (
 )
@@ -7874,7 +7874,7 @@ const
 return
 debuggees
 .
-all
+iter
 (
 )
 ;
