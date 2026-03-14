@@ -13313,7 +13313,7 @@ mozilla
 :
 StyleAnimationRangeStart
 &
-GetRangeStart
+GetAnimationRangeStart
 (
 uint32_t
 aIndex
@@ -13339,7 +13339,7 @@ mozilla
 :
 StyleAnimationRangeEnd
 &
-GetRangeEnd
+GetAnimationRangeEnd
 (
 uint32_t
 aIndex
