@@ -440,14 +440,14 @@ RawRangeBoundary
 TreeKind
 :
 :
-FlatForSelection
+Flat
 )
 RawRangeBoundary
 (
 TreeKind
 :
 :
-FlatForSelection
+Flat
 )
 nullptr
 nullptr
@@ -1233,7 +1233,7 @@ aChild
 TreeKind
 :
 :
-FlatForSelection
+Flat
 )
 )
 ;
@@ -1244,7 +1244,7 @@ newBoundary
 TreeKind
 :
 :
-FlatForSelection
+Flat
 )
 ;
 newBoundary

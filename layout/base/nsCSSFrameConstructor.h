@@ -215,17 +215,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-ChildIterator
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -314,6 +303,9 @@ CharacterData
 ;
 class
 Text
+;
+class
+FlattenedChildIterator
 ;
 }
 /

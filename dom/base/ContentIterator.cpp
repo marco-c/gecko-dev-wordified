@@ -389,12 +389,6 @@ nsContentUtils
 :
 :
 ComparePoints
-<
-TreeKind
-:
-:
-ShadowIncludingDOM
->
 (
 aStart
 afterNode
@@ -439,12 +433,6 @@ nsContentUtils
 :
 :
 ComparePoints
-<
-TreeKind
-:
-:
-ShadowIncludingDOM
->
 (
 afterNode
 aEnd
@@ -561,12 +549,6 @@ nsContentUtils
 :
 :
 ComparePoints
-<
-TreeKind
-:
-:
-ShadowIncludingDOM
->
 (
 aStart
 beforeNode
@@ -612,12 +594,6 @@ nsContentUtils
 :
 :
 ComparePoints
-<
-TreeKind
-:
-:
-ShadowIncludingDOM
->
 (
 beforeNode
 aEnd
@@ -7324,7 +7300,7 @@ IsNodeContainedInRange
 TreeKind
 :
 :
-FlatForSelection
+Flat
 >
 (
 *
@@ -7956,7 +7932,7 @@ IsNodeContainedInRange
 TreeKind
 :
 :
-FlatForSelection
+Flat
 >
 (
 *
@@ -8964,7 +8940,7 @@ IsNodeContainedInRange
 TreeKind
 :
 :
-FlatForSelection
+Flat
 >
 (
 *
@@ -9212,7 +9188,7 @@ IsNodeContainedInRange
 TreeKind
 :
 :
-FlatForSelection
+Flat
 >
 (
 *

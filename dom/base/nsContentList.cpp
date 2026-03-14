@@ -307,13 +307,6 @@ h
 #
 include
 "
-nsIContentInlines
-.
-h
-"
-#
-include
-"
 nsTHashtable
 .
 h
