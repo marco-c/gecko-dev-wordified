@@ -213,6 +213,15 @@ TooManyFormalArguments
 #
 include
 "
+jit
+/
+StubFolding
+.
+h
+"
+#
+include
+"
 vm
 /
 BytecodeLocation
@@ -4244,7 +4253,7 @@ flag
 script
 -
 >
-disableIon
+setUninlineable
 (
 )
 ;
@@ -4280,7 +4289,7 @@ compile
 script
 -
 >
-setUninlineable
+disableIon
 (
 )
 ;
