@@ -20267,6 +20267,11 @@ group
 headingLevel
 :
 2
+subcategory
+:
+"
+sitedata
+"
 items
 :
 [
@@ -23541,6 +23546,15 @@ permissions
 block
 -
 popups2
+"
+subcategory
+:
+"
+permissions
+-
+block
+-
+popups
 "
 items
 :
