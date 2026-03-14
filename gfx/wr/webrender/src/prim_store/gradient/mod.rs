@@ -112,15 +112,6 @@ use
 linear
 :
 :
-MAX_CACHED_SIZE
-as
-LINEAR_MAX_CACHED_SIZE
-;
-pub
-use
-linear
-:
-:
 *
 ;
 pub
@@ -2900,7 +2891,7 @@ LinearGradientTemplate
 >
 (
 )
-144
+152
 "
 LinearGradientTemplate
 size
@@ -2966,7 +2957,7 @@ RadialGradientTemplate
 >
 (
 )
-144
+152
 "
 RadialGradientTemplate
 size
@@ -3032,7 +3023,7 @@ ConicGradientTemplate
 >
 (
 )
-144
+152
 "
 ConicGradientTemplate
 size
