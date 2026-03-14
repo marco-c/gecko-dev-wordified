@@ -127,6 +127,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 ContentAnalysis
 .
@@ -4480,10 +4485,10 @@ la
 1989045
 MOZ_DIAGNOSTIC_ASSERT
 (
-mozilla
+std
 :
 :
-AnyOf
+any_of
 (
 loadingInfo
 -
@@ -4530,10 +4535,10 @@ else
 {
 MOZ_ASSERT
 (
-mozilla
+std
 :
 :
-AnyOf
+any_of
 (
 loadingInfo
 -
