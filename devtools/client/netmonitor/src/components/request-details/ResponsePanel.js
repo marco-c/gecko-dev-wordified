@@ -703,6 +703,18 @@ responseEmptyText
 )
 ;
 const
+RESPONSE_REDIRECT_EMPTY_TEXT
+=
+L10N
+.
+getStr
+(
+"
+responseRedirectEmptyText
+"
+)
+;
+const
 RESPONSE_TRUNCATED
 =
 L10N
@@ -2475,6 +2487,7 @@ const
 blockedReason
 responseContent
 url
+isRedirect
 }
 =
 request
@@ -2573,6 +2586,10 @@ empty
 notice
 "
 }
+isRedirect
+?
+RESPONSE_REDIRECT_EMPTY_TEXT
+:
 RESPONSE_EMPTY_TEXT
 )
 )
