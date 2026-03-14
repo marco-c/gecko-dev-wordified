@@ -119,10 +119,17 @@ test_install_with_permanent
 (
     
 bidi_session
+    
 current_session
+    
 extension_data
+    
+install_webextension
+    
 mode
+    
 permanent
+    
 signed
 )
 :
@@ -283,11 +290,7 @@ True
 )
                 
 await
-bidi_session
-.
-web_extension
-.
-install
+install_webextension
 (
                     
 extension_data
@@ -336,11 +339,7 @@ True
 web_extension
 =
 await
-bidi_session
-.
-web_extension
-.
-install
+install_webextension
 (
             
 extension_data
@@ -377,13 +376,6 @@ permanent
 finally
 :
         
-#
-Clean
-up
-the
-extension
-.
-        
 clear_pref
 (
 current_session
@@ -394,16 +386,4 @@ signatures
 .
 required
 "
-)
-        
-await
-bidi_session
-.
-web_extension
-.
-uninstall
-(
-extension
-=
-web_extension
 )

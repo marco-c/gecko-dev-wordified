@@ -81,9 +81,11 @@ bidi_session
     
 current_session
     
-top_context
+install_webextension
     
 subscribe_events
+    
+top_context
     
 event_name
 )
@@ -159,20 +161,12 @@ path
 path
 }
     
-web_extension
-=
 await
-bidi_session
-.
-web_extension
-.
-install
+install_webextension
 (
-        
 extension_data
 =
 extension_data
-    
 )
     
 #
@@ -403,25 +397,6 @@ events
 )
 >
 0
-)
-    
-#
-Clean
-up
-the
-extension
-.
-    
-await
-bidi_session
-.
-web_extension
-.
-uninstall
-(
-extension
-=
-web_extension
 )
     
 remove_listener
