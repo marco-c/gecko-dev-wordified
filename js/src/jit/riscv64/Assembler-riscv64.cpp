@@ -1209,9 +1209,9 @@ BufferOffset
 branch
 Instruction
 *
-dest
+inst
 BufferOffset
-afterPool
+dest
 )
 {
 DEBUG_PRINTF
@@ -1244,7 +1244,7 @@ branch
 getOffset
 (
 )
-afterPool
+dest
 .
 getOffset
 (
@@ -1252,7 +1252,7 @@ getOffset
 jal
 )
 ;
-dest
+inst
 -
 >
 SetInstructionBits
@@ -1271,7 +1271,7 @@ x
 )
 :
 "
-dest
+inst
 branch
 .
 getOffset
@@ -1284,7 +1284,7 @@ ifdef
 JS_DISASM_RISCV64
 disassembleInstr
 (
-dest
+inst
 -
 >
 InstructionBits
@@ -4424,14 +4424,14 @@ jumpChainTargetAddressAt
 (
 Instruction
 *
-pc
+pos
 )
 {
 Instruction
 *
 instr0
 =
-pc
+pos
 ;
 DEBUG_PRINTF
 (
@@ -4453,7 +4453,7 @@ Instruction
 *
 instr1
 =
-pc
+pos
 +
 1
 *
@@ -4463,7 +4463,7 @@ Instruction
 *
 instr2
 =
-pc
+pos
 +
 2
 *
@@ -4473,7 +4473,7 @@ Instruction
 *
 instr3
 =
-pc
+pos
 +
 3
 *
@@ -4483,7 +4483,7 @@ Instruction
 *
 instr4
 =
-pc
+pos
 +
 4
 *
@@ -4493,7 +4493,7 @@ Instruction
 *
 instr5
 =
-pc
+pos
 +
 5
 *
@@ -5594,7 +5594,7 @@ UpdateLoad64Value
 (
 Instruction
 *
-pc
+inst0
 uint64_t
 value
 )
@@ -5619,7 +5619,7 @@ PRIx64
 \
 n
 "
-pc
+inst0
 value
 )
 ;
@@ -5627,7 +5627,7 @@ Instruction
 *
 instr1
 =
-pc
+inst0
 +
 1
 *
@@ -5644,16 +5644,16 @@ Instr
 *
 >
 (
-pc
+inst0
 )
 )
 )
 {
-pc
+inst0
 =
-pc
+inst0
 +
-pc
+inst0
 -
 >
 Imm20JValue
@@ -5662,7 +5662,7 @@ Imm20JValue
 ;
 instr1
 =
-pc
+inst0
 +
 1
 *
@@ -5689,13 +5689,13 @@ Instruction
 *
 instr0
 =
-pc
+inst0
 ;
 Instruction
 *
 instr2
 =
-pc
+inst0
 +
 2
 *
@@ -5705,7 +5705,7 @@ Instruction
 *
 instr3
 =
-pc
+inst0
 +
 3
 *
@@ -5715,7 +5715,7 @@ Instruction
 *
 instr4
 =
-pc
+inst0
 +
 4
 *
@@ -5725,7 +5725,7 @@ Instruction
 *
 instr5
 =
-pc
+inst0
 +
 5
 *
@@ -5735,7 +5735,7 @@ Instruction
 *
 instr6
 =
-pc
+inst0
 +
 6
 *
@@ -5745,7 +5745,7 @@ Instruction
 *
 instr7
 =
-pc
+inst0
 +
 7
 *
@@ -5762,7 +5762,7 @@ Instr
 *
 >
 (
-pc
+inst0
 )
 )
 &
@@ -6437,7 +6437,7 @@ MOZ_ASSERT
 (
 ExtractLoad64Value
 (
-pc
+inst0
 )
 =
 =
@@ -6454,13 +6454,13 @@ Instruction
 *
 instr0
 =
-pc
+inst0
 ;
 Instruction
 *
 instr2
 =
-pc
+inst0
 +
 2
 *
@@ -6470,7 +6470,7 @@ Instruction
 *
 instr3
 =
-pc
+inst0
 +
 3
 *
@@ -6480,7 +6480,7 @@ Instruction
 *
 instr4
 =
-pc
+inst0
 +
 4
 *
@@ -6490,7 +6490,7 @@ Instruction
 *
 instr5
 =
-pc
+inst0
 +
 5
 *
@@ -6500,7 +6500,7 @@ Instruction
 *
 instr6
 =
-pc
+inst0
 +
 6
 *
@@ -6510,7 +6510,7 @@ Instruction
 *
 instr7
 =
-pc
+inst0
 +
 7
 *
@@ -6621,7 +6621,7 @@ instr1
 ;
 jumpChainSetTargetValueAt
 (
-pc
+inst0
 value
 )
 ;

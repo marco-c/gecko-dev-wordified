@@ -325,13 +325,6 @@ h
 #
 include
 <
-stdarg
-.
-h
->
-#
-include
-<
 stdio
 .
 h
@@ -1753,12 +1746,12 @@ instr
 const
 char
 *
-format
+option
 )
 {
 MOZ_ASSERT
 (
-format
+option
 [
 0
 ]
@@ -1771,7 +1764,7 @@ r
 ;
 if
 (
-format
+option
 [
 1
 ]
@@ -1795,7 +1788,7 @@ register
 .
 if
 (
-format
+option
 [
 2
 ]
@@ -1828,7 +1821,7 @@ return
 else
 if
 (
-format
+option
 [
 2
 ]
@@ -1866,7 +1859,7 @@ MOZ_CRASH
 else
 if
 (
-format
+option
 [
 1
 ]
@@ -1940,12 +1933,12 @@ instr
 const
 char
 *
-format
+option
 )
 {
 MOZ_ASSERT
 (
-format
+option
 [
 0
 ]
@@ -1958,7 +1951,7 @@ f
 ;
 if
 (
-format
+option
 [
 1
 ]
@@ -1984,7 +1977,7 @@ register
 .
 if
 (
-format
+option
 [
 2
 ]
@@ -2017,7 +2010,7 @@ return
 else
 if
 (
-format
+option
 [
 2
 ]
@@ -2050,7 +2043,7 @@ return
 else
 if
 (
-format
+option
 [
 2
 ]
@@ -2088,7 +2081,7 @@ MOZ_CRASH
 else
 if
 (
-format
+option
 [
 1
 ]
@@ -2129,7 +2122,7 @@ return
 else
 if
 (
-format
+option
 [
 1
 ]
@@ -2148,7 +2141,7 @@ MOZ_ASSERT
 (
 STRING_STARTS_WITH
 (
-format
+option
 "
 frm
 "
@@ -2202,12 +2195,12 @@ instr
 const
 char
 *
-format
+option
 )
 {
 MOZ_ASSERT
 (
-format
+option
 [
 0
 ]
@@ -2220,7 +2213,7 @@ C
 ;
 MOZ_ASSERT
 (
-format
+option
 [
 1
 ]
@@ -2231,7 +2224,7 @@ r
 '
 |
 |
-format
+option
 [
 1
 ]
@@ -2244,7 +2237,7 @@ f
 ;
 if
 (
-format
+option
 [
 2
 ]
@@ -2268,7 +2261,7 @@ register
 .
 if
 (
-format
+option
 [
 3
 ]
@@ -2281,7 +2274,7 @@ format
 {
 if
 (
-format
+option
 [
 4
 ]
@@ -2313,7 +2306,7 @@ RvcRs1sValue
 ;
 if
 (
-format
+option
 [
 1
 ]
@@ -2333,7 +2326,7 @@ reg
 else
 if
 (
-format
+option
 [
 1
 ]
@@ -2366,7 +2359,7 @@ RvcRs1Value
 ;
 if
 (
-format
+option
 [
 1
 ]
@@ -2386,7 +2379,7 @@ reg
 else
 if
 (
-format
+option
 [
 1
 ]
@@ -2410,7 +2403,7 @@ return
 else
 if
 (
-format
+option
 [
 3
 ]
@@ -2423,7 +2416,7 @@ format
 {
 if
 (
-format
+option
 [
 4
 ]
@@ -2455,7 +2448,7 @@ RvcRs2sValue
 ;
 if
 (
-format
+option
 [
 1
 ]
@@ -2475,7 +2468,7 @@ reg
 else
 if
 (
-format
+option
 [
 1
 ]
@@ -2508,7 +2501,7 @@ RvcRs2Value
 ;
 if
 (
-format
+option
 [
 1
 ]
@@ -2528,7 +2521,7 @@ reg
 else
 if
 (
-format
+option
 [
 1
 ]
@@ -2557,7 +2550,7 @@ MOZ_CRASH
 else
 if
 (
-format
+option
 [
 2
 ]
@@ -2588,7 +2581,7 @@ RvcRdValue
 ;
 if
 (
-format
+option
 [
 1
 ]
@@ -2608,7 +2601,7 @@ reg
 else
 if
 (
-format
+option
 [
 1
 ]
@@ -2667,7 +2660,7 @@ instr
 const
 char
 *
-format
+option
 )
 {
 /
@@ -2686,7 +2679,7 @@ MOZ_ASSERT
 (
 STRING_STARTS_WITH
 (
-format
+option
 "
 Cimm
 "
@@ -2695,7 +2688,7 @@ Cimm
 ;
 if
 (
-format
+option
 [
 4
 ]
@@ -2708,7 +2701,7 @@ format
 {
 if
 (
-format
+option
 [
 5
 ]
@@ -2723,7 +2716,7 @@ MOZ_ASSERT
 (
 STRING_STARTS_WITH
 (
-format
+option
 "
 Cimm6U
 "
@@ -2742,7 +2735,7 @@ return
 else
 if
 (
-format
+option
 [
 5
 ]
@@ -2755,7 +2748,7 @@ A
 {
 if
 (
-format
+option
 [
 9
 ]
@@ -2766,7 +2759,7 @@ format
 '
 &
 &
-format
+option
 [
 10
 ]
@@ -2781,7 +2774,7 @@ MOZ_ASSERT
 (
 STRING_STARTS_WITH
 (
-format
+option
 "
 Cimm6Addi16sp
 "
@@ -2805,7 +2798,7 @@ MOZ_CRASH
 else
 if
 (
-format
+option
 [
 5
 ]
@@ -2818,7 +2811,7 @@ L
 {
 if
 (
-format
+option
 [
 6
 ]
@@ -2831,7 +2824,7 @@ d
 {
 if
 (
-format
+option
 [
 7
 ]
@@ -2846,7 +2839,7 @@ MOZ_ASSERT
 (
 STRING_STARTS_WITH
 (
-format
+option
 "
 Cimm6Ldsp
 "
@@ -2866,7 +2859,7 @@ return
 else
 if
 (
-format
+option
 [
 6
 ]
@@ -2879,7 +2872,7 @@ w
 {
 if
 (
-format
+option
 [
 7
 ]
@@ -2894,7 +2887,7 @@ MOZ_ASSERT
 (
 STRING_STARTS_WITH
 (
-format
+option
 "
 Cimm6Lwsp
 "
@@ -2919,7 +2912,7 @@ MOZ_CRASH
 else
 if
 (
-format
+option
 [
 5
 ]
@@ -2932,7 +2925,7 @@ S
 {
 if
 (
-format
+option
 [
 6
 ]
@@ -2947,7 +2940,7 @@ MOZ_ASSERT
 (
 STRING_STARTS_WITH
 (
-format
+option
 "
 Cimm6Swsp
 "
@@ -2966,7 +2959,7 @@ return
 else
 if
 (
-format
+option
 [
 6
 ]
@@ -2981,7 +2974,7 @@ MOZ_ASSERT
 (
 STRING_STARTS_WITH
 (
-format
+option
 "
 Cimm6Sdsp
 "
@@ -3014,7 +3007,7 @@ return
 else
 if
 (
-format
+option
 [
 4
 ]
@@ -3029,7 +3022,7 @@ MOZ_ASSERT
 (
 STRING_STARTS_WITH
 (
-format
+option
 "
 Cimm5
 "
@@ -3038,7 +3031,7 @@ Cimm5
 ;
 if
 (
-format
+option
 [
 5
 ]
@@ -3053,7 +3046,7 @@ MOZ_ASSERT
 (
 STRING_STARTS_WITH
 (
-format
+option
 "
 Cimm5W
 "
@@ -3072,7 +3065,7 @@ return
 else
 if
 (
-format
+option
 [
 5
 ]
@@ -3087,7 +3080,7 @@ MOZ_ASSERT
 (
 STRING_STARTS_WITH
 (
-format
+option
 "
 Cimm5D
 "
@@ -3111,7 +3104,7 @@ MOZ_CRASH
 else
 if
 (
-format
+option
 [
 4
 ]
@@ -3126,7 +3119,7 @@ MOZ_ASSERT
 (
 STRING_STARTS_WITH
 (
-format
+option
 "
 Cimm8
 "
@@ -3135,7 +3128,7 @@ Cimm8
 ;
 if
 (
-format
+option
 [
 5
 ]
@@ -3150,7 +3143,7 @@ MOZ_ASSERT
 (
 STRING_STARTS_WITH
 (
-format
+option
 "
 Cimm8Addi4spn
 "
@@ -3169,7 +3162,7 @@ return
 else
 if
 (
-format
+option
 [
 5
 ]
@@ -3184,7 +3177,7 @@ MOZ_ASSERT
 (
 STRING_STARTS_WITH
 (
-format
+option
 "
 Cimm8B
 "
@@ -3208,7 +3201,7 @@ MOZ_CRASH
 else
 if
 (
-format
+option
 [
 4
 ]
@@ -3223,7 +3216,7 @@ MOZ_ASSERT
 (
 STRING_STARTS_WITH
 (
-format
+option
 "
 Cimm1
 "
@@ -3232,7 +3225,7 @@ Cimm1
 ;
 if
 (
-format
+option
 [
 5
 ]
@@ -3247,7 +3240,7 @@ MOZ_ASSERT
 (
 STRING_STARTS_WITH
 (
-format
+option
 "
 Cimm11CJ
 "
@@ -3348,12 +3341,12 @@ instr
 const
 char
 *
-format
+option
 )
 {
 switch
 (
-format
+option
 [
 0
 ]
@@ -3371,7 +3364,7 @@ C
 extension
 if
 (
-format
+option
 [
 1
 ]
@@ -3382,7 +3375,7 @@ r
 '
 |
 |
-format
+option
 [
 1
 ]
@@ -3397,14 +3390,14 @@ return
 FormatRvcRegister
 (
 instr
-format
+option
 )
 ;
 }
 else
 if
 (
-format
+option
 [
 1
 ]
@@ -3419,14 +3412,14 @@ return
 FormatRvcImm
 (
 instr
-format
+option
 )
 ;
 }
 else
 if
 (
-format
+option
 [
 1
 ]
@@ -3441,7 +3434,7 @@ MOZ_ASSERT
 (
 STRING_STARTS_WITH
 (
-format
+option
 "
 Cshamt
 "
@@ -3476,7 +3469,7 @@ CSR
 registers
 if
 (
-format
+option
 [
 1
 ]
@@ -3489,7 +3482,7 @@ s
 {
 if
 (
-format
+option
 [
 2
 ]
@@ -3537,7 +3530,7 @@ Immediates
 .
 if
 (
-format
+option
 [
 3
 ]
@@ -3550,7 +3543,7 @@ format
 {
 if
 (
-format
+option
 [
 4
 ]
@@ -3565,7 +3558,7 @@ MOZ_ASSERT
 (
 STRING_STARTS_WITH
 (
-format
+option
 "
 imm12
 "
@@ -3574,7 +3567,7 @@ imm12
 ;
 if
 (
-format
+option
 [
 5
 ]
@@ -3607,7 +3600,7 @@ return
 else
 if
 (
-format
+option
 [
 3
 ]
@@ -3618,7 +3611,7 @@ format
 '
 &
 &
-format
+option
 [
 4
 ]
@@ -3633,7 +3626,7 @@ MOZ_ASSERT
 (
 STRING_STARTS_WITH
 (
-format
+option
 "
 imm20
 "
@@ -3642,7 +3635,7 @@ imm20
 ;
 switch
 (
-format
+option
 [
 5
 ]
@@ -3657,7 +3650,7 @@ MOZ_ASSERT
 (
 STRING_STARTS_WITH
 (
-format
+option
 "
 imm20U
 "
@@ -3680,7 +3673,7 @@ MOZ_ASSERT
 (
 STRING_STARTS_WITH
 (
-format
+option
 "
 imm20J
 "
@@ -3722,7 +3715,7 @@ Offsets
 .
 if
 (
-format
+option
 [
 3
 ]
@@ -3737,7 +3730,7 @@ MOZ_ASSERT
 (
 STRING_STARTS_WITH
 (
-format
+option
 "
 offB
 "
@@ -3756,7 +3749,7 @@ return
 else
 if
 (
-format
+option
 [
 3
 ]
@@ -3771,7 +3764,7 @@ MOZ_ASSERT
 (
 STRING_STARTS_WITH
 (
-format
+option
 "
 offS
 "
@@ -3809,7 +3802,7 @@ return
 FormatRegister
 (
 instr
-format
+option
 )
 ;
 }
@@ -3831,7 +3824,7 @@ return
 FormatFPURegisterOrRoundMode
 (
 instr
-format
+option
 )
 ;
 }
@@ -3873,7 +3866,7 @@ MOZ_ASSERT
 (
 STRING_STARTS_WITH
 (
-format
+option
 "
 pre
 "
@@ -3909,7 +3902,7 @@ amount
 .
 if
 (
-format
+option
 [
 1
 ]
@@ -3924,7 +3917,7 @@ MOZ_ASSERT
 (
 STRING_STARTS_WITH
 (
-format
+option
 "
 s32
 "
@@ -3943,7 +3936,7 @@ return
 else
 if
 (
-format
+option
 [
 1
 ]
@@ -3958,7 +3951,7 @@ MOZ_ASSERT
 (
 STRING_STARTS_WITH
 (
-format
+option
 "
 s64
 "
@@ -3977,7 +3970,7 @@ return
 else
 if
 (
-format
+option
 [
 1
 ]
@@ -3992,7 +3985,7 @@ MOZ_ASSERT
 (
 STRING_STARTS_WITH
 (
-format
+option
 "
 suc
 "
@@ -4012,7 +4005,7 @@ return
 else
 if
 (
-format
+option
 [
 1
 ]
@@ -4027,7 +4020,7 @@ MOZ_ASSERT
 (
 STRING_STARTS_WITH
 (
-format
+option
 "
 sew
 "
@@ -4046,7 +4039,7 @@ return
 else
 if
 (
-format
+option
 [
 1
 ]
@@ -4061,7 +4054,7 @@ MOZ_ASSERT
 (
 STRING_STARTS_WITH
 (
-format
+option
 "
 simm5
 "
@@ -4090,7 +4083,7 @@ v
 {
 if
 (
-format
+option
 [
 1
 ]
@@ -4105,7 +4098,7 @@ MOZ_ASSERT
 (
 STRING_STARTS_WITH
 (
-format
+option
 "
 vd
 "
@@ -4124,7 +4117,7 @@ return
 else
 if
 (
-format
+option
 [
 2
 ]
@@ -4139,7 +4132,7 @@ MOZ_ASSERT
 (
 STRING_STARTS_WITH
 (
-format
+option
 "
 vs1
 "
@@ -4158,7 +4151,7 @@ return
 else
 if
 (
-format
+option
 [
 2
 ]
@@ -4173,7 +4166,7 @@ MOZ_ASSERT
 (
 STRING_STARTS_WITH
 (
-format
+option
 "
 vs2
 "
@@ -4195,7 +4188,7 @@ MOZ_ASSERT
 (
 STRING_STARTS_WITH
 (
-format
+option
 "
 vm
 "
@@ -4222,7 +4215,7 @@ MOZ_ASSERT
 (
 STRING_STARTS_WITH
 (
-format
+option
 "
 lmul
 "
@@ -4248,7 +4241,7 @@ if
 (
 STRING_STARTS_WITH
 (
-format
+option
 "
 uimm5
 "
@@ -4270,7 +4263,7 @@ MOZ_ASSERT
 (
 STRING_STARTS_WITH
 (
-format
+option
 "
 uimm
 "
@@ -4307,7 +4300,7 @@ MOZ_ASSERT
 (
 STRING_STARTS_WITH
 (
-format
+option
 "
 target
 "
@@ -15066,9 +15059,9 @@ Decoder
 :
 InstructionDecode
 (
-byte
+uint8_t
 *
-instr_ptr
+instruction
 )
 {
 Instruction
@@ -15080,7 +15073,7 @@ Instruction
 :
 At
 (
-instr_ptr
+instruction
 )
 ;
 /

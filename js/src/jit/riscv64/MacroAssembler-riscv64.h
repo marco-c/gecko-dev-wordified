@@ -1099,7 +1099,7 @@ instr
 Register
 rd
 Register
-rj
+rs
 Operand
 rt
 )
@@ -1111,7 +1111,7 @@ instr
 Register
 rd
 Register
-rj
+rs
 Imm32
 imm
 )
@@ -1120,7 +1120,7 @@ imm
 instr
 (
 rd
-rj
+rs
 Operand
 (
 imm
@@ -1186,7 +1186,7 @@ void
 instr
 (
 Register
-rs
+rd
 const
 Operand
 &
@@ -1198,14 +1198,14 @@ void
 instr
 (
 Register
-rs
+rd
 Register
 rt
 )
 {
 instr
 (
-rs
+rd
 Operand
 (
 rt
@@ -1218,14 +1218,14 @@ void
 instr
 (
 Register
-rs
+rd
 Imm32
 j
 )
 {
 instr
 (
-rs
+rd
 Operand
 (
 j
@@ -2856,7 +2856,7 @@ mode
 template
 <
 typename
-TruncFunc
+CvtFunc
 >
 void
 RoundFloatingPointToInteger
@@ -2867,8 +2867,8 @@ FPURegister
 fs
 Register
 result
-TruncFunc
-trunc
+CvtFunc
+fcvt_generator
 bool
 Inexact
 =
@@ -5956,7 +5956,7 @@ unboxSymbol
 const
 ValueOperand
 &
-src
+operand
 Register
 dest
 )
@@ -6018,7 +6018,7 @@ unboxObject
 const
 ValueOperand
 &
-src
+operand
 Register
 dest
 )
@@ -6068,7 +6068,7 @@ unboxValue
 const
 ValueOperand
 &
-src
+operand
 AnyRegister
 dest
 JSValueType
