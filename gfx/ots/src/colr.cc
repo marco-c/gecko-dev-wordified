@@ -1739,7 +1739,32 @@ length
 colrState
 &
 state
+uint32_t
+depth
 )
+;
+/
+/
+ParsePaint
+will
+bail
+out
+with
+an
+error
+if
+paint
+records
+are
+too
+deeply
+nested
+.
+constexpr
+uint32_t
+kPaintRecursionLimit
+=
+256
 ;
 /
 /
@@ -1792,6 +1817,8 @@ length
 colrState
 &
 state
+uint32_t
+depth
 )
 {
 if
@@ -2034,6 +2061,9 @@ layer
 .
 second
 state
+depth
++
+1
 )
 )
 {
@@ -2897,6 +2927,8 @@ length
 colrState
 &
 state
+uint32_t
+depth
 )
 {
 ots
@@ -3022,6 +3054,9 @@ length
 -
 paintOffset
 state
+depth
++
+1
 )
 )
 {
@@ -3062,6 +3097,8 @@ length
 colrState
 &
 state
+uint32_t
+depth
 )
 {
 if
@@ -3232,6 +3269,9 @@ second
 .
 second
 state
+depth
++
+1
 )
 )
 {
@@ -3284,6 +3324,8 @@ length
 colrState
 &
 state
+uint32_t
+depth
 bool
 var
 )
@@ -3414,6 +3456,9 @@ length
 -
 paintOffset
 state
+depth
++
+1
 )
 )
 {
@@ -3487,6 +3532,8 @@ length
 colrState
 &
 state
+uint32_t
+depth
 bool
 var
 )
@@ -3625,6 +3672,9 @@ length
 -
 paintOffset
 state
+depth
++
+1
 )
 )
 {
@@ -3669,6 +3719,8 @@ length
 colrState
 &
 state
+uint32_t
+depth
 bool
 var
 bool
@@ -3858,6 +3910,9 @@ length
 -
 paintOffset
 state
+depth
++
+1
 )
 )
 {
@@ -3907,6 +3962,8 @@ length
 colrState
 &
 state
+uint32_t
+depth
 bool
 var
 bool
@@ -4077,6 +4134,9 @@ length
 -
 paintOffset
 state
+depth
++
+1
 )
 )
 {
@@ -4126,6 +4186,8 @@ length
 colrState
 &
 state
+uint32_t
+depth
 bool
 var
 bool
@@ -4307,6 +4369,9 @@ length
 -
 paintOffset
 state
+depth
++
+1
 )
 )
 {
@@ -4356,6 +4421,8 @@ length
 colrState
 &
 state
+uint32_t
+depth
 )
 {
 ots
@@ -4489,6 +4556,9 @@ length
 -
 sourcePaintOffset
 state
+depth
++
+1
 )
 )
 {
@@ -4542,6 +4612,9 @@ length
 -
 backdropPaintOffset
 state
+depth
++
+1
 )
 )
 {
@@ -4581,6 +4654,8 @@ length
 colrState
 &
 state
+uint32_t
+depth
 )
 {
 if
@@ -4596,6 +4671,24 @@ data
 {
 return
 true
+;
+}
+if
+(
+depth
+>
+kPaintRecursionLimit
+)
+{
+return
+OTS_FAILURE_MSG
+(
+"
+Excessive
+paint
+recursion
+"
+)
 ;
 }
 ots
@@ -4658,6 +4751,7 @@ font
 data
 length
 state
+depth
 )
 ;
 break
@@ -4801,6 +4895,7 @@ font
 data
 length
 state
+depth
 )
 ;
 break
@@ -4816,6 +4911,7 @@ font
 data
 length
 state
+depth
 )
 ;
 break
@@ -4831,6 +4927,7 @@ font
 data
 length
 state
+depth
 false
 )
 ;
@@ -4847,6 +4944,7 @@ font
 data
 length
 state
+depth
 true
 )
 ;
@@ -4863,6 +4961,7 @@ font
 data
 length
 state
+depth
 false
 )
 ;
@@ -4879,6 +4978,7 @@ font
 data
 length
 state
+depth
 true
 )
 ;
@@ -4895,6 +4995,7 @@ font
 data
 length
 state
+depth
 false
 false
 false
@@ -4916,6 +5017,7 @@ font
 data
 length
 state
+depth
 true
 false
 false
@@ -4937,6 +5039,7 @@ font
 data
 length
 state
+depth
 false
 true
 false
@@ -4958,6 +5061,7 @@ font
 data
 length
 state
+depth
 true
 true
 false
@@ -4979,6 +5083,7 @@ font
 data
 length
 state
+depth
 false
 false
 true
@@ -5000,6 +5105,7 @@ font
 data
 length
 state
+depth
 true
 false
 true
@@ -5021,6 +5127,7 @@ font
 data
 length
 state
+depth
 false
 true
 true
@@ -5042,6 +5149,7 @@ font
 data
 length
 state
+depth
 true
 true
 true
@@ -5063,6 +5171,7 @@ font
 data
 length
 state
+depth
 false
 false
 )
@@ -5083,6 +5192,7 @@ font
 data
 length
 state
+depth
 true
 false
 )
@@ -5103,6 +5213,7 @@ font
 data
 length
 state
+depth
 false
 true
 )
@@ -5123,6 +5234,7 @@ font
 data
 length
 state
+depth
 true
 true
 )
@@ -5143,6 +5255,7 @@ font
 data
 length
 state
+depth
 false
 false
 )
@@ -5163,6 +5276,7 @@ font
 data
 length
 state
+depth
 true
 false
 )
@@ -5183,6 +5297,7 @@ font
 data
 length
 state
+depth
 false
 true
 )
@@ -5203,6 +5318,7 @@ font
 data
 length
 state
+depth
 true
 true
 )
@@ -5223,6 +5339,7 @@ font
 data
 length
 state
+depth
 )
 ;
 break
@@ -6075,6 +6192,7 @@ length
 -
 paintOffset
 state
+0
 )
 )
 {
