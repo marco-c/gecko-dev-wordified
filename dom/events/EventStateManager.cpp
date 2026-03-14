@@ -24401,7 +24401,7 @@ snapFlags
 ScrollSnapFlags
 :
 :
-Disabled
+IntendedDirection
 ;
 mozilla
 :
@@ -24441,13 +24441,6 @@ ScrollOrigin
 :
 MouseWheel
 ;
-snapFlags
-=
-ScrollSnapFlags
-:
-:
-IntendedDirection
-;
 break
 ;
 case
@@ -24467,12 +24460,8 @@ ScrollOrigin
 Pages
 ;
 snapFlags
-=
-ScrollSnapFlags
-:
-:
-IntendedDirection
 |
+=
 ScrollSnapFlags
 :
 :
