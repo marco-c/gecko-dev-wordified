@@ -23,6 +23,13 @@ webdriver
 bidi
 import
 error
+pytestmark
+=
+pytest
+.
+mark
+.
+asyncio
 MAX_TOTAL_SIZE
 =
 1000
@@ -364,11 +371,6 @@ response
     
 ]
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_max_total_data_size
