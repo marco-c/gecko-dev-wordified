@@ -2660,6 +2660,11 @@ content
 await
 openPanel
 (
+)
+;
+await
+setPanelState
+(
 {
 bandwidthWarning
 :
