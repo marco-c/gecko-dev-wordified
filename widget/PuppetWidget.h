@@ -1729,6 +1729,17 @@ aWhy
 )
 override
 ;
+void
+PerformHapticFeedback
+(
+mozilla
+:
+:
+HapticFeedbackType
+aType
+)
+override
+;
 private
 :
 void

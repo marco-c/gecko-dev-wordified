@@ -218,13 +218,6 @@ h
 #
 include
 "
-nsIHapticFeedback
-.
-h
-"
-#
-include
-"
 nsISelectionListener
 .
 h
@@ -1327,11 +1320,11 @@ dragging
 void
 ProvideHapticFeedback
 (
-nsIHapticFeedback
+mozilla
 :
 :
 HapticFeedbackType
-aEffect
+aType
 )
 ;
 /
