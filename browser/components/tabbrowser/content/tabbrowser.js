@@ -23088,6 +23088,16 @@ about
 :
 blank
 "
+&
+&
+uriString
+!
+=
+"
+about
+:
+opentabs
+"
 )
 {
 lazyBrowserURI
