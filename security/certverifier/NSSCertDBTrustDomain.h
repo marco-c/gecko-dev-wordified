@@ -1577,6 +1577,14 @@ nsICRLiteTimestamp
 >
 &
 crliteTimestamps
+mozilla
+:
+:
+pkix
+:
+:
+Time
+time
 bool
 &
 filterCoversCertificate
