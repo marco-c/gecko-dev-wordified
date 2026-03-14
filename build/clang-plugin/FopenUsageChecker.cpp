@@ -181,8 +181,6 @@ addMatcher
 (
 callExpr
 (
-allOf
-(
 isFirstParty
 (
 )
@@ -414,7 +412,6 @@ isInWhitelistForFopenUsage
 )
 )
 )
-)
 .
 bind
 (
@@ -499,11 +496,6 @@ ANSI
 .
 "
 ;
-if
-(
-FuncCall
-)
-{
 diag
 (
 FuncCall
@@ -563,5 +555,4 @@ DiagnosticIDs
 Note
 )
 ;
-}
 }

@@ -192,11 +192,6 @@ funcCall
 "
 )
 ;
-if
-(
-FuncCall
-)
-{
 diag
 (
 FuncCall
@@ -295,5 +290,4 @@ DiagnosticIDs
 Note
 )
 ;
-}
 }
