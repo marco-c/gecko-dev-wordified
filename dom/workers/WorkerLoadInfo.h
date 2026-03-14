@@ -174,7 +174,7 @@ mozilla
 /
 dom
 /
-ServiceWorkerRegistrationDescriptor
+OffThreadCSPContext
 .
 h
 "
@@ -185,7 +185,7 @@ mozilla
 /
 dom
 /
-WorkerCSPContext
+ServiceWorkerRegistrationDescriptor
 .
 h
 "
@@ -483,7 +483,7 @@ mCSP
 ;
 UniquePtr
 <
-WorkerCSPContext
+OffThreadCSPContext
 >
 mCSPContext
 ;

@@ -689,13 +689,13 @@ Result
 <
 UniquePtr
 <
-WorkerCSPContext
+OffThreadCSPContext
 >
 nsresult
 >
 ctx
 =
-WorkerCSPContext
+OffThreadCSPContext
 :
 :
 CreateFromCSP

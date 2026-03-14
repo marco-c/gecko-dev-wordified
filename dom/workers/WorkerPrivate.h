@@ -5347,7 +5347,7 @@ CSPInfo
 )
 ;
 }
-WorkerCSPContext
+OffThreadCSPContext
 *
 GetCSPContext
 (
