@@ -1015,7 +1015,7 @@ editor
 !
 editor
 .
-getSelectedText
+getSelection
 (
 )
 ;
@@ -1051,7 +1051,7 @@ jsterm
 .
 editor
 .
-getSelectedText
+getSelection
 (
 )
 ;
