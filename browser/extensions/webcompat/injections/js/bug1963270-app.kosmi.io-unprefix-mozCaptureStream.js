@@ -135,6 +135,8 @@ if
 !
 HTMLMediaElement
 .
+prototype
+.
 captureStream
 )
 {
