@@ -193,7 +193,7 @@ in
 the
 /
 /
-ContentTask
+SpecialPowers
 .
 spawn
 frame
@@ -205,9 +205,9 @@ content
 to
 access
 the
+/
+/
 underlying
-/
-/
 page
 .
 this

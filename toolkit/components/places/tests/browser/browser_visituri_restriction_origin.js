@@ -274,7 +274,7 @@ synthesizeMouseAtCenter
 (
 )
 in
-ContentTask
+SpecialPowers
 .
 spawn
 (

@@ -191,7 +191,7 @@ and
 run
 remotely
 by
-ContentTask
+SpecialPowers
 .
 spawn
 .

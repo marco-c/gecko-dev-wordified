@@ -414,7 +414,7 @@ run
 /
 remotely
 by
-ContentTask
+SpecialPowers
 .
 spawn
 .
@@ -669,7 +669,7 @@ and
 run
 remotely
 by
-ContentTask
+SpecialPowers
 .
 spawn
 .
@@ -970,7 +970,7 @@ run
 /
 remotely
 by
-ContentTask
+SpecialPowers
 .
 spawn
 .

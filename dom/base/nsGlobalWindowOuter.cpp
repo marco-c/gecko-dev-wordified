@@ -39923,14 +39923,14 @@ For
 example
 using
 the
-ContentTask
+SpecialPowers
 .
 spawn
 (
 )
+/
+/
 to
-/
-/
 post
 a
 message
@@ -39946,7 +39946,7 @@ code
 in
 /
 /
-ContentTask
+SpecialPowers
 .
 spawn
 (
