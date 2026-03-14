@@ -270,7 +270,7 @@ benchmark
 -
 firefox
 -
-speedometer
+speedometer2
 "
     
 "
@@ -12428,7 +12428,7 @@ amazon
 (
 [
 "
-speedometer
+speedometer2
 "
 ]
 1
@@ -12441,7 +12441,7 @@ speedometer
 webaudio
 "
 "
-speedometer
+speedometer2
 "
 ]
 3

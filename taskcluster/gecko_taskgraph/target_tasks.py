@@ -4881,6 +4881,27 @@ return
 False
         
 #
+Bug
+2014270
+-
+Disable
+speedometer2
+on
+production
+branches
+        
+if
+"
+speedometer2
+"
+in
+try_name
+:
+            
+return
+False
+        
+#
 Desktop
 and
 Android
@@ -5362,6 +5383,27 @@ False
         
 #
 Bug
+2014270
+-
+Disable
+speedometer2
+on
+production
+branches
+        
+if
+"
+speedometer2
+"
+in
+try_name
+:
+            
+return
+False
+        
+#
+Bug
 1867669
 -
 Temporarily
@@ -5622,7 +5664,7 @@ platform
                     
 if
 "
-speedometer
+speedometer3
 "
 in
 try_name
@@ -6064,7 +6106,7 @@ False
                 
 if
 "
-speedometer
+speedometer3
 "
 in
 try_name
@@ -6226,6 +6268,27 @@ raptor_try_name
 "
 )
             
+#
+Bug
+2014270
+-
+Disable
+speedometer2
+on
+production
+branches
+            
+if
+"
+speedometer2
+"
+in
+try_name
+:
+                
+return
+False
+            
 if
 "
 geckoview
@@ -6250,7 +6313,7 @@ in
 platform
 and
 "
-speedometer
+speedometer3
 "
 not
 in
@@ -6517,7 +6580,7 @@ try_name
                 
 and
 "
-speedometer
+speedometer3
 "
 in
 try_name
@@ -6573,7 +6636,7 @@ try_name
                 
 and
 "
-speedometer
+speedometer3
 "
 in
 try_name
@@ -9587,6 +9650,27 @@ return
 False
         
 #
+Bug
+2014270
+-
+Disable
+speedometer2
+on
+production
+branches
+        
+if
+"
+speedometer2
+"
+in
+try_name
+:
+            
+return
+False
+        
+#
 Select
 beta
 tasks
@@ -10042,6 +10126,27 @@ False
 if
 not
 platform
+:
+            
+return
+False
+        
+#
+Bug
+2014270
+-
+Disable
+speedometer2
+on
+production
+branches
+        
+if
+"
+speedometer2
+"
+in
+try_name
 :
             
 return
