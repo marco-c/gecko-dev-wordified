@@ -912,6 +912,7 @@ same
 document
 -
 navigation
+MOZ_CAN_RUN_SCRIPT
 void
 UpdateEntriesForSameDocumentNavigation
 (
@@ -920,6 +921,18 @@ SessionHistoryInfo
 aDestinationSHE
 NavigationType
 aNavigationType
+)
+;
+MOZ_CAN_RUN_SCRIPT
+void
+RunNavigateEventHandlerSteps
+(
+NavigateEvent
+*
+aNavigateEvent
+NavigationTracker
+*
+aNavigationTracker
 )
 ;
 JSObject
