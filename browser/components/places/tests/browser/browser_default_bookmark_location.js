@@ -1014,9 +1014,11 @@ the
 choose
 item
 .
-EventUtils
+menuList
 .
-synthesizeMouseAtCenter
+menupopup
+.
+activateItem
 (
 win
 .
@@ -1028,9 +1030,6 @@ getElementById
 editBMPanel_bmRootItem
 "
 )
-{
-}
-win
 )
 ;
 await
@@ -1317,9 +1316,11 @@ the
 toolbar
 item
 .
-EventUtils
+menuList
 .
-synthesizeMouseAtCenter
+menupopup
+.
+activateItem
 (
 win
 .
@@ -1331,9 +1332,6 @@ getElementById
 editBMPanel_toolbarFolderItem
 "
 )
-{
-}
-win
 )
 ;
 await
