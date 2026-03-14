@@ -1116,8 +1116,6 @@ BYTE
 (
 CoTaskMemAlloc
 (
-sizeof
-(
 mKeyInfo
 [
 idx
@@ -1127,7 +1125,6 @@ mKeyId
 .
 size
 (
-)
 )
 )
 )
