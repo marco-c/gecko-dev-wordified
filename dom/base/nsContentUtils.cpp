@@ -19243,6 +19243,10 @@ GetExternalContentPolicyType
 ;
 if
 (
+sSecurityManager
+&
+&
+(
 contentType
 =
 =
@@ -19259,6 +19263,7 @@ ExtContentPolicy
 :
 :
 TYPE_SUBDOCUMENT
+)
 )
 {
 nsCOMPtr
