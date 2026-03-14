@@ -1026,7 +1026,7 @@ aPacket
 -
 >
 data
-static_cast
+AssertedCast
 <
 size_t
 >
@@ -1931,7 +1931,7 @@ mCodecContext
 >
 bit_rate
 =
-static_cast
+AssertedCast
 <
 FFmpegBitRate
 >
@@ -2317,7 +2317,7 @@ mCodecContext
 >
 rc_max_rate
 =
-static_cast
+AssertedCast
 <
 FFmpegBitRate
 >
@@ -2332,7 +2332,7 @@ mCodecContext
 >
 rc_min_rate
 =
-static_cast
+AssertedCast
 <
 FFmpegBitRate
 >
@@ -2347,7 +2347,7 @@ mCodecContext
 >
 bit_rate
 =
-static_cast
+AssertedCast
 <
 FFmpegBitRate
 >
@@ -2380,7 +2380,7 @@ mCodecContext
 >
 rc_max_rate
 =
-static_cast
+AssertedCast
 <
 FFmpegBitRate
 >
@@ -2402,7 +2402,7 @@ mCodecContext
 >
 bit_rate
 =
-static_cast
+AssertedCast
 <
 FFmpegBitRate
 >

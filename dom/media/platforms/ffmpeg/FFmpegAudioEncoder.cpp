@@ -2025,7 +2025,7 @@ num
 .
 den
 =
-static_cast
+AssertedCast
 <
 int
 >
@@ -2674,7 +2674,7 @@ ceil
 2
 .
 *
-static_cast
+AssertedCast
 <
 float
 >
