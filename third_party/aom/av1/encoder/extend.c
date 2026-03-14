@@ -868,7 +868,7 @@ AOMMAX
 src
 -
 >
-y_width
+y_crop_width
 +
 dst
 -
@@ -879,7 +879,7 @@ ALIGN_POWER_OF_TWO
 src
 -
 >
-y_width
+y_crop_width
 6
 )
 )
@@ -898,7 +898,7 @@ AOMMAX
 src
 -
 >
-y_height
+y_crop_height
 +
 dst
 -
@@ -909,7 +909,7 @@ ALIGN_POWER_OF_TWO
 src
 -
 >
-y_height
+y_crop_height
 6
 )
 )

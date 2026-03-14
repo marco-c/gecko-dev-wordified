@@ -269,7 +269,6 @@ off
 DECLARE_ALIGNED
 (
 16
-static
 const
 uint8_t
 kScale2DotProdPermuteTbl

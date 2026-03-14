@@ -1408,9 +1408,6 @@ PICK_MODE_CONTEXT
 ctx
 uint8_t
 *
-best_blk_skip
-uint8_t
-*
 tx_type_map
 )
 ;

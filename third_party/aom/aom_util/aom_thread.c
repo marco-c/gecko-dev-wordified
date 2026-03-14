@@ -383,6 +383,9 @@ ptr
 ;
 #
 ifdef
+HAVE_PTHREAD_SETNAME_NP
+#
+ifdef
 __APPLE__
 if
 (
@@ -604,6 +607,8 @@ thread_name
 )
 ;
 }
+#
+endif
 #
 endif
 pthread_mutex_lock

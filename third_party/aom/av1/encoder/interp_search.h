@@ -918,11 +918,7 @@ mode
 FULLPEL_MV
 start_mv_stack
 [
-(
 MAX_REF_MV_SEARCH
--
-1
-)
 *
 2
 ]
@@ -944,11 +940,7 @@ mode
 uint8_t
 ref_mv_idx_stack
 [
-(
 MAX_REF_MV_SEARCH
--
-1
-)
 *
 2
 ]

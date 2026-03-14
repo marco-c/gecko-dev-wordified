@@ -222,7 +222,6 @@ h
 DECLARE_ALIGNED
 (
 16
-static
 const
 uint8_t
 kDotProdPermuteTbl
@@ -285,7 +284,6 @@ kDotProdPermuteTbl
 DECLARE_ALIGNED
 (
 16
-static
 const
 uint8_t
 kDotProdMergeBlockTbl

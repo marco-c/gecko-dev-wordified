@@ -3375,9 +3375,6 @@ images
 int
 lf_blocksize
 ;
-aom_codec_ctx_t
-codec
-;
 aom_codec_enc_cfg_t
 cfg
 ;
@@ -3807,10 +3804,8 @@ if
 (
 res
 )
-die_codec
+die
 (
-&
-codec
 "
 Failed
 to
@@ -3818,8 +3813,14 @@ get
 default
 codec
 config
-.
+:
+%
+s
 "
+aom_codec_err_to_string
+(
+res
+)
 )
 ;
 cfg

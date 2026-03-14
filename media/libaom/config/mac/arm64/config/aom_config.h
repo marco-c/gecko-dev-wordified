@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2025
+2026
 Alliance
 for
 Open
@@ -429,6 +429,10 @@ HAVE_NEON_DOTPROD
 define
 HAVE_NEON_I8MM
 1
+#
+define
+HAVE_PTHREAD_SETNAME_NP
+0
 #
 define
 HAVE_RVV

@@ -231,7 +231,7 @@ filtering
 #
 define
 TF_BLOCK_SIZE
-BLOCK_32X32
+BLOCK_64X64
 /
 /
 Window

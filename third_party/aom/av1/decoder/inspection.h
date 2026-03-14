@@ -281,6 +281,9 @@ palette
 int16_t
 uv_palette
 ;
+int16_t
+sb_bits
+;
 }
 ;
 typedef

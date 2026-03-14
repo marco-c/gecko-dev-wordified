@@ -247,10 +247,6 @@ color_index_map
 2
 ]
 ;
-uint8_t
-*
-blk_skip
-;
 tran_low_t
 *
 coeff

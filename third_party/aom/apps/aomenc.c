@@ -147,6 +147,13 @@ h
 #
 include
 <
+inttypes
+.
+h
+>
+#
+include
+<
 limits
 .
 h
@@ -8160,6 +8167,9 @@ g_bit_depth
 >
 AOM_BITS_8
 ;
+#
+if
+CONFIG_REALTIME_ONLY
 if
 (
 global
@@ -8214,6 +8224,8 @@ g_lag_in_frames
 0
 ;
 }
+#
+endif
 if
 (
 global

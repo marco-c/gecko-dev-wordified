@@ -6999,6 +6999,13 @@ ep
 )
 ;
 }
+if
+(
+enable_sgr_ep_pruning
+<
+2
+)
+{
 /
 /
 evaluate
@@ -7155,6 +7162,7 @@ bestep
 ep
 )
 ;
+}
 }
 }
 SgrprojInfo
