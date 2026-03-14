@@ -1568,15 +1568,6 @@ get
 )
 )
 ;
-if
-(
-!
-mOwner
-)
-{
-return
-;
-}
 mNPNComplete
 =
 true
