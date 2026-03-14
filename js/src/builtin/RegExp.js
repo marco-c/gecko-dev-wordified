@@ -4777,7 +4777,7 @@ unicodeMatching
 (
 flags
 &
-REGEXP_UNICODE_FLAG
+REGEXP_ANY_UNICODE_MASK
 )
 ;
 /
@@ -4877,6 +4877,16 @@ std_String_includes
 flags
 "
 u
+"
+)
+|
+|
+callFunction
+(
+std_String_includes
+flags
+"
+v
 "
 )
 ;
