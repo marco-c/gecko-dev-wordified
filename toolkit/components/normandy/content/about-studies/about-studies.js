@@ -654,6 +654,14 @@ return
 null
 ;
 }
+document
+.
+title
+=
+translations
+.
+pageTitle
+;
 return
 r
 (
