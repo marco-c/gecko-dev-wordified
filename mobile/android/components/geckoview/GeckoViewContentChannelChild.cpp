@@ -1174,10 +1174,6 @@ const
 uint64_t
 &
 aOffset
-const
-uint32_t
-&
-aCount
 )
 {
 mEventQ
@@ -1207,7 +1203,6 @@ nsCString
 aData
 )
 aOffset
-aCount
 ]
 (
 )
@@ -1220,7 +1215,6 @@ DoOnDataAvailable
 aChannelStatus
 aData
 aOffset
-aCount
 )
 ;
 }
@@ -1251,10 +1245,6 @@ const
 uint64_t
 &
 aOffset
-const
-uint32_t
-&
-aCount
 )
 {
 nsCOMPtr
@@ -1275,11 +1265,6 @@ stringStream
 Span
 (
 aData
-)
-.
-To
-(
-aCount
 )
 NS_ASSIGNMENT_DEPEND
 )
@@ -1326,7 +1311,11 @@ this
 )
 stringStream
 aOffset
-aCount
+aData
+.
+Length
+(
+)
 )
 ;
 stringStream

@@ -147,10 +147,6 @@ uint64_t
 &
 offset
 const
-uint32_t
-&
-count
-const
 nsACString
 &
 data
@@ -201,7 +197,6 @@ RecvOnTransportAndData
 NS_OK
 NS_NET_STATUS_RECEIVING_FROM
 offset
-count
 data
 true
 aOnDataAvailableStartTime

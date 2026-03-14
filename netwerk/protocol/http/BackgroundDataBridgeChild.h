@@ -151,10 +151,6 @@ uint64_t
 &
 offset
 const
-uint32_t
-&
-count
-const
 nsACString
 &
 data

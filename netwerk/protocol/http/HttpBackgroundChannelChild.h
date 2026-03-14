@@ -381,10 +381,6 @@ uint64_t
 &
 aOffset
 const
-uint32_t
-&
-aCount
-const
 nsACString
 &
 aData

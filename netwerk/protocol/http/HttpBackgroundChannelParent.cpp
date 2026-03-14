@@ -1254,7 +1254,6 @@ SendOnTransportAndData
 aChannelStatus
 aTransportStatus
 aOffset
-aCount
 aData
 false
 aOnDataAvailableStart

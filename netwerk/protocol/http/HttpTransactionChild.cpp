@@ -1973,7 +1973,6 @@ mDataBridgeParent
 SendOnTransportAndData
 (
 aOffset
-aCount
 aData
 TimeStamp
 :

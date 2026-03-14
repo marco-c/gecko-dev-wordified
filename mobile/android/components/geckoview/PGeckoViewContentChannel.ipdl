@@ -223,8 +223,6 @@ nsCString
 data
 uint64_t
 offset
-uint32_t
-count
 )
 ;
 async
