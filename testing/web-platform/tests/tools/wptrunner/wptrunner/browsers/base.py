@@ -2957,10 +2957,11 @@ clean
 True
         
 if
-self
+WebDriverBrowser
 .
 is_alive
 (
+self
 )
 :
             
@@ -3056,10 +3057,11 @@ timeout
 success
 =
 not
-self
+WebDriverBrowser
 .
 is_alive
 (
+self
 )
         
 if
