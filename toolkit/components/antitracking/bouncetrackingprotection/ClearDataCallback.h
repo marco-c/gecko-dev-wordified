@@ -72,6 +72,13 @@ h
 #
 include
 "
+BounceTrackingRecord
+.
+h
+"
+#
+include
+"
 mozilla
 /
 MozPromise
@@ -191,6 +198,11 @@ nsACString
 aHost
 PRTime
 aBounceTime
+BounceTrackingRecord
+*
+aChainRecord
+=
+nullptr
 )
 ;
 private
