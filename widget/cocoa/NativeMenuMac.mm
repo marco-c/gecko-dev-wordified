@@ -2107,7 +2107,7 @@ that
 this
 /
 /
-ShowAsAnchoredMenu
+ShowMenuAnchored
 call
 does
 not
@@ -2300,7 +2300,7 @@ that
 this
 /
 /
-ShowAsContextMenu
+ShowMenuAtPosition
 call
 does
 not

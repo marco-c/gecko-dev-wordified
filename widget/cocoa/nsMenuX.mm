@@ -7346,6 +7346,13 @@ around
 this
 issue
 .
+See
+bug
+1993731
+as
+an
+example
+.
 RefreshMenuChildren
 (
 *
