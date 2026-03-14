@@ -2520,6 +2520,11 @@ builtin
 /
 normalizer_glue
 "
+"
+irregexp
+/
+properties_glue
+"
 ]
 #
 Glean
