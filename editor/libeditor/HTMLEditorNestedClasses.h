@@ -702,6 +702,10 @@ const
 EditorDOMRange
 &
 aRange
+const
+Element
+&
+aEditingHost
 )
 const
 ;
@@ -4945,6 +4949,10 @@ const
 EditorDOMPoint
 &
 aCandidatePointToSplit
+const
+Element
+&
+aEditingHost
 )
 ;
 enum
