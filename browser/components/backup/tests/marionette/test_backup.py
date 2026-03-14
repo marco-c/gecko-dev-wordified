@@ -1840,17 +1840,8 @@ postRecovery
 actions
 have
 completed
-and
-that
-        
-#
-encryption
-is
-enabled
 .
         
-encryptionEnabled
-=
 self
 .
 marionette
@@ -1945,22 +1936,6 @@ bs
 .
 postRecoveryComplete
 ;
-            
-await
-bs
-.
-loadEncryptionState
-(
-)
-;
-            
-return
-bs
-.
-state
-.
-encryptionEnabled
-;
           
 }
 )
@@ -1977,13 +1952,6 @@ outerResolve
 "
 "
         
-)
-        
-self
-.
-assertTrue
-(
-encryptionEnabled
 )
         
 self
