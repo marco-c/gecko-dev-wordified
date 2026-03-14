@@ -2392,10 +2392,6 @@ include_h2
 =
 True
                  
-include_webtransport_h3
-=
-False
-                 
 skip_timeout
 =
 False
@@ -2492,12 +2488,6 @@ self
 include_h2
 =
 include_h2
-        
-self
-.
-include_webtransport_h3
-=
-include_webtransport_h3
         
 self
 .
