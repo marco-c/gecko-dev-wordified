@@ -1746,12 +1746,6 @@ builder
 .
 push_simple_stacking_context
 (
-LayoutPoint
-:
-:
-zero
-(
-)
 space_and_clip
 .
 spatial_id
