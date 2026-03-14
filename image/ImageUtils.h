@@ -240,6 +240,8 @@ GetDecoderType
 enum
 class
 DecoderType
+:
+uint8_t
 {
 PNG
 GIF
