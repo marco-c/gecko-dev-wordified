@@ -19710,8 +19710,10 @@ JS
 :
 GetPromiseUserInputEventHandlingState
 (
-JSObject
-*
+JS
+:
+:
+HandleObject
 promiseObj_
 )
 {
