@@ -277,6 +277,11 @@ RTCEncodedVideoFrame
 cpp
 "
 "
+RTCError
+.
+cpp
+"
+"
 RTCIceTransport
 .
 cpp
@@ -377,6 +382,11 @@ h
 "
 "
 RTCEncodedVideoFrame
+.
+h
+"
+"
+RTCError
 .
 h
 "
