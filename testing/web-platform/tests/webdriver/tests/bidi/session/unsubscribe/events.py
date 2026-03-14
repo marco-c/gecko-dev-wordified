@@ -47,6 +47,7 @@ def
 test_unsubscribe_from_module
 (
 bidi_session
+configuration
 new_tab
 inline
 )
@@ -188,6 +189,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 1
 timeout

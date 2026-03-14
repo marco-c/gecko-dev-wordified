@@ -507,6 +507,7 @@ def
 test_sandbox
 (
 bidi_session
+configuration
 subscribe_events
 new_tab
 method
@@ -613,6 +614,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 destroyed_realm_ids
 2
 )
@@ -631,6 +633,7 @@ test_subscribe_after_sandbox_creation
 (
     
 bidi_session
+configuration
 subscribe_events
 new_tab
 inline
@@ -765,6 +768,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 destroyed_realm_ids
 1
 )
@@ -1005,6 +1009,7 @@ test_iframe_destroy_parent
 (
     
 bidi_session
+configuration
 subscribe_events
 test_page_same_origin_frame
 new_tab
@@ -1188,6 +1193,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 destroyed_realm_ids
 2
 )
@@ -1227,6 +1233,7 @@ test_subscribe_to_one_context
 (
     
 bidi_session
+configuration
 subscribe_events
 new_tab
 inline
@@ -1418,6 +1425,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 destroyed_realm_ids
 1
 timeout
@@ -1489,6 +1497,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 destroyed_realm_ids
 1
 )
@@ -1515,6 +1524,8 @@ test_dedicated_worker
 (
     
 bidi_session
+    
+configuration
     
 subscribe_events
     
@@ -1757,6 +1768,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 created_events
 1
 )
@@ -1765,6 +1777,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 destroyed_events
 1
 )
@@ -1822,6 +1835,8 @@ test_shared_worker
 (
     
 bidi_session
+    
+configuration
     
 subscribe_events
     
@@ -2041,6 +2056,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 created_events
 1
 )
@@ -2084,6 +2100,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 destroyed_events
 1
 )
@@ -2141,6 +2158,8 @@ test_dedicated_worker_subscribe_to_one_context
 (
     
 bidi_session
+    
+configuration
     
 subscribe_events
     
@@ -2476,6 +2495,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 created_events
 1
 )
@@ -2484,6 +2504,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 destroyed_events
 1
 )
@@ -2689,6 +2710,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 created_events
 1
 timeout
@@ -2711,6 +2733,8 @@ test_dedicated_worker_subscribe_to_user_context
 (
     
 bidi_session
+    
+configuration
     
 subscribe_events
     
@@ -3028,6 +3052,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 created_events
 1
 )
@@ -3036,6 +3061,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 destroyed_events
 1
 )
@@ -3272,6 +3298,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 created_events
 1
 timeout

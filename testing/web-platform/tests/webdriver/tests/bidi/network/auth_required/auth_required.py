@@ -696,6 +696,7 @@ test_with_wrong_credentials
 (
 setup_blocked_request
 bidi_session
+configuration
 )
 :
     
@@ -838,6 +839,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 1
 timeout
@@ -884,6 +886,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 2
 timeout
@@ -913,6 +916,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 3
 timeout

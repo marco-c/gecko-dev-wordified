@@ -44,6 +44,7 @@ def
 setup_cached_resource_test
 (
 bidi_session
+configuration
 top_context
 setup_network_test
 add_data_collector
@@ -129,6 +130,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 2
 timeout
@@ -208,6 +210,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 4
 timeout

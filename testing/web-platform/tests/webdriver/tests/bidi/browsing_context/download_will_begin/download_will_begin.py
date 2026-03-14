@@ -100,6 +100,7 @@ def
 expect_download_end
 (
 bidi_session
+configuration
 subscribe_events
 )
 :
@@ -170,6 +171,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 download_end_events
 expected_events
 timeout
@@ -185,6 +187,7 @@ def
 test_unsubscribe
 (
 bidi_session
+configuration
 inline
 new_tab
 expect_download_end
@@ -429,6 +432,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 1
 timeout
@@ -447,6 +451,8 @@ test_download_attribute
 (
     
 bidi_session
+    
+configuration
     
 subscribe_events
     
@@ -791,6 +797,7 @@ wait_for_bidi_events
 (
             
 bidi_session
+configuration
 navigation_started_events
 1
 timeout

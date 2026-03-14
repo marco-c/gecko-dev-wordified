@@ -126,6 +126,7 @@ def
 test_unsubscribe
 (
 bidi_session
+configuration
 )
 :
     
@@ -230,6 +231,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 1
 timeout
@@ -1359,6 +1361,7 @@ def
 test_document_write
 (
 bidi_session
+configuration
 subscribe_events
 new_tab
 sandbox
@@ -1498,6 +1501,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 1
 timeout
@@ -1810,6 +1814,7 @@ test_redirect_http_equiv
 (
     
 bidi_session
+configuration
 subscribe_events
 top_context
 url
@@ -1953,6 +1958,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 2
 )
@@ -2657,6 +2663,7 @@ def
 test_new_context
 (
 bidi_session
+configuration
 subscribe_events
 type_hint
 )
@@ -2760,6 +2767,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 1
 timeout
@@ -2912,6 +2920,7 @@ test_window_open_with_about_blank
 (
     
 bidi_session
+configuration
 subscribe_events
 top_context
 url
@@ -3047,6 +3056,7 @@ await
 wait_for_bidi_events
 (
 bidi_session
+configuration
 events
 1
 timeout
