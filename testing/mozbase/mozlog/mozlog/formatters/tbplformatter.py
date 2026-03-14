@@ -1912,11 +1912,13 @@ status
 subtest
 =
 data
-[
+.
+get
+(
 "
 subtest
 "
-]
+)
         
 if
 "

@@ -1975,6 +1975,11 @@ kwargs
 )
 :
     
+from
+output
+import
+ReftestFormatter
+    
 kwargs
 [
 "
@@ -2054,29 +2059,10 @@ level
 level
 }
         
-default_format
-=
-command_context
-.
-_mach_context
-.
-settings
-[
-"
-test
-"
-]
-[
-"
-format
-"
-]
-        
 log
 =
 setup_logging
 (
-            
 "
 mach
 -
@@ -2084,14 +2070,15 @@ reftest
 "
 kwargs
 {
-default_format
+"
+tbpl
+"
 :
 sys
 .
 stdout
 }
 format_args
-        
 )
         
 kwargs
@@ -2128,10 +2115,10 @@ handler
 formatter
 .
 inner
-.
-summary_on_shutdown
 =
-True
+ReftestFormatter
+(
+)
         
 log
 .
