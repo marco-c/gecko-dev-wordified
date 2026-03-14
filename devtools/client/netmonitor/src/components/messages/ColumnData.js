@@ -363,11 +363,13 @@ devtools
 /
 content
 /
-shared
+netmonitor
 /
-components
+src
 /
-images
+assets
+/
+icons
 /
 arrow
 -
