@@ -5645,7 +5645,7 @@ WptrunError
 Unable
 to
 find
-servo
+servoshell
 binary
 in
 PATH
@@ -5762,7 +5762,7 @@ WptrunError
 Unable
 to
 find
-servo
+servoshell
 binary
 in
 PATH
