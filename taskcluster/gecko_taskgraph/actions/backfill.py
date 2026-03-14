@@ -1337,23 +1337,19 @@ test_manifests
         
 )
         
-#
-The
-name
-/
+original_label
+=
+input
+.
+get
+(
+"
+original_label
+"
+task
+.
 label
-might
-have
-been
-modify
-in
-new_label
-thus
-change
-it
-here
-as
-well
+)
         
 task
 .
@@ -1369,9 +1365,7 @@ name
 "
 ]
 =
-task
-.
-label
+original_label
         
 th_info
 =
@@ -1391,19 +1385,44 @@ treeherder
         
 #
 Use
-a
-job
+the
 symbol
 of
 the
 originating
 task
-as
-defined
-in
+to
+preserve
 the
-backfill
-action
+chunk
+        
+#
+identity
+even
+when
+new_label
+hijacked
+a
+different
+chunk
+.
+        
+symbol
+=
+input
+.
+get
+(
+"
+symbol
+"
+th_info
+[
+"
+symbol
+"
+]
+)
         
 th_info
 [
@@ -1416,12 +1435,7 @@ add_backfill_suffix
 (
             
 SYMBOL_REGEX
-th_info
-[
-"
 symbol
-"
-]
 f
 "
 -
@@ -2317,6 +2331,10 @@ test
         
 return
     
+original_label
+=
+label
+    
 if
 label
 not
@@ -2344,6 +2362,15 @@ label
 ]
 =
 label
+    
+input
+[
+"
+original_label
+"
+]
+=
+original_label
     
 to_run
 =
