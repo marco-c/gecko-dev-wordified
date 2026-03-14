@@ -479,15 +479,11 @@ eDelegateUseFeaturePolicy
 }
 {
 "
-loopback
--
-network
+localhost
 "
 u
 "
-loopback
--
-network
+localhost
 "
 DelegatePolicy
 :

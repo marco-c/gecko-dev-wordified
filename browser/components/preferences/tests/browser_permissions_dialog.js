@@ -3929,7 +3929,7 @@ false
 )
 ;
 let
-loopbackNetworkSettingsButton
+localHostSettingsButton
 =
 gBrowser
 .
@@ -3938,7 +3938,7 @@ contentDocument
 getElementById
 (
 "
-loopbackNetworkSettingsButton
+localHostSettingsButton
 "
 )
 ;
@@ -3982,7 +3982,7 @@ BrowserTestUtils
 .
 isVisible
 (
-loopbackNetworkSettingsButton
+localHostSettingsButton
 )
 enabled
 "
@@ -3997,7 +3997,7 @@ changeLocalHostButton
 =
 waitForSettingControlChange
 (
-loopbackNetworkSettingsButton
+localHostSettingsButton
 )
 ;
 let
@@ -4043,7 +4043,7 @@ BrowserTestUtils
 .
 isVisible
 (
-loopbackNetworkSettingsButton
+localHostSettingsButton
 )
 enabled
 "

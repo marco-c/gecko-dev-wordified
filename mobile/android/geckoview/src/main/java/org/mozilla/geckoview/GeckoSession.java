@@ -44731,9 +44731,7 @@ for
 local
 device
 (
-loopback
--
-network
+localhost
 )
 access
 *
@@ -45808,9 +45806,7 @@ else
 if
 (
 "
-loopback
--
-network
+localhost
 "
 .
 equals
@@ -45994,9 +45990,7 @@ PERMISSION_LOCAL_DEVICE_ACCESS
 :
 return
 "
-loopback
--
-network
+localhost
 "
 ;
 case

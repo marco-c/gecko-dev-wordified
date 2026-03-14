@@ -471,11 +471,7 @@ autoplay
 desc
 "
 }
-"
-loopback
--
-network
-"
+localhost
 :
 {
 window
