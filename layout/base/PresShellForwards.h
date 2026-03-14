@@ -1144,6 +1144,12 @@ ResetViewportScrolling
 <
 <
 8
+ForPrinting
+=
+1
+<
+<
+9
 }
 ;
 MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
