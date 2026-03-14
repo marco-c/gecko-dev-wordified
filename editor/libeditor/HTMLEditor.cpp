@@ -28974,6 +28974,15 @@ IsInContentNode
 )
 )
 ;
+MOZ_ASSERT
+(
+aNextOrAfterModifiedPoint
+.
+IsSetAndValid
+(
+)
+)
+;
 /
 /
 If
