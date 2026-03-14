@@ -1195,8 +1195,7 @@ suggestion
 Tests
 the
 "
-Not
-relevant
+Dismiss
 "
 command
 :
@@ -1213,7 +1212,7 @@ add_task
 (
 async
 function
-notRelevant
+dismiss
 (
 )
 {
@@ -1240,7 +1239,7 @@ attachment
 command
 :
 "
-not_relevant
+dismiss
 "
 feature
 :

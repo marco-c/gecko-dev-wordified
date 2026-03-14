@@ -3050,8 +3050,7 @@ showSearchSuggestionsFirst
 Tests
 the
 "
-Not
-relevant
+Dismiss
 "
 command
 :
@@ -3068,7 +3067,7 @@ add_task
 (
 async
 function
-notRelevant
+dismiss
 (
 )
 {
@@ -3087,7 +3086,7 @@ TOKYO_RESULT
 command
 :
 "
-not_relevant
+dismiss
 "
 feature
 :

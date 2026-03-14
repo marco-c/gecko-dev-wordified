@@ -2620,8 +2620,7 @@ suggestion
 Tests
 the
 "
-Not
-relevant
+Dismiss
 "
 command
 :
@@ -2638,7 +2637,7 @@ add_task
 (
 async
 function
-notRelevant
+dismiss
 (
 )
 {
@@ -2768,7 +2767,7 @@ result
 command
 :
 "
-not_relevant
+dismiss
 "
 feature
 :
