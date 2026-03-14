@@ -54,6 +54,10 @@ space
 or
 tab
 .
+#
+[
+inline
+]
 pub
 (
 crate

@@ -398,7 +398,7 @@ Error
 {
 #
 [
-allow
+expect
 (
 missing_docs
 )
@@ -409,7 +409,7 @@ ConversionRange
 )
 #
 [
-allow
+expect
 (
 missing_docs
 )
@@ -433,7 +433,7 @@ offset
 ]
 #
 [
-allow
+expect
 (
 missing_docs
 )
@@ -455,7 +455,7 @@ formatting
 ]
 #
 [
-allow
+expect
 (
 missing_docs
 )
@@ -477,7 +477,7 @@ parsing
 ]
 #
 [
-allow
+expect
 (
 missing_docs
 )
@@ -499,7 +499,7 @@ parsing
 ]
 #
 [
-allow
+expect
 (
 missing_docs
 )
@@ -562,7 +562,7 @@ parsing
 ]
 #
 [
-allow
+expect
 (
 missing_docs
 )
@@ -600,7 +600,7 @@ alloc
 ]
 #
 [
-allow
+expect
 (
 missing_docs
 )
@@ -611,7 +611,7 @@ InvalidFormatDescription
 )
 #
 [
-allow
+expect
 (
 missing_docs
 )
@@ -622,7 +622,7 @@ DifferentVariant
 )
 #
 [
-allow
+expect
 (
 missing_docs
 )
@@ -640,6 +640,10 @@ Display
 for
 Error
 {
+#
+[
+inline
+]
 fn
 fmt
 (
@@ -911,19 +915,8 @@ f
 }
 }
 }
-#
-[
-cfg
-(
-feature
-=
-"
-std
-"
-)
-]
 impl
-std
+core
 :
 :
 error
@@ -933,6 +926,10 @@ Error
 for
 Error
 {
+#
+[
+inline
+]
 fn
 source
 (
@@ -946,7 +943,7 @@ Option
 &
 (
 dyn
-std
+core
 :
 :
 error

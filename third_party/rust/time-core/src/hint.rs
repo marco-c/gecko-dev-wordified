@@ -18,13 +18,12 @@ optimized
 #
 !
 [
-allow
+expect
 (
 dead_code
-)
-]
-/
-/
+reason
+=
+"
 may
 be
 used
@@ -35,6 +34,9 @@ and
 has
 minimal
 overhead
+"
+)
+]
 /
 /
 /

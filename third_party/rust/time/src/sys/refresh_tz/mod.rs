@@ -50,6 +50,10 @@ util
 refresh_tz
 ]
 .
+#
+[
+inline
+]
 pub
 (
 crate
@@ -113,6 +117,10 @@ to
 be
 sound
 .
+#
+[
+inline
+]
 pub
 (
 crate
