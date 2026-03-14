@@ -2698,7 +2698,7 @@ DOM
 element
 fullscreen
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
