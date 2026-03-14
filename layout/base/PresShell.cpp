@@ -4949,10 +4949,6 @@ mIsFirstPaint
 (
 true
 )
-mObservesMutationsForPrint
-(
-false
-)
 mWasLastReflowInterrupted
 (
 false
