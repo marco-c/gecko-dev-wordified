@@ -53,12 +53,14 @@ MPL
 0
 /
 .
-import
-json
 from
 marionette_harness
 import
 MarionetteTestCase
+from
+mozfile
+import
+json
 class
 ContentScriptsAreCorrectlyPersistedTest
 (

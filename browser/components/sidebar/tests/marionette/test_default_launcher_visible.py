@@ -53,8 +53,6 @@ MPL
 0
 /
 .
-import
-json
 from
 pathlib
 import
@@ -73,6 +71,10 @@ from
 marionette_harness
 import
 MarionetteTestCase
+from
+mozfile
+import
+json
 class
 TestDefaultLauncherVisible
 (
