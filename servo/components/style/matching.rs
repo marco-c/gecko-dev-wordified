@@ -437,6 +437,17 @@ changed
 reset_only
 :
 bool
+/
+/
+/
+Whether
+custom
+properties
+changed
+.
+_custom_properties_changed
+:
+bool
 }
 }
 /
@@ -4691,6 +4702,7 @@ StyleChange
 Changed
 {
 reset_only
+_custom_properties_changed
 }
 =
 >

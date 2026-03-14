@@ -398,10 +398,9 @@ reset_only
 )
 }
 ;
-if
-reset_only
-&
-&
+let
+custom_properties_changed
+=
 !
 old_style
 .
@@ -409,6 +408,12 @@ custom_properties_equal
 (
 new_style
 )
+;
+if
+reset_only
+&
+&
+custom_properties_changed
 {
 /
 /
@@ -485,6 +490,9 @@ StyleChange
 Changed
 {
 reset_only
+_custom_properties_changed
+:
+custom_properties_changed
 }
 }
 else
