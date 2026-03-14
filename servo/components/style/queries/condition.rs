@@ -183,10 +183,12 @@ crate
 properties_and_values
 :
 :
-registry
+rule
 :
 :
-PropertyRegistrationData
+Descriptors
+as
+PropertyDescriptors
 ;
 use
 crate
@@ -3170,7 +3172,7 @@ SpecifiedValue
 registration
 :
 &
-PropertyRegistrationData
+PropertyDescriptors
 stylist
 :
 &
@@ -3261,8 +3263,6 @@ is_none
 ;
 if
 registration
-.
-syntax
 .
 is_universal
 (
