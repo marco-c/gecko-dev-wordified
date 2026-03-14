@@ -7590,13 +7590,6 @@ height
 size
 .
 y
-|
-|
-size
-.
-z
->
-1
 )
 {
 gfxCriticalError
