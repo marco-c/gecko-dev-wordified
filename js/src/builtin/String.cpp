@@ -7114,15 +7114,9 @@ Steps
 -
 3
 .
-Rooted
-<
 JSLinearString
 *
->
 requestedLocale
-(
-cx
-)
 ;
 if
 (
