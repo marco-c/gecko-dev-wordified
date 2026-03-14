@@ -456,7 +456,7 @@ f
 oo
 "
 "
-INVALID_CHARACTER_ERR
+NAMESPACE_ERR
 "
 ]
 [
@@ -750,9 +750,7 @@ f
 :
 oo
 "
-"
-INVALID_CHARACTER_ERR
-"
+null
 ]
 [
 "
@@ -1365,9 +1363,7 @@ prefix
 :
 local
 "
-"
-INVALID_CHARACTER_ERR
-"
+null
 ]
 [
 "
