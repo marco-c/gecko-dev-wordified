@@ -12000,7 +12000,6 @@ updateShareURLMenuItem
 gBrowser
 .
 selectedBrowser
-null
 document
 .
 getElementById

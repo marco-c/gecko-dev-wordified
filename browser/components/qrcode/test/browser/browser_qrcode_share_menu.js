@@ -118,7 +118,6 @@ SharingUtils
 updateShareURLMenuItem
 (
 testBrowser
-null
 fileMenuPopup
 .
 querySelector
