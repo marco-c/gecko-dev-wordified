@@ -7273,7 +7273,7 @@ resolveSet
 if
 (
 !
-CyclicModuleResolveExport
+ModuleResolveExportWithResolveSet
 (
 cx
 importedModule
