@@ -59,7 +59,6 @@ def
 test_unsubscribe
 (
 bidi_session
-configuration
 inline
 new_tab
 iframe
@@ -230,7 +229,6 @@ await
 wait_for_bidi_events
 (
 bidi_session
-configuration
 events
 1
 timeout
@@ -1266,8 +1264,6 @@ test_with_new_navigation
     
 bidi_session
     
-configuration
-    
 subscribe_events
     
 inline
@@ -1493,7 +1489,6 @@ await
 wait_for_bidi_events
 (
 bidi_session
-configuration
 events
 1
 timeout
@@ -1568,8 +1563,6 @@ test_with_new_navigation_inside_page
 (
     
 bidi_session
-    
-configuration
     
 subscribe_events
     
@@ -1838,7 +1831,6 @@ await
 wait_for_bidi_events
 (
 bidi_session
-configuration
 events
 1
 timeout
@@ -1929,8 +1921,6 @@ test_close_context
 (
     
 bidi_session
-    
-configuration
     
 subscribe_events
     
@@ -2130,7 +2120,6 @@ await
 wait_for_bidi_events
 (
 bidi_session
-configuration
 events
 1
 timeout
@@ -2202,8 +2191,6 @@ test_close_iframe
 (
     
 bidi_session
-    
-configuration
     
 subscribe_events
     
@@ -2496,7 +2483,6 @@ await
 wait_for_bidi_events
 (
 bidi_session
-configuration
 events
 1
 timeout

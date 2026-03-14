@@ -72,8 +72,6 @@ test_unique_request_ids
     
 bidi_session
     
-configuration
-    
 url
     
 inline
@@ -231,7 +229,6 @@ await
 wait_for_bidi_events
 (
 bidi_session
-configuration
 events
 2
 timeout
@@ -287,7 +284,6 @@ await
 wait_for_bidi_events
 (
 bidi_session
-configuration
 events
 4
 timeout
@@ -362,7 +358,6 @@ await
 wait_for_bidi_events
 (
 bidi_session
-configuration
 events
 8
 timeout

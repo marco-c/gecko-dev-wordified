@@ -58,7 +58,6 @@ setup_blocked_request
 subscribe_events
 wait_for_event
 bidi_session
-configuration
 wait_for_future_safe
 )
 :
@@ -226,7 +225,6 @@ await
 wait_for_bidi_events
 (
 bidi_session
-configuration
 events
 2
 timeout
@@ -247,7 +245,6 @@ test_default
 setup_blocked_request
 subscribe_events
 bidi_session
-configuration
 )
 :
     
@@ -381,7 +378,6 @@ await
 wait_for_bidi_events
 (
 bidi_session
-configuration
 events
 1
 timeout
@@ -403,7 +399,6 @@ setup_blocked_request
 subscribe_events
 wait_for_event
 bidi_session
-configuration
 wait_for_future_safe
 )
 :
@@ -618,7 +613,6 @@ await
 wait_for_bidi_events
 (
 bidi_session
-configuration
 events
 2
 timeout
@@ -639,7 +633,6 @@ test_provideCredentials_wrong_credentials
 setup_blocked_request
 subscribe_events
 bidi_session
-configuration
 wait_for_event
 wait_for_future_safe
 )
@@ -924,7 +917,6 @@ await
 wait_for_bidi_events
 (
 bidi_session
-configuration
 events
 2
 timeout

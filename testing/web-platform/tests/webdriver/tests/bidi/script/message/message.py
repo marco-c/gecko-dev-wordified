@@ -373,7 +373,6 @@ test_subscribe_to_one_context
 (
     
 bidi_session
-configuration
 subscribe_events
 top_context
 new_tab
@@ -563,7 +562,6 @@ await
 wait_for_bidi_events
 (
 bidi_session
-configuration
 events
 1
 timeout

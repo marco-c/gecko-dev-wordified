@@ -749,8 +749,6 @@ test_two_channels
     
 bidi_session
     
-configuration
-    
 top_context
     
 subscribe_events
@@ -944,7 +942,6 @@ await
 wait_for_bidi_events
 (
 bidi_session
-configuration
 events
 2
 timeout

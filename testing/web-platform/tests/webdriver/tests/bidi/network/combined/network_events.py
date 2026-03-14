@@ -38,7 +38,6 @@ def
 test_cors_preflight_request
 (
 bidi_session
-configuration
 url
 fetch
 setup_network_test
@@ -242,7 +241,6 @@ await
 wait_for_bidi_events
 (
 bidi_session
-configuration
 events
 6
 timeout
@@ -2171,7 +2169,6 @@ test_event_order_with_redirect
 (
     
 bidi_session
-configuration
 top_context
 subscribe_events
 url
@@ -2369,7 +2366,6 @@ await
 wait_for_bidi_events
 (
 bidi_session
-configuration
 response_completed_events
 2
 timeout

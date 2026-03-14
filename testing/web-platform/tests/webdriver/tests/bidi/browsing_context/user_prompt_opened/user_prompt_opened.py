@@ -31,7 +31,6 @@ def
 test_unsubscribe
 (
 bidi_session
-configuration
 inline
 new_tab
 )
@@ -166,7 +165,6 @@ await
 wait_for_bidi_events
 (
 bidi_session
-configuration
 events
 1
 timeout
@@ -614,8 +612,6 @@ test_subscribe_to_one_context
     
 bidi_session
     
-configuration
-    
 subscribe_events
     
 inline
@@ -811,7 +807,6 @@ await
 wait_for_bidi_events
 (
 bidi_session
-configuration
 events
 1
 timeout
