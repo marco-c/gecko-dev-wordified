@@ -24274,8 +24274,8 @@ def
 isTruncateToInt32
 (
 )
-|
-|
+&
+&
 !
 def
 -
