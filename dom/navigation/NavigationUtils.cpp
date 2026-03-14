@@ -139,6 +139,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+SessionHistoryEntry
+.
+h
+"
+#
+include
+"
 nsDocShellLoadTypes
 .
 h
