@@ -1226,7 +1226,9 @@ deactivate
 {
 gBrowser
 .
-hideSplitViewPanels
+tabpanels
+.
+removeTabsFromSplitview
 (
 this
 .
