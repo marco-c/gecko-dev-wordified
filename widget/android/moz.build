@@ -166,9 +166,6 @@ classes_with_WrapForJNI
 AndroidGamepadManager
 "
 "
-AndroidVsync
-"
-"
 Base64Utils
 "
 "
