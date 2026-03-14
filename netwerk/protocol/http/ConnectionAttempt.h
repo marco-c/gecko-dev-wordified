@@ -297,6 +297,11 @@ virtual
 bool
 Claim
 (
+nsHttpTransaction
+*
+newTransaction
+=
+nullptr
 )
 =
 0
