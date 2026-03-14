@@ -471,16 +471,7 @@ mozilla
 ScrollUnit
 aUnit
 )
-{
-mButtonScrollDirection
-=
-aDirection
 ;
-mButtonScrollUnit
-=
-aUnit
-;
-}
 /
 /
 nsIAnonymousContentCreator

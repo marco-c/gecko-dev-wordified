@@ -29842,6 +29842,12 @@ ParentLayerPoint
 return
 ;
 }
+StateChangeNotificationBlocker
+blocker
+(
+this
+)
+;
 CancelAnimation
 (
 )
