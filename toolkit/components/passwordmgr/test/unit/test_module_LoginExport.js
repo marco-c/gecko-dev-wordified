@@ -594,6 +594,9 @@ timePasswordChanged
 "
 timesUsed
 "
+"
+timeLastBreachAlertDismissed
+"
 ]
 "
 Check
