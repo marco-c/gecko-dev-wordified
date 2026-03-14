@@ -183,6 +183,9 @@ JSONStringWriteFuncs
 h
 "
 #
+ifdef
+MOZ_GECKO_PROFILER
+#
 include
 "
 platform
@@ -724,6 +727,11 @@ additionalInfoObj
 )
 ;
 }
+#
+endif
+/
+/
+MOZ_GECKO_PROFILER
 namespace
 IPC
 {

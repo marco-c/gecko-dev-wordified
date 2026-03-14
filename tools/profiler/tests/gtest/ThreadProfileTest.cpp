@@ -94,6 +94,9 @@ MPL
 *
 /
 #
+ifdef
+MOZ_GECKO_PROFILER
+#
 include
 "
 ProfileBuffer
@@ -493,3 +496,8 @@ times
 )
 ;
 }
+#
+endif
+/
+/
+MOZ_GECKO_PROFILER

@@ -314,6 +314,9 @@ ProcessId
 aOtherPid
 )
 ;
+#
+ifdef
+MOZ_GECKO_PROFILER
 using
 SingleProcessProfilePromise
 =
@@ -844,6 +847,11 @@ mPendingRequestedProfiles
 bool
 mDestroyed
 ;
+#
+endif
+/
+/
+MOZ_GECKO_PROFILER
 private
 :
 virtual

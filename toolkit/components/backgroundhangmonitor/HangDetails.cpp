@@ -2366,6 +2366,9 @@ Clear
 (
 )
 ;
+#
+ifdef
+MOZ_GECKO_PROFILER
 /
 /
 Create
@@ -2774,6 +2777,8 @@ module
 ;
 }
 }
+#
+endif
 }
 Result
 <

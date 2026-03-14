@@ -1038,6 +1038,12 @@ RegisterThreadWithProfiler
 (
 )
 {
+#
+if
+defined
+(
+MOZ_GECKO_PROFILER
+)
 /
 /
 We
@@ -1154,6 +1160,14 @@ stackTop
 )
 )
 ;
+#
+endif
+/
+/
+defined
+(
+MOZ_GECKO_PROFILER
+)
 }
 }
 ;

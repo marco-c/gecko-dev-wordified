@@ -340,6 +340,9 @@ h
 #
 endif
 #
+ifdef
+MOZ_GECKO_PROFILER
+#
 include
 "
 GeckoProfiler
@@ -513,6 +516,11 @@ include
 <
 set
 >
+#
+endif
+/
+/
+MOZ_GECKO_PROFILER
 /
 /
 Note
@@ -1056,6 +1064,9 @@ name
 TimeStamp
 baseRegistrationTime
 ;
+#
+ifdef
+MOZ_GECKO_PROFILER
 baseRegistrationTime
 =
 baseprofiler
@@ -1068,6 +1079,8 @@ GetThreadRegistrationTime
 (
 )
 ;
+#
+endif
 if
 (
 baseRegistrationTime
@@ -1925,6 +1938,7 @@ IsMainThread
 ;
 #
 if
+(
 defined
 (
 _MSC_VER
@@ -1934,6 +1948,13 @@ _MSC_VER
 defined
 (
 __MINGW32__
+)
+)
+&
+&
+defined
+(
+MOZ_GECKO_PROFILER
 )
 HANDLE
 threadHandle
@@ -2014,6 +2035,12 @@ defined
 (
 __APPLE__
 )
+&
+&
+defined
+(
+MOZ_GECKO_PROFILER
+)
 /
 /
 Test
@@ -2075,6 +2102,7 @@ basicCount
 ;
 #
 elif
+(
 defined
 (
 __linux__
@@ -2090,6 +2118,14 @@ __ANDROID__
 defined
 (
 __FreeBSD__
+)
+)
+&
+&
+\
+defined
+(
+MOZ_GECKO_PROFILER
 )
 /
 /
@@ -7830,6 +7866,9 @@ otherThreadReads
 )
 ;
 }
+#
+ifdef
+MOZ_GECKO_PROFILER
 /
 /
 Common
@@ -8136,6 +8175,7 @@ isNull
 (
 )
 )
+\
 <
 <
 #
@@ -8477,6 +8517,7 @@ isNull
 (
 )
 )
+\
 <
 <
 #
@@ -8630,6 +8671,7 @@ isNull
 (
 )
 )
+\
 <
 <
 #
@@ -8769,6 +8811,7 @@ isNull
 (
 )
 )
+\
 <
 <
 #
@@ -9053,6 +9096,7 @@ isNull
 (
 )
 )
+\
 <
 <
 #
@@ -35440,13 +35484,13 @@ GP_OS_darwin
 )
 |
 |
+\
 defined
 (
 GP_OS_linux
 )
 |
 |
-\
 defined
 (
 GP_OS_android
@@ -35999,13 +36043,13 @@ GP_OS_darwin
 )
 |
 |
+\
 defined
 (
 GP_OS_linux
 )
 |
 |
-\
 defined
 (
 GP_OS_android
@@ -39159,3 +39203,8 @@ profiler_get_profile
 )
 ;
 }
+#
+endif
+/
+/
+MOZ_GECKO_PROFILER

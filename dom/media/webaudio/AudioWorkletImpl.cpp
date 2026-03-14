@@ -611,6 +611,9 @@ OnAddModuleStarted
 )
 const
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 profiler_add_marker
 (
 ProfilerStringView
@@ -638,6 +641,8 @@ IntervalStart
 }
 )
 ;
+#
+endif
 }
 void
 AudioWorkletImpl
@@ -648,6 +653,9 @@ OnAddModulePromiseSettled
 )
 const
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 profiler_add_marker
 (
 ProfilerStringView
@@ -675,6 +683,8 @@ IntervalEnd
 }
 )
 ;
+#
+endif
 }
 already_AddRefed
 <

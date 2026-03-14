@@ -220,12 +220,17 @@ nsIXPConnect
 h
 "
 #
+ifdef
+MOZ_GECKO_PROFILER
+#
 include
 "
 GeckoProfilerReporter
 .
 h
 "
+#
+endif
 #
 if
 defined
@@ -10996,6 +11001,9 @@ DeadlockDetectorReporter
 ;
 #
 endif
+#
+ifdef
+MOZ_GECKO_PROFILER
 /
 /
 We
@@ -11035,6 +11043,8 @@ GeckoProfilerReporter
 )
 )
 ;
+#
+endif
 #
 ifdef
 MOZ_DMD

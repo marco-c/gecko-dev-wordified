@@ -121,6 +121,9 @@ mozilla_ThreadStackHelper_h
 define
 mozilla_ThreadStackHelper_h
 #
+ifdef
+MOZ_GECKO_PROFILER
+#
 include
 "
 js
@@ -684,6 +687,11 @@ mThreadId
 /
 namespace
 mozilla
+#
+endif
+/
+/
+MOZ_GECKO_PROFILER
 #
 endif
 /
