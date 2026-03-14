@@ -90,6 +90,11 @@ UNIFIED_SOURCES
 =
 [
 "
+TestAppCollator
+.
+cpp
+"
+"
 TestEncoding
 .
 cpp
