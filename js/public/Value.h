@@ -3135,6 +3135,7 @@ defined
 JS_RUNTIME_CANONICAL_NAN
 )
 extern
+JS_PUBLIC_API
 uint64_t
 CanonicalizedNaNBits
 ;
