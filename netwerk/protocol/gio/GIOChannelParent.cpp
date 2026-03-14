@@ -1100,7 +1100,13 @@ rv
 }
 mChannel
 =
+std
+:
+:
+move
+(
 chan
+)
 ;
 nsIChannel
 *

@@ -28140,7 +28140,13 @@ attribute
 ;
 attrs
 =
+std
+:
+:
+move
+(
 docShellAttrs
+)
 ;
 attrs
 .

@@ -884,7 +884,13 @@ trrConfig
 >
 mRelayURI
 =
+std
+:
+:
+move
+(
 relayURI
+)
 ;
 }
 if

@@ -10784,7 +10784,13 @@ principalURI
 {
 sourceURI
 =
+std
+:
+:
+move
+(
 principalURI
+)
 ;
 }
 }
@@ -16321,7 +16327,13 @@ true
 ;
 mListener
 =
+std
+:
+:
+move
+(
 listener
+)
 ;
 if
 (

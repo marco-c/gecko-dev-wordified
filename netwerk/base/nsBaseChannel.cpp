@@ -3805,7 +3805,13 @@ succeed
 .
 mListener
 =
+std
+:
+:
+move
+(
 listener
+)
 ;
 /
 /

@@ -630,7 +630,13 @@ InvokeCallback
 }
 mHTTPSRecord
 =
+std
+:
+:
+move
+(
 record
+)
 ;
 /
 /
@@ -755,7 +761,13 @@ InvokeCallback
 }
 mAddrRecord
 =
+std
+:
+:
+move
+(
 addrRecord
+)
 ;
 /
 /
