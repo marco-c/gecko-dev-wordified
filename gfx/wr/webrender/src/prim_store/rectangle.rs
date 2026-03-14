@@ -910,7 +910,7 @@ RectangleTemplate
 >
 (
 )
-48
+56
 "
 RectangleTemplate
 size
@@ -932,7 +932,7 @@ RectangleKey
 >
 (
 )
-28
+36
 "
 RectangleKey
 size
