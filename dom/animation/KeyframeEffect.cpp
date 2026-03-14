@@ -5922,7 +5922,13 @@ mAnimation
 }
 mTarget
 =
+std
+:
+:
+move
+(
 newTarget
+)
 ;
 if
 (

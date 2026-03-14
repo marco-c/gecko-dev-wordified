@@ -8221,7 +8221,13 @@ rv
 }
 referrer
 =
+std
+:
+:
+move
+(
 userSpoofReferrer
+)
 ;
 }
 /
@@ -8271,7 +8277,13 @@ referrer
 ;
 referrer
 =
+std
+:
+:
+move
+(
 exposableURI
+)
 ;
 /
 /

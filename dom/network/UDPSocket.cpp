@@ -2225,7 +2225,13 @@ rv
 }
 mSocket
 =
+std
+:
+:
+move
+(
 sock
+)
 ;
 /
 /

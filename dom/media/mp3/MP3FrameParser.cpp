@@ -5199,7 +5199,13 @@ header
 .
 mHeader
 =
+std
+:
+:
+move
+(
 prevHeader
+)
 ;
 return
 size
