@@ -469,16 +469,6 @@ _9
 Atom
 (
 "
-mozframetype
-"
-"
-mozframetype
-"
-)
-    
-Atom
-(
-"
 _moz_abspos
 "
 "
