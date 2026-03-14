@@ -376,6 +376,12 @@ mConnectedOK
 =
 false
 ;
+TimeStamp
+mConnectStart
+;
+TimeStamp
+mTcpConnectEnd
+;
 DoneCallback
 mCallback
 ;
