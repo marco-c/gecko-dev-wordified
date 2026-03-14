@@ -114,6 +114,8 @@ get_runtimes
 get_test_tags
     
 guess_mozinfo_from_task
+    
+resolve_manifest_runtimes
 )
 from
 gecko_taskgraph
@@ -1511,25 +1513,10 @@ name
         
 runtimes
 =
-{
-            
-m
-:
-r
-            
-for
-m
-r
-in
-all_runtimes
-.
-items
+resolve_manifest_runtimes
 (
-)
             
-if
-m
-in
+all_runtimes
 task
 [
 "
@@ -1544,7 +1531,7 @@ active
 "
 ]
         
-}
+)
         
 if
 not
