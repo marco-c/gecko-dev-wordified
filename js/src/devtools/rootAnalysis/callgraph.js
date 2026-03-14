@@ -1518,10 +1518,11 @@ callees
 function
 getCallees
 (
-ffg
+typeInfo
 body
 edge
 scopeAttrs
+functionBodies
 )
 {
 const
@@ -1672,12 +1673,13 @@ edgeInfo
 =
 getCallEdgeProperties
 (
-ffg
+typeInfo
 body
 edge
 callee
 .
 name
+functionBodies
 )
 ;
 for
