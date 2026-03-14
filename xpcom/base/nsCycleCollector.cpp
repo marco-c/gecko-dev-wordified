@@ -11546,7 +11546,13 @@ aLog
 >
 mFile
 =
+std
+:
+:
+move
+(
 logFileFinalDestination
+)
 ;
 }
 /
