@@ -31570,7 +31570,7 @@ typed_value
 =
 decls
 .
-property_value_to_typed
+property_value_to_typed_value
 (
 &
 property_id
@@ -32942,7 +32942,7 @@ result
 match
 declaration
 .
-to_typed
+to_typed_value
 (
 )
 {
