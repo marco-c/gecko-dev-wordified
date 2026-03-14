@@ -180,6 +180,10 @@ fail
 bool
 Signal
 (
+bool
+aForce
+=
+false
 )
 ;
 /
