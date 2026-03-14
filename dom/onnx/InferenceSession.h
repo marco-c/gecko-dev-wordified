@@ -296,13 +296,7 @@ GetAsSupports
 ;
 mGlobal
 =
-std
-:
-:
-move
-(
 global
-)
 ;
 mCtx
 =

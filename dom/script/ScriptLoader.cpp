@@ -31296,13 +31296,7 @@ aRequest
 ;
 mCurrentParserInsertedScript
 =
-std
-:
-:
-move
-(
 oldParserInsertedScript
-)
 ;
 }
 else

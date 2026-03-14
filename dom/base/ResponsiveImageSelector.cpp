@@ -3127,13 +3127,7 @@ isNothing
 {
 mDensity
 =
-std
-:
-:
-move
-(
 possibleDensity
-)
 ;
 }
 else

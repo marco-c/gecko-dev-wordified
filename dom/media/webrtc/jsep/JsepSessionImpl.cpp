@@ -2990,13 +2990,7 @@ extmap
 >
 mExtmaps
 =
-std
-:
-:
-move
-(
 extensions
-)
 ;
 msection
 -

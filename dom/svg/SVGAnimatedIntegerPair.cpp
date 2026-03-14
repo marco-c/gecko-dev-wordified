@@ -1236,13 +1236,7 @@ values
 ;
 aValue
 =
-std
-:
-:
-move
-(
 val
-)
 ;
 return
 NS_OK

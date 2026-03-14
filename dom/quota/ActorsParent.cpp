@@ -22105,13 +22105,7 @@ fullOriginMetadata
 .
 mClientUsages
 =
-std
-:
-:
-move
-(
 clientUsages
-)
 ;
 }
 else
@@ -53114,13 +53108,7 @@ spec
 ;
 mAttrs
 =
-std
-:
-:
-move
-(
 attrs
-)
 ;
 mOriginalSuffix
 =

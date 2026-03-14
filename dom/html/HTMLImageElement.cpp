@@ -5052,13 +5052,7 @@ triggeringPrincipal
 }
 mLastSelectedSource
 =
-std
-:
-:
-move
-(
 selectedSource
-)
 ;
 mCurrentDensity
 =

@@ -1421,13 +1421,7 @@ rv
 {
 mListener
 =
-std
-:
-:
-move
-(
 converter
-)
 ;
 }
 }

@@ -541,13 +541,7 @@ GetAsSupports
 ;
 mGlobal
 =
-std
-:
-:
-move
-(
 global
-)
 ;
 /
 /
@@ -652,13 +646,7 @@ GetAsSupports
 ;
 mGlobal
 =
-std
-:
-:
-move
-(
 global
-)
 ;
 mData
 =

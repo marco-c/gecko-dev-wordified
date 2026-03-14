@@ -4827,13 +4827,7 @@ geoTestProvider
 {
 mProvider
 =
-std
-:
-:
-move
-(
 geoTestProvider
-)
 ;
 }
 }

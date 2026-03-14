@@ -3345,13 +3345,7 @@ openInfo
 >
 mPrincipalToInheritForAboutBlank
 =
-std
-:
-:
-move
-(
 initialPrincipal
-)
 ;
 openInfo
 -

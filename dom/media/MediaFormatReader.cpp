@@ -22066,13 +22066,7 @@ reset
 }
 mPendingSeekTime
 =
-std
-:
-:
-move
-(
 nextSeekTime
-)
 ;
 DoAudioSeek
 (

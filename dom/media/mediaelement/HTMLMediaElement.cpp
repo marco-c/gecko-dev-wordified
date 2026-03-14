@@ -11476,13 +11476,7 @@ now
 .
 mChannel
 =
-std
-:
-:
-move
-(
 channel
-)
 ;
 /
 /

@@ -542,13 +542,7 @@ NS_ERROR_FAILURE
 ;
 mParams
 =
-std
-:
-:
-move
-(
 params
-)
 ;
 /
 /

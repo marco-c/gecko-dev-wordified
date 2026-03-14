@@ -5272,13 +5272,7 @@ GetClipboardDataSnapshotWithContentAnalysisSync
 )
 mClipboardDataSnapshot
 =
-std
-:
-:
-move
-(
 clipboardDataSnapshot
-)
 ;
 }
 return
@@ -5358,13 +5352,7 @@ format
 }
 mClipboardDataSnapshot
 =
-std
-:
-:
-move
-(
 clipboardDataSnapshot
-)
 ;
 }
 /

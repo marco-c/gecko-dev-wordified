@@ -1284,13 +1284,7 @@ rv
 }
 mSocket
 =
-std
-:
-:
-move
-(
 sock
-)
 ;
 return
 NS_OK

@@ -949,13 +949,7 @@ data
 >
 mInputStream
 =
-std
-:
-:
-move
-(
 replacementStream
-)
 ;
 }
 /

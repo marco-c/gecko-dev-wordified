@@ -8303,13 +8303,7 @@ candidates
 >
 mValues
 =
-std
-:
-:
-move
-(
 candidatesStrings
-)
 ;
 SetAttribute
 (

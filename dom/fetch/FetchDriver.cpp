@@ -7025,13 +7025,7 @@ Necko
 .
 mChannel
 =
-std
-:
-:
-move
-(
 chan
-)
 ;
 return
 NS_OK
