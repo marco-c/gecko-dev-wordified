@@ -3515,7 +3515,7 @@ TextRunTemplate
 >
 (
 )
-96
+88
 "
 TextRunTemplate
 size
@@ -3537,7 +3537,7 @@ TextRunKey
 >
 (
 )
-104
+96
 "
 TextRunKey
 size
