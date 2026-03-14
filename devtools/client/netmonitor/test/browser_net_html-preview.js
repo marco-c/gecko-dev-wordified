@@ -1303,8 +1303,8 @@ img
 "
 )
 .
-complete
-false
+naturalWidth
+0
 "
 img
 was
