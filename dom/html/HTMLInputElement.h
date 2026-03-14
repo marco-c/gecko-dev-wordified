@@ -9772,6 +9772,11 @@ mHasPatternAttribute
 :
 1
 ;
+bool
+mUserChangedSinceFocus
+:
+1
+;
 private
 :
 Maybe
