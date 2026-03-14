@@ -5660,7 +5660,7 @@ ok
 (
 netErrorCard
 .
-certErrorBodyTitle
+errorTitle
 "
 The
 error
@@ -5677,7 +5677,7 @@ shortDesc
 =
 netErrorCard
 .
-certErrorIntro
+errorIntro
 ;
 const
 shortDescArgs
@@ -8062,7 +8062,7 @@ ok
 (
 netErrorCard
 .
-certErrorBodyTitle
+errorTitle
 "
 The
 error

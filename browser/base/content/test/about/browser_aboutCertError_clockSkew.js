@@ -1119,7 +1119,7 @@ ok
 (
 netErrorCard
 .
-certErrorBodyTitle
+errorTitle
 "
 The
 error
@@ -1136,7 +1136,7 @@ shortDesc
 =
 netErrorCard
 .
-certErrorIntro
+errorIntro
 ;
 const
 advancedButton

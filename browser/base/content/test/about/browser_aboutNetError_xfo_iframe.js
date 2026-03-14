@@ -404,7 +404,7 @@ whatCanYouDo
 |
 card
 .
-netErrorIntro
+errorIntro
 ;
 if
 (
@@ -447,11 +447,6 @@ textContent
 const
 learnMoreLink
 =
-card
-.
-netErrorLearnMoreLink
-|
-|
 card
 .
 learnMoreLink

@@ -362,7 +362,7 @@ strictEqual
 (
 netErrorCard
 .
-netErrorTitleText
+errorTitle
 .
 dataset
 .

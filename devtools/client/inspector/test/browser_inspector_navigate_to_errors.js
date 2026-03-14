@@ -331,7 +331,9 @@ errorSelector
 =
 "
 #
-netErrorIntro
+error
+-
+intro
 "
 ;
 let

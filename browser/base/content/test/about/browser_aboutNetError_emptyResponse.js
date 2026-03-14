@@ -396,11 +396,11 @@ ok
 (
 netErrorCard
 .
-netErrorTitleText
+errorTitle
 "
 NetErrorCard
 has
-netErrorTitleText
+errorTitle
 .
 "
 )
@@ -411,11 +411,11 @@ ok
 (
 netErrorCard
 .
-netErrorIntro
+errorIntro
 "
 NetErrorCard
 has
-netErrorIntro
+errorIntro
 .
 "
 )
@@ -457,7 +457,7 @@ equal
 (
 netErrorCard
 .
-netErrorTitleText
+errorTitle
 .
 dataset
 .
@@ -492,7 +492,7 @@ equal
 (
 netErrorCard
 .
-netErrorIntro
+errorIntro
 .
 dataset
 .
