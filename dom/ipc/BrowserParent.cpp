@@ -1810,6 +1810,7 @@ sBrowserParentCount
 =
 0
 ;
+constinit
 Maybe
 <
 RequestingAccessKeyEventData

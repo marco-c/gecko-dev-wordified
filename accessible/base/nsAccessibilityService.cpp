@@ -12629,6 +12629,7 @@ Maybe
 .
 h
 "
+constinit
 static
 Maybe
 <
