@@ -628,7 +628,7 @@ aKind
 TreeKind
 :
 :
-Flat
+FlatForSelection
 >
 >
 static
@@ -729,7 +729,7 @@ aKind
 TreeKind
 :
 :
-Flat
+FlatForSelection
 >
 >
 static
@@ -786,7 +786,7 @@ aKind
 TreeKind
 :
 :
-Flat
+FlatForSelection
 >
 >
 static

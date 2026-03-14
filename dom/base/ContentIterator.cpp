@@ -7300,7 +7300,7 @@ IsNodeContainedInRange
 TreeKind
 :
 :
-Flat
+FlatForSelection
 >
 (
 *
@@ -7932,7 +7932,7 @@ IsNodeContainedInRange
 TreeKind
 :
 :
-Flat
+FlatForSelection
 >
 (
 *
@@ -8940,7 +8940,7 @@ IsNodeContainedInRange
 TreeKind
 :
 :
-Flat
+FlatForSelection
 >
 (
 *
@@ -9188,7 +9188,7 @@ IsNodeContainedInRange
 TreeKind
 :
 :
-Flat
+FlatForSelection
 >
 (
 *

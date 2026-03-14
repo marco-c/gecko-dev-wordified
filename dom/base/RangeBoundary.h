@@ -368,7 +368,7 @@ is
 TreeKind
 :
 :
-Flat
+FlatForSelection
 and
 /
 /
@@ -1584,7 +1584,7 @@ aTreeKind
 TreeKind
 :
 :
-Flat
+FlatForSelection
 "
 Only
 TreeKind
@@ -1595,11 +1595,13 @@ and
 TreeKind
 :
 :
-Flat
+FlatForSelection
 are
 valid
 at
 the
+"
+"
 moment
 .
 "
@@ -1816,7 +1818,7 @@ aTreeKind
 TreeKind
 :
 :
-Flat
+FlatForSelection
 "
 Only
 TreeKind
@@ -1827,11 +1829,13 @@ and
 TreeKind
 :
 :
-Flat
+FlatForSelection
 are
 valid
 at
 the
+"
+"
 moment
 .
 "
@@ -2144,7 +2148,7 @@ mTreeKind
 TreeKind
 :
 :
-Flat
+FlatForSelection
 )
 {
 return
@@ -2185,7 +2189,7 @@ mSetBy
 TreeKind
 :
 :
-Flat
+FlatForSelection
 )
 ;
 }
@@ -2293,7 +2297,7 @@ aChild
 TreeKind
 :
 :
-Flat
+FlatForSelection
 )
 :
 FromRef
@@ -2303,7 +2307,7 @@ aChild
 TreeKind
 :
 :
-Flat
+FlatForSelection
 )
 ;
 if
@@ -2466,7 +2470,7 @@ mSetBy
 TreeKind
 :
 :
-Flat
+FlatForSelection
 )
 :
 EndOfParent
@@ -2477,7 +2481,7 @@ mSetBy
 TreeKind
 :
 :
-Flat
+FlatForSelection
 )
 ;
 }
@@ -3043,7 +3047,7 @@ mSetBy
 TreeKind
 :
 :
-Flat
+FlatForSelection
 )
 ;
 }
@@ -5722,7 +5726,7 @@ aKind
 TreeKind
 :
 :
-Flat
+FlatForSelection
 )
 {
 /

@@ -2640,7 +2640,7 @@ ComparePointsWithIndices
 TreeKind
 :
 :
-Flat
+FlatForSelection
 >
 (
 aNode1
@@ -3375,7 +3375,7 @@ ComparePoints
 TreeKind
 :
 :
-Flat
+FlatForSelection
 >
 (
 aBoundary1
