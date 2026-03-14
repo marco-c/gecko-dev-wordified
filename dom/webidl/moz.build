@@ -2972,6 +2972,11 @@ GENERATED_WEBIDL_FILES
 =
 [
 "
+CSSCounterStyleRule
+.
+webidl
+"
+"
 CSSPageDescriptors
 .
 webidl
@@ -3436,11 +3441,6 @@ webidl
 "
 "
 CSSContainerRule
-.
-webidl
-"
-"
-CSSCounterStyleRule
 .
 webidl
 "

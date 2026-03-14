@@ -178,9 +178,6 @@ gfxFontFaceBufferSource
 namespace
 mozilla
 {
-struct
-CSSFontFaceDescriptors
-;
 class
 PostTraversalTask
 ;
@@ -1411,7 +1408,7 @@ failure
 bool
 SetDescriptor
 (
-nsCSSFontDesc
+FontFaceDescriptorId
 aFontDesc
 const
 nsACString
@@ -1474,7 +1471,7 @@ aStatus
 void
 GetDesc
 (
-nsCSSFontDesc
+FontFaceDescriptorId
 aDescID
 nsACString
 &
