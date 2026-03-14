@@ -510,7 +510,7 @@ WIN_SEGMENT
 "
 Windows
 NT
-11
+10
 .
 0
 ;
