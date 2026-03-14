@@ -6183,7 +6183,7 @@ bc
 loadInfo
 -
 >
-GetWorkerAssociatedBrowsingContext
+GetAssociatedBrowsingContext
 (
 )
 ;

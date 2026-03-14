@@ -853,7 +853,7 @@ bc
 loadInfo
 -
 >
-GetWorkerAssociatedBrowsingContext
+GetAssociatedBrowsingContext
 (
 )
 ;

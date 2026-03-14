@@ -3449,6 +3449,12 @@ GetBrowsingContextID
 aLoadInfo
 -
 >
+GetAssociatedBrowsingContextID
+(
+)
+aLoadInfo
+-
+>
 GetFrameBrowsingContextID
 (
 )

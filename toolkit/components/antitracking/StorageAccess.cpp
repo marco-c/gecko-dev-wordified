@@ -5457,7 +5457,7 @@ rv
 loadInfo
 -
 >
-GetWorkerAssociatedBrowsingContext
+GetAssociatedBrowsingContext
 (
 getter_AddRefs
 (

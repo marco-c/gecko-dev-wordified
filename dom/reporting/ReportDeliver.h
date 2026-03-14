@@ -304,6 +304,17 @@ mFailures
 uintptr_t
 mGlobalKey
 ;
+/
+/
+Used
+to
+track
+in
+devtools
+only
+uint64_t
+mAssociatedBrowsingContext
+;
 }
 ;
 static
@@ -328,6 +339,8 @@ aURL
 ReportBody
 *
 aBody
+uint64_t
+aAssociatedBrowsingContextId
 )
 ;
 static
