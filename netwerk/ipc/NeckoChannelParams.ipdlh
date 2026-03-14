@@ -3053,6 +3053,9 @@ hasIPHintAddress
 nsCString
 echConfig
 ;
+bool
+happyEyeballsEnabled
+;
 ProxyInfoCloneArgs
 [
 ]
