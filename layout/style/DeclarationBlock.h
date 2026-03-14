@@ -1138,9 +1138,9 @@ const
 nsACString
 &
 aProperty
-StylePropertyTypedValueResult
+StylePropertyTypedValue
 &
-aResult
+aValue
 )
 const
 {
@@ -1151,7 +1151,7 @@ mRaw
 &
 aProperty
 &
-aResult
+aValue
 )
 ;
 }
