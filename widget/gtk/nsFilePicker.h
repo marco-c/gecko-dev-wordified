@@ -444,9 +444,9 @@ DoneCommon
 ResultCode
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIWidget
+nsWindow
 >
 mParentWidget
 ;
