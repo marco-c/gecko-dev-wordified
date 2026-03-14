@@ -1496,6 +1496,11 @@ StyleScrollAxis
 aAxis
 )
 ;
+void
+TimelineDataDidChange
+(
+)
+;
 /
 /
 The
