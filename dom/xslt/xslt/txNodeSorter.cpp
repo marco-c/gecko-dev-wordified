@@ -468,7 +468,10 @@ comparator
 /
 /
 Language
-nsAutoString
+nsAutoCStringN
+<
+6
+>
 lang
 ;
 if
@@ -476,6 +479,12 @@ if
 aLangExpr
 )
 {
+nsAutoStringN
+<
+6
+>
+utf16lang
+;
 rv
 =
 aLangExpr
@@ -484,7 +493,7 @@ aLangExpr
 evaluateToString
 (
 aContext
-lang
+utf16lang
 )
 ;
 NS_ENSURE_SUCCESS
@@ -524,7 +533,9 @@ JSLocale
 )
 )
 {
-CopyUTF8toUTF16
+lang
+.
+Assign
 (
 nsRFPService
 :
@@ -532,7 +543,6 @@ nsRFPService
 GetSpoofedJSLocale
 (
 )
-lang
 )
 ;
 }
