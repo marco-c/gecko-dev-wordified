@@ -410,6 +410,11 @@ TestRust
 cpp
 "
 "
+TestSimpleMap
+.
+cpp
+"
+"
 TestTimeUnit
 .
 cpp
