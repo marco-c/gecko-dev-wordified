@@ -3359,6 +3359,9 @@ true
 isAIWindow
 :
 false
+onThirdPartyPage
+:
+false
 }
 }
 )
@@ -3428,6 +3431,9 @@ browserIsSelected
 :
 true
 isAIWindow
+:
+false
+onThirdPartyPage
 :
 false
 }
