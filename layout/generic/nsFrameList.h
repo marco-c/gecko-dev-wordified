@@ -258,7 +258,6 @@ child
 lists
 .
 Principal
-ColGroup
 Absolute
 PushedAbsolute
 Overflow

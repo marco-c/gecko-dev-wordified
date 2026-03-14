@@ -2882,17 +2882,6 @@ case
 FrameChildListID
 :
 :
-ColGroup
-:
-return
-"
-ColGroupList
-"
-;
-case
-FrameChildListID
-:
-:
 Absolute
 :
 return
