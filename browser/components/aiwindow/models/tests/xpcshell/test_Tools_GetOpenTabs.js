@@ -56,6 +56,10 @@ MPL
 .
 *
 /
+do_get_profile
+(
+)
+;
 const
 {
 getOpenTabs
