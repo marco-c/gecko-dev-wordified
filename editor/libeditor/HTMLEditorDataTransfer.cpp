@@ -4005,6 +4005,14 @@ EditorDOMPoint
 (
 )
 ;
+/
+/
+FIXME
+:
+Handle
+preformatted
+linefeed
+too
 const
 WSScanResult
 prevVisibleThing
@@ -4053,7 +4061,7 @@ if
 (
 prevVisibleThing
 .
-ReachedInvisibleBRElement
+ReachedBRElementFollowedByBlockBoundary
 (
 )
 )
@@ -6271,6 +6279,7 @@ mHTMLEditor
 EnsureNoFollowingUnnecessaryLineBreak
 (
 afterLastInsertedContent
+mEditingHost
 )
 ;
 if

@@ -23295,6 +23295,16 @@ deleted
 range
 .
 *
+param
+aEditingHost
+The
+editing
+host
+containing
+*
+aNextOrAfterModifiedPoint
+.
+*
 /
 [
 [
@@ -23309,6 +23319,10 @@ const
 EditorDOMPoint
 &
 aNextOrAfterModifiedPoint
+const
+Element
+&
+aEditingHost
 )
 ;
 /

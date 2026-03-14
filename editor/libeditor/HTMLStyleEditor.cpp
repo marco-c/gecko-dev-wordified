@@ -520,6 +520,14 @@ HTMLEditUtils
 :
 LeafNodeOption
 ;
+using
+TreatInvisibleLineBreakAs
+=
+HTMLEditUtils
+:
+:
+TreatInvisibleLineBreakAs
+;
 template
 nsresult
 HTMLEditor
@@ -3690,6 +3698,10 @@ node
 AsText
 (
 )
+TreatInvisibleLineBreakAs
+:
+:
+Visible
 )
 )
 {
@@ -5914,6 +5926,10 @@ IsVisibleTextNode
 (
 *
 text
+TreatInvisibleLineBreakAs
+:
+:
+Visible
 )
 )
 {
@@ -5965,7 +5981,7 @@ if
 HTMLEditUtils
 :
 :
-IsInvisibleBRElement
+IsBRElementFollowedByBlockBoundary
 (
 *
 nextSibling
@@ -6028,6 +6044,10 @@ IsVisibleTextNode
 (
 *
 text
+TreatInvisibleLineBreakAs
+:
+:
+Visible
 )
 )
 {
@@ -14745,7 +14765,7 @@ if
 (
 nextContentData
 .
-ReachedInvisibleBRElement
+ReachedBRElementFollowedByBlockBoundary
 (
 )
 &
@@ -23817,6 +23837,10 @@ IsVisibleTextNode
 (
 *
 textNode
+TreatInvisibleLineBreakAs
+:
+:
+Visible
 )
 )
 {

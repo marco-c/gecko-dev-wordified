@@ -284,6 +284,14 @@ HTMLEditUtils
 :
 LeafNodeOption
 ;
+using
+TreatInvisibleLineBreakAs
+=
+HTMLEditUtils
+:
+:
+TreatInvisibleLineBreakAs
+;
 Result
 <
 EditorDOMPoint
@@ -11792,6 +11800,10 @@ IsVisibleTextNode
 (
 *
 followingTextNode
+TreatInvisibleLineBreakAs
+:
+:
+Invisible
 )
 )
 {
@@ -12291,6 +12303,10 @@ IsVisibleTextNode
 (
 *
 precedingTextNode
+TreatInvisibleLineBreakAs
+:
+:
+Invisible
 )
 )
 {

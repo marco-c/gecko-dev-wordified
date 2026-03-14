@@ -555,6 +555,15 @@ EditAction
 h
 enum
 class
+PaddingForEmptyBlock
+;
+/
+/
+EditorLineBreak
+.
+h
+enum
+class
 ParagraphSeparator
 ;
 /
