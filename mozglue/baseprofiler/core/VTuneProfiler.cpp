@@ -132,15 +132,6 @@ VTuneProfiler
 .
 h
 "
-#
-include
-"
-mozilla
-/
-BaseProfiler
-.
-h
-"
 namespace
 mozilla
 {

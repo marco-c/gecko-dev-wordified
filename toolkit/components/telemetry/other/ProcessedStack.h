@@ -560,17 +560,9 @@ uintptr_t
 aEnd
 )
 ;
-#
-if
-defined
-(
-MOZ_GECKO_PROFILER
-)
 SharedLibraryInfo
 mSortedRawModules
 ;
-#
-endif
 }
 ;
 }

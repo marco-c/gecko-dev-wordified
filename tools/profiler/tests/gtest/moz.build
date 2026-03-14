@@ -86,14 +86,6 @@ MPL
 /
 .
 if
-(
-CONFIG
-[
-"
-MOZ_GECKO_PROFILER
-"
-]
-and
 CONFIG
 [
 "
@@ -127,7 +119,6 @@ aarch64
 "
 x86_64
 "
-)
 )
 :
 UNIFIED_SOURCES
