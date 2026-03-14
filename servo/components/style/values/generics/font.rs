@@ -150,6 +150,7 @@ style_traits
 {
 CssString
 CssWriter
+KeywordValue
 ParseError
 StyleParseErrorKind
 ToCss
@@ -1809,6 +1810,8 @@ TypedValue
 :
 Keyword
 (
+KeywordValue
+(
 CssString
 :
 :
@@ -1817,6 +1820,7 @@ from
 "
 none
 "
+)
 )
 )
 )

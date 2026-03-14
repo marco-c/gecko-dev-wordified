@@ -194,6 +194,7 @@ style_traits
 {
 CssString
 CssWriter
+KeywordValue
 ToCss
 ToTyped
 TypedValue
@@ -765,6 +766,8 @@ TypedValue
 :
 Keyword
 (
+KeywordValue
+(
 CssString
 :
 :
@@ -773,6 +776,7 @@ from
 "
 normal
 "
+)
 )
 )
 )
