@@ -3331,16 +3331,6 @@ nsITransportSecurityInfo
 aSecInfo
 )
 ;
-[
-[
-nodiscard
-]
-]
-nsresult
-ProcessWAICTHeader
-(
-)
-;
 void
 InvalidateCacheEntryForLocation
 (

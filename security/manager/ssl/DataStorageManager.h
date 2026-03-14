@@ -165,11 +165,6 @@ mSiteSecurityServiceStateCreated
 =
 false
 ;
-bool
-mSiteIntegrityServiceStateCreated
-=
-false
-;
 }
 ;
 }

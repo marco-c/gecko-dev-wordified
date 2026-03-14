@@ -337,9 +337,6 @@ class
 nsIRequestContextService
 ;
 class
-nsISiteIntegrityService
-;
-class
 nsISiteSecurityService
 ;
 class
@@ -2326,12 +2323,6 @@ GetCookieService
 /
 not
 addrefed
-nsISiteIntegrityService
-*
-GetSiteIntegrityService
-(
-)
-;
 nsISiteSecurityService
 *
 GetSSService
@@ -3460,12 +3451,6 @@ nsMainThreadPtrHandle
 nsICookieService
 >
 mCookieService
-;
-nsMainThreadPtrHandle
-<
-nsISiteIntegrityService
->
-mSiteIntegrityService
 ;
 nsMainThreadPtrHandle
 <
