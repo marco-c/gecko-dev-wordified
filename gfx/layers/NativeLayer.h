@@ -2678,6 +2678,8 @@ IntSize
 aSize
 GLuint
 aBufferHandle
+bool
+aYFlip
 )
 ;
 void
@@ -2732,6 +2734,9 @@ GLuint
 mBufferHandle
 =
 0
+;
+bool
+mYFlip
 ;
 }
 ;

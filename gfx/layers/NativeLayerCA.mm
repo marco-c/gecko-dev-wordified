@@ -4997,6 +4997,13 @@ AsyncReadbackBufferNLRS
 mGL
 aSize
 bufferHandle
+/
+*
+bool
+aYFlip
+*
+/
+true
 )
 ;
 }
