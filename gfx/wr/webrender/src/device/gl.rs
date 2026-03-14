@@ -20812,7 +20812,6 @@ delete_external_texture
 &
 mut
 self
-mut
 external
 :
 ExternalTexture
@@ -20831,12 +20830,6 @@ external
 id
 ]
 )
-;
-external
-.
-id
-=
-0
 ;
 }
 pub
