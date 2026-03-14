@@ -107,7 +107,7 @@ encoding_support
 ;
 pub
 mod
-media_queries
+media_features
 ;
 pub
 mod

@@ -92,10 +92,6 @@ media_features
 ;
 pub
 mod
-media_queries
-;
-pub
-mod
 pseudo_element
 ;
 pub

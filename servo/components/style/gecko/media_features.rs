@@ -81,6 +81,15 @@ use
 crate
 :
 :
+device
+:
+:
+Device
+;
+use
+crate
+:
+:
 gecko_bindings
 :
 :
@@ -102,10 +111,7 @@ crate
 media_queries
 :
 :
-{
-Device
 MediaType
-}
 ;
 use
 crate

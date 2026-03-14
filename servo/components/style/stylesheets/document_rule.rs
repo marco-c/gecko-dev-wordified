@@ -127,7 +127,16 @@ use
 crate
 :
 :
-media_queries
+derives
+:
+:
+*
+;
+use
+crate
+:
+:
+device
 :
 :
 Device
@@ -192,6 +201,7 @@ cssparser
 :
 :
 {
+match_ignore_ascii_case
 BasicParseErrorKind
 Parser
 SourceLocation
