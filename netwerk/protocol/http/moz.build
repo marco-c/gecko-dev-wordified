@@ -578,6 +578,16 @@ CapsuleParser
 cpp
 "
 "
+ConnectionAttempt
+.
+cpp
+"
+"
+ConnectionAttemptPool
+.
+cpp
+"
+"
 ConnectionDiagnostics
 .
 cpp

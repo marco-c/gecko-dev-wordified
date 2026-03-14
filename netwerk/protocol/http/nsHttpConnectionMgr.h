@@ -2107,6 +2107,10 @@ private
 :
 friend
 class
+ConnectionAttemptPool
+;
+friend
+class
 DnsAndConnectSocket
 ;
 friend
