@@ -735,7 +735,7 @@ const
 KeyboardRegions
 aRegion
 const
-KeyNameIndexType
+KeyNameIndex
 aKeyIdx
 const
 nsAString
@@ -801,7 +801,7 @@ mLang
 KeyboardRegions
 mRegion
 ;
-KeyNameIndexType
+KeyNameIndex
 mKeyIdx
 ;
 nsString
