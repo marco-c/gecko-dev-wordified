@@ -501,6 +501,20 @@ beta
 {
         
 "
+optimize_strategies
+"
+:
+"
+gecko_taskgraph
+.
+optimize
+:
+project
+.
+beta
+"
+        
+"
 target_tasks_method
 "
 :
@@ -1660,16 +1674,20 @@ was
 invoked
     
 if
-len
-(
 push_schedules
+.
+cache_info
+(
 )
+.
+currsize
 >
 0
 :
         
 write_artifact
 (
+            
 "
 bugbug
 -
@@ -1679,14 +1697,27 @@ schedules
 .
 json
 "
+            
 push_schedules
-.
-popitem
 (
-)
+tgg
+.
+parameters
 [
-1
+"
+project
+"
 ]
+tgg
+.
+parameters
+[
+"
+head_rev
+"
+]
+)
+        
 )
     
 #
