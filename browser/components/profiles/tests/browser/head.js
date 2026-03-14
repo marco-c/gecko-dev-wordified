@@ -272,6 +272,12 @@ asyncFlushCurrentProfile
 )
 {
 }
+async
+removeProfileFilesByPath
+(
+)
+{
+}
 }
 const
 gProfileService
