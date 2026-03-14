@@ -7855,10 +7855,6 @@ MIRType
 WasmAnyRef
 )
 ;
-setMovable
-(
-)
-;
 setWasmRefType
 (
 wasm
