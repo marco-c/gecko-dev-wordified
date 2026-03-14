@@ -839,7 +839,8 @@ useful
 from
 pyasn1_modules
 import
-rfc2459
+rfc5280
+rfc8017
 class
 Error
 (
@@ -1661,13 +1662,13 @@ pyasn1
     
 accessMethod
 =
-rfc2459
+rfc5280
 .
 id_ad_ocsp
     
 accessLocation
 =
-rfc2459
+rfc5280
 .
 GeneralName
 (
@@ -1802,7 +1803,7 @@ string
     
 rdns
 =
-rfc2459
+rfc5280
 .
 RDNSequence
 (
@@ -1920,7 +1921,7 @@ split
         
 ava
 =
-rfc2459
+rfc5280
 .
 AttributeTypeAndValue
 (
@@ -1942,13 +1943,13 @@ type
 "
 ]
 =
-rfc2459
+rfc5280
 .
 id_at_countryName
             
 nameComponent
 =
-rfc2459
+rfc5280
 .
 X520countryName
 (
@@ -1971,13 +1972,13 @@ type
 "
 ]
 =
-rfc2459
+rfc5280
 .
 id_at_stateOrProvinceName
             
 nameComponent
 =
-rfc2459
+rfc5280
 .
 X520StateOrProvinceName
 (
@@ -1999,13 +2000,13 @@ type
 "
 ]
 =
-rfc2459
+rfc5280
 .
 id_at_localityName
             
 nameComponent
 =
-rfc2459
+rfc5280
 .
 X520LocalityName
 (
@@ -2027,13 +2028,13 @@ type
 "
 ]
 =
-rfc2459
+rfc5280
 .
 id_at_organizationName
             
 nameComponent
 =
-rfc2459
+rfc5280
 .
 X520OrganizationName
 (
@@ -2055,13 +2056,13 @@ type
 "
 ]
 =
-rfc2459
+rfc5280
 .
 id_at_organizationalUnitName
             
 nameComponent
 =
-rfc2459
+rfc5280
 .
 X520OrganizationalUnitName
 (
@@ -2083,13 +2084,13 @@ type
 "
 ]
 =
-rfc2459
+rfc5280
 .
 id_at_commonName
             
 nameComponent
 =
-rfc2459
+rfc5280
 .
 X520CommonName
 (
@@ -2111,15 +2112,15 @@ type
 "
 ]
 =
-rfc2459
+rfc5280
 .
-emailAddress
+id_emailAddress
             
 nameComponent
 =
-rfc2459
+rfc5280
 .
-Pkcs9email
+EmailAddress
 (
 value
 )
@@ -2235,7 +2236,7 @@ nameComponent
         
 rdn
 =
-rfc2459
+rfc5280
 .
 RelativeDistinguishedName
 (
@@ -2263,7 +2264,7 @@ tag
         
 name
 =
-rfc2459
+rfc5280
 .
 Name
 (
@@ -2281,7 +2282,7 @@ else
         
 name
 =
-rfc2459
+rfc5280
 .
 Name
 (
@@ -2342,7 +2343,7 @@ pykey
     
 algorithmIdentifier
 =
-rfc2459
+rfc5280
 .
 AlgorithmIdentifier
 (
@@ -2386,7 +2387,7 @@ HASH_SHA1
         
 algorithm
 =
-rfc2459
+rfc8017
 .
 sha1WithRSAEncryption
         
@@ -2453,7 +2454,7 @@ HASH_MD5
         
 algorithm
 =
-rfc2459
+rfc8017
 .
 md5WithRSAEncryption
         
@@ -2661,7 +2662,7 @@ object
 and
 returns
 an
-rfc2459
+rfc5280
 .
 Time
 object
@@ -2681,7 +2682,7 @@ GeneralizedTime
     
 time
 =
-rfc2459
+rfc5280
 .
 Time
 (
@@ -4388,7 +4389,7 @@ extensionValue
         
 extension
 =
-rfc2459
+rfc5280
 .
 Extension
 (
@@ -4498,7 +4499,7 @@ split
         
 basicConstraintsExtension
 =
-rfc2459
+rfc5280
 .
 BasicConstraints
 (
@@ -4568,7 +4569,7 @@ self
 addExtension
 (
             
-rfc2459
+rfc5280
 .
 id_ce_basicConstraints
 basicConstraintsExtension
@@ -4587,7 +4588,7 @@ critical
         
 keyUsageExtension
 =
-rfc2459
+rfc5280
 .
 KeyUsage
 (
@@ -4598,7 +4599,7 @@ self
 .
 addExtension
 (
-rfc2459
+rfc5280
 .
 id_ce_keyUsage
 keyUsageExtension
@@ -4623,7 +4624,7 @@ serverAuth
 :
             
 return
-rfc2459
+rfc5280
 .
 id_kp_serverAuth
         
@@ -4637,7 +4638,7 @@ clientAuth
 :
             
 return
-rfc2459
+rfc5280
 .
 id_kp_clientAuth
         
@@ -4651,7 +4652,7 @@ codeSigning
 :
             
 return
-rfc2459
+rfc5280
 .
 id_kp_codeSigning
         
@@ -4665,7 +4666,7 @@ emailProtection
 :
             
 return
-rfc2459
+rfc5280
 .
 id_kp_emailProtection
         
@@ -4745,7 +4746,7 @@ timeStamping
 :
             
 return
-rfc2459
+rfc5280
 .
 id_kp_timeStamping
         
@@ -4795,7 +4796,7 @@ critical
         
 extKeyUsageExtension
 =
-rfc2459
+rfc5280
 .
 ExtKeyUsageSyntax
 (
@@ -4836,7 +4837,7 @@ self
 .
 addExtension
 (
-rfc2459
+rfc5280
 .
 id_ce_extKeyUsage
 extKeyUsageExtension
@@ -4861,7 +4862,7 @@ ip4
         
 subjectAlternativeName
 =
-rfc2459
+rfc5280
 .
 SubjectAltName
 (
@@ -4885,7 +4886,7 @@ split
             
 generalName
 =
-rfc2459
+rfc5280
 .
 GeneralName
 (
@@ -5069,7 +5070,7 @@ self
 addExtension
 (
             
-rfc2459
+rfc5280
 .
 id_ce_subjectAltName
 subjectAlternativeName
@@ -5113,7 +5114,7 @@ self
 .
 addExtension
 (
-rfc2459
+rfc5280
 .
 id_pe_authorityInfoAccess
 sequence
@@ -5131,7 +5132,7 @@ critical
         
 policies
 =
-rfc2459
+rfc5280
 .
 CertificatePolicies
 (
@@ -5182,7 +5183,7 @@ policyOIDMapped
             
 policy
 =
-rfc2459
+rfc5280
 .
 PolicyInformation
 (
@@ -5190,7 +5191,7 @@ PolicyInformation
             
 policyIdentifier
 =
-rfc2459
+rfc5280
 .
 CertPolicyId
 (
@@ -5218,7 +5219,7 @@ self
 .
 addExtension
 (
-rfc2459
+rfc5280
 .
 id_ce_certificatePolicies
 policies
@@ -5236,7 +5237,7 @@ critical
         
 nameConstraints
 =
-rfc2459
+rfc5280
 .
 NameConstraints
 (
@@ -5301,7 +5302,7 @@ constraints
         
 generalSubtrees
 =
-rfc2459
+rfc5280
 .
 GeneralSubtrees
 (
@@ -5366,7 +5367,7 @@ split
             
 generalName
 =
-rfc2459
+rfc5280
 .
 GeneralName
 (
@@ -5424,7 +5425,7 @@ name
             
 generalSubtree
 =
-rfc2459
+rfc5280
 .
 GeneralSubtree
 (
@@ -5458,7 +5459,7 @@ self
 .
 addExtension
 (
-rfc2459
+rfc5280
 .
 id_ce_nameConstraints
 nameConstraints
@@ -6189,7 +6190,7 @@ self
 :
         
 return
-rfc2459
+rfc5280
 .
 Version
 (
@@ -6262,7 +6263,7 @@ self
         
 validity
 =
-rfc2459
+rfc5280
 .
 Validity
 (
@@ -6363,7 +6364,7 @@ signature
         
 tbsCertificate
 =
-rfc2459
+rfc5280
 .
 TBSCertificate
 (
@@ -6470,7 +6471,7 @@ extensions
             
 extensions
 =
-rfc2459
+rfc5280
 .
 Extensions
 (
@@ -6549,7 +6550,7 @@ signature
         
 certificate
 =
-rfc2459
+rfc5280
 .
 Certificate
 (
@@ -6593,7 +6594,7 @@ tbsCertificate
 certificate
 [
 "
-signatureValue
+signature
 "
 ]
 =
