@@ -119,6 +119,11 @@ TestSmartCrashTrimmer
 .
 cpp
 "
+"
+TestWAICTManifestValidation
+.
+cpp
+"
 ]
 if
 CONFIG
