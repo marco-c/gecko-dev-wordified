@@ -1268,6 +1268,15 @@ aCandidateInfo
 )
 ;
 void
+OnCandidateError
+(
+const
+IceCandidateErrorInfo
+&
+aErrorInfo
+)
+;
+void
 UpdateDefaultCandidate
 (
 const
@@ -5474,6 +5483,9 @@ mConnectionStateChangeListener
 ;
 MediaEventListener
 mCandidateListener
+;
+MediaEventListener
+mCandidateErrorListener
 ;
 MediaEventListener
 mAlpnNegotiatedListener
