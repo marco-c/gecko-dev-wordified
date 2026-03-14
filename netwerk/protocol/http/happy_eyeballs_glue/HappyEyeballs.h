@@ -128,6 +128,11 @@ AltSvc
 >
 *
 aAltSvc
+happy_eyeballs
+:
+:
+IpPreference
+aPref
 )
 {
 return
@@ -147,6 +152,7 @@ aHappyEyeballs
 aOrigin
 aPort
 aAltSvc
+aPref
 )
 ;
 }

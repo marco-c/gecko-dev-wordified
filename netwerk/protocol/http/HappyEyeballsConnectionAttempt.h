@@ -369,6 +369,14 @@ HappyEyeballsConnectionAttempt
 )
 ;
 nsresult
+CreateHappyEyeballs
+(
+ConnectionEntry
+*
+ent
+)
+;
+nsresult
 ProcessConnectionResult
 (
 const
@@ -617,6 +625,12 @@ RefPtr
 HttpConnectionBase
 >
 mOutputConn
+;
+uint16_t
+mAddrFamily
+{
+0
+}
 ;
 nsCOMPtr
 <
