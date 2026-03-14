@@ -1924,6 +1924,11 @@ hack
 no_dispatch_after_compositionend
 "
 "
+www
+.
+icloud
+.
+com
 "
 )
 ;
