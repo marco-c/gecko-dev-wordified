@@ -3064,6 +3064,7 @@ usize
 /
 /
 pub
+const
 fn
 all
 (
