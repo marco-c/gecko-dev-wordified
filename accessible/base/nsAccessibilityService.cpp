@@ -7189,10 +7189,10 @@ GetAccessible
 (
 aSelect
 )
-)
-{
-MOZ_ASSERT
-(
+;
+accessible
+&
+&
 accessible
 -
 >
@@ -7200,7 +7200,7 @@ IsCombobox
 (
 )
 )
-;
+{
 document
 -
 >
