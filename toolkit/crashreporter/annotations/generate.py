@@ -1212,18 +1212,6 @@ ping
 "
 )
     
-pingonlyallowedlist
-=
-extract_crash_scope_list
-(
-annotations
-"
-ping
--
-only
-"
-)
-    
 reportallowedlist
 =
 extract_crash_scope_list
@@ -1276,17 +1264,6 @@ pingallowedlist
 generate_annotations_array_initializer
 (
 pingallowedlist
-)
-        
-"
-pingonlyallowedlist
-"
-:
-generate_annotations_array_initializer
-(
-            
-pingonlyallowedlist
-        
 )
         
 "
