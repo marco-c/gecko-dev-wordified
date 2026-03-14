@@ -1066,7 +1066,6 @@ DeliverFrameRunnable
 ;
 class
 CamerasParent
-final
 :
 public
 PCamerasParent
@@ -1580,6 +1579,7 @@ to
 the
 PBackground
 thread
+virtual
 int
 DeliverFrameOverIPC
 (
@@ -1620,7 +1620,7 @@ CamerasParent
 (
 )
 ;
-private
+protected
 :
 virtual
 ~
@@ -1628,6 +1628,8 @@ CamerasParent
 (
 )
 ;
+private
+:
 struct
 GetOrCreateCapturerResult
 {
