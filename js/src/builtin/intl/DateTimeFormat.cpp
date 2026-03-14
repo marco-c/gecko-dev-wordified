@@ -9710,7 +9710,13 @@ formatOptions
 .
 second
 =
+std
+:
+:
+move
+(
 numericOption
+)
 ;
 }
 /
@@ -11354,7 +11360,13 @@ timeZoneOffset
 {
 timeZoneOffset_
 =
+std
+:
+:
+move
+(
 timeZoneOffset
+)
 ;
 return
 true

@@ -1658,7 +1658,13 @@ isPublic
 {
 firstUsePos_
 =
+std
+:
+:
+move
+(
 p
+)
 ;
 }
 }
