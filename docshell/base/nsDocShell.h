@@ -407,7 +407,7 @@ NavigationHistoryBehavior
 uint8_t
 ;
 struct
-NavigationAPIMethodTracker
+NavigationTracker
 ;
 class
 SessionHistoryInfo
@@ -8384,9 +8384,9 @@ mozilla
 dom
 :
 :
-NavigationAPIMethodTracker
+NavigationTracker
 *
-aNavigationAPIMethodTracker
+aNavigationTracker
 =
 nullptr
 )
