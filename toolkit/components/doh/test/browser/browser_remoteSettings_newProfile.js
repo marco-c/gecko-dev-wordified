@@ -60,9 +60,11 @@ waitForConfigFlush
 (
 )
 ;
-Preferences
+Services
 .
-set
+prefs
+.
+setBoolPref
 (
 pref
 value
@@ -88,9 +90,11 @@ waitForConfigFlush
 (
 )
 ;
-Preferences
+Services
 .
-reset
+prefs
+.
+clearUserPref
 (
 pref
 )

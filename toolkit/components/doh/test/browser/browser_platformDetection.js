@@ -237,9 +237,11 @@ prefs
 BREADCRUMB_PREF
 )
 ;
-Preferences
+Services
 .
-set
+prefs
+.
+setBoolPref
 (
 prefs
 .
@@ -252,9 +254,11 @@ prefPromise
 ;
 is
 (
-Preferences
+Services
 .
-get
+prefs
+.
+getBoolPref
 (
 prefs
 .
