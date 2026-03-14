@@ -3666,6 +3666,10 @@ in
 {
             
 "
+BorderSideWidth
+"
+            
+"
 BorderSpacing
 "
             
