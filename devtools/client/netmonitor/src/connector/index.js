@@ -267,6 +267,12 @@ backend
 class
 Connector
 {
+#
+destroyed
+;
+#
+harMetadataCollector
+;
 constructor
 (
 )
@@ -715,7 +721,8 @@ owner
 ;
 this
 .
-_harMetadataCollector
+#
+harMetadataCollector
 =
 new
 HarMetadataCollector
@@ -728,7 +735,8 @@ commands
 await
 this
 .
-_harMetadataCollector
+#
+harMetadataCollector
 .
 connect
 (
@@ -851,7 +859,8 @@ if
 (
 this
 .
-_destroyed
+#
+destroyed
 )
 {
 return
@@ -859,7 +868,8 @@ return
 }
 this
 .
-_destroyed
+#
+destroyed
 =
 true
 ;
@@ -935,7 +945,8 @@ null
 ;
 this
 .
-_harMetadataCollector
+#
+harMetadataCollector
 .
 destroy
 (
@@ -1026,7 +1037,8 @@ clear
 ;
 this
 .
-_harMetadataCollector
+#
+harMetadataCollector
 .
 clear
 (
@@ -2705,7 +2717,8 @@ getHarData
 return
 this
 .
-_harMetadataCollector
+#
+harMetadataCollector
 .
 getHarData
 (
