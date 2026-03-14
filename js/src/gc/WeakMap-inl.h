@@ -1799,9 +1799,8 @@ ifdef
 DEBUG
 MOZ_ASSERT
 (
-IsMarked
+isMarked
 (
-mapColor
 )
 )
 ;
@@ -3092,11 +3091,8 @@ mode
 .
 MOZ_ASSERT
 (
-IsMarked
+isMarked
 (
-mapColor
-(
-)
 )
 )
 ;

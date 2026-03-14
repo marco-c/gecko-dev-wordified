@@ -17978,14 +17978,11 @@ map
 {
 if
 (
-IsMarked
-(
 map
 -
 >
-mapColor
+isMarked
 (
-)
 )
 )
 {
