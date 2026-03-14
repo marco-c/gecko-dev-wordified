@@ -688,7 +688,7 @@ Some
 std
 :
 :
-make_pair
+make_tuple
 (
 "
 MXN
@@ -700,6 +700,13 @@ CurrencyDisplay
 :
 :
 Symbol
+NumberFormatOptions
+:
+:
+CurrencySign
+:
+:
+Standard
 )
 )
 ;
