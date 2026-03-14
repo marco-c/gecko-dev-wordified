@@ -3918,6 +3918,17 @@ nsString
 const
 override
 ;
+bool
+IsImportMapSupported
+(
+)
+const
+override
+{
+return
+true
+;
+}
 void
 ReportPreloadErrorsToConsole
 (
