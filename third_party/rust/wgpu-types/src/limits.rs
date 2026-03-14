@@ -1791,7 +1791,7 @@ better
 pub
 max_uniform_buffer_binding_size
 :
-u32
+u64
 /
 /
 /
@@ -1821,7 +1821,7 @@ better
 pub
 max_storage_buffer_binding_size
 :
-u32
+u64
 /
 /
 /

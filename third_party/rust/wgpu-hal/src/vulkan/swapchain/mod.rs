@@ -486,9 +486,12 @@ indefinitely
 /
 /
 Returns
-Ok
+Err
 (
-None
+SurfaceError
+:
+:
+Timeout
 )
 if
 the
@@ -525,8 +528,6 @@ Fence
 >
 Result
 <
-Option
-<
 crate
 :
 :
@@ -539,7 +540,6 @@ api
 :
 :
 Vulkan
->
 >
 crate
 :

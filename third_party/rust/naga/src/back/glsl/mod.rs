@@ -1658,6 +1658,16 @@ self
 >
 bool
 {
+/
+/
+std430
+is
+available
+from
+400
+via
+GL_ARB_shader_storage_buffer_object
+.
 *
 self
 >
@@ -1667,7 +1677,7 @@ Version
 :
 Desktop
 (
-430
+400
 )
 |
 |
