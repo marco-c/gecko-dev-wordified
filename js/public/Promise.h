@@ -4546,10 +4546,8 @@ JS_PUBLIC_API
 PromiseUserInputEventHandlingState
 GetPromiseUserInputEventHandlingState
 (
-JS
-:
-:
-HandleObject
+JSObject
+*
 promise
 )
 ;
