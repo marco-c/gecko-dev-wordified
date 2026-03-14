@@ -2785,14 +2785,6 @@ GetBounceTrackingState
 (
 )
 ;
-already_AddRefed
-<
-nsIScopedPrefs
->
-GetScopedPrefs
-(
-)
-;
 bool
 CanOpenModalPicker
 (
