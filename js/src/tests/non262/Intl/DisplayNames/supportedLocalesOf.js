@@ -597,7 +597,7 @@ supported
 =
 Intl
 .
-NumberFormat
+DisplayNames
 .
 supportedLocalesOf
 (
@@ -615,7 +615,7 @@ supported
 by
 Intl
 .
-NumberFormat
+DisplayNames
 except
 /
 /
