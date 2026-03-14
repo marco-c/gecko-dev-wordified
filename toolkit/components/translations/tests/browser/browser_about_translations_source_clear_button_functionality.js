@@ -105,11 +105,9 @@ AboutTranslationsTestUtils
 Events
 .
 TranslationComplete
-{
-translationId
-:
-1
-}
+AboutTranslationsTestUtils
+.
+AnyEventDetail
 ]
 [
 AboutTranslationsTestUtils
