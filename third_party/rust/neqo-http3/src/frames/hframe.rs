@@ -121,6 +121,10 @@ crate
 :
 :
 {
+Error
+Priority
+PushId
+Res
 frames
 :
 :
@@ -132,10 +136,6 @@ settings
 :
 :
 HSettings
-Error
-Priority
-PushId
-Res
 }
 ;
 #

@@ -119,6 +119,13 @@ crate
 :
 :
 {
+CloseType
+Error
+Http3StreamType
+ReceiveOutput
+RecvStream
+Res
+Stream
 frames
 :
 :
@@ -127,13 +134,6 @@ FrameReader
 HFrame
 StreamReaderConnectionWrapper
 }
-CloseType
-Error
-Http3StreamType
-ReceiveOutput
-RecvStream
-Res
-Stream
 }
 ;
 /

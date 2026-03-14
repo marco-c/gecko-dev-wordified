@@ -167,6 +167,11 @@ crate
 :
 :
 {
+Http3StreamInfo
+HttpRecvStreamEvents
+RecvStreamEvents
+Res
+SendStreamEvents
 client_events
 :
 :
@@ -175,6 +180,7 @@ features
 :
 :
 {
+NegotiationState
 extended_connect
 :
 :
@@ -185,7 +191,6 @@ session
 CloseReason
 Protocol
 }
-NegotiationState
 }
 settings
 :
@@ -194,11 +199,6 @@ settings
 HSettingType
 HSettings
 }
-Http3StreamInfo
-HttpRecvStreamEvents
-RecvStreamEvents
-Res
-SendStreamEvents
 }
 ;
 pub

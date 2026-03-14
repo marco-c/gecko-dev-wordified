@@ -85,6 +85,7 @@ neqo_crypto
 :
 :
 {
+SymKey
 constants
 :
 :
@@ -96,7 +97,6 @@ TLS_CHACHA20_POLY1305_SHA256
 TLS_VERSION_1_3
 }
 hkdf
-SymKey
 }
 ;
 use

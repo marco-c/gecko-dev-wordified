@@ -108,6 +108,9 @@ neqo_common
 :
 :
 {
+Header
+MessageType
+Role
 event
 :
 :
@@ -117,9 +120,6 @@ _
 qdebug
 qinfo
 qtrace
-Header
-MessageType
-Role
 }
 ;
 use
@@ -140,6 +140,14 @@ crate
 :
 :
 {
+Error
+Http3Parameters
+Http3StreamType
+NewStreamType
+Priority
+PriorityHandler
+ReceiveOutput
+Res
 connection
 :
 :
@@ -170,14 +178,6 @@ server_connection_events
 Http3ServerConnEvent
 Http3ServerConnEvents
 }
-Error
-Http3Parameters
-Http3StreamType
-NewStreamType
-Priority
-PriorityHandler
-ReceiveOutput
-Res
 }
 ;
 #
@@ -1492,6 +1492,9 @@ u8
 id
 :
 I
+now
+:
+Instant
 )
 -
 >
@@ -1517,6 +1520,7 @@ session_id
 conn
 buf
 id
+now
 )
 }
 pub
@@ -1551,6 +1555,9 @@ u8
 id
 :
 I
+now
+:
+Instant
 )
 -
 >
@@ -1576,6 +1583,7 @@ session_id
 conn
 buf
 id
+now
 )
 }
 /
@@ -2894,6 +2902,7 @@ Error
 :
 HttpId
 )
+;
 }
 self
 .
@@ -3099,8 +3108,8 @@ e
 =
 &
 res
-{
-if
+&
+&
 e
 .
 connection_error
@@ -3116,7 +3125,6 @@ now
 e
 )
 ;
-}
 }
 res
 }

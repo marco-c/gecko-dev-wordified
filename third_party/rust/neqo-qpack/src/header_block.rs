@@ -110,8 +110,8 @@ neqo_common
 :
 :
 {
-qtrace
 Header
+qtrace
 }
 ;
 use
@@ -119,6 +119,8 @@ crate
 :
 :
 {
+Error
+Res
 prefix
 :
 :
@@ -144,15 +146,13 @@ reader
 :
 :
 {
-parse_utf8
 ReceiverBufferWrapper
+parse_utf8
 }
 table
 :
 :
 HeaderTable
-Error
-Res
 }
 ;
 #

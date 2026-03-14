@@ -118,6 +118,8 @@ events
 :
 :
 {
+EventData
+RawInfo
 qpack
 :
 :
@@ -126,8 +128,6 @@ QPackInstruction
 QpackInstructionParsed
 QpackInstructionTypeName
 }
-EventData
-RawInfo
 }
 ;
 pub

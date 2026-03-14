@@ -833,6 +833,7 @@ mach_timebase_info_data_t
 =
 mach_timebase_info
 ;
+unsafe
 extern
 "
 C
@@ -968,6 +969,7 @@ work
 as
 declared
 .
+unsafe
 extern
 "
 C
@@ -1046,6 +1048,7 @@ pthread_t
 =
 __darwin_pthread_t
 ;
+unsafe
 extern
 "
 C

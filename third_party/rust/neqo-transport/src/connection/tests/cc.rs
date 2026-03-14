@@ -94,10 +94,10 @@ neqo_common
 :
 :
 {
-qdebug
-qinfo
 Datagram
 Ecn
+qdebug
+qinfo
 }
 ;
 use
@@ -109,6 +109,9 @@ super
 :
 :
 Output
+CLIENT_HANDSHAKE_1RTT_PACKETS
+DEFAULT_RTT
+POST_HANDSHAKE_CWND
 ack_bytes
 assert_full_cwnd
 connect_rtt_idle
@@ -120,9 +123,6 @@ default_server
 fill_cwnd
 induce_persistent_congestion
 send_something
-CLIENT_HANDSHAKE_1RTT_PACKETS
-DEFAULT_RTT
-POST_HANDSHAKE_CWND
 }
 ;
 use
@@ -130,6 +130,8 @@ crate
 :
 :
 {
+CongestionControlAlgorithm
+ConnectionParameters
 connection
 :
 :
@@ -158,8 +160,6 @@ stream_id
 :
 :
 StreamType
-CongestionControlAlgorithm
-ConnectionParameters
 }
 ;
 #

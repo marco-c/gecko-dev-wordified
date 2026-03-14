@@ -122,9 +122,9 @@ criterion
 :
 :
 {
+Criterion
 criterion_group
 criterion_main
-Criterion
 }
 ;
 use

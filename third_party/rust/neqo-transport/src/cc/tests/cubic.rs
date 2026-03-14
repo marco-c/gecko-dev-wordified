@@ -146,6 +146,10 @@ cc
 :
 :
 {
+CongestionControl
+as
+_
+CongestionEvent
 classic_cc
 :
 :
@@ -154,13 +158,9 @@ cubic
 :
 :
 {
-convert_to_f64
 Cubic
+convert_to_f64
 }
-CongestionControl
-as
-_
-CongestionEvent
 }
 pmtud
 :

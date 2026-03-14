@@ -257,6 +257,9 @@ crate
 :
 :
 {
+Decoder
+Error
+Res
 reader
 :
 :
@@ -264,9 +267,6 @@ reader
 ReadByte
 Reader
 }
-Decoder
-Error
-Res
 }
 ;
 /

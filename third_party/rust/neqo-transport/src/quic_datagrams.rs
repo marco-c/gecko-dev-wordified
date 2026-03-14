@@ -123,9 +123,9 @@ neqo_common
 :
 :
 {
-qdebug
 Buffer
 Encoder
+qdebug
 }
 ;
 use
@@ -133,6 +133,10 @@ crate
 :
 :
 {
+ConnectionEvents
+Error
+Res
+Stats
 events
 :
 :
@@ -148,10 +152,6 @@ FrameType
 }
 packet
 recovery
-ConnectionEvents
-Error
-Res
-Stats
 }
 ;
 /

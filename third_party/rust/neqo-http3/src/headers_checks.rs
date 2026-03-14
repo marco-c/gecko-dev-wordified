@@ -85,9 +85,9 @@ enumset
 :
 :
 {
-enum_set
 EnumSet
 EnumSetType
+enum_set
 }
 ;
 use
@@ -95,13 +95,13 @@ neqo_common
 :
 :
 {
+Header
 header
 :
 :
 HeadersExt
 as
 _
-Header
 }
 ;
 use

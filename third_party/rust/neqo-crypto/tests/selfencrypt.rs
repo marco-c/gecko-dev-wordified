@@ -110,6 +110,7 @@ neqo_crypto
 :
 :
 {
+Error
 constants
 :
 :
@@ -122,7 +123,6 @@ selfencrypt
 :
 :
 SelfEncrypt
-Error
 }
 ;
 #

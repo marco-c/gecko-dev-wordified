@@ -82,7 +82,7 @@ terms
 .
 pub
 mod
-connect_udp_frame
+capsule
 ;
 pub
 mod
@@ -95,15 +95,6 @@ reader
 pub
 mod
 wtframe
-;
-pub
-use
-connect_udp_frame
-:
-:
-Frame
-as
-ConnectUdpFrame
 ;
 #
 [

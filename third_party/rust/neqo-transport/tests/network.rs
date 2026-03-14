@@ -116,6 +116,7 @@ sim
 :
 :
 {
+Simulator
 connection
 :
 :
@@ -133,7 +134,6 @@ Drop
 RandomDelay
 TailDrop
 }
-Simulator
 }
 simulate
 }

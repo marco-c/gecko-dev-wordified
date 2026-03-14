@@ -138,8 +138,8 @@ p11
 :
 :
 {
-PK11SymKey
 PK11_ReferenceSymKey
+PK11SymKey
 SymKey
 }
 ssl
@@ -570,6 +570,9 @@ Some
 secrets
 )
 =
+(
+unsafe
+{
 arg
 .
 cast
@@ -583,6 +586,8 @@ Self
 .
 as_mut
 (
+)
+}
 )
 else
 {

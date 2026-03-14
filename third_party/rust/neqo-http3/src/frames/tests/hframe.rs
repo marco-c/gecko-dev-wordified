@@ -112,6 +112,8 @@ crate
 :
 :
 {
+Priority
+PushId
 frames
 :
 :
@@ -124,8 +126,6 @@ HSetting
 HSettingType
 HSettings
 }
-Priority
-PushId
 }
 ;
 #

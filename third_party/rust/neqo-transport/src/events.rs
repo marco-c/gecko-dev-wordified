@@ -136,6 +136,8 @@ crate
 :
 :
 {
+AppError
+Stats
 connection
 :
 :
@@ -151,8 +153,6 @@ stream_id
 StreamId
 StreamType
 }
-AppError
-Stats
 }
 ;
 #

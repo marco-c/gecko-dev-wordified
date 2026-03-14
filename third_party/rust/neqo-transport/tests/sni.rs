@@ -91,11 +91,11 @@ test_fixture
 :
 :
 {
+CountingConnectionIdGenerator
 default_client
 default_server
 new_client
 now
-CountingConnectionIdGenerator
 }
 ;
 #

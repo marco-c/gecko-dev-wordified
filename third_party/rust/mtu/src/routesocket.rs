@@ -125,11 +125,11 @@ libc
 :
 :
 {
+SOCK_RAW
 fsync
 read
 socket
 write
-SOCK_RAW
 }
 ;
 use

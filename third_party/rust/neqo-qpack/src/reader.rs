@@ -112,13 +112,13 @@ crate
 :
 :
 {
+Error
+Res
 huffman
 prefix
 :
 :
 Prefix
-Error
-Res
 }
 ;
 pub
@@ -2983,8 +2983,6 @@ super
 :
 :
 {
-huffman
-test_receiver
 Error
 IntReader
 LiteralReader
@@ -2993,6 +2991,8 @@ as
 _
 ReceiverBufferWrapper
 Res
+huffman
+test_receiver
 }
 ;
 use

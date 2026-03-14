@@ -117,12 +117,12 @@ neqo_common
 :
 :
 {
-qinfo
-qtrace
 Buffer
 Decoder
 Encoder
 Role
+qinfo
+qtrace
 }
 ;
 use
@@ -160,6 +160,7 @@ crate
 :
 :
 {
+Res
 cid
 :
 :
@@ -179,7 +180,6 @@ stats
 :
 :
 FrameStats
-Res
 }
 ;
 /
@@ -1443,7 +1443,7 @@ None
 ;
 }
 }
-_
+None
 =
 >
 return
@@ -1858,13 +1858,7 @@ readable
 "
 )
 ]
-if
-let
-Some
-(
-cid
-)
-=
+match
 self
 .
 decrypt_token
@@ -1874,6 +1868,13 @@ peer_address
 retry
 now
 )
+{
+Some
+(
+cid
+)
+=
+>
 {
 if
 retry
@@ -2039,7 +2040,9 @@ cid
 ;
 }
 }
-else
+None
+=
+>
 {
 /
 /
@@ -2199,6 +2202,7 @@ AddressValidationResult
 :
 :
 Validate
+}
 }
 }
 }
@@ -2476,11 +2480,7 @@ Self
 :
 Client
 {
-ref
-mut
 pending
-ref
-mut
 old
 }
 =
@@ -2593,8 +2593,6 @@ Self
 :
 Client
 {
-ref
-mut
 pending
 old
 }
@@ -2753,8 +2751,6 @@ Self
 :
 Server
 (
-ref
-mut
 sender
 )
 =
@@ -2816,8 +2812,6 @@ Self
 :
 Server
 (
-ref
-mut
 sender
 )
 =
@@ -2885,8 +2879,6 @@ Self
 :
 Server
 (
-ref
-mut
 sender
 )
 =
@@ -2952,8 +2944,6 @@ Self
 :
 Server
 (
-ref
-mut
 sender
 )
 =

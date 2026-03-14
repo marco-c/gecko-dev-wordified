@@ -117,12 +117,12 @@ neqo_common
 :
 :
 {
+Buffer
 qlog
 :
 :
 Qlog
 qtrace
-Buffer
 }
 ;
 use

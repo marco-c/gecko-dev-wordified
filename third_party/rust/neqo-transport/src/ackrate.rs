@@ -111,8 +111,8 @@ neqo_common
 :
 :
 {
-qtrace
 Buffer
+qtrace
 }
 ;
 use

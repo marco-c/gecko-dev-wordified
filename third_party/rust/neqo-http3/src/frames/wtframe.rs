@@ -103,6 +103,8 @@ crate
 :
 :
 {
+Error
+Res
 frames
 :
 :
@@ -110,8 +112,6 @@ reader
 :
 :
 FrameDecoder
-Error
-Res
 }
 ;
 pub

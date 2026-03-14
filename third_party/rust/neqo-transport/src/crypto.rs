@@ -130,14 +130,14 @@ neqo_common
 :
 :
 {
+Buffer
+Encoder
+Role
 hex
 hex_snip_middle
 qdebug
 qinfo
 qtrace
-Buffer
-Encoder
-Role
 }
 ;
 pub
@@ -152,9 +152,6 @@ neqo_crypto
 :
 :
 {
-hkdf
-hp
-random
 Aead
 AeadTrait
 as
@@ -172,7 +169,6 @@ Record
 RecordList
 ResumptionToken
 SymKey
-ZeroRttChecker
 TLS_AES_128_GCM_SHA256
 TLS_AES_256_GCM_SHA384
 TLS_CHACHA20_POLY1305_SHA256
@@ -183,6 +179,10 @@ TLS_GRP_EC_SECP521R1
 TLS_GRP_EC_X25519
 TLS_GRP_KEM_MLKEM768X25519
 TLS_VERSION_1_3
+ZeroRttChecker
+hkdf
+hp
+random
 }
 ;
 use
@@ -190,6 +190,9 @@ crate
 :
 :
 {
+ConnectionParameters
+Error
+Res
 cid
 :
 :
@@ -242,9 +245,6 @@ version
 :
 :
 Version
-ConnectionParameters
-Error
-Res
 }
 ;
 /
@@ -8617,8 +8617,8 @@ z
 self
 .
 zero_rtt
-{
-if
+&
+&
 z
 .
 direction
@@ -8639,7 +8639,6 @@ z
 )
 ?
 ;
-}
 }
 self
 .
@@ -9303,8 +9302,8 @@ app_write
 as_ref
 (
 )
-{
-if
+&
+&
 app_write
 .
 dx
@@ -9349,7 +9348,6 @@ KeysExhausted
 ;
 }
 }
-}
 Ok
 (
 (
@@ -9374,7 +9372,7 @@ as_ref
 (
 )
 .
-filter
+is_some_and
 (
 |
 z
@@ -9388,10 +9386,6 @@ CryptoDxDirection
 :
 :
 Read
-)
-.
-is_some
-(
 )
 }
 /
@@ -11290,8 +11284,8 @@ PacketNumberSpace
 :
 :
 ApplicationData
-{
-if
+&
+&
 let
 Some
 (
@@ -11313,7 +11307,6 @@ unmark_sent
 (
 )
 ;
-}
 }
 }
 pub

@@ -94,6 +94,7 @@ crate
 :
 :
 {
+Res
 frames
 :
 :
@@ -101,7 +102,6 @@ reader
 :
 :
 FrameDecoder
-Res
 }
 ;
 #

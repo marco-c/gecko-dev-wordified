@@ -223,6 +223,8 @@ err
 Error
 >
 {
+unsafe
+{
 struct
 ExperimentalAPI
 (
@@ -449,6 +451,7 @@ secstatus_to_res
 (
 rv
 )
+}
 }
 }
 ;

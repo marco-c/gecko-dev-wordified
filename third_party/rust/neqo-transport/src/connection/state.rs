@@ -113,6 +113,8 @@ crate
 :
 :
 {
+CloseReason
+Error
 frame
 :
 :
@@ -128,8 +130,6 @@ path
 :
 PathRef
 recovery
-CloseReason
-Error
 }
 ;
 #

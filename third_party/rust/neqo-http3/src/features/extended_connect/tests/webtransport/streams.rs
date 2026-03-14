@@ -91,6 +91,7 @@ crate
 :
 :
 {
+Error
 features
 :
 :
@@ -98,6 +99,7 @@ extended_connect
 :
 :
 {
+CloseReason
 tests
 :
 :
@@ -105,9 +107,7 @@ webtransport
 :
 :
 WtTest
-CloseReason
 }
-Error
 }
 ;
 #

@@ -113,6 +113,10 @@ neqo_crypto
 :
 :
 {
+Aead
+AeadTrait
+as
+_
 constants
 :
 :
@@ -122,10 +126,6 @@ TLS_AES_128_GCM_SHA256
 TLS_VERSION_1_3
 }
 hkdf
-Aead
-AeadTrait
-as
-_
 }
 ;
 use

@@ -91,10 +91,10 @@ neqo_common
 :
 :
 {
+Encoder
 hex
 qinfo
 qtrace
-Encoder
 }
 ;
 use
@@ -102,6 +102,7 @@ crate
 :
 :
 {
+Aead
 aead
 :
 :
@@ -127,10 +128,9 @@ p11
 :
 :
 {
-random
 SymKey
+random
 }
-Aead
 }
 ;
 #

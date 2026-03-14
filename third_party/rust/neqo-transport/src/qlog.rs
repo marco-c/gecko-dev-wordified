@@ -117,14 +117,14 @@ neqo_common
 :
 :
 {
+Decoder
+Ecn
 hex
 qinfo
 qlog
 :
 :
 Qlog
-Decoder
-Ecn
 }
 ;
 use
@@ -135,6 +135,8 @@ events
 :
 :
 {
+EventData
+RawInfo
 connectivity
 :
 :
@@ -159,8 +161,6 @@ QuicFrame
 StreamType
 VersionInformation
 }
-EventData
-RawInfo
 }
 ;
 use

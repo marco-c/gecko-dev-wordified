@@ -1206,11 +1206,11 @@ err
 :
 {
 self
+Error
+PR_SetError
+PRErrorCode
 is_blocked
 secstatus_to_res
-Error
-PRErrorCode
-PR_SetError
 }
 ssl
 :

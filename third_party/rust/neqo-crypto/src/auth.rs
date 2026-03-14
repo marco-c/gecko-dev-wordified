@@ -94,10 +94,10 @@ err
 :
 :
 {
+PRErrorCode
 mozpkix
 sec
 ssl
-PRErrorCode
 }
 ;
 /

@@ -1227,6 +1227,8 @@ as
 const
 PRTime
 ;
+unsafe
+{
 *
 p
 .
@@ -1237,6 +1239,7 @@ as_ref
 unwrap
 (
 )
+}
 }
 pub
 fn
@@ -1391,12 +1394,12 @@ super
 :
 :
 {
-get_base
-init
 Interval
 PRTime
 Time
 TimeZero
+get_base
+init
 }
 ;
 use

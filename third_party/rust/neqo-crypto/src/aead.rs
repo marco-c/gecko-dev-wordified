@@ -122,12 +122,12 @@ err
 :
 :
 {
+Error
+Res
 sec
 :
 :
 SEC_ERROR_BAD_DATA
-Error
-Res
 }
 experimental_api
 p11
@@ -142,9 +142,9 @@ ssl
 :
 :
 {
+PRUint8
 PRUint16
 PRUint64
-PRUint8
 SSLAeadContext
 }
 }
@@ -766,6 +766,8 @@ null_mut
 (
 )
 ;
+unsafe
+{
 SSL_MakeAead
 (
 version
@@ -799,6 +801,7 @@ ctx
 )
 ?
 ;
+}
 Ok
 (
 Self

@@ -110,6 +110,9 @@ crate
 :
 :
 {
+CongestionControlAlgorithm
+DEFAULT_INITIAL_RTT
+Res
 connection
 :
 :
@@ -162,9 +165,6 @@ version
 self
 Version
 }
-CongestionControlAlgorithm
-Res
-DEFAULT_INITIAL_RTT
 }
 ;
 /
@@ -3521,8 +3521,8 @@ preferred
 self
 .
 preferred_address
-{
-if
+&
+&
 role
 =
 =
@@ -3580,7 +3580,6 @@ srt
 }
 )
 ;
-}
 }
 tps
 .

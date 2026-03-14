@@ -106,12 +106,12 @@ err
 :
 :
 {
+Error
+Res
 sec
 :
 :
 SEC_ERROR_BAD_DATA
-Error
-Res
 }
 p11
 :

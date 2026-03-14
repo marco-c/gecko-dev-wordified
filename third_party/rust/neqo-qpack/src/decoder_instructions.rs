@@ -116,6 +116,7 @@ crate
 :
 :
 {
+Res
 prefix
 :
 :
@@ -135,7 +136,6 @@ reader
 IntReader
 ReadByte
 }
-Res
 }
 ;
 #
@@ -829,6 +829,7 @@ crate
 :
 :
 {
+Error
 reader
 :
 :
@@ -836,7 +837,6 @@ test_receiver
 :
 :
 TestReceiver
-Error
 }
 ;
 fn
