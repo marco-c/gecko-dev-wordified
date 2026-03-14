@@ -407,7 +407,7 @@ NavigationHistoryBehavior
 uint8_t
 ;
 struct
-NavigationTracker
+NavigationAPIMethodTracker
 ;
 class
 SessionHistoryInfo
@@ -8206,7 +8206,6 @@ equal
 .
 *
 /
-MOZ_CAN_RUN_SCRIPT
 nsresult
 UpdateURLAndHistory
 (
@@ -8385,9 +8384,9 @@ mozilla
 dom
 :
 :
-NavigationTracker
+NavigationAPIMethodTracker
 *
-aNavigationTracker
+aNavigationAPIMethodTracker
 =
 nullptr
 )
