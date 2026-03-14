@@ -603,6 +603,13 @@ is_null
 }
 else
 {
+/
+/
+SAFETY
+:
+See
+above
+.
 unsafe
 {
 slice
