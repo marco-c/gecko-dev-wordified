@@ -1204,7 +1204,7 @@ hexdigest
 8
 ]
         
-file
+perfherder_file
 =
 f
 "
@@ -1227,7 +1227,7 @@ if
 prefix
 :
             
-file
+perfherder_file
 =
 f
 "
@@ -1236,7 +1236,7 @@ prefix
 }
 -
 {
-file
+perfherder_file
 }
 "
         
@@ -1244,6 +1244,7 @@ self
 .
 info
 (
+            
 f
 "
 Writing
@@ -1258,10 +1259,11 @@ path
 join
 (
 output
-file
+perfherder_file
 )
 }
 "
+        
 )
         
 #
@@ -1359,7 +1361,7 @@ write_json
 (
 all_perfherder_data
 output
-file
+perfherder_file
 )
 )
         
