@@ -1075,7 +1075,7 @@ TimerThread
 if
 TIMER_THREAD_STATISTICS
 {
-MonitorAutoLock
+TimerThreadMonitorAutoLock
 lock
 (
 mMonitor
@@ -3452,7 +3452,7 @@ timers
 /
 lock
 scope
-MonitorAutoLock
+TimerThreadMonitorAutoLock
 lock
 (
 mMonitor
@@ -4905,7 +4905,7 @@ Run
 (
 )
 {
-MonitorAutoLock
+TimerThreadMonitorAutoLock
 lock
 (
 mMonitor
@@ -5444,7 +5444,7 @@ MutexAutoLock
 aProofOfLock
 )
 {
-MonitorAutoLock
+TimerThreadMonitorAutoLock
 lock
 (
 mMonitor
@@ -5885,7 +5885,7 @@ MutexAutoLock
 aProofOfLock
 )
 {
-MonitorAutoLock
+TimerThreadMonitorAutoLock
 lock
 (
 mMonitor
@@ -6310,7 +6310,7 @@ uint32_t
 aSearchBound
 )
 {
-MonitorAutoLock
+TimerThreadMonitorAutoLock
 lock
 (
 mMonitor
@@ -7509,7 +7509,7 @@ mProfilerThreadId
 )
 ;
 {
-MonitorAutoUnlock
+TimerThreadMonitorAutoUnlock
 unlock
 (
 mMonitor
@@ -7605,7 +7605,7 @@ DoBeforeSleep
 /
 /
 Mainthread
-MonitorAutoLock
+TimerThreadMonitorAutoLock
 lock
 (
 mMonitor
@@ -7639,7 +7639,7 @@ DoAfterSleep
 /
 /
 Mainthread
-MonitorAutoLock
+TimerThreadMonitorAutoLock
 lock
 (
 mMonitor
@@ -7821,7 +7821,7 @@ AllowedEarlyFiringMicroseconds
 (
 )
 {
-MonitorAutoLock
+TimerThreadMonitorAutoLock
 lock
 (
 mMonitor
@@ -8787,7 +8787,7 @@ nsTimerImpl
 timers
 ;
 {
-MonitorAutoLock
+TimerThreadMonitorAutoLock
 lock
 (
 mMonitor
