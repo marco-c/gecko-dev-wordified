@@ -927,6 +927,12 @@ aPixels
 }
 }
 ;
+constexpr
+uint32_t
+kPaintRecursionLimit
+=
+256
+;
 DeviceColor
 PaintState
 :
@@ -1019,6 +1025,8 @@ PaintState
 &
 aState
 uint32_t
+aDepth
+uint32_t
 aOffset
 const
 Rect
@@ -1058,6 +1066,8 @@ const
 PaintState
 &
 aState
+uint32_t
+aDepth
 uint32_t
 aOffset
 )
@@ -4649,6 +4659,8 @@ PaintState
 &
 aState
 uint32_t
+aDepth
+uint32_t
 aOffset
 const
 Rect
@@ -4751,6 +4763,7 @@ if
 DispatchPaint
 (
 aState
+aDepth
 aState
 .
 mHeader
@@ -4784,6 +4797,8 @@ const
 PaintState
 &
 aState
+uint32_t
+aDepth
 uint32_t
 aOffset
 )
@@ -4895,6 +4910,7 @@ Union
 DispatchGetBounds
 (
 aState
+aDepth
 aState
 .
 mHeader
@@ -4928,6 +4944,8 @@ const
 PaintState
 &
 aState
+uint32_t
+aDepth
 uint32_t
 aOffset
 const
@@ -5016,6 +5034,8 @@ const
 PaintState
 &
 aState
+uint32_t
+aDepth
 uint32_t
 aOffset
 )
@@ -9132,6 +9152,8 @@ PaintState
 &
 aState
 uint32_t
+aDepth
+uint32_t
 aOffset
 const
 Rect
@@ -9369,6 +9391,7 @@ ok
 DispatchPaint
 (
 aState
+aDepth
 aOffset
 +
 paintOffset
@@ -9395,6 +9418,8 @@ const
 PaintState
 &
 aState
+uint32_t
+aDepth
 uint32_t
 aOffset
 )
@@ -9572,6 +9597,8 @@ const
 PaintState
 &
 aState
+uint32_t
+aDepth
 const
 BaseGlyphPaintRecord
 *
@@ -9665,6 +9692,7 @@ return
 DispatchPaint
 (
 aState
+aDepth
 aState
 .
 mHeader
@@ -9689,6 +9717,8 @@ const
 PaintState
 &
 aState
+uint32_t
+aDepth
 uint32_t
 aOffset
 const
@@ -9734,6 +9764,7 @@ base
 DoPaint
 (
 aState
+aDepth
 base
 uint16_t
 (
@@ -9752,6 +9783,8 @@ const
 PaintState
 &
 aState
+uint32_t
+aDepth
 uint32_t
 aOffset
 )
@@ -9840,6 +9873,7 @@ return
 DispatchGetBounds
 (
 aState
+aDepth
 aState
 .
 mHeader
@@ -10073,6 +10107,8 @@ PaintState
 &
 aState
 uint32_t
+aDepth
+uint32_t
 aOffset
 const
 Rect
@@ -10117,6 +10153,7 @@ return
 DispatchPaint
 (
 aState
+aDepth
 aOffset
 +
 paintOffset
@@ -10131,6 +10168,8 @@ const
 PaintState
 &
 aState
+uint32_t
+aDepth
 uint32_t
 aOffset
 )
@@ -10154,6 +10193,7 @@ bounds
 DispatchGetBounds
 (
 aState
+aDepth
 aOffset
 +
 paintOffset
@@ -12046,6 +12086,8 @@ PaintState
 &
 aState
 uint32_t
+aDepth
+uint32_t
 aOffset
 const
 Rect
@@ -12387,6 +12429,7 @@ return
 DispatchPaint
 (
 aState
+aDepth
 aOffset
 +
 sourcePaintOffset
@@ -12406,6 +12449,7 @@ return
 DispatchPaint
 (
 aState
+aDepth
 aOffset
 +
 backdropPaintOffset
@@ -12469,6 +12513,7 @@ aBounds
 GetBoundingRect
 (
 aState
+aDepth
 aOffset
 )
 ;
@@ -12676,6 +12721,7 @@ if
 DispatchPaint
 (
 state
+aDepth
 aOffset
 +
 backdropPaintOffset
@@ -12758,6 +12804,7 @@ if
 DispatchPaint
 (
 state
+aDepth
 aOffset
 +
 sourcePaintOffset
@@ -12884,6 +12931,8 @@ PaintState
 &
 aState
 uint32_t
+aDepth
+uint32_t
 aOffset
 )
 const
@@ -12947,6 +12996,7 @@ return
 DispatchGetBounds
 (
 aState
+aDepth
 aOffset
 +
 backdropPaintOffset
@@ -12957,6 +13007,7 @@ Union
 DispatchGetBounds
 (
 aState
+aDepth
 aOffset
 +
 sourcePaintOffset
@@ -13165,6 +13216,8 @@ PaintState
 &
 aState
 uint32_t
+aDepth
+uint32_t
 aOffset
 const
 Rect
@@ -13180,6 +13233,17 @@ aOffset
 aState
 .
 mCOLRLength
+)
+{
+return
+false
+;
+}
+if
+(
+aDepth
+>
+kPaintRecursionLimit
 )
 {
 return
@@ -13267,8 +13331,11 @@ paint
 Paint
 (
 aState
-aOffset
+aDepth
++
+1
 \
+aOffset
 aBounds
 )
 \
@@ -13767,6 +13834,8 @@ PaintState
 &
 aState
 uint32_t
+aDepth
+uint32_t
 aOffset
 )
 {
@@ -13778,6 +13847,19 @@ aOffset
 aState
 .
 mCOLRLength
+)
+{
+return
+Rect
+(
+)
+;
+}
+if
+(
+aDepth
+>
+kPaintRecursionLimit
 )
 {
 return
@@ -13866,8 +13948,11 @@ paint
 >
 GetBoundingRect
 (
-aState
 \
+aState
+aDepth
++
+1
 aOffset
 )
 \
@@ -16799,6 +16884,7 @@ PaintColrGlyph
 DoPaint
 (
 state
+0
 reinterpret_cast
 <
 const
@@ -17041,6 +17127,7 @@ return
 DispatchGetBounds
 (
 state
+0
 state
 .
 mHeader
