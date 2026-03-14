@@ -7063,6 +7063,9 @@ script
 =
 %
 p
+ForPreload
+%
+d
 "
 aRequest
 aRequest
@@ -7071,6 +7074,15 @@ aRequest
 mModuleScript
 .
 get
+(
+)
+aRequest
+-
+>
+mModuleScript
+-
+>
+ForPreload
 (
 )
 )
