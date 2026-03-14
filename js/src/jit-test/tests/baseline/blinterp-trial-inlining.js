@@ -58,6 +58,14 @@ threads
 no
 -
 cgc
+;
+-
+-
+baseline
+-
+batching
+=
+on
 let
 options
 =
