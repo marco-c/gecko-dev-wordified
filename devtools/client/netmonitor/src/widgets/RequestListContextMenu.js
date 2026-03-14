@@ -4480,11 +4480,14 @@ fetchString
 await
 fetch
 (
-"
 {
+JSON
+.
+stringify
+(
 url
+)
 }
-"
 {
 options
 }
