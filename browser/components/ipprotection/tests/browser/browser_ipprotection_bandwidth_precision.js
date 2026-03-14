@@ -165,6 +165,13 @@ refetchEntitlement
 )
 ;
 await
+IPPProxyManager
+.
+refreshUsage
+(
+)
+;
+await
 SpecialPowers
 .
 pushPrefEnv
