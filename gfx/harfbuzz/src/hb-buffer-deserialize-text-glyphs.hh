@@ -223,7 +223,7 @@ hh
 "
 #
 line
-33
+36
 "
 hb
 -
@@ -2902,7 +2902,7 @@ pos
 ;
 #
 line
-386
+393
 "
 hb
 -
@@ -2924,7 +2924,7 @@ deserialize_text_glyphs_start
 }
 #
 line
-389
+398
 "
 hb
 -
@@ -3953,7 +3953,7 @@ break
 ;
 #
 line
-523
+556
 "
 hb
 -
@@ -4065,7 +4065,7 @@ break
 ;
 #
 line
-542
+577
 "
 hb
 -

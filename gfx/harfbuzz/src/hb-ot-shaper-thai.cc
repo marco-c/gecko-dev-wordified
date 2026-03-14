@@ -2426,8 +2426,6 @@ start
 t
 ;
 }
-else
-{
 /
 *
 Since
@@ -2454,7 +2452,7 @@ start
 buffer
 -
 >
-merge_out_clusters
+merge_out_grapheme_clusters
 (
 start
 -
@@ -2462,7 +2460,6 @@ start
 end
 )
 ;
-}
 }
 buffer
 -
