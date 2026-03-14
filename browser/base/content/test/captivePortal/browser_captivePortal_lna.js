@@ -1166,7 +1166,9 @@ PopupNotifications
 getNotification
 (
 "
-localhost
+loopback
+-
+network
 "
 portalTab
 .

@@ -182,7 +182,7 @@ testPrompt
 (
 PermissionUI
 .
-LocalHostPermissionPrompt
+LoopbackNetworkPermissionPrompt
 )
 ;
 }
