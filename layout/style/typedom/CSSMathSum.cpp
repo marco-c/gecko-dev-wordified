@@ -322,7 +322,9 @@ IsUnit
 )
 )
 {
+const
 auto
+&
 unitValue
 =
 value
@@ -371,7 +373,13 @@ MakeRefPtr
 CSSMathSum
 >
 (
+std
+:
+:
+move
+(
 aParent
+)
 std
 :
 :

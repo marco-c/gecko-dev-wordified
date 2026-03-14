@@ -1032,7 +1032,9 @@ Tag
 Numeric
 :
 {
+const
 auto
+&
 numericValue
 =
 typedValue

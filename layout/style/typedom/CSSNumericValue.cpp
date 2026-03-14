@@ -320,7 +320,9 @@ Tag
 Unit
 :
 {
+const
 auto
+&
 unitValue
 =
 aNumericValue
@@ -336,7 +338,13 @@ CSSUnitValue
 :
 Create
 (
+std
+:
+:
+move
+(
 aParent
+)
 unitValue
 )
 ;
@@ -353,7 +361,9 @@ Tag
 Sum
 :
 {
+const
 auto
+&
 mathSum
 =
 aNumericValue
@@ -369,7 +379,13 @@ CSSMathSum
 :
 Create
 (
+std
+:
+:
+move
+(
 aParent
+)
 mathSum
 )
 ;
