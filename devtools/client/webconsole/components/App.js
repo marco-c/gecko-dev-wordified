@@ -1145,8 +1145,6 @@ webConsoleUI
 .
 jsterm
 .
-editor
-.
 getSelectedText
 (
 )
