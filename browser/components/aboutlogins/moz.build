@@ -121,6 +121,13 @@ EXTRA_JS_MODULES
 =
 [
 "
+ChangePasswordURLs
+.
+sys
+.
+mjs
+"
+"
 LoginBreaches
 .
 sys
