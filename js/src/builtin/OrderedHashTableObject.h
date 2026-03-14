@@ -1318,15 +1318,6 @@ h
 "
 #
 include
-"
-mozilla
-/
-MemoryReporting
-.
-h
-"
-#
-include
 <
 memory
 >
@@ -5475,11 +5466,6 @@ hcs
 size_t
 sizeOfExcludingObject
 (
-mozilla
-:
-:
-MallocSizeOf
-mallocSizeOf
 )
 const
 {
@@ -10700,11 +10686,6 @@ sizeofData
 size_t
 sizeOfExcludingObject
 (
-mozilla
-:
-:
-MallocSizeOf
-mallocSizeOf
 )
 const
 {
@@ -10713,7 +10694,6 @@ impl
 .
 sizeOfExcludingObject
 (
-mallocSizeOf
 )
 ;
 }
@@ -11375,11 +11355,6 @@ sizeofData
 size_t
 sizeOfExcludingObject
 (
-mozilla
-:
-:
-MallocSizeOf
-mallocSizeOf
 )
 const
 {
@@ -11388,7 +11363,6 @@ impl
 .
 sizeOfExcludingObject
 (
-mallocSizeOf
 )
 ;
 }

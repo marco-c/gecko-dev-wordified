@@ -21515,7 +21515,7 @@ else
 info
 -
 >
-objectsMallocHeapElementsNormal
+objectsMallocHeapElementsArrayBuffer
 +
 =
 mallocSizeOf

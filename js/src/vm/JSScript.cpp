@@ -18616,11 +18616,6 @@ BaseScript
 :
 sizeOfExcludingThis
 (
-mozilla
-:
-:
-MallocSizeOf
-mallocSizeOf
 )
 {
 return
@@ -26765,7 +26760,6 @@ base
 >
 sizeOfExcludingThis
 (
-mallocSizeOf
 )
 ;
 /
