@@ -753,6 +753,11 @@ TimeToLive
 )
 ;
 bool
+IsAlive
+(
+)
+;
+bool
 NeedSpdyTunnel
 (
 )
@@ -1578,11 +1583,6 @@ OnSocketReadable
 ;
 PRIntervalTime
 IdleTime
-(
-)
-;
-bool
-IsAlive
 (
 )
 ;
