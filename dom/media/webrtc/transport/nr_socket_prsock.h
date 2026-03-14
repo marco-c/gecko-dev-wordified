@@ -529,11 +529,6 @@ h
 /
 nICEr
 includes
-extern
-"
-C
-"
-{
 #
 include
 "
@@ -548,7 +543,6 @@ transport_addr
 .
 h
 "
-}
 /
 /
 Stub

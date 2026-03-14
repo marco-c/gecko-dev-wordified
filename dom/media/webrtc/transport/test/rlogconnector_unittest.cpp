@@ -129,11 +129,6 @@ rlogconnector
 .
 h
 "
-extern
-"
-C
-"
-{
 /
 /
 clang
@@ -160,7 +155,6 @@ clang
 -
 format
 on
-}
 #
 define
 GTEST_HAS_RTTI

@@ -668,11 +668,6 @@ com
 :
 bwc
 ]
-extern
-"
-C
-"
-{
 /
 /
 clang
@@ -731,7 +726,6 @@ clang
 -
 format
 on
-}
 #
 include
 "

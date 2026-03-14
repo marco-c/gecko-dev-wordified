@@ -208,11 +208,6 @@ ssl
 .
 h
 "
-extern
-"
-C
-"
-{
 /
 /
 clang
@@ -267,7 +262,6 @@ clang
 -
 format
 on
-}
 #
 include
 "

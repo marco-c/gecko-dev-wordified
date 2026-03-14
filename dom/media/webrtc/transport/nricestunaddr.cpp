@@ -67,11 +67,6 @@ h
 /
 nICEr
 includes
-extern
-"
-C
-"
-{
 #
 include
 "
@@ -86,7 +81,6 @@ nr_api
 .
 h
 "
-}
 /
 /
 Local

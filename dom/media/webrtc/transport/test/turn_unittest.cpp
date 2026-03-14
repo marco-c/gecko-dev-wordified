@@ -426,11 +426,6 @@ USE_TURN
 /
 nICEr
 includes
-extern
-"
-C
-"
-{
 /
 /
 clang
@@ -499,7 +494,6 @@ clang
 -
 format
 on
-}
 #
 include
 "

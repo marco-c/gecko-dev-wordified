@@ -129,11 +129,6 @@ iostream
 /
 nrappkit
 includes
-extern
-"
-C
-"
-{
 /
 /
 clang
@@ -160,7 +155,6 @@ clang
 -
 format
 on
-}
 #
 include
 "

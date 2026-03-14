@@ -550,11 +550,6 @@ runnable_utils
 .
 h
 "
-extern
-"
-C
-"
-{
 /
 /
 clang
@@ -595,7 +590,6 @@ clang
 -
 format
 on
-}
 namespace
 mozilla
 {

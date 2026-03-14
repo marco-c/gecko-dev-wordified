@@ -699,11 +699,6 @@ undef
 UNIMPLEMENTED
 #
 endif
-extern
-"
-C
-"
-{
 /
 /
 clang
@@ -786,7 +781,6 @@ clang
 -
 format
 on
-}
 #
 include
 <

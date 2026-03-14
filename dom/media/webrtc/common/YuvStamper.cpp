@@ -116,11 +116,6 @@ r_crc32
 (
 )
 call
-extern
-"
-C
-"
-{
 #
 include
 "
@@ -128,7 +123,6 @@ r_crc32
 .
 h
 "
-}
 namespace
 mozilla
 {

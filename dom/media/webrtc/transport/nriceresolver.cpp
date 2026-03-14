@@ -421,11 +421,6 @@ prnetdb
 .
 h
 "
-extern
-"
-C
-"
-{
 /
 /
 clang
@@ -466,7 +461,6 @@ clang
 -
 format
 on
-}
 #
 include
 "

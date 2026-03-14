@@ -487,11 +487,6 @@ h
 /
 nICEr
 includes
-extern
-"
-C
-"
-{
 /
 /
 clang
@@ -609,7 +604,6 @@ clang
 -
 format
 on
-}
 /
 /
 Local
