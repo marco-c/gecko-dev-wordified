@@ -1243,6 +1243,9 @@ ImageDataSerializer
 :
 ComputeYCbCrBufferSize
 (
+mData
+.
+mPictureRect
 aYSize
 mData
 .
@@ -1251,6 +1254,12 @@ aCbCrSize
 mData
 .
 mCbCrStride
+mData
+.
+mColorDepth
+mData
+.
+mChromaSubsampling
 )
 ;
 mSize
