@@ -38,6 +38,7 @@ toctree
 maxdepth
 :
 1
+handling_shadowDOM
 ipc
 /
 index
@@ -65,3 +66,4 @@ streams
 use
 -
 counters
+loggingKeyboardIME
