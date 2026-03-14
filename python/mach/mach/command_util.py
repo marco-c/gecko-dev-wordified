@@ -2634,6 +2634,25 @@ py
 )
     
 "
+tps
+-
+test
+"
+:
+MachCommandReference
+(
+"
+testing
+/
+tps
+/
+mach_commands
+.
+py
+"
+)
+    
+"
 try
 "
 :
