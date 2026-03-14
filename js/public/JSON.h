@@ -402,7 +402,7 @@ or
 array
 not
 an
-abitrary
+arbitrary
 value
 .
 *

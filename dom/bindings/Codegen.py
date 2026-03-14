@@ -120372,6 +120372,7 @@ def
 initFromJSONMethod
 (
 self
+string
 )
 :
         
@@ -120390,9 +120391,12 @@ bool
 [
 Argument
 (
+f
 "
 const
-nsAString
+{
+string
+}
 &
 "
 "
@@ -120530,6 +120534,7 @@ def
 toJSONMethod
 (
 self
+string
 )
 :
         
@@ -120548,8 +120553,11 @@ bool
 [
 Argument
 (
+f
 "
-nsAString
+{
+string
+}
 &
 "
 "
@@ -122762,6 +122770,23 @@ self
 .
 initFromJSONMethod
 (
+"
+nsAString
+"
+)
+)
+            
+methods
+.
+append
+(
+self
+.
+initFromJSONMethod
+(
+"
+nsACString
+"
 )
 )
         
@@ -122803,6 +122828,23 @@ self
 .
 toJSONMethod
 (
+"
+nsAString
+"
+)
+)
+            
+methods
+.
+append
+(
+self
+.
+toJSONMethod
+(
+"
+nsACString
+"
 )
 )
         
