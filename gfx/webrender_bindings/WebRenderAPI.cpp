@@ -7371,6 +7371,11 @@ wr
 RasterSpace
 &
 aRasterSpace
+wr
+:
+:
+SpatialTreeItemKey
+aSCOriginKey
 )
 {
 WRDL_LOG
@@ -7481,6 +7486,7 @@ Length
 (
 )
 aRasterSpace
+aSCOriginKey
 )
 ;
 return
