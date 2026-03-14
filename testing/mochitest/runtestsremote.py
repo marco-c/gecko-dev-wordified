@@ -1659,6 +1659,8 @@ switchToLocalPaths
 options
 )
         
+result
+=
 MochitestDesktop
 .
 startServers
@@ -1674,6 +1676,9 @@ True
 restoreRemotePaths
 (
 )
+        
+return
+result
     
 def
 buildProfile
