@@ -90,6 +90,9 @@ regexp
 h
 "
 #
+ifdef
+V8_INTL_SUPPORT
+#
 include
 "
 js
@@ -98,9 +101,6 @@ properties_glue
 .
 h
 "
-#
-ifdef
-V8_INTL_SUPPORT
 #
 include
 "
