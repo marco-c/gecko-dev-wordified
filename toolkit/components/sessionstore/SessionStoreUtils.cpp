@@ -2823,7 +2823,13 @@ entry
 >
 mKey
 =
+std
+:
+:
+move
+(
 xpath
+)
 ;
 }
 return

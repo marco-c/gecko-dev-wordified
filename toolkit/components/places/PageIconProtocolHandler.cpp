@@ -418,7 +418,13 @@ aMetadata
 .
 mStream
 =
+std
+:
+:
+move
+(
 stream
+)
 ;
 aMetadata
 .
