@@ -8392,14 +8392,14 @@ aNavigationAPIMethodTracker
 nullptr
 )
 ;
-private
-:
 MOZ_CAN_RUN_SCRIPT
 void
 InformNavigationAPIAboutAbortingNavigation
 (
 )
 ;
+private
+:
 /
 /
 TODO
