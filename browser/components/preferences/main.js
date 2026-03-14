@@ -22812,7 +22812,7 @@ desc
 id
 :
 "
-localHostSettingsButton
+loopbackNetworkSettingsButton
 "
 control
 :
