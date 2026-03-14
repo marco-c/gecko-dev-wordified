@@ -621,9 +621,11 @@ iconListImage
 includes
 (
 "
-ai
+smart
 -
 window
+-
+simplified
 .
 svg
 "
