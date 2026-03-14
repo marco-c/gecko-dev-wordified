@@ -284,7 +284,9 @@ context
 -
 pdfjs
 -
-selectall
+select
+-
+all
 "
 "
 context
@@ -293,7 +295,9 @@ sep
 -
 pdfjs
 -
-selectall
+select
+-
+all
 "
 "
 context
@@ -1138,7 +1142,9 @@ context
 -
 pdfjs
 -
-selectall
+select
+-
+all
 "
 /
 /
@@ -1256,7 +1262,9 @@ context
 -
 pdfjs
 -
-selectall
+select
+-
+all
 "
 ]
 )
@@ -1387,7 +1395,9 @@ context
 -
 pdfjs
 -
-selectall
+select
+-
+all
 "
 ]
 )
@@ -1490,7 +1500,9 @@ context
 -
 pdfjs
 -
-selectall
+select
+-
+all
 "
 ]
 )
@@ -1627,7 +1639,9 @@ context
 -
 pdfjs
 -
-selectall
+select
+-
+all
 "
 ]
 )
@@ -1906,7 +1920,9 @@ context
 -
 pdfjs
 -
-selectall
+select
+-
+all
 "
 )
 ;
