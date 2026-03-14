@@ -929,6 +929,8 @@ null
 terminated
 strings
 .
+if
+(
 const
 char
 *
@@ -939,10 +941,6 @@ mBuffer
 Get1b
 (
 )
-;
-if
-(
-data
 )
 {
 CopyASCIItoUTF16
