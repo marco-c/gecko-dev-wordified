@@ -1,5 +1,12 @@
 import
 pytest
+pytestmark
+=
+pytest
+.
+mark
+.
+asyncio
 #
 Check
 that
@@ -28,11 +35,6 @@ are
 implementation
 specific
 .
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_bidi_session_status

@@ -30,6 +30,8 @@ RESPONSE_COMPLETED_EVENT
     
 RESPONSE_STARTED_EVENT
 )
+pytestmark
+=
 pytest
 .
 mark
@@ -480,11 +482,6 @@ response_completed_events
 =
 =
 0
-pytest
-.
-mark
-.
-asyncio
 pytest
 .
 mark

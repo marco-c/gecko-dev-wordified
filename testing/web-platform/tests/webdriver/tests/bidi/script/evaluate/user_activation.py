@@ -10,6 +10,8 @@ modules
 script
 import
 ContextTarget
+pytestmark
+=
 pytest
 .
 mark
@@ -154,11 +156,6 @@ value
 :
 user_activation
 }
-pytest
-.
-mark
-.
-asyncio
 pytest
 .
 mark

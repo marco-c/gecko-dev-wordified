@@ -30,6 +30,13 @@ STYLESHEET_GREY_BACKGROUND
     
 STYLESHEET_RED_COLOR
 )
+pytestmark
+=
+pytest
+.
+mark
+.
+asyncio
 #
 Note
 :
@@ -60,11 +67,6 @@ for
 cached
 requests
 .
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_cached_document
@@ -271,11 +273,6 @@ expected_request
 }
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_page_with_cached_link_stylesheet
@@ -647,11 +644,6 @@ expected_request
 }
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_page_with_cached_import_stylesheet
@@ -1076,11 +1068,6 @@ the
 duplicated
 stylesheets
 .
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_page_with_cached_duplicated_stylesheets
@@ -1792,11 +1779,6 @@ expected_request
 }
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_page_with_cached_script_javascript
@@ -2469,11 +2451,6 @@ expected_request
 }
         
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_page_with_cached_javascript_module
@@ -3089,11 +3066,6 @@ expected_request
 }
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_page_with_cached_image

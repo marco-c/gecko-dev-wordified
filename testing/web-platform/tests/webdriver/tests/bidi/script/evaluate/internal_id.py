@@ -7,6 +7,8 @@ from
 import
 recursive_compare
 any_string
+pytestmark
+=
 pytest
 .
 mark
@@ -385,11 +387,6 @@ recursive_compare
 value
 result_value
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_different_remote_values_have_unique_internal_ids
@@ -502,11 +499,6 @@ internalId1
 !
 =
 internalId2
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_nested_remote_values_have_same_internal_ids

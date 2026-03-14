@@ -18,6 +18,8 @@ modules
 script
 import
 ContextTarget
+pytestmark
+=
 pytest
 .
 mark
@@ -242,11 +244,6 @@ type
 undefined
 "
 }
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_remove_preload_script_twice
@@ -332,11 +329,6 @@ script
 =
 script
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_remove_one_of_preload_scripts
@@ -592,11 +584,6 @@ script
 =
 script_2
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_remove_script_set_up_for_one_context
@@ -845,11 +832,6 @@ type
 undefined
 "
 }
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_remove_script_set_up_for_user_context

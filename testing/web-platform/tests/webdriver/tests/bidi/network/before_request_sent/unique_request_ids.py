@@ -27,6 +27,13 @@ webdriver
 bidi
 import
 error
+pytestmark
+=
+pytest
+.
+mark
+.
+asyncio
 #
 This
 is
@@ -60,11 +67,6 @@ duplicated
 amongst
 them
 .
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_unique_request_ids

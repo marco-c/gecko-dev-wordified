@@ -64,6 +64,8 @@ from
 .
 import
 any_positive_int
+pytestmark
+=
 pytest
 .
 mark
@@ -495,11 +497,6 @@ events
 remove_listener
 (
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_iframe_load
@@ -685,11 +682,6 @@ context
 }
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_load_page_twice
@@ -898,11 +890,6 @@ redirectCount
 }
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_request_timing_info
@@ -1106,11 +1093,6 @@ status_text
     
 HTTP_STATUS_AND_STATUS_TEXT
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_response_status
@@ -1314,11 +1296,6 @@ redirectCount
 }
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_content_size
@@ -1519,11 +1496,6 @@ redirectCount
 }
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_response_headers
@@ -1857,11 +1829,6 @@ xml
     
 ]
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_response_mime_type_file
@@ -2003,11 +1970,6 @@ redirectCount
 }
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_redirect
@@ -2313,11 +2275,6 @@ coop
 "
 ]
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_redirect_document
@@ -2772,11 +2729,6 @@ request
 request
 "
 ]
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_serviceworker_request
@@ -3065,11 +3017,6 @@ redirectCount
 }
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_url_with_fragment
@@ -3316,11 +3263,6 @@ image
 "
 ]
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_navigate_data_url
@@ -3651,11 +3593,6 @@ image
 "
 ]
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_fetch_data_url
@@ -3911,11 +3848,6 @@ navigation
 ]
 is
 None
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_destination_initiator

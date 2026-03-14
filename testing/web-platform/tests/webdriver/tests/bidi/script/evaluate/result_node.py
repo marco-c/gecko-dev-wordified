@@ -18,6 +18,8 @@ from
 import
 any_string
 recursive_compare
+pytestmark
+=
 pytest
 .
 mark
@@ -910,11 +912,6 @@ pytest
 .
 mark
 .
-asyncio
-pytest
-.
-mark
-.
 parametrize
 (
     
@@ -1209,11 +1206,6 @@ pytest
 .
 mark
 .
-asyncio
-pytest
-.
-mark
-.
 parametrize
 (
     
@@ -1390,11 +1382,6 @@ recursive_compare
 expected
 result
 )
-pytest
-.
-mark
-.
-asyncio
 pytest
 .
 mark
@@ -1613,11 +1600,6 @@ pytest
 .
 mark
 .
-asyncio
-pytest
-.
-mark
-.
 parametrize
 (
     
@@ -1828,11 +1810,6 @@ pytest
 .
 mark
 .
-asyncio
-pytest
-.
-mark
-.
 parametrize
 (
     
@@ -2007,11 +1984,6 @@ recursive_compare
 expected
 result
 )
-pytest
-.
-mark
-.
-asyncio
 pytest
 .
 mark
@@ -2296,11 +2268,6 @@ pytest
 .
 mark
 .
-asyncio
-pytest
-.
-mark
-.
 parametrize
 (
     
@@ -2454,11 +2421,6 @@ recursive_compare
 expected
 result
 )
-pytest
-.
-mark
-.
-asyncio
 pytest
 .
 mark
@@ -2713,11 +2675,6 @@ recursive_compare
 expected
 result
 )
-pytest
-.
-mark
-.
-asyncio
 pytest
 .
 mark
@@ -3511,11 +3468,6 @@ pytest
 .
 mark
 .
-asyncio
-pytest
-.
-mark
-.
 parametrize
 (
     
@@ -3867,11 +3819,6 @@ closed
 "
 ]
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_custom_element_with_shadow_root

@@ -5,6 +5,8 @@ from
 import
 assert_base_entry
 create_log
+pytestmark
+=
 pytest
 .
 mark
@@ -480,11 +482,6 @@ entryAdded
 remove_listener
 (
 )
-pytest
-.
-mark
-.
-asyncio
 pytest
 .
 mark

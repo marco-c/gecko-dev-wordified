@@ -28,6 +28,8 @@ RESPONSE_COMPLETED_EVENT
     
 RESPONSE_STARTED_EVENT
 )
+pytestmark
+=
 pytest
 .
 mark
@@ -499,11 +501,6 @@ remove_response_completed_listener
 remove_response_started_listener
 (
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_iframe_navigation_request
@@ -1169,11 +1166,6 @@ navigation
 ]
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_same_navigation_id
@@ -1473,11 +1465,6 @@ navigation
 }
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_same_request_id
@@ -1757,11 +1744,6 @@ request
 ]
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_subscribe_to_one_context
@@ -2160,11 +2142,6 @@ RESPONSE_COMPLETED_EVENT
 =
 =
 1
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_event_order_with_redirect

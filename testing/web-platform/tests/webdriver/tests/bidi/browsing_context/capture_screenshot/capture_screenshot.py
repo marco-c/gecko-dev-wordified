@@ -24,6 +24,8 @@ from
 import
 get_device_pixel_ratio
 get_viewport_dimensions
+pytestmark
+=
 pytest
 .
 mark
@@ -434,11 +436,6 @@ larger
 "
 ]
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_capture_with_viewport
@@ -648,11 +645,6 @@ dpr
 2
 ]
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_capture_with_different_dpr
@@ -867,11 +859,6 @@ ceil
 (
 expected_height
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_clip_huge_element_to_viewport

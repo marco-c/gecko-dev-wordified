@@ -38,6 +38,8 @@ AUTH_REQUIRED_EVENT
     
 PAGE_EMPTY_HTML
 )
+pytestmark
+=
 pytest
 .
 mark
@@ -302,11 +304,6 @@ redirectCount
 remove_listener
 (
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_no_authentication
@@ -432,11 +429,6 @@ events
 remove_listener
 (
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_request_timing_info
@@ -685,11 +677,6 @@ redirectCount
 }
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_with_wrong_credentials

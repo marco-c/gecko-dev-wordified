@@ -30,6 +30,8 @@ RESPONSE_COMPLETED_EVENT
     
 RESPONSE_STARTED_EVENT
 )
+pytestmark
+=
 pytest
 .
 mark
@@ -614,11 +616,6 @@ False
 }
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_return_value

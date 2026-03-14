@@ -36,6 +36,8 @@ RESPONSE_STARTED_EVENT
     
 PHASE_TO_EVENT_MAP
 )
+pytestmark
+=
 pytest
 .
 mark
@@ -391,11 +393,6 @@ isBlocked
 True
 }
 )
-pytest
-.
-mark
-.
-asyncio
 pytest
 .
 mark
@@ -790,11 +787,6 @@ context
 other_context
 )
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_other_context_with_event_subscription
@@ -1101,11 +1093,6 @@ isBlocked
 False
 }
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_two_contexts_same_intercept
@@ -1419,11 +1406,6 @@ intercept
 }
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_two_contexts_global_intercept

@@ -272,11 +272,6 @@ pytest
 .
 mark
 .
-asyncio
-pytest
-.
-mark
-.
 parametrize
 (
 "
@@ -387,11 +382,6 @@ context
 }
 result
 )
-pytest
-.
-mark
-.
-asyncio
 pytest
 .
 mark
@@ -618,11 +608,6 @@ context
 }
 result
 )
-pytest
-.
-mark
-.
-asyncio
 pytest
 .
 mark
@@ -873,11 +858,6 @@ context
 }
 result
 )
-pytest
-.
-mark
-.
-asyncio
 pytest
 .
 mark

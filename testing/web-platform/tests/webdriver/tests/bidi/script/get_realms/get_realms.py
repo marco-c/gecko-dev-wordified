@@ -17,6 +17,13 @@ from
 import
 any_string
 recursive_compare
+pytestmark
+=
+pytest
+.
+mark
+.
+asyncio
 PAGE_ABOUT_BLANK
 =
 "
@@ -24,11 +31,6 @@ about
 :
 blank
 "
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_payload_types
@@ -80,11 +82,6 @@ any_string
 result
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_realm_is_consistent_when_calling_twice
@@ -136,11 +133,6 @@ result_calling_again
 realm
 "
 ]
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_realm_is_different_after_reload
@@ -225,11 +217,6 @@ result_after_reload
 realm
 "
 ]
-pytest
-.
-mark
-.
-asyncio
 pytest
 .
 mark
@@ -464,11 +451,6 @@ window
 result
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_iframes
@@ -793,11 +775,6 @@ complete
 "
     
 )
-pytest
-.
-mark
-.
-asyncio
 async
 def
 test_origin
