@@ -2392,6 +2392,13 @@ defined
 (
 _M_X64
 )
+&
+&
+!
+defined
+(
+__clang__
+)
 /
 /
 libyuv
@@ -2401,7 +2408,7 @@ support
 SIMD
 scaling
 on
-win
+MSVC
 64bit
 .
 See
