@@ -97,7 +97,7 @@ false
 await
 openTabAndSetupStorage
 (
-MAIN_DOMAIN
+MAIN_URL
 +
 "
 storage
@@ -152,17 +152,7 @@ cacheToDelete
 "
 Cache
 "
-"
-http
-:
-/
-/
-test1
-.
-example
-.
-org
-"
+MAIN_ORIGIN
 "
 plop
 "

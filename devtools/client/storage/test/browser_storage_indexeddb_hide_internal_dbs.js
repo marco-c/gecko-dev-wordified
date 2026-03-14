@@ -131,7 +131,7 @@ function
 await
 openTabAndSetupStorage
 (
-MAIN_DOMAIN_SECURED
+MAIN_URL_SECURED
 +
 "
 storage
@@ -199,17 +199,7 @@ hosts
 [
 0
 ]
-"
-https
-:
-/
-/
-test1
-.
-example
-.
-org
-"
+MAIN_ORIGIN_SECURED
 "
 Host
 is

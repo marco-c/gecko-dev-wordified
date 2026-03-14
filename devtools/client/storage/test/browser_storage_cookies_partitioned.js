@@ -590,11 +590,7 @@ getCookieId
 "
 fooThirdPartyPartitioned
 "
-"
-example
-.
-org
-"
+MAIN_DOMAIN
 "
 /
 "

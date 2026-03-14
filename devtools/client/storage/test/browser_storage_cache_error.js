@@ -131,7 +131,7 @@ io
 .
 newURI
 (
-ALT_DOMAIN_SECURED
+ALT_URL_SECURED
 +
 "
 storage

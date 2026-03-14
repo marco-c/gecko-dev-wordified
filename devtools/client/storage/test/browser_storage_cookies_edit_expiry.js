@@ -85,7 +85,7 @@ function
 await
 openTabAndSetupStorage
 (
-MAIN_DOMAIN
+MAIN_URL
 +
 "
 storage
@@ -141,13 +141,7 @@ getCookieId
 "
 test4
 "
-"
-test1
-.
-example
-.
-org
-"
+MAIN_HOST
 "
 /
 browser
