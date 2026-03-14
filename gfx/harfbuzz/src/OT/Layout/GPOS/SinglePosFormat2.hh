@@ -632,6 +632,8 @@ ugly
 /
 hb_buffer_t
 buffer
+{
+}
 ;
 buffer
 .
