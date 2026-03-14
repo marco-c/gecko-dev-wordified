@@ -343,6 +343,9 @@ h
 class
 nsIConsoleReportCollector
 ;
+class
+nsIServiceWorkerUnregisterCallback
+;
 namespace
 mozilla
 {
@@ -2515,6 +2518,11 @@ aRegistrationData
 ServiceWorkerRegistrationInfo
 *
 aRegistration
+nsIServiceWorkerUnregisterCallback
+*
+aCallback
+=
+nullptr
 )
 ;
 /
