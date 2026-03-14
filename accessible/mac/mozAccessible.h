@@ -568,6 +568,17 @@ maybePostValidationErrorChanged
 (
 void
 )
+maybeFireUAZoomChangeFocusEvent
+:
+(
+int
+)
+focusType
+;
+-
+(
+void
+)
 handleAnnouncementEvent
 :
 (
