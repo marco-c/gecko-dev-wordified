@@ -604,6 +604,9 @@ Interners
 parent
 :
 ClipNodeId
+spatial_node_index
+:
+SpatialNodeIndex
 )
 -
 >
@@ -765,10 +768,6 @@ Invalid
 HitTestClipNode
 {
 region
-spatial_node_index
-:
-item
-.
 spatial_node_index
 parent
 }
@@ -1244,6 +1243,9 @@ interners
 src_clip_node
 .
 parent
+src_clip_node
+.
+spatial_node_index
 )
 ;
 self

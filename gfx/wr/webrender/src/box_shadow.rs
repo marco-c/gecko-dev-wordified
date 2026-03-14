@@ -99,6 +99,7 @@ clip
 {
 ClipItemKey
 ClipItemKeyKind
+ClipItemEntry
 ClipNodeId
 }
 ;
@@ -1361,6 +1362,10 @@ clips
 .
 push
 (
+ClipItemEntry
+{
+key
+:
 ClipItemKey
 {
 kind
@@ -1379,6 +1384,7 @@ ClipMode
 :
 ClipOut
 )
+}
 spatial_node_index
 }
 )
@@ -1407,6 +1413,10 @@ clips
 .
 push
 (
+ClipItemEntry
+{
+key
+:
 ClipItemKey
 {
 kind
@@ -1423,6 +1433,7 @@ ClipMode
 :
 ClipOut
 )
+}
 spatial_node_index
 }
 )
@@ -1441,6 +1452,10 @@ clips
 .
 push
 (
+ClipItemEntry
+{
+key
+:
 ClipItemKey
 {
 kind
@@ -1457,6 +1472,7 @@ ClipMode
 :
 Clip
 )
+}
 spatial_node_index
 }
 )
@@ -1559,6 +1575,10 @@ extra_clips
 .
 push
 (
+ClipItemEntry
+{
+key
+:
 ClipItemKey
 {
 kind
@@ -1574,6 +1594,7 @@ rect
 border_radius
 prim_clip_mode
 )
+}
 spatial_node_index
 }
 )
@@ -1668,6 +1689,10 @@ item
 let
 shadow_clip_source
 =
+ClipItemEntry
+{
+key
+:
 ClipItemKey
 {
 kind
@@ -1683,6 +1708,7 @@ dest_rect
 blur_radius
 clip_mode
 )
+}
 spatial_node_index
 }
 ;
