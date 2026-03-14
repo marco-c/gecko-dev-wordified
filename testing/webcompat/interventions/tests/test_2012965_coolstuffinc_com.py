@@ -49,7 +49,7 @@ sb
 "
 async
 def
-is_fastclick_active
+does_fastclick_activate
 (
 client
 )
@@ -59,10 +59,18 @@ async
 with
 client
 .
-ensure_fastclick_activates
+monitor_for_fastclick_attachment
 (
 )
 :
+        
+await
+client
+.
+navigate
+(
+URL
+)
         
 #
 the
@@ -110,21 +118,11 @@ SELECT_CSS
 break
         
 return
+await
 client
 .
-test_for_fastclick
+was_fastclick_attached
 (
-            
-client
-.
-await_css
-(
-SELECT_CSS
-is_displayed
-=
-True
-)
-        
 )
 pytest
 .
@@ -157,7 +155,7 @@ client
 assert
 not
 await
-is_fastclick_active
+does_fastclick_activate
 (
 client
 )
@@ -191,7 +189,7 @@ client
     
 assert
 await
-is_fastclick_active
+does_fastclick_activate
 (
 client
 )
