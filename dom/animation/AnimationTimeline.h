@@ -186,6 +186,9 @@ Document
 class
 ScrollTimeline
 ;
+struct
+AnimationRange
+;
 class
 AnimationTimeline
 :
@@ -882,6 +885,9 @@ TimeDuration
 >
 TimelineDuration
 (
+const
+AnimationRange
+&
 )
 const
 {
