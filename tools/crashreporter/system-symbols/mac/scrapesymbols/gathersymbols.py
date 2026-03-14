@@ -402,8 +402,9 @@ X
     
 architectures
 =
-[
-]
+set
+(
+)
     
 output
 =
@@ -437,17 +438,54 @@ replace
     
 )
     
+#
+Only
+parse
+the
+first
+line
+of
+"
+file
+"
+output
+(
+the
+summary
+line
+)
+.
+    
+line
+=
+output
+.
+splitlines
+(
+)
+[
+0
+]
+if
+output
+else
+"
+"
+    
 for
 string
 in
-output
+line
 .
 split
 (
-"
-"
 )
 :
+#
+split
+on
+any
+whitespace
         
 cleaned
 =
@@ -475,7 +513,7 @@ arm64e
             
 architectures
 .
-append
+add
 (
 "
 arm64e
@@ -493,7 +531,7 @@ x86_64_haswell
             
 architectures
 .
-append
+add
 (
 "
 x86_64h
@@ -511,7 +549,7 @@ x86_64
             
 architectures
 .
-append
+add
 (
 "
 x86_64
@@ -529,7 +567,7 @@ i386
             
 architectures
 .
-append
+add
 (
 "
 i386
@@ -537,7 +575,10 @@ i386
 )
     
 return
+list
+(
 architectures
+)
 def
 server_has_file
 (
@@ -627,6 +668,26 @@ verbose
 write_all
 )
 :
+    
+if
+os
+.
+path
+.
+basename
+(
+path
+)
+=
+=
+"
+[
+"
+:
+        
+return
+None
+None
     
 arch_arg
 =
