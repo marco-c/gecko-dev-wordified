@@ -56,6 +56,10 @@ async
 =
 >
 {
+setupProfile
+(
+)
+;
 gTestRoot
 =
 await
