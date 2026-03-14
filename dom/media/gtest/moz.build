@@ -270,6 +270,11 @@ TestBlankVideoDataCreator
 cpp
 "
 "
+TestBufferMediaResource
+.
+cpp
+"
+"
 TestBufferReader
 .
 cpp
@@ -567,6 +572,11 @@ cpp
 "
 "
 TestVideoFrameConverter
+.
+cpp
+"
+"
+TestWebrtcGmpCodec
 .
 cpp
 "
