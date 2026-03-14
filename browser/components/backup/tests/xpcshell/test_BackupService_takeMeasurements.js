@@ -104,10 +104,6 @@ test_takeMeasurements
 (
 )
 {
-setupProfile
-(
-)
-;
 let
 sandbox
 =

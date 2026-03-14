@@ -244,10 +244,6 @@ function
 (
 )
 {
-setupProfile
-(
-)
-;
 Services
 .
 prefs
