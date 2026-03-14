@@ -122,6 +122,8 @@ getElementById
 (
 "
 searchbar
+-
+new
 "
 )
 "
@@ -154,6 +156,8 @@ getElementById
 (
 "
 searchbar
+-
+new
 "
 )
 "
