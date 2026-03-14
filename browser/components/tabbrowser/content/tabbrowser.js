@@ -7979,15 +7979,6 @@ isEnabled
 &
 SelectableProfileService
 .
-getCachedProfileCount
-(
-)
->
-1
-&
-&
-SelectableProfileService
-.
 currentProfile
 ?
 .
