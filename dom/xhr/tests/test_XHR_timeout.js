@@ -867,7 +867,7 @@ The
 XHR
 responds
 after
-3000
+2500
 milliseconds
 with
 a
@@ -890,7 +890,7 @@ Math
 .
 min
 (
-3000
+2500
 this
 .
 timeLimit
@@ -915,7 +915,7 @@ timeLimit
 timeLimit
 >
 =
-3000
+2500
 )
 {
 expectedType
@@ -1698,7 +1698,7 @@ hit
 before
 load
 "
-2000
+1500
 )
 /
 /
@@ -1759,9 +1759,9 @@ timeout
 set
 twice
 "
-2000
-1000
-2000
+1500
+750
+1500
 )
 new
 RequestTracker
@@ -1792,7 +1792,7 @@ delay
 "
 5000
 1000
-2000
+1500
 )
 new
 RequestTracker
@@ -1960,7 +1960,7 @@ hit
 before
 load
 "
-2000
+1500
 )
 /
 /
