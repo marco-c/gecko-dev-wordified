@@ -2018,14 +2018,8 @@ percent
 remainingRounded
 :
 12
-/
-/
-12
 .
 1
-is
-rounded
-down
 gbCount
 :
 2
