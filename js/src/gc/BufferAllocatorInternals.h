@@ -135,6 +135,11 @@ h
 "
 #
 include
+<
+bit
+>
+#
+include
 "
 NamespaceImports
 .
@@ -777,10 +782,10 @@ wordIndex
 }
 bitIndex
 =
-mozilla
+std
 :
 :
-CountTrailingZeroes
+countr_zero
 (
 word
 )
