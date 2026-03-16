@@ -116,11 +116,6 @@ MPL
 /
 #
 include
-<
-bit
->
-#
-include
 "
 mozilla
 /
@@ -311,10 +306,7 @@ aChunkSize
 {
 MOZ_ASSERT
 (
-std
-:
-:
-has_single_bit
+IsPowerOfTwo
 (
 aChunkSize
 )

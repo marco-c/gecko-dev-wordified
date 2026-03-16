@@ -147,11 +147,6 @@ endif
 #
 include
 <
-bit
->
-#
-include
-<
 fcntl
 .
 h
@@ -2964,10 +2959,10 @@ bits
 uint32_t
 ret
 =
-std
+mozilla
 :
 :
-popcount
+CountPopulation32
 (
 bits
 &
@@ -2982,10 +2977,10 @@ float
 ret
 +
 =
-std
+mozilla
 :
 :
-popcount
+CountPopulation32
 (
 bits
 >

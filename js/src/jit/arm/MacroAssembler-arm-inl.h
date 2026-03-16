@@ -9317,10 +9317,10 @@ to
 GCC
 output
 of
-std
+mozilla
 :
 :
-popcount
+CountPopulation32
 (
 )
 ScratchRegisterScope

@@ -1334,10 +1334,7 @@ shift
 =
 FloorLog2
 (
-uint32_t
-(
 rhs
-)
 )
 ;
 if
@@ -1580,10 +1577,7 @@ shift
 =
 FloorLog2
 (
-uint32_t
-(
 rhs
-)
 )
 ;
 if

@@ -138,11 +138,6 @@ ScopeExit
 h
 "
 #
-include
-<
-bit
->
-#
 ifdef
 XP_DARWIN
 #
@@ -14347,10 +14342,10 @@ MaxAlignedAllocSize
 ;
 MOZ_ASSERT
 (
-std
+mozilla
 :
 :
-has_single_bit
+IsPowerOfTwo
 (
 bytes
 )

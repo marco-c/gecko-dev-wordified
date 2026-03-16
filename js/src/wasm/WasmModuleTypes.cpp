@@ -188,11 +188,6 @@ h
 "
 #
 include
-<
-bit
->
-#
-include
 "
 vm
 /
@@ -348,10 +343,10 @@ align
 {
 MOZ_ASSERT
 (
-std
+mozilla
 :
 :
-has_single_bit
+IsPowerOfTwo
 (
 align
 )

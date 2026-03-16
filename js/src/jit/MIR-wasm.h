@@ -179,11 +179,6 @@ algorithm
 >
 #
 include
-<
-bit
->
-#
-include
 "
 jit
 /
@@ -5009,10 +5004,10 @@ trapSiteDesc
 {
 MOZ_ASSERT
 (
-std
+mozilla
 :
 :
-has_single_bit
+IsPowerOfTwo
 (
 byteSize
 )

@@ -5836,10 +5836,10 @@ to
 GCC
 output
 of
-std
+mozilla
 :
 :
-popcount
+CountPopulation32
 (
 )
 as_or

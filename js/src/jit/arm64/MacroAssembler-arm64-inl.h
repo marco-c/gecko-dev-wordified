@@ -8510,10 +8510,10 @@ Invalid
 /
 Equivalent
 to
-std
+mozilla
 :
 :
-popcount
+CountPopulation32
 (
 )
 .
@@ -8726,10 +8726,10 @@ Invalid
 /
 Equivalent
 to
-std
+mozilla
 :
 :
-popcount
+CountPopulation64
 (
 )
 though
