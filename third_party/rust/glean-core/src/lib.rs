@@ -304,9 +304,6 @@ mod
 core_metrics
 ;
 mod
-coverage
-;
-mod
 database
 ;
 mod
