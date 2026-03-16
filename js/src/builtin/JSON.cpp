@@ -10465,6 +10465,12 @@ item
 cx
 )
 ;
+RootedId
+id
+(
+cx
+)
+;
 for
 (
 ;
@@ -10543,12 +10549,6 @@ g
 .
 *
 /
-RootedId
-id
-(
-cx
-)
-;
 if
 (
 item
