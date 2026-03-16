@@ -2053,7 +2053,10 @@ shift
 =
 FloorLog2
 (
+uint32_t
+(
 constant
+)
 )
 ;
 if
@@ -18021,7 +18024,10 @@ mozilla
 :
 FloorLog2
 (
+uint64_t
+(
 constant
+)
 )
 ;
 if
@@ -18849,7 +18855,10 @@ mozilla
 :
 FloorLog2
 (
+uintptr_t
+(
 constant
+)
 )
 ;
 masm

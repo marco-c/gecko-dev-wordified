@@ -1345,7 +1345,10 @@ mozilla
 :
 FloorLog2
 (
+uint32_t
+(
 rhs
+)
 )
 ;
 auto
@@ -1653,7 +1656,10 @@ mozilla
 :
 FloorLog2
 (
+uint32_t
+(
 rhs
+)
 )
 ;
 if
