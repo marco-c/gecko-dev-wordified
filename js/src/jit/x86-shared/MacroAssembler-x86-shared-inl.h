@@ -1083,10 +1083,10 @@ InvalidReg
 /
 Equivalent
 to
-mozilla
+std
 :
 :
-CountPopulation32
+popcount
 (
 )
 movl

@@ -835,10 +835,10 @@ bits
 )
 ;
 return
-mozilla
+std
 :
 :
-CountPopulation32
+popcount
 (
 x
 )
@@ -3973,10 +3973,10 @@ low
 )
 ;
 return
-mozilla
+std
 :
 :
-CountPopulation32
+popcount
 (
 x
 .
