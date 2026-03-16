@@ -141,6 +141,11 @@ h
 "
 #
 include
+<
+bit
+>
+#
+include
 "
 jit
 /
@@ -6353,10 +6358,10 @@ zeroes
 unsigned
 logAccessSize
 =
-mozilla
+std
 :
 :
-CountTrailingZeroes32
+countr_zero
 (
 accessByteSize
 )
@@ -7010,10 +7015,10 @@ wasmLoadAbsolute
 unsigned
 logAccessSize
 =
-mozilla
+std
 :
 :
-CountTrailingZeroes32
+countr_zero
 (
 access
 .
