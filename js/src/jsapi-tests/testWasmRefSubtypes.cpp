@@ -2243,10 +2243,10 @@ expected
 return
 fail
 (
-jsapitest
+std
 :
 :
-String
+string
 (
 "
 bad
@@ -4708,10 +4708,10 @@ expected
 return
 fail
 (
-jsapitest
+std
 :
 :
-String
+string
 (
 "
 bad
