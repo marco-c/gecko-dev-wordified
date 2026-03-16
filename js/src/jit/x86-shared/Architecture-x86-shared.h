@@ -2122,10 +2122,10 @@ bits
 )
 ;
 return
-mozilla
+std
 :
 :
-CountTrailingZeroes64
+countr_zero
 (
 x
 )
