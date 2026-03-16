@@ -115,6 +115,15 @@ use
 crate
 :
 :
+derives
+:
+:
+*
+;
+use
+crate
+:
+:
 dom
 :
 :
@@ -241,7 +250,10 @@ crate
 rule_tree
 :
 :
+{
 CascadeLevel
+CascadeOrigin
+}
 ;
 use
 crate
@@ -487,6 +499,10 @@ self
 -
 >
 PropertyDeclarationId
+<
+'
+_
+>
 {
 debug_assert_eq
 !
@@ -1699,7 +1715,13 @@ update_rule_at_level
 CascadeLevel
 :
 :
+new
+(
+CascadeOrigin
+:
+:
 Animations
+)
 LayerOrder
 :
 :
@@ -6208,6 +6230,7 @@ value
 set_in_style_for_servo
 (
 mutable_style
+context
 )
 ;
 }
@@ -6244,6 +6267,7 @@ value
 set_in_style_for_servo
 (
 mutable_style
+context
 )
 ;
 }

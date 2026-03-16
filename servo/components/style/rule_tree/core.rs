@@ -193,6 +193,7 @@ super
 :
 {
 CascadeLevel
+CascadeOrigin
 StyleSource
 }
 ;
@@ -949,7 +950,7 @@ let
 mut
 children_count
 =
-fxhash
+rustc_hash
 :
 :
 FxHashMap
@@ -2669,7 +2670,13 @@ new
 CascadeLevel
 :
 :
-UANormal
+new
+(
+CascadeOrigin
+:
+:
+UA
+)
 LayerOrder
 :
 :
@@ -4264,6 +4271,9 @@ servo
 "
 )
 ]
+malloc_size_of
+:
+:
 malloc_size_of_is_0
 !
 (
