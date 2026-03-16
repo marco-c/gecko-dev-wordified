@@ -916,6 +916,11 @@ mozilla_HashTable_h
 #
 include
 <
+bit
+>
+#
+include
+<
 utility
 >
 #
@@ -16064,7 +16069,10 @@ ReportFailure
 {
 MOZ_ASSERT
 (
-IsPowerOfTwo
+std
+:
+:
+has_single_bit
 (
 newCapacity
 )

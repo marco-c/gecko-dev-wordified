@@ -95,6 +95,11 @@ MPL
 /
 #
 include
+<
+bit
+>
+#
+include
 "
 GLContext
 .
@@ -1464,7 +1469,10 @@ two
 .
 MOZ_ASSERT
 (
-IsPowerOfTwo
+std
+:
+:
+has_single_bit
 (
 bytesPerType
 )

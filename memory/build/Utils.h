@@ -157,6 +157,15 @@ CheckedInt
 .
 h
 "
+#
+include
+"
+mozilla
+/
+MathAlgorithms
+.
+h
+"
 /
 /
 Helper
