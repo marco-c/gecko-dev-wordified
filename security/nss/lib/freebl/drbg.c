@@ -99,13 +99,6 @@ h
 #
 include
 "
-prlock
-.
-h
-"
-#
-include
-"
 blapi
 .
 h
@@ -114,6 +107,13 @@ h
 include
 "
 blapii
+.
+h
+"
+#
+include
+"
+nssilock
 .
 h
 "
@@ -562,7 +562,7 @@ context
 struct
 RNGContextStr
 {
-PRLock
+PZLock
 *
 lock
 ;
@@ -3561,8 +3561,9 @@ globalrng
 >
 lock
 =
-PR_NewLock
+PZ_NewLock
 (
+nssILockOther
 )
 ;
 if
@@ -3710,7 +3711,7 @@ bytes
 }
 else
 {
-PR_DestroyLock
+PZ_DestroyLock
 (
 globalrng
 -
@@ -3871,7 +3872,7 @@ lock
 /
 SKIP_AFTER_FORK
 (
-PR_DestroyLock
+PZ_DestroyLock
 (
 globalrng
 -
@@ -4551,7 +4552,7 @@ size_t
 ;
 #
 endif
-PR_Lock
+PZ_Lock
 (
 globalrng
 -
@@ -4869,7 +4870,7 @@ PRUint32
 bytes
 ;
 }
-PR_Unlock
+PZ_Unlock
 (
 globalrng
 -
@@ -5004,7 +5005,7 @@ LOCKED
 -
 *
 /
-PR_Lock
+PZ_Lock
 (
 rng
 -
@@ -5062,7 +5063,7 @@ NULL
 0
 )
 ;
-PR_Unlock
+PZ_Unlock
 (
 rng
 -
@@ -5086,7 +5087,7 @@ RNG_SystemInfoForRNG
 (
 )
 ;
-PR_Lock
+PZ_Lock
 (
 rng
 -
@@ -5363,7 +5364,7 @@ additionalAvail
 0
 ;
 }
-PR_Unlock
+PZ_Unlock
 (
 rng
 -

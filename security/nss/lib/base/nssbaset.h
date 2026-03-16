@@ -91,6 +91,13 @@ nspr
 .
 h
 "
+#
+include
+"
+nssilock
+.
+h
+"
 /
 *
 *

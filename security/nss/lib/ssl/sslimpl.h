@@ -188,6 +188,13 @@ h
 #
 include
 "
+nssilock
+.
+h
+"
+#
+include
+"
 pkcs11t
 .
 h
@@ -6994,7 +7001,7 @@ I
 O
 *
 /
-PRLock
+PZLock
 *
 recvLock
 ;
@@ -7008,7 +7015,7 @@ threads
 .
 *
 /
-PRLock
+PZLock
 *
 sendLock
 ;
@@ -7022,7 +7029,7 @@ threads
 .
 *
 /
-PRMonitor
+PZMonitor
 *
 recvBufLock
 ;
@@ -7036,7 +7043,7 @@ buffers
 .
 *
 /
-PRMonitor
+PZMonitor
 *
 xmitBufLock
 ;
@@ -7094,7 +7101,7 @@ lock
 .
 *
 /
-PRMonitor
+PZMonitor
 *
 firstHandshakeLock
 ;
@@ -7136,7 +7143,7 @@ time
 .
 *
 /
-PRMonitor
+PZMonitor
 *
 ssl3HandshakeLock
 ;
@@ -7644,7 +7651,7 @@ FILE
 ssl_keylog_iob
 ;
 extern
-PRLock
+PZLock
 *
 ssl_keylog_lock
 ;
@@ -8990,7 +8997,7 @@ ss
 recvLock
 )
 \
-PR_Lock
+PZ_Lock
 (
 ss
 -
@@ -9012,7 +9019,7 @@ ss
 recvLock
 )
 \
-PR_Unlock
+PZ_Unlock
 (
 ss
 -
@@ -9034,7 +9041,7 @@ ss
 sendLock
 )
 \
-PR_Lock
+PZ_Lock
 (
 ss
 -
@@ -9056,7 +9063,7 @@ ss
 sendLock
 )
 \
-PR_Unlock
+PZ_Unlock
 (
 ss
 -

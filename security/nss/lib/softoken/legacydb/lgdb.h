@@ -81,6 +81,13 @@ _LGDB_H_
 #
 include
 "
+nssilock
+.
+h
+"
+#
+include
+"
 seccomon
 .
 h

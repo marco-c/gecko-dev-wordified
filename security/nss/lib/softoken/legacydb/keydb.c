@@ -4728,8 +4728,9 @@ handle
 >
 lock
 =
-PR_NewLock
+PZ_NewLock
 (
+nssILockKeyDB
 )
 ;
 return
@@ -5217,7 +5218,7 @@ NULL
 {
 SKIP_AFTER_FORK
 (
-PR_DestroyLock
+PZ_DestroyLock
 (
 handle
 -
@@ -11124,7 +11125,7 @@ kdbLock
 NULL
 )
 ;
-PR_Lock
+PZ_Lock
 (
 kdbLock
 )
@@ -11148,7 +11149,7 @@ flags
 (
 void
 )
-PR_Unlock
+PZ_Unlock
 (
 kdbLock
 )
@@ -11208,7 +11209,7 @@ kdbLock
 NULL
 )
 ;
-PR_Lock
+PZ_Lock
 (
 kdbLock
 )
@@ -11232,7 +11233,7 @@ flags
 (
 void
 )
-PR_Unlock
+PZ_Unlock
 (
 kdbLock
 )
@@ -11284,7 +11285,7 @@ kdbLock
 NULL
 )
 ;
-PR_Lock
+PZ_Lock
 (
 kdbLock
 )
@@ -11306,7 +11307,7 @@ flags
 (
 void
 )
-PR_Unlock
+PZ_Unlock
 (
 kdbLock
 )
@@ -11361,7 +11362,7 @@ kdbLock
 NULL
 )
 ;
-PR_Lock
+PZ_Lock
 (
 kdbLock
 )
@@ -11384,7 +11385,7 @@ flags
 (
 void
 )
-PR_Unlock
+PZ_Unlock
 (
 kdbLock
 )
@@ -11442,7 +11443,7 @@ kdbLock
 NULL
 )
 ;
-PR_Lock
+PZ_Lock
 (
 kdbLock
 )
@@ -11466,7 +11467,7 @@ flags
 (
 void
 )
-PR_Unlock
+PZ_Unlock
 (
 kdbLock
 )
@@ -11514,7 +11515,7 @@ NULL
 ;
 SKIP_AFTER_FORK
 (
-PR_Lock
+PZ_Lock
 (
 kdbLock
 )
@@ -11533,7 +11534,7 @@ db
 ;
 SKIP_AFTER_FORK
 (
-PR_Unlock
+PZ_Unlock
 (
 kdbLock
 )

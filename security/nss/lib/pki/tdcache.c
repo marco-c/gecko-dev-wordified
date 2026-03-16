@@ -532,7 +532,7 @@ arena
 struct
 nssTDCertificateCacheStr
 {
-PRLock
+PZLock
 *
 lock
 ;
@@ -812,8 +812,9 @@ cache
 >
 lock
 =
-PR_NewLock
+PZ_NewLock
 (
+nssILockCache
 )
 ;
 if
@@ -1024,7 +1025,7 @@ PR_SUCCESS
 ;
 loser
 :
-PR_DestroyLock
+PZ_DestroyLock
 (
 cache
 -
@@ -1209,7 +1210,7 @@ return
 PR_FAILURE
 ;
 }
-PR_DestroyLock
+PZ_DestroyLock
 (
 td
 -
@@ -2123,7 +2124,7 @@ NSSTrustDomain
 td
 )
 {
-PR_Lock
+PZ_Lock
 (
 td
 -
@@ -2144,7 +2145,7 @@ NSSTrustDomain
 td
 )
 {
-PR_Unlock
+PZ_Unlock
 (
 td
 -
@@ -2506,7 +2507,7 @@ arrSize
 =
 arrSize
 ;
-PR_Lock
+PZ_Lock
 (
 td
 -
@@ -2629,7 +2630,7 @@ i
 ;
 }
 }
-PR_Unlock
+PZ_Unlock
 (
 td
 -
@@ -4100,7 +4101,7 @@ cert
 )
 ;
 }
-PR_Lock
+PZ_Lock
 (
 td
 -
@@ -4200,7 +4201,7 @@ cert
 ;
 #
 endif
-PR_Unlock
+PZ_Unlock
 (
 td
 -
@@ -4647,7 +4648,7 @@ rvCert
 =
 cert
 ;
-PR_Unlock
+PZ_Unlock
 (
 td
 -
@@ -4828,7 +4829,7 @@ arena
 )
 ;
 }
-PR_Unlock
+PZ_Unlock
 (
 td
 -
@@ -5149,7 +5150,7 @@ subject
 ;
 #
 endif
-PR_Lock
+PZ_Lock
 (
 td
 -
@@ -5239,7 +5240,7 @@ certListOpt
 )
 ;
 }
-PR_Unlock
+PZ_Unlock
 (
 td
 -
@@ -5319,7 +5320,7 @@ nickname
 ;
 #
 endif
-PR_Lock
+PZ_Lock
 (
 td
 -
@@ -5409,7 +5410,7 @@ certListOpt
 )
 ;
 }
-PR_Unlock
+PZ_Unlock
 (
 td
 -
@@ -5505,7 +5506,7 @@ email
 ;
 #
 endif
-PR_Lock
+PZ_Lock
 (
 td
 -
@@ -5620,7 +5621,7 @@ if
 collectList
 )
 {
-PR_Unlock
+PZ_Unlock
 (
 td
 -
@@ -5654,7 +5655,7 @@ if
 iter
 )
 {
-PR_Unlock
+PZ_Unlock
 (
 td
 -
@@ -5736,7 +5737,7 @@ iter
 )
 ;
 }
-PR_Unlock
+PZ_Unlock
 (
 td
 -
@@ -5916,7 +5917,7 @@ serial
 ;
 #
 endif
-PR_Lock
+PZ_Lock
 (
 td
 -
@@ -6006,7 +6007,7 @@ hits
 #
 endif
 }
-PR_Unlock
+PZ_Unlock
 (
 td
 -
@@ -6231,7 +6232,7 @@ NULL
 ;
 }
 }
-PR_Lock
+PZ_Lock
 (
 td
 -
@@ -6259,7 +6260,7 @@ void
 certList
 )
 ;
-PR_Unlock
+PZ_Unlock
 (
 td
 -
@@ -6350,7 +6351,7 @@ void
 arg
 )
 {
-PR_Lock
+PZ_Lock
 (
 td
 -
@@ -6374,7 +6375,7 @@ cert_dump_iter
 arg
 )
 ;
-PR_Unlock
+PZ_Unlock
 (
 td
 -

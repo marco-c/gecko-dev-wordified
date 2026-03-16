@@ -105,6 +105,13 @@ h
 #
 include
 "
+nssilock
+.
+h
+"
+#
+include
+"
 secmodi
 .
 h
@@ -298,7 +305,7 @@ symKey
 =
 NULL
 ;
-PR_Lock
+PZ_Lock
 (
 slot
 -
@@ -450,7 +457,7 @@ keyCount
 ;
 }
 }
-PR_Unlock
+PZ_Unlock
 (
 slot
 -
@@ -1350,7 +1357,7 @@ symKey
 >
 slot
 ;
-PR_Lock
+PZ_Lock
 (
 slot
 -
@@ -1517,7 +1524,7 @@ freeit
 PR_FALSE
 ;
 }
-PR_Unlock
+PZ_Unlock
 (
 slot
 -

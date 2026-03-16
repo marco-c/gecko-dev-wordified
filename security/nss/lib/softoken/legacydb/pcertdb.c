@@ -278,28 +278,28 @@ safe
 *
 /
 static
-PRLock
+PZLock
 *
 dbLock
 =
 NULL
 ;
 static
-PRLock
+PZLock
 *
 certRefCountLock
 =
 NULL
 ;
 static
-PRLock
+PZLock
 *
 certTrustLock
 =
 NULL
 ;
 static
-PRLock
+PZLock
 *
 freeListLock
 =
@@ -323,8 +323,9 @@ NULL
 {
 dbLock
 =
-PR_NewLock
+PZ_NewLock
 (
+nssILockCertDB
 )
 ;
 PORT_Assert
@@ -353,8 +354,9 @@ NULL
 {
 freeListLock
 =
-PR_NewLock
+PZ_NewLock
 (
+nssILockRefLock
 )
 ;
 if
@@ -380,8 +382,9 @@ NULL
 {
 certRefCountLock
 =
-PR_NewLock
+PZ_NewLock
 (
+nssILockRefLock
 )
 ;
 if
@@ -407,8 +410,9 @@ NULL
 {
 certTrustLock
 =
-PR_NewLock
+PZ_NewLock
 (
+nssILockCertDB
 )
 ;
 if
@@ -506,7 +510,7 @@ NSSLOWCERTCertDBHandle
 handle
 )
 {
-PR_EnterMonitor
+PZ_EnterMonitor
 (
 handle
 -
@@ -544,7 +548,7 @@ DEBUG
 PRStatus
 prstat
 =
-PR_ExitMonitor
+PZ_ExitMonitor
 (
 handle
 -
@@ -562,7 +566,7 @@ PR_SUCCESS
 ;
 #
 else
-PR_ExitMonitor
+PZ_ExitMonitor
 (
 handle
 -
@@ -645,7 +649,7 @@ certRefCountLock
 NULL
 )
 ;
-PR_Lock
+PZ_Lock
 (
 certRefCountLock
 )
@@ -688,7 +692,7 @@ DEBUG
 PRStatus
 prstat
 =
-PR_Unlock
+PZ_Unlock
 (
 certRefCountLock
 )
@@ -704,7 +708,7 @@ PR_SUCCESS
 }
 #
 else
-PR_Unlock
+PZ_Unlock
 (
 certRefCountLock
 )
@@ -783,7 +787,7 @@ certTrustLock
 NULL
 )
 ;
-PR_Lock
+PZ_Lock
 (
 certTrustLock
 )
@@ -825,7 +829,7 @@ DEBUG
 PRStatus
 prstat
 =
-PR_Unlock
+PZ_Unlock
 (
 certTrustLock
 )
@@ -841,7 +845,7 @@ PR_SUCCESS
 }
 #
 else
-PR_Unlock
+PZ_Unlock
 (
 certTrustLock
 )
@@ -921,7 +925,7 @@ NULL
 ;
 SKIP_AFTER_FORK
 (
-PR_Lock
+PZ_Lock
 (
 freeListLock
 )
@@ -969,7 +973,7 @@ SKIP_AFTER_FORK
 (
 prstat
 =
-PR_Unlock
+PZ_Unlock
 (
 freeListLock
 )
@@ -988,7 +992,7 @@ PR_SUCCESS
 else
 SKIP_AFTER_FORK
 (
-PR_Unlock
+PZ_Unlock
 (
 freeListLock
 )
@@ -1062,7 +1066,7 @@ dbLock
 NULL
 )
 ;
-PR_Lock
+PZ_Lock
 (
 dbLock
 )
@@ -1086,7 +1090,7 @@ flags
 (
 void
 )
-PR_Unlock
+PZ_Unlock
 (
 dbLock
 )
@@ -1128,7 +1132,7 @@ dbLock
 NULL
 )
 ;
-PR_Lock
+PZ_Lock
 (
 dbLock
 )
@@ -1152,7 +1156,7 @@ flags
 (
 void
 )
-PR_Unlock
+PZ_Unlock
 (
 dbLock
 )
@@ -1186,7 +1190,7 @@ dbLock
 NULL
 )
 ;
-PR_Lock
+PZ_Lock
 (
 dbLock
 )
@@ -1208,7 +1212,7 @@ flags
 (
 void
 )
-PR_Unlock
+PZ_Unlock
 (
 dbLock
 )
@@ -1259,7 +1263,7 @@ dbLock
 NULL
 )
 ;
-PR_Lock
+PZ_Lock
 (
 dbLock
 )
@@ -1282,7 +1286,7 @@ flags
 (
 void
 )
-PR_Unlock
+PZ_Unlock
 (
 dbLock
 )
@@ -1349,7 +1353,7 @@ dbLock
 NULL
 )
 ;
-PR_Lock
+PZ_Lock
 (
 dbLock
 )
@@ -1373,7 +1377,7 @@ flags
 (
 void
 )
-PR_Unlock
+PZ_Unlock
 (
 dbLock
 )
@@ -1403,7 +1407,7 @@ NULL
 ;
 SKIP_AFTER_FORK
 (
-PR_Lock
+PZ_Lock
 (
 dbLock
 )
@@ -1422,7 +1426,7 @@ db
 ;
 SKIP_AFTER_FORK
 (
-PR_Unlock
+PZ_Unlock
 (
 dbLock
 )
@@ -20417,8 +20421,9 @@ updatehandle
 .
 dbMon
 =
-PR_NewMonitor
+PZ_NewMonitor
 (
+nssILockCertDB
 )
 ;
 updatehandle
@@ -20455,7 +20460,7 @@ void
 handle
 )
 ;
-PR_DestroyMonitor
+PZ_DestroyMonitor
 (
 updatehandle
 .
@@ -23641,7 +23646,7 @@ handle
 dbMon
 )
 {
-PR_DestroyMonitor
+PZ_DestroyMonitor
 (
 handle
 -
@@ -24223,8 +24228,9 @@ handle
 >
 dbMon
 =
-PR_NewMonitor
+PZ_NewMonitor
 (
+nssILockCertDB
 )
 ;
 PORT_Assert
@@ -24281,7 +24287,7 @@ handle
 dbMon
 )
 {
-PR_DestroyMonitor
+PZ_DestroyMonitor
 (
 handle
 -
@@ -27456,7 +27462,7 @@ DestroyCertFreeList
 ;
 SKIP_AFTER_FORK
 (
-PR_DestroyLock
+PZ_DestroyLock
 (
 freeListLock
 )
@@ -27480,7 +27486,7 @@ dbLock
 {
 SKIP_AFTER_FORK
 (
-PR_DestroyLock
+PZ_DestroyLock
 (
 dbLock
 )
@@ -27498,7 +27504,7 @@ certRefCountLock
 {
 SKIP_AFTER_FORK
 (
-PR_DestroyLock
+PZ_DestroyLock
 (
 certRefCountLock
 )
@@ -27516,7 +27522,7 @@ certTrustLock
 {
 SKIP_AFTER_FORK
 (
-PR_DestroyLock
+PZ_DestroyLock
 (
 certTrustLock
 )

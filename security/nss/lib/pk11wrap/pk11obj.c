@@ -7547,7 +7547,7 @@ PR_TRUE
 )
 ;
 return
-pk11_MakePrivKey
+PK11_MakePrivKey
 (
 slot
 nullKey

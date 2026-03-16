@@ -69,6 +69,13 @@ utilrename
 .
 h
 "
+#
+include
+"
+nssilock
+.
+h
+"
 /
 *
 *

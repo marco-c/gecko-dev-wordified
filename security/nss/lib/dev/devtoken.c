@@ -192,7 +192,7 @@ tok
 pk11slot
 )
 ;
-PR_DestroyLock
+PZ_DestroyLock
 (
 tok
 -

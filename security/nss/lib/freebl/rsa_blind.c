@@ -1298,10 +1298,6 @@ modulus
 len
 bit_len_n
 msgHash
-sizeof
-(
-msgHash
-)
 hashAlg
 hashAlg
 salt

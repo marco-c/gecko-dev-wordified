@@ -924,7 +924,7 @@ NSSToken
 *
 token
 ;
-PRLock
+PZLock
 *
 lock
 ;
@@ -996,8 +996,9 @@ rvCache
 >
 lock
 =
-PR_NewLock
+PZ_NewLock
 (
+nssILockOther
 )
 ;
 /
@@ -1243,7 +1244,7 @@ if
 cache
 )
 {
-PR_Lock
+PZ_Lock
 (
 cache
 -
@@ -1256,7 +1257,7 @@ clear_cache
 cache
 )
 ;
-PR_Unlock
+PZ_Unlock
 (
 cache
 -
@@ -1293,7 +1294,7 @@ cache
 lock
 )
 {
-PR_DestroyLock
+PZ_DestroyLock
 (
 cache
 -
@@ -1323,7 +1324,7 @@ objclass
 PRBool
 haveIt
 ;
-PR_Lock
+PZ_Lock
 (
 cache
 -
@@ -1391,7 +1392,7 @@ haveIt
 PR_FALSE
 ;
 }
-PR_Unlock
+PZ_Unlock
 (
 cache
 -
@@ -3802,7 +3803,7 @@ goto
 finish
 ;
 }
-PR_Lock
+PZ_Lock
 (
 cache
 -
@@ -3856,7 +3857,7 @@ maximumOpt
 ;
 }
 }
-PR_Unlock
+PZ_Unlock
 (
 cache
 -
@@ -4032,7 +4033,7 @@ return
 PR_FAILURE
 ;
 }
-PR_Lock
+PZ_Lock
 (
 cache
 -
@@ -4433,7 +4434,7 @@ CK_ULONG
 ;
 }
 }
-PR_Unlock
+PZ_Unlock
 (
 cache
 -
@@ -4458,7 +4459,7 @@ PR_SUCCESS
 ;
 loser
 :
-PR_Unlock
+PZ_Unlock
 (
 cache
 -
@@ -4546,7 +4547,7 @@ ignored
 *
 /
 }
-PR_Lock
+PZ_Lock
 (
 cache
 -
@@ -4598,7 +4599,7 @@ break
 ;
 default
 :
-PR_Unlock
+PZ_Unlock
 (
 cache
 -
@@ -4632,7 +4633,7 @@ objectType
 )
 )
 {
-PR_Unlock
+PZ_Unlock
 (
 cache
 -
@@ -4869,7 +4870,7 @@ status
 PR_FAILURE
 ;
 }
-PR_Unlock
+PZ_Unlock
 (
 cache
 -
@@ -4918,7 +4919,7 @@ cache
 return
 ;
 }
-PR_Lock
+PZ_Lock
 (
 cache
 -
@@ -5176,7 +5177,7 @@ oType
 NULL
 ;
 }
-PR_Unlock
+PZ_Unlock
 (
 cache
 -

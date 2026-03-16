@@ -67,6 +67,13 @@ code
 #
 include
 "
+nssilock
+.
+h
+"
+#
+include
+"
 prmon
 .
 h
@@ -15209,7 +15216,7 @@ rv
 ;
 }
 static
-PRLock
+PZLock
 *
 certRefCountLock
 =
@@ -15286,7 +15293,7 @@ certRefCountLock
 NULL
 )
 ;
-PR_Lock
+PZ_Lock
 (
 certRefCountLock
 )
@@ -15324,7 +15331,7 @@ NULL
 PRStatus
 prstat
 =
-PR_Unlock
+PZ_Unlock
 (
 certRefCountLock
 )
@@ -15339,7 +15346,7 @@ PR_SUCCESS
 ;
 }
 static
-PRLock
+PZLock
 *
 certTrustLock
 =
@@ -15416,14 +15423,14 @@ certTrustLock
 NULL
 )
 ;
-PR_Lock
+PZ_Lock
 (
 certTrustLock
 )
 ;
 }
 static
-PRLock
+PZLock
 *
 certTempPermCertLock
 =
@@ -15460,7 +15467,7 @@ certTempPermCertLock
 NULL
 )
 ;
-PR_Lock
+PZ_Lock
 (
 certTempPermCertLock
 )
@@ -15511,7 +15518,7 @@ if
 certTempPermCertLock
 )
 {
-PR_Lock
+PZ_Lock
 (
 certTempPermCertLock
 )
@@ -15534,8 +15541,9 @@ NULL
 {
 certRefCountLock
 =
-PR_NewLock
+PZ_NewLock
 (
+nssILockRefLock
 )
 ;
 PORT_Assert
@@ -15567,8 +15575,9 @@ NULL
 {
 certTrustLock
 =
-PR_NewLock
+PZ_NewLock
 (
+nssILockCertDB
 )
 ;
 PORT_Assert
@@ -15585,7 +15594,7 @@ if
 certTrustLock
 )
 {
-PR_DestroyLock
+PZ_DestroyLock
 (
 certRefCountLock
 )
@@ -15609,8 +15618,9 @@ NULL
 {
 certTempPermCertLock
 =
-PR_NewLock
+PZ_NewLock
 (
+nssILockCertDB
 )
 ;
 PORT_Assert
@@ -15627,12 +15637,12 @@ if
 certTempPermCertLock
 )
 {
-PR_DestroyLock
+PZ_DestroyLock
 (
 certTrustLock
 )
 ;
-PR_DestroyLock
+PZ_DestroyLock
 (
 certRefCountLock
 )
@@ -15678,7 +15688,7 @@ if
 certRefCountLock
 )
 {
-PR_DestroyLock
+PZ_DestroyLock
 (
 certRefCountLock
 )
@@ -15708,7 +15718,7 @@ if
 certTrustLock
 )
 {
-PR_DestroyLock
+PZ_DestroyLock
 (
 certTrustLock
 )
@@ -15738,7 +15748,7 @@ if
 certTempPermCertLock
 )
 {
-PR_DestroyLock
+PZ_DestroyLock
 (
 certTempPermCertLock
 )
@@ -15789,7 +15799,7 @@ NULL
 PRStatus
 prstat
 =
-PR_Unlock
+PZ_Unlock
 (
 certTrustLock
 )
@@ -15836,7 +15846,7 @@ NULL
 PRStatus
 prstat
 =
-PR_Unlock
+PZ_Unlock
 (
 certTempPermCertLock
 )
@@ -15864,7 +15874,7 @@ if
 certTempPermCertLock
 )
 {
-PR_Unlock
+PZ_Unlock
 (
 certTempPermCertLock
 )

@@ -181,7 +181,7 @@ NSSArena
 *
 arena
 ;
-PRLock
+PZLock
 *
 lock
 ;
@@ -396,7 +396,7 @@ lastTokenPingTime
 nssSlotLastPingState
 lastTokenPingState
 ;
-PRLock
+PZLock
 *
 lock
 ;
@@ -408,7 +408,7 @@ PK11SlotInfo
 *
 pk11slot
 ;
-PRLock
+PZLock
 *
 isPresentLock
 ;
@@ -446,7 +446,7 @@ nssSlot_IsTokenPresent
 .
 *
 /
-PRLock
+PZLock
 *
 lock
 ;

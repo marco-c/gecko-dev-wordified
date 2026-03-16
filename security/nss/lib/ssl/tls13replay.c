@@ -120,6 +120,19 @@ NSS_RegisterShutdown
 #
 include
 "
+nssilock
+.
+h
+"
+/
+*
+for
+PZMonitor
+*
+/
+#
+include
+"
 pk11pub
 .
 h
@@ -208,7 +221,7 @@ access
 .
 *
 /
-PRMonitor
+PZMonitor
 *
 lock
 ;
@@ -350,7 +363,7 @@ ctx
 lock
 )
 {
-PR_DestroyMonitor
+PZ_DestroyMonitor
 (
 ctx
 -
@@ -760,8 +773,9 @@ ctx
 >
 lock
 =
-PR_NewMonitor
+PZ_NewMonitor
 (
+nssILockSSL
 )
 ;
 if
@@ -1860,7 +1874,7 @@ return
 PR_TRUE
 ;
 }
-PR_EnterMonitor
+PZ_EnterMonitor
 (
 ctx
 -
@@ -2005,7 +2019,7 @@ ok
 )
 ;
 }
-PR_ExitMonitor
+PZ_ExitMonitor
 (
 ctx
 -

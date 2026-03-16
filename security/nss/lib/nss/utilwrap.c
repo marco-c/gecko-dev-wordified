@@ -2649,10 +2649,12 @@ rwlock
 SECStatus
 __nss_InitLock
 (
-PRLock
+PZLock
 *
 *
 ppLock
+nssILockType
+ltype
 )
 {
 PORT_SetError

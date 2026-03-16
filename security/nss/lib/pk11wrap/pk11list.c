@@ -77,6 +77,13 @@ h
 #
 include
 "
+nssilock
+.
+h
+"
+#
+include
+"
 secmod
 .
 h

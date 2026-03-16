@@ -92,6 +92,13 @@ h
 #
 include
 "
+nssilock
+.
+h
+"
+#
+include
+"
 secmodi
 .
 h
@@ -820,8 +827,9 @@ list
 >
 lock
 =
-PR_NewLock
+PZ_NewLock
 (
+nssILockList
 )
 ;
 if
@@ -903,7 +911,7 @@ return
 SECFailure
 ;
 }
-PR_Lock
+PZ_Lock
 (
 list
 -
@@ -929,7 +937,7 @@ freeit
 PR_TRUE
 ;
 }
-PR_Unlock
+PZ_Unlock
 (
 list
 -
@@ -1022,7 +1030,7 @@ list
 lock
 )
 {
-PR_DestroyLock
+PZ_DestroyLock
 (
 list
 -
@@ -1224,7 +1232,7 @@ refCount
 =
 1
 ;
-PR_Lock
+PZ_Lock
 (
 list
 -
@@ -1386,7 +1394,7 @@ head
 =
 le
 ;
-PR_Unlock
+PZ_Unlock
 (
 list
 -
@@ -1421,7 +1429,7 @@ PK11SlotListElement
 le
 )
 {
-PR_Lock
+PZ_Lock
 (
 list
 -
@@ -1503,7 +1511,7 @@ prev
 =
 NULL
 ;
-PR_Unlock
+PZ_Unlock
 (
 list
 -
@@ -1843,7 +1851,7 @@ PK11SlotListElement
 *
 le
 ;
-PR_Lock
+PZ_Lock
 (
 list
 -
@@ -1874,7 +1882,7 @@ refCount
 +
 +
 ;
-PR_Unlock
+PZ_Unlock
 (
 list
 -
@@ -1950,7 +1958,7 @@ PK11SlotListElement
 *
 new_le
 ;
-PR_Lock
+PZ_Lock
 (
 list
 -
@@ -2067,7 +2075,7 @@ refCount
 +
 +
 ;
-PR_Unlock
+PZ_Unlock
 (
 list
 -
@@ -2525,8 +2533,9 @@ slot
 >
 freeListLock
 =
-PR_NewLock
+PZ_NewLock
 (
+nssILockFreelist
 )
 ;
 if
@@ -2554,8 +2563,9 @@ slot
 >
 nssTokenLock
 =
-PR_NewLock
+PZ_NewLock
 (
+nssILockOther
 )
 ;
 if
@@ -2569,7 +2579,7 @@ nssTokenLock
 NULL
 )
 {
-PR_DestroyLock
+PZ_DestroyLock
 (
 slot
 -
@@ -2596,8 +2606,9 @@ mod
 >
 isThreadSafe
 ?
-PR_NewLock
+PZ_NewLock
 (
+nssILockSession
 )
 :
 mod
@@ -2616,7 +2627,7 @@ sessionLock
 NULL
 )
 {
-PR_DestroyLock
+PZ_DestroyLock
 (
 slot
 -
@@ -2624,7 +2635,7 @@ slot
 nssTokenLock
 )
 ;
-PR_DestroyLock
+PZ_DestroyLock
 (
 slot
 -
@@ -3178,7 +3189,7 @@ slot
 sessionLock
 )
 {
-PR_DestroyLock
+PZ_DestroyLock
 (
 slot
 -
@@ -3202,7 +3213,7 @@ slot
 freeListLock
 )
 {
-PR_DestroyLock
+PZ_DestroyLock
 (
 slot
 -
@@ -3226,7 +3237,7 @@ slot
 nssTokenLock
 )
 {
-PR_DestroyLock
+PZ_DestroyLock
 (
 slot
 -
@@ -3354,7 +3365,7 @@ PK11SlotInfo
 slot
 )
 {
-PR_Lock
+PZ_Lock
 (
 slot
 -
@@ -3371,7 +3382,7 @@ PK11SlotInfo
 slot
 )
 {
-PR_Unlock
+PZ_Unlock
 (
 slot
 -
@@ -5425,8 +5436,9 @@ list
 >
 lock
 =
-PR_NewLock
+PZ_NewLock
 (
+nssILockList
 )
 ;
 list
@@ -16473,7 +16485,7 @@ nsst
 )
 ;
 }
-PR_Lock
+PZ_Lock
 (
 sl
 -
@@ -16495,7 +16507,7 @@ nssToken
 =
 nsst
 ;
-PR_Unlock
+PZ_Unlock
 (
 sl
 -
@@ -16533,7 +16545,7 @@ rv
 =
 NULL
 ;
-PR_Lock
+PZ_Lock
 (
 sl
 -
@@ -16560,7 +16572,7 @@ nssToken
 )
 ;
 }
-PR_Unlock
+PZ_Unlock
 (
 sl
 -

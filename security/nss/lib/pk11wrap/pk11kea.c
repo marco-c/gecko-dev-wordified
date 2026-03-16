@@ -98,6 +98,13 @@ h
 #
 include
 "
+nssilock
+.
+h
+"
+#
+include
+"
 secmodi
 .
 h
@@ -591,11 +598,11 @@ them
 /
 privKey
 =
-pk11_MakePrivKey
+PK11_MakePrivKey
 (
 slot
 nullKey
-PR_FALSE
+PR_TRUE
 privKeyHandle
 symKey
 -

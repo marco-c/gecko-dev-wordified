@@ -100,14 +100,7 @@ h
 #
 include
 "
-prlock
-.
-h
-"
-#
-include
-"
-prcvar
+nssilock
 .
 h
 "
@@ -581,7 +574,7 @@ parameters
 struct
 RSABlindingParamsListStr
 {
-PRLock
+PZLock
 *
 lock
 ;
@@ -9086,8 +9079,9 @@ blindingParamsList
 .
 lock
 =
-PR_NewLock
+PZ_NewLock
 (
+nssILockOther
 )
 ;
 if
@@ -9733,7 +9727,7 @@ list
 lock
 *
 /
-PR_Lock
+PZ_Lock
 (
 blindingParamsList
 .
@@ -10111,7 +10105,7 @@ g
 )
 )
 ;
-PR_Unlock
+PZ_Unlock
 (
 blindingParamsList
 .
@@ -10184,7 +10178,7 @@ g
 )
 )
 ;
-PR_Unlock
+PZ_Unlock
 (
 blindingParamsList
 .
@@ -10340,7 +10334,7 @@ waitCount
 -
 ;
 }
-PR_Unlock
+PZ_Unlock
 (
 blindingParamsList
 .
@@ -10434,7 +10428,7 @@ we
 fail
 *
 /
-PR_Unlock
+PZ_Unlock
 (
 blindingParamsList
 .
@@ -10544,7 +10538,7 @@ params
 .
 *
 /
-PR_Lock
+PZ_Lock
 (
 blindingParamsList
 .
@@ -10640,7 +10634,7 @@ waitCount
 0
 ;
 }
-PR_Unlock
+PZ_Unlock
 (
 blindingParamsList
 .
@@ -10715,7 +10709,7 @@ cVar
 PR_INTERVAL_NO_TIMEOUT
 )
 ;
-PR_Unlock
+PZ_Unlock
 (
 blindingParamsList
 .
@@ -10767,7 +10761,7 @@ if
 holdingLock
 )
 {
-PR_Lock
+PZ_Lock
 (
 blindingParamsList
 .
@@ -10845,7 +10839,7 @@ if
 holdingLock
 )
 {
-PR_Unlock
+PZ_Unlock
 (
 blindingParamsList
 .
@@ -12631,7 +12625,7 @@ lock
 {
 SKIP_AFTER_FORK
 (
-PR_DestroyLock
+PZ_DestroyLock
 (
 blindingParamsList
 .
