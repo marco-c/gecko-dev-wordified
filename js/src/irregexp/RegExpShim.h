@@ -215,6 +215,11 @@ algorithm
 #
 include
 <
+bit
+>
+#
+include
+<
 cctype
 >
 #
@@ -2125,10 +2130,10 @@ value
 )
 {
 return
-mozilla
+std
 :
 :
-CountTrailingZeroes64
+countr_zero
 (
 value
 )
