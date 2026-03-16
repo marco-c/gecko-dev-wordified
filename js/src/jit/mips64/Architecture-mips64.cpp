@@ -123,6 +123,11 @@ h
 "
 #
 include
+<
+bit
+>
+#
+include
 "
 jit
 /
@@ -665,10 +670,10 @@ bits
 uint32_t
 ret
 =
-mozilla
+std
 :
 :
-CountPopulation32
+popcount
 (
 bits
 >

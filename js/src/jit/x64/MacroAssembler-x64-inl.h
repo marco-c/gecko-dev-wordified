@@ -4624,10 +4624,7 @@ this
 /
 Equivalent
 to
-mozilla
-:
-:
-CountPopulation32
+popcnt32
 adapted
 for
 64

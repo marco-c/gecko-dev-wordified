@@ -3098,10 +3098,10 @@ to
 GCC
 output
 of
-mozilla
+std
 :
 :
-CountPopulation32
+popcount
 (
 )
 ma_move
