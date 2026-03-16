@@ -3105,12 +3105,12 @@ PRCallOnceType
 nssInitOnce
 ;
 static
-PZLock
+PRLock
 *
 nssInitLock
 ;
 static
-PZCondVar
+PRCondVar
 *
 nssInitCondition
 ;
@@ -3127,9 +3127,8 @@ void
 {
 nssInitLock
 =
-PZ_NewLock
+PR_NewLock
 (
-nssILockOther
 )
 ;
 if
@@ -3146,7 +3145,7 @@ PR_FAILURE
 }
 nssInitCondition
 =
-PZ_NewCondVar
+PR_NewCondVar
 (
 nssInitLock
 )
@@ -3380,7 +3379,7 @@ initializations
 .
 *
 /
-PZ_Lock
+PR_Lock
 (
 nssInitLock
 )
@@ -3406,7 +3405,7 @@ isReallyInitted
 nssIsInInit
 )
 {
-PZ_WaitCondVar
+PR_WaitCondVar
 (
 nssInitCondition
 PR_INTERVAL_NO_TIMEOUT
@@ -3449,7 +3448,7 @@ nssIsInInit
 +
 +
 ;
-PZ_Unlock
+PR_Unlock
 (
 nssInitLock
 )
@@ -4569,7 +4568,7 @@ nss_isInitted
 flag
 *
 /
-PZ_Lock
+PR_Lock
 (
 nssInitLock
 )
@@ -4633,12 +4632,12 @@ move
 forward
 *
 /
-PZ_NotifyAllCondVar
+PR_NotifyAllCondVar
 (
 nssInitCondition
 )
 ;
-PZ_Unlock
+PR_Unlock
 (
 nssInitLock
 )
@@ -4705,7 +4704,7 @@ configStrings
 ;
 }
 }
-PZ_Lock
+PR_Lock
 (
 nssInitLock
 )
@@ -4727,12 +4726,12 @@ move
 forward
 *
 /
-PZ_NotifyCondVar
+PR_NotifyCondVar
 (
 nssInitCondition
 )
 ;
-PZ_Unlock
+PR_Unlock
 (
 nssInitLock
 )
@@ -5847,7 +5846,7 @@ static
 struct
 NSSShutdownListStr
 {
-PZLock
+PRLock
 *
 lock
 ;
@@ -6021,7 +6020,7 @@ return
 SECFailure
 ;
 }
-PZ_Lock
+PR_Lock
 (
 nssInitLock
 )
@@ -6034,7 +6033,7 @@ NSS_IsInitialized
 )
 )
 {
-PZ_Unlock
+PR_Unlock
 (
 nssInitLock
 )
@@ -6048,7 +6047,7 @@ return
 SECFailure
 ;
 }
-PZ_Unlock
+PR_Unlock
 (
 nssInitLock
 )
@@ -6077,7 +6076,7 @@ nssShutdownList
 lock
 )
 ;
-PZ_Lock
+PR_Lock
 (
 nssShutdownList
 .
@@ -6113,7 +6112,7 @@ i
 0
 )
 {
-PZ_Unlock
+PR_Unlock
 (
 nssShutdownList
 .
@@ -6175,7 +6174,7 @@ appData
 =
 appData
 ;
-PZ_Unlock
+PR_Unlock
 (
 nssShutdownList
 .
@@ -6234,7 +6233,7 @@ if
 funcs
 )
 {
-PZ_Unlock
+PR_Unlock
 (
 nssShutdownList
 .
@@ -6291,7 +6290,7 @@ peakFuncs
 +
 +
 ;
-PZ_Unlock
+PR_Unlock
 (
 nssShutdownList
 .
@@ -6369,7 +6368,7 @@ return
 SECFailure
 ;
 }
-PZ_Lock
+PR_Lock
 (
 nssInitLock
 )
@@ -6382,7 +6381,7 @@ NSS_IsInitialized
 )
 )
 {
-PZ_Unlock
+PR_Unlock
 (
 nssInitLock
 )
@@ -6396,7 +6395,7 @@ return
 SECFailure
 ;
 }
-PZ_Unlock
+PR_Unlock
 (
 nssInitLock
 )
@@ -6408,7 +6407,7 @@ nssShutdownList
 lock
 )
 ;
-PZ_Lock
+PR_Lock
 (
 nssShutdownList
 .
@@ -6454,7 +6453,7 @@ appData
 NULL
 ;
 }
-PZ_Unlock
+PR_Unlock
 (
 nssShutdownList
 .
@@ -6518,9 +6517,8 @@ nssShutdownList
 .
 lock
 =
-PZ_NewLock
+PR_NewLock
 (
-nssILockOther
 )
 ;
 if
@@ -6558,7 +6556,7 @@ funcs
 NULL
 )
 {
-PZ_DestroyLock
+PR_DestroyLock
 (
 nssShutdownList
 .
@@ -6714,7 +6712,7 @@ nssShutdownList
 lock
 )
 {
-PZ_DestroyLock
+PR_DestroyLock
 (
 nssShutdownList
 .
@@ -7083,7 +7081,7 @@ return
 SECFailure
 ;
 }
-PZ_Lock
+PR_Lock
 (
 nssInitLock
 )
@@ -7094,7 +7092,7 @@ if
 nssIsInitted
 )
 {
-PZ_Unlock
+PR_Unlock
 (
 nssInitLock
 )
@@ -7134,7 +7132,7 @@ while
 nssIsInInit
 )
 {
-PZ_WaitCondVar
+PR_WaitCondVar
 (
 nssInitCondition
 PR_INTERVAL_NO_TIMEOUT
@@ -7147,7 +7145,7 @@ nss_Shutdown
 (
 )
 ;
-PZ_Unlock
+PR_Unlock
 (
 nssInitLock
 )
@@ -7394,7 +7392,7 @@ return
 SECFailure
 ;
 }
-PZ_Lock
+PR_Lock
 (
 nssInitLock
 )
@@ -7425,7 +7423,7 @@ while
 nssIsInInit
 )
 {
-PZ_WaitCondVar
+PR_WaitCondVar
 (
 nssInitCondition
 PR_INTERVAL_NO_TIMEOUT
@@ -7460,7 +7458,7 @@ if
 nssIsInitted
 )
 {
-PZ_Unlock
+PR_Unlock
 (
 nssInitLock
 )
@@ -7489,7 +7487,7 @@ context
 )
 )
 {
-PZ_Unlock
+PR_Unlock
 (
 nssInitLock
 )
@@ -7596,7 +7594,7 @@ that
 thread
 *
 /
-PZ_Unlock
+PR_Unlock
 (
 nssInitLock
 )

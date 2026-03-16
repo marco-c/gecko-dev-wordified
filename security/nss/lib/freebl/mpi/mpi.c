@@ -3288,7 +3288,8 @@ qp
 )
 SIGN
 (
-q
+&
+qp
 )
 =
 ZPOS

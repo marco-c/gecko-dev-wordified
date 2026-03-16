@@ -226,7 +226,7 @@ NSSArena
 *
 arena
 ;
-PZLock
+PRLock
 *
 lock
 ;
@@ -366,9 +366,8 @@ store
 >
 lock
 =
-PZ_NewLock
+PR_NewLock
 (
-nssILockOther
 )
 ;
 if
@@ -499,7 +498,7 @@ store
 lock
 )
 {
-PZ_DestroyLock
+PR_DestroyLock
 (
 store
 -
@@ -594,7 +593,7 @@ return
 PR_FAILURE
 ;
 }
-PZ_DestroyLock
+PR_DestroyLock
 (
 store
 -
@@ -1004,7 +1003,7 @@ rvCert
 =
 NULL
 ;
-PZ_Lock
+PR_Lock
 (
 store
 -
@@ -1060,7 +1059,7 @@ c
 ;
 }
 }
-PZ_Unlock
+PR_Unlock
 (
 store
 -
@@ -1435,7 +1434,7 @@ locked
 =
 PR_TRUE
 ;
-PZ_Lock
+PR_Lock
 (
 out
 -
@@ -1445,7 +1444,7 @@ lock
 ;
 #
 else
-PZ_Lock
+PR_Lock
 (
 store
 -
@@ -1563,7 +1562,7 @@ in
 unlocked
 )
 ;
-PZ_Unlock
+PR_Unlock
 (
 out
 -
@@ -1573,7 +1572,7 @@ lock
 ;
 #
 else
-PZ_Unlock
+PR_Unlock
 (
 store
 -
@@ -1740,7 +1739,7 @@ nssList
 *
 subjectList
 ;
-PZ_Lock
+PR_Lock
 (
 store
 -
@@ -1784,7 +1783,7 @@ arenaOpt
 )
 ;
 }
-PZ_Unlock
+PR_Unlock
 (
 store
 -
@@ -2084,7 +2083,7 @@ subjectList
 =
 NULL
 ;
-PZ_Lock
+PR_Lock
 (
 store
 -
@@ -2130,7 +2129,7 @@ arenaOpt
 )
 ;
 }
-PZ_Unlock
+PR_Unlock
 (
 store
 -
@@ -2386,7 +2385,7 @@ return
 NULL
 ;
 }
-PZ_Lock
+PR_Lock
 (
 store
 -
@@ -2434,7 +2433,7 @@ emailList
 )
 ;
 }
-PZ_Unlock
+PR_Unlock
 (
 store
 -
@@ -2584,7 +2583,7 @@ rvCert
 =
 NULL
 ;
-PZ_Lock
+PR_Lock
 (
 store
 -
@@ -2601,7 +2600,7 @@ issuer
 serial
 )
 ;
-PZ_Unlock
+PR_Unlock
 (
 store
 -
@@ -2720,7 +2719,7 @@ trust
 >
 certificate
 ;
-PZ_Lock
+PR_Lock
 (
 store
 -
@@ -2782,7 +2781,7 @@ trust
 newTrust
 ;
 }
-PZ_Unlock
+PR_Unlock
 (
 store
 -
@@ -2823,7 +2822,7 @@ rvTrust
 =
 NULL
 ;
-PZ_Lock
+PR_Lock
 (
 store
 -
@@ -2868,7 +2867,7 @@ trust
 )
 ;
 }
-PZ_Unlock
+PR_Unlock
 (
 store
 -
@@ -2907,7 +2906,7 @@ profile
 >
 certificate
 ;
-PZ_Lock
+PR_Lock
 (
 store
 -
@@ -2969,7 +2968,7 @@ profile
 newProfile
 ;
 }
-PZ_Unlock
+PR_Unlock
 (
 store
 -
@@ -3010,7 +3009,7 @@ rvProfile
 =
 NULL
 ;
-PZ_Lock
+PR_Lock
 (
 store
 -
@@ -3055,7 +3054,7 @@ profile
 )
 ;
 }
-PZ_Unlock
+PR_Unlock
 (
 store
 -
@@ -3332,7 +3331,7 @@ void
 arg
 )
 {
-PZ_Lock
+PR_Lock
 (
 store
 -
@@ -3350,7 +3349,7 @@ cert_dump_iter
 arg
 )
 ;
-PZ_Unlock
+PR_Unlock
 (
 store
 -

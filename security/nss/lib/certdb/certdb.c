@@ -67,13 +67,6 @@ code
 #
 include
 "
-nssilock
-.
-h
-"
-#
-include
-"
 prmon
 .
 h
@@ -6228,6 +6221,9 @@ rsaPssKey
 :
 case
 dsaKey
+:
+case
+mldsaKey
 :
 requiredUsage
 |
@@ -15213,7 +15209,7 @@ rv
 ;
 }
 static
-PZLock
+PRLock
 *
 certRefCountLock
 =
@@ -15290,7 +15286,7 @@ certRefCountLock
 NULL
 )
 ;
-PZ_Lock
+PR_Lock
 (
 certRefCountLock
 )
@@ -15328,7 +15324,7 @@ NULL
 PRStatus
 prstat
 =
-PZ_Unlock
+PR_Unlock
 (
 certRefCountLock
 )
@@ -15343,7 +15339,7 @@ PR_SUCCESS
 ;
 }
 static
-PZLock
+PRLock
 *
 certTrustLock
 =
@@ -15420,14 +15416,14 @@ certTrustLock
 NULL
 )
 ;
-PZ_Lock
+PR_Lock
 (
 certTrustLock
 )
 ;
 }
 static
-PZLock
+PRLock
 *
 certTempPermCertLock
 =
@@ -15464,7 +15460,7 @@ certTempPermCertLock
 NULL
 )
 ;
-PZ_Lock
+PR_Lock
 (
 certTempPermCertLock
 )
@@ -15515,7 +15511,7 @@ if
 certTempPermCertLock
 )
 {
-PZ_Lock
+PR_Lock
 (
 certTempPermCertLock
 )
@@ -15538,9 +15534,8 @@ NULL
 {
 certRefCountLock
 =
-PZ_NewLock
+PR_NewLock
 (
-nssILockRefLock
 )
 ;
 PORT_Assert
@@ -15572,9 +15567,8 @@ NULL
 {
 certTrustLock
 =
-PZ_NewLock
+PR_NewLock
 (
-nssILockCertDB
 )
 ;
 PORT_Assert
@@ -15591,7 +15585,7 @@ if
 certTrustLock
 )
 {
-PZ_DestroyLock
+PR_DestroyLock
 (
 certRefCountLock
 )
@@ -15615,9 +15609,8 @@ NULL
 {
 certTempPermCertLock
 =
-PZ_NewLock
+PR_NewLock
 (
-nssILockCertDB
 )
 ;
 PORT_Assert
@@ -15634,12 +15627,12 @@ if
 certTempPermCertLock
 )
 {
-PZ_DestroyLock
+PR_DestroyLock
 (
 certTrustLock
 )
 ;
-PZ_DestroyLock
+PR_DestroyLock
 (
 certRefCountLock
 )
@@ -15685,7 +15678,7 @@ if
 certRefCountLock
 )
 {
-PZ_DestroyLock
+PR_DestroyLock
 (
 certRefCountLock
 )
@@ -15715,7 +15708,7 @@ if
 certTrustLock
 )
 {
-PZ_DestroyLock
+PR_DestroyLock
 (
 certTrustLock
 )
@@ -15745,7 +15738,7 @@ if
 certTempPermCertLock
 )
 {
-PZ_DestroyLock
+PR_DestroyLock
 (
 certTempPermCertLock
 )
@@ -15796,7 +15789,7 @@ NULL
 PRStatus
 prstat
 =
-PZ_Unlock
+PR_Unlock
 (
 certTrustLock
 )
@@ -15843,7 +15836,7 @@ NULL
 PRStatus
 prstat
 =
-PZ_Unlock
+PR_Unlock
 (
 certTempPermCertLock
 )
@@ -15871,7 +15864,7 @@ if
 certTempPermCertLock
 )
 {
-PZ_Unlock
+PR_Unlock
 (
 certTempPermCertLock
 )
