@@ -210,6 +210,11 @@ wasm_wasm_baseline_stk_mgmt_inl_h
 #
 define
 wasm_wasm_baseline_stk_mgmt_inl_h
+#
+include
+<
+bit
+>
 namespace
 js
 {
@@ -7119,10 +7124,10 @@ cutoff
 |
 |
 !
-mozilla
+std
 :
 :
-IsPowerOfTwo
+has_single_bit
 (
 static_cast
 <
@@ -7225,10 +7230,10 @@ cutoff
 |
 |
 !
-mozilla
+std
 :
 :
-IsPowerOfTwo
+has_single_bit
 (
 static_cast
 <

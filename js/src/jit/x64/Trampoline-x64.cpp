@@ -233,12 +233,6 @@ js
 :
 jit
 ;
-using
-mozilla
-:
-:
-IsPowerOfTwo
-;
 /
 /
 This

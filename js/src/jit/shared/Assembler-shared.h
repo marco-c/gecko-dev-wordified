@@ -143,6 +143,11 @@ h
 #
 include
 <
+bit
+>
+#
+include
+<
 limits
 .
 h
@@ -3590,10 +3595,10 @@ hugeMemory
 {
 MOZ_ASSERT
 (
-mozilla
+std
 :
 :
-IsPowerOfTwo
+has_single_bit
 (
 align
 )

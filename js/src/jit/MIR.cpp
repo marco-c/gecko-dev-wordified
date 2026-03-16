@@ -461,12 +461,6 @@ using
 mozilla
 :
 :
-IsPowerOfTwo
-;
-using
-mozilla
-:
-:
 NumbersAreIdentical
 ;
 NON_GC_POINTER_TYPE_ASSERTIONS_GENERATED
@@ -3252,10 +3246,10 @@ num
 &
 &
 !
-mozilla
+std
 :
 :
-IsPowerOfTwo
+has_single_bit
 (
 mozilla
 :
@@ -29134,7 +29128,10 @@ n
 &
 &
 !
-IsPowerOfTwo
+std
+:
+:
+has_single_bit
 (
 uint32_t
 (

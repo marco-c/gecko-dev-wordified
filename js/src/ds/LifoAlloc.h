@@ -158,6 +158,11 @@ algorithm
 #
 include
 <
+bit
+>
+#
+include
+<
 new
 >
 #
@@ -3342,10 +3347,10 @@ orig
 {
 static_assert
 (
-mozilla
+std
 :
 :
-IsPowerOfTwo
+has_single_bit
 (
 LIFO_ALLOC_ALIGN
 )
