@@ -198,6 +198,11 @@ algorithm
 #
 include
 <
+bit
+>
+#
+include
+<
 cstdint
 >
 #
@@ -2747,7 +2752,10 @@ g
 INT32_MIN
 static_assert
 (
-IsPowerOfTwo
+std
+:
+:
+has_single_bit
 (
 Abs
 (

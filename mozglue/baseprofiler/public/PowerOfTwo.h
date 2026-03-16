@@ -1807,7 +1807,10 @@ T
 )
 |
 |
-IsPowerOfTwo
+std
+:
+:
+has_single_bit
 (
 Mask
 +
@@ -2539,7 +2542,10 @@ MakePowerOfTwo
 {
 static_assert
 (
-IsPowerOfTwo
+std
+:
+:
+has_single_bit
 (
 Value
 )
