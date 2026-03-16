@@ -1584,8 +1584,8 @@ aChild
 void
 AddMenuChild
 (
+const
 MenuChild
-&
 &
 aChild
 )
@@ -1593,8 +1593,8 @@ aChild
 void
 InsertMenuChild
 (
+const
 MenuChild
-&
 &
 aChild
 )
