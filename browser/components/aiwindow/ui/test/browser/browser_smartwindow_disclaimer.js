@@ -90,16 +90,6 @@ gBrowser
 .
 selectedBrowser
 ;
-await
-BrowserTestUtils
-.
-browserLoaded
-(
-browser
-false
-AIWINDOW_URL
-)
-;
 return
 {
 win

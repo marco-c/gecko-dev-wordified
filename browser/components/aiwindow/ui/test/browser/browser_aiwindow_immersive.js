@@ -382,6 +382,11 @@ win
 await
 openAIWindow
 (
+{
+waitForTabURL
+:
+false
+}
 )
 ;
 const
@@ -657,6 +662,11 @@ win
 await
 openAIWindow
 (
+{
+waitForTabURL
+:
+false
+}
 )
 ;
 const
