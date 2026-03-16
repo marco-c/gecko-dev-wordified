@@ -1428,10 +1428,13 @@ wordIndex
 ]
 ;
 }
-uint_fast8_t
+size_t
 pos
 =
-CountTrailingZeroes
+std
+:
+:
+countr_zero
 (
 word
 )
