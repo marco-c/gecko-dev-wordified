@@ -12609,7 +12609,7 @@ false
 }
 val
 =
-NumberValue
+Int32Value
 (
 savedFrame
 -
@@ -12634,7 +12634,7 @@ false
 }
 val
 =
-NumberValue
+Int32Value
 (
 *
 savedFrame
