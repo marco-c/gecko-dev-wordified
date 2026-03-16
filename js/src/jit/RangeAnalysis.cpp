@@ -27476,10 +27476,13 @@ bits
 +
 FloorLog2
 (
+uint32_t
+(
 range
 .
 upper
 (
+)
 )
 )
 ;
