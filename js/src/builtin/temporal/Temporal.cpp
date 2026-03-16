@@ -177,6 +177,11 @@ algorithm
 #
 include
 <
+bit
+>
+#
+include
+<
 cmath
 >
 #
@@ -4395,10 +4400,10 @@ accordingly
 uint32_t
 significandZeros
 =
-mozilla
+std
 :
 :
-CountLeadingZeroes64
+countl_zero
 (
 significand
 )
