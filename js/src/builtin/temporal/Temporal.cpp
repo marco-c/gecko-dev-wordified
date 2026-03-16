@@ -3956,12 +3956,10 @@ significand
 uint32_t
 extraBitsCount
 =
-32
--
 std
 :
 :
-countl_zero
+bit_width
 (
 ignoredBits
 )
