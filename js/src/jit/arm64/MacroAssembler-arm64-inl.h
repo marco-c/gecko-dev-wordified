@@ -8726,10 +8726,10 @@ Invalid
 /
 Equivalent
 to
-mozilla
+std
 :
 :
-CountPopulation64
+popcount
 (
 )
 though
