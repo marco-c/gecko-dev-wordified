@@ -207,7 +207,7 @@ setup
 0
 )
 ;
-run
+findSCCs
 (
 )
 ;
@@ -227,7 +227,7 @@ setup
 1
 )
 ;
-run
+findSCCs
 (
 )
 ;
@@ -253,7 +253,7 @@ setup
 3
 )
 ;
-run
+findSCCs
 (
 )
 ;
@@ -320,7 +320,7 @@ edge
 )
 )
 ;
-run
+findSCCs
 (
 )
 ;
@@ -387,7 +387,7 @@ edge
 )
 )
 ;
-run
+findSCCs
 (
 )
 ;
@@ -501,7 +501,7 @@ edge
 )
 )
 ;
-run
+findSCCs
 (
 )
 ;
@@ -565,7 +565,7 @@ edge
 )
 )
 ;
-run
+findSCCs
 (
 )
 ;
@@ -624,7 +624,7 @@ edge
 )
 )
 ;
-run
+findSCCs
 (
 )
 ;
@@ -660,7 +660,7 @@ edge
 )
 )
 ;
-run
+findSCCs
 (
 )
 ;
@@ -705,7 +705,7 @@ edge
 )
 )
 ;
-run
+findSCCs
 (
 )
 ;
@@ -846,7 +846,7 @@ dest_index
 ;
 }
 void
-run
+findSCCs
 (
 )
 {
