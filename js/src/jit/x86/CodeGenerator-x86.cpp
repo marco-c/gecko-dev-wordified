@@ -132,6 +132,11 @@ h
 "
 #
 include
+<
+bit
+>
+#
+include
 "
 builtin
 /
@@ -9691,10 +9696,10 @@ constant
 0
 &
 &
-mozilla
+std
 :
 :
-IsPowerOfTwo
+has_single_bit
 (
 uintptr_t
 (

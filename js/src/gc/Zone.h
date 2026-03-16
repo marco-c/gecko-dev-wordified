@@ -184,6 +184,11 @@ array
 >
 #
 include
+<
+bit
+>
+#
+include
 "
 jstypes
 .
@@ -2301,10 +2306,10 @@ sSize
 ;
 static_assert
 (
-mozilla
+std
 :
 :
-IsPowerOfTwo
+has_single_bit
 (
 sSize
 )

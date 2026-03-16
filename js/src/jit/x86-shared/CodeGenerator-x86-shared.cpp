@@ -145,6 +145,11 @@ h
 "
 #
 include
+<
+bit
+>
+#
+include
 "
 jit
 /
@@ -7301,10 +7306,10 @@ LModPowTwoI
 MOZ_ASSERT
 (
 !
-mozilla
+std
 :
 :
-IsPowerOfTwo
+has_single_bit
 (
 d
 )
@@ -9276,10 +9281,10 @@ LModPowTwoI
 MOZ_ASSERT
 (
 !
-mozilla
+std
 :
 :
-IsPowerOfTwo
+has_single_bit
 (
 mozilla
 :

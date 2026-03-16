@@ -132,6 +132,11 @@ h
 "
 #
 include
+<
+bit
+>
+#
+include
 "
 builtin
 /
@@ -6442,10 +6447,10 @@ rhs
 {
 if
 (
-mozilla
+std
 :
 :
-IsPowerOfTwo
+has_single_bit
 (
 static_cast
 <
@@ -6531,10 +6536,10 @@ return
 }
 if
 (
-mozilla
+std
 :
 :
-IsPowerOfTwo
+has_single_bit
 (
 static_cast
 <
