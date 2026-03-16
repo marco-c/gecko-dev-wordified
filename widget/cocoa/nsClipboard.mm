@@ -1716,13 +1716,13 @@ kUTTypeFileURL
 UTIHelper
 stringFromPboardType
 :
-NSPasteboardTypePNG
+NSPasteboardTypeTIFF
 ]
 [
 UTIHelper
 stringFromPboardType
 :
-NSPasteboardTypeTIFF
+NSPasteboardTypePNG
 ]
 nil
 ]
