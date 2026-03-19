@@ -121,6 +121,14 @@ ifdef
 NIGHTLY_BUILD
 DESKTOP_DEFAULT
 (
+CanvasRandomization
+)
+DESKTOP_DEFAULT
+(
+EfficientCanvasRandomization
+)
+DESKTOP_DEFAULT
+(
 ScreenAvailToResolution
 )
 DESKTOP_DEFAULT
