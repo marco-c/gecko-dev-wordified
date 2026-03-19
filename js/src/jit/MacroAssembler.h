@@ -10135,6 +10135,7 @@ DEFINED_ON
 x64
 arm64
 riscv64
+loong64
 )
 ;
 inline
@@ -18068,6 +18069,7 @@ DEFINED_ON
 x64
 arm64
 riscv64
+loong64
 )
 ;
 /
@@ -18183,6 +18185,7 @@ DEFINED_ON
 (
 arm64
 riscv64
+loong64
 )
 ;
 /
