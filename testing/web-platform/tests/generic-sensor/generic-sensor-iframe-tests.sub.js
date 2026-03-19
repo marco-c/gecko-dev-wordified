@@ -207,7 +207,7 @@ sensorName
 const
 featurePolicies
 =
-get_feature_policies_for_sensor
+get_permissions_policies_for_sensor
 (
 sensorName
 )
