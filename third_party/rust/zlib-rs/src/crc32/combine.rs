@@ -43,6 +43,7 @@ inline
 always
 )
 ]
+pub
 const
 fn
 crc32_combine_gen
@@ -68,6 +69,7 @@ inline
 always
 )
 ]
+pub
 const
 fn
 crc32_combine_op
@@ -404,6 +406,9 @@ super
 ;
 use
 crate
+:
+:
+crc32
 :
 :
 crc32

@@ -938,7 +938,7 @@ u32
 =
 unsafe
 {
-std
+core
 :
 :
 mem
