@@ -18788,7 +18788,7 @@ visitWasmMulI64WideHI64
 (
 LWasmMulI64WideHI64
 *
-lir
+ins
 )
 {
 Register
@@ -18796,7 +18796,7 @@ lhs
 =
 ToRegister
 (
-lir
+ins
 -
 >
 lhs
@@ -18809,7 +18809,7 @@ rhs
 =
 ToRegister
 (
-lir
+ins
 -
 >
 rhs
@@ -18822,7 +18822,7 @@ output
 =
 ToRegister
 (
-lir
+ins
 -
 >
 output
@@ -18864,7 +18864,7 @@ wasmMulI64WideHI64
 lhs
 rhs
 output
-lir
+ins
 -
 >
 isSigned
