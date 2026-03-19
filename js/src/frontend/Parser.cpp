@@ -55125,6 +55125,9 @@ the
 this
 value
 .
+if
+(
+!
 notePositionalFormalParameter
 (
 funNode
@@ -55153,7 +55156,14 @@ duplicatedParam
 /
 nullptr
 )
+)
+{
+return
+errorResult
+(
+)
 ;
+}
 Node
 initializerExpr
 =
