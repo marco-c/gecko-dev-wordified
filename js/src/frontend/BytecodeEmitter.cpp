@@ -73445,7 +73445,7 @@ isKind
 ParseNodeKind
 :
 :
-TypeOfNameExpr
+StringExpr
 )
 &
 &
@@ -73457,14 +73457,14 @@ isKind
 ParseNodeKind
 :
 :
-StringExpr
+TypeOfNameExpr
 )
 )
 {
 typeofNode
 =
 &
-left
+right
 -
 >
 as
@@ -73477,7 +73477,7 @@ UnaryNode
 typenameNode
 =
 &
-right
+left
 -
 >
 as
