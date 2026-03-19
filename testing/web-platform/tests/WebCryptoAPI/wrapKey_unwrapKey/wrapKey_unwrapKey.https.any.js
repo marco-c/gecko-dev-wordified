@@ -974,6 +974,11 @@ name
 raw
 "
 "
+raw
+-
+secret
+"
+"
 spki
 "
 "
@@ -1396,6 +1401,8 @@ importKey
 (
 "
 raw
+-
+secret
 "
 wrappingKeyData
 [
@@ -2010,6 +2017,8 @@ importAndExport
 (
 "
 raw
+-
+secret
 "
 toWrapKeyData
 [
