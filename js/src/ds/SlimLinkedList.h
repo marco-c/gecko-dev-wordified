@@ -2294,6 +2294,10 @@ spent
 checking
 .
 }
+i
++
++
+;
 }
 MOZ_CRASH
 (
