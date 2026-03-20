@@ -268,7 +268,6 @@ matching
 early_reject_by_local_name
 matches_selector
 ElementSelectorFlags
-IncludeStartingStyle
 MatchingContext
 MatchingForInvalidation
 MatchingMode
@@ -6205,10 +6204,6 @@ VisitedHandlingMode
 :
 :
 AllLinksVisitedAndUnvisited
-IncludeStartingStyle
-:
-:
-No
 self
 .
 quirks_mode
@@ -7726,10 +7721,6 @@ VisitedHandlingMode
 :
 :
 AllLinksVisitedAndUnvisited
-IncludeStartingStyle
-:
-:
-No
 quirks_mode
 NeedsSelectorFlags
 :

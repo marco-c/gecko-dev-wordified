@@ -194,6 +194,7 @@ super
 {
 CascadeLevel
 CascadeOrigin
+RuleCascadeFlags
 StyleSource
 }
 ;
@@ -2681,6 +2682,12 @@ LayerOrder
 :
 :
 root
+(
+)
+RuleCascadeFlags
+:
+:
+empty
 (
 )
 )

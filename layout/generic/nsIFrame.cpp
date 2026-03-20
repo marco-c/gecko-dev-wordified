@@ -66326,6 +66326,13 @@ Servo_ComputedValues_GetMatchingDeclarations
 Style
 (
 )
+/
+*
+with_starting_style
+=
+*
+/
+false
 &
 decls
 )

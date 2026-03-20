@@ -1790,6 +1790,14 @@ flags
 for_cascade_inputs
 (
 )
+include_starting_style
+:
+Default
+:
+:
+default
+(
+)
 }
 ;
 resolver
