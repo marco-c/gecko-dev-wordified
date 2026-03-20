@@ -1692,10 +1692,12 @@ and
 tab2
 are
 visible
-origWindow
+await
+SimpleTest
 .
-focus
+promiseFocus
 (
+origWindow
 )
 ;
 origWindow
