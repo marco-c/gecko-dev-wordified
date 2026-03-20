@@ -14301,14 +14301,6 @@ needed
 if
 (
 aIsWindowOpen
-&
-&
-mozilla
-:
-:
-SessionHistoryInParent
-(
-)
 )
 {
 loadState

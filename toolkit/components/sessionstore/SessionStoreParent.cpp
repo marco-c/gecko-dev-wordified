@@ -1124,14 +1124,6 @@ if
 (
 !
 sessionStoreChild
-|
-|
-mozilla
-:
-:
-SessionHistoryInParent
-(
-)
 )
 {
 return

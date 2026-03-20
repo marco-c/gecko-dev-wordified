@@ -6185,14 +6185,6 @@ load
 .
 if
 (
-mozilla
-:
-:
-SessionHistoryInParent
-(
-)
-&
-&
 TriggeringPrincipal
 (
 )
