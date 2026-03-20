@@ -463,9 +463,15 @@ EXPECTATION_BASIC_FETCH
 contentType
 :
 "
-text
+application
 /
-plain
+x
+-
+unknown
+-
+content
+-
+type
 "
 statusCode
 :
