@@ -147,7 +147,7 @@ h
 #
 include
 <
-cinttypes
+cstdint
 >
 #
 include
@@ -186,6 +186,18 @@ format
 .
 h
 "
+/
+/
+IWYU
+pragma
+:
+keep
+(
+for
+fmt
+:
+:
+)
 #
 include
 <

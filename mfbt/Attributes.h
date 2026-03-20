@@ -141,6 +141,16 @@ include
 <
 version
 >
+/
+/
+IWYU
+pragma
+:
+keep
+(
+__GLIBCXX__
+lookup
+)
 #
 endif
 /

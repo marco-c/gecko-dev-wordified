@@ -123,7 +123,7 @@ mozilla_MruCache_h
 #
 include
 <
-cstdint
+cstddef
 >
 #
 include
@@ -149,7 +149,7 @@ include
 "
 mozilla
 /
-HashFunctions
+Assertions
 .
 h
 "
