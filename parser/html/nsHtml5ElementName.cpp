@@ -6830,6 +6830,8 @@ nsHtml5TreeBuilder
 SELECT
 |
 SPECIAL
+|
+SCOPING
 )
 ;
 ELT_SLOT

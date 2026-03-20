@@ -11041,6 +11041,8 @@ TreeBuilder
 SELECT
 |
 SPECIAL
+|
+SCOPING
 )
 ;
 public
