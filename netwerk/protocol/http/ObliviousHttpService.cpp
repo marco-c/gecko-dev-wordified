@@ -1024,10 +1024,6 @@ trrConfig
 -
 >
 mEncodedConfig
-.
-Clone
-(
-)
 )
 ;
 return
