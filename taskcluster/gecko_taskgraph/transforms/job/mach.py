@@ -71,20 +71,20 @@ task
 "
 "
 from
+typing
+import
+Literal
+Optional
+Union
+from
 taskgraph
 .
 util
 .
 schema
 import
-LegacySchema
-taskref_or_string
-from
-voluptuous
-import
-Any
-Optional
-Required
+Schema
+taskref_or_string_msgspec
 from
 gecko_taskgraph
 .
@@ -94,22 +94,24 @@ job
 import
 configure_taskdesc_for_run
 run_job_using
-mach_schema
+class
+MachSchema
+(
+Schema
+kw_only
 =
-LegacySchema
-(
-{
-    
-Required
-(
-"
-using
-"
+True
 )
 :
+    
+using
+:
+Literal
+[
 "
 mach
 "
+]
     
 #
 The
@@ -124,14 +126,9 @@ mach
 to
 run
     
-Required
-(
-"
 mach
-"
-)
 :
-taskref_or_string
+taskref_or_string_msgspec
     
 #
 The
@@ -166,20 +163,14 @@ profiles
 )
 .
     
-Optional
-(
-"
-sparse
--
-profile
-"
-)
+sparse_profile
 :
-Any
-(
+Optional
+[
 str
+]
+=
 None
-)
     
 #
 if
@@ -201,14 +192,7 @@ the
 gecko
 checkout
     
-Required
-(
-"
-comm
--
-checkout
-"
-)
+comm_checkout
 :
 bool
     
@@ -243,20 +227,18 @@ another
 ENV
 .
     
+prepend_env
+:
 Optional
-(
-"
-prepend
--
-env
-"
-)
-:
-{
+[
+dict
+[
 str
-:
 str
-}
+]
+]
+=
+None
     
 #
 Base
@@ -270,14 +252,14 @@ the
 task
 .
     
-Optional
-(
-"
 workdir
-"
-)
 :
+Optional
+[
 str
+]
+=
+None
     
 #
 Use
@@ -286,24 +268,21 @@ specified
 caches
 .
     
-Optional
-(
-"
-use
--
-caches
-"
-)
+use_caches
 :
-Any
-(
+Optional
+[
+Union
+[
 bool
+list
 [
 str
 ]
-)
-}
-)
+]
+]
+=
+None
 defaults
 =
 {
@@ -328,7 +307,7 @@ mach
 "
 schema
 =
-mach_schema
+MachSchema
 defaults
 =
 defaults
@@ -345,7 +324,7 @@ mach
 "
 schema
 =
-mach_schema
+MachSchema
 defaults
 =
 defaults
