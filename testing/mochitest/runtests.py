@@ -28261,21 +28261,6 @@ options
 .
 disable_fission
             
-or
-not
-self
-.
-extraPrefs
-.
-get
-(
-"
-fission
-.
-disableSessionHistoryInParent
-"
-)
-            
 "
 socketprocess_e10s
 "
