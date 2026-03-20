@@ -86,6 +86,10 @@ dropwhile
 islice
 takewhile
 from
+pathlib
+import
+Path
+from
 textwrap
 import
 TextWrapper
@@ -10683,13 +10687,34 @@ relpath
 )
                         
 if
+(
+                            
 make_dir
 is
 not
 None
+                            
 and
 not
 allow_subdirectory_build
+                            
+and
+(
+Path
+(
+self
+.
+topsrcdir
+)
+/
+target
+)
+.
+is_dir
+(
+)
+                        
+)
 :
                             
 self
