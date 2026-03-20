@@ -93555,9 +93555,15 @@ mir
 )
 -
 >
-lowerCase
+stringCase
 (
 )
+=
+=
+StringCase
+:
+:
+Lower
 ;
 using
 Fn
