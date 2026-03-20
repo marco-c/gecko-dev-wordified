@@ -4295,7 +4295,7 @@ ConfigureWPAD
 s
 )
 "
-PromiseFlatCString
+nsCString
 (
 aSpec
 )
