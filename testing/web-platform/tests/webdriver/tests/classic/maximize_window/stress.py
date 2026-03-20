@@ -48,6 +48,8 @@ tests
 .
 support
 .
+classic
+.
 asserts
 import
 assert_success
