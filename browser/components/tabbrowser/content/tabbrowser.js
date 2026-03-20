@@ -3688,6 +3688,10 @@ tab
 )
 ;
 }
+updateUserContextUIIndicator
+(
+)
+;
 this
 .
 _tabForBrowser
