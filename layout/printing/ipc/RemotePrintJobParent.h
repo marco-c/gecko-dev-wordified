@@ -213,6 +213,10 @@ nsAString
 &
 aDocumentTitle
 const
+uint64_t
+&
+aBrowsingContextId
+const
 int32_t
 &
 aStartPage
@@ -400,6 +404,10 @@ const
 nsAString
 &
 aDocumentTitle
+const
+uint64_t
+&
+aBrowsingContextId
 const
 int32_t
 &
