@@ -22,8 +22,11 @@ FIRST_ROOM_CSS
 =
 "
 a
-.
-room_thumbnail_container
+[
+data
+-
+room
+]
 [
 href
 ]
@@ -75,6 +78,9 @@ AGREE_CSS
 is_displayed
 =
 True
+timeout
+=
+30
 )
 .
 click
