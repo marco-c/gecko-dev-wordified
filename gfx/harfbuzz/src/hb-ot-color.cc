@@ -271,6 +271,9 @@ sbix
 hh
 "
 #
+ifndef
+HB_NO_SVG
+#
 include
 "
 OT
@@ -283,6 +286,8 @@ svg
 .
 hh
 "
+#
+endif
 /
 *
 *
@@ -1614,6 +1619,9 @@ layers
 SVG
 *
 /
+#
+ifndef
+HB_NO_SVG
 /
 *
 *
@@ -2137,6 +2145,8 @@ glyph
 )
 ;
 }
+#
+endif
 /
 *
 *

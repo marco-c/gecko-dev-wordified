@@ -284,6 +284,9 @@ defined
 (
 HB_NO_DRAW
 )
+#
+ifndef
+HB_NO_SVG
 static
 void
 svg_dump
@@ -480,6 +483,8 @@ blob
 ;
 }
 }
+#
+endif
 /
 *
 _png
@@ -2135,6 +2140,9 @@ face
 face_index
 )
 ;
+#
+ifndef
+HB_NO_SVG
 if
 (
 hb_ot_color_has_svg
@@ -2164,6 +2172,8 @@ face
 face_index
 )
 ;
+#
+endif
 if
 (
 hb_ot_color_has_layers

@@ -3799,7 +3799,7 @@ cff1_charstrings
 i
 ]
 .
-push
+push_or_fail
 (
 0x0e
 )

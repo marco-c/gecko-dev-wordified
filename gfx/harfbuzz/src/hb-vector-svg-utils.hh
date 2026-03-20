@@ -325,12 +325,10 @@ c
 )
 {
 return
-!
-!
 buf
 -
 >
-push
+push_or_fail
 (
 c
 )

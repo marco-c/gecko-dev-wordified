@@ -11970,7 +11970,7 @@ if
 (
 rec
 )
-{
+return
 rec
 -
 >
@@ -11981,10 +11981,6 @@ this
 instancer
 )
 ;
-return
-true
-;
-}
 return
 false
 ;
