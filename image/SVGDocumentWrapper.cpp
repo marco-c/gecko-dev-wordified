@@ -368,7 +368,6 @@ mViewer
 >
 Close
 (
-nullptr
 )
 ;
 mViewer
@@ -1281,8 +1280,6 @@ mViewer
 >
 Open
 (
-nullptr
-nullptr
 )
 ;
 }

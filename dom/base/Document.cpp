@@ -7444,8 +7444,6 @@ aViewer
 >
 Open
 (
-nullptr
-nullptr
 )
 ;
 }
@@ -8694,7 +8692,6 @@ mViewer
 >
 Close
 (
-nullptr
 )
 ;
 mViewer
