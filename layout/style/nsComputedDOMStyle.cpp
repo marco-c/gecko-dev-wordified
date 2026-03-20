@@ -5300,7 +5300,7 @@ StyleDisplay
 )
 -
 >
-HasNativeAppearance
+HasAppearance
 (
 )
 ;

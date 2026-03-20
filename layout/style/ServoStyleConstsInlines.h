@@ -445,13 +445,6 @@ template
 struct
 StyleStrong
 <
-StyleAppearanceBaseRule
->
-;
-template
-struct
-StyleStrong
-<
 StyleLockedPositionTryRule
 >
 ;

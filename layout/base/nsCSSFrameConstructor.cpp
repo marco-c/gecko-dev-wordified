@@ -25047,7 +25047,7 @@ StyleDisplay
 )
 -
 >
-HasNativeAppearance
+HasAppearance
 (
 )
 )

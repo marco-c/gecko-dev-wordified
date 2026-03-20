@@ -3925,12 +3925,6 @@ StartingStyle
 .
 .
 )
-|
-AppearanceBase
-(
-.
-.
-)
 =
 >
 {
