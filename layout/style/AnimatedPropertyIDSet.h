@@ -130,15 +130,6 @@ h
 #
 include
 "
-mozilla
-/
-ServoBindings
-.
-h
-"
-#
-include
-"
 nsCSSPropertyIDSet
 .
 h

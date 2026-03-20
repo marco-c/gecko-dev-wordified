@@ -124,16 +124,7 @@ h
 #
 include
 "
-mozilla
-/
-FontPropertyTypes
-.
-h
-"
-#
-include
-"
-nsIContent
+nsStyleConsts
 .
 h
 "

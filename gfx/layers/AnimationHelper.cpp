@@ -340,6 +340,13 @@ h
 for
 nsDisplayTransform
 etc
+#
+include
+"
+nsStyleTransformMatrix
+.
+h
+"
 namespace
 mozilla
 :

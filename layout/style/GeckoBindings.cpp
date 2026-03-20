@@ -445,6 +445,17 @@ mozilla
 /
 dom
 /
+CSSTransition
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 DocumentInlines
 .
 h
