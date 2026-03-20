@@ -2235,6 +2235,7 @@ scope
 or
 nullptr
 .
+const
 GCPtr
 <
 Scope

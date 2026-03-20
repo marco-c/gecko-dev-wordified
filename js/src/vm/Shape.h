@@ -2090,8 +2090,10 @@ JS
 :
 Realm
 *
+const
 realm_
 ;
+const
 GCPtr
 <
 TaggedProto

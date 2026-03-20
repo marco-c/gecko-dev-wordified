@@ -689,6 +689,7 @@ headerPtr
 )
 ;
 }
+const
 GCPtr
 <
 JSObject
