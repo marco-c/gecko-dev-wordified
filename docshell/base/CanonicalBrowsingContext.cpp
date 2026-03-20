@@ -14083,13 +14083,6 @@ newDocShell
 ResumeRedirectedLoad
 (
 mPendingSwitchId
-/
-*
-aHistoryIndex
-*
-/
--
-1
 )
 ;
 if

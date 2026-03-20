@@ -83055,8 +83055,6 @@ ResumeRedirectedLoad
 (
 uint64_t
 aIdentifier
-int32_t
-aHistoryIndex
 )
 {
 RefPtr

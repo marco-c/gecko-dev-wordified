@@ -5370,8 +5370,6 @@ GetDocShell
 ResumeRedirectedLoad
 (
 mPendingSwitchID
--
-1
 )
 ;
 mNeedsAsyncDestroy
