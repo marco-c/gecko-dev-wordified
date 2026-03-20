@@ -2012,7 +2012,7 @@ aRemotenessOptions
 bool
 HasHistoryEntry
 (
-nsISHEntry
+SessionHistoryEntry
 *
 aEntry
 )
@@ -2020,7 +2020,7 @@ aEntry
 bool
 HasLoadingHistoryEntry
 (
-nsISHEntry
+SessionHistoryEntry
 *
 aEntry
 )
@@ -2057,10 +2057,10 @@ false
 void
 SwapHistoryEntries
 (
-nsISHEntry
+SessionHistoryEntry
 *
 aOldEntry
-nsISHEntry
+SessionHistoryEntry
 *
 aNewEntry
 )
@@ -2296,7 +2296,7 @@ static
 nsresult
 ContainsSameOriginBfcacheEntry
 (
-nsISHEntry
+SessionHistoryEntry
 *
 aEntry
 mozilla

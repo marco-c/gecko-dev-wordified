@@ -176,9 +176,6 @@ class
 nsIInputStream
 ;
 class
-nsISHEntry
-;
-class
 nsIURI
 ;
 class
@@ -210,6 +207,9 @@ DocShellLoadStateInit
 ;
 struct
 NavigationAPIMethodTracker
+;
+class
+SessionHistoryEntry
 ;
 }
 /
@@ -274,6 +274,17 @@ MaybeDiscarded
 <
 T
 >
+;
+using
+SessionHistoryEntry
+=
+mozilla
+:
+:
+dom
+:
+:
+SessionHistoryEntry
 ;
 public
 :
@@ -881,7 +892,7 @@ UserNavigationInvolvement
 aUserNavigationInvolvement
 )
 ;
-nsISHEntry
+SessionHistoryEntry
 *
 SHEntry
 (
@@ -891,7 +902,7 @@ const
 void
 SetSHEntry
 (
-nsISHEntry
+SessionHistoryEntry
 *
 aSHEntry
 )
@@ -3651,9 +3662,9 @@ loading
 from
 SH
 )
-nsCOMPtr
+RefPtr
 <
-nsISHEntry
+SessionHistoryEntry
 >
 mSHEntry
 ;

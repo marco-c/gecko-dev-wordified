@@ -1357,13 +1357,6 @@ h
 #
 include
 "
-nsISHEntry
-.
-h
-"
-#
-include
-"
 nsISiteSecurityService
 .
 h
@@ -15721,7 +15714,7 @@ entry
 &
 ]
 (
-nsISHEntry
+SessionHistoryEntry
 *
 aEntry
 )
@@ -69842,6 +69835,11 @@ shift
 reload
 case
 .
+[
+[
+maybe_unused
+]
+]
 bool
 updateSHistory
 =
@@ -72887,9 +72885,9 @@ mLoadType
 =
 LOAD_PUSHSTATE
 ;
-nsCOMPtr
+RefPtr
 <
-nsISHEntry
+SessionHistoryEntry
 >
 newSHEntry
 ;
@@ -74750,7 +74748,7 @@ nsDocShell
 :
 LoadHistoryEntry
 (
-nsISHEntry
+SessionHistoryEntry
 *
 aEntry
 uint32_t
@@ -74846,9 +74844,9 @@ just
 in
 case
 .
-nsCOMPtr
+RefPtr
 <
-nsISHEntry
+SessionHistoryEntry
 >
 kungFuDeathGrip
 (
@@ -75533,7 +75531,7 @@ viewers
 in
 the
 same
-nsISHEntry
+SessionHistoryEntry
 object
 .
 rv
