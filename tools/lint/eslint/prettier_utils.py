@@ -596,14 +596,14 @@ here
 .
         
 for
-file
+f
 in
 output
 :
             
 if
 not
-file
+f
 :
                 
 continue
@@ -616,7 +616,7 @@ path
 .
 abspath
 (
-file
+f
 )
             
 results

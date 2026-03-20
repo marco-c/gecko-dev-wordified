@@ -623,11 +623,13 @@ ignored_dir_re
 =
 "
 (
-%
-s
+{
+}
 )
 "
-%
+.
+format
+(
 "
 |
 "
@@ -635,6 +637,7 @@ s
 join
 (
 ignored_dir
+)
 )
     
 path_list

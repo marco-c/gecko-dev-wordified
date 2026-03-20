@@ -55,6 +55,8 @@ MPL
 /
 .
 import
+functools
+import
 os
 from
 pathlib
@@ -85,12 +87,6 @@ frontend
 reader
 import
 BuildReader
-from
-mozbuild
-.
-util
-import
-memoize
 from
 mozpack
 .
@@ -160,7 +156,9 @@ getLogger
 (
 __name__
 )
-memoize
+functools
+.
+cache
 def
 read_build_config
 (
@@ -449,7 +447,7 @@ absdir
 )
 :
                     
-key
+tree_key
 =
 os
 .
@@ -484,11 +482,18 @@ else
                     
 continue
             
-assert
+else
+:
+                
+tree_key
+=
 key
             
+assert
+tree_key
+            
 if
-key
+tree_key
 .
 startswith
 (
@@ -498,9 +503,9 @@ startswith
 )
 :
                 
-key
+tree_key
 =
-key
+tree_key
 [
 1
 :
@@ -509,7 +514,7 @@ key
 else
 :
                 
-key
+tree_key
 =
 os
 .
@@ -524,12 +529,12 @@ path
 join
 (
 reldir
-key
+tree_key
 )
 )
             
 if
-key
+tree_key
 in
 trees
 :
@@ -538,9 +543,11 @@ raise
 Exception
 (
                     
+f
 "
-%
-s
+{
+tree_key
+}
 has
 already
 been
@@ -550,14 +557,12 @@ a
 destination
 .
 "
-%
-key
                 
 )
             
 trees
 [
-key
+tree_key
 ]
 =
 os
@@ -1433,14 +1438,14 @@ paths
 source_doc
 =
 [
+f
 "
-%
-s
+{
+p
+}
 /
 index
 "
-%
-p
 for
 p
 in

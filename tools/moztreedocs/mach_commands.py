@@ -112,7 +112,6 @@ mozbuild
 util
 import
 cpu_count
-memoize
 from
 mozfile
 import
@@ -941,18 +940,15 @@ create_tarball
     
 unique_id
 =
+f
 "
-%
-s
-/
-%
-s
-"
-%
-(
+{
 project
 (
 )
+}
+/
+{
 str
 (
 uuid
@@ -961,7 +957,8 @@ uuid1
 (
 )
 )
-)
+}
+"
     
 outdir
 =
@@ -1133,9 +1130,11 @@ documentation
 n
 "
             
+f
 "
-%
-s
+{
+path
+}
 :
 could
 not
@@ -1145,8 +1144,6 @@ at
 this
 location
 "
-%
-path
         
 )
     
@@ -1252,6 +1249,7 @@ return
 die
 (
             
+f
 "
 failed
 to
@@ -1260,23 +1258,17 @@ documentation
 :
 \
 n
-"
-            
-"
-%
-s
+{
+path
+}
 :
 sphinx
 return
 code
-%
-d
-"
-%
-(
-path
+{
 status
-)
+}
+"
         
 )
     
@@ -1285,6 +1277,7 @@ else
         
 print
 (
+f
 "
 \
 nGenerated
@@ -1292,11 +1285,10 @@ documentation
 :
 \
 n
-%
-s
-"
-%
+{
 savedir
+}
+"
 )
     
 if
@@ -1517,18 +1509,18 @@ path
 join
 (
 outdir
+f
 "
-%
-s
+{
+project
+(
+)
+}
 .
 tar
 .
 gz
 "
-%
-project
-(
-)
 )
         
 create_tarball
@@ -1539,14 +1531,14 @@ savedir
         
 print
 (
+f
 "
 Archived
 to
-%
-s
-"
-%
+{
 archive_path
+}
+"
 )
     
 if
@@ -1669,15 +1661,15 @@ ValueError
 return
 die
 (
+f
 "
 invalid
 address
 :
-%
-s
-"
-%
+{
 http
+}
+"
 )
     
 server
@@ -2405,7 +2397,9 @@ _SphinxManager
 NO_AUTODOC
 =
 True
-memoize
+functools
+.
+cache
 def
 _read_project_properties
 (
@@ -2824,18 +2818,16 @@ key_prefixes
 .
 append
 (
+f
 "
-%
-s
-/
-%
-s
-"
-%
-(
+{
 project
+}
+/
+{
 version
-)
+}
+"
 )
     
 #
@@ -3029,15 +3021,17 @@ unique_id
             
 continue
         
-if
-prefix
-:
-            
+redirect_prefix
+=
 prefix
 +
-=
 "
 /
+"
+if
+prefix
+else
+"
 "
         
 all_redirects
@@ -3045,11 +3039,12 @@ all_redirects
 update
 (
 {
-prefix
+            
+redirect_prefix
 +
 k
 :
-prefix
+redirect_prefix
 +
 v
 for
@@ -3061,6 +3056,7 @@ redirects
 items
 (
 )
+        
 }
 )
     
@@ -3548,31 +3544,29 @@ exit_code
     
 msg
 =
+f
 "
-%
-s
-%
-s
-:
-%
-s
-"
-%
-(
+{
 sys
 .
 argv
 [
 0
 ]
+}
+{
 sys
 .
 argv
 [
 1
 ]
+}
+:
+{
 msg
-)
+}
+"
     
 print
 (

@@ -597,7 +597,7 @@ files
 ]
     
 for
-path
+p
 in
 paths
 :
@@ -608,7 +608,7 @@ mozpath
 .
 normsep
 (
-path
+p
 )
         
 ignore

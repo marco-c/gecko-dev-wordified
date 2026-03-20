@@ -832,13 +832,11 @@ if
 fix
 :
         
-global
 results
-        
-results
-=
-[
-]
+.
+clear
+(
+)
         
 cmd_args
 .

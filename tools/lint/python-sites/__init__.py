@@ -854,8 +854,12 @@ extend
 comments
 )
                 
+new_lines
+.
+append
+(
+spec
 if
-not
 spec
 .
 endswith
@@ -865,21 +869,13 @@ endswith
 n
 "
 )
-:
-                    
+else
 spec
 +
-=
 "
 \
 n
 "
-                
-new_lines
-.
-append
-(
-spec
 )
             
 path
