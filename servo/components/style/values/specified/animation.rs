@@ -199,6 +199,7 @@ ParseError
 SpecifiedValueInfo
 StyleParseErrorKind
 ToCss
+ToTyped
 }
 ;
 /
@@ -408,6 +409,12 @@ dest
 )
 }
 }
+}
+impl
+ToTyped
+for
+TransitionProperty
+{
 }
 impl
 Parse
@@ -878,6 +885,7 @@ ToComputedValue
 ToCss
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 #
@@ -2465,6 +2473,7 @@ ToComputedValue
 ToCss
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 #
@@ -3505,6 +3514,12 @@ to_css
 dest
 )
 }
+}
+impl
+ToTyped
+for
+TimelineName
+{
 }
 /
 /

@@ -67,6 +67,15 @@ use
 crate
 :
 :
+derives
+:
+:
+*
+;
+use
+crate
+:
+:
 parser
 :
 :
@@ -142,6 +151,7 @@ cssparser
 :
 :
 {
+match_ignore_ascii_case
 Parser
 Token
 }
@@ -180,6 +190,7 @@ ParseError
 SpecifiedValueInfo
 StyleParseErrorKind
 ToCss
+ToTyped
 }
 ;
 /
@@ -1157,6 +1168,12 @@ is_some
 dest
 )
 }
+}
+impl
+ToTyped
+for
+Time
+{
 }
 impl
 SpecifiedValueInfo

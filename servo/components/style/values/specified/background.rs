@@ -72,6 +72,15 @@ use
 crate
 :
 :
+derives
+:
+:
+*
+;
+use
+crate
+:
+:
 parser
 :
 :
@@ -119,7 +128,10 @@ use
 cssparser
 :
 :
+{
+match_ignore_ascii_case
 Parser
+}
 ;
 use
 selectors
@@ -150,6 +162,7 @@ style_traits
 CssWriter
 ParseError
 ToCss
+ToTyped
 }
 ;
 /
@@ -636,6 +649,12 @@ Ok
 }
 }
 }
+}
+impl
+ToTyped
+for
+BackgroundRepeat
+{
 }
 impl
 Parse
