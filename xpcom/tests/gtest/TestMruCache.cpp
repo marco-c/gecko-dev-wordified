@@ -70,6 +70,15 @@ include
 "
 mozilla
 /
+HashFunctions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MruCache
 .
 h

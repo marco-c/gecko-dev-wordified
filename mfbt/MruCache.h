@@ -65,6 +65,11 @@ mozilla_MruCache_h
 #
 include
 <
+cstddef
+>
+#
+include
+<
 type_traits
 >
 #
@@ -86,7 +91,7 @@ include
 "
 mozilla
 /
-HashFunctions
+Assertions
 .
 h
 "

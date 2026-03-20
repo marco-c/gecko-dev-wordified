@@ -69,6 +69,11 @@ MediaTimer_h_
 #
 include
 <
+cinttypes
+>
+#
+include
+<
 queue
 >
 #

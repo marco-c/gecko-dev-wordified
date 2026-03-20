@@ -916,6 +916,13 @@ GP_OS_freebsd
 #
 include
 <
+signal
+.
+h
+>
+#
+include
+<
 ucontext
 .
 h
