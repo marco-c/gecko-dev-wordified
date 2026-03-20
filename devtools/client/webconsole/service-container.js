@@ -475,6 +475,16 @@ getToolboxStore
 =
 >
 null
+isBrowserConsoleOrBrowserToolbox
+:
+webConsoleUI
+.
+isBrowserConsole
+|
+|
+webConsoleUI
+.
+isBrowserToolboxConsole
 }
 ;
 if

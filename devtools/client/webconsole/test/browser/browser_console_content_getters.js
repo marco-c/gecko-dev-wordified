@@ -1911,6 +1911,9 @@ bar
 <
 prototype
 >
+<
+global
+>
 ]
 )
 ;
@@ -2308,6 +2311,9 @@ entries
 <
 prototype
 >
+<
+global
+>
 ]
 )
 ;
@@ -2572,6 +2578,9 @@ a
 <
 prototype
 >
+<
+global
+>
 ]
 )
 ;
@@ -2602,6 +2611,9 @@ get
 :
 <
 prototype
+>
+<
+global
 >
 ]
 )
@@ -2756,6 +2768,9 @@ message
 stack
 <
 prototype
+>
+<
+global
 >
 ]
 )

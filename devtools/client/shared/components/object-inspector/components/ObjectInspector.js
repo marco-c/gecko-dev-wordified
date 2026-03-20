@@ -1807,6 +1807,9 @@ nodeExpand
 (
 item
 actor
+this
+.
+props
 )
 ;
 if

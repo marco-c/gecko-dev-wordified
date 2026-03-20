@@ -342,6 +342,12 @@ world
 <
 prototype
 >
+/
+/
+|
+<
+global
+>
 await
 waitFor
 (
@@ -363,7 +369,7 @@ length
 =
 =
 =
-4
+5
 )
 ;
 ok
