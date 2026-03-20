@@ -259,6 +259,13 @@ h
 #
 include
 "
+GRefPtr
+.
+h
+"
+#
+include
+"
 nsFilePicker
 .
 h
@@ -5015,8 +5022,10 @@ NS_NATIVE_SHELLWIDGET
 :
 nullptr
 ;
-auto
-*
+RefPtr
+<
+GtkWidget
+>
 cancel_dialog
 =
 gtk_message_dialog_new
@@ -5044,6 +5053,10 @@ gtk_dialog_run
 GTK_DIALOG
 (
 cancel_dialog
+.
+get
+(
+)
 )
 )
 ;
