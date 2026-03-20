@@ -270,7 +270,7 @@ default
 sevenz
 =
 "
-7z
+7zz
 "
         
 subprocess
