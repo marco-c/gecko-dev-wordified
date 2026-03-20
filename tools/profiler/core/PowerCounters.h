@@ -102,7 +102,7 @@ h
 if
 defined
 (
-_MSC_VER
+GP_OS_windows
 )
 class
 PowerMeterDevice
@@ -313,7 +313,7 @@ public
 if
 defined
 (
-_MSC_VER
+GP_OS_windows
 )
 |
 |
@@ -354,7 +354,7 @@ endif
 if
 defined
 (
-_MSC_VER
+GP_OS_windows
 )
 |
 |
@@ -389,7 +389,7 @@ endif
 if
 defined
 (
-_MSC_VER
+GP_OS_windows
 )
 |
 |
@@ -458,7 +458,7 @@ mCounters
 if
 defined
 (
-_MSC_VER
+GP_OS_windows
 )
 mozilla
 :
