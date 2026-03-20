@@ -1253,9 +1253,6 @@ gBrowser
 .
 selectedBrowser
 true
-"
-menu
-"
 )
 ;
 break
