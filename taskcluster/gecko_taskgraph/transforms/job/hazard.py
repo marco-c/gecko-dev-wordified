@@ -68,19 +68,19 @@ scripts
 "
 "
 from
+typing
+import
+Literal
+Optional
+Union
+from
 taskgraph
 .
 util
 .
 schema
 import
-LegacySchema
-from
-voluptuous
-import
-Any
-Optional
-Required
+Schema
 from
 gecko_taskgraph
 .
@@ -107,22 +107,24 @@ docker_worker_add_artifacts
     
 setup_secrets
 )
-haz_run_schema
+class
+HazRunSchema
+(
+Schema
+kw_only
 =
-LegacySchema
-(
-{
-    
-Required
-(
-"
-using
-"
+True
 )
 :
+    
+using
+:
+Literal
+[
 "
 hazard
 "
+]
     
 #
 The
@@ -141,12 +143,7 @@ the
 worker
 )
     
-Required
-(
-"
 command
-"
-)
 :
 str
     
@@ -165,14 +162,14 @@ used
 if
 omitted
     
-Optional
-(
-"
 mozconfig
-"
-)
 :
+Optional
+[
 str
+]
+=
+None
     
 #
 The
@@ -251,20 +248,21 @@ on
 #
 Windows
     
-Optional
-(
-"
 secrets
-"
-)
 :
-Any
-(
+Optional
+[
+Union
+[
 bool
+list
 [
 str
 ]
-)
+]
+]
+=
+None
     
 #
 Base
@@ -278,16 +276,14 @@ the
 task
 .
     
-Optional
-(
-"
 workdir
-"
-)
 :
+Optional
+[
 str
-}
-)
+]
+=
+None
 run_job_using
 (
 "
@@ -300,7 +296,7 @@ hazard
 "
 schema
 =
-haz_run_schema
+HazRunSchema
 )
 def
 docker_worker_hazard
