@@ -11441,6 +11441,15 @@ finishMarkingDuringSweeping
 =
 false
 ;
+#
+ifdef
+JS_GC_CONCURRENT_MARKING
+concurrentMarkingFinishedCount
+=
+0
+;
+#
+endif
 bool
 sweepingAtoms
 =
