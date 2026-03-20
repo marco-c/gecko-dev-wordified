@@ -14811,6 +14811,18 @@ AttributeName
 SHADOWROOTDELEGATESFOCUS
 )
 ;
+boolean
+shadowRootCustomElementRegistry
+=
+attributes
+.
+contains
+(
+AttributeName
+.
+SHADOWROOTCUSTOMELEMENTREGISTRY
+)
+;
 String
 shadowRootReferenceTarget
 =
@@ -14832,6 +14844,7 @@ shadowRootMode
 shadowRootIsClonable
 shadowRootIsSerializable
 shadowRootDelegatesFocus
+shadowRootCustomElementRegistry
 shadowRootReferenceTarget
 )
 ;
@@ -28439,6 +28452,8 @@ boolean
 shadowRootIsSerializable
 boolean
 shadowRootDelegatesFocus
+boolean
+shadowRootCustomElementRegistry
 String
 shadowRootReferenceTarget
 )

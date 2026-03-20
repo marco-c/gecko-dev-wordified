@@ -4298,7 +4298,7 @@ htmlparser
 /
 nsHTMLTagList
 .
-inc
+h
 and
 dom
 /
@@ -4306,7 +4306,7 @@ svg
 /
 SVGTagList
 .
-inc
+h
 .
 /
 /

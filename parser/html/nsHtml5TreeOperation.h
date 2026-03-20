@@ -1403,6 +1403,9 @@ mShadowRootIsSerializable
 bool
 mShadowRootDelegatesFocus
 ;
+bool
+mShadowRootCustomElementRegistry
+;
 explicit
 opGetShadowRootFromHost
 (
@@ -1429,6 +1432,8 @@ bool
 aShadowRootIsSerializable
 bool
 aShadowRootDelegatesFocus
+bool
+aShadowRootCustomElementRegistry
 nsAString
 &
 aShadowRootReferenceTarget
@@ -1485,6 +1490,10 @@ aShadowRootIsSerializable
 mShadowRootDelegatesFocus
 =
 aShadowRootDelegatesFocus
+;
+mShadowRootCustomElementRegistry
+=
+aShadowRootCustomElementRegistry
 ;
 mShadowRootReferenceTarget
 =

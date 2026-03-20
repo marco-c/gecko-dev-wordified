@@ -619,6 +619,8 @@ bool
 aShadowRootIsSerializable
 bool
 aShadowRootDelegatesFocus
+bool
+aShadowRootCustomElementRegistry
 nsHtml5String
 aShadowRootReferenceTarget
 )

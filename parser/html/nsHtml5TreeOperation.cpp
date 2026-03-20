@@ -6542,6 +6542,9 @@ aOperation
 mShadowRootDelegatesFocus
 aOperation
 .
+mShadowRootCustomElementRegistry
+aOperation
+.
 mShadowRootReferenceTarget
 )
 ;
