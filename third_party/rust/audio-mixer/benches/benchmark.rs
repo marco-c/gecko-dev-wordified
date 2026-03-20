@@ -196,9 +196,6 @@ From
 u8
 >
 +
-?
-Sized
-+
 Any
 {
 /
@@ -292,9 +289,6 @@ From
 u8
 >
 +
-?
-Sized
-+
 Any
 {
 /
@@ -377,9 +371,6 @@ From
 <
 u8
 >
-+
-?
-Sized
 +
 Any
 {
