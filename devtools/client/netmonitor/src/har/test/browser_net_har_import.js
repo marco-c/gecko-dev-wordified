@@ -458,6 +458,10 @@ entries
 _securityState
 "
 secure
+-
+custom
+-
+root
 "
 "
 There
