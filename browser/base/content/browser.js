@@ -13846,6 +13846,13 @@ location
 =
 "
 "
+|
+|
+window
+.
+browsingContext
+.
+isDocumentPiP
 )
 {
 /
