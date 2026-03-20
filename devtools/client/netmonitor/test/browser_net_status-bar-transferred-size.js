@@ -661,6 +661,11 @@ false
 )
 )
 ;
+const
+expectedRequests
+=
+4
+;
 info
 (
 "
@@ -680,7 +685,7 @@ performRequests
 (
 monitor
 tab
-1
+expectedRequests
 )
 ;
 info
@@ -745,7 +750,7 @@ performRequests
 (
 monitor
 tab
-1
+expectedRequests
 )
 ;
 let
@@ -824,7 +829,7 @@ transferredSize
 is
 (
 displayedServiceWorkerRequests
-4
+expectedRequests
 "
 Number
 of
