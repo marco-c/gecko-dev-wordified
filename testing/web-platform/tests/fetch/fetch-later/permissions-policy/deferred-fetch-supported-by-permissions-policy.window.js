@@ -79,7 +79,7 @@ fetch
 '
 document
 .
-featurePolicy
+permissionsPolicy
 .
 features
 (
@@ -97,7 +97,7 @@ minimal
 '
 document
 .
-featurePolicy
+permissionsPolicy
 .
 features
 (
@@ -108,7 +108,7 @@ features
 '
 document
 .
-featurePolicy
+permissionsPolicy
 .
 features
 should
