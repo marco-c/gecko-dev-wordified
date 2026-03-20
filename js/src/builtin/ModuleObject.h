@@ -3025,6 +3025,12 @@ getCycleRoot
 const
 ;
 bool
+hasCycleRoot
+(
+)
+const
+;
+bool
 hasCyclicModuleFields
 (
 )
