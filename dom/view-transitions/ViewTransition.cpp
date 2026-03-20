@@ -9419,6 +9419,8 @@ StyleUIReset
 >
 mViewTransitionName
 .
+value
+.
 IsNone
 (
 )
@@ -9912,6 +9914,8 @@ StyleUIReset
 -
 >
 mViewTransitionName
+.
+value
 .
 IsMatchElement
 (
@@ -10502,6 +10506,8 @@ StyleUIReset
 -
 >
 mViewTransitionName
+.
+value
 .
 IsMatchElement
 (
@@ -13898,6 +13904,8 @@ if
 (
 computed
 .
+value
+.
 IsNone
 (
 )
@@ -13967,6 +13975,8 @@ if
 (
 computed
 .
+value
+.
 IsIdent
 (
 )
@@ -13979,6 +13989,8 @@ nsAtom
 >
 {
 computed
+.
+value
 .
 AsIdent
 (
@@ -14047,6 +14059,8 @@ issues
 MOZ_ASSERT
 (
 computed
+.
+value
 .
 IsMatchElement
 (
