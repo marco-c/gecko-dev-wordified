@@ -2764,7 +2764,10 @@ return
 false
 ;
 }
+Maybe
+<
 size_t
+>
 byteSize
 =
 layers
@@ -2785,9 +2788,10 @@ B8G8R8A8
 if
 (
 byteSize
-=
-=
-0
+.
+isNothing
+(
+)
 )
 {
 return
@@ -2809,6 +2813,10 @@ shared_memory
 PageAlignedSize
 (
 byteSize
+.
+value
+(
+)
 )
 ;
 if

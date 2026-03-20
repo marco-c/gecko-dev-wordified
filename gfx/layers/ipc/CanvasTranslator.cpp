@@ -2997,7 +2997,10 @@ dstSize
 width
 )
 ;
-auto
+Maybe
+<
+uint32_t
+>
 requiredSize
 =
 ImageDataSerializer
@@ -3012,9 +3015,10 @@ format
 if
 (
 requiredSize
-<
-=
-0
+.
+isNothing
+(
+)
 )
 {
 return
@@ -3095,6 +3099,10 @@ if
 size_t
 (
 requiredSize
+.
+value
+(
+)
 )
 >
 it
