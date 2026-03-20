@@ -667,6 +667,7 @@ def
 _snapshot
 (
 self
+reason
 )
 :
         
@@ -751,6 +752,22 @@ get_commits
 "
 "
         
+#
+Do
+-
+nothing
+command
+with
+an
+explanatory
+message
+visible
+in
+jj
+op
+log
+.
+        
 self
 .
 _run
@@ -762,6 +779,20 @@ log
 -
 n0
 "
+"
+-
+T
+"
+f
+'
+"
+snapshot
+:
+{
+reason
+}
+"
+'
 )
     
 def
@@ -4138,20 +4169,12 @@ run
         
 self
 .
-_run
+_snapshot
 (
 "
-debug
-"
-"
-snapshot
+prepare_try_push
 "
 )
-#
-Force
-a
-snapshot
-.
         
 #
 Redundant
@@ -4371,6 +4394,9 @@ self
 .
 _snapshot
 (
+"
+prepare_try_push
+"
 )
             
 #
