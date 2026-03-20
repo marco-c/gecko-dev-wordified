@@ -670,6 +670,10 @@ GROUP_RULE_FUNCS_UNLOCKED
 (
 StartingStyle
 )
+GROUP_RULE_FUNCS_UNLOCKED
+(
+AppearanceBase
+)
 BASIC_RULE_FUNCS_LOCKED
 (
 PositionTry

@@ -17799,7 +17799,7 @@ None
 styleDisplay
 -
 >
-HasAppearance
+HasNativeAppearance
 (
 )
 )
