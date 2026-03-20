@@ -174,6 +174,11 @@ wl_data_device_manager_interface
 const
 struct
 wl_interface
+wl_fixes_interface
+;
+const
+struct
+wl_interface
 wl_keyboard_interface
 ;
 const
