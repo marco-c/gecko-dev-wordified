@@ -150,6 +150,7 @@ style_traits
 {
 CssWriter
 ToCss
+ToTyped
 }
 ;
 pub
@@ -553,6 +554,12 @@ dest
 )
 }
 }
+}
+impl
+ToTyped
+for
+AnimationIterationCount
+{
 }
 /
 /

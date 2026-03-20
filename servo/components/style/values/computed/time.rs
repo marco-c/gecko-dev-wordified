@@ -67,6 +67,15 @@ use
 crate
 :
 :
+derives
+:
+:
+*
+;
+use
+crate
+:
+:
 values
 :
 :
@@ -97,6 +106,7 @@ style_traits
 {
 CssWriter
 ToCss
+ToTyped
 }
 ;
 /
@@ -272,6 +282,12 @@ s
 '
 )
 }
+}
+impl
+ToTyped
+for
+Time
+{
 }
 impl
 Zero
