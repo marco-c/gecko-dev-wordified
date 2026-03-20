@@ -200,6 +200,11 @@ target_os
 "
 hermit
 "
+target_os
+=
+"
+cygwin
+"
 )
 )
 ]
@@ -256,7 +261,7 @@ socket_type
 ;
 /
 /
-Mimick
+Mimic
 libstd
 and
 set
@@ -395,6 +400,11 @@ cfg
 (
 any
 (
+target_os
+=
+"
+aix
+"
 target_os
 =
 "
@@ -1211,6 +1221,11 @@ target_os
 =
 "
 nto
+"
+target_os
+=
+"
+hermit
 "
 )
 )

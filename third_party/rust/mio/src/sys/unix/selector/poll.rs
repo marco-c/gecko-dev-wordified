@@ -521,6 +521,9 @@ token
 interests
 )
 }
+cfg_any_os_ext
+!
+{
 pub
 fn
 reregister
@@ -588,6 +591,7 @@ deregister
 (
 fd
 )
+}
 }
 pub
 fn
@@ -2597,6 +2601,9 @@ record
 }
 )
 }
+cfg_any_os_ext
+!
+{
 pub
 fn
 reregister
@@ -2745,6 +2752,7 @@ Ok
 (
 )
 )
+}
 }
 /
 /

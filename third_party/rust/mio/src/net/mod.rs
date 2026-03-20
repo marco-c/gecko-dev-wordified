@@ -119,7 +119,9 @@ UnixDatagram
 /
 /
 !
-its
+it
+'
+s
 only
 possible
 to
@@ -283,6 +285,7 @@ up
 to
 the
 user
+to
 handle
 this
 .
@@ -291,7 +294,7 @@ to
 deal
 with
 these
-difference
+differences
 is
 still
 up

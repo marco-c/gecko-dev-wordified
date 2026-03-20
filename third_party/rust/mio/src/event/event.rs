@@ -2362,10 +2362,6 @@ Event
 )
 ;
 impl
-<
-'
-a
->
 fmt
 :
 :
@@ -2374,7 +2370,7 @@ for
 EventDetails
 <
 '
-a
+_
 >
 {
 fn

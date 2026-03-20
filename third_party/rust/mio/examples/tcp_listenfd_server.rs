@@ -48,7 +48,7 @@ build
 target
 wasm32
 -
-wasi
+wasip1
 -
 -
 example
@@ -91,7 +91,7 @@ target
 /
 wasm32
 -
-wasi
+wasip1
 /
 debug
 /
@@ -824,9 +824,9 @@ connection
 from
 :
 {
+address
 }
 "
-address
 )
 ;
 let
@@ -1570,11 +1570,11 @@ UTF
 data
 :
 {
+received_data
 :
 ?
 }
 "
-received_data
 )
 ;
 }
