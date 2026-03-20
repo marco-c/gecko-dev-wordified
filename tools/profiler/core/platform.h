@@ -308,7 +308,9 @@ TOOLS_PLATFORM_H_
 #
 include
 "
-PlatformMacros
+mozilla
+/
+ProfilerPlatformMacros
 .
 h
 "

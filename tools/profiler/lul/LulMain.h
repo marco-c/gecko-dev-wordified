@@ -65,7 +65,9 @@ LulMain_h
 #
 include
 "
-PlatformMacros
+mozilla
+/
+ProfilerPlatformMacros
 .
 h
 "
