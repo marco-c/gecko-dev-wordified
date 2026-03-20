@@ -613,6 +613,16 @@ pref
 "
 pdfjs
 .
+imagesRightClickMinSize
+"
+16
+)
+;
+pref
+(
+"
+pdfjs
+.
 pageColorsBackground
 "
 "
