@@ -19,12 +19,6 @@ script
 import
 ContextTarget
 from
-tests
-.
-bidi
-import
-wait_for_bidi_events
-from
 .
 .
 .
@@ -111,7 +105,7 @@ def
 test_unsubscribe
 (
 bidi_session
-configuration
+wait_for_bidi_events
 )
 :
     
@@ -215,8 +209,6 @@ TimeoutException
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 1
 timeout
@@ -645,11 +637,11 @@ test_iframe
 (
     
 bidi_session
-configuration
 subscribe_events
 top_context
 test_page_same_origin_frame
 test_page
+wait_for_bidi_events
 )
 :
     
@@ -743,8 +735,6 @@ iframe
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 2
 )
@@ -937,8 +927,6 @@ test_nested_iframes
     
 bidi_session
     
-configuration
-    
 subscribe_events
     
 top_context
@@ -948,6 +936,8 @@ test_page_nested_frames
 test_page_same_origin_frame
     
 test_page
+    
+wait_for_bidi_events
 )
 :
     
@@ -1044,8 +1034,6 @@ iframes
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 3
 )
@@ -1337,9 +1325,9 @@ def
 test_same_document
 (
 bidi_session
-configuration
 new_tab
 url
+wait_for_bidi_events
 subscribe_events
 )
 :
@@ -1477,8 +1465,6 @@ TimeoutException
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 1
 timeout
@@ -1512,8 +1498,8 @@ def
 test_document_write
 (
 bidi_session
-configuration
 subscribe_events
+wait_for_bidi_events
 new_tab
 sandbox
 )
@@ -1651,8 +1637,6 @@ TimeoutException
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 1
 timeout
@@ -1791,10 +1775,10 @@ test_redirect_http_equiv
 (
     
 bidi_session
-configuration
 subscribe_events
 top_context
 url
+wait_for_bidi_events
 )
 :
     
@@ -1934,8 +1918,6 @@ redirect
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 2
 )
@@ -2186,11 +2168,11 @@ test_navigate_history_pushstate
 (
     
 bidi_session
-configuration
 inline
 new_tab
 subscribe_events
 wait_for_event
+wait_for_bidi_events
 wait_for_future_safe
 )
 :
@@ -2353,8 +2335,6 @@ emitted
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 2
 timeout
@@ -2418,9 +2398,9 @@ def
 test_new_context
 (
 bidi_session
-configuration
 subscribe_events
 type_hint
+wait_for_bidi_events
 )
 :
     
@@ -2521,8 +2501,6 @@ TimeoutException
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 1
 timeout
@@ -2675,10 +2653,10 @@ test_window_open_with_about_blank
 (
     
 bidi_session
-configuration
 subscribe_events
 top_context
 url
+wait_for_bidi_events
 )
 :
     
@@ -2793,8 +2771,6 @@ TimeoutException
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 1
 timeout

@@ -17,12 +17,6 @@ error
 import
 TimeoutException
 from
-tests
-.
-bidi
-import
-wait_for_bidi_events
-from
 .
 .
 .
@@ -52,9 +46,9 @@ def
 test_unsubscribe
 (
 bidi_session
-configuration
 inline
 new_tab
+wait_for_bidi_events
 )
 :
     
@@ -185,8 +179,6 @@ TimeoutException
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 1
 timeout
@@ -437,8 +429,8 @@ test_iframe
 (
     
 bidi_session
-configuration
 subscribe_events
+wait_for_bidi_events
 new_tab
 test_page
 test_page_same_origin_frame
@@ -513,8 +505,6 @@ test_page_same_origin_frame
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 2
 )
@@ -719,10 +709,10 @@ def
 test_new_context_not_emitted
 (
 bidi_session
-configuration
 subscribe_events
       
 wait_for_event
+wait_for_bidi_events
 wait_for_future_safe
 type_hint
 )
@@ -810,8 +800,6 @@ TimeoutException
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 1
 timeout

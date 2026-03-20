@@ -1,12 +1,6 @@
 import
 pytest
 from
-tests
-.
-bidi
-import
-wait_for_bidi_events
-from
 webdriver
 .
 bidi
@@ -47,7 +41,7 @@ def
 test_not_unsubscribed
 (
 bidi_session
-configuration
+wait_for_bidi_events
 )
 :
     
@@ -149,8 +143,6 @@ TimeoutException
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 1
 timeout
@@ -843,10 +835,10 @@ def
 test_navigate_creates_iframes
 (
 bidi_session
-configuration
 subscribe_events
 top_context
 test_page_multiple_frames
+wait_for_bidi_events
 )
 :
     
@@ -938,8 +930,6 @@ complete
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 2
 )
@@ -1171,10 +1161,10 @@ def
 test_navigate_creates_nested_iframes
 (
 bidi_session
-configuration
 subscribe_events
 top_context
 test_page_nested_frames
+wait_for_bidi_events
 )
 :
     
@@ -1266,8 +1256,6 @@ complete
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 2
 )
@@ -1526,10 +1514,10 @@ test_subscribe_to_one_context
 (
     
 bidi_session
-configuration
 subscribe_events
 top_context
 test_page_same_origin_frame
+wait_for_bidi_events
 )
 :
     
@@ -1647,8 +1635,6 @@ TimeoutException
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 1
 timeout
@@ -1699,8 +1685,6 @@ iframe
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 1
 )

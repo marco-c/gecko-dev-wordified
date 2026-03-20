@@ -4,12 +4,6 @@ from
 tests
 .
 bidi
-import
-wait_for_bidi_events
-from
-tests
-.
-bidi
 .
 network
 import
@@ -59,9 +53,9 @@ test_cached_stylesheet
     
 bidi_session
     
-configuration
-    
 url
+    
+wait_for_bidi_events
     
 inline
     
@@ -220,10 +214,6 @@ await
 wait_for_bidi_events
 (
         
-bidi_session
-        
-configuration
-        
 events
         
 2
@@ -305,10 +295,6 @@ stylesheet
 await
 wait_for_bidi_events
 (
-        
-bidi_session
-        
-configuration
         
 events
         

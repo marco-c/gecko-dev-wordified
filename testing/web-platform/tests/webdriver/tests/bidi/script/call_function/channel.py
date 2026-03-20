@@ -11,12 +11,6 @@ script
 import
 ContextTarget
 from
-tests
-.
-bidi
-import
-wait_for_bidi_events
-from
 .
 .
 .
@@ -741,7 +735,7 @@ test_two_channels
     
 bidi_session
     
-configuration
+wait_for_bidi_events
     
 top_context
     
@@ -935,8 +929,6 @@ events
 await
 wait_for_bidi_events
 (
-bidi_session
-configuration
 events
 2
 timeout
