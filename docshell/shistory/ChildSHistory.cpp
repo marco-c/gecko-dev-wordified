@@ -137,13 +137,6 @@ h
 #
 include
 "
-nsSHEntry
-.
-h
-"
-#
-include
-"
 nsSHistory
 .
 h

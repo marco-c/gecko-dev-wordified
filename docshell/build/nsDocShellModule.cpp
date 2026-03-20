@@ -85,13 +85,6 @@ history
 #
 include
 "
-nsSHEntryShared
-.
-h
-"
-#
-include
-"
 nsSHistory
 .
 h
