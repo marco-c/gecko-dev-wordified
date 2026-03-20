@@ -1140,6 +1140,10 @@ UNLOCKED_RULE_TYPE
 (
 StartingStyle
 )
+UNLOCKED_RULE_TYPE
+(
+AppearanceBase
+)
 SERVO_ARC_TYPE
 (
 AnimationValue
