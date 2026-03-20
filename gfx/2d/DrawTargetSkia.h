@@ -1196,6 +1196,16 @@ DrawOptions
 )
 )
 ;
+void
+AccessibleId
+(
+uint64_t
+aBrowsingContextId
+uint64_t
+aAccId
+)
+final
+;
 private
 :
 friend
