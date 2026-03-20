@@ -457,8 +457,6 @@ tasks
 .
     
 return
-(
-        
 is_x86_64_l10n_task
 (
 task
@@ -467,8 +465,6 @@ or
 is_not_l10n_task
 (
 task
-)
-    
 )
 def
 is_x86_64_l10n_task
