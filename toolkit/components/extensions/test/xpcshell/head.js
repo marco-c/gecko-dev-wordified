@@ -1141,8 +1141,8 @@ Clears
 the
 HTTP
 and
-content
-image
+all
+subresource
 caches
 .
 *
@@ -1195,6 +1195,12 @@ imageCache
 clearCache
 (
 false
+)
+;
+ChromeUtils
+.
+clearResourceCache
+(
 )
 ;
 }
