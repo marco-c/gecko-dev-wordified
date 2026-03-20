@@ -766,7 +766,7 @@ test_page_ranges_document
 (
 session
 inline
-load_pdf_http
+load_pdf_classic
 ranges
 expected
 )
@@ -931,7 +931,7 @@ assert_pdf
 value
 )
     
-load_pdf_http
+load_pdf_classic
 (
 value
 )
