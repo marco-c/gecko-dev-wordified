@@ -583,15 +583,6 @@ tab
 ;
 if
 (
-SpecialPowers
-.
-Services
-.
-appinfo
-.
-sessionHistoryInParent
-&
-&
 currRemoteType
 =
 =

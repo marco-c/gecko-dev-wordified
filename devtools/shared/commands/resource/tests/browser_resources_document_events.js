@@ -1435,14 +1435,6 @@ isBfCacheInParentEnabled
 )
 {
 return
-(
-Services
-.
-appinfo
-.
-sessionHistoryInParent
-&
-&
 Services
 .
 prefs
@@ -1455,7 +1447,6 @@ fission
 bfcacheInParent
 "
 false
-)
 )
 ;
 }

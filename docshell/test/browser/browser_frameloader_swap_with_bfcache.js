@@ -47,16 +47,6 @@ SpecialPowers
 .
 Services
 .
-appinfo
-.
-sessionHistoryInParent
-|
-|
-!
-SpecialPowers
-.
-Services
-.
 prefs
 .
 getBoolPref
@@ -175,7 +165,7 @@ linkedBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser2
 uri
