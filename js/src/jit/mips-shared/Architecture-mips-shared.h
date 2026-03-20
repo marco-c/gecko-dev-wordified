@@ -1130,6 +1130,11 @@ SetType
 x
 )
 {
+MOZ_ASSERT
+(
+x
+)
+;
 return
 std
 :
@@ -1148,6 +1153,11 @@ SetType
 x
 )
 {
+MOZ_ASSERT
+(
+x
+)
+;
 return
 std
 :
@@ -1502,6 +1512,11 @@ bits
 "
 )
 ;
+MOZ_ASSERT
+(
+x
+)
+;
 return
 std
 :
@@ -1536,6 +1551,11 @@ be
 64
 bits
 "
+)
+;
+MOZ_ASSERT
+(
+x
 )
 ;
 return
