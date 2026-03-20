@@ -150,6 +150,9 @@ Promise
 withResolvers
 (
 )
+_reducedProtectionPrefObserver
+:
+null
 /
 *
 *
@@ -3671,6 +3674,12 @@ ctrlTab
 .
 prefName
 ctrlTab
+)
+;
+ReducedProtectionNotification
+.
+observePref
+(
 )
 ;
 /
