@@ -14905,7 +14905,7 @@ if
 aDisp
 -
 >
-HasAppearance
+HasNativeAppearance
 (
 )
 )
