@@ -324,7 +324,6 @@ sort_None
 ;
 private
 :
-virtual
 ~
 nsCertTree
 (
