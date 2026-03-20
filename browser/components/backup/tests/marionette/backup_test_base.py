@@ -1464,6 +1464,7 @@ init
 )
 ;
             
+await
 bs
 .
 setParentDirPath
