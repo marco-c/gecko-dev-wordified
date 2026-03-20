@@ -113,6 +113,10 @@ security
 state
 -
 secure
+-
+custom
+-
+root
 "
 "
 nocert
@@ -391,6 +395,10 @@ example
 .
 com
 (
+certificate
+issue
+-
+>
 broken
 )
 *
@@ -404,6 +412,9 @@ example
 com
 (
 secure
+using
+custom
+root
 )
 *
 -
@@ -417,7 +428,11 @@ example
 .
 com
 (
-insecure
+plaintext
+-
+>
+not
+secure
 )
 *
 -
@@ -428,6 +443,9 @@ http
 localhost
 (
 local
+-
+>
+secure
 )
 *
 and

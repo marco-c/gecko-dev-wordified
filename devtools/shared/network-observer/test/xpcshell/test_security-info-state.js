@@ -127,6 +127,9 @@ cipherName
 "
 TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256
 "
+isBuiltCertChainRootBuiltInRoot
+:
+true
 }
 ;
 add_task

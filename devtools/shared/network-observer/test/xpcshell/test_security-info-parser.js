@@ -197,6 +197,9 @@ protocolVersion
 serverCert
 :
 MockCertificate
+isBuiltCertChainRootBuiltInRoot
+:
+true
 }
 ;
 add_task

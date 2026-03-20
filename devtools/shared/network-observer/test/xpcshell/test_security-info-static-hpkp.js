@@ -192,6 +192,9 @@ Xc
 ;
 }
 }
+isBuiltCertChainRootBuiltInRoot
+:
+true
 }
 ;
 const
