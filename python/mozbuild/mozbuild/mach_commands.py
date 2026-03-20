@@ -3484,6 +3484,18 @@ the
 object
     
 directory
+and
+all
+"
+.
+gradle
+"
+cache
+directories
+in
+the
+source
+tree
 .
     
 The
@@ -4300,6 +4312,47 @@ ignore_errors
 =
 True
         
+)
+        
+topsrcdir
+=
+Path
+(
+command_context
+.
+topsrcdir
+)
+        
+for
+gradle_cache
+in
+topsrcdir
+.
+rglob
+(
+"
+.
+gradle
+"
+)
+:
+            
+if
+gradle_cache
+.
+is_dir
+(
+)
+:
+                
+shutil
+.
+rmtree
+(
+gradle_cache
+ignore_errors
+=
+True
 )
     
 if
