@@ -89,7 +89,7 @@ h
 #
 include
 <
-cstdint
+cinttypes
 >
 #
 include
@@ -128,18 +128,6 @@ format
 .
 h
 "
-/
-/
-IWYU
-pragma
-:
-keep
-(
-for
-fmt
-:
-:
-)
 #
 include
 <

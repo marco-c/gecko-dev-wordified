@@ -174,15 +174,6 @@ include
 "
 mozilla
 /
-DebugOnly
-.
-h
-"
-#
-include
-"
-mozilla
-/
 UniquePtrExtensions
 .
 h

@@ -1533,19 +1533,7 @@ underlying_type
 "
         
 "
-result_of
-"
-        
-"
-result_of_t
-"
-        
-"
-invoke_result
-"
-        
-"
-invoke_result_t
+result_ofinvoke_result
 "
         
 "

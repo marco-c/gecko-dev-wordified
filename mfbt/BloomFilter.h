@@ -147,6 +147,11 @@ h
 #
 include
 <
+climits
+>
+#
+include
+<
 cstdint
 >
 #
