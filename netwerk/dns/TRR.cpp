@@ -3324,7 +3324,7 @@ record
 %
 s
 "
-nsCString
+PromiseFlatCString
 (
 recordEntry
 .
@@ -3476,7 +3476,7 @@ additional
 %
 s
 "
-nsCString
+PromiseFlatCString
 (
 recordEntry
 .

@@ -2102,7 +2102,7 @@ s
 %
 d
 "
-nsCString
+PromiseFlatCString
 (
 aServer
 )
@@ -2166,7 +2166,7 @@ s
 %
 d
 "
-nsCString
+PromiseFlatCString
 (
 aServer
 )
