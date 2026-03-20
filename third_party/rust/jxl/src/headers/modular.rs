@@ -575,6 +575,7 @@ derive
 UnconditionalCoder
 Debug
 PartialEq
+Clone
 )
 ]
 #
@@ -1068,6 +1069,7 @@ derive
 UnconditionalCoder
 Debug
 PartialEq
+Clone
 )
 ]
 pub
