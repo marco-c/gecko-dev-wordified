@@ -220,6 +220,15 @@ include
 "
 mozilla
 /
+Services
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SpinEventLoopUntil
 .
 h
