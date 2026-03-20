@@ -3435,7 +3435,7 @@ WrapperValue
 *
 We
 use
-unsafeGet
+unbarrieredGet
 (
 )
 in
@@ -3446,8 +3446,8 @@ avoid
 invoking
 a
 read
-barrier
 *
+barrier
 on
 the
 wrapper
@@ -3461,9 +3461,9 @@ the
 comment
 about
 bug
+*
 803376
 in
-*
 gc
 /
 GC
@@ -3480,8 +3480,8 @@ an
 incremental
 GC
 while
-the
 *
+the
 wrapper
 is
 in
@@ -3513,7 +3513,6 @@ ptr
 :
 value
 (
-*
 ptr
 -
 >
@@ -3521,7 +3520,7 @@ value
 (
 )
 .
-unsafeGet
+unbarrieredGet
 (
 )
 )
@@ -3541,7 +3540,6 @@ e
 :
 value
 (
-*
 e
 .
 get
@@ -3552,7 +3550,7 @@ value
 (
 )
 .
-unsafeGet
+unbarrieredGet
 (
 )
 )

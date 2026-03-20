@@ -17327,7 +17327,6 @@ JSObject
 {
 if
 (
-*
 p
 -
 >
@@ -17335,7 +17334,7 @@ value
 (
 )
 .
-unsafeGet
+unbarrieredGet
 (
 )
 =
