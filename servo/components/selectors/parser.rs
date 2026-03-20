@@ -457,7 +457,7 @@ element
 -
 like
 fn
-is_element_backed
+parses_as_element_backed
 (
 &
 self
@@ -13418,6 +13418,7 @@ SlotAssignment
 >
 {
 continue
+;
 }
 }
 ;
@@ -13750,6 +13751,7 @@ SlotAssignment
 >
 {
 continue
+;
 }
 }
 ;
@@ -23217,7 +23219,7 @@ p
 if
 p
 .
-is_element_backed
+parses_as_element_backed
 (
 )
 {
@@ -26505,7 +26507,7 @@ After
 )
 }
 fn
-is_element_backed
+parses_as_element_backed
 (
 &
 self

@@ -854,17 +854,6 @@ use
 selectors
 :
 :
-parser
-:
-:
-PseudoElement
-as
-ParserPseudoElement
-;
-use
-selectors
-:
-:
 sink
 :
 :
