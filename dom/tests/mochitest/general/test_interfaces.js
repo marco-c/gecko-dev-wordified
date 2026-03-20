@@ -12275,9 +12275,6 @@ NavigateEvent
 insecureContext
 :
 true
-sessionHistoryInParent
-:
-true
 }
 /
 /
@@ -12302,9 +12299,6 @@ name
 Navigation
 "
 insecureContext
-:
-true
-sessionHistoryInParent
 :
 true
 }
@@ -12333,9 +12327,6 @@ NavigationActivation
 insecureContext
 :
 true
-sessionHistoryInParent
-:
-true
 }
 /
 /
@@ -12360,9 +12351,6 @@ name
 NavigationCurrentEntryChangeEvent
 "
 insecureContext
-:
-true
-sessionHistoryInParent
 :
 true
 }
@@ -12391,9 +12379,6 @@ NavigationDestination
 insecureContext
 :
 true
-sessionHistoryInParent
-:
-true
 }
 /
 /
@@ -12420,9 +12405,6 @@ NavigationHistoryEntry
 insecureContext
 :
 true
-sessionHistoryInParent
-:
-true
 }
 /
 /
@@ -12447,9 +12429,6 @@ name
 NavigationPrecommitController
 "
 insecureContext
-:
-true
-sessionHistoryInParent
 :
 true
 }
@@ -12495,9 +12474,6 @@ name
 NavigationTransition
 "
 insecureContext
-:
-true
-sessionHistoryInParent
 :
 true
 }
@@ -22088,9 +22064,6 @@ name
 navigation
 "
 insecureContext
-:
-true
-sessionHistoryInParent
 :
 true
 }
