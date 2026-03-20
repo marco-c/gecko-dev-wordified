@@ -209,13 +209,6 @@ sys
 mjs
 "
 "
-FirefoxSelectableProfileMigrator
-.
-sys
-.
-mjs
-"
-"
 InternalTestingProfileMigrator
 .
 sys

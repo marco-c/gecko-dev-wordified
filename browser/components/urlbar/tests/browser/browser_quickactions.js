@@ -1337,7 +1337,6 @@ so
 we
 can
 refresh
-await
 makeProfileResettable
 (
 )
