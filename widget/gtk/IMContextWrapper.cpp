@@ -21010,6 +21010,14 @@ aContext
 area
 )
 ;
+rootWindow
+-
+>
+SetTextInputArea
+(
+area
+)
+;
 }
 nsresult
 IMContextWrapper
