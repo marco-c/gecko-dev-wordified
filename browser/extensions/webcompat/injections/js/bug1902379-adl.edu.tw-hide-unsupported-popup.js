@@ -179,7 +179,7 @@ osSegment
 "
 Windows
 NT
-11
+10
 .
 0
 ;
