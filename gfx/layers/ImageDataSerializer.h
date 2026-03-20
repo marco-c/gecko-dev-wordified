@@ -181,7 +181,10 @@ ImageDataSerializer
 /
 /
 RGB
+Maybe
+<
 int32_t
+>
 ComputeRGBStride
 (
 gfx
@@ -193,7 +196,10 @@ int32_t
 aWidth
 )
 ;
+Maybe
+<
 int32_t
+>
 GetRGBStride
 (
 const

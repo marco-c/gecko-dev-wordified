@@ -400,10 +400,17 @@ BytesPerPixel
 aFormat
 )
 )
+.
+valueOr
+(
+0
+)
 ;
 size_t
 bufLen
 =
+mStride
+?
 BufferSizeFromStrideAndHeight
 (
 mStride
@@ -411,6 +418,8 @@ aSize
 .
 height
 )
+:
+0
 ;
 if
 (

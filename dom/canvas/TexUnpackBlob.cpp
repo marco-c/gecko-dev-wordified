@@ -7017,7 +7017,7 @@ uint8_t
 (
 )
 ;
-int32_t
+auto
 stride
 =
 layers
@@ -7034,9 +7034,10 @@ rgb
 if
 (
 stride
-<
-=
-0
+.
+isNothing
+(
+)
 )
 {
 gfxCriticalError
@@ -7139,6 +7140,10 @@ uint8_t
 (
 )
 stride
+.
+value
+(
+)
 rgb
 .
 size
