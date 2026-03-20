@@ -548,9 +548,8 @@ RootAccessible
 RootAccessible
 (
 )
-=
-default
-;
+{
+}
 /
 /
 /

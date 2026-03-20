@@ -250,9 +250,8 @@ protected
 ProxyHandlerInfo
 (
 )
-=
-default
-;
+{
+}
 HandlerInfo
 mHandlerInfo
 ;
@@ -794,9 +793,8 @@ virtual
 ProxyMIMEInfo
 (
 )
-=
-default
-;
+{
+}
 RefPtr
 <
 ProxyHandlerInfo
@@ -1274,9 +1272,8 @@ HandlerServiceParent
 HandlerServiceParent
 (
 )
-=
-default
-;
+{
+}
 HandlerServiceParent
 :
 :
@@ -1284,9 +1281,8 @@ HandlerServiceParent
 HandlerServiceParent
 (
 )
-=
-default
-;
+{
+}
 mozilla
 :
 :

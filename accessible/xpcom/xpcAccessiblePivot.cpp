@@ -135,9 +135,8 @@ aRule
 xpcPivotRule
 (
 )
-=
-default
-;
+{
+}
 virtual
 uint16_t
 Match
@@ -276,9 +275,8 @@ xpcAccessiblePivot
 xpcAccessiblePivot
 (
 )
-=
-default
-;
+{
+}
 /
 /
 /

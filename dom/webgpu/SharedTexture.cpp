@@ -315,9 +315,8 @@ SharedTexture
 SharedTexture
 (
 )
-=
-default
-;
+{
+}
 void
 SharedTexture
 :
@@ -426,9 +425,8 @@ SharedTextureReadBackPresent
 SharedTextureReadBackPresent
 (
 )
-=
-default
-;
+{
+}
 }
 /
 /

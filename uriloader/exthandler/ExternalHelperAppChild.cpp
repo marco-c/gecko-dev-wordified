@@ -141,9 +141,8 @@ ExternalHelperAppChild
 ExternalHelperAppChild
 (
 )
-=
-default
-;
+{
+}
 /
 /
 -

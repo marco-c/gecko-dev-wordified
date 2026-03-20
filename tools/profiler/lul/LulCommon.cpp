@@ -538,9 +538,8 @@ Module
 Module
 (
 )
-=
-default
-;
+{
+}
 /
 /
 /

@@ -245,9 +245,8 @@ XULTreeGridAccessible
 XULTreeGridAccessible
 (
 )
-=
-default
-;
+{
+}
 /
 /
 /
@@ -1778,9 +1777,8 @@ XULTreeGridRowAccessible
 XULTreeGridRowAccessible
 (
 )
-=
-default
-;
+{
+}
 /
 /
 /
@@ -2998,9 +2996,8 @@ XULTreeGridCellAccessible
 XULTreeGridCellAccessible
 (
 )
-=
-default
-;
+{
+}
 /
 /
 /

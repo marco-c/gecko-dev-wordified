@@ -82,9 +82,8 @@ SampledAPZCState
 SampledAPZCState
 (
 )
-=
-default
-;
+{
+}
 SampledAPZCState
 :
 :

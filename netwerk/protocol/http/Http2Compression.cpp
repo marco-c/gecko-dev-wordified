@@ -2153,9 +2153,8 @@ Http2Decompressor
 Http2Decompressor
 (
 )
-=
-default
-;
+{
+}
 nsresult
 Http2Decompressor
 :

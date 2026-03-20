@@ -273,9 +273,8 @@ nsJARURI
 nsJARURI
 (
 )
-=
-default
-;
+{
+}
 nsJARURI
 :
 :
@@ -283,9 +282,8 @@ nsJARURI
 nsJARURI
 (
 )
-=
-default
-;
+{
+}
 /
 /
 XXX

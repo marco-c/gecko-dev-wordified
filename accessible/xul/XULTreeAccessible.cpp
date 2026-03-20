@@ -516,9 +516,8 @@ XULTreeAccessible
 XULTreeAccessible
 (
 )
-=
-default
-;
+{
+}
 /
 /
 /
@@ -4222,9 +4221,8 @@ XULTreeItemAccessibleBase
 XULTreeItemAccessibleBase
 (
 )
-=
-default
-;
+{
+}
 /
 /
 /
@@ -6706,9 +6704,8 @@ XULTreeItemAccessible
 XULTreeItemAccessible
 (
 )
-=
-default
-;
+{
+}
 /
 /
 /

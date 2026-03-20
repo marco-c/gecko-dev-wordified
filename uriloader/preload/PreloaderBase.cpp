@@ -218,6 +218,12 @@ nsIChannelEventSink
 public
 nsIRedirectResultListener
 {
+RedirectSink
+(
+)
+=
+delete
+;
 virtual
 ~
 RedirectSink
@@ -239,12 +245,6 @@ nsIInterfaceRequestor
 *
 aCallbacks
 )
-;
-RedirectSink
-(
-)
-=
-delete
 ;
 private
 :

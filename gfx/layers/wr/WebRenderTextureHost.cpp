@@ -171,9 +171,8 @@ explicit
 ScheduleHandleRenderTextureOps
 (
 )
-=
-default
-;
+{
+}
 virtual
 void
 Notify

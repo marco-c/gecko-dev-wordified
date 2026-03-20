@@ -4020,9 +4020,8 @@ nsCSPBaseSrc
 nsCSPBaseSrc
 (
 )
-=
-default
-;
+{
+}
 nsCSPBaseSrc
 :
 :

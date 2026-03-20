@@ -449,9 +449,8 @@ nsAppShellService
 nsAppShellService
 (
 )
-=
-default
-;
+{
+}
 /
 *
 *
@@ -1370,9 +1369,8 @@ virtual
 BrowserDestroyer
 (
 )
-=
-default
-;
+{
+}
 private
 :
 nsCOMPtr

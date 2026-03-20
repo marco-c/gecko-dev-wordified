@@ -10730,9 +10730,8 @@ virtual
 PatchFileDecoder
 (
 )
-=
-default
-;
+{
+}
 virtual
 unsigned
 int
@@ -10871,9 +10870,8 @@ BSPatchFileDecoder
 (
 )
 override
-=
-default
-;
+{
+}
 unsigned
 int
 ComputeCrc32

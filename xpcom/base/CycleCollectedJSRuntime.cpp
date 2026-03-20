@@ -4855,9 +4855,8 @@ JSHolderList
 JSHolderList
 (
 )
-=
-default
-;
+{
+}
 bool
 JSHolderList
 :

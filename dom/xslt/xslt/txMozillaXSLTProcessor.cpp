@@ -2967,9 +2967,8 @@ private
 XSLTProcessRequest
 (
 )
-=
-default
-;
+{
+}
 txExecutionState
 *
 mState

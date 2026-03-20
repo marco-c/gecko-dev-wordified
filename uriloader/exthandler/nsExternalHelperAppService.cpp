@@ -4474,9 +4474,8 @@ nsExternalHelperAppService
 nsExternalHelperAppService
 (
 )
-=
-default
-;
+{
+}
 nsresult
 nsExternalHelperAppService
 :
@@ -4569,9 +4568,8 @@ nsExternalHelperAppService
 nsExternalHelperAppService
 (
 )
-=
-default
-;
+{
+}
 nsresult
 nsExternalHelperAppService
 :

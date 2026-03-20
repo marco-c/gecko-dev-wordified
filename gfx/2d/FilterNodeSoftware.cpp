@@ -5881,9 +5881,8 @@ FilterNodeSoftware
 FilterNodeSoftware
 (
 )
-=
-default
-;
+{
+}
 FilterNodeSoftware
 :
 :

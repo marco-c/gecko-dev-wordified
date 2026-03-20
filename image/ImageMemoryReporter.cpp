@@ -156,9 +156,8 @@ NS_DECL_ISUPPORTS
 WebRenderReporter
 (
 )
-=
-default
-;
+{
+}
 NS_IMETHOD
 CollectReports
 (
@@ -214,9 +213,8 @@ virtual
 WebRenderReporter
 (
 )
-=
-default
-;
+{
+}
 }
 ;
 NS_IMPL_ISUPPORTS

@@ -132,9 +132,8 @@ ProfiledThreadData
 ProfiledThreadData
 (
 )
-=
-default
-;
+{
+}
 void
 ProfiledThreadData
 :

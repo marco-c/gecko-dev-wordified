@@ -421,9 +421,8 @@ nsOSHelperAppService
 nsOSHelperAppService
 (
 )
-=
-default
-;
+{
+}
 /
 *
 *

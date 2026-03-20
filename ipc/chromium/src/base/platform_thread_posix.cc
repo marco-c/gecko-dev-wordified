@@ -236,7 +236,7 @@ ThreadMain
 )
 ;
 return
-nullptr
+NULL
 ;
 }
 /

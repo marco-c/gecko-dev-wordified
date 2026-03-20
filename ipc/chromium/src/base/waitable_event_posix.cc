@@ -653,9 +653,8 @@ WaitableEvent
 WaitableEvent
 (
 )
-=
-default
-;
+{
+}
 void
 WaitableEvent
 :

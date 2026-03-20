@@ -183,9 +183,8 @@ PrototypeDocumentParser
 PrototypeDocumentParser
 (
 )
-=
-default
-;
+{
+}
 NS_INTERFACE_TABLE_HEAD
 (
 PrototypeDocumentParser

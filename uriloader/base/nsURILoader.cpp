@@ -554,9 +554,8 @@ nsDocumentOpenInfo
 nsDocumentOpenInfo
 (
 )
-=
-default
-;
+{
+}
 nsresult
 nsDocumentOpenInfo
 :
@@ -5592,9 +5591,8 @@ nsURILoader
 nsURILoader
 (
 )
-=
-default
-;
+{
+}
 nsURILoader
 :
 :
@@ -5602,9 +5600,8 @@ nsURILoader
 nsURILoader
 (
 )
-=
-default
-;
+{
+}
 NS_IMPL_ADDREF
 (
 nsURILoader

@@ -1192,9 +1192,8 @@ Pickle
 Pickle
 (
 )
-=
-default
-;
+{
+}
 Pickle
 &
 Pickle

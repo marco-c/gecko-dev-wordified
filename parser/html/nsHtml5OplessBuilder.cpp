@@ -112,9 +112,8 @@ nsHtml5OplessBuilder
 nsHtml5OplessBuilder
 (
 )
-=
-default
-;
+{
+}
 void
 nsHtml5OplessBuilder
 :

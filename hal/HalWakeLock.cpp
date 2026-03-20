@@ -396,9 +396,8 @@ nsIObserver
 ClearHashtableOnShutdown
 (
 )
-=
-default
-;
+{
+}
 public
 :
 NS_DECL_ISUPPORTS
@@ -466,9 +465,8 @@ nsIObserver
 CleanupOnContentShutdown
 (
 )
-=
-default
-;
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

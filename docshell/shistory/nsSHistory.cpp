@@ -1200,9 +1200,8 @@ NS_DECL_NSIOBSERVER
 nsSHistoryObserver
 (
 )
-=
-default
-;
+{
+}
 static
 void
 PrefChanged
@@ -1231,9 +1230,8 @@ protected
 nsSHistoryObserver
 (
 )
-=
-default
-;
+{
+}
 }
 ;
 StaticRefPtr

@@ -266,9 +266,8 @@ Release
 SelData
 (
 )
-=
-default
-;
+{
+}
 }
 ;
 SelectionManager

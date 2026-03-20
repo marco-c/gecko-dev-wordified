@@ -106,9 +106,8 @@ nsChromeRegistryContent
 nsChromeRegistryContent
 (
 )
-=
-default
-;
+{
+}
 void
 nsChromeRegistryContent
 :

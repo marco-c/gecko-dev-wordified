@@ -158,9 +158,13 @@ ICU4XDangiCalendar
 &
 other
 )
-=
-default
-;
+:
+ICU4XChineseBasedCalendar
+(
+other
+)
+{
+}
 ICU4XDangiCalendar
 :
 :

@@ -10061,6 +10061,8 @@ nsIOutputStream
 *
 mOutputStream
 ;
+private
+:
 SRIVerifierAndOutputHolder
 (
 )

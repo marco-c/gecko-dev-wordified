@@ -77220,11 +77220,11 @@ mContent
 ;
 }
 }
+private
+:
 ReflowTextA11yNotifier
 (
 )
-=
-delete
 ;
 ReflowTextA11yNotifier
 (
@@ -77232,8 +77232,6 @@ const
 ReflowTextA11yNotifier
 &
 )
-=
-delete
 ;
 ReflowTextA11yNotifier
 &
@@ -77244,11 +77242,7 @@ const
 ReflowTextA11yNotifier
 &
 )
-=
-delete
 ;
-private
-:
 nsIContent
 *
 mContent

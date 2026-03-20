@@ -719,9 +719,8 @@ nsMIMEInfoBase
 nsMIMEInfoBase
 (
 )
-=
-default
-;
+{
+}
 NS_IMETHODIMP
 nsMIMEInfoBase
 :

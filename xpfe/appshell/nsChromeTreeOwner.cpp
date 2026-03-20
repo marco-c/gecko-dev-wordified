@@ -570,9 +570,8 @@ nsChromeTreeOwner
 nsChromeTreeOwner
 (
 )
-=
-default
-;
+{
+}
 /
 /
 *

@@ -106,9 +106,8 @@ RemoteSpellcheckEngineParent
 RemoteSpellcheckEngineParent
 (
 )
-=
-default
-;
+{
+}
 mozilla
 :
 :

@@ -490,9 +490,8 @@ AutoTimer
 AutoTimer
 (
 )
-=
-default
-;
+{
+}
 }
 /
 /

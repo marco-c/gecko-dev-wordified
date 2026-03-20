@@ -148,9 +148,8 @@ nsProfilerStartParams
 nsProfilerStartParams
 (
 )
-=
-default
-;
+{
+}
 NS_IMETHODIMP
 nsProfilerStartParams
 :

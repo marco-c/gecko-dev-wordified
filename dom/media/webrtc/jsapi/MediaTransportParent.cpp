@@ -840,9 +840,8 @@ MediaTransportParent
 MediaTransportParent
 (
 )
-=
-default
-;
+{
+}
 mozilla
 :
 :

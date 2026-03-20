@@ -912,14 +912,14 @@ aParticular
 )
 {
 }
+private
+:
 GetOriginParticular
 (
 )
 =
 delete
 ;
-private
-:
 ~
 GetOriginParticular
 (

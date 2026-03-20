@@ -145,9 +145,8 @@ VerifySSLServerCertParent
 VerifySSLServerCertParent
 (
 )
-=
-default
-;
+{
+}
 void
 VerifySSLServerCertParent
 :
