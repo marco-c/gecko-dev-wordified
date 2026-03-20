@@ -1030,7 +1030,6 @@ BackupService
 (
 )
 ;
-await
 bs
 .
 setParentDirPath
@@ -1157,7 +1156,6 @@ the
 Docs
 folder
 .
-await
 bs
 .
 setParentDirPath
