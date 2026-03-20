@@ -4127,6 +4127,8 @@ Deserialize
 [
 derive
 (
+Clone
+Copy
 Debug
 )
 ]
