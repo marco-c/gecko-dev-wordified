@@ -137,11 +137,6 @@ mozilla_Latin1_h
 #
 include
 <
-cstddef
->
-#
-include
-<
 type_traits
 >
 #
@@ -154,11 +149,6 @@ JsRust
 h
 "
 #
-if
-MOZ_HAS_JSRUST
-(
-)
-#
 include
 "
 mozilla
@@ -167,6 +157,11 @@ Span
 .
 h
 "
+#
+if
+MOZ_HAS_JSRUST
+(
+)
 #
 include
 "

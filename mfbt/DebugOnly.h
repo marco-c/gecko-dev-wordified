@@ -156,15 +156,10 @@ Attributes
 h
 "
 #
-ifdef
-DEBUG
-#
 include
 <
 utility
 >
-#
-endif
 namespace
 mozilla
 {
