@@ -1785,6 +1785,17 @@ aMallocSizeOf
 )
 override
 ;
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
+RecvPrinting
+(
+)
+;
 private
 :
 ~
