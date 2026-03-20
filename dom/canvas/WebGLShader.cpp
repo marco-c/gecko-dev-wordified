@@ -785,6 +785,10 @@ mCompileResults
 -
 >
 mInfoLog
+.
+c_str
+(
+)
 ;
 const
 auto
