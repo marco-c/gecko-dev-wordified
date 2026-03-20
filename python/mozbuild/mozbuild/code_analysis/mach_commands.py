@@ -2286,17 +2286,31 @@ rc
 =
 0
         
-arg_max
+nproc
 =
-512
-#
-The
-actual
-shell
-limit
-is
-way
-above
+cpu_count
+(
+)
+        
+batch_size
+=
+max
+(
+(
+len
+(
+source
+)
++
+nproc
+-
+1
+)
+/
+/
+nproc
+1
+)
         
 for
 batch
@@ -2304,7 +2318,7 @@ in
 batched
 (
 source
-arg_max
+batch_size
 )
 :
             
