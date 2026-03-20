@@ -1334,6 +1334,11 @@ AV_FUNC_AVUTIL_ALL
 )
 AV_FUNC
 (
+av_mallocz
+AV_FUNC_AVUTIL_ALL
+)
+AV_FUNC
+(
 av_freep
 AV_FUNC_AVUTIL_ALL
 )
