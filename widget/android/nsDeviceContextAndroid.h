@@ -158,8 +158,6 @@ const
 nsAString
 &
 aPrintToFileName
-uint64_t
-aBrowsingContextId
 int32_t
 aStartPage
 int32_t

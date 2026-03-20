@@ -1224,8 +1224,6 @@ const
 nsAString
 &
 aPrintToFileName
-uint64_t
-aBrowsingContextId
 int32_t
 aStartPage
 int32_t
@@ -1839,11 +1837,6 @@ bool
 mIsInitialized
 =
 false
-;
-uint64_t
-mBrowsingContextId
-=
-0
 ;
 }
 ;
