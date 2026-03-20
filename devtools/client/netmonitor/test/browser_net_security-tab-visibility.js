@@ -153,10 +153,6 @@ securityState
 :
 "
 secure
--
-custom
--
-root
 "
 }
 {
