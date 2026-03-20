@@ -242,4 +242,12 @@ byte
 cert
 )
 ;
+void
+setOriginID
+(
+final
+String
+originID
+)
+;
 }
