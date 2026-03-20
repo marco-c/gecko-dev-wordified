@@ -326,8 +326,9 @@ public
 BrotliWrapper
 (
 )
-{
-}
+=
+default
+;
 ~
 BrotliWrapper
 (

@@ -893,8 +893,9 @@ ExternalHelperAppParent
 ExternalHelperAppParent
 (
 )
-{
-}
+=
+default
+;
 /
 /
 /

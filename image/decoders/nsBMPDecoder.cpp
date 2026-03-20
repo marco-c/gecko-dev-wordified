@@ -2105,8 +2105,9 @@ nsBMPDecoder
 nsBMPDecoder
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Obtains

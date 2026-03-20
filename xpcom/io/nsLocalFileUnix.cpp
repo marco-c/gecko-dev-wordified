@@ -1497,8 +1497,9 @@ nsLocalFile
 nsLocalFile
 (
 )
-{
-}
+=
+default
+;
 nsLocalFile
 :
 :

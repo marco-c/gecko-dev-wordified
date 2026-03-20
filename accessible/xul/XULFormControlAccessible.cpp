@@ -410,8 +410,9 @@ XULButtonAccessible
 XULButtonAccessible
 (
 )
-{
-}
+=
+default
+;
 /
 /
 /

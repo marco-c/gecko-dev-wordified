@@ -113,8 +113,9 @@ FileHandleWrapper
 FileHandleWrapper
 (
 )
-{
-}
+=
+default
+;
 mozilla
 :
 :

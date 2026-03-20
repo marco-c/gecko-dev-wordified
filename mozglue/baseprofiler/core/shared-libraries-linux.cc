@@ -1298,8 +1298,9 @@ public
 MemoryMappedFile
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Constructor
@@ -2117,8 +2118,9 @@ path
 FileID
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Load

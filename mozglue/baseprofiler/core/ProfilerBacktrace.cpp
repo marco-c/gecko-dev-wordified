@@ -452,8 +452,9 @@ ProfilerBacktrace
 ProfilerBacktrace
 (
 )
-{
-}
+=
+default
+;
 BaseProfilerThreadId
 ProfilerBacktrace
 :

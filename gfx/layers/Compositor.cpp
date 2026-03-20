@@ -469,8 +469,9 @@ Compositor
 Compositor
 (
 )
-{
-}
+=
+default
+;
 void
 Compositor
 :

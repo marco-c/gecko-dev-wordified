@@ -466,8 +466,9 @@ ImageAccessible
 ImageAccessible
 (
 )
-{
-}
+=
+default
+;
 /
 /
 /
