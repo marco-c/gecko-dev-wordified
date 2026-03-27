@@ -1522,6 +1522,8 @@ const
 nsAString
 &
 aPrintToFileName
+uint64_t
+aBrowsingContextId
 int32_t
 aStartPage
 int32_t
@@ -1559,6 +1561,10 @@ BeginDocument
 _ns
 )
 ;
+mBrowsingContextId
+=
+aBrowsingContextId
+;
 nsresult
 rv
 =
@@ -1569,6 +1575,7 @@ BeginPrinting
 (
 aTitle
 aPrintToFileName
+aBrowsingContextId
 aStartPage
 aEndPage
 )
@@ -1595,6 +1602,7 @@ BeginDocument
 (
 aTitle
 aPrintToFileName
+aBrowsingContextId
 aStartPage
 aEndPage
 )
