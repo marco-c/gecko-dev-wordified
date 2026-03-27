@@ -2480,6 +2480,10 @@ aKnowsCompositor
 GetTextureForwarder
 (
 )
+.
+get
+(
+)
 )
 ;
 const

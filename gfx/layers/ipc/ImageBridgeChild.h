@@ -890,8 +890,10 @@ ImageBridgeChild
 override
 )
 ;
+RefPtr
+<
 TextureForwarder
-*
+>
 GetTextureForwarder
 (
 )

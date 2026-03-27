@@ -546,8 +546,10 @@ mPipelineId
 /
 /
 KnowsCompositor
+RefPtr
+<
 TextureForwarder
-*
+>
 GetTextureForwarder
 (
 )

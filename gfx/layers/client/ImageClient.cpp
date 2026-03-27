@@ -915,6 +915,10 @@ aKnowsCompositor
 GetTextureForwarder
 (
 )
+.
+get
+(
+)
 TextureFlags
 :
 :

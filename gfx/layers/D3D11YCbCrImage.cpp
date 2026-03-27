@@ -561,8 +561,10 @@ hr
 nullptr
 )
 ;
+RefPtr
+<
 TextureForwarder
-*
+>
 forwarder
 =
 aAllocator

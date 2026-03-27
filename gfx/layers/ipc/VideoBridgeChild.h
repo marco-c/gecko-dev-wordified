@@ -137,8 +137,10 @@ Shutdown
 )
 ;
 static
+RefPtr
+<
 VideoBridgeChild
-*
+>
 GetSingleton
 (
 )

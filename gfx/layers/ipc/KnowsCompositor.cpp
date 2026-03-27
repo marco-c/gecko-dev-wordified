@@ -264,8 +264,10 @@ KnowsCompositorMediaProxy
 =
 default
 ;
+RefPtr
+<
 TextureForwarder
-*
+>
 KnowsCompositorMediaProxy
 :
 :
