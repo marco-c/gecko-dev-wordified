@@ -183,7 +183,7 @@ number
 return
 Math
 .
-floor
+round
 (
 number
 *
