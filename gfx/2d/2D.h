@@ -7971,6 +7971,16 @@ return
 mFontData
 ;
 }
+uint32_t
+FontDataLength
+(
+)
+const
+{
+return
+mLength
+;
+}
 already_AddRefed
 <
 mozilla
