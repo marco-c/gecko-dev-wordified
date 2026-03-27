@@ -137,6 +137,12 @@ process
 Command
 ;
 use
+log
+:
+:
+info
+;
+use
 crate
 :
 :
@@ -996,7 +1002,7 @@ path
 }
 }
 ;
-println
+info
 !
 (
 "

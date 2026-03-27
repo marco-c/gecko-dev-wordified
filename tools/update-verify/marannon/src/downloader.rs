@@ -84,6 +84,12 @@ path
 Path
 ;
 use
+log
+:
+:
+info
+;
+use
 ureq
 ;
 /
@@ -188,7 +194,7 @@ Error
 >
 >
 {
-println
+info
 !
 (
 "
