@@ -252,12 +252,6 @@ enableHWA
 true
 )
 ;
-#
-if
-defined
-(
-EARLY_BETA_OR_EARLIER
-)
 pref
 (
 "
@@ -268,8 +262,6 @@ enableSplitMerge
 true
 )
 ;
-#
-endif
 #
 endif
 #
