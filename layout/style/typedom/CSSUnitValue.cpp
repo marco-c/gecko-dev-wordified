@@ -690,6 +690,9 @@ case
 eCSSProperty_stroke_miterlimit
 :
 case
+eCSSProperty_animation_iteration_count
+:
+case
 eCSSProperty_column_width
 :
 case
