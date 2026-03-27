@@ -8575,8 +8575,6 @@ return
 false
 ;
 }
-auto
-*
 owner
 =
 GetTextureOwner
