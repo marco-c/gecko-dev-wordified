@@ -319,9 +319,8 @@ DesktopCaptureImpl
 *
 Create
 (
-const
 int32_t
-aModuleId
+aCaptureId
 const
 char
 *
@@ -355,9 +354,6 @@ DeviceInfo
 >
 CreateDeviceInfo
 (
-const
-int32_t
-aId
 const
 mozilla
 :
@@ -497,10 +493,6 @@ CaptureEndedEvent
 override
 ;
 const
-int32_t
-mModuleId
-;
-const
 mozilla
 :
 :
@@ -530,7 +522,7 @@ DesktopCaptureImpl
 (
 const
 int32_t
-aId
+aCaptureId
 const
 char
 *
