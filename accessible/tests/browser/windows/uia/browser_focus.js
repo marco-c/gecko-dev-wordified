@@ -170,7 +170,7 @@ focus
 ;
 }
 }
-addUiaTask
+addAccessibleTask
 (
 <
 button

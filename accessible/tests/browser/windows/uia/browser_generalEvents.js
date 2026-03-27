@@ -72,7 +72,7 @@ event
 .
 *
 /
-addUiaTask
+addAccessibleTask
 (
 async
 function
