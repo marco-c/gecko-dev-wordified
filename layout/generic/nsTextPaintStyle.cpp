@@ -1746,7 +1746,7 @@ GetVisitedDependentColor
 nsStyleText
 :
 :
-mWebkitTextFillColor
+mColor
 )
 ;
 return
@@ -2664,7 +2664,7 @@ GetVisitedDependentColor
 nsStyleText
 :
 :
-mWebkitTextFillColor
+mColor
 )
 ;
 mSelectionPseudoStyle
