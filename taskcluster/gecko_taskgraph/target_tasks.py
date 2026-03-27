@@ -12886,6 +12886,17 @@ items
 :
         
 if
+not
+standard_filter
+(
+task
+parameters
+)
+:
+            
+continue
+        
+if
 task
 .
 attributes
