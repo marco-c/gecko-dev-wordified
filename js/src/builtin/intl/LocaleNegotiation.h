@@ -1290,13 +1290,15 @@ locale
 .
 *
 /
-JSLinearString
-*
+bool
 ComputeDefaultLocale
 (
 JSContext
 *
 cx
+LanguageId
+*
+result
 )
 ;
 }
