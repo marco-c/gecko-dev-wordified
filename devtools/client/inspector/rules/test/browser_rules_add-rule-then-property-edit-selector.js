@@ -366,7 +366,6 @@ element
 "
 )
 ;
-await
 checkModifiedElement
 (
 view

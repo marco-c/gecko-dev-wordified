@@ -1436,14 +1436,11 @@ EventUtils
 .
 synthesizeMouse
 (
-selectContainerButton
+view
 .
-closest
-(
-"
+styleDocument
+.
 body
-"
-)
 0
 0
 {
