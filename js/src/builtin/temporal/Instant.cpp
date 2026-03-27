@@ -1714,7 +1714,9 @@ nullptr
 }
 if
 (
-y
+length
+>
+1
 )
 {
 result
@@ -1729,7 +1731,9 @@ y
 }
 if
 (
-x
+length
+>
+0
 )
 {
 result
