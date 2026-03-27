@@ -157714,10 +157714,12 @@ convertType
 preCallback
 }
             
+const
 JS
 :
 :
 Value
+&
 val
 =
 js
@@ -157730,6 +157732,20 @@ OBSERVABLE_ARRAY_DOM_INTERFACE_SLOT
 )
 ;
             
+if
+(
+MOZ_LIKELY
+(
+!
+val
+.
+isUndefined
+(
+)
+)
+)
+{
+              
 auto
 *
 interface
@@ -157749,17 +157765,17 @@ toPrivate
 )
 )
 ;
-            
+              
 MOZ_ASSERT
 (
 interface
 )
 ;
-            
+              
 ErrorResult
 rv
 ;
-            
+              
 MOZ_KnownLive
 (
 interface
@@ -157775,6 +157791,25 @@ callbackArgs
 }
 )
 ;
+              
+if
+(
+rv
+.
+MaybeSetPendingException
+(
+cx
+)
+)
+{
+                
+return
+false
+;
+              
+}
+            
+}
             
 *
 {
@@ -158026,13 +158061,7 @@ dedent
 "
             
 return
-!
-rv
-.
-MaybeSetPendingException
-(
-cx
-)
+true
 ;
             
 "
@@ -158367,23 +158396,6 @@ dedent
 "
 "
 "
-            
-if
-(
-rv
-.
-MaybeSetPendingException
-(
-cx
-)
-)
-{
-              
-return
-false
-;
-            
-}
             
 if
 (
