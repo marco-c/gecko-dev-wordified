@@ -539,6 +539,12 @@ browserIsSelected
 "
 isAIWindow
 "
+"
+isFirstRun
+"
+"
+isFirstStartup
+"
 ]
 ;
 for
