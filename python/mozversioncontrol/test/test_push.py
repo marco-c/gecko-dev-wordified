@@ -529,6 +529,7 @@ parametrize
 "
 remote
 ref
+kwargs
 "
     
 [
@@ -539,6 +540,8 @@ param
 (
 None
 None
+{
+}
 id
 =
 "
@@ -554,6 +557,8 @@ param
 remote
 "
 None
+{
+}
 id
 =
 "
@@ -571,10 +576,36 @@ remote
 "
 ref
 "
+{
+}
 id
 =
 "
 with_remote_and_ref
+"
+)
+        
+pytest
+.
+param
+(
+"
+remote
+"
+"
+ref
+"
+{
+"
+force
+"
+:
+True
+}
+id
+=
+"
+with_force
 "
 )
     
@@ -586,6 +617,7 @@ test_push
 repo
 remote
 ref
+kwargs
 )
 :
     
@@ -739,6 +771,9 @@ remote
 ref
 =
 ref
+*
+*
+kwargs
 )
     
 verify_push_succeeded

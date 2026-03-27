@@ -1932,7 +1932,9 @@ abstractmethod
 def
 push
 (
+        
 self
+        
 remote
 :
 Optional
@@ -1941,6 +1943,7 @@ str
 ]
 =
 None
+        
 ref
 :
 Optional
@@ -1949,6 +1952,13 @@ str
 ]
 =
 None
+        
+force
+:
+bool
+=
+False
+    
 )
 :
         
@@ -1997,6 +2007,19 @@ branch
 ref
 is
 used
+.
+        
+force
+whether
+to
+use
+a
+force
+push
+(
+default
+False
+)
 .
         
 "

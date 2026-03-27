@@ -2871,7 +2871,9 @@ run_kwargs
 def
 push
 (
+        
 self
+        
 remote
 :
 Optional
@@ -2880,6 +2882,7 @@ str
 ]
 =
 None
+        
 ref
 :
 Optional
@@ -2888,6 +2891,13 @@ str
 ]
 =
 None
+        
+force
+:
+bool
+=
+False
+    
 )
 :
         

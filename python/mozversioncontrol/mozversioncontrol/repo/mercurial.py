@@ -2325,7 +2325,9 @@ extension
 def
 push
 (
+        
 self
+        
 remote
 :
 Optional
@@ -2334,6 +2336,7 @@ str
 ]
 =
 None
+        
 ref
 :
 Optional
@@ -2342,6 +2345,13 @@ str
 ]
 =
 None
+        
+force
+:
+bool
+=
+False
+    
 )
 :
         
@@ -2372,6 +2382,21 @@ args
 push
 "
 ]
+        
+if
+force
+:
+            
+args
+.
+append
+(
+"
+-
+-
+force
+"
+)
         
 if
 remote
