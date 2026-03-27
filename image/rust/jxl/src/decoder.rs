@@ -63,7 +63,10 @@ crate
 cms
 :
 :
+{
 QcmsCms
+RenderingIntent
+}
 ;
 use
 jxl
@@ -228,6 +231,9 @@ bool
 premultiply
 :
 bool
+rendering_intent
+:
+RenderingIntent
 )
 -
 >
@@ -262,6 +268,9 @@ Box
 new
 (
 QcmsCms
+{
+rendering_intent
+}
 )
 as
 Box
