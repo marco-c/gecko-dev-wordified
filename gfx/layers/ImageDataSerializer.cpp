@@ -2326,6 +2326,16 @@ return
 nullptr
 ;
 }
+if
+(
+!
+aBuffer
+)
+{
+return
+nullptr
+;
+}
 layers
 :
 :
