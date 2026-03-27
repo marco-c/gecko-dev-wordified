@@ -4167,7 +4167,7 @@ rb
         
 required
 =
-True
+False
     
 )
     
@@ -4394,6 +4394,12 @@ args
 workdir
 )
     
+if
+args
+.
+cert_path
+:
+        
 signing_cert
 =
 args
@@ -4403,7 +4409,7 @@ cert_path
 read
 (
 )
-    
+        
 assert
 get_keysize
 (
@@ -4412,6 +4418,13 @@ signing_cert
 =
 =
 4096
+    
+else
+:
+        
+signing_cert
+=
+None
     
 #
 Multithread
