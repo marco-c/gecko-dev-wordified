@@ -28938,20 +28938,6 @@ text
 "
 )
     
-Atom
-(
-"
-PseudoStyle_WebkitScrollbar
-"
-"
-:
--
-webkit
--
-scrollbar
-"
-)
-    
 #
 END
 ATOMS
