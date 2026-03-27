@@ -333,6 +333,8 @@ emptyState
 .
 querySelector
 (
+moz
+-
 button
 [
 data
@@ -346,6 +348,8 @@ in
 "
 ]
 )
+.
+buttonEl
 {
 }
 browser
@@ -851,6 +855,8 @@ emptyState
 .
 querySelector
 (
+moz
+-
 button
 [
 data
@@ -864,6 +870,8 @@ device
 "
 ]
 )
+.
+buttonEl
 {
 }
 browser
@@ -6645,6 +6653,8 @@ emptyState
 querySelector
 (
 "
+moz
+-
 button
 [
 data
@@ -6665,6 +6675,8 @@ EventUtils
 synthesizeMouseAtCenter
 (
 actionButton
+.
+buttonEl
 {
 }
 browser

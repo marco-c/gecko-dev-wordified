@@ -475,6 +475,8 @@ emptyState
 querySelector
 (
 "
+moz
+-
 button
 [
 data
@@ -489,6 +491,8 @@ offline
 ]
 "
 )
+.
+buttonEl
 .
 click
 (
@@ -1525,6 +1529,8 @@ emptyState
 querySelector
 (
 "
+moz
+-
 button
 [
 data
@@ -1545,6 +1551,8 @@ EventUtils
 synthesizeMouseAtCenter
 (
 emptyStateButton
+.
+buttonEl
 {
 }
 content
