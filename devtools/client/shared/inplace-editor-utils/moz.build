@@ -117,6 +117,17 @@ function
 mjs
 "
 "
+autocomplete
+-
+linear
+-
+gradient
+-
+function
+.
+mjs
+"
+"
 constants
 .
 mjs
