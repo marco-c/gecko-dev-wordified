@@ -7546,11 +7546,10 @@ tabs
 in
 between
 .
-gBrowser
+splitview
 .
 unsplitTabs
 (
-splitview
 )
 ;
 splitview

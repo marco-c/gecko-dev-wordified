@@ -198,11 +198,10 @@ splitview
 "
 )
 ;
-gBrowser
+splitView
 .
 unsplitTabs
 (
-splitView
 )
 ;
 Services
