@@ -334,7 +334,7 @@ tool
 of
 gDevTools
 .
-_tools
+tools
 )
 {
 if

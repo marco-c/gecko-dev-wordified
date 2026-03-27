@@ -551,7 +551,7 @@ is
 (
 gDevTools
 .
-_toolboxesPerCommands
+toolboxesPerCommands
 .
 size
 0
@@ -1032,6 +1032,13 @@ toggle
 devtools
 shortcut
 .
+*
+*
+param
+{
+Window
+}
+win
 *
 /
 function
