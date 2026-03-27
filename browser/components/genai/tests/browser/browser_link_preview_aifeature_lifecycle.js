@@ -423,7 +423,7 @@ true
 await
 LinkPreview
 .
-disable
+block
 (
 )
 ;
@@ -761,7 +761,7 @@ branch
 await
 LinkPreview
 .
-reset
+makeAvailable
 (
 )
 ;
@@ -2220,7 +2220,7 @@ feature
 await
 LinkPreview
 .
-disable
+block
 (
 )
 ;
@@ -2411,7 +2411,7 @@ true
 await
 LinkPreview
 .
-disable
+block
 (
 )
 ;
@@ -2532,7 +2532,7 @@ true
 await
 LinkPreview
 .
-reset
+makeAvailable
 (
 )
 ;
@@ -2836,7 +2836,7 @@ enable
 await
 LinkPreview
 .
-disable
+block
 (
 )
 ;
