@@ -23276,6 +23276,16 @@ nsIFrame
 aScrollbarPart
 )
 ;
+static
+bool
+UseOverlayScrollbars
+(
+const
+nsIFrame
+*
+aScrollbarPart
+)
+;
 /
 *
 *
