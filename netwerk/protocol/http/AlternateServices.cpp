@@ -2127,7 +2127,7 @@ d
 n
 "
 this
-nsCString
+PromiseFlatCString
 (
 originScheme
 )
@@ -3596,8 +3596,6 @@ _NS_NEXT_TOKEN
 ;
 mOriginPort
 =
-nsCString
-(
 Substring
 (
 str
@@ -3605,7 +3603,6 @@ start
 idx
 -
 start
-)
 )
 .
 ToInteger
@@ -3631,8 +3628,6 @@ _NS_NEXT_TOKEN
 ;
 mAlternatePort
 =
-nsCString
-(
 Substring
 (
 str
@@ -3640,7 +3635,6 @@ start
 idx
 -
 start
-)
 )
 .
 ToInteger
@@ -3686,8 +3680,6 @@ _NS_NEXT_TOKEN
 ;
 mExpiresAt
 =
-nsCString
-(
 Substring
 (
 str
@@ -3695,7 +3687,6 @@ start
 idx
 -
 start
-)
 )
 .
 ToInteger

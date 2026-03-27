@@ -1431,9 +1431,7 @@ mac
 ;
 _retval
 .
-Append
-(
-nsPrintfCString
+AppendPrintf
 (
 "
 %
@@ -1478,7 +1476,6 @@ mMAC
 [
 5
 ]
-)
 )
 ;
 }
