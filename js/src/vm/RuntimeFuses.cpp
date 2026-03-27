@@ -546,9 +546,7 @@ cx
 #
 if
 JS_HAS_INTL_API
-const
-char
-*
+auto
 locale
 =
 cx
@@ -563,16 +561,6 @@ getDefaultLocaleIfInitialized
 (
 )
 ;
-if
-(
-!
-locale
-)
-{
-return
-true
-;
-}
 return
 LocaleHasDefaultCaseMapping
 (

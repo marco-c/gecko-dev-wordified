@@ -148,6 +148,9 @@ ArrayObject
 class
 GlobalObject
 ;
+class
+LanguageId
+;
 /
 *
 Initialize
@@ -538,9 +541,7 @@ JS_HAS_INTL_API
 bool
 LocaleHasDefaultCaseMapping
 (
-const
-char
-*
+LanguageId
 locale
 )
 ;
