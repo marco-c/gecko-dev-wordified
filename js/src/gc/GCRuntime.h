@@ -7094,9 +7094,9 @@ int
 mozilla
 :
 :
-SequentiallyConsistent
+ReleaseAcquire
 >
-tsanMemoryBarrier
+tsanFenceAtomic
 ;
 #
 endif
