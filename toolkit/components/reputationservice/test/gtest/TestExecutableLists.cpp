@@ -1787,6 +1787,8 @@ ms
 /
 /
 Windows
+Saved
+Search
 "
 .
 seplugin
