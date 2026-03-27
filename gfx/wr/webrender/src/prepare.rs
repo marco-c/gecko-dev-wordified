@@ -1335,13 +1335,16 @@ prim_instances
 prim_instance_index
 ]
 ;
+let
+mut
+use_legacy_path
+=
+true
+;
 if
 !
 is_passthrough
 {
-let
-disable_quad_path
-=
 match
 &
 prim_instance
@@ -1376,7 +1379,12 @@ ConicGradient
 }
 =
 >
+{
+use_legacy_path
+=
 false
+;
+}
 PrimitiveInstanceKind
 :
 :
@@ -1389,6 +1397,8 @@ data_handle
 =
 >
 {
+use_legacy_path
+=
 !
 crate
 :
@@ -1415,6 +1425,7 @@ frame_state
 .
 resource_cache
 )
+;
 }
 PrimitiveInstanceKind
 :
@@ -1427,17 +1438,21 @@ LinearGradient
 =
 >
 {
+use_legacy_path
+=
 !
 frame_context
 .
 fb_config
 .
 precise_linear_gradients
+;
 }
 _
 =
 >
-true
+{
+}
 }
 ;
 /
@@ -1528,7 +1543,6 @@ PrimitiveInstanceKind
 :
 Rectangle
 {
-use_legacy_path
 .
 .
 }
@@ -1538,7 +1552,6 @@ PrimitiveInstanceKind
 :
 Image
 {
-use_legacy_path
 .
 .
 }
@@ -1548,7 +1561,6 @@ PrimitiveInstanceKind
 :
 RadialGradient
 {
-use_legacy_path
 .
 .
 }
@@ -1558,7 +1570,6 @@ PrimitiveInstanceKind
 :
 ConicGradient
 {
-use_legacy_path
 .
 .
 }
@@ -1568,19 +1579,15 @@ PrimitiveInstanceKind
 :
 LinearGradient
 {
-use_legacy_path
 .
 .
 }
 =
 >
 {
-*
 use_legacy_path
+|
 =
-disable_quad_path
-|
-|
 !
 can_use_clip_chain_for_quad_path
 (
@@ -1596,7 +1603,6 @@ clip_store
 data_stores
 )
 ;
-*
 use_legacy_path
 }
 PrimitiveInstanceKind
@@ -1680,6 +1686,7 @@ return
 prepare_interned_prim_for_render
 (
 store
+use_legacy_path
 PrimitiveInstanceIndex
 (
 prim_instance_index
@@ -1741,6 +1748,9 @@ store
 &
 mut
 PrimitiveStore
+use_legacy_path
+:
+bool
 prim_instance_index
 :
 PrimitiveInstanceIndex
@@ -3134,7 +3144,6 @@ Rectangle
 {
 data_handle
 segment_instance_index
-use_legacy_path
 .
 .
 }
@@ -3150,7 +3159,6 @@ Rectangle
 )
 ;
 if
-*
 use_legacy_path
 {
 let
@@ -3471,7 +3479,6 @@ Image
 {
 data_handle
 image_instance_index
-use_legacy_path
 .
 .
 }
@@ -3532,7 +3539,6 @@ image_instance_index
 ;
 if
 !
-*
 use_legacy_path
 {
 let
@@ -3673,7 +3679,6 @@ data_handle
 ref
 mut
 visible_tiles_range
-use_legacy_path
 .
 .
 }
@@ -3721,7 +3726,6 @@ prim_size
 ;
 if
 !
-*
 use_legacy_path
 {
 if
@@ -4494,7 +4498,6 @@ data_handle
 ref
 mut
 visible_tiles_range
-use_legacy_path
 .
 .
 }
@@ -4524,7 +4527,6 @@ data_handle
 ;
 if
 !
-*
 use_legacy_path
 {
 let
@@ -4812,7 +4814,6 @@ data_handle
 ref
 mut
 visible_tiles_range
-use_legacy_path
 .
 .
 }
@@ -4860,7 +4861,6 @@ prim_size
 ;
 if
 !
-*
 use_legacy_path
 {
 if
@@ -7615,7 +7615,6 @@ PrimitiveInstanceKind
 :
 Rectangle
 {
-use_legacy_path
 segment_instance_index
 .
 .
@@ -7623,12 +7622,6 @@ segment_instance_index
 =
 >
 {
-assert
-!
-(
-use_legacy_path
-)
-;
 debug_assert
 !
 (
@@ -9804,7 +9797,6 @@ PrimitiveInstanceKind
 :
 Rectangle
 {
-use_legacy_path
 ref
 mut
 segment_instance_index
@@ -9814,12 +9806,6 @@ segment_instance_index
 =
 >
 {
-assert
-!
-(
-use_legacy_path
-)
-;
 segment_instance_index
 }
 PrimitiveInstanceKind

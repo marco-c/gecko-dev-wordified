@@ -2408,9 +2408,6 @@ GradientTileRange
 empty
 (
 )
-use_legacy_path
-:
-true
 }
 }
 }
