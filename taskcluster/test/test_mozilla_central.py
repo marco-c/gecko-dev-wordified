@@ -256,7 +256,7 @@ test
 .
 other
 import
-test_setting_description_schema
+TestSettingDescriptionSchema
     
 from
 taskgraph
@@ -302,7 +302,7 @@ try
 validate_schema
 (
                 
-test_setting_description_schema
+TestSettingDescriptionSchema
                 
 dict
 (
