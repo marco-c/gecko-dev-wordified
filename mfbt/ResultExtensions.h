@@ -3004,6 +3004,7 @@ ToResultInvokeMember
 (
 obj
 )
+\
 &
 :
 :
@@ -3023,9 +3024,10 @@ obj
 :
 :
 methodname
+__VA_OPT__
+(
 \
-#
-#
+)
 __VA_ARGS__
 )
 /
@@ -3176,8 +3178,9 @@ methodname
 (
 obj
 )
-#
-#
+__VA_OPT__
+(
+)
 __VA_ARGS__
 )
 }
