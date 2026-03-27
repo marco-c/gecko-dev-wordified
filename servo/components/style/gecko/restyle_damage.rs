@@ -490,8 +490,6 @@ StyleChange
 Changed
 {
 reset_only
-_custom_properties_changed
-:
 custom_properties_changed
 }
 }
