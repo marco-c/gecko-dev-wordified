@@ -108,9 +108,6 @@ MOXAccessibleBase
 .
 h
 "
-class
-mozRootAccessible
-;
 /
 *
 *

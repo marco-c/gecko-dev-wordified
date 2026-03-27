@@ -118,7 +118,7 @@ ChildView
 owns
 the
 topmost
-mozRootAccessible
+mozAccessible
 and
 needs
 to
@@ -128,9 +128,9 @@ of
 setting
 up
 that
-parent
+represented
 /
-child
+delegate
 relationship
 .
 This
