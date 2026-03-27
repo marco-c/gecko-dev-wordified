@@ -79,6 +79,7 @@ clearEvents
 (
 )
 ;
+await
 makeProfileResettable
 (
 )
