@@ -334,7 +334,8 @@ result
 ;
 for
 (
-auto
+unsigned
+char
 c
 :
 aCharsInSet
@@ -357,6 +358,7 @@ bool
 IsUnrecognizedChar
 (
 const
+unsigned
 char
 c
 )
@@ -520,6 +522,7 @@ begin
 ]
 (
 const
+unsigned
 char
 c
 )
