@@ -16,7 +16,7 @@ c
 )
 2018
 -
-2025
+2026
 Cosmin
 Truta
 *
@@ -773,7 +773,7 @@ i
 *
 The
 flag
-coresponding
+corresponding
 to
 the
 given
@@ -849,7 +849,7 @@ png_struct
 define
 png_file_add_chunk
 (
-pnt_ptr
+png_ptr
 i
 )
 \

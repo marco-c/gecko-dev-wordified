@@ -121,8 +121,8 @@ path
 *
 /
 typedef
-png_libpng_version_1_6_55
-Your_png_h_is_not_version_1_6_55
+png_libpng_version_1_6_56
+Your_png_h_is_not_version_1_6_56
 ;
 /
 *
@@ -5037,7 +5037,7 @@ version
 .
 6
 .
-55
+56
 "
 PNG_STRING_NEWLINE
 \
@@ -7175,7 +7175,7 @@ vectors
 so
 *
 the
-fillowing
+following
 calculates
 (
 X
@@ -7509,7 +7509,7 @@ have
 been
 relaxed
 to
-accomodate
+accommodate
 ACES
 AP1
 where
@@ -7539,7 +7539,7 @@ range
 The
 new
 limit
-accomodates
+accommodates
 the
 AP0
 and
@@ -8905,7 +8905,7 @@ just
 -
 far
 more
-tractible
+tractable
 .
 Unfortunately
 3x3
@@ -12384,7 +12384,6 @@ be
 handled
 .
 However
-it
 it
 is
 clear
@@ -19809,7 +19808,7 @@ I
 .
 e
 .
-vanishly
+vanishingly
 small
 (
 <

@@ -8112,7 +8112,7 @@ in
 the
 order
 of
-occurence
+occurrence
 in
 *
 a
@@ -14917,7 +14917,9 @@ that
 spec
 not
 anyone
-elses
+else
+'
+s
 !
 *
 *
