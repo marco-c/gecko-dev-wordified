@@ -16423,7 +16423,7 @@ OverflowAreas
 aOverflowAreas
 )
 ;
-void
+bool
 RecomputePerspectiveChildrenOverflow
 (
 const
