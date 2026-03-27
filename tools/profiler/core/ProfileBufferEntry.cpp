@@ -17596,7 +17596,7 @@ Schema
 :
 uint32_t
 {
-UUID
+ID
 =
 0
 FILENAME
@@ -17647,7 +17647,7 @@ schema
 WriteField
 (
 "
-uuid
+id
 "
 )
 ;
@@ -17796,7 +17796,7 @@ Lookup
 (
 entry
 .
-uuid
+id
 )
 ;
 if
@@ -17890,7 +17890,7 @@ MakeStringSpan
 (
 entry
 .
-uuid
+id
 .
 get
 (
@@ -18014,7 +18014,7 @@ InsertOrUpdate
 (
 entry
 .
-uuid
+id
 index
 )
 ;
