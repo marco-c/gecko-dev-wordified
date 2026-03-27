@@ -612,7 +612,7 @@ TranslationsParent
 .
 AIFeature
 .
-block
+disable
 (
 )
 ;
@@ -768,7 +768,7 @@ TranslationsParent
 .
 AIFeature
 .
-block
+disable
 (
 )
 ;
@@ -1371,7 +1371,7 @@ TranslationsParent
 .
 AIFeature
 .
-block
+disable
 (
 )
 ;

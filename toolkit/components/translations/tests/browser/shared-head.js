@@ -2155,7 +2155,7 @@ TranslationsParent
 .
 AIFeature
 .
-block
+disable
 (
 )
 ;
