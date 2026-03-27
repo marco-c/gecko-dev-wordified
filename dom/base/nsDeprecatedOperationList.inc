@@ -110,6 +110,10 @@ Components
 )
 DEPRECATED_OPERATION
 (
+CSSContainerRuleSingleCondition
+)
+DEPRECATED_OPERATION
+(
 NodeIteratorDetach
 )
 DEPRECATED_OPERATION
