@@ -2935,10 +2935,8 @@ js
 :
 Vector
 <
-JS
-:
-:
-GCCellPtr
+JSObject
+*
 0
 SystemAllocPolicy
 >
@@ -3000,11 +2998,9 @@ empty
 bool
 addToMainThreadBuffer
 (
-JS
-:
-:
-GCCellPtr
-cell
+JSObject
+*
+object
 JS
 :
 :
