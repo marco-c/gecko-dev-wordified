@@ -1312,11 +1312,6 @@ pattern_ctx
 =
 PatternBuilderContext
 {
-scene_properties
-:
-frame_context
-.
-scene_properties
 spatial_tree
 :
 frame_context
@@ -1512,11 +1507,6 @@ pattern_ctx
 =
 PatternBuilderContext
 {
-scene_properties
-:
-frame_context
-.
-scene_properties
 spatial_tree
 :
 frame_context
@@ -2404,11 +2394,6 @@ pattern_ctx
 =
 PatternBuilderContext
 {
-scene_properties
-:
-frame_context
-.
-scene_properties
 spatial_tree
 :
 frame_context
