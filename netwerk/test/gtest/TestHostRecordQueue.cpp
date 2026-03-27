@@ -137,6 +137,14 @@ override
 HostRecordQueue
 queue
 ;
+Mutex
+mMutex
+{
+"
+HostRecordQueueTest
+"
+}
+;
 nsRefPtrHashtable
 <
 nsGenericHashKey
@@ -240,9 +248,7 @@ com
 MutexAutoLock
 lock
 (
-queue
-.
-mLock
+mMutex
 )
 ;
 queue
@@ -256,6 +262,7 @@ get
 )
 100
 mDB
+lock
 )
 ;
 ASSERT_EQ
@@ -375,9 +382,7 @@ com
 MutexAutoLock
 lock
 (
-queue
-.
-mLock
+mMutex
 )
 ;
 queue
@@ -387,6 +392,7 @@ AddToEvictionQ
 rec1
 MAX_ENTRIES
 mDB
+lock
 )
 ;
 queue
@@ -396,6 +402,7 @@ AddToEvictionQ
 rec2
 MAX_ENTRIES
 mDB
+lock
 )
 ;
 queue
@@ -405,6 +412,7 @@ AddToEvictionQ
 rec3
 MAX_ENTRIES
 mDB
+lock
 )
 ;
 ASSERT_EQ
@@ -440,6 +448,7 @@ AddToEvictionQ
 rec4
 MAX_ENTRIES
 mDB
+lock
 )
 ;
 ASSERT_TRUE
@@ -588,9 +597,7 @@ com
 MutexAutoLock
 lock
 (
-queue
-.
-mLock
+mMutex
 )
 ;
 queue
@@ -600,6 +607,7 @@ AddToEvictionQ
 rec1
 MAX_ENTRIES
 mDB
+lock
 )
 ;
 queue
@@ -609,6 +617,7 @@ AddToEvictionQ
 rec2
 MAX_ENTRIES
 mDB
+lock
 )
 ;
 queue
@@ -618,6 +627,7 @@ AddToEvictionQ
 rec3
 MAX_ENTRIES
 mDB
+lock
 )
 ;
 ASSERT_EQ
@@ -635,6 +645,7 @@ queue
 MoveToEvictionQueueTail
 (
 rec1
+lock
 )
 ;
 RefPtr
@@ -660,6 +671,7 @@ AddToEvictionQ
 rec4
 MAX_ENTRIES
 mDB
+lock
 )
 ;
 ASSERT_TRUE
