@@ -580,32 +580,6 @@ string
 .
 h
 >
-#
-if
-defined
-(
-_MSC_VER
-)
-#
-pragma
-intrinsic
-(
-_byteswap_ushort
-)
-#
-pragma
-intrinsic
-(
-_byteswap_ulong
-)
-#
-pragma
-intrinsic
-(
-_byteswap_uint64
-)
-#
-endif
 namespace
 mozilla
 {
@@ -631,6 +605,7 @@ template
 typename
 T
 >
+constexpr
 T
 byteswap
 (
@@ -901,7 +876,7 @@ typename
 T
 >
 static
-inline
+constexpr
 T
 maybeSwap
 (
@@ -2097,6 +2072,7 @@ nodiscard
 ]
 ]
 static
+constexpr
 T
 swapToLittleEndian
 (
@@ -2308,6 +2284,7 @@ nodiscard
 ]
 ]
 static
+constexpr
 T
 swapToBigEndian
 (
@@ -2522,6 +2499,7 @@ nodiscard
 ]
 ]
 static
+constexpr
 T
 swapToNetworkOrder
 (
@@ -2615,6 +2593,7 @@ nodiscard
 ]
 ]
 static
+constexpr
 T
 swapFromLittleEndian
 (
@@ -2826,6 +2805,7 @@ nodiscard
 ]
 ]
 static
+constexpr
 T
 swapFromBigEndian
 (
@@ -3040,6 +3020,7 @@ nodiscard
 ]
 ]
 static
+constexpr
 T
 swapFromNetworkOrder
 (
