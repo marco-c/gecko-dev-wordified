@@ -20930,6 +20930,15 @@ routes
 ]
 )
             
+if
+"
+checks
+"
+not
+in
+routes
+:
+                
 routes
 .
 append
