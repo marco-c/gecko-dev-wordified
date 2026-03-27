@@ -257,8 +257,9 @@ WebrtcMediaDataDecoder
 WebrtcMediaDataDecoder
 (
 )
-{
-}
+=
+default
+;
 bool
 WebrtcMediaDataDecoder
 :

@@ -1800,8 +1800,6 @@ aGlyph
 )
 override
 ;
-private
-:
 /
 /
 Not
@@ -1832,6 +1830,8 @@ size_t
 =
 delete
 ;
+private
+:
 struct
 UnicodeConstructionComparator
 {

@@ -171,8 +171,9 @@ NavigationPrecommitController
 NavigationPrecommitController
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 NavigationPrecommitController

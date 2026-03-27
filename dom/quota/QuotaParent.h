@@ -103,6 +103,8 @@ ifdef
 DEBUG
 bool
 mActorDestroyed
+=
+false
 ;
 #
 endif
@@ -111,6 +113,8 @@ public
 Quota
 (
 )
+=
+default
 ;
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (

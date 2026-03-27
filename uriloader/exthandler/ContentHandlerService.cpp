@@ -163,8 +163,9 @@ ContentHandlerService
 ContentHandlerService
 (
 )
-{
-}
+=
+default
+;
 /
 *
 static
@@ -948,8 +949,9 @@ ContentHandlerService
 ContentHandlerService
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 ContentHandlerService
 :

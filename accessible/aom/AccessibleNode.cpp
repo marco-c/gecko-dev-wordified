@@ -323,8 +323,9 @@ AccessibleNode
 AccessibleNode
 (
 )
-{
-}
+=
+default
+;
 /
 *
 virtual

@@ -125,8 +125,9 @@ mozEnglishWordUtils
 mozEnglishWordUtils
 (
 )
-{
-}
+=
+default
+;
 /
 /
 This

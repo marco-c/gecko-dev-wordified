@@ -90,8 +90,9 @@ nsHtml5TreeOpStage
 nsHtml5TreeOpStage
 (
 )
-{
-}
+=
+default
+;
 bool
 nsHtml5TreeOpStage
 :

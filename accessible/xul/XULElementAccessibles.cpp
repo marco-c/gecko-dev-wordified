@@ -1475,8 +1475,9 @@ XULLinkAccessible
 XULLinkAccessible
 (
 )
-{
-}
+=
+default
+;
 /
 /
 /

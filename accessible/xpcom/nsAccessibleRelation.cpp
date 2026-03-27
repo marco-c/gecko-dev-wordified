@@ -169,8 +169,9 @@ nsAccessibleRelation
 nsAccessibleRelation
 (
 )
-{
-}
+=
+default
+;
 /
 /
 nsISupports

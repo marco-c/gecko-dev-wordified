@@ -714,8 +714,9 @@ ServiceWorkerRegistrationParent
 ServiceWorkerRegistrationParent
 (
 )
-{
-}
+=
+default
+;
 ServiceWorkerRegistrationParent
 :
 :

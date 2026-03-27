@@ -3223,8 +3223,9 @@ public
 MDefinitionRemapper
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Register

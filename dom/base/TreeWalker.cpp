@@ -178,14 +178,9 @@ TreeWalker
 TreeWalker
 (
 )
-{
-/
-*
-destructor
-code
-*
-/
-}
+=
+default
+;
 /
 *
 *

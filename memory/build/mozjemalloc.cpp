@@ -2368,8 +2368,9 @@ constexpr
 ArenaCollection
 (
 )
-{
-}
+=
+default
+;
 bool
 Init
 (

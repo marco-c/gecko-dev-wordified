@@ -170,14 +170,9 @@ nsTraversal
 nsTraversal
 (
 )
-{
-/
-*
-destructor
-code
-*
-/
-}
+=
+default
+;
 /
 *
 *

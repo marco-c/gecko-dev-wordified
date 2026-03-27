@@ -585,8 +585,9 @@ ByteReader
 ByteReader
 (
 )
-{
-}
+=
+default
+;
 void
 ByteReader
 :

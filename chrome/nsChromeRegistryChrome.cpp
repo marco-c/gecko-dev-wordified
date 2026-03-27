@@ -613,8 +613,9 @@ nsChromeRegistryChrome
 nsChromeRegistryChrome
 (
 )
-{
-}
+=
+default
+;
 nsresult
 nsChromeRegistryChrome
 :
