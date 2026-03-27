@@ -191,6 +191,7 @@ StartVideoSuspendTimer
 CancelVideoSuspendTimer
 VideoOnlySeekBegin
 VideoOnlySeekCompleted
+PlaybackRateFallback
 }
 mType
 ;
