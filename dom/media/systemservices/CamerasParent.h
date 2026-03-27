@@ -1669,11 +1669,11 @@ CamerasParent
 private
 :
 struct
-GetOrCreateCapturerResult
+GetOrCreateAggregatorResult
 {
 AggregateCapturer
 *
-mCapturer
+mAggregator
 {
 }
 ;
@@ -1684,8 +1684,8 @@ mStreamId
 ;
 }
 ;
-GetOrCreateCapturerResult
-GetOrCreateCapturer
+GetOrCreateAggregatorResult
+GetOrCreateAggregator
 (
 CaptureEngine
 aEngine
@@ -1709,7 +1709,7 @@ aCapabilities
 ;
 AggregateCapturer
 *
-GetCapturer
+GetAggregator
 (
 CaptureEngine
 aEngine
@@ -1947,7 +1947,7 @@ array
 of
 AggregateCapturers
 as
-sCapturers
+sAggregators
 .
 There
 is
@@ -1958,7 +1958,7 @@ AggregateCapturer
 per
 allocated
 video
-source
+capturer
 .
 It
 tracks
@@ -1967,7 +1967,7 @@ mapping
 from
 /
 /
-source
+capturer
 to
 streamIds
 and
@@ -1977,6 +1977,8 @@ instances
 Video
 capture
 thread
+/
+/
 only
 .
 const
@@ -1999,7 +2001,7 @@ AggregateCapturer
 >
 >
 >
-mCapturers
+mAggregators
 ;
 /
 /
