@@ -445,7 +445,7 @@ DriveToNtPath
 const
 wchar_t
 aDriveLetter
-nsAString
+nsString
 &
 aNtPath
 )
@@ -576,7 +576,7 @@ NS_strlen
 (
 aNtPath
 .
-BeginReading
+get
 (
 )
 )

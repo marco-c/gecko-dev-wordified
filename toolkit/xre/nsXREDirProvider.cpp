@@ -10511,7 +10511,7 @@ AppendProfileString
 aFile
 folder
 .
-BeginReading
+get
 (
 )
 )

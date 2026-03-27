@@ -1445,7 +1445,7 @@ _wcsicmp
 exePath
 pathFromReg
 .
-Data
+get
 (
 )
 )
@@ -8592,9 +8592,12 @@ StrStrIW
 findData
 .
 cFileName
+PromiseFlatString
+(
 aShortcutSubstring
+)
 .
-Data
+get
 (
 )
 )

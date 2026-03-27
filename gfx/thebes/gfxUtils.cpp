@@ -8280,6 +8280,12 @@ if
 aFile
 )
 {
+nsPromiseFlatCString
+flatURI
+(
+dataURI
+)
+;
 #
 ifdef
 ANDROID
@@ -8316,9 +8322,9 @@ char
 *
 cStr
 =
-dataURI
+flatURI
 .
-BeginReading
+get
 (
 )
 ;
@@ -8379,9 +8385,9 @@ aFile
 %
 s
 "
-dataURI
+flatURI
 .
-BeginReading
+get
 (
 )
 )

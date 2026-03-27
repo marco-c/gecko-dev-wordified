@@ -3202,7 +3202,7 @@ GetDLLVersion
 (
 rdpudd
 .
-BeginReading
+get
 (
 )
 mDriverVersion

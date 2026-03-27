@@ -11480,6 +11480,12 @@ return
 NS_ERROR_FAILURE
 ;
 }
+nsPromiseFlatString
+flatFileName
+(
+aFileName
+)
+;
 auto
 releaseMediumGuard
 =
@@ -11623,9 +11629,9 @@ hres
 =
 StgCreateStorageEx
 (
-aFileName
+flatFileName
 .
-Data
+get
 (
 )
 STGM_CREATE
@@ -11754,9 +11760,9 @@ handle
 =
 CreateFile
 (
-aFileName
+flatFileName
 .
-Data
+get
 (
 )
 GENERIC_WRITE

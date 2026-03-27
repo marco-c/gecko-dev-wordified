@@ -1276,7 +1276,7 @@ gfxCriticalError
 <
 errorMessage
 .
-BeginReading
+get
 (
 )
 ;
@@ -1399,7 +1399,7 @@ gfxCriticalNote
 <
 errorMessage
 .
-BeginReading
+get
 (
 )
 ;
@@ -1512,7 +1512,7 @@ gfxCriticalError
 <
 errorMessage
 .
-BeginReading
+get
 (
 )
 ;
@@ -1659,7 +1659,7 @@ gfxCriticalError
 <
 errorMessage
 .
-BeginReading
+get
 (
 )
 ;
@@ -1805,7 +1805,7 @@ gfxCriticalError
 <
 errorMessage
 .
-BeginReading
+get
 (
 )
 ;

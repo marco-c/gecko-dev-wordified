@@ -5413,6 +5413,13 @@ file
 to
 check
 .
+const
+nsString
+flatFilePath
+(
+filePath
+)
+;
 WINTRUST_FILE_INFO
 fileToCheck
 =
@@ -5433,9 +5440,9 @@ fileToCheck
 .
 pcwszFilePath
 =
-filePath
+flatFilePath
 .
-Data
+get
 (
 )
 ;

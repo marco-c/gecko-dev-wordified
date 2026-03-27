@@ -1203,9 +1203,12 @@ parameter
 %
 s
 "
+PromiseFlatCString
+(
 currentName
+)
 .
-BeginReading
+get
 (
 )
 )
@@ -1349,7 +1352,7 @@ strlen
 (
 npnToken
 .
-BeginReading
+get
 (
 )
 )

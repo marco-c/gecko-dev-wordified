@@ -3641,9 +3641,12 @@ if
 (
 PR_ParseTimeString
 (
+PromiseFlatCString
+(
 aExpires
+)
 .
-BeginReading
+get
 (
 )
 true
@@ -3748,9 +3751,12 @@ if
 (
 PR_ParseTimeString
 (
+PromiseFlatCString
+(
 aDateHeader
+)
 .
-BeginReading
+get
 (
 )
 true

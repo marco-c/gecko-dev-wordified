@@ -8280,9 +8280,12 @@ site
 s
 '
 "
+PromiseFlatCString
+(
 aPermissionType
+)
 .
-BeginReading
+get
 (
 )
 siteOrigin

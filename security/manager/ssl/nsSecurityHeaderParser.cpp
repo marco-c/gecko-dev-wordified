@@ -1097,7 +1097,7 @@ mDirective
 >
 mName
 .
-Data
+get
 (
 )
 mDirective
@@ -1106,7 +1106,7 @@ mDirective
 mValue
 -
 >
-Data
+get
 (
 )
 )
@@ -1133,7 +1133,7 @@ mDirective
 >
 mName
 .
-Data
+get
 (
 )
 )

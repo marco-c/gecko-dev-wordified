@@ -1622,7 +1622,7 @@ PromiseFlatCString
 hostname
 )
 .
-BeginReading
+get
 (
 )
 pkix

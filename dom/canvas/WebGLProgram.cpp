@@ -5277,7 +5277,7 @@ mLinkLog
 =
 errInfo
 .
-BeginReading
+get
 (
 )
 ;
@@ -6285,7 +6285,7 @@ c_str
 )
 )
 .
-BeginReading
+get
 (
 )
 ;
@@ -6528,7 +6528,7 @@ c_str
 maxComponentsPerIndex
 )
 .
-BeginReading
+get
 (
 )
 ;

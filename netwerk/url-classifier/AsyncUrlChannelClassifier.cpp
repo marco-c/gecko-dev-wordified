@@ -1444,9 +1444,12 @@ this
 p
 ]
 "
+PromiseFlatCString
+(
 aTable
+)
 .
-BeginReading
+get
 (
 )
 this

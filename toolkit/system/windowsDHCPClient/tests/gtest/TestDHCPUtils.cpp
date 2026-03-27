@@ -806,7 +806,7 @@ ASSERT_STREQ
 (
 networkAdapterName
 .
-Data
+get
 (
 )
 "
@@ -869,7 +869,7 @@ ASSERT_STREQ
 (
 networkAdapterName
 .
-Data
+get
 (
 )
 "
@@ -923,7 +923,7 @@ ASSERT_STREQ
 (
 networkAdapterName
 .
-Data
+get
 (
 )
 "
@@ -1011,7 +1011,7 @@ ASSERT_STREQ
 (
 networkAdapterName
 .
-Data
+get
 (
 )
 "
@@ -1415,7 +1415,7 @@ com
 "
 optionValue
 .
-Data
+get
 (
 )
 )
@@ -1436,7 +1436,7 @@ GetLastRequestedNetworkAdapterName
 (
 )
 .
-Data
+get
 (
 )
 )
@@ -1524,7 +1524,7 @@ ASSERT_STREQ
 "
 optionValue
 .
-Data
+get
 (
 )
 )
@@ -1603,7 +1603,7 @@ ASSERT_STREQ
 "
 optionValue
 .
-Data
+get
 (
 )
 )

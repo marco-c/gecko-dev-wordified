@@ -2875,9 +2875,12 @@ s
 \
 n
 "
+PromiseFlatCString
+(
 aChallenge
+)
 .
-BeginReading
+get
 (
 )
 )

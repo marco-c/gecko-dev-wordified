@@ -3621,9 +3621,12 @@ is
 %
 s
 "
+PromiseFlatCString
+(
 aTable
+)
 .
-BeginReading
+get
 (
 )
 aSpecFragments
@@ -11075,9 +11078,12 @@ disk
 data
 !
 "
+PromiseFlatCString
+(
 aTable
+)
 .
-BeginReading
+get
 (
 )
 )

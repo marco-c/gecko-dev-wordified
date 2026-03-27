@@ -3604,9 +3604,12 @@ DecoderFactory
 :
 GetDecoderType
 (
+PromiseFlatCString
+(
 aMimeType
+)
 .
-Data
+get
 (
 )
 )

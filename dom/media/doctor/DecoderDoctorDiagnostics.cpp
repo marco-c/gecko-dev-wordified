@@ -4572,7 +4572,7 @@ NS_ConvertUTF16toUTF8
 supportedKeySystems
 )
 .
-Data
+get
 (
 )
 NS_ConvertUTF16toUTF8
@@ -4829,7 +4829,7 @@ get
 )
 formatsPref
 .
-Data
+get
 (
 )
 NS_ConvertUTF16toUTF8
@@ -4947,7 +4947,7 @@ id
 mReportStringId
 formatsPref
 .
-Data
+get
 (
 )
 NS_ConvertUTF16toUTF8
@@ -5915,7 +5915,7 @@ GetDescription
 (
 )
 .
-Data
+get
 (
 )
 aCallSite

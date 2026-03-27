@@ -21222,7 +21222,7 @@ aPermission
 kPermissionChangeNotification
 aData
 .
-Data
+get
 (
 )
 )

@@ -17752,7 +17752,7 @@ fopen
 (
 string
 .
-BeginReading
+get
 (
 )
 "

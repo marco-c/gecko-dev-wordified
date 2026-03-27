@@ -1755,7 +1755,7 @@ strdup
 (
 msg
 .
-BeginReading
+get
 (
 )
 )

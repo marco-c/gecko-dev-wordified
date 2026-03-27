@@ -1980,9 +1980,12 @@ s
 \
 n
 "
+PromiseFlatCString
+(
 result
+)
 .
-BeginReading
+get
 (
 )
 )

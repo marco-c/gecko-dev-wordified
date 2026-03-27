@@ -164,9 +164,12 @@ module
 :
 LoadLibraryW
 (
+PromiseFlatString
+(
 aModuleName
+)
 .
-Data
+get
 (
 )
 )

@@ -337,7 +337,7 @@ chooser
 )
 mWindowTitle
 .
-BeginReading
+get
 (
 )
 )

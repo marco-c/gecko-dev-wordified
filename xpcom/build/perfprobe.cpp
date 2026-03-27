@@ -438,7 +438,7 @@ ld
 "
 mName
 .
-Data
+get
 (
 )
 result
@@ -635,9 +635,9 @@ s
 %
 s
 "
-aApplicationName
+mApplicationName
 .
-Data
+get
 (
 )
 cidStr

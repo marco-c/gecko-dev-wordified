@@ -10809,9 +10809,12 @@ for
 s
 )
 "
+PromiseFlatCString
+(
 aName
+)
 .
-BeginReading
+get
 (
 )
 )
@@ -10922,7 +10925,7 @@ AsString
 this
 )
 .
-BeginReading
+get
 (
 )
 )

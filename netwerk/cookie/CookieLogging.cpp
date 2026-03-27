@@ -325,9 +325,12 @@ s
 \
 n
 "
+PromiseFlatCString
+(
 aCookieString
+)
 .
-BeginReading
+get
 (
 )
 )
@@ -547,9 +550,12 @@ s
 \
 n
 "
+PromiseFlatCString
+(
 aCookieString
+)
 .
-BeginReading
+get
 (
 )
 )

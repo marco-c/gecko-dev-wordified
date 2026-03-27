@@ -592,7 +592,7 @@ n
 "
 str
 .
-Data
+get
 (
 )
 )
@@ -613,7 +613,7 @@ strstr
 (
 str
 .
-Data
+get
 (
 )
 "
@@ -632,7 +632,7 @@ strstr
 (
 str
 .
-Data
+get
 (
 )
 "
@@ -651,7 +651,7 @@ strstr
 (
 str
 .
-Data
+get
 (
 )
 "
@@ -677,7 +677,7 @@ strstr
 (
 str
 .
-Data
+get
 (
 )
 "

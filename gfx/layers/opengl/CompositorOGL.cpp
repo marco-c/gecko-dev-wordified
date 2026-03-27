@@ -9633,7 +9633,7 @@ aObj
 )
 uri
 .
-BeginReading
+get
 (
 )
 )

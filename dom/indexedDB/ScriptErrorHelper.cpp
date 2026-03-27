@@ -320,9 +320,12 @@ PropertiesFile
 :
 :
 DOM_PROPERTIES
+PromiseFlatCString
+(
 aMessageName
+)
 .
-BeginReading
+get
 (
 )
 localizedMessage

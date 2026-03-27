@@ -3578,9 +3578,12 @@ s
 \
 n
 "
+PromiseFlatCString
+(
 aSpec
+)
 .
-BeginReading
+get
 (
 )
 aResetLoadFailureCount
@@ -4154,7 +4157,7 @@ n
 MOZ_DHCP_WPAD_OPTION
 spec
 .
-BeginReading
+get
 (
 )
 )

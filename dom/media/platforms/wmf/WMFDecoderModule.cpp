@@ -3151,9 +3151,12 @@ supports
 "
 rejects
 "
+PromiseFlatCString
+(
 aMimeType
+)
 .
-BeginReading
+get
 (
 )
 )

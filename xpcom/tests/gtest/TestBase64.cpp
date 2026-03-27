@@ -1099,9 +1099,12 @@ aResult
 {
 ASSERT_STREQ
 (
+PromiseFlatCString
+(
 aResult
+)
 .
-BeginReading
+get
 (
 )
 mTest

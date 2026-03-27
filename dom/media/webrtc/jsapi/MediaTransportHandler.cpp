@@ -3547,7 +3547,7 @@ str
 (
 redirect_targets
 .
-Data
+get
 (
 )
 )

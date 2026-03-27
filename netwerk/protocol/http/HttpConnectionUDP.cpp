@@ -3974,7 +3974,7 @@ LogHeaders
 (
 result
 .
-BeginReading
+get
 (
 )
 )

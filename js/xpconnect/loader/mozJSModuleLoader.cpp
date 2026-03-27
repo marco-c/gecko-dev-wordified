@@ -3545,7 +3545,7 @@ setFileAndLine
 (
 location
 .
-BeginReading
+get
 (
 )
 1

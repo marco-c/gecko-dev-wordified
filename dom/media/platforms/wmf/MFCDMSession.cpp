@@ -977,13 +977,13 @@ mSession
 >
 Load
 (
-char16ptr_t
+PromiseFlatString
 (
 aSessionId
-.
-BeginReading
-(
 )
+.
+get
+(
 )
 &
 rv

@@ -2293,7 +2293,7 @@ Create
 {
 aPipePathName
 .
-Data
+get
 (
 )
 aIsPerUser
@@ -2404,7 +2404,7 @@ GetBinaryOrgName
 (
 agentWidePath
 .
-Data
+get
 (
 )
 )
@@ -8099,7 +8099,7 @@ url
 =
 urlString
 .
-BeginReading
+get
 (
 )
 ;
@@ -23063,9 +23063,12 @@ compoundUserAction
 count
 (
 )
+PromiseFlatCString
+(
 aUserActionId
+)
 .
-Data
+get
 (
 )
 )
@@ -23206,9 +23209,12 @@ code
 %
 s
 "
+PromiseFlatCString
+(
 aUserActionId
+)
 .
-Data
+get
 (
 )
 (

@@ -6949,7 +6949,7 @@ workingPath
 (
 mWorkingPath
 .
-Data
+get
 (
 )
 )
@@ -7974,9 +7974,12 @@ MozPathGetDriveNumber
 wchar_t
 >
 (
+PromiseFlatString
+(
 aFilePath
+)
 .
-Data
+getW
 (
 )
 )

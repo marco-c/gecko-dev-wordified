@@ -8860,9 +8860,12 @@ negative
 "
 positive
 "
+PromiseFlatCString
+(
 host
+)
 .
-BeginReading
+get
 (
 )
 )

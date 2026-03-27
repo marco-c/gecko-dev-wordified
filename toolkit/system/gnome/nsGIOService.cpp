@@ -1419,9 +1419,12 @@ if
 !
 g_shell_parse_argv
 (
+PromiseFlatCString
+(
 aCommandWithArguments
+)
 .
-BeginReading
+get
 (
 )
 nullptr
@@ -8103,7 +8106,7 @@ g_app_info_create_from_commandline
 (
 commandWithoutArgs
 .
-BeginReading
+get
 (
 )
 PromiseFlatCString
@@ -8169,7 +8172,7 @@ g_find_program_in_path
 (
 commandWithoutArgs
 .
-BeginReading
+get
 (
 )
 )

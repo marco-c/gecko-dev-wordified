@@ -710,9 +710,12 @@ supports
 "
 rejects
 "
+PromiseFlatCString
+(
 mimeType
+)
 .
-BeginReading
+get
 (
 )
 )

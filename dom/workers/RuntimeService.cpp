@@ -9940,7 +9940,7 @@ strdup
 (
 msg
 .
-BeginReading
+get
 (
 )
 )

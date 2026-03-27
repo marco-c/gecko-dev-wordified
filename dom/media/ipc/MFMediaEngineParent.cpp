@@ -2788,7 +2788,7 @@ audioInfo
 >
 mMimeType
 .
-BeginReading
+get
 (
 )
 :
@@ -2810,7 +2810,7 @@ videoInfo
 >
 mMimeType
 .
-BeginReading
+get
 (
 )
 :

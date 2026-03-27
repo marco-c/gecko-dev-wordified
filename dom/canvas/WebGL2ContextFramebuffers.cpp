@@ -1313,7 +1313,7 @@ s
 "
 enumName
 .
-BeginReading
+get
 (
 )
 )

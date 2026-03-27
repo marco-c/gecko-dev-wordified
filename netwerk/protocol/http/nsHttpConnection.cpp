@@ -14162,9 +14162,12 @@ h2ws
 ;
 LogHeaders
 (
+PromiseFlatCString
+(
 result
+)
 .
-BeginReading
+get
 (
 )
 )
