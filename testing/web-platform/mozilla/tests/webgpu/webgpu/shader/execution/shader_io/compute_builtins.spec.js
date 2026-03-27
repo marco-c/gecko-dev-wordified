@@ -2239,6 +2239,9 @@ kLocalIndexOffset
 )
 |
 |
+linear_indexing
+&
+&
 expectEqual
 (
 '
@@ -2254,6 +2257,9 @@ kGlobalIndexOffset
 )
 |
 |
+linear_indexing
+&
+&
 expectEqual
 (
 '
