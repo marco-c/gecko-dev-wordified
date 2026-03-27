@@ -741,12 +741,8 @@ ipc
 :
 :
 IPCResult
-RecvNotifyGpuObservers
+RecvFlushActiveCheckerboardReports
 (
-const
-nsCString
-&
-aTopic
 )
 ;
 mozilla

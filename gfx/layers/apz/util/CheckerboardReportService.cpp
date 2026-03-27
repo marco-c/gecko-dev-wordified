@@ -1446,13 +1446,8 @@ gpm
 gpm
 -
 >
-NotifyGpuObservers
+FlushActiveCheckerboardReports
 (
-"
-APZ
-:
-FlushActiveCheckerboard
-"
 )
 )
 {
