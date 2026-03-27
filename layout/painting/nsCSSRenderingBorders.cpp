@@ -21844,10 +21844,10 @@ mPresContext
 Document
 (
 )
-nsContentUtils
+PropertiesFile
 :
 :
-eCSS_PROPERTIES
+CSS_PROPERTIES
 mBorderStyles
 [
 aSide

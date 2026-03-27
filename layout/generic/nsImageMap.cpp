@@ -532,10 +532,10 @@ aContent
 OwnerDoc
 (
 )
-nsContentUtils
+PropertiesFile
 :
 :
-eLAYOUT_PROPERTIES
+LAYOUT_PROPERTIES
 aMessageName
 )
 ;

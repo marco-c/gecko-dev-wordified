@@ -621,10 +621,10 @@ _ns
 Document
 (
 )
-nsContentUtils
+PropertiesFile
 :
 :
-eDOM_PROPERTIES
+DOM_PROPERTIES
 aReason
 )
 ;

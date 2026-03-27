@@ -1295,9 +1295,6 @@ category
 )
 static_cast
 <
-nsContentUtils
-:
-:
 PropertiesFile
 >
 (
@@ -1532,9 +1529,6 @@ category
 )
 static_cast
 <
-nsContentUtils
-:
-:
 PropertiesFile
 >
 (

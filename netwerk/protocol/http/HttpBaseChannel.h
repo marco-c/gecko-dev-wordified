@@ -2595,9 +2595,6 @@ const
 nsACString
 &
 aCategory
-nsContentUtils
-:
-:
 PropertiesFile
 aPropertiesFile
 const

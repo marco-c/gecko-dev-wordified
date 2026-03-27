@@ -16061,10 +16061,10 @@ nsContentUtils
 :
 FormatLocalizedString
 (
-nsContentUtils
+PropertiesFile
 :
 :
-eSECURITY_PROPERTIES
+SECURITY_PROPERTIES
 aMsg
 params
 localizedMsg

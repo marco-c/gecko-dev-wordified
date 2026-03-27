@@ -1484,10 +1484,10 @@ nullptr
 /
 /
 aDocument
-nsContentUtils
+PropertiesFile
 :
 :
-eNECKO_PROPERTIES
+NECKO_PROPERTIES
 "
 APIDeprecationWarning
 "

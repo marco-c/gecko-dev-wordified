@@ -5172,10 +5172,10 @@ CSS
 Loader
 "
 _ns
-nsContentUtils
+PropertiesFile
 :
 :
-eCSS_PROPERTIES
+CSS_PROPERTIES
 referrerSpec
 0
 0

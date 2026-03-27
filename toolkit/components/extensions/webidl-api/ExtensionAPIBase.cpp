@@ -569,10 +569,10 @@ content
 javascript
 "
 _ns
-nsContentUtils
+PropertiesFile
 :
 :
-eDOM_PROPERTIES
+DOM_PROPERTIES
 sourceSpec
 line
 column

@@ -634,10 +634,10 @@ nsContentUtils
 :
 FormatLocalizedString
 (
-nsContentUtils
+PropertiesFile
 :
 :
-eNECKO_PROPERTIES
+NECKO_PROPERTIES
 messageWithSameOrigin
 params
 errorText
@@ -1229,10 +1229,10 @@ nsContentUtils
 :
 FormatLocalizedString
 (
-nsContentUtils
+PropertiesFile
 :
 :
-eNECKO_PROPERTIES
+NECKO_PROPERTIES
 message
 params
 errorText

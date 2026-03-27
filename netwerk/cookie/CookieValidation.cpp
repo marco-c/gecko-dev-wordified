@@ -2408,10 +2408,10 @@ nsContentUtils
 :
 FormatLocalizedString
 (
-nsContentUtils
+PropertiesFile
 :
 :
-eNECKO_PROPERTIES_en_US
+NECKO_PROPERTIES_en_US
 key
 .
 get

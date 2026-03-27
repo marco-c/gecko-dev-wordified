@@ -163,10 +163,10 @@ nsContentUtils
 :
 FormatLocalizedString
 (
-nsContentUtils
+PropertiesFile
 :
 :
-eLAYOUT_PROPERTIES
+LAYOUT_PROPERTIES
 aKey
 strings
 aLocalizedString
@@ -422,10 +422,10 @@ nsContentUtils
 :
 GetLocalizedString
 (
-nsContentUtils
+PropertiesFile
 :
 :
-eLAYOUT_PROPERTIES
+LAYOUT_PROPERTIES
 key
 aLocalizedString
 )

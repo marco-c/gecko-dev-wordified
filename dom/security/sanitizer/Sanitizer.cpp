@@ -8296,10 +8296,10 @@ win
 GetDoc
 (
 )
-nsContentUtils
+PropertiesFile
 :
 :
-eSECURITY_PROPERTIES
+SECURITY_PROPERTIES
 "
 SanitizerAllowElementIgnored2
 "
@@ -12288,7 +12288,7 @@ mComments
 child
 -
 >
-RemoveFromParent
+Remove
 (
 )
 ;
@@ -12552,7 +12552,7 @@ namespaceID
 child
 -
 >
-RemoveFromParent
+Remove
 (
 )
 ;
@@ -12732,7 +12732,7 @@ break
 child
 -
 >
-RemoveFromParent
+Remove
 (
 )
 ;
@@ -12812,7 +12812,7 @@ child
 child
 -
 >
-RemoveFromParent
+Remove
 (
 )
 ;
@@ -12899,7 +12899,7 @@ child
 child
 -
 >
-RemoveFromParent
+Remove
 (
 )
 ;
@@ -13108,7 +13108,7 @@ child
 child
 -
 >
-RemoveFromParent
+Remove
 (
 )
 ;

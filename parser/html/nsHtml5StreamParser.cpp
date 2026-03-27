@@ -17180,10 +17180,10 @@ mExecutor
 GetDocument
 (
 )
-nsContentUtils
+PropertiesFile
 :
 :
-eDOM_PROPERTIES
+DOM_PROPERTIES
 "
 SpeculationFailed2
 "

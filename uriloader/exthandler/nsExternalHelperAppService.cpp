@@ -6778,10 +6778,10 @@ nsContentUtils
 :
 FormatLocalizedString
 (
-nsContentUtils
+PropertiesFile
 :
 :
-eSECURITY_PROPERTIES
+SECURITY_PROPERTIES
 "
 SandboxBlockedCustomProtocols
 "

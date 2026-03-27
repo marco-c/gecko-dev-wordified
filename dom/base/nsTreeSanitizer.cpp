@@ -9209,7 +9209,7 @@ aRoot
 node
 -
 >
-RemoveFromParent
+Remove
 (
 )
 ;
@@ -9596,7 +9596,7 @@ break
 node
 -
 >
-RemoveFromParent
+Remove
 (
 )
 ;
@@ -9821,7 +9821,7 @@ IsComment
 node
 -
 >
-RemoveFromParent
+Remove
 (
 )
 ;

@@ -665,10 +665,10 @@ DOM
 "
 _ns
 aTarget
-nsContentUtils
+PropertiesFile
 :
 :
-eDOM_PROPERTIES
+DOM_PROPERTIES
 aMessage
 )
 ;

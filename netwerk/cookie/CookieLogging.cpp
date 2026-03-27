@@ -1453,10 +1453,10 @@ AddConsoleReport
 (
 aErrorFlags
 aCategory
-nsContentUtils
+PropertiesFile
 :
 :
-eNECKO_PROPERTIES
+NECKO_PROPERTIES
 uri
 0
 0

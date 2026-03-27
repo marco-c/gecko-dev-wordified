@@ -13055,10 +13055,10 @@ mHTMLEditor
 GetDocument
 (
 )
-nsContentUtils
+PropertiesFile
 :
 :
-eDOM_PROPERTIES
+DOM_PROPERTIES
 "
 EditorFileDropFailed
 "

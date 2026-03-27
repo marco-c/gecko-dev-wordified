@@ -3990,10 +3990,10 @@ nsContentUtils
 :
 GetLocalizedString
 (
-nsContentUtils
+PropertiesFile
 :
 :
-ePRINTING_PROPERTIES
+PRINTING_PROPERTIES
 aPropName
 pageNumberFormat
 )

@@ -3750,10 +3750,10 @@ Plugins
 "
 _ns
 doc
-nsContentUtils
+PropertiesFile
 :
 :
-eDOM_PROPERTIES
+DOM_PROPERTIES
 msgName
 params
 )

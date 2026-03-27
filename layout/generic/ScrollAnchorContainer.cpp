@@ -2954,10 +2954,10 @@ PresContext
 Document
 (
 )
-nsContentUtils
+PropertiesFile
 :
 :
-eLAYOUT_PROPERTIES
+LAYOUT_PROPERTIES
 "
 ScrollAnchoringDisabledInContainer
 "
