@@ -87019,17 +87019,9 @@ n
 ;
 if
 (
-nsCOMPtr
-<
-nsIEarlyHintObserver
->
-obs
-=
 mEarlyHintObserver
-)
-{
-if
-(
+&
+&
 nsContentUtils
 :
 :
@@ -87055,7 +87047,7 @@ n
 )
 )
 ;
-obs
+mEarlyHintObserver
 -
 >
 EarlyHint
@@ -87065,7 +87057,6 @@ aReferrerPolicy
 aCspHeader
 )
 ;
-}
 }
 return
 NS_OK
