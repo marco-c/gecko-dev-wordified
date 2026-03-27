@@ -108,6 +108,13 @@ view
 MotionEvent
 ;
 import
+androidx
+.
+annotation
+.
+UiThread
+;
+import
 java
 .
 util
@@ -935,6 +942,7 @@ context
 )
 ;
 }
+UiThread
 /
 *
 package
@@ -1013,6 +1021,7 @@ context
 )
 ;
 }
+UiThread
 /
 *
 package
@@ -1061,6 +1070,7 @@ false
 ;
 }
 }
+UiThread
 /
 *
 package
@@ -1360,6 +1370,7 @@ value
 ;
 }
 }
+UiThread
 public
 static
 boolean
@@ -1743,6 +1754,7 @@ return
 true
 ;
 }
+UiThread
 public
 static
 boolean
