@@ -816,17 +816,6 @@ sct
 "
 "
 .
-search
--
-ms
-"
-/
-/
-Windows
-Saved
-Search
-"
-.
 settingcontent
 -
 ms
