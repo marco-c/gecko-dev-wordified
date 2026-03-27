@@ -212,6 +212,7 @@ container_rule
 :
 {
 ContainerCondition
+ContainerConditions
 ContainerRule
 }
 ;
@@ -7057,7 +7058,19 @@ new
 (
 ContainerRule
 {
+conditions
+:
+ContainerConditions
+(
+smallvec
+:
+:
+smallvec
+!
+[
 condition
+]
+)
 rules
 :
 self
