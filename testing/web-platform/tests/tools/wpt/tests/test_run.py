@@ -35,9 +35,9 @@ F401
 from
 wptrunner
 .
-browsers
+products
 import
-product_list
+get_all_products
 pytest
 .
 fixture
@@ -317,7 +317,12 @@ parametrize
 "
 product
 "
-product_list
+list
+(
+get_all_products
+(
+)
+)
 )
 def
 test_setup_wptrunner
