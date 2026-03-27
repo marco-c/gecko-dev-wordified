@@ -5277,6 +5277,9 @@ HasAlpha
 &
 &
 alphaData
+!
+=
+0
 )
 {
 sample
