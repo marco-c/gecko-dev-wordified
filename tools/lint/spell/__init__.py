@@ -129,10 +129,6 @@ codespell
 strip
 (
 )
-results
-=
-[
-]
 CODESPELL_FORMAT_REGEX
 =
 re
@@ -171,13 +167,46 @@ LintProcess
 )
 :
     
+def
+__init__
+(
+self
+config
+cmd
+results
+fix
+=
+False
+)
+:
+        
+super
+(
+)
+.
+__init__
+(
+config
+cmd
+)
+        
+self
+.
+results
+=
+results
+        
+self
+.
+fix
+=
+fix
+        
+self
+.
 fixed
 =
 0
-    
-_fix
-=
-None
     
 def
 process_line
@@ -244,12 +273,12 @@ line
 return
         
 if
-CodespellProcess
+self
 .
-_fix
+fix
 :
             
-CodespellProcess
+self
 .
 fixed
 +
@@ -368,6 +397,8 @@ line
         
 }
         
+self
+.
 results
 .
 append
@@ -389,6 +420,10 @@ run_process
 (
 config
 cmd
+results
+fix
+=
+False
 )
 :
     
@@ -398,6 +433,8 @@ CodespellProcess
 (
 config
 cmd
+results
+fix
 )
     
 proc
@@ -424,6 +461,9 @@ proc
 kill
 (
 )
+    
+return
+proc
 def
 get_codespell_binary
 (
@@ -806,15 +846,14 @@ binary
 "
 )
     
-if
-fix
-:
-        
-CodespellProcess
-.
-_fix
+results
 =
-True
+[
+]
+    
+fixed
+=
+0
     
 base_command
 =
@@ -822,15 +861,30 @@ cmd_args
 +
 paths
     
+proc
+=
 run_process
 (
 config
 base_command
+results
+fix
+=
+bool
+(
+fix
+)
 )
     
 if
 fix
 :
+        
+fixed
+=
+proc
+.
+fixed
         
 results
 .
@@ -897,17 +951,22 @@ cmd_args
 +
 paths
         
+proc
+=
 run_process
 (
 config
 base_command
+results
+fix
+=
+True
 )
         
-CodespellProcess
-.
 fixed
++
 =
-CodespellProcess
+proc
 .
 fixed
 -
@@ -915,15 +974,6 @@ len
 (
 results
 )
-    
-else
-:
-        
-CodespellProcess
-.
-fixed
-=
-0
     
 return
 {
@@ -936,7 +986,5 @@ results
 fixed
 "
 :
-CodespellProcess
-.
 fixed
 }
