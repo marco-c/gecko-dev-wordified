@@ -231,6 +231,11 @@ BranchHinting
 cpp
 "
 "
+BranchPruning
+.
+cpp
+"
+"
 BytecodeAnalysis
 .
 cpp
