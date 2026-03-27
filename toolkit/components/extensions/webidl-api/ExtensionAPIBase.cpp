@@ -1940,10 +1940,11 @@ return
 }
 aRetval
 .
-SetKnownLiveString
+AsAString
 (
-strRetval
 )
+=
+strRetval
 ;
 }
 void
