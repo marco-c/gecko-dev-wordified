@@ -906,7 +906,7 @@ Crop_and_scale
 mAggregator
 -
 >
-SetConfigurationFor
+StartStream
 (
 mAggregator
 -
@@ -915,13 +915,6 @@ mCaptureId
 cap
 constraints
 resizeMode
-/
-*
-aStarted
-=
-*
-/
-true
 )
 ;
 constexpr
