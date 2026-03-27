@@ -6359,6 +6359,11 @@ aInfo
 defaultScale
 (
 )
+aInfo
+.
+desktopToDeviceScale
+(
+)
 )
 ;
 }
@@ -23612,6 +23617,10 @@ const
 double
 &
 aScale
+const
+double
+&
+aDesktopToDeviceScale
 )
 {
 const
@@ -23637,6 +23646,7 @@ UpdateBackingScaleCache
 aDpi
 aRounding
 aScale
+aDesktopToDeviceScale
 )
 ;
 }
