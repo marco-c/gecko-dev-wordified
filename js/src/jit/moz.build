@@ -306,6 +306,11 @@ FoldLinearArithConstants
 cpp
 "
 "
+FoldTests
+.
+cpp
+"
+"
 GraphSpewer
 .
 cpp

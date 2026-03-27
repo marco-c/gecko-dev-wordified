@@ -302,6 +302,15 @@ include
 "
 jit
 /
+FoldTests
+.
+h
+"
+#
+include
+"
+jit
+/
 InlineScriptTree
 .
 h
