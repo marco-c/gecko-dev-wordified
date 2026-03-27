@@ -2515,9 +2515,7 @@ waiting
 for
 /
 /
-permission
-or
-cookie
+cookies
 .
 That
 is
@@ -2526,7 +2524,7 @@ is
 received
 .
 uint8_t
-mSuspendedByWaitingForPermissionCookie
+mSuspendedByWaitingForCookies
 :
 1
 ;
