@@ -2780,7 +2780,7 @@ mozilla
 dom
 :
 :
-SeekDetails
+MediaControlActionParams
 (
 aPosition
 false

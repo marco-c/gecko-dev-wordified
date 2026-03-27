@@ -445,7 +445,7 @@ MediaControlKey
 :
 :
 Seekto
-SeekDetails
+MediaControlActionParams
 (
 changePosEvent
 .
@@ -1425,7 +1425,7 @@ aware
 that
 checking
 nowPlayingInfo
-immedately
+immediately
 after
 setting
 it
