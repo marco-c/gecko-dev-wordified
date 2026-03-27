@@ -7431,6 +7431,9 @@ if
 stencil
 )
 {
+#
+ifndef
+ANDROID
 glean
 :
 :
@@ -7457,6 +7460,8 @@ Add
 (
 )
 ;
+#
+endif
 return
 stencil
 .
@@ -7482,6 +7487,9 @@ options
 path
 )
 ;
+#
+ifndef
+ANDROID
 glean
 :
 :
@@ -7521,6 +7529,8 @@ Add
 (
 )
 ;
+#
+endif
 return
 stencil
 .
