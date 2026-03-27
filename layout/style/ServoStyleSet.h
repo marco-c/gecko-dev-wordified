@@ -2494,6 +2494,14 @@ nsFontFaceRuleContainer
 aArray
 )
 ;
+already_AddRefed
+<
+StyleViewTransitionRule
+>
+GetLastViewTransitionRule
+(
+)
+;
 const
 StyleLockedCounterStyleRule
 *

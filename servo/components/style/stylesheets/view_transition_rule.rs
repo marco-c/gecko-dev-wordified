@@ -540,6 +540,13 @@ ToCss
 ToShmem
 )
 ]
+#
+[
+repr
+(
+u8
+)
+]
 pub
 enum
 NavigationType

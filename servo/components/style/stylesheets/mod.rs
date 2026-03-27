@@ -719,7 +719,10 @@ self
 view_transition_rule
 :
 :
+{
+NavigationType
 ViewTransitionRule
+}
 ;
 /
 /
