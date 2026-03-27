@@ -68,13 +68,6 @@ h
 #
 include
 "
-COLRFonts
-.
-h
-"
-#
-include
-"
 PseudoStyleType
 .
 h
