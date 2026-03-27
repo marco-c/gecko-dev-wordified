@@ -74,6 +74,13 @@ unordered_map
 >
 #
 include
+<
+dxgiformat
+.
+h
+>
+#
+include
 "
 mozilla
 /
@@ -168,7 +175,7 @@ aSize
 )
 ;
 void
-EnsureStagingTextureNV12
+EnsureStagingTexture
 (
 RefPtr
 <
@@ -181,7 +188,7 @@ RefPtr
 <
 ID3D11Texture2D
 >
-GetStagingTextureNV12
+GetStagingTexture
 (
 )
 ;
@@ -371,6 +378,11 @@ gfx
 :
 IntSize
 mSize
+;
+DXGI_FORMAT
+mDXGIFormat
+=
+DXGI_FORMAT_NV12
 ;
 std
 :
