@@ -4854,6 +4854,15 @@ EqualsLiteral
 (
 kMozTextInternal
 )
+&
+&
+!
+flavor
+.
+EqualsLiteral
+(
+kURLDataMime
+)
 )
 {
 return
