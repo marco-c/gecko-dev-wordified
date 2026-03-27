@@ -240,18 +240,6 @@ spc
 "
 mathml
 .
-rtl_operator_mirroring
-.
-enabled
-"
-"
-rtl
-"
-}
-{
-"
-mathml
-.
 mathvariant_styling_fallback
 .
 disabled
@@ -819,7 +807,7 @@ false
 ;
 /
 /
-rtl
+var
 =
 0
 ASSERT_TRUE
@@ -875,7 +863,7 @@ ASSERT_STREQ
 dis
 =
 1
-rtl
+var
 =
 0
 "
