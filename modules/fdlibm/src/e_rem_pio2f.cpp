@@ -445,7 +445,7 @@ fn
 rnint
 (
 (
-float_t
+float
 )
 x
 *
