@@ -5573,6 +5573,22 @@ immutable_heads_default_value
             
 )
             
+self
+.
+_set_default_if_missing
+(
+"
+snapshot
+.
+auto
+-
+update
+-
+stale
+"
+True
+)
+            
 #
 This
 enables
