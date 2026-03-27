@@ -4788,9 +4788,6 @@ expectedResult
 :
 [
 {
-invalid
-:
-true
 default
 :
 {
@@ -4927,9 +4924,6 @@ expectedResult
 :
 [
 {
-invalid
-:
-true
 default
 :
 {
