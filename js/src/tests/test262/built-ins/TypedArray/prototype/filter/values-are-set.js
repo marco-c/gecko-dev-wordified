@@ -144,6 +144,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -152,12 +153,15 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 41
 1
 42
 7
 ]
+)
 )
 ;
 var

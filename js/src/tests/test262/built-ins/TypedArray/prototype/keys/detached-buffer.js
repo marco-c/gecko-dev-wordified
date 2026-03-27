@@ -192,6 +192,12 @@ keys
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

@@ -1,17 +1,5 @@
 /
 /
-|
-reftest
-|
-skip
--
--
-not
-a
-test
-file
-/
-/
 Copyright
 (
 C

@@ -273,7 +273,7 @@ false
 includes
 :
 [
-testBigIntTypedArray
+testTypedArray
 .
 js
 detachArrayBuffer
@@ -356,6 +356,12 @@ true
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

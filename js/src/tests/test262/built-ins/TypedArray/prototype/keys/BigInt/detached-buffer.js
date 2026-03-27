@@ -133,7 +133,7 @@ exception
 includes
 :
 [
-testBigIntTypedArray
+testTypedArray
 .
 js
 detachArrayBuffer
@@ -193,6 +193,12 @@ keys
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

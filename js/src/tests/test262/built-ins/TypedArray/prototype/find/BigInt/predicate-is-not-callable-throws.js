@@ -221,7 +221,7 @@ exception
 includes
 :
 [
-testBigIntTypedArray
+testTypedArray
 .
 js
 ]
@@ -455,6 +455,12 @@ regexp
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

@@ -127,7 +127,7 @@ includes
 testAtomics
 .
 js
-testBigIntTypedArray
+testTypedArray
 .
 js
 ]
@@ -212,6 +212,12 @@ view
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

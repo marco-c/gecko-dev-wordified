@@ -194,7 +194,7 @@ includes
 propertyHelper
 .
 js
-testBigIntTypedArray
+testTypedArray
 .
 js
 ]

@@ -122,7 +122,7 @@ A
 includes
 :
 [
-testBigIntTypedArray
+testTypedArray
 .
 js
 compareArray
@@ -145,6 +145,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -153,12 +154,15 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 41n
 1n
 42n
 7n
 ]
+)
 )
 ;
 var

@@ -218,6 +218,12 @@ TypeError
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

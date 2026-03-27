@@ -232,6 +232,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -240,12 +241,15 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 42
 0
 1
 undefined
 ]
+)
 )
 ;
 assert
@@ -432,6 +436,7 @@ testWithTypedArrayConstructors
 function
 (
 FloatArray
+makeCtorArg
 )
 {
 var
@@ -440,6 +445,8 @@ sample
 new
 FloatArray
 (
+makeCtorArg
+(
 [
 42
 0
@@ -447,6 +454,7 @@ FloatArray
 undefined
 NaN
 ]
+)
 )
 ;
 assert

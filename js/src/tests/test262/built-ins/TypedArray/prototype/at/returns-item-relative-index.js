@@ -197,7 +197,10 @@ function
 ;
 testWithTypedArrayConstructors
 (
+(
 TA
+makeCtorArg
+)
 =
 >
 {
@@ -207,6 +210,8 @@ a
 new
 TA
 (
+makeCtorArg
+(
 [
 1
 2
@@ -214,6 +219,7 @@ TA
 4
 5
 ]
+)
 )
 ;
 assert

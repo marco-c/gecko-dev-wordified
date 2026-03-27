@@ -200,6 +200,12 @@ predicate
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

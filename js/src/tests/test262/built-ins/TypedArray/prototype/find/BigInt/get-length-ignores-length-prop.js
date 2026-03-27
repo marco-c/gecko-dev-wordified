@@ -230,7 +230,7 @@ length
 includes
 :
 [
-testBigIntTypedArray
+testTypedArray
 .
 js
 ]
@@ -277,6 +277,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 Object
@@ -312,9 +313,12 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 42n
 ]
+)
 )
 ;
 Object
@@ -366,6 +370,12 @@ true
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

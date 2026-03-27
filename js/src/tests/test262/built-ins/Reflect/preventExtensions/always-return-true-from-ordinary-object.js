@@ -153,7 +153,7 @@ returns
 true
 after
 preventing
-extentions
+extensions
 on
 an
 object
@@ -180,7 +180,7 @@ the
 object
 already
 prevents
-extentions
+extensions
 '
 )
 ;

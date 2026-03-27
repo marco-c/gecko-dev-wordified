@@ -454,6 +454,12 @@ regexp
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

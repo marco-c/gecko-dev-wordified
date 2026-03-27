@@ -156,7 +156,7 @@ RequireInternalSlot
 asyncDisposableStack
 [
 [
-DisposableState
+AsyncDisposableState
 ]
 ]
 )
@@ -168,7 +168,7 @@ asyncDisposableStack
 .
 [
 [
-DisposableState
+AsyncDisposableState
 ]
 ]
 is

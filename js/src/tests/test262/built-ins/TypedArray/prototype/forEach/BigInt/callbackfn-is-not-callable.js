@@ -179,7 +179,7 @@ exception
 includes
 :
 [
-testBigIntTypedArray
+testTypedArray
 .
 js
 ]
@@ -199,6 +199,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -207,7 +208,10 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 3
+)
 )
 ;
 assert

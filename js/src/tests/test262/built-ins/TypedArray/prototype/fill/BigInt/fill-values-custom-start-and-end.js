@@ -327,7 +327,7 @@ includes
 compareArray
 .
 js
-testBigIntTypedArray
+testTypedArray
 .
 js
 ]
@@ -347,6 +347,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 assert
@@ -356,11 +357,14 @@ compareArray
 new
 TA
 (
+makeCtorArg
+(
 [
 0n
 0n
 0n
 ]
+)
 )
 .
 fill
@@ -384,6 +388,8 @@ compareArray
 new
 TA
 (
+makeCtorArg
+(
 [
 0n
 0n
@@ -391,6 +397,7 @@ TA
 0n
 0n
 ]
+)
 )
 .
 fill
@@ -417,6 +424,8 @@ compareArray
 new
 TA
 (
+makeCtorArg
+(
 [
 0n
 0n
@@ -424,6 +433,7 @@ TA
 0n
 0n
 ]
+)
 )
 .
 fill
@@ -451,6 +461,8 @@ compareArray
 new
 TA
 (
+makeCtorArg
+(
 [
 0n
 0n
@@ -458,6 +470,7 @@ TA
 0n
 0n
 ]
+)
 )
 .
 fill
@@ -485,6 +498,8 @@ compareArray
 new
 TA
 (
+makeCtorArg
+(
 [
 0n
 0n
@@ -492,6 +507,7 @@ TA
 0n
 0n
 ]
+)
 )
 .
 fill

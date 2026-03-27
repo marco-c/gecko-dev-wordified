@@ -204,7 +204,7 @@ includes
 detachArrayBuffer
 .
 js
-testBigIntTypedArray
+testTypedArray
 .
 js
 ]
@@ -281,6 +281,12 @@ loops
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

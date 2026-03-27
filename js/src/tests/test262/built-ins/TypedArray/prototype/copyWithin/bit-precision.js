@@ -135,6 +135,8 @@ TypedArray
 -
 *
 /
+testWithTypedArrayConstructors
+(
 function
 body
 (
@@ -232,9 +234,6 @@ copiedBytes
 )
 ;
 }
-testWithTypedArrayConstructors
-(
-body
 floatArrayConstructors
 )
 ;

@@ -46,7 +46,7 @@ description
 :
 >
 Prevent
-extentions
+extensions
 on
 target
 .

@@ -38,7 +38,7 @@ info
 The
 effect
 of
-preventExtentions
+preventExtensions
 must
 be
 testable

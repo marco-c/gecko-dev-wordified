@@ -128,7 +128,7 @@ Return
 includes
 :
 [
-testBigIntTypedArray
+testTypedArray
 .
 js
 ]
@@ -155,6 +155,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -163,11 +164,14 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 1n
 2n
 3n
 ]
+)
 )
 ;
 var

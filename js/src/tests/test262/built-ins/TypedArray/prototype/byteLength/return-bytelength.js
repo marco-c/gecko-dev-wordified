@@ -128,6 +128,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -161,7 +162,10 @@ ta2
 new
 TA
 (
+makeCtorArg
+(
 42
+)
 )
 ;
 assert

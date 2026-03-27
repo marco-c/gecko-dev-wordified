@@ -639,6 +639,7 @@ testWithTypedArrayConstructors
 function
 (
 FA
+makeCtorArg
 )
 {
 var
@@ -655,7 +656,10 @@ samples
 new
 FA
 (
+makeCtorArg
+(
 3
+)
 )
 ;
 var

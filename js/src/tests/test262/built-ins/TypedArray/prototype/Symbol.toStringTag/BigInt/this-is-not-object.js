@@ -104,7 +104,7 @@ undefined
 includes
 :
 [
-testBigIntTypedArray
+testTypedArray
 .
 js
 ]

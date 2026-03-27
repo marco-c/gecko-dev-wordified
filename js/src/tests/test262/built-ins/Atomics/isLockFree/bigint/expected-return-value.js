@@ -239,7 +239,7 @@ TypedArray
 includes
 :
 [
-testBigIntTypedArray
+testTypedArray
 .
 js
 ]
@@ -308,6 +308,12 @@ BYTES_PER_ELEMENT
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

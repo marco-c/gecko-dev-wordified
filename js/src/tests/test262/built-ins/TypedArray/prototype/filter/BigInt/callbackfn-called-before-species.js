@@ -131,7 +131,7 @@ captured
 includes
 :
 [
-testBigIntTypedArray
+testTypedArray
 .
 js
 ]

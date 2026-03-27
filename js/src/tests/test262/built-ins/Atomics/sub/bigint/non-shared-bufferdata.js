@@ -87,7 +87,7 @@ SharedArrayBuffer
 includes
 :
 [
-testBigIntTypedArray
+testTypedArray
 .
 js
 ]
@@ -212,6 +212,12 @@ returns
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

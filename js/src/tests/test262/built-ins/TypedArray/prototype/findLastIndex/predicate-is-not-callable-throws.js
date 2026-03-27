@@ -339,6 +339,12 @@ findLastIndex
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

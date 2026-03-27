@@ -159,6 +159,12 @@ TypedArray
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 var

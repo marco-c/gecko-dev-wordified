@@ -335,6 +335,12 @@ regexp
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

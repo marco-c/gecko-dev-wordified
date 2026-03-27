@@ -124,7 +124,7 @@ O
 includes
 :
 [
-testBigIntTypedArray
+testTypedArray
 .
 js
 ]
@@ -151,6 +151,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -159,11 +160,14 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 39n
 2n
 62n
 ]
+)
 )
 ;
 var
