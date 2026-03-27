@@ -95,7 +95,7 @@ include
 "
 mozilla
 /
-StaticPrefs_privacy
+ScopedPrefs
 .
 h
 "
@@ -444,11 +444,16 @@ aChannel
 if
 (
 !
-StaticPrefs
+ScopedPrefs
 :
 :
-privacy_trackingprotection_fingerprinting_enabled
+BoolPrefScoped
 (
+ScopedPrefs
+:
+:
+PRIVACY_TRACKINGPROTECTION_FINGERPRINTING_ENABLED
+aChannel
 )
 )
 {
