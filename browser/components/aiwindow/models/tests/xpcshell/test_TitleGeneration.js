@@ -705,9 +705,14 @@ systemContent
 .
 includes
 (
+JSON
+.
+stringify
+(
 currentTab
 .
 title
+)
 )
 "
 System
