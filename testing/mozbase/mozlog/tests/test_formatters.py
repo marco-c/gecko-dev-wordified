@@ -76,8 +76,6 @@ textwrap
 import
 dedent
 import
-mozunit
-import
 pytest
 from
 mozlog
@@ -6300,6 +6298,9 @@ __name__
 __main__
 "
 :
+    
+import
+mozunit
     
 mozunit
 .

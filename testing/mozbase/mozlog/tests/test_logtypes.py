@@ -55,8 +55,6 @@ MPL
 .
 import
 unittest
-import
-mozunit
 from
 mozlog
 .
@@ -900,6 +898,9 @@ __name__
 __main__
 "
 :
+    
+import
+mozunit
     
 mozunit
 .

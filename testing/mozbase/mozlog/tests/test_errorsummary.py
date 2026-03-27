@@ -3,8 +3,6 @@ json
 import
 time
 import
-mozunit
-import
 pytest
 #
 flake8
@@ -3928,6 +3926,9 @@ __name__
 __main__
 "
 :
+    
+import
+mozunit
     
 mozunit
 .
