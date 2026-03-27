@@ -1086,6 +1086,10 @@ UNLOCKED_RULE_TYPE
 (
 AppearanceBase
 )
+UNLOCKED_RULE_TYPE
+(
+ViewTransition
+)
 SERVO_ARC_TYPE
 (
 AnimationValue

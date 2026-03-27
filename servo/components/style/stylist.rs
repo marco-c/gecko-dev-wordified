@@ -27989,6 +27989,15 @@ PositionTry
 .
 .
 )
+|
+CssRule
+:
+:
+ViewTransition
+(
+.
+.
+)
 =
 >
 {

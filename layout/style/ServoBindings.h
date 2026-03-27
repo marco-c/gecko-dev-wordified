@@ -624,6 +624,10 @@ BASIC_RULE_FUNCS_LOCKED
 (
 NestedDeclarations
 )
+BASIC_RULE_FUNCS_UNLOCKED
+(
+ViewTransition
+)
 #
 undef
 GROUP_RULE_FUNCS_LOCKED

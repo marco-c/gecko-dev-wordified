@@ -463,6 +463,13 @@ StyleLockedNestedDeclarationsRule
 >
 ;
 template
+struct
+StyleStrong
+<
+StyleViewTransitionRule
+>
+;
+template
 <
 typename
 T

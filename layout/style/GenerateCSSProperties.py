@@ -272,6 +272,12 @@ property_descriptors
 .
 toml
 "
+              
+"
+view_transition_descriptors
+.
+toml
+"
           
 ]
         

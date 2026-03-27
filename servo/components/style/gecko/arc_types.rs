@@ -189,6 +189,7 @@ ScopeRule
 StartingStyleRule
 StylesheetContents
 SupportsRule
+ViewTransitionRule
 }
 ;
 pub
@@ -609,5 +610,13 @@ impl_simple_arc_ffi
 LockedNestedDeclarationsRule
 Servo_NestedDeclarationsRule_AddRef
 Servo_NestedDeclarationsRule_Release
+)
+;
+impl_simple_arc_ffi
+!
+(
+ViewTransitionRule
+Servo_ViewTransitionRule_AddRef
+Servo_ViewTransitionRule_Release
 )
 ;
