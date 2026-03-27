@@ -356,7 +356,7 @@ info
 (
 "
 Entering
-margin
+padding
 -
 left
 in
@@ -400,7 +400,7 @@ input
 value
 =
 "
-margin
+padding
 -
 left
 "
@@ -580,7 +580,7 @@ highlight
 "
 )
 "
-margin
+padding
 -
 left
 text
