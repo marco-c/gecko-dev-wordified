@@ -213,12 +213,6 @@ datetime
 import
 jsone
 from
-mozbuild
-.
-util
-import
-memoize
-from
 taskgraph
 .
 util
@@ -2621,7 +2615,9 @@ BALROG_SERVER_SCOPES
 )
 cached_load_yaml
 =
-memoize
+functools
+.
+cache
 (
 load_yaml
 )
@@ -3332,13 +3328,18 @@ if
 (
                 
 current_locale
-!
-=
+not
+in
+(
 "
 en
 -
 US
 "
+"
+multi
+"
+)
                 
 and
 not
@@ -4055,6 +4056,8 @@ reference
 repackage
 -
 rpm
+-
+signing
 >
 "
 :
