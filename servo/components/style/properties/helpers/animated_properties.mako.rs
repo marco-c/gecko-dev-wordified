@@ -2728,7 +2728,7 @@ substituted
 =
 {
 let
-custom_properties
+substitution_functions
 =
 &
 context
@@ -2737,7 +2737,7 @@ style
 (
 )
 .
-custom_properties
+substitution_functions
 (
 )
 ;
@@ -2773,7 +2773,7 @@ substitute_variables
 declaration
 .
 id
-custom_properties
+substitution_functions
 context
 .
 builder

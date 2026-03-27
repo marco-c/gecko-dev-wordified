@@ -1551,7 +1551,7 @@ if
 CustomPropertiesBuilder
 :
 :
-might_have_non_custom_dependency
+might_have_non_custom_or_attr_dependency
 (
 id
 declaration
@@ -1574,6 +1574,7 @@ maybe_note_non_custom_dependency
 (
 id
 declaration
+attribute_tracker
 )
 ;
 }
@@ -2009,13 +2010,13 @@ context
 .
 builder
 .
-custom_properties
+substitution_functions
 =
 unvisited_context
 .
 builder
 .
-custom_properties
+substitution_functions
 .
 clone
 (
@@ -4530,11 +4531,12 @@ substitute_variables
 declaration
 .
 id
+&
 context
 .
 builder
 .
-custom_properties
+substitution_functions
 (
 )
 context

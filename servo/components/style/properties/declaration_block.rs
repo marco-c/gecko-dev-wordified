@@ -6277,6 +6277,8 @@ context
 .
 builder
 .
+substitution_functions
+.
 custom_properties
 =
 cv
@@ -6403,7 +6405,7 @@ context
 .
 builder
 .
-custom_properties
+substitution_functions
 stylist
 &
 context
