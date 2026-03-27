@@ -1688,7 +1688,11 @@ doc
 getElementById
 (
 "
-preferencesPrivacyProfiles
+preferences
+-
+privacy
+-
+profiles
 "
 )
 ;
@@ -1951,7 +1955,11 @@ contentDocument
 getElementById
 (
 "
-preferencesPrivacyProfiles
+preferences
+-
+privacy
+-
+profiles
 "
 )
 ;
