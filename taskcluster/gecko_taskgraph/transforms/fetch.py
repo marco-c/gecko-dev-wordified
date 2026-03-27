@@ -76,6 +76,10 @@ import
 os
 import
 re
+from
+typing
+import
+Optional
 import
 attr
 import
@@ -108,6 +112,7 @@ util
 schema
 import
 LegacySchema
+Schema
 validate_schema
 from
 taskgraph
@@ -121,9 +126,13 @@ from
 voluptuous
 import
 Any
-Extra
-Optional
 Required
+from
+voluptuous
+import
+Optional
+as
+VOptional
 import
 gecko_taskgraph
 from
@@ -133,7 +142,7 @@ transforms
 .
 task
 import
-task_description_schema
+TaskDescriptionSchema
 from
 .
 .
@@ -149,11 +158,31 @@ content
 .
 v1
 "
-FETCH_SCHEMA
-=
-LegacySchema
+class
+FetchTypeSchema
 (
-{
+Schema
+forbid_unknown_fields
+=
+False
+kw_only
+=
+True
+)
+:
+    
+type
+:
+str
+class
+FetchSchema
+(
+Schema
+kw_only
+=
+True
+)
+:
     
 #
 Name
@@ -162,12 +191,7 @@ the
 task
 .
     
-Required
-(
-"
 name
-"
-)
 :
 str
     
@@ -187,21 +211,17 @@ the
 task
 was
 defined
-    
-#
 in
 .
     
-Optional
-(
-"
-task
--
-from
-"
-)
+task_from
 :
+Optional
+[
 str
+]
+=
+None
     
 #
 Description
@@ -210,27 +230,11 @@ the
 task
 .
     
-Required
-(
-"
 description
-"
-)
 :
 str
     
-Optional
-(
-        
-"
-fetch
--
-alias
-"
-        
-description
-=
-"
+#
 An
 alias
 that
@@ -245,32 +249,24 @@ fetch
 job
 name
 in
-"
-        
-"
+    
+#
 fetch
 stanzas
 for
 jobs
 .
-"
     
-)
+fetch_alias
 :
-str
-    
 Optional
-(
-        
-"
-artifact
--
-prefix
-"
-        
-description
+[
+str
+]
 =
-"
+None
+    
+#
 The
 prefix
 of
@@ -280,9 +276,8 @@ artifact
 being
 uploaded
 .
-"
-        
-"
+    
+#
 Defaults
 to
 public
@@ -295,9 +290,8 @@ with
 something
 other
 than
-"
-        
-"
+    
+#
 public
 /
 the
@@ -308,76 +302,49 @@ scopes
 to
 access
 .
-"
     
-)
+artifact_prefix
 :
-str
-    
 Optional
-(
-"
+[
+str
+]
+=
+None
+    
 attributes
-"
-)
 :
-{
-str
-:
-object
-}
-    
 Optional
-(
-"
-run
--
-on
--
-repo
--
-type
-"
-)
+[
+dict
+[
+str
+object
+]
+]
+=
+None
+    
+run_on_repo_type
 :
-task_description_schema
+TaskDescriptionSchema
+.
+__annotations__
 [
 "
-run
--
-on
--
-repo
--
-type
+run_on_repo_type
 "
 ]
+=
+None
     
-Required
-(
-"
 fetch
-"
-)
 :
-{
-        
-Required
-(
-"
-type
-"
-)
+FetchTypeSchema
+#
+noqa
 :
-str
-        
-Extra
-:
-object
-    
-}
-}
-)
+F821
 #
 define
 a
@@ -412,9 +379,6 @@ attr
 .
 ib
 (
-type
-=
-LegacySchema
 )
     
 builder
@@ -485,7 +449,7 @@ transforms
 .
 add_validate
 (
-FETCH_SCHEMA
+FetchSchema
 )
 transforms
 .
@@ -1485,7 +1449,7 @@ signature
 verification
 .
         
-Optional
+VOptional
 (
 "
 gpg
@@ -1571,7 +1535,7 @@ str
         
 }
         
-Optional
+VOptional
 (
 "
 headers
@@ -1630,7 +1594,7 @@ is
 supported
 .
         
-Optional
+VOptional
 (
 "
 artifact
@@ -1677,7 +1641,7 @@ tar
 zst
 .
         
-Optional
+VOptional
 (
 "
 strip
@@ -1716,7 +1680,7 @@ tar
 zst
 .
         
-Optional
+VOptional
 (
 "
 add
@@ -2263,7 +2227,7 @@ branch
 :
 str
         
-Optional
+VOptional
 (
 "
 include
@@ -2276,7 +2240,7 @@ git
 :
 bool
         
-Optional
+VOptional
 (
 "
 artifact
@@ -2287,7 +2251,7 @@ name
 :
 str
         
-Optional
+VOptional
 (
 "
 path
@@ -2384,7 +2348,7 @@ the
 file
 .
         
-Optional
+VOptional
 (
 "
 ssh
@@ -3043,7 +3007,7 @@ revision
 to
 obtain
         
-Optional
+VOptional
 (
 "
 revision
@@ -3339,7 +3303,7 @@ download
 from
 .
         
-Optional
+VOptional
 (
 "
 channel
@@ -3365,7 +3329,7 @@ version
 driver
 .
         
-Optional
+VOptional
 (
 "
 backup
@@ -3393,7 +3357,7 @@ with
 backup
 .
         
-Optional
+VOptional
 (
 "
 version
