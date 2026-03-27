@@ -529,6 +529,11 @@ Clone
 JSContext
 *
 aCx
+IDBTransaction
+*
+aTransaction
+=
+nullptr
 )
 ;
 }
