@@ -3028,13 +3028,12 @@ cap
 >
 DeRegisterCaptureDataCallback
 (
-this
 )
 ;
 cap
 -
 >
-StopCaptureIfAllClientsClose
+StopCapture
 (
 )
 ;
