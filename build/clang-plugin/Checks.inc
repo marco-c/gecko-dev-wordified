@@ -274,6 +274,17 @@ return
 )
 CHECK
 (
+NonTerminatedStringChecker
+"
+non
+-
+terminated
+-
+string
+"
+)
+CHECK
+(
 NoAutoTypeChecker
 "
 no
