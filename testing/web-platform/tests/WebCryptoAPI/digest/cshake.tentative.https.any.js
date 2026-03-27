@@ -1347,7 +1347,7 @@ digest
 name
 :
 alg
-length
+outputLength
 :
 length
 }
@@ -1502,6 +1502,8 @@ return
 alg
 ;
 }
+outputLength
+:
 length
 }
 buffer
@@ -1600,7 +1602,7 @@ digest
 name
 :
 alg
-length
+outputLength
 :
 length
 }
@@ -1742,6 +1744,8 @@ return
 alg
 ;
 }
+outputLength
+:
 length
 }
 buffer
@@ -1846,7 +1850,7 @@ digest
 name
 :
 alg
-length
+outputLength
 :
 length
 }
