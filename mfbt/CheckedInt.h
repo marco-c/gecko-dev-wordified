@@ -1001,7 +1001,7 @@ wider
 type
 so
 *
-explitly
+explicitly
 do
 the
 narrowing
@@ -1013,8 +1013,8 @@ narrowing
 cast
 is
 valid
-because
 *
+because
 we
 did
 the
