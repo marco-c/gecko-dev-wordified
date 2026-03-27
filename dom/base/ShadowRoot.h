@@ -1230,6 +1230,7 @@ invalidate
 .
 *
 /
+static
 void
 InvalidateStyleAndLayoutOnSubtree
 (
