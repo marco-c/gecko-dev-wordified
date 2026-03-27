@@ -4788,6 +4788,9 @@ expectedResult
 :
 [
 {
+invalid
+:
+true
 default
 :
 {
