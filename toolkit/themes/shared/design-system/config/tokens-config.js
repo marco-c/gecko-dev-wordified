@@ -2054,6 +2054,7 @@ if
 overrideIdentifier
 &
 &
+(
 OVERRIDE_IDENTIFIERS
 .
 some
@@ -2077,6 +2078,12 @@ name
 }
 -
 )
+)
+|
+|
+token
+.
+override
 )
 )
 {
@@ -3854,6 +3861,12 @@ filter
 token
 =
 >
+!
+token
+.
+override
+&
+&
 !
 OVERRIDE_IDENTIFIERS
 .

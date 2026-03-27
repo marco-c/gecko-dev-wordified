@@ -5384,6 +5384,12 @@ if
 overrideIdentifier
 &
 &
+(
+token
+.
+override
+|
+|
 OVERRIDE_IDENTIFIERS
 .
 some
@@ -5405,6 +5411,7 @@ includes
 {
 name
 }
+)
 )
 )
 )
