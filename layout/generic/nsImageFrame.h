@@ -1134,6 +1134,16 @@ false
 )
 const
 ;
+nsSize
+GetComputedSize
+(
+)
+const
+{
+return
+mComputedSize
+;
+}
 private
 :
 friend
