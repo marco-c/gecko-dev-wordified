@@ -418,7 +418,7 @@ async
 await
 aboutTranslationsTestUtils
 .
-clickClearButton
+invokeClearButton
 (
 )
 ;

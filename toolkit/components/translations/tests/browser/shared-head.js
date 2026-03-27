@@ -28340,7 +28340,7 @@ error
 *
 *
 *
-Clicks
+Invokes
 the
 swap
 -
@@ -28356,7 +28356,7 @@ UI
 *
 /
 async
-clickSwapLanguagesButton
+invokeSwapLanguagesButton
 (
 )
 {
@@ -28419,7 +28419,7 @@ error
 *
 *
 *
-Clicks
+Invokes
 the
 copy
 button
@@ -28433,7 +28433,7 @@ UI
 *
 /
 async
-clickCopyButton
+invokeCopyButton
 (
 )
 {
@@ -28496,7 +28496,7 @@ error
 *
 *
 *
-Clicks
+Invokes
 the
 translation
 error
@@ -28512,7 +28512,7 @@ UI
 *
 /
 async
-clickTranslationErrorButton
+invokeTranslationErrorButton
 (
 )
 {
@@ -28575,7 +28575,7 @@ error
 *
 *
 *
-Clicks
+Invokes
 the
 language
 -
@@ -28593,7 +28593,7 @@ UI
 *
 /
 async
-clickLanguageLoadErrorButton
+invokeLanguageLoadErrorButton
 (
 )
 {
@@ -28656,7 +28656,7 @@ error
 *
 *
 *
-Clicks
+Invokes
 the
 feature
 -
@@ -28675,7 +28675,7 @@ UI
 *
 /
 async
-clickUnblockFeatureButton
+invokeUnblockFeatureButton
 (
 )
 {
@@ -34162,7 +34162,7 @@ void
 *
 /
 async
-clickClearButton
+invokeClearButton
 (
 )
 {

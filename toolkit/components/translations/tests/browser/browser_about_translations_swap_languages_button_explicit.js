@@ -1506,7 +1506,7 @@ async
 await
 aboutTranslationsTestUtils
 .
-clickSwapLanguagesButton
+invokeSwapLanguagesButton
 (
 )
 ;
@@ -1895,7 +1895,7 @@ async
 await
 aboutTranslationsTestUtils
 .
-clickSwapLanguagesButton
+invokeSwapLanguagesButton
 (
 )
 ;

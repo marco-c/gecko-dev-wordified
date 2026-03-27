@@ -349,7 +349,7 @@ async
 await
 aboutTranslationsTestUtils
 .
-clickCopyButton
+invokeCopyButton
 (
 )
 ;
@@ -700,7 +700,7 @@ async
 await
 aboutTranslationsTestUtils
 .
-clickCopyButton
+invokeCopyButton
 (
 )
 ;
@@ -749,7 +749,7 @@ async
 await
 aboutTranslationsTestUtils
 .
-clickCopyButton
+invokeCopyButton
 (
 )
 ;
@@ -847,7 +847,7 @@ async
 await
 aboutTranslationsTestUtils
 .
-clickCopyButton
+invokeCopyButton
 (
 )
 ;
@@ -1086,7 +1086,7 @@ async
 await
 aboutTranslationsTestUtils
 .
-clickCopyButton
+invokeCopyButton
 (
 )
 ;
@@ -1525,7 +1525,7 @@ async
 await
 aboutTranslationsTestUtils
 .
-clickCopyButton
+invokeCopyButton
 (
 )
 ;

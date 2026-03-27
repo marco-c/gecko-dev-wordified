@@ -1146,7 +1146,7 @@ async
 await
 aboutTranslationsTestUtils
 .
-clickUnblockFeatureButton
+invokeUnblockFeatureButton
 (
 )
 ;
@@ -1424,7 +1424,7 @@ async
 await
 aboutTranslationsTestUtils
 .
-clickUnblockFeatureButton
+invokeUnblockFeatureButton
 (
 )
 ;

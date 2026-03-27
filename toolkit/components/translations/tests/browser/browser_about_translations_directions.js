@@ -556,7 +556,7 @@ target
 await
 aboutTranslationsTestUtils
 .
-clickSwapLanguagesButton
+invokeSwapLanguagesButton
 (
 )
 ;
@@ -1036,7 +1036,7 @@ true
 await
 aboutTranslationsTestUtils
 .
-clickSwapLanguagesButton
+invokeSwapLanguagesButton
 (
 )
 ;

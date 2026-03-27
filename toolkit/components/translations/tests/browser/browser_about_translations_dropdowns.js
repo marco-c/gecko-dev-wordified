@@ -565,7 +565,7 @@ async
 await
 aboutTranslationsTestUtils
 .
-clickLanguageLoadErrorButton
+invokeLanguageLoadErrorButton
 (
 )
 ;
@@ -645,7 +645,7 @@ async
 await
 aboutTranslationsTestUtils
 .
-clickLanguageLoadErrorButton
+invokeLanguageLoadErrorButton
 (
 )
 ;
