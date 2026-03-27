@@ -1090,9 +1090,6 @@ CLSID_CMSVPXDecMFT
 break
 ;
 }
-#
-ifdef
-MOZ_AV1
 case
 WMFStreamType
 :
@@ -1116,8 +1113,6 @@ GUID_NULL
 ;
 break
 ;
-#
-endif
 case
 WMFStreamType
 :
