@@ -693,6 +693,9 @@ case
 eCSSProperty_animation_iteration_count
 :
 case
+eCSSProperty_background_size
+:
+case
 eCSSProperty_column_width
 :
 case
