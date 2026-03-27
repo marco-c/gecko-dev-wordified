@@ -577,10 +577,7 @@ config
 sslEchConfig
 *
 )
-PR_LIST_TAIL
-(
-oConfigs
-)
+cur_p
 ;
 newConfig
 =

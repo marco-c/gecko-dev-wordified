@@ -494,15 +494,14 @@ rv
 >
 mutex
 =
-PZ_NewLock
+PR_NewLock
 (
-nssILockOther
 )
 ;
 if
 (
 (
-PZLock
+PRLock
 *
 )
 NULL
@@ -552,7 +551,7 @@ plHashTable
 (
 void
 )
-PZ_DestroyLock
+PR_DestroyLock
 (
 rv
 -
@@ -715,7 +714,7 @@ hash
 (
 void
 )
-PZ_DestroyLock
+PR_DestroyLock
 (
 hash
 -
@@ -790,7 +789,7 @@ PLHashEntry
 *
 he
 ;
-PZ_Lock
+PR_Lock
 (
 hash
 -
@@ -867,7 +866,7 @@ PR_SUCCESS
 (
 void
 )
-PZ_Unlock
+PR_Unlock
 (
 hash
 -
@@ -902,7 +901,7 @@ it
 PRBool
 found
 ;
-PZ_Lock
+PR_Lock
 (
 hash
 -
@@ -937,7 +936,7 @@ count
 (
 void
 )
-PZ_Unlock
+PR_Unlock
 (
 hash
 -
@@ -967,7 +966,7 @@ hash
 PRUint32
 count
 ;
-PZ_Lock
+PR_Lock
 (
 hash
 -
@@ -985,7 +984,7 @@ count
 (
 void
 )
-PZ_Unlock
+PR_Unlock
 (
 hash
 -
@@ -1021,7 +1020,7 @@ void
 *
 value
 ;
-PZ_Lock
+PR_Lock
 (
 hash
 -
@@ -1043,7 +1042,7 @@ it
 (
 void
 )
-PZ_Unlock
+PR_Unlock
 (
 hash
 -
@@ -1099,7 +1098,7 @@ void
 *
 rv
 ;
-PZ_Lock
+PR_Lock
 (
 hash
 -
@@ -1121,7 +1120,7 @@ it
 (
 void
 )
-PZ_Unlock
+PR_Unlock
 (
 hash
 -
@@ -1245,7 +1244,7 @@ closure
 =
 closure
 ;
-PZ_Lock
+PR_Lock
 (
 hash
 -
@@ -1267,7 +1266,7 @@ as
 (
 void
 )
-PZ_Unlock
+PR_Unlock
 (
 hash
 -

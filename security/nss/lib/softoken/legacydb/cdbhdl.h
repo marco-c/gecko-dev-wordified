@@ -126,7 +126,7 @@ DB
 *
 permCertDB
 ;
-PZMonitor
+PRMonitor
 *
 dbMon
 ;

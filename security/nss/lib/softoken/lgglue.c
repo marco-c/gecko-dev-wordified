@@ -1003,7 +1003,7 @@ return
 SECFailure
 ;
 }
-PZ_Lock
+PR_Lock
 (
 handle
 -
@@ -1024,7 +1024,7 @@ data
 NULL
 )
 {
-PZ_Unlock
+PR_Unlock
 (
 handle
 -
@@ -1115,7 +1115,7 @@ plainText
 cipherText
 )
 ;
-PZ_Unlock
+PR_Unlock
 (
 handle
 -
@@ -1269,7 +1269,7 @@ return
 SECFailure
 ;
 }
-PZ_Lock
+PR_Lock
 (
 handle
 -
@@ -1290,7 +1290,7 @@ data
 NULL
 )
 {
-PZ_Unlock
+PR_Unlock
 (
 handle
 -
@@ -1327,7 +1327,7 @@ cipherText
 plainText
 )
 ;
-PZ_Unlock
+PR_Unlock
 (
 handle
 -

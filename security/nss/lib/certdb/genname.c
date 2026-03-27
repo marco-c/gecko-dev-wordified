@@ -1181,7 +1181,7 @@ CERTGeneralNameList
 list
 )
 {
-PZLock
+PRLock
 *
 lock
 ;
@@ -1200,7 +1200,7 @@ list
 >
 lock
 ;
-PZ_Lock
+PR_Lock
 (
 lock
 )
@@ -1236,12 +1236,12 @@ arena
 PR_FALSE
 )
 ;
-PZ_Unlock
+PR_Unlock
 (
 lock
 )
 ;
-PZ_DestroyLock
+PR_DestroyLock
 (
 lock
 )
@@ -1249,7 +1249,7 @@ lock
 }
 else
 {
-PZ_Unlock
+PR_Unlock
 (
 lock
 )
@@ -1377,9 +1377,8 @@ list
 >
 lock
 =
-PZ_NewLock
+PR_NewLock
 (
-nssILockList
 )
 ;
 if
@@ -4390,7 +4389,7 @@ list
 NULL
 )
 {
-PZ_Lock
+PR_Lock
 (
 list
 -
@@ -4405,7 +4404,7 @@ refCount
 +
 +
 ;
-PZ_Unlock
+PR_Unlock
 (
 list
 -
@@ -11618,7 +11617,7 @@ b
 NULL
 )
 {
-PZ_Lock
+PR_Lock
 (
 a
 -
@@ -11626,7 +11625,7 @@ a
 lock
 )
 ;
-PZ_Lock
+PR_Lock
 (
 b
 -
@@ -11648,7 +11647,7 @@ b
 name
 )
 ;
-PZ_Unlock
+PR_Unlock
 (
 a
 -
@@ -11656,7 +11655,7 @@ a
 lock
 )
 ;
-PZ_Unlock
+PR_Unlock
 (
 b
 -
@@ -11761,7 +11760,7 @@ void
 *
 data
 ;
-PZ_Lock
+PR_Lock
 (
 list
 -
@@ -11867,7 +11866,7 @@ data
 )
 ;
 }
-PZ_Unlock
+PR_Unlock
 (
 list
 -
@@ -11957,7 +11956,7 @@ name
 )
 ;
 }
-PZ_Unlock
+PR_Unlock
 (
 list
 -
@@ -12006,7 +12005,7 @@ data
 ;
 }
 }
-PZ_Unlock
+PR_Unlock
 (
 list
 -
@@ -12019,7 +12018,7 @@ name
 ;
 }
 }
-PZ_Unlock
+PR_Unlock
 (
 list
 -
@@ -12113,7 +12112,7 @@ data
 NULL
 )
 {
-PZ_Lock
+PR_Lock
 (
 list
 -
@@ -12286,7 +12285,7 @@ len
 ;
 done
 :
-PZ_Unlock
+PR_Unlock
 (
 list
 -

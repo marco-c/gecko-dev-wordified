@@ -83,7 +83,7 @@ lock
 struct
 nssRWLockStr
 {
-PZLock
+PRLock
 *
 rw_lock
 ;
@@ -164,7 +164,7 @@ waiting
 writers
 *
 /
-PZCondVar
+PRCondVar
 *
 rw_reader_waitq
 ;
@@ -175,7 +175,7 @@ for
 readers
 *
 /
-PZCondVar
+PRCondVar
 *
 rw_writer_waitq
 ;
@@ -439,9 +439,8 @@ rwlock
 >
 rw_lock
 =
-PZ_NewLock
+PR_NewLock
 (
-nssILockRWLock
 )
 ;
 if
@@ -464,7 +463,7 @@ rwlock
 >
 rw_reader_waitq
 =
-PZ_NewCondVar
+PR_NewCondVar
 (
 rwlock
 -
@@ -492,7 +491,7 @@ rwlock
 >
 rw_writer_waitq
 =
-PZ_NewCondVar
+PR_NewCondVar
 (
 rwlock
 -
@@ -703,7 +702,7 @@ t
 we
 lock
 the
-PZLock
+PRLock
 before
 destroying
 this
@@ -733,7 +732,7 @@ rwlock
 >
 rw_reader_waitq
 )
-PZ_DestroyCondVar
+PR_DestroyCondVar
 (
 rwlock
 -
@@ -748,7 +747,7 @@ rwlock
 >
 rw_writer_waitq
 )
-PZ_DestroyCondVar
+PR_DestroyCondVar
 (
 rwlock
 -
@@ -763,7 +762,7 @@ rwlock
 >
 rw_lock
 )
-PZ_DestroyLock
+PR_DestroyLock
 (
 rwlock
 -
@@ -805,7 +804,7 @@ PR_GetCurrentThread
 (
 )
 ;
-PZ_Lock
+PR_Lock
 (
 rwlock
 -
@@ -978,7 +977,7 @@ rw_waiting_readers
 +
 +
 ;
-PZ_WaitCondVar
+PR_WaitCondVar
 (
 rwlock
 -
@@ -1011,7 +1010,7 @@ lock
 count
 *
 /
-PZ_Unlock
+PR_Unlock
 (
 rwlock
 -
@@ -1063,7 +1062,7 @@ NSSRWLock
 rwlock
 )
 {
-PZ_Lock
+PR_Lock
 (
 rwlock
 -
@@ -1170,7 +1169,7 @@ waiting
 .
 *
 /
-PZ_NotifyCondVar
+PR_NotifyCondVar
 (
 rwlock
 -
@@ -1187,7 +1186,7 @@ up
 *
 /
 }
-PZ_Unlock
+PR_Unlock
 (
 rwlock
 -
@@ -1248,7 +1247,7 @@ PR_GetCurrentThread
 (
 )
 ;
-PZ_Lock
+PR_Lock
 (
 rwlock
 -
@@ -1428,7 +1427,7 @@ rw_waiting_writers
 +
 +
 ;
-PZ_WaitCondVar
+PR_WaitCondVar
 (
 rwlock
 -
@@ -1498,7 +1497,7 @@ lock
 count
 *
 /
-PZ_Unlock
+PR_Unlock
 (
 rwlock
 -
@@ -1559,7 +1558,7 @@ PR_GetCurrentThread
 (
 )
 ;
-PZ_Lock
+PR_Lock
 (
 rwlock
 -
@@ -1717,7 +1716,7 @@ rw_reader_locks
 =
 0
 )
-PZ_NotifyCondVar
+PR_NotifyCondVar
 (
 rwlock
 -
@@ -1737,7 +1736,7 @@ rw_waiting_readers
 0
 )
 {
-PZ_NotifyAllCondVar
+PR_NotifyAllCondVar
 (
 rwlock
 -
@@ -1747,7 +1746,7 @@ rw_reader_waitq
 ;
 }
 }
-PZ_Unlock
+PR_Unlock
 (
 rwlock
 -
@@ -1882,7 +1881,7 @@ thread
 #
 if
 UNNECESSARY
-PZ_Lock
+PR_Lock
 (
 rwlock
 -
@@ -1910,7 +1909,7 @@ rw_owner
 #
 if
 UNNECESSARY
-PZ_Unlock
+PR_Unlock
 (
 rwlock
 -

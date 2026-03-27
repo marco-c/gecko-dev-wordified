@@ -5748,7 +5748,7 @@ len
 ConnectExpectAlert
 (
 server_
-kTlsAlertIllegalParameter
+kTlsAlertDecodeError
 )
 ;
 client_
@@ -5756,7 +5756,7 @@ client_
 >
 CheckErrorCode
 (
-SSL_ERROR_ILLEGAL_PARAMETER_ALERT
+SSL_ERROR_DECODE_ERROR_ALERT
 )
 ;
 server_

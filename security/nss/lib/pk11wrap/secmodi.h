@@ -105,13 +105,6 @@ h
 #
 include
 "
-nssilock
-.
-h
-"
-#
-include
-"
 secoidt
 .
 h
@@ -1174,7 +1167,7 @@ keyID
 ;
 SECKEYPrivateKey
 *
-PK11_MakePrivKey
+pk11_MakePrivKey
 (
 PK11SlotInfo
 *
@@ -1182,7 +1175,7 @@ slot
 KeyType
 keyType
 PRBool
-isTemp
+isOwner
 CK_OBJECT_HANDLE
 privID
 void

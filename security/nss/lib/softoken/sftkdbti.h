@@ -104,7 +104,7 @@ SECItem
 *
 updatePasswordKey
 ;
-PZLock
+PRLock
 *
 passwordLock
 ;

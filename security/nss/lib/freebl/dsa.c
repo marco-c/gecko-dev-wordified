@@ -108,13 +108,6 @@ h
 #
 include
 "
-nssilock
-.
-h
-"
-#
-include
-"
 secitem
 .
 h

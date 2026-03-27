@@ -5716,6 +5716,11 @@ rv
 SECSuccess
 )
 {
+ssl_ReleaseXmitBufLock
+(
+ss
+)
+;
 return
 rv
 ;
@@ -5776,6 +5781,11 @@ ss
 0
 )
 ;
+ssl_ReleaseXmitBufLock
+(
+ss
+)
+;
 if
 (
 rv
@@ -5797,11 +5807,6 @@ ssl3_FlushHandshake
 *
 /
 }
-ssl_ReleaseXmitBufLock
-(
-ss
-)
-;
 /
 *
 The

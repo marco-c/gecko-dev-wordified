@@ -105,13 +105,6 @@ h
 #
 include
 "
-nssilckt
-.
-h
-"
-#
-include
-"
 secmodt
 .
 h
@@ -465,7 +458,7 @@ functions
 CK_SESSION_HANDLE
 session
 ;
-PZLock
+PRLock
 *
 sessionLock
 ;
@@ -542,7 +535,7 @@ ONLY
 !
 *
 /
-PZLock
+PRLock
 *
 freeListLock
 ;
@@ -907,7 +900,7 @@ NSSToken
 *
 nssToken
 ;
-PZLock
+PRLock
 *
 nssTokenLock
 ;
@@ -1278,7 +1271,7 @@ is
 using
 *
 /
-PZLock
+PRLock
 *
 sessionLock
 ;

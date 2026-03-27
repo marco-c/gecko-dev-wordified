@@ -1668,8 +1668,8 @@ objclass
 =
 CKO_NSS_TRUST
 )
-|
-|
+&
+&
 (
 obj
 -

@@ -612,7 +612,7 @@ FILE
 *
 ssl_keylog_iob
 ;
-PZLock
+PRLock
 *
 ssl_keylog_lock
 ;
@@ -2763,7 +2763,7 @@ ss
 firstHandshakeLock
 )
 {
-PZ_DestroyMonitor
+PR_DestroyMonitor
 (
 ss
 -
@@ -2787,7 +2787,7 @@ ss
 ssl3HandshakeLock
 )
 {
-PZ_DestroyMonitor
+PR_DestroyMonitor
 (
 ss
 -
@@ -2835,7 +2835,7 @@ ss
 recvLock
 )
 {
-PZ_DestroyLock
+PR_DestroyLock
 (
 ss
 -
@@ -2859,7 +2859,7 @@ ss
 sendLock
 )
 {
-PZ_DestroyLock
+PR_DestroyLock
 (
 ss
 -
@@ -2883,7 +2883,7 @@ ss
 xmitBufLock
 )
 {
-PZ_DestroyMonitor
+PR_DestroyMonitor
 (
 ss
 -
@@ -2907,7 +2907,7 @@ ss
 recvBufLock
 )
 {
-PZ_DestroyMonitor
+PR_DestroyMonitor
 (
 ss
 -
@@ -4684,7 +4684,7 @@ enabled
 .
 *
 /
-PZ_ExitMonitor
+PR_ExitMonitor
 (
 (
 ss
@@ -4694,7 +4694,7 @@ ss
 ssl3HandshakeLock
 )
 ;
-PZ_ExitMonitor
+PR_ExitMonitor
 (
 (
 ss
@@ -5269,7 +5269,7 @@ if
 holdingLocks
 )
 {
-PZ_ExitMonitor
+PR_ExitMonitor
 (
 (
 ss
@@ -5279,7 +5279,7 @@ ss
 ssl3HandshakeLock
 )
 ;
-PZ_ExitMonitor
+PR_ExitMonitor
 (
 (
 ss
@@ -21116,9 +21116,8 @@ ss
 >
 firstHandshakeLock
 =
-PZ_NewMonitor
+PR_NewMonitor
 (
-nssILockSSL
 )
 ;
 if
@@ -21146,9 +21145,8 @@ ss
 >
 ssl3HandshakeLock
 =
-PZ_NewMonitor
+PR_NewMonitor
 (
-nssILockSSL
 )
 ;
 if
@@ -21207,9 +21205,8 @@ ss
 >
 recvBufLock
 =
-PZ_NewMonitor
+PR_NewMonitor
 (
-nssILockSSL
 )
 ;
 if
@@ -21237,9 +21234,8 @@ ss
 >
 xmitBufLock
 =
-PZ_NewMonitor
+PR_NewMonitor
 (
-nssILockSSL
 )
 ;
 if
@@ -21279,9 +21275,8 @@ ss
 >
 recvLock
 =
-PZ_NewLock
+PR_NewLock
 (
-nssILockSSL
 )
 ;
 if
@@ -21309,9 +21304,8 @@ ss
 >
 sendLock
 =
-PZ_NewLock
+PR_NewLock
 (
-nssILockSSL
 )
 ;
 if
