@@ -16511,7 +16511,7 @@ react__WEBPACK_IMPORTED_MODULE_0___default
 createElement
 (
 "
-div
+img
 "
 {
 className
@@ -16523,6 +16523,15 @@ paragraph
 -
 icon
 "
+src
+:
+content
+?
+.
+icon
+?
+.
+iconURL
 style
 :
 _lib_aboutwelcome_utils_mjs__WEBPACK_IMPORTED_MODULE_2__
