@@ -2950,14 +2950,8 @@ constexpr
 auto
 lastDitch
 =
-LanguageId
-:
-:
-fromValidBcp49
-(
 LastDitchLocale
 (
-)
 )
 ;
 static_assert
