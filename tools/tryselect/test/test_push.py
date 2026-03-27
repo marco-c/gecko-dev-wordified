@@ -1720,7 +1720,7 @@ url
         
 if
 push_to_vcs
-and
+or
 not
 is_hg_try
 :
@@ -1849,6 +1849,12 @@ assert_called_once_with
 url
                     
 ref
+=
+"
+abc123
+"
+                    
+dest_branch
 =
 "
 feature
