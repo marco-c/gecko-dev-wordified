@@ -236,7 +236,7 @@ optimize
 .
 schema
 import
-OptimizationSchema
+LegacyOptimizationSchema
 from
 gecko_taskgraph
 .
@@ -255,6 +255,14 @@ job
 run_task
 import
 run_task_schema
+from
+gecko_taskgraph
+.
+transforms
+.
+test
+import
+linux_perf_platform_restrictions
 from
 gecko_taskgraph
 .
@@ -1096,6 +1104,28 @@ dynamic
 "
 )
     
+)
+    
+Optional
+(
+"
+default
+-
+chunks
+"
+)
+:
+optionally_keyed_by
+(
+"
+test
+-
+platform
+"
+"
+variant
+"
+int
 )
     
 #
@@ -2777,7 +2807,7 @@ optimization
 "
 )
 :
-OptimizationSchema
+LegacyOptimizationSchema
     
 #
 The
@@ -4549,6 +4579,27 @@ variant
         
 yield
 task
+#
+Apply
+platform
+restrictions
+for
+tests
+failing
+on
+Ubuntu
+24
+.
+04
+.
+transforms
+.
+add
+(
+linux_perf_platform_restrictions
+.
+restrict_failing_tests_to_1804
+)
 transforms
 .
 add
