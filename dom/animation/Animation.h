@@ -3312,6 +3312,13 @@ TimeStamp
 aScheduledEventTime
 )
 ;
+void
+MaybeResolvePromiseWithThis
+(
+Promise
+*
+)
+;
 /
 *
 *
