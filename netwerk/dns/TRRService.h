@@ -793,11 +793,6 @@ ClearEntireCache
 (
 )
 ;
-void
-MaybeSpeculativeConnectToTRR
-(
-)
-;
 virtual
 void
 ReadEtcHostsFile
