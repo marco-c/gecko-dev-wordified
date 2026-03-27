@@ -723,7 +723,7 @@ jsSources
 object
 which
 is
-UUID
+ID
 to
 source
 text
@@ -812,7 +812,7 @@ PromiseFlatCString
 (
 entry
 .
-uuid
+id
 )
 .
 get
@@ -2577,7 +2577,7 @@ WriteParam
 aWriter
 aParam
 .
-uuid
+id
 )
 ;
 WriteParam
@@ -2621,7 +2621,7 @@ aReader
 aResult
 -
 >
-uuid
+id
 )
 &
 &
