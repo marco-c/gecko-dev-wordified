@@ -11316,6 +11316,11 @@ new
 (
 instance_kind
 clip_leaf_id
+info
+.
+rect
+.
+min
 )
 }
 fn
@@ -17241,6 +17246,12 @@ clip_tree_builder
 build_for_picture
 (
 clip_node_id
+)
+LayoutPoint
+:
+:
+zero
+(
 )
 )
 ;
@@ -25959,6 +25970,12 @@ clip_tree_builder
 build_for_picture
 (
 clip_node_id
+)
+LayoutPoint
+:
+:
+zero
+(
 )
 )
 }
