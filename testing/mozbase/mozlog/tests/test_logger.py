@@ -1764,14 +1764,16 @@ log_server
 .
 server_address
         
-sock
-=
+with
 socket
 .
 socket
 (
 )
-        
+as
+sock
+:
+            
 sock
 .
 connect
@@ -1781,7 +1783,7 @@ host
 port
 )
 )
-        
+            
 #
 Sleeps
 prevent
@@ -1794,7 +1796,7 @@ in
 a
 single
 call
-        
+            
 #
 to
 recv
@@ -1807,7 +1809,7 @@ of
 partial
 messages
 .
-        
+            
 sock
 .
 sendall
@@ -1822,7 +1824,7 @@ encode
 (
 )
 )
-        
+            
 time
 .
 sleep
@@ -1831,7 +1833,7 @@ sleep
 .
 01
 )
-        
+            
 sock
 .
 sendall
@@ -1847,7 +1849,7 @@ encode
 (
 )
 )
-        
+            
 time
 .
 sleep
@@ -1856,7 +1858,7 @@ sleep
 .
 01
 )
-        
+            
 sock
 .
 sendall
@@ -1872,7 +1874,7 @@ encode
 (
 )
 )
-        
+            
 time
 .
 sleep
@@ -1881,7 +1883,7 @@ sleep
 .
 01
 )
-        
+            
 sock
 .
 sendall
@@ -1897,7 +1899,7 @@ encode
 (
 )
 )
-        
+            
 time
 .
 sleep
@@ -1906,7 +1908,7 @@ sleep
 .
 01
 )
-        
+            
 sock
 .
 sendall
@@ -1921,7 +1923,7 @@ encode
 (
 )
 )
-        
+            
 server_thread
 .
 join
