@@ -2022,6 +2022,7 @@ getElementById
 root
 "
 )
+?
 .
 children
 .
