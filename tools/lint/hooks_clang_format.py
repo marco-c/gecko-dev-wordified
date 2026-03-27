@@ -380,8 +380,6 @@ arguments
 =
 [
 "
-clang
--
 format
 "
 "
