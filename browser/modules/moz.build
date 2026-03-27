@@ -1138,13 +1138,6 @@ sys
 mjs
 "
 "
-UpdatePolicyEnforcer
-.
-sys
-.
-mjs
-"
-"
 URILoadingHelper
 .
 sys
