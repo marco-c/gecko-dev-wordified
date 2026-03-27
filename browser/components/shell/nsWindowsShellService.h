@@ -178,11 +178,6 @@ LaunchControlPanelDefaultsSelectionUI
 (
 )
 ;
-nsresult
-LaunchModernSettingsDialogDefaultApps
-(
-)
-;
 }
 ;
 #
