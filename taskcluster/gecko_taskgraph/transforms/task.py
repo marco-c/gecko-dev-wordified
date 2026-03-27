@@ -199,6 +199,7 @@ util
 keyed_by
 import
 evaluate_keyed_by
+keymatch
 from
 taskgraph
 .
@@ -5225,15 +5226,22 @@ config
 if
 head_ref
 and
-head_ref
-in
+(
+matches
+:
+=
+keymatch
+(
 th_branch_map
+head_ref
+)
+)
 :
         
 return
-th_branch_map
+matches
 [
-head_ref
+0
 ]
     
 return
