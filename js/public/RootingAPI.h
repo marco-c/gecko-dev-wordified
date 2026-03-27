@@ -11425,6 +11425,7 @@ ElementType
 =
 T
 ;
+constexpr
 PersistentRooted
 (
 )

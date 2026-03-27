@@ -103,15 +103,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 NullPrincipal
 .
 h
@@ -302,7 +293,7 @@ AutoJSAPI
 *
 *
 *
-MOZ_RUNINIT
+constinit
 static
 JS
 :
@@ -314,7 +305,7 @@ JSObject
 >
 autoconfigSystemSb
 ;
-MOZ_RUNINIT
+constinit
 static
 JS
 :

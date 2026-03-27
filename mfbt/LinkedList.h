@@ -1331,6 +1331,7 @@ mIsSentinel
 ;
 public
 :
+constexpr
 LinkedListElement
 (
 )

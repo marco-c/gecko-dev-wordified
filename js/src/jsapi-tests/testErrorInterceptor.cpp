@@ -37,7 +37,7 @@ JS_SetErrorInterceptorCallback
 .
 namespace
 {
-MOZ_RUNINIT
+constinit
 static
 JS
 :

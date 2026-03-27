@@ -784,7 +784,6 @@ mutexid
 PerfSpewer
 )
 ;
-MOZ_RUNINIT
 static
 PersistentRooted
 <
