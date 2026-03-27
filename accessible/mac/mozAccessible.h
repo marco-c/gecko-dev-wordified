@@ -1101,6 +1101,16 @@ override
 NSString
 *
 )
+moxARIABrailleLabel
+;
+/
+/
+override
+-
+(
+NSString
+*
+)
 moxPlaceholderValue
 ;
 /

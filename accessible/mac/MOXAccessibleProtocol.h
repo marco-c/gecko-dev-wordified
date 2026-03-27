@@ -1055,6 +1055,17 @@ moxARIABrailleRoleDescription
 ;
 /
 /
+AXBrailleLabel
+-
+(
+NSString
+*
+_Nullable
+)
+moxARIABrailleLabel
+;
+/
+/
 Webkit
 also
 implements
