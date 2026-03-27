@@ -374,7 +374,7 @@ AddObserver
 this
 BEFORE_FIRST_PAINT
 .
-Data
+get
 (
 )
 false
@@ -486,7 +486,7 @@ RemoveObserver
 this
 BEFORE_FIRST_PAINT
 .
-Data
+get
 (
 )
 )
