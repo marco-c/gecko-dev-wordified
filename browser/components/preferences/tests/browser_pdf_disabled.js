@@ -119,18 +119,6 @@ test
 disabled
 "
 ]
-[
-"
-browser
-.
-settings
--
-redesign
-.
-enabled
-"
-true
-]
 ]
 }
 )
@@ -167,7 +155,7 @@ document
 getElementById
 (
 "
-applicationsHandlersView
+handlersView
 "
 )
 ;
