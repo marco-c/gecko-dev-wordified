@@ -1213,9 +1213,7 @@ slot
 of
 module
 .
-listSlots
-(
-)
+slots
 )
 {
 let

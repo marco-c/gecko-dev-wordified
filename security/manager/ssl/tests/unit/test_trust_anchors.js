@@ -189,9 +189,7 @@ from
 (
 testModule
 .
-listSlots
-(
-)
+slots
 slot
 =
 >

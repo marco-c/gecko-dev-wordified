@@ -591,6 +591,10 @@ PPKCS11ModuleChild
 &
 &
 aEndpoint
+nsCString
+&
+&
+aProfilePath
 )
 ;
 #
