@@ -324,15 +324,6 @@ include
 "
 mozilla
 /
-ServoStyleSet
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StorageAccessAPIHelper
 .
 h
@@ -1414,6 +1405,9 @@ ProcessingInstruction
 ;
 class
 Promise
+;
+struct
+PropertyDefinition
 ;
 class
 ScriptLoader
