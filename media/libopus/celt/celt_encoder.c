@@ -16475,7 +16475,7 @@ overlap_max
 celt_maxabs_res
 (
 pcm
-C
+CC
 *
 (
 N
@@ -16499,7 +16499,7 @@ celt_maxabs_res
 (
 pcm
 +
-C
+CC
 *
 (
 N
@@ -16511,7 +16511,7 @@ st
 -
 >
 upsample
-C
+CC
 *
 overlap
 /
