@@ -114,7 +114,7 @@ src
 /
 /
 /
-browser
+toolkit
 /
 components
 /

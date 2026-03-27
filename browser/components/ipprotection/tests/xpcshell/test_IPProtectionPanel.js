@@ -80,7 +80,7 @@ src
 /
 /
 /
-browser
+toolkit
 /
 components
 /

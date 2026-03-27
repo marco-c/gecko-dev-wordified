@@ -52,7 +52,7 @@ src
 /
 /
 /
-browser
+toolkit
 /
 components
 /
