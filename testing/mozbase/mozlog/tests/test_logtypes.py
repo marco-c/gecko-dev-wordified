@@ -64,9 +64,16 @@ Any
 Dict
 Int
 List
-TestList
 Tuple
 Unicode
+from
+mozlog
+.
+logtypes
+import
+TestList
+as
+TypeTestList
 class
 TestContainerTypes
 (
@@ -794,7 +801,7 @@ self
         
 t
 =
-TestList
+TypeTestList
 (
 "
 name
