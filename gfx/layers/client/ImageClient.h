@@ -165,6 +165,17 @@ SurfaceDescriptor
 #
 include
 "
+ImageContainer
+.
+h
+"
+/
+/
+for
+ClearImagesType
+#
+include
+"
 mozilla
 /
 layers

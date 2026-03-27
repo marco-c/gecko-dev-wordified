@@ -97,6 +97,15 @@ include
 "
 mozilla
 /
+PseudoStyleRequest
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PseudoStyleType
 .
 h

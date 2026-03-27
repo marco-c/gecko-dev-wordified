@@ -112,6 +112,13 @@ CopyableTArray
 namespace
 mozilla
 {
+namespace
+dom
+{
+class
+ShadowRoot
+;
+}
 class
 nsDisplayListBuilder
 ;

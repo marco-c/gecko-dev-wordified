@@ -154,6 +154,15 @@ include
 "
 mozilla
 /
+ServoStyleSet
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ViewportFrame
 .
 h

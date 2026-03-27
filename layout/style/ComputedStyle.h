@@ -110,7 +110,7 @@ include
 "
 mozilla
 /
-PseudoStyleType
+PseudoStyleRequest
 .
 h
 "

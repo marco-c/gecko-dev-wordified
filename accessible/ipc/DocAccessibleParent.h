@@ -119,6 +119,13 @@ h
 #
 include
 "
+nsIMemoryReporter
+.
+h
+"
+#
+include
+"
 nsISupportsImpl
 .
 h

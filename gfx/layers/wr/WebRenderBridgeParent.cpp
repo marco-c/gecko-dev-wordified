@@ -19508,12 +19508,11 @@ WebRenderBridgeParent
 :
 SendAsyncMessage
 (
-const
-nsTArray
+Span
 <
+const
 AsyncParentMessageData
 >
-&
 aMessage
 )
 {

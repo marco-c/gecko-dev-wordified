@@ -92,6 +92,12 @@ needs
 /
 #
 ifndef
+mozilla_ServoStyleConstsForwards_h
+#
+define
+mozilla_ServoStyleConstsForwards_h
+#
+ifndef
 mozilla_ServoStyleConsts_h
 #
 error
@@ -111,12 +117,6 @@ h
 "
 #
 endif
-#
-ifndef
-mozilla_ServoStyleConstsForwards_h
-#
-define
-mozilla_ServoStyleConstsForwards_h
 #
 include
 <
@@ -178,6 +178,15 @@ include
 mozilla
 /
 ServoTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
+Vector
 .
 h
 "
@@ -348,6 +357,9 @@ FontVariation
 ;
 struct
 FontFeature
+;
+class
+FontPaletteValueSet
 ;
 }
 /
@@ -568,6 +580,9 @@ class
 UseBoxSizing
 :
 uint8_t
+;
+struct
+PseudoStyleRequest
 ;
 template
 <
@@ -1172,7 +1187,6 @@ float
 aFloat
 )
 {
-\
 return
 FromRaw
 (
@@ -1184,7 +1198,6 @@ kScale
 )
 )
 ;
-\
 }
 \
 static

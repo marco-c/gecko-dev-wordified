@@ -1120,7 +1120,7 @@ aTexture
 ;
 mPendingAsyncMessage
 .
-push_back
+AppendElement
 (
 OpNotifyNotUsed
 (
@@ -1136,12 +1136,11 @@ CompositorBridgeParentBase
 :
 SendAsyncMessage
 (
-const
-nsTArray
+Span
 <
+const
 AsyncParentMessageData
 >
-&
 aMessage
 )
 {
