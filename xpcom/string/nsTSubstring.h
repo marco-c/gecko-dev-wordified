@@ -2859,7 +2859,6 @@ aLength
 ;
 }
 void
-NS_FASTCALL
 Assign
 (
 already_AddRefed
@@ -2905,7 +2904,7 @@ Data
 )
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 data
 [
@@ -8282,7 +8281,7 @@ AssertValid
 (
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -8298,7 +8297,7 @@ INVALID_MASK
 )
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 !
 (
