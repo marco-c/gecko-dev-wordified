@@ -7996,7 +7996,17 @@ sender
 set_qlog
 (
 qlog
+.
+clone
+(
 )
+)
+;
+self
+.
+qlog
+=
+qlog
 ;
 }
 }

@@ -130,7 +130,7 @@ crate
 :
 :
 {
-CongestionControlAlgorithm
+CongestionControl
 ConnectionParameters
 connection
 :
@@ -1626,9 +1626,9 @@ acked
 fn
 cc_cong_avoidance_recovery_period_to_cong_avoidance
 (
-cc_algorithm
+congestion_control
 :
-CongestionControlAlgorithm
+CongestionControl
 )
 {
 let
@@ -1644,9 +1644,9 @@ default
 (
 )
 .
-cc_algorithm
+congestion_control
 (
-cc_algorithm
+congestion_control
 )
 )
 ;
@@ -1663,9 +1663,9 @@ default
 (
 )
 .
-cc_algorithm
+congestion_control
 (
-cc_algorithm
+congestion_control
 )
 )
 ;
@@ -2017,7 +2017,7 @@ cc_cong_avoidance_recovery_period_to_cong_avoidance_new_reno
 {
 cc_cong_avoidance_recovery_period_to_cong_avoidance
 (
-CongestionControlAlgorithm
+CongestionControl
 :
 :
 NewReno
@@ -2035,7 +2035,7 @@ cc_cong_avoidance_recovery_period_to_cong_avoidance_cubic
 {
 cc_cong_avoidance_recovery_period_to_cong_avoidance
 (
-CongestionControlAlgorithm
+CongestionControl
 :
 :
 Cubic
