@@ -103,7 +103,7 @@ C
 )
 1996
 -
-2025
+2026
 by
 *
 David
@@ -40227,7 +40227,7 @@ FREETYPE_MINOR
 #
 define
 FREETYPE_PATCH
-2
+3
 /
 *
 *

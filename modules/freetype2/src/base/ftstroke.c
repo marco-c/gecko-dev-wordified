@@ -97,7 +97,7 @@ C
 )
 2002
 -
-2025
+2026
 by
 *
 David
@@ -4208,6 +4208,13 @@ num_points
 num_contours
 =
 0
+;
+error
+=
+FT_THROW
+(
+Invalid_Outline
+)
 ;
 goto
 Exit
@@ -12360,7 +12367,7 @@ destroy
 FT_Error
 error
 =
-FT_ERR
+FT_THROW
 (
 Invalid_Argument
 )
@@ -12465,6 +12472,8 @@ error
 goto
 Fail
 ;
+error
+=
 FT_Stroker_GetCounts
 (
 stroker
@@ -12473,6 +12482,13 @@ num_points
 &
 num_contours
 )
+;
+if
+(
+error
+)
+goto
+Fail
 ;
 FT_Outline_Done
 (
@@ -12602,7 +12618,7 @@ destroy
 FT_Error
 error
 =
-FT_ERR
+FT_THROW
 (
 Invalid_Argument
 )
