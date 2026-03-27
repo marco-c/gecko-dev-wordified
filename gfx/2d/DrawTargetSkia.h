@@ -1030,6 +1030,12 @@ DataSourceSurface
 aSurface
 )
 ;
+static
+void
+UpdateSurfaceProps
+(
+)
+;
 /
 /
 Skia
