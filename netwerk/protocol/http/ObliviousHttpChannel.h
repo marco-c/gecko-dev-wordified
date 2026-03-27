@@ -203,6 +203,8 @@ ProcessOnStopRequest
 void
 EmitOnDataAvailable
 (
+nsIStreamListener
+*
 )
 ;
 nsCOMPtr
