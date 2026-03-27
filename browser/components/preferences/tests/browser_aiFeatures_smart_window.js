@@ -270,13 +270,13 @@ type
 "
 )
 "
-new
+beta
 "
 "
 badge
 has
 type
-new
+beta
 "
 )
 ;
