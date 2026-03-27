@@ -578,6 +578,10 @@ capturer
 e
 )
 ;
+cameraVideoCapturer
+=
+null
+;
 }
 }
 /
