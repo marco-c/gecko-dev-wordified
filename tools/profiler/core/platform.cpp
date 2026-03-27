@@ -6685,11 +6685,11 @@ sInstance
 >
 mLul
 ;
+#
+endif
 delete
 mMaybeBandwidthCounter
 ;
-#
-endif
 }
 public
 :
