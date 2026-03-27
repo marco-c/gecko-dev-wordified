@@ -7185,7 +7185,10 @@ aElement
 GetBaseURI
 (
 )
-aSanitizationKind
+StyleSanitizationKind
+:
+:
+Standard
 )
 ;
 RemoveAllAttributesFromDescendants
