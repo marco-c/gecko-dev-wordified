@@ -867,18 +867,6 @@ var
 "
 mathml
 .
-math_shift
-.
-enabled
-"
-"
-shf
-"
-}
-{
-"
-mathml
-.
 operator_dictionary_accent
 .
 disabled
@@ -8134,7 +8122,7 @@ const
 int
 kSubmissionSchema
 =
-33
+37
 ;
 const
 auto
