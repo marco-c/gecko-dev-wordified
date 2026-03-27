@@ -280,6 +280,9 @@ fmt
 basic_format_string
 <
 T
+std
+:
+:
 type_identity_t
 <
 Args
