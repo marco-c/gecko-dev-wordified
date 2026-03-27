@@ -471,7 +471,7 @@ if
 (
 sensorData
 .
-featurePolicyNames
+permissionsPolicyNames
 !
 =
 =
@@ -485,7 +485,7 @@ isArray
 (
 sensorData
 .
-featurePolicyNames
+permissionsPolicyNames
 )
 )
 {
@@ -496,7 +496,7 @@ TypeError
 '
 sensorData
 .
-featurePolicyNames
+permissionsPolicyNames
 must
 be
 an

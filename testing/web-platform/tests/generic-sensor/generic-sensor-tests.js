@@ -183,7 +183,7 @@ expectedReadings
 /
 /
 |
-featurePolicies
+permissionsPolicyNames
 |
 represents
 |
@@ -193,8 +193,9 @@ sensorName
 s
 associated
 sensor
-feature
-name
+permissions
+policy
+names
 .
 function
 runGenericSensorTests
@@ -218,7 +219,7 @@ const
 sensorName
 permissionName
 testDriverName
-featurePolicyNames
+permissionsPolicyNames
 }
 =
 sensorData
@@ -1155,7 +1156,7 @@ iframe
 .
 allow
 =
-featurePolicyNames
+permissionsPolicyNames
 .
 join
 (
@@ -1399,7 +1400,7 @@ iframe
 disallowed
 to
 use
-feature
+permissions
 policy
 .
 )
@@ -1427,7 +1428,7 @@ iframe
 .
 allow
 =
-featurePolicyNames
+permissionsPolicyNames
 .
 join
 (
@@ -1654,7 +1655,7 @@ iframe
 allowed
 to
 use
-feature
+permissions
 policy
 .
 )

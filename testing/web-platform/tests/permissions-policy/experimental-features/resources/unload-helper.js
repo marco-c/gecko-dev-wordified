@@ -45,7 +45,7 @@ executeScript
 return
 document
 .
-featurePolicy
+permissionsPolicy
 .
 allowsFeature
 (
