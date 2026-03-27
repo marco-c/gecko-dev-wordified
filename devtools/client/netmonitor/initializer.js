@@ -334,14 +334,6 @@ a
 tab
 .
 *
-Like
-the
-Launchpad
-but
-without
-Launchpad
-.
-*
 *
 For
 example
