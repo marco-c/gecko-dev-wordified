@@ -9873,7 +9873,7 @@ use
 spirv
 :
 :
-GLOp
+GlslStd450Op
 as
 Glo
 ;

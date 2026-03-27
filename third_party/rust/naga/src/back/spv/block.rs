@@ -1751,7 +1751,7 @@ gl450_ext_inst_id
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 FClamp
@@ -9037,7 +9037,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 )
 Custom
 (
@@ -9197,6 +9197,7 @@ Float
 )
 =
 >
+{
 MathOp
 :
 :
@@ -9205,11 +9206,12 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 FAbs
 )
+}
 Some
 (
 crate
@@ -9230,7 +9232,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 SAbs
@@ -9324,7 +9326,7 @@ Float
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 FMin
@@ -9343,7 +9345,7 @@ Sint
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 SMin
@@ -9362,7 +9364,7 @@ Uint
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 UMin
@@ -9415,7 +9417,7 @@ Float
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 FMax
@@ -9434,7 +9436,7 @@ Sint
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 SMax
@@ -9453,7 +9455,7 @@ Uint
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 UMax
@@ -9568,7 +9570,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 FClamp
@@ -9606,14 +9608,14 @@ Sint
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 SMin
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 SMax
@@ -9636,14 +9638,14 @@ Uint
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 UMin
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 UMax
@@ -9968,7 +9970,7 @@ gl450_ext_inst_id
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 FClamp
@@ -10000,7 +10002,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 Sin
@@ -10019,7 +10021,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 Sinh
@@ -10038,7 +10040,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 Asin
@@ -10057,7 +10059,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 Cos
@@ -10076,7 +10078,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 Cosh
@@ -10095,7 +10097,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 Acos
@@ -10114,7 +10116,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 Tan
@@ -10133,7 +10135,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 Tanh
@@ -10152,7 +10154,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 Atan
@@ -10171,7 +10173,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 Atan2
@@ -10190,7 +10192,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 Asinh
@@ -10209,7 +10211,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 Acosh
@@ -10228,7 +10230,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 Atanh
@@ -10247,7 +10249,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 Radians
@@ -10266,7 +10268,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 Degrees
@@ -10288,7 +10290,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 Ceil
@@ -10307,7 +10309,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 RoundEven
@@ -10326,7 +10328,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 Floor
@@ -10345,7 +10347,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 Fract
@@ -10364,7 +10366,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 Trunc
@@ -10383,7 +10385,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 ModfStruct
@@ -10402,7 +10404,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 FrexpStruct
@@ -10421,7 +10423,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 Ldexp
@@ -11150,7 +11152,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 Cross
@@ -11169,7 +11171,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 Distance
@@ -11188,7 +11190,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 Length
@@ -11207,7 +11209,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 Normalize
@@ -11226,7 +11228,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 FaceForward
@@ -11245,7 +11247,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 Reflect
@@ -11264,7 +11266,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 Refract
@@ -11286,7 +11288,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 Exp
@@ -11305,7 +11307,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 Exp2
@@ -11324,7 +11326,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 Log
@@ -11343,7 +11345,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 Log2
@@ -11362,7 +11364,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 Pow
@@ -11399,7 +11401,7 @@ Float
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 FSign
@@ -11418,7 +11420,7 @@ Sint
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 SSign
@@ -11456,7 +11458,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 Fma
@@ -11631,7 +11633,7 @@ gl450_ext_inst_id
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 FMix
@@ -11657,7 +11659,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 FMix
@@ -11678,7 +11680,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 Step
@@ -11697,7 +11699,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 SmoothStep
@@ -11716,7 +11718,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 Sqrt
@@ -11735,7 +11737,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 InverseSqrt
@@ -11754,7 +11756,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 MatrixInverse
@@ -11801,7 +11803,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 Determinant
@@ -12021,7 +12023,7 @@ gl450_ext_inst_id
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 FindILsb
@@ -12052,7 +12054,7 @@ gl450_ext_inst_id
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 UMin
@@ -12309,7 +12311,7 @@ width
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 FindILsb
@@ -12319,7 +12321,7 @@ else
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 FindUMsb
@@ -12696,7 +12698,7 @@ gl450_ext_inst_id
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 UMin
@@ -12788,7 +12790,7 @@ gl450_ext_inst_id
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 UMin
@@ -12939,7 +12941,7 @@ gl450_ext_inst_id
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 UMin
@@ -13031,7 +13033,7 @@ gl450_ext_inst_id
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 UMin
@@ -13085,7 +13087,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 FindILsb
@@ -13131,7 +13133,7 @@ Uint
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 FindUMsb
@@ -13150,7 +13152,7 @@ Sint
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 FindSMsb
@@ -13234,7 +13236,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 PackUnorm4x8
@@ -13253,7 +13255,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 PackSnorm4x8
@@ -13272,7 +13274,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 PackHalf2x16
@@ -13291,7 +13293,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 PackUnorm2x16
@@ -13310,7 +13312,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 PackSnorm2x16
@@ -13451,7 +13453,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 UnpackUnorm4x8
@@ -13470,7 +13472,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 UnpackSnorm4x8
@@ -13489,7 +13491,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 UnpackHalf2x16
@@ -13508,7 +13510,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 UnpackUnorm2x16
@@ -13527,7 +13529,7 @@ Ext
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 UnpackSnorm2x16
@@ -16670,7 +16672,7 @@ gl450_ext_inst_id
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 FClamp
@@ -21794,7 +21796,7 @@ I32
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 SClamp
@@ -21826,7 +21828,7 @@ U32
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 UClamp
@@ -22463,7 +22465,7 @@ I32
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 SClamp
@@ -22495,7 +22497,7 @@ U32
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 UClamp

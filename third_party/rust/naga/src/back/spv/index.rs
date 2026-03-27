@@ -2989,7 +2989,7 @@ gl450_ext_inst_id
 spirv
 :
 :
-GLOp
+GlslStd450Op
 :
 :
 UMin

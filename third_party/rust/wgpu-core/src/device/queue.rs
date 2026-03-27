@@ -2732,6 +2732,12 @@ Tracker
 :
 new
 (
+device
+.
+ordered_buffer_usages
+device
+.
+ordered_texture_usages
 )
 temp_resources
 :

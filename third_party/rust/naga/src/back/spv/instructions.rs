@@ -1009,7 +1009,7 @@ op
 spirv
 :
 :
-GLOp
+GlslStd450Op
 result_type_id
 :
 Word

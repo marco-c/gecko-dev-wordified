@@ -278,7 +278,7 @@ self
 .
 members
 .
-clear
+make_empty
 (
 )
 ;
@@ -321,7 +321,7 @@ self
 .
 members
 .
-clear
+make_empty
 (
 )
 ;
@@ -586,8 +586,9 @@ get_mut
 (
 )
 .
-set_all
+fill
 (
+true
 )
 ;
 }

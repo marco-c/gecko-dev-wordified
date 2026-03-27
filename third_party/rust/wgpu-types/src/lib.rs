@@ -239,6 +239,9 @@ transfers
 mod
 vertex
 ;
+mod
+write_only
+;
 pub
 use
 adapter
@@ -375,6 +378,13 @@ transfers
 pub
 use
 vertex
+:
+:
+*
+;
+pub
+use
+write_only
 :
 :
 *

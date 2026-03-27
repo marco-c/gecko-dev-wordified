@@ -1303,6 +1303,14 @@ utilities
 "
 DefaultConstructible
 "
+/
+/
+Naga
+builtin
+names
+"
+__local_invocation_id
+"
 super
 :
 :

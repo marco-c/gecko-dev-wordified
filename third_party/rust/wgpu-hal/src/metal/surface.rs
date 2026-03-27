@@ -468,7 +468,7 @@ device
 .
 shared
 .
-private_caps
+private_texture_format_caps
 ;
 *
 self

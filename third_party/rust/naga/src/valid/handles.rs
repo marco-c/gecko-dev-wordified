@@ -1277,6 +1277,9 @@ binding
 _
 ty
 init
+memory_decorations
+:
+_
 }
 =
 global_variable
