@@ -287,6 +287,9 @@ Usage
 %
 s
 <
+codec
+>
+<
 width
 >
 <
@@ -688,7 +691,7 @@ if
 argc
 !
 =
-9
+8
 )
 die
 (
@@ -1048,6 +1051,12 @@ cfg
 rc_target_bitrate
 =
 bitrate
+;
+cfg
+.
+g_lag_in_frames
+=
+35
 ;
 writer
 =

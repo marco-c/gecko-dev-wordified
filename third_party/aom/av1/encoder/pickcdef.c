@@ -6677,17 +6677,6 @@ cdef_control
 CDEF_ADAPTIVE
 &
 &
-cpi
--
->
-oxcf
-.
-mode
-=
-=
-ALLINTRA
-&
-&
 (
 cpi
 -

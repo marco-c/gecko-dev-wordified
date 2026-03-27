@@ -560,6 +560,9 @@ int
 start
 int
 end
+const
+bool
+scale_max_boost
 )
 {
 gf_group
@@ -680,6 +683,7 @@ start
 NULL
 NULL
 0
+scale_max_boost
 )
 ;
 +
@@ -982,6 +986,9 @@ int
 f_frames
 int
 b_frames
+const
+bool
+scale_max_boost
 )
 {
 gf_group
@@ -1095,6 +1102,7 @@ b_frames
 NULL
 NULL
 0
+scale_max_boost
 )
 ;
 if
@@ -1537,6 +1545,9 @@ int
 cur_disp_idx
 int
 layer_depth
+const
+bool
+scale_max_boost
 )
 {
 const
@@ -1627,6 +1638,7 @@ cur_disp_idx
 layer_depth
 start
 end
+scale_max_boost
 )
 ;
 +
@@ -1687,6 +1699,7 @@ m
 m
 -
 start
+scale_max_boost
 )
 ;
 /
@@ -1941,6 +1954,7 @@ b_frames
 [
 i
 ]
+scale_max_boost
 )
 ;
 }
@@ -2067,6 +2081,7 @@ cur_disp_idx
 layer_depth
 +
 2
+scale_max_boost
 )
 ;
 if
@@ -2126,6 +2141,7 @@ cur_disp_idx
 layer_depth
 +
 1
+scale_max_boost
 )
 ;
 /
@@ -2177,6 +2193,7 @@ cur_disp_idx
 layer_depth
 +
 1
+scale_max_boost
 )
 ;
 }
@@ -3030,6 +3047,9 @@ int
 layer_depth
 int
 max_parallel_frames
+const
+bool
+scale_max_boost
 )
 {
 assert
@@ -3373,6 +3393,7 @@ cur_disp_index
 layer
 0
 0
+scale_max_boost
 )
 ;
 }
@@ -3503,6 +3524,9 @@ int
 cur_disp_idx
 int
 layer_depth
+const
+bool
+scale_max_boost
 )
 {
 const
@@ -3656,6 +3680,7 @@ start
 NULL
 NULL
 0
+scale_max_boost
 )
 ;
 gf_group
@@ -4021,6 +4046,7 @@ start
 NULL
 NULL
 0
+scale_max_boost
 )
 ;
 +
@@ -4059,6 +4085,7 @@ cur_disp_idx
 layer_depth
 +
 1
+scale_max_boost
 )
 ;
 /
@@ -4220,6 +4247,7 @@ cur_disp_idx
 layer_depth
 +
 1
+scale_max_boost
 )
 ;
 }
@@ -5291,6 +5319,22 @@ first_frame_index
 =
 cur_frame_index
 ;
+const
+bool
+scale_max_boost
+=
+(
+cpi
+-
+>
+oxcf
+.
+mode
+!
+=
+REALTIME
+)
+;
 if
 (
 do_frame_parallel_encode
@@ -5733,6 +5777,7 @@ ppi
 -
 >
 num_fp_contexts
+scale_max_boost
 )
 ;
 /
@@ -5956,6 +6001,7 @@ cur_disp_index
 use_altref
 +
 1
+scale_max_boost
 )
 ;
 }
@@ -6011,6 +6057,7 @@ cur_disp_index
 use_altref
 +
 1
+scale_max_boost
 )
 ;
 if

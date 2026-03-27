@@ -1740,6 +1740,11 @@ override
 }
 ;
 \
+[
+[
+maybe_unused
+]
+]
 static
 bool
 gtest_
@@ -1755,9 +1760,8 @@ TestName
 #
 #
 _registered_
-\
-GTEST_ATTRIBUTE_UNUSED_
 =
+\
 :
 :
 testing
@@ -2261,6 +2265,11 @@ override
 }
 ;
 \
+[
+[
+maybe_unused
+]
+]
 static
 bool
 gtest_
@@ -2270,7 +2279,6 @@ TestName
 #
 #
 _defined_
-GTEST_ATTRIBUTE_UNUSED_
 =
 \
 GTEST_TYPED_TEST_SUITE_P_STATE_
@@ -2372,6 +2380,11 @@ gtest_AllTests_
 \
 }
 \
+[
+[
+maybe_unused
+]
+]
 static
 const
 char
@@ -2382,7 +2395,6 @@ GTEST_REGISTERED_TEST_NAMES_
 \
 SuiteName
 )
-GTEST_ATTRIBUTE_UNUSED_
 =
 \
 GTEST_TYPED_TEST_SUITE_P_STATE_
@@ -2481,6 +2493,11 @@ empty
 )
 ;
 \
+[
+[
+maybe_unused
+]
+]
 static
 bool
 gtest_
@@ -2493,7 +2510,6 @@ _
 #
 #
 SuiteName
-GTEST_ATTRIBUTE_UNUSED_
 =
 \
 :

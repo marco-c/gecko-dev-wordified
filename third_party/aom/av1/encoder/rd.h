@@ -1652,6 +1652,8 @@ int
 qindex
 aom_tune_metric
 tuning
+MODE
+mode
 )
 ;
 int
@@ -1684,6 +1686,9 @@ is_stat_consumption_stage
 const
 aom_tune_metric
 tuning
+const
+MODE
+mode
 )
 ;
 void

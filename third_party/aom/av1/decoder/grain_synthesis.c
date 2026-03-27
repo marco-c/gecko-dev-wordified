@@ -11702,9 +11702,6 @@ fmt
 )
 {
 case
-AOM_IMG_FMT_AOMI420
-:
-case
 AOM_IMG_FMT_I420
 :
 use_high_bit_depth

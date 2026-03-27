@@ -5292,6 +5292,12 @@ oxcf
 tune_cfg
 .
 tuning
+cpi
+-
+>
+oxcf
+.
+mode
 )
 ;
 }
