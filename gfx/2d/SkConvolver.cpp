@@ -3827,11 +3827,12 @@ std
 :
 min
 (
+float
+(
 aSrcSize
 -
 1
-.
-0f
+)
 ceilf
 (
 srcPixel
