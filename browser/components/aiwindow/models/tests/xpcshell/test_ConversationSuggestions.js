@@ -194,7 +194,7 @@ ui
 /
 modules
 /
-ChatConstants
+AIWindowConstants
 .
 sys
 .
