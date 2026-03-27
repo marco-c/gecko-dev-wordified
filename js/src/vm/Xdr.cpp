@@ -145,6 +145,7 @@ mozilla
 :
 :
 NativeEndian
+MOZ_LITTLE_ENDIAN
 #
 include
 "
