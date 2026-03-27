@@ -522,6 +522,11 @@ testLargeArrayBuffers
 cpp
 "
 "
+testLightLock
+.
+cpp
+"
+"
 testLinkedList
 .
 cpp
