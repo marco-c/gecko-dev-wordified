@@ -11197,6 +11197,10 @@ aEntry
 )
 ;
 }
+CheckCacheLimits
+(
+)
+;
 return
 true
 ;
