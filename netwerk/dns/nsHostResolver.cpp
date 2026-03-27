@@ -11438,6 +11438,13 @@ Finish
 (
 )
 ;
+addrRec
+-
+>
+addr_info_gencnt
++
++
+;
 }
 old_addr_info
 =
@@ -11551,6 +11558,13 @@ builder
 Finish
 (
 )
+;
+addrRec
+-
+>
+addr_info_gencnt
++
++
 ;
 }
 PrepareRecordExpirationAddrRecord
