@@ -6313,6 +6313,12 @@ client
 :
 &
 Client
+device_id
+:
+id
+:
+:
+DeviceId
 queue_id
 :
 id
@@ -6328,9 +6334,10 @@ Message
 :
 :
 QueueOnSubmittedWorkDone
-(
+{
+device_id
 queue_id
-)
+}
 ;
 client
 .
