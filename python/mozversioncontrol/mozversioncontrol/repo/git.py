@@ -2224,7 +2224,7 @@ readlines
 )
 :
                     
-pattern
+translated
 =
 self
 .
@@ -2238,7 +2238,7 @@ rstrip
 )
                     
 if
-pattern
+translated
 is
 not
 None
@@ -2248,7 +2248,7 @@ args
 .
 append
 (
-pattern
+translated
 )
         
 return
