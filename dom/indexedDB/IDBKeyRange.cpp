@@ -66,13 +66,6 @@ h
 #
 include
 "
-IDBTransaction
-.
-h
-"
-#
-include
-"
 Key
 .
 h
@@ -171,11 +164,6 @@ aKey
 ErrorResult
 &
 aRv
-IDBTransaction
-*
-aTransaction
-=
-nullptr
 )
 {
 auto
@@ -187,7 +175,6 @@ SetFromJSVal
 (
 aCx
 aVal
-aTransaction
 )
 ;
 if
@@ -346,9 +333,6 @@ aKeyRange
 ErrorResult
 &
 aRv
-IDBTransaction
-*
-aTransaction
 )
 {
 MOZ_ASSERT_IF
@@ -509,7 +493,6 @@ Lower
 (
 )
 aRv
-aTransaction
 )
 ;
 if
