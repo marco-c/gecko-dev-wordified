@@ -3333,6 +3333,7 @@ mFace
 ;
 }
 ;
+virtual
 AutoHBFace
 GetHBFace
 (
