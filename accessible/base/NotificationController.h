@@ -1401,6 +1401,11 @@ IsUpdatePending
 )
 const
 ;
+void
+ProcessRelocations
+(
+)
+;
 protected
 :
 virtual
