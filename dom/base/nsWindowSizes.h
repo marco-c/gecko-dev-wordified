@@ -962,6 +962,10 @@ mDOMEventListenersCount
 (
 0
 )
+mMediaSourceURLsCount
+(
+0
+)
 mState
 (
 aState
@@ -1059,6 +1063,9 @@ mDOMEventTargetsCount
 ;
 uint32_t
 mDOMEventListenersCount
+;
+uint32_t
+mMediaSourceURLsCount
 ;
 nsDOMSizes
 mDOMSizes
