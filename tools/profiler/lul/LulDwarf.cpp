@@ -3851,9 +3851,6 @@ buf
 ;
 string
 s
-=
-"
-"
 ;
 switch
 (

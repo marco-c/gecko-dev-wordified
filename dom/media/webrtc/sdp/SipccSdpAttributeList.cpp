@@ -108,7 +108,7 @@ InternalResults
 static
 *
 /
-MOZ_RUNINIT
+MOZ_GLIBCXX_CONSTINIT
 const
 std
 :
@@ -118,9 +118,6 @@ SipccSdpAttributeList
 :
 :
 kEmptyString
-=
-"
-"
 ;
 SipccSdpAttributeList
 :

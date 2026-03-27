@@ -119,7 +119,7 @@ h
 namespace
 mozilla
 {
-MOZ_RUNINIT
+MOZ_GLIBCXX_CONSTINIT
 const
 std
 :
@@ -129,9 +129,6 @@ RsdparsaSdpAttributeList
 :
 :
 kEmptyString
-=
-"
-"
 ;
 RsdparsaSdpAttributeList
 :
