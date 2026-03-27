@@ -173,6 +173,7 @@ VideoCaptureFactory
 (
 )
 ;
+virtual
 std
 :
 :
@@ -243,6 +244,7 @@ nullptr
 ;
 }
 ;
+virtual
 CreateVideoCaptureResult
 CreateVideoCapture
 (
@@ -414,7 +416,7 @@ Invalidate
 (
 )
 ;
-private
+protected
 :
 ~
 VideoCaptureFactory
@@ -423,6 +425,8 @@ VideoCaptureFactory
 =
 default
 ;
+private
+:
 /
 /
 aka
