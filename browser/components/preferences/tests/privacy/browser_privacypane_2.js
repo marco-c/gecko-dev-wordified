@@ -45,6 +45,12 @@ path
 "
 ;
 }
+Services
+.
+scriptloader
+.
+loadSubScript
+(
 /
 *
 import
@@ -57,12 +63,6 @@ privacypane_tests_perwindow
 js
 *
 /
-Services
-.
-scriptloader
-.
-loadSubScript
-(
 rootDir
 +
 "
