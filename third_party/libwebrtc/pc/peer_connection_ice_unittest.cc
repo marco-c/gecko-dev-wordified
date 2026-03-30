@@ -2065,7 +2065,12 @@ dtls_transport
 pc
 -
 >
-LookupDtlsTransportByMidInternal
+transport_controller_s
+(
+)
+-
+>
+LookupDtlsTransportByMid
 (
 transceiver
 -
