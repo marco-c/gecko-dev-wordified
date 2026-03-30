@@ -1658,6 +1658,7 @@ linear_aec_output
 S2_linear
 Y2
 E2
+dominant_nearend
 R2
 R2_unbounded
 )
