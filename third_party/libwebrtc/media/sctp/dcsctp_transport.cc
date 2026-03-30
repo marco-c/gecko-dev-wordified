@@ -5712,6 +5712,14 @@ MaxSendQueueSize
 (
 )
 ;
+dcsctp_options
+.
+announced_maximum_outgoing_streams
+=
+options
+.
+max_sctp_streams
+;
 /
 /
 This

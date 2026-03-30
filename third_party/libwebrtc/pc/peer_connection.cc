@@ -3242,7 +3242,10 @@ TimeDelta
 pacer_burst_interval
 ;
 bool
-always_negotiate_datachannel
+always_negotiate_data_channels
+;
+int
+max_sctp_streams
 ;
 }
 ;
@@ -3682,6 +3685,14 @@ always_negotiate_data_channels
 o
 .
 always_negotiate_data_channels
+&
+&
+max_sctp_streams
+=
+=
+o
+.
+max_sctp_streams
 ;
 }
 bool

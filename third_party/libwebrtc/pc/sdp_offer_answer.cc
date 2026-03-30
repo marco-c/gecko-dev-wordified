@@ -11174,6 +11174,12 @@ codec_lookup_helper_
 =
 codec_lookup_helper
 ;
+max_sctp_streams_
+=
+configuration
+.
+max_sctp_streams
+;
 }
 /
 /
@@ -39084,6 +39090,10 @@ port
 max_message_size
 =
 max_message_size
+.
+max_sctp_streams
+=
+max_sctp_streams_
 .
 local_init
 =
