@@ -244,6 +244,9 @@ Arena
 class
 ArenaCellSet
 ;
+class
+GCRuntime
+;
 /
 *
 *
@@ -2870,9 +2873,9 @@ bufferWholeCell
 GenericBuffer
 bufferGeneric
 ;
-JSRuntime
+GCRuntime
 *
-runtime_
+gc_
 ;
 Nursery
 &
@@ -2913,9 +2916,9 @@ public
 explicit
 StoreBuffer
 (
-JSRuntime
+GCRuntime
 *
-rt
+gc
 )
 ;
 StoreBuffer

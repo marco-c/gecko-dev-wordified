@@ -10581,9 +10581,7 @@ it
 StoreBuffer
 sb
 (
-runtime
-(
-)
+gc
 )
 ;
 {
