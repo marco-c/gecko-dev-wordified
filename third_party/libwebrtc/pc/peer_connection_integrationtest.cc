@@ -3432,7 +3432,7 @@ height
 ;
 config
 .
-timestamp_offset_ms
+timestamp_offset
 =
 env_
 .
@@ -3440,7 +3440,7 @@ clock
 (
 )
 .
-TimeInMilliseconds
+CurrentTime
 (
 )
 ;
