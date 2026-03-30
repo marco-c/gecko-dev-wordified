@@ -2853,14 +2853,14 @@ DataRate
 :
 KilobitsPerSec
 (
-1500
+1200
 )
 DataRate
 :
 :
 KilobitsPerSec
 (
-2200
+2300
 )
 )
 )
