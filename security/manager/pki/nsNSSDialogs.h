@@ -85,13 +85,6 @@ nsIStringBundle
 h
 "
 #
-include
-"
-nsITokenPasswordDialogs
-.
-h
-"
-#
 define
 NS_NSSDIALOGS_CID
 \
@@ -115,13 +108,10 @@ nsNSSDialogs
 :
 public
 nsICertificateDialogs
-public
-nsITokenPasswordDialogs
 {
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
-NS_DECL_NSITOKENPASSWORDDIALOGS
 NS_DECL_NSICERTIFICATEDIALOGS
 nsNSSDialogs
 (
