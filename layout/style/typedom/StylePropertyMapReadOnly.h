@@ -151,6 +151,9 @@ RefPtr
 namespace
 mozilla
 {
+struct
+CSSPropertyId
+;
 class
 ErrorResult
 ;
@@ -481,9 +484,9 @@ StylePropertyTypedValue
 Get
 (
 const
-nsACString
+CSSPropertyId
 &
-aProperty
+aPropertyId
 ErrorResult
 &
 aRv
