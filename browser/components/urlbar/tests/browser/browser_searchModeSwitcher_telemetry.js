@@ -760,6 +760,7 @@ querySelector
 menuitem
 [
 label
+*
 =
 {
 label
@@ -785,6 +786,7 @@ querySelector
 menuitem
 [
 label
+*
 =
 {
 label
