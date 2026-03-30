@@ -2498,9 +2498,6 @@ filter
 return
 ToNSResult
 (
-libyuv
-:
-:
 YUVToARGBScale
 (
 y_buf
