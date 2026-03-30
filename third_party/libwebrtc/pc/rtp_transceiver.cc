@@ -6311,12 +6311,10 @@ API
 bool
 IsMandatoryHeaderExtension
 (
-const
-std
+absl
 :
 :
-string
-&
+string_view
 uri
 )
 {
