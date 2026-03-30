@@ -1478,7 +1478,7 @@ SetChannel
 )
 again
 .
-void
+RTCError
 SetChannel
 (
 std
