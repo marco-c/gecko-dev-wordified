@@ -382,12 +382,7 @@ c
 '
 #
 ]
-COMPILE_FLAGS
-[
-"
-WARNINGS_CFLAGS
-"
-]
+CFLAGS
 +
 =
 [
