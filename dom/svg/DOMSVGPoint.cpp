@@ -1198,7 +1198,7 @@ mOwner
 )
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 pointList
 -
