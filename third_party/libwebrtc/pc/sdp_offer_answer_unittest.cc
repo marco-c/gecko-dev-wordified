@@ -12568,7 +12568,10 @@ size
 1u
 )
 ;
-auto
+std
+:
+:
+string
 mid
 =
 initial_offer
