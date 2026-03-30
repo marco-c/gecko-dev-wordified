@@ -746,22 +746,6 @@ LICENSE
 ]
     
 '
-sigslot
-'
-:
-[
-'
-rtc_base
-/
-third_party
-/
-sigslot
-/
-LICENSE
-'
-]
-    
-'
 portaudio
 '
 :
