@@ -9067,7 +9067,11 @@ IsCurrentlyAnimating
 runtime
 -
 >
+gc
+.
 lastAnimationTime
+(
+)
 slice
 .
 end

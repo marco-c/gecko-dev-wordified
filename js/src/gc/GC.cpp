@@ -12430,10 +12430,9 @@ isIncremental
 !
 IsCurrentlyAnimating
 (
-rt
--
->
 lastAnimationTime
+(
+)
 TimeStamp
 :
 :
