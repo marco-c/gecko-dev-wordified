@@ -98,11 +98,6 @@ h
 #
 include
 <
-cstddef
->
-#
-include
-<
 cstdint
 >
 #
@@ -230,7 +225,7 @@ n
 /
 /
 Reading
-30
+40
 bytes
 from
 the
@@ -264,12 +259,11 @@ HEIGTH
 >
 /
 /
-Fn
+F
 <
 NUMERATOR
 >
 :
-Fd
 <
 DENOMINATOR
 >
@@ -278,7 +272,7 @@ constexpr
 int
 kHeaderBytesToRead
 =
-30
+40
 ;
 }
 /
@@ -741,10 +735,10 @@ H
 u
 F
 %
-i
+u
 :
 %
-i
+u
 "
 &
 width
