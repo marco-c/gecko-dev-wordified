@@ -309,6 +309,10 @@ relsrcdir
 "
         
 "
+relobjdir
+"
+        
+"
 srcdir
 "
         
@@ -422,6 +426,22 @@ objdir
         
 self
 .
+relobjdir
+=
+mozpath
+.
+relpath
+(
+self
+.
+objdir
+self
+.
+topobjdir
+)
+        
+self
+.
 config
 =
 context
@@ -507,28 +527,6 @@ if
 defines
 else
 None
-    
-property
-    
-def
-relobjdir
-(
-self
-)
-:
-        
-return
-mozpath
-.
-relpath
-(
-self
-.
-objdir
-self
-.
-topobjdir
-)
 class
 HostMixin
 :
@@ -8314,6 +8312,22 @@ AndroidManifest
 *
 .
 xml
+"
+)
+                
+or
+mozpath
+.
+match
+(
+f
+"
+*
+*
+/
+webcompat_addon_run
+.
+js
 "
 )
             
