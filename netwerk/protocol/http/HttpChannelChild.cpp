@@ -117,6 +117,15 @@ include
 "
 mozilla
 /
+ScriptPreloaderNotification
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 ContentChild
@@ -13131,6 +13140,10 @@ BrowserId
 ;
 }
 }
+AssertScriptPreloaderCacheHasBeenSent
+(
+)
+;
 HttpChannelConnectArgs
 connectArgs
 (
@@ -17461,6 +17474,10 @@ event
 target
 .
 SetEventTarget
+(
+)
+;
+AssertScriptPreloaderCacheHasBeenSent
 (
 )
 ;
