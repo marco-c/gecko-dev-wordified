@@ -321,6 +321,11 @@ true
 }
 private
 :
+void
+UpdateScreamTargetBitrateConstraints
+(
+)
+;
 NetworkControlUpdate
 CreateFirstUpdate
 (
@@ -387,6 +392,15 @@ scream_
 ;
 TargetRateConstraints
 target_rate_constraints_
+;
+std
+:
+:
+optional
+<
+DataRate
+>
+remote_bitrate_report_
 ;
 StreamsConfig
 streams_config_
