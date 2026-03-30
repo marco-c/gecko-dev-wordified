@@ -1448,7 +1448,7 @@ MOZBUILD_CFLAGS
 [
 "
 -
-Wall
+Os
 "
 "
 -
@@ -1480,7 +1480,7 @@ loops
 "
 "
 -
-Wall
+Os
 "
 ]
 )
