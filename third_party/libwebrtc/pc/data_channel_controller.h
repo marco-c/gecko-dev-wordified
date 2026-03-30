@@ -455,6 +455,12 @@ Implements
 DataChannelSink
 .
 void
+OnTransportConnected
+(
+)
+override
+;
+void
 OnDataReceived
 (
 int
