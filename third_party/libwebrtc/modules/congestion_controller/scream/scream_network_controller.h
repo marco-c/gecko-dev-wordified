@@ -333,8 +333,6 @@ CreateUpdate
 (
 Timestamp
 now
-DataRate
-target_rate
 )
 ;
 std
@@ -346,8 +344,6 @@ PacerConfig
 >
 MaybeCreatePacerConfig
 (
-DataRate
-target_rate
 )
 ;
 Environment
