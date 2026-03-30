@@ -4957,13 +4957,7 @@ is
 passed
 to
 senders_
-std
-:
-:
-unique_ptr
-<
 RTCStatsCollector
->
 stats_collector_
 RTC_GUARDED_BY
 (
