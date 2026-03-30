@@ -106,11 +106,11 @@ h
 #
 include
 "
-system_wrappers
+api
 /
-include
+environment
 /
-field_trial
+deprecated_global_field_trials
 .
 h
 "
@@ -410,10 +410,10 @@ return
 webrtc
 :
 :
-field_trial
+DeprecatedGlobalFieldTrials
 :
 :
-InitFieldTrialsFromString
+Set
 (
 gFieldTrialInitString
 )
