@@ -708,6 +708,9 @@ case
 eCSSProperty_perspective
 :
 case
+eCSSProperty_transition_duration
+:
+case
 eCSSProperty_column_gap
 :
 case
