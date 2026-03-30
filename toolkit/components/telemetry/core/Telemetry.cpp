@@ -1203,7 +1203,7 @@ nsFetchTelemetryData
 ;
 }
 ;
-MOZ_RELEASE_CONSTINIT
+constinit
 StaticDataMutex
 <
 TelemetryImpl

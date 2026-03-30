@@ -1794,7 +1794,7 @@ implementation
 static
 *
 /
-MOZ_RELEASE_CONSTINIT
+constinit
 IOUtils
 :
 :

@@ -2152,7 +2152,7 @@ FFmpegLibWrapper
 *
 mLib
 ;
-MOZ_RELEASE_CONSTINIT
+constinit
 static
 inline
 StaticDataMutex

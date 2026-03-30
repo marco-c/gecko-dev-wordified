@@ -522,7 +522,7 @@ DataMutex
 /
 wrapper
 .
-MOZ_RELEASE_CONSTINIT
+constinit
 static
 StaticDataMutex
 <
