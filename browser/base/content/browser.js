@@ -8951,6 +8951,9 @@ readFromClipboard
 {
 var
 url
+=
+"
+"
 ;
 try
 {
