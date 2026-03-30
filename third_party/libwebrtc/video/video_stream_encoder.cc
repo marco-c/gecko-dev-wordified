@@ -6615,8 +6615,9 @@ height
 }
 }
 }
-if
-(
+bool
+scale_down_to_changed
+=
 scale_resolution_down_to
 !
 =
@@ -6625,6 +6626,10 @@ video_source_sink_controller_
 scale_resolution_down_to
 (
 )
+;
+if
+(
+scale_down_to_changed
 |
 |
 active
@@ -6699,6 +6704,12 @@ active
 video_source_sink_controller_
 .
 PushSourceSinkSettings
+(
+)
+;
+video_source_sink_controller_
+.
+RequestRefreshFrame
 (
 )
 ;
