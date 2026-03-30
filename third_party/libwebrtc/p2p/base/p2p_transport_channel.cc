@@ -14705,6 +14705,14 @@ changed
 "
 )
 ;
+ice_controller_
+-
+>
+OnConnectionUpdated
+(
+connection
+)
+;
 }
 /
 /

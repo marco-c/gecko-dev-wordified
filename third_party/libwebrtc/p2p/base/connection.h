@@ -2924,6 +2924,12 @@ connection
 )
 ;
 }
+bool
+set_writable_for_fake_ice_lite
+(
+)
+const
+;
 protected
 :
 /
