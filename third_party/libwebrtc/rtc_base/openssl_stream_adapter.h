@@ -807,6 +807,14 @@ timeout_ms
 override
 ;
 void
+UpdateRetransmissionTimeout
+(
+int
+timeout_ms
+)
+override
+;
+void
 SetMTU
 (
 int
