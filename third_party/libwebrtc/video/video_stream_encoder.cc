@@ -10047,9 +10047,15 @@ FrameInstrumentationGeneratorFactory
 :
 Create
 (
+env_
 encoder_config_
 .
 codec_type
+send_codec_
+.
+GetScalabilityMode
+(
+)
 )
 ;
 }
