@@ -757,7 +757,7 @@ name
 }
 }
 void
-JSRuntime
+GCRuntime
 :
 :
 tracePersistentRoots
@@ -784,9 +784,7 @@ type
 >
 (
 trc
-heapRoots
-.
-ref
+persistentRoots
 (
 )
 [
@@ -820,9 +818,7 @@ jsid
 >
 (
 trc
-heapRoots
-.
-ref
+persistentRoots
 (
 )
 [
@@ -847,9 +843,7 @@ Value
 >
 (
 trc
-heapRoots
-.
-ref
+persistentRoots
 (
 )
 [
@@ -884,9 +878,7 @@ nogc
 TracePersistentRootedTraceableList
 (
 trc
-heapRoots
-.
-ref
+persistentRoots
 (
 )
 [
@@ -921,6 +913,8 @@ trc
 rt
 -
 >
+gc
+.
 tracePersistentRoots
 (
 trc
@@ -978,7 +972,7 @@ reset
 }
 }
 void
-JSRuntime
+GCRuntime
 :
 :
 finishPersistentRoots
@@ -1001,9 +995,7 @@ type
 *
 >
 (
-heapRoots
-.
-ref
+persistentRoots
 (
 )
 [
@@ -1029,9 +1021,7 @@ FinishPersistentRootedChain
 jsid
 >
 (
-heapRoots
-.
-ref
+persistentRoots
 (
 )
 [
@@ -1050,9 +1040,7 @@ FinishPersistentRootedChain
 Value
 >
 (
-heapRoots
-.
-ref
+persistentRoots
 (
 )
 [
@@ -3053,9 +3041,6 @@ clear
 (
 )
 ;
-rt
--
->
 finishPersistentRoots
 (
 )
@@ -3257,9 +3242,9 @@ runtime
 rt
 -
 >
-heapRoots
+gc
 .
-ref
+persistentRoots
 (
 )
 [
@@ -3292,9 +3277,9 @@ root
 rt
 -
 >
-heapRoots
+gc
 .
-ref
+persistentRoots
 (
 )
 [
