@@ -1236,6 +1236,10 @@ Draw
 void
 PrintPythonCode
 (
+bool
+show_grid
+=
+false
 absl
 :
 :
@@ -1427,6 +1431,8 @@ PrintPythonCode
 (
 bool
 shared_xaxis
+bool
+show_grid_on_all_plots
 absl
 :
 :
