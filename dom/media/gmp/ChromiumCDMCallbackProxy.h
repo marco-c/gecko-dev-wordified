@@ -88,7 +88,6 @@ mozilla
 {
 class
 ChromiumCDMCallbackProxy
-final
 :
 public
 ChromiumCDMCallback
@@ -142,10 +141,7 @@ ResolvePromiseWithKeyStatus
 (
 uint32_t
 aPromiseId
-cdm
-:
-:
-KeyStatus
+uint32_t
 aKeyStatus
 )
 override
@@ -181,10 +177,7 @@ const
 nsACString
 &
 aSessionId
-cdm
-:
-:
-MessageType
+uint32_t
 aMessageType
 nsTArray
 <
