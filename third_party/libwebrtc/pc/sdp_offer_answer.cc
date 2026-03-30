@@ -41974,6 +41974,13 @@ internal
 >
 GetDeleteChannelWorkerTask
 (
+/
+*
+stop_senders
+=
+*
+/
+true
 )
 )
 worker_tasks
@@ -42062,6 +42069,13 @@ internal
 >
 GetDeleteChannelWorkerTask
 (
+/
+*
+stop_senders
+=
+*
+/
+true
 )
 )
 worker_tasks

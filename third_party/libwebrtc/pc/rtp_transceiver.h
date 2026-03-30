@@ -1640,6 +1640,8 @@ void
 >
 GetDeleteChannelWorkerTask
 (
+bool
+stop_senders
 )
 ;
 /
