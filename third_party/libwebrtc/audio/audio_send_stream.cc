@@ -4126,12 +4126,6 @@ payload_type
 spec
 .
 payload_type
-.
-codec_pair_id
-=
-new_config
-.
-codec_pair_id
 }
 )
 ;
