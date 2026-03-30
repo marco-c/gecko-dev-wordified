@@ -5336,6 +5336,15 @@ Rect
 )
 )
 ;
+Maybe
+<
+Rect
+>
+ComputeSimpleClipRect
+(
+)
+const
+;
 bool
 SetSimpleClipRect
 (
@@ -5370,6 +5379,11 @@ aViewportSize
 IntSize
 (
 )
+)
+;
+bool
+ShouldClip
+(
 )
 ;
 void
