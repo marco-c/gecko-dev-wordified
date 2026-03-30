@@ -16458,6 +16458,8 @@ sourceX
 =
 x
 +
+int32_t
+(
 scaleOver255
 *
 mapData
@@ -16468,12 +16470,15 @@ xChannel
 ]
 +
 scaleAdjustment
+)
 ;
 int32_t
 sourceY
 =
 y
 +
+int32_t
+(
 scaleOver255
 *
 mapData
@@ -16484,6 +16489,7 @@ yChannel
 ]
 +
 scaleAdjustment
+)
 ;
 *
 (
