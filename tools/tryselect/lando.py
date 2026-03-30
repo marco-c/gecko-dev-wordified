@@ -2252,6 +2252,10 @@ api_url
 :
 str
     
+instance_id
+:
+str
+    
 verify_tls
 :
 bool
@@ -2625,6 +2629,21 @@ token
 access_token
 "
 ]
+            
+instance_id
+=
+parser
+.
+get
+(
+section
+"
+instance_id
+"
+fallback
+=
+section
+)
             
 verify_tls
 =
@@ -3524,7 +3543,9 @@ return
 lando_instance
 "
 :
-lando_config_section
+lando_api
+.
+instance_id
         
 "
 lando_job_id
