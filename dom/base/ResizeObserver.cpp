@@ -516,11 +516,7 @@ not
 NS_ASSERTION
 (
 !
-aFrame
-.
-PresContext
-(
-)
+f
 -
 >
 UseOverlayScrollbars
