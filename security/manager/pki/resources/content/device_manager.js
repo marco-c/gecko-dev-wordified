@@ -2466,6 +2466,14 @@ topChromeWindow
 openDialog
 (
 "
+chrome
+:
+/
+/
+pippki
+/
+content
+/
 changepassword
 .
 xhtml
