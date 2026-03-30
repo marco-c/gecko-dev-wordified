@@ -25097,11 +25097,18 @@ Failed
 )
 )
 {
+bool
+needsRollBack
+=
+false
+;
 if
 (
 wasRegistered
 )
 {
+needsRollBack
+=
 newDoc
 -
 >
@@ -25187,7 +25194,7 @@ newDoc
 ;
 if
 (
-wasRegistered
+needsRollBack
 )
 {
 oldDoc
