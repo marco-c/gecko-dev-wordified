@@ -4482,6 +4482,9 @@ has_value
 ;
 EXPECT_DEATH
 (
+(
+void
+)
 *
 stats
 .
