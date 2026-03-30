@@ -789,14 +789,6 @@ string
 )
 )
 ;
-MOCK_METHOD0
-(
-SetTransceiverAsStopped
-void
-(
-)
-)
-;
 MOCK_METHOD
 (
 void

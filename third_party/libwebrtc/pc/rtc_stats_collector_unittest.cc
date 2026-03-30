@@ -2670,15 +2670,6 @@ local_stream_ids
 )
 )
 ;
-EXPECT_CALL
-(
-*
-sender
-SetTransceiverAsStopped
-(
-)
-)
-;
 return
 sender
 ;
