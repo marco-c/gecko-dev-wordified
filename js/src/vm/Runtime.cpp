@@ -4899,6 +4899,8 @@ cachep
 rt
 -
 >
+gc
+.
 registerWeakCache
 (
 cachep
