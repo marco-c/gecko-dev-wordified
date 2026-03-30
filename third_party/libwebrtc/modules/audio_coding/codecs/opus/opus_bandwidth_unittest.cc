@@ -708,6 +708,11 @@ kBufferSize
 ;
 Buffer
 encoded
+=
+Buffer
+:
+:
+CreateWithCapacity
 (
 kBufferSize
 )

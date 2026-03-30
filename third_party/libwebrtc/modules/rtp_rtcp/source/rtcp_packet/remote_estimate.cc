@@ -612,6 +612,11 @@ size
 ;
 Buffer
 buf
+=
+Buffer
+:
+:
+CreateUninitializedWithSize
 (
 max_size
 )

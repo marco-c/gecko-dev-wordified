@@ -7153,6 +7153,11 @@ GetRtpAuthLen
 ;
 Buffer
 rtp_packet_buffer
+=
+Buffer
+:
+:
+CreateUninitializedWithSize
 (
 packet_size
 )

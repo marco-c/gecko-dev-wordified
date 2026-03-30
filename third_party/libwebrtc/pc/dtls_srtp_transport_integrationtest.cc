@@ -1086,6 +1086,14 @@ ZeroOnFreeBuffer
 uint8_t
 >
 dtls_buffer
+=
+ZeroOnFreeBuffer
+<
+uint8_t
+>
+:
+:
+CreateUninitializedWithSize
 (
 key_len
 *
@@ -1213,6 +1221,11 @@ kRtpAuthTagLen
 ;
 Buffer
 rtp_packet_buffer
+=
+Buffer
+:
+:
+CreateUninitializedWithSize
 (
 packet_size
 )

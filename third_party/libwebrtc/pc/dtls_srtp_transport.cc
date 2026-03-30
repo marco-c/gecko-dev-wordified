@@ -1526,11 +1526,16 @@ DTLS
 RFC
 5764
 )
+auto
+dtls_buffer
+=
 ZeroOnFreeBuffer
 <
 uint8_t
 >
-dtls_buffer
+:
+:
+CreateUninitializedWithSize
 (
 key_len
 *

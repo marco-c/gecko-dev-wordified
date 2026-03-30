@@ -1602,6 +1602,11 @@ format
 .
 Buffer
 real_buf
+=
+Buffer
+:
+:
+CreateUninitializedWithSize
 (
 packet
 .

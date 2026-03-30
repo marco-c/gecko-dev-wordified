@@ -5987,6 +5987,11 @@ info
 ;
 Buffer
 encoded
+=
+Buffer
+:
+:
+CreateWithCapacity
 (
 500
 )
