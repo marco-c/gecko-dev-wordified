@@ -2374,7 +2374,7 @@ outputCapturePin
 GetOutputPin
 (
 captureDevice
-GUID_NULL
+PIN_CATEGORY_CAPTURE
 )
 ;
 if

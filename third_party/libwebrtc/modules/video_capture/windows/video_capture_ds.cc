@@ -1963,7 +1963,7 @@ _outputDvPin
 GetOutputPin
 (
 _dvFilter
-GUID_NULL
+PIN_CATEGORY_CAPTURE
 )
 ;
 if
