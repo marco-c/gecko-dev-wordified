@@ -232,6 +232,15 @@ include
 "
 api
 /
+rtp_transport_factory
+.
+h
+"
+#
+include
+"
+api
+/
 scoped_refptr
 .
 h
@@ -851,6 +860,8 @@ the
 ICE
 /
 DTLS
+/
+SRTP
 transports
 created
 externally
@@ -864,6 +875,12 @@ nullptr
 DtlsTransportFactory
 *
 dtls_transport_factory
+=
+nullptr
+;
+RtpTransportFactory
+*
+rtp_transport_factory
 =
 nullptr
 ;
