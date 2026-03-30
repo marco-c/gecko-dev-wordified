@@ -1636,6 +1636,11 @@ template
 typename
 F
 >
+[
+[
+deprecated
+]
+]
 void
 AddReceiver
 (

@@ -875,6 +875,7 @@ caller
 >
 SubscribeOnIceCandidateReady
 (
+callee
 [
 callee
 ]
@@ -915,6 +916,7 @@ callee
 >
 SubscribeOnIceCandidateReady
 (
+caller
 [
 caller
 ]
@@ -955,6 +957,7 @@ caller
 >
 SubscribeOnSdpReady
 (
+callee
 [
 callee
 ]
@@ -984,6 +987,7 @@ callee
 >
 SubscribeOnSdpReady
 (
+caller
 [
 caller
 ]
@@ -2195,6 +2199,7 @@ remote_wrapper_
 >
 SubscribeOnIceCandidateReady
 (
+this
 [
 this
 ]

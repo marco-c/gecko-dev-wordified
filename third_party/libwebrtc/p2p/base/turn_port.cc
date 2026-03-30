@@ -1894,6 +1894,14 @@ this
 socket_
 -
 >
+UnsubscribeReadyToSend
+(
+this
+)
+;
+socket_
+-
+>
 UnsubscribeConnect
 (
 this
@@ -3229,6 +3237,7 @@ socket_
 >
 SubscribeConnect
 (
+this
 [
 this
 ]

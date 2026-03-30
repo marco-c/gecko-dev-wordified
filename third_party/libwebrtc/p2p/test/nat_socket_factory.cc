@@ -1985,6 +1985,7 @@ socket_
 >
 SubscribeConnectEvent
 (
+this
 [
 this
 ]

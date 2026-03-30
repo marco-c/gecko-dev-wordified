@@ -2849,6 +2849,7 @@ internal
 >
 SubscribeCandidateGathered
 (
+this
 [
 this
 ]
@@ -2945,6 +2946,7 @@ internal
 >
 SubscribeRoleConflict
 (
+this
 [
 this
 ]
@@ -2972,6 +2974,7 @@ internal
 >
 SubscribeIceTransportStateChanged
 (
+this
 [
 this
 ]
@@ -3254,6 +3257,7 @@ dtls
 >
 SubscribeReceivingState
 (
+this
 [
 this
 ]
@@ -3281,6 +3285,7 @@ dtls
 >
 SubscribeDtlsHandshakeError
 (
+this
 [
 this
 ]

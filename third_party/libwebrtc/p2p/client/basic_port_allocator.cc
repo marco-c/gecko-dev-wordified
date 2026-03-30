@@ -1763,6 +1763,7 @@ network_manager
 >
 SubscribeNetworksChanged
 (
+this
 SafeInvocable
 (
 network_safety_
@@ -1832,6 +1833,19 @@ network_manager
 >
 StopUpdating
 (
+)
+;
+allocator_
+-
+>
+network_manager
+(
+)
+-
+>
+UnsubscribeNetworksChanged
+(
+this
 )
 ;
 for
@@ -6401,6 +6415,7 @@ port
 >
 SubscribeCandidateReadyCallback
 (
+this
 [
 this
 ]
@@ -6428,6 +6443,7 @@ port
 >
 SubscribeCandidateError
 (
+this
 [
 this
 ]
@@ -6455,6 +6471,7 @@ port
 >
 SubscribePortComplete
 (
+this
 [
 this
 ]
@@ -6477,6 +6494,7 @@ port
 >
 SubscribePortDestroyed
 (
+this
 [
 this
 ]
@@ -6499,6 +6517,7 @@ port
 >
 SubscribePortError
 (
+this
 [
 this
 ]
@@ -10600,6 +10619,7 @@ port
 >
 SubscribePortDestroyed
 (
+this
 [
 this
 ]
@@ -11932,6 +11952,7 @@ port
 >
 SubscribePortDestroyed
 (
+this
 [
 this
 ]

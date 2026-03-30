@@ -2816,6 +2816,7 @@ manager
 .
 SubscribeNetworksChanged
 (
+this
 [
 this
 ]
@@ -4197,6 +4198,7 @@ manager
 .
 SubscribeNetworksChanged
 (
+this
 [
 this
 ]
@@ -4393,6 +4395,7 @@ manager
 .
 SubscribeNetworksChanged
 (
+this
 [
 this
 ]
@@ -4679,6 +4682,7 @@ manager
 .
 SubscribeNetworksChanged
 (
+this
 [
 this
 ]
@@ -5054,6 +5058,7 @@ manager
 .
 SubscribeNetworksChanged
 (
+this
 [
 this
 ]
@@ -5531,6 +5536,7 @@ manager
 .
 SubscribeNetworksChanged
 (
+this
 [
 this
 ]
@@ -10012,6 +10018,7 @@ manager
 .
 SubscribeNetworksChanged
 (
+this
 [
 this
 ]
@@ -10253,6 +10260,7 @@ manager
 .
 SubscribeNetworksChanged
 (
+this
 [
 this
 ]

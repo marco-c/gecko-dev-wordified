@@ -1212,6 +1212,11 @@ socket
 )
 ;
 }
+[
+[
+deprecated
+]
+]
 void
 SubscribeConnect
 (

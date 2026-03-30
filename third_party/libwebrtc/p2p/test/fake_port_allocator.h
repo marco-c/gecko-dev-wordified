@@ -793,6 +793,7 @@ port_
 >
 SubscribePortDestroyed
 (
+this
 [
 this
 ]
@@ -1085,6 +1086,7 @@ port
 >
 SubscribePortComplete
 (
+this
 [
 this
 ]
