@@ -564,6 +564,8 @@ type
 PortalNotifier
 *
 notifier
+bool
+prefer_cursor_embedded
 )
 ;
 ScreenCastPortal
