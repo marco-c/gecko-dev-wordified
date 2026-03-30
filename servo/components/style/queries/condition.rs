@@ -3689,13 +3689,13 @@ ctx
 )
 ;
 v
+.
+as_ref
+(
+)
 =
 =
 current_value
-.
-cloned
-(
-)
 }
 else
 {
@@ -3743,9 +3743,6 @@ inherited_style
 (
 )
 {
-current_value
-=
-=
 inherited
 .
 custom_properties
@@ -3760,6 +3757,9 @@ self
 .
 name
 )
+=
+=
+current_value
 }
 else
 {
