@@ -486,7 +486,7 @@ mInputPort
 ;
 RefPtr
 <
-AudioStreamTrack
+MediaStreamTrack
 >
 mInputTrack
 ;
