@@ -824,6 +824,7 @@ context
 codec_lookup_helper
 (
 )
+nullptr
 )
 ;
 transceiver
@@ -1184,6 +1185,7 @@ context
 codec_lookup_helper
 (
 )
+nullptr
 )
 ;
 transceiver
