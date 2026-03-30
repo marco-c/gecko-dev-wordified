@@ -1,40 +1,5 @@
 /
 *
--
-*
--
-Mode
-:
-IDL
-;
-tab
--
-width
-:
-4
-;
-indent
--
-tabs
--
-mode
-:
-nil
-;
-c
--
-basic
--
-offset
-:
-4
--
-*
--
-*
-/
-/
-*
 This
 Source
 Code
@@ -211,6 +176,7 @@ typedef
 (
 [
 AllowShared
+AllowLarge
 ]
 Uint32Array
 or
@@ -1902,6 +1868,7 @@ GLenum
 target
 [
 AllowShared
+AllowLarge
 ]
 ArrayBuffer
 ?
@@ -1917,6 +1884,7 @@ GLenum
 target
 [
 AllowShared
+AllowLarge
 ]
 ArrayBufferView
 srcData
@@ -1946,6 +1914,7 @@ GLenum
 target
 [
 AllowShared
+AllowLarge
 ]
 ArrayBufferView
 srcData
@@ -1969,6 +1938,7 @@ GLintptr
 dstByteOffset
 [
 AllowShared
+AllowLarge
 ]
 ArrayBufferView
 srcData
@@ -2045,6 +2015,7 @@ GLintptr
 srcByteOffset
 [
 AllowShared
+AllowLarge
 ]
 ArrayBufferView
 dstData
@@ -2261,6 +2232,7 @@ GLenum
 type
 [
 AllowShared
+AllowLarge
 ]
 ArrayBufferView
 ?
@@ -2476,6 +2448,7 @@ GLenum
 type
 [
 AllowShared
+AllowLarge
 ]
 ArrayBufferView
 ?
@@ -2963,6 +2936,7 @@ GLenum
 type
 [
 AllowShared
+AllowLarge
 ]
 ArrayBufferView
 srcData
@@ -3271,6 +3245,7 @@ GLenum
 type
 [
 AllowShared
+AllowLarge
 ]
 ArrayBufferView
 ?
@@ -3309,6 +3284,7 @@ GLenum
 type
 [
 AllowShared
+AllowLarge
 ]
 ArrayBufferView
 srcData
@@ -3599,6 +3575,7 @@ GLenum
 type
 [
 AllowShared
+AllowLarge
 ]
 ArrayBufferView
 srcData
@@ -3925,6 +3902,7 @@ GLenum
 type
 [
 AllowShared
+AllowLarge
 ]
 ArrayBufferView
 ?
@@ -3997,6 +3975,7 @@ GLint
 border
 [
 AllowShared
+AllowLarge
 ]
 ArrayBufferView
 srcData
@@ -4054,6 +4033,7 @@ GLint
 border
 [
 AllowShared
+AllowLarge
 ]
 ArrayBufferView
 srcData
@@ -4111,6 +4091,7 @@ GLenum
 format
 [
 AllowShared
+AllowLarge
 ]
 ArrayBufferView
 srcData
@@ -4176,6 +4157,7 @@ GLenum
 format
 [
 AllowShared
+AllowLarge
 ]
 ArrayBufferView
 srcData
@@ -4881,6 +4863,7 @@ GLenum
 type
 [
 AllowShared
+AllowLarge
 ]
 ArrayBufferView
 ?
@@ -4959,6 +4942,7 @@ GLenum
 type
 [
 AllowShared
+AllowLarge
 ]
 ArrayBufferView
 dstData
