@@ -1941,15 +1941,6 @@ return
 false
 ;
 }
-void
-OnTransportChanging
-(
-bool
-change_done
-)
-override
-{
-}
 const
 PeerConnectionInterface
 :
