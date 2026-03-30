@@ -685,6 +685,8 @@ PeerScenario
 :
 ConnectSignaling
 (
+bool
+send_sdp_via_network
 PeerScenarioClient
 *
 caller
@@ -714,6 +716,7 @@ ret_link
 return
 SignalingRoute
 (
+send_sdp_via_network
 caller
 callee
 net_
@@ -812,6 +815,13 @@ signaling
 =
 ConnectSignaling
 (
+/
+*
+send_sdp_via_network
+=
+*
+/
+false
 caller
 callee
 send_link
