@@ -408,8 +408,13 @@ ArrayView
 const
 float
 >
-GetOutputEchoMask
+GetOutput
 (
+FeatureExtractor
+:
+:
+ModelOutputEnum
+output_enum
 )
 =
 0

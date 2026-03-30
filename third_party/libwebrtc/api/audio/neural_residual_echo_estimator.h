@@ -223,10 +223,10 @@ signals
 /
 /
 *
-x
+render
 :
 Render
-signal
+block
 (
 time
 -

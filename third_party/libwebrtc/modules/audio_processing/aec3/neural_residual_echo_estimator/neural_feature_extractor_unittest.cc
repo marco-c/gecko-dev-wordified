@@ -3953,6 +3953,15 @@ kScaling
 ;
 }
 }
+EXPECT_FALSE
+(
+extractor
+.
+ReadyForInference
+(
+)
+)
+;
 }
 }
 /
