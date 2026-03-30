@@ -333,6 +333,15 @@ ssl_stream_adapter
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+thread
+.
+h
+"
 namespace
 webrtc
 {
@@ -1300,6 +1309,10 @@ MediaSessionOptions
 session_options
 )
 {
+RTC_LOG_THREAD_BLOCK_COUNT
+(
+)
+;
 RTC_DCHECK_RUN_ON
 (
 signaling_thread_
@@ -1457,6 +1470,10 @@ MediaSessionOptions
 session_options
 )
 {
+RTC_LOG_THREAD_BLOCK_COUNT
+(
+)
+;
 std
 :
 :

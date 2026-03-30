@@ -1471,6 +1471,8 @@ uint32_t
 actual_block
 uint32_t
 could_block
+TimeDelta
+duration
 )
 {
 EXPECT_EQ
@@ -1772,6 +1774,8 @@ uint32_t
 actual_block
 uint32_t
 could_block
+TimeDelta
+duration
 )
 {
 was_called_back
@@ -1829,6 +1833,8 @@ uint32_t
 actual_block
 uint32_t
 could_block
+TimeDelta
+duration
 )
 {
 was_called_back
