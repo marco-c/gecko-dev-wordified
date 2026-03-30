@@ -389,6 +389,7 @@ detail
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 BeginInputTransactionForFuzzing
 (
@@ -779,6 +780,7 @@ IsComposing
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 BeginInputTransactionInternal
 (
