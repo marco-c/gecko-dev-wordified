@@ -15501,7 +15501,8 @@ isThrowingOutOfMemory
 )
 ;
 return
-false
+-
+1
 ;
 }
 return
@@ -15648,7 +15649,8 @@ isThrowingOutOfMemory
 )
 ;
 return
-false
+-
+1
 ;
 }
 return
