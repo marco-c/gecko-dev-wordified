@@ -1062,10 +1062,16 @@ Clear
 }
 if
 (
+RefPtr
+<
+nsSpeechTask
+>
+task
+=
 mCurrentTask
 )
 {
-mCurrentTask
+task
 -
 >
 Cancel
