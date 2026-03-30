@@ -258,14 +258,6 @@ using
 testing
 :
 :
-ElementsAre
-;
-using
-:
-:
-testing
-:
-:
 ElementsAreArray
 ;
 using
@@ -2141,6 +2133,12 @@ std
 :
 :
 nullopt
+)
+;
+channel_queue
+.
+WaitForPreviouslyPostedTasks
+(
 )
 ;
 }

@@ -225,7 +225,7 @@ on
 /
 /
 the
-encoder_queue_
+send_queue_
 .
 /
 /
@@ -318,7 +318,7 @@ FrameTransformerInterface
 frame_transformer
 TaskQueueBase
 *
-encoder_queue
+send_queue
 )
 ;
 /
@@ -490,7 +490,7 @@ ChannelSend
 SendRtpAudio
 on
 the
-encoder_queue_
+send_queue_
 /
 /
 by
@@ -543,7 +543,7 @@ frame_transformer_
 TaskQueueBase
 *
 const
-encoder_queue_
+send_queue_
 ;
 bool
 short_circuit_
