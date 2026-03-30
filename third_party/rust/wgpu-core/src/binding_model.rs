@@ -8516,6 +8516,17 @@ Vec
 <
 TextureInitTrackerAction
 >
+/
+/
+/
+INVARIANT
+:
+Sorted
+by
+binding
+index
+order
+.
 pub
 (
 crate

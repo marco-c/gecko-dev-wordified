@@ -485,7 +485,7 @@ gl_BaseVertex
 Bi
 :
 :
-ClipDistance
+ClipDistances
 =
 >
 "

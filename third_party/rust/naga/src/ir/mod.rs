@@ -3479,7 +3479,7 @@ vertex
 &
 mesh
 shaders
-ClipDistance
+ClipDistances
 /
 /
 /

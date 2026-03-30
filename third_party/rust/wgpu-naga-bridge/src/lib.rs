@@ -685,7 +685,7 @@ set
 Caps
 :
 :
-CLIP_DISTANCE
+CLIP_DISTANCES
 features
 .
 contains

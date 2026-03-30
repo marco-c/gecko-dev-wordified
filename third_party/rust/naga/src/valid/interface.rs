@@ -2405,13 +2405,13 @@ built_in
 Bi
 :
 :
-ClipDistance
+ClipDistances
 =
 >
 Capabilities
 :
 :
-CLIP_DISTANCE
+CLIP_DISTANCES
 Bi
 :
 :
@@ -2843,7 +2843,7 @@ U32
 Bi
 :
 :
-ClipDistance
+ClipDistances
 |
 Bi
 :

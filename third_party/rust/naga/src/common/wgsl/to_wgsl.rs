@@ -1457,7 +1457,7 @@ vertex_index
 Bi
 :
 :
-ClipDistance
+ClipDistances
 =
 >
 "

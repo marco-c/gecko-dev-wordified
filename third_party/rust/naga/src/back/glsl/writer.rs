@@ -8120,7 +8120,7 @@ crate
 BuiltIn
 :
 :
-ClipDistance
+ClipDistances
 =
 >
 {

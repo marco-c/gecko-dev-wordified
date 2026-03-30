@@ -792,7 +792,7 @@ crate
 BuiltIn
 :
 :
-ClipDistance
+ClipDistances
 /
 /
 fragment
@@ -1324,7 +1324,7 @@ crate
 BuiltIn
 :
 :
-ClipDistance
+ClipDistances
 =
 >
 {
