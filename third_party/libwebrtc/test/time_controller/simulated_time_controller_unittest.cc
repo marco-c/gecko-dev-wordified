@@ -971,7 +971,7 @@ delay_task_executed
 TEST
 (
 SimulatedTimeControllerTest
-ThreadYeildsOnSynchronousCall
+ThreadYieldsOnSynchronousCall
 )
 {
 GlobalSimulatedTimeController
