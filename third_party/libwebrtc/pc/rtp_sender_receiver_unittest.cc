@@ -1473,6 +1473,11 @@ set_streams_observer
 get
 (
 )
+voice_media_send_channel_
+.
+get
+(
+)
 )
 ;
 ASSERT_TRUE
@@ -1517,18 +1522,6 @@ id
 audio_rtp_sender_
 -
 >
-SetMediaChannel
-(
-voice_media_send_channel_
-.
-get
-(
-)
-)
-;
-audio_rtp_sender_
--
->
 SetSsrc
 (
 kAudioSsrc
@@ -1565,13 +1558,6 @@ id
 "
 nullptr
 nullptr
-)
-;
-audio_rtp_sender_
--
->
-SetMediaChannel
-(
 voice_media_send_channel_
 .
 get
@@ -1866,6 +1852,9 @@ set_streams_observer
 get
 (
 )
+video_media_send_channel
+(
+)
 )
 ;
 ASSERT_TRUE
@@ -1910,16 +1899,6 @@ id
 video_rtp_sender_
 -
 >
-SetMediaChannel
-(
-video_media_send_channel
-(
-)
-)
-;
-video_rtp_sender_
--
->
 SetSsrc
 (
 ssrc
@@ -1956,13 +1935,6 @@ id
 "
 "
 nullptr
-)
-;
-video_rtp_sender_
--
->
-SetMediaChannel
-(
 video_media_send_channel
 (
 )
@@ -3146,6 +3118,7 @@ Current
 "
 1
 "
+nullptr
 nullptr
 )
 ;
@@ -5790,6 +5763,7 @@ id
 "
 nullptr
 nullptr
+nullptr
 )
 ;
 RtpParameters
@@ -5907,6 +5881,7 @@ id
 /
 "
 "
+nullptr
 nullptr
 nullptr
 )
@@ -6126,6 +6101,7 @@ set_streams_observer
 get
 (
 )
+nullptr
 )
 ;
 ASSERT_TRUE
@@ -6358,6 +6334,7 @@ id
 /
 "
 "
+nullptr
 nullptr
 nullptr
 )
@@ -7421,6 +7398,7 @@ id
 "
 "
 nullptr
+nullptr
 )
 ;
 RtpParameters
@@ -7538,6 +7516,7 @@ id
 /
 "
 "
+nullptr
 nullptr
 )
 ;
@@ -7738,6 +7717,7 @@ set_streams_observer
 get
 (
 )
+nullptr
 )
 ;
 ASSERT_TRUE
@@ -8059,6 +8039,7 @@ set_streams_observer
 get
 (
 )
+nullptr
 )
 ;
 ASSERT_TRUE
@@ -8372,6 +8353,7 @@ set_streams_observer
 get
 (
 )
+nullptr
 )
 ;
 ASSERT_TRUE
@@ -8622,6 +8604,7 @@ id
 /
 "
 "
+nullptr
 nullptr
 )
 ;
@@ -11433,6 +11416,7 @@ set_streams_observer
 get
 (
 )
+nullptr
 )
 ;
 ASSERT_TRUE
@@ -12794,6 +12778,7 @@ video_track_
 id
 (
 )
+nullptr
 nullptr
 )
 ;

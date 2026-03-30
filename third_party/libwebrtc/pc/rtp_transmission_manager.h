@@ -98,11 +98,6 @@ h
 #
 include
 <
-functional
->
-#
-include
-<
 string
 >
 #
@@ -771,6 +766,9 @@ RtpEncodingParameters
 >
 &
 send_encodings
+MediaSendChannelInterface
+*
+media_channel
 )
 ;
 /

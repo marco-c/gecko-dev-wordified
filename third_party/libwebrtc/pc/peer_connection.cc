@@ -8280,6 +8280,7 @@ stream_ids
 parameters
 .
 encodings
+nullptr
 )
 ;
 auto
@@ -8642,13 +8643,6 @@ get
 rtp_manager
 (
 )
-)
-;
-audio_sender
--
->
-SetMediaChannel
-(
 rtp_manager
 (
 )
@@ -8726,13 +8720,6 @@ CreateRandomUuid
 rtp_manager
 (
 )
-)
-;
-video_sender
--
->
-SetMediaChannel
-(
 rtp_manager
 (
 )
