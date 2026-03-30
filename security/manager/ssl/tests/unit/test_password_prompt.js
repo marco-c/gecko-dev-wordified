@@ -578,7 +578,7 @@ poke2
 "
 )
 /
-NS_ERROR_NOT_AVAILABLE
+NS_ERROR_FAILURE
 /
 "
 logging
