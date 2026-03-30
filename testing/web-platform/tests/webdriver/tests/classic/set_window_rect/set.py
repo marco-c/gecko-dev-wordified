@@ -74,8 +74,6 @@ is_fullscreen
 is_maximized
     
 is_not_maximized
-    
-is_wayland
 )
 def
 set_window_rect
@@ -1054,6 +1052,7 @@ def
 test_x_y_floats
 (
 session
+is_wayland_headful
 )
 :
     
@@ -1086,26 +1085,19 @@ response
 )
     
 #
-Unlike
-X11
 Wayland
-does
-not
-permit
-applications
-to
-change
-their
+forbids
+programmatic
 window
-position
-programmatically
+movement
+in
+headful
+mode
 .
     
 if
 not
-is_wayland
-(
-)
+is_wayland_headful
 :
         
 assert
@@ -1164,26 +1156,19 @@ rect
 )
     
 #
-Unlike
-X11
 Wayland
-does
-not
-permit
-applications
-to
-change
-their
+forbids
+programmatic
 window
-position
-programmatically
+movement
+in
+headful
+mode
 .
     
 if
 not
-is_wayland
-(
-)
+is_wayland_headful
 :
         
 assert
@@ -1600,6 +1585,7 @@ def
 test_partial_input
 (
 session
+is_wayland_headful
 rect
 )
 :
@@ -1681,26 +1667,18 @@ height
 )
     
 #
-Unlike
-X11
 Wayland
-does
-not
-permit
-applications
-to
-change
-their
+forbids
+programmatic
 window
-position
-programmatically
+movement
+in
+headful
+mode
 .
     
 if
-not
-is_wayland
-(
-)
+is_wayland_headful
 :
         
 assert
@@ -1712,20 +1690,12 @@ x
 ]
 =
 =
-rect
-.
-get
-(
-"
-x
-"
 original
 [
 "
 x
 "
 ]
-)
         
 assert
 value
@@ -1736,24 +1706,17 @@ y
 ]
 =
 =
-rect
-.
-get
-(
-"
-y
-"
 original
 [
 "
 y
 "
 ]
-)
     
 else
 :
         
+assert
 value
 [
 "
@@ -1762,13 +1725,22 @@ x
 ]
 =
 =
+rect
+.
+get
+(
+"
+x
+"
 original
 [
 "
 x
 "
 ]
+)
         
+assert
 value
 [
 "
@@ -1777,18 +1749,27 @@ y
 ]
 =
 =
+rect
+.
+get
+(
+"
+y
+"
 original
 [
 "
 y
 "
 ]
+)
 def
 test_set_to_available_size
 (
     
 session
 available_screen_size
+is_wayland_headful
 minimal_screen_position
 )
 :
@@ -1854,37 +1835,21 @@ rect
 )
     
 #
-Unlike
-X11
 Wayland
-does
-not
-permit
-applications
-to
-change
-their
+forbids
+programmatic
 window
-position
-programmatically
+movement
+in
+headful
+mode
 .
     
 if
-not
-is_wayland
-(
-)
+is_wayland_headful
 :
         
 assert
-value
-=
-=
-target_rect
-    
-else
-:
-        
 target_rect
 [
 "
@@ -1895,6 +1860,7 @@ width
 =
 available_width
         
+assert
 target_rect
 [
 "
@@ -1904,6 +1870,15 @@ height
 =
 =
 available_height
+    
+else
+:
+        
+assert
+value
+=
+=
+target_rect
 def
 test_set_to_screen_size
 (
@@ -2227,6 +2202,46 @@ height
 >
 10
 def
+test_x_y_height_width_as_current
+(
+session
+)
+:
+    
+original
+=
+session
+.
+window
+.
+rect
+    
+response
+=
+set_window_rect
+(
+session
+original
+)
+    
+value
+=
+assert_success
+(
+response
+session
+.
+window
+.
+rect
+)
+    
+assert
+value
+=
+=
+original
+def
 test_height_width_as_current
 (
 session
@@ -2522,6 +2537,7 @@ def
 test_x_y
 (
 session
+is_wayland_headful
 )
 :
     
@@ -2614,26 +2630,19 @@ height
 ]
     
 #
-Unlike
-X11
 Wayland
-does
-not
-permit
-applications
-to
-change
-their
+forbids
+programmatic
 window
-position
-programmatically
+movement
+in
+headful
+mode
 .
     
 if
 not
-is_wayland
-(
-)
+is_wayland_headful
 :
         
 assert
@@ -2785,6 +2794,7 @@ def
 test_x_as_current
 (
 session
+is_wayland_headful
 )
 :
     
@@ -2875,26 +2885,19 @@ height
 ]
     
 #
-Unlike
-X11
 Wayland
-does
-not
-permit
-applications
-to
-change
-their
+forbids
+programmatic
 window
-position
-programmatically
+movement
+in
+headful
+mode
 .
     
 if
 not
-is_wayland
-(
-)
+is_wayland_headful
 :
         
 assert
@@ -2934,6 +2937,7 @@ def
 test_y_as_current
 (
 session
+is_wayland_headful
 )
 :
     
@@ -3024,26 +3028,19 @@ height
 ]
     
 #
-Unlike
-X11
 Wayland
-does
-not
-permit
-applications
-to
-change
-their
+forbids
+programmatic
 window
-position
-programmatically
+movement
+in
+headful
+mode
 .
     
 if
 not
-is_wayland
-(
-)
+is_wayland_headful
 :
         
 assert
@@ -3083,6 +3080,7 @@ def
 test_negative_x_y
 (
 session
+is_wayland_headful
 minimal_screen_position
 )
 :
@@ -3193,26 +3191,19 @@ height
 ]
         
 #
-Unlike
-X11
 Wayland
-does
-not
-permit
-applications
-to
-change
-their
+forbids
+programmatic
 window
-position
-programmatically
+movement
+in
+headful
+mode
 .
         
 if
 not
-is_wayland
-(
-)
+is_wayland_headful
 :
             
 assert
