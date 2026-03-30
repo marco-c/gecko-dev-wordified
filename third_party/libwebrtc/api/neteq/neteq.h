@@ -1707,8 +1707,9 @@ SetMaximumBufferPackets
 size_t
 max_packets
 )
-{
-}
+=
+0
+;
 /
 /
 Set
@@ -1735,8 +1736,9 @@ SetFastAccelerate
 bool
 enable
 )
-{
-}
+=
+0
+;
 /
 /
 Removes
