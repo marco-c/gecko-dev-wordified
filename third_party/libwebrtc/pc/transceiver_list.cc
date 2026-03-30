@@ -337,6 +337,17 @@ RtpTransceiver
 >
 internals
 ;
+internals
+.
+reserve
+(
+transceivers_
+.
+size
+(
+)
+)
+;
 for
 (
 auto
