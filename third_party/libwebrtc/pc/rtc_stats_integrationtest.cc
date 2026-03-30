@@ -617,11 +617,6 @@ field_trial_string
 /
 Create
 PeerConnections
-and
-"
-connect
-"
-sigslots
 PeerConnectionInterface
 :
 :
