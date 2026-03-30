@@ -1587,7 +1587,14 @@ CreateVideoRtpSender
 {
 CreateVideoRtpSender
 (
+/
+*
+is_screencast
+=
+*
+/
 false
+kVideoSsrc
 )
 ;
 }
@@ -1802,8 +1809,6 @@ bool
 is_screencast
 uint32_t
 ssrc
-=
-kVideoSsrc
 )
 {
 AddVideoTrack
@@ -11048,6 +11053,7 @@ PropagatesVideoTrackContentHintForScreencastSource
 CreateVideoRtpSender
 (
 true
+kVideoSsrc
 )
 ;
 video_track_
