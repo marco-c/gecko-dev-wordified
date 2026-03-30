@@ -1169,10 +1169,6 @@ worker_queue_
 ScopedTaskSafety
 task_safety_
 ;
-const
-bool
-use_ntp_time_for_absolute_send_time_
-;
 }
 ;
 }
