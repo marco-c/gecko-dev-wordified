@@ -414,7 +414,7 @@ pdfjs
 .
 enableHWA
 "
-false
+true
 )
 ;
 pref
@@ -515,6 +515,16 @@ pdfjs
 enableUpdatedAddImage
 "
 false
+)
+;
+pref
+(
+"
+pdfjs
+.
+enableWebGPU
+"
+true
 )
 ;
 pref
