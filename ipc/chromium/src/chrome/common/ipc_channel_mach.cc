@@ -2754,8 +2754,9 @@ type
 "
 <
 <
-m
-.
+message
+-
+>
 type
 (
 )
