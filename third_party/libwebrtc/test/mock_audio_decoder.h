@@ -140,6 +140,7 @@ MockAudioDecoder
 MockAudioDecoder
 (
 )
+override
 ;
 MOCK_METHOD
 (

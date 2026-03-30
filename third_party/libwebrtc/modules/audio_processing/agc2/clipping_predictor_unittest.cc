@@ -1297,6 +1297,9 @@ enabled
 =
 *
 /
+.
+enabled
+=
 true
 /
 *
@@ -1304,6 +1307,9 @@ mode
 =
 *
 /
+.
+mode
+=
 mode
 /
 *
@@ -1311,6 +1317,9 @@ window_length
 =
 *
 /
+.
+window_length
+=
 std
 :
 :
@@ -1329,6 +1338,9 @@ reference_window_length
 =
 *
 /
+.
+reference_window_length
+=
 std
 :
 :
@@ -1347,6 +1359,9 @@ reference_window_delay
 =
 *
 /
+.
+reference_window_delay
+=
 std
 :
 :
@@ -1365,6 +1380,9 @@ clipping_threshold
 =
 *
 /
+.
+clipping_threshold
+=
 -
 1
 .
@@ -1375,6 +1393,9 @@ crest_factor_margin
 =
 *
 /
+.
+crest_factor_margin
+=
 0
 .
 5f
@@ -2087,6 +2108,9 @@ enabled
 =
 *
 /
+.
+enabled
+=
 true
 /
 *
@@ -2094,6 +2118,9 @@ mode
 =
 *
 /
+.
+mode
+=
 ClippingPredictorMode
 :
 :
@@ -2104,6 +2131,9 @@ window_length
 =
 *
 /
+.
+window_length
+=
 5
 /
 *
@@ -2111,6 +2141,9 @@ reference_window_length
 =
 *
 /
+.
+reference_window_length
+=
 5
 /
 *
@@ -2118,6 +2151,9 @@ reference_window_delay
 =
 *
 /
+.
+reference_window_delay
+=
 5
 /
 *
@@ -2125,6 +2161,9 @@ clipping_threshold
 =
 *
 /
+.
+clipping_threshold
+=
 std
 :
 :
@@ -2143,6 +2182,9 @@ crest_factor_margin
 =
 *
 /
+.
+crest_factor_margin
+=
 std
 :
 :
@@ -2435,6 +2477,9 @@ enabled
 =
 *
 /
+.
+enabled
+=
 true
 /
 *
@@ -2442,6 +2487,9 @@ mode
 =
 *
 /
+.
+mode
+=
 GetParam
 (
 )
@@ -2451,6 +2499,9 @@ window_length
 =
 *
 /
+.
+window_length
+=
 5
 /
 *
@@ -2458,6 +2509,9 @@ reference_window_length
 =
 *
 /
+.
+reference_window_length
+=
 5
 /
 *
@@ -2465,6 +2519,9 @@ reference_window_delay
 =
 *
 /
+.
+reference_window_delay
+=
 5
 /
 *
@@ -2472,6 +2529,9 @@ clipping_threshold
 =
 *
 /
+.
+clipping_threshold
+=
 clipping_threshold_dbfs
 /
 *
@@ -2479,6 +2539,9 @@ crest_factor_margin
 =
 *
 /
+.
+crest_factor_margin
+=
 3
 .
 0f
@@ -2827,6 +2890,9 @@ enabled
 =
 *
 /
+.
+enabled
+=
 true
 /
 *
@@ -2834,6 +2900,9 @@ mode
 =
 *
 /
+.
+mode
+=
 ClippingPredictorMode
 :
 :
@@ -2844,6 +2913,9 @@ window_length
 =
 *
 /
+.
+window_length
+=
 5
 /
 *
@@ -2851,6 +2923,9 @@ reference_window_length
 =
 *
 /
+.
+reference_window_length
+=
 5
 /
 *
@@ -2858,6 +2933,9 @@ reference_window_delay
 =
 *
 /
+.
+reference_window_delay
+=
 5
 /
 *
@@ -2865,6 +2943,9 @@ clipping_threshold
 =
 *
 /
+.
+clipping_threshold
+=
 -
 1
 .
@@ -2875,6 +2956,9 @@ crest_factor_margin
 =
 *
 /
+.
+crest_factor_margin
+=
 3
 .
 0f
@@ -3010,6 +3094,9 @@ enabled
 =
 *
 /
+.
+enabled
+=
 true
 /
 *
@@ -3017,6 +3104,9 @@ mode
 =
 *
 /
+.
+mode
+=
 ClippingPredictorMode
 :
 :
@@ -3027,6 +3117,9 @@ window_length
 =
 *
 /
+.
+window_length
+=
 5
 /
 *
@@ -3034,6 +3127,9 @@ reference_window_length
 =
 *
 /
+.
+reference_window_length
+=
 5
 /
 *
@@ -3041,6 +3137,9 @@ reference_window_delay
 =
 *
 /
+.
+reference_window_delay
+=
 5
 /
 *
@@ -3048,6 +3147,9 @@ clipping_threshold
 =
 *
 /
+.
+clipping_threshold
+=
 -
 1
 .
@@ -3184,6 +3286,9 @@ enabled
 =
 *
 /
+.
+enabled
+=
 true
 /
 *
@@ -3191,6 +3296,9 @@ mode
 =
 *
 /
+.
+mode
+=
 ClippingPredictorMode
 :
 :
@@ -3201,6 +3309,9 @@ window_length
 =
 *
 /
+.
+window_length
+=
 5
 /
 *
@@ -3208,6 +3319,9 @@ reference_window_length
 =
 *
 /
+.
+reference_window_length
+=
 5
 /
 *
@@ -3215,6 +3329,9 @@ reference_window_delay
 =
 *
 /
+.
+reference_window_delay
+=
 5
 /
 *
@@ -3222,6 +3339,9 @@ clipping_threshold
 =
 *
 /
+.
+clipping_threshold
+=
 -
 1
 .
@@ -3358,6 +3478,9 @@ enabled
 =
 *
 /
+.
+enabled
+=
 true
 /
 *
@@ -3365,6 +3488,9 @@ mode
 =
 *
 /
+.
+mode
+=
 ClippingPredictorMode
 :
 :
@@ -3375,6 +3501,9 @@ window_length
 =
 *
 /
+.
+window_length
+=
 5
 /
 *
@@ -3382,6 +3511,9 @@ reference_window_length
 =
 *
 /
+.
+reference_window_length
+=
 5
 /
 *
@@ -3389,6 +3521,9 @@ reference_window_delay
 =
 *
 /
+.
+reference_window_delay
+=
 5
 /
 *
@@ -3396,6 +3531,9 @@ clipping_threshold
 =
 *
 /
+.
+clipping_threshold
+=
 -
 1
 .

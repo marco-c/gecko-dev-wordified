@@ -469,6 +469,7 @@ decoded_frame_id_cb_
 RenderingTrackerTest
 (
 )
+override
 {
 SendTask
 (

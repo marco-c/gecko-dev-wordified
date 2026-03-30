@@ -5428,6 +5428,9 @@ SpatialLayer
 layer
 =
 {
+.
+width
+=
 0
 }
 ;

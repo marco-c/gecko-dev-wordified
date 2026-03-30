@@ -138,11 +138,11 @@ Agc
 {
 public
 :
-virtual
 ~
 MockAgc
 (
 )
+override
 {
 }
 MOCK_METHOD

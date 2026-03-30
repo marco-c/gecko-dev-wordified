@@ -214,11 +214,11 @@ LibvpxVp9Decoder
 (
 )
 ;
-virtual
 ~
 LibvpxVp9Decoder
 (
 )
+override
 ;
 bool
 Configure

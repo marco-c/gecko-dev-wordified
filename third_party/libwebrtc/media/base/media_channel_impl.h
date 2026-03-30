@@ -592,11 +592,11 @@ bool
 enable_dscp
 )
 ;
-virtual
 ~
 TransportForMediaChannels
 (
 )
+override
 ;
 /
 /

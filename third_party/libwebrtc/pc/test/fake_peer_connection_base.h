@@ -1123,6 +1123,7 @@ GetSctpTransport
 (
 )
 const
+override
 {
 return
 nullptr
@@ -1331,6 +1332,7 @@ ShouldFireNegotiationNeededEvent
 uint32_t
 event_id
 )
+override
 {
 return
 true
@@ -1462,6 +1464,7 @@ string
 &
 mid
 )
+override
 {
 return
 nullptr
@@ -1542,6 +1545,7 @@ bool
 can_trickle_ice_candidates
 (
 )
+override
 {
 return
 std
@@ -1559,6 +1563,7 @@ Resource
 >
 resource
 )
+override
 {
 }
 bool

@@ -570,28 +570,24 @@ testing
 :
 IsTrue
 ;
-static
 const
 size_t
 kPacketNumOffset
 =
 8
 ;
-static
 const
 size_t
 kPacketHeaderLen
 =
 12
 ;
-static
 const
 int
 kFakePacketId
 =
 0x1234
 ;
-static
 const
 int
 kTimeout
@@ -604,7 +600,6 @@ kRtpLeadByte
 =
 0x80
 ;
-static
 bool
 IsRtpLeadByte
 (
@@ -6371,7 +6366,6 @@ return
 ;
 }
 }
-static
 const
 std
 :
@@ -6402,7 +6396,6 @@ EV_CLIENT_RECV
 EV_CLIENT_WRITABLE
 }
 ;
-static
 const
 std
 :
@@ -6432,7 +6425,6 @@ EV_SERVER_SEND
 EV_SERVER_WRITABLE
 }
 ;
-static
 const
 std
 :
@@ -6466,7 +6458,6 @@ EV_SERVER_SEND
 EV_SERVER_WRITABLE
 }
 ;
-static
 const
 struct
 {
@@ -7796,7 +7787,6 @@ return
 }
 }
 ;
-static
 const
 EndpointConfig
 kEndpointVariants

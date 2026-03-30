@@ -2666,11 +2666,11 @@ ssrc
 ;
 protected
 :
-virtual
 ~
 VideoReceiveStreamInterface
 (
 )
+override
 {
 }
 }

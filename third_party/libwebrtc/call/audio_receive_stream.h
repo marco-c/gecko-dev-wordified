@@ -1731,11 +1731,11 @@ source
 ;
 protected
 :
-virtual
 ~
 AudioReceiveStreamInterface
 (
 )
+override
 {
 }
 }

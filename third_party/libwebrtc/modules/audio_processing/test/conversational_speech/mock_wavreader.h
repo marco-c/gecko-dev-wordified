@@ -165,6 +165,7 @@ num_samples
 MockWavReader
 (
 )
+override
 ;
 MOCK_METHOD
 (

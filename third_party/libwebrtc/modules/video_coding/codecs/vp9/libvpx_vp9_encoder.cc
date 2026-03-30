@@ -6702,10 +6702,16 @@ vpx_codec_priv_output_cx_pkt_cb_pair_t
 cbp
 =
 {
+.
+output_cx_pkt
+=
 LibvpxVp9Encoder
 :
 :
 EncoderOutputCodedPacketCallback
+.
+user_priv
+=
 reinterpret_cast
 <
 void
@@ -7313,6 +7319,9 @@ vpx_svc_layer_id_t
 layer_id
 =
 {
+.
+spatial_layer_id
+=
 0
 }
 ;
@@ -9673,6 +9682,9 @@ vpx_svc_layer_id_t
 layer_id
 =
 {
+.
+spatial_layer_id
+=
 0
 }
 ;
@@ -11006,6 +11018,9 @@ vpx_svc_layer_id_t
 layer_id
 =
 {
+.
+spatial_layer_id
+=
 0
 }
 ;
@@ -11058,6 +11073,9 @@ vpx_svc_ref_frame_config_t
 enc_layer_conf
 =
 {
+.
+lst_fb_idx
+=
 {
 0
 }
@@ -11810,6 +11828,9 @@ vpx_svc_layer_id_t
 layer_id
 =
 {
+.
+spatial_layer_id
+=
 0
 }
 ;
@@ -11855,6 +11876,9 @@ vpx_svc_ref_frame_config_t
 enc_layer_conf
 =
 {
+.
+lst_fb_idx
+=
 {
 0
 }
@@ -12865,6 +12889,9 @@ vpx_svc_layer_id_t
 layer_id
 =
 {
+.
+spatial_layer_id
+=
 0
 }
 ;

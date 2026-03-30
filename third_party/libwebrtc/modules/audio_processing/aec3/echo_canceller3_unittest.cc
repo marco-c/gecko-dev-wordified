@@ -7958,7 +7958,7 @@ num_render_channels
 kNumChannels
 /
 *
-num_capture_input_channels
+num_capture_channels
 =
 *
 /

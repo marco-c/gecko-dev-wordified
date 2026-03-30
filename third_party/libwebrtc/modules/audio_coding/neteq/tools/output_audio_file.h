@@ -216,11 +216,11 @@ wb
 )
 ;
 }
-virtual
 ~
 OutputAudioFile
 (
 )
+override
 {
 if
 (

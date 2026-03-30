@@ -101,9 +101,7 @@ h
 #
 include
 <
-stddef
-.
-h
+cstddef
 >
 #
 include
@@ -469,7 +467,13 @@ specs
 push_back
 (
 {
+.
+format
+=
 fmt
+.
+info
+=
 info
 }
 )

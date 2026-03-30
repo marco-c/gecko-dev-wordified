@@ -439,12 +439,9 @@ const
 return
 outbuf_
 .
-size
+empty
 (
 )
-=
-=
-0
 ;
 }
 void

@@ -600,11 +600,11 @@ CreateTestFieldTrials
 )
 )
 ;
-virtual
 ~
 CallTest
 (
 )
+override
 ;
 static
 const
@@ -1789,11 +1789,11 @@ TimeDelta
 timeout
 )
 ;
-virtual
 ~
 BaseTest
 (
 )
+override
 ;
 virtual
 void

@@ -176,11 +176,11 @@ size_t
 height
 )
 ;
-virtual
 ~
 GlxRenderer
 (
 )
+override
 ;
 void
 OnFrame

@@ -390,11 +390,11 @@ PacketSequencer
 sequencer
 )
 ;
-virtual
 ~
 NonPacedPacketSender
 (
 )
+override
 ;
 void
 EnqueuePackets

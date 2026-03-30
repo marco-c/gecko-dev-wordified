@@ -1531,6 +1531,7 @@ webrtc
 MediaType
 media_type
 )
+override
 {
 ASSERT_EQ
 (
@@ -1563,11 +1564,11 @@ return
 first_packet_received_after_receptive_change_
 ;
 }
-virtual
 ~
 MockRtpReceiverObserver
 (
 )
+override
 {
 }
 private
@@ -1646,11 +1647,11 @@ return
 first_packet_sent_
 ;
 }
-virtual
 ~
 MockRtpSenderObserver
 (
 )
+override
 {
 }
 private
@@ -7090,6 +7091,7 @@ CandidatePairChangeEvent
 &
 event
 )
+override
 {
 ice_candidate_pair_change_history_
 .
@@ -8096,11 +8098,11 @@ RtcEventLogOutput
 {
 public
 :
-virtual
 ~
 MockRtcEventLogOutput
 (
 )
+override
 =
 default
 ;
@@ -8541,6 +8543,7 @@ nullptr
 MockIceTransport
 (
 )
+override
 =
 default
 ;
@@ -8606,6 +8609,7 @@ component
 IceTransportInit
 init
 )
+override
 {
 RecordIceTransportCreated
 (

@@ -278,7 +278,13 @@ settings
 timing_frame_thresholds
 =
 {
+.
+delay_ms
+=
 kTestTimingFramesDelayMs
+.
+outlier_ratio_percent
+=
 kTestOutlierFrameSizePercent
 }
 ;

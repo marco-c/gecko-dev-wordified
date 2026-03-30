@@ -101,14 +101,12 @@ h
 #
 include
 <
-stddef
-.
-h
+cmath
 >
 #
 include
 <
-cmath
+cstddef
 >
 #
 include
@@ -388,6 +386,9 @@ received_packets_
 push_back
 (
 {
+.
+delay
+=
 packet_result
 .
 receive_time
@@ -397,6 +398,9 @@ packet_result
 sent_packet
 .
 send_time
+.
+sent_time
+=
 packet_result
 .
 sent_packet

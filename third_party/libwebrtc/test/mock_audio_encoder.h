@@ -201,6 +201,7 @@ MockAudioEncoder
 MockAudioEncoder
 (
 )
+override
 ;
 MOCK_METHOD
 (

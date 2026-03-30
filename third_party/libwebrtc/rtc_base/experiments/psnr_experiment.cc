@@ -159,6 +159,9 @@ CalculatePsnr
 "
 ;
 }
+/
+/
+namespace
 PsnrExperiment
 :
 :

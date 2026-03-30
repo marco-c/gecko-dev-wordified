@@ -201,11 +201,11 @@ size_t
 capture_device_index
 )
 ;
-virtual
 ~
 VcmCapturer
 (
 )
+override
 ;
 void
 Start

@@ -271,11 +271,11 @@ StreamStatistician
 {
 public
 :
-virtual
 ~
 StreamStatisticianImplInterface
 (
 )
+override
 =
 default
 ;

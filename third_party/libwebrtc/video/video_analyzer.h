@@ -514,6 +514,7 @@ task_queue
 VideoAnalyzer
 (
 )
+override
 ;
 virtual
 void

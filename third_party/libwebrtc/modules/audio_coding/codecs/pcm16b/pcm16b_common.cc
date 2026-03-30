@@ -103,9 +103,7 @@ h
 #
 include
 <
-stdint
-.
-h
+cstdint
 >
 #
 include
@@ -174,6 +172,9 @@ specs
 push_back
 (
 {
+.
+format
+=
 {
 "
 L16
@@ -181,6 +182,9 @@ L16
 sample_rate_hz
 num_channels
 }
+.
+info
+=
 {
 sample_rate_hz
 num_channels

@@ -367,6 +367,9 @@ specs
 push_back
 (
 {
+.
+format
+=
 std
 :
 :
@@ -374,6 +377,9 @@ move
 (
 opus_format
 )
+.
+info
+=
 surround_5_1_opus_info
 }
 )
@@ -473,6 +479,9 @@ specs
 push_back
 (
 {
+.
+format
+=
 std
 :
 :
@@ -480,6 +489,9 @@ move
 (
 opus_format
 )
+.
+info
+=
 surround_7_1_opus_info
 }
 )

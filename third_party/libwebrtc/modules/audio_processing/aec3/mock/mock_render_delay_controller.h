@@ -180,11 +180,11 @@ MockRenderDelayController
 (
 )
 ;
-virtual
 ~
 MockRenderDelayController
 (
 )
+override
 ;
 MOCK_METHOD
 (

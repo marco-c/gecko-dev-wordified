@@ -3763,7 +3763,7 @@ send_rate
 kPacingDataRate
 /
 *
-padding_rate
+pad_rate
 =
 *
 /
@@ -6403,7 +6403,7 @@ KilobitsPerSec
 )
 /
 *
-padding_rate
+pad_rate
 =
 *
 /
@@ -6523,7 +6523,7 @@ KilobitsPerSec
 )
 /
 *
-padding_rate
+pad_rate
 =
 *
 /

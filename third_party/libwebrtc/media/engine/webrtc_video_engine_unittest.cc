@@ -2401,6 +2401,9 @@ res
 push_back
 (
 {
+.
+width
+=
 checked_cast
 <
 int
@@ -2410,6 +2413,9 @@ s
 .
 width
 )
+.
+height
+=
 checked_cast
 <
 int
@@ -7072,10 +7078,6 @@ GetDefaultEnabledRtpHeaderExtensions
 (
 *
 engine_
-.
-get
-(
-)
 /
 *
 field_trials

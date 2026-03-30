@@ -1709,11 +1709,11 @@ RtpCodecCapability
 (
 )
 ;
-virtual
 ~
 RtpCodecCapability
 (
 )
+override
 ;
 /
 /
@@ -5420,11 +5420,11 @@ RtpCodecParameters
 &
 )
 ;
-virtual
 ~
 RtpCodecParameters
 (
 )
+override
 ;
 /
 /

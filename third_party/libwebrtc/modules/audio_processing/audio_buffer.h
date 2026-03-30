@@ -632,10 +632,6 @@ const
 {
 return
 split_data_
-.
-get
-(
-)
 ?
 split_data_
 -
@@ -666,10 +662,6 @@ channel
 {
 return
 split_data_
-.
-get
-(
-)
 ?
 split_data_
 -
@@ -762,10 +754,6 @@ const
 if
 (
 split_data_
-.
-get
-(
-)
 )
 {
 return

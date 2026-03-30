@@ -473,11 +473,11 @@ Thread
 worker_thread
 )
 ;
-virtual
 ~
 PeerConnectionTestWrapper
 (
 )
+override
 ;
 bool
 CreatePc

@@ -199,11 +199,11 @@ MockEchoRemover
 (
 )
 ;
-virtual
 ~
 MockEchoRemover
 (
 )
+override
 ;
 MOCK_METHOD
 (

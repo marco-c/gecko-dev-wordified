@@ -277,11 +277,11 @@ Clock
 clock
 )
 ;
-virtual
 ~
 FakeVp8Encoder
 (
 )
+override
 =
 default
 ;

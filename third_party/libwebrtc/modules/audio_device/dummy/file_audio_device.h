@@ -324,11 +324,11 @@ string_view
 outputFilename
 )
 ;
-virtual
 ~
 FileAudioDevice
 (
 )
+override
 ;
 /
 /

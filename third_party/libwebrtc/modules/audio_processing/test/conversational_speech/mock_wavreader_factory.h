@@ -228,6 +228,7 @@ default_params
 MockWavReaderFactory
 (
 )
+override
 ;
 MOCK_METHOD
 (

@@ -220,6 +220,7 @@ internal
 DefaultIceTransport
 (
 )
+override
 ;
 IceTransportInternal
 *
@@ -283,6 +284,7 @@ default
 DefaultIceTransportFactory
 (
 )
+override
 =
 default
 ;

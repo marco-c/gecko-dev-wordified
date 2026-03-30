@@ -574,6 +574,7 @@ config
 LoggingNetworkControllerFactory
 (
 )
+override
 ;
 LoggingNetworkControllerFactory
 (
@@ -765,6 +766,7 @@ config
 CallClient
 (
 )
+override
 ;
 CallClient
 (
@@ -821,12 +823,6 @@ send_bandwidth_bps
 }
 DataRate
 target_rate
-(
-)
-const
-;
-DataRate
-stable_target_rate
 (
 )
 const

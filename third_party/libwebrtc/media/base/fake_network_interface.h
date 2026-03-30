@@ -826,7 +826,6 @@ options_
 }
 protected
 :
-virtual
 bool
 SendPacket
 (
@@ -838,6 +837,7 @@ AsyncSocketPacketOptions
 &
 options
 )
+override
 RTC_LOCKS_EXCLUDED
 (
 mutex_
@@ -943,7 +943,6 @@ return
 true
 ;
 }
-virtual
 bool
 SendRtcp
 (
@@ -955,6 +954,7 @@ AsyncSocketPacketOptions
 &
 options
 )
+override
 RTC_LOCKS_EXCLUDED
 (
 mutex_
@@ -1025,7 +1025,6 @@ return
 true
 ;
 }
-virtual
 int
 SetOption
 (
@@ -1043,6 +1042,7 @@ opt
 int
 option
 )
+override
 {
 if
 (

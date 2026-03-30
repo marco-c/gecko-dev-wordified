@@ -340,7 +340,6 @@ begin
 )
 {
 }
-virtual
 bool
 ShouldRedirect
 (
@@ -351,6 +350,7 @@ SocketAddress
 *
 out
 )
+override
 {
 if
 (
@@ -520,6 +520,7 @@ this
 TestTurnServer
 (
 )
+override
 {
 RTC_DCHECK
 (
@@ -1106,7 +1107,6 @@ a
 production
 environment
 .
-virtual
 bool
 GetKey
 (
@@ -1127,6 +1127,7 @@ string
 *
 key
 )
+override
 {
 RTC_DCHECK
 (

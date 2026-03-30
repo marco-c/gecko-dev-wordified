@@ -1907,10 +1907,6 @@ const
 return
 *
 network_
-.
-get
-(
-)
 ;
 }
 EmulatedNetworkStats
@@ -2361,6 +2357,7 @@ this
 FakePacketRoute
 (
 )
+override
 {
 route_
 -

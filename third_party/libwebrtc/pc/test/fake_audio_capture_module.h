@@ -1192,11 +1192,11 @@ be
 deleted
 directly
 .
-virtual
 ~
 FakeAudioCaptureModule
 (
 )
+override
 ;
 private
 :

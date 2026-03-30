@@ -218,11 +218,11 @@ size_t
 num_channels
 )
 ;
-virtual
 ~
 MockRenderDelayBuffer
 (
 )
+override
 ;
 MOCK_METHOD
 (

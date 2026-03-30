@@ -524,6 +524,9 @@ SpatialLayer
 spatial_layer
 =
 {
+.
+width
+=
 0
 }
 ;
@@ -865,6 +868,9 @@ SpatialLayer
 spatial_layer
 =
 {
+.
+width
+=
 0
 }
 ;

@@ -10679,7 +10679,7 @@ kPaceMultiplier
 )
 /
 *
-padding_rate
+pad_rate
 =
 *
 /
@@ -16406,7 +16406,7 @@ kPackeSize
 kPacketSendTime
 /
 *
-padding_rate
+pad_rate
 =
 *
 /
@@ -16728,7 +16728,7 @@ kPacketSize
 kPacketSendTime
 /
 *
-padding_rate
+pad_rate
 =
 *
 /
@@ -16966,7 +16966,7 @@ kPacketSize
 kPacketSendTime
 /
 *
-padding_rate
+pad_rate
 =
 *
 /
@@ -18071,7 +18071,7 @@ CurrentTime
 kNominalPacingRate
 /
 *
-padding_rate
+pad_rate
 =
 *
 /
@@ -18414,7 +18414,7 @@ CurrentTime
 kTargetRate
 /
 *
-padding_rate
+pad_rate
 =
 *
 /
@@ -18613,7 +18613,7 @@ CurrentTime
 kTargetRate
 /
 *
-padding_rate
+pad_rate
 =
 *
 /
@@ -18820,7 +18820,7 @@ CurrentTime
 kTargetRate
 /
 *
-padding_rate
+pad_rate
 =
 *
 /

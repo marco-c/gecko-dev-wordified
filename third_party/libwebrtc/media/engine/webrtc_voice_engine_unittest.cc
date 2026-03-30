@@ -2370,6 +2370,7 @@ VerifyGainControlDefaultSettings
 WebRtcVoiceEngineTestFake
 (
 )
+override
 {
 engine_
 -

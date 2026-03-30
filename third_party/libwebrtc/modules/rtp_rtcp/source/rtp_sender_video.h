@@ -726,11 +726,11 @@ Config
 config
 )
 ;
-virtual
 ~
 RTPSenderVideo
 (
 )
+override
 ;
 /
 /

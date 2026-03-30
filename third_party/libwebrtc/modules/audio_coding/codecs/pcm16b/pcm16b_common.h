@@ -125,6 +125,10 @@ specs
 )
 ;
 }
+/
+/
+namespace
+webrtc
 #
 endif
 /

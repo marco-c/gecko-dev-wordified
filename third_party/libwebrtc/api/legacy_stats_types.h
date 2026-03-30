@@ -944,10 +944,6 @@ Equals
 (
 *
 other
-.
-get
-(
-)
 )
 ;
 }

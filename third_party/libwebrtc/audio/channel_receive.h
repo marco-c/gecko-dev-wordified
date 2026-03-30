@@ -739,11 +739,11 @@ RtpPacketSinkInterface
 {
 public
 :
-virtual
 ~
 ChannelReceiveInterface
 (
 )
+override
 =
 default
 ;

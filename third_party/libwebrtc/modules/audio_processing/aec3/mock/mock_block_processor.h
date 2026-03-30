@@ -155,11 +155,11 @@ MockBlockProcessor
 (
 )
 ;
-virtual
 ~
 MockBlockProcessor
 (
 )
+override
 ;
 MOCK_METHOD
 (
