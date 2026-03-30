@@ -1115,7 +1115,11 @@ runtime
 :
 context
 (
+&
 runtime
+-
+>
+gc
 )
 {
 MOZ_RELEASE_ASSERT
