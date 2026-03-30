@@ -375,7 +375,7 @@ for
 SCTP
 .
 virtual
-void
+RTCError
 AddSctpDataStream
 (
 StreamId
