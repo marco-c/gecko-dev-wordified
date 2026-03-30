@@ -248,15 +248,6 @@ include
 "
 call
 /
-payload_type_picker
-.
-h
-"
-#
-include
-"
-call
-/
 rtp_demuxer
 .
 h
@@ -756,9 +747,6 @@ RTC_GUARDED_BY
 network_thread_
 )
 ;
-PayloadTypePicker
-payload_type_picker_
-;
 std
 :
 :
@@ -1033,7 +1021,6 @@ lna_permission_factory
 *
 /
 nullptr
-payload_type_picker_
 CreateJsepConfig
 (
 )
