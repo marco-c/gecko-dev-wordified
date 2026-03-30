@@ -4957,7 +4957,10 @@ is
 passed
 to
 senders_
-scoped_refptr
+std
+:
+:
+unique_ptr
 <
 RTCStatsCollector
 >
