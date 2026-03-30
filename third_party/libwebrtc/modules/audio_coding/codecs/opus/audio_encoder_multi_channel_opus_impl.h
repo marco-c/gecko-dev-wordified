@@ -221,9 +221,7 @@ public
 :
 AudioEncoderMultiChannelOpusImpl
 (
-const
 AudioEncoderMultiChannelOpusConfig
-&
 config
 int
 payload_type
@@ -414,9 +412,8 @@ AudioEncoder
 >
 MakeAudioEncoder
 (
-const
 AudioEncoderMultiChannelOpusConfig
-&
+config
 int
 payload_type
 )
@@ -442,10 +439,13 @@ const
 bool
 RecreateEncoderInstance
 (
-const
 AudioEncoderMultiChannelOpusConfig
-&
 config
+)
+;
+bool
+RecreateEncoderInstance
+(
 )
 ;
 void

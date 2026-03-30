@@ -264,9 +264,7 @@ const
 Environment
 &
 env
-const
 AudioEncoderOpusConfig
-&
 config
 const
 AudioEncoderFactory

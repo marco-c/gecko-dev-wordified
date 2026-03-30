@@ -111,6 +111,11 @@ optional
 #
 include
 <
+utility
+>
+#
+include
+<
 vector
 >
 #
@@ -289,9 +294,7 @@ const
 Environment
 &
 env
-const
 AudioEncoderOpusConfig
-&
 config
 const
 AudioEncoderFactory
@@ -330,7 +333,13 @@ AudioEncoderOpusImpl
 >
 (
 env
+std
+:
+:
+move
+(
 config
+)
 options
 .
 payload_type

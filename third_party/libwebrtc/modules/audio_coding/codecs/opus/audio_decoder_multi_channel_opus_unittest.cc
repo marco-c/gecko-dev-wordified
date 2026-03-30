@@ -116,6 +116,11 @@ string
 #
 include
 <
+utility
+>
+#
+include
+<
 vector
 >
 #
@@ -913,7 +918,6 @@ num_streams
 }
 )
 ;
-const
 std
 :
 :
@@ -959,7 +963,13 @@ AudioDecoderMultiChannelOpus
 MakeAudioDecoder
 (
 *
+std
+:
+:
+move
+(
 decoder_config
+)
 )
 ;
 EXPECT_TRUE
@@ -1011,7 +1021,6 @@ spec
 specs
 )
 {
-const
 std
 :
 :
@@ -1059,7 +1068,13 @@ AudioDecoderMultiChannelOpus
 MakeAudioDecoder
 (
 *
+std
+:
+:
+move
+(
 decoder_config
+)
 )
 ;
 EXPECT_TRUE

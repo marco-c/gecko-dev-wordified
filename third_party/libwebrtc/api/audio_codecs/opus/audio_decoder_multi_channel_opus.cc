@@ -528,7 +528,13 @@ AudioDecoderMultiChannelOpusImpl
 :
 MakeAudioDecoder
 (
+std
+:
+:
+move
+(
 config
+)
 )
 ;
 }

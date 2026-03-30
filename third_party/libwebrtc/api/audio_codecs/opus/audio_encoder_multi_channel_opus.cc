@@ -520,9 +520,7 @@ AudioEncoderMultiChannelOpus
 :
 MakeAudioEncoder
 (
-const
 AudioEncoderMultiChannelOpusConfig
-&
 config
 int
 payload_type
@@ -554,7 +552,13 @@ AudioEncoderMultiChannelOpusImpl
 :
 MakeAudioEncoder
 (
+std
+:
+:
+move
+(
 config
+)
 payload_type
 )
 ;

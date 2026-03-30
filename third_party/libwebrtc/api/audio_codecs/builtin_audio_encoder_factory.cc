@@ -109,6 +109,11 @@ optional
 #
 include
 <
+utility
+>
+#
+include
+<
 vector
 >
 #
@@ -378,9 +383,7 @@ AudioEncoder
 >
 MakeAudioEncoder
 (
-const
 Config
-&
 config
 int
 payload_type
@@ -411,7 +414,13 @@ T
 :
 MakeAudioEncoder
 (
+std
+:
+:
+move
+(
 config
+)
 payload_type
 codec_pair_id
 field_trials

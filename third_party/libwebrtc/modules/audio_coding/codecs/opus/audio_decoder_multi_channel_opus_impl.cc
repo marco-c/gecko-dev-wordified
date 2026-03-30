@@ -350,7 +350,13 @@ new
 AudioDecoderMultiChannelOpusImpl
 (
 dec_state
+std
+:
+:
+move
+(
 config
+)
 )
 )
 ;
@@ -373,7 +379,13 @@ dec_state
 )
 config_
 (
+std
+:
+:
+move
+(
 config
+)
 )
 {
 RTC_DCHECK
