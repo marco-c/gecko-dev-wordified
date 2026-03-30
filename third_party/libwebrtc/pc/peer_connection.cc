@@ -8741,9 +8741,7 @@ legacy_stats_
 get
 (
 )
-rtp_manager
-(
-)
+nullptr
 rtp_manager
 (
 )
@@ -8818,9 +8816,7 @@ worker_thread
 CreateRandomUuid
 (
 )
-rtp_manager
-(
-)
+nullptr
 rtp_manager
 (
 )

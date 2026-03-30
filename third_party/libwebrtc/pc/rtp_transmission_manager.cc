@@ -553,12 +553,13 @@ signaling_thread
 )
 )
 ;
-if
+RTC_DCHECK
 (
 IsUnifiedPlan
 (
 )
 )
+;
 OnNegotiationNeeded
 (
 )
