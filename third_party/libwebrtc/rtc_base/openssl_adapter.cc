@@ -2734,6 +2734,10 @@ reset
 (
 )
 ;
+ERR_clear_error
+(
+)
+;
 int
 code
 =
@@ -3284,6 +3288,10 @@ error
 !
 =
 nullptr
+)
+;
+ERR_clear_error
+(
 )
 ;
 ssl_write_needs_read_
@@ -4261,6 +4269,10 @@ return
 0
 ;
 }
+ERR_clear_error
+(
+)
+;
 ssl_read_needs_write_
 =
 false
