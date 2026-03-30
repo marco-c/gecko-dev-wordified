@@ -903,7 +903,7 @@ out_buffer
 Buffer
 :
 :
-CreateUninitializedWithSize
+CreateWithCapacity
 (
 buffer
 .
@@ -924,7 +924,7 @@ data
 )
 out_buffer
 .
-size
+capacity
 (
 )
 )
