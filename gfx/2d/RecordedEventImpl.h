@@ -10864,6 +10864,12 @@ mHasExistingData
 =
 false
 ;
+aStream
+.
+SetIsBad
+(
+)
+;
 return
 ;
 }
