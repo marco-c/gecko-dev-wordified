@@ -488,21 +488,6 @@ document_element
 )
         
 #
-self
-.
-marionette
-.
-set_window_rect
-(
-width
-=
-100
-height
-=
-100
-)
-        
-#
 A
 full
 capture
