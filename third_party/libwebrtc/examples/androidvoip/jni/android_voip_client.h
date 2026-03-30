@@ -479,7 +479,7 @@ const
 jni_zero
 :
 :
-JavaParamRef
+JavaRef
 <
 jobject
 >
@@ -489,7 +489,7 @@ const
 jni_zero
 :
 :
-JavaParamRef
+JavaRef
 <
 jobject
 >
@@ -611,7 +611,7 @@ const
 jni_zero
 :
 :
-JavaParamRef
+JavaRef
 <
 jstring
 >
@@ -640,7 +640,7 @@ const
 jni_zero
 :
 :
-JavaParamRef
+JavaRef
 <
 jobject
 >
@@ -709,7 +709,7 @@ const
 jni_zero
 :
 :
-JavaParamRef
+JavaRef
 <
 jstring
 >
@@ -729,7 +729,7 @@ const
 jni_zero
 :
 :
-JavaParamRef
+JavaRef
 <
 jstring
 >
@@ -1103,7 +1103,7 @@ const
 jni_zero
 :
 :
-JavaParamRef
+JavaRef
 <
 jobject
 >
@@ -1121,7 +1121,7 @@ const
 jni_zero
 :
 :
-JavaParamRef
+JavaRef
 <
 jobject
 >
