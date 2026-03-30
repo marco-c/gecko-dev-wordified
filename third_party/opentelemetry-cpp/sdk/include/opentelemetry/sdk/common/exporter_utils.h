@@ -22,6 +22,11 @@ pragma
 once
 #
 include
+<
+cstdint
+>
+#
+include
 "
 opentelemetry
 /
@@ -57,6 +62,11 @@ Records
 enum
 class
 ExportResult
+:
+std
+:
+:
+uint8_t
 {
 /
 /

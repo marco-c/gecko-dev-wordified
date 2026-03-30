@@ -158,7 +158,9 @@ inline
 void
 take_span_context_kv
 (
+const
 SpanContext
+&
 opentelemetry
 :
 :
@@ -203,7 +205,9 @@ inline
 void
 take_span_context_kv
 (
+const
 SpanContext
+&
 T
 &
 )
@@ -213,7 +217,9 @@ inline
 void
 take_span_context_kv
 (
+const
 SpanContext
+&
 std
 :
 :
@@ -519,7 +525,9 @@ container_
 bool
 do_callback
 (
+const
 SpanContext
+&
 span_context
 const
 common
@@ -597,7 +605,9 @@ nullptr
 bool
 do_callback
 (
+const
 SpanContext
+&
 span_context
 const
 U
@@ -645,7 +655,9 @@ callback
 bool
 do_callback
 (
+const
 SpanContext
+&
 span_context
 std
 :

@@ -53,7 +53,7 @@ kDisabledConfig
 =
 TracerConfig
 (
-true
+false
 )
 ;
 return
@@ -109,8 +109,7 @@ const
 noexcept
 {
 return
-!
-disabled_
+enabled_
 ;
 }
 OPENTELEMETRY_EXPORT
@@ -131,12 +130,12 @@ const
 noexcept
 {
 return
-disabled_
+enabled_
 =
 =
 other
 .
-disabled_
+enabled_
 ;
 }
 }

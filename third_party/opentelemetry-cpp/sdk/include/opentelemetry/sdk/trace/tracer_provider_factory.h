@@ -147,8 +147,13 @@ TracerProvider
 *
 See
 ref
+opentelemetry
+:
+:
+trace
+:
+:
 TracerProvider
-.
 *
 /
 class

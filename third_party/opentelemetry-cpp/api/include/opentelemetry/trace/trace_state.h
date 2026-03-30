@@ -413,6 +413,9 @@ cnt
 ;
 bool
 kv_valid
+{
+false
+}
 ;
 nostd
 :
