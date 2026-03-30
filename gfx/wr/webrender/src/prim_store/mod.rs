@@ -5025,6 +5025,12 @@ BoxShadow
 data_handle
 :
 BoxShadowDataHandle
+render_task
+:
+Option
+<
+RenderTaskId
+>
 }
 }
 impl

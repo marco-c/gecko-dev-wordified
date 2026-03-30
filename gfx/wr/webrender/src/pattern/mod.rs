@@ -206,6 +206,9 @@ Repeat
 Mask
 =
 3
+BoxShadow
+=
+4
 /
 /
 When
@@ -228,7 +231,7 @@ NUM_PATTERNS
 :
 u32
 =
-4
+5
 ;
 impl
 PatternKind
