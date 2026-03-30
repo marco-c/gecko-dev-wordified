@@ -4848,9 +4848,12 @@ runtime
 )
 -
 >
-destroyRealmCallback
-=
+gc
+.
+setDestroyRealmCallback
+(
 callback
+)
 ;
 }
 JS_PUBLIC_API
