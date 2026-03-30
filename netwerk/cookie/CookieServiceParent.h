@@ -468,7 +468,7 @@ ContentProcessHasCookie
 const
 nsACString
 &
-aHost
+aBaseDomain
 const
 OriginAttributes
 &
