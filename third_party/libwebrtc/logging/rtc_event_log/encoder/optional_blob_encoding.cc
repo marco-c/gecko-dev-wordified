@@ -327,15 +327,6 @@ BitBufferWriter
 writer
 (
 buffer
-.
-data
-(
-)
-buffer
-.
-size
-(
-)
 )
 ;
 /
@@ -397,7 +388,7 @@ writer
 .
 writer
 .
-ConsumeBits
+ZeroBits
 (
 writer
 .
