@@ -725,6 +725,9 @@ assertions
 .
 bool
 mConsuming
+{
+false
+}
 ;
 #
 endif
@@ -755,6 +758,9 @@ input
 .
 bool
 mNeedMoreInput
+{
+false
+}
 ;
 /
 /
@@ -791,6 +797,9 @@ tokenizer
 .
 bool
 mRollback
+{
+false
+}
 ;
 /
 /
@@ -848,6 +857,9 @@ nsCString
 :
 index_type
 mInputCursor
+{
+0
+}
 ;
 /
 /
