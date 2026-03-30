@@ -185,13 +185,13 @@ avx512
 log
 =
 /
-home
+builds
 /
-cm
+worker
 /
-Work
+checkouts
 /
-firefox
+gecko
 /
 media
 /

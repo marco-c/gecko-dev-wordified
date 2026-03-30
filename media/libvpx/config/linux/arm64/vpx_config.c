@@ -197,13 +197,13 @@ sve
 log
 =
 /
-home
+builds
 /
-cm
+worker
 /
-Work
+checkouts
 /
-firefox
+gecko
 /
 media
 /
