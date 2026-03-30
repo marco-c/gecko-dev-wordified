@@ -9600,6 +9600,17 @@ get_UntrustedShmemSection
 (
 )
 ;
+size_t
+minSize
+=
+sizeof
+(
+ShmemTextureReadLock
+:
+:
+ShmReadLockInfo
+)
+;
 Maybe
 <
 ShmemSection
@@ -9612,6 +9623,7 @@ ShmemSection
 FromUntrusted
 (
 untrusted
+minSize
 )
 ;
 if
