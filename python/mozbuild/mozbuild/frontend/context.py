@@ -287,6 +287,8 @@ place
 "
 "
 import
+functools
+import
 itertools
 import
 operator
@@ -314,7 +316,15 @@ util
 import
 (
     
+CCompilerFlag
+    
+CxxCompilerFlag
+    
 HierarchicalStringList
+    
+HostCCompilerFlag
+    
+HostCxxCompilerFlag
     
 ImmutableStrictOrderingOnAppendList
     
@@ -333,10 +343,6 @@ StrictOrderingOnAppendListWithFlagsFactory
 TypedList
     
 TypedNamedTuple
-    
-memoize
-    
-memoized_property
 )
 from
 .
@@ -689,6 +695,12 @@ context
 "
 "
 "
+    
+__hash__
+=
+object
+.
+__hash__
     
 def
 __init__
@@ -1242,7 +1254,9 @@ main_path
 :
 ]
     
-memoized_property
+functools
+.
+cached_property
     
 def
 objdir
@@ -1273,7 +1287,9 @@ rstrip
 "
 )
     
-memoize
+functools
+.
+cache
     
 def
 _srcdir
@@ -1331,7 +1347,9 @@ self
 main_path
 )
     
-memoize
+functools
+.
+cache
     
 def
 _relsrcdir
@@ -1387,7 +1405,9 @@ self
 main_path
 )
     
-memoized_property
+functools
+.
+cached_property
     
 def
 relobjdir
@@ -6840,7 +6860,9 @@ self
 full_path
 )
     
-memoized_property
+functools
+.
+cached_property
     
 def
 target_basename
@@ -7052,7 +7074,9 @@ path
 return
 self
     
-memoized_property
+functools
+.
+cached_property
     
 def
 translated
@@ -7524,7 +7548,9 @@ value
         
 return
 self
-memoize
+functools
+.
+cache
 def
 ContextDerivedTypedList
 (
@@ -7634,7 +7660,9 @@ e
     
 return
 _TypedList
-memoize
+functools
+.
+cache
 def
 ContextDerivedTypedListWithItems
 (
@@ -7700,7 +7728,9 @@ name
     
 return
 _TypedListWithItems
-memoize
+functools
+.
+cache
 def
 ContextDerivedTypedRecord
 (
@@ -8501,7 +8531,9 @@ exclusive
 =
 exclusive
 )
-memoize
+functools
+.
+cache
 def
 ContextDerivedTypedHierarchicalStringList
 (
@@ -17313,7 +17345,10 @@ CFLAGS
 :
 (
         
-List
+TypedList
+(
+CCompilerFlag
+)
         
 list
         
@@ -17389,7 +17424,10 @@ CXXFLAGS
 :
 (
         
-List
+TypedList
+(
+CxxCompilerFlag
+)
         
 list
         
@@ -18060,7 +18098,10 @@ HOST_CFLAGS
 :
 (
         
-List
+TypedList
+(
+HostCCompilerFlag
+)
         
 list
         
@@ -18137,7 +18178,10 @@ HOST_CXXFLAGS
 :
 (
         
-List
+TypedList
+(
+HostCxxCompilerFlag
+)
         
 list
         

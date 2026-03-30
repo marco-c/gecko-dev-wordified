@@ -382,7 +382,12 @@ c
 '
 #
 ]
-CFLAGS
+COMPILE_FLAGS
+[
+"
+WARNINGS_CFLAGS
+"
+]
 +
 =
 [
