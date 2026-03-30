@@ -1954,11 +1954,6 @@ false
 "
 "
     
-requirements
-=
-[
-]
-    
 def
 run
 (
