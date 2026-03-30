@@ -331,8 +331,6 @@ MACH_TRY_REMOTE
 HG_TRY_URL
 TREEHERDER_LANDO_TRY_RUN_URL
 =
-(
-    
 "
 https
 :
@@ -350,13 +348,18 @@ repo
 =
 try
 &
+landoInstance
+=
+{
+lando_instance
+}
+&
 landoCommitID
 =
 {
 job_id
 }
 "
-)
 here
 =
 os
@@ -1639,7 +1642,7 @@ True
 else
 :
             
-job_id
+push_data
 =
 push_to_lando_try
 (
@@ -1649,7 +1652,27 @@ changed_files
 metrics
 )
             
+lando_instance
+=
+push_data
+[
+"
+lando_instance
+"
+]
+            
+job_id
+=
+push_data
+[
+"
+lando_job_id
+"
+]
+            
 if
+lando_instance
+and
 job_id
 :
                 
@@ -1676,6 +1699,9 @@ TREEHERDER_LANDO_TRY_RUN_URL
 .
 format
 (
+lando_instance
+=
+lando_instance
 job_id
 =
 job_id
@@ -1686,7 +1712,7 @@ job_id
 )
             
 return
-job_id
+push_data
     
 except
 MissingVCSExtension

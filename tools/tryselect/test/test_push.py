@@ -1513,6 +1513,8 @@ def
 test_push_to_try_routing
 (
     
+mock_push_to_lando_try
+    
 url
     
 push_to_vcs
@@ -1623,23 +1625,7 @@ stack
 .
 enter_context
 (
-            
-patch
-(
-"
-tryselect
-.
-push
-.
-push_to_lando_try
-"
-return_value
-=
-"
-job123
-"
-)
-        
+mock_push_to_lando_try
 )
         
 stack

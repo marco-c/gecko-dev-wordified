@@ -9189,7 +9189,7 @@ sense
 to
 )
                     
-lando_commit_id
+push_data
 =
 push_to_try
 (
@@ -9248,7 +9248,14 @@ False
                     
 if
 not
-lando_commit_id
+push_data
+or
+"
+lando_job_id
+"
+not
+in
+push_data
 :
                         
 return
@@ -9259,7 +9266,14 @@ push_info
 .
 base_lando_commit_id
 =
-lando_commit_id
+push_data
+[
+                        
+"
+lando_job_id
+"
+                    
+]
                 
 else
 :
@@ -9389,7 +9403,7 @@ not
 push_to_vcs
 :
                 
-lando_commit_id
+push_data
 =
 push_to_try
 (
@@ -9459,7 +9473,14 @@ False
                 
 if
 not
-lando_commit_id
+push_data
+or
+"
+lando_job_id
+"
+not
+in
+push_data
 :
                     
 return
@@ -9470,7 +9491,12 @@ push_info
 .
 new_lando_commit_id
 =
-lando_commit_id
+push_data
+[
+"
+lando_job_id
+"
+]
             
 else
 :
