@@ -5803,7 +5803,6 @@ ToColorSpace2
 mYUVColorSpace
 )
 mColorRange
-mTransferFunction
 mColorDepth
 )
 ;
@@ -5912,7 +5911,6 @@ ToColorSpace2
 mYUVColorSpace
 )
 mColorRange
-mTransferFunction
 mColorDepth
 )
 ;
@@ -8433,7 +8431,6 @@ ToColorSpace2
 mYUVColorSpace
 )
 mColorRange
-mTransferFunction
 mColorDepth
 )
 ;
@@ -8889,7 +8886,6 @@ ToColorSpace2
 mYUVColorSpace
 )
 mColorRange
-mTransferFunction
 aInTexture
 .
 mIndex

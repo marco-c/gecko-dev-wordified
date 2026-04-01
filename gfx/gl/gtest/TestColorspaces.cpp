@@ -100,7 +100,7 @@ float
 TfFromLinear
 (
 const
-TransferFunctionDesc
+PiecewiseGammaDesc
 &
 float
 linear
@@ -110,7 +110,7 @@ float
 LinearFromTf
 (
 const
-TransferFunctionDesc
+PiecewiseGammaDesc
 &
 float
 tf
@@ -1048,7 +1048,7 @@ Chromaticities
 Rec709
 (
 )
-TransferFunctionDesc
+PiecewiseGammaDesc
 :
 :
 Rec709
@@ -1084,7 +1084,7 @@ Chromaticities
 Rec709
 (
 )
-TransferFunctionDesc
+PiecewiseGammaDesc
 :
 :
 Rec709
@@ -1293,7 +1293,7 @@ Chromaticities
 Rec709
 (
 )
-TransferFunctionDesc
+PiecewiseGammaDesc
 :
 :
 Rec709
@@ -1329,7 +1329,7 @@ Chromaticities
 Rec709
 (
 )
-TransferFunctionDesc
+PiecewiseGammaDesc
 :
 :
 Rec709
@@ -1549,7 +1549,7 @@ Chromaticities
 Rec709
 (
 )
-TransferFunctionDesc
+PiecewiseGammaDesc
 :
 :
 Rec709
@@ -1585,7 +1585,7 @@ Chromaticities
 Rec709
 (
 )
-TransferFunctionDesc
+PiecewiseGammaDesc
 :
 :
 Rec709
@@ -1777,7 +1777,7 @@ Chromaticities
 Rec709
 (
 )
-TransferFunctionDesc
+PiecewiseGammaDesc
 :
 :
 Rec709
@@ -1813,7 +1813,7 @@ Chromaticities
 Rec709
 (
 )
-TransferFunctionDesc
+PiecewiseGammaDesc
 :
 :
 Rec709
@@ -1991,14 +1991,14 @@ ivec3
 TEST
 (
 Colorspaces
-TransferFunctionDesc_Srgb
+PiecewiseGammaDesc_Srgb
 )
 {
 const
 auto
 tf
 =
-TransferFunctionDesc
+PiecewiseGammaDesc
 :
 :
 Srgb
@@ -2361,14 +2361,14 @@ tf
 TEST
 (
 Colorspaces
-TransferFunctionDesc_Rec709
+PiecewiseGammaDesc_Rec709
 )
 {
 const
 auto
 tf
 =
-TransferFunctionDesc
+PiecewiseGammaDesc
 :
 :
 Rec709
@@ -2731,7 +2731,7 @@ tf
 TEST
 (
 Colorspaces
-ColorspaceTransform_TransferFunctionDesc
+ColorspaceTransform_PiecewiseGammaDesc
 )
 {
 const
@@ -2764,7 +2764,7 @@ Chromaticities
 Srgb
 (
 )
-TransferFunctionDesc
+PiecewiseGammaDesc
 :
 :
 Srgb
@@ -3047,7 +3047,7 @@ Chromaticities
 Rec709
 (
 )
-TransferFunctionDesc
+PiecewiseGammaDesc
 :
 :
 Rec709
@@ -3083,7 +3083,7 @@ Chromaticities
 Srgb
 (
 )
-TransferFunctionDesc
+PiecewiseGammaDesc
 :
 :
 Srgb
@@ -3257,7 +3257,7 @@ Chromaticities
 DisplayP3
 (
 )
-TransferFunctionDesc
+PiecewiseGammaDesc
 :
 :
 DisplayP3
@@ -3277,7 +3277,7 @@ Chromaticities
 Srgb
 (
 )
-TransferFunctionDesc
+PiecewiseGammaDesc
 :
 :
 Srgb
@@ -3527,7 +3527,7 @@ Chromaticities
 DisplayP3
 (
 )
-TransferFunctionDesc
+PiecewiseGammaDesc
 :
 :
 DisplayP3
@@ -3547,7 +3547,7 @@ Chromaticities
 Srgb
 (
 )
-TransferFunctionDesc
+PiecewiseGammaDesc
 :
 :
 Srgb
@@ -4899,7 +4899,7 @@ Chromaticities
 Rec709
 (
 )
-TransferFunctionDesc
+PiecewiseGammaDesc
 :
 :
 Rec709
@@ -4935,7 +4935,7 @@ Chromaticities
 Rec709
 (
 )
-TransferFunctionDesc
+PiecewiseGammaDesc
 :
 :
 Rec709
@@ -5044,7 +5044,7 @@ Chromaticities
 Rec709
 (
 )
-TransferFunctionDesc
+PiecewiseGammaDesc
 :
 :
 Rec709
@@ -5080,7 +5080,7 @@ Chromaticities
 Srgb
 (
 )
-TransferFunctionDesc
+PiecewiseGammaDesc
 :
 :
 Srgb
@@ -6425,7 +6425,7 @@ Chromaticities
 Srgb
 (
 )
-TransferFunctionDesc
+PiecewiseGammaDesc
 :
 :
 Srgb
@@ -6450,7 +6450,7 @@ Chromaticities
 Rec709
 (
 )
-TransferFunctionDesc
+PiecewiseGammaDesc
 :
 :
 Rec709
@@ -6509,7 +6509,7 @@ const
 auto
 tfa
 =
-TransferFunctionDesc
+PiecewiseGammaDesc
 :
 :
 Srgb
@@ -6520,7 +6520,7 @@ const
 auto
 tfb
 =
-TransferFunctionDesc
+PiecewiseGammaDesc
 :
 :
 Srgb
@@ -6688,7 +6688,7 @@ const
 auto
 tfa
 =
-TransferFunctionDesc
+PiecewiseGammaDesc
 :
 :
 Rec709
@@ -6699,7 +6699,7 @@ const
 auto
 tfb
 =
-TransferFunctionDesc
+PiecewiseGammaDesc
 :
 :
 Rec709
@@ -6867,7 +6867,7 @@ const
 auto
 tfa
 =
-TransferFunctionDesc
+PiecewiseGammaDesc
 :
 :
 Rec709
@@ -6878,7 +6878,7 @@ const
 auto
 tfb
 =
-TransferFunctionDesc
+PiecewiseGammaDesc
 :
 :
 Srgb
@@ -7070,7 +7070,7 @@ Chromaticities
 Srgb
 (
 )
-TransferFunctionDesc
+PiecewiseGammaDesc
 :
 :
 Srgb
@@ -7095,7 +7095,7 @@ Chromaticities
 DisplayP3
 (
 )
-TransferFunctionDesc
+PiecewiseGammaDesc
 :
 :
 DisplayP3

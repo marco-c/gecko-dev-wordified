@@ -2460,11 +2460,6 @@ aColorRange
 gfx
 :
 :
-TransferFunction
-aTransferFunction
-gfx
-:
-:
 ChromaSubsampling
 aSubsampling
 TextureFlags

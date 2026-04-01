@@ -227,16 +227,6 @@ override
 gfx
 :
 :
-TransferFunction
-GetTransferFunction
-(
-)
-const
-override
-;
-gfx
-:
-:
 IntSize
 GetSize
 (

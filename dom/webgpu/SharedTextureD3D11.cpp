@@ -963,13 +963,6 @@ ColorRange
 :
 :
 FULL
-gfx
-:
-:
-TransferFunction
-:
-:
-SRGB
 /
 *
 hasKeyedMutex

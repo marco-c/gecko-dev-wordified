@@ -754,10 +754,6 @@ mColorRange
 data
 -
 >
-mTransferFunction
-data
--
->
 mChromaSubsampling
 TextureFlags
 :
