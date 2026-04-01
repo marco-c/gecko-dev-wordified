@@ -388,6 +388,7 @@ T
 >
 class
 MOZ_IS_REFPTR
+MOZ_NULL_AFTER_MOVE
 RefPtr
 {
 private
