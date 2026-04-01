@@ -431,7 +431,7 @@ SetBaseValue
 (
 viewBox
 mRoot
-true
+false
 )
 ;
 mValid
@@ -761,8 +761,10 @@ true
 }
 private
 :
+RefPtr
+<
 SVGSVGElement
-*
+>
 mRoot
 ;
 std
