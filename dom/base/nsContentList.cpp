@@ -3337,6 +3337,8 @@ nsString
 >
 &
 aNames
+FilterElementWithName
+aFilter
 )
 {
 BringSelfUpToDate
@@ -3444,6 +3446,8 @@ id
 ;
 }
 }
+if
+(
 nsGenericHTMLElement
 *
 el
@@ -3455,10 +3459,6 @@ FromNode
 (
 content
 )
-;
-if
-(
-el
 )
 {
 /
@@ -3549,6 +3549,18 @@ nsAttrValue
 :
 :
 eAtom
+&
+&
+(
+!
+aFilter
+|
+|
+aFilter
+(
+el
+)
+)
 )
 {
 nsAtom
