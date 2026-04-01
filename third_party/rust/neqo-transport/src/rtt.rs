@@ -898,7 +898,6 @@ qlog
 metrics_updated
 (
 qlog
-&
 [
 qlog
 :

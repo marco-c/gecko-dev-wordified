@@ -2998,7 +2998,6 @@ mut
 self
 .
 qlog
-&
 [
 qlog
 :
@@ -3358,7 +3357,6 @@ mut
 self
 .
 qlog
-&
 [
 qlog
 :
@@ -3674,7 +3672,6 @@ mut
 self
 .
 qlog
-&
 [
 qlog
 :
@@ -3744,7 +3741,6 @@ mut
 self
 .
 qlog
-&
 [
 qlog
 :
@@ -4036,7 +4032,6 @@ mut
 self
 .
 qlog
-&
 [
 qlog
 :
@@ -5584,7 +5579,6 @@ mut
 self
 .
 qlog
-&
 [
 qlog
 :
@@ -5599,6 +5593,20 @@ self
 current
 .
 congestion_window
+)
+qlog
+:
+:
+Metric
+:
+:
+SsThresh
+(
+self
+.
+current
+.
+ssthresh
 )
 ]
 now
@@ -6118,7 +6126,6 @@ mut
 self
 .
 qlog
-&
 [
 qlog
 :

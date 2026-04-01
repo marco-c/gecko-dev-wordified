@@ -6366,7 +6366,6 @@ mut
 self
 .
 qlog
-&
 [
 qlog
 :
