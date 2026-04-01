@@ -101,11 +101,10 @@ BUG_COMPONENT
 Core
 "
 "
-DOM
+Machine
+Learning
 :
-Core
-&
-HTML
+General
 "
 )
 XPIDL_SOURCES
