@@ -1010,12 +1010,9 @@ mErrorFlags
 report
 .
 mCategory
-uint32_t
-(
 report
 .
 mPropertiesFile
-)
 report
 .
 mSourceFileURI
