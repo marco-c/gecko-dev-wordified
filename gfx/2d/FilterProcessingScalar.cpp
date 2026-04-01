@@ -1341,6 +1341,8 @@ inputIndex
 y
 *
 aSourceStride
++
+x
 ;
 int32_t
 targetIndex
@@ -1348,6 +1350,8 @@ targetIndex
 y
 *
 aTargetStride
++
+x
 ;
 aTargetData
 [
