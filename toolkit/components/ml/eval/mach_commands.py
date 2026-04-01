@@ -1714,7 +1714,8 @@ print
 Unset
 with
 :
-unset
+\
+nunset
 MOZ_MLPA_AUTHORIZATION_TOKEN
 "
 )

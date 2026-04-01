@@ -32,6 +32,11 @@ use
 strict
 "
 ;
+requestLongerTimeout
+(
+3
+)
+;
 const
 evalMetadata
 =
