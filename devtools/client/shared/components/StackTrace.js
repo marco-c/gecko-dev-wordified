@@ -202,7 +202,7 @@ LocalizationHelper
 "
 devtools
 /
-client
+shared
 /
 locales
 /

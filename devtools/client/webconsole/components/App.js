@@ -691,11 +691,9 @@ resource
 /
 devtools
 /
-client
+shared
 /
 webconsole
-/
-utils
 /
 l10n
 .
