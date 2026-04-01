@@ -4089,6 +4089,12 @@ border
 top
 }
 ;
+const
+nsRect
+preGridCB
+=
+containingBlock
+;
 /
 /
 Shift
@@ -4122,6 +4128,7 @@ defaultAnchorInfo
 return
 ModifiedContainingBlock
 {
+preGridCB
 containingBlock
 }
 ;
@@ -17063,7 +17070,7 @@ aOverflowAreas
 aOverflowAreas
 -
 >
-UnionWith
+UnionWithAbsoluteOverflowAreas
 (
 aKidFrame
 -
