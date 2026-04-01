@@ -143,6 +143,9 @@ env_vars
 "
 TASKCLUSTER_ROOT_URL
 "
+"
+MOZ_SCM_LEVEL
+"
 ]
 )
 def
@@ -215,6 +218,34 @@ MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE
 None
 )
     
+params
+=
+{
+"
+level
+"
+:
+os
+.
+environ
+.
+get
+(
+"
+MOZ_SCM_LEVEL
+"
+"
+3
+"
+)
+"
+files_changed
+"
+:
+[
+]
+}
+    
 import
 sys
     
@@ -247,6 +278,46 @@ output_file
 f
 .
 name
+    
+with
+tempfile
+.
+NamedTemporaryFile
+(
+        
+mode
+=
+"
+w
+"
+suffix
+=
+"
+.
+json
+"
+delete
+=
+False
+    
+)
+as
+params_file
+:
+        
+params_path
+=
+params_file
+.
+name
+        
+json
+.
+dump
+(
+params
+params_file
+)
     
 try
 :
@@ -306,6 +377,13 @@ file
 "
                 
 output_file
+                
+"
+-
+p
+"
+                
+params_path
             
 ]
             
@@ -395,6 +473,13 @@ os
 unlink
 (
 output_file
+)
+        
+os
+.
+unlink
+(
+params_path
 )
     
 for
