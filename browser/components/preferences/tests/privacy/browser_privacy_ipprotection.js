@@ -120,6 +120,8 @@ components
 /
 ipprotection
 /
+fxa
+/
 IPPEnrollAndEntitleManager
 .
 sys
