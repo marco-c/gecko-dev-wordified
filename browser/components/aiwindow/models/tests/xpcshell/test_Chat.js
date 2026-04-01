@@ -222,6 +222,21 @@ mjs
 "
 )
 ;
+const
+DEFAULT_CONTEXT
+=
+{
+telemetry
+:
+{
+location
+:
+"
+home
+"
+}
+}
+;
 /
 /
 Prefs
@@ -1086,6 +1101,7 @@ fetchWithHistory
 (
 conversation
 engineInstance
+DEFAULT_CONTEXT
 )
 ;
 Assert
@@ -1516,6 +1532,7 @@ fetchWithHistory
 (
 conversation
 engineInstance
+DEFAULT_CONTEXT
 )
 ;
 const
@@ -1946,6 +1963,7 @@ fetchWithHistory
 (
 conversation
 engineInstance
+DEFAULT_CONTEXT
 )
 ;
 }
@@ -2297,6 +2315,7 @@ fetchWithHistory
 (
 conversation
 engineInstance
+DEFAULT_CONTEXT
 )
 ;
 Assert
@@ -2683,6 +2702,7 @@ fetchWithHistory
 (
 conversation
 engineInstance
+DEFAULT_CONTEXT
 )
 ;
 /
@@ -3397,6 +3417,7 @@ fetchWithHistory
 (
 conversation
 engineInstance
+DEFAULT_CONTEXT
 )
 ;
 Assert
@@ -3855,6 +3876,7 @@ fetchWithHistory
 (
 conversation
 engineInstance
+DEFAULT_CONTEXT
 )
 ;
 Assert
@@ -4349,6 +4371,15 @@ browsingContext
 embedderElement
 :
 mockBrowser
+}
+telemetry
+:
+{
+location
+:
+"
+home
+"
 }
 }
 ;
@@ -5497,6 +5528,7 @@ fetchWithHistory
 (
 conversation
 engineInstance
+DEFAULT_CONTEXT
 )
 ;
 Assert
@@ -5891,6 +5923,7 @@ fetchWithHistory
 (
 conversation
 engineInstance
+DEFAULT_CONTEXT
 )
 ;
 Assert

@@ -227,6 +227,21 @@ mjs
 "
 )
 ;
+const
+DEFAULT_CONTEXT
+=
+{
+telemetry
+:
+{
+location
+:
+"
+home
+"
+}
+}
+;
 function
 getLastAssistantResponse
 (
@@ -436,6 +451,7 @@ fetchWithHistory
 (
 conversation
 engineInstance
+DEFAULT_CONTEXT
 )
 ;
 Assert
@@ -991,6 +1007,7 @@ fetchWithHistory
 (
 conversation
 engineInstance
+DEFAULT_CONTEXT
 )
 ;
 Assert
@@ -1407,6 +1424,7 @@ fetchWithHistory
 (
 conversation
 engineInstance
+DEFAULT_CONTEXT
 )
 ;
 Assert
@@ -1767,6 +1785,7 @@ fetchWithHistory
 (
 conversation
 engineInstance
+DEFAULT_CONTEXT
 )
 ;
 Assert
@@ -2228,6 +2247,7 @@ fetchWithHistory
 (
 conversation
 engineInstance
+DEFAULT_CONTEXT
 )
 ;
 Assert
