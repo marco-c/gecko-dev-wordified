@@ -457,6 +457,17 @@ setPanelState
 (
 )
 ;
+IPProtection
+.
+getPanel
+(
+window
+)
+.
+initiatedUpgrade
+=
+false
+;
 BrowserTestUtils
 .
 removeTab
