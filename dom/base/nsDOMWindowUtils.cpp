@@ -23280,10 +23280,6 @@ nsDOMWindowUtils
 :
 WrStartCaptureSequence
 (
-const
-nsACString
-&
-aPath
 uint32_t
 aFlags
 )
@@ -23304,10 +23300,6 @@ wrbc
 >
 StartCaptureSequence
 (
-nsCString
-(
-aPath
-)
 aFlags
 )
 ;

@@ -1010,10 +1010,6 @@ IPCResult
 RecvStartCaptureSequence
 (
 const
-nsACString
-&
-path
-const
 uint32_t
 &
 aFlags

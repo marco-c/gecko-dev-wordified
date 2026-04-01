@@ -14948,10 +14948,6 @@ WebRenderBridgeParent
 RecvStartCaptureSequence
 (
 const
-nsACString
-&
-aPath
-const
 uint32_t
 &
 aFlags
@@ -14972,7 +14968,6 @@ mApi
 >
 StartCaptureSequence
 (
-aPath
 aFlags
 )
 ;
