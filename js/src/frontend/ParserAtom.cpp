@@ -4579,13 +4579,6 @@ content
 MOZ_ASSERT
 (
 !
-reinterpret_cast
-<
-const
-Latin1Char
-*
->
-(
 IsIdentifier
 (
 reinterpret_cast
@@ -4598,7 +4591,6 @@ Latin1Char
 content
 )
 3
-)
 )
 )
 ;
