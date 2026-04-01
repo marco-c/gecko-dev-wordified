@@ -741,6 +741,7 @@ RefPtr
 <
 AbortFollower
 >
+&
 follower
 :
 mFollowers
@@ -3564,19 +3565,7 @@ Unfollow
 {
 if
 (
-WeakPtr
-<
-AbortSignalImpl
->
-followingSignal
-=
-std
-:
-:
-move
-(
 mFollowingSignal
-)
 )
 {
 /
@@ -3630,7 +3619,7 @@ mFollowingSignal
 mFollowers
 |
 .
-followingSignal
+mFollowingSignal
 -
 >
 mFollowers
@@ -3639,6 +3628,10 @@ RemoveElement
 (
 this
 )
+;
+mFollowingSignal
+=
+nullptr
 ;
 }
 }

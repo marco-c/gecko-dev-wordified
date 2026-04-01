@@ -394,10 +394,6 @@ ActorDestroyReason
 aReason
 )
 {
-Unfollow
-(
-)
-;
 CastedManager
 (
 )
@@ -783,6 +779,10 @@ reason
 )
 ;
 }
+Unfollow
+(
+)
+;
 Send__delete__
 (
 this
