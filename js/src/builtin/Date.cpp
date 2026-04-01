@@ -595,12 +595,6 @@ using
 mozilla
 :
 :
-BitwiseCast
-;
-using
-mozilla
-:
-:
 IsAsciiAlpha
 ;
 using
@@ -620,12 +614,6 @@ mozilla
 :
 :
 Relaxed
-;
-using
-JS
-:
-:
-AutoCheckCannotGC
 ;
 using
 JS
@@ -15270,6 +15258,9 @@ ClippedTime
 result
 )
 {
+JS
+:
+:
 AutoCheckCannotGC
 nogc
 ;
@@ -15781,6 +15772,9 @@ seed
 uint64_t
 midpoint
 =
+mozilla
+:
+:
 BitwiseCast
 <
 uint64_t
