@@ -216,11 +216,6 @@ ProfileAfterChangeGate
 .
 h
 "
-"
-PromiseNativeWrapper
-.
-h
-"
 ]
 UNIFIED_SOURCES
 +
@@ -273,11 +268,6 @@ cpp
 "
 "
 ProfileAfterChangeGate
-.
-cpp
-"
-"
-PromiseNativeWrapper
 .
 cpp
 "
