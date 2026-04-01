@@ -15514,6 +15514,13 @@ attr
 )
 substitution
 .
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 SubstitutionResult
