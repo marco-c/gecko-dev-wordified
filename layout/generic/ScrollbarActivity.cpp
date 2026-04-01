@@ -251,6 +251,9 @@ ActivityOccurred
 (
 )
 {
+nsAutoScriptBlocker
+scriptBlocker
+;
 ActivityStarted
 (
 )
