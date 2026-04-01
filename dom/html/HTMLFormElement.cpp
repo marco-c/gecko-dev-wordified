@@ -1553,8 +1553,10 @@ concept
 form
 -
 submit
+RefPtr
+<
 Document
-*
+>
 doc
 =
 GetComposedDoc
