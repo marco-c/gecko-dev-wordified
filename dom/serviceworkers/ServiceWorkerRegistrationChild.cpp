@@ -126,14 +126,6 @@ if
 mOwner
 )
 {
-RefPtr
-<
-ServiceWorkerRegistration
->
-owner
-=
-mOwner
-;
 mOwner
 -
 >
