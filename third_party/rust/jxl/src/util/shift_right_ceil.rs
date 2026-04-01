@@ -129,6 +129,13 @@ ShiftRightCeil
 for
 S
 {
+#
+[
+inline
+(
+always
+)
+]
 fn
 shrc
 <

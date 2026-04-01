@@ -943,6 +943,9 @@ bytes_per_row
 #
 [
 inline
+(
+always
+)
 ]
 pub
 (

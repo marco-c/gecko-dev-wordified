@@ -62,6 +62,13 @@ s
 )
 range
 .
+#
+[
+inline
+(
+always
+)
+]
 pub
 fn
 mirror

@@ -143,6 +143,9 @@ f32
 #
 [
 inline
+(
+always
+)
 ]
 pub
 fn
@@ -400,6 +403,9 @@ cosx_scale2
 #
 [
 inline
+(
+always
+)
 ]
 pub
 fn
@@ -786,6 +792,9 @@ x
 #
 [
 inline
+(
+always
+)
 ]
 pub
 fn
@@ -1220,6 +1229,9 @@ f32
 #
 [
 inline
+(
+always
+)
 ]
 pub
 fn
@@ -1448,6 +1460,9 @@ error
 #
 [
 inline
+(
+always
+)
 ]
 pub
 fn
@@ -1477,6 +1492,9 @@ exp
 #
 [
 inline
+(
+always
+)
 ]
 pub
 fn
@@ -1522,6 +1540,13 @@ base
 exp
 )
 }
+#
+[
+inline
+(
+always
+)
+]
 pub
 fn
 floor_log2_nonzero

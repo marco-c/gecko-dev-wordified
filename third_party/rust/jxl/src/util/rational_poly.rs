@@ -110,6 +110,9 @@ zero
 #
 [
 inline
+(
+always
+)
 ]
 pub
 fn

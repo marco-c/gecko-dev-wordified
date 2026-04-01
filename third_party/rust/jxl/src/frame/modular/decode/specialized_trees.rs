@@ -352,15 +352,10 @@ self
 .
 property_buffer
 [
-2
-.
-.
+9
 ]
-.
-fill
-(
+=
 0
-)
 ;
 }
 fn
