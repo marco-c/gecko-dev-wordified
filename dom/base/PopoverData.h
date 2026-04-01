@@ -242,6 +242,8 @@ nsWeakPtr
 aSource
 PopoverVisibilityState
 aOldState
+PopoverVisibilityState
+aNewState
 )
 ;
 /
@@ -278,6 +280,16 @@ return
 mOldState
 ;
 }
+PopoverVisibilityState
+GetNewState
+(
+)
+const
+{
+return
+mNewState
+;
+}
 Element
 *
 GetSource
@@ -295,6 +307,9 @@ mSource
 ;
 PopoverVisibilityState
 mOldState
+;
+PopoverVisibilityState
+mNewState
 ;
 }
 ;
