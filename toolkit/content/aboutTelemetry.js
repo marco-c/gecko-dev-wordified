@@ -1271,12 +1271,14 @@ instance
 .
 sendRequest
 (
+{
+type
+:
 "
 Settings
 :
 Show
 "
-{
 resource
 :
 "
