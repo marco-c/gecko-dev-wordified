@@ -207,6 +207,11 @@ gfx
 :
 ColorRange
 aColorRange
+gfx
+:
+:
+TransferFunction
+aTransferFunction
 uint32_t
 aIndex
 ID3D11Texture2D
@@ -221,6 +226,10 @@ aColorSpace
 mColorRange
 (
 aColorRange
+)
+mTransferFunction
+(
+aTransferFunction
 )
 mIndex
 (
@@ -245,6 +254,13 @@ gfx
 :
 ColorRange
 mColorRange
+;
+const
+gfx
+:
+:
+TransferFunction
+mTransferFunction
 ;
 const
 uint32_t

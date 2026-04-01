@@ -610,6 +610,12 @@ mIOSurf
 GetYUVColorSpace
 (
 )
+mIOSurf
+-
+>
+GetTransferFunction
+(
+)
 (
 layers
 :

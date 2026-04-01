@@ -610,6 +610,9 @@ mYUVColorSpace
 mData
 .
 mColorRange
+mData
+.
+mTransferFunction
 )
 mTextureFlags
 forwarder

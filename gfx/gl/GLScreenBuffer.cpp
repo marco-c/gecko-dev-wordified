@@ -143,6 +143,12 @@ gfx
 :
 ColorSpace2
 colorSpace
+const
+gfx
+:
+:
+TransferFunction
+transferFunction
 )
 {
 MOZ_ASSERT
@@ -203,6 +209,12 @@ newDesc
 colorSpace
 =
 colorSpace
+;
+newDesc
+.
+transferFunction
+=
+transferFunction
 ;
 if
 (

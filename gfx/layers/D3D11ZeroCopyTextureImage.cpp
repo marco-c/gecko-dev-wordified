@@ -307,6 +307,12 @@ const
 gfx
 :
 :
+TransferFunction
+aTransferFunction
+const
+gfx
+:
+:
 ColorDepth
 aColorDepth
 )
@@ -346,6 +352,10 @@ aColorSpace
 mColorRange
 (
 aColorRange
+)
+mTransferFunction
+(
+aTransferFunction
 )
 mColorDepth
 (
@@ -462,6 +472,7 @@ mSize
 mFormat
 mColorSpace
 mColorRange
+mTransferFunction
 aKnowsCompositor
 aUsageInfo
 aWriteFence
@@ -581,6 +592,7 @@ src
 mArrayIndex
 mColorSpace
 mColorRange
+mTransferFunction
 )
 ;
 /
@@ -977,6 +989,12 @@ const
 gfx
 :
 :
+TransferFunction
+aTransferFunction
+const
+gfx
+:
+:
 ColorDepth
 aColorDepth
 )
@@ -990,6 +1008,7 @@ aRect
 aFormat
 aColorSpace
 aColorRange
+aTransferFunction
 aColorDepth
 )
 mVideoSample
@@ -1064,6 +1083,12 @@ const
 gfx
 :
 :
+TransferFunction
+aTransferFunction
+const
+gfx
+:
+:
 ColorDepth
 aColorDepth
 )
@@ -1088,6 +1113,7 @@ aWrapper
 mFormat
 aColorSpace
 aColorRange
+aTransferFunction
 aColorDepth
 )
 mWrapper
