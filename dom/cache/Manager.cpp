@@ -4653,6 +4653,11 @@ now
 .
 if
 (
+IsCanceled
+(
+)
+|
+|
 AppShutdown
 :
 :
@@ -5160,6 +5165,11 @@ now
 .
 if
 (
+IsCanceled
+(
+)
+|
+|
 AppShutdown
 :
 :
@@ -8751,6 +8761,11 @@ now
 .
 if
 (
+IsCanceled
+(
+)
+|
+|
 AppShutdown
 :
 :
@@ -9258,6 +9273,11 @@ now
 .
 if
 (
+IsCanceled
+(
+)
+|
+|
 AppShutdown
 :
 :
