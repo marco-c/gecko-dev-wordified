@@ -19589,7 +19589,7 @@ Functions
 /
 static
 bool
-DateTimeCompareFunction
+DateTimeFormatFunction
 (
 JSContext
 *
@@ -19619,7 +19619,7 @@ Steps
 .
 auto
 *
-compare
+format
 =
 &
 args
@@ -19638,7 +19638,7 @@ JSFunction
 auto
 dtfValue
 =
-compare
+format
 -
 >
 getExtendedSlot
@@ -19822,7 +19822,7 @@ fn
 NewNativeFunction
 (
 cx
-DateTimeCompareFunction
+DateTimeFormatFunction
 1
 funName
 gc
