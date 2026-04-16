@@ -906,14 +906,6 @@ use_aecm
 ;
 apm_config
 .
-echo_canceller
-.
-mobile_mode
-=
-use_aecm
-;
-apm_config
-.
 high_pass_filter
 .
 enabled

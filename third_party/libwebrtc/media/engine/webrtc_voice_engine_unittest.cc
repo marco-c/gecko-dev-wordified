@@ -6349,16 +6349,6 @@ enabled
 enabled
 )
 ;
-EXPECT_EQ
-(
-apm_config_
-.
-echo_canceller
-.
-mobile_mode
-false
-)
-;
 }
 bool
 IsHighPassFilterEnabled

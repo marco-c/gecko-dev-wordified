@@ -230,15 +230,6 @@ set
 .
 %
 '
-aecm
-'
-The
-AECM
-test
-set
-.
-%
-'
 agc
 '
 The
@@ -519,9 +510,6 @@ apmm
 '
 '
 aec
-'
-'
-aecm
 '
 '
 agc
