@@ -3194,7 +3194,7 @@ id
 {
 metric
 .
-accumulate_samples
+accumulate_samples_unsigned
 (
 samples
 )
@@ -3331,7 +3331,7 @@ get
 label
 )
 .
-accumulate_samples
+accumulate_samples_unsigned
 (
 samples
 )
@@ -3364,7 +3364,7 @@ id
 label
 )
 .
-accumulate_samples
+accumulate_samples_unsigned
 (
 samples
 )

@@ -9485,7 +9485,7 @@ assert_eq
 value
 [
 "
-key2
+__other__
 "
 ]
 2
