@@ -1538,13 +1538,8 @@ locale
 )
 *
 /
+static
 bool
-js
-:
-:
-intl
-:
-:
 BestAvailableLocale
 (
 JSContext
