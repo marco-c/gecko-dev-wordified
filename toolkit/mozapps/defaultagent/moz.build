@@ -122,11 +122,6 @@ UNIFIED_SOURCES
 =
 [
 "
-Cache
-.
-cpp
-"
-"
 common
 .
 cpp
@@ -304,9 +299,6 @@ taskschd
 userenv
 "
 "
-wininet
-"
-"
 ws2_32
 "
 "
@@ -371,12 +363,10 @@ that
 are
 required
 by
-the
-Cache
-#
 SetDefaultBrowser
+#
 or
-their
+its
 dependencies
 (
 Registry
