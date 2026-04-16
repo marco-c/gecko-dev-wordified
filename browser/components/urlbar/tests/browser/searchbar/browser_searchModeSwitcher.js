@@ -254,7 +254,7 @@ urlbar
 -
 searchmode
 -
-button3
+button2
 "
 "
 Searchbar
@@ -302,7 +302,7 @@ searchmode
 -
 no
 -
-keyword2
+keyword
 "
 "
 Urlbar
@@ -443,15 +443,9 @@ popup
 querySelector
 (
 "
-panel
--
-item
+menuitem
 [
-data
--
-engine
--
-id
+label
 =
 engine2
 ]
