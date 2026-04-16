@@ -4293,9 +4293,6 @@ return
 true
 ;
 }
-#
-ifdef
-DEBUG
 bool
 ChunkPool
 :
@@ -4308,10 +4305,15 @@ chunk
 )
 const
 {
+#
+ifdef
+DEBUG
 verify
 (
 )
 ;
+#
+endif
 for
 (
 ArenaChunk
@@ -4349,6 +4351,9 @@ return
 false
 ;
 }
+#
+ifdef
+DEBUG
 bool
 ChunkPool
 :
