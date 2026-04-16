@@ -178,7 +178,7 @@ var
 (
 -
 -
-arrowpanel
+panel
 -
 dimmed
 )
