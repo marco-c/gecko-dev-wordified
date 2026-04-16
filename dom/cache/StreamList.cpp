@@ -923,6 +923,16 @@ NS_ASSERT_OWNINGTHREAD
 StreamList
 )
 ;
+SafeRefPtr
+<
+StreamList
+>
+kungFuDeathGrip
+=
+SafeRefPtrFromThis
+(
+)
+;
 if
 (
 mStreamControl
