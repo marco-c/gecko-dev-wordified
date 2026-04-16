@@ -1540,7 +1540,11 @@ fetchWithHistory
 .
 callsFake
 (
+(
+{
 conversation
+}
+)
 =
 >
 {
