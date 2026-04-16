@@ -6240,13 +6240,12 @@ toInt
 ;
 if
 (
-arg
-<
 argsobj
 -
 >
-initialLength
+isElement
 (
+arg
 )
 )
 {
