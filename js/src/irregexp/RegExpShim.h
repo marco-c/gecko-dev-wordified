@@ -191,6 +191,17 @@ irregexp
 /
 util
 /
+BitVectorShim
+.
+h
+"
+#
+include
+"
+irregexp
+/
+util
+/
 FlagsShim
 .
 h
