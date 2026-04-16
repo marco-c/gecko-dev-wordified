@@ -729,7 +729,6 @@ process
 assert
 !
 (
-&
 frame
 .
 is_some
@@ -1293,12 +1292,10 @@ unwrap
 (
 )
 {
-assert
+assert_eq
 !
 (
 push_id
-=
-=
 PushId
 :
 :
@@ -1462,10 +1459,6 @@ message
 "
 Hello
 "
-.
-to_string
-(
-)
 )
 ;
 }
@@ -1676,10 +1669,6 @@ message
 "
 Hello
 "
-.
-to_string
-(
-)
 )
 ;
 }

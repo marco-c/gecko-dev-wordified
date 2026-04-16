@@ -186,12 +186,15 @@ use
 crate
 :
 :
+{
+now
 send_data
 :
 :
 {
 SendData
 SendResult
+}
 }
 ;
 pub
@@ -984,9 +987,6 @@ Instant
 let
 now
 =
-Instant
-:
-:
 now
 (
 )

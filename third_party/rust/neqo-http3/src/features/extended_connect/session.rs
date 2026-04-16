@@ -1018,12 +1018,10 @@ now
 )
 ?
 ;
-debug_assert
+debug_assert_eq
 !
 (
 out
-=
-=
 ReceiveOutput
 :
 :
@@ -1120,12 +1118,10 @@ now
 )
 ?
 ;
-debug_assert
+debug_assert_eq
 !
 (
 out
-=
-=
 ReceiveOutput
 :
 :

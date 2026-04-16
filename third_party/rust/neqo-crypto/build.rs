@@ -1138,16 +1138,12 @@ unwrap
 if
 target
 .
-strip_prefix
+starts_with
 (
 "
 aarch64
 -
 "
-)
-.
-is_some
-(
 )
 {
 build_nss

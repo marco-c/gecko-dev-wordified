@@ -865,10 +865,9 @@ RecordList
 type
 Target
 =
-Vec
-<
+[
 Record
->
+]
 ;
 fn
 deref
@@ -879,10 +878,9 @@ self
 -
 >
 &
-Vec
-<
+[
 Record
->
+]
 {
 &
 self
