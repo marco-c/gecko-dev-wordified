@@ -1362,6 +1362,10 @@ NewProxyObject
 return
 ;
 }
+aNewObjectCreated
+=
+true
+;
 bool
 success
 ;
@@ -1396,10 +1400,6 @@ MOZ_ASSERT
 (
 success
 )
-;
-aNewObjectCreated
-=
-true
 ;
 /
 /
