@@ -2460,15 +2460,9 @@ l
 =
 LineIO
 (
-lambda
-l
-:
 lines
 .
 append
-(
-l
-)
 )
         
 l
@@ -2743,15 +2737,9 @@ lines
 with
 LineIO
 (
-lambda
-l
-:
 lines
 .
 append
-(
-l
-)
 )
 as
 l

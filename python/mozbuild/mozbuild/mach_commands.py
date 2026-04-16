@@ -8338,13 +8338,7 @@ False
             
 line_handler
 =
-lambda
-line
-:
 format_gtest_line
-(
-line
-)
         
 )
         
