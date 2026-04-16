@@ -3001,9 +3001,7 @@ thread_
 RTC_DCHECK
 (
 !
-channel
-(
-)
+channel_
 )
 ;
 RTC_DCHECK
