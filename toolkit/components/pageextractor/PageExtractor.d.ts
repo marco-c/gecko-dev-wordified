@@ -235,12 +235,6 @@ boolean
 ;
 export
 type
-GetDOMOptions
-=
-GetTextOptions
-;
-export
-type
 CanvasSnapshot
 =
 {
