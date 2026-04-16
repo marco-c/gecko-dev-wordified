@@ -339,6 +339,11 @@ mProxyCallbacks
 aProxyCallbacks
 )
 {
+MOZ_COUNT_CTOR
+(
+WebrtcTCPSocketChild
+)
+;
 LOG
 (
 (
@@ -365,6 +370,11 @@ WebrtcTCPSocketChild
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+WebrtcTCPSocketChild
+)
+;
 LOG
 (
 (
@@ -461,6 +471,10 @@ not
 main
 thread
 "
+)
+;
+AddIPDLReference
+(
 )
 ;
 Maybe
