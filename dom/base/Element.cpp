@@ -3377,11 +3377,11 @@ return
 ;
 }
 }
-nsIContent
+nsINode
 *
 parent
 =
-GetParent
+GetParentNode
 (
 )
 ;

@@ -10756,7 +10756,14 @@ IsEditable
 (
 )
 const
+{
+return
+HasFlag
+(
+NODE_IS_EDITABLE
+)
 ;
+}
 /
 *
 *
