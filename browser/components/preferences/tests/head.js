@@ -2705,7 +2705,7 @@ gBrowser
 .
 selectedBrowser
 .
-ownerGlobal
+contentWindow
 )
 {
 let
@@ -2837,7 +2837,7 @@ gBrowser
 .
 selectedBrowser
 .
-ownerGlobal
+contentWindow
 )
 {
 return
