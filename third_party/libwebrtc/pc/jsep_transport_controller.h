@@ -841,11 +841,6 @@ disable_encryption
 =
 false
 ;
-bool
-enable_external_auth
-=
-false
-;
 /
 /
 Used
