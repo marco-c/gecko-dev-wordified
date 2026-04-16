@@ -169,8 +169,9 @@ the
 socket
 thread
 .
-delete
-this
+DeleteSelfOnSocketThread
+(
+)
 ;
 return
 0
