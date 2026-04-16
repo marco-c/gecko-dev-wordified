@@ -626,13 +626,7 @@ CongestionWindowPushbackController
 >
 congestion_window_pushback_controller_
 ;
-std
-:
-:
-unique_ptr
-<
 SendSideBandwidthEstimation
->
 bandwidth_estimation_
 ;
 AlrDetector
