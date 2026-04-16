@@ -2333,7 +2333,7 @@ nsPresContext
 ;
 /
 /
-Retrive
+Retrieve
 pseudo
 type
 from
@@ -2359,7 +2359,7 @@ Element
 ;
 /
 /
-Retrive
+Retrieve
 pseudo
 identifier
 from
