@@ -361,8 +361,6 @@ int
 >
 &
 encrypted_header_extension_ids
-int
-rtp_abs_sendtime_extn_id
 const
 TransportDescription
 &
@@ -406,12 +404,6 @@ vector
 int
 >
 encrypted_header_extension_ids
-;
-int
-rtp_abs_sendtime_extn_id
-=
--
-1
 ;
 /
 /

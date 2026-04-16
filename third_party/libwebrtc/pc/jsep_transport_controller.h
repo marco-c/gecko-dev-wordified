@@ -2520,8 +2520,6 @@ int
 >
 &
 encrypted_extension_ids
-int
-rtp_abs_sendtime_extn_id
 )
 ;
 std
@@ -2556,15 +2554,6 @@ vector
 int
 >
 GetEncryptedHeaderExtensionIds
-(
-const
-ContentInfo
-&
-content_info
-)
-;
-int
-GetRtpAbsSendTimeHeaderExtensionId
 (
 const
 ContentInfo
