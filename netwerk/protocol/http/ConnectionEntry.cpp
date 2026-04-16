@@ -449,8 +449,6 @@ ConnectionEntry
 :
 CloseAllConnectionAttempts
 (
-bool
-aReenqueueTransaction
 )
 {
 mConnectionAttemptPool
@@ -458,7 +456,6 @@ mConnectionAttemptPool
 >
 CloseAllConnectionAttempts
 (
-aReenqueueTransaction
 )
 ;
 }
@@ -3800,10 +3797,10 @@ onto
 this
 new
 connection
-.
 /
 /
 Skip
+this
 for
 fallback
 entries
@@ -3823,6 +3820,20 @@ in
 the
 H3
 entry
+not
+/
+/
+here
+.
+Abandoning
+them
+would
+strand
+those
+transactions
+with
+no
+recovery
 .
 if
 (
@@ -3837,7 +3848,6 @@ GetFallbackConnection
 {
 CloseAllConnectionAttempts
 (
-true
 )
 ;
 }
