@@ -2799,13 +2799,9 @@ if
 (
 encoded_image
 .
-_frameType
-=
-=
-VideoFrameType
-:
-:
-kVideoFrameKey
+IsKey
+(
+)
 |
 |
 cur_temporal_index

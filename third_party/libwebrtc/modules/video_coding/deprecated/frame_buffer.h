@@ -451,7 +451,7 @@ LatestPacketTimeMs
 const
 ;
 VideoFrameType
-FrameType
+frame_type
 (
 )
 const

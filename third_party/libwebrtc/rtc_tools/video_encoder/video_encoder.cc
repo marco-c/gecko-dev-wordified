@@ -827,7 +827,9 @@ VideoFrameTypeToString
 (
 encoded_image
 .
-_frameType
+frame_type
+(
+)
 )
 <
 <

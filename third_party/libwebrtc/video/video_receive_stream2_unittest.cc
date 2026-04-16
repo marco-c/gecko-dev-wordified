@@ -5242,7 +5242,7 @@ Build
 frame
 -
 >
-SetFrameType
+set_frame_type
 (
 frame_type
 )

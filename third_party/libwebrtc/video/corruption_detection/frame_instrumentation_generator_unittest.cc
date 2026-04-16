@@ -767,7 +767,7 @@ SetRtpTimestamp
 ;
 encoded_image
 .
-SetFrameType
+set_frame_type
 (
 VideoFrameType
 :
@@ -912,7 +912,7 @@ SetRtpTimestamp
 ;
 encoded_image
 .
-SetFrameType
+set_frame_type
 (
 VideoFrameType
 :
@@ -1023,7 +1023,7 @@ SetRtpTimestamp
 ;
 encoded_image
 .
-SetFrameType
+set_frame_type
 (
 VideoFrameType
 :
@@ -1144,7 +1144,7 @@ SetRtpTimestamp
 ;
 encoded_image
 .
-SetFrameType
+set_frame_type
 (
 VideoFrameType
 :
@@ -1396,7 +1396,7 @@ SetRtpTimestamp
 ;
 encoded_image
 .
-SetFrameType
+set_frame_type
 (
 VideoFrameType
 :
@@ -1583,7 +1583,7 @@ SetRtpTimestamp
 ;
 encoded_image1
 .
-SetFrameType
+set_frame_type
 (
 VideoFrameType
 :
@@ -1643,7 +1643,7 @@ SetRtpTimestamp
 ;
 encoded_image2
 .
-SetFrameType
+set_frame_type
 (
 VideoFrameType
 :
@@ -1869,7 +1869,7 @@ SetRtpTimestamp
 ;
 encoded_image1
 .
-SetFrameType
+set_frame_type
 (
 VideoFrameType
 :
@@ -1939,7 +1939,7 @@ SetRtpTimestamp
 ;
 encoded_image2
 .
-SetFrameType
+set_frame_type
 (
 VideoFrameType
 :
@@ -2118,7 +2118,7 @@ rtp_timestamp
 ;
 encoded_image1
 .
-SetFrameType
+set_frame_type
 (
 VideoFrameType
 :
@@ -2167,7 +2167,7 @@ rtp_timestamp
 ;
 encoded_image2
 .
-SetFrameType
+set_frame_type
 (
 VideoFrameType
 :
@@ -2389,7 +2389,7 @@ rtp_timestamp
 ;
 encoded_image1
 .
-SetFrameType
+set_frame_type
 (
 VideoFrameType
 :
@@ -2438,7 +2438,7 @@ rtp_timestamp
 ;
 encoded_image2
 .
-SetFrameType
+set_frame_type
 (
 VideoFrameType
 :
@@ -2722,7 +2722,7 @@ rtp_timestamp
 ;
 encoded_image1
 .
-SetFrameType
+set_frame_type
 (
 i
 =
@@ -2781,7 +2781,7 @@ rtp_timestamp
 ;
 encoded_image2
 .
-SetFrameType
+set_frame_type
 (
 i
 =
@@ -3072,7 +3072,7 @@ SetRtpTimestamp
 ;
 encoded_image1
 .
-SetFrameType
+set_frame_type
 (
 VideoFrameType
 :
@@ -3125,7 +3125,7 @@ SetRtpTimestamp
 ;
 encoded_image2
 .
-SetFrameType
+set_frame_type
 (
 VideoFrameType
 :
@@ -3364,7 +3364,7 @@ SetRtpTimestamp
 ;
 encoded_image1
 .
-SetFrameType
+set_frame_type
 (
 VideoFrameType
 :
@@ -3409,7 +3409,7 @@ SetRtpTimestamp
 ;
 encoded_image2
 .
-SetFrameType
+set_frame_type
 (
 VideoFrameType
 :
@@ -3653,7 +3653,7 @@ SetRtpTimestamp
 ;
 encoded_image1
 .
-SetFrameType
+set_frame_type
 (
 VideoFrameType
 :
@@ -3706,7 +3706,7 @@ SetRtpTimestamp
 ;
 encoded_image2
 .
-SetFrameType
+set_frame_type
 (
 VideoFrameType
 :
@@ -3921,7 +3921,7 @@ SetRtpTimestamp
 ;
 encoded_image
 .
-SetFrameType
+set_frame_type
 (
 VideoFrameType
 :
@@ -4644,7 +4644,7 @@ SetRtpTimestamp
 ;
 encoded_image
 .
-SetFrameType
+set_frame_type
 (
 VideoFrameType
 :

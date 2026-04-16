@@ -712,7 +712,9 @@ RTCFrameType
 (
 encodedImage
 .
-_frameType
+frame_type
+(
+)
 )
 ;
 self
@@ -933,8 +935,8 @@ encodeFinishMs
 ;
 encodedImage
 .
-_frameType
-=
+set_frame_type
+(
 webrtc
 :
 :
@@ -943,6 +945,7 @@ VideoFrameType
 self
 .
 frameType
+)
 )
 ;
 encodedImage

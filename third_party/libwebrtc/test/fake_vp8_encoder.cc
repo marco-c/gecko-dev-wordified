@@ -667,7 +667,9 @@ size
 )
 encoded_image
 .
-_frameType
+frame_type
+(
+)
 simulcast_index
 encoded_image
 .
@@ -712,13 +714,9 @@ encoded_image
 _encodedHeight
 encoded_image
 .
-_frameType
-=
-=
-VideoFrameType
-:
-:
-kVideoFrameKey
+IsKey
+(
+)
 )
 ;
 return

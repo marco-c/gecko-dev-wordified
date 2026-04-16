@@ -371,12 +371,13 @@ width
 ;
 encodedImage
 .
-_frameType
-=
+set_frame_type
+(
 VideoFrameType
 :
 :
 kVideoFrameKey
+)
 ;
 encodedImage
 .

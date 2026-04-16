@@ -377,7 +377,7 @@ pair
 second
 -
 >
-FrameType
+frame_type
 (
 )
 =
@@ -628,7 +628,7 @@ it
 second
 -
 >
-FrameType
+frame_type
 (
 )
 =
@@ -3848,7 +3848,7 @@ next_frame
 next_frame
 -
 >
-FrameType
+frame_type
 (
 )
 =

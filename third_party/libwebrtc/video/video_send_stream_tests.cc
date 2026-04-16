@@ -17990,8 +17990,8 @@ i
 {
 encoded
 .
-_frameType
-=
+set_frame_type
+(
 (
 *
 frame_types
@@ -17999,6 +17999,7 @@ frame_types
 [
 i
 ]
+)
 ;
 encoded
 .

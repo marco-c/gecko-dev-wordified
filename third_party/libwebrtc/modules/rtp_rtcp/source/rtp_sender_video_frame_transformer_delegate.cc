@@ -481,7 +481,9 @@ frame_type_
 (
 encoded_image
 .
-_frameType
+frame_type
+(
+)
 )
 payload_type_
 (
@@ -1859,8 +1861,8 @@ encoded_image_buffer
 ;
 encoded_image
 .
-_frameType
-=
+set_frame_type
+(
 original
 -
 >
@@ -1877,6 +1879,7 @@ VideoFrameType
 :
 :
 kVideoFrameDelta
+)
 ;
 /
 /

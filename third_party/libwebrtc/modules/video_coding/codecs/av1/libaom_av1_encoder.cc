@@ -7824,8 +7824,8 @@ Keyframe
 }
 encoded_image
 .
-_frameType
-=
+set_frame_type
+(
 layer_frame
 -
 >
@@ -7842,6 +7842,7 @@ VideoFrameType
 :
 :
 kVideoFrameDelta
+)
 ;
 encoded_image
 .
