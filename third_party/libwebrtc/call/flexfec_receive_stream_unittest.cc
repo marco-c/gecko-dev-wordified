@@ -349,8 +349,6 @@ kFlexfecPlType
 ;
 config
 .
-rtp
-.
 remote_ssrc
 =
 ByteReader
@@ -450,8 +448,6 @@ rtcp_send_transport
 ;
 config
 .
-rtp
-.
 local_ssrc
 =
 18374743
@@ -490,8 +486,6 @@ IsCompleteAndEnabled
 )
 ;
 config
-.
-rtp
 .
 remote_ssrc
 =

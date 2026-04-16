@@ -3694,8 +3694,6 @@ payload_type
 ;
 flexfec_receive_config
 .
-rtp
-.
 remote_ssrc
 =
 GetVideoSendConfig
@@ -3725,8 +3723,6 @@ flexfec
 protected_media_ssrcs
 ;
 flexfec_receive_config
-.
-rtp
 .
 local_ssrc
 =

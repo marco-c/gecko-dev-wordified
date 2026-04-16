@@ -1383,8 +1383,6 @@ payload_type
 ;
 config
 .
-rtp
-.
 remote_ssrc
 =
 38837212
@@ -1511,8 +1509,6 @@ ssrc
 )
 {
 config
-.
-rtp
 .
 remote_ssrc
 =
@@ -1664,8 +1660,6 @@ streams
 ;
 config
 .
-rtp
-.
 remote_ssrc
 =
 838383
@@ -1694,8 +1688,6 @@ stream
 )
 ;
 config
-.
-rtp
 .
 remote_ssrc
 =
@@ -1726,8 +1718,6 @@ stream
 ;
 config
 .
-rtp
-.
 remote_ssrc
 =
 99383
@@ -1756,8 +1746,6 @@ stream
 )
 ;
 config
-.
-rtp
 .
 remote_ssrc
 =
@@ -3503,8 +3491,6 @@ transport_
 )
 ;
 flexfec_config
-.
-rtp
 .
 remote_ssrc
 =

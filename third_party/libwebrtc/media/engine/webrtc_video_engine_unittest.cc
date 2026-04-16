@@ -33765,8 +33765,6 @@ EXPECT_EQ
 kFlexfecSsrc
 config
 .
-rtp
-.
 remote_ssrc
 )
 ;
@@ -35409,8 +35407,6 @@ EXPECT_EQ
 kFlexfecSsrc
 flexfec_stream_config
 .
-rtp
-.
 remote_ssrc
 )
 ;
@@ -35493,8 +35489,6 @@ rtp
 .
 local_ssrc
 flexfec_stream_config
-.
-rtp
 .
 local_ssrc
 )
@@ -42234,8 +42228,6 @@ GetConfig
 (
 )
 .
-rtp
-.
 remote_ssrc
 )
 ;
@@ -42371,8 +42363,6 @@ stream_with_send_params
 GetConfig
 (
 )
-.
-rtp
 .
 remote_ssrc
 )
