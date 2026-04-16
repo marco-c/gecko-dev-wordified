@@ -607,6 +607,12 @@ use
 crate
 :
 :
+ArcSlice
+;
+use
+crate
+:
+:
 {
 Atom
 LocalName
@@ -614,12 +620,6 @@ Namespace
 ShrinkIfNeeded
 WeakAtom
 }
-;
-use
-crate
-:
-:
-ArcSlice
 ;
 use
 cssparser
