@@ -436,6 +436,7 @@ PrintPtr
 PrintF32
 PrintF64
 PrintText
+Printf
 #
 endif
 Limit
@@ -1743,6 +1744,17 @@ const
 char
 *
 out
+)
+;
+void
+Printf
+(
+const
+char
+*
+out
+uintptr_t
+value
 )
 ;
 #
