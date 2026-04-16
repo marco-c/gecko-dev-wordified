@@ -3208,7 +3208,8 @@ extend
 [
 "
 -
-b
+-
+bookmark
 "
 dest_branch
 ]
