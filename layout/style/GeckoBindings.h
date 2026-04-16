@@ -587,11 +587,6 @@ const
 ServoComputedData
 *
 values
-mozilla
-:
-:
-PseudoStyleType
-pseudo_type
 )
 ;
 void
