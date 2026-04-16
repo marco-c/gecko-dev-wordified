@@ -140,6 +140,7 @@ enum
 ProtocolType
 {
 PROTO_UDP
+PROTO_DTLS
 PROTO_TCP
 PROTO_SSLTCP
 /
@@ -159,6 +160,13 @@ extern
 const
 char
 UDP_PROTOCOL_NAME
+[
+]
+;
+extern
+const
+char
+DTLS_PROTOCOL_NAME
 [
 ]
 ;
