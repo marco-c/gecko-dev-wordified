@@ -1233,7 +1233,7 @@ audio
 bool
 multi_channel_render
 =
-false
+true
 ;
 /
 /
@@ -1258,11 +1258,10 @@ AEC
 is
 injected
 .
-.
 bool
 multi_channel_capture
 =
-false
+true
 ;
 /
 /
