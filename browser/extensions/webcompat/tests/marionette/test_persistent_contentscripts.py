@@ -733,6 +733,22 @@ getBackgroundPage
                     
 const
 {
+matches
+excludeMatches
+}
+=
+bgWin
+.
+interventions
+.
+getBlocksAndMatchesFor
+(
+config
+)
+;
+                    
+const
+{
 id
 }
 =
@@ -755,16 +771,9 @@ interventions
 0
 ]
                         
-bgWin
-.
-interventions
-.
-getBlocksAndMatchesFor
-(
-config
-)
-.
 matches
+                        
+excludeMatches
                       
 )
 [
