@@ -113,6 +113,11 @@ string
 #
 include
 <
+tuple
+>
+#
+include
+<
 utility
 >
 #
@@ -3221,7 +3226,7 @@ static
 std
 :
 :
-pair
+tuple
 <
 AdapterType
 bool
@@ -3230,6 +3235,7 @@ bool
 vpn
 *
 /
+NetworkSlice
 >
 GuessAdapterFromNetworkCost
 (
