@@ -2661,6 +2661,14 @@ saveimage
 "
 true
 "
+context
+-
+copyimage
+-
+contents
+"
+true
+"
 -
 -
 -

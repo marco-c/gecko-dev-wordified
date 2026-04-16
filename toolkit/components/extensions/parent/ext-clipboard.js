@@ -537,7 +537,6 @@ image
 is
 exported
 as
-as
 kNativeImageMime
 .
 Data
