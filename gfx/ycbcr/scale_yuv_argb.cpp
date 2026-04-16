@@ -99,6 +99,11 @@ h
 #
 include
 <
+algorithm
+>
+#
+include
+<
 assert
 .
 h
@@ -5452,7 +5457,14 @@ iter
 .
 src_width
 =
+std
+:
+:
+min
+(
 src_width
+dst_width
+)
 ;
 iter
 .
