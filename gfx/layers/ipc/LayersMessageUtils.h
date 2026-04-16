@@ -7202,7 +7202,7 @@ OverlaySupportType
 >
 :
 public
-ContiguousEnumSerializerInclusive
+ContiguousEnumSerializer
 <
 mozilla
 :
