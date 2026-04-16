@@ -591,7 +591,7 @@ on
 -
 bit
 .
-FakeString
+nsTAutoString
 can
 hold
 63

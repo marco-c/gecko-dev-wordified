@@ -2043,14 +2043,11 @@ SetValue
 SetAsUSVString
 (
 )
-.
-ShareOrDependUpon
-(
+=
 owningValue
 .
 GetAsUSVString
 (
-)
 )
 ;
 }

@@ -2280,9 +2280,7 @@ requestOrString
 SetAsUTF8String
 (
 )
-.
-ShareOrDependUpon
-(
+=
 aRequestList
 [
 i
@@ -2290,7 +2288,6 @@ i
 .
 GetAsUTF8String
 (
-)
 )
 ;
 }

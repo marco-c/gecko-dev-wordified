@@ -1858,14 +1858,11 @@ request
 SetAsUTF8String
 (
 )
-.
-ShareOrDependUpon
-(
+=
 loadContext
 -
 >
 mFullURL
-)
 ;
 mozilla
 :

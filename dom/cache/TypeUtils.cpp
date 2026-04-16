@@ -2855,11 +2855,8 @@ requestOrString
 SetAsUTF8String
 (
 )
-.
-ShareOrDependUpon
-(
+=
 aIn
-)
 ;
 /
 /
