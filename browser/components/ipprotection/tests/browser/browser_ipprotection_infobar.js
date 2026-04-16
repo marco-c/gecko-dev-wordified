@@ -493,7 +493,7 @@ Assert
 .
 ok
 (
-REGEX_WHOLE_NUMBER
+REGEX_DECIMAL
 .
 test
 (
@@ -511,8 +511,9 @@ shows
 GB
 rounded
 to
-whole
-number
+one
+decimal
+place
 "
 )
 ;
@@ -1151,7 +1152,7 @@ Assert
 .
 ok
 (
-REGEX_WHOLE_NUMBER
+REGEX_DECIMAL
 .
 test
 (
@@ -1169,8 +1170,9 @@ shows
 GB
 rounded
 to
-whole
-number
+one
+decimal
+place
 "
 )
 ;
