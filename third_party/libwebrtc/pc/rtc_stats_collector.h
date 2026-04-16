@@ -1799,7 +1799,7 @@ and
 call_stats_
 .
 void
-PrepareTransceiverStatsInfosAndCallStats_s_w_n
+PrepareTransceiverStatsInfosAndCallStats_s_w
 (
 )
 ;
@@ -2116,7 +2116,7 @@ Cleared
 and
 set
 in
-PrepareTransceiverStatsInfosAndCallStats_s_w_n
+PrepareTransceiverStatsInfosAndCallStats_s_w
 /
 /
 starting
