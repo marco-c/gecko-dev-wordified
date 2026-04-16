@@ -1992,6 +1992,9 @@ groupIds
 :
 [
 "
+assistantDefaultGroup
+"
+"
 assistantModelGroup
 "
 "
