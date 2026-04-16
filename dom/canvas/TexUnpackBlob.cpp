@@ -7345,6 +7345,15 @@ false
 else
 if
 (
+webgl
+-
+>
+IsUploadableSdType
+(
+sd
+)
+&
+&
 AllowBlitSd
 (
 webgl
