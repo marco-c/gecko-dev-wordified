@@ -88,11 +88,8 @@ window
 )
 ;
 await
-SidebarTestUtils
-.
 waitForTabstripOrientation
 (
-window
 "
 vertical
 "
