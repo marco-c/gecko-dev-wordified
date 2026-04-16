@@ -3136,7 +3136,7 @@ colorSpace
 :
 CGColorSpaceCreateWithName
 (
-kCGColorSpaceGenericRGB
+kCGColorSpaceSRGB
 )
 ;
 *
