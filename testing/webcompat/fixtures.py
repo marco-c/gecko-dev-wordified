@@ -1057,6 +1057,21 @@ CB_PBM_PREF
 =
 cookieBehavior
         
+prefs
+[
+"
+layout
+.
+css
+.
+getBoxQuads
+.
+enabled
+"
+]
+=
+True
+        
 #
 prevent
 "
