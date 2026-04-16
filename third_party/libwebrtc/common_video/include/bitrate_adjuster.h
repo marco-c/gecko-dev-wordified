@@ -284,7 +284,7 @@ BitrateAdjuster
 Clock
 :
 :
-GetRealTimeClock
+GetRealTimeClockRaw
 (
 )
 min_adjusted_bitrate_pct
