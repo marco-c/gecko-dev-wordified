@@ -152,13 +152,6 @@ h
 #
 include
 "
-nsGkAtoms
-.
-h
-"
-#
-include
-"
 nsIAuthPrompt
 .
 h

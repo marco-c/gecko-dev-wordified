@@ -135,13 +135,6 @@ nsChangeHint
 .
 h
 "
-#
-include
-"
-nsGkAtoms
-.
-h
-"
 namespace
 mozilla
 {

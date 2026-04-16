@@ -117,13 +117,6 @@ h
 #
 include
 "
-nsGkAtoms
-.
-h
-"
-#
-include
-"
 nsIBrowserChild
 .
 h
