@@ -250,13 +250,8 @@ Module
 "
 )
 ;
-assert_throws_js
+assert_equals
 (
-TypeError
-(
-)
-=
->
 toStringTag
 .
 call
@@ -264,6 +259,7 @@ call
 {
 }
 )
+undefined
 )
 ;
 }
