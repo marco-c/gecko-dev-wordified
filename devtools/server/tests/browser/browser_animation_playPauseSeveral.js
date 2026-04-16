@@ -317,7 +317,7 @@ info
 "
 Getting
 the
-AnimationPlayerFront
+AnimationFront
 for
 node
 "

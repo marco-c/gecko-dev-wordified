@@ -2113,7 +2113,7 @@ corresponding
 property
 in
 the
-AnimationPlayerFront
+AnimationFront
 '
 initialState
 /
@@ -2169,7 +2169,7 @@ of
 its
 calls
 to
-AnimationPlayerFront
+AnimationFront
 #
 refreshState
 .

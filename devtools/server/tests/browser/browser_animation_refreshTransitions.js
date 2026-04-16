@@ -67,7 +67,7 @@ a
 new
 /
 /
-AnimationPlayerFront
+AnimationFront
 should
 be
 sent

@@ -110,7 +110,7 @@ js
 )
 ;
 class
-AnimationPlayerFront
+AnimationFront
 extends
 FrontClassWithSpec
 (
@@ -1215,7 +1215,7 @@ absoluteStartTimeAtCreated
 }
 registerFront
 (
-AnimationPlayerFront
+AnimationFront
 )
 ;
 class
