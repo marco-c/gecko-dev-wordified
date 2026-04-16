@@ -121,6 +121,11 @@ LimitedAccessFeatureTests
 cpp
 "
 "
+SetDefaultBrowserButtonTests
+.
+cpp
+"
+"
 ShellLinkTests
 .
 cpp
