@@ -144,6 +144,17 @@ include
 "
 api
 /
+environment
+/
+environment
+.
+h
+"
+#
+include
+"
+api
+/
 media_types
 .
 h
@@ -327,6 +338,10 @@ LayerFilteringTransport
 :
 LayerFilteringTransport
 (
+const
+Environment
+&
+env
 TaskQueueBase
 *
 task_queue
@@ -380,6 +395,7 @@ video_extensions
 :
 DirectTransport
 (
+env
 task_queue
 std
 :
@@ -442,6 +458,10 @@ LayerFilteringTransport
 :
 LayerFilteringTransport
 (
+const
+Environment
+&
+env
 TaskQueueBase
 *
 task_queue
@@ -491,6 +511,7 @@ video_extensions
 :
 LayerFilteringTransport
 (
+env
 task_queue
 std
 :

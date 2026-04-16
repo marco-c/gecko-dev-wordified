@@ -4430,6 +4430,7 @@ make_unique
 PacketTransport
 >
 (
+env_
 task_queue
 (
 )
@@ -4455,10 +4456,10 @@ make_unique
 FakeNetworkPipe
 >
 (
-Clock
-:
-:
-GetRealTimeClock
+&
+env_
+.
+clock
 (
 )
 std
@@ -4522,6 +4523,7 @@ make_unique
 PacketTransport
 >
 (
+env_
 task_queue
 (
 )
@@ -4543,10 +4545,10 @@ make_unique
 FakeNetworkPipe
 >
 (
-Clock
-:
-:
-GetRealTimeClock
+&
+env_
+.
+clock
 (
 )
 std

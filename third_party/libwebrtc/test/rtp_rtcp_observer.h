@@ -147,6 +147,17 @@ include
 "
 api
 /
+environment
+/
+environment
+.
+h
+"
+#
+include
+"
+api
+/
 media_types
 .
 h
@@ -454,6 +465,10 @@ kSender
 ;
 PacketTransport
 (
+const
+Environment
+&
+env
 TaskQueueBase
 *
 task_queue
@@ -503,6 +518,7 @@ test
 :
 DirectTransport
 (
+env
 task_queue
 std
 :
