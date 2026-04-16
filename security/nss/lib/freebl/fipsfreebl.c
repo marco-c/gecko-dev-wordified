@@ -10274,6 +10274,7 @@ char
 rsa_public_exponent
 FIPS_RSA_PUBLIC_EXPONENT_LENGTH
 }
+PR_FALSE
 }
 ;
 static

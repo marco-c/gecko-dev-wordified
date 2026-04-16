@@ -1160,6 +1160,8 @@ nextHybrid
 +
 +
 ;
+break
+;
 case
 ssl_grp_ec_curve25519
 :
@@ -1200,6 +1202,8 @@ named_group
 nextECDH
 +
 +
+;
+break
 ;
 }
 offset
