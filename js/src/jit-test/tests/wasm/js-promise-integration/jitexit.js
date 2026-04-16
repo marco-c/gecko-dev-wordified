@@ -475,7 +475,7 @@ foo
 /
 Test
 on
-suspendable
+cont
 stack
 .
 var

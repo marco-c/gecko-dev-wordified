@@ -9,7 +9,7 @@ WebAssembly
 .
 Exception
 on
-suspendable
+cont
 stack
 /
 /
@@ -419,7 +419,7 @@ exception
 /
 rejection
 on
-suspendable
+cont
 stack
 /
 /
