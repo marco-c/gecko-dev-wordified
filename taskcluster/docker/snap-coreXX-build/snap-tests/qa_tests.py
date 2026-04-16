@@ -2737,11 +2737,13 @@ until
 lambda
 d
 :
+(
+                
 d
 .
 execute_script
 (
-                
+                    
 '
 return
 window
@@ -2774,14 +2776,16 @@ visibility
 )
 ;
 '
-            
+                
 )
-            
+                
 !
 =
 "
 visible
 "
+            
+)
         
 )
         
@@ -4951,13 +4955,15 @@ until
 lambda
 d
 :
+(
+                
 self
 .
 _driver
 .
 execute_script
 (
-                
+                    
 "
 return
 Services
@@ -4980,13 +4986,15 @@ kGlobalClipboard
 )
 ;
 "
-                
+                    
 mime_type
-            
+                
 )
-            
+                
 is
 True
+            
+)
         
 )
         
@@ -6679,6 +6687,7 @@ previous_folder
 (
             
 download_folder
+            
 .
 get_property
 (

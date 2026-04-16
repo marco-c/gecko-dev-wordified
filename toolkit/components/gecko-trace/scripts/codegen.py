@@ -54,6 +54,8 @@ MPL
 /
 .
 import
+functools
+import
 hashlib
 from
 os
@@ -72,16 +74,6 @@ buildconfig
 import
 config
 topsrcdir
-#
-type
-:
-ignore
-from
-mozbuild
-.
-util
-import
-memoize
 #
 type
 :
@@ -106,7 +98,9 @@ THIS_DIR
 "
 templates
 "
-memoize
+functools
+.
+cache
 def
 get_deps
 (
@@ -296,6 +290,7 @@ guard
 input_hash
 =
 hashlib
+            
 .
 sha256
 (
@@ -479,7 +474,9 @@ else
 {
 }
 )
-memoize
+functools
+.
+cache
 def
 load_schema_index
 (
@@ -547,7 +544,9 @@ gecko_trace_files
 "
 ]
 ]
-memoize
+functools
+.
+cache
 def
 _jinja2_env
 (

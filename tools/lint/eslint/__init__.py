@@ -1055,6 +1055,8 @@ filter
 lambda
 x
 :
+(
+                    
 not
 x
 .
@@ -1066,7 +1068,7 @@ startswith
 config
 "
 )
-                
+                    
 and
 not
 x
@@ -1079,7 +1081,7 @@ startswith
 plugin
 "
 )
-                
+                    
 and
 not
 x
@@ -1091,6 +1093,8 @@ startswith
 -
 rule
 "
+)
+                
 )
                 
 [
