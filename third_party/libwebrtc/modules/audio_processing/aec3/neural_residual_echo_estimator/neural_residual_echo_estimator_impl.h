@@ -441,6 +441,14 @@ Invoke
 =
 0
 ;
+virtual
+void
+Reset
+(
+)
+=
+0
+;
 }
 ;
 /
@@ -672,6 +680,12 @@ bool
 multi_channel
 )
 const
+override
+;
+void
+Reset
+(
+)
 override
 ;
 private
