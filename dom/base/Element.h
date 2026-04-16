@@ -656,6 +656,9 @@ ShadowRootInit
 struct
 ScrollOptions
 ;
+struct
+RequestFullscreenOptions
+;
 class
 Attr
 ;
@@ -9986,6 +9989,9 @@ Promise
 >
 RequestFullscreen
 (
+const
+RequestFullscreenOptions
+&
 CallerType
 ErrorResult
 &

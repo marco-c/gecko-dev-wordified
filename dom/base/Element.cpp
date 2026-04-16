@@ -31886,6 +31886,10 @@ Element
 :
 RequestFullscreen
 (
+const
+RequestFullscreenOptions
+&
+aOptions
 CallerType
 aCallerType
 ErrorResult
