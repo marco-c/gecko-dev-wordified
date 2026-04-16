@@ -162,6 +162,9 @@ v8
 namespace
 internal
 {
+namespace
+regexp
+{
 struct
 FrameData
 {
@@ -849,7 +852,7 @@ Handle
 RegExpData
 >
 data
-RegExpFlags
+Flags
 flags
 )
 ;
@@ -1170,7 +1173,7 @@ static
 bool
 GrowBacktrackStack
 (
-RegExpStack
+Stack
 *
 regexp_stack
 )
@@ -2375,6 +2378,11 @@ append
 }
 }
 ;
+}
+/
+/
+namespace
+regexp
 }
 /
 /
