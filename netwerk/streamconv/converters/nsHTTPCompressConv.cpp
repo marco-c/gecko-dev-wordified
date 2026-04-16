@@ -6469,8 +6469,8 @@ gz_magic
 ]
 =
 {
-0x1f
-0x8b
+GZIP_MAGIC_0
+GZIP_MAGIC_1
 }
 ;
 /
