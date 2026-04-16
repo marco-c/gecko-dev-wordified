@@ -347,6 +347,7 @@ RtpParameters
 new_parameters
 ArrayView
 <
+const
 Codec
 >
 send_codecs
@@ -389,6 +390,7 @@ RtpParameters
 new_parameters
 ArrayView
 <
+const
 Codec
 >
 send_codecs
@@ -442,6 +444,7 @@ RtpParameters
 new_parameters
 ArrayView
 <
+const
 Codec
 >
 send_codecs

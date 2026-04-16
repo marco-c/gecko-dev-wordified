@@ -6921,6 +6921,8 @@ EXPECT_CALL
 simulcast_sender
 GetParametersInternal
 (
+_
+_
 )
 )
 .
@@ -7131,6 +7133,8 @@ EXPECT_CALL
 svc_sender
 GetParametersInternal
 (
+_
+_
 )
 )
 .

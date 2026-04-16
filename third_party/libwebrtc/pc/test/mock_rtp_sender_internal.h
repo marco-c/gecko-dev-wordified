@@ -436,6 +436,18 @@ override
 ;
 MOCK_METHOD
 (
+void
+SetCachedParameters
+(
+RtpParameters
+)
+(
+override
+)
+)
+;
+MOCK_METHOD
+(
 RtpParameters
 GetParameters
 (
@@ -451,6 +463,8 @@ MOCK_METHOD
 RtpParameters
 GetParametersInternal
 (
+bool
+bool
 )
 (
 const
@@ -501,7 +515,7 @@ override
 ;
 MOCK_METHOD
 (
-void
+RTCError
 SetParametersInternal
 (
 const
