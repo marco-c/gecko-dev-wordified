@@ -1916,6 +1916,7 @@ OriginAttributes
 GetOriginAttributes
 (
 )
+const
 {
 return
 mOriginAttributes

@@ -146,6 +146,13 @@ int32_t
 aPort
 uint32_t
 aProviderFlags
+const
+mozilla
+:
+:
+OriginAttributes
+&
+aOriginAttributes
 Http3Session
 *
 aHttp3Session
@@ -158,6 +165,10 @@ aPort
 aProviderFlags
 )
 {
+mOriginAttributes
+=
+aOriginAttributes
+;
 COMMON_SOCKET_CONTROL_ASSERT_ON_OWNING_THREAD
 (
 )
