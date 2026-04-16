@@ -1506,25 +1506,16 @@ self
 _locations
 )
         
-prefs_js
-user_js
-=
-self
-.
-permissions
-.
-network_prefs
-(
-self
-.
-_proxy
-)
-        
 if
 self
 .
 _allowlistpaths
 :
+            
+prefs_js
+=
+[
+]
             
 #
 On
@@ -1687,7 +1678,7 @@ _allowlistpaths
                 
 )
 )
-        
+            
 self
 .
 set_preferences
@@ -1702,9 +1693,11 @@ js
         
 self
 .
-set_preferences
+set_proxy
 (
-user_js
+self
+.
+_proxy
 )
         
 #
@@ -1898,6 +1891,62 @@ filename
 :
                     
 break
+    
+def
+set_proxy
+(
+self
+proxy
+)
+:
+        
+"
+"
+"
+Write
+proxy
+auto
+-
+config
+preferences
+into
+the
+profile
+.
+"
+"
+"
+        
+prefs_js
+user_js
+=
+self
+.
+permissions
+.
+network_prefs
+(
+proxy
+)
+        
+self
+.
+set_preferences
+(
+prefs_js
+"
+prefs
+.
+js
+"
+)
+        
+self
+.
+set_preferences
+(
+user_js
+)
     
 #
 methods
