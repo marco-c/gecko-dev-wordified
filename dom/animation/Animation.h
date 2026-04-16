@@ -3656,17 +3656,6 @@ IsMonotonicallyIncreasing
 )
 ;
 }
-void
-UpdateScrollTimelineAnimationTracker
-(
-AnimationTimeline
-*
-aOldTimeline
-AnimationTimeline
-*
-aNewTimeline
-)
-;
 RefPtr
 <
 AnimationTimeline
