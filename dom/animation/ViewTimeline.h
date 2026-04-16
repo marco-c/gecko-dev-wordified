@@ -380,9 +380,9 @@ Document
 *
 aDocument
 const
-ScrollerInfo
+Scroller
 &
-aScrollerInfo
+aScroller
 StyleScrollAxis
 aAxis
 Element
@@ -399,7 +399,7 @@ aInset
 ScrollTimeline
 (
 aDocument
-aScrollerInfo
+aScroller
 aAxis
 )
 mSubject
