@@ -1764,6 +1764,12 @@ removeTab
 bgTab
 )
 ;
+anchor
+.
+remove
+(
+)
+;
 goNext
 (
 )
