@@ -173,10 +173,10 @@ device_info_impl
 .
 cc
 index
-97039646f7
+f159daf9d8
 .
 .
-08e69e4a9a
+04062a9056
 100644
 -
 -
@@ -203,10 +203,10 @@ device_info_impl
 .
 cc
 -
-107
+106
 10
 +
-107
+106
 23
 int32_t
 DeviceInfoImpl
