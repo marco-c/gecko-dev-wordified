@@ -93,8 +93,12 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 BackgroundDataBridgeParent
 override
 )
-explicit
+static
+already_AddRefed
+<
 BackgroundDataBridgeParent
+>
+Create
 (
 uint64_t
 aChannelID
@@ -146,6 +150,13 @@ aOnStopRequestStart
 ;
 private
 :
+explicit
+BackgroundDataBridgeParent
+(
+uint64_t
+aChannelID
+)
+;
 virtual
 ~
 BackgroundDataBridgeParent
