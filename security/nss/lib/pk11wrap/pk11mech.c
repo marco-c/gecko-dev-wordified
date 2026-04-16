@@ -8522,6 +8522,9 @@ CKM_ML_DSA
 case
 dhKey
 :
+case
+kyberKey
+:
 default
 :
 break

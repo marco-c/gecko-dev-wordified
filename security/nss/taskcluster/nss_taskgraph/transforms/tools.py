@@ -127,6 +127,11 @@ fuzz
 -
 coverage
 "
+"
+clang
+-
+tidy
+"
 )
 :
             

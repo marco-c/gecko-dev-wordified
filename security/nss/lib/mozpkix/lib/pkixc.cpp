@@ -440,15 +440,6 @@ const
 Input
 *
 aiaExtension
-/
-*
-optional
-*
-/
-const
-Input
-*
-sctExtension
 )
 override
 {
@@ -881,6 +872,11 @@ certificates
 |
 !
 certificateLengths
+|
+|
+numCertificates
+<
+1
 |
 |
 !
