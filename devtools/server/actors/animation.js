@@ -209,7 +209,7 @@ js
 ;
 const
 {
-animationPlayerSpec
+animationSpec
 animationsSpec
 }
 =
@@ -620,7 +620,7 @@ super
 animationsActor
 .
 conn
-animationPlayerSpec
+animationSpec
 )
 ;
 this

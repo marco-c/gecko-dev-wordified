@@ -86,7 +86,7 @@ js
 ;
 const
 {
-animationPlayerSpec
+animationSpec
 animationsSpec
 }
 =
@@ -114,7 +114,7 @@ AnimationFront
 extends
 FrontClassWithSpec
 (
-animationPlayerSpec
+animationSpec
 )
 {
 constructor
