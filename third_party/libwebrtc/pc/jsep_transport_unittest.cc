@@ -7238,10 +7238,6 @@ subspan
 (
 2
 )
-.
-data
-(
-)
 +
 +
 sequence_number_

@@ -879,7 +879,7 @@ view
 =
 view
 .
-subview
+subspan
 (
 res
 )
@@ -1817,11 +1817,11 @@ GetBE16
 (
 data
 .
-data
+subspan
 (
-)
-+
 processed_bytes
+kPacketLenSize
+)
 )
 ;
 if
@@ -1840,7 +1840,7 @@ received_packet
 (
 data
 .
-subview
+subspan
 (
 processed_bytes
 +
