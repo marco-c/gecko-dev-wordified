@@ -4110,11 +4110,6 @@ mFinishNotificationTask
 nsString
 mId
 ;
-bool
-mResetCurrentTimeOnResume
-=
-false
-;
 /
 /
 Whether
