@@ -1300,9 +1300,6 @@ eSelectBeginLine
 case
 eSelectEndLine
 :
-case
-eSelectParagraph
-:
 return
 true
 ;

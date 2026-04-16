@@ -233,11 +233,6 @@ cmd_beginLine
 )
 NS_DEFINE_COMMAND
 (
-BeginParagraph
-cmd_beginParagraph
-)
-NS_DEFINE_COMMAND
-(
 CharNext
 cmd_charNext
 )
@@ -295,11 +290,6 @@ NS_DEFINE_COMMAND
 (
 EndLine
 cmd_endLine
-)
-NS_DEFINE_COMMAND
-(
-EndParagraph
-cmd_endParagraph
 )
 NS_DEFINE_COMMAND
 (
@@ -398,11 +388,6 @@ cmd_selectBeginLine
 )
 NS_DEFINE_COMMAND
 (
-SelectBeginParagraph
-cmd_selectBeginParagraph
-)
-NS_DEFINE_COMMAND
-(
 SelectBottom
 cmd_selectBottom
 )
@@ -420,11 +405,6 @@ NS_DEFINE_COMMAND
 (
 SelectEndLine
 cmd_selectEndLine
-)
-NS_DEFINE_COMMAND
-(
-SelectEndParagraph
-cmd_selectEndParagraph
 )
 NS_DEFINE_COMMAND
 (
