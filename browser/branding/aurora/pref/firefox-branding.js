@@ -313,9 +313,9 @@ https
 /
 www
 .
-firefox
+mozilla
 .
-com
+org
 /
 %
 LOCALE
@@ -365,9 +365,9 @@ https
 /
 www
 .
-firefox
+mozilla
 .
-com
+org
 /
 %
 LOCALE
@@ -419,9 +419,9 @@ https
 /
 www
 .
-firefox
+mozilla
 .
-com
+org
 /
 %
 LOCALE
