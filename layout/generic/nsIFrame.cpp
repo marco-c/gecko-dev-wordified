@@ -67300,16 +67300,6 @@ instead
 ;
 if
 (
-StaticPrefs
-:
-:
-dom_shadowdom_selection_across_boundary_enabled
-(
-)
-)
-{
-if
-(
 const
 ShadowRoot
 *
@@ -67340,7 +67330,6 @@ GetChildCount
 )
 )
 ;
-}
 }
 return
 GetContent
