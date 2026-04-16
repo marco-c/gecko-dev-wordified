@@ -212,7 +212,7 @@ SmoothedRttAvgGDown
 .
 0
 /
-128
+8
 .
 0
 )
