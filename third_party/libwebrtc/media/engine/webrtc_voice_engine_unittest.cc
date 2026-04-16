@@ -11896,6 +11896,10 @@ content
 .
 RtpPacketReceived
 received_packet
+(
+&
+extension_map
+)
 ;
 ASSERT_TRUE
 (
