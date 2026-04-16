@@ -1747,9 +1747,6 @@ given
 element
 .
 pub
-(
-crate
-)
 fn
 matches
 <
