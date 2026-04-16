@@ -934,13 +934,10 @@ kTestRtxSsrc
 ;
 rtp_rtcp_module_
 =
-std
-:
-:
-make_unique
-<
 ModuleRtpRtcpImpl2
->
+:
+:
+CreateSendModule
 (
 env_
 configuration

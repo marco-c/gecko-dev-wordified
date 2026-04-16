@@ -441,7 +441,8 @@ packet_sequence_checker_
 )
 ;
 rtp_rtcp_
-.
+-
+>
 SetRTCPStatus
 (
 mode
@@ -537,7 +538,14 @@ ReceiveStatistics
 >
 rtp_receive_statistics_
 ;
+const
+std
+:
+:
+unique_ptr
+<
 ModuleRtpRtcpImpl2
+>
 rtp_rtcp_
 ;
 std
