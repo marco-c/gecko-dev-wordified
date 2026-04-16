@@ -1375,7 +1375,7 @@ products
 *
 /
 float
-avpriv_scalarproduct_float_c
+ff_scalarproduct_float_c
 (
 const
 float

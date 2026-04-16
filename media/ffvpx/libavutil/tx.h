@@ -297,7 +297,7 @@ double
 or
 int32_t
 *
-respecively
+respectively
 .
 For
 the

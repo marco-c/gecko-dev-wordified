@@ -2457,6 +2457,9 @@ k
 else
 if
 (
+esc_len
+&
+&
 i
 =
 =
@@ -2822,6 +2825,9 @@ k
 else
 if
 (
+esc_len
+&
+&
 i
 =
 =

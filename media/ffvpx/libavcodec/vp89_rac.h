@@ -242,8 +242,8 @@ c
 )
 ;
 }
-static
 av_unused
+static
 int
 vp89_rac_get_uint
 (

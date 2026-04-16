@@ -998,6 +998,9 @@ bitexact
 #
 elif
 ARCH_X86
+&
+&
+HAVE_X86ASM
 ff_vp9dsp_init_x86
 (
 dsp

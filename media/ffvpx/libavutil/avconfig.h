@@ -19,7 +19,7 @@ AV_HAVE_BIGENDIAN
 #
 define
 AV_HAVE_FAST_UNALIGNED
-1
+0
 #
 endif
 /

@@ -544,6 +544,7 @@ done_mutex
 }
 }
 }
+av_cold
 int
 avpriv_slicethread_create
 (
@@ -898,9 +899,6 @@ workers
 [
 i
 ]
-;
-int
-ret
 ;
 w
 -
@@ -1365,6 +1363,7 @@ done_mutex
 ;
 }
 }
+av_cold
 void
 avpriv_slicethread_free
 (
@@ -1377,6 +1376,9 @@ pctx
 AVSliceThread
 *
 ctx
+=
+*
+pctx
 ;
 int
 nb_workers
@@ -1385,19 +1387,9 @@ i
 if
 (
 !
-pctx
-|
-|
-!
-*
-pctx
+ctx
 )
 return
-;
-ctx
-=
-*
-pctx
 ;
 nb_workers
 =

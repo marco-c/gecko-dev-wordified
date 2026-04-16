@@ -185,11 +185,11 @@ define
 AVCODEC_FFJNI_H
 #
 include
-"
+<
 jni
 .
 h
-"
+>
 #
 include
 <

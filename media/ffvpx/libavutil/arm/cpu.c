@@ -258,6 +258,9 @@ __linux__
 |
 defined
 __ANDROID__
+|
+|
+HAVE_ELF_AUX_INFO
 #
 include
 <
@@ -291,6 +294,9 @@ h
 #
 if
 HAVE_GETAUXVAL
+|
+|
+HAVE_ELF_AUX_INFO
 #
 include
 <
@@ -303,9 +309,14 @@ h
 #
 endif
 #
+ifndef
+AT_HWCAP
+#
 define
 AT_HWCAP
 16
+#
+endif
 /
 *
 Relevant
@@ -318,7 +329,7 @@ headers
 /
 #
 define
-HWCAP_VFP
+HWCAP_ARM_VFP
 (
 1
 <
@@ -327,7 +338,7 @@ HWCAP_VFP
 )
 #
 define
-HWCAP_EDSP
+HWCAP_ARM_EDSP
 (
 1
 <
@@ -336,7 +347,7 @@ HWCAP_EDSP
 )
 #
 define
-HWCAP_THUMBEE
+HWCAP_ARM_THUMBEE
 (
 1
 <
@@ -345,7 +356,7 @@ HWCAP_THUMBEE
 )
 #
 define
-HWCAP_NEON
+HWCAP_ARM_NEON
 (
 1
 <
@@ -354,7 +365,7 @@ HWCAP_NEON
 )
 #
 define
-HWCAP_VFPv3
+HWCAP_ARM_VFPv3
 (
 1
 <
@@ -363,7 +374,7 @@ HWCAP_VFPv3
 )
 #
 define
-HWCAP_TLS
+HWCAP_ARM_TLS
 (
 1
 <
@@ -382,6 +393,9 @@ hwcap
 #
 if
 HAVE_GETAUXVAL
+|
+|
+HAVE_ELF_AUX_INFO
 unsigned
 long
 ret
@@ -419,6 +433,14 @@ return
 #
 endif
 }
+#
+if
+defined
+__linux__
+|
+|
+defined
+__ANDROID__
 static
 int
 get_hwcap
@@ -609,7 +631,7 @@ edsp
 hwcap
 |
 =
-HWCAP_EDSP
+HWCAP_ARM_EDSP
 ;
 if
 (
@@ -625,7 +647,7 @@ tls
 hwcap
 |
 =
-HWCAP_TLS
+HWCAP_ARM_TLS
 ;
 if
 (
@@ -641,7 +663,7 @@ thumbee
 hwcap
 |
 =
-HWCAP_THUMBEE
+HWCAP_ARM_THUMBEE
 ;
 if
 (
@@ -657,7 +679,7 @@ vfp
 hwcap
 |
 =
-HWCAP_VFP
+HWCAP_ARM_VFP
 ;
 if
 (
@@ -673,7 +695,7 @@ vfpv3
 hwcap
 |
 =
-HWCAP_VFPv3
+HWCAP_ARM_VFPv3
 ;
 if
 (
@@ -698,7 +720,7 @@ asimd
 hwcap
 |
 =
-HWCAP_NEON
+HWCAP_ARM_NEON
 ;
 if
 (
@@ -722,9 +744,9 @@ kernels
 hwcap
 |
 =
-HWCAP_VFP
+HWCAP_ARM_VFP
 |
-HWCAP_VFPv3
+HWCAP_ARM_VFPv3
 ;
 break
 ;
@@ -739,6 +761,8 @@ return
 0
 ;
 }
+#
+endif
 int
 ff_get_cpu_flags_arm
 (
@@ -763,6 +787,14 @@ hwcap
 <
 0
 )
+#
+if
+defined
+__linux__
+|
+|
+defined
+__ANDROID__
 if
 (
 get_hwcap
@@ -783,6 +815,8 @@ hwcap
 <
 0
 )
+#
+endif
 return
 flags
 ;
@@ -800,7 +834,7 @@ if
 (
 hwcap
 &
-HWCAP_
+HWCAP_ARM_
 #
 #
 cap

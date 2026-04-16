@@ -927,6 +927,16 @@ const
 HWContextType
 ff_hwcontext_type_vulkan
 ;
+extern
+const
+HWContextType
+ff_hwcontext_type_amf
+;
+extern
+const
+HWContextType
+ff_hwcontext_type_oh
+;
 #
 endif
 /
