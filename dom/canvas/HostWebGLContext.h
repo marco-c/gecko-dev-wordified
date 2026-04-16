@@ -154,15 +154,6 @@ include
 "
 mozilla
 /
-Mutex
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 BindingUtils
