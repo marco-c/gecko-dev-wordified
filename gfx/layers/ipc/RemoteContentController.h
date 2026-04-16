@@ -233,6 +233,7 @@ aRequest
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 HandleTap
 (
@@ -491,6 +492,7 @@ mCompositorThread
 bool
 mCanSend
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 HandleTapOnParentProcessMainThread
 (
