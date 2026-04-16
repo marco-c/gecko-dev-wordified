@@ -387,7 +387,7 @@ SSRC
 bool
 reuse_streams
 =
-true
+false
 ;
 }
 ;
