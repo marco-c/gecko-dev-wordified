@@ -353,6 +353,7 @@ querySelectorAll
 toolbarbutton
 -
 icon
+img
 "
 )
 )

@@ -201,10 +201,15 @@ popup
 querySelector
 (
 "
-menuitem
+panel
+-
+item
 [
-label
-*
+data
+-
+engine
+-
+name
 =
 newEngine
 ]
@@ -254,7 +259,7 @@ add
 }
 popup
 .
-hidePopup
+hide
 (
 )
 ;
