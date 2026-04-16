@@ -475,11 +475,6 @@ threshold
 expected
 .
 threshold
-window_mode
-:
-"
-classic
-"
 }
 ]
 )
@@ -903,11 +898,6 @@ threshold
 expected
 .
 threshold
-window_mode
-:
-"
-classic
-"
 }
 ]
 )
@@ -1156,11 +1146,6 @@ threshold
 expected
 .
 threshold
-window_mode
-:
-"
-classic
-"
 }
 ]
 )
