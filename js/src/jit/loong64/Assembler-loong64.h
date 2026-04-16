@@ -5643,6 +5643,7 @@ int
 check
 .
 inline
+constexpr
 bool
 is_intN
 (
@@ -5704,10 +5705,11 @@ limit
 ;
 }
 inline
+constexpr
 bool
 is_uintN
 (
-int32_t
+int64_t
 x
 unsigned
 n
@@ -5725,14 +5727,7 @@ n
 (
 n
 <
-(
-sizeof
-(
-x
-)
-*
-8
-)
+64
 )
 )
 ;
