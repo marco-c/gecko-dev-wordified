@@ -981,14 +981,6 @@ else
 #
 endif
 ;
-constexpr
-size_t
-kCacheLineMask
-=
-kCacheLineSize
--
-1
-;
 /
 /
 Recycle
