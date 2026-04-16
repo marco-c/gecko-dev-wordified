@@ -4956,6 +4956,7 @@ inline
 bool
 DOMGlobalHasProtoAndIFaceCache
 (
+const
 JSObject
 *
 global
@@ -5010,6 +5011,7 @@ inline
 bool
 HasProtoAndIfaceCache
 (
+const
 JSObject
 *
 global

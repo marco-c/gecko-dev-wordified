@@ -148,6 +148,7 @@ callbacks
 bool
 IsLibrary
 (
+const
 JSObject
 *
 obj
