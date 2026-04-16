@@ -468,7 +468,7 @@ negative
 error
 code
 on
-failure
+faiure
 or
 >
 =

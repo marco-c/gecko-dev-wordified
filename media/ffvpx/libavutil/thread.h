@@ -1185,16 +1185,6 @@ name
 )
 ;
 #
-elif
-HAVE_W32THREADS
-ret
-=
-win32_thread_setname
-(
-name
-)
-;
-#
 else
 ret
 =

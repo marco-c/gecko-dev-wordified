@@ -180,7 +180,7 @@ file
 ingroup
 lavu_math_rational
 *
-Utilities
+Utilties
 for
 rational
 number

@@ -275,8 +275,6 @@ struct
 AVFrame
 *
 frame
-unsigned
-flags
 )
 ;
 /
@@ -540,8 +538,6 @@ as
 FFCodec
 .
 receive_frame
-plus
-flags
 .
 *
 /
@@ -555,8 +551,6 @@ avctx
 AVFrame
 *
 frame
-unsigned
-flags
 )
 ;
 /

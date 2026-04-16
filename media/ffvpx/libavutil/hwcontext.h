@@ -203,15 +203,6 @@ AV_HWDEVICE_TYPE_OPENCL
 AV_HWDEVICE_TYPE_MEDIACODEC
 AV_HWDEVICE_TYPE_VULKAN
 AV_HWDEVICE_TYPE_D3D12VA
-AV_HWDEVICE_TYPE_AMF
-/
-*
-OpenHarmony
-Codec
-device
-*
-/
-AV_HWDEVICE_TYPE_OHCODEC
 }
 ;
 /
@@ -4029,7 +4020,7 @@ hw_frames_ctx
 /
 format
 fields
-they
+thay
 may
 have
 been

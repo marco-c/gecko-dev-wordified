@@ -227,6 +227,10 @@ MAX_MB_BYTES
 +
 120
 )
+#
+define
+MAX_FCODE
+7
 /
 *
 MB

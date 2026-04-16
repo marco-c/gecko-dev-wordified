@@ -2808,11 +2808,6 @@ AVCodecContext
 avctx
 av_unused
 const
-AVBufferRef
-*
-buffer_ref
-av_unused
-const
 uint8_t
 *
 buffer
@@ -3961,7 +3956,6 @@ ret
 ;
 }
 static
-av_cold
 int
 dxva2_av1_uninit
 (

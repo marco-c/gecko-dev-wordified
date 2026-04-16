@@ -257,6 +257,7 @@ AVChannel
 /
 /
 /
+<
 Invalid
 channel
 index
@@ -1940,7 +1941,7 @@ channel
 layout
 must
 be
-uninitialized
+unitialized
 with
 av_channel_layout_uninit
 (
@@ -2387,7 +2388,7 @@ convenience
 functions
 below
 .
-Otherwise
+Otherise
 it
 must
 be

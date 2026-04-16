@@ -445,7 +445,7 @@ avctx
 codec
 &
 &
-ff_codec_is_decoder
+av_codec_is_decoder
 (
 avctx
 -

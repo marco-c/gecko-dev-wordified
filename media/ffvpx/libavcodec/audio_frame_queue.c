@@ -254,7 +254,6 @@ frame_count
 0
 ;
 }
-av_cold
 void
 ff_af_queue_close
 (

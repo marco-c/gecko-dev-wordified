@@ -594,13 +594,6 @@ ff_prores_profiles
 extern
 const
 AVProfile
-ff_prores_raw_profiles
-[
-]
-;
-extern
-const
-AVProfile
 ff_mjpeg_profiles
 [
 ]
@@ -616,13 +609,6 @@ extern
 const
 AVProfile
 ff_evc_profiles
-[
-]
-;
-extern
-const
-AVProfile
-ff_apv_profiles
 [
 ]
 ;

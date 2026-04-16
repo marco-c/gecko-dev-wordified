@@ -288,13 +288,13 @@ MC
 *
 /
 h264_weight_func
-weight_pixels_tab
+weight_h264_pixels_tab
 [
 4
 ]
 ;
 h264_biweight_func
-biweight_pixels_tab
+biweight_h264_pixels_tab
 [
 4
 ]
@@ -308,7 +308,7 @@ filter
 void
 (
 *
-v_loop_filter_luma
+h264_v_loop_filter_luma
 )
 (
 uint8_t
@@ -334,7 +334,7 @@ tc0
 void
 (
 *
-h_loop_filter_luma
+h264_h_loop_filter_luma
 )
 (
 uint8_t
@@ -360,7 +360,7 @@ tc0
 void
 (
 *
-h_loop_filter_luma_mbaff
+h264_h_loop_filter_luma_mbaff
 )
 (
 uint8_t
@@ -396,7 +396,7 @@ align
 void
 (
 *
-v_loop_filter_luma_intra
+h264_v_loop_filter_luma_intra
 )
 (
 uint8_t
@@ -413,7 +413,7 @@ beta
 void
 (
 *
-h_loop_filter_luma_intra
+h264_h_loop_filter_luma_intra
 )
 (
 uint8_t
@@ -430,7 +430,7 @@ beta
 void
 (
 *
-h_loop_filter_luma_mbaff_intra
+h264_h_loop_filter_luma_mbaff_intra
 )
 (
 uint8_t
@@ -453,7 +453,7 @@ beta
 void
 (
 *
-v_loop_filter_chroma
+h264_v_loop_filter_chroma
 )
 (
 uint8_t
@@ -479,7 +479,7 @@ tc0
 void
 (
 *
-h_loop_filter_chroma
+h264_h_loop_filter_chroma
 )
 (
 uint8_t
@@ -505,7 +505,7 @@ tc0
 void
 (
 *
-h_loop_filter_chroma_mbaff
+h264_h_loop_filter_chroma_mbaff
 )
 (
 uint8_t
@@ -531,7 +531,7 @@ tc0
 void
 (
 *
-v_loop_filter_chroma_intra
+h264_v_loop_filter_chroma_intra
 )
 (
 uint8_t
@@ -554,7 +554,7 @@ beta
 void
 (
 *
-h_loop_filter_chroma_intra
+h264_h_loop_filter_chroma_intra
 )
 (
 uint8_t
@@ -577,7 +577,7 @@ beta
 void
 (
 *
-h_loop_filter_chroma_mbaff_intra
+h264_h_loop_filter_chroma_mbaff_intra
 )
 (
 uint8_t
@@ -599,7 +599,7 @@ beta
 ;
 /
 /
-loop_filter_strength
+h264_loop_filter_strength
 :
 simd
 only
@@ -616,7 +616,7 @@ c
 void
 (
 *
-loop_filter_strength
+h264_loop_filter_strength
 )
 (
 int16_t
@@ -676,7 +676,7 @@ IDCT
 void
 (
 *
-idct_add
+h264_idct_add
 )
 (
 uint8_t
@@ -704,7 +704,7 @@ stride
 void
 (
 *
-idct8_add
+h264_idct8_add
 )
 (
 uint8_t
@@ -732,7 +732,7 @@ stride
 void
 (
 *
-idct_dc_add
+h264_idct_dc_add
 )
 (
 uint8_t
@@ -760,7 +760,7 @@ stride
 void
 (
 *
-idct8_dc_add
+h264_idct8_dc_add
 )
 (
 uint8_t
@@ -788,7 +788,7 @@ stride
 void
 (
 *
-idct_add16
+h264_idct_add16
 )
 (
 uint8_t
@@ -828,7 +828,7 @@ nnzc
 void
 (
 *
-idct8_add4
+h264_idct8_add4
 )
 (
 uint8_t
@@ -868,7 +868,7 @@ nnzc
 void
 (
 *
-idct_add8
+h264_idct_add8
 )
 (
 uint8_t
@@ -909,7 +909,7 @@ nnzc
 void
 (
 *
-idct_add16intra
+h264_idct_add16intra
 )
 (
 uint8_t
@@ -949,7 +949,7 @@ nnzc
 void
 (
 *
-luma_dc_dequant_idct
+h264_luma_dc_dequant_idct
 )
 (
 int16_t
@@ -971,7 +971,7 @@ qmul
 void
 (
 *
-chroma_dc_dequant_idct
+h264_chroma_dc_dequant_idct
 )
 (
 int16_t
@@ -991,7 +991,7 @@ transform
 void
 (
 *
-add_pixels8_clear
+h264_add_pixels8_clear
 )
 (
 uint8_t
@@ -1007,7 +1007,7 @@ stride
 void
 (
 *
-add_pixels4_clear
+h264_add_pixels4_clear
 )
 (
 uint8_t

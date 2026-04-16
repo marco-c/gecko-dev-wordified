@@ -8742,10 +8742,8 @@ dest
 ptrdiff_t
 line_size
 int16_t
+*
 block
-[
-64
-]
 )
 {
 ff_j_rev_dct
@@ -8770,10 +8768,8 @@ dest
 ptrdiff_t
 line_size
 int16_t
+*
 block
-[
-64
-]
 )
 {
 ff_j_rev_dct
