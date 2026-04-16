@@ -6702,6 +6702,16 @@ settings
 .
 speed
 )
+/
+*
+baseline_results
+=
+*
+/
+std
+:
+:
+nullopt
 )
 ;
 RTC_DCHECK_GT
