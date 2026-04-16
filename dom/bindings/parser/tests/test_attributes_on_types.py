@@ -2837,17 +2837,17 @@ ok
 (
 not
 threw
+f
 "
 Template
 for
-%
-s
+{
+name
+}
 parses
 without
 attributes
 "
-%
-name
 )
         
 for
@@ -2905,21 +2905,19 @@ harness
 ok
 (
 threw
+f
 "
 Should
 not
 allow
-%
-s
-on
-%
-s
-"
-%
-(
+{
 attribute
+}
+on
+{
 name
-)
+}
+"
 )
     
 parser
@@ -3294,6 +3292,7 @@ parser
 parse
 (
                 
+f
 "
 "
 "
@@ -3302,17 +3301,15 @@ typedef
 [
 Clamp
 ]
-%
-s
+{
+type
+}
 Foo
 ;
             
 "
 "
 "
-                
-%
-type
             
 )
             
@@ -3337,6 +3334,7 @@ harness
 ok
 (
 threw
+f
 "
 Should
 not
@@ -3345,11 +3343,10 @@ allow
 Clamp
 ]
 on
-%
-s
-"
-%
+{
 type
+}
+"
 )
         
 parser
@@ -3372,6 +3369,7 @@ parser
 parse
 (
                 
+f
 "
 "
 "
@@ -3380,17 +3378,15 @@ typedef
 [
 EnforceRange
 ]
-%
-s
+{
+type
+}
 Foo
 ;
             
 "
 "
 "
-                
-%
-type
             
 )
             
@@ -3415,6 +3411,7 @@ harness
 ok
 (
 threw
+f
 "
 Should
 not
@@ -3423,11 +3420,10 @@ allow
 EnforceRange
 ]
 on
-%
-s
-"
-%
+{
 type
+}
+"
 )
     
 parser

@@ -617,25 +617,23 @@ ok
                     
 False
                     
+f
 "
 Missing
-%
-s
+{
+attr
+}
 attribute
 on
 type
-%
-s
-in
-%
-s
-"
-%
-(
-attr
+{
 type2
+}
+in
+{
 iface
-)
+}
+"
                 
 )
                 
@@ -656,29 +654,26 @@ ok
                     
 False
                     
+f
 "
-%
-s
+{
+attr
+}
 attribute
 on
 type
-%
-s
+{
+type2
+}
 in
-%
-s
+{
+iface
+}
 wasn
 '
 t
 callable
 "
-                    
-%
-(
-attr
-type2
-iface
-)
                 
 )
                 
@@ -696,15 +691,15 @@ check
 (
 v2
 v1
+f
 "
-%
-s
+{
+attr
+}
 method
 return
 value
 "
-%
-attr
 )
         
 else
@@ -734,25 +729,23 @@ ok
                     
 False
                     
+f
 "
 Missing
-%
-s
+{
+attr
+}
 attribute
 on
 type
-%
-s
-in
-%
-s
-"
-%
-(
-attr
+{
 type2
+}
+in
+{
 iface
-)
+}
+"
                 
 )
                 
@@ -764,13 +757,13 @@ check
 (
 a2
 a1
+f
 "
-%
-s
+{
+attr
+}
 attribute
 should
 match
 "
-%
-attr
 )
