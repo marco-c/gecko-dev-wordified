@@ -514,6 +514,17 @@ r
 "
 notarization
 "
+    
+#
+not
+usually
+needed
+    
+"
+upload
+-
+symbols
+"
 ]
 def
 index_exists
