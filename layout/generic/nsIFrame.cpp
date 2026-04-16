@@ -34415,7 +34415,7 @@ NS_OK
 /
 When
 secondary
-buttion
+button
 is
 down
 we
