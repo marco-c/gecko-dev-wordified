@@ -242,11 +242,16 @@ algorithm
 Buffer
 buffer
 (
-0
+Buffer
+:
+:
+CreateWithCapacity
+(
 MessageDigest
 :
 :
 kMaxSize
+)
 )
 ;
 cert

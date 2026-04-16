@@ -7442,8 +7442,12 @@ false
 }
 Buffer
 computed_digest
+=
+Buffer
+:
+:
+CreateWithCapacity
 (
-0
 EVP_MAX_MD_SIZE
 )
 ;
