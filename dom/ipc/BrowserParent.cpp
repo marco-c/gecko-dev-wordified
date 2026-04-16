@@ -3034,8 +3034,10 @@ OwnerDoc
 )
 ;
 }
+already_AddRefed
+<
 nsIXULBrowserWindow
-*
+>
 BrowserParent
 :
 :
@@ -3148,6 +3150,10 @@ xulBrowserWindow
 ;
 return
 xulBrowserWindow
+.
+forget
+(
+)
 ;
 }
 uint32_t

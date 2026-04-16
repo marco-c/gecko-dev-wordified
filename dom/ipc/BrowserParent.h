@@ -743,8 +743,10 @@ GetTextInputHandlingWidget
 )
 const
 ;
+already_AddRefed
+<
 nsIXULBrowserWindow
-*
+>
 GetXULBrowserWindow
 (
 )
