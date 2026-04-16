@@ -935,6 +935,24 @@ FieldTrial
 '
 WebRTC
 -
+MediaTaskQueuePriorities
+'
+               
+470337728
+               
+date
+(
+2027
+4
+1
+)
+)
+    
+FieldTrial
+(
+'
+WebRTC
+-
 MixedCodecSimulcast
 '
                
