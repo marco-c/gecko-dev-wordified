@@ -8351,7 +8351,7 @@ return
 GetCreationTimeImpl
 (
 aCreationTime
-false
+true
 )
 ;
 }
@@ -8370,13 +8370,7 @@ return
 GetCreationTimeImpl
 (
 aCreationTimeOfLink
-/
-*
-aFollowLinks
-=
-*
-/
-true
+false
 )
 ;
 }
