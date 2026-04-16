@@ -721,8 +721,10 @@ process
 is
 complete
 .
+RefPtr
+<
 Document
-*
+>
 doc
 =
 owner
