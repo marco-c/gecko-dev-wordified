@@ -393,7 +393,7 @@ OnStopSending
 (
 )
 ;
-nsresult
+void
 OnReset
 (
 uint64_t
