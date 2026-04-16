@@ -213,6 +213,11 @@ searchSource
 "
 urlbar
 "
+windowMode
+:
+"
+classic
+"
 isSessionOngoing
 :
 false
@@ -436,6 +441,11 @@ searchSource
 :
 "
 urlbar
+"
+windowMode
+:
+"
+private
 "
 isSessionOngoing
 :
