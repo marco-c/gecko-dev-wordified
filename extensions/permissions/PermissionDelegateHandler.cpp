@@ -351,6 +351,16 @@ eDelegateUseIframeOrigin
 }
 {
 "
+serial
+"
+nullptr
+DelegatePolicy
+:
+:
+eDelegateUseFeaturePolicy
+}
+{
+"
 storage
 -
 access
