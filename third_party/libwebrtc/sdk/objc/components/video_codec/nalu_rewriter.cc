@@ -1721,7 +1721,7 @@ out_nalu
 =
 buffer_
 .
-subview
+subspan
 (
 offset_
 -
@@ -1964,7 +1964,7 @@ buffer_
 =
 buffer_
 .
-subview
+subspan
 (
 sizeof
 (
@@ -2000,7 +2000,7 @@ buffer_
 =
 buffer_
 .
-subview
+subspan
 (
 data
 .

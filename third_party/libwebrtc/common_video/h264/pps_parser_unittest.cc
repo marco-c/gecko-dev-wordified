@@ -190,7 +190,7 @@ contain
 slice
 QP
 .
-const
+constexpr
 uint8_t
 kH264BitstreamChunk
 [
@@ -247,13 +247,13 @@ kH264BitstreamChunk
 0xf8
 }
 ;
-const
+constexpr
 size_t
 kPpsBufferMaxSize
 =
 256
 ;
-const
+constexpr
 uint32_t
 kIgnored
 =
@@ -1565,7 +1565,7 @@ ParseSliceHeader
 (
 chunk
 .
-subview
+subspan
 (
 index
 .
