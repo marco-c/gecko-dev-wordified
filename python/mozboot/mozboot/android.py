@@ -6230,6 +6230,9 @@ MOZBUILD_PATH
 jdk
 "
 )
+    
+return
+java_path
 def
 get_java_bin_path
 (
