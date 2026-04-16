@@ -7386,6 +7386,10 @@ mUserChangedSinceFocus
 (
 false
 )
+mIsUserInteracting
+(
+false
+)
 mRadioGroupContainer
 (
 nullptr
@@ -11915,6 +11919,10 @@ ElementState
 :
 FOCUS
 )
+&
+&
+!
+mIsUserInteracting
 )
 {
 GetValue
@@ -17469,6 +17477,10 @@ mUserChangedSinceFocus
 =
 false
 ;
+mIsUserInteracting
+=
+false
+;
 if
 (
 mFocusedValue
@@ -22594,6 +22606,10 @@ mIsDraggingRange
 =
 true
 ;
+mIsUserInteracting
+=
+true
+;
 mRangeThumbDragStartValue
 =
 GetValueAsDecimal
@@ -22836,6 +22852,10 @@ mIsDraggingRange
 )
 ;
 mIsDraggingRange
+=
+false
+;
+mIsUserInteracting
 =
 false
 ;
@@ -23618,6 +23638,10 @@ will
 not
 change
 }
+mIsUserInteracting
+=
+true
+;
 nsAutoString
 newVal
 ;
