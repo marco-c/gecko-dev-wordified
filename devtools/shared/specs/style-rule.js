@@ -384,6 +384,15 @@ Arg
 domnode
 "
 )
+conditionIndex
+:
+Arg
+(
+2
+"
+number
+"
+)
 }
 response
 :
