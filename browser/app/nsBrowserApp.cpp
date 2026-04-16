@@ -126,9 +126,7 @@ h
 #
 include
 "
-application
-.
-ini
+ApplicationData
 .
 h
 "
@@ -1655,8 +1653,7 @@ config
 .
 appData
 =
-&
-sAppData
+kStaticAppData
 ;
 config
 .
