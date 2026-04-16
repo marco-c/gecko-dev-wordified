@@ -347,6 +347,24 @@ bug
 r
 "
 -
+artifact
+[
+/
+-
+]
+"
+#
+Artifact
+build
+test
+jobs
+-
+Bug
+1945658
+    
+r
+"
+-
 ccov
 "
     

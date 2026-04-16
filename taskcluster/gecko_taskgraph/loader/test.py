@@ -54,6 +54,8 @@ MPL
 /
 .
 import
+functools
+import
 gzip
 import
 json
@@ -61,12 +63,6 @@ import
 logging
 import
 os
-from
-mozbuild
-.
-util
-import
-memoize
 from
 taskgraph
 .
@@ -158,6 +154,27 @@ build
 loaded_tasks
 =
 loaded_tasks
+    
+)
+    
+builds_by_platform
+.
+update
+(
+        
+get_builds_by_platform
+(
+dep_kind
+=
+"
+artifact
+-
+build
+"
+loaded_tasks
+=
+loaded_tasks
+)
     
 )
     
@@ -1200,7 +1217,9 @@ wpt
     
 }
 }
-memoize
+functools
+.
+cache
 def
 is_test_for_kind
 (
