@@ -1039,6 +1039,10 @@ notification
 primary
 -
 button
+primary
+footer
+-
+button
 "
 "
 popup
