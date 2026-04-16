@@ -147,9 +147,6 @@ v8
 namespace
 internal
 {
-namespace
-regexp
-{
 icu
 :
 :
@@ -336,7 +333,7 @@ icu
 :
 UnicodeSet
 &
-CaseFolding
+RegExpCaseFolding
 :
 :
 IgnoreSet
@@ -503,7 +500,7 @@ icu
 :
 UnicodeSet
 &
-CaseFolding
+RegExpCaseFolding
 :
 :
 SpecialAddSet
@@ -536,11 +533,6 @@ Pointer
 set
 ;
 }
-}
-/
-/
-namespace
-regexp
 }
 /
 /
