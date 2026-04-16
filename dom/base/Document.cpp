@@ -201,6 +201,13 @@ h
 #
 include
 "
+SharedLcpMarkerState
+.
+h
+"
+#
+include
+"
 StorageAccessPermissionRequest
 .
 h
@@ -112426,6 +112433,11 @@ GetDocShell
 )
 ;
 GetNavigationTiming
+(
+)
+-
+>
+GetSharedLcpMarkerState
 (
 )
 -
