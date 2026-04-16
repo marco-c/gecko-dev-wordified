@@ -1280,6 +1280,15 @@ string
 >
 neural_echo_residual_estimator_model
 ;
+std
+:
+:
+optional
+<
+bool
+>
+use_adaptive_stereo_downmixing_for_aec
+;
 }
 ;
 /
