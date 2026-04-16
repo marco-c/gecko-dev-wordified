@@ -797,7 +797,10 @@ rv
 ;
 #
 elif
+defined
+(
 XP_WIN
+)
 nsAutoString
 installDirPathW
 ;
@@ -1657,6 +1660,8 @@ sizeof
 (
 buf
 )
+-
+1
 )
 ;
 PR_Close
@@ -1668,6 +1673,7 @@ if
 (
 n
 <
+=
 0
 )
 {
@@ -1675,6 +1681,16 @@ return
 false
 ;
 }
+buf
+[
+n
+]
+=
+'
+\
+0
+'
+;
 /
 /
 Trim
