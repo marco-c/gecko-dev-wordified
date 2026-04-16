@@ -47,6 +47,10 @@ any_string
     
 any_string_or_null
     
+assert_bytes_value
+    
+assert_cookie
+    
 assert_cookies
     
 int_interval
@@ -54,39 +58,6 @@ int_interval
 number_interval
     
 recursive_compare
-)
-def
-assert_bytes_value
-(
-bytes_value
-)
-:
-    
-assert
-bytes_value
-[
-"
-type
-"
-]
-in
-[
-"
-string
-"
-"
-base64
-"
-]
-    
-any_string
-(
-bytes_value
-[
-"
-value
-"
-]
 )
 def
 assert_headers
@@ -469,27 +440,6 @@ request_data
     
 )
     
-for
-cookie
-in
-request_data
-[
-"
-cookies
-"
-]
-:
-        
-assert_bytes_value
-(
-cookie
-[
-"
-value
-"
-]
-)
-    
 if
 "
 cookies
@@ -580,6 +530,37 @@ expected_request
 cookies
 "
 ]
+    
+else
+:
+        
+#
+Otherwise
+still
+check
+the
+cookies
+have
+the
+expected
+shape
+.
+        
+for
+cookie
+in
+request_data
+[
+"
+cookies
+"
+]
+:
+            
+assert_cookie
+(
+cookie
+)
     
 for
 header
