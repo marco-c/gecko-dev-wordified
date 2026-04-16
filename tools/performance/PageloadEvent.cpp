@@ -337,12 +337,12 @@ constexpr
 uint64_t
 kNormalSamplingInterval
 =
-10
+3
 ;
 /
 /
 Every
-10
+3
 pageloads
 .
 #
