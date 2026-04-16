@@ -407,16 +407,43 @@ env
 {
 }
             
+chunked
+[
+"
+worker
+"
+]
+[
+"
+env
+"
+]
+[
+"
+WORKSPACE_DIR
+"
+]
+=
+"
+/
+builds
+/
+worker
+/
+workspace
+"
+            
 command
 =
 [
                 
 "
-tools
 /
-update
--
-verify
+builds
+/
+worker
+/
+tools
 /
 scripts
 /
@@ -530,14 +557,10 @@ task
 "
                 
 "
-cwd
+checkout
 "
 :
-"
-{
-checkout
-}
-"
+False
                 
 "
 command
@@ -550,18 +573,6 @@ join
 (
 command
 )
-                
-"
-sparse
--
-profile
-"
-:
-"
-update
--
-verify
-"
             
 }
             
