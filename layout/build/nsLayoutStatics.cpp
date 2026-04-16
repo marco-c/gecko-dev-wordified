@@ -830,6 +830,17 @@ mozilla
 /
 dom
 /
+SerialPlatformService
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 WebIDLGlobalNameHash
 .
 h
