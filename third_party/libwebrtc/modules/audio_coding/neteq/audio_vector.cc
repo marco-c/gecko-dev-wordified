@@ -494,7 +494,7 @@ first_chunk
 =
 dst
 .
-subview
+subspan
 (
 0
 first_chunk_length
@@ -542,10 +542,9 @@ second_chunk
 =
 dst
 .
-subview
+subspan
 (
 first_chunk_length
-remaining_length
 )
 ;
 CopySamples

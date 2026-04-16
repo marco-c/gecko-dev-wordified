@@ -107,6 +107,11 @@ array
 >
 #
 include
+<
+cstddef
+>
+#
+include
 "
 api
 /
@@ -563,7 +568,7 @@ lagged_frame
 =
 pitch_buf_24kHz_view_
 .
-subview
+subspan
 (
 kMaxPitch24kHz
 -

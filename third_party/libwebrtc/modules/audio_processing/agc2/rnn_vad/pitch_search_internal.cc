@@ -240,7 +240,7 @@ DotProduct
 (
 pitch_buffer
 .
-subview
+subspan
 (
 /
 *
@@ -252,7 +252,7 @@ kMaxPitch24kHz
 )
 pitch_buffer
 .
-subview
+subspan
 (
 inverted_lag
 kFrameSize20ms24kHz
@@ -2471,7 +2471,7 @@ frame_20ms_view
 =
 pitch_buffer
 .
-subview
+subspan
 (
 0
 kFrameSize20ms24kHz
@@ -2749,7 +2749,7 @@ frame_view
 =
 pitch_buffer
 .
-subview
+subspan
 (
 0
 kFrameSize20ms12kHz

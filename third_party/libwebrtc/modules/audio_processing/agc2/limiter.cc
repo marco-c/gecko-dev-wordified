@@ -504,7 +504,7 @@ scaling_factors
 ]
 per_sample_scaling_factors
 .
-subview
+subspan
 (
 0
 subframe_size
