@@ -763,7 +763,8 @@ n0
 "
 "
 -
-T
+-
+template
 "
 f
 '
@@ -821,7 +822,8 @@ r
 revset
 "
 -
-T
+-
+template
 "
 "
 change_id
@@ -1080,7 +1082,8 @@ revset
 "
 "
 -
-T
+-
+template
 "
 "
 commit_id
@@ -1201,10 +1204,12 @@ _run_read_only
 "
 log
 "
+                
 "
 -
 n1
 "
+                
 "
 -
 -
@@ -1212,10 +1217,13 @@ no
 -
 graph
 "
+                
 "
 -
-T
+-
+template
 "
+                
 '
 committer
 .
@@ -1542,7 +1550,8 @@ graph
             
 "
 -
-T
+-
+template
 "
             
 '
@@ -3653,7 +3662,8 @@ empty
             
 "
 -
-T
+-
+template
 "
             
 '
@@ -4029,7 +4039,8 @@ graph
 "
 "
 -
-T
+-
+template
 "
 "
 id
@@ -4263,7 +4274,8 @@ exact
                 
 "
 -
-T
+-
+template
 "
                 
 "
@@ -4383,7 +4395,8 @@ graph
 "
 "
 -
-T
+-
+template
 "
 "
 id
@@ -4762,7 +4775,8 @@ n1
             
 "
 -
-T
+-
+template
 "
             
 "

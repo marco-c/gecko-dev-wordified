@@ -1067,7 +1067,8 @@ graph
                 
 "
 -
-T
+-
+template
 "
                 
 "
@@ -1129,7 +1130,8 @@ exact
                 
 "
 -
-T
+-
+template
 "
                 
 "
@@ -1176,7 +1178,8 @@ n0
                 
 "
 -
-T
+-
+template
 "
                 
 '
@@ -1225,7 +1228,8 @@ graph
                 
 "
 -
-T
+-
+template
 "
                 
 "
@@ -1342,26 +1346,33 @@ file
 )
             
 (
+                
 str
 (
 tool
 )
+                
 "
 -
 -
 quiet
 "
+                
 "
 log
 "
+                
 "
 -
 n0
 "
+                
 "
 -
-T
+-
+template
 "
+                
 '
 "
 snapshot
@@ -1369,6 +1380,7 @@ snapshot
 prepare_try_push
 "
 '
+            
 )
             
 (
@@ -1470,7 +1482,8 @@ r
                 
 "
 -
-T
+-
+template
 "
                 
 "
