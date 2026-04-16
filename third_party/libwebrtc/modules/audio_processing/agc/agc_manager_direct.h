@@ -913,7 +913,7 @@ optional
 <
 int
 >
-GetDigitalComressionGain
+GetDigitalCompressionGain
 (
 )
 ;

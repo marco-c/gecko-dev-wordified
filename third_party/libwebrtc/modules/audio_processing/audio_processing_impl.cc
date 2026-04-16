@@ -8593,7 +8593,7 @@ submodules_
 agc_manager
 -
 >
-GetDigitalComressionGain
+GetDigitalCompressionGain
 (
 )
 ;

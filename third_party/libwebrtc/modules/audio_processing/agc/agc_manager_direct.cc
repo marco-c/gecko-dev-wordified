@@ -4607,7 +4607,7 @@ int
 AgcManagerDirect
 :
 :
-GetDigitalComressionGain
+GetDigitalCompressionGain
 (
 )
 {
