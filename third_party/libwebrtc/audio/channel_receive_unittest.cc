@@ -286,6 +286,19 @@ modules
 /
 rtp_rtcp
 /
+include
+/
+rtp_rtcp_defines
+.
+h
+"
+#
+include
+"
+modules
+/
+rtp_rtcp
+/
 source
 /
 ntp_time_util
@@ -461,7 +474,7 @@ constexpr
 uint32_t
 kLocalSsrc
 =
-1111
+kFallbackRtcpSsrcForAudio
 ;
 constexpr
 uint32_t
@@ -608,7 +621,6 @@ get
 )
 &
 transport_
-kLocalSsrc
 kRemoteSsrc
 /
 *

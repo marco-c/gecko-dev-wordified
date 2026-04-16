@@ -3445,16 +3445,6 @@ video_decoder_factory_
 ;
 video_config
 .
-rtp
-.
-local_ssrc
-=
-kVideoSsrc
-+
-1
-;
-video_config
-.
 renderer
 =
 &

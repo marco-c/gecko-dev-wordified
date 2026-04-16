@@ -1261,16 +1261,6 @@ frame_decryptor
 =
 0
 ;
-virtual
-void
-OnLocalSsrcChange
-(
-uint32_t
-local_ssrc
-)
-=
-0
-;
 }
 ;
 std
@@ -1295,8 +1285,6 @@ audio_device_module
 Transport
 *
 rtcp_send_transport
-uint32_t
-local_ssrc
 uint32_t
 remote_ssrc
 size_t

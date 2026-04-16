@@ -237,14 +237,6 @@ vp9_config
 .
 rtp
 .
-local_ssrc
-=
-7731
-;
-vp9_config
-.
-rtp
-.
 remote_ssrc
 =
 1337
