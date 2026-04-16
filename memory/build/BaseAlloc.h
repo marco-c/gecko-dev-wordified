@@ -166,6 +166,25 @@ MOZ_REQUIRES
 gInitLock
 )
 ;
+/
+/
+These
+functions
+are
+exposed
+with
+MFBT_API
+so
+they
+can
+be
+called
+from
+/
+/
+gtests
+.
+MFBT_API
 void
 *
 alloc
@@ -178,6 +197,7 @@ MOZ_EXCLUDES
 mMutex
 )
 ;
+MFBT_API
 void
 *
 calloc
@@ -204,6 +224,7 @@ without
 the
 lock
 .
+MFBT_API
 size_t
 usable_size
 (
@@ -212,6 +233,7 @@ void
 aPtr
 )
 ;
+MFBT_API
 void
 free
 (
@@ -654,6 +676,7 @@ mMutex
 ;
 }
 ;
+MFBT_API
 extern
 BaseAlloc
 sBaseAlloc
