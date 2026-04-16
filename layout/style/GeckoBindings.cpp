@@ -12608,6 +12608,8 @@ wm
 =
 usesCBWM
 ?
+cbwm
+:
 aParams
 -
 >
@@ -12619,8 +12621,6 @@ mFrame
 GetWritingMode
 (
 )
-:
-cbwm
 ;
 const
 auto
