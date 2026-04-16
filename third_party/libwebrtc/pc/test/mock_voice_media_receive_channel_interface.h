@@ -626,9 +626,7 @@ MOCK_METHOD
 void
 OnPacketReceived
 (
-const
 RtpPacketReceived
-&
 packet
 )
 (

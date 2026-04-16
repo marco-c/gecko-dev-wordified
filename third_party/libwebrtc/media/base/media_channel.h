@@ -2078,9 +2078,7 @@ virtual
 void
 OnPacketReceived
 (
-const
 RtpPacketReceived
-&
 packet
 )
 =

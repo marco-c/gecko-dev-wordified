@@ -216,10 +216,14 @@ parsed_packet
 ;
 /
 /
-Must
+Can
 be
 called
 on
+the
+network
+thread
+or
 the
 worker
 thread
