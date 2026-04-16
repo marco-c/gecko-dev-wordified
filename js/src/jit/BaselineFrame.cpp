@@ -880,7 +880,7 @@ nullptr
 ;
 }
 }
-bool
+void
 BaselineFrame
 :
 :
@@ -1265,9 +1265,6 @@ to
 the
 BaselineFrame
 .
-if
-(
-!
 DebugAPI
 :
 :
@@ -1277,18 +1274,10 @@ cx
 fp
 this
 )
-)
-{
-return
-false
 ;
-}
 setIsDebuggee
 (
 )
 ;
 }
-return
-true
-;
 }

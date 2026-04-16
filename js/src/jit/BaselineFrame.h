@@ -598,12 +598,7 @@ hiReturnValue_
 ;
 public
 :
-[
-[
-nodiscard
-]
-]
-bool
+void
 initForOsr
 (
 InterpreterFrame
