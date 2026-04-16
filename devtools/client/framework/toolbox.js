@@ -9670,8 +9670,9 @@ _getDebugTargetData
 const
 url
 =
-new
 URL
+.
+parse
 (
 this
 .
@@ -9684,6 +9685,8 @@ const
 remoteId
 =
 url
+?
+url
 .
 searchParams
 .
@@ -9693,6 +9696,8 @@ get
 remoteId
 "
 )
+:
+null
 ;
 const
 runtimeInfo
