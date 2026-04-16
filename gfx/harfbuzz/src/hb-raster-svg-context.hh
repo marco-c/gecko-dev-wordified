@@ -410,6 +410,11 @@ allow_symbol_render_once
 false
 ;
 bool
+failed
+=
+false
+;
+bool
 push_transform
 (
 float
