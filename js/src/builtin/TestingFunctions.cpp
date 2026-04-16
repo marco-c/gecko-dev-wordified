@@ -1347,6 +1347,15 @@ h
 #
 include
 "
+vm
+/
+WrapperObject
+.
+h
+"
+#
+include
+"
 wasm
 /
 AsmJS
