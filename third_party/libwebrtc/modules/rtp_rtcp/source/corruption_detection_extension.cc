@@ -365,14 +365,14 @@ assign
 (
 data
 .
-cbegin
+begin
 (
 )
 +
 kConfigurationBytes
 data
 .
-cend
+end
 (
 )
 )

@@ -188,12 +188,12 @@ max_element
 (
 preferred_sample_rates
 .
-cbegin
+begin
 (
 )
 preferred_sample_rates
 .
-cend
+end
 (
 )
 )
