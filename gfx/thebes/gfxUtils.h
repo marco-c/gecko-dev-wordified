@@ -3083,10 +3083,6 @@ const
 nsAString
 &
 aEncoderOptions
-const
-nsACString
-&
-aRandomizationKey
 nsIInputStream
 *
 *
