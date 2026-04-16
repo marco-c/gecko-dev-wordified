@@ -1278,20 +1278,20 @@ aRv
 }
 NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED
 (
-WritableStreamToOutput
+WritableStreamToOutputAlgorithms
 UnderlyingSinkAlgorithmsBase
 nsIOutputStreamCallback
 )
 NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
-WritableStreamToOutput
+WritableStreamToOutputAlgorithms
 UnderlyingSinkAlgorithmsBase
 mParent
 mOutput
 mPromise
 )
 NS_IMETHODIMP
-WritableStreamToOutput
+WritableStreamToOutputAlgorithms
 :
 :
 OnOutputStreamReady
@@ -1537,6 +1537,7 @@ to
 write
 data
 "
+_ns
 )
 ;
 ClearData
@@ -1614,7 +1615,7 @@ already_AddRefed
 <
 Promise
 >
-WritableStreamToOutput
+WritableStreamToOutputAlgorithms
 :
 :
 WriteCallbackImpl
@@ -1858,6 +1859,7 @@ error
 writing
 data
 "
+_ns
 )
 ;
 return
@@ -2032,6 +2034,7 @@ to
 write
 data
 "
+_ns
 )
 ;
 }
@@ -2047,7 +2050,7 @@ already_AddRefed
 <
 Promise
 >
-WritableStreamToOutput
+WritableStreamToOutputAlgorithms
 :
 :
 AbortCallbackImpl
@@ -2288,7 +2291,7 @@ nullptr
 ;
 }
 void
-WritableStreamToOutput
+WritableStreamToOutputAlgorithms
 :
 :
 ReleaseObjects
