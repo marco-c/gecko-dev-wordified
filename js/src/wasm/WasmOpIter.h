@@ -831,6 +831,19 @@ Try
 TryTable
 CallBuiltinModuleFunc
 StackSwitch
+#
+ifdef
+ENABLE_WASM_JSPI
+ContNew
+ContBind
+Suspend
+Resume
+ResumeThrow
+ResumeThrowRef
+Switch
+GuardSuspending
+#
+endif
 }
 ;
 /
@@ -11644,7 +11657,7 @@ tagResult
 =
 tagType
 .
-resultType
+argResultType
 (
 )
 ;
@@ -12055,7 +12068,7 @@ tagIndex
 type
 -
 >
-resultType
+argResultType
 (
 )
 )
@@ -12605,7 +12618,7 @@ tagIndex
 type
 -
 >
-resultType
+argResultType
 (
 )
 argValues
