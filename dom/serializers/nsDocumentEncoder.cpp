@@ -8349,7 +8349,7 @@ outputBuffer
 =
 output
 .
-GetStringBuffer
+GetOwnedStringBuffer
 (
 )
 )

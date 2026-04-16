@@ -1073,10 +1073,12 @@ SetAsNullIsEmptyString
 (
 )
 =
-innerText
-.
-AsAString
+std
+:
+:
+move
 (
+innerText
 )
 ;
 }

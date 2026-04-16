@@ -20401,13 +20401,7 @@ InnerTextAccumulator
 explicit
 InnerTextAccumulator
 (
-mozilla
-:
-:
-dom
-:
-:
-DOMString
+nsAString
 &
 aValue
 )
@@ -20415,10 +20409,6 @@ aValue
 mString
 (
 aValue
-.
-AsAString
-(
-)
 )
 mRequiredLineBreakCount
 (
@@ -21175,7 +21165,7 @@ nsRange
 :
 GetInnerTextNoFlush
 (
-DOMString
+nsAString
 &
 aValue
 ErrorResult

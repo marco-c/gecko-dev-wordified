@@ -1698,10 +1698,13 @@ default
 {
 ToString
 (
-aResult
-.
-AsAString
+static_cast
+<
+nsAString
+&
+>
 (
+aResult
 )
 )
 ;

@@ -398,7 +398,7 @@ uint16_t
 f_voided
 uint16_t
 *
-f_refcounted
+f_stringbuffer
 uint16_t
 *
 f_owned
@@ -425,7 +425,7 @@ NsStringFlags
 uint16_t
 f_terminated
 f_voided
-f_refcounted
+f_stringbuffer
 f_owned
 f_inline
 f_literal
@@ -439,7 +439,7 @@ f_terminated
 &
 f_voided
 &
-f_refcounted
+f_stringbuffer
 &
 f_owned
 &
@@ -514,7 +514,7 @@ VOIDED
 ;
 EXPECT_EQ
 (
-f_refcounted
+f_stringbuffer
 uint16_t
 (
 nsAString
@@ -523,13 +523,13 @@ nsAString
 DataFlags
 :
 :
-REFCOUNTED
+STRINGBUFFER
 )
 )
 ;
 EXPECT_EQ
 (
-f_refcounted
+f_stringbuffer
 uint16_t
 (
 nsACString
@@ -538,7 +538,7 @@ nsACString
 DataFlags
 :
 :
-REFCOUNTED
+STRINGBUFFER
 )
 )
 ;
