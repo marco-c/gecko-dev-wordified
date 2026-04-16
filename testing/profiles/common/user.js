@@ -233,7 +233,9 @@ stream
 .
 feeds
 .
-discoverystreamfeed
+system
+.
+topstories
 "
 false
 )
