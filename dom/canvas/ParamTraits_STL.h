@@ -71,15 +71,6 @@ IPCMessageUtils
 .
 h
 "
-#
-include
-"
-mozilla
-/
-IntegerRange
-.
-h
-"
 namespace
 IPC
 {
