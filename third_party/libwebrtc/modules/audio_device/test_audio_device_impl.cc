@@ -466,7 +466,7 @@ TaskQueueFactory
 Priority
 :
 :
-NORMAL
+kNormal
 )
 ;
 RepeatingTaskHandle

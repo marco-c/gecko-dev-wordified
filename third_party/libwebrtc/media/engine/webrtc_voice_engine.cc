@@ -3838,7 +3838,7 @@ TaskQueueFactory
 Priority
 :
 :
-LOW
+kLow
 )
 ;
 adm_helpers

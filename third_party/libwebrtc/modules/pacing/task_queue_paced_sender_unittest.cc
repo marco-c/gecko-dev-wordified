@@ -5505,7 +5505,7 @@ TaskQueueFactory
 Priority
 :
 :
-HIGH
+kHigh
 )
 ;
 EXPECT_CALL

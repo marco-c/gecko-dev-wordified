@@ -1431,7 +1431,7 @@ TaskQueueFactory
 Priority
 :
 :
-NORMAL
+kNormal
 )
 )
 task_queue_setter_

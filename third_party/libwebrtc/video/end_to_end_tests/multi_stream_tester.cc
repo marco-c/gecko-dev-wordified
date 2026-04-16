@@ -564,7 +564,7 @@ TaskQueueFactory
 Priority
 :
 :
-HIGH
+kHigh
 )
 ;
 CallConfig

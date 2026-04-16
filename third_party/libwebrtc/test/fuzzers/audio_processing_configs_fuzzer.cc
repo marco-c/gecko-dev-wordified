@@ -1123,7 +1123,7 @@ TaskQueueFactory
 Priority
 :
 :
-LOW
+kLow
 )
 ;
 auto

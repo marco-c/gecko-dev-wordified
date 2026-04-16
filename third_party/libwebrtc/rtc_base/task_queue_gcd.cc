@@ -256,7 +256,7 @@ TaskQueueFactory
 Priority
 :
 :
-NORMAL
+kNormal
 :
 return
 DISPATCH_QUEUE_PRIORITY_DEFAULT
@@ -268,7 +268,7 @@ TaskQueueFactory
 Priority
 :
 :
-HIGH
+kHigh
 :
 return
 DISPATCH_QUEUE_PRIORITY_HIGH
@@ -280,7 +280,7 @@ TaskQueueFactory
 Priority
 :
 :
-LOW
+kLow
 :
 return
 DISPATCH_QUEUE_PRIORITY_LOW

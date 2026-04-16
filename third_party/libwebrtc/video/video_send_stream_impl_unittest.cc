@@ -1108,7 +1108,7 @@ TaskQueueFactory
 Priority
 :
 :
-NORMAL
+kNormal
 )
 )
 stats_proxy_

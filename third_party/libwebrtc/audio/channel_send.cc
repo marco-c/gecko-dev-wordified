@@ -3430,7 +3430,7 @@ TaskQueueFactory
 Priority
 :
 :
-NORMAL
+kNormal
 )
 )
 encoder_queue_checker_
