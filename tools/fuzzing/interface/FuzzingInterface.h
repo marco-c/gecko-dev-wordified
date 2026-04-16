@@ -75,6 +75,11 @@ FuzzingInterface_h_
 define
 FuzzingInterface_h_
 #
+include
+<
+fstream
+>
+#
 ifdef
 LIBFUZZER
 #

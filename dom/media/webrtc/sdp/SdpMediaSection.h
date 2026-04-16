@@ -65,7 +65,7 @@ SDPMEDIASECTION_H_
 #
 include
 <
-ostream
+sstream
 >
 #
 include

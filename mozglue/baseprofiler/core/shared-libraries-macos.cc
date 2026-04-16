@@ -169,6 +169,11 @@ h
 #
 include
 <
+sstream
+>
+#
+include
+<
 string
 .
 h

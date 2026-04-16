@@ -217,6 +217,11 @@ h
 #
 include
 <
+ostream
+>
+#
+include
+<
 type_traits
 >
 using

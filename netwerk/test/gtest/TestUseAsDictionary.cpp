@@ -58,6 +58,11 @@ MPL
 /
 #
 include
+<
+ostream
+>
+#
+include
 "
 gtest
 /

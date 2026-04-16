@@ -151,6 +151,11 @@ h
 "
 #
 include
+<
+fstream
+>
+#
+include
 "
 FuzzingInterface
 .
