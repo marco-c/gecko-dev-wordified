@@ -437,6 +437,11 @@ b
 #
 endif
 void
+EnableCrashReporter
+(
+)
+;
+void
 DisableCrashReporter
 (
 )
