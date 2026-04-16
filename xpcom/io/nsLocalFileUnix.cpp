@@ -11004,6 +11004,7 @@ executableExts
 ifdef
 MOZ_WIDGET_COCOA
 "
+.
 afploc
 "
 /
@@ -11017,6 +11018,7 @@ files
 #
 endif
 "
+.
 air
 "
 /
@@ -11028,6 +11030,7 @@ installer
 ifdef
 MOZ_WIDGET_COCOA
 "
+.
 atloc
 "
 /
@@ -11039,6 +11042,15 @@ other
 files
 .
 "
+.
+command
+"
+/
+/
+Mac
+script
+"
+.
 fileloc
 "
 /
@@ -11058,6 +11070,7 @@ other
 files
 .
 "
+.
 ftploc
 "
 /
@@ -11069,6 +11082,7 @@ other
 files
 .
 "
+.
 inetloc
 "
 /
@@ -11092,6 +11106,7 @@ macOS
 vulnerabilities
 .
 "
+.
 terminal
 "
 /
@@ -11104,6 +11119,7 @@ files
 #
 endif
 "
+.
 jar
 "
 /
@@ -11120,8 +11136,6 @@ Substring
 (
 path
 dotIdx
-+
-1
 )
 ;
 for

@@ -403,6 +403,14 @@ com
 "
 "
 .
+command
+"
+/
+/
+Mac
+script
+"
+.
 cpl
 "
 "

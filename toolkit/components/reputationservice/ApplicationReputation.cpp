@@ -1760,10 +1760,13 @@ exec
 /
 Windows
 executable
+/
+/
 "
 .
 command
 "
+exec
 /
 /
 Mac
