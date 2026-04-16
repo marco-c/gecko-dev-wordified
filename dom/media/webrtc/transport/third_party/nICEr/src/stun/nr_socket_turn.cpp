@@ -603,7 +603,7 @@ destroy
 it
 *
 /
-RFREE
+free
 (
 sturn
 )

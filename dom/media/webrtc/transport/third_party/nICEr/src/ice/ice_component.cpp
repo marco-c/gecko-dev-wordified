@@ -622,7 +622,7 @@ par
 >
 username
 =
-r_strdup
+strdup
 (
 attr
 -
@@ -756,7 +756,7 @@ req
 response
 )
 ;
-RFREE
+free
 (
 par
 -
@@ -764,7 +764,7 @@ par
 username
 )
 ;
-RFREE
+free
 (
 par
 )
@@ -1122,7 +1122,7 @@ r1
 )
 ;
 }
-RFREE
+free
 (
 component
 )
@@ -12562,7 +12562,7 @@ _status
 ;
 abort
 :
-RFREE
+free
 (
 pairs
 )

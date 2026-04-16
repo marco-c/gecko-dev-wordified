@@ -2510,7 +2510,7 @@ TURN
 /
 #
 endif
-RFREE
+free
 (
 realm
 )
@@ -3041,7 +3041,7 @@ attr
 )
 )
 {
-RFREE
+free
 (
 ctx
 -
@@ -3054,7 +3054,7 @@ ctx
 >
 realm
 =
-r_strdup
+strdup
 (
 attr
 -
@@ -3107,7 +3107,7 @@ attr
 )
 )
 {
-RFREE
+free
 (
 ctx
 -
@@ -3120,7 +3120,7 @@ ctx
 >
 nonce
 =
-r_strdup
+strdup
 (
 attr
 -

@@ -1192,7 +1192,7 @@ create_info
 &
 info
 )
-RFREE
+free
 (
 info
 )
@@ -1416,7 +1416,7 @@ void
 ptr
 )
 {
-RFREE
+free
 (
 ptr
 )
@@ -1506,7 +1506,7 @@ tmp
 char
 *
 )
-r_strdup
+strdup
 (
 name
 )
@@ -1867,7 +1867,7 @@ tmp
 =
 0
 )
-RFREE
+free
 (
 tmp
 )

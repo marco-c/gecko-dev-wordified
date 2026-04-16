@@ -471,7 +471,7 @@ ctx
 free_list
 )
 ;
-RFREE
+free
 (
 ctx
 )
@@ -578,7 +578,7 @@ data
 UCHAR
 *
 )
-RMALLOC
+malloc
 (
 ctx
 -
@@ -978,7 +978,7 @@ return
 0
 )
 ;
-RFREE
+free
 (
 buf
 -
@@ -986,7 +986,7 @@ buf
 data
 )
 ;
-RFREE
+free
 (
 buf
 )

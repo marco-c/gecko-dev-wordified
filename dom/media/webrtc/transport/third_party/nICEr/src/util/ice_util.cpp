@@ -348,7 +348,7 @@ out
 char
 *
 )
-RMALLOC
+malloc
 (
 len
 +

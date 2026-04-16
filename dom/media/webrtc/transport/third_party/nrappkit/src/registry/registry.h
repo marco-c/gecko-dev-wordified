@@ -746,7 +746,7 @@ child
 convenience
 methods
 call
-RFREE
+free
 on
 the
 returned

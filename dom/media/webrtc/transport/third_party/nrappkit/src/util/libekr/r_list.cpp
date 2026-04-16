@@ -859,13 +859,13 @@ el
 >
 next
 ;
-RFREE
+free
 (
 el_t
 )
 ;
 }
-RFREE
+free
 (
 list
 )

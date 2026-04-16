@@ -836,7 +836,7 @@ if
 (
 free_node
 )
-RFREE
+free
 (
 node
 )
@@ -1227,7 +1227,7 @@ _status
 ;
 abort
 :
-RFREE
+free
 (
 children
 )
@@ -1243,7 +1243,7 @@ _status
 convenience
 methods
 call
-RFREE
+free
 on
 the
 returned
@@ -1302,7 +1302,7 @@ tmp
 UCHAR
 *
 )
-RMALLOC
+malloc
 (
 length
 )
@@ -1370,7 +1370,7 @@ if
 (
 tmp
 )
-RFREE
+free
 (
 tmp
 )
@@ -1434,7 +1434,7 @@ tmp
 char
 *
 )
-RMALLOC
+malloc
 (
 length
 +
@@ -1498,7 +1498,7 @@ if
 (
 tmp
 )
-RFREE
+free
 (
 tmp
 )

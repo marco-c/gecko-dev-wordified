@@ -1501,7 +1501,7 @@ void
 ptr
 )
 {
-RFREE
+free
 (
 ptr
 )
@@ -1966,7 +1966,7 @@ if
 (
 freeit
 )
-RFREE
+free
 (
 data
 )
@@ -2157,7 +2157,7 @@ if
 (
 freeit
 )
-RFREE
+free
 (
 data
 )
@@ -2300,7 +2300,7 @@ s
 char
 *
 )
-RMALLOC
+malloc
 (
 alloc
 )
@@ -2734,7 +2734,7 @@ if
 freeit
 )
 {
-RFREE
+free
 (
 s
 )
@@ -2839,7 +2839,7 @@ if
 (
 free_node
 )
-RFREE
+free
 (
 node
 )
@@ -3206,7 +3206,7 @@ node
 &
 free_node
 )
-RFREE
+free
 (
 node
 )
@@ -3569,7 +3569,7 @@ node
 &
 free_node
 )
-RFREE
+free
 (
 node
 )
@@ -3934,7 +3934,7 @@ if
 (
 parent
 =
-r_strdup
+strdup
 (
 name
 )
@@ -4001,7 +4001,7 @@ if
 (
 parent
 )
-RFREE
+free
 (
 parent
 )

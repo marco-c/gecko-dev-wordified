@@ -410,7 +410,7 @@ sock
 inner
 )
 ;
-RFREE
+free
 (
 sock
 )
@@ -2774,7 +2774,7 @@ tcpsock
 )
 ;
 }
-RFREE
+free
 (
 sock
 )

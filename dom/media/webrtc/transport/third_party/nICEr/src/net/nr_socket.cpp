@@ -495,7 +495,7 @@ sock
 obj
 )
 ;
-RFREE
+free
 (
 sock
 )
@@ -1037,7 +1037,7 @@ factoryp
 obj
 )
 ;
-RFREE
+free
 (
 factoryp
 )

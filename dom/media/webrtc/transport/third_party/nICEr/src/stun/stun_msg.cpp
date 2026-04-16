@@ -548,7 +548,7 @@ attr
 )
 ;
 }
-RFREE
+free
 (
 *
 msg
@@ -688,7 +688,7 @@ a
 entry
 )
 ;
-RFREE
+free
 (
 a
 )

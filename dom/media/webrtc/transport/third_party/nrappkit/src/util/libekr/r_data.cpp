@@ -694,7 +694,7 @@ data
 UCHAR
 *
 )
-RMALLOC
+malloc
 (
 l
 )
@@ -877,7 +877,7 @@ data
 UCHAR
 *
 )
-RMALLOC
+malloc
 (
 l
 )
@@ -945,7 +945,7 @@ dp
 >
 data
 )
-RFREE
+free
 (
 (
 *
@@ -956,7 +956,7 @@ dp
 data
 )
 ;
-RFREE
+free
 (
 *
 dp
@@ -997,7 +997,7 @@ data
 UCHAR
 *
 )
-RMALLOC
+malloc
 (
 src
 -
@@ -1082,7 +1082,7 @@ d
 len
 )
 ;
-RFREE
+free
 (
 d
 -

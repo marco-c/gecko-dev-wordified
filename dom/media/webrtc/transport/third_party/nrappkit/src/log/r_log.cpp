@@ -854,7 +854,7 @@ i
 .
 facility_name
 =
-r_strdup
+strdup
 (
 facility_name
 )
@@ -1136,7 +1136,7 @@ if
 (
 _status
 )
-RFREE
+free
 (
 buf
 )
@@ -1508,7 +1508,7 @@ hex
 char
 *
 )
-RMALLOC
+malloc
 (
 (
 len
@@ -1594,7 +1594,7 @@ s
 hex
 )
 ;
-RFREE
+free
 (
 hex
 )
