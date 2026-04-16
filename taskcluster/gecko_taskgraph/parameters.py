@@ -121,6 +121,15 @@ bool
 Required
 (
 "
+dontbuild
+"
+)
+:
+bool
+    
+Required
+(
+"
 build_number
 "
 )
@@ -1063,6 +1072,12 @@ get_app_version
         
 "
 backstop
+"
+:
+False
+        
+"
+dontbuild
 "
 :
 False
