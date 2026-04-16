@@ -15003,14 +15003,6 @@ flushes
 pending
 *
 layout
-and
-that
-has
-caused
-changing
-the
-*
-layout
 .
 *
 /
