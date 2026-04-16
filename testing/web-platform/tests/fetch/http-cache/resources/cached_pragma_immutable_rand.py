@@ -135,14 +135,15 @@ cache
 #
 Include
 a
-timestamp
+unique
+token
 to
 verify
 caching
 behavior
     
 import
-time
+uuid
     
 response
 .
@@ -150,12 +151,12 @@ content
 =
 f
 "
-Timestamp
+Token
 :
 {
-time
+uuid
 .
-time
+uuid4
 (
 )
 }
