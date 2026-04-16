@@ -75,6 +75,16 @@ types
 h
 >
 #
+ifdef
+XP_MACOSX
+#
+include
+<
+vector
+>
+#
+endif
+#
 include
 "
 mozilla
