@@ -3366,9 +3366,10 @@ JSContext
 aCx
 Handle
 <
-Value
+JSObject
+*
 >
-aReferencingPrivate
+aModuleRecord
 Handle
 <
 JSObject

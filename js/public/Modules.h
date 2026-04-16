@@ -987,9 +987,10 @@ JSContext
 cx
 Handle
 <
-Value
+JSObject
+*
 >
-privateValue
+moduleRecord
 Handle
 <
 JSObject
