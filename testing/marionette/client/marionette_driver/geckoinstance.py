@@ -785,6 +785,30 @@ count
 0
         
 #
+Disable
+system
+permission
+checks
+for
+navigator
+.
+permissions
+.
+query
+        
+"
+dom
+.
+permissions
+.
+testing
+.
+enabled
+"
+:
+True
+        
+#
 DOM
 Push
         
