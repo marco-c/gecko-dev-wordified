@@ -209,7 +209,7 @@ NS_IsMainThread
 static
 already_AddRefed
 <
-nsIBackgroundChannelRegistrar
+BackgroundChannelRegistrar
 >
 BackgroundChannelRegistrar
 :

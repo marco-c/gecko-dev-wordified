@@ -138,7 +138,7 @@ accessors
 static
 already_AddRefed
 <
-nsIBackgroundChannelRegistrar
+BackgroundChannelRegistrar
 >
 GetOrCreate
 (
