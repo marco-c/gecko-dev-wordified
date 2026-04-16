@@ -2265,7 +2265,7 @@ fsSelection
 )
 ;
 }
-unsigned
+size_t
 get_size
 (
 )

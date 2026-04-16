@@ -90,7 +90,7 @@ DEFINE_SIZE_MIN
 )
 ;
 static
-unsigned
+size_t
 get_size
 (
 unsigned
@@ -121,7 +121,7 @@ len2
 ;
 }
 static
-unsigned
+size_t
 get_size
 (
 const
@@ -188,8 +188,7 @@ get_len
 )
 *
 /
-unsigned
-int
+size_t
 stride
 ;
 /

@@ -1314,8 +1314,7 @@ glyph
 }
 ;
 }
-unsigned
-int
+size_t
 get_size
 (
 unsigned
@@ -1448,8 +1447,7 @@ FD_TYPE
 struct
 FDSelect3_4
 {
-unsigned
-int
+size_t
 get_size
 (
 )
@@ -2051,8 +2049,7 @@ true
 )
 ;
 }
-unsigned
-int
+size_t
 get_size
 (
 unsigned

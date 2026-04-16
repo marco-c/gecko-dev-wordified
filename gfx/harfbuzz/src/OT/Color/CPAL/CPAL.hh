@@ -1073,8 +1073,7 @@ return
 numPalettes
 ;
 }
-unsigned
-int
+size_t
 get_size
 (
 )

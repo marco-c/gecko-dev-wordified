@@ -606,8 +606,7 @@ struct
 SBIXStrike
 {
 static
-unsigned
-int
+size_t
 get_size
 (
 unsigned

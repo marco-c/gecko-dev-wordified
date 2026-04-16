@@ -290,7 +290,7 @@ vertex
 )
 const
 {
-int64_t
+size_t
 vertex_len
 =
 vertex
@@ -3611,7 +3611,7 @@ vertex
 )
 const
 {
-int64_t
+size_t
 vertex_len
 =
 vertex

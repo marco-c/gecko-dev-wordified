@@ -1515,7 +1515,7 @@ return
 length
 ;
 }
-unsigned
+size_t
 get_size
 (
 )

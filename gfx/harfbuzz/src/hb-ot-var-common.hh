@@ -283,7 +283,7 @@ friend
 struct
 tuple_delta_t
 ;
-unsigned
+size_t
 get_size
 (
 unsigned
@@ -6200,7 +6200,7 @@ this
 )
 ;
 }
-unsigned
+size_t
 get_size
 (
 unsigned

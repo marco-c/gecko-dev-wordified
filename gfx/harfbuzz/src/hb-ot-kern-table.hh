@@ -844,8 +844,7 @@ KernSubTableHeader
 struct
 KernSubTable
 {
-unsigned
-int
+size_t
 get_size
 (
 )

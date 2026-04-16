@@ -6538,8 +6538,7 @@ friend
 struct
 Chain
 ;
-unsigned
-int
+size_t
 get_size
 (
 )
@@ -8210,8 +8209,7 @@ reverse_buffer
 )
 ;
 }
-unsigned
-int
+size_t
 get_size
 (
 )

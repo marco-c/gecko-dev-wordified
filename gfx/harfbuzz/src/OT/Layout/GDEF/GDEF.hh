@@ -3716,8 +3716,7 @@ Types
 size
 )
 ;
-unsigned
-int
+size_t
 get_size
 (
 )
@@ -4766,8 +4765,7 @@ ComponentGlyph
 4
 }
 ;
-unsigned
-int
+size_t
 get_size
 (
 )

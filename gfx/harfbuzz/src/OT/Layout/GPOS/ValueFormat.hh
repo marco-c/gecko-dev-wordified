@@ -547,8 +547,7 @@ this
 )
 ;
 }
-unsigned
-int
+size_t
 get_size
 (
 )
