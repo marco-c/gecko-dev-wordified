@@ -6490,6 +6490,9 @@ aOperation
 mShadowRootCustomElementRegistry
 aOperation
 .
+mShadowRootSlotAssignment
+aOperation
+.
 mShadowRootReferenceTarget
 )
 ;

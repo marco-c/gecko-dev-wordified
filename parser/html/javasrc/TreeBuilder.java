@@ -15339,6 +15339,18 @@ AttributeName
 SHADOWROOTREFERENCETARGET
 )
 ;
+String
+shadowRootSlotAssignment
+=
+attributes
+.
+getValue
+(
+AttributeName
+.
+SHADOWROOTSLOTASSIGNMENT
+)
+;
 return
 getShadowRootFromHost
 (
@@ -15349,6 +15361,7 @@ shadowRootIsClonable
 shadowRootIsSerializable
 shadowRootDelegatesFocus
 shadowRootCustomElementRegistry
+shadowRootSlotAssignment
 shadowRootReferenceTarget
 )
 ;
@@ -29105,6 +29118,8 @@ boolean
 shadowRootDelegatesFocus
 boolean
 shadowRootCustomElementRegistry
+String
+shadowRootSlotAssignment
 String
 shadowRootReferenceTarget
 )

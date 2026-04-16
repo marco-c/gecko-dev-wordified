@@ -622,6 +622,8 @@ aShadowRootDelegatesFocus
 bool
 aShadowRootCustomElementRegistry
 nsHtml5String
+aShadowRootSlotAssignment
+nsHtml5String
 aShadowRootReferenceTarget
 )
 ;

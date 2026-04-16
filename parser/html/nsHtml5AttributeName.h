@@ -1589,6 +1589,11 @@ ATTR_SHADOWROOTDELEGATESFOCUS
 static
 nsHtml5AttributeName
 *
+ATTR_SHADOWROOTSLOTASSIGNMENT
+;
+static
+nsHtml5AttributeName
+*
 ATTR_WORD_SPACING
 ;
 static
