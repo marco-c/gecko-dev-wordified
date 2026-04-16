@@ -85058,6 +85058,10 @@ if
 (
 !
 aTargetURL
+|
+|
+!
+aTargetURL
 -
 >
 SchemeIs
