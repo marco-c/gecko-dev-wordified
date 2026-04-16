@@ -2207,7 +2207,7 @@ mSendState
 SEND_DONE
 ;
 }
-void
+nsresult
 Http2WebTransportStream
 :
 :
@@ -2223,6 +2223,7 @@ mReliableSize
 )
 {
 return
+NS_OK
 ;
 }
 LOG
@@ -2317,6 +2318,7 @@ NS_ERROR_ILLEGAL_VALUE
 )
 ;
 return
+NS_ERROR_ILLEGAL_VALUE
 ;
 }
 mReliableSize
@@ -2339,6 +2341,9 @@ mRecvState
 RECV_DONE
 ;
 }
+return
+NS_OK
+;
 }
 void
 Http2WebTransportStream
