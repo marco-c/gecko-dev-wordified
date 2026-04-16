@@ -60112,7 +60112,12 @@ GetSkippedOffset
 (
 )
 >
-1
+=
+skippedRange
+.
+start
++
+2
 &
 &
 !
