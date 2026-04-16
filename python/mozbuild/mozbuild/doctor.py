@@ -2545,6 +2545,13 @@ MOZILLABUILD
 VERSION
 "
 )
+encoding
+=
+"
+utf
+-
+8
+"
 )
 as
 fh

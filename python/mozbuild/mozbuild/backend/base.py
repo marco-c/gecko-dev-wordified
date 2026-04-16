@@ -716,6 +716,13 @@ with
 open
 (
 list_file
+encoding
+=
+"
+utf
+-
+8
+"
 )
 as
 fh

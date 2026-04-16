@@ -594,6 +594,13 @@ open
 self
 .
 src_clobber
+encoding
+=
+"
+utf
+-
+8
+"
 )
 as
 fh
