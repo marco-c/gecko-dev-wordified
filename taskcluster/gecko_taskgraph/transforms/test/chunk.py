@@ -1489,6 +1489,30 @@ task
             
 continue
         
+suite_name
+=
+task
+[
+"
+test
+-
+name
+"
+]
++
+task
+.
+get
+(
+"
+variant
+-
+suffix
+"
+"
+"
+)
+        
 all_runtimes
 =
 get_runtimes
@@ -1501,14 +1525,7 @@ test
 platform
 "
 ]
-task
-[
-"
-test
--
-name
-"
-]
+suite_name
 )
         
 runtimes
@@ -1967,11 +1984,8 @@ manifests
 "
 ]
             
-chunked_manifests
+suite_name
 =
-chunk_manifests
-(
-                
 task
 [
 "
@@ -1980,6 +1994,26 @@ test
 name
 "
 ]
++
+task
+.
+get
+(
+"
+variant
+-
+suffix
+"
+"
+"
+)
+            
+chunked_manifests
+=
+chunk_manifests
+(
+                
+suite_name
                 
 task
 [
