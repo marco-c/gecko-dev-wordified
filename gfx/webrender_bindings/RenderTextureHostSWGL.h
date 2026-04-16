@@ -290,7 +290,6 @@ composition
 is
 done
 .
-virtual
 bool
 LockSWGLCompositeSurface
 (
