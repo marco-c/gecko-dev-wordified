@@ -2242,7 +2242,7 @@ if
 transceiver
 -
 >
-channel
+HasChannel
 (
 )
 )
@@ -2286,7 +2286,7 @@ RTC_DCHECK
 transceiver
 -
 >
-channel
+HasChannel
 (
 )
 )
@@ -2510,7 +2510,7 @@ if
 transceiver
 -
 >
-channel
+HasChannel
 (
 )
 )
@@ -2554,7 +2554,7 @@ RTC_DCHECK
 transceiver
 -
 >
-channel
+HasChannel
 (
 )
 )

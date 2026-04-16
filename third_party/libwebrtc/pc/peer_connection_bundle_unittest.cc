@@ -1082,12 +1082,6 @@ AUDIO
 )
 {
 return
-static_cast
-<
-VoiceChannel
-*
->
-(
 transceiver
 -
 >
@@ -1096,9 +1090,8 @@ internal
 )
 -
 >
-channel
+voice_channel
 (
-)
 )
 ;
 }
@@ -1177,12 +1170,6 @@ VIDEO
 )
 {
 return
-static_cast
-<
-VideoChannel
-*
->
-(
 transceiver
 -
 >
@@ -1191,9 +1178,8 @@ internal
 )
 -
 >
-channel
+video_channel
 (
-)
 )
 ;
 }
