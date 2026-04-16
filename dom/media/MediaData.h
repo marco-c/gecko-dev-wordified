@@ -900,11 +900,6 @@ filled
 with
 0
 .
-[
-[
-nodiscard
-]
-]
 bool
 SetLength
 (
