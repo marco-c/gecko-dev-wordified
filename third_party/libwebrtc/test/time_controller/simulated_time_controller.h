@@ -287,6 +287,11 @@ GlobalSimulatedTimeController
 (
 Timestamp
 start_time
+SocketServer
+*
+socket_server
+=
+nullptr
 )
 ;
 ~

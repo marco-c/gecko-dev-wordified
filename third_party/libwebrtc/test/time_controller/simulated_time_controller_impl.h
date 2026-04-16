@@ -118,6 +118,17 @@ include
 "
 absl
 /
+base
+/
+nullability
+.
+h
+"
+#
+include
+"
+absl
+/
 functional
 /
 any_invocable
@@ -502,6 +513,7 @@ unique_ptr
 <
 SocketServer
 >
+absl_nullable
 socket_server
 )
 RTC_LOCKS_EXCLUDED
