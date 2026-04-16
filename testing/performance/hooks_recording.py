@@ -928,7 +928,7 @@ linux
 "
 else
 "
-mitm11
+mitm12
 "
             
 platform_name
