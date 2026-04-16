@@ -9,7 +9,7 @@ code
 with
 JS
 PI
-suspendable
+cont
 stack
 .
 const
@@ -269,7 +269,7 @@ PI
 program
 :
 create
-suspendable
+cont
 stack
 suspend
 execution
@@ -277,7 +277,7 @@ execution
 /
 throw
 on
-suspendable
+cont
 stack
 .
 g
