@@ -105,17 +105,6 @@ ErrorResult
 .
 h
 "
-#
-include
-"
-mozilla
-/
-dom
-/
-ReadableByteStreamController
-.
-h
-"
 namespace
 mozilla
 :

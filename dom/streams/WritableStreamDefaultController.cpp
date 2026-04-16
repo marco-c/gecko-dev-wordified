@@ -59,11 +59,7 @@ MPL
 #
 include
 "
-mozilla
-/
-dom
-/
-WritableStreamDefaultController
+WritableStreamDefaultControllerAbstract
 .
 h
 "
