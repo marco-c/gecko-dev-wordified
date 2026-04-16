@@ -2756,17 +2756,12 @@ toolFns
 .
 getOpenTabs
 .
-calledTwice
+calledOnce
 "
 Tool
 should
 be
 called
-twice
-:
-once
-by
-_collectInitialAllowedUrls
 once
 by
 the
@@ -3146,7 +3141,6 @@ callsFake
 async
 (
 _params
-_seenUrls
 conversation
 )
 =
