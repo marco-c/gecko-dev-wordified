@@ -4856,6 +4856,14 @@ StaticPrefs
 dom_vr_process_enabled_AtStartup
 (
 )
+&
+&
+StaticPrefs
+:
+:
+dom_vr_enabled
+(
+)
 )
 {
 VRGPUChild
