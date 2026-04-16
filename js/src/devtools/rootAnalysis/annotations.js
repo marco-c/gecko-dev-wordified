@@ -760,6 +760,16 @@ MozMallocSizeOf
 "
 :
 true
+"
+chunk_allocator_s
+"
+:
+true
+/
+/
+arena
+chunk
+allocator
 }
 ;
 /
