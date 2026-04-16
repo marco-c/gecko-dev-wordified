@@ -92,6 +92,7 @@ Assert
 .
 ok
 (
+await
 page_in_database
 (
 WITNESS_URI
@@ -190,6 +191,7 @@ Assert
 .
 ok
 (
+await
 visits_in_database
 (
 uri
@@ -688,6 +690,7 @@ Assert
 .
 equal
 (
+await
 visits_in_database
 (
 uri
@@ -705,6 +708,7 @@ Assert
 .
 notEqual
 (
+await
 visits_in_database
 (
 WITNESS_URI
@@ -723,6 +727,7 @@ Assert
 .
 notEqual
 (
+await
 page_in_database
 (
 WITNESS_URI
@@ -758,6 +763,7 @@ Assert
 .
 equal
 (
+await
 page_in_database
 (
 uri
@@ -797,6 +803,7 @@ Assert
 .
 notEqual
 (
+await
 page_in_database
 (
 uri

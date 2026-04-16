@@ -684,11 +684,14 @@ Assert
 .
 equal
 (
+(
+await
 page_in_database
 (
 TEST_URI
 +
 i
+)
 )
 =
 =
