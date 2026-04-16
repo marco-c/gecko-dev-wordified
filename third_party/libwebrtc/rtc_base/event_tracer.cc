@@ -151,6 +151,9 @@ tracing
 .
 h
 "
+/
+/
+nogncheck
 #
 else
 #

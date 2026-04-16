@@ -360,6 +360,9 @@ backend_type
 .
 h
 "
+/
+/
+nogncheck
 #
 include
 "
@@ -377,6 +380,9 @@ tracing
 .
 h
 "
+/
+/
+nogncheck
 #
 include
 "
@@ -396,6 +402,9 @@ gen
 .
 h
 "
+/
+/
+nogncheck
 #
 endif
 #
