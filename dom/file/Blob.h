@@ -197,8 +197,10 @@ of
 BlobImpl
 .
 static
+already_AddRefed
+<
 Blob
-*
+>
 Create
 (
 nsIGlobalObject

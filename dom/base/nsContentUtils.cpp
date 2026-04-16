@@ -76549,8 +76549,10 @@ get_BlobImpl
 (
 )
 ;
-auto
-*
+RefPtr
+<
+Blob
+>
 blob
 =
 Blob
