@@ -79,16 +79,6 @@ httpserver
 null
 ;
 const
-NS_ERROR_ENTITY_CHANGED
-=
-0x804b0020
-;
-const
-NS_ERROR_NOT_RESUMABLE
-=
-0x804b0019
-;
-const
 rangeBody
 =
 "
@@ -515,6 +505,8 @@ equal
 request
 .
 status
+Cr
+.
 NS_ERROR_NOT_RESUMABLE
 )
 ;
@@ -711,6 +703,8 @@ equal
 request
 .
 status
+Cr
+.
 NS_ERROR_NOT_RESUMABLE
 )
 ;
@@ -932,6 +926,8 @@ equal
 request
 .
 status
+Cr
+.
 NS_ERROR_NOT_RESUMABLE
 )
 ;
@@ -1041,6 +1037,8 @@ equal
 request
 .
 status
+Cr
+.
 NS_ERROR_NOT_RESUMABLE
 )
 ;
@@ -1267,6 +1265,8 @@ equal
 request
 .
 status
+Cr
+.
 NS_ERROR_NOT_RESUMABLE
 )
 ;
@@ -1650,6 +1650,8 @@ equal
 request
 .
 status
+Cr
+.
 NS_ERROR_ENTITY_CHANGED
 )
 ;
@@ -1749,6 +1751,8 @@ equal
 request
 .
 status
+Cr
+.
 NS_ERROR_NOT_RESUMABLE
 )
 ;
@@ -1990,6 +1994,8 @@ equal
 request
 .
 status
+Cr
+.
 NS_ERROR_ENTITY_CHANGED
 )
 ;
@@ -2076,6 +2082,8 @@ equal
 request
 .
 status
+Cr
+.
 NS_ERROR_ENTITY_CHANGED
 )
 ;
@@ -2303,6 +2311,8 @@ equal
 request
 .
 status
+Cr
+.
 NS_ERROR_NOT_RESUMABLE
 )
 ;
