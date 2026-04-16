@@ -8801,6 +8801,17 @@ override
 ;
 MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
+ParagraphMove
+(
+bool
+aForward
+bool
+aExtend
+)
+override
+;
+MOZ_CAN_RUN_SCRIPT
+NS_IMETHOD
 PageMove
 (
 bool
