@@ -891,11 +891,7 @@ fetchWithHistory
 callsFake
 (
 async
-(
-{
 conversation
-}
-)
 =
 >
 {
