@@ -9,8 +9,8 @@ Project
 Authors
 .
 All
-rights
-reserved
+Rights
+Reserved
 .
 *
 *
@@ -156,6 +156,9 @@ checks
 .
 h
 "
+namespace
+webrtc
+{
 namespace
 {
 /
@@ -380,9 +383,6 @@ target_bit_offset
 /
 /
 namespace
-namespace
-webrtc
-{
 BitBufferWriter
 :
 :

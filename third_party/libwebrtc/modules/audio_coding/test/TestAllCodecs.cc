@@ -426,6 +426,9 @@ while
 0
 )
 namespace
+webrtc
+{
+namespace
 {
 const
 size_t
@@ -448,9 +451,6 @@ max
 /
 /
 namespace
-namespace
-webrtc
-{
 /
 /
 Class

@@ -103,9 +103,7 @@ h
 #
 include
 <
-stdlib
-.
-h
+cstdlib
 >
 #
 include
@@ -125,6 +123,9 @@ gtest
 .
 h
 "
+namespace
+webrtc
+{
 namespace
 {
 /
@@ -230,9 +231,6 @@ endif
 /
 /
 namespace
-namespace
-webrtc
-{
 TEST
 (
 OpenSSLSessionCache

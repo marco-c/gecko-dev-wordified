@@ -146,6 +146,9 @@ bitstream_reader
 h
 "
 namespace
+webrtc
+{
+namespace
 {
 constexpr
 int
@@ -164,9 +167,6 @@ kScaldingDeltaMax
 /
 /
 namespace
-namespace
-webrtc
-{
 SpsParser
 :
 :

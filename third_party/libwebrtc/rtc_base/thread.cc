@@ -9,8 +9,8 @@ Project
 Authors
 .
 All
-rights
-reserved
+Rights
+Reserved
 .
 *
 *
@@ -561,6 +561,9 @@ pool
 ;
 }
 namespace
+webrtc
+{
+namespace
 {
 class
 ScopedAutoReleasePool
@@ -603,6 +606,11 @@ pool_
 /
 /
 namespace
+}
+/
+/
+namespace
+webrtc
 #
 endif
 namespace

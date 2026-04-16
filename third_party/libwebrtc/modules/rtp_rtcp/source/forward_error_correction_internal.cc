@@ -165,6 +165,9 @@ checks
 h
 "
 namespace
+webrtc
+{
+namespace
 {
 /
 /
@@ -1155,9 +1158,6 @@ shift_right_curr_byte
 /
 /
 namespace
-namespace
-webrtc
-{
 namespace
 internal
 {

@@ -471,6 +471,9 @@ while
 0
 )
 namespace
+webrtc
+{
+namespace
 {
 using
 OptionalSps
@@ -480,9 +483,6 @@ std
 :
 optional
 <
-webrtc
-:
-:
 H265SpsParser
 :
 :
@@ -497,9 +497,6 @@ std
 :
 optional
 <
-webrtc
-:
-:
 H265SpsParser
 :
 :
@@ -514,9 +511,6 @@ std
 :
 optional
 <
-webrtc
-:
-:
 H265SpsParser
 :
 :
@@ -545,9 +539,6 @@ kMaxNumCoefs
 /
 /
 namespace
-namespace
-webrtc
-{
 H265SpsParser
 :
 :

@@ -161,6 +161,9 @@ crc32
 h
 "
 namespace
+webrtc
+{
+namespace
 {
 /
 /
@@ -201,9 +204,6 @@ kDtlsHandshakeRecord
 /
 /
 namespace
-namespace
-webrtc
-{
 bool
 IsDtlsPacket
 (

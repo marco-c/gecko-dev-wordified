@@ -260,6 +260,9 @@ logging
 h
 "
 namespace
+webrtc
+{
+namespace
 {
 /
 /
@@ -474,9 +477,6 @@ window
 /
 /
 namespace
-namespace
-webrtc
-{
 MouseCursorMonitorX11
 :
 :

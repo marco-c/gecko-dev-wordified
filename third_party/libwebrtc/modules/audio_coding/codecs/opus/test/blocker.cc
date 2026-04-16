@@ -117,6 +117,9 @@ checks
 h
 "
 namespace
+webrtc
+{
+namespace
 {
 /
 /
@@ -592,9 +595,6 @@ a
 /
 /
 namespace
-namespace
-webrtc
-{
 Blocker
 :
 :

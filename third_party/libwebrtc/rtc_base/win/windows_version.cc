@@ -106,7 +106,12 @@ h
 #
 include
 <
-memory
+cstddef
+>
+#
+include
+<
+string
 >
 #
 include
@@ -159,6 +164,9 @@ defined
 (
 WINUWP
 )
+namespace
+webrtc
+{
 namespace
 {
 typedef
@@ -998,6 +1006,11 @@ wow64access_
 /
 /
 namespace
+}
+/
+/
+namespace
+webrtc
 #
 endif
 /

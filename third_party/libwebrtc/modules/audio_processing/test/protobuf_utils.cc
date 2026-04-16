@@ -157,6 +157,9 @@ arch
 h
 "
 namespace
+webrtc
+{
+namespace
 {
 /
 /
@@ -346,9 +349,6 @@ size
 /
 /
 namespace
-namespace
-webrtc
-{
 size_t
 ReadMessageBytesFromFile
 (

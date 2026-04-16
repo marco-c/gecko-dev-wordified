@@ -101,9 +101,7 @@ h
 #
 include
 <
-stddef
-.
-h
+cstddef
 >
 #
 include
@@ -126,6 +124,9 @@ mutex
 h
 "
 namespace
+webrtc
+{
+namespace
 {
 constexpr
 size_t
@@ -137,9 +138,6 @@ kDtmfOutbandMax
 /
 /
 namespace
-namespace
-webrtc
-{
 DtmfQueue
 :
 :

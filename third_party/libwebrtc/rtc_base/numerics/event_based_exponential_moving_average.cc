@@ -123,6 +123,9 @@ checks
 h
 "
 namespace
+webrtc
+{
+namespace
 {
 /
 /
@@ -160,9 +163,6 @@ ninetyfive_percent_confidence
 /
 /
 namespace
-namespace
-webrtc
-{
 /
 /
 half_time

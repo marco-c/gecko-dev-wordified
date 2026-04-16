@@ -104,6 +104,9 @@ include
 cstdint
 >
 namespace
+webrtc
+{
+namespace
 {
 /
 /
@@ -1651,9 +1654,6 @@ on
 /
 /
 namespace
-namespace
-webrtc
-{
 namespace
 fec_private_tables
 {

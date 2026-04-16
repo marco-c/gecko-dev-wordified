@@ -224,6 +224,9 @@ time_utils
 h
 "
 namespace
+webrtc
+{
+namespace
 {
 struct
 Fraction
@@ -1013,9 +1016,6 @@ first
 /
 /
 namespace
-namespace
-webrtc
-{
 VideoAdapter
 :
 :

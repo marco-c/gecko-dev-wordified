@@ -141,6 +141,9 @@ gtest
 h
 "
 namespace
+webrtc
+{
+namespace
 {
 /
 /
@@ -160,9 +163,6 @@ class
 PlusThreeBlockerCallback
 :
 public
-webrtc
-:
-:
 BlockerCallback
 {
 public
@@ -261,9 +261,6 @@ class
 CopyBlockerCallback
 :
 public
-webrtc
-:
-:
 BlockerCallback
 {
 public
@@ -352,9 +349,6 @@ j
 /
 /
 namespace
-namespace
-webrtc
-{
 /
 /
 Tests

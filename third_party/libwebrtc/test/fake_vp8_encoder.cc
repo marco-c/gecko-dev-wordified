@@ -266,6 +266,12 @@ fake_encoder
 h
 "
 namespace
+webrtc
+{
+namespace
+test
+{
+namespace
 {
 /
 /
@@ -386,12 +392,6 @@ width
 /
 /
 namespace
-namespace
-webrtc
-{
-namespace
-test
-{
 FakeVp8Encoder
 :
 :

@@ -133,6 +133,9 @@ gtest
 h
 "
 namespace
+webrtc
+{
+namespace
 {
 class
 TestStatistics
@@ -144,9 +147,6 @@ Reset
 (
 )
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -164,9 +164,6 @@ Increment
 (
 )
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -185,9 +182,6 @@ Count
 )
 const
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -240,9 +234,6 @@ test_stats
 private
 :
 mutable
-webrtc
-:
-:
 Mutex
 mutex_
 ;
@@ -261,9 +252,6 @@ mutex_
 /
 /
 namespace
-namespace
-webrtc
-{
 TEST
 (
 EventTracerTest

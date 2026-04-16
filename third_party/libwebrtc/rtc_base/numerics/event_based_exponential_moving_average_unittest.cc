@@ -118,6 +118,9 @@ gtest
 h
 "
 namespace
+webrtc
+{
+namespace
 {
 constexpr
 int
@@ -137,9 +140,6 @@ kError
 /
 /
 namespace
-namespace
-webrtc
-{
 TEST
 (
 EventBasedExponentialMovingAverageTest

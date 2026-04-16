@@ -620,6 +620,9 @@ while
 0
 )
 namespace
+webrtc
+{
+namespace
 {
 constexpr
 int
@@ -649,9 +652,6 @@ kMaxRefIdxActive
 /
 /
 namespace
-namespace
-webrtc
-{
 H265BitstreamParser
 :
 :

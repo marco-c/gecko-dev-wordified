@@ -110,6 +110,14 @@ winstring
 .
 h
 >
+#
+include
+<
+cstdint
+>
+namespace
+webrtc
+{
 namespace
 {
 FARPROC
@@ -248,9 +256,6 @@ function
 /
 /
 namespace
-namespace
-webrtc
-{
 bool
 ResolveCoreWinRTStringDelayload
 (

@@ -97,6 +97,13 @@ h
 #
 include
 <
+time
+.
+h
+>
+#
+include
+<
 cstdint
 >
 #
@@ -126,9 +133,7 @@ WEBRTC_LINUX
 #
 include
 <
-time
-.
-h
+ctime
 >
 #
 elif
@@ -258,6 +263,9 @@ h
 >
 #
 endif
+namespace
+webrtc
+{
 #
 if
 defined
@@ -286,9 +294,6 @@ kNanosecsPerFiletime
 namespace
 #
 endif
-namespace
-webrtc
-{
 int64_t
 GetProcessCpuTimeNanos
 (

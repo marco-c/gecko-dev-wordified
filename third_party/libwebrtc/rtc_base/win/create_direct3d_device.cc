@@ -103,11 +103,9 @@ libloaderapi
 .
 h
 >
-#
-include
-<
-utility
->
+namespace
+webrtc
+{
 namespace
 {
 FARPROC
@@ -201,9 +199,6 @@ function
 /
 /
 namespace
-namespace
-webrtc
-{
 bool
 ResolveCoreWinRTDirect3DDelayload
 (

@@ -191,6 +191,9 @@ fake_encoder
 h
 "
 namespace
+webrtc
+{
+namespace
 {
 const
 char
@@ -205,11 +208,7 @@ FakeCodec
 }
 /
 /
-anonymous
 namespace
-namespace
-webrtc
-{
 std
 :
 :

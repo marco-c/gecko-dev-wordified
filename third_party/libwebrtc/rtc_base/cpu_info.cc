@@ -329,9 +329,12 @@ cpu
 cc
 .
 namespace
+webrtc
+{
+namespace
 {
 uint32_t
-DetectNumberOfCores
+DetectNumberOfCoresHelper
 (
 )
 {
@@ -904,9 +907,6 @@ WEBRTC_ARCH_X86_FAMILY
 /
 namespace
 namespace
-webrtc
-{
-namespace
 cpu_info
 {
 uint32_t
@@ -975,9 +975,7 @@ const
 uint32_t
 logical_cpus
 =
-:
-:
-DetectNumberOfCores
+DetectNumberOfCoresHelper
 (
 )
 ;

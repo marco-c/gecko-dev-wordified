@@ -476,6 +476,9 @@ while
 0
 )
 namespace
+webrtc
+{
+namespace
 {
 constexpr
 int
@@ -499,9 +502,6 @@ kMaxRefIdxActive
 /
 /
 namespace
-namespace
-webrtc
-{
 /
 /
 General

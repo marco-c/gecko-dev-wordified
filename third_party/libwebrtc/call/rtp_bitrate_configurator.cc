@@ -136,6 +136,9 @@ checks
 h
 "
 namespace
+webrtc
+{
+namespace
 {
 /
 /
@@ -206,9 +209,6 @@ b
 /
 /
 namespace
-namespace
-webrtc
-{
 RtpBitrateConfigurator
 :
 :

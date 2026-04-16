@@ -184,13 +184,13 @@ metrics
 h
 "
 namespace
+webrtc
+{
+namespace
 {
 float
 Power
 (
-webrtc
-:
-:
 ArrayView
 <
 const
@@ -304,9 +304,6 @@ kAggregationBufferSize
 /
 /
 namespace
-namespace
-webrtc
-{
 std
 :
 :
