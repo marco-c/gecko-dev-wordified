@@ -84,10 +84,10 @@ instead
 /
 #
 ifndef
-HAL_LINUX_UDEV_H_
+HAL_LINUX_UDEVLIB_H_
 #
 define
-HAL_LINUX_UDEV_H_
+HAL_LINUX_UDEVLIB_H_
 #
 include
 <
@@ -926,4 +926,4 @@ mozilla
 endif
 /
 /
-HAL_LINUX_UDEV_H_
+HAL_LINUX_UDEVLIB_H_
