@@ -179,6 +179,7 @@ cssparser
 :
 :
 {
+match_ignore_ascii_case
 Delimiter
 Parser
 Token
@@ -756,7 +757,6 @@ StepPosition
 :
 parse
 (
-context
 i
 )
 }
