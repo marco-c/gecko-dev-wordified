@@ -813,13 +813,11 @@ the
 same
 form
 on
-OS
-X
+macOS
 since
 at
 least
-OS
-X
+macOS
 10
 .
 5
@@ -864,8 +862,7 @@ Present
 since
 at
 least
-OS
-X
+macOS
 10
 .
 5

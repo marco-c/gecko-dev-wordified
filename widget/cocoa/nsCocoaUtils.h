@@ -454,8 +454,7 @@ in
 all
 versions
 of
-OS
-X
+macOS
 from
 (
 at
@@ -504,8 +503,7 @@ all
 /
 versions
 of
-OS
-X
+macOS
 from
 (
 at

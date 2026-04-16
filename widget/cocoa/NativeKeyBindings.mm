@@ -2472,7 +2472,7 @@ KEY_NAME_INDEX_USE_STRING
 :
 /
 /
-OSX
+macOS
 specific
 key
 bindings

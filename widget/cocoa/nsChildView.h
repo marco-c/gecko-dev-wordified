@@ -356,8 +356,7 @@ form
 since
 at
 least
-OS
-X
+macOS
 10
 .
 2
@@ -485,8 +484,7 @@ format
 since
 at
 least
-OS
-X
+macOS
 10
 .
 5

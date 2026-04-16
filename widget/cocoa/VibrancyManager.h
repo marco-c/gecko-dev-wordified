@@ -161,8 +161,7 @@ that
 was
 introduced
 on
-OS
-X
+macOS
 starting
 with
 10

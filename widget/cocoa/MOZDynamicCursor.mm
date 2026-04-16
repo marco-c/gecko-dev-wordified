@@ -98,13 +98,6 @@ nsIFile
 .
 h
 "
-#
-include
-<
-math
-.
-h
->
 static
 MOZDynamicCursor
 *
@@ -118,7 +111,7 @@ sCurrentCursorScaleFactor
 .
 0f
 ;
-MOZ_RUNINIT
+constinit
 static
 nsIWidget
 :
@@ -229,8 +222,7 @@ use
 since
 at
 least
-OS
-X
+macOS
 10
 .
 4

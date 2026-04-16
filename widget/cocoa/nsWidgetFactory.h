@@ -108,7 +108,7 @@ namespace
 mozilla
 {
 class
-OSXNotificationCenter
+MacOSNotificationCenter
 ;
 }
 /

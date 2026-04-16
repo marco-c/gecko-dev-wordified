@@ -21962,9 +21962,7 @@ GetCurrentTSMDocumentID
 At
 least
 on
-Mac
-OS
-X
+macOS
 10
 .
 6
@@ -35472,8 +35470,7 @@ exists
 .
 /
 /
-OS
-X
+macOS
 doesn
 '
 t

@@ -4378,8 +4378,7 @@ since
 /
 at
 least
-OS
-X
+macOS
 10
 .
 6

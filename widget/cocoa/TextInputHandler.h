@@ -6183,7 +6183,7 @@ aASCIICapableOnly
 *
 True
 if
-OSX
+macOS
 believes
 that
 our

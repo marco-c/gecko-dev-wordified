@@ -68,9 +68,7 @@ native
 menu
 items
 on
-Mac
-OS
-X
+macOS
 .
 *
 /

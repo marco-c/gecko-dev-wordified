@@ -8994,8 +8994,7 @@ For
 wheel
 events
 on
-OS
-X
+macOS
 send
 it
 to
@@ -14489,11 +14488,11 @@ right
 after
 DnD
 on
-OSX
+macOS
 .
+/
+/
 As
-/
-/
 mPerformedDrag
 will
 be
@@ -14505,9 +14504,9 @@ DnD
 processing
 ignore
 this
+/
+/
 mouseUp
-/
-/
 event
 fired
 right
@@ -34307,8 +34306,7 @@ NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 /
 /
-Mac
-OSX
+macOS
 space
 IDs
 start
@@ -34707,7 +34705,7 @@ in
 not
 valid
 on
-OSX
+macOS
 )
 or
 when
@@ -41109,8 +41107,7 @@ same
 level
 "
 )
-OS
-X
+macOS
 makes
 topmost
 the
@@ -48242,8 +48239,7 @@ to
 -
 Speech
 on
-OS
-X
+macOS
 10
 .
 7
@@ -48410,8 +48406,7 @@ to
 -
 Speech
 on
-OS
-X
+macOS
 10
 .
 7
@@ -48467,8 +48462,7 @@ Apple
 has
 (
 on
-OS
-X
+macOS
 10
 .
 7

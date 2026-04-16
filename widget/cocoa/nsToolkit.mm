@@ -1082,8 +1082,7 @@ isn
 t
 deprecated
 on
-OS
-X
+macOS
 /
 /
 Leopard

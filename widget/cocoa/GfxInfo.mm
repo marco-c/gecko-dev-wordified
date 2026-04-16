@@ -198,7 +198,7 @@ mNumGPUsDetected
 (
 0
 )
-mOSXVersion
+mMacOSVersion
 {
 0
 }
@@ -218,10 +218,10 @@ mAdapterRAM
 }
 static
 OperatingSystem
-OSXVersionToOperatingSystem
+MacOSVersionToOperatingSystem
 (
 uint32_t
-aOSXVersion
+aMacOSVersion
 )
 {
 switch
@@ -231,7 +231,7 @@ nsCocoaFeatures
 :
 ExtractMajorVersion
 (
-aOSXVersion
+aMacOSVersion
 )
 )
 {
@@ -245,7 +245,7 @@ nsCocoaFeatures
 :
 ExtractMinorVersion
 (
-aOSXVersion
+aMacOSVersion
 )
 )
 {
@@ -256,7 +256,7 @@ return
 OperatingSystem
 :
 :
-OSX10_6
+MacOS10_6
 ;
 case
 7
@@ -265,7 +265,7 @@ return
 OperatingSystem
 :
 :
-OSX10_7
+MacOS10_7
 ;
 case
 8
@@ -274,7 +274,7 @@ return
 OperatingSystem
 :
 :
-OSX10_8
+MacOS10_8
 ;
 case
 9
@@ -283,7 +283,7 @@ return
 OperatingSystem
 :
 :
-OSX10_9
+MacOS10_9
 ;
 case
 10
@@ -292,7 +292,7 @@ return
 OperatingSystem
 :
 :
-OSX10_10
+MacOS10_10
 ;
 case
 11
@@ -301,7 +301,7 @@ return
 OperatingSystem
 :
 :
-OSX10_11
+MacOS10_11
 ;
 case
 12
@@ -310,7 +310,7 @@ return
 OperatingSystem
 :
 :
-OSX10_12
+MacOS10_12
 ;
 case
 13
@@ -319,7 +319,7 @@ return
 OperatingSystem
 :
 :
-OSX10_13
+MacOS10_13
 ;
 case
 14
@@ -328,7 +328,7 @@ return
 OperatingSystem
 :
 :
-OSX10_14
+MacOS10_14
 ;
 case
 15
@@ -337,7 +337,7 @@ return
 OperatingSystem
 :
 :
-OSX10_15
+MacOS10_15
 ;
 case
 16
@@ -373,7 +373,7 @@ return
 OperatingSystem
 :
 :
-OSX11_0
+MacOS11_0
 ;
 default
 :
@@ -392,7 +392,7 @@ nsCocoaFeatures
 :
 ExtractMinorVersion
 (
-aOSXVersion
+aMacOSVersion
 )
 )
 {
@@ -403,7 +403,7 @@ return
 OperatingSystem
 :
 :
-OSX11_0
+MacOS11_0
 ;
 default
 :
@@ -1368,7 +1368,7 @@ AddCrashReportAnnotations
 (
 )
 ;
-mOSXVersion
+mMacOSVersion
 =
 nsCocoaFeatures
 :
@@ -1377,7 +1377,7 @@ macOSVersion
 (
 )
 ;
-mOSXVersionEx
+mMacOSVersionEx
 =
 GfxVersionEx
 (
@@ -1386,21 +1386,21 @@ nsCocoaFeatures
 :
 ExtractMajorVersion
 (
-mOSXVersion
+mMacOSVersion
 )
 nsCocoaFeatures
 :
 :
 ExtractMinorVersion
 (
-mOSXVersion
+mMacOSVersion
 )
 nsCocoaFeatures
 :
 :
 ExtractBugFixVersion
 (
-mOSXVersion
+mMacOSVersion
 )
 )
 ;
@@ -2391,7 +2391,7 @@ IMPLEMENT_MAC_DRIVER_BLOCKLIST
 OperatingSystem
 :
 :
-OSX
+MacOS
 DeviceFamily
 :
 :
@@ -2414,7 +2414,7 @@ IMPLEMENT_MAC_DRIVER_BLOCKLIST
 OperatingSystem
 :
 :
-OSX
+MacOS
 DeviceFamily
 :
 :
@@ -2437,7 +2437,7 @@ IMPLEMENT_MAC_DRIVER_BLOCKLIST
 OperatingSystem
 :
 :
-OSX
+MacOS
 DeviceFamily
 :
 :
@@ -2487,7 +2487,7 @@ IMPLEMENT_MAC_DRIVER_BLOCKLIST
 OperatingSystem
 :
 :
-OSX
+MacOS
 DeviceFamily
 :
 :
@@ -2523,7 +2523,7 @@ IMPLEMENT_MAC_DRIVER_BLOCKLIST
 OperatingSystem
 :
 :
-OSX
+MacOS
 DeviceFamily
 :
 :
@@ -2556,9 +2556,9 @@ GetOperatingSystem
 )
 {
 return
-OSXVersionToOperatingSystem
+MacOSVersionToOperatingSystem
 (
-mOSXVersion
+mMacOSVersion
 )
 ;
 }
@@ -2571,7 +2571,7 @@ OperatingSystemVersionEx
 )
 {
 return
-mOSXVersionEx
+mMacOSVersionEx
 ;
 }
 nsresult
@@ -2635,9 +2635,9 @@ FEATURE_STATUS_UNKNOWN
 OperatingSystem
 os
 =
-OSXVersionToOperatingSystem
+MacOSVersionToOperatingSystem
 (
-mOSXVersion
+mMacOSVersion
 )
 ;
 if
@@ -2712,19 +2712,19 @@ case
 OperatingSystem
 :
 :
-OSX10_5
+MacOS10_5
 :
 case
 OperatingSystem
 :
 :
-OSX10_6
+MacOS10_6
 :
 case
 OperatingSystem
 :
 :
-OSX10_7
+MacOS10_7
 :
 *
 aStatus
@@ -2737,7 +2737,7 @@ FEATURE_BLOCKED_OS_VERSION
 aFailureId
 =
 "
-FEATURE_FAILURE_CANVAS_OSX_VERSION
+FEATURE_FAILURE_CANVAS_MACOS_VERSION
 "
 ;
 break
@@ -2950,7 +2950,7 @@ uint32_t
 aVersion
 )
 {
-mOSXVersion
+mMacOSVersion
 =
 aVersion
 ;
@@ -2974,7 +2974,7 @@ uint32_t
 aRevision
 )
 {
-mOSXVersionEx
+mMacOSVersionEx
 =
 GfxVersionEx
 (

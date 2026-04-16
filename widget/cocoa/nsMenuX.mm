@@ -8429,8 +8429,7 @@ aItem
 end
 /
 /
-OS
-X
+MacOS
 Leopard
 (
 at

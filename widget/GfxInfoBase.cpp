@@ -4321,7 +4321,7 @@ Windows
 "
 or
 "
-OSX
+macOS
 "
 -
 it
@@ -4390,7 +4390,7 @@ aSystemOS
 OperatingSystem
 :
 :
-OSX
+MacOS
 )
 ;
 /
@@ -4511,7 +4511,7 @@ aBlockedOS
 OperatingSystem
 :
 :
-OSX
+MacOS
 )
 {
 /

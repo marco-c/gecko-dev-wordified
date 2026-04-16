@@ -219,7 +219,7 @@ h
 #
 include
 "
-OSXNotificationCenter
+MacOSNotificationCenter
 .
 h
 "
@@ -520,7 +520,7 @@ GetAddRefedSingleton
 )
 MAKE_GENERIC_CTOR_INIT
 (
-OSXNotificationCenter
+MacOSNotificationCenter
 nsIAlertsService
 Init
 )

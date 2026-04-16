@@ -2306,8 +2306,7 @@ trial
 and
 error
 on
-OS
-X
+macOS
 10
 .
 4

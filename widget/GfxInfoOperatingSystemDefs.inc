@@ -198,14 +198,19 @@ Linux
 )
 GFXINFO_OS
 (
-OSX
+MacOS
 "
 Darwin
 "
 )
+/
+/
+note
+definition
+here
 GFXINFO_OS
 (
-OSX10_5
+MacOS10_5
 "
 Darwin
 9
@@ -213,7 +218,7 @@ Darwin
 )
 GFXINFO_OS
 (
-OSX10_6
+MacOS10_6
 "
 Darwin
 10
@@ -221,7 +226,7 @@ Darwin
 )
 GFXINFO_OS
 (
-OSX10_7
+MacOS10_7
 "
 Darwin
 11
@@ -229,7 +234,7 @@ Darwin
 )
 GFXINFO_OS
 (
-OSX10_8
+MacOS10_8
 "
 Darwin
 12
@@ -237,7 +242,7 @@ Darwin
 )
 GFXINFO_OS
 (
-OSX10_9
+MacOS10_9
 "
 Darwin
 13
@@ -245,7 +250,7 @@ Darwin
 )
 GFXINFO_OS
 (
-OSX10_10
+MacOS10_10
 "
 Darwin
 14
@@ -253,7 +258,7 @@ Darwin
 )
 GFXINFO_OS
 (
-OSX10_11
+MacOS10_11
 "
 Darwin
 15
@@ -261,7 +266,7 @@ Darwin
 )
 GFXINFO_OS
 (
-OSX10_12
+MacOS10_12
 "
 Darwin
 16
@@ -269,7 +274,7 @@ Darwin
 )
 GFXINFO_OS
 (
-OSX10_13
+MacOS10_13
 "
 Darwin
 17
@@ -277,7 +282,7 @@ Darwin
 )
 GFXINFO_OS
 (
-OSX10_14
+MacOS10_14
 "
 Darwin
 18
@@ -285,7 +290,7 @@ Darwin
 )
 GFXINFO_OS
 (
-OSX10_15
+MacOS10_15
 "
 Darwin
 19
@@ -293,7 +298,7 @@ Darwin
 )
 GFXINFO_OS
 (
-OSX11_0
+MacOS11_0
 "
 Darwin
 20

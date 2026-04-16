@@ -11526,9 +11526,7 @@ never
 supported
 this
 on
-Mac
-OS
-X
+macOS
 we
 should
 someday

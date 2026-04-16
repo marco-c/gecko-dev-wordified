@@ -941,8 +941,7 @@ a
 little
 hard
 on
-OS
-X
+macOS
 .
 We
 could

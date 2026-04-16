@@ -5123,9 +5123,7 @@ to
 be
 used
 on
-Mac
-OS
-X
+macOS
 .
 *
 /
@@ -5468,9 +5466,7 @@ item
 up
 as
 the
-Mac
-OS
-X
+macOS
 Services
 menu
 NSMenu
@@ -6256,9 +6252,7 @@ We
 ve
 noticed
 that
-Mac
-OS
-X
+macOS
 expects
 this
 check
