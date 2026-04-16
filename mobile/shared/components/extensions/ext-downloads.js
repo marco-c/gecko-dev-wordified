@@ -1421,10 +1421,8 @@ instance
 .
 sendRequestForResult
 (
-{
-type
-:
 REQUEST_DOWNLOAD_MESSAGE
+{
 options
 extensionId
 :
