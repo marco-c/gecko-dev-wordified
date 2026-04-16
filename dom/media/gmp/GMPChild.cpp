@@ -560,6 +560,13 @@ mGMPLoader
 nullptr
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 GMP_CHILD_LOG_DEBUG
 (
 "
@@ -4025,10 +4032,6 @@ Shutdown
 )
 ;
 }
-ShutdownPlatformAPI
-(
-)
-;
 if
 (
 AbnormalShutdown
