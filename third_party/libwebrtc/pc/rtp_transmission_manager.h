@@ -387,6 +387,17 @@ include
 "
 rtc_base
 /
+system
+/
+plan_b_only
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 thread
 .
 h
@@ -873,6 +884,7 @@ audio
 senders
 and
 receivers
+PLAN_B_ONLY
 scoped_refptr
 <
 RtpTransceiverProxyWithInternal
@@ -899,6 +911,7 @@ video
 senders
 and
 receivers
+PLAN_B_ONLY
 scoped_refptr
 <
 RtpTransceiverProxyWithInternal
@@ -928,6 +941,7 @@ creating
 the
 sender
 .
+PLAN_B_ONLY
 void
 AddTrackPlanB
 (
@@ -954,6 +968,7 @@ removing
 the
 sender
 .
+PLAN_B_ONLY
 void
 RemoveTrackPlanB
 (
@@ -1003,6 +1018,7 @@ or
 /
 CreateVideoReceiverPlanB
 .
+PLAN_B_ONLY
 void
 OnRemoteSenderAddedPlanB
 (
@@ -1055,6 +1071,7 @@ DestroyAudioReceiver
 or
 DestroyVideoReceiver
 .
+PLAN_B_ONLY
 void
 OnRemoteSenderRemovedPlanB
 (
@@ -1122,6 +1139,7 @@ a
 MediaStream
 in
 local_streams_
+PLAN_B_ONLY
 void
 OnLocalSenderAdded
 (
@@ -1188,6 +1206,7 @@ MediaStream
 in
 local_streams_
 .
+PLAN_B_ONLY
 void
 OnLocalSenderRemoved
 (
@@ -1367,6 +1386,7 @@ if
 it
 exists
 .
+PLAN_B_ONLY
 VoiceMediaSendChannelInterface
 *
 voice_media_send_channel
@@ -1374,6 +1394,7 @@ voice_media_send_channel
 )
 const
 ;
+PLAN_B_ONLY
 VideoMediaSendChannelInterface
 *
 video_media_send_channel
@@ -1381,6 +1402,7 @@ video_media_send_channel
 )
 const
 ;
+PLAN_B_ONLY
 VoiceMediaReceiveChannelInterface
 *
 voice_media_receive_channel
@@ -1388,6 +1410,7 @@ voice_media_receive_channel
 )
 const
 ;
+PLAN_B_ONLY
 VideoMediaReceiveChannelInterface
 *
 video_media_receive_channel
@@ -1395,6 +1418,7 @@ video_media_receive_channel
 )
 const
 ;
+PLAN_B_ONLY
 RTCErrorOr
 <
 scoped_refptr
@@ -1636,6 +1660,7 @@ an
 audio
 track
 .
+PLAN_B_ONLY
 void
 CreateAudioReceiverPlanB
 (
@@ -1665,6 +1690,7 @@ a
 video
 track
 .
+PLAN_B_ONLY
 void
 CreateVideoReceiverPlanB
 (
@@ -1683,6 +1709,7 @@ signaling_thread
 )
 )
 ;
+PLAN_B_ONLY
 scoped_refptr
 <
 RtpReceiverInterface
