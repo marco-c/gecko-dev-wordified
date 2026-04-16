@@ -3409,7 +3409,9 @@ it
 s
 guaranteed
 to
-match
+have
+a
+container
 /
 /
 otherwise
@@ -3420,7 +3422,7 @@ t
 get
 this
 rule
-matched
+hasContainer
 :
 true
 }
@@ -3480,7 +3482,7 @@ const
 {
 containerName
 containerQuery
-matched
+hasContainer
 }
 =
 containerQueryData
@@ -3513,7 +3515,7 @@ tooltip
 +
 (
 !
-matched
+hasContainer
 ?
 "
 unmatched
@@ -3549,7 +3551,7 @@ containerName
 }
 if
 (
-matched
+hasContainer
 )
 {
 const
