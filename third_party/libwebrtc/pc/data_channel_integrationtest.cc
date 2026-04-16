@@ -11104,6 +11104,9 @@ caller
 >
 NewGetStats
 (
+run_loop
+(
+)
 )
 ;
 ASSERT_THAT
@@ -11142,6 +11145,9 @@ callee
 >
 NewGetStats
 (
+run_loop
+(
+)
 )
 ;
 ASSERT_THAT
@@ -11194,6 +11200,9 @@ caller
 >
 NewGetStats
 (
+run_loop
+(
+)
 )
 ;
 ASSERT_THAT
@@ -11223,6 +11232,9 @@ caller
 >
 NewGetStats
 (
+run_loop
+(
+)
 )
 ;
 ASSERT_THAT
