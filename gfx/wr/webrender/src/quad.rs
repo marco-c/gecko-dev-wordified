@@ -5920,12 +5920,12 @@ DevicePoint
 :
 new
 (
-rect
+clip_device_rect
 .
 min
 .
 x
-rect
+clip_device_rect
 .
 max
 .
@@ -11696,6 +11696,14 @@ mask_region
 DeviceRect
 )
 {
+if
+!
+mask_region
+.
+is_empty
+(
+)
+{
 self
 .
 mask_regions
@@ -11705,6 +11713,7 @@ push
 mask_region
 )
 ;
+}
 }
 /
 /
