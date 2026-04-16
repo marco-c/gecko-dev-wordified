@@ -5078,6 +5078,7 @@ asMasm
 rsp
 rax
 rbx
+rcx
 )
 ;
 }

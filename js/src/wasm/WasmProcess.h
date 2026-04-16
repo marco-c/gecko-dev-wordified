@@ -167,6 +167,17 @@ CodeBlock
 class
 TagType
 ;
+#
+ifdef
+ENABLE_WASM_JSPI
+extern
+const
+TagType
+*
+sJSPromiseTagType
+;
+#
+endif
 extern
 const
 TagType
