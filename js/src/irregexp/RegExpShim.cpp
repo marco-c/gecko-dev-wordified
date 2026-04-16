@@ -1562,7 +1562,10 @@ regexpStack_
 =
 js_new
 <
-RegExpStack
+regexp
+:
+:
+Stack
 >
 (
 )
@@ -1657,7 +1660,10 @@ mozilla
 :
 MallocSizeOf
 mallocSizeOf
-RegExpStack
+regexp
+:
+:
+Stack
 *
 regexpStack
 )
@@ -2289,6 +2295,9 @@ char16_t
 str
 )
 ;
+namespace
+regexp
+{
 static_assert
 (
 JSRegExp
@@ -2392,7 +2401,7 @@ mode
 )
 .
 uint64_t
-RegExpUtils
+Utils
 :
 :
 AdvanceStringIndex
@@ -2535,6 +2544,11 @@ index
 1
 ;
 }
+}
+/
+/
+namespace
+regexp
 /
 /
 RegexpMacroAssemblerTracer
@@ -2592,7 +2606,10 @@ StringFromFlags
 Isolate
 *
 isolate
-RegExpFlags
+regexp
+:
+:
+Flags
 flags
 )
 {

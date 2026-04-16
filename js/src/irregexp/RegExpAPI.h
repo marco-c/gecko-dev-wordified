@@ -194,9 +194,12 @@ v8
 :
 :
 internal
+:
+:
+regexp
 {
 class
-RegExpStack
+Stack
 ;
 }
 namespace
@@ -445,7 +448,10 @@ v8
 internal
 :
 :
-RegExpStack
+regexp
+:
+:
+Stack
 *
 regexp_stack
 )
