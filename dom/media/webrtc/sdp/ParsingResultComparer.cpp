@@ -68,12 +68,12 @@ h
 #
 include
 <
-ostream
+regex
 >
 #
 include
 <
-regex
+sstream
 >
 #
 include
