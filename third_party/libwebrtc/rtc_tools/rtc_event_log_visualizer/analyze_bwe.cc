@@ -7182,7 +7182,7 @@ TimeSeries
 acked_estimate_time_series
 (
 "
-Ackednowledged
+Acknowledged
 bitrate
 estimate
 "
@@ -9586,7 +9586,6 @@ Can
 '
 t
 estimate
-a
 the
 RTP
 clock

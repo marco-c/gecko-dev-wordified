@@ -132,6 +132,15 @@ include
 "
 api
 /
+field_trials_view
+.
+h
+"
+#
+include
+"
+api
+/
 function_view
 .
 h
@@ -454,6 +463,10 @@ string_view
 replacement_file_name
 int
 file_sample_rate_hz
+const
+FieldTrialsView
+*
+field_trials
 )
 ;
 void
