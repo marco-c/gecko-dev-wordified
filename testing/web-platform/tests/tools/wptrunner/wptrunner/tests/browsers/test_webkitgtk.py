@@ -414,6 +414,15 @@ config
 }
 )
     
+kwargs
+[
+"
+headless
+"
+]
+=
+True
+    
 with
 ConfigBuilder
 (
