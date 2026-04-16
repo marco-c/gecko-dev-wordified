@@ -72442,6 +72442,8 @@ nsIURI
 aCurrentURI
 bool
 aEqualURIs
+bool
+aFiredNavigateEvent
 )
 {
 MOZ_LOG_FMT
@@ -73649,6 +73651,7 @@ NavigationType
 :
 :
 Push
+aFiredNavigateEvent
 )
 ;
 }
@@ -79230,8 +79233,10 @@ return
 NS_OK
 ;
 }
+RefPtr
+<
 Document
-*
+>
 ownerDoc
 =
 aContent
