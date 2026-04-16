@@ -64,15 +64,6 @@ define
 mozilla_RangeBoundary_h
 #
 include
-<
-fmt
-/
-format
-.
-h
->
-#
-include
 "
 mozilla
 /
