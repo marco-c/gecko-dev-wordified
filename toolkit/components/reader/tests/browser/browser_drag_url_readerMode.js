@@ -347,10 +347,13 @@ false
 }
 )
 ;
-urlBarContainer
+EventUtils
 .
-click
+synthesizeMouseAtCenter
 (
+urlBarContainer
+{
+}
 )
 ;
 AccessibilityUtils
