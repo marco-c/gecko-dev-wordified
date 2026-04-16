@@ -5606,8 +5606,9 @@ callback_count
 send_channel
 -
 >
-SetOnRtpSendParametersChanged
+SubscribeRtpSendParametersChanged
 (
+this
 [
 &
 ]
@@ -5785,6 +5786,14 @@ EXPECT_EQ
 (
 callback_count
 1
+)
+;
+send_channel
+-
+>
+UnsubscribeRtpSendParametersChanged
+(
+this
 )
 ;
 }

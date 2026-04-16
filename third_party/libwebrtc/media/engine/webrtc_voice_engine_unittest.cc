@@ -6592,8 +6592,9 @@ callback_count
 send_channel_
 -
 >
-SetOnRtpSendParametersChanged
+SubscribeRtpSendParametersChanged
 (
+this
 [
 &
 ]
@@ -6705,6 +6706,14 @@ encodings
 .
 max_bitrate_bps
 132000
+)
+;
+send_channel_
+-
+>
+UnsubscribeRtpSendParametersChanged
+(
+this
 )
 ;
 }
