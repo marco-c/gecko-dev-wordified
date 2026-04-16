@@ -3090,7 +3090,7 @@ offset
 TEST_F
 (
 APZCBasicTester
-NotifyLayersUpdate_WithScrollUpdate
+NotifyMainThreadTransaction_WithScrollUpdate
 )
 {
 /
@@ -3481,7 +3481,7 @@ CSSPoint
 TEST_F
 (
 APZCBasicTester
-NotifyLayersUpdate_WithMultipleScrollUpdates
+NotifyMainThreadTransaction_WithMultipleScrollUpdates
 )
 {
 /
