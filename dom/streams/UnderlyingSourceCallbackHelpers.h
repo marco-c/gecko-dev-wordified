@@ -1579,6 +1579,7 @@ down
 .
 class
 InputToReadableStreamAlgorithms
+final
 :
 public
 UnderlyingSourceAlgorithmsWrapper
@@ -1642,7 +1643,7 @@ MaybeGetInputStreamIfUnread
 )
 override
 ;
-protected
+private
 :
 ~
 InputToReadableStreamAlgorithms
