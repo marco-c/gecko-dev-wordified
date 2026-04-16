@@ -88,6 +88,9 @@ v8
 namespace
 internal
 {
+namespace
+regexp
+{
 /
 /
 Sets
@@ -785,7 +788,7 @@ to
 SpecialAddSet
 .
 class
-RegExpCaseFolding
+CaseFolding
 final
 :
 public
@@ -1083,6 +1086,11 @@ cu
 }
 }
 ;
+}
+/
+/
+namespace
+regexp
 }
 /
 /

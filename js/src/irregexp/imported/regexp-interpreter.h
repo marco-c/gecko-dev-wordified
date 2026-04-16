@@ -74,6 +74,9 @@ internal
 class
 TrustedByteArray
 ;
+namespace
+regexp
+{
 class
 V8_EXPORT_PRIVATE
 IrregexpInterpreter
@@ -407,6 +410,11 @@ call_origin
 ;
 }
 ;
+}
+/
+/
+namespace
+regexp
 }
 /
 /
