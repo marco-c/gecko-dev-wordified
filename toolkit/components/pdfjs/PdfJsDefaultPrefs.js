@@ -432,6 +432,16 @@ pref
 "
 pdfjs
 .
+enableMerge
+"
+false
+)
+;
+pref
+(
+"
+pdfjs
+.
 enableNewAltTextWhenAddingImage
 "
 true
