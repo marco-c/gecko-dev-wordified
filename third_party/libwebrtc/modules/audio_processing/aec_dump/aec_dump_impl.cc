@@ -465,6 +465,16 @@ config
 experiments_description
 )
 ;
+pb_cfg
+-
+>
+set_api_config_string
+(
+config
+.
+api_config_string
+)
+;
 }
 }
 /

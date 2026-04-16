@@ -12730,6 +12730,16 @@ pre_amplifier
 .
 fixed_gain_factor
 ;
+apm_config
+.
+api_config_string
+=
+config_
+.
+ToString
+(
+)
+;
 if
 (
 !
