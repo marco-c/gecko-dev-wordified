@@ -377,6 +377,13 @@ uint32_t
 aAction
 )
 ;
+void
+SystemPermissionChanged
+(
+PermissionState
+aNewSystemState
+)
+;
 PermissionState
 ComputeStateFromAction
 (

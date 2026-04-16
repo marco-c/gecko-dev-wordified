@@ -56,6 +56,9 @@ MPL
 .
 *
 /
+mod
+permission_monitor
+;
 use
 nserror
 :
