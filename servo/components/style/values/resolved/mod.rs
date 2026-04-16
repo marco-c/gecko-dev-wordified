@@ -110,7 +110,7 @@ properties
 {
 ComputedValues
 LonghandId
-NonCustomPropertyId
+PropertyId
 }
 ;
 use
@@ -367,12 +367,16 @@ might
 be
 a
 shorthand
+or
+a
+custom
+property
 )
 .
 pub
 for_property
 :
-NonCustomPropertyId
+PropertyId
 /
 /
 /
