@@ -2292,6 +2292,8 @@ state
 void
 CompleteDtlsInStun
 (
+bool
+success
 )
 ;
 void
