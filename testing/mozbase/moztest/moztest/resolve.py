@@ -8605,6 +8605,23 @@ root
 filename
 )
                 
+relpath
+=
+mozpath
+.
+relpath
+(
+mozpath
+.
+normpath
+(
+path
+)
+self
+.
+topsrcdir
+)
+                
 self
 .
 _tests
@@ -8657,13 +8674,13 @@ None
 name
 "
 :
-path
+relpath
                     
 "
 file_relpath
 "
 :
-path
+relpath
                     
 "
 head
@@ -8693,20 +8710,18 @@ puppeteer
 dir_relpath
 "
 :
-os
-.
-path
+mozpath
 .
 dirname
 (
-path
+relpath
 )
                     
 "
 srcdir_relpath
 "
 :
-path
+relpath
                 
 }
 )
@@ -8823,6 +8838,23 @@ root
 filename
 )
                     
+relpath
+=
+mozpath
+.
+relpath
+(
+mozpath
+.
+normpath
+(
+path
+)
+self
+.
+topsrcdir
+)
+                    
 self
 .
 _tests
@@ -8875,13 +8907,13 @@ None
 name
 "
 :
-path
+relpath
                         
 "
 file_relpath
 "
 :
-path
+relpath
                         
 "
 head
@@ -8910,20 +8942,18 @@ subsuite
 dir_relpath
 "
 :
-os
-.
-path
+mozpath
 .
 dirname
 (
-path
+relpath
 )
                         
 "
 srcdir_relpath
 "
 :
-path
+relpath
                     
 }
 )
@@ -9049,6 +9079,23 @@ root
 filename
 )
                     
+relpath
+=
+mozpath
+.
+relpath
+(
+mozpath
+.
+normpath
+(
+path
+)
+self
+.
+topsrcdir
+)
+                    
 self
 .
 _tests
@@ -9101,13 +9148,13 @@ None
 name
 "
 :
-path
+relpath
                         
 "
 file_relpath
 "
 :
-path
+relpath
                         
 "
 head
@@ -9136,20 +9183,18 @@ subsuite
 dir_relpath
 "
 :
-os
-.
-path
+mozpath
 .
 dirname
 (
-path
+relpath
 )
                         
 "
 srcdir_relpath
 "
 :
-path
+relpath
                     
 }
 )
@@ -9273,6 +9318,23 @@ root
 filename
 )
                     
+relpath
+=
+mozpath
+.
+relpath
+(
+mozpath
+.
+normpath
+(
+path
+)
+self
+.
+topsrcdir
+)
+                    
 self
 .
 _tests
@@ -9327,13 +9389,13 @@ None
 name
 "
 :
-path
+relpath
                         
 "
 file_relpath
 "
 :
-path
+relpath
                         
 "
 head
@@ -9362,20 +9424,18 @@ subsuite
 dir_relpath
 "
 :
-os
-.
-path
+mozpath
 .
 dirname
 (
-path
+relpath
 )
                         
 "
 srcdir_relpath
 "
 :
-path
+relpath
                     
 }
 )
@@ -9495,6 +9555,23 @@ root
 filename
 )
                     
+relpath
+=
+mozpath
+.
+relpath
+(
+mozpath
+.
+normpath
+(
+path
+)
+self
+.
+topsrcdir
+)
+                    
 self
 .
 _tests
@@ -9547,13 +9624,13 @@ None
 name
 "
 :
-path
+relpath
                         
 "
 file_relpath
 "
 :
-path
+relpath
                         
 "
 head
@@ -9582,20 +9659,18 @@ subsuite
 dir_relpath
 "
 :
-os
-.
-path
+mozpath
 .
 dirname
 (
-path
+relpath
 )
                         
 "
 srcdir_relpath
 "
 :
-path
+relpath
                     
 }
 )
