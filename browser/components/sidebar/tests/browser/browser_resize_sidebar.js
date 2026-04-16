@@ -85,8 +85,11 @@ true
 )
 ;
 await
+SidebarTestUtils
+.
 waitForTabstripOrientation
 (
+window
 "
 vertical
 "
@@ -1104,8 +1107,11 @@ false
 )
 ;
 await
+SidebarTestUtils
+.
 waitForTabstripOrientation
 (
+window
 "
 horizontal
 "
@@ -1119,8 +1125,11 @@ popPrefEnv
 )
 ;
 await
+SidebarTestUtils
+.
 waitForTabstripOrientation
 (
+window
 "
 vertical
 "

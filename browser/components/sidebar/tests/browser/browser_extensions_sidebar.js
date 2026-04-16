@@ -584,8 +584,11 @@ await
 promiseClosed
 ;
 await
-ensureSidebarLauncherIsVisible
+SidebarTestUtils
+.
+ensureLauncherVisible
 (
+window
 )
 ;
 await
@@ -1375,7 +1378,9 @@ sidebar
 )
 ;
 await
-toggleSidebarPanel
+SidebarTestUtils
+.
+showPanel
 (
 window
 "
@@ -1913,7 +1918,9 @@ sidebar
 )
 ;
 await
-toggleSidebarPanel
+SidebarTestUtils
+.
+showPanel
 (
 window
 "

@@ -101,8 +101,11 @@ true
 )
 ;
 await
+SidebarTestUtils
+.
 waitForTabstripOrientation
 (
+window
 "
 vertical
 "

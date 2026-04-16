@@ -145,7 +145,9 @@ viewBookmarksSidebar
 )
 {
 await
-toggleSidebarPanel
+SidebarTestUtils
+.
+showPanel
 (
 window
 "
