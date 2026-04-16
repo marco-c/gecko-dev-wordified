@@ -2048,7 +2048,7 @@ where
 ContentParent
 will
 pass
-SupressLog
+SuppressLog
 output
 mode
 .

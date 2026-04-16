@@ -262,7 +262,7 @@ innerValueOf
 {
 /
 /
-Supress
+Suppress
 callee
 .
 instance

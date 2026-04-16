@@ -146,7 +146,7 @@ untrusted
 cert
 with
 errors
-supressed
+suppressed
 NetUtil
 .
 asyncFetch

@@ -16678,7 +16678,7 @@ if
 FUZZING_JS_FUZZILLI
 /
 /
-supress
+suppress
 calls
 into
 user

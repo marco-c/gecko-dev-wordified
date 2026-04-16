@@ -561,7 +561,7 @@ a
 context
 menu
 event
-supresses
+suppresses
 showing
 a
 /

@@ -5762,7 +5762,7 @@ mVerifyDropLinks
 ifdef
 DEBUG
 int32_t
-mActiveSupressDisplayportCount
+mActiveSuppressDisplayportCount
 =
 0
 ;

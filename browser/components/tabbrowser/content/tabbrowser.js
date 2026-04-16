@@ -29534,7 +29534,7 @@ suppressWarnAboutClosingWindow
 *
 This
 will
-supress
+suppress
 the
 warning
 about
@@ -30852,7 +30852,7 @@ suppressWarnAboutClosingWindow
 *
 This
 will
-supress
+suppress
 the
 warning
 about
