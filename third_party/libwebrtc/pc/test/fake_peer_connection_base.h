@@ -1077,6 +1077,11 @@ return
 }
 ;
 }
+[
+[
+deprecated
+]
+]
 bool
 GetStats
 (

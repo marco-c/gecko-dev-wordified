@@ -7815,6 +7815,11 @@ crbug
 com
 /
 822696
+[
+[
+deprecated
+]
+]
 virtual
 bool
 GetStats

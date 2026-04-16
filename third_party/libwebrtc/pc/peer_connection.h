@@ -1467,6 +1467,11 @@ See
 peerconnectioninterface
 .
 h
+[
+[
+deprecated
+]
+]
 bool
 GetStats
 (
