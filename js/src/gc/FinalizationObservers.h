@@ -1436,6 +1436,12 @@ traceWeakEdges
 JSTracer
 *
 trc
+JS
+:
+:
+Zone
+*
+zone
 )
 ;
 private
@@ -1446,6 +1452,12 @@ traceWeakFinalizationRegistryEdges
 JSTracer
 *
 trc
+JS
+:
+:
+Zone
+*
+zone
 )
 ;
 void

@@ -1232,7 +1232,7 @@ callbacks
 *
 -
 a
-weakmap
+map
 tracking
 unregister
 tokens
@@ -1325,9 +1325,9 @@ in
 a
 map
 of
-*
 registrations
 .
+*
 They
 keys
 of
@@ -1341,9 +1341,9 @@ do
 not
 keep
 the
-*
 unregister
 token
+*
 alive
 .
 *
@@ -1359,8 +1359,9 @@ looked
 up
 in
 the
-weakmap
 *
+registrations
+map
 and
 the
 corresponding
@@ -1446,15 +1447,6 @@ include
 gc
 /
 FinalizationObservers
-.
-h
-"
-#
-include
-"
-gc
-/
-WeakMap
 .
 h
 "
@@ -1946,6 +1938,9 @@ traceWeak
 JSTracer
 *
 trc
+bool
+*
+hasSymbolRegistrations
 )
 ;
 static
