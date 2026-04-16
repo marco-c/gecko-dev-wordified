@@ -4745,6 +4745,8 @@ browser
 menubar
 .
 inc
+.
+xhtml
 our
 history
 menu

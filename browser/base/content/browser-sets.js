@@ -139,6 +139,8 @@ browser
 sets
 .
 inc
+.
+xhtml
 document
 .
 getElementById

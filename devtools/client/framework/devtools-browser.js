@@ -503,6 +503,8 @@ browser
 sets
 .
 inc
+.
+xhtml
 and
 should
 not
@@ -523,6 +525,8 @@ browser
 sets
 .
 inc
+.
+xhtml
 command
 toggleToolboxCommand
 (
@@ -1997,6 +2001,8 @@ browser
 sets
 .
 inc
+.
+xhtml
 command
 openAboutDebugging
 (
