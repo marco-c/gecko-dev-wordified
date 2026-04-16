@@ -215,7 +215,7 @@ FieldTrialParameter
 <
 double
 >
-smoothed_l4s_avg_g_down
+smoothed_rtt_avg_g_down
 ;
 /
 /

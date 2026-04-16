@@ -203,10 +203,10 @@ SmoothedRttAvgGUp
 .
 0
 )
-smoothed_l4s_avg_g_down
+smoothed_rtt_avg_g_down
 (
 "
-SmoothedL4sAvgGDown
+SmoothedRttAvgGDown
 "
 1
 .
@@ -510,7 +510,7 @@ l4s_avg_g_down
 &
 smoothed_rtt_avg_g_up
 &
-smoothed_l4s_avg_g_down
+smoothed_rtt_avg_g_down
 &
 max_segment_size
 &
