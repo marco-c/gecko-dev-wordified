@@ -221,6 +221,8 @@ const
 char
 *
 imported
+=
+nullptr
 ;
 /
 /
@@ -235,11 +237,15 @@ const
 char
 *
 entry1
+=
+nullptr
 ;
 const
 char
 *
 entry2
+=
+nullptr
 ;
 /
 /
