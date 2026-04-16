@@ -721,8 +721,6 @@ Element
 element
 )
 pseudo
-.
-mType
 )
 ;
 break
@@ -747,8 +745,6 @@ mElement
 aTarget
 .
 mPseudoRequest
-.
-mType
 )
 ;
 break
@@ -879,8 +875,6 @@ Named
 (
 aReferenceElement
 aPseudoRequest
-.
-mType
 )
 ;
 return
@@ -1159,12 +1153,10 @@ aElement
 &
 mSource
 .
-mPseudoType
+mPseudoRequest
 =
 =
 aPseudoRequest
-.
-mType
 ;
 }
 layers
@@ -1463,13 +1455,11 @@ mElement
 &
 &
 aPseudoRequest
-.
-mType
 =
 =
 mSource
 .
-mPseudoType
+mPseudoRequest
 )
 ;
 mAxis
