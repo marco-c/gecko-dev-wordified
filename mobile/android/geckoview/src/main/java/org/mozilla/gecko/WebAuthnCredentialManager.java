@@ -1642,15 +1642,6 @@ build
 )
 ;
 final
-Bundle
-bundle
-=
-new
-Bundle
-(
-)
-;
-final
 GetCredentialRequest
 request
 =
