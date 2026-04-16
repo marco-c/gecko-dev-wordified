@@ -7297,6 +7297,12 @@ their
 /
 default
 values
+except
+systemFont
+which
+should
+be
+true
 .
 gfxFontStyle
 candidate
@@ -7307,6 +7313,12 @@ gfxFontStyle
 defaults
 {
 }
+;
+defaults
+.
+systemFont
+=
+true
 ;
 candidate
 .

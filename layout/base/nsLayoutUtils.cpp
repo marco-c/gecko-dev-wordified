@@ -66831,6 +66831,12 @@ platform
 "
 #
 endif
+aStyle
+.
+systemFont
+=
+true
+;
 }
 /
 *
