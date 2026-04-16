@@ -66,9 +66,6 @@ use
 kvstore
 :
 :
-skv
-:
-:
 Value
 ;
 /
