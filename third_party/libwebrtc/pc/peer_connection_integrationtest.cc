@@ -14716,11 +14716,6 @@ caller
 )
 -
 >
-OldGetStats
-(
-)
--
->
 DtlsCipher
 (
 )
@@ -14747,11 +14742,6 @@ WaitUntil
 {
 return
 caller
-(
-)
--
->
-OldGetStats
 (
 )
 -
@@ -14892,11 +14882,6 @@ caller
 )
 -
 >
-OldGetStats
-(
-)
--
->
 DtlsCipher
 (
 )
@@ -14923,11 +14908,6 @@ WaitUntil
 {
 return
 caller
-(
-)
--
->
-OldGetStats
 (
 )
 -
