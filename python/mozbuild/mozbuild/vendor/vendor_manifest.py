@@ -2381,7 +2381,7 @@ log
                 
 logging
 .
-CRITICAL
+WARNING
                 
 "
 vendor
