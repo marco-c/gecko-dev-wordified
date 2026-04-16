@@ -821,7 +821,7 @@ we
 are
 using
 mitmproxy
-11
+12
 we
 need
 to
@@ -871,11 +871,11 @@ mitmproxy_version
 =
 =
 "
-11
+12
 .
-0
+2
 .
-0
+1
 "
 :
             
