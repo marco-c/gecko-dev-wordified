@@ -19258,8 +19258,11 @@ isDetached
 )
 )
 ;
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+newByteLength
+>
+0
 source
 -
 >
@@ -19271,8 +19274,11 @@ byteLength
 sourceByteOffset
 )
 ;
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+newByteLength
+>
+0
 source
 -
 >
@@ -19322,6 +19328,13 @@ return
 nullptr
 ;
 }
+if
+(
+newByteLength
+>
+0
+)
+{
 std
 :
 :
@@ -19339,6 +19352,7 @@ newByteLength
 toFill
 )
 ;
+}
 return
 newBuffer
 ;
