@@ -403,14 +403,10 @@ probes
 ignores
 max_total_allocated_bitrate
 .
-std
-:
-:
-optional
-<
 bool
->
 enable_repeated_initial_probing
+=
+false
 ;
 std
 :
