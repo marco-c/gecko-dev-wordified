@@ -1145,7 +1145,7 @@ latency
 measurements
 .
 void
-SetFirstPacketReceivedCallback
+SetFirstPacketReceivedCallback_n
 (
 absl
 :
@@ -1154,6 +1154,9 @@ AnyInvocable
 <
 void
 (
+const
+RtpPacketReceived
+&
 )
 &
 &
@@ -1163,7 +1166,7 @@ callback
 override
 ;
 void
-SetFirstPacketSentCallback
+SetFirstPacketSentCallback_n
 (
 absl
 :
@@ -1190,6 +1193,9 @@ AnyInvocable
 <
 void
 (
+const
+RtpPacketReceived
+&
 )
 >
 callback
@@ -2314,6 +2320,9 @@ AnyInvocable
 <
 void
 (
+const
+RtpPacketReceived
+&
 )
 &
 &
@@ -2358,6 +2367,9 @@ AnyInvocable
 <
 void
 (
+const
+RtpPacketReceived
+&
 )
 >
 on_packet_received_n_

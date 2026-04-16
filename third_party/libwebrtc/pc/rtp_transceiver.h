@@ -98,6 +98,11 @@ h
 #
 include
 <
+cstdint
+>
+#
+include
+<
 memory
 >
 #
@@ -3229,11 +3234,15 @@ GetCodecVendor
 void
 OnFirstPacketReceived
 (
+uint32_t
+ssrc
 )
 ;
 void
 OnPacketReceived
 (
+uint32_t
+ssrc
 scoped_refptr
 <
 PendingTaskSafetyFlag

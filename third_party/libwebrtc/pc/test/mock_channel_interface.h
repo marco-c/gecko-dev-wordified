@@ -199,6 +199,9 @@ h
 namespace
 webrtc
 {
+class
+RtpPacketReceived
+;
 /
 /
 Mock
@@ -389,7 +392,7 @@ override
 MOCK_METHOD
 (
 void
-SetFirstPacketReceivedCallback
+SetFirstPacketReceivedCallback_n
 (
 absl
 :
@@ -398,6 +401,9 @@ AnyInvocable
 <
 void
 (
+const
+RtpPacketReceived
+&
 )
 &
 &
@@ -411,7 +417,7 @@ override
 MOCK_METHOD
 (
 void
-SetFirstPacketSentCallback
+SetFirstPacketSentCallback_n
 (
 absl
 :
@@ -442,6 +448,9 @@ AnyInvocable
 <
 void
 (
+const
+RtpPacketReceived
+&
 )
 >
 )

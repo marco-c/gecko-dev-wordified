@@ -2865,7 +2865,7 @@ void
 BaseChannel
 :
 :
-SetFirstPacketReceivedCallback
+SetFirstPacketReceivedCallback_n
 (
 absl
 :
@@ -2874,6 +2874,9 @@ AnyInvocable
 <
 void
 (
+const
+RtpPacketReceived
+&
 )
 &
 &
@@ -2912,7 +2915,7 @@ org
 )
 :
 Rename
-SetFirstPacketReceivedCallback
+SetFirstPacketReceivedCallback_n
 to
 /
 /
@@ -2965,7 +2968,7 @@ void
 BaseChannel
 :
 :
-SetFirstPacketSentCallback
+SetFirstPacketSentCallback_n
 (
 absl
 :
@@ -3022,6 +3025,9 @@ AnyInvocable
 <
 void
 (
+const
+RtpPacketReceived
+&
 )
 >
 callback
@@ -3573,6 +3579,7 @@ move
 on_first_packet_received_
 )
 (
+parsed_packet
 )
 ;
 on_first_packet_received_
@@ -3791,6 +3798,7 @@ on_packet_received_n_
 {
 on_packet_received_n_
 (
+parsed_packet
 )
 ;
 }

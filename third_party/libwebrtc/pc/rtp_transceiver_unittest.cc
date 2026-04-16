@@ -983,7 +983,7 @@ EXPECT_CALL
 (
 *
 channel1
-SetFirstPacketReceivedCallback
+SetFirstPacketReceivedCallback_n
 (
 _
 )
@@ -1139,7 +1139,7 @@ EXPECT_CALL
 (
 *
 channel1_ptr
-SetFirstPacketReceivedCallback
+SetFirstPacketReceivedCallback_n
 (
 _
 )
@@ -1340,7 +1340,7 @@ EXPECT_CALL
 (
 *
 channel
-SetFirstPacketReceivedCallback
+SetFirstPacketReceivedCallback_n
 (
 _
 )
@@ -1647,7 +1647,7 @@ EXPECT_CALL
 (
 *
 channel
-SetFirstPacketReceivedCallback
+SetFirstPacketReceivedCallback_n
 (
 _
 )
