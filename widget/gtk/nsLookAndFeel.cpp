@@ -8068,6 +8068,12 @@ mDefaultFontStyle
 break
 ;
 }
+aFontStyle
+.
+systemFont
+=
+true
+;
 /
 /
 Convert
