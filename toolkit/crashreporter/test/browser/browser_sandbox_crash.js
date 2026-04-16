@@ -248,9 +248,7 @@ annotations
 .
 StackTraces
 .
-crash_info
-.
-type
+crash_type
 .
 startsWith
 (
@@ -340,9 +338,7 @@ annotations
 .
 StackTraces
 .
-crash_info
-.
-address
+crash_address
 chroot_syscall_number
 (
 )

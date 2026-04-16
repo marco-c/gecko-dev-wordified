@@ -537,7 +537,7 @@ frame
 module_index
 ]
 .
-base_addr
+base_address
 ;
 moduleOffset
 =
@@ -1075,7 +1075,7 @@ frame
 module_index
 ]
 .
-base_addr
+base_address
 ;
 let
 moduleOffset
@@ -1368,9 +1368,7 @@ crashingThreadIndex
 =
 stackTraces
 .
-crash_info
-.
-crashing_thread
+crash_thread
 ;
 gModules
 =

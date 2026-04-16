@@ -1173,13 +1173,6 @@ StackTraces
 "
 :
 {
-"
-status
-"
-:
-"
-OK
-"
 }
 "
 Version

@@ -2280,11 +2280,6 @@ const
 stackTraces
 =
 {
-status
-:
-"
-OK
-"
 }
 ;
 add_task

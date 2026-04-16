@@ -4007,10 +4007,7 @@ parseBigInt
 (
 stackInfo
 .
-crash_info
-?
-.
-address
+crash_address
 )
 ;
 if
@@ -4083,7 +4080,7 @@ parseBigInt
 (
 module
 .
-base_addr
+base_address
 )
 &
 &
@@ -4093,7 +4090,7 @@ parseBigInt
 (
 module
 .
-end_addr
+end_address
 )
 )
 ?

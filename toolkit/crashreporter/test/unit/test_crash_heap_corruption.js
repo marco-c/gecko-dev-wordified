@@ -130,9 +130,7 @@ extra
 .
 StackTraces
 .
-crash_info
-.
-type
+crash_type
 "
 STATUS_HEAP_CORRUPTION
 "
