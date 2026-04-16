@@ -4896,13 +4896,13 @@ case
 MozOp
 :
 :
-StackSwitch
+GuardSuspending
 :
 return
 OpKind
 :
 :
-StackSwitch
+GuardSuspending
 ;
 #
 endif
