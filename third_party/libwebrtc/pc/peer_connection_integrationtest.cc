@@ -802,6 +802,17 @@ include
 "
 rtc_base
 /
+system
+/
+plan_b_only
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 task_queue_for_test
 .
 h
@@ -19971,6 +19982,9 @@ PeerConnectionIntegrationTestPlanB
 MediaFlowsAfterEarlyWarmupWithCreateSender
 )
 {
+RTC_ALLOW_PLAN_B_DEPRECATION_BEGIN
+(
+)
 ASSERT_TRUE
 (
 CreatePeerConnectionWrappers
@@ -20074,6 +20088,9 @@ callee_stream
 "
 )
 ;
+RTC_ALLOW_PLAN_B_DEPRECATION_END
+(
+)
 caller
 (
 )
@@ -20918,6 +20935,9 @@ PeerConnectionIntegrationTestPlanB
 CanSendRemoteVideoTrack
 )
 {
+RTC_ALLOW_PLAN_B_DEPRECATION_BEGIN
+(
+)
 ASSERT_TRUE
 (
 CreatePeerConnectionWrappers
@@ -21056,6 +21076,9 @@ at
 )
 )
 ;
+RTC_ALLOW_PLAN_B_DEPRECATION_END
+(
+)
 callee
 (
 )
