@@ -250,7 +250,7 @@ EventDispatcher
 .
 instance
 .
-dispatch
+sendRequest
 (
 "
 GeckoView
@@ -261,9 +261,6 @@ Delegate
 :
 Attached
 "
-undefined
-undefined
-undefined
 )
 ;
 const
