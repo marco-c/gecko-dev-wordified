@@ -1503,16 +1503,6 @@ getTabBrowser
 about
 :
 preferences
-?
-action
-=
-choose
--
-what
--
-to
--
-sync
 #
 sync
 "
