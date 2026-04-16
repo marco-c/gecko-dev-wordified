@@ -2336,11 +2336,11 @@ nsRect
 &
 aRect
 const
-ScrollAxis
+AxisScrollParams
 &
 aVertical
 const
-ScrollAxis
+AxisScrollParams
 &
 aHorizontal
 const

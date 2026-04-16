@@ -18543,10 +18543,10 @@ presShell
 ScrollContentIntoView
 (
 mContent
-ScrollAxis
+AxisScrollParams
 (
 )
-ScrollAxis
+AxisScrollParams
 (
 )
 ScrollFlags

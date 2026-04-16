@@ -16834,7 +16834,7 @@ frame
 caretInfo
 .
 caretRectRelativeToTextFrame
-ScrollAxis
+AxisScrollParams
 (
 WhereToScroll
 :
@@ -16845,7 +16845,7 @@ WhenToScroll
 :
 IfNotVisible
 )
-ScrollAxis
+AxisScrollParams
 (
 WhereToScroll
 :

@@ -2639,7 +2639,7 @@ GetRootElement
 (
 )
 ;
-ScrollAxis
+AxisScrollParams
 vertical
 (
 WhereToScroll
@@ -2659,7 +2659,7 @@ ScrollContentIntoView
 (
 rootElement
 vertical
-ScrollAxis
+AxisScrollParams
 (
 )
 ScrollFlags

@@ -20372,7 +20372,7 @@ nsISelectionController
 :
 :
 SELECTION_ANCHOR_REGION
-ScrollAxis
+AxisScrollParams
 (
 WhereToScroll
 :
@@ -20383,7 +20383,7 @@ WhenToScroll
 :
 Always
 )
-ScrollAxis
+AxisScrollParams
 (
 WhereToScroll
 :
@@ -20415,7 +20415,7 @@ MOZ_TRY
 ScrollContentIntoView
 (
 target
-ScrollAxis
+AxisScrollParams
 (
 WhereToScroll
 :
@@ -20426,7 +20426,7 @@ WhenToScroll
 :
 Always
 )
-ScrollAxis
+AxisScrollParams
 (
 )
 ScrollFlags
@@ -21402,7 +21402,7 @@ return
 ScrollContentIntoView
 (
 lastAnchor
-ScrollAxis
+AxisScrollParams
 (
 WhereToScroll
 :
@@ -21413,7 +21413,7 @@ WhenToScroll
 :
 Always
 )
-ScrollAxis
+AxisScrollParams
 (
 )
 ScrollFlags
@@ -21434,7 +21434,7 @@ nsISelectionController
 :
 :
 SELECTION_ANCHOR_REGION
-ScrollAxis
+AxisScrollParams
 (
 WhereToScroll
 :
@@ -21445,7 +21445,7 @@ WhenToScroll
 :
 Always
 )
-ScrollAxis
+AxisScrollParams
 (
 WhereToScroll
 :
@@ -22847,9 +22847,9 @@ const
 nsMargin
 &
 aMargin
-ScrollAxis
+AxisScrollParams
 aVertical
-ScrollAxis
+AxisScrollParams
 aHorizontal
 ScrollFlags
 aScrollFlags
@@ -23524,9 +23524,9 @@ ScrollContentIntoView
 nsIContent
 *
 aContent
-ScrollAxis
+AxisScrollParams
 aVertical
-ScrollAxis
+AxisScrollParams
 aHorizontal
 ScrollFlags
 aScrollFlags
@@ -24753,9 +24753,9 @@ const
 nsIFrame
 *
 aPositionFixedFrame
-ScrollAxis
+AxisScrollParams
 aVertical
-ScrollAxis
+AxisScrollParams
 aHorizontal
 ScrollFlags
 aScrollFlags
@@ -25429,9 +25429,9 @@ nsRect
 >
 &
 aKnownRectRelativeToTarget
-ScrollAxis
+AxisScrollParams
 aVertical
-ScrollAxis
+AxisScrollParams
 aHorizontal
 ScrollFlags
 aScrollFlags
@@ -66458,7 +66458,7 @@ mPresShell
 ScrollContentIntoView
 (
 content
-ScrollAxis
+AxisScrollParams
 (
 WhereToScroll
 :
@@ -66469,7 +66469,7 @@ WhenToScroll
 :
 IfNotVisible
 )
-ScrollAxis
+AxisScrollParams
 (
 WhereToScroll
 :
@@ -66879,10 +66879,10 @@ mPresShell
 ScrollContentIntoView
 (
 focusedContent
-ScrollAxis
+AxisScrollParams
 (
 )
-ScrollAxis
+AxisScrollParams
 (
 )
 ScrollFlags

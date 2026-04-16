@@ -531,7 +531,7 @@ comment
 for
 constructor
 of
-ScrollAxis
+AxisScrollParams
 for
 the
 detail
@@ -548,7 +548,7 @@ IfNotFullyVisible
 }
 ;
 struct
-ScrollAxis
+AxisScrollParams
 final
 {
 /
@@ -724,7 +724,7 @@ the
 axis
 the
 *
-ScrollAxis
+AxisScrollParams
 is
 used
 for
@@ -872,7 +872,7 @@ visibility
 *
 /
 explicit
-ScrollAxis
+AxisScrollParams
 (
 WhereToScroll
 aWhere

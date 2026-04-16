@@ -5015,10 +5015,10 @@ nsISelectionController
 :
 :
 SELECTION_FOCUS_REGION
-ScrollAxis
+AxisScrollParams
 (
 )
-ScrollAxis
+AxisScrollParams
 (
 )
 ScrollFlags

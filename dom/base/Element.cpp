@@ -6213,7 +6213,7 @@ presShell
 ScrollContentIntoView
 (
 this
-ScrollAxis
+AxisScrollParams
 (
 block
 WhenToScroll
@@ -6221,7 +6221,7 @@ WhenToScroll
 :
 Always
 )
-ScrollAxis
+AxisScrollParams
 (
 inline_
 WhenToScroll

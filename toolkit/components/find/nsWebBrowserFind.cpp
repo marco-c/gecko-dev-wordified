@@ -3681,14 +3681,14 @@ nsISelectionController
 :
 :
 SELECTION_WHOLE_SELECTION
-ScrollAxis
+AxisScrollParams
 (
 WhereToScroll
 :
 :
 Center
 )
-ScrollAxis
+AxisScrollParams
 (
 )
 ScrollFlags

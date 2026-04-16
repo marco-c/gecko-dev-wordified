@@ -20634,7 +20634,7 @@ into
 view
 .
 const
-ScrollAxis
+AxisScrollParams
 axis
 (
 WhereToScroll

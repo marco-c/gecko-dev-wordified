@@ -15611,10 +15611,10 @@ nsSize
 )
 )
 )
-ScrollAxis
+AxisScrollParams
 (
 )
-ScrollAxis
+AxisScrollParams
 (
 )
 ScrollFlags
@@ -24328,9 +24328,9 @@ SelectionRegion
 aRegion
 ScrollFlags
 aFlags
-ScrollAxis
+AxisScrollParams
 aVertical
-ScrollAxis
+AxisScrollParams
 aHorizontal
 )
 {
@@ -24462,9 +24462,9 @@ ScrollIntoView
 (
 SelectionRegion
 aRegion
-ScrollAxis
+AxisScrollParams
 aVertical
-ScrollAxis
+AxisScrollParams
 aHorizontal
 ScrollFlags
 aScrollFlags

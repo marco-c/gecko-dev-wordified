@@ -4069,10 +4069,10 @@ frame
 Nothing
 (
 )
-ScrollAxis
+AxisScrollParams
 (
 )
-ScrollAxis
+AxisScrollParams
 (
 )
 ScrollFlags
