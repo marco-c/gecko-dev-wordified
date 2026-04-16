@@ -11156,6 +11156,10 @@ const
 nsAString
 &
 aEncoderOptions
+const
+nsACString
+&
+aRandomizationKey
 nsIInputStream
 *
 *
@@ -11271,9 +11275,7 @@ get
 format
 encoder
 aEncoderOptions
-VoidCString
-(
-)
+aRandomizationKey
 outStream
 )
 ;

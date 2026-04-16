@@ -2174,6 +2174,7 @@ aIsAlphaPremultiplied
 true
 aMimeType
 aEncoderOptions
+aRandomizationKey
 aStream
 )
 ;
