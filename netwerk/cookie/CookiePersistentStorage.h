@@ -65,6 +65,13 @@ mozilla_net_CookiePersistentStorage_h
 #
 include
 "
+Cookie
+.
+h
+"
+#
+include
+"
 CookieStorage
 .
 h
@@ -646,9 +653,9 @@ key
 OriginAttributes
 originAttributes
 ;
-UniquePtr
+RefPtr
 <
-CookieStruct
+Cookie
 >
 cookie
 ;
