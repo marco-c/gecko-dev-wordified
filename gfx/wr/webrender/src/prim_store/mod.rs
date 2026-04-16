@@ -4968,9 +4968,6 @@ primitive
 data_handle
 :
 RadialGradientDataHandle
-visible_tiles_range
-:
-GradientTileRange
 }
 ConicGradient
 {
@@ -4990,9 +4987,6 @@ primitive
 data_handle
 :
 ConicGradientDataHandle
-visible_tiles_range
-:
-GradientTileRange
 }
 /
 /
