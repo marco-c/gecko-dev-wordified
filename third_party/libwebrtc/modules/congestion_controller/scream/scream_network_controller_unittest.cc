@@ -2714,7 +2714,7 @@ scream_controller
 feedback_generator
 )
 ;
-EXPECT_LE
+EXPECT_LT
 (
 result
 .

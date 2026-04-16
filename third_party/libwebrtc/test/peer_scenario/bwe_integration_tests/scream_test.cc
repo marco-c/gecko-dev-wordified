@@ -2130,7 +2130,7 @@ KilobitsPerSec
 /
 Stats
 after
-8s
+9s
 EXPECT_THAT
 (
 result
@@ -2141,7 +2141,7 @@ caller
 .
 subview
 (
-8
+9
 )
 Each
 (
@@ -2152,7 +2152,7 @@ DataRate
 :
 KilobitsPerSec
 (
-1500
+1200
 )
 DataRate
 :
