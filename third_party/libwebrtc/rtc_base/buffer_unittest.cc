@@ -248,7 +248,7 @@ uint8_t
 kTestData
 )
 .
-subview
+subspan
 (
 index
 )
@@ -992,7 +992,7 @@ uint8_t
 buf
 )
 .
-subview
+subspan
 (
 3
 )

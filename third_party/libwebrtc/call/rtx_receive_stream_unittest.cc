@@ -630,7 +630,7 @@ drop
 return
 a
 .
-subview
+subspan
 (
 0
 a

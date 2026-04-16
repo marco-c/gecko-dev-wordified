@@ -995,7 +995,7 @@ received_packet
 (
 data
 .
-subview
+subspan
 (
 processed_bytes
 expected_pkt_len
