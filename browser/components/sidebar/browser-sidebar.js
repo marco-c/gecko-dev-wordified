@@ -3495,6 +3495,12 @@ this
 inSingleTabWindow
 &
 &
+!
+window
+.
+opener
+&
+&
 (
 this
 .
